@@ -4,16 +4,16 @@ description: ShowPopupMenu 方法
 ms.assetid: 7f964d53-2594-41b1-9450-1ba7e9f85882
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b0325a552cc3c1f91a64c1240964f1d0c329292c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a0cfd080adcf0158a628f019b4d48be5cd10b9c5b47d7a4b71ccd2393ad83ce6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106964957"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119600988"
 ---
 # <a name="showpopupmenu-method"></a>ShowPopupMenu 方法
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 <dl> <dt>
 
@@ -27,7 +27,7 @@ ms.locfileid: "106964957"
 <span id="Syntax"></span><span id="syntax"></span><span id="SYNTAX"></span>**語法**
 </dt> <dd>
 
-*代理。***字元 (*** 」CharacterID ***") 。ShowPopupMenu*** x、y*
+*agent. ***字元 ( "**_CharacterID_*_" ) 。ShowPopupMenu_ * _x、y_
 
 
 
@@ -38,7 +38,7 @@ ms.locfileid: "106964957"
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -68,9 +68,9 @@ ms.locfileid: "106964957"
 [**AutoPopupMenu 屬性**](autopopupmenu-property.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

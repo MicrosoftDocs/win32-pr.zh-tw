@@ -56,7 +56,7 @@
           href: glyphs-and-glyph-runs.md
         - name: 自訂字型集
           href: custom-font-sets-win10.md
-        - name: ' (Windows 7/8) 的自訂字型集合'
+        - name: '自訂字型集合 (Windows 7/8) '
           href: custom-font-collections.md
         - name: OpenType 變數字型
           href: opentype-variable-fonts.md
@@ -64,7 +64,7 @@
           href: appendix--win32-migration.md
         - name: 與 GDI 交互操作
           href: interoperating-with-gdi.md
-        - name: DirectWrite 詞彙
+        - name: DirectWrite詞彙
           href: directwrite-glossary.md
     - name: API 參照
       href: reference.md

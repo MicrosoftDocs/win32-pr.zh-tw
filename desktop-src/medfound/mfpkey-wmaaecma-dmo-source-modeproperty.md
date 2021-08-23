@@ -4,14 +4,14 @@ ms.assetid: d1d3beba-678c-48fd-ad12-45e0418e1236
 title: 'MFPKEY_WMAAECMA_DMO_SOURCE_MODE 屬性 (Wmcodecdsp) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ec5749ff1f142603cc45df475caae7bc71182bde
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1ec9dd01be5a020047410362b2fdfc27fd8d703a393e3ae2f557b1dd3a42bf80
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191794"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119555298"
 ---
-# <a name="mfpkey_wmaaecma_dmo_source_mode-property"></a>MFPKEY \_ WMAAECMA \_ 中 \_ 來源 \_ 模式屬性
+# <a name="mfpkey_wmaaecma_dmo_source_mode-property"></a>MFPKEY \_ WMAAECMA \_ DMO \_ SOURCE \_ MODE 屬性
 
 指定語音捕獲 DSP 是否使用來源模式或篩選模式。
 
@@ -49,7 +49,7 @@ VARIANT \_ TRUE
  
 
 > [!Note]  
-> 當 SQL-DMO 處於來源模式時，您應該只呼叫 [**IMediaObject：： SetOutputType**](/previous-versions/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-setoutputtype) 來設定輸出資料流程格式，而不要呼叫 [**IMediaObject：： SetInputType**](/previous-versions/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-setinputtype) 來設定輸入資料流程格式。 否則，將會失敗。
+> 當 DMO 處於來源模式時，您應該只呼叫 [**IMediaObject：： SetOutputType**](/previous-versions/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-setoutputtype)來設定輸出資料流程格式，而不要呼叫 [**IMediaObject：： SetInputType**](/previous-versions/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-setinputtype)來設定輸入資料流程格式。 否則 DMO 初始化將會失敗。
 
  
 
@@ -69,7 +69,7 @@ VARIANT \_ TRUE
  
 
 > [!Note]  
-> 只有具有單一輸入的模式，才可以從 DirectShow 9.0 API 使用包裝函式篩選。
+> 只有具有單一輸入的模式，才可使用來自 DirectShow 9.0 API 的包裝函式篩選器 DMO。
 
  
 
@@ -79,8 +79,8 @@ VARIANT \_ TRUE
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                          |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                    |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                          |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                    |
 | 標頭<br/>                   | <dl> <dt>Wmcodecdsp。h</dt> </dl> |
 
 

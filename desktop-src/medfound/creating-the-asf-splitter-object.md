@@ -4,12 +4,12 @@ ms.assetid: 448e2b38-70f7-4491-aac8-ee988a6f7473
 title: 建立 ASF 分隔器物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d42c8033a0861102f6d66b22e43516a616d6428b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fa5782f42b53607943704836c350b76e69d872e8d9654959d4453d8e029c21f0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847638"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119600808"
 ---
 # <a name="creating-the-asf-splitter-object"></a>建立 ASF 分隔器物件
 

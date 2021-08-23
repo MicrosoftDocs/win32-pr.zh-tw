@@ -4,12 +4,12 @@ ms.assetid: 73042eb1-b2d6-4dcb-b40e-f8f3933dcdb0
 title: 媒體存取
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5bb3fe361aab9d5b5c9897deb5ea36d6e85adcfd
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: c2f2fc67e18a85718a10a0489656d4b423dd2f9f849a876ea5eec0543017611f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104195752"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119575608"
 ---
 # <a name="media-access"></a>媒體存取
 

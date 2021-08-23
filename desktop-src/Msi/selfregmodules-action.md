@@ -4,12 +4,12 @@ ms.assetid: b139ae28-e479-4915-909d-2449244e9fd6
 title: SelfRegModules 動作
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 75895b1886fad51f36113ce6e677ba6a534ab0cd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fbf137dc63baa72a3d5b93370e40911af93691eaa911c4081990656c84091870
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106987818"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119630038"
 ---
 # <a name="selfregmodules-action"></a>SelfRegModules 動作
 

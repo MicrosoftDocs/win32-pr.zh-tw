@@ -4,12 +4,12 @@ ms.assetid: 9316c8dd-c9b7-49e2-a987-5949a87b0cfc
 title: 將物件放置在多個顯示監視器上
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 77149291737482fa0f3e7fe19ee4f350ee6521d8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6eb6581fbed64b6a8ac83e29410e9758c6dea7b2d145958c57fa187abf34985c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972568"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119602728"
 ---
 # <a name="positioning-objects-on-multiple-display-monitors"></a>將物件放置在多個顯示監視器上
 
@@ -17,7 +17,7 @@ ms.locfileid: "104972568"
 
 
 
-| Object         | Location                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| Object         | 位置                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 |----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 時間範圍         | [ [**CreateWindow**](/windows/win32/api/winuser/nf-winuser-createwindowa) (例如) 在監視器上顯示一個視窗，其中包含視窗的最大部分。最大化包含視窗最大部分的監視器，直到最小化為止。<br/> ALT 鍵的按鍵組合會在具有目前使用中視窗的監視器上顯示一個視窗。<br/>                                                                                                                                          |
 | 擁有的視窗   | 在與擁有者相同的監視器上。                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
@@ -53,7 +53,7 @@ ms.locfileid: "104972568"
 
 全螢幕視窗的大小需要在不同解析度的監視器之間移動時變更。 若要這樣做，應用程式必須使用 [**MonitorFromWindow**](/windows/desktop/api/Winuser/nf-winuser-monitorfromwindow) 或 [**MonitorFromPoint**](/windows/desktop/api/Winuser/nf-winuser-monitorfrompoint) 檢查它所在的視窗，然後使用 [**GetMonitorInfo**](/windows/desktop/api/Winuser/nf-winuser-getmonitorinfoa) 來取得監視器的大小。 或者，您可以從 DirectX **DirectDrawEnumerateEx** 功能使用 **HMONITOR** 。 然後使用 [**SetWindowPos**](/windows/win32/api/winuser/nf-winuser-setwindowpos) 來定位並調整視窗的大小，以涵蓋監視器。
 
-最大化的視窗不會涵蓋具有 [永遠開啟] 屬性的工作列。 不過，全螢幕視窗涵蓋工作列，例如，在 Microsoft PowerPoint 投影片放映和遊戲中。
+最大化的視窗不會涵蓋具有 [永遠開啟] 屬性的工作列。 但是，全螢幕視窗涵蓋工作列，例如，Microsoft PowerPoint 投影片放映和遊戲中。
 
 若要在應用程式結束時儲存（以及稍後還原）視窗的位置，請使用 [**GetWindowPlacement**](/windows/win32/api/winuser/nf-winuser-getwindowplacement) 和 [**SetWindowPlacement**](/windows/win32/api/winuser/nf-winuser-setwindowplacement) 函數。 不過，請先檢查位置是否仍然有效，再使用它，因為可能已從系統中移動或移除此監視器。 如果視窗的 **HMONITOR** 無效，應用程式會在主要監視器上顯示視窗。
 

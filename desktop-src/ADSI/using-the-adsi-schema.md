@@ -8,12 +8,12 @@ keywords:
 - Adsi ADSI，使用 ADSI 架構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 478104a24d850f79cc52473f3d9e546936c56650
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 8aaf49f75d026f52c644d06a6fe36e4555841e3e7bf587ffeb1e0277d1e5ac99
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103842735"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119648818"
 ---
 # <a name="using-the-adsi-schema"></a>使用 ADSI 架構
 
@@ -27,6 +27,6 @@ ADSI 會視需要將語法資料抽象化，並可讓您使用 [**IADsSyntax**](
 
 如需 Active Directory 架構的詳細資訊，請參閱 [Active Directory 架構](/windows/desktop/AD/active-directory-schema)。 如需用來讀取架構容器的程式碼範例，請參閱 [讀取架構](reading-the-schema.md)。
 
- 
+ 
 
- 
+ 

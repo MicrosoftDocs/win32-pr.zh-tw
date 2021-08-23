@@ -4,12 +4,12 @@ ms.assetid: 61567043-e76e-4166-9344-c57661e5752a
 title: 使用編解碼器 MFTs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 008610dbf6bf17205de15b89440d1bdacee3c489
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bf39b4a413059542ff05dd0fb2e82c3a89117018ba68f489a968c85423e82866
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193767"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119602208"
 ---
 # <a name="working-with-codec-mfts"></a>使用編解碼器 MFTs
 

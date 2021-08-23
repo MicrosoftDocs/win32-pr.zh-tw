@@ -21,12 +21,12 @@ keywords:
 - MIDI 服務，關於
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 43c476807f750f9e90788377588f6c9af96561aa
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ad1ce20164c42342c52defd27e7f3ccdfb0a44ec9a4e0a6679c1b190270fc62e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103672151"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119526688"
 ---
 # <a name="about-midi"></a>關於 MIDI
 
@@ -47,9 +47,9 @@ Microsoft Win32 應用程式開發介面 (API) 提供下列方法讓應用程式
 -   [處理來自兩個 MIDI 來源的 MIDI 資料](processing-midi-data-from-two-midi-sources.md)
 -   [建立 MIDI 檔案](creating-midi-files.md)
 
- 
+ 
 
- 
+ 
 
 
 

@@ -8,12 +8,12 @@ keywords:
 - LDAP 提供者 ADSI，使用者管理範例，使用者無法變更密碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 512f3c8cc535805f16dcfecc1a85a0eb5642cb37
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e82f18a86c2029032488c71593a54bb1291719596cf26bfbec76e31d88b3da07
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106967594"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119648918"
 ---
 # <a name="user-cannot-change-password-ldap-provider"></a>使用者無法變更 LDAP 提供者) 的密碼 (
 
@@ -24,9 +24,9 @@ ms.locfileid: "106967594"
 
 使用 WinNT 提供者可以更輕鬆地讀取和修改使用者無法變更密碼設定。 如需詳細資訊，請參閱 [使用者無法變更 (WinNT 提供者的密碼) ](winnt-user-cannot-change-password.md)。
 
- 
+ 
 
- 
+ 
 
 
 

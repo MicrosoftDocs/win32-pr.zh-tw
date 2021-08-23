@@ -4,12 +4,12 @@ ms.assetid: 86b5b51e-e5f4-4f42-84f9-1faa29ea7a84
 title: 快速鍵資料表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b56482f1d2d5521bede54c781c91d2de2bc39e79
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e47a5c5843b4ad1986d968329c9df9b6d9df5e291cd4adf06bccfcfa37adb66a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103850167"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119628418"
 ---
 # <a name="shortcut-table"></a>快速鍵資料表
 
@@ -23,11 +23,11 @@ ms.locfileid: "103850167"
 |------------------------|------------------------------|-----|----------|
 | 快速鍵               | [識別碼](identifier.md) | Y   | N        |
 | 目錄\_            | [識別碼](identifier.md) | N   | N        |
-| Name                   | [檔案名稱](filename.md)     | N   | N        |
+| 名稱                   | [檔案名稱](filename.md)     | N   | N        |
 | 元件\_            | [識別碼](identifier.md) | N   | N        |
 | 目標                 | [快速鍵](shortcut.md)     | N   | N        |
 | 引數              | [格式 化](formatted.md)   | N   | Y        |
-| Description            | [Text](text.md)             | N   | Y        |
+| 描述            | [Text](text.md)             | N   | Y        |
 | 熱鍵                 | [整數](integer.md)       | N   | Y        |
 | 圖示\_                 | [識別碼](identifier.md) | N   | Y        |
 | >iconindex              | [整數](integer.md)       | N   | Y        |
@@ -127,7 +127,7 @@ ms.locfileid: "103850167"
 
 應用程式視窗的 [顯示] 命令。
 
-您可以使用下列值。 這些值會如 Windows API 函數 ShowWindow 所定義。
+您可以使用下列值。 這些值會如針對 Windows API 函數 ShowWindow 所定義。
 
 
 
@@ -146,7 +146,7 @@ ms.locfileid: "103850167"
 <span id="WkDir"></span><span id="wkdir"></span><span id="WKDIR"></span>WkDir
 </dt> <dd>
 
-屬性的名稱，該屬性具有快捷方式的工作目錄路徑。 此值可以使用 Windows 格式參考環境變數，例如% USERPROFILE%。 當安裝程式解析工作目錄以建立快捷方式時，參考會解析為實際的路徑。
+屬性的名稱，該屬性具有快捷方式的工作目錄路徑。 值可以使用 Windows 格式參考環境變數，例如% USERPROFILE%。 當安裝程式解析工作目錄以建立快捷方式時，參考會解析為實際的路徑。
 
 </dd> </dl>
 
@@ -157,7 +157,7 @@ ms.locfileid: "103850167"
 
 此欄位包含 [格式化](formatted.md) 的字串值，適用于非語言相關可攜性可執行檔的完整路徑 (LN 檔案) ，其中包含資源設定 (RC Config) 資料。 格式化的字串可以使用 \[ \# filekey \] 慣例。 如果此欄位包含值，則會忽略 [名稱] 資料行。 如果這個欄位是空的，安裝程式會使用 [名稱] 資料行中的值。 當此欄位包含一個值時， **DisplayResourceId** 欄位也必須包含值，否則安裝會失敗。
 
-只有在 Windows Vista 或 Windows Server 2008 上執行時，才會使用這個快速鍵表格的資料行，否則會予以忽略。 此資料行適用于 Windows Installer 4.0 之前的版本。
+只有在 Windows Vista 或 Windows Server 2008 上執行時，才會使用這個快速鍵資料表的資料行，否則會予以忽略。 此資料行適用于 Windows Installer 4.0 之前的版本。
 
 如需有關如何新增快捷方式資料表的快捷方式以搭配 MUI 資源使用的詳細資訊，請參閱 [Mui 快捷方式範例](a-mui-shortcut-example.md)。
 
@@ -168,7 +168,7 @@ ms.locfileid: "103850167"
 
 快速鍵的顯示名稱索引。 此值必須是非負數。 當此欄位包含一個值時， **DisplayResourceDLL** 欄位也必須包含值，否則安裝會失敗。
 
-只有在 Windows Vista 或 Windows Server 2008 上執行時，才會使用這個快速鍵表格的資料行，否則會予以忽略。 此資料行適用于 Windows Installer 4.0 之前的版本。
+只有在 Windows Vista 或 Windows Server 2008 上執行時，才會使用這個快速鍵資料表的資料行，否則會予以忽略。 此資料行適用于 Windows Installer 4.0 之前的版本。
 
 </dd> <dt>
 
@@ -177,7 +177,7 @@ ms.locfileid: "103850167"
 
 此欄位包含 [格式化](formatted.md) 的字串值，適用于非語言相關可攜性可執行檔的完整路徑 (LN 檔案) ，其中包含資源設定 (RC Config) 資料。 格式化的字串可以使用 \[ \# filekey \] 慣例。 如果此欄位包含值，則會忽略 [名稱] 資料行。 如果這個欄位是空的，安裝程式會使用 [描述] 欄中的值。 當此欄位包含一個值時， **DescriptionResourceId** 欄位也必須包含值，否則安裝會失敗。
 
-只有在 Windows Vista 或 Windows Server 2008 上執行時，才會使用這個快速鍵表格的資料行，否則會予以忽略。 此資料行適用于 Windows Installer 4.0 之前的版本。
+只有在 Windows Vista 或 Windows Server 2008 上執行時，才會使用這個快速鍵資料表的資料行，否則會予以忽略。 此資料行適用于 Windows Installer 4.0 之前的版本。
 
 如需有關如何新增快捷方式資料表的快捷方式以搭配 MUI 資源使用的詳細資訊，請參閱 [Mui 快捷方式範例](a-mui-shortcut-example.md)。
 
@@ -188,13 +188,13 @@ ms.locfileid: "103850167"
 
 快速鍵的描述名稱索引。 此值必須是非負數。 當此欄位包含一個值時， **DescriptionResourceDLL** 欄位也必須包含值，否則安裝會失敗。
 
-只有在 Windows Vista 或 Windows Server 2008 上執行時，才會使用這個快速鍵表格的資料行，否則會予以忽略。 此資料行適用于 Windows Installer 4.0 之前的版本。
+只有在 Windows Vista 或 Windows Server 2008 上執行時，才會使用這個快速鍵資料表的資料行，否則會予以忽略。 此資料行適用于 Windows Installer 4.0 之前的版本。
 
 </dd> </dl>
 
 ## <a name="remarks"></a>備註
 
-只有在系統的 IShellLink 介面支援安裝程式描述項解析時，啟用功能才會建立公告的快捷方式。 Microsoft Windows 2000 和執行 Microsoft Internet Explorer 4.01 的系統都支援此功能。 如果不支援，安裝程式會在安裝功能元件時，在本機或從來源執行，建立非公告的快捷方式。
+只有在系統的 IShellLink 介面支援安裝程式描述項解析時，啟用功能才會建立公告的快捷方式。 microsoft Windows 2000 和執行 microsoft Internet Explorer 4.01 的系統都支援此功能。 如果不支援，安裝程式會在安裝功能元件時，在本機或從來源執行，建立非公告的快捷方式。
 
 請注意，公告的快捷方式一律指向特定的應用程式，由 [**ProductCode**](productcode.md)識別，且不應在應用程式之間共用。 公告的快捷方式只適用于最近安裝的應用程式，而且會在移除應用程式時移除。
 

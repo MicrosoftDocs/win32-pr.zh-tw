@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 66113791c242e88485dcb160917191ff4789af03
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d0feea96e2a510211bbe7dd3ead8f9570750609a30c860751e6073472c9aa772
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994845"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119650278"
 ---
 # <a name="partial-switch"></a>/partial 參數
 

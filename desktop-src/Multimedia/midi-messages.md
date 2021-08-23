@@ -12,24 +12,24 @@ keywords:
 - MIDI 訊息
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 63a49e918a4f06efbafd5d8f61848111d3331153
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c45c7c9f101c931591857d3957df0f0cfd00a4ecaff61c31f6f69ef24b36deff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103673107"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119525128"
 ---
 # <a name="midi-messages"></a>MIDI 訊息
 
 下列訊息適用于 MIDI。
 
--   [**MIM \_ 關閉**](mim-close.md)
--   [**MIM \_ 資料**](mim-data.md)
--   [**MIM \_ 錯誤**](mim-error.md)
--   [**MIM \_ LONGDATA**](mim-longdata.md)
--   [**MIM \_ LONGERROR**](mim-longerror.md)
--   [**MIM \_ MOREDATA**](mim-moredata.md)
--   [**MIM \_ 開啟**](mim-open.md)
+-   [**MIM \_關閉**](mim-close.md)
+-   [**MIM \_資料**](mim-data.md)
+-   [**MIM \_錯誤**](mim-error.md)
+-   [**MIM \_LONGDATA**](mim-longdata.md)
+-   [**MIM \_LONGERROR**](mim-longerror.md)
+-   [**MIM \_MOREDATA**](mim-moredata.md)
+-   [**MIM \_打開**](mim-open.md)
 -   [**MM \_ MIM \_ 關閉**](mm-mim-close.md)
 -   [**MM \_ MIM \_ 資料**](mm-mim-data.md)
 -   [**MM \_ MIM \_ 錯誤**](mm-mim-error.md)
@@ -53,9 +53,9 @@ ms.locfileid: "103673107"
 [MIDI 參考](midi-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

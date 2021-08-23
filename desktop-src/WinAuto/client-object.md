@@ -4,12 +4,12 @@ description: 工作區是視窗的一部分，其中應用程式會顯示輸出�
 ms.assetid: 1b3a800e-e3c1-4737-8ad0-41707eb1e985
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: be28ae4c31e1a2d2f72674a39d7db08730562816
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: f33190ebd1013c92a58ecc64b07993a5a5ae1cd842e50c88691295114a128074
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104092852"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119645058"
 ---
 # <a name="client-object-msaa-ui-element-reference"></a>用戶端物件 (MSAA UI 元素參考) 
 

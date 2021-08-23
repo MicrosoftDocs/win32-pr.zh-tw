@@ -4,12 +4,12 @@ ms.assetid: 8b1a1f0d-5857-4ab4-828c-8ca7c17a4890
 title: " (Direct3D 9) 的動作模糊"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fccb5c00d1208041afc31d4afe1cf0c7a5425037
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: d3daa0b35a0c375cc798b619f18f1e363001050de4dcc950e6c6828a7d365801
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104510141"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119628318"
 ---
 # <a name="motion-blur-direct3d-9"></a> (Direct3D 9) 的動作模糊
 

@@ -4,12 +4,12 @@ ms.assetid: b627f3da-3545-4c1a-85b0-d8845fdac621
 title: String-Pool 驗證
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ecb544b5c76026846f7e8b8f6f331195426ab55c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d1e895a9e9032cb0cf5d94b5a8c3c9070c46fe79041dee41e4ea10366043b4af
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114161"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119627358"
 ---
 # <a name="string-pool-validation"></a>String-Pool 驗證
 

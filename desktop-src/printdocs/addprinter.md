@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - Winspool.drv
-ms.openlocfilehash: 51416ed59bc1c6df1d2c69de87d61bdecab522f0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6034c330da19f5982e9bbacbf75cc16f0a7d10dd65f9c8bded2efa5cbda70835
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192610"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119601138"
 ---
 # <a name="addprinter-function"></a>Interactivesession.addprinter 函式
 
@@ -108,7 +108,7 @@ HANDLE AddPrinter(
 
 | 值                          | 描述                                                                                                                                                                                                                                                                                                                                            |
 |--------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 系統管理員與進階使用者 | 完整控制列印佇列。 這表示這些群組的成員可以列印、管理佇列 (可以刪除佇列、變更佇列的任何設定，包括安全描述項) ，以及管理所有使用者的列印工作 (刪除、暫停、繼續、重新開機作業) 。請注意，Windows XP Professional 之前不存在 Power 使用者。<br/> |
+| 系統管理員與進階使用者 | 完整控制列印佇列。 這表示這些群組的成員可以列印、管理佇列 (可以刪除佇列、變更佇列的任何設定，包括安全描述項) ，以及管理所有使用者的列印工作 (刪除、暫停、繼續、重新開機作業) 。請注意，在 Windows XP Professional 之前，Power 使用者不存在。<br/> |
 | 建立者/擁有者                  | 可以管理自己的作業。 這表示提交工作的使用者可以管理 (刪除、暫停、繼續、重新開機) 自己的作業。                                                                                                                                                                                                                                  |
 | 所有人                       | Execute 和 standard read control。 這表示 everyone 群組的成員可以列印和讀取列印佇列的屬性。                                                                                                                                                                                                                     |
 
@@ -136,7 +136,7 @@ HANDLE AddPrinter(
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                                |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                      |
-| 標頭<br/>                   | <dl> <dt>Winspool.drv (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>winspool.drv (包含 Windows .h) </dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>Winspool.drv .lib</dt> </dl>                   |
 | DLL<br/>                      | <dl> <dt>Winspool.drv. winspool.drv</dt> </dl>                   |
 | Unicode 與 ANSI 名稱<br/>   | **AddPrinterW** (Unicode) 和 **AddPrinterA** (ANSI) <br/>                                           |

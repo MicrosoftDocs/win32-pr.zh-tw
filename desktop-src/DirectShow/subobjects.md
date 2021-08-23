@@ -4,12 +4,12 @@ ms.assetid: 03cbd590-b573-4a98-9ab7-fe548800cfcb
 title: 子
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ad8b427a315231577f1608a168629bc8b77d2cc4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: aaf828d0049816c0cbf932b96344b0270c4c9dbfb835a0750736551ff67b319b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103850967"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119633478"
 ---
 # <a name="subobjects"></a>子
 
@@ -19,8 +19,8 @@ ms.locfileid: "103850967"
 
 子物件的類型取決於物件的類型：
 
--   來源：任何 DirectShow 來源篩選器或剖析器篩選器，支援搜尋並產生 DES 支援的格式。 如果有 DirectShow 篩選器可將它解碼，則它可以是壓縮的格式。
--   效果：適用于影片、任何2D 單一輸入 Microsoft® DirectX®轉換物件。 適用于音訊、任何 DirectShow 音訊效果篩選。
+-   來源：任何 DirectShow 來源篩選器或剖析器篩選器，支援搜尋並產生 DES 支援的格式。 如果有 DirectShow 篩選準則可將其解碼，則它可以是壓縮格式。
+-   效果：適用于影片、任何2D 單一輸入 Microsoft® DirectX®轉換物件。 音訊的任何 DirectShow 音效效果篩選。
 -   轉換：適用于影片、任何雙 D 雙輸入 DirectX 轉換物件。 音訊不支援轉換。
 
 群組、組合和追蹤沒有子群組。

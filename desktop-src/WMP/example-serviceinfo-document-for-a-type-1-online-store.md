@@ -16,12 +16,12 @@ keywords:
 - ServiceInfo 檔
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d1378c30a8dbbb46844923e9c73c242a28d5da3
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a414ed729733eed610b06e43748e393fa600ee46917d4f9b30ad21ae8d378d3b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103674523"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119650208"
 ---
 # <a name="example-serviceinfo-document-for-a-type-1-online-store"></a>類型1線上商店的範例 ServiceInfo 檔
 
@@ -100,9 +100,9 @@ ms.locfileid: "103674523"
 [**ServiceInfo 檔**](serviceinfo-document.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,21 +4,21 @@ ms.assetid: d716faec-9ace-422d-b6eb-ad4d86c1b0fd
 title: WIA 1.0 中的 WIA 掃描器裝置
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 443277b0b580a481b523739cd5bc21642d827252
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bd22cc9fe330a3acf231034b61c72178f3b282cb9e66a1f455d4b6939a1c3cde
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103690556"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119592664"
 ---
 # <a name="wia-scanner-devices-in-wia-10"></a>WIA 1.0 中的 WIA 掃描器裝置
 
 > [!Note]  
-> 本主題討論使用 windows 映射取得 (WIA) 1.0 服務 (（Windows XP 或更早的) 所支援）之應用程式的掃描器裝置樹狀目錄。 如需 windows Vista 或更新版本) 所支援的 Windows 映像取得之裝置樹 (WIA) 2.0 (專案的詳細資訊，請參閱 [關於 IWiaItem2 專案樹狀結構](-wia-about-item-tree.md)。
+> 本主題討論使用 Windows 映像取得 (WIA) 1.0 service (（Windows XP 或更早版本) 支援）之應用程式的掃描器裝置樹狀目錄。 如需 Windows Vista 或更新版本) 支援的 Windows 影像取得 (WIA) 2.0 (專案的詳細資訊，請參閱[關於 IWiaItem2 專案樹狀結構](-wia-about-item-tree.md)。
 
  
 
-Windows 映像取得 (WIA) 掃描器裝置會實作為 [**IWiaItem**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem) 物件的階層式樹狀結構。 從根專案，應用程式可能會：
+Windows 映像取得 (WIA) 掃描器裝置會實作為 [**IWiaItem**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem)物件的階層式樹狀結構。 從根專案，應用程式可能會：
 
 -   查詢掃描器功能
 -   設定掃描器裝置屬性

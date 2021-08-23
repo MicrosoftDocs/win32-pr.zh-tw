@@ -3,7 +3,7 @@ title: 'MCIWNDM_CHANGESTYLES 訊息 (Vfw .h) '
 description: MCIWNDM \_ CHANGESTYLES 訊息會變更 MCIWnd 視窗所使用的樣式。 您可以使用 MCIWndChangeStyles 宏明確地傳送此訊息。
 ms.assetid: 9074c21a-e49f-4089-a6d2-af8d513cb632
 keywords:
-- MCIWNDM_CHANGESTYLES message Windows 多媒體
+- MCIWNDM_CHANGESTYLES 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b2cea636c3c879da642da753c4fd084b06c4334
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5525066f4c377cc093e1e7a0dedd4edf7463792c136214a519da9744917cbc89
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106996573"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119525508"
 ---
 # <a name="mciwndm_changestyles-message"></a>MCIWNDM \_ CHANGESTYLES 訊息
 

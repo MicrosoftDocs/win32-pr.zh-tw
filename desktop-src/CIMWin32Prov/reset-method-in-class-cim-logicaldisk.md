@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 63eb4c33097be912bffe3031d173956071db774b
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 1cf2b03f72c113e842fe940044e2bcefd28bba0b46e8db7225fa95f9cd65ff81
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936302"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119578578"
 ---
 # <a name="reset-method-of-the-cim_logicaldisk-class"></a>CIM LogicalDisk 類別的 Reset 方法 \_
 

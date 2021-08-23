@@ -4,12 +4,12 @@ ms.assetid: ce9c7b96-f2a3-4a64-8b5e-df46c479b619
 title: DeviceInterface. SupportsNfc
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b49a09b7d8c1cd26b6edb3daeb644d283a97b257
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c88c76dfca5ecfce98675404199635777e23aba03c34a0958c0898ded6dc4a97
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106986911"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119599318"
 ---
 # <a name="systemdeviceinterfaceproximitysupportsnfc"></a>DeviceInterface. SupportsNfc
 

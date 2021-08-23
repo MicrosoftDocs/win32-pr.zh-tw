@@ -4,12 +4,12 @@ description: 根據預設，RC 會搜尋標頭檔和資源檔 (例如，圖示�
 ms.assetid: 6c8c905d-b0f6-4665-9a93-62617ff30137
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 078a04a4cf2f3461d03c7026e0f1d73d8fd38665
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c4fecaa3c20c9bedf498c30462d5e139da83f11d45a47c6d5e7554adb8ed325b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106995555"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119601558"
 ---
 # <a name="searching-for-files"></a>搜尋檔案
 
@@ -39,9 +39,9 @@ ms.locfileid: "106995555"
 
 在編譯 MyApp 的腳本時，RC 會先搜尋目前目錄中的標頭檔和資源檔，然後再搜尋 C： \\ 來源 \\ 內容。 它不會搜尋 INCLUDE 環境變數所指定的目錄。
 
- 
+ 
 
- 
+ 
 
 
 

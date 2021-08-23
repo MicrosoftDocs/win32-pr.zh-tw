@@ -1,9 +1,9 @@
 ---
-title: 設定。費率
+title: 設定。速率
 description: '[速率] 屬性會指定或抓取影片媒體的目前播放速率。'
 ms.assetid: 0f95f7ac-1bb6-4c80-89eb-eb300a03a0f1
 keywords:
-- 設定。速率 Windows Media Player
+- 設定. 速率 Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -14,14 +14,14 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e61287789487fddbe7e77fba5fc033d3103aecb8
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 01936462593b8b27a8d45f2e3e4090b9cf242d79e1d9b1c2cda00c152bd41182
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106993316"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119646398"
 ---
-# <a name="settingsrate"></a>設定。費率
+# <a name="settingsrate"></a>設定。速率
 
 [ **速率** ] 屬性會指定或抓取影片媒體的目前播放速率。
 
@@ -41,12 +41,12 @@ Windows Media Player 將嘗試使用四種不同播放模式的最有效方式�
 
 其他考慮也適用于不同的媒體類型：
 
--   Windows Media Format (WMV) 和 ASF 檔案：此屬性的最佳值為1到10，或從1到10以進行反向播放。 從0.5 到1.0 或從-0.5 到-1.0 的值可能也適用于可以維持音訊音調的情況，例如，播放位於本機電腦上的檔案時。 允許絕對值大於10的值，但沒有什麼意義。
+-   Windows媒體格式 (WMV) 和 ASF 檔案：此屬性的最佳值為1到10，或從1到10以進行反向播放。 從0.5 到1.0 或從-0.5 到-1.0 的值可能也適用于可以維持音訊音調的情況，例如，播放位於本機電腦上的檔案時。 允許絕對值大於10的值，但沒有什麼意義。
 -   其他影片媒體類型：這個屬性的範圍可以從0到9。 不允許負數值。 小於1的值表示緩慢的移動。 允許超過9個值，但沒有什麼意義。
 
 *控制項*。**fastForward** 方法會將 **速率** 的值變更為5.0，而 *控制項* 則變更。**fastReverse** 方法會將 **速率** 變更為5.0。
 
-某些媒體類型的播放率無法改變。 使用這些 *設定*。**isAvailable** 方法，以判斷是否可以針對特定媒體專案指定這個屬性。
+某些媒體類型的播放率無法改變。 使用 *設定*。**isAvailable** 方法，以判斷是否可以針對特定媒體專案指定這個屬性。
 
 **Windows Media Player 10** 行動裝置版：此屬性只接受或傳回值-5.0、1.0 或5.0。
 
@@ -98,7 +98,7 @@ Windows Media Player 將嘗試使用四種不同播放模式的最有效方式�
 [**FastReverse**](controls-fastreverse.md)
 </dt> <dt>
 
-[**Settings 物件**](settings-object.md)
+[**設定物件**](settings-object.md)
 </dt> <dt>
 
 [**設定. isAvailable**](settings-isavailable.md)

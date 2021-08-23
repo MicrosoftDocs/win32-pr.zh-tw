@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: CIM_CreateDirectoryAction 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5df1f64e538ecbe1dcf1aa8e053edb821e988407
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 120762370fabbbf114daded4b8a53e7eaa6abe5d828def91775a80955d1194dc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110884"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119578928"
 ---
 # <a name="cim_createdirectoryaction-methods"></a>CIM \_ CreateDirectoryAction 方法
 

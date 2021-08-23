@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 2ce0cfc7b3a59dc2a3cae6fa240015e70a035695
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 1fd226fbeb150af22d56fff8dac28e8a651a03ffd10ca8c50f0c1b40ae742090
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108094106"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119631088"
 ---
 # <a name="d3dxquaternionbarycentric-function-d3dx9mathh"></a>D3DXQuaternionBaryCentric 函式 (D3dx9math) 
 

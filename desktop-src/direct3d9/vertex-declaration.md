@@ -4,12 +4,12 @@ ms.assetid: 09dae498-3b33-4c33-bc7e-47f2bf784e4c
 title: " (Direct3D 9) 的頂點宣告"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c769aa6fb80de1fd83067ebb9f32b591baa8e883
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 76537b36897e66e45c9c35143ca9f2cfe7db130410a0a75245bba31eaaa4f67f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106970495"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119627878"
 ---
 # <a name="vertex-declaration-direct3d-9"></a> (Direct3D 9) 的頂點宣告
 

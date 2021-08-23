@@ -4,16 +4,16 @@ ms.assetid: 1eccdbb9-a1bd-443a-a5f6-d64c9e5c87b3
 title: 使用虛擬地區設定進行當地語系化測試
 ms.topic: article
 ms.date: 07/05/2018
-ms.openlocfilehash: f8c6b435b85a5bef98eff9bf76681096779433e7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 72d84cbf324823a814c9412580b033792b0d1c8a45630bf2f4cb26dd8b2a1acf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106981880"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119631718"
 ---
 # <a name="using-pseudo-locales-for-localizability-testing"></a>使用虛擬地區設定進行當地語系化測試
 
-[虛擬地區設定](pseudo-locales.md) 內建于 Windows Vista 和更新版本，因此您可以透過 (NLS) Api 的國家語言支援來存取它們。 您可以使用虛擬地區設定來測試應用程式的可 [當地語系化](/windows/uwp/design/globalizing/globalizing-portal) 性。 本主題包含使用虛擬程式碼的程式。
+[虛擬地區設定](pseudo-locales.md)內建于 Windows Vista 和更新版本，因此您可以透過 (NLS) api 的國家語言支援來存取它們。 您可以使用虛擬地區設定來測試應用程式的可 [當地語系化](/windows/uwp/design/globalizing/globalizing-portal) 性。 本主題包含使用虛擬程式碼的程式。
 
 > [!NOTE]
 > 在虛擬地區設定中，需要特別考慮的一項工作就是列舉它們;不論是在您的程式碼中，或是在主控台的地區和語言選項部分中。 本主題稍後將詳細說明。
@@ -51,7 +51,7 @@ LCID lcid{ ::LocaleNameToLCID(L"qps-plocm", 0) };
 "000009ff"="d" // qps-plocm (Windows Vista and later)
 ```
 
-針對 Windows 10 版本1803，像這樣編輯 Windows 登錄沒有任何作用。 但是您仍然可以使用虛擬地區設定的名稱來呼叫非列舉 NLS Api (請參閱上述的程式碼範例) ，以 (UI) 填入您的使用者介面。
+針對 Windows 10 1803 版，像這樣編輯 Windows 登錄沒有任何作用。 但是您仍然可以使用虛擬地區設定的名稱來呼叫非列舉 NLS Api (請參閱上述的程式碼範例) ，以 (UI) 填入您的使用者介面。
 
 ## <a name="related-topics"></a>相關主題
 

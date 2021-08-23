@@ -13,12 +13,12 @@ keywords:
 - UI 外掛程式，類型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5228c9ab7ff97c9f0d03b1b8d1320d303b178e56
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4843d02ec003017f9bb1bc6eeb6a942bca87a8e55af095f0c626ffb0d861cdc1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104300372"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119571699"
 ---
 # <a name="ui-plug-in-overview"></a>UI 外掛程式總覽
 
@@ -45,9 +45,9 @@ Windows Media Player 支援五種類型的 UI 外掛程式。 其中三種類型
 [**關於消費者介面外掛程式**](about-user-interface-plug-ins.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

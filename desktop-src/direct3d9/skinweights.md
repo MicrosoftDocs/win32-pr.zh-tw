@@ -4,12 +4,12 @@ ms.assetid: ac5289c6-989c-43b4-9190-ac8f831a05f0
 title: SkinWeights
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 759239a3a7ec8ebb608cf9ede6624105cee321b4
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 0bb76b1c0860e64f2e1e8b42cb7ed4d2af984cc043425b97e03cf997714d0e63
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104509882"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119627908"
 ---
 # <a name="skinweights"></a>SkinWeights
 

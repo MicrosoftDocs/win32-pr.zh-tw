@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e7a565b1575dc51a59a09faea6fd271d719518f5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ce72838382dd5276a4a0b9b660b67f1d7f8cb04cb894c72f245e908a916ae8f7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104024624"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119573928"
 ---
 # <a name="createinstancefrompropertydata-method-of-the-microsoftdns_minfotype-class"></a>MicrosoftDNS MINFOType 類別的 CreateInstanceFromPropertyData 方法 \_
 

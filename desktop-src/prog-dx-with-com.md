@@ -3,12 +3,12 @@ description: 使用 COM 進行 DirectX 程式設計。
 title: 使用 COM 進行 DirectX 程式設計
 ms.topic: article
 ms.date: 01/29/2019
-ms.openlocfilehash: 67fc7a35f42439e1a9eeef1b2895d88dc0dbf5d4
-ms.sourcegitcommit: f712e5fed19d6afe2762a77ffcdf8b5977f85901
+ms.openlocfilehash: 660f030e56d0b84325f7b90a9e2cc8e3864587660dd452611f41c78241220f54
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "103945533"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119600198"
 ---
 # <a name="programming-directx-with-com"></a>使用 COM 進行 DirectX 程式設計
 
@@ -287,7 +287,7 @@ if (pDXGISwapChain3Copy != nullptr)
 
 * **winrt：： com_ptr** 是 [c + +/WinRT 語言投影](/uwp/cpp-ref-for-winrt/com-ptr)提供的智慧型指標。 這是建議用於 UWP 應用程式的 COM 智慧型指標。 請注意，c + +/WinRT 需要 c + + 17。
 
-* **Microsoft：： WRL：： ComPtr** 是 [Windows 執行階段 C++ 範本庫 (WRL)](/cpp/cppcx/wrl/comptr-class)所提供的智慧型指標。 此程式庫是「純」 c + +，因此可用於透過 c + +/CX 或 c + +/WinRT) 以及傳統 Win32 桌面應用程式 (的 Windows 執行階段應用程式。 這個智慧型指標也適用于不支援 Windows 執行階段 Api 的較舊版本 Windows。 針對 Win32 桌面應用程式，您可以使用 ``#include <wrl/client.h>`` 僅包含此類別，並選擇性地定義預處理器符號 ``__WRL_CLASSIC_COM_STRICT__`` 。 如需詳細資訊，請參閱進行中的 [COM 智慧型指標](/archive/msdn-magazine/2015/february/windows-with-c-com-smart-pointers-revisited)。
+* **Microsoft：： WRL：： ComPtr** 是 [Windows 執行階段 C++ 範本庫 (WRL)](/cpp/cppcx/wrl/comptr-class)所提供的智慧型指標。 此程式庫是「純」 c + +，因此可用於透過 c + +/cx 或 c + +/WinRT) 以及傳統 Win32 桌面應用程式 (的 Windows 執行階段應用程式。 這個智慧型指標也適用于不支援 Windows 執行階段 api 的舊版 Windows。 針對 Win32 桌面應用程式，您可以使用 ``#include <wrl/client.h>`` 僅包含此類別，並選擇性地定義預處理器符號 ``__WRL_CLASSIC_COM_STRICT__`` 。 如需詳細資訊，請參閱進行中的 [COM 智慧型指標](/archive/msdn-magazine/2015/february/windows-with-c-com-smart-pointers-revisited)。
 
 * **CComPtr** 是 [Active Template Library (ATL)](/cpp/atl/reference/ccomptr-class)所提供的智慧型指標。 **Microsoft：： WRL：： ComPtr** 是此實作為的較新版本，可解決一些微妙的使用問題，因此不建議在新的專案中使用這個智慧型指標。 如需詳細資訊，請參閱 [如何建立和使用 CComPtr 和 CComQIPtr](/cpp/cpp/how-to-create-and-use-ccomptr-and-ccomqiptr-instances)。
 

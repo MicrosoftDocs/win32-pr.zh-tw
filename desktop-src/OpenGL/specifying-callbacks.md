@@ -7,12 +7,12 @@ keywords:
 - X.GLU 隊 (OpenGL 公用程式) ，指定回呼函數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6086448cf6f4a71ea6a49359d5656f12f613d760
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9e57a5f961a980f20451f594fa59885eda99d1e2de94a55fbfd2abd4b8301b4d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104507409"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119553778"
 ---
 # <a name="specifying-callbacks"></a>指定回呼
 
@@ -24,15 +24,15 @@ ms.locfileid: "104507409"
 
 | 回呼函數   | 原型                                    |
 |---------------------|----------------------------------------------|
-| **X.GLU 隊 \_ 開始**      | **void** **Begin** ( **GLenum * * * 類型* ) ;       |
-| **X.GLU 隊 \_ EDGE \_ 旗標** | **void** **EdgeFlag** ( **GLboolean * * * 旗* 標 ) ; |
+| **X.GLU 隊 \_ 開始**      | **void** **begin** (**GLenum**_類型_ ) ;       |
+| **X.GLU 隊 \_ EDGE \_ 旗標** | **void** **edgeFlag** (**GLboolean**_旗_ 標 ) ; |
 | **X.GLU 隊 \_ 頂點**     | **void** **頂點** ( **void \* * * * 資料* ) ;     |
 | **X.GLU 隊 \_ 結束**        | **void** **end** ( *void* ) ;                  |
-| **X.GLU 隊 \_ 錯誤**      | **void** **Error** ( **GLenum * * * errno* ) ;      |
+| **X.GLU 隊 \_ 錯誤**      | **void** **錯誤** (**GLenum**_errno_ ) ;      |
 
 
 
- 
+ 
 
 若要變更回呼函數，請使用新的函式來呼叫 [*gluTessCallback*](glutess.md) 。 若要消除回呼函式，而不將它取代為新的函式，請針對適當的函式傳遞 **gluTessCallback** 為 null 指標。
 
@@ -50,9 +50,9 @@ ms.locfileid: "104507409"
 
 如果鑲嵌期間發生錯誤，則會叫用錯誤回呼函數。 錯誤回呼函式會傳遞 X.GLU 隊錯誤號碼。 您可以使用 [**gluErrorString**](gluerrorstring.md) 函數取得描述錯誤的字元字串。
 
- 
+ 
 
- 
+ 
 
 
 

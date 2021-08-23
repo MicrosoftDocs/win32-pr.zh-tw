@@ -1,20 +1,20 @@
 ---
 title: Fence-Based 資源管理
-description: 示範如何透過延伸來追蹤 GPU 進度，以管理資源資料的生命週期。 記憶體可以有效地重複使用，以管理記憶體中可用空間的可用性，例如在上傳堆積的通道緩衝區執行中。
+description: 示範如何透過延伸來追蹤 GPU 進度，以管理資源資料的生命週期。 記憶體可以有效地重複使用，以管理記憶體中可用空間的可用性（例如 Upload 堆積的信號緩衝區執行）。
 ms.assetid: A7AB6569-EC6B-4B1B-9266-D05B6DB3A27B
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aba8afd66f8a50a54b699c6a314ba148ebcef023
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0cbfd9231e3013099c8382072049f1ae1478e28f00830e89fb4ecef1b835ce58
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "74105059"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119728860"
 ---
 # <a name="fence-based-resource-management"></a>Fence-Based 資源管理
 
-示範如何透過延伸來追蹤 GPU 進度，以管理資源資料的生命週期。 記憶體可以有效地重複使用，以管理記憶體中可用空間的可用性，例如在上傳堆積的通道緩衝區執行中。
+示範如何透過延伸來追蹤 GPU 進度，以管理資源資料的生命週期。 記憶體可以有效地重複使用，以管理記憶體中可用空間的可用性（例如 Upload 堆積的信號緩衝區執行）。
 
 -   [信號緩衝區案例](#ring-buffer-scenario)
 -   [信號緩衝區範例](#ring-buffer-sample)
@@ -152,9 +152,9 @@ void FreeUpMemoryUntilFrame(UINT lastCompletedFrame)
 [在緩衝區內進行子分配](large-buffers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

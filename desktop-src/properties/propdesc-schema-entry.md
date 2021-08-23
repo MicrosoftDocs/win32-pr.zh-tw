@@ -4,18 +4,18 @@ ms.assetid: cac93c31-d90d-4116-b846-0cf593d1d56e
 title: 瞭解屬性描述架構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 51d9e7c2b6fb4b599f977c0c49ad1cb2514fe8d8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 85dbb0f20c5c4a206069e80aa308a26908bf90ee0d00cf80712a342e834411e8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026519"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119554558"
 ---
 # <a name="understanding-the-property-description-schema"></a>瞭解屬性描述架構
 
 本主題介紹 Shell 屬性系統所使用的屬性描述架構。
 
-引進 Windows Vista 和更新版本的新功能需要將現有的 Shell 屬性系統延伸至：
+引進 Windows Vista 和更新版本的新功能，需要將現有的 Shell 屬性系統延伸至：
 
 -   支援豐富且可擴充的屬性描述系統，以提供屬性的相關資訊，包括顯示名稱、類型、顯示類型、排序和群組行為，以及呈現和操作屬性所需的其他屬性。
 -   支援屬性類型的庫存清單 (與可在不同的視圖中編輯這些類型的 UI （例如 listview、預覽窗格、屬性對話方塊等），以及可與各種屬性相關聯的) 。
@@ -114,7 +114,7 @@ Shell 屬性系統所使用的屬性描述架構是由單一 [propertyDescriptio
 
 ## <a name="changes-for-windows-7"></a>Windows 7 的變更
 
-Windows 7 的屬性描述架構已變更。 這些都是不中斷的變更。 如果 Windows 7 中已不再支援屬性專案或屬性，則 Windows 7 作業系統會忽略 Windows Vista 元素或屬性。 同樣地，Windows Vista 也會忽略新的 Windows 7 屬性元素或屬性。
+Windows 7 的屬性描述架構已變更。 這些都是不中斷的變更。 如果 Windows 7 中不再支援屬性專案或屬性，則 Windows 7 作業系統會忽略 Windows Vista 元素或屬性。 同樣地，Windows Vista 也會忽略新的 Windows 7 屬性元素或屬性。
 
 不過，建議您更新 Windows 7 的自訂屬性，以提供更佳且更一致的使用者體驗。
 

@@ -1,17 +1,17 @@
 ---
 description: 藍牙 LE 裝置目前是否正在通告可連接的廣告。
 ms.assetid: 52e587c1-4925-4184-9a3e-f29795b72883
-title: Aep... IsConnectable
+title: Aep。藍牙。Le. IsConnectable
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0e4da2a6b2116d1913c9631466b603e5dba1570e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 64bad00b8d2c7cd4b1e37aae1c5a36c8f0a53ed248549bd9314e5a49be315431
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193747"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119599038"
 ---
-# <a name="systemdevicesaepbluetoothleisconnectable"></a>Aep... IsConnectable
+# <a name="systemdevicesaepbluetoothleisconnectable"></a>Aep。藍牙。Le. IsConnectable
 
 藍牙 LE 裝置目前是否正在通告可連接的廣告。
 

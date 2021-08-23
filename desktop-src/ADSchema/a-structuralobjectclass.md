@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cdcc236c0c65aa365400894dd6ccfb845af04b55
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 12e6eb52e59ebb2c7a840235bf7a2529b567c4909f0338670738901fea91f183
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106966988"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119645498"
 ---
 # <a name="structural-object-class-attribute"></a>結構物件類別屬性
 

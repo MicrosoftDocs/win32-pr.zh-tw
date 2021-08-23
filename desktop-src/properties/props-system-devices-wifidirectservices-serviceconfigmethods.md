@@ -4,12 +4,12 @@ ms.assetid: 8c1589c9-55ca-449a-81ab-53be38f0e9f6
 title: WiFiDirectServices. ServiceConfigMethods
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 892a3196f586f72e7feb6f83a052305ec491b002
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a9f74eea49b1a2b86c701d6c7b1d95fd76df0fe47608f4895c521f59bf7fe877
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106998102"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119598908"
 ---
 # <a name="systemdeviceswifidirectservicesserviceconfigmethods"></a>WiFiDirectServices. ServiceConfigMethods
 

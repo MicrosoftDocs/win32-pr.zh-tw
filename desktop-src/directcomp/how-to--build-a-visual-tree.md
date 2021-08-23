@@ -4,17 +4,17 @@ description: 本主題將示範如何建立簡單的 Microsoft DirectComposition
 ms.assetid: 86006C3C-67A8-4931-BE76-D0CA9DB19505
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 621e3f48f76b76be92dc464678dce23b08ebdbd6
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 0e27a3af12976f08a1f878779506ac1a42076adecebda02550149e5cb1653d31
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104375357"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119670871"
 ---
 # <a name="how-to-build-a-simple-visual-tree"></a>如何建立簡單的視覺化樹狀結構
 
 > [!NOTE]
-> 針對 Windows 10 上的應用程式，我們建議使用 DirectComposition，而不是使用。 如需詳細資訊，請參閱 [使用視覺分層將您的桌面應用程式現代化](/windows/uwp/composition/visual-layer-in-desktop-apps)。
+> 針對 Windows 10 上的應用程式，我們建議使用 Windows 的撰寫 api，而不是 DirectComposition。 如需詳細資訊，請參閱 [使用視覺分層將您的桌面應用程式現代化](/windows/uwp/composition/visual-layer-in-desktop-apps)。
 
 本主題將示範如何建立簡單的 Microsoft DirectComposition 視覺化樹狀結構。 本主題中的範例會建立並撰寫由根視覺效果和三個子視覺效果組成的視覺化樹狀結構。 根視覺效果的內容是淺藍色點陣圖，作為子視覺效果的背景。 下圖顯示本主題中的範例程式碼所建立的組合。
 

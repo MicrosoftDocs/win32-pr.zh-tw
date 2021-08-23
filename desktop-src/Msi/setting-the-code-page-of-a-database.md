@@ -4,12 +4,12 @@ ms.assetid: 0d8aee30-989a-4093-8718-1bb90029c0fb
 title: 設定資料庫的字碼頁
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 87ef04c2969d0933c4601bbca2f3897d86de43a1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 53c9ac1840b624b821dff6a85bee94607cd9568dcd6bb9b01025cb02f87c5c39
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103691180"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119628538"
 ---
 # <a name="setting-the-code-page-of-a-database"></a>設定資料庫的字碼頁
 

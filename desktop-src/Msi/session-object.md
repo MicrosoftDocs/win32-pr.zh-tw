@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: c391249d5ccc58fe9a947c9db761a77521c9776d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7b02d1f617f7e558acd9c0423dd785c84e0175f195ee0085b2fdc79d66054683
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106997743"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119628918"
 ---
 # <a name="session-object-windows-installer"></a>會話物件 (Windows Installer) 
 
@@ -59,7 +59,7 @@ ms.locfileid: "106997743"
 
 
 
-| 屬性                                                                  | 存取類型           | Description                                                                                                                                                                |
+| 屬性                                                                  | 存取類型           | 描述                                                                                                                                                                |
 |:--------------------------------------------------------------------------|:----------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**ComponentCosts**](session-componentcosts.md)<br/>               |                       | 傳回 [**RecordList**](recordlist-object.md) 物件，此物件會列舉安裝元件所需的每個磁片磁碟機的磁碟空間。<br/>                                  |
 | [**ComponentCurrentState**](session-componentcurrentstate.md)<br/> |                       | 傳回指定元件目前已安裝的狀態。<br/>                                                                                                |
@@ -71,7 +71,7 @@ ms.locfileid: "106997743"
 | [**FeatureValidStates**](session-featurevalidstates.md)<br/>       |                       | 傳回代表位旗標的整數，每個相關位表示指定功能的有效安裝狀態。<br/>                             |
 | [**安裝程式**](session-installer.md)<br/>                         |                       | 傳回使用中的安裝程式物件。<br/>                                                                                                                            |
 | [**Language (Session 物件)**](session-language.md)<br/>          |                       | 表示目前安裝會話所使用的數位語言識別項。<br/>                                                                            |
-| [**模式**](session-mode.md)<br/>                                   |                       | 這個屬性是一個值，代表目前安裝會話的指定模式旗標。<br/>                                                            |
+| [**[模式]**](session-mode.md)<br/>                                   |                       | 這個屬性是一個值，代表目前安裝會話的指定模式旗標。<br/>                                                            |
 | [**ProductProperty**](session-productproperty.md)<br/>             |                       | 表示命名安裝程式屬性的字串值。<br/>                                                                                                      |
 | [**屬性 (會話物件)**](session-session.md)<br/>           | 讀取/寫入<br/> | 從產品資料庫抓取產品屬性。<br/>                                                                                                         |
 | [**SourcePath**](session-sourcepath.md)<br/>                       |                       | 提供來源媒體或伺服器映射上指定之資料夾的完整路徑。<br/>                                                                            |
@@ -88,7 +88,7 @@ ms.locfileid: "106997743"
 
 | 需求 | 值 |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 版本<br/> | Windows Server 2012、Windows 8、Windows Server 2008 R2 或 Windows 7 上的 Windows Installer 5.0。 Windows Server 2008 或 Windows Vista 上的 Windows Installer 4.0 或 Windows Installer 4.5。 Windows Server 2003 或 Windows XP 上的 Windows Installer<br/> |
+| 版本<br/> | WindowsWindows Server 2012、Windows 8 Windows Server 2008 R2 或 Windows 7 上的安裝程式5.0。 WindowsWindows Server 2008 或 Windows Vista 上的安裝程式4.0 或 Windows Installer 4.5。 WindowsWindows Server 2003 或 Windows XP 上的安裝程式<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                      |
 | IID<br/>     | IID \_ >isession 定義為 000C109E-0000-0000-C000-000000000046<br/>                                                                                                                                                                             |
 
@@ -98,7 +98,7 @@ ms.locfileid: "106997743"
 
 <dl> <dt>
 
-[Windows Installer 腳本範例](windows-installer-scripting-examples.md)
+[Windows安裝程式腳本範例](windows-installer-scripting-examples.md)
 </dt> </dl>
 
  

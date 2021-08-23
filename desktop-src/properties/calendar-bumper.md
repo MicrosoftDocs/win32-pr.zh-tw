@@ -4,12 +4,12 @@ ms.assetid: fde5c85f-e620-4557-89f0-7dbbbea74f8c
 title: Calendar
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 51056df2e412add722b10b896ac082fcb437b73e
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 2ac312c6e85eabb7ab1d85e1213bcb785a3e684a50410e172a0316c473ebf078
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108105116"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119600178"
 ---
 # <a name="calendar"></a>Calendar
 

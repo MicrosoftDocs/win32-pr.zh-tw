@@ -4,12 +4,12 @@ ms.assetid: 72b1309d-a7a1-47dc-89c8-dbb83647cb74
 title: type 屬性
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 01440ac2daf1b2c32106afe70c3c501e66bdae69
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cd5e01d4025b4e75caa7d616180d23b404e100b212b1ad9738f7fdca96c06caa
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194761"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119525988"
 ---
 # <a name="type-attribute"></a>type 屬性
 

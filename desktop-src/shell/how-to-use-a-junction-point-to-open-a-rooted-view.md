@@ -3,12 +3,12 @@ description: 您可以使用登錄來指定流覽到連接點將會開啟根視�
 title: 如何透過登錄開啟連接點的根目錄檢視
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fa51e87ccb541e995300cb010f82c79e33112e16
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1f575d4265a207e97c20f0c2a42456ddbf55cebbe5a0d42664c1fdfa9f5986d0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192681"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119593158"
 ---
 # <a name="how-to-open-a-rooted-view-of-a-junction-point-through-the-registry"></a>如何透過登錄開啟連接點的根目錄檢視
 

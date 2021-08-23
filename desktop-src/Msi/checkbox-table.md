@@ -4,12 +4,12 @@ ms.assetid: 6881f358-74af-4160-ac69-36e848865ac0
 title: 核取方塊表格
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3600b741543a88e7ded71cd385a56b499c8ef516
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 848769f9430681a8c37de0afd8d9d1fa8abfee2f833798ecbdc5271535f79da4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106986886"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119649868"
 ---
 # <a name="checkbox-table"></a>核取方塊表格
 

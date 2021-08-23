@@ -4,12 +4,12 @@ ms.assetid: d81fe8df-9fd6-4ace-a47f-214cbba6f30c
 title: '介面 (Windows 屬性系統) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5003458683fb9b2443df0301676b601901817d54
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2d608e1b994541667847d755e95966b6ea2770c2d0c73ce86ef8fbd79b8c9dc2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106976919"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119600118"
 ---
 # <a name="interfaces-windows-property-system"></a>介面 (Windows 屬性系統) 
 

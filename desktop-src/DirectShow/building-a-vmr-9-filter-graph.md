@@ -1,25 +1,25 @@
 ---
-description: 建立 VMR 9 篩選圖形
+description: 建立 VMR-9 篩選 Graph
 ms.assetid: fd83a89c-f1b6-48a3-971e-04ae4ac14c66
-title: 建立 VMR 9 篩選圖形
+title: 建立 VMR-9 篩選 Graph
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f5d7fc1eb0982b47f5ef50a00a1c7a275dd8bf60
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: c86a76b2d4519299bbd9cde498ccf6a4bc33f0b819d3996faac794154d08c8bb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103846567"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119689348"
 ---
-# <a name="building-a-vmr-9-filter-graph"></a>建立 VMR 9 篩選圖形
+# <a name="building-a-vmr-9-filter-graph"></a>建立 VMR-9 篩選 Graph
 
 由於影片混合轉譯器9篩選 (VMR-9) 不是預設的影片轉譯器，因此使用 VMR-9 的應用程式必須明確地將它新增至圖形並進行連接。 本節提供兩種不同的方法，可使用 VMR-9 建立篩選圖形。
 
 使用 Capture Graph Builder
 
-「捕獲圖形產生器」是用來建立自訂篩選圖形的協助程式物件。 您可以使用它來建立 VMR 9 圖形，如下所示：
+Capture Graph Builder 是用來建立自訂篩選圖形的 helper 物件。 您可以使用它來建立 VMR 9 圖形，如下所示：
 
-1.  建立並初始化「Capture Graph 建立器」，如「 [捕獲圖形](about-the-capture-graph-builder.md)產生器」主題所述。
+1.  如《 [capture Graph builder](about-the-capture-graph-builder.md)》主題中所述，建立並初始化 capture Graph builder。
 2.  呼叫 CoCreateInstance 以建立 VMR-9：
     ```C++
     IBaseFilter *pVmr = NULL;
@@ -29,7 +29,7 @@ ms.locfileid: "103846567"
 
     
 
-3.  在篩選圖形管理員上呼叫 [**IFilterGraph：： AddFilter**](/windows/desktop/api/Strmif/nf-strmif-ifiltergraph-addfilter) ，將 VMR-9 新增至篩選圖形：
+3.  在篩選 Graph 管理員上呼叫 [**IFilterGraph：： AddFilter**](/windows/desktop/api/Strmif/nf-strmif-ifiltergraph-addfilter) ，將 VMR-9 新增至篩選圖形：
     ```C++
     hr = pGraph->AddFilter(pVmr, L"VMR9");
     ```
@@ -60,16 +60,16 @@ ms.locfileid: "103846567"
 
 您可以針對每個原始程式檔呼叫 AddSourceFilter 和 RenderStream，以混合數個影片串流。
 
-使用篩選圖形管理員
+使用篩選 Graph 管理員
 
-如果您不想使用 [Capture Graph Builder]，可以使用 [篩選圖形管理員] 上的方法來建立 VMR 9 圖形，如下所示：
+如果您不想使用 Capture Graph 產生器，您可以只在篩選 Graph 管理員上使用方法來建立 VMR 9 圖形，如下所示：
 
 1.  建立 VMR-9 並將它新增至圖形，如先前的程式所示。
 2.  使用 AddSourceFilter 來新增影片檔案的來源篩選器，如先前的程式所示。
 3.  如果您想要轉譯音訊，請建立 [DirectSound](directsound-renderer-filter.md) 轉譯器篩選器的實例，並將它加入至篩選圖形。
 4.  使用 IBaseFilter：： EnumPins 方法來尋找來源篩選器上的輸出圖釘。 如需詳細資料，請參閱 [列舉釘](enumerating-pins.md) 選。
-5.  查詢 IFilterGraph2 介面的篩選圖形管理員。
-6.  使用 AM RenderEx RENDERTOEXISTINGRENDERERS 旗標呼叫 [**IFilterGraph2：： RenderEx**](/windows/desktop/api/Strmif/nf-strmif-ifiltergraph2-renderex) \_ \_ 。 此呼叫只會使用已在圖形中的轉譯器篩選器（在此案例中為 VMR-9 和 DirectSound 轉譯器）來呈現輸出圖釘。 這可防止智慧型 Connect 邏輯將預設影片轉譯器新增至圖形，這會讓 VMR-9 保持未連接。
+5.  查詢 IFilterGraph2 介面的篩選 Graph 管理員。
+6.  使用 AM RenderEx RENDERTOEXISTINGRENDERERS 旗標呼叫 [**IFilterGraph2：： RenderEx**](/windows/desktop/api/Strmif/nf-strmif-ifiltergraph2-renderex) \_ \_ 。 此呼叫只會使用已在圖形中的轉譯器篩選器（在此案例中為 VMR-9 和 DirectSound 轉譯器）來呈現輸出圖釘。 這可防止智慧型連線邏輯將預設影片轉譯器新增至圖形，這會讓 VMR-9 保持未連接。
 
 ## <a name="related-topics"></a>相關主題
 

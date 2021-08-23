@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Qedit.h
-ms.openlocfilehash: f0b0ddffe2bc769b7c2371ef93091d8c1daf379c
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: 286348ec102a93697aa413ecfd1886879e7361b54eca48276b5e868be78eee03
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107909666"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119633508"
 ---
 # <a name="sample-grabber-filter"></a>範例捕獲篩選器
 
@@ -78,7 +78,7 @@ ms.locfileid: "107909666"
 
 <dl> <dt>
 
-[DirectShow 編輯服務物件](directshow-editing-services-objects.md)
+[DirectShow編輯服務物件](directshow-editing-services-objects.md)
 </dt> <dt>
 
 [使用範例捕獲](using-the-sample-grabber.md)

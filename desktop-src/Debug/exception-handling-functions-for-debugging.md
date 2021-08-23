@@ -4,12 +4,12 @@ ms.assetid: 6fdc02ac-9c33-49a8-8614-8b0cc2bf811b
 title: 用於偵錯工具的例外狀況處理函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 35bca1d031b56a4e7cb208ca93abc9ca0dbdbb7c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: ab4542b6e1d3ad2699b3cb43d15e327d26156760980188555b1a4bf9c68e9a7f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103846932"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119573168"
 ---
 # <a name="exception-handling-functions-for-debugging"></a>用於偵錯工具的例外狀況處理函式
 

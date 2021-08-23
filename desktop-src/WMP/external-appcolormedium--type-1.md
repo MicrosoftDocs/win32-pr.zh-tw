@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2f6774166eb836e4d43975cc305ecb1f522e21d8
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: aa8fd04dbd2ef49147df2c48e73e989eb761a858fec998af2769835fe178dae1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106997706"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119649588"
 ---
 # <a name="externalappcolormedium-type-1"></a>AppColorMedium (類型 1) 
 
@@ -28,7 +28,7 @@ ms.locfileid: "106997706"
 
  
 
-**AppColorMedium** 屬性會抓取 Windows Media Player 使用者介面目前的中陰影色彩。
+**appColorMedium** 屬性會抓取 Windows Media Player 使用者介面目前的中陰影色彩。
 
 ``` syntax
 window.external.appColorMedium

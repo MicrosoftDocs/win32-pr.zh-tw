@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 28b7d6a0f43612b9a8877723fb62f87e7516529c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e0b99b530deb808337246af984b24848454cbe78ec4bbe2b09e969caa8154a91
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103685798"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119602648"
 ---
 # <a name="wm_ncmbuttondown-message"></a>WM \_ NCMBUTTONDOWN 訊息
 

@@ -4,12 +4,12 @@ ms.assetid: a5dd014f-21af-41f9-be75-1b139946179d
 title: 摘要資訊資料流程屬性集
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3929e4180a85a8f154c0a0352ddd1f9a052769ad
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9d41439e15a59ca1942fcbb49c06067251060935b165d6a34972df868fa7feac
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106982116"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119627048"
 ---
 # <a name="summary-information-stream-property-set"></a>摘要資訊資料流程屬性集
 

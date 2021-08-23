@@ -1,14 +1,14 @@
-- name: Windows 動畫管理員
+- name: Windows動畫管理員
   href: '-main-portal.md'
   items:
-    - name: Windows 動畫開發指南
+    - name: Windows動畫開發指南
       href: windows-animation-developer-guide.md
       items:
-        - name: Windows 動畫總覽
+        - name: Windows動畫總覽
           href: scenic-animation-api-overview.md
         - name: 分鏡腳本總覽
           href: storyboard-construction.md
-        - name: Windows 動畫工作
+        - name: Windows動畫工作
           href: using-windows-animation.md
           items:
             - name: 建立主要動畫物件
@@ -23,7 +23,7 @@
               href: updating---timer-driven-animation.md
             - name: 排程分鏡腳本
               href: scheduling-a-storyboard.md
-    - name: Windows 動畫參考
+    - name: Windows動畫參考
       href: windows-animation-reference.md
       items:
         - name: 常數
@@ -614,9 +614,9 @@
               href: /previous-versions/windows/desktop/legacy/dd317028(v=vs.85)
             - name: UIAnimationTransitionLibrary2
               href: /previous-versions/windows/desktop/legacy/hh448668(v=vs.85)
-        - name: Windows 動畫錯誤碼
+        - name: Windows動畫錯誤碼
           href: uianimation-error-codes.md
-    - name: Windows 動畫範例
+    - name: Windows動畫範例
       href: windows-animation-samples.md
       items:
         - name: Application-Driven 的動畫範例
@@ -629,5 +629,5 @@
           href: grid-layout-sample.md
         - name: 優先順序比較範例
           href: priority-comparison-sample.md
-    - name: Windows 動畫詞彙
+    - name: Windows動畫詞彙
       href: '-ui-animation-glossary.md'

@@ -21,12 +21,12 @@ keywords:
 - framebuffers，基本作業
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 77f6b9fb8c8ca4efb05d9050e0de3da807b213e7
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: f72f6abed7d06a93985b798e72efbf4d6ec0901e7ad9fb4614f5bf81590cefcf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "103945568"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119554711"
 ---
 # <a name="basic-opengl-operation"></a>基本 OpenGL 操作
 

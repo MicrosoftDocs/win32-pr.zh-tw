@@ -4,12 +4,12 @@ description: 什麼是視窗？
 ms.assetid: eef5e139-91f9-4d8b-9153-e178d7416d7e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8494738e3985f78930549f313cb2868b79b34f3b
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 0af5d845d1a7eac6474dec9da08dcfde8df9f9fd67bf16d6f59cad94c5af0fe2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108103846"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119631410"
 ---
 # <a name="what-is-a-window"></a>什麼是視窗？
 
@@ -25,7 +25,7 @@ ms.locfileid: "108103846"
 
 ![控制項視窗的螢幕擷取畫面](images/window02.png)
 
-如果您不熟悉 Windows 程式設計，您可能會驚訝 UI 控制項（例如按鈕和編輯方塊）本身就是 windows。 UI 控制項與應用程式視窗之間的主要差異在於控制項本身不存在。 相反地，控制項相對於應用程式視窗的位置。 當您拖曳應用程式視窗時，控制項會依照您的預期來移動它。 此外，控制項和應用程式視窗也可以彼此通訊。  (例如，應用程式視窗會從按鈕接收按一下通知。 ) 
+如果您不熟悉 Windows 程式設計，您可能會驚訝 UI 控制項（例如按鈕和編輯方塊）本身就是 Windows。 UI 控制項與應用程式視窗之間的主要差異在於控制項本身不存在。 相反地，控制項相對於應用程式視窗的位置。 當您拖曳應用程式視窗時，控制項會依照您的預期來移動它。 此外，控制項和應用程式視窗也可以彼此通訊。  (例如，應用程式視窗會從按鈕接收按一下通知。 ) 
 
 因此，當您考慮到 *視窗* 時，請不要只考慮 *應用程式視窗*。 相反地，請將視窗視為程式設計結構，如下所示：
 
@@ -34,7 +34,7 @@ ms.locfileid: "108103846"
 -   知道如何自行繪製。
 -   回應來自使用者或作業系統的事件。
 
-## <a name="parent-windows-and-owner-windows"></a>父視窗和擁有者視窗
+## <a name="parent-windows-and-owner-windows"></a>父 Windows 和擁有者 Windows
 
 在 UI 控制項的案例中，控制項視窗稱為應用程式視窗的 *子* 系。 應用程式視窗是控制項視窗的 *父系* 。 父視窗提供用來放置子視窗的座標系統。 擁有父視窗會影響視窗外觀的各個層面;例如，會裁剪子視窗，讓子視窗的任何部分不能出現在其父視窗的框線之外。
 
@@ -50,7 +50,7 @@ ms.locfileid: "108103846"
 
 ## <a name="window-handles"></a>視窗控制碼
 
-Windows 是物件—它們都有程式碼和資料，但它們不是 c + + 類別。 相反地，程式會使用稱為 *控制碼* 的值來參考視窗。 控制碼是不透明的型別。 基本上，它只是作業系統用來識別物件的數位。 您可以將視窗畫為具有所有已建立視窗的大型表格。 它會使用此資料表，依據其控點來查閱視窗。  (它在內部的運作方式並不重要。 ) 視窗控制碼的資料型別是 **HWND**，通常是「aitch-風」。 建立 windows： [**CreateWindow**](/windows/desktop/DirectShow/cbasewindow-docreatewindow) 和 [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa)的函式會傳回視窗控制碼。
+Windows 是物件—它們都有程式碼和資料，但它們不是 c + + 類別。 相反地，程式會使用稱為 *控制碼* 的值來參考視窗。 控制碼是不透明的型別。 基本上，它只是作業系統用來識別物件的數位。 您可以將 Windows 圖片為具有所有已建立視窗的大型資料表。 它會使用此資料表，依據其控點來查閱視窗。  (它在內部的運作方式並不重要。 ) 視窗控制碼的資料型別是 **HWND**，通常是「aitch-風」。 建立 windows： [**CreateWindow**](/windows/desktop/DirectShow/cbasewindow-docreatewindow) 和 [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa)的函式會傳回視窗控制碼。
 
 若要在視窗上執行作業，您通常會呼叫一些接受 **HWND** 值作為參數的函式。 例如，若要在螢幕上重新調整視窗的位置，請呼叫 [**MoveWindow**](/windows/desktop/api/winuser/nf-winuser-movewindow) 函式：
 

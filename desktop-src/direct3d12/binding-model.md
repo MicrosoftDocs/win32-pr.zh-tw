@@ -5,12 +5,12 @@ ms.assetid: 3EE7E9AE-203D-40D4-9F12-4313ED179035
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 43b2785da6497fd4e775d9f88847928e7c4c08e8
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a625bd1b79766990658feba9bf18ddf7f46c3788ca20aea1de0b4ab80ae0a71f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "74104034"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119632519"
 ---
 # <a name="differences-in-the-binding-model-from-direct3d-11"></a>來自 Direct3D 11 的系結模型差異
 
@@ -42,7 +42,7 @@ D3D12 系結模型的主要優點是，它可讓應用程式經常變更材質�
 
 ## <a name="driver-resource-state-tracking-separated-from-binding"></a>與系結分開的驅動程式資源狀態追蹤
 
-系統不會再檢查資源系結，以瞭解何時發生資源轉換，需要額外的驅動程式或 GPU 工作。 許多 Gpu 和驅動程式的常見範例，都必須知道介面何時會轉換成轉譯目標視圖， (RTV) 至著色器資源檢視 (SRV) 。 應用程式本身現在必須識別系統可能在意的任何資源轉換是透過專用的 Api 發生。
+系統不會再檢查資源系結，以瞭解何時發生資源轉換，需要額外的驅動程式或 GPU 工作。 許多 Gpu 和驅動程式的常見範例，都必須知道介面從何種轉換成轉譯目標視圖時 (RTV) 至著色器資源檢視 (SRV) 。 應用程式本身現在必須識別系統可能在意的任何資源轉換是透過專用的 Api 發生。
 
 ## <a name="cpu-gpu-mapped-memory-synchronization-separated-from-binding"></a>CPU GPU 對應記憶體同步處理與系結分開
 
@@ -55,9 +55,9 @@ D3D12 系結模型的主要優點是，它可讓應用程式經常變更材質�
 [資源系結](resource-binding.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

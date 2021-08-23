@@ -36,12 +36,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: b5211aa8d840384eaf140c1afbeb2fa9c0680cb8
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 401109ec61b937144ceb95bbfe8da053db67f962ab91aadd69abe18dc27fff0d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510631"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119578748"
 ---
 # <a name="cim_discretesensor-class"></a>CIM \_ DiscreteSensor 類別
 

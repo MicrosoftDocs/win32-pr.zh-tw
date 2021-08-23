@@ -4,12 +4,12 @@ ms.assetid: 1559E389-EE2B-47FF-9B73-33A7C76746E1
 title: IAzApplicationGroups 屬性
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fd1268a3e7acd0d3122b810a9c74dcb2fc0798aa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 09ebc75fb4f818e8f5c636b0d18f41790c9e8451115abef93db402d216823bfa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194188"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119671908"
 ---
 # <a name="iazapplicationgroups-properties"></a>IAzApplicationGroups 屬性
 

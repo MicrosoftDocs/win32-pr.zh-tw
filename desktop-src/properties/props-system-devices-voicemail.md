@@ -4,12 +4,12 @@ ms.assetid: f127ffb3-1d9f-4729-aec9-cb1fb8948df5
 title: 系統信箱
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a3255bb6ac35fb4b511108177d6989a7d3806d16
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 00383352ac508d423eadbbea1426a4a59f1c427fe5860aa71654e83c21bebaee
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103692880"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119598918"
 ---
 # <a name="systemdevicesvoicemail"></a>系統信箱
 

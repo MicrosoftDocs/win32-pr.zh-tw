@@ -4,18 +4,18 @@ ms.assetid: 78fbf15a-678f-4d87-a309-e70374e3ecee
 title: 建立主體名稱
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7fe512be48c9a727857c4fac4abc6e04a705b7f6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 00a7350268c4b7fe5f0d6bde0630bfa7556bc8dd6085e11261456299b725dd57
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510961"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119670208"
 ---
 # <a name="creating-a-subject-name"></a>建立主體名稱
 
 您可以使用 [**IX500DistinguishedName**](/windows/desktop/api/CertEnroll/nn-certenroll-ix500distinguishedname) 介面，從辨別名稱字串建立主體名稱。 字串是由 (RDNs) 的串連相對辨別名稱所組成。 憑證註冊 API 支援下列 RDN 金鑰。
 
-| 答案                               | OID                                             | Description                                                                                        |
+| 答案                               | OID                                             | 描述                                                                                        |
 |-----------------------------------|-------------------------------------------------|----------------------------------------------------------------------------------------------------|
 | C<br/>                      | XCN \_ OID \_ 國家/地區 \_ 名稱<br/>              | 包含兩個字母的 ISO 3166 國家或地區碼。<br/>                                  |
 | CN<br/>                     | XCN \_ OID \_ 一般 \_ 名稱<br/>               | 包含一般名稱。<br/>                                                                 |

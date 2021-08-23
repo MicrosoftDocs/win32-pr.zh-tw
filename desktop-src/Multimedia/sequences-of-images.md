@@ -10,12 +10,12 @@ keywords:
 - DrawDibEnd 函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2a7ae2c85d62e93e4149518221aa520eabe13ee2
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 2ac063cb2e9697b3b95045b95c9cc759a562197b56f10ff86a076ddcfa9a72cf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106968490"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119688789"
 ---
 # <a name="sequences-of-images"></a>影像的順序
 
@@ -24,7 +24,7 @@ ms.locfileid: "106968490"
 > [!Note]  
 > 如果您的應用程式不使用 [**DrawDibBegin**](/windows/desktop/api/Vfw/nf-vfw-drawdibbegin)， [**DrawDibDraw**](/windows/desktop/api/Vfw/nf-vfw-drawdibdraw) 會在繪製之前隱含地執行。 如果您的應用程式在 **DrawDibDraw** 之前使用 **DrawDibBegin** ， **DrawDibDraw** 就不需要處理函式並等候它完成。
 
- 
+ 
 
 [**DrawDibBegin**](/windows/desktop/api/Vfw/nf-vfw-drawdibbegin)函式會為 [**DRAWDIBDRAW**](/windows/desktop/api/Vfw/nf-vfw-drawdibdraw)提供 DrawDib DC、DC 控制碼、 [**BITMAPINFOHEADER**](/windows/win32/api/wingdi/ns-wingdi-bitmapinfoheader)結構的位址，以及來源和目的地矩形維度。 當您顯示一系列的點陣圖時， **DrawDibDraw** 會針對序列中的每個影像檢查這些專案的值。 如果 **DrawDibDraw** 偵測到任何這些專案的變更，它會隱含地再次呼叫 **DrawDibBegin** 來調整 DrawDib DC 設定。
 
@@ -37,7 +37,7 @@ ms.locfileid: "106968490"
 > [!Note]  
 > 您必須在應用程式中指定來源和目的地矩形的寬度和高度。 不過，您不需要指定矩形的來源。 您的應用程式可以在 [**DrawDibDraw**](/windows/desktop/api/Vfw/nf-vfw-drawdibdraw) 中重新定義來源，以使用影像的不同部分或更新顯示的不同部分。
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -46,6 +46,6 @@ ms.locfileid: "106968490"
 [影像轉譯](image-rendering.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

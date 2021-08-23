@@ -4,12 +4,12 @@ ms.assetid: e0933846-278e-4bc8-8982-c5819c252dad
 title: 'Master File Table (本機檔案系統) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 260740c03e7b7e4ebe9c7e8ec90035431f6be649
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2fefec19906e6e2e2c67bbcabf8bd891ccc032b7e8d0882a3622011c324d11c5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980023"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119525638"
 ---
 # <a name="master-file-table-local-file-systems"></a>Master File Table (本機檔案系統) 
 

@@ -4,12 +4,12 @@ ms.assetid: 38a5d896-2c11-4ce9-b829-104a882723b6
 title: SpawnWaitDialog ControlEvent
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b20059c936a8534d00799c93dfbe3408a19c6dbe
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ffeddfcb46f67d292de81a5a8195ba17c2a63b305be229ae96b2133448d41f00
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943530"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119628008"
 ---
 # <a name="spawnwaitdialog-controlevent"></a>SpawnWaitDialog ControlEvent
 

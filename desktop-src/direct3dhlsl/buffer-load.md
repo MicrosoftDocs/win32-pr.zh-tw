@@ -12,12 +12,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
 api_location: ''
-ms.openlocfilehash: 02fc0e3ebffdd686b87330f33ef5e5c36f570cf3
-ms.sourcegitcommit: 476861130ea63675206d1f06e517059705b930ed
-ms.translationtype: HT
+ms.openlocfilehash: 59ed76101dcd6efdd0968f51e5211769c92db29ca52e5123fb9c55605f1a8cd5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "104373519"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119626358"
 ---
 # <a name="bufferload-methods"></a>Buffer：： Load 方法
 

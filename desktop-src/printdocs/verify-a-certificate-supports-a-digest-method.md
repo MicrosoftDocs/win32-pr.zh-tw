@@ -4,12 +4,12 @@ ms.assetid: dd1b53cd-66b9-46b3-89ad-ee84b4690e1e
 title: 確認系統支援摘要式方法
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9acf3e0c2c7f4927fc6047c88039e443e2db3e71
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 272db3f7169ba66fdaa67c2943030d53e7c75927c2024750d405aa9a8246949e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103851899"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119600298"
 ---
 # <a name="verify-the-system-supports-a-digest-method"></a>確認系統支援摘要式方法
 

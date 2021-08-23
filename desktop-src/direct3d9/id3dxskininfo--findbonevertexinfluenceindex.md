@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 05a86e98e5001092700fdec12f2a7afc33ddf082
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 9d9035f6c791708dc0b7d84ffd69380f801f4ecce8525c03bb1ac00a3902a1d8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106976684"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119727788"
 ---
 # <a name="id3dxskininfofindbonevertexinfluenceindex-method"></a>ID3DXSkinInfo：： FindBoneVertexInfluenceIndex 方法
 

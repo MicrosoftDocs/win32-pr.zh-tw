@@ -4,12 +4,12 @@ ms.assetid: 775A0AD5-C4F9-4330-ABBE-BE43149FED7E
 title: IAzRoleAssignments 屬性
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fda582e616fd2e15810e4f2f4dd478501a9d84e7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 006ba4f1103c09b12678b92ec9b43aec84e99bdbfc8d1111b459a11479d48633
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103694227"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119671488"
 ---
 # <a name="iazroleassignments-properties"></a>IAzRoleAssignments 屬性
 

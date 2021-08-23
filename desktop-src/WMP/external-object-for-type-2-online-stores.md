@@ -9,19 +9,19 @@ keywords:
 - 外部物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c412cac301d61aeb791131e85bb8bc60f390201d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 57d177dd4bcac34e5a8e8a72f53f184c4e0dfffec41b3cef0c0080e2fe1840cb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104507304"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119648878"
 ---
 # <a name="external-object-for-type-2-online-stores"></a>類型2線上商店的外部物件
 
 > [!Note]  
 > 本章節描述專為線上商店使用而設計的功能。 不支援在線上商店的內容之外使用這項功能。
 
- 
+ 
 
 **外部** 物件可以為類型2線上商店提供並裝載于 Windows Media Player 中的網頁提供功能。
 
@@ -43,7 +43,7 @@ ms.locfileid: "104507304"
 
 
 
- 
+ 
 
 **外部** 物件會公開下列方法。
 
@@ -56,7 +56,7 @@ ms.locfileid: "104507304"
 
 
 
- 
+ 
 
 **外部** 物件會公開下列事件。
 
@@ -68,7 +68,7 @@ ms.locfileid: "104507304"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -80,9 +80,9 @@ ms.locfileid: "104507304"
 [**遠端處理 Windows Media Player 控制項**](remoting-the-windows-media-player-control.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

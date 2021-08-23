@@ -4,12 +4,12 @@ description: 本章節包含與編輯控制項搭配使用之程式設計項目�
 ms.assetid: vs|controls|~\controls\editcontrols\editcontrols.htm
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7cd65b1161bb8e12a39ec38c09c11b727e839e25
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 6c806bea409d33aa5c96daa4ab067fe7aed3619d201ffac64891af90489c226d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103842948"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119576668"
 ---
 # <a name="edit-control-windows-controls"></a>編輯控制項 (Windows 控制項) 
 

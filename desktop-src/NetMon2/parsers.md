@@ -4,12 +4,12 @@ ms.assetid: 6c135a24-5718-429a-988b-a2abd6b563d1
 title: 剖析器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 74aa86a17e87ab139ad48583285da943f23d330c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c5dfdf6f7c799782a75905d366c56157a99fd6f774f5682e302dcec4a9d6c788
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847727"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119555510"
 ---
 # <a name="parser"></a>剖析器
 
