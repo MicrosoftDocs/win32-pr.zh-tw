@@ -4,12 +4,12 @@ ms.assetid: aa51b077-fb7b-4e09-9de1-ef1905144a94
 title: ICE07
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 80a79bcb681a57bb09ff235b35a5287492a4f39c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4226a0e555a35c7d5735abe0b14520d000bfeea8c888488ce37b15a78674ff9e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106996816"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119581288"
 ---
 # <a name="ice07"></a>ICE07
 

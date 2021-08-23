@@ -3,12 +3,12 @@ title: 開發人員物件與範例程式碼
 description: 本主題說明為其設計反惡意程式碼掃描介面的開發人員群組。
 ms.topic: article
 ms.date: 03/20/2019
-ms.openlocfilehash: 22cf1156a8fa0aedc212b2ab70e34b984d13470f
-ms.sourcegitcommit: 272ba17a215d0d27bb7918fee1192d4954ccc576
+ms.openlocfilehash: 4ac11c75d5714d0706bed28264f9fa1bf03432af82107826178007e2c42243c2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "104022965"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119579908"
 ---
 # <a name="developer-audience-and-sample-code"></a>開發人員物件與範例程式碼
 
@@ -32,7 +32,7 @@ AMSI 是特別設計來對抗「無檔案惡意程式碼」。 能以最佳方�
 
 作為反惡意程式碼產品的建立者，您可以選擇撰寫並註冊自己的同進程 COM 伺服器， (DLL) 做為 AMSI 提供者。 該 AMSI 提供者必須執行 [ **IAntimalwareProvider** 介面](/windows/desktop/api/amsi/nn-amsi-iantimalwareprovider)，且必須在同進程中執行。
 
-請注意，在 Windows 10 之後，版本 1709 (秋季2017者的更新) ，如果您的 AMSI 提供者 DLL 相依于其路徑中的其他 Dll 同時載入，則可能無法運作。 為了避免 DLL 劫持，我們建議您的提供者 DLL 將其相依性明確地 (使用安全 [**LoadLibrary**](/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibraryw) 呼叫或對等的完整路徑) 。 我們建議您不要依賴 **LoadLibrary** 搜尋行為。
+請注意，在 Windows 10 之後，版本 1709 (秋季2017者的更新) ，如果您的 AMSI 提供者 DLL 相依于其路徑中的其他 dll 同時載入，則可能無法運作。 為了避免 DLL 劫持，我們建議您的提供者 DLL 將其相依性明確地 (使用安全 [**LoadLibrary**](/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibraryw) 呼叫或對等的完整路徑) 。 我們建議您不要依賴 **LoadLibrary** 搜尋行為。
 
 下一節說明如何註冊 AMSI 提供者。 如需示範如何撰寫您自己的 AMSI 提供者 DLL 的完整程式碼範例，請參閱 [IAntimalwareProvider 介面範例應用程式](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/AmsiProvider)。
 
@@ -100,7 +100,7 @@ STDAPI DllRegisterServer()
 }
 ```
 
-如果您的 DLL 實 [DllRegisterServer](/windows/desktop/api/olectl/nf-olectl-dllregisterserver)函式（如上述範例所示），則您可以使用 Windows 提供的可執行檔來註冊它 `regsvr32.exe` 。 從提升許可權的命令提示字元，發出此表單的命令。
+如果您的 DLL 實[DllRegisterServer](/windows/desktop/api/olectl/nf-olectl-dllregisterserver)函式（如上述範例所示），則您可以使用 Windows 提供的可執行檔來註冊它 `regsvr32.exe` 。 從提升許可權的命令提示字元，發出此表單的命令。
 
 ```cmd
 C:>C:\Windows\System32\regsvr32.exe SampleAmsiProvider.dll
@@ -123,6 +123,6 @@ C:>C:\Windows\System32\regsvr32.exe SampleAmsiProvider.dll
 
 **HKLM\SOFTWARE\Microsoft\AMSI\Providers**
 
-例如，
+例如
 
 **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\AMSI\Providers\\ {2E5D8A62-77F9-4F7B-A90C-2744820139B2}**

@@ -4,16 +4,16 @@ description: IAgent UnLoad
 ms.assetid: 560301b3-c038-4c6e-b3f1-1203b618b67d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bc30d6c4c06c1d292a26a2f503477dcca651dd18
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 20e6e457e2acc33c5b34800b8378d82a50d5c4aa6a139366ca1c0d241f676f9f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104315049"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119610138"
 ---
 # <a name="iagentunload"></a>IAgent：： UnLoad
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 ``` syntax
 HRESULT UnLoad(
@@ -41,6 +41,6 @@ HRESULT UnLoad(
 [**IAgent：： Load**](iagent--load.md)
 
 
- 
+ 
 
- 
+ 

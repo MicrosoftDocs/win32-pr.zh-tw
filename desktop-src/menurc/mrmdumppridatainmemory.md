@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 072309dcf9ebda1ba4a5669034019582b99105f3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: dbeec26f0741ebb77b742ff647e91cb5fd18afe633a1519228b887b4b438bb72
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106966142"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119601778"
 ---
 # <a name="mrmdumppridatainmemory-function"></a>MrmDumpPriDataInMemory 函式
 
@@ -51,9 +51,9 @@ HRESULT HRESULT MrmDumpPriDataInMemory(
 *inputPriData* \[在\]
 </dt> <dd>
 
-類型： **BYTE \** _
+類型：**位元組 \***
 
-對 [_ *MrmCreateResourceFileInMemory* *](mrmcreateresourcefileinmemory.md)之前的呼叫所建立之 PRI 資料的指標。
+由先前呼叫 [**MrmCreateResourceFileInMemory**](mrmcreateresourcefileinmemory.md)所建立之 PRI 資料的指標。
 
 </dd> <dt>
 
@@ -69,9 +69,9 @@ HRESULT HRESULT MrmDumpPriDataInMemory(
 *schemaPriData* \[在中，選擇性\]
 </dt> <dd>
 
-類型： **BYTE \** _
+類型：**位元組 \***
 
-PRI 資訊的選擇性指標 (作為記憶體中的 blob) 代表前一次呼叫 [_ *MrmCreateResourceFileInMemory* *](mrmcreateresourcefileinmemory.md)所建立的架構資料。 在您完成使用資源索引子之前，請勿釋放 *schemaPriData* 。 另請參閱備註。
+PRI 資訊的選擇性指標 (作為記憶體中的 blob) 代表先前呼叫 [**MrmCreateResourceFileInMemory**](mrmcreateresourcefileinmemory.md)所建立的架構資料。 在您完成使用資源索引子之前，請勿釋放 *schemaPriData* 。 另請參閱備註。
 
 </dd> <dt>
 
@@ -105,9 +105,9 @@ PRI 資訊的選擇性指標 (作為記憶體中的 blob) 代表前一次呼叫 
 *outputXmlSize* \[擴展\]
 </dt> <dd>
 
-類型： **ULONG \** _
+類型： **ULONG \***
 
-ULONG 的位址。 在 _outputXmlSize * 中，此函式會傳回 *outputXmlData* 所指向之已配置記憶體的大小。
+ULONG 的位址。 在 *outputXmlSize* 中，此函式會傳回 *outputXmlData* 所指向之已配置記憶體的大小。
 
 </dd> </dl>
 
@@ -128,7 +128,7 @@ ULONG 的位址。 在 _outputXmlSize * 中，此函式會傳回 *outputXmlData*
 | 需求 | 值 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 10， \[ 僅限1803版桌面應用程式\]<br/>                                       |
-| 最低支援的伺服器<br/> | \[僅限 Windows Server desktop 應用程式\]<br/>                                                 |
+| 最低支援的伺服器<br/> | Windows\[僅限伺服器桌面應用程式\]<br/>                                                 |
 | 標頭<br/>                   | <dl> <dt>MrmResourceIndexer。h</dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>Mrmsupport .lib</dt> </dl>       |
 | DLL<br/>                      | <dl> <dt>Mrmsupport.dll</dt> </dl>       |

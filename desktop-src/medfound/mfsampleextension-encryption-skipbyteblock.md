@@ -4,12 +4,12 @@ ms.assetid: F65112FA-B380-45F8-A1FC-3408FE6E49E2
 title: 'MFSampleExtension_Encryption_SkipByteBlock 屬性 (Mfidl) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 18003c03df7e65314846d34cb1d1093f5b2507a9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c674a7f7762f97a1978bd827795733d01b1dea3053898c5ecd30308373449b17
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848717"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119603128"
 ---
 # <a name="mfsampleextension_encryption_skipbyteblock-attribute"></a>MFSampleExtension \_ Encryption \_ SkipByteBlock 屬性
 

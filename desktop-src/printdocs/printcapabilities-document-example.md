@@ -4,12 +4,12 @@ ms.assetid: 86577c09-919b-4f07-9388-47879c656f32
 title: PrintCapabilities 檔範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f3e2bf839e3e88e43a295912966f5b1906ef8f35
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 5f9729a3f4ce4799aa4df30b1e8c6393d3c8c7a228015b469985d39714708ce2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112407101"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119600678"
 ---
 # <a name="printcapabilities-document-example"></a>PrintCapabilities 檔範例
 

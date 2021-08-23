@@ -4,16 +4,16 @@ description: 頁面屬性
 ms.assetid: c3cf07e9-a324-443b-a0c0-2fb80463548f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c51f55e4d1e9c7d2d23713810412060d915c7af
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 63ca14a4f68c326d1b231aa106450fefc7607857576f817ffaa255fa27f2249b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372172"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119601007"
 ---
 # <a name="page-property"></a>頁面屬性
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 <dl> <dt>
 

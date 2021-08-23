@@ -4,12 +4,12 @@ ms.assetid: b3eb9c48-f4c4-42f1-b189-1fa42670008e
 title: 如何：取出印表機裝置內容
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 39fde55450273e42f3429f173150296fdd67a1c9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3f723ece0e00d58ed684029e0eb3202d637443bd7f0e9d8878024346b9d79ba9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106979930"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119600558"
 ---
 # <a name="how-to-retrieve-a-printer-device-context"></a>如何：取出印表機裝置內容
 
@@ -112,7 +112,7 @@ ms.locfileid: "106979930"
 
 ### <a name="using-the-printdlg-function"></a>使用 PrintDlg 函式
 
-如果您的應用程式必須在不支援 [**PrintDlgEx**](/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)) 函式的系統上執行，例如，在執行 windows 2000 之前的 windows 版本的系統上，或不需要 **PrintDlgEx** 函式所提供的額外功能，請使用 [**PrintDlg**](/previous-versions/windows/desktop/legacy/ms646940(v=vs.85)) 函數。 下列步驟說明如何顯示較舊的樣式 **列印** 通用對話方塊。
+如果您的應用程式必須在不支援 [**PrintDlgEx**](/previous-versions/windows/desktop/legacy/ms646942(v=vs.85))函式的系統上執行，例如，在執行 Windows 2000 之前 Windows 版本的系統上，或不需要 **PrintDlgEx** 函式提供的額外功能，請使用 [**PrintDlg**](/previous-versions/windows/desktop/legacy/ms646940(v=vs.85))函數。 下列步驟說明如何顯示較舊的樣式 **列印** 通用對話方塊。
 
 1.  初始化 [**PRINTDLG**](/windows/win32/api/commdlg/ns-commdlg-printdlga) 資料結構。
 2.  呼叫 [**PrintDlg**](/previous-versions/windows/desktop/legacy/ms646940(v=vs.85)) ，將 [ **列印** 通用] 對話方塊顯示給使用者。

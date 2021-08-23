@@ -3,7 +3,7 @@ title: 'DRV_QUERYCONFIGURE 訊息 (Mmsystem .h) '
 description: 指示驅動程式指定它是否支援自訂設定。
 ms.assetid: fb2e36a7-8d6b-4b08-b2d7-e128ca7082dc
 keywords:
-- DRV_QUERYCONFIGURE message Windows 多媒體
+- DRV_QUERYCONFIGURE 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 66780106fdd42364d247db534a838842f25dc16a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 22c49ec54d1822bbc9ddc4d2606f8905a21c5193322a12df335549074dacdea3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104187307"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119691568"
 ---
 # <a name="drv_queryconfigure-message"></a>WINSPOOL.DRV \_ QUERYCONFIGURE 訊息
 
@@ -59,7 +59,7 @@ ms.locfileid: "104187307"
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                                |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                      |
-| 標頭<br/>                   | <dl> <dt>Mmsystem (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Mmsystem (包含 Windows .h) </dt> </dl> |
 
 
 

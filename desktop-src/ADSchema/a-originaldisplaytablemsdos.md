@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ea800504a344fb92320d2fa714344603f3e7a315
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 4ec6acd1475d1feccff9a0eb3ce4ee3650392a9506f337efcadbd307db5736b8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103844975"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119648158"
 ---
 # <a name="original-display-table-msdos-attribute"></a>原始-顯示資料表-MSDOS.SYS 屬性
 
@@ -58,7 +58,7 @@ MAPI (在 [MSDOS.SYS 位址] 專案中的原始) 顯示表格。
 | 連結識別碼                | \-                                                       |
 | MAPI-Id                | 0x8104                                                   |
 | System-Only            | 否                                                    |
-| 是-單一值       | 對                                                     |
+| 是-單一值       | 是                                                     |
 | 已編制索引             | 否                                                    |
 | 在通用類別目錄中      | 否                                                    |
 | NT-Security-描述元 | O:BAG：不正確： S：                                             |
@@ -79,7 +79,7 @@ MAPI (在 [MSDOS.SYS 位址] 專案中的原始) 顯示表格。
 | 連結識別碼                | \-                                                       |
 | MAPI-Id                | 0x8104                                                   |
 | System-Only            | 否                                                    |
-| 是-單一值       | 對                                                     |
+| 是-單一值       | 是                                                     |
 | 已編制索引             | 否                                                    |
 | 在通用類別目錄中      | 否                                                    |
 | NT-Security-描述元 | O:BAG：不正確： S：                                             |
@@ -100,7 +100,7 @@ MAPI (在 [MSDOS.SYS 位址] 專案中的原始) 顯示表格。
 | 連結識別碼                | \-                                                       |
 | MAPI-Id                | 0x8104                                                   |
 | System-Only            | 否                                                    |
-| 是-單一值       | 對                                                     |
+| 是-單一值       | 是                                                     |
 | 已編制索引             | 否                                                    |
 | 在通用類別目錄中      | 否                                                    |
 | NT-Security-描述元 | O:BAG：不正確： S：                                             |
@@ -121,7 +121,7 @@ MAPI (在 [MSDOS.SYS 位址] 專案中的原始) 顯示表格。
 | 連結識別碼                | \-                                                       |
 | MAPI-Id                | 0x8104                                                   |
 | System-Only            | 否                                                    |
-| 是-單一值       | 對                                                     |
+| 是-單一值       | 是                                                     |
 | 已編制索引             | 否                                                    |
 | 在通用類別目錄中      | 否                                                    |
 | NT-Security-描述元 | O:BAG：不正確： S：                                             |
@@ -142,7 +142,7 @@ MAPI (在 [MSDOS.SYS 位址] 專案中的原始) 顯示表格。
 | 連結識別碼                | \-                                                       |
 | MAPI-Id                | 0x8104                                                   |
 | System-Only            | 否                                                    |
-| 是-單一值       | 對                                                     |
+| 是-單一值       | 是                                                     |
 | 已編制索引             | 否                                                    |
 | 在通用類別目錄中      | 否                                                    |
 | NT-Security-描述元 | O:BAG：不正確： S：                                             |
@@ -163,7 +163,7 @@ MAPI (在 [MSDOS.SYS 位址] 專案中的原始) 顯示表格。
 | 連結識別碼                | \-                                                       |
 | MAPI-Id                | 0x8104                                                   |
 | System-Only            | 否                                                    |
-| 是-單一值       | 對                                                     |
+| 是-單一值       | 是                                                     |
 | 已編制索引             | 否                                                    |
 | 在通用類別目錄中      | 否                                                    |
 | NT-Security-描述元 | O:BAG：不正確： S：                                             |

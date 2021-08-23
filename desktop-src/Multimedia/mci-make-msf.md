@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ae7e8566986337d6b9b5161c85bcc62cecc52be0
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e16f5cfa2b99f7bdbd7eb3029b3f0186904d8b8e94f455614464fadc98cdd20a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103935069"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119690128"
 ---
 # <a name="mci_make_msf-macro"></a>MCI \_ MAKE \_ MSF 宏
 
@@ -98,7 +98,7 @@ MSF 格式的時程表示為 **DWORD** 值，具有最小的最小位元組數�
 
 <dl> <dt>
 
-[Mci](mci.md)
+[MCI](mci.md)
 </dt> <dt>
 
 [MCI 宏](mci-macros.md)

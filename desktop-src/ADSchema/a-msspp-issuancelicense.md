@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0355cf0d798c179e089a6a85b81047a8d2afccef
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: d26bc310f5a5ffc495612f408b5f2c39a6443ec46d23cf0a80c2c96aa189937d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106973329"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119581868"
 ---
 # <a name="ms-spp-issuance-license-attribute"></a>SPP-發佈-授權屬性
 
@@ -53,7 +53,7 @@ Active Directory 樹系的線上/電話啟用期間所使用的發行授權
 | 連結識別碼                | \-                                                                      |
 | MAPI-Id                | \-                                                                      |
 | System-Only            | 否                                                                   |
-| 是-單一值       | 對                                                                    |
+| 是-單一值       | 是                                                                    |
 | 已編制索引             | 否                                                                   |
 | 在通用類別目錄中      | 否                                                                   |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                            |

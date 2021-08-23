@@ -14,12 +14,12 @@ dev_langs:
 - JScript
 - VB
 - other
-ms.openlocfilehash: 26685e3bb647d72bca5eab6ace6acb3c5b00cb2a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a028a6968513e11962d7b358c3790ace9d27741aa2727ab4ba45b23478296b42
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104386160"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119603578"
 ---
 # <a name="tabledispose-method"></a>Table. Dispose 方法
 
@@ -32,7 +32,7 @@ ms.locfileid: "104386160"
 <thead>
 <tr class="header">
 <th> </th>
-<th>Name</th>
+<th>名稱</th>
 <th>描述</th>
 </tr>
 </thead>

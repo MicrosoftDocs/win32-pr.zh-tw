@@ -1,17 +1,17 @@
 ---
 description: 裝置服務電話語音的藍牙類別。
 ms.assetid: be9c4050-b429-4e95-8145-0926356b5464
-title: Aep....。
+title: Aep。藍牙。[中]。電話語音
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1cafdbf31dd17d28d47f98187ec82b97ebf45f24
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 11a7635b1a05f9815822c18e6a1aa9461233a49d8799079c3ee95076fd7034ed
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106974505"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119599138"
 ---
-# <a name="systemdevicesaepbluetoothcodservicestelephony"></a>Aep....。
+# <a name="systemdevicesaepbluetoothcodservicestelephony"></a>Aep。藍牙。[中]。電話語音
 
 裝置服務電話語音的藍牙類別。
 

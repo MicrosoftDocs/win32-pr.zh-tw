@@ -4,12 +4,12 @@ ms.assetid: 0CFD2A1B-BAE0-4755-9B26-A3D8C3053ABD
 title: 'MFPROTECTION_FFT 屬性 (Mfidl) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c8a2ac17f5b64db7ef70ef9b9d652177f6111831
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3b82e4ac67cded51efa4d091c5a6f6dfcb7457c583d2e105c7a34cadf7d00aff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114416"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119603268"
 ---
 # <a name="mfprotection_fft-attribute"></a>MFPROTECTION \_ FFT 屬性
 
@@ -25,8 +25,8 @@ ms.locfileid: "104114416"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                         |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                               |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                         |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                               |
 | 標頭<br/>                   | <dl> <dt>Mfidl。h</dt> </dl> |
 
 

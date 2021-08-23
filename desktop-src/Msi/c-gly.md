@@ -4,12 +4,12 @@ ms.assetid: f98d19c5-5187-4718-b241-3ec69454c2d6
 title: 'C (Windows Installer) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 47e7af99ad32d8dff7f4e8509976b0004045477b
-ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
+ms.openlocfilehash: 2fb0e9a1f14a3b2a7f47722d8db3e3d9cb8356df500e54dbf581bd919afb5765
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "112010921"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119581778"
 ---
 # <a name="c-windows-installer"></a>C (Windows Installer) 
 
@@ -62,7 +62,7 @@ ms.locfileid: "112010921"
 <span id="_msi_.cub_file_gly"></span><span id="_MSI_.CUB_FILE_GLY"></span>**.cub 檔案**
 </dt> <dd>
 
-儲存和提供 ICE 自訂動作存取權的驗證模組。 如需詳細資訊，請參閱 [範例 .cub](sample--cub-file.md)檔。 如需詳細資訊，請參閱也 [Windows Installer 的副檔名](windows-installer-file-extensions.md)。
+儲存和提供 ICE 自訂動作存取權的驗證模組。 如需詳細資訊，請參閱 [範例 .cub](sample--cub-file.md)檔。 如需詳細資訊，請參閱也[Windows Installer 的副檔名](windows-installer-file-extensions.md)。
 
 </dd> <dt>
 
