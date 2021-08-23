@@ -4,12 +4,12 @@ ms.assetid: ce16113d-9ddc-4e17-bdda-f78d9c17f07f
 title: Region. Xor 方法
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: de4bbf5770a0c2b7a6a6cba6c84a96e08da60270
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a4b67d32bb3bfc05e4aaece713f274d363d1afadbc4a2d51cdaab98515c5b258
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972989"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119037176"
 ---
 # <a name="regionxor-methods"></a>Region. Xor 方法
 

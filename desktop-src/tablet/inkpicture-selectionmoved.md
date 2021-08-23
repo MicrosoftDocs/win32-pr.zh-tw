@@ -4,12 +4,12 @@ ms.assetid: 669dc6c2-1620-40f3-b4b5-7ab8967e739a
 title: 'InkPicture. SelectionMoved 事件 (Msinkaut .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2006b2580e8732c90187b265576b217cdbad9b02
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 906ee8b5ba76de85b16f7c7448c3f814905f4c2a8f49d57ae0ac51c4417c444c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108086446"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118966976"
 ---
 # <a name="inkpictureselectionmoved-event"></a>InkPicture. SelectionMoved 事件
 
@@ -58,7 +58,7 @@ void SelectionMoved(
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 Windows XP Tablet PC Edition \[ 桌面應用程式\]<br/>                                                       |
+| 最低支援的用戶端<br/> | Windows僅限 XP Tablet PC Edition \[ 桌面應用程式\]<br/>                                                       |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                                           |
 | 標頭<br/>                   | <dl> <dt>Msinkaut (也需要 Msinkaut \_ c) </dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>InkObj.dll</dt> </dl>                               |

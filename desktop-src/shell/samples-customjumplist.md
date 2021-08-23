@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: c20592e508a24985e0f8283993482c7bd61af232
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3eb6f5db0b9576f360abcbaacb8a8a5a291d3dbe07754281954ea585d3ebe965
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193950"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118968827"
 ---
 # <a name="custom-jump-list-sample"></a>自訂跳躍清單範例
 
@@ -43,7 +43,7 @@ ms.locfileid: "104193950"
 
 ## <a name="downloading-the-sample"></a>下載範例
 
-| Location      | 路徑 URL                                                                                             |
+| 位置      | 路徑 URL                                                                                             |
 |---------------|------------------------------------------------------------------------------------------------------|
 | GitHub  | [CustomJumpList 範例](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/shell/appshellintegration/CustomJumpList) |
 

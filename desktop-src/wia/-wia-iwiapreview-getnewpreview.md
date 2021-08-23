@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Wia.h
-ms.openlocfilehash: c3f1251e7ec1b98d43e616c1ff6f2b3b2aacd8b4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2200452fe586a4755a4560f0f68094e5f107e9e7d69a823bafac4d33bc1c6ce8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971409"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118965557"
 ---
 # <a name="iwiapreviewgetnewpreview-method"></a>IWiaPreview：： GetNewPreview 方法
 
@@ -44,9 +44,9 @@ HRESULT GetNewPreview(
 *pWiaItem2* \[在\]
 </dt> <dd>
 
-類型： **[**IWiaItem2**](-wia-iwiaitem2.md) \** _
+類型： **[ **IWiaItem2**](-wia-iwiaitem2.md)\***
 
-指定影像的 [_ *IWiaItem2* *](-wia-iwiaitem2.md)專案的指標。
+指定影像的 [**IWiaItem2**](-wia-iwiaitem2.md) 專案指標。
 
 </dd> <dt>
 
@@ -62,9 +62,9 @@ HRESULT GetNewPreview(
 *pWiaTransferCallback* \[在\]
 </dt> <dd>
 
-類型： **[**IWiaTransferCallback**](-wia-iwiatransfercallback.md) \** _
+類型： **[ **IWiaTransferCallback**](-wia-iwiatransfercallback.md)\***
 
-指定呼叫應用程式 [_ *IWiaTransferCallback* *](-wia-iwiatransfercallback.md)介面的指標。
+指定呼叫應用程式之 [**IWiaTransferCallback**](-wia-iwiatransfercallback.md) 介面的指標。
 
 </dd> </dl>
 
@@ -80,7 +80,7 @@ HRESULT GetNewPreview(
 
 **IWiaPreview：： GetNewPreview** 會設定 [**WIA \_ DPS \_ PREVIEW**](-wia-wiaitempropscannerdevice.md) 屬性 (，並在傳回之前將它重設，除非它是在) 之前設定。 這可讓驅動程式和硬體以及影像處理篩選器知道專案是預覽掃描。
 
-在內部，Windows 映像取得 (WIA) 2.0 preview 元件會藉由在 *pWiaItem2* 上呼叫 [**GetExtension**](-wia-iwiaitem2-getextension.md) ，建立驅動程式影像處理篩選的實例。 當應用程式呼叫 **IWiaPreview：： GetNewPreview** 時，WIA 2.0 preview 元件會執行此動作。 WIA 2.0 preview 元件也會初始化 **IWiaPreview：： GetNewPreview** 中的篩選準則。 在呼叫 [**IWiaPreview：： UpdatePreview**](-wia-iwiapreview-updatepreview.md)期間，WIA 2.0 preview 元件會使用相同的篩選實例。
+就內部而言，Windows 影像取得 (WIA) 2.0 preview 元件會藉由在 *pWiaItem2* 上呼叫 [**GetExtension**](-wia-iwiaitem2-getextension.md)來建立驅動程式影像處理篩選的實例。 當應用程式呼叫 **IWiaPreview：： GetNewPreview** 時，WIA 2.0 preview 元件會執行此動作。 WIA 2.0 preview 元件也會初始化 **IWiaPreview：： GetNewPreview** 中的篩選準則。 在呼叫 [**IWiaPreview：： UpdatePreview**](-wia-iwiapreview-updatepreview.md)期間，WIA 2.0 preview 元件會使用相同的篩選實例。
 
 在呼叫 WIA 2.0 preview 元件之前，應用程式應該呼叫 [**CheckExtension**](-wia-iwiaitem2-checkextension.md) ，以確定驅動程式隨附于影像處理篩選器。 它應該在它會傳遞至 **IWiaPreview：： GetNewPreview** 的專案上呼叫 **CheckExtension** 。 提供沒有影像處理篩選器的即時預覽是無用的。 如果應用程式在沒有影像處理篩選的情況下呼叫驅動程式的 **IWiaPreview：： GetNewPreview** ，則呼叫會失敗。
 
@@ -220,10 +220,10 @@ DownloadPreviewImage(
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                     |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                               |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                     |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                               |
 | 標頭<br/>                   | <dl> <dt>Wia</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>Wia .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>Wia .idl</dt> </dl> |
 
 
 

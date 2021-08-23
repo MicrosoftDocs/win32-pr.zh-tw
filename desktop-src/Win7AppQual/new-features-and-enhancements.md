@@ -4,12 +4,12 @@ ms.assetid: 6f168d39-5c1e-4bbd-9e99-59318eb58074
 title: 新功能-Windows 7 相容性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2beb97a4cfc834e927a974c330a22e81a74af2ce
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e7b190f7026d5efcf89f931af3baabe50454c6ac2b9aae65428d5a2fdb020ee8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103851244"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119053026"
 ---
 # <a name="new-features-and-enhancements-in-windows-7"></a>Windows 7 的新功能和增強功能
 
@@ -24,7 +24,7 @@ Windows 7 和 Windows Server 2008 R2 包含許多增強功能，可改善使用�
 -   [ChooseFont () Win32 通用對話方塊](choosefont-win32-common-dialog.md)
 -   [應用程式資訊清單](compatibility---application-manifest.md)
 -   [伺服器 Hyper-v](server-hyper-v.md)
--   [啟用 Intel AVX 的 Windows 7 支援](enable-windows-7-support-for-intel-avx.md)
+-   [針對 Intel AVX 啟用 Windows 7 支援](enable-windows-7-support-for-intel-avx.md)
 -   [Microsoft Message Queuing (MSMQ) 改善的佇列處理](microsoft-message-queuing--msmq----improved-queue-handling.md)
 -   [遠端桌面服務](terminal-services.md)
 

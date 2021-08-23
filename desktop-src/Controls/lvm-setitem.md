@@ -3,7 +3,7 @@ title: 'LVM_SETITEM 訊息 (Commctrl .h) '
 description: 設定部分或全部清單視圖專案的屬性。 您也可以傳送 LVM \_ SETITEM 來設定子內容的文字。 您可以明確地傳送此訊息，或使用 ListView \_ SetItem 宏來傳送。
 ms.assetid: f1189b5d-bce7-4569-b4b9-bd750d7ef505
 keywords:
-- LVM_SETITEM message Windows 控制項
+- LVM_SETITEM 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 623339c3d1ecc7a74cf20b5e52fb621666391bd5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 83ccc47c27ff05e75ba2633e18363c3e26e844c359b54d009101512fc837b668
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104024859"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119019156"
 ---
 # <a name="lvm_setitem-message"></a>LVM \_ SETITEM 訊息
 
@@ -57,8 +57,8 @@ ms.locfileid: "104024859"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 | Unicode 與 ANSI 名稱<br/>   | **LVM \_SETITEMW** (Unicode) 和 **LVM \_ SETITEMA** (ANSI) <br/>                   |
 

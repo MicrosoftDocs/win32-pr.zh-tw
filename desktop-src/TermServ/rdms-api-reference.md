@@ -5,12 +5,12 @@ ms.assetid: BC1DD9B7-FC4C-4DC1-A0B2-4B0640CC38F0
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eccc1982aee62b7c1e214d3b29b383f458555402
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3d584f52ef7214bb0c4097758b8c2e57f89d3307bb7aed72971b742817fd47e6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103674476"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119000498"
 ---
 # <a name="remote-desktop-management-services-provider"></a>遠端桌面管理服務提供者
 
@@ -118,9 +118,9 @@ ms.locfileid: "103674476"
 [遠端桌面服務](terminal-services-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

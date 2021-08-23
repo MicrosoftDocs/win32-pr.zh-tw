@@ -4,12 +4,12 @@ description: 用戶端會藉由呼叫 IAccessible accNavigate 並指定其中一
 ms.assetid: a1ebb50e-76cf-472d-bb0f-3f5bf5ed30d5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9b9e49772a267e49d723a04005dcbc8a369510b3
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: d762352c41f2adc764ac40c052632922a25ca995b9f2ec2f5008c668d0332bfd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106965859"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119052498"
 ---
 # <a name="spatial-and-logical-navigation"></a>空間和邏輯導覽
 
@@ -46,6 +46,6 @@ ms.locfileid: "106965859"
 
 針對沒有定義螢幕位置的物件，邏輯順序是由伺服器開發人員決定，而且用戶端開發人員不應該對其進行任何假設。 比方說，不可見的物件（例如只會暫時隱藏的物件）可以接受，以與可見的物件交錯。
 
- 
+ 
 
- 
+ 

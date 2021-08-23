@@ -4,12 +4,12 @@ ms.assetid: fda0d627-406c-44f9-9061-7aea3e2d7f66
 title: 剪輯路徑和圖形效果
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8156a8670747175502b2385e6c24a340345a54f9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3c80605f4dc58846f3a9e8440801d46768384c103ff6e3f9df5e3d448d9b12aa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104512921"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119038156"
 ---
 # <a name="clip-paths-and-graphic-effects"></a>剪輯路徑和圖形效果
 

@@ -18,12 +18,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2789656b328f9615787ff2cd50a1b69c712a8138
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: fc8854bb0b406048d999324a034ebc62b100496c7cf4b5838733e9addd50d42f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384982"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119000698"
 ---
 # <a name="imsrdpdrivecollectiondrivebyindex-property"></a>IMsRdpDriveCollection：:D riveByIndex 屬性
 

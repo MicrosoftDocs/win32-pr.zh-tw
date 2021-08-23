@@ -4,12 +4,12 @@ description: 在用戶端與伺服器之間，以 RAS 和無線 (802.1 X) 用戶
 ms.assetid: 1cd5bfc9-2ba3-477c-9bbb-73578a5623c2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 856bd173ef617fb272460f874fa1d2087322c8b4
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: e5d53643718f747e1f39aaf68393f92a0577455041ec765ca19bea710f2c3aca
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104375132"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118984458"
 ---
 # <a name="authentication-protocol-initialization"></a>驗證通訊協定初始化
 
@@ -33,6 +33,6 @@ ms.locfileid: "104375132"
 
 如果 [**RasEapBegin**](/previous-versions/windows/desktop/legacy/aa363520(v=vs.85)) 呼叫傳回任何 **不是 \_ 錯誤** 的值，會話就會中斷連線。 傳回的錯誤會記錄在伺服器) 上 (，或顯示給用戶端) 上的使用者 (。
 
- 
+ 
 
- 
+ 

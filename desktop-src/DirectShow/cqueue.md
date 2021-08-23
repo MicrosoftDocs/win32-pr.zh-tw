@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 4ceef0d29e0f6f06c30355a47e3274495f17dceb
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: bf6c6225a393f8f6ff1848acc66c68b6d260b0c839f2cc9f1e24d06a11e88219
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106979524"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118953977"
 ---
 # <a name="cqueue-class"></a>CQueue 類別
 
@@ -29,7 +29,7 @@ ms.locfileid: "106979524"
 
 
 
-| 公用方法                                  | Description                             |
+| 公用方法                                  | 描述                             |
 |-------------------------------------------------|-----------------------------------------|
 | [**CQueue**](cqueue-cqueue.md)                 | 函式方法。                     |
 | [**~ CQueue**](cqueue--cqueue.md)               | 函式方法。                      |

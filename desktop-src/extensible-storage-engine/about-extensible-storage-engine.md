@@ -1,25 +1,25 @@
 ---
-description: 深入瞭解：關於可擴充儲存引擎
-title: 關於可擴充儲存引擎
+description: 深入瞭解：關於可擴充的儲存體引擎
+title: 關於可擴充的儲存體引擎
 TOCTitle: About Extensible Storage Engine
 ms:assetid: 06d1526e-169d-4677-b409-2ed415287de6
 ms:mtpsurl: https://msdn.microsoft.com/library/Gg269181(v=EXCHG.10)
 ms:contentKeyID: 32765484
 ms.date: 04/11/2016
 ms.topic: article
-ms.openlocfilehash: 17e2277deaef54c04bf6a53a8464479fd67295a1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 26a1d4d28f1d5957432202545ff94c4f18c37e5a521e0deadfdabfb72751adec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936574"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118983868"
 ---
-# <a name="about-extensible-storage-engine"></a>關於可擴充儲存引擎
+# <a name="about-extensible-storage-engine"></a>關於可擴充的儲存體引擎
 
 
-_**適用于：** Exchange Server 2013 |Windows |Windows Server_
+_**適用于：** Exchange Server 2013 |Windows |Windows伺服器_
 
-## <a name="about-extensible-storage-engine"></a>關於可擴充儲存引擎
+## <a name="about-extensible-storage-engine"></a>關於可擴充的儲存體引擎
 
 可延伸儲存引擎 (ESE) 是一種資料庫引擎，可將資訊儲存在邏輯順序中。 您可以依序或藉由存取定義的索引來抓取資訊。 資料庫的更新會透過交易來執行，以確保安全的作業。 ESE 可同時存取多個資料庫，包括可用於系統復原的交易記錄檔資料庫。 ESE 可以擴充至大型或小型應用程式。 下列功能適用于 ESE 應用程式設計介面 (API) ：
 

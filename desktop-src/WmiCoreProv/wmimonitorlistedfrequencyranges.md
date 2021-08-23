@@ -17,12 +17,12 @@ api_type:
 - DllExport
 api_location:
 - WmiProv.dll
-ms.openlocfilehash: e13828f6d5e844147fc0b041617c8452c503ceef
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 41b49c293d5661d523138b01c093fce627e5bedf3d1e783dccb8248edf88546c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106976967"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119051136"
 ---
 # <a name="wmimonitorlistedfrequencyranges-class"></a>WmiMonitorListedFrequencyRanges 類別
 

@@ -4,12 +4,12 @@ ms.assetid: e8348373-da79-4d33-8bea-d594985493d4
 title: SetClip 方法
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 488d617dfb53343fc728fff722c0c0bc1db57335
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 616a78aa7dd251e888bba1186a3583c5d7f62d188dcc6313560f651ec6558827
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192369"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119037186"
 ---
 # <a name="graphicssetclip-methods"></a>SetClip 方法
 

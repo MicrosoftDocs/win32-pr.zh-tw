@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: e5c151c3d93f5e2fe374f0f60fd06798cf1ce52a
-ms.sourcegitcommit: 0d6365d4e852b09a9100d9cfb9a5334922ebf478
+ms.openlocfilehash: d22cf5fa8a8fe03a62b554def7caf28b4c4e8ab9065446bab9281e4e791e5d3c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "104093543"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118986218"
 ---
 # <a name="samplesfloatintfloat-function-hlsl-reference"></a>範例 (S、float、int、float) 函數 (HLSL 參考) 
 

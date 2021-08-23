@@ -4,16 +4,16 @@ ms.assetid: db6eabaa-1b84-4613-ab2a-8d5904305e08
 title: LUN Plex 物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0f1b51657ccbfc0f1bd3d73e54128cac3f0b507c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: df52b60bcbd23269d766435749b40b8c636361390359182a38a695ab6252a27f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975935"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118999439"
 ---
 # <a name="lun-plex-object"></a>LUN Plex 物件
 
-\[從 Windows 8 和 Windows Server 2012 開始， [虛擬磁碟服務](virtual-disk-service-portal.md) COM 介面會被 [Windows 儲存體管理 API](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal)取代。\]
+\[從 Windows 8 和 Windows Server 2012 開始， [Windows 儲存體管理 API](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal)會取代[虛擬磁碟服務](virtual-disk-service-portal.md)COM 介面。\]
 
 LUN plex 物件會為 lun 所包含的 LUN plex 建立模型。 只有鏡像的 LUN 可以有多個 plex;所有其他 LUN 類型都有一個 plex。 每個 plex 都包含 LUN 上的資料複本。 新的 plex 可以新增至 LUN，而且除了原始的 plex 之外，現有的 plex 也可以移除。 VDS 支援四個 LUN 的 plex 類型：簡單、跨距、等量和同位檢查。 如需這些 LUN 類型的說明，請參閱 [Lun 物件](lun-object.md)。
 

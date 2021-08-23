@@ -4,12 +4,12 @@ ms.assetid: 16e8348b-c6cf-06a5-12be-5954de3522c1
 title: DirectXMath 程式庫2D 向量比較函數
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 66b4ed7f61ffc7009aafe070c941129b15ca74fd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f200bbc9a2fdd6e95c446c9635e34e106df6904ce64f8e1ebad1a7cc129f7285
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114489"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118984828"
 ---
 # <a name="directxmath-library-2d-vector-comparison-functions"></a>DirectXMath 程式庫2D 向量比較函數
 

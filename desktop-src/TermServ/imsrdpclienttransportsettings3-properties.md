@@ -5,12 +5,12 @@ ms.assetid: 142660DE-5126-443F-9FF0-C50E0039CD71
 ms.tgt_platform: multiple
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8eb3a322cbfe39b9b8ea333967219b2c0008e53e
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 218ab286bdbaa1c653b8d1b8e81c3859bae1598eedcabdaa6c2e7d0294d65981
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104373285"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119000868"
 ---
 # <a name="imsrdpclienttransportsettings3-properties"></a>IMsRdpClientTransportSettings3 屬性
 
@@ -24,9 +24,9 @@ ms.locfileid: "104373285"
 -   [**GatewayEncryptedAuthCookie 屬性**](imsrdpclienttransportsettings3-gatewayencryptedauthcookie.md)
 -   [**GatewayEncryptedAuthCookieSize 屬性**](imsrdpclienttransportsettings3-gatewayencryptedauthcookiesize.md)
 
- 
+ 
 
- 
+ 
 
 
 

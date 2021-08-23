@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: c255ac8734f364597c09fc15b4aa543b1ec0a0da
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 36874817d2e1dd13c00577a91cff7f059c1f2441701012af202c4765cb23088a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106977514"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119016656"
 ---
 # <a name="cbasewindowgetmemoryhdc-method"></a>CBaseWindow. GetMemoryHDC 方法
 

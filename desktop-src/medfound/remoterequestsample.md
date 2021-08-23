@@ -4,12 +4,12 @@ ms.assetid: 05ed4de0-fe5c-4183-8f1d-55d5a27e436a
 title: 'RemoteRequestSample (Mfobjects) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2c8b06f0501de9cc041bf5776adb5e17e59a8c17
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b0b572a9de9a74a744b9a9fc2c31dd816900301da623869cecdb03820ccbcf1d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "107001687"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119034906"
 ---
 # <a name="remoterequestsample"></a>RemoteRequestSample
 
@@ -30,8 +30,8 @@ HRESULT RemoteRequestSample();
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows Vista \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                                    |
-| 最低支援的伺服器<br/> | Windows Server 2008 \[ desktop app \| UWP 應用程式\]<br/>                                              |
+| 最低支援的用戶端<br/> | WindowsVista \[ desktop apps \| UWP 應用程式\]<br/>                                                    |
+| 最低支援的伺服器<br/> | WindowsServer 2008 \[ desktop app \| UWP 應用程式\]<br/>                                              |
 | 標頭<br/>                   | <dl> <dt>Mfobjects (包含 Mfidl) </dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>Mfuuid .lib</dt> </dl>                    |
 

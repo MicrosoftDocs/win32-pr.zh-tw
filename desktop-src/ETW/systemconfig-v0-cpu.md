@@ -19,12 +19,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: de3b63def40cb6ead40f6f4c95625603cfc581ee
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: d533eb06aca34ffdb5996bb0c08c7d40645042e7ccab7645cfd3a04adf0db2ea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108105986"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119069658"
 ---
 # <a name="systemconfig_v0_cpu-class"></a>SystemConfig \_ V0 \_ CPU 類別
 
@@ -179,7 +179,7 @@ class SystemConfig_V0_CPU : SystemConfig_V0
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
 | 最低支援的用戶端<br/> | 都不支援<br/>                            |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/> |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/> |
 
 
 

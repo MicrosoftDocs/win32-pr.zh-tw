@@ -4,12 +4,12 @@ description: 進度列控制項指出冗長作業的進度，例如從網際網�
 ms.assetid: 9165d00e-b3f3-41cd-812c-cd39313460fa
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d9bbd9a648ee1c4d4f112577c8e41a5983f69038
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 29a96b692de7b4c3992bab82eaa2461ce2826e5117498c24be7d8e40913d8a74
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104183874"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119052556"
 ---
 # <a name="progress-bar-control-msaa-ui-element-reference"></a>進度列控制項 (MSAA UI 元素參考) 
 

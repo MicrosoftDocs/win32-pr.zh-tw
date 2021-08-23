@@ -8,12 +8,12 @@ keywords:
 - 字串函數 (string functions)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9ff9fa6c9d93ba2f5c089b52b56816cad74bb61c
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: d50f47205ec021bffaa4cb6e24aa4825177a3fc0d8546f3a14b1d4b0e0ca4271
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106966851"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119034386"
 ---
 # <a name="about-strings"></a>關於字串
 
@@ -28,11 +28,11 @@ ms.locfileid: "106966851"
 
 ## <a name="comparison-with-c-run-time-string-functions"></a>與 C Run-Time 字串函數的比較
 
-許多字串函式會從標準 C 執行時間 (CRT) 程式庫複製或增強熟悉的字串函式。 許多增強功能可讓字串函數使用 Unicode 或擴充字元集。 下表顯示 CRT 函式、支援 Unicode 的 Windows 函式 (，與 CRT 函數) 和 >strsafe.h 函式不同。
+許多字串函式會從標準 C 執行時間 (CRT) 程式庫複製或增強熟悉的字串函式。 許多增強功能可讓字串函數使用 Unicode 或擴充字元集。 下表顯示 crt 函式、支援 Unicode 的 Windows 函式 (，與 CRT 函數) 和 >strsafe.h 函式不同。
 
 
 
-| CRT 字串函數                                       | Windows String 函數    | >strsafe.h 函式                                                                                                                                                                                                                                                                                                                                                                                          |
+| CRT 字串函數                                       | WindowsString 函數    | >strsafe.h 函式                                                                                                                                                                                                                                                                                                                                                                                          |
 |-----------------------------------------------------------|----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [strcat](/cpp/c-runtime-library/reference/strcat-wcscat-mbscat?view=vs-2019) | [**lstrcat**](/windows/desktop/api/Winbase/nf-winbase-lstrcata) | <dl> <dt>[**StringCchCat**](/windows/desktop/api/Strsafe/nf-strsafe-stringcchcata)</dt> <dt>[**StringCchCatEx**](/windows/desktop/api/Strsafe/nf-strsafe-stringcchcatexa)</dt> <dt>[**StringCbCat**](/windows/desktop/api/Strsafe/nf-strsafe-stringcbcata)</dt> <dt>[**StringCbCatEx**](/windows/desktop/api/Strsafe/nf-strsafe-stringcbcatexa)</dt> </dl>         |
 | [strcmp](/cpp/c-runtime-library/reference/strcmp-wcscmp-mbscmp?view=vs-2019) | [**lstrcmp**](/windows/desktop/api/Winbase/nf-winbase-lstrcmpa) | 沒有對等的函式 ()                                                                                                                                                                                                                                                                                                                                                                                   |
@@ -41,7 +41,7 @@ ms.locfileid: "106966851"
 
 
 
- 
+ 
 
 例如， **strlen** 函式一律會傳回字串中的位元組數目，但 [**lstrlen**](/windows/desktop/api/Winbase/nf-winbase-lstrlena) 函數會傳回 **TCHAR** 值的數目，這是指 ANSI 版本的函數或 Unicode 版本的 **WCHAR** 值的位元組數。
 
@@ -60,7 +60,7 @@ ms.locfileid: "106966851"
 
 
 
- 
+ 
 
 下列字串函式會根據使用者所選取之語言的語義來決定字元。 這些函式是 Unicode 啟用的功能。
 
@@ -75,7 +75,7 @@ ms.locfileid: "106966851"
 
 
 
- 
+ 
 
 下表顯示 standard C 執行時間 (CRT) 函數的 Unicode 擴充功能。 如先前所述，>strsafe.h 函式可讓您更安全地處理字串，因此建議您為應用程式提供更好的安全性。
 
@@ -88,7 +88,7 @@ ms.locfileid: "106966851"
 
 
 
- 
+ 
 
 ## <a name="string-resources"></a>字串資源
 
@@ -100,6 +100,6 @@ ms.locfileid: "106966851"
 
 16位字串資源的長度上限為255個字元。 若為32位字串資源，65535個字元是最大長度。
 
- 
+ 
 
- 
+ 

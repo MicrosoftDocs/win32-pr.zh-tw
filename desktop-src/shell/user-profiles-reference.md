@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: d5d4c4f585eda66674059f402dbd73f106a3e4f2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4b064eefae4916576cb8ccc6b3dfe058ea4e2e34f960315b74d384194f61ec99
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973728"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118967828"
 ---
 # <a name="user-profiles-reference"></a>使用者設定檔參考
 
@@ -27,7 +27,7 @@ ms.locfileid: "104973728"
 | 函式                                                                   | 描述                                                                                                   |
 |----------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | [**CreateEnvironmentBlock**](/windows/desktop/api/Userenv/nf-userenv-createenvironmentblock)                   | 抓取指定使用者的環境變數。                                                   |
-| [**CreateProfile**](/windows/desktop/api/Userenv/nf-userenv-createprofile)                                     | 建立新的使用者設定檔。  (Windows Vista 及更新版本。 )                                                    |
+| [**CreateProfile**](/windows/desktop/api/Userenv/nf-userenv-createprofile)                                     | 建立新的使用者設定檔。  (Windows Vista （含）以後版本。 )                                                    |
 | [**DeleteProfile**](/windows/desktop/api/Userenv/nf-userenv-deleteprofilea)                                     | 從指定的電腦刪除使用者設定檔和所有使用者相關的設定。                           |
 | [**DestroyEnvironmentBlock**](/windows/desktop/api/Userenv/nf-userenv-destroyenvironmentblock)                 | 釋放 [**CreateEnvironmentBlock**](/windows/desktop/api/Userenv/nf-userenv-createenvironmentblock) 函數所建立的環境變數。 |
 | [**ExpandEnvironmentStringsForUser**](/windows/desktop/api/Userenv/nf-userenv-expandenvironmentstringsforusera) | 使用針對指定使用者所建立的環境區塊來展開來源字串。                  |
@@ -49,7 +49,7 @@ ms.locfileid: "104973728"
 
 
 
-| 結構                          | Description                                |
+| 結構                          | 描述                                |
 |------------------------------------|--------------------------------------------|
 | [**PROFILEINFO.TXT**](/windows/desktop/api/Profinfo/ns-profinfo-profileinfoa) | 包含使用者設定檔的相關資訊。 |
 

@@ -1,19 +1,19 @@
 ---
 title: 方格版面配置範例
-description: 示範如何使用 Direct2D 以動畫顯示影像的方格，以使用 Windows 動畫。
+description: 示範如何使用 Direct2D 以動畫顯示影像的格線，以使用 Windows 動畫。
 ms.assetid: f2f24058-c532-45ad-bde8-d05cfffcd505
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dc4d691ffa6396e294fd2dfbd07eaf9329f19519
-ms.sourcegitcommit: c9c66a09eeb9e46311879a5181342e89964c1dd8
+ms.openlocfilehash: bf287dc7d6f96b9b5db4ce3fff7d30c34b1f8b998518dbdddc9d7abbda793330
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "103681622"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118999678"
 ---
 # <a name="grid-layout-sample"></a>方格版面配置範例
 
-示範如何使用 Direct2D 以動畫顯示影像的方格，以使用 Windows 動畫。
+示範如何使用 Direct2D 以動畫顯示影像的格線，以使用 Windows 動畫。
 
 ## <a name="downloading-the-sample"></a>下載範例
 
@@ -21,14 +21,14 @@ ms.locfileid: "103681622"
 
 
 
-| Location                               | 路徑/URL                                                                                          |
+| 位置                               | 路徑/URL                                                                                          |
 |----------------------------------------|---------------------------------------------------------------------------------------------------|
 | Windows Software Development Kit (SDK) | [Microsoft Windows 軟體開發套件7。0](https://msdn.microsoft.com/windowsvista/bb980924.aspx) |
-| Code Gallery (程式碼庫)                           | [Windows 動畫管理員範例程式碼](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/DirectCompositionWindowsAnimationManager)         |
+| Code Gallery (程式碼庫)                           | [Windows動畫管理員範例程式碼](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/DirectCompositionWindowsAnimationManager)         |
 
 
 
- 
+ 
 
 下載並安裝 Windows SDK 之後，您會在安裝目錄中找到範例。 例如，如果您使用 Windows 7 的 Windows SDK 預設安裝路徑，則範例會安裝在 C： \\ Program Files \\ Microsoft sdk \\ Windows \\ 7.0 版 \\ 範例中。
 
@@ -49,7 +49,7 @@ ms.locfileid: "103681622"
     > [!Note]  
     > .Sln 副檔名不會顯示在 [預設資料夾設定] 下。 在這種情況下，它可以透過其唯一圖示或其類型描述「Microsoft Visual Studio 解決方案」來識別。
 
-     
+     
 
 2.  按兩下 GridLayout .sln 檔案的圖示，在 Visual Studio 中開啟專案。
 
@@ -65,9 +65,9 @@ ms.locfileid: "103681622"
 
 3.  從圖片庫載入範例影像。 調整視窗的大小，影像會在方格中排列。
 
- 
+ 
 
- 
+ 
 
 
 

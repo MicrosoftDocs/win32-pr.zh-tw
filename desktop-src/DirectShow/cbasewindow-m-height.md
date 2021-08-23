@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 9899de99da316ffec4093a439f405f1db26b4223
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f85cef9076ce1e961a6ba07c315ff9b08a01e55b30c29dafae3eb10708d39f91
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106988642"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119074582"
 ---
 # <a name="cbasewindowm_height-member"></a>CBaseWindow：： m \_ Height 成員
 

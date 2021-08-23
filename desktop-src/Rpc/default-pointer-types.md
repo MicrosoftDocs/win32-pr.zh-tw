@@ -4,12 +4,12 @@ description: 指標不需要有明確的屬性描述。 未提供明確屬性時
 ms.assetid: b90619c3-70b4-44f0-ba37-293595281031
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c565fe8019567fd1fe319d7b34287d9729bbe1d3
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 3020f17af6e24778c0fa5090009650f3c0832df528ba148e0a6a91928dd1dc14
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104023791"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118930975"
 ---
 # <a name="default-pointer-types"></a>預設指標類型
 
@@ -69,6 +69,6 @@ interface MyInterface2
 
 建議 **\[** **\]** 只有在需要指標別名時使用 ptr。
 
- 
+ 
 
- 
+ 

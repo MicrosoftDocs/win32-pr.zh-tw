@@ -4,12 +4,12 @@ description: 系結控制碼是由通訊協定序列、伺服器程式主機電�
 ms.assetid: 0a3bed37-95c7-4f4a-9ed3-9d57f69db523
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f42ed5d2af21eff1091e0ba48718426bf17501e3
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: fc566d408b27884cacefe07a181f26971352e1f29f9f47dfd41b3d56a8276515
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106969666"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118931721"
 ---
 # <a name="client-side-binding"></a>用戶端系結
 
@@ -53,7 +53,7 @@ void main(int argc, char **argv)
 
 如您在上述範例中所見，用戶端應用程式不需要對 RPC 執行時間程式庫函式進行任何明確的呼叫。 用戶端 stub 會管理它們。
 
-如果您的應用程式使用隱含或明確的系結控制碼，用戶端必須取得系結資訊，並呼叫 RPC 函數來建立控制碼。 用戶端從中取得系結資訊的位置，取決於您的應用程式需求。 安裝您用戶端應用程式的安裝程式可以將系結資訊儲存在其所建立的環境變數中。 它也可以將系結資訊儲存在應用程式特定的設定檔中。 由於環境變數或設定檔中的系結資訊通常會儲存為字串，因此您的用戶端應用程式必須將字串轉換成系結。 在 Windows XP/2000 環境中，您可以從 Active Directory 取出系結資訊。 如需詳細資訊，請參閱 [使用字串](finding-server-host-systems.md)系結。
+如果您的應用程式使用隱含或明確的系結控制碼，用戶端必須取得系結資訊，並呼叫 RPC 函數來建立控制碼。 用戶端從中取得系結資訊的位置，取決於您的應用程式需求。 安裝您用戶端應用程式的安裝程式可以將系結資訊儲存在其所建立的環境變數中。 它也可以將系結資訊儲存在應用程式特定的設定檔中。 由於環境變數或設定檔中的系結資訊通常會儲存為字串，因此您的用戶端應用程式必須將字串轉換成系結。 在 Windows XP/2000 環境中，您可以從 Active Directory 中取出系結資訊。 如需詳細資訊，請參閱 [使用字串](finding-server-host-systems.md)系結。
 
 大部分的網路都有名稱服務。 伺服器程式可以在名稱服務資料庫中通告自己。 當用戶端開始執行時，它可以從名稱服務資料庫取得其系結資訊。 如需詳細資訊，請參閱 [從名稱服務資料庫匯入](finding-server-host-systems.md)。
 
@@ -65,9 +65,9 @@ void main(int argc, char **argv)
 
 如需這些主題的簡短總覽，請參閱 [連接用戶端和伺服器](connecting-the-client-and-the-server.md)。
 
- 
+ 
 
- 
+ 
 
 
 

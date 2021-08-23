@@ -19,12 +19,12 @@ keywords:
 - Microsoft Active Accessibility 測試控管
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 49d2b85436735bfa08f8fc73cf4e465b11d71630
-ms.sourcegitcommit: 3e70ae762629e244028b437420ed50b5850db4e3
+ms.openlocfilehash: 452ff74140b50f1f6ea6d5357187e42ecff2d83cc85076d11ff22e191da7f3ee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "106996364"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119052406"
 ---
 # <a name="accessibility-tools---accchecker-ui-accessibility-checker"></a>協助工具工具-AccChecker (UI 協助工具檢查程式) 
 
@@ -32,16 +32,16 @@ ms.locfileid: "106996364"
 
 **AccChecker** 提供下列層級的功能：
 
-- 支援手動測試、訊息記錄和抑制產生的 Windows GUI 應用程式。
+- 支援手動測試、訊息記錄和隱藏產生的 Windows GUI 應用程式。
 - 用於自動化測試架構的 API。
 - 在無法使用 **AccChecker** 受控 API 的情況下，支援非受控測試自動化的主控台應用程式。
 
 所有層級的 **AccChecker** 功能都提供用來驗證 Microsoft Active Accessibility 程式設計存取、程式設計事件產生、控制項配置和鍵盤流覽的常式。 **AccChecker** 也提供基本的螢幕讀取器轉譯服務。
 
-**AccChecker** 會隨 WINDOWS 軟體開發套件 (SDK) 安裝。 它位於 \\ \\ <  > \\ < SDK 安裝路徑的 bin version *platform* > \\ AccChecker 資料夾中。
+**AccChecker** 會隨 Windows 軟體開發套件 (SDK) 安裝。 它位於 \\ \\ <  > \\ < SDK 安裝路徑的 bin version *platform* > \\ AccChecker 資料夾中。
 
 > [!NOTE]
-> **AccChecker** 是一種舊版工具。 建議您改為使用 [協助工具深入](https://accessibilityinsights.io/) 解析。
+> **AccChecker** 是一種舊版工具。 建議您改為使用[協助工具 Insights](https://accessibilityinsights.io/) 。
 
 ## <a name="requirements"></a>規格需求
 

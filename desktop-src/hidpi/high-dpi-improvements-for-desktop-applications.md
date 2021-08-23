@@ -4,18 +4,18 @@ description: Mixed-Mode DPI 縮放比例和 DPI 感知 Api
 ms.assetid: 44AC0B29-3283-4801-90F5-3E78CCD87B9F
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d6f5b16e4c438cfe1f0d04e61524899e213b25ea
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: fb32de01390f2794b5714bdca5465a5997121c270ded9c170e0b0171fd972542
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113119723"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119036218"
 ---
 # <a name="mixed-mode-dpi-scaling-and-dpi-aware-apis"></a>Mixed-Mode DPI 縮放比例和 DPI 感知 Api
 
 ## <a name="sub-process-dpi-awareness-support"></a>Sub-Process DPI 感知支援
 
-[**SetThreadDpiAwarenessCoNtext**](/windows/desktop/api/Winuser/nf-winuser-setthreaddpiawarenesscontext) 可讓您在單一進程中使用不同的 DPI 縮放模式。 在 Windows 10 年度更新版之前，會將視窗的 DPI 感知系結至整個進程的 DPI 感知模式， (DPI 感知、系統 DPI 感知，或 Per-Monitor DPI 感知) 。 但現在，使用 **SetThreadDpiAwarenessCoNtext** 時，最上層的 windows 可以有與整個進程的 DPI 感知模式不同的 DPI 感知模式。 這也會影響子視窗，因為它們一律具有與父視窗相同的 DPI 感知模式。
+[**SetThreadDpiAwarenessCoNtext**](/windows/desktop/api/Winuser/nf-winuser-setthreaddpiawarenesscontext) 可讓您在單一進程中使用不同的 DPI 縮放模式。 在 Windows 10 周年更新之前，會將視窗的 DPI 感知系結至整個進程的 DPI 感知模式， (DPI 感知、系統 DPI 感知，或 Per-Monitor DPI 感知) 。 但現在，使用 **SetThreadDpiAwarenessCoNtext** 時，最上層的 windows 可以有與整個進程的 DPI 感知模式不同的 DPI 感知模式。 這也會影響子視窗，因為它們一律具有與父視窗相同的 DPI 感知模式。
 
 使用 **SetThreadDpiAwarenessCoNtext** 可讓開發人員在針對桌面應用程式定義 DPI 特定的行為時，決定他們要將其開發工作放在哪裡。 例如，應用程式的主要最上層視窗可根據個別監視器進行調整，而次要最上層視窗則可透過由作業系統進行點陣圖調整來調整。
 

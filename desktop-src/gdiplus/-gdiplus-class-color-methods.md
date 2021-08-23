@@ -4,12 +4,12 @@ ms.assetid: cbb2cc10-a39f-40a1-91ab-e79ba4ee3cc6
 title: 色彩方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f2ed6f9146ef64d687512366fd6dabe19e5fcba3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 34f59425aadce243bd32cdf3a8ac600cb3a92638b9565d4e1aa5d2de1227ff80
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104991446"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119037066"
 ---
 # <a name="color-methods"></a>色彩方法
 

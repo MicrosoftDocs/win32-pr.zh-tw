@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 9d8936f08b952af069812859736a6a13ea9c0e4e
-ms.sourcegitcommit: 0e611cdff84ff9f897c59e4e1d2b2d134bc4e133
+ms.openlocfilehash: cb3095e366a03d94616d45eda441fec78d2ccbf7d58f8e74890a42902bae6fc2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "106998692"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119073252"
 ---
 # <a name="csourcestreamgetmediatype-method-sourceh---iposition-and-pmediatype-parameters"></a>CSourceStream. GetMediaType 方法 (Source .h) -Ipositionsummaryview 和 pMediaType 參數
 
@@ -63,7 +63,7 @@ virtual HRESULT GetMediaType(
 
 
 
-| 傳回碼                                                                                            | Description                      |
+| 傳回碼                                                                                            | 描述                      |
 |--------------------------------------------------------------------------------------------------------|----------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>                   | 成功。<br/>              |
 | <dl> <dt>**VFW \_ S \_ 沒有 \_ 其他 \_ 專案**</dt> </dl> | 索引超出範圍。<br/>   |

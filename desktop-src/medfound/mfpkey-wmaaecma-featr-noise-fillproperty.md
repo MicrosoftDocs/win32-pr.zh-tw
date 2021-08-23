@@ -4,12 +4,12 @@ ms.assetid: 8bb64686-8f02-4e0d-a664-aeee1744fc8e
 title: 'MFPKEY_WMAAECMA_FEATR_NOISE_FILL 屬性 (Wmcodecdsp) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ea0c0af2b47767a7798d9b583ac55ad5112ddf1f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ec3f2f6780157da97263bd6e68ac5f38c9448a5633fafe6481b082ed033331dc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106989282"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119035116"
 ---
 # <a name="mfpkey_wmaaecma_featr_noise_fill-property"></a>MFPKEY \_ WMAAECMA \_ FEATR \_ 雜訊 \_ 填滿屬性
 
@@ -58,8 +58,8 @@ VARIANT \_ TRUE
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                          |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                    |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                          |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                    |
 | 標頭<br/>                   | <dl> <dt>Wmcodecdsp。h</dt> </dl> |
 
 

@@ -3,7 +3,7 @@ title: 'MCM_GETCALENDARCOUNT 訊息 (Commctrl .h) '
 description: 取得目前在行事曆控制項中顯示的行事歷數目。 您可以使用 MonthCal GetCalendarCount 宏明確地傳送此訊息 \_ 。
 ms.assetid: b9463f02-d37b-49b0-8387-0938020c23ee
 keywords:
-- MCM_GETCALENDARCOUNT message Windows 控制項
+- MCM_GETCALENDARCOUNT 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 14a3be9e9bcc5db8c1aab32cacbcc2ded82727af
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9379aa8c273451ba53c2a13d6190712212765b46dc1052a08b6d03ae4ae32e61
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104807"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119019046"
 ---
 # <a name="mcm_getcalendarcount-message"></a>MCM \_ GETCALENDARCOUNT 訊息
 
@@ -53,8 +53,8 @@ ms.locfileid: "104104807"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

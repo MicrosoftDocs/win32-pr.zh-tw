@@ -5,12 +5,12 @@ ms.custom: 19H1
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 06/21/2019
-ms.openlocfilehash: 6a1094f3fcc450fc8e5af471d79be3e3c3064fbf
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 9f9d8687fa9871152504f80a917a083ce9acbd14b9bf9159bc7559865b6a7a89
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106969726"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118985208"
 ---
 # <a name="minimal-dxcore-application"></a>最低 DXCore 應用程式
 

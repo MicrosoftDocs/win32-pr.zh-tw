@@ -4,12 +4,12 @@ description: 本章節包含範例程式碼，以及如何使用快速鍵控制�
 ms.assetid: B241D032-FDC6-4410-9AB1-9D50AE96F1D0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a7f739ca0a03afa4fc94cff111e66e518e5ed09
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 69b1de221c510ac7a9d500db472652c9324703349b04b8bbe496cc54a205bc0c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103683171"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119018576"
 ---
 # <a name="using-hot-key-controls"></a>使用快速鍵控制項
 

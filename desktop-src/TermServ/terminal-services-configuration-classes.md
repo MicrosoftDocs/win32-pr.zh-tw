@@ -5,12 +5,12 @@ ms.assetid: 94f61783-b259-4f0f-ac06-84bfbf4f5996
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fc9c58be85b8b4efc35495f35902ab67b35ad153
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: de40784e1e0c9e0387b8d6ff60193639032f7e0cbe5e34c4a8b35aeb32cc37cb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104375405"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119000121"
 ---
 # <a name="remote-desktop-services-configuration-classes"></a>遠端桌面服務設定類別
 
@@ -206,6 +206,6 @@ System 元素階層的基類。
 
 ![支援類別之間的關聯性](images/tswmi.png)
 
- 
+ 
 
- 
+ 

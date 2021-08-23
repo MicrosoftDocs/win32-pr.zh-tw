@@ -1,21 +1,21 @@
 ---
-description: Windows 通訊端介面引進了新的功能，其設計目的是要讓 Windows 通訊端程式設計更容易。 這些新的 Windows 通訊端函式的優點之一，就是 IPv6 和 IPv4 的整合支援。
+description: Windows 通訊端介面引進了新的函式，其設計目的是為了讓 Windows 通訊端程式設計更容易。 這些新的 Windows 通訊端函式的優點之一，是 IPv6 和 IPv4 的整合支援。
 ms.assetid: 83262f2b-a335-4bbd-b2e3-6c7744b3ee50
 title: IPv6 Winsock 應用程式的函式呼叫
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a56fe5087e17a9a4eb1337ac803b8500b1fe9c27
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 241db1f7e07264fe4f0c776834d17c48cff4780b06e6a42816d36a50fa22cef7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971209"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119051666"
 ---
 # <a name="function-calls-for-ipv6-winsock-applications"></a>IPv6 Winsock 應用程式的函式呼叫
 
-Windows 通訊端介面引進了新的功能，其設計目的是要讓 Windows 通訊端程式設計更容易。 這些新的 Windows 通訊端函式的優點之一，就是 IPv6 和 IPv4 的整合支援。
+Windows 通訊端介面引進了新的函式，其設計目的是為了讓 Windows 通訊端程式設計更容易。 這些新的 Windows 通訊端函式的優點之一，是 IPv6 和 IPv4 的整合支援。
 
-這些新的 Windows 通訊端功能包括下列各項：
+這些新的 Windows 通訊端函數包括下列各項：
 
 -   [**WSAConnectByName**](/windows/desktop/api/Winsock2/nf-winsock2-wsaconnectbynamea)
 -   [**WSAConnectByList**](/windows/desktop/api/Winsock2/nf-winsock2-wsaconnectbylist)
@@ -28,10 +28,10 @@ Windows 通訊端介面引進了新的功能，其設計目的是要讓 Windows 
 
 將 IPv6 支援新增至應用程式時，應使用下列指導方針：
 
--   您可以使用 [**WSAConnectByName**](/windows/desktop/api/Winsock2/nf-winsock2-wsaconnectbynamea) ，透過指定的主機名稱和埠建立端點的連接。 **WSAConnectByName** 函式可在 Windows Vista 和更新版本上使用。
--   您可以使用 [**WSAConnectByList**](/windows/desktop/api/Winsock2/nf-winsock2-wsaconnectbylist) 來建立一組目的地位址（)  (主機名稱和埠）所代表之可能端點集合中的一個連接。 **WSAConnectByList** 函式可在 Windows Vista 和更新版本上使用。
--   使用其中一個新的 [**getaddrinfo**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-getaddrinfo) Windows 通訊端函數呼叫來取代 [**gethostbyname**](/windows/win32/api/wsipv6ok/nf-wsipv6ok-gethostbyname)函式呼叫。 具有 IPv6 通訊協定支援的 **getaddrinfo** 函式可在 Windows XP 和更新版本上取得。 當安裝適用于 Windows 2000 的 IPv6 技術預覽時，Windows 2000 也支援 IPv6 通訊協定。
--   使用其中一個新的 [**getnameinfo**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-getnameinfo) Windows 通訊端函數呼叫來取代 [**gethostbyaddr**](/windows/win32/api/wsipv6ok/nf-wsipv6ok-gethostbyaddr)函式呼叫。 具有 IPv6 通訊協定支援的 **getnameinfo** 函式可在 Windows XP 和更新版本上取得。 當安裝適用于 Windows 2000 的 IPv6 技術預覽時，Windows 2000 也支援 IPv6 通訊協定。
+-   您可以使用 [**WSAConnectByName**](/windows/desktop/api/Winsock2/nf-winsock2-wsaconnectbynamea) ，透過指定的主機名稱和埠建立端點的連接。 **WSAConnectByName** 函式可在 Windows Vista 和更新版本上取得。
+-   您可以使用 [**WSAConnectByList**](/windows/desktop/api/Winsock2/nf-winsock2-wsaconnectbylist) 來建立一組目的地位址（)  (主機名稱和埠）所代表之可能端點集合中的一個連接。 **WSAConnectByList** 函式可在 Windows Vista 和更新版本上取得。
+-   將 [**gethostbyname**](/windows/win32/api/wsipv6ok/nf-wsipv6ok-gethostbyname)函式呼叫取代為其中一個新的 [**getaddrinfo**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-getaddrinfo) Windows 通訊端函數的呼叫。 Windows XP 及更新版本提供支援 IPv6 通訊協定的 **getaddrinfo** 函數。 安裝 Windows 2000 的 ipv6 技術預覽時，Windows 2000 也支援 ipv6 通訊協定。
+-   將 [**gethostbyaddr**](/windows/win32/api/wsipv6ok/nf-wsipv6ok-gethostbyaddr)函式呼叫取代為其中一個新的 [**getnameinfo**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-getnameinfo) Windows 通訊端函數的呼叫。 Windows XP 及更新版本提供支援 IPv6 通訊協定的 **getnameinfo** 函數。 安裝 Windows 2000 的 ipv6 技術預覽時，Windows 2000 也支援 ipv6 通訊協定。
 
 ## <a name="wsaconnectbyname"></a>WSAConnectByName
 
@@ -183,9 +183,9 @@ SOCKET OpenAndConnect(SOCKET_ADDRESS_LIST *AddressList)
 
 ## <a name="getaddrinfo"></a>getaddrinfo
 
-**Getaddrinfo** 函數也會執行許多函數的處理工作。 之前，需要對許多 Windows 通訊端函式進行呼叫，以建立、開啟，然後將位址系結至通訊端。 使用 **getaddrinfo** 函式時，執行這類工作所需的源程式碼可大幅減少。 下列兩個範例說明使用和不使用 **getaddrinfo** 函式執行這些工作所需的原始程式碼。
+**Getaddrinfo** 函數也會執行許多函數的處理工作。 之前，需要對多個 Windows 通訊端函式進行呼叫，以建立、開啟，然後將位址系結至通訊端。 使用 **getaddrinfo** 函式時，執行這類工作所需的源程式碼可大幅減少。 下列兩個範例說明使用和不使用 **getaddrinfo** 函式執行這些工作所需的原始程式碼。
 
-使用 **getaddrinfo** 執行 Open、Connect 和 Bind
+使用 **getaddrinfo** 執行開啟、連線和系結
 
 
 ```C++
@@ -229,7 +229,7 @@ SOCKET OpenAndConnect(char *ServerName, char *PortName, int SocketType)
 
 
 
-在不使用 **getaddrinfo** 的情況下，執行 Open、Connect 和 Bind
+在不使用 **getaddrinfo** 的情況下，執行 Open、連線和 Bind
 
 
 ```C++
@@ -295,7 +295,7 @@ SOCKET OpenAndConnect(char *ServerName, unsigned short Port, int SocketType)
 
 在同時使用 IPv4 和 IPv6 的平臺上，不會事先知道遠端主機名的位址系列。 因此，必須先執行使用 [**getaddrinfo**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-getaddrinfo) 函式的位址解析，以判斷遠端主機的 IP 位址和位址系列。 然後，您可以呼叫 [**通訊端**](/windows/desktop/api/Winsock2/nf-winsock2-socket) 函式來開啟 [**getaddrinfo**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-getaddrinfo)所傳回之位址系列的通訊端。 這是 Windows 通訊端應用程式撰寫方式的重要變更，因為許多 IPv4 應用程式傾向于使用不同的函式呼叫順序。
 
-大部分的 IPv4 應用程式首先會建立 AF \_ INET 位址系列的通訊端，然後進行名稱解析，然後使用通訊端連線到已解析的 IP 位址。 當您使這類應用程式具備 IPv6 能力時，必須先延遲 [**通訊端**](/windows/desktop/api/Winsock2/nf-winsock2-socket) 函式呼叫，才能在 deteremined 位址系列時進行名稱解析。 請注意，如果名稱解析同時傳回 IPv4 和 IPv6 位址，則必須使用個別的 IPv4 和 IPv6 通訊端來連接這些目的地位址。 您可以使用 Windows Vista 和更新版本上的 [**WSAConnectByName**](/windows/desktop/api/Winsock2/nf-winsock2-wsaconnectbynamea) 功能來避免這些複雜性，讓應用程式開發人員可以使用這個新的函式。
+大部分的 IPv4 應用程式首先會建立 AF \_ INET 位址系列的通訊端，然後進行名稱解析，然後使用通訊端連線到已解析的 IP 位址。 當您使這類應用程式具備 IPv6 能力時，必須先延遲 [**通訊端**](/windows/desktop/api/Winsock2/nf-winsock2-socket) 函式呼叫，才能在 deteremined 位址系列時進行名稱解析。 請注意，如果名稱解析同時傳回 IPv4 和 IPv6 位址，則必須使用個別的 IPv4 和 IPv6 通訊端來連接這些目的地位址。 您可以使用 Windows Vista 和更新版本上的 [**WSAConnectByName**](/windows/desktop/api/Winsock2/nf-winsock2-wsaconnectbynamea)函式來避免這些複雜性，讓應用程式開發人員可以使用這項新功能。
 
 下列程式碼範例會顯示正確的順序來執行名稱解析，先 (在下列原始程式碼範例的第四行中執行) ，然後在下列程式碼範例) 的<sup>第19行</sup> 中開啟通訊端 (執行。 此範例是在附錄 B 中，已 [啟用 IPv6 的用戶端程式代碼](ipv6-enabled-client-code-2.md) 中找到的用戶端 .c 檔案摘錄。下列程式碼範例中所呼叫的 PrintError 函式會列在用戶端 .c 範例中。
 
@@ -381,11 +381,11 @@ SOCKET OpenAndConnect(char *Server, char *PortName, int Family, int SocketType)
 
 ## <a name="ip-helper-functions"></a>IP 協助程式函式
 
-最後，使用 IP 協助程式函式 [**GetAdaptersInfo**](/windows/win32/api/iphlpapi/nf-iphlpapi-getadaptersinfo)的應用程式及其相關聯的結構 [**IP \_ 介面卡 \_ 資訊**](/windows/win32/api/iptypes/ns-iptypes-ip_adapter_info)，必須辨識此函式和結構僅限於 IPv4 位址。 此函式和結構的啟用 IPv6 的取代為 [**GetAdaptersAddresses**](/windows/win32/api/iphlpapi/nf-iphlpapi-getadaptersaddresses) 函式和 [**IP \_ 介面卡 \_ 位址**](/windows/win32/api/iptypes/ns-iptypes-ip_adapter_addresses_lh) 結構。 使用 IP 協助程式 API 的已啟用 IPv6 的應用程式，應該使用 **GetAdaptersAddresses** 函式和對應的已啟用 ipv6 **IP \_ 介面卡 \_ 位址** 結構（兩者都定義于 Microsoft Windows 軟體開發套件 (SDK) ）。
+最後，使用 IP 協助程式函式 [**GetAdaptersInfo**](/windows/win32/api/iphlpapi/nf-iphlpapi-getadaptersinfo)的應用程式及其相關聯的結構 [**IP \_ 介面卡 \_ 資訊**](/windows/win32/api/iptypes/ns-iptypes-ip_adapter_info)，必須辨識此函式和結構僅限於 IPv4 位址。 此函式和結構的啟用 IPv6 的取代為 [**GetAdaptersAddresses**](/windows/win32/api/iphlpapi/nf-iphlpapi-getadaptersaddresses) 函式和 [**IP \_ 介面卡 \_ 位址**](/windows/win32/api/iptypes/ns-iptypes-ip_adapter_addresses_lh) 結構。 使用 IP 協助程式 API 的已啟用 ipv6 的應用程式，應該使用 **GetAdaptersAddresses** 函式和對應的已啟用 ipv6 **IP \_ 介面卡 \_ 位址** 結構（兩者都定義于 Microsoft Windows 軟體開發套件 (SDK) ）。
 
 ## <a name="recommendations"></a>建議
 
-確保您的應用程式使用 IPv6 相容函式呼叫的最佳方法是使用 [**getaddrinfo**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-getaddrinfo) 函式來取得主機對位址轉譯。 從 Windows XP 開始， **getaddrinfo** 函式會讓 [**gethostbyname**](/windows/win32/api/wsipv6ok/nf-wsipv6ok-gethostbyname) 函式變得不必要，因此您的應用程式應該改為使用 **getaddrinfo** 函式來進行未來的程式設計專案。 雖然 Microsoft 會繼續支援 **gethostbyname**，但不會擴充此功能以支援 IPv6。 如需取得 IPv6 和 IPv4 主機資訊的透明支援，您必須使用 **getaddrinfo**。
+確保您的應用程式使用 IPv6 相容函式呼叫的最佳方法是使用 [**getaddrinfo**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-getaddrinfo) 函式來取得主機對位址轉譯。 從 Windows XP 開始， **getaddrinfo** 函式會使 [**gethostbyname**](/windows/win32/api/wsipv6ok/nf-wsipv6ok-gethostbyname)函式不必要，因此您的應用程式應該改為使用 **getaddrinfo** 函式來進行未來的程式設計專案。 雖然 Microsoft 會繼續支援 **gethostbyname**，但不會擴充此功能以支援 IPv6。 如需取得 IPv6 和 IPv4 主機資訊的透明支援，您必須使用 **getaddrinfo**。
 
 下列範例示範如何使用 **getaddrinfo** 函數。 請注意，如下列範例所示，此函式會適當地處理 IPv6 和 IPv4 的主機對位址轉譯，但它也會取得主機的其他有用資訊，例如支援的通訊端類型。 此範例是來自于附錄 B 中所找到的用戶端 c 範例摘要。
 
@@ -437,7 +437,7 @@ int ResolveName(char *Server, char *PortName, int Family, int SocketType)
 
 
 > [!Note]  
-> 支援 IPv6 的 [**getaddrinfo**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-getaddrinfo) 函式版本是 windows XP 版 windows 的新功能。
+> 支援 IPv6 的 [**getaddrinfo**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-getaddrinfo)函式版本是 Windows Windows XP 版本的新功能。
 
  
 
@@ -455,7 +455,7 @@ int ResolveName(char *Server, char *PortName, int Family, int SocketType)
 1.  取得 Checkv4.exe 公用程式。 此公用程式會安裝為 Windows SDK 的一部分。 Windows SDK 可透過 MSDN 訂閱取得，也可以從 Microsoft 網站 (下載 https://msdn.microsoft.com) 。 舊版的 *Checkv4.exe* 工具也隨附于 Windows 2000 的 Microsoft IPv6 技術預覽中。
 2.  針對您的程式碼執行 *Checkv4.exe* 公用程式。 請參閱 [使用 Checkv4.exe 公用程式](using-the-checkv4-exe-utility-2.md) 來瞭解如何針對您的檔案執行版本公用程式。
 3.  此公用程式會警示您使用 [**gethostbyname**](/windows/win32/api/wsipv6ok/nf-wsipv6ok-gethostbyname)、 [**gethostbyaddr**](/windows/win32/api/wsipv6ok/nf-wsipv6ok-gethostbyaddr)和其他僅限 IPv4 的函式，並提供如何以與 IPv6 相容的函式（例如 [**getaddrinfo**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-getaddrinfo) 和 [**getnameinfo**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-getnameinfo)）取代這些函式的建議。
-4.  使用 **getaddrinfo** 函數，將 **gethostbyname** 函式的任何實例和相關聯的程式碼取代為適當的。 在 Windows Vista 上，請在適當的情況下使用 [**WSAConnectByName**](/windows/desktop/api/Winsock2/nf-winsock2-wsaconnectbynamea) 或 [**WSAConnectByList**](/windows/desktop/api/Winsock2/nf-winsock2-wsaconnectbylist) 函數。
+4.  使用 **getaddrinfo** 函數，將 **gethostbyname** 函式的任何實例和相關聯的程式碼取代為適當的。 在 Windows Vista 上，請在適當的情況下使用 [**WSAConnectByName**](/windows/desktop/api/Winsock2/nf-winsock2-wsaconnectbynamea)或 [**WSAConnectByList**](/windows/desktop/api/Winsock2/nf-winsock2-wsaconnectbylist)函數。
 5.  使用 [**getnameinfo**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-getnameinfo)函數，將 [**gethostbyaddr**](/windows/win32/api/wsipv6ok/nf-wsipv6ok-gethostbyaddr)函式的任何實例和相關聯的程式碼取代為適當的。
 
 或者，您可以在程式碼基底中搜尋 **gethostbyname** 和 [**gethostbyaddr**](/windows/win32/api/wsipv6ok/nf-wsipv6ok-gethostbyaddr) 函式的實例，並視需要將所有 (和其他相關聯的程式碼) 變更為 **getaddrinfo** 和 [**getnameinfo**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-getnameinfo) 函數。
@@ -464,7 +464,7 @@ int ResolveName(char *Server, char *PortName, int Family, int SocketType)
 
 <dl> <dt>
 
-[適用于 Windows 通訊端應用程式的 IPv6 指南](ipv6-guide-for-windows-sockets-applications-2.md)
+[Windows 通訊端應用程式的 IPv6 指南](ipv6-guide-for-windows-sockets-applications-2.md)
 </dt> <dt>
 
 [變更 IPv6 Winsock Html5 應用程式的資料結構](changing-data-structures-2.md)

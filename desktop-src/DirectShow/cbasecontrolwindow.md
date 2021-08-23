@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: c4b53cc5ce1b209cc7de9d68648b68096e5c4911
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 500706531d7e7a934681dabe3bcd00b7de0d80e42b8bbf27a5456a8fd4415f21
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104187516"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119017229"
 ---
 # <a name="cbasecontrolwindow-class"></a>CBaseControlWindow 類別
 
@@ -29,7 +29,7 @@ ms.locfileid: "104187516"
 
 
 
-| 受保護的資料成員                                                     | Description                                                                                                                                 |
+| 受保護的資料成員                                                     | 描述                                                                                                                                 |
 |----------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
 | m \_ bAutoShow                                                               | 當狀態變更時的結果。                                                                                                              |
 | m \_ bCursorHidden                                                           | 判斷資料指標是否顯示或隱藏。                                                                                 |
@@ -39,7 +39,7 @@ ms.locfileid: "104187516"
 | m \_ pFilter                                                                 | 擁有媒體篩選器的指標。                                                                                                         |
 | m \_ pInterfaceLock                                                          | 外部定義的重要區段。                                                                                                        |
 | m \_ pPin                                                                    | 控制連接的媒體類型。                                                                                                  |
-| 成員函數                                                           | Description                                                                                                                                 |
+| 成員函數                                                           | 描述                                                                                                                                 |
 | [**CBaseControlWindow**](cbasecontrolwindow-cbasecontrolwindow.md)        | 結構 **CBaseControlWindow** 物件。                                                                                                 |
 | [**DoGetWindowStyle**](cbasecontrolwindow-dogetwindowstyle.md)            | 抓取一般或延伸的視窗樣式。                                                                                     |
 | [**DoSetWindowStyle**](cbasecontrolwindow-dosetwindowstyle.md)            | 設定一般或延伸的視窗樣式。                                                                                                 |
@@ -49,7 +49,7 @@ ms.locfileid: "104187516"
 | [**IsCursorHidden**](cbasecontrolwindow-iscursorhidden.md)                | 抓取 **m \_ bCursorHidden** 資料成員的目前狀態，而不鎖定重要區段。 這是 helper 成員函式。 |
 | [**PossiblyEatMessage**](cbasecontrolwindow-possiblyeatmessage.md)        | 將訊息散發至父視窗。                                                                                                  |
 | [**SetControlWindowPin**](cbasecontrolwindow-setcontrolwindowpin.md)      | 通知物件所套用的 pin。                                                                                         |
-| IVideoWindow 方法                                                       | Description                                                                                                                                 |
+| IVideoWindow 方法                                                       | 描述                                                                                                                                 |
 | [**取得 \_ 自動完成**](cbasecontrolwindow-get-autoshow.md)                   | 抓取目前的自動按旗標設定。                                                                                                |
 | [**取得 \_ BackgroundPalette**](cbasecontrolwindow-get-backgroundpalette.md) | 抓取背景旗標中的已實現調色板。                                                                                      |
 | [**取得 \_ 邊框**](cbasecontrolwindow-get-bordercolor.md)             | 抓取目前的框線色彩。                                                                                                         |
@@ -98,7 +98,7 @@ ms.locfileid: "104187516"
 
 <dl> <dt>
 
-[DirectShow 基類](directshow-base-classes.md)
+[DirectShow基類](directshow-base-classes.md)
 </dt> </dl>
 
  

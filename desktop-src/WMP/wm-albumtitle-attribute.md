@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e6e66d9c2598e897655ea4712b624852a14c2fa0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5c42cf1e6a51aac56b5bd610b9dfe10d448ada66f9dc4fbfdbb6bb6b1d32a351
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106993489"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119053876"
 ---
 # <a name="wmalbumtitle-attribute"></a>WM/AlbumTitle 屬性
 
@@ -29,7 +29,7 @@ ms.locfileid: "106993489"
 
 **專輯** 是這個屬性的別名。
 
-這個屬性的 Windows Media Format SDK 常數是 g \_ wszWMAlbumTitle。
+這個屬性的 Windows 媒體格式 SDK 常數是 g \_ wszWMAlbumTitle。
 
 ## <a name="requirements"></a>規格需求
 
@@ -57,7 +57,7 @@ ms.locfileid: "106993489"
 [CD 曲目](cd-track-attributes.md)
 </dt> <dt>
 
-[常用的 Windows Media 檔案屬性](commonly-used-windows-media-file-attributes.md)
+[常用 Windows 媒體檔案屬性](commonly-used-windows-media-file-attributes.md)
 </dt> </dl>
 
  

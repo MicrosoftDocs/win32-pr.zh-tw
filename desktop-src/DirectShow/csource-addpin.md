@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 224550756f5935ce26c106ba01c9ef64f0767140
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a1c221d2fd032445587b52b0d0ae7f7744889254983fab82c7b282d06fee195e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106977154"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118953777"
 ---
 # <a name="csourceaddpin-method"></a>CSource. AddPin 方法
 
@@ -55,7 +55,7 @@ HRESULT AddPin(
 
 
 
-| 傳回碼                                                                                   | Description                    |
+| 傳回碼                                                                                   | 描述                    |
 |-----------------------------------------------------------------------------------------------|--------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>          | Success<br/>             |
 | <dl> <dt>**E \_ OUTOFMEMORY**</dt> </dl> | 記憶體不足<br/> |

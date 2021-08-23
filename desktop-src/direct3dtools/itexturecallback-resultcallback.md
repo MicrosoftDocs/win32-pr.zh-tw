@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 8e3f224dd1b97ad5dc1ac4a62d04af1d91353001
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 850bd88a432d425415f6efe170c2a43e802481b14922580246428ac86188ab1a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104509941"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118985578"
 ---
 # <a name="span-idvspixengineitexturecallback_resultcallbackspanitexturecallbackresultcallback-method"></a><span id="vspixengine.itexturecallback_resultcallback"></span>ITextureCallback：： ResultCallback 方法
 

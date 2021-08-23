@@ -4,12 +4,12 @@ ms.assetid: 8f94a82c-de93-4649-a9b5-0adcbe01333d
 title: 核心 Tablet PC 功能
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dc9d0369a223959f011612b5aefc820a3668eeff
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2bb9e58300321f2b483cc062472950f5d252a292dc1380b3e5c030993ddbe6a7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106998457"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118967539"
 ---
 # <a name="core-tablet-pc-functions"></a>核心 Tablet PC 功能
 

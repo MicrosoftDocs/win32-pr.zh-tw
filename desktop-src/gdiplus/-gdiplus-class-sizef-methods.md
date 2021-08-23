@@ -4,12 +4,12 @@ ms.assetid: e4efc02b-e8a5-4c4b-a42c-256b746ca3a3
 title: SizeF 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e75e9dc3b900060402f351a6ced6de90d76741e1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6b1281cb335c39a1d04e5a389f173d59f81c5f1ff0870835eda3893185f3ba99
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104991394"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119036976"
 ---
 # <a name="sizef-methods"></a>SizeF 方法
 

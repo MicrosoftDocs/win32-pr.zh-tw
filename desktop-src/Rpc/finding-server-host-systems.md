@@ -4,12 +4,12 @@ description: 藉由使用字串系結和查詢名稱服務資料庫來尋找伺�
 ms.assetid: 4aadda88-2109-481f-aa4b-b1983d81dec5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d2357fcafa35d4f64cfb4f6841c0b56e1e94b7aa
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 180e2e43c0350f55defb74762d6ab1b6b656dafbc1468bcc7f077ed9780a2e98
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840183"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118929987"
 ---
 # <a name="finding-server-host-systems"></a>尋找伺服器主機系統
 
@@ -154,9 +154,9 @@ status = RpcNsBindingImportNext(hNameServiceHandle, &hBindingHandle);
 
 當您的用戶端應用程式具有可接受的系結控制碼之後，它應該檢查以確定伺服器應用程式正在執行。 用戶端可以使用兩種方法來執行此驗證。 第一個是在用戶端介面中呼叫函數。 如果伺服器程式正在執行，則會完成呼叫。 如果沒有，則呼叫會失敗。 若要確認伺服器是否正在執行，更好的方法是叫用 [**RpcEpResolveBinding**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcepresolvebinding)，然後呼叫 [**RpcMgmtIsServerListening**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcmgmtisserverlistening)。 如需名稱服務資料庫的詳細資訊，請參閱 [RPC 名稱服務資料庫](the-rpc-name-service-database.md)。
 
- 
+ 
 
- 
+ 
 
 
 

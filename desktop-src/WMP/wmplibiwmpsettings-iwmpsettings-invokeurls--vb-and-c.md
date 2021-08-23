@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bbdd68d797b54f4e9365f381b2b5c705dffc419b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: dba44af7e6ec700f9df810486acb57af24a14c9e5d4966fddbfe4b242d346a91
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106978531"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119053426"
 ---
 # <a name="iwmpsettingsinvokeurls-property"></a>IWMPSettings：： invokeURLs 屬性
 
@@ -68,7 +68,7 @@ System.string **值，** 指出 URL 事件是否應啟動網頁瀏覽器。 預�
 
 <dl> <dt>
 
-[**AxWindowsMediaPlayer ScriptCommand 事件 (VB 和 c # )**](axwmplib-axwindowsmediaplayer-scriptcommand.md)
+[**AxWindowsMediaPlayer. ScriptCommand 事件 (VB 和 c # )**](axwmplib-axwindowsmediaplayer-scriptcommand.md)
 </dt> <dt>
 
 [**IWMPSettings 介面 (VB 和 c # )**](iwmpsettings--vb-and-c.md)

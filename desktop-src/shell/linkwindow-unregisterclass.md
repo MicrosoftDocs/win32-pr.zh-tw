@@ -13,16 +13,16 @@ api_type:
 - DllExport
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 604cea299156444a1fedf34a46c50b5b397a65da
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: 05a50d5f3af72c31ee04a1a9e8264acb22327c38f79f765ce2ad7a740086747e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973381"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118968937"
 ---
 # <a name="linkwindow_unregisterclass-function"></a>LinkWindow \_ UnregisterClass 函式
 
-\[您可以透過 Windows XP Service Pack 2 (SP2) 和 Windows Server 2003 來取得此函式。 它可能會在後續版本的 Windows 中改變或無法使用。\]
+\[您可以透過 Windows XP Service Pack 2 (SP2) 和 Windows Server 2003 來取得此函式。 它可能會在 Windows 的後續版本中變更或無法使用。\]
 
 取消註冊 [**LinkWindow \_ RegisterClass**](linkwindow-registerclass.md)所註冊的視窗類別。
 

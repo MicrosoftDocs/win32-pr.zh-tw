@@ -1,19 +1,19 @@
 ---
 title: 關於資源檔
-description: 描述如何在 Windows 應用程式中包含 RC 的資源。
+description: 說明如何將資源包含在以 RC Windows 為基礎的應用程式中。
 ms.assetid: af7c7aed-5d28-40ac-ad00-da0986fd89c1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7c43e9df59cf0b6507b6c6a53c42299b8792634f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 24f351592c57cb628204ad6528a48bfa1a10507f5e7aad90a524ea2f6034f304
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021453"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119034466"
 ---
 # <a name="about-resource-files"></a>關於資源檔
 
-若要在您的 Windows 應用程式中包含 RC 的資源，請執行下列動作：
+若要在具有 RC 的 Windows 應用程式中包含資源，請執行下列動作：
 
 1.  為您的游標、圖示、點陣圖、對話方塊和字型建立個別檔案。
 2.  建立資源定義腳本 ( .rc 檔) ，以描述您的應用程式所使用的資源。
@@ -33,9 +33,9 @@ ms.locfileid: "104021453"
 -   [Pragma 指示詞](pragma-directives.md)
 -   [資源定義語句](resource-definition-statements.md)，其名稱和描述資源。
 
- 
+ 
 
- 
+ 
 
 
 

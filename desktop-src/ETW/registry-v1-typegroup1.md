@@ -17,12 +17,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: ab0326f92d1b084f471f3dc1b57322f69aa645fd
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 80b6bfbac1afbe3797bd76dfa49dee6666a339eb46c336d3e6c68f6b236c0848
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108106156"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119069768"
 ---
 # <a name="registry_v1_typegroup1-class"></a>Registry \_ V1 \_ TypeGroup1 類別
 

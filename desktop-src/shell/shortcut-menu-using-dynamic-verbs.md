@@ -4,12 +4,12 @@ ms.assetid: 7FC65C6F-3798-404c-B359-2BC75D3F54E7
 title: 使用動態動詞自訂快捷方式功能表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c9b24f035e84f0bde6dccde09f1ed94fefce421b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2b33361be5a89480e05bb42bd760b63517bf0b06c9828cae36a36ecddce1e9cc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973464"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118968307"
 ---
 # <a name="customizing-a-shortcut-menu-using-dynamic-verbs"></a>使用動態動詞自訂快捷方式功能表
 
@@ -29,12 +29,12 @@ ms.locfileid: "104973464"
 
 ## <a name="about-static-and-dynamic-verbs"></a>關於靜態和動態動詞
 
-強烈建議您使用其中一個靜態動詞方法來執行快捷方式功能表。 建議您依照「使用靜態動詞來自訂快捷方式功能表」一節中所提供的指示，來 [建立內容功能表處理常式](context-menu-handlers.md)。 若要在 Windows 7 及更新版本中取得靜態動詞命令的動態行為，請參閱 [建立內容功能表處理常式](context-menu-handlers.md)中的「取得靜態動詞的動態行為」。 如需靜態動詞命令的執行，以及要避免哪些動態動詞的詳細資訊，請參閱 [為您的快捷方式功能表選擇靜態或動態動詞](shortcut-choose-method.md)。
+強烈建議您使用其中一個靜態動詞方法來執行快捷方式功能表。 建議您依照「使用靜態動詞來自訂快捷方式功能表」一節中所提供的指示，來 [建立內容功能表處理常式](context-menu-handlers.md)。 若要在 Windows 7 和更新版本中取得靜態動詞命令的動態行為，請參閱[建立內容功能表處理常式](context-menu-handlers.md)中的「取得靜態動詞的動態行為」。 如需靜態動詞命令的執行，以及要避免哪些動態動詞的詳細資訊，請參閱 [為您的快捷方式功能表選擇靜態或動態動詞](shortcut-choose-method.md)。
 
 如果您必須註冊檔案類型的動態動詞命令以擴充檔案類型的快捷方式功能表，請依照本主題稍後提供的指示進行。
 
 > [!Note]  
-> 註冊在32位應用程式內容中運作的處理常式時，會有64位 Windows 的特殊考慮：當 Shell 動詞命令在32位應用程式的內容中叫用時，WOW64 子系統會將檔案系統存取重新導向至某些路徑。 如果您的 .exe 處理常式儲存在其中一個路徑中，就無法在此內容中存取。 因此，若要解決這個問題，請將 .exe 儲存在未重新導向的路徑中，或儲存啟動實際版本之 .exe 的存根版本。
+> 註冊在32位應用程式內容中運作的處理常式時，有一些特殊64的 Windows 考慮：當 Shell 動詞命令在32位應用程式的內容中叫用時，WOW64 子系統會將檔案系統存取重新導向至某些路徑。 如果您的 .exe 處理常式儲存在其中一個路徑中，就無法在此內容中存取。 因此，若要解決此問題，請將 .exe 儲存在未重新導向的路徑中，或儲存啟動實際版本之 .exe 的存根版本。
 
  
 
@@ -129,13 +129,13 @@ HKEY_CLASSES_ROOT
 
 ### <a name="icontextmenugetcommandstring-method"></a>ICoNtextMenu：： GetCommandString 方法
 
-處理常式的 [**ICoNtextMenu：： GetCommandString**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-getcommandstring) 方法是用來傳回動詞的標準名稱。 這個方法是一個選擇項目。 在 Windows XP 和舊版的 Windows 中，當 Windows 檔案總管有狀態列時，就會使用這個方法來取得顯示在功能表項目狀態列中的解說文字。
+處理常式的 [**ICoNtextMenu：： GetCommandString**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-getcommandstring) 方法是用來傳回動詞的標準名稱。 這個方法是一個選擇項目。 在 Windows XP 和舊版的 Windows 中，當 Windows 檔案總管具有狀態列時，就會使用這個方法來取得顯示在功能表項目狀態列中的解說文字。
 
 *IdCmd* 參數會保存呼叫 [**ICoNtextMenu：： QueryCoNtextMenu**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-querycontextmenu)時所定義命令的識別碼位移。 如果要求了說明字串，則 *uFlags* 會設定為 **gc \_ HELPTEXTW**。 將說明字串複製到 *pszName* 緩衝區，並將其轉換成 **PWSTR**。 將 *uFlags* 設定為 **gc \_ VERBW**，即可要求動詞字串。 將適當的字串複製到 *pszName*，就像使用說明字串一樣。 快速鍵功能表處理常式不會使用 **gc \_ VALIDATEA** 和 **gc \_ VALIDATEW** 旗標。
 
 下列範例示範 [**ICoNtextMenu：： GetCommandString**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-getcommandstring)的簡單執行，其對應至本主題的 [ICoNtextMenu：： QueryCoNtextMenu 方法](#icontextmenuquerycontextmenu-method)一節中提供的 [**ICoNtextMenu：： QueryCoNtextMenu**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-querycontextmenu)範例。 因為處理常式只會新增一個功能表項目，所以只能傳回一組字串。 方法會測試 *idCmd* 是否有效，如果是，則會傳回要求的字串。
 
-[**StringCchCopy**](/windows/win32/api/strsafe/nf-strsafe-stringcchcopya)函式可用來將要求的字串複製到 *pszName* ，以確保複製的字串不會超過 *cchName* 所指定的緩衝區大小。 此範例只會支援 *uFlags* 的 Unicode 值，因為 Windows 2000 之後的 Windows 檔案總管中只會使用這些值。
+[**StringCchCopy**](/windows/win32/api/strsafe/nf-strsafe-stringcchcopya)函式可用來將要求的字串複製到 *pszName* ，以確保複製的字串不會超過 *cchName* 所指定的緩衝區大小。 此範例只會支援 *uFlags* 的 Unicode 值，因為 Windows 2000 之後，Windows 檔案總管中只會使用這些值。
 
 
 ```C++
