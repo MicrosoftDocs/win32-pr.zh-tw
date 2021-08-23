@@ -4,12 +4,12 @@ ms.assetid: 1F370DEC-20B5-456D-BB68-C94E183410F3
 title: 'MFSampleExtension_Encryption_CryptByteBlock 屬性 (Mfidl) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 927e08d81cc8066f73b579c8abf419d754fc1713
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 85da01a8b69fa22604cc10df54aa474ec117256ebee0630e490e25d9888484d7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026534"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119603198"
 ---
 # <a name="mfsampleextension_encryption_cryptbyteblock-attribute"></a>MFSampleExtension \_ Encryption \_ CryptByteBlock 屬性
 

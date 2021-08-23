@@ -4,12 +4,12 @@ ms.assetid: F4808C32-2C07-4B88-B672-300AA3BFD162
 title: PrimarySid
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1f7a3e9d9110561c0c619eb2b544ee5ce517f860
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fc38adbbeaa4ee8ce9151a7be8d5c82077b7d3db388b7459e929a1f484b69de8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103849740"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119553998"
 ---
 # <a name="systemidentityprimarysid"></a>PrimarySid
 

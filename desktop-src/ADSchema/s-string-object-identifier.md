@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b1cca4212d0bfeb4af95d186aa6dd1351b69ba5b
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: bbff05bd970fd89fc34f751359b9f0048b92c8694733ab25e0e3c5e842b123ef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104106944"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119702458"
 ---
 # <a name="stringobject-identifier-syntax"></a>字串 (物件識別碼) 語法
 

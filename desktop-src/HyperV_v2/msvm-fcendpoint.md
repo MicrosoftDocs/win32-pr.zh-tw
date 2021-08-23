@@ -44,12 +44,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: b28136cfc4f0afcf84b5f53ade4976760c997e36
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a49440158beffb159b2f931283cf902a21ca5c9de1addac462b494c30eec2100
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511889"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119523388"
 ---
 # <a name="msvm_fcendpoint-class"></a>Msvm \_ FcEndpoint 類別
 
@@ -774,10 +774,10 @@ class Msvm_FcEndpoint : CIM_ProtocolEndpoint
 <span id="Voice_Receive_and_Transmit"></span><span id="voice_receive_and_transmit"></span><span id="VOICE_RECEIVE_AND_TRANSMIT"></span>**語音接收和傳輸** (100) 
 </dt> <dt>
 
-<span id="Voice_Foreign_Exchange_Office"></span><span id="voice_foreign_exchange_office"></span><span id="VOICE_FOREIGN_EXCHANGE_OFFICE"></span>**語音外部 Exchange 辦公室** (101) 
+<span id="Voice_Foreign_Exchange_Office"></span><span id="voice_foreign_exchange_office"></span><span id="VOICE_FOREIGN_EXCHANGE_OFFICE"></span>**語音外 Exchange Office** (101) 
 </dt> <dt>
 
-<span id="Voice_Foreign_Exchange_Service"></span><span id="voice_foreign_exchange_service"></span><span id="VOICE_FOREIGN_EXCHANGE_SERVICE"></span>**語音外部交換服務** (102) 
+<span id="Voice_Foreign_Exchange_Service"></span><span id="voice_foreign_exchange_service"></span><span id="VOICE_FOREIGN_EXCHANGE_SERVICE"></span>**語音外 Exchange 服務** (102) 
 </dt> <dt>
 
 <span id="Voice_Encapsulation"></span><span id="voice_encapsulation"></span><span id="VOICE_ENCAPSULATION"></span>**語音封裝** (103) 
@@ -846,7 +846,7 @@ class Msvm_FcEndpoint : CIM_ProtocolEndpoint
 <span id="Interleave_Channel"></span><span id="interleave_channel"></span><span id="INTERLEAVE_CHANNEL"></span>**交錯通道** (124) 
 </dt> <dt>
 
-<span id="FAST_Channel"></span><span id="fast_channel"></span><span id="FAST_CHANNEL"></span>**FAST Channel** (125) 
+<span id="FAST_Channel"></span><span id="fast_channel"></span><span id="FAST_CHANNEL"></span>**FAST 通道** (125) 
 </dt> <dt>
 
 <span id="IP__for_APPN_HPR_in_IP_Networks_"></span><span id="ip__for_appn_hpr_in_ip_networks_"></span><span id="IP__FOR_APPN_HPR_IN_IP_NETWORKS_"></span>**Ip 網路中 APPN HPR 的 ip ()** (126) 
@@ -864,7 +864,7 @@ class Msvm_FcEndpoint : CIM_ProtocolEndpoint
 <span id="Avalon_12MPP_Switch"></span><span id="avalon_12mpp_switch"></span><span id="AVALON_12MPP_SWITCH"></span>**AVALON 12MPP 交換器** (130) 
 </dt> <dt>
 
-<span id="Tunnel"></span><span id="tunnel"></span><span id="TUNNEL"></span>通道 **(131**) 
+<span id="Tunnel"></span><span id="tunnel"></span><span id="TUNNEL"></span>**Tunnel** (131) 
 </dt> <dt>
 
 <span id="Coffee"></span><span id="coffee"></span><span id="COFFEE"></span>**咖啡** (132) 
@@ -921,7 +921,7 @@ class Msvm_FcEndpoint : CIM_ProtocolEndpoint
 <span id="ATM_Virtual"></span><span id="atm_virtual"></span><span id="ATM_VIRTUAL"></span>**ATM 虛擬** (149) 
 </dt> <dt>
 
-<span id="MPLS_Tunnel"></span><span id="mpls_tunnel"></span><span id="MPLS_TUNNEL"></span>**MPLS** 通道 (150) 
+<span id="MPLS_Tunnel"></span><span id="mpls_tunnel"></span><span id="MPLS_TUNNEL"></span>**MPLS Tunnel** (150) 
 </dt> <dt>
 
 <span id="SRP"></span><span id="srp"></span>**SRP** (151) 
@@ -1432,8 +1432,8 @@ class Msvm_FcEndpoint : CIM_ProtocolEndpoint
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                                              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                                              |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                                                    |
 | 命名空間<br/>                | 根 \\ 虛擬化 \\ V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization。</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

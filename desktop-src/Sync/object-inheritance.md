@@ -4,12 +4,12 @@ ms.assetid: 36491a5c-7599-4f69-ab76-d3a62261a151
 title: 物件繼承
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6087ae3699e7628ab97871ede41cc2e406e40157
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bab6d2380ac0012e0f1005df2dfc4b820bee82a7974f3ca03d856c7df9fb8446
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106987240"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119661378"
 ---
 # <a name="object-inheritance"></a>物件繼承
 

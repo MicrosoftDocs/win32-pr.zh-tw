@@ -4,16 +4,16 @@ description: GUID 屬性
 ms.assetid: d57e1d7c-df65-40ff-9068-64b3506835c6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5bdf36ce888b9526b6bbe2c11d8567d292dcdbc6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7f4502cb1806dd8e1923201cecd8350438532099da939d745c79ca88b268f3ef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104183681"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119610158"
 ---
 # <a name="guid-property"></a>GUID 屬性
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 <dl> <dt>
 
@@ -27,7 +27,7 @@ ms.locfileid: "104183681"
 <span id="Syntax"></span><span id="syntax"></span><span id="SYNTAX"></span>**語法**
 </dt> <dd>
 
-*代理。***字元 (*** 」CharacterID * * * ) 。Guid**
+*agent. ***字元 ( "**_CharacterID_*_" ) 。GUID_*
 
 </dd> </dl>
 
@@ -35,9 +35,9 @@ ms.locfileid: "104183681"
 
 這個屬性會傳回字串，表示伺服器用來參考唯一識別字元的內部識別碼。 使用 Microsoft 代理程式字元編輯器來編譯時，會設定字元識別碼。 此為唯讀屬性。
 
- 
+ 
 
- 
+ 
 
 
 

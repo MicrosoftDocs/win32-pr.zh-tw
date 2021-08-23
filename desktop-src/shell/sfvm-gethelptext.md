@@ -13,12 +13,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 5b33bd99c2dd1e6d1013da9015a5ff70bc111c79
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c015c1999cbd60174da1994d92766b4f334630294767ee390be21340aef97cc3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103693868"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119661018"
 ---
 # <a name="sfvm_gethelptext-message"></a>SFVM \_ GETHELPTEXT 訊息
 

@@ -3,7 +3,7 @@ title: 'LVM_INSERTITEM 訊息 (Commctrl .h) '
 description: 在清單視圖控制項中插入新專案。 您可以明確地傳送此訊息，或使用 ListView \_ InsertItem 宏來傳送。
 ms.assetid: ac283e81-5b9f-4a90-acdb-fd7813c9cb84
 keywords:
-- LVM_INSERTITEM message Windows 控制項
+- LVM_INSERTITEM 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 467c6b595e307dc16f87e40da858ff8b120fb3f7
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9408a8d09adca2a097281b13e56241c66a68521dcef0892502d7f8d0e14d25e4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106969809"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119575708"
 ---
 # <a name="lvm_insertitem-message"></a>LVM \_ INSERTITEM 訊息
 
@@ -67,8 +67,8 @@ ms.locfileid: "106969809"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 | Unicode 與 ANSI 名稱<br/>   | **LVM \_INSERTITEMW** (Unicode) 和 **LVM \_ INSERTITEMA** (ANSI) <br/>             |
 

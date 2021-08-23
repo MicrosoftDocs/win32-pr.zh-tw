@@ -1,6 +1,6 @@
 ---
 title: 縮寫屬性
-description: 包含使用者全名部分的縮寫。 這可以用來做為 Windows 通訊錄中的初始初始部分。
+description: 包含使用者全名部分的縮寫。 這可用來做為 Windows 通訊錄中的中間首。
 ms.assetid: 220b4448-5276-4c3f-8a1b-217cec06135a
 ms.tgt_platform: multiple
 keywords:
@@ -14,16 +14,16 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 946f6c9633c1126a30ae4898274096a54db9a402
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 4c9aa6020dc5f442547582c71be475c7dc8e6e3efcd3e1588095c536f22e2347
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106970864"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119322908"
 ---
 # <a name="initials-attribute"></a>縮寫屬性
 
-包含使用者全名部分的縮寫。 這可以用來做為 Windows 通訊錄中的初始初始部分。
+包含使用者全名部分的縮寫。 這可用來做為 Windows 通訊錄中的中間首。
 
 
 
@@ -58,7 +58,7 @@ ms.locfileid: "106970864"
 | 連結識別碼                | \-                                                                 |
 | MAPI-Id                | 0x3A0A                                                             |
 | System-Only            | 否                                                              |
-| 是-單一值       | 對                                                               |
+| 是-單一值       | 是                                                               |
 | 已編制索引             | 否                                                              |
 | 在通用類別目錄中      | 否                                                              |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                       |
@@ -79,7 +79,7 @@ ms.locfileid: "106970864"
 | 連結識別碼                | \-                                                                                                                     |
 | MAPI-Id                | 0x3A0A                                                                                                                 |
 | System-Only            | 否                                                                                                                  |
-| 是-單一值       | 對                                                                                                                   |
+| 是-單一值       | 是                                                                                                                   |
 | 已編制索引             | 否                                                                                                                  |
 | 在通用類別目錄中      | 否                                                                                                                  |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                                           |
@@ -100,7 +100,7 @@ ms.locfileid: "106970864"
 | 連結識別碼                | \-                                                                                                                     |
 | MAPI-Id                | 0x3A0A                                                                                                                 |
 | System-Only            | 否                                                                                                                  |
-| 是-單一值       | 對                                                                                                                   |
+| 是-單一值       | 是                                                                                                                   |
 | 已編制索引             | 否                                                                                                                  |
 | 在通用類別目錄中      | 否                                                                                                                  |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                                           |
@@ -121,7 +121,7 @@ ms.locfileid: "106970864"
 | 連結識別碼                | \-                                                                                                                     |
 | MAPI-Id                | 0x3A0A                                                                                                                 |
 | System-Only            | 否                                                                                                                  |
-| 是-單一值       | 對                                                                                                                   |
+| 是-單一值       | 是                                                                                                                   |
 | 已編制索引             | 否                                                                                                                  |
 | 在通用類別目錄中      | 否                                                                                                                  |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                                           |
@@ -142,7 +142,7 @@ ms.locfileid: "106970864"
 | 連結識別碼                | \-                                                                                                                     |
 | MAPI-Id                | 0x3A0A                                                                                                                 |
 | System-Only            | 否                                                                                                                  |
-| 是-單一值       | 對                                                                                                                   |
+| 是-單一值       | 是                                                                                                                   |
 | 已編制索引             | 否                                                                                                                  |
 | 在通用類別目錄中      | 否                                                                                                                  |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                                           |
@@ -163,7 +163,7 @@ ms.locfileid: "106970864"
 | 連結識別碼                | \-                                                                                                                     |
 | MAPI-Id                | 0x3A0A                                                                                                                 |
 | System-Only            | 否                                                                                                                  |
-| 是-單一值       | 對                                                                                                                   |
+| 是-單一值       | 是                                                                                                                   |
 | 已編制索引             | 否                                                                                                                  |
 | 在通用類別目錄中      | 否                                                                                                                  |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                                           |

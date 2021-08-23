@@ -1,9 +1,9 @@
 ---
 title: 使用預覽動詞來取代 Windows 圖片和傳真檢視器應用程式
-description: 在 Windows XP 中，使用者可以查看、旋轉、列印和縮放影像。
+description: 從 Windows XP，使用者可以查看、旋轉、列印和縮放影像。
 ms.assetid: cb08756b-6a5d-424d-ab6d-2e34d180ec4e
 keywords:
-- Windows 圖片和傳真檢視器
+- Windows圖片和傳真檢視器
 - 預覽動詞
 - 最佳做法、Windows 圖片和傳真檢視器
 - 最佳做法，預覽動詞
@@ -14,18 +14,18 @@ keywords:
 - 投影片動詞
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e6769e13aaea41b3b05bbf674ea95d7f88fb646
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 518e32f7b7bf33db26e534c92cfe2fb46c9a51bc444f04f4881f18fb1fe6c738
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103933243"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119608518"
 ---
 # <a name="replacing-the-windows-picture-and-fax-viewer-application-using-the-preview-verb"></a>使用預覽動詞來取代 Windows 圖片和傳真檢視器應用程式
 
 \[只有在 Windows XP 下才支援圖片和傳真檢視器功能。 \]
 
-在 Windows XP 中，使用者可以查看、旋轉、列印和縮放影像。 其中有些功能是透過 Windows Shell 提供，有些則是透過 Windows 圖片和傳真檢視器應用程式來提供。 雖然 Windows 圖片和傳真檢視器提供絕佳的功能基準，而且是映射體驗的重要部分，如果您選擇，則可以輕鬆地將它取代為不同的應用程式。 本檔的設計目的是協助您有效地取代 Windows 圖片和傳真檢視器應用程式，而不會遺失重要功能或降低使用者體驗。
+從 Windows XP，使用者可以查看、旋轉、列印和縮放影像。 其中有些功能是透過 Windows Shell 提供，有些則是透過 Windows 圖片和傳真檢視器應用程式來提供。 雖然 Windows 圖片和傳真檢視器都提供絕佳的功能基準，而且是映射體驗的重要部分，如果您選擇，則可以輕鬆地將它取代為不同的應用程式。 本檔的設計目的是協助您有效地取代 Windows 圖片和傳真檢視器應用程式，而不會遺失重要功能或降低使用者體驗。
 
 -   [最佳作法](#best-practices)
     -   [效能](#performance)
@@ -38,11 +38,11 @@ ms.locfileid: "103933243"
 
 ## <a name="best-practices"></a>最佳做法
 
-在 Windows XP 和更新版本中，Shell 包含的動詞命令可讓使用者預覽影像。 這稱為 *預覽*。 此動詞會反白顯示影像的主要使用者工作，也就是正在觀看的影像。 為了讓此體驗順利運作，Windows 圖片和傳真檢視器應用程式預設會擁有預覽關聯。
+在 Windows XP 和更新版本中，Shell 包含的動詞命令可讓使用者預覽影像。 這稱為 *預覽*。 此動詞會反白顯示影像的主要使用者工作，也就是正在觀看的影像。 為了讓此體驗正常運作，Windows 圖片和傳真檢視器應用程式預設擁有預覽關聯。
 
-Windows 圖片和傳真檢視器，或任何擁有檔案關聯的應用程式，都包含啟動使用者編輯應用程式的專案。 因為預覽動詞命令只是用來預覽影像，而不是編輯它們，所以您的應用程式在宣告該關聯時，必須小心遵循本檔中的建議。
+Windows 圖片和傳真檢視器，或任何擁有檔案關聯的應用程式，都包含可啟動使用者編輯應用程式的專案。 因為預覽動詞命令只是用來預覽影像，而不是編輯它們，所以您的應用程式在宣告該關聯時，必須小心遵循本檔中的建議。
 
-您想要確保編輯影像的應用程式仍然可以接管編輯動詞。 例如，如果使用者有 Microsoft 圖片！ 已安裝，當他們按兩下 .jpg 檔案時，電腦應該會啟動 [Windows 圖片及傳真檢視器] 應用程式。 但是，當他們按一下工具列中的 [ **編輯** ] 時，電腦應該會啟動圖片！ 使用這個 .jpg 檔。
+您想要確保編輯影像的應用程式仍然可以接管編輯動詞。 例如，如果使用者有 Microsoft 圖片！ 安裝之後，當他們按兩下 .jpg 檔案時，電腦應該會啟動 Windows 圖片和傳真檢視器應用程式。 但是，當他們按一下工具列中的 [ **編輯** ] 時，電腦應該會啟動圖片！ .jpg 的檔案。
 
 當您取代 Windows 圖片和傳真檢視器時，應該考慮三個考慮。 這些警告是：
 
@@ -52,7 +52,7 @@ Windows 圖片和傳真檢視器，或任何擁有檔案關聯的應用程式，
 
 ### <a name="performance"></a>效能
 
-效能的主要考慮是映射載入的速度。 雖然此處未提供任何效能計量，但您應該嘗試使用符合或提高效能的應用程式來取代 Windows 圖片和傳真檢視器。
+效能的主要考慮是映射載入的速度。 雖然此處未提供任何效能度量，但您應該嘗試以符合或提高效能的應用程式取代 Windows 圖片和傳真檢視器。
 
 應用程式本身應該很快就會載入。 當應用程式載入時，使用者使用應用程式時所遇到的其中一個主要問題，就是等候時間。 這通常是因為當使用者只想要查看檔案時，有強大的編輯應用程式負載，而不是在使用者按兩下影像檔時。 如果您提供一些選項，讓使用者可以快速地將這些選項帶到應用程式，讓他們只能在需要時編輯影像。
 
@@ -70,24 +70,24 @@ Windows 圖片和傳真檢視器，或任何擁有檔案關聯的應用程式，
 | 縮小影像                  | 這可讓使用者縮小並取得更廣泛的觀點。 這類似于顯示最適合的影像，但可讓使用者控制其查看影像的距離。                                                                                                                                                                                                                                                                                                                                                          |
 | 下一個影像                         | 這可讓使用者查看清單中的下一個影像。 這份清單可以是目前資料夾中的所有影像，或是使用者選取做為多重選取作業一部分的所有影像;也就是說，當他或她按一下並拖曳來反白顯示影像，或按住控制項按鈕並按一下個別檔案時。                                                                                                                                                                                                                       |
 | 上一個影像                     | 這可讓使用者查看清單中的上一個影像。                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| 順時針旋轉90度        | 如此一來，使用者就能依季順時針旋轉影像。 Windows XP 會在旋轉時自動儲存映射，以降低影像品質的損失。 應用程式也可以旋轉較小的遞增，但90度則是數位相片最常見的旋轉標準。                                                                                                                                                                                                                                 |
+| 順時針旋轉90度        | 如此一來，使用者就能依季順時針旋轉影像。 WindowsXP 會在旋轉時自動儲存映射，以降低影像品質的損失。 應用程式也可以旋轉較小的遞增，但90度則是數位相片最常見的旋轉標準。                                                                                                                                                                                                                                 |
 | 逆時針旋轉90度 | 這可讓使用者以季為依據的季旋轉影像。                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 | 列印                              | 這可讓使用者列印目前顯示的影像。                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | 另存新檔                            | 這可讓使用者將影像儲存至指定的資料夾。                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | 刪除影像                       | 這可讓使用者刪除影像。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| Help                               | 這會為使用者提供有關使用「觀看」應用程式的說明文件。                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| 說明                               | 這會為使用者提供有關使用「觀看」應用程式的說明文件。                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | 屬性                         | 這可讓使用者查看或編輯影像的屬性，通常是交換影像檔案 (每個影像中所儲存的 EXIF) 資訊。                                                                                                                                                                                                                                                                                                                                                                                      |
 | 編輯                               | 這可讓使用者啟動其慣用的編輯程式，其已針對影像上的編輯動詞註冊。                                                                                                                                                                                                                                                                                                                                                                                                                             |
 
 
 
- 
+ 
 
 ### <a name="format-support"></a>格式支援
 
-由於應用程式很難支援所有不同的映射，因此建議應用程式使用 Windows GDI + 支援影像格式。 但是，如果您選擇不使用 GDI +，您的應用程式應該只接管已經過測試且已知可以運作的檔案關聯。 然後，如果使用者需要查看您未處理的格式，Windows 圖片和傳真檢視器仍然可以提供存取權。
+由於應用程式很難支援所有不同的映射，因此建議應用程式使用 Windows GDI+ 來支援影像格式。 但是，如果您選擇不使用 GDI+，您的應用程式應該只接管已測試且已知可運作的檔案關聯。 然後，如果使用者需要查看您未處理的格式，Windows 圖片和傳真檢視器仍可提供存取權。
 
-例如，[Windows 圖片及傳真檢視器] 提供一些工具來編輯 tiff 影像中的注釋。 除非您的應用程式中有重複的這項功能，否則您不應該註冊應用程式來處理 tiff 影像。 駕駛準則應確保使用者不會失去任何功能。
+例如，Windows 圖片和傳真檢視器提供了一些工具，可用於編輯 tiff 影像中的注釋。 除非您的應用程式中有重複的這項功能，否則您不應該註冊應用程式來處理 tiff 影像。 駕駛準則應確保使用者不會失去任何功能。
 
 ## <a name="registering-for-the-preview-verb"></a>註冊預覽動詞
 
@@ -95,22 +95,22 @@ Windows 圖片和傳真檢視器，或任何擁有檔案關聯的應用程式，
 
 ```
 HKEY_CLASSES_ROOT
-   Application.Jpeg
-      shell
-         open
-            command
-               (Default) = app.exe %1
+   Application.Jpeg
+      shell
+         open
+            command
+               (Default) = app.exe %1
 ```
 
 將 **開啟** 的子機碼名稱變更為「預覽」，如下所示。
 
 ```
 HKEY_CLASSES_ROOT
-   Application.Jpeg
-      shell
-         preview
-            command
-               (Default) = app.exe %1
+   Application.Jpeg
+      shell
+         preview
+            command
+               (Default) = app.exe %1
 ```
 
 這會註冊應用程式，並使其成為 .jpg 檔案預覽動詞命令的預設應用程式。 也需要下列各項。
@@ -123,36 +123,36 @@ HKEY_CLASSES_ROOT
 
 ```
 HKEY_CLASSES_ROOT
-   SystemFileAssociations
-      image
-         shell
-            edit
-               command
-                  (Default) = app.exe %1
+   SystemFileAssociations
+      image
+         shell
+            edit
+               command
+                  (Default) = app.exe %1
 ```
 
 新的應用程式應該在此註冊：
 
 ```
 HKEY_CLASSES_ROOT
-   Application.Jpeg
-      shell
-         edit
-            command
-               (Default) = app.exe %1
+   Application.Jpeg
+      shell
+         edit
+            command
+               (Default) = app.exe %1
 ```
 
 ## <a name="registering-for-the-slideshow-verb"></a>註冊投影片動詞
 
-在 Windows Vista 中，應用程式也可以註冊投影 **片動詞。** 執行投影片節目的應用程式可以註冊在選擇投影片動詞時叫用。 此註冊的完成方式與上述預覽動詞命令的方式完全相同。 強烈建議應用程式執行動詞的 DropTarget 形式。 如此一來，就可以將一組完整的專案傳遞給它們。 DropTarget 的執行已註冊，如下所示：
+從 Windows Vista 中，應用程式也可以註冊投影 **片動詞。** 執行投影片節目的應用程式可以註冊在選擇投影片動詞時叫用。 此註冊的完成方式與上述預覽動詞命令的方式完全相同。 強烈建議應用程式執行動詞的 DropTarget 形式。 如此一來，就可以將一組完整的專案傳遞給它們。 DropTarget 的執行已註冊，如下所示：
 
 ```
 HKEY_CLASSES_ROOT
-   Application.Jpeg
-      shell
-         slideshow
-            DropTarget
-               CLSID = {CLSID of the implementation}
+   Application.Jpeg
+      shell
+         slideshow
+            DropTarget
+               CLSID = {CLSID of the implementation}
 ```
 
 ## <a name="related-topics"></a>相關主題
@@ -162,9 +162,9 @@ HKEY_CLASSES_ROOT
 [檔案關聯簡介](/windows/desktop/shell/fa-intro)
 </dt> <dt>
 
-[關於 GDI +](../gdiplus/-gdiplus-about-gdi--about.md)
+[關於 GDI+](../gdiplus/-gdiplus-about-gdi--about.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

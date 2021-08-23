@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - IACom.dll
-ms.openlocfilehash: 381d137dd73056a2a6f4c2e9cd3746f9f16c5b2e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 89e7ab9fb5213b41d53695b516b95b47193e8d803b207efd09216c743085927e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103690600"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119660718"
 ---
 # <a name="icontextnodegetpropertydata-method"></a>ICoNtextNode：： GetPropertyData 方法
 
@@ -92,9 +92,9 @@ HRESULT GetPropertyData(
 -   GUID \_ AHP \_ COERCETOFACTOID
 -   GUID \_ AHP \_ WORDMODE
 
-傳回值是 **VARIANT \_ BOOL**。 如果您將 \* *ppbPropertyData* 參數轉換成 **VARIANT \_ BOOL \** _ 其傳回的長度為 `sizeof(VARIANT_BOOL)` 。
+傳回值是 **VARIANT \_ BOOL**。 如果您將 \* *ppbPropertyData* 參數轉換成 **VARIANT \_ BOOL \*** ，其傳回的長度為 `sizeof(VARIANT_BOOL)` 。
 
-GUID \_ AHP \_ 指南是一個指南型別屬性。 傳回值為 _*InkAnalysisRecognitionGuide \**_。 如果您將 \_ *ppbPropertyData* 參數轉換成 **InkAnalysisRecognitionGuide \** _ 其傳回的長度為 `sizeof(InkAnalysisRecognitionGuide)` 。
+GUID \_ AHP \_ 指南是一個指南型別屬性。 傳回值為 **InkAnalysisRecognitionGuide \** _。 如果您轉換 \_ *ppbPropertyData* 參數以 **InkAnalysisRecognitionGuide \*** 其傳回的長度為 `sizeof(InkAnalysisRecognitionGuide)` 。
 
 整數類型屬性包括：
 
@@ -106,7 +106,7 @@ GUID \_ AHP \_ 指南是一個指南型別屬性。 傳回值為 _*InkAnalysisRe
 -   GUID \_ CNP \_ 分割
 -   GUID \_ CNP \_ ALIGNMENTLEVEL
 
-傳回值為 _*LONG \**_。 如果您將 \_ *ppbPropertyData* 參數轉換成 **LONG \** _ 其傳回的長度為 `sizeof(LONG)` 。
+傳回值為 **LONG \** _。 如果您將 \_ *ppbPropertyData* 參數轉換為 **LONG \*** ，其傳回的長度為 `sizeof(LONG)` 。
 
 明細度量-類型屬性包括：
 
@@ -115,11 +115,11 @@ GUID \_ AHP \_ 指南是一個指南型別屬性。 傳回值為 _*InkAnalysisRe
 -   GUID \_ CNP \_ 基準
 -   GUID \_ CNP \_ 中線
 
-傳回值為 _*LONG \**_。 如果您將 \_ *ppbPropertyData* 參數轉換成 **LONG \** _ 其傳回的長度是，則表示 `sizeof(LONG)_4` 起始點的 (x，y) 值，後面接著 (x，y) 值的結束點。
+傳回值為 **LONG \** _。如果您將 \_ *ppbPropertyData* 參數轉換成 **LONG \**_ ，其傳回的長度是 `sizeof(LONG)_4` ，表示起始點的 (x，y) 值，後面接著 (x，y) 的值做為結束點。
 
-GUID \_ CNP \_ TEXTRECOGNIZERID 是 **guid** 屬性。 傳回值為 **GUID \** _。如果您將 \_ *ppbPropertyData* 參數轉換成 **GUID \**_ ，則其傳回的長度為 `sizeof(GUID)` 。
+GUID \_ CNP \_ TEXTRECOGNIZERID 是 **guid** 屬性。 傳回值為 **GUID \** _。 如果您將 \_ *ppbPropertyData* 參數轉換為 **GUID \*** ，其傳回的長度為 `sizeof(GUID)` 。
 
-GUID \_ CNP \_ ROTATEDBOUNDINGBOX 是旋轉周框方塊屬性。 傳回值為 _*LONG \**_。 如果您將 \_ *ppbPropertyData* 參數轉換成 **LONG \** _ 其傳回的長度是，表示方塊 `sizeof(LONG)_8` 四個角落的 (x，y) 值。
+GUID \_ CNP \_ ROTATEDBOUNDINGBOX 是旋轉周框方塊屬性。 傳回值為 **LONG \** _。如果您將 \_ *ppbPropertyData* 參數轉換成 **LONG \**_ ，其傳回的長度為，表示方塊 `sizeof(LONG)_8` 四個角落的 (x，y) 值。
 
 GUID \_ CNP \_ HOTPOINT 是作用點屬性。 傳回值為 **LONG \** _。如果您將 \_ *ppbPropertyData* 參數轉換成 **LONG \**_ ，其傳回的長度為 `sizeof(LONG)_2` ，表示該點的 (x，y) 值。
 
@@ -171,7 +171,7 @@ HRESULT CMyClass::ExploreParagraphNode(
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 Windows XP Tablet PC Edition \[ 桌面應用程式\]<br/>                                                 |
+| 最低支援的用戶端<br/> | Windows僅限 XP Tablet PC Edition \[ 桌面應用程式\]<br/>                                                 |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                                     |
 | 標頭<br/>                   | <dl> <dt>IACom (也需要 IACom \_ c) </dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |

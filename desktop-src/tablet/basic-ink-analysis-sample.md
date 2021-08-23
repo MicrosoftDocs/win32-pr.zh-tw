@@ -4,12 +4,12 @@ ms.assetid: cb9a28d9-f8c6-478e-ae43-2d30106edc7b
 title: 基本筆墨分析範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e94ac73ca9049169c6e406059665a66e8eaa6f3b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5ab307deac8ac58a741b0c7f332986b09074f4f5c6a8afa53f0156a94916bf16
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106966662"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119660828"
 ---
 # <a name="basic-ink-analysis-sample"></a>基本筆墨分析範例
 
@@ -26,7 +26,7 @@ ms.locfileid: "106966662"
 | 已分析的單位             | 矩形的色彩 | 矩形放大 (圖元)  |
 |---------------------------|--------------------|--------------------------------|
 | Word<br/>           | 綠色<br/>   | 1<br/>                   |
-| 線條<br/>           | 桃紅色<br/> | 3<br/>                   |
+| 折線圖<br/>           | 桃紅色<br/> | 3<br/>                   |
 | Paragraph<br/>      | 藍色<br/>    | 5<br/>                   |
 | 寫入區域<br/> | 黃色<br/>  | 7<br/>                   |
 | 繪圖<br/>        | 紅色<br/>     | 1<br/>                   |

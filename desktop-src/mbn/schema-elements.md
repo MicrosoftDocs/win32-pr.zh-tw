@@ -4,12 +4,12 @@ ms.assetid: 234dd206-7306-4598-bfbb-b0cd9d726ace
 title: Mobile 寬頻設定檔架構 v1 元素
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a4b92e9b1fd9daf3cf843e769a0782f5f1ce1848
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e8bc9d5f7972608215cb1394b0bbecf44424868240d7c1bad365f003ebdad756
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972649"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119607108"
 ---
 # <a name="mobile-broadband-profile-schema-v1-elements"></a>Mobile 寬頻設定檔架構 v1 元素
 

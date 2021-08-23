@@ -4,12 +4,12 @@ ms.assetid: 477c6456-c96c-4d3d-b877-2a426510de29
 title: 'EC_OLE_EVENT (Dshow) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: af10f606187dae5fa4d361a1d86deea29fa093f1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0753b5b5235be370a29416d9845d3b531640617c9607bd911187f94e013483e6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995022"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119639648"
 ---
 # <a name="ec_ole_event"></a>EC \_ OLE \_ 事件
 

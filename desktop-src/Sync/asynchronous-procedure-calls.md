@@ -4,12 +4,12 @@ ms.assetid: 0197d78e-a4dc-414b-88ba-c5ec5f2ed614
 title: 非同步程序呼叫
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dd95e9afd663e2a462335b3c47bfe99462b449e7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d1c024506c2afc9a895db645fd386ed76f915f6e1178c6b8ce3a257aa7d40fa6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944743"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119661448"
 ---
 # <a name="asynchronous-procedure-calls"></a>非同步程序呼叫
 

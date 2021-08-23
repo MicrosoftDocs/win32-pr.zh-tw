@@ -4,12 +4,12 @@ ms.assetid: db43f4e0-f2f5-49b1-a03d-3df3de0e5611
 title: " (電話語音 API) 的事件"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b6a9a7d994c7bc9f8019224d826d586d698bc605
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f3b2cf181f10373505a0fe50d3c9efa7358b3ccb749acb723d8314dee27ff9aa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104513376"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119660858"
 ---
 # <a name="events-telephony-api"></a> (電話語音 API) 的事件
 

@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - bdatypes.h
-ms.openlocfilehash: 9065f2af948ff28d181b24842673b086882837bb
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1dead22b2c8ea3cf7da665e01a4b36554b8282922a1d2b2a12d59f429f2acac4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106998741"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119684988"
 ---
 # <a name="media_sample_content-enumeration"></a>媒體 \_ 範例 \_ 內容列舉
 
@@ -84,7 +84,7 @@ typedef enum  {
 
 <dl> <dt>
 
-[DirectShow 列舉類型](directshow-enumerated-types.md)
+[DirectShow列舉類型](directshow-enumerated-types.md)
 </dt> </dl>
 
  

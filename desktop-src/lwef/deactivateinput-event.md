@@ -4,16 +4,16 @@ description: DeactivateInput 事件
 ms.assetid: 59747932-82be-45d5-8465-73798904e8a7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9b2fe1ff13b599fe5fbcf2dac22e548a0432f415
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 98fe94d7d4e737d83dfb734bcc5b35c60bddf96dcf8b07c43df3b89817da21b3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103932336"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119610528"
 ---
 # <a name="deactivateinput-event"></a>DeactivateInput 事件
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 <dl> <dt>
 
@@ -37,7 +37,7 @@ ms.locfileid: "103932336"
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -52,9 +52,9 @@ ms.locfileid: "103932336"
 [**ActivateInput 事件**](activateinput-event.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

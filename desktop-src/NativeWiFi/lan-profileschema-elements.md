@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: d9a4c3087569b21960a0d2733c4506a392147ee4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bf0c6895dec96ff0844345bb04ebd3a8cf406d3414f923c86ee3b3b9358a771b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511876"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119685068"
 ---
 # <a name="lan_profile-schema-elements"></a>LAN \_ 設定檔架構元素
 

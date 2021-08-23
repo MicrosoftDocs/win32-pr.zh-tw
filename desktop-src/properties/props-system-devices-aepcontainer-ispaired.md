@@ -4,12 +4,12 @@ ms.assetid: 4f2a588c-d1f1-4249-946f-ac989826db2d
 title: System.Devices.AepContainer.IsPaired
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8b01427ab7e0971605acbf83fdf4bcdc9343d2c1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: abc1093cfdc99f24a818fc77914c0cbabb6a3a09816922c5955da2d89c727c64
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944677"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119598968"
 ---
 # <a name="systemdevicesaepcontainerispaired"></a>System.Devices.AepContainer.IsPaired
 

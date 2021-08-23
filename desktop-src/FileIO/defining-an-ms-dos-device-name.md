@@ -4,12 +4,12 @@ ms.assetid: 7d802e9f-dc09-4e3d-b064-e9b57af396e2
 title: 定義 MS-DOS 裝置名稱
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7ed89e1d9938e320ecce3ff0b35b8ae0792fe219
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 77331c1d3b3cc7566f118fa19fbb13c84e82af634f1098193bdf3dcb6270ef7d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106993062"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119638928"
 ---
 # <a name="defining-an-ms-dos-device-name"></a>定義 MS-DOS 裝置名稱
 
@@ -17,7 +17,7 @@ MS-DOS 裝置名稱是指向 MS-DOS 裝置路徑的連接點。 這些連接會�
 
 定義 MS-DOS 裝置名稱之後，所有進程都可以看到它。
 
--   所有 MS-DOS 裝置都會透過驗證識別碼以 Windows 識別。 驗證識別碼是在建立時，與每個登入會話相關聯的 LUID (本機唯一識別碼) 。
+-   所有的 MS-DOS 裝置都會透過驗證識別碼 Windows 識別。 驗證識別碼是在建立時，與每個登入會話相關聯的 LUID (本機唯一識別碼) 。
 -   MS-DOS 裝置名稱的可見度會分類為全域或本機，並定義為包含在全域 MS-DOS 裝置和本機 MS-DOS 裝置命名空間中。 所有使用者都可以存取全域命名空間中的 MS-DOS 裝置內容，而且只有存取權杖包含與該本機 MS-DOS 裝置命名空間相關聯的 AuthenticationID，才能存取本機命名空間中的 MS-DOS 裝置內容。
 
 多個本機 MS-DOS 裝置命名空間，一次只能存在於一部電腦上。

@@ -4,12 +4,12 @@ ms.assetid: ec8c0271-1e1e-4d37-a09a-f430d0682213
 title: System.servicemodel
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2273425c1974617b7d76657f818c4f1c39cd3aea
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 433298e2e7ac728b91c5b7cd0dd65e6ee1c637e6ff8f32b89a61f1793f41e1b8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192506"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119596718"
 ---
 # <a name="systemphotoaperture"></a>System.servicemodel
 

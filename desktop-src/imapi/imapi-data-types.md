@@ -17,12 +17,12 @@ keywords:
 - ULONG_IMAPI2_NOT_NEGATIVE
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7793bab123e2939bdc2f5a68bb705d7468da5666
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5f003c2e03ff3d21623111d3d43a83cddf43e31c64557cfce18b5a401cdcd5d5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106966146"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119612008"
 ---
 # <a name="imapi-data-types"></a>IMAPI.EXE 資料類型
 
@@ -71,8 +71,8 @@ typedef ULONG ULONG_IMAPI2_NOT_NEGATIVE;
 
 | 需求 | 值 |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                         |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                         |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                |
 | 標頭<br/>                   | <dl> <dt>Imapi2。h</dt> </dl> |
 
 

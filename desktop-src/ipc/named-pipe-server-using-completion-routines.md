@@ -4,12 +4,12 @@ ms.assetid: 8b73485c-c6f7-44df-9e53-308df2c752e7
 title: 使用完成常式的具名管道伺服器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: efa3ac238680de5cee701488bc4cd60f6543d991
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 61ddd1a5213de8593a5697341ef3aed4988b7a700c02db9eba83440f40634627
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972588"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119611198"
 ---
 # <a name="named-pipe-server-using-completion-routines"></a>使用完成常式的具名管道伺服器
 

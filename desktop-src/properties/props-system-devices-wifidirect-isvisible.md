@@ -4,12 +4,12 @@ ms.assetid: b3a01302-c9ae-4409-b660-25b7a707878f
 title: WiFiDirect. IsVisible
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e6845300bd461253c32733dcf232b591eed71f30
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1fd0fd4904d6e68a60637024e7b6da6206c5a984e6d2a3547f297da930d10116
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "107001407"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119598578"
 ---
 # <a name="systemdeviceswifidirectisvisible"></a>WiFiDirect. IsVisible
 

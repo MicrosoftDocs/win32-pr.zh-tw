@@ -1243,7 +1243,7 @@
                   href: '-search-2x-ipropertyfiltercollection-additem.md'
                 - name: clear
                   href: '-search-2x-ipropertyfiltercollection-clear.md'
-                - name: Count
+                - name: 計數
                   href: '-search-2x-ipropertyfiltercollection-count.md'
                 - name: GetITem
                   href: '-search-2x-ipropertyfiltercollection-getitem.md'

@@ -4,12 +4,12 @@ ms.assetid: b4c2f5f0-a29b-4598-a49b-da99e93d2991
 title: 隨機鎖定
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: faec833caae05bff247a7a3655885b1a967f3435
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 89d3e984c5a8a1a1dc9cc1cb0c0c56e92434433b334747e832ea7f3bdf62d3da
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103690876"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119683398"
 ---
 # <a name="opportunistic-locks"></a>隨機鎖定
 
@@ -27,7 +27,7 @@ ms.locfileid: "103690876"
 
 本機應用程式不應該嘗試從遠端伺服器要求隨機鎖定。 如果嘗試這麼做， [**DeviceIoControl**](/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol) 會傳回錯誤。
 
-隨機鎖定對於應用程式來說非常有限。 唯一實用的用途是測試網路重新導向程式或伺服器隨機鎖定處理常式。 一般情況下，檔案系統會執行隨機鎖定的支援。 應用程式通常會讓檔案系統驅動程式保持隨機鎖定管理。 任何執行檔案系統的人都應該使用可 [安裝的檔案系統 (IFS) 套件](https://www.microsoft.com/whdc/devtools/ifskit/default.mspx)。 除了可安裝的檔案系統以外，任何開發設備磁碟機的人都應該使用 [Windows 驅動程式套件 (WDK) ](https://www.microsoft.com/?ref=go)。
+隨機鎖定對於應用程式來說非常有限。 唯一實用的用途是測試網路重新導向程式或伺服器隨機鎖定處理常式。 一般情況下，檔案系統會執行隨機鎖定的支援。 應用程式通常會讓檔案系統驅動程式保持隨機鎖定管理。 任何執行檔案系統的人都應該使用可 [安裝的檔案系統 (IFS) 套件](https://www.microsoft.com/whdc/devtools/ifskit/default.mspx)。 除了可安裝的檔案系統以外，任何開發設備磁碟機的人都應該使用[Windows 驅動程式套件 (WDK) ](https://www.microsoft.com/?ref=go)。
 
 「隨機鎖定」和相關聯的作業都是通用網際網路檔案系統的隨機鎖定部分的超集合 (CIFS) 通訊協定，也就是網際網路草稿。 CIFS 通訊協定是 (SMB) 通訊協定的增強版伺服器訊息區。 如需詳細資訊，請參閱 [MICROSOFT SMB 通訊協定和 CIFS 通訊協定總覽](microsoft-smb-protocol-and-cifs-protocol-overview.md)。 CIFS 網際網路草稿明確指出 CIFS 的執行方式可透過拒絕授與的方式來執行隨機鎖定。
 
@@ -40,7 +40,7 @@ ms.locfileid: "103690876"
 | 主題                                                                                                               | 描述                                                                                                                                                                                                                                                                                       |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [本機快取](local-caching.md)<br/>                                                                       | 資料的 *本機* 快取是用來加速網路存取資料檔案的技巧。 它牽涉到在用戶端上快取資料，而不是在伺服器上快取資料。<br/>                                                                                                                           |
-| [資料一致性](data-coherency.md)<br/>                                                                     | 如果資料是一致的，則會同步處理伺服器和所有用戶端上的資料。 有一種提供資料一致性的軟體系統，就是 (RCS) 的修訂控制系統。<br/>                                                                                                              |
+| [資料一致性](data-coherency.md)<br/>                                                                     | 如果資料是一致的，則會同步處理伺服器和所有用戶端上的資料。 提供資料一致性的軟體系統有一種類型，就是 (RCS) 的修訂控制系統。<br/>                                                                                                              |
 | [如何要求隨機鎖定](how-to-request-an-opportunistic-lock.md)<br/>                         | 藉由在開啟檔案的應用程式中，先開啟具有適當許可權和旗標的檔案，就會要求隨機鎖定。 系統將會要求您將需要的所有檔案，以重迭 (非同步) 作業。<br/>                                |
 | [對鎖定檔案開啟要求的伺服器回應](server-response-to-open-requests-on-locked-files.md)<br/> | 您可以將應用程式對其他用戶端所造成的影響降至最低、盡可能授與最少的共用、要求所需的最低存取層級，以及使用適用于您應用程式的最小無侵入性隨機鎖定，來降低應用程式對其他用戶端的影響。<br/> |
 | [隨機鎖定的類型](types-of-opportunistic-locks.md)<br/>                                         | 描述層級1、層級2、批次和篩選隨機鎖定。<br/>                                                                                                                                                                                                                     |

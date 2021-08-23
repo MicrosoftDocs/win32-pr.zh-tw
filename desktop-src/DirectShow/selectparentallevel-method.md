@@ -4,17 +4,17 @@ ms.assetid: ffd1e204-6ed2-4190-8635-9f3866d38099
 title: SelectParentalLevel 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cb00172b8e61f353c45981af628eb396bca7a7df
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 95de7e8cbf1fb6fa284eddefa1ba07ebb9268825116fdac9c97fbd5d42bac84e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104509979"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119684038"
 ---
 # <a name="selectparentallevel-method"></a>SelectParentalLevel 方法
 
 > [!Note]  
-> 此元件可用於 Microsoft Windows 2000、Windows XP 及 Windows Server 2003 作業系統。 它在後續版本中可能會變更或無法使用。
+> 此元件可在 Microsoft Windows 2000、Windows XP 和 Windows Server 2003 作業系統中使用。 它在後續版本中可能會變更或無法使用。
 
  
 

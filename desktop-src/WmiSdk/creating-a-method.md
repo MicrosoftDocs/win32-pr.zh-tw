@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 建立 WMI 方法
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e2489a5dd4e97ed6c8d26eeb292c45fa66901cbe
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 689f69518f440e7c1983a92fbf86877c5c6dd2149ce2b31b8459aa08b9e94c4c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194709"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119612528"
 ---
 # <a name="creating-a-wmi-method"></a>建立 WMI 方法
 

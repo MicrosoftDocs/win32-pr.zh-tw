@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: d4c2d222ca4dd184adfe41f9f610b10f15ee9f02
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 56da848f3829f56d93d7d0383dc7fdc1ec6d5bfd995c2c74507d05eb13801fb4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108094846"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119584808"
 ---
 # <a name="ctransformoutputpinqueryid-method"></a>CTransformOutputPin. QueryId 方法
 
@@ -55,7 +55,7 @@ HRESULT QueryId(
 
 
 
-| 傳回碼                                                                                   | Description                          |
+| 傳回碼                                                                                   | 描述                          |
 |-----------------------------------------------------------------------------------------------|--------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>          | Success<br/>                   |
 | <dl> <dt>**E \_ OUTOFMEMORY**</dt> </dl> | 記憶體不足<br/>       |

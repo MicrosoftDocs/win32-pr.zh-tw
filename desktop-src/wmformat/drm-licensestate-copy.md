@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 02ae90fecba85bf1b2fc0985fa89ea8417171204
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 245c200651e191d79bd2d33ef469487b26d490549bdef85db92c0f6c58b10caa
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104023875"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119658848"
 ---
 # <a name="drm_licensestate_copy"></a>DRM \_ LicenseState \_ 複製
 
@@ -42,6 +42,6 @@ g \_ wszWMDRM \_ LicenseState \_ Copy
 [**DRM 屬性**](drm-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

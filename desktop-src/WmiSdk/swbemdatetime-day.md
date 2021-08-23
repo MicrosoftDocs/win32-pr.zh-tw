@@ -17,12 +17,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 1de77a8e5d616284c3dc13a19bce2526db371c20
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d2483e52d9b40978a28f96bb5352df4f9abf4f89becf52550b82fd931580d7e8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103945107"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119640498"
 ---
 # <a name="swbemdatetimeday-property"></a>SWbemDateTime Day 屬性
 
@@ -70,8 +70,8 @@ SWbemDateTime.Day As Long
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows Vista<br/>                                                                |
 | 最低支援的伺服器<br/> | Windows Server 2008<br/>                                                          |
-| 標頭<br/>                   | <dl> <dt>>wbemdisp.tlb。h</dt> </dl>   |
-| 類型程式庫<br/>             | <dl> <dt>>wbemdisp.tlb .tlb</dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>>Wbemdisp.tlb。h</dt> </dl>   |
+| 類型程式庫<br/>             | <dl> <dt>>Wbemdisp.tlb .tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
 | CLSID<br/>                    | CLSID \_ SWbemDateTime<br/>                                                         |
 | IID<br/>                      | IID \_ ISWbemDateTime<br/>                                                          |
@@ -88,7 +88,7 @@ SWbemDateTime.Day As Long
 [**SWbemDateTime**](swbemdatetime.md)
 </dt> <dt>
 
-[Datetime](datetime.md)
+[DATETIME](datetime.md)
 </dt> </dl>
 
  

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Wia.h
-ms.openlocfilehash: b9c0bcdee5b40c37fb38b390f5085fe275f0f660
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 304b5be43aad8afc1730d2a23c170f11f11d319ffc4ae3eb13781efe09da2d41
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848069"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119659698"
 ---
 # <a name="iwiasegmentationfilter-interface"></a>IWiaSegmentationFilter 介面
 
@@ -58,7 +58,7 @@ ms.locfileid: "103848069"
 
 
 
-| IUnknown 方法                                        | Description                               |
+| IUnknown 方法                                        | 描述                               |
 |---------------------------------------------------------|-------------------------------------------|
 | [IUnknown：： QueryInterface](/windows/win32/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) | 傳回受支援介面的指標。 |
 | [IUnknown：： AddRef](/windows/win32/api/unknwn/nf-unknwn-iunknown-addref)                 | 遞增參考次數。               |
@@ -74,10 +74,10 @@ ms.locfileid: "103848069"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                     |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                               |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                     |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                               |
 | 標頭<br/>                   | <dl> <dt>Wia</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>Wia .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>Wia .idl</dt> </dl> |
 
 
 

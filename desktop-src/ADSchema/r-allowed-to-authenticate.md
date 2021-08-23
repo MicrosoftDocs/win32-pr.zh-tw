@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7c2fca1b6f4670fd340170ed5cfd1f0160d61945
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 446a63d63751105500986c27c7a851d60146a72281ee8415bc01c5ec8c5dfa3e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104467372"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119548828"
 ---
 # <a name="allowed-to-authenticate-extended-right"></a>允許驗證擴充許可權
 
@@ -48,7 +48,7 @@ Control 存取權限可控制誰可以驗證特定的電腦或服務。 基本�
 
 | 進入 | 值 |
 |-------------------------|---------------------------------------------------------------------------------------------------------------------------------|
-| Applies-To              | [**電腦**](c-computer.md)<br/> [**User**](c-user.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> |
+| Applies-To              | [**電腦**](c-computer.md)<br/> [**使用者**](c-user.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> |
 | 當地語系化-顯示識別碼 | 65                                                                                                                              |
 
 
@@ -59,7 +59,7 @@ Control 存取權限可控制誰可以驗證特定的電腦或服務。 基本�
 
 | 進入 | 值 |
 |-------------------------|---------------------------------------------------------------------------------------------------------------------------------|
-| Applies-To              | [**電腦**](c-computer.md)<br/> [**User**](c-user.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> |
+| Applies-To              | [**電腦**](c-computer.md)<br/> [**使用者**](c-user.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> |
 | 當地語系化-顯示識別碼 | 65                                                                                                                              |
 
 
@@ -70,7 +70,7 @@ Control 存取權限可控制誰可以驗證特定的電腦或服務。 基本�
 
 | 進入 | 值 |
 |-------------------------|---------------------------------------------------------------------------------------------------------------------------------|
-| Applies-To              | [**電腦**](c-computer.md)<br/> [**User**](c-user.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> |
+| Applies-To              | [**電腦**](c-computer.md)<br/> [**使用者**](c-user.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> |
 | 當地語系化-顯示識別碼 | 65                                                                                                                              |
 
 
@@ -81,7 +81,7 @@ Control 存取權限可控制誰可以驗證特定的電腦或服務。 基本�
 
 | 進入 | 值 |
 |-------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Applies-To              | [**電腦**](c-computer.md)<br/> [**ms DS 管理-服務-帳戶**](c-msds-managedserviceaccount.md)<br/> [**User**](c-user.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> |
+| Applies-To              | [**電腦**](c-computer.md)<br/> [**ms DS 管理-服務-帳戶**](c-msds-managedserviceaccount.md)<br/> [**使用者**](c-user.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> |
 | 當地語系化-顯示識別碼 | 65                                                                                                                                                                                                               |
 
 
@@ -92,7 +92,7 @@ Control 存取權限可控制誰可以驗證特定的電腦或服務。 基本�
 
 | 進入 | 值 |
 |-------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Applies-To              | [**電腦**](c-computer.md)<br/> [**ms DS 管理-服務-帳戶**](c-msds-managedserviceaccount.md)<br/> [**User**](c-user.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> |
+| Applies-To              | [**電腦**](c-computer.md)<br/> [**ms DS 管理-服務-帳戶**](c-msds-managedserviceaccount.md)<br/> [**使用者**](c-user.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> |
 | 當地語系化-顯示識別碼 | 65                                                                                                                                                                                                               |
 
 

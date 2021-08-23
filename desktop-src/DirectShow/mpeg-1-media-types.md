@@ -4,12 +4,12 @@ ms.assetid: 4ea1cb84-0558-4c4a-9483-1b0f2a8f76f8
 title: MPEG-2 媒體類型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0e44db1f4423365efb7814d61b35c1985142aa14
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: 64f6486b455fc2045ceb0256f6b6344f06a8923ef767c397068022acec052627
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107910026"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119684928"
 ---
 # <a name="mpeg-1-media-types"></a>MPEG-2 媒體類型
 
@@ -145,7 +145,7 @@ ms.locfileid: "107910026"
 
 ## <a name="remarks"></a>備註
 
-DirectShow MPEG-2 篩選準則支援這些類型，如下所示。
+DirectShow 的 mpeg-2 篩選準則支援這些類型，如下所示。
 
 
 

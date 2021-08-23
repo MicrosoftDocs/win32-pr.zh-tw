@@ -4,12 +4,12 @@ ms.assetid: 4c6a6f46-c1c3-4b33-94e7-d6b9a51fe6a9
 title: SeasonNumber
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 039ff9c3d304b66ec1d16ad8f109b377b890f923
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 8ec0b3c190ddfc9e14e9393c73a95856bc093973e69fe54214816a623c92c9c0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106997597"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119597558"
 ---
 # <a name="systemmediaseasonnumber"></a>SeasonNumber
 

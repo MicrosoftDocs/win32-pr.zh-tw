@@ -4,16 +4,16 @@ ms.assetid: d270d6f4-bdcf-4cf4-970b-65f0be706171
 title: 'ITMedia：： get_TransportProtocol 方法 (Sdpblb .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7cf2bc66a98e181674bbf6f7956579bbaa0b5a72
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a7927469ff00caab36ab45af12939c6f2f6518a415d4a764c3d04f9c715db75e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106977602"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119682768"
 ---
 # <a name="itmediaget_transportprotocol-method"></a>ITMedia：： get \_ TransportProtocol 方法
 
-\[ 在 Windows Vista、Windows Server 2008 和後續版本的作業系統中，無法使用會合 IP 電話語音會議控制項和介面。 RTC 用戶端 API 提供類似的功能。\]
+\[Windows Vista、Windows Server 2008 及後續版本的作業系統無法使用會合 IP 電話語音會議控制項和介面。 RTC 用戶端 API 提供類似的功能。\]
 
 **Get \_ TransportProtocol** 方法會取得傳輸通訊協定。 除了媒體格式之外，還會指定相同的標準媒體格式，即使網路通訊協定相同（例如，使用 Vat PCM 音訊和 RTP PCM 音訊），相同的標準媒體格式也可能會透過不同的傳輸通訊協定來執行。
 
@@ -45,7 +45,7 @@ HRESULT get_TransportProtocol(
 
 
 
-| 傳回碼                                                                                   | Description                                                     |
+| 傳回碼                                                                                   | 描述                                                     |
 |-----------------------------------------------------------------------------------------------|-----------------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>          | 方法成功。<br/>                                    |
 | <dl> <dt>**E \_ 指標**</dt> </dl>     | *PpProtocol* 參數不是有效的指標。<br/>   |

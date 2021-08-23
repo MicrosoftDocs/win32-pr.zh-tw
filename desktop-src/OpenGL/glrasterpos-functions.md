@@ -17,12 +17,12 @@ keywords:
 - 圖元、函數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c8f2ce2f387e70b3ea7a378b5463a03a88a4d5d2
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 134db3f2186b6026fb88a23cbbe9cff9a0e84e784164b27a3cf464beeea370bb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103674096"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119492558"
 ---
 # <a name="glrasterpos-functions"></a>glRasterPos 函式
 
@@ -53,9 +53,9 @@ ms.locfileid: "103674096"
 -   [**glRasterPos4iv**](glrasterpos4iv.md)
 -   [**glRasterPos4sv**](glrasterpos4sv.md)
 
- 
+ 
 
- 
+ 
 
 
 

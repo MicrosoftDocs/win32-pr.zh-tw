@@ -4,12 +4,12 @@ ms.assetid: 4bf7a67e-0434-4177-96c7-dcaad14c6545
 title: 印度通道指派
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1ced8fdba140fba2a7274fa9dbd8dcae84ffce13
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 4cef59d270165a75dd42b05f1a9934bb413bdc0d9d53dd11eed987d6cee8aa9b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106998429"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119584548"
 ---
 # <a name="india-channel-assignments"></a>印度通道指派
 
@@ -17,7 +17,7 @@ ms.locfileid: "106998429"
 
 如需下列資料表的說明，請參閱 [資料表和指派](tables-and-assignments.md)。
 
-在 Windows 7 中引進了下列通道指派。 先前使用的是 [Unicable Frequency 資料表](unicable-frequency-table.md) 。
+Windows 7 中引進了下列通道指派。 先前使用的是 [Unicable Frequency 資料表](unicable-frequency-table.md) 。
 
 ## <a name="cable-assignments"></a>纜線指派
 

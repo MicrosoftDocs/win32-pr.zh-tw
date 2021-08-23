@@ -6,12 +6,12 @@ keywords:
 - StoClien 總覽
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ee37f6f84cf981bda637abbd96ff8e8f0314d8ee
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6a28c8d0f4740b5a1d5f93934fb055d16e2ed9d843bcb11b210e6cde9589d53b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106969023"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119661848"
 ---
 # <a name="stoclien-overview"></a>StoClien 總覽
 
@@ -47,9 +47,9 @@ COPaper 只會管理繪圖資料;它不會執行任何 GUI 動作。 [StoClien](
 
 如需有關在此 COM 教學課程系列中設定系統以建立和測試程式碼範例的詳細資訊，請參閱 [如何建立範例](how-to-build-samples.md)。 提供的 makefile (MAKEFILE) 與 Microsoft NMAKE 相容。 若要建立 debug 組建，請在 [命令提示字元] 視窗中發出 NMAKE 命令。
 
-為了方便起見，會提供每個範例的專案檔，以用於 Microsoft Visual Studio。 若要載入 [StoClien](structured-storage-client-sample--stoclien-.md) 範例的專案，請在範例目錄中的命令提示字元執行 Visual Studio，如下所示：
+為了方便起見，會提供每個範例的專案檔，以用於 Microsoft Visual Studio。 若要載入[StoClien](structured-storage-client-sample--stoclien-.md)範例的專案，請在範例目錄中的命令提示字元執行 Visual Studio，如下所示：
 
-MSDEV STOCLIEN.Dsp
+MSDEV STOCLIEN.DSP
 
 您也可以按兩下 Windows 檔案總管中的 Stoclient，將範例專案載入 Visual Studio。 在 Visual Studio 中，您可以流覽範例來源的 c + + 類別，並通常執行其他編輯編譯-編譯-debug 作業。 請注意，在伺服器 SDK 中，從 Visual Studio 編譯這些範例需要在 Visual Studio 中正確設定目錄路徑。 如需詳細資訊，請參閱 [如何建立範例](how-to-build-samples.md)。
 
@@ -59,9 +59,9 @@ MSDEV STOCLIEN.Dsp
 
 Stoclien.exe 的應用程式會提供此教學課程的使用者介面。 它會執行相關聯但獨立的 Stoserve.dll，以示範在複合檔案中使用 COM 結構化儲存的用戶端和伺服器。
 
- 
+ 
 
- 
+ 
 
 
 

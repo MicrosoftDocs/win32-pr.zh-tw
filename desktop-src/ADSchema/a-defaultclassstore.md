@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c5aa4e9bddcc1e9dcb0aa7de962b9c6816555482
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 73ad55b7a8498940f94ab824712d387e50b9d4fa0768bcd8c71dfafe86d4a66f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104107142"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119509168"
 ---
 # <a name="default-class-store-attribute"></a>預設類別-存放區屬性
 
@@ -66,7 +66,7 @@ ms.locfileid: "104107142"
 | Range-Upper            | \-                                                                            |
 | Search-Flags           | 0x00000000                                                                    |
 | System-Flags           | 0x00000010                                                                    |
-| 中使用的類別        | [**容器**](c-container.md)<br/> [**User**](c-user.md)<br/> |
+| 中使用的類別        | [**容器**](c-container.md)<br/> [**使用者**](c-user.md)<br/> |
 
 
 
@@ -87,7 +87,7 @@ ms.locfileid: "104107142"
 | Range-Upper            | \-                                                                            |
 | Search-Flags           | 0x00000000                                                                    |
 | System-Flags           | 0x00000010                                                                    |
-| 中使用的類別        | [**容器**](c-container.md)<br/> [**User**](c-user.md)<br/> |
+| 中使用的類別        | [**容器**](c-container.md)<br/> [**使用者**](c-user.md)<br/> |
 
 
 
@@ -108,7 +108,7 @@ ms.locfileid: "104107142"
 | Range-Upper            | \-                                                                            |
 | Search-Flags           | 0x00000000                                                                    |
 | System-Flags           | 0x00000010                                                                    |
-| 中使用的類別        | [**容器**](c-container.md)<br/> [**User**](c-user.md)<br/> |
+| 中使用的類別        | [**容器**](c-container.md)<br/> [**使用者**](c-user.md)<br/> |
 
 
 
@@ -129,7 +129,7 @@ ms.locfileid: "104107142"
 | Range-Upper            | \-                                                                            |
 | Search-Flags           | 0x00000000                                                                    |
 | System-Flags           | 0x00000010                                                                    |
-| 中使用的類別        | [**容器**](c-container.md)<br/> [**User**](c-user.md)<br/> |
+| 中使用的類別        | [**容器**](c-container.md)<br/> [**使用者**](c-user.md)<br/> |
 
 
 
@@ -150,7 +150,7 @@ ms.locfileid: "104107142"
 | Range-Upper            | \-                                                                            |
 | Search-Flags           | 0x00000000                                                                    |
 | System-Flags           | 0x00000010                                                                    |
-| 中使用的類別        | [**容器**](c-container.md)<br/> [**User**](c-user.md)<br/> |
+| 中使用的類別        | [**容器**](c-container.md)<br/> [**使用者**](c-user.md)<br/> |
 
 
 

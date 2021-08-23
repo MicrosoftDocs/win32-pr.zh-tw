@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 00f05d4f3e2fcb369c3ecda83cc4fd9659ee69ab
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: bc16b806782055328fe576851e0b227d2178289c1d3cece35f7ce6f1f2e66d00
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936464"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119578228"
 ---
 # <a name="setpowerstate-method-of-the-cim_usbhub-class"></a>CIM USBHub 類別的 SetPowerState 方法 \_
 
@@ -46,7 +46,7 @@ uint32 SetPowerState(
 
 <dl> <dt>
 
-*>powerstate* \[在\]
+*>Powerstate* \[在\]
 </dt> <dd>
 
 指定此邏輯裝置所需電源狀態的 [**ValueMap**](/windows/desktop/WmiSdk/standard-qualifiers) 值。

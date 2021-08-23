@@ -3,18 +3,18 @@ title: 編輯中繼資料屬性
 description: 編輯中繼資料屬性
 ms.assetid: 96c979e2-c616-45e3-9c60-a24f03e29dc4
 keywords:
-- Windows Media Format SDK，編輯中繼資料屬性
+- Windows媒體格式 SDK，編輯中繼資料屬性
 - Advanced Systems Format (ASF) 、編輯中繼資料屬性
 - ASF (Advanced Systems Format) 、編輯中繼資料屬性
 - 中繼資料，編輯屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a52990e5366da178e9ed5021af93a9f6403b80c4
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: b973b787b37bbf9333a0adb218ab5db0e6f677521f1bfc9a0cdc1d5c37200e83
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104374543"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119586058"
 ---
 # <a name="editing-metadata-attributes"></a>編輯中繼資料屬性
 
@@ -29,9 +29,9 @@ ms.locfileid: "104374543"
 [**使用中繼資料**](working-with-metadata.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

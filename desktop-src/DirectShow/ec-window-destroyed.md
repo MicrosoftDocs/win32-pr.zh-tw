@@ -4,12 +4,12 @@ ms.assetid: facf35c2-d6a2-4373-bce5-171fd9325116
 title: 'EC_WINDOW_DESTROYED (Dshow) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fdd3e641c7fb911a8da10a4c89682fa266e862de
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0d7b26224fee4e18d92d16d8f3bfe277c70cf2b260a19c9c7d6438477266c3e5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106992557"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119686028"
 ---
 # <a name="ec_window_destroyed"></a>EC \_ 視窗已 \_ 損毀
 

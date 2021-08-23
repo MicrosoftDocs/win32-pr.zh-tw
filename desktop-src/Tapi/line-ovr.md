@@ -1,17 +1,17 @@
 ---
 description: 這行概念在經過一段時間後就已演變出來，並已部分由位址和終端概念取代。 TAPI 3 不直接使用 line 的概念，但 TAPI 2 仍繼續納入此範例。
 ms.assetid: 3e457c7d-da2e-4667-aade-053610abbb8a
-title: 線條
+title: 折線圖
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8275555e0cb34f5831ce671e22a89a1499fb1796
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5c299924a69d3e6e4889d14a72a571ca11ed2dc9e97514702f8ba4836f4c5b99
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104567809"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119660200"
 ---
-# <a name="line"></a>線條
+# <a name="line"></a>折線圖
 
 這行概念在經過一段時間後就已演變出來，並已部分由位址和終端概念取代。 TAPI 3 不直接使用 line 的概念，但 TAPI 2 仍繼續納入此範例。
 

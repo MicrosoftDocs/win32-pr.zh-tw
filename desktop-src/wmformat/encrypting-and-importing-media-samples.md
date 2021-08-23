@@ -3,9 +3,9 @@ title: 加密和匯入媒體範例
 description: 加密和匯入媒體範例
 ms.assetid: f9784c9a-c672-432d-a3ad-eb2ed73ac523
 keywords:
-- Windows Media Format SDK，DRM 匯入
-- Windows Media Format SDK，匯入
-- Windows Media Format SDK，加密媒體範例
+- Windows媒體格式 SDK，DRM 匯入
+- Windows媒體格式 SDK，匯入
+- Windows媒體格式 SDK，加密媒體範例
 - 數位版權管理 (DRM) ，匯入
 - DRM (數位版權管理) ，匯入
 - 數位版權管理 (DRM) ，加密媒體範例
@@ -16,16 +16,16 @@ keywords:
 - 用戶端擴充 Api，加密媒體範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 473db9580990b62818842aaa5eeea3e82f38c5ad
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 5ed604fc114feed6bd308b9a89c6bde6d6c96abeb9e88a7b9ace19d553de1596
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104374427"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119658838"
 ---
 # <a name="encrypting-and-importing-media-samples"></a>加密和匯入媒體範例
 
-針對使用 Windows Media DRM 進行加密的每個媒體範例，您必須產生嚴格大於前一個的 salt 值， (單純增加) 。 使用新的 salt 值建立暫時性加密金鑰，方法是將 SHA-1 加密演算法套用至與 salt 值串連的初始化向量。
+針對使用 Windows 媒體 DRM 進行加密的每個媒體範例，您必須產生嚴格大於上一個的 salt 值 (單純增加) 。 使用新的 salt 值建立暫時性加密金鑰，方法是將 SHA-1 加密演算法套用至與 salt 值串連的初始化向量。
 
 接下來，使用所產生的暫時性金鑰，根據 RC4 演算法來加密範例。 將範例傳遞給 SDK 之前，您的應用程式必須藉由設定擴充屬性來建立 salt 值與範例之間的關聯。
 
@@ -46,9 +46,9 @@ ms.locfileid: "104374427"
 [**媒體範例加密範例**](media-sample-encryption-example.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

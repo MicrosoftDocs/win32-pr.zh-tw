@@ -6,12 +6,12 @@ keywords:
 - MCI_SET 命令訊息
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9bffdc1606624f63fa05a9cc03c68fe64781620f
-ms.sourcegitcommit: 8276af9231bdbf5a7334299f0d13fc8ff069a065
+ms.openlocfilehash: 69f7f31544b7b9ceb00109551718b9984dd2aa506557848e0d63e77724c4be32
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "106982121"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119526418"
 ---
 # <a name="changing-sequencer-synchronization"></a>變更 Sequencer 同步處理
 

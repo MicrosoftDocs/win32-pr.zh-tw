@@ -4,18 +4,18 @@ ms.assetid: e0c03f6f-4539-4a6b-b58d-161bd985ee0f
 title: System. Rank
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d23d1c78e5c3807c529fd68b04cc71b6f03300c0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 94b4607cf37136c8d1bb9d6d739afb2e5733cfaefe4b7b207637f930210cc30b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106998121"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119595028"
 ---
 # <a name="systemsearchrank"></a>System. Rank
 
 資料列的關聯次序，範圍從0-1000。 較大的數位表示較佳的相符專案。 僅限查詢時間;未定義于搜尋架構中。 這個屬性是可抓取但無法搜尋的。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

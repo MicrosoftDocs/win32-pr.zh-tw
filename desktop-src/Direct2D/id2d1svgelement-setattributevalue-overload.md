@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: c49f224d364523653e13fb7b6cc141e8e8c6eca7
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 95ac3021abdf641b268e2278e92dfd86227244cde1d1d51f992953e68584fa69
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107000862"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119527138"
 ---
 # <a name="id2d1svgelementsetattributevalue-methods"></a>ID2D1SvgElement：： SetAttributeValue 方法
 

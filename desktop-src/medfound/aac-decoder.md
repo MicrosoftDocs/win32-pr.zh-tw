@@ -4,12 +4,12 @@ ms.assetid: 036fb0ee-8165-41a3-b41a-2e9bf035a6a6
 title: AAC 解碼器
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7554d6bc4a13fe1e4af4c51e75f1fe8a0bd38286
-ms.sourcegitcommit: 3a0a8a8fdce560a81a27789a1c04172ed96147b1
+ms.openlocfilehash: 0bdde0611a3c567f446a2d42560e083cd2f5ade4f166d98a54096241ee990960
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "112436582"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119606878"
 ---
 # <a name="aac-decoder"></a>AAC 解碼器
 
@@ -21,7 +21,7 @@ Microsoft 媒體基礎的 AAC 解碼器是 [媒體基礎轉換](media-foundation
 
 AAC 解碼器支援音訊資料傳輸串流中沒有標頭和 AAC 的原始 AAC 串流 (ADTS) 。
 
-從 Windows 8 開始，AAC 解碼器也支援使用多工層來解碼 MPEG-2 音訊廣播串流， (LATM) 和同步處理層 (LOA) 。 它也可以將 LATM/LOA 資料流程轉換為 ADTS。
+從 Windows 8 開始，AAC 解碼器也支援使用多工層來解碼 mpeg-2 音訊廣播串流， (LATM) 和同步處理層 (loa) 。 它也可以將 LATM/LOA 資料流程轉換為 ADTS。
 
 ## <a name="class-identifier"></a>類別識別碼
 
@@ -262,7 +262,7 @@ AAC 解碼器會 [**執行 IMFTransform：： GetAttributes**](/windows/desktop/
 [!Note]<br />
 AAC 解碼器錯誤地將此屬性的值報告為 <strong>TRUE</strong> 。
 </blockquote>
-<br/> <br/> 在 Windows 7 中，解碼器錯誤地將這個屬性的值報告為 <strong>TRUE</strong> 。 在 Windows 8 中，此解碼器會報告 <strong>FALSE</strong>，也就是正確的值<br/></td>
+<br/> <br/> 在 Windows 7 中，解碼器錯誤地將這個屬性的值報告為<strong>TRUE</strong> 。 在 Windows 8 中，此解碼器會報告<strong>FALSE</strong>，也就是正確的值<br/></td>
 </tr>
 </tbody>
 </table>
@@ -325,7 +325,7 @@ AAC 解碼器錯誤地將此屬性的值報告為 <strong>TRUE</strong> 。
 
  
 
-如果已安裝 Windows Vista 的平臺更新補充，AAC 音訊解碼器可在 Windows Vista 上取得，但只能在 Windows Vista 上使用 [來源讀取器](source-reader.md)來存取。
+如果已安裝 Windows vista 的平臺更新補充，Windows Vista 可以使用 AAC 音訊解碼器，但只能使用[來源讀取器](source-reader.md)在 Windows Vista 上進行存取。
 
 ## <a name="requirements"></a>規格需求
 
@@ -333,9 +333,9 @@ AAC 解碼器錯誤地將此屬性的值報告為 <strong>TRUE</strong> 。
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                                                                                                                                  |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/>                                                                                                                                     |
-| DLL<br/>                      | <dl> <dt>Windows 7 上的Msmpeg2adec.dll;</dt><dt>Windows 8 上的MSAudDecMFT.dll</dt> </dl> |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                                                                                                                                  |
+| 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/>                                                                                                                                     |
+| DLL<br/>                      | <dl> <dt>Msmpeg2adec.dll Windows 7;</dt><dt>Windows 8 上的MSAudDecMFT.dll</dt> </dl> |
 
 
 

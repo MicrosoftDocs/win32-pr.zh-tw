@@ -1,17 +1,17 @@
 ---
-title: 儲存模式
+title: 儲存體模式
 description: 非同步儲存體支援兩種儲存模式封鎖和非封鎖，用戶端 (瀏覽器或物件本身) 可以藉由 \_ 將 BINDF ASYNCSTORAGE 從標記的呼叫傳回至 IBindStatusCallback GetBindInfo 來指定。
 ms.assetid: df8f9e2c-40d2-4997-b5f9-bdbc524437cf
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 827e893f5077a64485251111837e6b56657756f0
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: db1a0a4c08daa1663f7513226dc25f4d5c8fd26341a6c8ee7d90a2ec0d1099db
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104376149"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119661828"
 ---
-# <a name="storage-modes"></a>儲存模式
+# <a name="storage-modes"></a>儲存體模式
 
 非同步存放裝置支援兩種儲存模式：封鎖和非封鎖，用戶端 (瀏覽器或物件本身) 可以藉由將 BINDF \_ ASYNCSTORAGE 從標記的呼叫傳回至 [**IBindStatusCallback：： GetBindInfo**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775058(v=vs.85))來指定。 如果用戶端指定 BINDF \_ ASYNCSTORAGE，則會收到非封鎖的非同步存放裝置指標。 否則，它會收到封鎖非同步儲存的指標。 即使用戶端未向系結內容) 註冊 [**IBindStatusCallback**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775060(v=vs.85)) ，也不會要求非同步系結作業 (，但該標記仍會傳回封鎖的非同步存放裝置，以啟用繼承應用程式的漸進式載入。
 
@@ -21,6 +21,6 @@ ms.locfileid: "104376149"
 
 封鎖模式是必要的，因為不知道非同步存放裝置的用戶端將無法辨識 E \_ 暫止，並會假設發生無法復原的錯誤。 封鎖非同步存放裝置可讓現有的用戶端進行漸進式轉譯。
 
- 
+ 
 
- 
+ 

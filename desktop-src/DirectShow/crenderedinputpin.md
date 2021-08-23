@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 3fc00b4aa0ce1fc6c8a93fb2fbda2118ad6bb40e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 139b0ebd887dc81efd19953d48f3caa8fd6377acde8723de23178ee7a0278c8b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106998844"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119585291"
 ---
 # <a name="crenderedinputpin-class"></a>CRenderedInputPin 類別
 
@@ -41,15 +41,15 @@ ms.locfileid: "106998844"
 
 
 
-| 受保護的成員變數                                            | Description                                                                                                  |
+| 受保護的成員變數                                            | 描述                                                                                                  |
 |-----------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
 | [**m \_ bAtEndOfStream**](crenderedinputpin-m-batendofstream.md)       | 指出是否已到達資料流程的結尾。                                                         |
-| [**m \_ bCompleteNotified**](crenderedinputpin-m-bcompletenotified.md) | 指出釘選是否已將 [**EC \_ 完成**](ec-complete.md) 事件傳送至篩選圖形管理員。 |
-| 公用方法                                                        | Description                                                                                                  |
+| [**m \_ bCompleteNotified**](crenderedinputpin-m-bcompletenotified.md) | 指出 pin 是否已將 [**EC \_ 完成**](ec-complete.md)事件傳送至篩選 Graph 管理員。 |
+| 公用方法                                                        | 描述                                                                                                  |
 | [**使用中**](crenderedinputpin-active.md)                            | 通知釘選篩選現在已啟用。                                                              |
 | [**CRenderedInputPin**](crenderedinputpin-crenderedinputpin.md)      | 函式方法。                                                                                          |
 | [**執行**](crenderedinputpin-run.md)                                  | 通知釘選篩選現在正在執行。                                                             |
-| IPin 方法                                                          | Description                                                                                                  |
+| IPin 方法                                                          | 描述                                                                                                  |
 | [**EndFlush**](crenderedinputpin-endflush.md)                        | 結束清除操作。                                                                                      |
 | [**EndOfStream**](crenderedinputpin-endofstream.md)                  | 通知 pin，在篩選器收到新的執行命令之前，不需要額外的資料。            |
 

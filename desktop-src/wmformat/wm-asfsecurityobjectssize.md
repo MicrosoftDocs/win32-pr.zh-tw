@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: de28f2169e5ac854163854ac95959d941100aaae
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 309261b7c8ad0c91a50fa1e0f292c6785d18cdd222c5e463eb62ae3728b39b93
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104023020"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119584588"
 ---
 # <a name="wmasfsecurityobjectssize"></a>WM/ASFSecurityObjectsSize
 
@@ -44,9 +44,9 @@ g \_ wszWMASFSecurityObjectsSize
 [**屬性清單**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

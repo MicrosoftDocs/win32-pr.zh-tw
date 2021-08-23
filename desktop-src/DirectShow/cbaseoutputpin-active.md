@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: f282f45bb895a941c44cb70cf5d9d3d373bf8649
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 94e71b3a85fdddd3ea4554575b07871ecdc09070f00c988f24f31378e9effb6c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108096206"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119640028"
 ---
 # <a name="cbaseoutputpinactive-method"></a>CBaseOutputPin 方法
 
@@ -46,7 +46,7 @@ HRESULT Active();
 
 
 
-| 傳回碼                                                                                          | Description                           |
+| 傳回碼                                                                                          | 描述                           |
 |------------------------------------------------------------------------------------------------------|---------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>                 | 成功。<br/>                   |
 | <dl> <dt>**VFW \_ E \_ NO 配置器 \_**</dt> </dl> | 沒有配置器可供使用。<br/> |

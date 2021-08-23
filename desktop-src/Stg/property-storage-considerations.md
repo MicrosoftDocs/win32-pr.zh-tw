@@ -4,12 +4,12 @@ description: IPropertyStorage ReadMultiple 會讀取 rgpspec 陣列中所指定�
 ms.assetid: 7540966f-a3b2-46c9-9e04-b15133a517eb
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2aad6aabf8b22a7c01f91a090136e6cc8156c791
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 128c5da70ae08c62660e0177187036fddee6ff27ed1d9971b6f95dea7052ecdd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106967899"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119662158"
 ---
 # <a name="property-storage-considerations"></a>屬性儲存體考慮
 
@@ -37,7 +37,7 @@ ms.locfileid: "106967899"
 
 ## <a name="storage-and-stream-properties"></a>儲存體和資料流程屬性
 
-若要將資料流程或儲存物件寫入屬性集，屬性集必須建立為簡單。 如需簡單和簡單屬性集的詳細資訊，請參閱標題為「 [儲存」和「資料流程物件」的屬性集](storage-vs--stream-for-a-property-set.md)區段。 下列屬性類型（如 *rgvar* 陣列元素的 *vt* 欄位中所指定）為數據流或儲存類型： vt \_ 資料流程、vt \_ 儲存、vt \_ 資料流程 \_ 物件、vt 儲存的 \_ \_ 物件。
+若要將資料流程或儲存物件寫入屬性集，屬性集必須建立為簡單。 如需簡單和簡單屬性集的詳細資訊，請參閱標題為儲存體的區段[和屬性集的資料流程物件](storage-vs--stream-for-a-property-set.md)。 下列屬性類型（如 *rgvar* 陣列元素的 *vt* 欄位中所指定）為數據流或儲存類型： vt \_ 資料流程、vt \_ 儲存、vt \_ 資料流程 \_ 物件、vt 儲存的 \_ \_ 物件。
 
 若要以非簡單屬性集中的屬性來寫入資料流程或儲存物件，請呼叫 [**IPropertyStorage：： WriteMultiple**](/windows/desktop/api/Propidl/nf-propidl-ipropertystorage-writemultiple)。 雖然您也會呼叫這個方法來更新簡單的屬性，但它並不是在屬性集中更新資料流程和儲存物件的有效方式。 這是因為透過呼叫 **WriteMultiple** 來更新其中一個屬性會在屬性儲存物件中建立傳入資料的複本，而 [**IStorage**](/windows/desktop/api/Objidl/nn-objidl-istorage) 或 [**IStream**](/windows/desktop/api/Objidl/nn-objidl-istream) 指標不會在此呼叫的持續時間內保留。 通常會先呼叫 [**IPropertyStorage：： ReadMultiple**](/windows/desktop/api/Propidl/nf-propidl-ipropertystorage-readmultiple) 來取得資料流程或儲存體的介面指標，然後透過 **IStream** 或 **IStorage** 方法寫入資料，以更有效率的方式直接更新資料流程或儲存物件。
 
@@ -76,6 +76,6 @@ ms.locfileid: "106967899"
 [IPropertyStorage-獨立執行](ipropertystorage-stand-alone-implementation.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

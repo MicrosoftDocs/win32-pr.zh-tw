@@ -4,12 +4,12 @@ ms.assetid: 7cf322e9-c49a-40a8-be4e-ab03ecba1c1f
 title: 變更元件程式碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7531b4a38312d4abed038b612c4292c44af8e967
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 96217dbcdbdc63d444f95d73dec657cf1a5ddef4ed80128c85b7752e1ec0f0d9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106998490"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119520198"
 ---
 # <a name="changing-the-component-code"></a>變更元件程式碼
 

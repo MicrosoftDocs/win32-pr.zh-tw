@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 56c3eb396f0475b4f6f0924cce823c290005818a
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 0376fb8dd180f475f0b42441ac054054ff7ed463eca092bbeab6c6b42a147c26
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104106955"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119702538"
 ---
 # <a name="objectreplica-link-syntax"></a>物件 (複本-連結) 語法
 
