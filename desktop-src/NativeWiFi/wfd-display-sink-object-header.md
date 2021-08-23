@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - wfdsink.h
-ms.openlocfilehash: cdefd6b0b91fefb0f42a6e37e7584f7cd966884b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e4c9e4d83fbac1cccb2dbc0643acc707176be433dfca7854395a0f97c9c36435
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103849136"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119800468"
 ---
 # <a name="wfd_display_sink_object_header-structure"></a>WFD \_ 顯示 \_ 接收 \_ 物件 \_ 標頭結構
 
@@ -41,7 +41,7 @@ typedef struct _WFD_DISPLAY_SINK_OBJECT_HEADER {
 
 <dl> <dt>
 
-**型別**
+**類型**
 </dt> <dd>
 
 顯示接收物件的型別。 您可以使用識別碼 **WFD \_ 顯示 \_ 接收 \_ 物件 \_ 類型 \_ 預設** 值，其定義為值1。
@@ -68,8 +68,8 @@ typedef struct _WFD_DISPLAY_SINK_OBJECT_HEADER {
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8.1 桌面應用程式\]<br/>                                         |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 R2 \[ desktop 應用程式\]<br/>                              |
+| 最低支援的用戶端<br/> | Windows 8.1 \[僅限桌面應用程式\]<br/>                                         |
+| 最低支援的伺服器<br/> | Windows Server 2012\[僅限 R2 desktop 應用程式\]<br/>                              |
 | 標頭<br/>                   | <dl> <dt>Wfdsink。h</dt> </dl> |
 
 

@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 54b599ed3124c0d06468bd15589d6aa8a93fb7c1
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: fb9ee76a0b8336ccdca90a04ee3c2a223b7269a30a00276418d6c46a8bb3abc2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191039"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119800898"
 ---
 # <a name="setshareinfo-method-of-the-win32_share-class"></a>Win32 共用類別的 SetShareInfo 方法 \_
 

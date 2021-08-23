@@ -4,12 +4,12 @@ ms.assetid: 910bf929-aa89-434d-83c3-07c80c627405
 title: 網路監視器 Blob
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dce6dd6ca8643eabe8ab49387c0ef39eb49b6f2b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9d15ce2a8f85860720c6f38b0d6c019a33e57df0a1b589ba23455db0319d0436
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106985163"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119799548"
 ---
 # <a name="network-monitor-blobs"></a>網路監視器 Blob
 

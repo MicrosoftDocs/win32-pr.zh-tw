@@ -4,12 +4,12 @@ ms.assetid: d0a58e1d-c867-4277-916e-f408627b5269
 title: 執行 FormatProperties
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 660b581bf29fd8e5d40af65f5ff90e1e9223ad2e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 50e7b927f15ccb2c216e345b37bc87593e33339671f906e28d33759ca9db0abc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112797"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119778970"
 ---
 # <a name="implementing-formatproperties"></a>執行 FormatProperties
 

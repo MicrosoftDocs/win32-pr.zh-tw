@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ff54bea162f853338fbd396a823e50164987aa8c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7541a6bd759424658726cf7d01b28b30121061d156fcb00d1f1e57443a4cd486
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106972485"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119741978"
 ---
 # <a name="glgetintegerv-function"></a>glGetIntegerv 函式
 
@@ -298,7 +298,7 @@ void WINAPI glGetIntegerv(
 
 
 
-| Name                                                                                                  | 意義                                                                                                                                    |
+| 名稱                                                                                                  | 意義                                                                                                                                    |
 |-------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**GL \_ 無效 \_ 列舉**</dt> </dl>      | *pname* 不是可接受的值。<br/>                                                                                              |
 | <dl> <dt>**GL \_ 不正確 \_ 操作**</dt> </dl> | 呼叫 [**glBegin**](glbegin.md)和 [**glEnd**](glend.md)的對應呼叫之間，呼叫 **glGetIntegerv** 。<br/> |

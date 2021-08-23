@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 47a4f6941f8bc98d7f8e424a984922ad1f6631c8
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2ff70f3e387a21097500856d7a3f63ff00b7a0c3cf68ad2c7d3e5cd97b079dd0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103685636"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119681214"
 ---
 # <a name="disableserialports-method-of-the-win32_tsgatewayconnectionauthorizationpolicy-class"></a>Win32 TSGatewayConnectionAuthorizationPolicy 類別的 DisableSerialPorts 方法 \_
 

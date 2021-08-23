@@ -4,12 +4,12 @@ ms.assetid: 7184451a-47ba-4b38-b72c-1b0c650f881e
 title: Dnssd 網域
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9b2dd13531736e9c1442c3f6896a84060b8953d5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 116cef385c85dbe4e0ea22bdae51422bb7f71648a1a463dad9cfd3b4c7ab4d0b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106979315"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119775578"
 ---
 # <a name="systemdevicesdnssddomain"></a>Dnssd 網域
 

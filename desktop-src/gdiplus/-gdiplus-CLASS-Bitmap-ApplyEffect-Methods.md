@@ -4,12 +4,12 @@ ms.assetid: 6b3d0a2f-acff-47a7-bc9f-6e9d659f683c
 title: ApplyEffect 方法
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 4276cbd1ac3fd684c9df25bcd9456f41254b79f1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: a2bbb51a337113f1933b8043bd387ac41beded2628afa89b56e281c433df2ad8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193784"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119717648"
 ---
 # <a name="bitmapapplyeffect-methods"></a>ApplyEffect 方法
 

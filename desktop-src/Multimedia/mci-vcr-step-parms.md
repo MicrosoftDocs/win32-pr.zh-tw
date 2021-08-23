@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a616b31500a2c814edb3dd443586131ed0ffae7d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7f25e79903a694b6537e88d1c58994d1f39ccf958ea95f40f571a267239a055e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104024707"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119783825"
 ---
 # <a name="mci_vcr_step_parms-structure"></a>MCI \_ VCR \_ 步驟 \_ PARMS 結構
 
@@ -75,7 +75,7 @@ typedef struct tagMCI_VCR_STEP_PARMS {
 
 <dl> <dt>
 
-[**Mci**](mci.md)
+[**MCI**](mci.md)
 </dt> <dt>
 
 [**MCI 結構**](mci-structures.md)

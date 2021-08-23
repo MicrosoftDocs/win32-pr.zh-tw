@@ -4,12 +4,12 @@ ms.assetid: 5c274035-79aa-4967-9c1a-79f888fed71e
 title: 挪威通道指派
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1911f4212b49784354f36377832af58bf4c46121
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: bc95f6531e02bf1c4eec3e736c78d81f0aafabdada32256ab3e22c50072a9619
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104510176"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119684578"
 ---
 # <a name="norway-channel-assignments"></a>挪威通道指派
 
@@ -17,7 +17,7 @@ ms.locfileid: "104510176"
 
 如需下列資料表的說明，請參閱 [資料表和指派](tables-and-assignments.md)。
 
-在 Windows 7 中引進了下列通道指派。 先前使用的是 [Unicable Frequency 資料表](unicable-frequency-table.md) 。
+Windows 7 中引進了下列通道指派。 先前使用的是 [Unicable Frequency 資料表](unicable-frequency-table.md) 。
 
 ## <a name="cable-assignments"></a>纜線指派
 

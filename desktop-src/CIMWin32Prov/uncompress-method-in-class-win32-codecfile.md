@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 7d1ffcf99877781c7070b42dac5ffe9ef83af2d5
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: b87a1cf186eeee3af227e84aad3553386d5a1d8bd33f73f664aeffab4bc1af59
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847147"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119800658"
 ---
 # <a name="uncompress-method-of-the-win32_codecfile-class"></a>Win32 CodecFile 類別的解壓縮方法 \_
 
@@ -91,7 +91,7 @@ uint32 Uncompress();
 **12**
 </dt> <dd>
 
-平臺不是 Windows。
+平臺未 Windows。
 
 </dd> <dt>
 

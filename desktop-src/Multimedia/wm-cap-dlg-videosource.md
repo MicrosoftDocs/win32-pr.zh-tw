@@ -3,7 +3,7 @@ title: 'WM_CAP_DLG_VIDEOSOURCE 訊息 (Vfw .h) '
 description: '[WM \_ CAP \_ DLG \_ VIDEOSOURCE] 訊息會顯示一個對話方塊，讓使用者可以在此對話方塊中控制影片來源。'
 ms.assetid: 8dc2f271-1f48-4e63-badf-9f3322063018
 keywords:
-- WM_CAP_DLG_VIDEOSOURCE message Windows 多媒體
+- WM_CAP_DLG_VIDEOSOURCE 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 38e8ae7e3d619964a547fbe0db4517fd1e7d277f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7a1f05d7e3dc421759229adffa4ecc4b78affc26f1b4244887b017614c2ab4d2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464977"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119803878"
 ---
 # <a name="wm_cap_dlg_videosource-message"></a>WM \_ CAP \_ DLG \_ VIDEOSOURCE 訊息
 

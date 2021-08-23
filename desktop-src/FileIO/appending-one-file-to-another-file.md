@@ -4,12 +4,12 @@ ms.assetid: e4d1f842-16a1-47e4-84b4-9bb44aaa1dc5
 title: 將一個檔案附加至另一個檔案
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 546d24fe88a2bbf22c190a0caca3b3f98e753720
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 585521c1d0bb85c41806ba83c2c0940dc3523035731279d4da3f06af45334984
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106974476"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119766222"
 ---
 # <a name="appending-one-file-to-another-file"></a>將一個檔案附加至另一個檔案
 

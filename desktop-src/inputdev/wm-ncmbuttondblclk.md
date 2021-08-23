@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 612a0a7ca0a5731691ec244df505e3d058216e2f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5cf5c963dac002c74e49d2d112979b23ce10e1205cafa3653b82fb1a0703c863
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103685799"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119778458"
 ---
 # <a name="wm_ncmbuttondblclk-message"></a>WM \_ NCMBUTTONDBLCLK 訊息
 

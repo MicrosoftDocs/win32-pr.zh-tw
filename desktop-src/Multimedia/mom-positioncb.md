@@ -3,7 +3,7 @@ title: 'MOM_POSITIONCB 訊息 (Mmsystem .h) '
 description: 當您 \_ \_ \_ 在 MIDI 輸出資料流程中到達 MEVT F 回呼事件時，會傳送 MOM 位置訊息。
 ms.assetid: 0464d74d-7d1f-4aab-a9e7-03397872f3c0
 keywords:
-- MOM_POSITIONCB message Windows 多媒體
+- MOM_POSITIONCB 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e5c9528e8f91778c53ed4761c98bb67d405ec14
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d403d9d913628f6b00a7b36dba96d0f4d491f486ef9c3edf7a5c3d5a30c345f1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103686371"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119806998"
 ---
 # <a name="mom_positioncb-message"></a>MOM \_ POSITIONCB 訊息
 
@@ -61,7 +61,7 @@ ms.locfileid: "103686371"
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                                |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                      |
-| 標頭<br/>                   | <dl> <dt>Mmsystem (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Mmsystem (包含 Windows .h) </dt> </dl> |
 
 
 

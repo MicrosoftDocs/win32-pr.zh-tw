@@ -18,12 +18,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: f878cb0e616cb710a33d350df866160fc0eebb83
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c784fc9fac067c0cde07ad3e8911f9e09cd81b5cd3d7c76c16b1dd2407536838
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106997147"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119694957"
 ---
 # <a name="cim_metricservicecapabilities-class"></a>CIM \_ MetricServiceCapabilities 類別
 
@@ -67,7 +67,7 @@ class CIM_MetricServiceCapabilities : CIM_EnabledLogicalElementCapabilities
 限定詞： [**ArrayType**](/windows/desktop/WmiSdk/standard-qualifiers) ( "Indexed" ) ， [**ModelCorrespondence**](/windows/desktop/WmiSdk/standard-qualifiers) ( "**CIM \_ MetricServiceCapabilities**。**ManagedElementControlTypes**") 
 </dt> </dl>
 
-陣列，其中包含由計量服務控制之 [**CIM \_ ManagedElement**](cim-managedelement.md) 實例的識別碼。 識別碼必須格式化為 Web-Based Enterprise Management (WBEM) Uri。 若要使用此屬性，計量服務必須支援啟用或停用至少一個針對 **CIM \_ ManagedElement** 實例定義的計量。
+陣列，其中包含由計量服務控制之 [**CIM \_ ManagedElement**](cim-managedelement.md) 實例的識別碼。 識別碼必須格式化為 Web-Based Enterprise 管理 (WBEM) uri。 若要使用此屬性，計量服務必須支援啟用或停用至少一個針對 **CIM \_ ManagedElement** 實例定義的計量。
 
 </dd> <dt>
 
@@ -83,7 +83,7 @@ class CIM_MetricServiceCapabilities : CIM_EnabledLogicalElementCapabilities
 限定詞： [**ArrayType**](/windows/desktop/WmiSdk/standard-qualifiers) ( "Indexed" ) ， [**ModelCorrespondence**](/windows/desktop/WmiSdk/standard-qualifiers) ( "**CIM \_ MetricServiceCapabilities**。**MetricControlTypes**") 
 </dt> </dl>
 
-陣列，其中包含定義度量服務所管理之計量的 [**CIM \_ BaseMetricDefinition**](cim-basemetricdefinition.md) 識別碼。 識別碼必須格式化為 Web-Based Enterprise Management (WBEM) Uri。
+陣列，其中包含定義度量服務所管理之計量的 [**CIM \_ BaseMetricDefinition**](cim-basemetricdefinition.md) 識別碼。 識別碼必須格式化為 Web-Based Enterprise 管理 (WBEM) uri。
 
 若要使用這個屬性， [**cim \_ BaseMetricDefinition**](cim-basemetricdefinition.md)實例必須透過 [**Cim \_ ServiceAffectsElement**](cim-serviceaffectselement.md)類別與 [**cim \_ MetricService**](cim-metricservice.md)實例相關聯。 此外，計量服務必須支援啟用或停用 **CIM \_ BaseMetricDefinition** 實例所定義的至少一個度量。
 

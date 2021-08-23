@@ -4,12 +4,12 @@ description: 元件的向量整數相等比較。
 ms.assetid: AD010554-80DC-4D2D-B04C-2638276DDC34
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 579a47ffe38b8322b748f6ba64ce9bbbc26a5bd9
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 942e45bedd6dd7e920d4c625a4c001d48f6650a47d74e1643eb162c87980de2d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104990810"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119743658"
 ---
 # <a name="ieq-sm4---asm"></a>ieq (sm4-asm) 
 
@@ -65,9 +65,9 @@ ms.locfileid: "104990810"
 | [著色器模型5](d3d11-graphics-reference-sm5.md)        | 是       |
 | [著色器模型4。1](dx-graphics-hlsl-sm4.md)              | 是       |
 | [著色器模型4](dx-graphics-hlsl-sm4.md)                | 是       |
-| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 不可以        |
-| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 不可以        |
-| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 不可以        |
+| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 否        |
+| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 否        |
+| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 否        |
 
 
 

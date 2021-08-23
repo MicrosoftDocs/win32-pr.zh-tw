@@ -17,12 +17,12 @@ keywords:
 - 完整目錄
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: abaa6d1bc0d3dbc4fefaffe1498be03259716a5e
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 306412d98f315a6a63aa40974b03a51a388b6db5c9e09c8d5b8907ef2cc15704
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104314214"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119763948"
 ---
 # <a name="compiling-a-catalog-update-from-full-catalogs"></a>從完整目錄編譯目錄更新
 
@@ -60,17 +60,17 @@ catcomp diff C:\Catalog210\ C:\Catalog211\ debug
 | 檔案名稱             | 描述                                                                                                                                                                                      |
 |-----------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 目錄。差異          | 未壓縮的已編譯差異檔案。                                                                                                                                                           |
-| catalog. lz       | 目錄更新檔案的壓縮版本。 您的外掛程式可將此檔案的位置提供給 [IWMPContentPartner：： GetCatalogURL](/previous-versions/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-getcatalogurl)中的 Windows Media Player。 |
+| catalog. lz       | 目錄更新檔案的壓縮版本。 您的外掛程式可將此檔案的位置提供給[IWMPContentPartner：： GetCatalogURL](/previous-versions/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-getcatalogurl)中的 Windows Media Player。 |
 | catalog. wmdb delta    | 中繼輸出檔。 Windows Media Player 未使用                                                                                                                                       |
 | catalog. wmdb. 修改 | 中繼輸出檔。 Windows Media Player 未使用                                                                                                                                       |
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

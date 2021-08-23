@@ -4,12 +4,12 @@ ms.assetid: 00f9b00e-305d-4554-8b43-7061228c92c3
 title: 備份與還原加密的檔案
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4fbc5d1babbbbb92cef9e78f9a0dade702fd63d2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 34308dbfc0f67a1fcf9a70f1f7a5878434018494fa1450d308fa493af78226ca
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026383"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119766178"
 ---
 # <a name="backup-and-restore-of-encrypted-files"></a>備份與還原加密的檔案
 
@@ -17,7 +17,7 @@ ms.locfileid: "104026383"
 
 提供未經處理的加密功能來解決此問題。 備份應用程式是適用于這些功能的主要使用者。 原始加密函式與其他檔案系統函式不同之處在于，開啟、讀取和寫入函式允許存取原始加密的資料流程，也允許讀取/寫入 $EFS 資料流程。 因此，原始加密函式的呼叫端不需要存取解密檔案的密碼編譯金鑰。 下列原始加密 Api 可用於備份和還原應用程式： 
 
-| 原始加密 API                                     | Description                                                                                                                                                                                                                                                                   |
+| 原始加密 API                                     | 描述                                                                                                                                                                                                                                                                   |
 |--------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**OpenEncryptedFileRaw**](/windows/desktop/api/WinBase/nf-winbase-openencryptedfilerawa)   | 開啟加密的檔案，並存取加密格式的資料。 如果呼叫端無法存取檔案的金鑰，則呼叫端需要 [SeBackupPrivilege](/windows/desktop/SecAuthZ/authorization-constants) 來匯出加密的檔案或 SeRestorePrivilege，以匯入加密的檔案。 |
 | [**CloseEncryptedFileRaw**](/windows/desktop/api/WinBase/nf-winbase-closeencryptedfileraw) | 關閉以 OpenEncryptedFileRaw 開啟的加密[ 檔案](/windows/desktop/api/WinBase/nf-winbase-openencryptedfilerawa)                                                                                                                                                                                      |

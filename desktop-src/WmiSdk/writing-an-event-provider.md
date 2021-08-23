@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 撰寫事件提供者
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bb118d89f214e9fc651c1c9d93abfcfe43f49fc7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c04abf060ef5316790b04682430abd92d0a6bea31175f0e192fc7f73d047633d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106981514"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119757208"
 ---
 # <a name="writing-an-event-provider"></a>撰寫事件提供者
 

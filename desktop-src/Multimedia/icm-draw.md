@@ -1,9 +1,9 @@
 ---
 title: 'ICM_DRAW 訊息 (Vfw .h) '
-description: ICM \_ 描繪訊息會通知轉譯驅動程式將資料框架解壓縮，並將其繪製到螢幕。
+description: ICM \_ DRAW 訊息會通知轉譯驅動程式將資料框架解壓縮，並將其繪製到螢幕。
 ms.assetid: eceb42c6-d91a-45b7-98dc-e0944df3e558
 keywords:
-- ICM_DRAW message Windows 多媒體
+- ICM_DRAW 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d0840c6df2c69f4d3e45600cf8599c214b36200a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e44216e523da62e0dde22abed8d88b9b8aacd8f68119a88f3177f45ecd910029
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103685825"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119784988"
 ---
-# <a name="icm_draw-message"></a>ICM \_ 繪製訊息
+# <a name="icm_draw-message"></a>ICM \_繪製訊息
 
-**ICM \_ 描繪** 訊息會通知轉譯驅動程式將資料框架解壓縮，並將其繪製到螢幕。
+**ICM \_ DRAW** 訊息會通知轉譯驅動程式將資料框架解壓縮，並將其繪製到螢幕。
 
 
 ```C++
@@ -66,7 +66,7 @@ lParam = sizeof(ICDRAW);
 
 如果在 \_ **dwFlags** 中設定 ICDRAW 預先設置旗標，此影片畫面會是初步資訊，而且不應該在可能的情況下顯示。 例如，如果播放是從畫面格10開始，而框架0是最接近的先前主要畫面格，則畫面格0到9將會設定 ICDRAW 的預先 \_ 設定。
 
-如果您希望驅動程式將資料解壓縮到緩衝區中，請傳送 [**ICM \_ 解壓縮**](icm-decompress.md) 訊息。
+如果您希望驅動程式將資料解壓縮到緩衝區中，請傳送 [**ICM \_ 解壓縮**](icm-decompress.md)訊息。
 
 ## <a name="requirements"></a>規格需求
 

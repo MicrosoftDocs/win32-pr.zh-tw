@@ -14,12 +14,12 @@ api_type:
 api_location:
 - PortableDeviceGUIDs.lib
 - PortableDeviceGUIDs.dll
-ms.openlocfilehash: 8554fc30a1b66226f6e4f8de4e5d8ac0e8abfabf
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 26006d151cd3adfc9f1c3f892cca05724c4ba54dc273cbbf58bd96c5779ccefa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994248"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119807018"
 ---
 # <a name="iportabledevicevaluesgetboolvalue-method"></a>IPortableDeviceValues：： GetBoolValue 方法
 
@@ -61,7 +61,7 @@ HRESULT GetBoolValue(
 
 
 
-| 傳回碼                                                                                                            | Description                                                          |
+| 傳回碼                                                                                                            | 描述                                                          |
 |------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>                                   | 此方法已成功。<br/>                                     |
 | <dl> <dt>**將 \_ 電子 \_ TYPEMISMATCH**</dt> </dl>                   | 索引 *鍵* 所指定的屬性不是 **BOOL** 類型。<br/>   |

@@ -6,12 +6,12 @@ keywords:
 - 插入登錄機碼 COM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5da4892fb13de5954dabe7c55759900dba32f854
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 26c2d5d781545be05821b801b9e16048d2a097927890a63ead8f602c34d95613
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104024482"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119678588"
 ---
 # <a name="insertable-clsid-key"></a>插入 (CLSID 金鑰) 
 

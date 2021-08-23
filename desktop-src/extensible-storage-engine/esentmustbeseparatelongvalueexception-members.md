@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102328
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: c0a43d802d3b61221ecf8348068bc9d142df1847
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 70d817a07162b8da3e2fae653aa18046f3b807b4ab2883b45bf0d018018b346a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104555806"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119836383"
 ---
 # <a name="esentmustbeseparatelongvalueexception-members"></a>EsentMustBeSeparateLongValueException 成員
 

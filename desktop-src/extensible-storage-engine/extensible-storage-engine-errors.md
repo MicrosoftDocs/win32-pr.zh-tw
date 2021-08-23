@@ -1,27 +1,27 @@
 ---
-description: 深入瞭解：可擴充儲存引擎錯誤
-title: 可擴充儲存引擎錯誤
+description: 深入瞭解：可擴充的儲存體引擎錯誤
+title: 可擴充的儲存體引擎錯誤
 TOCTitle: Extensible Storage Engine Errors
 ms:assetid: 0c071ed6-0ea2-448b-9f9f-e606c5abf3db
 ms:mtpsurl: https://msdn.microsoft.com/library/Gg269184(v=EXCHG.10)
 ms:contentKeyID: 32765487
 ms.date: 04/11/2016
 ms.topic: article
-ms.openlocfilehash: 55c86d51f44414688897d6450adf214a0478f7d6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0c0ee0a4423d5b37913bd7922af07a7b2196a30176b2a1adca37240e03a28594
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103852851"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119721458"
 ---
-# <a name="extensible-storage-engine-errors"></a>可擴充儲存引擎錯誤
+# <a name="extensible-storage-engine-errors"></a>可擴充的儲存體引擎錯誤
 
 
-_**適用于：** Windows |Windows Server_
+_**適用于：** Windows |Windows伺服器_
 
-## <a name="extensible-storage-engine-errors"></a>可擴充儲存引擎錯誤
+## <a name="extensible-storage-engine-errors"></a>可擴充的儲存體引擎錯誤
 
-可延伸儲存引擎所傳回的所有可能錯誤 (ESE) API 都是由 [JET_ERR](./jet-err.md) 資料類型所定義。 如需為此 API 定義的錯誤旗標清單，請參閱可延伸 [儲存引擎錯誤碼](./extensible-storage-engine-error-codes.md)。
+可延伸儲存體引擎 (ESE) API 所傳回的所有可能錯誤都是由[JET_ERR](./jet-err.md)資料類型所定義。 如需為此 API 定義的錯誤旗標清單，請參閱可延伸的[儲存體引擎錯誤碼](./extensible-storage-engine-error-codes.md)。
 
 在整個 ESE API 檔中，只會記錄最重要的錯誤。 這些錯誤通常代表 API 使用錯誤或非常重要的錯誤狀況。 請注意，這些 ESE Api 中的任何一項也可能會傳回未針對每個 API 記載的其他錯誤。 在這些情況下，呼叫端應該直接處理錯誤，就像 API 所傳回的任何其他錯誤一樣。 特定的錯誤值接著可以用於診斷用途，例如追蹤。
 
@@ -70,6 +70,6 @@ _**適用于：** Windows |Windows Server_
 
 [錯誤處理參數](./error-handling-parameters.md)
 
-[可擴充儲存引擎錯誤碼](./extensible-storage-engine-error-codes.md)
+[可擴充的儲存體引擎錯誤碼](./extensible-storage-engine-error-codes.md)
 
 [JET_ERR](./jet-err.md)

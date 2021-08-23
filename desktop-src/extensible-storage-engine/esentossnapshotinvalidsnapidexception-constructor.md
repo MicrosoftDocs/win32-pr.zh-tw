@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 72198ac05459562da9fb96c27a7cc3408521980b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a4e487714d76895070c82ae575f6420510d4c4f9a35441ed890c8c9b15a4a43b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106988753"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119733538"
 ---
 # <a name="esentossnapshotinvalidsnapidexception-constructor"></a>EsentOSSnapshotInvalidSnapIdException 函式
 

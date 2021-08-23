@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7440d41c9e4dabf95d6d716b6c68bfe7b66f1e18
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 3474096701d2903fb2f1668faaf896a5f584cb58683aea1c4b77bdeb0d8b13dd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106973331"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119762998"
 ---
 # <a name="ms-kds-domainid-attribute"></a>Kds 根金鑰-DomainID 屬性
 
@@ -53,7 +53,7 @@ ms.locfileid: "106973331"
 | 連結識別碼                | \-                                                            |
 | MAPI-Id                | \-                                                            |
 | System-Only            | 否                                                         |
-| 是-單一值       | 對                                                          |
+| 是-單一值       | 是                                                          |
 | 已編制索引             | 否                                                         |
 | 在通用類別目錄中      | 否                                                         |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                  |

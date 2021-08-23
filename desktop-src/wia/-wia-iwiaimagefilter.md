@@ -1,5 +1,5 @@
 ---
-description: IWiaImageFilter 介面是由影像處理篩選器開發人員所執行，並由 Windows 映像取得 (WIA) 2.0 所呼叫的延伸模組介面。
+description: IWiaImageFilter 介面是由影像處理篩選器開發人員所執行，並由 Windows 影像取得 (WIA) 2.0 所呼叫的延伸模組介面。
 ms.assetid: 2abe913b-bb2b-486d-a3f4-d5932433fc82
 title: 'IWiaImageFilter 介面 (Wia .h) '
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Wia.h
-ms.openlocfilehash: 8d859b79d15db627bb09cb60f758791a8b5860f7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d7c85a25d7478e0ad51a1d427e74b69a743bc4203ed57b8929a3e4ec856d94b9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103849352"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119813978"
 ---
 # <a name="iwiaimagefilter-interface"></a>IWiaImageFilter 介面
 
-**IWiaImageFilter** 介面是由影像處理篩選器開發人員所執行，並由 Windows 映像取得 (WIA) 2.0 所呼叫的延伸模組介面。
+**IWiaImageFilter** 介面是由影像處理篩選器開發人員所執行，並由 Windows 影像取得 (WIA) 2.0 所呼叫的延伸模組介面。
 
 ## <a name="members"></a>成員
 
@@ -79,7 +79,7 @@ WIA 2.0 元件一律會將未篩選的資料寫入影像處理篩選器中。 �
 
 
 
-| IUnknown 方法                                        | Description                               |
+| IUnknown 方法                                        | 描述                               |
 |---------------------------------------------------------|-------------------------------------------|
 | [IUnknown：： QueryInterface](/windows/win32/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) | 傳回受支援介面的指標。 |
 | [IUnknown：： AddRef](/windows/win32/api/unknwn/nf-unknwn-iunknown-addref)                 | 遞增參考次數。               |
@@ -95,10 +95,10 @@ WIA 2.0 元件一律會將未篩選的資料寫入影像處理篩選器中。 �
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                     |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                               |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                     |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                               |
 | 標頭<br/>                   | <dl> <dt>Wia</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>Wia .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>Wia .idl</dt> </dl> |
 
 
 

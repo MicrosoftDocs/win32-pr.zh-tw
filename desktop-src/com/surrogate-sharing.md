@@ -4,12 +4,12 @@ description: 如果 DLL 伺服器具有相符的安全性識別，且共用相�
 ms.assetid: 88544be1-4716-47b6-9c08-2b5b2b178e1f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6f6a934f03d42113cf73df4f059ac108801d21ea
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 34e159fff59144773633cfbe35bb1486e9eeb1014d02e23e0c9b95bcd817bb53
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103672483"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119678408"
 ---
 # <a name="surrogate-sharing"></a>代理共用
 
@@ -52,9 +52,9 @@ comp1.dll 和 comp2.dll 的 DLL 元件的兩個 Clsid 已設定為共用 AppID�
 [註冊 DLL 伺服器以進行代理程式啟用](registering-the-dll-server-for-surrogate-activation.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

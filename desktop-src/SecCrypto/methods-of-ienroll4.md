@@ -4,12 +4,12 @@ ms.assetid: e4107c7b-3ec6-4a4b-bf18-13a082221f67
 title: IEnroll4 的方法
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7c61c6cd86553f91e59f46afaad43a8993ca5db9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 30a31918fb1e29bff9776d853febbde7a57046087dac02867a04d1f4e322dcf4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106986367"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119797258"
 ---
 # <a name="methods-of-ienroll4"></a>IEnroll4 的方法
 
@@ -36,7 +36,7 @@ ms.locfileid: "106986367"
 | [**createFilePFXWStr**](/windows/desktop/api/Xenroll/nf-xenroll-ienroll4-createfilepfxwstr)                                               | 以 PFX 格式將接受的憑證鏈和私密金鑰儲存在檔案中。                                                                                                                                                                                                                         |
 | [**createFilePKCS10WStr**](/windows/desktop/api/Xenroll/nf-xenroll-ienroll-createfilepkcs10wstr)                                         | 建立 base64 編碼的 PKCS \# 10 憑證要求，並將它儲存在檔案中。                                                                                                                                                                                                                        |
 | [**createFileRequestWStr**](/windows/desktop/api/Xenroll/nf-xenroll-ienroll4-createfilerequestwstr)                                       | 建立 PKCS \# 10 憑證要求、pkcs \# 7 要求或完整的 CMC 憑證要求，並將它儲存在檔案中。                                                                                                                                                                               |
-| [**createPFXWStr**](/windows/desktop/api/Xenroll/nf-xenroll-ienroll4-createpfxwstr)                                                       | 將接受的憑證鏈和私密金鑰儲存在個人資訊交換 (PFX) 格式字串中。 PFX 格式也稱為 PKCS \# 12。                                                                                                                                               |
+| [**createPFXWStr**](/windows/desktop/api/Xenroll/nf-xenroll-ienroll4-createpfxwstr)                                                       | 將接受的憑證鏈和私密金鑰儲存在個人資訊 Exchange (PFX) 格式字串中。 PFX 格式也稱為 PKCS \# 12。                                                                                                                                               |
 | [**createPKCS10WStr**](/windows/desktop/api/Xenroll/nf-xenroll-ienroll-createpkcs10wstr)                                                 | 建立 base64 編碼的 PKCS \# 10 憑證要求。                                                                                                                                                                                                                                               |
 | [**CreatePKCS7RequestFromRequest**](/windows/win32/api/xenroll/nf-xenroll-ienroll-createpkcs7requestfromrequest)                       | \#從現有的憑證要求建立 PKCS 7 要求。                                                                                                                                                                                                                                      |
 | [**createRequestWStr**](/windows/desktop/api/Xenroll/nf-xenroll-ienroll4-createrequestwstr)                                               | 建立 PKCS \# 10、pkcs \# 7 或 Full CMC 格式的憑證要求，並將其儲存在字串中。                                                                                                                                                                                                      |

@@ -1,6 +1,6 @@
 ---
 title: AccountCredentials 屬性
-description: 用於漫遊的加密使用者認證權杖 Blob 儲存體。 |AccountCredentials 屬性
+description: 用於漫遊之加密使用者認證權杖 Blob 的儲存體。 |AccountCredentials 屬性
 ms.assetid: 08df5c7d-3aae-4cff-97df-25da6995c72e
 ms.tgt_platform: multiple
 keywords:
@@ -14,16 +14,16 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 76fb96e598b156ba5940bfb75bbfdb628f777353
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: dbba37bf220cb35bfc1aa26d4a59948539ccaec117240387ca6481bbd6388818
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "103945837"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119802874"
 ---
 # <a name="ms-pki-accountcredentials-attribute"></a>AccountCredentials 屬性
 
-用於漫遊的加密使用者認證權杖 Blob 儲存體。
+用於漫遊之加密使用者認證權杖 Blob 的儲存體。
 
 
 
@@ -63,7 +63,7 @@ ms.locfileid: "103945837"
 | Range-Upper            | \-                                |
 | Search-Flags           | 0x00000280                        |
 | System-Flags           | 0x00000010                        |
-| 中使用的類別        | [**User**](c-user.md)<br/> |
+| 中使用的類別        | [**使用者**](c-user.md)<br/> |
 
 
 
@@ -84,7 +84,7 @@ ms.locfileid: "103945837"
 | Range-Upper            | \-                                |
 | Search-Flags           | 0x00000280                        |
 | System-Flags           | 0x00000010                        |
-| 中使用的類別        | [**User**](c-user.md)<br/> |
+| 中使用的類別        | [**使用者**](c-user.md)<br/> |
 
 
 

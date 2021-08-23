@@ -4,16 +4,16 @@ description: 命令物件屬性
 ms.assetid: 889a56b2-0b6d-4df8-a313-7553371e4413
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5f4493b1e146a011434f7a0324a4008031a575d2
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 11b9e8f8e6e7b44697891cd567fce8ca0f5db13a0142936b5cf48bdb52721392
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104023312"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119716538"
 ---
 # <a name="commands-object-properties"></a>命令物件屬性
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 伺服器支援 [**命令**](/windows/desktop/lwef/the-commands-collection-object) 集合的下列屬性：
 
@@ -36,15 +36,15 @@ ms.locfileid: "104023312"
 
 | Caption 屬性                                                                                                                                                                                                                                            | Voice-Caption 屬性 | Voice 屬性 | Visible 屬性 | 出現在字元的快顯功能表中 | 出現在 [語音命令] 視窗中 |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------|----------------|------------------|------------------------------------|----------------------------------|
-| 是                                                                                                                                                                                                                                                         | 是                    | 是            | 對             | 是，使用標題                 | 是，使用 VoiceCaption          |
-| 是                                                                                                                                                                                                                                                         | 是                    | 否             | 對             | 是，使用標題                 | 否                               |
+| 是                                                                                                                                                                                                                                                         | 是                    | 是            | 是             | 是，使用標題                 | 是，使用 VoiceCaption          |
+| 是                                                                                                                                                                                                                                                         | 是                    | 否             | 是             | 是，使用標題                 | 否                               |
 | 是                                                                                                                                                                                                                                                         | 是                    | 是            | False            | 否                                 | 是，使用 VoiceCaption          |
 | 是                                                                                                                                                                                                                                                         | 是                    | 否             | False            | 否                                 | 否                               |
 | 否                                                                                                                                                                                                                                                          | 是                    | 是            | True             | 否                                 | 是，使用 VoiceCaption          |
 | 否                                                                                                                                                                                                                                                          | 是                    | 是            | False            | 否                                 | 是，使用 VoiceCaption          |
 | 否                                                                                                                                                                                                                                                          | 是                    | 否             | True             | 否                                 | 否                               |
 | 否                                                                                                                                                                                                                                                          | 是                    | 否             | False            | 否                                 | 否                               |
-| 是                                                                                                                                                                                                                                                         | 否                    | Yes            | 對             | 是，使用標題                 | 是，使用標題               |
+| 是                                                                                                                                                                                                                                                         | 否                    | Yes            | 是             | 是，使用標題                 | 是，使用標題               |
 | 是                                                                                                                                                                                                                                                         | 否                     | 否             | True             | 是                                | 否                               |
 | 是                                                                                                                                                                                                                                                         | 否                     | 是            | False            | 否                                 | 是，使用標題               |
 | 是                                                                                                                                                                                                                                                         | 否                     | 否             | False            | 否                                 | 否                               |

@@ -4,12 +4,12 @@ ms.assetid: 36b6ff00-7ea8-40e5-90f7-917cef117d4a
 title: 將滑鼠點擊次數 X 位移轉換成插入號位置
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f993de35ebffac4740b367927d1a8edf864a813e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6e135efaccb6454e55999d21f00e762d749eb380751848aef88cf4b4e5b8e913
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103849474"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119693178"
 ---
 # <a name="translating-mouse-hit-x-offset-to-caret-position"></a>將滑鼠點擊次數 X 位移轉換成插入號位置
 

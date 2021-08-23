@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7660e6dc2690c310cf06f64e38190dc1cb3f24ab
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b91c00c166050f4f3a3bc05861fa92d4fb66efcfa139e726c7cc799e21623fa4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107000970"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119760918"
 ---
 # <a name="iwmpcontrols3currentpositiontimecode-property"></a>IWMPControls3：： currentPositionTimecode 屬性
 
@@ -56,7 +56,7 @@ SMPTE 時間代碼會依時數、分鐘數、秒數和框架數來識別特定�
 
 時間碼的格式 \[ *範圍* 為 \] *hh*：*mm*：*ss*。*ff* 的 \[ *範圍* \] 代表範圍，hh 代表小時， *mm* 代表分鐘， *ss* 代表秒，而 *ff* 代表畫面格。 設定 **currentPositionTimecode** 的值時，您必須包含全部八位數，並使用零做為預留位置。
 
-\[*範圍* \]對應至 Windows Media Format **WMT 時間 \_ 碼 \_ 延伸模組 \_ 資料** 結構的 **wRange** 成員。 如需時間碼範圍的詳細資訊，請參閱 Windows Media Format SDK。
+\[*範圍* \]對應于 Windows 媒體格式 **WMT 時間 \_ 碼 \_ 延伸 \_ 資料** 結構的 **wRange** 成員。 如需時間碼範圍的詳細資訊，請參閱 Windows 媒體格式 SDK。
 
 只有包含 SMPTE 時間程式碼資訊的檔案才支援設定和取得 **currentPositionTimecode** 。
 

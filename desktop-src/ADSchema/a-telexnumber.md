@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 760a129106882f918b3e3150e2377158abc5fcd3
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 6e623cfb729242e4bfdbbb5fbc1104c76301564154bc2353815eedc4ec71e2b4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106985378"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119835848"
 ---
 # <a name="telex-number-attribute"></a>Telex-Number 屬性
 

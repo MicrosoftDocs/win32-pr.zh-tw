@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.colu
 ms:contentKeyID: 55100957
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 492cfe913d46c69ba1cc38f68c7f36bedebc4f35
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 300ea93d41a8d8fff79553b1d685491b99141e70410e25a5209aeb6081655382
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103852872"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119738178"
 ---
 # <a name="columnvalue-methods"></a>ColumnValue 方法
 

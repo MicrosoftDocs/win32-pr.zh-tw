@@ -3,7 +3,7 @@ title: 'WM_CAP_SET_USER_DATA 訊息 (Vfw .h) '
 description: WM \_ CAP \_ 設定 \_ 使用者資料訊息會將 \_ 長的 \_ PTR 資料值與捕捉視窗產生關聯。 您可以使用 capSetUserData 宏明確地傳送此訊息。
 ms.assetid: 067502e3-f009-4cf2-b612-4a0b64624416
 keywords:
-- WM_CAP_SET_USER_DATA message Windows 多媒體
+- WM_CAP_SET_USER_DATA 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 542b8e49f740bfc265824947237841dede1f6065
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ea5b4a192b774572ea374b08d4a4128389281e44ee00614806841b0b007d978b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104106109"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119803548"
 ---
 # <a name="wm_cap_set_user_data-message"></a>WM \_ CAP \_ 設定 \_ 使用者 \_ 資料訊息
 

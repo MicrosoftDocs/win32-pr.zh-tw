@@ -8,12 +8,12 @@ keywords:
 - MCIAVI 驅動程式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: be2e69cf2b0fd9ee71650c56b0d7d9efb50a46e4
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6d4a7a6bc8da314cc5cb891846e46289396fefb6be60d92ddd38f17ab1aff0ae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104462321"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119783427"
 ---
 # <a name="mciavi"></a>MCIAVI
 
@@ -27,9 +27,9 @@ MCIAVI 驅動程式會在 MCI 命令的控制權下播放影片順序和其他�
 
 您的應用程式可以使用 MCIWnd 視窗類別服務，而不是使用 MCI 命令介面來控制任何 MCI 驅動程式。 此視窗類別會處理管理支援 MCI 裝置之視窗的許多詳細資料，並簡化傳送 MCI 命令所需的程式設計。 您的應用程式可以直接使用 MCIWnd 程式庫服務來控制 MCI 裝置，也可以讓 MCIWnd 顯示工具列、捲軸和功能表，讓使用者控制裝置。 如需 MCIWnd 視窗類別的詳細資訊，請參閱 [MCIWnd 視窗類別](mciwnd-window-class.md)。
 
- 
+ 
 
- 
+ 
 
 
 

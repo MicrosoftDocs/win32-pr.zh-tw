@@ -4,12 +4,12 @@ ms.assetid: 5691e595-f264-4547-9db6-f984483005e8
 title: InkPicture 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b28d15c61105e9cb5aa690860a0362aac826f019
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 38040e50dfdb1952d9dad720f0aa2f082292940b20dd9b14cd5760bd89257931
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320935"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119712598"
 ---
 # <a name="inkpicture-methods"></a>InkPicture 方法
 

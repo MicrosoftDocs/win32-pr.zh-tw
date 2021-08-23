@@ -4,12 +4,12 @@ ms.assetid: a0d9e959-d8fd-4546-9529-1dc42fa0bdd6
 title: Exec
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2711b2c8882f9af12de2f060810ccd4219faa5ec
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: b93228857af2e531360b6238ab649daf8ac3f9eb2acf0aecfb12348b0ed990b1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103689056"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119795238"
 ---
 # <a name="exec"></a>Exec
 

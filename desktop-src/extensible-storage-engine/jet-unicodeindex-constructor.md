@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 4b20fd853f33048c0cc9654a12c3a6aa678df994
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e850698e4f3d1239fe2b5f04cb649f8312d518c8db604966a57ca3c4faa79db1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106992496"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119832438"
 ---
 # <a name="jet_unicodeindex-constructor"></a>JET_UNICODEINDEX 的函式
 

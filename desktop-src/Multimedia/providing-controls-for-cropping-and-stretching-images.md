@@ -9,12 +9,12 @@ keywords:
 - MCIWndPutDest 宏
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9cd0889b40204e7c99ec782e454dba2cdeebfe79
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 712dddf0d022b63bccb3c64157df796585569b72604dc82746417d725c4135dd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103681735"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119805748"
 ---
 # <a name="providing-controls-for-cropping-and-stretching-images"></a>提供用於裁剪和延展影像的控制項
 
@@ -37,8 +37,8 @@ MCIWnd 可讓您裁剪和延展影片剪輯的影像。 若要瞭解這些功能
 > [!Note]  
 > [**MCIWndPutDest**](/windows/desktop/api/Vfw/nf-vfw-mciwndputdest)宏不會變更播放區域的大小。 若要將 MCIWnd 視窗和目的地矩形伸展，您需要知道 [MCIWnd] 視窗的目前大小，並根據目的地矩形來發出新的視窗尺寸。 您可以使用 [GetWindowRect](/windows/win32/api/winuser/nf-winuser-getwindowrect) 函數，並使用 [SetWindowPos](/windows/win32/api/winuser/nf-winuser-setwindowpos) 函數來調整 MCIWnd 視窗的大小，以抓取 MCIWnd 視窗維度。
 
- 
+ 
 
- 
+ 
 
- 
+ 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: d4e7a3c6ebfcbcb83aaaed6273ea321b33a44ce1
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 13513b6fcd2bdb952eda17f10cc81406ff484a20dce3f690d43dd3b5c28eb08f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104323423"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119634248"
 ---
 # <a name="id3dx10spritegetdevice-method"></a>ID3DX10Sprite：： GetDevice 方法
 

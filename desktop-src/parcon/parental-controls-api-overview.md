@@ -4,12 +4,12 @@ ms.assetid: 647e5df8-7c6d-466a-a3d4-eac13efa797d
 title: 家長監護 API 總覽
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a0aa88592f2262b89f98cfd5baaac5ad2f35f959
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cc2dc1995db834aa206dea1a4f657565ac3e38b35766ca6a83ac495c4f1734af
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106978155"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119712578"
 ---
 # <a name="parental-controls-api-overview"></a>家長監護 API 總覽
 
@@ -26,13 +26,13 @@ ms.locfileid: "106978155"
     -   上次為使用者變更設定的時間。
     -   抓取是否需要封鎖使用者的瀏覽器型或類似瀏覽器的檔案下載，以及要求該使用者的 Web 內容篩選器特別允許 URL 的能力。
     -   判斷使用者是否封鎖指定的遊戲。
--   Windows Management Instrumentation (的 WMI) API 存取家長監護命名空間，以完整寫入和讀取所有公開設定的存取權。 家長監護會部署 WMI 提供者，以管理基礎設定存放區的讀取/寫入權限，並適當地強制執行系統管理員和受控制使用者的許可權。
+-   WindowsManagement Instrumentation (WMI) 存取家長監護命名空間的 API，以取得所有公開設定的完整寫入和讀取權限。 家長監護會部署 WMI 提供者，以管理基礎設定存放區的讀取/寫入權限，並適當地強制執行系統管理員和受控制使用者的許可權。
 
 Isv 會要求使用合規性 API，並視需要使用 WMI API，根據應用程式或解決方案的功能來控制適用于子安全性的限制。
 
 ## <a name="logging"></a>記錄
 
--   Windows standard 事件發佈和取用 Api 用於家長監護活動監視。 Windows Vista 附隨報告和追蹤系統改進了先前 Windows (ETW) 功能事件追蹤的效能。 家長監護會在 ETW 中定義其資料的唯一通道。
+-   Windows 標準事件發佈和取用 api 用於「家長監護活動」監視。 Windows Vista 附隨報告和追蹤系統已改善 Windows (ETW) 功能的先前事件追蹤效能。 家長監護會在 ETW 中定義其資料的唯一通道。
 -   Isv 要求使用事件發佈 API 來記錄使用者活動，如使用家長監護 Api 一節中所指定。
 
  

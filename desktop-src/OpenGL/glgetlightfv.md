@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: faf90cb9567822ef578bdf01805648a2dabd02db
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 5d642b0d253abca4ea7c5f224353f5544b5307df5237e958c32e37b98ff2e01f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "103853668"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119741992"
 ---
 # <a name="glgetlightfv-function"></a>glGetLightfv 函式
 

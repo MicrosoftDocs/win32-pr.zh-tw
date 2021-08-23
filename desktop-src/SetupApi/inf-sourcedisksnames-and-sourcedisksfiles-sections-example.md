@@ -4,12 +4,12 @@ ms.assetid: af4bc466-f0a3-4f83-adb7-6bfc276f7764
 title: INF SourceDisksNames 和 SourceDisksFiles 章節範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7f991727a8a2ca9cce2bd2d7161dfbf27b62ce74
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 00eb8241b8e290f5460cc41b233d3b199df35e709d6e32f2c5a39925a79f851d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106978058"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119739408"
 ---
 # <a name="inf-sourcedisksnames-and-sourcedisksfiles-sections-example"></a>INF SourceDisksNames 和 SourceDisksFiles 章節範例
 
@@ -22,7 +22,7 @@ INF 檔案的 **SourceDisksNames** 區段會識別包含要安裝之原始程式
 1="Dajava" , "Dajava.cab",,, 0x10,"Dajava.tag"
 ```
 
-如需 **SourceDisksNames** 或 **SourceDisksFiles** 的詳細資訊，請參閱 Microsoft Windows 2000 驅動程式開發工具組的「Inf 檔案的一般指導方針」和「inf 檔案區段和指示詞」章節。
+如需有關 **SourceDisksNames** 或 **SourceDisksFiles** 的詳細資訊，請參閱 Microsoft Windows 2000 驅動程式開發工具組的「inf 檔案的一般指導方針」和「inf 檔案區段和指示詞」章節。
 
  
 

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e96f4a93882e02589d7f15b74ba5cb225f506d69
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c1de8bcbd0eb47f03aaff46b4292a8afe226ca8a221ec570537351af8e509801
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106985553"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119761738"
 ---
 # <a name="viewbackgroundimage"></a>BackgroundImage
 
@@ -35,7 +35,7 @@ ms.locfileid: "106985553"
 
 支援的格式為 BMP、JPG、GIF 和 PNG。 如果影像是8位的 BMP 檔案，則可以使用 **backgroundImageHueShift** 和 **backgroundImageSaturation** 屬性動態變更其色調和飽和度值。
 
-在 Windows Media 下載封裝中，如果您為 **VIEW** 元素指定 **backgroundImage** 屬性，則還必須指定該元素的 **backgroundColor** 屬性。
+在 Windows 媒體下載封裝中，如果您為 **VIEW** 元素指定 **backgroundImage** 屬性，則還必須指定該元素的 **backgroundColor** 屬性。
 
 ## <a name="requirements"></a>規格需求
 

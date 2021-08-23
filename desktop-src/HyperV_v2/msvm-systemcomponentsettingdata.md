@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 22e862df12112ed668488350208f39ddd05339a0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ad3976824a8ddc303e0e2ee901df95b208aacd12b47d8f2003cc82e25fd75f16
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112301"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119811918"
 ---
 # <a name="msvm_systemcomponentsettingdata-class"></a>Msvm \_ SystemComponentSettingData 類別
 

@@ -13,12 +13,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: f9962ff94e8bf80041d7b61ecf97220d573131fb
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 5998e26eab79d3e5f0b9e3628614e1cc2ecbfb7040e866a898a09ad54fa49f10
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108104466"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119710718"
 ---
 # <a name="cpl_inquire-message"></a>CPL \_ 查詢訊息
 
@@ -62,7 +62,7 @@ ms.locfileid: "108104466"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                      |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                      |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                             |
 | 標頭<br/>                   | <dl> <dt>Cpl。h</dt> </dl> |
 

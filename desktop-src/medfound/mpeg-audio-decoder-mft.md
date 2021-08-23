@@ -4,12 +4,12 @@ ms.assetid: 29A0491D-CA0D-4909-96F0-5640D5EE77F9
 title: MPEG 音訊解碼器
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a98106ce4610c7c89a5e6212c225fd8eca3e4526
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8eb908509f9c9f1c55ef7434b33d3265be875bf56443bc69c5a4cf829774bded
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943731"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119722278"
 ---
 # <a name="mpeg-audio-decoder"></a>MPEG 音訊解碼器
 

@@ -4,12 +4,12 @@ ms.assetid: 37fa870a-6f38-44ae-943e-27697f6b9fba
 title: 安全性與信任
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a4e3039f8aa93c2ae563a918177462cd09a217af
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 99806fa3256dfd08d8f4a14c70620c767331fb3cb95b83a7ecd6940b04c155cc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "106998938"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119708198"
 ---
 # <a name="security-and-trust"></a>安全性與信任
 
@@ -75,7 +75,7 @@ Tablet PC 技術 API 中大部分受管理的物件和成員都有兩個需求�
 其他一些已知的安全性考慮如下：
 
 -   需要 Microsoft Internet Explorer 6 或更高版本，Web 控制項才能正常運作。 使用 Internet Explorer 5.5 時，只會載入初始的 managed 控制項;您無法在執行時間動態載入其他控制項。
--   如果您使用 Windows XP Service Pack 2 (SP2) 和 CLR 1.0，則在 Internet Explorer 中擁有 Web 控制項需要將網站新增為信任的網站，即使它們是在內部網路區域中也一樣。 但是，當您這樣做時，他們將無法再于信任的網站區域中執行，不過它們會在內部網路區域中執行。 這個問題是由 CLR 1.1 修正。
+-   如果您使用 Windows XP Service Pack 2 (SP2) 和 clr 1.0，則在 Internet Explorer 中使用 Web 控制項，需要將網站新增為信任的網站，即使它們位於內部網路區域中也一樣。 但是，當您這樣做時，他們將無法再于信任的網站區域中執行，不過它們會在內部網路區域中執行。 這個問題是由 CLR 1.1 修正。
 
  
 

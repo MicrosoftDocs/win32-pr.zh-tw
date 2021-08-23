@@ -4,21 +4,21 @@ ms.assetid: 67fbf3d9-6965-4464-b04c-10989b2fd55d
 title: 在 WIA 1.0 中傳送影像資料
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 00fc7ff76576b6c140358f9af3a0f9d17d4b180e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f5e2c1dfce551f105b0df1627f11e9b4ccb7ee8a420e395f3fd0cc1ba932f136
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113280"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119813668"
 ---
 # <a name="transferring-image-data-in-wia-10"></a>在 WIA 1.0 中傳送影像資料
 
 > [!Note]  
-> 本教學課程將說明如何在將執行 Windows XP 或更早版本的應用程式中傳送影像資料。 如需有關在 Windows Vista 或更新版本上執行的應用程式中傳送影像資料的資訊，請參閱 [在 WIA 2.0 中傳送影像資料](-wia-transferring-image-data-in-wia2.md) 。
+> 本教學課程將說明如何在 Windows XP 或更早版本執行的應用程式中傳送影像資料。 如需在將于 Windows Vista 或更新版本上執行的應用程式中傳送影像資料的相關資訊，請參閱[在 WIA 2.0 中傳送影像資料](-wia-transferring-image-data-in-wia2.md)。
 
  
 
-使用 [**IWiaDataTransfer**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiadatatransfer) 介面的方法，將資料從 Windows 映像取得 (WIA) 1.0 裝置傳送至應用程式。 此介面支援共用記憶體視窗，可將資料從裝置物件傳輸至應用程式，並在封送處理期間消除不必要的資料複本。
+使用 [**IWiaDataTransfer**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiadatatransfer)介面的方法，將資料從 Windows 映像取得 (WIA) 1.0 裝置傳送至應用程式。 此介面支援共用記憶體視窗，可將資料從裝置物件傳輸至應用程式，並在封送處理期間消除不必要的資料複本。
 
 應用程式必須查詢影像專案，以取得其 [**IWiaDataTransfer**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiadatatransfer) 介面的指標，如下列程式碼範例所示：
 

@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: f46ecd62766b5df642dff1e52614171a513a8fca
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 1962746cffb64733d6935bb4ef655a96cce051cc67fb1a4f2e730e4ff5ce0d7e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103688960"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119759748"
 ---
 # <a name="setnumforwardpackets-method-of-the-win32_networkadapterconfiguration-class"></a>Win32 >networkadapterconfiguration 類別的 SetNumForwardPackets 方法 \_
 

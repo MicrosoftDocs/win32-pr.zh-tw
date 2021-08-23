@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: c026bf7e5e6f9cb132f5c1ca19d23f180b325906
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1afb0611eadf90fac61315d6e25169d50faecd214b8993da3560e47d40fb1c05
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106976923"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119836258"
 ---
 # <a name="esentnotinitializedexception-class"></a>EsentNotInitializedException 類別
 

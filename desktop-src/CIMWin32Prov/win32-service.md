@@ -1,5 +1,5 @@
 ---
-description: 代表執行 Windows 的電腦系統上的服務。
+description: 代表執行 Windows 之電腦系統上的服務。
 ms.assetid: 713402d3-ee73-4a6c-afb9-ad8033a4c580
 ms.tgt_platform: multiple
 title: Win32_Service 類別
@@ -40,16 +40,16 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: b342282bfa3b49fe72e62cf79377a0ead11276eb
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: a33265b3dfc3b114d55b381a229b717e291bbd258716e8305d9995282d29b3f6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104025841"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119759258"
 ---
 # <a name="win32_service-class"></a>Win32 \_ 服務類別
 
-**Win32 \_ 服務** [WMI 類別](../wmisdk/retrieving-a-class.md)代表執行 Windows 的電腦系統上的服務。
+**Win32 \_ 服務** [WMI 類別](../wmisdk/retrieving-a-class.md)代表執行 Windows 之電腦系統上的服務。
 
 下列語法已經過受管理物件格式 (MOF) 程式碼簡化，並包含所有已繼承的屬性。 屬性和方法是以字母順序排列，而不是 MOF 順序。
 
@@ -103,7 +103,7 @@ class Win32_Service : Win32_BaseService
 
 | 方法                                                                               | 描述                                                                                          |
 |:-------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------|
-| [**變更**](change-method-in-class-win32-service.md)                               | 修改服務。<br/>                                                                       |
+| [**改變**](change-method-in-class-win32-service.md)                               | 修改服務。<br/>                                                                       |
 | [**ChangeStartMode**](changestartmode-method-in-class-win32-service.md)             | 修改服務的啟動模式。<br/>                                                     |
 | [**建立**](create-method-in-class-win32-service.md)                               | 建立新的服務。<br/>                                                                    |
 | [**刪除**](delete-method-in-class-win32-service.md)                               | 刪除現有的服務。<br/>                                                              |
@@ -228,7 +228,7 @@ class Win32_Service : Win32_BaseService
 
 若 **為 True**，則服務會在其他自動啟動服務啟動後加上短暫延遲之後啟動。
 
-**Windows server 2012 R2、Windows 8.1、Windows server 2012、Windows 8、Windows server 2008 R2、windows 7、Windows server 2008 和 Windows Vista：** 在 Windows Server 2016 和 Windows 10 之前，不支援此屬性。
+**Windows Server 2012 R2、Windows 8.1、Windows Server 2012、Windows 8、Windows server 2008 R2、Windows 7、Windows server 2008 和 Windows Vista：** 在 Windows Server 2016 和 Windows 10 之前，不支援這個屬性。
 
 </dd> <dt>
 
@@ -377,7 +377,7 @@ Constraint：接受與 **Name** 屬性相同的值。
 限定詞： [**MappingStrings**](../wmisdk/standard-qualifiers.md) ( "Win32API \| service 結構 \| [**服務 \_ 狀態**](/windows/win32/api/winsvc/ns-winsvc-service_status) \| DwWin32ExitCode" ) ， [**DisplayName**](../wmisdk/standard-qualifiers.md) ( "結束代碼" ) 
 </dt> </dl>
 
-定義啟動或停止服務時所發生之錯誤的 Windows 錯誤碼。 這個屬性會設定為 **錯誤 \_ 服務 \_ 特定 \_ 錯誤** (1066) 當此類別所代表之服務的唯一錯誤，以及錯誤的相關資訊可在 **可見於 servicespecificexitcode** 屬性中取得。 服務會將此值設定為在執行時，以及在正常終止時， **不會 \_ 發生錯誤** 。
+Windows 錯誤碼，此錯誤碼會定義啟動或停止服務時所遇到的錯誤。 這個屬性會設定為 **錯誤 \_ 服務 \_ 特定 \_ 錯誤** (1066) 當此類別所代表之服務的唯一錯誤，以及錯誤的相關資訊可在 **可見於 servicespecificexitcode** 屬性中取得。 服務會將此值設定為在執行時，以及在正常終止時， **不會 \_ 發生錯誤** 。
 
 這個屬性繼承自 [**Win32 \_ BaseService**](win32-baseservice.md)。
 
@@ -576,7 +576,7 @@ Constraint：接受與 **Name** 屬性相同的值。
 限定詞： [**DisplayName**](../wmisdk/standard-qualifiers.md) ( 「啟動模式」 ) 
 </dt> </dl>
 
-Windows 基底服務的啟動模式。
+Windows 基礎服務的啟動模式。
 
 <dt>
 
@@ -925,7 +925,7 @@ Windows 基底服務的啟動模式。
 
 您管理特定電腦的方式，主要取決於電腦扮演的角色。 例如，您通常會監視 DNS 伺服器與 DHCP 伺服器不同的層面。 雖然沒有任何單一屬性可以告訴您特定電腦是資料庫伺服器、電子郵件伺服器還是多媒體伺服器，但您通常可以藉由識別電腦上所安裝的服務來識別電腦所扮演的角色。
 
-在大型組織中，一部電腦上只能安裝一個主要服務 (，例如電子郵件) 。 郵件伺服器也會以 Microsoft® Windows Media®技術播放機檔案的伺服器形式執行，這是不尋常的。 因此，識別電腦上所安裝的服務可協助識別電腦在網路中的角色。 如果電腦上已安裝並執行 Microsoft® Exchange Server 服務，通常會將這部電腦視為郵件伺服器，因此通常是安全的。
+在大型組織中，一部電腦上只能安裝一個主要服務 (，例如電子郵件) 。 郵件伺服器也會以 Microsoft® Windows 媒體®技術播放機檔案的伺服器形式執行，這是不尋常的。 因此，識別電腦上所安裝的服務可協助識別電腦在網路中的角色。 如果電腦上已安裝並執行 Microsoft® Exchange Server 服務，通常會將這部電腦視為郵件伺服器，因此通常是安全的。
 
 您可以使用 WMI **Win32 \_ 服務** 類別來列舉電腦上所安裝的服務。 此外，您可以使用這個類別來判斷這些服務目前是否正在執行，並傳回該服務的任何其他必要資訊，以及其設定方式。
 

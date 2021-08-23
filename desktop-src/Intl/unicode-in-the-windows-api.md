@@ -1,22 +1,22 @@
 ---
-description: 管理字元的 Windows API 函式通常會以下列三種格式的其中一種來執行：
+description: Windows管理字元的 API 函式通常會以下列三種格式的其中一種來執行：
 ms.assetid: e7698f0b-dbcb-4cd0-9cb5-23a26edb966a
 title: Windows API 中的 Unicode
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5686a7f65edefb11458374b7f72262448becd6d1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c0c36e1e292eddd786d4c4bf336f980486f66870deb809587f9c51334f269ce9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106979921"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119764808"
 ---
 # <a name="unicode-in-the-windows-api"></a>Windows API 中的 Unicode
 
-管理字元的 Windows API 函式通常會以下列三種格式的其中一種來執行：
+Windows管理字元的 API 函式通常會以下列三種格式的其中一種來執行：
 
 -   可以針對 Windows 字碼頁或 Unicode 編譯的泛型版本
--   具有字母 "A" 的 [Windows 字碼頁](code-pages.md) 版本，用來表示 "ANSI"
+-   [Windows 字碼頁](code-pages.md)版本，其字母 "A" 用來表示 "ANSI"
 -   [Unicode](unicode.md)版本，其字母 "W" 用來表示「寬」
 
 某些較新的函式只支援 Unicode 版本。 如需詳細資訊，請參閱 [函數原型的慣例](conventions-for-function-prototypes.md)。

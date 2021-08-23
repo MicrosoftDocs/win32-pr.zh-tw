@@ -4,12 +4,12 @@ ms.assetid: 633e5d0c-e9d8-4f9a-9411-17cbe9e2e6e4
 title: "  終結執行緒"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ada421356666316072aabff8281787cc140ad114
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ef64729db5490ebdab3ba759b34a105c31d2cbc421a404d07b041aa9b611ba08
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106978961"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119799038"
 ---
 # <a name="terminating-a-thread"></a>  終結執行緒
 

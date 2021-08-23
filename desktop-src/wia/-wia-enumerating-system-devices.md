@@ -1,19 +1,19 @@
 ---
-description: 使用 IWiaDevMgr：： EnumDeviceInfo (或 IWiaDevMgr2：：) EnumDeviceInfo 方法來列舉安裝在系統上的 Windows 映像取得 (WIA) 裝置。
+description: 使用 IWiaDevMgr：： EnumDeviceInfo (或 IWiaDevMgr2：：) EnumDeviceInfo 方法來列舉安裝在系統上的 Windows 影像取得 (WIA) 裝置。
 ms.assetid: 6465a33e-1b3b-4142-a58f-b27e9c95cd3e
 title: 列舉系統裝置
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d2d65879cd1fc8466f4ada638281ef496636b19
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 60b6587d88b2836e057f0b6d7e31bd7f22d79c6220c51b407b621370d8524b89
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103944320"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119814258"
 ---
 # <a name="enumerating-system-devices"></a>列舉系統裝置
 
-使用 [**IWiaDevMgr：： EnumDeviceInfo**](/windows/desktop/api/wia_xp/nf-wia_xp-iwiadevmgr-enumdeviceinfo) (或 [**IWiaDevMgr2：：) EnumDeviceInfo**](-wia-iwiadevmgr2-enumdeviceinfo.md) 方法來列舉安裝在系統上的 WINDOWS 映射取得 (WIA) 裝置。 這個方法會建立裝置屬性的列舉物件，並將指標傳回給列舉物件所支援的 [**IEnumWIA \_ 開發人員 \_ 資訊**](/windows/desktop/api/wia_xp/nn-wia_xp-ienumwia_dev_info) 介面。
+使用 [**IWiaDevMgr：： EnumDeviceInfo**](/windows/desktop/api/wia_xp/nf-wia_xp-iwiadevmgr-enumdeviceinfo) (或 [**IWiaDevMgr2：：) EnumDeviceInfo**](-wia-iwiadevmgr2-enumdeviceinfo.md)方法來列舉安裝在系統上的 Windows 影像取得 (WIA) 裝置。 這個方法會建立裝置屬性的列舉物件，並將指標傳回給列舉物件所支援的 [**IEnumWIA \_ 開發人員 \_ 資訊**](/windows/desktop/api/wia_xp/nn-wia_xp-ienumwia_dev_info) 介面。
 
 然後，您可以使用 [**IEnumWIA \_ DEV \_ INFO**](/windows/desktop/api/wia_xp/nn-wia_xp-ienumwia_dev_info) 介面的方法，為系統上安裝的每個裝置取得 [**IWiaPropertyStorage**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiapropertystorage) 介面指標。
 

@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.date
 ms:contentKeyID: 55100983
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 6401708371f35dd07b5322e56ceb9daf6e981447
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ef9d61329f7ab14065d03cf93ee9ab854e69ad4ccfa897025a520d2bf3bdac19
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104195202"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119737898"
 ---
 # <a name="datetimecolumnvalue-members"></a>DateTimeColumnValue 成員
 
