@@ -5,16 +5,16 @@ ms.assetid: fad0f81f-bb04-4900-aeb8-0be503efa591
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d180c6ed95bc0f75f2f10305f00dc1d63be25e80
-ms.sourcegitcommit: 3e70ae762629e244028b437420ed50b5850db4e3
+ms.openlocfilehash: c8cb5fffe6bed04d99fcfac7d48f28300c3714affa3ea1df25bda27334988752
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "103681497"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119001566"
 ---
 # <a name="embedding-the-remote-desktop-activex-control-in-a-webpage"></a>在網頁中內嵌遠端桌面 ActiveX 控制項
 
-您可以使用類似下面的程式碼，將遠端桌面 ActiveX 控制項內嵌在網頁中。
+您可以使用類似下面的程式碼，將遠端桌面 ActiveX 控制項內嵌到網頁中。
 
 
 ```HTML
@@ -466,7 +466,7 @@ end sub
 
 
 
-CLSID 適用于由遠端桌面連線 (RDP) 6.0 所裝載的 ActiveX 控制項。 此 ActiveX 控制項會執行 [**IMsRdpClient**](imsrdpclient-interface.md)。
+CLSID 適用于遠端桌面連線 (RDP) 6.0 所裝載的 ActiveX 控制項。 此 ActiveX 控制項會執行 [**IMsRdpClient**](imsrdpclient-interface.md)。
 
 ## <a name="related-topics"></a>相關主題
 
@@ -475,9 +475,9 @@ CLSID 適用于由遠端桌面連線 (RDP) 6.0 所裝載的 ActiveX 控制項。
 [使用遠端桌面 ActiveX 控制項](using-remote-desktop-web-connection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

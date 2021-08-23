@@ -3,8 +3,8 @@ title: Device-Independent 色彩空間
 description: 辨識標準、裝置與裝置無關的色彩測量需求、國際 de l'Eclairage (國際化委員會的照明) 或 CIE、根據 \ 0034 建立色彩空間、虛構 0034;原色。
 ms.assetid: 8597dad3-1eb8-49f9-9843-1f9068a65925
 keywords:
-- Windows Color System (WCS) 、與裝置無關的色彩空間
-- WCS (Windows 色彩系統) ，與裝置無關的色彩空間
+- Windows色彩系統 (WCS) ，與裝置無關的色彩空間
+- WCS (Windows 色彩系統) 、與裝置無關的色彩空間
 - 影像色彩管理、與裝置無關的色彩空間
 - 色彩管理、與裝置無關的色彩空間
 - 色彩，與裝置無關的色彩空間
@@ -23,12 +23,12 @@ keywords:
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d044379f8f04467f7be94f09d1eb1fa41816d3e
-ms.sourcegitcommit: 38954f8f0d70f44bff4a943784f468ebd7ef691a
+ms.openlocfilehash: e8c350ca4aa4b046d35926cd7568c4fbdfe030b7d7c13b085b9f3837c5dd8418
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "106982125"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119028786"
 ---
 # <a name="device-independent-color-spaces"></a>Device-Independent 色彩空間
 
@@ -42,7 +42,7 @@ ms.locfileid: "106982125"
 
 說明檔案版本的白皮書會討論 sRGB （sRGB）中所涉及的技術問題，可在「WCS 1.0 程式設計師」在 \\ PLATFORM SDK 中參考的說明資料夾中取得。
 
-不同的檔案格式可能會使用或新增旗標，以指定影像位於 sRGB 色彩空間中。 在與 Windows 裝置無關的點陣圖中 (DIB) 格式，將 [BITMAPV5HEADER](using-structures-in-wcs-1-0.md)結構的 **bV5CSType** 成員設定為 LCS \_ sRGB，會指定 DIB 色彩位於 sRGB 色彩空間中。
+不同的檔案格式可能會使用或新增旗標，以指定影像位於 sRGB 色彩空間中。 在 Windows 與裝置無關的點陣圖中 (DIB) 格式，將 [BITMAPV5HEADER](using-structures-in-wcs-1-0.md)結構的 **bV5CSType** 成員設定為 LCS \_ sRGB，可指定 DIB 色彩位於 sRGB 色彩空間中。
 
  
 

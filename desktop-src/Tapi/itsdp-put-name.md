@@ -4,16 +4,16 @@ ms.assetid: aba05cdb-a870-490e-8bb0-98b11780b112
 title: 'ITSdp：:p ut_Name 方法 (Sdpblb .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e7383183b6b367d71d18070eedd5857740665fab
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a9d8b9155f4c47c0f3dfc2fe4eca27b9589187559e70a3b46e1a7c67c7339857
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106992924"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119003236"
 ---
 # <a name="itsdpput_name-method"></a>ITSdp：:p 的內容 \_ 名稱方法
 
-\[ 在 Windows Vista、Windows Server 2008 和後續版本的作業系統中，無法使用會合 IP 電話語音會議控制項和介面。 RTC 用戶端 API 提供類似的功能。\]
+\[Windows Vista、Windows Server 2008 及後續版本的作業系統無法使用會合 IP 電話語音會議控制項和介面。 RTC 用戶端 API 提供類似的功能。\]
 
 **Put \_ name** 方法會設定會話名稱。
 
@@ -45,7 +45,7 @@ HRESULT put_Name(
 
 
 
-| 傳回碼                                                                                   | Description                                                     |
+| 傳回碼                                                                                   | 描述                                                     |
 |-----------------------------------------------------------------------------------------------|-----------------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>          | 方法成功。<br/>                                    |
 | <dl> <dt>**E \_ 指標**</dt> </dl>     | *PName* 參數不是有效的指標。<br/>        |

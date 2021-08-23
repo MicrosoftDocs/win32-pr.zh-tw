@@ -4,16 +4,16 @@ description: IAgentBalloon SetFontSize
 ms.assetid: c38779a6-bd7f-4d3a-9cb0-9d9fac1c7996
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4984382408739e2d093226d04b1c99582a1a25d4
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: fb6e19d79429ddf98f67a281cd11aefb1dc6bc2e54b1289e36c7cfb5a62bd538
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104311216"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118976468"
 ---
 # <a name="iagentballoonsetfontsize"></a>IAgentBalloon::SetFontSize
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 ``` syntax
 HRESULT SetFontSize(
@@ -41,9 +41,9 @@ HRESULT SetFontSize(
 [**IAgentBalloon::GetFontSize**](iagentballoon--getfontsize.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

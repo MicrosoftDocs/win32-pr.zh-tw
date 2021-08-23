@@ -8,12 +8,12 @@ keywords:
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 812275a630464dbe9137d587a672803f4d0c72f9
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e08f996f3de54b63668d44122929feb4fdbef4380fb8b2f7bb1458f50fe274ef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "74104297"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119124216"
 ---
 # <a name="design-philosophy-of-command-queues-and-command-lists"></a>命令佇列和命令清單的設計原理
 
@@ -54,9 +54,9 @@ Microsoft Direct3D 11 到 Microsoft Direct3D 12 的最大變更，就是不再�
 [在 Direct3D 12 中提交工作](command-queues-and-command-lists.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

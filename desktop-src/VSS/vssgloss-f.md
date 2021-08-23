@@ -5,12 +5,12 @@ ms.assetid: 9d59b2f6-c3d9-40d4-be89-ae7283794eb3
 title: 'F (磁碟區陰影複製服務) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 01f60a456ce6ea795dc8376c0f707d028523cec3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 56eef69a16a77fce7f557ae0ff02ff0e5d84d0225d082fd486af629b9804aeb6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103690448"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119056196"
 ---
 # <a name="f-volume-shadow-copy-service"></a>F (磁碟區陰影複製服務) 
 
@@ -30,7 +30,7 @@ ms.locfileid: "103690448"
 
 描述檔案或檔案群組之一的路徑、檔案規格和遞迴旗標的組合。 例如，檔案會新增至檔集中的元件。
 
-除非另有指示，否則檔案集的路徑是標準 Windows 路徑，而且可以包含環境變數 (例如% SystemRoot% ) ，但不能包含萬用字元。 路徑結尾不需要使用反斜線 ( " \\ " ) 。 它是由取得此資訊的應用程式所組成，以進行檢查。
+除非另有指示，否則檔案集的路徑是標準的 Windows 路徑，而且可以包含環境變數 (例如，% SystemRoot% ) 但不能包含萬用字元。 路徑結尾不需要使用反斜線 ( " \\ " ) 。 它是由取得此資訊的應用程式所組成，以進行檢查。
 
 檔案組中包含的檔案規格會指出檔案的名稱或包含的檔案名。 此檔案規格不能包含目錄規格 (例如，沒有反斜線) ，但可以包含？ 和 \* 萬用字元。
 

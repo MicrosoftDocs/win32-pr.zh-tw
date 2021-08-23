@@ -1,6 +1,6 @@
 ---
 title: 使用 Fill 元素
-description: 本文描述如何使用 VML 的 Fill 元素，這是 Windows Internet Explorer 9 所淘汰的功能。
+description: 本文描述如何使用 VML 的 Fill 元素，也就是 Windows Internet Explorer 9 淘汰的功能。
 ms.assetid: ed36601d-2e90-412e-ac3f-58324fac300d
 keywords:
 - 網路研討會，填滿元素
@@ -28,19 +28,19 @@ keywords:
 - 圖片填滿的形狀
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ecb243e4896443fd36a1b22c2ac3a0ab0bedfb2b
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 54f6b3e0c92989e037ebf9b95b7bd726134b9099dd5d3755ff4588f7e970586c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112407791"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119057262"
 ---
 # <a name="using-the-fill-element"></a>使用 Fill 元素
 
 本主題說明 VML，這是 Windows Internet Explorer 9 淘汰的功能。 依賴 VML 的網頁和應用程式應該遷移至 SVG 或其他廣泛支援的標準。
 
 > [!Note]  
-> 從2011年12月起，本主題已封存。 因此，它不會再主動維護。 如需詳細資訊，請參閱封存的 [內容](/previous-versions/windows/internet-explorer/ie-developer/)。 如需目前 Windows Internet Explorer 版本的相關資訊、建議和指引，請參閱 [Internet Explorer 開發人員中心](https://msdn.microsoft.com/ie/)。
+> 從2011年12月起，本主題已封存。 因此，它不會再主動維護。 如需詳細資訊，請參閱封存的 [內容](/previous-versions/windows/internet-explorer/ie-developer/)。 如需有關 Windows Internet Explorer 目前版本的資訊、建議和指引，請參閱[Internet Explorer 開發人員中心](https://msdn.microsoft.com/ie/)。
 
  
 

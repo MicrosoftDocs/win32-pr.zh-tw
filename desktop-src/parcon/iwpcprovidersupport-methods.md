@@ -4,12 +4,12 @@ ms.assetid: A7282350-721C-4B12-ADC8-61E4E1F08D49
 title: IWPCProviderSupport 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1722e261a114cfd26db274bf4f861858222c2766
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 857f15808dbb33f52516bb58e781f619dfb0cb3271846d111dcfb1719dfa6d51
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106987688"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118971727"
 ---
 # <a name="iwpcprovidersupport-methods"></a>IWPCProviderSupport 方法
 

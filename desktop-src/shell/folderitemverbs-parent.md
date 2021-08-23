@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: eeb041dcf5c1906370cb7266bd72761f1d9b0e04
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c57b2f76758f39ebf002e3e85a4dc2736807eb56320ee22b9a3e4ee1e93421eb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104513364"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119032566"
 ---
 # <a name="folderitemverbsparent-property"></a>FolderItemVerbs 父系屬性
 

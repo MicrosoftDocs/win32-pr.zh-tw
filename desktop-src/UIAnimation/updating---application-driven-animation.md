@@ -3,15 +3,15 @@ title: 讀取動畫變數值
 description: 每次您的應用程式繪製時，都應該讀取代表要進行動畫之視覺特性的動畫變數目前的值。
 ms.assetid: 7abf084a-31f5-4e32-bfd1-e88fbc2bf63d
 keywords:
-- 動畫變數 Windows 動畫，讀取
+- 動畫變數 Windows 動畫、讀取
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 16187547bb3efd99a2f45a8fcc0668a6b6603efe
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: fb2cc164091be9ecca292e26ab1247ba18c61d89f11dad8fc2530a3e45ca7629
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106967272"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119058165"
 ---
 # <a name="read-the-animation-variable-values"></a>讀取動畫變數值
 
@@ -25,7 +25,7 @@ ms.locfileid: "106967272"
 
 ## <a name="example-code"></a>範例程式碼
 
-下列範例程式碼取自 Windows 動畫範例 [方格](/windows/desktop/UIAnimation/grid-layout-sample)配置中的縮圖 .cpp;請參閱 CMainWindow：： Render 方法。 它會使用 [**GetValue**](/windows/desktop/api/UIAnimation/nf-uianimation-iuianimationvariable-getvalue) 方法將值讀取為浮點值。
+下列範例程式碼取自 Windows 動畫範例[方格](/windows/desktop/UIAnimation/grid-layout-sample)配置中的縮圖 .cpp;請參閱 CMainWindow：： Render 方法。 它會使用 [**GetValue**](/windows/desktop/api/UIAnimation/nf-uianimation-iuianimationvariable-getvalue) 方法將值讀取為浮點值。
 
 
 ```C++
@@ -49,7 +49,7 @@ if (SUCCEEDED(hr))
 
 
 
-下列範例程式碼取自 Windows 動畫範例 [計時器驅動動畫](timer-driven-animation-sample.md)中的 MainWindow。請參閱 CMainWindow：:D rawBackground 方法。 它會使用 [**GetIntegerValue**](/windows/desktop/api/UIAnimation/nf-uianimation-iuianimationvariable-getintegervalue) 方法將值讀取為整數值。
+下列範例程式碼取自 Windows 動畫範例[計時器驅動動畫](timer-driven-animation-sample.md)中的 MainWindow。請參閱 CMainWindow：:D rawBackground 方法。 它會使用 [**GetIntegerValue**](/windows/desktop/api/UIAnimation/nf-uianimation-iuianimationvariable-getintegervalue) 方法將值讀取為整數值。
 
 
 ```C++
@@ -109,9 +109,9 @@ if (SUCCEEDED(hr))
 [**IUIAnimationVariable：： GetValue**](/windows/desktop/api/UIAnimation/nf-uianimation-iuianimationvariable-getvalue)
 </dt> <dt>
 
-[Windows 動畫總覽](scenic-animation-api-overview.md)
+[Windows動畫總覽](scenic-animation-api-overview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

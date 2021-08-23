@@ -1,5 +1,5 @@
 ---
-title: 'TriggerCollection 物件 (]) '
+title: 'TriggerCollection 物件 (Windows.. h) '
 description: 腳本物件，用來新增、移除及取出工作的觸發程式。
 ms.assetid: 25d89451-48b6-4ed9-9abd-19d7e8bc1fea
 keywords:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 29f7288d8db0b56fc9cc8b3de7ace8c10c13959a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c7fd103918bc3898e56a3041221c9c70c9ede9aea5df4843cd984f2502279014
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104094223"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119001936"
 ---
 # <a name="triggercollection-object"></a>TriggerCollection 物件
 
@@ -42,7 +42,7 @@ ms.locfileid: "104094223"
 
 | 方法                                     | 描述                                                                                |
 |:-------------------------------------------|:-------------------------------------------------------------------------------------------|
-| [**清楚**](triggercollection-clear.md)   | 清除集合中的所有觸發程式。<br/>                                        |
+| [**清除**](triggercollection-clear.md)   | 清除集合中的所有觸發程式。<br/>                                        |
 | [**建立**](triggercollection-create.md) | 為工作建立新的觸發程式。<br/>                                             |
 | [**移除**](triggercollection-remove.md) | 從工作所用的觸發程式集合中移除指定的觸發程式。<br/> |
 
@@ -56,7 +56,7 @@ ms.locfileid: "104094223"
 
 
 
-| 屬性                                            | 存取類型          | Description                                                |
+| 屬性                                            | 存取類型          | 描述                                                |
 |:----------------------------------------------------|:---------------------|:-----------------------------------------------------------|
 | [**計數**](triggercollection-count.md)<br/> | 唯讀<br/> | 取得集合中的觸發程式數目。<br/>  |
 | [**項目**](triggercollection-item.md)<br/>   | 唯讀<br/> | 從集合中取得指定的觸發程式。<br/> |
@@ -81,9 +81,9 @@ ms.locfileid: "104094223"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                               |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                         |
-| 標頭<br/>                   | <dl> <dt>App.xaml.。h</dt> </dl> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                               |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                         |
+| 標頭<br/>                   | <dl> <dt>Windows .xaml.。h</dt> </dl> |
 | 類型程式庫<br/>             | <dl> <dt>Taskschd.msc .tlb</dt> </dl>      |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl>      |
 
@@ -93,7 +93,7 @@ ms.locfileid: "104094223"
 
 <dl> <dt>
 
-[**觸發**](trigger.md)
+[**觸發程序**](trigger.md)
 </dt> </dl>
 
  

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 6c389c2ea55ddb15c59fe30e03f392d68aa3b5ac
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2d759cbcf2a9638b54e6194bcac7e7b24254c0d37987995d511fb4ffce85f1ef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106983991"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118954957"
 ---
 # <a name="cbaserenderergetsampletimes-method"></a>CBaseRenderer. GetSampleTimes 方法
 
@@ -71,7 +71,7 @@ virtual HRESULT GetSampleTimes(
 
 
 
-| 傳回碼                                                                                                    | Description                                                                        |
+| 傳回碼                                                                                                    | 描述                                                                        |
 |----------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>                           | 範例應立即轉譯。<br/>                              |
 | <dl> <dt>**S \_ FALSE**</dt> </dl>                        | 此範例應根據時間戳記來排程轉譯。<br/> |

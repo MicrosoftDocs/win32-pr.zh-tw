@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: b664267ce2ff0dbbeeba8bc74708c9c67e185ae4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 141c65507a0d983a2b4531b93617ed741e7403b8b2a5ead9c196f78dcf61acdf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106993615"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118955377"
 ---
 # <a name="cautousingoutputpin-class"></a>CAutoUsingOutputPin 類別
 
@@ -31,7 +31,7 @@ ms.locfileid: "106993615"
 
 
 
-| 公用方法                                                           | Description                                              |
+| 公用方法                                                           | 描述                                              |
 |--------------------------------------------------------------------------|----------------------------------------------------------|
 | [**CAutoUsingOutputPin**](cautousingoutputpin-cautousingoutputpin.md)   | 函式方法。 取得指定之 pin 的存取權。 |
 | [**~ CAutoUsingOutputPin**](cautousingoutputpin--cautousingoutputpin.md) | 函式方法。 取得指定之 pin 的存取權。  |

@@ -4,12 +4,12 @@ ms.assetid: 380499e4-8697-4823-8153-29f24b2f234c
 title: InkEdit (筆跡) 的 DblClick 事件
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3fee0ec42171c9abbe0c99691f881b99db512869
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4d2f1cf2a7b7d7d699af5cd8a148e5c54a2879ad5eb879bd34af7531025748e4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975482"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119032086"
 ---
 # <a name="inkeditdblclick-event"></a>InkEdit： DblClick 事件
 
@@ -56,7 +56,7 @@ void DblClick(
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 Windows XP Tablet PC Edition \[ 桌面應用程式\]<br/>                                                 |
+| 最低支援的用戶端<br/> | Windows僅限 XP Tablet PC Edition \[ 桌面應用程式\]<br/>                                                 |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                                     |
 | 標頭<br/>                   | <dl> <dt>筆跡 (也需要筆跡 \_ c) </dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>InkEd.dll</dt> </dl>                          |

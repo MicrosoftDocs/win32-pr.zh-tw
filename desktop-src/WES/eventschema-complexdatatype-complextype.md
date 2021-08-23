@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 598f2cc02f1e3675ff0c8fd6eae7f9a5e02b9407
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f86b15defc32469dd1a4abd0f6366e1a93d4b83441b1e1518ff7ac999f30bd59
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106968581"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119055806"
 ---
 # <a name="complexdatatype-complex-type"></a>ComplexDataType 複雜類型
 
@@ -44,7 +44,7 @@ ms.locfileid: "106968581"
 
 
 
-| 元素                                                  | 類型                                                      | Description                                                                                                             |
+| 元素                                                  | 類型                                                      | 描述                                                                                                             |
 |----------------------------------------------------------|-----------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | [**資料**](eventschema-data-complexdatatype-element.md) | [**資料類型**](eventschema-datafieldtype-complextype.md) | 結構中資料項目的清單。 專案清單的順序與範本中所定義的順序相同。<br/> |
 
@@ -70,8 +70,8 @@ ms.locfileid: "106968581"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

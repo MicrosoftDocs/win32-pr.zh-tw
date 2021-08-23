@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 1cbc39dd0f1a99ff65935c66e22a79a3d1836a7a
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: d1e4c761652bff649e9cf1ab8950202430e54d940cec96b7dc62eb8a060b4534
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104035356"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118990318"
 ---
 # <a name="id3dx10skininfogetnumbones-method"></a>ID3DX10SkinInfo：： GetNumBones 方法
 

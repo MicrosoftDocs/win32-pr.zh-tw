@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f8dd28ab2247fae28af1c5f322832aebe071fab4
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ce85bab9528ccf0fd91988cc52a1d187ac428c856535ae595d65962b32fcfe9f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104508436"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118874545"
 ---
 # <a name="tf_invalidassemblylistcacheifexist-function"></a>TF \_ InvalidAssemblyListCacheIfExist 函式
 
@@ -44,7 +44,7 @@ HRESULT TF_InvalidAssemblyListCacheIfExist(void);
 
 
 
-| 傳回碼                                                                            | Description                               |
+| 傳回碼                                                                            | 描述                               |
 |----------------------------------------------------------------------------------------|-------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>   | 函數成功。<br/>   |
 | <dl> <dt>**E \_ 失敗**</dt> </dl> | 發生未指定的錯誤。<br/> |
@@ -58,7 +58,7 @@ HRESULT TF_InvalidAssemblyListCacheIfExist(void);
 沒有可定義此函式的匯入程式庫，因此必須使用 [**LoadLibrary**](/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya) 和 [**GetProcAddress**](/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress)取得此函式的指標。 下列範例示範如何取得此函式的指標。
 
 > [!Note]  
-> 不當使用 [**LoadLibrary**](/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya) 可能會載入錯誤的 DLL，進而危及應用程式的安全性。 請參閱 [動態連結程式庫搜尋順序](/windows/desktop/Dlls/dynamic-link-library-search-order) ，以取得如何使用不同版本的 Microsoft Windows 正確載入 dll 的相關資訊。
+> 不當使用 [**LoadLibrary**](/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya) 可能會載入錯誤的 DLL，進而危及應用程式的安全性。 請參閱[動態連結程式庫搜尋順序](/windows/desktop/Dlls/dynamic-link-library-search-order)，以取得如何使用不同版本的 Microsoft Windows 正確載入 dll 的相關資訊。
 
  
 

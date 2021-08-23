@@ -4,12 +4,12 @@ ms.assetid: fccf85e9-3889-4ebc-b1bf-a60e27ab4586
 title: 媒體類型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 369954a4b0d1f78e12f6ea42bcc2ec61ca425012
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: fbf79b97adb9df491aef1ff86be62fb838246c85a45b5ce251f5c0e88df5814f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106997596"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119002886"
 ---
 # <a name="media-type"></a>媒體類型
 

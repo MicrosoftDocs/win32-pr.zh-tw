@@ -12,12 +12,12 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: a0105aa8c0c8bc777ab97f751bdb7b2d819dcdb2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 62556e58f8574dc196655c8f11ca0f2bb0a670d7210aa100f96875e574a8b1b7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191434"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118967627"
 ---
 # <a name="flagtype-complex-type"></a>FlagType 複雜類型
 
@@ -33,7 +33,7 @@ ms.locfileid: "104191434"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 Windows XP Tablet PC Edition \[ 桌面應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows僅限 XP Tablet PC Edition \[ 桌面應用程式\]<br/> |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                     |
 
 

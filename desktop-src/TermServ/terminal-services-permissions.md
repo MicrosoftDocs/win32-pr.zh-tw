@@ -5,16 +5,16 @@ ms.assetid: 448a7f9b-bf12-48eb-a3e7-4512ec288d95
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8f1358a4360889bc013beefcee4e029f3572c9c0
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 668bf4902ffb133c403e5ea2f74bbc165cf99bca500c95eed5d5dac3cb48a710
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104375549"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118999888"
 ---
 # <a name="remote-desktop-services-permissions"></a>遠端桌面服務許可權
 
-您可以使用提供給遠端桌面服務的許可權，來控制使用者和群組存取伺服器的方式。 如需預設許可權類型的描述，以及一般遠端桌面服務許可權的詳細資訊，請參閱遠端桌面服務設定系統管理工具隨附的檔。 如需有關為 Windows Server 2008 設定這些許可權的詳細資訊，請參閱 [設定遠端桌面服務連接的許可權](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753032(v=ws.11))。
+您可以使用提供給遠端桌面服務的許可權，來控制使用者和群組存取伺服器的方式。 如需預設許可權類型的描述，以及一般遠端桌面服務許可權的詳細資訊，請參閱遠端桌面服務設定系統管理工具隨附的檔。 如需有關為 Windows Server 2008 設定這些許可權的詳細資訊，請參閱[設定遠端桌面服務連接的許可權](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753032(v=ws.11))。
 
 以下是您可以設定的許可權清單，以及許可權允許的工作。
 
@@ -28,7 +28,7 @@ ms.locfileid: "104375549"
 | 登入<br/>             | 登入伺服器上的會話。<br/>                                                                                                                         |
 | Logoff<br/>            | 將使用者登出會話。 請注意，在沒有警告的情況下登出使用者可能會導致用戶端的資料遺失。<br/>                                  |
 | 訊息<br/>           | 傳送訊息給其他使用者的會話。<br/>                                                                                                                 |
-| 連線<br/>           | 連接到另一個會話。<br/>                                                                                                                                |
+| 連線<br/>           | 連線到另一個會話。<br/>                                                                                                                                |
 | 中斷連線<br/>        | 中斷會話的連線。<br/>                                                                                                                                      |
 | 虛擬通道<br/>  | 使用虛擬通道。 請注意，關閉虛擬通道會停用某些遠端桌面服務功能，例如剪貼簿和印表機重新導向。<br/> |
 | 重設<br/>             | 結束會話。 請注意，在沒有警告的情況下結束會話可能會導致用戶端的資料遺失。<br/>                                                    |
