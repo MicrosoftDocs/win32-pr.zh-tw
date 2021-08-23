@@ -4,16 +4,16 @@ ms.assetid: 9a13071a-95a1-4330-92d5-11fa72a8f211
 title: 正在抓取裝置的功能物件識別碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f6a753324e24a6b78625a78b4128380288b6672f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 93d0cc686a6997c10e26e3d83190503bba09fe15afc7f4e0cf75e297f0d905f2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106997814"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119262998"
 ---
 # <a name="retrieving-the-functional-object-identifiers-for-a-device"></a>正在抓取裝置的功能物件識別碼
 
-如「取得 [裝置所支援的功能分類](retrieving-the-functional-categories-supported-by-a-device.md) 」主題所述，Windows 可攜式裝置可支援一或多個功能類別。 任何指定的功能類別都可支援一個或多個功能物件。 例如，儲存體類別目錄可能支援三個功能儲存物件，每個物件都是由唯一識別碼字串來識別。 然後，第一個儲存物件可以透過字串 "Storage1" 來識別，並以字串 ">storage2" 來識別，而第三個儲存物件則是以字串 "Storage3" 來識別。
+如「取得[裝置所支援的功能分類](retrieving-the-functional-categories-supported-by-a-device.md)」主題所述，Windows 可攜式裝置可支援一或多個功能類別。 任何指定的功能類別都可支援一個或多個功能物件。 例如，儲存體類別目錄可能支援三個功能儲存物件，每個物件都是由唯一識別碼字串來識別。 然後，第一個儲存物件可以透過字串 "Storage1" 來識別，並以字串 ">storage2" 來識別，而第三個儲存物件則是以字串 "Storage3" 來識別。
 
 DeviceCapabilities .cpp 模組中的 ListFunctionalObjects 函式會示範如何抓取所選裝置所支援之功能類別目錄的內容類型。
 

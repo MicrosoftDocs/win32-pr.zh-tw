@@ -5,19 +5,19 @@ ms.tgt_platform: multiple
 title: 使用 WMI 從遠端建立進程
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 55e7b97f8f4fdddd608f6ee8c3368bde6ad6e854
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 152afa1dba2e745665526ca1628f2a80b8fc8a527d16abebc4b9082d4c5c4341
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103694472"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119568848"
 ---
 # <a name="creating-processes-remotely-using-wmi"></a>使用 WMI 從遠端建立進程
 
 您可以使用 [**Win32 \_ 進程建立**](/windows/desktop/CIMWin32Prov/create-method-in-class-win32-process) ，在遠端電腦上執行腳本或應用程式。 不過，基於安全性理由，此程式不能是互動式的。 在本機電腦上呼叫 **Win32 \_ 進程** 時，進程可以是互動式的。
 
 > [!WARNING]
-> 本主題說明使用 WMI 建立遠端進程的一般程式。 如果您只是想要在遠端系統上執行腳本，請參閱 [從 Windows Vista 開始遠端連線到 wmi](connecting-to-wmi-remotely-starting-with-vista.md)，或 [使用 Windows PowerShell 連接到遠端電腦上的 wmi](connecting-to-wmi-on-a-remote-computer-by-using-powershell.md)。 如需有關使用 PowerShell 進行遠端處理的一般資訊，請參閱執行 [遠端命令](https://technet.microsoft.com/library/dd819505.aspx)。
+> 本主題說明使用 WMI 建立遠端進程的一般程式。 如果您只是想要在遠端系統上執行腳本，請參閱[從 Windows Vista 開始遠端連線到 wmi](connecting-to-wmi-remotely-starting-with-vista.md)，或[使用 Windows PowerShell 連接到遠端電腦上的 wmi](connecting-to-wmi-on-a-remote-computer-by-using-powershell.md)。 如需有關使用 PowerShell 進行遠端處理的一般資訊，請參閱執行 [遠端命令](https://technet.microsoft.com/library/dd819505.aspx)。
 
  
 

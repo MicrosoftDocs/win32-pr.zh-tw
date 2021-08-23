@@ -13,18 +13,18 @@ api_type:
 - DllExport
 api_location:
 - Shell32.dll
-ms.openlocfilehash: ae50ad570211303cdfb7aa8e86908593ab48537d
-ms.sourcegitcommit: 0e611cdff84ff9f897c59e4e1d2b2d134bc4e133
+ms.openlocfilehash: 4389c348a06b7c54dc899da8114eee09e740681f043084bb0c32ab9f7163772e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "106984496"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119591828"
 ---
 # <a name="wowshellexecute-function"></a>WOWShellExecute 函式
 
-\[您可以透過 Windows XP Service Pack 2 (SP2) 和 Windows Server 2003 來取得此函式。 它可能會在後續版本的 Windows 中改變或無法使用。\]
+\[您可以透過 Windows XP Service Pack 2 (SP2) 和 Windows Server 2003 來取得此函式。 它可能會在 Windows 的後續版本中變更或無法使用。\]
 
-在指定的檔案上執行操作。 **WOWShellExecute** 僅適用于 Microsoft WINDOWS NT 虛擬 DOS 機器 (Ntvdm.exe) ，可讓磁片作業系統 (DOS) 和16位軟體在 Windows 系統上執行，而且不應該由其他人使用。 請改用 [**ShellExecute**](/windows/desktop/api/Shellapi/nf-shellapi-shellexecutea) 。
+在指定的檔案上執行操作。 **WOWShellExecute** 僅適用于 Microsoft Windows NT 虛擬 DOS 機器 (Ntvdm.exe) ，可讓磁片作業系統 (DOS) 和16位軟體在 Windows 系統上執行，而且不應該由其他人使用。 請改用 [**ShellExecute**](/windows/desktop/api/Shellapi/nf-shellapi-shellexecutea) 。
 
 ## <a name="syntax"></a>語法
 
@@ -127,7 +127,7 @@ HINSTANCE WOWShellExecute(
 
 </dt> <dd>
 
-若為 Windows 2000 之前的系統，則會使用預設動詞（如果它是有效且可在登錄中使用）。 如果沒有，則會使用 "open" 動詞。
+針對 Windows 2000 之前的系統，如果預設動詞命令有效且可在登錄中使用，則會使用預設動詞。 如果沒有，則會使用 "open" 動詞。
 
 若為 Windows 2000 和更新版本的系統，則會使用預設動詞（如果有的話）。 如果沒有，則會使用 "open" 動詞。 如果沒有可用的動詞命令，系統會使用登錄中列出的第一個動詞。
 
@@ -186,23 +186,23 @@ HINSTANCE WOWShellExecute(
 
 
 
-| 傳回碼                                                                                             | Description                                                                                                                                                              |
+| 傳回碼                                                                                             | 描述                                                                                                                                                              |
 |---------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**0**</dt> </dl>                        | 作業系統已用盡記憶體或資源。<br/>                                                                                                           |
 | <dl> <dt>**\_ \_ \_ 找不到錯誤檔案**</dt> </dl>  | 找不到指定的檔案。<br/>                                                                                                                             |
 | <dl> <dt>**\_ \_ 找不到錯誤路徑 \_**</dt> </dl>  | 找不到指定的路徑。<br/>                                                                                                                             |
-| <dl> <dt>**錯誤 \_ \_ 格式錯誤**</dt> </dl>       | .Exe 檔 (非 Win32 .exe 或 .exe 映射) 中的錯誤無效。<br/>                                                                                             |
-| <dl> <dt>**SE \_ ERR \_ ACCESSDENIED**</dt> </dl>    | 作業系統拒絕存取指定的檔案。<br/>                                                                                                     |
-| <dl> <dt>**SE \_ ERR \_ ASSOCINCOMPLETE**</dt> </dl> | 檔案名關聯未完成或無效。<br/>                                                                                                           |
-| <dl> <dt>**SE \_ ERR \_ DDEBUSY**</dt> </dl>         | 無法完成 DDE 交易，因為正在處理其他 DDE 交易。<br/>                                                               |
-| <dl> <dt>**SE \_ ERR \_ DDEFAIL**</dt> </dl>         | DDE 交易失敗。<br/>                                                                                                                                   |
-| <dl> <dt>**SE \_ ERR \_ DDETIMEOUT**</dt> </dl>      | 因為要求超時，所以無法完成 DDE 交易。<br/>                                                                                     |
-| <dl> <dt>**SE \_ ERR \_ DLLNOTFOUND**</dt> </dl>     | 找不到指定的 DLL。<br/>                                                                                                                              |
-| <dl> <dt>**SE \_ ERR \_ FNF**</dt> </dl>             | 找不到指定的檔案。<br/>                                                                                                                             |
-| <dl> <dt>**SE \_ ERR \_ NOASSOC**</dt> </dl>         | 沒有與指定副檔名相關聯的應用程式。 如果您嘗試列印無法列印的檔案，也會傳回此錯誤。<br/> |
-| <dl> <dt>**SE \_ ERR \_ OOM**</dt> </dl>             | 沒有足夠的記憶體可完成此作業。<br/>                                                                                                        |
-| <dl> <dt>**SE \_ ERR \_ PNF**</dt> </dl>             | 找不到指定的路徑。<br/>                                                                                                                             |
-| <dl> <dt>**SE \_ ERR \_ 共用**</dt> </dl>           | 發生共用違規。<br/>                                                                                                                                 |
+| <dl> <dt>**錯誤 \_ \_ 格式錯誤**</dt> </dl>       | .exe 的檔案在 .exe 影像) 中 (非 Win32 .exe 或錯誤時無效。<br/>                                                                                             |
+| <dl> <dt>**SE \_ERR \_ ACCESSDENIED**</dt> </dl>    | 作業系統拒絕存取指定的檔案。<br/>                                                                                                     |
+| <dl> <dt>**SE \_ERR \_ ASSOCINCOMPLETE**</dt> </dl> | 檔案名關聯未完成或無效。<br/>                                                                                                           |
+| <dl> <dt>**SE \_ERR \_ DDEBUSY**</dt> </dl>         | 無法完成 DDE 交易，因為正在處理其他 DDE 交易。<br/>                                                               |
+| <dl> <dt>**SE \_ERR \_ DDEFAIL**</dt> </dl>         | DDE 交易失敗。<br/>                                                                                                                                   |
+| <dl> <dt>**SE \_ERR \_ DDETIMEOUT**</dt> </dl>      | 因為要求超時，所以無法完成 DDE 交易。<br/>                                                                                     |
+| <dl> <dt>**SE \_ERR \_ DLLNOTFOUND**</dt> </dl>     | 找不到指定的 DLL。<br/>                                                                                                                              |
+| <dl> <dt>**SE \_ERR \_ FNF**</dt> </dl>             | 找不到指定的檔案。<br/>                                                                                                                             |
+| <dl> <dt>**SE \_ERR \_ NOASSOC**</dt> </dl>         | 沒有與指定副檔名相關聯的應用程式。 如果您嘗試列印無法列印的檔案，也會傳回此錯誤。<br/> |
+| <dl> <dt>**SE \_ERR \_ OOM**</dt> </dl>             | 沒有足夠的記憶體可完成此作業。<br/>                                                                                                        |
+| <dl> <dt>**SE \_ERR \_ PNF**</dt> </dl>             | 找不到指定的路徑。<br/>                                                                                                                             |
+| <dl> <dt>**SE \_錯誤 \_ 共用**</dt> </dl>           | 發生共用違規。<br/>                                                                                                                                 |
 
 
 

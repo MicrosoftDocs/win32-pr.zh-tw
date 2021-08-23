@@ -3,7 +3,7 @@ title: 使用中繼檔播放清單
 description: 使用中繼檔播放清單
 ms.assetid: f5711a7f-7674-4b92-8262-cee8bac4aa77
 keywords:
-- Windows Media 中繼檔播放清單，關於
+- Windows媒體中繼檔播放清單，關於
 - 播放清單，關於
 - 中繼檔播放清單，關於
 ms.topic: article
@@ -13,12 +13,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 71f245d1fc1610174f842347a15dfcfaa13286e0
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ec4cd47584aaba961d9faa3ba2058ab45145839787f702755ccb7a00fffbe827
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839559"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119465858"
 ---
 # <a name="using-metafile-playlists"></a>使用中繼檔播放清單
 
@@ -31,7 +31,7 @@ ms.locfileid: "103839559"
 | 主題                                                                                              | 描述                                                                                                                                                    |
 |----------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [修改顯示](modifying-the-display.md)                                                 | 加入文字、連結和影像。                                                                                                                                |
-| [重新導向](redirection.md)                                                                     | 使用播放清單將瀏覽器重新導向至 Windows Media Player，並指定要播放之資料流程或媒體檔案的 URL。                                      |
+| [重 定向](redirection.md)                                                                     | 使用播放清單將瀏覽器重新導向至 Windows Media Player，並指定要播放之資料流程或媒體檔案的 URL。                                      |
 | [存取媒體](accessing-media.md)                                                             | 使用中繼檔專案及其子項目來指定要存取的內容，以及其播放的順序和持續時間。                               |
 | [使用即時事件串流切換](using-live-event-stream-switching.md)                         | 使用 **EVENT** 元素來指定要存取的媒體資料流程，然後繼續播放原始資料流程。 用於廣告插入。                            |
 | [使用中繼檔進行順暢的串流切換](using-metafiles-for-seamless-stream-switching.md) | 使用 **事件** 專案預先載入下一個媒體資料流程以進行存取，以避免呈現中出現間距。                                                      |
@@ -42,7 +42,7 @@ ms.locfileid: "103839559"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -51,15 +51,15 @@ ms.locfileid: "103839559"
 [**中繼檔播放清單**](metafile-playlists.md)
 </dt> <dt>
 
-[**Windows Media 中繼檔元素參考**](windows-media-metafile-elements-reference.md)
+[**Windows媒體中繼檔元素參考**](windows-media-metafile-elements-reference.md)
 </dt> <dt>
 
-[**Windows Media 中繼檔指南**](windows-media-metafile-guide.md)
+[**Windows媒體中繼檔指南**](windows-media-metafile-guide.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

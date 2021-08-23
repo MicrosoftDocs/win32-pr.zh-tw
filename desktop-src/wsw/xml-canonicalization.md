@@ -3,17 +3,17 @@ title: XML 標準化
 description: XML 標準化可解決將一組 XML 節點轉換為位元組的問題，這種方式可讓 XML (的簡單變更，例如變更元素中屬性的順序) 不會變更產生的位元組格式。
 ms.assetid: a64303a1-efc4-4c91-ab8d-3e389a655b3e
 keywords:
-- 適用于 Windows 的 XML 標準化 Web 服務
+- Windows 的 XML 標準化 Web 服務
 - WWSAPI
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bab8b1aa00b99b604276a479f1a47aacb5bd8b1e
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: 8db77e449c4e3d6ee5f6e2cb474c84a6b1161a4fee87c35d01d278882b178cc7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "103842900"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119082982"
 ---
 # <a name="xml-canonicalization"></a>XML 標準化
 

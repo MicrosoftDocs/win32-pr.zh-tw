@@ -4,12 +4,12 @@ ms.assetid: 2b9c6511-ae79-498f-a20c-ccb32a623d42
 title: 並存元件共用
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a94295baf2c29733c0ec366f9476a4dbf5cc3f40
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 59dcfbb40040b51fc2e17d3707d4a76c7ea5ddadf1806e41b7a7fbd81860ae15
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103945047"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119141807"
 ---
 # <a name="side-by-side-assembly-sharing"></a>並存元件共用
 

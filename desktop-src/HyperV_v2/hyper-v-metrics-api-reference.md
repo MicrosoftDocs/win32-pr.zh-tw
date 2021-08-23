@@ -4,12 +4,12 @@ ms.assetid: 00235614-9FCB-4161-B03D-9D557050153B
 title: Hyper-v 計量 API 參考
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bdd4945bd390d995378c290f846335371fead753
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b833d96d26a3c48183c341ab0f1ff2bc9f5b178ca4439e1c035d82551ec3e094
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106986865"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119532248"
 ---
 # <a name="hyper-v-metrics-api-reference"></a>Hyper-v 計量 API 參考
 

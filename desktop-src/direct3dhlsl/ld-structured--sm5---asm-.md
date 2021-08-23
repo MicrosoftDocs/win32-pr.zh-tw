@@ -4,12 +4,12 @@ description: 從結構化緩衝區中讀取 1-4 32 位元件的隨機存取。
 ms.assetid: ED572B76-FF6C-405E-9110-4B12AD5E5AE6
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 00a34bafdcfbe0658723dd83d62507e255ff4bfa
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
-ms.translationtype: HT
+ms.openlocfilehash: dfb3c19b56271a02c20ff85dd71352b545843f62b3d01292e87c2edbd6384d83
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104373831"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119562308"
 ---
 # <a name="ld_structured-sm5---asm"></a>ld \_ 結構化 (sm5-asm) 
 
@@ -73,7 +73,7 @@ cs \_ 4 \_ 0 和 cs \_ 4 \_ 1 支援這個 UAV、SRV 和 TGSM 的指令。
 
 
 
-| 頂點 | 船體 | 網域 | 幾何 | 像素 | 計算 |
+| 頂點 | 船體 | 網域 | 幾何形狀 | 像素 | 計算 |
 |--------|------|--------|----------|-------|---------|
 | X      | X    | X      | X        | X     | X       |
 
@@ -85,7 +85,7 @@ cs \_ 4 \_ 0 和 cs \_ 4 \_ 1 支援這個 UAV、SRV 和 TGSM 的指令。
 
 
 
-| 頂點 | 船體 | 網域 | 幾何 | 像素 | 計算 |
+| 頂點 | 船體 | 網域 | 幾何形狀 | 像素 | 計算 |
 |--------|------|--------|----------|-------|---------|
 | X      | X    | X      | X        | X     | X       |
 
@@ -102,11 +102,11 @@ cs \_ 4 \_ 0 和 cs \_ 4 \_ 1 支援這個 UAV、SRV 和 TGSM 的指令。
 | 著色器模型                                              | 支援 |
 |-----------------------------------------------------------|-----------|
 | [著色器模型5](d3d11-graphics-reference-sm5.md)        | 是       |
-| [著色器模型4。1](dx-graphics-hlsl-sm4.md)              | 不可以        |
-| [著色器模型4](dx-graphics-hlsl-sm4.md)                | 不可以        |
-| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 不可以        |
-| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 不可以        |
-| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 不可以        |
+| [著色器模型4。1](dx-graphics-hlsl-sm4.md)              | 否        |
+| [著色器模型4](dx-graphics-hlsl-sm4.md)                | 否        |
+| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 否        |
+| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 否        |
+| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 否        |
 
 
 

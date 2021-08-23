@@ -4,12 +4,12 @@ ms.assetid: fd0ec0c7-97eb-422f-866f-04a2e749a3f3
 title: stream 屬性
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8e185a3603c61a5d7148e3490932c83592409b93
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fa9278171b24cae4ee5c34f659d06a3d5fa1c60b0b043a966f699fab89c9d242
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103851380"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119329778"
 ---
 # <a name="stream-attribute"></a>stream 屬性
 

@@ -4,12 +4,12 @@ ms.assetid: aff16483-a9ed-4675-8e87-8adf695605ee
 title: FeatureComponents 資料表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d6c93a7c020f179843916b063b48e2e4d19f7bf2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7635a43784ee7e8fbb71c7161bb07d39ffe5238177ea2a7cdaabdeb18dc41e20
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103691791"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119430868"
 ---
 # <a name="featurecomponents-table"></a>FeatureComponents 資料表
 
@@ -21,7 +21,7 @@ FeatureComponents 資料表具有下列資料行。
 
 | Column      | 類型                         | 答案 | Nullable |
 |-------------|------------------------------|-----|----------|
-| 功能\_   | [識別碼](identifier.md) | Y   | N        |
+| 特徵\_   | [識別碼](identifier.md) | Y   | N        |
 | 元件\_ | [識別碼](identifier.md) | Y   | N        |
 
 

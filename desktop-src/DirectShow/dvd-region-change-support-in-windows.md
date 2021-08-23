@@ -4,12 +4,12 @@ ms.assetid: db3e5a03-ca92-48c6-a4fe-575975996cd4
 title: Windows 中的 DVD 區域變更支援
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 07e113fd7310f426e2225c54fcb66ab663052b1e
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: f73a1ae16d1f74d2282b151d02ecbf5af5f1fcaca10466d09a838a510cecb1ee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103935847"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119537358"
 ---
 # <a name="dvd-region-change-support-in-windows"></a>Windows 中的 DVD 區域變更支援
 

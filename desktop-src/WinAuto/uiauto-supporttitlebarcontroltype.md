@@ -21,12 +21,12 @@ keywords:
 - 控制項類型，標題列
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8f9471d08479345bf8c1df118f720bf273d4d89d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3ee83d3fb61b58bf627a424ec9fbe2c230968c07e8ae000f5af39d1682c3ddca
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103932542"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119570418"
 ---
 # <a name="titlebar-control-type"></a>標題列控制項類型
 
@@ -75,7 +75,7 @@ ms.locfileid: "103932542"
 
 
 
- 
+ 
 
 ## <a name="relevant-properties"></a>相關屬性
 
@@ -99,7 +99,7 @@ ms.locfileid: "103932542"
 
 
 
- 
+ 
 
 ## <a name="required-control-patterns"></a>必要的控制項模式
 
@@ -121,7 +121,7 @@ ms.locfileid: "103932542"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -136,9 +136,9 @@ ms.locfileid: "103932542"
 [UI 自動化概觀](uiauto-uiautomationoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

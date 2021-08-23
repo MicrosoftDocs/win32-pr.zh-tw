@@ -9,12 +9,12 @@ keywords:
 - IReconcileInitiator
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b925e7055e15f6c7a49408aa28d147fb2eef5a7e
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: dc4161796999172e6ee9bc7c403e723f9f8bafe7e876b544888fa5e7105b724f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104375001"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119556938"
 ---
 # <a name="creating-briefcase-reconcilers"></a>建立公事包 Reconcilers
 
@@ -69,10 +69,10 @@ ms.locfileid: "104375001"
 
 ```
 CLSID
-   {the file CLSID}
-      Roles
-         Reconciler
-            (Default) = {the reconciler-classid}
+   {the file CLSID}
+      Roles
+         Reconciler
+            (Default) = {the reconciler-classid}
 ```
 
 類別必須是快速載入、必須指定為 \_ MULTIPLEUSE，而且除非提供對等式介面的封送處理器，否則必須是 DLL) 中所包含的同進程伺服器 (，而不是在 .exe 檔) 中實作為本機伺服器 (。
@@ -113,17 +113,17 @@ CLSID
 
 ### <a name="briefcase-reconciler-interfaces-and-methods"></a>公事包調整器介面和方法
 
--   [**IReconcilableObject**](/windows/win32/api/reconcil/nn-reconcil-ireconcilableobject) 
+-   [**IReconcilableObject**](/windows/win32/api/reconcil/nn-reconcil-ireconcilableobject) 
     -   -   [**IReconcilableObject::GetProgressFeedbackMaxEstimate**](/windows/win32/api/reconcil/nf-reconcil-ireconcilableobject-getprogressfeedbackmaxestimate)
         -   [**IReconcilableObject：：調解**](/windows/win32/api/reconcil/nf-reconcil-ireconcilableobject-reconcile)
 
--   [**IReconcileInitiator**](ireconcileinitiator.md) 
+-   [**IReconcileInitiator**](ireconcileinitiator.md) 
     -   -   [**IReconcileInitiator::SetAbortCallback**](/windows/win32/api/reconcil/nf-reconcil-ireconcileinitiator-setabortcallback)
         -   [**IReconcileInitiator::SetProgressFeedback**](/windows/win32/api/reconcil/nf-reconcil-ireconcileinitiator-setprogressfeedback)
 
--   [**INotifyReplica**](/windows/desktop/api/reconcil/nn-reconcil-inotifyreplica) 
+-   [**INotifyReplica**](/windows/desktop/api/reconcil/nn-reconcil-inotifyreplica) 
     -   -   [**INotifyReplica::YouAreAReplica**](/windows/desktop/api/reconcil/nf-reconcil-inotifyreplica-youareareplica)
 
- 
+ 
 
- 
+ 

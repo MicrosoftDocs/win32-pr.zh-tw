@@ -14,16 +14,16 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 28f5c73b35bb0ea2cae9d01324d82e1568485541
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 365c5989f7118408ef31b7a3f0c6b3d91f98502127ef2c5161a9f276296732b7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845231"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119301918"
 ---
 # <a name="lm-pwd-history-attribute"></a>Lm-Pwd-歷程記錄屬性
 
-LAN Manager 使用者的密碼歷程記錄 (LM) 單向格式 (OWF) 。 LM OWF 是用於與 LAN Manager 2 的相容性。*x* 用戶端、windows 95 和 windows 98。
+LAN Manager 使用者的密碼歷程記錄 (LM) 單向格式 (OWF) 。 LM OWF 是用於與 LAN Manager 2 的相容性。*x* 用戶端、Windows 95 和 Windows 98。
 
 
 
@@ -66,7 +66,7 @@ LAN Manager 使用者的密碼歷程記錄 (LM) 單向格式 (OWF) 。 LM OWF �
 | Range-Upper            | \-                                |
 | Search-Flags           | 0x00000000                        |
 | System-Flags           | 0x00000010                        |
-| 中使用的類別        | [**User**](c-user.md)<br/> |
+| 中使用的類別        | [**使用者**](c-user.md)<br/> |
 
 
 
@@ -87,7 +87,7 @@ LAN Manager 使用者的密碼歷程記錄 (LM) 單向格式 (OWF) 。 LM OWF �
 | Range-Upper            | \-                                |
 | Search-Flags           | 0x00000000                        |
 | System-Flags           | 0x00000010                        |
-| 中使用的類別        | [**User**](c-user.md)<br/> |
+| 中使用的類別        | [**使用者**](c-user.md)<br/> |
 
 
 
@@ -108,7 +108,7 @@ LAN Manager 使用者的密碼歷程記錄 (LM) 單向格式 (OWF) 。 LM OWF �
 | Range-Upper            | \-                                |
 | Search-Flags           | 0x00000000                        |
 | System-Flags           | 0x00000010                        |
-| 中使用的類別        | [**User**](c-user.md)<br/> |
+| 中使用的類別        | [**使用者**](c-user.md)<br/> |
 
 
 
@@ -129,7 +129,7 @@ LAN Manager 使用者的密碼歷程記錄 (LM) 單向格式 (OWF) 。 LM OWF �
 | Range-Upper            | \-                                |
 | Search-Flags           | 0x00000000                        |
 | System-Flags           | 0x00000010                        |
-| 中使用的類別        | [**User**](c-user.md)<br/> |
+| 中使用的類別        | [**使用者**](c-user.md)<br/> |
 
 
 
@@ -150,7 +150,7 @@ LAN Manager 使用者的密碼歷程記錄 (LM) 單向格式 (OWF) 。 LM OWF �
 | Range-Upper            | \-                                |
 | Search-Flags           | 0x00000000                        |
 | System-Flags           | 0x00000010                        |
-| 中使用的類別        | [**User**](c-user.md)<br/> |
+| 中使用的類別        | [**使用者**](c-user.md)<br/> |
 
 
 

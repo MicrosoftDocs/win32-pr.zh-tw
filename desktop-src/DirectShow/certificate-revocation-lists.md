@@ -4,12 +4,12 @@ ms.assetid: 146e7e4a-4281-4f5c-8346-d6c0d5f5442f
 title: 憑證撤銷清單
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b51ddee9f77b147d69b8895b3335d41e041da7f2
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 703bb8813e95ebfe07783fa07284b2ae7dad0df2ff8a9205234ee9a4514192d0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106998423"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119537300"
 ---
 # <a name="certificate-revocation-lists"></a>憑證撤銷清單
 
@@ -17,15 +17,15 @@ ms.locfileid: "106998423"
 
 CRL 包含已撤銷憑證的摘要，而且只能由 Microsoft 提供及簽署。 CRL 是透過數位版權管理 (DRM) 授權散發。 CRL 可以撤銷驅動程式憑證鏈中的任何憑證。 如果鏈中有任何憑證遭到撤銷，則該憑證和鏈中的所有憑證也會一併撤銷。
 
-若要取得 CRL，應用程式必須使用 Windows Media Format SDK 9 版或更新版本，然後執行下列步驟：
+若要取得 CRL，應用程式必須使用 Windows 媒體格式 SDK 9 版或更新版本，然後執行下列步驟：
 
-1.  呼叫 **WMCreateReader** 來建立 Windows MEDIA Format SDK 讀取器物件。
+1.  呼叫 **WMCreateReader** 來建立 Windows 媒體格式 SDK 讀取器物件。
 2.  查詢 **IWMDRMReader** 介面的 reader 物件。
 3.  呼叫 **IWMDRMReader：： GetDRMProperty** ，其值為 g \_ wszWMDRMNet \_ 撤銷以取得 CRL。 您必須呼叫這個方法兩次：一次是取得要配置的緩衝區大小，以及一次填滿緩衝區。 第二個呼叫會傳回包含 CRL 的字串。 整個字串是以64為基礎的編碼。
 4.  將 base-64 編碼的字串解碼。 您可以使用 **CryptStringToBinary** 函數來執行此動作。 此函數是 CryptoAPI 的一部分。
 
 > [!Note]  
-> 若要使用 **IWMDRMReader** 介面，您必須從 Microsoft 取得靜態 DRM 程式庫，並將您的應用程式連結至此程式庫檔案。 如需詳細資訊，請參閱 Windows Media Format SDK 檔中的「取得必要的 DRM 程式庫」主題。
+> 若要使用 **IWMDRMReader** 介面，您必須從 Microsoft 取得靜態 DRM 程式庫，並將您的應用程式連結至此程式庫檔案。 如需詳細資訊，請參閱 Windows 媒體格式 SDK 檔中的「取得必要的 DRM 程式庫」主題。
 
  
 

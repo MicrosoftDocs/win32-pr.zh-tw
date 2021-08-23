@@ -4,12 +4,12 @@ ms.assetid: 56ec2372-0fd3-4220-a283-5d9691fe2e69
 title: 'LinearGradientBrush. GetRectangle 方法 (Gdiplusheaders .h) '
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 1d22dfbe8c32c4f8ccb7e902455ae68d7018590c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1e7344b2406bf3d9da9d015a09f586cb2ba9c5bddda4e03cdb7ce6b823bff659
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192364"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119467588"
 ---
 # <a name="lineargradientbrushgetrectangle-methods"></a>LinearGradientBrush. GetRectangle 方法
 
@@ -32,9 +32,9 @@ ms.locfileid: "104192364"
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 windows XP、Windows 2000 Professional \[ desktop 應用程式\]<br/>                                          |
+| 最低支援的用戶端<br/> | WindowsXP、Windows 2000 Professional \[ 僅限桌面應用程式\]<br/>                                          |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                            |
-| 產品<br/>                  | GDI + 1。0<br/>                                                                                             |
+| 產品<br/>                  | GDI+ 1。0<br/>                                                                                             |
 | 標頭<br/>                   | <dl> <dt>Gdiplusheaders (包含 Gdiplus.dll) </dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>Gdiplus.dll .lib</dt> </dl>                          |
 

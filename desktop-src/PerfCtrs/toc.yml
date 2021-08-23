@@ -281,7 +281,7 @@
           href: performance-counters-types.md
         - name: 效能資料協助程式錯誤碼
           href: pdh-error-codes.md
-        - name: SQL 記錄檔架構
+        - name: SQL記錄檔架構
           href: sql-log-file-schema.md
           items:
             - name: CounterData

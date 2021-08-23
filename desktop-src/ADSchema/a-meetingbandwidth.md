@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: acbd2c8c45e223a39ae715f4b50b3f8622e228bf
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 6bce3c69f989269cb7542c672b5ca36eed369818bf3e5bf781b9c6aa08260639
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106969009"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119300948"
 ---
 # <a name="meetingbandwidth-attribute"></a>meetingBandwidth 屬性
 

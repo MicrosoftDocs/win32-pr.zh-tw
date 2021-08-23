@@ -4,12 +4,12 @@ ms.assetid: 8589130C-AC31-42A1-B248-11AA26EC34D4
 title: 筆墨轉譯器介面
 ms.topic: article
 ms.date: 02/03/2020
-ms.openlocfilehash: d361e2addd732298bcf174875f9463989da61dbb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f5a5fd609eb29694e84e1884304fafcac2dfafa31b47c36a7ce300484bd887ce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193781"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119352058"
 ---
 # <a name="ink-renderer-interfaces"></a>筆墨轉譯器介面
 
@@ -19,7 +19,7 @@ ms.locfileid: "104193781"
 
 | 主題                                                 | 描述                                                                                                                                                                                                                                            |
 |-------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**IInkD2DRenderer**](/windows/desktop/api/inkrenderer/nn-inkrenderer-iinkd2drenderer)<br/> | [**IInkD2DRenderer**](/windows/desktop/api/inkrenderer/nn-inkrenderer-iinkd2drenderer)物件可將筆墨筆劃轉譯至通用 Windows 應用程式的指定 Direct2D 裝置內容，而不是預設的 [**InkCanvas**](/uwp/api/Windows.UI.Xaml.Controls.InkCanvas)控制項。<br/> |
+| [**IInkD2DRenderer**](/windows/desktop/api/inkrenderer/nn-inkrenderer-iinkd2drenderer)<br/> | [**IInkD2DRenderer**](/windows/desktop/api/inkrenderer/nn-inkrenderer-iinkd2drenderer)物件可將筆墨筆劃轉譯到通用 Windows 應用程式的指定 Direct2D 裝置內容，而不是預設的 [**InkCanvas**](/uwp/api/Windows.UI.Xaml.Controls.InkCanvas)控制項。<br/> |
 
 ## <a name="related-topics"></a>相關主題
 

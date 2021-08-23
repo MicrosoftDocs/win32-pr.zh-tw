@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 使用 MOF 程式碼建立子命名空間
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7f80aa04e2ef4f5c7bbfc43d9020727b3b2a6e0d
-ms.sourcegitcommit: b7a1da2711221fa99072079bf52399cbdfc6bd9d
+ms.openlocfilehash: 9d29edf493cb94c92715214dd2d7e7622ae12e831e71322afa8ad590272c6dc6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "104027692"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119244638"
 ---
 # <a name="creating-a-child-namespace-with-mof-code"></a>使用 MOF 程式碼建立子命名空間
 

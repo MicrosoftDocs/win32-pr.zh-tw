@@ -4,12 +4,12 @@ ms.assetid: 899e2939-e028-4be1-9f08-9a79bf97eb37
 title: 終止處理
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e926a47a3c0bb4f2cb8a8df350807aee89b49bab
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: b23e2c81465ab9d469d3d5c503c12f5bf1c7a333507d302f3e5639e0158834e8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847304"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119292957"
 ---
 # <a name="termination-handling"></a>終止處理
 

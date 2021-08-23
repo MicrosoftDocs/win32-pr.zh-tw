@@ -8,12 +8,12 @@ keywords:
 - WOW64 64 位 Windows 程式設計，檔案系統重新導向程式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 568ddde85d18f90b951051251774c3509081dfdd
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 318a04d85309ca6c97c87ae2d6a580a85f1a4ee224e162a008034e731a1ff557
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111443629"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119569968"
 ---
 # <a name="file-system-redirector"></a>檔案系統重新導向程式
 
@@ -50,19 +50,19 @@ ms.locfileid: "111443629"
 % windir% \\ system32 多工 \\ 緩衝處理  
 </dl>
 
-* * Windows Server 2008、Windows Vista、Windows Server 2003 和 Windows XP： * *% windir% \\ system32 \\ driverstore 已重新導向。
+* * Windows server 2008、Windows Vista、Windows Server 2003 和 Windows XP： * *% windir% \\ system32 \\ driverstore 會重新導向。
 
-若要取出32位系統目錄的名稱，64位應用程式應該使用 [**GetSystemWow64Directory2**](/windows/desktop/api/wow64apiset/nf-wow64apiset-getsystemwow64directory2a) 函式 (Windows 10、1511版) 或 [**GetSystemWow64Directory**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetknownfolderpath) 函數。
+若要取出32位系統目錄的名稱，64位應用程式應該使用 [**GetSystemWow64Directory2**](/windows/desktop/api/wow64apiset/nf-wow64apiset-getsystemwow64directory2a)函式 (Windows 10、1511版) 或 [**GetSystemWow64Directory**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetknownfolderpath)函數。
 
 應用程式應該使用 [**SHGetKnownFolderPath**](https://www.bing.com/search?q=**SHGetKnownFolderPath**) 函式來判斷% ProgramFiles% 的目錄名稱。
 
-**Windows Server 2003 和 WINDOWS XP：** 應用程式應該使用 [**SHGetSpecialFolderPath**](/windows/win32/api/shlobj_core/nf-shlobj_core-shgetspecialfolderpatha) 函式來判斷% ProgramFiles% 的目錄名稱。
+**Windows Server 2003 和 Windows XP：** 應用程式應該使用 [**SHGetSpecialFolderPath**](/windows/win32/api/shlobj_core/nf-shlobj_core-shgetspecialfolderpatha)函式來判斷% ProgramFiles% 的目錄名稱。
 
 應用程式可以使用 [**Wow64DisableWow64FsRedirection**](/windows/desktop/api/wow64apiset/nf-wow64apiset-wow64disablewow64fsredirection)、 [**Wow64EnableWow64FsRedirection**](/windows/desktop/api/winbase/nf-winbase-wow64enablewow64fsredirection)和 [**WOW64REVERTWOW64FSREDIRECTION**](/windows/desktop/api/wow64apiset/nf-wow64apiset-wow64revertwow64fsredirection) 函式來控制 WOW64 檔案系統重新導向器。 停用檔案系統重新導向會影響呼叫執行緒所執行的所有檔案作業，因此只有在單一 [**CreateFile**](/windows/desktop/api/fileapi/nf-fileapi-createfilea) 呼叫需要時才會停用，並且在函式傳回之後立即重新啟用。 停用較長期間的檔案系統重新導向可能會導致32位應用程式無法載入系統 Dll，導致應用程式失敗。
 
 32位應用程式可以藉由將% windir% \\ Sysnative 取代為% windir% System32 來存取原生系統目錄 \\ 。 WOW64 會將 Sysnative 辨識為特殊別名，用來指出檔案系統不應重新導向存取。 這項機制很有彈性且容易使用，因此建議您最好使用此機制來略過檔案系統重新導向。 請注意，64位應用程式無法使用 Sysnative 別名，因為它是虛擬目錄，而不是真正的目錄。
 
-**Windows Server 2003 和 WINDOWS XP：** 從 Windows Vista 開始，已新增 Sysnative 別名。
+**Windows Server 2003 和 Windows XP：** 從 Windows Vista 開始加入了 Sysnative 別名。
 
  
 

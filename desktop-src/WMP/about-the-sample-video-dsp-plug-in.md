@@ -15,12 +15,12 @@ keywords:
 - 影片 DSP 外掛程式、範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ede2eda82c834cefad0e31009805f24941cd4a6e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: dbb771bb87ffb53cf46022fc17ee2588e7cdac0b6b2c821f98fe6cf86799434c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106966176"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119470248"
 ---
 # <a name="about-the-sample-video-dsp-plug-in"></a>關於範例影片 DSP 外掛程式
 
@@ -44,9 +44,9 @@ ms.locfileid: "106966176"
 [**建立 DSP 外掛程式**](building-a-dsp-plug-in.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

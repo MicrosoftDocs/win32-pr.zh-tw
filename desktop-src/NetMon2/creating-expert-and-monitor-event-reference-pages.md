@@ -4,12 +4,12 @@ ms.assetid: 78d6e8cf-785e-4d5f-a78d-9ef9da9bc3e0
 title: 建立專家和監視事件參考頁面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 33c84610c7a1088e994fc852c64a7893f73f7909
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5826ab0aaa71461f6b4e56b9330e00c5af6aae26952d84af88c380da6dfe41fd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106985444"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119144231"
 ---
 # <a name="creating-expert-and-monitor-event-reference-pages"></a>建立專家和監視事件參考頁面
 

@@ -4,12 +4,12 @@ description: 本主題將示範如何建立動畫控制項。
 ms.assetid: 5852B636-F3D0-47A4-82F6-8BE570013E1B
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7d4ff190617996e42e6580b82311fb51f4248000
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 8117d7c9393a828786532bd3d3fbfcf4f4eaaf6bb1bfdccdc5a2f97fa1c5cb38
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021070"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119435818"
 ---
 # <a name="how-to-create-an-animation-control"></a>如何建立動畫控制項
 
@@ -19,12 +19,12 @@ ms.locfileid: "104021070"
 
 ### <a name="technologies"></a>技術
 
--   [Windows 控制項](window-controls.md)
+-   [Windows控制](window-controls.md)
 
-### <a name="prerequisites"></a>必要條件
+### <a name="prerequisites"></a>先決條件
 
 -   C/C++
--   Windows 消費者介面程式設計
+-   Windows消費者介面程式設計
 -   AVI 檔案
 
 ## <a name="instructions"></a>指示
@@ -163,9 +163,9 @@ HWND CreateAnimationCtrl(HWND hwndDlg, int nIDCtl)
 [動畫](animation-control-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

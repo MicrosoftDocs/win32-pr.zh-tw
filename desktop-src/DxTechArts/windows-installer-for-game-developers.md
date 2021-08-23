@@ -1,28 +1,28 @@
 ---
-title: 適用于遊戲開發人員的 Windows Installer
-description: 本文概述 Windows Installer，特別是以遊戲開發人員為目標。 如需本文所述之功能和 Api 的詳細檔，請參閱 Windows Platform SDK。
+title: Windows遊戲開發人員的安裝程式
+description: 本文概述 Windows Installer，特別是以遊戲開發人員為目標。 如需本文所述之功能和 api 的詳細檔，請參閱 Windows Platform SDK。
 ms.assetid: 07401792-b34b-71c9-18f8-a11c916c7d81
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0e44227b633f7f9491b8a69bc06aa7945941a154
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: bc587725ce2a2a675c9db835fabb503bc44ffa62c07ee1ce80578aef9432cf9a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104375820"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119290388"
 ---
-# <a name="windows-installer-for-game-developers"></a>適用于遊戲開發人員的 Windows Installer
+# <a name="windows-installer-for-game-developers"></a>Windows遊戲開發人員的安裝程式
 
-示範如何使用 Windows Installer 在終端使用者電腦上安裝遊戲。 Windows Installer 提供自訂使用者介面的完整支援，以及修補程式。
+示範如何使用 Windows Installer 在終端使用者電腦上安裝遊戲。 Windows安裝程式會提供自訂使用者介面的完整支援，以及修補程式。
 
-Microsoft Windows Installer 是在以 Windows 為基礎的電腦上安裝軟體的慣用 API。 雖然 Windows Installer 的許多功能都是為了支援在公司環境中部署商務應用程式而設計，Windows Installer 也完全適用于在終端使用者電腦上安裝遊戲。 使用 Windows Installer 進行遊戲安裝的主要優點如下：
+Microsoft Windows Installer 是在 Windows 電腦上安裝軟體的慣用 API。 雖然 Windows Installer 的許多功能都是為了支援在公司環境中部署商務應用程式而設計，Windows Installer 也完全適用于在終端使用者電腦上安裝遊戲。 使用 Windows Installer 進行遊戲安裝的主要優點如下：
 
 -   可靠卸載
 -   視需要安裝內容的能力
 -   支援完全自訂的使用者介面
 -   有效率的修補
 
-本文概述 Windows Installer，特別是以遊戲開發人員為目標。 如需本文所述之功能和 Api 的詳細檔，請參閱 Windows Platform SDK。
+本文概述 Windows Installer，特別是以遊戲開發人員為目標。 如需本文所述之功能和 api 的詳細檔，請參閱 Windows Platform SDK。
 
 -   [概觀](#overview)
 -   [重要 Windows Installer 概念](#key-windows-installer-concepts)
@@ -38,9 +38,9 @@ Microsoft Windows Installer 是在以 Windows 為基礎的電腦上安裝軟體�
 
 所有以 Windows Installer 為基礎的安裝程式都會使用稱為 MSI 檔案的安裝資料庫檔案來描述應用程式的安裝方式。 MSI 檔案包含要安裝哪些檔案、登錄機碼、桌面快捷方式、檔案關聯和其他應用程式元素的相關資訊。 實際要安裝的檔案可在 MSI 檔案本身內壓縮、配套並壓縮成個別的「封包檔」，或是儲存在安裝媒體上的其他位置，作為個別的未壓縮檔案。 MSI 檔案也可以參考外部執行的自訂動作，以允許 MSI 檔案原本不允許的動作。
 
-MSI 檔案可以選擇性地包含使用者介面，以引導使用者完成安裝程式。 此 UI 適用于大部分的應用程式。 不過，它具有一般 Windows 應用程式的外觀和風格，而許多遊戲開發人員偏好讓其安裝應用程式保有遊戲本身的外觀和操作，以提供更一致的終端使用者體驗。 為了支援這個完全自訂的 UI 案例，安裝應用程式可以關閉 Windows Installer 的內建 UI，並處理整個使用者介面本身。 Windows Installer API 會公開回呼機制，讓自訂的安裝程式 UI 可以收到安裝進度的通知，以及重要事件，例如磁片變更要求。
+MSI 檔案可以選擇性地包含使用者介面，以引導使用者完成安裝程式。 此 UI 適用于大部分的應用程式。 不過，它具有一般 Windows 應用程式的外觀和風格，而許多遊戲開發人員偏好讓其安裝應用程式保有遊戲本身的外觀和操作，以提供更一致的終端使用者體驗。 為了支援這個完全自訂的 ui 案例，安裝應用程式可以關閉 Windows Installer 的內建 ui，並處理整個使用者介面本身。 Windows Installer API 會公開回呼機制，讓自訂的安裝程式 UI 可以收到安裝進度的通知，以及重要事件，例如磁片變更要求。
 
-Windows Installer 不是建立設置的端對端解決方案。 它是一種 API，可供安裝程式用來實際安裝檔案、登錄機碼、桌面快捷方式，以及應用程式的其他元素。 所有主要商用設定工具的最新版本 (例如，InstallShield、取向、Microsoft Visual Studio) 支援 Windows Installer。 這些工具提供便利的使用者介面來建立遊戲的設定，但它們依賴 Windows Installer API 來進行大部分的實際安裝。 這些工具也可以用來建立包含安裝套件的 MSI 資料庫，然後從自訂撰寫的安裝程式 UI 來安裝它。 作為協力廠商工具的替代方案，Windows Installer API 提供以程式設計方式建立和操作 MSI 資料庫所需的所有功能，而 Windows Platform SDK 則包含稱為 Orca 的裸機資料庫編輯工具。
+Windows安裝程式不是建立安裝程式的端對端解決方案。 它是一種 API，可供安裝程式用來實際安裝檔案、登錄機碼、桌面快捷方式，以及應用程式的其他元素。 所有主要商用設定工具的最新版本 (例如，InstallShield、取向、Microsoft Visual Studio) 支援 Windows Installer。 這些工具提供便利的使用者介面來建立遊戲的設定，但它們依賴 Windows Installer API 來進行大部分的實際安裝。 這些工具也可以用來建立包含安裝套件的 MSI 資料庫，然後從自訂撰寫的安裝程式 UI 來安裝它。 作為協力廠商工具的替代方案，Windows Installer API 提供以程式設計方式建立和操作 msi 資料庫所需的所有功能，而 Windows Platform SDK 則包含稱為 Orca 的裸機資料庫編輯工具。
 
 ## <a name="key-windows-installer-concepts"></a>重要 Windows Installer 概念
 
@@ -94,11 +94,11 @@ Windows Installer 不是建立設置的端對端解決方案。 它是一種 API
 
 ## <a name="install-on-demand"></a>隨選安裝
 
-Windows Installer 可讓應用程式將功能標示為已公告，這表示功能尚未安裝，但在需要時可在執行時間安裝。 在執行時間安裝功能稱為「隨選安裝」。 遊戲可以使用隨選安裝來大幅縮短初始遊戲設定所需的時間，方法是延後安裝遊戲內容，直到執行時間需要為止。 在執行時間安裝內容所需的延遲，通常可以透過在背景執行緒中執行隨選安裝來部分或完全隱藏，而使用者則會被視為該遊戲。
+Windows安裝程式可讓應用程式將功能標示為已公告，這表示該功能尚未安裝，但在需要時可在執行時間安裝。 在執行時間安裝功能稱為「隨選安裝」。 遊戲可以使用隨選安裝來大幅縮短初始遊戲設定所需的時間，方法是延後安裝遊戲內容，直到執行時間需要為止。 在執行時間安裝內容所需的延遲，通常可以透過在背景執行緒中執行隨選安裝來部分或完全隱藏，而使用者則會被視為該遊戲。
 
 ## <a name="custom-user-interface"></a>自訂使用者介面
 
-雖然 Windows Installer 提供可引導使用者完成應用程式安裝的預設使用者介面，但這個介面看起來就像是標準 Windows 應用程式。 許多遊戲開發人員偏好其安裝 UI 與遊戲本身具有相同的外觀和操作，讓使用者可以感受遊戲的 ambiance。 為了支援此功能，Windows Installer 可完全停用其內建使用者介面，讓開發人員能夠提供完全自訂的 UI。
+雖然 Windows Installer 提供可引導使用者完成應用程式安裝的預設使用者介面，但這個介面看起來像是標準 Windows 應用程式。 許多遊戲開發人員偏好其安裝 UI 與遊戲本身具有相同的外觀和操作，讓使用者可以感受遊戲的 ambiance。 為了支援此功能，Windows Installer 可完全停用其內建使用者介面，讓開發人員能夠提供完全自訂的 UI。
 
 自訂安裝程式會先使用 [**MsiSetInternalUI**](/windows/desktop/api/msi/nf-msi-msisetinternalui) API 來停用 Windows Installer 的內建使用者介面，以將 UI 層級設定為 [無 INSTALLUILEVEL] \_ 。 然後，它會呼叫 [**MsiSetExternalUI**](/windows/desktop/api/msi/nf-msi-msisetexternaluia) API，以指定要在安裝過程中呼叫的回呼函式，以便在安裝期間通知安裝程式的重要事件。
 
@@ -112,7 +112,7 @@ Windows Installer 可讓應用程式將功能標示為已公告，這表示功�
 
 ## <a name="patching"></a>修補
 
-Windows Installer 允許套用修補檔案來修補已安裝的應用程式。 修補檔案包含修補程式所要加入的新檔案、由修補程式修改的檔案，以及對安裝資料庫所做的變更清單。 為了節省空間，而不是儲存修補程式所變更之檔案的完整內容，修補檔案實際上只包含檔案原始版本與新版本檔案之間的差異。
+Windows安裝程式可透過套用修補檔案來修補已安裝的應用程式。 修補檔案包含修補程式所要加入的新檔案、由修補程式修改的檔案，以及對安裝資料庫所做的變更清單。 為了節省空間，而不是儲存修補程式所變更之檔案的完整內容，修補檔案實際上只包含檔案原始版本與新版本檔案之間的差異。
 
 若要建立修補程式，您需要應用程式的每個版本的安裝映射，您希望修補程式從中升級，以及應用程式新升級版本的安裝映射。 安裝映射是由 MSI 資料庫和應用程式的所有實際資料檔案所組成。 若要為新的應用程式版本建立安裝映射，最好的方法是從繼承應用程式複製安裝映射，然後進行任何必要的變更，以將該複本更新為修補過的版本。
 
@@ -120,9 +120,9 @@ Windows Installer 允許套用修補檔案來修補已安裝的應用程式。 �
 
 ## <a name="other-resources"></a>其他資源
 
--   如需 Windows Installer API 的詳細資訊，請參閱 [Windows Installer](/windows/desktop/Msi/windows-installer-portal)。
+-   如需 Windows Installer API 的詳細資訊，請參閱[Windows Installer](/windows/desktop/Msi/windows-installer-portal)。
 -   如需遊戲安裝的最佳作法資訊，請參閱 [遊戲的安裝與維護](/windows/desktop/DxTechArts/installation-and-maintenance-of-games)。
 
- 
+ 
 
- 
+ 

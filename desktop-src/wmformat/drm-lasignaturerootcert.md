@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ecb36cca2a98e74a027c427a79440fe9989c7ef0
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 6af476a9119e801d0209e23150d5e627bc9c327c560002fcc9296076e9ae0c4b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104374535"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119345828"
 ---
 # <a name="drm_lasignaturerootcert"></a>DRM \_ LASignatureRootCert
 
@@ -42,9 +42,9 @@ g \_ wszWMDRM \_ LASignatureRootCert
 [**屬性清單**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

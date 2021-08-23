@@ -6,12 +6,12 @@ keywords:
 - 離散傳送效果
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1c05ef08f9ddf053eaa686cb0f88d4183194d9e3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f8c977e6d2b03a3496bfa9be84209a32f57094c8514f6760746f9ec967c2ff8a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104559176"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119431395"
 ---
 # <a name="discrete-transfer-effect"></a>離散傳送效果
 
@@ -84,7 +84,7 @@ m_d2dContext->EndDraw();
 
 
 
-| 顯示名稱和索引列舉                                              | 類型和預設值                       | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| 顯示名稱和索引列舉                                              | 類型和預設值                       | 描述                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 |---------------------------------------------------------------------------------|----------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | RedTable<br/> D2D1 \_ DISCRETETRANSFER \_ 的 \_ 成分紅色 \_ 資料表<br/>         | 浮動\[\]<br/> {0.0 f、1.0 f}<br/> | 值的清單，用來定義 Red 通道的傳送函式。                                                                                                                                                                                                                                                                                                                                                                                 |
 | RedDisable<br/> D2D1 \_ DISCRETETRANSFER \_ 的 \_ RED \_ DISABLE<br/>     | BOOL<br/> FALSE<br/>             | 如果您將此設定為 TRUE，則效果不會將傳送函式套用至紅色通道。 如果您將此設定為 FALSE，效果會將 RedDiscreteTransfer 函式套用至紅色通道。                                                                                                                                                                                                                                                                 |
@@ -106,8 +106,8 @@ m_d2dContext->EndDraw();
 
 | 需求 | 值 |
 |--------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端 | 適用于 Windows 7 desktop app 的 Windows 8 和平臺更新 \[ \| windows Store 應用程式\] |
-| 最低支援的伺服器 | 適用于 Windows 7 desktop app 的 Windows 8 和平臺更新 \[ \| windows Store 應用程式\] |
+| 最低支援的用戶端 | Windows 7 傳統型應用程式的 Windows 8 和平臺更新 \[ \| Windows 儲存應用程式\] |
+| 最低支援的伺服器 | Windows 7 傳統型應用程式的 Windows 8 和平臺更新 \[ \| Windows 儲存應用程式\] |
 | 標頭                   | d2d1effects。h                                                                      |
 | 程式庫                  | d2d1 .lib，dxguid .lib                                                               |
 

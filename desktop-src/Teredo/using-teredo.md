@@ -4,12 +4,12 @@ description: 開發使用 Teredo 的應用程式時，目標是要達到 IPv6 �
 ms.assetid: 043bc826-1387-4994-96b1-115df2f6ea2e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3ca1807e6c342a2f344c8ccbda322ae86794224d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7ddee98d9ea873b3949dbc45daee7b1d53062a83a4f1454953d0ad75ae786655
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106967444"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119139151"
 ---
 # <a name="using-teredo"></a>使用 Teredo
 
@@ -24,9 +24,9 @@ ms.locfileid: "106967444"
 -   [使用 Teredo 搭配 IP Helper](using-teredo-with-ip-helper.md)
 -   [在 Windows XP 中使用 Teredo](using-teredo-in-windows-xp.md)
 
- 
+ 
 
- 
+ 
 
 
 

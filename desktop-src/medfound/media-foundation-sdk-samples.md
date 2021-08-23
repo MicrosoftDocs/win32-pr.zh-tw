@@ -4,12 +4,12 @@ ms.assetid: 9d460107-ec12-4df5-a7a9-d19943685599
 title: 媒體基礎 SDK 範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f335b5ba744b098efdb7570aa861ad36fc9216cf
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: aa7d07d4136e613b4c6b553aa089834f58ccf65b6b87043ec5148d8db4ee6547
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "103696234"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119465139"
 ---
 # <a name="media-foundation-sdk-samples"></a>媒體基礎 SDK 範例
 
@@ -30,7 +30,7 @@ ms.locfileid: "103696234"
 
 | 範例                            | 描述                                                 |
 |-----------------------------------|-------------------------------------------------------------|
-| [轉碼](transcode-sample.md) | 說明如何將媒體檔案 reencode 為 Windows Media 格式。 |
+| [轉碼](transcode-sample.md) | 說明如何 reencode 媒體檔案以 Windows 媒體格式。 |
 
 
 
@@ -58,8 +58,8 @@ ms.locfileid: "103696234"
 |----------------------------------------------|----------------------------------|--------------------------------------------------------------------------------------------------------|
 | [解碼 器](decoder-sample.md)                | 媒體基礎轉換 (MFT)  | 影片解碼器。                                                                                         |
 | [EVRPresenter](evrpresenter-sample.md)      | 其他                    | [增強型影片](enhanced-video-renderer.md)轉譯器的自訂展示者 (EVR) 。                 |
-| [MFT \_ AudioDelay](mft-audiodelay-sample.md) | Mft                              | 音訊效果轉換。 說明如何撰寫音訊處理的基本 MFT。                           |
-| [MFT \_ 灰階](mft-grayscale-sample.md)   | Mft                              | 灰階影片效果。 說明如何撰寫影片處理的基本 MFT。                           |
+| [MFT \_ AudioDelay](mft-audiodelay-sample.md) | MFT                              | 音訊效果轉換。 說明如何撰寫音訊處理的基本 MFT。                           |
+| [MFT \_ 灰階](mft-grayscale-sample.md)   | MFT                              | 灰階影片效果。 說明如何撰寫影片處理的基本 MFT。                           |
 | [MPEG1Source](mpeg1source-sample.md)        | 媒體來源                     | 剖析 MPEG-2 系統層串流。 說明如何撰寫自訂媒體來源和位元組資料流程處理常式。 |
 | [WavSink](wavsink-sample.md)                | 媒體接收器                       | 寫入 .wav 檔案的封存接收。 說明如何撰寫自訂媒體接收。                        |
 | [WavSource](wavsource-sample.md)            | 媒體來源                     | 剖析 .wav 檔。 說明如何撰寫自訂媒體來源和位元組資料流程處理常式。                   |

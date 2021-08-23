@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 975c2a5b74eb03aa821d00598f0c92f288b87a55
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: a82fab4f0d1151f4db24d4cbe7c3f28d9d0ceb26592de39649b093dfda254100
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104467373"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119532838"
 ---
 # <a name="allocate-rids-extended-right"></a>Allocate-Rids 擴充許可權
 

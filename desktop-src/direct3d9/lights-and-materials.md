@@ -4,12 +4,12 @@ ms.assetid: 0751bb76-611a-41c4-aab2-aa6f68b61b0e
 title: " (Direct3D 9) 的燈光和材質"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d6f44a12c1be1e7a14f7bfe176d7f391901d2dac
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 9a5ace2a80bb79d192fadc5376256eedf9229be9a36fa1d200341ccf28e961fe
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104385533"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119277518"
 ---
 # <a name="lights-and-materials-direct3d-9"></a> (Direct3D 9) 的燈光和材質
 

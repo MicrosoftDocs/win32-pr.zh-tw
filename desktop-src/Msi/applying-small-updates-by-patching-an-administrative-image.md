@@ -4,12 +4,12 @@ ms.assetid: 40755461-317f-4764-aaa2-6b8471d52f55
 title: 藉由修補系統管理映射來套用小型更新
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1dad22d91e101d79d2bf6ecc0efc8ea9358eda2a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e02c8e3eb606dc92c60a86dd8e3216cbc99603200a87e5ee5dda0983fb7ad34d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103944030"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119559158"
 ---
 # <a name="applying-small-updates-by-patching-an-administrative-image"></a>藉由修補系統管理映射來套用小型更新
 
@@ -24,9 +24,9 @@ ms.locfileid: "103944030"
 2.  取得系統管理映射的路徑。
 3.  從命令列使用：
 
-    **msiexec/a** 系統 *\[ 管理映射的路徑 .msi file \]* **/p** *patch .msp*
+    **msiexec/a** 系統 *\[ 管理映射的路徑 .msi \] file* **/p** *patch .msp*
 
-4.  這會更新系統管理映射的應用程式檔和 .msi 檔案。 如需可搭配 Msiexec.exe 使用之選項的清單，請參閱 [命令列選項](command-line-options.md)。 Windows Installer 會自動判斷系統管理映射是否使用短檔案名，並設定 [**SHORTFILENAMES**](shortfilenames.md) 屬性。
+4.  這會更新系統管理映射的應用程式檔和 .msi 檔。 如需可搭配 Msiexec.exe 使用之選項的清單，請參閱 [命令列選項](command-line-options.md)。 Windows安裝程式會自動判斷系統管理映射是否使用短檔案名，並設定 [**SHORTFILENAMES**](shortfilenames.md)屬性。
 5.  產生的系統管理映射與系統管理安裝所產生的系統管理映射相同，它是使用包含更新的完整產品 cd-rom。 當新使用者從這個來源安裝應用程式時，他們會收到已更新的應用程式。
 
 **將 small update 傳播至工作組**

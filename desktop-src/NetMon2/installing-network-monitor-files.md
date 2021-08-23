@@ -4,12 +4,12 @@ ms.assetid: da0578f1-0672-41f3-91ea-500a66d6ffc5
 title: 安裝網路監視器檔案
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 21512ea295d457680f953c0ae9ba9001ada7645e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2f4e4f633e727876968642b50d9ae929c5633dcc16c89b7358bee00aac5ac616
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104195587"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119495338"
 ---
 # <a name="installing-network-monitor-files"></a>安裝網路監視器檔案
 

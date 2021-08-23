@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.jet_
 ms:contentKeyID: 39515388
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 36375e4ef8bfe243e851a07f9383d9af05ea4f14
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9740718a6d5b91cd8bc10bc1d04ce38fc5a29ffe7cc7bbe1dc207efecb839ba2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104553696"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119472758"
 ---
 # <a name="jet_tableid-members"></a>JET_TABLEID 成員
 
@@ -108,7 +108,7 @@ JET_TABLEID 包含資料庫資料指標的控制碼，可用於呼叫 JET API。
 <thead>
 <tr class="header">
 <th> </th>
-<th>Name</th>
+<th>名稱</th>
 <th>描述</th>
 </tr>
 </thead>

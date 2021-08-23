@@ -4,12 +4,12 @@ ms.assetid: 2dc8ffc5-0a65-4227-b93a-30c3cf0d3c2d
 title: 參考計數啟用內容
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1ff00afa0dd3a347e14ff9723c06d54af4520ce4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a62f7806a452dc8b98f824069be0cd584c39f45ad9807a97a11f6f3d7c4929f9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106992084"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119141931"
 ---
 # <a name="reference-counting-activation-contexts"></a>參考計數啟用內容
 

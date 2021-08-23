@@ -4,12 +4,12 @@ ms.assetid: 4fe88a0f-0234-462f-b575-e592f2c8401e
 title: XAPO 概觀
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 31e2372790e26b7fcd3d15019797185ba180d668
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2ee9ee64e865c8e3ef3cdac026274b922db438a54979dcb30d855a92b96e4e0e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975327"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119589908"
 ---
 # <a name="xapo-overview"></a>XAPO 概觀
 

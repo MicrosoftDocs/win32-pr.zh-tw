@@ -4,12 +4,12 @@ ms.assetid: FD6365A9-6EC2-407D-B397-09A91BF02379
 title: 'RPC NDR 引擎 (開發人員注意事項) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c39eeb38d99e01dd8ab5683cf0289b3e7e09d45f
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 915ea5a367210461bebd2c02de2f0df4b95191bf75b6225054dee36e141ed75a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970527"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119538348"
 ---
 # <a name="rpc-ndr-engine-developer-notes"></a>RPC NDR 引擎 (開發人員注意事項) 
 

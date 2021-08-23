@@ -1,28 +1,28 @@
 ---
-title: Windows Touch 手勢總覽
+title: Windows觸控手勢總覽
 description: 本節說明 Windows Touch 支援的各種手勢。
 ms.assetid: b2fa11a7-9abb-4149-96e3-e8c663c29d4a
 keywords:
-- Windows Touch，手勢
+- Windows觸控、手勢
 - 手勢，關於
-- Windows Touch，舊版支援
+- WindowsTouch，舊版支援
 - 手勢，舊版支援
 ms.topic: article
 ms.date: 02/18/2020
-ms.openlocfilehash: 2290477aa8b26e937fe6d5f300ed1fea32872f5d
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: f2a0f6229afe4ad0d894a1cc2d40489f5d8371de3d7c42cefdccde619119df75
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104023766"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119587250"
 ---
-# <a name="windows-touch-gestures-overview"></a>Windows Touch 手勢總覽
+# <a name="windows-touch-gestures-overview"></a>Windows觸控手勢總覽
 
 本節說明 Windows Touch 支援的各種手勢。
 
 ## <a name="gestures-overview"></a>手勢總覽
 
-Windows Touch 啟用數個支援單一和多個連絡人的手勢。 下圖說明 Windows 7 中支援的各種手勢。
+Windows觸控可啟用數個支援單一和多個連絡人的手勢。 下圖說明 Windows 7 中支援的各種手勢。
 
 ![圖例顯示 windows 7 中 windows 觸控支援的手勢](images/gestures.png)
 
@@ -31,7 +31,7 @@ Windows Touch 啟用數個支援單一和多個連絡人的手勢。 下圖說�
 
 ## <a name="legacy-support"></a>舊版支援
 
-針對舊版支援，預設的軌跡處理常式會將一些手勢對應到舊版 Windows 中使用的 Windows 訊息。 下表概述手勢如何對應至舊版訊息。
+針對舊版支援，預設的軌跡處理常式會對應一些手勢，以 Windows 舊版 Windows 中所使用的訊息。 下表概述手勢如何對應至舊版訊息。
 
 | 手勢        | 描述  | 產生的訊息 ()               |
 |----------------|----------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------|
@@ -41,13 +41,13 @@ Windows Touch 啟用數個支援單一和多個連絡人的手勢。 下圖說�
 
 ## <a name="interpreting-windows-touch-gestures"></a>解讀 Windows Touch 手勢
 
-應用程式開發人員可以藉由處理來自應用程式 WndProc 函式的 [**WM_GESTURE**](wm-gesture.md) 訊息，來解讀 Windows Touch 手勢。 處理此訊息之後，您可以取得描述手勢的 [**GESTUREINFO**](/windows/win32/api/winuser/ns-winuser-gestureinfo) 結構。 **GESTUREINFO** 結構將會有依手勢類型而定的各種資訊。
+Windows應用程式開發人員可以藉由處理來自應用程式 WndProc 函式的 [**WM_GESTURE**](wm-gesture.md)訊息來解讀觸控手勢。 處理此訊息之後，您可以取得描述手勢的 [**GESTUREINFO**](/windows/win32/api/winuser/ns-winuser-gestureinfo) 結構。 **GESTUREINFO** 結構將會有依手勢類型而定的各種資訊。
 
 藉由將手勢資訊結構的控制碼傳遞至 [**GetGestureInfo**](/windows/desktop/api/winuser/nf-winuser-getgestureinfo)函式，即可取出 [**GESTUREINFO**](/windows/win32/api/winuser/ns-winuser-gestureinfo)結構。
 
 下列旗標表示手勢的各種狀態，並儲存在 *dwFlags* 中。 
 
-| Name        | 值      | 描述                      |
+| 名稱        | 值      | 描述                      |
 |-------------|------------|----------------------------------|
 | GF_BEGIN   | 0x00000001 | 正在開始手勢。           |
 | GF_INERTIA | 0x00000002 | 筆勢已觸發慣性。 |
@@ -58,7 +58,7 @@ Windows Touch 啟用數個支援單一和多個連絡人的手勢。 下圖說�
 
 下表指出筆勢的各種識別碼。 
 
-| Name              | 值 | 描述                 |
+| 名稱              | 值 | 描述                 |
 |-------------------|-------|-----------------------------|
 | GID_BEGIN        | 1     | 正在開始手勢。      |
 | GID_END          | 2     | 手勢正在結束。        |
@@ -83,4 +83,4 @@ Windows Touch 啟用數個支援單一和多個連絡人的手勢。 下圖說�
 
 ## <a name="related-topics"></a>相關主題
 
-[Windows Touch 手勢](guide-multi-touch-gestures.md)
+[Windows觸控手勢](guide-multi-touch-gestures.md)

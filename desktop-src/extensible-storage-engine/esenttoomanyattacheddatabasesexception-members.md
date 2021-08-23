@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55103053
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: c00bb7ffeda25118b03ffd7ee95042e441745fdd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 635e990a6c67d730368810df76c3d4b57addd19ec03058e8d72ad8a12a87defc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104560857"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119363218"
 ---
 # <a name="esenttoomanyattacheddatabasesexception-members"></a>EsentTooManyAttachedDatabasesException 成員
 

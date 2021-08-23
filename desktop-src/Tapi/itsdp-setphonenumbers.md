@@ -4,16 +4,16 @@ ms.assetid: 674c08df-7e91-4f19-9d65-4bc6e7af117b
 title: 'ITSdp：： SetPhoneNumbers 方法 (Sdpblb .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 30ec2820d8d033ac2eed9d9287c3ca52c9deb316
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 733dfbe4752281abf4063f308a05aec73203d361e3c9c5dcebf413eb4ba2af72
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106979442"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119140211"
 ---
 # <a name="itsdpsetphonenumbers-method"></a>ITSdp：： SetPhoneNumbers 方法
 
-\[ 在 Windows Vista、Windows Server 2008 和後續版本的作業系統中，無法使用會合 IP 電話語音會議控制項和介面。 RTC 用戶端 API 提供類似的功能。\]
+\[Windows Vista、Windows Server 2008 及後續版本的作業系統無法使用會合 IP 電話語音會議控制項和介面。 RTC 用戶端 API 提供類似的功能。\]
 
 **SetPhoneNumbers** 方法會設定與會議 blob 相關聯的電話號碼陣列。
 
@@ -53,7 +53,7 @@ HRESULT SetPhoneNumbers(
 
 
 
-| 傳回碼                                                                                   | Description                                                     |
+| 傳回碼                                                                                   | 描述                                                     |
 |-----------------------------------------------------------------------------------------------|-----------------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>          | 方法成功。<br/>                                    |
 | <dl> <dt>**E \_ INVALIDARG**</dt> </dl>  | *數位* 或 *名稱* 參數無效。<br/>     |

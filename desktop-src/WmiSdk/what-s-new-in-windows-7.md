@@ -5,18 +5,18 @@ ms.tgt_platform: multiple
 title: Windows 7 的新功能
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 682e4f125fcc11a1b6679af7df78fddba5a766ba
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 000a3460366855df65096333a8b847a6d2c0c0a48a89c91f6791db3286d634fc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106986607"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119502858"
 ---
 # <a name="whats-new-in-windows-7"></a>Windows 7 的新功能
 
-## <a name="new-security-feature-in-windows-7"></a>Windows 7 的新安全性功能
+## <a name="new-security-feature-in-windows-7"></a>Windows 7 中的新安全性功能
 
-以下列出 Windows 7 提供的新 Windows Management Instrumentation (WMI) 安全性功能。
+以下列出 Windows 7 提供的 (WMI) 安全性功能的新 Windows Management Instrumentation。
 
 <dl> <dt>
 
@@ -57,7 +57,7 @@ WMI 採用標準機制來探索使用 CIM 架構的設定檔。 如需詳細資�
 <span id="Optional_feature_status"></span><span id="optional_feature_status"></span><span id="OPTIONAL_FEATURE_STATUS"></span>選用功能狀態
 </dt> <dd>
 
-WMI 已實作為 [**Win32 \_ OptionalFeature**](/windows/desktop/CIMWin32Prov/win32-optionalfeature) 類別。 此類別會查詢並傳回存在於電腦上之選用功能的狀態。 如需使用 Windows PowerShell 的查詢範例，請參閱 [查詢選擇性功能的狀態](querying-the-status-of-optional-features.md)。
+WMI 已實作為 [**Win32 \_ OptionalFeature**](/windows/desktop/CIMWin32Prov/win32-optionalfeature) 類別。 此類別會查詢並傳回存在於電腦上之選用功能的狀態。 如需使用 Windows PowerShell 的查詢範例，請參閱[查詢選擇性功能的狀態](querying-the-status-of-optional-features.md)。
 
 </dd> <dt>
 
@@ -110,7 +110,7 @@ Windows PowerShell 提供簡單的機制，以連接到遠端電腦上的 WMI。
 
 </dd> </dl>
 
-如需舊版作業系統新功能的詳細資訊，請參閱 [Windows Vista 的新](what-s-new-in-windows-vista.md)功能。
+如需舊版作業系統新功能的詳細資訊，請參閱[Windows Vista 中的新](what-s-new-in-windows-vista.md)功能。
 
 ## <a name="related-topics"></a>相關主題
 

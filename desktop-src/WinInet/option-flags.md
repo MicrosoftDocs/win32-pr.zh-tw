@@ -99,12 +99,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b0c99ca6f12836c620ed7c952e0ceb1844aee3b1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 289dff131b29bad45a66b1a1e1b1c4e64b464b3e0476b9ece82e1c7f2479cb14
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106973307"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119570178"
 ---
 # <a name="option-flags-winineth"></a>選項旗標 (Wininet. h) 
 
@@ -252,7 +252,7 @@ ms.locfileid: "106973307"
 
 根據預設，Unicode URL 的主機或授權單位部分會根據 IDN 規格進行編碼。 在要求或連接控制碼上設定此選項時，若已停用 IDN，則會指定 URL 之主機部分的字碼頁編碼配置。 呼叫 [**InternetSetOption**](/windows/desktop/api/Wininet/nf-wininet-internetsetoptiona)的 *lpBuffer* 參數包含所需的 DBCS 字碼頁。 如果未在 *lpBuffer* 中指定字碼頁，WinINet 會使用預設的系統字碼頁 (CP \_ ACP) 。 注意：如果未停用 IDN，則會忽略此選項。 如需有關如何停用 IDN 的詳細資訊，請參閱 **網際網路 \_ 選項 \_ IDN** 選項。
 
-**WINDOWS XP （含 SP2）和 Windows Server 2003 （含 SP1）：** 不支援此旗標。
+**Windows XP SP2 和 Windows Server 2003 SP1：** 不支援此旗標。
 
 **版本：** 需要 Internet Explorer 7.0。
 
@@ -269,7 +269,7 @@ ms.locfileid: "106973307"
 
 根據預設，URL 的路徑部分為 UTF8 編碼。 WinINet API 會在高位字元上 (% ) 編碼執行 escape 字元。 在要求或連接控制碼上設定這個選項會停用 UTF8 編碼，並設定特定的字碼頁。 呼叫 [**InternetSetOption**](/windows/desktop/api/Wininet/nf-wininet-internetsetoptiona)的 *lpBuffer* 參數包含路徑所需的 DBCS 字碼頁。 如果未在 *lpBuffer* 中指定字碼頁，WinINet 會使用預設的 CP \_ UTF8。
 
-**WINDOWS XP （含 SP2）和 Windows Server 2003 （含 SP1）：** 不支援此旗標。
+**Windows XP SP2 和 Windows Server 2003 SP1：** 不支援此旗標。
 
 **版本：** 需要 Internet Explorer 7.0。
 
@@ -286,7 +286,7 @@ ms.locfileid: "106973307"
 
 根據預設，URL 的路徑部分是預設的系統字碼頁 (CP \_ ACP) 。 在額外部分上，不會執行 escape 字元 (% ) 轉換。 在要求上設定此選項，或連接控制碼會停用 CP \_ ACP 編碼。 在 [**InternetSetOption**](/windows/desktop/api/Wininet/nf-wininet-internetsetoptiona)的呼叫中， *lpBuffer* 參數包含所需的 DBCS 字碼頁，供 URL 的額外部分之用。 如果未在 *lpBuffer* 中指定字碼頁，WinINet 會使用預設的系統字碼頁 (CP \_ ACP) 。
 
-**WINDOWS XP （含 SP2）和 Windows Server 2003 （含 SP1）：** 不支援此旗標。
+**Windows XP SP2 和 Windows Server 2003 SP1：** 不支援此旗標。
 
 **版本：** 需要 Internet Explorer 7.0。
 
@@ -641,7 +641,7 @@ ms.locfileid: "106973307"
 
 
 
-設定包含企業識別碼 (查看適用于要求的 PWSTR https://msdn.microsoft.com/library/windows/desktop/mt759320(v=vs.85).aspx) 。 在 Windows 10 1507 版和更新版本中支援。
+設定包含 Enterprise 識別碼的 PWSTR， (查看 https://msdn.microsoft.com/library/windows/desktop/mt759320(v=vs.85).aspx) 適用于要求的識別碼。 在 Windows 10 1507 版和更新版本中支援。
 
 
 </dt> </dl> </dd> <dt>
@@ -837,7 +837,7 @@ ms.locfileid: "106973307"
 
 設定或抓取 [**HTTP \_ 版本 \_ 資訊**](/windows/desktop/api/Wininet/ns-wininet-http_version_info) 結構，其中包含支援的 HTTP 版本。 這必須用於 **Null** 控制碼。 這是由 [**InternetQueryOption**](/windows/desktop/api/Wininet/nf-wininet-internetqueryoptiona) 和 [**InternetSetOption**](/windows/desktop/api/Wininet/nf-wininet-internetsetoptiona)所使用。
 
-在 Windows 7、Windows Server 2008 R2 和更新版本上，Internet Explorer 設定會覆寫 [**HTTP \_ 版本 \_ 資訊**](/windows/desktop/api/Wininet/ns-wininet-http_version_info)結構中 **dwMinorVersion** 成員的值。 **EnableHttp1 \_ 1** 是在系統的 Internet Explorer 中設定的 **HKLM \\ Software \\ Microsoft \\ microsoft-windows-ie-internetexplorer \\ AdvacnedOptions \\ HTTP \\ GENABLE** 底下的登錄值。 **EnableHttp1 \_ 1** 值預設為1。 如果 **EnableHttp1 \_ 1** 設定為1，則會忽略小於1.1 之任何 Http 版本的 **HTTP \_ 版本 \_ 資訊** 結構。
+在 Windows 7、Windows Server 2008 R2 和更新版本中，Internet Explorer 設定會覆寫 [**HTTP \_ 版本 \_ 資訊**](/windows/desktop/api/Wininet/ns-wininet-http_version_info)結構中 **dwMinorVersion** 成員的值。 **EnableHttp1 \_ 1** 是在系統的 Internet Explorer 中設定的 **HKLM \\ Software \\ Microsoft \\ microsoft-windows-ie-internetexplorer \\ AdvacnedOptions \\ HTTP \\ GENABLE** 底下的登錄值。 **EnableHttp1 \_ 1** 值預設為1。 如果 **EnableHttp1 \_ 1** 設定為1，則會忽略小於1.1 之任何 Http 版本的 **HTTP \_ 版本 \_ 資訊** 結構。
 
 
 </dt> </dl> </dd> <dt>
@@ -878,7 +878,7 @@ ms.locfileid: "106973307"
 
 根據預設，URL 的主機或授權單位部分會根據適用于直接和 proxy 連接的 IDN 規格進行編碼。 此選項可用於要求或連接控制碼，以啟用或停用 IDN。 當 IDN 停用時，WinINet 會使用系統字碼頁來編碼 URL 的主機或授權單位部分。 若要停用 IDN 主機轉換，請將 [**InternetSetOption**](/windows/desktop/api/Wininet/nf-wininet-internetsetoptiona)呼叫中的 *lpBuffer* 參數設定為零。 若只要啟用直接連接的 IDN 轉換，請在 **InternetSetOption** 的呼叫中，于 *lpBuffer* 參數中指定 [**網際網路旗標的 \_ \_ idn \_ direct** ]。 若只要在 proxy 連接上啟用 IDN 轉換，請在呼叫 **InternetSetOption** 的 *lpBuffer* 參數中指定 **網際網路 \_ 旗標 \_ IDN \_ proxy** 。
 
-**WINDOWS XP （含 SP2）和 Windows Server 2003 （含 SP1）：** 不支援此旗標。
+**Windows XP SP2 和 Windows Server 2003 SP1：** 不支援此旗標。
 
 **版本：** 需要 Internet Explorer 7.0。
 
@@ -1788,7 +1788,7 @@ ms.locfileid: "106973307"
 ## <a name="remarks"></a>備註
 
 > [!Note]  
-> WinINet 不支援伺服器實施。 此外，它不應該從服務使用。 針對伺服器執行或服務，請使用 [Microsoft WINDOWS HTTP services (WinHTTP) ](/windows/desktop/WinHttp/winhttp-start-page)。
+> WinINet 不支援伺服器實施。 此外，它不應該從服務使用。 若為伺服器執行或服務，請使用[Microsoft Windows HTTP 服務 (WinHTTP) ](/windows/desktop/WinHttp/winhttp-start-page)。
 
  
 

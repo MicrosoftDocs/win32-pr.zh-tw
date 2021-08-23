@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Swbemobjectset 搭配使用屬性
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 77b5ddfeb3c4c78b802f4ead13c15151fdf287b5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e4d87b0a3cf397193ce46250ca32e92462f80df8475feb232978900f21ee9e8f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104469504"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119373908"
 ---
 # <a name="swbemobjectset-properties"></a>Swbemobjectset 搭配使用屬性
 

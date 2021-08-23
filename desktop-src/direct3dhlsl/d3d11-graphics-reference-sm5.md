@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: f379301008190367a40959a319d01cfad127f6b4
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: a252c8ad3cc12c443506fbcc3802d9f1f7c15cfbe8cc62d937fcb9ca8723a8da
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104375708"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119371458"
 ---
 # <a name="shader-model-5"></a>著色器模型5
 
@@ -47,7 +47,7 @@ ms.locfileid: "104375708"
 
 
 
-| 項目                                                                                                                                                                                                                                                        | 描述                                                        |
+| Item                                                                                                                                                                                                                                                        | 描述                                                        |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------|
 | <span id="Shader_Model_5_Attributes"></span><span id="shader_model_5_attributes"></span><span id="SHADER_MODEL_5_ATTRIBUTES"></span>[著色器模型5屬性](d3d11-graphics-reference-sm5-attributes.md)<br/>                                     | 著色器模型5屬性的參考頁面。<br/>          |
 | <span id="Shader_Model_5_Intrinsic_Functions"></span><span id="shader_model_5_intrinsic_functions"></span><span id="SHADER_MODEL_5_INTRINSIC_FUNCTIONS"></span>[著色器模型5內建函式](d3d11-graphics-reference-sm5-intrinsics.md)<br/> | 著色器模型5內建函式的參考頁面。<br/> |

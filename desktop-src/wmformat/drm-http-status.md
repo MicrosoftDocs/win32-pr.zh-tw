@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 93d61803cab6cb80932402e429e77228a1611fd9
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e222cbf24e6333c7105e8564a5ad255693340749aeea32d98bd013bcb40995d9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106968978"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119586298"
 ---
 # <a name="drm_http_status-enumeration-drmexternalsh"></a>DRM_HTTP_STATUS 列舉 (Drmexternals .h) 
 
@@ -92,7 +92,7 @@ HTTP 作業已完成。
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                      |
-| 版本<br/>                  | Windows Media Format 7 SDK 或更新版本的 SDK<br/>                       |
+| 版本<br/>                  | WindowsMedia Format 7 SDK 或更新版本的 SDK<br/>                       |
 | 標頭<br/>                   | <dl> <dt>Drmexternals。h</dt> </dl> |
 
 

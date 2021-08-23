@@ -3,7 +3,7 @@ title: 'HDM_SETBITMAPMARGIN 訊息 (Commctrl .h) '
 description: 在現有的標題控制項中，設定點陣圖的邊界寬度（以圖元為單位）。 您可以明確地傳送此訊息，或使用標頭 \_ SetBitmapMargin 宏。
 ms.assetid: 5ac04701-18c8-42d4-9850-fe6eb813672c
 keywords:
-- HDM_SETBITMAPMARGIN message Windows 控制項
+- HDM_SETBITMAPMARGIN 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d2a5384151a63918a5828608b0aa8e829df61cad
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: aa2e7c24ea52edc0001cea9f4d7184957c2cfbf50f15769df964351df91e5813
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103844040"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119435948"
 ---
 # <a name="hdm_setbitmapmargin-message"></a>HDM \_ SETBITMAPMARGIN 訊息
 
@@ -49,8 +49,8 @@ ms.locfileid: "103844040"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

@@ -9,12 +9,12 @@ keywords:
 - 錯誤位，處理
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1544788192d4bfd778fef83caaca922f1f84c01e
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: d1b0f389b6f0bdeefdfd5868b444384af26027b9b688a8fb83ba89ea370b9360
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104024411"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119528808"
 ---
 # <a name="handling-errors-bits"></a>處理 (BITS 的錯誤) 
 

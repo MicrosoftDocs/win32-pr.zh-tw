@@ -4,12 +4,12 @@ ms.assetid: 69327f1d-f240-4b8a-8bee-0a96a0c425c2
 title: 替代項目
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 350c9ac97f0af1451a0ded6445cf658dad4ee4c6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b76faf27b82a6bfc064fddbad3d2d4ca6c2dddc098d56bca340b677cea17a319
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970350"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119337038"
 ---
 # <a name="alternates"></a>替代項目
 

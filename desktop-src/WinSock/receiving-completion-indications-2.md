@@ -4,12 +4,12 @@ ms.assetid: 071cf198-6b4c-445e-9bd9-044f57f994a3
 title: 接收完成指示
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cd05d8297af17c26393b5db113fac283b39fcbb3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: be0ea3d46707eb31d803362f327c309d3c9d948812c0eb3a810e31b896e895e1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "107000170"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119569248"
 ---
 # <a name="receiving-completion-indications"></a>接收完成指示
 
@@ -17,7 +17,7 @@ ms.locfileid: "107000170"
 
 ## <a name="blocking-and-waiting-for-completion-indication"></a>封鎖並等候完成指示
 
-應用程式可以在等候一個或多個事件物件變成使用 [**WSAWaitForMultipleEvents**](/windows/desktop/api/Winsock2/nf-winsock2-wsawaitformultipleevents) 函式設定時封鎖。 在 Windows 執行中，進程或執行緒真正會封鎖。 由於 Windows 通訊端2事件物件會實作為 Windows 事件，因此原生 Windows 函數 [**WaitForMultipleObjects**](/windows/win32/api/synchapi/nf-synchapi-waitformultipleobjects) 也可用於此用途。 如果執行緒需要等待通訊端和 nonsocket 事件，這會特別有用。
+應用程式可以在等候一個或多個事件物件變成使用 [**WSAWaitForMultipleEvents**](/windows/desktop/api/Winsock2/nf-winsock2-wsawaitformultipleevents) 函式設定時封鎖。 在 Windows 的執行中，進程或執行緒真正會封鎖。 由於 Windows 通訊端2事件物件會實作為 Windows 事件，因此原生 Windows 函數 [**WaitForMultipleObjects**](/windows/win32/api/synchapi/nf-synchapi-waitformultipleobjects)也可用於此用途。 如果執行緒需要等待通訊端和 nonsocket 事件，這會特別有用。
 
 ## <a name="polling-for-completion-indication"></a>輪詢完成指示
 
@@ -25,7 +25,7 @@ ms.locfileid: "107000170"
 
 ## <a name="using-socket-io-completion-routines"></a>使用通訊端 i/o 完成常式
 
-用來起始重迭 i/o 的函式 ( [**WSASend**](/windows/desktop/api/Winsock2/nf-winsock2-wsasend)、 [**WSASendTo**](/windows/desktop/api/Winsock2/nf-winsock2-wsasendto)、 [**WSARecv**](/windows/desktop/api/Winsock2/nf-winsock2-wsarecv)、 [**WSARecvFrom**](/windows/desktop/api/Winsock2/nf-winsock2-wsarecvfrom)) 全部採用 *lpCompletionRoutine* 做為選擇性的輸入參數。 這是應用程式特定函式的指標，該函式會在成功起始重迭的 i/o 作業完成 (成功或) 的情況下呼叫。 完成常式會遵循與 Windows 檔案 i/o 完成常式的約定相同的規則。 也就是說，線上程處於可提供警示等候狀態之前，不會叫用完成常式，例如，使用旗標設定叫用函數 [**WSAWaitForMultipleEvents**](/windows/desktop/api/Winsock2/nf-winsock2-wsawaitformultipleevents) 時 `fAlertable` 。 針對特定重迭 i/o 要求使用完成常式選項的應用程式，可能不會針對相同的重迭 i/o 要求使用 [**WSAGetOverlappedResult**](/windows/desktop/api/Winsock2/nf-winsock2-wsagetoverlappedresult) 的 wait 選項。
+用來起始重迭 i/o 的函式 ( [**WSASend**](/windows/desktop/api/Winsock2/nf-winsock2-wsasend)、 [**WSASendTo**](/windows/desktop/api/Winsock2/nf-winsock2-wsasendto)、 [**WSARecv**](/windows/desktop/api/Winsock2/nf-winsock2-wsarecv)、 [**WSARecvFrom**](/windows/desktop/api/Winsock2/nf-winsock2-wsarecvfrom)) 全部採用 *lpCompletionRoutine* 做為選擇性的輸入參數。 這是應用程式特定函式的指標，該函式會在成功起始重迭的 i/o 作業完成 (成功或) 的情況下呼叫。 完成常式會遵循 Windows 檔案 i/o 完成常式的約定相同規則。 也就是說，線上程處於可提供警示等候狀態之前，不會叫用完成常式，例如，使用旗標設定叫用函數 [**WSAWaitForMultipleEvents**](/windows/desktop/api/Winsock2/nf-winsock2-wsawaitformultipleevents) 時 `fAlertable` 。 針對特定重迭 i/o 要求使用完成常式選項的應用程式，可能不會針對相同的重迭 i/o 要求使用 [**WSAGetOverlappedResult**](/windows/desktop/api/Winsock2/nf-winsock2-wsagetoverlappedresult) 的 wait 選項。
 
 傳輸可讓應用程式從通訊端 i/o 完成常式的內容中叫用傳送和接收作業，並保證指定的通訊端、i/o 完成常式不會進行嵌套。 這可讓時間緊迫的資料傳輸完全在先占式內容中發生。
 

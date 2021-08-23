@@ -5,12 +5,12 @@ ms.assetid: BA459FF0-9457-4652-A97C-BD4EC57EC8E2
 ms.topic: article
 ms.date: 05/31/2018
 ms.custom: seodec18
-ms.openlocfilehash: 9208ded926bda197baf41d9195c13cacd8f7079b
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 595a0833e88948585622d79907c81a1465e3fa7b11d1ebc8d6bbd697312509bf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104315652"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119430468"
 ---
 # <a name="whats-new-in-direct2d"></a>Direct2D 的新功能
 
@@ -38,13 +38,13 @@ ms.locfileid: "104315652"
 -   [**ID2D1DeviceCoNtext5::CreateColorCoNtextFromDxgiColorSpace**](/windows/win32/api/d2d1_3/nf-d2d1_3-id2d1devicecontext5-createcolorcontextfromdxgicolorspace)
 -   [**ID2D1DeviceCoNtext5::CreateColorCoNtextFromSimpleColorProfile**](/windows/win32/api/d2d1_3/nf-d2d1_3-id2d1devicecontext5-createcolorcontextfromsimplecolorprofile(constd2d1_simple_color_profile_id2d1colorcontext1))
 
-## <a name="whats-new-for-windows-10-anniversary-update"></a>Windows 10 年度更新版的新功能
+## <a name="whats-new-for-windows-10-anniversary-update"></a>Windows 10 周年更新的新功能
 
-已針對 Windows 10 年度更新版新增或更新下列功能和 Api。
+針對 Windows 10 周年更新新增或更新了下列功能和 api。
 
 ### <a name="improved-support-for-color-fonts"></a>改善的色彩字型支援
 
-從 Windows 10 年度更新版開始，Direct2D 現在支援轉譯各式各樣的色彩字型格式，可讓開發人員在其 Direct2D 的應用程式中使用比以往更多的字型類型。 這包括下列項目的支援：
+從 Windows 10 周年更新開始，Direct2D 現在支援轉譯各式各樣的色彩字型格式，可讓開發人員在其 Direct2D 提供的應用程式中使用比以往更多的字型類型。 這包括下列項目的支援：
 
 -   ' COLR ' OpenType 資料表，可在字型中啟用精簡向量內容。 自 Windows 8.1 之後 (支援。 ) 
 -   「SVG」 OpenType 資料表，可在字型中啟用 SVG 內容。
@@ -54,11 +54,11 @@ ms.locfileid: "104315652"
 啟用 [ [**D2D1 \_ 繪圖 \_ 文字 \_ 選項 \_ 啟用 \_ 色彩 \_ 字型**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_draw_text_options) ] 旗標時，Direct2D 會自動支援這些色彩字型格式。 如需詳細資訊，請參閱下列主題：
 
 -   [色彩字型](/windows/desktop/DirectWrite/color-fonts)
--   [DirectWrite 色彩圖像範例](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/DWriteColorGlyph)
+-   [DirectWrite 色符號範例](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/DWriteColorGlyph)
 
 ### <a name="new-image-effects"></a>新影像效果
 
-從 Windows 10 年度更新版開始，Direct2D 包含 AlphaMask、CrossFade、不透明度和色調效果。 這項功能先前是由複合、ArithmeticComposite 和 ColorMatrix 效果的特定設定所提供，但新的內建效果可讓您更輕鬆地執行這些一般作業。
+從 Windows 10 周年更新開始，Direct2D 包含 AlphaMask、CrossFade、不透明度和淡色效果。 這項功能先前是由複合、ArithmeticComposite 和 ColorMatrix 效果的特定設定所提供，但新的內建效果可讓您更輕鬆地執行這些一般作業。
 
 ## <a name="whats-new-for-windows-10"></a>Windows 10 的新功能
 
@@ -185,9 +185,9 @@ Direct2D 效果會使用 HLSL 圖元、頂點和/或計算著色器來執行。 
 
 已針對 Windows 8 新增或更新下列功能和 Api。
 
-已安裝 [適用于 windows 7 的 Platform Update](/windows/desktop/direct3darticles/platform-update-for-windows-7) 的 windows 7 上支援新的 Direct2D 介面。
+已安裝[Windows 7 的平臺更新](/windows/desktop/direct3darticles/platform-update-for-windows-7)Windows 7 支援新的 Direct2D 介面。
 
-裝置和裝置內容的 Direct2d 語義已更新為更接近 Direct3D 所使用的語法，以及在 Windows Store 應用程式上提供精確的操作。 如需詳細資訊，請參閱 [裝置和裝置](devices-and-device-contexts.md) 內容。
+裝置和裝置內容的 direct2d 語義已更新為更接近 Direct3D 所使用的語法，並可在 Windows 存放區應用程式上提供精確的操作。 如需詳細資訊，請參閱 [裝置和裝置](devices-and-device-contexts.md) 內容。
 
 選取的相關 Api：
 
@@ -202,7 +202,7 @@ Direct2D 效果會使用 HLSL 圖元、頂點和/或計算著色器來執行。 
 -   [**ID2D1PrintControl**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1printcontrol)
 -   [**ID2D1ImageBrush**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1imagebrush)
 
-[Direct2D 效果](effects-overview.md) 是一組 api，Windows 8 的新功能，可將高品質效果套用至影像。 它也包含可讓您自行自訂效果的 Api。
+[Direct2D 效果](effects-overview.md)是一組 api，Windows 8 的新功能，可將高品質效果套用至影像。 它也包含可讓您自行自訂效果的 Api。
 
 選取的相關 Api：
 
@@ -210,13 +210,13 @@ Direct2D 效果會使用 HLSL 圖元、頂點和/或計算著色器來執行。 
 -   [**ID2D1EffectImpl**](/windows/win32/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1effectimpl)
 -   [**ID2D1EffectCoNtext**](/windows/win32/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1effectcontext)
 
-從 Windows 8 開始，Direct2D 包含用於建立多執行緒應用程式的其他 Api。 如需詳細資訊，請參閱多 [執行緒 Direct2D 應用程式](multi-threaded-direct2d-apps.md) 。
+從 Windows 8 開始，Direct2D 包含用於建立多執行緒應用程式的其他 api。 如需詳細資訊，請參閱多 [執行緒 Direct2D 應用程式](multi-threaded-direct2d-apps.md) 。
 
 選取的相關 Api：
 
 -   [**ID2D1MultiThread**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1multithread)
 -   [**D2D1 \_ FACTORY \_ 類型 \_ 多 \_ 執行緒**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_factory_type)
 
- 
+ 
 
- 
+ 

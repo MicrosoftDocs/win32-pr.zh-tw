@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 21f8487a11bc4c74e4538f2030786abd7d56eb54
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 6dbb0f7d9eb2bc84a2aa5423aceddb0bb204c5cf674320df5cbbdf9a5b3ae7c5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103696564"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119492228"
 ---
 # <a name="id3dxskininfogetminboneinfluence-method"></a>ID3DXSkinInfo：： GetMinBoneInfluence 方法
 

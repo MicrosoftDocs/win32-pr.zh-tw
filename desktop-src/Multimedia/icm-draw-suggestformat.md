@@ -3,7 +3,7 @@ title: 'ICM_DRAW_SUGGESTFORMAT 訊息 (Vfw .h) '
 description: ICM \_ DRAW \_ SUGGESTFORMAT 訊息會查詢轉譯驅動程式，以建議可繪製的解壓縮格式。
 ms.assetid: e3e97790-dbd1-4436-9830-5218ae1f949b
 keywords:
-- ICM_DRAW_SUGGESTFORMAT message Windows 多媒體
+- ICM_DRAW_SUGGESTFORMAT 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,14 +14,14 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c97c8782b16336427b3832f36b5a06987399df1b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 843dd2d398f5be6476a148922f3244113e94ab3fe3c10bac9ee08caefb8c4828
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464632"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119495947"
 ---
-# <a name="icm_draw_suggestformat-message"></a>ICM \_ 繪圖 \_ SUGGESTFORMAT 訊息
+# <a name="icm_draw_suggestformat-message"></a>ICM \_繪製 \_ SUGGESTFORMAT 訊息
 
 **ICM \_ DRAW \_ SUGGESTFORMAT** 訊息會查詢轉譯驅動程式，以建議可繪製的解壓縮格式。
 

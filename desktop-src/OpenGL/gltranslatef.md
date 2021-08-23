@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d5b52c3890b70ecb931211af1788afe2b8e6ad4
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 12975095aa78d143aaaf096e8b0141f37d45a56286e7d607a9253e59e27ba5bf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "103853272"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119489840"
 ---
 # <a name="gltranslatef-function"></a>glTranslatef 函式
 
@@ -56,7 +56,7 @@ void WINAPI glTranslatef(
 
 </dd> <dt>
 
-*Z* 
+*z* 
 </dt> <dd>
 
 平移向量的 *z* 座標。

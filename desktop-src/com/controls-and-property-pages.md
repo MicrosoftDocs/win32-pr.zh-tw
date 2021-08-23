@@ -4,16 +4,16 @@ ms.assetid: 145eba76-be21-487c-bfa8-cfe4bbf40410
 description: 深入瞭解：控制項和屬性頁
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3be148db0da3be535f2ed18b5ff6fac4d6890abf
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: bcf65fb268bd53419c044ba36f14cb9548984a21aaac2b245fd299280f45a080
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106980927"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119462868"
 ---
 # <a name="controls-and-property-pages"></a>控制項和屬性頁
 
-下列各節說明 ActiveX 控制項、標準屬性頁，以及用來建立屬性頁的 Api：
+下列各節說明 ActiveX 控制項、標準屬性頁，以及用來建立屬性頁的 api：
 
 -   [指南](guide-ctrls.md)
 -   [參考](reference-ctrls.md)

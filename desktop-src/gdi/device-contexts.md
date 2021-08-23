@@ -4,12 +4,12 @@ ms.assetid: 1fa97368-8931-4687-b37f-ed4db949a150
 title: 裝置內容
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4c8a3c5a820e443180552d8f85fa5aedcc2e595e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 43f9b5d4609d1f5e364b9c9fe2437393e58e7bf18fa555aea723657391d56a1f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972704"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119469668"
 ---
 # <a name="device-contexts"></a>裝置內容
 

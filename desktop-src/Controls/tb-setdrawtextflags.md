@@ -3,7 +3,7 @@ title: 'TB_SETDRAWTEXTFLAGS 訊息 (Commctrl .h) '
 description: 設定工具列的文字繪圖旗標。
 ms.assetid: b088af32-ea8a-4304-89f1-a7cec5497f85
 keywords:
-- TB_SETDRAWTEXTFLAGS message Windows 控制項
+- TB_SETDRAWTEXTFLAGS 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 890a24239ff2257ffaccff6613b3765711b2ef7b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 849bbb0e661c9e8afe246894d2d2f59d99d15a3f096ad2295a7018cf3df26ca4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934785"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119543878"
 ---
 # <a name="tb_setdrawtextflags-message"></a>TB \_ SETDRAWTEXTFLAGS 訊息
 
@@ -57,8 +57,8 @@ ms.locfileid: "103934785"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

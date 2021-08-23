@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: WMI 系統類別
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 34cdee69b641fdbfdc006bdcef6d066687308ed9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5a576c3e1a02a20da9b8fb0ca7d57d8deb3dcd198e591e6f7e00dc8fef2ae68f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106971605"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119502698"
 ---
 # <a name="wmi-system-classes"></a>WMI 系統類別
 
@@ -28,10 +28,10 @@ WMI 系統類別是以 [*通用訊息模型 (CIM)*](gloss-c.md)為基礎的預�
 
 
 
-| System 類別                                                                         | Description                                                                                                                                                                                          |
+| System 類別                                                                         | 描述                                                                                                                                                                                          |
 |--------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**\_\_AbsoluteTimerInstruction**](--absolutetimerinstruction.md)                   | 導致在特定時間于特定日期產生事件。                                                                                                                               |
-| [**\_\_Ace**](--ace.md)                                                             | 表示存取控制項目 (ACE)。                                                                                                                                                            |
+| [**\_\_ACE**](--ace.md)                                                             | 表示存取控制項目 (ACE)。                                                                                                                                                            |
 | [**\_\_AggregateEvent**](--aggregateevent.md)                                       | 代表數個個別內建或外來事件的匯總事件。                                                                                                                   |
 | [**\_\_ArbitratorConfiguration**](--arbitratorconfiguration.md)                     | 設定類別，限制由 WMI 用戶端所起始的作業所使用的內部資源。                                                                                         |
 | [**\_\_CacheControl**](--cachecontrol.md)                                           | 判斷 WMI 何時應該釋放元件物件模型 (COM) 物件。                                                                                                                            |
@@ -62,7 +62,7 @@ WMI 系統類別是以 [*通用訊息模型 (CIM)*](gloss-c.md)為基礎的預�
 | [**\_\_InstanceModificationEvent**](--instancemodificationevent.md)                 | 報告實例修改事件，這是在命名空間中的實例變更時所產生的內建 [事件](determining-the-type-of-event-to-receive.md) 類型。                      |
 | [**\_\_InstanceOperationEvent**](--instanceoperationevent.md)                       | 作為與實例相關之所有內建事件的基類。                                                                                                                          |
 | [**\_\_InstanceProviderRegistration**](--instanceproviderregistration.md)           | 在 WMI 中註冊執行個體提供者。                                                                                                                                                                 |
-| [**\_\_IntervalTimerInstruction**](--intervaltimerinstruction.md)                   | 依時間間隔產生事件，類似于 Windows 程式設計中的 [**WM \_ 計時器**](/windows/desktop/winmsg/wm-timer) 訊息。                                                                                         |
+| [**\_\_IntervalTimerInstruction**](--intervaltimerinstruction.md)                   | 依時間間隔產生事件，類似于 Windows 程式設計中的 [**WM \_ 計時器**](/windows/desktop/winmsg/wm-timer)訊息。                                                                                         |
 | [**\_\_MethodInvocationEvent**](--methodinvocationevent.md)                         | 這個類別不會實作為。                                                                                                                                                                       |
 | [**\_\_MethodProviderRegistration**](--methodproviderregistration.md)               | 使用 WMI 註冊方法提供者。                                                                                                                                                                 |
 | [**\_\_命名空間**](--namespace.md)                                                 | 表示 WMI 命名空間。                                                                                                                                                                          |
@@ -71,7 +71,7 @@ WMI 系統類別是以 [*通用訊息模型 (CIM)*](gloss-c.md)為基礎的預�
 | [**\_\_NamespaceModificationEvent**](--namespacemodificationevent.md)               | 報告命名空間修改事件，這是在修改命名空間時所產生的內建 [事件](determining-the-type-of-event-to-receive.md) 類型。                           |
 | [**\_\_NamespaceOperationEvent**](--namespaceoperationevent.md)                     | 所有與命名空間相關之內建事件的基類。                                                                                                                                    |
 | [**\_\_NotifyStatus**](--notifystatus.md)                                           | 作為提供者定義之錯誤類別的父類別。                                                                                                                                       |
-| [**\_\_NTLMUser9X**](--ntlmuser9x.md)                                               | 控制執行不支援之 Windows 版本之電腦的遠端存取。                                                                                                                        |
+| [**\_\_NTLMUser9X**](--ntlmuser9x.md)                                               | 控制對執行不支援之 Windows 版本之電腦的遠端存取。                                                                                                                        |
 | [**\_\_ObjectProviderCacheControl**](--objectprovidercachecontrol.md)               | 控制何時卸載類別或執行個體提供者。                                                                                                                                              |
 | [**\_\_ObjectProviderRegistration**](--objectproviderregistration.md)               | 作為用來在 WMI 中註冊類別和執行個體提供者之類別的父系。                                                                                                      |
 | [**\_\_參數**](--parameters.md)                                               | 定義方法的輸入和輸出參數。                                                                                                                                                 |

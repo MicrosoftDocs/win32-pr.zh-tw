@@ -3,7 +3,7 @@ title: 'DRV_POWER 訊息 (Mmsystem .h) '
 description: 通知驅動程式開啟或關閉裝置電源。
 ms.assetid: b3bbd16a-5b90-4127-a1dd-f2ddfd918f0a
 keywords:
-- DRV_POWER message Windows 多媒體
+- DRV_POWER 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8113b7fe544bf36a35b6e516c7a98ae71082577d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1a6b9f3ddb2c0184337d2f53d73cdda8451a8d8df19229e505b08fedf685f40d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103935071"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119496448"
 ---
 # <a name="drv_power-message"></a>WINSPOOL.DRV \_ 電源訊息
 
@@ -59,7 +59,7 @@ ms.locfileid: "103935071"
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                                |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                      |
-| 標頭<br/>                   | <dl> <dt>Mmsystem (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Mmsystem (包含 Windows .h) </dt> </dl> |
 
 
 

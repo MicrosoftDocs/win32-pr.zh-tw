@@ -4,12 +4,12 @@ ms.assetid: d9ff43ee-8e7a-4132-ac2f-232dc24606d8
 title: 打造冰
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8f2de8dab0284a612723461d11b420ed1f22b244
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6b4b79ab8e17d53ccfb60484c0d307f668c44a7a0e530cf776b10e73a697541c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106981536"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119500760"
 ---
 # <a name="building-an-ice"></a>打造冰
 
@@ -25,13 +25,13 @@ ICE 自訂動作僅限於下列自訂動作類型。
 
 
 
-| 自訂動作類型                                 | Description               |
+| 自訂動作類型                                 | 描述               |
 |----------------------------------------------------|---------------------------|
 | [自訂動作類型1](custom-action-type-1.md)   | 二進位資料流程中的 DLL      |
 | [自訂動作類型2](custom-action-type-2.md)   | 二進位資料流程中的 EXE      |
 | [自訂動作類型5](custom-action-type-5.md)   | 二進位資料流程中的 JScript  |
 | [自訂動作類型6](custom-action-type-6.md)   | 二進位資料流程中的 VBScript |
-| [自訂動作類型37](custom-action-type-37.md) | 字串形式的 JScript 程式碼    |
+| [自訂動作類型37](custom-action-type-37.md) | 以字串形式 JScript 程式碼    |
 | [自訂動作類型38](custom-action-type-38.md) | VBScript 程式碼字串   |
 
 

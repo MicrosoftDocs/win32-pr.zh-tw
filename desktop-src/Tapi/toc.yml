@@ -34,7 +34,7 @@
                       href: address-ovr.md
                     - name: 管道
                       href: channel-ovr.md
-                    - name: 線條
+                    - name: 折線圖
                       href: line-ovr.md
                     - name: 網路
                       href: network-ovr.md
@@ -83,7 +83,7 @@
                       href: forward-ovr.md
                     - name: 遞交
                       href: handoffs-ovr.md
-                    - name: Hold
+                    - name: 保留
                       href: hold-ovr.md
                     - name: 公園
                       href: park-ovr.md
@@ -291,14 +291,14 @@
                   href: media-event-timers.md
                 - name: 撥打電話中心程式設計項目的摘要
                   href: summaries-of-call-center-programming-elements.md
-            - name: 電話裝置
+            - name: 電話設備
               href: phone-devices.md
               items:
-                - name: 手機裝置元素
+                - name: 電話裝置元素
                   href: phone-device-elements.md
                 - name: 初始化和關閉
                   href: initialization-and-shutdown.md
-                - name: 開啟和關閉手機裝置
+                - name: 開啟和關閉電話裝置
                   href: opening-and-closing-phone-devices.md
                   items:
                     - name: 操作模式和許可權
@@ -343,7 +343,7 @@
                   items:
                     - name: 補充線服務功能
                       href: supplementary-line-service-functions.md
-                    - name: 補充電話語音功能
+                    - name: 補充電話服務功能
                       href: supplementary-phone-service-functions.md
                 - name: 擴充電話語音服務參考
                   href: extended-telephony-services-reference.md
@@ -776,7 +776,7 @@
                       href: /windows/win32/api/Tapi/ns-tapi-linetranslatecaps
                     - name: LINETRANSLATEOUTPUT
                       href: /windows/win32/api/Tapi/ns-tapi-linetranslateoutput
-                - name: 手機裝置結構
+                - name: 電話裝置結構
                   href: phone-device-structures.md
                   items:
                     - name: PHONEBUTTONINFO
@@ -868,7 +868,7 @@
                       href: line-reply.md
                     - name: LINE_REQUEST
                       href: line-request.md
-                - name: 手機裝置訊息
+                - name: 電話裝置訊息
                   href: phone-device-messages.md
                   items:
                     - name: PHONE_BUTTON
@@ -1026,7 +1026,7 @@
                       href: linetranslateresult--constants.md
                     - name: LINETSPIOPTION_ 常數
                       href: linetspioption--constants.md
-                - name: 手機裝置常數
+                - name: 電話裝置常數
                   href: phone-device-constants.md
                   items:
                     - name: PHONEBUTTONFUNCTION_ 常數
@@ -1131,7 +1131,7 @@
                       href: pluggable-terminals.md
                 - name: 呼叫物件
                   href: call-object.md
-                - name: 電話控制項和 Phone 物件
+                - name: 電話Control 和電話物件
                   href: phone-control-and-the-phone-object.md
                 - name: CallHub 物件
                   href: callhub-object.md
@@ -1150,7 +1150,7 @@
               items:
                 - name: 需要的程式庫
                   href: libraries-required.md
-                - name: 提示和秘訣
+                - name: 提示和提示
                   href: hints-and-tips.md
                 - name: 使用檔案終端機
                   href: using-file-terminals.md
@@ -1176,7 +1176,7 @@
                       href: unregister-a-pluggable-terminal.md
                     - name: 註冊可插入的終端機事件
                       href: registering-for-pluggable-terminal-events.md
-                - name: 電話和位址裝置特定事件
+                - name: 電話和解決裝置特定事件
                   href: phone-and-address-device-specific-events.md
                 - name: 程式碼範例
                   href: code-snippets.md
@@ -1781,7 +1781,7 @@
                           href: /windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-blindtransfer
                         - name: 會議方法
                           href: /windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-conference
-                        - name: Connect 方法
+                        - name: 連線方法
                           href: /windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-connect
                         - name: 撥號方法
                           href: /windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-dial
@@ -3170,7 +3170,7 @@
                           href: /windows/desktop/api/Rend/nf-rend-itdirectory-put_defaultobjectttl
                         - name: EnableAutoRefresh 方法
                           href: /windows/desktop/api/Rend/nf-rend-itdirectory-enableautorefresh
-                        - name: Connect 方法
+                        - name: 連線方法
                           href: /windows/desktop/api/Rend/nf-rend-itdirectory-connect
                         - name: Bind 方法
                           href: /windows/desktop/api/Rend/nf-rend-itdirectory-bind
@@ -3445,7 +3445,7 @@
                   items:
                     - name: 線條設定
                       href: line-configurations.md
-                    - name: 設定電話通話的終端機
+                    - name: 設定電話交談的終端機
                       href: setting-a-terminal-for-phone-conversations.md
                     - name: 擴充行服務
                       href: extended-line-services.md
@@ -3463,7 +3463,7 @@
                           href: async-replies-versus-events-on-new-call-handles.md
                         - name: 呼叫控制碼操作
                           href: call-handle-manipulation.md
-                    - name: 外部產生的電話號碼
+                    - name: 外部產生的電話數位
                       href: externally-generated-phone-numbers.md
                     - name: CallHub 支援
                       href: callhub-support.md
@@ -3488,17 +3488,17 @@
                           href: generating-inband-digits-and-tones.md
                     - name: 媒體服務提供者通訊
                       href: media-service-provider-communication.md
-                - name: 電話裝置
+                - name: 電話設備
                   href: phone-devices.md
                   items:
-                    - name: 基本電話語音
+                    - name: 基本電話服務
                       href: basic-phone-services.md
                       items:
-                        - name: Phone SPI 初始化
+                        - name: 電話SPI 初始化
                           href: phone-spi-initialization.md
-                        - name: 開啟和關閉手機裝置
+                        - name: 開啟和關閉電話裝置
                           href: opening-and-closing-phone-devices.md
-                    - name: 補充電話語音
+                    - name: 補充電話服務
                       href: supplementary-phone-services.md
                       items:
                         - name: Hookswitch 裝置
@@ -3515,7 +3515,7 @@
                           href: data-areas.md
                         - name: 狀態
                           href: status.md
-                    - name: 擴充電話語音
+                    - name: 擴充的電話服務
                       href: extended-phone-services.md
                       items:
                         - name: 純量資料常數
@@ -3722,7 +3722,7 @@
                           href: /windows/desktop/api/tspi/nf-tspi-tspi_lineunhold
                         - name: TSPI_lineUnpark
                           href: /windows/desktop/api/tspi/nf-tspi-tspi_lineunpark
-                    - name: TSPI Phone 裝置功能
+                    - name: TSPI 電話裝置功能
                       href: tspi-phone-device-functions.md
                       items:
                         - name: TSPI_phoneClose
@@ -3821,7 +3821,7 @@
                           href: /windows/desktop/api/tspi/nf-tspi-tuispi_lineconfigdialog
                         - name: TUISPI_lineConfigDialogEdit
                           href: /windows/desktop/api/tspi/nf-tspi-tuispi_lineconfigdialogedit
-                    - name: TUISPI Phone 裝置功能
+                    - name: TUISPI 電話裝置功能
                       href: tuispi-phone-device-functions.md
                       items:
                         - name: TUISPI_phoneConfigDialog
@@ -3909,7 +3909,7 @@
                           href: line-sendmspdata.md
                         - name: LINE_QOSINFO
                           href: line-qosinfo.md
-                    - name: TSPI Phone 裝置訊息
+                    - name: TSPI 電話裝置訊息
                       href: tspi-phone-device-messages.md
                       items:
                         - name: PHONE_BUTTON

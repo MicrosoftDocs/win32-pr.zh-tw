@@ -4,12 +4,12 @@ ms.assetid: 1bde4d4d-958e-45f4-8cdb-0572adcaa3ac
 title: 模擬具名管道用戶端
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 586de99ae24ba9bab8b65ba4cb1a3a91922aa9d7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6f6f0cb51acb09be9774fd67bae7a176c75156b28fb5b03f398202ee8ad9cbc4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971162"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119350398"
 ---
 # <a name="impersonating-a-named-pipe-client"></a>模擬具名管道用戶端
 

@@ -1,15 +1,15 @@
 ---
-description: Windows Installer 開發人員可以撰寫可讓終端使用者使用可設定合併模組的工具。
+description: Windows安裝程式開發人員可以撰寫工具，讓終端使用者使用可設定的合併模組。
 ms.assetid: 5857b788-f1dd-41d0-b0ee-0872494e3c2c
 title: 將模組設定功能新增至合併工具
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ba04d297ad93cffc553670c648577f650cd21407
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cb20645d4a66b09ffa95e34f04e9057bd0a8c57e645be652d8ea8cd595ddd6cb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103692811"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119252098"
 ---
 # <a name="adding-module-configuration-capability-to-a-merge-tool"></a>將模組設定功能新增至合併工具
 

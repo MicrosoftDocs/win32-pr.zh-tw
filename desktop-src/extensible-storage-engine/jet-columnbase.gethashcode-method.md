@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 3f0be7ebc25140e1b92807ece95347b3933784e5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 15a3d65fc3d1742db47a35b2ceb9603fb5a5e6ba8a5b16222111ff94ba842561
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320968"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119360028"
 ---
 # <a name="jet_columnbasegethashcode-method"></a>JET_COLUMNBASE。GetHashCode 方法
 

@@ -14,12 +14,12 @@ api_type:
 - DllExport
 api_location:
 - BEvtCol.exe
-ms.openlocfilehash: 2681af7425fd5cacf88375e11e4658e5d4b1a2c3
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 5eeccd31f3d9ab1f0b0ec05ebf80ea9f880a73fed21b21fe67fe63257af28871
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510389"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119589018"
 ---
 # <a name="control-class"></a>Control 類別
 
@@ -50,7 +50,7 @@ class Control
 
 | 方法                                                         | 描述                                                                                                                                                                                                                                                                                                                                                               |
 |:---------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**Checkpoint**](control-checkpoint.md)                       | 如果目前的設定是復原/重做/還原的結果，請將它標示為已明確設定，讓歷程記錄保留設定的時間，並在下一次設定變更時建立備份檔案。 如果已明確設定目前的設定，就不會有任何作用。 在成功時傳回1，錯誤則為0。<br/> |
+| [**檢查站**](control-checkpoint.md)                       | 如果目前的設定是復原/重做/還原的結果，請將它標示為已明確設定，讓歷程記錄保留設定的時間，並在下一次設定變更時建立備份檔案。 如果已明確設定目前的設定，就不會有任何作用。 在成功時傳回1，錯誤則為0。<br/> |
 | [**DumpDiagnostics**](control-dumpdiagnostics.md)             | 將診斷資訊傾印到記錄檔中。<br/>                                                                                                                                                                                                                                                                                                                  |
 | [**FastShutdown**](control-fastshutdown.md)                   | 快速停止收集器，並捨棄所有已排入佇列的資料。<br/>                                                                                                                                                                                                                                                                                                    |
 | [**清除**](control-flush.md)                                 | 清除轉寄站緩衝區。<br/>                                                                                                                                                                                                                                                                                                                                   |
@@ -61,7 +61,7 @@ class Control
 | [**RestoreFile**](control-restorefile.md)                     | 從備份檔案還原收集器的主動式設定。 在成功時傳回1，錯誤則為0。<br/>                                                                                                                                                                                                                                                        |
 | [**RestoreFromTime**](control-restorefromtime.md)             | 從以時間戳記選取的備份檔案還原收集器的使用中設定。 在成功時傳回1，錯誤則為0。<br/>                                                                                                                                                                                                                               |
 | [**SetConfiguration**](control-setconfiguration.md)           | 設定收集器的新使用中設定。 在成功時傳回1，錯誤則為0。<br/>                                                                                                                                                                                                                                                                           |
-| [**關閉**](control-shutdown.md)                           | 停止收集器。 如果收集器是以服務方式執行，則停止服務是較佳的方法。<br/>                                                                                                                                                                                                                                                     |
+| [**關機**](control-shutdown.md)                           | 停止收集器。 如果收集器是以服務方式執行，則停止服務是較佳的方法。<br/>                                                                                                                                                                                                                                                     |
 | [**復原**](control-undo.md)                                   | 從先前的備份檔案還原收集器的使用中設定， (由從目前的原始時間戳記) 來判斷。 如果設定是剛設定的，這表示還原該變更。 連續的呼叫將會復原到先前和先前的設定。 在成功時傳回1，錯誤則為0。<br/>                           |
 | [**ValidateConfiguration**](control-validateconfiguration.md) | 驗證設定文字的正確性，而不將其設定為使用中。 在成功時傳回1，錯誤則為0。<br/>                                                                                                                                                                                                                                                     |
 
@@ -75,7 +75,7 @@ class Control
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 10 桌面應用程式\]<br/>                                                          |
+| 最低支援的用戶端<br/> | Windows 10 \[僅限桌面應用程式\]<br/>                                                          |
 | 最低支援的伺服器<br/> | Windows Server 2016<br/>                                                                       |
 | 命名空間<br/>                | 根 \\ Microsoft \\ Windows \\ BootEventCollector<br/>                                              |
 | MOF<br/>                      | <dl> <dt>BootEventCollectorWMI mof</dt> </dl> |

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: a5a7cbb28c53d8ff357d4e5174d24f92ba2d0cad
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 551650e7c8b6b0f830a84aee37bf671bbc300224c9e300a3f6f841ef503a504d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106991199"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119428940"
 ---
 # <a name="cimagedisplay-class"></a>CImageDisplay 類別
 
@@ -31,14 +31,14 @@ ms.locfileid: "106991199"
 
 
 
-| 受保護的成員變數                                       | Description                                                                            |
+| 受保護的成員變數                                       | 描述                                                                            |
 |------------------------------------------------------------------|----------------------------------------------------------------------------------------|
 | [**m \_ 顯示**](cimagedisplay-m-display.md)                    | 描述目前顯示格式的 **VIDEOINFO** 結構。                     |
-| 保護方法                                                | Description                                                                            |
+| 保護方法                                                | 描述                                                                            |
 | [**CheckBitFields**](cimagedisplay-checkbitfields.md)           | 驗證 **VIDEOINFO** 結構中的色遮罩。                                |
 | [**CountPrefixBits**](cimagedisplay-countprefixbits.md)         | 計算指定位欄位開頭的零位位數。              |
 | [**CountSetBits**](cimagedisplay-countsetbits.md)               | 傳回在指定位欄位中設定為1的位數目。                          |
-| 公用方法                                                   | Description                                                                            |
+| 公用方法                                                   | 描述                                                                            |
 | [**CheckHeaderValidity**](cimagedisplay-checkheadervalidity.md) | 驗證 [**BITMAPINFOHEADER**](/windows/win32/api/wingdi/ns-wingdi-bitmapinfoheader) 結構。                    |
 | [**CheckMediaType**](cimagedisplay-checkmediatype.md)           | 判斷建議的媒體類型是否與顯示格式相容。        |
 | [**CheckPaletteHeader**](cimagedisplay-checkpaletteheader.md)   | 驗證 **VIDEOINFO** 結構中的調色板專案。                            |

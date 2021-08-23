@@ -14,12 +14,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 8554362e3b8cd8dd62a6dc19bec4de1d8c30b88a
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: e550c5561fa5eade96797e7def017605a04c06853bfe24e691bfb17eeb02a0a5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104375017"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119355098"
 ---
 # <a name="streamselector-class"></a>StreamSelector 類別
 

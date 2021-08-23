@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 72f3c4aaf9ac7e6beaad1343c024aa28bd2a85ab
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
-ms.translationtype: HT
+ms.openlocfilehash: 45bd755cdc0d183a6b06e42cbd9fb3934a5dc26a729e9982bc54fb9d2a2b01fb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104375368"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119561968"
 ---
 # <a name="texldd---ps"></a>texldd-ps
 
@@ -29,7 +29,7 @@ ms.locfileid: "104375368"
 
 
 
- 
+ 
 
 其中：
 
@@ -49,7 +49,7 @@ ms.locfileid: "104375368"
 
 
 
- 
+ 
 
 \* 只有 ps 2 a 才支援此 \_ 指令 \_ 。 Ps 2 b 不支援此 \_ 功能 \_ 。 如需設定檔的詳細資訊，請參閱 [**D3DXGetPixelShaderProfile**](/windows/desktop/direct3d9/d3dxgetpixelshaderprofile)。
 
@@ -66,6 +66,6 @@ ms.locfileid: "104375368"
 [圖元著色器指示](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
