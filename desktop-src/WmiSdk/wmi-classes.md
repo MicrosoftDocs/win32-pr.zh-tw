@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: WMI 類別
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fa764d39c1fb048e125898a1f7e6d5cadf7f127d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a1da15af60f1d1a32d652c8776e20ef36d65c1ff158dc6ac7465886361c5862c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106977846"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119757508"
 ---
 # <a name="wmi-classes"></a>WMI 類別
 
@@ -20,7 +20,7 @@ ms.locfileid: "106977846"
 
 | 區段                                                    | 描述                                                                                                                                                                                                                                                                                                                                                  |
 |------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [WMI 系統類別](wmi-system-classes.md)               | 預先定義的類別，包含在 Windows Management Instrumentation (WMI) 核心的每個命名空間中。 您可以辨識 WMI 系統類別，因為名稱的開頭是雙底線 (\_ \_) 。 這些類別提供 WMI 的許多基本功能。 WMI 系統類別的用途與 SQL server 中的系統資料表類似。 |
+| [WMI 系統類別](wmi-system-classes.md)               | 預先定義的類別，包含在 Windows Management Instrumentation (WMI) 核心的每個命名空間中。 您可以辨識 WMI 系統類別，因為名稱的開頭是雙底線 (\_ \_) 。 這些類別提供 WMI 的許多基本功能。 針對 SQL server 中的系統資料表，WMI 系統類別的用途類似。 |
 | [MSFT 類別](msft-classes.md)                           | 其他 Microsoft 類別，提供運算元種作業系統功能的方法，例如遠端事件和原則延伸。 [Wmi 疑難排解](wmi-troubleshooting.md)類別是 MSFT 類別，可提供 WMI 作業的相關資料。                                                                                               |
 | [CIM 類別](cimclas.md)                                 | [*通用訊息模型 (CIM)*](gloss-c.md) 架構類別。 如果您想要撰寫自己的 WMI 類別，則可以繼承自其中一或多個類別。 WMI [Win32 類別](/windows/desktop/CIMWin32Prov/win32-provider) 繼承自 CIM 類別。                                                                          |
 | [標準取用者類別](standard-consumer-classes.md) | 一組 WMI 事件取用者，這些取用者會在收到任意事件時觸發動作。 如需詳細資訊，請參閱 [監視事件](monitoring-events.md)。                                                                                                                                                                                               |
@@ -39,7 +39,7 @@ ms.locfileid: "106977846"
 |-------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [GUI WMI Explorer 和 WMI 方法說明產生器](https://Gallery.TechNet.Microsoft.Com/scriptcenter/89c759b7-20b4-49e8-98a8-3c8fbdb2dd69) | 提供 GUI WMI Explorer 和 WMI 方法說明產生器的範例腳本。                                                                                                                                                        |
 | [WMI Explorer 搜尋 WMI 命名空間](https://Gallery.TechNet.Microsoft.Com/scriptcenter/WMI-Explorer-Search-WMI-cd87e309)                 | 可讓使用者在指定的電腦上搜尋所有可用命名空間中的類別。 此範例是 GUI WMI Explorer 範例的命令列新版，可視為 Get-WmiObject 清單的延伸模組。 |
-| [Arposh Windows 系統管理工具](https://Gallery.TechNet.Microsoft.Com/scriptcenter/Arposh-Windows-System-a1beb102)            | AWSA 是由系統管理員所建立。 針對 Windows 問題進行疑難排解需要大量的工具和知識。 AWSA 會將這些工具結合在一個中央位置，並新增額外的功能。       |
+| [Arposh Windows 系統管理工具](https://Gallery.TechNet.Microsoft.Com/scriptcenter/Arposh-Windows-System-a1beb102)            | AWSA 是由系統管理員所建立。 疑難排解 Windows 問題需要大量的工具和知識。 AWSA 會將這些工具結合在一個中央位置，並新增額外的功能。       |
 
 
 
@@ -49,7 +49,7 @@ ms.locfileid: "106977846"
 
 屬性名稱必須符合分散式管理工作推動力 (DTMF) 所定義的受控物件格式 (MOF) 語法。 初始識別碼字元必須是來自字母 a 到 z，而底線字元 (\_) 。 所有其他字元都必須來自字母 a 到 z、底線字元和數位0到9。 如需詳細資訊，請參閱 [CIM 規格2.2 版](https://www.dmtf.org/standards/cim)的 Unicode 使用方式一節。
 
-SQL 保留字不應該用在類別和屬性名稱中。 如需 SQL 保留字和詳細資訊的完整清單，請參閱 [CIM 規格2.2 版](https://www.dmtf.org/standards/cim)的指導方針一節。
+SQL 保留字不應用於類別和屬性名稱。 如需 SQL 保留字和詳細資訊的完整清單，請參閱[CIM 規格2.2 版](https://www.dmtf.org/standards/cim)的指導方針一節。
 
 ## <a name="document-conventions-for-a-wmi-class-reference-page"></a>WMI 類別參考頁面的檔慣例
 
@@ -83,7 +83,7 @@ class Win32_xyz : CIM_xyz
 
 
 
-| Win32 \_ xyz 方法 | Description                                |
+| Win32 \_ xyz 方法 | 描述                                |
 |--------------------|--------------------------------------------|
 | *SomeMethod*       | 方法用途的簡短描述。 |
 

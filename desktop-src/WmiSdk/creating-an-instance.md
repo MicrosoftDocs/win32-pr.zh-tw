@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 建立實例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5b437730c6dc0a89923267009c002563f3a5fc03
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 135edd31217f2972c280b43f1a427a747106332942e9008b70a35bc03547fe83
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106981015"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119679818"
 ---
 # <a name="creating-an-instance"></a>建立實例
 

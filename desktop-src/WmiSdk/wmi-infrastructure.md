@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: WMI 基礎結構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4370af9ec062ffa845d54eafda054357a76dc07c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0a2bc4492c7d26f422705863609a2e0ec19af5eb930e0aa80f4fd8bb8c26bea4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106996674"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119757328"
 ---
 # <a name="wmi-infrastructure"></a>WMI 基礎結構
 

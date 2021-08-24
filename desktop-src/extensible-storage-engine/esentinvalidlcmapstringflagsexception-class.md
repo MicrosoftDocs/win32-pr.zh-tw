@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: f226ba4ab289a15bedd0417f3a1005e0bef5bed1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 81ebf8bb913a1a5f477427ee5335014a2547b52bc825cbccda06390e897f7120
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106979344"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119735098"
 ---
 # <a name="esentinvalidlcmapstringflagsexception-class"></a>EsentInvalidLCMapStringFlagsException 類別
 

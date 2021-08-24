@@ -20,12 +20,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 9e39638d6e5458c0dcc555f31bec12e752d84337
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ea2d1e4a231b244edf019a5fe47b523a5369437fa25daab4c8e5a6092c02dc6e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114804"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119735558"
 ---
 # <a name="esentdataexception-constructor-string-jet_err"></a>EsentDataException (字串 JET_err) 的函式
 

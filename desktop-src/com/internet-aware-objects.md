@@ -4,12 +4,12 @@ description: Internet-Aware 物件
 ms.assetid: a8228431-5a07-4816-938d-c789ab6a8eaa
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 806b8887309760417247cb176c84cda1605bd5aa
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 280141d4bc9cb1a6a6c685c4badde0b24609996683e73c74f69637440b39ef8d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103933659"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119756148"
 ---
 # <a name="internet-aware-objects"></a>Internet-Aware 物件
 
@@ -19,7 +19,7 @@ ms.locfileid: "103933659"
 
 
 
-| 必要類別                                                                                                                                                                                | Description                                                                                                                                                                                                                                                                                                                                 |
+| 必要類別                                                                                                                                                                                | 描述                                                                                                                                                                                                                                                                                                                                 |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | CATID \_ PersistsToMoniker、catid \_ PERSISTSTOSTREAMINIT、catid \_ PersisitsToStream、CATID \_ PersistsToStorage、CATID \_ PERSISTSTOMEMORY、catid \_ PersistsToFile、catid \_ PersistsToPropertyBag<br/> | 這些類別中的每一個都是互斥的，只有在物件只支援一個持續性機制時，才會使用，因此會) 相互排除的 (。 不支援其中一個類別所描述之持續性機制的容器，應該防止自己建立任何類別的物件，因此會標示出來。<br/> |
 | CATID \_ RequiresDataPathHost<br/>                                                                                                                                                             | 物件需要能夠將資料儲存至一或多個路徑，而且需要容器介入，因此需要 [**IBindHost**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775076(v=vs.85))的容器支援。<br/>                                                                                                                                  |
@@ -30,7 +30,7 @@ ms.locfileid: "103933659"
 
 
 
-| 實作為類別                                                                                                                                                                            | Description                                                                         |
+| 實作為類別                                                                                                                                                                            | 描述                                                                         |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|
 | CATID \_ PersistsToMoniker、catid \_ PERSISTSTOSTREAMINIT、catid \_ PersistsToStream、CATID \_ PersistsToStorage、CATID \_ PERSISTSTOMEMORY、catid \_ PersistsToFile、catid \_ PersistsToPropertyBag<br/> | 物件支援類別的對應 IPersist \* 機制。<br/> |
 

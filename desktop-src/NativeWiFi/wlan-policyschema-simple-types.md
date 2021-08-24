@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: a3046c6c863552b8d51bd4598a6511508cd8e626
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 91b1696d63374d3085e995f8e625ef697100a1eea60c09ecf7b8132436b70f89
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106977799"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119799938"
 ---
 # <a name="wlan_policy-schema-simple-types"></a>WLAN \_ 原則架構簡單類型
 

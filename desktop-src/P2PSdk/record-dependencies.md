@@ -4,12 +4,12 @@ ms.assetid: 840aa931-c54c-463d-b37b-7d01c8a44409
 title: 記錄相依性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 75a7cce0803ad25f4a67908256ad78c7abe4b4af
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e8121c22525a3a2d8065014eaf27143a324b2f6410f194d3257ec3b840958d5a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106969365"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119675018"
 ---
 # <a name="record-dependencies"></a>記錄相依性
 

@@ -4,12 +4,12 @@ ms.assetid: be73623c-7ae7-4ca9-be6c-52f513cd38a4
 title: 執行剖析器匯出函數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c6b8eafb7e12c36a9413a320652e3d372ffbf51e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 18e32b3b1aa807a604f058ed8965ef11728f6c12fecb34e27a337682361f8dd5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510965"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119778838"
 ---
 # <a name="implementing-parser-export-functions"></a>執行剖析器匯出函數
 

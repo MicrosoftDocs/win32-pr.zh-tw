@@ -4,12 +4,12 @@ ms.assetid: 7a7ffd54-09e9-412d-a637-5dc27597b46e
 title: literalInclude 元素
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e1f43f1b8d3d95e2ad8a378dd1c8cbada7758ad
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: f1bda6586de7c1bc253a9dd1f348ba644b4f29b7f928335bb0cdd148c0fd1536
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107995125"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119757168"
 ---
 # <a name="literalinclude-element"></a>literalInclude 元素
 
@@ -48,7 +48,7 @@ ms.locfileid: "107995125"
 <td>語言字串<br/></td>
 <td>No<br/></td>
 <td>要包含的頭檔案類型。 <br/> <br/>
-<dt><strong>C</strong></dt> <dd> 包含 C 標頭檔。<br/> </dd> <dt><strong>Idl</strong></dt> <dd> 包含 IDL 檔案。<br/> </dd> </dl></td>
+<dt><strong>C</strong></dt> <dd> 包含 C 標頭檔。<br/> </dd> <dt><strong>IDL</strong></dt> <dd> 包含 IDL 檔案。<br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><strong>本機</strong><br/></td>

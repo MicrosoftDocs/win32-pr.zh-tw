@@ -1,5 +1,5 @@
 ---
-title: 'IWMPError (VB 和 C ) 介面 (h.264. h) '
+title: 'IWMPError (VB 和 C ) 介面 (Wmp. h) '
 description: 提供屬性和方法，以存取 IWMPErrorItem 介面的集合，以取得錯誤資訊。IWMPError 介面會公開下列屬性。
 ms.assetid: c7d9f834-43ed-40a2-95a3-b1633f025118
 keywords:
@@ -15,12 +15,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 289a39093c38e7a4b0cc43cb8f318e321ae8ef53
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5f3ff7635e423d70447e371d61fbbadf02aa14c2476e118be79cbb25d974348b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106978714"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119736178"
 ---
 # <a name="iwmperror-vb-and-c-interface"></a>IWMPError (VB 和 c # ) 介面
 
@@ -56,7 +56,7 @@ ms.locfileid: "106978714"
 
 
 
-| 屬性                                                                        | 存取類型           | Description                                                                                                                         |
+| 屬性                                                                        | 存取類型           | 描述                                                                                                                         |
 |:--------------------------------------------------------------------------------|:----------------------|:------------------------------------------------------------------------------------------------------------------------------------|
 | [**errorCount**](wmplibiwmperror-iwmperror-errorcount--vb-and-c.md)<br/> | 唯讀<br/>  | 取得錯誤佇列中的錯誤數目。<br/>                                                                            |
 | [**項目**](iwmperror-item--vb-and-c.md)<br/>                             | 讀取/寫入<br/> | 取得在錯誤佇列中指定索引處的 **IWMPErrorItem** 介面。 在 c # 中，這是 **取得 \_ 專案** 方法。<br/> |
@@ -91,7 +91,7 @@ ms.locfileid: "106978714"
 
 <dl> <dt>
 
-[**適用于 Visual Basic .NET 和 C 的介面#**](interfaces-for-visual-basic--net-and-c.md)
+[**適用于 Visual Basic .net 和 C 的介面#**](interfaces-for-visual-basic--net-and-c.md)
 </dt> <dt>
 
 [**IWMPErrorItem 介面 (VB 和 c # )**](iwmperroritem--vb-and-c.md)

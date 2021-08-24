@@ -3,7 +3,7 @@ title: 'SB_SETBKCOLOR 訊息 (Commctrl .h) '
 description: 設定狀態列中的背景色彩。
 ms.assetid: 49bcd816-e3e2-45f4-8845-ef67789b8a01
 keywords:
-- SB_SETBKCOLOR message Windows 控制項
+- SB_SETBKCOLOR 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fc08687c6d228074bc3e4dd7c8442a1c1e35a835
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b97893d49d475789b07c28e17e88097aa4df4336154d6b4e0f9c4fa081e52635
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104385065"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119637078"
 ---
 # <a name="sb_setbkcolor-message"></a>SB \_ SETBKCOLOR 訊息
 
@@ -49,8 +49,8 @@ ms.locfileid: "104385065"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

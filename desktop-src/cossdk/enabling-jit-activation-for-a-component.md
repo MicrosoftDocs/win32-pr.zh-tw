@@ -4,12 +4,12 @@ ms.assetid: ccf7c98b-8b1a-431d-b417-83f79734f691
 title: 啟用元件的 JIT 啟用
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7f61cc5c79270a926bb50e3408766df63f4484c8
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 9beac51cd4f97a451b372d8eeee8ef419ead3140a672ca85dcdc3740d8c52de4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972138"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119637698"
 ---
 # <a name="enabling-jit-activation-for-a-component"></a>啟用元件的 JIT 啟用
 
@@ -30,7 +30,7 @@ ms.locfileid: "106972138"
 
 3.  若要啟用元件的 JIT 啟用，請選取 [ **啟用即時啟用** ] 核取方塊。
 
-4.  按一下 [確定]  。
+4.  按一下 [確定]。
 
 當您啟用元件的 JIT 啟用時，可以選擇針對該元件所公開的任何方法啟用自動完成功能。 如需詳細資訊，請參閱為 [方法啟用自動完成](enabling-auto-done-for-a-method.md) 。
 

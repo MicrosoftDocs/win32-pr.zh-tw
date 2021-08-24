@@ -4,12 +4,12 @@ description: 本主題包含參數的相關資訊，指出當應用程式使用�
 ms.assetid: 7b316892-76ff-48b3-bf67-34dea2e63936
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d01e3fda902c23c86279a9a4d75889ebfeff4d55
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 4dbf32dfacdf1dc0b8ed3bc51c986ae572e43300263565254ad6b3a48a981beb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106968910"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119734318"
 ---
 # <a name="show-sounds-and-audio-description-flag"></a>顯示聲音 (和音訊描述旗標) 
 
@@ -34,6 +34,6 @@ ms.locfileid: "106968910"
 
 應用程式會使用 **spi \_ GETAUDIODESCRIPTION** 和 **spi \_ SETAUDIODESCRIPTION** 旗標搭配 [**SystemParametersInfo**](/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa) 函式來啟用或停用音訊描述。 雖然視力受損的使用者可以聽到影片內容中的音訊，但影片中有許多動作沒有對應的音訊。 影片中所發生內容的特定音訊描述可協助這些使用者更瞭解內容。 這個旗標可讓您以提供的語言來啟用或停用音訊描述。
 
- 
+ 
 
- 
+ 

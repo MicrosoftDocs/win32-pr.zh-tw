@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 56e5fae557198a713aec338f92ad8f2865b2c351
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f34d08ad72bd04cd94e35ac229fde82ca4847ec13410e35d57d0de0778d50af2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106988972"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119695508"
 ---
 # <a name="onlinedevice-method-of-the-cim_logicaldevice-class"></a>CIM LogicalDevice 類別的 OnlineDevice 方法 \_
 

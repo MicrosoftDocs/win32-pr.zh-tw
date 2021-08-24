@@ -4,16 +4,16 @@ description: Style 屬性
 ms.assetid: f01d7d51-8a16-4265-b9b7-93b64f4984e3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 024d46dd7f7ce0e2fdc16b8b17f9074b1eef30c0
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 37196aead474c5364c7a94780686707b74bab0f4c4831381cf4c40e47e350e17
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104300915"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119715878"
 ---
 # <a name="style-property"></a>Style 屬性
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 <dl> <dt>
 
@@ -27,7 +27,7 @@ ms.locfileid: "104300915"
 <span id="Syntax"></span><span id="syntax"></span><span id="SYNTAX"></span>**語法**
 </dt> <dd>
 
-*代理程式。***字元 (*** 」CharacterID * * * ) 。球形* 樣式 *  \[  =  *樣式*\]
+*agent. ***字元 ( "**_CharacterID_*_" ) 。球形_ 樣式 *  \[  =  *樣式*\]
 
 
 
@@ -37,7 +37,7 @@ ms.locfileid: "104300915"
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -96,9 +96,9 @@ ms.locfileid: "104300915"
 
 當使用 Microsoft Agent 字元編輯器來編譯字元時，這些樣式位的預設值會以其設定為基礎。
 
- 
+ 
 
- 
+ 
 
 
 

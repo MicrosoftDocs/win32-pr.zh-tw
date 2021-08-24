@@ -1,9 +1,9 @@
 ---
 title: 'ICM_DECOMPRESS_BEGIN 訊息 (Vfw .h) '
-description: ICM \_ 解壓縮 \_ 開始訊息會通知影片解壓縮驅動程式準備將資料解壓縮。 您可以使用 ICDecompressBegin 宏明確地傳送此訊息。
+description: ICM \_ 解壓縮 \_ 開始訊息會通知影片解壓縮驅動程式準備解壓縮資料。 您可以使用 ICDecompressBegin 宏明確地傳送此訊息。
 ms.assetid: 24cd5220-d473-4968-8678-b00670eecf8f
 keywords:
-- ICM_DECOMPRESS_BEGIN message Windows 多媒體
+- ICM_DECOMPRESS_BEGIN 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 59b8f55ebb5543c73e0d7a9c9ee800fabfc483d8
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f1d26a0ea99f089d558da639dfad99d4551237b180e595912973e0d22f634f5f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105437"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119678348"
 ---
-# <a name="icm_decompress_begin-message"></a>ICM \_ 解壓縮 \_ 開始訊息
+# <a name="icm_decompress_begin-message"></a>ICM \_解壓縮 \_ 開始訊息
 
-**ICM \_ 解壓縮 \_ 開始** 訊息會通知影片解壓縮驅動程式準備將資料解壓縮。 您可以使用 [**ICDecompressBegin**](/windows/desktop/api/Vfw/nf-vfw-icdecompressbegin) 宏明確地傳送此訊息。
+**ICM \_ 解壓縮 \_ 開始** 訊息會通知影片解壓縮驅動程式準備解壓縮資料。 您可以使用 [**ICDecompressBegin**](/windows/desktop/api/Vfw/nf-vfw-icdecompressbegin) 宏明確地傳送此訊息。
 
 
 ```C++
@@ -58,11 +58,11 @@ lParam = (DWORD_PTR) (LPVOID) lpbiOutput;
 
 ## <a name="remarks"></a>備註
 
-當驅動程式收到此訊息時，它應該配置緩衝區，並進行任何耗時的作業，以便能夠有效率地處理 [**ICM 的 \_ 解壓縮**](icm-decompress.md) 訊息。
+當驅動程式收到此訊息時，它應該配置緩衝區，並進行任何耗時的作業，讓它可以有效率地處理 [**ICM \_ 解壓縮**](icm-decompress.md)訊息。
 
-如果您希望驅動程式將資料直接解壓縮到畫面，請傳送 [**ICM \_ 繪製**](icm-draw.md) 訊息。
+如果您希望驅動程式將資料直接解壓縮到畫面，請傳送 [**ICM \_ 繪製**](icm-draw.md)訊息。
 
-**Icm \_ 解壓縮 \_ 開始** 和 [**icm \_ 解壓縮 \_ 結束**](icm-decompress-end.md)訊息不會被嵌套。 如果您的驅動程式在使用 **icm \_ 解壓縮 \_ 結束** 解壓縮之前收到 **icm \_ 解壓縮 \_** ，則應該以新的參數重新開機解壓縮。
+**ICM \_ 解壓縮 \_ 開始** 和 [**ICM \_ 解壓縮 \_ 結束**](icm-decompress-end.md)訊息不會被嵌套。 如果您的驅動程式收到 ICM 解壓縮在使用 **ICM \_ 解壓縮 \_ 結束** 之前停止解壓縮，則應該以新的參數重新開機解壓縮。 **\_ \_**
 
 ## <a name="requirements"></a>規格需求
 

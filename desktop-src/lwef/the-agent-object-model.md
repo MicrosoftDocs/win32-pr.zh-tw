@@ -4,16 +4,16 @@ description: 代理程式物件模型
 ms.assetid: 4ec6ec3f-9772-4e29-9482-b9860092f053
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a97bcc104cb7835c3335b22bcfd185b152b1c290
-ms.sourcegitcommit: af9983bab40fe0b042f177ce7ca79f2eb0f9d0e8
+ms.openlocfilehash: 430e63bd0f0ddf3d412ff5fa731972caeb2ff90b11f8257775d5583b0ab7e2b0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "104554011"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119715840"
 ---
 # <a name="the-agent-object-model"></a>代理程式物件模型
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 Microsoft 代理程式物件模型包含下列物件：
 

@@ -4,12 +4,12 @@ ms.assetid: 8183f640-4bf3-4555-8837-90a26130c618
 title: 建立 Queuable 元件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 03533168a24da1e1f7279a6f2108e25717054103
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 9d8ca7b4717da44145121508ed3e8b208e8401a240f1a2ceb858be299bf2b32f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104385931"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119637838"
 ---
 # <a name="creating-queuable-components"></a>建立 Queuable 元件
 
@@ -34,7 +34,7 @@ Queuable 介面必須只包含 in 參數-沒有 out 參數和傳回值。 這些
 
      
 
-6.  按一下 [確定]  。
+6.  按一下 [確定]。
 
     Queuable 元件的識別方式是將 QUEUEABLE 屬性宏新增至介面定義語言的介面區段 (IDL) 原始程式檔，以取得 queuable 的所有介面。
 

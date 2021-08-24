@@ -4,21 +4,21 @@ description: 本節中的範例程式碼會使用具有 UPnP 技術的控制點 
 ms.assetid: 7eae71eb-9ec9-4c0f-b231-5d659f12b9f5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 31133a6e92b31fa7ddeef94174cc29a4c07a1d9f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b3bfe5ffdb4781ed42f0bcab5d1a8c1bf172fe098906860bec5384311e403adb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103672503"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119655960"
 ---
 # <a name="creating-a-presentation-web-page"></a>建立簡報網頁
 
 本節中的範例程式碼會使用具有 UPnP 技術的控制點 API，建立簡單的網頁來控制虛構的 UPnP 型媒體播放機裝置。 下圖顯示此網頁。
 
 > [!Note]  
-> 此範例程式碼僅適用于在 Windows 下執行的瀏覽器;它無法在其他作業系統下執行的瀏覽器中運作。
+> 此範例程式碼僅適用于在 Windows 下執行的瀏覽器。它無法在其他作業系統下執行的瀏覽器中運作。
 
- 
+ 
 
 ![網頁的範例展示](images/new-samp-media-player.png)
 
@@ -200,9 +200,9 @@ end function
 </HTML>
 ```
 
- 
+ 
 
- 
+ 
 
 
 

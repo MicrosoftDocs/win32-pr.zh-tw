@@ -4,18 +4,18 @@ ms.assetid: 95b93804-8079-4b97-b1b0-dfc0138c94e8
 title: 使用 SetInputScope Api 設定內容
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 74c1b507b1719bea8c04288dca9214ad5675f8a8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0abe9992e4a4ee81190fdee022b11f443592e05d7c99f9a5e69d0a200f63ecbf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106987000"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119708148"
 ---
 # <a name="setting-context-with-the-setinputscope-apis"></a>使用 SetInputScope Api 設定內容
 
 在未啟用筆墨的應用程式中設定內容的建議程式設計技術，是使用 [**SetInputScope**](/windows/win32/api/inputscope/nf-inputscope-setinputscope) 函式，將內容與應用程式中的欄位產生關聯。
 
-Microsoft Windows XP Tablet PC Edition 開發工具組1.7 是第一個提供 [**SetInputScope**](/windows/win32/api/inputscope/nf-inputscope-setinputscope)的 microsoft windows 版本。 Windows Vista 也提供這些功能的支援。 **SetInputScope** 定義是在 InputScope .Idl 和 InputScope 中宣告的。 如需詳細資訊，請參閱 [文字服務架構](../tsf/text-services-framework.md)。
+microsoft Windows XP Tablet PC Edition 開發工具組1.7 是 microsoft Windows 的第一個版本，可提供 [**SetInputScope**](/windows/win32/api/inputscope/nf-inputscope-setinputscope)。 WindowsVista 也提供這些功能的支援。 **SetInputScope** 定義是在 InputScope .Idl 和 InputScope 中宣告的。 如需詳細資訊，請參閱 [文字服務架構](../tsf/text-services-framework.md)。
 
 [**SetInputScope**](/windows/win32/api/inputscope/nf-inputscope-setinputscope)函式是針對未啟用筆墨的控制項和應用程式設定內容的建議方式。
 

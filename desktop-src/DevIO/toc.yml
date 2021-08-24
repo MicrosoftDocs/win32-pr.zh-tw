@@ -6,7 +6,7 @@
       items:
         - name: 通訊資源控制碼
           href: communications-resource-handles.md
-        - name: 修改通訊資源設定
+        - name: 設定的通訊資源修改
           href: modification-of-communications-resource-settings.md
         - name: 通訊資源設定
           href: communications-resource-configuration.md

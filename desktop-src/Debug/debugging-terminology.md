@@ -4,12 +4,12 @@ ms.assetid: 580f2787-d944-4350-a2c2-c00816b3f515
 title: 調試術語
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ffa12e24a6c763f9cda983ad961ba85a41c63cec
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: feb8de5035887f3d3c19cca1e8475ff17cb930b1142c712481e096e0e612ea81
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936045"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119692068"
 ---
 # <a name="debugging-terminology"></a>調試術語
 

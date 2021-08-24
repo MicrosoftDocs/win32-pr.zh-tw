@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: WMI c + + 應用程式範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 883b51bd00de5e3938fef8467c68d299ac60683a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 53160abc6b63e1a7c0b4122e1b068d8e13df6435da75fa9f54e72607ed441daa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974376"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119757588"
 ---
 # <a name="wmi-c-application-examples"></a>WMI c + + 應用程式範例
 

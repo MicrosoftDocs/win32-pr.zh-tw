@@ -4,12 +4,12 @@ ms.assetid: 24d3e11f-8281-4464-a2d7-f4f2466e9d9e
 title: " (網路監視器) 的程式設計考慮"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2deb53a27d8abda4f45663b65fb922600a5b5386
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: a27b9f840abd40a9fd2946c3fe9face5a3c0cb47dca03c14b1c8e399d0855ce0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113120223"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119778538"
 ---
 # <a name="programming-considerations-network-monitor"></a> (網路監視器) 的程式設計考慮
 

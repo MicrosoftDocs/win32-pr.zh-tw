@@ -4,12 +4,12 @@ ms.assetid: fb1970f8-1dba-4b06-aa03-5b33d213fc79
 title: ICE14
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2b2e64a6106ae359fe02c6ead271bbae267eeb18
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 85a0789b7844fcbee52654d29b700b167a073fa51778ef3882b1fcbe2864fbb7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319507"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119638168"
 ---
 # <a name="ice14"></a>ICE14
 

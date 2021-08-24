@@ -4,12 +4,12 @@ ms.assetid: 190ed399-a8a8-4087-8d18-b1a715690e4c
 title: 關於 DXVA 2。0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 149f622c863f433be44bbce6460024ffb06bb1b2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f1d6ab595be1f167f777e50001c8d31658dc697866c8d11db3865e66e87508ae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970624"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119606818"
 ---
 # <a name="about-dxva-20"></a>關於 DXVA 2。0
 
@@ -19,8 +19,8 @@ DirectX Video 加速 (DXVA) 是 API 和對應的 DDI，可使用硬體加速來�
 
 DXVA 2 API 需要 Windows Vista 或更新版本。 Windows Vista 仍支援 DXVA 1 API，以提供回溯相容性。 系統會提供模擬層，以在任一版本的 API 和相反版本的 DDI 之間進行轉換：
 
--   如果圖形驅動程式符合 Windows 顯示驅動程式模型 (WDDM) ，DXVA 1 API 呼叫會轉換成 DXVA 2 DDI 呼叫。
--   如果圖形驅動程式使用舊版的 Windows XP 顯示驅動程式模型 (XPDM) ，DXVA 2 API 呼叫會轉換成 DXVA 1 DDI 呼叫。
+-   如果圖形驅動程式符合 Windows 顯示驅動程式模型 (WDDM) ，DXVA 1 API 呼叫會轉換成 DXVA 2 個 DDI 呼叫。
+-   如果圖形驅動程式使用舊版 Windows XP 顯示驅動程式模型 (XPDM) ，DXVA 2 API 呼叫會轉換成 DXVA 1 DDI 呼叫。
 
 下表顯示每個 DXVA API 版本的作業系統需求和支援的影片轉譯器。
 
@@ -28,7 +28,7 @@ DXVA 2 API 需要 Windows Vista 或更新版本。 Windows Vista 仍支援 DXVA 
 
 | API 版本 | 規格需求          | 影片轉譯器支援                        |
 |-------------|-----------------------|-----------------------------------------------|
-| DXVA 1      | Windows 2000 或更新版本 | 重迭混音器、VMR-7、VMR-9 (DirectShow 僅)  |
+| DXVA 1      | Windows 2000 或更新版本 | 重迭 Mixer、VMR-7、VMR-9 (只 DirectShow)  |
 | DXVA 2      | Windows Vista         | EVR (DirectShow 和媒體基礎)          |
 
 
@@ -56,7 +56,7 @@ DXVA 1 檔說明用於下列影片標準的解碼結構：
 
 DXVA 1 和 DXVA 2 使用相同的資料結構進行解碼。 不過，設定解碼會話的程式已變更。 DXVA 1 使用「探查和鎖定」機制，其中主機解碼器可以測試各種設定，然後在加速器上設定所需的設定。 在 DXVA 2 中，加速器會傳回一份支援的設定清單，而主機解碼器會從清單中選取一個。 下列各節提供詳細資料：
 
--   [支援 DirectShow 中的 DXVA 2。0](supporting-dxva-2-0-in-directshow.md)
+-   [DirectShow 中支援 DXVA 2。0](supporting-dxva-2-0-in-directshow.md)
 -   [媒體基礎中支援 DXVA 2。0](supporting-dxva-2-0-in-media-foundation.md)
 
 ## <a name="related-topics"></a>相關主題

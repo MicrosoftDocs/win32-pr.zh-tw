@@ -7,12 +7,12 @@ keywords:
 - capFileAlloc 宏
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7442b08170fb6f018555c043c59d96860701ed4f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 687a14fa0f3a01a65ad2cb90062fcd4e237eb3e94ef99460d77883bd26df9213
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104300692"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119678759"
 ---
 # <a name="disk-space-preallocation-for-the-capture-file"></a>Capture 檔案的磁碟空間預先配置
 
@@ -26,9 +26,9 @@ ms.locfileid: "104300692"
 
 應用程式可以保留永久的捕獲檔案，以避免每次啟動時預先配置和重組檔案所需的時間。 因為 capture 檔案可能需要相當大的磁碟空間，而且預先配置 capture 檔案會移除現有 capture 檔案中的所有資料，所以應用程式應該讓使用者決定檔案是永久或暫時性的。
 
- 
+ 
 
- 
+ 
 
 
 

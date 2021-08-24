@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 更新提供者
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4869e6e9f7fbddc3081922f476ca021934065a18
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: aa8c40a3d50672115478ae62135774f5a1aad93373bd5b844402e89462b44fd0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106997841"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119757648"
 ---
 # <a name="updating-a-provider"></a>更新提供者
 

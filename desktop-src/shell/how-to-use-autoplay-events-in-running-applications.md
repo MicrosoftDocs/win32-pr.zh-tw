@@ -4,12 +4,12 @@ ms.assetid: 6FEFFB5D-DD8B-4FEA-B273-D32FC30CAFEA
 title: 如何在執行中的應用程式中使用自動播放事件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 51795a3992bdb40dde833bb3e352905efaa2be63
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ab30fa020b5501f8832a5b350ad409934ecbb4258d75adf147e908c699516474
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103944182"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119714813"
 ---
 # <a name="how-to-use-autoplay-events-in-running-applications"></a>如何在執行中的應用程式中使用自動播放事件
 
@@ -40,7 +40,7 @@ ms.locfileid: "103944182"
 ## <a name="remarks"></a>備註
 
 > [!Note]  
-> [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) 可能會造成安全性風險。 請參閱 **LoadLibrary** 檔，以取得如何使用不同版本的 Windows 正確載入 dll 的相關資訊。
+> [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) 可能會造成安全性風險。 如需如何正確載入具有不同 Windows 版本之 Dll 的相關資訊，請參閱 **LoadLibrary** 檔。
 
 ```cpp
 typedef HRESULT (*CREATEHARDWAREEVENTMONIKER)(REFCLSID clsid, LPCWSTR pszEventHandler, IMoniker **ppmoniker);

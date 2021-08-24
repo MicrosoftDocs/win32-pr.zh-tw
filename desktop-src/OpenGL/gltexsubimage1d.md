@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dfe5510221b738a81f428f9e982a2f9bb2c23588
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 52dcb6c34d0ce48f646ace1db8a5dc0f773b7eb386ac487534a57367e6e72da3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103685691"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119777738"
 ---
 # <a name="gltexsubimage1d-function"></a>glTexSubImage1D 函式
 
@@ -123,7 +123,7 @@ void WINAPI glTexSubImage1D(
 
 
 
-| Name                                                                                                  | 意義                                                                                                                                                                                                                                                                  |
+| 名稱                                                                                                  | 意義                                                                                                                                                                                                                                                                  |
 |-------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**GL \_ 無效 \_ 列舉**</dt> </dl>      | *目標* 不是 GL \_ 紋理 \_ 1d。<br/>                                                                                                                                                                                                                             |
 | <dl> <dt>**GL \_ 無效 \_ 列舉**</dt> </dl>      | *格式* 不是可接受的常數。<br/>                                                                                                                                                                                                                        |

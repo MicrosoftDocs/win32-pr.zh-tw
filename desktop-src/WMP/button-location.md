@@ -3,18 +3,18 @@ title: 按鈕位置
 description: 按鈕位置
 ms.assetid: aaab7461-1694-4913-a97b-71dde9592dbe
 keywords:
-- Windows Media Player 行動外觀、按鈕位置
+- Windows Media Player行動外觀，按鈕位置
 - 外觀，按鈕位置
 - 外觀、按鈕的參考
 - 外觀中的按鈕，位置
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b6f651848a376e58184634a1d4336bac9bab1507
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 790b3f6dcd7612e60d4ef93e87ccea5f322a659f008579ec37eae38594cf3796
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104183975"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119736708"
 ---
 # <a name="button-location"></a>按鈕位置
 
@@ -25,7 +25,7 @@ ms.locfileid: "104183975"
 > [!Note]  
 > 在 Windows Media Player 10 行動裝置版或更新版本的面板中，按鈕類型已被取代。
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -34,9 +34,9 @@ ms.locfileid: "104183975"
 [**按鈕**](buttons.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

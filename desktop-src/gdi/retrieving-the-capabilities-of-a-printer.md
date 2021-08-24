@@ -4,12 +4,12 @@ ms.assetid: 7989d393-7be4-47fc-af8d-26dd549c48be
 title: 取出印表機的功能
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 29d84db8d46255f4dfd33ce62ab4ab6735b0f2a7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2c332832efc62f28ee77a5476ef12f706eb2e97a2cd5e86877e4a71a48feb907
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972521"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119779058"
 ---
 # <a name="retrieving-the-capabilities-of-a-printer"></a>取出印表機的功能
 

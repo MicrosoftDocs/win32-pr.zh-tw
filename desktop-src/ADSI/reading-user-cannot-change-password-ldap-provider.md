@@ -9,12 +9,12 @@ keywords:
 - LDAP 提供者 ADSI、使用者管理範例、使用者必須在下次登入時變更密碼，讀取
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b26818ee02d3876aa209dcd4990288ea1cfe96fc
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 4ebbccc3147ffb1e29c0081d6e19ef1a615b7020cdc7e246fea294df7d2d38c0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112405931"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119637578"
 ---
 # <a name="reading-user-cannot-change-password-ldap-provider"></a>讀取使用者無法變更 LDAP 提供者) 的密碼 (
 
@@ -417,7 +417,7 @@ HRESULT UserCannotChangePassword(LPCWSTR pwszUserDN,
 下列程式碼範例示範如何判斷使用者無法使用 LDAP 提供者來變更密碼許可權。
 
 > [!Note]  
-> 下列程式碼範例只適用于主要語言為英文的網域，因為 "Everyone" 和 "NT 授權單位 \\ SELF" 字串會根據網域中第一個網域控制站的語言進行當地語系化。 在不呼叫 [**LookupAccountSid**](/windows/desktop/api/winbase/nf-winbase-lookupaccountsida) 函式的情況下，Visual Basic 沒有辦法取得已知安全性主體的帳戶名稱。 如果使用 Visual Basic，建議您使用 WinNT 提供者來判斷使用者無法變更密碼許可權，如「 [讀取使用者無法變更密碼 (WinNT 提供者) ](reading-user-cannot-change-password-winnt-provider.md)中所示。
+> 下列程式碼範例只適用于主要語言為英文的網域，因為 "Everyone" 和 "NT 授權單位 \\ SELF" 字串會根據網域中第一個網域控制站的語言進行當地語系化。 在不呼叫 [**LookupAccountSid**](/windows/desktop/api/winbase/nf-winbase-lookupaccountsida)函式的情況下，Visual Basic 沒有辦法取得已知安全性主體的帳戶名稱。 如果使用 Visual Basic，建議您使用 winnt 提供者來判斷使用者無法變更密碼許可權，如「[讀取使用者無法變更密碼 (WinNT 提供者) ](reading-user-cannot-change-password-winnt-provider.md)中所示。
 
  
 

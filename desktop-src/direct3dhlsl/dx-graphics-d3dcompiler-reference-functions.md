@@ -11,12 +11,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: ee63fa17cc9216fdb92f69fed4d77bc65bb49048
-ms.sourcegitcommit: 11f52354f570aacaf1ba2a266b2e507abd73352a
+ms.openlocfilehash: 3e9bc933baa1df3fb6d916bd37e832f58dc385bae297a2267248c8e61954a05b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "104974785"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119673668"
 ---
 # <a name="compiler-functions-hlsl-reference"></a>編譯器函數 (HLSL 參考) 
 
@@ -54,7 +54,7 @@ ms.locfileid: "104974785"
 <td><a href="/windows/win32/api/d3dcompiler/nf-d3dcompiler-d3dcompilefromfile"><strong>D3DCompileFromFile</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-您可以使用此 API 來開發 Windows Store 應用程式，但不能將它用於提交至 Windows Store 的應用程式。 Refer to the section, &quot;Compiling shaders for UWP&quot;, in the remarks for <a href="/windows/win32/api/d3dcompiler/nf-d3dcompiler-d3dcompile2"><strong>D3DCompile2</strong></a>.
+您可以使用此 API 來開發 Windows 存放區應用程式，但無法在您提交至 Windows 存放區的應用程式中使用它。 Refer to the section, &quot;Compiling shaders for UWP&quot;, in the remarks for <a href="/windows/win32/api/d3dcompiler/nf-d3dcompiler-d3dcompile2"><strong>D3DCompile2</strong></a>.
 </blockquote>
 <br/> 將 HLSL 程式碼編譯為指定目標的位元組程式碼。<br/></td>
 </tr>
@@ -62,7 +62,7 @@ ms.locfileid: "104974785"
 <td><a href="/windows/win32/api/d3dcompiler/nf-d3dcompiler-d3dcompressshaders"><strong>D3DCompressShaders</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-您可以使用此 API 來開發 Windows Store 應用程式，但不能將它用於提交至 Windows Store 的應用程式。
+您可以使用此 API 來開發 Windows 存放區應用程式，但無法在您提交至 Windows 存放區的應用程式中使用它。
 </blockquote>
 <br/> 將一組著色器壓縮成更精簡的表單。 <br/></td>
 </tr>
@@ -92,7 +92,7 @@ ms.locfileid: "104974785"
 <td><a href="/windows/win32/api/d3dcompiler/nf-d3dcompiler-d3ddecompressshaders"><strong>D3DDecompressShaders</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-您可以使用此 API 來開發 Windows Store 應用程式，但不能將它用於提交至 Windows Store 的應用程式。
+您可以使用此 API 來開發 Windows 存放區應用程式，但無法在您提交至 Windows 存放區的應用程式中使用它。
 </blockquote>
 <br/> 從壓縮的集合解壓縮一或多個著色器。 <br/></td>
 </tr>
@@ -120,7 +120,7 @@ ms.locfileid: "104974785"
 <td><a href="/windows/win32/api/d3dcompiler/nf-d3dcompiler-d3dgetdebuginfo"><strong>D3DGetDebugInfo</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-您可以使用此 API 來開發 Windows Store 應用程式，但不能將它用於提交至 Windows Store 的應用程式。
+您可以使用此 API 來開發 Windows 存放區應用程式，但無法在您提交至 Windows 存放區的應用程式中使用它。
 </blockquote>
 <br/> 取得著色器的調試資訊。<br/></td>
 </tr>
@@ -128,7 +128,7 @@ ms.locfileid: "104974785"
 <td><a href="/windows/win32/api/d3dcompiler/nf-d3dcompiler-d3dgetinputandoutputsignatureblob"><strong>D3DGetInputAndOutputSignatureBlob</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-<a href="/windows/win32/api/d3dcompiler/nf-d3dcompiler-d3dgetinputandoutputsignatureblob"><strong>D3DGetInputAndOutputSignatureBlob</strong></a> 可能會在 Windows 8.1 之後變更或無法使用。 請改為搭配<a href="/windows/win32/api/d3dcompiler/ne-d3dcompiler-d3d_blob_part"><strong>D3D_BLOB_INPUT_AND_OUTPUT_SIGNATURE_BLOB</strong></a>值使用<a href="/windows/win32/api/d3dcompiler/nf-d3dcompiler-d3dgetblobpart"><strong>D3DGetBlobPart</strong></a> 。
+<a href="/windows/win32/api/d3dcompiler/nf-d3dcompiler-d3dgetinputandoutputsignatureblob"><strong>D3DGetInputAndOutputSignatureBlob</strong></a>可能會在 Windows 8.1 之後變更或無法使用。 請改為搭配<a href="/windows/win32/api/d3dcompiler/ne-d3dcompiler-d3d_blob_part"><strong>D3D_BLOB_INPUT_AND_OUTPUT_SIGNATURE_BLOB</strong></a>值使用<a href="/windows/win32/api/d3dcompiler/nf-d3dcompiler-d3dgetblobpart"><strong>D3DGetBlobPart</strong></a> 。
 </blockquote>
 <br/> 從編譯結果取得輸入和輸出簽章。<br/></td>
 </tr>
@@ -136,7 +136,7 @@ ms.locfileid: "104974785"
 <td>[<strong>D3DGetInputSignatureBlob</strong>] (/windows/win32/api/d3dcompiler/nf-d3dcompiler-d3dgetinputsignatureblob) <br/></td>
 <td><blockquote>
 [!Note]<br />
-<a href="/windows/win32/api/d3dcompiler/nf-d3dcompiler-d3dgetinputsignatureblob"><strong>D3DGetInputSignatureBlob</strong></a> 可能會在 Windows 8.1 之後變更或無法使用。 請改為搭配<a href="/windows/win32/api/d3dcompiler/ne-d3dcompiler-d3d_blob_part"><strong>D3D_BLOB_INPUT_SIGNATURE_BLOB</strong></a>值使用<a href="/windows/win32/api/d3dcompiler/nf-d3dcompiler-d3dgetblobpart"><strong>D3DGetBlobPart</strong></a> 。
+<a href="/windows/win32/api/d3dcompiler/nf-d3dcompiler-d3dgetinputsignatureblob"><strong>D3DGetInputSignatureBlob</strong></a>可能會在 Windows 8.1 之後變更或無法使用。 請改為搭配<a href="/windows/win32/api/d3dcompiler/ne-d3dcompiler-d3d_blob_part"><strong>D3D_BLOB_INPUT_SIGNATURE_BLOB</strong></a>值使用<a href="/windows/win32/api/d3dcompiler/nf-d3dcompiler-d3dgetblobpart"><strong>D3DGetBlobPart</strong></a> 。
 </blockquote>
 <br/> 從編譯結果取得輸入簽章。<br/></td>
 </tr>
@@ -144,7 +144,7 @@ ms.locfileid: "104974785"
 <td><a href="/windows/win32/api/d3dcompiler/nf-d3dcompiler-d3dgetoutputsignatureblob"><strong>D3DGetOutputSignatureBlob</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-<a href="/windows/win32/api/d3dcompiler/nf-d3dcompiler-d3dgetoutputsignatureblob"><strong>D3DGetOutputSignatureBlob</strong></a> 可能會在 Windows 8.1 之後變更或無法使用。 請改為搭配<a href="/windows/win32/api/d3dcompiler/ne-d3dcompiler-d3d_blob_part"><strong>D3D_BLOB_OUTPUT_SIGNATURE_BLOB</strong></a>值使用<a href="/windows/win32/api/d3dcompiler/nf-d3dcompiler-d3dgetblobpart"><strong>D3DGetBlobPart</strong></a> 。
+<a href="/windows/win32/api/d3dcompiler/nf-d3dcompiler-d3dgetoutputsignatureblob"><strong>D3DGetOutputSignatureBlob</strong></a>可能會在 Windows 8.1 之後變更或無法使用。 請改為搭配<a href="/windows/win32/api/d3dcompiler/ne-d3dcompiler-d3d_blob_part"><strong>D3D_BLOB_OUTPUT_SIGNATURE_BLOB</strong></a>值使用<a href="/windows/win32/api/d3dcompiler/nf-d3dcompiler-d3dgetblobpart"><strong>D3DGetBlobPart</strong></a> 。
 </blockquote>
 <br/> 從編譯結果取得輸出簽章。<br/></td>
 </tr>
@@ -169,7 +169,7 @@ ms.locfileid: "104974785"
 <td><a href="/windows/win32/api/d3dcompiler/nf-d3dcompiler-d3dreadfiletoblob"><strong>D3DReadFileToBlob</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-您可以使用此 API 來開發 Windows Store 應用程式，但不能將它用於提交至 Windows Store 的應用程式。
+您可以使用此 API 來開發 Windows 存放區應用程式，但無法在您提交至 Windows 存放區的應用程式中使用它。
 </blockquote>
 <br/> 將磁片上的檔案讀取到記憶體中。<br/></td>
 </tr>
@@ -198,7 +198,7 @@ ms.locfileid: "104974785"
 <td><a href="/windows/win32/api/d3dcompiler/nf-d3dcompiler-d3dwriteblobtofile"><strong>D3DWriteBlobToFile</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-您可以使用此 API 來開發 Windows Store 應用程式，但不能將它用於提交至 Windows Store 的應用程式。
+您可以使用此 API 來開發 Windows 存放區應用程式，但無法在您提交至 Windows 存放區的應用程式中使用它。
 </blockquote>
 <br/> 將記憶體 blob 寫入磁片上的檔案。<br/></td>
 </tr>

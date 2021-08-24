@@ -4,12 +4,12 @@ ms.assetid: 872140e8-fd39-446c-a84f-1e04ea95076e
 title: 'MF_TRANSCODE_QUALITYVSSPEED 屬性 (Mfidl) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ec4d95fab92276e926189c885dad2ecb8f164a97
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7498cd319f347d8509f42e1713e1b2e267b32406eceb073ea9ca1e4cb4ea8d80
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107001844"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119604667"
 ---
 # <a name="mf_transcode_qualityvsspeed-attribute"></a>MF \_ 轉碼 \_ QUALITYVSSPEED 屬性
 
@@ -42,7 +42,7 @@ ms.locfileid: "107001844"
 
 這個屬性的 GUID 值與針對 [**ICodecAPI**](/windows/win32/api/strmif/nn-strmif-icodecapi)定義的 [AVEncCommonQualityVsSpeed](../directshow/avenccommonqualityvsspeed-property.md)屬性相同，而且具有相同的轉譯。
 
-應用程式可以在建立 Windows Media 編解碼器的轉碼拓朴之前，在轉碼設定檔上設定此屬性。 值必須在0到100的範圍內。 針對影片串流，轉碼拓撲產生器會將值對應到應用程式指定的值，並將對應的值提供給編碼器的 **MFPKEY \_ COMPLEXITYEX** 屬性。 較低的值可讓編碼器使用較不復雜的編碼演算法。 使用較簡單的演算法會產生較低品質的輸出，但編碼程式較快，而且需要較少的處理能力。
+在建立 Windows 媒體編解碼器的轉碼拓朴之前，應用程式可以在轉碼設定檔上設定此屬性。 值必須在0到100的範圍內。 針對影片串流，轉碼拓撲產生器會將值對應到應用程式指定的值，並將對應的值提供給編碼器的 **MFPKEY \_ COMPLEXITYEX** 屬性。 較低的值可讓編碼器使用較不復雜的編碼演算法。 使用較簡單的演算法會產生較低品質的輸出，但編碼程式較快，而且需要較少的處理能力。
 
 這個屬性的 GUID 常數是從 mfuuid 匯出。
 

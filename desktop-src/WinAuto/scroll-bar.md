@@ -4,19 +4,19 @@ description: 捲軸可讓使用者選擇方向和距離，以在相關的視窗�
 ms.assetid: a4ec1708-d751-4526-bd69-9796c43872a0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: df381e0d532991f164f2c17d0a261dd3c5006619
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 6acb609ee56d6e766a2f94cf75406211741ba0a711699f4e8c912790dc71cffe
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104024037"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119734328"
 ---
 # <a name="scroll-bar-msaa-ui-element-reference"></a>捲軸 (MSAA UI 元素參考) 
 
 > [!Note]  
 > 本主題描述用於 MSAA UI 元素參考的 **捲軸** 物件。 此處未說明如何在各種 UI 架構中建立 **捲軸** 物件。 請參閱您所使用之 UI 架構的 API 參考檔。
 
- 
+ 
 
 捲軸可讓使用者選擇方向和距離，以在相關的視窗或清單方塊中滾動資訊。 捲軸的視窗類別名稱是「捲軸」。
 
@@ -48,7 +48,7 @@ ms.locfileid: "104024037"
 
     
 
-     
+     
 
     針對水準捲軸上的其他捲軸部分， [**accDoDefaultAction**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-accdodefaultaction)會呼叫 [**PostMessage**](/windows/desktop/api/winuser/nf-winuser-postmessagea) ，並將 *wParam* 設定為下列值的 [**WM \_ HSCROLL**](/windows/desktop/Controls/wm-hscroll)訊息。
 
@@ -63,7 +63,7 @@ ms.locfileid: "104024037"
 
     
 
-     
+     
 
 -   [**accHitTest**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-acchittest)
 -   [**accLocation**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-acclocation)
@@ -92,7 +92,7 @@ ms.locfileid: "104024037"
 
     
 
-     
+     
 
     水準捲軸的部分具有下列描述。
 
@@ -109,7 +109,7 @@ ms.locfileid: "104024037"
 
     
 
-     
+     
 
 -   [**取得 \_ accHelp**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_acchelp)
 -   [**取得 \_ accHelpTopic**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_acchelptopic)
@@ -117,7 +117,7 @@ ms.locfileid: "104024037"
 
     垂直捲動條的部分具有下列名稱。
 
-    | 部分                | Name        |
+    | 部分                | 名稱        |
     |---------------------|-------------|
     | 捲軸視窗   | 縱  |
     | 上方箭號按鈕    | 「行出」   |
@@ -128,13 +128,13 @@ ms.locfileid: "104024037"
 
     
 
-     
+     
 
     水準捲軸的部分具有下列名稱。
 
     
 
-    | 部分               | Name           |
+    | 部分               | 名稱           |
     |--------------------|----------------|
     | 捲軸視窗  | 方向   |
     | 向左箭號按鈕  | 「左方資料行」  |
@@ -145,7 +145,7 @@ ms.locfileid: "104024037"
 
     
 
-     
+     
 
 -   [**取得 \_ accParent**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accparent)：箭號按鈕的 **父** 屬性、捲動方塊，以及 thumb 兩側的陰影區域是捲軸視窗。 捲軸視窗的 **父** 屬性是視窗 (角色 \_ 系統 \_ 視窗) ，它會圍繞控制項，而且具有相同的 **名稱** 屬性和視窗類別名稱。
 -   [**取得 \_ AccRole**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accrole)- **Role** 屬性取決於所查詢捲軸的部分。 捲軸的部分具有下列角色。 
@@ -159,7 +159,7 @@ ms.locfileid: "104024037"
 
     
 
-     
+     
 
 -   [**get \_ accState**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accstate)：每個捲軸元件的 **State** 屬性包含下列 [值](object-state-constants.md)的組合。
 
@@ -172,7 +172,7 @@ ms.locfileid: "104024037"
 
     
 
-     
+     
 
 -   [**取得 \_ accValue**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accvalue)-捲軸視窗的 [ **值** ] 屬性工作表示捲軸位置，而是包含從 "0" 到 "100" 之整數的字串。
 
@@ -183,6 +183,6 @@ ms.locfileid: "104024037"
 [IAccessible 介面](/windows/desktop/api/oleacc/nn-oleacc-iaccessible)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

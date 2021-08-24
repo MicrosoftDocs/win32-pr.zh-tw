@@ -4,12 +4,12 @@ description: 路由通訊協定
 ms.assetid: 85302ad2-77f9-474e-a20f-ae64bfd3b45c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 836c6bcaddafc22243367a4dec98a0faac886ee6
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 6e0e330e12e30328326b3ae55f8983ebb0bdeb27fdd001082d172d60f960e6d0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108084216"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119672678"
 ---
 # <a name="routing-protocols"></a>路由通訊協定
 
@@ -23,7 +23,7 @@ ms.locfileid: "108084216"
 
 ## <a name="run-time-requirements"></a>執行階段需求求
 
-路由通訊協定是一種以伺服器為基礎的技術。 路由通訊協定的所有功能都併入 Windows Server 2008、Windows Server 2003 和 Windows 2000 伺服器中。 路由應用程式無法在用戶端作業系統（例如 Windows XP 或 Windows Vista）上執行。 如需有關哪些作業系統支援特定功能的詳細資訊，請參閱檔中的需求一節。
+路由通訊協定是一種以伺服器為基礎的技術。 路由通訊協定的所有功能都併入 Windows server 2008、Windows server 2003 和 Windows 2000 server 中。 路由應用程式無法在用戶端作業系統上執行，例如 Windows XP 或 Windows Vista。 如需有關哪些作業系統支援特定功能的詳細資訊，請參閱檔中的需求一節。
 
 ## <a name="in-this-section"></a>本節內容
 

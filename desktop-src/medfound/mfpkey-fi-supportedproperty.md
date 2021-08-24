@@ -4,12 +4,12 @@ ms.assetid: cc7fb83d-8423-4e0a-a520-b58d3345ef89
 title: 'MFPKEY_FI_SUPPORTED 屬性 (Wmcodecdsp) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1bd056ec0895b63d315c5f3371ab7befff7ca85a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4504e3bf6b6010fb27c08750e521aaa740b05f78c434dfac5a11ffacbbd66327
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106999177"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119713948"
 ---
 # <a name="mfpkey_fi_supported-property"></a>MFPKEY \_ FI \_ 支援的屬性
 
@@ -33,7 +33,7 @@ ms.locfileid: "106999177"
 
 | 需求 | 值 |
 |-------------------|-----------------------------------------------------------------------------------------|
-| 用戶端<br/> | Windows XP、Windows Vista 或 Windows 7<br/>                                       |
+| 用戶端<br/> | WindowsXP、Windows Vista 或 Windows 7<br/>                                       |
 | 標頭<br/> | <dl> <dt>Wmcodecdsp。h</dt> </dl> |
 
 

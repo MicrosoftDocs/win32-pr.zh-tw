@@ -4,12 +4,12 @@ description: 發出頂點。
 ms.assetid: FDD18CCD-8088-46BD-897C-434B77FF81E6
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2b17711b6f9cf5d707fb8eae3465100a78620c0c
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: ce90ed4ea87c74c09c6f45d590e8bc7a70bbb8178988b059c2b3a79726aabcb2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "103679104"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119673078"
 ---
 # <a name="emit-sm4---asm"></a>發出 (sm4-asm) 
 
@@ -22,7 +22,7 @@ ms.locfileid: "103679104"
 
 
 
- 
+ 
 
 ## <a name="remarks"></a>備註
 
@@ -44,7 +44,7 @@ ms.locfileid: "103679104"
 
 
 
- 
+ 
 
 ### <a name="minimum-shader-model"></a>最小著色器模型
 
@@ -57,13 +57,13 @@ ms.locfileid: "103679104"
 | [著色器模型5](d3d11-graphics-reference-sm5.md)        | 是       |
 | [著色器模型4。1](dx-graphics-hlsl-sm4.md)              | 是       |
 | [著色器模型4](dx-graphics-hlsl-sm4.md)                | 是       |
-| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 不可以        |
-| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 不可以        |
-| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 不可以        |
+| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 否        |
+| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 否        |
+| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 否        |
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -72,9 +72,9 @@ ms.locfileid: "103679104"
 [著色器模型4元件 (DirectX HLSL) ](dx-graphics-hlsl-sm4-asm.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

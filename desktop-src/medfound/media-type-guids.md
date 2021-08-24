@@ -4,12 +4,12 @@ ms.assetid: 1cca3539-a920-4938-93b9-ae41e1c0a287
 title: 主要媒體類型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 56553ac635f0e767e43e057b2a468027dcefb730
-ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
+ms.openlocfilehash: ec660dcb86cfd1da5a80bef106ee8ddd17cf1e89899fea6b824fba5ab9be04e6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "110549573"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119715298"
 ---
 # <a name="major-media-types"></a>主要媒體類型
 
@@ -32,7 +32,7 @@ ms.locfileid: "110549573"
 
 
 
-| 主要類型                    | Description                                                                                                                                                | 子類型                                             |
+| 主要類型                    | 描述                                                                                                                                                | 子類型                                             |
 |-------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------|
 | **MFMediaType \_ 音訊**        | 音訊。                                                                                                                                                     | [音訊子類型 guid](audio-subtype-guids.md)。      |
 | **MFMediaType \_ 二進位檔**       | 二進位資料流程。                                                                                                                                             | 無。                                                |

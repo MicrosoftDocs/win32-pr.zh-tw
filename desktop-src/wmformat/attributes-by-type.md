@@ -3,18 +3,18 @@ title: 依類型的屬性
 description: 依類型的屬性
 ms.assetid: 52216e11-9369-4036-9c16-e3e9db63efcf
 keywords:
-- Windows Media Format SDK，屬性
+- Windows媒體格式 SDK，屬性
 - Advanced Systems Format (ASF) 、屬性
 - ASF (Advanced 系統格式) ，屬性
 - 屬性，類型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dfdcfeeb40b5404c453e4b80a0855893e86f1d02
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c15c2db016f35ca60b799c88eb4194af0f23a5bce4823e9cf6c7d9503298553d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104371975"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119709498"
 ---
 # <a name="attributes-by-type"></a>依類型的屬性
 
@@ -22,7 +22,7 @@ ms.locfileid: "104371975"
 
 
 
-| 屬性類型                                                   | Description                                                           |
+| 屬性類型                                                   | 描述                                                           |
 |------------------------------------------------------------------|-----------------------------------------------------------------------|
 | [音樂檔案的屬性](attributes-for-music-files.md)     | 列出與音樂檔案搭配使用的屬性建議。             |
 | [影片檔案的屬性](attributes-for-video-files.md)     | 列出與影片檔案搭配使用的屬性建議。             |
@@ -31,7 +31,7 @@ ms.locfileid: "104371975"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -40,9 +40,9 @@ ms.locfileid: "104371975"
 [**屬性**](attributes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -30,12 +30,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 219e3373a6ecb2f5b963a82800f4415f7de64534
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 77bcdaae672ca59c65bea46d97a34046c7e48c6f0964c1a5b97cdcef77c14ffd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384190"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119737168"
 ---
 # <a name="imsrdpclient7securedsettings3-property"></a>IMsRdpClient7：： SecuredSettings3 屬性
 

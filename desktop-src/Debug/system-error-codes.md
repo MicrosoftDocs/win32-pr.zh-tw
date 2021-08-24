@@ -4,19 +4,19 @@ ms.assetid: 4a3a8feb-a05f-4614-8f04-1f507da7e5b7
 title: 系統錯誤碼
 ms.topic: article
 ms.date: 10/31/2019
-ms.openlocfilehash: 072e1eb4a43c787055bc2793b3f58d69cdf6dd12
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 4c762b2098531ecb19ad84522f8c9c8272c004397bbc4b32f15a6f6e157c4332
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110720"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119691728"
 ---
 # <a name="system-error-codes"></a>系統錯誤碼
 
 本節適用于正在進行系統錯誤的偵錯工具。 如果您在搜尋其他錯誤時到達此頁面，以下是一些可能有説明的連結：
 
-* [Windows Update 錯誤](https://support.microsoft.com/help/10164/fix-windows-update-errors) -協助解決 Windows Update 的問題。
-* [Windows 啟用錯誤](https://support.microsoft.com/help/10738/windows-10-get-help-with-activation-errors) -協助驗證您的 windows 複本。
+* [Windows Update 錯誤](https://support.microsoft.com/help/10164/fix-windows-update-errors)-協助解決 Windows Update 的問題。
+* [Windows 啟用錯誤](https://support.microsoft.com/help/10738/windows-10-get-help-with-activation-errors)-協助驗證您的 Windows 複本。
 * 針對[藍色螢幕錯誤進行疑難排解](https://support.microsoft.com/help/14238/windows-10-troubleshoot-blue-screen-errors)-協助找出造成停止錯誤的原因。
 * [Microsoft 支援服務](https://support.microsoft.com) -支援 Microsoft 產品。
 
@@ -25,8 +25,8 @@ ms.locfileid: "104110720"
 我們已列出本節中的系統錯誤碼，並依編號進行組織。 如果您需要更多協助追蹤特定的錯誤，以下是一些建議：
 
 * 使用 [Microsoft Error Lookup Tool](system-error-code-lookup-tool.md)。
-*  安裝適用于 Windows 的偵錯工具、載入記憶體傾印檔案，然後執行 **\! err \<code>** 命令。
-* 搜尋 Microsoft 通訊協定網站中的原始文字或錯誤碼。 如需詳細資訊，請參閱 [[ERREF]： Windows 錯誤碼](/openspecs/windows_protocols/ms-erref/1bc92ddf-b79e-413c-bbaa-99a5281a6c90)。
+*  安裝 Windows 的偵錯工具、載入記憶體傾印檔案，然後執行 **\! err \<code>** 命令。
+* 搜尋 Microsoft 通訊協定網站中的原始文字或錯誤碼。 如需詳細資訊，請參閱[[ERREF]： Windows 錯誤碼](/openspecs/windows_protocols/ms-erref/1bc92ddf-b79e-413c-bbaa-99a5281a6c90)。
 
 ## <a name="third-party-error-codes"></a>協力廠商錯誤碼
 

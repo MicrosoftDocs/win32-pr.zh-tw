@@ -4,12 +4,12 @@ ms.assetid: 7b04d55a-6606-4e69-9c89-0575165328c7
 title: System. OwnerSID
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 007b558e451769aa29adc6e7ac792f267477f8e0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 129f20dc5fcce8906ab58e8bb3d50410e33db2a868b96cfd7ab6d3a4e5bfb2e5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106989370"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119716488"
 ---
 # <a name="systemownersid"></a>System. OwnerSID
 

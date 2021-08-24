@@ -5,12 +5,12 @@ ms.assetid: 26a72de1-24bc-41e6-8d41-61d45f581e51
 title: COM + 詞彙
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8b5a6cb30529cd8b97b8cf11316347d68003e32c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: eda1c62c8edee1e15df33b63a9d4894639dd9e5637ed3e87a747d724f9e9040e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104468165"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119638718"
 ---
 # <a name="com-glossary"></a>COM + 詞彙
 
@@ -502,7 +502,7 @@ COM + 佇列元件服務的架構元素，會將失敗的訊息移回其輸入�
 <span id="cos.msi_file_gloss"></span><span id="COS.MSI_FILE_GLOSS"></span>**.msi 檔案**
 </dt> <dd>
 
-當您匯出 COM + 應用程式或應用程式 proxy 以便在另一部電腦上安裝時，由 [元件服務] 系統管理工具所建立的檔案。 您可以使用 Windows Installer 將 .msi 檔案安裝在任何 Windows 型用戶端上。
+當您匯出 COM + 應用程式或應用程式 proxy 以便在另一部電腦上安裝時，由 [元件服務] 系統管理工具所建立的檔案。 您可以使用 Windows Installer，將 .msi 檔案安裝在任何以 Windows 為基礎的用戶端上。
 
 </dd> <dt>
 
@@ -691,7 +691,7 @@ Com + 應用程式所提供的 COM + 安全性服務。 角色代表針對 COM +
 <span id="cos.split_registration_gloss"></span><span id="COS.SPLIT_REGISTRATION_GLOSS"></span>**分割註冊**
 </dt> <dd>
 
-對於已經存在的 COM 元件，並在 COM + 服務環境中使用的元件，註冊的註冊相片順序是將註冊的基本 COM 部分儲存在 Windows 登錄中，並使用新的 COM + 服務和屬性 (例如，已排入佇列的元件) 會儲存在 COM + 註冊資料庫中。 每個元件屬性都會儲存在 Windows 登錄或 COM + 註冊資料庫中。 新的 COM 元件會以獨佔方式在 COM + 註冊資料庫中註冊，並在 Windows 登錄中進行一些重複，讓現有的工具可以使用這些元件。
+對於已經存在的 com 元件，並在 com + 服務環境中使用的元件，註冊方式是將註冊的基本 COM 部分儲存在 Windows 登錄和新的 com + 服務和屬性 (例如，佇列元件) 儲存在 com + 註冊資料庫中。 每個元件屬性都會儲存在 Windows 登錄或 com + 註冊資料庫中。 新的 com 元件會以獨佔方式在 com + 註冊資料庫中註冊，並在 Windows 登錄中進行一些重複，讓現有的工具可以使用這些元件。
 
 </dd> <dt>
 

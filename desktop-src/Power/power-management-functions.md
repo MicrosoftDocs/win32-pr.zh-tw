@@ -4,12 +4,12 @@ ms.assetid: eae96a9e-ced2-4e13-b250-33c5acbbae48
 title: 電源管理功能
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c9ad544c7483cdda6be015da2314c5463fd0eca
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b83fb67cd5bbeabf066e7668a4235abd6d561f339cc7b3fc0c960c95b6fa2755
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103944233"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119674568"
 ---
 # <a name="power-management-functions"></a>電源管理功能
 
@@ -100,11 +100,11 @@ ms.locfileid: "103944233"
 
 ## <a name="power-management-functions-windows-server-2003-and-earlier"></a>電源管理功能： Windows Server 2003 及更早版本
 
-Windows Server 2008、Windows Vista 和更新版本的 Windows 都支援下列功能，以與舊版 Windows 相容。 針對 Windows Server 2008、Windows Vista 和更新版本所撰寫的應用程式，應該使用此表格所列的替代方案。
+Windows Server 2008、Windows Vista 和更新版本的 Windows 支援下列函式，以相容于舊版的 Windows。 針對 Windows Server 2008、Windows Vista 和更新版本所撰寫的應用程式，應該使用下表所列的替代方案。
 
 
 
-| Windows Server 2003 及更早版本                            | Description                                                                           | Windows Server 2008 和 Windows Vista                                                                                                                                           |
+| WindowsServer 2003 及更早版本                            | 描述                                                                           | Windows Server 2008 和 Windows Vista                                                                                                                                           |
 |------------------------------------------------------------|---------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**CanUserWritePwrScheme**](/windows/desktop/api/PowrProf/nf-powrprof-canuserwritepwrscheme)     | 判斷目前的使用者是否有足夠的許可權來撰寫電源配置。 | [**PowerSettingAccessCheck**](/windows/desktop/api/PowrProf/nf-powrprof-powersettingaccesscheck)                                                                                                                      |
 | [**DeletePwrScheme**](/windows/desktop/api/PowrProf/nf-powrprof-deletepwrscheme)                 | 刪除指定的電源配置。                                                   | [**PowerDeleteScheme**](/windows/desktop/api/PowrProf/nf-powrprof-powerdeletescheme)                                                                                                                                  |

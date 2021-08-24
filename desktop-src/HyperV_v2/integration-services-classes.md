@@ -4,12 +4,12 @@ ms.assetid: 7A8E9EF2-AC67-47CB-81A5-BF4C8A55D710
 title: Integration services 類別
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 04d60a913159c49387848b5e18a3e37b942f3e7a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0e4d833263298b88872cbf6eda71b953798897f3ff820d0ae831b818b9c92eaf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104512796"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119694398"
 ---
 # <a name="integration-services-classes"></a>Integration services 類別
 

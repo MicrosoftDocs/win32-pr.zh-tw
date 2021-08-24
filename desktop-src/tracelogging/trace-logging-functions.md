@@ -4,12 +4,12 @@ description: TraceLogging 提供下列功能，可讓您使用 Windows (ETW) 提
 ms.assetid: 93CCBCDE-F010-476B-BC6F-887E7DCC0AB0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 87ea278113bfdc4e4cc8351bafb8355cea91636f
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 228bec0799b940ff29a6c441de824513a083ebe3cac8555b5d3e8b32759c857e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103683000"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119708178"
 ---
 # <a name="tracelogging-functions"></a>TraceLogging 函式
 
@@ -31,6 +31,6 @@ TraceLogging 提供下列功能，可讓您使用 Windows (ETW) 提供者的事�
 [TraceLogging](trace-logging-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ ms.assetid: 7f9cef1c-b419-485f-ac01-afb9f42e5bd6
 title: 媒體會話屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a58c0ac1f6ccd3132bb83324a4abec333a079d7
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: dba62adf7988d28d95da4a01bce64c2296514c4cc6e71fb17afc7b4bdd2f40b3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106993786"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119715318"
 ---
 # <a name="media-session-attributes"></a>媒體會話屬性
 

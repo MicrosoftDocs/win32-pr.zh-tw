@@ -4,12 +4,12 @@ ms.assetid: 1b6f31e3-f228-4169-9c8e-d4a8baec701a
 title: 控制項功能表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b8c72135c97851e6686079e7ebb3b05a86892d7f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 01b7b8430729a273435f9052915efdcdf51ec509d85b579472b561fc26592bd1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936559"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119606048"
 ---
 # <a name="controls-menu"></a>控制項功能表
 

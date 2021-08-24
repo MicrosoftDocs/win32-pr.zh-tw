@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dd7adba98fbfa450cd938b56ec6d91598b918d0d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7fb8dab44cd1f26c080d438c15f545c882d2e4427af7fa04049b539ce8b3cf13
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106993679"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119735018"
 ---
 # <a name="iwmpmediacollectiongetbyattribute-method"></a>IWMPMediaCollection：： getByAttribute 方法
 
@@ -96,7 +96,7 @@ Implements IWMPMediaCollection.getByAttribute
 
 在呼叫這個方法之前，您必須擁有程式庫的讀取權限。 如需詳細資訊，請參閱連結 [庫存取](library-access.md)。
 
-如需 Windows Media Player 所支援之屬性的詳細資訊，請參閱 [屬性參考](attribute-reference.md)。
+如需 Windows Media Player 所支援之屬性的詳細資訊，請參閱[屬性參考](attribute-reference.md)。
 
 您有兩種方式可以取出 **IWMPMediaCollection** 介面，而 **getByAttribute** 方法的行為取決於您所使用的兩種方式。 如果您藉由呼叫 [AxWindowsMediaPlayer](axwmplib-axwindowsmediaplayer-mediacollection--vb-and-c.md)來取出介面，則 **getByAttribute** 方法會傳回媒體櫃中的所有媒體專案。 但是，如果您藉由呼叫 [IWMPLibrary](wmplibiwmplibrary-iwmplibrary-mediacollection--vb-and-c.md)來取出介面，則 **getByAttribute** 方法只會傳回程式庫中具有指定之屬性和值的音訊專案。
 

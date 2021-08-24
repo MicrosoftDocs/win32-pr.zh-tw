@@ -4,12 +4,12 @@ ms.assetid: 6cf9694a-00c4-4750-8822-c25a1a102fd4
 title: 關閉和刪除檔案
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b3da31fe7ff38a1bbd1555e2685ceab9ae432574
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 03c74ad36f2f099b8d2430f52cc2c40b789862c691f56df1ccebcd20e82586ad
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106987360"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119696298"
 ---
 # <a name="closing-and-deleting-files"></a>關閉和刪除檔案
 

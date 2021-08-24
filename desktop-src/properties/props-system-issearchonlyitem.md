@@ -4,12 +4,12 @@ ms.assetid: a731ff53-65c2-4d31-adae-861e1fde26a2
 title: System. IsSearchOnlyItem
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 38e4aefe6002920565d980a0a7b36db9e8b49d5a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: df09ec69243592aa7170f4114bfc3119af1c1a7e0eeee55ba47d9e0c4fae81e8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971765"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119716528"
 ---
 # <a name="systemissearchonlyitem"></a>System. IsSearchOnlyItem
 

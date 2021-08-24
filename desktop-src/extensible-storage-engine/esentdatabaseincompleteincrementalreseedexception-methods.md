@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101363
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 34776ea4f3cff6ba21ebb034d21a91624e927f67
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e24c3a77b68b488447cd12955d3c5eba63880033bd98646ca2b34383e1ac823e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511753"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119735911"
 ---
 # <a name="esentdatabaseincompleteincrementalreseedexception-methods"></a>EsentDatabaseIncompleteIncrementalReseedException 方法
 

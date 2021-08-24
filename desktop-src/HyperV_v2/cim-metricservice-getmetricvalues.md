@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 3c84ae9f5128edecfd3dd4cb591f811fdbd86010
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d010128bdef9bec4ce7df5fb3b1021a80a6ac99bdfbaf797958a76b27a812479
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106988830"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119694998"
 ---
 # <a name="getmetricvalues-method-of-the-cim_metricservice-class"></a>CIM MetricService 類別的 GetMetricValues 方法 \_
 

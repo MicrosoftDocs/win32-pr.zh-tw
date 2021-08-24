@@ -4,17 +4,17 @@ ms.assetid: 57ef75f6-411c-4b1f-b0dc-ac293ebc0b9c
 title: CC 解碼篩選
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d93995207e4f1a397db28f743d1f972b871b0553
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: a5feab764883754407030f2b4f72f794d049f5a394efb107ac149b10125da8d2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103935696"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119757398"
 ---
 # <a name="cc-decoder-filter"></a>CC 解碼篩選
 
 > [!IMPORTANT]
-> 此元件已從 Windows Vista 和更新版本的作業系統中移除。 它可在 Microsoft Windows 2000、Windows XP 及 Windows Server 2003 作業系統中使用。
+> 此元件已從 Windows Vista 和更新版本的作業系統中移除。 它可在 Microsoft Windows 2000、Windows XP 和 Windows Server 2003 作業系統中使用。
 
  
 
@@ -32,7 +32,7 @@ CC 編碼器篩選器會出現在 [WDM 串流 VBI 編解碼器] 篩選類別中�
 
 <dl> <dt>
 
-[DirectShow 篩選](directshow-filters.md)
+[DirectShow過濾 器](directshow-filters.md)
 </dt> <dt>
 
 [查看隱藏式輔助字幕](viewing-closed-captions.md)

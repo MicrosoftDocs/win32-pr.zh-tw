@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ec255f00656684751b750e92d7a3df8290e3573e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e3f48a93959b1e86eb77f6ab0fbfab444444ca1c077835e1c28330d34ed66c87
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104508507"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119656168"
 ---
 # <a name="connectionsettings-method-of-the-win32_tsclientsetting-class"></a>Win32 TSClientSetting 類別的 ConnectionSettings 方法 \_
 

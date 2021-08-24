@@ -4,12 +4,12 @@ ms.assetid: 44EFC4B5-7A2F-43A6-914E-D4EB7446AC35
 title: Dynamic-Link 程式庫的最佳作法
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 88aba0999f3d0825c6d2f4df3afe09d766a82232
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 95d02314b15a13de7658c0b87ba7cd998f48a0a3d9f2f2682b36539bd9f5bde3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975283"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119696574"
 ---
 # <a name="dynamic-link-library-best-practices"></a>Dynamic-Link 程式庫的最佳作法
 
@@ -31,9 +31,9 @@ ms.locfileid: "106975283"
 
 ## <a name="general-best-practices"></a>一般最佳作法
 
-當持有載入器鎖定時，會呼叫 [**DllMain**](dllmain.md) 。 因此，可在 **DllMain** 內呼叫的函式上強加了重大限制。 因此， **DllMain** 的設計目的是要使用 Microsoft® WINDOWS® API 的一小部分來執行最少的初始化工作。 您無法在 **DllMain** 中呼叫任何直接或間接嘗試取得載入器鎖定的函式。 否則，您將會引入應用程式鎖死或損毀的可能性。 **DllMain** 執行中的錯誤可能會危害整個進程及其所有線程。
+當持有載入器鎖定時，會呼叫 [**DllMain**](dllmain.md) 。 因此，可在 **DllMain** 內呼叫的函式上強加了重大限制。 因此， **DllMain** 的設計目的是要使用 Microsoft® Windows® API 的一小部分來執行最少的初始化工作。 您無法在 **DllMain** 中呼叫任何直接或間接嘗試取得載入器鎖定的函式。 否則，您將會引入應用程式鎖死或損毀的可能性。 **DllMain** 執行中的錯誤可能會危害整個進程及其所有線程。
 
-理想的 [**DllMain**](dllmain.md) 會是空的存根。 不過，由於許多應用程式的複雜性，這通常太過嚴格。 好用的 **DllMain** 經驗法則是盡可能將最多的初始化延後。 延遲初始化可提高應用程式的可靠性，因為在保留載入器鎖定時，不會執行此初始化。 此外，延遲初始化還可讓您安全地使用更多 Windows API。
+理想的 [**DllMain**](dllmain.md) 會是空的存根。 不過，由於許多應用程式的複雜性，這通常太過嚴格。 好用的 **DllMain** 經驗法則是盡可能將最多的初始化延後。 延遲初始化可提高應用程式的可靠性，因為在保留載入器鎖定時，不會執行此初始化。 此外，延遲初始化可讓您安全地使用更多的 Windows API。
 
 某些初始化工作無法延後。 例如，如果檔案的格式不正確或包含垃圾，則相依于設定檔的 DLL 應該無法載入。 對於這種初始化類型，DLL 應該嘗試執行動作並快速失敗，而不是藉由完成其他工作來浪費資源。
 
@@ -48,7 +48,7 @@ ms.locfileid: "106975283"
 -   呼叫 [**CreateProcess**](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa)。 建立進程可以載入另一個 DLL。
 -   呼叫 [**ExitThread**](/windows/win32/api/libloaderapi/nf-libloaderapi-freelibraryandexitthread)。 在 DLL 卸離期間結束執行緒可能會再次取得載入器鎖定，導致鎖死或損毀。
 -   呼叫 [**CreateThread**](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createthread)。 如果您沒有與其他執行緒進行同步處理，則建立執行緒可能會運作，但這是有風險的。
--   建立具名管道或其他命名物件 (Windows 2000 僅) 。 在 Windows 2000 中，命名物件是由終端機服務 DLL 提供。 如果這個 DLL 未初始化，則對 DLL 的呼叫可能會導致處理常式損毀。
+-   建立具名管道或其他命名物件 (僅 Windows 2000) 。 在 Windows 2000 中，命名物件是由終端機服務 DLL 提供。 如果這個 DLL 未初始化，則對 DLL 的呼叫可能會導致處理常式損毀。
 -   使用 Run-Time (CRT) 的記憶體管理函數。 如果 CRT DLL 未初始化，這些函式的呼叫可能會導致處理常式損毀。
 -   User32.dll 或 Gdi32.dll 中呼叫函數。 某些函式會載入另一個可能不會初始化的 DLL。
 -   使用 managed 程式碼。
@@ -82,7 +82,7 @@ ms.locfileid: "106975283"
 進程結束期間在 [**DllMain**](dllmain.md) 中的執行緒同步處理
 
 -   在進程結束時呼叫 [**DllMain**](dllmain.md) 時，會強制清除所有進程的執行緒，而且可能會有位址空間不一致的情況。 在此情況下，不需要同步處理。 換句話說，理想的 DLL 進程卸 \_ \_ 離處理常式是空的。
--   Windows Vista 可確保核心資料結構 (環境變數、目前的目錄、進程堆積等) 處於一致的狀態。 不過，其他資料結構可能已損毀，因此清理記憶體並不安全。
+-   WindowsVista 可確保核心資料結構 (環境變數、目前的目錄、進程堆積等) 處於一致的狀態。 不過，其他資料結構可能已損毀，因此清理記憶體並不安全。
 -   需要儲存的持續性狀態必須排清到永久儲存區。
 
 DLL **中 dll** 執行緒卸離 dll 執行緒的執行緒同步處理 \_ \_
