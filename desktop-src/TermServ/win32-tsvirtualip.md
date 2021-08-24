@@ -33,12 +33,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f87db04d61dda0c6034b536544362ec09e0aaa66
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 28830e44fd54e9246cb0affc5fdde1427673d92e843adfd3e1e19cd221af370e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103685578"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119769048"
 ---
 # <a name="win32_tsvirtualip-class"></a>Win32 \_ TSVirtualIP 類別
 
@@ -93,7 +93,7 @@ class Win32_TSVirtualIP : CIM_Setting
 | [**SetProgramList**](setprogramlist-win32-tsvirtualip.md)                                               | 覆寫使用 IP 虛擬化的程式清單。<br/>                                                                                                       |
 | [**SetVirtualIPActive**](setvirtualipactive-win32-tsvirtualip.md)                                       | 設定 **VirtualIPActive** 屬性值。<br/>                                                                                                                      |
 | [**SetVirtualIPMode**](setvirtualipmode-win32-tsvirtualip.md)                                           | 設定 **VirtualIPMode** 屬性值。<br/>                                                                                                                        |
-| [**SetVirtualizeLoopbackAddressesEnabled**](setvirtualizeloopbackaddressesenabled-win32-tsvirtualip.md) | 設定 **VirtualizeLoopbackAddressesEnabled** 屬性值。<br/> **Windows Server 2008 R2：** 此方法在 Windows Server 2012 之前無法使用。<br/> |
+| [**SetVirtualizeLoopbackAddressesEnabled**](setvirtualizeloopbackaddressesenabled-win32-tsvirtualip.md) | 設定 **VirtualizeLoopbackAddressesEnabled** 屬性值。<br/> **Windows Server 2008 R2：** 在 Windows Server 2012 之前，無法使用這個方法。<br/> |
 
 
 
@@ -516,7 +516,7 @@ IP 虛擬化模式為每位使用者。
 
 指定是否啟用回送位址虛擬化。
 
-**Windows Server 2008 R2：** 此屬性在 Windows Server 2012 之前無法使用。
+**Windows Server 2008 R2：** 在 Windows Server 2012 之前，無法使用此屬性。
 
 <dt>
 
@@ -538,7 +538,7 @@ IP 虛擬化模式為每位使用者。
 
 </dt> <dd>
 
-已啟用
+啟用
 
 </dd> </dl>
 

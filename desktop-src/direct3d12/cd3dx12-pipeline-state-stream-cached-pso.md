@@ -15,12 +15,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 78ddb223dfd2baa7bc6bee1b5a36950fc47d65d0
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: a11cb4e7a784b89a825f1e1b64083c50cc77731bbadf84d248106d69da9cf737
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106988171"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119751918"
 ---
 # <a name="cd3dx12_pipeline_state_stream_cached_pso-structure"></a>CD3DX12 \_ 管線 \_ 狀態 \_ 資料流程快取 \_ \_ PSO 結構
 

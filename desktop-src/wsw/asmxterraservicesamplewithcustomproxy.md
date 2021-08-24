@@ -8,12 +8,12 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6e38eefe8c5a3eb78063e3204d45f76b4cfa7477
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f940dcec3261aedfb79e03fd87f3b945e2449dcad99bcd068f58f0d214239544
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104301136"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119805838"
 ---
 # <a name="asmxterraservicesamplewithcustomproxy"></a>AsmxTerraServiceSampleWithCustomProxy
 
@@ -1076,9 +1076,9 @@ Exit:
 [**WS \_ HTTP \_ PROXY \_ 設定 \_ 模式 \_ 自訂**](/windows/desktop/api/WebServices/ne-webservices-ws_http_proxy_setting_mode)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

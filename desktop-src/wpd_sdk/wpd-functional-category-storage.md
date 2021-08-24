@@ -4,12 +4,12 @@ ms.assetid: 92a10de6-3e50-4042-a9b7-3c1d5944791f
 title: WPD_FUNCTIONAL_CATEGORY_STORAGE
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5f3000c63207286bc1dae153e3f930231909e92f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1b16d70ebff4c61643b4d5ae0f8b333f5f9a7dc02103a32e14ded7a0ac4d8189
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106987748"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119805935"
 ---
 # <a name="wpd_functional_category_storage"></a>WPD \_ 功能 \_ 類別 \_ 儲存體
 
@@ -42,7 +42,7 @@ WPD \_ 功能 \_ 類別 \_ 儲存體功能物件會將實體檔案儲存體封�
 | [WPD \_ 物件 \_ \_ \_ 從資源產生縮圖 \_](object-properties.md) | 選擇性。                                                                                                                                              |
 | [WPD \_ 物件 \_ 可以 \_ 刪除](object-properties.md)                                                                     | 如果無法刪除物件，則為必要。                                                                                                              |
 | [WPD \_ 物件 \_ 語言 \_ 地區設定](object-properties.md)                                                                | 選擇性。                                                                                                                                              |
-| [WPD \_ 功能 \_ 物件 \_ 類別](miscellaneous-properties.md)                      | 必要。 請參閱 Windows 可攜式裝置所定義分類的 [**WPD \_ 內容 \_ 類型 \_ 功能 \_ 物件**](wpd-content-type-functional-object.md) 。 |
+| [WPD \_ 功能 \_ 物件 \_ 類別](miscellaneous-properties.md)                      | 必要。 如需 Windows 可攜式裝置所定義的分類，請參閱 [**WPD \_ 內容 \_ 類型 \_ 功能 \_ 物件**](wpd-content-type-functional-object.md)。 |
 | [WPD \_ 儲存體 \_ 類型](storage-properties.md)                                                         | 必要。                                                                                                                                              |
 | [WPD \_ 儲存體 \_ 檔 \_ 系統 \_ 類型](storage-properties.md)                               | 選擇性。                                                                                                                                              |
 | [WPD \_ 儲存體 \_ 容量](storage-properties.md)                                                 | 必要。                                                                                                                                              |
@@ -61,7 +61,7 @@ WPD \_ 功能 \_ 類別 \_ 儲存體功能物件會將實體檔案儲存體封�
 
 
 
-| 資源名稱                                    | 必要或選擇性 | Description                                        |
+| 資源名稱                                    | 必要或選擇性 | 描述                                        |
 |--------------------------------------------------|----------------------|----------------------------------------------------|
 | [**WPD \_ 資源 \_ 圖示**](wpd-resource-icon.md) | 選擇性。            | 包含此儲存體的圖示表示。 |
 

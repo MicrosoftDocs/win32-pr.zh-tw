@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 87c8a4b943a647e52d7260f1ff53b32b40756761
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 9aa2b4bef607197c0f6fea084054d0e4fed1c721388677d45b465aff9c39ce49
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "107000616"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119790448"
 ---
 # <a name="id3dxskininfoconverttoindexedblendedmesh-method"></a>ID3DXSkinInfo：： ConvertToIndexedBlendedMesh 方法
 

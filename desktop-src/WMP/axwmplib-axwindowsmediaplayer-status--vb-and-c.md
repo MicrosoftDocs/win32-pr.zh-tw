@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ea7e8c36ad05e2f9a4573d8e2433d705f354239
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ac46eeef411e1d728994d829d95727cdaf4020c2ef1b7511391b6ca0d2e31ff7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106983047"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119864558"
 ---
 # <a name="axwindowsmediaplayerstatus-property"></a>AxWindowsMediaPlayer。 status 屬性
 
@@ -75,7 +75,7 @@ AxWindowsMediaPlayer。每當這個屬性變更值時，就會引發 **StatusCha
 [**AxWindowsMediaPlayer 物件 (VB 和 c # )**](axwindowsmediaplayer-object--vb-and-c.md)
 </dt> <dt>
 
-[**AxWindowsMediaPlayer StatusChange 事件 (VB 和 c # )**](axwmplib-axwindowsmediaplayer-statuschange.md)
+[**AxWindowsMediaPlayer. StatusChange 事件 (VB 和 c # )**](axwmplib-axwindowsmediaplayer-statuschange.md)
 </dt> </dl>
 
  

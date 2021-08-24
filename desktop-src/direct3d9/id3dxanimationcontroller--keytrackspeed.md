@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 09705dd03e7767e94b1508cf4951186a509a3c5b
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 21ad7b0b1423a25ede319a623cad0a8b453af481d4aac5fae4e5bcce252dd31e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106993918"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119791188"
 ---
 # <a name="id3dxanimationcontrollerkeytrackspeed-method"></a>ID3DXAnimationController：： KeyTrackSpeed 方法
 

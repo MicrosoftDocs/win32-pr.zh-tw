@@ -4,12 +4,12 @@ ms.assetid: 2e003ad4-9fcb-4834-a335-e4969ffd3a00
 title: 媒體事件產生器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 125bf165740b0260f9131e0df8af420c8a669d97
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: b24bd37b347fb06f97448b43241a1da40123195b63b9191b97581be60d7378ab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106992641"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119724158"
 ---
 # <a name="media-event-generators"></a>媒體事件產生器
 

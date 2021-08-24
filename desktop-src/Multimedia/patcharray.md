@@ -6,12 +6,12 @@ keywords:
 - PATCHARRAY MIDIPATCHSIZE
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e07af0e878fc0d2fc79d6d17aafd48fbd991fb39
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0d1d14696d7bb76827f902609cb1411f7890adeac53092e1b66b7eda16604320
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103844396"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119806068"
 ---
 # <a name="patcharray"></a>PATCHARRAY
 
@@ -42,7 +42,7 @@ typedef WORD PATCHARRAY[MIDIPATCHSIZE];
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                                |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                      |
 | 版本<br/>                  | 音樂檢測數位介面 (MIDI) 、MIDI 類型<br/>                                        |
-| 標頭<br/>                   | <dl> <dt>Mmsystem (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Mmsystem (包含 Windows .h) </dt> </dl> |
 
 
 

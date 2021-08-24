@@ -10,12 +10,12 @@ keywords:
 - 事件，環境
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0dc05cf90956464afbb030f3cd5dc4af194b0da2
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ff72739ec1791b79d6113415f1219a1ddee578b4b5a690ffaaac62bf6b3dbcfe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104371967"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119865088"
 ---
 # <a name="ambient-event-handlers"></a>環境事件處理常式
 
@@ -23,7 +23,7 @@ ms.locfileid: "104371967"
 
 
 
-| 事件處理常式                                   | Description                                                                                                                                                                                                                   |
+| 事件處理常式                                   | 描述                                                                                                                                                                                                                   |
 |-------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [*屬性* \_onchange](attribute-onchange.md) | 當外觀屬性變更值時，就會發生事件處理常式可以處理的事件。 事件處理常式的名稱是屬性的名稱，後面接著底線和 "onchange"，例如「值 \_ onchange」。 |
 | [onblur](onblur.md)                            | 處理當元素失去鍵盤焦點時所發生的事件。                                                                                                                                                       |
@@ -44,7 +44,7 @@ ms.locfileid: "104371967"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -56,9 +56,9 @@ ms.locfileid: "104371967"
 [**外觀程式設計參考**](skin-programming-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

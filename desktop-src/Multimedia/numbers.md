@@ -1,5 +1,5 @@
 ---
-title: " (Windows 多媒體) 的數位"
+title: Windows 多媒體) 的數位 (
 description: 數字
 ms.assetid: d416c4c2-a3e1-45a2-9ae1-82050a5e471b
 keywords:
@@ -16,14 +16,14 @@ keywords:
 - 未簽署的控制項
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f02c4ffd40f1058fae51af3798135840394be918
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 21c9e1bacdea3f52129d78eea2f0bc7134df08b7077c83510bd8de824777e524
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104093623"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119806618"
 ---
-# <a name="numbers-windows-multimedia"></a> (Windows 多媒體) 的數位
+# <a name="numbers-windows-multimedia"></a>Windows 多媒體) 的數位 (
 
 Number 控制項可讓使用者輸入與線條相關聯的數值資料。 數值資料會以帶正負號的整數、不帶正負號的整數或整數分貝值表示。 這些控制項使用 [**MIXERCONTROLDETAILS \_ 簽署**](/previous-versions//dd757297(v=vs.85)) 和 [**MIXERCONTROLDETAILS 不 \_ 帶正負**](/previous-versions//dd757298(v=vs.85)) 號的結構來取得和設定控制項屬性。 下表描述數位控制項的類型。
 

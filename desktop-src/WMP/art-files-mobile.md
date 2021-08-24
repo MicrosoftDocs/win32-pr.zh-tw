@@ -3,19 +3,19 @@ title: " (Mobile) 的美工檔案"
 description: " (Mobile) 的美工檔案"
 ms.assetid: 90393c3c-7952-4f77-96f6-0a0541bded9e
 keywords:
-- Windows Media Player 行動外觀、美工檔案
+- Windows Media Player行動外觀、美工檔案
 - 外觀、美工檔案
 - 適用于外觀、藝術的檔案
 - 適用于面板的美工圖案，關於
 - 適用于面板的美工圖案，Windows Media Player Mobile
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b84ad1e78a18b84e8836e3a1c3324702945a7fd9
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 9c88dbe11b93314274df2efe6ce1ecc12803963b265b459d7766313c6dc7b902
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104187261"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119864997"
 ---
 # <a name="art-files-mobile"></a> (Mobile) 的美工檔案
 
@@ -25,7 +25,7 @@ ms.locfileid: "104187261"
 
 
 
-| 美工檔案類型                            | Description                                                                                                |
+| 美工檔案類型                            | 描述                                                                                                |
 |------------------------------------------|------------------------------------------------------------------------------------------------------------|
 | [背景檔](background-file.md)   | 必要。 背景是所有按鈕影像的疊加影像                        |
 | [停用的檔案](disabled-file.md)       | 必要。 用來表示推送按鈕不會有任何作用的影像。                                |

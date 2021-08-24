@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: ecd05478f67934368aa6d1de84ae32a209ddcad6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: fdc944400bc80fbd5228ac06e2ba1c01f7315305071f7a24c0b38eb125ee1399
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106991333"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119767978"
 ---
 # <a name="cpullpinduration-method"></a>CPullPin Duration 方法
 
@@ -55,7 +55,7 @@ HRESULT Duration(
 
 ## <a name="remarks"></a>備註
 
-在呼叫 [**CPullPin：： Connect**](cpullpin-connect.md) 方法之前，持續時間為不定。
+在呼叫 [**CPullPin：：連線**](cpullpin-connect.md)方法之前，持續時間為不定。
 
 ## <a name="requirements"></a>規格需求
 

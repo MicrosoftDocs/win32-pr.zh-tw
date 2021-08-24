@@ -4,12 +4,12 @@ ms.assetid: 271fe2aa-7b37-400d-9642-74eb09c18e3e
 title: Tablet PC API 參考
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 97fcb5a71e074216a55d2c16bbe98e3a387399cd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 37ac76ce41bbfdd402c68b56144f2c4f6a006e58e16e7d4ceb60bc10c7d80ae4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106981220"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119843318"
 ---
 # <a name="tablet-pc-api-reference"></a>Tablet PC API 參考
 

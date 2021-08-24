@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 5904e9e09c8a821cdc532f9046217ae64bbf3de5
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 196f1041d725f8aed39e54626e00b849f2be09587d5ccd40fbc3d8a091fc1b55
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106986130"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119791108"
 ---
 # <a name="id3dxanimationcontrollerunkeyalltrackevents-method"></a>ID3DXAnimationController：： UnkeyAllTrackEvents 方法
 

@@ -1,5 +1,5 @@
 ---
-description: Win32 \_ SystemDriverPNPEntity 關聯 WMI 類別會將執行 Windows 的電腦系統上的隨插即用裝置與支援隨插即用裝置的驅動程式產生關聯。
+description: Win32 \_ SystemDriverPNPEntity 關聯 WMI 類別會將執行 Windows 之電腦系統上的隨插即用裝置與支援隨插即用裝置的驅動程式產生關聯。
 ms.assetid: 2696c8e5-3bc3-42e3-807b-a387607c7c09
 ms.tgt_platform: multiple
 title: Win32_SystemDriverPNPEntity 類別
@@ -16,16 +16,16 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 8b5a7eedfbd7a545e37cb9cda38c19cf61308761
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: e4b0de9559d223db4c398387ca846be39b17566b3267c76399bdf4381cdd14e7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510582"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119751108"
 ---
 # <a name="win32_systemdriverpnpentity-class"></a>Win32 \_ SystemDriverPNPEntity 類別
 
-**Win32 \_ SystemDriverPNPEntity** 關聯 [WMI 類別](../wmisdk/retrieving-a-class.md)會將執行 Windows 的電腦系統上的隨插即用裝置與支援隨插即用裝置的驅動程式產生關聯。
+**Win32 \_ SystemDriverPNPEntity** 關聯 [WMI 類別](../wmisdk/retrieving-a-class.md)會將執行 Windows 之電腦系統上的隨插即用裝置與支援隨插即用裝置的驅動程式產生關聯。
 
 下列語法已經過受管理物件格式 (MOF) 程式碼簡化，並包含所有已繼承的屬性。 屬性會依字母順序列出，而不是依 MOF 順序列出。
 

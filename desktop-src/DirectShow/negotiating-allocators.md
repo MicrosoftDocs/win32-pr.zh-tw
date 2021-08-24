@@ -4,18 +4,18 @@ ms.assetid: fe13477c-1a7b-4098-9d0f-c54783102bc9
 title: 協商配置器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2faa393ba9fcd8585d68947cec172d4cfca6decf
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 710b8315bfd44371a82d995afa56483414623136a6ce5c510babd5ea07b4b8bb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106970068"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119790938"
 ---
 # <a name="negotiating-allocators"></a>協商配置器
 
-當兩個 pin 連線時，他們需要一種機制來交換媒體資料。 這項機制稱為「 *傳輸*」。 一般而言，DirectShow 架構與傳輸無關。 有兩個篩選器可以使用兩個支援的傳輸來同意連接。
+當兩個 pin 連線時，他們需要一種機制來交換媒體資料。 這項機制稱為「 *傳輸*」。 一般來說，DirectShow 的架構與傳輸無關。 有兩個篩選器可以使用兩個支援的傳輸來同意連接。
 
-最常見的傳輸是 *本機記憶體* 傳輸，其中的媒體資料位於主儲存體中。 本機記憶體傳輸有兩種： *推送模型* 和 *提取模型*。 在推送模型中，來源篩選器會使用下游篩選器輸入 pin 上的 [**IMemInputPin**](/windows/desktop/api/Strmif/nn-strmif-imeminputpin) 介面，將資料推送至下游篩選器。 在提取模型中，下游篩選器會使用來源篩選器輸出釘選上的 [**IAsyncReader**](/windows/desktop/api/Strmif/nn-strmif-iasyncreader) 介面，要求來源篩選的資料。 如需這兩種資料流程模型的詳細資訊，請參閱 [篩選圖形中的](data-flow-in-the-filter-graph.md)資料流程。
+最常見的傳輸是 *本機記憶體* 傳輸，其中的媒體資料位於主儲存體中。 本機記憶體傳輸有兩種： *推送模型* 和 *提取模型*。 在推送模型中，來源篩選器會使用下游篩選器輸入 pin 上的 [**IMemInputPin**](/windows/desktop/api/Strmif/nn-strmif-imeminputpin) 介面，將資料推送至下游篩選器。 在提取模型中，下游篩選器會使用來源篩選器輸出釘選上的 [**IAsyncReader**](/windows/desktop/api/Strmif/nn-strmif-iasyncreader) 介面，要求來源篩選的資料。 如需這兩種資料流程模型的詳細資訊，請參閱[篩選 Graph 中的資料 Flow](data-flow-in-the-filter-graph.md)。
 
 在本機記憶體傳輸中，負責配置記憶體 *緩衝區的物件* 稱為配置器。 配置器支援 [**IMemAllocator**](/windows/desktop/api/Strmif/nn-strmif-imemallocator) 介面。 這兩個 pin 都會共用單一配置器。 這兩種 pin 都可提供配置器，但輸出 pin 會選取要使用的配置器。
 

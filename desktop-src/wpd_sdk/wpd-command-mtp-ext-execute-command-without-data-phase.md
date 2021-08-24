@@ -4,12 +4,12 @@ ms.assetid: 308550d0-1399-4b64-8f8e-dc16d5044086
 title: 'WPD_COMMAND_MTP_EXT_EXECUTE_COMMAND_WITHOUT_DATA_PHASE 命令 (WpdMtpExtensions .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b58648547c33206e1de19c14aea48427bc9db0be
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a2c4d1d5af4d1e4e712f3a39dd5cbb296133bb16f4de3b677da4a45fa7bbc204
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106998653"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119806298"
 ---
 # <a name="wpd_command_mtp_ext_execute_command_without_data_phase-command"></a>\_ \_ \_ \_ \_ \_ 未包含 \_ 資料 \_ 階段命令的 WPD 命令 MTP EXT EXECUTE 命令
 
@@ -25,7 +25,7 @@ ms.locfileid: "106998653"
 
 
 
-| 參數                                      | VarType | Description                                                                                                                   |
+| 參數                                      | VarType | 描述                                                                                                                   |
 |------------------------------------------------|---------|-------------------------------------------------------------------------------------------------------------------------------|
 | **WPD \_ 屬性 \_ MTP \_ EXT \_ 操作 \_ 碼**   | VT \_ UI4 | 必要。 識別廠商延伸的 MTP 作業程式碼。                                                                    |
 | **WPD \_ 屬性 \_ MTP \_ EXT \_ 操作 \_ 參數** | VT \_ UI4 | 必要。 **IPortableDevicePropVariantCollection**，識別廠商作業程式碼的必要參數。 |
@@ -40,7 +40,7 @@ ms.locfileid: "106998653"
 
 
 
-| 結果                                        | VarType | Description                                                                                                                    |
+| 結果                                        | VarType | 描述                                                                                                                    |
 |-----------------------------------------------|---------|--------------------------------------------------------------------------------------------------------------------------------|
 | **WPD \_ 屬性 \_ MTP \_ EXT \_ 回應 \_ 碼**   | VT \_ UI4 | 必要。 廠商作業程式碼的回應碼。                                                                      |
 | **WPD \_ 屬性 \_ MTP \_ EXT \_ \_ 參數** | VT \_ UI4 | 選擇性。 識別任何回應參數的 **IPortableDevicePropVariantCollection** 。 此集合可能是空的。 |

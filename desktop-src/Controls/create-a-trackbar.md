@@ -4,12 +4,12 @@ description: 建立程式時，會初始化其範圍及其選取範圍。 此時
 ms.assetid: FA110B4A-D3D7-49D8-A3DC-368099F6DA1E
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c9468ff044b94837f54d04cda4a9105f15410692
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 71713e09167812786a5d5f57986242ef5fcf016931cdff40d5190cd6e0daafea
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021024"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119826548"
 ---
 # <a name="how-to-create-a-trackbar"></a>如何建立跟蹤條
 
@@ -19,12 +19,12 @@ ms.locfileid: "104021024"
 
 ### <a name="technologies"></a>技術
 
--   [Windows 控制項](window-controls.md)
+-   [Windows控制](window-controls.md)
 
 ### <a name="prerequisites"></a>必要條件
 
 -   C/C++
--   Windows 消費者介面程式設計
+-   Windows消費者介面程式設計
 
 ## <a name="instructions"></a>指示
 
@@ -95,9 +95,9 @@ HWND WINAPI CreateTrackbar(
 [使用 [使用] 控制項](using-trackbar-controls.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

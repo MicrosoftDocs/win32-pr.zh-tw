@@ -9,12 +9,12 @@ keywords:
 - DWM (桌面視窗管理員) 、訊息
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 399db1399cfc7cb60d29f0fa554a2233dc75a279
-ms.sourcegitcommit: 927b9c371f75f52b8011483edf3a4ba37d11ebe4
+ms.openlocfilehash: 3715494dc514dea471e50321acf1f64c5745ffe52dacae69752c8f10fecf0e84
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "106969503"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119726018"
 ---
 # <a name="dwm-messages"></a>DWM 訊息
 

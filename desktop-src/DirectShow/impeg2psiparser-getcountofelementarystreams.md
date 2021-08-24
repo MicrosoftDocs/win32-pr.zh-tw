@@ -1,5 +1,5 @@
 ---
-description: IMpeg2PsiParser：： GetCountOfElementaryStreams 方法-此方法的實作為使用 DirectShow SDK 的範例程式碼來提供。 這不是支援的 DirectShow API。
+description: IMpeg2PsiParser：： GetCountOfElementaryStreams 方法-會以 DirectShow SDK 的範例程式碼形式提供此方法的執行。 這不是支援的 DirectShow API。
 ms.assetid: 19ef96a8-3d5b-4da1-8cff-d6a271ad4915
 title: IMpeg2PsiParser：： GetCountOfElementaryStreams 方法
 ms.topic: reference
@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: fc81c0a66751751a73a3895fd31fe8651aee8caf
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: e241697884a4b665c160dc9991e4cb7f02c76f1ba32bc7a0656515faf1117a58
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108089156"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119767378"
 ---
 # <a name="impeg2psiparsergetcountofelementarystreams-method"></a>IMpeg2PsiParser：： GetCountOfElementaryStreams 方法
 
@@ -61,7 +61,7 @@ HRESULT GetCountOfElementaryStreams(
 
 
 
-| 傳回碼                                                                          | Description         |
+| 傳回碼                                                                          | 描述         |
 |--------------------------------------------------------------------------------------|---------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl> | 成功。<br/> |
 

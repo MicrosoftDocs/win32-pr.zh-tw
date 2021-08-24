@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 2c189d9b5f24a3ccc803a588abb94337ee65a1da
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 21f6814ef8c96e88b11b6e998da7b3e24334b56782929e37c3d6d97965887af7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104187733"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119752268"
 ---
 # <a name="startservice-method-of-the-win32_systemdriver-class"></a>Win32 >systemdriver 類別的 StartService 方法 \_
 

@@ -4,12 +4,12 @@ ms.assetid: a4d812fe-f050-450a-acee-20b4152e8d76
 title: WPD_RESOURCE_GENERIC
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8b5cdf3e9ae615529f441a20d885980b601d3c24
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c418299474373d8b960d15c429ea98d887cc404be49c8d38c7d2bb83611c4ca1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112832"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119805868"
 ---
 # <a name="wpd_resource_generic"></a>WPD \_ 資源 \_ 泛型
 

@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 6d4eb221ef6a9ce46d2017773e215c6525e4e7b4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cef653779d2226e2d7a0451ccbbc2b9d09de0b958f5d6185c76c1341f5d9e7f2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106985069"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119790198"
 ---
 # <a name="msvm_batterysettingdata-class"></a>Msvm \_ BatterySettingData 類別
 

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 0e5c49a00054547193e3f492f0731f77af8331a2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c32dce44e48b033e0a76f5bb5af6aff3eb71948d54c73d670c6226571a1c938b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106989631"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119767604"
 ---
 # <a name="ctransforminputpincheckstreaming-method"></a>CTransformInputPin. CheckStreaming 方法
 
@@ -46,7 +46,7 @@ HRESULT CheckStreaming();
 
 
 
-| 傳回碼                                                                                           | Description                                 |
+| 傳回碼                                                                                           | 描述                                 |
 |-------------------------------------------------------------------------------------------------------|---------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>                  | 成功。<br/>                         |
 | <dl> <dt>**S \_ FALSE**</dt> </dl>               | Pin 目前正在排清。<br/>       |

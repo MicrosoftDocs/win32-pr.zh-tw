@@ -4,12 +4,12 @@ ms.assetid: 32e46c52-5c3c-4e22-8f4e-05286ee213ba
 title: 音譯服務
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cc00b96d56e6b05e70b352c81da0280e9ef35043
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d442ed0a9c45d5fb40ffa3f84438f6b2a46ad0a5a6587e3a9fd16dd2f2fd9cff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104115620"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119788268"
 ---
 # <a name="transliteration-services"></a>音譯服務
 

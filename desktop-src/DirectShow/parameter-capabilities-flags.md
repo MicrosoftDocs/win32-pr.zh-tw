@@ -4,12 +4,12 @@ ms.assetid: 6f3b7666-d245-41fc-b6e4-9e1ed264dfdc
 title: '參數功能旗標 (Medparam .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8fd0899bdff5f8e23e1dc49a6567efaeffc860c7
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d8272a748676f019967d44d9e819c20c3b38e20bb54beb20a9e276a23bb636a9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106984309"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119790888"
 ---
 # <a name="parameter-capabilities-flags"></a>參數功能旗標
 
@@ -41,7 +41,7 @@ ms.locfileid: "106984309"
 
 <dl> <dt>
 
-[SQL-DMO 常數](dmo-constants.md)
+[DMO常數](dmo-constants.md)
 </dt> </dl>
 
  

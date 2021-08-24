@@ -4,12 +4,12 @@ ms.assetid: 9922d403-5d0d-433f-ad9f-c86142ac0f46
 title: 硬體 MFTs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ac5ce05b4fdad6040b51f66f543c1737fc3918d2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 532fef959e2c2b5946d5a27ad98106a2e25cc77f8426c0a871e821c7298a69f4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191710"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119724926"
 ---
 # <a name="hardware-mfts"></a>硬體 MFTs
 

@@ -4,12 +4,12 @@ ms.assetid: 69eb161a-2330-456f-b7b8-234cf02c8b58
 title: Tablet PC 平臺歷程記錄
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f258876f79f8e701ed59242233dcccc292b15f52
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 78cbcecd8ee02f56a4d89b2ca9d14217da277525dd3548adec7282d6744d1d24
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104027411"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119843048"
 ---
 # <a name="tablet-pc-platform-history"></a>Tablet PC 平臺歷程記錄
 
@@ -27,20 +27,20 @@ Windows Presentation Foundation 也支援 Tablet PC 應用程式的開發。
 
 ### <a name="tablet-platform-in-windows-7-and-windows-server-2008-r2"></a>Windows 7 和 Windows Server 2008 R2 中的平板電腦平臺
 
-Windows 7 引進了其他語言支援、數學輸入控制項和自訂字典。 Windows 作業系統也加入了[Windows Touch](../wintouch/windows-touch-portal.md)的功能。
+Windows 7 引進了其他語言支援、數學輸入控制項和自訂字典。 Windows 作業系統也已新增[Windows Touch](../wintouch/windows-touch-portal.md)功能。
 
-Windows Server 2008 R2 引進了其他語言、自訂字典和伺服器端辨識的支援。
+WindowsServer 2008 R2 引進了其他語言、自訂字典和伺服器端辨識的支援。
 
 下列功能可增強平板電腦功能，並讓開發人員提供新的應用程式，以支援使用者的實際案例。
 
 -   數學輸入控制項允許從 Windows 7 中的手寫文字輸入數學公式和函數。
 -   為了改進文字辨識，Windows 7 和 Windows Server 2008 R2 支援自訂字典，讓系統管理員可以直接啟用單字清單的支援。
--   Windows Touch 除了支援移動、縮放和旋轉的手勢辨識 API 之外，還支援多個觸控來源的輸入。
--   Windows Server 2008 R2 支援表單輸入的伺服器端識別，也支援伺服器端辨識的自訂字典。 藉由新增這些功能，開發人員和系統管理員可以建立和自訂功能強大的應用程式，以支援從伺服器端進行手寫辨識。
+-   Windows觸控除了支援移動、縮放和旋轉的手勢辨識 API 之外，還支援多個觸控來源的輸入。
+-   WindowsServer 2008 R2 支援表單輸入的伺服器端識別，也支援伺服器端辨識的自訂字典。 藉由新增這些功能，開發人員和系統管理員可以建立和自訂功能強大的應用程式，以支援從伺服器端進行手寫辨識。
 
 ### <a name="tablet-platform-in-windows-vista"></a>Windows Vista 中的平板電腦平臺
 
-Tablet PC 技術二進位檔已在 Windows Vista 中更新。 更新的 Tablet PC 技術包含新的筆墨分析 Api，以及手寫筆輸入 Api 的 COM 版本。 針對舊版 Tablet PC 技術所撰寫的應用程式，會在 Windows Vista 上執行而不需要修改。
+Tablet PC 技術二進位檔已在 Windows Vista 中更新。 更新的 Tablet PC 技術包含新的筆墨分析 Api，以及手寫筆輸入 Api 的 COM 版本。 針對舊版 Tablet PC 技術所撰寫的應用程式，會在 Windows Vista 中執行，而不需要修改。
 
 從 Windows Vista 版本開始，Tablet PC 技術元件僅提供 Windows SDK 的一部分。 如需詳細資訊，請參閱 [TABLET PC 開發的新功能](what-s-new-in-tablet-pc-development.md)。
 

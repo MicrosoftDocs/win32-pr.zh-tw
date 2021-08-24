@@ -7,12 +7,12 @@ keywords:
 - MCIWndNew 宏
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 814bd9f92b895c03ccbb073f830dbf31dcd2e3c2
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4a02dfd62985b0267c685e6893512f977340f47f95801e8821d46005d5371397
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103931927"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119805558"
 ---
 # <a name="recording-with-mciwnd-controls"></a>使用 MCIWnd 控制項錄製
 
@@ -35,9 +35,9 @@ case WM_COMMAND:
 
 
 
- 
+ 
 
- 
+ 
 
 
 
