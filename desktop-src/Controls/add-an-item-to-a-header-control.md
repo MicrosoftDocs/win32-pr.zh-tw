@@ -4,12 +4,12 @@ description: 本主題示範如何將專案加入至標題控制項。
 ms.assetid: DF71EF92-1726-46E1-A10F-57D3B07FB936
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c1cf020c95a9dfe06bb06370533fdfd9416ddfef
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: 4face974c1b04021afdc9e26976c023e1287439eb3d6d63c7ea7f9f34c5b27f3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "103933741"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119922050"
 ---
 # <a name="how-to-add-an-item-to-a-header-control"></a>如何將專案加入至標題控制項
 
@@ -19,12 +19,12 @@ ms.locfileid: "103933741"
 
 ### <a name="technologies"></a>技術
 
--   [Windows 控制項](window-controls.md)
+-   [Windows控制](window-controls.md)
 
 ### <a name="prerequisites"></a>必要條件
 
 -   C/C++
--   Windows 消費者介面程式設計
+-   Windows消費者介面程式設計
 
 ## <a name="instructions"></a>指示
 

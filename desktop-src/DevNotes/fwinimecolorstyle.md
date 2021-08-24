@@ -1,5 +1,5 @@
 ---
-description: 指定指定的色彩是否為 Windows 色彩。
+description: 指定指定的色彩是否為 Windows 的色彩。
 ms.assetid: 0d2b2039-938c-4f9d-8ddc-9eb711f55009
 title: FWinIMEColorStyle 函式
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - DllExport
 api_location:
 - Imeshare.dll
-ms.openlocfilehash: 28731672f5f1aff385f9051ba8b641b7cdcdf83c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 723c74ca5017d7908423a9934c002b67ffbc755623da175cc7f1e361f40b42e3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106989538"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120002308"
 ---
 # <a name="fwinimecolorstyle-function"></a>FWinIMEColorStyle 函式
 
-指定指定的色彩是否為 Windows 色彩。
+指定指定的色彩是否為 Windows 的色彩。
 
 ## <a name="syntax"></a>語法
 

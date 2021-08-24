@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: be1d8f7ae63bc8312c2432e50f5b6dcfeccdf525
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 3f00e5f4863b54a208b1b9f9b32e4292c274575271e447c3ac20e7b09a686ace
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104323275"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119952718"
 ---
 # <a name="id3dx11effectscalarvariablegetfloat-method"></a>ID3DX11EffectScalarVariable：： GetFloat 方法
 

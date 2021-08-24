@@ -4,12 +4,12 @@ ms.assetid: 016386f6-4675-409e-8446-599e4ff96109
 title: 新增效能計數器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8660af9406de4dedec3ecbd76169a23b342aa7d2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4aaf66d6a0e2f0c98ad0e9fe3cc66069509d4c2391ab74e4ecaa17d6780f4561
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106980855"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120033998"
 ---
 # <a name="adding-performance-counters"></a>新增效能計數器
 
@@ -21,7 +21,7 @@ ms.locfileid: "106980855"
 ## <a name="adding-a-performance-object-and-its-counters"></a>新增效能物件與其計數器
 
 1. 設計應用程式的物件類型和計數器。 如需詳細資訊，請參閱 [物件和計數器設計](object-and-counter-design.md)。
-2. 建立包含您所提供之效能物件和計數器名稱和描述的 ( .ini) 檔案的初始化。 如需詳細資訊，請參閱 [將計數器名稱和描述新增至](adding-counter-names-and-descriptions-to-the-registry.md)登錄。
+2. 建立初始化 (.ini) 檔案，其中包含您提供的效能物件和計數器的名稱和描述。 如需詳細資訊，請參閱 [將計數器名稱和描述新增至](adding-counter-names-and-descriptions-to-the-registry.md)登錄。
 3. 建立標頭 ( .h) 檔案，其中包含計數器物件和計數器將在登錄中安裝的相對位移。 如需詳細資訊，請參閱 [將計數器名稱和描述新增至](adding-counter-names-and-descriptions-to-the-registry.md)登錄。
 4. 在登錄中設定所需的效能監視專案。 這包括下列步驟。
     1. 在應用程式的 **服務** 金鑰中建立登錄機碼。 如果您沒有這類節點，請在下列登錄機碼底下建立它： `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services` 。 如需詳細資訊，請參閱 [建立應用程式的效能金鑰](creating-the-applications-performance-key.md)。

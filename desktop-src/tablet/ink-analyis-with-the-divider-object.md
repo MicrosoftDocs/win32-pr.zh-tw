@@ -4,12 +4,12 @@ ms.assetid: 9e4ed24f-4451-431c-9f0f-2f1c4f5e5084
 title: 使用分隔物件的筆墨分析
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 37f1df175f8746e56cf6ebd1b222b3901fbef36e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d036428bbe32c42e6419c2218e6196a0b89a892137e55d141d5553d360c0a652
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511034"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119939551"
 ---
 # <a name="ink-analysis-with-the-divider-object"></a>使用分隔物件的筆墨分析
 
@@ -33,10 +33,10 @@ ms.locfileid: "104511034"
 
 
 
-| Name                 | 描述                                                                      |
+| 名稱                 | 描述                                                                      |
 |----------------------|----------------------------------------------------------------------------------|
 | 區段<br/>   | 辨識區段。<br/>                                                |
-| 線條<br/>      | 包含一或多個辨識區段的手寫行。<br/> |
+| 折線圖<br/>      | 包含一或多個辨識區段的手寫行。<br/> |
 | Paragraph<br/> | 包含一或多行手寫的筆劃區塊。<br/>    |
 | 繪圖<br/>   | 非文字的筆墨。<br/>                                                 |
 

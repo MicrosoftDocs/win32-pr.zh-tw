@@ -4,12 +4,12 @@ ms.assetid: 1880ff8f-110c-4661-8b1f-afe1d8d2a38d
 title: 正在抓取時間和日期資訊
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ea2c2fa1d15de2c1ba5587a981373ff14b1c1c7f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d5f461f12cb1c6324892a415142c159ba570759128e61dd02b53a7cceebccc57
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980584"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120040408"
 ---
 # <a name="retrieving-time-and-date-information"></a>正在抓取時間和日期資訊
 

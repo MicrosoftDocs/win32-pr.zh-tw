@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 39b45ee7859fea9f1068123041a87309cf40c2d2
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 4e4a80954117f96e09f760b6d99343746479bb35d373d06eaa3ac89ac5980a1d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847143"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119922628"
 ---
 # <a name="win32_userdesktop-class"></a>Win32 \_ UserDesktop 類別
 
@@ -64,7 +64,7 @@ class Win32_UserDesktop : CIM_ElementSetting
 限定詞： [**key**](../wmisdk/key-qualifier.md)、 [**Override**](../wmisdk/standard-qualifiers.md) ( "Element" ) 、 [**MappingStrings**](../wmisdk/standard-qualifiers.md) ( "WMI \| Win32 \_ UserAccount" ) 
 </dt> </dl>
 
-代表使用者帳戶的實例參考，其桌面可由這個類別的 **Settings** 屬性自訂。
+代表使用者帳戶的實例的參考，其桌面可由這個類別的 **設定** 屬性自訂。
 
 </dd> <dt>
 

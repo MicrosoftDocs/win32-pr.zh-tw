@@ -1,25 +1,25 @@
 ---
 description: VMR 與
 ms.assetid: 45b3f964-6ec7-48b8-a66e-3c9883e6d780
-title: VMR 與先前的 DirectShow 轉譯器比較
+title: VMR 與上一個 DirectShow 轉譯器的比較
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: db40f9789a73446cb2dac4ed7033bdb163141bff
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ef9401361c5b258fdff09bf25351a79bf8315dabfb0c82636d7d8c3c9ffcdd93
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974111"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119903268"
 ---
-# <a name="vmr-vs-previous-directshow-renderers"></a>VMR 與先前的 DirectShow 轉譯器比較
+# <a name="vmr-vs-previous-directshow-renderers"></a>VMR 與上一個 DirectShow 轉譯器的比較
 
 使用舊的篩選器時，圖形中會需要不同的轉譯器，視硬體設定而定。
 
 [影片](video-renderer-filter.md)轉譯器篩選器用來轉譯非影片埠案例中的單一影片串流。 它是以圖形硬體技術為基礎，這項技術目前已超過五年，而在較舊版本的 DirectDraw 上。 在某些情況下，它會使用 GDI 來呈現。 這樣做的目的是為了節省影片資源，這些資源在五年前都有更多限制，或在 DirectDraw 中克服與多重監視器支援相關的限制。 VMR-7 或 VMR-9 都不會使用 GDI 來呈現;VMR-7 完全以 DirectDraw 7 為基礎，而 VMR-9 是以 Direct3D 9 為基礎。
 
-在涉及影片埠或多個影片輸入串流的案例中，在 VMR 之前，會使用重迭 [混音](overlay-mixer-filter.md) 器篩選器進行轉譯。 此篩選器只會使用圖形配接器上的硬體重迭，因此通常會限制為大部分卡片所提供的一個重迭表面。 覆迭混音器會執行目的地色彩的金鑰，但無法進行 Alpha 混色。 因為它沒有視窗管理員，所以它必須使用第二個篩選器，也就是影片轉譯器，用於視窗管理。 VMR 具有真正的 Alpha 混色，而且除了硬體重迭之外，還可以在軟體中建立多個重迭。
+在 VMR 覆迭之前的影片埠或多個影片輸入串流的案例中，會使用[Mixer](overlay-mixer-filter.md)濾波器進行轉譯。 此篩選器只會使用圖形配接器上的硬體重迭，因此通常會限制為大部分卡片所提供的一個重迭表面。 覆迭 Mixer 會執行目的地色彩金鑰，但無法進行 Alpha 混色。 因為它沒有視窗管理員，所以它必須使用第二個篩選器，也就是影片轉譯器，用於視窗管理。 VMR 具有真正的 Alpha 混色，而且除了硬體重迭之外，還可以在軟體中建立多個重迭。
 
-在影片埠案例中，應用程式會在影片上覆迭隱藏式輔助字幕或其他 VBI 資料，需要額外的篩選器（ [VBI Surface](vbi-surface-allocator.md)配置器），才能為 VBI 文字配置額外的視訊記憶體。 針對 Isv，VMR 7 會將配置和轉譯功能合併成用於所有案例的單一篩選，以簡化應用程式開發。 有了 VMR，就不再需要 VBI Surface 配置器。 此篩選器會由新的 [影片埠管理員](video-port-manager.md) 篩選在 Windows XP 中取代，此篩選器會執行所有先前由重迭混音器執行的影片埠工作。
+在影片埠案例中，應用程式會在影片上覆迭隱藏式輔助字幕或其他 VBI 資料，需要額外的篩選器（ [VBI Surface](vbi-surface-allocator.md)配置器），才能為 VBI 文字配置額外的視訊記憶體。 針對 Isv，VMR 7 會將配置和轉譯功能合併成用於所有案例的單一篩選，以簡化應用程式開發。 有了 VMR，就不再需要 VBI Surface 配置器。 此篩選器會在 Windows XP 中取代為新的[影片埠管理員](video-port-manager.md)篩選器，它會執行所有先前由重迭 Mixer 執行的影片埠工作。
 
 > [!Note]  
 > VMR-9 不支援視訊連接埠。

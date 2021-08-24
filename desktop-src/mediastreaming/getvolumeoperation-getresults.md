@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 444eaf590e5afc5d4f5185bcd3793698d6fe4535
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 9e58188a0d8b0d2ed13a9cb7d7486f440f4a1303ca32208371690965f976339d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106969705"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120011848"
 ---
 # <a name="getvolumeoperationgetresults-method"></a>GetVolumeOperation. GetResults 方法
 
@@ -54,7 +54,7 @@ HRESULT GetResults(
 
 
 
-| 傳回碼                                                                          | Description                      |
+| 傳回碼                                                                          | 描述                      |
 |--------------------------------------------------------------------------------------|----------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl> | 此方法已成功。<br/> |
 

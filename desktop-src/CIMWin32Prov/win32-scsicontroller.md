@@ -1,5 +1,5 @@
 ---
-description: Win32 \_ MICROSOFT.HYPERV.POWERSHELL.SCSICONTROLLER WMI 類別代表執行 Windows 的電腦系統上的 SCSI 控制器。
+description: Win32 \_ MICROSOFT.HYPERV.POWERSHELL.SCSICONTROLLER WMI 類別代表執行 Windows 之電腦系統上的 SCSI 控制器。
 ms.assetid: 14ed523e-d505-40fa-81d5-3a71eb9f078e
 ms.tgt_platform: multiple
 title: Win32_SCSIController 類別
@@ -47,16 +47,16 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 6f8ba77d626ada787ed18fd9855333fa813f3ab7
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 2a619bcb883674952be67eccc00eccd403603f9b25d5ba6064296c3a0d4b1dea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970345"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119917588"
 ---
 # <a name="win32_scsicontroller-class"></a>Win32 \_ microsoft.hyperv.powershell.scsicontroller 類別
 
-**Win32 \_ microsoft.hyperv.powershell.scsicontroller** [WMI 類別](../wmisdk/retrieving-a-class.md)代表執行 Windows 的電腦系統上的 SCSI 控制器。
+**Win32 \_ microsoft.hyperv.powershell.scsicontroller** [WMI 類別](../wmisdk/retrieving-a-class.md)代表執行 Windows 之電腦系統上的 SCSI 控制器。
 
 下列語法已經過受管理物件格式 (MOF) 程式碼簡化，並包含所有已繼承的屬性。 屬性會依字母順序列出，而不是依 MOF 順序列出。
 
@@ -1033,7 +1033,7 @@ SCSI 控制器支援的最大傳輸速率 (每秒位數) 。
 限定詞： [**架構**](../wmisdk/standard-qualifiers.md) ( "Win32" ) 
 </dt> </dl>
 
-Windows 隨插即用邏輯裝置的裝置識別碼。
+Windows隨插即用邏輯裝置的裝置識別碼。
 
 這個屬性繼承自 [**CIM \_ LogicalDevice**](cim-logicaldevice.md)。
 
@@ -1160,7 +1160,7 @@ Windows 隨插即用邏輯裝置的裝置識別碼。
 存取類型：唯讀
 </dt> <dt>
 
-限定詞： [**MappingStrings**](../wmisdk/standard-qualifiers.md) ( "MIF。DMTF \| 儲存控制器 \| 001.3 ") 
+限定詞： [**MappingStrings**](../wmisdk/standard-qualifiers.md) ( "MIF。DMTF \| 儲存體控制器 \| 001.3」 ) 
 </dt> </dl>
 
 支援 SCSI 控制器以提供冗余或防止裝置故障。
@@ -1317,7 +1317,7 @@ Windows 隨插即用邏輯裝置的裝置識別碼。
 
 <span id="SCSI_Serial_Storage_Architecture"></span><span id="scsi_serial_storage_architecture"></span><span id="SCSI_SERIAL_STORAGE_ARCHITECTURE"></span>
 
-**SCSI 序列儲存架構** (13) 
+**SCSI 序列儲存體架構** (13) 
 
 
 </dt> <dd></dd> <dt>

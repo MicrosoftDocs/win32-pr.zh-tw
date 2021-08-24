@@ -4,12 +4,12 @@ ms.assetid: 687d5692-4a83-4de8-b99d-859aaaddd16d
 title: 將角色指派給元件、介面或方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5efb66c9de865cbfcdc6e9cb047af92c95f6bc0a
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 22fcec11a52182bc0c9ac6f643c6c9cd75cb7b7462c35bbdea1ad0bc401f6ed4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104385966"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120029858"
 ---
 # <a name="assigning-roles-to-components-interfaces-or-methods"></a>將角色指派給元件、介面或方法
 
@@ -29,7 +29,7 @@ ms.locfileid: "104385966"
 
 4.  在 [ **為選取的專案明確設定的角色 (s)** ] 方塊中，選取您要指派給專案的角色。
 
-5.  按一下 [確定]  。
+5.  按一下 [確定]。
 
 任何您已為專案明確設定的角色，都會由它所包含的任何較低層級專案繼承，並顯示在這些專案 **(s) 視窗中所選取專案繼承的角色** 中。
 

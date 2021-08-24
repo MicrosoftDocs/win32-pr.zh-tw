@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: 12af672b929822180c4dba681ca333692a9174ec
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 8f5a382823da73df68ec0c32e120c0e94a2a7deba86e6aac4afe01e4e46acd7a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106988592"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119951798"
 ---
 # <a name="id3dxeffectapplyparameterblock-method"></a>ID3DXEffect：： ApplyParameterBlock 方法
 

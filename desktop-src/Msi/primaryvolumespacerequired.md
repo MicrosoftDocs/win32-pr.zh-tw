@@ -4,12 +4,12 @@ ms.assetid: 44c89bd8-774a-4b4f-9608-9a1926ef3b7d
 title: PrimaryVolumeSpaceRequired 屬性
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7ae1b210e57ee054191d908e4962c7568f0c6acf
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 08c644c53b5a36c8ba834a52c22ca3ba2b192499cbf351f122d8ed2b6a66a57f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107001225"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120042258"
 ---
 # <a name="primaryvolumespacerequired-property"></a>PrimaryVolumeSpaceRequired 屬性
 
@@ -25,7 +25,7 @@ ms.locfileid: "107001225"
 
 | 需求 | 值 |
 |--------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 版本<br/> | Windows Server 2012、Windows 8、Windows Server 2008 R2 或 Windows 7 上的 Windows Installer 5.0。 Windows Server 2008 或 Windows Vista 上的 Windows Installer 4.0。 Windows Server 2003 或 Windows XP 上的 Windows Installer。 如需 Windows Installer 版本所需的最小 Windows service pack 相關資訊，請參閱 [Windows Installer Run-Time 需求](windows-installer-portal.md) 。<br/> |
+| 版本<br/> | WindowsWindows Server 2012、Windows 8 Windows Server 2008 R2 或 Windows 7 上的安裝程式5.0。 WindowsWindows Server 2008 或 Windows Vista 上的安裝程式4.0。 WindowsWindows Server 2003 或 Windows XP 上的安裝程式。 如需 Windows Installer 版本所需的最低 Windows service pack 相關資訊，請參閱[Windows Installer Run-Time 需求](windows-installer-portal.md)。<br/> |
 
 
 

@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bee4abf74860ba6564af65b9b94f44d08e4177d5
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: e2de28ff2be401a84a48eb17b3982cb8ae41cbf79200d23538068f596f31ff75
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845600"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119922408"
 ---
 # <a name="change-infrastructure-master-extended-right"></a>變更基礎結構-主要延伸許可權
 

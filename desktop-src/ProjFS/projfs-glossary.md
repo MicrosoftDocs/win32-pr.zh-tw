@@ -1,18 +1,18 @@
 ---
-title: Windows 投射的檔案系統詞彙
+title: Windows預計的檔案系統詞彙
 description: ProjFS 中使用的特殊字詞。
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: <GUID-GOES-HERE>
 ms.date: 01/17/2020
 ms.topic: article
-ms.openlocfilehash: c6eac8faa83e2c898e4b1a3ada5c24ef81151b22
-ms.sourcegitcommit: a48b68a75323edfb902eb04fbe6d0ecba6988c21
+ms.openlocfilehash: 12b6e90d98fce3882aa5dc8d552f88e9cd9f389d24673fdc5caf175e180082f2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "106990887"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120030979"
 ---
-# <a name="windows-projected-file-system-glossary"></a>Windows 投射的檔案系統詞彙
+# <a name="windows-projected-file-system-glossary"></a>Windows預計的檔案系統詞彙
 
 ProjFS 中使用的特殊字詞。
 

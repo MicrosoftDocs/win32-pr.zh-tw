@@ -4,12 +4,12 @@ ms.assetid: f73d631e-2552-4358-903a-739e2df3657d
 title: 共用屬性群組
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 776dafe5c7e9752ce3ed1c88b01fd909b4b145de
-ms.sourcegitcommit: bf526e267d3991892733bdd229c66d5365cf244a
+ms.openlocfilehash: 2cda375c09b164e4ed380ba7d89477f2225b5b6004f98299ec9fd9b46f80abee
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "103696032"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120029211"
 ---
 # <a name="shared-property-groups"></a>共用屬性群組
 

@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 34ceb3f598ae603d478af5cad9c78333952530a2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: cd599370afb9029a481fbae33264796232e4f129c1a5da0d2658452b785a870c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106991210"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120031348"
 ---
 # <a name="iwmpclosedcaption2getsamistylename-method"></a>IWMPClosedCaption2：： getSAMIStyleName 方法
 

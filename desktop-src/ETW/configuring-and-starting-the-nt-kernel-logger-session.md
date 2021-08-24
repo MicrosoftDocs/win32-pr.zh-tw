@@ -4,12 +4,12 @@ ms.assetid: 3c4258d8-8073-4cc5-a29d-ce485a3fdc14
 title: 設定和啟動 NT Kernel 記錄器會話
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d13cb0d429bc4b0e01e02c33e2686040f0b7454b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: a41398c9caac3ecd090af68a18bfb148095632d96b8c75eaaee7f04a551360fa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973845"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119901218"
 ---
 # <a name="configuring-and-starting-the-nt-kernel-logger-session"></a>設定和啟動 NT Kernel 記錄器會話
 

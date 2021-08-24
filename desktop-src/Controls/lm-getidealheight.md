@@ -3,7 +3,7 @@ title: 'LM_GETIDEALHEIGHT 訊息 (Commctrl .h) '
 description: LM_GETIDEALHEIGHT 訊息-針對控制項目前寬度的連結，取得其慣用高度。
 ms.assetid: bf6ef3c1-89bc-4c56-9384-085fd00234e1
 keywords:
-- LM_GETIDEALHEIGHT message Windows 控制項
+- LM_GETIDEALHEIGHT 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1d6e82f259124e6da285ed2357d48ca07d5f8c08
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 7b0cd4b56da08baefe36d9ce1d669c4dbc4939883005c1cd45e59760566b468b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108112396"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119920438"
 ---
 # <a name="lm_getidealheight-message"></a>LM \_ GETIDEALHEIGHT 訊息
 
@@ -52,8 +52,8 @@ ms.locfileid: "108112396"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

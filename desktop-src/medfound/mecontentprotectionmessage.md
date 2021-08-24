@@ -4,12 +4,12 @@ ms.assetid: 0a13fc08-2bbe-46d8-a076-6165cca6ea36
 title: 'MEContentProtectionMessage 事件 (Mfobjects) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a4f96ac75711559881232ced4cec6bfca2bc030c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0316767025fe4446909146b92cfcea8abcc3e0511990c19485a50c94dbc3fa59
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103691268"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120013828"
 ---
 # <a name="mecontentprotectionmessage-event"></a>MEContentProtectionMessage 事件
 
@@ -21,7 +21,7 @@ ms.locfileid: "103691268"
 
 
 
-| VARTYPE              | Description                           |
+| VARTYPE              | 描述                           |
 |----------------------|---------------------------------------|
 | VT \_ 空白<br/> | 沒有事件資料。<br/> <br/> |
 
@@ -41,8 +41,8 @@ ms.locfileid: "103691268"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows Vista \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                                    |
-| 最低支援的伺服器<br/> | Windows Server 2008 \[ desktop app \| UWP 應用程式\]<br/>                                              |
+| 最低支援的用戶端<br/> | WindowsVista \[ desktop apps \| UWP 應用程式\]<br/>                                                    |
+| 最低支援的伺服器<br/> | WindowsServer 2008 \[ desktop app \| UWP 應用程式\]<br/>                                              |
 | 標頭<br/>                   | <dl> <dt>Mfobjects (包含 Mfidl) </dt> </dl> |
 
 

@@ -4,12 +4,12 @@ ms.assetid: ad3eff8e-a225-47c0-a53f-b1a3c94bcaac
 title: " (Direct3D 10) 的已淘汰功能"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 95bb06738f046b92290d35cff180f3879f4fa737
-ms.sourcegitcommit: ca37395fd832e798375e81142b97cffcffabf184
+ms.openlocfilehash: 50ce1750e6d8f98785bf87fb92169e56f0b4ca4e8a6dfdd34c6174a8c3087eb3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "110335542"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119852768"
 ---
 # <a name="deprecated-features-direct3d-10"></a> (Direct3D 10) 的已淘汰功能
 

@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: CIM_Sensor 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 049b80f40e76a409b78fb5ab5ac20ff264413618
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: a3198796b859d07a0ac284bf57e7f8c633ee6672f2add677d209f251358ca2d5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104468345"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119919948"
 ---
 # <a name="cim_sensor-methods"></a>CIM \_ 感應器方法
 

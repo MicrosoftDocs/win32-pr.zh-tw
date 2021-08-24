@@ -4,12 +4,12 @@ ms.assetid: a09e091c-ee82-4951-b129-d1d4c8948883
 title: 預設檔案版本控制
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fad33a7af49c28b560d9d558abbc86b220c4cb42
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c239cd7989308e79dbb0ee621241560ac33a7a049c83c0a44d2cb1c3c32f5fb0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103850244"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120039988"
 ---
 # <a name="default-file-versioning"></a>預設檔案版本控制
 

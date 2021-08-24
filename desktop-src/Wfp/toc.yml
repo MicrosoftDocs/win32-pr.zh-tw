@@ -1,4 +1,4 @@
-- name: Windows 資源保護
+- name: Windows資源保護
   href: windows-resource-protection-portal.md
   items:
     - name: 關於 Windows 資源保護
@@ -14,7 +14,7 @@
           href: system-file-checker.md
         - name: WFP 遠端系統管理考慮
           href: remote-administration-considerations.md
-    - name: Windows 資源保護參考
+    - name: Windows資源保護參考
       href: windows-file-protection-reference.md
       items:
         - name: WRP 函式

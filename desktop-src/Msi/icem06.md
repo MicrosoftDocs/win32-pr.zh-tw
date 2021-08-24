@@ -4,12 +4,12 @@ ms.assetid: 63e63a60-53e5-4881-ad71-efeceb73a70e
 title: ICEM06
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 945d45471ec86605e0fa509fc1855aa1cfd5d698
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5150e511e6f8018e51ab537b52ccc6c32645d09c80110129f040d6a329335ec5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103849647"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119828878"
 ---
 # <a name="icem06"></a>ICEM06
 
@@ -50,7 +50,7 @@ that is not a null GUID. Modules may not directly reference features.
 
 
 
-| CLSID   | Context       | 元件\_ | 功能\_                              |
+| CLSID   | Context       | 元件\_ | 特徵\_                              |
 |---------|---------------|-------------|----------------------------------------|
 | *GUID1* | LocalServer32 | Component1  | {00000000-0000-0000-0000-000000000000} |
 | *GUID2* | LocalServer32 | Component2  | MyFeature                              |

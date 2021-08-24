@@ -35,18 +35,18 @@ api_name:
 targetos: Windows
 req.typenames: ''
 req.redist: ''
-ms.openlocfilehash: 02f659f77ab2bace129c9b9d9011b4c93e59b2f4
-ms.sourcegitcommit: 61bde60d4c3bc09defc3dcdb64c0ddadf52b214e
+ms.openlocfilehash: bcc8565401e09e8a4a3e0dfb221f240255b00bd0e91b9c2611b21db3ee1c0201
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "106968893"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120002258"
 ---
 # <a name="guardchecklongjumptarget-function"></a>GuardCheckLongJumpTarget 函式
 
-## <a name="description"></a>Description
+## <a name="description"></a>描述
 
-嘗試確認 [longjmp](/cpp/c-runtime-library/reference/longjmp) 的目標是否適用于具有 [控制流程防護 (CFG) ](../secbp/control-flow-guard.md) 啟用的進程。
+嘗試確認[longjmp](/cpp/c-runtime-library/reference/longjmp)的目標是否適用于已啟用[Control Flow Guard (CFG) ](../secbp/control-flow-guard.md)的進程。
 
 如果目標位址對應至影像對應，就會針對二進位檔解壓縮有效的目標。
 函數會使用這些目標來驗證目標。

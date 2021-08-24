@@ -4,12 +4,12 @@ description: 本主題說明 Aero 主題所支援的類別、元件和狀態，�
 ms.assetid: 6ec340a8-8ad1-406e-9fe1-9da9710ee27e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a484e11d04c7e935083ee85fadd9466b8f57dd4f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 437ef4a4b032e4f1b5824d94f0ba924ca82745d0b7ea413044b87267ea1f891b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671688"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119921918"
 ---
 # <a name="aero-style-classes-parts-and-states"></a>Aero 樣式類別、元件和狀態
 
@@ -24,7 +24,7 @@ ms.locfileid: "103671688"
 |                | AW \_ CONTENTAREA             | AW \_ S \_ CONTENTAREA \_ NOMARGIN                                                               |
 |                | AW \_ HEADERAREA              | AW \_ S \_ HEADERAREA \_ NOMARGIN                                                                |
 |                | AW \_ 標題列                | AW \_ \_ 的標題為作用 \_ 中，AW \_ S 標題為 \_ \_ 非使用中                                         |
-| 按鈕         | BP \_ 核取方塊                |                                                                                            |
+| Button         | BP \_ 核取方塊                |                                                                                            |
 |                | BP \_ 分組                |                                                                                            |
 |                | BP \_ 按鍵              |                                                                                            |
 |                | BP \_ 選項按鈕             |                                                                                            |
@@ -136,11 +136,11 @@ ms.locfileid: "103671688"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -83,7 +83,7 @@ protected override void GetValueFromBytes(
 
 <!-- end list -->
 
-  - 計數  
+  - count  
     類型： [system.object](/dotnet/api/system.int32)  
     
     要解碼的位元組數。

@@ -1,23 +1,23 @@
 ---
-title: " (Windows 篩選平台) 的存取控制"
+title: Windows 篩選平台) 的存取控制 (
 description: 在 Windows 篩選平台 (WFP) 中，基底篩選引擎 (BFE) 服務會根據存取權杖和安全描述項來實行標準的 Windows 存取控制模型。
 ms.assetid: 936ad5f0-d5cd-47ed-b9e5-a7d82a4da603
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d0df63b6fe92b18614a7ccf205ccf826927664ee
-ms.sourcegitcommit: af9983bab40fe0b042f177ce7ca79f2eb0f9d0e8
+ms.openlocfilehash: 1ad8d1cc292358b156a8853a8a141426fda638d64474d1413747e2ebdb59d7a7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "104321371"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119901091"
 ---
-# <a name="access-control-windows-filtering-platform"></a> (Windows 篩選平台) 的存取控制
+# <a name="access-control-windows-filtering-platform"></a>Windows 篩選平台) 的存取控制 (
 
-在 Windows 篩選平台 (WFP) 中，基底篩選引擎 (BFE) 服務會根據存取權杖和安全描述項來實行標準的 [Windows 存取控制模型](/windows/desktop/SecAuthZ/access-control-model) 。
+在 Windows 篩選平台 (WFP) 中，基底篩選引擎 (BFE) 服務會根據存取權杖和安全描述項來實行標準的[Windows 存取控制模型](/windows/desktop/SecAuthZ/access-control-model)。
 
 ## <a name="access-control-model"></a>存取控制模型
 
-加入新的 WFP 物件（例如篩選和子層）時，可以指定安全描述項。 安全描述項是使用 WFP 管理函式 **Fwpm \* GetSecurityInfo0** 和 **Fwpm \* SetSecurityInfo0** 來管理，其中 * *\** _ 代表 WFP 物件的名稱。 這些函式在語義上等同于 Windows [_ *GetSecurityInfo* *](/windows/desktop/api/aclapi/nf-aclapi-getsecurityinfo)和 [**SetSecurityInfo**](/windows/desktop/api/aclapi/nf-aclapi-setsecurityinfo)函數。
+加入新的 WFP 物件（例如篩選和子層）時，可以指定安全描述項。 安全描述項是使用 WFP 管理函式 **Fwpm \* GetSecurityInfo0** 和 **Fwpm \* SetSecurityInfo0** 來管理，其中 * *\** _ 代表 WFP 物件的名稱。 這些函數在語義上等同于 Windows [_ *GetSecurityInfo* *](/windows/desktop/api/aclapi/nf-aclapi-getsecurityinfo)和 [**SetSecurityInfo**](/windows/desktop/api/aclapi/nf-aclapi-setsecurityinfo)函數。
 
 > [!Note]  
 > 無法從明確交易中呼叫 **Fwpm \* SetSecurityInfo0** 函數。
@@ -48,7 +48,7 @@ BFE 支援自動繼承任意的存取控制清單 (DACL) 存取控制專案 (Ace
 
 
 
-| WFP 存取權                                                                                                                        | Description                                                                                                                                                              |
+| WFP 存取權                                                                                                                        | 描述                                                                                                                                                              |
 |-----------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="FWPM_ACTRL_ADD"></span><span id="fwpm_actrl_add"></span>**FWPM \_ ACTRL \_ 新增**<br/>                                       | 將物件新增至容器所需。<br/>                                                                                                                     |
 | <span id="FWPM_ACTRL_ADD_LINK"></span><span id="fwpm_actrl_add_link"></span>**FWPM \_ ACTRL \_ 新增 \_ 連結**<br/>                       | 需要建立物件的關聯。 例如，若要加入參考標注的篩選準則，呼叫端必須具有標注的 [新增] \_ 連結存取權。<br/> |
@@ -83,7 +83,7 @@ BFE 會略過核心模式呼叫端的所有存取檢查。
 
 
 
-函式
+函數
 
 已核取物件
 
@@ -233,7 +233,7 @@ IKE SA 資料庫
 [Windows 存取控制模型](/windows/desktop/SecAuthZ/access-control-model)
 </dt> <dt>
 
-[**Windows 篩選平台存取權限識別碼**](access-right-identifiers.md)
+[**Windows篩選平臺存取權限識別碼**](access-right-identifiers.md)
 </dt> </dl>
 
  

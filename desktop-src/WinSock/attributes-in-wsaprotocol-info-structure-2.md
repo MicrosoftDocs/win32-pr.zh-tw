@@ -4,12 +4,12 @@ ms.assetid: 62f5b8b0-a404-49d1-b163-026f79a46845
 title: WSAPROTOCOL_INFO 結構中的屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e39ea2905da3228860d4fe22f5a0f0d954ce0624
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bb502c0f29f09604f80e5437774f2b481cef238aaf34f566e78886127dae1027
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973273"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119898548"
 ---
 # <a name="attributes-in-wsaprotocol_info-structure"></a>WSAPROTOCOL 資訊結構中的屬性 \_
 

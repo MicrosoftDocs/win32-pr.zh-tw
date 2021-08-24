@@ -14,12 +14,12 @@ api_type:
 api_location:
 - wisptis.exe
 - wisptis.exe.dll
-ms.openlocfilehash: 0b9e8e1337cacdb26d8c124d10e0a886748e70fe
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 49306160a0c14badc23cb2f359400d0fb2947012078a9318315a6697050f48dc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106985236"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119938628"
 ---
 # <a name="itabletcursorgetbutton-method"></a>ITabletCursor：： GetButton 方法
 
@@ -61,7 +61,7 @@ HRESULT GetButton(
 
 
 
-| 傳回碼                                                                            | Description                               |
+| 傳回碼                                                                            | 描述                               |
 |----------------------------------------------------------------------------------------|-------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>   | 成功。<br/>                       |
 | <dl> <dt>**E \_ 失敗**</dt> </dl> | 發生未指定的錯誤。<br/> |
@@ -76,7 +76,7 @@ HRESULT GetButton(
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 Windows XP Tablet PC Edition \[ 桌面應用程式\]<br/>                          |
+| 最低支援的用戶端<br/> | Windows僅限 XP Tablet PC Edition \[ 桌面應用程式\]<br/>                          |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                              |
 | 程式庫<br/>                  | <dl> <dt>Wisptis.exe</dt> </dl> |
 

@@ -15,16 +15,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3162aa377c051f6b329e993dfaca3bed17fae780
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: fe43e17827a4c6308c7bfd4499de60ec9105a9fa525ab5aad0226887d02ae8e5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103686080"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120036458"
 ---
 # <a name="protocol_specific_data-structure"></a>通訊協定 \_ 特定的 \_ 資料結構
 
-\[此 API 已由 [路由表管理員第2版](about-routing-table-manager-version-2.md) api 取代，而且將無法在 Windows Server 2003 之外使用。 應用程式應該使用路由表管理員第2版 API。\]
+\[此 api 已由[路由表管理員第2版](about-routing-table-manager-version-2.md)api 取代，而且將無法在 Windows Server 2003 之外使用。 應用程式應該使用路由表管理員第2版 API。\]
 
 **通訊協定 \_ 特定的 \_ 資料** 結構包含特定路由通訊協定專屬資料的保留記憶體。
 

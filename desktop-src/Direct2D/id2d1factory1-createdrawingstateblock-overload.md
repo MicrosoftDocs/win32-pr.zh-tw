@@ -12,12 +12,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
 api_location: ''
-ms.openlocfilehash: ac0d8e020cd577f067e02a9fe344fdfb4e9be0e8
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 4ec353f2b3f80d7eaba22dfe4c4dc81be45f272f2ca15ac34b629a63066bd731
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382518"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119918008"
 ---
 # <a name="id2d1factory1createdrawingstateblock-methods"></a>ID2D1Factory1：： CreateDrawingStateBlock 方法
 

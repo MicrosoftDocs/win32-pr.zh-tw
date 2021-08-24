@@ -4,12 +4,12 @@ ms.assetid: 747f9f53-a595-4f4b-8b81-3123d59edb2f
 title: '虛擬位址空間 (記憶體管理) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a6584d0404799e6b0e5ab343c7d8b39d7f8d741a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3a5c9b6aa7fce3be508cae2afd67767f9deaa25e1fe4aa38c4530529f64d7df7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943579"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120040076"
 ---
 # <a name="virtual-address-space-memory-management"></a>虛擬位址空間 (記憶體管理) 
 
@@ -17,7 +17,7 @@ ms.locfileid: "103943579"
 
 虛擬位址不代表物件在記憶體中的實際實體位置;相反地，系統會維護每個進程的 *頁面表格* ，這是用來將虛擬位址轉譯成其對應實體位址的內部資料結構。 每次執行緒參考位址時，系統會將虛擬位址轉譯為實體位址。
 
-32位 Windows 的虛擬位址空間的大小為 4 gb (GB) 並分為兩個磁碟分割：一個供進程使用，另一個則保留供系統使用。 如需64位 Windows 中虛擬位址空間的詳細資訊，請參閱 [64 位 windows 中的虛擬位址空間](../winprog64/virtual-address-space.md)。
+32位 Windows 的虛擬位址空間為 4 gb 的大小 (GB) ，並分為兩個分割區：一個用於進程，另一個則保留供系統使用。 如需有關64位 Windows 中虛擬位址空間的詳細資訊，請參閱[64 位 Windows 中的虛擬位址空間](../winprog64/virtual-address-space.md)。
 
 如需虛擬記憶體的詳細資訊，請參閱下列主題：
 
@@ -44,7 +44,7 @@ ms.locfileid: "103943579"
 
  
 
-## <a name="virtual-address-space-for-32-bit-windows-with-4gt"></a>32位 Windows 與4GT 的虛擬位址空間
+## <a name="virtual-address-space-for-32-bit-windows-with-4gt"></a>32位 Windows 的虛擬位址空間，有 4 gt
 
 如果已啟用 [4 gb 調整](4-gigabyte-tuning.md) (4gt) ，則每個分割區的記憶體範圍如下所示。
 

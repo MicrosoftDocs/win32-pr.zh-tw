@@ -4,12 +4,12 @@ ms.assetid: 0e45d0a6-3c3e-462c-a8dc-c4f25b614b85
 title: 頻率覆寫
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 57177e4990cb40be271fc551718964faf1696d2d
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 79a2c7663e70aa0e975cee52dc630453bea1ad4121a8c91d03564fe7d7a2cb4d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104509826"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119997837"
 ---
 # <a name="frequency-overrides"></a>頻率覆寫
 
@@ -18,7 +18,7 @@ ms.locfileid: "104509826"
 **HKEY \_本機 \_ 電腦** \\ **軟體** \\ **Microsoft** \\ **電視 System Services** \\ **TVAutoTune** \\ **TS0-1**
 
 > [!Note]  
-> 從 Windows 7 開始，在 x64 版本的 Windows 上執行的 x86 應用程式會使用下列重新導向的登錄機碼：
+> 從 Windows 7 開始，下列重新導向的登錄機碼會用於在 x64 版本的 Windows 上執行的 x86 應用程式：
 
  
 

@@ -1,19 +1,19 @@
 ---
-description: 適用于 Windows 7 的新。 識別與屬性描述檔案中定義之屬性相關的屬性。
+description: Windows 7 的新。 識別與屬性描述檔案中定義之屬性相關的屬性。
 ms.assetid: 30167942-141A-4f37-B019-0811BA654124
 title: relatedProperty
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cabde093a47a25834598659d3ad38e0847c1351d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4285c0f8b0731ba790cd57105f907cd4df85b6faa41c3f649588aca7ef457418
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318896"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119938678"
 ---
 # <a name="relatedproperty"></a>relatedProperty
 
-適用于 Windows 7 的新。 識別與屬性描述檔案中定義之屬性相關的屬性。 您可以視需要在[relatedPropertyInfo](./propdesc-schema-relatedpropertyinfo.md)中有任意數量的[relatedProperty]()元素。
+Windows 7 的新。 識別與屬性描述檔案中定義之屬性相關的屬性。 您可以視需要在[relatedPropertyInfo](./propdesc-schema-relatedpropertyinfo.md)中有任意數量的[relatedProperty]()元素。
 
 ## <a name="syntax"></a>Syntax
 

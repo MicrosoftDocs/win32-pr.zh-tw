@@ -4,12 +4,12 @@ ms.assetid: C5CC6A53-FF4B-4B54-B495-B6D43A382C09
 title: ISCardCmd 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a8f8b1087f0baebc73785f7878f4eff528960413
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4b3a62677062f75b5ca340d822ae9525896037b02b4b33a9837c7a35151997f8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026236"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120014688"
 ---
 # <a name="iscardcmd-methods"></a>ISCardCmd 方法
 

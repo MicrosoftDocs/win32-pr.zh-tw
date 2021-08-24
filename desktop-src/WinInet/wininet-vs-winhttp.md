@@ -6,12 +6,12 @@ keywords:
 - WinINet 與 WinHTTP
 ms.topic: article
 ms.date: 02/22/2019
-ms.openlocfilehash: 8ced80dd048559fee483e8cf121918eed75fc462
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: 20bd0ced1d0ea897dba05680258cae4a2b1a248b204824ded7d2ec5be30ff00b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113118793"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119899088"
 ---
 # <a name="wininet-vs-winhttp"></a>WinINet 與 WinHTTP
 
@@ -30,7 +30,7 @@ ms.locfileid: "113118793"
 | **Cookie Jar api** 支援持續性和非持續性 cookie。 任何應用程式或腳本都可以使用它來查看與瀏覽器相同的 cookie。 | 是 | 否 |
 | **受保護模式 IE 支援** | 是 | 否 |
 | **解壓縮支援** 支援 gzip 和 deflate 壓縮配置。 | 是 | 是 |
-| **區塊上傳支援** 用戶端程式代碼必須執行區塊化。 | 否 | 是 |
+| **區塊 Upload 支援** 用戶端程式代碼必須執行區塊化。 | 否 | 是 |
 | **SOCKS V4 支援** 不包含 v4a 或 v5。 | 是 | 否 |
 | **雙向傳送和接收** | 否 | 否 |
 | **重迭 i/o** | 否 | 否 |

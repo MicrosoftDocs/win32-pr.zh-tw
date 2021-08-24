@@ -4,12 +4,12 @@ ms.assetid: aefb6a0b-ca00-4951-a173-8d7806b5d4e7
 title: 多執行緒和 GDI 物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5822539248be5189f7a8e7fb15f4ef8a42ff1b70
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3a17c7edcf32341eb9b1eaff3546fbe7be219b5f924a85d4a1db1d584a0a5922
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106985448"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120032328"
 ---
 # <a name="multiple-threads-and-gdi-objects"></a>多執行緒和 GDI 物件
 

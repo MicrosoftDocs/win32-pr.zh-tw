@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 2324bae8ec1266dce2471049f8ba2f06b0c9e6e1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f9e1549000be728da0118323303a60a23a5930ad68d3c7d2d2b6c9c92d54c3d3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106996479"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119916428"
 ---
 # <a name="cbasepinendofstream-method"></a>CBasePin. EndOfStream 方法
 
@@ -46,7 +46,7 @@ HRESULT EndOfStream();
 
 ## <a name="remarks"></a>備註
 
-篩選準則應該將下游的結束資料流程通知傳遞至連線篩選的輸入接點。 如果篩選器是轉譯器，則應該將 [**EC \_ 完成**](ec-complete.md) 事件通知張貼至篩選圖形管理員。 如需詳細資訊，請參閱 [篩選圖形中的](data-flow-in-the-filter-graph.md)資料流程。
+篩選準則應該將下游的結束資料流程通知傳遞至連線篩選的輸入接點。 如果篩選器是轉譯器，則應該將 [**EC \_ 完成**](ec-complete.md) 事件通知張貼至篩選圖形管理員。 如需詳細資訊，請參閱[篩選 Graph 中的資料 Flow](data-flow-in-the-filter-graph.md)。
 
 在基類中，此方法不會執行任何動作。 衍生類別應該覆寫這個方法。
 

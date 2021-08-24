@@ -4,12 +4,12 @@ ms.assetid: CF38F6E8-A43D-4A97-8055-6B17E323524C
 title: 儲存類別
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b0c17ad2530a86e7f404fe19eaeb3ef5a1cd7895
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 90c46efc17b3df5e1a509cec3565c6aaa7b65ff06d189951b100ac06d93a957e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975877"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119829668"
 ---
 # <a name="storage-classes"></a>儲存類別
 

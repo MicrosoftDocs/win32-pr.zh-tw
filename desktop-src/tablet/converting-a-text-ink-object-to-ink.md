@@ -4,12 +4,12 @@ ms.assetid: 9365da4c-3667-49f0-838f-f099d28dab44
 title: 將文字筆墨物件轉換成筆墨
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6b8c7fe4a7847834fffda2df9c4ab94293756cee
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: eef543fda3ed53123e99ee042aed67af9cedfef3533ae47bc40d8dd284a73675
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191044"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119941158"
 ---
 # <a name="converting-a-text-ink-object-to-ink"></a>將文字筆墨物件轉換成筆墨
 

@@ -46,12 +46,12 @@ api_type:
 api_location:
 - Ole2disp.dll
 - Oleaut32.dll
-ms.openlocfilehash: fd600de816889e1c644a0e6074d9b8a97e0ec80c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 75abc6caf0abab25d98152cf9f905fa10fdd0597b7afda2680639bd8dc9c10b2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106975963"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120002038"
 ---
 # <a name="iextender-interface"></a>IExtender 介面
 
@@ -94,7 +94,7 @@ ms.locfileid: "106975963"
 <tr class="header">
 <th style="text-align: left;">屬性</th>
 <th style="text-align: left;">存取類型</th>
-<th style="text-align: left;">Description</th>
+<th style="text-align: left;">描述</th>
 </tr>
 </thead>
 <tbody>
@@ -141,7 +141,7 @@ ms.locfileid: "106975963"
 <td style="text-align: left;"><p>傳回表單上控制項的容器。</p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><p>已啟用</p></td>
+<td style="text-align: left;"><p>啟用</p></td>
 <td style="text-align: left;"><p>讀取/寫入</p></td>
 <td style="text-align: left;"><p>傳回或設定值，這個值會決定表單或控制項是否可以回應使用者產生的事件。</p></td>
 </tr>
@@ -161,7 +161,7 @@ ms.locfileid: "106975963"
 <td style="text-align: left;"><p>傳回或設定物件的內部左邊緣和其容器左邊緣之間的距離。</p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><p>Name</p></td>
+<td style="text-align: left;"><p>名稱</p></td>
 <td style="text-align: left;"><p>唯讀</p></td>
 <td style="text-align: left;"><p>傳回程序代碼中用來識別表單、控制項或資料存取物件的名稱。</p></td>
 </tr>

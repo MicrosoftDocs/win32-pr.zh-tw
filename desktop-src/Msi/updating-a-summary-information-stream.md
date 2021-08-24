@@ -4,12 +4,12 @@ ms.assetid: fce292c5-6702-4948-a13a-2a9ccacbd5c9
 title: 更新摘要資訊資料流程
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 37c022023f79d8f4d3999db6e11e4cf65b73e1ac
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0d95e6a0cf09af5d4a024f707c0694d89def47abf8f731f394c55a11232bc07f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104386281"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120039278"
 ---
 # <a name="updating-a-summary-information-stream"></a>更新摘要資訊資料流程
 

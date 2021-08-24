@@ -5,12 +5,12 @@ ms.assetid: 465b8ff4-4622-4638-9c5a-102a43afad6f
 title: 'U (電話語音 API) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 72372c7070ab0f8f1cca27e5c92b38594fcef64f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 96be6e039c41845b7d4d9b22f231d97e7e1af3be0f4c56760a778819e9a5c15f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320180"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120011938"
 ---
 # <a name="u-telephony-api"></a>U (電話語音 API) 
 

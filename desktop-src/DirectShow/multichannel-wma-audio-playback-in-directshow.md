@@ -4,12 +4,12 @@ ms.assetid: 99c69290-545a-4368-8f51-74e547c9466d
 title: DirectShow 中的多重通道 WMA 音訊播放
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 400ee9f0cede6c7268bcd3632365db1b423d114e
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: c3e7f7841677a7b7bc4087b2644632bbf6ec9cd48bccc15274506c6c57f96f89
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104317727"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119830978"
 ---
 # <a name="multichannel-wma-audio-playback-in-directshow"></a>DirectShow 中的多重通道 WMA 音訊播放
 
@@ -23,13 +23,13 @@ ms.locfileid: "104317727"
 啟用多重通道輸出的基本步驟如下：
 
 1.  呼叫 **RenderFile** 以建立篩選圖形。
-2.  取得 SQL-DMO 包裝函式篩選的指標。
-3.  從音訊轉譯器中斷連接的中的包裝函式。
+2.  取得 DMO 包裝函式篩選的指標。
+3.  中斷 DMO 包裝函式與音訊轉譯器的連線。
 4.  您可以使用 **IPropertyBag** 介面來設定解碼器上的 **MFPKEY \_ WMADEC \_ HIRESOUTPUT** 屬性。 屬性名稱是由全域常數 **g \_ wszWMACHiResOutput** 所定義。
-5.  重新連接 SQL-DMO 包裝函式和音訊轉譯器。
+5.  重新連接 DMO 包裝函式和音訊轉譯器。
 6.  執行圖形。
 
-下列程式碼片段示範這些步驟。 這段程式碼假設來源檔案包含音訊資料流程，而沒有影片串流。 Video 編解碼器 SQL-DMO 不支援 **MFPKEY \_ WMADEC \_ HIRESOUTPUT** 屬性。
+下列程式碼片段示範這些步驟。 這段程式碼假設來源檔案包含音訊資料流程，而沒有影片串流。 影片編解碼器 DMO 不支援 **MFPKEY \_ WMADEC \_ HIRESOUTPUT** 屬性。
 
 
 ```C++

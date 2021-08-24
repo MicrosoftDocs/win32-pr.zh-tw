@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 3009d2dc88e9987a3559da91eed1aa5aa1b248f9
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 9e827b1297a2bdd3bac39a22efa7f80e0d4723ded689e691423c6945a88bb729
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108098329"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119897481"
 ---
 # <a name="swbemservicesexecquery-method"></a>SWbemServices.ExecQuery 方法
 

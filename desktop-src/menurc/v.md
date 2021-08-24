@@ -5,12 +5,12 @@ ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 27f21587-2b09-43ea-ada2-f34b2481099a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4acb0cf36fb1a06c4c9437e75407d15574d24938
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 8f9e9d1106117b39ff11b486578dfcbec38c5b6e4b608aa2c7828e882d9e8b31
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103933848"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119939618"
 ---
 # <a name="v-menus-and-other-resources"></a> (功能表和其他資源) 
 

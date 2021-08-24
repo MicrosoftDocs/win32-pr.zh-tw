@@ -4,12 +4,12 @@ ms.assetid: fb796b2f-b6fb-48ee-8d42-36f88cb165aa
 title: 中斷陰影複製
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7dac84c9f45d16d8a88f9d61ad6e4c277dfad3ae
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0fee7a17a77bb806bc6e3713c00c9a01b9bc583f56822b9940b0fe2afebb4e7f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106985127"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120032898"
 ---
 # <a name="breaking-shadow-copies"></a>中斷陰影複製
 

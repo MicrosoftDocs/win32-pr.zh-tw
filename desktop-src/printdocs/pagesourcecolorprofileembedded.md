@@ -4,12 +4,12 @@ ms.assetid: 38411802-2b2e-441c-b3a6-334d87b11b5d
 title: PageSourceColorProfileEmbedded
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0633fa061601c1d575f174ab5572582efdf9a89e
-ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
+ms.openlocfilehash: 330d8da4200880e071a50b35d2f713ba544bb2b270335f2de022ab835286cfff
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112395633"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119938738"
 ---
 # <a name="pagesourcecolorprofileembedded"></a>PageSourceColorProfileEmbedded
 
@@ -24,7 +24,7 @@ ms.locfileid: "112395633"
 
 
 
-| Name | 值 |
+| 名稱 | 值 |
 |----------------------------|-----------------------------------------------------|
 | 項目類型 <br/>   | ParameterDef<br/>                             |
 | 範圍前置詞 <br/> | 頁面<br/>                                     |
@@ -74,8 +74,8 @@ ms.locfileid: "112395633"
 | DefaultValue<br/> | 字串<br/>  | 未定義<br/>       |
 | MaxLength<br/>    | 整數<br/> | 未定義<br/>       |
 | MinLength<br/>    | 整數<br/> | 1<br/>               |
-| 強制性<br/>    | string<br/>  | psk：條件式<br/> |
-| Unittype.pixel 表示<br/>     | string<br/>  | 字元<br/>      |
+| 強制性<br/>    | 字串<br/>  | psk：條件式<br/> |
+| Unittype.pixel 表示<br/>     | 字串<br/>  | 字元<br/>      |
 
 
 

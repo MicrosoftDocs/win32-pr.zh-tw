@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: c2aa61ebc3ef48c82405d960d5de42ab8f23dc53
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6c5fa2ba102de1135c0019e2dcfb291f55672cabb00cea1c59d8a655f21c882e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103692191"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119955168"
 ---
 # <a name="swbemlocatorsecurity_-property"></a>Wbemscripting.swbemlocator 安全性 \_ 屬性
 
@@ -59,8 +59,8 @@ SWbemLocator.Security_ As Object
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows Vista<br/>                                                                |
 | 最低支援的伺服器<br/> | Windows Server 2008<br/>                                                          |
-| 標頭<br/>                   | <dl> <dt>>wbemdisp.tlb。h</dt> </dl>   |
-| 類型程式庫<br/>             | <dl> <dt>>wbemdisp.tlb .tlb</dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>>Wbemdisp.tlb。h</dt> </dl>   |
+| 類型程式庫<br/>             | <dl> <dt>>Wbemdisp.tlb .tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
 | CLSID<br/>                    | CLSID \_ wbemscripting.swbemlocator<br/>                                                          |
 | IID<br/>                      | IID \_ ISWbemLocator<br/>                                                           |

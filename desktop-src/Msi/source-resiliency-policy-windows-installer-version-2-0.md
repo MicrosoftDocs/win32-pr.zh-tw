@@ -1,15 +1,15 @@
 ---
-description: Windows Installer 2.0 版會開始搜尋來源，方法是檢查來源清單中最近使用過的來源位置、網路來源清單、媒體來源，以及最後的 URL 來源。
+description: Windows安裝程式2.0 版會開始搜尋來源，方法是檢查來源清單中最近使用的來源位置、網路來源清單、媒體來源，以及最後的 URL 來源。
 ms.assetid: 21b1a31e-efe3-4d45-b1c5-fe6ed9b19fed
 title: 來源復原原則
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 605c420198234405c23cb9672ca25c621b76390e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4951c1183da8998986863fe5dae744fc58c23387306c91153b50ab63e38e0a3d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944647"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120039708"
 ---
 # <a name="source-resiliency-policy"></a>來源復原原則
 

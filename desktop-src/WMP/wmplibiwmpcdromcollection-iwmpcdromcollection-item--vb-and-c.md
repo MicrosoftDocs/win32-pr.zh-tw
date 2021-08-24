@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bf0c4a0c79a17b1e6956ba640daec74f0cbb2825
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 80ab1ced32918e615230b3267d15dfbe5b2ba28377f6bbf265b735ea666153a4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106992963"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119900108"
 ---
 # <a name="iwmpcdromcollectionitem-method"></a>IWMPCdromCollection：： Item 方法
 
@@ -134,7 +134,7 @@ Next i
 [**IWMPCdromCollection 介面 (VB 和 c # )**](iwmpcdromcollection--vb-and-c.md)
 </dt> <dt>
 
-[**IWMPCdromCollection (VB 和 c # )**](wmplibiwmpcdromcollection-iwmpcdromcollection-count--vb-and-c.md)
+[**IWMPCdromCollection (VB 和 c # ) 的計數**](wmplibiwmpcdromcollection-iwmpcdromcollection-count--vb-and-c.md)
 </dt> <dt>
 
 [**IWMPCdromCollection. getByDriveSpecifier (VB 和 c # )**](wmplibiwmpcdromcollection-iwmpcdromcollection-getbydrivespecifier--vb-and-c.md)

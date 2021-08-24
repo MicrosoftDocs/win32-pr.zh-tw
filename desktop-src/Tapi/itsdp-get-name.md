@@ -4,16 +4,16 @@ ms.assetid: 97b44a01-585b-434c-ad59-51c35e8a1ceb
 title: 'ITSdp：： get_Name 方法 (Sdpblb .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7b41d431a76f3d0bb2122847e8ee5c3a4dde3c1b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 930aaa1edcfb93f6a02a4ebe97acbbfcc1cfd42e8187d0ea14cf661c7ad7f66c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106993979"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120012888"
 ---
 # <a name="itsdpget_name-method"></a>ITSdp：： get \_ Name 方法
 
-\[ 在 Windows Vista、Windows Server 2008 和後續版本的作業系統中，無法使用會合 IP 電話語音會議控制項和介面。 RTC 用戶端 API 提供類似的功能。\]
+\[Windows Vista、Windows Server 2008 及後續版本的作業系統無法使用會合 IP 電話語音會議控制項和介面。 RTC 用戶端 API 提供類似的功能。\]
 
 **取得 \_ 名稱** 方法會取得會話名稱。 如果字元集是 ASCII，則必須是 ASCII 可轉換字串。  (否則，它可以是任何 **BSTR** 字串。 ) 
 
@@ -45,7 +45,7 @@ HRESULT get_Name(
 
 
 
-| 傳回碼                                                                                   | Description                                                     |
+| 傳回碼                                                                                   | 描述                                                     |
 |-----------------------------------------------------------------------------------------------|-----------------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>          | 方法成功。<br/>                                    |
 | <dl> <dt>**E \_ 指標**</dt> </dl>     | *PpName* 參數不是有效的指標。<br/>       |

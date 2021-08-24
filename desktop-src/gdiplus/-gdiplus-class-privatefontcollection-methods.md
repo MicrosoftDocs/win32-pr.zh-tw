@@ -4,12 +4,12 @@ ms.assetid: e7c0ab5c-aefa-4f22-9313-a375ec7ec8c1
 title: PrivateFontCollection 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 879e37b5125db251a089bdf01c4351f45a1f0499
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ddcd3dd7d6a002a0ac40dd99a74d7d441e45c5574664516b0ceac4a760f49398
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972957"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119831178"
 ---
 # <a name="privatefontcollection-methods"></a>PrivateFontCollection 方法
 
