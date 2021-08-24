@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: ee367aaf98aa971aa10c6859f117f15df9fcdd83
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 794024174f5db39fdaeb6c2cc8456764cc0751dd7363b4b367571412a8c757da
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104974104"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119788168"
 ---
 # <a name="texture1darrayloadintintuint-function"></a>Texture1DArray：： Load (int，int，uint) 函數
 

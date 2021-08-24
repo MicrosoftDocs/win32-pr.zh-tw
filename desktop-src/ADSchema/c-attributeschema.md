@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 62963140d2a12bb37f6bc960bd2cfb23a99a5227
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: a75225aa034503a2f08beb827f00cb44ccb656b387a1edb601b7ea430f05c0d4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104106926"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119703888"
 ---
 # <a name="attribute-schema-class"></a>Attribute-Schema 類別
 
@@ -62,7 +62,7 @@ ms.locfileid: "104106926"
 | 預設值-隱藏-值        | 1                                      |
 | Rdn-Att-Id                  | [**一般名稱**](a-cn.md)<br/> |
 | 的子類別                 | [**返回頁首**](c-top.md)<br/>        |
-| 可能的 Superiors          | [**Dmd**](c-dmd.md)                   |
+| 可能的 Superiors          | [**DMD**](c-dmd.md)                   |
 | 輔助類別           | \-                                     |
 | NT-Security-描述元      | O:BAG：不正確： S：                           |
 | 預設安全描述項 | D:S:                                   |
@@ -84,13 +84,13 @@ ms.locfileid: "104106926"
 | [**允許-屬性-有效**](a-allowedattributeseffective.md)          | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**允許-子類別**](a-allowedchildclasses.md)                        | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**允許-子類別-有效**](a-allowedchildclasseseffective.md)     | 否     | [**返回頁首**](c-top.md)<br/>                      |
-| [**屬性識別碼**](a-attributeid.md)                                         | 對      | **屬性-架構**                                 |
+| [**屬性識別碼**](a-attributeid.md)                                         | 是      | **屬性-架構**                                 |
 | [**屬性-安全性-GUID**](a-attributesecurityguid.md)                    | 否     | **屬性-架構**                                 |
-| [**屬性語法**](a-attributesyntax.md)                                 | 對      | **屬性-架構**                                 |
+| [**屬性語法**](a-attributesyntax.md)                                 | 是      | **屬性-架構**                                 |
 | [**橋頭-伺服器-清單-BL**](a-bridgeheadserverlistbl.md)                 | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**標準名稱**](a-canonicalname.md)                                     | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**類別-顯示名稱**](a-classdisplayname.md)                              | 否     | **屬性-架構**                                 |
-| [**一般名稱**](a-cn.md)                                                   | 對      | **屬性-架構** [ **Top**](c-top.md)<br/> |
+| [**一般名稱**](a-cn.md)                                                   | 是      | **屬性-架構** [ **Top**](c-top.md)<br/> |
 | [**建立時間戳記**](a-createtimestamp.md)                                | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**描述**](a-description.md)                                          | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**顯示名稱**](a-displayname.md)                                         | 否     | [**返回頁首**](c-top.md)<br/>                      |
@@ -104,7 +104,7 @@ ms.locfileid: "104106926"
 | [**Frs-電腦-參考-BL**](a-frscomputerreferencebl.md)                 | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**FRS-成員參考-BL**](a-frsmemberreferencebl.md)                     | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**FSMO 角色-擁有者**](a-fsmoroleowner.md)                                    | 否     | [**返回頁首**](c-top.md)<br/>                      |
-| [**實例類型**](a-instancetype.md)                                       | 對      | [**返回頁首**](c-top.md)<br/>                      |
+| [**實例類型**](a-instancetype.md)                                       | 是      | [**返回頁首**](c-top.md)<br/>                      |
 | [**為關鍵-系統物件**](a-iscriticalsystemobject.md)                 | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**已無用**](a-isdefunct.md)                                             | 否     | **屬性-架構**                                 |
 | [**已刪除**](a-isdeleted.md)                                             | 否     | [**返回頁首**](c-top.md)<br/>                      |
@@ -112,9 +112,9 @@ ms.locfileid: "104106926"
 | [**是-DL 的成員**](a-memberof.md)                                         | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**是-Partial 屬性集的成員**](a-ismemberofpartialattributeset.md) | 否     | **屬性-架構**                                 |
 | [**是-許可權-持有者**](a-isprivilegeholder.md)                            | 否     | [**返回頁首**](c-top.md)<br/>                      |
-| [**是-單一值**](a-issinglevalued.md)                                  | 對      | **屬性-架構**                                 |
+| [**是-單一值**](a-issinglevalued.md)                                  | 是      | **屬性-架構**                                 |
 | [**最後一個已知-父系**](a-lastknownparent.md)                                | 否     | [**返回頁首**](c-top.md)<br/>                      |
-| [**LDAP-顯示名稱**](a-ldapdisplayname.md)                                | 對      | **屬性-架構**                                 |
+| [**LDAP-顯示名稱**](a-ldapdisplayname.md)                                | 是      | **屬性-架構**                                 |
 | [**連結識別碼**](a-linkid.md)                                                   | 否     | **屬性-架構**                                 |
 | [**Managed 物件**](a-managedobjects.md)                                   | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**MAPI 識別碼**](a-mapiid.md)                                                   | 否     | **屬性-架構**                                 |
@@ -124,14 +124,14 @@ ms.locfileid: "104106926"
 | [**MS-DS-Consistency-Guid**](a-ms-ds-consistencyguid.md)                     | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**netboot-SCP-BL**](a-netbootscpbl.md)                                      | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**非安全性成員-BL**](a-nonsecuritymemberbl.md)                       | 否     | [**返回頁首**](c-top.md)<br/>                      |
-| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                      | 對      | [**返回頁首**](c-top.md)<br/>                      |
+| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                      | 是      | [**返回頁首**](c-top.md)<br/>                      |
 | [**Obj-Dist 名稱**](a-distinguishedname.md)                                  | 否     | [**返回頁首**](c-top.md)<br/>                      |
-| [**物件-類別**](a-objectcategory.md)                                   | 對      | [**返回頁首**](c-top.md)<br/>                      |
-| [**物件類別**](a-objectclass.md)                                         | 對      | [**返回頁首**](c-top.md)<br/>                      |
+| [**物件-類別**](a-objectcategory.md)                                   | 是      | [**返回頁首**](c-top.md)<br/>                      |
+| [**物件類別**](a-objectclass.md)                                         | 是      | [**返回頁首**](c-top.md)<br/>                      |
 | [**物件-Guid**](a-objectguid.md)                                           | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**物件版本**](a-objectversion.md)                                     | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**OM-物件類別**](a-omobjectclass.md)                                    | 否     | **屬性-架構**                                 |
-| [**OM-語法**](a-omsyntax.md)                                               | 對      | **屬性-架構**                                 |
+| [**OM-語法**](a-omsyntax.md)                                               | 是      | **屬性-架構**                                 |
 | [**其他知名物件**](a-otherwellknownobjects.md)                   | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**部分屬性-刪除-清單**](a-partialattributedeletionlist.md)     | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**部分屬性集**](a-partialattributeset.md)                        | 否     | [**返回頁首**](c-top.md)<br/>                      |
@@ -149,7 +149,7 @@ ms.locfileid: "104106926"
 | [**代表**](a-repsto.md)                                                   | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**修訂**](a-revision.md)                                                | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**架構-旗標-例如**](a-schemaflagsex.md)                                    | 否     | **屬性-架構**                                 |
-| [**架構識別碼-GUID**](a-schemaidguid.md)                                      | 對      | **屬性-架構**                                 |
+| [**架構識別碼-GUID**](a-schemaidguid.md)                                      | 是      | **屬性-架構**                                 |
 | [**SD-Rights-有效**](a-sdrightseffective.md)                            | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**搜尋-旗標**](a-searchflags.md)                                         | 否     | **屬性-架構**                                 |
 | [**伺服器參考-BL**](a-serverreferencebl.md)                            | 否     | [**返回頁首**](c-top.md)<br/>                      |
@@ -189,7 +189,7 @@ ms.locfileid: "104106926"
 | 預設值-隱藏-值        | 1                                      |
 | Rdn-Att-Id                  | [**一般名稱**](a-cn.md)<br/> |
 | 的子類別                 | [**返回頁首**](c-top.md)<br/>        |
-| 可能的 Superiors          | [**Dmd**](c-dmd.md)                   |
+| 可能的 Superiors          | [**DMD**](c-dmd.md)                   |
 | 輔助類別           | \-                                     |
 | NT-Security-描述元      | O:BAG：不正確： S：                           |
 | 預設安全描述項 | D:S:                                   |
@@ -197,7 +197,7 @@ ms.locfileid: "104106926"
 
 
 
-## <a name="windows-server-2003-attributes"></a>Windows Server 2003 屬性
+## <a name="windows-server-2003-attributes"></a>Windows伺服器2003屬性
 
 此類別包含 Windows Server 2003 的下列屬性：
 
@@ -211,13 +211,13 @@ ms.locfileid: "104106926"
 | [**允許-屬性-有效**](a-allowedattributeseffective.md)          | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**允許-子類別**](a-allowedchildclasses.md)                        | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**允許-子類別-有效**](a-allowedchildclasseseffective.md)     | 否     | [**返回頁首**](c-top.md)<br/>                      |
-| [**屬性識別碼**](a-attributeid.md)                                         | 對      | **屬性-架構**                                 |
+| [**屬性識別碼**](a-attributeid.md)                                         | 是      | **屬性-架構**                                 |
 | [**屬性-安全性-GUID**](a-attributesecurityguid.md)                    | 否     | **屬性-架構**                                 |
-| [**屬性語法**](a-attributesyntax.md)                                 | 對      | **屬性-架構**                                 |
+| [**屬性語法**](a-attributesyntax.md)                                 | 是      | **屬性-架構**                                 |
 | [**橋頭-伺服器-清單-BL**](a-bridgeheadserverlistbl.md)                 | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**標準名稱**](a-canonicalname.md)                                     | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**類別-顯示名稱**](a-classdisplayname.md)                              | 否     | **屬性-架構**                                 |
-| [**一般名稱**](a-cn.md)                                                   | 對      | **屬性-架構** [ **Top**](c-top.md)<br/> |
+| [**一般名稱**](a-cn.md)                                                   | 是      | **屬性-架構** [ **Top**](c-top.md)<br/> |
 | [**建立時間戳記**](a-createtimestamp.md)                                | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**描述**](a-description.md)                                          | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**顯示名稱**](a-displayname.md)                                         | 否     | [**返回頁首**](c-top.md)<br/>                      |
@@ -231,7 +231,7 @@ ms.locfileid: "104106926"
 | [**Frs-電腦-參考-BL**](a-frscomputerreferencebl.md)                 | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**FRS-成員參考-BL**](a-frsmemberreferencebl.md)                     | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**FSMO 角色-擁有者**](a-fsmoroleowner.md)                                    | 否     | [**返回頁首**](c-top.md)<br/>                      |
-| [**實例類型**](a-instancetype.md)                                       | 對      | [**返回頁首**](c-top.md)<br/>                      |
+| [**實例類型**](a-instancetype.md)                                       | 是      | [**返回頁首**](c-top.md)<br/>                      |
 | [**為關鍵-系統物件**](a-iscriticalsystemobject.md)                 | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**已無用**](a-isdefunct.md)                                             | 否     | **屬性-架構**                                 |
 | [**已刪除**](a-isdeleted.md)                                             | 否     | [**返回頁首**](c-top.md)<br/>                      |
@@ -239,9 +239,9 @@ ms.locfileid: "104106926"
 | [**是-DL 的成員**](a-memberof.md)                                         | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**是-Partial 屬性集的成員**](a-ismemberofpartialattributeset.md) | 否     | **屬性-架構**                                 |
 | [**是-許可權-持有者**](a-isprivilegeholder.md)                            | 否     | [**返回頁首**](c-top.md)<br/>                      |
-| [**是-單一值**](a-issinglevalued.md)                                  | 對      | **屬性-架構**                                 |
+| [**是-單一值**](a-issinglevalued.md)                                  | 是      | **屬性-架構**                                 |
 | [**最後一個已知-父系**](a-lastknownparent.md)                                | 否     | [**返回頁首**](c-top.md)<br/>                      |
-| [**LDAP-顯示名稱**](a-ldapdisplayname.md)                                | 對      | **屬性-架構**                                 |
+| [**LDAP-顯示名稱**](a-ldapdisplayname.md)                                | 是      | **屬性-架構**                                 |
 | [**連結識別碼**](a-linkid.md)                                                   | 否     | **屬性-架構**                                 |
 | [**Managed 物件**](a-managedobjects.md)                                   | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**MAPI 識別碼**](a-mapiid.md)                                                   | 否     | **屬性-架構**                                 |
@@ -270,14 +270,14 @@ ms.locfileid: "104106926"
 | [**Ms-exch-assistant-name-擁有者-BL**](a-ownerbl.md)                                         | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**netboot-SCP-BL**](a-netbootscpbl.md)                                      | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**非安全性成員-BL**](a-nonsecuritymemberbl.md)                       | 否     | [**返回頁首**](c-top.md)<br/>                      |
-| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                      | 對      | [**返回頁首**](c-top.md)<br/>                      |
+| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                      | 是      | [**返回頁首**](c-top.md)<br/>                      |
 | [**Obj-Dist 名稱**](a-distinguishedname.md)                                  | 否     | [**返回頁首**](c-top.md)<br/>                      |
-| [**物件-類別**](a-objectcategory.md)                                   | 對      | [**返回頁首**](c-top.md)<br/>                      |
-| [**物件類別**](a-objectclass.md)                                         | 對      | [**返回頁首**](c-top.md)<br/>                      |
+| [**物件-類別**](a-objectcategory.md)                                   | 是      | [**返回頁首**](c-top.md)<br/>                      |
+| [**物件類別**](a-objectclass.md)                                         | 是      | [**返回頁首**](c-top.md)<br/>                      |
 | [**物件-Guid**](a-objectguid.md)                                           | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**物件版本**](a-objectversion.md)                                     | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**OM-物件類別**](a-omobjectclass.md)                                    | 否     | **屬性-架構**                                 |
-| [**OM-語法**](a-omsyntax.md)                                               | 對      | **屬性-架構**                                 |
+| [**OM-語法**](a-omsyntax.md)                                               | 是      | **屬性-架構**                                 |
 | [**其他知名物件**](a-otherwellknownobjects.md)                   | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**部分屬性-刪除-清單**](a-partialattributedeletionlist.md)     | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**部分屬性集**](a-partialattributeset.md)                        | 否     | [**返回頁首**](c-top.md)<br/>                      |
@@ -295,7 +295,7 @@ ms.locfileid: "104106926"
 | [**代表**](a-repsto.md)                                                   | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**修訂**](a-revision.md)                                                | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**架構-旗標-例如**](a-schemaflagsex.md)                                    | 否     | **屬性-架構**                                 |
-| [**架構識別碼-GUID**](a-schemaidguid.md)                                      | 對      | **屬性-架構**                                 |
+| [**架構識別碼-GUID**](a-schemaidguid.md)                                      | 是      | **屬性-架構**                                 |
 | [**SD-Rights-有效**](a-sdrightseffective.md)                            | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**搜尋-旗標**](a-searchflags.md)                                         | 否     | **屬性-架構**                                 |
 | [**伺服器參考-BL**](a-serverreferencebl.md)                            | 否     | [**返回頁首**](c-top.md)<br/>                      |
@@ -336,7 +336,7 @@ ms.locfileid: "104106926"
 | 預設值-隱藏-值        | 1                                      |
 | Rdn-Att-Id                  | [**一般名稱**](a-cn.md)<br/> |
 | 的子類別                 | [**返回頁首**](c-top.md)<br/>        |
-| 可能的 Superiors          | [**Dmd**](c-dmd.md)                   |
+| 可能的 Superiors          | [**DMD**](c-dmd.md)                   |
 | 輔助類別           | \-                                     |
 | NT-Security-描述元      | O:BAG：不正確： S：                           |
 | 預設安全描述項 | D:S:                                   |
@@ -358,13 +358,13 @@ ms.locfileid: "104106926"
 | [**允許-屬性-有效**](a-allowedattributeseffective.md)          | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**允許-子類別**](a-allowedchildclasses.md)                        | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**允許-子類別-有效**](a-allowedchildclasseseffective.md)     | 否     | [**返回頁首**](c-top.md)<br/>                      |
-| [**屬性識別碼**](a-attributeid.md)                                         | 對      | **屬性-架構**                                 |
+| [**屬性識別碼**](a-attributeid.md)                                         | 是      | **屬性-架構**                                 |
 | [**屬性-安全性-GUID**](a-attributesecurityguid.md)                    | 否     | **屬性-架構**                                 |
-| [**屬性語法**](a-attributesyntax.md)                                 | 對      | **屬性-架構**                                 |
+| [**屬性語法**](a-attributesyntax.md)                                 | 是      | **屬性-架構**                                 |
 | [**橋頭-伺服器-清單-BL**](a-bridgeheadserverlistbl.md)                 | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**標準名稱**](a-canonicalname.md)                                     | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**類別-顯示名稱**](a-classdisplayname.md)                              | 否     | **屬性-架構**                                 |
-| [**一般名稱**](a-cn.md)                                                   | 對      | **屬性-架構** [ **Top**](c-top.md)<br/> |
+| [**一般名稱**](a-cn.md)                                                   | 是      | **屬性-架構** [ **Top**](c-top.md)<br/> |
 | [**建立時間戳記**](a-createtimestamp.md)                                | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**描述**](a-description.md)                                          | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**顯示名稱**](a-displayname.md)                                         | 否     | [**返回頁首**](c-top.md)<br/>                      |
@@ -373,16 +373,16 @@ ms.locfileid: "104106926"
 | [**擴充字元-允許**](a-extendedcharsallowed.md)                      | 否     | **屬性-架構**                                 |
 | [**從-進入**](a-fromentry.md)                                             | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**FSMO 角色-擁有者**](a-fsmoroleowner.md)                                    | 否     | [**返回頁首**](c-top.md)<br/>                      |
-| [**實例類型**](a-instancetype.md)                                       | 對      | [**返回頁首**](c-top.md)<br/>                      |
+| [**實例類型**](a-instancetype.md)                                       | 是      | [**返回頁首**](c-top.md)<br/>                      |
 | [**為關鍵-系統物件**](a-iscriticalsystemobject.md)                 | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**已無用**](a-isdefunct.md)                                             | 否     | **屬性-架構**                                 |
 | [**已刪除**](a-isdeleted.md)                                             | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**是-暫時**](a-isephemeral.md)                                         | 否     | **屬性-架構**                                 |
 | [**是-DL 的成員**](a-memberof.md)                                         | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**是-Partial 屬性集的成員**](a-ismemberofpartialattributeset.md) | 否     | **屬性-架構**                                 |
-| [**是-單一值**](a-issinglevalued.md)                                  | 對      | **屬性-架構**                                 |
+| [**是-單一值**](a-issinglevalued.md)                                  | 是      | **屬性-架構**                                 |
 | [**最後一個已知-父系**](a-lastknownparent.md)                                | 否     | [**返回頁首**](c-top.md)<br/>                      |
-| [**LDAP-顯示名稱**](a-ldapdisplayname.md)                                | 對      | **屬性-架構**                                 |
+| [**LDAP-顯示名稱**](a-ldapdisplayname.md)                                | 是      | **屬性-架構**                                 |
 | [**連結識別碼**](a-linkid.md)                                                   | 否     | **屬性-架構**                                 |
 | [**Managed 物件**](a-managedobjects.md)                                   | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**主要**](a-masteredby.md)                                           | 否     | [**返回頁首**](c-top.md)<br/>                      |
@@ -400,14 +400,14 @@ ms.locfileid: "104106926"
 | [**ms-DS-複製-值中繼資料**](a-msds-replvaluemetadata.md)                | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**ms ds-架構-擴充功能**](a-msds-schema-extensions.md)                   | 否     | **屬性-架構**                                 |
 | [**ms-DS-服務-帳戶-BL**](a-msds-serviceaccountbl.md)                   | 否     | [**返回頁首**](c-top.md)<br/>                      |
-| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                      | 對      | [**返回頁首**](c-top.md)<br/>                      |
+| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                      | 是      | [**返回頁首**](c-top.md)<br/>                      |
 | [**Obj-Dist 名稱**](a-distinguishedname.md)                                  | 否     | [**返回頁首**](c-top.md)<br/>                      |
-| [**物件-類別**](a-objectcategory.md)                                   | 對      | [**返回頁首**](c-top.md)<br/>                      |
-| [**物件類別**](a-objectclass.md)                                         | 對      | [**返回頁首**](c-top.md)<br/>                      |
+| [**物件-類別**](a-objectcategory.md)                                   | 是      | [**返回頁首**](c-top.md)<br/>                      |
+| [**物件類別**](a-objectclass.md)                                         | 是      | [**返回頁首**](c-top.md)<br/>                      |
 | [**物件-Guid**](a-objectguid.md)                                           | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**物件版本**](a-objectversion.md)                                     | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**OM-物件類別**](a-omobjectclass.md)                                    | 否     | **屬性-架構**                                 |
-| [**OM-語法**](a-omsyntax.md)                                               | 對      | **屬性-架構**                                 |
+| [**OM-語法**](a-omsyntax.md)                                               | 是      | **屬性-架構**                                 |
 | [**其他知名物件**](a-otherwellknownobjects.md)                   | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**部分屬性-刪除-清單**](a-partialattributedeletionlist.md)     | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**部分屬性集**](a-partialattributeset.md)                        | 否     | [**返回頁首**](c-top.md)<br/>                      |
@@ -424,7 +424,7 @@ ms.locfileid: "104106926"
 | [**代表**](a-repsto.md)                                                   | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**修訂**](a-revision.md)                                                | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**架構-旗標-例如**](a-schemaflagsex.md)                                    | 否     | **屬性-架構**                                 |
-| [**架構識別碼-GUID**](a-schemaidguid.md)                                      | 對      | **屬性-架構**                                 |
+| [**架構識別碼-GUID**](a-schemaidguid.md)                                      | 是      | **屬性-架構**                                 |
 | [**SD-Rights-有效**](a-sdrightseffective.md)                            | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**搜尋-旗標**](a-searchflags.md)                                         | 否     | **屬性-架構**                                 |
 | [**伺服器參考-BL**](a-serverreferencebl.md)                            | 否     | [**返回頁首**](c-top.md)<br/>                      |
@@ -465,7 +465,7 @@ ms.locfileid: "104106926"
 | 預設值-隱藏-值        | 1                                      |
 | Rdn-Att-Id                  | [**一般名稱**](a-cn.md)<br/> |
 | 的子類別                 | [**返回頁首**](c-top.md)<br/>        |
-| 可能的 Superiors          | [**Dmd**](c-dmd.md)                   |
+| 可能的 Superiors          | [**DMD**](c-dmd.md)                   |
 | 輔助類別           | \-                                     |
 | NT-Security-描述元      | O:BAG：不正確： S：                           |
 | 預設安全描述項 | D:S:                                   |
@@ -473,7 +473,7 @@ ms.locfileid: "104106926"
 
 
 
-## <a name="windows-server-2003-r2-attributes"></a>Windows Server 2003 R2 屬性
+## <a name="windows-server-2003-r2-attributes"></a>WindowsServer 2003 R2 屬性
 
 此類別包含 Windows Server 2003 R2 的下列屬性：
 
@@ -487,13 +487,13 @@ ms.locfileid: "104106926"
 | [**允許-屬性-有效**](a-allowedattributeseffective.md)          | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**允許-子類別**](a-allowedchildclasses.md)                        | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**允許-子類別-有效**](a-allowedchildclasseseffective.md)     | 否     | [**返回頁首**](c-top.md)<br/>                      |
-| [**屬性識別碼**](a-attributeid.md)                                         | 對      | **屬性-架構**                                 |
+| [**屬性識別碼**](a-attributeid.md)                                         | 是      | **屬性-架構**                                 |
 | [**屬性-安全性-GUID**](a-attributesecurityguid.md)                    | 否     | **屬性-架構**                                 |
-| [**屬性語法**](a-attributesyntax.md)                                 | 對      | **屬性-架構**                                 |
+| [**屬性語法**](a-attributesyntax.md)                                 | 是      | **屬性-架構**                                 |
 | [**橋頭-伺服器-清單-BL**](a-bridgeheadserverlistbl.md)                 | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**標準名稱**](a-canonicalname.md)                                     | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**類別-顯示名稱**](a-classdisplayname.md)                              | 否     | **屬性-架構**                                 |
-| [**一般名稱**](a-cn.md)                                                   | 對      | **屬性-架構** [ **Top**](c-top.md)<br/> |
+| [**一般名稱**](a-cn.md)                                                   | 是      | **屬性-架構** [ **Top**](c-top.md)<br/> |
 | [**建立時間戳記**](a-createtimestamp.md)                                | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**描述**](a-description.md)                                          | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**顯示名稱**](a-displayname.md)                                         | 否     | [**返回頁首**](c-top.md)<br/>                      |
@@ -507,7 +507,7 @@ ms.locfileid: "104106926"
 | [**Frs-電腦-參考-BL**](a-frscomputerreferencebl.md)                 | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**FRS-成員參考-BL**](a-frsmemberreferencebl.md)                     | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**FSMO 角色-擁有者**](a-fsmoroleowner.md)                                    | 否     | [**返回頁首**](c-top.md)<br/>                      |
-| [**實例類型**](a-instancetype.md)                                       | 對      | [**返回頁首**](c-top.md)<br/>                      |
+| [**實例類型**](a-instancetype.md)                                       | 是      | [**返回頁首**](c-top.md)<br/>                      |
 | [**為關鍵-系統物件**](a-iscriticalsystemobject.md)                 | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**已無用**](a-isdefunct.md)                                             | 否     | **屬性-架構**                                 |
 | [**已刪除**](a-isdeleted.md)                                             | 否     | [**返回頁首**](c-top.md)<br/>                      |
@@ -515,9 +515,9 @@ ms.locfileid: "104106926"
 | [**是-DL 的成員**](a-memberof.md)                                         | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**是-Partial 屬性集的成員**](a-ismemberofpartialattributeset.md) | 否     | **屬性-架構**                                 |
 | [**是-許可權-持有者**](a-isprivilegeholder.md)                            | 否     | [**返回頁首**](c-top.md)<br/>                      |
-| [**是-單一值**](a-issinglevalued.md)                                  | 對      | **屬性-架構**                                 |
+| [**是-單一值**](a-issinglevalued.md)                                  | 是      | **屬性-架構**                                 |
 | [**最後一個已知-父系**](a-lastknownparent.md)                                | 否     | [**返回頁首**](c-top.md)<br/>                      |
-| [**LDAP-顯示名稱**](a-ldapdisplayname.md)                                | 對      | **屬性-架構**                                 |
+| [**LDAP-顯示名稱**](a-ldapdisplayname.md)                                | 是      | **屬性-架構**                                 |
 | [**連結識別碼**](a-linkid.md)                                                   | 否     | **屬性-架構**                                 |
 | [**Managed 物件**](a-managedobjects.md)                                   | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**MAPI 識別碼**](a-mapiid.md)                                                   | 否     | **屬性-架構**                                 |
@@ -549,14 +549,14 @@ ms.locfileid: "104106926"
 | [**msSFU-30-Posix-成員**](a-mssfu30posixmemberof.md)                    | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**netboot-SCP-BL**](a-netbootscpbl.md)                                      | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**非安全性成員-BL**](a-nonsecuritymemberbl.md)                       | 否     | [**返回頁首**](c-top.md)<br/>                      |
-| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                      | 對      | [**返回頁首**](c-top.md)<br/>                      |
+| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                      | 是      | [**返回頁首**](c-top.md)<br/>                      |
 | [**Obj-Dist 名稱**](a-distinguishedname.md)                                  | 否     | [**返回頁首**](c-top.md)<br/>                      |
-| [**物件-類別**](a-objectcategory.md)                                   | 對      | [**返回頁首**](c-top.md)<br/>                      |
-| [**物件類別**](a-objectclass.md)                                         | 對      | [**返回頁首**](c-top.md)<br/>                      |
+| [**物件-類別**](a-objectcategory.md)                                   | 是      | [**返回頁首**](c-top.md)<br/>                      |
+| [**物件類別**](a-objectclass.md)                                         | 是      | [**返回頁首**](c-top.md)<br/>                      |
 | [**物件-Guid**](a-objectguid.md)                                           | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**物件版本**](a-objectversion.md)                                     | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**OM-物件類別**](a-omobjectclass.md)                                    | 否     | **屬性-架構**                                 |
-| [**OM-語法**](a-omsyntax.md)                                               | 對      | **屬性-架構**                                 |
+| [**OM-語法**](a-omsyntax.md)                                               | 是      | **屬性-架構**                                 |
 | [**其他知名物件**](a-otherwellknownobjects.md)                   | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**部分屬性-刪除-清單**](a-partialattributedeletionlist.md)     | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**部分屬性集**](a-partialattributeset.md)                        | 否     | [**返回頁首**](c-top.md)<br/>                      |
@@ -574,7 +574,7 @@ ms.locfileid: "104106926"
 | [**代表**](a-repsto.md)                                                   | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**修訂**](a-revision.md)                                                | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**架構-旗標-例如**](a-schemaflagsex.md)                                    | 否     | **屬性-架構**                                 |
-| [**架構識別碼-GUID**](a-schemaidguid.md)                                      | 對      | **屬性-架構**                                 |
+| [**架構識別碼-GUID**](a-schemaidguid.md)                                      | 是      | **屬性-架構**                                 |
 | [**SD-Rights-有效**](a-sdrightseffective.md)                            | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**搜尋-旗標**](a-searchflags.md)                                         | 否     | **屬性-架構**                                 |
 | [**伺服器參考-BL**](a-serverreferencebl.md)                            | 否     | [**返回頁首**](c-top.md)<br/>                      |
@@ -615,7 +615,7 @@ ms.locfileid: "104106926"
 | 預設值-隱藏-值        | 1                                      |
 | Rdn-Att-Id                  | [**一般名稱**](a-cn.md)<br/> |
 | 的子類別                 | [**返回頁首**](c-top.md)<br/>        |
-| 可能的 Superiors          | [**Dmd**](c-dmd.md)                   |
+| 可能的 Superiors          | [**DMD**](c-dmd.md)                   |
 | 輔助類別           | \-                                     |
 | NT-Security-描述元      | O:BAG：不正確： S：                           |
 | 預設安全描述項 | D:S:                                   |
@@ -623,7 +623,7 @@ ms.locfileid: "104106926"
 
 
 
-## <a name="windows-server-2008-attributes"></a>Windows Server 2008 屬性
+## <a name="windows-server-2008-attributes"></a>Windows伺服器2008屬性
 
 此類別包含 Windows Server 2008 的下列屬性：
 
@@ -637,13 +637,13 @@ ms.locfileid: "104106926"
 | [**允許-屬性-有效**](a-allowedattributeseffective.md)           | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**允許-子類別**](a-allowedchildclasses.md)                         | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**允許-子類別-有效**](a-allowedchildclasseseffective.md)      | 否     | [**返回頁首**](c-top.md)<br/>                      |
-| [**屬性識別碼**](a-attributeid.md)                                          | 對      | **屬性-架構**                                 |
+| [**屬性識別碼**](a-attributeid.md)                                          | 是      | **屬性-架構**                                 |
 | [**屬性-安全性-GUID**](a-attributesecurityguid.md)                     | 否     | **屬性-架構**                                 |
-| [**屬性語法**](a-attributesyntax.md)                                  | 對      | **屬性-架構**                                 |
+| [**屬性語法**](a-attributesyntax.md)                                  | 是      | **屬性-架構**                                 |
 | [**橋頭-伺服器-清單-BL**](a-bridgeheadserverlistbl.md)                  | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**標準名稱**](a-canonicalname.md)                                      | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**類別-顯示名稱**](a-classdisplayname.md)                               | 否     | **屬性-架構**                                 |
-| [**一般名稱**](a-cn.md)                                                    | 對      | **屬性-架構** [ **Top**](c-top.md)<br/> |
+| [**一般名稱**](a-cn.md)                                                    | 是      | **屬性-架構** [ **Top**](c-top.md)<br/> |
 | [**建立時間戳記**](a-createtimestamp.md)                                 | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**描述**](a-description.md)                                           | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**顯示名稱**](a-displayname.md)                                          | 否     | [**返回頁首**](c-top.md)<br/>                      |
@@ -657,7 +657,7 @@ ms.locfileid: "104106926"
 | [**Frs-電腦-參考-BL**](a-frscomputerreferencebl.md)                  | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**FRS-成員參考-BL**](a-frsmemberreferencebl.md)                      | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**FSMO 角色-擁有者**](a-fsmoroleowner.md)                                     | 否     | [**返回頁首**](c-top.md)<br/>                      |
-| [**實例類型**](a-instancetype.md)                                        | 對      | [**返回頁首**](c-top.md)<br/>                      |
+| [**實例類型**](a-instancetype.md)                                        | 是      | [**返回頁首**](c-top.md)<br/>                      |
 | [**為關鍵-系統物件**](a-iscriticalsystemobject.md)                  | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**已無用**](a-isdefunct.md)                                              | 否     | **屬性-架構**                                 |
 | [**已刪除**](a-isdeleted.md)                                              | 否     | [**返回頁首**](c-top.md)<br/>                      |
@@ -665,9 +665,9 @@ ms.locfileid: "104106926"
 | [**是-DL 的成員**](a-memberof.md)                                          | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**是-Partial 屬性集的成員**](a-ismemberofpartialattributeset.md)  | 否     | **屬性-架構**                                 |
 | [**是-許可權-持有者**](a-isprivilegeholder.md)                             | 否     | [**返回頁首**](c-top.md)<br/>                      |
-| [**是-單一值**](a-issinglevalued.md)                                   | 對      | **屬性-架構**                                 |
+| [**是-單一值**](a-issinglevalued.md)                                   | 是      | **屬性-架構**                                 |
 | [**最後一個已知-父系**](a-lastknownparent.md)                                 | 否     | [**返回頁首**](c-top.md)<br/>                      |
-| [**LDAP-顯示名稱**](a-ldapdisplayname.md)                                 | 對      | **屬性-架構**                                 |
+| [**LDAP-顯示名稱**](a-ldapdisplayname.md)                                 | 是      | **屬性-架構**                                 |
 | [**連結識別碼**](a-linkid.md)                                                    | 否     | **屬性-架構**                                 |
 | [**Managed 物件**](a-managedobjects.md)                                    | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**MAPI 識別碼**](a-mapiid.md)                                                    | 否     | **屬性-架構**                                 |
@@ -710,14 +710,14 @@ ms.locfileid: "104106926"
 | [**msSFU-30-Posix-成員**](a-mssfu30posixmemberof.md)                     | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**netboot-SCP-BL**](a-netbootscpbl.md)                                       | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**非安全性成員-BL**](a-nonsecuritymemberbl.md)                        | 否     | [**返回頁首**](c-top.md)<br/>                      |
-| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                       | 對      | [**返回頁首**](c-top.md)<br/>                      |
+| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                       | 是      | [**返回頁首**](c-top.md)<br/>                      |
 | [**Obj-Dist 名稱**](a-distinguishedname.md)                                   | 否     | [**返回頁首**](c-top.md)<br/>                      |
-| [**物件-類別**](a-objectcategory.md)                                    | 對      | [**返回頁首**](c-top.md)<br/>                      |
-| [**物件類別**](a-objectclass.md)                                          | 對      | [**返回頁首**](c-top.md)<br/>                      |
+| [**物件-類別**](a-objectcategory.md)                                    | 是      | [**返回頁首**](c-top.md)<br/>                      |
+| [**物件類別**](a-objectclass.md)                                          | 是      | [**返回頁首**](c-top.md)<br/>                      |
 | [**物件-Guid**](a-objectguid.md)                                            | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**物件版本**](a-objectversion.md)                                      | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**OM-物件類別**](a-omobjectclass.md)                                     | 否     | **屬性-架構**                                 |
-| [**OM-語法**](a-omsyntax.md)                                                | 對      | **屬性-架構**                                 |
+| [**OM-語法**](a-omsyntax.md)                                                | 是      | **屬性-架構**                                 |
 | [**其他知名物件**](a-otherwellknownobjects.md)                    | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**部分屬性-刪除-清單**](a-partialattributedeletionlist.md)      | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**部分屬性集**](a-partialattributeset.md)                         | 否     | [**返回頁首**](c-top.md)<br/>                      |
@@ -735,7 +735,7 @@ ms.locfileid: "104106926"
 | [**代表**](a-repsto.md)                                                    | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**修訂**](a-revision.md)                                                 | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**架構-旗標-例如**](a-schemaflagsex.md)                                     | 否     | **屬性-架構**                                 |
-| [**架構識別碼-GUID**](a-schemaidguid.md)                                       | 對      | **屬性-架構**                                 |
+| [**架構識別碼-GUID**](a-schemaidguid.md)                                       | 是      | **屬性-架構**                                 |
 | [**SD-Rights-有效**](a-sdrightseffective.md)                             | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**搜尋-旗標**](a-searchflags.md)                                          | 否     | **屬性-架構**                                 |
 | [**伺服器參考-BL**](a-serverreferencebl.md)                             | 否     | [**返回頁首**](c-top.md)<br/>                      |
@@ -776,7 +776,7 @@ ms.locfileid: "104106926"
 | 預設值-隱藏-值        | 1                                      |
 | Rdn-Att-Id                  | [**一般名稱**](a-cn.md)<br/> |
 | 的子類別                 | [**返回頁首**](c-top.md)<br/>        |
-| 可能的 Superiors          | [**Dmd**](c-dmd.md)                   |
+| 可能的 Superiors          | [**DMD**](c-dmd.md)                   |
 | 輔助類別           | \-                                     |
 | NT-Security-描述元      | O:BAG：不正確： S：                           |
 | 預設安全描述項 | D:S:                                   |
@@ -784,7 +784,7 @@ ms.locfileid: "104106926"
 
 
 
-## <a name="windows-server-2008-r2-attributes"></a>Windows Server 2008 R2 屬性
+## <a name="windows-server-2008-r2-attributes"></a>WindowsServer 2008 R2 屬性
 
 此類別包含 Windows Server 2008 R2 的下列屬性：
 
@@ -798,13 +798,13 @@ ms.locfileid: "104106926"
 | [**允許-屬性-有效**](a-allowedattributeseffective.md)             | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**允許-子類別**](a-allowedchildclasses.md)                           | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**允許-子類別-有效**](a-allowedchildclasseseffective.md)        | 否     | [**返回頁首**](c-top.md)<br/>                      |
-| [**屬性識別碼**](a-attributeid.md)                                            | 對      | **屬性-架構**                                 |
+| [**屬性識別碼**](a-attributeid.md)                                            | 是      | **屬性-架構**                                 |
 | [**屬性-安全性-GUID**](a-attributesecurityguid.md)                       | 否     | **屬性-架構**                                 |
-| [**屬性語法**](a-attributesyntax.md)                                    | 對      | **屬性-架構**                                 |
+| [**屬性語法**](a-attributesyntax.md)                                    | 是      | **屬性-架構**                                 |
 | [**橋頭-伺服器-清單-BL**](a-bridgeheadserverlistbl.md)                    | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**標準名稱**](a-canonicalname.md)                                        | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**類別-顯示名稱**](a-classdisplayname.md)                                 | 否     | **屬性-架構**                                 |
-| [**一般名稱**](a-cn.md)                                                      | 對      | **屬性-架構** [ **Top**](c-top.md)<br/> |
+| [**一般名稱**](a-cn.md)                                                      | 是      | **屬性-架構** [ **Top**](c-top.md)<br/> |
 | [**建立時間戳記**](a-createtimestamp.md)                                   | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**描述**](a-description.md)                                             | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**顯示名稱**](a-displayname.md)                                            | 否     | [**返回頁首**](c-top.md)<br/>                      |
@@ -818,7 +818,7 @@ ms.locfileid: "104106926"
 | [**Frs-電腦-參考-BL**](a-frscomputerreferencebl.md)                    | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**FRS-成員參考-BL**](a-frsmemberreferencebl.md)                        | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**FSMO 角色-擁有者**](a-fsmoroleowner.md)                                       | 否     | [**返回頁首**](c-top.md)<br/>                      |
-| [**實例類型**](a-instancetype.md)                                          | 對      | [**返回頁首**](c-top.md)<br/>                      |
+| [**實例類型**](a-instancetype.md)                                          | 是      | [**返回頁首**](c-top.md)<br/>                      |
 | [**為關鍵-系統物件**](a-iscriticalsystemobject.md)                    | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**已無用**](a-isdefunct.md)                                                | 否     | **屬性-架構**                                 |
 | [**已刪除**](a-isdeleted.md)                                                | 否     | [**返回頁首**](c-top.md)<br/>                      |
@@ -827,9 +827,9 @@ ms.locfileid: "104106926"
 | [**是-Partial 屬性集的成員**](a-ismemberofpartialattributeset.md)    | 否     | **屬性-架構**                                 |
 | [**是-許可權-持有者**](a-isprivilegeholder.md)                               | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**已回收**](a-isrecycled.md)                                              | 否     | [**返回頁首**](c-top.md)<br/>                      |
-| [**是-單一值**](a-issinglevalued.md)                                     | 對      | **屬性-架構**                                 |
+| [**是-單一值**](a-issinglevalued.md)                                     | 是      | **屬性-架構**                                 |
 | [**最後一個已知-父系**](a-lastknownparent.md)                                   | 否     | [**返回頁首**](c-top.md)<br/>                      |
-| [**LDAP-顯示名稱**](a-ldapdisplayname.md)                                   | 對      | **屬性-架構**                                 |
+| [**LDAP-顯示名稱**](a-ldapdisplayname.md)                                   | 是      | **屬性-架構**                                 |
 | [**連結識別碼**](a-linkid.md)                                                      | 否     | **屬性-架構**                                 |
 | [**Managed 物件**](a-managedobjects.md)                                      | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**MAPI 識別碼**](a-mapiid.md)                                                      | 否     | **屬性-架構**                                 |
@@ -878,14 +878,14 @@ ms.locfileid: "104106926"
 | [**msSFU-30-Posix-成員**](a-mssfu30posixmemberof.md)                       | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**netboot-SCP-BL**](a-netbootscpbl.md)                                         | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**非安全性成員-BL**](a-nonsecuritymemberbl.md)                          | 否     | [**返回頁首**](c-top.md)<br/>                      |
-| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                         | 對      | [**返回頁首**](c-top.md)<br/>                      |
+| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                         | 是      | [**返回頁首**](c-top.md)<br/>                      |
 | [**Obj-Dist 名稱**](a-distinguishedname.md)                                     | 否     | [**返回頁首**](c-top.md)<br/>                      |
-| [**物件-類別**](a-objectcategory.md)                                      | 對      | [**返回頁首**](c-top.md)<br/>                      |
-| [**物件類別**](a-objectclass.md)                                            | 對      | [**返回頁首**](c-top.md)<br/>                      |
+| [**物件-類別**](a-objectcategory.md)                                      | 是      | [**返回頁首**](c-top.md)<br/>                      |
+| [**物件類別**](a-objectclass.md)                                            | 是      | [**返回頁首**](c-top.md)<br/>                      |
 | [**物件-Guid**](a-objectguid.md)                                              | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**物件版本**](a-objectversion.md)                                        | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**OM-物件類別**](a-omobjectclass.md)                                       | 否     | **屬性-架構**                                 |
-| [**OM-語法**](a-omsyntax.md)                                                  | 對      | **屬性-架構**                                 |
+| [**OM-語法**](a-omsyntax.md)                                                  | 是      | **屬性-架構**                                 |
 | [**其他知名物件**](a-otherwellknownobjects.md)                      | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**部分屬性-刪除-清單**](a-partialattributedeletionlist.md)        | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**部分屬性集**](a-partialattributeset.md)                           | 否     | [**返回頁首**](c-top.md)<br/>                      |
@@ -903,7 +903,7 @@ ms.locfileid: "104106926"
 | [**代表**](a-repsto.md)                                                      | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**修訂**](a-revision.md)                                                   | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**架構-旗標-例如**](a-schemaflagsex.md)                                       | 否     | **屬性-架構**                                 |
-| [**架構識別碼-GUID**](a-schemaidguid.md)                                         | 對      | **屬性-架構**                                 |
+| [**架構識別碼-GUID**](a-schemaidguid.md)                                         | 是      | **屬性-架構**                                 |
 | [**SD-Rights-有效**](a-sdrightseffective.md)                               | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**搜尋-旗標**](a-searchflags.md)                                            | 否     | **屬性-架構**                                 |
 | [**伺服器參考-BL**](a-serverreferencebl.md)                               | 否     | [**返回頁首**](c-top.md)<br/>                      |
@@ -944,7 +944,7 @@ ms.locfileid: "104106926"
 | 預設值-隱藏-值        | 1                                      |
 | Rdn-Att-Id                  | [**一般名稱**](a-cn.md)<br/> |
 | 的子類別                 | [**返回頁首**](c-top.md)<br/>        |
-| 可能的 Superiors          | [**Dmd**](c-dmd.md)                   |
+| 可能的 Superiors          | [**DMD**](c-dmd.md)                   |
 | 輔助類別           | \-                                     |
 | NT-Security-描述元      | O:BAG：不正確： S：                           |
 | 預設安全描述項 | D:S:                                   |
@@ -952,9 +952,9 @@ ms.locfileid: "104106926"
 
 
 
-## <a name="windows-server-2012-attributes"></a>Windows Server 2012 屬性
+## <a name="windows-server-2012-attributes"></a>Windows Server 2012屬性
 
-此類別包含 Windows Server 2012 的下列屬性：
+這個類別包含 Windows Server 2012 的下列屬性：
 
 
 
@@ -966,13 +966,13 @@ ms.locfileid: "104106926"
 | [**允許-屬性-有效**](a-allowedattributeseffective.md)                         | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**允許-子類別**](a-allowedchildclasses.md)                                       | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**允許-子類別-有效**](a-allowedchildclasseseffective.md)                    | 否     | [**返回頁首**](c-top.md)<br/>                      |
-| [**屬性識別碼**](a-attributeid.md)                                                        | 對      | **屬性-架構**                                 |
+| [**屬性識別碼**](a-attributeid.md)                                                        | 是      | **屬性-架構**                                 |
 | [**屬性-安全性-GUID**](a-attributesecurityguid.md)                                   | 否     | **屬性-架構**                                 |
-| [**屬性語法**](a-attributesyntax.md)                                                | 對      | **屬性-架構**                                 |
+| [**屬性語法**](a-attributesyntax.md)                                                | 是      | **屬性-架構**                                 |
 | [**橋頭-伺服器-清單-BL**](a-bridgeheadserverlistbl.md)                                | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**標準名稱**](a-canonicalname.md)                                                    | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**類別-顯示名稱**](a-classdisplayname.md)                                             | 否     | **屬性-架構**                                 |
-| [**一般名稱**](a-cn.md)                                                                  | 對      | **屬性-架構** [ **Top**](c-top.md)<br/> |
+| [**一般名稱**](a-cn.md)                                                                  | 是      | **屬性-架構** [ **Top**](c-top.md)<br/> |
 | [**建立時間戳記**](a-createtimestamp.md)                                               | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**描述**](a-description.md)                                                         | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**顯示名稱**](a-displayname.md)                                                        | 否     | [**返回頁首**](c-top.md)<br/>                      |
@@ -986,7 +986,7 @@ ms.locfileid: "104106926"
 | [**Frs-電腦-參考-BL**](a-frscomputerreferencebl.md)                                | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**FRS-成員參考-BL**](a-frsmemberreferencebl.md)                                    | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**FSMO 角色-擁有者**](a-fsmoroleowner.md)                                                   | 否     | [**返回頁首**](c-top.md)<br/>                      |
-| [**實例類型**](a-instancetype.md)                                                      | 對      | [**返回頁首**](c-top.md)<br/>                      |
+| [**實例類型**](a-instancetype.md)                                                      | 是      | [**返回頁首**](c-top.md)<br/>                      |
 | [**為關鍵-系統物件**](a-iscriticalsystemobject.md)                                | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**已無用**](a-isdefunct.md)                                                            | 否     | **屬性-架構**                                 |
 | [**已刪除**](a-isdeleted.md)                                                            | 否     | [**返回頁首**](c-top.md)<br/>                      |
@@ -995,9 +995,9 @@ ms.locfileid: "104106926"
 | [**是-Partial 屬性集的成員**](a-ismemberofpartialattributeset.md)                | 否     | **屬性-架構**                                 |
 | [**是-許可權-持有者**](a-isprivilegeholder.md)                                           | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**已回收**](a-isrecycled.md)                                                          | 否     | [**返回頁首**](c-top.md)<br/>                      |
-| [**是-單一值**](a-issinglevalued.md)                                                 | 對      | **屬性-架構**                                 |
+| [**是-單一值**](a-issinglevalued.md)                                                 | 是      | **屬性-架構**                                 |
 | [**最後一個已知-父系**](a-lastknownparent.md)                                               | 否     | [**返回頁首**](c-top.md)<br/>                      |
-| [**LDAP-顯示名稱**](a-ldapdisplayname.md)                                               | 對      | **屬性-架構**                                 |
+| [**LDAP-顯示名稱**](a-ldapdisplayname.md)                                               | 是      | **屬性-架構**                                 |
 | [**連結識別碼**](a-linkid.md)                                                                  | 否     | **屬性-架構**                                 |
 | [**Managed 物件**](a-managedobjects.md)                                                  | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**MAPI 識別碼**](a-mapiid.md)                                                                  | 否     | **屬性-架構**                                 |
@@ -1045,21 +1045,21 @@ ms.locfileid: "104106926"
 | [**ms ds-架構-擴充功能**](a-msds-schema-extensions.md)                                  | 否     | **屬性-架構**                                 |
 | [**ms-chap---------BL**](a-msds-tasksforazrolebl.md)                                | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**ms DS-工作--Az-Task-BL**](a-msds-tasksforaztaskbl.md)                                | 否     | [**返回頁首**](c-top.md)<br/>                      |
-| [**ms DS-TDO-出口-BL**](a-msds-tdoegressbl.md)                                            | 否     | [**返回頁首**](c-top.md)<br/>                      |
+| [**ms-chap-Egress-BL**](a-msds-tdoegressbl.md)                                            | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**ms-DS-TDO-輸入-BL**](a-msds-tdoingressbl.md)                                          | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**ms-chap-------Reference-BL**](a-msds-valuetypereferencebl.md)                         | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**Ms-exch-assistant-name-擁有者-BL**](a-ownerbl.md)                                                        | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**msSFU-30-Posix-成員**](a-mssfu30posixmemberof.md)                                   | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**netboot-SCP-BL**](a-netbootscpbl.md)                                                     | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**非安全性成員-BL**](a-nonsecuritymemberbl.md)                                      | 否     | [**返回頁首**](c-top.md)<br/>                      |
-| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                                     | 對      | [**返回頁首**](c-top.md)<br/>                      |
+| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                                     | 是      | [**返回頁首**](c-top.md)<br/>                      |
 | [**Obj-Dist 名稱**](a-distinguishedname.md)                                                 | 否     | [**返回頁首**](c-top.md)<br/>                      |
-| [**物件-類別**](a-objectcategory.md)                                                  | 對      | [**返回頁首**](c-top.md)<br/>                      |
-| [**物件類別**](a-objectclass.md)                                                        | 對      | [**返回頁首**](c-top.md)<br/>                      |
+| [**物件-類別**](a-objectcategory.md)                                                  | 是      | [**返回頁首**](c-top.md)<br/>                      |
+| [**物件類別**](a-objectclass.md)                                                        | 是      | [**返回頁首**](c-top.md)<br/>                      |
 | [**物件-Guid**](a-objectguid.md)                                                          | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**物件版本**](a-objectversion.md)                                                    | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**OM-物件類別**](a-omobjectclass.md)                                                   | 否     | **屬性-架構**                                 |
-| [**OM-語法**](a-omsyntax.md)                                                              | 對      | **屬性-架構**                                 |
+| [**OM-語法**](a-omsyntax.md)                                                              | 是      | **屬性-架構**                                 |
 | [**其他知名物件**](a-otherwellknownobjects.md)                                  | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**部分屬性-刪除-清單**](a-partialattributedeletionlist.md)                    | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**部分屬性集**](a-partialattributeset.md)                                       | 否     | [**返回頁首**](c-top.md)<br/>                      |
@@ -1077,7 +1077,7 @@ ms.locfileid: "104106926"
 | [**代表**](a-repsto.md)                                                                  | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**修訂**](a-revision.md)                                                               | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**架構-旗標-例如**](a-schemaflagsex.md)                                                   | 否     | **屬性-架構**                                 |
-| [**架構識別碼-GUID**](a-schemaidguid.md)                                                     | 對      | **屬性-架構**                                 |
+| [**架構識別碼-GUID**](a-schemaidguid.md)                                                     | 是      | **屬性-架構**                                 |
 | [**SD-Rights-有效**](a-sdrightseffective.md)                                           | 否     | [**返回頁首**](c-top.md)<br/>                      |
 | [**搜尋-旗標**](a-searchflags.md)                                                        | 否     | **屬性-架構**                                 |
 | [**伺服器參考-BL**](a-serverreferencebl.md)                                           | 否     | [**返回頁首**](c-top.md)<br/>                      |

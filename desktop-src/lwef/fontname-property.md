@@ -1,19 +1,19 @@
 ---
 title: 'FontName 屬性 (命令物件) '
-description: 瞭解 FontName 命令物件屬性。 Microsoft Agent 已于 Windows 7 淘汰。
+description: 瞭解 FontName 命令物件屬性。 Microsoft 代理程式已于 Windows 7 淘汰。
 ms.assetid: 7de3653e-9b4d-4a31-82d5-243f10e2743b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 739fceae4e73788f408306f6af08713173c99843
-ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
+ms.openlocfilehash: 9d1f8c9c66e7d205e79a3ac9b076fa4e01852df358657761f8792d42b764b270
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "112068254"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119725708"
 ---
 # <a name="fontname-property-commands-object"></a>FontName 屬性 (命令物件) 
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 <dl> <dt>
 
@@ -33,7 +33,7 @@ ms.locfileid: "112068254"
 
 | 部分   | 描述                                      |
 |--------|--------------------------------------------------|
-| *字型* | 對應至字型名稱的字串值。 |
+| *Font* | 對應至字型名稱的字串值。 |
 
 
 

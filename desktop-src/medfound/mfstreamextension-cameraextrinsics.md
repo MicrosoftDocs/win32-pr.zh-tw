@@ -4,12 +4,12 @@ ms.assetid: 2236C135-BA3D-4C1B-8A39-5E23EF67425A
 title: 'MFStreamExtension_CameraExtrinsics 屬性 (Mfapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a551aaaef48100d6104804e54f7e0ddfac3f5cb1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: acf76c829383d229df8039bfff5d75234d31e2625f758d1bca254217b6e138c8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114401"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119713538"
 ---
 # <a name="mfstreamextension_cameraextrinsics-attribute"></a>MFStreamExtension \_ CameraExtrinsics 屬性
 
@@ -33,8 +33,8 @@ ms.locfileid: "104114401"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 10 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 R2 \[ desktop 應用程式\]<br/>                            |
+| 最低支援的用戶端<br/> | Windows 10 \[僅限桌面應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows Server 2012\[僅限 R2 desktop 應用程式\]<br/>                            |
 | 標頭<br/>                   | <dl> <dt>Mfapi。h</dt> </dl> |
 
 

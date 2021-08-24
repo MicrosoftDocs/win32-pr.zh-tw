@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 1b4def55dfaca19608599d9c79e20d3e0690832c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f980640009158c6c4dc684158836d1514ca47755fea700ac7cc619f6e7574409
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104971337"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119789088"
 ---
 # <a name="instructions---vs_1_1"></a>指示-vs \_ 1 \_ 1
 
@@ -31,7 +31,7 @@ ms.locfileid: "104971337"
 
 
 
-| Name                                                                           | 描述                                                                                                     | 指令插槽 | 設定 | 算術 | 新增 |
+| 名稱                                                                           | 描述                                                                                                     | 指令插槽 | 設定 | 算術 | 新增 |
 |--------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|-------------------|-------|------------|-----|
 | [新增-vs](add---vs.md)                                                       | 新增兩個向量                                                                                                 | 1                 |       | x          | x   |
 | [dcl \_ 使用方式輸入 (sm1、sm2、sm3-vs asm) ](dcl-usage-input-register---vs.md) | 宣告輸入頂點暫存器 (查看暫存器 [-vs \_ 1 \_ 1](dx9-graphics-reference-asm-vs-registers-vs-1-1.md))  | 0                 | x     |            | x   |
@@ -65,7 +65,7 @@ ms.locfileid: "104971337"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -74,9 +74,9 @@ ms.locfileid: "104971337"
 [頂點著色器指示](dx9-graphics-reference-asm-vs-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

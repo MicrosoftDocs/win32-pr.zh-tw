@@ -1,10 +1,10 @@
 ---
-title: 行動電話-其他屬性
+title: 電話-Mobile-其他屬性
 description: 替代行動電話號碼的清單。
 ms.assetid: c77e435c-e804-4730-ae8f-0365feeb153a
 ms.tgt_platform: multiple
 keywords:
-- 行動電話-其他屬性 AD 架構
+- 電話-Mobile-其他屬性 AD 架構
 - otherMobile 屬性 AD 架構
 topic_type:
 - apiref
@@ -14,14 +14,14 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4961c44660e99f11ffe3860fd6810175f8602c15
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: af56ea1990e6a25653bfa356356744dec618b5df9411a1b7d1304aa75fe50065
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104467256"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119648138"
 ---
-# <a name="phone-mobile-other-attribute"></a>行動電話-其他屬性
+# <a name="phone-mobile-other-attribute"></a>電話-Mobile-其他屬性
 
 替代行動電話號碼的清單。
 
@@ -29,7 +29,7 @@ ms.locfileid: "104467256"
 
 | 進入 | 值 |
 |-------------------|----------------------------------------------------------------------------------|
-| CN                | 行動電話-其他                                                               |
+| CN                | 電話-Mobile-其他                                                               |
 | Ldap-顯示名稱 | otherMobile                                                                      |
 | 大小              | \-                                                                               |
 | 更新許可權  | 網域系統管理員或帳戶擁有者。                                           |

@@ -25,12 +25,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: dca3da14ac74a8d6fab1ba96db98f9e2eccd74ea
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 74e396da1135c481079e9fc20ce940774ef58dab983d36cabc131aa8bbe13f38
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108112116"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119693647"
 ---
 # <a name="msvm_abstractresourcepoolsettingdata-class"></a>Msvm \_ AbstractResourcePoolSettingData 類別
 
@@ -555,7 +555,7 @@ class Msvm_AbstractResourcePoolSettingData : CIM_SettingData
 
 <span id="Storage_Volume"></span><span id="storage_volume"></span><span id="STORAGE_VOLUME"></span>
 
-**存放磁片區** (32) 
+**儲存體 Volume** (32) 
 
 
 </dt> <dd></dd> <dt>
@@ -589,8 +589,8 @@ class Msvm_AbstractResourcePoolSettingData : CIM_SettingData
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                                              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                                              |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                                                    |
 | 命名空間<br/>                | 根 \\ 虛擬化 \\ V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization。</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

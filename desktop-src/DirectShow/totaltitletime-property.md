@@ -4,17 +4,17 @@ ms.assetid: b05bb76b-d4ba-42e6-92ea-8e48f4c8f409
 title: TotalTitleTime 屬性
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 73a300a2da8de2698a74e0d72362818bd8a2a5ba
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6fd809391394dc661745717ce7d173ad548dfd4d01206c07293024dc8e44a478
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103849672"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119650848"
 ---
 # <a name="totaltitletime-property"></a>TotalTitleTime 屬性
 
 > [!Note]  
-> 此元件可用於 Microsoft Windows 2000、Windows XP 及 Windows Server 2003 作業系統。 它在後續版本中可能會變更或無法使用。
+> 此元件可在 Microsoft Windows 2000、Windows XP 和 Windows Server 2003 作業系統中使用。 它在後續版本中可能會變更或無法使用。
 
  
 

@@ -4,12 +4,12 @@ ms.assetid: ce29bc97-049e-4c82-979f-4c805a318ba0
 title: CNG 密碼編譯演算法提供者
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2bc64926236157e581ce6406d95681bd8d4add14
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 11685441e8dfa4482839b702083ab0797b59cae3360e3e509251b43e9f44126b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106988322"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119670268"
 ---
 # <a name="cng-cryptographic-algorithm-providers"></a>CNG 密碼編譯演算法提供者
 
@@ -18,14 +18,14 @@ ms.locfileid: "106988322"
 -   [對稱演算法](#symmetric-algorithms)
 -   [非對稱演算法](#asymmetric-algorithms)
 -   [雜湊演算法](#hashing-algorithms)
--   [金鑰交換演算法](#key-exchange-algorithms)
+-   [金鑰 Exchange 演算法](#key-exchange-algorithms)
 -   [相關主題](#related-topics)
 
 ## <a name="symmetric-algorithms"></a>對稱演算法
 
 
 
-| Name                                   | 支援的模式                                                                                                                                                                                                 | 金鑰大小（位） (預設/最小/最大)  |
+| 名稱                                   | 支援的模式                                                                                                                                                                                                 | 金鑰大小（位） (預設/最小/最大)  |
 |----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------|
 | 進階加密標準 (AES)     | ECB、CBC、CFB8、CFB128、GCM、CCM、GMAC、CMAC、AES 金鑰包裝、XTS<br/> **Windows 8：** CFB128 和 CMAC 模式的支援開始。<br/> **Windows 10：** 支援 XTS-AES 模式開始。<br/> | 128/192/256                        |
 | 資料加密標準 (DES)          | ECB、CBC、CFB8、CFB64<br/> **Windows 8：** CFB64 模式的支援開始。<br/>                                                                                                                   | 56/56/56                           |
@@ -69,7 +69,7 @@ ms.locfileid: "106988322"
 
  
 
-## <a name="key-exchange-algorithms"></a>金鑰交換演算法
+## <a name="key-exchange-algorithms"></a>金鑰 Exchange 演算法
 
 
 
@@ -88,7 +88,7 @@ ms.locfileid: "106988322"
 </thead>
 <tbody>
 <tr class="odd">
-<td>Diffie-Hellman 金鑰交換演算法</td>
+<td>Diffie-Hellman 金鑰 Exchange 演算法</td>
 
 <td>512至4096，以64位遞增</td>
 </tr>

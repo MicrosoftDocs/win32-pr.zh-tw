@@ -36,12 +36,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 15be9b176680e8abb259d3d011da9d6cec0c2fa8
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: b7533e5d1e842e6794a9f9c386103b781afa0404ee181354c420770358f7e8a2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103688879"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119751218"
 ---
 # <a name="win32_systemdriver-class"></a>Win32 \_ >systemdriver 類別
 
@@ -95,7 +95,7 @@ class Win32_SystemDriver : Win32_BaseService
 
 | 方法                                                                              | 描述                                                                                     |
 |:------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------|
-| [**變更**](change-method-in-class-win32-systemdriver.md)                         | 修改服務的類別方法。<br/>                                                |
+| [**改變**](change-method-in-class-win32-systemdriver.md)                         | 修改服務的類別方法。<br/>                                                |
 | [**ChangeStartMode**](changestartmode-method-in-class-win32-systemdriver.md)       | 修改服務啟動模式的類別方法。<br/>                              |
 | [**建立**](create-method-in-class-win32-systemdriver.md)                         | 建立新服務的類別方法。<br/>                                             |
 | [**刪除**](delete-method-in-class-win32-systemdriver.md)                         | 刪除現有服務的類別方法。<br/>                                       |
@@ -333,7 +333,7 @@ class Win32_SystemDriver : Win32_BaseService
 限定詞： [**MappingStrings**](../wmisdk/standard-qualifiers.md) ( "Win32API \| service 結構 \| [**服務 \_ 狀態**](/windows/win32/api/winsvc/ns-winsvc-service_status) \| DwWin32ExitCode" ) ， [**DisplayName**](../wmisdk/standard-qualifiers.md) ( "結束代碼" ) 
 </dt> </dl>
 
-定義啟動或停止服務時所遇到之任何問題的 Windows 錯誤碼。 這個屬性會設定為 **錯誤 \_ 服務 \_ 特定 \_ 錯誤** (1066) 當此類別所代表之服務的唯一錯誤，以及錯誤的相關資訊可在 **可見於 servicespecificexitcode** 屬性中取得。 服務會將此值設定為在執行時，以及在正常終止時， **不會 \_ 發生錯誤** 。
+Windows 錯誤碼，以定義啟動或停止服務時所遇到的任何問題。 這個屬性會設定為 **錯誤 \_ 服務 \_ 特定 \_ 錯誤** (1066) 當此類別所代表之服務的唯一錯誤，以及錯誤的相關資訊可在 **可見於 servicespecificexitcode** 屬性中取得。 服務會將此值設定為在執行時，以及在正常終止時， **不會 \_ 發生錯誤** 。
 
 這個屬性繼承自 [**Win32 \_ BaseService**](win32-baseservice.md)。
 

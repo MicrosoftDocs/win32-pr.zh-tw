@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: b71ced14a6f92a3056ac4f42e55bc3858c578ff6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 376c2b292b0bdba9a79593c8264ecce17b916a88cfd49407638d637d1fbda6b0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106987925"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119767838"
 ---
 # <a name="csourceremovepin-method"></a>CSource. RemovePin 方法
 
@@ -55,7 +55,7 @@ HRESULT RemovePin(
 
 
 
-| 傳回碼                                                                             | Description                                      |
+| 傳回碼                                                                             | 描述                                      |
 |-----------------------------------------------------------------------------------------|--------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>    | 成功。<br/>                              |
 | <dl> <dt>**S \_ FALSE**</dt> </dl> | 篩選不包含此 pin。<br/> |

@@ -23,12 +23,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 188761bd06a32e0c6f246dfe41f354adf1e06332
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a3e4b62c700e95d3d0fc6b978b8ec1d451fefb5ce38d3371b4e1b1f22f0cc259
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464960"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119769098"
 ---
 # <a name="win32_tssysteminfo-class"></a>Win32 \_ TSSystemInfo 類別
 

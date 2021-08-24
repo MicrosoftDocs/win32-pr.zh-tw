@@ -4,12 +4,12 @@ description: 如果您的著色器不需要緩衝區，則不需要建立和系�
 ms.assetid: 84d24494-f2cb-4ca1-84fd-635e20f2c9ad
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a3aa4c63176d184e1e67349149bd1f4044159e1
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b2bccbdb059e58efbef9e6c80eacbd9af5eb8a24045bdaab20bf540c13a9b719
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104971349"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119752538"
 ---
 # <a name="using-the-input-assembler-stage-without-buffers"></a>使用不含緩衝區的 Input-Assembler 階段
 
@@ -134,9 +134,9 @@ m_pD3D11Device->Draw( 3, 0 );
 [使用 Input-Assembler 階段開始使用](d3d10-graphics-programming-guide-input-assembler-stage-getting-started.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

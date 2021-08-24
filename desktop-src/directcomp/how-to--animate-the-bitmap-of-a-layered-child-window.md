@@ -4,17 +4,17 @@ description: 本主題說明如何建立視覺效果，並為其建立動畫，�
 ms.assetid: 8912CCF9-C343-45CB-AB31-55D26C118AF2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 038ae3d32fd49a8f795a35f35c6c87889e4c9406
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: b882d1be2642f341e74a193605b217a9b7e2d0cc295370c7a5ec8bee4a844f03
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104375360"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119670968"
 ---
 # <a name="how-to-animate-the-bitmap-of-a-layered-child-window"></a>如何建立分層子視窗點陣圖的動畫
 
 > [!NOTE]
-> 針對 Windows 10 上的應用程式，我們建議使用 DirectComposition，而不是使用。 如需詳細資訊，請參閱 [使用視覺分層將您的桌面應用程式現代化](/windows/uwp/composition/visual-layer-in-desktop-apps)。
+> 針對 Windows 10 上的應用程式，我們建議使用 Windows 的撰寫 api，而不是 DirectComposition。 如需詳細資訊，請參閱 [使用視覺分層將您的桌面應用程式現代化](/windows/uwp/composition/visual-layer-in-desktop-apps)。
 
 本主題說明如何建立視覺效果，並為其建立動畫，其使用分層子視窗的點陣圖作為視覺效果的內容。 本主題所述的範例會使用動畫縮放轉換，將子視窗的點陣圖從 thumb 大小「成長」為完整大小。 如需分層視窗的詳細資訊，請參閱 [視窗點陣圖](bitmap-surfaces.md)。
 
@@ -1287,6 +1287,6 @@ HRESULT DemoApp::LoadResourceD2DBitmap(
 [DirectComposition 分層子視窗範例](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/DirectCompositionLayeredChildWindow)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

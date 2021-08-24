@@ -13,12 +13,12 @@ api_type:
 - LibDef
 api_location:
 - Drvref.lib
-ms.openlocfilehash: 4a9068739517cceedee72a675739b2d8b067b2ef
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 36329ecb695c6fcc011f7e1fe4f44a149fbeac48b0125c34330b9bde51342f5c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106996278"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119690838"
 ---
 # <a name="referencetcpdriver-function"></a>ReferenceTcpDriver 函式
 
@@ -54,7 +54,7 @@ NTSTATUS WINAPI ReferenceTcpDriver(
 
 您只能從核心模式呼叫此函式。 呼叫端必須在物件完成時呼叫 **ObDereferenceObject** 函式，以遞減參考計數。
 
-這個函式會在可供下載的 Drvref 中執行。 請參閱 [Windows 網路驅動程式參考 API 程式庫](https://www.microsoft.com/downloads/details.aspx?FamilyID=85037e05-f8f8-46b4-a013-3aa6248396c0)。
+這個函式會在可供下載的 Drvref 中執行。 請參閱[Windows 網路驅動程式參考 API 程式庫](https://www.microsoft.com/downloads/details.aspx?FamilyID=85037e05-f8f8-46b4-a013-3aa6248396c0)。
 
 ## <a name="requirements"></a>規格需求
 

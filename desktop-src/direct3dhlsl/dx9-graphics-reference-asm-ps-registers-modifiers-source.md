@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: a9dd4476dd7a1a885edb2e62a29b5127f5ff0a14
-ms.sourcegitcommit: 7e4322a6ec1f964d5ad26e2e5e06cc8ce840030e
+ms.openlocfilehash: 0626449e0a38cb695f5f3c9402969df3a25c192ad7a16ef3311053c7843e0667
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "113129675"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119673308"
 ---
 # <a name="pixel-shader-source-register-modifiers"></a>圖元著色器來源登錄修飾詞
 

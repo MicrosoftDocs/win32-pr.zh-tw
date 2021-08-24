@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 71f4a0e3df10cff6b2d3b3f4fc9ea2b618f5fc0f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 680384b8b36bdbe1f22a6626e64a3347ddca091f4f88f74daae2c5ec13136e2d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994635"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119647038"
 ---
 # <a name="onkeyup"></a>onkeyup
 

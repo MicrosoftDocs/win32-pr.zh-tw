@@ -4,16 +4,16 @@ description: BalloonShow 事件
 ms.assetid: 8a73e883-c003-480b-8a0a-e699caffe54c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: de67318b02775619332fe60ea47fb27edb893c8b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b10aa8ab2c556fdf603a3972033a7440041fef6a45f828115c649a8a42810eb8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372454"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119726138"
 ---
 # <a name="balloonshow-event"></a>BalloonShow 事件
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 <dl> <dt>
 
@@ -37,7 +37,7 @@ ms.locfileid: "104372454"
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -50,9 +50,9 @@ ms.locfileid: "104372454"
 [**BalloonHide 事件**](balloonhide-event.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

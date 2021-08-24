@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 7a2f0bebcd0e5ea39d2ee981cff051d4f130ee04
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
-ms.translationtype: HT
+ms.openlocfilehash: 47fc789e7b92d95a85a36d04bdb55a3bdf1fbb1937045362b0fa49fc8e5c93fd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104373751"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119788558"
 ---
 # <a name="domain"></a>網域
 
@@ -35,13 +35,13 @@ X 是 **三** 個、 **四** 個或 **等值線**。
 
 
 
-| 頂點 | 船體 | 網域 | 幾何 | 像素 | 計算 |
+| 頂點 | 船體 | 網域 | 幾何形狀 | 像素 | 計算 |
 |--------|------|--------|----------|-------|---------|
 |        | x    | x      |          |       |         |
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -53,9 +53,9 @@ X 是 **三** 個、 **四** 個或 **等值線**。
 [著色器模型5](d3d11-graphics-reference-sm5.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

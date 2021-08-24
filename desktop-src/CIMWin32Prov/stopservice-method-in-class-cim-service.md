@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 14a7d378b514a93906c3be4f711bd6ab5b88bf17
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 3fee6b55eb2333e4fa24c4f7b2a9d6e89ed179a2ef42ecd09efdd2963805dbff
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110733"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119751958"
 ---
 # <a name="stopservice-method-of-the-cim_service-class-sdoiash"></a>CIM_Service 類別的 StopService 方法 (Sdoias) 
 

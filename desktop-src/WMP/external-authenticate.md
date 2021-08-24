@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: aa2bba0afb80c4285ad8fa8d2c20191321315d60
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6b72c4d20cdd8232746175d966856a616bca9629657ca66c35727b8af8e21178
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106977531"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119649548"
 ---
 # <a name="externalauthenticate-method"></a>External. 驗證方法
 
@@ -59,9 +59,9 @@ External.authenticate(
 
 1.  探索頁面上的腳本會呼叫 *External*。**驗證** 方法。
 2.  Windows Media Player 會顯示一個對話方塊，以取得使用者名稱和密碼。
-3.  Windows Media Player 會呼叫 [IWMPContentPartner：：](/previous-versions/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-authenticate)authentication，此動作會起始驗證嘗試，並立即傳回。
+3.  Windows Media Player 會呼叫[IWMPContentPartner：：](/previous-versions/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-authenticate)authentication，此動作會起始驗證嘗試，並立即傳回。
 4.  當驗證嘗試完成時，線上商店的外掛程式會呼叫 [IWMPContentPartnerCallback：： Notify](/previous-versions/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartnercallback-notify)，傳遞 wmpcnAuthResult 和指出嘗試是否成功的布林值。
-5.  如果驗證嘗試成功，Windows Media Player 會呼叫 [IWMPContentPartner：： GetItemInfo](/previous-versions/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-getiteminfo)，傳遞 g \_ szItemInfo \_ AuthenticationSuccessURL，以取得驗證成功網頁的 URL。 在此呼叫中，Windows Media Player 會傳遞探索頁面傳遞給 *外部* 的相同索引。**驗證** 方法。
+5.  如果驗證嘗試成功，Windows Media Player 會呼叫[IWMPContentPartner：： GetItemInfo](/previous-versions/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-getiteminfo)，傳遞 g \_ szItemInfo \_ AuthenticationSuccessURL，以取得驗證成功網頁的 URL。 在此呼叫中，Windows Media Player 會傳遞探索頁面傳遞給 *外部* 的相同索引。**驗證** 方法。
 6.  Windows Media Player 顯示驗證-成功網頁。
 
 ## <a name="requirements"></a>規格需求

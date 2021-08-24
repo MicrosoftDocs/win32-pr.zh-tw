@@ -4,16 +4,16 @@ description: Ctx 標記
 ms.assetid: 96ceaa98-869d-4c51-a419-882cc9d40ae2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f16beae0fd4ccc062969d9aafb4d8747e4c5afe9
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7071994e741cb7dfd1147f163f0d7ef6299ec0dcb9d568ad068251d5a9436809
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021688"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119726097"
 ---
 # <a name="ctx-tag"></a>Ctx 標記
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 <dl> <dt>
 

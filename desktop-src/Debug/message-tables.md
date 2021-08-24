@@ -4,12 +4,12 @@ ms.assetid: db84f190-1d1e-4192-8dba-baaee0a3e3ea
 title: 訊息資料表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fe12b28c9b4f89d9a6d32c398a2e246940bb79a9
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 6141f78342db2554e85053adda7ee68bdb0e855f213f103da1bb7f62eac1d703
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936099"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119691818"
 ---
 # <a name="message-tables"></a>訊息資料表
 

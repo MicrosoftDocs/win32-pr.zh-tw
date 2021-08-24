@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: db30983c83bc7d66e06befd07f4eb1dcdc9b21ea
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 5d0a2271dbd67902a039ddadf585611ed98fdb115f468c3962baa8cb46f48508
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "103679100"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119788968"
 ---
 # <a name="if_comp---ps"></a>如果 \_ 是
 
@@ -29,7 +29,7 @@ ms.locfileid: "103679100"
 
 
 
- 
+ 
 
 其中：
 
@@ -46,7 +46,7 @@ ms.locfileid: "103679100"
 
     
 
-     
+     
 
 -   src0 是來源註冊。 需要複寫 swizzle 才能選取元件。
 -   src1 是來源註冊。 需要複寫 swizzle 才能選取元件。
@@ -61,7 +61,7 @@ ms.locfileid: "103679100"
 
 
 
- 
+ 
 
 此指令是用來根據條件略過程式碼區塊。
 
@@ -106,9 +106,9 @@ endif
 [圖元著色器指示](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

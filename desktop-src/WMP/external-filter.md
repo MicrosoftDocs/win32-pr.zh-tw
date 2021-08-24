@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 18cf7961e91ad1976895e670d850a7514a94cf6a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: afa6c3e3074b9e94be8d5c35316adbf62620b722a0f40808b7b0689940dc56bd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106984377"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119649138"
 ---
 # <a name="externalfilter"></a>外部. 篩選
 

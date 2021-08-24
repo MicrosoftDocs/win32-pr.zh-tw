@@ -4,12 +4,12 @@ ms.assetid: 2BE5D590-5B33-4BE4-B6EE-CD732CCCE160
 title: IAzRole 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b2480d30a1624fcef85f5aa3647cbb92303eff71
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 34b03280466d04c0b628713111342515ee453170c5c5c2457dfc58b740f3bc8a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320080"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119671538"
 ---
 # <a name="iazrole-methods"></a>IAzRole 方法
 

@@ -1,6 +1,6 @@
 ---
 description: 根據預設，當 Windows 以安全模式執行時，不會顯示 Windows Vista 主控台專案。
-title: 以安全模式存取主控台
+title: 以保管庫模式存取主控台
 ms.topic: article
 ms.date: 05/31/2018
 ms.assetid: f37bcb0f-9417-4cc4-a57d-4f67a9ccda19
@@ -9,14 +9,14 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 0f7a401bbc22a7f8de3618f844bfe463fa3baa50
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 777a44c7fe30b0481096a1c5d62c98410277a3bc76169925aff4ae5e59e549d8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972080"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119710788"
 ---
-# <a name="accessing-the-control-panel-in-safe-mode"></a>以安全模式存取主控台
+# <a name="accessing-the-control-panel-in-safe-mode"></a>以保管庫模式存取主控台
 
 根據預設，當 Windows 以安全模式執行時，不會顯示 Windows Vista 主控台專案。 若要允許以安全模式來查看新的主控台專案，可以設定適用于專案類型的登錄值。 這些值會以下列方式解讀：
 
@@ -32,7 +32,7 @@ ms.locfileid: "104972080"
 
  
 
-這個範例會顯示實作為 cpl 或 .dll 檔案的專案所需的專案。 它會指定專案應以具有網路功能的安全模式顯示。
+這個範例會顯示實作為 .cpl 或 .dll 檔案的專案所需的專案。 它會指定專案應以具有網路功能的安全模式顯示。
 
 ```
 HKEY_LOCAL_MACHINE
@@ -46,7 +46,7 @@ HKEY_LOCAL_MACHINE
                         %ProgramFiles%\MyCorp\MyApp\MyCpl.cpl = [REG_DWORD] 2
 ```
 
-這個範例會顯示實作為 .exe 檔的專案所需的專案。 它指定專案應以任何形式的安全模式顯示。
+這個範例會顯示實作為 .exe 檔案的專案所需的專案。 它指定專案應以任何形式的安全模式顯示。
 
 ```
 HKEY_CLASSES_ROOT

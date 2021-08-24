@@ -17,12 +17,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 09/19/2019
-ms.openlocfilehash: bc25bf1055b923a383fc580a622e96d787ed13e6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: cd8adfa3d6fa3c59a05331c82ea12100918a4697d9478097a890eedff039d5e9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106969994"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119768728"
 ---
 # <a name="direct2d-constants"></a>Direct2D 常數
 
@@ -51,7 +51,7 @@ SRGB 或 scRGB 色彩空間用於 SDR 白色或 1.0 f 浮點值的 nits 數目�
 
 | 需求 | 值 |
 |-|-|
-| 最低支援的用戶端 | Windows 7、windows Vista （含 SP2）和平臺更新（適用于 Windows Vista \[ 桌面應用程式 \| UWP 應用程式）\] |
-| 最低支援的伺服器 | Windows server 2008 R2、Windows Server 2008 SP2 和 Windows Server 的平臺更新 2008 \[ 桌面應用程式 \| UWP 應用程式\] |
+| 最低支援的用戶端 | Windows 7、Windows vista （含 SP2），以及適用于 Windows Vista \[ desktop apps \| UWP 應用程式的平臺更新\] |
+| 最低支援的伺服器 | Windowsserver 2008 R2、Windows server 2008 SP2 和 Windows Server 的平臺更新 2008 \[ 桌面應用程式 \| UWP 應用程式\] |
 | 支援的最小電話 | Windows Phone 8.1 \[ Windows Phone silverlight 8.1 和 Windows 執行階段應用程式 \] ，Windows Phone 8.1 \[ Windows Phone silverlight 8.1 和 Windows 執行階段應用程式\] |
 | 標頭 | d2d1effectauthor .h、d2d1 .h、d2d1_1 .h、d2d1effects_2。h |

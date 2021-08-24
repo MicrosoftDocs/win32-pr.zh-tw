@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 32357e662ec9b2edb05d75a2814d5215fc9ec7f1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: cf09cbf8e832446831a5b12ecce8cc00b61bc49b23a8ed1da7f291d6f0c3562c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464957"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119769298"
 ---
 # <a name="setsessiondirectoryproperty-method-of-the-win32_tssessiondirectory-class"></a>Win32 TSSessionDirectory 類別的 SetSessionDirectoryProperty 方法 \_
 

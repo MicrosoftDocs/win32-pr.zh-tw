@@ -4,12 +4,12 @@ ms.assetid: D9A0F5E3-8A1E-4016-BE33-5F4F9AD8ADBD
 title: ISCardISO7816 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 73cdf3af0b74006c4fab2bf6fcbe4835b7ae9c31
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 92c66d2af8375eaf868fd9d568b03dc4e1ca295b549989e7d53ebf43e5c12ef4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106987478"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119672358"
 ---
 # <a name="iscardiso7816-methods"></a>ISCardISO7816 方法
 

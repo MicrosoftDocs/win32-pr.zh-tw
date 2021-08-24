@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: ab72674decf5505a5fe0259eaa9f98731bed2b16
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 572474e52035f38d0a222ad8d090f9502d572d00455da12de9265e1fc89b7ffb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106993279"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119646718"
 ---
 # <a name="rewelement"></a>REWELEMENT
 

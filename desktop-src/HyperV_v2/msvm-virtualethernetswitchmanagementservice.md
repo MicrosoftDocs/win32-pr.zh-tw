@@ -41,12 +41,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 1e6c1d4dee775dc6fabbb5fb3c96c987d1f6bda5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2bd7405559725196569213120f1b3f81d4efc05440990a816ecb565ee616ccf2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106981903"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119650287"
 ---
 # <a name="msvm_virtualethernetswitchmanagementservice-class"></a>Msvm \_ VirtualEthernetSwitchManagementService 類別
 
@@ -287,7 +287,7 @@ class Msvm_VirtualEthernetSwitchManagementService : CIM_VirtualSystemManagementS
 
 | 值                                                                        | 意義            |
 |------------------------------------------------------------------------------|--------------------|
-| <dl> <dt>2</dt> </dl> | 已啟用<br/> |
+| <dl> <dt>2</dt> </dl> | 啟用<br/> |
 
 
 
@@ -681,8 +681,8 @@ class Msvm_VirtualEthernetSwitchManagementService : CIM_VirtualSystemManagementS
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                                              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                                              |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                                                    |
 | 命名空間<br/>                | 根 \\ 虛擬化 \\ V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization。</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

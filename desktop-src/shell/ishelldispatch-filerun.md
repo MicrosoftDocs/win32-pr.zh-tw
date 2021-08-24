@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 56806edf06d334d90ad038886d955c00876f8f0b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bd7d56f0adb119a7afefb871b467f53c50db869160993baa00cc8ecd6cfb9337
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103691224"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119710408"
 ---
 # <a name="ishelldispatchfilerun-method"></a>IShellDispatch. FileRun 方法
 
@@ -63,7 +63,7 @@ IShellDispatch.FileRun()
 
 下列範例示範如何在 JScript、VBScript 和 Visual Basic 中使用 **FileRun** 。
 
-Jscript：
+JScript：
 
 
 ```JScript
@@ -119,10 +119,10 @@ End Sub
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 windows 2000 Professional、Windows XP \[ desktop 應用程式\]<br/>                                         |
+| 最低支援的用戶端<br/> | Windows 2000 Professional，僅 Windows XP \[ desktop 應用程式\]<br/>                                         |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                           |
 | 標頭<br/>                   | <dl> <dt>Shldisp。h</dt> </dl>                           |
-| Idl<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl>                         |
+| IDL<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Shell32.dll (4.71 版或更新版本) </dt> </dl> |
 
 

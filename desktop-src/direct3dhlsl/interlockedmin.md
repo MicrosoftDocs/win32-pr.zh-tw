@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 9c85be82f87ce62d03c824e8cd895166c18c262c
-ms.sourcegitcommit: 12e9b14501d51641b690ee0cf764e2b91eb9a140
+ms.openlocfilehash: c84650ce8f95f9ba0aa6e3d5bf5d54f2915a1a94fdf96d9f89179598004744e2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "104374227"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119672658"
 ---
 # <a name="interlockedmin-function-hlsl-reference"></a>InterlockedMin 函式 (HLSL 參考) 
 
@@ -28,9 +28,9 @@ ms.locfileid: "104374227"
 
 ``` syntax
 void InterlockedMin(
-  in  R dest,
-  in  T value,
-  out T original_value
+  in  R dest,
+  in  T value,
+  out T original_value
 );
 ```
 
@@ -85,19 +85,19 @@ void InterlockedMin(
 
 
 
- 
+ 
 
 下列著色器類型支援此函數：
 
 
 
-| 頂點 | 船體 | 網域 | 幾何 | 像素 | 計算 |
+| 頂點 | 船體 | 網域 | 幾何形狀 | 像素 | 計算 |
 |--------|------|--------|----------|-------|---------|
 | x      |  x   |  x     |  x       | x     | x       |
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>另請參閱
 
@@ -109,9 +109,9 @@ void InterlockedMin(
 [著色器模型5](d3d11-graphics-reference-sm5.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

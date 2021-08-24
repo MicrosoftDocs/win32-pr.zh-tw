@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3d9types.h
-ms.openlocfilehash: b60c283405bead7b2618b91d6de76158841ff27f
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: f59e2e095f7f0f1c6ee73fc940733e932efaef9af7ec05807ff1b38f35fe5189
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104322763"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119751058"
 ---
 # <a name="d3ddisplaymodefilter-structure"></a>D3DDISPLAYMODEFILTER 結構
 

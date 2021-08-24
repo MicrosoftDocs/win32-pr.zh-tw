@@ -11,12 +11,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 685f261da9d56dc29c0632d01cabbf29cd13a00f
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 3bd822dc085243adeb97a4baaedce35b150db311ab6b98c531a3e33731635666
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382742"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119789078"
 ---
 # <a name="sampler-direct3d-9-asm-vs"></a> (Direct3D 9 asm 的取樣器-vs) 
 
@@ -40,7 +40,7 @@ ms.locfileid: "104382742"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -52,6 +52,6 @@ ms.locfileid: "104382742"
 [Vs \_ 3 \_ 0 (DirectX HLSL) 的頂點紋理 ](/windows/desktop/direct3d9/vertex-textures-in-vs-3-0)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

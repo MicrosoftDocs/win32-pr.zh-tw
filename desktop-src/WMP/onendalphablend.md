@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 81780d8a59d386513b97d137d43eb170c93034f1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d77f6a488546760f61fb04d57f01fe5ee3a74a23b8b8d975b791ae22a5e2304a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106992953"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119647208"
 ---
 # <a name="onendalphablend"></a>onendAlphablend
 

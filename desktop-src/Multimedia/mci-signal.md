@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 711238d73ee40f5809f15a2d6df93183fb17bf67
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: fda7585ad63415f888f5971397df2b27c23710864ea21a8ed5e6ebce1a7c66f3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384477"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119689838"
 ---
 # <a name="mci_signal-command"></a>MCI \_ 信號命令
 
@@ -100,14 +100,14 @@ MCI \_ 通知、mci \_ 等候或 mci \_ 測試。 如需這些旗標的詳細資
 <span id="MCI_DGV_SIGNAL_POSITION"></span><span id="mci_dgv_signal_position"></span>MCI \_ DGV \_ 信號 \_ 位置
 </dt> <dd>
 
-裝置會傳送位置值與 Windows 訊息，而不是使用者指定的值。
+裝置會傳送位置值與 Windows 的訊息，而不是使用者指定的值。
 
 </dd> <dt>
 
 <span id="MCI_DGV_SIGNAL_USERVAL"></span><span id="mci_dgv_signal_userval"></span>MCI \_ DGV \_ 信號 \_ USERVAL
 </dt> <dd>
 
-資料值會包含在 *lpSignal* 所識別之結構的 **dwUserParm** 成員中。 與此要求相關聯的資料值會與 Windows 訊息一起回報。
+資料值會包含在 *lpSignal* 所識別之結構的 **dwUserParm** 成員中。 與此要求相關聯的資料值會向 Windows 訊息回報。
 
 </dd> </dl>
 
@@ -119,7 +119,7 @@ MCI \_ 通知、mci \_ 等候或 mci \_ 測試。 如需這些旗標的詳細資
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                                |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                      |
-| 標頭<br/>                   | <dl> <dt>Mmsystem (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Mmsystem (包含 Windows .h) </dt> </dl> |
 
 
 
@@ -127,7 +127,7 @@ MCI \_ 通知、mci \_ 等候或 mci \_ 測試。 如需這些旗標的詳細資
 
 <dl> <dt>
 
-[Mci](mci.md)
+[MCI](mci.md)
 </dt> <dt>
 
 [MCI 命令](mci-commands.md)

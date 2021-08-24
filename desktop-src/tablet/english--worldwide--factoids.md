@@ -4,12 +4,12 @@ ms.assetid: d6acf41a-e94e-4e8b-b2ae-0b927632e04d
 title: 英文 (全球) Factoids
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a2054dcb6ea43af3decc1f69fc17a910fa3dc79c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d32aa340645a581cc551d21d07af66276faba4e2ec4aab0e9b117c1551933d41
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104468700"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119714128"
 ---
 # <a name="english-worldwide-factoids"></a>英文 (全球) Factoids
 

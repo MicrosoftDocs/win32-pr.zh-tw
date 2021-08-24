@@ -4,12 +4,12 @@ ms.assetid: C970E958-3866-491A-9806-DB300834360E
 title: 'MFSampleExtension_CameraExtrinsics 屬性 (Mfapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3340f1ab84061fa00e12fa65960f1b2902690816
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 109dd0d171468d3a0a3c2c4f06ba1a7edc18707aa1e17afe0d1be65509f4266d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106976790"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119722658"
 ---
 # <a name="mfsampleextension_cameraextrinsics-attribute"></a>MFSampleExtension \_ CameraExtrinsics 屬性
 
@@ -41,8 +41,8 @@ ms.locfileid: "106976790"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 10 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 R2 \[ desktop 應用程式\]<br/>                            |
+| 最低支援的用戶端<br/> | Windows 10 \[僅限桌面應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows Server 2012\[僅限 R2 desktop 應用程式\]<br/>                            |
 | 標頭<br/>                   | <dl> <dt>Mfapi。h</dt> </dl> |
 
 

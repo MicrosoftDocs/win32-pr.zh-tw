@@ -4,12 +4,12 @@ ms.assetid: 5df10efd-7055-43fa-881f-67eb5fd6adcf
 title: 'InkPicture. TabletAdded 事件 (Msinkaut .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 81c5121b668f27034a04230311ee88ebb7564802
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 071fea9895c8c89653012cfa6df5ff28c6637de55d896a705a580f8648890812
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108113656"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119712259"
 ---
 # <a name="inkpicturetabletadded-event"></a>InkPicture. TabletAdded 事件
 
@@ -51,7 +51,7 @@ void TabletAdded(
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 Windows XP Tablet PC Edition \[ 桌面應用程式\]<br/>                                                       |
+| 最低支援的用戶端<br/> | Windows僅限 XP Tablet PC Edition \[ 桌面應用程式\]<br/>                                                       |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                                           |
 | 標頭<br/>                   | <dl> <dt>Msinkaut (也需要 Msinkaut \_ c) </dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>InkObj.dll</dt> </dl>                               |

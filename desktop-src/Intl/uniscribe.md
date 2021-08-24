@@ -4,12 +4,12 @@ ms.assetid: de7a882f-ed74-4be2-b66d-59c2e50dc07a
 title: Uniscribe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e0143a7e0abf222757a7cf2f71f52300c917984c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f1468cb77aa27b1599e45a2b50a95f68a58f25955ffef9ab5d79810c27bbdbb2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104321095"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119787918"
 ---
 # <a name="uniscribe"></a>Uniscribe
 

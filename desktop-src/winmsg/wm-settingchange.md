@@ -4,12 +4,12 @@ ms.assetid: 77174e06-a25b-440a-9e9c-4fd5979c433c
 title: 'WM_SETTINGCHANGE 訊息 (Winuser .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f1c3d1360b5e4cc5de2dbd23b09b8f2ad034948f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 302f156da905263ed7f3d1d331d4dbb25af5b3e81d9df6136281c7dbc7b3914c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194955"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119710038"
 ---
 # <a name="wm_settingchange-message"></a>WM \_ SETTINGCHANGE 訊息
 
@@ -77,7 +77,7 @@ ms.locfileid: "104194955"
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                               |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 

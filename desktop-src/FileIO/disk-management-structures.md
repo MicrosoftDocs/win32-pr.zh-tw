@@ -4,12 +4,12 @@ ms.assetid: dd55c570-68b5-4dc5-9fd0-a6e3277c318b
 title: 磁片管理結構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b6521e116bf3002bc21d97136af2eaf3397ee82f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3533e60e9199d3d3ed3d13aa79a689f9e90866c408d57220c5d53aa7edb5c86c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975861"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119755098"
 ---
 # <a name="disk-management-structures"></a>磁片管理結構
 
@@ -19,7 +19,7 @@ ms.locfileid: "106975861"
 
 
 
-| 結構                                                                                                 | Description                                                                                                                                                                                                                                                                          |
+| 結構                                                                                                 | 描述                                                                                                                                                                                                                                                                          |
 |-----------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**建立 \_ 磁片**](/windows/desktop/api/WinIoCtl/ns-winioctl-create_disk)<br/>                                                        | 包含 [**IOCTL \_ 磁片 \_ 建立 \_ 磁片**](/windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_disk_create_disk) 控制項程式碼用來初始化 GUID 磁碟分割表格 (GPT) 、主開機記錄 (MBR) 或原始磁片的資訊。<br/>                                                                             |
 | [**建立 \_ 磁片 \_ GPT**](/windows/desktop/api/WinIoCtl/ns-winioctl-create_disk_gpt)<br/>                                               | 包含 [**IOCTL \_ 磁片 \_ \_**](/windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_disk_create_disk) 用來初始化 GUID 磁碟分割表格 (GPT) 磁片的資訊。<br/>                                                                                                                 |

@@ -4,12 +4,12 @@ ms.assetid: 8c5d1050-a696-4a5d-be68-806420d0cd78
 title: 新增來源
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ee583cd8971c183f2e03b92f68e2d6ba555c41db
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 6ab2440ff50bbb4a3a610f9341405538a88dc6bf16ce2153a327f3b4578f3aec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106979709"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119690528"
 ---
 # <a name="adding-a-source"></a>新增來源
 
@@ -19,7 +19,7 @@ ms.locfileid: "106979709"
 
 -   相對於時間軸的開始和停止時間。 呼叫 [**IAMTimelineObj：： SetStartStop**](iamtimelineobj-setstartstop.md) 方法。
 -   要做為來源使用的媒體檔案。 使用代表檔案名的寬字元字串來呼叫 [**IAMTimelineSrc：： SetMediaName**](iamtimelinesrc-setmedianame.md) 方法。
--   媒體開始和停止時間，相對於原始檔案。 呼叫 [**IAMTimelineSrc：： SetMediaTimes**](iamtimelinesrc-setmediatimes.md) 方法。 如需媒體時間的詳細資訊，請參閱 [DirectShow 編輯服務中的時間](time-in-directshow-editing-services.md)。
+-   媒體開始和停止時間，相對於原始檔案。 呼叫 [**IAMTimelineSrc：： SetMediaTimes**](iamtimelinesrc-setmediatimes.md) 方法。 如需媒體時間的詳細資訊，請參閱[DirectShow 編輯服務中的時間](time-in-directshow-editing-services.md)。
 
 在下列範例中，來源剪輯會在檔案中開始四秒。 媒體持續時間為10秒，時間軸持續時間長度的兩倍，表示來源會以兩倍的一般速度播放。 常數單位定義為 10000000 (10 ^ 7) ，等於1秒。
 

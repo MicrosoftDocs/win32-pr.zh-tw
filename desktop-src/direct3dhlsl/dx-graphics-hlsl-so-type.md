@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 98063ddb45633dda6c897abf0f82f29a394c3f95
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 79e0247b424ebb6f72622565845c17b622ab715cd8860a83ce24ae58ac7420c6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104375620"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119789478"
 ---
 # <a name="stream-output-object"></a>Stream-Output 物件
 
@@ -22,25 +22,25 @@ ms.locfileid: "104375620"
 
 
 
-| inout *StreamOutputObject* < *資料類型* >  *名稱;* |
+| inout *StreamOutputObject* < *資料類型* >  *名稱;* |
 |------------------------------------------------------|
 
 
 
- 
+ 
 
 ## <a name="parameters"></a>參數
 
 <dl> <dt>
 
-<span id="StreamOutputObject___________________________DataType_________________________________________Name"></span><span id="streamoutputobject___________________________datatype_________________________________________name"></span><span id="STREAMOUTPUTOBJECT___________________________DATATYPE_________________________________________NAME"></span>*StreamOutputObject*  < *DataType*  >   *名稱*
+<span id="StreamOutputObject___________________________DataType_________________________________________Name"></span><span id="streamoutputobject___________________________datatype_________________________________________name"></span><span id="STREAMOUTPUTOBJECT___________________________DATATYPE_________________________________________NAME"></span>*StreamOutputObject*  < *DataType*  >   *名稱*
 </dt> <dd>
 
 資料流程輸出物件 (因此) 宣告。
 
 
 
-| Stream-Output 物件類型 | Description                       |
+| Stream-Output 物件類型 | 描述                       |
 |----------------------------|-----------------------------------|
 | *PointStream*              | 一系列的點基本    |
 | *LineStream*               | 行基本類型的序列     |
@@ -48,7 +48,7 @@ ms.locfileid: "104375620"
 
 
 
- 
+ 
 
 *DataType* -Output 資料類型;可以是任何 [HLSL 資料類型](dx-graphics-hlsl-data-types.md)。 必須以角括弧括住。
 
@@ -102,7 +102,7 @@ Object.Method
 
 
 
- 
+ 
 
 ## <a name="minimum-shader-model"></a>最小著色器模型
 
@@ -116,7 +116,7 @@ Object.Method
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -125,6 +125,6 @@ Object.Method
 [著色器模型4](dx-graphics-hlsl-sm4.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
