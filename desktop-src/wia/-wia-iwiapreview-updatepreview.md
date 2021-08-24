@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Wia.h
-ms.openlocfilehash: 4a5d469179f341f3bad5d2b9b5ed25a5715be694
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b5f48462d926d96acebf4a74f0a843d82f9cd97190585b954565d5da649ff9f8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113301"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119549688"
 ---
 # <a name="iwiapreviewupdatepreview-method"></a>IWiaPreview：： UpdatePreview 方法
 
@@ -63,9 +63,9 @@ HRESULT UpdatePreview(
 *pChildWiaItem* \[在\]
 </dt> <dd>
 
-類型： **[**IWiaItem2**](-wia-iwiaitem2.md) \** _
+類型： **[ **IWiaItem2**](-wia-iwiaitem2.md)\***
 
-指定 [_ *IWiaItem2* *](-wia-iwiaitem2.md)專案的指標，這是 [**IWiaPreview：： GetNewPreview**](-wia-iwiapreview-getnewpreview.md)方法的 *pWiaItem2* 參數所指定之 **IWiaItem2** 專案的子系。 或者，如果應用程式需要整個平板的預覽，請指定 **IWiaPreview：： GetNewPreview** 方法的 *pWiaItem2* 參數指標。 當 *pChildWiaItem* 是 **IWiaPreview：： GetNewPreview** 之 *pWiaItem2* 參數的子系時，這個子專案通常是由分割篩選所建立。
+指定 [**IWiaItem2**](-wia-iwiaitem2.md)專案的指標，這是 [**IWiaPreview：： GetNewPreview**](-wia-iwiapreview-getnewpreview.md)方法的 *PWiaItem2* 參數所指定之 **IWiaItem2** 專案的子系。 或者，如果應用程式需要整個平板的預覽，請指定 **IWiaPreview：： GetNewPreview** 方法的 *pWiaItem2* 參數指標。 當 *pChildWiaItem* 是 **IWiaPreview：： GetNewPreview** 之 *pWiaItem2* 參數的子系時，這個子專案通常是由分割篩選所建立。
 
 </dd> </dl>
 
@@ -84,7 +84,7 @@ WIA 2.0 Preview 元件會儲存從驅動程式下載的未篩選映射。 將 WI
 若要讓應用程式將整個快取的影像傳遞至影像處理篩選 (接著將它傳遞給應用程式) ，它必須在呼叫 **IWiaPreview：： UpdatePreview** 時，將 *LOptions* 設定為 **WiaPreviewReturnOriginalImage** 。 將 *lOptions* 設定為 **WiaPreviewReturnOriginalImage** 時，應用程式必須確定傳遞至 **IWiaPreview：： UpdatePreview** 的專案的範圍設定 ([**wia \_ ip \_ 範圍**](-wia-wiaitempropscanneritem.md)和 **wia \_ ip \_ YEXTENT**) 符合完整快取的影像。 在此情況下，影像處理篩選不需要採取任何不同的動作;它只會根據 *pChildWiaItem* 的屬性來篩選影像 (一般來說，在此案例中， *pChildWiaItem* 是傳遞給 [**IWiaPreview：： GetNewPreview**](-wia-iwiapreview-getnewpreview.md)) 的相同專案。 系統會忽略不同的子領域，並使用相同的設定篩選整個映射。 有幾個原因會導致應用程式這麼做。
 
 1.  應用程式可能不支援針對分割篩選所偵測 (到的每個區域，個別變更設定 (例如 [**wia \_ ip \_ 亮度**](-wia-wiaitempropscanneritem.md) 和 **wia \_ ip \_ 對比**) ，也可能甚至不會想要使用分割篩選) 。 應用程式更容易以 **WiaPreviewReturnOriginalImage** 呼叫 **IWiaPreview：： UpdatePreview** ，讓它一律會從 WIA 2.0 Preview 元件收到完整的影像。
-2.  WIA 2.0 Preview 元件不支援預覽影像的影像格式，在這種情況下，它無法執行動作來剪下所需的區域。 WIA 2.0 Preview 元件的影像格式支援僅限於有 Windows GDI + 1.1 編碼器和解碼器的格式。 這些格式為點陣圖 (BMP)  (包含 BITMAPFILEHEADER) 的點陣圖、圖形交換格式 (GIF) 、JPEG、便攜網狀圖形 (PNG) ，以及標記的影像檔案格式 (TIFF) 。
+2.  WIA 2.0 Preview 元件不支援預覽影像的影像格式，在這種情況下，它無法執行動作來剪下所需的區域。 WIA 2.0 Preview 元件的影像格式支援僅限於有 Windows GDI+ 1.1 編碼器和解碼器的格式。 這些格式為點陣圖 (BMP)  (包含 BITMAPFILEHEADER) 的點陣圖、圖形交換格式 (GIF) 、JPEG、便攜網狀圖形 (PNG) ，以及標記的影像檔案格式 (TIFF) 。
 
 請注意，如果應用程式將 **WiaPreviewReturnOriginalImage** 傳遞至 **IWiaPreview：： UPDATEPREVIEW**，則 WIA 2.0 Preview 元件可以支援任何影像或像素格式。
 
@@ -118,10 +118,10 @@ UpdateRegion(
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                     |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                               |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                     |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                               |
 | 標頭<br/>                   | <dl> <dt>Wia</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>Wia .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>Wia .idl</dt> </dl> |
 
 
 

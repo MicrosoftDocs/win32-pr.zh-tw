@@ -4,16 +4,16 @@ description: TTSModeID 屬性
 ms.assetid: 9205c37e-e006-466a-9b33-b98408c01ed7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c6852f203f5df716df6cfc5962f9cfa911d8fc1a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d1a720b06362b77418434669146a0d89dea8afd37d7a44c4079b2e12c24fcd2e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104183968"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119607958"
 ---
 # <a name="ttsmodeid-property"></a>TTSModeID 屬性
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 <dl> <dt>
 
@@ -27,7 +27,7 @@ ms.locfileid: "104183968"
 <span id="Syntax"></span><span id="syntax"></span><span id="SYNTAX"></span>**語法**
 </dt> <dd>
 
-*代理程式 ***。 ( "*** CharacterID * * *" 的字元 ) 。TTSModeID* *  \[  =  *ModeID*\]
+*代理程式 ***。 ( "**_CharacterID_*_" ) 的字元。TTSModeID_ *  \[  =  *ModeID*\]
 
 
 
@@ -37,7 +37,7 @@ ms.locfileid: "104183968"
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -58,26 +58,26 @@ Microsoft 代理程式的語音引擎需求是以 Microsoft 語音 API 為基礎
 > [!Note]  
 > 如果您的系統上未安裝相容的音效支援，這個屬性也會傳回空字串。
 
- 
+ 
 
 > [!Note]  
 > 如果未安裝 Speech.dll，且您指定的引擎不符合字元的編譯 TTS 模式設定，則設定 **TTSModeID** 可能會失敗。
 
- 
+ 
 
 > [!Note]  
 > 查詢此屬性通常不會傳回錯誤。 但是，如果語音引擎的載入異常時間很長，您可能會收到錯誤，指出查詢已超時。
 
- 
+ 
 
 ## <a name="see-also"></a>另請參閱
 
 [**LanguageID 屬性**](languageid-property.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

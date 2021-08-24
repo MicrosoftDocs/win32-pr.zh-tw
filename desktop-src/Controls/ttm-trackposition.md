@@ -3,7 +3,7 @@ title: 'TTM_TRACKPOSITION 訊息 (Commctrl .h) '
 description: 設定追蹤工具提示的位置。
 ms.assetid: 9eb7c86c-78e6-442a-ad77-5fb919cab591
 keywords:
-- TTM_TRACKPOSITION message Windows 控制項
+- TTM_TRACKPOSITION 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dd6eab8184049d8bf876a7e782b9adc2091d5fac
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 547af5014bbf897d320894c4924911b830997ec3d8532e2ce2c7b63f361a11da
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104025247"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119542821"
 ---
 # <a name="ttm_trackposition-message"></a>TTM \_ TRACKPOSITION 訊息
 
@@ -57,8 +57,8 @@ ms.locfileid: "104025247"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

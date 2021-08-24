@@ -4,12 +4,12 @@ ms.assetid: dedeee7b-578b-4b19-8b99-5cd23779d661
 title: 'LINEADDRFEATURE_ 的常數 (Tapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 825902c2943806d1d495e14a0f0a5042f2949796
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4bb545bdf0195d9fd8ed35833150b9cfd1f6b10bfbd3d1ead7e8ebff65c93132
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106982616"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119682217"
 ---
 # <a name="lineaddrfeature_-constants"></a>LINEADDRFEATURE \_ 常數
 

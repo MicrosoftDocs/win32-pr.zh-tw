@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 6118cfb171966798ade924ccf55f0a42af443f6f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 587893371aabb6d47e4560c0a8d113ae8e337d5f395b00edbcf32268635d1238
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103695024"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119603583"
 ---
 # <a name="systemparametershungiothreshold-property"></a>SystemParameters. HungIOThreshold 屬性
 

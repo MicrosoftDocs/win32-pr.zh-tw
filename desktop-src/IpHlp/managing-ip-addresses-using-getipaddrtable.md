@@ -4,12 +4,12 @@ ms.assetid: f041cb37-926d-4eeb-835c-f8b9d5ee4d2e
 title: 使用 GetIpAddrTable 管理 IP 位址
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3a3d94eb4de22a428e20a4cb0fdc8970d7f65fed
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 090bdb1e73d3f770eafb3a5e70893253918eb68573ebd05aa6ec40a609a7ba4e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103849169"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119146681"
 ---
 # <a name="managing-ip-addresses-using-getipaddrtable"></a>使用 GetIpAddrTable 管理 IP 位址
 

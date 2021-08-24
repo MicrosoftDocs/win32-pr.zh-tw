@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c3e409309e2448338bb04f6a6b56fc88898676b8
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 301c6740584d66ba646515116e860bc726e43498b1378f566e113a1f332530d9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104187354"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119582768"
 ---
 # <a name="ms-kds-secretagreement-param-attribute"></a>Kds 根金鑰-SecretAgreement-Param 屬性
 
@@ -53,7 +53,7 @@ ms.locfileid: "104187354"
 | 連結識別碼                | \-                                                                                                                                                  |
 | MAPI-Id                | \-                                                                                                                                                  |
 | System-Only            | 否                                                                                                                                               |
-| 是-單一值       | 對                                                                                                                                                |
+| 是-單一值       | 是                                                                                                                                                |
 | 已編制索引             | 否                                                                                                                                               |
 | 在通用類別目錄中      | 否                                                                                                                                               |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                                                                        |

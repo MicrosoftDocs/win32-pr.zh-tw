@@ -4,12 +4,12 @@ ms.assetid: c70bf596-b2a4-46ec-9b1a-c9d948768b51
 title: 轉寄
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4154e2bb6f8c688feffe2e33d3c5988b0b7da27b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ddddd21a945c3ca63a5c9040b8eabe0d1056b74b2f819f3fb62dbd8b760aaca3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848041"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119660848"
 ---
 # <a name="forward"></a>轉寄
 

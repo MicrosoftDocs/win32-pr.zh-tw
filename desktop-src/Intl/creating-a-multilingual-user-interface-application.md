@@ -4,12 +4,12 @@ ms.assetid: 6d71aa90-8444-4f30-a2f8-f1a2aab015b0
 title: 將多語系消費者介面支援新增至應用程式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 192d9053513a7fe915990c80deb32ffdb9114910
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0f5ca1ddba2574610cde1f375f7fab2b07461008665f2092c9c8e88ae9b51f96
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103851828"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119147691"
 ---
 # <a name="adding-multilingual-user-interface-support-to-an-application"></a>將多語系消費者介面支援新增至應用程式
 
@@ -19,7 +19,7 @@ ms.locfileid: "103851828"
     -   [Hello MUI 背後的構想](#the-idea-behind-hello-mui)
 -   [設定 Hello MUI 方案](#setting-up-the-hello-mui-solution)
     -   [平臺需求](#platform-requirements)
-    -   [先決條件](#prerequisites)
+    -   [必要條件](#prerequisites)
 -   [步驟0：建立硬式編碼的 Hello MUI](#step-0-creating-the-hard-coded-hello-mui)
 -   [步驟1：執行基本資源模組](#step-1-implementing-the-basic-resource-module)
 -   [步驟2：建立基本資源模組](#step-2-building-the-basic-resource-module)
@@ -36,12 +36,12 @@ ms.locfileid: "103851828"
 
 ## <a name="overview"></a>概觀
 
-從 Windows Vista 開始，Windows 作業系統本身的建立是多語系平臺，可讓您建立使用 Windows MUI 資源模型的多語系應用程式，並提供額外的支援。
+從 Windows Vista 開始，Windows 作業系統本身完全是以多語系平臺的方式建立，而其他支援則可讓您建立使用 Windows MUI 資源模型的多語系應用程式。
 
 本教學課程說明這項新的多語系應用程式支援，包括下列層面：
 
 -   使用改良的 MUI 平臺支援，輕鬆地啟用多語系應用程式。
--   擴充多語系應用程式，在 Windows Vista 之前的 Windows 版本上執行。
+-   擴充多語系應用程式，以便在 Windows Vista 之前的 Windows 版本上執行。
 -   請考慮開發專用的多語系應用程式（例如主控台應用程式）所需的其他考慮。
 
 這些連結可協助您快速複習國際化與 MUI 的概念：
@@ -65,7 +65,7 @@ ms.locfileid: "103851828"
 
 ### <a name="platform-requirements"></a>平台需求
 
-您必須使用適用于 Windows 7 的 Windows 軟體開發套件 (SDK) 和 Visual Studio 2008，在本教學課程中編譯器代碼範例。 Windows 7 SDK 會安裝在 Windows XP、Windows Vista 和 Windows 7 上，而範例解決方案可以建立在這些作業系統版本上。
+您必須在本教學課程中使用 Windows 7 和 Visual Studio 2008 的 Windows 軟體開發套件 (SDK) 來編譯器代碼範例。 Windows 7 SDK 會安裝在 Windows XP、Windows Vista 和 Windows 7 上，而範例解決方案可以建立在這些作業系統版本的任何一個上。
 
 本教學課程中的所有程式碼範例都是設計來在 x86 和 x64 版本的 Windows XP、Windows Vista 和 Windows 7 上執行。 在適當的情況下，將不會在 Windows XP 上運作的特定部分會被呼叫。
 
@@ -73,11 +73,11 @@ ms.locfileid: "103851828"
 
 1.  安裝 Visual Studio 2008。
 
-    如需詳細資訊，請參閱 [Visual Studio 開發人員中心](https://msdn.microsoft.com/vstudio/default.aspx)。
+    如需詳細資訊，請參閱[Visual Studio 開發人員中心](https://msdn.microsoft.com/vstudio/default.aspx)。
 
-2.  安裝適用于 Windows 7 的 Windows SDK。
+2.  安裝 Windows 7 的 Windows SDK。
 
-    您可以從 [Windows 開發人員中心](https://msdn.microsoft.com/windowsserver/bb980924.aspx)的 [Windows SDK] 頁面進行安裝。 SDK 包含從 Windows XP 到最新版本的作業系統版本開發應用程式的公用程式。
+    您可以從[Windows 開發人員中心](https://msdn.microsoft.com/windowsserver/bb980924.aspx)的 [Windows SDK] 頁面進行安裝。 SDK 包含的公用程式可針對從 Windows XP 到最新版本啟動的作業系統版本開發應用程式。
 
     > [!Note]  
     > 如果您未將套件安裝到預設位置，或者您不是在系統磁片磁碟機（通常是 C 磁片磁碟機）上安裝，請記下安裝路徑。
@@ -88,23 +88,23 @@ ms.locfileid: "103851828"
 
     1.  開啟 Visual Studio 的命令視窗。
     2.  輸入 **集路徑**。
-    3.  確認 path 變數包含 Windows 7 SDK 的 bin 資料夾路徑： .。。Microsoft Sdk \\ Windows \\ 7.0 版 \\
+    3.  確認 path 變數包含 Windows 7 SDK 的 bin 資料夾路徑： .。。Microsoft sdk \\ Windows \\ 7.0 版 \\
 
 4.  安裝 Microsoft NLS 下層 Api 附加元件套件。
     > [!Note]  
-    > 在本教學課程的內容中，只有當您要自訂應用程式，才能在 windows Vista 之前的 Windows 版本上執行時，才需要此套件。 請參閱 [步驟5：自訂 HELLO MUI](#step-5-customizing-hello-mui)。
+    > 在本教學課程的內容中，只有當您要自訂應用程式，以便在 Windows Vista 之前的 Windows 版本上執行時，才需要此套件。 請參閱 [步驟5：自訂 HELLO MUI](#step-5-customizing-hello-mui)。
 
      
 
     1.  從其 [下載網站](https://www.microsoft.com/downloads/details.aspx?FamilyID=eb72cda0-834e-4c35-9419-ff14bc349c9d&amp;DisplayLang=en)下載並安裝套件。
     2.  如同 Windows SDK，如果您未將套件安裝到預設位置，或者您不是安裝在系統磁片磁碟機（通常是 C 磁片磁碟機），請記下安裝路徑。
-    3.  如果您的開發平臺是 Windows XP 或 Windows Server 2003，請確認已正確安裝及註冊 Nlsdl.dll。
+    3.  如果您的開發平臺 Windows XP 或 Windows Server 2003，請確認已正確安裝並註冊 Nlsdl.dll。
 
         1.  流覽至安裝路徑位置下的「可轉散發套件」資料夾。
-        2.  執行適當的可轉散發套件 \* Nlsdl。exe，例如 nlsdl.x86.exe。 此步驟會安裝並註冊 Nlsdl.dll。
+        2.  執行適當的可轉散發套件 Nlsdl。 \*.exe，例如 nlsdl.x86.exe。 此步驟會安裝並註冊 Nlsdl.dll。
 
     > [!Note]  
-    > 如果您開發的應用程式使用 MUI，而且必須在 windows Vista 之前的 Windows 版本上執行，則 Nlsdl.dll 必須存在於目的地 Windows 平臺上。 在大部分的情況下，這表示應用程式必須執行可轉散發 Nlsdl 安裝程式 (，而不只是複製 Nlsdl.dll 本身) 。
+    > 如果您開發的應用程式使用 MUI，而且必須在 Windows Vista 之前的 Windows 版本上執行，Nlsdl.dll 必須存在於目的地 Windows 平臺上。 在大部分的情況下，這表示應用程式必須執行可轉散發 Nlsdl 安裝程式 (，而不只是複製 Nlsdl.dll 本身) 。
 
      
 
@@ -116,12 +116,12 @@ ms.locfileid: "103851828"
 
 1.  在 Visual Studio 2008 中，建立新專案。 使用下列設定和值：
 
-    1.  專案類型：在 Visual C++ 選取 [Win32]，然後在 [Visual Studio 安裝的範本] 底下選取 [Win32 專案]。
+    1.  Project 類型：在 Visual C++ 選取 [win32] 下，然後選取 [Visual Studio 安裝的範本] 底下的 [win32 Project]。
     2.  名稱： GuiStep \_ 0。
     3.  位置： *ProjectRootDirectory* (稍後的步驟會參考此目錄) 。
     4.  解決方案名稱： HelloMUI。
     5.  選取 [為方案建立目錄]。
-    6.  在 Win32 應用程式精靈中，選取預設的應用程式類型： Windows 應用程式。
+    6.  在 [Win32 應用程式] 中，選取預設的應用程式類型： [Windows 應用程式]。
 
 2.  設定專案執行緒模型：
 
@@ -169,8 +169,8 @@ Microsoft Win32 有很長的功能，可讓應用程式開發人員將其 UI 資
 
 1.  將新專案新增至 HelloMUI 方案：
 
-    1.  在 [檔案] 功能表中，選取 [加入]，然後選取 [新增專案]。
-    2.  專案類型： Win32 專案。
+    1.  在 [檔案] 功能表中，選取 [新增]，然後選取 [新增 Project]。
+    2.  Project 類型： Win32 Project。
     3.  名稱： HelloModule \_ en \_ us。
     4.  位置： *ProjectRootDirectory* \\ HelloMUI。
     5.  在 [Win32 應用程式] 中，選取 [應用程式類型： DLL]。
@@ -295,7 +295,7 @@ Microsoft Win32 有很長的功能，可讓應用程式開發人員將其 UI 資
 
 使用先前的資源模型，建立七個 HelloModule 專案中的任一個，會產生七個不同的 Dll。 每個 DLL 都會包含一個資源區段，並將單一字串當地語系化成適當的語言。 雖然適用于歷史的 Win32 資源模型，但這項設計不會利用 MUI。
 
-在 Windows Vista SDK 和更新版本中，MUI 提供將可執行檔分割為原始程式碼和可當地語系化內容模組的功能。 使用步驟5稍後所涵蓋的其他自訂，可以讓應用程式在 Windows Vista 之前的版本上執行多語言支援。
+在 Windows Vista SDK 和更新版本中，MUI 提供將可執行檔分割為原始程式碼和可當地語系化內容模組的功能。 使用步驟5稍後所涵蓋的其他自訂，可以啟用應用程式，以在 Windows Vista 之前的版本上執行多語言支援。
 
 從 Windows Vista 開始，可從可執行程式碼分割資源的主要機制如下：
 
@@ -443,16 +443,16 @@ muirct.exe -c HelloModule.dll -e fr-FR\HelloModule.dll.mui
 
 根據上述的初始硬式編碼 GuiStep \_0.exe 範例，您可以選擇納入 Win32 資源模型，將應用程式的範圍延伸至多個語言使用者。 此步驟中所提供的新執行時間程式碼包括模組載入 ([**LoadLibraryEx**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibraryexa)) 和字串抓取 ([**loadstring 時**](/windows/win32/api/winuser/nf-winuser-loadstringa)) 邏輯。
 
-1.  將新專案加入至 HelloMUI 方案 (使用功能表選取檔案、加入，以及使用下列設定和值的新專案) ：
+1.  將新專案加入至 HelloMUI 方案 (使用功能表選取檔案、新增，以及使用下列設定和值的新 Project) ：
 
-    1.  專案類型： Win32 專案。
+    1.  Project 類型： Win32 Project。
     2.  名稱： GuiStep \_ 1。
     3.  位置：接受預設值。
-    4.  在 Win32 應用程式精靈中，選取預設的應用程式類型： Windows 應用程式。
+    4.  在 [Win32 應用程式] 中，選取預設的應用程式類型： [Windows 應用程式]。
 
 2.  將這個專案設定為從 Visual Studio 中執行，並設定其執行緒模型：
 
-    1.  在方案總管中，以滑鼠右鍵按一下專案 GuiStep \_ 1，然後選取 [設定為啟始專案]。
+    1.  在方案總管中，以滑鼠右鍵按一下專案 GuiStep \_ 1，然後選取 [設定為啟動 Project。
     2.  再以滑鼠右鍵按一下它，然後選取 [屬性]。
     3.  在專案的 [屬性頁] 對話方塊中：
 
@@ -526,7 +526,7 @@ muirct.exe -c HelloModule.dll -e fr-FR\HelloModule.dll.mui
 
 ## <a name="step-4-globalizing-hello-mui"></a>步驟4：全球化「Hello MUI」
 
-雖然先前的範例能夠以不同的語言顯示其輸出，但在許多方面都很短。 最明顯的是，應用程式只在與 Windows 作業系統本身相較之下，只有一小部分的語言才能使用。 例如，如果上一個 \_ 步驟中的 GuiStep 1 應用程式是安裝在日文版的 Windows 上，則可能會發生資源位置失敗。
+雖然先前的範例能夠以不同的語言顯示其輸出，但在許多方面都很短。 最明顯的是，與 Windows 作業系統本身相較之下，應用程式僅適用于一小部分的語言。 例如，如果上 \_ 一個步驟中的 GuiStep 1 應用程式是安裝在 Windows 的日文組建上，則可能會發生資源位置失敗。
 
 若要解決這種情況，您有兩個主要選項：
 
@@ -537,18 +537,18 @@ muirct.exe -c HelloModule.dll -e fr-FR\HelloModule.dll.mui
 
 另一個可讓您根據此使用者定義階層進行可設定的語言喜好設定和載入資源的選項，可以大幅提升客戶滿意度。 可惜的是，它也會使應用程式內所需的功能變得更複雜。
 
-本教學課程的這個步驟使用簡化的文字檔機制來啟用自訂使用者語言設定。 應用程式會在執行時間剖析文字檔，並且使用剖析和驗證的語言清單來建立自訂的回溯清單。 建立自訂的回溯清單之後，Windows Api 會根據此清單中所述的語言優先順序來載入資源。 程式碼的其餘部分類似于上一個步驟中找到的程式碼。
+本教學課程的這個步驟使用簡化的文字檔機制來啟用自訂使用者語言設定。 應用程式會在執行時間剖析文字檔，並且使用剖析和驗證的語言清單來建立自訂的回溯清單。 建立自訂的回溯清單之後，Windows api 會根據這份清單中所設定的語言優先順序來載入資源。 程式碼的其餘部分類似于上一個步驟中找到的程式碼。
 
-1.  將新專案加入至 HelloMUI 方案 (使用功能表選取檔案、加入，以及使用下列設定和值的新專案) ：
+1.  將新專案加入至 HelloMUI 方案 (使用功能表選取檔案、新增，以及使用下列設定和值的新 Project) ：
 
-    1.  專案類型： Win32 專案。
+    1.  Project 類型： Win32 Project。
     2.  名稱： GuiStep \_ 2。
     3.  位置：接受預設值。
-    4.  在 Win32 應用程式精靈中，選取預設的應用程式類型： Windows 應用程式。
+    4.  在 [Win32 應用程式] 中，選取預設的應用程式類型： [Windows 應用程式]。
 
 2.  將這個專案設定為從 Visual Studio 中執行，並設定其執行緒模型：
 
-    1.  在方案總管中，以滑鼠右鍵按一下專案 GuiStep \_ 2，然後選取 [設定為啟始專案]。
+    1.  在方案總管中，以滑鼠右鍵按一下專案 GuiStep \_ 2，然後選取 [設定為啟動 Project。
     2.  再以滑鼠右鍵按一下它，然後選取 [屬性]。
     3.  在專案的 [屬性頁] 對話方塊中：
 
@@ -741,35 +741,35 @@ muirct.exe -c HelloModule.dll -e fr-FR\HelloModule.dll.mui
 
 ## <a name="step-5-customizing-hello-mui"></a>步驟5：自訂 "Hello MUI"
 
-在本教學課程中，到目前為止提到的一些執行時間功能，僅適用于 Windows Vista 和更新版本。 您可以讓應用程式在舊版 Windows 作業系統版本（例如 Windows XP）上運作，以重複使用投資于當地語系化和分割資源的工作。 此程式牽涉到調整上述兩個主要區域中的範例：
+本教學課程中到目前為止所提及的一些執行時間功能，僅適用于 Windows Vista 和更新版本。 您可能想要藉由讓應用程式在舊版 Windows 作業系統版本（例如 Windows XP）上運作，來重複使用投資于當地語系化和分割資源的工作。 此程式牽涉到調整上述兩個主要區域中的範例：
 
--   Windows Vista 之前的資源載入函式 (例如 [**loadstring 時**](/windows/win32/api/winuser/nf-winuser-loadstringa)、 [**LoadIcon**](/windows/win32/api/winuser/nf-winuser-loadicona)、 [**LoadBitmap**](/windows/win32/api/winuser/nf-winuser-loadbitmapa)、 [**FormatMessage**](/windows/win32/api/winbase/nf-winbase-formatmessage)和其他) 為非 MUI 感知的功能。 分割資源 (LN 和 mui 檔中隨附的應用程式) 必須使用下列兩個函式的其中一個來載入資源模組：
+-   預先 Windows Vista 資源載入函式 (例如 [**loadstring 時**](/windows/win32/api/winuser/nf-winuser-loadstringa)、 [**LoadIcon**](/windows/win32/api/winuser/nf-winuser-loadicona)、 [**LoadBitmap**](/windows/win32/api/winuser/nf-winuser-loadbitmapa)、 [**FormatMessage**](/windows/win32/api/winbase/nf-winbase-formatmessage)和其他) 是非 MUI 感知的功能。 分割資源 (LN 和 mui 檔中隨附的應用程式) 必須使用下列兩個函式的其中一個來載入資源模組：
 
     -   如果應用程式只在 Windows Vista 和更新版本上執行，則應該使用 [**LoadLibraryEx**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibraryexa)載入資源模組。
-    -   如果應用程式是在 Windows Vista 之前的版本，以及 Windows Vista 或更新版本上執行，則必須使用 [**LoadMUILibrary**](/windows/desktop/api/Muiload/nf-muiload-loadmuilibrarya)，這是 WINDOWS 7 SDK 中提供的特定舊版功能。
+    -   如果應用程式是在 Windows Vista 之前的版本上執行，以及 Windows Vista 或更新版本上執行，則必須使用 [**LoadMUILibrary**](/windows/desktop/api/Muiload/nf-muiload-loadmuilibrarya)，這是 Windows 7 SDK 中提供的特定舊版功能。
 
--   在 windows vista 之前版本的 Windows 作業系統中，提供的語言管理和語言回溯順序支援與 Windows Vista 和更新版本中的功能有很大的差異。 基於這個理由，允許使用者設定之語言回復的應用程式必須調整其語言管理作法：
+-   Windows vista Windows 作業系統版本中提供的語言管理和語言回溯順序支援，與 Windows Vista 和更新版本中的差異有很大的差異。 基於這個理由，允許使用者設定之語言回復的應用程式必須調整其語言管理作法：
 
-    -   如果應用程式只在 Windows Vista 和更新版本上執行，使用 [**SetThreadPreferredUILanguages**](/windows/desktop/api/Winnls/nf-winnls-setthreadpreferreduilanguages) 設定語言清單就已足夠。
+    -   如果應用程式只在 Windows Vista 和更新版本上執行，則使用 [**SetThreadPreferredUILanguages**](/windows/desktop/api/Winnls/nf-winnls-setthreadpreferreduilanguages)設定語言清單就已足夠。
     -   如果應用程式要在所有 Windows 版本上執行，則必須將程式碼結構化，以在舊版平臺上執行，以逐一查看使用者設定的語言清單，並探查所需的資源模組。 這可以在此步驟稍後提供的第1c 節和第2節中看到。
 
 建立可在任何版本的 Windows 上使用當地語系化資源模組的專案：
 
-1.  將新專案加入至 HelloMUI 方案 (使用功能表選取檔案、加入，以及使用下列設定和值的新專案) ：
+1.  將新專案加入至 HelloMUI 方案 (使用功能表選取檔案、新增，以及使用下列設定和值的新 Project) ：
 
-    1.  專案類型： Win32 專案。
+    1.  Project 類型： Win32 Project。
     2.  名稱： GuiStep \_ 3。
     3.  位置：接受預設值。
-    4.  在 Win32 應用程式精靈中，選取預設的應用程式類型： Windows 應用程式。
+    4.  在 [Win32 應用程式] 中，選取預設的應用程式類型： [Windows 應用程式]。
 
 2.  將這個專案設定為從 Visual Studio 中執行，並設定其執行緒模型。 此外，請將它設定為新增必要的標頭和程式庫。
 
     > [!Note]  
-    > 本教學課程中使用的路徑假設 Windows 7 SDK 和 Microsoft NLS 下層 Api 封裝已安裝在其預設目錄中。 如果不是這種情況，請適當地修改路徑。
+    > 本教學課程中使用的路徑假設 Windows 7 SDK 和 Microsoft NLS 下層 api 封裝已安裝在其預設目錄中。 如果不是這種情況，請適當地修改路徑。
 
      
 
-    1.  在方案總管中，以滑鼠右鍵按一下專案 GuiStep \_ 3，然後選取 [設定為啟始專案]。
+    1.  在方案總管中，以滑鼠右鍵按一下專案 GuiStep \_ 3，然後選取 [設定為啟動 Project。
     2.  再以滑鼠右鍵按一下它，然後選取 [屬性]。
     3.  在專案的 [屬性頁] 對話方塊中：
 
@@ -991,7 +991,7 @@ muirct.exe -c HelloModule.dll -e fr-FR\HelloModule.dll.mui
 5.  建置並執行專案。
 
 > [!Note]  
-> 如果應用程式應該在 windows Vista 之前的 Windows 版本上執行，請務必閱讀 [MICROSOFT NLS 下層 api](https://www.microsoft.com/downloads/details.aspx?FamilyID=eb72cda0-834e-4c35-9419-ff14bc349c9d&amp;DisplayLang=en) 套件隨附的檔，以瞭解如何轉散發 Nlsdl.dll。
+> 如果應用程式應該在 Windows Vista 之前的 Windows 版本上執行，請務必閱讀[Microsoft NLS 下層 api](https://www.microsoft.com/downloads/details.aspx?FamilyID=eb72cda0-834e-4c35-9419-ff14bc349c9d&amp;DisplayLang=en)套件隨附的檔，以瞭解如何轉散發 Nlsdl.dll。
 
  
 
@@ -999,7 +999,7 @@ muirct.exe -c HelloModule.dll -e fr-FR\HelloModule.dll.mui
 
 ### <a name="support-for-console-applications"></a>主控台應用程式的支援
 
-本教學課程中所涵蓋的技巧也可以用於主控台應用程式。 但是，與大部分的標準 GUI 控制項不同的是，Windows 命令視窗無法顯示所有語言的字元。 基於這個理由，多語系主控台應用程式需要特別注意。
+本教學課程中所涵蓋的技巧也可以用於主控台應用程式。 但是，不同于大部分的標準 GUI 控制項，Windows 命令視窗無法顯示所有語言的字元。 基於這個理由，多語系主控台應用程式需要特別注意。
 
 使用特定篩選旗標呼叫 Api [**SetThreadUILanguage**](/windows/desktop/api/Winnls/nf-winnls-setthreaduilanguage) 或 [**SetThreadPreferredUILanguages**](/windows/desktop/api/Winnls/nf-winnls-setthreadpreferreduilanguages) ，會導致資源載入函式移除在命令視窗中通常不會顯示的特定語言的語言資源探查。 設定這些旗標之後，語言設定演算法只允許在 [命令] 視窗中正確顯示的語言為 [回復清單]。
 
@@ -1027,9 +1027,9 @@ muirct.exe -c HelloModule.dll -e fr-FR\HelloModule.dll.mui
 
 當支援特定複雜字集的應用程式在 Windows Vista 之前的 Windows 版本上執行時，該腳本中的文字可能無法在 GUI 元件中正確顯示。 例如，在本教學課程中的舊版專案中，如果處理複雜字集和缺少相關字型的問題，則不會在訊息方塊中顯示 hi 和 ta 腳本。 一般來說，這個本質的問題會以 GUI 元件的方塊呈現。
 
-如需如何啟用複雜字集處理的詳細資訊，請參閱 [Windows 中的腳本和字型支援](https://msdn.microsoft.com/goglobal/bb688099.aspx)。
+如需如何啟用複雜字集處理的詳細資訊，請參閱[Windows 中的腳本和字型支援](https://msdn.microsoft.com/goglobal/bb688099.aspx)。
 
-## <a name="summary"></a>總結
+## <a name="summary"></a>摘要
 
 本教學課程全球化單一語言應用程式，並示範下列最佳做法。
 

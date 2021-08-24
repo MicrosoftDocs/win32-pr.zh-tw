@@ -6,12 +6,12 @@ keywords:
 - 工作工作排程器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: efbb4ef41915ec70c98b59c9a7ba74c00f283ce6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 43f6122bcf32e0c3e242b6dce119432a9014718d4b65d19c613ce27794355491
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106976324"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119517101"
 ---
 # <a name="tasks"></a>工作
 
@@ -22,7 +22,7 @@ ms.locfileid: "106976324"
 > [!Note]  
 > 如果本機系統帳戶拒絕存取工作檔案或工作資料夾，工作排程器服務可能會產生非預期的結果。
 
- 
+ 
 
 ## <a name="components-of-a-task"></a>工作的元件
 
@@ -51,7 +51,7 @@ ms.locfileid: "106976324"
     > [!Note]  
     > 根據預設，工作會在開始執行時停止72小時。 您可以藉由變更 [**ExecutionTimeLimit**](/windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_executiontimelimit) 設定來變更。
 
-     
+     
 
 -   註冊資訊：這是在註冊工作時所收集的系統管理資訊。 例如，此資訊描述工作的作者、註冊工作的日期、工作的 XML 描述，以及其他資訊。
 
@@ -63,7 +63,7 @@ ms.locfileid: "106976324"
 
 工作排程器2.0 提供兩組 Api：工作排程器2.0 的一組腳本物件和介面。 如需詳細資訊，請參閱 [工作排程器參考](task-scheduler-reference.md)。
 
-[](/windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_compatibility) \_ \_ 如果工作必須從 Windows XP、Windows Server 2003 或 windows 2000 電腦存取或修改，則透過 [相容性] 屬性所設定的工作相容性只應設定為 [工作相容性 V1]。 否則，建議您使用工作排程器2.0 相容性，因為它有更多功能。
+[](/windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_compatibility) \_ \_ 如果工作必須從 Windows XP、Windows Server 2003 或 Windows 2000 電腦存取或修改，則透過 [相容性] 屬性設定的工作相容性只應設定為 [工作相容性 V1]。 否則，建議您使用工作排程器2.0 相容性，因為它有更多功能。
 
 從工作排程器2.0 開始，腳本) 的 [**ITaskService**](/windows/desktop/api/taskschd/nn-taskschd-itaskservice) 介面 ([**TaskService**](taskservice.md) ，是用來在指定的資料夾中建立工作的起點。 腳本) 的 [**ITaskDefinition**](/windows/desktop/api/taskschd/nn-taskschd-itaskdefinition) 介面 ([**TaskDefinition**](taskdefinition.md) 用來保存工作的所有元件，例如設定、動作和觸發程式。 [**ITaskTrigger**](/windows/desktop/api/Mstask/nn-mstask-itasktrigger)、 [**IAction**](/windows/desktop/api/taskschd/nn-taskschd-iaction)和 [**ITaskSettings**](/windows/desktop/api/taskschd/nn-taskschd-itasksettings) api 提供的屬性，可用來定義工作的其他元件。 工作排程器1.0 提供僅為了回溯相容性所支援的 [**ITask**](/windows/desktop/api/Mstask/nn-mstask-itask) 介面。
 
@@ -73,7 +73,7 @@ ms.locfileid: "106976324"
 
 ### <a name="task-scheduler-10-tasks"></a>工作排程器1.0 工作
 
-工作排程器1.0 工作是工作排程器可執行檔任何應用程式或檔案類型。 這些可能包括工作執行所在作業系統所支援的下列任何 () ： Win32 應用程式、Win16 應用程式、OS/2 應用程式、MS-DOS 應用程式、批次檔 (\* .bat) 、命令檔 (\* .cmd) 或任何正確註冊的檔案類型。
+工作排程器1.0 工作是工作排程器可執行檔任何應用程式或檔案類型。 這些可能包括工作執行所在作業系統所支援的下列任何 () ： Win32 應用程式、Win16 應用程式、OS/2 應用程式、MS-DOS 應用程式、批次檔 (\*.bat) 、命令檔 (\* .cmd) ，或任何正確註冊的檔案類型。
 
 描述工作的資料會保存在儲存在 [排程工作] 資料夾中的工作檔案。 如需詳細資訊，請參閱排程的工作 [*資料夾*](s.md)。 這些工作檔的名稱包括工作的名稱，後面接著一個. 作業副檔名。
 
@@ -81,13 +81,13 @@ ms.locfileid: "106976324"
 
 如需列舉工作排程器1.0 工作的詳細資訊，請參閱列舉工作（ [task](enumerating-tasks.md)）。
 
-若為 Windows Server 2003、Windows XP 或 Windows 2000 電腦，可在 Windows Vista 電腦上建立、監視或控制工作，則應該在 Windows Vista 電腦上完成下列操作，而且呼叫 [**ITaskScheduler：： SetTargetComputer**](/windows/desktop/api/Mstask/nf-mstask-itaskscheduler-settargetcomputer) 方法的使用者必須是遠端 Windows vista 電腦上的 Administrators 群組成員。
+若為 Windows Server 2003、Windows XP 或 Windows 2000 電腦，以在 Windows vista 電腦上建立、監視或控制工作，則應該在 Windows vista 電腦上完成下列操作，而且呼叫 [**ITaskScheduler：： SetTargetComputer**](/windows/desktop/api/Mstask/nf-mstask-itaskscheduler-settargetcomputer)方法的使用者必須是遠端 Windows vista 電腦上的 Administrators 群組成員。
 
 **若要在 Windows 防火牆中啟用「共用檔案和印表機」例外狀況**
 
 1.  按一下 [開始]，然後按一下 [控制台]。
-2.  在 **主控台** 中，按一下 [ **傳統視圖** ]，然後按兩下 [ **Windows 防火牆** ] 圖示。
-3.  在 [ **Windows 防火牆** ] 視窗中，按一下 [ **例外** 狀況] 索引標籤，然後選取 [檔案 **和印表機共用例外** ] 核取方塊。
+2.  在 **主控台** 中，按一下 [**傳統視圖**]，然後按兩下 [ **Windows 防火牆**] 圖示。
+3.  在 [ **Windows 防火牆**] 視窗中，按一下 [**例外** 狀況] 索引標籤，然後選取 [檔案 **和印表機共用例外**] 核取方塊。
 
 **啟用「遠端登入」服務**
 
@@ -118,9 +118,9 @@ ms.locfileid: "106976324"
 [**TaskService**](taskservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

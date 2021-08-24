@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2586ff8876ee10368d49b816b38f5c9c8caf7c7b
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
-ms.translationtype: HT
+ms.openlocfilehash: 15e2d31194364c865d8f6ae77a838e8f64f2c153b4185a8f3d26e32737835dba
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104322595"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119726908"
 ---
 # <a name="d3dx_r16g16_uint_to_uint2-function"></a>D3DX \_ R16G16 \_ UINT \_ to \_ UINT2 function
 

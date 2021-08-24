@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 5f18c9fddab58f33ffc724a3e8df7bd65583cb88
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9d54e7c33d0b7ab2e5be3c4de6f3f648398a7e65670c0379f5621ae9e8a8bd46
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103686073"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119513934"
 ---
 # <a name="namedvalues-complex-type"></a>namedValues 複雜類型
 
@@ -40,7 +40,7 @@ ms.locfileid: "103686073"
 
 
 
-| 元素                                                        | 類型                                                | Description                                                                         |
+| 元素                                                        | 類型                                                | 描述                                                                         |
 |----------------------------------------------------------------|-----------------------------------------------------|-------------------------------------------------------------------------------------|
 | [**值**](taskschedulerschema-value-namedvalues-element.md) | [**namedValue**](schema-namedvalue-complextype.md) | 指定與名稱/值配對中的名稱相關聯的值。<br/> |
 
@@ -52,8 +52,8 @@ ms.locfileid: "103686073"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

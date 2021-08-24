@@ -4,12 +4,12 @@ ms.assetid: 26fe4f7c-7bb3-4a52-b539-5de2b11256e9
 title: " (Direct3D 9) 的霧化狀態"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 61d3103cbbd3dfb220e2ddd75078040702fd7557
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 84004b8f261f9a6dc4c9b800ba5baa1f9a3c3e528db2b94e86286c3752414729
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104385497"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119564238"
 ---
 # <a name="fog-state-direct3d-9"></a> (Direct3D 9) 的霧化狀態
 

@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: fe53bfecad3c79f3b7439e6f38effe55c4045fea
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
-ms.translationtype: HT
+ms.openlocfilehash: 9091e20197d073ed35fc413f095a91b15ef6cc36b657ec8f65c6b03097b63b18
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104974060"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119485938"
 ---
 # <a name="texture2darraygatherbluesfloatint2int2int2int2uint-function"></a>Texture2DArray：： GatherBlue (S、float、int2、int2、int2、int2、uint) 函數
 
@@ -122,7 +122,7 @@ TemplateType GatherBlue(
 
 
 
-| 頂點 | 船體 | 網域 | 幾何 | 像素 | 計算 |
+| 頂點 | 船體 | 網域 | 幾何形狀 | 像素 | 計算 |
 |--------|------|--------|----------|-------|---------|
 | x      | x    | x      | x        | x     | x       |
 

@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0671d5cdca7d48b65491c2ad0114aaab6bd9fda7
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 4c9fe837b1e93838e66927de5da8d5204c268211d179e7b17961b3cfc0a6a8f1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106970057"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119552648"
 ---
 # <a name="ms-ds-disable-for-instances-attribute"></a>ms DS-停用-實例屬性
 

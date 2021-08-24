@@ -4,12 +4,12 @@ ms.assetid: 48c84e6d-b21f-468e-8847-f5e2acd5b44a
 title: 'MFPKEY_WMAVOICE_ENC_BufferWindow 屬性 (Wmcodecdsp) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 35d5035979ffd161eb7694690fbf2566db5dfd1d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8d05df85a6f1460666f82f494df0d41fdebd811a578817639eb6f7d41f0bf9ce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974612"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119603448"
 ---
 # <a name="mfpkey_wmavoice_enc_bufferwindow-property"></a>MFPKEY \_ WMAVOICE \_ ENC \_ BufferWindow 屬性
 
@@ -35,8 +35,8 @@ VT \_ I4
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                             |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                    |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                             |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                    |
 | 標頭<br/>                   | <dl> <dt>Wmcodecdsp。h</dt> </dl> |
 
 

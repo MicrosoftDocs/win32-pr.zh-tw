@@ -11,12 +11,12 @@ keywords:
 - mmioOpen 函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 688dc6b96c612d94524758acce5d8c742fc13a36
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: a3ef4ea778ad0c84137aa75d36f46dc30310180c69416a1240078f01e53d6931
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104375237"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119145121"
 ---
 # <a name="basic-services"></a>基本服務
 
@@ -27,7 +27,7 @@ ms.locfileid: "104375237"
 > [!Note]  
 > **HMMIO** 檔案控制代碼不是標準檔案控制代碼。 請勿搭配 Win32 或 C 執行時間檔案 i/o 函數使用 **HMMIO** 檔案控制代碼。
 
- 
+ 
 
 當您使用 [**mmioOpen**](/windows/win32/api/mmiscapi/nf-mmiscapi-mmioopen) 開啟檔案時，您可以使用旗標來指定是否要開啟它以進行讀取、寫入或兩者。 您也可以指定旗標，讓您建立或刪除檔案。 當您完成讀取或寫入檔案時，請使用 [**mmioClose**](/windows/win32/api/mmiscapi/nf-mmiscapi-mmioclose) 函數來關閉檔案。
 
@@ -37,6 +37,6 @@ ms.locfileid: "104375237"
 
 您可以針對基本檔案 i/o 以外的作業使用 **mmioOpen** 函式的旗標。 例如，您可以藉由指定 [**MMIOINFO**](/previous-versions//dd757322(v=vs.85)) 結構來開啟記憶體檔案、指定自訂的 i/o 程式，或為緩衝的 i/o 提供緩衝區。
 
- 
+ 
 
- 
+ 

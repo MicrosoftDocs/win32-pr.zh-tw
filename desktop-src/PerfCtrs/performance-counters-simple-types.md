@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: e70d6afb884ac7714bd378eb96d659be9765bfbc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: acd5f833b1660178ace2cf041a8a1f5c79c5ab4aed898cb93be02b01a520635b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103944248"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119314438"
 ---
 # <a name="performance-counters-simple-types"></a>效能計數器簡單類型
 

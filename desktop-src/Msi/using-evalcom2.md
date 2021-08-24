@@ -4,12 +4,12 @@ ms.assetid: df38e75e-554c-4a6d-b9ad-8eee5123a16f
 title: 使用 Evalcom2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c49a165115b505d5c78ebe5b5e714b8a3c359d72
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5f89ba0215e697cb03111daa80510e6ba6c677c2e74f31e74b5640340d2d0d9a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103690524"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119527120"
 ---
 # <a name="using-evalcom2"></a>使用 Evalcom2
 

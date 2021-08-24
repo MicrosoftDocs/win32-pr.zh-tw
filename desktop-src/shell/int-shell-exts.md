@@ -4,12 +4,12 @@ ms.assetid: ce21ca0f-157c-4f69-bcf9-dc259c3bac80
 title: 初始化 Shell 擴充處理常式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d6a27b6273c5e342dc4caf545fb3593cdad66261
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 82f83a47400cff5d0fa4628f6f6f9d9ba74b158947c7843f61831d54f62c7a6f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973761"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119661218"
 ---
 # <a name="initializing-shell-extension-handlers"></a>初始化 Shell 擴充處理常式
 
@@ -21,7 +21,7 @@ Shell 擴充處理常式物件的大部分執行都是由其型別所決定。 �
 -   [**DllGetClassObject**](/windows/win32/api/combaseapi/nf-combaseapi-dllgetclassobject)。 公開物件的 class factory。
 -   [**DllCanUnloadNow**](/windows/win32/api/combaseapi/nf-combaseapi-dllcanunloadnow)。 COM 會呼叫這個函式，以判斷物件是否為任何用戶端提供服務。 如果不是，則系統可以卸載 DLL 並釋放相關聯的記憶體。
 
-Shell 擴充處理常式和所有 COM 物件一樣，都必須執行 [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) 介面和 [class factory](../com/implementing-iclassfactory.md)。 大部分也必須在 Windows XP 或更早版本中執行 [**IPersistFile**](/windows/win32/api/objidl/nn-objidl-ipersistfile) 或 [**IShellExtInit**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ishellextinit) 介面。 這些已由 Windows Vista 中的 [**IInitializeWithStream**](/windows/desktop/api/Propsys/nn-propsys-iinitializewithstream)、 [**IInitializeWithItem**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-iinitializewithitem) 和 [**IInitializeWithFile**](/windows/desktop/api/Propsys/nn-propsys-iinitializewithfile) 取代。 Shell 會使用這些介面來初始化處理常式。
+Shell 擴充處理常式和所有 COM 物件一樣，都必須執行 [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) 介面和 [class factory](../com/implementing-iclassfactory.md)。 大部分也必須在 Windows XP 或更早版本中，執行 [**IPersistFile**](/windows/win32/api/objidl/nn-objidl-ipersistfile)或 [**IShellExtInit**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ishellextinit)介面。 這些已由 Windows Vista 中的 [**IInitializeWithStream**](/windows/desktop/api/Propsys/nn-propsys-iinitializewithstream)、 [**IInitializeWithItem**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-iinitializewithitem)和 [**IInitializeWithFile**](/windows/desktop/api/Propsys/nn-propsys-iinitializewithfile)取代。 Shell 會使用這些介面來初始化處理常式。
 
 [**IPersistFile**](/windows/win32/api/objidl/nn-objidl-ipersistfile)介面必須由下列各項執行：
 
@@ -208,10 +208,10 @@ HKEY_CLASSES_ROOT
 |------------------|-------------------------------|-------------------------------------------------------------------------------------------|
 | 作者           | 檔作者        | [**PIDSI \_ 作者**](../stg/the-summary-information-property-set.md)                             |
 | 標題            | 檔的標題         | [**PIDSI \_ 標題**](../stg/the-summary-information-property-set.md)                              |
-| 主體          | 主題摘要               | [**PIDSI \_ 主旨**](../stg/the-summary-information-property-set.md)                            |
+| 主旨          | 主題摘要               | [**PIDSI \_ 主旨**](../stg/the-summary-information-property-set.md)                            |
 | 註解          | 檔批註             | [**PIDSI \_批註**](../stg/the-summary-information-property-set.md) 或資料夾/磁片磁碟機屬性 |
 | PageCount        | 頁面數目               | [**PIDSI \_ PAGECOUNT**](../stg/the-summary-information-property-set.md)                          |
-| Name             | 易記名稱                 | 標準資料夾檢視                                                                      |
+| 名稱             | 易記名稱                 | 標準資料夾檢視                                                                      |
 | OriginalLocation | 原始檔案的位置     | [公事包] 資料夾和資源回收筒資料夾                                                   |
 | DateDeleted      | 資料檔案已刪除         | 資源回收筒資料夾                                                                        |
 | 類型             | 檔案類型                  | 標準資料夾詳細資料檢視                                                              |

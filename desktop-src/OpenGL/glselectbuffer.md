@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: efa5b97abad6575de77a760c72e3eb05e90461c6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 17c40030c34ece43f4e24ac6937c35400fed7ab7acc005e99c653b233e08b69e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103685542"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119519818"
 ---
 # <a name="glselectbuffer-function"></a>glSelectBuffer 函式
 
@@ -65,7 +65,7 @@ void WINAPI glSelectBuffer(
 
 
 
-| Name                                                                                                  | 意義                                                                                                                               |
+| 名稱                                                                                                  | 意義                                                                                                                               |
 |-------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**GL \_ 無效 \_ 值**</dt> </dl>     | *大小* 為負數。<br/>                                                                                                       |
 | <dl> <dt>**GL \_ 不正確 \_ 操作**</dt> </dl> | 當轉譯模式為 GL SELECT 時，即會呼叫此函數 \_ 。<br/>                                                              |

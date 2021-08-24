@@ -4,12 +4,12 @@ ms.assetid: e11193a2-2c72-43a9-8d35-fa524044e306
 title: 檢查安裝資料庫字碼頁
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 48ea9513ec80413e00a9f3f4c1232a06704f83e5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cedb63128d4a3b18878eba16af5e55da92403953ddf2a2c9a29c788a524ad41f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974646"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119581768"
 ---
 # <a name="checking-the-installation-database-code-page"></a>檢查安裝資料庫字碼頁
 
@@ -17,7 +17,7 @@ ms.locfileid: "106974646"
 
 相同的 ASCII 字碼頁1252可用於英文和法文。 因此，您不需要重設資料庫 MNP2000.msi 的字碼頁 (英文) 就能將安裝變更為法文。
 
-如需設定字碼頁的詳細資訊，請參閱 [字碼頁處理 (Windows Installer) ](code-page-handling-windows-installer-.md)。
+如需設定字碼頁的詳細資訊，請參閱[字碼頁處理 (Windows Installer) ](code-page-handling-windows-installer-.md)。
 
 [繼續](importing-localized-error-and-actiontext-tables.md)
 

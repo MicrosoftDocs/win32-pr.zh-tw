@@ -4,16 +4,16 @@ description: 深入瞭解 Microsoft Agent 字元編輯器工具列按鈕，例�
 ms.assetid: 8867a038-d2c4-43c1-b994-bd3779a251b9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a0e9e6a3d2393709c6f3033111c3c88899326d99
-ms.sourcegitcommit: af9983bab40fe0b042f177ce7ca79f2eb0f9d0e8
+ms.openlocfilehash: e2be6bc8ee19da1134dd86ce7fafb37578ef55efc27d30ac119a63d15b7c8856
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "104560572"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119608124"
 ---
 # <a name="toolbar-buttons-microsoft-agent-character-editor"></a> (Microsoft Agent 字元編輯器) 的工具列按鈕
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 :::image type="icon" source="images/f9charnew.gif":::
 
@@ -77,7 +77,7 @@ ms.locfileid: "104560572"
 <span id="Cut"></span><span id="cut"></span><span id="CUT"></span>**削減**
 </dt> <dd>
 
-移除編輯器中選取的專案，並將其放在 Windows 剪貼簿上。
+移除編輯器中選取的專案，並將其放在 Windows 剪貼簿。
 
 </dd> </dl>
 

@@ -17,12 +17,12 @@ keywords:
 - 從鳶尾花 GL writemask 的 OpenGL 移植
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9f8bc35986bc0f9d7076411fecbd9c1fa5d7bfbc
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b9d3fcb9cf47b45b4b1174cb20e3259dbb883c2fd0414d255a418c52b50fa28e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671844"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119485778"
 ---
 # <a name="porting-color-shading-and-writemask-code"></a>移植色彩、陰影和 Writemask 程式碼
 
@@ -40,9 +40,9 @@ ms.locfileid: "103671844"
 -   [移植色彩呼叫](porting-color-calls.md)
 -   [移植網底模型](porting-shading-models.md)
 
- 
+ 
 
- 
+ 
 
 
 

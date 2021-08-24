@@ -12,12 +12,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
 api_location: ''
-ms.openlocfilehash: cd10959490a85583cab01814f9cdb012859317a4
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 4b973060e30385087c653e47c692ac4d44e3eb63f528eb4e6f2ced65431100c0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "104973884"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119485208"
 ---
 # <a name="texture2darraygather-methods"></a>Texture2DArray：：收集方法
 

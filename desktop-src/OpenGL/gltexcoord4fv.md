@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9089b493c23acdfb9ac42a9d45bc9af1688e59c3
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 50a5f495056f6946241862ce64ce9cec7c1cbc9d25edee13bcb8adb0a9abd159
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106981793"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119490778"
 ---
 # <a name="gltexcoord4fv-function"></a>glTexCoord4fv 函式
 
@@ -40,7 +40,7 @@ void WINAPI glTexCoord4fv(
 
 <dl> <dt>
 
-*V* 
+*v* 
 </dt> <dd>
 
 四個元素之陣列的指標，接著會指定 s、t、r 和 q 材質座標。

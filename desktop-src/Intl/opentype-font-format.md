@@ -4,12 +4,12 @@ ms.assetid: 0d67481a-79ff-448c-b77c-a55bf935a22a
 title: OpenType 字型格式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7a907f0a0480c92a35b299540e3bed240ebc3b6b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 18324f3a9c84553da81c9f9723a2ecd67c03539b4dd39c7a80afc4be5cdcda66
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106988457"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119147091"
 ---
 # <a name="opentype-font-format"></a>OpenType 字型格式
 

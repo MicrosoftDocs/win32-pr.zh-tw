@@ -13,16 +13,16 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 94916E29-5960-4010-B2C6-0FAA1E4BF72D
-ms.openlocfilehash: 2c6e18ba2388909390b856deb03b65b078f810d9
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: 327855763220fd2ea1c2e0e6b93538c16fa27cf35cd65cba06888879580259c8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109840859"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119591998"
 ---
 # <a name="shellwindowssecurity-method"></a>WindowsSecurity 方法
 
-顯示 [ **Windows 安全性** ] 對話方塊。
+顯示 [ **Windows 安全性**] 對話方塊。
 
 ## <a name="syntax"></a>語法
 
@@ -66,9 +66,9 @@ Shell.WindowsSecurity()
 
 ## <a name="examples"></a>範例
 
-下列範例示範如何使用 JScript、VBScript 和 Visual Basic 的 **WindowsSecurity** 。
+下列範例顯示 JScript、VBScript 和 Visual Basic 的 **WindowsSecurity** 用法。
 
-Jscript：
+JScript：
 
 
 ```JScript
@@ -122,10 +122,10 @@ End Sub
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                                                   |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                          |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                                                   |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                          |
 | 標頭<br/>                   | <dl> <dt>Shldisp。h</dt> </dl>                          |
-| Idl<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl>                        |
+| IDL<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl>                        |
 | DLL<br/>                      | <dl> <dt>Shell32.dll (6.0 版或更新版本) </dt> </dl> |
 
 

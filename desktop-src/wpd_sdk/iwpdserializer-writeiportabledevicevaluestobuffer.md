@@ -14,12 +14,12 @@ api_type:
 api_location:
 - PortableDeviceGUIDs.lib
 - PortableDeviceGUIDs.dll
-ms.openlocfilehash: f2a8f8b374f967f7231881d9e0eca6434e9c57e2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: db86953e2e08c0a66f6e497c1fcd2350cc726be8852803cf8f4d64bfff523500
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106986147"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119657738"
 ---
 # <a name="iwpdserializerwriteiportabledevicevaluestobuffer-method"></a>IWpdSerializer：： WriteIPortableDeviceValuesToBuffer 方法
 
@@ -77,7 +77,7 @@ HRESULT WriteIPortableDeviceValuesToBuffer(
 
 
 
-| 傳回碼                                                                                   | Description                                               |
+| 傳回碼                                                                                   | 描述                                               |
 |-----------------------------------------------------------------------------------------------|-----------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>          | 此方法已成功。<br/>                          |
 | <dl> <dt>**E \_ 指標**</dt> </dl>     | 必要的指標引數為 **Null**。<br/>      |

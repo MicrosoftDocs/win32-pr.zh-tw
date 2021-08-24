@@ -3,10 +3,10 @@ title: 以非正方形圖元撰寫資料流程
 description: 以非正方形圖元撰寫資料流程
 ms.assetid: 4af7dedc-e2b8-4dc2-add4-84424e93c297
 keywords:
-- Windows Media Format SDK，撰寫影片串流
-- Windows Media Format SDK、影片串流
-- Windows Media Format SDK、非正方形圖元
-- 'Windows Media 格式 SDK，圖元 (非正方形) '
+- Windows媒體格式 SDK，撰寫影片串流
+- Windows媒體格式 SDK、影片串流
+- Windows媒體格式 SDK、非正方形圖元
+- 'Windows媒體格式 SDK，圖元 (非正方形) '
 - Advanced Systems Format (ASF) 、撰寫影片串流
 - ASF (Advanced 系統格式) 、撰寫影片串流
 - Advanced Systems Format (ASF) 、影片串流
@@ -22,12 +22,12 @@ keywords:
 - '圖元 (非正方形) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f1349840f151ab787ba0e0512cfab8fea08aacf1
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 08b44df1e4b4ce3f2bf2cb0e1d795b4caf396b6396e3e70b68b9040ad9a5456f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104023035"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119657948"
 ---
 # <a name="writing-streams-with-non-square-pixels"></a>以非正方形圖元撰寫資料流程
 
@@ -63,9 +63,9 @@ ms.locfileid: "104023035"
 [**使用非正方形圖元讀取和寫入影片串流**](to-read-and-write-video-streams-with-non-square-pixels.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

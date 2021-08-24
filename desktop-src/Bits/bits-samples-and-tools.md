@@ -4,12 +4,12 @@ description: BITS 範例和工具
 ms.assetid: e449da0d-46da-44f9-85f3-4f0e17887bf3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b651ec8d4a2c3b61381dda488293ff6a3b9f2c90
-ms.sourcegitcommit: dc13cc13522097188392392d85f99de48a213984
+ms.openlocfilehash: 46192b5b1bcd563ad83510ba241b6d13fd47dcbaa34e23b778a1d9109f81a61c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "106965225"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119579458"
 ---
 # <a name="bits-samples-and-tools"></a>BITS 範例和工具
 
@@ -25,10 +25,10 @@ ms.locfileid: "106965225"
 
  
 
-此外，BITS 包含 Windows SDK 中的下列範例。 這些範例位於 *InstallDirectory* \\ samples Web 底下 \\ 。 每個範例都包含一個 Readme.txt 檔案，說明如何安裝和執行範例。 您可以從 [Microsoft Windows 軟體開發套件](https://msdn.microsoft.com/windowsserver/bb980924.aspx)下載 Windows SDK。 核心 SDK 包含位。
+此外，BITS 包含 Windows SDK 中的下列範例。 這些範例位於 *InstallDirectory* \\ samples Web 底下 \\ 。 每個範例都包含一個 Readme.txt 檔案，說明如何安裝和執行範例。 您可以從[Microsoft Windows 軟體開發套件](https://msdn.microsoft.com/windowsserver/bb980924.aspx)下載 Windows SDK。 核心 SDK 包含位。
 
 > [!Note]  
-> Windows Vista：此頁面上的範例包含在 [Windows vista 的 Microsoft Windows SDK](https://www.microsoft.com/download/details.aspx?id=30998)中。 但是，不包含 ClientCert 範例。
+> Windowsvista：此頁面上的範例包含在[Windows Vista 的 Microsoft Windows SDK](https://www.microsoft.com/download/details.aspx?id=30998)中。 但是，不包含 ClientCert 範例。
 
  
 

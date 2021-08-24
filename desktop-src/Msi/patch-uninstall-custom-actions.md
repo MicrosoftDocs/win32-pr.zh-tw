@@ -4,18 +4,18 @@ ms.assetid: c741aa40-ba4c-459e-936a-19c002620c30
 title: 修補卸載自訂動作
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b90cfffbdb37f1f2fab046b794010a790e9a5212
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f69077337b80177984ff43f12038edb1daa48215f92c627f4ed22ea2f69c876b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973042"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119145421"
 ---
 # <a name="patch-uninstall-custom-actions"></a>修補卸載自訂動作
 
 您可以使用 [ [自訂動作修補程式] 選項](custom-action-patch-uninstall-option.md) ，指定安裝程式只在卸載修補程式時執行自訂動作。
 
-**Windows Installer 4.5 和更新版本：** 您可以使用 [自訂動作修補程式卸載選項](custom-action-patch-uninstall-option.md) 來指定安裝程式只在卸載修補程式時執行自訂動作。
+**Windows Installer 4.5 和更新版本：** 您可以使用 [自訂動作修補程式卸載選項](custom-action-patch-uninstall-option.md)來指定安裝程式只在卸載修補程式時執行自訂動作。
 
 **[Windows Installer 4.0 及更早版本](not-supported-in-windows-installer-4-0.md)： * *
 
@@ -23,7 +23,7 @@ ms.locfileid: "106973042"
 
 若要在卸載特定的修補程式時執行 [自訂動作](custom-actions.md) ，自訂動作必須存在於原始應用程式中，或者必須在永遠套用之產品的修補程式中。
 
-開發人員可以使用 [**MsiPatchRemovalList**](msipatchremovallist.md) 屬性來撰寫 Windows Installer 套件或修補程式，以在移除修補程式時執行 [自訂動作](custom-actions.md) 。 自訂動作可以撰寫至原始安裝套件、已套用至套件的修補程式，或不是 [可卸載修補](uninstallable-patches.md)程式的修補程式。 您可以在順序資料表的 **MsiPatchRemovalList** 屬性上 conditionalized 自訂動作。 如需 conditionalizing 動作的詳細資訊，請參閱 [在條件陳述式中使用屬性](using-properties-in-conditional-statements.md) 。
+開發人員可以使用 [**MsiPatchRemovalList**](msipatchremovallist.md)屬性來撰寫 Windows Installer 套件或修補程式，以在移除修補程式時執行 [自訂動作](custom-actions.md)。 自訂動作可以撰寫至原始安裝套件、已套用至套件的修補程式，或不是 [可卸載修補](uninstallable-patches.md)程式的修補程式。 您可以在順序資料表的 **MsiPatchRemovalList** 屬性上 conditionalized 自訂動作。 如需 conditionalizing 動作的詳細資訊，請參閱 [在條件陳述式中使用屬性](using-properties-in-conditional-statements.md) 。
 
 自訂動作可以從 [**MsiPatchRemovalList**](msipatchremovallist.md) 屬性的值取得要移除之修補程式的 guid。 自訂動作可以藉由呼叫 [**MsiGetPatchInfoEx**](/windows/desktop/api/Msi/nf-msi-msigetpatchinfoexa)或 [Patch 物件](patch-object.md)的 [**PatchProperty**](patch-patchproperty.md)屬性，來判斷修補程式的安裝狀態是套用、淘汰或取代。
 

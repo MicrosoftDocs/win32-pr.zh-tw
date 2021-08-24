@@ -1,19 +1,19 @@
 ---
 title: 使用網路監視器來查看 ETL 檔案
-description: 網路監視器3.3 可讓使用者使用 Windows Vista 或更新版本) 來剖析、篩選和查看 ETL 檔案 (。
+description: 網路監視器3.3 可讓使用者使用 Windows Vista 或更新版本) ，來剖析、篩選和查看 ETL 檔案 (。
 ms.assetid: 932be193-70f9-48f9-95d8-18916d3b7064
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 04120f860654f4859aa930f32a4711999682eaf8
-ms.sourcegitcommit: d39e82e232f6510f843fdb8d55d25b4e9e02e880
+ms.openlocfilehash: fc8c794b04837cc9d32b265eb81bfeb08fa47bdc1730672971ff6824b31c8ca0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "103945537"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119685688"
 ---
 # <a name="using-network-monitor-to-view-etl-files"></a>使用網路監視器來查看 ETL 檔案
 
-[網路監視器 3.3](https://connect.microsoft.com/site/sitehome.aspx?SiteID=216) 可讓使用者使用 Windows Vista 或更新版本) 來剖析、篩選和查看 ETL 檔案 (。  (如果使用網路監視器3.2，您將需要從 [CodePlex](https://www.codeplex.com/NMParsers) 下載並安裝其他剖析器，才能轉譯網路追蹤事件。 ) 
+[網路監視器 3.3](https://connect.microsoft.com/site/sitehome.aspx?SiteID=216)可讓使用者使用 Windows Vista 或更新版本) ，來剖析、篩選和查看 ETL 檔案 (。  (如果使用網路監視器3.2，您將需要從 [CodePlex](https://www.codeplex.com/NMParsers) 下載並安裝其他剖析器，才能轉譯網路追蹤事件。 ) 
 
 相互關聯的 ETL 檔案會將相關的事件群組在一起。 下列圖例顯示在網路監視器中開啟的相互關聯檔案，並啟用交談。
 

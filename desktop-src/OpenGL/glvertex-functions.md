@@ -14,12 +14,12 @@ keywords:
 - 頂點函數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fd062df9a830abd283232a9e431a65ac7af57967
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3913ba44fe4ffd1659a0a4b5ab9cfcfcdb9bc5c82a13efb6e4700398d08f352b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106967843"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119488348"
 ---
 # <a name="glvertex-functions"></a>glVertex 函式
 
@@ -50,9 +50,9 @@ ms.locfileid: "106967843"
 -   [**glVertex4iv**](glvertex4iv.md)
 -   [**glVertex4sv**](glvertex4sv.md)
 
- 
+ 
 
- 
+ 
 
 
 

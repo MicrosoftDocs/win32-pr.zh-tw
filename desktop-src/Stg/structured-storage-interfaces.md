@@ -1,21 +1,21 @@
 ---
-title: 結構化儲存介面
-description: 結構化儲存體服務分成三種類型的介面。
+title: 結構化儲存體介面
+description: 結構化儲存體服務會組織成三種類別的介面。
 ms.assetid: a4281f07-eae4-4bcb-8d16-b6c0bd3c5b21
 keywords:
-- 結構化儲存介面
+- 結構化儲存體介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0010a0d4dec4908111c8a5bb939f795f0a2b2eb3
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 345c7b10ae4f73a80b3a263b9a9487c2172382b176404871b363aff336441a09
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106996562"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119661718"
 ---
-# <a name="structured-storage-interfaces"></a>結構化儲存介面
+# <a name="structured-storage-interfaces"></a>結構化儲存體介面
 
-結構化儲存體服務分成三種類型的 [介面](interfaces.md)。 每個集合都代表複合檔案、它所包含的物件和儲存這些個別元件之實體媒體之間的連續間接取值層級或抽象層。
+結構化儲存體服務會組織成三種類別的[介面](interfaces.md)。 每個集合都代表複合檔案、它所包含的物件和儲存這些個別元件之實體媒體之間的連續間接取值層級或抽象層。
 
 介面的第一個類別是由 [**IStorage**](/windows/desktop/api/Objidl/nn-objidl-istorage)、 [**IStream**](/windows/desktop/api/Objidl/nn-objidl-istream)和 [**IRootStorage**](/windows/desktop/api/Objidl/nn-objidl-irootstorage)所組成。 前兩個介面會定義如何將物件儲存在複合檔案中。 這些介面提供開啟儲存元素、認可和還原變更、複製和移動元素，以及讀取和寫入資料流程的方法。 這些介面無法辨識個別物件的原生資料格式，因此沒有方法可將這些物件儲存至持續性儲存區。 **IRootStorage** 介面具有單一方法，可讓複合檔案與基礎檔案系統名稱產生關聯。 用戶端必須為其複合檔案執行這些介面。
 
@@ -25,7 +25,7 @@ ms.locfileid: "106996562"
 
 ## <a name="compound-file-implementation-limits"></a>複合檔案執行限制
 
-結構化儲存體架構的 COM 實作為所謂的 *複合檔案*。 在複合檔案中執行的儲存物件包含 [**IPropertyStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertystorage) 和 [**IPropertySetStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertysetstorage) 介面的執行。
+結構化儲存體架構的 COM 實作為所謂的 *複合檔案*。 儲存體物件（在複合檔案中執行）包含 [**IPropertyStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertystorage)和 [**IPropertySetStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertysetstorage)介面的執行。
 
 藉由呼叫 [**StgCreateStorageEx**](/windows/desktop/api/coml2api/nf-coml2api-stgcreatestorageex) 函式來建立新的複合檔案物件，或使用 [**StgOpenStorageEx**](/windows/desktop/api/coml2api/nf-coml2api-stgopenstorageex) 來開啟先前建立的複合檔案，即可取得這些介面的複合檔案實指標。
 

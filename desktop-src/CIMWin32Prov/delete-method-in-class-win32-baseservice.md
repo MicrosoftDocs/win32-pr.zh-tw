@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 4683887aa8844e682a572126d3ad134315273c6b
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 8dab8d11ab6d30cf6d3e8dd2de41913e72bd0a67990275dff61f0794b33ce7b5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111524"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119547418"
 ---
 # <a name="delete-method-of-the-win32_baseservice-class"></a>Win32 BaseService 類別的 Delete 方法 \_
 

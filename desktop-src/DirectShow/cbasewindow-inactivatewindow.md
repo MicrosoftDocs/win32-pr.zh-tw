@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: d1c5e925a3d9b510918636a221d5ad6e1b7da736
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3cf175a55ab5739b0fa171fe4c9553d3691be82d71b38fd5eb480d6e28043440
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990211"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119567458"
 ---
 # <a name="cbasewindowinactivatewindow-method"></a>CBaseWindow. InactivateWindow 方法
 
@@ -46,7 +46,7 @@ virtual HRESULT InactivateWindow();
 
 
 
-| 傳回碼                                                                             | Description                            |
+| 傳回碼                                                                             | 描述                            |
 |-----------------------------------------------------------------------------------------|----------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>    | 成功。<br/>                    |
 | <dl> <dt>**S \_ FALSE**</dt> </dl> | 視窗已經處於非使用中狀態。<br/> |

@@ -9,12 +9,12 @@ keywords:
 - 從鳶尾花 GL 進行 OpenGL 移植，取得函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 594b12bb1738846b98d33137dd8b623f0405ec40
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: fdfe9159e0207198fa94959729bd0c95439bb91b5dd55a8a1f9adf3b048d7bb1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106965597"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119485558"
 ---
 # <a name="porting-iris-gl-get-functions"></a>移植鳶尾花 GL Get 函數
 
@@ -53,9 +53,9 @@ glGet<Datatype>v( value, *data );
 
 其中 *值* 的型別為 **GLenum** ，而資料的型別為 **GLdatatype**。 當您呼叫 **glGet** 時，它會傳回與預期型別不同的類型，類型會適當地進行轉換。 如需 **glGet** 參數的完整清單，請參閱 [**glGet**](glgetbooleanv--glgetdoublev--glgetfloatv--glgetintegerv.md)。
 
- 
+ 
 
- 
+ 
 
 
 

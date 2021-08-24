@@ -4,12 +4,12 @@ ms.assetid: ff570b47-7c16-47ae-b1c2-2ecad9266372
 title: _RowState 資料行
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e61a2964d7d11c1c2429ad95e9de2b8bdb148954
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 42e0164b76589dfa76deb8754df3e11a8b8250a43d791dec92d0fee65dfb719b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026650"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119146091"
 ---
 # <a name="_rowstate-column"></a>\_RowState 資料行
 
@@ -17,7 +17,7 @@ ms.locfileid: "104026650"
 
 
 
-| Name           | 值 | 意義                                                        |
+| 名稱           | 值 | 意義                                                        |
 |----------------|-------|----------------------------------------------------------------|
 | iraUserInfo    | 0x01  | 屬性可供外部使用。 您可以更新此值。  |
 | iraTemporary   | 0x02  | 資料列不是持續性。 您可以更新此值。          |

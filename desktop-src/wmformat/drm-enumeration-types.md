@@ -1,25 +1,25 @@
 ---
-title: Microsoft Windows Media DRM 用戶端列舉類型
-description: 深入瞭解 Microsoft Windows Media DRM 用戶端擴充 Api 所支援的列舉。
+title: Microsoft Windows 媒體 DRM 用戶端列舉類型
+description: 深入瞭解 Microsoft Windows 媒體 DRM 用戶端擴充 api 所支援的列舉。
 ms.assetid: 940f66e1-1dc1-414f-bba9-b91f4f0dfc45
 keywords:
-- Windows Media Format SDK，列舉類型
+- Windows媒體格式 SDK，列舉類型
 - 數位版權管理 (DRM) ，列舉類型
 - DRM (數位版權管理) 、列舉類型
 - DRM 用戶端擴充 Api，列舉類型
 - 用戶端擴充 Api，列舉類型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 574136f8016161f4d2c208865a72ad2a86d98f68
-ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
+ms.openlocfilehash: aad1ca2cd0df9e2b2888e2d25d16ccadde6e8f418ea4d289509aaba7b09c22e7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "112068425"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119547698"
 ---
-# <a name="microsoft-windows-media-drm-client-enumeration-types"></a>Microsoft Windows Media DRM 用戶端列舉類型
+# <a name="microsoft-windows-media-drm-client-enumeration-types"></a>Microsoft Windows 媒體 DRM 用戶端列舉類型
 
-下表說明 Microsoft Windows Media DRM 用戶端擴充 Api 所支援的列舉。
+下表說明 Microsoft Windows 媒體 DRM 用戶端擴充 api 所支援的列舉。
 
 
 
@@ -32,7 +32,7 @@ ms.locfileid: "112068425"
 | [**DRM 的 \_ 個人化 \_ 狀態**](drmdrm-individualization-status.md)        | 定義 DRM 個人化的有效狀態。                                                                                                           |
 | [**DRM \_ 授權 \_ 狀態 \_ 類別**](drmdrm-license-state-category.md)           | 指定 [**DRM \_ 授權 \_ 狀態 \_ 資料**](drmdrm-license-state-data.md) 結構所描述的授許可權制類型。                    |
 | [**MSDRM \_ 狀態**](msdrm-status.md)                                            | 定義 DRM 子系統的狀態條件。                                                                                                              |
-| [**WMDRMNET \_ 原則 \_ 類型**](wmdrmnet-policy-type.md)                           | 列出適用于網路裝置作業的 Windows Media DRM 可用的原則類型。                                                          |
+| [**WMDRMNET \_ 原則 \_ 類型**](wmdrmnet-policy-type.md)                           | 列出可用於網路裝置作業 Windows 媒體 DRM 的原則類型。                                                          |
 | [**WMT \_ 許可權**](drm-wmt-rights.md)                                            | 定義可在 DRM 授權中指定的許可權。                                                                                                    |
 
 

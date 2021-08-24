@@ -4,12 +4,12 @@ ms.assetid: 5d1f9d91-e8a1-4cbb-b1de-4262a61e3cb7
 title: 執行屬性工作表延伸模組
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e2a351678c2377aacdd73ec750841a32a81ad973
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 23b4f74559176ecc0c411f75e7ca630db152a51109f09ecdca47a62d0113e70c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106987824"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119590278"
 ---
 # <a name="implementing-property-sheet-extensions"></a>執行屬性工作表延伸模組
 

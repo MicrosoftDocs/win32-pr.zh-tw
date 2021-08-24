@@ -3,16 +3,16 @@ title: 影片壓縮管理員
 description: 影片壓縮管理員
 ms.assetid: df876309-68d3-43a3-9d83-6fdb8f345fdc
 keywords:
-- 'Windows (VFW) 的影片、視訊壓縮管理員 (BC-VCM-LVM-HYPERV) '
-- '適用于 Windows) 的 VFW (影片、視訊壓縮管理員 (BC-VCM-LVM-HYPERV) '
+- '影片 Windows (VFW) 、視訊壓縮管理員 (bc-vcm-lvm-hyperv) '
+- '適用于 Windows) 的 VFW (影片、視訊壓縮管理員 (bc-vcm-lvm-hyperv) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6e5dd7176abde5d23bae02fdd86dfb14b5c00d98
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 174ee74bd273164011ede289bb443c7207722aebaba3a578908103589e614b78
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104371948"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119687488"
 ---
 # <a name="video-compression-manager"></a>影片壓縮管理員
 
@@ -29,9 +29,9 @@ ms.locfileid: "104371948"
 -   [使用影片壓縮管理員](using-the-video-compression-manager.md)
 -   [影片壓縮管理員參考](video-compression-manager-reference.md)
 
- 
+ 
 
- 
+ 
 
 
 

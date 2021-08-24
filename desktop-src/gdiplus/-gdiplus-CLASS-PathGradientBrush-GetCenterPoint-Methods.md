@@ -4,12 +4,12 @@ ms.assetid: 6bd4993d-2401-4070-be0e-dbac684095d3
 title: PathGradientBrush. GetCenterPoint 方法
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 61b6df6bd38c040ef9013e4b6ca7c8311aa17d3c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 59511f8588e2834cee99af58e7454ebf677940316d52e5b5cc1870279f77a9e1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192362"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119727048"
 ---
 # <a name="pathgradientbrushgetcenterpoint-methods"></a>PathGradientBrush. GetCenterPoint 方法
 

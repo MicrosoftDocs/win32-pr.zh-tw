@@ -4,12 +4,12 @@ ms.assetid: 398119ec-2d08-4c37-a993-a9b5ce52bcc8
 title: midi/輸出
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d6ae6a3daba8fa0520fca666e6c43a8b3db86c9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a4c0199cc7918ab9aeacb3210b6f98d5ff03fc3bca90624bee00d864727ae0fa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191113"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119518608"
 ---
 # <a name="midiout"></a>midi/輸出
 

@@ -4,12 +4,12 @@ ms.assetid: 0c01bd51-353d-4f48-b33c-796f740915e2
 title: 釘選屬性集
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e53955ba1f075094c4fb2f6324ed143ca54f72c2
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: d143d980de7f2a634deecb2c3f06509854ac5a50fbe120da279cce3ad97be1e7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107909616"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119316098"
 ---
 # <a name="pin-property-set"></a>釘選屬性集
 
@@ -35,7 +35,7 @@ ms.locfileid: "107909616"
 
  
 
-DirectShow 會在 Uuid. h 標頭檔中定義下列釘選類別。
+DirectShow 會在 uuid. h 標頭檔中定義下列釘選類別。
 
 
 
@@ -51,7 +51,7 @@ DirectShow 會在 Uuid. h 標頭檔中定義下列釘選類別。
 | **釘選 \_ 類別 \_ TELETEXT**       | 提供 teletext (隱藏式字幕變異) 的 Pin。                                                                                                                                                                                                                                                                   |
 | **釘選 \_ 類別時間 \_ 碼**       | 提供時間碼資料的 Pin。                                                                                                                                                                                                                                                                                            |
 | **釘選 \_ 類別 \_ VBI**            | 提供垂直空白間隔資料的 Pin。                                                                                                                                                                                                                                                                          |
-| **釘選 \_ 類別 \_ VIDEOPORT**      | 要連接到重迭 [混音](overlay-mixer-filter.md)器上輸入 pin 零的影片輸出圖釘。                                                                                                                                                                                                                    |
+| **釘選 \_ 類別 \_ VIDEOPORT**      | 要連接到重迭[Mixer](overlay-mixer-filter.md)上輸入 pin 零的影片輸出圖釘。                                                                                                                                                                                                                    |
 | **釘選 \_ 類別 \_ VIDEOPORT \_ VBI** | 釘選到連接到 [VBI 介面](vbi-surface-allocator.md)配置器，這是在使用影片埠的情況下，為隱藏式字幕重迭等事物配置正確視訊記憶體所需的 VBI surface 配置器篩選器。 PCI、IEEE 1394 和 USB 案例都不會使用此篩選器。 |
 | **PINNAME \_ 影片 \_ 副本 \_ CAPTURE**   | 硬體切割已關閉-字幕釘選                                                                                                                                                                                                                                                                                  |
 

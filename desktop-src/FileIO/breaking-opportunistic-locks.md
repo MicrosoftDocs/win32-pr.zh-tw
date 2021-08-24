@@ -4,12 +4,12 @@ ms.assetid: 0356c167-2973-4820-85a9-bc14abcbf163
 title: 中斷隨機鎖定
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a29b6bd36d8c000b5288ea2408897415547c802
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 74b797feed06c5f02f1b87ff4e05e2d82d44a34f0efe86d7a0881ec1d722023f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106984712"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119582598"
 ---
 # <a name="breaking-opportunistic-locks"></a>中斷隨機鎖定
 

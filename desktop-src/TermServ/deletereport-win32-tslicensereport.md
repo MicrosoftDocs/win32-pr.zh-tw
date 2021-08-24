@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a5a96c8626e4ecc1f89d0f2fcefa69845fec4df8
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 67449da66612368fe5991b43a94037cf4d413f5009af64c51dca58c646ee1d44
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104508356"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119513480"
 ---
 # <a name="deletereport-method-of-the-win32_tslicensereport-class"></a>Win32 TSLicenseReport 類別的 DeleteReport 方法 \_
 

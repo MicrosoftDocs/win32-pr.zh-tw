@@ -4,12 +4,12 @@ ms.assetid: 9f6834c6-74eb-4219-8111-7b722ea41a3a
 title: ICE61
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 89f5a685d5b0a4f2bd5ce8dac70a738cbe2e0b9b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5c772a076decaa385d01047daa45871aeeaf7898d4cf3347606c4066d1f7f2b9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106979920"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119580978"
 ---
 # <a name="ice61"></a>ICE61
 

@@ -4,12 +4,12 @@ ms.assetid: 7B90BA41-EFF4-44AC-B46B-B7E0EEC19D45
 title: 處理器類別
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1ae16c9959ee0e3d58e72d2a6cdaaa436a7832fa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c7b73097b5e62001cd2f774e008c852f42617364b5e6e736c36db0f7bd83fa86
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848414"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119147821"
 ---
 # <a name="processor-classes"></a>處理器類別
 

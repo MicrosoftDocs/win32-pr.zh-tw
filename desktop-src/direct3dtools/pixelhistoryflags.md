@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 2a1b4b0e5b3df84af04d5533ec9d53b15ebe5057
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 6ff4447bdf19342dd2932f5b93eaf2722072660ae5007b40747834d603a6c57f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104108940"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119726678"
 ---
 # <a name="span-idvspixenginepixelhistoryflagsspanpixelhistoryflags-enumeration"></a><span id="vspixengine.pixelhistoryflags"></span>PIXELHISTORYFLAGS 列舉
 

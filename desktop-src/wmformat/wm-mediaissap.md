@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 83f744bdd8d247307444909218e18d12942c46d3
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 5803806bffe4a3c0478ade320cdf3ba2d977dc6f838a7097002dc7d2ba403430
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104022458"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119546568"
 ---
 # <a name="wmmediaissap"></a>WM/MediaIsSAP
 
@@ -44,9 +44,9 @@ SAP 通常會識別包含不同語言之替代聲軌的電視節目。
 [**屬性清單**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

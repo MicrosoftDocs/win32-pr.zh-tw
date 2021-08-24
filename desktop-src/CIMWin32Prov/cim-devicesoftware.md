@@ -18,12 +18,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 467fa670e8bb3f7d6ee967e6dd422102a2026a57
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 483490c35066457b3c640ef934b6543a737bc52bd31e5178aee837b2a7abc321
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510633"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119321578"
 ---
 # <a name="cim_devicesoftware-class"></a>CIM \_ DeviceSoftware 類別
 
@@ -116,7 +116,7 @@ class CIM_DeviceSoftware : CIM_Dependency
 
 </dt> <dd>
 
-不明。
+未知。
 
 </dd> <dt>
 

@@ -4,12 +4,12 @@ ms.assetid: 9db1b2e2-864e-45b5-8227-400cad75222e
 title: 壓縮狀態
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e182921a6c5e1b79c08fbafb6a8104c4bd8ca1cb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 19abfe0deecb951c00dacb00c64dd8dcf7af56d37fe9112095cdce403619f843
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104192995"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119582418"
 ---
 # <a name="compression-state"></a>壓縮狀態
 

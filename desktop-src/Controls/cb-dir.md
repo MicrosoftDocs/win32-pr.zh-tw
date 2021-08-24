@@ -3,7 +3,7 @@ title: 'CB_DIR 訊息 (Winuser .h) '
 description: 將名稱新增至下拉式方塊所顯示的清單。 訊息會新增符合指定字串和檔案屬性集的目錄和檔案的名稱。 CB \_ DIR 也可以將對應的磁碟機號新增至清單。
 ms.assetid: 6082d12c-0af4-4a99-98c0-6a98d171f4d8
 keywords:
-- CB_DIR message Windows 控制項
+- CB_DIR 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 98cbea5bb88614d5606dd3d5cb165be59f632556
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: defa19ffdebfb448e1a89c141da0b275c1df1bffdcfa9e3914293400d706b7ca
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843576"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119577118"
 ---
 # <a name="cb_dir-message"></a>CB \_ DIR 訊息
 
@@ -78,9 +78,9 @@ ms.locfileid: "103843576"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                     |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 

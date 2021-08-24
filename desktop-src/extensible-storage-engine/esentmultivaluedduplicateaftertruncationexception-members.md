@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102321
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: b2f7f4f0230b3d4604a884b7dda47921f30d2c9c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 67467b6a4c81c3c549e294c7d34c06e1eefd4e7c48095c835d71d43504df6620
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104550971"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119479238"
 ---
 # <a name="esentmultivaluedduplicateaftertruncationexception-members"></a>EsentMultiValuedDuplicateAfterTruncationException 成員
 
