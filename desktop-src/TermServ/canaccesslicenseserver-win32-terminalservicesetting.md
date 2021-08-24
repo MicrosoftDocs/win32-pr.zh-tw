@@ -17,16 +17,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6ffa5bd0e108c0ccceed6890adedea7901834804
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0f0512f42d0d814793f4ecd62fda2dd84005a4183e8db736bd16919799b4570a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104094123"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119139141"
 ---
 # <a name="canaccesslicenseserver-method-of-the-win32_terminalservicesetting-class"></a>Win32 TerminalServiceSetting 類別的 CanAccessLicenseServer 方法 \_
 
-\[**CanAccessLicenseServer** 不再適用于 Windows Server 2008 R2。\]
+\[**CanAccessLicenseServer** 已不再可供使用，Windows Server 2008 R2。\]
 
 * * Windows Server 2008： * *
 
@@ -87,7 +87,7 @@ uint32 CanAccessLicenseServer(
 
 [授權伺服器安全性群組] 原則設定可讓您指定允許與授權伺服器連線的 RD 工作階段主機伺服器取得 RDS Cal。 如果授權伺服器上已啟用此原則設定，授權伺服器將只會回應電腦帳戶是授權伺服器上終端機伺服器電腦本機群組成員之 RD 工作階段主機伺服器的 RDS CAL 要求。
 
-若要連接到 \\ 根 \\ CIMV2 \\ microsoft-windows-terminalservices-gateway 命名空間，驗證層級必須包含封包隱私權。 針對 C/c + + 呼叫，這是 **RPC \_ C \_ 驗證 \_ level \_ PKT \_ 隱私權** 的驗證層級。 針對 Visual Basic 和腳本呼叫，這是 **WbemAuthenticationLevelPktPrivacy** 或 "pktPrivacy" 的驗證層級，其值為6。 下列 Visual Basic Scripting Edition (VBScript) 範例示範如何連接到具有封包隱私權的遠端電腦。
+若要連接到 \\ 根 \\ CIMV2 \\ microsoft-windows-terminalservices-gateway 命名空間，驗證層級必須包含封包隱私權。 針對 C/c + + 呼叫，這是 **RPC \_ C \_ 驗證 \_ level \_ PKT \_ 隱私權** 的驗證層級。 針對 Visual Basic 和腳本呼叫，這是 **WbemAuthenticationLevelPktPrivacy** 或 "pktPrivacy" 的驗證層級，其值為6。 下列 Visual Basic 腳本撰寫版 (VBScript) 範例示範如何連接到具有封包隱私權的遠端電腦。
 
 
 ```VB

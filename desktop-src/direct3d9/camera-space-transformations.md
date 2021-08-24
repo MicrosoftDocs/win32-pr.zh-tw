@@ -4,12 +4,12 @@ ms.assetid: 889dd0d8-1933-4901-9bbc-06c3caa26d3e
 title: " (Direct3D 9) 的相機空間轉換"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e621fa8318fa45023cee13ffc6fcfc65abcf8f5b
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: effb7af72decad711d9fc392e53f7aba05f48b3c69394dbfb3ae5f9f06e2def7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110768"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119241848"
 ---
 # <a name="camera-space-transformations-direct3d-9"></a> (Direct3D 9) 的相機空間轉換
 
@@ -41,7 +41,7 @@ L<sub>dir</sub> = 標準 (的 \*) ，其中參數定義于下表中。
 
 
 
-| 參數       | 預設值 | 類型      | Description                                               |
+| 參數       | 預設值 | 類型      | 描述                                               |
 |-----------------|---------------|-----------|-----------------------------------------------------------|
 | L<sub>dir</sub> | N/A           | D3DVECTOR | 從物件頂點到光線的方向向量          |
 | V               | N/A           | D3DVECTOR | 相機空間的頂點位置                           |

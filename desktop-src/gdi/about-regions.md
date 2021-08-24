@@ -4,12 +4,12 @@ ms.assetid: c71f43b4-dc85-420b-9574-03417d60a76f
 title: 關於區域
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 334dc51acdeb6b82449676ff10ceb11f04f3a453
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: feb32c2675882a53c0eb12259ef181af1c1696bc949b90c1d49c8048fe99a913
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104558747"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119038306"
 ---
 # <a name="about-regions"></a>關於區域
 

@@ -5,12 +5,12 @@ ms.assetid: 3928ff39-ed17-4a61-bb72-a3c9be16ae45
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 569f7ce633bfb70fdba5e7055a80ad73ebd0fb6c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 50422990a45dd59c2bedc3ac90bddcf06f7796cd3308daf03a11db0dca38f0b5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106978310"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119051056"
 ---
 # <a name="boolean-wmi"></a>WMI)  (布林值
 

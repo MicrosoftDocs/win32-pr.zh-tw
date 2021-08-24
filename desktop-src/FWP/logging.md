@@ -1,19 +1,19 @@
 ---
 title: '記錄 (Windows 篩選平台) '
-description: Windows 篩選平台 (WFP) 提供封包捨棄和 IKE/AuthIP 失敗的記錄。
+description: Windows篩選 Platform (WFP) 提供封包卸載和 IKE/AuthIP 失敗的記錄。
 ms.assetid: 607b7664-6be4-4ae6-991b-58ac9175405a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a27868c76a643a8e1b7b478152c100a2026bfc20
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 1500be04837126e6907b663e4496c58c05380d313a1465b9c8db05b5ea39d832
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "106994969"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119068908"
 ---
 # <a name="logging-windows-filtering-platform"></a>記錄 (Windows 篩選平台) 
 
-Windows 篩選平台 (WFP) 提供封包捨棄和 IKE/AuthIP 失敗的記錄。
+Windows 篩選平台 (WFP) 提供封包卸載和 IKE/AuthIP 失敗的記錄。
 
 記錄的事件會定義在 [**FWPM \_ NET \_ 事件 \_ 類型**](/windows/desktop/api/Fwpmtypes/ne-fwpmtypes-fwpm_net_event_type) 列舉型別中，如下所示。
 

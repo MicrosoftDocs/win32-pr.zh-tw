@@ -4,12 +4,12 @@ ms.assetid: 378f0d34-7328-45e5-9f55-826bdaed3aab
 title: 'FillClosedCurve 方法 (Gdiplusgraphics .h) '
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: c48ad7ffb772b6ff362fdb49995c969374eccc76
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 72e14d9af6d02ae7966c603508b30cf015b1dce75fbed7dc9b9d72ce8803b2bf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "104992527"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119037246"
 ---
 # <a name="graphicsfillclosedcurve-methods"></a>FillClosedCurve 方法
 

@@ -4,20 +4,20 @@ ms.assetid: 2e7444f8-94a6-40d6-b243-0764e245eec4
 title: 繪製線條
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b5284a178baab624633dd427cad84b35933a72fc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7a1e2a330f24cd0d1771458d02b264cdaa493835477b40c95d05ca4bf71c8a1e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972896"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119036806"
 ---
 # <a name="drawing-a-line"></a>繪製線條
 
 本主題將示範如何使用 GDI 加號繪製線條。
 
-若要在 Windows GDI + 中繪製線條，您需要 [**圖形**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) 物件、 [**Pen**](/windows/win32/api/gdipluspen/nl-gdipluspen-pen) 物件和 [**Color**](/windows/win32/api/gdipluscolor/nl-gdipluscolor-color) 物件。 **Graphics** 物件提供 [DrawLine](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawline(inconstpen_inint_inint_inint_inint))方法，而 **Pen** 物件會保存線條的屬性，例如色彩和寬度。 **畫筆** 物件的位址會做為引數傳遞至 **DrawLine** 方法。
+若要在 Windows 中繪製線條 GDI+ 您需要 [**圖形**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics)物件、 [**Pen**](/windows/win32/api/gdipluspen/nl-gdipluspen-pen)物件和 [**Color**](/windows/win32/api/gdipluscolor/nl-gdipluscolor-color)物件。 **Graphics** 物件提供 [DrawLine](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawline(inconstpen_inint_inint_inint_inint))方法，而 **Pen** 物件會保存線條的屬性，例如色彩和寬度。 **畫筆** 物件的位址會做為引數傳遞至 **DrawLine** 方法。
 
-下列程式會繪製從 (0，0) 到 (200，100) 的行，其中包含三個函數： **WinMain**、 **WndProc** 和 **OnPaint**。 **WinMain** 和 **WndProc** 函式提供大部分 Windows 應用程式通用的基本程式碼。 **WndProc** 函數中沒有任何 gdi + 程式碼。 **WinMain** 函式具有少量的 gdi + 程式碼，也就是 [**GdiplusStartup**](/windows/win32/api/Gdiplusinit/nf-gdiplusinit-gdiplusstartup)和 [**GdiplusShutdown**](/windows/win32/api/Gdiplusinit/nf-gdiplusinit-gdiplusshutdown)所需的呼叫。 實際建立 [**圖形**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) 物件並繪製線條的 gdi + 程式碼會在 **OnPaint** 函式中。
+下列程式會繪製從 (0，0) 到 (200，100) 的行，其中包含三個函數： **WinMain**、 **WndProc** 和 **OnPaint**。 **WinMain** 和 **WndProc** 函式提供大多數 Windows 應用程式通用的基礎程式碼。 **WndProc** 函數中沒有 GDI+ 程式碼。 **WinMain** 函式具有少量的 GDI+ 程式碼，也就是 [**GdiplusStartup**](/windows/win32/api/Gdiplusinit/nf-gdiplusinit-gdiplusstartup)和 [**GdiplusShutdown**](/windows/win32/api/Gdiplusinit/nf-gdiplusinit-gdiplusshutdown)所需的呼叫。 實際建立 [**圖形**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics)物件和繪製線條的 GDI+ 程式碼位於 **OnPaint** 函數中。
 
 **OnPaint** 函式會接收裝置內容的控制碼，並將該控制碼傳遞給 [**圖形**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics)的函式。 傳遞給 [**畫筆**](/windows/win32/api/gdipluspen/nl-gdipluspen-pen) 參數的引數是 [**Color**](/windows/win32/api/gdipluscolor/nl-gdipluscolor-color) 物件的參考。 傳遞給 color 函式的四個數字代表色彩的 Alpha、紅色、綠色和藍色元件。 Alpha 元件會決定色彩的透明度;0是完全透明的，而255則完全不透明。 傳遞至 [DrawLine](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawline(inconstpen_inint_inint_inint_inint)) 方法的四個數字，代表起點 (0、0) 和結束點 (200，100) 。
 

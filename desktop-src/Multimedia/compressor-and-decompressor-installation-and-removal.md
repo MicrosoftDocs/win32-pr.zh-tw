@@ -9,12 +9,12 @@ keywords:
 - ICRemove 函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bd65f0fc06dc1d5e90cb136f5cf4ea429c220d77
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 82a34f1818f9a60226c0f3cead8186ae3fa163ebe1782c0c83e7cfb5b633c1b6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104314707"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119144977"
 ---
 # <a name="compressor-and-decompressor-installation-and-removal"></a>壓縮和解壓縮安裝和移除
 
@@ -35,8 +35,8 @@ ms.locfileid: "104314707"
 > [!Note]  
 > 將函式安裝為壓縮程式或解壓縮程式的應用程式，必須在應用程式關閉之前移除該函式，讓其他應用程式不會嘗試使用該函數。 移除函式時，應用程式必須使用用來安裝它的四個字元碼來識別它。
 
- 
+ 
 
- 
+ 
 
- 
+ 

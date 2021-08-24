@@ -7,12 +7,12 @@ keywords:
 - 單一實例存放區 (SIS) 備份、一般存放區
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2b2f86b778b0a8db916fe580b8f833214523eb2e
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: f19337a967fd858c149bc9d4261abc44214d4c76023abe022b5e1c5efd5f8ed3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103842536"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119529468"
 ---
 # <a name="the-sis-common-store-and-common-store-files"></a>SIS 一般存放區和 Common-Store 檔案
 
@@ -30,6 +30,6 @@ ms.locfileid: "103842536"
 
 只有當最後一個指向它的 SIS 連結被刪除時，才會移除一般存放區檔案。
 
- 
+ 
 
- 
+ 

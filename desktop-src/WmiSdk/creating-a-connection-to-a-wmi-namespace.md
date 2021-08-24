@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 建立與 WMI 命名空間的連接
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7ce0e1caeef15709742704570c008012feeaf8db
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2587024d7f581cd28a8fdaf339db9567b17c509599c01aca0599b701186fb786
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104469457"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119412138"
 ---
 # <a name="creating-a-connection-to-a-wmi-namespace"></a>建立與 WMI 命名空間的連接
 
@@ -58,7 +58,7 @@ using namespace std;
 
     
 
-    -   透過呼叫 [**IWbemLocator：： ConnectServer**](/windows/desktop/api/Wbemcli/nf-wbemcli-iwbemlocator-connectserver) 方法連接至 WMI。
+    -   透過呼叫 [**IWbemLocator：： ConnectServer**](/windows/desktop/api/Wbemcli/nf-wbemcli-iwbemlocator-connectserver)方法連線至 WMI。
 
         [**ConnectServer**](/windows/desktop/api/Wbemcli/nf-wbemcli-iwbemlocator-connectserver)方法會將 proxy 傳回給 [**IWbemServices**](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemservices)介面，這個介面是用來存取您對 **ConnectServer** 呼叫中指定的本機或遠端 WMI 命名空間。
 

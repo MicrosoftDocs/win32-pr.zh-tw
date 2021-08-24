@@ -4,12 +4,12 @@ ms.assetid: ef3df24a-46a1-49de-b2f7-bfccdc793462
 title: '裝置上的 Web 服務常數 (Wsdutil .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 984946df757e059ef667b94274818aa2b38c87f4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 434c3bfa8a170055ce2141e27d97cf6c966bcd9fecd20de045659888447bcb84
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104192902"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119049666"
 ---
 # <a name="web-services-on-devices-constants"></a>裝置上的 Web 服務常數
 
@@ -31,8 +31,8 @@ ms.locfileid: "104192902"
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                 |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                 |
 | 標頭<br/>                   | <dl> <dt>Wsdutil。h</dt> </dl> |
 
 

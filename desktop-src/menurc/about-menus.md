@@ -34,12 +34,12 @@ keywords:
 - 功能表，已繪製的擁有者
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ed5d42eb42aaaaa16eef0b5b118adcfe0f91156e
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 34d35ddf55ad31ed27cc12c6adffa5517e0081db6d70b4d01d3b88780a8797bf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104375108"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119034488"
 ---
 # <a name="about-menus"></a>關於功能表
 
@@ -143,7 +143,7 @@ ms.locfileid: "104375108"
 
 
 
- 
+ 
 
 ### <a name="menu-access-keys"></a>功能表存取金鑰
 
@@ -174,7 +174,7 @@ ms.locfileid: "104375108"
 
 大部分的應用程式會使用功能表範本資源建立功能表。 *功能表範本* 會定義功能表，包括功能表列中的專案和所有功能表。 如需建立功能表範本資源的詳細資訊，請參閱您的開發工具隨附的檔。
 
-建立功能表範本資源並將它加入至應用程式的可執行檔 ( .exe) 檔案之後，您可以使用 [**LoadMenu**](/windows/desktop/api/Winuser/nf-winuser-loadmenua) 函式將資源載入記憶體中。 此函式會傳回功能表的控制碼，然後您可以使用 [**SetMenu**](/windows/desktop/api/Winuser/nf-winuser-setmenu) 函式將其指派給視窗。 您可以將功能表指派給不是子視窗的任何視窗。
+建立功能表範本資源並將它加入至應用程式的可執行檔 (.exe) 檔之後，您可以使用 [**LoadMenu**](/windows/desktop/api/Winuser/nf-winuser-loadmenua) 函式將資源載入至記憶體。 此函式會傳回功能表的控制碼，然後您可以使用 [**SetMenu**](/windows/desktop/api/Winuser/nf-winuser-setmenu) 函式將其指派給視窗。 您可以將功能表指派給不是子視窗的任何視窗。
 
 將功能表實作為資源，可讓您更輕鬆地將應用程式當地語系化，以在多個國家/地區中使用。 只有資源定義檔需要針對每種語言進行當地語系化，而不是應用程式的原始程式碼。
 
@@ -333,6 +333,6 @@ ms.locfileid: "104375108"
 
 如果已將功能表指派給視窗，且該視窗已終結，系統會自動終結功能表及其子功能表，釋出功能表的控制碼和功能表所佔用的記憶體。 系統不會自動摧毀未指派給視窗的功能表。 應用程式必須藉由呼叫 [**DestroyMenu**](/windows/desktop/api/Winuser/nf-winuser-destroymenu) 函數來終結未指派的功能表。 否則，即使應用程式關閉，功能表仍會繼續存在於記憶體中。 若要結束呼叫執行緒的現用功能表，請使用 [**EndMenu**](/windows/desktop/api/Winuser/nf-winuser-endmenu)。 如果平臺不支援 **EndMenu**，請將動態功能表的擁有者傳送至 [**WM \_ CANCELMODE**](/windows/desktop/winmsg/wm-cancelmode) 訊息。
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ ms.assetid: 60cced55-9fcc-4fce-a462-7abf3f4466f0
 title: 從檔案載入憑證
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c708fb042ccdf4acd43986de1404f9ccb266148
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e73161b133fec74478643baa8453421130b3f3ad18ff4e75429d79b3312919b5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106971610"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119099092"
 ---
 # <a name="load-a-certificate-from-a-file"></a>從檔案載入憑證
 

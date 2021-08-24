@@ -4,12 +4,12 @@ ms.assetid: 3dd4f6f0-2305-4470-bbd4-7737fa2d8eae
 title: 'OPM_GET_ACTUAL_PROTECTION_LEVEL (Opmapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 960d704fd44ca779f128795b26603698bb0ad622
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2ed5d895c037fedfa97bbafab8331d685af9a7f1ce81489b8d600bd903aa2a17
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026391"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119101917"
 ---
 # <a name="opm_get_actual_protection_level"></a>OPM \_ 取得 \_ 實際的 \_ 保護 \_ 層級
 
@@ -54,8 +54,8 @@ ms.locfileid: "104026391"
 
 | 需求 | 值 |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                      |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                      |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                |
 | 標頭<br/>                   | <dl> <dt>Opmapi。h</dt> </dl> |
 
 

@@ -4,12 +4,12 @@ ms.assetid: 70c1cdc4-7e8c-4d13-b371-c085f6c6eafe
 title: 並存元件 API
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 78f55d4f6a27f89d5e83777c923452dfcd534e0b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2da02cadf7f2f7be71cfb911a3d8314d79b16445fbb70a2adb1faa63acd6e63a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103851764"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119141861"
 ---
 # <a name="side-by-side-assembly-api"></a>並存元件 API
 

@@ -4,12 +4,12 @@ ms.assetid: e81068db-ab8e-420c-a0be-93bc92f3df6f
 title: 選項定義
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fdc7dddb4840de8bc91c7f9ab127fd31319e5399
-ms.sourcegitcommit: 998d50f6def8a25850fc113fc8a2df903c829c5e
+ms.openlocfilehash: 7f71f4201bb9bd38860a79fead7fd3e8738429fc34b729981af68c0d2d1f38d7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "113549366"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119098952"
 ---
 # <a name="option-definitions"></a>選項定義
 

@@ -4,12 +4,12 @@ ms.assetid: 2029afc4-419c-494a-ae52-1f84b08bcb35
 title: 'EC_PREPROCESS_COMPLETE (Dshow) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ba13938ac848ef37f1a2a2826372d97ff5a5d716
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: df07444c501ea89ec0d19f3f727e8325953e3c06f740562f7ec058eafa987fee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107000371"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119536998"
 ---
 # <a name="ec_preprocess_complete"></a>EC 前置處理 \_ \_ 完成
 

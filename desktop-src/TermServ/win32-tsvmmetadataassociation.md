@@ -18,12 +18,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: db3a68c20553eaf52903471d19df9df169ecde21
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ebe3389bb03c9e3f33a2cc3e33450318b68171f7ac35fffeaaa3976cb5ae3a33
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106966086"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119419998"
 ---
 # <a name="win32_tsvmmetadataassociation-class"></a>Win32 \_ TSVmMetadataAssociation 類別
 

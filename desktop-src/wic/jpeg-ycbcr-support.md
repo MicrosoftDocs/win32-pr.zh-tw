@@ -4,16 +4,16 @@ ms.assetid: 50B89A96-72E8-4771-9109-207F4CDD06CB
 title: JPEG YCbCr 支援
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b6a8f05fe55e724a12513f24fc7401d277ebf097
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9f2f8548a458f70265d248e1d686ad3bc300d7cfee2bc1e0ab2262ee652f0d9b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103944312"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119086774"
 ---
 # <a name="jpeg-ycbcr-support"></a>JPEG YCbCr 支援
 
-從 Windows 8.1 開始， [Windows 影像處理元件 (WIC) ](-wic-about-windows-imaging-codec.md) JPEG 編解碼器可支援在其原生 YC<sub>b</sub>C<sub>r</sub> 表單中讀取和寫入影像資料。 WIC YC<sub>b</sub>C<sub>r</sub> 支援可以搭配 [Direct2D](../direct2d/direct2d-portal.md) 使用，以呈現具有影像效果的 YC<sub>b</sub>C<sub>r</sub> 圖元資料。 此外，WIC JPEG 編解碼器也可以透過媒體基礎使用特定相機驅動程式所產生的 YC<sub>b</sub>C<sub>r</sub> 圖元資料。
+從 Windows 8.1 開始， [Windows 影像處理元件 (WIC) ](-wic-about-windows-imaging-codec.md) JPEG 編解碼器可支援在其原生 YC<sub>b</sub>C<sub>r</sub>表單中讀取和寫入影像資料。 WIC YC<sub>b</sub>C<sub>r</sub> 支援可以搭配 [Direct2D](../direct2d/direct2d-portal.md) 使用，以呈現具有影像效果的 YC<sub>b</sub>C<sub>r</sub> 圖元資料。 此外，WIC JPEG 編解碼器也可以透過媒體基礎使用特定相機驅動程式所產生的 YC<sub>b</sub>C<sub>r</sub> 圖元資料。
 
 YC<sub>b</sub>C<sub>r</sub> 圖元資料耗用的記憶體明顯小於標準 BGRA 像素格式。 此外，存取 YC<sub>b</sub>C<sub>r</sub> 資料可讓您將 JPEG 解碼/編碼管線的一些階段卸載至 Direct2D，也就是 GPU 加速。 藉由使用 YC<sub>b</sub>C<sub>r</sub>，您的應用程式可以減少相同大小和品質影像的 JPEG 記憶體耗用量和載入時間。 或者，您的應用程式可以使用更高解析度的 JPEG 影像，而不會受到效能的影響。
 
@@ -26,13 +26,13 @@ YC<sub>b</sub>C<sub>r</sub> 圖元資料耗用的記憶體明顯小於標準 BGR
     -   [YC<sub>b</sub>C<sub>r</sub>的 JPEG 用法](#jpeg-usage-of-ycbcr)
 -   [使用 JPEG YC<sub>b</sub>C<sub>r</sub> 資料](#using-jpeg-ycbcr-data)
     -   [使用 YC<sub>b</sub>C<sub>r</sub> JPEG 影像](#using-ycbcr-jpeg-images)
-    -   [Windows 影像處理元件 Api](#windows-imaging-component-apis)
+    -   [Windows映射處理元件 Api](#windows-imaging-component-apis)
     -   [Direct2D Api](#direct2d-apis)
     -   [判斷是否支援 YC<sub>b</sub>C<sub>r</sub> 設定](#determining-if-the-ycbcr-configuration-is-supported)
     -   [解碼 YC<sub>b</sub>C<sub>r</sub> 圖元資料](#decoding-ycbcr-pixel-data)
     -   [轉換 YC<sub>b</sub>C<sub>r</sub> 圖元資料](#transforming-ycbcr-pixel-data)
     -   [編碼 YC<sub>b</sub>C<sub>r</sub> 圖元資料](#encoding-ycbcr-pixel-data)
-    -   [解碼 Windows 10 中的 YC<sub>b</sub>C<sub>r</sub> 圖元資料](#decoding-ycbcr-pixel-data-in-windows-10)
+    -   [解碼 Windows 10 中的 YC<sub>b</sub>C<sub>r</sub>圖元資料](#decoding-ycbcr-pixel-data-in-windows-10)
 -   [相關主題](#related-topics)
 
 ## <a name="about-jpeg-ycsubbsubcsubrsub-data"></a>關於 JPEG YC<sub>b</sub>C<sub>r</sub> 資料
@@ -41,7 +41,7 @@ YC<sub>b</sub>C<sub>r</sub> 圖元資料耗用的記憶體明顯小於標準 BGR
 
 ### <a name="ycsubbsubcsubrsub-color-model"></a>YC<sub>b</sub>C<sub>r</sub> 色彩模型
 
-Windows 8 和較早版本中的 WIC 支援四種不同的 [色彩模型](-wic-codec-native-pixel-formats.md)，最常見的是 RGB/BGR。 此色彩模型使用紅色、綠色和藍色元件定義色彩資料;也可以使用第四個 Alpha 元件。
+Windows 8 和較早版本中的 WIC 支援四種不同的[色彩模型](-wic-codec-native-pixel-formats.md)，最常見的是 RGB/BGR。 此色彩模型使用紅色、綠色和藍色元件定義色彩資料;也可以使用第四個 Alpha 元件。
 
 以下是分解成紅色、綠色和藍色元件的影像。
 
@@ -122,9 +122,9 @@ YC<sub>b</sub>C<sub>r</sub> 色彩模型非常適合數位影像案例，因為�
 
 WIC 和 Direct2D 不支援每個可能的 YC<sub>b</sub>C<sub>r</sub> 設定，而 Direct2D 中的 YC<sub>b</sub>c<sub>r</sub> 支援取決於基礎圖形硬體和驅動程式。 基於這個原因，一般用途的影像處理管線必須健全于未使用 YC<sub>b</sub>c<sub>r</sub> (包括其他常見的影像格式，例如 PNG 或 BMP) ，或無法使用 YC<sub>b</sub>C<sub>r</sub> 支援的情況。 建議您保留現有的 BGRA 型映射管線，並啟用 YC<sub>b</sub>C<sub>r</sub> 作為效能優化（如果有的話）。
 
-### <a name="windows-imaging-component-apis"></a>Windows 影像處理元件 Api
+### <a name="windows-imaging-component-apis"></a>Windows映射處理元件 Api
 
-Windows 8.1 中的 WIC 會新增三個新介面，以提供對 JPEG YC<sub>b</sub>C<sub>r</sub> 資料的存取。
+Windows 8.1 中的 WIC 會新增三個新介面，以提供對 JPEG YC<sub>b</sub>C<sub>r</sub>資料的存取。
 
 ### <a name="iwicplanarbitmapsourcetransform"></a>IWICPlanarBitmapSourceTransform
 
@@ -136,11 +136,11 @@ Windows 8.1 中的 WIC 會新增三個新介面，以提供對 JPEG YC<sub>b</su
 
 ### <a name="iwicplanarformatconverter"></a>IWICPlanarFormatConverter
 
-[**IWICPlanarFormatConverter**](/windows/desktop/api/Wincodec/nn-wincodec-iwicplanarformatconverter) 可讓 [**IWICFormatConverter**](/windows/desktop/api/Wincodec/nn-wincodec-iwicformatconverter) 取用平面圖元資料（包括 YC <sub>b</sub>C <sub>r</sub>），並將它轉換成交錯的像素格式。 它不會公開將交錯圖元資料轉換成平面格式的能力。 您可以在 Windows 提供的 **IWICFormatConverter** 執行上呼叫 QueryInterface 來取得這個介面。
+[**IWICPlanarFormatConverter**](/windows/desktop/api/Wincodec/nn-wincodec-iwicplanarformatconverter) 可讓 [**IWICFormatConverter**](/windows/desktop/api/Wincodec/nn-wincodec-iwicformatconverter) 取用平面圖元資料（包括 YC <sub>b</sub>C <sub>r</sub>），並將它轉換成交錯的像素格式。 它不會公開將交錯圖元資料轉換成平面格式的能力。 您可以藉由在提供的 **IWICFormatConverter** 執行 Windows 上呼叫 QueryInterface 來取得這個介面。
 
 ### <a name="direct2d-apis"></a>Direct2D Api
 
-Windows 8.1 中的 Direct2D 支援 YC<sub>b</sub>c<sub>r</sub> 平面圖元資料（具有新的 YC<sub>b</sub>c<sub>r</sub> 影像效果）。 此效果提供轉譯 YC<sub>b</sub>C<sub>r</sub> 資料的能力。 效果會採用輸入兩個 [**ID2D1Bitmap**](/windows/win32/api/d2d1/nn-d2d1-id2d1bitmap) 介面：一個是以 dxgi 格式 R8 UNORM 格式來包含平面 Y 資料 \_ \_ \_ ，另一個則包含 dxgi \_ 格式 \_ R8G8 UNORM 格式的交錯 CbCr 資料 \_ 。 您通常會使用此效果來取代可能包含 BGRA 圖元資料的 **ID2D1Bitmap** 。
+Windows 8.1 中的 Direct2D 支援 YC<sub>b</sub>c<sub>r</sub>平面圖元資料（具有新的 YC<sub>b</sub>c<sub>r</sub>影像效果）。 此效果提供轉譯 YC<sub>b</sub>C<sub>r</sub> 資料的能力。 效果會採用輸入兩個 [**ID2D1Bitmap**](/windows/win32/api/d2d1/nn-d2d1-id2d1bitmap) 介面：一個是以 dxgi 格式 R8 UNORM 格式來包含平面 Y 資料 \_ \_ \_ ，另一個則包含 dxgi \_ 格式 \_ R8G8 UNORM 格式的交錯 CbCr 資料 \_ 。 您通常會使用此效果來取代可能包含 BGRA 圖元資料的 **ID2D1Bitmap** 。
 
 YC<sub>b</sub>c<sub>r</sub>影像效果的目的是要搭配可提供 YC<sub>b</sub>c<sub>r</sub>資料的 WIC YC<sub>b</sub>c<sub>r</sub> api 一起使用。 這可有效地將部分解碼工作從 CPU 卸載至 GPU，以便更快速且平行處理。
 
@@ -150,7 +150,7 @@ YC<sub>b</sub>c<sub>r</sub>影像效果的目的是要搭配可提供 YC<sub>b</
 
 ### <a name="does-the-wic-component-support-ycsubbsubcsubrsub-data-access"></a>WIC 元件是否支援 YC<sub>b</sub>C<sub>r</sub> 資料存取？
 
-只有 Windows 提供的 JPEG 編解碼器和某些 WIC 轉換支援 YC<sub>b</sub>C<sub>r</sub> 資料存取。 如需完整清單，請參閱 [Windows 影像處理元件 api](#windows-imaging-component-apis) 一節。
+只有 Windows 提供的 JPEG 編解碼器和某些 WIC 轉換支援 YC<sub>b</sub>C<sub>r</sub>資料存取。 如需完整清單，請參閱[Windows 影像處理元件 api](#windows-imaging-component-apis)一節。
 
 若要取得其中一個平面 YC<sub>b</sub>C<sub>r</sub> 介面，請呼叫原始介面上的 QueryInterface。 如果元件不支援 YC<sub>b</sub>C<sub>r</sub> 資料存取，這將會失敗。
 
@@ -309,7 +309,7 @@ void DirectXSampleRenderer::LockBitmap(
 
 ### <a name="transforming-ycsubbsubcsubrsub-pixel-data"></a>轉換 YC<sub>b</sub>C<sub>r</sub> 圖元資料
 
-轉換 YC <sub>b</sub>C <sub>r</sub> 資料與解碼幾乎完全相同，因為兩者都牽涉到 [**IWICPlanarBitmapSourceTransform**](/windows/desktop/api/Wincodec/nn-wincodec-iwicplanarbitmapsourcetransform)。 唯一的差別是您取得介面的 WIC 物件。 Windows 提供的 scaler、翻轉旋轉旋轉和色彩轉換全都支援 YC<sub>b</sub>C<sub>r</sub> 存取。
+轉換 YC <sub>b</sub>C <sub>r</sub> 資料與解碼幾乎完全相同，因為兩者都牽涉到 [**IWICPlanarBitmapSourceTransform**](/windows/desktop/api/Wincodec/nn-wincodec-iwicplanarbitmapsourcetransform)。 唯一的差別是您取得介面的 WIC 物件。 Windows 提供的 scaler、翻轉旋轉旋轉和色彩轉換全都支援 YC<sub>b</sub>C<sub>r</sub>存取。
 
 ### <a name="chaining-transforms-together"></a>將轉換連結在一起
 
@@ -327,7 +327,7 @@ WIC 支援將多個轉換連結在一起的概念。 例如，您可以建立下
 
 ### <a name="format-conversions"></a>格式轉換
 
-使用 [**IWICPlanarFormatConverter**](/windows/desktop/api/Wincodec/nn-wincodec-iwicplanarformatconverter) 將平面 YC <sub>b</sub>C <sub>r</sub> 圖元資料轉換成交錯的像素格式，例如 GUID \_ WICPixelFormat32bppPBGRA。 Windows 8.1 中的 WIC 不提供轉換成平面 YC<sub>b</sub>C<sub>r</sub> 像素格式的能力。
+使用 [**IWICPlanarFormatConverter**](/windows/desktop/api/Wincodec/nn-wincodec-iwicplanarformatconverter) 將平面 YC <sub>b</sub>C <sub>r</sub> 圖元資料轉換成交錯的像素格式，例如 GUID \_ WICPixelFormat32bppPBGRA。 Windows 8.1 中的 WIC 不提供轉換成平面 YC<sub>b</sub>C<sub>r</sub>像素格式的能力。
 
 ### <a name="encoding-ycsubbsubcsubrsub-pixel-data"></a>編碼 YC<sub>b</sub>C<sub>r</sub> 圖元資料
 
@@ -341,9 +341,9 @@ WIC 支援將多個轉換連結在一起的概念。 例如，您可以建立下
 4.  使用 [**IWICPlanarBitmapFrameEncode：： WriteSource**](/windows/desktop/api/Wincodec/nf-wincodec-iwicplanarbitmapframeencode-writesource)或 [**IWICPlanarBitmapFrameEncode：： WRITEPIXELS**](/windows/desktop/api/Wincodec/nf-wincodec-iwicplanarbitmapframeencode-writepixels)來設定 YC <sub>b</sub>C <sub>r</sub>圖元資料。 與其 [**IWICBitmapFrameEncode**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframeencode) 對應專案不同，您會以 [**IWICBitmapSource**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapsource) 或 [**WICBitmapPlane**](/windows/desktop/api/Wincodec/ns-wincodec-wicbitmapplane) 陣列提供這些方法，其中包含 YC <sub>b</sub>C <sub>r</sub> 圖元平面。
 5.  當您完成時，請呼叫 [**IWICBitmapFrameEncode：： Commit**](/windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapframeencode-commit)。
 
-### <a name="decoding-ycsubbsubcsubrsub-pixel-data-in-windows-10"></a>解碼 Windows 10 中的 YC<sub>b</sub>C<sub>r</sub> 圖元資料
+### <a name="decoding-ycsubbsubcsubrsub-pixel-data-in-windows-10"></a>解碼 Windows 10 中的 YC<sub>b</sub>C<sub>r</sub>圖元資料
 
-從 Windows 10 組建1507開始，Direct2D 提供 [**ID2D1ImageSourceFromWic**](/windows/win32/api/d2d1_3/nn-d2d1_3-id2d1imagesourcefromwic)，這是一個比較簡單的方式，可將 jpeg 解碼成 Direct2D，同時利用 YC <sub>b</sub>C <sub>r</sub> 優化。 **ID2D1ImageSourceFromWic** 會自動為您執行所有必要的 YC <sub>b</sub>C <sub>r</sub> 功能檢查;如果可能的話，它會使用優化的代碼路徑，否則會使用 fallback。 它也會啟用新的優化，例如僅快取所需的映射子領域加寬。
+從 Windows 10 組建1507開始，Direct2D 提供 [**ID2D1ImageSourceFromWic**](/windows/win32/api/d2d1_3/nn-d2d1_3-id2d1imagesourcefromwic)，這是一個比較簡單的方式，可將 jpeg 解碼成 Direct2D，同時利用 YC <sub>b</sub>C <sub>r</sub>優化。 **ID2D1ImageSourceFromWic** 會自動為您執行所有必要的 YC <sub>b</sub>C <sub>r</sub> 功能檢查;如果可能的話，它會使用優化的代碼路徑，否則會使用 fallback。 它也會啟用新的優化，例如僅快取所需的映射子領域加寬。
 
 如需有關使用 [**ID2D1ImageSourceFromWic**](/windows/win32/api/d2d1_3/nn-d2d1_3-id2d1imagesourcefromwic)的詳細資訊，請參閱 Direct2D 相片調整 SDK [範例](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/D2DPhotoAdjustment)。
 

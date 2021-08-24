@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 0981f02df3b807ab56fa20922d1e245f00c2df34
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0d3f059a40c5ec7bb35b90ec4cddf584d586ace3a039e7c48e5957ee3606ba79
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194993"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119107112"
 ---
 # <a name="systemparameterscachesize-property"></a>SystemParameters. CacheSize 屬性
 

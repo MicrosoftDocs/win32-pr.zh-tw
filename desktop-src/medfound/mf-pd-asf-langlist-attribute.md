@@ -4,12 +4,12 @@ ms.assetid: 07b8a991-b392-47c1-a6d7-a1f5dcc82e5c
 title: 'MF_PD_ASF_LANGLIST 屬性 (Wmcontainer) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ecac5eac178c7fb315e0ca4cfdbd540a27eeac28
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ba22004001df2ba6be8fb7a173a3ea9bed1b0a73863ae111e61d36efa853e079
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975188"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119103700"
 ---
 # <a name="mf_pd_asf_langlist-attribute"></a>MF \_ PD \_ ASF \_ LANGLIST 屬性
 
@@ -27,9 +27,9 @@ ms.locfileid: "106975188"
 
 
 
-| 語言清單物件欄位 | 資料類型    | 大小    | Description                            |
+| 語言清單物件欄位 | 資料類型    | 大小    | 描述                            |
 |----------------------------|--------------|---------|----------------------------------------|
-| 語言識別項記錄計數  | **Dword**    | 4 個位元組 | 語言數目                    |
+| 語言識別項記錄計數  | **DWORD**    | 4 個位元組 | 語言數目                    |
 | 語言識別項記錄        | **位元組**\[\] | 不定  | 語言字串的陣列 (請參閱下面的) 。 |
 
 
@@ -40,9 +40,9 @@ ms.locfileid: "106975188"
 
 
 
-| 語言清單物件欄位 | 資料類型     | 大小    | Description                                                                               |
+| 語言清單物件欄位 | 資料類型     | 大小    | 描述                                                                               |
 |----------------------------|---------------|---------|-------------------------------------------------------------------------------------------|
-| 語言識別項長度         | **Dword**     | 4 個位元組 | 字串的長度（以位元組為單位），包括尾端 **Null** 字元的大小。 |
+| 語言識別項長度         | **DWORD**     | 4 個位元組 | 字串的長度（以位元組為單位），包括尾端 **Null** 字元的大小。 |
 | 語言識別碼                | **WCHAR**\[\] | 不定  | 以 null 終止的字串，包含 RFC 1766 語言名稱。                           |
 
 
@@ -203,8 +203,8 @@ private:
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                     |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                     |
 | 標頭<br/>                   | <dl> <dt>Wmcontainer。h</dt> </dl> |
 
 

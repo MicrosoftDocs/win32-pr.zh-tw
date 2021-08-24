@@ -4,12 +4,12 @@ ms.assetid: b304971d-584a-4d0f-be5b-26f0ab315ec9
 title: 使用 Windows Update 代理程式 API
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 54b5d155a2354b68135d0742f765dffb01e7235f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 44c43f5c81d092c6436fb205825a702af653fb2e8448cf4493d148dbba7a8a02
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103690711"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119130390"
 ---
 # <a name="using-the-windows-update-agent-api"></a>使用 Windows Update 代理程式 API
 
@@ -19,11 +19,11 @@ ms.locfileid: "103690711"
 
 > [!IMPORTANT]
 >
-> 這些腳本的目的是要示範如何使用 Windows Update 代理程式 Api，並提供開發人員如何使用這些 Api 來解決問題的範例。 這些腳本並不是用來做為實際執行程式碼，而 Microsoft (也不支援腳本本身，不過) 支援基礎 Windows Update 代理程式 Api。
+> 這些腳本的目的是要示範如何使用 Windows Update 代理程式 api，並提供開發人員如何使用這些 api 來解決問題的範例。 這些腳本並不是用來做為實際執行程式碼，而 Microsoft (也不支援腳本本身，不過) 支援基礎 Windows Update 代理程式 api。
 
  
 
--   [Windows Update 代理程式物件模型](windows-update-agent-object-model.md)
+-   [Windows更新代理程式物件模型](windows-update-agent-object-model.md)
 -   [判斷 WUA 的目前版本](determining-the-current-version-of-wua.md)
 -   [更新 Windows Update 代理程式](updating-the-windows-update-agent.md)
 -   [更新 Windows Update 代理程式標頭檔](updating-windows-update-agent-header-files.md)

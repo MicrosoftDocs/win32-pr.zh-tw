@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 編譯 MOF 檔案
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9d90a034bb66bb78b9421900b728f998f52f6782
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a19245580a00ec5be577efa0e5cbc6e8fe2a2e56b90c9cfce9f5761bea14935d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106994409"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119131650"
 ---
 # <a name="compiling-mof-files"></a>編譯 MOF 檔案
 

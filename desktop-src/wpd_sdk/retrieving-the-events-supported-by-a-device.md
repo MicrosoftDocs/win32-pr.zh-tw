@@ -4,12 +4,12 @@ ms.assetid: 951b300f-03de-4a3d-9356-e3a7b5b17fdb
 title: 正在抓取裝置支援的事件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a542a34d0938c7e2ff86118818714f18b1224f7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a4e0e24b5a4424d03c916ca73fd0192f9b6de0a80b6a2e2e67a129deb832f7bd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104514161"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119263118"
 ---
 # <a name="retrieving-the-events-supported-by-a-device"></a>正在抓取裝置支援的事件
 
@@ -28,7 +28,7 @@ ms.locfileid: "104514161"
 | 物件已移除              | 發生于從裝置移除物件之後。                                                                               |
 | 要求的物件傳輸   | 表示已提出要求以傳送物件。                                                                          |
 | 物件已更新              | 在物件或其子系已更新後發生。 接著， (連線的用戶端應該更新其指定物件的視圖。 )  |
-| 正在進行儲存格式  | 當裝置存放裝置格式化時發生。                                                                                     |
+| 儲存體格式正在進行中  | 當裝置存放裝置格式化時發生。                                                                                     |
 
 
 

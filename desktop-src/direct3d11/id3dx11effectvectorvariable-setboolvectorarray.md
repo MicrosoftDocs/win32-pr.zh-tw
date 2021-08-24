@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0ce1f34783390c4bcef55df81ba6c9a2215486cb
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
-ms.translationtype: HT
+ms.openlocfilehash: 3473cf5a64eef9cafdd49abc81e18c9d50dd6c3199bcb1e57990d8215c1f401f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104323164"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119124453"
 ---
 # <a name="id3dx11effectvectorvariablesetboolvectorarray-method"></a>ID3DX11EffectVectorVariable：： SetBoolVectorArray 方法
 

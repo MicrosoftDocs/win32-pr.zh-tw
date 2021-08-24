@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0f5103e90ec84a20ff4c04d9036a744919d9b1fd
-ms.sourcegitcommit: 3e70ae762629e244028b437420ed50b5850db4e3
+ms.openlocfilehash: 613acaabc017b9e673d2cba6a64f84db054a4cdc0d73a0639fcf8455edff8298
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "104092552"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119528828"
 ---
 # <a name="fragment"></a>片段
 
@@ -109,9 +109,9 @@ Content-type *標頭是標準的 HTTP* 1.1 標頭。 如需 *content-type 標頭
 [**建立-會話**](create-session.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

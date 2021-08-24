@@ -6,12 +6,12 @@ keywords:
 - ServiceParameters 登錄值 COM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 235de1052df72e88e2093647928ed68ab67451cd
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 103b55269b700beaf5c85e3408e3597e63fb9140e4dc79fe4bb895ff6767bfc9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104300960"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119129960"
 ---
 # <a name="serviceparameters"></a>ServiceParameters
 
@@ -21,8 +21,8 @@ ms.locfileid: "104300960"
 
 ```
 HKEY_LOCAL_MACHINE\SOFTWARE\Classes\AppID
-   {AppID_GUID}
-      ServiceParameters = parameter
+   {AppID_GUID}
+      ServiceParameters = parameter
 ```
 
 ## <a name="remarks"></a>備註
@@ -39,9 +39,9 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Classes\AppID
 [註冊 COM 伺服器](registering-com-servers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

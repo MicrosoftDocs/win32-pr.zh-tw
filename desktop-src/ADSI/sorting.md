@@ -5,12 +5,12 @@ ms.assetid: 795d27f0-0bfa-417e-aa1f-f2471f92dc45
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0e4ee790a646367366afe33639abd8f5aa57ed4f
-ms.sourcegitcommit: 8ea1a82717bd3dbb3457be0697329aa37fb13f08
+ms.openlocfilehash: 555b4b6f1868b2e4fddc1891cdf349ef6f44bc47dca6eb80e021ec49cb91b5d3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "106968881"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119082222"
 ---
 # <a name="sorting-adsi"></a>排序 (ADSI) 
 
@@ -24,11 +24,11 @@ ms.locfileid: "106968881"
 > [!Note]  
 > 並非所有目錄伺服器都支援多個屬性排序或排序次序。
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: bde3bcae-2152-4589-92a0-b44d98f233ef
 title: 驗證介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b101fd4fdd3c518d24b5b6f798fcaa4e0327dd22
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6843385004095499a59593bf548ff21998c4079e48667ea0e472e4a55d1f57ed
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193288"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119141401"
 ---
 # <a name="authentication-interfaces"></a>驗證介面
 

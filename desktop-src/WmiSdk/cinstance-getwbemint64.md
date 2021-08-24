@@ -14,12 +14,12 @@ api_type:
 api_location:
 - FrameDynOS.dll
 - FrameDyn.dll
-ms.openlocfilehash: 3d7b7a9f4091125bd722aea197c1670defb0c21b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 533cd30dece484373db84c2d1d6dda247be0d37ed23ae92f39c513e5c44c1593
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319687"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119050946"
 ---
 # <a name="cinstancegetwbemint64-methods"></a>CInstance：： GetWBEMINT64 方法
 

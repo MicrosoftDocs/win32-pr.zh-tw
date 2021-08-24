@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 1551c3e243ef45b7f261fd01a6b1c7926478437d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c13b269318d62d4c264bc5b8d9503a4d011c2727b79030f64bb5a6545ba0df70
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103691495"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119038526"
 ---
 # <a name="windows8apijetcreatetablecolumnindex4-method"></a>Windows8Api. JetCreateTableColumnIndex4 方法
 

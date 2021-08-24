@@ -4,12 +4,12 @@ ms.assetid: 2c5dc1f8-590f-4b41-b6bb-f82ab093252f
 title: 使用位址解析通訊協定
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: deec57c3b028f8f90135567bb07dbc00bda89036
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6ca1ef7e5d657476ff85a8893d71e197a034c70234e44f32317b7b05f58c9b94
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106984732"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119290008"
 ---
 # <a name="using-the-address-resolution-protocol"></a>使用位址解析通訊協定
 

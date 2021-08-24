@@ -4,12 +4,12 @@ description: Single-Threaded 和多執行緒通訊
 ms.assetid: 8d3a855c-b52d-48bb-9fdf-efbf8005c374
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b6470ac398e6ae1c8a645fb076fbbf509d58b579
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c1096ff2cd5916bf16b00a746c2e6de6ce22008258c6e200c2858c0430cb3f96
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104300531"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119129830"
 ---
 # <a name="single-threaded-and-multithreaded-communication"></a>Single-Threaded 和多執行緒通訊
 
@@ -20,7 +20,7 @@ ms.locfileid: "104300531"
 > [!Note]  
 > 處理同進程伺服器時，有一些特殊考慮。 如需詳細資訊，請參閱同 [進程伺服器執行緒問題](in-process-server-threading-issues.md)。
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -44,9 +44,9 @@ ms.locfileid: "104300531"
 [單一執行緒單元](single-threaded-apartments.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

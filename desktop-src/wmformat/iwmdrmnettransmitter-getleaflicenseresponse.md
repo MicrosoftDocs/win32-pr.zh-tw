@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1bf2374966abfae4353a72755313c1cbbdfb7287
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: aff470341c3227782d0d34cbdd2ca2a4a51a4cb1b6214b81ea2ea9a384b29ee2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106982543"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119084828"
 ---
 # <a name="iwmdrmnettransmittergetleaflicenseresponse-method"></a>IWMDRMNetTransmitter：： GetLeafLicenseResponse 方法
 
@@ -87,7 +87,7 @@ HRESULT GetLeafLicenseResponse(
 
 
 
-| 傳回碼                                                                                                | Description                                              |
+| 傳回碼                                                                                                | 描述                                              |
 |------------------------------------------------------------------------------------------------------------|----------------------------------------------------------|
 | <dl> <dt>**NS \_ E \_ DRM \_ RIV \_ 太 \_ 小**</dt> </dl> | 需要更新的內容撤銷清單。<br/> |
 | <dl> <dt>**S \_ 確定**</dt> </dl>                       | 此方法已成功。<br/>                         |

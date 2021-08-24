@@ -4,12 +4,12 @@ description: 您可以使用 Windows 系統評定工具 (WinSAT) 架構來判斷
 ms.assetid: da497f3b-f5a2-401e-8230-937362ecf4f2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 55e18cd775d8dab59bbe9b7f23392242f7eca1e5
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 57e3096e9ad514740c409933ce60418def7e5704d0e284b2ad83ef6502fdee6d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839659"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119412218"
 ---
 # <a name="winsat-schema"></a>WinSAT 架構
 
@@ -1235,9 +1235,9 @@ ms.locfileid: "103839659"
 
 
 
- 
+ 
 
- 
+ 
 
 
 

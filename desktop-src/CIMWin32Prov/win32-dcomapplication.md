@@ -20,12 +20,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: a90ddaab9565557b5bbc83f52d0dce82447ab15d
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: fe8b349a0bc749d6b07df2f02f331bc94f3e4a05edff5bb1b2031928ee6c2a51
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106991654"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119217708"
 ---
 # <a name="win32_dcomapplication-class"></a>Win32 \_ DCOMApplication 類別
 

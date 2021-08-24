@@ -4,12 +4,12 @@ ms.assetid: 63c4f775-b1a3-4f7c-808b-81c596f26353
 title: 一般顯示裝置內容
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 890b0235784ec1ed11c8ce3a553244629a008d75
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 506d9de2d9908be735d959a85ca6bdfe99abf7f33489c74175ab2882551393cf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943807"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119105687"
 ---
 # <a name="common-display-device-contexts"></a>一般顯示裝置內容
 

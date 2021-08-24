@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 更新腳本中的 WMI 資料
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ae0f17ce718fcf5b57e4f3204337634af4129d24
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 969a97c6300ac256e08c79e4f4aaeaa8d05bda072a2c310812ce3b2061c791fc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193638"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119050446"
 ---
 # <a name="refreshing-wmi-data-in-scripts"></a>更新腳本中的 WMI 資料
 
@@ -30,7 +30,7 @@ ms.locfileid: "104193638"
 
     
 
-2.  連接到 WMI 命名空間。 若要使用預先安裝的 [**Win32 \_**](/windows/desktop/CIMWin32Prov/win32-perf) 效能效能等級，請連接到 **根 \\ cimv2**。
+2.  連線至 WMI 命名空間。 若要使用預先安裝的 [**Win32 \_**](/windows/desktop/CIMWin32Prov/win32-perf) 效能效能等級，請連接到 **根 \\ cimv2**。
 
     ```VB
     Set objServicesCimv2 = GetObject("winmgmts:\\" _

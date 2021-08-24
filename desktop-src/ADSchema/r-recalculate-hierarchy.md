@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 441ef83b2c904e64f03d9aacb2338ea9f2e29d4c
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: dbd510dadf39cfb816850cb081454cad2424bb2c1633ed14bcedc9d871c93510
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103686764"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119531458"
 ---
 # <a name="recalculate-hierarchy-extended-right"></a>Recalculate-Hierarchy 擴充許可權
 

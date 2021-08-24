@@ -79,7 +79,7 @@
               href: c-displayspecifier.md
             - name: Display-Template
               href: c-displaytemplate.md
-            - name: Dmd
+            - name: DMD
               href: c-dmd.md
             - name: Dns-Node
               href: c-dnsnode.md
@@ -159,7 +159,7 @@
               href: c-ipservice.md
             - name: Leaf
               href: c-leaf.md
-            - name: 授權-網站-設定
+            - name: 授權-網站設定
               href: c-licensingsitesettings.md
             - name: 連結-追蹤-物件-移動資料表
               href: c-linktrackobjectmovetable.md
@@ -291,7 +291,7 @@
               href: c-msmqconfiguration.md
             - name: MSMQ-自訂-收件者
               href: c-msmq-custom-recipient.md
-            - name: MSMQ-企業-設定
+            - name: MSMQ-Enterprise-設定
               href: c-msmqenterprisesettings.md
             - name: MSMQ-Group
               href: c-msmq-group.md
@@ -307,7 +307,7 @@
               href: c-ms-net-ieee-80211-grouppolicy.md
             - name: ms-net-ieee-8023-GroupPolicy
               href: c-ms-net-ieee-8023-grouppolicy.md
-            - name: ms-PKI-企業-Oid
+            - name: ms-chap-Enterprise-Oid
               href: c-mspki-enterprise-oid.md
             - name: ms-PKI-金鑰復原-代理程式
               href: c-mspki-key-recovery-agent.md
@@ -329,19 +329,19 @@
               href: c-msspp-activationobject.md
             - name: SPP-啟用-物件-容器
               href: c-msspp-activationobjectscontainer.md
-            - name: OLAPCube
+            - name: 毫秒-SQL-OLAPCube
               href: c-ms-sql-olapcube.md
-            - name: OLAPDatabase
+            - name: 毫秒-SQL-OLAPDatabase
               href: c-ms-sql-olapdatabase.md
-            - name: Olapserver.server
+            - name: 毫秒-SQL-olapserver.server
               href: c-ms-sql-olapserver.md
-            - name: SQLDatabase
+            - name: 毫秒-SQL-SQLDatabase
               href: c-ms-sql-sqldatabase.md
-            - name: SQLPublication
+            - name: 毫秒-SQL-SQLPublication
               href: c-ms-sql-sqlpublication.md
-            - name: SQLRepository
+            - name: 毫秒-SQL-SQLRepository
               href: c-ms-sql-sqlrepository.md
-            - name: MS-CHAP-SQLServer
+            - name: 毫秒-SQL-SQLServer
               href: c-ms-sql-sqlserver.md
             - name: ms-TAPI-Rt-會議
               href: c-mstapi-rtconference.md
@@ -423,7 +423,7 @@
               href: c-organizationalunit.md
             - name: Package-Registration
               href: c-packageregistration.md
-            - name: 個人
+            - name: 人
               href: c-person.md
             - name: Physical-Location
               href: c-physicallocation.md
@@ -441,7 +441,7 @@
               href: c-querypolicy.md
             - name: 遠端郵件-收件者
               href: c-remotemailrecipient.md
-            - name: 遠端存放服務-點
+            - name: 遠端儲存體-服務點
               href: c-remotestorageservicepoint.md
             - name: Residential-Person
               href: c-residentialperson.md
@@ -521,7 +521,7 @@
               href: c-trusteddomain.md
             - name: Type-Library
               href: c-typelibrary.md
-            - name: User
+            - name: 使用者
               href: c-user.md
             - name: 磁碟區
               href: c-volume.md
@@ -586,7 +586,7 @@
               href: c-displayspecifier.md
             - name: Display-Template
               href: c-displaytemplate.md
-            - name: Dmd
+            - name: DMD
               href: c-dmd.md
             - name: Dns-Node
               href: c-dnsnode.md
@@ -650,7 +650,7 @@
               href: c-ipsecpolicy.md
             - name: ipService
               href: c-ipservice.md
-            - name: 授權-網站-設定
+            - name: 授權-網站設定
               href: c-licensingsitesettings.md
             - name: 連結-追蹤-物件-移動資料表
               href: c-linktrackobjectmovetable.md
@@ -774,7 +774,7 @@
               href: c-msmqconfiguration.md
             - name: MSMQ-自訂-收件者
               href: c-msmq-custom-recipient.md
-            - name: MSMQ-企業-設定
+            - name: MSMQ-Enterprise-設定
               href: c-msmqenterprisesettings.md
             - name: MSMQ-Group
               href: c-msmq-group.md
@@ -790,7 +790,7 @@
               href: c-ms-net-ieee-80211-grouppolicy.md
             - name: ms-net-ieee-8023-GroupPolicy
               href: c-ms-net-ieee-8023-grouppolicy.md
-            - name: ms-PKI-企業-Oid
+            - name: ms-chap-Enterprise-Oid
               href: c-mspki-enterprise-oid.md
             - name: ms-PKI-金鑰復原-代理程式
               href: c-mspki-key-recovery-agent.md
@@ -812,19 +812,19 @@
               href: c-msspp-activationobject.md
             - name: SPP-啟用-物件-容器
               href: c-msspp-activationobjectscontainer.md
-            - name: OLAPCube
+            - name: 毫秒-SQL-OLAPCube
               href: c-ms-sql-olapcube.md
-            - name: OLAPDatabase
+            - name: 毫秒-SQL-OLAPDatabase
               href: c-ms-sql-olapdatabase.md
-            - name: Olapserver.server
+            - name: 毫秒-SQL-olapserver.server
               href: c-ms-sql-olapserver.md
-            - name: SQLDatabase
+            - name: 毫秒-SQL-SQLDatabase
               href: c-ms-sql-sqldatabase.md
-            - name: SQLPublication
+            - name: 毫秒-SQL-SQLPublication
               href: c-ms-sql-sqlpublication.md
-            - name: SQLRepository
+            - name: 毫秒-SQL-SQLRepository
               href: c-ms-sql-sqlrepository.md
-            - name: MS-CHAP-SQLServer
+            - name: 毫秒-SQL-SQLServer
               href: c-ms-sql-sqlserver.md
             - name: ms-TAPI-Rt-會議
               href: c-mstapi-rtconference.md
@@ -916,7 +916,7 @@
               href: c-querypolicy.md
             - name: 遠端郵件-收件者
               href: c-remotemailrecipient.md
-            - name: 遠端存放服務-點
+            - name: 遠端儲存體-服務點
               href: c-remotestorageservicepoint.md
             - name: Residential-Person
               href: c-residentialperson.md
@@ -980,7 +980,7 @@
               href: c-trusteddomain.md
             - name: Type-Library
               href: c-typelibrary.md
-            - name: User
+            - name: 使用者
               href: c-user.md
             - name: 磁碟區
               href: c-volume.md
@@ -1009,7 +1009,7 @@
               href: c-msds-claimtypepropertybase.md
             - name: Organizational-Person
               href: c-organizationalperson.md
-            - name: 個人
+            - name: 人
               href: c-person.md
             - name: rpc-Entry
               href: c-rpcentry.md
@@ -1086,7 +1086,7 @@
               href: a-acsidentityname.md
             - name: ACS-最大匯總-每位使用者的尖峰率
               href: a-acsmaxaggregatepeakrateperuser.md
-            - name: ACS-每個流程的最大持續時間
+            - name: ACS-最大持續時間-每 Flow
               href: a-acsmaxdurationperflow.md
             - name: ACS-最大-SDU-大小
               href: a-acsmaximumsdusize.md
@@ -1096,15 +1096,15 @@
               href: a-acsmaxnooflogfiles.md
             - name: ACS-最大尖峰頻寬
               href: a-acsmaxpeakbandwidth.md
-            - name: ACS-每個流量的最大尖峰頻寬
+            - name: ACS-最大尖峰頻寬-每 Flow
               href: a-acsmaxpeakbandwidthperflow.md
             - name: ACS-最大----------------File
               href: a-acsmaxsizeofrsvpaccountfile.md
             - name: ACS-大小上限-記錄檔
               href: a-acsmaxsizeofrsvplogfile.md
-            - name: ACS-最大權杖-每個流程的 Bucket
+            - name: ACS-最大權杖-每 Flow 的 Bucket
               href: a-acsmaxtokenbucketperflow.md
-            - name: ACS-最大權杖-每個流程的速率
+            - name: ACS-最大權杖-每 Flow
               href: a-acsmaxtokenrateperflow.md
             - name: ACS-最小延遲-變化
               href: a-acsminimumdelayvariation.md
@@ -1184,7 +1184,7 @@
               href: a-allowedchildclasseseffective.md
             - name: Alt-Security-身分識別
               href: a-altsecurityidentities.md
-            - name: Anr
+            - name: ANR
               href: a-anr.md
             - name: Application-Name
               href: a-applicationname.md
@@ -1308,7 +1308,7 @@
               href: a-contextmenu.md
             - name: 控制存取權
               href: a-controlaccessrights.md
-            - name: 成本
+            - name: Cost
               href: a-cost.md
             - name: Country-Code
               href: a-countrycode.md
@@ -1362,7 +1362,7 @@
               href: a-department.md
             - name: departmentNumber
               href: a-departmentnumber.md
-            - name: Description
+            - name: 描述
               href: a-description.md
             - name: Desktop-Profile
               href: a-desktopprofile.md
@@ -1496,7 +1496,7 @@
               href: a-employeenumber.md
             - name: Employee-Type
               href: a-employeetype.md
-            - name: 已啟用
+            - name: 啟用
               href: a-enabled.md
             - name: Enabled-Connection
               href: a-enabledconnection.md
@@ -1784,7 +1784,7 @@
               href: a-localpolicyflags.md
             - name: 本機原則-參考
               href: a-localpolicyreference.md
-            - name: Location
+            - name: 位置
               href: a-location.md
             - name: Lockout-Duration
               href: a-lockoutduration.md
@@ -2206,7 +2206,7 @@
               href: a-msds-disableforinstancesbl.md
             - name: DnsRootAlias
               href: a-msds-dnsrootalias.md
-            - name: ms DS-輸出-宣告-轉換-原則
+            - name: ms-DS-Egress-宣告-轉換-原則
               href: a-msds-egressclaimstransformationpolicy.md
             - name: 啟用 ms DS-功能
               href: a-msds-enabledfeature.md
@@ -2376,7 +2376,7 @@
               href: a-msds-passwordhistorylength.md
             - name: ms DS-密碼可還原-加密-啟用
               href: a-msds-passwordreversibleencryptionenabled.md
-            - name: ms-DS-密碼-設定-優先順序
+            - name: ms-DS-密碼-設定優先順序
               href: a-msds-passwordsettingsprecedence.md
             - name: 每一使用者的 MS-信任-配額
               href: a-msds-perusertrustquota.md
@@ -2486,7 +2486,7 @@
               href: a-msds-tasksforaztask.md
             - name: ms DS-工作--Az-Task-BL
               href: a-msds-tasksforaztaskbl.md
-            - name: ms DS-TDO-出口-BL
+            - name: ms-chap-Egress-BL
               href: a-msds-tdoegressbl.md
             - name: ms-DS-TDO-輸入-BL
               href: a-msds-tdoingressbl.md
@@ -2870,101 +2870,101 @@
               href: a-msspp-installationid.md
             - name: SPP-發佈-授權
               href: a-msspp-issuancelicense.md
-            - name: SPP-KMS-識別碼
+            - name: SPP-KMS 識別碼
               href: a-msspp-kmsids.md
             - name: SPP-線上-授權
               href: a-msspp-onlinelicense.md
             - name: SPP-電話-授權
               href: a-msspp-phonelicense.md
-            - name: MS-SQL-別名
+            - name: 毫秒-SQL-別名
               href: a-ms-sql-alias.md
-            - name: AllowAnonymousSubscription
+            - name: 毫秒-SQL-AllowAnonymousSubscription
               href: a-ms-sql-allowanonymoussubscription.md
-            - name: AllowImmediateUpdatingSubscription
+            - name: 毫秒-SQL-AllowImmediateUpdatingSubscription
               href: a-ms-sql-allowimmediateupdatingsubscription.md
-            - name: AllowKnownPullSubscription
+            - name: 毫秒-SQL-AllowKnownPullSubscription
               href: a-ms-sql-allowknownpullsubscription.md
-            - name: AllowQueuedUpdatingSubscription
+            - name: 毫秒-SQL-AllowQueuedUpdatingSubscription
               href: a-ms-sql-allowqueuedupdatingsubscription.md
-            - name: AllowSnapshotFilesFTPDownloading
+            - name: 毫秒-SQL-AllowSnapshotFilesFTPDownloading
               href: a-ms-sql-allowsnapshotfilesftpdownloading.md
-            - name: MS-CHAP-AppleTalk
+            - name: MS-SQL-AppleTalk
               href: a-ms-sql-appletalk.md
-            - name: MS-SQL-應用程式
+            - name: MS SQL-應用程式
               href: a-ms-sql-applications.md
-            - name: MS-SQL-組建
+            - name: MS SQL-組建
               href: a-ms-sql-build.md
-            - name: CharacterSet
+            - name: 毫秒-SQL-CharacterSet
               href: a-ms-sql-characterset.md
-            - name: MS-CHAP-叢集
+            - name: MS-SQL-叢集
               href: a-ms-sql-clustered.md
-            - name: ConnectionURL
+            - name: 毫秒-SQL-ConnectionURL
               href: a-ms-sql-connectionurl.md
-            - name: MS-SQL-連絡人
+            - name: MS-SQL-Contact
               href: a-ms-sql-contact.md
-            - name: CreationDate
+            - name: 毫秒-SQL-CreationDate
               href: a-ms-sql-creationdate.md
-            - name: MS-SQL-資料庫
+            - name: MS SQL-資料庫
               href: a-ms-sql-database.md
-            - name: MS-SQL-Description
+            - name: 毫秒-SQL-描述
               href: a-ms-sql-description.md
-            - name: GPSHeight
+            - name: 毫秒-SQL-GPSHeight
               href: a-ms-sql-gpsheight.md
-            - name: GPSLatitude
+            - name: 毫秒-SQL-GPSLatitude
               href: a-ms-sql-gpslatitude.md
-            - name: GPSLongitude
+            - name: 毫秒-SQL-GPSLongitude
               href: a-ms-sql-gpslongitude.md
-            - name: InformationDirectory
+            - name: 毫秒-SQL-InformationDirectory
               href: a-ms-sql-informationdirectory.md
-            - name: InformationURL
+            - name: 毫秒-SQL-InformationURL
               href: a-ms-sql-informationurl.md
-            - name: MS-CHAP-關鍵字
+            - name: ms-chap-SQL 關鍵字
               href: a-ms-sql-keywords.md
-            - name: MS-CHAP-語言
+            - name: MS SQL 語言
               href: a-ms-sql-language.md
-            - name: LastBackupDate
+            - name: 毫秒-SQL-LastBackupDate
               href: a-ms-sql-lastbackupdate.md
-            - name: LastDiagnosticDate
+            - name: 毫秒-SQL-LastDiagnosticDate
               href: a-ms-sql-lastdiagnosticdate.md
-            - name: LastUpdatedDate
+            - name: 毫秒-SQL-LastUpdatedDate
               href: a-ms-sql-lastupdateddate.md
-            - name: MS-CHAP-位置
+            - name: 毫秒-SQL-位置
               href: a-ms-sql-location.md
-            - name: MS-CHAP-記憶體
+            - name: MS SQL 記憶體
               href: a-ms-sql-memory.md
-            - name: MS-CHAP-多重通訊協定
+            - name: 毫秒-SQL-多重通訊協定
               href: a-ms-sql-multiprotocol.md
-            - name: MS-SQL-名稱
+            - name: 毫秒-SQL-名稱
               href: a-ms-sql-name.md
-            - name: NamedPipe
+            - name: 毫秒-SQL-NamedPipe
               href: a-ms-sql-namedpipe.md
-            - name: PublicationURL
+            - name: 毫秒-SQL-PublicationURL
               href: a-ms-sql-publicationurl.md
-            - name: TRANSACT-SQL-發行者
+            - name: 毫秒-SQL-Publisher
               href: a-ms-sql-publisher.md
-            - name: '>registeredowner'
+            - name: 毫秒-SQL->registeredowner
               href: a-ms-sql-registeredowner.md
-            - name: ServiceAccount
+            - name: 毫秒-SQL-ServiceAccount
               href: a-ms-sql-serviceaccount.md
-            - name: MS-SQL-大小
+            - name: 毫秒-SQL 大小
               href: a-ms-sql-size.md
-            - name: MS-CHAP-SortOrder
+            - name: 毫秒-SQL-SortOrder
               href: a-ms-sql-sortorder.md
-            - name: MS-CHAP-SPX
+            - name: 毫秒-SQL-SPX
               href: a-ms-sql-spx.md
-            - name: MS-SQL-狀態
+            - name: 毫秒-SQL-狀態
               href: a-ms-sql-status.md
-            - name: MS-SQL-TCPIP
+            - name: MS SQL-TCPIP
               href: a-ms-sql-tcpip.md
-            - name: ThirdParty
+            - name: 毫秒-SQL-ThirdParty
               href: a-ms-sql-thirdparty.md
-            - name: MS-CHAP 類型
+            - name: 毫秒-SQL 類型
               href: a-ms-sql-type.md
-            - name: UnicodeSortOrder
+            - name: 毫秒-SQL-UnicodeSortOrder
               href: a-ms-sql-unicodesortorder.md
-            - name: MS-SQL-版本
+            - name: MS SQL 版本
               href: a-ms-sql-version.md
-            - name: Vines
+            - name: 毫秒-SQL-Vines
               href: a-ms-sql-vines.md
             - name: ms-TAPI-會議-Blob
               href: a-mstapi-conferenceblob.md
@@ -3302,9 +3302,9 @@
               href: a-perrecipdialogdisplaytable.md
             - name: Personal-Title
               href: a-personaltitle.md
-            - name: 電話-傳真-其他
+            - name: 電話-Fax-其他
               href: a-otherfacsimiletelephonenumber.md
-            - name: 電話-首頁-其他
+            - name: 電話首頁-其他
               href: a-otherhomephone.md
             - name: 電話-首頁-主要
               href: a-homephone.md
@@ -3314,19 +3314,19 @@
               href: a-ipphone.md
             - name: 電話-ISDN-主要
               href: a-primaryinternationalisdnnumber.md
-            - name: 行動電話-其他
+            - name: 電話-Mobile-其他
               href: a-othermobile.md
-            - name: 行動電話-主要
+            - name: 電話-行動-主要
               href: a-mobile.md
-            - name: Phone-辦公室-其他
+            - name: 電話-Office-其他
               href: a-othertelephone.md
-            - name: 手機-傳呼-其他
+            - name: 電話-呼機-其他
               href: a-otherpager.md
-            - name: 手機-呼機-主要
+            - name: 電話-呼機-主要
               href: a-pager.md
             - name: 相片
               href: a-photo.md
-            - name: 實體傳遞-辦公室-名稱
+            - name: 實體傳遞-Office-名稱
               href: a-physicaldeliveryofficename.md
             - name: 實體位置-物件
               href: a-physicallocationobject.md
@@ -3366,7 +3366,7 @@
               href: a-postaladdress.md
             - name: Postal-Code
               href: a-postalcode.md
-            - name: 郵局-Box
+            - name: 後續 Office-Box
               href: a-postofficebox.md
             - name: 慣用傳遞方法
               href: a-preferreddeliverymethod.md
@@ -3971,7 +3971,7 @@
               href: a-msds-disableforinstances.md
             - name: ms-DS-停用-實例-BL
               href: a-msds-disableforinstancesbl.md
-            - name: ms DS-輸出-宣告-轉換-原則
+            - name: ms-DS-Egress-宣告-轉換-原則
               href: a-msds-egressclaimstransformationpolicy.md
             - name: 啟用 ms DS-功能
               href: a-msds-enabledfeature.md
@@ -4067,7 +4067,7 @@
               href: a-msds-tasksforaztask.md
             - name: ms DS-工作--Az-Task-BL
               href: a-msds-tasksforaztaskbl.md
-            - name: ms DS-TDO-出口-BL
+            - name: ms-chap-Egress-BL
               href: a-msds-tdoegressbl.md
             - name: ms-DS-TDO-輸入-BL
               href: a-msds-tdoingressbl.md
@@ -4186,7 +4186,7 @@
               href: a-legacyexchangedn.md
             - name: Locality-Name
               href: a-l.md
-            - name: Location
+            - name: 位置
               href: a-location.md
             - name: ms-DFSR-DfsPath
               href: a-msdfsr-dfspath.md
@@ -4266,15 +4266,15 @@
               href: a-mssfu30ordernumber.md
             - name: msSFU-30-Yp-伺服器
               href: a-mssfu30ypservers.md
-            - name: SPP-KMS-識別碼
+            - name: SPP-KMS 識別碼
               href: a-msspp-kmsids.md
-            - name: MS-SQL-別名
+            - name: 毫秒-SQL-別名
               href: a-ms-sql-alias.md
-            - name: MS-SQL-資料庫
+            - name: MS SQL-資料庫
               href: a-ms-sql-database.md
-            - name: MS-SQL-名稱
+            - name: 毫秒-SQL-名稱
               href: a-ms-sql-name.md
-            - name: MS-SQL-版本
+            - name: MS SQL 版本
               href: a-ms-sql-version.md
             - name: ms-TPM-Srk-Pub-指紋
               href: a-mstpm-srkpubthumbprint.md
@@ -4328,7 +4328,7 @@
               href: a-ou.md
             - name: Package-Flags
               href: a-packageflags.md
-            - name: 實體傳遞-辦公室-名稱
+            - name: 實體傳遞-Office-名稱
               href: a-physicaldeliveryofficename.md
             - name: 實體位置-物件
               href: a-physicallocationobject.md
@@ -4397,7 +4397,7 @@
               href: a-cn.md
             - name: Country-Name
               href: a-c.md
-            - name: Description
+            - name: 描述
               href: a-description.md
             - name: 顯示名稱
               href: a-displayname.md
@@ -4439,7 +4439,7 @@
               href: a-legacyexchangedn.md
             - name: Locality-Name
               href: a-l.md
-            - name: Location
+            - name: 位置
               href: a-location.md
             - name: Manager
               href: a-manager.md
@@ -4547,13 +4547,13 @@
               href: a-mspki-site-name.md
             - name: ms RRAS-屬性
               href: a-msrrasattribute.md
-            - name: MS-SQL-別名
+            - name: 毫秒-SQL-別名
               href: a-ms-sql-alias.md
-            - name: MS-SQL-資料庫
+            - name: MS SQL-資料庫
               href: a-ms-sql-database.md
-            - name: MS-SQL-名稱
+            - name: 毫秒-SQL-名稱
               href: a-ms-sql-name.md
-            - name: MS-SQL-版本
+            - name: MS SQL 版本
               href: a-ms-sql-version.md
             - name: Netboot-GUID
               href: a-netbootguid.md
@@ -4738,7 +4738,7 @@
               href: a-msds-phoneticfirstname.md
             - name: ms-DS-Phonetic-Last-Name
               href: a-msds-phoneticlastname.md
-            - name: 實體傳遞-辦公室-名稱
+            - name: 實體傳遞-Office-名稱
               href: a-physicaldeliveryofficename.md
             - name: Proxy-Addresses
               href: a-proxyaddresses.md

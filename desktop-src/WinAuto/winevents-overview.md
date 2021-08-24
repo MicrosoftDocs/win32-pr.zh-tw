@@ -4,12 +4,12 @@ description: Microsoft Active Accessibility 伺服器會引發 WinEvents，以�
 ms.assetid: a2d486ee-84ef-4c44-a832-dbc0dae81542
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b351b1ce7b6337c4ca0ac0827daff2978c6611af
-ms.sourcegitcommit: 85688bbfbe5b121bc05ddf112d54c23a469dfbc0
+ms.openlocfilehash: 95507ff1b6cd56451dd7f9acc04014c6013a7179d536565b3518bccb9137e689
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "103932883"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119052176"
 ---
 # <a name="winevents-and-active-accessibility"></a>WinEvents 和 Active Accessibility
 

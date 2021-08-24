@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: a61b4ece94c9c52a0f769a29ec32a26c08b33ee0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f10caec569733724a0c42b310facd36f74467472aee4339c83b68b382da09fa9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106987984"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119539798"
 ---
 # <a name="cdrawimageusingimageallocator-method"></a>CDrawImage. UsingImageAllocator 方法
 

@@ -7,12 +7,12 @@ keywords:
 - BC-VCM-LVM-HYPERV (視訊壓縮管理員) ，開啟壓縮機
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 08b51e0221c495d5e2d0782f4e56e0778c0d2462
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1969748949aeb023f889bc651ccd028f19c3e18fe6cf1ba088b4f4ec29292f35
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839936"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119144991"
 ---
 # <a name="compressor-and-decompressor-basics"></a>壓縮和解壓縮的基本概念
 
@@ -27,11 +27,11 @@ ms.locfileid: "103839936"
 > [!Note]  
 > AVI 檔案中的資料流程標頭包含資料流程類型的相關資訊，以及該資料流程的特定處理常式。 在資料流程標頭中， **fccType** 和 **fccHandler** 成員會識別資料流程類型以及為數據流指定的資料流程處理常式。
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

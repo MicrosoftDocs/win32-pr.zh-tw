@@ -1,5 +1,5 @@
 ---
-description: 設定目的電腦系統上的封包交換 (IPX) 虛擬網路編號。
+description: 設定目的電腦系統上的封包 Exchange (IPX) 虛擬網路編號。
 ms.assetid: 52064250-b94f-4dc0-bf1a-8601cd135a90
 ms.tgt_platform: multiple
 title: Win32_NetworkAdapterConfiguration 類別的 SetIPXVirtualNetworkNumber 方法
@@ -14,16 +14,16 @@ api_type:
 - COM
 api_location:
 - cimwin32.dll
-ms.openlocfilehash: ed6e6802a17ef6ec4393d2ae0c5ec43f0e21d247
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 37af763450eab2fdba373fe21bfde5c0b4e1e38fda1f42aff59c425ba6b10000
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106967059"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119079772"
 ---
 # <a name="setipxvirtualnetworknumber-method-of-the-win32_networkadapterconfiguration-class"></a>Win32 >networkadapterconfiguration 類別的 SetIPXVirtualNetworkNumber 方法 \_
 
-設定目的電腦系統上的封包交換 (IPX) 虛擬網路編號。 Windows 2000 和 Windows NT 3.51 或更新版本使用內部網路編號進行內部路由。 內部網路編號也稱為虛擬網路編號。 它可唯一識別網路上的電腦系統。 方法會傳回一個整數值，這個值的意義如下：
+設定目的電腦系統上的封包 Exchange (IPX) 虛擬網路編號。 Windows 2000 和 Windows NT 3.51 或更新版本都會使用內部網路編號進行內部路由。 內部網路編號也稱為虛擬網路編號。 它可唯一識別網路上的電腦系統。 方法會傳回一個整數值，這個值的意義如下：
 
 ## <a name="syntax"></a>語法
 

@@ -4,12 +4,12 @@ ms.assetid: F9113BEA-E383-48BE-BD17-72DC1D20DF47
 title: 適用於傳統型應用程式的 Windows 執行階段 8.x API
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a962950f7bc936c25d94c4cdaed44bfd16a26091
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: c810195a2ff33547a431b357eca94a7f8468e6c0d44e1f009b1646e475ceb7f1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106966638"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119130280"
 ---
 # <a name="windows-runtime-8x-apis-for-desktop-apps"></a>適用於傳統型應用程式的 Windows 執行階段 8.x API
 

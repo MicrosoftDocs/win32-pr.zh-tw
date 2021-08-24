@@ -4,16 +4,16 @@ ms.assetid: 80375170-d0d6-4371-abe3-078703e158b1
 title: DVApp 範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 86653781d08921bf638e7798fb34f3a86e8d34a8
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 72067c04e108354c1706690bc71e8b339ad5af071c46cc0e4102ae10e9a3643f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104109385"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119148721"
 ---
 # <a name="dvapp-sample"></a>DVApp 範例
 
-## <a name="description"></a>Description
+## <a name="description"></a>描述
 
 數位視訊 (DV) capture 應用程式。
 
@@ -31,12 +31,12 @@ DVApp 應用程式支援下列模式：
 
 「捕捉」和「傳輸」模式也會執行預覽。 這兩種模式也都 **沒有預覽** 選項，可停用預覽。 沒有預覽的捕獲會更有效率，而且可以減少捨棄的畫面格數。
 
-應用程式會在預覽模式下啟動。 若要選取其他模式，請從 [ **圖形模式]** 功能表選擇模式。 針對每個模式，DVApp 會建立支援該模式功能的篩選圖形。 若要將圖形另存為 GraphEdit (. grf) 檔案，請 **從 [檔案**] 功能表中選取 [**將圖形儲存至檔案]** 。 在 GraphEdit 中開啟檔案之前，請先結束 DVApp。
+應用程式會在預覽模式下啟動。 若要選取其他模式，請從 [ **Graph 模式**] 功能表選擇模式。 針對每個模式，DVApp 會建立支援該模式功能的篩選圖形。 若要將圖形另存為 GraphEdit (. grf) 檔案，請 **選取 [檔案**] 功能表中的 [**儲存 Graph 至** 檔案]。 在 GraphEdit 中開啟檔案之前，請先結束 DVApp。
 
 若要捕捉至檔案：
 
 1.  **在 [檔案] 功能表中**，選擇 [**設定輸出** 檔]，然後輸入檔案名。
-2.  從 [ **圖形模式]** 功能表中，選取 [ *DV 至* 檔案模式] (類型1或 [類型 2]，不論是否有預覽) 。
+2.  從 [ **Graph 模式]** 功能表中，選取 [ *DV 至* 檔案模式] (類型1或類型2（不論是否有 preview) ）。
 3.  按一下 [ **記錄**]。
 4.  如果攝像機處於 VTR 模式，請按一下 [ **播放**]。
 5.  若要停止捕捉，請按一下 [ **停止**]。
@@ -44,7 +44,7 @@ DVApp 應用程式支援下列模式：
 若要從檔案傳輸至攝像機：
 
 1.  **在 [檔案**] 功能表中，按一下 [**設定輸入** 檔]，然後選取一個 DV 檔案。 檔案必須符合選取的模式 (類型1或類型 2) 。
-2.  從 [ **圖形模式]** 功能表中，選取 [ *DV* 模式] (類型1或 [類型 2]，不論是否有預覽) 。
+2.  從 **Graph 模式]** 功能表中，選取 [ *DV* 模式] (類型1或 [類型 2]，不論是否有預覽) 。
 3.  按一下 [播放]。
 4.  若要將資料記錄到磁帶，請按一下 [ **記錄**]。
 5.  若要停止傳輸，請按一下 [ **停止**]。
@@ -81,9 +81,9 @@ DVApp 應用程式支援下列模式：
 
 ## <a name="downloading-the-sample"></a>下載範例
 
-若要下載 DirectShow SDK 範例，請安裝最新版本的 [Windows SDK](https://msdn.microsoft.com/windowsvista/bb980924.aspx)。
+若要下載 DirectShow SDK 範例，請安裝最新版本的[Windows SDK](https://msdn.microsoft.com/windowsvista/bb980924.aspx)。
 
-此範例安裝在下列路徑下： *\[ SDK \] 根* \\ 範例 \\ 多媒體 \\ DirectShow \\ 捕獲 \\ DVApp。
+此範例安裝在下列路徑下： *\[ SDK \] 根* \\ 範例 \\ 多媒體 \\ DirectShow \\ Capture \\ DVApp。
 
 ## <a name="related-topics"></a>相關主題
 
@@ -95,7 +95,7 @@ DVApp 應用程式支援下列模式：
 [DirectShow 中的數位視訊](digital-video-in-directshow.md)
 </dt> <dt>
 
-[DirectShow 範例](directshow-samples.md)
+[DirectShow樣品](directshow-samples.md)
 </dt> </dl>
 
  

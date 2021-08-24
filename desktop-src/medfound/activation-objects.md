@@ -4,12 +4,12 @@ ms.assetid: 767d5f1c-2b8d-43b6-916b-035129e93204
 title: 啟用物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aa8741cbfa8bc3801a23b4976e60c0a3ad028b0e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 401b4643e7e19c8cf0b7235218eaed2e355565fdb82a9d3756558e1f11991cbe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113440"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119035596"
 ---
 # <a name="activation-objects"></a>啟用物件
 

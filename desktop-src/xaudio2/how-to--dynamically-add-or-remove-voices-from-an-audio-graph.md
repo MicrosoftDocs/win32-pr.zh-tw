@@ -4,16 +4,16 @@ ms.assetid: b2f9ec6a-4b5b-e618-759b-d7dbc0d97ac4
 title: 使用方法：從音訊圖形動態新增或移除聲音
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fdb26150b5614ec53e4cc4de5af74e9a14ee2a94
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b1a49cfc88e89884b63484b7bd58f7f5d96020cd21f8d1147794b840f00258fb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113652"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119082932"
 ---
 # <a name="how-to-dynamically-add-or-remove-voices-from-an-audio-graph"></a>使用方法：從音訊圖形動態新增或移除聲音
 
-您可以隨時變更音訊圖形，以新增或移除語音或整個 subgraphs。 本主題說明如何在下列步驟中，新增或移除已依照 how [to：建立基本音訊處理圖形](how-to--build-a-basic-audio-processing-graph.md)中的步驟所建立的 submix 語音。 單一語音可以將其輸出傳送到數個聲音或一環長的聲音。 移除或新增單一聲音可能會對音訊圖形產生很大的影響。
+您可以隨時變更音訊圖形，以新增或移除語音或整個 subgraphs。 本主題說明如何根據[如何：建立基本音訊處理 Graph](how-to--build-a-basic-audio-processing-graph.md)中的步驟，在建立的圖形中新增或移除 submix 語音。 單一語音可以將其輸出傳送到數個聲音或一環長的聲音。 移除或新增單一聲音可能會對音訊圖形產生很大的影響。
 
 ## <a name="to-dynamically-change-an-audio-graph"></a>動態變更音訊圖形
 

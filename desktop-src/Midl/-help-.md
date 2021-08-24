@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d78d28604b339f0472567026ac44af32b8e0c23
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: e1cd6beab4bad3cf02c8211b32bc5dd598d598f5c7be23687efff923df2e6b9b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103841443"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119529618"
 ---
 # <a name="help--switch"></a>/help (/？ ) 參數
 
@@ -50,9 +50,9 @@ midl /?
 [**/confirm**](-confirm.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

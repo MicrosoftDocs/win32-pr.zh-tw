@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e3a97104262b6104ad8803b997e8b28f88ec1a0a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 922ed4a84cd40c42319d917573abc9c65a9e2c84ced35da1cff25f686ab7afce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106996285"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119067538"
 ---
 # <a name="nomd-switch"></a>/nomd 參數
 

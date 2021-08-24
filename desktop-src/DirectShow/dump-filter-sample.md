@@ -4,16 +4,16 @@ ms.assetid: 2ce52e6c-a02f-4737-822a-87b2cf2d933d
 title: 傾印篩選範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bd64d1f16b0b504743890543b617a24df6bbaab8
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 5643f0334071b8c238a70ed31eee87de4e93e3637b5403d886d79f2816e39c97
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104510265"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119148731"
 ---
 # <a name="dump-filter-sample"></a>傾印篩選範例
 
-## <a name="description"></a>Description
+## <a name="description"></a>描述
 
 傾印篩選器是轉譯器篩選器，可將其接收的媒體範例寫入文字檔。
 
@@ -25,15 +25,15 @@ ms.locfileid: "104510265"
 
 ## <a name="downloading-the-sample"></a>下載範例
 
-若要下載 DirectShow SDK 範例，請安裝最新版本的 [Windows SDK](https://msdn.microsoft.com/windowsvista/bb980924.aspx)。
+若要下載 DirectShow SDK 範例，請安裝最新版本的[Windows SDK](https://msdn.microsoft.com/windowsvista/bb980924.aspx)。
 
-此範例安裝在下列路徑下： *\[ SDK 根 \]* \\ 範例 \\ 多媒體 \\ DirectShow \\ 篩選 \\ 傾印。
+此範例安裝在下列路徑下： *\[ SDK 根 \]* \\ 範例 \\ 多媒體 \\ DirectShow \\ 濾波器 \\ 傾印。
 
 ## <a name="related-topics"></a>相關主題
 
 <dl> <dt>
 
-[DirectShow 範例](directshow-samples.md)
+[DirectShow樣品](directshow-samples.md)
 </dt> </dl>
 
  

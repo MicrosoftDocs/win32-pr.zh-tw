@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 錯誤221到230
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c89dc0fc15d039bca5f1d8740996928b3586fc61
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3e250430efb20af40445e11a67059a31c838eb36ddfb57b1d3d52e29e66074b2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192196"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119131420"
 ---
 # <a name="errors-221-through-230"></a>錯誤221到230
 

@@ -4,12 +4,12 @@ ms.assetid: e7d01f21-0b5d-4385-89e8-14021800e234
 title: 使用 IXpsOMDocumentSequence 介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f108cbadf735b334f758102915abbda239a4e974
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: edac74809de63c1ae4e688bb99214d11b091ee4e877c921e9280abc9c6868121
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106986986"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119098660"
 ---
 # <a name="working-with-ixpsomdocumentsequence-interfaces"></a>使用 IXpsOMDocumentSequence 介面
 
@@ -17,7 +17,7 @@ ms.locfileid: "106986986"
 
 
 
-| 介面名稱                                                          | 邏輯子介面                            | Description                                                              |
+| 介面名稱                                                          | 邏輯子介面                            | 描述                                                              |
 |-------------------------------------------------------------------------|-----------------------------------------------------|--------------------------------------------------------------------------|
 | [**IXpsOMDocumentSequence**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomdocumentsequence)<br/>     | [**IXpsOMDocument**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomdocument)<br/> | 將一組 FixedDocuments 分組為已排序的清單。<br/>          |
 | [**IXpsOMDocumentCollection**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomdocumentcollection)<br/> | 無<br/>                                     | XPS 檔順序中的 FixedDocuments 集合。<br/> |

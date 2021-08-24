@@ -4,12 +4,12 @@ ms.assetid: 960b5c51-b9b1-4956-a270-abfb7eedd482
 title: 'RemoteBeginCreateObjectFromByteStream (Mfobjects) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ac2cf089f0b80e83373c36731de4bd9a36d8835b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 01ac0365da83ec3f6bedc3ab45b9aef1458ed04c97ccdbfc1e00484824de47e5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973688"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119268978"
 ---
 # <a name="remotebegincreateobjectfrombytestream"></a>RemoteBeginCreateObjectFromByteStream
 
@@ -36,8 +36,8 @@ HRESULT RemoteBeginCreateObjectFromByteStream(
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows Vista \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                                    |
-| 最低支援的伺服器<br/> | Windows Server 2008 \[ desktop app \| UWP 應用程式\]<br/>                                              |
+| 最低支援的用戶端<br/> | WindowsVista \[ desktop apps \| UWP 應用程式\]<br/>                                                    |
+| 最低支援的伺服器<br/> | WindowsServer 2008 \[ desktop app \| UWP 應用程式\]<br/>                                              |
 | 標頭<br/>                   | <dl> <dt>Mfobjects (包含 Mfidl) </dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>Mfuuid .lib</dt> </dl>                    |
 

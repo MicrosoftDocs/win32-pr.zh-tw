@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9anim.h
-ms.openlocfilehash: 5c2c4dc90cbb95218268bf673204867f5b5d6636
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: f488445bbb018b62445ff802abcf5a82c22b4e31c9d71618e61437efd5e36a26
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106997388"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119123066"
 ---
 # <a name="d3dxkey_callback-structure"></a>D3DXKEY \_ 回呼結構
 

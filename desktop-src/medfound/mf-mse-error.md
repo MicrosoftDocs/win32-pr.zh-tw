@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - mfmediaengine.h
-ms.openlocfilehash: 6b6aaea772376b0e57c006a56a5a1bb30bc497c9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 71246aaa2897540b272360a790718f8d5900934108c98dfcc6b4023898f9f2db
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114601"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119104584"
 ---
 # <a name="mf_mse_error-enumeration"></a>MF \_ MSE \_ 錯誤列舉
 
@@ -76,9 +76,9 @@ typedef enum _MF_MSE_ERROR {
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8.1 桌面應用程式\]<br/>                                                 |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 R2 \[ desktop 應用程式\]<br/>                                      |
-| Idl<br/>                      | <dl> <dt>Mfmediaengine .idl</dt> </dl> |
+| 最低支援的用戶端<br/> | Windows 8.1 \[僅限桌面應用程式\]<br/>                                                 |
+| 最低支援的伺服器<br/> | Windows Server 2012\[僅限 R2 desktop 應用程式\]<br/>                                      |
+| IDL<br/>                      | <dl> <dt>Mfmediaengine .idl</dt> </dl> |
 
 
 

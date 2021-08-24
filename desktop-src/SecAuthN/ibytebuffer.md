@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Scardssp.dll
-ms.openlocfilehash: dfba15dee78134a9787bf7af994f1d4e2b064339
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8f0aa81106629142efeec7e22bdb495bea853c3c689d6b55887a62f896d89d62
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103945038"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119417408"
 ---
 # <a name="ibytebuffer-interface"></a>IByteBuffer 介面
 
-\[**IByteBuffer** 介面可用於 [需求] 區段中指定的作業系統。 它無法在 Windows Server 2003 （含 Service Pack 1） (SP1) 和更新版本、Windows Vista、Windows Server 2008 和後續版本的作業系統中使用。 [**IStream**](/windows/desktop/api/objidl/nn-objidl-istream)介面提供類似的功能。\]
+\[**IByteBuffer** 介面可用於 [需求] 區段中指定的作業系統。 它無法用於 Windows Server 2003 Service Pack 1 (SP1) 和更新版本、Windows Vista、Windows Server 2008 和後續版本的作業系統。 [**IStream**](/windows/desktop/api/objidl/nn-objidl-istream)介面提供類似的功能。\]
 
 **IByteBuffer** 介面是提供來讀取、寫入和管理資料流程物件。 此物件基本上是 **IStream** 物件的包裝函式。
 
@@ -40,8 +40,8 @@ ms.locfileid: "103945038"
 
 | 方法                                           | 描述                                                                                               |
 |:-------------------------------------------------|:----------------------------------------------------------------------------------------------------------|
-| [**克隆**](ibytebuffer-clone.md)               | 複製 **IByteBuffer** 物件。<br/>                                                              |
-| [**Commit**](ibytebuffer-commit.md)             | 認可 [*交易*](/windows/desktop/SecGloss/t-gly)。<br/> |
+| [**複製**](ibytebuffer-clone.md)               | 複製 **IByteBuffer** 物件。<br/>                                                              |
+| [**認可**](ibytebuffer-commit.md)             | 認可 [*交易*](/windows/desktop/SecGloss/t-gly)。<br/> |
 | [**CopyTo**](ibytebuffer-copyto.md)             | 將位元組複製到另一個物件。<br/>                                                                |
 | [**初始化**](ibytebuffer-initialize.md)     | 初始化 **IByteBuffer** 物件。<br/>                                                        |
 | [**LockRegion**](ibytebuffer-lockregion.md)     | 限制存取範圍的位元組。<br/>                                                          |
@@ -63,8 +63,8 @@ ms.locfileid: "103945038"
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                             |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                    |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                             |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                    |
 | 用戶端支援結束<br/>    | Windows XP<br/>                                                                   |
 | 伺服器支援結束<br/>    | Windows Server 2003<br/>                                                          |
 | 標頭<br/>                   | <dl> <dt>Scardssp。h</dt> </dl>   |

@@ -22,12 +22,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e015d590c19395987bbd47d1c3c4b918296ab5f3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d597fa1b75f6c965da9cf8d71bcc3e729d0b0b2f4f4220c984a1be8c94c09d39
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103844072"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119068878"
 ---
 # <a name="filtering-sublayer-identifiers"></a>篩選子層識別碼
 
@@ -85,7 +85,7 @@ IPsec DoS 保護篩選器會新增至此子層。
 IPsec 轉送輸出通道篩選器會新增至此子層。
 
 > [!Note]  
-> 僅適用于 Windows 7、Windows Server 2008 R2 和更新版本。
+> 只能在 Windows 7、Windows Server 2008 R2 和更新版本上使用。
 
  
 
@@ -150,7 +150,7 @@ TCP 煙囪卸載篩選器會新增至此子層。
 TCP 範本篩選器會新增至此子層。
 
 > [!Note]  
-> 僅適用于 Windows 8、Windows Server 2012 及更新版本。
+> 只能在 Windows 8、Windows Server 2012 和更新版本上使用。
 
  
 
@@ -173,8 +173,8 @@ TCP 範本篩選器會新增至此子層。
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                     |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                               |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                     |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                               |
 | 標頭<br/>                   | <dl> <dt>Fwpmu。h</dt> </dl> |
 
 

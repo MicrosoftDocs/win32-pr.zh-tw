@@ -4,12 +4,12 @@ ms.assetid: c78cf43d-f60d-48a0-9957-f821f0229dfa
 title: System.Devices.AudioDevice.RawProcessingSupported
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9f3b4ea1c48c7fa642f7a169f758ebb0b9671333
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2af714cbe40fe754b5d386b3f45f5ee79a38a6d561835e7d3779f14e9d8dbe00
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944324"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119097875"
 ---
 # <a name="systemdevicesaudiodevicerawprocessingsupported"></a>System.Devices.AudioDevice.RawProcessingSupported
 

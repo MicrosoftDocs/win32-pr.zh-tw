@@ -8,12 +8,12 @@ keywords:
 - 狀態資訊 OpenGL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8329fd34fc68122be8d63e4dc28756f88faf7797
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: 8d13719964412bf8b74b9d2f4ef58d5a153a56fc2f8d15a3d8788cef94762637
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113120683"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119144160"
 ---
 # <a name="obtaining-state-information"></a>取得狀態資訊
 

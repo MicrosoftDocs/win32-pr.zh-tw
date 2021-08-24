@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102588
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 66c51c20aaa7bae818b344ac4a44f78ed12eeadf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 75aadb89db67e5a2cb5d6ca7207028aad3b38dca1de775609ad64954b25611ed
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104556730"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119274088"
 ---
 # <a name="esentrecordnotdeletedexception-properties"></a>EsentRecordNotDeletedException 屬性
 

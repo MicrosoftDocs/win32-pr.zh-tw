@@ -4,12 +4,12 @@ ms.assetid: e6e3ea44-a1d4-451a-b326-e8fb7ed4adeb
 title: ICE25
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e0d966c4c374d6e61e30b44a41ad88bed8bf907f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e2715ce629ad22b872b8d38d0c6848236b9f1af9378a0a652b702e7b72cbd7dd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103850179"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119528948"
 ---
 # <a name="ice25"></a>ICE25
 
@@ -20,7 +20,7 @@ ICE25 會驗證 .msi 檔案是否符合其所有的內部 [合併模組](merge-m
 
 ## <a name="result"></a>結果
 
-如果 .msi 檔案先前與不相容的合併模組合併，或尚未與必要的合併模組合併，ICE25 會張貼錯誤訊息。
+如果 .msi 檔案之前與不相容的合併模組合併，或尚未與必要的合併模組合併，ICE25 會張貼錯誤訊息。
 
 ## <a name="example"></a>範例
 

@@ -4,12 +4,12 @@ ms.assetid: a53f733e-b646-4431-b021-a2c446308849
 title: AcceptSecurityCoNtext (CredSSP) 函數
 ms.topic: article
 ms.date: 07/25/2019
-ms.openlocfilehash: 681e03ea15729cc8726d63551e8b7b0a2b39ecac
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: df4c87274c3a19d9e4a028cde813801688ce1927d1a0b89dbe3a7e8633ce8b57
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106983519"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119141691"
 ---
 # <a name="acceptsecuritycontext-credssp-function"></a>AcceptSecurityCoNtext (CredSSP) 函數
 
@@ -96,7 +96,7 @@ SECURITY_STATUS SEC_ENTRY AcceptSecurityContext(
 
 此函數會傳回下列其中一個值。
 
-| 傳回碼/值                                   | Description                                                                                                                                                                 |
+| 傳回碼/值                                   | 描述                                                                                                                                                                 |
 |-----------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | SEC_E_INCOMPLETE_MESSAGE <br/> 0x80090318L          | 此函數已成功。 輸入緩衝區中的資料不完整。 應用程式必須從用戶端讀取其他資料，並再次呼叫 [<strong>AcceptSecurityCoNtext (CredSSP) </strong>](acceptsecuritycontext--credssp.md) 。 |
 | SEC_E_INSUFFICIENT_MEMORY <br/> 0x80090300L         | 函數失敗。 沒有足夠的記憶體可完成要求的動作。                                                                                 |
@@ -132,8 +132,8 @@ SECURITY_STATUS SEC_ENTRY AcceptSecurityContext(
 
 | 需求 | 值 |
 |--------------------------|-------------------------------------------|
-| 最低支援的用戶端 | \[僅限 Windows Vista 桌面應用程式\]       |
-| 最低支援的伺服器 | 僅限 Windows Server 2008 \[ desktop 應用程式\] |
+| 最低支援的用戶端 | 僅 Windows Vista \[ 桌面應用程式\]       |
+| 最低支援的伺服器 | Windows\[僅限 Server 2008 desktop 應用程式\] |
 | 標頭                   | Sspi (包含 Security .h)                |
 | 程式庫                  | Secur32 .lib                               |
 | DLL                      | Secur32.dll                               |

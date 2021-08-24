@@ -4,12 +4,12 @@ ms.assetid: 8ad418c0-9bba-41d0-a96c-2c7b1c2467d9
 title: ProcessComponents 動作
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7aef1f71e9a50b714a12848fc9f923d1866c2e40
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f1e866c6003052922dfc0e1fca5bd4ff8ea63d207eeb03c5ada22cf5f2d3e7b3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106985289"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119259278"
 ---
 # <a name="processcomponents-action"></a>ProcessComponents 動作
 

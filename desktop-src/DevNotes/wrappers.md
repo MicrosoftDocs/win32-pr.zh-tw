@@ -4,12 +4,12 @@ ms.assetid: 0AADEF94-9C6F-4FE9-B272-579423FCB46E
 title: 包裝函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1fca1503699f8d03b21a426fa8281588d7aba9b0
-ms.sourcegitcommit: 7b8f6151ebe247536304866459b2973276271d4d
+ms.openlocfilehash: 8fd47f3935adf16c25776e61d84340e033f61a9665bbc7e1fbc1b19645d61b35
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "104195832"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119537988"
 ---
 # <a name="wrappers"></a>包裝函式
 

@@ -14,12 +14,12 @@ keywords:
 - capDriverDisconnect 宏
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c189ad3ea5631e269ffbe85f20a143b074486f22
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: bf74b5dc7cda0fdb73c8f9bd73f61de5ecefc157c20816c110d71e04bba6c196
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103672971"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119144901"
 ---
 # <a name="connecting-a-capture-window-to-a-capture-driver"></a>將捕獲視窗連接至 Capture 驅動程式
 
@@ -35,9 +35,9 @@ ms.locfileid: "103672971"
 
 當捕捉視窗終結時，任何連線的影片擷取裝置磁碟機都會自動中斷連線。
 
- 
+ 
 
- 
+ 
 
 
 

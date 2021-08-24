@@ -4,12 +4,12 @@ ms.assetid: 7f0643b8-6bb2-4dbb-b306-d9b2e0d0e03c
 title: 封包大小如何影響通訊協定
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c778ee6c75cd558d19cdf1cbb76052065e03c427
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: aa654e8884f56ae8079375fa32764ad240f0c870229d07e50623f6e18e42958b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318379"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119051636"
 ---
 # <a name="how-packet-size-affects-protocols"></a>封包大小如何影響通訊協定
 

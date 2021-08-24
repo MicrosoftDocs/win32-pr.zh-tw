@@ -4,12 +4,12 @@ ms.assetid: 3151c369-9d2b-4f03-9a4a-9b9267314dc1
 title: 'MF_SD_SAMI_LANGUAGE 屬性 (Mfidl) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cfd476c86ddde7d369265c5302192e4a7c01295f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e70436244779dddf97ef8277c5c1e2cd8c74cfaa25a90e63472d07d32c36b56d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106989016"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119102324"
 ---
 # <a name="mf_sd_sami_language-attribute"></a>MF \_ SD \_ 薩米文 \_ 語言屬性
 
@@ -33,8 +33,8 @@ ms.locfileid: "106989016"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                     |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                               |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                     |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                               |
 | 標頭<br/>                   | <dl> <dt>Mfidl。h</dt> </dl> |
 
 

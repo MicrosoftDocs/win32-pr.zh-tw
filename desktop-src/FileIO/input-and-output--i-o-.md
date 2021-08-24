@@ -1,20 +1,20 @@
 ---
-description: Windows 提供在本機和遠端電腦上的存放裝置元件上執行輸入和輸出 (i/o) 作業的能力。
+description: Windows 提供在本機和遠端電腦上的存放裝置元件上，執行輸入和輸出 (i/o) 作業的能力。
 ms.assetid: 338869fa-d246-4c94-8ee8-afde6470acaf
 title: '輸入和輸出 (i/o) '
 ms.topic: article
 ms.date: 03/19/2021
 ms.custom: project-verbatim
-ms.openlocfilehash: 729c4eac6ce074c9d2d34e96d313a780058922e2
-ms.sourcegitcommit: af120ad5c30da2fc5eb717ca2a1c4c45878efd71
+ms.openlocfilehash: adbf2d512d99fbf38c51bb8887e2cbc51f5d81a5f6a17bdeef21be189fc8a053
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/20/2021
-ms.locfileid: "106982250"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119068688"
 ---
 # <a name="input-and-output-io"></a>輸入和輸出 (i/o) 
 
-Windows 提供在本機和遠端電腦上的存放裝置元件上執行輸入和輸出 (i/o) 作業的能力。
+Windows 提供在本機和遠端電腦上的存放裝置元件上，執行輸入和輸出 (i/o) 作業的能力。
 
 另請參閱 [i/o 相關的範例應用程式](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winbase/io)。
 

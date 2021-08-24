@@ -5,12 +5,12 @@ ms.assetid: 94D47EBB-8060-49F6-A1FF-8B7B98AD5363
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 71b8091c2893f8906fe2ab5baadbf1288a1474cd
-ms.sourcegitcommit: ecd0ba4732f5264aab9baa2839c11f7fea36318f
+ms.openlocfilehash: 42547b85836711efc4e9aa5b621d90c672617aacff779567f118d4af5041512c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "113481803"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119123791"
 ---
 # <a name="memory-management-in-direct3d-12"></a>Direct3D 12 中的記憶體管理
 

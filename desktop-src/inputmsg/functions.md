@@ -4,12 +4,12 @@ description: 本節中的主題提供指標輸入訊息和通知函數的參考�
 ms.assetid: 0123DCD0-DAE1-4AC2-AB36-23D114803138
 ms.topic: article
 ms.date: 02/03/2020
-ms.openlocfilehash: bb238dfc29a0c632a58bac99a9320dcbb399fcfc
-ms.sourcegitcommit: 4570ac533e129ff88b23f2c2b69e0140ead3a4a4
+ms.openlocfilehash: 9f40132b1ee470daf6407a60f7c91dabc4486635910578a0534d001adce2cdce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "107001039"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119036156"
 ---
 # <a name="pointer-input-messages-and-notifications-functions"></a>指標輸入訊息和通知函數
 

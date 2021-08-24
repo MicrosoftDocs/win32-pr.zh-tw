@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ec845b7657e04f17c47119dd169032ebe5815786
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 01ea9250cc7e368699a916b4c87f419fc5b0b66001a4d7ca12afd5587a0adda7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106997678"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119246423"
 ---
 # <a name="iwmpplaylistremoveitem-method"></a>IWMPPlaylist：： removeItem 方法
 
@@ -100,7 +100,7 @@ Implements IWMPPlaylist.removeItem
 [**IWMPPlaylist. insertItem (VB 和 c # )**](wmplibiwmpplaylist-iwmpplaylist-insertitem--vb-and-c.md)
 </dt> <dt>
 
-[**IWMPPlaylist (VB 和 c # )**](iwmpplaylist-item--vb-and-c.md)
+[**IWMPPlaylist (VB 和 c # ) 的專案**](iwmpplaylist-item--vb-and-c.md)
 </dt> <dt>
 
 [**IWMPSettings2. mediaAccessRights (VB 和 c # )**](wmplibiwmpsettings2-iwmpsettings2-mediaaccessrights--vb-and-c.md)

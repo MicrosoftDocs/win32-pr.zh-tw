@@ -1,5 +1,5 @@
 ---
-description: 包含可針對目前 Microsoft Windows HTTP Services (WinHTTP) 會話設定或抓取的選項。
+description: 包含可針對目前 Microsoft Windows HTTP 服務 (WinHTTP) 會話設定或抓取的選項。
 ms.assetid: 8464d794-b4a8-4c83-9e26-69257000102a
 title: WinHttpRequestOption 列舉
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - IDLDef
 api_location:
 - HttpRequest.idl
-ms.openlocfilehash: 32ae65f43cd04027027e43d29c49ed0f68f29c9f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ff4112538aff4c76c02e251f45e9dc78e6778633de6a5d93f6892dd87ff70c43
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511485"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119051876"
 ---
 # <a name="winhttprequestoption-enumeration"></a>WinHttpRequestOption 列舉
 
-**WinHttpRequestOption** 列舉包含可針對目前 MICROSOFT Windows HTTP Services (WinHTTP) 會話設定或抓取的選項。
+**WinHttpRequestOption** 列舉包含可為目前 Microsoft Windows HTTP 服務 (WinHTTP) 會話設定或抓取的選項。
 
 ## <a name="syntax"></a>Syntax
 
@@ -159,7 +159,7 @@ typedef enum WinHttpRequestOption {
 <span id="WinHttpRequestOption_EnableTracing"></span><span id="winhttprequestoption_enabletracing"></span><span id="WINHTTPREQUESTOPTION_ENABLETRACING"></span>**WinHttpRequestOption \_ EnableTracing**
 </dt> <dd>
 
-設定或抓取表示追蹤目前是否已啟用的 **變異** 。 如需有關 Microsoft Windows HTTP Services (WinHTTP) 中追蹤設備的詳細資訊，請參閱 [WinHTTP 追蹤設備](winhttptracecfg-exe--a-trace-configuration-tool.md)。
+設定或抓取表示追蹤目前是否已啟用的 **變異** 。 如需 Microsoft Windows HTTP 服務 (winHTTP) 中追蹤功能的詳細資訊，請參閱[winHTTP 追蹤設備](winhttptracecfg-exe--a-trace-configuration-tool.md)。
 
 </dd> <dt>
 
@@ -189,7 +189,7 @@ typedef enum WinHttpRequestOption {
 
 設定或抓取 WinHTTP 遵循的重新導向數目上限;預設值為10。 這項限制可防止未經授權的網站在大量重新導向之後讓 WinHTTP 用戶端停止。
 
-**WINDOWS XP 加裝 SP1 和 windows 2000 SP3：** 不支援這個列舉值。
+**Windows XP SP1 和 Windows 2000 SP3：** 不支援這個列舉值。
 
 </dd> <dt>
 
@@ -198,7 +198,7 @@ typedef enum WinHttpRequestOption {
 
 設定或抓取伺服器回應之標頭部分大小上限的系結集合。 這項系結會透過傳送無限標頭資料的回應，來保護用戶端免于嘗試停止用戶端的惡意伺服器。 預設值為 64 KB。
 
-**WINDOWS XP 加裝 SP1 和 windows 2000 SP3：** 不支援這個列舉值。
+**Windows XP SP1 和 Windows 2000 SP3：** 不支援這個列舉值。
 
 </dd> <dt>
 
@@ -207,7 +207,7 @@ typedef enum WinHttpRequestOption {
 
 設定或抓取將從回應清空的資料量的系結，以便重複使用連接。 預設值是 1 MB。
 
-**WINDOWS XP 加裝 SP1 和 windows 2000 SP3：** 不支援這個列舉值。
+**Windows XP SP1 和 Windows 2000 SP3：** 不支援這個列舉值。
 
 </dd> <dt>
 
@@ -216,7 +216,7 @@ typedef enum WinHttpRequestOption {
 
 設定或抓取布林值，指出是否應該使用 HTTP/1.1 或 HTTP/1.0。 預設值為 **TRUE**，因此預設會使用 HTTP/1.1。
 
-**WINDOWS XP 加裝 SP1 和 windows 2000 SP3：** 不支援這個列舉值。
+**Windows XP SP1 和 Windows 2000 SP3：** 不支援這個列舉值。
 
 </dd> <dt>
 
@@ -225,7 +225,7 @@ typedef enum WinHttpRequestOption {
 
 啟用 SSL 協商期間的伺服器憑證撤銷檢查。 當伺服器呈現憑證時，會執行檢查，以判斷憑證是否已被其簽發者撤銷。 如果憑證確實撤銷，或撤銷檢查失敗，因為無法下載憑證撤銷清單 (CRL) ，要求會失敗;這類撤銷錯誤無法隱藏。
 
-**WINDOWS XP 加裝 SP1 和 windows 2000 SP3：** 不支援這個列舉值。
+**Windows XP SP1 和 Windows 2000 SP3：** 不支援這個列舉值。
 
 </dd> </dl>
 
@@ -234,7 +234,7 @@ typedef enum WinHttpRequestOption {
 藉由指定上述其中一個常數作為 [**option**](iwinhttprequest-option.md) 屬性的參數，來設定選項。
 
 > [!Note]  
-> 針對 Windows XP 和 Windows 2000，請參閱 WinHttp 起始頁的 [執行時間需求](winhttp-start-page.md) 一節。
+> 如 Windows XP 和 Windows 2000，請參閱 WinHttp 起始頁的[執行時間需求](winhttp-start-page.md)一節。
 
  
 
@@ -244,10 +244,10 @@ typedef enum WinHttpRequestOption {
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows XP、Windows 2000 專業版（含 SP3） \[ 桌面應用程式\]<br/>            |
-| 最低支援的伺服器<br/> | Windows Server 2003、Windows 2000 Server （僅含 SP3 \[ desktop 應用程式）\]<br/>         |
+| 最低支援的用戶端<br/> | WindowsXP、Windows 2000 Professional 搭配 SP3 \[ desktop 應用程式\]<br/>            |
+| 最低支援的伺服器<br/> | Windows伺服器2003、Windows 2000 伺服器（僅含 SP3 \[ desktop 應用程式）\]<br/>         |
 | 可轉散發套件<br/>          | Windows XP 和 Windows 2000 上的 WinHTTP 5.0 和 Internet Explorer 5.01 或更新版本。<br/> |
-| Idl<br/>                      | <dl> <dt>HttpRequest .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>HttpRequest .idl</dt> </dl> |
 
 
 

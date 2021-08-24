@@ -4,12 +4,12 @@ description: vSwitch 管理
 ms.assetid: 8CBD0104-986D-4594-9E16-D03A4F9CCC3F
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ee74710a5c5ca6e11442a842a1d8a01aae706cf9
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: dd9bef73f590af058fa1a516758d4f228096a090cfcdc3851169574fb621b022
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104375137"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119535088"
 ---
 # <a name="vswitch-management"></a>vSwitch 管理
 
@@ -21,6 +21,6 @@ ms.locfileid: "104375137"
 -   [**FwpmvSwitchEventSubscribe0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmvswitcheventsubscribe0)
 -   [**FwpmvSwitchEventUnsubscribe0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmvswitcheventunsubscribe0)
 
- 
+ 
 
- 
+ 

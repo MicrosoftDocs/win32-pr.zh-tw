@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 6eecfefc8c542eeb3a06c509533060f8036d447e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bbcb0f2e3d5b0dfad884572c90f889d28e47fcffaf328b39d78f02d4c2baa3a6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104115724"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119535468"
 ---
 # <a name="msvm_resourcepoolregistration-class"></a>Msvm \_ ResourcePoolRegistration 類別
 
@@ -86,8 +86,8 @@ class Msvm_ResourcePoolRegistration : Msvm_VirtualizationComponentRegistration
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                                              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                                              |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                                                    |
 | 用戶端支援結束<br/>    | Windows 8.1<br/>                                                                                  |
 | 伺服器支援結束<br/>    | Windows Server 2012 R2<br/>                                                                       |
 | 命名空間<br/>                | 根 \\ 虛擬化 \\ V2<br/>                                                                     |

@@ -4,12 +4,12 @@ ms.assetid: 069b8e72-d081-466e-ac8d-c3f81c8a6f35
 title: MPEG-2 File 接收
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6c27517463bca7dfa88fdbc09d77f7a6512c896d
-ms.sourcegitcommit: 9c8ddec1e955f181beecad0478c1fb79013b5e9d
+ms.openlocfilehash: 92e0175a5c21cc9f7c0186f70b37a5f94f5bf12151e606a2a441b4c75919d7e8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "106982122"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119102108"
 ---
 # <a name="mpeg-4-file-sink"></a>MPEG-2 File 接收
 
@@ -100,9 +100,9 @@ MPEG-2 檔案接收會使用 ' mp4a ' 範例專案搭配 objectTypeIndication = 
 -   所撰寫檔案的大小上限為 4 GB。 在 Windows 8 中，支援超過4個 GBGB 的檔案。
 -   MPEG-2 檔案接收不支援 [edts] 和 [elst] 方塊 ( 編輯清單) 。
 
-## <a name="windows-8-updates-to-mpeg-4-source-and-sink"></a>Windows 8 更新至 MPEG-2 來源和接收
+## <a name="windows-8-updates-to-mpeg-4-source-and-sink"></a>Windows 8 更新至 mpeg-2 來源和接收
 
--   Windows 8 MPEG-2 來源和接收中新增的旋轉讀取和寫入支援。 Windows 7 MPEG-2 來源和接收中不支援此功能。
+-   Windows 8 mpeg-2 來源和接收中新增的旋轉讀取和寫入支援。 Windows 7 mpeg-2 來源和接收中不支援此功能。
 
     MPEG 4 來源會讀取作用中影片播放軌的旋轉角度，作為從 ' mvhd ' 和 ' tkhd ' 旋轉角度的總和。
 
@@ -112,16 +112,16 @@ MPEG-2 檔案接收會使用 ' mp4a ' 範例專案搭配 objectTypeIndication = 
 
     IPropertyStore 只會在旋轉角度根據 ' mvhd ' 中的旋轉角度（如果有的話）調整旋轉角度之後，才在 ' tkhd ' 中寫入第一個影片播放軌的旋轉角度。
 
--   Windows 8 MPEG-2 來源和接收中支援 ' moof ' )  ( 的電影片段，但 ' mfra ' 不支援。
--   Windows 8 的 MPEG-2 來源支援 .h。
+-   Windows 8 mpeg-2 來源和接收中支援 ' moof ' )  ( 的電影片段，但 ' mfra ' 不支援。
+-   Windows 8 的 mpeg-2 來源支援 .h。
 
     MPEG 4 來源現在會將 MPEG-2 檔案格式的兩個 fourcc ' h263 ' 和 ' 263 ' 對應到 **MFVideoFormat \_ h263** 的媒體類型。
 
--   在 Windows 8 MPEG-2 來源的 MJPEG 中新增了更多 fourcc 支援。
+-   在 Windows 8 mpeg-2 來源的 MJPEG 中新增了更多 fourcc 支援。
 
     MPEG 4 來源會將 ' dmb1 ' 的 foucc 對應至 **MFVideoFormat \_ MJPG** 的媒體類型。
 
--   Windows 8 MPEG-2 來源中新增的漢字中繼資料支援。
+-   Windows 8 mpeg-2 來源中新增的漢字中繼資料支援。
 
     MPEG-2 來源會從 ' soal '、' soar '、' soaa '、' sonm ' 和 ' soco ' 讀取中繼資料。 IPropertyStore 會透過一組對應的 PKEYs 來讀取 Furignana 中繼資料。
 
@@ -141,11 +141,11 @@ MPEG-2 檔案接收會使用 ' mp4a ' 範例專案搭配 objectTypeIndication = 
 
      
 
--   Windows 8 MPEG-2 來源中新增了身歷聲 3D atom 支援。
+-   Windows 8 mpeg-2 來源中新增了身歷聲 3d atom 支援。
 
--   Windows 8 的 MPEG-2 來源和接收中新增了 AC3 和 DD + 支援。
+-   Windows 8 的 mpeg-2 來源和接收中新增了 AC3 和 DD + 支援。
 -   針對非 fragmental 的，支援大於 4 GB 的檔案的 Windows 8 MPEG 接收器。
--   Windows 8 的 MPEG-2 來源已優化清除。
+-   Windows 8 的 mpeg-2 來源已優化清除。
 
     為了減少延遲，特定搜尋位置的兩個最接近主要畫面格的資訊會透過 [**IMFSeekInfo：： GetNearestKeyFrames**](/windows/desktop/api/mfidl/nf-mfidl-imfseekinfo-getnearestkeyframes)公開。 由於主要畫面格沒有相依的框架，因此只會在解碼一個畫面格之後呈現畫面格。 使用 [**IMFGetService：： GetService**](/windows/desktop/api/mfidl/nf-mfidl-imfgetservice-getservice) 透過媒體來源、管線或應用程式取得這個介面。
 
@@ -153,7 +153,7 @@ MPEG-2 檔案接收會使用 ' mp4a ' 範例專案搭配 objectTypeIndication = 
 
 -   您可以將 SPS 和 PPS 儲存在 MPEG 4 接收的範例資料中。
 
-    [MF \_在 MPEG 4 接收上的 MPEG4SINK \_ SPSPPS \_ 傳遞](mf-mpeg4sink-spspps-passthrough.md) 屬性定義為允許將 SPS 和 PPS 儲存在一起， (h.264 video 資料) 的輸入範例。 產生的已產生的等式剪輯可由 Windows 7 MPEG-2 來源與其他專案播放。
+    [MF \_在 MPEG 4 接收上的 MPEG4SINK \_ SPSPPS \_ 傳遞](mf-mpeg4sink-spspps-passthrough.md) 屬性定義為允許將 SPS 和 PPS 儲存在一起， (h.264 video 資料) 的輸入範例。 產生的已產生的等式剪輯可透過 Windows 7 的 mpeg-2 來源及其他專案播放。
 
 -   您可以從 MPEG 接收器的輸入範例中解壓縮 SPS 和 PPS。
 
@@ -172,8 +172,8 @@ MPEG-2 檔案接收會使用 ' mp4a ' 範例專案搭配 objectTypeIndication = 
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>              |
+| 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/> |
 
 
 

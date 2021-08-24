@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 查詢内嵌物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3ed2e13bd9d9dc798891a723a6fed1b1734e1735
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7af6e0933ae12bb5867ff2ad446928d1b55f5ee7c2022ec60f53de61a3bd4bb4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103692204"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119130910"
 ---
 # <a name="querying-embedded-objects"></a>查詢内嵌物件
 

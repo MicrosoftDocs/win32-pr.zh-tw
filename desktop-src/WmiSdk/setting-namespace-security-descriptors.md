@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 設定命名空間安全描述項
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4877b1dfc0ae1a9467b1beb7d169bfa31fdf7395
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ccc112376a960c3760bc51450cc30b8da3a38c24fa52e985321b2662ae319a37
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "107000190"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119050296"
 ---
 # <a name="setting-namespace-security-descriptors"></a>設定命名空間安全描述項
 
@@ -68,14 +68,14 @@ ms.locfileid: "107000190"
 <span id="Get9XUserList"></span><span id="get9xuserlist"></span><span id="GET9XUSERLIST"></span>[**Get9XUserList**](--systemsecurity-get9xuserlist.md)
 </dt> <dd>
 
-針對執行過時 Windows 的電腦上的個別使用者清單取得遠端存取許可權，但無法使用透過 Windows 安全描述項的存取控制。
+針對執行過時 Windows 版本的電腦上的個別使用者清單取得遠端存取許可權，但無法使用透過 Windows 安全描述項的存取控制。
 
 </dd> <dt>
 
 <span id="Set9XUserList"></span><span id="set9xuserlist"></span><span id="SET9XUSERLIST"></span>[**Set9XUserList**](--systemsecurity-set9xuserlist.md)
 </dt> <dd>
 
-針對執行過時 Windows 的電腦上的個別使用者清單設定遠端存取許可權，無法使用透過 Windows 安全描述項的存取控制。
+在執行過時版本的 Windows 的電腦上，設定個別使用者清單的遠端存取許可權，但無法使用透過 Windows 安全描述項的存取控制。
 
 </dd> </dl>
 
@@ -83,7 +83,7 @@ ms.locfileid: "107000190"
 
 如果您是使用 c + + 進行程式設計，您可以使用 [安全描述項定義語言 (SDDL)](/windows/desktop/SecAuthZ/security-descriptor-definition-language)和轉換方法 [**ConvertSecurityDescriptorToStringSecurityDescriptor**](/windows/desktop/api/sddl/nf-sddl-convertsecuritydescriptortostringsecuritydescriptora) 和 [**ConvertStringSecurityDescriptorToSecurityDescriptor**](/windows/desktop/api/sddl/nf-sddl-convertstringsecuritydescriptortosecuritydescriptora)，來操作二進位安全描述項。
 
-請注意，從 Windows Vista 開始， [使用者帳戶控制](https://www.microsoft.com/technet/windowsvista/security/uac.mspx) (UAC) 會影響對 wmi 資料的存取權，以及可使用 [*wmi 控制項*](gloss-w.md)設定的內容。 如需詳細資訊，請參閱 [使用者帳戶控制和 WMI](user-account-control-and-wmi.md)。
+請注意，從 Windows Vista 開始， (UAC) 的 [使用者帳戶控制](https://www.microsoft.com/technet/windowsvista/security/uac.mspx)會影響對 wmi 資料的存取權，以及可使用 [*wmi 控制項*](gloss-w.md)設定的內容。 如需詳細資訊，請參閱 [使用者帳戶控制和 WMI](user-account-control-and-wmi.md)。
 
 ## <a name="related-topics"></a>相關主題
 

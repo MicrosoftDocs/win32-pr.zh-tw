@@ -48,12 +48,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7c7e13f299f985382dafd5f990041b0016d23072
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5789483cf7fb8e604d1aeed16e848d2cf5d89a34eb1256ed81054e1863e8f4f9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104106469"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119133341"
 ---
 # <a name="event-identifiers-uiautomationclienth"></a>事件識別碼 (Uiautomationclient.dll .h) 
 
@@ -61,7 +61,7 @@ ms.locfileid: "104106469"
 
 
 
-| 常數/值                                                                                                                                                                                                                                                                                                                                                                                                        | Description                                                                                                                                                                                                                                                                                                                           |
+| 常數/值                                                                                                                                                                                                                                                                                                                                                                                                        | 描述                                                                                                                                                                                                                                                                                                                           |
 |:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="UIA_ActiveTextPositionChangedEventId"></span><span id="uia_activetextpositionchangedeventid"></span><span id="UIA_ACTIVETEXTPOSITIONCHANGEDEVENTID"></span><dl> <dt>**UIA \_ActiveTextPositionChangedEventId**</dt> <dt>20036</dt> </dl>                                                                                              | 識別活動文字位置變更時所引發的事件，此事件是在唯讀文字專案 (（例如網頁瀏覽器、PDF 檔或 EPUB) 檔）中使用書簽 (片段識別碼（參考資源) 內的位置）所表示。<br/>                                                                                                                                  |
 | <span id="UIA_AsyncContentLoadedEventId"></span><span id="uia_asynccontentloadedeventid"></span><span id="UIA_ASYNCCONTENTLOADEDEVENTID"></span><dl> <dt>**UIA \_AsyncContentLoadedEventId**</dt> <dt>20006</dt> </dl>                                                                                              | 識別載入非同步內容時引發的事件。 此事件主要是由提供者用來表示已發生非同步內容載入事件。<br/>                                                                                                                                  |
@@ -109,8 +109,8 @@ ms.locfileid: "104106469"
 
 | 需求 | 值 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows XP \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                              |
-| 最低支援的伺服器<br/> | Windows Server 2003 \[ desktop app \| UWP 應用程式\]<br/>                                     |
+| 最低支援的用戶端<br/> | WindowsXP \[ desktop apps \| UWP 應用程式\]<br/>                                              |
+| 最低支援的伺服器<br/> | WindowsServer 2003 \[ desktop app \| UWP 應用程式\]<br/>                                     |
 | 標頭<br/>                   | <dl> <dt>Uiautomationclient.dll。h</dt> </dl> |
 
 

@@ -4,12 +4,12 @@ ms.assetid: a922c79b-d6c1-447d-b6fa-993970169a3f
 title: 'MF_SESSION_SERVER_CONTEXT 屬性 (Mfidl) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b1ce68d1dcd4318f68c4547845e6ce12d2f3aaca
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fc9674a2e25a7cdfd0a88ebcc43c18d6fd636bf22116f76a24255b55f857a677
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104115841"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119102334"
 ---
 # <a name="mf_session_server_context-attribute"></a>MF \_ 會話 \_ 伺服器 \_ 內容屬性
 
@@ -17,11 +17,11 @@ ms.locfileid: "104115841"
 
 ## <a name="data-type"></a>資料類型
 
-**IUnknown \** _
+**IUnknown\***
 
 ## <a name="remarks"></a>備註
 
-如果您想要在現有的 PMP 流程中建立 PMP 媒體會話，請使用此屬性。 屬性的值是 [_ *IMFPMPServer* *](/windows/desktop/api/mfidl/nn-mfidl-imfpmpserver)介面的指標。
+如果您想要在現有的 PMP 流程中建立 PMP 媒體會話，請使用此屬性。 屬性的值是 [**IMFPMPServer**](/windows/desktop/api/mfidl/nn-mfidl-imfpmpserver) 介面的指標。
 
 這個屬性的 GUID 常數是從 mfuuid 匯出。
 
@@ -31,8 +31,8 @@ ms.locfileid: "104115841"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                     |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                               |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                     |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                               |
 | 標頭<br/>                   | <dl> <dt>Mfidl。h</dt> </dl> |
 
 
