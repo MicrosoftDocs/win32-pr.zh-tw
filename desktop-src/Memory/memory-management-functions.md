@@ -4,12 +4,12 @@ ms.assetid: 5a2a7a62-0bda-4a0d-93d2-25b4898871fd
 title: 記憶體管理函式
 ms.topic: article
 ms.date: 11/06/2018
-ms.openlocfilehash: a203583016a127a550f609068df8e86da384fa34
-ms.sourcegitcommit: 43aef65e6563a56f35c019c5202827ab65772186
+ms.openlocfilehash: 635fa59b6a5b6a549438d8bfed71781d6d9e6fa6a9d2c12524684ded28a0f3df
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "103684226"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119822188"
 ---
 # <a name="memory-management-functions"></a>記憶體管理函式
 
@@ -66,18 +66,18 @@ ms.locfileid: "103684226"
 | [**CreateFileMappingA**](/windows/win32/api/winbase/nf-winbase-createfilemappinga) | 針對指定的檔案，建立或開啟已命名或未命名的檔案對應物件。 |
 | [**CreateFileMappingW**](/windows/win32/api/memoryapi/nf-memoryapi-createfilemappingw) | 針對指定的檔案，建立或開啟已命名或未命名的檔案對應物件。 |
 | [**CreateFileMapping2**](/windows/win32/api/memoryapi/nf-memoryapi-createfilemapping2) | 針對指定的檔案，建立或開啟已命名或未命名的檔案對應物件。 您可以指定將實體記憶體的慣用 NUMA 節點指定為擴充參數;請參閱 *ExtendedParameters* 參數。 |
-| [**CreateFileMappingFromApp**](/windows/desktop/api/MemoryApi/nf-memoryapi-createfilemappingfromapp) | 從 Windows Store 應用程式建立或開啟指定檔案的命名或未命名的檔案對應物件。 |
+| [**CreateFileMappingFromApp**](/windows/desktop/api/MemoryApi/nf-memoryapi-createfilemappingfromapp) | 針對 Windows 存放區應用程式中指定的檔案，建立或開啟已命名或未命名的檔案對應物件。 |
 | [**CreateFileMappingNuma**](/windows/desktop/api/WinBase/nf-winbase-createfilemappingnumaa) | 針對指定的檔案建立或開啟已命名或未命名的檔案對應物件，並為實體記憶體指定 NUMA 節點。 |
 | [**FlushViewOfFile**](/windows/win32/api/memoryapi/nf-memoryapi-flushviewoffile) | 將檔案的對應視圖內的位元組範圍寫入磁片。 |
 | [**GetMappedFileName**](/windows/win32/api/psapi/nf-psapi-getmappedfilenamea) | 檢查指定的位址是否在指定進程的位址空間中的記憶體對應檔案內。 如果是的話，函數會傳回記憶體對應檔的名稱。 |
-| [**MapViewOfFile**](/windows/win32/api/memoryapi/nf-memoryapi-mapviewoffile) | 將檔案對應的視圖對應至呼叫進程的位址空間。 |
-| [**MapViewOfFile2**](/windows/win32/api/memoryapi/nf-memoryapi-mapviewoffile2) | 將檔案或分頁支援的區段的視圖對應到指定進程的位址空間。 |
-| [**MapViewOfFile3**](/windows/desktop/api/MemoryApi/nf-memoryapi-mapviewoffile3) | 將檔案或分頁支援的區段的視圖對應到指定進程的位址空間。 |
-| [**MapViewOfFile3FromApp**](/windows/desktop/api/MemoryApi/nf-memoryapi-mapviewoffile3fromapp) | 將檔案對應的視圖對應至 Windows Store 應用程式中呼叫進程的位址空間。 |
-| [**MapViewOfFileEx**](/windows/win32/api/memoryapi/nf-memoryapi-mapviewoffileex) | 將檔案對應的視圖對應至呼叫進程的位址空間。 呼叫者可以選擇性地為視圖指定建議的記憶體位址。 |
-| [**MapViewOfFileExNuma**](/windows/desktop/api/WinBase/nf-winbase-mapviewoffileexnuma) | 將檔案對應的視圖對應至呼叫進程的位址空間，並為實體記憶體指定 NUMA 節點。 |
-| [**MapViewOfFileFromApp**](/windows/desktop/api/MemoryApi/nf-memoryapi-mapviewoffilefromapp) | 將檔案對應的視圖對應至 Windows Store 應用程式中呼叫進程的位址空間。 |
-| [**MapViewOfFileNuma2**](/windows/win32/api/memoryapi/nf-memoryapi-mapviewoffilenuma2) | 將檔案或分頁支援的區段的視圖對應到指定進程的位址空間。 |
+| [**MapViewOfFile**](/windows/win32/api/memoryapi/nf-memoryapi-mapviewoffile) | 地圖將檔案對應到呼叫進程的位址空間中的觀點。 |
+| [**MapViewOfFile2**](/windows/win32/api/memoryapi/nf-memoryapi-mapviewoffile2) | 地圖將檔案或分頁檔案的區段視圖至指定進程的位址空間。 |
+| [**MapViewOfFile3**](/windows/desktop/api/MemoryApi/nf-memoryapi-mapviewoffile3) | 地圖將檔案或分頁檔案的區段視圖至指定進程的位址空間。 |
+| [**MapViewOfFile3FromApp**](/windows/desktop/api/MemoryApi/nf-memoryapi-mapviewoffile3fromapp) | 地圖從 Windows Store 應用程式中，將檔案對應到呼叫進程的位址空間的觀點。 |
+| [**MapViewOfFileEx**](/windows/win32/api/memoryapi/nf-memoryapi-mapviewoffileex) | 地圖將檔案對應到呼叫進程的位址空間中的觀點。 呼叫者可以選擇性地為視圖指定建議的記憶體位址。 |
+| [**MapViewOfFileExNuma**](/windows/desktop/api/WinBase/nf-winbase-mapviewoffileexnuma) | 地圖將檔案對應到呼叫進程的位址空間，並為實體記憶體指定 NUMA 節點。 |
+| [**MapViewOfFileFromApp**](/windows/desktop/api/MemoryApi/nf-memoryapi-mapviewoffilefromapp) | 地圖從 Windows Store 應用程式中，將檔案對應到呼叫進程的位址空間的觀點。 |
+| [**MapViewOfFileNuma2**](/windows/win32/api/memoryapi/nf-memoryapi-mapviewoffilenuma2) | 地圖將檔案或分頁檔案的區段視圖至指定進程的位址空間。 |
 | [**OpenFileMapping**](/windows/win32/api/winbase/nf-winbase-openfilemappinga) | 開啟命名的檔案對應物件。 |
 | [**OpenFileMappingFromApp**](/windows/win32/api/winbase/nf-winbase-openfilemappingafromapp) | 開啟命名的檔案對應物件。 |
 | [**UnmapViewOfFile**](/windows/win32/api/memoryapi/nf-memoryapi-unmapviewoffile) | 從呼叫進程的位址空間，Unmaps 檔案的對應視圖。 |
@@ -93,8 +93,8 @@ ms.locfileid: "103684226"
 | [**AllocateUserPhysicalPages**](/windows/win32/api/memoryapi/nf-memoryapi-allocateuserphysicalpages) | 配置要在進程的任何 AWE 區域內對應和取消對應的實體記憶體頁面。 |
 | [**AllocateUserPhysicalPagesNuma**](/windows/win32/api/memoryapi/nf-memoryapi-allocateuserphysicalpagesnuma) | 配置要在進程的任何 AWE 區域內對應和取消對應的實體記憶體頁面，並為實體記憶體指定 NUMA 節點。 |
 | [**FreeUserPhysicalPages**](/windows/win32/api/memoryapi/nf-memoryapi-freeuserphysicalpages) | 釋出先前以 [**AllocateUserPhysicalPages**](/windows/win32/api/memoryapi/nf-memoryapi-allocateuserphysicalpages)配置的實體記憶體頁面。 |
-| [**MapUserPhysicalPages**](/windows/win32/api/memoryapi/nf-memoryapi-mapuserphysicalpages) | 將先前配置的實體記憶體頁面對應到 AWE 區域內指定的位址。 |
-| [**MapUserPhysicalPagesScatter**](/windows/desktop/api/WinBase/nf-winbase-mapuserphysicalpagesscatter) | 將先前配置的實體記憶體頁面對應到 AWE 區域內指定的位址。 |
+| [**MapUserPhysicalPages**](/windows/win32/api/memoryapi/nf-memoryapi-mapuserphysicalpages) | 地圖先前在 AWE 區域內的指定位址配置的實體記憶體頁面。 |
+| [**MapUserPhysicalPagesScatter**](/windows/desktop/api/WinBase/nf-winbase-mapuserphysicalpagesscatter) | 地圖先前在 AWE 區域內的指定位址配置的實體記憶體頁面。 |
 
 ## <a name="heap-functions"></a>堆積函式
 
@@ -148,7 +148,7 @@ ms.locfileid: "103684226"
 
 ## <a name="global-and-local-functions"></a>全域和區域函數
 
-另請參閱 [全域和區域函數](global-and-local-functions.md)。 提供這些函式的目的是為了與16位的 Windows 相容，而且可搭配動態資料交換 (DDE) 、剪貼簿函式和 OLE 資料物件使用。 除非檔特別指出應該使用全域或區域函式，否則新的應用程式應該使用對應的 [堆積函數](heap-functions.md) 搭配 [**GetProcessHeap**](/windows/desktop/api/HeapApi/nf-heapapi-getprocessheap)所傳回的控制碼。 針對全域或區域函式的對等功能，將堆積函數的 *dwFlags* 參數設定為0。
+另請參閱 [全域和區域函數](global-and-local-functions.md)。 提供這些函式的目的是為了與16位 Windows 的相容性，並搭配動態資料交換 (DDE) 、剪貼簿函式和 OLE 資料物件使用。 除非檔特別指出應該使用全域或區域函式，否則新的應用程式應該使用對應的 [堆積函數](heap-functions.md) 搭配 [**GetProcessHeap**](/windows/desktop/api/HeapApi/nf-heapapi-getprocessheap)所傳回的控制碼。 針對全域或區域函式的對等功能，將堆積函數的 *dwFlags* 參數設定為0。
 
 | 函式 | 描述 | 對應的堆積函數 |
 |-|-|-|
@@ -191,7 +191,7 @@ ms.locfileid: "103684226"
 
 ## <a name="obsolete-functions"></a>過時的函式
 
-這些函式只是為了與16位版本的 Windows 相容：
+這些函式僅提供給 Windows 16 位版本的相容性：
 
 - [**IsBadCodePtr**](/windows/desktop/api/WinBase/nf-winbase-isbadcodeptr)
 - [**IsBadReadPtr**](/windows/desktop/api/WinBase/nf-winbase-isbadreadptr)

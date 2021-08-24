@@ -4,16 +4,16 @@ description: IAgent 載入
 ms.assetid: 8f25e6b6-a117-4b37-969a-d8f80c7be224
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 80ce2835d60f3edce6f45d181927437ba6e58b18
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: ae718ee8c6566de42645c5c02c2efada90ef85ba0136a112bcf0420d18a7b511
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113120931"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119725390"
 ---
 # <a name="iagentload"></a>IAgent：： Load
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 ``` syntax
 HRESULT Load(

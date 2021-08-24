@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 54cc1efaf7da3434e1aff10d57c2e175481a3d2d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 45d85e0506b8adf084b65a13a117a9dea3856fcff2e73f65a229bdb31b283fb9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843339"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119803158"
 ---
 # <a name="inapcomponentconfig2invokeuifromconfigblob-method"></a>INapComponentConfig2：： InvokeUIFromConfigBlob 方法
 
@@ -96,7 +96,7 @@ HRESULT InvokeUIFromConfigBlob(
 
 ## <a name="return-value"></a>傳回值
 
-\_如果成功或其中一個標準 Windows 錯誤碼，則會傳回 S OK。
+\_如果成功，則傳回 [確定]，或其中一個標準 Windows 錯誤碼。
 
 ## <a name="remarks"></a>備註
 
@@ -109,9 +109,9 @@ HRESULT InvokeUIFromConfigBlob(
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | 都不支援<br/>                                                                |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                     |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                     |
 | 標頭<br/>                   | <dl> <dt>NapCommon。h</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>NapCommon .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>NapCommon .idl</dt> </dl> |
 
 
 

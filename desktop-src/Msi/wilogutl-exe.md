@@ -4,12 +4,12 @@ ms.assetid: 09aa03ba-992f-47ab-999b-ebdfe85c1ea7
 title: Wilogutl.exe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ec81c3c82299a08fd947fbbecc7afd8a373252b8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 74ee29553cba4105b5e6ff250f5b388adc964b9477bde5d1f25d073bbf2b1355
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975570"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119786590"
 ---
 # <a name="wilogutlexe"></a>Wilogutl.exe
 
@@ -17,7 +17,7 @@ Wilogutl.exe 有助於分析 Windows Installer 安裝中的記錄檔，並顯示
 
 不會顯示非重大錯誤。 Wilogutl.exe 可以在無訊息模式下執行，也可以使用使用者介面 (UI) 。 此工具會在 UI 和無訊息模式中，以文字檔的形式產生報表。 它最適合用於詳細的 Windows Installer 記錄檔，但也適用于不詳細的記錄檔。 如需詳細資訊，請參閱[記錄](logging.md)。
 
-此工具僅適用于 [Windows Installer 開發人員的 Windows SDK 元件](platform-sdk-components-for-windows-installer-developers.md)。
+此工具僅適用于[Windows Installer 開發人員的 Windows SDK 元件](platform-sdk-components-for-windows-installer-developers.md)。
 
 ## <a name="syntax"></a>Syntax
 
@@ -35,7 +35,7 @@ Wilogutl.exe 使用下列不區分大小寫的命令列選項。 虛線分隔符
 
 
 
-| 選項 | Description                                                                                                                                                                                     |
+| 選項 | 描述                                                                                                                                                                                     |
 |--------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 無   | 在 UI 模式中執行，不需要命令列選項。                                                                                                                                                   |
 | /q     | 指定無訊息模式。 Wilogutl.exe 會產生報表檔案，而且不會顯示使用者介面。                                                                                            |
@@ -57,16 +57,16 @@ Wilogutl.exe 使用下列不區分大小寫的命令列選項。 虛線分隔符
 </colgroup>
 <thead>
 <tr class="header">
-<th>Name</th>
+<th>名稱</th>
 <th>描述</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Windows Installer 詳細資訊記錄分析器</td>
+<td>Windows安裝程式詳細資訊記錄分析器</td>
 <td>Windows Installer 詳細資訊記錄分析器] 對話方塊可讓使用者選取要分析的記錄檔：
 <ul>
-<li>[ <strong>開啟</strong> ] 按鈕會在 [記事本] 中開啟檔案。 您可以使用預覽區域來確認已選取正確的記錄檔。</li>
+<li>[<strong>開啟</strong>] 按鈕會在記事本中開啟檔案。 您可以使用預覽區域來確認已選取正確的記錄檔。</li>
 <li>[ <strong>分析</strong> ] 按鈕會開始記錄檔分析，並顯示詳細的 [記錄檔] 視圖對話方塊。</li>
 </ul></td>
 </tr>
@@ -98,7 +98,7 @@ Wilogutl.exe 使用下列不區分大小寫的命令列選項。 虛線分隔符
 </tr>
 <tr class="even">
 <td>屬性</td>
-<td>[屬性] 對話方塊會在安裝結束時顯示 Windows Installer <a href="properties.md">屬性</a> 及其值。 您可以依名稱或依值排序屬性：
+<td>[屬性] 對話方塊會在安裝結束時顯示 Windows Installer<a href="properties.md">屬性</a>及其值。 您可以依名稱或依值排序屬性：
 <ul>
 <li>[ <strong>客戶</strong> 端] 索引標籤會顯示安裝的用戶端部分的屬性和值。</li>
 <li>[ <strong>伺服器</strong> ] 索引標籤會顯示安裝期間伺服器部分的屬性和值。</li>
@@ -130,7 +130,7 @@ Wilogutl.exe 使用下列不區分大小寫的命令列選項。 虛線分隔符
 
 
 
-| Name                      | 描述                                                                                                                    |
+| 名稱                      | 描述                                                                                                                    |
 |---------------------------|--------------------------------------------------------------------------------------------------------------------------------|
 | logfilename \_summary.txt  | 摘要說明記錄檔。 列出詳細記錄檔視圖對話方塊和第一個錯誤所顯示的資訊。         |
 | logfilename \_errors.txt   | 識別錯誤的數目、錯誤和建議的解決方案。 此檔案會列出重大和非重大錯誤。 |
@@ -165,7 +165,7 @@ Wilogutl.exe 使用下列不區分大小寫的命令列選項。 虛線分隔符
 [已發行的版本、工具和可轉散發套件](released-versions-tools-and-redistributables.md)
 </dt> <dt>
 
-[Windows Installer 開發工具](windows-installer-development-tools.md)
+[Windows安裝程式開發工具](windows-installer-development-tools.md)
 </dt> </dl>
 
  

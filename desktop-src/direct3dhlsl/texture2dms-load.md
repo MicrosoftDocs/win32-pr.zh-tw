@@ -12,12 +12,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
 api_location: ''
-ms.openlocfilehash: a29324dc108464359e333ac401a24be4cadb461d
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 24df3d58413c873df4113cbd9b876ad531cb8307fbc5c8b5062d4a94847e8e2f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104386372"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119742698"
 ---
 # <a name="texture2dmsload-methods"></a>Texture2DMS：： Load 方法
 

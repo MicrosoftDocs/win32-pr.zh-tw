@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 7fd0c0d6f2c7b2a02b7dcc7da30ccd6c7da8494a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7a0a9286abce8f5ec68e60863baf69b90f771def25f203fc674b38b9ed5a19d8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104027472"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119724768"
 ---
 # <a name="esentendingrestorelogtoolowexception-constructor"></a>EsentEndingRestoreLogTooLowException 函式
 

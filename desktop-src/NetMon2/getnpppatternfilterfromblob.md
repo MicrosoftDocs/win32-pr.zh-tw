@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Npptools.dll
-ms.openlocfilehash: 5758c53fe21231d300058a9168e556e9f9ceaa43
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f54be7ac5d5b7a443f967d0f6aa1b4737f798a9459833fc87f07f50328f824c3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103689719"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119743888"
 ---
 # <a name="getnpppatternfilterfromblob-function"></a>GetNPPPatternFilterFromBlob 函式
 

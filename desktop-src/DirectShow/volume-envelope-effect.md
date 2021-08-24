@@ -4,12 +4,12 @@ ms.assetid: 17b6d842-e79c-49b0-baa4-1535b4a2c6ae
 title: 音量信封效果
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9364b88b1928e533a031f0700cb8a2c44bc9822d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e4ecb66914063596849522a0e4bb340fc84f7d80e5ea1113bfdae2d32e855d3b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106983757"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119746948"
 ---
 # <a name="volume-envelope-effect"></a>音量信封效果
 

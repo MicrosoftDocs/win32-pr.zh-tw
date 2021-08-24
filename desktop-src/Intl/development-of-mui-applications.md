@@ -4,12 +4,12 @@ ms.assetid: 10064f5c-5563-44f8-afb5-c6c77991e13c
 title: 開發 MUI 應用程式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fb4a3278b4cc70969c1aa968de895d99fd3363a7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 32cc647069577a2ff3b137573b85308aa66e685df2310c2ea01973d19d1dc0d0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103851816"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119822768"
 ---
 # <a name="development-of-mui-applications"></a>開發 MUI 應用程式
 
@@ -37,7 +37,7 @@ MUI 功能只適用于完整全球化應用程式的當地語系化，使用稱�
 本節說明為應用程式建立使用者介面語言資源的可能性。 如需詳細資訊，請參閱 [準備資源](preparing-resources.md)。
 
 > [!Note]  
-> 在 Windows Vista 之前版本的作業系統上，您通常會以可執行檔中包含的資源區段所支援的語言，建立靜態和個別封裝的單一語言當地語系化應用程式。 這種類型的實大部分已淘汰，建議您選擇本節中所述的其他資源建立技巧，以支援 Windows Vista 和更新版本。 然後，您可以使用 [**LoadMUILibrary**](/windows/desktop/api/Muiload/nf-muiload-loadmuilibrarya)，在 Windows Vista 之前的作業系統上執行此應用程式。
+> 在預先 Windows 的 Vista 作業系統上，您通常會以可執行檔中包含的資源區段所支援的語言，建立靜態和個別封裝的單一語言當地語系化應用程式。 這種類型的實大部分已過時，建議您選擇本節中所述的其他資源建立技巧，Windows Vista 和更新版本中支援。 然後，您可以使用 [**LoadMUILibrary**](/windows/desktop/api/Muiload/nf-muiload-loadmuilibrarya)在預先 Windows Vista 作業系統上執行應用程式。
 
  
 
@@ -59,7 +59,7 @@ MUI 功能只適用于完整全球化應用程式的當地語系化，使用稱�
 
 
 
-| 當地語系化類型       | Description                                                                                                                                                                                                                                                                |
+| 當地語系化類型       | 描述                                                                                                                                                                                                                                                                |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 預先建立當地語系化  | 在建立應用程式和特定語言的資源之前，先要求當地語系化。 針對每個支援的語言，會針對支援的使用者介面語言複製並重新命名基底語言資源檔，並視需要將這些複本提供給當地語系化人員。 |
 | 組建後當地語系化 | 建立應用程式的可執行檔和資源 DLL 之後，要求當地語系化。 在此情況下，會將資源 DLL 的複本提供給每個當地語系化人員。                                                                                                     |

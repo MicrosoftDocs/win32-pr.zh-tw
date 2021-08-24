@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - search.h
-ms.openlocfilehash: 2eab8eee4f7b07b0f712e68d7ad05b970506b00b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 109a852f37f3118cd1012c7385a4f9071fdd2f8867f57036e7607c20fd2dadbe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106984164"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119822308"
 ---
 # <a name="iwordsink-interface"></a>IWordSink 介面
 
@@ -50,7 +50,7 @@ ms.locfileid: "106984164"
 
 ## <a name="remarks"></a>備註
 
-Windows Search 會建立並初始化 **IWordSink** 物件的實例。 **IWordSink** 物件會在初始化期間接收 *fQuery* 參數，並使用此參數來決定使用物件的斷詞內容。
+Windows搜尋會建立並初始化 **IWordSink** 物件的實例。 **IWordSink** 物件會在初始化期間接收 *fQuery* 參數，並使用此參數來決定使用物件的斷詞內容。
 
 [**IWordBreaker**](/windows/win32/api/indexsrv/nn-indexsrv-iwordbreaker)執行會在 [**IWordBreaker：： BreakText**](/windows/win32/api/indexsrv/nf-indexsrv-iwordbreaker-breaktext)方法中收到 **IWordSink** 物件的指標。
 

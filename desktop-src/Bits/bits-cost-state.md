@@ -25,12 +25,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 02/20/2019
-ms.openlocfilehash: 88fb0b949fb06a6e1eb6e14cdf55c8d54d9ab33c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ecbe54966a54310af71a4c96a3d3c2423f524f9b8a8067b10350fba05675a54b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934494"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119701978"
 ---
 # <a name="bits_cost_state"></a>BITS \_ 成本 \_ 狀態
 
@@ -174,10 +174,10 @@ ms.locfileid: "103934494"
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                         |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                   |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                         |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                   |
 | 標頭<br/>                   | <dl> <dt>Bits5 \_ 0 .h (包含 bit .h) </dt> </dl> |
-| Idl<br/>                      | <dl> <dt>Bits5 \_ 0 .idl</dt> </dl>                |
+| IDL<br/>                      | <dl> <dt>Bits5 \_ 0 .idl</dt> </dl>                |
 
 
 

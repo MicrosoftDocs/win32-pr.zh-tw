@@ -4,12 +4,12 @@ ms.assetid: 67e4ef00-2b2d-4287-8cb1-144d9610ccec
 title: 關於磁片管理
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2c9beaa783ba9c37c63677f1c462dac73ffceb8c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1040643b50ecd52d49881e0d65642df31be13b65467c1896a43f557b906cb1a9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511577"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119766378"
 ---
 # <a name="about-disk-management"></a>關於磁片管理
 

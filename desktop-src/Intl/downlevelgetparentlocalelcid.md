@@ -13,19 +13,19 @@ api_type:
 - DllExport
 api_location:
 - NlsMap.dll
-ms.openlocfilehash: b34f30425147057efe8039cc36514d699199c9a5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 64cefdf4cc2a2c522a8295ab44e1810f0364d706d378979637700a7a3b72343a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320235"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119765438"
 ---
 # <a name="downlevelgetparentlocalelcid-function"></a>DownlevelGetParentLocaleLCID 函式
 
 抓取所提供地區設定之父系的 [地區設定識別碼](locale-identifiers.md) 。
 
 > [!Note]  
-> 只有在 Windows Vista 之前的作業系統上執行的應用程式，才會使用此函式。 其用途需要下載套件。 只有在 Windows Vista 和更新版本上執行的應用程式，應該呼叫 [**GetLocaleInfo**](/windows/desktop/api/Winnls/nf-winnls-getlocaleinfoa) ，並將 *LCType* 設定為 [地區設定 \_ SPARENT](locale-sparent.md)。
+> 此函式僅適用于在預先 Windows Vista 作業系統上執行的應用程式。 其用途需要下載套件。 只在 Windows Vista 和更新版本上執行的應用程式，應該呼叫 [**GetLocaleInfo**](/windows/desktop/api/Winnls/nf-winnls-getlocaleinfoa) ，並將 *LCType* 設定為 [地區設定 \_ SPARENT](locale-sparent.md)。
 
  
 
@@ -77,9 +77,9 @@ LCID DownlevelGetParentLocaleLCID(
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
-| 可轉散發套件<br/>          | Microsoft NLS 下層資料對應 Api 于 windows XPor Windows Vista<br/>     |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
+| 可轉散發套件<br/>          | Microsoft NLS 下層資料對應 api 于 windows XPor Windows Vista<br/>     |
 | 標頭<br/>                   | <dl> <dt>Nlsdl。h</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>NlsMap.dll</dt> </dl> |
 

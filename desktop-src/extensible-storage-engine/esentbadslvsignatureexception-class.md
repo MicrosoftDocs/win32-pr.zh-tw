@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 1cd21cfec5ce11b2d67681324078f0326af98371
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 20fe6b7f932e424432a7ee50823862816f1324fae8dcf951664f1e080c410905
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972802"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119785868"
 ---
 # <a name="esentbadslvsignatureexception-class"></a>EsentBadSLVSignatureException 類別
 

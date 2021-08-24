@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102028
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 42396a425c8a6358dd54f34dbcad3a8c87a49842
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b27265b1ae6b3966e7f34e5730a31a50dbc4bb352b72ab2a83c93942fbd29e0f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319376"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119723568"
 ---
 # <a name="esentinvalidtableidexception-methods"></a>EsentInvalidTableIdException 方法
 

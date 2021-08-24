@@ -4,12 +4,12 @@ ms.assetid: 9e794f7d-0fb3-4069-8431-62651252517d
 title: 'MF_MT_AUDIO_FLOAT_SAMPLES_PER_SECOND 屬性 (Mfapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6878ce1f8a1197bd556a9f54d70c4f18dc3f87f9
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: abb6ff3fd443cdbb50cbc05a4b85032b61fa5cd69465917bb94a938e3b9b8881
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108087636"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119723008"
 ---
 # <a name="mf_mt_audio_float_samples_per_second-attribute"></a>\_每秒的 MF MT \_ 音訊 \_ 浮點數 \_ 範例 \_ \_ 屬性
 
@@ -29,8 +29,8 @@ ms.locfileid: "108087636"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows Vista \[ 桌面應用程式 \| UWP 應用程式\]<br/>                              |
-| 最低支援的伺服器<br/> | Windows Server 2008 \[ desktop app \| UWP 應用程式\]<br/>                        |
+| 最低支援的用戶端<br/> | WindowsVista \[ desktop apps \| UWP 應用程式\]<br/>                              |
+| 最低支援的伺服器<br/> | WindowsServer 2008 \[ desktop app \| UWP 應用程式\]<br/>                        |
 | 標頭<br/>                   | <dl> <dt>Mfapi。h</dt> </dl> |
 
 

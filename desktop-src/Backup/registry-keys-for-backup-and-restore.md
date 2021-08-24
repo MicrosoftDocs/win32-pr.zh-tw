@@ -18,16 +18,16 @@ keywords:
 - SYSVOL 備份
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e7058378561072bdc0f51abb455c098a22a9ad5e
-ms.sourcegitcommit: cb87082135319cbdc5df541e3071eebb83a58972
+ms.openlocfilehash: 6d825c6588242dccd5df16778de9c590e51b7cdbf6696be4f1a5e40ff2d967c4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111386787"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119702188"
 ---
 # <a name="registry-keys-and-values-for-backup-and-restore"></a>用於備份和還原的登錄機碼和值
 
-要求或執行備份和還原作業的應用程式，應該使用下列登錄機碼和值彼此通訊，或透過 [磁碟區陰影複製服務 (VSS) ](/windows/desktop/VSS/volume-shadow-copy-service-portal) 和 Windows 備份等功能進行通訊：
+要求或執行備份和還原作業的應用程式，應該使用下列登錄機碼和值彼此通訊，或透過[磁碟區陰影複製服務 (VSS) ](/windows/desktop/VSS/volume-shadow-copy-service-portal)和 Windows 備份等功能進行通訊：
 
 -   [CustomPerformanceSettings](#customperformancesettings)
 -   [DisableMonitoring](#disablemonitoring)
@@ -48,7 +48,7 @@ ms.locfileid: "111386787"
 
 ## <a name="disablemonitoring"></a>DisableMonitoring
 
-從 Windows 7 開始，在 Windows 用戶端平臺上，如果使用者尚未這麼做，系統會自動提示使用者設定 Windows 備份功能。 這些通知會在電腦啟動時顯示，在安裝作業系統之後的七天開始。 它們也會在使用者插入硬碟時出現;在此情況下，通知會立即顯示。
+從 Windows 7 開始 Windows 用戶端平臺上，如果使用者尚未這麼做，系統會自動提示使用者設定 Windows 備份功能。 這些通知會在電腦啟動時顯示，在安裝作業系統之後的七天開始。 它們也會在使用者插入硬碟時出現;在此情況下，通知會立即顯示。
 
 協力廠商備份應用程式的 Oem 和開發人員可以使用 **DisableMonitoring** 登錄值來關閉這些自動通知。
 
@@ -61,7 +61,7 @@ ms.locfileid: "111386787"
 -   如果值的資料設定為1，而且使用者尚未設定 Windows 備份功能，則會關閉自動通知。 如果 [行動中心] 已有自動通知，設定此登錄值會導致在下列早上的10:00 移除通知。
 -   如果值不存在，如果未設定其資料，或其資料設定為零，則不會關閉自動通知。
 
-**Windows Vista 和 WINDOWS XP：** 不支援這個登錄值。
+**Windows Vista 和 Windows XP：** 不支援這個登錄值。
 
 ## <a name="filesnottobackup"></a>FilesNotToBackup
 
@@ -98,13 +98,13 @@ ms.locfileid: "111386787"
 
 針對區塊層級磁片區備份，Windows Server Backup 和 Windows Wbadmin 公用程式會在還原時刪除適當的檔案，以接受 **FilesNotToBackup** 登錄機碼。 系統還原和系統狀態備份不接受 **FilesNotToBackup** 登錄機碼。
 
-**WINDOWS XP：** 系統還原接受 **FilesNotToBackup** 登錄機碼。
+**Windows XP：** 系統還原接受 **FilesNotToBackup** 登錄機碼。
 
 ## <a name="filesnottosnapshot"></a>FilesNotToSnapshot
 
 VSS 支援 **FilesNotToSnapshot** 登錄機碼。 應用程式和服務可以使用此金鑰來指定要從新建立的陰影複製中刪除的檔案。 如需詳細資訊，請參閱 [從陰影複製中排除](/windows/desktop/VSS/excluding-files-from-shadow-copies)檔案。
 
-**Windows Server 2003 和 WINDOWS XP：** 不支援此登錄機碼。
+**Windows Server 2003 和 Windows XP：** 不支援此登錄機碼。
 
 針對區塊層級磁片區備份，Windows Server Backup 會在還原時刪除適當的檔案，以接受 **FilesNotToSnapshot** 登錄機碼。
 
@@ -114,7 +114,7 @@ VSS 支援 **FilesNotToSnapshot** 登錄機碼。 應用程式和服務可以使
 
 您可以在下列登錄機碼下找到這個登錄值：
 
-**HKEY \_本機 \_ 電腦** \\ **系統** \\ **CurrentControlSet** \\ **服務** \\ **VSS** \\ **設定**
+**HKEY \_LOCAL \_ MACHINE** \\ **System** \\ **CurrentControlSet** \\ **Services** \\ **VSS** \\ **設定**
 
 如果此登錄值不存在：
 
@@ -130,13 +130,13 @@ VSS 支援 **FilesNotToSnapshot** 登錄機碼。 應用程式和服務可以使
 -   VSS 會使用您設定的超時值。
 -   您可以指定介於1到 FFFFFFFF 秒之間的任何值。 不過，建議您選擇介於1到180秒之間的值。
 
-**Windows Server 2003 和 WINDOWS XP：** 不支援此登錄機碼。
+**Windows Server 2003 和 Windows XP：** 不支援此登錄機碼。
 
 ## <a name="keysnottorestore"></a>KeysNotToRestore
 
 **KeysNotToRestore** 登錄機碼會指定備份應用程式不應還原的登錄子機碼和值的名稱。 如需詳細資訊，請參閱 [KeysNotToRestore](/previous-versions/windows/it-pro/windows-server-2003/cc737538(v=ws.10))。 不需要接受 **KeysNotToRestore** 登錄機碼。
 
-**Windows Server 2003 和 WINDOWS XP：** 您必須接受 **KeysNotToRestore** 登錄機碼。
+**Windows Server 2003 和 Windows XP：** 您必須接受 **KeysNotToRestore** 登錄機碼。
 
 針對區塊層級磁片區備份，Windows Server Backup 會在還原時刪除適當的檔案，以接受 **KeysNotToRestore** 登錄機碼。
 
@@ -146,7 +146,7 @@ VSS 支援 **FilesNotToSnapshot** 登錄機碼。 應用程式和服務可以使
 
 **LastInstance** 登錄值表示已執行裸機還原作業，而磁片區已被覆寫但未格式化。 如需詳細資訊，請參閱 [使用 VSS 自動化系統復原進行](/windows/desktop/VSS/using-vss-automated-system-recovery-for-disaster-recovery)嚴重損壞修復。
 
-**Windows Server 2003 和 WINDOWS XP：** 不支援這個登錄值。
+**Windows Server 2003 和 Windows XP：** 不支援這個登錄值。
 
 ## <a name="lastrestoreid"></a>LastRestoreId
 
@@ -164,7 +164,7 @@ VSS 支援 **FilesNotToSnapshot** 登錄機碼。 應用程式和服務可以使
 
 其他需要監視系統狀態還原的應用程式應該儲存此登錄值的資料。 這項資料可以與 **LastRestoreId** 登錄值的目前資料進行比較，以判斷是否已執行新的系統狀態還原。
 
-**Windows Vista、Windows Server 2003 和 WINDOWS XP：** 在 Windows Vista Service Pack 1 (SP1) 和 Windows Server 2008 之前，不支援這個登錄值。
+**Windows Vista、Windows Server 2003 和 Windows XP：** 在 Windows Vista Service Pack 1 (SP1) 和 Windows Server 2008 之前，不支援這個登錄值。
 
 ## <a name="maxshadowcopies"></a>MaxShadowCopies
 
@@ -172,7 +172,7 @@ VSS 支援 **FilesNotToSnapshot** 登錄機碼。 應用程式和服務可以使
 
 如果 **MaxShadowCopies** 登錄值不存在，則備份應用程式可以在下列登錄機碼底下建立它：
 
-**HKEY \_本機 \_ 電腦** \\ **系統** \\ **CurrentControlSet** \\ **服務** \\ **VSS** \\ **設定**
+**HKEY \_LOCAL \_ MACHINE** \\ **System** \\ **CurrentControlSet** \\ **Services** \\ **VSS** \\ **設定**
 
 建立名稱為 **MaxShadowCopies** 和類型為 DWORD 的值。 此值的預設資料為64。 最小值為1。 最大值為512。
 
@@ -181,11 +181,11 @@ VSS 支援 **FilesNotToSnapshot** 登錄機碼。 應用程式和服務可以使
 
  
 
-**注意**  Windows Server 2003 或更新版本支援 **MaxShadowCopies** 設定。
+**注意** Windows Server 2003 或更新版本支援 **MaxShadowCopies** 設定。
 
 **Windows Server 2003：** 在叢集伺服器上， **MaxShadowCopies** 登錄值的資料可能需要設定為較低的數位。 For more information, see "When you use the Volume Shadow Copy Service on Windows Server 2003-based computers that run many I/O operations, disk volumes take longer to go online" in the Help and Support Knowledge Base at [https://support.microsoft.com/kb/945058](https://support.microsoft.com/kb/945058).
 
-**WINDOWS XP：** 不支援這個登錄值。
+**Windows XP：** 不支援這個登錄值。
 
 ## <a name="mindiffareafilesize"></a>MinDiffAreaFileSize
 
@@ -193,11 +193,11 @@ VSS 支援 **FilesNotToSnapshot** 登錄機碼。 應用程式和服務可以使
 
 如果未設定 **MinDiffAreaFileSize** 登錄值，陰影複製存放區域的大小下限為 32 mb，適用于小於 500 mb 的磁片區，以及大於 500 mb 的磁片區的 320 mb。
 
-**Windows server 2008、Windows server 2003 SP1 和 Windows Vista：** 如果未設定 **MinDiffAreaFileSize** 登錄值，陰影複製存放區域的最小大小為 300 MB。 如果已設定 **MinDiffAreaFileSize** 登錄值，其資料必須介於 300 mb 到 3000 mb (3 GB) ，而且必須是 300 MB 的倍數。
+**Windows server 2008、Windows Server 2003 SP1 和 Windows Vista：** 如果未設定 **MinDiffAreaFileSize** 登錄值，陰影複製存放區域的最小大小為 300 MB。 如果已設定 **MinDiffAreaFileSize** 登錄值，其資料必須介於 300 mb 到 3000 mb (3 GB) ，而且必須是 300 MB 的倍數。
 
 **Windows Server 2003：** 如果未設定 **MinDiffAreaFileSize** 登錄值，陰影複製存放區域的大小下限為 100 MB。
 
-**WINDOWS XP：** 不支援這個登錄值。
+**Windows XP：** 不支援這個登錄值。
 
 如果 **MinDiffAreaFileSize** 登錄值不存在，則備份應用程式可以在下列登錄機碼底下建立它：
 
@@ -209,13 +209,13 @@ VSS 支援 **FilesNotToSnapshot** 登錄機碼。 應用程式和服務可以使
 
 ## <a name="overallperformancesetting-and-customperformancesettings"></a>OverallPerformanceSetting 和 CustomPerformanceSettings
 
-**OverallPerformanceSetting** 和 **CustomPerformanceSettings** 登錄值是用來指定 Windows Server Backup 的效能設定。 只有在 Windows server 作業系統上才支援這些登錄值。
+**OverallPerformanceSetting** 和 **CustomPerformanceSettings** 登錄值是用來指定 Windows Server Backup 的效能設定。 只有 Windows server 作業系統支援這些登錄值。
 
 **Windows Server 2003：** 不支援這些登錄值。
 
 如果這些登錄值不存在，則備份應用程式可以在下列登錄機碼底下建立它們：
 
-**HKEY \_本機 \_ 電腦** \\ **軟體** \\ **Microsoft** \\ **windows** \\ **CurrentVersion** \\ **windows 區塊層級備份**
+**HKEY \_本機 \_ 電腦** \\ **軟體** \\ **Microsoft** \\ **Windows** \\ **CurrentVersion** \\ **Windows 區塊層級備份**
 
 若要指定所有磁片區的效能設定，請建立名稱為 **OverallPerformanceSetting** 的值，並輸入 REG \_ DWORD。 值的資料應該設定為下列其中一個值。
 
@@ -255,7 +255,7 @@ VSS 支援 **FilesNotToSnapshot** 登錄機碼。 應用程式和服務可以使
 
 建立名稱為 **SYSVOL** 的值，並輸入 REG \_ SZ。 根據系統管理員的要求，值的資料應該設定為「授權」或「非授權」。
 
-**Windows Vista、Windows Server 2003 和 WINDOWS XP：** 不支援這個登錄值。
+**Windows Vista、Windows Server 2003 和 Windows XP：** 不支援這個登錄值。
 
  
 

@@ -4,22 +4,22 @@ ms.assetid: 3d19152f-17a3-4576-a2a2-5b827d9ca8d1
 title: 編碼器 API
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 386b964f44dc4dc69896ead34bbe0d0177b198a1
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 7b97dc2242cc718605a851186c726e3301493b7637b94e88b7987868741874a9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104385781"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119823638"
 ---
 # <a name="encoder-api"></a>編碼器 API
 
 編碼器 API 提供統一的介面來設定軟體和硬體編碼器。 應用程式可以使用編碼器 API 來設定編碼器和儲存設定。 編碼器廠商可使用編碼器 API 來公開編碼器的功能。 雖然編碼器 API 主要是針對編碼器所設計，但它通常也足以支援它。
 
-編碼器 API 會透過 [**ICodecAPI**](/windows/desktop/api/Strmif/nn-strmif-icodecapi) 介面（由編碼器篩選器公開）公開給應用程式。 編碼器篩選器可能是原生的 DirectShow 篩選器、硬體編碼器或 DirectX 媒體物件 (SQL-DMO) 。
+編碼器 API 會透過 [**ICodecAPI**](/windows/desktop/api/Strmif/nn-strmif-icodecapi) 介面（由編碼器篩選器公開）公開給應用程式。 編碼器篩選器可能是原生 DirectShow 濾波器、硬體編碼器或 DirectX 媒體物件 (DMO) 。
 
 -   軟體篩選：實作為原生 DirectShow 篩選器的編碼器應該直接公開 [**ICodecAPI**](/windows/desktop/api/Strmif/nn-strmif-icodecapi) 。
 -   硬體編碼器：編碼裝置會透過一或多個 AVStream minidrivers 公開，KSProxy 會在使用者模式中表示。 KSProxy 會將 [**ICodecAPI**](/windows/desktop/api/Strmif/nn-strmif-icodecapi) 方法呼叫轉譯為 KS 屬性集。 如需詳細資訊，請參閱 DDK 檔。
--   DMOs： SQL-DMO 應該公開 [**ICodecAPI**](/windows/desktop/api/Strmif/nn-strmif-icodecapi) 介面。 DirectShow 應用程式可以查詢 SQL-DMO 包裝函式篩選器，此篩選器會藉由匯總來公開介面。 以 DirectShow 為基礎的應用程式可以直接查詢 SQL-DMO。
+-   DMOs： DMO 應該公開 [**ICodecAPI**](/windows/desktop/api/Strmif/nn-strmif-icodecapi)介面。 DirectShow 的應用程式可以查詢 DMO 包裝函式篩選器，藉由匯總 DMO 來公開介面。 以 DirectShow 為基礎的應用程式可以直接查詢 DMO。
 
 ### <a name="encoder-capabilties"></a>編碼器功能
 
@@ -30,7 +30,7 @@ ms.locfileid: "104385781"
 3.  呼叫 [**IGetCapabilitiesKey：： GetCapabilitiesKey**](/windows/desktop/api/Strmif/nf-strmif-igetcapabilitieskey-getcapabilitieskey)。 方法會將控制碼傳回至包含篩選功能清單的登錄機碼。
 4.  呼叫 **RegEnumValue** 函式來列舉傳回索引鍵的值。
 
-如果您要開發編碼器，請在註冊篩選器時建立這些功能的登錄專案。 針對軟體篩選器，請建立名為「 **功能** 」的金鑰，該金鑰與 **FilterData** 和 **FriendlyName** 金鑰相鄰。 一般而言，您會在呼叫 [**AMovieDllRegisterServer2**](amoviedllregisterserver2.md) 之後加入這項資訊，以註冊標準篩選資料。 如需詳細資訊，請參閱 [如何註冊 DirectShow 篩選](how-to-register-directshow-filters.md)。 或者，您可以建立 **CapabilitiesLocation** 索引鍵，其中包含的字串可提供登錄中的 **功能** 金鑰位置。 字串的開頭應該是 "HKLM \\ "、"HKCR \\ " 或 "HKCU \\ "，以表示登錄子樹。 針對隨插即用裝置，驅動程式的安裝檔應該建立與篩選的 **FriendlyName** 金鑰連續的 **功能** 金鑰，也可以使用 **CapabilitiesLocation** 金鑰，如軟體篩選器所述。
+如果您要開發編碼器，請在註冊篩選器時建立這些功能的登錄專案。 針對軟體篩選器，請建立名為「 **功能** 」的金鑰，該金鑰與 **FilterData** 和 **FriendlyName** 金鑰相鄰。 一般而言，您會在呼叫 [**AMovieDllRegisterServer2**](amoviedllregisterserver2.md) 之後加入這項資訊，以註冊標準篩選資料。 如需詳細資訊，請參閱[如何註冊 DirectShow 篩選](how-to-register-directshow-filters.md)。 或者，您可以建立 **CapabilitiesLocation** 索引鍵，其中包含的字串可提供登錄中的 **功能** 金鑰位置。 字串的開頭應該是 "HKLM \\ "、"HKCR \\ " 或 "HKCU \\ "，以表示登錄子樹。 針對隨插即用裝置，驅動程式的安裝檔應該建立與篩選的 **FriendlyName** 金鑰連續的 **功能** 金鑰，也可以使用 **CapabilitiesLocation** 金鑰，如軟體篩選器所述。
 
 建立 **功能** 金鑰之後，請為每個功能 GUID 建立一個值。 值的名稱應該是 GUID 的字串格式，格式為 `{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}` 。 每個實值型別都應該是下列其中一項：
 

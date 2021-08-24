@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bfc2265b2d809b7a73cd19faace87473552471a3
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: bd36fa89ab33ac7757ed4cf14673d33bc32fc1495f95102454fc918b8f21c4bb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845091"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119762438"
 ---
 # <a name="msmq-out-routing-servers-attribute"></a>MSMQ 輸出路由-伺服器屬性
 
@@ -60,7 +60,7 @@ MSMQ 路由伺服器的 DN 連結，此電腦的所有連出流量都應路由�
 | System-Only            | 否                                                        |
 | 是-單一值       | 否                                                        |
 | 已編制索引             | 否                                                        |
-| 在通用類別目錄中      | 對                                                         |
+| 在通用類別目錄中      | 是                                                         |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                 |
 | Range-Lower            | \-                                                           |
 | Range-Upper            | \-                                                           |
@@ -81,7 +81,7 @@ MSMQ 路由伺服器的 DN 連結，此電腦的所有連出流量都應路由�
 | System-Only            | 否                                                        |
 | 是-單一值       | 否                                                        |
 | 已編制索引             | 否                                                        |
-| 在通用類別目錄中      | 對                                                         |
+| 在通用類別目錄中      | 是                                                         |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                 |
 | Range-Lower            | \-                                                           |
 | Range-Upper            | \-                                                           |
@@ -102,7 +102,7 @@ MSMQ 路由伺服器的 DN 連結，此電腦的所有連出流量都應路由�
 | System-Only            | 否                                                        |
 | 是-單一值       | 否                                                        |
 | 已編制索引             | 否                                                        |
-| 在通用類別目錄中      | 對                                                         |
+| 在通用類別目錄中      | 是                                                         |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                 |
 | Range-Lower            | \-                                                           |
 | Range-Upper            | \-                                                           |
@@ -123,7 +123,7 @@ MSMQ 路由伺服器的 DN 連結，此電腦的所有連出流量都應路由�
 | System-Only            | 否                                                        |
 | 是-單一值       | 否                                                        |
 | 已編制索引             | 否                                                        |
-| 在通用類別目錄中      | 對                                                         |
+| 在通用類別目錄中      | 是                                                         |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                 |
 | Range-Lower            | \-                                                           |
 | Range-Upper            | \-                                                           |
@@ -144,7 +144,7 @@ MSMQ 路由伺服器的 DN 連結，此電腦的所有連出流量都應路由�
 | System-Only            | 否                                                        |
 | 是-單一值       | 否                                                        |
 | 已編制索引             | 否                                                        |
-| 在通用類別目錄中      | 對                                                         |
+| 在通用類別目錄中      | 是                                                         |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                 |
 | Range-Lower            | \-                                                           |
 | Range-Upper            | \-                                                           |
@@ -165,7 +165,7 @@ MSMQ 路由伺服器的 DN 連結，此電腦的所有連出流量都應路由�
 | System-Only            | 否                                                        |
 | 是-單一值       | 否                                                        |
 | 已編制索引             | 否                                                        |
-| 在通用類別目錄中      | 對                                                         |
+| 在通用類別目錄中      | 是                                                         |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                 |
 | Range-Lower            | \-                                                           |
 | Range-Upper            | \-                                                           |

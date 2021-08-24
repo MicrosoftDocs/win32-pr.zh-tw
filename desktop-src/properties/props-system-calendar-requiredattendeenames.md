@@ -4,18 +4,18 @@ ms.assetid: 6f83ab7e-8583-4872-b5d9-91ce227a7761
 title: RequiredAttendeeNames
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4bfc10fd4bd1daa15941c93230631d523f3b90f1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6c8786ed8ec1604de12e533ed7177d9667c2196a27f37de631a07b0877bb39bd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318884"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119823468"
 ---
 # <a name="systemcalendarrequiredattendeenames"></a>RequiredAttendeeNames
 
 所有必要出席者的名稱。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

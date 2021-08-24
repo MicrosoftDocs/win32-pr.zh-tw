@@ -3,7 +3,7 @@ title: 'WsSetAutoFail 函式 (WebServicesDebug) '
 description: 設定下一個插入失敗的點。 這是僅限 DEBUG 函數。
 ms.assetid: b453dbc5-01ff-486d-8767-254b74cc5b6e
 keywords:
-- 適用于 Windows 的 WsSetAutoFail 函式 Web 服務
+- Windows 的 WsSetAutoFail 函式 Web 服務
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0ba10b8b038f270f764b064fac1cb81e675f5239
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4e2ae3ed731edce429aac78700d52d0e7504a5688d1bf35bbb9c64a5d34bc0a1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104509083"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119838538"
 ---
 # <a name="wssetautofail-function"></a>WsSetAutoFail 函式
 
@@ -65,8 +65,8 @@ HRESULT WINAPI  WsSetAutoFail(
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                                    |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/>                                       |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                                    |
+| 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/>                                       |
 | 標頭<br/>                   | <dl> <dt>WebServicesDebug。h</dt> </dl> |
 
 

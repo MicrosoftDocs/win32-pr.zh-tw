@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 24b3e348c0c0adaf4d261705c1e4de7bf5d7297b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4823b4135a0be6a20c6f7d73043b9ad7aaa120fb2813701c6e7686bdf8e5f777
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104195527"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119837418"
 ---
 # <a name="esentinvaliddatabaseversionexception-class"></a>EsentInvalidDatabaseVersionException 類別
 

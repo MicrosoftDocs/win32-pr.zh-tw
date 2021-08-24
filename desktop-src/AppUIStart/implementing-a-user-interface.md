@@ -1,19 +1,19 @@
 ---
 title: 執行消費者介面
-description: 本節說明一些與執行 Windows 應用程式之使用者介面相關聯的工作。
+description: 本節說明一些與為 Windows 應用程式執行使用者介面相關聯的工作。
 ms.assetid: 889791a7-d12c-4ec6-9b04-8fed14ecdb2c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0941458e046a85dc6e27a684d8aa3a7ea609e889
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 7967474781e180ab29a42fce6884cc391515eef0211107852659eace3490e712
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104315733"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119702338"
 ---
 # <a name="implementing-a-user-interface"></a>執行消費者介面
 
-本節說明一些與執行 Windows 應用程式之使用者介面相關聯的工作。
+本節說明一些與為 Windows 應用程式執行使用者介面相關聯的工作。
 
 -   [原型](#prototype)
 -   [構建](#construct)
@@ -33,7 +33,7 @@ ms.locfileid: "104315733"
 
 示範原型並追蹤使用者意見反應，以協助找出一般可用性趨勢。 如果可能的話，請捨棄最少成功的原型，並盡可能將最有用的意見反應納入一或多個其餘的原型中。 在時間和資源允許的情況下重複此程式。
 
-有各種原型工具可供使用，包括 Microsoft Expression Studio 3 中的 [SketchFlow](/previous-versions/visualstudio/design-tools/expression-studio-3/ee341458(v=expression.30)) 、Microsoft Visual Studio 中的版面配置編輯器，甚至 Microsoft 小畫家。
+有各種原型工具可供使用，包括 Microsoft Expression Studio 3 中的[SketchFlow](/previous-versions/visualstudio/design-tools/expression-studio-3/ee341458(v=expression.30)) 、Microsoft Visual Studio 中的版面配置編輯器，甚至 Microsoft 小畫家。
 
 ## <a name="construct"></a>建構
 
@@ -41,23 +41,23 @@ ms.locfileid: "104315733"
 
 -   命令結構
 
-    判斷是否要根據功能表和工具列，或是以 Windows 功能區架構為基礎的替代命令結構來執行傳統的命令結構。 如需詳細資訊，請參閱 [功能表](../menurc/menus.md)、 [工具列](../controls/toolbar-control-reference.md)和 [Windows 功能區架構](../windowsribbon/-uiplat-windowsribbon-entry.md)。
+    根據功能表和工具列，判斷是否要執行傳統的命令結構，或是根據 Windows 功能區架構來執行替代命令結構。 如需詳細資訊，請參閱[功能表](../menurc/menus.md)、[工具列](../controls/toolbar-control-reference.md)和[Windows 功能區架構](../windowsribbon/-uiplat-windowsribbon-entry.md)。
 
--   視窗和對話方塊
+-   Windows 和對話方塊
 
-    根據 UI 設計和原型工作，執行應用程式視窗，包括主視窗、子視窗、對話方塊和訊息方塊。 遵循 UX 指導方針，以決定要在視窗和對話方塊中使用的樣式和控制項。 如需詳細資訊，請參閱 [視窗](../winmsg/windows.md)、 [對話方塊](../dlgbox/dialog-boxes.md)和 [windows 控制項](../controls/window-controls.md)。
+    根據 UI 設計和原型工作，執行應用程式視窗，包括主視窗、子視窗、對話方塊和訊息方塊。 遵循 UX 指導方針，以決定要在視窗和對話方塊中使用的樣式和控制項。 如需詳細資訊，請參閱[Windows](../winmsg/windows.md)、[對話方塊](../dlgbox/dialog-boxes.md)和[Windows 控制項](../controls/window-controls.md)。
 
 -   自訂控制項
 
-    只有當您無法從其中一個標準 Windows 控制項取得您想要的功能時，才建立新的自訂控制項。 新自訂控制項的開發成本相當高，需要額外的工作才能讓它們可供存取。 如果您的應用程式需要自訂控制項，請確定它們已適當地公開給輔助技術。 如需詳細資訊，請參閱 [自訂控制項](../controls/user-controls-intro.md) 和 [Windows 自動化 API](../winauto/windows-automation-api-portal.md)。
+    只有當您無法從其中一個標準 Windows 控制項取得您想要的功能時，才建立新的自訂控制項。 新自訂控制項的開發成本相當高，需要額外的工作才能讓它們可供存取。 如果您的應用程式需要自訂控制項，請確定它們已適當地公開給輔助技術。 如需詳細資訊，請參閱[自訂控制項](../controls/user-controls-intro.md)和[Windows Automation API](../winauto/windows-automation-api-portal.md)。
 
 -   標準使用者輸入裝置的支援
 
-    大部分的 Windows 應用程式都需要透過鍵盤和滑鼠支援使用者輸入。 只要透過鍵盤流覽及存取所有應用程式功能，就會對視力受損或有行動性問題的使用者特別重要。 如需詳細資訊，請參閱 [使用者輸入](../inputdev/user-input.md) 和 [協助工具的工程軟體電子書](https://www.microsoft.com/download/details.aspx?id=19262)。
+    大部分 Windows 的應用程式都需要透過鍵盤和滑鼠支援使用者輸入。 只要透過鍵盤流覽及存取所有應用程式功能，就會對視力受損或有行動性問題的使用者特別重要。 如需詳細資訊，請參閱 [使用者輸入](../inputdev/user-input.md) 和 [協助工具的工程軟體電子書](https://www.microsoft.com/download/details.aspx?id=19262)。
 
 -   視覺化樣式、動畫和視覺效果
 
-    Windows 包含數種技術，可讓您用來新增視覺效果，並將 UI 與其他應用程式分開。 這些包括指定控制項的視覺化樣式、將動畫新增至 UI 元素，以及在 UI 中執行各種視覺效果。 如需詳細資訊，請參閱 [視覺化樣式](../controls/themes-overview.md)、 [Windows 動畫管理員](../uianimation/-main-portal.md)和 [桌面視窗管理員](../dwm/dwm-overview.md)。
+    Windows 包含數種技術，可讓您用來新增視覺效果，並將 UI 與其他應用程式分開。 這些包括指定控制項的視覺化樣式、將動畫新增至 UI 元素，以及在 UI 中執行各種視覺效果。 如需詳細資訊，請參閱[視覺化樣式](../controls/themes-overview.md)、 [Windows 動畫管理員](../uianimation/-main-portal.md)，以及[桌面視窗管理員](../dwm/dwm-overview.md)。
 
 ## <a name="simplify"></a>簡化 
 
@@ -107,6 +107,6 @@ UI 表示使用者必須與應用程式互動以進行某些動作。 在理想�
 
 設計是選擇失敗的方法：針對某個事物進行優化，表示另一種情況是失敗的。 良好的 UI 設計關鍵在於能夠決定應用程式的哪些特性是最重要的，以及可以剪下哪些特性。
 
- 
+ 
 
- 
+ 

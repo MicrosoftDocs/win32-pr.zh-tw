@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8178b3f05fb61601a46932461c235088f0b14daa
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e68fb15fca4425611be8a923dc37928789d1619f3923506a7a459fbc9c4b1c54
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994806"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119762118"
 ---
 # <a name="userplaycountmorning-attribute"></a>UserPlaycountMorning 屬性
 

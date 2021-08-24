@@ -4,12 +4,12 @@ ms.assetid: 326d4423-37f9-4c91-8201-a054ce8439f0
 title: WPD_FUNCTIONAL_CATEGORY_AUDIO_CAPTURE
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b6c1372401cb0cc49750efbfa25701ec6965b6dc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 690042a615596fe5370016e00a61524722cccfdd59d62440b451c4f30033b262
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194231"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119838958"
 ---
 # <a name="wpd_functional_category_audio_capture"></a>WPD \_ 功能 \_ 類別 \_ 音訊 \_ 捕獲
 
@@ -44,7 +44,7 @@ WPD \_ 功能 \_ 類別音訊捕獲功能物件會將 \_ \_ 音訊捕獲功能�
 | [WPD \_ 物件 \_ \_ \_ 從資源產生縮圖 \_](object-properties.md) | 選擇性。                                                                                                                                              |
 | [WPD \_ 物件 \_ 可以 \_ 刪除](object-properties.md)                                                                     | 如果無法刪除物件，則為必要。                                                                                                              |
 | [WPD \_ 物件 \_ 語言 \_ 地區設定](object-properties.md)                                                                | 選擇性。                                                                                                                                              |
-| [WPD \_ 功能 \_ 物件 \_ 類別](miscellaneous-properties.md)                      | 必要。 請參閱 Windows 可攜式裝置所定義分類的 [**WPD \_ 內容 \_ 類型 \_ 功能 \_ 物件**](wpd-content-type-functional-object.md) 。 |
+| [WPD \_ 功能 \_ 物件 \_ 類別](miscellaneous-properties.md)                      | 必要。 如需 Windows 可攜式裝置所定義的分類，請參閱 [**WPD \_ 內容 \_ 類型 \_ 功能 \_ 物件**](wpd-content-type-functional-object.md)。 |
 
 
 

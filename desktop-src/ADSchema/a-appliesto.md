@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 37b96a2690f420259b038b54b6d2b070b41f56d4
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: af1182bf81ac1475c6880356064d3db1b4281951cead10217ae86614c476892a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104108300"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119821278"
 ---
 # <a name="applies-to-attribute"></a>Applies-To 屬性
 

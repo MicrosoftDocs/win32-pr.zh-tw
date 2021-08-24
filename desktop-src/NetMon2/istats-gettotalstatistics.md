@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: e6566a58212e8f20d0d999302f41ab97cb9f005e
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 7c98d947ad81dd1f2dc3e0dd19de144729ea8a069aefc12a820548aaeac4d15d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108098406"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119742658"
 ---
 # <a name="istatsgettotalstatistics-method"></a>IStats：： GetTotalStatistics 方法
 
@@ -63,10 +63,10 @@ HRESULT STDMETHODCALLTYPE GetTotalStatistics(
 
 
 
-| 傳回碼                                                                                            | Description                                                                                                                                  |
+| 傳回碼                                                                                            | 描述                                                                                                                                  |
 |--------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
-| <dl> <dt>**NMERR \_ 未 \_ 連接**</dt> </dl>   | NPP 未連接到網路。 呼叫 [IStats：： connect](istats-connect.md) 方法，將 NPP 連接到網路。<br/> |
-| <dl> <dt>**NMERR \_ 不是 \_ 統計資料 \_**</dt> </dl> | NPP 已連接到網路，但不是使用 [IStats：： Connect](istats-connect.md) 方法。<br/>                                |
+| <dl> <dt>**NMERR \_ 未 \_ 連接**</dt> </dl>   | NPP 未連接到網路。 呼叫[IStats：：連線](istats-connect.md)方法，以將 NPP 連接到網路。<br/> |
+| <dl> <dt>**NMERR \_ 不是 \_ 統計資料 \_**</dt> </dl> | NPP 是連接到網路，但不是使用[IStats：：連線](istats-connect.md)方法。<br/>                                |
 | <dl> <dt>**NMERR \_ 未 \_ 捕獲**</dt> </dl>   | NPP 不會捕捉資料。 呼叫 [IStats：： start](istats-start.md) 方法以開始捕獲資料。<br/>                         |
 
 
@@ -99,7 +99,7 @@ HRESULT STDMETHODCALLTYPE GetTotalStatistics(
 [IStats](istats.md)
 </dt> <dt>
 
-[IStats：： Connect](istats-connect.md)
+[IStats：：連線](istats-connect.md)
 </dt> <dt>
 
 [IStats::GetConversationStatistics](istats-getconversationstatistics.md)

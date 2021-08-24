@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 4d33e85f5e34c69509350dda29a7f6703a8b52ec
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 3d053e177a9378357289113a591ac2c5d3de01f549ab31757451478354467b03
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104971529"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119744198"
 ---
 # <a name="endrep---ps"></a>endrep-ps
 
@@ -29,7 +29,7 @@ ms.locfileid: "104971529"
 
 
 
- 
+ 
 
 ## <a name="remarks"></a>備註
 
@@ -41,7 +41,7 @@ ms.locfileid: "104971529"
 
 
 
- 
+ 
 
 ## <a name="example"></a>範例
 
@@ -61,9 +61,9 @@ endrep
 [圖元著色器指示](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

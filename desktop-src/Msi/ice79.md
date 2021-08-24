@@ -4,12 +4,12 @@ ms.assetid: f0a8ceac-084a-4693-b27d-f610eec4702a
 title: ICE79
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9081297f2bf2f11283380c0f057bd0fbec417975
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2f11ab5bcf0cd538005a5188559b0426e27004cb5a6d043852be3e361d10e509
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113849"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119821568"
 ---
 # <a name="ice79"></a>ICE79
 
@@ -21,7 +21,7 @@ ICE79 會發佈兩個警告。
 
 
 
-| ICE79 警告                                                                      | Description                                                      |
+| ICE79 警告                                                                      | 描述                                                      |
 |------------------------------------------------------------------------------------|------------------------------------------------------------------|
 | 資料庫缺少 \_ 驗證資料表。 無法完全檢查屬性名稱。 | 資料庫缺少[ \_ 驗證資料表](-validation-table.md)。 |
 | 從 \[ \] 表1中的資料行2取出值時發生錯誤 \[ \] 。 略過資料行。         | 抓取值時發生錯誤。                                          |
@@ -34,7 +34,7 @@ ICE79 會張貼兩個錯誤。
 
 
 
-| ICE79 錯誤                                                          | Description                               |
+| ICE79 錯誤                                                          | 描述                               |
 |----------------------------------------------------------------------|-------------------------------------------|
 | 在資料行 '% s ' 中參考的元件 '% ls '。% s ' 的資料列% s 無效。 | 找到不正確元件參考。 |
 | 在資料行 '% s ' 中參考的功能 '% ls '。% s ' 的資料列% s 無效。   | 找到不正確功能參考    |

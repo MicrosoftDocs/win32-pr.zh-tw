@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dxof.lib
 - D3dxof.dll
-ms.openlocfilehash: 44834af51380c3b8bdbb4e9a4b24bf911ea6a07f
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 4c291e4f5754975f7e564c8c579b3651b29f0e6b684ad474f2f8436875dbf078
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106982205"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119747258"
 ---
 # <a name="idirectxfiledataadddatareference-method"></a>IDirectXFileData：： AddDataReference 方法
 

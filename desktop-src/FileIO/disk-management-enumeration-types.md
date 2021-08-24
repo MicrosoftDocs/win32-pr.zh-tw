@@ -4,12 +4,12 @@ ms.assetid: ed8fe5c1-dbdf-43bc-a0a7-17e541eba950
 title: 磁片管理列舉類型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c186a2a722bf9614bb83b19bcaa29be486cf54bd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 87e850e5161e4e8a6326d8014f67d6aad9373015e4354a01fa353087c6863a39
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106984671"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119765908"
 ---
 # <a name="disk-management-enumeration-types"></a>磁片管理列舉類型
 

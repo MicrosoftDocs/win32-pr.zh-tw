@@ -3,24 +3,24 @@ title: 同盟
 description: 同盟允許將授權授權單位委派給其他 interprise 成員。
 ms.assetid: 574496df-95dc-45f7-8c42-e646aec12e69
 keywords:
-- 適用于 Windows 的同盟 Web 服務
+- Windows 的同盟 Web 服務
 - WWSAPI
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 45a02744c9c0a5358da35f4c31c20633c420fee9
-ms.sourcegitcommit: 5b98bf8c68922f8f03c14f793fbe17504900559c
+ms.openlocfilehash: b9a902eb9469ad75e8c3c5a283284a009af11bb59b42470c91c39b1f16f83c61
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "104551319"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119703651"
 ---
 # <a name="federation"></a>同盟
 
 同盟允許將授權授權單位委派給其他 interprise 成員。 例如，請考慮下列商務問題： Contoso 公司的自動零件製造業希望允許其客戶 Fabrikam Inc. 的授權員工安全地存取 Contoso 的部分訂單 Web 服務。 此案例的其中一個安全性解決方案，是讓 Contoso 以 Fabrikam 設定信任機制，將存取授權決策委派給 Fabrikam。 此程式的運作方式如下：
 
 -   Fabrikam 在成為 Contoso 的夥伴時，會設定 Contoso 的信任合約。 此步驟的目標是同意安全性權杖類型，以及將代表 Fabrikam 授權的內容，並可接受 Contoso。 例如，可能會決定主體名稱為 "CN = Fabrikam Inc. 供應商 STS" 的受信任 x.509 憑證應簽署 SAML 權杖，讓 Contoso Web 服務能夠接受該 SAML 權杖。 此外，可能會決定發出的 SAML 權杖中的安全性宣告應該是「 https://schemas.contoso.com/claims/lookup (部分查閱授權) 或 '」 https://schemas.contoso.com/claims/order (以進行部分訂購授權) 。
--   當 Fabrikam 員工使用內部部分訂購應用程式時，它會先將安全性權杖服務與 Fabrikam 內的 (STS) 聯繫。 該員工會使用內部 Fabrikam 安全性機制進行驗證 (比方說，Windows 網域使用者名稱/密碼) ，他對訂購部分的授權會經過驗證，而且會發出簡短的 SAML 權杖，其中包含適當的宣告，並由上面決定的 x.509 憑證簽署。 元件訂購應用程式接著會向 Contoso 服務顯示發行的 SAML 權杖，以驗證並執行訂購工作。
+-   當 Fabrikam 員工使用內部部分訂購應用程式時，它會先將安全性權杖服務與 Fabrikam 內的 (STS) 聯繫。 該員工會使用內部 Fabrikam 安全性機制來進行驗證 (比方說，Windows 網域使用者名稱/密碼) ，他對訂購元件的授權會經過驗證，而他發出的是簡短的 SAML 權杖，其中包含適當的宣告，並由上面所決定的 x.509 憑證簽署。 元件訂購應用程式接著會向 Contoso 服務顯示發行的 SAML 權杖，以驗證並執行訂購工作。
 
 在這裡，Fabrikam STS 會以「發行方」的形式運作，而 Contoso 元件服務會作為「信賴憑證者」。 ![此圖顯示同盟中的發行方和信賴憑證者。](images/stsmodel.png)
 
@@ -45,7 +45,7 @@ ms.locfileid: "104551319"
 
 在這裡，LiveID STS、STS1、STS2 和 S 形成同盟鏈。 同盟鏈中的 Sts 可以針對整體應用程式案例執行各種角色。 這類 STS 功能角色的範例包括身分識別提供者、授權決策 maker、anonymizer 和 resource manager。
 
-## <a name="sts-request-parameters-and-metadata-exchange"></a>STS 要求參數和中繼資料交換
+## <a name="sts-request-parameters-and-metadata-exchange"></a>STS 要求參數和中繼資料 Exchange
 
 若要讓用戶端順利進行 [**WsRequestSecurityToken**](/windows/desktop/api/WebServices/nf-webservices-wsrequestsecuritytoken) 呼叫，必須知道該呼叫的參數 (例如，所需的權杖類型和宣告類型) 、sts 要求通道的 [**安全性描述**](/windows/desktop/api/WebServices/ns-webservices-ws_security_description) 需求，以及 sts 的 [端點位址](endpoint-address.md) 。 用戶端應用程式可以使用下列任何一種技術來判斷這項資訊：
 

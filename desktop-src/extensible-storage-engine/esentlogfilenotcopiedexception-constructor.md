@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 8f3849abb9f61a6b8f68038d96c58e8932b08b5d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e895ca373c815effb9c1f3d958daa84fd99865376218f99a56984cbf655d082b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106976597"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119836698"
 ---
 # <a name="esentlogfilenotcopiedexception-constructor"></a>EsentLogFileNotCopiedException 函式
 

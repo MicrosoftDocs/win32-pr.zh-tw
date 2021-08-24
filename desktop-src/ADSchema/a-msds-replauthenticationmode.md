@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a3b88c7e3223b946b56962b710b036ee6e0c36dc
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: ff624a9b7a1d1f678c748f79d3193b0b4b287026de1a669896c3e25d69f27ab0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104467350"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119803538"
 ---
 # <a name="ms-ds-repl-authentication-mode-attribute"></a>ms DS-複寫-驗證模式屬性
 
@@ -77,7 +77,7 @@ ms.locfileid: "104467350"
 | 連結識別碼                | \-                                                  |
 | MAPI-Id                | \-                                                  |
 | System-Only            | 否                                               |
-| 是-單一值       | 對                                                |
+| 是-單一值       | 是                                                |
 | 已編制索引             | 否                                               |
 | 在通用類別目錄中      | 否                                               |
 | NT-Security-描述元 | O:BAG：不正確： S：                                        |
@@ -85,7 +85,7 @@ ms.locfileid: "104467350"
 | Range-Upper            | \-                                                  |
 | Search-Flags           | 0x00000000                                          |
 | System-Flags           | 0x00000010                                          |
-| 中使用的類別        | [**配置**](c-configuration.md)<br/> |
+| 中使用的類別        | [**組態**](c-configuration.md)<br/> |
 
 
 

@@ -3,38 +3,38 @@ title: 設定檔案的中繼資料
 description: 設定檔案的中繼資料
 ms.assetid: 478a5412-e8b4-41c8-802f-9c2748dbaeae
 keywords:
-- Windows Media 裝置管理員，中繼資料
+- Windows媒體裝置管理員，中繼資料
 - 裝置管理員，中繼資料
 - 程式設計指南，中繼資料
 - 桌面應用程式，中繼資料
-- 建立 Windows Media 裝置管理員應用程式，中繼資料
+- 建立 Windows 媒體裝置管理員應用程式，中繼資料
 - 將檔案寫入裝置，中繼資料
 - 中繼資料
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 56a6fa7002d4fafffe0793ef91b00dd3f1f0e20c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d64bdd173258272801886b90dca2265425eb65fd8ec3e5a25d01db37453d7eb5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106999781"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119766268"
 ---
 # <a name="setting-metadata-on-a-file"></a>設定檔案的中繼資料
 
 您可以在使用 [**IWMDMStorageControl3：： Insert3**](/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstoragecontrol3-insert3)) ，或藉由呼叫 [**IWMDMStorage3：： >setmetadata**](/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage3-setmetadata)) ，在現有的儲存體 (上將中繼資料寫入至裝置，然後再將其寫入至裝置 (。 您可以藉由呼叫 [**IWMDMStorage：： SetAttributes**](/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage-setattributes) 或 [**IWMDMStorage2：： SetAttributes2**](/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage2-setattributes2)) ，在現有的儲存體 (上設定屬性。
 
-設定中繼資料的方式，是建立並填入傳遞至 [**IWMDMStorageControl3：： Insert3**](/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstoragecontrol3-insert3)的 [**IWMDMMetaData**](/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmmetadata)介面。 不過，這個方法可以清除檔案上所有現有的中繼資料，而非儲存在檔案系統本身的硬式編碼中繼資料，例如檔案名或大小。 因此，您必須將想要保留的所有現有中繼資料複製到您提交的 IWMDMMetaData 介面中。 因為 Windows Media 裝置管理員無法用來從本機檔案取出中繼資料，所以您必須使用 Windows Media Format SDK (或其他工具) 來取出這類中繼資料。
+設定中繼資料的方式，是建立並填入傳遞至 [**IWMDMStorageControl3：： Insert3**](/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstoragecontrol3-insert3)的 [**IWMDMMetaData**](/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmmetadata)介面。 不過，這個方法可以清除檔案上所有現有的中繼資料，而非儲存在檔案系統本身的硬式編碼中繼資料，例如檔案名或大小。 因此，您必須將想要保留的所有現有中繼資料複製到您提交的 IWMDMMetaData 介面中。 因為無法使用 Windows 媒體裝置管理員來從本機檔案取出中繼資料，所以您必須使用 Windows 媒體格式 SDK (或其他工具) 來取得這類中繼資料。
 
-若要使用 Windows Media Format SDK 來抓取 ASF 檔案屬性，請遵循下列步驟：
+若要使用 Windows 媒體格式 SDK 來取得 ASF 檔案屬性，請遵循下列步驟：
 
 1.  藉由呼叫 **WMCreateEditor** 並要求 **IWMMetadataEditor** 介面，建立中繼資料編輯器物件。
 2.  藉由呼叫 **IWMMetadataEditor：： open**，開啟讀取中繼資料的檔案。
 3.  如果檔案是有效的 ASF 檔案且可以開啟，請查詢 **IWMHeaderInfo** 介面的編輯器。
-4.  藉由呼叫 **IWMHeaderInfo：： GetAttributeByName**，並傳入所需的 Windows MEDIA Format SDK 屬性常數，以抓取檔案屬性。 下表提供具有對等 Windows Media 裝置管理員 SDK 常數的格式 SDK 常數的清單。
+4.  藉由呼叫 **IWMHeaderInfo：： GetAttributeByName**，並傳入所需 Windows 媒體格式 SDK 屬性常數，以抓取檔案屬性。 下表提供具有對等 Windows 媒體裝置管理員 sdk 常數的格式 SDK 常數的清單。
 
 
 
-| Windows Media Format SDK 常數    | Windows Media 裝置管理員 SDK 常數      |
+| Windows媒體格式 SDK 常數    | WindowsMedia 裝置管理員 SDK 常數      |
 |--------------------------------------|------------------------------------------------|
 | g \_ wszWMTitle                        | g \_ wszWMDMTitle                                |
 | g \_ wszWMAuthor                       | g \_ wszWMDMAuthor                               |
@@ -59,9 +59,9 @@ ms.locfileid: "106999781"
 
 
 
- 
+ 
 
-下列 c + + 範例程式碼示範如何使用 Windows Media 格式 SDK 從 ASF 檔案中取出多個中繼資料屬性，並將它們轉換成同等的 Windows Media 裝置管理員值。
+下列 c + + 範例程式碼示範如何使用 Windows 媒體格式 SDK，從 ASF 檔案中取出多個中繼資料屬性，並將它們轉換成相等的 Windows 媒體裝置管理員值。
 
 
 ```C++
@@ -196,7 +196,7 @@ HRESULT GetFileMetadataFromFormatSDK(IWMDMMetaData* pMetadata, LPCWSTR file)
 
 
 
-下列 c + + 範例函式顯示如何使用 DirectShow 來取得某些檔案資訊，並將其新增至中繼資料。
+下列 c + + 範例函式示範如何使用 DirectShow 來取得某些檔案資訊，並將其新增至中繼資料。
 
 
 ```C++
@@ -313,9 +313,9 @@ HRESULT GetFileMetadataFromDShow(IWMDMMetaData* pMetadata, LPCWSTR file)
 [**將檔案寫入至裝置**](writing-files-to-the-device.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

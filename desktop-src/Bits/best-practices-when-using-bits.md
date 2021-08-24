@@ -4,12 +4,12 @@ description: 本章節包含設計使用 BITS 的應用程式時應考慮的資�
 ms.assetid: f4a09a80-2a85-4b59-b0fd-c23c128973f7
 ms.topic: article
 ms.date: 7/12/2019
-ms.openlocfilehash: bbf69e75b99994eea3e8986d1be9920ff1a12bc5
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: cbc11365cde74e092ae179c8b41562a16de9a6c36f0d85e51787a979c9332863
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103931983"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119702088"
 ---
 # <a name="best-practices-when-using-bits"></a>使用 BITS 的最佳作法
 
@@ -31,7 +31,7 @@ ms.locfileid: "103931983"
 
 除非作業是時間緊迫的，或是使用者正在積極等候，否則您應該一律使用背景優先權。 不過，有時候您可能會想要從背景優先順序切換到前景優先順序，例如，當 proxy 或伺服器不支援內容約制標頭，或用戶端上的防毒軟體移除範圍標頭要求時。 切換為前景優先順序只適用于檔案大小小於 2 GB 的檔案。 如需範例，請參閱 [**IBackgroundCopyCallback：： JobError**](/windows/desktop/api/Bits/nn-bits-ibackgroundcopycallback) 方法的實作為。 另請注意，如果前景工作因為網路中斷連線或使用者登出而中斷，作業將會失敗，因為 BITS 會傳送範圍要求以嘗試從中斷的位置重新開機傳輸。
 
-從 Windows 8 開始，您應該在目標伺服器不符合 [Bits 下載的 HTTP 需求](http-requirements-for-bits-downloads.md)時，設定以 **bits \_ 工作 \_ 屬性 \_ 動態 \_ 內容** 和 **BG \_ 作業 \_ 優先順序 \_ 前景** 的下載作業。 請記住，這會導致 BITS 必須從一開始 (就重新開機下載，例如，因為連線問題或系統重新開機) 。
+從 Windows 8 開始，您應該在目標伺服器不符合 [bits 下載的 HTTP 需求](http-requirements-for-bits-downloads.md)時，設定以 **bits \_ 工作 \_ 屬性 \_ 動態 \_ 內容** 和 **BG \_ 作業 \_ 優先順序 \_ 前景** 的下載作業。 請記住，這會導致 BITS 必須從一開始 (就重新開機下載，例如，因為連線問題或系統重新開機) 。
 
 如需可用優先順序和 BITS 如何使用優先權層級來排程工作的詳細資訊，請參閱 [**BG \_ 作業 \_ 優先順序**](/windows/desktop/api/Bits/ne-bits-bg_job_priority)。
 

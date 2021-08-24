@@ -3,17 +3,17 @@ title: 原則支援
 description: Wsutil 會處理在輸入中繼資料中指定的原則，並產生服務模型支援的 helper 常式。
 ms.assetid: 9c4fb485-2392-4117-b4a7-7a51786d60b9
 keywords:
-- 適用于 Windows 的原則支援 Web 服務
+- Windows 的原則支援 Web 服務
 - WWSAPI
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0aafcd481fd4ea8a8cc6782a5dc50655fb9255c3
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 347265d4081216a227b5040fc73f272181bdccfe09ca7500b81078a6a57ed7bc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104301412"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119838638"
 ---
 # <a name="policy-support"></a>原則支援
 
@@ -248,7 +248,7 @@ __in WS_HEAP* heap,
 
 
 
- 
+ 
 
 例如， [**ws \_ HTTP SSL 系結 \_ \_ \_ 範本 \_ 類型**](/windows/desktop/api/WebServices/ne-webservices-ws_binding_template_type) 指出系結的輸入原則會指定 HTTP 傳輸和 [**WS \_ SSL \_ 傳輸 \_ 安全性 \_**](/windows/desktop/api/WebServices/ns-webservices-ws_ssl_transport_security_binding)系結。 應用程式必須在呼叫 helper 常式之前填入 [**ws \_ HTTP ssl 系結 \_ \_ \_ 範本**](/windows/desktop/api/WebServices/ns-webservices-ws_http_ssl_binding_template) 結構，而比對原則描述為 [**WS \_ HTTP \_ ssl \_ 原則 \_ 描述**](/windows/desktop/api/WebServices/ns-webservices-ws_http_ssl_policy_description)。 更具體來說，WSDL 中的系結區段包含下列區段：
 
@@ -330,9 +330,9 @@ __in WS_HEAP* heap,
 -   [**WS 使用者 \_ 名稱 \_ 訊息安全性系結 \_ \_ \_ 原則 \_ 描述**](/windows/desktop/api/WebServices/ns-webservices-ws_username_message_security_binding_policy_description)
 -   [**WS 使用者 \_ 名稱 \_ 訊息安全性系結 \_ \_ \_ 範本**](/windows/desktop/api/WebServices/ns-webservices-ws_username_message_security_binding_template)
 
- 
+ 
 
- 
+ 
 
 
 

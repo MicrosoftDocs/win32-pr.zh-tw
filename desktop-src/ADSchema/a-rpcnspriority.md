@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 10cc2b472262d118ee4896935157d45952846db0
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 1ea86dc78933e7647d1210397d5fd66c287c0ca4ad638959e6cfa1dc59993db7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103686947"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119837056"
 ---
 # <a name="rpc-ns-priority-attribute"></a>rpc-Ns-Priority 屬性
 

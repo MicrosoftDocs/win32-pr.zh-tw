@@ -4,12 +4,12 @@ ms.assetid: 5FAEF29A-B978-410A-8F5B-EB6F7E35EE6D
 title: 'MF_MEDIA_ENGINE_CALLBACK 屬性 (Mfmediaengine) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1173e22f9d87f4a77f9ed4a1d1b405fc040bd32b
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 29ba6149c8d0b615ad13277588bbee5ee7397d9adaa089195671b3336b2b406b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106981927"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119723041"
 ---
 # <a name="mf_media_engine_callback-attribute"></a>MF \_ 媒體 \_ 引擎 \_ 回呼屬性
 
@@ -37,8 +37,8 @@ ms.locfileid: "106981927"
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 8 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                          |
-| 最低支援的伺服器<br/> | Windows Server 2012 \[ desktop app \| UWP 應用程式\]<br/>                                |
+| 最低支援的用戶端<br/> | Windows 8 \[桌面應用程式 \| UWP 應用程式\]<br/>                                          |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[桌面應用程式 \| UWP 應用程式\]<br/>                                |
 | 標頭<br/>                   | <dl> <dt>Mfmediaengine。h</dt> </dl> |
 
 

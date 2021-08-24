@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 13535c385c2e4765a50e359e2ef51bced4100018
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: e12077ecb0ef2a10cf18a408c3b7e7bd303a37ec04a9946295a0126359889ca2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106973928"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119763058"
 ---
 # <a name="ms-imaging-thumbprint-hash-attribute"></a>ms-影像處理-指紋-雜湊屬性
 
@@ -53,7 +53,7 @@ ms.locfileid: "106973928"
 | 連結識別碼                | \-                                        |
 | MAPI-Id                | \-                                        |
 | System-Only            | 否                                     |
-| 是-單一值       | 對                                      |
+| 是-單一值       | 是                                      |
 | 已編制索引             | 否                                     |
 | 在通用類別目錄中      | 否                                     |
 | NT-Security-描述元 | O:BAG：不正確： S：                              |

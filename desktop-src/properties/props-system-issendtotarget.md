@@ -4,18 +4,18 @@ ms.assetid: c2b30722-bc02-443b-9bdc-8b6c1c20d354
 title: System. IsSendToTarget
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d67698db16be68c3a6de16f1661d7c2ce7dad612
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b1f9dcb4b631517761c7560b8f78a0d300a913246b3618ed8d2af56dba9df876
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106974724"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119822388"
 ---
 # <a name="systemissendtotarget"></a>System. IsSendToTarget
 
 指出專案是否為有效的 SendTo 目標。 這項資訊是由特定的 Shell 資料夾所提供。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

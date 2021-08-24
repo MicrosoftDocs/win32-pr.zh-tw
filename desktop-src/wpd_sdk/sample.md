@@ -4,16 +4,16 @@ description: Windows SDK 提供兩個 WPD 範例： WpdApiSample 和 WpdServiceA
 ms.assetid: f84f22ab-37df-45df-b85b-7cc4887c2550
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2be9ac6806f12eebcd8cdb361010148e31e56dbe
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 11d8dbea77d079f2f0b8c52b741c695c0a74d4b17a3fd2f1be22c02e03557346
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112404301"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119704398"
 ---
 # <a name="wpd-samples"></a>WPD 範例
 
-Windows SDK 提供兩個範例： [WpdApiSample](wpdapisample-sample-application.md) 和 [WpdServiceApiSample](wpdapisample-sample-service-application.md)。
+Windows SDK 提供兩個範例： [WpdApiSample](wpdapisample-sample-application.md)和[WpdServiceApiSample](wpdapisample-sample-service-application.md)。
 
 WpdApiSample 是命令列桌面應用程式，可讓使用者執行數個功能，例如：列舉連接的裝置、探索這些裝置上的物件，以及列舉物件屬性。
 

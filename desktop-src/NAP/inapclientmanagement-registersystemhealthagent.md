@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 581c49a117a2b8aaa2c4dda2c6573e4a6327b688
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 52e028e1f3dab17fb154ad1676acbf14fe1a31ce69a8f4c511e7f1447d2303bd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466041"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119803148"
 ---
 # <a name="inapclientmanagementregistersystemhealthagent-method"></a>INapClientManagement：： RegisterSystemHealthAgent 方法
 
@@ -60,7 +60,7 @@ HRESULT RegisterSystemHealthAgent(
 
 
 
-| 傳回碼                                                                                            | Description                                                        |
+| 傳回碼                                                                                            | 描述                                                        |
 |--------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>                   | 作業成功。<br/>                                   |
 | <dl> <dt>**E \_ ACCESSDENIED**</dt> </dl>         | 許可權錯誤，拒絕存取。<br/>                       |
@@ -77,10 +77,10 @@ HRESULT RegisterSystemHealthAgent(
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                               |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                         |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                               |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                         |
 | 標頭<br/>                   | <dl> <dt>NapManagement。h</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>NapManagement .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>NapManagement .idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qagent.dll</dt> </dl>        |
 
 

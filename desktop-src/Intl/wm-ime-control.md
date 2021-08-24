@@ -4,12 +4,12 @@ ms.assetid: 5d3b7f8a-57c9-41e3-8022-9a3f515fc32e
 title: 'WM_IME_CONTROL 訊息 (Winuser .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bd0adc534883bc0b31984c8d3e9b57a04b555987
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 104ef8eb2a90c7c55eb0d4bca2fcdb1744dd9433f131b753e962fcfec571f43d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848057"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119822468"
 ---
 # <a name="wm_ime_control-message"></a>WM_IME_CONTROL 訊息
 
@@ -78,7 +78,7 @@ SendMessage(
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                                                                                                                |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                                                                                                      |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) ;</dt><dt>Imm (包括 Windows .h) </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) ;</dt><dt>Imm (包含 Windows .h) </dt> </dl> |
 
 
 

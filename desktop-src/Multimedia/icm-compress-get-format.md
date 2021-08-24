@@ -1,9 +1,9 @@
 ---
 title: 'ICM_COMPRESS_GET_FORMAT 訊息 (Vfw .h) '
-description: ICM \_ 壓縮 \_ 取得格式訊息會向 \_ 視訊壓縮驅動程式要求壓縮資料的輸出格式。 您可以使用 ICCompressGetFormat 宏明確地傳送此訊息。
+description: ICM \_ 壓縮 \_ 取得 \_ 格式訊息會要求從影片壓縮驅動程式壓縮資料的輸出格式。 您可以使用 ICCompressGetFormat 宏明確地傳送此訊息。
 ms.assetid: ac12d415-bad5-4838-b206-09c8097d3fd9
 keywords:
-- ICM_COMPRESS_GET_FORMAT message Windows 多媒體
+- ICM_COMPRESS_GET_FORMAT 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d096ceafa382bdbae5e4efe16975b3518735e773
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7ac1bf9b3c9a3ae0535da008786bf8baef19c8b51e27446b84e4b95805a1c4a4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466476"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119785028"
 ---
-# <a name="icm_compress_get_format-message"></a>ICM \_ 壓縮 \_ 取得 \_ 格式訊息
+# <a name="icm_compress_get_format-message"></a>ICM \_壓縮 \_ 取得 \_ 格式訊息
 
-**ICM \_ 壓縮 \_ 取得 \_ 格式** 訊息會向視訊壓縮驅動程式要求壓縮資料的輸出格式。 您可以使用 [**ICCompressGetFormat**](/windows/desktop/api/Vfw/nf-vfw-iccompressgetformat) 宏明確地傳送此訊息。
+**ICM \_ 壓縮 \_ 取得 \_ 格式** 訊息會要求從影片壓縮驅動程式壓縮資料的輸出格式。 您可以使用 [**ICCompressGetFormat**](/windows/desktop/api/Vfw/nf-vfw-iccompressgetformat) 宏明確地傳送此訊息。
 
 
 ```C++

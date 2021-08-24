@@ -4,12 +4,12 @@ ms.assetid: ff98cb51-6300-470d-b696-5e27591c6b3f
 title: 品質訊息
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b290833be7550e255590a5bcda449ce19743c0b4
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 15224e147d363a6cf3f3a55971d35a3d6596d95f07b9897ab1f258cc7febad48
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104509993"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119747698"
 ---
 # <a name="quality-messages"></a>品質訊息
 

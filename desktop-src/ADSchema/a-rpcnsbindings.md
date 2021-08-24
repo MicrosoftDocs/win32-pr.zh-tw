@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dd6f68227c2e57e39f3175e29efb9d82f957e926
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 2b29b613e06202dd015b37aa18f1aece2ffba03aa7b3922fe7e461d41b722406
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103686948"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119837128"
 ---
 # <a name="rpc-ns-bindings-attribute"></a>rpc-Ns-Bindings 屬性
 

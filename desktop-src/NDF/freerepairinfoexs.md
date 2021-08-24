@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 094c745486526caa870a500019de3aa819b6fe5a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b75d3d3ee8ba710b0b0ed4755e5ee01309f955bcc1658145dc1d42fe3b9e1ed8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104508675"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119802418"
 ---
 # <a name="freerepairinfoexs-function"></a>FreeRepairInfoExs 函式
 
@@ -45,13 +45,13 @@ VOID FreeRepairInfoExs(
 *pInfo* \[在\]
 </dt> <dd>
 
-類型： **[**RepairInfoEx**](/windows/win32/api/ndattrib/ns-ndattrib-repairinfoex) \** _
+類型： **[ **RepairInfoEx**](/windows/win32/api/ndattrib/ns-ndattrib-repairinfoex)\***
 
 結構的陣列。 將釋放這些結構所指向的配置記憶體。
 
 </dd> <dt>
 
-_RepairCount * 
+*RepairCount* 
 </dt> <dd>
 
 類型： **ULONG**
@@ -79,8 +79,8 @@ _RepairCount *
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                                 |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                       |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                                 |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                                       |
 | 標頭<br/>                   | <dl> <dt>Ndattributils。h</dt> </dl> |
 
 

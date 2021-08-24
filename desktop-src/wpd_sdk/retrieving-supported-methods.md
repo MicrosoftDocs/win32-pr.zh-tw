@@ -4,12 +4,12 @@ ms.assetid: 783a6552-9b22-4af4-9252-b443e2624687
 title: 正在抓取支援的服務方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b021aa868ffaa95df23a729e94d62eae8a0c632e
-ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
+ms.openlocfilehash: ce058fcab000a90459dcce5310645088b40a2432d1de8c9852c84770db058300
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "110423798"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119839044"
 ---
 # <a name="retrieving-supported-service-methods"></a>正在抓取支援的服務方法
 

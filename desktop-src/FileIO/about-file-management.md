@@ -4,12 +4,12 @@ ms.assetid: cf4e69b9-86dd-43a4-9011-6209fc65f550
 title: 關於檔案管理
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9fe8e5f53a0021d4a6fba90a31698d05971e7bea
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2544d31ecb95029053987a3d64e80f4cdf8c0f3170b3a679b542e145ca262947
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106967141"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119766368"
 ---
 # <a name="about-file-management"></a>關於檔案管理
 
@@ -30,8 +30,8 @@ ms.locfileid: "106967141"
 | [封鎖複製](block-cloning.md)<br/>                                                         | *區塊複製* 作業會指示檔案系統代表應用程式複製某範圍的檔案位元組。<br/>                                                                                                |
 | [檔案壓縮和解壓縮](file-compression-and-decompression.md)<br/>               | NTFS 檔案系統使用 Lempel-Ziv 壓縮，也就是不失真的壓縮演算法。<br/>                                                                                                                  |
 | [檔案加密](file-encryption.md)<br/>                                                     | 加密檔案系統 (EFS) 使用公開金鑰系統，在 NTFS 檔案系統磁片區上提供個別檔案的密碼編譯保護。<br/>                                                               |
-| [檔案安全性與存取權限](file-security-and-access-rights.md)<br/>                     | 由於檔案是 [安全的物件](/windows/desktop/SecAuthZ/securable-objects)，因此對它們的存取會受到控制 Windows 中所有其他安全物件存取權的存取控制模型所管制。<br/>                     |
-| [輸入和輸出 (i/o) ](input-and-output--i-o-.md)<br/>                                       | Windows 提供在本機和遠端電腦上的存放裝置元件上執行輸入和輸出 (i/o) 作業的能力。<br/>                                                                        |
+| [檔案安全性與存取權限](file-security-and-access-rights.md)<br/>                     | 因為檔案是[安全的物件](/windows/desktop/SecAuthZ/securable-objects)，所以其存取權會受到控制 Windows 中所有其他安全物件存取權的存取控制模型所管制。<br/>                     |
+| [輸入和輸出 (i/o) ](input-and-output--i-o-.md)<br/>                                       | Windows 提供在本機和遠端電腦上的存放裝置元件上，執行輸入和輸出 (i/o) 作業的能力。<br/>                                                                        |
 | [疏鬆檔案](sparse-files.md)<br/>                                                           | 檔案壓縮大部分的檔案，可有效率地使用磁碟空間。<br/>                                                                                                                        |
 | [符號連結](symbolic-links.md)<br/>                                                       | 符號連結是指向另一個檔案系統物件的檔案系統物件。 所指向的物件稱為「目標」。<br/>                                                                          |
 

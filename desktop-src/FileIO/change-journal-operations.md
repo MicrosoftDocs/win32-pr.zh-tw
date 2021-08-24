@@ -4,12 +4,12 @@ ms.assetid: 2215f0d4-6ac8-42a5-87a5-9c76d1fae3ed
 title: 變更日誌作業
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2a52cda51d0efc4cbae1333fc197f42d6a5cc0f9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 87177bc636771c1a02b22fc8ad74cf4c16294e7a3b02e8a366c22c346f511f9f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106988992"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119766078"
 ---
 # <a name="change-journal-operations"></a>變更日誌作業
 

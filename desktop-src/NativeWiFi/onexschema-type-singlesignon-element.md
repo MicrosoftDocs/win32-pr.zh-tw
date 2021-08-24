@@ -12,18 +12,18 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: 947c8801e5b2534f4c3b4e548a2a2f2c7a4250d3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a8a395a5cdbd21bd33012e624f069d9447204cc96ffd2996a138ebf5d65f7bb9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970210"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119800728"
 ---
 # <a name="type-singlesignon-element"></a>輸入 (singleSignOn) 元素
 
 類型 (singleSignOn) 元素會指定何時執行單一登入。 當設定為時 `preLogon` ，會在使用者登入之前執行單一登入。 當設定為時 `postLogon` ，會在使用者登入後立即執行單一登入。
 
-Windows **xp （含 SP3）和適用于 WINDOWS XP SP2 的無線區域網路 API：** 如果設定檔中有此元素，將會予以忽略。
+**Windows xp 搭配 SP3 和適用于 Windows XP SP2 的無線區域網路 API：** 如果設定檔中有此元素，將會予以忽略。
 
 ``` syntax
 <xs:element name="type"
@@ -52,8 +52,8 @@ Windows **xp （含 SP3）和適用于 WINDOWS XP SP2 的無線區域網路 API�
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

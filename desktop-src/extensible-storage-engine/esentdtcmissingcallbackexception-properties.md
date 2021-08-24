@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101566
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: eb9e3276552caec96fb26867f41ac629ee80b7b4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f9b74b1d98bb96683bf698175190d1062a6807f82bcf61477cbf2a6cf7b207df
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104565004"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119784658"
 ---
 # <a name="esentdtcmissingcallbackexception-properties"></a>EsentDTCMissingCallbackException 屬性
 

@@ -1,30 +1,30 @@
 ---
 title: Windows 篩選平台的新功能
-description: Windows 8 和 Windows Server 2012 引進了新的 Windows 篩選平台程式設計項目。
+description: Windows 8 和 Windows Server 2012 引進新的 Windows 篩選平台程式設計項目。
 ms.assetid: 7529F155-3DBC-4C22-A780-B6311C455E85
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 85b5e441eff3242b530401235b085a1486527b98
-ms.sourcegitcommit: db89157e3be911fdce2e543e99faa31fb2403bc8
+ms.openlocfilehash: 77e12c1e7add7568b931aabe43f3ab91763df2d5ab12ad448d3683afe13baa3c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "104316927"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119766658"
 ---
 # <a name="whats-new-in-windows-filtering-platform"></a>Windows 篩選平台的新功能
 
-Windows 8 和 Windows Server 2012 引進了新的 Windows 篩選平台程式設計項目。 新功能包括下列各項：
+Windows 8 和 Windows Server 2012 引進新的 Windows 篩選平台程式設計項目。 新功能包括下列各項：
 
 -   *第2層篩選*：提供對 L2 (MAC) 層的存取權，以允許篩選該層的流量。
 -   *vSwitch 篩選*：允許對 vSwitch 進行檢查及/或修改的封包。 您可以在 vSwitch 輸入和輸出中使用 WFP 篩選器或標注。
 -   *應用程式容器管理*：允許存取應用程式容器和網路隔離連線問題的相關資訊。
 -   *Ipsec 更新*：延伸的 ipsec 功能，包括線上狀態監視、憑證選取和金鑰管理。
 
-Windows 驅動程式套件也包含 [Windows 8 之 WFP 變更的](/windows-hardware/drivers/network/wfp-changes-for-windows-8)相關資訊。
+Windows 驅動程式套件也包含[Windows 8 之 WFP 變更的](/windows-hardware/drivers/network/wfp-changes-for-windows-8)相關資訊。
 
-## <a name="windows-8-api-updates"></a>Windows 8 API 更新
+## <a name="windows-8-api-updates"></a>Windows 8API 更新
 
-已針對 Windows 8 和 Windows Server 2012 新增許多新的 Api。
+已針對 Windows 8 和 Windows Server 2012 新增許多新的 api。
 
 ## <a name="new-functions"></a>新的函式
 
@@ -176,9 +176,9 @@ Windows 驅動程式套件也包含 [Windows 8 之 WFP 變更的](/windows-hardw
 -   .FWP \_ 條件 \_ L2 \_ 是 \_ IP \_ 片段 \_ 群組
 -   \_ \_ \_ 當 \_ 連接器 \_ 存在時的 .fwp 條件 L2
 
-## <a name="windows-7-updates-to-the-windows-filtering-platform"></a>Windows 7 更新至 Windows 篩選平台
+## <a name="windows-7-updates-to-the-windows-filtering-platform"></a>Windows 篩選平台 Windows 7 更新
 
-[Windows 篩選平台的新功能]()詳述了許多 windows 7 的更新。 您也可以在 Windows 7 上的 [WFP 變更](/windows-hardware/drivers/network/wfp-changes-for-windows-7)Windows 驅動程式套件中取得資訊。
+檔[Windows 篩選平台的新功能]()詳述了 Windows 7 的許多更新。 [Windows 7 的 WFP 變更](/windows-hardware/drivers/network/wfp-changes-for-windows-7)Windows 驅動程式套件也提供資訊。
 
  
 

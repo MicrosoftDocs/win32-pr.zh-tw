@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 01a24093e8ebfa0edd5a2e2101f6da86cd6cd19d
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: a31dc42db9a492ee460b46c62f666797291526ca89c6b32f3abb1dd887803b9c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106972085"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119837448"
 ---
 # <a name="registered-address-attribute"></a>Registered-Address 屬性
 

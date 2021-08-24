@@ -14,12 +14,12 @@ api_type:
 api_location:
 - PortableDeviceGUIDs.lib
 - PortableDeviceGUIDs.dll
-ms.openlocfilehash: 765100e1272fc6766e9f305f37f3b699bd96beb8
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 9cc105ae553d78dd6c8a12219be8e2c42cba1e236c25a0392457b36553bd4e40
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108083238"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119839318"
 ---
 # <a name="iportabledevicevaluescollectionadd-method"></a>IPortableDeviceValuesCollection：： Add 方法
 
@@ -53,7 +53,7 @@ HRESULT Add(
 
 
 
-| 傳回碼                                                                                   | Description                                                                         |
+| 傳回碼                                                                                   | 描述                                                                         |
 |-----------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>          | 此方法已成功。<br/>                                                    |
 | <dl> <dt>**E \_ OUTOFMEMORY**</dt> </dl> | 沒有足夠的記憶體可將值新增至集合。<br/> |

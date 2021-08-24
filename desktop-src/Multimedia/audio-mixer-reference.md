@@ -1,6 +1,6 @@
 ---
-title: 音訊混音器參考
-description: 音訊混音器參考
+title: 音訊 Mixer 參考
+description: 音訊 Mixer 參考
 ms.assetid: 9d8751b1-9c0b-4238-a961-27c09a869bb3
 keywords:
 - 多媒體音訊、音訊 mixers
@@ -12,14 +12,14 @@ keywords:
 - 音訊 mixers 的參考，關於
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: be1d86f305714d72631b56495753417699b1a146
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 1602a9ac0631a3e81430285c8cd862215a437c72b03b41d87fad6cefa7e41827
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104185932"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119786218"
 ---
-# <a name="audio-mixer-reference"></a>音訊混音器參考
+# <a name="audio-mixer-reference"></a>音訊 Mixer 參考
 
 本節說明與音訊 mixers 相關聯的函式、結構和訊息。 這些元素的分組方式如下。
 
@@ -34,7 +34,7 @@ ms.locfileid: "104185932"
 -   [**mixerClose**](/windows/win32/api/mmeapi/nf-mmeapi-mixerclose)
 -   [**mixerOpen**](/windows/win32/api/mmeapi/nf-mmeapi-mixeropen)
 
-## <a name="retrieving-mixer-identifiers"></a>正在抓取混音器識別碼
+## <a name="retrieving-mixer-identifiers"></a>正在抓取 Mixer 識別碼
 
 -   [**mixerGetID**](/windows/win32/api/mmeapi/nf-mmeapi-mixergetid)
 
@@ -69,9 +69,9 @@ ms.locfileid: "104185932"
 
 <dl> <dt>
 
-[音訊混音器參考](audio-mixer-reference.md)
+[音訊 Mixer 參考](audio-mixer-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

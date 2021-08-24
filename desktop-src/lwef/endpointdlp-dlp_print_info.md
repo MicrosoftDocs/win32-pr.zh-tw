@@ -12,12 +12,12 @@ api_type:
 - COM
 api_location:
 - endpointdlp.h
-ms.openlocfilehash: 37bde9f62de07083aac6a3d2fb367b021caf3732
-ms.sourcegitcommit: 91110c16e4713ed82d7fb80562d3ddf40b5d76b2
+ms.openlocfilehash: e55b3dc22c77d85e15499ea0fb2a6634ece044496637c811ae42e4afd632704e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "107495541"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119725818"
 ---
 # <a name="dlp_print_info-structure"></a>DLP_PRINT_INFO 結構
 

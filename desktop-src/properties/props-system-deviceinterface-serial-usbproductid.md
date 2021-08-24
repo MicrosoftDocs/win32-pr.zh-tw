@@ -4,12 +4,12 @@ ms.assetid: 5ac2e3cb-a314-414b-9ed3-9709965202cf
 title: DeviceInterface. UsbProductId
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a35258dea0c15c04dfa739b4a19c27bd0361c1eb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9b15786fbeda5975912d58a73a0691f7165b813a12f9042a822a307bbfc68e5f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103849092"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119823068"
 ---
 # <a name="systemdeviceinterfaceserialusbproductid"></a>DeviceInterface. UsbProductId
 

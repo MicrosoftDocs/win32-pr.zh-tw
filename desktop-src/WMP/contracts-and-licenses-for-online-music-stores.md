@@ -3,15 +3,15 @@ title: 線上音樂商店的合約與授權
 description: 線上音樂商店的合約與授權
 ms.assetid: fcc4601f-34e1-4373-bd4f-c18742a78da8
 keywords:
-- Windows Media Player 線上商店
+- Windows Media Player線上商店
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3a6c8c79f72a8fb05d9de3496a2e2acd15eafe18
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: cfc7e1e8a6ef5dfdd202c48ef67c8fa61a129cfd37429bc697b58cd68c57036a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104301284"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119763898"
 ---
 # <a name="contracts-and-licenses-for-online-music-stores"></a>線上音樂商店的合約與授權
 
@@ -39,9 +39,9 @@ ms.locfileid: "104301284"
 <td>品牌擁有者簽署：<br/>
 <ul>
 <li>Windows Media Player 的線上媒體服務清單合約</li>
-<li>Windows Media Rights Manager 授權 (如果使用 DRM) </li>
-<li>Windows Media Format SDK 授權</li>
-<li>Windows Media Player 轉散發合約 (透過 CD、網站或個人電腦轉散發 Windows Media Player，以及將存放區設定為初始使用中服務)  (選擇性) </li>
+<li>Windows媒體版權管理員授權 (如果使用 DRM) </li>
+<li>Windows媒體格式 SDK 授權</li>
+<li>Windows Media Player轉散發合約 (透過 CD、網站或個人電腦重新發佈 Windows Media Player，以及將存放區設定為初始使用中服務)  (選擇性) </li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -55,16 +55,16 @@ ms.locfileid: "104301284"
 <td>品牌擁有者簽署：<br/>
 <ul>
 <li>Windows Media Player 的線上媒體服務清單合約</li>
-<li>Windows Media Player 轉散發合約 (透過 CD、網站或個人電腦重新發佈播放玩家，以及將商店設定為初始使用中服務)  (選擇性) </li>
+<li>Windows Media Player轉散發合約 (透過 CD、網站或個人電腦重新發佈播放玩家，以及將商店設定為初始使用中服務)  (選擇性) </li>
 </ul>
 服務提供者 (s) 號：<br/>
 <ul>
-<li>Windows Media Rights Manager 授權 (如果使用 DRM) </li>
-<li>Windows Media Format SDK 授權</li>
+<li>Windows媒體版權管理員授權 (如果使用 DRM) </li>
+<li>Windows媒體格式 SDK 授權</li>
 </ul>
 <blockquote>
 [!Note]<br />
-授權伺服器的操作員負責簽署 Windows Media Rights Manager 授權。
+授權伺服器的操作員負責簽署 Windows 媒體版權管理員授權。
 </blockquote>
 <br/></td>
 </tr>
@@ -79,8 +79,8 @@ ms.locfileid: "104301284"
 <td>服務提供者簽署：<br/>
 <ul>
 <li>Windows Media Player 的線上媒體服務清單合約</li>
-<li>Windows Media Rights Manager 授權 (如果使用 DRM) </li>
-<li>Windows Media Format SDK 授權</li>
+<li>Windows媒體版權管理員授權 (如果使用 DRM) </li>
+<li>Windows媒體格式 SDK 授權</li>
 </ul>
 品牌擁有者簽署：<br/>
 <ul>
@@ -88,7 +88,7 @@ ms.locfileid: "104301284"
 </ul>
 <blockquote>
 [!Note]<br />
-授權伺服器的操作員負責簽署 Windows Media Rights Manager 授權。
+授權伺服器的操作員負責簽署 Windows 媒體版權管理員授權。
 </blockquote>
 <br/></td>
 </tr>
@@ -97,13 +97,13 @@ ms.locfileid: "104301284"
 <td>協力廠商 (，例如與現有線上商店協商的電腦 OEM) 。</td>
 <td>協力廠商 (例如 PC OEM) 號：<br/>
 <ul>
-<li>Windows Media Player 轉散發合約 (透過 CD、網站或個人電腦重新發佈播放玩家，並將存放區設定為初始使用中的服務) </li>
+<li>Windows Media Player轉散發合約 (透過 CD、網站或個人電腦重新發佈播放玩家，以及將商店設定為初始使用中的服務) </li>
 </ul>
 品牌擁有者簽署：<br/>
 <ul>
 <li>Windows Media Player 的線上媒體服務清單合約</li>
-<li>Windows Media Rights Manager 授權 (如果使用 DRM) </li>
-<li>Windows Media Rights Manager 授權 (如果使用 DRM) </li>
+<li>Windows媒體版權管理員授權 (如果使用 DRM) </li>
+<li>Windows媒體版權管理員授權 (如果使用 DRM) </li>
 </ul>
 <blockquote>
 [!Note]<br />

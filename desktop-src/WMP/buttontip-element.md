@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 56ab94794232ade6f924b87fd3f4d73d4452d544
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: bb7fb4a162a8e77fea7548265825af6c6cbda75dbafadf05fe32cb664c4d563f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106989275"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119764298"
 ---
 # <a name="buttontip-element"></a>ButtonTip 元素
 
@@ -56,7 +56,7 @@ ms.locfileid: "106989275"
 針對 **ServiceTask1**、 **ServiceTask2** 或 **ServiceTask3** 的每個實例，這個元素是選擇性的。 如果未提供此元素，Windows Media Player 會使用按鈕文字作為預設值。
 
 > [!Note]  
-> Windows Media Player 10 有三個工作窗格，可讓線上商店顯示其網頁。 線上商店可以選擇使用一個、兩個或三個工作窗格。 Windows Media Player 11 只有一個工作窗格，使用者可以按一下 [ **線上商店** ] 索引標籤來查看。 Windows Media Player 11 會忽略 **ServiceTask2** 和 **ServiceTask3** 元素。
+> Windows Media Player 10 有三個工作窗格，可讓線上商店顯示其網頁。 線上商店可以選擇使用一個、兩個或三個工作窗格。 Windows Media Player 11 只有一個工作窗格，使用者可以按一下 [**線上商店**] 索引標籤來查看。 Windows Media Player 11 會忽略 **ServiceTask2** 和 **ServiceTask3** 元素。
 
  
 

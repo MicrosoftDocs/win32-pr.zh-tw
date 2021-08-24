@@ -4,12 +4,12 @@ ms.assetid: 360d1c5a-82e7-c982-82ea-5b5c7d69bc25
 title: 對 XAudio2 中的音訊問題進行偵錯
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 749c2ff69888f3411d86e13f95b84509587f22a4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8856defc67bc9453b9d83f5ed369bfb96f48b8c2c16c92ea535a0c1b648402b8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103850379"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119703618"
 ---
 # <a name="debugging-audio-glitches-in-xaudio2"></a>對 XAudio2 中的音訊問題進行偵錯
 

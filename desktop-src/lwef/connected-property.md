@@ -4,16 +4,16 @@ description: 連接屬性
 ms.assetid: 61b7f550-d8d6-4719-a0d4-0bf3a8cf096c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3bba78358c7c42f0754da017aa0c188d41acd189
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6af3a44e97236060733adc55ec6e44eddd0b1d8879250b2a28b54c0bca384cac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104301423"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119726088"
 ---
 # <a name="connected-property"></a>連接屬性
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 <dl> <dt>
 

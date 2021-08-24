@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 26e6bcf927b157efd64f8494d1cfa77eb4569fc0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 66c23db58b5571a3ee6bcbd0fbdab655e07f59799005da2df50db59747499a5b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106969320"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119785848"
 ---
 # <a name="esentclientrequesttostopjetserviceexception-class"></a>EsentClientRequestToStopJetServiceException 類別
 
