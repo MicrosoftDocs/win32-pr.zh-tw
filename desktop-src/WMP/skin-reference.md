@@ -4,18 +4,18 @@ description: 外觀參考
 ms.assetid: af778d1e-f6e8-47b0-bf98-e826880f48b7
 keywords:
 - Windows Media Player，外觀
-- Windows Media Player 行動裝置外觀、參考
+- Windows Media Player行動外觀、參考
 - 外觀，程式設計參考
 - 外觀參考
 - Windows Media Player 行動裝置的外觀參考
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c0c84d5acccf88c4dc3d893eb32f54a24135257
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4572d45f43c37fca52625288013dbf366db3f96b02961b17cb12edac9c02ab12
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671660"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119763478"
 ---
 # <a name="skin-reference"></a>外觀參考
 
@@ -38,7 +38,7 @@ ms.locfileid: "103671660"
 
 
 
- 
+ 
 
 \*適用于 Windows Media Player 10.1 Mobile 的新。
 
@@ -48,12 +48,12 @@ ms.locfileid: "103671660"
 
 <dl> <dt>
 
-[**Windows Media Player 行動外觀**](windows-media-player-mobile-skins.md)
+[**Windows Media Player行動外觀**](windows-media-player-mobile-skins.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -53,12 +53,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: fca29f0b279994dc0b844127fd1925850094da8e
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 8df8461aad42bfa1e1107a18f99f5a33c85967d52fe1eea9c22e924604be20ae
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847110"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119820958"
 ---
 # <a name="cim_nonvolatilestorage-class"></a>CIM \_ NonVolatileStorage 類別
 
@@ -466,7 +466,7 @@ class CIM_NonVolatileStorage : CIM_Memory
 限定詞： [**架構**](/windows/desktop/WmiSdk/standard-qualifiers) ( "Win32" ) 
 </dt> </dl>
 
-Windows 設定管理員錯誤碼。
+Windows設定管理員錯誤碼。
 
 這個屬性繼承自 [**CIM \_ LogicalDevice**](cim-logicaldevice.md)。
 
@@ -1119,7 +1119,7 @@ Windows 仍在設定裝置。
 
 </dt> <dd>
 
-不明。
+未知。
 
 </dd> <dt>
 
@@ -1442,7 +1442,7 @@ CRC 錯誤。
 限定詞： [**架構**](/windows/desktop/WmiSdk/standard-qualifiers) ( "Win32" ) 
 </dt> </dl>
 
-Windows 隨插即用邏輯裝置的裝置識別碼。 這個屬性繼承自 [**CIM \_ LogicalDevice**](cim-logicaldevice.md)。
+Windows隨插即用邏輯裝置的裝置識別碼。 這個屬性繼承自 [**CIM \_ LogicalDevice**](cim-logicaldevice.md)。
 
 範例： " \* PNP030b"
 

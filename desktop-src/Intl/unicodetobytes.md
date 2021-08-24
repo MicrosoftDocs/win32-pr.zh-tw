@@ -34,20 +34,20 @@ api_name:
 targetos: Windows
 req.typenames: ''
 req.redist: ''
-ms.openlocfilehash: 66ed21768c3acef7f2aa2128df057da8552b2ad2
-ms.sourcegitcommit: 1f6a1bfc1c4bb2641bc3ba44beb1f2727c94681b
+ms.openlocfilehash: 01109763644dc04aeb398e5fc64e221cd5f3d18870df2654fa5348bc163a277c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "103679503"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119764722"
 ---
 # <a name="unicodetobytes-function"></a>UnicodeToBytes 函式
 
-## <a name="description"></a>Description
+## <a name="description"></a>描述
 
 已取代。 將 Unicode 字元轉換成 GB18030 位元組。
 
-**注意**  將 Unicode 字元轉換成 GB18030 位元組時，要在 Windows Vista 和更新版本上執行的應用程式應該使用 [WideCharToMultiByte](/windows/desktop/api/stringapiset/nf-stringapiset-widechartomultibyte) 函式。
+**注意** 將 Unicode 字元轉換成 GB18030 位元組時，要在 Windows Vista 和更新版本上執行的應用程式應該使用 [WideCharToMultiByte](/windows/desktop/api/stringapiset/nf-stringapiset-widechartomultibyte)函式。
 
 ```cpp
 DWORD UnicodeToBytes(

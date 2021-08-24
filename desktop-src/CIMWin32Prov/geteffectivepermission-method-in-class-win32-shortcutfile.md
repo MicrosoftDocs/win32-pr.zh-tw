@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 52b57318ac05212304024ead82026d6daf0d8ea4
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 90c359a40b482cf3335dde26f0fc4ae49ca5541b3c4fa1d8599b25c68d1365d4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110496"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119760528"
 ---
 # <a name="geteffectivepermission-method-of-the-win32_shortcutfile-class"></a>Win32 ShortcutFile 類別的 GetEffectivePermission 方法 \_
 

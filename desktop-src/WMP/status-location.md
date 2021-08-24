@@ -3,18 +3,18 @@ title: 狀態位置
 description: 狀態位置
 ms.assetid: 9051a2f7-ae39-4004-9d8c-a61141631b23
 keywords:
-- Windows Media Player 行動外觀、狀態顯示
+- Windows Media Player行動外觀、狀態顯示
 - 外觀，狀態顯示
 - 外觀的參考、狀態顯示
 - 狀態顯示在 [外觀]、[位置]
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b47cb08b0a1fde8b3bbc24e4300f880c3896ebf6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1111c511c2ab52ff4233a497384606238f8afa351ab786deb6e3f5a20247a9a9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103675308"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119763178"
 ---
 # <a name="status-location"></a>狀態位置
 
@@ -35,9 +35,9 @@ ms.locfileid: "103675308"
 [**地位**](status.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -3,18 +3,18 @@ title: Trackbars
 description: Trackbars
 ms.assetid: b9676697-c3ab-465c-8b50-eb784f53bb11
 keywords:
-- Windows Media Player 行動外觀 trackbars
+- Windows Media Player行動外觀、trackbars
 - 外觀，trackbars
 - 外觀的參考，trackbars
 - 外觀 trackbars，關於
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cb7b64f7bada6f927b25aeecb71d584aa1ec2a68
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1eb311994ccdfb48eb1ea9e010b268cdef13fd1fc8a2154d491f6e4103a91ec3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106968245"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119762668"
 ---
 # <a name="trackbars"></a>Trackbars
 
@@ -69,9 +69,9 @@ ms.locfileid: "106968245"
 [**外觀參考**](skin-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

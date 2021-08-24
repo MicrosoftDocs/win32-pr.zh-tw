@@ -4,12 +4,12 @@ ms.assetid: 6e566251-3454-4c8d-aaa0-121112491114
 title: XMUINT4 延伸模組
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6bf838656452565da87f45b667d6088302facace
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3d298b9fcad5439ba0b9a2ac55b6b4a0819715d5381e9da40d945de3fa000a69
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848478"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119740418"
 ---
 # <a name="xmuint4-extensions"></a>XMUINT4 延伸模組
 

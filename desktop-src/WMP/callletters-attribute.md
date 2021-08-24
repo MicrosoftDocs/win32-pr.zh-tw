@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ec756ce34bd3fff7e1077c8d0e8be45955515bec
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 47d05a477a446a64c0d3f29891512a415a6f0090768355b316109b9ecc49cfe7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106989773"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119764278"
 ---
 # <a name="callletters-attribute"></a>CallLetters 屬性
 

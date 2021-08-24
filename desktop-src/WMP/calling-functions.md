@@ -3,23 +3,23 @@ title: 呼叫函式
 description: 呼叫函式
 ms.assetid: c5a675f2-86fc-4f53-8d09-604ab4752d7b
 keywords:
-- Windows Media Player 的外觀，在 JScript 中呼叫函式
-- 在 JScript 中呼叫函數的外觀
+- Windows Media Player 的面板，呼叫 JScript 中的函式
+- 在 JScript 中呼叫函式的外觀
 - 在 JScript 中呼叫函數
-- 用於外觀的 JScript 檔案，呼叫函式
-- Windows Media Player 的外觀、JScript 中的 scriptFile 屬性
-- scriptFile 屬性（JScript）中的外觀
+- 適用于面板的 JScript 檔案，呼叫函式
+- Windows Media Player 的 scriptFile 屬性 JScript 中的外觀
+- JScript 中的外觀、scriptFile 屬性
 - 屬性，JScript 中的 scriptFile
 - JScript 中的 scriptFile 屬性
-- 適用于外觀的 JScript 檔案，scriptFile 屬性
+- scriptFile 屬性的 JScript 檔案
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a9450c8ca09b75f66f6206c850a656192bb1bb9b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4e41b5fdfd6109292a1a42cae43e42e8424348090541fd50a8d83f04d23b8329
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104507441"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119764268"
 ---
 # <a name="calling-functions"></a>呼叫函式
 
@@ -44,9 +44,9 @@ onclick = "JScript: myfunction()"
 
 
 > [!Note]  
-> 如果您有一個以上的視圖，則只有在目前的視圖中載入的檔案中的函式可供 XML 和 JScript 程式碼使用。 在其他視圖中載入的檔案不在目前的視圖範圍內。
+> 如果您有多個 view，則只有載入目前視圖之檔案中的函式可供 XML 使用，以及使用目前的視圖執行 JScript 程式碼。 在其他視圖中載入的檔案不在目前的視圖範圍內。
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -55,9 +55,9 @@ onclick = "JScript: myfunction()"
 [**使用 JScript**](using-jscript.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

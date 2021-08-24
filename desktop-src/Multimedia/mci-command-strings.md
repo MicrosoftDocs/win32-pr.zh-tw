@@ -7,12 +7,12 @@ keywords:
 - MCI 參考，命令字串
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d7298a1ad4d571446532f7198e5bd41ae988194e
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: cc2934f8770c7a68db7f1706705424d554bbd5f4840a7e19b0c57b695a9bad90
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104023419"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119784608"
 ---
 # <a name="mci-command-strings"></a>MCI 命令字串
 
@@ -26,7 +26,7 @@ ms.locfileid: "104023419"
 -   [**複製**](copy.md)
 -   [**提示**](cue.md)
 -   [**削減**](cut.md)
--   [**刪除**](delete.md)
+-   [**delete**](delete.md)
 -   [逃脫](escape.md)
 -   [**凍結**](freeze.md)
 -   [**指數**](./windows-multimedia-start-page.md)
@@ -35,7 +35,7 @@ ms.locfileid: "104023419"
 -   [**負荷**](load.md)
 -   [**馬克**](mark.md)
 -   [**監控**](monitor.md)
--   [**打開**](open.md)
+-   [**開啟**](open.md)
 -   [**粘貼**](paste.md)
 -   [**暫停**](pause.md)
 -   [**玩**](play.md)
@@ -53,7 +53,7 @@ ms.locfileid: "104023419"
 -   [**settimecode**](settimecode.md)
 -   [**settuner**](settuner.md)
 -   [**setvideo**](setvideo.md)
--   [**signal**](signal.md)
+-   [**信號**](signal.md)
 -   [**自 旋**](spin.md)
 -   [**地位**](status.md)
 -   [**步**](step.md)
@@ -62,7 +62,7 @@ ms.locfileid: "104023419"
 -   [**撤銷**](undo.md)
 -   [**解凍**](unfreeze.md)
 -   [**更新**](update.md)
--   [**其中**](where.md)
+-   [**：**](where.md)
 -   [**視窗**](window.md)
 
 ## <a name="related-topics"></a>相關主題
@@ -72,6 +72,6 @@ ms.locfileid: "104023419"
 [MCI 參考](mci-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

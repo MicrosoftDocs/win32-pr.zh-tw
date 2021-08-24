@@ -7,12 +7,12 @@ keywords:
 - 正在工作排程器中抓取工作屬性，MaxRunTime
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 20fcf442e2936de48a11aea4d81de6e0bac18f92
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: cbc060884be207081d56f0325d2e1f4228ef609e7733738874e61d68e1d2eec2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104371920"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119738608"
 ---
 # <a name="cc-code-example-retrieving-the-task-maxruntime"></a>C/c + + 程式碼範例：正在抓取工作 MaxRunTime
 
@@ -111,9 +111,9 @@ int main(int argc, char **argv)
 [工作排程器1.0 範例](task-scheduler-1-0-examples.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 7ca939354052e2e4dccbdb0bd74b12907e3ce9a3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b8a8b0a270d57bd9b4a3e48080c12ccc720d886acef0f598c6c2f4d78c8a9598
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847839"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119780598"
 ---
 # <a name="jet_rstmap-constructor"></a>JET_RSTMAP 的函式
 

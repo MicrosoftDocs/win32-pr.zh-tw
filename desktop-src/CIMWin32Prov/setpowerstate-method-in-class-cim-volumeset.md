@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: ddceceb68f560f837667de74a05475fad9adbec1
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 7e5f7b78274d530e01695ac79e03aef90e551e391b3280ae92b9439e608031fa
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111400"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119700218"
 ---
 # <a name="setpowerstate-method-of-the-cim_volumeset-class"></a>CIM VolumeSet 類別的 SetPowerState 方法 \_
 
@@ -46,7 +46,7 @@ uint32 SetPowerState(
 
 <dl> <dt>
 
-*>powerstate* \[在\]
+*>Powerstate* \[在\]
 </dt> <dd>
 
 指定此邏輯裝置所需電源狀態的 [**ValueMap**](/windows/desktop/WmiSdk/standard-qualifiers) 值。

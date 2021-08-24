@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ccd4b481de808ac8814e596cfc038aec38c7f19b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a8d4150289eb7637d1772443a5437c6d245993ea0825a37d11bd7ec5accae918
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106984105"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119764028"
 ---
 # <a name="closedcaptiongetsamilangname-method"></a>ClosedCaption. getSAMILangName 方法
 

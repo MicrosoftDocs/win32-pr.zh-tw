@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 9f4de0c7c57706cd5003e7dbb45fe3d85a8bb83a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 968445f6b3344cc3f908d11d8edeaf5a531de29149b9344050490ab9cca2e058
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975751"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119781678"
 ---
 # <a name="esentslvdatabasemissingexception-class"></a>EsentSLVDatabaseMissingException 類別
 

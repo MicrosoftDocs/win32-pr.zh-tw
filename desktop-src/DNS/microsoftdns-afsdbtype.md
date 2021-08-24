@@ -19,12 +19,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 836de50f4da9e613fb3e940b90971f38a634c804
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 74c7887d51e58b8c34374ed5ca96d0206472155872ba573b7b9f8879329910f6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104025112"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119815698"
 ---
 # <a name="microsoftdns_afsdbtype-class"></a>MicrosoftDNS \_ AFSDBType 類別
 
@@ -58,7 +58,7 @@ class MicrosoftDNS_AFSDBType : MicrosoftDNS_ResourceRecord
 | 方法                             | 描述                                                                                                                                                                                                                                                                                                                                                   |
 |:-----------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **CreateInstanceFromPropertyData** | 根據方法的輸入參數中的資料具現化 AFSDB 資源記錄：記錄的 DNS 伺服器名稱、容器名稱、擁有者/資料格名稱、類別 (預設值 = IN) 、存留時間值，以及主機 AFS 伺服器子類型和名稱。 將新物件的參考傳回做為輸出參數。 <br/> 限定詞：實作為、靜態<br/> |
-| **修改**                         | 這個方法會將 TTL、子類型和伺服器名稱更新為指定為此方法之輸入參數的值。 如果未指定參數的新值，則不會變更參數的目前值。 方法會將修改過之物件的參考傳回為輸出參數。 <br/> 限定詞：實作為<br/>   |
+| **Modify**                         | 這個方法會將 TTL、子類型和伺服器名稱更新為指定為此方法之輸入參數的值。 如果未指定參數的新值，則不會變更參數的目前值。 方法會將修改過之物件的參考傳回為輸出參數。 <br/> 限定詞：實作為<br/>   |
 
 
 

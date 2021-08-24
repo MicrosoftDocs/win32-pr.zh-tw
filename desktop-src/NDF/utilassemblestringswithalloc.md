@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dae121b1d5f2d968f696190c64828be91adc71da
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 38473f45e2bd4c53b964bb38ec285cdf3eea091a96d72684c1d801b949f4d0a8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103686619"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119801728"
 ---
 # <a name="utilassemblestringswithalloc-function"></a>UtilAssembleStringsWithAlloc 函式
 
@@ -48,9 +48,9 @@ HRESULT UtilAssembleStringsWithAlloc(
 *緩衝區* \[擴展\]
 </dt> <dd>
 
-類型： **LPWSTR \** _
+類型： **LPWSTR \***
 
-將放置新配置之字串的位置。 當不再需要字串時，必須使用 [_ *CoTaskMemFree* *](/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree)來釋放它。
+將放置新配置之字串的位置。 當不再需要字串時，必須使用 [**CoTaskMemFree**](/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree)來釋放。
 
 </dd> <dt>
 
@@ -114,7 +114,7 @@ HRESULT UtilAssembleStringsWithAlloc(
 
 
 
-| 傳回碼                                                                                  | Description                                                        |
+| 傳回碼                                                                                  | 描述                                                        |
 |----------------------------------------------------------------------------------------------|--------------------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>         | 作業成功。<br/>                                |
 | <dl> <dt>**E \_ INVALIDARG**</dt> </dl> | 未正確提供一或多個參數。<br/> |
@@ -129,8 +129,8 @@ HRESULT UtilAssembleStringsWithAlloc(
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                                 |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                       |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                                 |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                                       |
 | 標頭<br/>                   | <dl> <dt>Ndattributils。h</dt> </dl> |
 
 

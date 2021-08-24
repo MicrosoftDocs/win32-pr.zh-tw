@@ -4,12 +4,12 @@ ms.assetid: 5a57ba6e-d1fe-44ab-b72d-52b1f212c322
 title: ICE51
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 38082d754564eead6d60a62e3b4cdcf9b1f0f94f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d1187ad79aa23ca26ade28ecf92e6cde60beb9c8cc56540bec85f2ab1ae467f2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194097"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119763888"
 ---
 # <a name="ice51"></a>ICE51
 

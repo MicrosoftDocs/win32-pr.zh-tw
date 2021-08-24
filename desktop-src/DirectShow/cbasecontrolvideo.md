@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: e2e5962eb9d175bfbbeadd149a547f0d36fbf49f
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 3d8e6f7c881cc62f9124a58cb168bb3b2123d5f8e3c99b1d86b6aed0f87e2aaa
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104467814"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119697940"
 ---
 # <a name="cbasecontrolvideo-class"></a>CBaseControlVideo 類別
 
@@ -31,17 +31,17 @@ ms.locfileid: "104467814"
 
 
 
-| 受保護的資料成員                                                                   | Description                                                                                     |
+| 受保護的資料成員                                                                   | 描述                                                                                     |
 |------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
 | m \_ pFilter                                                                               | 擁有媒體篩選器的指標。                                                              |
 | m \_ pInterfaceLock                                                                        | 外部定義的重要區段。                                                            |
 | m \_ pPin                                                                                  | 控制連接的媒體類型。                                                      |
-| 成員函數                                                                         | Description                                                                                     |
+| 成員函數                                                                         | 描述                                                                                     |
 | [**CBaseControlVideo**](cbasecontrolvideo-cbasecontrolvideo.md)                         | 結構 **CBaseControlVideo** 物件。                                                      |
 | [**CopyImage**](cbasecontrolvideo-copyimage.md)                                         | 建立影片影像的記憶體複本。                                                         |
 | [**GetImageSize**](cbasecontrolvideo-getimagesize.md)                                   | 捕獲影片影像大小資訊。                                                         |
 | [**SetControlVideoPin**](cbasecontrolvideo-setcontrolvideopin.md)                       | 設定此物件應該同步處理的 pin。                                         |
-| 可覆寫的成員函式                                                             | Description                                                                                     |
+| 可覆寫的成員函式                                                             | 描述                                                                                     |
 | [**CheckSourceRect**](cbasecontrolvideo-checksourcerect.md)                             | 判斷來源矩形是否有效。                                                      |
 | [**CheckTargetRect**](cbasecontrolvideo-checktargetrect.md)                             | 判斷目標矩形是否有效。                                                      |
 | [**GetSourceRect**](cbasecontrolvideo-getsourcerect.md)                                 | 抓取目前的來源影片矩形 (純虛擬) 。                                    |
@@ -56,7 +56,7 @@ ms.locfileid: "104467814"
 | [**SetDefaultTargetRect**](cbasecontrolvideo-setdefaulttargetrect.md)                   | 將預設目標的影片矩形設定 (純虛擬) 。                                         |
 | [**SetSourceRect**](cbasecontrolvideo-setsourcerect.md)                                 | 將目前的來源影片矩形設定 (純虛擬) 。                                         |
 | [**SetTargetRect**](cbasecontrolvideo-settargetrect.md)                                 | 將目前的目標矩形設定 (純虛擬) 。                                               |
-| IBasicVideo 方法                                                                      | Description                                                                                     |
+| IBasicVideo 方法                                                                      | 描述                                                                                     |
 | [**取得 \_ AvgTimePerFrame**](cbasecontrolvideo-get-avgtimeperframe.md)                    | 抓取每個框架大約的平均時間。                                                |
 | [**取得 \_ BitErrorRate**](cbasecontrolvideo-get-biterrorrate.md)                          | 抓取近似的位錯誤率。                                                        |
 | [**取得 \_ 位元速率**](cbasecontrolvideo-get-bitrate.md)                                    | 抓取影片的近似位速度。                                                |
@@ -98,7 +98,7 @@ ms.locfileid: "104467814"
 
 <dl> <dt>
 
-[DirectShow 基類](directshow-base-classes.md)
+[DirectShow基類](directshow-base-classes.md)
 </dt> </dl>
 
  

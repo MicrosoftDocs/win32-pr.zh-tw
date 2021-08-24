@@ -9,12 +9,12 @@ keywords:
 - 外觀參考
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 30194f0048f4ef66cf32b7c5f3f94c2bd4e190ab
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 52803582ffa02cd4a25cbc0099bdf026e2af8ece17a08b7927669bb6df0d6cc7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671659"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119763528"
 ---
 # <a name="skin-programming-reference"></a>外觀程式設計參考
 
@@ -45,7 +45,7 @@ ms.locfileid: "103671659"
 | [播放 清單](playlist-element.md)                         | 用來控制台內播放清單外觀的元素。              |
 | [彈出](popup-element.md)                               | 提供一種方式，讓使用者從清單中選取專案。                               |
 | [PROGRESSBAR](progressbar-element.md)                   | 提供一種方式，以水準或垂直控制項顯示進度資訊。 |
-| [設定](settings-element.md)                         | 提供從面板記憶體取 [設定](settings-object.md) 物件的許可權。   |
+| [設定](settings-element.md)                         | 提供從面板記憶體取[設定](settings-object.md)物件的許可權。   |
 | [滑 塊](slider-element.md)                             | 滑杆控制項。                                                                   |
 | [視圖](subview-element.md)                           | 可以移動或隱藏的視圖內的子區段。                              |
 | [文本](text-element.md)                                 | 包含文字的控制項。                                                          |
@@ -57,18 +57,18 @@ ms.locfileid: "103671659"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
 <dl> <dt>
 
-[**Windows Media Player 的外觀**](windows-media-player-skins.md)
+[**Windows Media Player皮膚**](windows-media-player-skins.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

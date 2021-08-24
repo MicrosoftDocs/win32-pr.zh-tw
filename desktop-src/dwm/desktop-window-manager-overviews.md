@@ -4,12 +4,12 @@ description: DWM 總覽
 ms.assetid: 32ff4ab3-e02e-4e6a-8833-2537eb3f65c5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9622023856005700f576970238a3444a0589c71d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a079aaf3f14a30af18c651a8743b2a1670a2b6f828077d105f2d3e23c4e563e5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021925"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119741398"
 ---
 # <a name="dwm-overviews"></a>DWM 總覽
 

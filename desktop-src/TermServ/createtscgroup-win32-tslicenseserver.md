@@ -1,6 +1,6 @@
 ---
 title: Win32_TSLicenseServer 類別的 CreateTSCGroup 方法
-description: CreateTSCGroup 不再適用于 Windows Server 2012。
+description: CreateTSCGroup 不再提供 Windows Server 2012 使用。
 ms.assetid: 31751da7-263b-4911-a328-246457a606f0
 ms.tgt_platform: multiple
 keywords:
@@ -17,16 +17,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 63f10db61cb02ece09d168cb462e31246e498494
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: cf363d86cf663a3f9b626d9586140eb4c00f86e9750070f8a2000149b655bb34
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843224"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119737868"
 ---
 # <a name="createtscgroup-method-of-the-win32_tslicenseserver-class"></a>Win32 TSLicenseServer 類別的 CreateTSCGroup 方法 \_
 
-\[**CreateTSCGroup** 不再適用于 Windows Server 2012。\]
+\[**CreateTSCGroup** 不再提供 Windows Server 2012 使用。\]
 
 不支援這個方法。
 

@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 96d13c3818e09f97f95c103087c9cf26a8c3dca7
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 88e94d103cb5be4156d64091c4a51865b740b82586a759f4e8abeaa5423cd8ec
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104187623"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119700338"
 ---
 # <a name="setpowerstate-method-of-the-cim_serialcontroller-class"></a>CIM SerialController 類別的 SetPowerState 方法 \_
 
@@ -46,7 +46,7 @@ uint32 SetPowerState(
 
 <dl> <dt>
 
-*>powerstate* \[在\]
+*>Powerstate* \[在\]
 </dt> <dd>
 
 指定此邏輯裝置所需電源狀態的 **ValueMap** 值。

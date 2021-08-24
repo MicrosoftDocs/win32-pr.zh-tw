@@ -4,12 +4,12 @@ ms.assetid: b76586a7-05e1-4f26-9c27-c11f625e88c8
 title: 從進程、執行緒和例外狀況函式的偵錯工具支援
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 60478b5446a03f4c77f05bcb86f18c56b51bccf0
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 107312fa9c799d4a0a0c01e3ddc2740ae3dbe9fa807b5fef8c7699e7bd501e86
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103846944"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119815558"
 ---
 # <a name="debug-support-from-process-thread-and-exception-functions"></a>從進程、執行緒和例外狀況函式的偵錯工具支援
 

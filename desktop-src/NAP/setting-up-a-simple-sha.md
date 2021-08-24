@@ -4,26 +4,26 @@ description: 下列範例會設定簡單的系統健康情況代理程式 (SHA) 
 ms.assetid: 7c96e1ca-f9b2-40e6-bd89-c8ef77b48dfa
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ef60b7ab9e390289a9bc1a2c3a00dd81ccf46240
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 94625e99f604fd282a5b1177992f6e9e413b30d35f61767ad7231315dddfab53
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839835"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119780738"
 ---
 # <a name="setting-up-a-simple-sha"></a>設定簡單的 SHA
 
 > [!Note]  
 > 從 Windows 10 開始，無法使用網路存取保護平臺
 
- 
+ 
 
 下列範例會設定簡單的系統健康情況代理程式 (SHA) ，並顯示兩個選擇性動作：健全狀況的聲明 (SoH) 變更通知和 SoH 快取排清。 請注意，在此範例中，錯誤處理不會包含在主要 () 函數中。
 
 > [!Note]  
 > NAP SDK 也包含一組完整的範例程式碼，可在中 \\ 找到。範例 \\ NetDS \\ NAP .。。SDK 安裝的目錄。 此範例集包含 SHA、系統健全狀況驗證程式 (SHV) 和強制用戶端 (EC) 。 它有完整的工作 NAP 案例，可設定 SHA-SHV 與 SHA-1 之間的通訊。
 
- 
+ 
 
 
 ```C++
@@ -221,9 +221,9 @@ STDMETHODIMP ShaCallback::GetFixupInfo(FixupInfo** ppStatus)
 
 
 
- 
+ 
 
- 
+ 
 
 
 

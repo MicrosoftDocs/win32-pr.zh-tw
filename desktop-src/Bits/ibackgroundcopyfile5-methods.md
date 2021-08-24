@@ -4,12 +4,12 @@ description: 'IBackgroundCopyFile5 介面會公開下列方法。 | (BITS 的 IB
 ms.assetid: fc407e4b-f039-4a70-94da-151b03c6ddbf
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 00bffe2ac45c74bd54bb90d04bc2daddb693c051
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: ec62d61a7bec351bfd1da491fef0602d8bb59c85313271835bdd6e1fc7375f15
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "103853679"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119801398"
 ---
 # <a name="ibackgroundcopyfile5-methods-bits"></a> (BITS 的 IBackgroundCopyFile5 方法) 
 

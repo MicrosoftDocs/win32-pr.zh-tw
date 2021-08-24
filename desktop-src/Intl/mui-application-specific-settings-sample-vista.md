@@ -1,17 +1,17 @@
 ---
-description: MUI： (Windows Vista) 的 Application-Specific 設定範例
+description: 'MUI： Application-Specific 設定範例 (Windows Vista) '
 ms.assetid: 348a51fb-aad1-4255-a5a2-224d5c94d762
-title: MUI： (Windows Vista) 的 Application-Specific 設定範例
+title: 'MUI： Application-Specific 設定範例 (Windows Vista) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9583e606a0f9023d02a4ef804fee22c56818a75f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 664b87af02e9c24a0eacd9191f9e007804672429d433c5d832dc0fbdd98e359b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106976777"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119765018"
 ---
-# <a name="mui-application-specific-settings-sample-windows-vista"></a>MUI： (Windows Vista) 的 Application-Specific 設定範例
+# <a name="mui-application-specific-settings-sample-windows-vista"></a>MUI： Application-Specific 設定範例 (Windows Vista) 
 
 本主題所述的範例應用程式是另一個 Hello MUI 應用程式，它支援其使用者介面語言的應用程式特定設定，並可在 Windows Vista 和更新版本上執行。
 

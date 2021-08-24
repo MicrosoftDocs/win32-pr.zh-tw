@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101472
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: ef205cf976bc5e717ddd8b7890424a1ea2a4c18c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 73df4ffc479b84ca41ef602dd84e5b94236ea4b10e50e46e8e660ed5c06b56cc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104556865"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119784788"
 ---
 # <a name="esentdbtimetoonewexception-properties"></a>EsentDbTimeTooNewException 屬性
 

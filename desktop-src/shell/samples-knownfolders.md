@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 8d3784e64986a338f6554534199852191bd06ca7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c189b315387bfbd5e6051ecc382d2ea354d18925c15b11763c28602d2015c482
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944492"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119820308"
 ---
 # <a name="known-folders-sample"></a>已知資料夾範例
 
@@ -29,7 +29,7 @@ ms.locfileid: "103944492"
 -   [執行範例](#running-the-sample)
 -   [相關主題](#related-topics)
 
-## <a name="description"></a>Description
+## <a name="description"></a>描述
 
 此範例包含一個登錄檔案，示範如何為偏好登錄存取的開發人員撰寫一些常見的登錄機碼和值，以註冊已知的資料夾。
 
@@ -50,7 +50,7 @@ ms.locfileid: "103944492"
 
 ## <a name="downloading-the-sample"></a>下載範例
 
-| Location      | 路徑 URL                                                                                             |
+| 位置      | 路徑 URL                                                                                             |
 |---------------|------------------------------------------------------------------------------------------------------|
 | GitHub  | [KnownFolders 範例](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/shell/appplatform/knownfolders) |
 

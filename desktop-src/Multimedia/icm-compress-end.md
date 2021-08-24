@@ -1,9 +1,9 @@
 ---
 title: 'ICM_COMPRESS_END 訊息 (Vfw .h) '
-description: ICM \_ 壓縮 \_ 結束訊息會通知影片壓縮驅動程式，以結束壓縮和配置給壓縮的可用資源。 您可以使用 ICCompressEnd 宏明確地傳送此訊息。
+description: ICM \_ 壓縮 \_ 結束訊息會通知視訊壓縮驅動程式，以結束壓縮和配置給壓縮的可用資源。 您可以使用 ICCompressEnd 宏明確地傳送此訊息。
 ms.assetid: 5d4b5962-c4f0-44eb-a3a9-36026f167a5a
 keywords:
-- ICM_COMPRESS_END message Windows 多媒體
+- ICM_COMPRESS_END 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 320cc99ed4223b7919b85d2b39e15d4d9b76aa90
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9c320190da37d286db1c20329a849ea09ac6d915087e9d3bdbb2333d31cec3e5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464836"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119785038"
 ---
-# <a name="icm_compress_end-message"></a>ICM \_ 壓縮 \_ 結束訊息
+# <a name="icm_compress_end-message"></a>ICM \_壓縮 \_ 結束訊息
 
-**ICM \_ 壓縮 \_ 結束** 訊息會通知影片壓縮驅動程式，以結束壓縮和配置給壓縮的可用資源。 您可以使用 [**ICCompressEnd**](/windows/desktop/api/Vfw/nf-vfw-iccompressend) 宏明確地傳送此訊息。
+**ICM \_ 壓縮 \_ 結束** 訊息會通知視訊壓縮驅動程式，以結束壓縮和配置給壓縮的可用資源。 您可以使用 [**ICCompressEnd**](/windows/desktop/api/Vfw/nf-vfw-iccompressend) 宏明確地傳送此訊息。
 
 
 ```C++
@@ -40,7 +40,7 @@ lParam = 0;
 
 ## <a name="remarks"></a>備註
 
-BC-VCM-LVM-HYPERV 會儲存最近的 [**ICM \_ 壓縮 \_ 開始**](icm-compress-begin.md) 訊息的設定。 **ICM \_壓縮 \_ BEGIN** 和 **ICM \_ 壓縮 \_ 結束** 不會被嵌套。 如果您的驅動程式會在使用 **icm \_ 壓縮 \_ 結束** 的情況下，于壓縮停止之前收到 **icm \_ 壓縮 \_ 開始**，則應該以新的參數重新開機壓縮。
+bc-vcm-lvm-hyperv 會儲存最近 [**ICM \_ 壓縮 \_ 開始**](icm-compress-begin.md)訊息的設定。 **ICM \_壓縮 \_ BEGIN** 和 **ICM \_ 壓縮 \_ END** 不會進行嵌套。 如果您的驅動程式收到 ICM 壓縮在使用 **ICM \_ 壓縮 \_ 結束** 之前停止壓縮，則應該以新的參數重新開機壓縮。 **\_ \_**
 
 ## <a name="requirements"></a>規格需求
 

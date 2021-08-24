@@ -4,12 +4,12 @@ ms.assetid: 7cecb1c6-3dc3-48a1-94b9-1976c72b7764
 title: '對話方塊 (Windows Installer) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5695a8d936d0933983407ba52a531ea839137c09
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a38da0e4d562854abc32064eee06a303747c2587591a5526ae98177a13e0462a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193495"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119764058"
 ---
 # <a name="dialog-boxes-windows-installer"></a>對話方塊 (Windows Installer) 
 
@@ -33,7 +33,7 @@ ms.locfileid: "104193495"
 
 ## <a name="required-dialog-boxes"></a>必要對話方塊
 
-在安裝期間，某些事件會導致 Windows Installer 檢查封裝中的 [使用者介面順序資料表](using-a-sequence-table.md) ，並顯示指定的對話方塊。 例如，在發生嚴重錯誤的情況下，Windows Installer 會顯示在使用者介面順序資料表中，以-3 序號列出的對話方塊，不論對話方塊 [資料表](dialog-table.md)中該對話方塊的名稱為何。 下表列出特定事件，以及其在使用者介面順序資料表中的對應序號：
+在安裝期間，某些事件會導致 Windows Installer 檢查封裝中的[使用者介面順序資料表](using-a-sequence-table.md)，並顯示指定的對話方塊。 例如，在發生嚴重錯誤的情況下，Windows Installer 會顯示在使用者介面順序資料表中，以-3 序號列出的對話方塊，不論對話方塊[資料表](dialog-table.md)中該對話方塊的名稱為何。 下表列出特定事件，以及其在使用者介面順序資料表中的對應序號：
 
 
 
@@ -47,7 +47,7 @@ ms.locfileid: "104193495"
 
  
 
-此外，封裝作者必須建立一般對話方塊來顯示 Windows Installer [錯誤](error-dialog.md) 訊息。 此對話方塊可以命名為任何名稱，但必須在 **ErrorDialog** 屬性中指定這個名稱。
+此外，封裝作者必須建立一般對話方塊來顯示 Windows Installer[錯誤](error-dialog.md)訊息。 此對話方塊可以命名為任何名稱，但必須在 **ErrorDialog** 屬性中指定這個名稱。
 
 ## <a name="typical-dialog-boxes"></a>一般對話方塊
 

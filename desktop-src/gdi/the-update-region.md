@@ -4,12 +4,12 @@ ms.assetid: 21228620-9491-4e1b-8658-15e9605951f2
 title: 更新區域
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e670bac065782a1e09c4d142f964aaea97d4b96
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1d9a8f847a1e2d479200cfe6ea4e60a1b3a8ebf4c02aaf7c89fc719f62d91e91
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104991770"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119717968"
 ---
 # <a name="the-update-region"></a>更新區域
 

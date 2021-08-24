@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: c91bd99c0b9c818dc7e87b97ef1aecce8c0b10ab
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a1716f41dd48e87eab95e2637193822563851eda8819425eeb9b1c3112f848bf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103691487"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119779818"
 ---
 # <a name="windows8grbitskeepdbattachedatendofrecovery-field"></a>Windows8Grbits. KeepDbAttachedAtEndOfRecovery 欄位
 

@@ -36,12 +36,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: b3f301f1e786d126dbd57c071fe89356e0acc891
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 06cd7cecaa536106f70cc469e3b690a46bee8301fe2d1142bc3fa1ff2c045346
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103849543"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119780268"
 ---
 # <a name="objectinfoflags-enumeration"></a>ObjectInfoFlags 列舉
 

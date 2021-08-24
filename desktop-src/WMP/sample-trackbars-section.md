@@ -3,19 +3,19 @@ title: 範例 Trackbars 區段
 description: 範例 Trackbars 區段
 ms.assetid: b336a034-12ad-480e-8ec8-9c6d2bd9196f
 keywords:
-- Windows Media Player 行動外觀 trackbars
+- Windows Media Player行動外觀、trackbars
 - 外觀，trackbars
 - 外觀的參考，trackbars
 - trackbars 在外觀 Trackbars 區段
 - 外觀定義檔，Trackbars 區段
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 042f99c6696b756b6c2c86a5694f8469ea90cb9c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 74bcdaf1049c7a022a0231c80e0f91df9f42e7bc55e64f1222ad2f3614940ea9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840447"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119763848"
 ---
 # <a name="sample-trackbars-section"></a>範例 Trackbars 區段
 
@@ -42,9 +42,9 @@ ms.locfileid: "103840447"
 [**Trackbars**](trackbars.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

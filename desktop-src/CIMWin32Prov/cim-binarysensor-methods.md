@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: CIM_BinarySensor 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 565d6f1f0964834f3f78073003c39ad610421eac
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 41bc1b228f2dfa19560f06d1da520d308df193083e51608e0c9e7c92f69fbf31
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111085"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119701118"
 ---
 # <a name="cim_binarysensor-methods"></a>CIM \_ BinarySensor 方法
 
