@@ -4,12 +4,12 @@ ms.assetid: 39b81ffc-382b-467c-83d7-d0754847759a
 title: 曲線記錄
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a1e10f36e4a0481f9950f63c4cbbb59d48d24df0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dbaf3730f327501bd55b2e35b9410f03fd0559cbb5e36d87a3052901d26e5f0a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103692596"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119613648"
 ---
 # <a name="spline-records"></a>曲線記錄
 

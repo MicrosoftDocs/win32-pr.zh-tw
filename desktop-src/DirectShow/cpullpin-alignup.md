@@ -1,5 +1,5 @@
 ---
-description: AlignUp 方法會將值四捨五入到指定的對齊界限。請注意，已在 Windows 7 中移除。 .
+description: AlignUp 方法會將值四捨五入到指定的對齊界限。注意 Windows 7 中已移除。 .
 ms.assetid: fa2a6567-3eb1-4aa9-b966-2e88b15c67b1
 title: 'CPullPin. AlignUp 方法 (Pullpin .h) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: a4f33ae2b7434d90d909315edda4d49e07d8adab
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 34c45fe4a34e21647cd976adbf29dfe6723e4216d58166e7d1599d4c8d64d47e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106987137"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119687758"
 ---
 # <a name="cpullpinalignup-method"></a>CPullPin. AlignUp 方法
 

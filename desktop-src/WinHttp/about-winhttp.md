@@ -4,17 +4,17 @@ ms.assetid: 8337f699-3ec0-4397-acc2-6dc813f7542d
 title: 關於 WinHTTP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 150c829410a1601a3ede7f115f4594276af7fead
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e19df8ac8073cfca4fd74fd5d024712cc3fc59c770c3d9ad0ab1386bc0642d72
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "107000145"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119570288"
 ---
 # <a name="about-winhttp"></a>關於 WinHTTP
 
 > [!NOTE]
-> 針對應用程式容器和系統服務，自 Windows 10，版本1709，HTTP/2 (請參閱 [RFC7540](https://tools.ietf.org/html/rfc7540)) 預設為開啟。
+> 針對應用程式容器和系統服務，自 Windows 10，版本1709，HTTP/2 (請參閱[RFC7540](https://tools.ietf.org/html/rfc7540)) 預設為開啟。
 
 Microsoft Windows HTTP Services (WinHTTP) 提供伺服器支援的高階介面給 HTTP/2 和1.1 的網際網路通訊協定。 在與 HTTP 伺服器通訊的伺服器應用程式中，WinHTTP 的設計主要是用於以伺服器為基礎的案例中。
 
@@ -22,9 +22,9 @@ Microsoft Windows HTTP Services (WinHTTP) 提供伺服器支援的高階介面�
 
 WinHTTP 也設計成用於系統服務和 HTTP 型用戶端應用程式。 不過，需要 FTP 通訊協定功能、cookie 持續性、快取、自動認證對話處理、Internet Explorer 相容性或舊版平臺支援的單一使用者應用程式，應該考慮使用 [WinINet](/windows/desktop/WinInet/portal)。
 
-您可以使用 (API) 的 WinHTTP 應用程式設計介面，或使用 [**IWinHttpRequest**](iwinhttprequest-interface.md) 和 [**IWinHttpRequestEvents**](iwinhttprequestevents-interface.md) 介面，從 C/c + + 存取這個介面。 WinHTTP 也可從腳本和 Microsoft Visual Basic 透過 WinHTTP 物件來存取。 如需個別函式的詳細資訊和描述，請參閱適用于特定語言的 WinHTTP 函數參考。
+您可以使用 (API) 的 WinHTTP 應用程式設計介面，或使用 [**IWinHttpRequest**](iwinhttprequest-interface.md) 和 [**IWinHttpRequestEvents**](iwinhttprequestevents-interface.md) 介面，從 C/c + + 存取這個介面。 winHTTP 也可從腳本和 Microsoft Visual Basic 透過 winHTTP 物件來存取。 如需個別函式的詳細資訊和描述，請參閱適用于特定語言的 WinHTTP 函數參考。
 
-從 Windows 8 開始，WinHTTP 提供 Api 來啟用使用 [WebSocket 通訊協定](https://tools.ietf.org/html/rfc6455)l 的連接，例如 [**WinHttpWebSocketSend**](/windows/desktop/api/winhttp/nf-winhttp-winhttpwebsocketsend) 和 [**WinHttpWebSocketReceive**](/windows/desktop/api/winhttp/nf-winhttp-winhttpwebsocketreceive)。
+從 Windows 8 開始，WinHTTP 提供 api 來啟用使用 [WebSocket 通訊協定](https://tools.ietf.org/html/rfc6455)l 的連接，例如 [**WinHttpWebSocketSend**](/windows/desktop/api/winhttp/nf-winhttp-winhttpwebsocketsend)和 [**WinHttpWebSocketReceive**](/windows/desktop/api/winhttp/nf-winhttp-winhttpwebsocketreceive)。
 
 > [!Caution]  
 > 除非在非同步完成回呼期間，否則 WinHTTP 不可重新進入。 也就是說，當執行緒呼叫其中一個 WinHTTP 函式（例如 WinHttpSendRequest、WinHttpReceiveResponse、WinHttpQueryDataAvailable、WinHttpSendData 或 WinHttpWriteData）時，它永遠不會在第一次呼叫完成之前，第二次呼叫 WinHTTP。 發生第二次呼叫的其中一個案例如下：如果應用程式將非同步程序呼叫排入佇列， (APC) 至呼叫 WinHTTP 的執行緒，而且如果 WinHTTP 在內部執行可提供警示等候，則可以執行 APC。 如果 APC 常式也會呼叫 WinHTTP，它會重新進入 WinHTTP API，而 WinHTTP 的內部狀態可能會損毀。

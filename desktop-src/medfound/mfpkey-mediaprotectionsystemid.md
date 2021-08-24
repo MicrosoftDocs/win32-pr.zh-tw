@@ -4,12 +4,12 @@ ms.assetid: D0380C89-872A-4863-983F-A52FBACEF4FD
 title: MFPKEY_MediaProtectionSystemId 屬性
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9817cccca002cceaf72463482aecea69aaf1ce25
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: cace6ccf4cff4cd197d090584821779a0b1fe7eaceef526dd29389a9b179654f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106987075"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119555438"
 ---
 # <a name="mfpkey_mediaprotectionsystemid-property"></a>MFPKEY \_ MediaProtectionSystemId 屬性
 

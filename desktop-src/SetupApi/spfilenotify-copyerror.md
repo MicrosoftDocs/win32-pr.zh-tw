@@ -4,12 +4,12 @@ ms.assetid: d6096954-c6a5-44d4-a358-c1320c50730a
 title: 'SPFILENOTIFY_COPYERROR 訊息 (Setupapi.log .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f6cd44daabd6a4aed5e61a716bab3df44f35fc0b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 80160af9d8053a90c1848d397da6bbb9bf41f2793756e1d5491fb0d6f5e39abc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103849599"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119665148"
 ---
 # <a name="spfilenotify_copyerror-message"></a>SPFILENOTIFY \_ COPYERROR 訊息
 
@@ -49,7 +49,7 @@ SPFILENOTIFY_COPYERROR
 
 
 
-| 傳回碼                                                                                    | Description                                                                                                                                                                                                                                                                   |
+| 傳回碼                                                                                    | 描述                                                                                                                                                                                                                                                                   |
 |------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**FILEOP \_ 中止**</dt> </dl>   | 應取消佇列處理。 [**SetupCommitFileQueue**](/windows/desktop/api/Setupapi/nf-setupapi-setupcommitfilequeuea) 會傳回零，而 [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) 會傳回擴充的錯誤資訊，例如 \_ ，如果使用者取消) 或錯誤 \_ 記憶體不足，則會傳回錯誤 (\_ \_ 。<br/> |
 | <dl> <dt>**FILEOP \_ NEWPATH**</dt> </dl> | 使用回呼函式放在 *Param2* 參數所指向之緩衝區中的路徑，以重試複製作業。 回呼常式應確定路徑不會溢位最大路徑元素之 TCHAR 陣列的緩衝區大小 \_ 。<br/>                |
@@ -66,8 +66,8 @@ SPFILENOTIFY_COPYERROR
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Setupapi.log。h</dt> </dl> |
 
 

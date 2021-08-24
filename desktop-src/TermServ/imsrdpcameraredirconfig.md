@@ -15,12 +15,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 12/16/2020
-ms.openlocfilehash: fbb0f3344e0653ea4a87c876bb8ca7b8a67e7d21
-ms.sourcegitcommit: 04e801237156e90b48111d60bddf437f87f5cdfe
+ms.openlocfilehash: aa030d462a16eacd521709c5be534f3d90e14f446da519490ee62f0260766084
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "104509738"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119574538"
 ---
 # <a name="imsrdpcameraredirconfig-interface"></a>IMsRdpCameraRedirConfig 介面
 
@@ -36,7 +36,7 @@ ms.locfileid: "104509738"
 
 **IMsRdpCameraRedirConfig** 介面具有這些屬性。
 
-| 屬性         | 存取類型           | Description            |
+| 屬性         | 存取類型           | 描述            |
 |:-----------------|:----------------------|:-----------------------|
 | [**DeviceExists**](imsrdpcameraredirconfig-deviceexists.md)      | 唯讀 | 指定相機裝置目前是否存在 (也就是相機連線) 。   |
 | [**FriendlyName**](imsrdpcameraredirconfig-friendlyname.md)                       | 唯讀 |    取得相機的易記名稱。    |

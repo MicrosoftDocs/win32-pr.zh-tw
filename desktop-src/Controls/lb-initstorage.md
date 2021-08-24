@@ -3,7 +3,7 @@ title: 'LB_INITSTORAGE 訊息 (Winuser .h) '
 description: 配置用來儲存清單方塊專案的記憶體。 在應用程式將大量專案加入清單方塊之前，會使用此訊息。
 ms.assetid: abc49049-3424-46c6-981a-b858afe88883
 keywords:
-- LB_INITSTORAGE message Windows 控制項
+- LB_INITSTORAGE 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 28216705dd0446aeb11adad9d45f9e604171e62c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: fe873244358bf171c3fcedc994facd36e194edf38e0ee0442f12556cc4342514
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465373"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119544268"
 ---
 # <a name="lb_initstorage-message"></a>LB \_ INITSTORAGE 訊息
 
@@ -63,9 +63,9 @@ Microsoft Windows NT 4.0：此訊息不會配置指定的記憶體數量;但是�
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                     |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 

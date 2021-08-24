@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ca3b7b4273d528e4ead5baebe4d45c399c42f70f
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: c635b808c16e47f0a27cbf97822139ccc199c85a004aa8c9d7d99b4dc07fc10b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103687244"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119295318"
 ---
 # <a name="ms-ds-local-effective-recycle-time-attribute"></a>ms DS-本機有效-回收時間屬性
 
@@ -53,8 +53,8 @@ ms.locfileid: "103687244"
 |------------------------|--------------|
 | 連結識別碼                | \-           |
 | MAPI-Id                | \-           |
-| System-Only            | 對         |
-| 是-單一值       | 對         |
+| System-Only            | 是         |
+| 是-單一值       | 是         |
 | 已編制索引             | 否        |
 | 在通用類別目錄中      | 否        |
 | NT-Security-描述元 | O:BAG：不正確： S： |
@@ -74,8 +74,8 @@ ms.locfileid: "103687244"
 |------------------------|--------------|
 | 連結識別碼                | \-           |
 | MAPI-Id                | \-           |
-| System-Only            | 對         |
-| 是-單一值       | 對         |
+| System-Only            | 是         |
+| 是-單一值       | 是         |
 | 已編制索引             | 否        |
 | 在通用類別目錄中      | 否        |
 | NT-Security-描述元 | O:BAG：不正確： S： |

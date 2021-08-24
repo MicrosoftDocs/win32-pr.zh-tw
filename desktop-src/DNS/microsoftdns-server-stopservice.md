@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f811533c66185304c5c674fdfff2eda8cf5bef69
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3d42a443e22d382dd6e7f6ec9d528d0a1f57c6062ba0e03742033c494b75cd8a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465676"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119076742"
 ---
 # <a name="stopservice-method-of-the-microsoftdns_server-class"></a>MicrosoftDNS 伺服器類別的 StopService 方法 \_
 

@@ -1,23 +1,23 @@
 ---
-description: ICE32 會驗證 .msi 檔案中的索引鍵和外鍵的大小和資料行定義類型是否相同。
+description: ICE32 會驗證 .msi 檔中的索引鍵和外鍵的大小和資料行定義類型是否相同。
 ms.assetid: cc488ec5-e17a-4829-9763-38ba3c33bfde
 title: ICE32
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 02d6ff9e4de592ac073050b357aff0c63d984f0d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 12e9361cd091afea3444858e64e043b87b779c2313f0ba16bb0ec6cf58fad265
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980365"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119528618"
 ---
 # <a name="ice32"></a>ICE32
 
-ICE32 會驗證 .msi 檔案中的索引鍵和外鍵的大小和資料行定義類型是否相同。 這個 ICE 自訂動作會使用 [ \_ 驗證資料表](-validation-table.md)來進行比較，並使用 [**MsiViewGetColumnInfo**](/windows/desktop/api/Msiquery/nf-msiquery-msiviewgetcolumninfo)所傳回的定義類型。 如需詳細資訊，請參閱資料 [行定義格式](column-definition-format.md)。
+ICE32 會驗證 .msi 檔中的索引鍵和外鍵的大小和資料行定義類型是否相同。 這個 ICE 自訂動作會使用 [ \_ 驗證資料表](-validation-table.md)來進行比較，並使用 [**MsiViewGetColumnInfo**](/windows/desktop/api/Msiquery/nf-msiquery-msiviewgetcolumninfo)所傳回的定義類型。 如需詳細資訊，請參閱資料 [行定義格式](column-definition-format.md)。
 
 ## <a name="result"></a>結果
 
-如果 .msi 檔案包含不同資料行長度或資料行資料類型之索引鍵的任何外鍵，則 ICE32 文章錯誤。
+如果 .msi 檔案包含不同資料行長度或資料行資料類型之索引鍵的任何外鍵，ICE32 張貼錯誤。
 
 ## <a name="example"></a>範例
 

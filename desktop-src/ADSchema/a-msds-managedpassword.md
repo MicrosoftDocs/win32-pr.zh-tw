@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a440f1849e01ae4930b72441f75b17ce51a0566b
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: dfdd5c8b86c07d86bf93aa1ce2c3c9887454dfbaa2be93a514bcb9c40f1f47e3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104107813"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119552328"
 ---
 # <a name="ms-ds-managedpassword-attribute"></a>ManagedPassword 屬性
 
@@ -53,7 +53,7 @@ ms.locfileid: "104107813"
 | 連結識別碼                | \-                                                                                          |
 | MAPI-Id                | \-                                                                                          |
 | System-Only            | 否                                                                                       |
-| 是-單一值       | 對                                                                                        |
+| 是-單一值       | 是                                                                                        |
 | 已編制索引             | 否                                                                                       |
 | 在通用類別目錄中      | 否                                                                                       |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                |

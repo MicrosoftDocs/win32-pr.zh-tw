@@ -6,28 +6,28 @@ keywords:
 - Windows Media Player，程式庫
 - Windows Media Player 物件模型，程式庫
 - 物件模型，程式庫
-- Windows Media Player 行動裝置、物件模型的程式庫
-- Windows Media Player ActiveX 控制項，物件模型的程式庫
-- Windows Media Player 的行動 ActiveX 控制項、物件模型的程式庫
+- Windows Media Player適用于物件模型的 Mobile、library
+- Windows Media Player ActiveX 控制項、物件模型的程式庫
+- Windows Media PlayerMobile ActiveX 控制項，物件模型的程式庫
 - ActiveX 控制項，物件模型的程式庫
 - Windows Media Player，媒體專案的屬性
 - Windows Media Player 物件模型，媒體專案的屬性
 - 物件模型、媒體專案的屬性
-- Windows Media Player 行動裝置，媒體專案的屬性
+- Windows Media Player行動電話，媒體專案的屬性
 - Windows Media Player ActiveX 控制項、媒體專案的屬性
-- Windows Media Player 的行動 ActiveX 控制項、媒體專案的屬性
-- ActiveX 控制項、媒體專案的屬性
+- Windows Media Player行動 ActiveX 控制項、媒體專案的屬性
+- ActiveX 控制項，媒體專案的屬性
 - Windows Media Player 文件庫、媒體專案的屬性
 - 文件庫、媒體專案的屬性
 - 屬性，關於
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f5ac8595cc07504c9cd3e195431513a1f8565e87
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b511fd3ed06a93f518a7ba8c3113a921cb2843d87f2451657b0e0e19c5b7a130
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021414"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119054616"
 ---
 # <a name="media-item-attributes"></a>媒體專案屬性
 
@@ -50,7 +50,7 @@ ms.locfileid: "104021414"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -62,9 +62,9 @@ ms.locfileid: "104021414"
 [**使用程式庫**](working-with-the-library.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 552dbcc764f335e639cb50e2e01411dee200068f
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 6508591f30a14e345cb67f9fe3a098dbaf357b6f60f57232af9f7af4570b6f6a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108096236"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119640178"
 ---
 # <a name="cbaseobjectcbaseobject-destructor"></a>CBaseObject. ~ CBaseObject 的函式
 
