@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 10ae80ebaf4622afb3e6f9b9717c65f6c56f7838
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fc4706f88d65b8a3e66da10639038b3bcfd24c4df5f84a89204f2d9649960a86
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847702"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119729388"
 ---
 # <a name="jet_spacehintstostring-method"></a>JET_SPACEHINTS。ToString 方法
 

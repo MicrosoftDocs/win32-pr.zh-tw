@@ -1,17 +1,17 @@
 ---
 description: 當使用者選擇視窗功能表命令時（例如大小和最大化），或應用程式呼叫函式（例如 SetWindowPos 函式）時，系統會變更視窗的大小。
 ms.assetid: 6f997cba-e4c9-4e27-8309-42b9892ec620
-title: 調整視窗大小
+title: 調整大小 Windows
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 88f740191f8b85038f17a687ebc547305f882383
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9efd6f71d1657c0d01b3df9101fc15fa35f54ecfc01b1588b696cd9110dad317
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848545"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119602718"
 ---
-# <a name="resized-windows"></a>調整視窗大小
+# <a name="resized-windows"></a>調整大小 Windows
 
 當使用者選擇視窗功能表命令時（例如大小和最大化），或應用程式呼叫函式（例如 [**SetWindowPos**](/windows/win32/api/winuser/nf-winuser-setwindowpos) 函式）時，系統會變更視窗的大小。 當視窗變更大小時，系統會假設先前公開的視窗部分內容不受影響，且不需要重新繪製。 系統只會使視窗中新公開的部分失效，這可節省應用程式處理最終 [**WM \_ 油漆**](wm-paint.md) 訊息的時間。 在此情況下，當視窗的大小減少時，不會產生 **WM \_ 油漆** 。
 

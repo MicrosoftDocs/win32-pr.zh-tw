@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 2ac641663a182a87ae41a91ce366923df64ef69b
-ms.sourcegitcommit: cba7f424a292fd7f3a8518947b9466439b455419
+ms.openlocfilehash: 3de542ef65dafb5420b2adf3a3e1997e42e61c76f85015b4ec58bf873c946b9f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "103679231"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119672688"
 ---
 # <a name="instruction-modifiers-hlsl-reference"></a> (HLSL 參考的指令修飾詞) 
 
@@ -36,9 +36,9 @@ ms.locfileid: "103679231"
 [著色器模型4元件 (DirectX HLSL) ](dx-graphics-hlsl-sm4-asm.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

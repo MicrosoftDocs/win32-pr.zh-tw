@@ -16,12 +16,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 2b86434f4be2f7d14ae46f4af92784c1be4fd1aa
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 880cc982d32e2a81b4263c3cba55331ea5524643adfc8483ed96465154d47cc9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106968548"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119635738"
 ---
 # <a name="ideliveryoptimizationfile-interface"></a>IDeliveryOptimizationFile 介面
 
@@ -48,9 +48,9 @@ ms.locfileid: "106968548"
 | 需求 | 值 |
 |-------------------------------|----------------------------------------------------------------------------------|
 | 最低支援的用戶端      | Windows 10， \[ 僅限1709版桌面應用程式\]                                   |
-| 最低支援的伺服器      | 僅限 Windows Server，版本 1709 \[ 桌面應用程式\]                               |
-| 標頭                        | >deliveryoptimization。h                                                           |
-| Idl                           | >deliveryoptimization .idl                                                         |
+| 最低支援的伺服器      | WindowsServer， \[ 僅限1709版桌面應用程式\]                               |
+| 標頭                        | >Deliveryoptimization。h                                                           |
+| IDL                           | >deliveryoptimization .idl                                                         |
 | 程式庫                       | Dosvc .lib                                                                        |
 | DLL                           | Dosvc.dll                                                                        |
 | IID                           | IID_IDeliveryOptimizationFile 定義為 B76B9699-E99E-4101-803F-A20E325D93E2 |

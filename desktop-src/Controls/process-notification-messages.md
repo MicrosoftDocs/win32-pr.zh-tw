@@ -4,12 +4,12 @@ description: 屬性工作表會傳送 WM \_ 通知訊息，以從頁面中取出
 ms.assetid: 82768E43-97BA-451A-9373-D5B8FD06ABED
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e2c544910e44e0c865e738427285d7488147b9c1
-ms.sourcegitcommit: f0ca63c18dc52c357d3398af7be766d2bdd40be7
+ms.openlocfilehash: 9baf0c58fdbcbe5378dd46e828a2d29a7c91832174c9564660a82c5ab70997a8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "103681602"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119575478"
 ---
 # <a name="how-to-process-notification-messages"></a>如何處理通知訊息
 
@@ -21,12 +21,12 @@ ms.locfileid: "103681602"
 
 ### <a name="technologies"></a>技術
 
--   [Windows 控制項](window-controls.md)
+-   [Windows控制](window-controls.md)
 
 ### <a name="prerequisites"></a>必要條件
 
 -   C/C++
--   Windows 消費者介面程式設計
+-   Windows消費者介面程式設計
 
 ## <a name="instructions"></a>指示
 
@@ -70,9 +70,9 @@ case WM_NOTIFY:
 [Windows 通用控制項示範 (CppWindowsCommonControls) ](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 5941140df070abb3a273378f3ec275eaf1c6fdd0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4305b8b7a9de330144718348f5c508e593ec36210a62489f6f2baba4bf5a073c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191990"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119734288"
 ---
 # <a name="esentmissingfiletobackupexception-class"></a>EsentMissingFileToBackupException 類別
 

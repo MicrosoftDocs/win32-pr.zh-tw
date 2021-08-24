@@ -4,12 +4,12 @@ ms.assetid: 39be864d-8e30-4554-b824-06c3e72e1b09
 title: WiFiDirectServices. RequestServiceInformation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0bf4e5ffbf549a05c343b295d44dfe5faaad057a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 167a24c86142a136bba04de70abb439595330b0eafb0a652353f4661e02db784
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103849078"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119598518"
 ---
 # <a name="systemdeviceswifidirectservicesrequestserviceinformation"></a>WiFiDirectServices. RequestServiceInformation
 

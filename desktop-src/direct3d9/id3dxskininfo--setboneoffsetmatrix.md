@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 283d36bb68e33cfa0e2349bab304b0cdde7ef77e
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 9d5daf20697777cfbf1b72d4ab18936f81c262ba9b23379d6089bffca8b9a516
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103696556"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119674708"
 ---
 # <a name="id3dxskininfosetboneoffsetmatrix-method"></a>ID3DXSkinInfo：： SetBoneOffsetMatrix 方法
 

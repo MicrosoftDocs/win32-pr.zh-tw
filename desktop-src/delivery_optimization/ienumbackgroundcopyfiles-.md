@@ -16,12 +16,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 7e46e94139a0c82e6c5b45f9397d76de8b4fdb43
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c6cf97975d583a99145e32482bc097ebd6ce3cc052e62560a34f7f78c1f88ae6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106965489"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119635678"
 ---
 # <a name="ienumbackgroundcopyfiles-interface"></a>IEnumBackgroundCopyFiles 介面
 
@@ -57,9 +57,9 @@ ms.locfileid: "106965489"
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 10， \[ 僅限1709版桌面應用程式\]<br/>                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server，版本 1709 \[ 桌面應用程式\]<br/>                                       |
-| 標頭<br/>                   | <dl> <dt>>deliveryoptimization。h</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>>deliveryoptimization .idl</dt> </dl> |
+| 最低支援的伺服器<br/> | WindowsServer， \[ 僅限1709版桌面應用程式\]<br/>                                       |
+| 標頭<br/>                   | <dl> <dt>>Deliveryoptimization。h</dt> </dl>   |
+| IDL<br/>                      | <dl> <dt>>deliveryoptimization .idl</dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>Dosvc .lib</dt> </dl>                |
 | DLL<br/>                      | <dl> <dt>Dosvc.dll</dt> </dl>                |
 | IID<br/>                      | IID_IEnumBackgroundCopyFiles 定義為 CA51E165-C365-424C-8D41-24AAA4FF3C40<br/>         |

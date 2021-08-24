@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Pdh.dll
-ms.openlocfilehash: bef484846507bf68d8ccfc0ad3ea10a250b83133
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6471fe3baee14fa1853810b66a804974b05ca84d0db9bc4e7dd805085ad5c0c4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103849290"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119775548"
 ---
 # <a name="pdhvbcreatecounterpathlist-function"></a>PdhVbCreateCounterPathList 函式
 
@@ -70,8 +70,8 @@ ms.locfileid: "103849290"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                               |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                               |
 | 程式庫<br/>                  | <dl> <dt>Pdh. .lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Pdh.dll</dt> </dl> |
 

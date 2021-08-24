@@ -25,12 +25,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: fdb12fac8b2b902f21258fd4c7cfe9846d0456eb
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 1bfa7b994bfe0950ccc7a97b19fbd705838950d7461712b114a16f62e7ad0aec
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108105956"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119754758"
 ---
 # <a name="systemconfig_v0_phydisk-class"></a>SystemConfig \_ V0 \_ PhyDisk 類別
 
@@ -287,7 +287,7 @@ SCSI 介面卡的 SCSI 號碼。
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
 | 最低支援的用戶端<br/> | 都不支援<br/>                            |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/> |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/> |
 
 
 

@@ -4,12 +4,12 @@ description: Microsoft Active Accessibility 針對大部分預先定義和通用
 ms.assetid: 6b5b24e1-db08-45f7-8a85-aa28d3e55ebf
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b739244aa916f654aebb1022b5d4913a164d5ff8
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 5682d2a2530ed0e55446daaef997d55ce727b7a629544cbcbf3e4844a07d4dcd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104092228"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119734201"
 ---
 # <a name="system-provided-user-interface-elements"></a>System-Provided 消費者介面元素
 
@@ -21,9 +21,9 @@ Microsoft Active Accessibility 會將系統提供的使用者介面元素公開�
 
 如需 Microsoft Active Accessibility 支援的控制項和其他系統提供的使用者介面元素清單，請參閱 [附錄 a：支援的消費者介面專案參考](appendix-a--supported-user-interface-elements-reference.md)。
 
- 
+ 
 
- 
+ 
 
 
 

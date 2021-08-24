@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 62f8b6c18613f5c187fc637febd08b74260a1e44
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4cb900d4de448b59eadb4cfd4de28aebf3ac07845fff6a2769c003d37cac846a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990254"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119633928"
 ---
 # <a name="csourcestreamcheckmediatype-method"></a>CSourceStream. CheckMediaType 方法
 
@@ -55,7 +55,7 @@ virtual HRESULT CheckMediaType(
 
 
 
-| 傳回碼                                                                            | Description                                          |
+| 傳回碼                                                                            | 描述                                          |
 |----------------------------------------------------------------------------------------|------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>   | 此 pin 支援此媒體類型。<br/>        |
 | <dl> <dt>**E \_ 失敗**</dt> </dl> | Pin 不支援此媒體類型。<br/> |

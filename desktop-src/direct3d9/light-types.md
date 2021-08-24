@@ -4,12 +4,12 @@ ms.assetid: 7718383a-6e49-4ad2-acc1-fc8fec0d4844
 title: " (Direct3D 9) 的燈光類型"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 39ae2c7fd5380b0f604181f36d784afe3f3fc3ff
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 3cd451fcf45e67f1d789b7481fcc1884282d2018db98ab26d27481bec5277031
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104025600"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119674385"
 ---
 # <a name="light-types-direct3d-9"></a> (Direct3D 9) 的燈光類型
 

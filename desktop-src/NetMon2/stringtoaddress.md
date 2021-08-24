@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Nmapi.dll
-ms.openlocfilehash: 70a9e6b42359a2f73fba55194c9b6e6e21ffa9a4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9dbac01f5df9d32a65fe5afb1c1437064f6dd0d4480c95dacd0fe8f7d58e2fb8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106986862"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119676688"
 ---
 # <a name="stringtoaddress-function"></a>StringToAddress 函式
 

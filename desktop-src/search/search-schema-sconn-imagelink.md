@@ -4,12 +4,12 @@ ms.assetid: 71078d83-72f4-41f9-b80c-7ba0139206fb
 title: 'imageLink 元素 (搜尋連接器架構) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d84b2e5cbbfc8bbd98557ebd0405a09cf998e6ca
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 007ad8c2500e2739210646c446d9f906d5a83571ea4ac9780ab9136b73805c83
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970141"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119711088"
 ---
 # <a name="imagelink-element-search-connector-schema"></a>imageLink 元素 (搜尋連接器架構) 
 
@@ -53,7 +53,7 @@ ms.locfileid: "106970141"
 
 ## <a name="remarks"></a>備註
 
-ImageLink 值可以是本機檔案系統路徑或 URL。 影像檔案可以是 Windows 7 (PNG、BMP、JPG、GIF) 所支援的任何基本映射類型。
+ImageLink 值可以是本機檔案系統路徑或 URL。 影像檔案可以是 Windows 7 (PNG、BMP、JPG、GIF) 所支援的任何基本影像類型。
 
 ## <a name="example-of-an-imagelink-element"></a>ImageLink 元素範例
 

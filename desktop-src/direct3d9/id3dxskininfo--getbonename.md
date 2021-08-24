@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 0566d423d277dc3f39f36f8c1fda297ec917eb7f
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: fa56b175d9047935b9f92829823ba2608536ddabb90cb0ad674b86b73cc17475
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106976683"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119674728"
 ---
 # <a name="id3dxskininfogetbonename-method"></a>ID3DXSkinInfo：： GetBoneName 方法
 

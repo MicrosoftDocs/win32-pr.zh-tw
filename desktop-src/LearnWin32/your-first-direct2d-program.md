@@ -4,12 +4,12 @@ description: 讓我們來建立我們的第一個 Direct2D 計畫。 此程式�
 ms.assetid: 940cc5e4-2952-4714-bf32-c611a965f819
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d445f98c5dc6a6e5d1aa91d913010cb406a67992
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 3cb7b9b4a81b9e3767f9d53d0c5872b170772c1cb60b4a74c599401de342ee05
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104375092"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119754388"
 ---
 # <a name="your-first-direct2d-program"></a>您的第一個 Direct2D 計畫
 
@@ -204,7 +204,7 @@ LRESULT MainWindow::HandleMessage(UINT uMsg, WPARAM wParam, LPARAM lParam)
 
 
 
-您可以從 [Direct2D Circle 範例](direct2d-circle-sample.md)下載完整的 Visual Studio 專案。
+您可以從[Direct2D Circle 範例](direct2d-circle-sample.md)下載完整的 Visual Studio 專案。
 
 ## <a name="the-d2d1-namespace"></a>D2D1 命名空間
 
@@ -227,6 +227,6 @@ LRESULT MainWindow::HandleMessage(UINT uMsg, WPARAM wParam, LPARAM lParam)
 [Direct2D 圓形範例](direct2d-circle-sample.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

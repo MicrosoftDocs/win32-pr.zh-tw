@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Nmapi.dll
-ms.openlocfilehash: f6e25e7afa80c3a3c4113723937c623baacd2a43
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ed8bb6948102e8d28150edf102fa261c9c7f7adfcf105e377352054304b352df
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194542"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119677308"
 ---
 # <a name="loadipxaddresses-function"></a>LoadIPXAddresses 函式
 

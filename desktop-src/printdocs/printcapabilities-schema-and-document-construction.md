@@ -4,12 +4,12 @@ description: PrintCapabilities 架構是為了消除 Win32 DevCaps 函數的許�
 ms.assetid: c4727c17-3122-456c-967d-d1d6ce6a5402
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 21347fae1c9824df4a8355f8dd26de37eeac4604
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: fd79c81beceecea4a660fd2376a759e470670a414a7cad4a8ac26be086688e15
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112407071"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119711618"
 ---
 # <a name="printcapabilities-schema-and-document-construction"></a>PrintCapabilities 架構和檔結構
 

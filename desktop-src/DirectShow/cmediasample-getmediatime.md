@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: f9a41d29e46d29cff9023421a661cc90731d4c06
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 901531b3aaff882700a6a6196330cc7b0823b8b0069024101953f5f79a54e17d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994228"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119634678"
 ---
 # <a name="cmediasamplegetmediatime-method"></a>CMediaSample. GetMediaTime 方法
 
@@ -63,7 +63,7 @@ HRESULT GetMediaTime(
 
 
 
-| 傳回碼                                                                                                  | Description                                         |
+| 傳回碼                                                                                                  | 描述                                         |
 |--------------------------------------------------------------------------------------------------------------|-----------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>                         | 成功。<br/>                                 |
 | <dl> <dt>**\_ \_ \_ \_ 未設定 VFW E 媒體 \_ 時間**</dt> </dl> | 未設定此範例的媒體時間。<br/> |
@@ -76,7 +76,7 @@ HRESULT GetMediaTime(
 
 [**CMediaSample：： m \_ MediaEnd**](cmediasample-m-mediaend.md)成員變數會指定從 [**CMediaSample：： m \_ MediaStart**](cmediasample-m-mediastart.md)的位移，但由 *暫* 止參數接收的值是絕對媒體時間，以 **m \_ MediaStart**  +  **m \_ MediaEnd** 計算。
 
-如需媒體時間的相關資訊，請參閱 [DirectShow 中的時間和時鐘](time-and-clocks-in-directshow.md)。
+如需媒體時間的相關資訊，請參閱[DirectShow 中的時間和時鐘](time-and-clocks-in-directshow.md)。
 
 ## <a name="requirements"></a>規格需求
 

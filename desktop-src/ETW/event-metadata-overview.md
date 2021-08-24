@@ -4,12 +4,12 @@ ms.assetid: 6102593C-C6D5-4BDB-A0EF-067AF91DE00B
 title: 事件中繼資料總覽
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c16853ef2639fd560f5b5da30447556119ec877
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 931b8adbdb22cdbf2e0806e2d69c367e64ad92926390825a48a2fa51d50605ed
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104468768"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119755058"
 ---
 # <a name="event-metadata-overview"></a>事件中繼資料總覽
 
@@ -43,7 +43,7 @@ MOF 和 WPP 都是傳統提供者。 不過，WPP 的執行會為您處理這一
 
 事件中繼資料是以 mof 檔案中特殊 MOF 架構的形式，由事件建立者手動撰寫的。 撰寫的架構必須符合記錄的承載，才能讓取用者正確地將事件解碼。 事件解碼器需要使用 [mofcomp.exe](../wmisdk/mofcomp.md)在系統上註冊 mof 檔案。 如需發佈 MOF 架構的詳細資訊，請參閱 [發佈您的傳統提供者的事件架構](publishing-your-event-schema-for-a-classic-provider.md)。
 
-### <a name="wpp"></a>Wpp
+### <a name="wpp"></a>WPP
 
 事件中繼資料會在建立程式期間 tracewpp.exe 自動產生，並儲存在您二進位的 .pdb 中。 您稍後可以使用 tmf 檔案的格式，透過 tracepdb.exe 將此中繼資料解壓縮。 事件解碼器通常需要 .pdb 或 tmf 檔案。 如需 tracepdb.exe 的詳細資訊，請參閱 [Tracepdb 總覽](/windows-hardware/drivers/devtest/tracepdb-overview)，如需 tracewpp.exe 的詳細資訊，請參閱 [TraceWPP task](/windows-hardware/drivers/devtest/tracewpp-task)。
 
@@ -63,7 +63,7 @@ MOF 和 WPP 都是傳統提供者。 不過，WPP 的執行會為您處理這一
 
 TDH 利用在系統上使用 mofcomp.exe 註冊的 MOF 解碼資料。 如需詳細資訊，請參閱 [發行傳統提供者的事件架構](publishing-your-event-schema-for-a-classic-provider.md)。
 
-### <a name="wpp"></a>Wpp
+### <a name="wpp"></a>WPP
 
 TDH 必須指向 .pdb 檔案或相關聯的 tmf，以找出您嘗試解碼的 WPP 提供者。 您可以藉由呼叫 [**TdhSetDecodingParameter**](/windows/desktop/api/Tdh/nf-tdh-tdhsetdecodingparameter)來執行此作業。 否則，解碼引擎會回到環境變數追蹤 \_ 格式 \_ 搜尋 \_ 路徑。
 

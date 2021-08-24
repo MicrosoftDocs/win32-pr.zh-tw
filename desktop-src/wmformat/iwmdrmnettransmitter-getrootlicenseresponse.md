@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c3497a3eaedb872b7d2c9eb5d7782d01f8b35462
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: de89389163a9eae66a0dcda14dd6b9699d3db9650140cceac6498b2ab77a4e44
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106992899"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119707928"
 ---
 # <a name="iwmdrmnettransmittergetrootlicenseresponse-method"></a>IWMDRMNetTransmitter：： GetRootLicenseResponse 方法
 
@@ -71,7 +71,7 @@ HRESULT GetRootLicenseResponse(
 
 
 
-| 傳回碼                                                                                                | Description                                              |
+| 傳回碼                                                                                                | 描述                                              |
 |------------------------------------------------------------------------------------------------------------|----------------------------------------------------------|
 | <dl> <dt>**NS \_ E \_ DRM \_ RIV \_ 太 \_ 小**</dt> </dl> | 需要更新的內容撤銷清單。<br/> |
 | <dl> <dt>**S \_ 確定**</dt> </dl>                       | 此方法已成功。<br/>                         |

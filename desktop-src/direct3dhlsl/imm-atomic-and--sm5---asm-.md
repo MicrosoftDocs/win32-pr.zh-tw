@@ -4,12 +4,12 @@ description: 立即不可部分完成的位 AND 到記憶體。 傳回在和之�
 ms.assetid: DA2A70C3-57BD-41F0-865C-235AA4DF1A52
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1567d3b4eb16a46b1be9badb8db7b39cc03b4b32
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 53992096dccf4d4f0c4e8e98cbafd08f65ce852e28389c8c725f7f2594c7ec4a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104971581"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119672798"
 ---
 # <a name="imm_atomic_and-sm5---asm"></a>imm 不可部分完成 \_ \_ 和 (sm5-asm) 
 
@@ -61,7 +61,7 @@ U 或 g 的超出範圍定址 \# \# 會導致未定義的結果傳回 *dst0* 中
 
 
 
-| 頂點 | 船體 | 網域 | 幾何 | 像素 | 計算 |
+| 頂點 | 船體 | 網域 | 幾何形狀 | 像素 | 計算 |
 |--------|------|--------|----------|-------|---------|
 |        |      |        |          | X     | X       |
 
@@ -73,7 +73,7 @@ U 或 g 的超出範圍定址 \# \# 會導致未定義的結果傳回 *dst0* 中
 
 
 
-| 頂點 | 船體 | 網域 | 幾何 | 像素 | 計算 |
+| 頂點 | 船體 | 網域 | 幾何形狀 | 像素 | 計算 |
 |--------|------|--------|----------|-------|---------|
 | X      | X    | X      | X        | X     | X       |
 
@@ -90,11 +90,11 @@ U 或 g 的超出範圍定址 \# \# 會導致未定義的結果傳回 *dst0* 中
 | 著色器模型                                              | 支援 |
 |-----------------------------------------------------------|-----------|
 | [著色器模型5](d3d11-graphics-reference-sm5.md)        | 是       |
-| [著色器模型4。1](dx-graphics-hlsl-sm4.md)              | 不可以        |
-| [著色器模型4](dx-graphics-hlsl-sm4.md)                | 不可以        |
-| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 不可以        |
-| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 不可以        |
-| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 不可以        |
+| [著色器模型4。1](dx-graphics-hlsl-sm4.md)              | 否        |
+| [著色器模型4](dx-graphics-hlsl-sm4.md)                | 否        |
+| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 否        |
+| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 否        |
+| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 否        |
 
 
 

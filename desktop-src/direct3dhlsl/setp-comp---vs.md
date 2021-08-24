@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 77d9e5f46e9fb8bbcfb96e56d13cd6f7cebfecc2
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 892acf44000e178e7ed6774a3841760db32e3ced4d8348a7f9e9c22969bf9024
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104386384"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119671768"
 ---
 # <a name="setp_comp---vs"></a>setp \_ 複合-vs
 

@@ -1,21 +1,21 @@
 ---
-description: Windows Installer 屬性是安裝程式在安裝期間所使用的全域變數。
+description: Windows安裝程式屬性是安裝程式在安裝期間所使用的全域變數。
 ms.assetid: 1c59939b-de0f-4bf4-ab1f-4f1aa2488bfa
 title: 指定屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9cd4294f35595e723491398172dc4c73337a1416
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8f538bb354ef793a54f3eb60ddfe7b75b2aa96310abdd8a7331813d887433816
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106984195"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119627798"
 ---
 # <a name="specifying-properties"></a>指定屬性
 
-Windows Installer 屬性是安裝程式在安裝期間所使用的全域變數。 請參閱 [屬性](properties.md)底下的章節。 如果您在匯入 uisample.msi 從 Windows Installer SDK 使用的 [空白資料庫](importing-a-blank-database.md) ，則 MNP2000.msi 副本中的 [屬性資料表](property-table.md) 已經包含使用者介面所使用的許多屬性。 在本節中，您會將其他資訊新增至「記事本」範例安裝的特定屬性工作表。 另請參閱「 [程式資訊資料表」群組](program-information-tables-group.md)。
+Windows安裝程式屬性是安裝程式在安裝期間所使用的全域變數。 請參閱 [屬性](properties.md)底下的章節。 如果您在匯入 uisample.msi 從 Windows Installer SDK 使用的[空白資料庫](importing-a-blank-database.md)，則 MNP2000.msi 副本中的[屬性資料表](property-table.md)已經包含使用者介面所使用的許多屬性。 在本節中，您會將其他資訊新增至記事本範例安裝專屬的屬性資料表。 另請參閱「 [程式資訊資料表」群組](program-information-tables-group.md)。
 
-每個安裝套件中都需要有五個屬性，而且必須在 MNP2000.msi 的 [屬性工作表](property-table.md) 中更新 [記事本] 範例：
+每個安裝套件中都需要五個屬性，而且必須更新 MNP2000.msi 的[屬性工作表](property-table.md)中的記事本範例：
 
 -   [**ProductCode**](productcode.md)
 -   [**ProductLanguage**](productlanguage.md)
@@ -68,7 +68,7 @@ Windows Installer 屬性是安裝程式在安裝期間所使用的全域變數�
 | [**製造商**](manufacturer.md)             | Microsoft                                 |
 | [**PIDTemplate**](pidtemplate.md)               | 12345<\#\#\#-%%%%%%%>@@@@@          |
 | [**ProductCode**](productcode.md)               | {18A9233C-0B34-4127-A966-C257386270BC}    |
-| [**產品**](productid.md)                   | 無                                      |
+| [**ProductID**](productid.md)                   | 無                                      |
 | [**ProductLanguage**](productlanguage.md)       | 1033                                      |
 | [**ProductName**](productname.md)               | MNP2000                                   |
 | [**ProductVersion**](productversion.md)         | 01.40.0000                                |

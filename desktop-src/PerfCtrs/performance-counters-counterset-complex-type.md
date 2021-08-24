@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: e753fab4308f1e981ab06e9470742ace46840a39
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 95d3abd57a14648013a74b841b898c8a4abf229815e56a68ffc95dbafa1567f0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974277"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119775398"
 ---
 # <a name="counterset-complex-type"></a>counterSet 複雜類型
 
@@ -96,7 +96,7 @@ ms.locfileid: "106974277"
 
 
 
-| 元素     | 類型                                                             | Description                                                                                            |
+| 元素     | 類型                                                             | 描述                                                                                            |
 |-------------|------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
 | **計數器** | [**man：計數器**](performance-counters-counter-complex-type.md) | 定義提供者所提供的計數器。<br/>                                               |
 | **結構** | [**man：結構**](performance-counters-structs-complex-type.md) | 結構元素的清單，其中包含此計數器集合中定義之計數器的值。<br/> |
@@ -124,8 +124,8 @@ ms.locfileid: "106974277"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 81d23d67b0d02ed375e07f310089067d6a7bbd67
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 32bac0de96b3546775cec07aeec7be6fdd96e3e656e8705a0ea2ced9b1f777a6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104116101"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119672168"
 ---
 # <a name="rwbufferloadintuint-function"></a>RWBuffer：： Load (int，uint) 函數
 
@@ -70,7 +70,7 @@ ms.locfileid: "104116101"
 
 
 
-| 頂點 | 船體 | 網域 | 幾何 | 像素 | 計算 |
+| 頂點 | 船體 | 網域 | 幾何形狀 | 像素 | 計算 |
 |--------|------|--------|----------|-------|---------|
 | x      | x    | x      | x        | x     | x       |
 

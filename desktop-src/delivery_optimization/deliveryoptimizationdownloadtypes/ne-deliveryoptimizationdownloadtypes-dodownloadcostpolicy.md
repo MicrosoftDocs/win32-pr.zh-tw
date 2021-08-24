@@ -14,12 +14,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 07/02/2019
-ms.openlocfilehash: c70384f7c7da1633b910db36c42a335d1c463bae
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 763042ed6d0df6fa287fbe66d23528a199a73041cb3500c6a2812e6db86cb698
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104383998"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119677878"
 ---
 # <a name="dodownloadcostpolicy-enumeration"></a>DODownloadCostPolicy 列舉
 
@@ -54,6 +54,6 @@ typedef enum _DODownloadCostPolicy
 
 | &nbsp; | &nbsp; |
 | ---- |:---- |
-| **最低支援的用戶端** | \[僅限 Windows 10 版本1809的 Win32 應用程式\] |
-| **最低支援的伺服器** | Windows Server，僅限1809版的 \[ Win32 應用程式\] |
+| **最低支援的用戶端** | Windows 10 版本 1809 \[僅限 Win32 應用程式\] |
+| **最低支援的伺服器** | WindowsServer，僅限1809版的 \[ Win32 應用程式\] |
 | **標頭** | DeliveryOptimizationDownloadTypes。h |

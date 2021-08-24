@@ -4,12 +4,12 @@ ms.assetid: 8dd6f792-a29e-40fd-9f5b-ee5525028c2e
 title: Multitrack 終端機
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bb795169f5e7cbd669e0bceb1d635e33c912c50a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2f9e5f9c6d614308370b3d9211f578d5fcb2650bd3c5ba7f8a81dbc981ad2687
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972470"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119575518"
 ---
 # <a name="multitrack-terminals"></a>Multitrack 終端機
 

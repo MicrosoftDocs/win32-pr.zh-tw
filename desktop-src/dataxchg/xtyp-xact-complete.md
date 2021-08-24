@@ -3,7 +3,7 @@ title: 'XTYP_XACT_COMPLETE 交易 (Ddeml .h) '
 description: '\_ \_ 當非同步交易（由 DdeClientTransaction 函式的呼叫所起始）完成時，動態資料交換 (DDE) 用戶端回呼函式 DdeCallback 會接收 XTYP 的交易完成交易。'
 ms.assetid: d34a6fab-0e3c-44fe-b25f-7011228fe261
 keywords:
-- XTYP_XACT_COMPLETE 交易資料交換
+- XTYP_XACT_COMPLETE 交易資料 Exchange
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 03a81869270a771836c4dd5c1a6b300f148ea13d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2d3833207371bbfab059f67ecb5bdb72b77334ef3ffc73618e013ce137835c6d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106969762"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119678008"
 ---
 # <a name="xtyp_xact_complete-transaction"></a>XTYP \_ \_ 交易完成交易
 
@@ -105,7 +105,7 @@ ms.locfileid: "106969762"
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                             |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                   |
-| 標頭<br/>                   | <dl> <dt>Ddeml (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Ddeml (包含 Windows .h) </dt> </dl> |
 
 
 

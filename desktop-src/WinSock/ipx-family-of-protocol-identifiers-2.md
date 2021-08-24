@@ -4,12 +4,12 @@ ms.assetid: cb4d99d5-3ae0-4bfc-b521-122dd9d4f1c2
 title: IPX 通訊協定識別碼系列
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f7fc808a04f1cf10bb099cd7d923bf471e9bd8d6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 549e1dbdb9d379e87ed8e22871188b0b7762e924a695721f1c860fce14f2a2e1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113049"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119733648"
 ---
 # <a name="ipx-family-of-protocol-identifiers"></a>IPX 通訊協定識別碼系列
 
@@ -17,7 +17,7 @@ ms.locfileid: "104113049"
 
 
 
-| Name         | 值       | 通訊端類型              | Description                                         |
+| 名稱         | 值       | 通訊端類型              | 描述                                         |
 |--------------|-------------|---------------------------|-----------------------------------------------------|
 | 保留     | 0-255       |                           | 保留給 PF \_ INET 通訊協定值。              |
 | NSPROTO \_ IPX | 1000-1255 | SOCK \_ DGRAM SOCK \_ RAW     | 適用于 IPX 的資料包服務。                           |

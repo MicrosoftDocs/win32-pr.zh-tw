@@ -4,17 +4,17 @@ ms.assetid: fe9dc266-5b12-479d-85cb-50cc6bb9d580
 title: 'Play 方法 (DirectShow) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f62323c9c86be476a35977dadf554bbfca3bca91
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 97d4cea7dc53afc6a116ad052da9a4ca0d52c2e8687d99bde854d3f89fa60a9a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104509985"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119633558"
 ---
 # <a name="play-method-directshow"></a>Play 方法 (DirectShow) 
 
 > [!Note]  
-> 此元件可用於 Microsoft Windows 2000、Windows XP 及 Windows Server 2003 作業系統。 它在後續版本中可能會變更或無法使用。
+> 此元件可在 Microsoft Windows 2000、Windows XP 和 Windows Server 2003 作業系統中使用。 它在後續版本中可能會變更或無法使用。
 
  
 

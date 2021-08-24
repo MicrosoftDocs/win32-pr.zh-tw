@@ -4,12 +4,12 @@ ms.assetid: 307f384d-e59a-4fc5-8f6a-ed81a102df60
 title: NLA 的角色
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 28034d0d08353b3e794b5a30a6900e24d214e977
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2f44d517fc9f32d4fb61eb2b4d9b61c473bc946066e670fcb51f0ca2c753e692
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192207"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119733338"
 ---
 # <a name="the-role-of-nla"></a>NLA 的角色
 

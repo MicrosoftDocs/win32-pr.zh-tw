@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6f64606c07aa15aaf7d75e7bbcdb1caf06ed84ac
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 284b04027b97be0a8808f45ff61707d6b56b054786272e8d46d32f92d43c5448
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103686908"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119753438"
 ---
 # <a name="ntds-dsa-class"></a>NTDS-DSA 類別
 
@@ -56,7 +56,7 @@ ms.locfileid: "103686908"
 
 | 進入 | 值 |
 |-----------------------------|----------------------------------------------------------------------------------------------|
-| System-Only                 | 對                                                                                         |
+| System-Only                 | 是                                                                                         |
 | Object-Category             | 1                                                                                            |
 | 預設-物件-類別     | \-                                                                                           |
 | Governs-Id                  | 1.2.840.113556.1.5.7000.47                                                                   |
@@ -105,7 +105,7 @@ ms.locfileid: "103686908"
 | [**FSMO 角色-擁有者**](a-fsmoroleowner.md)                                | 否     | [**返回頁首**](c-top.md)<br/>                                  |
 | [**具有-Master-Nc**](a-hasmasterncs.md)                                  | 否     | **NTDS-DSA**                                                     |
 | [**具有-Partial-Replica-Nc**](a-haspartialreplicancs.md)                 | 否     | **NTDS-DSA**                                                     |
-| [**實例類型**](a-instancetype.md)                                   | 對      | [**返回頁首**](c-top.md)<br/>                                  |
+| [**實例類型**](a-instancetype.md)                                   | 是      | [**返回頁首**](c-top.md)<br/>                                  |
 | [**調用識別碼**](a-invocationid.md)                                   | 否     | **NTDS-DSA**                                                     |
 | [**為關鍵-系統物件**](a-iscriticalsystemobject.md)             | 否     | [**返回頁首**](c-top.md)<br/>                                  |
 | [**已刪除**](a-isdeleted.md)                                         | 否     | [**返回頁首**](c-top.md)<br/>                                  |
@@ -123,10 +123,10 @@ ms.locfileid: "103686908"
 | [**網路位址**](a-networkaddress.md)                               | 否     | **NTDS-DSA**                                                     |
 | [**非安全性成員-BL**](a-nonsecuritymemberbl.md)                   | 否     | [**返回頁首**](c-top.md)<br/>                                  |
 | [**通知-清單**](a-notificationlist.md)                           | 否     | [**應用程式-設定**](c-applicationsettings.md)<br/> |
-| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                  | 對      | [**返回頁首**](c-top.md)<br/>                                  |
+| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                  | 是      | [**返回頁首**](c-top.md)<br/>                                  |
 | [**Obj-Dist 名稱**](a-distinguishedname.md)                              | 否     | [**返回頁首**](c-top.md)<br/>                                  |
-| [**物件-類別**](a-objectcategory.md)                               | 對      | [**返回頁首**](c-top.md)<br/>                                  |
-| [**物件類別**](a-objectclass.md)                                     | 對      | [**返回頁首**](c-top.md)<br/>                                  |
+| [**物件-類別**](a-objectcategory.md)                               | 是      | [**返回頁首**](c-top.md)<br/>                                  |
+| [**物件類別**](a-objectclass.md)                                     | 是      | [**返回頁首**](c-top.md)<br/>                                  |
 | [**物件-Guid**](a-objectguid.md)                                       | 否     | [**返回頁首**](c-top.md)<br/>                                  |
 | [**物件版本**](a-objectversion.md)                                 | 否     | [**返回頁首**](c-top.md)<br/>                                  |
 | [**選項**](a-options.md)                                              | 否     | **NTDS-DSA**                                                     |
@@ -195,7 +195,7 @@ ms.locfileid: "103686908"
 
 | 進入 | 值 |
 |-----------------------------|----------------------------------------------------------------------------------------------|
-| System-Only                 | 對                                                                                         |
+| System-Only                 | 是                                                                                         |
 | Object-Category             | 1                                                                                            |
 | 預設-物件-類別     | \-                                                                                           |
 | Governs-Id                  | 1.2.840.113556.1.5.7000.47                                                                   |
@@ -210,7 +210,7 @@ ms.locfileid: "103686908"
 
 
 
-## <a name="windows-server-2003-attributes"></a>Windows Server 2003 屬性
+## <a name="windows-server-2003-attributes"></a>Windows伺服器2003屬性
 
 此類別包含 Windows Server 2003 的下列屬性：
 
@@ -244,7 +244,7 @@ ms.locfileid: "103686908"
 | [**FSMO 角色-擁有者**](a-fsmoroleowner.md)                                  | 否     | [**返回頁首**](c-top.md)<br/>                                  |
 | [**具有-Master-Nc**](a-hasmasterncs.md)                                    | 否     | **NTDS-DSA**                                                     |
 | [**具有-Partial-Replica-Nc**](a-haspartialreplicancs.md)                   | 否     | **NTDS-DSA**                                                     |
-| [**實例類型**](a-instancetype.md)                                     | 對      | [**返回頁首**](c-top.md)<br/>                                  |
+| [**實例類型**](a-instancetype.md)                                     | 是      | [**返回頁首**](c-top.md)<br/>                                  |
 | [**調用識別碼**](a-invocationid.md)                                     | 否     | **NTDS-DSA**                                                     |
 | [**為關鍵-系統物件**](a-iscriticalsystemobject.md)               | 否     | [**返回頁首**](c-top.md)<br/>                                  |
 | [**已刪除**](a-isdeleted.md)                                           | 否     | [**返回頁首**](c-top.md)<br/>                                  |
@@ -286,10 +286,10 @@ ms.locfileid: "103686908"
 | [**網路位址**](a-networkaddress.md)                                 | 否     | **NTDS-DSA**                                                     |
 | [**非安全性成員-BL**](a-nonsecuritymemberbl.md)                     | 否     | [**返回頁首**](c-top.md)<br/>                                  |
 | [**通知-清單**](a-notificationlist.md)                             | 否     | [**應用程式-設定**](c-applicationsettings.md)<br/> |
-| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                    | 對      | [**返回頁首**](c-top.md)<br/>                                  |
+| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                    | 是      | [**返回頁首**](c-top.md)<br/>                                  |
 | [**Obj-Dist 名稱**](a-distinguishedname.md)                                | 否     | [**返回頁首**](c-top.md)<br/>                                  |
-| [**物件-類別**](a-objectcategory.md)                                 | 對      | [**返回頁首**](c-top.md)<br/>                                  |
-| [**物件類別**](a-objectclass.md)                                       | 對      | [**返回頁首**](c-top.md)<br/>                                  |
+| [**物件-類別**](a-objectcategory.md)                                 | 是      | [**返回頁首**](c-top.md)<br/>                                  |
+| [**物件類別**](a-objectclass.md)                                       | 是      | [**返回頁首**](c-top.md)<br/>                                  |
 | [**物件-Guid**](a-objectguid.md)                                         | 否     | [**返回頁首**](c-top.md)<br/>                                  |
 | [**物件版本**](a-objectversion.md)                                   | 否     | [**返回頁首**](c-top.md)<br/>                                  |
 | [**選項**](a-options.md)                                                | 否     | **NTDS-DSA**                                                     |
@@ -333,7 +333,7 @@ ms.locfileid: "103686908"
 
 
 
-## <a name="windows-server-2003-extended-rights"></a>Windows Server 2003 擴充許可權
+## <a name="windows-server-2003-extended-rights"></a>Windows伺服器2003擴充許可權
 
 此類別包含 Windows Server 2003 的下列擴充許可權：
 
@@ -359,7 +359,7 @@ ms.locfileid: "103686908"
 
 | 進入 | 值 |
 |-----------------------------|------------------------------------------------------------------|
-| System-Only                 | 對                                                             |
+| System-Only                 | 是                                                             |
 | Object-Category             | 1                                                                |
 | 預設-物件-類別     | \-                                                               |
 | Governs-Id                  | 1.2.840.113556.1.5.7000.47                                       |
@@ -401,7 +401,7 @@ ms.locfileid: "103686908"
 | [**FSMO 角色-擁有者**](a-fsmoroleowner.md)                                  | 否     | [**返回頁首**](c-top.md)<br/>                                  |
 | [**具有-Master-Nc**](a-hasmasterncs.md)                                    | 否     | **NTDS-DSA**                                                     |
 | [**具有-Partial-Replica-Nc**](a-haspartialreplicancs.md)                   | 否     | **NTDS-DSA**                                                     |
-| [**實例類型**](a-instancetype.md)                                     | 對      | [**返回頁首**](c-top.md)<br/>                                  |
+| [**實例類型**](a-instancetype.md)                                     | 是      | [**返回頁首**](c-top.md)<br/>                                  |
 | [**調用識別碼**](a-invocationid.md)                                     | 否     | **NTDS-DSA**                                                     |
 | [**為關鍵-系統物件**](a-iscriticalsystemobject.md)               | 否     | [**返回頁首**](c-top.md)<br/>                                  |
 | [**已刪除**](a-isdeleted.md)                                           | 否     | [**返回頁首**](c-top.md)<br/>                                  |
@@ -435,10 +435,10 @@ ms.locfileid: "103686908"
 | [**ms-DS-服務-帳戶-DNS-網域**](a-msds-serviceaccountdnsdomain.md)  | 否     | **NTDS-DSA**                                                     |
 | [**ms DS-設定**](a-msds-settings.md)                                   | 否     | [**應用程式-設定**](c-applicationsettings.md)<br/> |
 | [**網路位址**](a-networkaddress.md)                                 | 否     | **NTDS-DSA**                                                     |
-| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                    | 對      | [**返回頁首**](c-top.md)<br/>                                  |
+| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                    | 是      | [**返回頁首**](c-top.md)<br/>                                  |
 | [**Obj-Dist 名稱**](a-distinguishedname.md)                                | 否     | [**返回頁首**](c-top.md)<br/>                                  |
-| [**物件-類別**](a-objectcategory.md)                                 | 對      | [**返回頁首**](c-top.md)<br/>                                  |
-| [**物件類別**](a-objectclass.md)                                       | 對      | [**返回頁首**](c-top.md)<br/>                                  |
+| [**物件-類別**](a-objectcategory.md)                                 | 是      | [**返回頁首**](c-top.md)<br/>                                  |
+| [**物件類別**](a-objectclass.md)                                       | 是      | [**返回頁首**](c-top.md)<br/>                                  |
 | [**物件-Guid**](a-objectguid.md)                                         | 否     | [**返回頁首**](c-top.md)<br/>                                  |
 | [**物件版本**](a-objectversion.md)                                   | 否     | [**返回頁首**](c-top.md)<br/>                                  |
 | [**選項**](a-options.md)                                                | 否     | **NTDS-DSA**                                                     |
@@ -503,7 +503,7 @@ ms.locfileid: "103686908"
 
 | 進入 | 值 |
 |-----------------------------|----------------------------------------------------------------------------------------------|
-| System-Only                 | 對                                                                                         |
+| System-Only                 | 是                                                                                         |
 | Object-Category             | 1                                                                                            |
 | 預設-物件-類別     | \-                                                                                           |
 | Governs-Id                  | 1.2.840.113556.1.5.7000.47                                                                   |
@@ -518,7 +518,7 @@ ms.locfileid: "103686908"
 
 
 
-## <a name="windows-server-2003-r2-attributes"></a>Windows Server 2003 R2 屬性
+## <a name="windows-server-2003-r2-attributes"></a>WindowsServer 2003 R2 屬性
 
 此類別包含 Windows Server 2003 R2 的下列屬性：
 
@@ -552,7 +552,7 @@ ms.locfileid: "103686908"
 | [**FSMO 角色-擁有者**](a-fsmoroleowner.md)                                  | 否     | [**返回頁首**](c-top.md)<br/>                                  |
 | [**具有-Master-Nc**](a-hasmasterncs.md)                                    | 否     | **NTDS-DSA**                                                     |
 | [**具有-Partial-Replica-Nc**](a-haspartialreplicancs.md)                   | 否     | **NTDS-DSA**                                                     |
-| [**實例類型**](a-instancetype.md)                                     | 對      | [**返回頁首**](c-top.md)<br/>                                  |
+| [**實例類型**](a-instancetype.md)                                     | 是      | [**返回頁首**](c-top.md)<br/>                                  |
 | [**調用識別碼**](a-invocationid.md)                                     | 否     | **NTDS-DSA**                                                     |
 | [**為關鍵-系統物件**](a-iscriticalsystemobject.md)               | 否     | [**返回頁首**](c-top.md)<br/>                                  |
 | [**已刪除**](a-isdeleted.md)                                           | 否     | [**返回頁首**](c-top.md)<br/>                                  |
@@ -597,10 +597,10 @@ ms.locfileid: "103686908"
 | [**網路位址**](a-networkaddress.md)                                 | 否     | **NTDS-DSA**                                                     |
 | [**非安全性成員-BL**](a-nonsecuritymemberbl.md)                     | 否     | [**返回頁首**](c-top.md)<br/>                                  |
 | [**通知-清單**](a-notificationlist.md)                             | 否     | [**應用程式-設定**](c-applicationsettings.md)<br/> |
-| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                    | 對      | [**返回頁首**](c-top.md)<br/>                                  |
+| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                    | 是      | [**返回頁首**](c-top.md)<br/>                                  |
 | [**Obj-Dist 名稱**](a-distinguishedname.md)                                | 否     | [**返回頁首**](c-top.md)<br/>                                  |
-| [**物件-類別**](a-objectcategory.md)                                 | 對      | [**返回頁首**](c-top.md)<br/>                                  |
-| [**物件類別**](a-objectclass.md)                                       | 對      | [**返回頁首**](c-top.md)<br/>                                  |
+| [**物件-類別**](a-objectcategory.md)                                 | 是      | [**返回頁首**](c-top.md)<br/>                                  |
+| [**物件類別**](a-objectclass.md)                                       | 是      | [**返回頁首**](c-top.md)<br/>                                  |
 | [**物件-Guid**](a-objectguid.md)                                         | 否     | [**返回頁首**](c-top.md)<br/>                                  |
 | [**物件版本**](a-objectversion.md)                                   | 否     | [**返回頁首**](c-top.md)<br/>                                  |
 | [**選項**](a-options.md)                                                | 否     | **NTDS-DSA**                                                     |
@@ -644,7 +644,7 @@ ms.locfileid: "103686908"
 
 
 
-## <a name="windows-server-2003-r2-extended-rights"></a>Windows Server 2003 R2 擴充許可權
+## <a name="windows-server-2003-r2-extended-rights"></a>WindowsServer 2003 R2 擴充許可權
 
 此類別包含 Windows Server 2003 R2 的下列擴充許可權：
 
@@ -670,7 +670,7 @@ ms.locfileid: "103686908"
 
 | 進入 | 值 |
 |-----------------------------|----------------------------------------------------------------------------------------------|
-| System-Only                 | 對                                                                                         |
+| System-Only                 | 是                                                                                         |
 | Object-Category             | 1                                                                                            |
 | 預設-物件-類別     | \-                                                                                           |
 | Governs-Id                  | 1.2.840.113556.1.5.7000.47                                                                   |
@@ -685,7 +685,7 @@ ms.locfileid: "103686908"
 
 
 
-## <a name="windows-server-2008-attributes"></a>Windows Server 2008 屬性
+## <a name="windows-server-2008-attributes"></a>Windows伺服器2008屬性
 
 此類別包含 Windows Server 2008 的下列屬性：
 
@@ -719,7 +719,7 @@ ms.locfileid: "103686908"
 | [**FSMO 角色-擁有者**](a-fsmoroleowner.md)                                     | 否     | [**返回頁首**](c-top.md)<br/>                                  |
 | [**具有-Master-Nc**](a-hasmasterncs.md)                                       | 否     | **NTDS-DSA**                                                     |
 | [**具有-Partial-Replica-Nc**](a-haspartialreplicancs.md)                      | 否     | **NTDS-DSA**                                                     |
-| [**實例類型**](a-instancetype.md)                                        | 對      | [**返回頁首**](c-top.md)<br/>                                  |
+| [**實例類型**](a-instancetype.md)                                        | 是      | [**返回頁首**](c-top.md)<br/>                                  |
 | [**調用識別碼**](a-invocationid.md)                                        | 否     | **NTDS-DSA**                                                     |
 | [**為關鍵-系統物件**](a-iscriticalsystemobject.md)                  | 否     | [**返回頁首**](c-top.md)<br/>                                  |
 | [**已刪除**](a-isdeleted.md)                                              | 否     | [**返回頁首**](c-top.md)<br/>                                  |
@@ -783,10 +783,10 @@ ms.locfileid: "103686908"
 | [**網路位址**](a-networkaddress.md)                                    | 否     | **NTDS-DSA**                                                     |
 | [**非安全性成員-BL**](a-nonsecuritymemberbl.md)                        | 否     | [**返回頁首**](c-top.md)<br/>                                  |
 | [**通知-清單**](a-notificationlist.md)                                | 否     | [**應用程式-設定**](c-applicationsettings.md)<br/> |
-| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                       | 對      | [**返回頁首**](c-top.md)<br/>                                  |
+| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                       | 是      | [**返回頁首**](c-top.md)<br/>                                  |
 | [**Obj-Dist 名稱**](a-distinguishedname.md)                                   | 否     | [**返回頁首**](c-top.md)<br/>                                  |
-| [**物件-類別**](a-objectcategory.md)                                    | 對      | [**返回頁首**](c-top.md)<br/>                                  |
-| [**物件類別**](a-objectclass.md)                                          | 對      | [**返回頁首**](c-top.md)<br/>                                  |
+| [**物件-類別**](a-objectcategory.md)                                    | 是      | [**返回頁首**](c-top.md)<br/>                                  |
+| [**物件類別**](a-objectclass.md)                                          | 是      | [**返回頁首**](c-top.md)<br/>                                  |
 | [**物件-Guid**](a-objectguid.md)                                            | 否     | [**返回頁首**](c-top.md)<br/>                                  |
 | [**物件版本**](a-objectversion.md)                                      | 否     | [**返回頁首**](c-top.md)<br/>                                  |
 | [**選項**](a-options.md)                                                   | 否     | **NTDS-DSA**                                                     |
@@ -830,7 +830,7 @@ ms.locfileid: "103686908"
 
 
 
-## <a name="windows-server-2008-extended-rights"></a>Windows Server 2008 擴充許可權
+## <a name="windows-server-2008-extended-rights"></a>Windows伺服器2008擴充許可權
 
 此類別包含 Windows Server 2008 的下列擴充許可權：
 
@@ -857,7 +857,7 @@ ms.locfileid: "103686908"
 
 | 進入 | 值 |
 |-----------------------------|----------------------------------------------------------------------------------------------|
-| System-Only                 | 對                                                                                         |
+| System-Only                 | 是                                                                                         |
 | Object-Category             | 1                                                                                            |
 | 預設-物件-類別     | \-                                                                                           |
 | Governs-Id                  | 1.2.840.113556.1.5.7000.47                                                                   |
@@ -872,7 +872,7 @@ ms.locfileid: "103686908"
 
 
 
-## <a name="windows-server-2008-r2-attributes"></a>Windows Server 2008 R2 屬性
+## <a name="windows-server-2008-r2-attributes"></a>WindowsServer 2008 R2 屬性
 
 此類別包含 Windows Server 2008 R2 的下列屬性：
 
@@ -906,7 +906,7 @@ ms.locfileid: "103686908"
 | [**FSMO 角色-擁有者**](a-fsmoroleowner.md)                                       | 否     | [**返回頁首**](c-top.md)<br/>                                  |
 | [**具有-Master-Nc**](a-hasmasterncs.md)                                         | 否     | **NTDS-DSA**                                                     |
 | [**具有-Partial-Replica-Nc**](a-haspartialreplicancs.md)                        | 否     | **NTDS-DSA**                                                     |
-| [**實例類型**](a-instancetype.md)                                          | 對      | [**返回頁首**](c-top.md)<br/>                                  |
+| [**實例類型**](a-instancetype.md)                                          | 是      | [**返回頁首**](c-top.md)<br/>                                  |
 | [**調用識別碼**](a-invocationid.md)                                          | 否     | **NTDS-DSA**                                                     |
 | [**為關鍵-系統物件**](a-iscriticalsystemobject.md)                    | 否     | [**返回頁首**](c-top.md)<br/>                                  |
 | [**已刪除**](a-isdeleted.md)                                                | 否     | [**返回頁首**](c-top.md)<br/>                                  |
@@ -978,10 +978,10 @@ ms.locfileid: "103686908"
 | [**網路位址**](a-networkaddress.md)                                      | 否     | **NTDS-DSA**                                                     |
 | [**非安全性成員-BL**](a-nonsecuritymemberbl.md)                          | 否     | [**返回頁首**](c-top.md)<br/>                                  |
 | [**通知-清單**](a-notificationlist.md)                                  | 否     | [**應用程式-設定**](c-applicationsettings.md)<br/> |
-| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                         | 對      | [**返回頁首**](c-top.md)<br/>                                  |
+| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                         | 是      | [**返回頁首**](c-top.md)<br/>                                  |
 | [**Obj-Dist 名稱**](a-distinguishedname.md)                                     | 否     | [**返回頁首**](c-top.md)<br/>                                  |
-| [**物件-類別**](a-objectcategory.md)                                      | 對      | [**返回頁首**](c-top.md)<br/>                                  |
-| [**物件類別**](a-objectclass.md)                                            | 對      | [**返回頁首**](c-top.md)<br/>                                  |
+| [**物件-類別**](a-objectcategory.md)                                      | 是      | [**返回頁首**](c-top.md)<br/>                                  |
+| [**物件類別**](a-objectclass.md)                                            | 是      | [**返回頁首**](c-top.md)<br/>                                  |
 | [**物件-Guid**](a-objectguid.md)                                              | 否     | [**返回頁首**](c-top.md)<br/>                                  |
 | [**物件版本**](a-objectversion.md)                                        | 否     | [**返回頁首**](c-top.md)<br/>                                  |
 | [**選項**](a-options.md)                                                     | 否     | **NTDS-DSA**                                                     |
@@ -1025,7 +1025,7 @@ ms.locfileid: "103686908"
 
 
 
-## <a name="windows-server-2008-r2-extended-rights"></a>Windows Server 2008 R2 擴充許可權
+## <a name="windows-server-2008-r2-extended-rights"></a>WindowsServer 2008 R2 擴充許可權
 
 此類別包含 Windows Server 2008 R2 的下列擴充許可權：
 
@@ -1053,7 +1053,7 @@ ms.locfileid: "103686908"
 
 | 進入 | 值 |
 |-----------------------------|----------------------------------------------------------------------------------------------|
-| System-Only                 | 對                                                                                         |
+| System-Only                 | 是                                                                                         |
 | Object-Category             | 1                                                                                            |
 | 預設-物件-類別     | \-                                                                                           |
 | Governs-Id                  | 1.2.840.113556.1.5.7000.47                                                                   |
@@ -1068,9 +1068,9 @@ ms.locfileid: "103686908"
 
 
 
-## <a name="windows-server-2012-attributes"></a>Windows Server 2012 屬性
+## <a name="windows-server-2012-attributes"></a>Windows Server 2012屬性
 
-此類別包含 Windows Server 2012 的下列屬性：
+這個類別包含 Windows Server 2012 的下列屬性：
 
 
 
@@ -1102,7 +1102,7 @@ ms.locfileid: "103686908"
 | [**FSMO 角色-擁有者**](a-fsmoroleowner.md)                                                   | 否     | [**返回頁首**](c-top.md)<br/>                                  |
 | [**具有-Master-Nc**](a-hasmasterncs.md)                                                     | 否     | **NTDS-DSA**                                                     |
 | [**具有-Partial-Replica-Nc**](a-haspartialreplicancs.md)                                    | 否     | **NTDS-DSA**                                                     |
-| [**實例類型**](a-instancetype.md)                                                      | 對      | [**返回頁首**](c-top.md)<br/>                                  |
+| [**實例類型**](a-instancetype.md)                                                      | 是      | [**返回頁首**](c-top.md)<br/>                                  |
 | [**調用識別碼**](a-invocationid.md)                                                      | 否     | **NTDS-DSA**                                                     |
 | [**為關鍵-系統物件**](a-iscriticalsystemobject.md)                                | 否     | [**返回頁首**](c-top.md)<br/>                                  |
 | [**已刪除**](a-isdeleted.md)                                                            | 否     | [**返回頁首**](c-top.md)<br/>                                  |
@@ -1171,7 +1171,7 @@ ms.locfileid: "103686908"
 | [**ms-DS-SiteName**](a-msds-sitename.md)                                                    | 否     | **NTDS-DSA**                                                     |
 | [**ms-chap---------BL**](a-msds-tasksforazrolebl.md)                                | 否     | [**返回頁首**](c-top.md)<br/>                                  |
 | [**ms DS-工作--Az-Task-BL**](a-msds-tasksforaztaskbl.md)                                | 否     | [**返回頁首**](c-top.md)<br/>                                  |
-| [**ms DS-TDO-出口-BL**](a-msds-tdoegressbl.md)                                            | 否     | [**返回頁首**](c-top.md)<br/>                                  |
+| [**ms-chap-Egress-BL**](a-msds-tdoegressbl.md)                                            | 否     | [**返回頁首**](c-top.md)<br/>                                  |
 | [**ms-DS-TDO-輸入-BL**](a-msds-tdoingressbl.md)                                          | 否     | [**返回頁首**](c-top.md)<br/>                                  |
 | [**ms-chap-------Reference-BL**](a-msds-valuetypereferencebl.md)                         | 否     | [**返回頁首**](c-top.md)<br/>                                  |
 | [**Ms-exch-assistant-name-擁有者-BL**](a-ownerbl.md)                                                        | 否     | [**返回頁首**](c-top.md)<br/>                                  |
@@ -1180,10 +1180,10 @@ ms.locfileid: "103686908"
 | [**網路位址**](a-networkaddress.md)                                                  | 否     | **NTDS-DSA**                                                     |
 | [**非安全性成員-BL**](a-nonsecuritymemberbl.md)                                      | 否     | [**返回頁首**](c-top.md)<br/>                                  |
 | [**通知-清單**](a-notificationlist.md)                                              | 否     | [**應用程式-設定**](c-applicationsettings.md)<br/> |
-| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                                     | 對      | [**返回頁首**](c-top.md)<br/>                                  |
+| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                                     | 是      | [**返回頁首**](c-top.md)<br/>                                  |
 | [**Obj-Dist 名稱**](a-distinguishedname.md)                                                 | 否     | [**返回頁首**](c-top.md)<br/>                                  |
-| [**物件-類別**](a-objectcategory.md)                                                  | 對      | [**返回頁首**](c-top.md)<br/>                                  |
-| [**物件類別**](a-objectclass.md)                                                        | 對      | [**返回頁首**](c-top.md)<br/>                                  |
+| [**物件-類別**](a-objectcategory.md)                                                  | 是      | [**返回頁首**](c-top.md)<br/>                                  |
+| [**物件類別**](a-objectclass.md)                                                        | 是      | [**返回頁首**](c-top.md)<br/>                                  |
 | [**物件-Guid**](a-objectguid.md)                                                          | 否     | [**返回頁首**](c-top.md)<br/>                                  |
 | [**物件版本**](a-objectversion.md)                                                    | 否     | [**返回頁首**](c-top.md)<br/>                                  |
 | [**選項**](a-options.md)                                                                 | 否     | **NTDS-DSA**                                                     |
@@ -1227,9 +1227,9 @@ ms.locfileid: "103686908"
 
 
 
-## <a name="windows-server-2012-extended-rights"></a>Windows Server 2012 擴充許可權
+## <a name="windows-server-2012-extended-rights"></a>Windows Server 2012擴充許可權
 
-此類別包含 Windows Server 2012 的下列擴充許可權：
+這個類別包含 Windows Server 2012 的下列擴充許可權：
 
 
 
@@ -1245,9 +1245,9 @@ ms.locfileid: "103686908"
 
 
 
-## <a name="windows-server-2012-validated-writes"></a>Windows Server 2012 驗證的寫入
+## <a name="windows-server-2012-validated-writes"></a>Windows Server 2012驗證的寫入
 
-此類別包含下列 Windows Server 2012 已驗證的寫入：
+這個類別包含下列 Windows Server 2012 的已驗證寫入：
 
 
 

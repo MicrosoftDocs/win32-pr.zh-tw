@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 6e09b7073518b1f5c3a65c69327aac85bda9373f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6615d4b64099fefc58b93f0aaed894c9f6fd7d56542e3627ec653bb8b9bcb646
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994175"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119652498"
 ---
 # <a name="cbasemediafilterm_pclock-member"></a>CBaseMediaFilter：： m \_ pClock 成員
 

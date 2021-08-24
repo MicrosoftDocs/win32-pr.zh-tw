@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: fdbce19c3caf4129b1f224a740b27209b855a1f8
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d3332bcf90ac5e2ee776fe7110c958e50b838bcbdbc6bb4abb23850ced12cc28
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106981410"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119635828"
 ---
 # <a name="cbasecontrolwindowput_top-method"></a>CBaseControlWindow。 put \_ Top 方法
 
@@ -55,7 +55,7 @@ HRESULT put_Top(
 
 ## <a name="remarks"></a>備註
 
-視窗具有桌面上的位置。 這是以圖元為單位來表示， (左、上、右和下) 。 OLE 自動化的介面通常會以左、上、寬度和高度表示此位置;這是用於 DirectShow 的慣例。 所有座標都會以圖元表示，而變更任何座標都會立即更新視窗。
+視窗具有桌面上的位置。 這是以圖元為單位來表示， (左、上、右和下) 。 OLE 自動化的介面通常會以左、上、寬度和高度表示此位置;這是 DirectShow 中使用的慣例。 所有座標都會以圖元表示，而變更任何座標都會立即更新視窗。
 
 設定左方或上座標會分別將視窗向左或上移動;這些座標不會影響視窗的寬度和高度。 同樣地，設定寬度和高度並不會影響左邊和上座標。
 

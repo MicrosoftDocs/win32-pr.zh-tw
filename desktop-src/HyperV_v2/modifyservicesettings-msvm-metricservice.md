@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 088aec001dd63de7344256fd9e114b6ff73e4425
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 51af98d230433687d9a16cb3ab858fd746b7ff1ca4e17eaf0b36cce16e92c875
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108112176"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119693908"
 ---
 # <a name="modifyservicesettings-method-of-the-msvm_metricservice-class"></a>Msvm MetricService 類別的 ModifyServiceSettings 方法 \_
 
@@ -60,7 +60,7 @@ uint32 ModifyServiceSettings(
 
 
 
-| 傳回碼/值                                                                                                                                                                | Description                                        |
+| 傳回碼/值                                                                                                                                                                | 描述                                        |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------|
 | <dl> <dt>**已完成，沒有錯誤**</dt> <dt>0</dt> </dl>                    | 成功。<br/>                                |
 | <dl> <dt>**已檢查方法參數-作業已啟動**</dt> <dt>4096</dt> </dl> | 已檢查方法參數，作業已啟動。<br/> |
@@ -86,8 +86,8 @@ uint32 ModifyServiceSettings(
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                                              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                                              |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                                                    |
 | 命名空間<br/>                | 根 \\ 虛擬化 \\ V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization。</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

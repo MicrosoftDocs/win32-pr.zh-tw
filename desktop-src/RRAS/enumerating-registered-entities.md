@@ -4,12 +4,12 @@ description: 在用戶端註冊之後，用戶端可以取得已向路由表管�
 ms.assetid: d94de573-7c1e-4179-a41f-5836d2c5d44a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2ac92ccf89336d3fbca378209b9e79877d9b426a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 5d1d67a810806c1bc29f8f18c4cdea9f3a36e5b5a95922e8f66a943a99923ac5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021499"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119674158"
 ---
 # <a name="enumerating-registered-entities"></a>列舉已註冊的實體
 
@@ -21,9 +21,9 @@ ms.locfileid: "104021499"
 
 如需示範如何使用這些函數的範例程式碼，請參閱 [列舉已註冊的實體](enumerate-the-registered-entities.md) 並 [使用事件通知回呼](use-the-event-notification-callback.md)。
 
- 
+ 
 
- 
+ 
 
 
 

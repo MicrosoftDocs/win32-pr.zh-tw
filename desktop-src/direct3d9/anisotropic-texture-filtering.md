@@ -4,12 +4,12 @@ ms.assetid: f6c8a9e2-aab0-4f06-956e-bb86557c72e7
 title: " (Direct3D 9) 的非等向材質篩選"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c3443696e54410c6edc6a9998d4fcfd86b537a0e
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 363aeef463f137a240602e52410260108ee4a40a1a23da7b2e7c245ed6e74a65
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104468461"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119676938"
 ---
 # <a name="anisotropic-texture-filtering-direct3d-9"></a> (Direct3D 9) 的非等向材質篩選
 

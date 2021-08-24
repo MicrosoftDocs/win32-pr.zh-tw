@@ -1,17 +1,17 @@
 ---
-description: 深入瞭解藍牙服務 GUID。 本參考頁面描述 AepService 的 ServiceGuid 屬性。
+description: 瞭解藍牙服務 GUID。 本參考頁面描述 AepService。藍牙。ServiceGuid 屬性。
 ms.assetid: b623c597-3cf3-4c46-a1df-3a15425a41c6
-title: AepService 藍牙. ServiceGuid
+title: AepService。藍牙。ServiceGuid
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b1f71d58b9661bdbbb7a531d6ce5d1364f79e19a
-ms.sourcegitcommit: d0eb44d0a95f5e5efbfec3d3e9c143f5cba25bc3
+ms.openlocfilehash: fb0f3be7b9fec56fc7830f981e64f8a25f84463400d1ac5d3cf800405f8199cb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "112262560"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119775808"
 ---
-# <a name="systemdevicesaepservicebluetoothserviceguid"></a>AepService 藍牙. ServiceGuid
+# <a name="systemdevicesaepservicebluetoothserviceguid"></a>AepService。藍牙。ServiceGuid
 
 藍牙服務 GUID。
 

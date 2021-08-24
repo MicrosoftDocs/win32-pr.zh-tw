@@ -3,7 +3,7 @@ title: 'EM_STREAMIN 訊息 (Richedit .h) '
 description: 以定義為 \ 8211 的應用程式所提供的資料流程，取代 rich edit 控制項的內容。EditStreamCallback 回呼函數。
 ms.assetid: b8d3a108-b415-4f5e-99e7-0e0e7a82a778
 keywords:
-- EM_STREAMIN message Windows 控制項
+- EM_STREAMIN 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 40fdcf844cce09cf5c49085a9fcf08a38ad988ae
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 597d6483ef02f0c9f6f4e4459cd6780b91e04c39160c8057e88fc537fde3b173
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466348"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119576338"
 ---
 # <a name="em_streamin-message"></a>EM \_ STREAMIN 訊息
 
@@ -82,8 +82,8 @@ ms.locfileid: "104466348"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Richedit。h</dt> </dl> |
 
 

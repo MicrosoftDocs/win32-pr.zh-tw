@@ -4,12 +4,12 @@ ms.assetid: 09468416-ad08-48ea-aa4a-3af0fe553f3d
 title: 'StrokesDeleting 事件 (Msinkaut .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 64422e61869c633514c3e219e3d090476a693dd6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1b85e01eabc46e8e9cc4ca844ae8f5efa8b58e83fdee2724792a3856445b7dbd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944997"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119712668"
 ---
 # <a name="inkoverlaystrokesdeleting-event"></a>StrokesDeleting 事件
 
@@ -51,7 +51,7 @@ void StrokesDeleting(
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 Windows XP Tablet PC Edition \[ 桌面應用程式\]<br/>                                                       |
+| 最低支援的用戶端<br/> | Windows僅限 XP Tablet PC Edition \[ 桌面應用程式\]<br/>                                                       |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                                           |
 | 標頭<br/>                   | <dl> <dt>Msinkaut (也需要 Msinkaut \_ c) </dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>InkObj.dll</dt> </dl>                               |

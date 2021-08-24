@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10Core.h
-ms.openlocfilehash: 21ba4f035b43b1a002b014909fb4d0a02a64d1e8
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 53b2c7965beaeb2976e88d38f5af90d546f644b6d4879964c23b2166cd51b19b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106986765"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119634938"
 ---
 # <a name="d3dx10_sprite_flag-enumeration"></a>D3DX10 \_ SPRITE \_ 旗標列舉
 

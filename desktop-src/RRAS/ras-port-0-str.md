@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 80d66725415d86aea44138f23fb3748e3187820f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 67891ccd65aaa56fc41dd077ae46bd4bf61f816cdc02afeb65964886cbaf9562
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104508644"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119673128"
 ---
 # <a name="ras_port_0-structure"></a>RAS \_ 埠 \_ 0 結構
 
@@ -143,7 +143,7 @@ typedef struct _RAS_PORT_0 {
 **fAdvancedServer**
 </dt> <dd>
 
-如果與此埠相關聯的 RAS 伺服器是 advanced server （例如 Windows 2000 Advanced Server），則指定非零的旗標。 您可以使用這項資訊來判斷具有使用者帳戶資料庫的伺服器名稱。 如果 RAS 伺服器是 advanced server，請將前置詞 " \\ \\ " 串連到 **wszLogonDomain** 成員所傳回的名稱，以取得使用者帳戶伺服器的名稱。 這是因為 advanced server 的本機登入功能變數名稱與伺服器名稱相同。 如果 RAS 伺服器是工作站，請使用 [**RasAdminGetUserAccountServer**](rasadmingetuseraccountserver.md) 函數來取得使用者帳戶伺服器的名稱。
+如果與此埠相關聯的 RAS 伺服器是 advanced server （例如 Windows 2000 advanced server），則指定非零的旗標。 您可以使用這項資訊來判斷具有使用者帳戶資料庫的伺服器名稱。 如果 RAS 伺服器是 advanced server，請將前置詞 " \\ \\ " 串連到 **wszLogonDomain** 成員所傳回的名稱，以取得使用者帳戶伺服器的名稱。 這是因為 advanced server 的本機登入功能變數名稱與伺服器名稱相同。 如果 RAS 伺服器是工作站，請使用 [**RasAdminGetUserAccountServer**](rasadmingetuseraccountserver.md) 函數來取得使用者帳戶伺服器的名稱。
 
 </dd> </dl>
 

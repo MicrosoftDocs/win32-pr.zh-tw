@@ -4,12 +4,12 @@ ms.assetid: 9e185435-a624-4380-adfd-be4f3645ee5d
 title: 'WM_GETTEXTLENGTH 訊息 (Winuser .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0efc058033f9c4939137414d305d0717b54bef54
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1bc01f6f7a2b74df41e97a84bb4d7e17d9c3e21966215fcbcca04222d1d5537f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944667"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119710388"
 ---
 # <a name="wm_gettextlength-message"></a>WM \_ GETTEXTLENGTH 訊息
 
@@ -64,7 +64,7 @@ ms.locfileid: "103944667"
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                               |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 

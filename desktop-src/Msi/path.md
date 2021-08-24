@@ -4,12 +4,12 @@ ms.assetid: 3006f4c9-872a-4d9e-9d27-f17c64d178f1
 title: 路徑
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ea0c81f6688c2d4741f0425b7c3842a4317646cb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 86996743c60c036d7ed12f1ff20975570fe8f94ac23b68631fc8149f3c28a4dc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103852728"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119754048"
 ---
 # <a name="path"></a>路徑
 

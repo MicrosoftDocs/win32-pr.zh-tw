@@ -14,12 +14,12 @@ api_type:
 api_location:
 - InkDiv.dll
 - InkDiv.dll.dll
-ms.openlocfilehash: 8338d179b0bd57232463c794feca96885ee006fb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 526186dd2a867f8fb3ee9201ca13df6afd43cb02f8361da202a036dde8e9fb56
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103851619"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119709518"
 ---
 # <a name="deleteinkdivider-function"></a>DeleteInkDivider 函式
 
@@ -55,7 +55,7 @@ HRESULT WINAPI DeleteInkDivider(
 
 
 
-| 傳回碼                                                                                  | Description                                     |
+| 傳回碼                                                                                  | 描述                                     |
 |----------------------------------------------------------------------------------------------|-------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>         | 此方法已成功。<br/>                |
 | <dl> <dt>**E \_ INVALIDARG**</dt> </dl> | *HDivider* 參數無效。<br/> |
@@ -70,7 +70,7 @@ HRESULT WINAPI DeleteInkDivider(
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 Windows XP Tablet PC Edition \[ 桌面應用程式\]<br/>                         |
+| 最低支援的用戶端<br/> | Windows僅限 XP Tablet PC Edition \[ 桌面應用程式\]<br/>                         |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                             |
 | 程式庫<br/>                  | <dl> <dt>InkDiv.dll</dt> </dl> |
 

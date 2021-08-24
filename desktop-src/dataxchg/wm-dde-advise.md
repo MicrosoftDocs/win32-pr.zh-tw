@@ -1,9 +1,9 @@
 ---
 title: 'WM_DDE_ADVISE 訊息 (的) '
-description: 動態資料交換 (DDE) 用戶端應用程式會將 WM \_ DDE \_ 建議訊息張貼至 dde 伺服器應用程式，要求伺服器在專案變更時，提供資料項目的更新。
+description: 動態資料交換 (dde) 用戶端應用程式會將 WM \_ DDE \_ 建議訊息張貼至 dde 伺服器應用程式，要求伺服器在專案變更時，提供資料項目的更新。
 ms.assetid: b00db740-36a7-4487-abbf-d74b12f5212a
 keywords:
-- WM_DDE_ADVISE 訊息資料交換
+- WM_DDE_ADVISE 訊息資料 Exchange
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 832c6991169b71955c0ab21b59d2b55b0b54fc9a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c651144b4f09cf53f07c0f1860625cab8277e5c8a9532ee864b9ec1b1c927323
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104094467"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119636218"
 ---
 # <a name="wm_dde_advise-message"></a>WM \_ DDE \_ 建議訊息
 
-動態資料交換 (DDE) 用戶端應用程式會將 **WM \_ DDE \_ 建議** 訊息張貼至 dde 伺服器應用程式，要求伺服器在專案變更時，提供資料項目的更新。
+動態資料交換 (dde) 用戶端應用程式會將 **WM \_ DDE \_ 建議** 訊息張貼至 dde 伺服器應用程式，要求伺服器在專案變更時，提供資料項目的更新。
 
 若要張貼此訊息，請使用下列參數呼叫 [**PostMessage**](/windows/desktop/api/winuser/nf-winuser-postmessagea) 函數。
 
@@ -84,7 +84,7 @@ ms.locfileid: "104094467"
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                           |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                 |
-| 標頭<br/>                   | <dl> <dt> (包含 Windows. h) </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Dde. h (包含 Windows .h) </dt> </dl> |
 
 
 

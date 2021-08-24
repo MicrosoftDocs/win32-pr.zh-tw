@@ -4,12 +4,12 @@ ms.assetid: 5c1c9861-da99-4435-9c61-ee3c4d2f35b1
 title: System.Devices.InterfaceClassGuid
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: faba1b59ce3ad97e152da4a9fa92a19c1e12c7ad
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c4cf262631475295713d1a6c26f4ea85ac9fe67a749dcbe684d717863d8e95b9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103944101"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119775538"
 ---
 # <a name="systemdevicesinterfaceclassguid"></a>System.Devices.InterfaceClassGuid
 

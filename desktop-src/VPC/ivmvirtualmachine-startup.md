@@ -16,16 +16,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2a45e0952fc1a17fc6ba2ea639f2ee87f7b9ef2c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3d7e63ea8944cf65a66e6f09dd8c0efa531d9e4cadf5390c116678a6f9804e43
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934863"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119652908"
 ---
 # <a name="ivmvirtualmachinestartup-method"></a>IVMVirtualMachine：： Startup 方法
 
-\[Windows 8 不能再使用 Windows Virtual PC。 請改為使用 [HYPER-V WMI 提供者 (V2) ](/windows/desktop/HyperV_v2/windows-virtualization-portal)。\]
+\[WindowsVirtual PC 不再適用于 Windows 8。 請改為使用 [HYPER-V WMI 提供者 (V2) ](/windows/desktop/HyperV_v2/windows-virtualization-portal)。\]
 
 從未初始化或已儲存的狀態啟動虛擬機器。
 
@@ -57,7 +57,7 @@ HRESULT Startup(
 
 
 
-| 傳回碼/值                                                                                                                                                                          | Description                                                                               |
+| 傳回碼/值                                                                                                                                                                          | 描述                                                                               |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
 | <dl> <dt>**S \_確定**</dt> <dt>0</dt> </dl>                                                | 作業成功。<br/>                                                  |
 | <dl> <dt>**E \_指標**</dt><dt>且顯示 0x80004003</dt> </dl>                                  | 參數為 **Null**。<br/>                                                     |
@@ -81,11 +81,11 @@ HRESULT Startup(
 
 
 
-| [**錯誤碼**](ivmtask-error.md) /值                                                                                                                                                                                                                                      | Description                                                           |
+| [**錯誤碼**](ivmtask-error.md) /值                                                                                                                                                                                                                                      | 描述                                                           |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------|
 | <span id="VM_E_UNSUPPORTED_HARDWARE__0xA0040950_"></span><span id="vm_e_unsupported_hardware__0xa0040950_"></span><span id="VM_E_UNSUPPORTED_HARDWARE__0XA0040950_"></span>`VM_E_UNSUPPORTED_HARDWARE` (0xA0040950) <br/>                                                 | 硬體不支援虛擬化。<br/>              |
 | <span id="VM_E_HARDWARE_VIRTUALIZATION_DISABLED__0xA0040951_"></span><span id="vm_e_hardware_virtualization_disabled__0xa0040951_"></span><span id="VM_E_HARDWARE_VIRTUALIZATION_DISABLED__0XA0040951_"></span>`VM_E_HARDWARE_VIRTUALIZATION_DISABLED` (0xA0040951) <br/> | 硬體虛擬化已停用。<br/>                       |
-| <span id="VM_E_VMVIRTUALPC_OLDER_VERSION__0xA0040952_"></span><span id="vm_e_vmvirtualpc_older_version__0xa0040952_"></span><span id="VM_E_VMVIRTUALPC_OLDER_VERSION__0XA0040952_"></span>`VM_E_VMVIRTUALPC_OLDER_VERSION` (0xA0040952) <br/>                             | Virtual PC 2007 和 Windows Virtual PC 皆已安裝。<br/> |
+| <span id="VM_E_VMVIRTUALPC_OLDER_VERSION__0xA0040952_"></span><span id="vm_e_vmvirtualpc_older_version__0xa0040952_"></span><span id="VM_E_VMVIRTUALPC_OLDER_VERSION__0XA0040952_"></span>`VM_E_VMVIRTUALPC_OLDER_VERSION` (0xA0040952) <br/>                             | virtual pc 2007 和 Windows virtual pc 皆已安裝。<br/> |
 | <span id="VM_E_OTHER_VIRTUALIZATION_SOFTWARE__0xA0040953_"></span><span id="vm_e_other_virtualization_software__0xa0040953_"></span><span id="VM_E_OTHER_VIRTUALIZATION_SOFTWARE__0XA0040953_"></span>`VM_E_OTHER_VIRTUALIZATION_SOFTWARE` (0xA0040953) <br/>             | 已安裝其他虛擬化軟體。<br/>                |
 | <span id="VM_E_OUT_OF_RESOURCE__0xa00400203_"></span><span id="vm_e_out_of_resource__0xa00400203_"></span><span id="VM_E_OUT_OF_RESOURCE__0XA00400203_"></span>`VM_E_OUT_OF_RESOURCE` (0xa00400203) <br/>                                                                 | 沒有足夠的主機資源。<br/>                       |
 
@@ -99,7 +99,7 @@ HRESULT Startup(
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                                    |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                     |
 | 用戶端支援結束<br/>    | Windows 7<br/>                                                                          |
 | 產品<br/>                  | Windows Virtual PC<br/>                                                                 |

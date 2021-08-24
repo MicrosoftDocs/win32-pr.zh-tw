@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: e77ab0e6ee164eadae862ed03df5652c21ba7040
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: fc8a1e2995a9353a02df120b109eb32ad0914821e5690440c7228fbc8e7b6c8a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106975683"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119676398"
 ---
 # <a name="d3draster_status-structure"></a>D3DRASTER \_ 狀態結構
 

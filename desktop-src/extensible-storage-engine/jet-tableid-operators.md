@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Hh163504(v=EXCHG.10)
 ms:contentKeyID: 39516407
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 1d55eaf7a21a4af07d182bce6ce6b4afd75409de
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 29861e7a9cab9046f170a27a9092a1b7fbfbc8dfeacc73b7af9ce31883c84bf1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194879"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119729028"
 ---
 # <a name="jet_tableid-operators"></a>JET_TABLEID 運算子
 
@@ -27,7 +27,7 @@ ms.locfileid: "104194879"
 <thead>
 <tr class="header">
 <th> </th>
-<th>Name</th>
+<th>名稱</th>
 <th>描述</th>
 </tr>
 </thead>

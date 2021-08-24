@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 74492cc613e22f335eace684300f0380e5751a95
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 47131cacef436572f519b394a02b4aaa357a426dd80a192868712cb3d7779e24
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103932752"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119672518"
 ---
 # <a name="printf-function"></a>printf 函式
 
@@ -28,8 +28,8 @@ ms.locfileid: "103932752"
 
 ``` syntax
 void printf(
-   string format,
-    argument ...
+   string format,
+    argument ...
 );
 ```
 
@@ -71,7 +71,7 @@ void printf(
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>另請參閱
 
@@ -80,9 +80,9 @@ void printf(
 [內建函式](dx-graphics-hlsl-intrinsic-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

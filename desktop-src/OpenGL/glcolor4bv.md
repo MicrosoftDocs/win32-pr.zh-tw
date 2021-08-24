@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2691a357f3669e83163eeb9cda04fd26cd89a918
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 4ab4a2e29f2837e97535845a3238ddc9d2a736feaf6a5d65d5aebcc1e37fe7eb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106988137"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119675718"
 ---
 # <a name="glcolor4bv-function"></a>glColor4bv 函式
 
@@ -40,7 +40,7 @@ void WINAPI glColor4bv(
 
 <dl> <dt>
 
-*V* 
+*v* 
 </dt> <dd>
 
 陣列的指標，其中包含紅色、綠色、藍色和 Alpha 值。

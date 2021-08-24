@@ -4,12 +4,12 @@ ms.assetid: 337bc798-e75d-4389-8fea-577eb82a0ed5
 title: 複雜的腳本處理
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 33e4be6295bff949c8e29036ef3af496c673575e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 15671aed99e0c596d83bd65a2f4a0925ff61293cf90ed37e2aed371f23f114fc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106977349"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119754908"
 ---
 # <a name="complex-script-processing"></a>複雜的腳本處理
 
@@ -41,11 +41,11 @@ ms.locfileid: "106977349"
 
 ## <a name="complex-script-processing-using-edit-controls"></a>使用編輯控制項的複雜字集處理
 
-標準的 Windows 編輯控制項已經過擴充，可支援多語系文字和複雜的腳本。 延伸支援包括輸入和顯示，以及透過字元叢集的正確資料指標移動，例如泰文和梵文腳本。 如需詳細資訊，請參閱 [編輯控制項](../controls/edit-controls.md)。
+標準 Windows 編輯控制項已經過擴充，可支援多語系文字和複雜的腳本。 延伸支援包括輸入和顯示，以及透過字元叢集的正確資料指標移動，例如泰文和梵文腳本。 如需詳細資訊，請參閱 [編輯控制項](../controls/edit-controls.md)。
 
 ## <a name="complex-script-processing-using-rich-edit-controls"></a>使用 Rich Edit 控制項進行複雜的腳本處理
 
-Rich Edit 3.0 是更高層級的介面集合，利用 Uniscribe 來防止文字版面配置應用程式與特定腳本的複雜度。 Rich Edit 是讓應用程式顯示覆雜腳本的最簡單方式，即使它們的主要用途不一定是文字配置也是一樣。 Rich Edit 可提供快速、多功能的豐富 Unicode 多語系文字和簡單純文字編輯。 它包含廣泛的訊息和 COM 介面、文字編輯、格式化、換行、簡單的資料表配置、垂直文字配置、雙向文字配置、印度文和泰文支援、編輯使用者介面，就像 Microsoft Word 和 Text 物件模型介面一樣。
+Rich Edit 3.0 是更高層級的介面集合，利用 Uniscribe 來防止文字版面配置應用程式與特定腳本的複雜度。 Rich Edit 是讓應用程式顯示覆雜腳本的最簡單方式，即使它們的主要用途不一定是文字配置也是一樣。 Rich Edit 可提供快速、多功能的豐富 Unicode 多語系文字和簡單純文字編輯。 它包含廣泛的訊息和 COM 介面、文字編輯、格式化、換行、簡單的資料表配置、垂直文字配置、雙向文字配置、印度文和泰文支援、編輯使用者介面，就像 Microsoft Word 和文字物件模型介面一樣。
 
 除了 Rich Edit 介面，應用程式還可以使用 Rich Edit [**TextOut**](/windows/win32/api/wingdi/nf-wingdi-textouta) 函式來自動剖析、成形、定位和分隔線條。 如需詳細資訊，請參閱 [Rich Edit 控制項](../controls/rich-edit-controls.md)。
 

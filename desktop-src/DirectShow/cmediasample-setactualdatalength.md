@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 825b02f43195424f9ceb5ecd23c4dcf26727ef8f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: db090ad96f6c53f725aef7864e729b8083bfd1a02b30f0d699d30b5c6f8f71aa
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106978615"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119634372"
 ---
 # <a name="cmediasamplesetactualdatalength-method"></a>CMediaSample. SetActualDataLength 方法
 
@@ -55,7 +55,7 @@ HRESULT SetActualDataLength(
 
 
 
-| 傳回碼                                                                                             | Description                                                 |
+| 傳回碼                                                                                             | 描述                                                 |
 |---------------------------------------------------------------------------------------------------------|-------------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>                    | 成功。<br/>                                         |
 | <dl> <dt>**VFW \_ E \_ 緩衝區 \_ 溢出**</dt> </dl> | *lLen* 大於配置的緩衝區大小。<br/> |

@@ -1,9 +1,9 @@
 ---
 title: 'ICM_SET_STATUS_PROC 訊息 (Vfw .h) '
-description: ICM \_ SET \_ STATUS \_ PROC 訊息提供狀態回呼函式，其狀態為冗長的作業。
+description: ICM \_ 設定 \_ 狀態程式 \_ 訊息提供狀態回呼函式，其狀態為冗長的作業。
 ms.assetid: a1bcd840-b94b-487e-91d6-67411a8a3a2d
 keywords:
-- ICM_SET_STATUS_PROC message Windows 多媒體
+- ICM_SET_STATUS_PROC 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 53d7ad2745ab53c2e04a1588ddbf1b1e5d755202
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c02019bb6375aa18fd37ba34d2603839b37291d58822858b0b9cabc01e47d7b5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104467089"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119678338"
 ---
-# <a name="icm_set_status_proc-message"></a>ICM \_ 設定 \_ 狀態 \_ 進程訊息
+# <a name="icm_set_status_proc-message"></a>ICM \_設定 \_ 狀態 \_ 進程訊息
 
-**ICM \_ SET \_ STATUS \_ PROC** 訊息提供狀態回呼函式，其狀態為冗長的作業。
+**ICM \_ 設定 \_ 狀態 \_** 程式訊息提供狀態回呼函式，其狀態為冗長的作業。
 
 
 ```C++

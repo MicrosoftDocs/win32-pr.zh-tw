@@ -4,18 +4,18 @@ ms.assetid: 4cbe5505-75e7-454f-9e6b-f38bdc60bf6d
 title: TCP/IP 原始通訊端
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 25cc08d59d80089a4e655f363e4a899edac8d2b8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 34ef8600c7b1a6c1bc5b2f7b5b210ca2d56f90069b0afce88c83ca45e9cfad8f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106989333"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119733388"
 ---
 # <a name="tcpip-raw-sockets"></a>TCP/IP 原始通訊端
 
 原始通訊端是允許存取基礎傳輸提供者的通訊端類型。 本主題只著重于原始通訊端和 IPv4 與 IPv6 通訊協定。 這是因為除了 ATM 以外的其他大部分通訊協定不支援原始通訊端。 若要使用原始通訊端，應用程式必須有所使用之基礎通訊協定的詳細資訊。
 
-IP 通訊協定的 Winsock 服務提供者可能會支援 **SOCK \_ RAW** 的通訊端 *類型*。 包含在 Windows 上的 TCP/IP 適用的 Windows 通訊端2提供者支援此 **SOCK \_ 原始** 通訊端類型。
+IP 通訊協定的 Winsock 服務提供者可能會支援 **SOCK \_ RAW** 的通訊端 *類型*。 包含在 Windows 上的 tcp/ip Windows 通訊端2提供者支援此 **SOCK \_ 原始** 通訊端類型。
 
 這類原始通訊端有兩種基本類型：
 
@@ -70,7 +70,7 @@ IP 通訊協定的 Winsock 服務提供者可能會支援 **SOCK \_ RAW** 的通
 請務必瞭解， **SOCK \_ RAW** 類型的某些通訊端可能會收到許多未預期的資料包。 例如，偵測程式可能會建立 **SOCK \_ RAW** 類型的通訊端，以傳送 ICMP echo 要求和接收回應。 雖然應用程式預期會有 ICMP echo 回應，但其他所有的 ICMP 訊息 (例如，ICMP 主機 \_ 無法連線) 也可以傳遞到此應用程式。 此外，如果在電腦上同時開啟數個 **SOCK \_ 原始** 通訊端，則可以將相同的資料包傳遞給所有開啟的通訊端。 應用程式必須有一種機制來辨識感興趣的資料包，並忽略所有其他資料包。 針對 PING 程式，這類機制可能包括檢查 ICMP 標頭中唯一識別碼的已接收 IP 標頭 (應用程式的處理序識別碼，例如) 。
 
 > [!Note]  
-> 若要使用 **SOCK \_ RAW** 型別的通訊端，需要系統管理許可權。 執行使用原始通訊端之 Winsock 應用程式的使用者必須是本機電腦上 Administrators 群組的成員，否則原始通訊端呼叫會失敗，並出現錯誤碼 [WSAEACCES](windows-sockets-error-codes-2.md)。 在 Windows Vista 和更新版本上，會在建立通訊端時強制執行原始通訊端的存取。 在舊版的 Windows 中，會在其他通訊端作業期間強制執行原始通訊端的存取。
+> 若要使用 **SOCK \_ RAW** 型別的通訊端，需要系統管理許可權。 執行使用原始通訊端之 Winsock 應用程式的使用者必須是本機電腦上 Administrators 群組的成員，否則原始通訊端呼叫會失敗，並出現錯誤碼 [WSAEACCES](windows-sockets-error-codes-2.md)。 在 Windows Vista 和更新版本中，會在建立通訊端時強制執行原始通訊端的存取。 在舊版 Windows 中，會在其他通訊端作業期間強制執行原始通訊端的存取。
 
  
 
@@ -80,7 +80,7 @@ IP 通訊協定的 Winsock 服務提供者可能會支援 **SOCK \_ RAW** 的通
 
 ## <a name="limitations-on-raw-sockets"></a>原始通訊端的限制
 
-在 Windows 7、Windows Vista、Windows XP （含 Service Pack 2） (SP2) ，以及 Windows XP Service Pack 3 (SP3) 上，透過原始通訊端傳送流量的功能有數種限制：
+在 Windows 7、Windows Vista、Windows XP （含 service pack 2） (SP2) ，以及 Windows XP Service pack 3 (SP3) 中，透過原始通訊端傳送流量的能力有數種限制：
 
 -   無法透過原始通訊端傳送 TCP 資料。
 -   具有無效來源位址的 UDP 資料包無法透過原始通訊端傳送。 任何外寄 UDP 資料包的 IP 來源位址都必須存在於網路介面上，否則資料包會卸載。 這項變更是為了限制惡意程式碼建立分散式阻絕服務攻擊的能力，並限制傳送詐騙封包 (具有偽造來源 IP 位址) 的 TCP/IP 封包的能力。
@@ -90,10 +90,10 @@ IP 通訊協定的 Winsock 服務提供者可能會支援 **SOCK \_ RAW** 的通
 
      
 
-上述的限制不適用於 Windows Server 2008 R2、Windows Server 2008、Windows Server 2003，或 Windows XP SP2 之前的作業系統版本。
+上述限制不適用於 Windows Server 2008 R2、Windows Server 2008、Windows Server 2003 或早于 Windows XP SP2 的作業系統版本。
 
 > [!Note]  
-> Microsoft 在 Windows 上執行 TCP/IP 的功能，能夠根據上述限制開啟原始的 UDP 或 TCP 通訊端。 其他 Winsock 提供者可能不支援使用原始通訊端。
+> Microsoft 在 Windows 上執行 tcp/ip 時，能夠根據上述限制開啟原始的 UDP 或 TCP 通訊端。 其他 Winsock 提供者可能不支援使用原始通訊端。
 
  
 

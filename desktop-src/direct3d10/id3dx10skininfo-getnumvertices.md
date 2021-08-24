@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 366b958f09d0571ef6345ae020e66f321ebb9331
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: e14fbd289a728bb0eeb3e4a384ffab483b3eba70bfa84d7309dc9c09a3630e9a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104035355"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119634268"
 ---
 # <a name="id3dx10skininfogetnumvertices-method"></a>ID3DX10SkinInfo：： GetNumVertices 方法
 

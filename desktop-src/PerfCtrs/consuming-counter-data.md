@@ -4,16 +4,16 @@ ms.assetid: a42f6cdd-47e9-4f43-aeaf-37a5abb0fa36
 title: 使用計數器資料
 ms.topic: article
 ms.date: 08/17/2020
-ms.openlocfilehash: c8c50b29d8f898f544b021f7fe3f3fd0d4a2094e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f3abcc6dd5a385ebffdc887516613efb76b53359e5f8995bc28ba7f6239187b0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106982425"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119775678"
 ---
 # <a name="consuming-counter-data"></a>使用計數器資料
 
-想要讀取及使用 Windows 效能計數器資料的程式，可以使用適用于此案例的數個介面之一。
+想要讀取和使用 Windows 效能計數器資料的程式，可以使用適用于此案例的數個介面之一。
 
 - 腳本可以使用 [WMI 效能計數器類別](/windows/desktop/WmiSdk/monitoring-performance-data) 或 [TypePerf](/windows-server/administration/windows-commands/typeperf) 工具。
 - .NET 程式可以使用 [PerformanceCounter 類別](/dotnet/api/system.diagnostics.performancecounter)。

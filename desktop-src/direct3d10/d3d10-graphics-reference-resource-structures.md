@@ -4,12 +4,12 @@ ms.assetid: d8fe2ebe-349a-456e-9a5a-16f2d3419800
 title: " (Direct3D 10 圖形) 的資源結構"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4da964bf19c1ce5e1e5c4dfd0685df79b28ac5e3
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 5eb45ff5d77d7bb0417b54b88a4014e2a96f522d2e026c778efcd05d23f624bf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106991637"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119635018"
 ---
 # <a name="resource-structures-direct3d-10-graphics"></a> (Direct3D 10 圖形) 的資源結構
 
@@ -17,7 +17,7 @@ ms.locfileid: "106991637"
 
 
 
-| 結構                                                                 | Description                                                                                                                                                   |
+| 結構                                                                 | 描述                                                                                                                                                   |
 |----------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**D3D10 \_ 緩衝區 \_ DESC**](/windows/desktop/api/D3D10/ns-d3d10-cd3d10_buffer_desc)                           | [緩衝區](d3d10-graphics-programming-guide-resources-types.md)資源的描述。                                                                     |
 | [**D3D10 \_ 緩衝區 \_ RTV**](/windows/desktop/api/D3D10/ns-d3d10-d3d10_buffer_rtv)                             | 描述要用於呈現目標視圖之 [緩衝區](d3d10-graphics-programming-guide-resources-types.md) 中的元素。                                |

@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: cd41b0bd84861d23153f02ba6328d17b70287866
-ms.sourcegitcommit: f01bc6744cea55ad1aeeace7981a30b567e6fe60
+ms.openlocfilehash: 86a2f525a79fa2458e4f7e0ef44379053e03128782d2625e1bdceb23ec518b16
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "104093511"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119672438"
 ---
 # <a name="quadreadacrossx-function"></a>QuadReadAcrossX 函式
 
