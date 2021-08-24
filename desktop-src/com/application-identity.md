@@ -4,12 +4,12 @@ description: 應用程式的身分識別是用來執行應用程式的帳戶。
 ms.assetid: bd2e90d0-6d00-46e0-beac-8fdade52b797
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d58d5ab55ab8440238c95ffe01198be2a34a707e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f05e82f6975959761e988ae6a8239ea51a1ecea8bc55e1c7bc750b9414fd2927
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104020976"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119793838"
 ---
 # <a name="application-identity"></a>應用程式識別碼
 
@@ -22,9 +22,9 @@ ms.locfileid: "104020976"
 -   [指定的使用者](specified-user.md)
 -   [服務身分識別](service-identity.md)
 
- 
+ 
 
- 
+ 
 
 
 

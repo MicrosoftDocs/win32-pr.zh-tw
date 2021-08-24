@@ -14,12 +14,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: da150da6b5115e20a78a4edca64a5c9a97f66132
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bf35b4475047548e1744174717c238e99c6a744c17ef2fa76ce48217a4fc72aa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026740"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119875858"
 ---
 # <a name="cryptui_viewsignerinfo_struct-structure"></a>CRYPTUI \_ VIEWSIGNERINFO \_ 結構結構
 
@@ -148,8 +148,8 @@ typedef struct tagCRYPTUI_VIEWSIGNERINFO_STRUCT {
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                                               |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                      |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                                               |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                      |
 | Unicode 與 ANSI 名稱<br/>   | **CRYPTUI \_VIEWSIGNERINFO \_ STRUCTW** (Unicode) 和 **CRYPTUI \_ VIEWSIGNERINFO \_ STRUCTA** (ANSI) <br/> |
 
 

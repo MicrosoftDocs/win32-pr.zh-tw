@@ -4,12 +4,12 @@ ms.assetid: d44960eb-da5e-4379-ba9d-cb804559dc53
 title: '列舉特定編碼模式的音訊類型 (Microsoft 媒體基礎) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a16a8b97afdd48cb1d7828f80778aa9fcf8dc1ab
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9ec311c9ac4d879f8834d50353913e7fad1b6e50a9292a44444bc45376247636
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104386029"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119828238"
 ---
 # <a name="enumerating-audio-types-for-specific-encoding-modes-microsoft-media-foundation"></a>列舉特定編碼模式的音訊類型 (Microsoft 媒體基礎) 
 
@@ -19,13 +19,13 @@ ms.locfileid: "104386029"
 
 ## <a name="identifying-quality-based-vbr-types"></a>識別以品質為基礎的 VBR 類型
 
-識別品質型 VBR 類型的程式，取決於編碼器是否作為 DirectX 媒體物件 (的) 或作為媒體基礎的轉換 (MFT) 。 如需編碼器作為一或 MFT 的詳細資訊，請參閱 [編解碼器物件](codecobjects.md)底下的個別編解碼器參考頁面。
+識別品質型 VBR 類型的程式取決於編碼器是否作為 DirectX 媒體物件 (DMO) 或作為媒體基礎轉換 (MFT) 。 如需編碼器做為 DMO 或 MFT 時的詳細資訊，請參閱[編解碼器物件](codecobjects.md)底下的個別編解碼器參考頁面。
 
-當音訊編碼器作為一，且您將編碼器設定為使用一次的 VBR 時，它會列舉所有支援的輸出類型。 不過，您通常會想要根據 quality 參數選取一次傳遞的 VBR 型別。 編碼器會在 WAVEFORMATEX 結構的 NAvgBytesPerSec 成員中，將單一傳遞的 VBR 輸出類型的品質值放在結構的成員中 **\_ \_ 。 pbFormat**。
+當音訊編碼器作為 DMO，且您將編碼器設定為使用一次的 VBR 時，它會列舉所有支援的輸出類型。 不過，您通常會想要根據 quality 參數選取一次傳遞的 VBR 型別。 編碼器會在 **DMO \_ 媒體 \_ 類型 pbFormat** 所指向之 **WAVEFORMATEX** 結構的 **nAvgBytesPerSec** 成員中，將單一傳遞 VBR 輸出類型的品質值放入。
 
 此值會以下列格式儲存：0x7FFFFFXX，其中 XX 是從0到 100)  (的品質值。 例如，0x7FFFFF62 的 **nAvgBytesPerSec** 值會指定品質層級 98 (0x62 = 98) 。
 
-下列範例將示範如何在編碼器作為的時候，檢查格式的品質等級。
+下列範例顯示當編碼器作為 DMO 時，如何檢查格式的品質等級。
 
 
 ```

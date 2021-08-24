@@ -15,16 +15,16 @@ keywords:
 - 實作提供者
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1e2bdb4a94ba6e693792508de5c573317299b0d3
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 0c8724f0761b5d7e5d361742734901990136a7a98c1b2f541b4fadb69c31a92d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104023564"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119861298"
 ---
 # <a name="implementing-a-client-side-proxy-ui-automation-provider"></a>消費者介面自動化提供者執行 Client-Side (Proxy) 
 
-Microsoft 消費者介面自動化提供一組適用于大部分標準控制項的 proxy，例如 Microsoft Win32、Windows Forms 和 Windows Presentation Foundation (WPF) 應用程式中使用的控制項。 不過，許多自訂控制項和協力廠商控制項都不會執行原生消費者介面自動化提供者。 若要消費者介面自動化用戶端應用程式存取，這些控制項必須提供用戶端提供者（也稱為 *proxy 提供者或 proxy*） **。
+microsoft 消費者介面自動化提供一組適用于大部分標準控制項的 proxy，例如 Microsoft Win32、Windows Forms 和 Windows Presentation Foundation (WPF) 應用程式中使用的控制項。 不過，許多自訂控制項和協力廠商控制項都不會執行原生消費者介面自動化提供者。 若要消費者介面自動化用戶端應用程式存取，這些控制項必須提供用戶端提供者（也稱為 *proxy 提供者或 proxy*） **。
 
 本主題說明如何撰寫不受支援控制項的 proxy 提供者，並將它新增至用戶端應用程式所使用的 proxy 清單。 它包含下列主題︰
 
@@ -68,7 +68,7 @@ Microsoft 消費者介面自動化提供一組適用于大部分標準控制項�
 
 
 
- 
+ 
 
 Proxy 7 和8是 SysListView32 控制項的重複專案。 如果沒有修改，則會一律使用 proxy 7 作為 SysListView32 控制項，而且永遠不會使用 proxy 8。 Proxy 8 僅適用于可見的清單專案，而且通常僅供使用 visible 元素或具有嚴格效能需求的用戶端應用程式使用。 這些用戶端可以移除 proxy 7。
 
@@ -96,6 +96,6 @@ Proxy 的資料表會以 [**IUIAutomationProxyFactoryMapping**](/windows/desktop
 [消費者介面自動化提供者程式設計人員指南](uiauto-providerportal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

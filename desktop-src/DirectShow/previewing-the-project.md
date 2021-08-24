@@ -1,23 +1,23 @@
 ---
-description: 預覽專案
+description: 預覽 Project
 ms.assetid: 00d72a39-f848-47ea-8460-8b826684eeea
-title: 預覽專案
+title: 預覽 Project
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2bdf38fe19e500cfe9bd9a8dfb77f7ff56528a2f
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 1d17d5fd0c87d98db2dac0a7ace97a72e2107eeb252561bbc535a5bd8b4a56d3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103935927"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119748258"
 ---
-# <a name="previewing-the-project"></a>預覽專案
+# <a name="previewing-the-project"></a>預覽 Project
 
 \[此 API 不受支援，而且可能會在未來變更或無法使用。\]
 
-若要預覽專案，您需要一個稱為轉譯 *引擎* 的元件，該元件會從時間軸建立 DirectShow 篩選圖形。 篩選圖形是實際呈現專案的專案。 您可以使用轉譯引擎來預覽專案或寫入最終輸出檔。
+若要預覽專案，您需要一個稱為轉譯 *引擎* 的元件，該元件會從時間軸建立 DirectShow 的篩選圖形。 篩選圖形是實際呈現專案的專案。 您可以使用轉譯引擎來預覽專案或寫入最終輸出檔。
 
-本文不會詳細說明轉譯引擎。 針對預覽，您只需要幾個方法呼叫。 您可以在轉譯 [專案](rendering-a-project.md)中找到更詳盡的討論，包括如何寫入輸出檔。 下列程式碼範例顯示如何建立預覽圖形。
+本文不會詳細說明轉譯引擎。 針對預覽，您只需要幾個方法呼叫。 您可以在轉譯[Project](rendering-a-project.md)中找到更詳盡的討論，包括如何寫入輸出檔。 下列程式碼範例顯示如何建立預覽圖形。
 
 
 ```C++
@@ -79,7 +79,7 @@ pRender->ScrapIt();
 
 <dl> <dt>
 
-[載入和預覽專案](loading-and-previewing-a-project.md)
+[載入和預覽 Project](loading-and-previewing-a-project.md)
 </dt> </dl>
 
  

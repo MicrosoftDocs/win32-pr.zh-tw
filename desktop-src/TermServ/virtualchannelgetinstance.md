@@ -14,12 +14,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 535ebdc8928cceb282dd62de56f8c6fbadc94e90
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f96eac56f737d6f945c3d59d5cdf844e9cc65058a0460f620e6051830806ab99
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384270"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119868618"
 ---
 # <a name="virtualchannelgetinstance-entry-point"></a>VirtualChannelGetInstance 進入點
 

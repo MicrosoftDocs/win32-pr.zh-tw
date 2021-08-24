@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 571273e76b0bb45b748f1587e5a831fcf1e36b0e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6c0d8145318cfd749772d2dcf417b71c6a1862ee31ec363957554e06b3aa6257
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843399"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119868218"
 ---
 # <a name="adddesktopassignment-method-of-the-win32_rdmsdesktopassignment-class"></a>Win32 RDMSDesktopAssignment 類別的 AddDesktopAssignment 方法 \_
 

@@ -11,12 +11,12 @@ keywords:
 - MCIWndGetZoom 宏
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f02b1e14a5153e279e3cfdf6989beade31cf6f3e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: fbed63549683a92d457b9b91ac967ff9098235bf8d9cbd60b1ea332624886d9a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372231"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119808568"
 ---
 # <a name="adjusting-speed-volume-and-zoom"></a>調整速度、音量和縮放比例
 
@@ -37,11 +37,11 @@ ms.locfileid: "104372231"
 > [!Note]  
 > 標準 MCI CD 音訊和波形音訊驅動程式不支援磁片區或速度變更。
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

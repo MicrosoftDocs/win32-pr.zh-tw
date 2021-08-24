@@ -4,12 +4,12 @@ ms.assetid: 0457159d-8509-435c-8f57-752530d5df65
 title: 'SOL_IRLMP 通訊端選項 (Af \_ irda. h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 090193aec00eaebd87494afefbafc7b1450fdb44
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4b2be68bc658cd7d55ff72a77b6ec87568c37d6d786d0a5e654e9276378b837c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106998638"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119860728"
 ---
 # <a name="sol_irlmp-socket-options"></a>SOL \_ IRLMP 通訊端選項
 
@@ -19,7 +19,7 @@ ms.locfileid: "106998638"
 
 <dl> <dt><span id="SOL_IRLMP_Socket_Options"></span><span id="sol_irlmp_socket_options"></span><span id="SOL_IRLMP_SOCKET_OPTIONS"></span>**SOL \_ IRLMP 通訊端選項**</dt> <dd> <dl> <dt> 
 
-| 選項                 | Get | 設定 | Optval 類型     | Description                                                            |
+| 選項                 | Get | 集合 | Optval 類型     | 描述                                                            |
 |------------------------|-----|-----|-----------------|------------------------------------------------------------------------|
 | IRLMP \_ 探索 \_ 模式 |     |     |                 |                                                                        |
 | IRLMP \_ ENUMDEVICES     | 是 |     | **DEVICELIST**  | 傳回範圍內支援 IR 之裝置的 IrDA 裝置識別碼清單。 |
@@ -37,9 +37,9 @@ ms.locfileid: "106998638"
 
  
 
-</dt> </dl> </dd> <dt><span id="Windows_Support_for_SOL_IRLMP_options"></span><span id="windows_support_for_sol_irlmp_options"></span><span id="WINDOWS_SUPPORT_FOR_SOL_IRLMP_OPTIONS"></span>**Windows 支援 SOL \_ IRLMP 選項**</dt> <dd> <dl> <dt> 
+</dt> </dl> </dd> <dt><span id="Windows_Support_for_SOL_IRLMP_options"></span><span id="windows_support_for_sol_irlmp_options"></span><span id="WINDOWS_SUPPORT_FOR_SOL_IRLMP_OPTIONS"></span>**Windows支援 SOL \_ IRLMP 選項**</dt> <dd> <dl> <dt> 
 
-| 選項                            | Windows 7 | Windows Server 2008 | Windows Vista | Windows Server 2003 | Windows XP | Windows 2000 | Windows Me、Windows 98 | Windows NT 4.0 |
+| 選項                            | Windows 7 | Windows Server 2008 | Windows Vista | Windows Server 2003 | Windows XP | Windows 2000 | Windows我，Windows 98 | Windows NT 4.0 |
 |-----------------------------------|-----------|---------------------|---------------|---------------------|------------|--------------|------------------------|----------------|
 | IRLMP \_ 探索 \_ 模式<br/> |           |                     |               |                     |            |              | x                      |                |
 | IRLMP \_ ENUMDEVICES<br/>     | x         | x                   | x             | x                   | x          | x            | x                      |                |

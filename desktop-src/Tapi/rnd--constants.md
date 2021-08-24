@@ -4,16 +4,16 @@ ms.assetid: 185bd906-c276-4075-9c23-eb112da2a7ca
 title: 'RND_ 常數 (Rnderr) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 54a89b6747fb9fef775bbf40fac472081567ff1a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b2ed1b55b0ed18215fb17e27504c309c67b0cea3351acea6cffadc4b3ff31c9f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106976046"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119773368"
 ---
 # <a name="rnd_-constants"></a>RND \_ 常數
 
-\[ 在 Windows Vista、Windows Server 2008 和後續版本的作業系統中，無法使用會合 IP 電話語音會議控制項和介面。 RTC 用戶端 API 提供類似的功能。\]
+\[Windows Vista、Windows Server 2008 及後續版本的作業系統無法使用會合 IP 電話語音會議控制項和介面。 RTC 用戶端 API 提供類似的功能。\]
 
 下列常數可能會傳回錯誤。
 
@@ -53,7 +53,7 @@ ms.locfileid: "106976046"
 
 
 
-已呼叫 [**ITDirectory：： Connect**](/windows/desktop/api/Rend/nf-rend-itdirectory-connect) 方法，但已經存在連接。
+已呼叫 [**ITDirectory：：連線**](/windows/desktop/api/Rend/nf-rend-itdirectory-connect)方法，但已經存在連接。
 
 
 </dt> </dl> </dd> <dt>
@@ -66,7 +66,7 @@ ms.locfileid: "106976046"
 
 
 
-[**ITDirectory：： Connect**](/windows/desktop/api/Rend/nf-rend-itdirectory-connect)方法尚未呼叫或失敗。
+[**ITDirectory：：連線**](/windows/desktop/api/Rend/nf-rend-itdirectory-connect)方法尚未被呼叫或失敗。
 
 
 </dt> </dl> </dd> </dl>

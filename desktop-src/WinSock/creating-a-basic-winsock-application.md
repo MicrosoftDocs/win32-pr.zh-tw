@@ -1,15 +1,15 @@
 ---
-description: 如何建立基本的 Windows 通訊端 (Winsock) 應用程式。
+description: 如何建立基本 Windows 通訊端 (Winsock) 應用程式。
 ms.assetid: 56af2e95-ea82-49e4-b335-86dcf4c38780
 title: 建立基本 Winsock 應用程式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a0d5b5695ddb3b329bb4f81da6149fcf740a4240
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 67b13acc0ae80242fb747415d457e6809895c38cd81878224cad2ffe130b2536
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113092"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119860948"
 ---
 # <a name="creating-a-basic-winsock-application"></a>建立基本 Winsock 應用程式
 
@@ -45,7 +45,7 @@ int main() {
 >
 > 如果應用程式使用 IP 協助程式 Api，則需要 *Iphlpapi .h* 標頭檔。 需要 *Iphlpapi .h* 標頭檔時，必須在 \#  \# *Iphlpapi .h* 標頭檔的包含行之前放置 Winsock2 標頭檔的 include 行。
 >
-> *Winsock2. h* 標頭檔內部包含來自 *Windows .h* 標頭檔的核心元素，因此 \# Winsock 應用程式中的 *Windows .h* 標頭檔通常不會有包含行。 如果 \# *Windows .h* 標頭檔需要包含行，則前面應該有 \# 定義 WIN32 的「精簡」和「MEAN」 \_ \_ \_ 宏。 基於歷史原因， *windows .h* 標頭預設為包含 Windows 通訊端1.1 的 *Winsock* 標頭檔。 *Winsock* 標頭檔中的宣告會與 Windows 通訊端2.0 所需的 *Winsock2* 標頭檔中的宣告相衝突。 WIN32 的「 \_ 精簡」和「MEAN」 \_ \_ 宏可防止在 *Windows .h* 標頭中包含 *Winsock. h。* 以下顯示說明這種情況的範例。
+> *Winsock2. h* 標頭檔集中包含 *Windows .h* 標頭檔中的核心元素，因此 \# Winsock 應用程式中的 *Windows .h* 標頭檔通常不會有包含的行。 如果 \# *Windows .h* 標頭檔需要包含行，則前面應該有 \# 定義 WIN32 的「精簡」和「MEAN」 \_ \_ \_ 宏。 基於歷史原因， *Windows .h* 標頭預設為包含 Windows 通訊端1.1 的 *Winsock. h* 標頭檔。 *Winsock* 標頭檔中的宣告會與 Windows 通訊端2.0 所需的 *Winsock2* 標頭檔中的宣告相衝突。 WIN32 的「 \_ 精簡」和「MEAN」 \_ \_ 宏可防止 *Windows .h* 標頭包含 *Winsock. h* 。 以下顯示說明這種情況的範例。
 
  
 

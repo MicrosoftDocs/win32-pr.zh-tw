@@ -4,12 +4,12 @@ description: BC7 格式是用於高品質 RGB 和 RGBA 資料壓縮的紋理壓�
 ms.assetid: DF333106-293E-4B3E-A1EB-B0BF0ADBAC72
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0b9b64c3d4a8b5e960077a9f33de82ff08cd4bbc
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
-ms.translationtype: HT
+ms.openlocfilehash: 0bd48826cc0c02be6d15a837c272442c0931e9660f507a90cb491acf4d5820ff
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382458"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119858218"
 ---
 # <a name="bc7-format"></a>BC7 格式
 
@@ -64,7 +64,7 @@ BC7 區塊可能包含多個端點配對。 基於本檔的目的，對應至端
 
 
 
- 
+ 
 
 BC7 在兩個端點之間的大約行定義調色盤。 模式值判斷每個區塊的端點配對插入數量。 BC7 在每個材質上儲存一個調色盤索引。
 
@@ -233,6 +233,6 @@ bitcount get_color_bitcount(block, mode)
 [Direct3D 11 中的材質區塊壓縮](texture-block-compression-in-direct3d-11.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ ms.assetid: c73fb4c5-20ae-4873-afd2-4f40eb47bade
 title: COM + 執行緒模型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a5f07b065861c042e68add633368a9c8b8ba41b2
-ms.sourcegitcommit: bf526e267d3991892733bdd229c66d5365cf244a
+ms.openlocfilehash: cd0949a27291be43b5981f24f4985fac6911937b2c9fa85785b4d662bd1bf546
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "103696035"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119793671"
 ---
 # <a name="com-threading-models"></a>COM + 執行緒模型
 

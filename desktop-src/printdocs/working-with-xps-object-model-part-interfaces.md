@@ -4,12 +4,12 @@ ms.assetid: c52f7044-890d-47d1-83f8-bae1f8d83139
 title: XPS OM 元件介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d81cbf17c26e4ba6c80199ee787b1ee11b28d260
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cc93023f251d96f557dfc351949b58f7b9a0b67d308903d83b182de8f710e110
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103944118"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119823898"
 ---
 # <a name="xps-om-part-interfaces"></a>XPS OM 元件介面
 
@@ -17,7 +17,7 @@ ms.locfileid: "103944118"
 
 
 
-| 介面名稱                                                                                                    | 邏輯子介面                                                                                                                                                                                                                                                                                     | Description                                                                                                  |
+| 介面名稱                                                                                                    | 邏輯子介面                                                                                                                                                                                                                                                                                     | 描述                                                                                                  |
 |-------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
 | [**IXpsOMPart**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompart)<br/>                                                                       | [**IXpsOMDocumentSequence**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomdocumentsequence)<br/> [**IXpsOMDocument**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomdocument)<br/> [**IXpsOMPageReference**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompagereference)<br/> [**IXpsOMCoreProperties**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomcoreproperties)<br/> [**IXpsOMResource**](/windows/win32/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomresource)<br/>    | 記錄組成檔結構的元件。<br/>                                          |
 | [**IXpsOMResource**](/windows/win32/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomresource)<br/> [**IXpsOMPartResources**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompartresources)<br/> | IXpsOMFontResource<br/> IXpsOMImageResource<br/> IXpsOMColorProfileResource<br/> IXpsOMPrintTicketResource<br/> IXpsOMRemoteDictionaryResource<br/> IXpsOMDocumentStructureResource<br/> IXpsOMStoryFragmentsResource<br/> IXpsOMSignatureBlockResource<br/> | 檔元件，其中包含在頁面或檔所使用或參考的元素。<br/> |

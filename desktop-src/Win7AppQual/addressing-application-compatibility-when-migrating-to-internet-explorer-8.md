@@ -4,16 +4,16 @@ ms.assetid: 3F79CF5F-416D-4C06-AAAE-D935F36CD2E2
 title: 在遷移至 Internet Explorer 8 時解決應用程式相容性問題
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f24fb4b0cbfb946f2385ddbd13ddc697987e659d
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: b806f7ed33e3ebd9ae4508c14b7fd285979de4fb8c90dbbac665025c97ed78e2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108088766"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119795888"
 ---
 # <a name="addressing-application-compatibility-when-migrating-to-internet-explorer-8"></a>在遷移至 Internet Explorer 8 時解決應用程式相容性問題
 
-本節概述如何測試應用程式相容性問題，以及如何在 Windows Internet Explorer 8 的 web 應用程式中解決這些問題。 下列主題描述 Internet Explorer 8 的變更，以及用來確保應用程式相容性的工具和技術。
+本節概述如何測試應用程式相容性問題，以及如何在 Windows Internet Explorer 8 的 web 應用程式中修正這些問題。 下列主題描述 Internet Explorer 8 的變更，以及用來確保應用程式相容性的工具和技術。
 
 
 

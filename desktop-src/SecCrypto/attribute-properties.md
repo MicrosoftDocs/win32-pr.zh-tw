@@ -4,12 +4,12 @@ ms.assetid: 1B3293A7-E03E-4870-B182-6145EE5B4773
 title: 屬性屬性
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 94cdc564eff4eb230f9c245123386d58f6aef98f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4d7ed3eb2773613ecadd1ce61cca5dc8af2654c4274f47c546073cb00065069b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320851"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119879918"
 ---
 # <a name="attribute-properties"></a>屬性屬性
 

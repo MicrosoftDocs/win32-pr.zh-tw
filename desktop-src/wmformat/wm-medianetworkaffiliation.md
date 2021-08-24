@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: acbb189a35816b115333a8af02d3f9f7ed259eb0
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: e1b4f8ce4a65f1738bc1a56e91a7082f9697e0e6278ea346dae29b0d9a6fc9ba
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103841255"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119771168"
 ---
 # <a name="wmmedianetworkaffiliation"></a>WM/MediaNetworkAffiliation
 
@@ -42,9 +42,9 @@ g \_ wszWMMediaNetworkAffiliation
 [**屬性清單**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -12,16 +12,16 @@ keywords:
 - 一般 MIDI 模式規格
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8df7e02dea62696f1076bd4e5e3030081b0dbe3a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3559a57b55dfd45eeaf59ffd2f12967509473028dc3e298c30b37d6602719742
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106967220"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119805338"
 ---
 # <a name="standard-midi-patch-assignments"></a>標準 MIDI 修補程式指派
 
-用來撰寫要與 Windows 搭配使用之 MIDI 檔案的標準 MIDI 修補程式指派是根據 (MMA) 一般 MIDI 模式規格的 MIDI 製造商關聯。 以下是標準的 MIDI 修補程式指派。
+用於撰寫要與 Windows 搭配使用之 midi 檔案的標準 midi 修補程式指派，是以 (MMA) 一般 midi 模式規格的 midi 製造商關聯為基礎。 以下是標準的 MIDI 修補程式指派。
 
 
 
@@ -74,11 +74,11 @@ ms.locfileid: "106967220"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

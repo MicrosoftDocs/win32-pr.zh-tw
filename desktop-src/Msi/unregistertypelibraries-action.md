@@ -4,12 +4,12 @@ ms.assetid: fea5bdc1-ac27-4d02-bcea-5c97366dd394
 title: UnregisterTypeLibraries 動作
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b399f80d940839c5e94028a9c32e706f4826341a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6066dbac7e63696f838375261fbb63e8348faf630a7439ec7531cdd71d4ace97
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106971650"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119810118"
 ---
 # <a name="unregistertypelibraries-action"></a>UnregisterTypeLibraries 動作
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: c70d30d68d73d6c4dd33d483747be4293a255693
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: fa00ef4585462f068e95fcefca8332acd46930efaf1bb1c108a471511ab63eb4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104323328"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119791008"
 ---
 # <a name="id3dxbaseeffectgetparameterbysemantic-method"></a>ID3DXBaseEffect：： GetParameterBySemantic 方法
 

@@ -6,12 +6,12 @@ keywords:
 - MCI_RECORD 命令
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4248b2d4bbdd984ad23a772f0adca04581afca1d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 27033dde148a6f99a1168eea4d6c0a97aea82881638ccb6d6f5535632e897148
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106965561"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119805508"
 ---
 # <a name="recording"></a>記錄
 
@@ -36,7 +36,7 @@ ms.locfileid: "106965561"
 > [!Note]  
 > 如果您在未儲存的情況下關閉裝置，則會遺失記錄的資料。
 
- 
+ 
 
 ## <a name="checking-input-levels-pcm-only"></a>只 (PCM 檢查輸入層級) 
 
@@ -44,9 +44,9 @@ ms.locfileid: "106965561"
 
 輸入層級會以不帶正負號的值表示。 若為8位範例，此值的範圍介於0到 127 (0x7F) 。 在16位範例中，它的範圍是0到 32767 (0x7FFF) 。
 
- 
+ 
 
- 
+ 
 
 
 

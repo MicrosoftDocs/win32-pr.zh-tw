@@ -13,19 +13,19 @@ api_type:
 - DllExport
 api_location:
 - NlsMap.dll
-ms.openlocfilehash: 2f8e4ce9763348cf765522ebbd624a6e82f1071a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b96d0c983c46c5d16007aae3a59659099a48855048194153d0c8102d26dc5bd2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980001"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119898718"
 ---
 # <a name="downlevellcidtolocalename-function"></a>DownlevelLCIDToLocaleName 函式
 
 將 [地區設定識別碼](locale-identifiers.md) 轉換為 [地區設定名稱](locale-names.md)。
 
 > [!Note]  
-> 只有在 Windows Vista 之前的作業系統上執行的應用程式，才會使用此函式。 其用途需要下載套件。 只在 Windows Vista 和更新版本上執行的應用程式，應該呼叫 [**LCIDToLocaleName**](/windows/desktop/api/Winnls/nf-winnls-lcidtolocalename) 來取得地區設定名稱。
+> 此函式僅適用于在預先 Windows Vista 作業系統上執行的應用程式。 其用途需要下載套件。 只在 Windows Vista 和更新版本上執行的應用程式，應該呼叫 [**LCIDToLocaleName**](/windows/desktop/api/Winnls/nf-winnls-lcidtolocalename)來取得地區設定名稱。
 
  
 
@@ -106,8 +106,8 @@ int DownlevelLCIDToLocaleName(
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                                         |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                                         |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                |
 | 可轉散發套件<br/>          | Microsoft NLS 下層資料對應 Api 于 windows XP SP2 和 laterorWindows Vista<br/> |
 | 標頭<br/>                   | <dl> <dt>Nlsdl。h</dt> </dl>                  |
 | DLL<br/>                      | <dl> <dt>NlsMap.dll</dt> </dl>               |

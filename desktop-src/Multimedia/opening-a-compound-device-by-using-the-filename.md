@@ -6,12 +6,12 @@ keywords:
 - mciSendCommand 函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 20eb271658f77c5af4d35db96dd7bdbe6753af08
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 9c5ef021c283337c0cea2085d79fefa91667ce1dac095ff7ae17fcc448c9461c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104314893"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119806358"
 ---
 # <a name="opening-a-compound-device-by-using-the-filename"></a>使用檔案名開啟複合裝置
 
@@ -43,6 +43,6 @@ wDeviceID = mciOpenParms.wDeviceID;
 
 
 
- 
+ 
 
- 
+ 

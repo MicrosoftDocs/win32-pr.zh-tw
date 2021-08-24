@@ -25,12 +25,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b1153a4eb8a260e539845a9458a5c8cee4581d30
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 07a826200fbfab7ff99705447cb6394b858e2ce744458f04ae1d08082e0f40e8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106965474"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119768908"
 ---
 # <a name="win32_workspace-class"></a>Win32 \_ Workspace 類別
 

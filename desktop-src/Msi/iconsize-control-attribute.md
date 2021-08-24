@@ -4,12 +4,12 @@ ms.assetid: 2d4d3689-a45a-4088-b466-e2b3bf4c8fb5
 title: IconSize 控制項屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7cb615a53c589ebc2ad2cafb8a2ff7dec902865e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9f7323d9c3d8dc9bef1bfd4cd275a20dfcadaa3be946bc78fd358a2d6484db53
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026633"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119894198"
 ---
 # <a name="iconsize-control-attribute"></a>IconSize 控制項屬性
 
@@ -29,7 +29,7 @@ ms.locfileid: "104026633"
 
 
 
-| Decimal | 十六進位 | Description                          |
+| Decimal | 十六進位 | 描述                          |
 |---------|-------------|--------------------------------------|
 | 2097152 | 0x00200000  | **msidbControlAttributesIconSize16** |
 | 4194304 | 0x00400000  | **msidbControlAttributesIconSize32** |

@@ -6,16 +6,16 @@ keywords:
 - Windows 上的 OpenGL、元件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c1294745938e245deda8296f2ce4d1df386b9f2
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c11c8d23130393102f39b716e16c0a6433a40122ad176a525b40e2e1a21b0360
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106969059"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119868778"
 ---
 # <a name="components"></a>單元
 
-Microsoft 在 Windows 中執行 OpenGL 的功能包括下列元件：
+Microsoft 在 Windows 中執行 OpenGL 包含下列元件：
 
 -   目前的 OpenGL 命令的完整集合
 
@@ -41,15 +41,15 @@ Microsoft 在 Windows 中執行 OpenGL 的功能包括下列元件：
 
 -   WGL 函式
 
-    這組函式會將 OpenGL 連接至 Windows 視窗化系統。 這些函式會管理轉譯內容、顯示清單、擴充功能和字型點陣圖。 WGL 函式類似于將 OpenGL 連接至 X 視窗系統的 GLX 擴充功能。 這些函數的名稱具有 "wgl" 前置詞。
+    這組函式會將 OpenGL 連接到 Windows 視窗化系統。 這些函式會管理轉譯內容、顯示清單、擴充功能和字型點陣圖。 WGL 函式類似于將 OpenGL 連接至 X 視窗系統的 GLX 擴充功能。 這些函數的名稱具有 "wgl" 前置詞。
 
--   適用于像素格式和雙重緩衝的新 Windows 函數
+-   像素格式和雙重緩衝的新 Windows 函式
 
     這些函式支援每個視窗的像素格式和雙重緩衝 (，以) windows 的平滑影像變更。 這些新功能只適用于 OpenGL 圖形視窗。
 
- 
+ 
 
- 
+ 
 
 
 

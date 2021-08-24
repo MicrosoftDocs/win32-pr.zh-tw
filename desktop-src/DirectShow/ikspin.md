@@ -1,5 +1,5 @@
 ---
-description: IKsPin 介面會提供方法，以在核心模式篩選器上取出 pin 所支援的媒體。 除了此處所示的 IKsPin 之外，還有其他方法，但不支援 DirectShow。
+description: IKsPin 介面會提供方法，以在核心模式篩選器上取出 pin 所支援的媒體。 除了此處所示的 IKsPin 之外，還有其他方法，但 DirectShow 不支援。
 ms.assetid: 14d9bef2-e8f0-49d5-bd89-69a95814cf8c
 title: 'IKsPin 介面 (Ksproxy .h) '
 ms.topic: reference
@@ -14,16 +14,16 @@ api_type:
 api_location:
 - Strmiids.lib
 - Strmiids.dll
-ms.openlocfilehash: 3d65e5ba5525b977ebae27da9964579614a1d653
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 8855378544bcc2ea7357af220b5d80d32edde74a50c304e973c9821aa8e9a41c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106967009"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119792328"
 ---
 # <a name="ikspin-interface"></a>IKsPin 介面
 
-`IKsPin`介面會提供方法，以在核心模式篩選器上取得 pin 所支援的媒體。 `IKsPin` 除了此處所示的以外，還有其他方法，但不支援 DirectShow。
+`IKsPin`介面會提供方法，以在核心模式篩選器上取得 pin 所支援的媒體。 `IKsPin`除了此處所示的以外，還有其他方法，但 DirectShow 不支援。
 
 ## <a name="members"></a>成員
 

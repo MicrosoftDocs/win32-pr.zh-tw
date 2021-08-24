@@ -4,12 +4,12 @@ ms.assetid: ced2098f-5462-40d7-a728-4e53f7f41003
 title: 一般 XPS 檔程式設計工作
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 92c40ee0c901b9d906d4d59c69bab4cfc22d8208
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fb7f71614344968bcc68e658021e1f34296a595d9fbf58be2d544c03c3dc428f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106996727"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119846348"
 ---
 # <a name="common-xps-document-programming-tasks"></a>一般 XPS 檔程式設計工作
 

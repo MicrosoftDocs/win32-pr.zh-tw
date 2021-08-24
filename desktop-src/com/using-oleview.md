@@ -4,12 +4,12 @@ description: 使用 OleView
 ms.assetid: e4b80b78-0e66-4e67-a4a0-6acd3263d572
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 035cc33ce3f0bb833b455e5b8500186e8c884661
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7729cf2091b4cfe30b1e43877ae961c06dff263f6ada623c6b901f6f4c0b19a7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104311391"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119896168"
 ---
 # <a name="using-oleview"></a>使用 OleView
 
@@ -24,9 +24,9 @@ OleView 會提供登錄中所含資訊的更高層級視圖。 與其查看較�
 [註冊 COM 應用程式](registering-com-applications.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

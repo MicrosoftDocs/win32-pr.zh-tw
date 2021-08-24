@@ -3,7 +3,7 @@ title: 'WM_CAP_DRIVER_DISCONNECT 訊息 (Vfw .h) '
 description: '[WM \_ CAP \_ 驅動程式 \_ 中斷連線] 訊息會中斷捕捉驅動程式與捕捉視窗的連線。 您可以使用 capDriverDisconnect 宏明確地傳送此訊息。'
 ms.assetid: a420f24a-aa7d-4788-9120-2c11e5e2c14c
 keywords:
-- WM_CAP_DRIVER_DISCONNECT message Windows 多媒體
+- WM_CAP_DRIVER_DISCONNECT 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: acad628cc61bbb50c56f68fda91ac87be4feb728
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f6365366c6ea37b36734262d1d7a8412a7729406ff3fcc12e10ae9ba55d9ba84
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934250"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119803858"
 ---
 # <a name="wm_cap_driver_disconnect-message"></a>WM \_ CAP \_ 驅動程式 \_ 中斷連線訊息
 

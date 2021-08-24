@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - WindowsCodecsExt.dll
-ms.openlocfilehash: 29d29bfd925d979897b22711c748083b94673142
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: fcfe124d03e9ad41edb49554613bc18b2cd15818b3f52db7ca368e27f5c4fcc9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995279"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119841368"
 ---
 # <a name="iwiccolortransform_initialize_proxy-function"></a>IWICColorTransform \_ Initialize \_ Proxy 函式
 

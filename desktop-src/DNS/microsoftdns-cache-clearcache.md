@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3ec9ee2edb05362c56e2f011a5fbf35592d74ebd
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 913b4ae23a7e8f5e0ee9b08f48924ea44553038dabc73b2b5367786d8dd44a0c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934381"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119825238"
 ---
 # <a name="clearcache-method-of-the-microsoftdns_cache-class"></a>MicrosoftDNS Cache 類別的 ClearCache 方法 \_
 

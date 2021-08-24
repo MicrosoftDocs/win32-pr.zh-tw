@@ -4,12 +4,12 @@ ms.assetid: 713c95ae-e5d0-416c-ba0c-4b5399aa8a33
 title: Netscape 延伸模組的常數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 06999a879d0d289bb95cdb8ba5506200154d60e4
-ms.sourcegitcommit: 6515eef99ca0d1bbe3e27d4575e9986f5255f277
+ms.openlocfilehash: 315d27039bf29220f1a7cdfba82baa1350da084025f436aa1b4746d7e92f5c2c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "103853959"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119876748"
 ---
 # <a name="constants-for-netscape-extensions"></a>Netscape 延伸模組的常數
 

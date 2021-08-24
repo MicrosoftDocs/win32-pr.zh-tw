@@ -4,16 +4,16 @@ ms.assetid: 8109582a-74f0-47e8-91d1-0d89c3d3c331
 title: 'ITSdp：： get_MediaCollection 方法 (Sdpblb .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9f8812debf8c04fe022f24061660d6ea3bb5f162
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4cf358089a394775c753adc0642897021e91df5bfcd5f23418e638df82db03a1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994644"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119774508"
 ---
 # <a name="itsdpget_mediacollection-method"></a>ITSdp：： get \_ MediaCollection 方法
 
-\[ 在 Windows Vista、Windows Server 2008 和後續版本的作業系統中，無法使用會合 IP 電話語音會議控制項和介面。 RTC 用戶端 API 提供類似的功能。\]
+\[Windows Vista、Windows Server 2008 及後續版本的作業系統無法使用會合 IP 電話語音會議控制項和介面。 RTC 用戶端 API 提供類似的功能。\]
 
 **Get \_ MediaCollection** 方法會取得會議的 [**ITMediaCollection**](itmediacollection.md)介面指標。
 

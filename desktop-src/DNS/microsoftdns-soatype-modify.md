@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1ff40abc7f4e93b7122a1c48889c17f9efc4f625
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 74785804ebed8266443f0dd708a5d122e350a6cf88b91f228d2ce266481dffaa
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104024715"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119825078"
 ---
 # <a name="modify-method-of-the-microsoftdns_soatype-class"></a>Modify MicrosoftDNS \_ SOAType 類別的方法
 
@@ -64,7 +64,7 @@ SOA 序號，代表區域已更新的次數， [*次要伺服器*](s-gly.md) 會
 
 </dd> <dt>
 
-*>primaryserver* \[在中，選擇性\]
+*>Primaryserver* \[在中，選擇性\]
 </dt> <dd>
 
 主伺服器的名稱。

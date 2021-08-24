@@ -8,12 +8,12 @@ keywords:
 - 影片串流，設定
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d9d2389026dc1061064c5e687da60c3350ad94a4
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 22bc6e011f32d1ea9a9905c718ad8ff0c13f7d57650a30316ecfec6332978fdb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "106966841"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119809588"
 ---
 # <a name="configuring-video-streams"></a>設定影片串流
 
@@ -34,7 +34,7 @@ ms.locfileid: "106966841"
 
 
 
- 
+ 
 
 如果影片內容的大小為四個的寬度和高度的倍數，則無法正確播放影片內容。 例外狀況是 [*RGB*](wmformat-glossary.md) 未壓縮影片，可能是任何大小。 如果您嘗試設定的大小不是4的倍數，則寫入器會傳回下列其中一個錯誤：
 
@@ -50,7 +50,7 @@ ms.locfileid: "106966841"
 
 
 
-| 設定                 | Description                                         |
+| 設定                 | 描述                                         |
 |-------------------------|-----------------------------------------------------|
 | g \_ wszComplexityMax     | 編解碼器支援的最高品質層級。   |
 | g \_ wszComplexityOffline | 離線播放的建議品質層級。   |
@@ -58,7 +58,7 @@ ms.locfileid: "106966841"
 
 
 
- 
+ 
 
 若要在設定檔中設定影片串流的複雜度，請使用 [**IWMPropertyVault：： SetProperty**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmpropertyvault-setproperty) 方法，並使用 g \_ wszComplexity 屬性。 您設定的值必須小於或等於編解碼器支援的最大複雜度。
 
@@ -75,9 +75,9 @@ ms.locfileid: "106966841"
 [**影片複雜性設定**](video-complexity-settings.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

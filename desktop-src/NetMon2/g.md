@@ -4,12 +4,12 @@ ROBOTS: NOINDEX, NOFOLLOW
 title: 'G (網路監視器) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4a7e4318f09fdb0fcbcfdd00cf0deed4e47aaf77
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bf508e0104b418542a671a0db7ff2ba9ba330eaf1485dc1daaa3613e7abaef85
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106966673"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119910898"
 ---
 # <a name="g-network-monitor"></a>G (網路監視器) 
 

@@ -15,16 +15,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 24d6df46e7c698676e3873dd17a854fd0b7d7933
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 525762f66798b95562958fb204119beda1d76a8b94a60a11a7171b0d0b2951e9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464189"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119768158"
 ---
 # <a name="ivmharddisk-interface"></a>IVMHardDisk 介面
 
-\[Windows 8 不能再使用 Windows Virtual PC。 請改為使用 [HYPER-V WMI 提供者 (V2) ](/windows/desktop/HyperV_v2/windows-virtualization-portal)。\]
+\[WindowsVirtual PC 不再適用于 Windows 8。 請改為使用 [HYPER-V WMI 提供者 (V2) ](/windows/desktop/HyperV_v2/windows-virtualization-portal)。\]
 
 提供硬碟影像的存取。 您可以透過 [**IVMHardDiskConnection：：硬碟**](ivmharddiskconnection-harddisk.md) 屬性或 [**IVMVirtualPC：： GetHardDisk**](ivmvirtualpc-getharddisk.md) 方法來存取它。
 
@@ -58,7 +58,7 @@ ms.locfileid: "104464189"
 
 
 
-| 屬性                                                              | 存取類型           | Description                                                                                    |
+| 屬性                                                              | 存取類型           | 描述                                                                                    |
 |:----------------------------------------------------------------------|:----------------------|:-----------------------------------------------------------------------------------------------|
 | [**檔案**](ivmharddisk-file.md)<br/>                           | 唯讀<br/>  | 虛擬硬碟檔案的完整路徑名稱。<br/>                                   |
 | [**HostFreeDiskSpace**](ivmharddisk-hostfreediskspace.md)<br/> | 唯讀<br/>  | 虛擬硬碟的主機上可用的剩餘磁碟空間量。<br/> |
@@ -77,7 +77,7 @@ ms.locfileid: "104464189"
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                                    |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                     |
 | 用戶端支援結束<br/>    | Windows 7<br/>                                                                          |
 | 產品<br/>                  | Windows Virtual PC<br/>                                                                 |

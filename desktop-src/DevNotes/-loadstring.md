@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Msmdun80.dll
 - Sqlunirl.dll
-ms.openlocfilehash: 361740a4c900e4aedceea4429e549ea8730a1366
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5a4333aa8267a137a7a4ebf7ca0c94d4f4ee7198062ddfb560d2231b30c2d0e3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107001506"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119911718"
 ---
 # <a name="_loadstring-function"></a>\_Loadstring 時函式
 

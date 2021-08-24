@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 50b12f2184f6eca0fd7a68feb3e96d8d6fc65a61
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 7b5c715f5f2bb7edfaa149cf0da77db5fbca8d47636b6f84fd07071c3b75186e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104022356"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119788318"
 ---
 # <a name="texture3d"></a>Texture3D
 
@@ -39,7 +39,7 @@ Texture3D 類型 ([存在於著色器模型 4](dx-graphics-hlsl-to-type.md)) 加
 
 
 
- 
+ 
 
 ## <a name="minimum-shader-model"></a>最小著色器模型
 
@@ -53,19 +53,19 @@ Texture3D 類型 ([存在於著色器模型 4](dx-graphics-hlsl-to-type.md)) 加
 
 
 
- 
+ 
 
 下列著色器類型支援此物件：
 
 
 
-| 頂點 | 船體 | 網域 | 幾何 | 像素 | 計算 |
+| 頂點 | 船體 | 網域 | 幾何形狀 | 像素 | 計算 |
 |--------|------|--------|----------|-------|---------|
 | x      | x    | x      | x        | x     | x       |
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>另請參閱
 
@@ -74,9 +74,9 @@ Texture3D 類型 ([存在於著色器模型 4](dx-graphics-hlsl-to-type.md)) 加
 [著色器模型5物件](d3d11-graphics-reference-sm5-objects.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

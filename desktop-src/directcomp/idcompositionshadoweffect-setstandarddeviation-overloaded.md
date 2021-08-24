@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: d92f9efae044368b689a4b3d4e1802c0c4a71993
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3a0bd4de7297cd080397406cd26a636869ce176b1d9e85bfcaeba7d799361108
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106979550"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119844248"
 ---
 # <a name="idcompositionshadoweffectsetstandarddeviation-methods"></a>IDCompositionShadowEffect：： SetStandardDeviation 方法
 

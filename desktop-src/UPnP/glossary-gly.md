@@ -4,12 +4,12 @@ description: 包含 UPnP 相關詞彙的定義。
 ms.assetid: d19c5dd5-0e6c-420f-9bfe-7eb1f3be11b2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 62e4a04137cc35a9ffaf845d85577555ff7d6e52
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 1745c0cf66c7c58c5c00e791bffaeb0f2d0aaaa8215fdc1e9af1b60742873b73
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104464084"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119768628"
 ---
 # <a name="glossary-upnp-apis"></a> (UPnP Api) 的詞彙
 

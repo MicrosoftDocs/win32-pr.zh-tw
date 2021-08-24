@@ -64,12 +64,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d7b7be04c149e2ac10c1a3e905678bd2b5f663cd
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c8ce72d7cc26dc3fd7b60b7f1d4f26d2737980dfde88a1b31c79a59fb4335f96
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103933997"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119770998"
 ---
 # <a name="imstscaxserver-property"></a>IMsTscAx：： Server 屬性
 
@@ -102,7 +102,7 @@ HRESULT get_Server(
 
 ## <a name="remarks"></a>備註
 
-呼叫 [**Connect**](imstscax-connect.md) 方法之前，必須先設定這個屬性。 它是唯一必須在連接之前設定的屬性。
+在呼叫 [**連線**](imstscax-connect.md)方法之前，必須先設定這個屬性。 它是唯一必須在連接之前設定的屬性。
 
 只有當控制項不是處於連接狀態時，才能設定這個屬性。 如果在連接控制項時呼叫這個屬性，則這個屬性會傳回 **E \_ FAIL** 。 您可以使用 [**連接**](imstscax-connected.md) 的屬性來檢查連接的狀態。
 

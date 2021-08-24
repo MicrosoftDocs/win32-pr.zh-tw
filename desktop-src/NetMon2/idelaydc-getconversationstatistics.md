@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: d4d4c1bb1ad7ecb45b640c16322e297f9f640ef1
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 60fc768a1b93a752a91d431e79fb3e875416ac2b82b2bad5603e3d4cddaccbaf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108103806"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119910568"
 ---
 # <a name="idelaydcgetconversationstatistics-method"></a>IDelaydC：： GetConversationStatistics 方法
 
@@ -87,11 +87,11 @@ DWORD 的指標，其中包含記錄給目前 capture 的 [*電臺*](s.md) 數�
 
 
 
-| 傳回碼                                                                                                   | Description                                                                                                                                                                                                                            |
+| 傳回碼                                                                                                   | 描述                                                                                                                                                                                                                            |
 |---------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <dl> <dt>**NMERR \_ 未 \_ 連接**</dt> </dl>          | NPP 未連接到網路。 呼叫 [IDelaydC：： connect](idelaydc-connect.md) 以將 NPP 連接到網路。<br/>                                                                                                  |
+| <dl> <dt>**NMERR \_ 未 \_ 連接**</dt> </dl>          | NPP 未連接到網路。 呼叫[IDelaydC：：連線](idelaydc-connect.md)將 NPP 連接到網路。<br/>                                                                                                  |
 | <dl> <dt>**NMERR \_ 未 \_ 捕獲**</dt> </dl>          | NPP 不會捕捉資料。 呼叫 [IDelaydC：： start](idelaydc-start.md) 以開始捕獲。<br/>                                                                                                                             |
-| <dl> <dt>**NMERR \_ 未 \_ 延遲**</dt> </dl>            | NPP 已連接到網路，但不是使用 [IDelaydC：： Connect](idelaydc-connect.md) 方法。<br/>                                                                                                                      |
+| <dl> <dt>**NMERR \_ 未 \_ 延遲**</dt> </dl>            | NPP 是連接到網路，但不是使用[IDelaydC：：連線](idelaydc-connect.md)方法。<br/>                                                                                                                      |
 | <dl> <dt>**NMERR \_ 沒有 \_ 交談 \_ 統計資料**</dt> </dl> | 此連接的設定會設定為 [不儲存對話統計資料]。 若要儲存對話統計資料，請停止 capture，在設定 BLOB 中設定 NoConversationStats = YES，然後重新開機 capture。<br/> |
 
 
@@ -124,7 +124,7 @@ DWORD 的指標，其中包含記錄給目前 capture 的 [*電臺*](s.md) 數�
 [IDelaydC](idelaydc.md)
 </dt> <dt>
 
-[IDelaydC：： Connect](idelaydc-connect.md)
+[IDelaydC：：連線](idelaydc-connect.md)
 </dt> <dt>
 
 [IDelaydC::GetTotalStatistics](idelaydc-gettotalstatistics.md)

@@ -4,20 +4,20 @@ ms.assetid: b063989a-fe92-4c2c-9d66-8a14bc830f6b
 title: enrollKeyArchivalCMC
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 144f5f063834c156da5058fbc34f66ebdb76eb3d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d9e2e9856309560e982e7e1dda7ba724fefd0759e6fa10196b321eb66947cf64
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974078"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119882948"
 ---
 # <a name="enrollkeyarchivalcmc"></a>enrollKeyArchivalCMC
 
 EnrollKeyArchivalCMC 範例會建立 CMC 憑證要求，以在憑證授權單位單位 (CA) 封存私密金鑰。 如需詳細資訊，請參閱 [CMC 金鑰保存要求](cmc-key-archival-request.md)。
 
-## <a name="location"></a>Location
+## <a name="location"></a>位置
 
-當您安裝 Microsoft Windows 軟體開發套件 (SDK) 時，此範例預設會安裝在 *% ProgramFiles%* \\ Microsoft sdk \\ Windows \\ 7.0 版 \\ 範例 \\ 安全性 \\ X509 憑證註冊 \\ VC \\ enrollKeyArchivalCMC 資料夾中。
+當您安裝 Microsoft Windows 軟體開發套件 (SDK) 時，預設會在 *% ProgramFiles%* \\ Microsoft sdk \\ Windows \\ 7.0 版 \\ 範例 \\ 安全性 \\ X509 憑證註冊 \\ VC \\ enrollKeyArchivalCMC 資料夾中安裝範例。
 
 ## <a name="discussion"></a>討論
 

@@ -4,12 +4,12 @@ description: 判斷這個 DXCore 介面卡物件是否仍然有效。
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 06/20/2019
-ms.openlocfilehash: f58d8607b75253efda2e111eb358f576d36b65f0
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 6b8a0ccadb46f20db9c5f2a23ac8709b391254ee453f05424dadee309f33fc40
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104023854"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119842538"
 ---
 # <a name="idxcoreadapterisvalid-method"></a>IDXCoreAdapter：： IsValid 方法
 
@@ -25,7 +25,7 @@ virtual bool STDMETHODCALLTYPE IsValid() = 0;
 
 類型： **bool**
 
- `true`   如果這個 DXCore 介面卡物件仍然有效，則會傳回。 否則，會傳回  `false` 。
+`true`如果這個 DXCore 介面卡物件仍然有效，則會傳回。 否則傳回 `false`。
 
 ## <a name="see-also"></a>另請參閱
 

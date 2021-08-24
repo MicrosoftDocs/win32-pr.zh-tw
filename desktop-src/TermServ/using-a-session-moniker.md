@@ -5,12 +5,12 @@ ms.assetid: de4967b6-6a53-4888-84f9-3fa29cbebe34
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 700d251aa1136747529b66b975d4cbedf9b14dcf
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 788fc5c65c3e2efd3e566a3fdde6982fefe5bb14fbefd98ca8abd335955b7efc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104316183"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119868848"
 ---
 # <a name="using-a-session-moniker"></a>使用會話的標記
 
@@ -82,10 +82,10 @@ OLECHAR string[] =
 > [!Note]  
 > 如果相同的使用者在跨會話啟用期間登入每個會話，您可以成功地啟用任何設定為在 RunAs 互動式使用者啟用模式中執行的伺服器進程。 如果有不同的使用者登入每個會話，則伺服器必須呼叫 [**CoInitializeSecurity**](/windows/win32/api/combaseapi/nf-combaseapi-coinitializesecurity) 函式來設定適當的使用者權限，才能成功啟用，而且用戶端與伺服器之間可能會發生連接。 達成此目的的方法之一，是讓伺服器執行自訂 [**IAccessControl**](/windows/win32/api/iaccess/nn-iaccess-iaccesscontrol) 介面，並將實作為傳遞至 **CoInitializeSecurity**。 在任何情況下，用戶端使用者都必須具有在伺服器上執行之應用程式所指定的適當 [**啟動**](../com/launchpermission.md) 和 [**存取權限**](../com/accesspermission.md) 。 如需詳細資訊，請參閱 [COM 中的安全性](../com/security-in-com.md)。
 
- 
+ 
 
 For more information about system-supplied monikers and monikers and activation modes, see [Monikers](../com/monikers.md), the [**IMoniker**](/windows/win32/api/objidl/nn-objidl-imoniker) interface, and [AppId Key](/windows/desktop/com/appid-key) in the COM documentation in the Platform Software Development Kit (SDK).
 
- 
+ 
 
- 
+ 

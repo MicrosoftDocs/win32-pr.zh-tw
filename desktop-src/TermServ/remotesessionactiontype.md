@@ -15,12 +15,12 @@ api_type:
 - LibDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 291bb9fdd2cadfef3881bc27a47f9fc1bb1bce68
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a107ee44f058d776a906fef37b2e384ed6d8970224c44a6846b257c5f336c515
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106967324"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119865708"
 ---
 # <a name="remotesessionactiontype-enumeration"></a>RemoteSessionActionType 列舉
 
@@ -86,7 +86,7 @@ typedef enum _RemoteSessionActionType {
 
 使動作中心顯示在遠端會話中。 這與按下 Win + A 的使用者相同。
 
-**Windows server 2012 R2、Windows 8.1、Windows server 2012 和 Windows 8：** 在 Windows Server 2016 和 Windows 10 之前，不支援這個值。
+**Windows Server 2012 R2、Windows 8.1、Windows Server 2012 和 Windows 8：** Windows Server 2016 和 Windows 10 之前，不支援這個值。
 
 </dd> </dl>
 

@@ -4,12 +4,12 @@ ms.assetid: 57BFE32C-927E-4F75-9EB7-40578204637B
 title: IX509ExtensionSmimeCapabilities 屬性
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c5ae158256569b8bf4d50d8d6a03507e4da48410
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fd2713e29bb70334b7581df353f9e09562477fab146863b31e54527d59aec791
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106983794"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119881328"
 ---
 # <a name="ix509extensionsmimecapabilities-properties"></a>IX509ExtensionSmimeCapabilities 屬性
 

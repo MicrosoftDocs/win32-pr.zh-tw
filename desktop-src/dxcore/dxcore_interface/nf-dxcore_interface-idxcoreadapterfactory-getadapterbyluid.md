@@ -4,12 +4,12 @@ description: 取得指定之 LUID 的 DXCore 介面卡物件 ([IDXCoreAdapter](.
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 06/20/2019
-ms.openlocfilehash: 30835948978e5c7f3f11f903322e4fa41f71d210
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: d8f72aba23b9a1f57094b39e5afba3740f8749348c6a2da6a8753f72a7a0e6ef
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104376165"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119787049"
 ---
 # <a name="idxcoreadapterfactorygetadapterbyluid-method"></a>IDXCoreAdapterFactory：： GetAdapterByLuid 方法
 

@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 270d34d26117a7d615b133c46e00e913f1831500
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 664b5728d73aefc4a64d15e7ae444171e24b1b1e439eb04deb2b2e5cb57f5a22
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106972899"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119804208"
 ---
 # <a name="ms-ds-disable-for-instances-bl-attribute"></a>ms-DS-停用-實例-BL 屬性
 
@@ -52,7 +52,7 @@ ms.locfileid: "106972899"
 |------------------------|---------------------------------|
 | 連結識別碼                | 2043                            |
 | MAPI-Id                | \-                              |
-| System-Only            | 對                            |
+| System-Only            | 是                            |
 | 是-單一值       | 否                           |
 | 已編制索引             | 否                           |
 | 在通用類別目錄中      | 否                           |

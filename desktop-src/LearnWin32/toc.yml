@@ -7,7 +7,7 @@
           href: introduction-to-windows-programming-in-c--.md
         - name: 準備您的開發環境
           href: prepare-your-development-environment.md
-        - name: Windows 編碼慣例
+        - name: Windows編碼慣例
           href: windows-coding-conventions.md
         - name: 處理字串
           href: working-with-strings.md
@@ -15,7 +15,7 @@
           href: what-is-a-window-.md
         - name: WinMain：應用程式進入點
           href: winmain--the-application-entry-point.md
-    - name: 模組1。 您的第一個 Windows 程式
+    - name: 模組1。 您的第一個 Windows 計畫
       items:
         - name: 概觀
           href: your-first-windows-program.md
@@ -31,7 +31,7 @@
           href: closing-the-window.md
         - name: 管理應用程式狀態
           href: managing-application-state-.md
-    - name: 模組2。 在您的 Windows 程式中使用 COM
+    - name: 模組2。 在 Windows 程式中使用 COM
       items:
         - name: 概觀
           href: module-2--using-com-in-your-windows-program.md
@@ -55,11 +55,11 @@
           href: com-coding-practices.md
         - name: COM 中的錯誤處理
           href: error-handling-in-com.md
-    - name: 模組3。 Windows 圖形
+    - name: 模組3。 Windows圖形
       items:
         - name: 概觀
           href: module-3---windows-graphics.md
-        - name: Windows 圖形架構總覽
+        - name: Windows 圖形架構的總覽
           href: overview-of-the-windows-graphics-architecture.md
         - name: 桌面視窗管理員
           href: the-desktop-window-manager.md
@@ -99,11 +99,11 @@
           href: setting-the-cursor-image.md
         - name: 使用者輸入：擴充的範例
           href: user-input--extended-example.md
-    - name: 使用 Win32 的開始：範例程式碼
+    - name: 使用 Win32 的入門：範例程式碼
       items:
         - name: 概觀
           href: learn-to-program-for-windows--sample-code.md
-        - name: Windows Hello World 範例
+        - name: Windows Hello世界範例
           href: windows-hello-world-sample.md
         - name: BaseWindow 範例
           href: basewindow-sample.md

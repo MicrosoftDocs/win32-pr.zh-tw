@@ -4,12 +4,12 @@ ms.assetid: 9b1b25b5-b190-47c2-8d43-fa3964e87a6f
 title: ICE94
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d8ce52e88a31e246eb4d69defba77b64c2955eb8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1dd203fe35b6bedc7d36f3e5a5c18fc6a235d3e65924b41909803e67ab79337e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194395"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119894888"
 ---
 # <a name="ice94"></a>ICE94
 
@@ -21,7 +21,7 @@ ICE94 會張貼下列警告。
 
 
 
-| ICE94 警告                                                                                | Description                                                                            |
+| ICE94 警告                                                                                | 描述                                                                            |
 |----------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
 | 未公告的快捷方式 ' \[ 2 \] ' 會指向全域組件快取中的元件檔案。 | Unadvertised 快捷方式指向全域組件快取中的元件檔案。 |
 

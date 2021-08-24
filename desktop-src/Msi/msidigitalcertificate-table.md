@@ -4,22 +4,22 @@ ms.assetid: 834534b8-540a-48c2-8eb0-3511d5a20cb4
 title: MsiDigitalCertificate 資料表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ff4765dee433cfab989e79c7ef4663d8939381ba
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 443e5f27d13ebd823fa8e5362de474082d39e4b09b9e240b9ee16e9924342e41
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103692384"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119828778"
 ---
 # <a name="msidigitalcertificate-table"></a>MsiDigitalCertificate 資料表
 
 MsiDigitalCertificate 資料表會以二進位資料流程格式儲存憑證，並將每個憑證與主鍵產生關聯。 主要金鑰是用來在多個數位簽署的物件之間共用憑證。 數位憑證是提供驗證身分識別方法的認證。 如需詳細資訊，請參閱 Microsoft Windows 軟體開發套件 (SDK) 的[密碼](../seccrypto/cryptography-portal.md)編譯一節中的[數位憑證](../seccrypto/digital-certificates.md)。
 
-從 Windows Installer 版本2.0 開始，可以使用 [MsiDigitalSignature](msidigitalsignature-table.md) 和 MsiDigitalCertificate 資料表。
+從 Windows Installer 版本2.0 開始，可以使用[MsiDigitalSignature](msidigitalsignature-table.md)和 MsiDigitalCertificate 資料表。
 
-Windows Installer 可以使用數位簽章作為偵測損毀資源的途徑。 Windows Installer 版本2.0 只能驗證外部封包的數位簽章，而且只會使用 [MsiDigitalSignature](msidigitalsignature-table.md) 和 MsiDigitalCertificate 資料表。
+Windows安裝程式可以使用數位簽章來偵測損毀的資源。 Windows安裝程式版本2.0 只能驗證外部封包的數位簽章，而且只能透過使用[MsiDigitalSignature](msidigitalsignature-table.md)和 MsiDigitalCertificate 資料表。
 
-從 Windows Installer 版本3.0 開始，Windows Installer 可以使用 [MsiPatchCertificate](msipatchcertificate-table.md) 和 MsiDigitalCertificate 資料表來確認修補程式 () .msp 檔案的數位簽章。 如需詳細資訊，請參閱撰寫安全安裝和[使用者帳戶控制 (UAC) 修補](user-account-control--uac--patching.md)[的指導方針](guidelines-for-authoring-secure-installations.md)。
+從 Windows Installer 版本3.0 開始，Windows Installer 可以使用[MsiPatchCertificate](msipatchcertificate-table.md)和 MsiDigitalCertificate 資料表來確認修補程式 () .msp 檔案的數位簽章。 如需詳細資訊，請參閱撰寫安全安裝和[使用者帳戶控制 (UAC) 修補](user-account-control--uac--patching.md)[的指導方針](guidelines-for-authoring-secure-installations.md)。
 
 MsiDigitalCertificate 資料表具有下列資料行。
 

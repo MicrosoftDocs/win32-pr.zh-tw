@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Win32_Group 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: aeae0574751341aff9a88943950dd89191618b27
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 47a44741e569564d508624949cfdcbda5dc7f7ee2ad94c85cffdf0fb434258d3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104468440"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119828028"
 ---
 # <a name="win32_group-methods"></a>Win32 \_ 群組方法
 

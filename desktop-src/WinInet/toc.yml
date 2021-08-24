@@ -1,4 +1,4 @@
-- name: Windows 網際網路
+- name: Windows互聯網
   href: portal.md
   items:
     - name: 關於 WinINet

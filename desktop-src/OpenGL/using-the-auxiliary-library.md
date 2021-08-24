@@ -7,20 +7,20 @@ keywords:
 - 輔助程式庫 OpenGL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ef19254aca4c6678951a9c49d0792a7f2105c9aa
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6399bef99c5843bf7df2b1b2e49c4714687f8b783978f363e4a1f286dec85c2c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103673683"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119776518"
 ---
 # <a name="using-the-auxiliary-library"></a>使用輔助資源庫
 
 使用 OpenGL、晶片圖形 (SGI) 建立輔助程式庫以撰寫適用于 *OpenGL 程式設計指南* 的簡單範例程式。 輔助程式庫的原始程式碼隨附于 Microsoft Platform SDK 以及 OpenGL 範例。 若要瞭解如何從 OpenGL 函數和常式開發輔助庫，請檢查原始程式碼。 您可以在自己的程式中使用輔助程式庫功能。 如需輔助程式庫的說明，請參閱 *OpenGL 程式設計指南*。
 
- 
+ 
 
- 
+ 
 
 
 

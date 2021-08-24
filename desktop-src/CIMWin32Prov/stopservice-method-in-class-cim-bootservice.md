@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: c054a9d05410ddbe7ee7d11c5bd4adba9e0ce83b
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 7b5c580e847146cb2c3d0ccdaadf3a6755937a7c7935f13598e94f1fcf26ac44
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510584"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119752278"
 ---
 # <a name="stopservice-method-of-the-cim_bootservice-class"></a>CIM BootService 類別的 StopService 方法 \_
 

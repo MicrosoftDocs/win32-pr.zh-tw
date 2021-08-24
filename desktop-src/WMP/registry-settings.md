@@ -9,12 +9,12 @@ keywords:
 - 軟體發展工具組 (SDK) ，登錄
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d1a57d792d252a5b50c57726be8e82aa1d4dd682
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: bf95260838e2d307207ff3738fcf9e2a48969ac15d9e9bffe08c293ac9d2fa1e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839947"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119861498"
 ---
 # <a name="registry-settings"></a>登錄設定
 
@@ -36,7 +36,7 @@ Windows Media Player 9 系列或更新版本會使用登錄來儲存特定設定
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -45,9 +45,9 @@ Windows Media Player 9 系列或更新版本會使用登錄來儲存特定設定
 [**Windows Media Player**](windows-media-player.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

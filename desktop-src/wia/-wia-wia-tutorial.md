@@ -1,19 +1,19 @@
 ---
-description: 本教學課程提供逐步指示，說明如何在真實世界的應用程式中使用 Windows 映像取得 (WIA) 。
+description: 本教學課程提供逐步指示，說明如何在真實世界的應用程式中使用 Windows 影像取得 (WIA) 。
 ms.assetid: 157b72ef-7bb2-44aa-b5c9-40e5ff90f67d
 title: WIA 教學課程
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 628e804566807a0772442e4c557d64332b1c9011
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 964fe73de181fc31cfc233e2bdfe9d1ec7670bb8e3433df33d2a9d279b08371b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511597"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119812838"
 ---
 # <a name="wia-tutorial"></a>WIA 教學課程
 
-本教學課程提供逐步指示，說明如何在真實世界的應用程式中使用 Windows 映像取得 (WIA) 。
+本教學課程提供逐步指示，說明如何在真實世界的應用程式中使用 Windows 影像取得 (WIA) 。
 
 本教學課程提供 SDK 中包含的範例應用程式程式碼。 它的目的是要示範開發人員如何實行 WIA 的主要功能，而不是建立完整應用程式的藍圖。
 

@@ -4,12 +4,12 @@ ms.assetid: aa13bd57-69c1-462c-86e3-64026a03bfc4
 title: 預覽效果和轉換
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 25506b7e50fe83c2e4fca7bb4166748ec43d33dd
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 8baa5f35511ca9b01990e1c3e0562a3a564204a52026c08e2e2827c154b166b4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104109553"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119748298"
 ---
 # <a name="previewing-effects-and-transitions"></a>預覽效果和轉換
 

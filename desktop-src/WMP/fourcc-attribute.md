@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8f052c76e664cd68153e9c395aed9224ba9ba90c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f308479e9dcf39a0fc54c5b6f22251eac3accd9eba3bf4730274898c6044d1a1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994989"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119862648"
 ---
 # <a name="fourcc-attribute"></a>FourCC 屬性
 

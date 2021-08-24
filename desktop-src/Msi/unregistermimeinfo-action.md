@@ -4,12 +4,12 @@ ms.assetid: 9a5c12da-e78f-4c99-9b82-d41624593c61
 title: UnregisterMIMEInfo 動作
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 02c1ca7c0cd12d9ec6236a0c0298ba793713f5ba
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e03ea1c50aa543615edc0ed875bd83b3338cdb261d09e01232e0fe76f7aa51ee
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104195417"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119810138"
 ---
 # <a name="unregistermimeinfo-action"></a>UnregisterMIMEInfo 動作
 

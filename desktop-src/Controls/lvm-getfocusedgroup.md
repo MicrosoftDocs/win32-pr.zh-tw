@@ -3,7 +3,7 @@ title: 'LVM_GETFOCUSEDGROUP 訊息 (Commctrl .h) '
 description: 取得具有焦點的群組。 明確地傳送此訊息，或使用 ListView \_ GetFocusedGroup 宏。
 ms.assetid: c1902f35-84b7-4f46-89a6-e48148f06172
 keywords:
-- LVM_GETFOCUSEDGROUP message Windows 控制項
+- LVM_GETFOCUSEDGROUP 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e0d12eb637ec1a421a5eaff58636df7bef8f449
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f9b253405683c058518706e92e62f09041ae4db0e4bee426aa653103bda2188c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464273"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119877428"
 ---
 # <a name="lvm_getfocusedgroup-message"></a>LVM \_ GETFOCUSEDGROUP 訊息
 
@@ -45,8 +45,8 @@ ms.locfileid: "104464273"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

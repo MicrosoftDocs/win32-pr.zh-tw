@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Capicom.h
-ms.openlocfilehash: d9c701b453656a68573fe391775c5b27fdd2461a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: bf85d2eb01ffd4290c5200e09c842f280cd5418dc5203bba068ecb5bcd65c355
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990683"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119879018"
 ---
 # <a name="capicom_prov_type-enumeration"></a>CAPICOM \_ >prov \_ 類型列舉
 
@@ -34,7 +34,7 @@ ms.locfileid: "106990683"
 | **CAPICOM \_ >PROV \_ RSA \_ SIG**        | RSA CSP 的子集，僅支援雜湊和數位簽章所需的函數和演算法。<br/>                                                                                                                                                                                                                                        | 2     |
 | **CAPICOM \_ >PROV \_ DSS**             | [*數位簽章標準*](../secgloss/d-gly.md) (DSS) CSP。 此提供者類型僅支援雜湊和數位簽章。 DSS 會使用 [*數位簽章演算法*](../secgloss/d-gly.md) (DSA) 。<br/> | 3     |
 | **CAPICOM \_ >PROV \_ FORTEZZA**        | 包含密碼編譯通訊協定和演算法的 CSP， (NIST) 的規範 [*標準和技術*](../secgloss/n-gly.md) 。<br/>                                                                                      | 4     |
-| **CAPICOM \_ >PROV \_ MS \_ EXCHANGE**    | 專為 Exchange 和其他與 Microsoft Mail 相容的應用程式的密碼編譯需求所設計的 CSP。<br/>                                                                                                                                                                                                                                       | 5     |
+| **CAPICOM \_ >PROV \_ MS \_ EXCHANGE**    | 針對 Exchange 和其他與 Microsoft Mail 相容之應用程式的密碼編譯需求所設計的 CSP。<br/>                                                                                                                                                                                                                                       | 5     |
 | **CAPICOM \_ >PROV \_ SSL**             | 支援 [*安全通訊端層*](../secgloss/s-gly.md) (SSL) 通訊協定的 CSP。<br/>                                                                                                                                                                                              | 6     |
 | **CAPICOM \_ >PROV \_ RSA \_ SCHANNEL**   | 支援 [*RSA*](../secgloss/r-gly.md) 和 [*Schannel*](../secgloss/s-gly.md) 通訊協定的 CSP。<br/>                                                                                                                                                                                        | 12    |
 | **CAPICOM \_ >PROV \_ DSS \_ DH**         | 支援 DSS 和 [*diffie-hellman*](../secgloss/d-gly.md) 通訊協定的 CSP。<br/>                                                                                                                                                                                                          | 13    |

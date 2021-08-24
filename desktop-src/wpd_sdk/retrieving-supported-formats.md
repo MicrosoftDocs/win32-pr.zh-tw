@@ -4,12 +4,12 @@ ms.assetid: b54dfeda-c2a3-42ec-895f-9abbbd4dd2ec
 title: 正在抓取支援的服務格式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 73618f3450255ad470545ac472ad9f71238621e3
-ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
+ms.openlocfilehash: ccbaa5678d12e4393f377bb0ae0a399634b247ceb9bd54e1d815d4e9f7e5a763
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "110423809"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119806668"
 ---
 # <a name="retrieving-supported-service-formats"></a>正在抓取支援的服務格式
 

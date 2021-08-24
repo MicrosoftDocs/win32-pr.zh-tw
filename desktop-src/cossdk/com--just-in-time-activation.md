@@ -4,12 +4,12 @@ ms.assetid: 47b23cae-d5fc-4788-ab1c-93d6d8ee3f01
 title: COM + 即時啟用
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 16c18d7916e815c6f5f71a44c26c968f53777597
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 832db356f8fe52efe6730923be3265b8189cda054eb581053229e1fce7430e6b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106986251"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119859188"
 ---
 # <a name="com-just-in-time-activation"></a>COM + 即時啟用
 

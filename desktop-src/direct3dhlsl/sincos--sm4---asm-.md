@@ -4,12 +4,12 @@ description: 元件取向的 sin (theta) 和 cos (弧度的 theta) 。
 ms.assetid: 81FDEC8F-2C1C-4C60-A6DA-699C798F8316
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8c03118ff9a1fc2d958eaa6eb1a550a6dbf672a2
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 18e0b8ba0f6a8ed5076b8918d23d42653fe661e334101257d19d3ad23ab27a60
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107997015"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119788588"
 ---
 # <a name="sincos-sm4---asm"></a>sincos (sm4-asm) 
 
