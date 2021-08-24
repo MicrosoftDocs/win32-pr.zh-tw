@@ -3,7 +3,7 @@ title: 'EM_GETUNDONAME 訊息 (Richedit .h) '
 description: Microsoft Rich Edit 2.0 和更新版本會捕獲下一個復原動作的類型（如果有的話）。Microsoft Rich Edit 1.0 不支援此訊息。
 ms.assetid: 43351909-f8bc-425a-9d9b-655e3b47eb75
 keywords:
-- EM_GETUNDONAME message Windows 控制項
+- EM_GETUNDONAME 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a0c29b5815da5569059ba80c007d6af39d1e389f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d133038c0adad2fe7eaa1ae98cf638fe6bd13fad82df3b3d2d1ac384a30e1a80
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934808"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119576638"
 ---
 # <a name="em_getundoname-message"></a>EM \_ GETUNDONAME 訊息
 
@@ -61,8 +61,8 @@ Microsoft Rich Edit 1.0：不支援此訊息。
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Richedit。h</dt> </dl> |
 
 

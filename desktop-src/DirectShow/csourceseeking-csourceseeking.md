@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 7fcca70408e76466a88c620e3907271d49930973
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 6defc71e367c536259ec860b906bc5062efe48b23a083fc5adff1d9a555af05e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108098816"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119330758"
 ---
 # <a name="csourceseekingcsourceseeking-constructor"></a>CSourceSeeking. CSourceSeeking 函數
 

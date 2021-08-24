@@ -15,12 +15,12 @@ keywords:
 - 移除游標
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4a19eb3895ada13297f090a09529b2bcb7c75dee
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 65ed2cbe50771b893c7a2ccc0874a882aabb23a1d0b4ba27822d7ce0ec47a18b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106969102"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119461318"
 ---
 # <a name="about-carets"></a>關於游標
 
@@ -57,6 +57,6 @@ ms.locfileid: "106969102"
 
 若要從畫面中移除插入號並終結其圖形，請使用 [**DestroyCaret**](/windows/desktop/api/Winuser/nf-winuser-destroycaret) 函式。 只有當目前工作的相關視窗擁有插入號時， **DestroyCaret** 才會終結插入號。
 
- 
+ 
 
- 
+ 

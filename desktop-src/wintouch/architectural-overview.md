@@ -3,23 +3,23 @@ title: 架構概觀
 description: 此架構總覽提供適用于平板電腦和觸控技術的 Windows Touch API 內容，並說明其如何融入較大的 Windows 7 架構。
 ms.assetid: b284e96f-0998-408c-ae84-92a3acdc3014
 keywords:
-- Windows Touch，架構總覽
-- Windows Touch，操作
-- Windows Touch，訊息
-- Windows Touch，慣性
-- Windows Touch，手勢
+- Windows觸控、架構總覽
+- Windows觸控、操作
+- Windows觸控、訊息
+- Windows觸控、慣性
+- Windows觸控、手勢
 - 手勢，關於
 - 操作，關於
 - 慣性，關於
 - 操作處理器，架構總覽
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b807113211d77f0aad0ed01fc24570d033063474
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 36b5ce003c88a66e96072fa9f96bc6ae73bd91cb39f53e03ab3748dd14a194d1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103933255"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119448647"
 ---
 # <a name="architectural-overview"></a>架構概觀
 
@@ -27,19 +27,19 @@ ms.locfileid: "103933255"
 
 ## <a name="messages-for-windows-touch-input-and-gestures"></a>Windows Touch 輸入和手勢的訊息
 
-Windows Touch 的訊息功能是在執行期間接聽和解讀訊息而啟用。 下圖顯示如何從硬體產生訊息，然後由 Windows 7 傳送至應用程式。
+Windows Touch 的訊息功能是在執行期間接聽和解讀訊息而啟用。 下圖顯示如何從硬體產生訊息，並 Windows 7 傳送至應用程式。
 
 ![圖例顯示 windows 7 如何從多點觸控硬體將訊息傳送至應用程式](images/wm-multitouch-messaging.png)
 
 在圖的最左邊的資料行中，觸控式硬體會接收來自使用者的輸入。 然後，驅動程式會在硬體和作業系統之間進行通訊。 接著，OS 會產生一個 [**wm \_ 觸控**](wm-touchdown.md) 或 [**wm \_ 手勢**](wm-gesture.md) 訊息，然後傳送至應用程式的 HWND。 然後，應用程式會根據訊息中封裝的資訊來更新 UI。
 
-應用程式預設會接收手勢。 除非應用程式使用 [**RegisterTouchWindow**](/windows/desktop/api/winuser/nf-winuser-registertouchwindow) 函式註冊 Windows Touch 輸入訊息，否則 ([**WM \_ 手勢**](wm-gesture.md) 訊息) 的手勢通知會由 Windows 建立並傳送至該應用程式視窗。 如果應用程式視窗註冊接收觸控訊息，Windows Touch 輸入 ([**WM \_ 觸控**](wm-touchdown.md) 訊息的通知) 會傳送至該應用程式視窗。 Windows Touch 和軌跡訊息在執行觸控或從應用程式視窗開始時的意義上是貪婪的，所有訊息都會傳送至該應用程式，直到手勢完成或主要觸控完成為止。
+應用程式預設會接收手勢。 除非應用程式使用 [**RegisterTouchWindow**](/windows/desktop/api/winuser/nf-winuser-registertouchwindow)函式註冊 Windows Touch 的輸入訊息，否則 Windows 會建立手勢 ([**WM \_ 手勢**](wm-gesture.md)訊息) 的通知，並傳送至該應用程式視窗。 如果應用程式視窗註冊接收觸控訊息，Windows Touch 輸入 ([**WM \_ 觸控**](wm-touchdown.md)訊息的通知) 會傳送至該應用程式視窗。 Windows觸控和軌跡訊息在執行觸控或從應用程式視窗開始時的意義上是貪婪的，所有訊息都會傳送至該應用程式，直到手勢完成或主要觸控完成為止。
 
-針對舊版支援，Windows 會在進行反升，然後傳送或張貼對應至手勢的適當訊息時，解讀 [**WM \_ 手勢**](wm-gesture.md) 訊息。 為了避免中斷舊版支援，請務必使用 DefWindowProc 轉送 WM \_ 手勢訊息。 [](/windows/win32/api/winuser/nf-winuser-defwindowproca) 如需舊版支援的詳細資訊，請參閱 [Windows Touch 手勢總覽](windows-touch-gestures-overview.md)。
+若為舊版支援，Windows 會在其反升時解讀 [**WM \_ 手勢**](wm-gesture.md)訊息，然後傳送或張貼對應至手勢的適當訊息。 為了避免中斷舊版支援，請務必使用 DefWindowProc 轉送 WM \_ 手勢訊息。 [](/windows/win32/api/winuser/nf-winuser-defwindowproca) 如需舊版支援的詳細資訊，請參閱[Windows Touch 手勢總覽](windows-touch-gestures-overview.md)。
 
 ## <a name="manipulations-and-inertia"></a>操作和慣性
 
-Windows Touch 程式設計人員必須能夠以對手勢有意義的方式，從多個來源解讀手勢。 Microsoft 提供操作 API 來執行這些計算。 操作基本上是具有與其相關聯之值的手勢，這些值會描述整個手勢。 將輸入資料連線至操作處理器之後，您可以取得使用者在物件上進行的動作相關資訊。 下圖顯示您可以使用操作的其中一種方式。
+Windows觸控程式設計人員必須能夠以對手勢有意義的方式，從多個來源解讀手勢。 Microsoft 提供操作 API 來執行這些計算。 操作基本上是具有與其相關聯之值的手勢，這些值會描述整個手勢。 將輸入資料連線至操作處理器之後，您可以取得使用者在物件上進行的動作相關資訊。 下圖顯示您可以使用操作的其中一種方式。
 
 ![圖例顯示傳遞至物件操作處理器的 windows 觸控訊息，此處理程式會使用 imanipulationevents 介面來處理事件 \-](images/manipulation-arch.png)
 
@@ -58,6 +58,6 @@ Windows Touch 程式設計人員必須能夠以對手勢有意義的方式，從
 [程式設計指南](programming-guide.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -4,17 +4,17 @@ ms.assetid: f16fdfa3-b080-47ee-a7dd-241fe2d24278
 title: '系統錯誤碼 (8200-8999)  (Winerror.h. h) '
 ms.topic: reference
 ms.date: 07/18/2019
-ms.openlocfilehash: 7500ae4c178999de8052b0858089604652dc5237
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: e9fd65025c3d51575cb0ece83cba14e0c62980d11a60ec6cb351919b6c7714c3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104187727"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119572958"
 ---
 # <a name="system-error-codes-8200-8999"></a>系統錯誤碼 (8200-8999) 
 
 > [!NOTE]
-> 這項資訊適用于程式設計人員偵測系統錯誤。 針對其他錯誤（例如 Windows Update 的問題），[ [錯誤碼](system-error-codes.md) ] 頁面上有資源清單。
+> 這項資訊適用于程式設計人員偵測系統錯誤。 針對其他錯誤（例如 Windows Update 的問題），[[錯誤碼](system-error-codes.md)] 頁面上有資源清單。
 
 下列清單描述錯誤8200到8999的 [系統錯誤碼](system-error-codes.md) 。 當有許多函式失敗時， [**GetLastError**](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror) 函式會傳回這些函數。 若要在您的應用程式中取得錯誤的描述文字，請使用 [**FormatMessage**](/windows/desktop/api/WinBase/nf-winbase-formatmessage) 函式，並搭配系統旗標的 **格式 \_ 訊息 \_ \_** 。
 
@@ -3954,7 +3954,7 @@ ms.locfileid: "104187727"
 
 
 
-安全性帳戶管理員初始化失敗，因為發生下列錯誤： %1。 錯誤狀態： 0x %2。 按一下 [確定] 關閉系統，然後重新開機進入安全模式。 請檢查事件記錄檔以取得詳細資訊。
+安全性帳戶管理員初始化失敗，因為發生下列錯誤： %1。 錯誤狀態： 0x %2。 按一下 [確定] 關閉系統，然後重新開機進入保管庫模式。 請檢查事件記錄檔以取得詳細資訊。
 
 
 </dt> </dl> </dd> <dt>
@@ -5331,8 +5331,8 @@ AD LDS 設定集的功能等級無法降到要求的值。
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Winerror.h。h</dt> </dl> |
 
 

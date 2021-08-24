@@ -4,12 +4,12 @@ ms.assetid: c3946942-5a61-4a15-ace6-da2f63c01963
 title: 'AVEncVideoOutputFrameRateConversion 屬性 (Codecapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2687ce33af1717631f156df12de38dafff8d1871
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 39fa09b8370faf7f56336d129661d02e514bb6fc192f8dec0e1b19b5ee53f381
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106972301"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119540678"
 ---
 # <a name="avencvideooutputframerateconversion-property"></a>AVEncVideoOutputFrameRateConversion 屬性
 
@@ -35,8 +35,8 @@ ms.locfileid: "106972301"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 2000 專業版傳統型 \[ 應用程式 \| UWP 應用程式\]<br/>                     |
-| 最低支援的伺服器<br/> | Windows 2000 Server \[ desktop 應用程式 \| UWP 應用程式\]<br/>                           |
+| 最低支援的用戶端<br/> | Windows 2000 Professional \[ 桌面應用程式 \| UWP 應用程式\]<br/>                     |
+| 最低支援的伺服器<br/> | Windows 2000 Server \[ desktop apps \| UWP 應用程式\]<br/>                           |
 | 標頭<br/>                   | <dl> <dt>Codecapi。h</dt> </dl> |
 
 

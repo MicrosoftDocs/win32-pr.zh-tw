@@ -8,12 +8,12 @@ keywords:
 - ADSI、搜尋、>idirectorysearch、其他搜尋選項、排序搜尋結果
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8433d24b06ac4d361d6520d8af3376ea12acac1f
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 7864a3878d2cdc44d58c6f6090f6b791b9fe29b3d2613e6e3d4aaf0b6289e100
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103683092"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119443868"
 ---
 # <a name="sorting-the-search-results-with-idirectorysearch"></a>使用 >idirectorysearch 排序搜尋結果
 
@@ -45,6 +45,6 @@ SearchPref.vValue.ProviderSpecific.lpValue = (LPBYTE)&SortKey;
 
 Active Directory 不支援針對已建立的屬性進行排序，因此無法指定用於排序的結構化屬性。 [**DistinguishedName**](/windows/desktop/ADSchema/a-distinguishedname)屬性也不能用來排序。 Active Directory 也不允許在一個以上的屬性上進行排序，因此 **ads \_ SEARCHPREF \_ 排序 \_ 依據** 搜尋選項只能包含一個 [**ads 分類 \_**](/windows/desktop/api/Iads/ns-iads-ads_sortkey) 結構。
 
- 
+ 
 
- 
+ 

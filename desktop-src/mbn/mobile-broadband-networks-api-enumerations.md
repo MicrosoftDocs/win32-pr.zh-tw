@@ -4,12 +4,12 @@ ms.assetid: 2d6b8d5a-952e-48d9-a414-1ebb468248d0
 title: 行動寬頻 API 列舉
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a20c6d4447c13222083bbd85cbfc67fe42f05527
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 051d8e962fdd1b66f91842f5d1fb770e47e2e1ab216934727126cdf8d70cecb3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112905"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119607182"
 ---
 # <a name="mobile-broadband-api-enumerations"></a>行動寬頻 API 列舉
 

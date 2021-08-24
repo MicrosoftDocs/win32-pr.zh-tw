@@ -4,12 +4,12 @@ ms.assetid: 9b480750-602e-421e-8dfd-0b7049ed8b8a
 title: 作者摘要屬性
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a860b03baaf395892f0c155e1166af4ea42e0edb
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 69a050fdb64a8c931ad53c92229ca93994270a26829f72a15d025e4d513109d6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106993242"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119581788"
 ---
 # <a name="author-summary-property"></a>作者摘要屬性
 
@@ -25,7 +25,7 @@ ms.locfileid: "106993242"
 
 | 需求 | 值 |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 版本<br/> | Windows Server 2012、Windows 8、Windows Server 2008 R2 或 Windows 7 上的 Windows Installer 5.0。 Windows Server 2008 或 Windows Vista 上的 Windows Installer 4.0 或 Windows Installer 4.5。 Windows Server 2003 或 Windows XP 上的 Windows Installer<br/> |
+| 版本<br/> | WindowsWindows Server 2012、Windows 8 Windows Server 2008 R2 或 Windows 7 上的安裝程式5.0。 WindowsWindows Server 2008 或 Windows Vista 上的安裝程式4.0 或 Windows Installer 4.5。 WindowsWindows Server 2003 或 Windows XP 上的安裝程式<br/> |
 
 
 

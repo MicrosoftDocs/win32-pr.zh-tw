@@ -3,7 +3,7 @@ title: 'TTM_GETTIPBKCOLOR 訊息 (Commctrl .h) '
 description: 抓取工具提示視窗中的背景色彩。
 ms.assetid: 0dbd5172-cb4f-4dc0-b523-cdc46c05dbb3
 keywords:
-- TTM_GETTIPBKCOLOR message Windows 控制項
+- TTM_GETTIPBKCOLOR 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 82005ad9a1e46492365cab6eadc16e90c37582f0
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 39b487b708dcc06ee15d23c5a192f729c3a4af1254911f8cb756fa6d7d8d727a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103685923"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119387438"
 ---
 # <a name="ttm_gettipbkcolor-message"></a>TTM \_ GETTIPBKCOLOR 訊息
 
@@ -45,8 +45,8 @@ ms.locfileid: "103685923"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

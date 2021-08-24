@@ -18,21 +18,21 @@ keywords:
 - 具有陰影效果的繪圖
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: afe32651fbeab6b84b49a40bae05a08ba3d9c33a
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 83be3f59eacfb495a2c80d212bc99cfd3d43be10aa8144eb68d3defd8a029e41
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382666"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119512591"
 ---
 # <a name="using-the-shadow-element"></a>使用 Shadow 元素
 
 本主題說明 VML，這是 Windows Internet Explorer 9 淘汰的功能。 依賴 VML 的網頁和應用程式應該遷移至 SVG 或其他廣泛支援的標準。
 
 > [!Note]  
-> 從2011年12月起，本主題已封存。 因此，它不會再主動維護。 如需詳細資訊，請參閱封存的 [內容](/previous-versions/windows/internet-explorer/ie-developer/)。 如需目前 Windows Internet Explorer 版本的相關資訊、建議和指引，請參閱 [Internet Explorer 開發人員中心](https://msdn.microsoft.com/ie/)。
+> 從2011年12月起，本主題已封存。 因此，它不會再主動維護。 如需詳細資訊，請參閱封存的 [內容](/previous-versions/windows/internet-explorer/ie-developer/)。 如需有關 Windows Internet Explorer 目前版本的資訊、建議和指引，請參閱[Internet Explorer 開發人員中心](https://msdn.microsoft.com/ie/)。
 
- 
+ 
 
 在本主題中，我們將說明如何使用 `<shadow>` 子項目繪製具有各種陰影效果的圖形。
 
@@ -61,6 +61,6 @@ matrix=",-92680f,,,,-95367431641e-17"/>
 
 如需此元素的詳細資訊，請參閱 [VML 規格](https://www.w3.org/TR/NOTE-VML#-toc416858396) 。
 
- 
+ 
 
- 
+ 

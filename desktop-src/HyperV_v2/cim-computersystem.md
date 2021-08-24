@@ -18,12 +18,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 00a53d0c514113175c3c6ffb7ea40f8ef4e730d0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dd8aac2c3846c65b633061d15e6b4311b18c0a84663eca28cf2a928df2b13f4d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106976569"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119431598"
 ---
 # <a name="cim_computersystem-class-hyper-v-management"></a>CIM_ComputerSystem 類別 (Hyper-v 管理) 
 
@@ -137,7 +137,7 @@ class CIM_ComputerSystem : CIM_System
 
 <span id="Central_Office_Switch"></span><span id="central_office_switch"></span><span id="CENTRAL_OFFICE_SWITCH"></span>
 
-<span id="Central_Office_Switch"></span><span id="central_office_switch"></span><span id="CENTRAL_OFFICE_SWITCH"></span>**中央辦公室交換器** (7) 
+<span id="Central_Office_Switch"></span><span id="central_office_switch"></span><span id="CENTRAL_OFFICE_SWITCH"></span>**中央 Office 切換** (7) 
 
 
 </dt> <dd></dd> <dt>

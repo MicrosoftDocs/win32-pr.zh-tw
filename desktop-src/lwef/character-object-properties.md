@@ -4,16 +4,16 @@ description: 字元物件屬性
 ms.assetid: 86748de2-f5c8-4057-bfa4-79d46cac1e62
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6212d6f0539b7fcb29faa883e6d88101952c12f5
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 3c80e16bdb35d3fdfd8687eb15f200d2005ab75027e4dcc786f883d21232af4e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104374965"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119610688"
 ---
 # <a name="character-object-properties"></a>字元物件屬性
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 [**字元**](/windows/desktop/lwef/the-characters-object)物件會公開下列屬性：
 
@@ -21,7 +21,7 @@ ms.locfileid: "104374965"
 -   [**AutoPopupMenu**](autopopupmenu-property.md)
 -   [**描述**](description-property.md)
 -   [**ExtraData**](extradata-property.md)
--   [**Guid**](guid-property.md)
+-   [**GUID**](guid-property.md)
 -   [**HasOtherClients**](hasotherclients-property.md)
 -   [**高度**](height-property.md)
 -   [**號**](helpcontextid-property-ch.md)
@@ -31,7 +31,7 @@ ms.locfileid: "104374965"
 -   [**LanguageID**](languageid-property.md)
 -   [**離開**](left-property.md)
 -   [**MoveCause**](movecause-property.md)
--   [**Name**](name-property.md)
+-   [**名稱**](name-property.md)
 -   [**OriginalHeight**](originalheight-property.md)
 -   [**OriginalWidth**](originalwidth-property.md)
 -   [**瀝青**](pitch-property.md)
@@ -81,6 +81,6 @@ ms.locfileid: "104374965"
 
 因為伺服器會以非同步方式載入字元，所以在查詢其屬性之前，請確定已載入該字元，例如使用 [**RequestComplete**](requestcomplete-event.md) 事件。 否則，屬性可能會傳回不正確的值。
 
- 
+ 
 
- 
+ 

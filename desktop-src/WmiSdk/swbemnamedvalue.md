@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 3668321256fea7ed8109e54f6b4df55bbd42867c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 50fb1439e3d844dc2b704f7e69ede298df44f60d32f72d40bcf01051811e227e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "107001725"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119612168"
 ---
 # <a name="swbemnamedvalue-object"></a>SWbemNamedValue 物件
 
@@ -38,9 +38,9 @@ ms.locfileid: "107001725"
 
 
 
-| 屬性                                          | 存取類型           | Description                                                                                    |
+| 屬性                                          | 存取類型           | 描述                                                                                    |
 |:--------------------------------------------------|:----------------------|:-----------------------------------------------------------------------------------------------|
-| [**Name**](swbemnamedvalue-name.md)<br/>   | 唯讀<br/>  | **SWbemNamedValue** 專案的名稱。<br/>                                               |
+| [**名稱**](swbemnamedvalue-name.md)<br/>   | 唯讀<br/>  | **SWbemNamedValue** 專案的名稱。<br/>                                               |
 | [**值**](swbemnamedvalue-value.md)<br/> | 讀取/寫入<br/> | **SWbemNamedValue** 專案的值。 這是此物件的預設屬性。<br/> |
 
 
@@ -55,8 +55,8 @@ ms.locfileid: "107001725"
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows Vista<br/>                                                                |
 | 最低支援的伺服器<br/> | Windows Server 2008<br/>                                                          |
-| 標頭<br/>                   | <dl> <dt>>wbemdisp.tlb。h</dt> </dl>   |
-| 類型程式庫<br/>             | <dl> <dt>>wbemdisp.tlb .tlb</dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>>Wbemdisp.tlb。h</dt> </dl>   |
+| 類型程式庫<br/>             | <dl> <dt>>Wbemdisp.tlb .tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
 | CLSID<br/>                    | CLSID \_ SWbemNamedValue<br/>                                                       |
 | IID<br/>                      | IID \_ ISWbemNamedValue<br/>                                                        |

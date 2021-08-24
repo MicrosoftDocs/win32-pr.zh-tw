@@ -6,12 +6,12 @@ keywords:
 - " (Direct3D 10) 的輸入組合語言階段"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 121d98ca66bbe42f6eaa3023150203ce0538445b
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: 2e16a419dfe57dac5b16562b234a7a60d417c071fcd6214f3defa84bcbe8b4ab
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "104383361"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119408378"
 ---
 # <a name="input-assembler-stage"></a>輸入組合階段
 

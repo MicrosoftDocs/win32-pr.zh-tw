@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1e1d3670b3a41f47bf1b5ec7ac3d2fb93441e72f
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
-ms.translationtype: HT
+ms.openlocfilehash: f12837a0a6c33d4b5ae0345bd654bd5e0d19d31ea449a5eca8e77ba740c782c1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104974652"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119408168"
 ---
 # <a name="id3dx11effectscalarvariablesetbool-method"></a>ID3DX11EffectScalarVariable：： SetBool 方法
 

@@ -4,12 +4,12 @@ ms.assetid: 607d987a-5bdc-46bc-bde7-6dc52745ac79
 title: 繪製最小化視窗
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ced1f3205243ea098856517590d58caee851329a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 24ca955d3ff9f17b7f01e504b9e60c15200eb2b8191a5b4dba0e622956567f98
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104386175"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119360628"
 ---
 # <a name="drawing-a-minimized-window"></a>繪製最小化視窗
 

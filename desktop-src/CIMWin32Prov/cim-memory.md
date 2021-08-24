@@ -52,12 +52,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 35fbb8467337da1ceab044a42533a6ca8628cf63
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 07cfc796e6ae6a385c9296fc4f1db6a82db60870a2268379a14d20f6d84d6208
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111061"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119548178"
 ---
 # <a name="cim_memory-class-cimwin32-wmi-providers"></a>CIM_Memory 類別 (CIMWin32 WMI 提供者) 
 
@@ -922,7 +922,7 @@ Win32 設定管理員錯誤碼。
 
 </dt> <dd>
 
-不明。
+未知。
 
 </dd> <dt>
 
@@ -999,7 +999,7 @@ Win32 設定管理員錯誤碼。
 
 </dt> <dd>
 
-不明。
+未知。
 
 </dd> <dt>
 

@@ -4,12 +4,12 @@ ms.assetid: dd290c73-6528-482d-8276-ac56d0fec181
 title: ICE83
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d5ac38b4455875314c85fa08c1cfdc329e0cb470
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 78e8014f8feee76e4d1910fb601e186bec928a0fd6d6d34469ce2c2b201b724d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026635"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119580748"
 ---
 # <a name="ice83"></a>ICE83
 
@@ -21,7 +21,7 @@ ICE83 會張貼下列錯誤。
 
 
 
-| ICE83 錯誤                                                                                                   | Description                                                                                                                                                                                                    |
+| ICE83 錯誤                                                                                                   | 描述                                                                                                                                                                                                    |
 |---------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Win32 SXS 元件的金鑰路徑 (元件 \_ = \[ 1 \]) 不能是其資訊清單檔                       | 當 Win32 元件的 KeyPath 欄位設定為其資訊清單檔時，ICE83 會將此錯誤張貼 (元件。 KeyPath = = MsiAssembly。檔案 \_ 資訊清單) 。 \[1 \] 是元件資料表中的 KeyPath                          |
 | MsiPublishAssemblies 和 MsiUnpublishAssemblies 動作都必須存在於 InstallExecuteSequence 資料表中。 | ICE83 會在 MsiAssembly 資料表中至少有一個專案時張貼此錯誤，但 InstallExecuteSequence 資料表不包含 MsiAssemblyPublish 動作和 MsiAssemblyUnpublish 動作。 |

@@ -4,12 +4,12 @@ description: 當程式偵測到發生的情況時，就會通知其用戶端。
 ms.assetid: f6ffbd1d-4bc1-4dc2-b3ed-ee12359e3d75
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aa5115cfd08d57658eec879d44b4361e88965b3c
-ms.sourcegitcommit: 85688bbfbe5b121bc05ddf112d54c23a469dfbc0
+ms.openlocfilehash: 6121d637bd43920ad8f75090600008b7af28db43f332449a748841f9236f1412
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "104022962"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119381898"
 ---
 # <a name="events-in-com-and-connectable-objects"></a>COM 和可連線物件中的事件
 
@@ -32,9 +32,9 @@ COM 可連線物件除了連入介面外，還提供外寄介面給其用戶端�
 -   [可連線物件的架構](architecture-of-connectable-objects.md)
 -   [可連線物件介面](connectable-object-interfaces.md)
 
- 
+ 
 
- 
+ 
 
 
 

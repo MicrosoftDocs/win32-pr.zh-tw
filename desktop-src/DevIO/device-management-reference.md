@@ -4,12 +4,12 @@ ms.assetid: 0acfbf59-1a7f-4a90-a961-559d27a0ee57
 title: 裝置管理參考
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dc26db442498cce2c17dbfc28a16d6f397929357
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: d1a254738aab7c993e978a71f642bd6fd64f16f44fd24523b6a057d2a2fd7846
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110596"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119572768"
 ---
 # <a name="device-management-reference"></a>裝置管理參考
 

@@ -10,12 +10,12 @@ keywords:
 - 元素、VIEW
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 07e907cced22b4d1cd498054df06ac8677a7488b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2a2d2b14f75d3cf5405c1663e23ad343e3c22bb2a80f60919de4505808cdf0a2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372316"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119571649"
 ---
 # <a name="view-element"></a>VIEW 元素
 
@@ -44,7 +44,7 @@ ms.locfileid: "104372316"
 | [minWidth](view-minwidth.md)                                   | 當調整大小時，指定或抓取 **視圖** 的寬度下限。                                                 |
 | [小時](view-resizable.md)                                 | 指定或抓取值，指出是否可以調整 **視圖** 的大小。                                          |
 | [resizeBackgroundImage](view-resizebackgroundimage.md)         | 指定或抓取值，指出背景影像是否可以調整大小。                                  |
-| [scriptFile](view-scriptfile.md)                               | 指定隨附之 JScript 檔案的檔案名。                                                                 |
+| [scriptFile](view-scriptfile.md)                               | 指定隨附 JScript 檔案的檔案名。                                                                 |
 | [timerInterval](view-timerinterval.md)                         | 指定或抓取計時器引發事件至 **ontimer** 事件處理常式的間隔（以毫秒為單位）。 |
 | [title](view-title.md)                                         | 指定或抓取 **視圖** 的標題。 只能在設計階段設定。                                       |
 | [標題列](view-titlebar.md)                                   | 指定或抓取值，指出是否顯示視窗標題列。                                        |
@@ -52,7 +52,7 @@ ms.locfileid: "104372316"
 
 
 
- 
+ 
 
 **VIEW** 元素支援下列方法。
 
@@ -69,22 +69,22 @@ ms.locfileid: "104372316"
 
 
 
- 
+ 
 
 **VIEW** 元素可以執行下列事件處理常式。
 
 
 
-| 事件處理常式               | Description                                                                |
+| 事件處理常式               | 描述                                                                |
 |-----------------------------|----------------------------------------------------------------------------|
 | [onclose](view-onclose.md) | 處理 **視圖** 即將關閉時所發生的事件。      |
-| [onerror](view-onerror.md) | 如果設定 **. enableErrorDialogs** 設定為 false，則會處理錯誤事件。 |
+| [onerror](view-onerror.md) | 如果 **設定 enableErrorDialogs** 設定為 false，則會處理錯誤事件。 |
 | [onload](view-onload.md)   | 處理第一次顯示 **視圖** 時所發生的事件。         |
 | [ontimer](view-ontimer.md) | 處理計時器事件。                                                      |
 
 
 
- 
+ 
 
 **VIEW** 元素支援環境屬性，而且可以執行環境事件處理常式（除非有注明）。 如需詳細資訊，請參閱 [環境屬性](ambient-attributes.md) 和 [環境事件處理常式](ambient-event-handlers.md)。
 
@@ -95,9 +95,9 @@ ms.locfileid: "104372316"
 [**外觀程式設計參考**](skin-programming-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

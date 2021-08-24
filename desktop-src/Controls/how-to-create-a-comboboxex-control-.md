@@ -4,12 +4,12 @@ description: 本主題將示範如何建立 ComboBoxEx 控制項。
 ms.assetid: E3D577AF-3290-431E-AA6C-1E9A9ED6448C
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 73989124982cb563fc008d7f3c543388cca685a5
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: d051c668e95667948d11a8ec86ed41236f84ff78325911e008c65ad787b958fa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "103933756"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119576128"
 ---
 # <a name="how-to-create-a-comboboxex-control"></a>如何建立 ComboBoxEx 控制項
 
@@ -19,12 +19,12 @@ ms.locfileid: "103933756"
 
 ### <a name="technologies"></a>技術
 
--   [Windows 控制項](window-controls.md)
+-   [Windows控制](window-controls.md)
 
 ### <a name="prerequisites"></a>必要條件
 
 -   C/C++
--   Windows 消費者介面程式設計
+-   Windows消費者介面程式設計
 
 ## <a name="instructions"></a>指示
 

@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: da5bb8c820e1dbca5103c430a7b2ce2a525a8fca
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 744c1b2e56fb50e5a0c16db7d03d7558b1ed69360de98f69a4aac795f9f7db63
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106999891"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119147761"
 ---
 # <a name="setfailovernetworkadaptersettings-method-of-the-msvm_replicationservice-class"></a>Msvm ReplicationService 類別的 SetFailoverNetworkAdapterSettings 方法 \_
 
-設定要在容錯移轉之後套用至虛擬機器的網路介面卡 IP 設定。 這些設定參數會在容錯移轉作業之後套用，並在與客體作業系統內執行的 KVP Exchange 整合元件建立通訊時立即套用。
+設定要在容錯移轉之後套用至虛擬機器的網路介面卡 IP 設定。 這些設定參數會在容錯移轉作業之後套用，並在與在客體作業系統內執行的 KVP Exchange 整合元件建立通訊時立即套用。
 
 ## <a name="syntax"></a>語法
 
@@ -113,8 +113,8 @@ uint32 SetFailoverNetworkAdapterSettings(
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                                              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                                              |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                                                    |
 | 命名空間<br/>                | 根 \\ 虛擬化 \\ V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization。</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

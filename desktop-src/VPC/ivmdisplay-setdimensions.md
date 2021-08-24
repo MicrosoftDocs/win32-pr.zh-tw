@@ -16,16 +16,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4730d73e06074714c8e6ed31fda992259d5c19ef
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5bbf1db342342e9fbb8c0eff2df18f9c2a76443a4d20014bad34934ccecd3dfb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "107000026"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119473358"
 ---
 # <a name="ivmdisplaysetdimensions-method"></a>IVMDisplay：： SetDimensions 方法
 
-\[Windows 8 不能再使用 Windows Virtual PC。 請改為使用 [HYPER-V WMI 提供者 (V2) ](/windows/desktop/HyperV_v2/windows-virtualization-portal)。\]
+\[WindowsVirtual PC 不再適用于 Windows 8。 請改為使用 [HYPER-V WMI 提供者 (V2) ](/windows/desktop/HyperV_v2/windows-virtualization-portal)。\]
 
 設定虛擬機器 (VM) 顯示的高度和寬度（以圖元為單位）。
 
@@ -65,7 +65,7 @@ HRESULT SetDimensions(
 
 
 
-| 傳回碼/值                                                                                                                                                                    | Description                                                                                                                                                                                                      |
+| 傳回碼/值                                                                                                                                                                    | 描述                                                                                                                                                                                                      |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**S \_確定**</dt> <dt>0</dt> </dl>                                          | 作業成功。<br/>                                                                                                                                                                         |
 | <dl> <dt>**E \_INVALIDARG**</dt> <dt>0x80000003</dt> </dl>                         | *DisplayPixelWidth* 參數無法平均地被8整除，或 *displayPixelWidth* 或 *displayPixelHeight* 參數超出允許的最小 (640) 或 2048x1920) 值上限。<br/> |
@@ -90,7 +90,7 @@ HRESULT SetDimensions(
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                                    |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                     |
 | 用戶端支援結束<br/>    | Windows 7<br/>                                                                          |
 | 產品<br/>                  | Windows Virtual PC<br/>                                                                 |

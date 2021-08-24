@@ -4,12 +4,12 @@ ms.assetid: 2e452ea7-e2bf-4500-952a-ee7d891533a0
 title: 'DBT_QUERYCHANGECONFIG (Dbt 的事件) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 48367da1788ae2985b21fad6e960153008e9ffd2
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 4e9c222fdc29f635263b45b5fd7e54ee229a33d7dee1ff31cd1e3072bfe6e84f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510574"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119318418"
 ---
 # <a name="dbt_querychangeconfig-event"></a>DBT \_ QUERYCHANGECONFIG 事件
 

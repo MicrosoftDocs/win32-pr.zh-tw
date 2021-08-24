@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 083c987f9ed40c23db4141d772c07ec73763d985
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: a9ea77577c6628f4cc02d81c4cb217994a196750deeb5631d46d8fd54472baa6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103687319"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119442748"
 ---
 # <a name="bridgehead-transport-list-attribute"></a>橋頭-傳輸-清單屬性
 

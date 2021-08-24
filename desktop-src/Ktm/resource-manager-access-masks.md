@@ -4,12 +4,12 @@ ms.assetid: 6b901b73-516d-4f27-b258-3b93a8f9675f
 title: 'Resource Manager 存取遮罩 (WinNT) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1f0f579a96ed80de100a5cb41cb9c4e9b847a060
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 12ede54d5d49533e70aa9cda2d9c4a363d61f1fdbd894108a5b83f2c5e9efc98
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104115401"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119146481"
 ---
 # <a name="resource-manager-access-masks"></a>Resource Manager 存取遮罩
 

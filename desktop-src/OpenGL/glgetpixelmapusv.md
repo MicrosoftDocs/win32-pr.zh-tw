@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a91d7784288c7a98b82814cdaadb352e7ff5b5c3
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 38f879da92c9c31b4f44a7e65d8648f94c94fcfaaa8ab3a9d88a39ffc15bd57e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "107001471"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119494128"
 ---
 # <a name="glgetpixelmapusv-function"></a>glGetPixelMapusv 函式
 
@@ -65,7 +65,7 @@ void WINAPI glGetPixelMapusv(
 
 
 
-| Name                                                                                                  | 意義                                                                                                                               |
+| 名稱                                                                                                  | 意義                                                                                                                               |
 |-------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**GL \_ 無效 \_ 列舉**</dt> </dl>      | *地圖* 不是可接受的值。<br/>                                                                                           |
 | <dl> <dt>**GL \_ 不正確 \_ 操作**</dt> </dl> | 呼叫 [**glBegin**](glbegin.md) 和對應的 [**glEnd**](glend.md)呼叫之間呼叫了函數。<br/> |

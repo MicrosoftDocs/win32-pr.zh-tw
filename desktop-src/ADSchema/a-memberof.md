@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ad522fcba256e0965057a9f8a8505e99a3fdbdeb
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 7515e32d941eea8cef2d51ab4f6b27f1e1aff9f172395e54aae62a5581cb2a3a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106966556"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119300438"
 ---
 # <a name="is-member-of-dl-attribute"></a>是-DL 屬性的成員
 
@@ -58,7 +58,7 @@ ms.locfileid: "106966556"
 |------------------------|---------------------------------|
 | 連結識別碼                | 3                               |
 | MAPI-Id                | 0x8008                          |
-| System-Only            | 對                            |
+| System-Only            | 是                            |
 | 是-單一值       | 否                           |
 | 已編制索引             | 否                           |
 | 在通用類別目錄中      | 否                           |
@@ -79,7 +79,7 @@ ms.locfileid: "106966556"
 |------------------------|---------------------------------|
 | 連結識別碼                | 3                               |
 | MAPI-Id                | 0x8008                          |
-| System-Only            | 對                            |
+| System-Only            | 是                            |
 | 是-單一值       | 否                           |
 | 已編制索引             | 否                           |
 | 在通用類別目錄中      | 否                           |
@@ -100,7 +100,7 @@ ms.locfileid: "106966556"
 |------------------------|---------------------------------|
 | 連結識別碼                | 3                               |
 | MAPI-Id                | 0x8008                          |
-| System-Only            | 對                            |
+| System-Only            | 是                            |
 | 是-單一值       | 否                           |
 | 已編制索引             | 否                           |
 | 在通用類別目錄中      | 否                           |
@@ -121,7 +121,7 @@ ms.locfileid: "106966556"
 |------------------------|---------------------------------|
 | 連結識別碼                | 3                               |
 | MAPI-Id                | 0x8008                          |
-| System-Only            | 對                            |
+| System-Only            | 是                            |
 | 是-單一值       | 否                           |
 | 已編制索引             | 否                           |
 | 在通用類別目錄中      | 否                           |
@@ -142,7 +142,7 @@ ms.locfileid: "106966556"
 |------------------------|---------------------------------|
 | 連結識別碼                | 3                               |
 | MAPI-Id                | 0x8008                          |
-| System-Only            | 對                            |
+| System-Only            | 是                            |
 | 是-單一值       | 否                           |
 | 已編制索引             | 否                           |
 | 在通用類別目錄中      | 否                           |
@@ -163,7 +163,7 @@ ms.locfileid: "106966556"
 |------------------------|---------------------------------|
 | 連結識別碼                | 3                               |
 | MAPI-Id                | 0x8008                          |
-| System-Only            | 對                            |
+| System-Only            | 是                            |
 | 是-單一值       | 否                           |
 | 已編制索引             | 否                           |
 | 在通用類別目錄中      | 否                           |
@@ -184,7 +184,7 @@ ms.locfileid: "106966556"
 |------------------------|---------------------------------|
 | 連結識別碼                | 3                               |
 | MAPI-Id                | 0x8008                          |
-| System-Only            | 對                            |
+| System-Only            | 是                            |
 | 是-單一值       | 否                           |
 | 已編制索引             | 否                           |
 | 在通用類別目錄中      | 否                           |

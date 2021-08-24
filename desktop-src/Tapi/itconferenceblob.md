@@ -4,16 +4,16 @@ ms.assetid: b9ce61d1-3fc5-4963-8d2f-586a4b6a159d
 title: 'ITConferenceBlob 介面 (Sdpblb .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c961b8fb006f1e172f82827216292cb9d12a158f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: fa130e4456f206b27e41d03ead47138c777f9dad9e41d5d834bb018b29fc5447
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995749"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119379088"
 ---
 # <a name="itconferenceblob-interface"></a>ITConferenceBlob 介面
 
-\[ 在 Windows Vista、Windows Server 2008 和後續版本的作業系統中，無法使用會合 IP 電話語音會議控制項和介面。 RTC 用戶端 API 提供類似的功能。\]
+\[Windows Vista、Windows Server 2008 及後續版本的作業系統無法使用會合 IP 電話語音會議控制項和介面。 RTC 用戶端 API 提供類似的功能。\]
 
 **ITConferenceBlob** 介面會操控文字會議描述。 介面的設計目的是要與會議描述的格式和語法無關。 若要操作會議描述的特定層面，應用程式必須查詢另一個介面。 目前只支援 SDP 會議說明;應用程式必須使用 **QueryInterface** 進行 [**ITSdp**](itsdp.md) ，才能存取 SDP 會議描述的各種欄位。 **ITConferenceBlob** 介面是藉由在 [**ITDirectoryObject**](/windows/desktop/api/Rend/nn-rend-itdirectoryobject)上呼叫 **QueryInterface** 來建立。
 

@@ -12,12 +12,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
 api_location: ''
-ms.openlocfilehash: 2cb3181052b3c12f49928ef9c2d31cffd0a0ef5c
-ms.sourcegitcommit: 476861130ea63675206d1f06e517059705b930ed
+ms.openlocfilehash: c191483efff015bb3038ec28e576c82d9a0adda6ed498b676f09927e36e9a46f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "104971504"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119487118"
 ---
 # <a name="rwtexture2darrayload-methods"></a>RWTexture2DArray：： Load 方法
 

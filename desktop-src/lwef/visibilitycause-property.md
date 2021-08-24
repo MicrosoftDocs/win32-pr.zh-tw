@@ -4,16 +4,16 @@ description: VisibilityCause 屬性
 ms.assetid: 106574ef-af5f-44cf-9efb-9e6da19ebc1f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2a6e21e2cda201f8d04837d2b10efc757b93f824
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4f1e90b77dfdfae364761254676d0867a43aebacf516d4f2adad2973700d7e83
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372226"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119398788"
 ---
 # <a name="visibilitycause-property"></a>VisibilityCause 屬性
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 <dl> <dt>
 
@@ -27,7 +27,7 @@ ms.locfileid: "104372226"
 <span id="Syntax"></span><span id="syntax"></span><span id="SYNTAX"></span>**語法**
 </dt> <dd>
 
-*代理程式*。**( "***CharacterID***" ) 的字元。VisibilityCause**
+*代理程式*。**( "**_CharacterID_*_" ) 的字元。VisibilityCause_*
 
 
 
@@ -44,7 +44,7 @@ ms.locfileid: "104372226"
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -57,9 +57,9 @@ ms.locfileid: "104372226"
 [**隱藏事件**](hide-event.md)、 [**顯示事件**](show-event.md)、 [**隱藏方法**](hide-method.md)、 [**顯示方法**](show-method.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

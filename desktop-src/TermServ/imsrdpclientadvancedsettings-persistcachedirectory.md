@@ -46,12 +46,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dab6b8e6c20aca6032cb8e8538a77af0e0cf5afe
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 39c5167b56c53d01501dd59f2577b22d1c28acb2c2314bd52a86e9b55e6feb07
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106992664"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119574208"
 ---
 # <a name="imsrdpclientadvancedsettingspersistcachedirectory-property"></a>IMsRdpClientAdvancedSettings：:P ersistCacheDirectory 屬性
 

@@ -3,12 +3,12 @@ title: Winsock 時間戳記
 description: 封包時間戳記對於許多時鐘同步處理應用程式來說是很重要 &mdash; 的功能，例如，精確度時間通訊協定。 時間戳記的產生越接近網路介面卡硬體接收/傳送封包的時間，同步處理應用程式就越精確。
 ms.topic: article
 ms.date: 10/22/2020
-ms.openlocfilehash: eae0dce8c2c16bc187ef5522f323e7f36d7fc0b4
-ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
+ms.openlocfilehash: 329c13d76fc0c4ce0d87550623e7419af14bfdd268bf359a8f50729e0b0596e3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "110559940"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119568988"
 ---
 # <a name="winsock-timestamping"></a>Winsock 時間戳記
 

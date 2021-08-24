@@ -832,12 +832,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: eccc99baa6fe791f3817e7e88326e3cee9b451b8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6f726de52cc640c47bedc15f7204b421dabee5f0c91a9200f1f5490b224ae38d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106969393"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119475048"
 ---
 # <a name="jet_err-enumeration"></a>JET_err 列舉
 
@@ -1613,7 +1613,7 @@ public enum JET_err
 <tr class="odd">
 <td></td>
 <td>SQLLinkNotSupported</td>
-<td>SQL 連結支援無法使用</td>
+<td>SQL連結支援無法使用</td>
 </tr>
 <tr class="even">
 <td></td>
@@ -2853,7 +2853,7 @@ public enum JET_err
 <tr class="odd">
 <td></td>
 <td>LSAlreadySet</td>
-<td>已嘗試為已設定的物件設定本機儲存體</td>
+<td>嘗試為已設定的物件設定本機儲存體</td>
 </tr>
 <tr class="even">
 <td></td>

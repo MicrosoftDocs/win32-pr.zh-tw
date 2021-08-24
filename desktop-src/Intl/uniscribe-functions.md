@@ -4,12 +4,12 @@ ms.assetid: 876e36f5-a91c-490b-87bd-b7cb4993f8c4
 title: Uniscribe 函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4f623c8da04f985f88d091f8e9e2b4cb724c0801
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 547bdd2179e734120fe07c2ae774c8a066d9fd5d9db2be1262e67b505cbb04ce
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106984260"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119582188"
 ---
 # <a name="uniscribe-functions"></a>Uniscribe 函式
 

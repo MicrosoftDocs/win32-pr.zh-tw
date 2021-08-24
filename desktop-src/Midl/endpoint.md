@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4383df496a791859f7249766f0dbb59266d28e93
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: dea4951a407f09c1407c6e897938460d780e0429e888210e7e1ade392b5e94af
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103842135"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119383178"
 ---
 # <a name="endpoint-attribute"></a>端點屬性
 
@@ -52,7 +52,7 @@ endpoint("protocol-sequence:[endpoint-port]" [ , ...] )
 > [!Note]  
 > 在中指定端點。IDL 介面定義不會將介面的存取限制為指定的端點。 將端點加入至。IDL 介面定義允許透過該進程中的任何端點來呼叫介面，並允許在該進程中使用端點來呼叫其他介面。
 
- 
+ 
 
 *通訊協定序列* 值會決定 *端點埠* 的有效值。 MIDL 編譯器只會檢查 *端點埠* 專案的一般語法。 執行時間程式庫會報告埠規格錯誤。 如需每個通訊協定順序之允許值的相關資訊，請參閱 [通訊協定順序常數](/windows/desktop/Rpc/protocol-sequence-constants)。
 
@@ -83,6 +83,6 @@ endpoint("ncacn_ip_tcp:[1044]", "ncacn_np:[\\pipe\\shasta]")
 [**RpcServerUseProtseqIf**](/windows/desktop/api/rpcdce/nf-rpcdce-rpcserveruseprotseqif)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

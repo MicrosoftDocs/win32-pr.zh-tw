@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 81e754fe622d3ff6f010521b7bc9b9e4ff7a5f34
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 19bf7d965b03b75f4186b807098a5262c402d0c19104a4c09357958b38a77a73
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104195945"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119580208"
 ---
 # <a name="stringgeneralized-time-syntax"></a> (一般化時間) 語法的字串
 

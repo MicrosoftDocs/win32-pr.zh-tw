@@ -1,10 +1,10 @@
 ---
-title: ms-DS-密碼-設定-優先順序屬性
+title: ms DS-密碼-設定優先順序屬性
 description: 密碼設定優先順序。
 ms.assetid: cdcec1e4-87a8-4ff0-9df3-5f1cd90875f6
 ms.tgt_platform: multiple
 keywords:
-- ms-DS-密碼-設定-優先順序屬性 AD 架構
+- ms DS-密碼-設定優先順序屬性 AD 架構
 - Msds-passwordsettingsprecedence 屬性 AD 架構
 topic_type:
 - apiref
@@ -14,14 +14,14 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: be3fc6464dc74d3db436df8990cfab6464942875
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: ae820beb5ba1b75f040cc6135bb54651318a48557a644446e602fcf396873d79
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106973514"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119551908"
 ---
-# <a name="ms-ds-password-settings-precedence-attribute"></a>ms-DS-密碼-設定-優先順序屬性
+# <a name="ms-ds-password-settings-precedence-attribute"></a>ms DS-密碼-設定優先順序屬性
 
 密碼設定優先順序。
 
@@ -29,7 +29,7 @@ ms.locfileid: "106973514"
 
 | 進入 | 值 |
 |-------------------|--------------------------------------|
-| CN                | ms-DS-密碼-設定-優先順序   |
+| CN                | ms-DS-密碼-設定優先順序   |
 | Ldap-顯示名稱 | msDS-PasswordSettingsPrecedence      |
 | 大小              | \-                                   |
 | 更新許可權  | \-                                   |
@@ -55,7 +55,7 @@ ms.locfileid: "106973514"
 | 連結識別碼                | \-                                                                    |
 | MAPI-Id                | \-                                                                    |
 | System-Only            | 否                                                                 |
-| 是-單一值       | 對                                                                  |
+| 是-單一值       | 是                                                                  |
 | 已編制索引             | 否                                                                 |
 | 在通用類別目錄中      | 否                                                                 |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                          |
@@ -76,7 +76,7 @@ ms.locfileid: "106973514"
 | 連結識別碼                | \-                                                                    |
 | MAPI-Id                | \-                                                                    |
 | System-Only            | 否                                                                 |
-| 是-單一值       | 對                                                                  |
+| 是-單一值       | 是                                                                  |
 | 已編制索引             | 否                                                                 |
 | 在通用類別目錄中      | 否                                                                 |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                          |
@@ -97,7 +97,7 @@ ms.locfileid: "106973514"
 | 連結識別碼                | \-                                                                    |
 | MAPI-Id                | \-                                                                    |
 | System-Only            | 否                                                                 |
-| 是-單一值       | 對                                                                  |
+| 是-單一值       | 是                                                                  |
 | 已編制索引             | 否                                                                 |
 | 在通用類別目錄中      | 否                                                                 |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                          |

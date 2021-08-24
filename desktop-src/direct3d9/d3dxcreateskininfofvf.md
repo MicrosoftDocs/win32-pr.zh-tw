@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 907ab874b8cd8b766e6f9413212ba8771df9b25c
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: ccf10bad879b51f42c743ddd18112e24d355b366691b7922816164e57ed1b3d7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106982014"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119495778"
 ---
 # <a name="d3dxcreateskininfofvf-function"></a>D3DXCreateSkinInfoFVF 函式
 

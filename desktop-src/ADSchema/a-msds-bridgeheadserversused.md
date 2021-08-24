@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 52dca97dc5d8f501588cebc04ceae090fd1ce69c
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 99d6f26e28528f633e9dd0593e60d2e4d7b54780740feab35ca211a2494751ec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106966567"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119552718"
 ---
 # <a name="ms-ds-bridgehead-servers-used-attribute"></a>ms DS-橋頭伺服器-使用的屬性
 

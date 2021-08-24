@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ae2bd3c56bcf09d1c47343f903653e9d83113b1d
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: f1537fe258315f379bbc7bee3284f5dcb06cdd140f2b85ac34f00e9ee4f77ec5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103933189"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119382978"
 ---
 # <a name="string-attribute"></a>string 屬性
 
@@ -158,7 +158,7 @@ HRESULT Proc1([in, string] char * pszName);
 [**回撥**](callback.md)
 </dt> <dt>
 
-[**字元**](char-idl.md)
+[**char**](char-idl.md)
 </dt> <dt>
 
 [**const**](const.md)
@@ -224,6 +224,6 @@ HRESULT Proc1([in, string] char * pszName);
 [**wchar \_ t**](wchar-t.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

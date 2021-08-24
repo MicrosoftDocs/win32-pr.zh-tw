@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6ffcd5bc033afa6f61ea1aa8c127276994f6d3b4
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: da8c1e7a76131de1e1f1890819a60e9d5c5669e2d4098962ebb1a32322fdd0cf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106986200"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119544318"
 ---
 # <a name="ms-ds-tasks-for-az-role-attribute"></a>ms DS-工作--Az-Role 屬性
 

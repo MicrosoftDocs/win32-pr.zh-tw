@@ -4,12 +4,12 @@ description: 核心模式快取
 ms.assetid: f9a46ff4-779b-4b3a-b8f5-1ae10a3c0a61
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 83c409b00da03c0550899f5d26c4e6a0fa215118
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: c34296ae6d0bca81988437478eb5893f1a7cb1b3c8a0dc2ae461356499bbfe10
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108090886"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119340498"
 ---
 # <a name="kernel-mode-cache"></a>核心模式快取
 

@@ -4,16 +4,16 @@ ms.assetid: f9ea97c9-9a97-4083-82d8-29ffb8be5a77
 title: 具名管道安全性和存取權限
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 11cada606d8197ac2f64943aa742bbfd614fa4ef
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 556987cf35845de249bf0e19f3a0b481aab18e891c3b6211f26eb51571704d7b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106987569"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119451208"
 ---
 # <a name="named-pipe-security-and-access-rights"></a>具名管道安全性和存取權限
 
-Windows 安全性可讓您控制具名管道的存取。 如需安全性的詳細資訊，請參閱 [存取控制模型](/windows/desktop/SecAuthZ/access-control-model)。
+Windows 的安全性可讓您控制具名管道的存取。 如需安全性的詳細資訊，請參閱 [存取控制模型](/windows/desktop/SecAuthZ/access-control-model)。
 
 當您呼叫 [**CreateNamedPipe**](/windows/desktop/api/Winbase/nf-winbase-createnamedpipea)函式時，可以指定具名管道的 [安全描述項](/windows/desktop/SecAuthZ/security-descriptors)。 安全描述項可控制具名管道的用戶端和伺服器端的存取。 如果您指定 **Null**，具名管道會取得預設安全描述項。 具名管道之預設安全描述項中的 Acl 會授與 LocalSystem 帳戶、系統管理員和 creator 擁有者的完全控制權。 他們也會將讀取權限授與 Everyone 群組和匿名帳戶的成員。
 

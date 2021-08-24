@@ -4,12 +4,12 @@ description: Direct2D 效果的總覽。
 ms.assetid: 1446BDA9-AD4C-472C-8F1D-82ABC1880E13
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0dd29a4b2968e91bd0d516a74ec01538f69821bb
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: fe0a88ff64721fc32955416dcfe108b1c9e87f7565a67fc2e1d8192a1eaf369d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104023843"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119317982"
 ---
 # <a name="effects"></a>效果
 
@@ -33,7 +33,7 @@ Direct2D 的[](./direct2d-portal.md) [內建效果](built-in-effects.md)，以�
 -   [轉換和調整](built-in-effects.md)
 -   [來源](built-in-effects.md)
 
-您可以將效果套用至任何點陣圖，包括： [Windows 影像處理元件 (WIC) ](/windows/desktop/wic/-wic-api)所載入的影像、 [Direct2D](./direct2d-portal.md)所繪製的基本專案、 [DirectWrite](/windows/desktop/DirectWrite/direct-write-portal)中的文字，或 [Direct3D](/windows/desktop/direct3d10/d3d10-graphics)轉譯的場景。
+您可以將效果套用至任何點陣圖，包括： [Windows 影像處理元件 (WIC) ](/windows/desktop/wic/-wic-api)所載入的影像、 [Direct2D](./direct2d-portal.md)所繪製的基本專案、 [DirectWrite](/windows/desktop/DirectWrite/direct-write-portal)中的文字，或[Direct3D](/windows/desktop/direct3d10/d3d10-graphics)轉譯的場景。
 
 有了 Direct2D 效果，您可以撰寫自己的效果，以用於您的應用程式。 自訂效果架構可讓您使用 GPU 功能，例如圖元著色器、頂點著色器和混合單位。 您也可以在自訂效果中包含其他內建或自訂效果。 建立自訂效果的架構與用來建立 [Direct2D](./direct2d-portal.md)內建效果的架構相同。 [Direct2D 效果作者 API](custom-effects.md)提供一組介面，用來建立及註冊效果。
 
@@ -45,9 +45,9 @@ Direct2D 的[](./direct2d-portal.md) [內建效果](built-in-effects.md)，以�
 |--------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [效果著色器連結](effect-shader-linking.md)<br/>                                                            | Direct2D 會使用稱為效果著色器的優化連結，此連結會將多個效果圖形轉譯傳遞合併成單一階段。<br/>                                               |
 | [自訂效果](custom-effects.md)<br/>                                                                          | 說明如何使用標準 HLSL 撰寫您自己的自訂效果。<br/>                                                                                                                |
-| [如何使用 FilePicker 將影像載入 Direct2D 效果](load-a-id2d1image-using-the-filepicker.md)<br/> | 顯示如何使用 [**Windows：： Storage：:P ickers：： FileOpenPicker**](/uwp/api/Windows.Storage.Pickers.FileOpenPicker) 將影像載入 Direct2D 效果。<br/>                                      |
+| [如何使用 FilePicker 將影像載入 Direct2D 效果](load-a-id2d1image-using-the-filepicker.md)<br/> | 顯示如何使用 [**Windows：：儲存體：:P ickers：： FileOpenPicker**](/uwp/api/Windows.Storage.Pickers.FileOpenPicker)將影像載入 Direct2D 效果。<br/>                                      |
 | [如何將 Direct2D 內容儲存至影像檔案](save-direct2d-content-to-an-image-file.md)<br/>                   | 本主題說明如何使用 [**IWICImageEncoder**](/windows/desktop/api/wincodec/nn-wincodec-iwicimageencoder)將 ID2D1Image 形式的內容以 [](/windows/win32/api/d2d1/nn-d2d1-id2d1image)形式儲存至編碼的影像檔案，例如 JPEG。<br/> |
-| [如何將效果套用至基本專案](how-to-apply-effects-to-primitives.md)<br/>                                  | 本主題說明如何將一連串效果套用至 [Direct2D](./direct2d-portal.md) 和 [DirectWrite](direct2d-and-directwrite.md) 基本專案。<br/>                           |
+| [如何將效果套用至基本專案](how-to-apply-effects-to-primitives.md)<br/>                                  | 本主題說明如何將一連串效果套用至[Direct2D](./direct2d-portal.md)和[DirectWrite](direct2d-and-directwrite.md)基本專案。<br/>                           |
 | [控制效果圖形中的有效位數和數位裁剪](precision-and-clipping-in-effect-graphs.md)<br/>  | 使用 Direct2D 轉譯效果的應用程式必須謹慎，才能達到所需的品質和可預測性（相對於數值有效位數）。 <br/>                    |
 
 ## <a name="applying-an-effect-to-an-image"></a>將效果套用至影像

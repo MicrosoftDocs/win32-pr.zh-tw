@@ -8,12 +8,12 @@ keywords:
 - ADSI、搜尋、>idirectorysearch、其他搜尋選項、只傳回屬性名稱
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 055acbb3fe19969ce95ea77a633e20b195c0257d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f4b9c69a99cad0ece5c660ba45954fe537abe69cfa88947b52b0d69d7833b4e1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106966778"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119444008"
 ---
 # <a name="returning-only-attribute-names-with-idirectorysearch"></a>使用 >idirectorysearch 只傳回屬性名稱
 
@@ -53,9 +53,9 @@ SearchPref.vValue.Boolean = TRUE;
 
 如需詳細資訊和示範如何使用 **ADS \_ SEARCHPREF \_ ATTRIBTYPES \_ ONLY** 搜尋選項的程式碼範例，請參閱 [搜尋屬性的範例程式碼](example-code-for-searching-for-attributes.md)。
 
- 
+ 
 
- 
+ 
 
 
 

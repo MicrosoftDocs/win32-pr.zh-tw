@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f30af31d88349dbe02066f231cdff21293aebe90
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 15e30cd66348245aa3090fb21188d7d1cea347c1b28ee51243d2effd9b52609f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104383974"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119480338"
 ---
 # <a name="winbio_bdb_ansi_381_record-structure"></a>WINBIO \_ BDB \_ ANSI \_ 381 \_ 記錄結構
 
@@ -132,7 +132,7 @@ typedef struct _WINBIO_BDB_ANSI_381_RECORD {
 
 > [!IMPORTANT]
 >
-> 請勿嘗試驗證為 *位置* 值提供的值。 Windows 生物識別服務會先驗證提供的值，再將其傳遞至您的實作為。 如果值為 **WINBIO \_ 子類型 \_ NO \_ INFORMATION** 或 **WINBIO \_ 子類型 \_ ANY**，則在適當的位置驗證。
+> 請勿嘗試驗證為 *位置* 值提供的值。 Windows 生物特徵辨識服務會先驗證提供的值，再將其傳遞至您的實作為。 如果值為 **WINBIO \_ 子類型 \_ NO \_ INFORMATION** 或 **WINBIO \_ 子類型 \_ ANY**，則在適當的位置驗證。
 
  
 
@@ -142,8 +142,8 @@ typedef struct _WINBIO_BDB_ANSI_381_RECORD {
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                                                    |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/>                                                       |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                                                    |
+| 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/>                                                       |
 | 標頭<br/>                   | <dl> <dt>Winbio \_ 類型 .h (包含 Winbio .h) </dt> </dl> |
 
 

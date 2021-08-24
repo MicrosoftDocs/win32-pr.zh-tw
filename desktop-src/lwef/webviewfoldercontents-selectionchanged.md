@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ea6176cb2a1703d48cd2ddec8069c65d7efc978f
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 4cccabe52d7370d22fa086e9e8664163771062e8828c8ab2a6d016df30f13350
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108102656"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119607828"
 ---
 # <a name="webviewfoldercontentsselectionchanged-event"></a>WebViewFolderContents. SelectionChanged 事件
 
@@ -46,7 +46,7 @@ WebViewFolderContents.SelectionChanged = EventHandler;
 
 ## <a name="examples"></a>範例
 
-下列範例會針對內嵌于 HTML 的 JScript，顯示此事件的適當用法。
+下列範例示範如何適當地使用此事件，以供 HTML 中內嵌 JScript。
 
 
 ```HTML
@@ -84,10 +84,10 @@ WebViewFolderContents.SelectionChanged = EventHandler;
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 windows 2000 Professional、Windows XP \[ desktop 應用程式\]<br/>                                         |
+| 最低支援的用戶端<br/> | Windows 2000 Professional，僅 Windows XP \[ desktop 應用程式\]<br/>                                         |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                           |
 | 標頭<br/>                   | <dl> <dt>Shldisp。h</dt> </dl>                           |
-| Idl<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl>                         |
+| IDL<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Shell32.dll (4.71 版或更新版本) </dt> </dl> |
 
 

@@ -4,12 +4,12 @@ description: 在 Direct3D 10.1 和 Direct3D 11.0 中建立變形和參考裝置�
 ms.assetid: 7e022e5d-daa3-48fa-b9fe-4b569220e55e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e12540b1fdb8f2bc00ef2a0e596904e0b717bed1
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 0483ed6d5fd7348df39a4f3064f377845d6bfae1fe46abc47be5acd99e191c29
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104315196"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119608608"
 ---
 # <a name="limitations-creating-warp-and-reference-devices"></a>建立變形和參考裝置的限制
 
@@ -61,6 +61,6 @@ D3D10 \_ 驅動程式 \_ 類型的 \_ 變形和 D3D10 驅動程式類型參考�
 [**D3D \_ 功能 \_ 等級**](/windows/desktop/api/D3DCommon/ne-d3dcommon-d3d_feature_level)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -18,12 +18,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 39284a94950935e2d273483db871a9b08f7daf36
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 10dc107eba84b0b0559ce711add4596040cf23423e0723855e2c0c9ef0de652a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103935130"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119399658"
 ---
 # <a name="imsrdpdrivev2driveletterindex-property"></a>IMsRdpDriveV2：:D riveLetterIndex 屬性
 

@@ -4,16 +4,16 @@ ms.assetid: 98d24300-52cc-4f0d-b74f-c58b823ac5f3
 title: DDE 共用
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 012c219897187c9e68b5b9e662b93678b77974c0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e5e3416235f78e48c68b7d2e35c7ac042f8ff5d6eac79cc2471efa5ea12d82b7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103849527"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119602118"
 ---
 # <a name="dde-shares"></a>DDE 共用
 
-\[不再支援網路 DDE。 Windows Vista 上有 Nddeapi.dll，但是所有的函式呼叫都會傳回 NDDE \_ 未 \_ 執行。\]
+\[不再支援網路 DDE。 Nddeapi.dll 存在於 Windows Vista 中，但所有的函式呼叫會傳回 NDDE \_ 未 \_ 執行。\]
 
 DDE 共用是一種機器資源。 它們類似于檔案共用，因為它們是用來控制對資源的存取。 使用檔案共用時，資源為檔案。 使用 DDE 共用時，資源會動態地交換資料。 交換的資料類型取決於提供資料的伺服器應用程式，以及要求資料的用戶端應用程式。
 

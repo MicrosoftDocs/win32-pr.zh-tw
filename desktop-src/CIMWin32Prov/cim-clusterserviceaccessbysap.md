@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 9b6e6f0df20f182be392de3fbb0cb13068cbeffc
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 298ec40908a6c09c63b7a3ee56ac18540bc4aec4bed64ae8613d9d48f3292346
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936362"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119322308"
 ---
 # <a name="cim_clusterserviceaccessbysap-class"></a>CIM \_ ClusterServiceAccessBySAP 類別
 

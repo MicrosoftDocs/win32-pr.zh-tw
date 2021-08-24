@@ -1,21 +1,21 @@
 ---
-description: 預覽專案：範例程式碼
+description: 預覽 Project：範例程式碼
 ms.assetid: 8a4af82a-5611-4c53-8de8-04eaefd51df9
-title: 預覽專案：範例程式碼
+title: 預覽 Project：範例程式碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4c5527fd93d0f05d5388739cc936e4a4dd203e18
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: d98a47970a333ed27e249bddc81ba6fb4fb6e2c706fdfa2dda7c29f886e74022
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104467692"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119583568"
 ---
-# <a name="previewing-a-project-example-code"></a>預覽專案：範例程式碼
+# <a name="previewing-a-project-example-code"></a>預覽 Project：範例程式碼
 
 \[此 API 不受支援，而且可能會在未來變更或無法使用。\]
 
-下列程式碼範例示範如何載入和預覽 [DirectShow 編輯服務](directshow-editing-services.md) 專案。 為了清楚起見，會省略錯誤檢查。
+下列程式碼範例示範如何載入和預覽[DirectShow 編輯服務](directshow-editing-services.md)專案。 為了清楚起見，會省略錯誤檢查。
 
 
 ```C++
@@ -88,7 +88,7 @@ void main( void )
 
 <dl> <dt>
 
-[載入和預覽專案](loading-and-previewing-a-project.md)
+[載入和預覽 Project](loading-and-previewing-a-project.md)
 </dt> </dl>
 
  

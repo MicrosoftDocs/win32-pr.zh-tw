@@ -4,12 +4,12 @@ ms.assetid: 221aae7b-3a7c-4995-ae78-50d97de436d8
 title: 地區設定名稱
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9808db94615cba4416c12995b9c969eaaf5a3fee
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fed4c09900544e96c0f05166d1f4054972e9d8ff89fc108c185695a7506859bc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106985671"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119147400"
 ---
 # <a name="locale-names"></a>地區設定名稱
 

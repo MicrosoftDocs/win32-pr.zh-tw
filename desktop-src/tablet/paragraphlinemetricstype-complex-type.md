@@ -12,12 +12,12 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: e3cafa4ac937f049de2698200b21a0e952edc660
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cec22ff65dc3afe452d59d3a9abb3201b8cddf70c4fed600bc4868ea91e7db84
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104513721"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119335588"
 ---
 # <a name="paragraphlinemetricstype-complex-type"></a>ParagraphLineMetricsType 複雜類型
 
@@ -33,7 +33,7 @@ ms.locfileid: "104513721"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 Windows XP Tablet PC Edition \[ 桌面應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows僅限 XP Tablet PC Edition \[ 桌面應用程式\]<br/> |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                     |
 
 

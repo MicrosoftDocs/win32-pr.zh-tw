@@ -6,12 +6,12 @@ keywords:
 - InprocServer32 登錄機碼 COM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0daae9d495ad588e0dc710b63fe7d7ae9f48c11d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9904aa636bbfb8dc0bc01cac85e041aedfcd34364bd62ac7b0e4e5a9f904750f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104507364"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119567818"
 ---
 # <a name="inprocserver32"></a>InprocServer32
 
@@ -21,15 +21,15 @@ ms.locfileid: "104507364"
 
 ```
 HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID
-   {CLSID}
-      InprocServer32
-         (Default) = path
-         ThreadingModel = value
+   {CLSID}
+      InprocServer32
+         (Default) = path
+         ThreadingModel = value
 ```
 
 ## <a name="remarks"></a>備註
 
-**>threadingmodel** 是指定執行緒模型的 **REG \_ SZ** 值。 下表顯示可能的值。
+**>Threadingmodel** 是指定執行緒模型的 **REG \_ SZ** 值。 下表顯示可能的值。
 
 
 
@@ -42,7 +42,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID
 
 
 
- 
+ 
 
 同進程伺服器所提供的每個物件都必須使用相同的值。
 
@@ -61,7 +61,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID
 
 
 
- 
+ 
 
 如果伺服器的執行緒模型為「單元」，則載入伺服器的單元取決於用戶端執行所在的部門，如下表所示。
 
@@ -75,7 +75,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID
 
 
 
- 
+ 
 
 COM 也可以建立主控制項多執行緒單元 (MTA) 。 如果單一執行緒中的用戶端要求執行緒模型在進程中沒有 MTA 時為可用的同進程伺服器，COM 會建立主機 MTA 並將伺服器載入其中。
 
@@ -90,9 +90,9 @@ COM 也可以建立主控制項多執行緒單元 (MTA) 。 如果單一執行�
 [**InprocServer**](inprocserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

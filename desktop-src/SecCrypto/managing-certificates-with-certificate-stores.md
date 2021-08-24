@@ -4,12 +4,12 @@ ms.assetid: 6a56c355-8f24-41cc-88d9-2a02d9863ccf
 title: 使用憑證存放區管理憑證
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 98abb2b612f77db3f1c59e53fb9c7bf0f34cefb3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c0bfab57522ea8b400ee8d042b5b2cb1ad37fe7c234a291000eb516b11a6be0a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104554043"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119425650"
 ---
 # <a name="managing-certificates-with-certificate-stores"></a>使用憑證存放區管理憑證
 

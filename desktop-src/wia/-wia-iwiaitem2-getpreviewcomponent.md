@@ -1,5 +1,5 @@
 ---
-description: 取得 (WIA) 2.0 preview 元件的 Windows 映像取得。
+description: 取得 Windows 的影像取得 (WIA) 2.0 預覽元件。
 ms.assetid: 0b773c4c-f080-41fa-8902-4243a80fc67c
 title: 'IWiaItem2：： GetPreviewComponent 方法 (Wia .h) '
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Wia.h
-ms.openlocfilehash: 2e0881f68044c30731322c89d6cc2f19ce7277a3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3ac3705b4be60ce53fee411df1142fb64bbd1c393864b644e260829080be8f81
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113305"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119450428"
 ---
 # <a name="iwiaitem2getpreviewcomponent-method"></a>IWiaItem2：： GetPreviewComponent 方法
 
-取得 (WIA) 2.0 preview 元件的 Windows 映像取得。
+取得 Windows 的影像取得 (WIA) 2.0 預覽元件。
 
 ## <a name="syntax"></a>語法
 
@@ -76,8 +76,8 @@ HRESULT GetPreviewComponent(
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                     |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                               |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                     |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                               |
 | 標頭<br/>                   | <dl> <dt>Wia</dt> </dl>   |
 | Idl<br/>                      | <dl> <dt>Wia .idl</dt> </dl> |
 

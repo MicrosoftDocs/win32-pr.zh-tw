@@ -4,12 +4,12 @@ ms.assetid: e18ea3c8-ddac-4214-83be-106c28c3c327
 title: SCRNSAVE.EXE
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 77d6a5d50b002299fe38508b387926b0eed11141
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 5e1ac7c0f2ee9d87911c0db195df89e2c27dcf1b19c0e9dac70d1517b0ad30ab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104385974"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119571348"
 ---
 # <a name="scrnsaveexe"></a>SCRNSAVE.EXE
 
@@ -25,7 +25,7 @@ ms.locfileid: "104385974"
 
  
 
-## <a name="description"></a>Description
+## <a name="description"></a>描述
 
 指定螢幕保護裝置可執行檔的名稱。
 
@@ -41,7 +41,7 @@ ms.locfileid: "104385974"
 
 ## <a name="notes"></a>備註
 
--   當您在主控台中使用 [ **顯示** ] 來選取螢幕保護裝置時，Windows 作業系統會將此專案新增至登錄。 如果您從 [螢幕保護裝置程式] 清單中選擇 **([無])** 來停用所有螢幕保護裝置，則作業系統會從登錄中刪除這個專案，並呼叫 [**SystemParametersInfo**](/windows/win32/api/winuser/nf-winuser-systemparametersinfoa) 函式，其 *UiAction* 等於 SPI \_ SETSCREENSAVEACTIVE， *uiParam* 等於 **FALSE**。
+-   當您在主控台中使用 [**顯示**] 來選取螢幕保護裝置時，Windows 作業系統會將此專案新增至登錄。 如果您從 [螢幕保護裝置程式] 清單中選擇 **([無])** 來停用所有螢幕保護裝置，則作業系統會從登錄中刪除這個專案，並呼叫 [**SystemParametersInfo**](/windows/win32/api/winuser/nf-winuser-systemparametersinfoa) 函式，其 *UiAction* 等於 SPI \_ SETSCREENSAVEACTIVE， *uiParam* 等於 **FALSE**。
 -   在支援群組原則的系統上，群組原則設定會取代此專案。 啟用 **螢幕保護裝置可執行檔名稱** 群組原則設定時，系統會忽略此專案。 此原則設定的設定會儲存在 **SCRNSAVE.EXE** 專案中，該專案位於 **原則** 子機碼中。
 
  

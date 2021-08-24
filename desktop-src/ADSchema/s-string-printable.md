@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 22cd5ebe2a9cca95324258c5b54f8aeaabdc7c06
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 086cfc65520514f3c2817746de23c88625e93ec43a0d367d61b86b34833afb1d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106965127"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119580118"
 ---
 # <a name="stringprintable-syntax"></a>字串 (可列印的) 語法
 

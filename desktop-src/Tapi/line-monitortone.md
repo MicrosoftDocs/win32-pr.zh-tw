@@ -4,12 +4,12 @@ ms.assetid: ffdca615-5341-4f02-bb38-b8133cd9477d
 title: 'LINE_MONITORTONE 訊息 (Tapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: de88863111dc0d00ea32953eeac76d4b570b5848
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a57b7e49bcfe47b62002d8000c64b5c03242890250b8286e74470e044727d493
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106996070"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119405278"
 ---
 # <a name="line_monitortone-message"></a>行 \_ MONITORTONE 訊息
 
@@ -57,7 +57,7 @@ ms.locfileid: "106996070"
 *dwParam3* 
 </dt> <dd>
 
-「滴答計數」 (從 Windows 開始) 偵測到色調的毫秒數。 如果是早于2.0 的 API 版本，則不會使用此參數。
+「滴答計數」 (Windows 開始) 偵測到色調的毫秒數。 如果是早于2.0 的 API 版本，則不會使用此參數。
 
 </dd> </dl>
 

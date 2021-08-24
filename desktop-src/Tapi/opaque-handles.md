@@ -4,12 +4,12 @@ ms.assetid: e52ed691-0479-48da-9e06-c6a0d7a20e10
 title: 不透明控制碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2df2e0b0f608b9cefc8f0f4f538bffd452a8aab6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7de2daf3e5d486215ced5f16eac64930bd177b2072e54f6e7b8ecc0ccec49765
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104512060"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119404518"
 ---
 # <a name="opaque-handles"></a>不透明控制碼
 

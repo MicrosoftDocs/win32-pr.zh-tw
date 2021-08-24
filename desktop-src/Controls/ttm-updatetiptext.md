@@ -3,7 +3,7 @@ title: 'TTM_UPDATETIPTEXT 訊息 (Commctrl .h) '
 description: 設定工具的工具提示文字。
 ms.assetid: 2a7432dd-76f9-42b4-b639-178dce1d89ef
 keywords:
-- TTM_UPDATETIPTEXT message Windows 控制項
+- TTM_UPDATETIPTEXT 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f6c94b14ec83c190ce019ecba1413d2fa05f0103
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7c44b28d4913e4ae502db4d48268de945660610b374b7a1b98c0754fe99bafc8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104435"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119542847"
 ---
 # <a name="ttm_updatetiptext-message"></a>TTM \_ UPDATETIPTEXT 訊息
 
@@ -51,8 +51,8 @@ ms.locfileid: "104104435"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 | Unicode 與 ANSI 名稱<br/>   | **TTM \_UPDATETIPTEXTW** (Unicode) 和 **TTM \_ UPDATETIPTEXTA** (ANSI) <br/>       |
 

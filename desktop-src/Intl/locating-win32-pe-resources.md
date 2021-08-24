@@ -4,12 +4,12 @@ ms.assetid: 2bf13137-db9c-4ad0-a511-16859745cbba
 title: 尋找 Win32 PE 資源
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 464b99eaf792b7f292aed0f3c95925fdeffe45a4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d99a22994cb30a414588edff42ec39f7505ab993ca76f4d6504fc946c4a22fd6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106979024"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119147161"
 ---
 # <a name="locating-win32-pe-resources"></a>尋找 Win32 PE 資源
 

@@ -13,12 +13,12 @@ keywords:
 - 三角形
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e1cb324179137dbf9f9046c0c19acfffdf7394e1
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 6668b791eed8d2ed3c14fdaa229e4b96126fb28e83fb14b683283e759bd20c4f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104093607"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119580038"
 ---
 # <a name="t-opengl"></a>T (OpenGL) 
 

@@ -18,12 +18,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: af724344cd7d88676483c13d1a6a8cfeb8548294
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 8ee79a361e8e24f8b699b8b5fae4aba923d11f62bf512f056a788c15d34d4805
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106991433"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119513288"
 ---
 # <a name="imsrdpdrivecollectiondrivecount-property"></a>IMsRdpDriveCollection：:D riveCount 屬性
 
