@@ -1,4 +1,4 @@
-- name: 封裝、部署及查詢 Windows 應用程式
+- name: Windows 應用程式的封裝、部署和查詢
   href: appx-portal.md
   items:
     - name: 如何建立應用程式套件
@@ -696,7 +696,7 @@
               href: /windows/desktop/api/AppModel/ns-appmodel-package_version
         - name: 詞彙
           href: appx-packaging-glossary.md
-        - name: Windows 封裝管理員 COM API
+        - name: Windows 封裝管理員COM API
           href: windows-package-manager-com-api.md
     - name: 工具和 PowerShell Cmdlet
       href: appx-packaging-tools.md

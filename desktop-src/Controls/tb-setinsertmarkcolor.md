@@ -3,7 +3,7 @@ title: 'TB_SETINSERTMARKCOLOR 訊息 (Commctrl .h) '
 description: 設定用來繪製工具列之插入標記的色彩。
 ms.assetid: 09a04449-9a1f-4f9a-b09f-9f22f930d735
 keywords:
-- TB_SETINSERTMARKCOLOR message Windows 控制項
+- TB_SETINSERTMARKCOLOR 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 954654d71a3e3b7bba9af287d3e92fb2362e8711
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 466c9bfe27462b11cc0c6cf3a183328ddedb1b422b4d0c07b4496c7a90f83890
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104093815"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119540038"
 ---
 # <a name="tb_setinsertmarkcolor-message"></a>TB \_ SETINSERTMARKCOLOR 訊息
 
@@ -49,8 +49,8 @@ ms.locfileid: "104093815"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

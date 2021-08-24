@@ -4,12 +4,12 @@ ms.assetid: 90514067-59e9-4bd9-8612-2263bd414574
 title: BLOB 函數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a059e997a06d3295f598d65956c62d06953767ac
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 654fb7e7c6879a6df0f3b4aad4d29007a9405186631bd4d9c4dc1a24e606eb33
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106979131"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119144361"
 ---
 # <a name="blob-functions"></a>BLOB 函數
 

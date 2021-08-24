@@ -4,12 +4,12 @@ description: 本主題包含範例程式碼，說明 Microsoft 消費者介面�
 ms.assetid: 43826258-9321-4d44-bd31-6a3b42f00d39
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 417c86771c24cc1a67fd907aaf0628037edce44d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 75717dfcccaca5f62ac3431f9b3decb01842ce9bc696d07bfff54f35ffc13640
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106965189"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119133291"
 ---
 # <a name="how-to-raise-events-from-a-ui-automation-provider"></a>如何從消費者介面自動化提供者引發事件
 
@@ -54,9 +54,9 @@ void CustomButton::InvokeButton(HWND hwnd)
 [消費者介面自動化提供者的使用說明主題](uiauto-howto-topics-for-uiautomation-providers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

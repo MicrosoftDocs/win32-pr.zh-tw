@@ -4,12 +4,12 @@ ms.assetid: caa17027-8f11-47d3-83da-7ca83b27c978
 title: 'AVEncMPVIntraVLCTable 屬性 (Codecapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5391e143f7fe2a57b0a989d77246e46210c72a4c
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 755928278cfd726cf5d963cb339ddf362b0372087289e32fc352894483467d40
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103846619"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119276118"
 ---
 # <a name="avencmpvintravlctable-property"></a>AVEncMPVIntraVLCTable 屬性
 
@@ -35,8 +35,8 @@ ms.locfileid: "103846619"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 2000 專業版傳統型 \[ 應用程式 \| UWP 應用程式\]<br/>                     |
-| 最低支援的伺服器<br/> | Windows 2000 Server \[ desktop 應用程式 \| UWP 應用程式\]<br/>                           |
+| 最低支援的用戶端<br/> | Windows 2000 Professional \[ 桌面應用程式 \| UWP 應用程式\]<br/>                     |
+| 最低支援的伺服器<br/> | Windows 2000 Server \[ desktop apps \| UWP 應用程式\]<br/>                           |
 | 標頭<br/>                   | <dl> <dt>Codecapi。h</dt> </dl> |
 
 

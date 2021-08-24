@@ -20,12 +20,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 805f779965afc808e32952b58815c7b6bc528fbc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 37da2ff25fe51b08c036fe75ac55b9b3fdb508d1d24dcc151ecd87e04e3b63b5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106967126"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119383878"
 ---
 # <a name="socket-options"></a>通訊端選項
 

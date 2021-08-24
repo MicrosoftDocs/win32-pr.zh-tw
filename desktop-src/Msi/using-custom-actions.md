@@ -4,12 +4,12 @@ ms.assetid: dd2a0681-f50d-4232-bdcc-8aee6bb121a1
 title: 使用自訂動作
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5be1937adbf64b94667fc3e7c44d82843b561dfb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 11ed2d82616ca0cb2cd02ede85bb103201eb636e56b2bc391af3fbf8afe35843
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191692"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119499438"
 ---
 # <a name="using-custom-actions"></a>使用自訂動作
 

@@ -4,12 +4,12 @@ ms.assetid: 288be838-6094-4824-9cae-99b7ff9eea74
 title: 錯誤模式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 75238e7ee64f40950c3df3aba36d28d95c953267
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 2a1baa4c0bc4e1209586b630f2a58bfb06572131de8e7d2706614c78646d7e3c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104109977"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119260928"
 ---
 # <a name="error-mode"></a>錯誤模式
 

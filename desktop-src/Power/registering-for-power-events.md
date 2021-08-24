@@ -4,12 +4,12 @@ ms.assetid: 840390ca-d32a-4cf3-9e75-66322c7cdee0
 title: 註冊電源事件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: da084592414d1c58ab4ab43dd2b5c35f028552b5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c360905800ad3fdce047e16a0244cd3dbf1ca312f18154f0be0c36b75e546d5c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192767"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119143321"
 ---
 # <a name="registering-for-power-events"></a>註冊電源事件
 

@@ -4,12 +4,12 @@ description: 下列函式會搭配磁帶備份使用。
 ms.assetid: 8c5f92f7-4918-475c-bc86-2b02291488d5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 312c7477c28f83b7c1c64073234799219346f89a
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 2164958d7261c4c22caf1ac5124f524eca2f7ed355b082bede59d66a2e6fe697
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103682762"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119529608"
 ---
 # <a name="backup-functions"></a>備份功能
 
@@ -34,7 +34,7 @@ ms.locfileid: "103682762"
 
 
 
- 
+ 
 
 下列函式是針對使用 [單一實例存放區和 SIS 備份](single-instance-store-and-sis-backup.md)所提供的功能。
 
@@ -53,7 +53,7 @@ ms.locfileid: "103682762"
 
 
 
- 
+ 
 
 以下是針對加密檔案的 [備份和還原](/windows/desktop/FileIO/backup-and-restore-of-encrypted-files)所提供的功能。
 
@@ -68,8 +68,8 @@ ms.locfileid: "103682762"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ ms.assetid: be46f2c4-93cc-4018-8519-7c8e3ff0cc01
 title: System.Devices.AepContainer.SupportedUriSchemes
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 969cff120d49a6084994c2c4fb32bd713ec60a6e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f0b88b56fd111711ec0cc0006066446a08e912e9459b021ec8d3b742822043c9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974658"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119459088"
 ---
 # <a name="systemdevicesaepcontainersupportedurischemes"></a>System.Devices.AepContainer.SupportedUriSchemes
 

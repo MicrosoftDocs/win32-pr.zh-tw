@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 7dc0edc642687518979eab1d47c69af039bc3173
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 3894e701b22f6380e591eccf978e84a1321f57a84485cea8a6e3116181f3f2c6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108084906"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119538458"
 ---
 # <a name="ctransformoutputpincheckmediatype-method"></a>CTransformOutputPin. CheckMediaType 方法
 
@@ -55,7 +55,7 @@ HRESULT CheckMediaType(
 
 
 
-| 傳回碼                                                                                  | Description                                         |
+| 傳回碼                                                                                  | 描述                                         |
 |----------------------------------------------------------------------------------------------|-----------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>         | 成功。<br/>                                 |
 | <dl> <dt>**E \_ INVALIDARG**</dt> </dl> | 篩選的輸入 pin 未連接。<br/> |

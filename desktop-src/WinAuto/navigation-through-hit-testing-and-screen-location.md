@@ -4,12 +4,12 @@ description: 若要找出物件的子系，或判斷物件的大小，用戶端�
 ms.assetid: ba08814f-87bc-4b47-8b61-179a48d5092f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c26d055246e038611e881bd353bcc865c5e77136
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 34911b13a4c9bad2bfd79cb32d5654265878568ad00475ade08a87a23150b49f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106967615"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118828268"
 ---
 # <a name="navigation-through-hit-testing-and-screen-location"></a>流覽點擊測試和螢幕位置
 
@@ -37,11 +37,11 @@ ms.locfileid: "106967615"
 > [!Note]  
 > [**IAccessible：： accHitTest**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-acchittest) 比 [**IAccessible：： accLocation**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-acclocation) 更為精確，因為它可讓用戶端以圖元為單位來決定物件的位置，而不是使用周框矩形。 此精確度很有用，例如，當應用程式透過追蹤滑鼠指標的位置來收集資訊時。
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

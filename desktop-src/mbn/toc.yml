@@ -85,7 +85,7 @@
             - name: IMbnConnection
               href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnconnection
               items:
-                - name: Connect 方法
+                - name: 連線方法
                   href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnconnection-connect
                 - name: Disconnect 方法
                   href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnconnection-disconnect

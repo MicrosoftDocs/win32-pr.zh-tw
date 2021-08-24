@@ -5,12 +5,12 @@ ms.assetid: 726518FB-FCED-433B-BDD1-3B141C17AF32
 title: 'M (隔離的應用程式和並存元件) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 420f39a65864659fb48e0492c87070cc97a3c6bc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d0975963733a713f0646ec12ea74979fb55dad06192d1de1d8eba00fdf85e6ce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103690155"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119142101"
 ---
 # <a name="m-isolated-applications-and-side-by-side-assemblies"></a>M (隔離的應用程式和並存元件) 
 

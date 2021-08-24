@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.jet_
 ms:contentKeyID: 55104017
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: fc5256100df67b98fd91422b8eb5c4040b0f20a7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4d4075cee88f1547ff91eaacb0a092de7d740de931819faf0885aeea324580ee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104558970"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119472738"
 ---
 # <a name="jet_unicodeindex-methods"></a>JET_UNICODEINDEX 方法
 

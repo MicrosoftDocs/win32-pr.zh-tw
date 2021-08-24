@@ -4,12 +4,12 @@ ms.assetid: 45936528-ee29-4bc5-a609-4ca53cd08da7
 title: CNG 密碼編譯設定函數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 30811e94aabeddb88e7c10251e1206768f891d17
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 79ebe5701678069b5c42fea329791454b2ada54d5e6ea3ba206ff7b3e0db1cfa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106966671"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118908805"
 ---
 # <a name="cng-cryptographic-configuration-functions"></a>CNG 密碼編譯設定函數
 

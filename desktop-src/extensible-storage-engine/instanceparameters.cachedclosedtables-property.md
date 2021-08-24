@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 8f2465de2df3d25293f5298d40700512b6a086d8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ae5a15f0e89dd01218690dd1654a24a883e1ef3b7f8d6f44edc359b72d0429e7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103691664"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119112427"
 ---
 # <a name="instanceparameterscachedclosedtables-property"></a>InstanceParameters. CachedClosedTables 屬性
 

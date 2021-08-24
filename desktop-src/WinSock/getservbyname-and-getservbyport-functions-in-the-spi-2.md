@@ -4,12 +4,12 @@ ms.assetid: 72ee4a10-2864-48e3-a72c-ae069eb5aef3
 title: SPI 中的 getservbyname 和 getservbyport 函數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dbd910dc7ab478c262bd5ca6c480dc3ec58e1b53
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 466966db2fc605b4043355746a1e606626e3d5d518452d1fab661dcfb68b3238
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113072"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119132161"
 ---
 # <a name="getservbyname-and-getservbyport-functions-in-the-spi"></a>SPI 中的 getservbyname 和 getservbyport 函數
 

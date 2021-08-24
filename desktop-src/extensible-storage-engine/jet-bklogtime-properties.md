@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.jet_
 ms:contentKeyID: 39515257
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 6639e919b1665ba7b1301db0b877b1c84d52599c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 53bc69a86809031791af1268b4f78e800adb0d2a502ab12eb84517c5d4a1bd17
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104567436"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119475878"
 ---
 # <a name="jet_bklogtime-properties"></a>JET_BKLOGTIME 屬性
 

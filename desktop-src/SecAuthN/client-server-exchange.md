@@ -1,17 +1,17 @@
 ---
-description: 用戶端/伺服器交換
+description: 用戶端/伺服器 Exchange
 ms.assetid: 2449c4b3-720d-4b84-b3cf-fcc4abd05d33
-title: 用戶端/伺服器交換
+title: 用戶端/伺服器 Exchange
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6274705ef6719c846f0551f90fca8790ba89f2e7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: eb2401d3cf2bb59586e608bc7566c13009869d2874a1532b659f70c6c4e09e4e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114944"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119141171"
 ---
-# <a name="clientserver-exchange"></a>用戶端/伺服器交換
+# <a name="clientserver-exchange"></a>用戶端/伺服器 Exchange
 
 當使用者對伺服器有票證之後，工作站用戶端就可以與該伺服器建立安全的通訊會話。
 

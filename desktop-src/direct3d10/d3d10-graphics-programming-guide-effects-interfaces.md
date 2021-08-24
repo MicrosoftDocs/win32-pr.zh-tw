@@ -4,12 +4,12 @@ ms.assetid: 068d49d2-0e14-4080-9fee-20d984f22545
 title: " (Direct3D 10) 的效果系統介面"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b40b21d98bedaec65550343260e7c52e2df1c302
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 5d5d640b31d0d1db9ac9b58ed166b45acff762b30edc0e71f1d7138b5818b3e5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110384"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119128390"
 ---
 # <a name="effect-system-interfaces-direct3d-10"></a> (Direct3D 10) 的效果系統介面
 
@@ -24,7 +24,7 @@ ms.locfileid: "104110384"
 
 
 
-| 執行時間介面                                               | Description                                                          |
+| 執行時間介面                                               | 描述                                                          |
 |------------------------------------------------------------------|----------------------------------------------------------------------|
 | [**ID3D10Effect 介面**](/windows/desktop/api/D3D10Effect/nn-d3d10effect-id3d10effect)                   | 收集一或多個用於轉譯的技巧。                  |
 | [**ID3D10Include 介面**](/previous-versions/windows/desktop/legacy/bb173775(v=vs.85))                 | 在讀取包含檔案時，用來加入自訂行為的介面。 |
@@ -46,7 +46,7 @@ ms.locfileid: "104110384"
 
 
 
-| 反映介面                                                                  | Description                      |
+| 反映介面                                                                  | 描述                      |
 |----------------------------------------------------------------------------------------|----------------------------------|
 | [**ID3D10EffectBlendVariable 介面**](/windows/desktop/api/D3D10Effect/nn-d3d10effect-id3d10effectblendvariable)               | 取得並設定 blend 狀態。         |
 | [**ID3D10EffectDepthStencilVariable 介面**](/windows/desktop/api/D3D10Effect/nn-d3d10effect-id3d10effectdepthstencilvariable) | 取得並設定深度樣板狀態。 |
@@ -63,7 +63,7 @@ ms.locfileid: "104110384"
 
 
 
-| 反映介面                                                                          | Description                                         |
+| 反映介面                                                                          | 描述                                         |
 |------------------------------------------------------------------------------------------------|-----------------------------------------------------|
 | [**ID3D10EffectConstantBuffer 介面**](/windows/desktop/api/D3D10Effect/nn-d3d10effect-id3d10effectconstantbuffer)                     | 存取材質緩衝區或常數緩衝區中的資料。 |
 | [**ID3D10EffectDepthStencilViewVariable 介面**](/windows/desktop/api/D3D10Effect/nn-d3d10effect-id3d10effectdepthstencilviewvariable) | 存取深度樣板資源中的資料。            |
@@ -80,7 +80,7 @@ ms.locfileid: "104110384"
 
 
 
-| 反映介面                                                      | Description                    |
+| 反映介面                                                      | 描述                    |
 |----------------------------------------------------------------------------|--------------------------------|
 | [**ID3D10EffectMatrixVariable 介面**](/windows/desktop/api/D3D10Effect/nn-d3d10effect-id3d10effectmatrixvariable) | 取得和設定矩陣。          |
 | [**ID3D10EffectScalarVariable 介面**](/windows/desktop/api/D3D10Effect/nn-d3d10effect-id3d10effectscalarvariable) | 取得和設定純量。          |

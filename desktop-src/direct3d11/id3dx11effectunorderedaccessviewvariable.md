@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d48161ad4d9fc1773889fab0e8a0fd9a21ec793e
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
-ms.translationtype: HT
+ms.openlocfilehash: f81cb77f3757f9476b79277bf82252c8403738535acbbe1b1b07afa55f26d292
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104992142"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119376808"
 ---
 # <a name="id3dx11effectunorderedaccessviewvariable-interface"></a>ID3DX11EffectUnorderedAccessViewVariable 介面
 

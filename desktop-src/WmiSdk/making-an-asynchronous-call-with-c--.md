@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 使用 c + + 進行非同步呼叫
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b7f093aef4b1a1b4dbede53333e77d737f8efd69
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fcd988382399f3fc377476c486b363cf51db6c4d9ef559c787236e41bb74117a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106979836"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119131190"
 ---
 # <a name="making-an-asynchronous-call-with-c"></a>使用 c + + 進行非同步呼叫
 

@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: WMI 服務事件疑難排解類別
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e811ac5b276e5562f73b5b432d5f3255af5bab7
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 99be30a6b2f0551cae4e0abe269da5341e34e1444eb1545ca96377a43b5415ec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111443059"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119502798"
 ---
 # <a name="wmi-service-event-troubleshooting-classes"></a>WMI 服務事件疑難排解類別
 

@@ -4,12 +4,12 @@ ms.assetid: d9d71c95-a18a-466b-a7cb-76fddbd42eb5
 title: 驗證參考
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bbd32dc1b6256cea8a946bff23512d161002a142
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a40a5055c5a3464a8bb12f24df6a46d21ff57125549d72868609318b4518d8bb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106985663"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119141371"
 ---
 # <a name="authentication-reference"></a>驗證參考
 

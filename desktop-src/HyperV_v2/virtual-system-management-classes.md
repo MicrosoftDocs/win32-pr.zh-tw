@@ -4,12 +4,12 @@ ms.assetid: CE1BC344-CA27-4744-ACD7-0623CC54E532
 title: 虛擬系統管理類別
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f0105cd35bea2b12b3f371ff64bdb1eb07f25cc1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2093590f10741f2dd67093d4d84b00f668f4f6d39b538ac9a4476354d0b73c19
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973683"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119290108"
 ---
 # <a name="virtual-system-management-classes"></a>虛擬系統管理類別
 

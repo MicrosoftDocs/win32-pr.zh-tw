@@ -4,12 +4,12 @@ ms.assetid: e59b701f-f85f-4fd6-8d6d-e46199250c22
 title: WSASocket 的旗標位
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 51fede5d160d89b08064d8dff1c1a901c048526f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cd1bbe8a282fe0255e3efd9889216b7d44aee2a41feedb611ba5c2b1d38bae68
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971398"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119132471"
 ---
 # <a name="flag-bits-for-wsasocket"></a>WSASocket 的旗標位
 

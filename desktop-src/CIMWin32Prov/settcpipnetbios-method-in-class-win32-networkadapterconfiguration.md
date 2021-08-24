@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 20ecab5918d00dc5f189464becc0252f2a8c0569
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 80f408d0516e4caa5f45977e61b8620ea3d8865f5604eea2f3907bd7728f4809
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847595"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119439298"
 ---
 # <a name="settcpipnetbios-method-of-the-win32_networkadapterconfiguration-class"></a>Win32 >networkadapterconfiguration 類別的 SetTcpipNetbios 方法 \_
 

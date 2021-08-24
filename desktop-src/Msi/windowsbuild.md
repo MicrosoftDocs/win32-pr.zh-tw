@@ -4,12 +4,12 @@ ms.assetid: b5e8ac33-6f24-4e8b-8fc5-7c5933a07646
 title: WindowsBuild 屬性
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 96857a6eecf3901660096bcb99ebc297f78d0869
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1a5b6fff70216c3ec1ecad73dd65a80cc0a507947296afe02e0a6d4fffa0a489
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994318"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119498438"
 ---
 # <a name="windowsbuild-property"></a>WindowsBuild 屬性
 
@@ -21,7 +21,7 @@ ms.locfileid: "106994318"
 
 | 需求 | 值 |
 |--------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 版本<br/> | Windows Server 2012、Windows 8、Windows Server 2008 R2 或 Windows 7 上的 Windows Installer 5.0。 Windows Server 2008 或 Windows Vista 上的 Windows Installer 4.0 或 Windows Installer 4.5。 Windows Installer 在 Windows Server 2003 或 Windows XP 上，請參閱 Windows Installer Run-Time Windows Installer 版本所需的最低 Windows service pack 相關資訊的 [需求](windows-installer-portal.md) 。<br/> |
+| 版本<br/> | WindowsWindows Server 2012、Windows 8 Windows Server 2008 R2 或 Windows 7 上的安裝程式5.0。 WindowsWindows Server 2008 或 Windows Vista 上的安裝程式4.0 或 Windows Installer 4.5。 WindowsWindows Server 2003 或 Windows XP 上的安裝程式，請參閱[Windows Installer Run-Time](windows-installer-portal.md) Windows 版本所需的最小 Windows Installer service pack 資訊的需求。<br/> |
 
 
 

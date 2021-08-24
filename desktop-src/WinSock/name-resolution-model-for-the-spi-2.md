@@ -1,15 +1,15 @@
 ---
-description: Windows 通訊端的名稱解析和註冊模型 (Winsock) SPI。
+description: Windows 通訊端 (Winsock) SPI 的名稱解析和註冊模型。
 ms.assetid: b173b63e-42c7-4f85-b55f-1f7b3bff7c4f
 title: SPI 的名稱解析模型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7e79593f56cd11671b3c16ef9098d455bf548505
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 82f012a5c14a6dae9045b303ecb7c4e39f1d93d264285138d98c0e93274ef921
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113033"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119132111"
 ---
 # <a name="name-resolution-model-for-the-spi"></a>SPI 的名稱解析模型
 

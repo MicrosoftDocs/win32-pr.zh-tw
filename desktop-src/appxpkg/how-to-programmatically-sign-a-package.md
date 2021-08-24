@@ -4,32 +4,32 @@ description: 瞭解如何使用 SignerSignEx2 函數來簽署應用程式套件�
 ms.assetid: 1183D665-83C9-4BE7-9C8D-834484B8C57F
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0310ba2a934a6986809329a12afa8ee20b2f6591
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 5a91cf2c7b7be674ff14d1ceada59be593a300d7ebf1964ddce4a7a5340ab74c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103681703"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119130240"
 ---
 # <a name="how-to-programmatically-sign-an-app-package-c"></a>如何以程式設計方式簽署應用程式套件 (c + +) 
 
 瞭解如何使用 [**SignerSignEx2**](/windows/desktop/SecCrypto/signersignex2) 函數來簽署應用程式套件。
 
-如果您想要使用 [封裝 API](interfaces.md)以程式設計方式建立 Windows 應用程式套件，您也必須先簽署應用程式套件，才能進行部署。 封裝 API 未提供用來簽署應用程式套件的特殊方法。 相反地，請使用標準 [密碼編譯功能](/windows/desktop/SecCrypto/cryptography-functions) 來簽署應用程式套件。
+如果您想要使用[封裝 API](interfaces.md)以程式設計方式建立 Windows 應用程式套件，您也必須先簽署應用程式套件，才能進行部署。 封裝 API 未提供用來簽署應用程式套件的特殊方法。 相反地，請使用標準 [密碼編譯功能](/windows/desktop/SecCrypto/cryptography-functions) 來簽署應用程式套件。
 
 ## <a name="what-you-need-to-know"></a>您必須知道的事項
 
 ### <a name="technologies"></a>技術
 
 -   [程式碼簽署簡介](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms537361(v=vs.85))
--   [封裝、部署及查詢 Windows 應用程式](appx-portal.md)
+-   [Windows 應用程式的封裝、部署和查詢](appx-portal.md)
 -   [密碼編譯功能](/windows/desktop/SecCrypto/cryptography-functions)
 
 ### <a name="prerequisites"></a>必要條件
 
--   您必須擁有已封裝的 Windows 應用程式。 如需建立應用程式套件的相關資訊，請參閱 [如何建立應用程式套件](how-to-create-a-package.md)。
+-   您需要有封裝的 Windows 應用程式。 如需建立應用程式套件的相關資訊，請參閱 [如何建立應用程式套件](how-to-create-a-package.md)。
 -   您需要有適用于簽署應用程式套件的程式碼簽署憑證。 如需建立測試程式碼簽署憑證的詳細資訊，請參閱 [如何建立應用程式套件簽署憑證](how-to-create-a-package-signing-certificate.md)。 將此簽署憑證載入至 [**憑證 \_ 內容**](/windows/desktop/api/wincrypt/ns-wincrypt-cert_context) 結構。 例如，您可以使用 [**PFXImportCertStore**](/windows/desktop/api/wincrypt/nf-wincrypt-pfximportcertstore) 和 [**CertFindCertificateInStore**](/windows/desktop/api/wincrypt/nf-wincrypt-certfindcertificateinstore) 載入簽署憑證。
--   Windows 8 引進 [**SignerSignEx2**](/windows/desktop/SecCrypto/signersignex2) 函式。 當您簽署 Windows 應用程式套件時，請使用 **SignerSignEx2** 。
+-   Windows 8 引進 [**SignerSignEx2**](/windows/desktop/SecCrypto/signersignex2)函式。 當您簽署 Windows 應用程式套件時，請使用 **SignerSignEx2** 。
 
 ## <a name="instructions"></a>指示
 
@@ -190,11 +190,11 @@ typedef struct _APPX_SIP_CLIENT_DATA
 
 ### <a name="step-2-call-signersignex2-to-sign-the-app-package"></a>步驟2：呼叫 SignerSignEx2 來簽署應用程式套件
 
-定義上一個步驟中指定的必要結構之後，您可以使用 [**SignerSignEx2**](/windows/desktop/SecCrypto/signersignex2) 函式上的任何可用選項來簽署應用程式套件。 當您搭配使用 **SignerSignEx2** 與 Windows 應用程式套件時，適用下列限制：
+定義上一個步驟中指定的必要結構之後，您可以使用 [**SignerSignEx2**](/windows/desktop/SecCrypto/signersignex2) 函式上的任何可用選項來簽署應用程式套件。 當您搭配 Windows 應用程式套件使用 **SignerSignEx2** 時，適用下列限制：
 
 -   當您簽署應用程式封裝時，您必須提供指向 **APPX \_ SIP \_ 用戶端 \_ 資料** 結構的指標作為 *pSipData* 參數。 您必須使用您用來簽署應用程式套件的相同參數，填入 **APPX \_ SIP \_ 用戶端 \_ 資料** 的 **pSignerParams** 成員。 若要這樣做，請在 **簽署者 \_ SIGN \_ EX2 \_ PARAMS** 結構上定義您想要的參數，將此結構的位址指派給 **PSignerParams**，然後在您呼叫 [**SignerSignEx2**](/windows/desktop/SecCrypto/signersignex2)時直接參考結構的成員。
 -   呼叫 [**SignerSignEx2**](/windows/desktop/SecCrypto/signersignex2)之後，您必須在 **PAppxSipState** 上呼叫 [**IUnknown：： Release**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) （如果它不是 **Null**）來釋放 *pSipData* 上的 **pAppxSipState** 。
--   **簽署者簽章 \_ \_ 資訊** 結構的 **algidHash** 成員必須是建立應用程式封裝時所使用的相同雜湊演算法。 如需如何從應用程式套件判斷雜湊演算法的詳細資訊，請參閱 [如何使用 SignTool 簽署應用程式套件](how-to-sign-a-package-using-signtool.md)。 [MakeAppx](make-appx-package--makeappx-exe-.md)和 Visual Studio 用來建立應用程式套件的 Windows 8 預設演算法為 "ALGIDHASH = CALG \_ SHA \_ 256"。
+-   **簽署者簽章 \_ \_ 資訊** 結構的 **algidHash** 成員必須是建立應用程式封裝時所使用的相同雜湊演算法。 如需如何從應用程式套件判斷雜湊演算法的詳細資訊，請參閱 [如何使用 SignTool 簽署應用程式套件](how-to-sign-a-package-using-signtool.md)。 [MakeAppx](make-appx-package--makeappx-exe-.md)和 Visual Studio 用來建立應用程式套件的 Windows 8 預設演算法為 "algidHash = CALG \_ SHA \_ 256"。
 -   如果您想要為應用程式套件上的簽章加上時間戳記，您必須在呼叫 [**SignerSignEx2**](/windows/desktop/SecCrypto/signersignex2) 期間，提供 **SignerSignEx2** 的選擇性時間戳記參數 (*dwTimestampFlags*、 *pszTimestampAlgorithmOid*、 *pwszHttpTimeStamp*、 *psRequest*) 。 不支援在已簽署的應用程式套件上呼叫 [**SignerTimeStampEx3**](/windows/desktop/SecCrypto/signertimestampex3) 或其 variant。
 
 以下是顯示如何呼叫 [**SignerSignEx2**](/windows/desktop/SecCrypto/signersignex2)的一些範例程式碼：
@@ -317,7 +317,7 @@ HRESULT SignAppxPackage(
 
 ## <a name="remarks"></a>備註
 
-簽署應用程式套件之後，您也可以使用 [**WinVerifyTrust**](/windows/desktop/api/wintrust/nf-wintrust-winverifytrust) 函式搭配 **WINTRUST \_ 動作 \_ 一般 \_ 驗證 \_ V2**，嘗試以程式設計方式驗證簽章。 在此情況下，不需要特別考慮使用 **WinVerifyTrust** 搭配 Windows 應用程式套件。
+簽署應用程式套件之後，您也可以使用 [**WinVerifyTrust**](/windows/desktop/api/wintrust/nf-wintrust-winverifytrust) 函式搭配 **WINTRUST \_ 動作 \_ 一般 \_ 驗證 \_ V2**，嘗試以程式設計方式驗證簽章。 在此情況下，不需要特別考慮搭配 Windows 應用程式套件使用 **WinVerifyTrust** 。
 
 ## <a name="related-topics"></a>相關主題
 
@@ -332,6 +332,6 @@ HRESULT SignAppxPackage(
 [密碼編譯功能](/windows/desktop/SecCrypto/cryptography-functions)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

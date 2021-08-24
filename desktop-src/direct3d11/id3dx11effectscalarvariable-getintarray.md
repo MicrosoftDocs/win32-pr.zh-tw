@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d9b86d2be99525c85d7d726e31c6ec98f9536d34
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 8fe6d774aa553f4748a1918694951541bcc6ee6f5e75a6dede4b7ef173ed2b3d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104323272"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119377588"
 ---
 # <a name="id3dx11effectscalarvariablegetintarray-method"></a>ID3DX11EffectScalarVariable：： GetIntArray 方法
 

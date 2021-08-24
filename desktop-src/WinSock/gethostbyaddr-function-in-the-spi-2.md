@@ -4,12 +4,12 @@ ms.assetid: 6fd54708-dbd0-4402-8eb8-9cdc42cd56ad
 title: SPI 中的 gethostbyaddr 函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c94f4cdead3a19814e535e2dee80dfdcd0c9fa26
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e343bcd66b7b1482f14a07239ae73710fd789486633219952696406dd8f1bd3d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511441"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119132311"
 ---
 # <a name="gethostbyaddr-function-in-the-spi"></a>SPI 中的 gethostbyaddr 函式
 

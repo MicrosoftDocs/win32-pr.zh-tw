@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 39b2ed312f7db54ff799ce2aa52554349d020dab
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 755a22e4cb0dbbee9d10ee45224ca54007a782f89f6220489722881dfe8524e6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972448"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119107302"
 ---
 # <a name="jet_retinfoiblongvalue-property"></a>JET_RETINFO ibLongValue 屬性
 

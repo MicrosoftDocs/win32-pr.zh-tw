@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.jet_
 ms:contentKeyID: 39514674
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 1d20485ef615d7565df93c20963e6a184de7d88d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 61ea39218405fe3e37c66190a551c5f3aa1fbf0d1dc90c65f73dacd580da72aa
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104562572"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119560378"
 ---
 # <a name="jet_columnid-methods"></a>JET_COLUMNID 方法
 

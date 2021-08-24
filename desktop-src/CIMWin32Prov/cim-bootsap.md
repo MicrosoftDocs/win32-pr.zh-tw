@@ -23,12 +23,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: d4868497c2d604457a45273b1c0cc609ae361ad9
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 9b78f9619f586217e3c5b5c0ebadbc68ee974e1f7d8740d07c8bba31a0fd8ceb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970329"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119439248"
 ---
 # <a name="cim_bootsap-class"></a>CIM \_ BootSAP 類別
 
@@ -305,7 +305,7 @@ class CIM_BootSAP : CIM_ServiceAccessPoint
 
 </dd> <dt>
 
-**型別**
+**類型**
 </dt> <dd> <dl> <dt>
 
 資料類型： **uint32**

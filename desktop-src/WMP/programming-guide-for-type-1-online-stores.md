@@ -9,19 +9,19 @@ keywords:
 - 程式設計指南，請輸入1個線上商店
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cea04cb188a68c85173b5b1682235b6964840d46
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9ae0032be2b02c22b95353dd3a0953fd50ba255b650ef8b35260216c0d20d9ba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104183915"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118834237"
 ---
 # <a name="programming-guide-for-type-1-online-stores"></a>類型1線上商店的程式設計指南
 
 > [!Note]  
 > 本章節描述專為線上商店使用而設計的功能。 不支援在線上商店的內容之外使用這項功能。
 
- 
+ 
 
 本章節包含下列主題，可協助您建立類型1線上商店。
 
@@ -40,7 +40,7 @@ ms.locfileid: "104183915"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -49,9 +49,9 @@ ms.locfileid: "104183915"
 [**輸入1個線上商店**](type-1-online-stores.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

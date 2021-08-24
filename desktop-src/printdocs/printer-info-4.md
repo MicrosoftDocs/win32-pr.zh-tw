@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 api_location:
 - Winspool.h
-ms.openlocfilehash: 9a1501008f0235ea303dd1457fc8756c28abc21c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3ba6e372b495c47dd92e61e51ba6487e6d9c2c0aca924bf6ed3a092ba0816820
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194134"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119446988"
 ---
 # <a name="printer_info_4-structure"></a>印表機 \_ 資訊 \_ 4 結構
 
@@ -83,7 +83,7 @@ typedef struct _PRINTER_INFO_4 {
 
 **屬性** 也可以包含在 [**印表機 \_ 資訊 \_ 2**] 的 [**屬性**] 欄位中定義的值。
 
-某些印表機設定（例如，某些非 Windows 列印伺服器的印表機連線）可能會同時傳回 **印表機 \_ 屬性 \_ 本機** 和 **印表機 \_ 屬性 \_ 網路**。
+某些印表機設定（例如，某些非 Windows 式列印伺服器的印表機連線）可能會同時傳回 **印表機 \_ 屬性 \_ 本機** 和 **印表機 \_ 屬性 \_ 網路**。
 
 ## <a name="requirements"></a>規格需求
 
@@ -93,7 +93,7 @@ typedef struct _PRINTER_INFO_4 {
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                                |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                      |
-| 標頭<br/>                   | <dl> <dt>Winspool.drv (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>winspool.drv (包含 Windows .h) </dt> </dl> |
 | Unicode 與 ANSI 名稱<br/>   | **\_ 印表機 \_ 資訊 \_ 4W** (Unicode) 和 **\_ 印表機 \_ 資訊 \_ 4a** (ANSI) <br/>                           |
 
 

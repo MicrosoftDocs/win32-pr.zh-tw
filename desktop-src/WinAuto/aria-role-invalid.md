@@ -6,12 +6,12 @@ keywords:
 - AriaRoleErrorId
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: df04ad94d68ae1e8e2e8d3352aa349834a2389fa
-ms.sourcegitcommit: 773fa6257ead6c74154ad3cf46d21e49adc900aa
+ms.openlocfilehash: 51c0fcef639a54bcd805bcb3f239e8d42cfeda8c5111d128c5f54157db75d7ea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "106995156"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119134011"
 ---
 # <a name="aria-role-error"></a>ARIA 角色錯誤
 
@@ -49,9 +49,9 @@ ms.locfileid: "106995156"
 [ARIA 容器角色錯誤](aria-container-role.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

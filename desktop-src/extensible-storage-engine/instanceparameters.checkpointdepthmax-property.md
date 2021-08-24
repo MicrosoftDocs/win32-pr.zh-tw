@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 3addab0356206577eda22119ddce81721e9c2bef
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6aacb8f0bf9083ab4f79b101adc583e1b038f9d7c6f4eeb53bc08a571fc72227
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106993021"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119454158"
 ---
 # <a name="instanceparameterscheckpointdepthmax-property"></a>InstanceParameters. CheckpointDepthMax 屬性
 

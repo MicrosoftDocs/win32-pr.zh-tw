@@ -6,19 +6,19 @@ keywords:
 - Windows Media Player，MetadataText 物件
 - Windows Media Player 物件模型，MetadataText 物件
 - 物件模型，MetadataText 物件
-- Windows Media Player ActiveX 控制項，MetadataText 物件
-- ActiveX 控制項，MetadataText 物件
-- Windows Media Player 行動 ActiveX 控制項，MetadataText 物件
-- Windows Media Player Mobile，MetadataText 物件
+- Windows Media Player ActiveX control、MetadataText 物件
+- ActiveX control、MetadataText 物件
+- Windows Media PlayerMobile ActiveX control、MetadataText 物件
+- Windows Media PlayerMobile、MetadataText 物件
 - MetadataText 物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 193f8abe1a46830fda1ef4f55c3cb0f3fbceade9
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f23e873d2fd86ad22cb7b37345562ab82a95d73810b06829b5d9510aa28c1790
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671403"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119470388"
 ---
 # <a name="about-the-metadatatext-object"></a>關於 MetadataText 物件
 
@@ -34,9 +34,9 @@ ms.locfileid: "103671403"
 [**指令碼語言的播放程式物件模型**](player-object-model-for-scripting-languages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

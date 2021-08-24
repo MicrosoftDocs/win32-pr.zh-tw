@@ -4,12 +4,12 @@ ms.assetid: f01573f3-aae6-400e-bdd9-6f34f4e262f6
 title: 決定要在哪裡強制執行安全性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ac994fb98d50a7e26f1b8142e77dc9ff771f6b2
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 63c13bb81a74b329c662370f24db51559c9dd83f0c1c521ba70dfdcb8be1c813
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510476"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119128768"
 ---
 # <a name="deciding-where-to-enforce-security"></a>決定要在哪裡強制執行安全性
 

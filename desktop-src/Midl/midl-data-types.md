@@ -8,12 +8,12 @@ keywords:
 - 資料類型 MIDL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6bf37703c56beec56dec67055272d4ba25d34e6f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 69f8e1e2b747069b9b07b9292932a8134d7f5c7c9c1456fdf63b725ea700a983
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104371824"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119067158"
 ---
 # <a name="midl-data-types"></a>MIDL 資料類型
 
@@ -27,9 +27,9 @@ MIDL 提供資料類型的眾多，以及用來建立資料類型的語言結構
 -   [MIDL 等位](midl-unions.md)
 -   [MIDL 系結控制碼](midl-binding-handles.md)
 
- 
+ 
 
- 
+ 
 
 
 

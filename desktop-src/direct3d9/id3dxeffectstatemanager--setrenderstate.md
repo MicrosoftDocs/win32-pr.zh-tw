@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: 111ab8ff379d5b095500101674fc45b6a2b31bc1
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: c7d34dae1d0789b80d896b72be7e35420daf587986ac2725e880b81597b15e88
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106997405"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119459618"
 ---
 # <a name="id3dxeffectstatemanagersetrenderstate-method"></a>ID3DXEffectStateManager：： Graphicsdevice 方法
 

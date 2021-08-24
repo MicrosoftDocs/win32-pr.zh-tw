@@ -3,14 +3,14 @@ title: CMY 和 CMYK 色彩空間
 description: CMY 和 CMYK 色彩空間通常用於彩色列印。 CMY 色彩空間使用青色、洋紅和黃色 (CMY) 作為其主要色彩。 紅色、綠色和藍色是次要色彩。
 ms.assetid: e135b5ef-fa5c-49b7-8537-5dc31cde2418
 keywords:
-- Windows Color System (WCS) ，CMY 色彩空間
-- WCS (Windows 色彩系統) ，CMY 色彩空間
+- Windows色彩系統 (WCS) 、CMY 色彩空間
+- WCS (Windows 色彩系統) 、CMY 色彩空間
 - 影像色彩管理、CMY 色彩空間
 - 色彩管理，CMY 色彩空間
 - 色彩，CMY 色彩空間
 - 色彩空間、CMY
 - CMY 色彩空間
-- Windows Color System (WCS) 、CMYK 色彩空間
+- Windows色彩系統 (WCS) 、CMYK 色彩空間
 - WCS (Windows 色彩系統) 、CMYK 色彩空間
 - 影像色彩管理、CMYK 色彩空間
 - 色彩管理，CMYKcolor 空間
@@ -27,12 +27,12 @@ keywords:
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 52622c929222eb9027b6272137a8b897210697b6
-ms.sourcegitcommit: 38954f8f0d70f44bff4a943784f468ebd7ef691a
+ms.openlocfilehash: 1fdcb1ea33bd32346dd541894342ec4af02274e4381eaf0c1925e2a4bc20e10c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "106982782"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119452093"
 ---
 # <a name="cmy-and-cmyk-color-spaces"></a>CMY 和 CMYK 色彩空間
 

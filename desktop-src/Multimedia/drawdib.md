@@ -6,19 +6,19 @@ keywords:
 - Windows 多媒體、DrawDib
 - 多媒體、DrawDib
 - Windows (VFW) 的影片，DrawDib
-- 適用于 Windows) 的 VFW (影片，DrawDib
+- 適用于 Windows) 、DrawDib 的 VFW (影片
 - DrawDib，關於
 - DrawDib，視訊記憶體
 - 裝置獨立點陣圖 (DIB)
 - 'DIB (與裝置無關的點陣圖) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 63cfe88ec93e539fec74539c09d2f8a8446984ac
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9b7de2fb3613ffd8211a654565b4d07ce386c0d8006fd98338337b5fd165b7f9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103932173"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119496758"
 ---
 # <a name="drawdib"></a>DrawDib
 
@@ -30,9 +30,9 @@ DrawDib 函式會直接寫入視訊記憶體。 它們不依賴圖形裝置介�
 -   [使用 DrawDib](using-drawdib.md)
 -   [DrawDib 參考](drawdib-reference.md)
 
- 
+ 
 
- 
+ 
 
 
 

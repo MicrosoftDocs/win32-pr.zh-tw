@@ -4,12 +4,12 @@ description: 使用下列背景智慧型傳送服務 (位) 介面來傳送檔案
 ms.assetid: 72668c9b-e6f3-4f3f-9d4b-50d930d1889d
 ms.topic: article
 ms.date: 01/08/2019
-ms.openlocfilehash: fc95d4aea6d6d74ff2952cf2ef686fbaa1049732
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0edd4229e76a85767689427cfccd6cb38aa11c0e54345053ce10d1a99fc1fde8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103931920"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119529068"
 ---
 # <a name="bits-interfaces"></a>BITS 介面
 
@@ -46,11 +46,11 @@ ms.locfileid: "103931920"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,5 +1,5 @@
 ---
-description: 表示 Microsoft Windows Hyper-v 平臺的資源集區元素。
+description: 表示 Microsoft Windows hyper-v 平臺的資源集區元素。
 ms.assetid: DF48E8A6-240F-44E9-9DA3-1E6694396F10
 title: Msvm_ResourcePoolComponent 類別
 ms.topic: reference
@@ -23,16 +23,16 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: a0cf64a9e01d904aa4e6c6ec263fdeec92eb7c94
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 470317d3afd961ad74eb788ebdb70e67617749446fa4a432f40f00f43214cd92
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106992056"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119535608"
 ---
 # <a name="msvm_resourcepoolcomponent-class"></a>Msvm \_ ResourcePoolComponent 類別
 
-表示 Microsoft Windows Hyper-v 平臺的資源集區元素。
+表示 Microsoft Windows hyper-v 平臺的資源集區元素。
 
 下列語法已簡化受控物件格式 (MOF) 程式碼，並且包含所有繼承的屬性。
 
@@ -79,7 +79,7 @@ class Msvm_ResourcePoolComponent : Msvm_VirtualizationComponent
 
 </dd> <dt>
 
-**Clsid**
+**CLSID**
 </dt> <dd> <dl> <dt>
 
 資料類型： **字串**
@@ -209,8 +209,8 @@ class Msvm_ResourcePoolComponent : Msvm_VirtualizationComponent
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                                              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                                              |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                                                    |
 | 用戶端支援結束<br/>    | Windows 8.1<br/>                                                                                  |
 | 伺服器支援結束<br/>    | Windows Server 2012 R2<br/>                                                                       |
 | 命名空間<br/>                | 根 \\ 虛擬化 \\ V2<br/>                                                                     |

@@ -9,12 +9,12 @@ keywords:
 - WOW64 64 位 Windows 程式設計，記憶體耗用量
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8928e7d50c8396aa2b5b34081af3e4ee2719e044
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 03d5dd20cb42245318bf2666da788b9eea9e371c3945155c1b03b876fa513f5b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382581"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119613828"
 ---
 # <a name="performance-and-memory-consumption-under-wow64"></a>WOW64 下的效能和記憶體耗用量
 
@@ -29,6 +29,6 @@ WOW64 可讓32位應用程式利用64位核心。 因此，32位應用程式可�
 
 如果應用程式在映射標頭中設定了 [**圖像 \_ 檔案 \_ 大型 \_ 位址 \_ 感知**](/windows/desktop/api/dbghelp/ns-dbghelp-loaded_image) 旗標，則每個32位應用程式會在 WOW64 環境中收到 4 GB 的虛擬位址空間。 如果未設定 **圖像 \_ 檔案 \_ 大型 \_ 位址 \_ 感知** 旗標，每個32位應用程式會在 WOW64 環境中收到 2 GB 的虛擬位址空間。
 
- 
+ 
 
- 
+ 

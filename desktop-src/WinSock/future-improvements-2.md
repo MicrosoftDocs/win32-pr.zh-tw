@@ -4,12 +4,12 @@ ms.assetid: 317baa53-6bc8-42bd-8f56-480cab29ae6b
 title: 未來的改進
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 938f38334a4bbe392e83efc0be12905fb7ae66a8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 384d5a4f4ee9a4d6cb4a0f258d63262930dc5a6636be8d0e7f709b0e4f04e152
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972631"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119132361"
 ---
 # <a name="future-improvements"></a>未來的改進
 

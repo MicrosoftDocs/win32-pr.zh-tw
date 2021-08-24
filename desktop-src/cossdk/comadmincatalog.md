@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - ComAdmin.Idl
-ms.openlocfilehash: fa6e71d13f5a3d157bd3ce1035d0616dc1e5a519
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 8be3f0f3f9aa59c2199c50b73b8a4d4488b0c9a65d3e0679b65350d6b8b07fd3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104468393"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119128990"
 ---
 # <a name="comadmincatalog-class"></a>COMAdminCatalog 類別
 
@@ -56,9 +56,9 @@ ms.locfileid: "104468393"
 
 若要建立這個物件，請呼叫 [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance)。
 
-若要從 Microsoft Visual Basic 使用這個類別，請將參考新增至 COM + 系統管理員類型程式庫。 您可以使用 "COMAdmin. COMAdminCatalog" 將 COMAdminCatalog 物件宣告為類別名稱。
+若要從 Microsoft Visual Basic 使用這個類別，請將參考新增至 com + 系統管理員類型程式庫。 您可以使用 "COMAdmin. COMAdminCatalog" 將 COMAdminCatalog 物件宣告為類別名稱。
 
-在以 Windows XP 發行的 COM + 1.5 中， **COMAdminCatalog** 類別會執行 [**ICOMAdminCatalog2**](/windows/desktop/api/ComAdmin/nn-comadmin-icomadmincatalog2) 介面。 不過，在以 Windows 2000 發行的 COM + 1.0 中， **COMAdminCatalog** 類別只會執行 [**ICOMAdminCatalog**](/windows/desktop/api/ComAdmin/nn-comadmin-icomadmincatalog) 介面。
+在與 Windows XP 一起發行的 com + 1.5 中， **COMAdminCatalog** 類別會執行 [**ICOMAdminCatalog2**](/windows/desktop/api/ComAdmin/nn-comadmin-icomadmincatalog2)介面。 不過，在 com + 1.0 中，使用 Windows 2000 發行的 **COMAdminCatalog** 類別只會執行 [**ICOMAdminCatalog**](/windows/desktop/api/ComAdmin/nn-comadmin-icomadmincatalog)介面。
 
 ## <a name="requirements"></a>規格需求
 
@@ -69,7 +69,7 @@ ms.locfileid: "104468393"
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                              |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                    |
 | 標頭<br/>                   | <dl> <dt>ComAdmin。h</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>ComAdmin .Idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>ComAdmin .Idl</dt> </dl> |
 
 
 

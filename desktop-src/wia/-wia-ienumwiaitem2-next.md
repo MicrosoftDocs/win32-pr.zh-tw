@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Wia.h
-ms.openlocfilehash: 2e8800ead0c8f0abaddd0f055f31962d4d55d14d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cf884375f504bb801bcebcaad3f75b23c5f82956ce3a1d45dd5a50bfa5f8e53c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191579"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119451138"
 ---
 # <a name="ienumwiaitem2next-method"></a>IEnumWiaItem2：： Next 方法
 
@@ -62,9 +62,9 @@ HRESULT Next(
 *pcEltFetched* \[in、out\]
 </dt> <dd>
 
-類型： **ULONG \** _
+類型： **ULONG \***
 
-在輸出中，此參數會接收實際儲存在 _ppIWiaItem2 * 參數所指出的陣列中的介面指標數目。 列舉完成時，此參數會包含零。
+在輸出中，此參數會接收實際儲存在 *ppIWiaItem2* 參數所指出的陣列中的介面指標數目。 列舉完成時，此參數會包含零。
 
 </dd> </dl>
 
@@ -76,7 +76,7 @@ HRESULT Next(
 
 ## <a name="remarks"></a>備註
 
-Windows 映像取得 (WIA) 2.0 執行時間系統會將 WIA 2.0 硬體裝置表示為 [**IWiaItem2**](-wia-iwiaitem2.md) 物件的階層式樹狀結構。 應用程式會使用 **IEnumWiaItem2：： Next** 方法，為硬體裝置的 **IWiaItem2** 物件樹狀結構的目前資料夾中的每個專案取得 **IWiaItem2** 介面指標。
+Windows 的影像取得 (wia) 2.0 執行時間系統會將 wia 2.0 硬體裝置表示為 [**IWiaItem2**](-wia-iwiaitem2.md)物件的階層式樹狀結構。 應用程式會使用 **IEnumWiaItem2：： Next** 方法，為硬體裝置的 **IWiaItem2** 物件樹狀結構的目前資料夾中的每個專案取得 **IWiaItem2** 介面指標。
 
 為了取得指標清單，應用程式會傳遞所配置之 [**IWiaItem2**](-wia-iwiaitem2.md) 介面指標的陣列。 它也會在參數 *cElt* 中傳遞陣列元素的數目。 **IEnumWiaItem2：： Next** 方法會使用 **IWiaItem2** 介面的指標來填滿陣列。
 
@@ -90,8 +90,8 @@ Windows 映像取得 (WIA) 2.0 執行時間系統會將 WIA 2.0 硬體裝置表�
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                     |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                               |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                     |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                               |
 | 標頭<br/>                   | <dl> <dt>Wia</dt> </dl>   |
 | Idl<br/>                      | <dl> <dt>Wia .idl</dt> </dl> |
 

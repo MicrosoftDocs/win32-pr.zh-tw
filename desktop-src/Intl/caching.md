@@ -4,12 +4,12 @@ ms.assetid: c06c0eaf-41cb-4fd1-9750-a78355217f12
 title: '快取 (國際化) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3cf8bf7dd10fe414bc170086ff9b8c34142dc197
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2a01d8444fa222c2b6f6c7b03d0e1be70c1e04b1509ab020b8769d87b2b5cbc0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106992206"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119500828"
 ---
 # <a name="caching-internationalization"></a>快取 (國際化) 
 

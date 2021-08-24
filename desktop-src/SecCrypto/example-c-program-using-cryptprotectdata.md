@@ -4,12 +4,12 @@ ms.assetid: 51607aad-9fa8-4db6-bd2a-3821dce619e7
 title: 範例 C 程式：使用 CryptProtectData
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 87359bf6e4d90c4e46140aa9e114ffabf0a5ad80
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6639bc3f0dbabc3b82c41aaa858d9ad1c8a5b9e7b10661a3a53f7b1730baad40
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103852307"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119140766"
 ---
 # <a name="example-c-program-using-cryptprotectdata"></a>範例 C 程式：使用 CryptProtectData
 
