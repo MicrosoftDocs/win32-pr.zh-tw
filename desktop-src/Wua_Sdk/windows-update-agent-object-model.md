@@ -1,19 +1,19 @@
 ---
-description: 使用 Windows Update Agent (WUA) 的程式設計人員一開始會先將 Wuapi.dll 的參考加入至 (、Microsoft Visual C++ 或 C Visual Basic 中的目前專案) ， \# 或在 c 或 c + + 專案中參考 Wuapi 和 Wuguid。
+description: 使用 Windows Update Agent (WUA) 的程式設計人員一開始會先將 Wuapi.dll 的參考加入至 (、Microsoft Visual C++ 或 c Visual Basic 中的目前專案) ， \# 或在 c 或 c + + 專案中參考 Wuapi 和 Wuguid。
 ms.assetid: ec9cbb0b-b5d4-41f2-8a25-143130d08a3b
-title: Windows Update 代理程式物件模型
+title: Windows更新代理程式物件模型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5060a76c850ea9ad97e9132f661d4b64f4f4fd03
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e32b60f9306dfae5910418ddc07353a421e0325c0953fb1f47994ad007ded5ef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104558756"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119855441"
 ---
-# <a name="windows-update-agent-object-model"></a>Windows Update 代理程式物件模型
+# <a name="windows-update-agent-object-model"></a>Windows更新代理程式物件模型
 
-使用 Windows Update Agent (WUA) 的程式設計人員一開始會先將 Wuapi.dll 的參考加入至 (、Microsoft Visual C++ 或 C Visual Basic 中的目前專案) ， \# 或在 c 或 c + + 專案中參考 Wuapi 和 Wuguid。 使用 WUA API 的第一個步驟，是從適當的 coclass 建立物件，以建立其中一個介面的實例。
+使用 Windows Update Agent (WUA) 的程式設計人員一開始會先將 Wuapi.dll 的參考加入至 (、Microsoft Visual C++ 或 c Visual Basic 中的目前專案) ， \# 或在 c 或 c + + 專案中參考 Wuapi 和 Wuguid。 使用 WUA API 的第一個步驟，是從適當的 coclass 建立物件，以建立其中一個介面的實例。
 
 下圖描述 WUA 物件模型。 如需詳細資訊，請參閱「[WUA 物件和相關聯](#wua-objects-and-associated-tasks)的工作」一節。 如需所有 WUA 介面的完整清單，請參閱 [介面](interfaces.md)。
 

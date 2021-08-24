@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e61c7f50c377468dd7cb58a2be8a63fd3df6a201
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 550805894ed3744400afe0e118834b437908f173447139b2c3ebad15391288a4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106992164"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119761438"
 ---
 # <a name="wmalbumartist-attribute"></a>WM/AlbumArtist 屬性
 
@@ -28,7 +28,7 @@ ms.locfileid: "106992164"
 -   [音訊專案](audio-item-attributes.md)
 -   [CD 播放清單](cd-playlist-attributes.md)
 -   [CD 曲目](cd-track-attributes.md)
--   [常用的 Windows Media 檔案屬性](commonly-used-windows-media-file-attributes.md)
+-   [常用 Windows 媒體檔案屬性](commonly-used-windows-media-file-attributes.md)
 
 ## <a name="remarks"></a>備註
 
@@ -36,7 +36,7 @@ ms.locfileid: "106992164"
 
 **AlbumArtist** 是此屬性的別名。
 
-這個屬性的 Windows Media Format SDK 常數是 g \_ wszWMAlbumArtist。
+這個屬性的 Windows 媒體格式 SDK 常數是 g \_ wszWMAlbumArtist。
 
 若要判斷是否可以變更這個屬性的值，請使用 [isReadOnlyItem](media-isreadonlyitem.md) 方法。
 

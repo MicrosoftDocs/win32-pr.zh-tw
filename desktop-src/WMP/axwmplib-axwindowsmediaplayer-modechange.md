@@ -14,12 +14,12 @@ api_type:
 - Assembly
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c06575fc986f4223056244964c2d070874c890b2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: aa3b81ce7c48fd34f03131c7ed3f6cafed1029b103f218842a70ecaade08f1af
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106983105"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119764838"
 ---
 # <a name="modechange-event-of-the-axwindowsmediaplayer-object"></a>AxWindowsMediaPlayer 物件的 ModeChange 事件
 
@@ -60,7 +60,7 @@ Private Sub player_ModeChange(
 
 
 
-| String  | Description                                         |
+| String  | 描述                                         |
 |---------|-----------------------------------------------------|
 | 隨機播放 | 曲目會以隨機順序播放。                  |
 | loop    | 整個播放曲目順序都會重複播放。 |

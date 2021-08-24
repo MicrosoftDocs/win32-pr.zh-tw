@@ -1,5 +1,5 @@
 ---
-description: IDxtKey 介面會設定金鑰轉換的屬性。當 DirectShow 編輯服務在轉譯金鑰轉換時 (DES) ，會在內部使用此介面。
+description: IDxtKey 介面會設定金鑰轉換的屬性。此介面是在內部由 DirectShow 編輯服務 (DES) 轉譯金鑰轉換時使用。
 ms.assetid: b929bf0c-8aaf-456e-b692-e23d88e480dd
 title: 'IDxtKey 介面 (Qedit .h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: f4f1bc6a5dd0e89789e098fc4180bfc826f10c93
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d967d15dededf879ffd08671aac00e7892aa8ad2f2c1a39ce478f7f9f3e4db90
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106983057"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119792358"
 ---
 # <a name="idxtkey-interface"></a>IDxtKey 介面
 
@@ -30,7 +30,7 @@ ms.locfileid: "106983057"
 
 `IDxtKey`介面會設定[金鑰](key-transition.md)轉換的屬性。
 
-當 DirectShow 編輯服務在轉譯金鑰轉換時 (DES) ，會在內部使用此介面。 DES 應用程式不需要使用此介面。 若要在 DES 的轉換上設定屬性，請使用 [**IPropertySetter**](ipropertysetter.md) 介面。
+此介面是在內部由 DirectShow 編輯服務 (DES) 轉譯金鑰轉換時使用。 DES 應用程式不需要使用此介面。 若要在 DES 的轉換上設定屬性，請使用 [**IPropertySetter**](ipropertysetter.md) 介面。
 
 ## <a name="members"></a>成員
 
@@ -71,7 +71,7 @@ ms.locfileid: "106983057"
  
 
 > [!Note]  
-> 若要取得 Qedit，請下載 [適用于 Windows Vista 和 .NET Framework 3.0 的 Microsoft Windows SDK 更新](https://msdn.microsoft.com/windowsvista/bb980924.aspx)。 在 Windows 7 和 .NET Framework 3.5 Service Pack 1 的 Microsoft Windows SDK 中無法使用 Qedit。
+> 若要取得 Qedit，請下載[Windows Vista 和 .NET Framework 3.0 的 Microsoft Windows SDK 更新](https://msdn.microsoft.com/windowsvista/bb980924.aspx)。 Windows 7 和 .NET Framework 3.5 Service Pack 1 的 Microsoft Windows SDK 中無法使用 Qedit。
 
  
 

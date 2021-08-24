@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 015a823e0864f4a1d06dc01898157f46e25e327a
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 01943fc8ef5788bb0f2caa910825b021120f363f82d818c66dadb793cb0ff2a5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108119186"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119681758"
 ---
 # <a name="requeststatechange-method-of-the-msvm_diskettecontroller-class"></a>Msvm DisketteController 類別的 RequestStateChange 方法 \_
 

@@ -4,12 +4,12 @@ ms.assetid: 4962e901-cc4f-4225-8d24-731225e149e6
 title: 影像。影像函式
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: fbf25df56c374c95eba0b69a01c718f75db1eda5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1af5bafabe7a2e1aaec74c71983c9979edae5d15462c16bd65cb6d37312f1649
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104973033"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119727098"
 ---
 # <a name="imageimage-constructors"></a>影像。影像函式
 

@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 21e02a1f09d3439c64fb8124cd0cfc8140732be9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 500e714b6f0728104987f53ff0a8c0e7083c1af5996679a78a986b5674d54514
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974440"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119684888"
 ---
 # <a name="onex_connection_profile-structure"></a>ONEX \_ 連接 \_ 設定檔結構
 
@@ -255,9 +255,9 @@ typedef struct _ONEX_CONNECTION_PROFILE {
 
 如果使用者介面對話方塊需要使用者輸入，則在每個登入的 SSO 中顯示時，等候連接的最長持續時間（以秒為單位）。
 
-在 Windows Vista SP1 和更新版本上，此值會硬式編碼為10分鐘，且無法設定。 在 Windows Vista 發行至製造業時，此值在 802.1 X 設定檔中的預設值為60秒，而且是由架構中的 **maxDelayWithAdditionalDialogs** 元素所控制。
+在 Windows Vista SP1 和更新版本上，此值會硬式編碼為10分鐘，且不可設定。 在 Windows Vista 發行至製造業時，此值在 802.1 x 設定檔中的預設值為60秒，而且是由架構中的 **maxDelayWithAdditionalDialogs** 元素所控制。
 
-在 Windows Vista SP1 和更新版本中，會忽略並取代 802.1 X 架構中的 **maxDelayWithAdditionalDialogs** 元素。
+在 Windows Vista SP1 和更新版本中，802.1 x 架構中的 **maxDelayWithAdditionalDialogs** 元素會被忽略和取代。
 
 </dd> <dt>
 
@@ -277,7 +277,7 @@ typedef struct _ONEX_CONNECTION_PROFILE {
 
 ## <a name="remarks"></a>備註
 
-802.1 X 模組會使用 **ONEX 連線 \_ \_ 設定檔** 結構，這是 Windows Vista 和更新版本支援的新無線設定元件。
+802.1 x 模組會使用 **ONEX 連線 \_ \_ 設定檔** 結構，Windows Vista 和更新版本支援的新無線設定元件。
 
 [**ONEX \_ 結果 \_ 更新 \_ 資料**](/windows/desktop/api/dot1x/ns-dot1x-onex_result_update_data)報含 802.1 x 驗證狀態變更的資訊。 當 [**wlan \_ 通知 \_ 資料**](/previous-versions/windows/desktop/legacy/ms706902(v=vs.85))結構的 **NotificationSource** 成員是 **wlan \_ 通知 \_ 來源 \_ ONEX** ，且收到通知之 **wlan \_ 通知 \_ 資料** 結構的 **NotificationCode** 成員為 **OneXNotificationTypeResultUpdate** 時，會傳回 **ONEX \_ 結果 \_ 更新 \_ 資料** 結構。 針對此通知， **WLAN \_ 通知 \_ 資料** 結構的 **.pdata** 成員會指向包含 802.1 x 驗證狀態變更相關資訊的 **ONEX \_ 結果 \_ 更新 \_ 資料** 結構。
 
@@ -291,8 +291,8 @@ typedef struct _ONEX_CONNECTION_PROFILE {
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

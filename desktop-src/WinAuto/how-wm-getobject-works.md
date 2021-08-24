@@ -4,16 +4,16 @@ description: '\_當用戶端呼叫其中一個 AccessibleObjectFromX 函數時�
 ms.assetid: 53f7b3db-97e4-4ff2-9f7a-4555ec7956ea
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 11fe287bca68c925cb7be95ff52d2dac547ed097
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 24309b304baede0c7b93c9e609b469991e737ca819e8014effa03a4f39b8772c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104315283"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119795758"
 ---
 # <a name="how-wm_getobject-works"></a>WM \_ GETOBJECT 的運作方式
 
-當用戶端呼叫其中一個 **AccessibleObjectFrom * * * X* 函式時，Microsoft Active Accessibility 會將 [**WM \_ GETOBJECT**](wm-getobject.md)訊息傳送至適當的伺服器應用程式。 下列清單說明發生的各種案例：
+當用戶端呼叫其中一個 **AccessibleObjectFrom**_X_ 函式時，Microsoft Active Accessibility 會將 [**WM \_ GETOBJECT**](wm-getobject.md)訊息傳送至適當的伺服器應用程式。 下列清單說明發生的各種案例：
 
 -   如果接收 [**WM \_ GETOBJECT**](wm-getobject.md)的視窗或控制項執行 [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible)，則視窗會傳回使用 [**LresultFromObject**](/windows/desktop/api/Oleacc/nf-oleacc-lresultfromobject)的 **IAccessible** 介面參考。 Microsoft Active Accessibility，結合元件物件模型 (COM) 程式庫時，會執行適當的封送處理，並將介面指標從伺服器傳遞回用戶端。
 -   如果接收訊息的視窗沒有執行 [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible)，它應該會傳回零。
@@ -23,6 +23,6 @@ ms.locfileid: "104315283"
 
 如需詳細資訊，請參閱 [WM \_ GETOBJECT Message](the-wm-getobject-message.md)。
 
- 
+ 
 
- 
+ 

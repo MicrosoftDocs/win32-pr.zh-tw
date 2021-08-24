@@ -4,16 +4,16 @@ ms.assetid: 100b96af-e6ba-4496-9978-4df133e1c2b5
 title: 'ITConnection：： SetAddressInfo 方法 (Sdpblb .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ae181911527c22639c8c2da3038c0377734fd1da
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3d90fd6e92e115966df709626b7b58c739d292fedca4fb855999bc3fd8cd853b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990160"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119774928"
 ---
 # <a name="itconnectionsetaddressinfo-method"></a>ITConnection：： SetAddressInfo 方法
 
-\[ 在 Windows Vista、Windows Server 2008 和後續版本的作業系統中，無法使用會合 IP 電話語音會議控制項和介面。 RTC 用戶端 API 提供類似的功能。\]
+\[Windows Vista、Windows Server 2008 及後續版本的作業系統無法使用會合 IP 電話語音會議控制項和介面。 RTC 用戶端 API 提供類似的功能。\]
 
 **SetAddressInfo** 方法會設定位址資訊。
 

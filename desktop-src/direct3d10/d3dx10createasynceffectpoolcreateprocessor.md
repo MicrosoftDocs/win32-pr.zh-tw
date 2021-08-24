@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10Async.h
-ms.openlocfilehash: 32e7c60f28a823c624b3866a8cdd46db659f8a49
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 00cced370cee4ffc0e233798f9c8e1df9970244a3398c79d27eb3a61e44b704b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104196316"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119753378"
 ---
 # <a name="d3dx10createasynceffectpoolcreateprocessor-function"></a>D3DX10CreateAsyncEffectPoolCreateProcessor 函式
 
@@ -83,7 +83,7 @@ Type： **Const [**D3D \_ 著色器 \_ 宏**](/windows/win32/api/d3dcommon/ns-d3
 
 </dd> <dt>
 
-*Flags* \[in\]
+*旗標* \[在\]
 </dt> <dd>
 
 類型： **[ **UINT**](../winprog/windows-data-types.md)**

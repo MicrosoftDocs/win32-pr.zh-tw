@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 'WMI 錯誤常數 (WbemCli) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e95db7220bdc9669716dbe19f5bf2f4e139dfe5c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 679fd0cb9714e2ee202b12195b10e72778564d7549ed4731d905603a11e073db
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974377"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119794308"
 ---
 # <a name="wmi-error-constants"></a>WMI 錯誤常數
 
@@ -22,7 +22,7 @@ ms.locfileid: "106974377"
 >
 > 如果 WMI 傳回錯誤訊息，請注意，它們可能不會指出 WMI 服務或 WMI 提供者中的問題。 失敗可能源自于作業系統的其他部分，並透過 WMI 出現錯誤。 在任何情況下，請勿將 WMI 儲存機制刪除為第一個動作，因為刪除存放庫可能會導致系統損毀或已安裝的應用程式。
 >
-> 若要取得問題來源的詳細資訊，您可以下載並執行 [WMI Diagnosis Utility](https://www.microsoft.com/downloads/en/details.aspx?familyid=d7ba3cd6-18d1-4d05-b11e-4c64192ae97d&displaylang=en) 診斷命令列工具。 這項工具會產生一份報告，通常可以找出問題的來源，並提供如何修正問題的指示。 報表也會協助 Microsoft 支援服務協助您。 您可以在 [這裡](https://www.microsoft.com/downloads/details.aspx?FamilyID=d7ba3cd6-18d1-4d05-b11e-4c64192ae97d)下載 WMI Diagnosis Utility。
+> 若要取得問題來源的詳細資訊，您可以下載並執行[WMI Diagnosis Utility](https://www.microsoft.com/downloads/en/details.aspx?familyid=d7ba3cd6-18d1-4d05-b11e-4c64192ae97d&displaylang=en)診斷命令列工具。 這項工具會產生一份報告，通常可以找出問題的來源，並提供如何修正問題的指示。 報表也會協助 Microsoft 支援服務協助您。 您可以在[這裡](https://www.microsoft.com/downloads/details.aspx?FamilyID=d7ba3cd6-18d1-4d05-b11e-4c64192ae97d)下載 WMI Diagnosis Utility。
 
  
 
@@ -65,7 +65,7 @@ WMI 類別中的某些方法可以傳回系統和網路錯誤碼 (64，例如) �
 
 </dd> </dl>
 
-WMI 類別中的某些方法可以傳回系統和網路錯誤碼 (64，例如) 。 您可以在 [命令提示字元] 視窗中，使用 **net helpmsg** 命令檢查這些類型之錯誤碼的定義。 例如， **net helpmsg 64** 命令會傳回訊息：指定的網路名稱已無法再使用。 在 c + + 中，您可以呼叫 [**FormatMessage**](/windows/desktop/api/winbase/nf-winbase-formatmessage) 並指定 **C： \\ Windows \\ System32 \\ wbem \\wmiutils.dll** 作為訊息模組。
+WMI 類別中的某些方法可以傳回系統和網路錯誤碼 (64，例如) 。 您可以在 [命令提示字元] 視窗中，使用 **net helpmsg** 命令檢查這些類型之錯誤碼的定義。 例如， **net helpmsg 64** 命令會傳回訊息：指定的網路名稱已無法再使用。 在 c + + 中，您可以呼叫 [**FormatMessage**](/windows/desktop/api/winbase/nf-winbase-formatmessage) ，並指定 **C： \\ Windows \\ System32 \\ wbem \\wmiutils.dll** 作為訊息模組。
 
 <dl> <dt>
 
@@ -1458,7 +1458,7 @@ WMI 佔用太多記憶體。 這可能是因為記憶體可用性不足或 WMI �
 
 
 
-連接至 SQL 資料庫失敗。
+SQL 資料庫的連接失敗。
 
 
 </dt> </dl> </dd> <dt>
@@ -1536,7 +1536,7 @@ WMI 佔用太多記憶體。 這可能是因為記憶體可用性不足或 WMI �
 
 
 
-因為 SQL 中有鎖死，所以必須重新執行 SQL 命令。 只有當資料儲存在 SQL 資料庫中時，才會傳回此項。
+SQL 命令必須重新執行，因為 SQL 中有鎖死。 只有當資料儲存在 SQL 資料庫時，才會傳回此項。
 
 
 </dt> </dl> </dd> <dt>
@@ -1757,7 +1757,7 @@ WMI 無法執行 put 作業，因為提供者不允許此操作。
 
 
 
-這部電腦沒有必要的網域許可權，無法支援與所建立訂用帳戶實例相關的安全性功能。 請聯絡網域系統管理員，將此電腦新增至 Windows 授權存取群組。
+這部電腦沒有必要的網域許可權，無法支援與所建立訂用帳戶實例相關的安全性功能。 請聯絡網域系統管理員，將此電腦新增至 Windows 的授權存取群組。
 
 
 </dt> </dl> </dd> <dt>
@@ -2434,7 +2434,7 @@ MOF 中找到重複的屬性名稱。
 | 最低支援的用戶端<br/> | Windows Vista<br/>                                                               |
 | 最低支援的伺服器<br/> | Windows Server 2008<br/>                                                         |
 | 標頭<br/>                   | <dl> <dt>WbemCli。h</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>WbemCli .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>WbemCli .idl</dt> </dl> |
 
 
 

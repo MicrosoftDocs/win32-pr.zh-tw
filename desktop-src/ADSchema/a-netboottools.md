@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a1c170964b34a6d486ed210615c409e69dcbc5f5
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 5f608b357a524a22ac72110dc8c649ff28cf58fde422ad2640e2ae913001c2dd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106991785"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119703298"
 ---
 # <a name="netboot-tools-attribute"></a>netboot-Tools 屬性
 

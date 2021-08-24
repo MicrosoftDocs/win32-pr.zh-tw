@@ -4,12 +4,12 @@ description: 本節包含 Setupapi.log 標頭的參考主題。
 ms.assetid: 94d87b1d-e72c-459c-b962-0cc76d66012e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a736d5659cdb86f655282ad7343cf6ebc6859a9a
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: c50dfcf79724430462d2234e6b4265d53c8084d29917c263325047565ad24109
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104315874"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119853820"
 ---
 # <a name="setupapih"></a>Setupapi.log。h
 

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dfaca31ff46d20374a5336484e8f67a5bcd9d353
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e435dd64cac30bd2fc1f70e9b3f6b2731ab8fe99bfb2b75021b2576a9b0174b9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995104"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119761778"
 ---
 # <a name="videomaintainaspectratio"></a>MaintainAspectRatio
 

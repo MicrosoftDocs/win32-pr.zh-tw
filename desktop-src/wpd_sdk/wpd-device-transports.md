@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - PortableDevice.h
-ms.openlocfilehash: 574c6b0b00980d110f2374e7426dd101c9122854
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5f091a84c573038c7d74cf5c2760c298a2542f70f06bdb45d1e72954c9dd5f25
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106985734"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119703818"
 ---
 # <a name="wpd_device_transports-enumeration"></a>WPD \_ 裝置 \_ 傳輸列舉
 
@@ -66,7 +66,7 @@ typedef enum tagWPD_DEVICE_TRANSPORTS {
 <span id="WPD_DEVICE_TRANSPORT_BLUETOOTH"></span><span id="wpd_device_transport_bluetooth"></span>**WPD \_ 裝置 \_ 傳輸 \_ 藍牙**
 </dt> <dd>
 
-裝置透過藍牙連線。
+裝置透過藍牙連接。
 
 </dd> </dl>
 

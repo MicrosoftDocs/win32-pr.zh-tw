@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3234177476db1006f63ca1d58c36e31ddeaf570c
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 6b33889f998b78b7900770ad98c25b2b57783be131eedb9e7846f088e7c94694
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845315"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119704168"
 ---
 # <a name="rpc-ns-annotation-attribute"></a>rpc-Ns-Annotation 屬性
 
@@ -58,7 +58,7 @@ Describs 指定 RPC 設定檔元素的字串。
 | 連結識別碼                | \-                                                            |
 | MAPI-Id                | \-                                                            |
 | System-Only            | 否                                                         |
-| 是-單一值       | 對                                                          |
+| 是-單一值       | 是                                                          |
 | 已編制索引             | 否                                                         |
 | 在通用類別目錄中      | 否                                                         |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                  |
@@ -79,7 +79,7 @@ Describs 指定 RPC 設定檔元素的字串。
 | 連結識別碼                | \-                                                            |
 | MAPI-Id                | \-                                                            |
 | System-Only            | 否                                                         |
-| 是-單一值       | 對                                                          |
+| 是-單一值       | 是                                                          |
 | 已編制索引             | 否                                                         |
 | 在通用類別目錄中      | 否                                                         |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                  |
@@ -100,7 +100,7 @@ Describs 指定 RPC 設定檔元素的字串。
 | 連結識別碼                | \-                                                            |
 | MAPI-Id                | \-                                                            |
 | System-Only            | 否                                                         |
-| 是-單一值       | 對                                                          |
+| 是-單一值       | 是                                                          |
 | 已編制索引             | 否                                                         |
 | 在通用類別目錄中      | 否                                                         |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                  |
@@ -121,7 +121,7 @@ Describs 指定 RPC 設定檔元素的字串。
 | 連結識別碼                | \-                                                            |
 | MAPI-Id                | \-                                                            |
 | System-Only            | 否                                                         |
-| 是-單一值       | 對                                                          |
+| 是-單一值       | 是                                                          |
 | 已編制索引             | 否                                                         |
 | 在通用類別目錄中      | 否                                                         |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                  |
@@ -142,7 +142,7 @@ Describs 指定 RPC 設定檔元素的字串。
 | 連結識別碼                | \-                                                            |
 | MAPI-Id                | \-                                                            |
 | System-Only            | 否                                                         |
-| 是-單一值       | 對                                                          |
+| 是-單一值       | 是                                                          |
 | 已編制索引             | 否                                                         |
 | 在通用類別目錄中      | 否                                                         |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                  |
@@ -163,7 +163,7 @@ Describs 指定 RPC 設定檔元素的字串。
 | 連結識別碼                | \-                                                            |
 | MAPI-Id                | \-                                                            |
 | System-Only            | 否                                                         |
-| 是-單一值       | 對                                                          |
+| 是-單一值       | 是                                                          |
 | 已編制索引             | 否                                                         |
 | 在通用類別目錄中      | 否                                                         |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                  |

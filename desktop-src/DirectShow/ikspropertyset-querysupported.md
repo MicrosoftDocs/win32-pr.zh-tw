@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Strmiids.lib
 - Strmiids.dll
-ms.openlocfilehash: a13c8523d45278ad403ee08d0822fb853b301520
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 7c79e81171349e2c481535eeab212717de072b17778b052dac3fc377cea0e094
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104187472"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119792318"
 ---
 # <a name="ikspropertysetquerysupported-method"></a>IKsPropertySet：： QuerySupported 方法
 
@@ -80,7 +80,7 @@ HRESULT QuerySupported(
 
 
 
-| 傳回碼                                                                                              | Description                                                                     |
+| 傳回碼                                                                                              | 描述                                                                     |
 |----------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>                     | 支援指定的屬性集和屬性 ID 組合。<br/> |
 | <dl> <dt>**E \_ >NOTIMPL**</dt> </dl>                | 不支援屬性集。<br/>                                       |

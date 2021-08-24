@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 5b0f4662b4884da227a64768cc29bce4c615f8f7
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: c1cd6d20731e38b9f234d2e4a10e97a68c7cf2521258034663d949131b193faf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104187600"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119759698"
 ---
 # <a name="takeownershipex-method-of-the-win32_pagefile-class"></a>Win32 \_ 分頁檔類別的 TakeOwnerShipEx 方法
 
@@ -121,7 +121,7 @@ uint32 TakeOwnerShipEx(
 **12**
 </dt> <dd>
 
-平臺不是 Windows。
+平臺未 Windows。
 
 </dd> <dt>
 

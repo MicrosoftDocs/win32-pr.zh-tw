@@ -4,12 +4,12 @@ ms.assetid: 93cf1299-a8ba-4a14-ad4c-09dd931e18fc
 title: 'AVEncCommonStreamEndHandling 屬性 (Codecapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 53d453f1629622b12571064fe6511ec60f42d67b
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: ccfa6e9eae8e4b554c549ca84553260059e9dbe435df7dcf0c2d52ced16d48a8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103688295"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119794648"
 ---
 # <a name="avenccommonstreamendhandling-property"></a>AVEncCommonStreamEndHandling 屬性
 
@@ -35,8 +35,8 @@ ms.locfileid: "103688295"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 2000 專業版傳統型 \[ 應用程式 \| UWP 應用程式\]<br/>                     |
-| 最低支援的伺服器<br/> | Windows 2000 Server \[ desktop 應用程式 \| UWP 應用程式\]<br/>                           |
+| 最低支援的用戶端<br/> | Windows 2000 Professional \[ 桌面應用程式 \| UWP 應用程式\]<br/>                     |
+| 最低支援的伺服器<br/> | Windows 2000 Server \[ desktop apps \| UWP 應用程式\]<br/>                           |
 | 標頭<br/>                   | <dl> <dt>Codecapi。h</dt> </dl> |
 
 

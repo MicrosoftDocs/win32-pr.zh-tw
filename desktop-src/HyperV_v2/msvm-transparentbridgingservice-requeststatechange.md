@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: e50953804a99ee820902382d2ba70be30790fd7f
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 11f04940d63d72503968b6cb19f668b493fbafb37fdc66ec97411896a80edf47
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108111136"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119746338"
 ---
 # <a name="requeststatechange-method-of-the-msvm_transparentbridgingservice-class"></a>Msvm TransparentBridgingService 類別的 RequestStateChange 方法 \_
 

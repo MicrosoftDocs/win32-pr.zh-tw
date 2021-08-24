@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: WMI 疑難排解
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 58919617c663b52ffb840b3c3382b5707f0a305e
-ms.sourcegitcommit: a3e96b6c9c6a3fb629e760dd6cc6327f9e4b62b6
+ms.openlocfilehash: 40645c33da838658d66f608d672d979b38012fa855f26637f5896c4ec14c54ef
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/27/2021
-ms.locfileid: "114714796"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119794288"
 ---
 # <a name="wmi-troubleshooting"></a>WMI 疑難排解
 

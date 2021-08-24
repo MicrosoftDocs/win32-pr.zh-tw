@@ -4,12 +4,12 @@ ms.assetid: e3e82676-3095-43f0-9fb4-959f925e66c2
 title: 輪廓和填滿路徑
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 735ee9ee5d7e69922241c5647b883e1800b525e2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9660221eb1ef9d7ecf80d1d48ae18c8b234e76e5af3b30dba3323ee6feac3bc3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943802"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119831598"
 ---
 # <a name="outlined-and-filled-paths"></a>輪廓和填滿路徑
 

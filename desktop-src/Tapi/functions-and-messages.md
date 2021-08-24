@@ -4,12 +4,12 @@ ms.assetid: b4c8d721-26e4-4895-9f09-0f67fe4d346b
 title: 函數和訊息
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 292f85e2ea57ac11da8150d4d0a183c7c4fd2c88
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 61cabdc271548e42b20de695296321f5f5ab0fdbe45a246be2b7ccb1993ee5d1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103944211"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119660730"
 ---
 # <a name="functions-and-messages"></a>函數和訊息
 

@@ -14,12 +14,12 @@ api_type:
 - Assembly
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d626551dfb81d55f90b89955ce680a00db6d8c60
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e059aece551f8b3d2b4d5ad62521d3446c5c605cf0174e1257fe7652150dddcf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106977455"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119764758"
 ---
 # <a name="newstream-event-of-the-axwindowsmediaplayer-object"></a>AxWindowsMediaPlayer 物件的 NewStream 事件
 

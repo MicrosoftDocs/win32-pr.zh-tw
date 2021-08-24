@@ -4,12 +4,12 @@ ms.assetid: 124b329b-f745-45b4-b266-7c177c76a5cd
 title: 概念模型：應用程式需求
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a5a287ff940f154bf104bbb50f6362bf573d9223
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: c19c69f8da7179765242815c4d01760c36b94e95714188f7db772600826d0416
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111020"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119853918"
 ---
 # <a name="the-conceptual-model-application-requirements"></a>概念模型：應用程式需求
 

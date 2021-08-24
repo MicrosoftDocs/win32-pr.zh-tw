@@ -4,12 +4,12 @@ ms.assetid: 7e153051-a167-4ff7-8178-b290d8a1345e
 title: 'MFT_ENUM_HARDWARE_URL_Attribute 屬性 (Mftransform) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 539aa1ecbf8bf322e7397a50bb16175dbcca806f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7119ea4bde7900087f706cb6fbc77c845721debab54dfa05b48f5c0094b1e29e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192161"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119722581"
 ---
 # <a name="mft_enum_hardware_url_attribute-attribute"></a>MFT \_ 列舉 \_ 硬體 \_ URL \_ 屬性屬性
 
@@ -17,11 +17,11 @@ ms.locfileid: "104192161"
 
 ## <a name="data-type"></a>資料類型
 
-**WCHAR \** _
+**WCHAR\***
 
 ## <a name="getset"></a>取得/設定
 
-若要取得這個屬性，請呼叫 [_ *IMFAttributes：： GetString* *](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getstring)。
+若要取得這個屬性，請呼叫 [**IMFAttributes：： GetString**](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getstring)。
 
 若要設定這個屬性，請呼叫 [**IMFAttributes：： SetString**](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-setstring)。
 
@@ -42,7 +42,7 @@ ms.locfileid: "104192161"
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 7 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | Windows Server 2008 R2 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                           |
+| 最低支援的伺服器<br/> | WindowsServer 2008 R2 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                           |
 | 標頭<br/>                   | <dl> <dt>Mftransform。h</dt> </dl> |
 
 

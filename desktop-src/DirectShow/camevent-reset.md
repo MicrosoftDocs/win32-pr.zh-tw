@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 31fdc564ad50c161f16e7054c6d0ec7d753bd0f4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a41af8aebde27d8452453616dabfe0d84f8f5f0681e6257bd29774d9eca91d68
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106984807"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119794298"
 ---
 # <a name="cameventreset-method"></a>CAMEvent 重設方法
 

@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Msir3jp.dll
-ms.openlocfilehash: f6f71e92137490d56c93d9443506c2d7ffa2688a
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 4cb4e4b27b52a4fb22a65f382a20c51a43ca5c77feb14828a7ea252e75c3b0f1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104025835"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119749738"
 ---
 # <a name="iwordinfobreaktext-method"></a>IWordInfo：： BreakText 方法
 
-\[此方法已淘汰，且在 Windows Vista 上不受支援。\]
+\[此方法已淘汰，且在 Windows Vista 中不受支援。\]
 
 剖析文字以識別單字，並將結果提供給 [WordSink](/previous-versions//ms691570(v=vs.85)) 物件。
 
@@ -81,7 +81,7 @@ HRESULT BreakText(
 
 
 
-| 傳回碼                                                                            | Description                                                                                             |
+| 傳回碼                                                                            | 描述                                                                                             |
 |----------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>   | 作業成功。 沒有其他可用來重填 *pTextSource* 緩衝區的文字。<br/> |
 | <dl> <dt>**E \_ 失敗**</dt> </dl> | *PTextSource* 參數為 **Null**。<br/>                                                     |
@@ -100,8 +100,8 @@ HRESULT BreakText(
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                            |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                   |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                            |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                   |
 | 用戶端支援結束<br/>    | Windows XP<br/>                                                                  |
 | 伺服器支援結束<br/>    | Windows Server 2003<br/>                                                         |
 | DLL<br/>                      | <dl> <dt>Msir3jp.dll</dt> </dl> |

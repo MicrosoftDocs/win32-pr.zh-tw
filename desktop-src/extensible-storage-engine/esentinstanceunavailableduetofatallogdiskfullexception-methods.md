@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101878
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 5e00e8dc3ded98821b7370208edcf057479da398
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 159eb25f77d97e0e47b615b99194c57683834badbe81ef9014d618c5c4db1185
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103853052"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119724098"
 ---
 # <a name="esentinstanceunavailableduetofatallogdiskfullexception-methods"></a>EsentInstanceUnavailableDueToFatalLogDiskFullException 方法
 

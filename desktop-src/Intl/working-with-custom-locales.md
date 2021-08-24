@@ -4,12 +4,12 @@ ms.assetid: 2622e2b3-b952-4666-a440-85d73d11c5e0
 title: 使用自訂地區設定
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1ab0e59446496ae2985860c0fd6b1bd5bddde084
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8a969681e685a7044f9c583c907515a51559866d28d997cf43fa639127eee27f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943718"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119680928"
 ---
 # <a name="working-with-custom-locales"></a>使用自訂地區設定
 
@@ -30,7 +30,7 @@ ms.locfileid: "103943718"
 
 ## <a name="handle-replacement-locales"></a>處理取代地區設定
 
-若要保留 Windows 的可靠性，請記住，您的應用程式所支援的取代地區設定無法修改取代地區設定的地區設定識別碼。 取代地區設定都不能修改 Windows 的排序屬性。
+若要維持 Windows 的可靠性，請記住，您的應用程式所支援的取代地區設定無法修改取代地區設定的地區設定識別碼。 取代地區設定都不能修改 Windows 的排序屬性。
 
 雖然取代地區設定可以變更預設行事曆，但它必須將原始預設值保留在可用行事曆清單中的某個位置。 例如，泰文 (泰國) 地區設定會使用泰文曆日曆作為預設值。 系統管理員可以建立使用西曆當地語系化日曆的取代地區設定。 不過，可用的行事曆清單會繼續包含泰國曆日曆的專案。
 

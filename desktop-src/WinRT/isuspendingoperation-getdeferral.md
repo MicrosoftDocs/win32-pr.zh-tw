@@ -1,7 +1,7 @@
 ---
 description: 要求應用程式暫停操作延遲。
 ms.assetid: 5AB84652-165D-4173-A047-541B05848871
-title: 'ISuspendingOperation：： GetDeferral 方法 (Windows. ApplicationModel .h) '
+title: 'ISuspendingOperation：： GetDeferral 方法 (Windows。ApplicationModel .h) '
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Windows.ApplicationModel.h
-ms.openlocfilehash: 6874eb31e73fa1c20399f68850fc69204d0e0f6d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4a64ed4449c2e11ebeec9194adb7fd69ecc7227efa9df36a6900f4139e44ec4b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848037"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119794988"
 ---
 # <a name="isuspendingoperationgetdeferral-method"></a>ISuspendingOperation：： GetDeferral 方法
 
@@ -58,8 +58,8 @@ HRESULT GetDeferral(
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 8<br/>                                                                                    |
 | 最低支援的伺服器<br/> | Windows Server 2012<br/>                                                                          |
-| 標頭<br/>                   | <dl> <dt>ApplicationModel。h</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>ApplicationModel .idl</dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Windows。ApplicationModel。h</dt> </dl>   |
+| IDL<br/>                      | <dl> <dt>Windows。ApplicationModel .idl</dt> </dl> |
 
 
 

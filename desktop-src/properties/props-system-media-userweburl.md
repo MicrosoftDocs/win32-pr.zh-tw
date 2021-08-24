@@ -4,16 +4,16 @@ ms.assetid: f4609eb7-6bad-44cb-8b87-daf350931cab
 title: UserWebUrl
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d2c304aff0bd0cdaa69b7e1e9ae10360b2c8ca22
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: c83c12414178d8ff654ea4bbb685089895c6886cb200d92a2f4f28ba4ad6dc24
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108114106"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119774788"
 ---
 # <a name="systemmediauserweburl"></a>UserWebUrl
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

@@ -1,5 +1,5 @@
 ---
-description: 透過 WIA 腳本模型，Windows 映像取得 (WIA) 功能提供給指令碼語言，例如 Microsoft JScript 開發軟體和 Microsoft Visual Basic Scripting Edition (VBScript) ，以及 Microsoft Visual Basic 開發系統等高階語言。
+description: 透過 wia 腳本模型，Windows 影像取得 (WIA) 功能提供給指令碼語言，例如 microsoft JScript 開發軟體和 microsoft Visual Basic 腳本撰寫版 (VBScript) ，以及 microsoft Visual Basic 開發系統等高階語言。
 ms.assetid: eec5dc91-7b32-4f38-bdfe-c11bddc17ba2
 title: 使用 WIA 腳本模型
 ms.topic: article
@@ -9,19 +9,19 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: affa2c4368a83b2d67c1c6219b76040ba043a1f3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6a8b694b35f5b486d3a9d65dfc99f513bf14c8689d1d86fba03c019991e2fcc4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971009"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119813649"
 ---
 # <a name="using-the-wia-scripting-model"></a>使用 WIA 腳本模型
 
-透過 [WIA 腳本模型](-wia-wia-scripting-model.md)，Windows 映像取得 (WIA) 功能提供給指令碼語言，例如 microsoft JScript 開發軟體和 microsoft Visual Basic Scripting Edition (VBScript) ，以及 microsoft Visual Basic 開發系統等高階語言。
+透過[wia 腳本模型](-wia-wia-scripting-model.md)，Windows 影像取得 (WIA) 功能提供給指令碼語言，例如 microsoft JScript 開發軟體和 microsoft Visual Basic 腳本撰寫版 (VBScript) ，以及 microsoft Visual Basic 開發系統等高階語言。
 
 > [!Note]  
-> 此腳本系統已取代為 Windows 映像取得 (WIA) Automation 層。 請參閱 [Windows 映像取得自動化層](/previous-versions/windows/desktop/wiaaut/-wiaaut-startpage)。
+> 此腳本系統已取代為 Windows 的影像取得 (WIA) Automation 層。 請參閱[Windows 映像取得自動化層](/previous-versions/windows/desktop/wiaaut/-wiaaut-startpage)。
 
  
 

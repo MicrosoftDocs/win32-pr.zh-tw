@@ -4,16 +4,16 @@ ms.assetid: 9dc9f182-3adf-4171-8829-35debae123da
 title: 核心音訊常數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 95dee529997a668f3bbea1ad446ec88c33f3d431
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 09e0605a223b334b2f4545bc5e8065aed8f77544c7d9aa9eb48bc61ef2197f4c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026014"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119834118"
 ---
 # <a name="core-audio-constants"></a>核心音訊常數
 
-本節說明 Windows Vista 和更新版本中核心音訊 Api 所使用的常數。
+本節說明 Windows Vista 和更新版本中核心音訊 api 所使用的常數。
 
 | 常數                                                                            | 描述                                                                         |
 |-------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|

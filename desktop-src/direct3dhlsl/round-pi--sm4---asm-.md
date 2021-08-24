@@ -4,12 +4,12 @@ description: '浮點數舍入整數浮點數。 |round_pi (sm4-asm) '
 ms.assetid: AA4E4C2E-A4B0-4892-8660-1EF57767F4C4
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b61282078b3639681eed756e2899d06744f0369e
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: d26356648576cc10256f16cd1e57be469d2d8c2d87690542058f7eba4a547996
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107997105"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119853508"
 ---
 # <a name="round_pi-sm4---asm"></a>round \_ pi (sm4-asm) 
 

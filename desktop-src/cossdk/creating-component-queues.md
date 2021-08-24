@@ -4,12 +4,12 @@ ms.assetid: 7d9fec63-0bb7-45f3-9d40-736a60d69185
 title: 建立元件佇列
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9bc6f6731144a1744a7648d2d3d2bd5c3c4b217b
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 9c44f670cea15e1cb1a4549d5c1e847956eb41d400ae01d557803dbd1ce2b439
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972556"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119793458"
 ---
 # <a name="creating-component-queues"></a>建立元件佇列
 
@@ -39,7 +39,7 @@ ms.locfileid: "106972556"
 
      
 
-5.  按一下 [確定]  。
+5.  按一下 [確定]。
 
 ## <a name="visual-basic"></a>Visual Basic
 

@@ -17,12 +17,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e6e12700b04f6e48fdf746cb27953da5849169d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: fe73cf90346b6287c609b1b5f4d905041672c1c94727d24cd53c761aed4a52de
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103933944"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119795958"
 ---
 # <a name="mdm_update_approvedupdates01_01-class"></a>MDM \_ Update \_ ApprovedUpdates01 \_ 01 類別
 
@@ -105,7 +105,7 @@ class MDM_Update_ApprovedUpdates01_01
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 10 桌面應用程式\]<br/>                                                          |
+| 最低支援的用戶端<br/> | Windows 10 \[僅限桌面應用程式\]<br/>                                                          |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                            |
 | 命名空間<br/>                | 根 \\ cimv2 \\ mdm \\ dmmap<br/>                                                                   |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv1 mof</dt> </dl>      |

@@ -4,12 +4,12 @@ ms.assetid: 0f69ba50-69ce-467a-b068-8fd8f07c6c78
 title: 使用 Mutex 物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fbd68f41319125613e8569e7b343c0b1601a7735
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c629d90e1cd811c62f62e1151cee4c3e2af77b84133e142fcfe7f93a35b2e5bb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106974295"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119739258"
 ---
 # <a name="using-mutex-objects"></a>使用 Mutex 物件
 

@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: c6d492b2c101305b3038c300c77467d14dc480e2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: eeb1fc7b9e9cab89f25f5b17d72b36c95bb73bf7ae2f15a11bee64ece8fbb4cb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103851447"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119834388"
 ---
 # <a name="instanceparametersenabledbscaninrecovery-property"></a>InstanceParameters. EnableDbScanInRecovery 屬性
 

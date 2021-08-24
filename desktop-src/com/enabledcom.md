@@ -6,12 +6,12 @@ keywords:
 - EnableDCOM 登錄值 COM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b42cc95b24522e87e4b64f6feefc5c6c56ad5341
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a74aea79cf600aad4407b96b5c4a10e8f44633a1c928f8b7e376c192b108cb75
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372034"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119793597"
 ---
 # <a name="enabledcom"></a>EnableDCOM
 
@@ -21,7 +21,7 @@ ms.locfileid: "104372034"
 
 ```
 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Ole
-   EnableDCOM = value
+   EnableDCOM = value
 ```
 
 ## <a name="remarks"></a>備註
@@ -37,7 +37,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Ole
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -52,9 +52,9 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Ole
 [COM 中的安全性](security-in-com.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

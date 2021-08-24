@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 撰寫 Interop 的關聯提供者
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e9f38f09a5c5771fe7fd04909f8247834b646ad1
-ms.sourcegitcommit: 168d11879cb9fd89d26f826482725c0a626be00f
+ms.openlocfilehash: b2d45ceebf9f3465bf9485f4105d9ea2e4438a25c9d169193a8b68c19669b51b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "106976532"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119794268"
 ---
 # <a name="writing-an-association-provider-for-interop"></a>撰寫 Interop 的關聯提供者
 
@@ -18,7 +18,7 @@ ms.locfileid: "106976532"
 
 關聯提供者可用來公開標準設定檔，例如電源設定檔。 這是藉由在根/interop 命名空間中撰寫關聯提供者來完成，此命名空間會衍生自 [**CIM \_ RegisteredProfile**](/previous-versions//ee309375(v=vs.85))的類別，以公開關聯實例。 必須在根/interop 和根/命名空間中註冊提供者 <implemented> ，才能支援跨命名空間的遍歷。
 
-當關聯查詢在根/interop 命名空間中執行時，Windows Management Instrumentation (WMI) 會載入關聯提供者。
+Windows每當在根/interop 命名空間中執行關聯查詢時，Management Instrumentation (WMI) 就會載入關聯提供者。
 
 **若要執行 interop 的關聯提供者**
 
@@ -49,7 +49,7 @@ ms.locfileid: "106976532"
     ```
 
     > [!Note]  
-    > 若為 Windows 用戶端， **RegisteredOrganization** 屬性必須設定為1，而且 **OtherRegisteredOrganization** 屬性設定為 "Microsoft"。
+    > 針對 Windows 用戶端， **RegisteredOrganization** 屬性必須設定為1，而且 **OtherRegisteredOrganization** 屬性設定為 "Microsoft"。
 
      
 
@@ -81,7 +81,7 @@ ms.locfileid: "106976532"
         };
         ```
 
-        如果未在參考已實命名空間的屬性上指定 **MSFT \_ TargetNamespace** 限定詞，則 "associators of of" 語句的 **ResultClass** 篩選器將無法運作。 例如，如果未指定 **MSFT \_ TargetNamespace** 辨識符號，下列 Windows PowerShell 命令列將不會傳回物件： **>get-wmiobject-query "associators of Of {ProcessProfile. InstanceID = ' Process '} Where resultclass = ' Win32 \_ Process '"**。
+        如果未在參考已實命名空間的屬性上指定 **MSFT \_ TargetNamespace** 限定詞，則 "associators of of" 語句的 **ResultClass** 篩選器將無法運作。 例如，如果未指定 **MSFT \_ TargetNamespace** 辨識符號，下列 Windows PowerShell 命令列將不會傳回物件： **>get-wmiobject-query "associators of of {ProcessProfile. InstanceID = ' Process '} where resultclass = ' Win32 \_ Process '"**。
 
         **MSFT \_ TargetNamespace** 辨識符號無法指向遠端電腦上的命名空間。 例如，不支援下列命名空間： MSFT \_ TargetNamespace (\\ \\ \\ \\ <RemoteMachine> \\ \\ 根 \\ \\ interop) 。
 

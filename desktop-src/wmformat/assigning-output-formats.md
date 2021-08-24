@@ -3,7 +3,7 @@ title: 指派輸出格式
 description: 指派輸出格式
 ms.assetid: 47697ffb-51cb-44cd-a0b0-7d85625a38f9
 keywords:
-- Windows Media Format SDK，指派輸出格式
+- Windows媒體格式 SDK，指派輸出格式
 - Advanced Systems Format (ASF) ，指派輸出格式
 - ASF (Advanced 系統格式) ，指派輸出格式
 - Advanced Systems Format (ASF) 、output 數位和格式
@@ -12,12 +12,12 @@ keywords:
 - 編解碼器、輸出編號和格式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 633673053a2b34a2f7aed5ed3f6ae66457a7ee13
-ms.sourcegitcommit: b04e152a7f51618fc174ffa872654623fe088db2
+ms.openlocfilehash: 80672419a032b2fff779259ffc6dcebfbe9e9a569f9d4b7afbb75ae5a84fac2c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "106968484"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119659368"
 ---
 # <a name="assigning-output-formats"></a>指派輸出格式
 
@@ -57,9 +57,9 @@ ms.locfileid: "106968484"
 [**使用輸出**](working-with-outputs.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

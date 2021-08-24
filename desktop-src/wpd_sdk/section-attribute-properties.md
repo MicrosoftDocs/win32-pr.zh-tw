@@ -1,5 +1,5 @@
 ---
-description: Windows 可攜式裝置支援下列區段資料屬性。
+description: Windows可攜式裝置支援下列區段資料屬性。
 ms.assetid: 8760d963-fc07-4b54-aa24-5725f4b95ed2
 title: '區段屬性屬性 (PortableDevice .h) '
 ms.topic: reference
@@ -13,20 +13,20 @@ api_type:
 - HeaderDef
 api_location:
 - PortableDevice.h
-ms.openlocfilehash: 383e2e50aa5d2a922ad50609e316b3dc9905cc38
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 21c2386175fe2c3117afd722bd9a6762b605acbc51e299d33934d161974db796
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106999495"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119704328"
 ---
 # <a name="section-attribute-properties"></a>區段屬性屬性
 
-Windows 可攜式裝置支援下列區段資料屬性。
+Windows可攜式裝置支援下列區段資料屬性。
 
 
 
-| 屬性                                             | VarType         | Description                                                                                                                                                                                                                                                                                                                                 |
+| 屬性                                             | VarType         | 描述                                                                                                                                                                                                                                                                                                                                 |
 |------------------------------------------------------|-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **WPD \_ 區段 \_ 資料 \_ 長度**                       | **VT \_ UI8**     | 指定所參考物件的長度。                                                                                                                                                                                                                                                                                              |
 | **WPD \_ 區段 \_ 資料 \_ 位移**                       | **VT \_ UI8**     | 指定所參考物件之資料的以零為基底的位移。                                                                                                                                                                                                                                                                      |

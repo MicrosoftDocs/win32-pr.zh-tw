@@ -4,12 +4,12 @@ ms.assetid: 5a12932d-053d-49c3-9f06-0c122ca293d0
 title: 更新升級的快捷方式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9a3192bc9468dbe84c2968a968631b4a091b0705
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d0bd41fa9377a4c7babbae8f4b12fb44c671b67f8760fe7692e7d5d785cb137a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970399"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119809818"
 ---
 # <a name="updating-shortcuts-for-an-upgrade"></a>更新升級的快捷方式
 
@@ -19,13 +19,13 @@ ms.locfileid: "106970399"
 
 
 
-| 快速鍵    | 目錄\_ | Name           | 元件\_ | 目標               | 引數 | 描述 | 熱鍵 | 圖示\_         | >iconindex | ShowCmd | WkDir |
+| 快速鍵    | 目錄\_ | 名稱           | 元件\_ | 目標               | 引數 | 描述 | 熱鍵 | 圖示\_         | >iconindex | ShowCmd | WkDir |
 |-------------|-------------|----------------|-------------|----------------------|-----------|-------------|--------|----------------|-----------|---------|-------|
 | sBaseball   | MENUDIR     | Baseba01.txt   | 棒球    | 棒球             |           |             |        | orca \_icon.exe |           |         |       |
 | sConcert    | MENUDIR     | Concer01.txt   | 演唱會     | \[\#Concer01.txt\]   |           |             |        |                |           |         |       |
 | sDancell    | MENUDIR     | Dance01.txt    | 舞蹈       | \[\#Dance01.txt\]    |           |             |        |                |           |         |       |
 | sFootball   | MENUDIR     | Footba01.txt   | 足球    | \[\#Footba01.txt\]   |           |             |        |                |           |         |       |
-| 現成       | MENUDIR     | Help.txt       | Help        | \[\#Help.txt\]       |           |             |        |                |           |         |       |
+| 現成       | MENUDIR     | Help.txt       | 說明        | \[\#Help.txt\]       |           |             |        |                |           |         |       |
 | sJanuary    | MENUDIR     | Januar01.txt   | 一月     | \[\#Januar01.txt\]   |           |             |        |                |           |         |       |
 | sNewYears   | MENUDIR     | NewYea01.txt   | NewYears    | \[\#NewYea01.txt\]   |           |             |        |                |           |         |       |
 | sNotepad    | MENUDIR     | Redpark.exe    | [記事本]     | \[\#Redpark.exe\]    |           |             |        |                |           |         |       |

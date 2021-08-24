@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: b53716a3f7e1376b3749268bbbfddc73918ec4d5
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 5f94e1396b3754418a0b8784271b057770394054c5eae97f4b6f69805ce12ea4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936484"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119700727"
 ---
 # <a name="reset-method-of-the-cim_usbhub-class"></a>CIM USBHub 類別的 Reset 方法 \_
 

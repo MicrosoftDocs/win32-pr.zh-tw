@@ -13,18 +13,18 @@ api_type:
 - COM
 api_location:
 - Inkrenderer.idl
-ms.openlocfilehash: 1649d52c2e9098513c115daaf295c4005e890b8e
-ms.sourcegitcommit: 5b98bf8c68922f8f03c14f793fbe17504900559c
+ms.openlocfilehash: 51383770b8eb0c5dca5efbb5f1756bee81ece506c0e92337e9df9a60eb0a8aee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "104195699"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119726728"
 ---
 # <a name="inkd2drenderer-class"></a>InkD2DRenderer 類別
 
 實行 [**IInkD2DRenderer**](/windows/win32/api/inkrenderer/nn-inkrenderer-iinkd2drenderer) 介面。
 
-[**IInkD2DRenderer**](/windows/win32/api/inkrenderer/nn-inkrenderer-iinkd2drenderer)物件可將筆墨筆劃轉譯至通用 Windows 應用程式的指定 Direct2D 裝置內容，而不是預設的 [**InkCanvas**](/uwp/api/Windows.UI.Xaml.Controls.InkCanvas)控制項。
+[**IInkD2DRenderer**](/windows/win32/api/inkrenderer/nn-inkrenderer-iinkd2drenderer)物件可將筆墨筆劃轉譯到通用 Windows 應用程式的指定 Direct2D 裝置內容，而不是預設的 [**InkCanvas**](/uwp/api/Windows.UI.Xaml.Controls.InkCanvas)控制項。
 
 ## <a name="members"></a>成員
 
@@ -90,10 +90,10 @@ void InkRenderer::Render(
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 10 桌面應用程式\]<br/>                                                |
+| 最低支援的用戶端<br/> | Windows 10 \[僅限桌面應用程式\]<br/>                                                |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                  |
 | 標頭<br/>                   | <dl> <dt>Inkrenderer。h</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>Inkrenderer .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>Inkrenderer .idl</dt> </dl> |
 | IID<br/>                      | IID \_ IInkD2DRenderer 定義為4044e60c-7b01-4671-a97c-04e0210a07a5<br/>         |
 
 ## <a name="related-topics"></a>相關主題

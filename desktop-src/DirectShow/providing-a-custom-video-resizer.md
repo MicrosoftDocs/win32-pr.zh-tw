@@ -4,12 +4,12 @@ ms.assetid: 4009f93f-cd50-440f-b943-7e3700e0e2cb
 title: 提供自訂的影片調整
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5247727cf16ef3c94a699db2907ff240b1d8a289
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: a006f4620accc3917ae3072846f99f7537a1eadfaab21da36aab17f17d94e433
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104108905"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119747898"
 ---
 # <a name="providing-a-custom-video-resizer"></a>提供自訂的影片調整
 
@@ -20,7 +20,7 @@ ms.locfileid: "104108905"
 
  
 
-當 [DirectShow 編輯服務](directshow-editing-services.md) (DES) 調整大小的影片來源剪輯時，預設行為是 *StretchBlt*，這是快速但不是消除鋸齒的。 您可以藉由將自訂的調整器實作為 DirectShow 轉換篩選，來變更調整大小行為。 篩選器必須公開 [**IResize**](iresize.md) 介面，這可讓 DES 指定輸入和輸出影片大小。 如需撰寫轉換篩選的相關資訊，請參閱 [寫入轉換](writing-transform-filters.md)篩選。 建議使用 **CTransformFilter** 基類做為起始點。 當您執行篩選準則時，請注意下列事項：
+當 [DirectShow 編輯服務](directshow-editing-services.md) (DES) 調整影片來源剪輯的大小時，預設行為是 *StretchBlt*，這是快速但不是消除鋸齒的。 您可以藉由將自訂的調整器實作為 DirectShow 轉換篩選，來變更調整大小行為。 篩選器必須公開 [**IResize**](iresize.md) 介面，這可讓 DES 指定輸入和輸出影片大小。 如需撰寫轉換篩選的相關資訊，請參閱 [寫入轉換](writing-transform-filters.md)篩選。 建議使用 **CTransformFilter** 基類做為起始點。 當您執行篩選準則時，請注意下列事項：
 
 -   支援篩選 (的 **IResize** 介面，而不是) 的釘選。
 -   篩選器只應接受 [**VIDEOINFOHEADER**](/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader) 格式 (格式 \_ VideoInfo) 。 拒絕其他格式類型。
@@ -37,7 +37,7 @@ ms.locfileid: "104108905"
 
 <dl> <dt>
 
-[轉譯專案](rendering-a-project.md)
+[轉譯 Project](rendering-a-project.md)
 </dt> </dl>
 
  

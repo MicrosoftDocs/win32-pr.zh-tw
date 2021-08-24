@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 26b99cf7856c31f2e45f026631beb974e61c481f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1a1c1f914ee2dee3b1c2a6a9d0d2c71ac816db8debb1bb8f7db2bc5ff26e5c05
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106967953"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119658138"
 ---
 # <a name="delete-method-of-the-win32_tsgatewayconnectionauthorizationpolicy-class"></a>Win32 TSGatewayConnectionAuthorizationPolicy 類別的 Delete 方法 \_
 

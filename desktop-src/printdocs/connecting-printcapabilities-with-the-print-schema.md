@@ -4,12 +4,12 @@ ms.assetid: 2f6c51a3-003c-4d68-9e4d-9be5d325a477
 title: 將 PrintCapabilities 與列印架構連接
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 661a8eb93c6f788381713c0c6620e8a09a53648f
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 65b82efc36798cc39439ff1dcf30d10c02b33aaa7ca4b0e92be5ce3e305875dd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112409641"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119720148"
 ---
 # <a name="connecting-printcapabilities-with-the-print-schema"></a>將 PrintCapabilities 與列印架構連接
 

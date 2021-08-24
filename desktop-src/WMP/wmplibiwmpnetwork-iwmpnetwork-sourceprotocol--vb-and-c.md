@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a5017e1a053c124a1f7f50668c6f392eb541d57f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 737bc0a5a4417735c795fc1058a7b821ee52489cf838be9eb934546f0fabacc9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106998681"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119760848"
 ---
 # <a name="iwmpnetworksourceprotocol-property"></a>IWMPNetwork：： sourceProtocol 屬性
 

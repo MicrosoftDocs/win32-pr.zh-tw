@@ -4,12 +4,12 @@ ms.assetid: 3D60C81F-B1CC-4485-B7C3-B1C6E903865B
 title: '函數 (Windows 執行階段) '
 ms.topic: article
 ms.date: 05/10/2019
-ms.openlocfilehash: 1ed2ea39385ac5cb7afc34770a5ee2d2a572bb8b
-ms.sourcegitcommit: 4570ac533e129ff88b23f2c2b69e0140ead3a4a4
+ms.openlocfilehash: fbf0d4ce350251e1c13d1f6a3ff03c95068558098eac722979bc77499a094c4d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "106979626"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119795008"
 ---
 # <a name="functions-windows-runtime-c-reference"></a>函數 (Windows 執行階段 c + + 參考) 
 
@@ -27,7 +27,7 @@ ms.locfileid: "106979626"
 | [**CreateDirect3DDevice**](/windows/desktop/api/windows.graphics.directx.direct3d11.interop/nf-windows-graphics-directx-direct3d11-interop-createdirect3ddevice) | 從[IDXGIDevice](/windows/desktop/api/dxgi/nn-dxgi-idxgidevice)建立[IDirect3DDevice](/uwp/api/windows.graphics.directx.direct3d11.idirect3ddevice)的實例。 |
 | [**CreateDirect3DSurface**](/windows/desktop/api/windows.graphics.directx.direct3d11.interop/nf-windows-graphics-directx-direct3d11-interop-createdirect3dsurface) | 從[IDXGISurface](/windows/desktop/api/dxgi/nn-dxgi-idxgisurface)建立[IDirect3DSurface](/uwp/api/windows.graphics.directx.direct3d11.idirect3dsurface)的實例。 |
 | [**CreateRandomAccessStreamOnFile**](/windows/win32/api/shcore/nf-shcore-createrandomaccessstreamonfile) | 建立檔案的 Windows 執行階段隨機存取資料流程。 |
-| [**CreateRandomAccessStreamOverStream**](/windows/win32/api/shcore/nf-shcore-createrandomaccessstreamoverstream) | 在 [**IStream**](/windows/win32/api/objidl/nn-objidl-istream) 基底執行周圍建立 Windows 執行階段隨機存取資料流程。 |
+| [**CreateRandomAccessStreamOverStream**](/windows/win32/api/shcore/nf-shcore-createrandomaccessstreamoverstream) | 在 [**IStream**](/windows/win32/api/objidl/nn-objidl-istream)基底執行周圍建立 Windows 執行階段隨機存取資料流程。 |
 | [**CreateStreamOverRandomAccessStream**](/windows/win32/api/shcore/nf-shcore-createstreamoverrandomaccessstream) | 在 Windows 執行階段 [**IRandomAccessStream**](/previous-versions//hh438400(v=vs.85))物件周圍建立 [**IStream**](/windows/win32/api/objidl/nn-objidl-istream) 。 |
 | [**CreateXamlUIPresenter**](createxamluipresenter.md) | 靜態 creator 函式，可在桌面應用程式中建立呈現介面的 [**XamlUIPresenter**](/uwp/api/Windows.UI.Xaml.Hosting.XamlUIPresenter?view=winrt-19041) 。 |
 | [**DbgRaiseAssertionFailure**](/previous-versions//jj635749(v=vs.85)) | 引發要進行偵錯工具的判斷提示。  |
@@ -43,7 +43,7 @@ ms.locfileid: "106979626"
 | [**HSTRING \_ UserSize64**](/windows/win32/api/inspectable/nf-inspectable-hstring_usersize64) | 計算 [**HSTRING**](hstring.md) 物件的網路大小，並取得其控制碼和資料。 |
 | [**HSTRING \_ UserUnmarshal**](/windows/win32/api/inspectable/nf-inspectable-hstring_userunmarshal) | 從 RPC 緩衝區拆收 [**HSTRING**](hstring.md) 物件。 |
 | [**HSTRING \_ UserUnmarshal64**](/windows/win32/api/inspectable/nf-inspectable-hstring_userunmarshal64) | 從 RPC 緩衝區拆收 [**HSTRING**](hstring.md) 物件。 |
-| [**IsErrorPropagationEnabled**](/windows/win32/api/roerrorapi/nf-roerrorapi-iserrorpropagationenabled) | 指出針對 Windows 執行階段 API 事件或完成非同步方法而註冊為回呼函式的委派所傳回的錯誤，是否會發生 [**CoreApplication. UnhandledErrorDetected**](/uwp/api/Windows.ApplicationModel.Core.CoreApplication?view=winrt-19041) 事件。 |
+| [**IsErrorPropagationEnabled**](/windows/win32/api/roerrorapi/nf-roerrorapi-iserrorpropagationenabled) | 指出針對 Windows 執行階段 API 事件或完成非同步方法而註冊為回呼函式的委派所傳回的錯誤，是否會發生 [**CoreApplication. UnhandledErrorDetected**](/uwp/api/Windows.ApplicationModel.Core.CoreApplication?view=winrt-19041)事件。 |
 | [**DllGetActivationFactory**](/previous-versions//br205771(v=vs.85)) | 從包含可啟動的 Windows 執行階段類別的 DLL 抓取啟用 factory。 |
 | [**Rometadata.h**](/windows/win32/api/rometadata/nf-rometadata-metadatagetdispenser) | 建立分配器類別。 |
 | [**PdfCreateRenderer**](/windows/desktop/api/windows.data.pdf.interop/nf-windows-data-pdf-interop-pdfcreaterenderer) | 取得 [**IPdfRendererNative**](/windows/desktop/api/windows.data.pdf.interop/nn-windows-data-pdf-interop-ipdfrenderernative) 介面的實例，以顯示可攜檔案格式的單一頁面 (PDF) 檔。 |
@@ -93,8 +93,8 @@ ms.locfileid: "106979626"
 | [**WindowsDuplicateString**](/windows/win32/api/winstring/nf-winstring-windowsduplicatestring) | 建立指定字串的複本。 |
 | [**WindowsGetStringLen**](/windows/win32/api/winstring/nf-winstring-windowsgetstringlen) | 取得指定之字串的長度（以 Unicode 字元為單位）。 |
 | [**WindowsGetStringRawBuffer**](/windows/win32/api/winstring/nf-winstring-windowsgetstringrawbuffer) | 取得指定之字串的支援緩衝區。 |
-| [**WindowsInspectString**](/windows/win32/api/winstring/nf-winstring-windowsinspectstring) | 提供一種方式，讓偵錯工具顯示另一個位址空間、遠端或傾印中 Windows 執行階段 [**HSTRING**](hstring.md) 的值。  |
-| [**WindowsInspectString2**](/windows/win32/api/winstring/nf-winstring-windowsinspectstring2) | 提供一種方式，讓偵錯工具顯示另一個位址空間、遠端或傾印中 Windows 執行階段 [**HSTRING**](hstring.md) 的值。  |
+| [**WindowsInspectString**](/windows/win32/api/winstring/nf-winstring-windowsinspectstring) | 提供一種方式，讓偵錯工具顯示另一個位址空間、遠端或傾印中 Windows 執行階段 [**HSTRING**](hstring.md)的值。  |
+| [**WindowsInspectString2**](/windows/win32/api/winstring/nf-winstring-windowsinspectstring2) | 提供一種方式，讓偵錯工具顯示另一個位址空間、遠端或傾印中 Windows 執行階段 [**HSTRING**](hstring.md)的值。  |
 | [**WindowsIsStringEmpty**](/windows/win32/api/winstring/nf-winstring-windowsisstringempty) | 指出指定的字串是否為空字串。 |
 | [**WindowsPreallocateStringBuffer**](/windows/win32/api/winstring/nf-winstring-windowspreallocatestringbuffer) | 配置可變動的字元緩衝區，以便在建立 [**HSTRING**](hstring.md) 時使用。 |
 | [**WindowsPromoteStringBuffer**](/windows/win32/api/winstring/nf-winstring-windowspromotestringbuffer) | 從指定的 [**HSTRING \_ 緩衝區**](hstring-buffer.md)建立 [**HSTRING**](hstring.md) 。 |

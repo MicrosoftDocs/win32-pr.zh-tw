@@ -4,12 +4,12 @@ ms.assetid: f4815190-4900-4129-83e2-8b05302a88ca
 title: 自訂動作參考
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8a0ceb6d3c12385800997ef293792355ae23e0aa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2b8f607c45b0b94a7e55ffc521cbd05b5a61ccc91da5ddce2fbee06ba615579a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103852772"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119745748"
 ---
 # <a name="custom-action-reference"></a>自訂動作參考
 
@@ -22,7 +22,7 @@ ms.locfileid: "103852772"
 -   [自訂動作修補卸載選項](custom-action-patch-uninstall-option.md)
 -   [自訂動作傳回處理選項](custom-action-return-processing-options.md)
 -   [自訂動作傳回值](custom-action-return-values.md)
--   [JScript 和 VBScript 自訂動作的傳回值](return-values-of-jscript-and-vbscript-custom-actions.md)
+-   [傳回 JScript 和 VBScript 自訂動作的值](return-values-of-jscript-and-vbscript-custom-actions.md)
 
 ## <a name="related-topics"></a>相關主題
 

@@ -4,12 +4,12 @@ ms.assetid: 87c4c228-69e0-4b55-b91f-fe6e561f6d18
 title: WPD_CONTENT_TYPE_SERVICE
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1655825828867e38ef1962d35bcb0cfebf4ed76e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5fc302c8bf884b58cab092a0a0e87a79f556b3b8178df0628622e2c3a323d49f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944899"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119703918"
 ---
 # <a name="wpd_content_type_service"></a>WPD \_ 內容 \_ 類型 \_ 服務
 

@@ -4,12 +4,12 @@ ms.assetid: 9529b389-85f6-421f-8429-9b61cee56ef1
 title: 線條和曲線屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c6ec13ea49a72447045c45ea2837ba40e64e6741
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5d5ab8758cf6e77b28568cacafd8c57312c052d9e9415211f034e3d1a70b6c09
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104991198"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119831608"
 ---
 # <a name="line-and-curve-attributes"></a>線條和曲線屬性
 
@@ -24,7 +24,7 @@ ms.locfileid: "104991198"
 
 預設筆刷是純白色筆刷。 應用程式可以藉由呼叫 [**CreateBrushIndirect**](/windows/desktop/api/Wingdi/nf-wingdi-createbrushindirect) 函數來建立新筆刷。 建立筆刷之後，應用程式可以藉由呼叫 [**SelectObject**](/windows/desktop/api/Wingdi/nf-wingdi-selectobject) 函式來選取它的 DC。 Windows 提供一組完整的函式，可建立、選取及變更應用程式 DC 中的筆刷。 如需這些函式和一般筆刷的詳細資訊，請參閱 [筆刷](brushes.md)。
 
-預設畫筆是表面的實心黑色畫筆，寬度為一個圖元。 應用程式可以使用 [**ExtCreatePen**](/windows/desktop/api/Wingdi/nf-wingdi-extcreatepen) 函數來建立畫筆。 建立畫筆之後，您的應用程式可以藉由呼叫 [**SelectObject**](/windows/desktop/api/Wingdi/nf-wingdi-selectobject) 函式來選取它的 DC。 Windows 提供一組完整的函式，可建立、選取及變更應用程式 DC 中的畫筆。 如需這些函式和一般畫筆的詳細資訊，請參閱 [畫筆](pens.md)。
+預設畫筆是表面的實心黑色畫筆，寬度為一個圖元。 應用程式可以使用 [**ExtCreatePen**](/windows/desktop/api/Wingdi/nf-wingdi-extcreatepen) 函數來建立畫筆。 建立畫筆之後，您的應用程式可以藉由呼叫 [**SelectObject**](/windows/desktop/api/Wingdi/nf-wingdi-selectobject) 函式來選取它的 DC。 Windows 提供一組完整的函式，以在應用程式的 DC 中建立、選取及變更畫筆。 如需這些函式和一般畫筆的詳細資訊，請參閱 [畫筆](pens.md)。
 
 預設轉換是識別矩陣) 所指定的 unity 轉換 (。 應用程式可以藉由呼叫 [**SetWorldTransform**](/windows/desktop/api/Wingdi/nf-wingdi-setworldtransform) 函數來指定新的轉換。 Windows 提供一組完整的函式，藉由改變其寬度、位置和一般外觀來轉換線條和曲線。 如需這些函數的詳細資訊，請參閱 [座標空間和轉換](coordinate-spaces-and-transformations.md)。
 

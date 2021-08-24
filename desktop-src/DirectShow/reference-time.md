@@ -4,12 +4,12 @@ ms.assetid: 862c95bc-2e0a-42c0-b907-45f64f27bd41
 title: 'REFERENCE_TIME (Strmif) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ab88576f611674f5b208c5c39d328c77dcf57aec
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 08f1600e820ac59c53144743933701a61e4a7b753f814dde06c5c663a760938d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106983188"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119747318"
 ---
 # <a name="reference_time"></a>參考 \_ 時間
 
@@ -31,7 +31,7 @@ typedef LONGLONG REFERENCE_TIME;
 -   絕對時鐘時間。 在此情況下，基準將視時鐘的執行而定。 如需詳細資訊，請參閱 [參考時鐘](reference-clocks.md)。
 -   相對於開始播放。
 
-如需參考時間的詳細資訊，請參閱 [DirectShow 中的時間和時鐘](time-and-clocks-in-directshow.md)。
+如需參考時間的詳細資訊，請參閱[DirectShow 中的時間和時鐘](time-and-clocks-in-directshow.md)。
 
 ## <a name="requirements"></a>規格需求
 
@@ -47,7 +47,7 @@ typedef LONGLONG REFERENCE_TIME;
 
 <dl> <dt>
 
-[DirectShow 資料類型](directshow-data-types.md)
+[DirectShow資料類型](directshow-data-types.md)
 </dt> </dl>
 
  

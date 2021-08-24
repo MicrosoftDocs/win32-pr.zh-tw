@@ -4,12 +4,12 @@ ms.assetid: 3153e3a4-2227-4fdd-b2b0-218763013d2d
 title: 'QueryAccept (上游) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7707c52d36c3d065c4a7277939f724aabdb73e46
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 65133e132a0e1c2e6880009eda8b56fde9bf77a8bc7d68a850a6f8963604aecd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103688224"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119747571"
 ---
 # <a name="queryaccept-upstream"></a>QueryAccept (上游) 
 
@@ -27,7 +27,7 @@ ms.locfileid: "103688224"
 
 ![queryaccept (上游) ](images/dynformat4.png)
 
-這種格式變更的主要範例包括 DirectShow 影片轉譯器。
+這種格式變更的主要範例包含 DirectShow 的影片轉譯器。
 
 -   原始的 [影片](video-renderer-filter.md) 轉譯器篩選器可以在串流期間于 RGB 和 YUV 類型之間切換。 當篩選連接時，需要符合目前顯示設定的 RGB 格式。 這可保證在需要的情況下，可以切換回 GDI。 串流處理開始之後，如果有 DirectDraw 可用，則影片轉譯器會要求使用 YUV 類型的格式變更。 之後，如果有任何原因，它可能會切換回 RGB。
 -   較新的影片混合轉譯器 (VMR) 篩選器會以圖形硬體支援的任何格式（包括 YUV 類型）進行連接。 不過，圖形硬體可能會變更基礎 DirectDraw 表面的 stride，以將效能優化。 VMR 篩選器 `QueryAccept` 會使用來報告新的 stride，這是在 **BITMAPINFOHEADER** 結構的 **biWidth** 成員中指定的。 **VIDEOINFOHEADER** 或 **VIDEOINFOHEADER2** 結構中的來源和目標矩形會識別應該將影片解碼的區域。
@@ -42,7 +42,7 @@ ms.locfileid: "103688224"
 
 -   在上游傳遞格式變更，並在到達時儲存新的格式資訊。 您的篩選準則必須使用自訂配置器，才能將格式附加至上游範例。
 -   在篩選內執行格式轉換。 這可能比傳遞格式變更上游更容易。 不過，它可能會比讓解碼器篩選器解碼成正確的格式更有效率。
--   最後的手段是拒絕格式變更。  (需詳細資訊，請參閱 DirectShow 基類庫中的 [**CTransInPlaceOutputPin：： CheckMediaType**](ctransinplaceoutputpin-checkmediatype.md) 方法的原始程式碼。 ) 拒絕格式變更可能會降低效能，因為它會防止影片轉譯器使用最有效率的格式。
+-   最後的手段是拒絕格式變更。  (需詳細資訊，請參閱 DirectShow 基類庫中的 [**CTransInPlaceOutputPin：： CheckMediaType**](ctransinplaceoutputpin-checkmediatype.md)方法原始程式碼。 ) 拒絕格式變更可能會降低效能，因為它可防止影片轉譯器使用最有效率的格式。
 
 下列虛擬程式碼示範如何執行複製轉換篩選 (衍生自可在 YUV 和 RGB 輸出類型之間切換的 **CTransformFilter**) 。 此範例假設篩選本身會進行轉換，而不是傳遞格式變更上游。
 

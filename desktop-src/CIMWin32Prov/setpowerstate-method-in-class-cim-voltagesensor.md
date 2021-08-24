@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 89a83bc7c4c7fbb70c5e089940d5ff689ebe6ba5
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 15f186783d7e97d857589565527e7bddfaeb9c800305adfd977254e183903a12
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108100026"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119699978"
 ---
 # <a name="setpowerstate-method-of-the-cim_voltagesensor-class"></a>CIM 電壓感應器類別的 SetPowerState 方法 \_
 

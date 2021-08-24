@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 3a28dddeb687093a76f4f8bc60c96777468abc9f
-ms.sourcegitcommit: 168d11879cb9fd89d26f826482725c0a626be00f
+ms.openlocfilehash: 3a4314e6d4c55059b551147858bdf2ce709b33adbcc13612a0bb1f670209b023
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "104992434"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119853378"
 ---
 # <a name="samplecmplevelzerosamplecmplevelzerosfloatfloatintuint-function-for-texture2d"></a>Texture2D 的 SampleCmpLevelZero：： SampleCmpLevelZero (S、float、float、int、uint) 函數
 

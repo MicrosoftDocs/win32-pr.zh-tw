@@ -4,12 +4,12 @@ description: ComboBox 控制項宏
 ms.assetid: e147234e-0536-4719-b879-1ab5aa77d109
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 091c56dae1ea73af516efed20ed86adc80efa517
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 918ff733382073c89540fdc4e1c8b36514e5bce086bf0f1bc0165bbfb52c2edd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106982174"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119699878"
 ---
 # <a name="combobox-control-macros"></a>ComboBox 控制項宏
 

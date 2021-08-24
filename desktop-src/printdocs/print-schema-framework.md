@@ -4,12 +4,12 @@ ms.assetid: 05c7fd07-1c32-409d-8ca5-820038af3440
 title: Print Schema Framework
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 570701df700954ad85fb724b9528b7e7912f3174
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 986308ae2ce1308c7df090da295f8b5473efe99219339a906490299ec33b2ea6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112407161"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119718598"
 ---
 # <a name="print-schema-framework"></a>Print Schema Framework
 

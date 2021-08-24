@@ -4,12 +4,12 @@ ms.assetid: c42e6cea-3b40-44ad-8715-09ce57e82217
 title: 散佈/收集 i/o
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4c572892a75b3532d68a39e2fabdcc971f0a3327
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b4dc580065655c2d69485a49cd41919345c566c32ec2ff9cd1055383853c7438
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106983434"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119794678"
 ---
 # <a name="scattergather-io"></a>散佈/收集 i/o
 

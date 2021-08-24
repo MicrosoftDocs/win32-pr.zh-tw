@@ -16,18 +16,18 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 762cd2445c3c6b720bba0f01ae48b787abc1fb38
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 74f20840a5580d0188354ca6b65ab3ce5b7402d57ea7346462d2f990ecfe34cf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466412"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119658648"
 ---
 # <a name="taskservice-object"></a>TaskService 物件
 
 針對腳本，提供存取工作排程器服務來管理已註冊的工作。
 
-在呼叫任何其他 **TaskService** 方法之前，應該先呼叫 [**TaskService**](taskservice-connect.md)方法。
+在呼叫任何其他 **TaskService** 方法之前，應該先呼叫 [**連線 TaskService**](taskservice-connect.md)方法。
 
 ## <a name="members"></a>成員
 
@@ -44,7 +44,7 @@ ms.locfileid: "104466412"
 
 | 方法                                                 | 描述                                                                                                                                                                                                          |
 |:-------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**連接**](taskservice-connect.md)                 | 連接至遠端電腦，並將此介面上的所有後續呼叫與遠端會話產生關聯。<br/>                                                                                                 |
+| [**連線**](taskservice-connect.md)                 | 連接至遠端電腦，並將此介面上的所有後續呼叫與遠端會話產生關聯。<br/>                                                                                                 |
 | [**GetFolder**](taskservice-getfolder.md)             | 取得已註冊工作的資料夾路徑。<br/>                                                                                                                                                            |
 | [**GetRunningTasks**](taskservice-getrunningtasks.md) | 取得正在執行之工作的集合。<br/>                                                                                                                                                                       |
 | [**NewTask**](taskservice-newtask.md)                 | 傳回要填入設定和屬性的空白工作定義物件，然後使用 [**TaskFolder. RegisterTaskDefinition**](taskfolder-registertaskdefinition.md) 方法進行註冊。<br/> |
@@ -81,8 +81,8 @@ ms.locfileid: "104466412"
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                          |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                    |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                          |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                    |
 | 類型程式庫<br/>             | <dl> <dt>Taskschd.msc .tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 

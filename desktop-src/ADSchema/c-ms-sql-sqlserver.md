@@ -1,11 +1,11 @@
 ---
-title: TRANSACT-SQL-SQLServer 類別
-description: 用於儲存 SQLDatabase、SQLPublication 和 SQLRepository 物件的容器（容器）。
+title: MS SQL-SQLServer 類別
+description: 用於儲存 ms SQL SQLDatabase、ms SQL SQLPublication 和 ms SQL SQLRepository 物件的容器。
 ms.assetid: e83c93fa-b5d8-4941-af8c-b7a4c47c8e87
 ms.tgt_platform: multiple
 keywords:
-- TRANSACT-SQL-SQLServer 類別 AD 架構
-- TRANSACT-SQL-SQLServer 類別 AD 架構
+- MS SQL-SQLServer 類別 AD 架構
+- mS SQL-SQLServer 類別 AD 架構
 topic_type:
 - apiref
 api_name:
@@ -14,23 +14,23 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9bcf21f99329aafa154923f8ca59951e5a40b53d
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 07cd5e3e8745b2adecb138ee4f523a568b9d9c34d8018ebce21577102b8113dc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104467161"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119834618"
 ---
-# <a name="ms-sql-sqlserver-class"></a>TRANSACT-SQL-SQLServer 類別
+# <a name="ms-sql-sqlserver-class"></a>MS SQL-SQLServer 類別
 
-用於儲存 [**SQLDatabase**](c-ms-sql-sqldatabase.md)、 [**SQLPublication**](c-ms-sql-sqlpublication.md)和 [**SQLRepository**](c-ms-sql-sqlrepository.md) 物件的容器（容器）。
+用於儲存 [**ms SQL SQLDatabase**](c-ms-sql-sqldatabase.md)、 [**ms SQL SQLPublication**](c-ms-sql-sqlpublication.md)和 [**ms SQL SQLRepository**](c-ms-sql-sqlrepository.md)物件的容器。
 
 
 
 | 進入 | 值 |
 |-------------------|--------------------------------------|
-| CN                | MS-CHAP-SQLServer                     |
-| Ldap-顯示名稱 | Ms-chap-SQLServer                     |
+| CN                | 毫秒-SQL-SQLServer                     |
+| Ldap-顯示名稱 | 毫秒-SQL-SQLServer                     |
 | 更新許可權  | 此值是由系統所設定。     |
 | 更新頻率  | 在系統設定時。                     |
 | 架構識別碼-Guid    | 05f6c878-ccef-11d2-9993-0000f87a57d4 |
@@ -85,7 +85,7 @@ ms.locfileid: "104467161"
 | [**允許-子類別-有效**](a-allowedchildclasseseffective.md) | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**橋頭-伺服器-清單-BL**](a-bridgeheadserverlistbl.md)             | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**標準名稱**](a-canonicalname.md)                                 | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
-| [**一般名稱**](a-cn.md)                                               | 對      | [**連接點**](c-connectionpoint.md)<br/> [**返回頁首**](c-top.md)<br/> |
+| [**一般名稱**](a-cn.md)                                               | 是      | [**連接點**](c-connectionpoint.md)<br/> [**返回頁首**](c-top.md)<br/> |
 | [**建立時間戳記**](a-createtimestamp.md)                            | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**描述**](a-description.md)                                      | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**顯示名稱**](a-displayname.md)                                     | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
@@ -98,7 +98,7 @@ ms.locfileid: "104467161"
 | [**Frs-電腦-參考-BL**](a-frscomputerreferencebl.md)             | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**FRS-成員參考-BL**](a-frsmemberreferencebl.md)                 | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**FSMO 角色-擁有者**](a-fsmoroleowner.md)                                | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
-| [**實例類型**](a-instancetype.md)                                   | 對      | [**返回頁首**](c-top.md)<br/>                                                          |
+| [**實例類型**](a-instancetype.md)                                   | 是      | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**為關鍵-系統物件**](a-iscriticalsystemobject.md)             | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**已刪除**](a-isdeleted.md)                                         | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**是-DL 的成員**](a-memberof.md)                                     | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
@@ -111,36 +111,36 @@ ms.locfileid: "104467161"
 | [**修改時間戳記**](a-modifytimestamp.md)                            | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**MS DS-一致性-子計數**](a-ms-ds-consistencychildcount.md)    | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**MS-DS-Consistency-Guid**](a-ms-ds-consistencyguid.md)                 | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
-| [**MS-CHAP-AppleTalk**](a-ms-sql-appletalk.md)                            | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**MS-SQL-組建**](a-ms-sql-build.md)                                    | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**CharacterSet**](a-ms-sql-characterset.md)                      | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**MS-CHAP-叢集**](a-ms-sql-clustered.md)                            | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**MS-SQL-連絡人**](a-ms-sql-contact.md)                                | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**GPSHeight**](a-ms-sql-gpsheight.md)                            | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**GPSLatitude**](a-ms-sql-gpslatitude.md)                        | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**GPSLongitude**](a-ms-sql-gpslongitude.md)                      | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**InformationURL**](a-ms-sql-informationurl.md)                  | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**MS-CHAP-關鍵字**](a-ms-sql-keywords.md)                              | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**LastUpdatedDate**](a-ms-sql-lastupdateddate.md)                | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**MS-CHAP-位置**](a-ms-sql-location.md)                              | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**MS-CHAP-記憶體**](a-ms-sql-memory.md)                                  | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**MS-CHAP-多重通訊協定**](a-ms-sql-multiprotocol.md)                    | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**MS-SQL-名稱**](a-ms-sql-name.md)                                      | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**NamedPipe**](a-ms-sql-namedpipe.md)                            | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**>registeredowner**](a-ms-sql-registeredowner.md)                | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**ServiceAccount**](a-ms-sql-serviceaccount.md)                  | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**MS-CHAP-SortOrder**](a-ms-sql-sortorder.md)                            | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**MS-CHAP-SPX**](a-ms-sql-spx.md)                                        | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**MS-SQL-狀態**](a-ms-sql-status.md)                                  | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**MS-SQL-TCPIP**](a-ms-sql-tcpip.md)                                    | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**UnicodeSortOrder**](a-ms-sql-unicodesortorder.md)              | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**Vines**](a-ms-sql-vines.md)                                    | 否     | **MS-CHAP-SQLServer**                                                                     |
+| [**MS-SQL-AppleTalk**](a-ms-sql-appletalk.md)                            | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**MS SQL-組建**](a-ms-sql-build.md)                                    | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL-CharacterSet**](a-ms-sql-characterset.md)                      | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**MS-SQL-叢集**](a-ms-sql-clustered.md)                            | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**MS-SQL-Contact**](a-ms-sql-contact.md)                                | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL-GPSHeight**](a-ms-sql-gpsheight.md)                            | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL-GPSLatitude**](a-ms-sql-gpslatitude.md)                        | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL-GPSLongitude**](a-ms-sql-gpslongitude.md)                      | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL-InformationURL**](a-ms-sql-informationurl.md)                  | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**ms-chap-SQL 關鍵字**](a-ms-sql-keywords.md)                              | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL-LastUpdatedDate**](a-ms-sql-lastupdateddate.md)                | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL-位置**](a-ms-sql-location.md)                              | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**MS SQL 記憶體**](a-ms-sql-memory.md)                                  | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL-多重通訊協定**](a-ms-sql-multiprotocol.md)                    | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL-名稱**](a-ms-sql-name.md)                                      | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL-NamedPipe**](a-ms-sql-namedpipe.md)                            | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL->registeredowner**](a-ms-sql-registeredowner.md)                | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL-ServiceAccount**](a-ms-sql-serviceaccount.md)                  | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL-SortOrder**](a-ms-sql-sortorder.md)                            | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL-SPX**](a-ms-sql-spx.md)                                        | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL-狀態**](a-ms-sql-status.md)                                  | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**MS SQL-TCPIP**](a-ms-sql-tcpip.md)                                    | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL-UnicodeSortOrder**](a-ms-sql-unicodesortorder.md)              | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL-Vines**](a-ms-sql-vines.md)                                    | 否     | **毫秒-SQL-SQLServer**                                                                     |
 | [**netboot-SCP-BL**](a-netbootscpbl.md)                                  | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**非安全性成員-BL**](a-nonsecuritymemberbl.md)                   | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
-| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                  | 對      | [**返回頁首**](c-top.md)<br/>                                                          |
+| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                  | 是      | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**Obj-Dist 名稱**](a-distinguishedname.md)                              | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
-| [**物件-類別**](a-objectcategory.md)                               | 對      | [**返回頁首**](c-top.md)<br/>                                                          |
-| [**物件類別**](a-objectclass.md)                                     | 對      | [**返回頁首**](c-top.md)<br/>                                                          |
+| [**物件-類別**](a-objectcategory.md)                               | 是      | [**返回頁首**](c-top.md)<br/>                                                          |
+| [**物件類別**](a-objectclass.md)                                     | 是      | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**物件-Guid**](a-objectguid.md)                                       | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**物件版本**](a-objectversion.md)                                 | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**其他知名物件**](a-otherwellknownobjects.md)               | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
@@ -206,7 +206,7 @@ ms.locfileid: "104467161"
 
 
 
-## <a name="windows-server-2003-attributes"></a>Windows Server 2003 屬性
+## <a name="windows-server-2003-attributes"></a>Windows伺服器2003屬性
 
 此類別包含 Windows Server 2003 的下列屬性：
 
@@ -223,7 +223,7 @@ ms.locfileid: "104467161"
 | [**應用程式架構版本**](a-appschemaversion.md)                            | 否     | [**服務-連接點**](c-serviceconnectionpoint.md)<br/>                  |
 | [**橋頭-伺服器-清單-BL**](a-bridgeheadserverlistbl.md)               | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**標準名稱**](a-canonicalname.md)                                   | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
-| [**一般名稱**](a-cn.md)                                                 | 對      | [**連接點**](c-connectionpoint.md)<br/> [**返回頁首**](c-top.md)<br/> |
+| [**一般名稱**](a-cn.md)                                                 | 是      | [**連接點**](c-connectionpoint.md)<br/> [**返回頁首**](c-top.md)<br/> |
 | [**建立時間戳記**](a-createtimestamp.md)                              | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**描述**](a-description.md)                                        | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**顯示名稱**](a-displayname.md)                                       | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
@@ -236,7 +236,7 @@ ms.locfileid: "104467161"
 | [**Frs-電腦-參考-BL**](a-frscomputerreferencebl.md)               | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**FRS-成員參考-BL**](a-frsmemberreferencebl.md)                   | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**FSMO 角色-擁有者**](a-fsmoroleowner.md)                                  | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
-| [**實例類型**](a-instancetype.md)                                     | 對      | [**返回頁首**](c-top.md)<br/>                                                          |
+| [**實例類型**](a-instancetype.md)                                     | 是      | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**為關鍵-系統物件**](a-iscriticalsystemobject.md)               | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**已刪除**](a-isdeleted.md)                                           | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**是-DL 的成員**](a-memberof.md)                                       | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
@@ -267,36 +267,36 @@ ms.locfileid: "104467161"
 | [**ms-chap---------BL**](a-msds-tasksforazrolebl.md)               | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**ms DS-工作--Az-Task-BL**](a-msds-tasksforaztaskbl.md)               | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**Ms-exch-assistant-name-擁有者-BL**](a-ownerbl.md)                                       | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
-| [**MS-CHAP-AppleTalk**](a-ms-sql-appletalk.md)                              | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**MS-SQL-組建**](a-ms-sql-build.md)                                      | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**CharacterSet**](a-ms-sql-characterset.md)                        | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**MS-CHAP-叢集**](a-ms-sql-clustered.md)                              | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**MS-SQL-連絡人**](a-ms-sql-contact.md)                                  | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**GPSHeight**](a-ms-sql-gpsheight.md)                              | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**GPSLatitude**](a-ms-sql-gpslatitude.md)                          | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**GPSLongitude**](a-ms-sql-gpslongitude.md)                        | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**InformationURL**](a-ms-sql-informationurl.md)                    | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**MS-CHAP-關鍵字**](a-ms-sql-keywords.md)                                | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**LastUpdatedDate**](a-ms-sql-lastupdateddate.md)                  | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**MS-CHAP-位置**](a-ms-sql-location.md)                                | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**MS-CHAP-記憶體**](a-ms-sql-memory.md)                                    | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**MS-CHAP-多重通訊協定**](a-ms-sql-multiprotocol.md)                      | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**MS-SQL-名稱**](a-ms-sql-name.md)                                        | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**NamedPipe**](a-ms-sql-namedpipe.md)                              | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**>registeredowner**](a-ms-sql-registeredowner.md)                  | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**ServiceAccount**](a-ms-sql-serviceaccount.md)                    | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**MS-CHAP-SortOrder**](a-ms-sql-sortorder.md)                              | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**MS-CHAP-SPX**](a-ms-sql-spx.md)                                          | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**MS-SQL-狀態**](a-ms-sql-status.md)                                    | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**MS-SQL-TCPIP**](a-ms-sql-tcpip.md)                                      | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**UnicodeSortOrder**](a-ms-sql-unicodesortorder.md)                | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**Vines**](a-ms-sql-vines.md)                                      | 否     | **MS-CHAP-SQLServer**                                                                     |
+| [**MS-SQL-AppleTalk**](a-ms-sql-appletalk.md)                              | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**MS SQL-組建**](a-ms-sql-build.md)                                      | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL-CharacterSet**](a-ms-sql-characterset.md)                        | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**MS-SQL-叢集**](a-ms-sql-clustered.md)                              | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**MS-SQL-Contact**](a-ms-sql-contact.md)                                  | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL-GPSHeight**](a-ms-sql-gpsheight.md)                              | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL-GPSLatitude**](a-ms-sql-gpslatitude.md)                          | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL-GPSLongitude**](a-ms-sql-gpslongitude.md)                        | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL-InformationURL**](a-ms-sql-informationurl.md)                    | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**ms-chap-SQL 關鍵字**](a-ms-sql-keywords.md)                                | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL-LastUpdatedDate**](a-ms-sql-lastupdateddate.md)                  | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL-位置**](a-ms-sql-location.md)                                | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**MS SQL 記憶體**](a-ms-sql-memory.md)                                    | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL-多重通訊協定**](a-ms-sql-multiprotocol.md)                      | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL-名稱**](a-ms-sql-name.md)                                        | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL-NamedPipe**](a-ms-sql-namedpipe.md)                              | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL->registeredowner**](a-ms-sql-registeredowner.md)                  | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL-ServiceAccount**](a-ms-sql-serviceaccount.md)                    | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL-SortOrder**](a-ms-sql-sortorder.md)                              | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL-SPX**](a-ms-sql-spx.md)                                          | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL-狀態**](a-ms-sql-status.md)                                    | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**MS SQL-TCPIP**](a-ms-sql-tcpip.md)                                      | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL-UnicodeSortOrder**](a-ms-sql-unicodesortorder.md)                | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL-Vines**](a-ms-sql-vines.md)                                      | 否     | **毫秒-SQL-SQLServer**                                                                     |
 | [**netboot-SCP-BL**](a-netbootscpbl.md)                                    | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**非安全性成員-BL**](a-nonsecuritymemberbl.md)                     | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
-| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                    | 對      | [**返回頁首**](c-top.md)<br/>                                                          |
+| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                    | 是      | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**Obj-Dist 名稱**](a-distinguishedname.md)                                | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
-| [**物件-類別**](a-objectcategory.md)                                 | 對      | [**返回頁首**](c-top.md)<br/>                                                          |
-| [**物件類別**](a-objectclass.md)                                       | 對      | [**返回頁首**](c-top.md)<br/>                                                          |
+| [**物件-類別**](a-objectcategory.md)                                 | 是      | [**返回頁首**](c-top.md)<br/>                                                          |
+| [**物件類別**](a-objectclass.md)                                       | 是      | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**物件-Guid**](a-objectguid.md)                                         | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**物件版本**](a-objectversion.md)                                   | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**其他知名物件**](a-otherwellknownobjects.md)                 | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
@@ -367,7 +367,7 @@ ms.locfileid: "104467161"
 
 
 
-## <a name="windows-server-2003-r2-attributes"></a>Windows Server 2003 R2 屬性
+## <a name="windows-server-2003-r2-attributes"></a>WindowsServer 2003 R2 屬性
 
 此類別包含 Windows Server 2003 R2 的下列屬性：
 
@@ -384,7 +384,7 @@ ms.locfileid: "104467161"
 | [**應用程式架構版本**](a-appschemaversion.md)                            | 否     | [**服務-連接點**](c-serviceconnectionpoint.md)<br/>                  |
 | [**橋頭-伺服器-清單-BL**](a-bridgeheadserverlistbl.md)               | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**標準名稱**](a-canonicalname.md)                                   | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
-| [**一般名稱**](a-cn.md)                                                 | 對      | [**連接點**](c-connectionpoint.md)<br/> [**返回頁首**](c-top.md)<br/> |
+| [**一般名稱**](a-cn.md)                                                 | 是      | [**連接點**](c-connectionpoint.md)<br/> [**返回頁首**](c-top.md)<br/> |
 | [**建立時間戳記**](a-createtimestamp.md)                              | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**描述**](a-description.md)                                        | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**顯示名稱**](a-displayname.md)                                       | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
@@ -397,7 +397,7 @@ ms.locfileid: "104467161"
 | [**Frs-電腦-參考-BL**](a-frscomputerreferencebl.md)               | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**FRS-成員參考-BL**](a-frsmemberreferencebl.md)                   | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**FSMO 角色-擁有者**](a-fsmoroleowner.md)                                  | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
-| [**實例類型**](a-instancetype.md)                                     | 對      | [**返回頁首**](c-top.md)<br/>                                                          |
+| [**實例類型**](a-instancetype.md)                                     | 是      | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**為關鍵-系統物件**](a-iscriticalsystemobject.md)               | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**已刪除**](a-isdeleted.md)                                           | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**是-DL 的成員**](a-memberof.md)                                       | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
@@ -431,36 +431,36 @@ ms.locfileid: "104467161"
 | [**ms DS-工作--Az-Task-BL**](a-msds-tasksforaztaskbl.md)               | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**Ms-exch-assistant-name-擁有者-BL**](a-ownerbl.md)                                       | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**msSFU-30-Posix-成員**](a-mssfu30posixmemberof.md)                  | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
-| [**MS-CHAP-AppleTalk**](a-ms-sql-appletalk.md)                              | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**MS-SQL-組建**](a-ms-sql-build.md)                                      | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**CharacterSet**](a-ms-sql-characterset.md)                        | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**MS-CHAP-叢集**](a-ms-sql-clustered.md)                              | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**MS-SQL-連絡人**](a-ms-sql-contact.md)                                  | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**GPSHeight**](a-ms-sql-gpsheight.md)                              | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**GPSLatitude**](a-ms-sql-gpslatitude.md)                          | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**GPSLongitude**](a-ms-sql-gpslongitude.md)                        | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**InformationURL**](a-ms-sql-informationurl.md)                    | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**MS-CHAP-關鍵字**](a-ms-sql-keywords.md)                                | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**LastUpdatedDate**](a-ms-sql-lastupdateddate.md)                  | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**MS-CHAP-位置**](a-ms-sql-location.md)                                | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**MS-CHAP-記憶體**](a-ms-sql-memory.md)                                    | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**MS-CHAP-多重通訊協定**](a-ms-sql-multiprotocol.md)                      | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**MS-SQL-名稱**](a-ms-sql-name.md)                                        | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**NamedPipe**](a-ms-sql-namedpipe.md)                              | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**>registeredowner**](a-ms-sql-registeredowner.md)                  | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**ServiceAccount**](a-ms-sql-serviceaccount.md)                    | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**MS-CHAP-SortOrder**](a-ms-sql-sortorder.md)                              | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**MS-CHAP-SPX**](a-ms-sql-spx.md)                                          | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**MS-SQL-狀態**](a-ms-sql-status.md)                                    | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**MS-SQL-TCPIP**](a-ms-sql-tcpip.md)                                      | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**UnicodeSortOrder**](a-ms-sql-unicodesortorder.md)                | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**Vines**](a-ms-sql-vines.md)                                      | 否     | **MS-CHAP-SQLServer**                                                                     |
+| [**MS-SQL-AppleTalk**](a-ms-sql-appletalk.md)                              | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**MS SQL-組建**](a-ms-sql-build.md)                                      | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL-CharacterSet**](a-ms-sql-characterset.md)                        | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**MS-SQL-叢集**](a-ms-sql-clustered.md)                              | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**MS-SQL-Contact**](a-ms-sql-contact.md)                                  | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL-GPSHeight**](a-ms-sql-gpsheight.md)                              | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL-GPSLatitude**](a-ms-sql-gpslatitude.md)                          | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL-GPSLongitude**](a-ms-sql-gpslongitude.md)                        | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL-InformationURL**](a-ms-sql-informationurl.md)                    | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**ms-chap-SQL 關鍵字**](a-ms-sql-keywords.md)                                | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL-LastUpdatedDate**](a-ms-sql-lastupdateddate.md)                  | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL-位置**](a-ms-sql-location.md)                                | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**MS SQL 記憶體**](a-ms-sql-memory.md)                                    | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL-多重通訊協定**](a-ms-sql-multiprotocol.md)                      | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL-名稱**](a-ms-sql-name.md)                                        | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL-NamedPipe**](a-ms-sql-namedpipe.md)                              | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL->registeredowner**](a-ms-sql-registeredowner.md)                  | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL-ServiceAccount**](a-ms-sql-serviceaccount.md)                    | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL-SortOrder**](a-ms-sql-sortorder.md)                              | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL-SPX**](a-ms-sql-spx.md)                                          | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL-狀態**](a-ms-sql-status.md)                                    | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**MS SQL-TCPIP**](a-ms-sql-tcpip.md)                                      | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL-UnicodeSortOrder**](a-ms-sql-unicodesortorder.md)                | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL-Vines**](a-ms-sql-vines.md)                                      | 否     | **毫秒-SQL-SQLServer**                                                                     |
 | [**netboot-SCP-BL**](a-netbootscpbl.md)                                    | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**非安全性成員-BL**](a-nonsecuritymemberbl.md)                     | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
-| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                    | 對      | [**返回頁首**](c-top.md)<br/>                                                          |
+| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                    | 是      | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**Obj-Dist 名稱**](a-distinguishedname.md)                                | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
-| [**物件-類別**](a-objectcategory.md)                                 | 對      | [**返回頁首**](c-top.md)<br/>                                                          |
-| [**物件類別**](a-objectclass.md)                                       | 對      | [**返回頁首**](c-top.md)<br/>                                                          |
+| [**物件-類別**](a-objectcategory.md)                                 | 是      | [**返回頁首**](c-top.md)<br/>                                                          |
+| [**物件類別**](a-objectclass.md)                                       | 是      | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**物件-Guid**](a-objectguid.md)                                         | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**物件版本**](a-objectversion.md)                                   | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**其他知名物件**](a-otherwellknownobjects.md)                 | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
@@ -531,7 +531,7 @@ ms.locfileid: "104467161"
 
 
 
-## <a name="windows-server-2008-attributes"></a>Windows Server 2008 屬性
+## <a name="windows-server-2008-attributes"></a>Windows伺服器2008屬性
 
 此類別包含 Windows Server 2008 的下列屬性：
 
@@ -548,7 +548,7 @@ ms.locfileid: "104467161"
 | [**應用程式架構版本**](a-appschemaversion.md)                               | 否     | [**服務-連接點**](c-serviceconnectionpoint.md)<br/>                  |
 | [**橋頭-伺服器-清單-BL**](a-bridgeheadserverlistbl.md)                  | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**標準名稱**](a-canonicalname.md)                                      | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
-| [**一般名稱**](a-cn.md)                                                    | 對      | [**連接點**](c-connectionpoint.md)<br/> [**返回頁首**](c-top.md)<br/> |
+| [**一般名稱**](a-cn.md)                                                    | 是      | [**連接點**](c-connectionpoint.md)<br/> [**返回頁首**](c-top.md)<br/> |
 | [**建立時間戳記**](a-createtimestamp.md)                                 | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**描述**](a-description.md)                                           | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**顯示名稱**](a-displayname.md)                                          | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
@@ -561,7 +561,7 @@ ms.locfileid: "104467161"
 | [**Frs-電腦-參考-BL**](a-frscomputerreferencebl.md)                  | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**FRS-成員參考-BL**](a-frsmemberreferencebl.md)                      | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**FSMO 角色-擁有者**](a-fsmoroleowner.md)                                     | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
-| [**實例類型**](a-instancetype.md)                                        | 對      | [**返回頁首**](c-top.md)<br/>                                                          |
+| [**實例類型**](a-instancetype.md)                                        | 是      | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**為關鍵-系統物件**](a-iscriticalsystemobject.md)                  | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**已刪除**](a-isdeleted.md)                                              | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**是-DL 的成員**](a-memberof.md)                                          | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
@@ -606,36 +606,36 @@ ms.locfileid: "104467161"
 | [**ms DS-工作--Az-Task-BL**](a-msds-tasksforaztaskbl.md)                  | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**Ms-exch-assistant-name-擁有者-BL**](a-ownerbl.md)                                          | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**msSFU-30-Posix-成員**](a-mssfu30posixmemberof.md)                     | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
-| [**MS-CHAP-AppleTalk**](a-ms-sql-appletalk.md)                                 | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**MS-SQL-組建**](a-ms-sql-build.md)                                         | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**CharacterSet**](a-ms-sql-characterset.md)                           | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**MS-CHAP-叢集**](a-ms-sql-clustered.md)                                 | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**MS-SQL-連絡人**](a-ms-sql-contact.md)                                     | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**GPSHeight**](a-ms-sql-gpsheight.md)                                 | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**GPSLatitude**](a-ms-sql-gpslatitude.md)                             | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**GPSLongitude**](a-ms-sql-gpslongitude.md)                           | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**InformationURL**](a-ms-sql-informationurl.md)                       | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**MS-CHAP-關鍵字**](a-ms-sql-keywords.md)                                   | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**LastUpdatedDate**](a-ms-sql-lastupdateddate.md)                     | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**MS-CHAP-位置**](a-ms-sql-location.md)                                   | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**MS-CHAP-記憶體**](a-ms-sql-memory.md)                                       | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**MS-CHAP-多重通訊協定**](a-ms-sql-multiprotocol.md)                         | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**MS-SQL-名稱**](a-ms-sql-name.md)                                           | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**NamedPipe**](a-ms-sql-namedpipe.md)                                 | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**>registeredowner**](a-ms-sql-registeredowner.md)                     | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**ServiceAccount**](a-ms-sql-serviceaccount.md)                       | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**MS-CHAP-SortOrder**](a-ms-sql-sortorder.md)                                 | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**MS-CHAP-SPX**](a-ms-sql-spx.md)                                             | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**MS-SQL-狀態**](a-ms-sql-status.md)                                       | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**MS-SQL-TCPIP**](a-ms-sql-tcpip.md)                                         | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**UnicodeSortOrder**](a-ms-sql-unicodesortorder.md)                   | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**Vines**](a-ms-sql-vines.md)                                         | 否     | **MS-CHAP-SQLServer**                                                                     |
+| [**MS-SQL-AppleTalk**](a-ms-sql-appletalk.md)                                 | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**MS SQL-組建**](a-ms-sql-build.md)                                         | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL-CharacterSet**](a-ms-sql-characterset.md)                           | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**MS-SQL-叢集**](a-ms-sql-clustered.md)                                 | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**MS-SQL-Contact**](a-ms-sql-contact.md)                                     | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL-GPSHeight**](a-ms-sql-gpsheight.md)                                 | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL-GPSLatitude**](a-ms-sql-gpslatitude.md)                             | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL-GPSLongitude**](a-ms-sql-gpslongitude.md)                           | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL-InformationURL**](a-ms-sql-informationurl.md)                       | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**ms-chap-SQL 關鍵字**](a-ms-sql-keywords.md)                                   | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL-LastUpdatedDate**](a-ms-sql-lastupdateddate.md)                     | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL-位置**](a-ms-sql-location.md)                                   | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**MS SQL 記憶體**](a-ms-sql-memory.md)                                       | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL-多重通訊協定**](a-ms-sql-multiprotocol.md)                         | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL-名稱**](a-ms-sql-name.md)                                           | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL-NamedPipe**](a-ms-sql-namedpipe.md)                                 | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL->registeredowner**](a-ms-sql-registeredowner.md)                     | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL-ServiceAccount**](a-ms-sql-serviceaccount.md)                       | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL-SortOrder**](a-ms-sql-sortorder.md)                                 | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL-SPX**](a-ms-sql-spx.md)                                             | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL-狀態**](a-ms-sql-status.md)                                       | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**MS SQL-TCPIP**](a-ms-sql-tcpip.md)                                         | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL-UnicodeSortOrder**](a-ms-sql-unicodesortorder.md)                   | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL-Vines**](a-ms-sql-vines.md)                                         | 否     | **毫秒-SQL-SQLServer**                                                                     |
 | [**netboot-SCP-BL**](a-netbootscpbl.md)                                       | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**非安全性成員-BL**](a-nonsecuritymemberbl.md)                        | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
-| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                       | 對      | [**返回頁首**](c-top.md)<br/>                                                          |
+| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                       | 是      | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**Obj-Dist 名稱**](a-distinguishedname.md)                                   | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
-| [**物件-類別**](a-objectcategory.md)                                    | 對      | [**返回頁首**](c-top.md)<br/>                                                          |
-| [**物件類別**](a-objectclass.md)                                          | 對      | [**返回頁首**](c-top.md)<br/>                                                          |
+| [**物件-類別**](a-objectcategory.md)                                    | 是      | [**返回頁首**](c-top.md)<br/>                                                          |
+| [**物件類別**](a-objectclass.md)                                          | 是      | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**物件-Guid**](a-objectguid.md)                                            | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**物件版本**](a-objectversion.md)                                      | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**其他知名物件**](a-otherwellknownobjects.md)                    | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
@@ -706,7 +706,7 @@ ms.locfileid: "104467161"
 
 
 
-## <a name="windows-server-2008-r2-attributes"></a>Windows Server 2008 R2 屬性
+## <a name="windows-server-2008-r2-attributes"></a>WindowsServer 2008 R2 屬性
 
 此類別包含 Windows Server 2008 R2 的下列屬性：
 
@@ -723,7 +723,7 @@ ms.locfileid: "104467161"
 | [**應用程式架構版本**](a-appschemaversion.md)                                 | 否     | [**服務-連接點**](c-serviceconnectionpoint.md)<br/>                  |
 | [**橋頭-伺服器-清單-BL**](a-bridgeheadserverlistbl.md)                    | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**標準名稱**](a-canonicalname.md)                                        | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
-| [**一般名稱**](a-cn.md)                                                      | 對      | [**連接點**](c-connectionpoint.md)<br/> [**返回頁首**](c-top.md)<br/> |
+| [**一般名稱**](a-cn.md)                                                      | 是      | [**連接點**](c-connectionpoint.md)<br/> [**返回頁首**](c-top.md)<br/> |
 | [**建立時間戳記**](a-createtimestamp.md)                                   | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**描述**](a-description.md)                                             | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**顯示名稱**](a-displayname.md)                                            | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
@@ -736,7 +736,7 @@ ms.locfileid: "104467161"
 | [**Frs-電腦-參考-BL**](a-frscomputerreferencebl.md)                    | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**FRS-成員參考-BL**](a-frsmemberreferencebl.md)                        | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**FSMO 角色-擁有者**](a-fsmoroleowner.md)                                       | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
-| [**實例類型**](a-instancetype.md)                                          | 對      | [**返回頁首**](c-top.md)<br/>                                                          |
+| [**實例類型**](a-instancetype.md)                                          | 是      | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**為關鍵-系統物件**](a-iscriticalsystemobject.md)                    | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**已刪除**](a-isdeleted.md)                                                | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**是-DL 的成員**](a-memberof.md)                                            | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
@@ -788,36 +788,36 @@ ms.locfileid: "104467161"
 | [**ms DS-工作--Az-Task-BL**](a-msds-tasksforaztaskbl.md)                    | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**Ms-exch-assistant-name-擁有者-BL**](a-ownerbl.md)                                            | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**msSFU-30-Posix-成員**](a-mssfu30posixmemberof.md)                       | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
-| [**MS-CHAP-AppleTalk**](a-ms-sql-appletalk.md)                                   | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**MS-SQL-組建**](a-ms-sql-build.md)                                           | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**CharacterSet**](a-ms-sql-characterset.md)                             | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**MS-CHAP-叢集**](a-ms-sql-clustered.md)                                   | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**MS-SQL-連絡人**](a-ms-sql-contact.md)                                       | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**GPSHeight**](a-ms-sql-gpsheight.md)                                   | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**GPSLatitude**](a-ms-sql-gpslatitude.md)                               | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**GPSLongitude**](a-ms-sql-gpslongitude.md)                             | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**InformationURL**](a-ms-sql-informationurl.md)                         | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**MS-CHAP-關鍵字**](a-ms-sql-keywords.md)                                     | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**LastUpdatedDate**](a-ms-sql-lastupdateddate.md)                       | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**MS-CHAP-位置**](a-ms-sql-location.md)                                     | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**MS-CHAP-記憶體**](a-ms-sql-memory.md)                                         | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**MS-CHAP-多重通訊協定**](a-ms-sql-multiprotocol.md)                           | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**MS-SQL-名稱**](a-ms-sql-name.md)                                             | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**NamedPipe**](a-ms-sql-namedpipe.md)                                   | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**>registeredowner**](a-ms-sql-registeredowner.md)                       | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**ServiceAccount**](a-ms-sql-serviceaccount.md)                         | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**MS-CHAP-SortOrder**](a-ms-sql-sortorder.md)                                   | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**MS-CHAP-SPX**](a-ms-sql-spx.md)                                               | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**MS-SQL-狀態**](a-ms-sql-status.md)                                         | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**MS-SQL-TCPIP**](a-ms-sql-tcpip.md)                                           | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**UnicodeSortOrder**](a-ms-sql-unicodesortorder.md)                     | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**Vines**](a-ms-sql-vines.md)                                           | 否     | **MS-CHAP-SQLServer**                                                                     |
+| [**MS-SQL-AppleTalk**](a-ms-sql-appletalk.md)                                   | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**MS SQL-組建**](a-ms-sql-build.md)                                           | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL-CharacterSet**](a-ms-sql-characterset.md)                             | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**MS-SQL-叢集**](a-ms-sql-clustered.md)                                   | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**MS-SQL-Contact**](a-ms-sql-contact.md)                                       | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL-GPSHeight**](a-ms-sql-gpsheight.md)                                   | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL-GPSLatitude**](a-ms-sql-gpslatitude.md)                               | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL-GPSLongitude**](a-ms-sql-gpslongitude.md)                             | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL-InformationURL**](a-ms-sql-informationurl.md)                         | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**ms-chap-SQL 關鍵字**](a-ms-sql-keywords.md)                                     | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL-LastUpdatedDate**](a-ms-sql-lastupdateddate.md)                       | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL-位置**](a-ms-sql-location.md)                                     | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**MS SQL 記憶體**](a-ms-sql-memory.md)                                         | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL-多重通訊協定**](a-ms-sql-multiprotocol.md)                           | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL-名稱**](a-ms-sql-name.md)                                             | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL-NamedPipe**](a-ms-sql-namedpipe.md)                                   | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL->registeredowner**](a-ms-sql-registeredowner.md)                       | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL-ServiceAccount**](a-ms-sql-serviceaccount.md)                         | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL-SortOrder**](a-ms-sql-sortorder.md)                                   | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL-SPX**](a-ms-sql-spx.md)                                               | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL-狀態**](a-ms-sql-status.md)                                         | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**MS SQL-TCPIP**](a-ms-sql-tcpip.md)                                           | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL-UnicodeSortOrder**](a-ms-sql-unicodesortorder.md)                     | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL-Vines**](a-ms-sql-vines.md)                                           | 否     | **毫秒-SQL-SQLServer**                                                                     |
 | [**netboot-SCP-BL**](a-netbootscpbl.md)                                         | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**非安全性成員-BL**](a-nonsecuritymemberbl.md)                          | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
-| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                         | 對      | [**返回頁首**](c-top.md)<br/>                                                          |
+| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                         | 是      | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**Obj-Dist 名稱**](a-distinguishedname.md)                                     | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
-| [**物件-類別**](a-objectcategory.md)                                      | 對      | [**返回頁首**](c-top.md)<br/>                                                          |
-| [**物件類別**](a-objectclass.md)                                            | 對      | [**返回頁首**](c-top.md)<br/>                                                          |
+| [**物件-類別**](a-objectcategory.md)                                      | 是      | [**返回頁首**](c-top.md)<br/>                                                          |
+| [**物件類別**](a-objectclass.md)                                            | 是      | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**物件-Guid**](a-objectguid.md)                                              | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**物件版本**](a-objectversion.md)                                        | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**其他知名物件**](a-otherwellknownobjects.md)                      | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
@@ -888,9 +888,9 @@ ms.locfileid: "104467161"
 
 
 
-## <a name="windows-server-2012-attributes"></a>Windows Server 2012 屬性
+## <a name="windows-server-2012-attributes"></a>Windows Server 2012屬性
 
-此類別包含 Windows Server 2012 的下列屬性：
+這個類別包含 Windows Server 2012 的下列屬性：
 
 
 
@@ -905,7 +905,7 @@ ms.locfileid: "104467161"
 | [**應用程式架構版本**](a-appschemaversion.md)                                             | 否     | [**服務-連接點**](c-serviceconnectionpoint.md)<br/>                  |
 | [**橋頭-伺服器-清單-BL**](a-bridgeheadserverlistbl.md)                                | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**標準名稱**](a-canonicalname.md)                                                    | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
-| [**一般名稱**](a-cn.md)                                                                  | 對      | [**連接點**](c-connectionpoint.md)<br/> [**返回頁首**](c-top.md)<br/> |
+| [**一般名稱**](a-cn.md)                                                                  | 是      | [**連接點**](c-connectionpoint.md)<br/> [**返回頁首**](c-top.md)<br/> |
 | [**建立時間戳記**](a-createtimestamp.md)                                               | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**描述**](a-description.md)                                                         | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**顯示名稱**](a-displayname.md)                                                        | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
@@ -918,7 +918,7 @@ ms.locfileid: "104467161"
 | [**Frs-電腦-參考-BL**](a-frscomputerreferencebl.md)                                | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**FRS-成員參考-BL**](a-frsmemberreferencebl.md)                                    | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**FSMO 角色-擁有者**](a-fsmoroleowner.md)                                                   | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
-| [**實例類型**](a-instancetype.md)                                                      | 對      | [**返回頁首**](c-top.md)<br/>                                                          |
+| [**實例類型**](a-instancetype.md)                                                      | 是      | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**為關鍵-系統物件**](a-iscriticalsystemobject.md)                                | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**已刪除**](a-isdeleted.md)                                                            | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**是-DL 的成員**](a-memberof.md)                                                        | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
@@ -971,41 +971,41 @@ ms.locfileid: "104467161"
 | [**ms DS-設定**](a-msds-settings.md)                                                    | 否     | [**連接點**](c-connectionpoint.md)<br/>                                 |
 | [**ms-chap---------BL**](a-msds-tasksforazrolebl.md)                                | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**ms DS-工作--Az-Task-BL**](a-msds-tasksforaztaskbl.md)                                | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
-| [**ms DS-TDO-出口-BL**](a-msds-tdoegressbl.md)                                            | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
+| [**ms-chap-Egress-BL**](a-msds-tdoegressbl.md)                                            | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**ms-DS-TDO-輸入-BL**](a-msds-tdoingressbl.md)                                          | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**ms-chap-------Reference-BL**](a-msds-valuetypereferencebl.md)                         | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**Ms-exch-assistant-name-擁有者-BL**](a-ownerbl.md)                                                        | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**msSFU-30-Posix-成員**](a-mssfu30posixmemberof.md)                                   | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
-| [**MS-CHAP-AppleTalk**](a-ms-sql-appletalk.md)                                               | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**MS-SQL-組建**](a-ms-sql-build.md)                                                       | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**CharacterSet**](a-ms-sql-characterset.md)                                         | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**MS-CHAP-叢集**](a-ms-sql-clustered.md)                                               | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**MS-SQL-連絡人**](a-ms-sql-contact.md)                                                   | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**GPSHeight**](a-ms-sql-gpsheight.md)                                               | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**GPSLatitude**](a-ms-sql-gpslatitude.md)                                           | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**GPSLongitude**](a-ms-sql-gpslongitude.md)                                         | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**InformationURL**](a-ms-sql-informationurl.md)                                     | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**MS-CHAP-關鍵字**](a-ms-sql-keywords.md)                                                 | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**LastUpdatedDate**](a-ms-sql-lastupdateddate.md)                                   | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**MS-CHAP-位置**](a-ms-sql-location.md)                                                 | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**MS-CHAP-記憶體**](a-ms-sql-memory.md)                                                     | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**MS-CHAP-多重通訊協定**](a-ms-sql-multiprotocol.md)                                       | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**MS-SQL-名稱**](a-ms-sql-name.md)                                                         | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**NamedPipe**](a-ms-sql-namedpipe.md)                                               | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**>registeredowner**](a-ms-sql-registeredowner.md)                                   | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**ServiceAccount**](a-ms-sql-serviceaccount.md)                                     | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**MS-CHAP-SortOrder**](a-ms-sql-sortorder.md)                                               | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**MS-CHAP-SPX**](a-ms-sql-spx.md)                                                           | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**MS-SQL-狀態**](a-ms-sql-status.md)                                                     | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**MS-SQL-TCPIP**](a-ms-sql-tcpip.md)                                                       | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**UnicodeSortOrder**](a-ms-sql-unicodesortorder.md)                                 | 否     | **MS-CHAP-SQLServer**                                                                     |
-| [**Vines**](a-ms-sql-vines.md)                                                       | 否     | **MS-CHAP-SQLServer**                                                                     |
+| [**MS-SQL-AppleTalk**](a-ms-sql-appletalk.md)                                               | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**MS SQL-組建**](a-ms-sql-build.md)                                                       | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL-CharacterSet**](a-ms-sql-characterset.md)                                         | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**MS-SQL-叢集**](a-ms-sql-clustered.md)                                               | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**MS-SQL-Contact**](a-ms-sql-contact.md)                                                   | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL-GPSHeight**](a-ms-sql-gpsheight.md)                                               | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL-GPSLatitude**](a-ms-sql-gpslatitude.md)                                           | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL-GPSLongitude**](a-ms-sql-gpslongitude.md)                                         | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL-InformationURL**](a-ms-sql-informationurl.md)                                     | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**ms-chap-SQL 關鍵字**](a-ms-sql-keywords.md)                                                 | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL-LastUpdatedDate**](a-ms-sql-lastupdateddate.md)                                   | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL-位置**](a-ms-sql-location.md)                                                 | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**MS SQL 記憶體**](a-ms-sql-memory.md)                                                     | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL-多重通訊協定**](a-ms-sql-multiprotocol.md)                                       | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL-名稱**](a-ms-sql-name.md)                                                         | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL-NamedPipe**](a-ms-sql-namedpipe.md)                                               | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL->registeredowner**](a-ms-sql-registeredowner.md)                                   | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL-ServiceAccount**](a-ms-sql-serviceaccount.md)                                     | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL-SortOrder**](a-ms-sql-sortorder.md)                                               | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL-SPX**](a-ms-sql-spx.md)                                                           | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL-狀態**](a-ms-sql-status.md)                                                     | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**MS SQL-TCPIP**](a-ms-sql-tcpip.md)                                                       | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL-UnicodeSortOrder**](a-ms-sql-unicodesortorder.md)                                 | 否     | **毫秒-SQL-SQLServer**                                                                     |
+| [**毫秒-SQL-Vines**](a-ms-sql-vines.md)                                                       | 否     | **毫秒-SQL-SQLServer**                                                                     |
 | [**netboot-SCP-BL**](a-netbootscpbl.md)                                                     | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**非安全性成員-BL**](a-nonsecuritymemberbl.md)                                      | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
-| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                                     | 對      | [**返回頁首**](c-top.md)<br/>                                                          |
+| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                                     | 是      | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**Obj-Dist 名稱**](a-distinguishedname.md)                                                 | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
-| [**物件-類別**](a-objectcategory.md)                                                  | 對      | [**返回頁首**](c-top.md)<br/>                                                          |
-| [**物件類別**](a-objectclass.md)                                                        | 對      | [**返回頁首**](c-top.md)<br/>                                                          |
+| [**物件-類別**](a-objectcategory.md)                                                  | 是      | [**返回頁首**](c-top.md)<br/>                                                          |
+| [**物件類別**](a-objectclass.md)                                                        | 是      | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**物件-Guid**](a-objectguid.md)                                                          | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**物件版本**](a-objectversion.md)                                                    | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**其他知名物件**](a-otherwellknownobjects.md)                                  | 否     | [**返回頁首**](c-top.md)<br/>                                                          |

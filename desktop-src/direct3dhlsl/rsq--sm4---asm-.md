@@ -4,12 +4,12 @@ description: 元件的交互平方根。
 ms.assetid: CDA3C2DF-2793-4CE3-87CE-4E0AA945A1BB
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a1528e9f187ff7d4fb6074d42a1c574686f3b22f
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 6ddf3a33abb701c0e33c9efeef9318b34fc833a952fda03835f62c5a0b0c3923
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107998165"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119853438"
 ---
 # <a name="rsq-sm4---asm"></a>rsq (sm4-asm) 
 

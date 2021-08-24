@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Win32_PrinterDriver 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b7200f6a9cfa9e137b15cee23300de87226e7da6
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: ea8fadab44cb5460726e033b762b58f910c83ba0000ba0c5e0a3cad2a2424097
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110725"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119759438"
 ---
 # <a name="win32_printerdriver-methods"></a>Win32 \_ PrinterDriver 方法
 

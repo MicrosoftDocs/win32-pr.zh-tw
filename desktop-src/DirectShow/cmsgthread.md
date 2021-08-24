@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 307b24e1563fe0545ee6f9405f9fb53e1b6d61b7
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 021683808900a7265f4708dae0bb29ff6d07f6619430ed5687eb77d5e2332a3b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103688452"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119813698"
 ---
 # <a name="cmsgthread-class"></a>CMsgThread 類別
 
@@ -29,13 +29,13 @@ ms.locfileid: "103688452"
 
 
 
-| 受保護的資料成員                                    | Description                                                                                                                           |
+| 受保護的資料成員                                    | 描述                                                                                                                           |
 |-----------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
 | m \_ hSem                                                   | 指出用於信號的控制碼。                                                                                                |
 | m \_ 鎖定                                                   | 保護對清單的存取。                                                                                                             |
 | m \_ lWaiting                                               | 指出等候可用的執行緒。                                                                                                  |
 | m \_ ThreadQueue                                            | 覆寫 [**CMsgThread：： GetThreadMsg**](cmsgthread-getthreadmsg.md) 成員函式和封鎖非此佇列的專案。 |
-| 成員函數                                          | Description                                                                                                                           |
+| 成員函數                                          | 描述                                                                                                                           |
 | [**CMsgThread**](cmsgthread-cmsgthread.md)               | 結構 **CMsgThread** 物件。                                                                                                   |
 | [**CreateThread**](cmsgthread-createthread.md)           | 建立執行緒。                                                                                                                     |
 | [**GetThreadHandle**](cmsgthread-getthreadhandle.md)     | 抓取執行緒控制碼。                                                                                                          |
@@ -46,7 +46,7 @@ ms.locfileid: "103688452"
 | [**SetThreadPriority**](cmsgthread-setthreadpriority.md) | 將執行緒的優先權設定為新的值。                                                                                       |
 | [**SuspendThread**](cmsgthread-suspendthread.md)         | 暫停執行中線程的操作。                                                                                           |
 | [**WaitForThreadExit**](cmsgthread-waitforthreadexit.md) | 封鎖直到執行緒在呼叫 [**CMsgThread：： SuspendThread**](cmsgthread-suspendthread.md) 成員函式之後結束為止。 |
-| 可覆寫的成員函式                              | Description                                                                                                                           |
+| 可覆寫的成員函式                              | 描述                                                                                                                           |
 | [**GetThreadMsg**](cmsgthread-getthreadmsg.md)           | 抓取包含要求的佇列 [**CMsg**](cmsg.md) 物件。                                                                  |
 | [**OnThreadInit**](cmsgthread-onthreadinit.md)           | 提供執行緒的初始化。                                                                                                  |
 | [**ThreadMessageProc**](cmsgthread-threadmessageproc.md) | 處理要求。 這是單純的虛擬成員函式。                                                                           |

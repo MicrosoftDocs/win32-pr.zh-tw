@@ -4,12 +4,12 @@ ms.assetid: 7faf7d55-e30f-4be2-917b-e057265b81b2
 title: 通訊資源
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6f58d3fe5fadc8a5ca83c9252ef426b3296e73f0
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 88f9442594fc79d49c0d12c21b8a0f9614e5ceacc65867220b139b820e5c291a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103688863"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119750168"
 ---
 # <a name="communications-resources"></a>通訊資源
 

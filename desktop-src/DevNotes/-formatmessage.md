@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Msmdun80.dll
 - Sqlunirl.dll
-ms.openlocfilehash: 27cbcfb0d69d0b4dec72834bfc8f69a9f97048ae
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b9faa30fa69268ce3c729ce6f738e9ee0fea9831773bb736559d201bf8d09ccc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106998821"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119833428"
 ---
 # <a name="_formatmessage-function"></a>\_FormatMessage 函式
 

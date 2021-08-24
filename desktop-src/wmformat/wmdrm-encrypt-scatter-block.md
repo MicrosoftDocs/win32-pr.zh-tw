@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8911ba1822b146de4a99ff1fe144afcfd8e212e8
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 258cb7e0d8d2cac8da40197aaa45028a56af0ff3a313d65c1a98c50d45b8d3b0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106982280"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119658158"
 ---
 # <a name="wmdrm_encrypt_scatter_block-structure"></a>WMDRM \_ 加密 \_ 散佈 \_ 區塊結構
 

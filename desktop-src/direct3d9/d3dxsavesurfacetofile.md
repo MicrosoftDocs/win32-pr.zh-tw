@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: cd19e0a8f7b9557b6bcbe6c71afcdca7c9037b70
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 5f28f4958a031a5f5582d26eac6e7c77df241bf5a87316c60970ee38cc56bb35
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106989194"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119749948"
 ---
 # <a name="d3dxsavesurfacetofile-function"></a>D3DXSaveSurfaceToFile 函式
 

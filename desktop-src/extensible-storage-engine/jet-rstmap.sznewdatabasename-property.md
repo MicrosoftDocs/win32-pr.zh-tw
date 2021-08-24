@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 245125d8139df1e1ec2cc78e0be05d99ee98774d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 84a4e51129458479be28d9d1f04740bf211259945ca80a5c8648320b9c71cc96
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191526"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119833508"
 ---
 # <a name="jet_rstmapsznewdatabasename-property"></a>JET_RSTMAP szNewDatabaseName 屬性
 

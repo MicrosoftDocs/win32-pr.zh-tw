@@ -18,12 +18,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: a510c4195c538ab9735e7544acec2c88beeaa1de
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 443d7b50ae8fe727a95464ec4e7fa589d7a08db770ce4c5090f37e5c988bfa4b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103853164"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119682608"
 ---
 # <a name="cim_vlanendpointsettingdata-class"></a>CIM \_ VLANEndpointSettingData 類別
 

@@ -12,12 +12,12 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: d78a23ba1a456f1ad45745fcc25580c27de148c7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1fff0738b8497bd52bee02a04402c77e959e2689c66e47519be20c95a58d56a9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106985487"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119684378"
 ---
 # <a name="networkfilter-wlanpolicy-element"></a>networkFilter (WLANPolicy) 元素
 
@@ -88,14 +88,14 @@ NetworkFilter (WLANPolicy) 元素會定義電腦允許和拒絕的網路清單�
 
 
 
-| 元素                                                                    | 類型                                                                     | Description                                                                                    |
+| 元素                                                                    | 類型                                                                     | 描述                                                                                    |
 |----------------------------------------------------------------------------|--------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
 | [**允許清單**](wlan-policyschema-allowlist-networkfilter-element.md)     |                                                                          | 必須允許任何電腦連接的無線區域網路網路清單。 <br/> |
 | [**封鎖清單**](wlan-policyschema-blocklist-networkfilter-element.md)     |                                                                          | 電腦不能連線的無線區域網路網路清單。<br/>              |
 | [**denyAllESS**](wlan-policyschema-denyalless-networkfilter-element.md)   | boolean                                                                  | 指定是否封鎖對所有基礎結構網路的存取。 <br/>                     |
 | [**denyAllIBSS**](wlan-policyschema-denyallibss-networkfilter-element.md) | boolean                                                                  | 指定是否封鎖對所有特定網路的存取。 <br/>                             |
-| [**network**](wlan-policyschema-network-allowlist-element.md)             | [**networkItemType**](wlan-policyschema-networkitemtype-complextype.md) | 允許的網路。 <br/>                                                                |
-| [**network**](wlan-policyschema-network-blocklist-element.md)             | [**networkItemType**](wlan-policyschema-networkitemtype-complextype.md) | 封鎖的網路。 <br/>                                                                 |
+| [**網路**](wlan-policyschema-network-allowlist-element.md)             | [**networkItemType**](wlan-policyschema-networkitemtype-complextype.md) | 允許的網路。 <br/>                                                                |
+| [**網路**](wlan-policyschema-network-blocklist-element.md)             | [**networkItemType**](wlan-policyschema-networkitemtype-complextype.md) | 封鎖的網路。 <br/>                                                                 |
 
 
 
@@ -105,8 +105,8 @@ NetworkFilter (WLANPolicy) 元素會定義電腦允許和拒絕的網路清單�
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 
