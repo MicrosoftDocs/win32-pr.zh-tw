@@ -1,9 +1,9 @@
 ---
 title: 'MM_MIM_DATA 訊息 (Mmsystem .h) '
-description: '\_ \_ 當 midi 輸入裝置收到完整的 midi 訊息時，會將 MM MIM 資料訊息傳送至視窗。'
+description: '\_ \_ 當 midi 輸入裝置收到完整的 midi 訊息時，會將 MM MIM 的資料訊息傳送至視窗。'
 ms.assetid: 9c580e48-78f3-4914-bdea-393823fb8482
 keywords:
-- MM_MIM_DATA message Windows 多媒體
+- MM_MIM_DATA 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d2a79a5a4ab6b0422705fe737ba3da4a6fd4f923
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: 4309149c8b69fd4396de3a4e67ab18c49008dd7051ed52d4fe992867d1262fe4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113119693"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119807378"
 ---
 # <a name="mm_mim_data-message"></a>MM \_ MIM \_ 資料訊息
 
-當 MIDI 輸入裝置收到完整的 MIDI 訊息時，會將 **MM \_ MIM \_ 資料** 訊息傳送至視窗。
+當 midi 輸入裝置收到完整的 midi 訊息時，會將 **MM \_ MIM 的 \_ 資料** 訊息傳送至視窗。
 
 
 ```C++
@@ -85,7 +85,7 @@ lParam = (LPARAM) (DWORD) lMidiMessage
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                                |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                      |
-| 標頭<br/>                   | <dl> <dt>Mmsystem (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Mmsystem (包含 Windows .h) </dt> </dl> |
 
 
 

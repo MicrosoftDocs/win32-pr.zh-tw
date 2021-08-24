@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 01682881f142e6a764ab291822545728e8573293
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: b3bc5c21a5a47932f78260589b2a37db51e4ec942608cc4d28417c860cdc8a4f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104509546"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119805318"
 ---
 # <a name="context-menu-attribute"></a>Context-Menu 屬性
 

@@ -4,12 +4,12 @@ ms.assetid: e72b5614-454c-481f-bc31-897d2dea8042
 title: 'isIndexed 元素 (搜尋連接器架構) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f658f6b932f6241b7af84e763d564ca0a8f1b5f0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2afcd1a95ec14b3bbea80374d8925a88231feb0110a421c2c850a297672d0c1b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112380"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119711048"
 ---
 # <a name="isindexed-element-search-connector-schema"></a>isIndexed 元素 (搜尋連接器架構) 
 

@@ -4,12 +4,12 @@ ms.assetid: d6396246-ddc4-4e24-9371-35ddbef59b8a
 title: 媒體基礎管線
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f307049d7f88ca6b50479bdb261c75ba20f9b41e
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: dfe5b7756abd55988a9785046f6ad83ee1e8a5ff155da1de84d26998a56bb3c0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106992635"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119724038"
 ---
 # <a name="media-foundation-pipeline"></a>媒體基礎管線
 

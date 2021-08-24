@@ -3,7 +3,7 @@ title: 'DRV_LOAD 訊息 (Mmsystem .h) '
 description: 通知驅動程式已載入它。 驅動程式應該確保任何需要的硬體和支援驅動程式都存在。
 ms.assetid: f3642d91-cea8-499d-8d2e-bf01a59a7d72
 keywords:
-- DRV_LOAD message Windows 多媒體
+- DRV_LOAD 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ca7dda950eaa84f924f4845d99d5740e37d6b354
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d74b8d0663e96f0dc700739c7b8b5f9304d478ed02bf9493f24d03a506c14a61
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103935073"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119678708"
 ---
 # <a name="drv_load-message"></a>WINSPOOL.DRV \_ 載入訊息
 
@@ -45,7 +45,7 @@ ms.locfileid: "103935073"
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                                |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                      |
-| 標頭<br/>                   | <dl> <dt>Mmsystem (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Mmsystem (包含 Windows .h) </dt> </dl> |
 
 
 

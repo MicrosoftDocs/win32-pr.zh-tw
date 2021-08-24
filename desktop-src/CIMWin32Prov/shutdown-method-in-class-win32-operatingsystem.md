@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: af80442087a0498849388f0da10946b08e282712
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 068551ee013634bde9a42584764c36f255bf322bedb97e6ebb3a5075c113e742
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104468569"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119800838"
 ---
 # <a name="shutdown-method-of-the-win32_operatingsystem-class"></a>Win32 作業系統類別的 Shutdown 方法 \_
 
@@ -56,7 +56,7 @@ uint32 Shutdown();
 
 電腦偶爾需要從網路中移除，也許是為了進行排程維護，因為電腦無法正常運作，或是完成設定程式。 例如，如果 DHCP 伺服器將錯誤的 IP 位址送出，您可能會想要關閉電腦，直到可以分派服務技術人員來修正問題為止。 如果您懷疑發生安全性缺口，您可能需要關閉特定伺服器，以確保在安全性問題解決之前，無法存取這些伺服器。 某些設定作業 (例如變更電腦名稱稱) 需要您重新開機電腦，變更才會生效。
 
-如果可能的話，這個方法會立即關閉電腦。 系統會停止所有執行中的進程，並將所有檔案緩衝區排清到磁片，然後關閉系統電源。 呼叫進程必須具有 **SE \_ SHUTDOWN \_ 名稱** 許可權，如下列範例所述。
+如果可能的話，這個方法會立即關閉電腦。 系統會停止所有執行中的進程，並將所有檔案緩衝區排清到磁片，然後關閉系統電源。 呼叫進程必須有 **SE \_ 關機 \_ 名稱** 許可權，如下列範例所述。
 
 
 ```VB

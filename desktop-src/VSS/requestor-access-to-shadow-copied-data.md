@@ -4,12 +4,12 @@ ms.assetid: 21efdbd6-a487-4e6f-8e3c-b9224bcf92da
 title: 要求者存取陰影複製的資料
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e6265586f70054277170b44f23efc52d56842e3d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 779e3947adff28c8f3190026921c398677afc7efaa484903bf165250f41bc191
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104115149"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119767698"
 ---
 # <a name="requester-access-to-shadow-copied-data"></a>要求者存取陰影複製的資料
 

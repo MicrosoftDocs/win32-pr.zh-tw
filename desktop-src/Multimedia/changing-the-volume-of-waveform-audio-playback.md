@@ -10,12 +10,12 @@ keywords:
 - 變更波形-音訊播放音量
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 89f972b5bd8e6f0d4a0d7d5964f164429c5632b0
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: e59bca6dbc168d2c327c46e4d934d4abb3afa73cc8ef2cae8b1a6c283bd92c81
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103682361"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119807988"
 ---
 # <a name="changing-the-volume-of-waveform-audio-playback"></a>變更 Waveform-Audio 播放的音量
 
@@ -30,7 +30,7 @@ Windows 提供下列功能來查詢及設定波形音訊輸出裝置的音量層
 
 
 
- 
+ 
 
 並非所有波形音訊裝置都支援磁片區變更。 某些裝置支援左右通道上的個別音量控制。 如需如何判斷波形音訊裝置的音量控制功能的相關資訊，請參閱 [裝置和資料類型](devices-and-data-types.md)。
 
@@ -40,6 +40,6 @@ Windows 提供下列功能來查詢及設定波形音訊輸出裝置的音量層
 
 磁片區層級值的範圍是從 0x0 (無聲) 至 0xFFFF (最大磁片區) ，而且會 logarithmically。 將磁片區層級從0x5000 增加至0x6000 時，觀察到的磁片區增加是相同的，因為它是從0x4000 到0x5000。
 
- 
+ 
 
- 
+ 

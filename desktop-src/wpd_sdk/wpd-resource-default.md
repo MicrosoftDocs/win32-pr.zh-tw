@@ -4,12 +4,12 @@ ms.assetid: e534ea86-4932-45c7-87e7-03926202fa7e
 title: WPD_RESOURCE_DEFAULT
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d04d6c7ec7d0623e2ed42c61115c6ae2145bf066
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2d939cf58033baded231363b39410c2e527fe303075c94255a00ba96831a609b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104513921"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119805878"
 ---
 # <a name="wpd_resource_default"></a>WPD \_ 資源 \_ 預設
 

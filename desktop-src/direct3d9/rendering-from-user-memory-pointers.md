@@ -4,12 +4,12 @@ ms.assetid: 6f64cc17-cffc-4d18-acf2-73e400fa26f9
 title: '從使用者記憶體指標轉譯 (Direct3D 9) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f4b5499032e6fb92ea0f363bba2bd5fd961e53c7
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 5e9893d3728b3bac8bc38dd8118f995510de834d2c6e54cdadcafe2c26b8a78e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104187508"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119746478"
 ---
 # <a name="rendering-from-user-memory-pointers-direct3d-9"></a>從使用者記憶體指標轉譯 (Direct3D 9) 
 

@@ -12,12 +12,12 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: 3dafb9561bf8b5e3c5c66eb23bd5e286cbd38118
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a6ef18eff8ba27a3169399f1f10e0707c4e0b3c010d54830ad8f8f997c5e1b50
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103691555"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119684437"
 ---
 # <a name="connectionmode-wlanprofile-element"></a>connectionMode (WLANProfile) 元素
 
@@ -71,8 +71,8 @@ ConnectionMode (WLANProfile) 元素表示無線區域網路的連接是否應該
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows Vista、Windows XP （僅含 SP3） \[ 桌面應用程式\]<br/> |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                |
+| 最低支援的用戶端<br/> | WindowsVista，Windows XP 只提供 SP3 \[ desktop 應用程式\]<br/> |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                |
 | 可轉散發套件<br/>          | 適用于 Windows XP SP2 的無線區域網路 API<br/>                 |
 
 

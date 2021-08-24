@@ -4,12 +4,12 @@ ms.assetid: df363017-97c5-45b0-b8a5-44ac73b7a0e7
 title: 使用時態壓縮 (Microsoft 媒體基礎) 的影片編碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6ee107d8bf6b1ef6b1700abff105b0bdb79f72f5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 10d663b0101353d9ce72dab45f0b85e594afcacf4aa8b8a99a6d61d2db0ae07d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106983560"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119721348"
 ---
 # <a name="video-encoding-with-temporal-compression-microsoft-media-foundation"></a>使用時態壓縮 (Microsoft 媒體基礎) 的影片編碼
 

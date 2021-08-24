@@ -4,12 +4,12 @@ ms.assetid: 4a3fa79f-7a7a-4f9b-9353-e6c5ca4fcb4e
 title: 'LINEBUSYMODE_ 的常數 (Tapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c996ad4e6142cc8312983945ae4c716ee0b35ed
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 54563567944a2e5164717f7d64ff7026a0045ea735405a7bcad159969f07514a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106999713"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119681988"
 ---
 # <a name="linebusymode_-constants"></a>LINEBUSYMODE \_ 常數
 

@@ -4,12 +4,12 @@ ms.assetid: e07c3f31-3d53-4250-9634-f66690357f26
 title: Quality-Based 變數位速率編碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cf12a60ab41b0ebf45c23fdb8a3f7ed330abda2b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d19c2cd63d5bc6f777f702827e999cd9d2ae2a272194f4b776205c1581376256
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106989926"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119722198"
 ---
 # <a name="quality-based-variable-bit-rate-encoding"></a>Quality-Based 變數位速率編碼
 

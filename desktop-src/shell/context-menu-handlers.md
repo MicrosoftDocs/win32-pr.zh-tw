@@ -4,19 +4,19 @@ ms.assetid: cff79cdc-8a01-4575-9af7-2a485c6a8e46
 title: 建立快捷方式功能表處理常式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e8e102833453566f42d058ff82061f34ebc65691
-ms.sourcegitcommit: 9655f82be96b11258276fdefff14423c30552fbb
+ms.openlocfilehash: e3a6b6f812772b884e12c45a48bae8075d90df28fb3b60f895cfd4c4263be74c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "109740569"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119715764"
 ---
 # <a name="creating-shortcut-menu-handlers"></a>建立快捷方式功能表處理常式
 
 快速鍵功能表處理常式（也稱為內容功能表處理常式或動詞處理常式）是檔案類型處理常式的類型。 這些處理常式的 impelmented 方式可能會讓它們在自己的進程或在瀏覽器中載入，或其他協力廠商進程中載入。 建立同進程處理常式時請小心，因為它們可能會對載入這些處理常式的進程造成損害。
 
 > [!Note]  
-> 註冊在32位應用程式內容中運作的處理常式時，會有64位版本之 Windows 的特殊考慮：當在不同位的應用程式內容中叫用時，WOW64 子系統會將檔案系統存取重新導向至某些路徑。 如果您的 .exe 處理常式儲存在其中一個路徑中，就無法在此內容中存取。 因此，若要解決這個問題，請將 .exe 儲存在未重新導向的路徑中，或儲存啟動實際版本之 .exe 的存根版本。
+> 註冊在32位應用程式內容中運作的處理常式時，會有64位版本的 Windows 的特殊考慮：當在不同位的應用程式內容中叫用時，WOW64 子系統會將檔案系統存取重新導向至某些路徑。 如果您的 .exe 處理常式儲存在其中一個路徑中，就無法在此內容中存取。 因此，若要解決此問題，請將 .exe 儲存在未重新導向的路徑中，或儲存啟動實際版本之 .exe 的存根版本。
 
 本主題的組織方式如下：
 
@@ -170,7 +170,7 @@ Position=Top | Bottom
 
 ### <a name="creating-static-cascading-menus"></a>建立靜態串聯功能表
 
-在 Windows 7 （含）以後版本中，透過登錄設定支援串聯功能表的執行。 在 Windows 7 之前，只能透過 [**ICoNtextMenu**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-icontextmenu) 介面的執行來建立串聯功能表。 在 Windows 7 （含）以後版本中，您應該只在靜態方法不足時，才需要採用以 COM 程式碼為基礎的解決方案。
+在 Windows 7 和更新版本中，透過登錄設定可支援串聯式功能表的執行。 在 Windows 7 之前，只能透過 [**ICoNtextMenu**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-icontextmenu)介面的執行來建立串聯功能表。 在 Windows 7 和更新版本中，您應該只在靜態方法不足時，才需要以 COM 程式碼為基礎的解決方案。
 
 下列螢幕擷取畫面提供串聯功能表的範例。
 
@@ -184,7 +184,7 @@ Position=Top | Bottom
 
 ### <a name="creating-cascading-menus-with-the-subcommands-registry-entry"></a>使用子命令登錄專案建立串聯式功能表
 
-在 Windows 7 （含）以後版本中，您可以使用下列程式，使用子命令專案來建立串聯功能表。
+在 Windows 7 和更新版本中，您可以使用下列程式，使用子命令專案來建立串聯功能表。
 
 **使用子命令專案建立串聯功能表**
 
@@ -290,7 +290,7 @@ Position=Top | Bottom
 
     確定 [ *測試串聯功能表 2* ] 子機碼的預設值是空的，而且顯示為 [ **未設定) 的 (值**]。
 
-4.  使用下列任何靜態動詞命令來填入 subverbs。 請注意，CommandFlags 子機碼代表 EXPCMDFLAGS 值。 如果您想要在 cascade 功能表項目之前或之後加入分隔符號，請使用 ECF \_ SEPARATORBEFORE (0x20) 或 ECF \_ SEPARATORAFTER (0x40) 。 如需這些 Windows 7 及更新版本旗標的說明，請參閱 [**IExplorerCommand：： GetFlags**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorercommand-getflags)。 ECF \_ SEPARATORBEFORE 僅適用于最上層的功能表項目。 MUIVerb 的類型為 **reg \_ SZ**，而 CommandFlags 的類型為 **reg \_ DWORD**。
+4.  使用下列任何靜態動詞命令來填入 subverbs。 請注意，CommandFlags 子機碼代表 EXPCMDFLAGS 值。 如果您想要在 cascade 功能表項目之前或之後加入分隔符號，請使用 ECF \_ SEPARATORBEFORE (0x20) 或 ECF \_ SEPARATORAFTER (0x40) 。 如需這些 Windows 7 和更新版本旗標的描述，請參閱 [**IExplorerCommand：： GetFlags**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorercommand-getflags)。 ECF \_ SEPARATORBEFORE 僅適用于最上層的功能表項目。 MUIVerb 的類型為 **reg \_ SZ**，而 CommandFlags 的類型為 **reg \_ DWORD**。
 
     ```
     HKEY_CLASSES_ROOT
@@ -317,7 +317,7 @@ Position=Top | Bottom
 
 ### <a name="creating-cascading-menus-with-the-iexplorercommand-interface"></a>使用 IExplorerCommand 介面建立串聯式功能表
 
-將動詞新增至串聯功能表的另一個選項是透過 [**IExplorerCommand：： EnumSubCommands**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorercommand-enumsubcommands)。 這個方法會啟用透過 [**IExplorerCommandProvider**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommandprovider) 提供命令模組命令的資料來源，以使用這些命令做為快捷方式功能表上的動詞命令。 在 Windows 7 （含）以後版本中，您可以使用 [**IExplorerCommand**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommand) 來提供相同的動詞實行，就像使用 [**ICoNtextMenu**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-icontextmenu)一樣。
+將動詞新增至串聯功能表的另一個選項是透過 [**IExplorerCommand：： EnumSubCommands**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorercommand-enumsubcommands)。 這個方法會啟用透過 [**IExplorerCommandProvider**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommandprovider) 提供命令模組命令的資料來源，以使用這些命令做為快捷方式功能表上的動詞命令。 在 Windows 7 和更新版本中，您可以使用 [**IExplorerCommand**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommand)來提供相同的動詞實，如同 [**ICoNtextMenu**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-icontextmenu)。
 
 以下兩個螢幕擷取畫面說明如何使用 [ **裝置** ] 資料夾中的串聯功能表。
 
@@ -398,7 +398,7 @@ DDE 已被取代;請改用 [**IDropTarget**](/windows/win32/api/oleidl/nn-oleidl
 
 ### <a name="extending-a-new-submenu"></a>擴充新的子功能表
 
-當使用者在 Windows 檔案總管中開啟 [檔案 **] 功能表時** ，其中一個顯示的命令是 [ **新增**]。 選取此命令會顯示子功能表。 依預設，子功能表包含兩個命令： **資料夾** 和 **快捷方式**，可讓使用者建立子資料夾和快捷方式。 您可以擴充此子功能表，以包含任何檔案類型的檔案建立命令。
+當使用者在 Windows 檔案總管中開啟 [檔案 **] 功能表時**，其中一個顯示的命令是 [**新增**]。 選取此命令會顯示子功能表。 依預設，子功能表包含兩個命令： **資料夾** 和 **快捷方式**，可讓使用者建立子資料夾和快捷方式。 您可以擴充此子功能表，以包含任何檔案類型的檔案建立命令。
 
 若要將檔案建立命令新增至 **新** 的子功能表，您的應用程式檔必須有相關聯的檔案類型。 在檔案名下包含 **ShellNew** 子機碼。 選取 [檔案 **] 功能表的** [ **新** 命令] 時，Shell 會將檔案類型加入至 **新** 的子功能表。 命令的顯示字串是指派給程式 ProgID 的描述性字串。
 

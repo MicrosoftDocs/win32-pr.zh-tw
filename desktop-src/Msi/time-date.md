@@ -4,18 +4,18 @@ ms.assetid: 02c6076e-7f81-489c-9997-1435dec81852
 title: 時間/日期
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b973143c2043419e4a54348917aa5d38fa97ff67
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1c3c5cccc2f1211918b52008f0d81a7e4693dfd14766696b77cd184d75f4309d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106974719"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119810738"
 ---
 # <a name="timedate"></a>時間/日期
 
 Time/Date 資料類型具有個別儲存的時間和日期，並使用不帶正負號的整數做為位欄位，如下所示。
 
-## <a name="time"></a>Time
+## <a name="time"></a>時間
 
 時間會以不帶正負號的2位元組整數編碼，並具有下列位欄位。
 
@@ -31,7 +31,7 @@ Time/Date 資料類型具有個別儲存的時間和日期，並使用不帶正�
 
  
 
-## <a name="date"></a>Date
+## <a name="date"></a>日期
 
 日期會以不帶正負號的2位元組整數編碼，並具有下列位欄位。
 

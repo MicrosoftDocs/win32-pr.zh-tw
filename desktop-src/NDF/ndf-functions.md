@@ -4,12 +4,12 @@ description: 下列功能可讓軟體發展人員使用網路診斷架構 (NDF) 
 ms.assetid: c2774e05-82f4-4d40-a80c-ad773bb03ca7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d3a039768b77d69072111f814cb871115bcca24
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 23a46ef79627583efd4d5fb0e0b63dd8e7283c1889e942197679037be38754e2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106967616"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119802348"
 ---
 # <a name="ndf-functions"></a>NDF 函式
 
@@ -18,7 +18,7 @@ ms.locfileid: "106967616"
 > [!Note]  
 > 這些函式適用于在其應用程式中執行基本 NDF 功能的開發人員。
 
- 
+ 
 
 -   [**CopyHelperAttribute**](copyhelperattribute.md)
 -   [**CopyRepairInfo**](copyrepairinfo.md)
@@ -49,9 +49,9 @@ ms.locfileid: "106967616"
 -   [**UtilLoadStringWithAlloc**](utilloadstringwithalloc.md)
 -   [**UtilStringCopyWithAlloc**](utilstringcopywithalloc.md)
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: A125B444-2AD5-4DD6-B6EB-128052FF8EE4
 title: 身分識別
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ed6ac9ff62cfa8762ad7f8ecf738e76f22c1a5d8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 66c4fec62796fed2a37042966c97a533c36d526ee97e816f537845028d72b3a9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103849384"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119718199"
 ---
 # <a name="identity"></a>身分識別
 

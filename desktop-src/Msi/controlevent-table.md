@@ -4,12 +4,12 @@ ms.assetid: e34d17e9-cd6b-4a21-9abc-9562ee648c59
 title: ControlEvent 資料表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 721dc7ac9a729b8df0623a2958a4d0fe32851307
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6fec4837fa7d98289495bbb0773ae7260f957485cd87214dabf1999b1e1a876c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103852347"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119692998"
 ---
 # <a name="controlevent-table"></a>ControlEvent 資料表
 
@@ -88,7 +88,7 @@ ControlEvent 資料表具有下列資料行。
 
 [EventMapping 資料表](eventmapping-table.md)會列出訂閱某些控制項事件的控制項，並列出當另一個控制項或安裝程式發行該事件時，要變更的控制項屬性。
 
-在 Windows XP 或更早版本的作業系統上，使用者只能透過與 [Checkbox 控制項](checkbox-control.md) 或 [按鈕控制項](pushbutton-control.md)互動來發佈控制項事件。 使用 Windows Server 2003 時，使用者只能透過與 [Checkbox 控制項](checkbox-control.md)、 [SelectionTree 控制項](selectiontree-control.md)和 [按鈕控制項](pushbutton-control.md)互動，來發佈控制項事件。 列出控制項欄位中的其他控制項 \_ 不會有任何作用。
+在 Windows XP 或更早版本的作業系統上，使用者只能透過與[Checkbox 控制項](checkbox-control.md)或[按鈕控制項](pushbutton-control.md)互動來發佈控制項事件。 使用 Windows Server 2003 時，使用者只能透過與[Checkbox 控制項](checkbox-control.md)、 [SelectionTree 控制項](selectiontree-control.md)和[按鈕控制項](pushbutton-control.md)互動，來發佈控制項事件。 列出控制項欄位中的其他控制項 \_ 不會有任何作用。
 
 ## <a name="validation"></a>驗證
 

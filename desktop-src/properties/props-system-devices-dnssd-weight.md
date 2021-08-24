@@ -4,12 +4,12 @@ ms.assetid: e3dae449-a9b7-4ebd-975c-1388fab42148
 title: Dnssd 權數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8c9cb61112bf3db0f68df7d662f3e111ae73cb86
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 05eada657997b22af3ce09a1c90e2ba5e4fc726984225d000ab1d7f75ddaa081
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103852988"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119717268"
 ---
 # <a name="systemdevicesdnssdweight"></a>Dnssd 權數
 

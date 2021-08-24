@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: afdf3f3f92e472ba31f8b7b04d18c5a61c1c2d71
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 498551b13a57b2e241dd700120e253117883a13e27ad4ab857313e13ad77ab2e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103687304"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119801448"
 ---
 # <a name="domain-password-property-set"></a>Domain-Password 屬性集
 

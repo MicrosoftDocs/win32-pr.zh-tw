@@ -4,12 +4,12 @@ description: Automation 動態連結程式庫 Oleaut32.dll 可提供數個函式
 ms.assetid: b7404919-fa0a-4de8-8c85-41b7bc7c5a52
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c5d533225913d6bcfbb74df3ac42bd00b18b00e4
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 6e98ea3a28f3884cbd6a377e45f1b537d169f510fdc4ce9a433dff6e976d9c0e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104024208"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119854228"
 ---
 # <a name="loading-and-registering-a-type-library"></a>載入和註冊類型程式庫
 
@@ -29,6 +29,6 @@ if(SUCCEEDED(hr))
 }
 ```
 
- 
+ 
 
- 
+ 

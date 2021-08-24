@@ -3,7 +3,7 @@ title: 'CBEM_GETUNICODEFORMAT 訊息 (Commctrl .h) '
 description: 取得控制項的 UNICODE 字元格式旗標。
 ms.assetid: 854ff8d5-6e2f-4918-a6c5-91356a4454af
 keywords:
-- CBEM_GETUNICODEFORMAT message Windows 控制項
+- CBEM_GETUNICODEFORMAT 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b77bb0daabe6ef14d4be1b5e2de6bb1dd63248d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a4665877c3a9cae9fc559c55040d1972128dbb7404f59e5c61a5739829aca629
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103844351"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119699268"
 ---
 # <a name="cbem_getunicodeformat-message"></a>CBEM \_ GETUNICODEFORMAT 訊息
 
@@ -49,8 +49,8 @@ ms.locfileid: "103844351"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

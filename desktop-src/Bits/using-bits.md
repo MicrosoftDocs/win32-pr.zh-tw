@@ -9,20 +9,20 @@ keywords:
 - 使用位位
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5158e183ef7e7c142a481f1d89e329a9b04f422b
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 1b301c1d96956bca924d99ef41ade3032f58dc4e194b420069cbae1071c916b1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106965254"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119801158"
 ---
 # <a name="using-bits"></a>使用 BITS
 
-下列步驟示範如何使用背景智慧型傳送服務 (位)  [介面](bits-interfaces.md)來執行檔案傳輸。
+下列步驟示範如何使用背景智慧型傳送服務 (位)  [介面](bits-interfaces.md)來執行檔案傳輸。
 
 **執行檔案傳輸**
 
-1.  [連接到 BITS 服務](connecting-to-the-bits-service.md)
+1.  [連線至 BITS 服務](connecting-to-the-bits-service.md)
 2.  [建立傳送作業](creating-a-job.md)
 3.  [將檔案新增至作業](adding-files-to-a-job.md)
 4.  [啟動工作](/windows/desktop/api/Bits/nf-bits-ibackgroundcopyjob-resume)
@@ -39,11 +39,11 @@ Windows PowerShell 提供簡單的機制來管理許多 BITS 工作。 本節包
 
 > [!Note]
 >
-> 從1607版 Windows 10 開始，您也可以執行 PowerShell Cmdlet，並使用 BITSAdmin 或其他應用程式，從連線到另一部電腦的 PowerShell 遠端命令列（ (實體或虛擬) ）使用 BITS [介面](bits-interfaces.md) 。 使用 PowerShell Direct 命令列將 [PowerShell Direct](/virtualization/hyper-v-on-windows/user_guide/vmsession) 命令列使用於相同實體電腦上的虛擬機器時，無法使用此功能。使用 WinRM Cmdlet 時，無法使用此功能。
+> 從1607版 Windows 10 開始，您也可以執行 powershell Cmdlet，並使用 BITSAdmin 或其他應用程式，從連線到另一部電腦的 PowerShell 遠端命令列（ (實體或虛擬) ）使用 BITS[介面](bits-interfaces.md)。 使用 PowerShell Direct 命令列將 [PowerShell Direct](/virtualization/hyper-v-on-windows/user_guide/vmsession) 命令列使用於相同實體電腦上的虛擬機器時，無法使用此功能。使用 WinRM Cmdlet 時，無法使用此功能。
 >
 > 從遠端 PowerShell 會話建立的 BITS 作業將會在該會話的使用者帳戶內容下執行，而且只有在至少有一個作用中的本機登入會話或與該使用者帳戶相關聯的遠端 PowerShell 會話時，才會進行進度。 如需詳細資訊，請參閱 [管理 PowerShell 遠端會話](using-windows-powershell-to-create-bits-transfer-jobs.md)。
 
- 
+ 
 
 本節也包含下列主題：
 
@@ -55,6 +55,6 @@ Windows PowerShell 提供簡單的機制來管理許多 BITS 工作。 本節包
 
 如需使用 BITS 介面的範例程式碼，請參閱 [Bits 範例和工具](bits-samples-and-tools.md)。
 
- 
+ 
 
- 
+ 

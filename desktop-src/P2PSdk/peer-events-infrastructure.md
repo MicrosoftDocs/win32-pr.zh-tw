@@ -4,12 +4,12 @@ ms.assetid: a056da1c-b8f9-4dad-8df9-df24c6b359b7
 title: 對等事件基礎結構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6347ad6a7dd0cf2fae4a0aa623bfda48ab0aa9f8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a889f59e4429e64258c047dfbf0249bb4dca125bfc3f9d659e6042dd40be9443
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971801"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119775948"
 ---
 # <a name="peer-events-infrastructure"></a>對等事件基礎結構
 
@@ -49,7 +49,7 @@ ms.locfileid: "106971801"
 
 應用程式不需要對等事件通知之後，應用程式會呼叫 [**PeerGraphUnregisterEvent**](/windows/desktop/api/P2P/nf-p2p-peergraphunregisterevent)，並在註冊應用程式時傳遞 [**PeerGraphRegisterEvent**](/windows/desktop/api/P2P/nf-p2p-peergraphregisterevent) 所傳回的對等事件控制碼。
 
-## <a name="handling-graph-connection-referrals"></a>處理圖形連接參考
+## <a name="handling-graph-connection-referrals"></a>處理 Graph 連接參考
 
 當呼叫 [**PeerGraphConnect**](/windows/desktop/api/P2P/nf-p2p-peergraphconnect) 時，連接的對等會透過非同步 **對等 \_ 圖形 \_ 事件 \_ 鄰近 \_ 連接** 事件收到成功或失敗的通知。 如果連接因特定的網路問題而失敗 (例如，防火牆設定錯誤) ，就會引發 **對等 \_ 圖形 \_ 事件 \_ 鄰近 \_ 連接** 事件，並將線上狀態設為「 **對等 \_ 連接 \_ 失敗**」。
 

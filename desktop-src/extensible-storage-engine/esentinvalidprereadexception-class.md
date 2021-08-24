@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: cba624b2159f84e0fcb94d54c53992b91aee9b08
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9caed5fa1787ff2e9a5f44d7a9e436e9b3e3ed2d84f5843c1a63fbaac4cf8a78
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106987349"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119783265"
 ---
 # <a name="esentinvalidprereadexception-class"></a>EsentInvalidPrereadException 類別
 

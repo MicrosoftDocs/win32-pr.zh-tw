@@ -4,12 +4,12 @@ ms.assetid: c460b1cd-13d7-4b65-a755-23b2ea87864d
 title: 媒體基礎宏
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6bed83710f41957edc1b945fecd5d68b5550b4ed
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 53a0ebbc8da6f9f65b9c8167097f4150457a6e6cbcbefe0db45032eb55d57000
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "103945604"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119724078"
 ---
 # <a name="media-foundation-macros"></a>媒體基礎宏
 

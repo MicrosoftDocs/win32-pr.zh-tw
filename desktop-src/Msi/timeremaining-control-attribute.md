@@ -4,12 +4,12 @@ ms.assetid: e1302449-7f80-4881-bd76-49d386bfdafb
 title: TimeRemaining 控制項屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 668cabe4832e6460b4ab01fcc048e2f8e1bbdf66
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 907db993731172343418fc92d86f2fbab04cf6f41c2a1627bc76e2cd557f505d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193093"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119810728"
 ---
 # <a name="timeremaining-control-attribute"></a>TimeRemaining 控制項屬性
 

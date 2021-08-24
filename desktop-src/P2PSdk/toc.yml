@@ -249,7 +249,7 @@
                   href: how-to-work-with-groups.md
                 - name: 群組安全性的運作方式
                   href: how-group-security-works.md
-                - name: 如何連接至對等群組
+                - name: 如何連線到對等群組
                   href: how-to-connect-to-a-peer-group.md
                 - name: 邀請對等群組
                   href: inviting-a-peer-to-a-group.md
@@ -646,9 +646,9 @@
                   href: people-near-me-apis.md
                 - name: 近端分享存放區
                   href: people-near-me-stores.md
-                - name: 近端分享的 Windows 對等元件
+                - name: Windows近端分享的對等元件
                   href: windows-peer-components-for-people-near-me.md
-                - name: 適用于近端分享的 Windows Vista 元件
+                - name: Windows近端分享的 Vista 元件
                   href: windows-vista-components-for-people-near-me.md
         - name: 協同作業 API 參考
           href: collaboration-api-reference.md

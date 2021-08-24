@@ -3,19 +3,19 @@ title: 多媒體宏
 description: 多媒體宏
 ms.assetid: 4b0d1f92-6e79-496b-ba35-7fc17a5127d4
 keywords:
-- Windows 多媒體，宏
+- Windows 多媒體、宏
 - 多媒體、宏
 - 多媒體參考，宏
 - 多媒體、宏的參考
 - 多媒體宏
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aef29d18fc53d46e96de2a13d6e9e39e75e4dc6b
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: d9cdad8be1acfb92db2f58762fb5debe834dd52f7b5519f3ed4ed4d43d55cbd8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106968492"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119806758"
 ---
 # <a name="multimedia-macros"></a>多媒體宏
 
@@ -137,7 +137,7 @@ ms.locfileid: "106968492"
 -   [**ICQueryAbout**](/windows/desktop/api/Vfw/nf-vfw-icqueryabout)
 -   [**ICQueryConfigure**](/windows/desktop/api/Vfw/nf-vfw-icqueryconfigure)
 -   [**ICSetState**](/windows/desktop/api/Vfw/nf-vfw-icsetstate)
--   [**麥克斯**](max.md)
+-   [**max**](max.md)
 -   [**MCI \_ HMS \_ HOUR**](mci-hms-hour.md)
 -   [**MCI \_ HMS \_ 分鐘**](mci-hms-minute.md)
 -   [**MCI \_ HMS \_ SECOND**](mci-hms-second.md)
@@ -233,6 +233,6 @@ ms.locfileid: "106968492"
 [多媒體參考](multimedia-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

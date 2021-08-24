@@ -12,12 +12,12 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: e852286d00d93904bd185fef6c2f3444bb5987f9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9c5bd795ee9f5fc21dc205c24306820b4dec7f074638aa0e4f11ba3acde68cd0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936587"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119684418"
 ---
 # <a name="blocklist-networkfilter-element"></a>封鎖清單 (networkFilter) 元素
 
@@ -48,9 +48,9 @@ ms.locfileid: "103936587"
 
 
 
-| 元素                                                        | 類型                                                                     | Description                      |
+| 元素                                                        | 類型                                                                     | 描述                      |
 |----------------------------------------------------------------|--------------------------------------------------------------------------|----------------------------------|
-| [**network**](wlan-policyschema-network-blocklist-element.md) | [**networkItemType**](wlan-policyschema-networkitemtype-complextype.md) | 封鎖的網路。 <br/> |
+| [**網路**](wlan-policyschema-network-blocklist-element.md) | [**networkItemType**](wlan-policyschema-networkitemtype-complextype.md) | 封鎖的網路。 <br/> |
 
 
 
@@ -60,8 +60,8 @@ ms.locfileid: "103936587"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 4ce2db4b-c901-43a5-b905-7d6d923c940b
 title: 提供自訂配置器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1e85a8d133ee5b686e25bc0d7d4a3e2444cb2791
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 79b2f36f269ff30545d648c5df22e3070ec5588bcc2fa8791852fe9b6a59215c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104385655"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119747908"
 ---
 # <a name="providing-a-custom-allocator"></a>提供自訂配置器
 

@@ -5,12 +5,12 @@ ms.assetid: A30ACE43-CD59-4D67-A1DC-682D70055F93
 ms.tgt_platform: multiple
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d41630488f54d8a018c0800a1341f4599d2c1db1
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: c940a5ecb16f66f90c4613bec5abdf6cc486d49d91fd959141636a1c7a9e7eb4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103932760"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119656938"
 ---
 # <a name="itssbloadbalanceresult-properties"></a>ITsSbLoadBalanceResult 屬性
 
@@ -20,9 +20,9 @@ ms.locfileid: "103932760"
 
 -   [**TargetName 屬性**](/windows/desktop/api/sbtsv/nf-sbtsv-itssbloadbalanceresult-get_targetname)
 
- 
+ 
 
- 
+ 
 
 
 

@@ -6,12 +6,12 @@ keywords:
 - OpenGL，法律資訊
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3a41d5cfbe3d14b57d2d71312736f4006f08c7f8
-ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
+ms.openlocfilehash: 64f80933231af06e1925bf888c5dcc18803de1d687320182480465bee19db97f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "111988913"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119777378"
 ---
 # <a name="legal-information-opengl"></a> (OpenGL) 的法律資訊
 
@@ -21,7 +21,7 @@ ms.locfileid: "111988913"
 
 在本文件所提述之內容中，可能包括 Microsoft 的專利、申請專利案件、商標、著作權，或其他智慧財產權等。 除非於 Microsoft 提出的任何書面授權條約中明確規定者外，提供本文件並不表示賦予台端上述專利、商標、著作權或其他智慧財產權等之任何授權。
 
-Microsoft、MS-DOS、Windows、Windows NT 和 Win32 是在美國及/或其他國家 Microsoft Corporation 的注冊商標或商標。
+Microsoft、MS-DOS、Windows、Windows NT 和 Win32 都是在美國及/或其他國家 Microsoft Corporation 的注冊商標或商標。
 
 TrueType 是 Apple Computer，Inc. 的注冊商標。
 

@@ -4,12 +4,12 @@ description: '[最近使用的專案] 清單是應用程式功能表中的一個
 ms.assetid: fdead358-d303-46de-9f8e-6fc2832d8e94
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 61f78c01fc4d6cc830eba644f7dcf22b6fb03e82
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 4f1d67c38e1eb9014cfd3349881ed2849755ebc89489cc925052aa690f54adc3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104550941"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119810874"
 ---
 # <a name="recent-items"></a>最近的項目
 
@@ -22,7 +22,7 @@ ms.locfileid: "104550941"
 
 ## <a name="details"></a>詳細資料
 
-下列螢幕擷取畫面說明 Windows 7) 的 [WordPad] 中的 [最近的專案] 清單。
+下列螢幕擷取畫面說明 [WordPad] 的 [最近的專案] 清單，Windows 7) 。
 
 ![microsoft 油漆功能區中 [最近使用的專案] 清單的螢幕擷取畫面。](images/controls/recentitems.png)
 
@@ -35,7 +35,7 @@ ms.locfileid: "104550941"
 > [!Note]  
 > 如果未指定 *EnablePinning* 屬性，預設會啟用釘選。
 
- 
+ 
 
 ![最近專案釘選在應用程式功能表中的螢幕擷取畫面。](images/overviews/applicationmenu-menurecentitemspinned.png)
 
@@ -58,7 +58,7 @@ ms.locfileid: "104550941"
 > [!Note]  
 > 在某些情況下，可以透過 [**IUIFramework：： GetUICommandProperty**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty) 方法抓取屬性，並使用 [**IUIFramework：： SetUICommandProperty**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty) 方法進行設定。
 
- 
+ 
 
 下表列出與 [最近的專案] 控制項相關聯的屬性索引鍵。
 
@@ -71,16 +71,16 @@ ms.locfileid: "104550941"
 
 
 
- 
+ 
 
 ## <a name="remarks"></a>備註
 
-[IApplicationDocumentLists：： GetList](/windows/win32/api/shobjidl_core/nf-shobjidl_core-iapplicationdocumentlists-getlist)方法可以用來取得功能區應用程式的 WINDOWS Shell MRU 清單。 然後，應用程式可以使用這個方法所抓取的物件來建立功能區架構所需的資料，以填入 [應用程式功能表](windowsribbon-controls-applicationmenu.md)的 [**最近的專案**] 清單。
+[IApplicationDocumentLists：： GetList](/windows/win32/api/shobjidl_core/nf-shobjidl_core-iapplicationdocumentlists-getlist)方法可以用來取得功能區應用程式的 Windows Shell MRU 清單。 然後，應用程式可以使用這個方法所抓取的物件來建立功能區架構所需的資料，以填入 [應用程式功能表](windowsribbon-controls-applicationmenu.md)的 [**最近的專案**] 清單。
 
 > [!Note]  
 > 使用這個方法時， *listtype* 應該具有值 `ADLT_RECENT` 。
 
- 
+ 
 
 如需如何在功能區架構應用程式中執行 MRU 專案清單的範例，請參閱 [HTMLEditRibbon 範例](windowsribbon-htmleditribbonsample.md)。
 
@@ -88,12 +88,12 @@ ms.locfileid: "104550941"
 
 <dl> <dt>
 
-[Windows 功能區架構控制項程式庫](windowsribbon-controls-entry.md)
+[Windows功能區架構控制項程式庫](windowsribbon-controls-entry.md)
 </dt> <dt>
 
 [**最近使用的專案標記元素**](windowsribbon-element-recentitems.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

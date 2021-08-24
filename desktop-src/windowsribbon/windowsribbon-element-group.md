@@ -3,7 +3,7 @@ title: Group 元素
 description: 代表做為元素群組之容器的群組控制項。
 ms.assetid: b0d3fcda-7165-40f4-9e57-c7ab88b31711
 keywords:
-- 群組元素視窗功能區
+- 群組元素 Windows 功能區
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 1162055491f61ae6feffa385bbc5015e4f1b66f0
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 2ca9d138e18296bc801fd37931a3b8066761abd3dd697d360513983ad5288dfb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111442869"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119810608"
 ---
 # <a name="group-element"></a>Group 元素
 
@@ -58,20 +58,20 @@ ms.locfileid: "111442869"
 <tr class="odd">
 <td><strong>ApplicationModes</strong><br/></td>
 <td>xs:string<br/></td>
-<td>否<br/></td>
+<td>No<br/></td>
 <td><dt><span></span><span></span><strong></strong> (xs： string) <br/> </dt> <dd> 字串，其中包含0到31之間的整數清單（以逗號分隔）。<br/> 空白字元是有效的，而且會被忽略。<br/> 最大長度：250個字元。 <br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><strong>CommandName</strong><br/></td>
 <td>xs： positiveInteger 或 xs： string<br/></td>
-<td>否<br/></td>
+<td>No<br/></td>
 <td>將元素與 <a href="windowsribbon-element-command.md"><strong>命令</strong></a>產生關聯。<br/> <br/>
 <dt><span></span><span></span><strong></strong> (xs： positiveInteger 或 xs： string) <br/> </dt> <dd> 字串、介於2與59999（含）之間的整數值，或介於0x2 與0xea5f （含）之間的十六進位值。 <br/> 值在功能區 XML 檔中必須是唯一的。 <br/> 最大長度：100個字元。 <br/> </dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><strong>SizeDefinition</strong><br/></td>
 <td>xs:string<br/></td>
-<td>否<br/></td>
+<td>No<br/></td>
 <td>當指定時， <em>SizeDefinition</em> 的值會限制為功能區架構所定義的其中一個 <a href="windowsribbon-templates.md">版面配置範本</a> 。 <br/> <br/>
 <dt><span></span><span></span><strong></strong> (xs： string) <br/> </dt> <dd> 任何零或多個字元的序列。<br/> 長度上限為未系結。<br/> </dd> </dl></td>
 </tr>
@@ -87,7 +87,7 @@ ms.locfileid: "111442869"
 | 元素                                                                             | 描述                                        |
 |-------------------------------------------------------------------------------------|----------------------------------------------------|
 | [**Button**](windowsribbon-element-button.md)<br/>                           | 可能會發生一次或多次<br/> <br/> |
-| [**相應**](windowsribbon-element-checkbox.md)<br/>                       | 可能會發生一次或多次<br/> <br/> |
+| [**CheckBox**](windowsribbon-element-checkbox.md)<br/>                       | 可能會發生一次或多次<br/> <br/> |
 | [**ComboBox**](windowsribbon-element-combobox.md)<br/>                       | 可能會發生一次或多次<br/> <br/> |
 | [**ControlGroup**](windowsribbon-element-controlgroup.md)<br/>               | 可能會發生一次或多次<br/> <br/> |
 | [**DropDownButton**](windowsribbon-element-dropdownbutton.md)<br/>           | 可能會發生一次或多次<br/> <br/> |
@@ -109,7 +109,7 @@ ms.locfileid: "111442869"
 
 | 元素                                             |
 |-----------------------------------------------------|
-| [**索引標籤**](windowsribbon-element-tab.md)<br/> |
+| [**Tab**](windowsribbon-element-tab.md)<br/> |
 
 
 

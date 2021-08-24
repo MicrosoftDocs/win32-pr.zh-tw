@@ -4,16 +4,16 @@ ms.assetid: a4aa40f8-1d98-4686-86e2-87280e470aac
 title: 'SFVM_SETISFV 訊息 (Shlobj.h .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 83021f1d6d52286f08e8ec7bd51bbaa806c17c7d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2e6d9ad3e9b1b8302089da8a59a8d5502a04392da77c6fc5276725b144efa026
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973812"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119660798"
 ---
 # <a name="sfvm_setisfv-message"></a>SFVM \_ SETISFV 訊息
 
-\[這項通知是透過 Windows XP Service Pack 2 (SP2) 和 Windows Server 2003 支援。 後續版本的 Windows 可能不支援此功能。\]
+\[這項通知是透過 Windows XP Service Pack 2 (SP2) 和 Windows Server 2003 支援。 Windows 的後續版本中可能不支援此功能。\]
 
 通知容器網站的回呼物件。 只有當不支援 [**IObjectWithSite：： SetSite**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768221(v=vs.85)) 且使用 [**SHCreateShellFolderViewEx**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shcreateshellfolderviewex) 時，才會使用這個。 由 [**IShellFolderViewCB：： MessageSFVCB**](/windows/win32/api/shlobj_core/nf-shlobj_core-ishellfolderviewcb-messagesfvcb)使用。
 

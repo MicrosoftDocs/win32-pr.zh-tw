@@ -4,12 +4,12 @@ ms.assetid: b0e647d3-4562-46db-b676-0f7a0d9bb594
 title: 對等網路案例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e883d2704f6f1e8d6a33b24e4a23491329e45d5e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6ff9362502f6a2b0df8b04e7d0d929aeb22c7872e6b661b91dbc1ed279df2889
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106979157"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119775777"
 ---
 # <a name="peer-networking-scenarios"></a>對等網路案例
 

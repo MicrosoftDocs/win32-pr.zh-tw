@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: ee95c7f2f202dfd0065e5e9c30003cc46fd29281
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 867f7dadc2ccf7d86eed602dd9e65d07be7558f0a8a00426e3a45bc1c2c97a3c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104373080"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119744038"
 ---
 # <a name="evaluateattributeatcentroid-function"></a>EvaluateAttributeAtCentroid 函式
 
@@ -28,7 +28,7 @@ ms.locfileid: "104373080"
 
 ``` syntax
 numeric EvaluateAttributeAtCentroid(
-  in attrib numeric value
+  in attrib numeric value
 );
 ```
 
@@ -61,19 +61,19 @@ numeric EvaluateAttributeAtCentroid(
 
 
 
- 
+ 
 
 下列著色器類型支援此函數：
 
 
 
-| 頂點 | 船體 | 網域 | 幾何 | 像素 | 計算 |
+| 頂點 | 船體 | 網域 | 幾何形狀 | 像素 | 計算 |
 |--------|------|--------|----------|-------|---------|
 |        |      |        |          | x     |         |
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>另請參閱
 
@@ -85,9 +85,9 @@ numeric EvaluateAttributeAtCentroid(
 [著色器模型5](d3d11-graphics-reference-sm5.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

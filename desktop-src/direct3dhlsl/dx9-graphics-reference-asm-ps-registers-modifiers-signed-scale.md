@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 214f4fcb6ad4f382a97b8c8d75a733124c31d68a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 161cacbf9f10a36e65f37816970aea5d5d804096151a4ae1ce3f814be918ae08
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104184194"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119854598"
 ---
 # <a name="source-register-signed-scaling"></a>來源註冊已簽署的調整
 
@@ -74,9 +74,9 @@ dp3_sat r0, t0_bx2, v0_bx2    ; Calculate a dot product.
 [圖元著色器來源登錄修飾詞](dx9-graphics-reference-asm-ps-registers-modifiers-source.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

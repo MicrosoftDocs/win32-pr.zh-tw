@@ -4,16 +4,16 @@ ms.assetid: d46d4c18-79cc-4f3c-9745-522ab2635068
 title: 使用 WIA 枚舉器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9ee42f99718cb36071b828e87e3a71de6d70ab5f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 47b6e822d38c73171767d43afd416d09648bd6b82095b9408e2f17827751b0cc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191389"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119813468"
 ---
 # <a name="using-wia-enumerators"></a>使用 WIA 枚舉器
 
-WIA 提供數個介面來列舉各種功能、屬性和資訊。 Windows 映像取得 (WIA) 列舉介面是標準元件物件模型的特定實作為 (COM) 列舉介面。 如需詳細資訊，請參閱 [IEnumXXXX](/previous-versions//ms680089(v=vs.85))。
+WIA 提供數個介面來列舉各種功能、屬性和資訊。 Windows 影像取得 (WIA) 列舉介面都是標準元件物件模型 (COM) 列舉介面的特定實作為。 如需詳細資訊，請參閱 [IEnumXXXX](/previous-versions//ms680089(v=vs.85))。
 
 下表提供 WIA 列舉介面的相關資訊。 
 

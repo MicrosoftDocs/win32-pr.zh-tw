@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a1c3b8d71c41fefa9b78aa9a469ee1426c553e1f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 421278fefa274650e5cff30a01f7d3dff125de0d7ef7e22ac5e340548be52277
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104508684"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119655358"
 ---
 # <a name="createinstancefrompropertydata-method-of-the-microsoftdns_rttype-class"></a>MicrosoftDNS RTType 類別的 CreateInstanceFromPropertyData 方法 \_
 

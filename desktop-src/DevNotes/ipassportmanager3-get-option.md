@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 289daf9ffbaad872115d0abfd7a618a4f7e44c10
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 5d7260e3c13be21f1cc963e1bca15a6126739a0075b94ee11f07d98901efd39b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104385860"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119750038"
 ---
 # <a name="ipassportmanager3get_option-method"></a>IPassportManager3：： get \_ 選項方法
 

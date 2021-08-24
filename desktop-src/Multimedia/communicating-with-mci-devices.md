@@ -7,12 +7,12 @@ keywords:
 - mciSendString 函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8f7f5458cff0ef4c5c5f84e565fae06ade8796c4
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 3def53cda9374ba50dfea8252918f073d961410092a977c8779f3a29d6b36204
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106969511"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119807838"
 ---
 # <a name="communicating-with-mci-devices"></a>與 MCI 裝置通訊
 
@@ -34,8 +34,8 @@ mciSendString(sz, Null, 0, Null)
 > [!Note]  
 > 當您使用 **MCIWndSendString** 時，必須從 MCI 命令排除裝置別名。 MCIWnd 程式庫會在將命令傳送至 MCI 裝置時，新增此別名。
 
- 
+ 
 
- 
+ 
 
- 
+ 

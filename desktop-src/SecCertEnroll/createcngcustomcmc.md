@@ -4,20 +4,20 @@ ms.assetid: 8a0dc078-22ca-4bff-9cc0-46823912d3da
 title: createCNGCustomCMC
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 669a52901981ea910ee3d1704ba892fb96664470
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0494fdf2af9e4e96983ed1aff462b38e749516eafe87f645a3bf8ae1b342292d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318068"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119798268"
 ---
 # <a name="createcngcustomcmc"></a>createCNGCustomCMC
 
 CreateCNGCustomCMC 範例會從內部的嵌套 PKCS 10 要求建立 CMC request 物件 \# 。 內部要求是使用非對稱 [*私密金鑰*](/windows/desktop/SecGloss/p-gly)所建立。 私密金鑰是使用「密碼編譯 API：新一代」 (CNG) 密碼編譯提供者，以及在命令列上指定的演算法來建立。 您也可以在私密金鑰上設定自訂選項（例如，匯出原則和金鑰保護層級）。
 
-## <a name="location"></a>Location
+## <a name="location"></a>位置
 
-當您安裝 Microsoft Windows 軟體開發套件 (SDK) 時，此範例預設會安裝在 *% ProgramFiles%* \\ Microsoft sdk \\ Windows \\ 7.0 版 \\ 範例 \\ 安全性 \\ X509 憑證註冊 \\ VC \\ createCNGCustomCMC 資料夾中。
+當您安裝 Microsoft Windows 軟體開發套件 (SDK) 時，預設會在 *% ProgramFiles%* \\ Microsoft sdk \\ Windows \\ 7.0 版 \\ 範例 \\ 安全性 \\ X509 憑證註冊 \\ VC \\ createCNGCustomCMC 資料夾中安裝範例。
 
 ## <a name="discussion"></a>討論
 

@@ -1,19 +1,19 @@
 ---
 title: " (Microsoft Agent 字元編輯器的命令參考) "
-description: 此命令參考描述 Microsoft 代理程式字元編輯器。 Microsoft Agent 已于 Windows 7 淘汰。
+description: 此命令參考描述 Microsoft 代理程式字元編輯器。 Microsoft 代理程式已于 Windows 7 淘汰。
 ms.assetid: c8d57500-ad29-4325-aec7-3f857990b28c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ee75070f70ffe8c8fd2075fc6ec46483dcd005fa
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 8cbb6735bf7b0c8f733243961a1cbb6962c0c17279982cc73f5c2cc5c0090ab4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112405731"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119778438"
 ---
 # <a name="command-reference-microsoft-agent-character-editor"></a> (Microsoft Agent 字元編輯器的命令參考) 
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 ## <a name="the-file-menu"></a>[檔案] 功能表
 
@@ -103,7 +103,7 @@ ms.locfileid: "112405731"
 <span id="Cut"></span><span id="cut"></span><span id="CUT"></span>**削減**
 </dt> <dd>
 
-從編輯器中移除選取的專案，並將其放在 Windows 剪貼簿上。
+從編輯器中移除選取的專案，並將其放在 Windows 剪貼簿。
 
 </dd> <dt>
 

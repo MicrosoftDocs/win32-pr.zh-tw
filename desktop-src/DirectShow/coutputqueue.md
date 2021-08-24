@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: cd6167402abd36db8f436f6e27b18213642f010b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8911c7261af0bf2e140a551b0146b7764cd541368898e6d3905f5dee2eaa4c53
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995335"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119813431"
 ---
 # <a name="coutputqueue-class"></a>COutputQueue 類別
 
@@ -39,7 +39,7 @@ ms.locfileid: "106995335"
 |-----------------------------------------------------------------------|---------------------------------------------------------|
 | [**IPin::BeginFlush**](/windows/desktop/api/Strmif/nf-strmif-ipin-beginflush)                           | [**BeginFlush**](coutputqueue-beginflush.md)           |
 | [**IPin::EndFlush**](/windows/desktop/api/Strmif/nf-strmif-ipin-endflush)                               | [**EndFlush**](coutputqueue-endflush.md)               |
-| [**IPin::EndOfStream**](/windows/desktop/api/Strmif/nf-strmif-ipin-endofstream)                         | [**Eos**](coutputqueue-eos.md)                         |
+| [**IPin::EndOfStream**](/windows/desktop/api/Strmif/nf-strmif-ipin-endofstream)                         | [**EOS**](coutputqueue-eos.md)                         |
 | [**IPin::NewSegment**](/windows/desktop/api/Strmif/nf-strmif-ipin-newsegment)                           | [**NewSegment**](coutputqueue-newsegment.md)           |
 | [**IMemInputPin：： Receive**](/windows/desktop/api/Strmif/nf-strmif-imeminputpin-receive)                 | [**收到**](coutputqueue-receive.md)                 |
 | [**IMemInputPin::ReceiveMultiple**](/windows/desktop/api/Strmif/nf-strmif-imeminputpin-receivemultiple) | [**ReceiveMultiple**](coutputqueue-receivemultiple.md) |
@@ -52,7 +52,7 @@ ms.locfileid: "106995335"
 
 
 
-| 受保護的成員變數                                   | Description                                                                                              |
+| 受保護的成員變數                                   | 描述                                                                                              |
 |--------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|
 | [**m \_ pPin**](coutputqueue-m-ppin.md)                       | 輸入釘選 [**IPin**](/windows/desktop/api/Strmif/nn-strmif-ipin) 介面的指標。                                               |
 | [**m \_ pInputPin**](coutputqueue-m-pinputpin.md)             | 輸入釘選 [**IMemInputPin**](/windows/desktop/api/Strmif/nn-strmif-imeminputpin) 介面的指標。                               |
@@ -70,7 +70,7 @@ ms.locfileid: "106995335"
 | [**m \_ bSendAnyway**](coutputqueue-m-bsendanyway.md)         | 覆寫批次處理的旗標。                                                                       |
 | [**m \_ 小時**](coutputqueue-m-hr.md)                           | **HRESULT** 值，指出物件是否會接受範例。                                 |
 | [**m \_ hEventPop**](coutputqueue-m-heventpop.md)             | 每次物件從佇列中移除範例時發出信號的事件。                              |
-| 保護方法                                            | Description                                                                                              |
+| 保護方法                                            | 描述                                                                                              |
 | [**InitialThreadProc**](coutputqueue-initialthreadproc.md)  | 在建立執行緒時，呼叫 [**COutputQueue：： ThreadProc**](coutputqueue-threadproc.md) 方法。 |
 | [**ThreadProc**](coutputqueue-threadproc.md)                | 從佇列中取出範例，並將其傳遞至輸入圖釘。                                     |
 | [**IsQueued**](coutputqueue-isqueued.md)                    | 判斷物件是否使用背景工作執行緒來傳遞範例。                               |
@@ -78,12 +78,12 @@ ms.locfileid: "106995335"
 | [**IsSpecialSample**](coutputqueue-isspecialsample.md)      | 判斷佇列資料是否為控制訊息。                                                     |
 | [**FreeSamples**](coutputqueue-freesamples.md)              | 釋出所有暫止的範例。                                                                               |
 | [**NotifyThread**](coutputqueue-notifythread.md)            | 通知執行緒佇列包含資料。                                                        |
-| 公用方法                                               | Description                                                                                              |
+| 公用方法                                               | 描述                                                                                              |
 | [**COutputQueue**](coutputqueue-coutputqueue.md)            | 函式方法。                                                                                      |
 | [**~ COutputQueue**](coutputqueue--coutputqueue.md)          | 函式方法。                                                                                       |
 | [**BeginFlush**](coutputqueue-beginflush.md)                | 開始清除作業。                                                                                |
 | [**EndFlush**](coutputqueue-endflush.md)                    | 結束清除操作。                                                                                  |
-| [**Eos**](coutputqueue-eos.md)                              | 傳遞輸入圖釘的資料流程結束呼叫。                                                         |
+| [**EOS**](coutputqueue-eos.md)                              | 傳遞輸入圖釘的資料流程結束呼叫。                                                         |
 | [**SendAnyway**](coutputqueue-sendanyway.md)                | 提供任何暫止的範例。                                                                            |
 | [**NewSegment**](coutputqueue-newsegment.md)                | 將新區段傳遞至輸入圖釘。                                                                 |
 | [**收到**](coutputqueue-receive.md)                      | 傳遞媒體範例至輸入 pin。                                                                |

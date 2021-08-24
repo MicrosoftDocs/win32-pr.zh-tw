@@ -4,12 +4,12 @@ ms.assetid: da54e219-9adb-4a12-baab-52f2b2fb7c66
 title: '電話語音服務提供者介面 (TSPI) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 72a9d8ac4fd15fbc2685073e5954e14951f33acd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9fac57f3b86acdf105c4c78f46f4f1d1d0e270c2a0b1be2d8bd1f55009926329
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106984700"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119681798"
 ---
 # <a name="telephony-service-provider-interface-tspi"></a>電話語音服務提供者介面 (TSPI) 
 
@@ -26,7 +26,7 @@ TSPI 總覽分為下列幾節：
 -   [裝置存取](/previous-versions/windows/desktop/legacy/ms725183(v=vs.85)) 涵蓋了 TSP 如何將裝置資訊和控制項公開到 TAPI 的基本概念。
 -   [會話存取](/previous-versions/windows/desktop/legacy/ms725266(v=vs.85)) 涵蓋了 TAPI 在通訊會話期間預期的 TSP。
 -   [媒體存取](/previous-versions/windows/desktop/legacy/ms725240(v=vs.85)) 可針對媒體串流提供一組有限的控制項。 使用媒體服務提供者可以更精細地控制，而服務提供者的作者應該在可行時使用此 API。 TSPI 會提供 TSP/MSP 配對之間的通訊。
--   [電話裝置](/previous-versions/windows/desktop/legacy/ms725257(v=vs.85)) 涵蓋的補充資訊和操作是在 TSP 處理電話組控制時公開。 這些作業是選擇性的。
+-   [電話的裝置](/previous-versions/windows/desktop/legacy/ms725257(v=vs.85))涵蓋的補充資訊和作業，會在 TSP 處理手機組控制項時公開。 這些作業是選擇性的。
 -   [電話語音服務提供程式 UI DLL 介面](the-telephony-service-provider-ui-dll-interface.md) 涵蓋的特殊函式，可讓使用者直接設定 TSP 功能的許多層面。
 
 如需 TSPI 程式設計項目的詳細資訊，請參閱 [TSPI 參考](tspi-reference.md) 。

@@ -4,12 +4,12 @@ ms.assetid: 25da8bcc-51c1-49f0-b4b5-885ff4f254d8
 title: 預覽電視音訊
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c1cc63583c946d47ed744eacd51f0939ec852d53
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 8e6b67e33ffd6f051363e8851afbc31b9f38bed17790687db615b679f6a80a63
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104467632"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119748310"
 ---
 # <a name="previewing-tv-audio"></a>預覽電視音訊
 

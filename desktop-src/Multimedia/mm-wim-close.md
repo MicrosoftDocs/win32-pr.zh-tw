@@ -3,7 +3,7 @@ title: 'MM_WIM_CLOSE 訊息 (Mmsystem .h) '
 description: '\_ \_ 當波形音訊輸入裝置關閉時，會將 MM WIM 關閉訊息傳送至視窗。 傳送此訊息之後，裝置控制碼已不再有效。'
 ms.assetid: 4ea35b66-6bfa-41f0-9d52-a8cf2b0a69dd
 keywords:
-- MM_WIM_CLOSE message Windows 多媒體
+- MM_WIM_CLOSE 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 90d9934ef7045debbcac2f5baf1c2f750d22dad5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 506311f9938198e2ceb99646670c954eaa433825855e31c036241df6be1b2491
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104024560"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119807108"
 ---
 # <a name="mm_wim_close-message"></a>MM \_ WIM \_ 關閉訊息
 
@@ -64,7 +64,7 @@ lParam = reserved
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                                |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                      |
-| 標頭<br/>                   | <dl> <dt>Mmsystem (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Mmsystem (包含 Windows .h) </dt> </dl> |
 
 
 

@@ -4,21 +4,21 @@ description: VML V-Text-Reverse 屬性
 ms.assetid: ad302b0f-5d93-457d-a8df-c9fce184475e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d2625439d4b7a767a21de3578a7b15d3115a8f5
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 04f1535620c1fefe98ac23e2f842ef9a97e13b9cb39c65ec6b97f6f7d12b1998
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104023781"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119654618"
 ---
 # <a name="vml-v-text-reverse-attribute"></a>VML V-Text-Reverse 屬性
 
 本主題說明 VML，這是 Windows Internet Explorer 9 淘汰的功能。 依賴 VML 的網頁和應用程式應該遷移至 SVG 或其他廣泛支援的標準。
 
 > [!Note]  
-> 從2011年12月起，本主題已封存。 因此，它不會再主動維護。 如需詳細資訊，請參閱封存的 [內容](/previous-versions/windows/internet-explorer/ie-developer/)。 如需目前 Windows Internet Explorer 版本的相關資訊、建議和指引，請參閱 [Internet Explorer 開發人員中心](https://msdn.microsoft.com/ie/)。
+> 從2011年12月起，本主題已封存。 因此，它不會再主動維護。 如需詳細資訊，請參閱封存的 [內容](/previous-versions/windows/internet-explorer/ie-developer/)。 如需有關 Windows Internet Explorer 目前版本的資訊、建議和指引，請參閱[Internet Explorer 開發人員中心](https://msdn.microsoft.com/ie/)。
 
- 
+ 
 
 決定是否反轉資料列的版面配置順序。 讀取/寫入 **VgTriState**。
 
@@ -58,6 +58,6 @@ ms.locfileid: "104023781"
 
 
 
- 
+ 
 
- 
+ 

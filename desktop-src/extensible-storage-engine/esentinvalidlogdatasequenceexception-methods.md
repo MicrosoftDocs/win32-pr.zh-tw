@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101982
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: be330a036d1eb2d244cc8f91c7ce15019a24eb0f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b0d50e5b58fa6144726d331d0d546dc009cd172079626c76d5d21774c6e1f495
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193418"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119723658"
 ---
 # <a name="esentinvalidlogdatasequenceexception-methods"></a>EsentInvalidLogDataSequenceException 方法
 
