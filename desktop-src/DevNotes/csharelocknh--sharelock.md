@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Rwnh.dll
-ms.openlocfilehash: d0c77564deceab29a8bee0cbffbd477559117cbd
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7fd398228c6d0feb7e63133e8faeefd7a2fd3359bf62e80a8f398a3467424b90
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106992892"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119654828"
 ---
 # <a name="csharelocknhsharelock-method"></a>CShareLockNH：： ShareLock 方法
 

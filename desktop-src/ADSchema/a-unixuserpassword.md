@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b834e9dcddeb8da0295e0fbcd17670c65c4dceb2
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 4ab37b033fd24a554bff845e811884379ea37c0e07632f626d4f91a649ca5b2d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104107925"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119801888"
 ---
 # <a name="unixuserpassword-attribute"></a>unixUserPassword 屬性
 

@@ -4,12 +4,12 @@ ms.assetid: 51806a4c-4ae5-42e9-9d58-8032108164cb
 title: DisableBrowse
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 014d71993f05d52783aafbd1cfc73a986ade62e2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e565cca833d8d771b5bc28dea4483049868995a06acc9a42116611a1df6ce098
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106991688"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119745568"
 ---
 # <a name="disablebrowse"></a>DisableBrowse
 
@@ -19,7 +19,7 @@ DisableBrowse 會覆寫 AllowLockdownBrowse 並防止流覽，即使已設定 Al
 
 ## <a name="registry-key"></a>登錄金鑰
 
-**HKEY \_本機 \_ 電腦** \\ **軟體** \\ **原則** \\ **Microsoft** \\ **Windows** \\ **Installer**
+**HKEY \_本機 \_ 電腦** \\ **軟體** \\ **原則** \\ **Microsoft** \\ **Windows** \\ **安裝程式**
 
 ## <a name="data-type"></a>資料類型
 

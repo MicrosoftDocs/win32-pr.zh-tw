@@ -4,12 +4,12 @@ ms.assetid: bb15e1fe-4ac3-4666-b28c-d580d9c33660
 title: ISearchJob 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2790cdbbeabf8347f85c0709c3975cad6e7d971c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dd7745bf312c06e95105c84a9d4698ef8050de9b1717fa6488ce9c4bd4b71f0b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026277"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119756528"
 ---
 # <a name="isearchjob-methods"></a>ISearchJob 方法
 

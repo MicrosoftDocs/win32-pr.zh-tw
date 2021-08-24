@@ -4,12 +4,12 @@ ms.assetid: 5d98768a-c60b-4bb0-8640-9bf38254d41f
 title: StylusInput API 的執行緒考慮
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 530ac95fdf0e74e30c83a437b6ed573d03bb2c91
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 27f9a26da86295a322d926278eda87388c0105132eafd2dfa3d7a9f6c6655e48
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103849376"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119819638"
 ---
 # <a name="threading-considerations-for-the-stylusinput-api"></a>StylusInput API 的執行緒考慮
 

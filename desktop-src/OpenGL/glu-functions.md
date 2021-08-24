@@ -9,12 +9,12 @@ keywords:
 - OpenGL 公用程式 (X.GLU 隊) ，函數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fae3ece873f4e1e015861f597c0d51ebfc3436de
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2e4483b364d2d67daff0bbc04b9a30cd7cdb3059f3977f763b247f77be74d62f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372059"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119777698"
 ---
 # <a name="glu-functions"></a>X.GLU 隊函式
 
@@ -53,7 +53,7 @@ ms.locfileid: "104372059"
 | [**gluPartialDisk**](glupartialdisk.md)                                                           | 繪製磁片的弧形。                                                                                  |
 | [**gluPerspective**](gluperspective.md)                                                           | 設定透視圖投影矩陣。                                                                 |
 | [**gluPickMatrix**](glupickmatrix.md)                                                             | 定義挑選區域。                                                                                |
-| [**gluProject**](gluproject.md)                                                                   | 將物件座標組應至視窗座標。                                                           |
+| [**gluProject**](gluproject.md)                                                                   | 地圖的物件座標至視窗座標。                                                           |
 | [**gluPwlCurve**](glupwlcurve.md)                                                                 | 描述分段線性 NURBS 修剪曲線。                                                       |
 | [*gluQuadricCallback*](gluquadric.md)                                                             | 定義 quadric 物件的回呼。                                                                 |
 | [**gluQuadricDrawStyle**](gluquadricdrawstyle.md)                                                 | 指定 quadrics 所需的繪製樣式。                                                           |
@@ -68,15 +68,15 @@ ms.locfileid: "104372059"
 | [**gluTessNormal**](glutessnormal.md)                                                             | 指定多邊形的一般。                                                                        |
 | [**gluTessProperty**](glutessproperty.md)                                                         | 設定鑲嵌式物件的屬性。                                                              |
 | [**gluTessVertex**](glutessvertex.md)                                                             | 指定多邊形上的頂點。                                                                         |
-| [**gluUnProject**](gluunproject.md)                                                               | 地圖視窗座標與物件座標。                                                           |
+| [**gluUnProject**](gluunproject.md)                                                               | 地圖視窗會與物件座標協調。                                                           |
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

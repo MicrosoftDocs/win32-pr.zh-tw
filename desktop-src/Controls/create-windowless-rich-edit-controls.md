@@ -4,12 +4,12 @@ description: 視窗功能包括接收訊息的能力，以及要在其中繪製�
 ms.assetid: 085CBC61-50AE-4F74-8C6A-436176DE0031
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fce987630c21b1e15a2237066b39dd264125a857
-ms.sourcegitcommit: f0ca63c18dc52c357d3398af7be766d2bdd40be7
+ms.openlocfilehash: 3ce68a9e4e186be79e8f62cb009748916725e4af4f67d6522ed5eb47a92f33fd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "103933025"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119698598"
 ---
 # <a name="how-to-provide-windowless-rich-edit-controls-with-window-functionality"></a>如何提供視窗功能的無視窗 Rich Edit 控制項
 
@@ -19,12 +19,12 @@ ms.locfileid: "103933025"
 
 ### <a name="technologies"></a>技術
 
--   [Windows 控制項](window-controls.md)
+-   [Windows控制](window-controls.md)
 
 ### <a name="prerequisites"></a>必要條件
 
 -   C/C++
--   Windows 消費者介面程式設計
+-   Windows消費者介面程式設計
 
 ## <a name="instructions"></a>指示
 
@@ -82,9 +82,9 @@ ms.locfileid: "103933025"
 [Windows 通用控制項示範 (CppWindowsCommonControls) ](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

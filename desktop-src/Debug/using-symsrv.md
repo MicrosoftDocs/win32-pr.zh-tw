@@ -4,12 +4,12 @@ ms.assetid: d400f222-c50c-4c7b-8f8a-0c3ed3bba3b9
 title: 使用 SymSrv
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5bbaf68e80555629db8bc9a2a21394b95fe6fb85
-ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
+ms.openlocfilehash: 197a627e50c6be3a3e8636378890025a6dde091948954e2709935c7dc84fa30c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "110550033"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119655028"
 ---
 # <a name="using-symsrv"></a>使用 SymSrv
 
@@ -48,7 +48,7 @@ srv \* *SymbolStore1* \* *SymbolStoreN*
 
 下表顯示支援的符號存放區類型範例。
 
-|  符號存放區類型       |  Description |
+|  符號存放區類型       |  描述 |
 |----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \\\\伺服器 \\ 共用          | 遠端伺服器上共用的完整 UNC 路徑。                                                                                                                                                                                                                                                                                                 |
 | c： \\ LocalCache             | 用戶端電腦上目錄的路徑。                                                                                                                                                                                                                                                                                                             |
@@ -86,9 +86,9 @@ srv \* *SymbolStore1* \* *SymbolStoreN*
 
 ## <a name="microsoft-symbol-store"></a>Microsoft 符號存放區
 
-Microsoft 提供網際網路符號伺服器的存取權，該伺服器包含許多 Windows 作業系統版本的符號檔。 此符號目錄不保證已完成，但很廣泛。 其他 Microsoft 產品也會呈現。
+Microsoft 會提供網際網路符號伺服器的存取權，該伺服器包含許多版本的 Windows 作業系統的符號檔。 此符號目錄不保證已完成，但很廣泛。 其他 Microsoft 產品也會呈現。
 
-網際網路符號伺服器會使用 Microsoft Windows 作業系統的各種 Windows 符號填入，包括熱修正、Service Pack、安全性匯總套件和零售版。 您也可以在伺服器上取得適用于 Windows 產品目前搶鮮版和候選版的符號，以及各種其他 Microsoft 產品，例如 Microsoft Internet Explorer。
+網際網路符號伺服器已填入 Microsoft Windows 作業系統的各種 Windows 符號，包括熱修正、Service pack、安全性匯總套件和零售版。 您也可以在伺服器上取得 Windows 產品的目前搶鮮版和候選版的符號，以及各種不同的 microsoft 產品，例如 microsoft Internet Explorer。
 
 如果您在進行偵錯工具時可以存取網際網路，您可以設定偵錯工具在偵錯工具期間視需要下載符號，而不是在偵錯工具會話之前個別下載符號檔。 符號會下載至您指定的目錄位置，然後偵錯工具會從該處載入這些符號。
 
@@ -100,7 +100,7 @@ srv*c:\DownstreamStore*https://msdl.microsoft.com/download/symbols
 
 ## <a name="compressed-files"></a>壓縮檔案
 
-SymSrv 與包含壓縮檔案的符號存放區相容，只要使用 Windows Server 2003 資源套件所散發的 compress.exe 工具來執行此壓縮即可。 壓縮檔案副檔名中的最後一個字元應該有底線 (例如， \_ module2 \_) 。 如需詳細資訊，請參閱 [使用 SymStore](using-symstore.md)。
+SymSrv 與包含壓縮檔案的符號存放區相容，只要已使用 Windows Server 2003 資源套件所散發的 compress.exe 工具來執行壓縮即可。 壓縮檔案副檔名中的最後一個字元應該有底線 (例如， \_ module2 \_) 。 如需詳細資訊，請參閱 [使用 SymStore](using-symstore.md)。
 
 當串聯時，除非目標存放區是路徑中最左邊的存放區，否則不會將檔案解壓縮。 如果路徑中只有一個存放區，且其中包含一個壓縮的檔案，則 SymSrv 會將該檔案複製到預設的下游存放區，並從該處開啟它，即使它們的符號路徑中並未指出預設的下游存放區也一樣。
 
@@ -112,7 +112,7 @@ SymSrv 與包含壓縮檔案的符號存放區相容，只要使用 Windows Serv
 
 您可以有大量的符號存放區，其中包含許多不同程式或 Windows 版本的符號檔。 如果您升級目的電腦上所使用的 Windows 版本，則快取的符號檔全都會符合先前的版本。 這些快取的檔案不會進一步使用，因此這可能是刪除快取的好時機。
 
-適用于 Windows 的偵錯工具隨附一個稱為 agestore.exe 的公用程式，它會選擇性地從目錄樹狀結構中移除檔案，保留最近使用的檔案。 此工具的設計目的是要從符號伺服器存放區中剪除未使用的檔案。 它可讓您控制許多選項，包括「剪下日期」和「目錄大小」演算法。
+Windows 的偵錯工具隨附一個稱為 agestore.exe 的公用程式，它會選擇性地移除目錄樹狀結構中的檔案，並保留最近使用的檔案。 此工具的設計目的是要從符號伺服器存放區中剪除未使用的檔案。 它可讓您控制許多選項，包括「剪下日期」和「目錄大小」演算法。
 
 ## <a name="flat-cache-directory"></a>一般快取目錄
 
@@ -139,7 +139,7 @@ Symsrv.ini 應該位於 symsrv.dll 所在的相同目錄中。 在大部分的�
 
 ## <a name="installation"></a>安裝
 
-SymSrv (symsrv.dll) 符號伺服器包含在適用于 Windows 的偵錯工具套件中。 它必須安裝在您要載入的 dbghelp.dll 複本所在的相同目錄中。 如需詳細資訊，請參閱 [呼叫 DbgHelp 程式庫](calling-the-dbghelp-library.md)。
+SymSrv (symsrv.dll) 符號伺服器包含在 Windows 封裝的偵錯工具中。 它必須安裝在您要載入的 dbghelp.dll 複本所在的相同目錄中。 如需詳細資訊，請參閱 [呼叫 DbgHelp 程式庫](calling-the-dbghelp-library.md)。
 
  
 

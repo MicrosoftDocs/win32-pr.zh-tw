@@ -11,18 +11,18 @@ keywords:
 - 外觀，事件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9d994f4ee111795b8fd2b498d26ab65b8bd44dea
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b39c35864151db1671c2f7fa94caea803f0a33cc1082a3ae44082a90f7bddafb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104022055"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119760568"
 ---
 # <a name="writing-event-code"></a>撰寫事件程式碼
 
 事件的處理方式類似于屬性。 您必須為事件提供值，而值則是您想要在事件發生時執行的程式碼。 "On" 這個字會新增至事件名稱的前方;例如，click 事件將會變成 **onclick**。
 
-事件值是以雙引號括住，並以後面接著冒號的單字 JScript 開頭。 接下來是您想要執行的程式碼，後面接著分號和結尾雙引號。 例如，若要在使用者按一下按鈕時停止播放，請在 **按鈕** 元素程式碼中輸入下列內容做為屬性：
+事件值是以雙引號括住，並以單字 JScript 開頭，後面接著冒號。 接下來是您想要執行的程式碼，後面接著分號和結尾雙引號。 例如，若要在使用者按一下按鈕時停止播放，請在 **按鈕** 元素程式碼中輸入下列內容做為屬性：
 
 
 ```C++
@@ -56,9 +56,9 @@ onclick = "JScript: myView.close() ;"
 [**處理事件**](handling-events.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

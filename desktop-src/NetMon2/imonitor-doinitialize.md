@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Netmon.h
-ms.openlocfilehash: 93133ce8204e49d080f87635ad6952685f2ba82d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 013a1604c1cbc709f35ac23378bab008d6c67f9053c171190b20669106303f37
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510967"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119779178"
 ---
 # <a name="imonitordoinitialize-method"></a>IMonitor：:D oInitialize 方法
 
-**DoInitialize** 方法必須由監視器所執行。 在呼叫 NPP 的 [IRTC：： Connect](irtc-connect.md) 方法之前，MCSVC 會呼叫這個方法來立即取得 capture 篩選器。
+**DoInitialize** 方法必須由監視器所執行。 在呼叫 NPP 的[IRTC：：連線](irtc-connect.md)方法之前，MCSVC 會呼叫這個方法來立即取得 capture 篩選器。
 
 ## <a name="syntax"></a>語法
 

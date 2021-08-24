@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 12c328f30e56db348b018b73b02aa4320bf99505
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 7f994c858b9a2817ac89a5d5c6db794e054652fb2a57c69404030074ad14cd45
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108086056"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119800748"
 ---
 # <a name="takeownership-method-of-the-cim_directory-class"></a>CIM 目錄類別的 TakeOwnerShip 方法 \_
 
@@ -96,7 +96,7 @@ uint32 TakeOwnerShip();
 **12**
 </dt> <dd>
 
-平臺不是 Windows。
+平臺未 Windows。
 
 </dd> <dt>
 

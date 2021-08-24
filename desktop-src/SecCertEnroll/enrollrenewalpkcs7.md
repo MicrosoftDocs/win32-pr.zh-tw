@@ -4,20 +4,20 @@ ms.assetid: 12a3f1b4-b31e-470e-8ce6-87f497841240
 title: enrollRenewalPKCS7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8795758a2744dcee07a100f87eb1db0a1af49eac
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f3da14719cc2a9e6bdf4c16cad57d24b9ee4ec0c2ee955cc8b7c20643b2b6f9c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104513588"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119740428"
 ---
 # <a name="enrollrenewalpkcs7"></a>enrollRenewalPKCS7
 
 EnrollRenewalPKCS7 範例會建立 PKCS \# 7 要求物件來更新現有的憑證。 要求物件會使用新的金鑰組，但會保留與要更新之憑證相關聯的密碼編譯提供者。
 
-## <a name="location"></a>Location
+## <a name="location"></a>位置
 
-當您安裝 Microsoft Windows 軟體開發套件 (SDK) 時，此範例預設會安裝在 *% ProgramFiles%* \\ Microsoft sdk \\ Windows \\ 7.0 版 \\ 範例 \\ 安全性 \\ X509 憑證註冊 \\ VC \\ enrollRenewalPKCS7 資料夾中。
+當您安裝 Microsoft Windows 軟體開發套件 (SDK) 時，預設會在 *% ProgramFiles%* \\ Microsoft sdk \\ Windows \\ 7.0 版 \\ 範例 \\ 安全性 \\ X509 憑證註冊 \\ VC \\ enrollRenewalPKCS7 資料夾中安裝範例。
 
 ## <a name="discussion"></a>討論
 

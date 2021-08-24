@@ -1,5 +1,5 @@
 ---
-description: Win32 \_ ProcessStartup ABSTRACT WMI 類別代表以 Windows 為基礎之進程的啟動設定。
+description: Win32 \_ ProcessStartup abstract WMI 類別代表以 Windows 為基礎之進程的啟動設定。
 ms.assetid: 78508404-cab2-42fb-a0ed-0e6e7d21408c
 ms.tgt_platform: multiple
 title: Win32_ProcessStartup 類別
@@ -28,12 +28,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: b0be949b106c1fa88b37e0c7764dbddb0546ded7
-ms.sourcegitcommit: 0e611cdff84ff9f897c59e4e1d2b2d134bc4e133
+ms.openlocfilehash: 10b0732b89d5240b457152f4bd19f951f69b8ee693baec54daea3bd6bbba9439
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "106999412"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119759348"
 ---
 # <a name="win32_processstartup-class"></a>Win32 \_ ProcessStartup 類別
 
@@ -405,7 +405,7 @@ class Win32_ProcessStartup : Win32_MethodParameterClass
 
 </dt> <dd>
 
-表示執行必須立即執行才能正確執行之時間關鍵工作的進程。 高優先順序類別進程的執行緒會優先處理一般優先順序或閒置優先順序類別進程的執行緒。 其中一個範例是 Windows 工作清單，當使用者呼叫時必須快速回應，不論作業系統上的負載為何。 使用高優先順序類別時請特別小心，因為高優先順序類別的 CPU 系結應用程式幾乎可以使用所有可用的迴圈。 只有設定為此層級的即時優先權 shutdown 執行緒。
+表示執行必須立即執行才能正確執行之時間關鍵工作的進程。 高優先順序類別進程的執行緒會優先處理一般優先順序或閒置優先順序類別進程的執行緒。 其中一個範例是 Windows 工作清單，當使用者呼叫時，無論作業系統上的負載為何，都必須快速回應。 使用高優先順序類別時請特別小心，因為高優先順序類別的 CPU 系結應用程式幾乎可以使用所有可用的迴圈。 只有設定為此層級的即時優先權 shutdown 執行緒。
 
 </dd> <dt>
 
@@ -672,7 +672,7 @@ objProcess.Create "Database.exe", Null, objConfig, intProcessID
 
 
 
-下列 VBScript 程式碼範例會在本機電腦上建立「記事本」處理常式。 **Win32 \_ProcessStartup** 用來設定處理常式設定。
+下列 VBScript 程式碼範例會在本機電腦上建立記事本進程。 **Win32 \_ProcessStartup** 用來設定處理常式設定。
 
 
 ```VB

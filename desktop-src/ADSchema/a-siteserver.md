@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 785057cd9ea23c05d58541450dc4c92a502877e5
-ms.sourcegitcommit: f10bb95039c20a9de79f21e3fcb93a543f30a00e
+ms.openlocfilehash: 3995d7a1b85acbbef07b93cc035e11434f5c6becaeac82b31b4e669ea1b5ef13
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "104187368"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119802088"
 ---
 # <a name="site-server-attribute"></a>Site-Server 屬性
 
@@ -67,7 +67,7 @@ ms.locfileid: "104187368"
 | Range-Upper            | \-                                                                    |
 | Search-Flags           | 0x00000000                                                            |
 | System-Flags           | 0x00000010                                                            |
-| 中使用的類別        | [**授權-網站-設定**](c-licensingsitesettings.md)<br/> |
+| 中使用的類別        | [**授權-網站設定**](c-licensingsitesettings.md)<br/> |
 
 
 
@@ -88,7 +88,7 @@ ms.locfileid: "104187368"
 | Range-Upper            | \-                                                                    |
 | Search-Flags           | 0x00000000                                                            |
 | System-Flags           | 0x00000010                                                            |
-| 中使用的類別        | [**授權-網站-設定**](c-licensingsitesettings.md)<br/> |
+| 中使用的類別        | [**授權-網站設定**](c-licensingsitesettings.md)<br/> |
 
 
 
@@ -130,7 +130,7 @@ ms.locfileid: "104187368"
 | Range-Upper            | \-                                                                    |
 | Search-Flags           | 0x00000000                                                            |
 | System-Flags           | 0x00000010                                                            |
-| 中使用的類別        | [**授權-網站-設定**](c-licensingsitesettings.md)<br/> |
+| 中使用的類別        | [**授權-網站設定**](c-licensingsitesettings.md)<br/> |
 
 
 
@@ -151,7 +151,7 @@ ms.locfileid: "104187368"
 | Range-Upper            | \-                                                                    |
 | Search-Flags           | 0x00000000                                                            |
 | System-Flags           | 0x00000010                                                            |
-| 中使用的類別        | [**授權-網站-設定**](c-licensingsitesettings.md)<br/> |
+| 中使用的類別        | [**授權-網站設定**](c-licensingsitesettings.md)<br/> |
 
 
 
@@ -172,7 +172,7 @@ ms.locfileid: "104187368"
 | Range-Upper            | \-                                                                    |
 | Search-Flags           | 0x00000000                                                            |
 | System-Flags           | 0x00000010                                                            |
-| 中使用的類別        | [**授權-網站-設定**](c-licensingsitesettings.md)<br/> |
+| 中使用的類別        | [**授權-網站設定**](c-licensingsitesettings.md)<br/> |
 
 
 
@@ -193,7 +193,7 @@ ms.locfileid: "104187368"
 | Range-Upper            | \-                                                                    |
 | Search-Flags           | 0x00000000                                                            |
 | System-Flags           | 0x00000010                                                            |
-| 中使用的類別        | [**授權-網站-設定**](c-licensingsitesettings.md)<br/> |
+| 中使用的類別        | [**授權-網站設定**](c-licensingsitesettings.md)<br/> |
 
 
 

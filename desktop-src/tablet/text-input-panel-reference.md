@@ -4,12 +4,12 @@ ms.assetid: 867f2d6f-e63a-4c02-9370-3848a3b5c40a
 title: 文字輸入面板參考
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d9b8fb2077189e3034602c3463e32aa92e80ccc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6dc44c6dba4dc881c3cf705dbdd101be621c23b8df3007bac36a76085271574b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106978042"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119819908"
 ---
 # <a name="text-input-panel-reference"></a>文字輸入面板參考
 

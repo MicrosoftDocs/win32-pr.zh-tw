@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: de4a9c735e344cc93371205e3a987d9f31d7bbf3
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7de6780b5e4f0b231c962b207bc7e58775231a0487ee0deab5c28aaa3d63b5b3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106985767"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119745808"
 ---
 # <a name="clientcontext-property"></a>Client. CoNtext 屬性
 
@@ -36,7 +36,7 @@ ms.locfileid: "106985767"
 
 | 需求 | 值 |
 |--------------------|------------------------------------------------------------------------------------|
-| 版本<br/> | Windows Installer 5.0 或更新版本。<br/>                                         |
+| 版本<br/> | Windows安裝程式5.0 或更新版本。<br/>                                         |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl> |
 | IID<br/>     | IID \_ IClient 定義為000C1098-0000-0000-C000-000000000046<br/>         |
 

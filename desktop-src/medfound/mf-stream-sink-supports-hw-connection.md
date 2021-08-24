@@ -4,12 +4,12 @@ ms.assetid: 15838467-D253-4ECE-B9E7-AFD3A21B3AF2
 title: 'MF_STREAM_SINK_SUPPORTS_HW_CONNECTION 屬性 (Mfidl) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7a95bfecba4cf53b6ef7c8863ec0456e310d8bcb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6a9f663c492e5ae15590cc9240762e90298122790fa350fae51d09dd1199f6d4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104469189"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119714371"
 ---
 # <a name="mf_stream_sink_supports_hw_connection-attribute"></a>MF \_ 資料流程 \_ 接收 \_ 支援 \_ HW \_ 連接屬性
 
@@ -41,8 +41,8 @@ MFT 和媒體接收器之間的連接會以下面方式進行協商。
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 8 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                  |
-| 最低支援的伺服器<br/> | Windows Server 2012 \[ desktop app \| UWP 應用程式\]<br/>                        |
+| 最低支援的用戶端<br/> | Windows 8 \[桌面應用程式 \| UWP 應用程式\]<br/>                                  |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[桌面應用程式 \| UWP 應用程式\]<br/>                        |
 | 標頭<br/>                   | <dl> <dt>Mfidl。h</dt> </dl> |
 
 

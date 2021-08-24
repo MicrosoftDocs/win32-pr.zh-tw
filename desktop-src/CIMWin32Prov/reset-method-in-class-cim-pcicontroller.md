@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 87cc41106bf97a15d57be52d29f109b5719db6e6
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: b8404ad5f70ef8f802ac5a2d255cba02eb6e7e1a35be25b0b061d039988f67d6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847331"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119701529"
 ---
 # <a name="reset-method-of-the-cim_pcicontroller-class"></a>CIM PCIController 類別的 Reset 方法 \_
 

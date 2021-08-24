@@ -3,7 +3,7 @@ title: 'MCIWNDM_GETSTYLES 訊息 (Vfw .h) '
 description: MCIWNDM \_ GETSTYLES 訊息會抓取指定視窗所使用之目前 MCIWnd 視窗樣式的旗標。 您可以使用 MCIWndGetStyles 宏明確地傳送此訊息。
 ms.assetid: cd34ba05-47cb-488e-a6c6-4ec1c0d25de8
 keywords:
-- MCIWNDM_GETSTYLES message Windows 多媒體
+- MCIWNDM_GETSTYLES 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 983e37291977edf2473c2b603cd5b40792fb7989
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 036bd687c5d7828fade23994b9141488354added5ee38d38bafc9c5ce22a954c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106966953"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119783288"
 ---
 # <a name="mciwndm_getstyles-message"></a>MCIWNDM \_ GETSTYLES 訊息
 

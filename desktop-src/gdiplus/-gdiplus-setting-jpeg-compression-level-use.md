@@ -4,12 +4,12 @@ ms.assetid: b8365c00-2223-4aff-9fb2-422976af4c31
 title: 設定 JPEG 壓縮等級
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 07d2e82dfb21e121609d5e09e5c31e2242ec652f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6dd72762d27f1e9179b8a1f9bd52ea5b4b7df6cf97a6af658f9e603b87a629e5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103690331"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119778628"
 ---
 # <a name="setting-jpeg-compression-level"></a>設定 JPEG 壓縮等級
 

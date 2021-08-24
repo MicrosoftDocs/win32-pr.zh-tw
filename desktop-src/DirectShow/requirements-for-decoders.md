@@ -4,12 +4,12 @@ ms.assetid: 149aea20-0d37-4b1c-a098-8446c4088ce1
 title: 解碼器的需求
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 461120bec88636e4c015c2e319d855571e8ac1b8
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 7a84d02926b4ce36cea9e4221589d52690edb8e256b2f0f4863fa19fff5dc033
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104467624"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119697028"
 ---
 # <a name="requirements-for-decoders"></a>解碼器的需求
 

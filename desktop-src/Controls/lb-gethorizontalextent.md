@@ -3,7 +3,7 @@ title: 'LB_GETHORIZONTALEXTENT 訊息 (Winuser .h) '
 description: 取得清單方塊可水準滾動 (可滾動寬度的寬度（以圖元為單位）) 如果清單方塊具有水準捲軸。
 ms.assetid: 52461724-c06a-436a-ac95-94c5189ba37e
 keywords:
-- LB_GETHORIZONTALEXTENT message Windows 控制項
+- LB_GETHORIZONTALEXTENT 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bf10f4f216e0c00fba256c1373fb9aae4f2a4ac7
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 01f754b62ad0f51a236662fdfba2304221d58e1288e2756c0330343c63a0699e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103935014"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119799508"
 ---
 # <a name="lb_gethorizontalextent-message"></a>LB \_ GETHORIZONTALEXTENT 訊息
 
@@ -59,9 +59,9 @@ ms.locfileid: "103935014"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                     |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 

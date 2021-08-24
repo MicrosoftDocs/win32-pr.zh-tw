@@ -4,12 +4,12 @@ ms.assetid: 5A7DDFC4-69A4-4B5A-9C0A-6172E2142494
 title: IE 8 瀏覽器變更
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7abf978d2211a03b59a78847a66efc21f3213c41
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c775448d8eca55097b0121592c28ece0b2c347f4492e7a48b2d51d9ab688fa89
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103849410"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119680287"
 ---
 # <a name="appendix-1-internet-explorer-6-to-internet-explorer-8-browser-changes"></a>附錄1： Internet Explorer 6 至 Internet Explorer 8 瀏覽器變更
 
@@ -23,7 +23,7 @@ ms.locfileid: "103849410"
 
 $ {ROWSPAN2} $Internet Explorer 版本控制 $ {REMOVE} $  
 
-檢查是否有不正確的程式碼 Internet Explorer 6、Windows Internet Explorer 7，或透過 [使用者代理程式字串探查、版本向量或條件式批註](/previous-versions/windows/internet-explorer/ie-developer/compatibility/ms537503(v=vs.85))Internet Explorer 8 的特殊案例。
+檢查是否有不正確的程式碼 Internet Explorer 6、Windows Internet Explorer 7，或透過[使用者代理字串探查、版本向量或條件式批註](/previous-versions/windows/internet-explorer/ie-developer/compatibility/ms537503(v=vs.85))Internet Explorer 8。
 
 -   當長時間的使用者代理程式 (UA) 字串遇到只接受較短 UA 字串的伺服器時，使用者會看到 [錯誤頁面](https://www.enhanceie.com/ua.aspx)。
 
@@ -57,14 +57,14 @@ $ {REMOVE} $
 -   當元素後面接著 [**資料表**](https://msdn.microsoft.com/library/ms535901(v=VS.85).aspx)、[**表單**](https://msdn.microsoft.com/library/ms535249(v=VS.85).aspx)、 [**NOFRAMES**](https://msdn.microsoft.com/library/ms535857(v=VS.85).aspx)或 [**NOSCRIPT**](https://msdn.microsoft.com/library/ms535858(v=VS.85).aspx)專案時，會自動關閉未 [封閉的 P](https://msdn.microsoft.com/library/Cc843977(v=VS.85).aspx)專案。
 -   不支援[格式不正確的 HTML](/archive/blogs/ie/site-compatibility-and-ie8) ，而是採用格式正確且有效的標記。
 -   不支援 ["className" 屬性](/archive/blogs/ie/site-compatibility-and-ie8) 語法，而是以 "class" 語法為優先。
--   [Attributes 集合](/archive/blogs/ie/site-compatibility-and-ie8) 未包含 Windows Internet Explorer 可辨識的所有可能屬性。
+-   [attributes 集合](/archive/blogs/ie/site-compatibility-and-ie8)未包含 Windows Internet Explorer 可辨識的所有可能屬性。
 -   [屬性排序已變更](/archive/blogs/ie/site-compatibility-and-ie8)，會影響屬性集合、InnerHTML 和 outerHTML。
 -   [GetElementById](/archive/blogs/ie/site-compatibility-and-ie8) 區分大小寫，且不會搜尋名稱屬性。
 -   [一般 CSS 前置詞選取器](/archive/blogs/ie/site-compatibility-and-ie8) (也就是 v \\ ： \* 語法) ，而不支援明確的標記名稱。
 -   不支援[css 運算式](/archive/blogs/ie/site-compatibility-and-ie8)，以利改善 css 支援或 DHTML 邏輯。
 -   適用于自訂 JSON 物件方法的程式碼可能會與 Internet Explorer 8 中 [新的原生 JSON 物件](/archive/blogs/ie/site-compatibility-and-ie8) 發生衝突。
 -   取消設定 currentStyle 物件上的[初始屬性](/archive/blogs/ie/site-compatibility-and-ie8)會傳回它們的初始值。
--   CurrentStyle 物件樣式物件上[未指定的屬性值](/archive/blogs/ie/site-compatibility-and-ie8)會傳回空字串 (例如，請參閱[ASP.NET 功能表和 IE8 轉譯白色問題](/archive/blogs/giorgio/)blog 文章) 。
+-   currentStyle 物件樣式物件上[未指定的屬性值](/archive/blogs/ie/site-compatibility-and-ie8)會傳回空字串 (例如，請參閱[ASP.NET 功能表和 IE8 轉譯白色問題](/archive/blogs/giorgio/)blog 文章) 。
 
 <!-- -->
 
@@ -79,7 +79,7 @@ $ {REMOVE} $
 <!-- -->
 
 -   [開啟工具](/previous-versions/aa740486(v=msdn.10))略過視窗。不允許關閉提示。
--   預設會啟用物件快取[保護](/previous-versions/windows/internet-explorer/ie-developer/)，當使用者流覽至新的網域時，會封鎖對物件參考的存取， (適用于 Windows XP Service Pack 2 (SP2) 和更新版本) 的 Internet Explorer 6 和更新版本。
+-   預設會啟用物件快取[保護](/previous-versions/windows/internet-explorer/ie-developer/)，這會在使用者流覽至新網域時封鎖對物件參考的存取， (套用至 Windows XP Service Pack 2 (SP2) 和更新版本) 上的 Internet Explorer 6 和更新版本。
 -   [DHTML 程式碼片段](/previous-versions/windows/internet-explorer/ie-developer/) 預設為停用。
 -   會封鎖[寫入狀態列的腳本](/previous-versions/windows/internet-explorer/ie-developer/)。
 -   如果 Url 不符合 RFC 指導方針，[建立 url 可能會失敗](/previous-versions/windows/internet-explorer/ie-developer/)。
@@ -98,9 +98,9 @@ $ {REMOVE} $
 -   檔案[上傳控制項](/archive/blogs/ie/)只會將檔案路徑（而不是完整路徑）提交到伺服器。
 -   以「 [影像/」 \* MIME 類型](/archive/blogs/ie/) 傳遞的 HTML 程式碼或腳本已封鎖而無法執行。
 -   在不同的安全性內容中[流覽最上層的框架](/previous-versions/windows/internet-explorer/ie-developer/compatibility/dd565638(v=vs.85))至網站，會開啟新的視窗或索引標籤，而不是在現有的框架內流覽。
--   [Utf-7 編碼的腳本](/previous-versions/windows/internet-explorer/ie-developer/compatibility/dd565635(v=vs.85)) 會強制進入 Windows-1252 編碼，這可能會導致純文字呈現。
+-   [utf-7 編碼的腳本](/previous-versions/windows/internet-explorer/ie-developer/compatibility/dd565635(v=vs.85))會強制進入 Windows-1252 編碼，這可能會導致純文字呈現。
 -   [HTTP/HTTPS 「混合模式」頁面](/archive/blogs/askie/mixed-content-and-internet-explorer-8-0) 會顯示一個對話方塊，預設為僅顯示安全專案 (與先前的非安全預設) 。 使用者可能會誤 [選擇封鎖 HTTP 元素](/archive/blogs/askie/mixed-content-and-internet-explorer-8-0)，例如金鑰影像。
--   [DEP/NX 預設為開啟狀態](https://www.microsoft.com/windows/internet-explorer/readiness/developers-existing.aspx#depnx)，它會封鎖某些附加元件 (也就是，使用舊版 ATL 建立的 ActiveX 控制項和 COM 物件) ，無法執行在記憶體中標示為「無法執行」的程式碼。
+-   [DEP/NX 預設為開啟](https://www.microsoft.com/windows/internet-explorer/readiness/developers-existing.aspx#depnx)，它會封鎖某些附加元件 (也就是，使用舊版 ATL 建立的 ActiveX 控制項和 COM) 物件，不會在記憶體中標示為「無法執行的可執行檔」的程式碼執行。
 -   如果未建立 SSL 通道以回應源伺服器的連接要求，則會封鎖[web proxy 所傳回的內容](/previous-versions/windows/internet-explorer/ie-developer/compatibility/dd565641(v=vs.85))。
 
 架構變更
@@ -109,12 +109,12 @@ $ {REMOVE} $
 
 <!-- -->
 
--   針對[網際網路、內部網路和限制的網站區域，](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms537187(v=vs.85))預設會啟用[受保護模式](/previous-versions/windows/internet-explorer/ie-developer/)。 此模式 [會封鎖可能造成安全性風險的瀏覽器延伸模組，使其無法從執行](/previous-versions/windows/internet-explorer/ie-developer/compatibility/dd565645(v=vs.85)) 和 [較低許可權的應用程式存取更高許可權的程式](/previous-versions/windows/internet-explorer/ie-developer/compatibility/dd565646(v=vs.85))，例如 [開始] 功能表、主控台和 Microsoft Windows 登錄 (適用于 Windows Vista 和更新版本的 Internet Explorer 7 和更新版本) 。
+-   針對[網際網路、內部網路和限制的網站區域，](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms537187(v=vs.85))預設會啟用[受保護模式](/previous-versions/windows/internet-explorer/ie-developer/)。 此模式[會封鎖可能造成安全性風險的瀏覽器延伸模組，使其無法從執行](/previous-versions/windows/internet-explorer/ie-developer/compatibility/dd565645(v=vs.85))和[較低許可權的應用程式存取更高許可權的進程](/previous-versions/windows/internet-explorer/ie-developer/compatibility/dd565646(v=vs.85))，例如 [開始] 功能表、主控台和 Microsoft Windows registry (適用于 Internet Explorer Vista 和更新版本 Windows) 7 和更新版本。
 
 <!-- -->
 
 -   [受保護模式更新](/previous-versions/windows/internet-explorer/ie-developer/compatibility/dd565648(v=vs.85))：內部網路會在中型 (中執行，而不是預設的低) 完整性層級。
--   [鬆散結合的 Internet Explorer](https://www.microsoft.com/windows/internet-explorer/readiness/developers-existing.aspx#lcie) 可能會封鎖附加元件 (，也就是執行下列其中一項的 ActiveX 控制項和 COM 物件) ：
+-   [鬆散結合的 Internet Explorer](https://www.microsoft.com/windows/internet-explorer/readiness/developers-existing.aspx#lcie)可能會封鎖附加元件 (亦即 ActiveX 控制項和 COM 物件，) 執行下列其中一項動作：
     -   使用 windows 階層技術來找出 UI 框架和索引標籤 windows (，這些視窗現在會在不同的完整性層級) 的不同進程中執行。
     -   從低完整性的索引標籤程式，建立 UI 框架的子類別 (現在是) 的整合層級。
     -   在 UI 框架與索引標籤之間使用不支援的訊息技術。

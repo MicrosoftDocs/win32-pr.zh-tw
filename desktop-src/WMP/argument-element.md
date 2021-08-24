@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 1c4adc0b853054d448bc9955f3bd8c64115ac2ab
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6c7250118ec207911af4b772ef2ff1f3d1b5a26f85d2a824dc41744964696e4b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106987169"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119737178"
 ---
 # <a name="argument-element"></a>引數元素
 
@@ -66,7 +66,7 @@ ms.locfileid: "106987169"
 <thead>
 <tr class="header">
 <th>屬性值</th>
-<th>Description</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -110,7 +110,7 @@ ms.locfileid: "106987169"
 <td>當<strong>片段</strong>專案的 [<strong>名稱</strong>] 屬性是 [ &quot; 限制大小總計] 時 &quot; ，<strong>引數</strong>元素的內容必須是下列其中一項： kb、mb 或 gb。當<strong>片段</strong>專案的<strong>name</strong>屬性是 [ &quot; 限制的總持續時間] 時 &quot; ，<strong>引數</strong>元素的內容必須是下列其中一項：秒、分鐘、小時或天。<br/></td>
 </tr>
 <tr class="even">
-<td>Number</td>
+<td>數字</td>
 <td><strong>引數</strong>元素的內容是一個數位，可限制播放清單的大小或持續時間。例子：<br/>
 <pre data-space="preserve"><code><fragment name = &quot;Limit Total Size To&quot;>
   <argument name = &quot;Format&quot;>Megabytes</argument>
@@ -141,12 +141,12 @@ ms.locfileid: "106987169"
 <thead>
 <tr class="header">
 <th>屬性值</th>
-<th>Description</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Number</td>
+<td>數字</td>
 <td><strong>引數</strong>元素的內容是一個數位，可限制播放清單中的專案數。例子：<br/>
 <pre data-space="preserve"><code><fragment name = &quot;Limit Number of Items&quot;>
   <argument name = &quot;Number&quot;>15</argument>
@@ -176,7 +176,7 @@ ms.locfileid: "106987169"
 [**片段元素**](fragment-element.md)
 </dt> <dt>
 
-[**Windows Media 播放清單元素參考**](windows-media-playlist-elements-reference.md)
+[**WindowsMedia 播放清單元素參考**](windows-media-playlist-elements-reference.md)
 </dt> </dl>
 
  

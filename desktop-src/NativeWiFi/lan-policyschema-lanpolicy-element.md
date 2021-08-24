@@ -12,12 +12,12 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: 1b424a47405aa8f32276019a85902bd51b173cc1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 468e9fb0500c4a514b7b0a9dddea023f0851b9f7ba783504548f2285810ffffa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106990333"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119780178"
 ---
 # <a name="lanpolicy-element"></a>LANPolicy 元素
 
@@ -79,7 +79,7 @@ LANPolicy 元素包含有線區域網路原則。 此元素是有線網路原則
 
 
 
-| 元素                                                                           | 類型                                                     | Description                                                                                                                                                                          |
+| 元素                                                                           | 類型                                                     | 描述                                                                                                                                                                          |
 |-----------------------------------------------------------------------------------|----------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**描述**](lan-policyschema-description-lanpolicy-element.md)             | [**nameType**](lan-policyschema-nametype-simpletype.md) | 包含有線區域網路原則的描述。 <br/>                                                                                                                          |
 | [**enableAutoConfig**](lan-policyschema-enableautoconfig-globalflags-element.md) | boolean                                                  | 指定電腦是否使用內建的自動設定服務來管理需要第2層驗證 (（例如 802.1 X) ）之有線網路的連接。<br/> |
@@ -99,8 +99,8 @@ LANPolicy 元素包含有線區域網路原則。 此元素是有線網路原則
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

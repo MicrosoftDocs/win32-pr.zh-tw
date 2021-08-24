@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 19ad741762c0a29f5de4de03985a5bee22eea696
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: d6ebccfb75abd55a9bf3df69051195a1ca73204a578321d91e5c7cfae433f923
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110033"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119701518"
 ---
 # <a name="reset-method-of-the-cim_currentsensor-class"></a>CIM CurrentSensor 類別的 Reset 方法 \_
 

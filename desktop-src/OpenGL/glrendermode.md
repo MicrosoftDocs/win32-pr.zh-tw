@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: af07d2492d70f9c0a3a764d767b52b2f71204939
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 93eb3c7e2d7f4a6d261632e0f010cf0e1c7a2410a5a8364a6cf1fd65f36ada99
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104106199"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119777928"
 ---
 # <a name="glrendermode-function"></a>glRenderMode 函式
 
@@ -65,7 +65,7 @@ GLint WINAPI glRenderMode(
 
 
 
-| Name                                                                                                  | 意義                                                                                                                                     |
+| 名稱                                                                                                  | 意義                                                                                                                                     |
 |-------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**GL \_ 無效 \_ 列舉**</dt> </dl>      | *模式* 不是三個接受的值之一。<br/>                                                                                     |
 | <dl> <dt>**GL \_ 不正確 \_ 操作**</dt> </dl> | 呼叫函式時，會使用引數 GL SELECT 來呼叫該函式， \_ 然後至少呼叫 [**glSelectBuffer**](glselectbuffer.md) 一次。<br/>       |

@@ -4,12 +4,12 @@ ms.assetid: 18a03469-737a-4905-9851-f7961c46b867
 title: Windows Server 2008 R2 中的檔案複寫服務 (FRS) 已淘汰
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9d3c34e43daf8346888a32ef76d55f93ac5a563e
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: e72940d2b73b807d5420aface3096714ac132df2095d154fc7563717c33fa6e1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108088366"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119759938"
 ---
 # <a name="file-replication-service-frs-is-deprecated-in-windows-server-2008-r2"></a>Windows Server 2008 R2 中的檔案複寫服務 (FRS) 已淘汰
 
@@ -23,13 +23,13 @@ ms.locfileid: "108088366"
 **頻率-** 高  
 
 
-## <a name="description"></a>Description
+## <a name="description"></a>描述
 
-在 Windows Server 2008 R2 中， (FRS) 的檔案複寫服務無法用於複寫分散式檔案系統 (DFS) 資料夾或自訂 (非 SYSVOL) 資料。 Windows Server 2008 R2 網域控制站仍可使用 FRS 來複寫網域中使用 FRS 來複寫網域控制站之間 SYSVOL 共用的 SYSVOL 共用內容。 不過，Windows Server 2008 R2 伺服器無法使用 FRS 來複寫 SYSVOL 共用以外的任何複本集的內容。 DFS 複寫服務是 FRS 的替代方案，可用來複寫 SYSVOL 共用、DFS 資料夾，以及其他自訂 (非 SYSVOL) 資料的內容。 將所有非 SYSVOL 的 FRS 複本集遷移至 DFS 複寫。 我們也強烈建議您將 SYSVOL 共用的複寫從 FRS 遷移至 DFS 複寫，因為 DFS 複寫更健全、可調整規模，且複寫效能比 FRS 更好。
+在 Windows Server 2008 R2 中， (FRS) 的檔案複寫服務無法用於複寫分散式檔案系統 (DFS) 資料夾或自訂 (非 SYSVOL) 資料。 Windows Server 2008 R2 網域控制站仍可使用 frs 來複寫網域中使用 frs 來複寫網域控制站之間 sysvol 共用的 sysvol 共用內容。 不過，Windows Server 2008 R2 伺服器無法使用 FRS 來複寫 SYSVOL 共用以外的任何複本集的內容。 DFS 複寫服務是 FRS 的替代方案，可用來複寫 SYSVOL 共用、DFS 資料夾，以及其他自訂 (非 SYSVOL) 資料的內容。 將所有非 SYSVOL 的 FRS 複本集遷移至 DFS 複寫。 我們也強烈建議您將 SYSVOL 共用的複寫從 FRS 遷移至 DFS 複寫，因為 DFS 複寫更健全、可調整規模，且複寫效能比 FRS 更好。
 
 ## <a name="manifestation"></a>表現
 
-自訂資料的 FRS 複寫會在就地升級時中斷將失效。 從這種情況復原的唯一方法是在伺服器上重新安裝較舊的作業系統，然後重新初始化 FRS 複寫。 升級至 Windows Server 2008 R2 的伺服器不能參與現有的 FRS 複寫群組。
+自訂資料的 FRS 複寫會在就地升級時中斷將失效。 從這種情況復原的唯一方法是在伺服器上重新安裝較舊的作業系統，然後重新初始化 FRS 複寫。 已升級為 Windows Server 2008 R2 的伺服器不允許參與現有的 FRS 複寫群組。
 
 ## <a name="mitigation-of-impact"></a>影響緩和措施
 

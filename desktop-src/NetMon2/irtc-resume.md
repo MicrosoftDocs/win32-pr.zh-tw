@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: 55e5cb66eecbee96df9573e9347d1f32e3508d2b
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: f8b8cebaf14f5e6a42a938a8fe585934137a899f8afaeb2d28533c0c0cfa18b3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108110558"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119742978"
 ---
 # <a name="irtcresume-method"></a>IRTC：： Resume 方法
 
@@ -46,11 +46,11 @@ HRESULT STDMETHODCALLTYPE Resume();
 
 
 
-| 傳回碼                                                                                                | Description                                                                                                                   |
+| 傳回碼                                                                                                | 描述                                                                                                                   |
 |------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**NMERR \_ CAPTURE \_ 未 \_ 暫停**</dt> </dl> | 捕捉未暫停。 呼叫 [IRTC：:P ause](irtc-pause.md) 暫停捕捉。<br/>                                |
-| <dl> <dt>**NMERR \_ 未 \_ 連接**</dt> </dl>       | NPP 未連接到網路。 呼叫 [IRTC：： connect](irtc-connect.md) 以將 NPP 連接到網路。<br/> |
-| <dl> <dt>**NMERR \_ 無法 \_ 即時**</dt> </dl>        | NPP 已連接到網路，但不是使用 [IRTC：： Connect](irtc-connect.md) 方法。<br/>                     |
+| <dl> <dt>**NMERR \_ 未 \_ 連接**</dt> </dl>       | NPP 未連接到網路。 呼叫[IRTC：：連線](irtc-connect.md)將 NPP 連接到網路。<br/> |
+| <dl> <dt>**NMERR \_ 無法 \_ 即時**</dt> </dl>        | NPP 是連接到網路，但不是使用[IRTC：：連線](irtc-connect.md)方法。<br/>                     |
 
 
 
@@ -84,7 +84,7 @@ HRESULT STDMETHODCALLTYPE Resume();
 [IRTC](irtc.md)
 </dt> <dt>
 
-[IRTC：： Connect](irtc-connect.md)
+[IRTC：：連線](irtc-connect.md)
 </dt> <dt>
 
 [IRTC：:P ause](irtc-pause.md)

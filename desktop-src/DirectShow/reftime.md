@@ -4,12 +4,12 @@ ms.assetid: 0c5eed92-9f98-49ed-aab0-5958ee574fe9
 title: 'REFTIME (Strmif) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 89e55c7c755dc0395d9fc3a638fe4a4bf9f64fc0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b843570a097db3582b391fec1167dcac8013534d416bc97a42e8798ff8583fe2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106996041"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119697068"
 ---
 # <a name="reftime"></a>REFTIME
 
@@ -36,7 +36,7 @@ typedef double REFTIME;
 
 <dl> <dt>
 
-[DirectShow 資料類型](directshow-data-types.md)
+[DirectShow資料類型](directshow-data-types.md)
 </dt> </dl>
 
  

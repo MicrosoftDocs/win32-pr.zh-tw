@@ -4,12 +4,12 @@ ms.assetid: 442af2a3-d62a-4dd8-a934-da69c1d2a738
 title: 使用終止處理常式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8cbe73eda8533ed5805159d5386b69daa4d03194
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 8d6fe2d2ba8a7b8443eb164571a42347ce6cfb7e99c44f90da25c6fd57863e0f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936281"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119655078"
 ---
 # <a name="using-a-termination-handler"></a>使用終止處理常式
 

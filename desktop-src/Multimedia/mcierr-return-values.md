@@ -3,7 +3,7 @@ title: MCIERR 傳回值
 description: MCIERR 傳回值
 ms.assetid: 61f7b128-b4f7-4385-9daf-e2bc9fb36e24
 keywords:
-- Windows 多媒體，MCIERR 傳回值
+- Windows 多媒體、MCIERR 傳回值
 - 多媒體、MCIERR 傳回值
 - 多媒體參考，MCIERR 傳回值
 - 多媒體的參考，MCIERR 傳回值
@@ -24,12 +24,12 @@ keywords:
 - MCI 參考，錯誤
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d8912284b98b2aacb60905e3fef4dc32705a5656
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 57fc8426b264f68d7a6ab793e365d529774c931e72d89536b40b22592728a2ba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106967476"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119783408"
 ---
 # <a name="mcierr-return-values"></a>MCIERR 傳回值
 
@@ -43,6 +43,6 @@ ms.locfileid: "106967476"
 
 您可以藉由將傳回值傳遞至 [**mciGetErrorString**](/previous-versions//dd757158(v=vs.85)) 函式，來取得個別傳回值的描述。
 
- 
+ 
 
- 
+ 

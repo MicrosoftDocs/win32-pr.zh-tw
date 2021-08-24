@@ -4,12 +4,12 @@ description: 這些範例只適用于開發人員認為需要擴充宣告為可�
 ms.assetid: 048e42f5-66d8-41c6-9e97-8da68c9ad151
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b3ecf34bb8e90aad8c28f582860d44e81706e77
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0018ebf3896091915a93239834f733872206cb1efa8bcf8d16c25a0dffbea2c1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103670915"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119801958"
 ---
 # <a name="ndf-helper-class-extension-examples"></a>NDF Helper 類別延伸模組範例
 
@@ -19,9 +19,9 @@ ms.locfileid: "103670915"
 
 第二種是具有交付功能的 NDF 協助程式 [類別延伸](ndf-helper-class-example-with-handoff.md)，提供的延伸模組範例不會執行特定的診斷工作，而只會在第一個範例中產生 SimpleHelperFileClass 的低健康情況假設。
 
- 
+ 
 
- 
+ 
 
 
 

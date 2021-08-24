@@ -4,12 +4,12 @@ ms.assetid: m:microsoft.directx_sdk.template.xmvectorinsert(xmvector,xmvector)
 title: 'XMVectorInsert template (DirectXMath) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3250ad52ab19a127b110b02ecf71543f44708681
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b90eb7348639e6993cb69ef9e82ab78ed989999ea8423f1f6ff8bd9deb7c70d0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990661"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119739749"
 ---
 # <a name="xmvectorinsert-template"></a>XMVectorInsert 範本
 
@@ -28,7 +28,7 @@ template<uint32_t VSLeftRotateElements, uint32_t Select0, uint32_t Select1, uint
 
 <dl> <dt>
 
-<span id="VD"></span><span id="vd"></span>*Vd*
+<span id="VD"></span><span id="vd"></span>*VD*
 </dt> <dd>
 
 \[\]要插入的向量。
@@ -61,7 +61,7 @@ template<uint32_t VSLeftRotateElements, uint32_t Select0, uint32_t Select1, uint
 
 ### <a name="platform-requirements"></a>平台需求
 
-Microsoft Visual Studio 2010 或 Microsoft Visual Studio 2012 搭配 Windows 8 的 Windows SDK。 Win32 桌面應用程式、Windows Store 應用程式和 Windows Phone 8 應用程式均可支援。
+Microsoft Visual Studio 2010 或 Microsoft Visual Studio 2012 搭配 Windows 8 的 Windows SDK。 支援 Win32 傳統型應用程式、Windows 儲存應用程式，以及 Windows Phone 8 個應用程式。
 
 ## <a name="requirements"></a>規格需求
 

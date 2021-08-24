@@ -1,9 +1,9 @@
 ---
 title: 'MIM_MOREDATA 訊息 (Mmsystem .h) '
-description: '\_當 midi 輸入裝置收到 midi 訊息，但應用程式未及時處理 MIM \_ 資料訊息，以跟上輸入裝置磁碟機時，就會將 mim MOREDATA 訊息傳送至 midi 輸入回撥函式。'
+description: '\_當 midi 輸入裝置收到 midi 訊息時，會將 MIM MOREDATA 訊息傳送至 midi 輸入回撥函式，但應用程式 MIM \_ 資料訊息的速度不夠快，無法跟上輸入裝置磁碟機。'
 ms.assetid: 74ed46ab-a18e-4df5-bf36-ab3dec7fafa5
 keywords:
-- MIM_MOREDATA message Windows 多媒體
+- MIM_MOREDATA 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c6342823e13a085b377a3e71f28a0f9ff016681c
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: 130a07d1d205e9944c7be6ab9ad1294e09d0ebdcdb81d5befc5468ff5a65218f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113119403"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119782968"
 ---
-# <a name="mim_moredata-message"></a>MIM \_ MOREDATA 訊息
+# <a name="mim_moredata-message"></a>MIM \_MOREDATA 訊息
 
-當 MIDI 輸入裝置收到 MIDI 訊息，但應用程式未及時處理 [**MIM \_ 資料**](mim-data.md)訊息，以跟上輸入裝置磁碟機時，就會將 **mim \_ MOREDATA** 訊息傳送至 midi 輸入回撥函式。 只有當應用程式在 MidiInOpen 函式 \_ \_ 的呼叫中指定 MIDI IO 狀態[](/windows/win32/api/mmeapi/nf-mmeapi-midiinopen)時，回呼函式才會收到此訊息。
+當 midi 輸入裝置收到 midi 訊息時，會將 **MIM \_ MOREDATA** 訊息傳送至 midi 輸入回撥函式，但應用程式 [**MIM \_ 資料**](mim-data.md)訊息的速度不夠快，無法跟上輸入裝置磁碟機。 只有當應用程式在 MidiInOpen 函式 \_ \_ 的呼叫中指定 MIDI IO 狀態[](/windows/win32/api/mmeapi/nf-mmeapi-midiinopen)時，回呼函式才會收到此訊息。
 
 
 ```C++
@@ -73,9 +73,9 @@ dwParam2 = dwTimestamp
 
 ## <a name="remarks"></a>備註
 
-應用程式應該只進行最低限度的 MIM \_ MOREDATA 訊息處理。  (特別是，應用程式在處理 MIM MOREDATA 時不應呼叫 [PostMessage](/windows/win32/api/winuser/nf-winuser-postmessagea) 函式 \_ 。 ) 相反地，應用程式應該將事件資料放入緩衝區，然後再傳回。
+應用程式應該只對 MIM MOREDATA 訊息進行少量的處理 \_ 。  (特別是，應用程式在處理 MIM MOREDATA 時，不應呼叫[PostMessage](/windows/win32/api/winuser/nf-winuser-postmessagea)函式 \_ 。 ) 相反地，應用程式應該將事件資料放入緩衝區，然後再傳回。
 
-當應用程式在一系列的 MIM MOREDATA 訊息之後收到 [**mim \_ 資料**](mim-data.md) 訊息時 \_ ，它會攔截傳入的 MIDI 事件，並且可以安全地呼叫需要大量時間的函式。
+當應用程式在一系列的 MIM MOREDATA 訊息之後收到 [**MIM 的 \_ 資料**](mim-data.md)訊息時 \_ ，它會攔截傳入的 MIDI 事件，並且可以安全地呼叫需要大量時間的函式。
 
 從 MIDI 輸入埠接收的 MIDI 訊息已停用執行中狀態;每個訊息都會展開以包含 MIDI 狀態位元組。
 
@@ -89,7 +89,7 @@ dwParam2 = dwTimestamp
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                                |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                      |
-| 標頭<br/>                   | <dl> <dt>Mmsystem (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Mmsystem (包含 Windows .h) </dt> </dl> |
 
 
 

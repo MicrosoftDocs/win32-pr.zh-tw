@@ -17,12 +17,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 57812ef7c8550937b009e4ff4855321983391585
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 21c1ce2f2ffd9c06a9c6ba07766e212d1896a6851d3bd1a578acc490b05421df
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106969156"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119815798"
 ---
 # <a name="mdm_firewall_privateprofile02-class"></a>MDM \_ 防火牆 \_ PrivateProfile02 類別
 
@@ -233,7 +233,7 @@ class MDM_Firewall_PrivateProfile02
 
 | 需求 | 值 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 10 桌面應用程式\]<br/>                                                     |
+| 最低支援的用戶端<br/> | Windows 10 \[僅限桌面應用程式\]<br/>                                                     |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                       |
 | 命名空間<br/>                | 根 \\ cimv2 \\ mdm \\ dmmap<br/>                                                              |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv1 mof</dt> </dl> |

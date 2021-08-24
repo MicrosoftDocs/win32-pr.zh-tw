@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: a0fcd16f1cf3489edc4639452fe448ce29354080
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d79b03d8698b14b61bd35db92748e1834282a1c1813eb5f7231392b71f0b1a20
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848183"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119801108"
 ---
 # <a name="lan_policy-schema-simple-types"></a>LAN \_ 原則架構簡單類型
 

@@ -6,12 +6,12 @@ keywords:
 - LaunchPermission 登錄值 COM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b0e4c50568cae791f08b47fc44e10cc0d35fef07
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c5967ee63288b11edca017820b9a367dd4e6c017e993330616e633e7448a098b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104022099"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119756098"
 ---
 # <a name="launchpermission"></a>LaunchPermission
 
@@ -21,8 +21,8 @@ ms.locfileid: "104022099"
 
 ```
 HKEY_LOCAL_MACHINE\SOFTWARE\Classes\AppID
-   {AppID_GUID}
-      LaunchPermission = ACL
+   {AppID_GUID}
+      LaunchPermission = ACL
 ```
 
 ## <a name="remarks"></a>備註
@@ -42,9 +42,9 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Classes\AppID
 [COM 中的安全性](security-in-com.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

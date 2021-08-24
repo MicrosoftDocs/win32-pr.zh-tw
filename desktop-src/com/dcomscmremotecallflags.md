@@ -6,12 +6,12 @@ keywords:
 - DCOMSCMRemoteCallFlags 登錄值 COM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6fda58975e40ac6ac1633db8aa78f2c7636f9103
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 81d658b80d347e684aa42aebad936a863b9bca2138b3118508849a730e11878d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104024148"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119678827"
 ---
 # <a name="dcomscmremotecallflags"></a>DCOMSCMRemoteCallFlags
 
@@ -21,7 +21,7 @@ ms.locfileid: "104024148"
 
 ```
 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Ole
-   DCOMSCMRemoteCallFlags = value
+   DCOMSCMRemoteCallFlags = value
 ```
 
 ## <a name="remarks"></a>備註
@@ -40,15 +40,15 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Ole
 
 
 
- 
+ 
 
 ## <a name="dcomscm_activation_use_all_authnservices-description"></a>DCOMSCM \_ 啟用 \_ 使用 \_ 所有 \_ AUTHNSERVICES 描述
 
 當用戶端發出使用預設安全性設定的啟用要求時，本機 DCOMSCM 會在對遠端 DCOMSCM 進行啟用 RPC 呼叫時使用「協商驗證」服務。 如果呼叫失敗，本機 DCOMSCM 會使用沒有安全性的啟用 RPC 呼叫。
 
-**Windows Server 2003 和 WINDOWS XP/2000：** 如果使用「協商驗證」服務的啟用 RPC 呼叫失敗，本機 DCOMSCM 會使用 Kerberos、NTLM 或其他已設定的安全性提供者來進行啟用 RPC 呼叫。 如果沒有任何安全性提供者可運作，則本機 DCOMSCM 會使用沒有安全性的啟用 RPC 呼叫。
+**Windows Server 2003 和 Windows XP/2000：** 如果使用「協商驗證」服務的啟用 RPC 呼叫失敗，本機 DCOMSCM 會使用 Kerberos、NTLM 或其他已設定的安全性提供者來進行啟用 RPC 呼叫。 如果沒有任何安全性提供者可運作，則本機 DCOMSCM 會使用沒有安全性的啟用 RPC 呼叫。
 
-藉由設定此旗標，您可以在 Windows Vista 或更高版本上執行本機 DCOMSCM，使其行為類似于 Vista 之前的系統。 除非相容性原因需要，否則不建議設定此旗標。
+藉由設定此旗標，Windows Vista 或更高版本上的本機 DCOMSCM 可進行的行為就像是 vista 之前的系統。 除非相容性原因需要，否則不建議設定此旗標。
 
 ## <a name="dcomscm_activation_disallow_unsecure_call-description"></a>DCOMSCM \_ 啟用不 \_ 允許不安全的 \_ \_ 呼叫描述
 
@@ -60,9 +60,9 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Ole
 
 當用戶端拆收物件參考時，本機 DCOMSCM 會在對遠端 DCOMSCM 進行 OXID 解析 RPC 呼叫時，使用「協商驗證」服務。 如果呼叫失敗，本機 DCOMSCM 會使用沒有安全性的方式來進行 OXID 解析 RPC 呼叫。
 
-**Windows Server 2003 和 WINDOWS XP/2000：** 如果使用「協商驗證」服務的 OXID 解析 RPC 呼叫失敗，本機 DCOMSCM 會使用 Kerberos、NTLM 或其他已設定的安全性提供者來進行 OXID 解析 RPC 呼叫。 如果沒有任何安全性提供者可運作，則本機 DCOMSCM 會使用沒有安全性的方式進行 OXID 解析 RPC 呼叫。
+**Windows Server 2003 和 Windows XP/2000：** 如果使用「協商驗證」服務的 OXID 解析 RPC 呼叫失敗，本機 DCOMSCM 會使用 Kerberos、NTLM 或其他已設定的安全性提供者來進行 OXID 解析 RPC 呼叫。 如果沒有任何安全性提供者可運作，則本機 DCOMSCM 會使用沒有安全性的方式進行 OXID 解析 RPC 呼叫。
 
-藉由設定此旗標，您可以在 Windows Vista 或更高版本上執行本機 DCOMSCM，使其行為類似于 Vista 之前的系統。 除非相容性原因需要，否則不建議設定此旗標。
+藉由設定此旗標，Windows Vista 或更高版本上的本機 DCOMSCM 可進行的行為就像是 vista 之前的系統。 除非相容性原因需要，否則不建議設定此旗標。
 
 ## <a name="dcomscm_resolve_disallow_unsecure_call-description"></a>DCOMSCM \_ RESOLVE 不 \_ 允許不安全的 \_ \_ 通話描述
 
@@ -72,9 +72,9 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Ole
 
 本機 DCOMSCM 會在對遠端 DCOMSCM 進行垃圾收集 Ping RPC 呼叫時，使用「協商驗證」服務。 如果呼叫失敗，本機 DCOMSCM 會使用沒有安全性的進行垃圾收集 Ping RPC 呼叫。
 
-**Windows Server 2003 和 WINDOWS XP/2000：** 如果使用「協商驗證」服務的垃圾收集 Ping RPC 呼叫失敗，則本機 DCOMSCM 會使用 Kerberos、NTLM 和其他已設定的安全性提供者，讓垃圾收集 Ping RPC 呼叫。 如果沒有任何安全性提供者可運作，則本機 DCOMSCM 會進行垃圾收集，而不使用安全性來 Ping RPC 呼叫。
+**Windows Server 2003 和 Windows XP/2000：** 如果使用「協商驗證」服務的垃圾收集 Ping RPC 呼叫失敗，則本機 DCOMSCM 會使用 Kerberos、NTLM 和其他已設定的安全性提供者，讓垃圾收集 Ping RPC 呼叫。 如果沒有任何安全性提供者可運作，則本機 DCOMSCM 會進行垃圾收集，而不使用安全性來 Ping RPC 呼叫。
 
-藉由設定此旗標，您可以在 Windows Vista 或更新版本上使用本機 DCOMSCM，使其行為類似于 Vista 之前的系統。 除非相容性原因需要，否則不建議將 **DCOMSCM \_ PING \_ 使用 \_ MID \_ AUTHNSERVICE** 旗標。
+藉由設定此旗標，Windows Vista 或更高版本上的本機 DCOMSCM 可進行的行為就像是 vista 之前的系統。 除非相容性原因需要，否則不建議將 **DCOMSCM \_ PING \_ 使用 \_ MID \_ AUTHNSERVICE** 旗標。
 
 ## <a name="related-topics"></a>相關主題
 
@@ -92,6 +92,6 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Ole
 [COM 中的安全性](security-in-com.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 087612acf99a41966ccd98d3b41d2b83255a86f9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: bc4ee059eb47e08ae827392e8f29968463bb9bd4ca86e0c6b8a87a9f3bbd5667
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106993416"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119697708"
 ---
 # <a name="cfactorytemplatem_pamoviesetup_filter-member"></a>CFactoryTemplate：： m \_ pAMovieSetup \_ 篩選成員
 

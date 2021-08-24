@@ -25,12 +25,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: d21fab1519664471bdc2bb5d7102d94cbe3dde1f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3baf6405f160401b3a2fe8024861d92560484a513e1c55436f9e149e92daed7f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106982763"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119681908"
 ---
 # <a name="msvm_collectionreferencepointexportjob-class"></a>Msvm \_ CollectionReferencePointExportJob 類別
 

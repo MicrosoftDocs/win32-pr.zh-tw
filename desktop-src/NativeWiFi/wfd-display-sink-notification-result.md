@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - wfdsink.h
-ms.openlocfilehash: dc23416d4d13284862aea652dd71909e71879afc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d72f444d409a7a3d43103967aff671fa7c808e5a37858e79f175db3511960e95
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106971607"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119780078"
 ---
 # <a name="wfd_display_sink_notification_result-structure"></a>WFD \_ 顯示 \_ 接收 \_ 通知 \_ 結果結構
 
@@ -112,8 +112,8 @@ typedef struct _WFD_DISPLAY_SINK_NOTIFICATION {
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8.1 桌面應用程式\]<br/>                                         |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 R2 \[ desktop 應用程式\]<br/>                              |
+| 最低支援的用戶端<br/> | Windows 8.1 \[僅限桌面應用程式\]<br/>                                         |
+| 最低支援的伺服器<br/> | Windows Server 2012\[僅限 R2 desktop 應用程式\]<br/>                              |
 | 標頭<br/>                   | <dl> <dt>Wfdsink。h</dt> </dl> |
 
 

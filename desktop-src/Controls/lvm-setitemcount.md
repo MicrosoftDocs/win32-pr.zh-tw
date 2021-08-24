@@ -3,7 +3,7 @@ title: 'LVM_SETITEMCOUNT 訊息 (Commctrl .h) '
 description: 讓清單視圖控制項配置記憶體給指定的專案數，或設定虛擬清單視圖控制項中的虛擬專案數。
 ms.assetid: 5e794c12-ddcb-44fc-b0d2-677352602503
 keywords:
-- LVM_SETITEMCOUNT message Windows 控制項
+- LVM_SETITEMCOUNT 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e390e7ae5913053f91f7f2f8d197af1cf4b7a40
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: be6b35b38c65663d9811a27341cf10d668a9e045641a8ff0871f6b49fe8bcdbe
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104094176"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119656278"
 ---
 # <a name="lvm_setitemcount-message"></a>LVM \_ SETITEMCOUNT 訊息
 
@@ -76,8 +76,8 @@ ms.locfileid: "104094176"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

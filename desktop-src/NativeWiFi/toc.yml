@@ -672,7 +672,7 @@
             - name: IDot11AdHocNetwork
               href: /windows/win32/api/adhoc/nn-adhoc-idot11adhocnetwork
               items:
-                - name: Connect 方法
+                - name: 連線方法
                   href: /windows/win32/api/adhoc/nf-adhoc-idot11adhocnetwork-connect
                 - name: DeleteProfile 方法
                   href: /windows/win32/api/adhoc/nf-adhoc-idot11adhocnetwork-deleteprofile

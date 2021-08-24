@@ -4,17 +4,17 @@ ms.assetid: 814a09e1-2e85-4ea3-9135-8377dc2acf64
 title: ReadyStateChange
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 46cc8d7ffdee650aac48839d49ed8162e10bb955
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 5f73e0b5b7cd7178df31b3f6efda56e398d8cb406598355a3c49702714686af3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104510173"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119697118"
 ---
 # <a name="readystatechange"></a>ReadyStateChange
 
 > [!Note]  
-> 此元件可用於 Microsoft Windows 2000、Windows XP 及 Windows Server 2003 作業系統。 它在後續版本中可能會變更或無法使用。
+> 此元件可在 Microsoft Windows 2000、Windows XP 和 Windows Server 2003 作業系統中使用。 它在後續版本中可能會變更或無法使用。
 
  
 

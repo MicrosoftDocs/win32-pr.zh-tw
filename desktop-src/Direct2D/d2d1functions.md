@@ -6,12 +6,12 @@ keywords:
 - D2D1 命名空間，函數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e94f20d2fcf5d954cacc62e24948ad2a29aa25cb
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: d2dc903ea53080794d6c249dcc18d76ab7207eabfbb024e78a6f0b14e5299676
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104023829"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119757898"
 ---
 # <a name="direct2d-helper-functions"></a>Direct2D helper 函式
 

@@ -12,12 +12,12 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: 31dae7a8805275254a1d398108128380b1aa2e54
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9cb48479b2fe26ecb2667812cc6ee2048226c0665c25b12e25e8c7edbc35dac2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104513348"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119800778"
 ---
 # <a name="maxauthfailures-onex-element"></a>maxAuthFailures (OneX) 元素
 
@@ -25,7 +25,7 @@ MaxAuthFailures (OneX) 元素會指定一組認證所允許的驗證失敗次數
 
 這是選擇性的項目。 當設定檔中未指定 maxAuthFailures 時，會使用一個值。
 
-Windows **xp （含 SP3）和適用于 WINDOWS XP SP2 的無線區域網路 API：** 如果設定檔中有此元素，將會予以忽略。
+**Windows xp 搭配 SP3 和適用于 Windows XP SP2 的無線區域網路 API：** 如果設定檔中有此元素，將會予以忽略。
 
 ``` syntax
 <xs:element name="maxAuthFailures">
@@ -52,8 +52,8 @@ Windows **xp （含 SP3）和適用于 WINDOWS XP SP2 的無線區域網路 API�
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

@@ -1,6 +1,6 @@
 ---
-title: Windows Media Player 自訂視覺效果
-description: Windows Media Player 自訂視覺效果
+title: Windows Media Player自訂視覺效果
+description: Windows Media Player自訂視覺效果
 ms.assetid: 767a22a0-9c8f-4dcf-8ffd-b1c6ec83e230
 keywords:
 - Windows Media Player，視覺效果
@@ -10,14 +10,14 @@ keywords:
 - 自訂視覺效果，關於
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7b95a2932740b4aefb602d16ff9167471b91dd24
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 932a103255fbc5d8e995cceaed2583a7cfdf1c608faf8609f1995c4e26ebc58f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021539"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119761648"
 ---
-# <a name="windows-media-player-custom-visualizations"></a>Windows Media Player 自訂視覺效果
+# <a name="windows-media-player-custom-visualizations"></a>Windows Media Player自訂視覺效果
 
 Microsoft Windows Media Player 提供視覺效果，可讓使用者查看在播放時，會同步處理至媒體內容音效的視覺效果影像。 Windows Media Player 包含數個標準的視覺效果，包括尖峰、橫條和 DotPlane。 SDK 的這一節提供程式設計資訊，可讓您建立自己的視覺效果。
 
@@ -33,18 +33,18 @@ Microsoft Windows Media Player 提供視覺效果，可讓使用者查看在播�
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
 <dl> <dt>
 
-[**Windows Media Player 外掛程式**](windows-media-player-plug-ins.md)
+[**Windows Media Player外掛程式**](windows-media-player-plug-ins.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

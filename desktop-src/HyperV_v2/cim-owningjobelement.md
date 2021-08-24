@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 9d3879104a8f7406ff24dc2f63b79b51eb2fa58c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8ea0e4371246f71d125295730c19de75c59eafb08a4c081699b6b40575f27a99
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106987344"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119694658"
 ---
 # <a name="cim_owningjobelement-class"></a>CIM \_ OwningJobElement 類別
 

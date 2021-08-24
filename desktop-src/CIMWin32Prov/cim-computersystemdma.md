@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 23748a3b10c11878069a81cd82f7f69d0ab75792
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 97e2a3b49f4403a2ec90717fd051a55670d4ff8b7d7a2b78db145b56189a5a38
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973782"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119700828"
 ---
 # <a name="cim_computersystemdma-class"></a>CIM \_ ComputerSystemDMA 類別
 

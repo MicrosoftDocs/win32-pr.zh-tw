@@ -4,12 +4,12 @@ ms.assetid: 831d7bb2-bf01-4422-a940-173f9856a513
 title: 關於 Imagehlp.dll
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b76da517a396536640df0e9bfcfa05368e4d0b76
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 4aee63eba22293fe1fb56cb6608110f4343a0c6bc26a4be597bfbd884cdf87cd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106998434"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119815648"
 ---
 # <a name="about-imagehlp"></a>關於 Imagehlp.dll
 

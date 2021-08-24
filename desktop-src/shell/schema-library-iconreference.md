@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 1f307ecd4fa523cc28881164869dca3329dfd698
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 84e200fa4969dc376661bd32851296d80c74120939afc995754cb2937ea04be3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104991298"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119820228"
 ---
 # <a name="iconreference-element-library-schema"></a>iconReference 元素 (程式庫架構) 
 

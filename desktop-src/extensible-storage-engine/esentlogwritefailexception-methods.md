@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102173
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 8ef12484ddace5449efba3bd1ee192213a781246
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7f7dd6003723df20eab2036d662bcfe85fc44f6598c944ae0f5a506db9c41e18
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104552327"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119836518"
 ---
 # <a name="esentlogwritefailexception-methods"></a>EsentLogWriteFailException 方法
 

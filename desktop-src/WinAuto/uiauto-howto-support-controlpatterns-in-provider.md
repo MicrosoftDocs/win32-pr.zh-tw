@@ -4,12 +4,12 @@ description: 本主題說明 Microsoft 消費者介面自動化提供者如何�
 ms.assetid: 504d0ed8-32c1-43ed-9f71-328a013ab350
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 54e75fa12dba891bc4eded5fd9763f7825eb7f88
-ms.sourcegitcommit: 2e9db3c7d9a3dbea15196b03c883846fad6f32be
+ms.openlocfilehash: 649f9419c5e3003c0185f435cba4d38f4a25c3d7adc1bdc7cf9c53cd06b32a6e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "104313580"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119759228"
 ---
 # <a name="support-control-patterns-in-a-ui-automation-provider"></a>支援 UI 自動化提供者的控制項模式
 
@@ -108,9 +108,9 @@ IFACEMETHODIMP ListProvider::GetPatternProvider(PATTERNID patternId, IUnknown** 
 [消費者介面自動化提供者的使用說明主題](uiauto-howto-topics-for-uiautomation-providers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

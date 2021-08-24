@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Offreg.dll
-ms.openlocfilehash: 59df5b191a9bc0cfe98e1681665c5814935aa2c3
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0b4dde44b6cc6d2c5cfd80f4041cd6370f680eb6ca867e9e8f2bbce5f0702e27
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106992805"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119758508"
 ---
 # <a name="orsavehive-function"></a>ORSaveHive 函式
 
@@ -65,8 +65,8 @@ Unicode 字串的指標，指定登錄 hive 檔案的名稱。 這不可以是�
 
 | 值                                                                        | 意義                                                                                                                                                                                                                        |
 |------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <dl> <dt>5</dt> </dl> | 如果 *dwOsMinorVersion* 是1，則作業系統是 Windows XP。<br/> 如果 *dwOsMinorVersion* 為2，則作業系統為 windows Server 2003 R2、windows server 2003 或 Windows XP Professional x64 Edition。<br/> |
-| <dl> <dt>6</dt> </dl> | 如果 *dwOsMinorVersion* 為0，則作業系統是 windows Server 2008 或 windows Vista。<br/> 如果 *dwOsMinorVersion* 是1，則作業系統是 windows Server 2008 R2 或 windows 7。<br/>                       |
+| <dl> <dt>5</dt> </dl> | 如果 *dwOsMinorVersion* 是1，則作業系統是 Windows XP。<br/> 如果 *dwOsMinorVersion* 為2，則作業系統是 Windows Server 2003 R2、Windows server 2003 或 Windows XP Professional x64 Edition。<br/> |
+| <dl> <dt>6</dt> </dl> | 如果 *dwOsMinorVersion* 為0，則作業系統是 Windows Server 2008 或 Windows Vista。<br/> 如果 *dwOsMinorVersion* 是1，則作業系統是 Windows Server 2008 R2 或 Windows 7。<br/>                       |
 
 
 
@@ -83,9 +83,9 @@ Unicode 字串的指標，指定登錄 hive 檔案的名稱。 這不可以是�
 
 | 值                                                                        | 意義                                                                                                                                                                                                                                       |
 |------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <dl> <dt>0</dt> </dl> | 如果 *dwOsMajorVersion* 為6，則作業系統是 windows Server 2008 或 windows Vista。<br/>                                                                                                                                          |
-| <dl> <dt>1</dt> </dl> | 如果 *dwOsMajorVersion* 是5，則作業系統是 Windows XP。<br/> 如果 *dwOsMajorVersion* 為6，則作業系統是 windows Server 2008 R2 或 windows 7。<br/>                                                                |
-| <dl> <dt>2</dt> </dl> | 如果 *dwOsMajorVersion* 是5，則作業系統是 windows Server 2003 R2、windows server 2003 或 Windows XP Professional x64 Edition。 <br/> 如果 *dwOsMajorVersion* 為6， *dwOsMinorVersion* 參數必須是0或1。 <br/> |
+| <dl> <dt>0</dt> </dl> | 如果 *dwOsMajorVersion* 為6，則作業系統是 Windows Server 2008 或 Windows Vista。<br/>                                                                                                                                          |
+| <dl> <dt>1</dt> </dl> | 如果 *dwOsMajorVersion* 是5，則作業系統是 Windows XP。<br/> 如果 *dwOsMajorVersion* 為6，則作業系統是 Windows Server 2008 R2 或 Windows 7。<br/>                                                                |
+| <dl> <dt>2</dt> </dl> | 如果 *dwOsMajorVersion* 是5，則作業系統是 Windows Server 2003 R2、Windows server 2003 或 Windows XP Professional x64 Edition。 <br/> 如果 *dwOsMajorVersion* 為6， *dwOsMinorVersion* 參數必須是0或1。 <br/> |
 
 
 
@@ -137,7 +137,7 @@ Unicode 字串的指標，指定登錄 hive 檔案的名稱。 這不可以是�
 
 | 需求 | 值 |
 |----------------------------|---------------------------------------------------------------------------------------|
-| 可轉散發套件<br/> | Windows Offline Registry library 1.0 版或更新版本<br/>                      |
+| 可轉散發套件<br/> | Windows離線登錄庫1.0 版或更新版本<br/>                      |
 | 標頭<br/>          | <dl> <dt>Offreg。h</dt> </dl>   |
 | DLL<br/>             | <dl> <dt>Offreg.dll</dt> </dl> |
 

@@ -4,16 +4,16 @@ ms.assetid: fa43fad9-804c-42d9-9717-6686d5f98ed8
 title: 使用 COM 程式庫
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d82671b198114cf45b334e8c4e07146a91964e4d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cdbf986d79011301abe6a9f279a83278fda5dd9e33e3a79335d7d94e6081fb11
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318288"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119819138"
 ---
 # <a name="using-the-com-library"></a>使用 COM 程式庫
 
-Tablet PC 受控程式庫參考現在可在一般的 Windows Vista SDK 類別庫參考區段中找到。 它會提供 Microsoft Visual C++ 的物件模型。 COM 程式庫中大部分的物件都與在 Tablet PC 受控 API 中找到的物件完全相同。
+Tablet PC 受控程式庫參考現在可在一般的 Windows Vista SDK 類別庫參考一節中找到。 它會提供 Microsoft Visual C++ 的物件模型。 COM 程式庫中大部分的物件都與在 Tablet PC 受控 API 中找到的物件完全相同。
 
 不過，除了標準 Microsoft Win32 環境和 Microsoft .NET Frameworksoftware 開發工具組 (SDK) 環境之間的差異之外，COM API 還包含一些成員，這些成員是在受控 API 中找到的成員。 例如，InkRectangle 和 InkTransform 物件是用於 COM 中，但 FrameworkSDK 提供 [**InkRectangle 類別**](inkrectangle-class.md) 和 [**InkTransform 類別**](inktransform-class.md) 的原生實作為，在 Tablet PC 平臺管理的 API 中不需要這些物件。
 

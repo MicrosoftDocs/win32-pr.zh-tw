@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: CIM_TapeDrive 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f65d12ce24a5dd48f9b5f78e688c71077c549e1d
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: a763ad33f005704d0d7cd922e3389922638f51a5bd4c354a5fe66b5c2cf8026f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936533"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119817588"
 ---
 # <a name="cim_tapedrive-methods"></a>CIM \_ Disable-tapedrive 方法
 

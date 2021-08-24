@@ -4,12 +4,12 @@ ms.assetid: b47c1ed3-ce72-437e-a46d-2b59193987d6
 title: 關於色彩
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c410ecd6c32f38075732da08845ef2f71d0c83f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 658c33ad6fc050612d0beaf80044aca42bd72cc2452d9a9d48e3975ae6a28ded
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972476"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119779484"
 ---
 # <a name="about-colors"></a>關於色彩
 
@@ -20,7 +20,7 @@ ms.locfileid: "104972476"
 -   [色彩基本知識](color-basics.md)
 -   [色彩調色板](color-palettes.md)
 
-雖然本總覽未說明，但影像色彩比對是色彩管理的一項重要功能，可協助確保色彩影像看起來會像是在螢幕上顯示或列印在紙張上一樣。 如需詳細資訊，請參閱 [Windows 色彩系統](/previous-versions//dd372446(v=vs.85))。
+雖然本總覽未說明，但影像色彩比對是色彩管理的一項重要功能，可協助確保色彩影像看起來會像是在螢幕上顯示或列印在紙張上一樣。 如需詳細資訊，請參閱[Windows 色彩系統](/previous-versions//dd372446(v=vs.85))。
 
  
 

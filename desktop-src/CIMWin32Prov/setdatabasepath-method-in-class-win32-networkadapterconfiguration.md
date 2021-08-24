@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: b66a9979ec97d4ceda16acad6488d3b84d5d3a54
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 24fd4802afd29d11c6c5f11a4f86f72cc818a5413cdd8f12f298f46a85a63b9d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510723"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119760128"
 ---
 # <a name="setdatabasepath-method-of-the-win32_networkadapterconfiguration-class"></a>Win32 >networkadapterconfiguration 類別的 SetDatabasePath 方法 \_
 
@@ -45,7 +45,7 @@ uint32 SetDatabasePath(
 *DatabasePath* \[在\]
 </dt> <dd>
 
-標準網際網路資料庫檔案的有效檔案路徑， (主機、LMHOSTS、網路和通訊協定) Windows 通訊端介面所使用的通訊協定。
+標準網際網路資料庫檔案的有效檔案路徑， (主機、LMHOSTS、網路和通訊協定，) 由 Windows 通訊端介面使用。
 
 </dd> </dl>
 
@@ -410,7 +410,7 @@ Windows 通訊端介面會使用這個方法。 預設路徑為% SystemRoot% \\ 
 
 ## <a name="examples"></a>範例
 
-TechNet 資源庫上的 [所有網路介面卡 VBScript 範例的修改資料庫路徑](https://Gallery.TechNet.Microsoft.Com/94bfa42f-f6a3-482f-8d5a-5445a2475bee) 使用 **SetDatabasePath** 來設定標準網際網路資料庫檔案的路徑， (主機、LMHOSTS、網路、) Windows 通訊端介面所使用的通訊協定。
+TechNet 資源庫上的 [所有網路介面卡 VBScript 範例的修改資料庫路徑](https://Gallery.TechNet.Microsoft.Com/94bfa42f-f6a3-482f-8d5a-5445a2475bee)使用 **SetDatabasePath** 來設定標準網際網路資料庫檔案的路徑， (主機、LMHOSTS、網路、) Windows 通訊端介面所使用的通訊協定。
 
 ## <a name="requirements"></a>規格需求
 

@@ -3,7 +3,7 @@ title: 'TB_GETIDEALSIZE 訊息 (Commctrl .h) '
 description: 取得工具列的理想大小。
 ms.assetid: d3b5ea4d-fd80-4f07-be4f-89b53a8bdf4d
 keywords:
-- TB_GETIDEALSIZE message Windows 控制項
+- TB_GETIDEALSIZE 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a59b8701a4f4debcfb8e43f37068e7e7a4ef4f11
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1844f3ae4200c1120f784c03e5f80d2df4457319cf81e12c88ce0ed84525117d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104024722"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119816308"
 ---
 # <a name="tb_getidealsize-message"></a>TB \_ GETIDEALSIZE 訊息
 
@@ -49,8 +49,8 @@ ms.locfileid: "104024722"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

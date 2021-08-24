@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - wlantypes.h
-ms.openlocfilehash: 7815e75f3ef7ef8d908b7d2b26f2e5f9d3630009
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2d1c83ced842dbb876fea89271a160df2ca07fb9f02f415b13f8f1a46bc8dc79
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106982491"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119780318"
 ---
 # <a name="dot11_bss_type-enumeration"></a>DOT11 \_ BSS \_ 類型列舉
 
@@ -68,8 +68,8 @@ typedef enum _DOT11_BSS_TYPE {
 
 | 需求 | 值 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows Vista、Windows XP （僅含 SP3） \[ 桌面應用程式\]<br/>                                         |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                                        |
+| 最低支援的用戶端<br/> | WindowsVista，Windows XP 只提供 SP3 \[ desktop 應用程式\]<br/>                                         |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                                        |
 | 可轉散發套件<br/>          | 適用于 Windows XP SP2 的無線區域網路 API<br/>                                                         |
 | 標頭<br/>                   | <dl> <dt>Wlantypes (包含 Windot11) </dt> </dl> |
 

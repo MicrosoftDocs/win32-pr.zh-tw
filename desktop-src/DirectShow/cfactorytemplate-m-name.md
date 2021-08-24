@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: ea8a6f3ee79ec5a487456e7571928d91fd2da307
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a3d78833707384825b6b2c6694b70a62618f9fb6cf40bb16bbd2d329ea725807
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990276"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119697868"
 ---
 # <a name="cfactorytemplatem_name-member"></a>CFactoryTemplate：： m \_ Name 成員
 

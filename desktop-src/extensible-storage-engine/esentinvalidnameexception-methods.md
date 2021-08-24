@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101999
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 53c27cf4396a723499dc8143a6d0ce53454752bf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: df6df3984f1b551d6536c5be1306f58c9a92e510f16d3d4c0f8822b525b4c5a0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104565931"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119735058"
 ---
 # <a name="esentinvalidnameexception-methods"></a>EsentInvalidNameException 方法
 

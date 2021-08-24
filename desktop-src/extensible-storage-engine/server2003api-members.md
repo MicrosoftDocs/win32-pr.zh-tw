@@ -7,19 +7,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.serv
 ms:contentKeyID: 55104091
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: e80e429c5df6cee90e843fc2ff96102677a3b940
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: be0b495b8854d9cba9bf3bded07cb77d109c2fc5ba4a988794ff3489634fac54
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104565480"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119780328"
 ---
 # <a name="server2003api-members"></a>Server2003Api 成員
 
 包含受保護的成員  
 包含繼承的成員  
 
-已新增至 Windows Server 2003 版 ESENT 的 Api。
+已新增至 Windows Server 2003 版 ESENT 的 api。
 
 [Server2003Api](./server2003api-class.md)類型會公開下列成員。
 

@@ -18,12 +18,12 @@ api_location:
 - MinKernelBase.dll
 - API-MS-Win-Core-io-l1-1-1.dll
 - api-ms-win-downlevel-kernel32-l1-1-0.dll
-ms.openlocfilehash: d45471cc066e6de7cb388036e06e727fe828a532
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f81bc0c997e3637fa941cb5a23f6394ba1f585566c8d633cadb00c9fd75ac805
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106985694"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119696118"
 ---
 # <a name="getqueuedcompletionstatusex-function"></a>GetQueuedCompletionStatusEx 函式
 
@@ -123,7 +123,7 @@ BOOL WINAPI GetQueuedCompletionStatusEx(
 
 如需 i/o 完成埠理論、使用方式和相關聯函式的詳細資訊，請參閱 [I/o 完成埠](i-o-completion-ports.md)。
 
-在 Windows 8 和 Windows Server 2012 中，下列技術支援此功能。
+在 Windows 8 和 Windows Server 2012 中，下列技術支援此函數。
 
 
 
@@ -145,9 +145,9 @@ BOOL WINAPI GetQueuedCompletionStatusEx(
 
 | 需求 | 值 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows Vista \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                                                                                                                                                                                                   |
-| 最低支援的伺服器<br/> | Windows Server 2008 \[ desktop app \| UWP 應用程式\]<br/>                                                                                                                                                                                                             |
-| 標頭<br/>                   | <dl> <dt>IoAPI (包含 Windows .h) ;</dt><dt>Windows server 2008 R2、windows 7、Windows Server 2008 和 Windows Vista (的 WinBase，包括 windows .h) </dt> </dl> |
+| 最低支援的用戶端<br/> | WindowsVista \[ desktop apps \| UWP 應用程式\]<br/>                                                                                                                                                                                                                   |
+| 最低支援的伺服器<br/> | WindowsServer 2008 \[ desktop app \| UWP 應用程式\]<br/>                                                                                                                                                                                                             |
+| 標頭<br/>                   | <dl> <dt>IoAPI (包含 Windows .h) ;</dt><dt>Windows server 2008 R2、Windows 7、Windows Server 2008 和 Windows Vista (的 WinBase .h 包含 Windows .h) </dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>Kernel32.lib</dt> </dl>                                                                                                                                                                                 |
 | DLL<br/>                      | <dl> <dt>Kernel32.dll</dt> </dl>                                                                                                                                                                                 |
 

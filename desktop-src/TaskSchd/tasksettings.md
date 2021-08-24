@@ -15,12 +15,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e7690ba59b4794f952ca3b381fc28247f0dfb4e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a687e82248598d9732e91acfd40e9f3dd4d6d3c3fe6c4954cb8706489c814126
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106968744"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119738098"
 ---
 # <a name="tasksettings-object"></a>TaskSettings 物件
 
@@ -38,7 +38,7 @@ ms.locfileid: "106968744"
 
 
 
-| 屬性                                                                                 | 存取類型           | Description                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| 屬性                                                                                 | 存取類型           | 描述                                                                                                                                                                                                                                                                                                                                                                                                                  |
 |:-----------------------------------------------------------------------------------------|:----------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**AllowDemandStart**](tasksettings-allowdemandstart.md)<br/>                     | 讀取/寫入<br/> | 取得或設定布林值，這個值表示可以使用 [執行] 命令或內容功能表來啟動工作。<br/>                                                                                                                                                                                                                                                                                     |
 | [**AllowHardTerminate**](tasksettings-allowhardterminate.md)<br/>                 | 讀取/寫入<br/> | 取得或設定布林值，這個值表示工作可能會使用 [**TerminateProcess**](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-terminateprocess)來終止。<br/>                                                                                                                                                                                                                                                                               |
@@ -69,7 +69,7 @@ ms.locfileid: "106968744"
 
 根據預設，工作會在開始執行時停止72小時。 您可以藉由變更 [**ExecutionTimeLimit**](tasksettings-executiontimelimit.md) 設定來變更。
 
-讀取或寫入工作的 XML 時，工作設定會定義在工作排程器架構的 [**settings**](taskschedulerschema-settings-tasktype-element.md) 元素中。
+讀取或寫入工作的 XML 時，工作設定會定義在工作排程器架構的 [**設定**](taskschedulerschema-settings-tasktype-element.md)元素中。
 
 ## <a name="examples"></a>範例
 
@@ -81,8 +81,8 @@ ms.locfileid: "106968744"
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                          |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                    |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                          |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                    |
 | 類型程式庫<br/>             | <dl> <dt>Taskschd.msc .tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 

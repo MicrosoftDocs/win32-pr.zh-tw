@@ -4,12 +4,12 @@ description: 有一些工具可用來協助啟用和管理網路追蹤，以及�
 ms.assetid: 4eee2420-85b8-4a07-95a1-b91aa816a0d6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f0eb2a0f6eb488659f2b9b7951e699893bdfe92e
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 9b18037851d1e3233000da8211c69d88d06386a19b97d11f1ed52991cb5f46f2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103683042"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119801898"
 ---
 # <a name="tools-for-troubleshooting-using-network-tracing-in-windows-7"></a>在 Windows 7 中使用網路追蹤進行疑難排解的工具
 
@@ -28,8 +28,8 @@ ms.locfileid: "103683042"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

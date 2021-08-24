@@ -13,16 +13,16 @@ api_type:
 api_location:
 - Netplwiz.dll
 ms.assetid: 015c3875-698e-4d80-bbfc-4fc8a71197b7
-ms.openlocfilehash: 1678677bcb305b7e5c47d28f5168d1e596ca3e26
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: 7b75f4f3371814d00cf5b58dc12854763318c7ee424f35c7a7e6dad9f7734058
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109842509"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119820618"
 ---
 # <a name="passportwizardrundll-function"></a>PassportWizardRunDll 函式
 
-\[您可以透過 Windows XP Service Pack 2 (SP2) 和 Windows Server 2003 來取得此函式。 它可能會在後續版本的 Windows 中改變或無法使用。\]
+\[您可以透過 Windows XP Service Pack 2 (SP2) 和 Windows Server 2003 來取得此函式。 它可能會在 Windows 的後續版本中變更或無法使用。\]
 
 搭配 Rundll32.exe 使用時，會啟動 Passport Wizard。
 
@@ -92,7 +92,7 @@ Passport Wizard 可用來取得 Windows 的預設 Passport。 Passport 可讓使
 
 **rundll32.exe netplwiz.dll、PassportWizardRunDll**
 
-使用進入點函式搭配 Rundll32.exe 不像一般函式呼叫。 函式名稱和儲存的 .dll 檔案的名稱只會用來做為命令列參數。 在 [語法] 下顯示的函式定義，只是您可以使用 Rundll32.exe 呼叫的所有函式的標準原型。 *HwndStub*、 *hAppInstance* 和 *nCmdShow* 的特定值不是由使用者提供，而是由 rundll32.exe 在幕後處理。 **PassportWizardRunDll** 不會使用 *lpszCmdLine* 值，因此不需要額外的資料。
+使用進入點函式搭配 Rundll32.exe 不像一般函式呼叫。 函式名稱和儲存的 .dll 檔案名，只會用來做為命令列參數。 在 [語法] 下顯示的函式定義，只是您可以使用 Rundll32.exe 呼叫的所有函式的標準原型。 *HwndStub*、 *hAppInstance* 和 *nCmdShow* 的特定值不是由使用者提供，而是由 rundll32.exe 在幕後處理。 **PassportWizardRunDll** 不會使用 *lpszCmdLine* 值，因此不需要額外的資料。
 
 ## <a name="requirements"></a>規格需求
 
@@ -100,8 +100,8 @@ Passport Wizard 可用來取得 Windows 的預設 Passport。 Passport 可讓使
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                                                     |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                            |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                                                     |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                            |
 | 標頭<br/>                   | <dl> <dt>None</dt> </dl>                                 |
 | DLL<br/>                      | <dl> <dt>Netplwiz.dll (5.60 版或更新版本) </dt> </dl> |
 

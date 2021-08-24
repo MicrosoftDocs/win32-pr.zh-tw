@@ -5,16 +5,16 @@ ms.tgt_platform: multiple
 title: 使用 PowerShell 從遠端連線至 WMI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7a2bb1ad982a20a10dbadd89856d118f1be9bd82
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 35d499c59ee6774b1e972e192dfc2c0d1228469196c66e8f3feb80d1c9d6339c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103692352"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119679868"
 ---
 # <a name="connecting-to-wmi-remotely-with-powershell"></a>使用 PowerShell 從遠端連線至 WMI
 
-Windows PowerShell 提供簡單的機制，以連接到遠端電腦上 Windows Management Instrumentation (WMI) 。 WMI 中的遠端連線受 [Windows 防火牆](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc754274(v=ws.11))、DCOM 設定以及 [使用者帳戶控制 (UAC) ](/previous-versions/aa905108(v=msdn.10))的影響。 如需有關設定遠端連線的詳細資訊，請參閱 [從 Windows Vista 開始遠端連線至 WMI](connecting-to-wmi-remotely-starting-with-vista.md)。
+Windows PowerShell 提供簡單的機制，以連接到遠端電腦上 Windows Management Instrumentation (WMI) 。 WMI 中的遠端連線會受到[Windows 防火牆](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc754274(v=ws.11))、DCOM 設定，以及[ (UAC) 的使用者帳戶控制](/previous-versions/aa905108(v=msdn.10))所影響。 如需有關設定遠端連線的詳細資訊，請參閱[從 Windows Vista 開始遠端連線至 WMI](connecting-to-wmi-remotely-starting-with-vista.md)。
 
 本主題中的範例是 [以 Vbscript 連接到遠端電腦上的 WMI](connecting-to-wmi-on-a-remote-computer.md)為基礎。 本主題中的所有範例都會使用 [>get-wmiobject 指令程式](/previous-versions//dd315295(v=technet.10)) 。 如需詳細資訊，請參閱 [>get-wmiobject](/previous-versions//dd315295(v=technet.10))。
 
@@ -90,7 +90,7 @@ $ColItems[0..47] | Format-List Name, Status
  
 
 -   陣列中的電腦名稱稱必須以引號括住，因為它們是字串。
--   [>get-wmiobject](/previous-versions//dd315295(v=technet.10))所傳回的物件會指派給 $ColItems 變數。
+-   [>Get-wmiobject](/previous-versions//dd315295(v=technet.10))所傳回的物件會指派給 $ColItems 變數。
 -   範圍運算子會 \[ \] 將隨插即用裝置的清單限制為48個實例。 如需詳細資訊，請參閱 [關於 \_ 運算子](/previous-versions//dd347588(v=technet.10))。
 -   " \| " 是管線字元。 ColItems 傳回的物件會傳送至 [格式清單]( /previous-versions//dd347700(v=technet.10)) Cmdlet。
 

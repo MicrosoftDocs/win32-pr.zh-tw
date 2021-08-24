@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 錯誤1071到1080
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 277aa7dd69d674ebc16bc0a2b4d104c349e593a5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e4c92cfd1c79b5bedd070229adcbc4c663d209903428073fc976cd575022e9ea
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975531"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119679618"
 ---
 # <a name="errors-1071-through-1080"></a>錯誤1071到1080
 

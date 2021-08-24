@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: c55c57fbec0a8441b80398370542d94b2b70c1ce
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4f99b0d03eb3b2b1ac63c69620346e4db663c75730ff773de2fb1429b268aefb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106993650"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119756781"
 ---
 # <a name="ctransformoutputpin-class"></a>CTransformOutputPin 類別
 
@@ -35,12 +35,12 @@ ms.locfileid: "106993650"
 
 
 
-| 受保護的成員變數                                               | Description                                              |
+| 受保護的成員變數                                               | 描述                                              |
 |--------------------------------------------------------------------------|----------------------------------------------------------|
 | [**m \_ pTransformFilter**](ctransformoutputpin-m-ptransformfilter.md)    | 擁有篩選準則的指標。                            |
-| Public 成員變數                                                  | Description                                              |
+| Public 成員變數                                                  | 描述                                              |
 | [**m \_ pPosition**](ctransformoutputpin-m-pposition.md)                  | 要傳遞向上游傳遞搜尋命令的 Helper 物件。            |
-| 公用方法                                                           | Description                                              |
+| 公用方法                                                           | 描述                                              |
 | [**CTransformOutputPin**](ctransformoutputpin-ctransformoutputpin.md)   | 函式方法。                                      |
 | [**~ CTransformOutputPin**](ctransformoutputpin--ctransformoutputpin.md) | 函式方法。                                       |
 | [**CheckConnect**](ctransformoutputpin-checkconnect.md)                 | 判斷 pin 連接是否合適。         |
@@ -51,10 +51,10 @@ ms.locfileid: "106993650"
 | [**DecideBufferSize**](ctransformoutputpin-decidebuffersize.md)         | 設定緩衝區需求。                            |
 | [**GetMediaType**](ctransformoutputpin-getmediatype.md)                 | 依索引值抓取慣用的媒體類型。        |
 | [**CurrentMediaType**](ctransformoutputpin-currentmediatype.md)         | 抓取目前 pin 連接的媒體類型。 |
-| IPin 方法                                                             | Description                                              |
+| IPin 方法                                                             | 描述                                              |
 | [**QueryId**](ctransformoutputpin-queryid.md)                           | 抓取 pin 的識別碼。                     |
-| IQualityControl 方法                                                  | Description                                              |
-| [**Notify**](ctransformoutputpin-notify.md)                             | 通知 pin 已要求品質變更。     |
+| IQualityControl 方法                                                  | 描述                                              |
+| [**通知**](ctransformoutputpin-notify.md)                             | 通知 pin 已要求品質變更。     |
 
 
 

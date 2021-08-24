@@ -4,16 +4,16 @@ description: 引擎介面卡會從已捕捉的範例產生生物特徵辨識範�
 ms.assetid: d5f4683c-0613-493b-830f-0616ffa0694c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9046ada411e997c0c6adba7f6c6dcaf6d8b654b6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7e116a0a9b59fa1383e4fee4edee3878e391d9afe41f6cb61a59f487f24de0ae
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104301720"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119740538"
 ---
 # <a name="engine-adapter-functions"></a>引擎介面卡功能
 
-引擎介面卡會從已捕捉的範例產生生物特徵辨識範本、比對現有範本的範例和索引範本。 介面卡開發人員必須執行下列函數。 Windows 生物識別服務會呼叫它們。
+引擎介面卡會從已捕捉的範例產生生物特徵辨識範本、比對現有範本的範例和索引範本。 介面卡開發人員必須執行下列函數。 Windows 生物特徵辨識服務會呼叫它們。
 
 ## <a name="in-this-section"></a>本節內容
 

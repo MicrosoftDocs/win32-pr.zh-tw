@@ -4,12 +4,12 @@ ms.assetid: 3f53c555-02a9-4249-9f1a-98cd655fc79f
 title: MigrateFeatureStates 動作
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a8e76edb5fa13506291cc85ebcf8c8824e4ee28e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fbac96a3b2babf5f92ae8078ecc703875c09a0e2f61155fd565985919b5a6393
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106979961"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119745168"
 ---
 # <a name="migratefeaturestates-action"></a>MigrateFeatureStates 動作
 
