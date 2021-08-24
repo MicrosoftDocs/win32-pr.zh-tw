@@ -4,18 +4,18 @@ ms.assetid: 69e868bf-72ab-4c5e-8305-bb2b0a6ba088
 title: DestDistance
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5ebd7b95c300dad46f6706cc3ad8e991233b28c4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1ff21d530e9d402503b7707724d4455ea6fbcb43815c1879d71ea7f474f910cd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192540"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119845008"
 ---
 # <a name="systemgpsdestdistance"></a>DestDistance
 
 表示與目的地點之間的距離。 從 PKEY \_ gps \_ DESTDISTANCENUMERATOR 和 PKEY \_ gps DestDistanceDenominator 計算 \_ 。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: b70243dd9aa2f304d80eaff2e2cc7695dad43379
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: baa1b882972a91626b19194f83655ea1839877943f7463be8991167eb72d17fa
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106988218"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119791068"
 ---
 # <a name="id3dxanimationsetgetsrt-method"></a>ID3DXAnimationSet：： GetSRT 方法
 

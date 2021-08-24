@@ -1,21 +1,21 @@
 ---
-description: 從 Microsoft Windows XP Tablet PC Edition 軟體發展工具組 (SDK) 1.0 版起，系統層級的 Tablet PC 輸入面板會提供通用機制來完成跨 Windows 平臺的文字輸入，雖然它不提供程式設計的存取。 Tablet PC SDK 1.5 版 PenInputPanel 物件將文字輸入工具整合至應用程式。
+description: 從 Microsoft Windows XP Tablet pc Edition 軟體發展工具組 (SDK) 1.0 版起，系統層級的 Tablet pc 輸入面板會提供通用機制來完成跨 Windows 平臺的文字輸入，不過它不會提供程式設計的存取。 Tablet PC SDK 1.5 版 PenInputPanel 物件將文字輸入工具整合至應用程式。
 ms.assetid: 14fe4963-ab9b-4c78-9f17-791c68378ef0
 title: 關於輸入面板
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7db733e49e49d428b5ff8072a1315787d9fafd25
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 044e8c3a43127bd765fd5004329352956e4be8bb9f214f8dda8896fa318832a9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104386017"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119844408"
 ---
 # <a name="about-the-input-panel"></a>關於輸入面板
 
 \[[**PenInputPanel**](peninputpanel-class.md) 已被 [**>textinput**](/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanel)取代。 如需詳細資訊，請參閱程式 [設計文字輸入面板](programming-the-text-input-panel.md)。\]
 
-從 Microsoft Windows XP Tablet PC Edition 軟體發展工具組 (SDK) 1.0 版起，系統層級的 Tablet PC 輸入面板會提供通用機制來完成跨 Windows 平臺的文字輸入，雖然它不提供程式設計的存取。 Tablet PC SDK 1.5 版 [**PenInputPanel**](peninputpanel-class.md) 物件將文字輸入工具整合至應用程式。
+從 Microsoft Windows XP Tablet pc Edition 軟體發展工具組 (SDK) 1.0 版起，系統層級的 Tablet pc 輸入面板會提供通用機制來完成跨 Windows 平臺的文字輸入，不過它不會提供程式設計的存取。 Tablet PC SDK 1.5 版 [**PenInputPanel**](peninputpanel-class.md) 物件將文字輸入工具整合至應用程式。
 
 下圖顯示 [ [自動宣告表單範例](auto-claims-form-sample.md) ] 範例中顯示的畫筆輸入面板。
 
@@ -73,7 +73,7 @@ ms.locfileid: "104386017"
 
 ## <a name="recognizer-support"></a>辨識器支援
 
-[**PenInputPanel**](peninputpanel-class.md)物件支援適用于 Windows XP Tablet pc Edition 1.0 版和 TABLET pc SDK 1.5 版的出貨辨識器。
+[**PenInputPanel**](peninputpanel-class.md)物件支援 Windows XP Tablet pc Edition 1.0 版和 Tablet pc SDK 1.5 版的出貨辨識器。
 
 ## <a name="automatic-positioning"></a>自動定位
 

@@ -1,21 +1,21 @@
 ---
 title: 執行摘要資訊屬性集
-description: 針對結構化儲存體執行摘要資訊屬性集時，有下列指導方針。
+description: 針對結構化的儲存體執行摘要資訊屬性集時，有一些指導方針。
 ms.assetid: e1204de5-b712-4bd5-bffb-6a12ec8d7052
 keywords:
 - 執行摘要資訊屬性集
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 69e5ae6208aa5cb7a325d1cccf77f17e969c5b75
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: dbe847d9a7353074727c94250d0f1ec1fec2194b5b7d250099464a86667861f6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671067"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119796908"
 ---
 # <a name="implementing-the-summary-information-property-set"></a>執行摘要資訊屬性集
 
-針對結構化儲存體執行摘要資訊屬性集時，有下列指導方針。
+針對結構化的儲存體執行摘要資訊屬性集時，有一些指導方針。
 
 以下是執行 [摘要資訊屬性集](the-summary-information-property-set.md)的指導方針：
 
@@ -39,11 +39,11 @@ ms.locfileid: "103671067"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

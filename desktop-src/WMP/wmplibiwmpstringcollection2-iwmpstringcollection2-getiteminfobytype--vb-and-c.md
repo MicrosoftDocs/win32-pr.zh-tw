@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e227d6471ecf41c8f48420ded61c6f4e7eaac8cf
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: cc2894faedc8e2573fad5beaa7744216fbb53fbd1b090e4be2122a3194827f43
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106996245"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119899758"
 ---
 # <a name="iwmpstringcollection2getiteminfobytype-method"></a>IWMPStringCollection2：： getItemInfobyType 方法
 

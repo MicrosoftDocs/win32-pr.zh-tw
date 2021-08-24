@@ -4,12 +4,12 @@ ms.assetid: 45608dde-894b-4204-80dc-505f068fb158
 title: 'MF_MT_ARBITRARY_HEADER 屬性 (Mfapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: abd559ede3506335378ae1d56bf5b886e1407946
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 55d824aad4f76947786f991807d2f7b301703e3e356d2d1cfb416aa634d49f93
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026443"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119826518"
 ---
 # <a name="mf_mt_arbitrary_header-attribute"></a>MF \_ MT \_ 任意 \_ 標頭屬性
 
@@ -43,7 +43,7 @@ ASF 檔案可以包含具有二進位資料的資料流程。 \_ \_ 媒體類型
  
 
 > [!Note]  
-> 在 Windows Media 格式 SDK 中，二進位資料流程稱為 *任意資料流程* 或 *任意* 資料流程。
+> 在 Windows 媒體格式 SDK 中，二進位資料流程稱為 *任意資料流程* 或 *任意* 資料流程。
 
  
 
@@ -55,8 +55,8 @@ ASF 檔案可以包含具有二進位資料的資料流程。 \_ \_ 媒體類型
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                         |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/>                            |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                         |
+| 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/>                            |
 | 標頭<br/>                   | <dl> <dt>Mfapi。h</dt> </dl> |
 
 

@@ -15,12 +15,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0f4565bbac6189cffc5358213437463b4abc0322
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: b32a4b0516560ac553b3ce6acb6972def5d0e3f84a2eb84026a0635f779a2c8b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106997372"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119752158"
 ---
 # <a name="cd3dx12_packed_mip_info-structure"></a>CD3DX12 \_ 封裝的 \_ MIP \_ 資訊結構
 

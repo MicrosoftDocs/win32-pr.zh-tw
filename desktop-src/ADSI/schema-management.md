@@ -11,12 +11,12 @@ keywords:
 - 管理架構 ADSI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 99d398f8eb056498977f886e836c0f97c95f0b9b
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 4ddb8fcc3d29dce27ac2b74c9c8e79d1cef2f9d2a23307e9b7626861ed3e7dd4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104571460"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119770481"
 ---
 # <a name="schema-management"></a>架構管理
 
@@ -35,12 +35,12 @@ ADSI 範例提供者元件會定義架構類別「組織單位」和「使用者
 > [!Note]  
 > 範例提供者元件的第一個版本中不會有語法物件。 不過，在大部分的 Microsoft ADSI 架構中，語法物件都會包含在架構容器物件中，就像架構類別和屬性物件一樣。 基於這個理由，它們會顯示在這裡。
 
- 
+ 
 
 此提供者元件可讓 ADSI 用戶端應用程式以 ADs 類別物件、ADs 屬性物件和 ADs 語法物件的形式存取架構資料，而這一切都是在架構類別容器物件內，以便在執行時間抓取架構資料。
 
 為範例提供者元件定義的架構類別容器物件的 ADsPaths 是 "Sample://Seattle/schema" 和 "Sample://Toronto/schema"。 在此範例中，架構的內容相同。
 
- 
+ 
 
- 
+ 

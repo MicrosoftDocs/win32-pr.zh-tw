@@ -4,12 +4,12 @@ description: 本主題將示範如何使用 ImageList \_ create 函數來建立�
 ms.assetid: 6092C555-B5B6-49DB-B07B-684EDB890761
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 78c81ff3a46138c210474a1b00ddd2ba647d1368
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: e04e3e22894546e887e1a4ca5348518b4e4a35c45f4a26b5b6125b81f9323bed
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "103933739"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119826478"
 ---
 # <a name="how-to-create-an-image-list"></a>如何建立影像清單
 
@@ -19,12 +19,12 @@ ms.locfileid: "103933739"
 
 ### <a name="technologies"></a>技術
 
--   [Windows 控制項](window-controls.md)
+-   [Windows控制](window-controls.md)
 
 ### <a name="prerequisites"></a>必要條件
 
 -   C/C++
--   Windows 消費者介面程式設計
+-   Windows消費者介面程式設計
 
 ## <a name="instructions"></a>指示
 

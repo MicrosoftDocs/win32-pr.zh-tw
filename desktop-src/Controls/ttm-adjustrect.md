@@ -3,7 +3,7 @@ title: 'TTM_ADJUSTRECT 訊息 (Commctrl .h) '
 description: 從視窗矩形計算工具提示控制項的文字顯示矩形，或從顯示指定的文字顯示矩形所需的工具提示視窗矩形。
 ms.assetid: b848c16f-9f41-4ed2-918a-9c03aebe535c
 keywords:
-- TTM_ADJUSTRECT message Windows 控制項
+- TTM_ADJUSTRECT 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: af89374161d5e3f9d9ab6affc2b3b498a39cbf68
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: bba5a6719bcbd820d94b6d736a12644f8b2539cc81064f942616c62bce55823f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934400"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119769528"
 ---
 # <a name="ttm_adjustrect-message"></a>TTM \_ ADJUSTRECT 訊息
 
@@ -82,8 +82,8 @@ if (MyStringIsTruncated) {
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

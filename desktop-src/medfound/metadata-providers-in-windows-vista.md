@@ -4,16 +4,16 @@ ms.assetid: a26e40c2-1717-4a13-8bf0-e41376a8d317
 title: Windows Vista 中的中繼資料提供者
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a1726e04058a7b15e387fca4f3faa94fce7c91c5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1edf65b59e0f47e603b057f49a76d8721b8733849937cb29fd0afbe0b9b44920
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970220"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119827068"
 ---
 # <a name="metadata-providers-in-windows-vista"></a>Windows Vista 中的中繼資料提供者
 
-在 Windows Vista 中，Microsoft 媒體基礎會透過 [**IMFMetadata**](/windows/desktop/api/mfidl/nn-mfidl-imfmetadata) 介面公開中繼資料。
+在 Windows Vista 中，Microsoft 媒體基礎會透過 [**IMFMetadata**](/windows/desktop/api/mfidl/nn-mfidl-imfmetadata)介面公開中繼資料。
 
 ## <a name="reading-metadata"></a>讀取中繼資料
 

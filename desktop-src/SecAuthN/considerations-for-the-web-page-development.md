@@ -1,23 +1,23 @@
 ---
-description: Web 驗證訊息代理程式建置於與 Windows Internet Explorer 的相同技術之上。
+description: Web 驗證訊息代理程式建置於 power Internet Explorer 的相同技術上 Windows。
 ms.assetid: 4BBAE30F-63AB-4AB0-9C99-016EF05220E8
 title: 網頁開發的考量
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dbe7e738616589afc4f7ba4f03d92a12207d189c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 22932f40d5268059fc30e97817de0b3671cee7447974b038ea4be12eedd76ed6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319379"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119883245"
 ---
 # <a name="considerations-for-the-web-page-development"></a>網頁開發的考量
 
-Web 驗證訊息代理程式建置於與 Windows Internet Explorer 的相同技術之上。 不過，由於此元件的特殊用途，Internet Explorer 的某些功能已停用或鎖定特定的設定。 此外，Web 驗證訊息代理程式也提供專用的事件記錄通道，以協助針對其處理的頁面問題進行疑難排解。
+Web 驗證訊息代理程式建置於 power Internet Explorer 的相同技術上 Windows。 不過，由於此元件的特殊用途，Internet Explorer 的某些功能已停用或鎖定特定的設定。 此外，Web 驗證訊息代理程式也提供專用的事件記錄通道，以協助針對其處理的頁面問題進行疑難排解。
 
 ## <a name="internet-explorer-10-standard-document-mode"></a>Internet Explorer 10 標準檔案模式
 
-Web 驗證訊息代理程式會顯示「IE10 標準模式」中的所有頁面。 您可以使用 Internet Explorer 中的開發人員工具，查看頁面在不同檔案模式下的運作方式。 如需 Internet Explorer 10 相容性的詳細資訊，請參閱 [Internet Explorer](/previous-versions/windows/internet-explorer/ie-developer/dev-guides/hh673527(v=vs.85))的 MSDN 主題。
+Web 驗證訊息代理程式會顯示「IE10 標準模式」中的所有頁面。 您可以使用 Internet Explorer 中的開發人員工具，查看頁面在不同檔案模式下的運作方式。 如需 Internet Explorer 10 相容性的詳細資訊，請參閱[Internet Explorer](/previous-versions/windows/internet-explorer/ie-developer/dev-guides/hh673527(v=vs.85))的 MSDN 主題。
 
 ## <a name="disabled-and-locked-down-features"></a>停用和鎖定功能
 
@@ -27,14 +27,14 @@ Internet Explorer 的數項功能完全停用，或鎖定為無法在作業系�
 
 | 功能                            | 狀態                                                                                                                                                                                                          |
 |------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 應用程式快取 API ( "AppCache" )  | Disabled                                                                                                                                                                                                        |
-| 連結歷程記錄                       | Disabled                                                                                                                                                                                                        |
-| 暫存檔案                    | 已啟用                                                                                                                                                                                                         |
+| 應用程式快取 API ( "AppCache" )  | 已停用                                                                                                                                                                                                        |
+| 連結歷程記錄                       | 已停用                                                                                                                                                                                                        |
+| 暫存檔案                    | 啟用                                                                                                                                                                                                         |
 | Cookie                            | 會話 cookie 已啟用。 允許保存的 cookie，但受限於自動清除，除非 Web 驗證訊息代理程式是在 SSO 模式中。 如需詳細資訊，請參閱「單一登入」一節。 |
-| 索引資料庫                           | Disabled                                                                                                                                                                                                        |
-| DOM 儲存體                        | Disabled                                                                                                                                                                                                        |
-| ActiveX                            | Disabled                                                                                                                                                                                                        |
-| 檔案下載                     | Disabled                                                                                                                                                                                                        |
+| 索引資料庫                           | 已停用                                                                                                                                                                                                        |
+| DOM 儲存體                        | 已停用                                                                                                                                                                                                        |
+| ActiveX                            | 已停用                                                                                                                                                                                                        |
+| 檔案下載                     | 已停用                                                                                                                                                                                                        |
 
 
 
@@ -52,7 +52,7 @@ Windows 8 的應用程式可能會以數種不同的大小顯示，例如全螢�
 
 如果頁面無法容納分配空間中的所有資訊 (例如，應用程式要求的一長串許可權) ，Web 驗證代理人會提供捲軸，讓使用者視需要滾動頁面。 縮放功能也是由適用于桌上型電腦和膝上型電腦的縮放縮放裝置和 Ctrl + 滑鼠滾輪提供。
 
-若要測試不同的縮放比例，請使用 Microsoft Visual Studio Professional 2012 中載入的 [Web 驗證 BROKER SDK 範例應用程式](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/WebAuthenticationBroker) ，以允許模擬全螢幕和調整大小的狀態。
+若要測試不同的縮放比例，請使用 Microsoft Visual Studio Professional 2012 中載入的[Web 驗證 Broker SDK 範例應用程式](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/WebAuthenticationBroker)，以允許模擬全螢幕和調整大小的狀態。
 
 除了上述的不同版面配置之外，請務必以不同的螢幕方向測試您的頁面 (例如，直向和橫向) ，以及不同的地區設定和語言，以及協助工具功能，例如 [讓所有專案變大] 選項開啟。
 

@@ -8,7 +8,7 @@
           href: whats-new-in-winrm.md
         - name: Windows 遠端管理的安裝和設定
           href: installation-and-configuration-for-windows-remote-management.md
-        - name: Windows 遠端管理架構
+        - name: Windows遠端系統管理架構
           href: windows-remote-management-architecture.md
         - name: WS-Management 通訊協定
           href: ws-management-protocol.md
@@ -18,7 +18,7 @@
           href: authentication-for-remote-connections.md
         - name: Proxy 伺服器和 WinRM
           href: proxy-servers-and-winrm.md
-        - name: Windows 遠端管理和 WMI
+        - name: Windows遠端系統管理和 WMI
           href: windows-remote-management-and-wmi.md
         - name: 透過關聯遍歷進行的 DMTF 設定檔探索
           href: dmtf-association-traversal.md
@@ -61,7 +61,7 @@
           href: querying-for-specific-instances-of-a-resource.md
         - name: 顯示 WinRM 腳本的 XML 輸出
           href: displaying-xml-output-from-winrm-scripts.md
-    - name: Windows 遠端管理參考
+    - name: Windows遠端系統管理參考
       href: windows-remote-management-reference.md
       items:
         - name: WinRM 用戶端 Shell API
@@ -609,5 +609,5 @@
                   href: /windows/win32/api/WSManDisp/ne-wsmandisp-wsmanproxyauthenticationflags
         - name: WinRM Windows PowerShell 命令類別的受控參考
           href: winrm-powershell-commandlets.md
-    - name: Windows 遠端管理詞彙
+    - name: Windows遠端系統管理詞彙
       href: windows-remote-management-glossary.md

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: 00698030488b8f4ae788367f87b8d569476292ca
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: a4a8943248ef2280bdb58c864a44c67a44a12c6f641fc05b74bb0fb28e2e9ba1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106981858"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119791058"
 ---
 # <a name="id3dxbaseeffectgetannotationbyname-method"></a>ID3DXBaseEffect：： GetAnnotationByName 方法
 

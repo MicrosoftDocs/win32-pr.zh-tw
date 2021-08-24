@@ -4,12 +4,12 @@ description: 元件的向量浮點數相等比較。
 ms.assetid: 925578E4-0161-45A9-840F-14AA65FF4F33
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8f47dc7bda7b1c61c251ace061fc75897788b968
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
-ms.translationtype: HT
+ms.openlocfilehash: 5a90af3fd6f65a6a81c32592650c4be33996c96a1d99415ec1dfecb0b0f83ac9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104373683"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119789038"
 ---
 # <a name="eq-sm4---asm"></a>eq (sm4-asm) 
 
@@ -67,9 +67,9 @@ Denorms 會在比較 (原始來源登錄未) 之前排清。 + 0 等於-0。 與
 | [著色器模型5](d3d11-graphics-reference-sm5.md)        | 是       |
 | [著色器模型4。1](dx-graphics-hlsl-sm4.md)              | 是       |
 | [著色器模型4](dx-graphics-hlsl-sm4.md)                | 是       |
-| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 不可以        |
-| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 不可以        |
-| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 不可以        |
+| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 否        |
+| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 否        |
+| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 否        |
 
 
 

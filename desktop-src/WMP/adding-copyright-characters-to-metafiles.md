@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 6e71b116a3500fdb4217613c81bd4f041af75a66
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: b0ab5fc4e539331406bb776a4bcdacbed6578a234dd9e84a3c358cdbe9936ad9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104312506"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119865158"
 ---
 # <a name="adding-copyright-characters-to-metafiles"></a>將著作權字元新增至中繼檔
 
@@ -37,12 +37,12 @@ ms.locfileid: "104312506"
 
 <dl> <dt>
 
-[**Windows Media 中繼檔元素參考**](windows-media-metafile-elements-reference.md)
+[**Windows媒體中繼檔元素參考**](windows-media-metafile-elements-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

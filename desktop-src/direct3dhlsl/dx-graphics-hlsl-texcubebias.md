@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 0129c20db1da320e9cb85aacfc4490124be28f8a
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 645a1a39ef567e4ddb3272a8b38415abdb517ce9433705ddb88cb5003fb10057
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104092773"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119846048"
 ---
 # <a name="texcubebias"></a>texCUBEbias
 
@@ -75,7 +75,7 @@ ms.locfileid: "104092773"
 | [著色器模型4](dx-graphics-hlsl-sm4.md)                | 是 (只) 圖元著色器 |
 | [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 是 (只) 圖元著色器 |
 | [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 是 (只) 圖元著色器 |
-| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 不可以                      |
+| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 否                      |
 
 
 

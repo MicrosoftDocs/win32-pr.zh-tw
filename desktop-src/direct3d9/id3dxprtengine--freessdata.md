@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: e3f21bf178bae4493f66eef4053f3b1892ff8224
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: ffebcecd4c2e9476fa5232ddd3483e27a8738059eb9dae33223341c9353b921b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106992348"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119847348"
 ---
 # <a name="id3dxprtenginefreessdata-method"></a>ID3DXPRTEngine：： FreeSSData 方法
 

@@ -4,12 +4,12 @@ ms.assetid: be31e98f-5114-4693-a9ef-37fea334875b
 title: MapDatum 相片中繼資料原則
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bb7a279c79da3d2b1dd20563af35bd34233a1a2a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a8bbd3671ec9e025dd2c5ea98fc36f4937abab315b09a2227fb6249d74e577da
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106991921"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119882338"
 ---
 # <a name="systemgpsmapdatum-photo-metadata-policy"></a>MapDatum 相片中繼資料原則
 

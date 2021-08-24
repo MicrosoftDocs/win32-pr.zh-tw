@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 304e0aebe75ac416623cb1ec1053a7b6ae504194
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 622fe76c9206b4a8223d27d810f3d02bc0dca1d08730623b595ead24eab719d6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103686296"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119847368"
 ---
 # <a name="mrmcreateresourceindexerfrompreviousschemafile-function"></a>MrmCreateResourceIndexerFromPreviousSchemaFile 函式
 
@@ -85,7 +85,7 @@ HRESULT HRESULT MrmCreateResourceIndexerFromPreviousSchemaFile(
 *索引子* \[in、out\]
 </dt> <dd>
 
-類型： **[**MrmResourceIndexerHandle**](mrmresourceindexerhandle.md) \** _
+類型： **[ **MrmResourceIndexerHandle**](mrmresourceindexerhandle.md)\***
 
 資源索引子控制碼的指標。
 
@@ -93,7 +93,7 @@ HRESULT HRESULT MrmCreateResourceIndexerFromPreviousSchemaFile(
 
 ## <a name="return-value"></a>傳回值
 
-類型： _ *HRESULT**
+類型： **HRESULT**
 
 如果函式 \_ 成功，則為 [正常]，否則為其他值。 使用 winerror.h 中定義的成功 () 或失敗 ()  (宏) ，判斷成功或失敗。
 
@@ -104,7 +104,7 @@ HRESULT HRESULT MrmCreateResourceIndexerFromPreviousSchemaFile(
 | 需求 | 值 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 10， \[ 僅限1803版桌面應用程式\]<br/>                                       |
-| 最低支援的伺服器<br/> | \[僅限 Windows Server desktop 應用程式\]<br/>                                                 |
+| 最低支援的伺服器<br/> | Windows\[僅限伺服器桌面應用程式\]<br/>                                                 |
 | 標頭<br/>                   | <dl> <dt>MrmResourceIndexer。h</dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>Mrmsupport .lib</dt> </dl>       |
 | DLL<br/>                      | <dl> <dt>Mrmsupport.dll</dt> </dl>       |

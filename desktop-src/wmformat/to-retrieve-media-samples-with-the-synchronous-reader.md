@@ -10,12 +10,12 @@ keywords:
 - 同步讀取器，正在抓取媒體範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f1fd341ea9616b18a5e65cfa8c1134e0f1be44b5
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 2e1ec4fc7e8a894de304ea828cef9d8e019f4cdedfd2fbd851a427382ba741a2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104374451"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119807428"
 ---
 # <a name="to-retrieve-media-samples-with-the-synchronous-reader"></a>使用同步讀取器取出媒體範例
 
@@ -28,7 +28,7 @@ ms.locfileid: "104374451"
 > [!Note]  
 > 若要確保同步讀取器能為影片串流提供正確的取樣持續時間，您必須先設定資料流程輸出。 呼叫 [**IWMSyncReader：： SetOutputSetting**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmsyncreader-setoutputsetting) 方法，將 g \_ wszVideoSampleDurations 設定設定為 **TRUE**。
 
- 
+ 
 
 範例程式碼
 
@@ -76,9 +76,9 @@ while (SUCCEEDED(hr));
 [**使用同步讀取器讀取檔案**](reading-files-with-the-synchronous-reader.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

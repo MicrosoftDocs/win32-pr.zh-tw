@@ -17,12 +17,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 80fcc6e7ed3ccb630b500179d7273bdd09a21477
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 509ab80a8f7b33d3ac7f9d40157152ce5aa693376e4e61edc4581f8d375f1c77
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464348"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119825478"
 ---
 # <a name="mdm_reporting_enterprisedataprotection01_retrievebycount02-class"></a>MDM \_ 報告 \_ EnterpriseDataProtection01 \_ RetrieveByCount02 類別
 
@@ -124,7 +124,7 @@ class MDM_Reporting_EnterpriseDataProtection01_RetrieveByCount02
 
 </dd> <dt>
 
-[型別](/windows/client-management/mdm/reporting-csp#type)
+[類型](/windows/client-management/mdm/reporting-csp#type)
 </dt> <dd> <dl> <dt>
 
 資料類型： **sint32**
@@ -141,7 +141,7 @@ class MDM_Reporting_EnterpriseDataProtection01_RetrieveByCount02
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 10 桌面應用程式\]<br/>                                                          |
+| 最低支援的用戶端<br/> | Windows 10 \[僅限桌面應用程式\]<br/>                                                          |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                            |
 | 命名空間<br/>                | 根 \\ cimv2 \\ mdm \\ dmmap<br/>                                                                   |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv1 mof</dt> </dl>      |

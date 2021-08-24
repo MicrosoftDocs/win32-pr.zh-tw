@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: d40d4b2686087864cad17df0feb99dbc890033b0
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: cc4f362555c8cc86857733ecc3e75279dc68cc6b339f641f70c592f0e3576a96
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104323259"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119847418"
 ---
 # <a name="id3dxprtenginecomputebounce-method"></a>ID3DXPRTEngine：： ComputeBounce 方法
 

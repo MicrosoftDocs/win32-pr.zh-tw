@@ -1,6 +1,6 @@
 ---
 title: RemoteDesktopClient 類別
-description: 會執行 Microsoft Windows Store 應用程式的遠端桌面用戶端控制-第1版。
+description: 實行 Microsoft Windows Store App Remote Desktop Client Control-version 1。
 ms.assetid: 0910883A-BD49-4908-8423-1FC280E0FE0C
 ms.tgt_platform: multiple
 keywords:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fb10b23f52f53e2d89fd5a81449818a8fe374116
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: cad76c8c189854a28709765c5677d047590216ae8ab6271d44c595f7b24fdd88
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934110"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119865897"
 ---
 # <a name="remotedesktopclient-class"></a>RemoteDesktopClient 類別
 
@@ -46,7 +46,7 @@ ms.locfileid: "103934110"
 | 方法                                                                                      | 描述                                                                                                                                                        |
 |:--------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**attachEvent**](/windows/win32/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclient-attachevent)                                     | 將事件處理常式附加至事件。<br/>                                                                                                                  |
-| [**連接**](/windows/win32/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclient-connect)                                             | 使用目前在遠端桌面通訊協定 (RDP) 應用程式容器用戶端控制上設定的屬性來起始連線。<br/>                         |
+| [**連線**](/windows/win32/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclient-connect)                                             | 使用目前在遠端桌面通訊協定 (RDP) 應用程式容器用戶端控制上設定的屬性來起始連線。<br/>                         |
 | [**DeleteSavedCredentials**](/windows/win32/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclient-deletesavedcredentials)               | 刪除指定遠端電腦的已儲存認證。<br/>                                                                                            |
 | [**Vemap.detachevent**](/windows/win32/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclient-detachevent)                                     | 從事件卸離事件處理常式。<br/>                                                                                                                |
 | [**中斷連線**](/windows/win32/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclient-disconnect)                                       | 中斷使用中連接。<br/>                                                                                                                      |
@@ -77,7 +77,7 @@ ms.locfileid: "103934110"
 
 
 
-| 屬性                                                             | 存取類型          | Description                                                                                                                                                            |
+| 屬性                                                             | 存取類型          | 描述                                                                                                                                                            |
 |:---------------------------------------------------------------------|:---------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**行動**](/windows/win32/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclient-get_actions)<br/>           | 唯讀<br/> | 抓取遠端桌面通訊協定 (RDP) 應用程式容器用戶端的動作物件。<br/>                                                                    |
 | [**設定**](iremotedesktopclient-settings.md)<br/>         | 唯讀<br/> | 抓取遠端桌面通訊協定 (RDP) 應用程式容器用戶端的設定物件。<br/>                                                                   |

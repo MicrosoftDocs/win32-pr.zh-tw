@@ -4,12 +4,12 @@ description: 如果應用程式在狀態變數的值變更時，或它所代表�
 ms.assetid: 881e71f7-39e6-4847-bdf2-78e54d1750cb
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0b9095ab4b5b2d43a12f7e806eabc24b174a0311
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 5a3dca603e6226d3171aed920311bafcf6844ec9fab5c7aa05deafee7a13fd8c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103682556"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119768528"
 ---
 # <a name="registering-a-callback"></a>註冊回呼
 
@@ -18,9 +18,9 @@ ms.locfileid: "103682556"
 開發人員不應取消非同步回呼內的非同步作業。
 
 > [!Note]  
-> 在 Visual Basic 中加入回呼，與 VBScript 中使用的方法不同。 Visual Basic 中無法使用 VBScript 中使用的 **GetRef** 函式。 因此，開發人員必須建立以回呼函式作為預設方法的 [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) 物件。 請參閱 [註冊 Visual Basic 中的回呼](registering-a-callback-in-visual-basic.md)。
+> 在 Visual Basic 中加入回呼，與 VBScript 中使用的方法不同。 Visual Basic 中無法使用 VBScript 中使用的 **GetRef** 函式。 因此，開發人員必須建立以回呼函式作為預設方法的 [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) 物件。 請參閱[註冊 Visual Basic 中的回呼](registering-a-callback-in-visual-basic.md)。
 
- 
+ 
 
 ## <a name="vbscript-example"></a>VBScript 範例
 
@@ -188,6 +188,6 @@ HRESULT AddCallbackToService(IUPnPService* pUPnPService)
 
 
 
- 
+ 
 
- 
+ 

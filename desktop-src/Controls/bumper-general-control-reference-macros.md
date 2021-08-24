@@ -4,12 +4,12 @@ description: 控制宏
 ms.assetid: 3e118c47-deef-4f5e-aa6d-e4b50d849655
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dbd8fa9d560e56941c57cf8001096e81d00a3150
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 846ca69e1a5a706dbd19d7c1b96decf4aa459d722a676ff157583d11d98b7c6f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104195944"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119827228"
 ---
 # <a name="control-macros"></a>控制宏
 

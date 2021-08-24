@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: e73de4d6d1762e87aa05e72b6cb6b3fbb228b80d
-ms.sourcegitcommit: 73417d55867c804274a55abe5ca71bcba7006119
+ms.openlocfilehash: b44744d7ac7d158bd7d00423396681fef1499c94d61b5cb74a1dee48dad5c784
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "103842860"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119898668"
 ---
 # <a name="uri-prefixes"></a>URI 首碼
 
@@ -23,7 +23,7 @@ ms.locfileid: "103842860"
 
 ## <a name="prefixes"></a>首碼
 
-如果您存取 cim [*2.1 類別*](windows-remote-management-glossary.md) ，例如 [**cim \_ 資料檔案**](/windows/desktop/CIMWin32Prov/cim-datafile)，URI 的前置詞會與 cim 2.9 類別的前置詞不同，例如 **cim \_ AdminDomain**。 CIM 2.1 類別記載于 Windows Management Instrumentation (WMI) 的 [Cim 類別](/windows/desktop/WmiSdk/cimclas) 一節中。
+如果您存取 cim [*2.1 類別*](windows-remote-management-glossary.md) ，例如 [**cim \_ 資料檔案**](/windows/desktop/CIMWin32Prov/cim-datafile)，URI 的前置詞會與 cim 2.9 類別的前置詞不同，例如 **cim \_ AdminDomain**。 cim 2.1 類別記載于 Windows Management Instrumentation (WMI) 的[cim 類別](/windows/desktop/WmiSdk/cimclas)一節中。
 
 大部分的 [wmi 類別](/windows/desktop/WmiSdk/wmi-classes) 都是在 **根 \\ cimv2** wmi 命名空間中。 適用于 Microsoft 智慧型平臺管理介面 ([IPMI](/previous-versions/windows/desktop/ipmiprv/ipmi-provider)) 提供者的類別位於 **根 \\ 硬體** 中。
 
@@ -41,13 +41,13 @@ ms.locfileid: "103842860"
 
     "http://schemas.microsoft.com/wbem/wsman/1/wmi/root/hardware/"
 
-如需詳細資訊，請參閱 [資源 uri](resource-uris.md) 和 [UrlPrefix 字串](/windows/desktop/Http/urlprefix-strings)。 如需有關為 WMI 類別或方法產生 URI 的詳細資訊，請參閱 [Windows 遠端管理和 wmi](windows-remote-management-and-wmi.md)。
+如需詳細資訊，請參閱 [資源 uri](resource-uris.md) 和 [UrlPrefix 字串](/windows/desktop/Http/urlprefix-strings)。 如需有關為 WMI 類別或方法產生 URI 的詳細資訊，請參閱[Windows 遠端管理和 wmi](windows-remote-management-and-wmi.md)。
 
 ## <a name="prefix-aliases"></a>前置詞別名
 
 前置別名是代表長資源 URI 前置詞的快捷方式。 您也可以在 **Winrm** 命令列中使用別名。 若要查看可用的別名清單，請輸入 **Winrm help 別名**。
 
-請注意，在指定資源 URI 時，無法在端點參考 (EPR) 內使用別名。 Windows 遠端管理在內嵌于 XML 時無法展開別名。
+請注意，在指定資源 URI 時，無法在端點參考 (EPR) 內使用別名。 Windows遠端系統管理在內嵌于 XML 時無法展開別名。
 
 在下列程式碼範例中，會在 EPR 中使用 winrm 別名，而不是完整的資源 URI，也就是 `http://schemas.microsoft.com/wbem/wsman/1/config/Listener` 。 在此情況下，WinRM 會傳回錯誤，指出服務無法處理要求。
 
@@ -116,7 +116,7 @@ ResponseStr = Session.Get(ResourceLocator, 0)
 [關於 Windows 遠端管理](about-windows-remote-management.md)
 </dt> <dt>
 
-[Windows 遠端管理和 WMI](windows-remote-management-and-wmi.md)
+[Windows遠端系統管理和 WMI](windows-remote-management-and-wmi.md)
 </dt> <dt>
 
 [資源 URI](resource-uris.md)

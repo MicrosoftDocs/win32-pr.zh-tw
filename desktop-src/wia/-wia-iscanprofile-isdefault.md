@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Scanprofile.h
-ms.openlocfilehash: 245d36d3f6c907260e3e4858a5873309d2638530
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3f763286a6db8430514cd70bc05eb160935e0fdc7ae8b5c452e8c09a113c0af5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943585"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119882408"
 ---
 # <a name="iscanprofileisdefault-method"></a>IScanProfile：： IsDefault 方法
 
@@ -42,9 +42,9 @@ HRESULT IsDefault(
 *pbDefault* \[擴展\]
 </dt> <dd>
 
-類型： **BOOL \** _
+類型： **BOOL \***
 
-_ * BOOL * * 的指標。
+**BOOL** 的指標。
 
 <dt>
 
@@ -86,10 +86,10 @@ _ * BOOL * * 的指標。
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                        |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                              |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                        |
 | 標頭<br/>                   | <dl> <dt>Scanprofile。h</dt> </dl>    |
-| Idl<br/>                      | <dl> <dt>Scanprofiles .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>Scanprofiles .idl</dt> </dl> |
 
 
 

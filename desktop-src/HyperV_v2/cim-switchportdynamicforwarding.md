@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 0e0d87e2ee5df6a7564d92fd1f8421dfa09abe20
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8ccf3b6cd9ac1fcc97c8e409df792069c02652d5e0bf92ef8bbbec9f88e36cf3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106988741"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119899528"
 ---
 # <a name="cim_switchportdynamicforwarding-class"></a>CIM \_ SwitchPortDynamicForwarding 類別
 

@@ -5,12 +5,12 @@ ms.assetid: 9603edb9-22c6-4649-b82d-bc1421f10ff5
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 398e4f0e9cddd9c15f62cc67d466231711ce3ef0
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 12c24d32ba25f76747a8d57819dba995c116bcbcc77adbcbd88f997df00a1396
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103932221"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119865928"
 ---
 # <a name="remote-desktop-virtualization-enumerations"></a>遠端桌面虛擬化列舉
 
@@ -62,9 +62,9 @@ ms.locfileid: "103932221"
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

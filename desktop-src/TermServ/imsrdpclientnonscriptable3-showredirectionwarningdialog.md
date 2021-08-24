@@ -44,12 +44,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 468e1721de3395067ca570c2051f3906df626071
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b1f8145712a4e29c0ef16ca4f3da6e2ba3870389896434669aa5134e7b037da9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104024818"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119771478"
 ---
 # <a name="imsrdpclientnonscriptable3showredirectionwarningdialog-property"></a>IMsRdpClientNonScriptable3：： ShowRedirectionWarningDialog 屬性
 

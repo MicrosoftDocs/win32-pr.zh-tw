@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6452305342fcebf802183c5de2d1992aa0bfbcde
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f0354710d5857d8250419fe9c8f0f4b0154051f62dc31b1e2649ce800350c8a8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104317412"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119768698"
 ---
 # <a name="ui_animation_repeat_indefinitely_conclude_at_end"></a>UI \_ 動畫 \_ 會 \_ \_ \_ 在結束時無限期地重複 \_ 結束
 
@@ -25,7 +25,7 @@ ms.locfileid: "104317412"
 
 
 
-| 常數/值                                                                                                                                                                                                                                                                                                                      | Description      |
+| 常數/值                                                                                                                                                                                                                                                                                                                      | 描述      |
 |:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------|
 | <span id="UI_ANIMATION_REPEAT_INDEFINITELY_CONCLUDE_AT_END"></span><span id="ui_animation_repeat_indefinitely_conclude_at_end"></span><dl> <dt>**UI \_動畫 \_ \_ \_ \_ 在 \_ 結束時無限期地重複**</dt><dt>結束</dt> </dl> | INT32<br/> |
 
@@ -37,10 +37,10 @@ ms.locfileid: "104317412"
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅適用于 Windows 7 \[ 桌面應用程式的 Windows 8、windows 7 和平臺更新\]<br/>    |
+| 最低支援的用戶端<br/> | Windows 8，僅適用于 Windows 7 \[ 桌面應用程式的 Windows 7 和平臺更新\]<br/>    |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                  |
 | 標頭<br/>                   | <dl> <dt>UIAnimation。h</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>UIAnimation .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>UIAnimation .idl</dt> </dl> |
 
 
 

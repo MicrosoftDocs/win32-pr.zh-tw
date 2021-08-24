@@ -64,12 +64,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a94a7f7d9fe5d6532de55f36a50094205fe1d4ac
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 609619a012c9eea865a275bc6ee86cfc06c798ba27902636f9d5f792b8cb0dc4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466849"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119770878"
 ---
 # <a name="imstscaxusername-property"></a>IMsTscAx：： UserName 屬性
 

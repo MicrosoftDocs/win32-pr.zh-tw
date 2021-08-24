@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 44de0e71e3ba744f668535950224129b91bc3653
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 62f813bde1195d8adcad708c40857cc11b1e7b70f696455168e174a4bf2f6cf3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103932748"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119847038"
 ---
 # <a name="rcdata-resource"></a>RCDATA 資源
 
@@ -53,7 +53,7 @@ nameID RCDATA  [optional-statements] {raw-data  ...}
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -108,9 +108,9 @@ resname RCDATA
 [**版本**](version-statement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

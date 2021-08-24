@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Swbempropertyset 屬性
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 596871439e99ab5847217fc76a009e54035b54bb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 61af16ae18012fb5315b758f268ba3090ae26e6a255f2d75911af3c6e0986f74
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193060"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119898248"
 ---
 # <a name="swbemproperty-properties"></a>Swbempropertyset 屬性
 

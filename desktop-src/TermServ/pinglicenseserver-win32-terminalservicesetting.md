@@ -17,16 +17,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2fe7277b3130c88c1aec7716c1a3bf560b81db64
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4e5a52268073a076c5dada44b7f34c6a6b3e0c820c0b9819f65d23081f4f6c37
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384574"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119866098"
 ---
 # <a name="pinglicenseserver-method-of-the-win32_terminalservicesetting-class"></a>Win32 TerminalServiceSetting 類別的 PingLicenseServer 方法 \_
 
-\[**PingLicenseServer** 不再適用于 Windows Server 2008 R2。\]
+\[**PingLicenseServer** 已不再可供使用，Windows Server 2008 R2。\]
 
 **Windows Server 2008：** Ping 授權伺服器以判斷它是否為有效的授權伺服器。
 

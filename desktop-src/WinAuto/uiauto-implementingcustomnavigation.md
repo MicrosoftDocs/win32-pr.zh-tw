@@ -4,12 +4,12 @@ description: 描述執行 ICustomNavigationProvider 介面的方針和慣例，�
 ms.assetid: 428540BB-5CC0-4F49-8384-0FFC130FBB38
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 97cc6524585f3ddd7ec764a791141fce9daa3c4f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4499f5b031b5b5a9391f0c0078cb64c4c2715b61052c324cc2c2b19ccb2f5d4a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104183452"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119899551"
 ---
 # <a name="customnavigation-control-pattern"></a>CustomNavigation 控制項模式
 
@@ -27,7 +27,7 @@ ms.locfileid: "104183452"
 
 在實施 **CustomNavigation** 提供者時，請注意下列方針和慣例：
 
--   **>positioninset**、 **SizeOfSet** 和 **Level** 的屬性值是以一為基礎的整數值。
+-   **>Positioninset**、 **SizeOfSet** 和 **Level** 的屬性值是以一為基礎的整數值。
 -   **ICustomNavigationProvider** 不提供控制項的主動式操作，例如移動位置、新增和移除專案，或升級和降級層級。
 -   執行 **ICustomNavigationProvider** 的控制項通常會有階層式結構，但是可以使用 **導覽** 方法略過層級。 屬性 **>positioninset**、 **SizeOfSet** 和 **Level** 需要在模式上。
 
@@ -49,7 +49,7 @@ ms.locfileid: "104183452"
 
 
 
- 
+ 
 
 此控制項模式沒有任何相關聯的方法或事件。
 
@@ -72,9 +72,9 @@ ms.locfileid: "104183452"
 [UI 自動化控制項模式概觀](uiauto-controlpatternsoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,18 +4,18 @@ ms.assetid: fa9d72d0-2f9c-433d-b05a-8423664b2e3e
 title: IP Helper 的新功能
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c2c1a6eebb3e9e785e8988b822df0b2a80ae6eba
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3141797e96442f34a94c2d2afc37585ce6dbc944e7fb35cf9b4602afa042c95a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320583"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119897618"
 ---
 # <a name="whats-new-in-ip-helper"></a>IP Helper 的新功能
 
 ## <a name="windows-8-and-windows-server-2012"></a>Windows 8 與 Windows Server 2012
 
-下列功能已新增至 Windows 8 和 Windows Server 2012 上的 IP 協助程式 Api。
+Windows 8 與 Windows Server 2012 上的 IP 協助程式 api 已新增下列功能。
 
 函式，可抓取網路連接的歷程記錄頻寬估計值。 如需詳細資訊，請參閱
 
@@ -27,16 +27,16 @@ ms.locfileid: "104320583"
 
 ## <a name="windows-7-and-windows-server-2008-r2"></a>Windows 7 與 Windows Server 2008 R2
 
-下列功能已新增至 Windows 7 和 Windows Server 2008 R2 上的 IP 協助程式 Api。
+下列功能已新增至 Windows 7 和 Windows Server 2008 R2 上的 IP Helper api。
 
 在乙太網路 MAC 位址的二進位格式和字串格式之間轉換乙太網路位址的函式。 如需詳細資訊，請參閱
 
 -   [**RtlEthernetAddressToString**](/windows/desktop/api/ip2string/nf-ip2string-rtlethernetaddresstostringa)
 -   [**RtlEthernetStringToAddress**](/windows/desktop/api/ip2string/nf-ip2string-rtlethernetstringtoaddressa)
 
-## <a name="windows-server-2008-and-windows-vista-sp1"></a>Windows Server 2008 和 Windows Vista SP1
+## <a name="windows-server-2008-and-windows-vista-sp1"></a>WindowsServer 2008 和 Windows Vista SP1
 
-下列功能已新增至 Windows Server 2008 和 Windows Vista Service Pack 1 (SP1) 上的 IP 協助程式 Api。
+下列功能已新增至 Windows Server 2008 上的 IP 協助程式 api，以及 Windows Vista Service Pack 1 (SP1) 。
 
 適用于 IPv4 和網際網路控制訊息通訊協定的函式 (ICMP) 。 如需詳細資訊，請參閱
 
@@ -44,7 +44,7 @@ ms.locfileid: "104320583"
 
 ## <a name="windows-vista"></a>Windows Vista
 
-Windows Vista 和更新版本上的 IP 協助程式 Api 已新增下列函式群組。
+Windows Vista 和更新版本的 IP 協助程式 api 已新增下列函式群組。
 
 使用 IPv6 和 IPv4 進行介面轉換的函式。 如需詳細資訊，請參閱
 
@@ -176,14 +176,14 @@ Windows Vista 和更新版本上的 IP 協助程式 Api 已新增下列函式群
 
 ## <a name="windows-server-2003"></a>Windows Server 2003
 
-下列函式已新增至 Windows Server 2003 和更新版本上的 IP Helper Api：
+下列功能已新增至 Windows Server 2003 和更新版本上的 IP 協助程式 api：
 
 -   [**CancelSecurityHealthChangeNotify**](/previous-versions/windows/desktop/legacy/bb442512(v=vs.85))
 -   [**NotifySecurityHealthChange**](/previous-versions/windows/desktop/legacy/bb451761(v=vs.85))
 
 ## <a name="windows-xp-sp2"></a>Windows XP SP2
 
-下列功能已新增至 Windows XP Service Pack 2 (SP2) 和更新版本上的 IP 協助程式 Api：
+下列功能已新增至 Windows XP Service Pack 2 (SP2) 和更新版本上的 IP 協助程式 api：
 
 -   [**GetOwnerModuleFromTcpEntry**](/windows/desktop/api/Iphlpapi/nf-iphlpapi-getownermodulefromtcpentry)
 -   [**GetOwnerModuleFromTcp6Entry**](/windows/desktop/api/Iphlpapi/nf-iphlpapi-getownermodulefromtcp6entry)

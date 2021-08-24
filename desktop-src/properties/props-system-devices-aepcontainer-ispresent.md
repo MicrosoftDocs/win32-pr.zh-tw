@@ -4,12 +4,12 @@ ms.assetid: 3eb0f4a9-5053-4e98-9b7c-90e9b840b8ff
 title: System.Devices.AepContainer.IsPresent
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1356a56904271edf8ddb26a28659e70f74d10476
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c9cb142065d84821a066a31124e5e84af836198e9fb7aded003ff97fe599d91e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106981550"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119845678"
 ---
 # <a name="systemdevicesaepcontainerispresent"></a>System.Devices.AepContainer.IsPresent
 

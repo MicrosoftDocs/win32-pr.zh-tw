@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Wia.h
-ms.openlocfilehash: 23c067b8e4da93d678f641890a85e2535b3ca50d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0a64a7c015f7c21ff19a736570aa104f0b229bc1b6561001b612045824f9a31d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026327"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119882418"
 ---
 # <a name="ienumwiaitem2getcount-method"></a>IEnumWiaItem2：： GetCount 方法
 
@@ -42,9 +42,9 @@ HRESULT GetCount(
 *cElt* \[擴展\]
 </dt> <dd>
 
-類型： **ULONG \** _
+類型： **ULONG \***
 
-收到 _ *ULONG** 的指標，此專案會接收列舉中的元素數目。
+接收 **ULONG** 的指標，此專案會接收列舉中的元素數目。
 
 </dd> </dl>
 
@@ -60,10 +60,10 @@ HRESULT GetCount(
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                     |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                               |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                     |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                               |
 | 標頭<br/>                   | <dl> <dt>Wia</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>Wia .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>Wia .idl</dt> </dl> |
 
 
 

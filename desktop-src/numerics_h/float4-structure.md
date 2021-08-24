@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c4a2a4721e3ab7e5520545b42367d2432ba967f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4eb1af9bee9a571abf58fb20539945effc3ff1ee81cbb48a4d90c1510aebcd4c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106984756"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119825278"
 ---
 # <a name="float4-structure"></a>float4 結構
 
@@ -40,7 +40,7 @@ ms.locfileid: "106984756"
 
 ## <a name="functions"></a>函式
 
-| Name | 描述 |
+| 名稱 | 描述 |
 |-|-|
 | `float length(float4 const& value)` | 計算向量的長度（或 Euclidean 距離）。 |
 | `float length_squared(float4 const& value)` | 計算向量平方的長度（或 Euclidean 距離）。 |
@@ -72,7 +72,7 @@ ms.locfileid: "106984756"
 
 ## <a name="operators"></a>運算子
 
-| Name | 描述 |
+| 名稱 | 描述 |
 |-|-|
 | `float4 operator+ (float4 const& value1, float4 const& value2)` | 新增兩個向量。 |
 | `float4 operator- (float4 const& value1, float4 const& value2)` | 從向量減去向量。 |

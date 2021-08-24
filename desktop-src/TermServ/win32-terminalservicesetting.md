@@ -70,12 +70,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bc03f02028a331a3688152a1ce8c57ada7269d07
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5a4d7aefdd3f0a684c91fda3ab73d17de32327f34e8d20d5a7f844ea07e21906
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104317423"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119769888"
 ---
 # <a name="win32_terminalservicesetting-class"></a>Win32 \_ TerminalServiceSetting 類別
 
@@ -433,7 +433,7 @@ class Win32_TerminalServiceSetting : CIM_Setting
 
 指出是否已啟用或停用 (DFSS) 動態公平共用排程。 這可以是下列其中一個值。
 
-**Windows Server 2008：** 此屬性在 Windows Server 2008 R2 之前無法使用。
+**Windows Server 2008：** Windows Server 2008 R2 之前，無法使用此屬性。
 
 <dt>
 
@@ -531,18 +531,18 @@ DFSS 已啟用。
 0 (0x0) 
 </dt> <dd>
 
-Disabled
+已停用
 
 </dd> <dt>
 
 1 (0x1) 
 </dt> <dd>
 
-已啟用
+啟用
 
 </dd> </dl>
 
-**Windows Server 2008：** 此屬性在 Windows Server 2008 R2 之前無法使用。
+**Windows Server 2008：** Windows Server 2008 R2 之前，無法使用此屬性。
 
 </dd> <dt>
 
@@ -1098,7 +1098,7 @@ Disabled
 
 </dd> </dl>
 
-**Windows Server 2008：** 此屬性在 Windows Server 2008 R2 之前無法使用。
+**Windows Server 2008：** Windows Server 2008 R2 之前，無法使用此屬性。
 
 </dd> <dt>
 
@@ -1129,7 +1129,7 @@ Disabled
 
 </dd> </dl>
 
-**Windows Server 2008：** 此屬性在 Windows Server 2008 R2 之前無法使用。
+**Windows Server 2008：** Windows Server 2008 R2 之前，無法使用此屬性。
 
 </dd> <dt>
 
@@ -1668,7 +1668,7 @@ RD 連線代理人的使用者登入模式。
 
 <span id="AppServer"></span><span id="appserver"></span><span id="APPSERVER"></span>
 
-<span id="AppServer"></span><span id="appserver"></span><span id="APPSERVER"></span>**>appserver** (1) 
+<span id="AppServer"></span><span id="appserver"></span><span id="APPSERVER"></span>**>Appserver** (1) 
 
 
 </dt> <dd>
@@ -1832,7 +1832,7 @@ RD 工作階段主機伺服器會先嘗試使用遠端桌面輕鬆列印印表�
 
 若要連接到根 \\ CIMV2 \\ microsoft-windows-terminalservices-gateway 命名空間，驗證層級必須包含封包隱私權。 針對 C/c + + 呼叫，這是 **RPC \_ C \_ 驗證 \_ level \_ PKT \_ 隱私權** 的驗證層級。 針對 Visual Basic 和腳本呼叫，這是 **WbemAuthenticationLevelPktPrivacy** 或 "pktPrivacy" 的驗證層級，其值為六。
 
-下列 Visual Basic Scripting Edition (VBScript) 範例示範如何連接到具有封包隱私權的遠端電腦。
+下列 Visual Basic 腳本撰寫版 (VBScript) 範例示範如何連接到具有封包隱私權的遠端電腦。
 
 
 ```VB

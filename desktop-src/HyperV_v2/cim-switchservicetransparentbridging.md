@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 04bce4bf673dc029b7b3a2d2b837670b01300c73
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2e3f56f565286358f5d55ee47ccb102a4ecbf35e89fcd207c67518fc1fb42627
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106992026"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119899478"
 ---
 # <a name="cim_switchservicetransparentbridging-class"></a>CIM \_ SwitchServiceTransparentBridging 類別
 

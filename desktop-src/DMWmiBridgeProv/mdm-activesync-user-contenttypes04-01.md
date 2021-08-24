@@ -17,12 +17,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9ef158daf25c6dc1c084966673f71c5907c4df1a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 90ee020573f8f7d0e01250d844bcb546a399b5b2a6c73e79b8ad5b98df154dd6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106968153"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119769108"
 ---
 # <a name="mdm_activesync_user_contenttypes04_01-class"></a>MDM \_ ActiveSync \_ 使用者 \_ ContentTypes04 \_ 01 類別
 
@@ -117,7 +117,7 @@ class MDM_ActiveSync_User_ContentTypes04_01
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 10 桌面應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | Windows 10 \[僅限桌面應用程式\]<br/>                                                    |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                      |
 | 命名空間<br/>                | 根 \\ cimv2 \\ mdm \\ dmmap<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv mof</dt> </dl> |

@@ -5,12 +5,12 @@ ms.assetid: 9109DEE5-4D37-4B4E-B02A-3499592B3694
 ms.tgt_platform: multiple
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c1071632b2d7ff43eaabbaa443677a2dfcd6e23c
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 9d6375e8697851871d58b83b1a0878f65ae8e0ecd74c01d7caf8790d949e0a56
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104373121"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119865888"
 ---
 # <a name="remoteapp-and-desktop-connection-management-service-enumerations"></a>RemoteApp 和桌面連線管理服務列舉
 
@@ -34,9 +34,9 @@ RemoteApp 和桌面連線管理服務 API 提供下列列舉。
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

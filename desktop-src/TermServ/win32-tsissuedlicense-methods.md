@@ -5,12 +5,12 @@ ms.assetid: 0EC85DB9-294C-4AC2-97C4-F37AB71E2837
 ms.tgt_platform: multiple
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 85a5e3c9b296564b1e005f50a4dd56767367558f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0bcbd00dd16f8fa7e1aa0b96600708791e20c09cd1345341f9145d9f8ec8351f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106968044"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119769578"
 ---
 # <a name="win32_tsissuedlicense-methods"></a>Win32 \_ TSIssuedLicense 方法
 
@@ -20,9 +20,9 @@ Win32 \_ TSIssuedLicense 類別會公開下列方法。
 
 -   [**Revoke 方法**](revoke-win32-tsissuedlicense.md)
 
- 
+ 
 
- 
+ 
 
 
 

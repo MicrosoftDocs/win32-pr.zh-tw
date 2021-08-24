@@ -4,12 +4,12 @@ ms.assetid: C73752AB-3D6E-4D92-9FDE-CB68B6A9743C
 title: HD 相片格式總覽
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 62c526667c6bf77d340e895bdb66dc073134c33d
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 772c295051186069dd7be1a3efa3bfbb4e6ea919b2ab9fbe77ffd52cad1676a1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111444869"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119881948"
 ---
 # <a name="hd-photo-format-overview"></a>HD 相片格式總覽
 
@@ -37,7 +37,7 @@ ms.locfileid: "111444869"
 
 |   元件            | 描述                                                                     |
 |------------------------|---------------------------------------------------------------------------------|
-|  (s 的正式名稱)          | HD 相片、Windows Media 相片                                                   |
+|  (s 的正式名稱)          | HD 相片、Windows 媒體相片                                                   |
 | 副檔名 (s)  | wdp                                                                             |
 | MIME 類型 (MIME type)              | image/vnd.openxmlformats-officedocument.spreadsheetml.sheet. ms-photo                                                              |
 | 檔案簽章 (s)       | 前四個位元組： 0x4949bc00 (版本 0;發行前版本) ，0x4949bc01 (1.0 版)  |

@@ -1,6 +1,6 @@
 ---
 title: 將圖形驅動程式遷移至 Windows 10
-description: Windows 10 媒體和 Windows 10 （例如其前身 Windows 8.1）在 Windows Media 套件或「In Box」中沒有任何協力廠商圖形驅動程式。
+description: Windows 10媒體和 Windows 10 （例如其前身 Windows 8.1）在 Windows 媒體套件或「in Box」中沒有任何協力廠商圖形驅動程式。
 ms.assetid: E6240CF0-5A65-4A66-98AE-856C783EB320
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,25 +9,25 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: a23d8ae341172223955fcc781f95b7615bcfc867
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b1703210318f55dad3e50f4dcdd7e143434275b7ef3b41203f41792262a53e5a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106969064"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119882708"
 ---
 # <a name="graphics-driver-migration-to-windows-10"></a>將圖形驅動程式遷移至 Windows 10
 
-Windows 10 媒體和 Windows 10 （例如其前身 Windows 8.1）在 Windows Media 套件或「In Box」中沒有任何協力廠商圖形驅動程式。 相反地，系統會在 WU 上布建各式各樣裝置的圖形驅動程式，讓硬體廠商可以更新驅動程式，而不需要變更作業系統映射。 此外，在 OS 升級期間，不會將現有的驅動程式遷移至 Windows 10 Windows 10 從 Windows 7、Windows 8 或 Windows 8.1。 這也會影響 Windows Server 2012 的升級。
+Windows 10媒體和 Windows 10 （例如其前身 Windows 8.1）在 Windows 媒體套件或「in Box」中沒有任何協力廠商圖形驅動程式。 相反地，系統會在 WU 上布建各式各樣裝置的圖形驅動程式，讓硬體廠商可以更新驅動程式，而不需要變更作業系統映射。 此外，在 OS 升級期間，不會將現有的驅動程式遷移至 Windows 10 Windows 10 Windows 7、Windows 8 或 Windows 8.1。 這也會影響 Windows Server 2012 的升級。
 
 ## <a name="upgrades-and-installation"></a>升級與安裝
 
-針對升級和新的安裝，您必須從 Windows Update (WU) 或相關硬體的 IHV/OEM 網站取得圖形驅動程式。 這需要網際網路連線。 WU 上的驅動程式會在使用者將其 Windows 7 或 Windows 8 x 系統升級至 Windows 10 時，由動態更新 (DU) 插入 OS 設定中。
+針對升級和新的安裝，您必須從 Windows Update (WU) 或相關硬體的 IHV/OEM 網站取得圖形驅動程式。 這需要網際網路連線。 WU 上的驅動程式會在使用者將 Windows 7 或 Windows 8. x 系統升級至 Windows 10 時，透過動態更新 (DU) 插入 OS 設定中。
 
 > [!Note]  
-> 這並不適用于已預先安裝 Windows 的系統，例如在零售商店購買的現成電腦。 這些系統已經有 OEM 所安裝的圖形驅動程式。 OEM 也可以提供 DVD (，以重新安裝包含驅動程式的 OS) 。
+> 這並不適用于預先安裝 Windows 的系統，例如在零售商店購買的現成電腦。 這些系統已經有 OEM 所安裝的圖形驅動程式。 OEM 也可以提供 DVD (，以重新安裝包含驅動程式的 OS) 。
 
- 
+ 
 
 升級至 Windows 10 之後，使用者可能會發現電腦上沒有安裝圖形驅動程式。 發生此狀況的幾個可能原因：
 
@@ -40,7 +40,7 @@ Windows 10 媒體和 Windows 10 （例如其前身 Windows 8.1）在 Windows Med
 
 ## <a name="manifestations"></a>表現
 
-針對較舊的電腦 (通常是在 Windows 7) 之前建立的，在 WU 上可能沒有任何驅動程式可 Windows 10 供使用，因為圖形介面卡已達生命週期結束 (EOL) ，且硬體廠商已不再支援。 即使是目前執行 Windows 7 或8.x 的系統，也可能已從先前的 OS 升級，而且可能具有 EOL 圖形介面卡。
+針對較舊的電腦 (通常是在 Windows 7) 之前建立的，在 WU 上可能沒有任何驅動程式可 Windows 10 供使用，因為圖形介面卡已達生命週期的生命週期結束 (，且硬體廠商已不再支援。 即使是目前正在執行 Windows 7 或 8. x 的系統可能已從舊版作業系統升級，而且可能有 EOL 圖形介面卡。
 
 較新的電腦可能沒有可用的驅動程式，因為圖形配接器是從較舊的電腦（例如硬體升級期間）傳輸。 如果電腦具有多個圖形介面卡，而使用者在購買新的電腦時仍會保留舊的圖形配接器來使用多個顯示器，通常會發生這種情況。
 
@@ -48,19 +48,19 @@ Windows 10 媒體和 Windows 10 （例如其前身 Windows 8.1）在 Windows Med
 
 ## <a name="mitigations"></a>風險降低
 
--   在升級程式期間，您應該將適當的圖形驅動程式傳遞給 DU，或在升級完成後立即以 WU 傳遞。 Oem 必須確保系統映射中包含適當的圖形驅動程式，以便在其電腦上安裝 Windows 10 的出廠預設值。
--   升級之後，使用者可以明確檢查 \\ 驅動程式的設定 Windows Update 但這不是必要的。 在驅動程式中自動安裝驅動程式時強制執行檢查的使用者，如果自動安裝先完成，可能會看到驅動程式安裝失敗。 請不用理會這一則訊息。
+-   在升級程式期間，您應該將適當的圖形驅動程式傳遞給 DU，或在升級完成後立即以 WU 傳遞。 oem 必須確保系統映射中包含適當的圖形驅動程式，以便在其電腦上安裝 Windows 10 的出廠預設值。
+-   升級之後，使用者可以明確檢查 \\ 驅動程式的設定 Windows Update，不過這不是必要的。 在驅動程式中自動安裝驅動程式時強制執行檢查的使用者，如果自動安裝先完成，可能會看到驅動程式安裝失敗。 請不用理會這一則訊息。
 -   打算進行 Windows 10 全新安裝的使用者應該先取得相關的驅動程式，然後再安裝或依賴 Windows Update 來提供驅動程式，在這種情況下，他們必須確保其網際網路連線正常運作。
 -   針對接收涵蓋範圍驅動程式的電腦，不會緩和遺失的功能。 不過，只有在硬體供應商不再維護驅動程式的情況下（也就是數歲的電腦）才會發生這種情況。
 
 > [!Note]  
 > 針對具有單一顯示器的系統（例如膝上型電腦），許多使用者發現 MSBDA 是可接受的，且不會注意到缺乏硬體驅動程式。 在此情況下，不需要緩和措施。
 
- 
+ 
 
 ## <a name="solutions"></a>方案
 
-Ihv 和 Oem 將其 Windows 10 graphics 驅動程式上傳至適用于任何想要支援之硬體的 WU 是很重要的。
+ihv 和 oem 將其 Windows 10 graphics 驅動程式上傳至適用于任何想要支援之硬體的 WU 是很重要的。
 
 升級時，使用者應該保留選取 [檢查更新] (預設設定) 。 根據網路連線的速度以及 WU 伺服器上的負載，這可能表示在 OOBE 完成且使用者第一次登入之前，驅動程式不會安裝。 在此同時，使用者可能會注意到某些有限的功能或效能不佳。
 
@@ -69,9 +69,9 @@ Ihv 和 Oem 將其 Windows 10 graphics 驅動程式上傳至適用于任何想�
 -   如果電腦已連線到網際網路，應該會自動下載並安裝適當的驅動程式。 使用者不需要採取任何動作。
 -   如果電腦未連線到網際網路，則必須使用已連線到網際網路的電腦，從 IHV 或 OEM 網站下載驅動程式;使用快閃磁片磁碟機或 CD/DVD 傳送至目的電腦;然後手動安裝。
 
- 
+ 
 
- 
+ 
 
 
 

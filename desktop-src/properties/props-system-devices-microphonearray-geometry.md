@@ -4,12 +4,12 @@ ms.assetid: dbb08929-60fa-4652-a9c5-21916cc30097
 title: System.Devices.MicrophoneArray.Geometry
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2eb549ee4867087a0f1b0156a3679abf0f2628fc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cf4e123d42bc5f060c5de88deb0659e2e78b82a79d4d2f6edc0e146476a4334a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192560"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119845618"
 ---
 # <a name="systemdevicesmicrophonearraygeometry"></a>System.Devices.MicrophoneArray.Geometry
 

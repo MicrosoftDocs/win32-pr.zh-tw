@@ -5,12 +5,12 @@ ms.assetid: 25724BF6-A377-4219-B8AF-ADCB495BE094
 ms.tgt_platform: multiple
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: efb07b708f62ca86b38446ef7f37e2e56cdd73d9
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ac0328700bd519a924ab8f8bf7bb8ceed4e14e6f0362f2c49462ff44180d358a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104301320"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119769618"
 ---
 # <a name="win32_tsgeticon-methods"></a>Win32 \_ TSGetIcon 方法
 
@@ -27,9 +27,9 @@ ms.locfileid: "104301320"
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

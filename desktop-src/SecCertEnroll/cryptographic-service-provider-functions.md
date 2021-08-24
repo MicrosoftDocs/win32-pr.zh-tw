@@ -4,12 +4,12 @@ ms.assetid: 4f6f353d-6b06-45b4-8808-56998d3727a4
 title: 密碼編譯服務提供者函數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6a981b418271ba834352c0301c005b39742729a5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 947d9c4f2529071b28052ae5ca34f811d4657c3fd4cede23285999cbaa13a72c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103689688"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119883078"
 ---
 # <a name="cryptographic-service-provider-functions"></a>密碼編譯服務提供者函數
 

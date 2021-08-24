@@ -4,12 +4,12 @@ ms.assetid: 911a0d81-bd12-4155-b45a-ae1a18f2dd07
 title: MeasureMode 相片中繼資料原則
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4a9449ca9a7d1ee5ef213c37562392be2842a09f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 827cd278a71b23934fb0475e78d98b25a9f2b72d413b70f9abc60ba3dbe2c3fd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944379"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119882318"
 ---
 # <a name="systemgpsmeasuremode-photo-metadata-policy"></a>MeasureMode 相片中繼資料原則
 

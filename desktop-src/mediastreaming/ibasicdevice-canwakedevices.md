@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 08a893ac880a426f604f2dc1c73173585e507cc0
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 3ebd0cfe9bf773d78297454d4a7643a74c3d6ea23aea01eeb54cd5c014ce73e0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104022542"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119847668"
 ---
 # <a name="ibasicdevicecanwakedevices-method"></a>IBasicDevice：： CanWakeDevices 方法
 
@@ -54,7 +54,7 @@ HRESULT CanWakeDevices(
 
 
 
-| 傳回碼                                                                          | Description                      |
+| 傳回碼                                                                          | 描述                      |
 |--------------------------------------------------------------------------------------|----------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl> | 此方法已成功。<br/> |
 

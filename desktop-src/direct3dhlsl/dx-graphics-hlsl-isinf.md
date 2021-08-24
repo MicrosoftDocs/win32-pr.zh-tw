@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4df738438d62d5a66dd3b08ad769d475df562d5f
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
-ms.translationtype: HT
+ms.openlocfilehash: 30384cb4463f5751394f45bf521529a1afc79d1b9262cf007ceeaa7d790c3f0e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104196326"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119789648"
 ---
 # <a name="isinf"></a>isinf
 
@@ -54,7 +54,7 @@ ms.locfileid: "104196326"
 
 
 
-| Name  | [**範本類型**](dx-graphics-hlsl-intrinsic-functions.md)                                                  | [**元件類型**](dx-graphics-hlsl-intrinsic-functions.md) | 大小     |
+| 名稱  | [**範本類型**](dx-graphics-hlsl-intrinsic-functions.md)                                                  | [**元件類型**](dx-graphics-hlsl-intrinsic-functions.md) | 大小     |
 |-------|----------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|----------|
 | *x*   | 純 [**量、**](dx-graphics-hlsl-intrinsic-functions.md)**向量** 或 **矩陣** | [**浮動**](/windows/desktop/WinProg/windows-data-types)                        | 任意      |
 | *Ret* | 純 [**量、**](dx-graphics-hlsl-intrinsic-functions.md)**向量** 或 **矩陣** | [**bool**](/windows/desktop/WinProg/windows-data-types)                         | 作為輸入 |

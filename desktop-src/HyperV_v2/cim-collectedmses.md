@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: bdf5c5d682f1b6e1b47b64100b3e00f5f79cebfd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 74486e12eb4b4ee155554db8ba9f6f8774728217ca6d0ac70b5faac11958726a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106978273"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119790528"
 ---
 # <a name="cim_collectedmses-class-hyper-v-management"></a>CIM_CollectedMSEs 類別 (Hyper-v 管理) 
 
@@ -87,7 +87,7 @@ class CIM_CollectedMSEs : CIM_MemberOfCollection
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 10 桌面應用程式\]<br/>                                                             |
+| 最低支援的用戶端<br/> | Windows 10 \[僅限桌面應用程式\]<br/>                                                             |
 | 最低支援的伺服器<br/> | Windows Server 2016<br/>                                                                          |
 | 命名空間<br/>                | 根 \\ 虛擬化 \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization。</dt> </dl> |

@@ -3,19 +3,19 @@ title: DRM 網路作業
 description: DRM 網路作業
 ms.assetid: 4a10c811-2aa1-4b97-8a72-61e8b04075a8
 keywords:
-- Windows Media Format SDK，DRM 網路作業
+- Windows媒體格式 SDK，DRM 網路作業
 - Advanced Systems Format (ASF) 、DRM 網路作業
 - ASF (Advanced Systems Format) ，DRM 網路作業
 - 數位版權管理 (DRM) ，網路作業
 - DRM (數位版權管理) ，網路作業
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 875186e43e066d71847da014468e9b1764b60cf2
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7f026ed972b88a1e6290bdd513012c2fab758da2c5b4b91a6a1162df5d258207
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104300224"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119771748"
 ---
 # <a name="drm-network-operations"></a>DRM 網路作業
 
@@ -26,7 +26,7 @@ ms.locfileid: "104300224"
 > [!Note]  
 > 此 SDK 的 x64 版本不支援 DRM。
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -35,9 +35,9 @@ ms.locfileid: "104300224"
 [**啟用 DRM 支援**](enabling-drm-support.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

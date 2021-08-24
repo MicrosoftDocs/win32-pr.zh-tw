@@ -15,12 +15,12 @@ keywords:
 - 串流緩衝區，播放 MIDI 檔案
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bee66ba0687807554cdd416debc1428499d2f2fc
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 65ddb915ce19072a119f692df738d69f8de6807a8b14f47ef7b8e0428814976c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021251"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119805898"
 ---
 # <a name="playing-midi-files"></a>播放 MIDI 檔案
 
@@ -39,9 +39,9 @@ ms.locfileid: "104021251"
 -   [變更內部 MIDI 合成器磁片區](changing-internal-midi-synthesizer-volume.md)
 -   [使用內部 MIDI 合成程式預先載入修補程式](preloading-patches-with-internal-midi-synthesizers.md)
 
- 
+ 
 
- 
+ 
 
 
 

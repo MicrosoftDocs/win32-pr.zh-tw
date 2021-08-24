@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ac9ea16eb82896bb8fad67fff7ed849308100726
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 36df7688627d059a93a6999493b936967d53e0c7aeaeac15fc51146db0684f85
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843580"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119865206"
 ---
 # <a name="setname-method-of-the-win32_tsgatewayresourcegroup-class"></a>Win32 TSGatewayResourceGroup 類別的 SetName 方法 \_
 

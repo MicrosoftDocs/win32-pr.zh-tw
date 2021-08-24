@@ -4,12 +4,12 @@ ms.assetid: 35aa5f10-0bf5-2928-ef9e-ede8b37d8eee
 title: 常見的音訊概念
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cca9977820bfda59abaf14e306ce40ef8231c66f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7c66c76080f71022ea216e87a01fe8433ce1deb60060cc4ae7c4bc0a00403128
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106985217"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119770828"
 ---
 # <a name="common-audio-concepts"></a>常見的音訊概念
 

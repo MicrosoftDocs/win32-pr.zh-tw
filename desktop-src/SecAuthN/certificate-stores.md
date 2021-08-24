@@ -4,12 +4,12 @@ ms.assetid: 3be91b9b-ecc0-4cf2-88ca-77fd25d2dafc
 title: 憑證存放區
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5ba46318f095c78e7813ed962e066fd7e4650126
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 64451ea7f568bb5e86289d5d9f1587d98b65aa1d53c14a4a251a5e61fe72b21d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026501"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119883488"
 ---
 # <a name="certificate-stores"></a>憑證存放區
 

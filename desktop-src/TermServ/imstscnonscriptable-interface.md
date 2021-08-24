@@ -16,18 +16,18 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 92372f7ea9479f7fcdd632546a0bd7dd2f0b465e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 86ce3b1e921635850e9ffa713c55a812a806ac4e757e772569e7db817410ad3d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106968142"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119770648"
 ---
 # <a name="imstscnonscriptable-interface"></a>IMsTscNonScriptable 介面
 
 包含與遠端桌面 ActiveX 控制項的密碼應用程式相關的屬性和方法。
 
-**IMsTscNonScriptable** 介面的主要用途是在遠端桌面 ActiveX 控制項裝載于自訂寫入容器的案例中，設定遠端桌面工作階段主機 (RD 工作階段主機) 伺服器的自動密碼登入存取。 當設定自動登入時，使用者在連接時不會收到 [Windows 登入] 對話方塊。
+**IMsTscNonScriptable** 介面的主要用途是在遠端桌面 ActiveX 控制項裝載于自訂寫入容器的案例中，設定遠端桌面工作階段主機 (RD 工作階段主機) 伺服器的自動密碼登入存取。 設定自動登入時，使用者在連接時不會收到 Windows 登入對話方塊。
 
 在某些平臺上， **IMsTscNonScriptable** 介面的方法可以用來指定三種支援格式的密碼：
 
@@ -73,11 +73,11 @@ ms.locfileid: "106968142"
 
 
 
-| 屬性                                                                      | 存取類型           | Description                                                                  |
+| 屬性                                                                      | 存取類型           | 描述                                                                  |
 |:------------------------------------------------------------------------------|:----------------------|:-----------------------------------------------------------------------------|
 | [**BinaryPassword**](imstscnonscriptable-binarypassword.md)<br/>       | 讀取/寫入<br/> | 不支援這個屬性。<br/>                                   |
 | [**BinarySalt**](imstscnonscriptable-binarysalt.md)<br/>               | 讀取/寫入<br/> | 不支援這個屬性。<br/>                                   |
-| [**ClearTextPassword**](imstscnonscriptable-cleartextpassword.md)<br/> | 唯寫<br/> | 以純文字格式的遠端桌面 ActiveX 控制項密碼。<br/> |
+| [**ClearTextPassword**](imstscnonscriptable-cleartextpassword.md)<br/> | 唯寫<br/> | 以純文字格式 ActiveX 控制密碼的遠端桌面。<br/> |
 | [**PortablePassword**](imstscnonscriptable-portablepassword.md)<br/>   | 讀取/寫入<br/> | 不支援這個屬性。<br/>                                   |
 | [**PortableSalt**](imstscnonscriptable-portablesalt.md)<br/>           | 讀取/寫入<br/> | 不支援這個屬性。<br/>                                   |
 
@@ -87,7 +87,7 @@ ms.locfileid: "106968142"
 
 ## <a name="remarks"></a>備註
 
-提供密碼給遠端桌面 ActiveX 控制項是選擇性的。 如果您提供密碼給控制項，則在使用 [**Connect**](imstscax-connect.md) 方法的呼叫起始連接之前，您應該只將上述三種格式的其中一種套用至控制項。
+提供密碼給遠端桌面 ActiveX 控制項是選擇性的。 如果您提供密碼給控制項，則在使用 [**連線**](imstscax-connect.md)方法的呼叫起始連接之前，您應該只將上述三種格式的其中一種套用至控制項。
 
 > [!Note]  
 > 您也可以使用遠端桌面服務設定工具 (的設定，在伺服器上啟用自動登入。 ) 系統管理員可以使用此工具，在需要自動登入的情況下，將特定密碼指派給連線。
@@ -126,7 +126,7 @@ ms.locfileid: "106968142"
 [遠端桌面網頁連線參考](remote-desktop-web-connection-reference.md)
 </dt> <dt>
 
-[**IMsTscAx：： Connect**](imstscax-connect.md)
+[**IMsTscAx：：連線**](imstscax-connect.md)
 </dt> </dl>
 
  

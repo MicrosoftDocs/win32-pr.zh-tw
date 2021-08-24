@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: c6d94906fa8c0debfa1ee49d95f5acd47aea2526
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8d35f09a10cc88ae3873a507b6fa7000812503890240ce0b808ffecc84f23fd8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972301"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119883948"
 ---
 # <a name="foldertype-element-library-schema"></a>folderType 元素 (程式庫架構) 
 

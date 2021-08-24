@@ -4,12 +4,12 @@ ms.assetid: 9d064188-53a1-4cb5-b516-99610d7b8134
 title: 適當地命名視窗
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eaee320f621acf834d7c0ec5978a9e42f0811e31
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 41f2109568306e8817c518eecd8761ab00a2b1ecb8c54d4388b78e3eb456278d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106988329"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119883398"
 ---
 # <a name="naming-a-window-appropriately"></a>適當地命名視窗
 

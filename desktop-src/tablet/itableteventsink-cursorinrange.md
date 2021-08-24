@@ -14,12 +14,12 @@ api_type:
 api_location:
 - wisptis.exe
 - wisptis.exe.dll
-ms.openlocfilehash: eec2b4f309480ecaecd50de2120d701c916b6fff
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2c9878b4c3cd28727c5d54e59a52f3fe85a44832203f70b6ff042c6beeb579dd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975938"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119883478"
 ---
 # <a name="itableteventsinkcursorinrange-method"></a>ITabletEventSink：： CursorInRange 方法
 
@@ -61,7 +61,7 @@ HRESULT CursorInRange(
 
 
 
-| 傳回碼                                                                            | Description                               |
+| 傳回碼                                                                            | 描述                               |
 |----------------------------------------------------------------------------------------|-------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>   | 成功。<br/>                       |
 | <dl> <dt>**E \_ 失敗**</dt> </dl> | 發生未指定的錯誤。<br/> |
@@ -76,7 +76,7 @@ HRESULT CursorInRange(
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 Windows XP Tablet PC Edition \[ 桌面應用程式\]<br/>                          |
+| 最低支援的用戶端<br/> | Windows僅限 XP Tablet PC Edition \[ 桌面應用程式\]<br/>                          |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                              |
 | 程式庫<br/>                  | <dl> <dt>Wisptis.exe</dt> </dl> |
 

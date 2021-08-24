@@ -4,12 +4,12 @@ ms.assetid: 0714abd0-b7dd-42c3-8ee8-295702087e3a
 title: 使用 Unicode 中的特殊字元
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bed658bbf4e4183416ee55d30fb5d3bd3388d17e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 50a362b38ebd3ac21c36b1ddf8e17f65abd59cf4cfdfa94718b109c6ea8b939b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104386285"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119897838"
 ---
 # <a name="using-special-characters-in-unicode"></a>使用 Unicode 中的特殊字元
 

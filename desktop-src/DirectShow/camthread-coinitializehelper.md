@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: a6c3eb7fbcb9e4abada43098339a29d208ded0d4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 41a763a4b9151f22615aa0af3dae57af8281751209a016dc3135f3572e9d8ef3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106997687"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119768288"
 ---
 # <a name="camthreadcoinitializehelper-method"></a>CAMThread. CoInitializeHelper 方法
 
@@ -46,7 +46,7 @@ static HRESULT CoInitializeHelper();
 
 
 
-| 傳回碼                                                                             | Description                                              |
+| 傳回碼                                                                             | 描述                                              |
 |-----------------------------------------------------------------------------------------|----------------------------------------------------------|
 | <dl> <dt>**S \_ FALSE**</dt> </dl> | 無法使用 CoInitializeEx 函數。<br/> |
 | <dl> <dt>**S \_ 確定**</dt> </dl>    | 成功。<br/>                                      |

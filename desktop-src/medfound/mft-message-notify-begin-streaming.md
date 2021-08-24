@@ -4,12 +4,12 @@ ms.assetid: a7f02e92-a747-4ac6-aa83-60897acb2bc5
 title: 'MFT_MESSAGE_NOTIFY_BEGIN_STREAMING (Mftransform) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1aa67f58c7246b50292f4b34711e0149eb8f3377
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 491f84ee2dee752cccc251187c43bd497723a64ae6601954051f2aebab34ef85
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191779"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119848060"
 ---
 # <a name="mft_message_notify_begin_streaming"></a>MFT \_ 訊息 \_ 通知 \_ 開始 \_ 串流
 
@@ -35,8 +35,8 @@ ms.locfileid: "104191779"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                     |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                     |
 | 標頭<br/>                   | <dl> <dt>Mftransform。h</dt> </dl> |
 
 

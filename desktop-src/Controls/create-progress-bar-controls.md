@@ -4,12 +4,12 @@ description: 本主題說明如何使用進度列來指出冗長檔案剖析作�
 ms.assetid: 4CC25F3A-9CAF-4ADC-B29C-3FACDD73D5A0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6c71ff33a14f2d2af5fa8735c5197c50acaa948b
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: e65d47d6b41422853d401a1fb2686e03e3d3f5bc378b78b7ba762b86fc7ffe30
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103933665"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119826418"
 ---
 # <a name="how-to-use-progress-bar-controls"></a>如何使用進度列控制項
 
@@ -19,12 +19,12 @@ ms.locfileid: "103933665"
 
 ### <a name="technologies"></a>技術
 
--   [Windows 控制項](window-controls.md)
+-   [Windows控制](window-controls.md)
 
 ### <a name="prerequisites"></a>必要條件
 
 -   C/C++
--   Windows 消費者介面程式設計
+-   Windows消費者介面程式設計
 
 ## <a name="instructions"></a>指示
 
@@ -130,7 +130,7 @@ BOOL ParseALargeFile(HWND hwndParent, LPTSTR lpszFileName)
 
 另請注意， [**CreateFile**](/windows/desktop/api/fileapi/nf-fileapi-createfilea)的第四個參數（ (LPSECURITY \_ 屬性) **Null**）會設定預設的安全性值。 如果您需要特定的安全性設定，您必須在結構的成員中設定適當的值。 呼叫 **sizeof** 來設定 **LPSECURITY \_ 屬性** 結構的正確大小。
 
-如需詳細資訊，請參閱 [安全性考慮： Microsoft Windows 控制項](sec-comctls.md)。
+如需詳細資訊，請參閱[安全性考慮： Microsoft Windows 控制項](sec-comctls.md)。
 
 ## <a name="related-topics"></a>相關主題
 
@@ -142,6 +142,6 @@ BOOL ParseALargeFile(HWND hwndParent, LPTSTR lpszFileName)
 [安全性考慮： Microsoft Windows 控制項](sec-comctls.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

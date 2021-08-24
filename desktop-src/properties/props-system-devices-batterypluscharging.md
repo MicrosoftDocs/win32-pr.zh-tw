@@ -4,12 +4,12 @@ ms.assetid: 9c6800ed-ca55-4202-8dfb-6e430121d6b7
 title: System.Devices.BatteryPlusCharging
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8f249b65afe57b1e9959bd180f7bd3dc9342c85f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ad2ddc93fc27d7be9bcf9c66579a0ac7192e3306fa6d927f5ee9f5eb28905035
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104192832"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119845638"
 ---
 # <a name="systemdevicesbatterypluscharging"></a>System.Devices.BatteryPlusCharging
 

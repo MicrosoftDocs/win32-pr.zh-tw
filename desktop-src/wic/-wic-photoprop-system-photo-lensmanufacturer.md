@@ -4,12 +4,12 @@ ms.assetid: ee25da96-982f-475e-8957-e24ef7721b78
 title: LensManufacturer 相片中繼資料原則
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6696e7113a14a9b5b26a26f38258f30a5ba82cf3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4f6beebc06ce690b05da62c023480bec25b675a7a9ec6093cec1752ac3a0e343
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194126"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119881979"
 ---
 # <a name="systemphotolensmanufacturer-photo-metadata-policy"></a>LensManufacturer 相片中繼資料原則
 

@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 81b9df7314abc3dccf6458322911c50d6120ad10
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d4e822c441410ae3757f7cdb0a4a714b435facbb20e171646c889e2ea53ec82b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106967759"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119866038"
 ---
 # <a name="reactivateserverautomatic-method-of-the-win32_tslicenseserver-class"></a>Win32 TSLicenseServer 類別的 ReactivateServerAutomatic 方法 \_
 

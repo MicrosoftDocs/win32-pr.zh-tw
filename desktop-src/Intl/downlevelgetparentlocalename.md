@@ -13,19 +13,19 @@ api_type:
 - DllExport
 api_location:
 - NlsMap.dll
-ms.openlocfilehash: d3a556d68c33249d2e6b49c48035cc58d8bac8e1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: af7580188c7ded31c80476509aef8a10ee83b1cb1f9767ca5819eed053f1ce87
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103945064"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119898738"
 ---
 # <a name="downlevelgetparentlocalename-function"></a>DownlevelGetParentLocaleName 函式
 
 抓取所提供地區設定之父系的 [地區設定名稱](locale-names.md) 。
 
 > [!Note]  
-> 只有在 Windows Vista 之前的作業系統上執行的應用程式，才會使用此函式。 其用途需要下載套件。 只有在 Windows Vista 和更新版本上執行的應用程式，應該呼叫 [**GetLocaleInfo**](/windows/desktop/api/Winnls/nf-winnls-getlocaleinfoa) ，並將 *LCType* 設定為 [地區設定 \_ SPARENT](locale-sparent.md)。
+> 此函式僅適用于在預先 Windows Vista 作業系統上執行的應用程式。 其用途需要下載套件。 只在 Windows Vista 和更新版本上執行的應用程式，應該呼叫 [**GetLocaleInfo**](/windows/desktop/api/Winnls/nf-winnls-getlocaleinfoa) ，並將 *LCType* 設定為 [地區設定 \_ SPARENT](locale-sparent.md)。
 
  
 
@@ -100,8 +100,8 @@ int DownlevelGetParentLocaleName(
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 可轉散發套件<br/>          | Microsoft NLS 下層資料對應 Api 于 windows XP SP2 和更新版本<br/>  |
 | 標頭<br/>                   | <dl> <dt>Nlsdl。h</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>NlsMap.dll</dt> </dl> |

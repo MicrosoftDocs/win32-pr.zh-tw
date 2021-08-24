@@ -4,12 +4,12 @@ ms.assetid: 2b975873-2e5d-4c64-a022-d2098c3d95b8
 title: '載入 X 檔案 (舊版)  (Direct3D 9) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 716ed54afdc7d1aa18fdde992a0799a8990a49c6
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: ab8ac27c43ba33f6bd0408403d6390d4855f2644182d82f1ad8e84e5939f98ff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104509953"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119846518"
 ---
 # <a name="loading-an-x-file-legacy-direct3d-9"></a>載入 X 檔案 (舊版)  (Direct3D 9) 
 
