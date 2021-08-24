@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 08648da713e6125dd5b17ebfc87249dc5e890886f85aecbf85e22cb5553da25c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 51ffb8574eb600170533c5e4019db60677f28b9c
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118985628"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122622334"
 ---
 # <a name="span-idvspixengineisourcefileinforequestspanisourcefileinforequest-interface"></a><span id="vspixengine.isourcefileinforequest"></span>ISourceFileInfoRequest 介面
 
@@ -38,13 +38,13 @@ ms.locfileid: "118985628"
 
 **ISourceFileInfoRequest** 介面具有這些方法。
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">方法</th><th style="text-align: left;">描述</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/isourcefileinforequest-requestasync-eventid-isourcefileinfocallback-ptr-dword-dword"><strong>RequestAsync</strong></a></td><td style="text-align: left;"><p>非同步要求，以取得與事件呼叫堆疊相關聯的原始程式檔。</p></td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th style="text-align: left;">方法</th><th style="text-align: left;">描述</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/isourcefileinforequest-requestasync-eventid-isourcefileinfocallback-ptr-dword-dword"><strong>RequestAsync</strong></a></td><td style="text-align: left;"><p>非同步要求，以取得與事件呼叫堆疊相關聯的原始程式檔。</p></td></tr></tbody></table>
 
  
 
 ## <a name="requirements"></a>規格需求
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>標頭</p></td><td>Vspixengine。h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>標頭</p></td><td>Vspixengine。h</td></tr></tbody></table>
 
  
 

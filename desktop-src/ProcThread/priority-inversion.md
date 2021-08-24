@@ -4,12 +4,12 @@ ms.assetid: 1cb2f3c9-4641-40d8-892c-768abaf6affb
 title: 優先權反轉
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 79a0f4c9d57000e9e81429ee882e70dc14f63ae4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 09a891655196b8f7e81c118d39fb8516a244411f1f4f6d9505e2fb40818d71f7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104319159"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120031928"
 ---
 # <a name="priority-inversion"></a>優先權反轉
 

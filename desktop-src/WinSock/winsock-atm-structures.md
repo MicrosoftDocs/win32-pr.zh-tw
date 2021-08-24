@@ -4,12 +4,12 @@ ms.assetid: ce80ef1f-9a76-4a6f-a7ce-f166bc46ca08
 title: Winsock ATM 結構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eaf28266de89e5346727a9ad42fdb90d9167bc9a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 00f45cafef8bcf628f9172f2ad7ce3323d0d5b0c3e2c3912d195615ea2471501
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974153"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119612798"
 ---
 # <a name="winsock-atm-structures"></a>Winsock ATM 結構
 
@@ -17,7 +17,7 @@ ms.locfileid: "106974153"
 
 
 
-| ATM 結構                           | Description                                                |
+| ATM 結構                           | 描述                                                |
 |-----------------------------------------|------------------------------------------------------------|
 | [**ATM \_ 位址**](/windows/desktop/api/Ws2atm/ns-ws2atm-atm_address)   | 將 ATM 位址資料儲存在 ATM 型通訊端中。             |
 | [**ATM \_ BHLI**](/windows/desktop/api/Ws2atm/ns-ws2atm-atm_bhli)         | 識別相關聯的 ATM 通訊端的 B-HLI 資訊。 |

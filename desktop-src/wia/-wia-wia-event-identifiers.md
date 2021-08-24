@@ -1,19 +1,19 @@
 ---
-description: WIA 事件識別碼是全域唯一識別碼， (GUID) 由 Windows 映像取得 (WIA) 系統所定義。
+description: WIA 事件識別碼是全域唯一識別碼， (GUID) 由 Windows 影像取得 (WIA) 系統所定義。
 ms.assetid: b94221b3-7cab-40d7-850a-fcc4ec8174b5
 title: WIA 事件識別碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 252687b57b2c3ec8eb837be82aa07741149c6c66
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ec765d826f6c9a05a5ff33e4e2cbc140b9879cf4b2dacdd9ee3f2f07b7451dda
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974047"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119813098"
 ---
 # <a name="wia-event-identifiers"></a>WIA 事件識別碼
 
-WIA 事件識別碼是全域唯一識別碼， (GUID) 由 Windows 映像取得 (WIA) 系統所定義。
+WIA 事件識別碼是全域唯一識別碼， (GUID) 由 Windows 影像取得 (WIA) 系統所定義。
 
 WIA 應用程式可使用 [**IwiaDevMgr2：： RegisterEventCallbackInterface**](-wia-iwiadevmgr2-registereventcallbackinterface.md) ，從目前的 wia 應用程式會話連線的 wia 裝置接收裝置狀態變更通知，以訂閱這些非持續性事件。 WIA 迷你驅動程式必須確保 \_ \_ \_ \_ 在驅動程式發出上述其中一個事件之前，正確更新了 wia DPS 檔處理狀態。
 

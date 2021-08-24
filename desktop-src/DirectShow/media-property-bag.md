@@ -4,12 +4,12 @@ ms.assetid: 06678d57-c00b-4575-84e7-3d09f65f19ba
 title: 媒體屬性包
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1812d7237fdd58869befec8494b82e34df56b937
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: cd6a36bb666b1562538fffc4f09321ffa95ceea329ddd8d6c7206cc0daefbff5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107909636"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119791438"
 ---
 # <a name="media-property-bag"></a>媒體屬性包
 
@@ -30,7 +30,7 @@ ms.locfileid: "107909636"
 
 <dl> <dt>
 
-[DirectShow 物件](directshow-objects.md)
+[DirectShow物件](directshow-objects.md)
 </dt> <dt>
 
 [**IPersistMediaPropertyBag 介面**](/windows/desktop/api/Strmif/nn-strmif-ipersistmediapropertybag)

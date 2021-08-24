@@ -6,12 +6,12 @@ keywords:
 - 裁剪效果
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 653ceaf4cf8b5922fe05e151c1639269f3169b57
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e342bdef882fbff89d4c67c3accfbff7287a2ad9
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843532"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122472926"
 ---
 # <a name="crop-effect"></a>裁剪效果
 
@@ -58,45 +58,13 @@ m_d2dContext->EndDraw();
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>顯示名稱和索引列舉</th>
-<th>類型和預設值</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Rect<br/></td>
-<td>D2D1_VECTOR_4F<br/></td>
-<td>要裁剪的區域 (左、上、寬度、高度) 的形式指定為向量。<br/></td>
-</tr>
-<tr class="even">
-<td>D2D1_CROP_PROP_RECT<br/></td>
-<td>{-FLT_MAX、-FLT_MAX、FLT_MAX、FLT_MAX}<br/></td>
-<td>單位為 Dip。 <br/>
-<blockquote>
-<p>[!Note]</p>
-<p>如果矩形與輸入影像的邊緣界限重迭，則會截斷。<br/></p>
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td>D2D1_CROP_PROP_BORDER_MODE<br/></td>
-<td>D2D1_BORDER_MODE <br/> D2D1_BORDER_MODE_SOFT <br/></td>
-<td><ul>
-<li>D2D1_BORDER_MODE_SOFT：如果裁剪矩形落在小數圖元座標上，效果會套用消除鋸齒以產生軟邊緣。</li>
-<li>D2D1_BORDER_MODE_HARD：如果裁剪矩形落在小數圖元座標上，效果會個，進而導致硬性邊緣。</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| 顯示名稱和索引列舉 | 類型和預設值 | Description | 
+|------------------------------------|------------------------|-------------|
+| Rect<br /> | D2D1_VECTOR_4F<br /> | 要裁剪的區域 (左、上、寬度、高度) 的形式指定為向量。<br /> | 
+| D2D1_CROP_PROP_RECT<br /> | {-FLT_MAX、-FLT_MAX、FLT_MAX、FLT_MAX}<br /> | 單位為 Dip。 <br /><blockquote><p>[!Note]</p><p>如果矩形與輸入影像的邊緣界限重迭，則會截斷。<br /></p></blockquote><br /> | 
+| D2D1_CROP_PROP_BORDER_MODE<br /> | D2D1_BORDER_MODE <br /> D2D1_BORDER_MODE_SOFT <br /> | <ul><li>D2D1_BORDER_MODE_SOFT：如果裁剪矩形落在小數圖元座標上，效果會套用消除鋸齒以產生軟邊緣。</li><li>D2D1_BORDER_MODE_HARD：如果裁剪矩形落在小數圖元座標上，效果會個，進而導致硬性邊緣。</li></ul> | 
+
 
 
 
@@ -116,8 +84,8 @@ ulated 使用以下的方公式： <dl> 輸出長度（以圖元為單位） = (
 
 | 需求 | 值 |
 |--------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端 | 適用于 Windows 7 desktop app 的 Windows 8 和平臺更新 \[ \| windows Store 應用程式\] |
-| 最低支援的伺服器 | 適用于 Windows 7 desktop app 的 Windows 8 和平臺更新 \[ \| windows Store 應用程式\] |
+| 最低支援的用戶端 | Windows 7 傳統型應用程式的 Windows 8 和平臺更新 \[ \| Windows 儲存應用程式\] |
+| 最低支援的伺服器 | Windows 7 傳統型應用程式的 Windows 8 和平臺更新 \[ \| Windows 儲存應用程式\] |
 | 標頭                   | d2d1effects。h                                                                      |
 | 程式庫                  | d2d1 .lib，dxguid .lib                                                               |
 

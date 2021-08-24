@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: b9648b1b662cb98bc762a479782e4d3742d4d32056fc9f15f43f58f8f4a89659
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f6a3b46dc226a85593a17b02118ed52088ed75d6
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117726938"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122471994"
 ---
 # <a name="dcl_outputtopology-sm4---asm"></a>dcl \_ outputTopology (sm4-asm) 
 
@@ -31,29 +31,11 @@ ms.locfileid: "117726938"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>項目</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><span id="Type"></span><span id="type"></span><span id="TYPE"></span><em>類型</em><br/></td>
-<td>在輸出基本拓撲，這是下列其中一個值： <br/>
-<ul>
-<li><em>pointlist</em></li>
-<li><em>linestrip</em></li>
-<li><em>trianglestrip</em></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| 項目 | 描述 | 
+|------|-------------|
+| <span id="Type"></span><span id="type"></span><span id="TYPE"></span><em>類型</em><br /> | 在輸出基本拓撲，這是下列其中一個值： <br /><ul><li><em>pointlist</em></li><li><em>linestrip</em></li><li><em>trianglestrip</em></li></ul> | 
+
 
 
 

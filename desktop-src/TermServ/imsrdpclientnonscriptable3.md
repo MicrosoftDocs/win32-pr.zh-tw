@@ -1,6 +1,6 @@
 ---
 title: IMsRdpClientNonScriptable3 介面
-description: 提供存取遠端桌面 ActiveX 控制項上用戶端遠端會話的 nonscriptable 屬性。 衍生自 IMsRdpClientNonScriptable2 介面。
+description: 在遠端桌面 ActiveX 控制項上，提供用戶端遠端會話的 nonscriptable 屬性存取。 衍生自 IMsRdpClientNonScriptable2 介面。
 ms.assetid: 40cfcd8e-5dd7-497d-8c57-da1f542136b8
 ms.tgt_platform: multiple
 keywords:
@@ -16,16 +16,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c456393ee00c06bcd16135a7fbc73b0f1686259f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f65756224134392629a11cc0bbe2ef35f8d687cc
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934581"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122474554"
 ---
 # <a name="imsrdpclientnonscriptable3-interface"></a>IMsRdpClientNonScriptable3 介面
 
-提供存取遠端桌面 ActiveX 控制項上用戶端遠端會話的 nonscriptable 屬性。 衍生自 [**IMsRdpClientNonScriptable2**](imsrdpclientnonscriptable2.md) 介面。 這個介面的方法只能透過 vtable 存取;它們無法用於可編寫腳本的用戶端。
+在遠端桌面 ActiveX 控制項上，提供用戶端遠端會話的 nonscriptable 屬性存取。 衍生自 [**IMsRdpClientNonScriptable2**](imsrdpclientnonscriptable2.md) 介面。 這個介面的方法只能透過 vtable 存取;它們無法用於可編寫腳本的用戶端。
 
 ## <a name="members"></a>成員
 
@@ -39,82 +39,21 @@ ms.locfileid: "103934581"
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">屬性</th>
-<th style="text-align: left;">存取類型</th>
-<th style="text-align: left;">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable3-connectionbartext.md"><strong>ConnectionBarText</strong></a><br/></td>
-<td style="text-align: left;">讀取/寫入<br/></td>
-<td style="text-align: left;">要為連接列顯示的文字字串。<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable3-devicecollection.md"><strong>DeviceCollection</strong></a><br/></td>
-<td style="text-align: left;">唯讀<br/></td>
-<td style="text-align: left;">可用於重新導向的 PnP 裝置集合。<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable3-drivecollection.md"><strong>DriveCollection</strong></a><br/></td>
-<td style="text-align: left;">唯讀<br/></td>
-<td style="text-align: left;">可用於重新導向的磁片磁碟機集合。<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable3-enablecredsspsupport.md"><strong>EnableCredSspSupport</strong></a><br/></td>
-<td style="text-align: left;">讀取/寫入<br/></td>
-<td style="text-align: left;">指定是否啟用此連接的 CredSSP。<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable3-negotiatesecuritylayer.md"><strong>NegotiateSecurityLayer</strong></a><br/></td>
-<td style="text-align: left;">讀取/寫入<br/></td>
-<td style="text-align: left;">指定此連接是否支援 NegotiateSecurityLayer 設定。<br/>
-<blockquote>
-[!Note]<br />
-當 <a href="imsrdpclientnonscriptable3-enablecredsspsupport.md"><strong>CredSspSupport</strong></a> 已啟用並存在於用戶端上，或當安全通訊端層 (SSL) 啟用使用者驗證時，會忽略 NegotiateSecurityLayer。
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable3-promptforcredentials.md"><strong>PromptForCredentials</strong></a><br/></td>
-<td style="text-align: left;">讀取/寫入<br/></td>
-<td style="text-align: left;">指定是否應顯示 [提示輸入認證] 對話方塊。<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable3-redirectdynamicdevices.md"><strong>RedirectDynamicDevices</strong></a><br/></td>
-<td style="text-align: left;">讀取/寫入<br/></td>
-<td style="text-align: left;">指定是否可重新導向會話中所列舉的動態連接 PnP 裝置。<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable3-redirectdynamicdrives.md"><strong>RedirectDynamicDrives</strong></a><br/></td>
-<td style="text-align: left;">讀取/寫入<br/></td>
-<td style="text-align: left;">指定在會話中列舉的動態連接 PnP 磁片磁碟機是否可用於重新導向。<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable3-showredirectionwarningdialog.md"><strong>ShowRedirectionWarningDialog</strong></a><br/></td>
-<td style="text-align: left;">讀取/寫入<br/></td>
-<td style="text-align: left;">指定在啟動會話之前，是否應該顯示重新導向安全性警告對話方塊。<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable3-warnaboutclipboardredirection.md"><strong>WarnAboutClipboardRedirection</strong></a><br/></td>
-<td style="text-align: left;">讀取/寫入<br/></td>
-<td style="text-align: left;">指定在啟動會話之前，安全性警告對話方塊是否應包含關於剪貼簿重新導向的警告。<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable3-warnaboutsendingcredentials.md"><strong>WarnAboutSendingCredentials</strong></a><br/></td>
-<td style="text-align: left;">讀取/寫入<br/></td>
-<td style="text-align: left;">指定在啟動會話之前，安全性警告是否應包含有關將認證傳送至遠端伺服器的警告。<br/></td>
-</tr>
-</tbody>
-</table>
+
+| 屬性 | 存取類型 | Description | 
+|----------|-------------|-------------|
+| <a href="imsrdpclientnonscriptable3-connectionbartext.md"><strong>ConnectionBarText</strong></a><br /> | 讀取/寫入<br /> | 要為連接列顯示的文字字串。<br /> | 
+| <a href="imsrdpclientnonscriptable3-devicecollection.md"><strong>DeviceCollection</strong></a><br /> | 唯讀<br /> | 可用於重新導向的 PnP 裝置集合。<br /> | 
+| <a href="imsrdpclientnonscriptable3-drivecollection.md"><strong>DriveCollection</strong></a><br /> | 唯讀<br /> | 可用於重新導向的磁片磁碟機集合。<br /> | 
+| <a href="imsrdpclientnonscriptable3-enablecredsspsupport.md"><strong>EnableCredSspSupport</strong></a><br /> | 讀取/寫入<br /> | 指定是否啟用此連接的 CredSSP。<br /> | 
+| <a href="imsrdpclientnonscriptable3-negotiatesecuritylayer.md"><strong>NegotiateSecurityLayer</strong></a><br /> | 讀取/寫入<br /> | 指定此連接是否支援 NegotiateSecurityLayer 設定。<br /><blockquote>[!Note]<br />當 <a href="imsrdpclientnonscriptable3-enablecredsspsupport.md"><strong>CredSspSupport</strong></a> 已啟用並存在於用戶端上，或當安全通訊端層 (SSL) 啟用使用者驗證時，會忽略 NegotiateSecurityLayer。</blockquote><br /> | 
+| <a href="imsrdpclientnonscriptable3-promptforcredentials.md"><strong>PromptForCredentials</strong></a><br /> | 讀取/寫入<br /> | 指定是否應顯示 [提示輸入認證] 對話方塊。<br /> | 
+| <a href="imsrdpclientnonscriptable3-redirectdynamicdevices.md"><strong>RedirectDynamicDevices</strong></a><br /> | 讀取/寫入<br /> | 指定是否可重新導向會話中所列舉的動態連接 PnP 裝置。<br /> | 
+| <a href="imsrdpclientnonscriptable3-redirectdynamicdrives.md"><strong>RedirectDynamicDrives</strong></a><br /> | 讀取/寫入<br /> | 指定在會話中列舉的動態連接 PnP 磁片磁碟機是否可用於重新導向。<br /> | 
+| <a href="imsrdpclientnonscriptable3-showredirectionwarningdialog.md"><strong>ShowRedirectionWarningDialog</strong></a><br /> | 讀取/寫入<br /> | 指定在啟動會話之前，是否應該顯示重新導向安全性警告對話方塊。<br /> | 
+| <a href="imsrdpclientnonscriptable3-warnaboutclipboardredirection.md"><strong>WarnAboutClipboardRedirection</strong></a><br /> | 讀取/寫入<br /> | 指定在啟動會話之前，安全性警告對話方塊是否應包含關於剪貼簿重新導向的警告。<br /> | 
+| <a href="imsrdpclientnonscriptable3-warnaboutsendingcredentials.md"><strong>WarnAboutSendingCredentials</strong></a><br /> | 讀取/寫入<br /> | 指定在啟動會話之前，安全性警告是否應包含有關將認證傳送至遠端伺服器的警告。<br /> | 
+
 
 
 

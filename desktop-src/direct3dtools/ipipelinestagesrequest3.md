@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: dac988d428535b143b3519785693e8a3c4924bf2
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: bb7881f233016026c06b48da05bfd368c229d594
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104509944"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122623704"
 ---
 # <a name="span-idvspixengineipipelinestagesrequest3spanipipelinestagesrequest3-interface"></a><span id="vspixengine.ipipelinestagesrequest3"></span>IPipeLineStagesRequest3 介面
 
@@ -38,13 +38,13 @@ ms.locfileid: "104509944"
 
 **IPipeLineStagesRequest3** 介面具有這些方法。
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">方法</th><th style="text-align: left;">描述</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/ipipelinestagesrequest3-requestmeshasync-eventid-bstr-ipipelinestagescallback3-ptr-dword-dword"><strong>RequestMeshAsync</strong></a></td><td style="text-align: left;"><p>從指定的事件取得網格資料的非同步要求。</p></td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th style="text-align: left;">方法</th><th style="text-align: left;">描述</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/ipipelinestagesrequest3-requestmeshasync-eventid-bstr-ipipelinestagescallback3-ptr-dword-dword"><strong>RequestMeshAsync</strong></a></td><td style="text-align: left;"><p>從指定的事件取得網格資料的非同步要求。</p></td></tr></tbody></table>
 
  
 
 ## <a name="requirements"></a>規格需求
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>標頭</p></td><td>Vspixengine。h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>標頭</p></td><td>Vspixengine。h</td></tr></tbody></table>
 
  
 

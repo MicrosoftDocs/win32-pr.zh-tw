@@ -21,12 +21,12 @@ keywords:
 - 控制項類型，SplitButton
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fb04f75a075fdd10b1cf31db01d09c6a9d9fd9a5d78c7c0499d9196a9ff8a956
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 30e420d369ee09dfd2d92b5e5d79cf94c7013566
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118825223"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122470095"
 ---
 # <a name="splitbutton-control-type"></a>SplitButton 控制項類型
 
@@ -51,45 +51,11 @@ ms.locfileid: "118825223"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>控制項檢視</th>
-<th>內容檢視</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>SplitButton
-<ul>
-<li>Image (0 或 1)</li>
-<li>文字 (0 或 1)</li>
-<li>按鈕 (1 或 2)
-<ul>
-<li>功能表 (0 或 1;顯示為支援 ExpandCollapse 模式之子按鈕的子按鈕) 
-<ul>
-<li>MenuItem (1 個以上)</li>
-</ul></li>
-</ul></li>
-</ul></li>
-</ul></td>
-<td><ul>
-<li>SplitButton
-<ul>
-<li>按鈕 (1 或 2)
-<ul>
-<li>MenuItem (1 個以上)</li>
-</ul></li>
-</ul></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| 控制項檢視 | 內容檢視 | 
+|--------------|--------------|
+| <ul><li>SplitButton<ul><li>Image (0 或 1)</li><li>文字 (0 或 1)</li><li>按鈕 (1 或 2)<ul><li>功能表 (0 或 1;顯示為支援 ExpandCollapse 模式之子按鈕的子按鈕) <ul><li>MenuItem (1 個以上)</li></ul></li></ul></li></ul></li></ul> | <ul><li>SplitButton<ul><li>按鈕 (1 或 2)<ul><li>MenuItem (1 個以上)</li></ul></li></ul></li></ul> | 
+
 
 
 
@@ -162,48 +128,11 @@ ms.locfileid: "118825223"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>消費者介面自動化樹狀結構-控制項視圖</th>
-<th>消費者介面自動化樹狀結構-內容視圖</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>SplitButton &quot; Name &quot; (Invoke，ExpandCollapse) 
-<ul>
-<li>按鈕 &quot; 更多選項 (叫用 &quot;) 
-<ul>
-<li>功能表
-<ul>
-<li>MenuItem</li>
-<li>...</li>
-</ul></li>
-</ul></li>
-</ul></li>
-</ul></td>
-<td><ul>
-<li>SplitButton &quot; Name &quot; (Invoke，ExpandCollapse) 
-<ul>
-<li>按鈕 &quot; 更多選項 (叫用 &quot;) 
-<ul>
-<li>功能表
-<ul>
-<li>MenuItem</li>
-<li>...</li>
-</ul></li>
-</ul></li>
-</ul></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| 消費者介面自動化樹狀結構-控制項視圖 | 消費者介面自動化樹狀結構-內容視圖 | 
+|-----------------------------------|-----------------------------------|
+| <ul><li>SplitButton "名稱" (Invoke, ExpandCollapse)<ul><li>按鈕「更多選項」 (叫用) <ul><li>功能表<ul><li>MenuItem</li><li>...</li></ul></li></ul></li></ul></li></ul> | <ul><li>SplitButton "名稱" (Invoke, ExpandCollapse)<ul><li>按鈕「更多選項」 (叫用) <ul><li>功能表<ul><li>MenuItem</li><li>...</li></ul></li></ul></li></ul></li></ul> | 
+
 
 
 

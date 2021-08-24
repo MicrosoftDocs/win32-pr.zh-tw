@@ -15,17 +15,17 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 688728e74d81055922f9e7e748dea1f30faa3548
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4f29f3c6a9ca3262b3cd09d726634afd70db9c6a
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974527"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122471454"
 ---
 # <a name="jet_retrievecolumn-structure"></a>JET_RETRIEVECOLUMN 結構
 
 
-_**適用于：** Windows |Windows Server_
+_**適用于：** Windows |Windows伺服器_
 
 ## <a name="jet_retrievecolumn-structure"></a>JET_RETRIEVECOLUMN 結構
 
@@ -67,52 +67,18 @@ _**適用于：** Windows |Windows Server_
 
 包含資料行抓取選項的位群組，其中包含零或多個下列值。
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>值</p></th>
-<th><p>意義</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_bitRetrieveCopy</p></td>
-<td><p>抓取修改過的值，而不是原始的值。 如果尚未修改此值，則會取出原始值。 如此一來，插入或更新記錄時，即可抓取尚未插入或更新的值。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitRetrieveFromIndex</p></td>
-<td><p>盡可能從索引中抓取資料行值，而不存取記錄。 如此一來，當索引項目本身有需要的資料時，就可以避免不必要的記錄載入。 在無法從索引中取出原始資料行值的情況下，因為無法復原的轉換或資料截斷，將會存取記錄，並以一般方式抓取資料。 這是效能選項，只有在可能會從索引中抓取資料行值時才會指定。 如果目前的索引是叢集索引，則不應指定此選項，因為叢集或主要索引的索引項目目是記錄本身。 如果也設定 JET_bitRetrieveFromPrimaryBookmark，則無法設定此位。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitRetrieveFromPrimaryBookmark</p></td>
-<td><p>從索引書簽抓取資料行值，而且當資料行同時出現在主要索引和目前索引中時，可以與索引值不同。 如果目前的索引是叢集或主要索引，則不應指定此選項。 如果也設定 JET_bitRetrieveFromIndex，則無法設定此位。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitRetrieveTag</p></td>
-<td><p>捕獲 pretinfo-itagSequence 中多重值資料行值的序號 &gt; 。 ItagSequence 欄位通常是用來從記錄中取出多值資料行值的輸入。 不過，從索引中抓取值時，您也可以將索引項目與特定序號建立關聯，並取出此序號。 抓取序號可能是成本高昂的作業，而且只在必要時才執行。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_ bitRetrieveNull</p></td>
-<td><p>捕獲多重值資料行 Null 值。 如果未指定此選項，則會自動略過多重值資料行的 Null 值。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitRetrieveIgnoreDefault</p></td>
-<td><p>當要求的序號為1，而且記錄中的資料行沒有設定值時，會傳回 Null 值。 此選項只會影響多重值資料行。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitRetrieveLongId</p></td>
-<td><p>此旗標僅供內部使用，不適合在您的應用程式中使用。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitRetrieveLongValueRefCount</p></td>
-<td><p>此旗標僅供內部使用，不適合在您的應用程式中使用。</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>值</p> | <p>意義</p> | 
+|--------------|----------------|
+| <p>JET_bitRetrieveCopy</p> | <p>抓取修改過的值，而不是原始的值。 如果尚未修改此值，則會取出原始值。 如此一來，插入或更新記錄時，即可抓取尚未插入或更新的值。</p> | 
+| <p>JET_bitRetrieveFromIndex</p> | <p>盡可能從索引中抓取資料行值，而不存取記錄。 如此一來，當索引項目本身有需要的資料時，就可以避免不必要的記錄載入。 在無法從索引中取出原始資料行值的情況下，因為無法復原的轉換或資料截斷，將會存取記錄，並以一般方式抓取資料。 這是效能選項，只有在可能會從索引中抓取資料行值時才會指定。 如果目前的索引是叢集索引，則不應指定此選項，因為叢集或主要索引的索引項目目是記錄本身。 如果也設定 JET_bitRetrieveFromPrimaryBookmark，則無法設定此位。</p> | 
+| <p>JET_bitRetrieveFromPrimaryBookmark</p> | <p>從索引書簽抓取資料行值，而且當資料行同時出現在主要索引和目前索引中時，可以與索引值不同。 如果目前的索引是叢集或主要索引，則不應指定此選項。 如果也設定 JET_bitRetrieveFromIndex，則無法設定此位。</p> | 
+| <p>JET_bitRetrieveTag</p> | <p>捕獲 pretinfo-itagSequence 中多重值資料行值的序號 &gt; 。 ItagSequence 欄位通常是用來從記錄中取出多值資料行值的輸入。 不過，從索引中抓取值時，您也可以將索引項目與特定序號建立關聯，並取出此序號。 抓取序號可能是成本高昂的作業，而且只在必要時才執行。</p> | 
+| <p>JET_ bitRetrieveNull</p> | <p>捕獲多重值資料行 Null 值。 如果未指定此選項，則會自動略過多重值資料行的 Null 值。</p> | 
+| <p>JET_bitRetrieveIgnoreDefault</p> | <p>當要求的序號為1，而且記錄中的資料行沒有設定值時，會傳回 Null 值。 此選項只會影響多重值資料行。</p> | 
+| <p>JET_bitRetrieveLongId</p> | <p>此旗標僅供內部使用，不適合在您的應用程式中使用。</p> | 
+| <p>JET_bitRetrieveLongValueRefCount</p> | <p>此旗標僅供內部使用，不適合在您的應用程式中使用。</p> | 
+
 
 
 **ibLongValue**
@@ -133,26 +99,9 @@ _**適用于：** Windows |Windows Server_
 
 ### <a name="requirements"></a>規格需求
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>用戶端</strong></p></td>
-<td><p>需要 Windows Vista、Windows XP 或 Windows 2000 Professional。</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>伺服器</strong></p></td>
-<td><p>需要 Windows Server 2008、Windows Server 2003 或 Windows 2000 Server。</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>標頭</strong></p></td>
-<td><p>宣告于 Esent. h 中。</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p><strong>用戶端</strong></p> | <p>需要 Windows Vista、Windows XP 或 Windows 2000 Professional。</p> | | <p><strong>伺服器</strong></p> | <p>需要 Windows server 2008、Windows Server 2003 或 Windows 2000 Server。</p> | | <p><strong>標頭</strong></p> | <p>宣告于 Esent. h 中。</p> | 
+
 
 
 ### <a name="see-also"></a>另請參閱

@@ -18,23 +18,23 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: d35407c171bdcd54eb44e9830f382c08a1e6c6c0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 067fe72e2e00fc01b433dbda819d5e89336fc68c
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104469024"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122467185"
 ---
 # <a name="jetprereadkeys-function"></a>JetPrereadKeys 函式
 
 
-_**適用于：** Windows |Windows Server_
+_**適用于：** Windows |Windows伺服器_
 
 ## <a name="jetprereadkeys-function"></a>JetPrereadKeys 函式
 
 **JetPrereadKeys** 函式會讀取索引鍵值，以改善版本存放區清除的效能。
 
-**Windows 7： PrereadKeys** 函數是在 windows 7 中引進的。
+**Windows 7： PrereadKeys** 函數是在 Windows 7 中引進。
 
 ```cpp
     JET_ERR JET_API JetPrereadKeys(
@@ -80,67 +80,23 @@ _**適用于：** Windows |Windows Server_
 
 ### <a name="return-value"></a>傳回值
 
-此函數會傳回具有下列其中一個傳回碼的 [JET_ERR](./jet-err.md) 資料類型。 如需可能 ESE 錯誤的詳細資訊，請參閱可延伸 [儲存引擎錯誤](./extensible-storage-engine-errors.md) 和 [錯誤處理參數](./error-handling-parameters.md)。
+此函數會傳回具有下列其中一個傳回碼的 [JET_ERR](./jet-err.md) 資料類型。 如需可能 ESE 錯誤的詳細資訊，請參閱可延伸的[儲存體引擎錯誤](./extensible-storage-engine-errors.md)和[錯誤處理參數](./error-handling-parameters.md)。
 
 可能會傳回各種 i/o 錯誤以及這些 API 使用錯誤：
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>傳回碼</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errInvalidGrbit</p></td>
-<td><p>Grbit 不是 JET_bitPrereadForward 也不 JET_bitPrereadBackward。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errInvalidBufferSize</p></td>
-<td><p>傳入了不正確的金鑰大小。 索引鍵不可以是0，也不能超過資料表的最大索引鍵長度。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errInvalidParameter</p></td>
-<td><p>傳入了不正確參數。 這可能是因為必要參數的 null 值，或可能表示金鑰陣列未正確排序。</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>傳回碼</p> | <p>Description</p> | 
+|--------------------|--------------------|
+| <p>JET_errInvalidGrbit</p> | <p>Grbit 不是 JET_bitPrereadForward 也不 JET_bitPrereadBackward。</p> | 
+| <p>JET_errInvalidBufferSize</p> | <p>傳入了不正確的金鑰大小。 索引鍵不可以是0，也不能超過資料表的最大索引鍵長度。</p> | 
+| <p>JET_errInvalidParameter</p> | <p>傳入了不正確參數。 這可能是因為必要參數的 null 值，或可能表示金鑰陣列未正確排序。</p> | 
+
 
 
 **JetPrereadKeys** 會遍歷 b 型樹狀目錄的內部頁面，以判斷哪些分葉頁面包含 RgpvKeys/rgcbKeys 所指定的索引鍵。 分葉頁面清單會排序，然後針對頁面的範圍發出 prereads。 可以 preread 的頁面數目有限，因此可能不會 preread 所有索引鍵。 在此情況下，會在 pckeysPreread 中傳回實際 preread 的索引鍵數目。
 
 #### <a name="requirements"></a>規格需求
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>用戶端</strong></p></td>
-<td><p>需要 Windows 7。</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>伺服器</strong></p></td>
-<td><p>需要 Windows Server 2008 R2。</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>標頭</strong></p></td>
-<td><p>宣告于 Esent. h 中。</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>程式庫</strong></p></td>
-<td><p>使用 ESENT。</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>DLL</strong></p></td>
-<td><p>需要 ESENT.dll。</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p><strong>用戶端</strong></p> | <p>需要 Windows 7。</p> | | <p><strong>伺服器</strong></p> | <p>需要 Windows Server 2008 R2。</p> | | <p><strong>標頭</strong></p> | <p>宣告于 Esent. h 中。</p> | | <p><strong>程式庫</strong></p> | <p>使用 ESENT。</p> | | <p><strong>DLL</strong></p> | <p>需要 ESENT.dll。</p> | 
+

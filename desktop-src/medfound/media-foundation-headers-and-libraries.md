@@ -4,12 +4,12 @@ ms.assetid: 69877842-fafe-408f-b55b-d2ff2277c756
 title: 媒體基礎的標頭和程式庫
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f3d5412f3f306c6e0d7327c1da1eb4c48bb109a8
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: a6db7650c98f6491fa6db4010273475b4bd103a2
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106992523"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122467465"
 ---
 # <a name="media-foundation-headers-and-libraries"></a>媒體基礎的標頭和程式庫
 
@@ -69,39 +69,12 @@ ms.locfileid: "106992523"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>SDK 版本</th>
-<th>程式庫</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>適用于 Windows Vista 的 Windows SDK<br/> 適用于 Windows Server 2008 的 Windows SDK<br/></td>
-<td>evr .lib<br/> mf .lib<br/> mfplat .lib<br/></td>
-</tr>
-<tr class="even">
-<td>適用于 Windows 7 的 Windows SDK</td>
-<td>如果目標平臺是 Windows Vista 或 Windows Server 2008，請連結下列程式庫：<br/>
-<ul>
-<li>evr_vista .lib</li>
-<li>mf_vista .lib</li>
-<li>mfplat_vista .lib</li>
-</ul>
-如果目標平臺是 Windows 7 或更新版本，請連結下列程式庫：<br/>
-<ul>
-<li>evr .lib</li>
-<li>mf .lib</li>
-<li>mfplat .lib</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| SDK 版本 | 程式庫 | 
+|-------------|-----------|
+| Windows適用于 Windows Vista 的 SDK<br /> Windows適用于 Windows Server 2008 的 SDK<br /> | evr .lib<br /> mf .lib<br /> mfplat .lib<br /> | 
+| Windows適用于 Windows 7 的 SDK | 如果目標平臺是 Windows Vista 或 Windows Server 2008，請連結下列程式庫：<br /><ul><li>evr_vista .lib</li><li>mf_vista .lib</li><li>mfplat_vista .lib</li></ul>如果目標平臺是 Windows 7 或更新版本，請連結下列程式庫：<br /><ul><li>evr .lib</li><li>mf .lib</li><li>mfplat .lib</li></ul> | 
+
 
 
 
@@ -109,7 +82,7 @@ ms.locfileid: "106992523"
 
 ## <a name="additional-info-on-helper-functions"></a>Helper 函式的其他資訊
 
-Windows 8 的 MFPlat.dll 是 Microsoft Windows 作業系統的元件。 它有數個包含在課程模組中的函式。
+Windows 8 MFPlat.dll 是 Microsoft Windows 作業系統的元件。 它有數個包含在課程模組中的函式。
 
 MFPlat 可針對低層級的記憶體配置、作業排程 FIFOs 和 win32 檔案存取抽象概念來實行 helper 功能。 為了更明確，它會提供下列支援：
 

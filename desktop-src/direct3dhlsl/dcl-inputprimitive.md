@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: e7f266bc7cf4d697f457ef51a9021709c55ca6e1d1add88dd5dbf0491ddc469a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0660fe4da14a20f074e4f04de8891fc0848f2597
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118986718"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122479894"
 ---
 # <a name="dcl_inputprimitive-sm4---asm"></a>dcl \_ inputPrimitive (sm4-asm) 
 
@@ -31,31 +31,11 @@ ms.locfileid: "118986718"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>項目</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><span id="type"></span><span id="TYPE"></span><em>類型</em><br/></td>
-<td>在輸入-資料基本類型，這是下列其中一項： <br/>
-<ul>
-<li><em>點</em> - 點清單</li>
-<li><em>行</em> - 行清單</li>
-<li><em>三角形</em> - 三角形清單</li>
-<li><em>line_adj</em> - 具有相鄰資料的行清單</li>
-<li><em>triangle_adj</em> - 具有相鄰資料的三角形清單</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| 項目 | 描述 | 
+|------|-------------|
+| <span id="type"></span><span id="TYPE"></span><em>類型</em><br /> | 在輸入-資料基本類型，這是下列其中一項： <br /><ul><li><em>點</em> 點清單</li><li><em>行</em> 行清單</li><li><em>三角形</em> -三角形清單</li><li>具有相鄰資料的<em>line_adj</em>行清單</li><li>具有相鄰資料的<em>triangle_adj</em>三角形清單</li></ul> | 
+
 
 
 

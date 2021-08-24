@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 3242c2f1e753407d239057fdc4af0a6f04d6d83a66e2a22ffb1be929583c21c8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8214287a4afb4c683a94e213cdfed133c03219e2
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118986738"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122467005"
 ---
 # <a name="dcl_input-sm4---asm"></a>dcl \_ 輸入 (sm4-asm) 
 
@@ -31,39 +31,12 @@ ms.locfileid: "118986738"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>項目</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><span id="vN_.mask_"></span><span id="vn_.mask_"></span><span id="VN_.MASK_"></span>v<em>N [mask]</em><br/></td>
-<td>在頂點資料註冊。 <br/>
-<ul>
-<li><em>N</em> 是識別註冊編號的整數。</li>
-<li><em>[mask]</em> 是選擇性的元件遮罩 ( xyzw) ，可指定要使用的註冊元件。</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><span id="interpolationMode"></span><span id="interpolationmode"></span><span id="INTERPOLATIONMODE"></span><em>interpolationMode</em><br/></td>
-<td>[in] 選用。 插補模式，僅適用于圖元著色器輸入暫存器。 它可能是下列其中一個值： <br/>
-<ul>
-<li>常數-不在暫存器值之間插補。</li>
-<li>線性-在註冊值之間以線性方式插補。</li>
-<li>linearCentroid-與線性相同，但在取樣時距心壓制。</li>
-<li>linearNoperspective-與線性相同，但沒有透視校正。</li>
-<li>linearNoperspectiveCentroid-與線性相同，距心壓制，在取樣時，不會進行透視校正。</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| 項目 | 描述 | 
+|------|-------------|
+| <span id="vN_.mask_"></span><span id="vn_.mask_"></span><span id="VN_.MASK_"></span>v<em>N [mask]</em><br /> | 在頂點資料註冊。 <br /><ul><li><em>N</em> 是識別註冊編號的整數。</li><li><em>[mask]</em> 是選擇性的元件遮罩 ( xyzw) ，可指定要使用的註冊元件。</li></ul> | 
+| <span id="interpolationMode"></span><span id="interpolationmode"></span><span id="INTERPOLATIONMODE"></span><em>interpolationMode</em><br /> | [in] 選用。 插補模式，僅適用于圖元著色器輸入暫存器。 它可能是下列其中一個值： <br /><ul><li>常數-不在暫存器值之間插補。</li><li>線性-在註冊值之間以線性方式插補。</li><li>linearCentroid-與線性相同，但在取樣時距心壓制。</li><li>linearNoperspective-與線性相同，但沒有透視校正。</li><li>linearNoperspectiveCentroid-與線性相同，距心壓制，在取樣時，不會進行透視校正。</li></ul> | 
+
 
 
 

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ca3c3847d9c4802154e04627e06e97a2ca3f1d3f493edfcd5bb1367fd354dde6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1261cc75575a5b59d200ff965a5325caef9fa966
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117988350"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122481554"
 ---
 # <a name="freeze-command"></a>凍結命令
 
@@ -53,43 +53,13 @@ MCI 裝置的識別碼。 開啟裝置時，會指派此識別碼或別名。
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>值</th>
-<th>意義</th>
-<th>意義</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>digitalvideo</td>
-<td>在 <em>矩形</em></td>
-<td>外面</td>
-</tr>
-<tr class="even">
-<td>overlay</td>
-<td>在 <em>矩形</em></td>
 
-</tr>
-<tr class="odd">
-<td>錄影機</td>
-<td><ul>
-<li>field</li>
-<li>框架</li>
-</ul></td>
-<td><ul>
-<li>input</li>
-<li>output</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+| 值 | 意義 | 意義 | 
+|-------|---------|---------|
+| digitalvideo | 在 <em>矩形</em> | 外面 | 
+| overlay | 在 <em>矩形</em> | 
+| 錄影機 | <ul><li>field</li><li>框架</li></ul> | <ul><li>input</li><li>output</li></ul> | 
+
 
 
 

@@ -5,12 +5,12 @@ title: 應用程式資訊清單
 ms.topic: article
 ms.date: 10/08/2020
 ms.custom: 19H1
-ms.openlocfilehash: 2fb7297310102134dfcacf0e5f0d907fbf3a3e0b
-ms.sourcegitcommit: 7eadd92b1da5eb4eab7d516a5a768e7f7fc02d4c
+ms.openlocfilehash: a1ced7ffb4052f418e989e907f26abb85c2c63db
+ms.sourcegitcommit: 25211012b002a7d1303e438277373d7faf958a68
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/16/2021
-ms.locfileid: "112230239"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122436706"
 ---
 # <a name="application-manifests"></a>應用程式資訊清單
 
@@ -22,39 +22,39 @@ ms.locfileid: "112230239"
 
 | 項目                               | 屬性                | 必要 |
 |---------------------------------------|---------------------------|----------|
-| **裝配**                          |                           | 是      |
-|                                       | **manifestVersion**       | 是      |
-| **noInherit**                         |                           | 否       |
-| **assemblyIdentity**                  |                           | 是      |
-|                                       | **type**                  | 是      |
-|                                       | **name**                  | 是      |
-|                                       | **language**              | 否       |
-|                                       | **processorArchitecture** | 否       |
-|                                       | **version**               | 是      |
-|                                       | **publicKeyToken**        | 否       |
-| **相容性**                     |                           | 否       |
-| **應用程式**                       |                           | 否       |
-| **supportedOS**                       | **識別碼**                    | 否       |
-| **maxversiontested**                  | **識別碼**                    | 否       |
-| **依賴**                        |                           | 否       |
-| **y**                 |                           | 否       |
-| **file**                              |                           | 否       |
-|                                       | **name**                  | 否       |
-|                                       | **hashalg**               | 否       |
-|                                       | **hash**                  | 否       |
-| **activeCodePage**                    |                           | 否       |
-| **autoElevate**                       |                           | 否       |
-| **disableTheming**                    |                           | 否       |
-| **disableWindowFiltering**            |                           | 否       |
-| **DPIAware**                          |                           | 否       |
-| **DPIAwareness**                      |                           | 否       |
-| **gdiScaling**                        |                           | 否       |
-| **highResolutionScrollingAware**      |                           | 否       |
-| **longPathAware**                     |                           | 否       |
-| **printerDriverIsolation**            |                           | 否       |
-| **ultraHighResolutionScrollingAware** |                           | 否       |
-| **msix**                              |                           | 否       |
-| **heapType**                          |                           | 否       |
+| **裝配**                          |                           | Yes      |
+|                                       | **manifestVersion**       | Yes      |
+| **noInherit**                         |                           | No       |
+| **assemblyIdentity**                  |                           | Yes      |
+|                                       | **type**                  | Yes      |
+|                                       | **name**                  | Yes      |
+|                                       | **language**              | No       |
+|                                       | **processorArchitecture** | No       |
+|                                       | **version**               | Yes      |
+|                                       | **publicKeyToken**        | No       |
+| **相容性**                     |                           | No       |
+| **應用程式**                       |                           | No       |
+| **supportedOS**                       | **識別碼**                    | No       |
+| **maxversiontested**                  | **識別碼**                    | No       |
+| **依賴**                        |                           | No       |
+| **y**                 |                           | No       |
+| **file**                              |                           | No       |
+|                                       | **name**                  | No       |
+|                                       | **hashalg**               | No       |
+|                                       | **hash**                  | No       |
+| **activeCodePage**                    |                           | No       |
+| **autoElevate**                       |                           | No       |
+| **disableTheming**                    |                           | No       |
+| **disableWindowFiltering**            |                           | No       |
+| **DPIAware**                          |                           | No       |
+| **DPIAwareness**                      |                           | No       |
+| **gdiScaling**                        |                           | No       |
+| **highResolutionScrollingAware**      |                           | No       |
+| **longPathAware**                     |                           | No       |
+| **printerDriverIsolation**            |                           | No       |
+| **ultraHighResolutionScrollingAware** |                           | No       |
+| **msix**                              |                           | No       |
+| **heapType**                          |                           | No       |
 
 ## <a name="file-location"></a>檔案位置
 
@@ -114,7 +114,7 @@ ms.locfileid: "112230239"
 | 屬性                 | 描述                                                                                                                                                                                                                                                                                                                                                                                                                       |
 |---------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **type**                  | 指定應用程式或元件類型。 值必須是 Win32，而且全部都是小寫。 必要。                                                                                                                                                                                                                                                                                                                              |
-| **name**                  | 將應用程式或元件命名為唯一的名稱。 針對名稱，請使用下列格式： Organization.Division.Name。 例如，>mysampleapp。 必要。                                                                                                                                                                                                                                                               |
+| **name**                  | 將應用程式或元件命名為唯一的名稱。 針對名稱，請使用下列格式： Organization.Division.Name。 例如 Microsoft。Windows. >mysampleapp。 必要。                                                                                                                                                                                                                                                               |
 | **language**              | 識別應用程式或元件的語言。 選擇性。 如果應用程式或元件是特定語言，請指定 DHTML 語言代碼。 在適用于全球用途 (語言的應用程式 **assemblyIdentity** 中) 省略 language 屬性。<br/> 在適用于全球用途 (語言的元件 **assemblyIdentity** 中) 將 language 的值設定為 " \* "。<br/> |
 | **processorArchitecture** | 指定處理器。 有效值包括 `x86`、`amd64`、`arm` 和 `arm64`。 選擇性。                                                                                                                                                                                                                                                                                                                       |
 | **version**               | 指定應用程式或元件版本。 使用四部分版本格式：好吃. ooooo. ppppp。 以句號分隔的每個部分都可以是0-65535 （含）。 如需詳細資訊，請參閱 [元件版本](assembly-versions.md)。 必要。                                                                                                                                                                        |
@@ -124,7 +124,7 @@ ms.locfileid: "112230239"
 
 ### <a name="compatibility"></a>相容性
 
-包含至少一個 **應用程式**。 它沒有任何屬性。 選擇性。 沒有相容性元素的應用程式資訊清單預設為 windows 7 上的 Windows Vista 相容性。
+包含至少一個 **應用程式**。 它沒有任何屬性。 選擇性。 沒有相容性專案的應用程式資訊清單預設為 Windows 7 上 Windows Vista 相容性。
 
 <span id="application"></span><span id="APPLICATION"></span>
 
@@ -140,19 +140,19 @@ ms.locfileid: "112230239"
 
 | 屬性 | 說明   |
 |-----------|-----------------------|
-| **識別碼**    | 將識別碼屬性設定為 **{e2011457-1546-43c5-a5fe-008deee3d3f0}** ，以使用 Vista 功能來執行應用程式。 這可以讓針對 Windows Vista 設計的應用程式在較新的作業系統上執行。 <br/> 將識別碼屬性設定為 **{35138b9a-5d96-4fbd-8e2d-a2440225f93a}** ，以使用 Windows 7 功能來執行應用程式。<br/> 支援 Windows Vista、Windows 7 和 Windows 8 功能的應用程式不需要個別的資訊清單。 在此情況下，請新增所有 Windows 作業系統的 Guid。<br/> 如需 Windows 中 **識別碼** 屬性行為的詳細資訊，請參閱 [Windows 8 和 Windows Server 2012 相容性操作手冊](https://www.microsoft.com/download/details.aspx?id=27416)。<br/> 下列 Guid 對應于指出的作業系統：<br/> **{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}** -> Windows 10、windows server 2016 和 windows server 2019<br/> **{1f676c76-80e1-4239-95bb-83d0f6d0da78}** -> Windows 8.1 和 Windows Server 2012 R2<br/> **{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}** -> Windows 8 和 Windows Server 2012<br/> **{35138b9a-5d96-4fbd-8e2d-a2440225f93a}** -> windows 7 和 windows Server 2008 R2<br/> **{e2011457-1546-43c5-a5fe-008deee3d3f0}** -> windows Vista 和 windows Server 2008<br/> 您可以在 Windows 7 或 Windows 8. x 上進行測試，方法是執行資源監視器 (resmon) ，前往 [CPU] 索引標籤，以滑鼠右鍵按一下資料行標籤，選取 [選取資料行]，然後核取 [作業系統內容]。 在 Windows 8. x 上，您也可以在 [工作管理員 (taskmgr) 中找到此資料行。 資料行的內容會顯示找到的最大值或 "Windows Vista" 作為預設值。 <br/> |
+| **識別碼**    | 將識別碼屬性設定為 **{e2011457-1546-43c5-a5fe-008deee3d3f0}** ，以使用 Vista 功能來執行應用程式。 這可以讓針對 Windows Vista 設計的應用程式在較新的作業系統上執行。 <br/> 將識別碼屬性設定為 **{35138b9a-5d96-4fbd-8e2d-a2440225f93a}** ，以使用 Windows 7 功能來執行應用程式。<br/> 支援 Windows Vista、Windows 7 和 Windows 8 功能的應用程式不需要個別的資訊清單。 在此情況下，請為所有的 Windows 作業系統新增 guid。<br/> 如需 Windows 中 **識別碼** 屬性行為的詳細資訊，請參閱 [Windows 8 和 Windows Server 2012 相容性操作手冊](https://www.microsoft.com/download/details.aspx?id=27416)。<br/> 下列 Guid 對應于指出的作業系統：<br/> **{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}** -> Windows 10、Windows Server 2016 和 Windows Server 2019<br/> **{1f676c76-80e1-4239-95bb-83d0f6d0da78}** -> Windows 8.1 和 Windows Server 2012 R2<br/> **{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}** -> Windows 8 和 Windows Server 2012<br/> **{35138b9a-5d96-4fbd-8e2d-a2440225f93a}** -> Windows 7 和 Windows Server 2008 R2<br/> **{e2011457-1546-43c5-a5fe-008deee3d3f0}** -> Windows Vista 和 Windows Server 2008<br/> 您可以在 Windows 7 或 Windows 8. x 上進行測試，方法是執行資源監視器 (resmon) ，然後前往 [CPU] 索引標籤，以滑鼠右鍵按一下資料行標籤 [選取資料行]，然後核取 [作業系統內容]。 在 Windows 8. x 上，您也可以在 [工作管理員 (taskmgr) 中找到此資料行。 資料行的內容會顯示找到的最大值或 "Windows Vista" 作為預設值。 <br/> |
 
 <span id="maxVersionTested"></span><span id="maxversiontested"></span><span id="MAXVERSIONTESTED"></span>
 
 ### <a name="maxversiontested"></a>maxversiontested
 
-**Maxversiontested** 元素會指定從應用程式所支援的最低 OS 版本開始，開始測試應用程式的 Windows 版本，最高可達最高版本。 您可以在 [這裡](https://developer.microsoft.com/windows/downloads/sdk-archive/)找到完整的版本集合。 這是為了讓使用 [XAML 孤島](/windows/apps/desktop/modernize/xaml-islands) 且未部署在 MSIX 套件中的桌面應用程式使用。 在 Windows 10、1903版和更新版本中支援這個元素。
+**maxversiontested** 元素會指定從應用程式所支援的最低 OS 版本開始，開始測試應用程式的 Windows 版本，最高可達最高版本。 您可以在 [這裡](https://developer.microsoft.com/windows/downloads/sdk-archive/)找到完整的版本集合。 這是為了讓使用 [XAML 孤島](/windows/apps/desktop/modernize/xaml-islands) 且未部署在 MSIX 套件中的桌面應用程式使用。 在 Windows 10、1903版和更新版本中支援這個元素。
 
 **Maxversiontested** 元素具有下列屬性。 它沒有子項目。
 
 | 屬性 | 說明    |
 |-----------|----------------|
-| **識別碼**    | 將識別碼屬性設定為4部分版本字串，以指定測試應用程式所針對的 Windows 最大版本。 例如，"10.0.18226.0"。 |
+| **識別碼**    | 將識別碼屬性設定為4部分版本字串，以指定測試應用程式所針對 Windows 的最大版本。 例如，"10.0.18226.0"。 |
 
 <span id="dependency"></span><span id="DEPENDENCY"></span>
 
@@ -186,11 +186,16 @@ ms.locfileid: "112230239"
 
 ### <a name="activecodepage"></a>activeCodePage
 
-強制處理常式使用 UTF-8 作為程式字碼頁。
+在 Windows 10 上，這個專案會強制程式使用 utf-8 做為處理常式字碼頁。 如需詳細資訊，請參閱 [使用 utf-8 字碼頁](/windows/uwp/design/globalizing/use-utf8-code-page)。 在 Windows 10 上，唯一有效的 **activeCodePage** 值為 **utf-8**。
 
-**activeCodePage** 已新增到 Windows 1903 版 (2019) 更新。 您可以宣告此屬性並在舊版 Windows 組建上執行，但是您必須如往常般處理舊版字碼頁偵測和轉換。 如需詳細資訊，請參閱 [使用 utf-8 字碼頁](/windows/uwp/design/globalizing/use-utf8-code-page) 。
+從 Windows 11 開始，此專案也允許選取舊版的非 utf-8 字碼頁，或針對舊版應用程式相容性的特定地區設定的字碼頁。 強烈建議您使用新式應用程式來使用 Unicode。 在 Windows 11 中， **activeCodePage** 也可以設定為 **舊版** 的值或地區設定名稱，例如 **en-us** 或 **ja-jp**。
 
-這個元素沒有屬性。 **Utf-8** 只是 **activeCodePage** 元素的有效值。
+- 在設定為 UTF-8 系統使用中字碼頁的電腦上， **舊版** 會將程式還原到系統地區設定字碼頁面。 如果系統地區設定未定義字碼頁，則會使用 Windows-1252/437。 只有在融合資訊清單中才支援 **舊版** 字碼頁設定，而且只會從 Windows 11 開始。
+- 提供地區設定名稱（例如 **en-us** ）時，系統會針對該地區設定字碼頁適當地設定流程字碼頁面。 例如，對 en-us 的 Windows-1252 和437，或針對 ja-jp 的932。
+
+第一次在 Windows 10 版本1903中新增此元素， (5 月2019更新) 。 您可以宣告此屬性，並將其設為在舊版 Windows 組建上執行，但是您必須如往常般處理舊版字碼頁偵測和轉換。 這個元素沒有屬性。 
+
+下列範例示範如何使用此專案來強制目前的進程使用 UTF-8 做為處理常式字碼頁。
 
 ```XML
 <assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3">
@@ -244,14 +249,14 @@ ms.locfileid: "112230239"
 
 下表描述根據 **DPIAware** 專案是否存在，以及它所包含的文字所產生的行為。 元素內的文字不區分大小寫。
 
-| **DpiAware** 元素的狀態 | 描述     |
+| **DpiAware** 元素的狀態 | Description     |
 |-----------------------------------|---------|
 | Absent                            | 目前的進程預設為 DPI 感知。 您可以藉由呼叫 [**SetProcessDpiAwareness**](/windows/desktop/api/shellscalingapi/nf-shellscalingapi-setprocessdpiawareness) 或 [**SetProcessDPIAware**](/windows/desktop/api/winuser/nf-winuser-setprocessdpiaware) 函數，以程式設計方式變更此設定。                                                                                                                                                            |
 | 包含 "true"                   | 目前的進程是系統 DPI 感知。                                                                                                                                                                                                                                                                                                                                                          |
-| 包含 "false"                  | **Windows Vista、windows 7 和 Windows 8：** 行為與 **DPIAware** 不存在時的行為相同。<br/> **Windows 8.1 和 Windows 10：** 目前的進程不感知 DPI，而且您無法藉由呼叫 [**SetProcessDpiAwareness**](/windows/desktop/api/shellscalingapi/nf-shellscalingapi-setprocessdpiawareness) 或 [**SetProcessDPIAware**](/windows/desktop/api/winuser/nf-winuser-setprocessdpiaware) 函式，以程式設計方式變更此設定。<br/> |
-| 包含 "true/pm"                | **Windows Vista、windows 7 和 Windows 8：** 目前的進程是系統 DPI 感知。<br/> **Windows 8.1 和 Windows 10：** 目前的進程是個別監視器 DPI 感知。<br/>                                                                                                                                                                                                          |
-| 包含「每個監視器」            | **Windows Vista、windows 7 和 Windows 8：** 行為與 **DPIAware** 不存在時的行為相同。<br/> **Windows 8.1 和 Windows 10：** 目前的進程是個別監視器 DPI 感知。<br/>                                                                                                                                                                                      |
-| 包含任何其他字串         | **Windows Vista、windows 7 和 Windows 8：** 行為與 **DPIAware** 不存在時的行為相同。<br/> **Windows 8.1 和 Windows 10：** 目前的進程不感知 DPI，而且您無法藉由呼叫 [**SetProcessDpiAwareness**](/windows/desktop/api/shellscalingapi/nf-shellscalingapi-setprocessdpiawareness) 或 [**SetProcessDPIAware**](/windows/desktop/api/winuser/nf-winuser-setprocessdpiaware) 函式，以程式設計方式變更此設定。<br/> |
+| 包含 "false"                  | **Windows Vista、Windows 7 和 Windows 8：** 行為與 **DPIAware** 不存在時的行為相同。<br/> **Windows 8.1 和 Windows 10：** 目前的進程不感知 DPI，而且您無法藉由呼叫 [**SetProcessDpiAwareness**](/windows/desktop/api/shellscalingapi/nf-shellscalingapi-setprocessdpiawareness)或 [**SetProcessDPIAware**](/windows/desktop/api/winuser/nf-winuser-setprocessdpiaware)函式，以程式設計方式變更此設定。<br/> |
+| 包含 "true/pm"                | **Windows Vista、Windows 7 和 Windows 8：** 目前的進程是系統 DPI 感知。<br/> **Windows 8.1 和 Windows 10：** 目前的進程是個別監視器 DPI 感知。<br/>                                                                                                                                                                                                          |
+| 包含「每個監視器」            | **Windows Vista、Windows 7 和 Windows 8：** 行為與 **DPIAware** 不存在時的行為相同。<br/> **Windows 8.1 和 Windows 10：** 目前的進程是個別監視器 DPI 感知。<br/>                                                                                                                                                                                      |
+| 包含任何其他字串         | **Windows Vista、Windows 7 和 Windows 8：** 行為與 **DPIAware** 不存在時的行為相同。<br/> **Windows 8.1 和 Windows 10：** 目前的進程不感知 DPI，而且您無法藉由呼叫 [**SetProcessDpiAwareness**](/windows/desktop/api/shellscalingapi/nf-shellscalingapi-setprocessdpiawareness)或 [**SetProcessDPIAware**](/windows/desktop/api/winuser/nf-winuser-setprocessdpiaware)函式，以程式設計方式變更此設定。<br/> |
 
 如需 DPI 感知設定的詳細資訊，請參閱 [Dpi 感知層級的比較](https://msdn.microsoft.com/library/windows/desktop/mt843498(v=vs.85).aspx(d=robot))。
 
@@ -281,7 +286,7 @@ ms.locfileid: "112230239"
 
 下表描述根據 **DPIAwareness** 元素是否存在，以及其在最左邊辨識的專案中包含的文字所產生的行為。 元素內的文字不區分大小寫。
 
-| **DPIAwareness** 元素狀態：        | 描述                          |
+| **DPIAwareness** 元素狀態：        | Description                          |
 |-----------------------------------------|-------------------------------------------|
 | 元素不存在                       | **DpiAware** 元素會指定進程是否為 DPI 感知。                                                                                                                                                                   |
 | 未包含任何可識別的專案            | 目前的進程預設為 DPI 感知。 您可以藉由呼叫 [**SetProcessDpiAwareness**](/windows/desktop/api/shellscalingapi/nf-shellscalingapi-setprocessdpiawareness) 或 [**SetProcessDPIAware**](/windows/desktop/api/winuser/nf-winuser-setprocessdpiaware) 函數，以程式設計方式變更此設定。 |
@@ -359,7 +364,7 @@ GDI (圖形裝置介面) framework 可以針對個別監視器將 DPI 縮放比�
 
 ### <a name="printerdriverisolation"></a>printerDriverIsolation
 
-指定是否啟用印表機驅動程式隔離。 **TRUE** 表示已啟用。 它沒有任何屬性。 印表機驅動程式隔離可讓印表機驅動程式在與執行列印多工緩衝處理器不同的處理常式中執行，藉以改善 Windows 列印服務的可靠性。 在 Windows 7 和 Windows Server 2008 R2 中開始支援印表機驅動程式隔離。 應用程式可以在其應用程式資訊清單中宣告印表機驅動程式隔離，以獨立于印表機驅動程式，並改善其可靠性。 也就是說，如果印表機驅動程式發生錯誤，應用程式將不會損毀。
+指定是否啟用印表機驅動程式隔離。 **TRUE** 表示已啟用。 它沒有任何屬性。 印表機驅動程式隔離可讓印表機驅動程式在與執行列印多工緩衝處理器不同的處理常式中執行，藉此改善 Windows 列印服務的可靠性。 Windows 7 和 Windows Server 2008 R2 中開始支援印表機驅動程式隔離。 應用程式可以在其應用程式資訊清單中宣告印表機驅動程式隔離，以獨立于印表機驅動程式，並改善其可靠性。 也就是說，如果印表機驅動程式發生錯誤，應用程式將不會損毀。
 
 
 ```XML
@@ -390,7 +395,7 @@ GDI (圖形裝置介面) framework 可以針對個別監視器將 DPI 縮放比�
 
 | 屬性   | 描述                                                                                             |
 |-------------|---------------------------------------------------------------------------------------------------------|
-| **publisher**    | 描述發行者資訊。 這個值必須符合您的稀疏套件資訊清單中 [Identity](/uwp/schemas/appxpackage/uapmanifestschema/element-identity)元素的 **發行者** 屬性。 |
+| **publisher**    | 描述發行者資訊。 這個值必須符合您的稀疏套件資訊清單中 [Identity](/uwp/schemas/appxpackage/uapmanifestschema/element-identity)元素的 **Publisher** 屬性。 |
 | **packageName** | 描述封裝的內容。 這個值必須符合您的稀疏套件資訊清單中 [Identity](/uwp/schemas/appxpackage/uapmanifestschema/element-identity)元素的 **Name** 屬性。    |
 | **applicationId**    | 應用程式的唯一識別碼。 這個值必須符合您的稀疏套件資訊清單中 [應用程式](/uwp/schemas/appxpackage/uapmanifestschema/element-application)元素的 **識別碼** 屬性。  |
 

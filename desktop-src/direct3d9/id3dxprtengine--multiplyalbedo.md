@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: a282605789644382f39fd8fff9ce8bb47d6dfc7d
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: c2989ce2a662be5a1ec53c961b8fafa072862fc2b43b6003b04f6b887ef3c077
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106991491"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119790538"
 ---
 # <a name="id3dxprtenginemultiplyalbedo-method"></a>ID3DXPRTEngine：： MultiplyAlbedo 方法
 

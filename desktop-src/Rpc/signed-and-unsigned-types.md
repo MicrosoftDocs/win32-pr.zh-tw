@@ -4,12 +4,12 @@ description: 瞭解 RPC 中的已簽署和不帶正負號的類型。 使用不�
 ms.assetid: 0464d465-84b7-49fc-968e-5efe037966c2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f4c03010262c8492b6738d1e817e165e5ca8f839
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: e17a2ccf28233bb14e0811e8015c83aede37d60c58fe9411f13806355fdb7f77
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112406541"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120017694"
 ---
 # <a name="signed-and-unsigned-types-rpc"></a> (RPC) 的帶正負號和不帶正負號的類型
 

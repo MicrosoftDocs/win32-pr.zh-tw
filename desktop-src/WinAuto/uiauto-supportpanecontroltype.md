@@ -21,12 +21,12 @@ keywords:
 - 控制項類型，窗格
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 15e4a7225869c0752e65aece7e4eca00a416614315c8d5af810bdeb57d29aae0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6b335496d8d40d20ccc68f6bc2b048c87ff608dd
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118825522"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122474254"
 ---
 # <a name="pane-control-type"></a>窗格控制項類型
 
@@ -51,28 +51,11 @@ ms.locfileid: "118825522"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>控制項檢視</th>
-<th>內容檢視</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>窗格</li>
-</ul></td>
-<td><ul>
-<li>窗格</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| 控制項檢視 | 內容檢視 | 
+|--------------|--------------|
+| <ul><li>窗格</li></ul> | <ul><li>窗格</li></ul> | 
+
 
 
 
@@ -154,50 +137,11 @@ ms.locfileid: "118825522"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>消費者介面自動化樹狀結構-控制項視圖</th>
-<th>消費者介面自動化樹狀結構-內容視圖</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>窗格
-<ul>
-<li>樹狀結構 (捲動模式)
-<ul>
-<li>TreeItem</li>
-<li>...</li>
-</ul></li>
-</ul></li>
-<li>窗格
-<ul>
-<li>編輯 (捲軸模式) </li>
-</ul></li>
-</ul></td>
-<td><ul>
-<li>窗格
-<ul>
-<li>樹狀結構 (捲動模式)
-<ul>
-<li>TreeItem</li>
-<li>...</li>
-</ul></li>
-<li>窗格
-<ul>
-<li>編輯 (捲軸模式) </li>
-</ul></li>
-</ul></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| 消費者介面自動化樹狀結構-控制項視圖 | 消費者介面自動化樹狀結構-內容視圖 | 
+|-----------------------------------|-----------------------------------|
+| <ul><li>窗格<ul><li>樹狀結構 (捲動模式)<ul><li>TreeItem</li><li>...</li></ul></li></ul></li><li>窗格<ul><li>編輯 (捲軸模式) </li></ul></li></ul> | <ul><li>窗格<ul><li>樹狀結構 (捲動模式)<ul><li>TreeItem</li><li>...</li></ul></li><li>窗格<ul><li>編輯 (捲軸模式) </li></ul></li></ul></li></ul> | 
+
 
 
 

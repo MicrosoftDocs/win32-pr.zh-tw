@@ -4,12 +4,12 @@ ms.assetid: F88AA3E6-6F7B-442d-935A-7D2CB4958E6B
 title: 應用程式註冊
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cecac1c72614ce3241cbac6b880b0d9f5f84f9fbf85c8ee022d83574df6d86e6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d0b9647809f46c2147ab6ed464f0e8de1d7ef0df
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118224940"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122464855"
 ---
 # <a name="application-registration"></a>應用程式註冊
 
@@ -90,49 +90,16 @@ ms.locfileid: "118224940"
 
 2.  請參閱下表，以取得 **應用程式路徑** 子機碼專案的詳細資料。 
 
-    <table>
-    <colgroup>
-    <col style="width: 50%" />
-    <col style="width: 50%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th>登錄項目</th>
-    <th>詳細資料</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>(預設值)</td>
-    <td>是應用程式的完整路徑。  (預設) 專案中提供的應用程式名稱，可以使用或不使用其 .exe 延伸模組來陳述。 如有必要， <a href="/windows/desktop/api/Shellapi/nf-shellapi-shellexecuteexa"><strong>ShellExecuteEx</strong></a> 函式會在搜尋 <strong>應用程式路徑</strong> 子機碼時新增擴充功能。 專案屬於 <strong>REG_SZ</strong> 類型。</td>
-    </tr>
-    <tr class="even">
-    <td>DontUseDesktopChangeRouter</td>
-    <td>偵錯工具應用程式必須有這項功能，以避免在處理 Windows 檔案總管進程時發生檔案對話方塊鎖死。 但是，設定 DontUseDesktopChangeRouter 專案會產生稍微不有效率的變更通知處理。 專案屬於 <strong>REG_DWORD</strong> 類型，而值為0x1。</td>
-    </tr>
-    <tr class="odd">
-    <td>DropTarget</td>
-    <td>是)  (CLSID 的類別識別碼。 DropTarget 專案包含物件的 CLSID (通常是本機伺服器，而不是執行 <a href="/windows/desktop/api/oleidl/nn-oleidl-idroptarget"><strong>IDropTarget</strong></a>的同進程伺服器) 。 根據預設，當放置目標是可執行檔，且未提供任何 DropTarget 值時，Shell 會將已卸載的檔案清單轉換成命令列參數，並透過<em>lpParameters</em>將其傳遞至<a href="/windows/desktop/api/Shellapi/nf-shellapi-shellexecuteexa"><strong>ShellExecuteEx</strong></a> 。</td>
-    </tr>
-    <tr class="even">
-    <td>路徑</td>
-    <td>藉由呼叫 <a href="/windows/desktop/api/Shellapi/nf-shellapi-shellexecuteexa"><strong>ShellExecuteEx</strong></a>來啟動應用程式時，以分號分隔的目錄清單格式提供字串 (，) 附加至 PATH 環境變數。 它是 .exe 的完整路徑。 這是 <strong>REG_SZ</strong>。 在<strong>Windows 7 和更新版本</strong>中，類型可以<strong>REG_EXPAND_SZ</strong>，而且通常<strong>REG_EXPAND_SZ</strong> % ProgramFiles%。
-    <blockquote>
-    [!Note]<br />
-除了 Shell 辨識的 (預設) 、路徑和 DropTarget 專案之外，應用程式也可以將自訂值新增至其可執行檔的 <strong>應用程式路徑</strong> 子機碼。 我們鼓勵應用程式開發人員使用應用程式 <strong>路徑</strong> 子機碼，以提供應用程式特定路徑，而不是將新增至全域系統路徑。
-    </blockquote>
-    <br/></td>
-    </tr>
-    <tr class="odd">
-    <td>SupportedProtocols</td>
-    <td>建立字串，其中包含指定之索引鍵的 URL 通訊協定配置。 這可包含多個登錄值，以指出支援的配置。 此字串的格式如下 <strong>scheme1： scheme2</strong>。 如果這份清單不是空的，則會將 <strong>file：</strong> 新增至字串。 定義 <em>SupportedProtocols</em> 時，會隱含地支援此通訊協定。 <br/></td>
-    </tr>
-    <tr class="even">
-    <td>UseUrl</td>
-    <td>指出您的應用程式可以接受 URL (而不是在命令列上) 的檔案名。 可以直接從網際網路開啟檔的應用程式（例如網頁瀏覽器和媒體播放機）應該設定此專案。 <br/> 當 <a href="/windows/desktop/api/Shellapi/nf-shellapi-shellexecuteexa"><strong>ShellExecuteEx</strong></a> 函式啟動應用程式，且未設定 UseUrl = 1 值時， <strong>ShellExecuteEx</strong> 會將檔下載至本機檔案，並在本機複本上叫用處理程式。<br/> 例如，如果應用程式具有這個專案集，且使用者以滑鼠右鍵按一下儲存在 web 伺服器上的檔案，則會提供開啟的動詞。 如果沒有，使用者將必須下載檔案並開啟本機複本。 <br/> UseUrl 專案屬於 <strong>REG_DWORD</strong> 類型，而值為0x1。<br/> 在 Windows Vista （含）以前版本中，此專案指出當透過 ShellExecuteEx 呼叫時，應將 URL 傳遞至應用程式以及本機檔案名。 在 Windows 7 中，它表示應用程式可以瞭解任何傳遞給它的 HTTP 或 HTTPs url，也不需要提供快取檔案名稱。 此登錄機碼與 <em>SupportedProtocols</em> 索引鍵相關聯。<br/></td>
-    </tr>
-    </tbody>
-    </table>
+    
+| 登錄項目 | 詳細資料 | 
+|----------------|---------|
+| (預設值) | 是應用程式的完整路徑。  (預設) 專案中提供的應用程式名稱，可以使用或不使用其 .exe 延伸模組來陳述。 如有必要， <a href="/windows/desktop/api/Shellapi/nf-shellapi-shellexecuteexa"><strong>ShellExecuteEx</strong></a> 函式會在搜尋 <strong>應用程式路徑</strong> 子機碼時新增擴充功能。 專案屬於 <strong>REG_SZ</strong> 類型。 | 
+| DontUseDesktopChangeRouter | 偵錯工具應用程式必須有這項功能，以避免在處理 Windows 檔案總管進程時發生檔案對話方塊鎖死。 但是，設定 DontUseDesktopChangeRouter 專案會產生稍微不有效率的變更通知處理。 專案屬於 <strong>REG_DWORD</strong> 類型，而值為0x1。 | 
+| DropTarget | 是)  (CLSID 的類別識別碼。 DropTarget 專案包含物件的 CLSID (通常是本機伺服器，而不是執行 <a href="/windows/desktop/api/oleidl/nn-oleidl-idroptarget"><strong>IDropTarget</strong></a>的同進程伺服器) 。 根據預設，當放置目標是可執行檔，且未提供任何 DropTarget 值時，Shell 會將已卸載的檔案清單轉換成命令列參數，並透過<em>lpParameters</em>將其傳遞至<a href="/windows/desktop/api/Shellapi/nf-shellapi-shellexecuteexa"><strong>ShellExecuteEx</strong></a> 。 | 
+| 路徑 | 藉由呼叫 <a href="/windows/desktop/api/Shellapi/nf-shellapi-shellexecuteexa"><strong>ShellExecuteEx</strong></a>來啟動應用程式時，以分號分隔的目錄清單格式提供字串 (，) 附加至 PATH 環境變數。 它是 .exe 的完整路徑。 這是 <strong>REG_SZ</strong>。 在<strong>Windows 7 和更新版本</strong>中，類型可以<strong>REG_EXPAND_SZ</strong>，而且通常<strong>REG_EXPAND_SZ</strong> % ProgramFiles%。    <blockquote>    [!Note]<br />    除了 Shell 辨識的 (預設) 、路徑和 DropTarget 專案之外，應用程式也可以將自訂值新增至其可執行檔的 <strong>應用程式路徑</strong> 子機碼。 我們鼓勵應用程式開發人員使用應用程式 <strong>路徑</strong> 子機碼，以提供應用程式特定路徑，而不是將新增至全域系統路徑。    </blockquote><br /> | 
+| SupportedProtocols | 建立字串，其中包含指定之索引鍵的 URL 通訊協定配置。 這可包含多個登錄值，以指出支援的配置。 此字串的格式如下 <strong>scheme1： scheme2</strong>。 如果這份清單不是空的，則會將 <strong>file：</strong> 新增至字串。 定義 <em>SupportedProtocols</em> 時，會隱含地支援此通訊協定。 <br /> | 
+| UseUrl | 指出您的應用程式可以接受 URL (而不是在命令列上) 的檔案名。 可以直接從網際網路開啟檔的應用程式（例如網頁瀏覽器和媒體播放機）應該設定此專案。 <br /> 當 <a href="/windows/desktop/api/Shellapi/nf-shellapi-shellexecuteexa"><strong>ShellExecuteEx</strong></a> 函式啟動應用程式，且未設定 UseUrl = 1 值時， <strong>ShellExecuteEx</strong> 會將檔下載至本機檔案，並在本機複本上叫用處理程式。<br /> 例如，如果應用程式具有這個專案集，且使用者以滑鼠右鍵按一下儲存在 web 伺服器上的檔案，則會提供開啟的動詞。 如果沒有，使用者將必須下載檔案並開啟本機複本。 <br /> UseUrl 專案屬於 <strong>REG_DWORD</strong> 類型，而值為0x1。<br /> 在 Windows Vista （含）以前版本中，此專案指出當透過 ShellExecuteEx 呼叫時，應將 URL 傳遞至應用程式以及本機檔案名。 在 Windows 7 中，它表示應用程式可以瞭解任何傳遞給它的 HTTP 或 HTTPs url，也不需要提供快取檔案名稱。 此登錄機碼與 <em>SupportedProtocols</em> 索引鍵相關聯。<br /> | 
+
 
     
 
@@ -144,7 +111,7 @@ ms.locfileid: "118224940"
 
 
 
-| 登錄項目                   | 描述                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| 登錄項目                   | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 |----------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | shell \\ 動詞                      | 提供從 OpenWith 呼叫應用程式的動詞方法。 如果沒有在這裡指定動詞定義，系統會假設應用程式支援 [**CreateProcess**](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa)，並在命令列上傳遞檔案名。 此功能適用于所有動詞方法，包括 DropTarget、ExecuteCommand 和動態資料交換 (DDE) 。                                                                                                                                                                                                                                                                                                                            |
 | DefaultIcon                      | 讓應用程式提供特定圖示來代表應用程式，而不是儲存在 .exe 檔案中的第一個圖示。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |

@@ -11,12 +11,12 @@ api_name: ''
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 002961447c8cbe56efc4e7113dba7f3b53d2f7e6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 78884deb9dfd20582ae1e806f7c2a3629436ef1b
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106981465"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122472704"
 ---
 # <a name="xmhalf4-constructors"></a>XMHALF4 函式
 
@@ -33,65 +33,15 @@ ms.locfileid: "106981465"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">建構函式</th>
-<th style="text-align: left;">描述</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmhalf4-xmhalf4(constfloat)"><strong>XMHALF4 () </strong></a></td>
-<td style="text-align: left;">的預設函數 <code>XMHALF4</code> 。 <br/> <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmhalf4"><strong>XMHALF4</strong></a>的預設的函式。 <br/>
-<blockquote>
-[!Note]<br />
-這個函式僅適用于 c + +。
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmhalf4-xmhalf4(consthalf)"><strong>XMHALF4 (const 一半 * ) </strong></a></td>
-<td style="text-align: left;"><code>XMHALF4</code>從四個元素陣列引數，初始化的新實例 <code>HALF</code> 。 <br/> 這個函式會從四個元素陣列引數，初始化 <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmhalf4"><strong>XMHALF4</strong></a> 的新實例 <code>HALF</code> 。 <br/>
-<blockquote>
-[!Note]<br />
-這個函式僅適用于 c + +。
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmhalf4-xmhalf4(constfloat)"><strong>XMHALF4 (const float * ) </strong></a></td>
-<td style="text-align: left;"><code>XMHALF4</code>從四個元素陣列引數，初始化的新實例 <code>float</code> 。 <br/> 這個函式會從四個元素陣列引數，初始化 <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmhalf4"><strong>XMHALF4</strong></a> 的新實例 <code>float</code> 。 <br/>
-<blockquote>
-[!Note]<br />
-這個函式僅適用于 c + +。
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmhalf4-xmhalf4(half_half_half_half)"><strong>XMHALF4 (半半形半半形) </strong></a></td>
-<td style="text-align: left;"><code>XMHALF4</code>從四個引數初始化的新實例 <code>HALF</code> 。<br/> 這個函式會從四個引數初始化 <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmhalf4"><strong>XMHALF4</strong></a> 的新實例 <code>HALF</code> 。<br/>
-<blockquote>
-[!Note]<br />
-這個函式僅適用于 c + +。
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmhalf4-xmhalf4(float_float_float_float)"><strong>XMHALF4 (float、float、float、float) </strong></a></td>
-<td style="text-align: left;"><code>XMHALF4</code>從四個引數初始化的新實例 <code>float</code> 。 <br/> 這個函式會從四個引數初始化 <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmhalf4"><strong>XMHALF4</strong></a> 的新實例 <code>float</code> 。 <br/>
-<blockquote>
-[!Note]<br />
-這個函式僅適用于 c + +。
-</blockquote>
-<br/></td>
-</tr>
-</tbody>
-</table>
+
+| 建構函式 | 描述 | 
+|-------------|-------------|
+| <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmhalf4-xmhalf4(constfloat)"><strong>XMHALF4 () </strong></a> | 的預設函數 <code>XMHALF4</code> 。 <br /> <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmhalf4"><strong>XMHALF4</strong></a>的預設的函式。 <br /><blockquote>[!Note]<br />這個函式僅適用于 c + +。</blockquote><br /> | 
+| <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmhalf4-xmhalf4(consthalf)"><strong>XMHALF4 (const 一半 * ) </strong></a> | <code>XMHALF4</code>從四個元素陣列引數，初始化的新實例 <code>HALF</code> 。 <br /> 這個函式會從四個元素陣列引數，初始化 <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmhalf4"><strong>XMHALF4</strong></a> 的新實例 <code>HALF</code> 。 <br /><blockquote>[!Note]<br />這個函式僅適用于 c + +。</blockquote><br /> | 
+| <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmhalf4-xmhalf4(constfloat)"><strong>XMHALF4 (const float * ) </strong></a> | <code>XMHALF4</code>從四個元素陣列引數，初始化的新實例 <code>float</code> 。 <br /> 這個函式會從四個元素陣列引數，初始化 <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmhalf4"><strong>XMHALF4</strong></a> 的新實例 <code>float</code> 。 <br /><blockquote>[!Note]<br />這個函式僅適用于 c + +。</blockquote><br /> | 
+| <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmhalf4-xmhalf4(half_half_half_half)"><strong>XMHALF4 (半半形半半形) </strong></a> | <code>XMHALF4</code>從四個引數初始化的新實例 <code>HALF</code> 。<br /> 這個函式會從四個引數初始化 <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmhalf4"><strong>XMHALF4</strong></a> 的新實例 <code>HALF</code> 。<br /><blockquote>[!Note]<br />這個函式僅適用于 c + +。</blockquote><br /> | 
+| <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmhalf4-xmhalf4(float_float_float_float)"><strong>XMHALF4 (float、float、float、float) </strong></a> | <code>XMHALF4</code>從四個引數初始化的新實例 <code>float</code> 。 <br /> 這個函式會從四個引數初始化 <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmhalf4"><strong>XMHALF4</strong></a> 的新實例 <code>float</code> 。 <br /><blockquote>[!Note]<br />這個函式僅適用于 c + +。</blockquote><br /> | 
+
 
 
 

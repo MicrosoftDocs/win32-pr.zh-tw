@@ -18,12 +18,12 @@ api_type:
 - HeaderDef
 api_location:
 - wiadef.h
-ms.openlocfilehash: f35c1f7436c8cc5110215a6ccf0383960ec3fb87
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 78130128a26057ed521512dd21acc5a1bd7e98c47ed689eaabc250a972c2a003
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943587"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119814118"
 ---
 # <a name="image-intent-constants"></a>影像意圖常數
 
@@ -33,7 +33,7 @@ ms.locfileid: "103943587"
 
 
 
-| 預定的影像類型旗標           | Description                                  |
+| 預定的影像類型旗標           | 描述                                  |
 |-------------------------------------|----------------------------------------------|
 | WIA \_ 意圖 \_ 無                   | 預設值。 請勿預設設定任何屬性。 |
 | WIA \_ 意圖 \_ 影像 \_ 類型 \_ 色彩     | 色彩內容的預設屬性。         |
@@ -47,7 +47,7 @@ ms.locfileid: "103943587"
 
 
 
-| 預定的影像大小/品質旗標 | Description                                  |
+| 預定的影像大小/品質旗標 | 描述                                  |
 |-----------------------------------|----------------------------------------------|
 | WIA \_ 意圖 \_ 最小化 \_ 大小       | 用來將影像大小降至最低的預設屬性。    |
 | WIA \_ 意圖 \_ 最大化 \_ 品質    | 將影像品質最大化的預設屬性。 |
@@ -62,7 +62,7 @@ ms.locfileid: "103943587"
 
 
 
-| 常數/值                                                                                                                                                                                                                                                                         | Description                                             |
+| 常數/值                                                                                                                                                                                                                                                                         | 描述                                             |
 |:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------|
 | <span id="WIA_INTENT_IMAGE_TYPE_COLOR"></span><span id="wia_intent_image_type_color"></span><dl> <dt>**WIA \_意圖 \_ 影像 \_ 類型 \_ 色彩**</dt> <dt>0x00000001</dt> </dl>             | 色彩內容的預設屬性。<br/>         |
 | <span id="WIA_INTENT_IMAGE_TYPE_GRAYSCALE"></span><span id="wia_intent_image_type_grayscale"></span><dl> <dt>**WIA \_意圖 \_ 影像 \_ 類型 \_ 灰階**</dt> <dt>0x00000002</dt> </dl> | 灰階內容的預設屬性。<br/>     |
@@ -79,8 +79,8 @@ ms.locfileid: "103943587"
 
 | 需求 | 值 |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 windows 2000 Professional、Windows XP \[ desktop 應用程式\]<br/>              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                |
+| 最低支援的用戶端<br/> | Windows 2000 Professional，僅 Windows XP \[ desktop 應用程式\]<br/>              |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                |
 | 標頭<br/>                   | <dl> <dt>Wiadef。h</dt> </dl> |
 
 

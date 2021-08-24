@@ -4,12 +4,12 @@ ms.assetid: c91119b9-59d5-4a33-91cd-d3ba63659d12
 title: 屬性參考
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 18958c09c3a0c4c42363d725f61b03b9de00782049928c7f03cf43d4e89043b8
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e38f952632609090c69b85786c6aef64243d420b
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119828468"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122481564"
 ---
 # <a name="property-reference"></a>屬性參考
 
@@ -164,77 +164,23 @@ ms.locfileid: "119828468"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>屬性</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="alpha.md"><strong>Alpha</strong></a><br/></td>
-<td>在 Alpha 處理器上執行時的數值處理器等級。<br/>
-<blockquote>
-[!Note]<br />
-這個屬性已過時，Windows Installer 不支援 Alpha 平臺。
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td><a href="borderside.md"><strong>BorderSide</strong></a><br/></td>
-<td>視窗框線的寬度（以圖元為單位）。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="bordertop.md"><strong>BorderTop</strong></a><br/></td>
-<td>視窗框線的高度（以圖元為單位）。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="captionheight.md"><strong>CaptionHeight</strong></a><br/></td>
-<td>一般字幕區域的高度（以圖元為單位）。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="colorbits.md"><strong>ColorBits</strong></a><br/></td>
-<td>每個圖元的相鄰色彩位數目。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="intel.md"><strong>英特爾</strong></a><br/></td>
-<td>在 Intel 處理器上執行時的數值處理器等級。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="intel64.md"><strong>Intel64</strong></a><br/></td>
-<td>在 Itanium 處理器上執行時的數值處理器等級。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="msix64.md"><strong>Msix64</strong></a><br/></td>
-<td>在 x64 處理器上執行時的數值處理器等級。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="physicalmemory.md"><strong>PhysicalMemory</strong></a><br/></td>
-<td>已安裝 RAM 的大小（以 mb 為單位）。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="screenx.md"><strong>ScreenX</strong></a><br/></td>
-<td>畫面的寬度（以圖元為單位）。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="screeny.md"><strong>ScreenY</strong></a><br/></td>
-<td>螢幕的高度（以圖元為單位）。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="textheight.md"><strong>TextHeight</strong></a><br/></td>
-<td>字元的高度（以邏輯單位表示）。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="virtualmemory.md"><strong>VirtualMemory</strong></a><br/></td>
-<td>可用的分頁檔空間量（以 mb 為單位）。<br/></td>
-</tr>
-</tbody>
-</table>
+
+| 屬性 | 描述 | 
+|----------|-------------|
+| <a href="alpha.md"><strong>Alpha</strong></a><br /> | 在 Alpha 處理器上執行時的數值處理器等級。<br /><blockquote>[!Note]<br />這個屬性已過時，Windows Installer 不支援 Alpha 平臺。</blockquote><br /> | 
+| <a href="borderside.md"><strong>BorderSide</strong></a><br /> | 視窗框線的寬度（以圖元為單位）。<br /> | 
+| <a href="bordertop.md"><strong>BorderTop</strong></a><br /> | 視窗框線的高度（以圖元為單位）。<br /> | 
+| <a href="captionheight.md"><strong>CaptionHeight</strong></a><br /> | 一般字幕區域的高度（以圖元為單位）。<br /> | 
+| <a href="colorbits.md"><strong>ColorBits</strong></a><br /> | 每個圖元的相鄰色彩位數目。<br /> | 
+| <a href="intel.md"><strong>英特爾</strong></a><br /> | 在 Intel 處理器上執行時的數值處理器等級。<br /> | 
+| <a href="intel64.md"><strong>Intel64</strong></a><br /> | 在 Itanium 處理器上執行時的數值處理器等級。<br /> | 
+| <a href="msix64.md"><strong>Msix64</strong></a><br /> | 在 x64 處理器上執行時的數值處理器等級。<br /> | 
+| <a href="physicalmemory.md"><strong>PhysicalMemory</strong></a><br /> | 已安裝 RAM 的大小（以 mb 為單位）。<br /> | 
+| <a href="screenx.md"><strong>ScreenX</strong></a><br /> | 畫面的寬度（以圖元為單位）。<br /> | 
+| <a href="screeny.md"><strong>ScreenY</strong></a><br /> | 螢幕的高度（以圖元為單位）。<br /> | 
+| <a href="textheight.md"><strong>TextHeight</strong></a><br /> | 字元的高度（以邏輯單位表示）。<br /> | 
+| <a href="virtualmemory.md"><strong>VirtualMemory</strong></a><br /> | 可用的分頁檔空間量（以 mb 為單位）。<br /> | 
+
 
 
 

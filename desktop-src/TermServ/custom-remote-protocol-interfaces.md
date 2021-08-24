@@ -5,12 +5,12 @@ ms.assetid: 180c29d4-a305-45ac-8989-6226dccb75d5
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 85494e26c391095fbf97e8e408ee6b6181756c03
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 5bde36cb70f937559dce20a73a485ec109a2cf6c6ae6c687655963c70e6ce22b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103931802"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119681228"
 ---
 # <a name="remote-desktop-protocol-provider-interfaces"></a>遠端桌面通訊協定提供者介面
 
@@ -120,9 +120,9 @@ ms.locfileid: "103931802"
 [遠端桌面通訊協定提供者聯集](custom-remote-protocol-unions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

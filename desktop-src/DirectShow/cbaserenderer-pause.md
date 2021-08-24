@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: e0b422882c07808f560f5256f67d01054d097726
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9769a1243fdbd69037e275fc083a9b1b0766f7f404190b2e68920f238e2bf140
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106999534"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119586078"
 ---
 # <a name="cbaserendererpause-method"></a>CBaseRenderer. Pause 方法
 
@@ -46,7 +46,7 @@ HRESULT Pause();
 
 
 
-| 傳回碼                                                                             | Description                            |
+| 傳回碼                                                                             | 描述                            |
 |-----------------------------------------------------------------------------------------|----------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>    | 轉換已完成。<br/> |
 | <dl> <dt>**S \_ FALSE**</dt> </dl> | 轉換未完成。<br/> |

@@ -3,23 +3,23 @@ title: 介面識別碼
 description: 介面識別碼
 ms.assetid: 009edcc0-34db-40a1-ae76-17492b11604a
 keywords:
-- 'Windows Media 格式 SDK，介面識別碼 (IID) '
+- 'Windows媒體格式 SDK，介面識別碼 (IID) '
 - 'Advanced Systems Format (ASF) 、interface 識別碼 (IID) '
 - 'ASF (Advanced Systems Format) 、interface 識別碼 (IID) '
 - " (IID 的介面識別碼) "
 - 'IID (介面識別碼) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 253ca5b4110536c2207f7e18ab0f28067789df71
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 63d32dc097e251c7fd82ff3b7ae5320d6bc1bfc628d32d436256a8a5c15bd7e3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104301679"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119808918"
 ---
 # <a name="interface-identifiers"></a>介面識別碼
 
-對 **QueryInterface** 方法進行呼叫時，您必須使用 (IID) 的介面識別碼。 IID 是 (GUID) 值的全域唯一識別碼。 在 Windows Media 格式 SDK 中，指派給指定介面之 IID 的常數是前面加上 ' IID ' 的介面名稱 \_ 。
+對 **QueryInterface** 方法進行呼叫時，您必須使用 (IID) 的介面識別碼。 IID 是 (GUID) 值的全域唯一識別碼。 在 Windows 媒體格式 SDK 中，指派給指定介面之 IID 的常數是前面加上 ' IID ' 的介面名稱 \_ 。
 
 下表列出此 SDK 中介面的介面識別碼和相關聯的常數。
 
@@ -130,7 +130,7 @@ ms.locfileid: "104301679"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -139,9 +139,9 @@ ms.locfileid: "104301679"
 [**GUID 值**](guid-values.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

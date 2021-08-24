@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5d3c7142f5f575413f72885aa60a0ccb826ecfab
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7e31589a229dcd5e32a0198cf7f3679846574bdb605e25a8df272b1793704b92
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106999490"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119659008"
 ---
 # <a name="drm_audio_output_protection_ids-structure"></a>DRM \_ 音訊 \_ 輸出 \_ 保護 \_ 識別碼結構
 

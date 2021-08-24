@@ -4,12 +4,12 @@ ms.assetid: baff3cae-d869-456b-981c-452973d0914d
 title: 磁片管理參考
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fa7d96bdf9b9aa743023a1bca213dd90b8da4268
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cbb5f3eb10127e9a8498bcf41cfad6497fe98c510138c9c069e23bfdba5c8d36
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980616"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119812068"
 ---
 # <a name="disk-management-reference"></a>磁片管理參考
 

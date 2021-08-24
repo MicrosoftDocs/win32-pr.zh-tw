@@ -15,12 +15,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e872d13ba5221ad50003d789b87f65fc64821dd0
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 08c704be7087d95d739685bc2823ec1c31a027b4406a3110986220927fdbbffa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106986076"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119751718"
 ---
 # <a name="d3d12calcsubresource-function"></a>D3D12CalcSubresource 函式
 
