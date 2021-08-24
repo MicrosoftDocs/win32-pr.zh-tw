@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 9cba7b12c55e7ab9f5f939347a8b500ec4965f75
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: d453a2e03538b7601b5f73033a4749430e8812ef317a90816cac220e61695279
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106982907"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119747368"
 ---
 # <a name="id3dxspritedraw-method"></a>ID3DXSprite：:D 原始方法
 

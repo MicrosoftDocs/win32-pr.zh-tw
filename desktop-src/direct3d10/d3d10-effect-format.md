@@ -4,12 +4,12 @@ ms.assetid: 75b76d65-be97-41c2-8c45-4369fcfd69ce
 title: " (Direct3D 10) 的效果格式"
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e5671750d7b4146ae5da8b0ba61ceae390b60a35
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: a0c9511304a3c24784381092017659fb1a6c593808253383443c8e9f6917c2be
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104386005"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119852821"
 ---
 # <a name="effect-format-direct3d-10"></a> (Direct3D 10) 的效果格式
 

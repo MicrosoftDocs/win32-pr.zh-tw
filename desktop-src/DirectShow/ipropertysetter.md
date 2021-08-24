@@ -1,5 +1,5 @@
 ---
-description: IPropertySetter 介面會設定 DirectShow 編輯服務 (DES) 效果或轉換的屬性。若要使用這個介面，請 (CLSID PropertySetter) 建立屬性 setter 物件的實例 \_ ，然後呼叫 IAMTimelineObj：： SetPropertySetter 方法，將它與效果或轉換產生關聯。 如需詳細資訊，請參閱使用效果和轉換。應用程式通常只需要呼叫 IPropertySetter：： ClearProps 方法來清除現有的屬性，並使用 IPropertySetter：： AddProp 方法來加入新的屬性。 其他 DES 元件會呼叫此介面上的其他方法。
+description: IPropertySetter 介面會設定 DirectShow 編輯服務 (DES) 中效果或轉換的屬性。若要使用這個介面，請 (CLSID PropertySetter) 建立屬性 setter 物件的實例 \_ ，然後呼叫 IAMTimelineObj：： SetPropertySetter 方法，將它與效果或轉換產生關聯。 如需詳細資訊，請參閱使用效果和轉換。應用程式通常只需要呼叫 IPropertySetter：： ClearProps 方法來清除現有的屬性，並使用 IPropertySetter：： AddProp 方法來加入新的屬性。 其他 DES 元件會呼叫此介面上的其他方法。
 ms.assetid: bee2abf2-0abc-4890-b1f2-7d0011444fbd
 title: 'IPropertySetter 介面 (Qedit .h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: 8f8aaadea2f0fb63287775294a7c61f01b3730df
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c6dc32c25c85893eeb2e9872bcf67be974489ec82fdd4d09c19a2341f6867ade
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990684"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119831028"
 ---
 # <a name="ipropertysetter-interface"></a>IPropertySetter 介面
 
@@ -28,7 +28,7 @@ ms.locfileid: "106990684"
 
  
 
-`IPropertySetter`介面會設定[DirectShow 編輯服務](directshow-editing-services.md) (DES) 效果或轉換的屬性。
+`IPropertySetter`介面會在[DirectShow 編輯服務](directshow-editing-services.md) (DES) 的效果或轉換上設定屬性。
 
 若要使用這個介面，請 (CLSID PropertySetter) 建立屬性 setter 物件的實例 \_ ，然後呼叫 [**IAMTimelineObj：： SetPropertySetter**](iamtimelineobj-setpropertysetter.md) 方法，將它與效果或轉換產生關聯。 如需詳細資訊，請參閱 [使用效果和轉換](working-with-effects-and-transitions.md)。
 
@@ -71,7 +71,7 @@ ms.locfileid: "106990684"
  
 
 > [!Note]  
-> 若要取得 Qedit，請下載 [適用于 Windows Vista 和 .NET Framework 3.0 的 Microsoft Windows SDK 更新](https://msdn.microsoft.com/windowsvista/bb980924.aspx)。 在 Windows 7 和 .NET Framework 3.5 Service Pack 1 的 Microsoft Windows SDK 中無法使用 Qedit。
+> 若要取得 Qedit，請下載[Windows Vista 和 .NET Framework 3.0 的 Microsoft Windows SDK 更新](https://msdn.microsoft.com/windowsvista/bb980924.aspx)。 Windows 7 和 .NET Framework 3.5 Service Pack 1 的 Microsoft Windows SDK 中無法使用 Qedit。
 
  
 

@@ -4,12 +4,12 @@ ms.assetid: 371f91b9-d60b-477e-8f8c-a7fb01121aed
 title: " (美國的 NTSC) "
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3ae84c864ec1b22f375ceb7e8059edbcec815df7
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: fa44b17d571df33405b9d0e4418c531d017329a6e15a39fbc3d558f4b2873225
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104467448"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119830958"
 ---
 # <a name="ntsc-united-states"></a> (美國的 NTSC) 
 

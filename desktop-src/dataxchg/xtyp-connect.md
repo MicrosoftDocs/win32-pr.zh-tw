@@ -3,7 +3,7 @@ title: 'XTYP_CONNECT 交易 (Ddeml .h) '
 description: 用戶端會使用 XTYP \_ CONNECT 交易來建立交談。
 ms.assetid: 74f43b10-f7ac-4370-9caa-7b9ddf3413ed
 keywords:
-- XTYP_CONNECT 交易資料交換
+- XTYP_CONNECT 交易資料 Exchange
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e2268994f1be000373691d6c25dbb7220d3e109e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c1ff7a7a79d8b61deef6b5f19b829e5c8dd8f4603c5f60c3b47d0a84b0603736
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104076"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119793418"
 ---
 # <a name="xtyp_connect-transaction"></a>XTYP \_ CONNECT 交易
 
-用戶端會使用 **XTYP \_ CONNECT** 交易來建立交談。 當用戶端指定伺服器支援 (的服務名稱，以及在 [**DdeConnect**](/windows/desktop/api/Ddeml/nf-ddeml-ddeconnect)函式的呼叫中) 非 **Null** 的主題名稱時，動態資料交換 (DDE) Server 回呼函式 [*DdeCallback*](/windows/win32/api/ddeml/nc-ddeml-pfncallback)會接收此交易。
+用戶端會使用 **XTYP \_ CONNECT** 交易來建立交談。 當用戶端指定伺服器支援 (的服務名稱，以及在 [**DdeConnect**](/windows/desktop/api/Ddeml/nf-ddeml-ddeconnect)函式的呼叫中) 非 **Null** 的主題名稱時，動態資料交換 (DDE) server 回呼函式 [*DdeCallback*](/windows/win32/api/ddeml/nc-ddeml-pfncallback)會接收此交易。
 
 
 ```C++
@@ -112,7 +112,7 @@ ms.locfileid: "104104076"
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                             |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                   |
-| 標頭<br/>                   | <dl> <dt>Ddeml (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Ddeml (包含 Windows .h) </dt> </dl> |
 
 
 

@@ -4,16 +4,16 @@ ms.assetid: e815d57f-25e5-4a71-8f40-e7abec0db236
 title: PSI 剖析器篩選範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1099375d2dbabf9ee6c8e891b0a1780bebbb599d
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: de960d36900a417212cdd34ac795b504d4ad073ccd61619ffad110d5fe125fad
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104571397"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119747920"
 ---
 # <a name="psi-parser-filter-sample"></a>PSI 剖析器篩選範例
 
-## <a name="description"></a>Description
+## <a name="description"></a>描述
 
 PSI 剖析器篩選器會接收從 MPEG-2 傳輸串流 (PSI) 的程式特定資訊，並從程式關聯資料表中解壓縮程式資訊 (PAT) 和程式對應表 (PMT) 。 此資訊可讓應用程式設定 MPEG-2 信號信號。 篩選準則支援自訂介面 [**IMpeg2PsiParser**](impeg2psiparser.md)，可用於抓取 PSI 資訊。
 
@@ -25,10 +25,10 @@ PSI 剖析器篩選器會接收從 MPEG-2 傳輸串流 (PSI) 的程式特定資�
 
 1.  啟動 GraphEdit。
 2.  插入 MPEG 2 傳輸來源。 MPEG-2 攝影機和 D VHS 裝置在影片捕獲來源類別中會顯示為「Microsoft AV/C 磁帶次級裝置」。
-3.  將來源篩選連接至 MPEG-2 信號篩選器。
+3.  連線來源篩選器加入至 MPEG-2 信號碼篩選器。
 4.  使用 demux 上的屬性頁面，建立具有 "MPEG-2 PSI" 媒體類型的輸出圖釘。 此 pin 會提供 PAT 和 PMT 區段。
 5.  使用 [demux] 屬性頁可將 PID 0x00 對應到輸出圖釘。 將內容類型設定為 [MPEG2 PSI 區段]。
-6.  將 demux 輸出圖釘連接到 PSI 剖析器，如下圖所示。
+6.  連線 demux 輸出釘選至 PSI 剖析器，如下圖所示。
 
     ![psi 剖析器篩選圖形](images/psi-parser.png)
 
@@ -125,7 +125,7 @@ PID 和 stream 型別可讓您設定新的輸出針腳（以 MPEG-2 信號的輸
 
 ## <a name="downloading-the-sample"></a>下載範例
 
-若要下載 DirectShow SDK 範例，請安裝最新版本的 [Windows SDK](https://msdn.microsoft.com/windowsvista/bb980924.aspx)。
+若要下載 DirectShow SDK 範例，請安裝最新版本的[Windows SDK](https://msdn.microsoft.com/windowsvista/bb980924.aspx)。
 
 此範例安裝在下列路徑下： *\[ SDK \] 根* \\ 範例 \\ 多媒體 \\ DirectShow \\ 篩選 \\ PSIParser。
 
@@ -133,7 +133,7 @@ PID 和 stream 型別可讓您設定新的輸出針腳（以 MPEG-2 信號的輸
 
 <dl> <dt>
 
-[DirectShow 範例](directshow-samples.md)
+[DirectShow樣品](directshow-samples.md)
 </dt> <dt>
 
 [**IMpeg2PsiParser 介面**](impeg2psiparser.md)

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 3d012344a5dfbc1bc17780cb4ab9a53820fe34f2
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: e5e38937628bc36f49059bcb3e798a6d13e538c572c1c5fb6ef20865ed05385d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104323255"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119747668"
 ---
 # <a name="id3dxprtenginegetadaptedmesh-method"></a>ID3DXPRTEngine：： GetAdaptedMesh 方法
 

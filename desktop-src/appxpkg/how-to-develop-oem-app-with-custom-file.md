@@ -4,12 +4,12 @@ description: 瞭解如何開發使用自訂檔案的應用程式，以將資訊�
 ms.assetid: BCDB4B13-3644-44E4-9A70-04D8E90500EE
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4cf60364138a80317e6db8ac4c5d028c36ff540f
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 4780e930d057c325038c94dc86fc375c70bdb1cc8dca34ac6169436bc0f0e323
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "106966235"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119855318"
 ---
 # <a name="how-to-develop-an-oem-app-that-uses-a-custom-file"></a>如何開發使用自訂檔案的 OEM 應用程式
 
@@ -40,11 +40,11 @@ ms.locfileid: "106966235"
 > [!Note]  
 > 應用程式無法修改自訂資料檔案。 這是唯讀的資源。
 
- 
+ 
 
 ### <a name="step-2-access-the-custom-data-file-for-an-app"></a>步驟2：存取應用程式的自訂資料檔案
 
-您可以從程式碼使用 Windows Api 取得目前封裝的資訊，以存取應用程式的自訂資料檔案。 例如：
+您可以使用 Windows api 取得目前封裝的資訊，從程式碼存取應用程式的自訂資料檔。 例如：
 
 ``` syntax
 Windows.ApplicationModel.Package.current.installedLocation.getFileAsync(
@@ -62,6 +62,6 @@ Windows.ApplicationModel.Package.current.installedLocation.getFileAsync(
 [快速入門：查詢應用程式套件資訊清單資訊](how-to-query-package-identity-information.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

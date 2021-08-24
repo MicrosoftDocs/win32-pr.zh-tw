@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 54c6dab41c122456076299df22bf90d886c905cc
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6e0b8903f83c372aa85bd1c41fb12ce9065798d79dc4dbd940df926a395f8bc9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106999285"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119871798"
 ---
 # <a name="cdynamicoutputpin-class"></a>CDynamicOutputPin 類別
 
@@ -31,9 +31,9 @@ ms.locfileid: "106999285"
 
 -   動態重新連接：當篩選仍在作用中時，pin 可以中斷連接並重新連接 (已暫停或正在執行) 。
 -   動態格式變更：當篩選仍在作用中時，pin 可以協商新的媒體類型，而不需要重新連接。
--   流程式控制制：擁有篩選 (或應用程式) 可以封鎖來自 pin 的資料流程，而不需要停止篩選。
+-   Flow 控制項：擁有篩選 (或應用程式) 可以封鎖來自 pin 的資料流程，而不需要停止篩選。
 
-如需詳細資訊，請參閱 [動態圖形建築物](dynamic-graph-building.md)。
+如需詳細資訊，請參閱[動態 Graph 建立](dynamic-graph-building.md)。
 
 Pin 有三個可能的狀態：已封鎖、已解除封鎖和擱置。 在 *暫* 止狀態中，pin 正在等候某些作業在另一個執行緒上完成，然後再切換到 [已封鎖] 狀態。 當 pin 遭到封鎖時，篩選器無法透過 pin 傳遞資料，或變更 pin 的連接。
 
@@ -62,7 +62,7 @@ Pin 有三個可能的狀態：已封鎖、已解除封鎖和擱置。 在 *暫*
 
 
 
-| 受保護的成員變數                                                                      | Description                                                                                                                   |
+| 受保護的成員變數                                                                      | 描述                                                                                                                   |
 |-------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
 | [**m \_ BlockStateLock**](cdynamicoutputpin-m-blockstatelock.md)                                 | 保護封鎖狀態的重要區段。                                                                            |
 | [**m \_ hUnblockOutputPinEvent**](cdynamicoutputpin-m-hunblockoutputpinevent.md)                 | 未封鎖 pin 時發出信號的事件。                                                                           |
@@ -73,13 +73,13 @@ Pin 有三個可能的狀態：已封鎖、已解除封鎖和擱置。 在 *暫*
 | [**m \_ hStopEvent**](cdynamicoutputpin-m-hstopevent.md)                                         | 當篩選準則停止或釘選清除資料時，所發出的事件。                                                         |
 | [**m \_ pGraphConfig**](cdynamicoutputpin-m-pgraphconfig.md)                                     | [**IGraphConfig**](/windows/desktop/api/Strmif/nn-strmif-igraphconfig)介面的指標，可執行動態重新連結。                           |
 | [**m \_ bPinUsesReadOnlyAllocator**](cdynamicoutputpin-m-bpinusesreadonlyallocator.md)           | 旗標，指定來自釘選配置器的樣本是否為唯讀。                                                   |
-| 保護方法                                                                               | Description                                                                                                                   |
+| 保護方法                                                                               | 描述                                                                                                                   |
 | [**SynchronousBlockOutputPin**](cdynamicoutputpin-synchronousblockoutputpin.md)                | 封鎖釘選;在封鎖 pin 之前，不會返回。                                                                     |
 | [**AsynchronousBlockOutputPin**](cdynamicoutputpin-asynchronousblockoutputpin.md)              | 封鎖釘選;在封鎖 pin 之前可能會傳回。                                                                       |
 | [**UnblockOutputPin**](cdynamicoutputpin-unblockoutputpin.md)                                  | 解除封鎖 pin。                                                                                                             |
 | [**BlockOutputPin**](cdynamicoutputpin-blockoutputpin.md)                                      | 封鎖 pin。                                                                                                               |
 | [**WaitEvent**](cdynamicoutputpin-waitevent.md)                                                | 等候指定的事件收到信號。                                                                                  |
-| 公用方法                                                                                  | Description                                                                                                                   |
+| 公用方法                                                                                  | 描述                                                                                                                   |
 | [**CDynamicOutputPin**](cdynamicoutputpin-cdynamicoutputpin.md)                                | 函式方法。                                                                                                           |
 | [**~ CDynamicOutputPin**](cdynamicoutputpin--cdynamicoutputpin.md)                              | 函式方法。                                                                                                            |
 | [**SetConfigInfo**](cdynamicoutputpin-setconfiginfo.md)                                        | 指定 [**IGraphConfig**](/windows/desktop/api/Strmif/nn-strmif-igraphconfig) 指標和停止事件。                                                |
@@ -94,9 +94,9 @@ Pin 有三個可能的狀態：已封鎖、已解除封鎖和擱置。 在 *暫*
 | [**ChangeOutputFormat**](cdynamicoutputpin-changeoutputformat.md)                              | 動態變更連接的媒體類型，並提供新的區段資訊。                                  |
 | [**ChangeMediaType**](cdynamicoutputpin-changemediatype.md)                                    | 動態變更連接的媒體類型。                                                                        |
 | [**DynamicReconnect**](cdynamicoutputpin-dynamicreconnect.md)                                  | 以新的媒體類型執行動態重新連接。                                                                        |
-| IPin 方法                                                                                    | Description                                                                                                                   |
+| IPin 方法                                                                                    | 描述                                                                                                                   |
 | [**中斷連線**](cdynamicoutputpin-disconnect.md)                                              | 中斷目前的 pin 連接。                                                                                            |
-| IPinFlowControl 方法                                                                         | Description                                                                                                                   |
+| IPinFlowControl 方法                                                                         | 描述                                                                                                                   |
 | [**封鎖**](cdynamicoutputpin-block.md)                                                        | 封鎖或解除封鎖來自 pin 的資料流程程。                                                                             |
 
 

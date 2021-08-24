@@ -4,12 +4,12 @@ ms.assetid: b5246dfe-e6ee-4b91-bfe3-2ec8b8723938
 title: 提取模型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8dd4becd54bffb39acf30b6d29fca45e6a117989
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 9832f719e21d85fd09fbf92303e404290d7d99efd6953ace398f77167d0263a1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104509997"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119747888"
 ---
 # <a name="pull-model"></a>提取模型
 
@@ -31,7 +31,7 @@ ms.locfileid: "104509997"
 
 <dl> <dt>
 
-[篩選圖形中的資料流程](data-flow-in-the-filter-graph.md)
+[篩選 Graph 中的資料 Flow](data-flow-in-the-filter-graph.md)
 </dt> </dl>
 
  

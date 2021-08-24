@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: eed12817d76a8a63bf70c7dff2bea5835a46b762
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 5e45cb071d93832aa9d07025afa1fdac09b7d88a5b9c89afd1630a637bddca87
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104312327"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119704808"
 ---
 # <a name="wmprovider"></a>WM/提供者
 
@@ -41,7 +41,7 @@ g \_ wszWMProvider
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>另請參閱
 
@@ -50,9 +50,9 @@ g \_ wszWMProvider
 [**屬性清單**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

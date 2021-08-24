@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 9a067494d6236b824ef8fbbcb583ad50503297b5
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ee7b5464ff2620dbc0247b006dc323232131de3936d2c5e56f2232b67c00ba5c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990572"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119832298"
 ---
 # <a name="cmediasamplegetmediatype-method"></a>CMediaSample. GetMediaType 方法
 
@@ -55,7 +55,7 @@ HRESULT GetMediaType(
 
 
 
-| 傳回碼                                                                                   | Description                                                         |
+| 傳回碼                                                                                   | 描述                                                         |
 |-----------------------------------------------------------------------------------------------|---------------------------------------------------------------------|
 | <dl> <dt>**S \_ FALSE**</dt> </dl>       | 媒體類型尚未從上一個範例變更。<br/> |
 | <dl> <dt>**S \_ 確定**</dt> </dl>          | 成功。<br/>                                                 |

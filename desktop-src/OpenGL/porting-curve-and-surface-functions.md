@@ -15,12 +15,12 @@ keywords:
 - 介面修補程式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3caedc89697d1c83325a00b3dc1cb55c34612e64
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2ed76109bb0067996c26acf48bff7a58773220ad1eb87e13d617bddedeb6d62a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104300292"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119777038"
 ---
 # <a name="porting-curve-and-surface-functions"></a>移植曲線和介面函式
 
@@ -37,9 +37,9 @@ OpenGL 不支援對曲線和 surface 修補程式的鳶尾花 GL 函數進行對
 -   [移植修剪曲線](porting-trimming-curves.md)
 -   [移植 NURBS 表面](porting-nurbs-surfaces.md)
 
- 
+ 
 
- 
+ 
 
 
 

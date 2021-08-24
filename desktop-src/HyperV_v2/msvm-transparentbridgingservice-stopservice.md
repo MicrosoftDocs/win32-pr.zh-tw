@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 17bfea47a1bbd467e32e9e932587da8506276ee1
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 1428a74b02df7774ff05cbfbc9a46de68b3211d58b5a69fc654b74c9c209c4e9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108111106"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119746358"
 ---
 # <a name="stopservice-method-of-the-msvm_transparentbridgingservice-class"></a>Msvm TransparentBridgingService 類別的 StopService 方法 \_
 

@@ -1,19 +1,19 @@
 ---
 title: 'Caption 屬性 (Command 物件) '
-description: 瞭解 Command 物件的 Caption 屬性。 Microsoft Agent 已于 Windows 7 淘汰。
+description: 瞭解 Command 物件的 Caption 屬性。 Microsoft 代理程式已于 Windows 7 淘汰。
 ms.assetid: 8dcdf3e0-3111-438b-9d39-ba9a36437ad2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a0eb41def3b183fe4185b9c66a9ca5cd172372fb
-ms.sourcegitcommit: d0eb44d0a95f5e5efbfec3d3e9c143f5cba25bc3
+ms.openlocfilehash: be282591a6ed59993239bfd37baa639c4c2572ba54db6d1e46118ed98e317fda
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "112262550"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119726158"
 ---
 # <a name="caption-property-command-object"></a>Caption 屬性 (Command 物件) 
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 <dl> <dt>
 

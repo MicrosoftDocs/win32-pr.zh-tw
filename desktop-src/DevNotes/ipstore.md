@@ -13,18 +13,18 @@ api_type:
 - COM
 api_location:
 - Pstorec.dll
-ms.openlocfilehash: 4193e21255445c397bfab6439c4890789b8c5562
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d6404d182a0c46de222b64892caa8b0e853610c980bfb79d286f781277493cba
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106992792"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119749704"
 ---
 # <a name="ipstore-interface"></a>IPStore 介面
 
-\[受保護的存放裝置 (Pstore) 可用於 Windows Server 2003 和 Windows XP。 它僅適用于 Windows Server 2008 和 Windows Vista 中的唯讀操作，但在後續版本中可能無法使用。 Pstore 會使用較舊的資料保護執行。 強烈建議您使用 [**CryptProtectData**](/windows/win32/api/dpapi/nf-dpapi-cryptprotectdata) 和 [**CryptUnprotectData**](/windows/win32/api/dpapi/nf-dpapi-cryptunprotectdata) 函數所提供的更強資料保護。\]
+\[受保護的儲存體 (Pstore) 可在 Windows 伺服器2003和 Windows XP 中使用。 它僅適用于 Windows Server 2008 和 Windows Vista 中的唯讀作業，但在後續版本中可能無法使用。 Pstore 會使用較舊的資料保護執行。 強烈建議您使用 [**CryptProtectData**](/windows/win32/api/dpapi/nf-dpapi-cryptprotectdata) 和 [**CryptUnprotectData**](/windows/win32/api/dpapi/nf-dpapi-cryptunprotectdata) 函數所提供的更強資料保護。\]
 
-\[這個介面可能會在未來的 Windows 版本中變更或無法使用。\]
+\[此介面可能會在未來的 Windows 版本中變更或無法使用。\]
 
 提供 COM 標準方法來管理受保護的儲存資料項目。 [**PStoreCreateInstance**](pstorecreateinstance.md)方法會傳回這個介面的指標。
 

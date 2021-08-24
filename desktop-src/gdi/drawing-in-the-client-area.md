@@ -4,12 +4,12 @@ ms.assetid: ed995bfd-a791-4d73-9a0b-daf65a9f7709
 title: 在工作區中繪圖
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e1e14c8492a11a7ad9764416b2453cea3264fbf9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e5d01331ae60a7814602f6c10c0d9109ae665da39aa140223e31ac03303048b7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848558"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119832018"
 ---
 # <a name="drawing-in-the-client-area"></a>在工作區中繪圖
 

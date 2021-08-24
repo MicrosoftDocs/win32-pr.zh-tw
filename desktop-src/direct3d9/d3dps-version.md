@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3d9types.h
-ms.openlocfilehash: c3f30d673145ec9dfe38bd8e2a636ac04c9a195a
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: a3958cfaa3afe06e22015a28e8e1ebfd8799c01e89772eb9794dd1249cc0df9d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104322996"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119750898"
 ---
 # <a name="d3dps_version-macro"></a>D3DPS \_ 版本宏
 

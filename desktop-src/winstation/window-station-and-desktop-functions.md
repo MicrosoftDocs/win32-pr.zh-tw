@@ -4,12 +4,12 @@ description: 應用程式可以搭配使用下列功能與視窗站物件。
 ms.assetid: 6214c28f-1035-446c-8c79-5d1dd638af2a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6665f52de1f7f57930105edb0063c4512e375ac3
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: ccda67841508081444f7025e457c9a778195b99d0ab67ebb585362d7a3b22cd0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103682371"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119810398"
 ---
 # <a name="window-station-and-desktop-functions"></a>視窗工作站和桌上型電腦功能
 
@@ -32,7 +32,7 @@ ms.locfileid: "103682371"
 
 
 
- 
+ 
 
 應用程式可以搭配使用下列功能與 [桌面](desktops.md) 物件。
 
@@ -57,8 +57,8 @@ ms.locfileid: "103682371"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

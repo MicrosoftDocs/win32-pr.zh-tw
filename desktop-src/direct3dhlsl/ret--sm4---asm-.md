@@ -4,12 +4,12 @@ description: Return 語句。
 ms.assetid: 1B690036-99C5-441D-9DD3-E09D43E48AFF
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d834cd9f32d6e38f40666ab235f705c0fc80513f
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: f7482c2c7351944824e2590f5c87dac63bde8f639a5ad42dffdfc71e4134603b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "103679120"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119853748"
 ---
 # <a name="ret-sm4---asm"></a>ret (sm4-asm) 
 
@@ -22,7 +22,7 @@ Return 語句。
 
 
 
- 
+ 
 
 ## <a name="remarks"></a>備註
 
@@ -57,7 +57,7 @@ Return 語句。
 
 
 
- 
+ 
 
 ## <a name="minimum-shader-model"></a>最小著色器模型
 
@@ -70,13 +70,13 @@ Return 語句。
 | [著色器模型5](d3d11-graphics-reference-sm5.md)        | 是       |
 | [著色器模型4。1](dx-graphics-hlsl-sm4.md)              | 是       |
 | [著色器模型4](dx-graphics-hlsl-sm4.md)                | 是       |
-| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 不可以        |
-| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 不可以        |
-| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 不可以        |
+| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 否        |
+| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 否        |
+| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 否        |
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -85,9 +85,9 @@ Return 語句。
 [著色器模型4元件 (DirectX HLSL) ](dx-graphics-hlsl-sm4-asm.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

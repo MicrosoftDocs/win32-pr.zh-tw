@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 6421cff326f4c33f0c77ae47d00e17c79c971443
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 5053a4fd488ed38a637b4296f94caf20887f3ed924ae6d11b8f6a242669eccad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847374"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119853928"
 ---
 # <a name="transientsubscriptions-collection"></a>TransientSubscriptions 集合
 
@@ -41,7 +41,7 @@ ms.locfileid: "103847374"
 
 您可以從下列集合流覽至這個集合：
 
--   [**根**](root.md)
+-   [**Root**](root.md)
 
 ## <a name="properties"></a>屬性
 
@@ -62,7 +62,7 @@ ms.locfileid: "103847374"
 -   [SubscriberPartitionID](#subscriberpartitionid)
 -   [使用者名稱](#username)
 
-### <a name="description"></a>Description
+### <a name="description"></a>描述
 
 
 
@@ -78,7 +78,7 @@ ms.locfileid: "103847374"
 
  
 
-### <a name="enabled"></a>已啟用
+### <a name="enabled"></a>啟用
 
 
 
@@ -87,7 +87,7 @@ ms.locfileid: "103847374"
 | 描述    | 指出目前是否已啟用訂用帳戶。 |
 | Access         | 讀寫                                                |
 | 類型           | Bool                                                     |
-| 預設        | 對                                                     |
+| 預設        | 是                                                     |
 | 最小系統 | Windows 2000                                             |
 
 
@@ -190,7 +190,7 @@ ms.locfileid: "103847374"
 
  
 
-### <a name="name"></a>Name
+### <a name="name"></a>名稱
 
 
 
@@ -270,7 +270,7 @@ ms.locfileid: "103847374"
 
  
 
-### <a name="username"></a>UserName
+### <a name="username"></a>使用者名稱
 
 
 

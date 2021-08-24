@@ -17,12 +17,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: f3b6e8205eb60cbd2ca645cd484e41f8f242619d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: bd54255d87ee3f15f87d692e06b7a503e773634ab4ec30c3f388388233aab2b9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104317224"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119793407"
 ---
 # <a name="ibackgroundcopyjobsetnotifyinterface-method"></a>IBackgroundCopyJob：： SetNotifyInterface 方法
 
@@ -56,7 +56,7 @@ HRESULT SetNotifyInterface(
 
 
 
-| 傳回碼                                                                              | Description                                                     |
+| 傳回碼                                                                              | 描述                                                     |
 |------------------------------------------------------------------------------------------|-----------------------------------------------------------------|
 | <dl> <dt>S_OK * * * *</dt> </dl> | 已成功設定通知介面指標。<br/> |
 
@@ -79,9 +79,9 @@ HRESULT SetNotifyInterface(
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 10， \[ 僅限1709版桌面應用程式\]<br/>                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server，版本 1709 \[ 桌面應用程式\]<br/>                                       |
-| 標頭<br/>                   | <dl> <dt>>deliveryoptimization。h</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>>deliveryoptimization .idl</dt> </dl> |
+| 最低支援的伺服器<br/> | WindowsServer， \[ 僅限1709版桌面應用程式\]<br/>                                       |
+| 標頭<br/>                   | <dl> <dt>>Deliveryoptimization。h</dt> </dl>   |
+| IDL<br/>                      | <dl> <dt>>deliveryoptimization .idl</dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>Dosvc .lib</dt> </dl>                |
 | DLL<br/>                      | <dl> <dt>Dosvc.dll</dt> </dl>                |
 | IID<br/>                      | IID_IBackgroundCopyJob 定義為37668D37-507E-4160-9316-26306D150B12<br/>               |

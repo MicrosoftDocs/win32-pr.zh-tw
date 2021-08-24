@@ -1,17 +1,17 @@
 ---
-title: Windows 封裝管理員 COM API
+title: Windows 封裝管理員COM API
 description: 適用于 Windows 10，並在行動裝置系列中實行。 如需 Windows 封裝管理員的詳細資訊，請與您的 Microsoft 帳戶小組代表合作。
 ms.assetid: 4863EC42-413D-46E3-AE61-E29006708E39
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 82de491b2ceb7da7029a8db7fdf3e436a92d50a5
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3dd0faf1d8432ec36a3ce569589fcb596bb57cb553be0e09d5adc004ff543821
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106976316"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119855218"
 ---
-# <a name="windows-package-manager-com-api"></a>Windows 封裝管理員 COM API
+# <a name="windows-package-manager-com-api"></a>Windows 封裝管理員COM API
 
 適用于 Windows 10，並在行動裝置系列中實行。 如需 Windows 封裝管理員的詳細資訊，請與您的 Microsoft 帳戶小組代表合作。
 
@@ -19,7 +19,7 @@ ms.locfileid: "106976316"
 >
 > 所有 Windows 應用程式都無法使用此 API。 除非您的開發人員帳戶是由 Microsoft 特別布建，否則這些 Api 的呼叫將會在執行時間失敗。
 
- 
+ 
 
 API 包含下列 coclass。
 
@@ -53,9 +53,9 @@ PMSvc 會執行下列介面。
 -   IPMBackgroundServiceAgentInfoEnumerator. IID： {18EB2072-AB56-43B3-87-2C-A-AF-B7-A6-B3-91}
 -   IPMBackgroundWorkerInfoEnumerator. IID： {87F479F8-90D8-4EC7-92-B9-72-78-7E-2F-63-6B}
 
- 
+ 
 
- 
+ 
 
 
 

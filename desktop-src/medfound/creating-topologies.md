@@ -4,12 +4,12 @@ ms.assetid: afd1e646-9bb6-4265-a225-6aaaf1a7bb2a
 title: 建立拓撲
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a9ec738c82ea2b85bcae7d4c05627b81ad939db
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e4048200055066a601f9044ff109f173cb00fc4449a71ea1331b29c8be1a59b8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104386042"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119777618"
 ---
 # <a name="creating-topologies"></a>建立拓撲
 
@@ -33,7 +33,7 @@ ms.locfileid: "104386042"
 
 4.  藉由呼叫 [**IMFTopology：： AddNode**](/windows/desktop/api/mfidl/nf-mfidl-imftopology-addnode)，將每個節點新增至拓撲。
 
-5.  連接節點。 若要連接節點，請在上游節點上呼叫 [**IMFTopologyNode：： ConnectOutput**](/windows/desktop/api/mfidl/nf-mfidl-imftopologynode-connectoutput) ，並傳入下游節點的指標。
+5.  連線節點。 若要連接節點，請在上游節點上呼叫 [**IMFTopologyNode：： ConnectOutput**](/windows/desktop/api/mfidl/nf-mfidl-imftopologynode-connectoutput) ，並傳入下游節點的指標。
 
 下列主題提供每個節點類型的特定步驟。
 

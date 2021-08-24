@@ -4,12 +4,12 @@ ms.assetid: b409ff15-c5f0-4fe7-8251-9e7bf3295a6d
 title: 設定影片捕獲裝置
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e3389b06caa6009a4acb4e47220fda98f832d3e
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 94504597ad964ea5fa7595261856584d7b6a5825e8fe2e70662505b28d242859
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104510330"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119871778"
 ---
 # <a name="configuring-a-video-capture-device"></a>設定影片捕獲裝置
 

@@ -1,17 +1,17 @@
 ---
-description: 從外部進程載入圖形
+description: 從外部進程載入 Graph
 ms.assetid: 1c657c7f-46d7-4feb-88a7-4a3227c9070b
-title: 從外部進程載入圖形
+title: 從外部進程載入 Graph
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eac42db3a87b00b1cb8f3a9ae5297215ae9bd3fa
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 1e92fdaebb9ce3cb6615153daf66a8991477bf76e16ac3298e8e8b2fb59d74b4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104560161"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119831051"
 ---
-# <a name="loading-a-graph-from-an-external-process"></a>從外部進程載入圖形
+# <a name="loading-a-graph-from-an-external-process"></a>從外部進程載入 Graph
 
 GraphEdit 可以載入外部進程所建立的篩選圖形。 使用這項功能，您可以查看應用程式所建立的篩選圖形，而且您的應用程式中只會有少量的額外程式碼。
 
@@ -21,7 +21,7 @@ GraphEdit 可以載入外部進程所建立的篩選圖形。 使用這項功能
  
 
 > [!Note]  
-> 從 Windows Vista 開始，您必須註冊 proppage.dll 以啟用這項功能。 Proppage.dll 包含在 Windows SDK 中。
+> 從 Windows Vista 開始，您必須註冊 proppage.dll 才能啟用這項功能。 Proppage.dll 包含在 Windows SDK 中。
 
  
 
@@ -34,7 +34,7 @@ GraphEdit 可以載入外部進程所建立的篩選圖形。 使用這項功能
 
 
 
-其中 *X* 是篩選圖形管理員的十六進位位址，而 *Y* 是處理序識別碼，也是十六進位。
+其中 *X* 是篩選 Graph 管理員的十六進位位址，而 *Y* 是處理序識別碼，也是十六進位。
 
 當您的應用程式第一次建立篩選圖形時，請呼叫下列函數：
 
@@ -116,14 +116,14 @@ pGraph->Release();
 
 
 
-若要在 GraphEdit 中查看篩選圖形，請同時執行您的應用程式和 GraphEdit。 在 **[GraphEdit 檔案** ] 功能表中，按一下 [連線 **到遠端圖形** ]。在 [ **連接到圖形** ] 對話方塊中，選取應用程式的處理序識別碼 (pid) ，然後按一下 **[確定]**。 GraphEdit 會載入篩選圖形並顯示它。 請勿在此圖形上使用任何其他 GraphEdit 功能，這可能會導致非預期的結果。 例如，不要新增或移除篩選，或停止和啟動圖形。 結束您的應用程式之前，請關閉 GraphEdit。
+若要在 GraphEdit 中查看篩選圖形，請同時執行您的應用程式和 GraphEdit。 在 **[GraphEdit 檔案**] 功能表中，按一下 [**連線至遠端 Graph** .。。在 [**要 Graph 的連線**] 對話方塊中，選取應用程式的處理序識別碼 (pid) ，然後按一下 **[確定]**。 GraphEdit 會載入篩選圖形並顯示它。 請勿在此圖形上使用任何其他 GraphEdit 功能，這可能會導致非預期的結果。 例如，不要新增或移除篩選，或停止和啟動圖形。 結束您的應用程式之前，請關閉 GraphEdit。
 
 > [!Note]  
 > 當您的應用程式結束時，可能會遇到各種判斷提示。 您可以忽略這些錯誤。
 
  
 
-下圖顯示 [ **連接到圖形** ] 對話方塊。
+下圖顯示 [**要 Graph 的連線**] 對話方塊。
 
 ![連接至圖形](images/gedit-spy.png)
 
@@ -131,7 +131,7 @@ pGraph->Release();
 
 這項功能僅適用于應用程式的 debug 組建，而非零售組建，因為它可讓其他應用程式查看或控制篩選圖形。
 
-## <a name="connecting-to-a-remote-graph-from-the-command-line"></a>從命令列連接至遠端圖形
+## <a name="connecting-to-a-remote-graph-from-the-command-line"></a>從命令列連接至遠端 Graph
 
 GraphEdit 支援命令列選項，可在啟動時自動載入遠端圖形。 語法為：
 
@@ -148,7 +148,7 @@ GraphEdt -a moniker
 
 <dl> <dt>
 
-[使用 GraphEdit 模擬圖表建立](simulating-graph-building-with-graphedit.md)
+[使用 GraphEdit 模擬 Graph 建立](simulating-graph-building-with-graphedit.md)
 </dt> </dl>
 
  

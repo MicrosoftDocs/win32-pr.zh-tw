@@ -4,12 +4,12 @@ ms.assetid: 77fedb80-b664-417d-879b-846e74cc4c23
 title: 'UiCreatePatchPackage (Patchwiz.dll) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1bcda07d74ffc32c76809037d9ac90cf11ea25c4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: be2802eb92d9df42a683053198ab14bbe7894fa512c63f25e1cd4afe060ea74c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847682"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119810498"
 ---
 # <a name="uicreatepatchpackage-patchwizdll"></a>UiCreatePatchPackage (Patchwiz.dll) 
 
@@ -78,7 +78,7 @@ UINT UiCreatePatchPackage(
 
 ## <a name="remarks"></a>備註
 
-如需撰寫 pcp 檔案，以及使用 UiCreatePatchPackage 來產生 Windows Installer 修補程式套件的範例，請參閱一節 [小型更新修補範例](a-small-update-patching-example.md)。
+如需撰寫 pcp 檔案，以及使用 UiCreatePatchPackage 來產生 Windows Installer 修補程式套件的範例，請參閱一節[小型更新修補範例](a-small-update-patching-example.md)。
 
 建立修補程式需要未壓縮的安裝映射，例如從 CD-ROM 的系統管理映射或未壓縮的安裝映射。 UiCreatePatchPackage 不會為封包中的檔案產生二進位修補程式。
 

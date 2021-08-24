@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 4f9d4805a1d516a5d8980fcd8209fd6733fe86c4
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: d5521da56804156485fcacb37b43cbf27d8d4b3659cbced918eaea2c12b308ff
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104022609"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119855368"
 ---
 # <a name="ddx_coarse-function"></a>ddx \_ 粗略函數
 
@@ -28,7 +28,7 @@ ms.locfileid: "104022609"
 
 ``` syntax
 float ddx_coarse(
-  in float value
+  in float value
 );
 ```
 
@@ -73,19 +73,19 @@ float4 ddx_coarse(float4 value);
 
 
 
- 
+ 
 
 下列著色器類型支援此函數：
 
 
 
-| 頂點 | 船體 | 網域 | 幾何 | 像素 | 計算 |
+| 頂點 | 船體 | 網域 | 幾何形狀 | 像素 | 計算 |
 |--------|------|--------|----------|-------|---------|
 |        |      |        |          | x     |         |
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>另請參閱
 
@@ -97,9 +97,9 @@ float4 ddx_coarse(float4 value);
 [著色器模型5](d3d11-graphics-reference-sm5.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

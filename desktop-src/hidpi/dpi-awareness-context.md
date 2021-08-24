@@ -4,12 +4,12 @@ description: 識別視窗的感知內容。
 ms.assetid: BFD54A9F-642B-4A3A-BBB9-F3A80779251D
 ms.topic: article
 ms.date: 10/04/2018
-ms.openlocfilehash: 1663fad828a2fb29aa0d65ef58ae79616f64edcd
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 25e270f59af32b33fdb5ad3f511b693b3eebad71407d48b80a72aff5996edf14
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104317276"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119727178"
 ---
 # <a name="dpi_awareness_context-handle"></a>DPI \_ 感知 \_ 內容控制碼
 

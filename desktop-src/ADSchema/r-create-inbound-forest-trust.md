@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: be400dd2a93f9c9e238cd0106d9124b1ad80d80c
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 2b454e90d13e747157cb4eac11c0571df034778d335c9c89c1d566767f4c9201
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104108260"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119702868"
 ---
 # <a name="create-inbound-forest-trust-extended-right"></a>建立-內建樹系信任擴充許可權
 

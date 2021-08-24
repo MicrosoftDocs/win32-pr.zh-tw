@@ -4,12 +4,12 @@ description: 判斷這個 DXCore 介面卡物件是否支援指定的介面卡�
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 06/20/2019
-ms.openlocfilehash: 9824595326f9e81bfa21ab198a3f5b2e6eae74bc
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 9dda05ca9dc1d3b7a7a84792c7ac122bb64144d5fdba3ad630be1a3f4d9ddf24
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104375604"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119787078"
 ---
 # <a name="idxcoreadapterisattributesupported-method"></a>IDXCoreAdapter：： IsAttributeSupported 方法
 
@@ -34,7 +34,7 @@ virtual bool STDMETHODCALLTYPE IsAttributeSupported(
 
 類型： **bool**
 
- `true`   如果這個 DXCore 介面卡物件支援指定的介面卡屬性，則傳回。 否則，會傳回  `false` 。
+`true`如果這個 DXCore 介面卡物件支援指定的介面卡屬性，則傳回。 否則傳回 `false`。
 
 ## <a name="see-also"></a>另請參閱
 

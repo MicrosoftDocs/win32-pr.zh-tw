@@ -4,12 +4,12 @@ ms.assetid: 5d527af7-07cf-42e2-99bb-d56c856cc1bc
 title: 編解碼器 API 屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 06269591c8ddf087b83146ed72a62f4565b8340a
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 91346b6595944b8e95da5e9e43023052119e49a8b88809fce08b6fca780beba1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104467558"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119792908"
 ---
 # <a name="codec-api-properties"></a>編解碼器 API 屬性
 

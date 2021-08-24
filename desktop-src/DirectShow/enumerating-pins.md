@@ -4,12 +4,12 @@ ms.assetid: 231f10c1-46b4-4b66-b0ce-06a191237dfb
 title: 列舉釘選
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 322f1764c46c146d1b899c869d1708eac1f0427d
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: d772903321c71ab2c6d66f7cc46b7ca61b11f96a4bc17b13b8b2f8931d8eac5f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103846255"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119748708"
 ---
 # <a name="enumerating-pins"></a>列舉釘選
 
@@ -69,7 +69,7 @@ HRESULT GetPin(IBaseFilter *pFilter, PIN_DIRECTION PinDir, IPin **ppPin)
 
 <dl> <dt>
 
-[列舉篩選圖形中的物件](enumerating-objects-in-a-filter-graph.md)
+[列舉篩選 Graph 中的物件](enumerating-objects-in-a-filter-graph.md)
 </dt> <dt>
 
 [在篩選器上尋找未連接的 Pin](find-an-unconnected-pin-on-a-filter.md)

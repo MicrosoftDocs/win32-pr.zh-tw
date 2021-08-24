@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: 21e603e15f598c6d493e179a147391cb941a6c7c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 99a1f3c60dcafdda219dc8a05f5523d7c2386249ff500bbb9abb463294ca7239
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990721"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119767148"
 ---
 # <a name="irenderenginegetgroupoutputpin-method"></a>IRenderEngine：： GetGroupOutputPin 方法
 
@@ -66,7 +66,7 @@ HRESULT GetGroupOutputPin(
 
 
 
-| 傳回碼                                                                                                  | Description                                                                |
+| 傳回碼                                                                                                  | 描述                                                                |
 |--------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
 | <dl> <dt>**S \_ FALSE**</dt> </dl>                      | 群組沒有輸出圖釘。<br/>                              |
 | <dl> <dt>**S \_ 確定**</dt> </dl>                         | 成功。<br/>                                                        |
@@ -84,7 +84,7 @@ HRESULT GetGroupOutputPin(
 
 在呼叫這個方法之前，請先呼叫 [**IRenderEngine：： ConnectFrontEnd**](irenderengine-connectfrontend.md) 來建立圖形的前端。 每個群組都代表一個媒體資料流程，而前端則有對應的輸出圖釘。
 
-您可以使用這個方法來建立檔案寫入圖形的轉譯部分。 將輸出圖釘連接到多工器篩選器和檔案寫入器篩選器。 如需詳細資訊，請參閱 [呈現專案](rendering-a-project.md)。
+您可以使用這個方法來建立檔案寫入圖形的轉譯部分。 連線將輸出釘選到多工器篩選和檔案寫入器篩選器。 如需詳細資訊，請參閱轉譯[Project](rendering-a-project.md)。
 
 若為預覽版本，您不需要呼叫此方法。 只要呼叫 **ConnectFrontEnd** ，然後再呼叫 [**IRenderEngine：： RenderOutputPins**](irenderengine-renderoutputpins.md)。
 
@@ -96,7 +96,7 @@ HRESULT GetGroupOutputPin(
  
 
 > [!Note]  
-> 若要取得 Qedit，請下載 [適用于 Windows Vista 和 .NET Framework 3.0 的 Microsoft Windows SDK 更新](https://msdn.microsoft.com/windowsvista/bb980924.aspx)。 在 Windows 7 和 .NET Framework 3.5 Service Pack 1 的 Microsoft Windows SDK 中無法使用 Qedit。
+> 若要取得 Qedit，請下載[Windows Vista 和 .NET Framework 3.0 的 Microsoft Windows SDK 更新](https://msdn.microsoft.com/windowsvista/bb980924.aspx)。 Windows 7 和 .NET Framework 3.5 Service Pack 1 的 Microsoft Windows SDK 中無法使用 Qedit。
 
  
 

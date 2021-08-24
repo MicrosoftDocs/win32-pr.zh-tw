@@ -4,12 +4,12 @@ ms.assetid: c425f57b-fc14-46a5-bb65-a0a2305bd406
 description: '深入瞭解：效果格式 (Direct3D 11) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c08589fcb041591591d033b88e4fafe597e98520
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 7644e433f6c19df20cb2417659cf575e0613f93b0d53f6494ad6ee1422a55b9a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104187703"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119792068"
 ---
 # <a name="effect-format-direct3d-11"></a> (Direct3D 11) 的效果格式
 

@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: eae08c4a13d036a7d1185a3d53dee846ea460e53
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: db236e05ffe7b5b6273e7cba594266c31720932b43a7df2de751a0fa66cced5c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104940"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119750148"
 ---
 # <a name="checkapplicabilitymethod-method-of-the-mdm_windowslicensing-class"></a>MDM WindowsLicensing 類別的 CheckApplicabilityMethod 方法 \_
 
@@ -61,7 +61,7 @@ TRUE 或 FALSE
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 10 桌面應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | Windows 10 \[僅限桌面應用程式\]<br/>                                                    |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                      |
 | 命名空間<br/>                | 根 \\ cimv2 \\ mdm \\ dmmap<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv mof</dt> </dl> |

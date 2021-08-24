@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Windowscodecs.dll
 - Wincodec.lib
-ms.openlocfilehash: 38e5dd19ddc07de42f8be9e8c887a4f412a853b5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 20e1a95253c0943383842b9667d93e4fc98c48ab2abf229bae7c0b3ad3f3fe63
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106982473"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119812278"
 ---
 # <a name="iwicimagingfactory_createencoder_proxy-function"></a>IWICImagingFactory \_ CreateEncoder \_ Proxy 函式
 
@@ -46,11 +46,11 @@ HRESULT IWICImagingFactory_CreateEncoder_Proxy(
 *pFactory* \[在\]
 </dt> <dd>
 
-類型： **[**IWICImagingFactory**](/windows/desktop/api/Wincodec/nn-wincodec-iwicimagingfactory) \** _
+類型： **[ **IWICImagingFactory**](/windows/desktop/api/Wincodec/nn-wincodec-iwicimagingfactory)\***
 
 </dd> <dt>
 
-_guidContainerFormat * \[ in\]
+*guidContainerFormat* \[在\]
 </dt> <dd>
 
 類型： **REFGUID**
@@ -62,13 +62,13 @@ _guidContainerFormat * \[ in\]
 *pguidVendor* \[在中，選擇性\]
 </dt> <dd>
 
-類型： **CONST GUID \** _
+類型： **CONST GUID \***
 
 編碼器的廠商 GUID。
 
 </dd> <dt>
 
-_ppIEncoder * \[ out\]
+*ppIEncoder* \[擴展\]
 </dt> <dd>
 
 類型： **[ **IWICBitmapEncoder**](/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapencoder)\*\***
@@ -91,8 +91,8 @@ _ppIEncoder * \[ out\]
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows XP （含 SP2）、 \[ 僅限 Windows Vista 桌面應用程式\]<br/>                                                                                              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                                                                                             |
+| 最低支援的用戶端<br/> | WindowsXP SP2，僅 Windows Vista \[ 桌面應用程式\]<br/>                                                                                              |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                                                                                             |
 | DLL<br/>                      | <dl> <dt>Windowscodecs.dll;</dt><dt>Wincodec .lib</dt> </dl> |
 
 

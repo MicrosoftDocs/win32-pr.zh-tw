@@ -4,19 +4,19 @@ ms.assetid: e20a303d-9440-42be-b383-85f6fad89157
 title: 內建 VSS 寫入器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ddc256cfe72f3653d4af282148c87c2b45bcac51
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0e34591cb046a8cc702d32452c159e5b8877f2e66603cbd1b048a0841a04e3bc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106986873"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119767797"
 ---
 # <a name="in-box-vss-writers"></a>內建 VSS 寫入器
 
 Windows 作業系統包含一組 VSS 寫入器，負責列舉各種 Windows 功能所需的資料。 這些稱為「內建」的寫入器。
 
 > [!Note]  
-> Windows Vista、Windows Server 2008 及更新版本中無法使用 MSDE 的內建寫入器。 相反地，您應該使用 SQL 寫入器來備份 SQL Server 資料庫。 Windows Vista、Windows Server 2008 和更新版本僅支援 SQL Server 2005 SP2 和更新版本。
+> Windows Vista、Windows Server 2008 及更新版本中無法使用 MSDE 內建的寫入器。 相反地，SQL 寫入器應該用來備份 SQL Server 資料庫。 Windows Vista、Windows Server 2008 和更新版本僅支援 SQL Server 2005 SP2 和更新版本。
 
  
 
@@ -50,9 +50,9 @@ Windows 作業系統包含一組 VSS 寫入器，負責列舉各種 Windows 功�
 -   [系統寫入器](#system-writer)
 -   [工作排程器寫入器](#task-scheduler-writer)
 -   [VSS 中繼資料存放區寫入器](#vss-metadata-store-writer)
--   [Windows 部署服務 (WDS) 寫入器](#windows-deployment-services-wds-writer)
+-   [Windows (WDS) Writer 的部署服務](#windows-deployment-services-wds-writer)
 -   [Windows 內部資料庫 (WID) 寫入器](#windows-internal-database-wid-writer)
--   [Windows 網際網路名稱服務 (WINS) Writer](#windows-internet-name-service-wins-writer)
+-   [Windows網際網路名稱服務 (WINS) Writer](#windows-internet-name-service-wins-writer)
 -   [WMI 寫入器](#wmi-writer)
 
 ## <a name="active-directory-domain-services-ntds-vss-writer"></a>Active Directory Domain Services (NTDS) VSS 寫入器
@@ -103,7 +103,7 @@ Windows 作業系統包含一組 VSS 寫入器，負責列舉各種 Windows 功�
 
 此寫入器會報告 ADFS) 資料檔案的 Active Directory 同盟服務 (。
 
-**Windows server 2008 R2、windows 7、Windows server 2008、Windows Vista、Windows server 2003 和 WINDOWS XP：** 這是不支援的寫入器。
+**Windows server 2008 R2、Windows 7、Windows Server 2008、Windows Vista、Windows Server 2003 和 Windows XP：** 這是不支援的寫入器。
 
 此寫入器的寫入器名稱字串為 "ADFS VSS Writer"。
 
@@ -113,7 +113,7 @@ Windows 作業系統包含一組 VSS 寫入器，負責列舉各種 Windows 功�
 
 此寫入器會針對% program files% Microsoft ADAM instance N data 中的每個實例報告 ADAM 資料庫檔案 (adamntds.dit) 和相關聯的記錄檔 \\ \\  \\ ，其中 *N* 是 ADAM 實例號碼。 需要這些資料庫記錄檔才能還原 ADAM 實例。
 
-**WINDOWS XP：** 這是不支援的寫入器。
+**Windows XP：** 這是不支援的寫入器。
 
 以下範例顯示如何在寫入器的中繼資料中列出元件：
 
@@ -150,7 +150,7 @@ Windows 作業系統包含一組 VSS 寫入器，負責列舉各種 Windows 功�
 
 此寫入器會報告 Active Directory Rights Management 服務 (AD RMS) 資料檔案。
 
-**Windows server 2008 R2、windows 7、Windows server 2008、Windows Vista、Windows server 2003 和 WINDOWS XP：** 這是不支援的寫入器。
+**Windows server 2008 R2、Windows 7、Windows Server 2008、Windows Vista、Windows Server 2003 和 Windows XP：** 這是不支援的寫入器。
 
 此寫入器的寫入器名稱字串是「AD RMS Writer」。
 
@@ -160,7 +160,7 @@ Windows 作業系統包含一組 VSS 寫入器，負責列舉各種 Windows 功�
 
 ASR 寫入器會在系統上儲存磁片的設定。 此寫入器會報告開機設定資料庫 (BCD) ，而且也負責在陰影複製建立期間，卸載代表 BCD 的登錄區。 ASR 寫入器必須包含在裸機復原所需的任何備份中。 如需 ASR 的詳細資訊，請參閱 [使用 VSS 自動化系統復原進行](using-vss-automated-system-recovery-for-disaster-recovery.md)嚴重損壞修復。
 
-**Windows Server 2003 和 WINDOWS XP：** 這是不支援的寫入器。
+**Windows Server 2003 和 Windows XP：** 這是不支援的寫入器。
 
 此寫入器的寫入器名稱字串是「ASR Writer」。
 
@@ -170,7 +170,7 @@ ASR 寫入器的寫入器識別碼是 BE000CBE-11FE-4426-9C58-531AA6355FC4。
 
 BITS 寫入器會使用 **FilesNotToBackup** 登錄機碼來排除 BITS 快取資料夾中的檔案。 預設快取位置為% AllUsersProfile% \\ Microsoft \\ 網路 \\ 下載程式快取 \\ 。
 
-**Windows Server 2003 和 WINDOWS XP：** 這是不支援的寫入器。
+**Windows Server 2003 和 Windows XP：** 這是不支援的寫入器。
 
 此外，BITS 寫入器會從備份中排除下列檔案： BITS 狀態檔案 (qmgr0 .dat 和) qmgr1、BITS debug 記錄檔和 BITS 部分下載的檔案。
 
@@ -186,7 +186,7 @@ BITS 寫入器的寫入器識別碼是4969D978-BE47-48B0-B100-F328F07AC1E0。
 
 此寫入器的寫入器名稱字串是「憑證授權單位單位」。
 
-**WINDOWS XP：** 此寫入器的寫入器名稱字串是「憑證伺服器寫入器」。
+**Windows XP：** 此寫入器的寫入器名稱字串是「憑證伺服器寫入器」。
 
 寫入器的寫入器識別碼是6F5B15B5-DA24-4D88-B737-63063E3A1F86。
 
@@ -194,13 +194,13 @@ BITS 寫入器的寫入器識別碼是4969D978-BE47-48B0-B100-F328F07AC1E0。
 
 Cluster service VSS 寫入器記載于叢集 [服務](/previous-versions/windows/desktop/mscs/backing-up-and-restoring-the-failover-cluster-configuration-using-vss) API 檔中。
 
-**Windows Vista、Windows Server 2003 和 WINDOWS XP：** 在 Windows Vista Service Pack 1 (SP1) 和 Windows Server 2008 之前，不支援這個寫入器。
+**Windows Vista、Windows Server 2003 和 Windows XP：** 在 Windows Vista Service Pack 1 (SP1) 和 Windows Server 2008 之前，不支援這個寫入器。
 
 ## <a name="cluster-shared-volume-csv-vss-writer"></a>叢集共用磁碟區 (CSV) VSS 寫入器
 
-此寫入器會報告叢集共用磁碟區的 (CSV) 資料檔案。 此寫入器是 Windows Server 作業系統版本的現成寫入器;它並未隨附于 Windows 用戶端。
+此寫入器會報告叢集共用磁碟區的 (CSV) 資料檔案。 此寫入器是 Windows Server 作業系統版本的內建寫入器;它不會隨附 Windows 用戶端。
 
-**Windows server 2008 R2、Windows server 2008 和 Windows server 2003：** 這是不支援的寫入器。
+**Windows server 2008 R2、Windows Server 2008 和 Windows Server 2003：** 這是不支援的寫入器。
 
 此寫入器的寫入器名稱字串是「叢集共用磁碟區 VSS 寫入器」。
 
@@ -210,7 +210,7 @@ Cluster service VSS 寫入器記載于叢集 [服務](/previous-versions/windows
 
 此寫入器負責% SystemRoot% \\ 註冊目錄的內容。 COM + 類別目錄是% SystemRoot% 登錄中的檔案，其 \\ 名稱遵循模式的 Rget-help，其中的名稱是12位數的十六進位數位。 如果電腦上已設定 COM + 應用程式，可能會有多個這類檔案。 包含目前 COM + 類別目錄的檔案是具有最大值的 *檔案。*
 
-**Windows Server 2003 和 WINDOWS XP：** 這是不支援的寫入器。
+**Windows Server 2003 和 Windows XP：** 這是不支援的寫入器。
 
 COM + 類別註冊資料庫取決於正在備份的登錄機碼，因此需要與登錄一起備份和還原。
 
@@ -222,19 +222,19 @@ COM + 類別註冊資料庫寫入器的寫入器識別碼是542DA469-D3E1-473C-9
 
 ## <a name="data-deduplication-writer"></a>重復資料刪除寫入器
 
-重復資料刪除 VSS 寫入器記載于 [重復資料刪除](/previous-versions/windows/desktop/dedup/backup-and-restore-of-data-deduplication-enabled-volumes) API 檔中。 此寫入器是 Windows Server 作業系統版本的現成寫入器;它並未隨附于 Windows 用戶端。
+重復資料刪除 VSS 寫入器記載于 [重復資料刪除](/previous-versions/windows/desktop/dedup/backup-and-restore-of-data-deduplication-enabled-volumes) API 檔中。 此寫入器是 Windows Server 作業系統版本的內建寫入器;它不會隨附 Windows 用戶端。
 
-**Windows server 2008 R2、Windows server 2008 和 Windows server 2003：** 這是不支援的寫入器。
+**Windows server 2008 R2、Windows Server 2008 和 Windows Server 2003：** 這是不支援的寫入器。
 
 ## <a name="distributed-file-system-replication-dfsr"></a>分散式檔案系統複寫 (DFSR)
 
 下列元件包含 VSS 寫入器： [分散式檔案系統複寫 (DFSR) ](/previous-versions/windows/desktop/dfsr/dfsr-replicated-folders)
 
-**Windows Vista、Windows Server 2003 和 WINDOWS XP：** 在 Windows Vista SP1 和 Windows Server 2008 之前，不支援這個寫入器。
+**Windows Vista、Windows Server 2003 和 Windows XP：** 在 Windows Vista SP1 和 Windows Server 2008 之前，不支援這個寫入器。
 
 ## <a name="dynamic-host-configuration-protocol-dhcp-writer"></a>動態主機設定通訊協定 (DHCP) 寫入器
 
-此寫入器負責列舉 DHCP 伺服器角色所需的檔案。 此寫入器是 Windows Server 作業系統版本的現成寫入器;它並未隨附于 Windows 用戶端。
+此寫入器負責列舉 DHCP 伺服器角色所需的檔案。 此寫入器是 Windows Server 作業系統版本的內建寫入器;它不會隨附 Windows 用戶端。
 
 此寫入器的寫入器名稱字串是「Dhcp Jet Writer」。
 
@@ -244,11 +244,11 @@ COM + 類別註冊資料庫寫入器的寫入器識別碼是542DA469-D3E1-473C-9
 
 檔案複寫服務寫入器記錄在 [備份和還原 FRS-Replicated SYSVOL 資料夾](backing-up-and-restoring-an-frs-replicated-sysvol-folder.md)中。
 
-**Windows Vista、Windows Server 2003 和 WINDOWS XP：** 在 Windows Vista SP1 和 Windows Server 2008 之前，不支援這個寫入器。
+**Windows Vista、Windows Server 2003 和 Windows XP：** 在 Windows Vista SP1 和 Windows Server 2008 之前，不支援這個寫入器。
 
 ## <a name="file-server-resource-manager-fsrm-writer"></a>檔案伺服器 Resource Manager (FSRM) 寫入器
 
-此寫入器會列舉用來進行系統狀態備份的 FSRM 設定檔。 在還原作業期間，它會防止 FSRM 設定中的變更，並暫時中止配額和檔案檢測的強制執行。 還原完成之後，寫入器會使用已還原的設定來重新整理 FSRM。 只有當 FSRM (一部分的檔案服務角色) 已安裝且正在執行時，才會出現這個寫入器。 此寫入器是 Windows Server 作業系統版本的現成寫入器;它並未隨附于 Windows 用戶端。
+此寫入器會列舉用來進行系統狀態備份的 FSRM 設定檔。 在還原作業期間，它會防止 FSRM 設定中的變更，並暫時中止配額和檔案檢測的強制執行。 還原完成之後，寫入器會使用已還原的設定來重新整理 FSRM。 只有當 FSRM (一部分的檔案服務角色) 已安裝且正在執行時，才會出現這個寫入器。 此寫入器是 Windows Server 作業系統版本的內建寫入器;它不會隨附 Windows 用戶端。
 
 **Windows Server 2003：** 在 Windows Server 2003 R2 之前，不支援這個寫入器。
 
@@ -258,7 +258,7 @@ COM + 類別註冊資料庫寫入器的寫入器識別碼是542DA469-D3E1-473C-9
 
 ## <a name="hyper-v-writer"></a>Hyper-v 寫入器
 
-[Hyper-v API 檔](/previous-versions/windows/desktop/virtual/backing-up-and-restoring-virtual-machines)中記載了 hyper-v VSS 寫入器。 此寫入器是 Windows Server 作業系統版本的現成寫入器;它並未隨附于 Windows 用戶端。
+[Hyper-v API 檔](/previous-versions/windows/desktop/virtual/backing-up-and-restoring-virtual-machines)中記載了 hyper-v VSS 寫入器。 此寫入器是 Windows Server 作業系統版本的內建寫入器;它不會隨附 Windows 用戶端。
 
 **Windows Server 2003：** 在 Windows Server 2008 之前，不支援這個寫入器。
 
@@ -266,9 +266,9 @@ COM + 類別註冊資料庫寫入器的寫入器識別碼是542DA469-D3E1-473C-9
 
 IIS 設定寫入器負責列舉 IIS 設定檔。
 
-**Windows Vista、Windows Server 2003 和 WINDOWS XP：** 在 Windows Vista SP1 和 Windows Server 2008 之前，不支援這個寫入器。 要求者必須備份 IIS 設定檔，包括 .NET FX machine.config 檔或 ASP.NET 根目錄 web.config 檔。
+**Windows Vista、Windows Server 2003 和 Windows XP：** 在 Windows Vista SP1 和 Windows Server 2008 之前，不支援這個寫入器。 要求者必須備份 IIS 設定檔，包括 .net FX machine.config 檔或 ASP.NET 根 web.config 檔。
 
-此寫入器不會備份 .NET FX machine.config 檔或 ASP.NET 根 web.config 檔案，因為這些檔案是由系統寫入器所列舉。
+由於系統寫入器會列舉這些檔案，因此這個寫入器不會備份 .net FX machine.config 檔或 ASP.NET 根 web.config 檔。
 
 此寫入器會備份% windir% \\ system32 \\ inetsrv 設定 \\ \\ 架構和% windir% \\ system32 inetsrv config 目錄中的所有檔案 \\ \\ ，但系統寫入器所列舉的檔案除外。
 
@@ -278,7 +278,7 @@ IIS 設定寫入器的寫入器識別碼是2A40FD15-DFCA-4aa8-A654-1F8C654603F6�
 
 Internet Information Server (IIS) 的「中繼資料寫入器」負責列舉 IIS 中繼檔。
 
-**Windows Vista、Windows Server 2003 和 WINDOWS XP：** 在 Windows Vista SP1 和 Windows Server 2008 之前，不支援這個寫入器。 要求者必須備份 IIS 的中繼檔。
+**Windows Vista、Windows Server 2003 和 Windows XP：** 在 Windows Vista SP1 和 Windows Server 2008 之前，不支援這個寫入器。 要求者必須備份 IIS 的中繼檔。
 
 IIS 元資料庫寫入器的寫入器識別碼是59B1f0CF-90EF-465F-9609-6CA8B2938366。
 
@@ -286,7 +286,7 @@ IIS 元資料庫寫入器的寫入器識別碼是59B1f0CF-90EF-465F-9609-6CA8B29
 
 此寫入器會報告 MSMQ) 資料檔案的 Microsoft Message Queuing (。
 
-**Windows server 2008 R2、windows 7、Windows server 2008、Windows Vista、Windows server 2003 和 WINDOWS XP：** 這是不支援的寫入器。
+**Windows server 2008 R2、Windows 7、Windows Server 2008、Windows Vista、Windows Server 2003 和 Windows XP：** 這是不支援的寫入器。
 
 此寫入器的寫入器名稱字串是「MSMQ 寫入器 (*SvcName*) 」，其中 *SvcName* 是與寫入器相關聯的 msmq 服務名稱。 針對預設安裝，服務名稱為 "MSMQ"。 若為叢集實例，服務名稱為 MSMQ $*coNtext.resourcename* *，其中的資源名稱為叢集* msmq 資源名稱。
 
@@ -306,9 +306,9 @@ MSSearch 服務寫入器的寫入器識別碼是 CD3F2362-8BEF-46C7-9181-D62844C
 
 ## <a name="nps-vss-writer"></a>NPS VSS 寫入器
 
-NPS 寫入器負責針對已安裝網路原則和存取服務角色的伺服器， (NPS) 設定檔來列舉網路原則伺服器。
+nps 寫入器負責針對已安裝網路原則和 Access Services 角色的伺服器， (NPS) 設定檔來列舉網路原則伺服器。
 
-**Windows Vista、Windows Server 2003 和 WINDOWS XP：** 在 Windows Vista SP1 和 Windows Server 2008 之前，不支援這個寫入器。
+**Windows Vista、Windows Server 2003 和 Windows XP：** 在 Windows Vista SP1 和 Windows Server 2008 之前，不支援這個寫入器。
 
 此寫入器的寫入器名稱字串是「NPS VSS 寫入器」。
 
@@ -318,7 +318,7 @@ NPS VSS 寫入器的寫入器識別碼是 0x35E81631-13E1-48DB-97FC-D5BC721BB18A
 
 此寫入器會報告效能計數器設定檔案。 這些檔案只會在應用程式安裝期間進行修改，而且應該在系統狀態備份和還原期間進行備份和還原。
 
-**Windows server 2008、Windows Vista、Windows server 2003 和 WINDOWS XP：** 這是不支援的寫入器。 要求者必須手動備份這些檔案。  (參閱 [備份及還原系統狀態](locating-additional-system-files.md)。 ) 
+**Windows server 2008、Windows Vista Windows server 2003 和 Windows XP：** 這是不支援的寫入器。 要求者必須手動備份這些檔案。  (參閱 [備份及還原系統狀態](locating-additional-system-files.md)。 ) 
 
 此寫入器的寫入器名稱字串是「效能計數器寫入器」。
 
@@ -328,9 +328,9 @@ NPS VSS 寫入器的寫入器識別碼是 0x35E81631-13E1-48DB-97FC-D5BC721BB18A
 
 登錄寫入器會報告 Windows 登錄檔，以啟用登錄的就地備份和還原。 它不會報告使用者 hive。
 
-**Windows Server 2003：** 在 Windows Server 2003 中，此寫入器使用中繼存放庫檔案 (有時稱為「算檔案」 ) 來儲存登錄資料。  (查看 [VSS 下的登錄備份和還原作業](registry-backup-and-restore-operations-under-vss.md)。 ) 
+**Windows Server 2003：** 在 Windows Server 2003 中，此寫入器會使用中繼存放庫檔案 (有時稱為「算檔案」 ) 儲存登錄資料。  (查看 [VSS 下的登錄備份和還原作業](registry-backup-and-restore-operations-under-vss.md)。 ) 
 
-**WINDOWS XP：** 這是不支援的寫入器。  (查看 [VSS 下的登錄備份和還原作業](registry-backup-and-restore-operations-under-vss.md)。 ) 
+**Windows XP：** 這是不支援的寫入器。  (查看 [VSS 下的登錄備份和還原作業](registry-backup-and-restore-operations-under-vss.md)。 ) 
 
 此寫入器的寫入器名稱字串為 "Registry Writer"。
 
@@ -342,7 +342,7 @@ NPS VSS 寫入器的寫入器識別碼是 0x35E81631-13E1-48DB-97FC-D5BC721BB18A
 
 **Windows Server 2003：** 這是不支援的寫入器。
 
-此寫入器是 Windows Server 作業系統版本的現成寫入器;它並未隨附于 Windows 用戶端。
+此寫入器是 Windows Server 作業系統版本的內建寫入器;它不會隨附 Windows 用戶端。
 
 遠端桌面服務閘道相依于要備份的數個登錄機碼，因此需要與登錄一起備份和還原。
 
@@ -356,7 +356,7 @@ NPS VSS 寫入器的寫入器識別碼是 0x35E81631-13E1-48DB-97FC-D5BC721BB18A
 
 **Windows Server 2003：** 這是不支援的寫入器。
 
-此寫入器是 Windows Server 作業系統版本的現成寫入器;它並未隨附于 Windows 用戶端。
+此寫入器是 Windows Server 作業系統版本的內建寫入器;它不會隨附 Windows 用戶端。
 
 遠端桌面服務授權取決於多個備份的登錄機碼，因此需要與登錄一起備份和還原。
 
@@ -368,7 +368,7 @@ NPS VSS 寫入器的寫入器識別碼是 0x35E81631-13E1-48DB-97FC-D5BC721BB18A
 
 此寫入器會刪除磁片區陰影複製中的特定檔案。 這是為了將在陰影複製的磁片區上這些檔案的一般 i/o 中，寫入時複製 i/o 的影響降到最低。 刪除的檔案通常是暫存檔案或不包含使用者或系統狀態的檔案。
 
-**Windows Server 2003 和 WINDOWS XP：** 這是不支援的寫入器。
+**Windows Server 2003 和 Windows XP：** 這是不支援的寫入器。
 
 此寫入器的寫入器名稱字串是「陰影複製優化寫入器」。
 
@@ -376,7 +376,7 @@ NPS VSS 寫入器的寫入器識別碼是 0x35E81631-13E1-48DB-97FC-D5BC721BB18A
 
 ## <a name="sync-share-service-writer"></a>同步共用服務寫入器
 
-**Windows Server 2012 R2：** 此寫入器隨附于 Windows Server 2012 R2 和更新版本的伺服器。 它與桌上出版本不相容。
+**Windows Server 2012 R2：** 此寫入器隨附于 Windows Server 2012 R2 和更新版本的伺服器版本。 它與桌上出版本不相容。
 
 此寫入器負責列舉已安裝同步共用服務之伺服器上的同步共用，以及確保其中繼資料和資料在備份和還原期間維持一致。
 
@@ -392,7 +392,7 @@ NPS VSS 寫入器的寫入器識別碼是 0x35E81631-13E1-48DB-97FC-D5BC721BB18A
 
 系統寫入器會列舉所有作業系統和驅動程式二進位檔，並且必須進行系統狀態備份。
 
-**Windows Server 2003 和 WINDOWS XP：** 這是不支援的寫入器。
+**Windows Server 2003 和 Windows XP：** 這是不支援的寫入器。
 
 此寫入器會在 (CryptSvc) 服務的密碼編譯服務中執行。 系統寫入器會產生包含下列檔案的檔案清單：
 
@@ -417,7 +417,7 @@ NPS VSS 寫入器的寫入器識別碼是 0x35E81631-13E1-48DB-97FC-D5BC721BB18A
 
 此寫入器會報告工作排程器的工作檔案。
 
-**Windows server 2008、Windows Vista、Windows server 2003 和 WINDOWS XP：** 這是不支援的寫入器。 要求者必須手動備份這些檔案。  (參閱 [備份及還原系統狀態](locating-additional-system-files.md)。 ) 
+**Windows server 2008、Windows Vista Windows server 2003 和 Windows XP：** 這是不支援的寫入器。 要求者必須手動備份這些檔案。  (參閱 [備份及還原系統狀態](locating-additional-system-files.md)。 ) 
 
 此寫入器的寫入器名稱字串是「工作排程器 Writer」。
 
@@ -427,17 +427,17 @@ NPS VSS 寫入器的寫入器識別碼是 0x35E81631-13E1-48DB-97FC-D5BC721BB18A
 
 此寫入器會報告所有 VSS express 寫入器的寫入器中繼資料檔案。
 
-**Windows server 2008、Windows Vista、Windows server 2003 和 WINDOWS XP：** 這是不支援的寫入器。
+**Windows server 2008、Windows Vista Windows server 2003 和 Windows XP：** 這是不支援的寫入器。
 
 此寫入器的寫入器名稱字串是「VSS Express 寫入器中繼資料存放區寫入器」。
 
 寫入器的寫入器識別碼是75DFB225-E2E4-4D39-9AC9-FFAFF65DDF06。
 
-## <a name="windows-deployment-services-wds-writer"></a>Windows 部署服務 (WDS) 寫入器
+## <a name="windows-deployment-services-wds-writer"></a>Windows (WDS) Writer 的部署服務
 
 此寫入器會報告 WDS) 資料檔案的 Windows 部署服務 (。
 
-**Windows server 2008、Windows Vista、Windows server 2003 和 WINDOWS XP：** 這是不支援的寫入器。
+**Windows server 2008、Windows Vista Windows server 2003 和 Windows XP：** 這是不支援的寫入器。
 
 此寫入器的寫入器名稱字串是「WDS VSS 寫入器」。
 
@@ -447,17 +447,17 @@ NPS VSS 寫入器的寫入器識別碼是 0x35E81631-13E1-48DB-97FC-D5BC721BB18A
 
 此寫入器會報告 WID) 資料檔案的 Windows 內部資料庫 (。
 
-**Windows server 2008 R2、windows 7、Windows server 2008、Windows Vista、Windows server 2003 和 WINDOWS XP：** 這是不支援的寫入器。
+**Windows server 2008 R2、Windows 7、Windows Server 2008、Windows Vista、Windows Server 2003 和 Windows XP：** 這是不支援的寫入器。
 
 此寫入器的寫入器名稱字串為 "WIDWriter"。
 
 此寫入器的寫入器識別碼是8D5194E1-E455-434A-B2E5-51296CCE67DF。
 
-## <a name="windows-internet-name-service-wins-writer"></a>Windows 網際網路名稱服務 (WINS) Writer
+## <a name="windows-internet-name-service-wins-writer"></a>Windows網際網路名稱服務 (WINS) Writer
 
 此寫入器負責列舉 WINS 所需的檔案。
 
-**WINDOWS XP：** 這是不支援的寫入器。
+**Windows XP：** 這是不支援的寫入器。
 
 此寫入器的寫入器名稱字串是「WINS Jet Writer」。
 
@@ -467,7 +467,7 @@ NPS VSS 寫入器的寫入器識別碼是 0x35E81631-13E1-48DB-97FC-D5BC721BB18A
 
 此寫入器是用來識別備份作業期間的 WMI 特定狀態和資料。 資料包含來自 WBEM 存放庫的檔案。
 
-**Windows Server 2003 和 WINDOWS XP：** 這是不支援的寫入器。
+**Windows Server 2003 和 Windows XP：** 這是不支援的寫入器。
 
 此寫入器的寫入器名稱字串是「WMI 寫入器」。
 

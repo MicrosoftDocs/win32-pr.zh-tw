@@ -4,12 +4,12 @@ ms.assetid: e00ef69b-c54b-41de-9230-a7582b260891
 title: 更新 ProductLanguage 和 ProductCode 屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 37a7537cdb0295075fbfd1b8b58e45a051610cf6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b9d6cbb47a16e0e0f2f9d696dc73d3f3fe0d1bc278c4631a99469168e2ca23d8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106979389"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119809858"
 ---
 # <a name="updating-productlanguage-and-productcode-properties"></a>更新 ProductLanguage 和 ProductCode 屬性
 

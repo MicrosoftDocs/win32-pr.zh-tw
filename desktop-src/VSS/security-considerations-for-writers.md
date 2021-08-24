@@ -4,12 +4,12 @@ ms.assetid: 59bb7a86-e874-45ce-abd6-cafd18802c4d
 title: 寫入器的安全性考慮
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ea6f88243adbd62d928170a86ed57b91cbebe134
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 601b981613636a571c204acdfac78ada778bb19b16a3d2677c4e56ff3ee099cb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106980973"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119767678"
 ---
 # <a name="security-considerations-for-writers"></a>寫入器的安全性考慮
 
@@ -39,7 +39,7 @@ VSS 基礎結構需要寫入器進程才能同時作為 COM 用戶端和伺服�
 
 -   允許所有進程存取寫入器進程。
 
-    此選項可能適用于許多寫入器，而其他 COM 伺服器會使用此選項，例如，所有以 SVCHOST 為基礎的 Windows 服務都已使用此選項，預設為所有 COM + 服務。
+    此選項可能適用于許多寫入器，其他 COM 伺服器會使用此選項，例如，所有 SVCHOST 型 Windows 服務都已使用此選項，預設為所有 com + 服務。
 
     允許所有進程執行傳入的 COM 呼叫不一定是安全性弱點。 作為 COM 伺服器的寫入器，就像所有其他 COM 伺服器一樣，一律會保留在其處理常式中所執行的每個 COM 方法上授權其用戶端的選項。
 

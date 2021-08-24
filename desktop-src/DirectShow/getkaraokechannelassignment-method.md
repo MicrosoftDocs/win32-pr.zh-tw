@@ -4,17 +4,17 @@ ms.assetid: 08e35fa6-fa1b-4f9f-8f56-d953c4422226
 title: GetKaraokeChannelAssignment 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dafe1217e08f3dc4f55aeec42424b1ebf9d86d22
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 010e8112ece9b3fc66831055995ebf46657d4216942ac3b9dee05b1b68d18761
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103846876"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119812548"
 ---
 # <a name="getkaraokechannelassignment-method"></a>GetKaraokeChannelAssignment 方法
 
 > [!Note]  
-> 此元件可用於 Microsoft Windows 2000、Windows XP 及 Windows Server 2003 作業系統。 它在後續版本中可能會變更或無法使用。
+> 此元件可在 Microsoft Windows 2000、Windows XP 和 Windows Server 2003 作業系統中使用。 它在後續版本中可能會變更或無法使用。
 
  
 

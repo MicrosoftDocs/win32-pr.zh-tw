@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 36364a55276842518480c3d3d37c57c3ae0a06ba
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 30e482f8c11c19abd7c9782e517b5b04a33139d5b8e2189512614317ea2123db
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108085996"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119751468"
 ---
 # <a name="takeownership-method-of-the-win32_shortcutfile-class"></a>Win32 ShortcutFile 類別的 TakeOwnerShip 方法 \_
 
@@ -91,7 +91,7 @@ uint32 TakeOwnerShip();
 **12**
 </dt> <dd>
 
-平臺不是 Windows。
+平臺未 Windows。
 
 </dd> <dt>
 

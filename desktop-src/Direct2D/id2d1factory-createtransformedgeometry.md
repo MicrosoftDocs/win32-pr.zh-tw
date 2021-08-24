@@ -12,12 +12,12 @@ api_type:
 - DllExport
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 5da3b548c3118209c915714e03fe9e4061c77e96
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8216b5b63951e3f393dc1c8a204a4a4e38ee652d79eb795ba4f4e97041aff3f3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106978629"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119832848"
 ---
 # <a name="id2d1factorycreatetransformedgeometry-methods"></a>ID2D1Factory：： CreateTransformedGeometry 方法
 

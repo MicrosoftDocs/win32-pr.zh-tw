@@ -7,12 +7,12 @@ keywords:
 - 查詢函式 OpenGL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 14804b260451d4b51b0146b1cb2f796ba6b6778e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 39e3e883bdf8730dac7b1a8e07448b771109bef0ac5ec2246411703e8f841a53
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106967824"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119776478"
 ---
 # <a name="using-the-query-functions"></a>使用查詢函數
 
@@ -26,13 +26,13 @@ ms.locfileid: "106967824"
 
 查詢函式的原型如下：
 
-**void** **glGetBooleanv** (**GLenum** *pname* ， **GLboolean \*** *params* ) ;
+**void** **glGetBooleanv** (**GLenum** *pname* ，**GLboolean \** _ _params * ) ;
 
-**void** **glGetIntegerv** (**GLenum** *pname* ， **GLint \*** *params* ) ;
+**void** **glGetIntegerv** (**GLenum** *pname* ，**GLint \** _ _params * ) ;
 
-**void** **glGetFloatv** (**GLenum** *pname* ， **GLfloat \*** *params* ) ;
+**void** **glGetFloatv** (**GLenum** *pname* ，**GLfloat \** _ _params * ) ;
 
-**void** **glGetDoublev** (**GLenum** *pname* ， **GLdouble \*** *params* ) ;
+**void** **glGetDoublev** (**GLenum** *pname* ，**GLdouble \** _ _params * ) ;
 
 查詢函數會分別取得布林值、整數、浮點數或雙精確度狀態變數。 *Pname* 參數是一個符號常數，表示要傳回的狀態變數，而 *params* 是指向所指定類型陣列的指標，以放置傳回的資料。 *Pname* 的可能值會列在 [OpenGL 狀態變數](opengl-state-variables.md)中。 如果需要傳回所需的變數做為要求的資料類型，則會執行類型轉換。
 
@@ -60,9 +60,9 @@ ms.locfileid: "106967824"
 -   [**glGetTexLevelParameter**](glgettexlevelparameter.md)
 -   [**glGetTexParameter**](glgettexparameter.md)
 
- 
+ 
 
- 
+ 
 
 
 

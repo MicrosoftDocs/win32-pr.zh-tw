@@ -4,12 +4,12 @@ description: Direct3D 11 定義了數個協助程式結構，可讓您用來建�
 ms.assetid: E44951D9-7830-4825-B7FA-CF98CC0D024C
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 578e8fb398ef5348146f9623f98f0b6d01414a50
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: 1dd7cb23ce625903b55a136c64d42264ad3b45a651258959f0ca7416380bed4d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "104463953"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119792078"
 ---
 # <a name="cd3d11-helper-structures"></a>CD3D11 Helper 結構
 

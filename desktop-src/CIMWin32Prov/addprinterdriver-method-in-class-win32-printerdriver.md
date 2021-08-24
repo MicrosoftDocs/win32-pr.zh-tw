@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 03c029d7689743150235d20b0658cd154ef64a4c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 14681c381f8c8b9abbc5b28ec763b959854e2303b9a0b87af762238f4e5a8d27
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104385878"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119752798"
 ---
 # <a name="addprinterdriver-method-of-the-win32_printerdriver-class"></a>Win32 PrinterDriver 類別的 AddPrinterDriver 方法 \_
 

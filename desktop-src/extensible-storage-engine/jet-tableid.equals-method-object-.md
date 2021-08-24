@@ -20,12 +20,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: de0dc6037ccf1b027755d5508dbf8569d8716945
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c6fccd6ee3ca7c9f65e08babd831084421b1d073653ce5b53db021a1056744b8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319767"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119832708"
 ---
 # <a name="jet_tableidequals-method-object"></a>JET_TABLEID。物件)  (Equals 方法
 

@@ -4,12 +4,12 @@ ms.assetid: b39f1287-c67b-4cbb-b599-4a1b2f4981ac
 title: " (Direct3D 9) 的燈光屬性"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 63239024109327e483ff93c2ee29fe42fc22c922
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 14c3e815401fe0b35c7409dec783515de5c3422ac92d6aed6fd4adebf09f8c18
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104108841"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119746998"
 ---
 # <a name="light-properties-direct3d-9"></a> (Direct3D 9) 的燈光屬性
 

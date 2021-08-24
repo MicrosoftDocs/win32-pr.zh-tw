@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: deae1ca92c2280cd31cbec2bf3482c61fcf2b88a
-ms.sourcegitcommit: cba7f424a292fd7f3a8518947b9466439b455419
+ms.openlocfilehash: 06e3992dd81d2ffcc32a672e2d524fa51c1372c02ab90d8b6b8a905100ac9afb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "104022866"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119855048"
 ---
 # <a name="define-directive-constant"></a>\#定義指示詞 (常數) 
 

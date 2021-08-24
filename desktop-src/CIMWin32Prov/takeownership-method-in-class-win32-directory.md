@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 178f1bf523d939883a7fc18b5bdbd7142cc4f824
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 32644632e7abe15190837244116f04f647537f987d5d6f3286930d8e26d2e230
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108086026"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119751678"
 ---
 # <a name="takeownership-method-of-the-win32_directory-class"></a>Win32 目錄類別的 TakeOwnerShip 方法 \_
 
@@ -91,7 +91,7 @@ uint32 TakeOwnerShip();
 **12**
 </dt> <dd>
 
-平臺不是 Windows。
+平臺未 Windows。
 
 </dd> <dt>
 
@@ -139,7 +139,7 @@ uint32 TakeOwnerShip();
 
 ## <a name="examples"></a>範例
 
-下列 Visual Basic 腳本程式碼會呼叫 [**TakeOwnerShip**](takeownership-method-in-class-cim-directory.md) 方法來取得 C： temp 資料夾的擁有權 \\ 。
+下列 Visual Basic 腳本程式碼會呼叫 [**TakeOwnerShip**](takeownership-method-in-class-cim-directory.md)方法來取得 C： temp 資料夾的擁有權 \\ 。
 
 
 ```VB

@@ -6,12 +6,12 @@ keywords:
 - COM 技術總覽 COM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: be5dc95ffae5166d86cd8110cab1a6b90e6ffa5c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 851a2147c1bbe31dd8c212f7f23089c522cf7998bc2d336e95120277fba84275
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110572"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119854758"
 ---
 # <a name="com-technical-overview"></a>COM 技術總覽
 
@@ -75,9 +75,9 @@ COM 介面會謹慎使用繼承。 COM 僅支援介面繼承，以重複使用�
 
 當您執行介面時，您的類別必須為介面中的每個函式提供實作為。 如果類別沒有任何要在介面函式中執行的工作，則實作為單一 return 語句。
 
-COM 類別的識別方式是使用唯一的128位類別識別碼 (CLSID) 將類別與檔案系統中的特定部署相關聯，而 Windows 是 DLL 或 EXE。 CLSID 是 GUID，這表示沒有其他類別具有相同的 CLSID。 使用唯一類別識別碼可避免類別之間的名稱衝突。 例如，兩個不同的廠商可以撰寫名為 CStack 的類別，但是這兩個類別都有唯一的 CLSID，因此可以避免任何可能發生衝突的情況。
+COM 類別的識別方式是使用唯一的128位類別識別碼 (CLSID) ，其會將類別與檔案系統中的特定部署產生關聯，而 Windows 是 DLL 或 EXE。 CLSID 是 GUID，這表示沒有其他類別具有相同的 CLSID。 使用唯一類別識別碼可避免類別之間的名稱衝突。 例如，兩個不同的廠商可以撰寫名為 CStack 的類別，但是這兩個類別都有唯一的 CLSID，因此可以避免任何可能發生衝突的情況。
 
-您可以使用 [**CoCreateGuid**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateguid) 函式或使用 COM 撰寫工具（例如 Visual Studio）來取得新的 CLSID，此工具會在內部呼叫此函式。
+您可以使用 [**CoCreateGuid**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateguid)函式或使用 COM 撰寫工具（例如 Visual Studio）來取得新的 CLSID，此工具會在內部呼叫此函式。
 
 ## <a name="the-iunknown-interface"></a>IUnknown 介面
 
@@ -89,7 +89,7 @@ COM 物件實例的存留期是由其 *參考計數* 所控制。 [**IUnknown**]
 
 ## <a name="the-clientserver-model"></a>用戶端/伺服器模型
 
-COM 類別會執行多個 COM 介面。 此實作為由呼叫端與 COM 類別的實例互動時所執行的二進位檔。 COM 可在不同的應用程式中使用類別，包括在不知道特定類別的情況下撰寫的應用程式。 在 Windows 平臺上，類別會存在於動態連結的程式庫 (DLL) 或另一個應用程式 (EXE) 中。
+COM 類別會執行多個 COM 介面。 此實作為由呼叫端與 COM 類別的實例互動時所執行的二進位檔。 COM 可在不同的應用程式中使用類別，包括在不知道特定類別的情況下撰寫的應用程式。 在 Windows 平臺上，類別會存在於動態連結的程式庫 (DLL) 或 (EXE) 的另一個應用程式中。
 
 在其主機系統上，COM 會針對安裝在系統上的 COM 物件，維護所有 Clsid 的註冊資料庫。 註冊資料庫是每個 CLSID 和裝載對應類別之 DLL 或 EXE 的位置之間的對應。 每當呼叫端想要建立 COM 類別的實例時，COM 就會查詢這個資料庫。 呼叫端必須知道 CLSID 才能要求類別的新實例。
 
@@ -108,7 +108,7 @@ COM 伺服器提供系統的 COM 執行。 伺服器會將 CLSID 與 COM 類別�
 
 若要啟用 COM 物件的建立，COM 伺服器必須提供 [**IClassFactory**](/windows/win32/api/unknwn/nn-unknwn-iclassfactory) 介面的實作為。 用戶端可以呼叫 [**CreateInstance**](/windows/desktop/api/Unknwn/nf-unknwn-iclassfactory-createinstance) 方法來要求 COM 物件的新實例，但這類要求通常會封裝在 [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) 函數中。
 
-您可以將 COM 伺服器部署為在執行時間載入至用戶端進程的共用程式庫 (Windows 平臺上的 DLL) 或作為 Windows 平臺上的可執行模組 (EXE) 。 如需詳細資訊，請參閱 [註冊 COM 應用程式](registering-com-applications.md)。
+您可以將 COM 伺服器部署為共用程式庫，該程式庫會在執行時間載入至用戶端的進程中 Windows 平臺上的 (DLL) 或作為 Windows 平臺) 上的可執行模組 (EXE。 如需詳細資訊，請參閱 [註冊 COM 應用程式](registering-com-applications.md)。
 
 ## <a name="service-control-manager"></a>服務控制管理員
 
@@ -143,19 +143,19 @@ COM 支援 *黑箱* 重複使用性，這表示可重複使用元件的執行詳
 
 COM 物件會使用 *結構化儲存區* 將狀態儲存至檔案，這是一種持續性儲存格式，可讓您使用檔案系統語義來流覽檔案的內容。 以這種方式來處理檔案的內容，可以在進程之間提供累加式存取、交易和共用等功能。
 
-COM 持續性儲存體規格提供兩種類型的儲存體元素：儲存物件和資料流程物件。 這些物件是由 COM 程式庫所執行，而且使用者應用程式很少會執行這些儲存元素。 儲存體物件會執行 [**IStorage**](/windows/desktop/api/objidl/nn-objidl-istorage) 介面，而資料流程物件則會執行 [**IStream**](/windows/desktop/api/objidl/nn-objidl-istream) 介面。
+COM 持續性儲存體規格提供兩種類型的儲存體元素：儲存物件和資料流程物件。 這些物件是由 COM 程式庫所執行，而且使用者應用程式很少會執行這些儲存元素。 儲存體物件會執行 [**IStorage**](/windows/desktop/api/objidl/nn-objidl-istorage)介面，而資料流程物件則會執行 [**IStream**](/windows/desktop/api/objidl/nn-objidl-istream)介面。
 
 資料流程物件包含資料，而且在概念上類似于檔案系統中的單一檔案。 每個串流都具有存取權限和單一搜尋指標。 透過 [**IStream**](/windows/desktop/api/objidl/nn-objidl-istream) 介面，您可以讀取、寫入、搜尋和執行資料流程基礎資料的其他作業。 資料流程的命名方式是使用文字字串。 它可以包含任何內部結構，因為這是一般的位元組資料流程。 此外， **IStream** 介面中的函式類似于標準檔案處理型函式，例如 ANSI C 執行時間程式庫中的函數。
 
 儲存物件在概念上類似于檔案系統中的目錄。 每個儲存體可包含任意數目的子儲存體物件和任意數量的資料流程。 每個儲存體都有自己的存取權限。 透過 [**IStorage**](/windows/desktop/api/objidl/nn-objidl-istorage) 介面，您可以執行像是列舉、移動、複製、重新命名、建立及刪除元素等作業。 儲存物件不會儲存應用程式定義的資料，但會以隱含的方式儲存專案名稱， (儲存和它所包含的資料流程) 。
 
-當程式是根據主機平臺上的 COM 規格來執行時，可以在進程間共用儲存和資料流程物件。 這可讓執行同進程或跨進程的物件擁有相同的累加式存取權來存取其檔案儲存體。 由於 COM 會個別載入至每個進程，因此它會使用作業系統支援的共用記憶體機制，來傳達開啟專案的狀態及其處理常式之間的存取模式。
+當程式是根據主機平臺上的 COM 規格來執行時，可以在進程間共用儲存體和資料流程物件。 這可讓執行同進程或跨進程的物件擁有相同的累加式存取權來存取其檔案儲存體。 由於 COM 會個別載入至每個進程，因此它會使用作業系統支援的共用記憶體機制，來傳達開啟專案的狀態及其處理常式之間的存取模式。
 
-結構化檔案中的每個儲存和資料流程物件都有一個名稱來識別它。 名稱是遵循特定慣例的字串。 如需詳細資訊，請參閱 [儲存物件命名慣例](/windows/desktop/Stg/storage-object-naming-conventions)。 名稱會傳遞至 [**IStorage**](/windows/desktop/api/objidl/nn-objidl-istorage) 函式，以指定要在儲存體中操作的元素。 根儲存物件的名稱與基礎檔案系統中的檔案名相同，而且這些名稱必須遵循檔案系統的慣例和限制。 傳遞給儲存相關函式的字串，這些函式會將名稱檔案傳遞至檔案系統，而不需要解讀或變更。
+結構化檔案中的每個儲存和資料流程物件都有一個名稱來識別它。 名稱是遵循特定慣例的字串。 如需詳細資訊，請參閱[儲存體物件命名慣例](/windows/desktop/Stg/storage-object-naming-conventions)。 名稱會傳遞至 [**IStorage**](/windows/desktop/api/objidl/nn-objidl-istorage) 函式，以指定要在儲存體中操作的元素。 根儲存物件的名稱與基礎檔案系統中的檔案名相同，而且這些名稱必須遵循檔案系統的慣例和限制。 傳遞給儲存相關函式的字串，這些函式會將名稱檔案傳遞至檔案系統，而不需要解讀或變更。
 
 包含在儲存物件內的專案名稱，是由有問題的特定儲存物件的實作為管理。 所有儲存體物件的執行都必須支援長度為32個字元的專案名稱，而某些執行可能會支援較長的名稱。 名稱會儲存並保留大小寫，但會比較為不區分大小寫。 定義儲存元素名稱的應用程式必須選擇可在任一情況下運作的名稱。
 
-您可以使用 COM 所執行的函式和介面，來存取結構化儲存體檔案中的每個元素。 這表示其他應用程式可以流覽檔案，方法是以提供類似目錄服務的 [**IStorage**](/windows/desktop/api/objidl/nn-objidl-istorage) 介面函式進行流覽。 此外，其他應用程式也可以使用檔案的資料，而不需要執行寫入檔案的應用程式。 當 COM 應用程式存取另一個應用程式的結構化儲存體檔案時，會套用標準的 Windows 存取權限，而且應用程式必須有足夠的許可權。
+您可以使用 COM 所執行的函式和介面，來存取結構化儲存體檔案中的每個元素。 這表示其他應用程式可以流覽檔案，方法是以提供類似目錄服務的 [**IStorage**](/windows/desktop/api/objidl/nn-objidl-istorage) 介面函式進行流覽。 此外，其他應用程式也可以使用檔案的資料，而不需要執行寫入檔案的應用程式。 當 COM 應用程式存取另一個應用程式的結構化儲存體檔案時，會套用標準 Windows 存取權限，而且應用程式必須有足夠的許可權。
 
 COM 物件可以讀取和寫入持續性儲存區。 用戶端會根據作業的內容，查詢 COM 物件的其中一個持續性相關的介面。 COM 物件可以執行下列介面的任何組合：
 
@@ -165,7 +165,7 @@ COM 物件可以讀取和寫入持續性儲存區。 用戶端會根據作業的
 
 ## <a name="data-transfer"></a>資料轉送
 
-結構化儲存體提供 COM 物件與進程之間的資料交換基礎，名為「 *制式資料傳輸*」。 在 OLE 2 中執行 COM 之前，Windows 上的資料傳輸是由 *傳輸通訊協定*（例如剪貼簿和拖放通訊協定）所指定。 每個傳輸通訊協定都有自己的一組函式，這些函式會將通訊協定系結至查詢，而且需要特定程式碼來處理每個不同的通訊協定和交換程式。 制式資料傳輸代表使用 [**IDataObject**](/windows/desktop/api/ObjIdl/nn-objidl-idataobject) 介面的所有資料傳輸，可將一般資料交換作業與傳輸通訊協定分隔開來。
+結構化儲存體提供 COM 物件與進程之間的資料交換基礎，名為「 *制式資料傳輸*」。 在 OLE 2 中執行 COM 之前，Windows 的資料傳輸是由 *傳輸通訊協定*（例如剪貼簿和拖放通訊協定）所指定。 每個傳輸通訊協定都有自己的一組函式，這些函式會將通訊協定系結至查詢，而且需要特定程式碼來處理每個不同的通訊協定和交換程式。 制式資料傳輸代表使用 [**IDataObject**](/windows/desktop/api/ObjIdl/nn-objidl-idataobject) 介面的所有資料傳輸，可將一般資料交換作業與傳輸通訊協定分隔開來。
 
 [**IDataObject**](/windows/desktop/api/ObjIdl/nn-objidl-idataobject)介面會針對資料、查詢和列舉，以及當物件中的資料變更時偵測到的通知，封裝標準的 get 和 set 作業。 制式資料傳輸可提供豐富的資料格式描述，以及使用不同的儲存體媒體進行資料傳輸。
 

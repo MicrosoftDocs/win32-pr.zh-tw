@@ -1,19 +1,19 @@
 ---
-description: 此程式設計參考描述 Windows SDK 中的核心音訊 Api。 音訊核心 Api 會在 Mmdevapi.dll 和 Audioses.dll 中執行。
+description: 此程式設計參考描述 Windows SDK 中的核心音訊 api。 音訊核心 Api 會在 Mmdevapi.dll 和 Audioses.dll 中執行。
 ms.assetid: 80a0df34-5f67-4f61-b9c7-a586d1870765
 title: 核心音訊程式設計參考
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7c8c3f3d5ead190cf3151629f015095b404be778
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 4cf2eae3d3a8d349c4a8b2f91963b699e66bedaa72ed0cfa5f4103ee69a6e7b2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112405841"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119750678"
 ---
 # <a name="core-audio-programming-reference"></a>核心音訊程式設計參考
 
-Windows SDK 中核心音訊 Api 的這個程式設計參考包含下列各節：
+Windows SDK 中核心音訊 api 的這個程式設計參考包含下列各節：
 
 -   [核心音訊介面](core-audio-interfaces.md)
 -   [核心音訊結構](core-audio-structures.md)

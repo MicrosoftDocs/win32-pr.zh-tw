@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6b6242d43b661240d946d2883237640d1bc92b3f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ec1034a229dbb1f3895726fcb3c1551e2dd0f390be0fd7bc2eb81d8331e582eb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384937"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119810098"
 ---
 # <a name="wm_touch-message"></a>WM \_ 觸控訊息
 
@@ -103,9 +103,9 @@ return DefWindowProc(hWnd, message, wParam, lParam);
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                                               |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/>                                                  |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                                               |
+| 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/>                                                  |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 
@@ -119,7 +119,7 @@ return DefWindowProc(hWnd, message, wParam, lParam);
 [操作和慣性程式設計指南](manipulation-and-inertia.md)
 </dt> <dt>
 
-[Windows Touch 輸入程式設計指南](guide-multi-touch-input.md)
+[Windows觸控輸入程式設計指南](guide-multi-touch-input.md)
 </dt> </dl>
 
  

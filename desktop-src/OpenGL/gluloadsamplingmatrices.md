@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 293b8bace0dff7d89bfcffa2af33738e0e59de7a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e41b2f6b25e0cecf0d13d87760a941d5ea68baa1fdd85495c8a316e862c77aec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106999811"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119777528"
 ---
 # <a name="gluloadsamplingmatrices-function"></a>gluLoadSamplingMatrices 函式
 

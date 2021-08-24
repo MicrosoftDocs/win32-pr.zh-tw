@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 2eb10963372519827eb544371ebb0df04df2e178
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 4396f060d33efef454e87d8594c2b4ca29e46cbcbc08151cacaa76a7a4965735
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108109136"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119852848"
 ---
 # <a name="d3dxmatrixorthooffcenterlh-function-d3dx10mathh"></a>D3DXMatrixOrthoOffCenterLH 函式 (D3DX10Math) 
 

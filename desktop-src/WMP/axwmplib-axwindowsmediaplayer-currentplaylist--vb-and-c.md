@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0a0f5b91a2e65b81fd1f13da0bad5f77c5ea1415
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f976084773a333e40c0a278878e9a35ed913e5911ec732c0dccfe6525e5f45a4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106999297"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119765258"
 ---
 # <a name="axwindowsmediaplayercurrentplaylist-property"></a>AxWindowsMediaPlayer. currentPlaylist 屬性
 
@@ -109,19 +109,19 @@ currentPlaylistLabel.Text = (&quot;Found first playlist. Name = &quot; + player.
 [**AxWindowsMediaPlayer. [] (VB 和 c # )**](axwmplib-axwindowsmediaplayer-newplaylist.md)
 </dt> <dt>
 
-[**AxWindowsMediaPlayer VB 和 c # 的 (設定 )**](axwmplib-axwindowsmediaplayer-settings--vb-and-c.md)
+[**AxWindowsMediaPlayer (VB 和 c # ) 的設定**](axwmplib-axwindowsmediaplayer-settings--vb-and-c.md)
 </dt> <dt>
 
 [**IWMPPlaylist 介面 (VB 和 c # )**](iwmpplaylist--vb-and-c.md)
 </dt> <dt>
 
-[**IWMPPlaylistArray (VB 和 c # )**](wmplibiwmpplaylistarray-iwmpplaylistarray-item--vb-and-c.md)
+[**IWMPPlaylistArray (VB 和 c # ) 的專案**](wmplibiwmpplaylistarray-iwmpplaylistarray-item--vb-and-c.md)
 </dt> <dt>
 
 [**IWMPPlaylistCollection. [] (VB 和 c # )**](wmplibiwmpplaylistcollection-iwmpplaylistcollection-newplaylist--vb-and-c.md)
 </dt> <dt>
 
-[**IWMPSettings (VB 和 c # )**](wmplibiwmpsettings-iwmpsettings-autostart--vb-and-c.md)
+[**IWMPSettings (VB 和 c # 的 autoStart )**](wmplibiwmpsettings-iwmpsettings-autostart--vb-and-c.md)
 </dt> </dl>
 
  

@@ -14,12 +14,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 469c8f04664f72b88e5a4378cb318b52f32fba24
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5ae5623f4d05bc4c0e5460415656f59d8b91eeedfe1671cae6a36c7a33e0a86f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103851864"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119766418"
 ---
 # <a name="splitio_info-class"></a>SplitIo \_ 資訊類別
 
@@ -92,8 +92,8 @@ class SplitIo_Info : SplitIo
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

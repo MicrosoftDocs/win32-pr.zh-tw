@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: d252b1586ccea7d1c8134af53bd71a624bde13e1
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: d2ba005dec2584c5b9b581bff1d4eb465a78ff3301cf4c2d17528f92dbe740c7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103935829"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119792338"
 ---
 # <a name="igrfcache-interface"></a>IGrfCache 介面
 
@@ -36,7 +36,7 @@ ms.locfileid: "103935829"
 
 <dl> <dt>
 
-[DirectShow 編輯服務 c + + 參考](directshow-editing-services-c---reference.md)
+[DirectShow編輯服務 c + + 參考](directshow-editing-services-c---reference.md)
 </dt> </dl>
 
  

@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 0ca3332c441279d7f9221efe8cfa7638908ddc44
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: c08c0d68a57180c8d2cf0b566caaaa383f34fc0b9f096e34484811a73a20d0fa
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104971768"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119854698"
 ---
 # <a name="shader-type"></a>著色器類型
 

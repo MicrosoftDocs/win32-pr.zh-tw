@@ -4,12 +4,12 @@ ms.assetid: b1def588-6c9c-4853-a69b-1ba5df8b5ba2
 title: Quality-Control 管理
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c68aff4f8c054f9f649801e1b9829ccd7daaff35
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 824410b697a29ee73fc269748595fdcae91d054a161561b282536a05dcf92ef5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106971090"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119747708"
 ---
 # <a name="quality-control-management"></a>Quality-Control 管理
 
@@ -24,10 +24,10 @@ ms.locfileid: "106971090"
 
 <dl> <dt>
 
-[篩選開發人員的資料流程](data-flow-for-filter-developers.md)
+[篩選準則開發人員的資料 Flow](data-flow-for-filter-developers.md)
 </dt> <dt>
 
-[撰寫 DirectShow 篩選器](writing-directshow-filters.md)
+[撰寫 DirectShow 篩選](writing-directshow-filters.md)
 </dt> </dl>
 
  

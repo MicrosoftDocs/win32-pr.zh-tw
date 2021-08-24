@@ -4,12 +4,12 @@ description: 有條件地呼叫以程式中的標籤 l 出現位置標示的副�
 ms.assetid: 7F6E81CE-0C38-499B-B83E-FA76FA154451
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d6bc8c9d1e4a99ce25f99253518482181cdb74d8
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
-ms.translationtype: HT
+ms.openlocfilehash: dcb751b57a09704a2fec7a9c3afb69362873e3a1d2b43091efd984f67623188a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104990759"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119727158"
 ---
 # <a name="callc-sm4---asm"></a>callc (sm4-asm) 
 
@@ -93,9 +93,9 @@ ms.locfileid: "104990759"
 | [著色器模型5](d3d11-graphics-reference-sm5.md)        | 是       |
 | [著色器模型4。1](dx-graphics-hlsl-sm4.md)              | 是       |
 | [著色器模型4](dx-graphics-hlsl-sm4.md)                | 是       |
-| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 不可以        |
-| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 不可以        |
-| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 不可以        |
+| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 否        |
+| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 否        |
+| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 否        |
 
 
 
