@@ -3,18 +3,18 @@ title: 狀態字型
 description: 狀態字型
 ms.assetid: eba697e8-8be5-4692-b7b2-a52c5642022a
 keywords:
-- Windows Media Player 行動外觀、狀態顯示
+- Windows Media Player行動外觀、狀態顯示
 - 外觀，狀態顯示
 - 外觀的參考、狀態顯示
 - 外觀、字型中的狀態顯示
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c5a773f3baaeda0eaa90dfe0702957b5b7888271
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a1dea59b7d8afb40fab628a774f348c787c05ba5d0c08eb65846aa8d9482a617
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103932489"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119507658"
 ---
 # <a name="status-font"></a>狀態字型
 
@@ -26,14 +26,14 @@ ms.locfileid: "103932489"
 
 
 
-| 字樣       | Description              |
+| 字樣       | 描述              |
 |----------------|--------------------------|
 | Tahoma         | Sans-serif 字型。   |
 | 華文中的主控台 | 雙 serif 字型。 |
 
 
 
- 
+ 
 
 **大小值**
 
@@ -52,7 +52,7 @@ ms.locfileid: "103932489"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -61,9 +61,9 @@ ms.locfileid: "103932489"
 [**地位**](status.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

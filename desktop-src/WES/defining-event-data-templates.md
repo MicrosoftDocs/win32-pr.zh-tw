@@ -4,12 +4,12 @@ description: 提供者會使用資料範本來定義事件特定的資料，這�
 ms.assetid: 064227a2-7ce8-461a-9dc0-7519652e6628
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 067230472c8de5ce29145e221c109b3f390f0a6c
-ms.sourcegitcommit: c2a1c4314550ea9bd202d28adfcc7bfe6180932f
+ms.openlocfilehash: d5480ca158916801665943bd33b886bfcd5d73015e8730c1dd108123dadc1995
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "103841980"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119652608"
 ---
 # <a name="defining-event-data-templates"></a>定義事件資料範本
 
@@ -31,7 +31,7 @@ ms.locfileid: "103841980"
 
 您應該仔細考慮事件中所包含的資訊，特別是當事件寫入至全域通道時。 一般來說，您不應該在事件中包含私用資訊。 這包括純文字密碼和個人使用者資訊。 此外，使用者所執行的程式、使用者造訪的 Url，以及與電腦上使用者活動相關的其他資訊，都應該視為私用。
 
-如果您必須記錄事件中的 Url 和使用者名稱，請勿將它們寫入 Windows 通道 (系統和應用程式) ，因為所有已驗證的使用者都可以讀取這些通道。 相反地，請將它們寫入您自己的操作或分析通道。 設定這些通道上的存取權限，以僅允許系統管理員讀取事件。 您可能需要提供適當的洩漏，以通知使用者系統管理員可以使用私用資訊。
+如果您必須記錄事件中的 url 和使用者名稱，請勿將它們寫入 Windows 通道 (系統和應用程式) 因為所有已驗證的使用者都可以讀取這些通道。 相反地，請將它們寫入您自己的操作或分析通道。 設定這些通道上的存取權限，以僅允許系統管理員讀取事件。 您可能需要提供適當的洩漏，以通知使用者系統管理員可以使用私用資訊。
 
 下列範例顯示如何定義範本。 您必須指定您在事件定義或篩選定義中參考的範本 **tid** 屬性。
 

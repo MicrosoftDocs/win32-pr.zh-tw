@@ -13,16 +13,16 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: d9f3b58353163e1ee5b9abeb04007a4a9d449e5c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7f3923e0a42375ac7d926d418943af81cc0264e111e6bdc4be56919780dfacf7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106968994"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119652148"
 ---
 # <a name="opcode-taskeventdefinitiontype-element"></a>opcode (TaskEventDefinitionType) 元素
 
-\[從 Windows 7 版 Windows SDK 隨附的訊息編譯器開始，此專案已無法再使用。\]
+\[從 Windows SDK Windows 7 版隨附的訊息編譯器開始，此專案已無法再使用。\]
 
 包含事件的工作特定作業碼。 所有的 opcode 定義都假設為包含事件定義之工作的特定工作。
 
@@ -49,7 +49,7 @@ ms.locfileid: "106968994"
 
 
 
-| 元素                                                   | 類型                                                                               | Description                                        |
+| 元素                                                   | 類型                                                                               | 描述                                        |
 |-----------------------------------------------------------|------------------------------------------------------------------------------------|----------------------------------------------------|
 | [**事件**](eventmanifestschema-event-opcode-element.md) | [**EventDefinitionType**](eventmanifestschema-eventdefinitiontype-complextype.md) | 與工作一起發行的事件。<br/> |
 
@@ -71,8 +71,8 @@ ms.locfileid: "106968994"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

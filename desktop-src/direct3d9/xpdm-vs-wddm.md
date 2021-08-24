@@ -1,19 +1,19 @@
 ---
-description: Direct3D 9 API 會根據安裝的作業系統，在 Windows XP 顯示驅動程式模型 ([) ] 或 [Windows Vista 顯示驅動程式模型 (WDDM) ] 上運作。
+description: 根據安裝的作業系統而定，Direct3D 9 API 會在 Windows XP 顯示驅動程式模型 () 或 Windows Vista 顯示驅動程式模型 (WDDM) 上運作。
 ms.assetid: b552c822-aa01-4f1d-a0a6-1411ab006e7b
 title: XPDM 和 WDDM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e12c7d811850c953eb53c346b628363a2642dda9
-ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
+ms.openlocfilehash: c0332198cd7c9425a3b5a107259dda1b1e974a04a2379244cdf939384260a89f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "110343533"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119746048"
 ---
 # <a name="xpdm-vs-wddm"></a>XPDM 和 WDDM
 
-Direct3D 9 API 會根據安裝的作業系統，在 Windows XP 顯示驅動程式模型 ([) ] 或 [Windows Vista 顯示驅動程式模型 (WDDM) ] 上運作。 Direct3D API 在兩個驅動程式模型上的運作方式有一些差異。
+根據安裝的作業系統而定，Direct3D 9 API 會在 Windows XP 顯示驅動程式模型 () 或 Windows Vista 顯示驅動程式模型 (WDDM) 上運作。 Direct3D API 在兩個驅動程式模型上的運作方式有一些差異。
 
 -   [安全桌面](#secure-desktop)
 -   [遠端桌面](#remote-desktop)
@@ -22,7 +22,7 @@ Direct3D 9 API 會根據安裝的作業系統，在 Windows XP 顯示驅動程�
 
 ## <a name="secure-desktop"></a>安全桌面
 
-只要發生下列任何一種情況，安全桌面就會處於作用中狀態：使用者將桌面鎖定 (Windows + L) 、螢幕保護裝置會在沒有使用者登入) 時啟動 (，或在使用者帳戶控制顯示提示時預設為啟用。 當安全桌面處於作用中狀態時，就無法存取 HAL 裝置。
+只要發生下列任何一種情況，安全桌面就會處於作用中狀態：使用者會鎖定其桌面 (Windows + L) 、螢幕保護裝置會在沒有使用者登入) 時啟用 (，或是在使用者帳戶控制顯示提示時預設為啟用。 當安全桌面處於作用中狀態時，就無法存取 HAL 裝置。
 
 XPDM 和 WDDM 之間的差異：
 
@@ -89,7 +89,7 @@ XPDM 和 WDDM 之間的差異：
 
  
 
-如需有關 XPDM、WDDM、Direct3D9Ex 和 Direct3D 10 的詳細資訊，請參閱 [Windows 中的圖形 api](../direct3darticles/graphics-apis-in-windows-vista.md)。
+如需有關 XPDM、WDDM、Direct3D9Ex 和 Direct3D 10 的詳細資訊，請參閱[Windows 中的圖形 api](../direct3darticles/graphics-apis-in-windows-vista.md)。
 
 ## <a name="related-topics"></a>相關主題
 

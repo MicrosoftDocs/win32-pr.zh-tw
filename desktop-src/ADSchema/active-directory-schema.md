@@ -7,12 +7,12 @@ keywords:
 - Active Directory 架構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3b4c3393a6da1b8d1bd2c2418084c8f7fc657732
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 3259bf94049c877bb57cd575061cc1b447b8acb352613291e392b074deca6d39
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106968693"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119702398"
 ---
 # <a name="active-directory-schema-ad-schema"></a>Active Directory 架構 (AD 架構) 
 
@@ -38,7 +38,7 @@ Microsoft Active Directory 架構包含可在 Active Directory 樹系中建立�
 
  
 
-如果主題中未列出作業系統，則該作業系統不支援該主題。 例如，如果主題只列出 Windows Server 2003 和 ADAM，則本主題不適用於 Windows Server 2003 R2。
+如果主題中未列出作業系統，則該作業系統不支援該主題。 例如，如果主題只列出 Windows server 2003 和 ADAM，則本主題不適用於 Windows server 2003 R2。
 
 下列各節包含 Active Directory 架構元素的詳細資訊。
 

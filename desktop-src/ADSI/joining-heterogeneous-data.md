@@ -5,12 +5,12 @@ ms.assetid: 45281b42-5cb2-42f9-9c7c-f3e3174b0f9d
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7e1099028bc85dc6492eade0315b7308b4c6aaa9
-ms.sourcegitcommit: 78b64f3865e64768b5319d4f010032ee68924a98
+ms.openlocfilehash: 409ac4e82d735f5099bb8846a59683075007c3fbdf56600bc5ae01e6863ffa2a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "107314611"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119656998"
 ---
 # <a name="joining-heterogeneous-data"></a>聯結異質資料
 
@@ -20,7 +20,7 @@ ms.locfileid: "107314611"
 
 **使用 SQL Server 資料聯結 Active Directory 資料**
 
-1.  執行 **SQL 查詢分析器** (啟動 \| 程式 \| Microsoft SQL Server 7.0) 
+1.  執行 **SQL Query Analyzer** (啟動 \| 程式 \| Microsoft SQL Server 7.0) 
 2.  登入 SQL Server 電腦。
 3.  藉由反白顯示並按下 CTRL + E)  (來執行下行：
 

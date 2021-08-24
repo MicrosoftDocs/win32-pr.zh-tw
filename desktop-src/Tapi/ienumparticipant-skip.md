@@ -4,16 +4,16 @@ ms.assetid: 7f641354-c3f5-4eb3-ad1c-98abf7694106
 title: 'IEnumParticipant：： Skip 方法 (Confpriv .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6dc406a69c126c25b1c554679595868a595b839b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 25a55eb3298578738bb427efd6ab2b830b9a7850668aa3c9fa4712cc1bf48d22
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995009"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119660698"
 ---
 # <a name="ienumparticipantskip-method"></a>IEnumParticipant：： Skip 方法
 
-\[**Skip** 無法在 windows Vista、windows Server 2008 和後續版本的作業系統中使用。 RTC 用戶端 API 提供類似的功能。\]
+\[**Skip** 無法在 Windows Vista、Windows Server 2008 和後續版本的作業系統中使用。 RTC 用戶端 API 提供類似的功能。\]
 
 **Skip** 方法會略過列舉順序中的下一個指定元素數目。 這種方法在 Visual Basic 和指令碼語言中是隱藏的。
 
@@ -45,7 +45,7 @@ HRESULT Skip(
 
 
 
-| 傳回碼                                                                                   | Description                                                     |
+| 傳回碼                                                                                   | 描述                                                     |
 |-----------------------------------------------------------------------------------------------|-----------------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>          | 略過的元素數目 *celt*。<br/>               |
 | <dl> <dt>**S \_ FALSE**</dt> </dl>       | 未 *celt* 略過的元素數目。<br/>           |

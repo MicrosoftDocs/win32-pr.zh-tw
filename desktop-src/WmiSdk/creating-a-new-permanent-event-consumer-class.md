@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 03f8ae8e1e83abcf3b340398d45aefde4c7141e2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f86f9e8ea4339eb76bdc77087780fcfa9be09f47c92a154c5f89109d90337b41
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106993075"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119464278"
 ---
 # <a name="creating-a-new-permanent-event-consumer-class"></a>建立新的永久事件取用者類別
 

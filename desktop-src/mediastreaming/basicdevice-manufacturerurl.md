@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: ea2df39b5307a3eb895005630d3879c63cb11d7f
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 9bc0a5c603f7763b037344dd35b288567626cb2a0d070d35c8f29ec3d52cf9f4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104375256"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119721278"
 ---
 # <a name="basicdevicemanufacturerurl-property"></a>BasicDevice. ManufacturerUrl 屬性
 
@@ -33,7 +33,7 @@ ms.locfileid: "104375256"
 
 ```C++
 HRESULT get_ManufacturerUrl(
-  [out] HSTRING *value
+  [out] HSTRING *value
 );
 ```
 
@@ -50,6 +50,6 @@ HRESULT get_ManufacturerUrl(
 [**BasicDevice**](/previous-versions/windows/desktop/legacy/hh828813(v=vs.85))
 </dt> </dl>
 
- 
+ 
 
- 
+ 

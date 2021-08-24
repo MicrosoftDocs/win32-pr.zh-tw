@@ -1,19 +1,19 @@
 ---
-title: Windows 動畫範例
+title: Windows動畫範例
 description: 本節所包含的主題會提供支援 Windows 動畫管理員檔的程式碼範例詳細資料。
 ms.assetid: 33b1770a-5acb-4ab5-999c-9663f4c075f0
 keywords:
-- Windows 動畫視窗動畫、範例
+- Windows動畫 Windows 動畫、範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2c2fe31e7fa12feab010bec3da710d4b2b80dd1d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c9119ab7333f1f5d74b9be9998ad26b36139f9a92d88fec856d3f4572d12f431
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104301700"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119656148"
 ---
-# <a name="windows-animation-samples"></a>Windows 動畫範例
+# <a name="windows-animation-samples"></a>Windows動畫範例
 
 本節所包含的主題會提供支援 Windows 動畫管理員檔的程式碼範例詳細資料。
 
@@ -26,8 +26,8 @@ ms.locfileid: "104301700"
 | [應用程式驅動的動畫範例](application-driven-animation-sample.md)<br/> |                                                                                                                     |
 | [計時器驅動動畫範例](timer-driven-animation-sample.md)<br/>             |                                                                                                                     |
 | [自訂插即用範例](custom-interpolator-sample.md)<br/>                   | 示範如何搭配使用 Windows 動畫與您自己的自訂插即用來呈現 Direct2D。 <br/> |
-| [方格版面配置範例](grid-layout-sample.md)<br/>                                   | 示範如何使用 Direct2D 以動畫顯示影像的方格，以使用 Windows 動畫。 <br/>                         |
-| [優先順序比較範例](priority-comparison-sample.md)<br/>                   | 示範如何使用 Direct2D 轉譯來搭配使用 Windows 動畫與您自己的優先順序比較。<br/>      |
+| [方格版面配置範例](grid-layout-sample.md)<br/>                                   | 示範如何使用 Direct2D 以動畫顯示影像的格線，以使用 Windows 動畫。 <br/>                         |
+| [優先順序比較範例](priority-comparison-sample.md)<br/>                   | 示範如何使用 Direct2D 進行轉譯，以搭配您自己的優先順序比較來使用 Windows 動畫。<br/>      |
 
 
 
@@ -92,10 +92,10 @@ ms.locfileid: "104301700"
 
 <dl> <dt>
 
-[Windows 動畫開發指南](windows-animation-developer-guide.md)
+[Windows動畫開發指南](windows-animation-developer-guide.md)
 </dt> <dt>
 
-[Windows 動畫參考](windows-animation-reference.md)
+[Windows動畫參考](windows-animation-reference.md)
 </dt> </dl>
 
  

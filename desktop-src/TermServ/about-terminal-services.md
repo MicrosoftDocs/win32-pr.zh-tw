@@ -7,12 +7,12 @@ keywords:
 - 遠端桌面服務遠端桌面服務，關於
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4644170cfca3b4bacdd6db647e35549d56844e9b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 680ccae3d8944c92d64da526831142d662ac5dc38157c741cf8f5426768fc745
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106966413"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119681458"
 ---
 # <a name="about-remote-desktop-services"></a>關於遠端桌面服務
 
@@ -38,7 +38,7 @@ ms.locfileid: "106966413"
 [遠端桌面通訊協定](remote-desktop-protocol.md)
 </dt> <dd>
 
-Microsoft 遠端桌面通訊協定 (RDP) 針對在伺服器上執行的 Windows 應用程式，提供網路連線的遠端顯示和輸入功能。
+Microsoft 遠端桌面通訊協定 (RDP) 針對在伺服器上執行的 Windows 型應用程式，提供網路連線的遠端顯示和輸入功能。
 
 </dd> <dt>
 
@@ -98,9 +98,9 @@ Microsoft 遠端桌面通訊協定 (RDP) 針對在伺服器上執行的 Windows 
 [使用遠端桌面連線連接到其他電腦](https://windows.microsoft.com/windows/connect-using-remote-desktop-connection#connect-using-remote-desktop-connection=windows-7)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

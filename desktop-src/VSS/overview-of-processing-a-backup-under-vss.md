@@ -4,12 +4,12 @@ ms.assetid: d7acb2a2-bb58-47e3-a950-d32f663ae36d
 title: 在 VSS 下處理備份的總覽
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 08a11aeab87b503241acefdd15a153c9e417e537
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e60874b1c66bcc75788912f54e5b3ffc8314f1bc0d0ad6d92b815725af727936
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318984"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119510008"
 ---
 # <a name="overview-of-processing-a-backup-under-vss"></a>在 VSS 下處理備份的總覽
 

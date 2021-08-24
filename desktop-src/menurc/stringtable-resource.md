@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 271abd022bdedd3b27e0434e7364542fa51c8987
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 7994b6853195ba164c766ca6ee275e4535ab1249c0c78907ab996b9dc644013a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104092725"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119720648"
 ---
 # <a name="stringtable-resource"></a>STRINGTABLE 資源
 
@@ -59,7 +59,7 @@ END
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -173,6 +173,6 @@ END
 [**版本**](version-statement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

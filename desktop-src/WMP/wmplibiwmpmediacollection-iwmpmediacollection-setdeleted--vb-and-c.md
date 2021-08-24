@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 57ccf8cf2d36ab7e4aaf76fdbe5c28582650fcda
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7516d6aab26659fa2bba57bd961671b4dca0f92d367d5d9bb1f048e8fd19eb2e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106999399"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119505948"
 ---
 # <a name="iwmpmediacollectionsetdeleted-method"></a>IWMPMediaCollection：： setDeleted 方法
 

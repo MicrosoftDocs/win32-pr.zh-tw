@@ -6,21 +6,21 @@ keywords:
 - Windows Media Player，播放清單
 - Windows Media Player 物件模型，播放清單
 - 物件模型，播放清單
-- Windows Media Player 行動裝置、播放清單
-- Windows Media Player ActiveX 控制項，播放清單
-- Windows Media Player 的行動 ActiveX 控制項、播放清單
+- Windows Media Player行動裝置、播放清單
+- Windows Media Player ActiveX 控制項、播放清單
+- Windows Media Player行動 ActiveX 控制項、播放清單
 - ActiveX 控制項，播放清單
 - 播放清單，管理
 - 中繼檔播放清單，管理
-- Windows Media 中繼檔播放清單，管理
+- Windows媒體中繼檔播放清單，管理
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 282684b71fd1b36ec3dbf477dd86a4975d57534a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0c25ada37f19342e3bea9a4c08a039f3c84da83ae7eca2f0dc9a1af48a18cc83
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104311534"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119468178"
 ---
 # <a name="managing-playlists"></a>管理播放清單
 
@@ -47,9 +47,9 @@ ms.locfileid: "104311534"
 [**使用程式庫**](working-with-the-library.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

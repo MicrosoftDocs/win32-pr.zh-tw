@@ -14,12 +14,12 @@ dev_langs:
 - JScript
 - VB
 - other
-ms.openlocfilehash: 14c82eaae707f23c8f696593496d556bfa61277a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 768064e19af76a03aa0d4f11c087f8d7ff7086b04cd1de46edfb504ba8e6be2e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944393"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119614471"
 ---
 # <a name="microsoftisamesentinteropwindows8-namespace"></a>Windows8 命名空間。
 
@@ -90,7 +90,7 @@ ms.locfileid: "103944393"
 <tr class="header">
 <th> </th>
 <th>代理人</th>
-<th>Description</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>

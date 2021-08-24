@@ -4,12 +4,12 @@ description: 增加或減少影像的曝光。
 ms.assetid: d384f539-5c19-53c7-e52b-bf833e221449
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cb6f5bda52fecc0b5e3896515b04a6560f17da49
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: bcdcd99e125251c3144d96ffd6054897e6801eb3299c1d1ae90e37494620faea
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934761"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119652920"
 ---
 # <a name="exposure-effect"></a>曝光效果
 
@@ -56,8 +56,8 @@ m_d2dContext->EndDraw();
 
 | 需求 | 值 |
 |--------------------------|---------------------------------------------------|
-| 最低支援的用戶端 | Windows 10 \[ 桌面應用程式 \| Windows Store 應用程式\] |
-| 最低支援的伺服器 | Windows 10 \[ 桌面應用程式 \| Windows Store 應用程式\] |
+| 最低支援的用戶端 | Windows 10 \[桌面應用程式 \| Windows 儲存應用程式\] |
+| 最低支援的伺服器 | Windows 10 \[桌面應用程式 \| Windows 儲存應用程式\] |
 | 標頭                   | d2d1effects \_ 2。h                                  |
 | 程式庫                  | d2d1 .lib，dxguid .lib                              |
 

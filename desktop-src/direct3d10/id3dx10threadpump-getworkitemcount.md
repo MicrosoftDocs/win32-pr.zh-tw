@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 71c7bf8f73b79982b933ee5fa0481dc361685682
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: e3980d2fc0e1756d1c3dc322bc053ca4d041efe7c7942a14acb8465553aff136
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104196451"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119634198"
 ---
 # <a name="id3dx10threadpumpgetworkitemcount-method"></a>ID3DX10ThreadPump：： GetWorkItemCount 方法
 

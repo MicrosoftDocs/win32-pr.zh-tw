@@ -4,12 +4,12 @@ ms.assetid: b391c256-5165-4c5c-a45a-dee74e32d391
 title: Rect. Intersect 方法
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: d37ba632e46f5894b2a27ecbe58c1d5b3fa21a3d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 90edb78d55416c5ca3e765efff5787ee6a7e8fbb040bb66dd01837712829e0e8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848878"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119467538"
 ---
 # <a name="rectintersect-methods"></a>Rect. Intersect 方法
 

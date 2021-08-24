@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102676
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 12497e2f460b415313e93d286275279d79a8488a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d7cb416505ed37b3bd4cebcb09cb2cff34e9e10e0c4f2ebf52ede69b672ea283
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104552346"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119722014"
 ---
 # <a name="esentrunninginoneinstancemodeexception-properties"></a>EsentRunningInOneInstanceModeException 屬性
 

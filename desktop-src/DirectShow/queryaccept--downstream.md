@@ -4,12 +4,12 @@ ms.assetid: 3ca30f62-c320-40ea-9bf5-022abad912c4
 title: 'QueryAccept (下游) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9015e0a246abb9fb996c0771e4bc935cccda054d
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 87ec5c26209839f0dcd8351cc9a7ca84227faa2289d44d46c2c321fce0429e3f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104567093"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119747730"
 ---
 # <a name="queryaccept-downstream"></a>QueryAccept (下游) 
 
@@ -28,9 +28,9 @@ ms.locfileid: "104567093"
 
 **執行附注**
 
-在 DirectShow 基類中， [**CBasePin：： QueryAccept**](cbasepin-queryaccept.md) 會呼叫 **CheckMediaType** 方法，這個方法也會在初始 pin 連接期間呼叫。 在轉換篩選準則的案例中，輸入 pin 的 **CheckMediaType** 方法應該一律檢查輸出釘選是否已連接，如果是，輸入媒體類型是否與輸出媒體類型相容。 因此，此實作為的可能會是有效的 `QueryAccept` 。 如果沒有，您應該覆寫以便 `QueryAccept` 執行任何其他必要的檢查。 另請注意， [**CTransformFilter**](ctransformfilter.md) 類別會在 **CheckInputType** 和 **CheckTransform** 方法中封裝此邏輯。 另一方面， [**CTransInPlaceFilter**](ctransinplacefilter.md) 類別一律會呼叫 `QueryAccept` 下一個上游或下游篩選。
+在 DirectShow 基類中， [**CBasePin：： QueryAccept**](cbasepin-queryaccept.md)會呼叫 **CheckMediaType** 方法，這個方法也會在初始 pin 連接期間呼叫。 在轉換篩選準則的案例中，輸入 pin 的 **CheckMediaType** 方法應該一律檢查輸出釘選是否已連接，如果是，輸入媒體類型是否與輸出媒體類型相容。 因此，此實作為的可能會是有效的 `QueryAccept` 。 如果沒有，您應該覆寫以便 `QueryAccept` 執行任何其他必要的檢查。 另請注意， [**CTransformFilter**](ctransformfilter.md) 類別會在 **CheckInputType** 和 **CheckTransform** 方法中封裝此邏輯。 另一方面， [**CTransInPlaceFilter**](ctransinplacefilter.md) 類別一律會呼叫 `QueryAccept` 下一個上游或下游篩選。
 
-[**CBaseInputPin：： Receive**](cbaseinputpin-receive.md)方法會檢查傳入範例上的媒體類型，如果有的話，則會呼叫 **CheckMediaType**。 但是，它並不會更新釘選的 **m \_ mt** 成員，它會保留目前的媒體類型。 當您的篩選器處理範例時，您應該檢查範例中的媒體類型。 如果有新的類型，您可能需要在 pin 上呼叫 **SetMediaType** ，或直接設定 **m \_ mt** 的值來儲存它。 另一方面， [**CVideoTransformFilter**](cvideotransformfilter.md) 類別是針對影片轉換篩選而設計，它會在變更時儲存媒體類型。 如需詳細資訊，請參閱 DirectShow 基礎類別庫中 [**CVideoTransformFilter：： Receive**](cvideotransformfilter-receive.md) 的原始程式碼。
+[**CBaseInputPin：： Receive**](cbaseinputpin-receive.md)方法會檢查傳入範例上的媒體類型，如果有的話，則會呼叫 **CheckMediaType**。 但是，它並不會更新釘選的 **m \_ mt** 成員，它會保留目前的媒體類型。 當您的篩選器處理範例時，您應該檢查範例中的媒體類型。 如果有新的類型，您可能需要在 pin 上呼叫 **SetMediaType** ，或直接設定 **m \_ mt** 的值來儲存它。 另一方面， [**CVideoTransformFilter**](cvideotransformfilter.md) 類別是針對影片轉換篩選而設計，它會在變更時儲存媒體類型。 如需詳細資訊，請參閱 DirectShow 基礎類別庫中的 [**CVideoTransformFilter：： Receive**](cvideotransformfilter-receive.md)的原始程式碼。
 
 在某些情況下，您可以直接將 `QueryAccept` 呼叫傳遞給下游，然後將媒體類型附加至輸出範例，並讓下游篩選器處理格式變更。
 

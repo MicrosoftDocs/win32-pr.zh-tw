@@ -4,12 +4,12 @@ ms.assetid: f254e331-d574-4fa7-8447-6e4535d3d773
 title: 'LINE_CLOSE 訊息 (Tapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e7f4fde53d1017b2dcd9fe4ea833803055d9f2dd
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 68fec993987bfc3ca36099d90eed2beadde9a749f965a36ebb6c513c210f387b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106987095"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119682398"
 ---
 # <a name="line_close-message"></a>行 \_ 關閉訊息
 

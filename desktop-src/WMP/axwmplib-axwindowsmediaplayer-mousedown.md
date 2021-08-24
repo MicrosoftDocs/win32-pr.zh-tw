@@ -14,12 +14,12 @@ api_type:
 - Assembly
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0779df27f406691903a0362c9eb3a1df993f595f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 73259fab6ffd268e1c9a581a4b7ba18fdfba6c1647b57ef12bcae1c3ab8c04a7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107000433"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119509448"
 ---
 # <a name="mousedown-event-of-the-axwindowsmediaplayer-object"></a>AxWindowsMediaPlayer 物件的 MouseDown 事件
 

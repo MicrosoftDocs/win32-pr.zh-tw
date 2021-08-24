@@ -5,23 +5,23 @@ ms.assetid: b3ca2a47-402d-4e91-88bc-ddda6c776468
 keywords:
 - 範例 64-位 Windows 程式設計
 - 64位 Windows 程式設計指南範例64位 Windows 程式設計
-- 64位 Windows 程式設計指南範例64位 Windows 程式設計，WOW64 上的登錄重新導向
+- 64位 Windows 程式設計指南範例64位 Windows 程式設計、WOW64 上的登錄重新導向
 - 登錄重新導向範例 64-位 Windows 程式設計
 - 64位 Windows 程式設計指南64位 Windows 程式設計，範例請參閱64位 Windows 程式設計指南範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ff37b077137e9802e6716319623fe8e372941500
-ms.sourcegitcommit: 46376be61d3fa308f9b1a06d7e2fa122a39755af
+ms.openlocfilehash: 83428edb31e53bdd1c70825c7fa5a4d799a36536fa9c17f9ce1c4587ab096048
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "104383149"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119680227"
 ---
 # <a name="example-of-registry-redirection-on-wow64"></a>WOW64 上的登錄重新導向範例
 
 下列範例程式碼示範64位 Windows 上登錄重新導向器所提供的不同登錄視圖。 它也會示範如何根據金鑰的共用或重新導向來設定索引鍵的值。 如需詳細資訊，請參閱 [受 WOW64 影響的](shared-registry-keys.md)登錄機碼。
 
-分別針對32位和64位 Windows 編譯下列程式碼。 在64位的 Windows 上執行每個產生的可執行檔，並比較輸出。 這兩個版本的範例輸出列在原始程式碼下方。
+分別針對32位和64位的 Windows 編譯下列程式碼。 在64位 Windows 上執行每個產生的可執行檔，並比較輸出。 這兩個版本的範例輸出列在原始程式碼下方。
 
 
 ```C++
@@ -250,7 +250,7 @@ main()
 
 當執行此範例的64位版本時，它會產生下列輸出。 **HKCR \\ Hello** 的預設和替代視圖的值都相同，因為這是共用的金鑰。 其他索引鍵的值不同，因為它們會重新導向。
 
-**Windows server 2008、Windows Vista、Windows server 2003 和 WINDOWS XP：** 當此範例在這些作業系統上執行時，LocalServer32 索引鍵的預設和替代視圖會有相同的值。 這是因為 LocalServer32 索引鍵會重新導向並 *反映出來*，這會在金鑰的控制碼關閉時，讓其值在登錄的64位和32位的觀點之間進行同步處理。 從 Windows 7 開始，已移除登錄反映。 如需詳細資訊，請參閱登錄 [反映](registry-reflection.md)。
+**Windows server 2008、Windows Vista Windows server 2003 和 Windows XP：** 當此範例在這些作業系統上執行時，LocalServer32 索引鍵的預設和替代視圖會有相同的值。 這是因為 LocalServer32 索引鍵會重新導向並 *反映出來*，這會在金鑰的控制碼關閉時，讓其值在登錄的64位和32位的觀點之間進行同步處理。 從 Windows 7 開始，已移除登錄反映。 如需詳細資訊，請參閱登錄 [反映](registry-reflection.md)。
 
 ``` syntax
 Application string: Hello! 64-bit World
@@ -315,9 +315,9 @@ Alternate view:   Hello! 64-bit World
 [登錄反映](registry-reflection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

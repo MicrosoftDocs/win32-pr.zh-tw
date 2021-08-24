@@ -4,12 +4,12 @@ ms.assetid: 6701d151-c36f-43e5-929b-9831c5ce5823
 title: 從篩選處理常式傳回屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4df0bfc811176e9b0672dbcbe4ef4f04f3c3a6f2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4b1842710af65e22f5a730891ea6e7f32053b92212f8c3ad4c5f0f68f23578d3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106966686"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119594850"
 ---
 # <a name="returning-properties-from-a-filter-handler"></a>從篩選處理常式傳回屬性
 
@@ -28,7 +28,7 @@ ms.locfileid: "106966686"
 
 | 方法                                                | 描述                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 |-------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**IFilter：： Init**](/windows/win32/api/filter/nf-filter-ifilter-init)      | 傳回 [**IFILTER \_ 旗標**](/windows/win32/api/filter/ne-filter-ifilter_flags) 列舉。 如果此列舉的 *IFILTER \_ 旗標 \_ OLE \_ 屬性* 成員設定為一個，則 Windows Search 會使用 [IPropertySetStorage](/windows/win32/api/propidl/nn-propidl-ipropertysetstorage) 和 [IPropertyStorage](/windows/win32/api/propidlbase/nn-propidlbase-ipropertystorage) 介面介面來列舉和存取外部數值型別屬性。 |
+| [**IFilter：： Init**](/windows/win32/api/filter/nf-filter-ifilter-init)      | 傳回 [**IFILTER \_ 旗標**](/windows/win32/api/filter/ne-filter-ifilter_flags) 列舉。 如果此列舉的 *IFILTER \_ 旗標 \_ OLE \_ 屬性* 成員設定為一個，則 Windows Search 會使用 [IPropertySetStorage](/windows/win32/api/propidl/nn-propidl-ipropertysetstorage)和 [IPropertyStorage](/windows/win32/api/propidlbase/nn-propidlbase-ipropertystorage)介面介面來列舉和存取外部數值型別屬性。 |
 | [**IFilter：： GetChunk**](/windows/win32/api/filter/nf-filter-ifilter-getchunk) | 從具有區塊類型 (文字或值) 、名稱和地區設定的「區塊」中的檔傳回信息。 區塊包含一個 document 屬性。                                                                                                                                                                                                                                                                                                      |
 | [**IFilter：： GetText**](/windows/win32/api/filter/nf-filter-ifilter-gettext)   | 從區塊取得文字型別屬性。                                                                                                                                                                                                                                                                                                                                                                                                         |
 | [**IFilter：： GetValue**](/windows/win32/api/filter/nf-filter-ifilter-getvalue) | 從區塊取得數值型別屬性。                                                                                                                                                                                                                                                                                                                                                                                                        |
@@ -58,11 +58,11 @@ HKEY_LOCAL_MACHINE
 
 ## <a name="additional-resources"></a>其他資源
 
-- [GitHub](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch/IFilterSample)上提供的 [IFilterSample](-search-sample-ifiltersample.md)程式碼範例會示範如何建立用來執行 [**ifilter**](/windows/win32/api/filter/nn-filter-ifilter)介面的 ifilter 基礎類別。
+- [GitHub](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch/IFilterSample)上提供的 [IFilterSample](-search-sample-ifiltersample.md)程式碼範例，示範如何建立用來執行 [**ifilter**](/windows/win32/api/filter/nn-filter-ifilter)介面的 ifilter 基礎類別。
 - 如需索引編制程式的總覽，請參閱 [索引](-search-indexing-process-overview.md)程式。
 - 如需檔案類型的總覽，請參閱 [檔案類型](../shell/fa-file-types.md)。
 - 若要查詢檔案類型的檔案關聯屬性，請參閱 [PerceivedTypes、SystemFileAssociations 和應用程式註冊](/previous-versions/windows/desktop/legacy/cc144150(v=vs.85))。
-- 如需屬性和屬性處理常式的總覽，以及可用於檔案格式的系統屬性清單，請參閱 [開發 Windows Search 的屬性處理常式](-search-3x-wds-extidx-propertyhandlers.md)。
+- 如需屬性和屬性處理常式的總覽，以及可用於檔案格式的系統屬性清單，請參閱[開發 Windows Search 的屬性處理常式](-search-3x-wds-extidx-propertyhandlers.md)。
 
 ## <a name="related-topics"></a>相關主題
 

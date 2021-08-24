@@ -4,12 +4,12 @@ ms.assetid: 5411C31A-606E-460D-9F35-E55C855AC7D0
 title: Hyper-v 網路 API
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f6b1e45df455ae90494f14d41b760233d553b206
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: beba60f92979cf6b7f890222cf3fc2e0894bcff53b57067796070398e471621c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848781"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119682317"
 ---
 # <a name="hyper-v-networking-api"></a>Hyper-v 網路 API
 

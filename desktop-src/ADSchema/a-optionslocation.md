@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 72b33089770d4d9b7cd869cb6375f6224ecd361a
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: fa40dfc13cc1f90ab5345a496cc2c6753507846ddd9f09795121565642e3c3dd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104467330"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119702828"
 ---
 # <a name="options-location-attribute"></a>Options-Location 屬性
 

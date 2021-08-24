@@ -19,12 +19,12 @@ keywords:
 - " (音訊壓縮管理員) 的驅動程式程式"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f1324ea168892d54f21754658607476c35075910
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 11b8a8c3615ae0124d4701f8d37d332e652d8390ef165cec8dc57d881cd328fb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106968695"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119678617"
 ---
 # <a name="functions-called-by-the-system"></a>系統呼叫的函式
 
@@ -56,6 +56,6 @@ ms.locfileid: "106968695"
 
 -   [**acmDriverProc**](/windows/desktop/api/Msacm/nc-msacm-acmdriverproc)
 
- 
+ 
 
- 
+ 

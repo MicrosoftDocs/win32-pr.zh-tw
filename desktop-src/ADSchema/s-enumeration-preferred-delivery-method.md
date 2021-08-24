@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5bd60f18ad796e086326058dbe7908d31d3e54bc
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: dab46225dc625b887d984ae959ecfddaade7949fd808b02d45887b55d198dbe6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104106715"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119702578"
 ---
 # <a name="enumerationpreferred-delivery-method-syntax"></a> (慣用傳遞方法) 語法的列舉
 

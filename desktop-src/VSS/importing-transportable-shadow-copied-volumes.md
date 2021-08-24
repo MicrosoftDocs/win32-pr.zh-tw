@@ -4,12 +4,12 @@ ms.assetid: 4ec63917-03c0-434e-892e-3d9d4c47740e
 title: 匯入可轉移的陰影複製磁片區
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d259fbc047d088ee1f7064804a3ee98fe48da1b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 73cee5d491cde59767a321094f0a7de2f34da97b29c6ed02e5cc490643b4dcd5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104115164"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119510258"
 ---
 # <a name="importing-transportable-shadow-copied-volumes"></a>匯入可轉移的陰影複製磁片區
 
@@ -23,7 +23,7 @@ ms.locfileid: "104115164"
 
 因此， *systemOne* 必須建立可 [*轉移的陰影複製*](vssgloss-t.md)， *systemTwo* 接著會匯入。
 
-**Windows server 2003、Standard Edition、Windows server 2003、Web Edition 和 WINDOWS XP：** 不支援可轉移的陰影複製集。 所有版本的 Windows Server 2003 Service Pack 1 (SP1) 支援可轉移的陰影複製集。
+**Windows server 2003、Standard Edition、Windows Server 2003、Web Edition 和 Windows XP：** 不支援可轉移的陰影複製集。 所有版本的 Windows Server 2003 （含 Service Pack 1） (SP1) 都支援可轉移的陰影複製集。
 
 匯入可轉移陰影複製的一般範例，可透過下列方式繼續進行：
 

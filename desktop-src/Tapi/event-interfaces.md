@@ -4,12 +4,12 @@ ms.assetid: 27fd91e8-b628-49ee-af4e-9aec0afa5449
 title: 事件介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dd7b705c89988ff62d972e594ceb936bb01db78e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 01a4ecf097d761e98b723b37d9de6adcfd7ebb60696ce5e389426965534d63f3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511540"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119660838"
 ---
 # <a name="event-interfaces"></a>事件介面
 

@@ -4,16 +4,16 @@ ms.assetid: ca73bd0a-6f4e-453c-9e38-14cfd602d42c
 title: 使用 MsiProcessMessage 將訊息傳送至 Windows Installer
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3bcd8c8a704c1f4dd24763f7f47ff0d8898a95c0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8d1c639e45b22c2406f446ab31072ceb02ab9b3e906f5973b1436356d96f3782
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103945321"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119629948"
 ---
 # <a name="sending-messages-to-windows-installer-using-msiprocessmessage"></a>使用 MsiProcessMessage 將訊息傳送至 Windows Installer
 
-使用 [**MsiProcessMessage**](/windows/desktop/api/Msiquery/nf-msiquery-msiprocessmessage) 傳送的訊息，與 [**INSTALLUI \_ 處理常式**](/windows/desktop/api/Msi/nc-msi-installui_handlera) 回呼函數所接收的訊息相同（如果呼叫 [**MsiSetExternalUI**](/windows/desktop/api/Msi/nf-msi-msisetexternaluia) ）。 否則，Windows Installer 會處理訊息。 如需詳細資訊，請參閱 [剖析 Windows Installer 的訊息](parsing-windows-installer-messages.md)。
+使用 [**MsiProcessMessage**](/windows/desktop/api/Msiquery/nf-msiquery-msiprocessmessage) 傳送的訊息，與 [**INSTALLUI \_ 處理常式**](/windows/desktop/api/Msi/nc-msi-installui_handlera) 回呼函數所接收的訊息相同（如果呼叫 [**MsiSetExternalUI**](/windows/desktop/api/Msi/nf-msi-msisetexternaluia) ）。 否則，Windows Installer 會處理訊息。 如需詳細資訊，請參閱[剖析 Windows Installer 的訊息](parsing-windows-installer-messages.md)。
 
 例如，若要傳送 INSTALLMESSAGE \_ 錯誤訊息與 mb \_ ICONWARNING 圖示和 mb \_ ABORTRETRYCANCEL 按鈕：
 
@@ -30,7 +30,7 @@ MsiProcessMessage(hInstall, INSTALLMESSAGE(INSTALLMESSAGE_ERROR|MB_ABORTRETRYIGN
 
 根據預設，如果傳送 INSTALLMESSAGE \_ 錯誤或 INSTALLMESSAGE \_ FATALEXIT 訊息時未指定按鈕類型或圖示類型，則會 \_ 使用 [mb 確定]、[無] 圖示和 [mb \_ DEFBUTTON1]。
 
-Windows Installer 在顯示具有 MB ABORTRETRYIGNORE 按鈕規格的 MessageBox 時，不會將 [ **中止** ] 按鈕標示為「中止」 \_ ，而是會將具有「取消」字串的按鈕加上標籤。 所有錯誤訊息都不會使用 "Abort" 這個字，而是改用 "Cancel" 這個字。
+Windows在顯示具有 MB ABORTRETRYIGNORE 按鈕規格的 MessageBox 時，安裝程式不會將 [**中止**] 按鈕標示為「中止」 \_ ，而是使用「取消」字串來標記按鈕。 所有錯誤訊息都不會使用 "Abort" 這個字，而是改用 "Cancel" 這個字。
 
 [**MsiProcessMessage**](/windows/desktop/api/Msiquery/nf-msiquery-msiprocessmessage)函數的 *hRecord* 參數取決於傳送至 [**MsiProcessMessage**](/windows/desktop/api/Msiquery/nf-msiquery-msiprocessmessage)的訊息類型。 下列清單詳細說明記錄相對於訊息類型的需求：
 
@@ -248,7 +248,7 @@ No window with title could be found for FilesInUse
 
 INSTALLMESSAGE \_ RESOLVESOURCE
 
-INSTALLMESSAGE \_ RESOLVESOURCE 記錄有七個欄位。 為了讓 INSTALLMESSAGE \_ RESOLVESOURCE 能夠正常運作，外部 UI 處理常式可能不會處理 INSTALLMESSAGE \_ RESOLVESOURCE 訊息。 Windows Installer 必須處理 INSTALLMESSAGE \_ RESOLVESOURCE 訊息。 也就是說，在篩選 INSTALLMESSAGE RESOLVESOURCE 訊息時，外部 UI 處理常式會傳回0，表示「不採取任何動作」 \_ 。 最佳做法是避免傳送 RESOLVESOURCE 的訊息。
+INSTALLMESSAGE \_ RESOLVESOURCE 記錄有七個欄位。 為了讓 INSTALLMESSAGE \_ RESOLVESOURCE 能夠正常運作，外部 UI 處理常式可能不會處理 INSTALLMESSAGE \_ RESOLVESOURCE 訊息。 Windows安裝程式必須處理 INSTALLMESSAGE \_ RESOLVESOURCE 訊息。 也就是說，在篩選 INSTALLMESSAGE RESOLVESOURCE 訊息時，外部 UI 處理常式會傳回0，表示「不採取任何動作」 \_ 。 最佳做法是避免傳送 RESOLVESOURCE 的訊息。
 
 
 

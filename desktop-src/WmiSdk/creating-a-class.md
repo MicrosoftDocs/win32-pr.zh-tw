@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 建立 WMI 類別
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2274252715ce44b9d2b79e398c945ca723fe3f7d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ec2db62f1f0d14035f7bcc3fd74f8bbbfbacf08cb0dbf139b06c9870b7039e19
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106985335"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119612558"
 ---
 # <a name="creating-a-wmi-class"></a>建立 WMI 類別
 
@@ -25,7 +25,7 @@ ms.locfileid: "106985335"
 
 基類代表一些一般概念。 例如， [**CIM \_ CDROMDrive**](/windows/desktop/CIMWin32Prov/cim-cdromdrive) 類別代表 WMI 中所有類型的 cd-rom 光碟機，並且包含描述所有 cd-rom 光碟機種類的一般屬性。 如需詳細資訊，請參閱 [建立基類（Base Class](creating-a-base-class.md)）。
 
-衍生的類別會繼承其他類別的屬性和方法。 衍生類別通常代表基類的特定案例。 例如， [**Win32 \_ CDROMDrive**](/windows/desktop/CIMWin32Prov/win32-cdromdrive) 類別代表 Windows 系統上的 cd-rom 光碟機。 **Win32 \_ CDROMDrive** 類別是以和繼承 [**CIM \_ CDROMDrive**](/windows/desktop/CIMWin32Prov/cim-cdromdrive)的許多屬性為基礎。 不過， **Win32 \_ CDROMDrive** 和其他衍生類別一樣，可以有讓衍生類別成為唯一的其他屬性。 如需詳細資訊，請參閱 [建立衍生類別](creating-a-derived-class.md)。
+衍生的類別會繼承其他類別的屬性和方法。 衍生類別通常代表基類的特定案例。 例如， [**Win32 \_ CDROMDrive**](/windows/desktop/CIMWin32Prov/win32-cdromdrive)類別代表 Windows 系統上的 cd-rom 光碟機。 **Win32 \_ CDROMDrive** 類別是以和繼承 [**CIM \_ CDROMDrive**](/windows/desktop/CIMWin32Prov/cim-cdromdrive)的許多屬性為基礎。 不過， **Win32 \_ CDROMDrive** 和其他衍生類別一樣，可以有讓衍生類別成為唯一的其他屬性。 如需詳細資訊，請參閱 [建立衍生類別](creating-a-derived-class.md)。
 
 ## <a name="properties-and-methods"></a>屬性和方法
 

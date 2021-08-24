@@ -4,18 +4,18 @@ description: 元件物件模型是一種與平臺無關、分散式、物件導�
 ms.assetid: 3578ca42-a4b6-44b3-ad5b-aeb5fa61f3f4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cbc808a59f5ebafb4e7c2275db33a71041a0bca0
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: b432942497b5e2d1a3c5d580e141b5abbd92d0c91c134ce72a8c717f3d771ca4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104024152"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119679163"
 ---
 # <a name="component-object-model-com"></a>元件物件模型 (COM)
 
 ## <a name="purpose"></a>目的
 
-COM 是一種與平臺無關、分散式、物件導向的系統，可用來建立可互動的二進位軟體元件。 COM 是 Microsoft 的 OLE (複合檔案) 和 ActiveX (已啟用網際網路的元件) 技術的基礎技術。
+COM 是一種與平臺無關、分散式、物件導向的系統，可用來建立可互動的二進位軟體元件。 COM 是 Microsoft OLE (複合檔案) 和 ActiveX (具備網際網路功能的元件) 技術的基礎技術。
 
 ## <a name="where-applicable"></a>適用時
 
@@ -56,11 +56,11 @@ COM 是一種與平臺無關、分散式、物件導向的系統，可用來建�
 
 | 主題                                                                              | 描述                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 |------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [元件物件模型 (COM)](/windows/desktop/com/component-object-model--com--portal)<br/> | COM 是一種與平臺無關、分散式、物件導向的系統，可用來建立可互動的二進位軟體元件。 COM 是 Microsoft 的 OLE (複合檔案) 和 ActiveX (已啟用網際網路的元件) 技術的基礎技術。<br/>                                                                                                                                                                                                              |
+| [元件物件模型 (COM)](/windows/desktop/com/component-object-model--com--portal)<br/> | COM 是一種與平臺無關、分散式、物件導向的系統，可用來建立可互動的二進位軟體元件。 COM 是 Microsoft OLE (複合檔案) 和 ActiveX (具備網際網路功能的元件) 技術的基礎技術。<br/>                                                                                                                                                                                                              |
 | [自動化](/previous-versions/windows/desktop/automat/automation-programming-reference)<br/>                      | 自動化可讓軟體套件將其獨特功能公開給腳本工具和其他應用程式。 自動化會使用元件物件模型 (COM) ，但可以獨立于其他 OLE 功能（例如就地啟用）來執行。<br/>                                                                                                                                                                                                                 |
 | [Microsoft 介面定義語言 (MIDL) ](/windows/desktop/Midl/midl-start-page)<br/>  | Microsoft 介面定義語言 (MIDL) 定義用戶端與伺服器程式之間的介面。 Microsoft 在平臺軟體發展工具組中包含 MIDL 編譯器 (SDK) ，可讓開發人員建立介面定義語言 (IDL) 檔案和應用程式佈建檔 () RPC (介面和 COM/DCOM 介面進行遠端程序呼叫所需的) ACF。 MIDL 也支援產生 OLE Automation 的類型程式庫。 <br/> |
-| [結構化儲存體](/windows/desktop/Stg/structured-storage-start-page)<br/>                 | 結構化儲存區藉由將單一檔案作為結構化的物件集合（稱為儲存和資料流程）來處理，以提供 COM 中的檔案和資料持續性。<br/>                                                                                                                                                                                                                                                                                                                  |
-| [Com+](../cossdk/component-services-portal.md)<br/>                 | COM + 是 Microsoft 元件物件模型的演進， (COM) 和 Microsoft Transaction Server (MTS) 。 COM + 是以 COM、MTS 和其他以 COM 為基礎的技術為基礎，建立並擴充以撰寫的應用程式。<br/>                                                                                                                                                                                                                                                                                                                  |
+| [結構化儲存體](/windows/desktop/Stg/structured-storage-start-page)<br/>                 | 結構化儲存體藉由將單一檔案處理為物件的結構化集合（稱為「儲存體」和「資料流程」），在 COM 中提供檔案和資料持續性。<br/>                                                                                                                                                                                                                                                                                                                  |
+| [COM+](../cossdk/component-services-portal.md)<br/>                 | COM + 是 Microsoft 元件物件模型的演進， (COM) 和 Microsoft Transaction Server (MTS) 。 COM + 是以 COM、MTS 和其他以 COM 為基礎的技術為基礎，建立並擴充以撰寫的應用程式。<br/>                                                                                                                                                                                                                                                                                                                  |
 
 
 

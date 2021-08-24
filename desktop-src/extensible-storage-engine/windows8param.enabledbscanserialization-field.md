@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 2c92b0ab920354ea272e95d4aaf5bf68cf98be3b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3865bc2345278a3e5007289c5321508e85432f4481fb1a1d731197786c350d64
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106976780"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119470728"
 ---
 # <a name="windows8paramenabledbscanserialization-field"></a>Windows8Param. EnableDBScanSerialization 欄位
 

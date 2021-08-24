@@ -4,12 +4,12 @@ description: 當您在程式設計語言之間移動時，最明顯的變更是�
 ms.assetid: 179efb69-3794-4a06-b770-2b3dc8409172
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d3a9c2123d8b94f9fc6fe79d4ab48188830c7a1
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: eef58f92bf87d877c2c55a73fe5f717b93c359119e5ca6aa73fc1aeee531d858
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104463761"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119678388"
 ---
 # <a name="syntax-differences"></a>語法差異
 
@@ -54,14 +54,14 @@ function square(x){ return x*x; }
 
 請注意，與程式設計語言不同的指令碼語言是弱式型別。 換句話說，當您宣告函式時，不需要指定參數或傳回值的資料類型。 相反地，變數會自動轉換成適當的資料類型。 在 VBScript 的案例中，所有變數的資料類型都相同，也就是 **Variant**。
 
-平方的 JavaScript 和 JScript 語法是相同的。 JScript 大多與 JavaScript 相容。 但是，JScript 包含一些 JavaScript 目前不支援的物件，例如 **ActiveXObject**、 **列舉** 值、 **Error**、 **Global** 和 **VBArray**。 如需這些物件的詳細資訊，請參閱 [JScript 語言參考](/previous-versions/visualstudio/visual-studio-2010/ye921ye4(v=vs.100))。
+平方的 JavaScript 和 JScript 語法相同。 JScript 大多與 JavaScript 相容。 不過，JScript 包含一些 JavaScript 目前不支援的物件，例如 **ActiveXObject**、**列舉** 值、 **Error**、 **Global** 和 **VBArray**。 如需這些物件的詳細資訊，請參閱[JScript 語言參考](/previous-versions/visualstudio/visual-studio-2010/ye921ye4(v=vs.100))。
 
-在表面上，JavaScript 和 JScript 語法類似 JAVA 語法。 這種相似性只有表面。 JAVA 語言是從 JavaScript 和 JScript 獨立開發而成，而且與兩者無關。
+在表面上，JavaScript 和 JScript 語法類似 JAVA 語法。 這種相似性只有表面。 JAVA 語言是從 JavaScript 和 JScript 各自獨立開發而成，與兩者無關。
 
 另一方面，VBScript 是 Visual Basic 程式設計語言的子集。 因此，VBScript 語法是 Visual Basic 語法的子集，而且通常可透過 Visual Basic 語法來交換。
 
 如需在指令碼語言中使用 COM 物件的詳細資訊，請參閱 [使用 Com 物件編寫腳本](scripting-with-com-objects.md)。
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ ms.assetid: 15c1c3fd-4479-46ad-a70c-f7d15bc69488
 title: DrawLine 方法
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: d83353c9f33b4d94b15392762da3d00accae5e72
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9fbe6d53441bc6b669326f7d3e01379f286d735ea8d7c28770e70b01606e9d36
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192378"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119467908"
 ---
 # <a name="graphicsdrawline-methods"></a>DrawLine 方法
 

@@ -5,16 +5,16 @@ ms.tgt_platform: multiple
 title: 使用 c + + 建立 WMI 應用程式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: baaa4f7e79828b2cb6cb496254d906182ff611ab
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6fc68bfb9b7c17967de3142c3e431b51fc340a32acfb94484030e8fe744bf067
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320339"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119612398"
 ---
 # <a name="creating-a-wmi-application-using-c"></a>使用 c + + 建立 WMI 應用程式
 
-若要使用 c + + 建立適用于 WMI 的應用程式：您必須初始化 COM、存取和設定 WMI 通訊協定，以及執行手動清除。 不過，c + + 的確具有彈性和威力的優點。 因此，當您在使用 Visual Basic Scripting Edition (VBScript) 或 Windows PowerShell 處理簡單的程式時，c + + 適用于更複雜的應用程式，而且是撰寫 [提供者](providing-data-to-wmi.md)的必要項。
+若要使用 c + + 建立適用于 WMI 的應用程式：您必須初始化 COM、存取和設定 WMI 通訊協定，以及執行手動清除。 不過，c + + 的確具有彈性和威力的優點。 因此，當您在使用 Visual Basic 腳本撰寫版 (VBScript) 或 Windows PowerShell 簡單的程式時，c + + 適用于更複雜的應用程式，而且是撰寫[提供者](providing-data-to-wmi.md)的必要項。
 
 下列程式說明如何建立 WMI 應用程式。
 

@@ -4,12 +4,12 @@ ms.assetid: 197fb739-7fe6-47e8-908f-54e75cb47ec4
 title: DateTaken
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9a9fbcff8c490abc52516523f4b11503f7f8bfe5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dbd16e04957ebd53253d1a0168dfe626bf8181cce5ec1b33cded59c5c17f29eb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "107000275"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119596658"
 ---
 # <a name="systemphotodatetaken"></a>DateTaken
 

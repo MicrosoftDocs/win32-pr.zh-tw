@@ -6,16 +6,16 @@ keywords:
 - Windows Media Player，以網路為基礎的簡報
 - Windows Media Player 物件模型，以網路為基礎的簡報
 - 物件模型，以 Web 為基礎的簡報
-- Windows Media Player 行動裝置、以網路為基礎的簡報
+- Windows Media Player行動裝置、以網路為基礎的簡報
 - Windows Media Player ActiveX 控制項，以 Web 為基礎的簡報
-- Windows Media Player 的行動 ActiveX 控制項，以網路為基礎的簡報
-- ActiveX 控制項，以網頁為基礎的簡報
+- Windows Media Player行動 ActiveX 控制項，以網路為基礎的簡報
+- ActiveX 控制項，以網路為基礎的簡報
 - Windows Media Player，URL 翻轉
 - Windows Media Player 物件模型，URL 翻轉
 - 物件模型，URL 翻轉
-- Windows Media Player 行動裝置，URL 翻轉
-- Windows Media Player ActiveX 控制項，URL 翻轉
-- Windows Media Player 的行動 ActiveX 控制項、URL 翻轉
+- Windows Media Player行動電話，URL 翻轉
+- Windows Media Player ActiveX 控制項、URL 翻轉
+- Windows Media PlayerMobile ActiveX 控制項，URL 翻轉
 - ActiveX 控制項，URL 翻轉
 - 以網頁為基礎的簡報，URL 翻轉
 - 建立以網路為基礎的簡報，URL 翻轉
@@ -23,21 +23,21 @@ keywords:
 - Windows Media Player，豐富的媒體串流
 - Windows Media Player 物件模型，多媒體串流
 - 物件模型，多媒體串流
-- Windows Media Player Mobile、豐富的媒體串流
-- Windows Media Player ActiveX 控制項，豐富的媒體串流
-- Windows Media Player 的行動 ActiveX 控制項、豐富的媒體串流
+- Windows Media Player行動裝置、多媒體串流
+- Windows Media Player ActiveX 控制項、豐富的媒體串流
+- Windows Media Player行動 ActiveX 控制項，多媒體串流
 - ActiveX 控制項，豐富的媒體串流
 - 以網路為基礎的簡報，豐富的媒體串流
 - 建立以網路為基礎的簡報、豐富的媒體串流
 - 豐富的媒體串流
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4815562bba92d67bb4b02ea0317d6c29accd9262
-ms.sourcegitcommit: e22adfb0dd3bb989e59455baedb4d905a877a240
+ms.openlocfilehash: 9470bf2b812d36bceb6159ab089e3b08c49bc84515320872b125ed6519568141
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/21/2019
-ms.locfileid: "104372721"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119507128"
 ---
 # <a name="using-script-to-control-url-flipping"></a>使用腳本來控制 URL 翻轉
 
@@ -46,9 +46,9 @@ ms.locfileid: "104372721"
 您可以使用腳本叫用 URL，而不是讓 Windows Media Player 自動進行，以避免顯示空白或不完整的網頁。 如此一來，您可以忽略第一個 URL 翻轉，然後使用腳本程式碼叫用後續的 Url。
 
 > [!Note]  
-> 本節假設您是使用 Windows Media 編碼器9系列 SDK 來串流 HTML，而且您已將 HTML 資料流程設定為重複。
+> 本節假設您使用 Windows Media 編碼器9系列 SDK 來串流 html，而且您已將 html 資料流程設定為重複。
 
- 
+ 
 
 首先，您必須建立框架網頁，以包含具有內嵌播放程式的框架，以及顯示串流 HTML 的框架。 這兩個畫面格一開始會顯示另一個網頁，因此您總共會建立三個網頁。 下列範例程式碼示範框架網頁：
 
@@ -140,7 +140,7 @@ Loading...
 
 當框架頁面在瀏覽器中載入時，左邊的框架會顯示內嵌的播放機，右邊的框架則顯示「正在載入 ...」文字通知使用者即將推出更多資料。 當第一個 URL 指令碼命令從 HTML 資料流程抵達時，事件處理常式只會變更 **布林** 值旗標的值。 當每個後續的 URL 指令碼命令從 HTML 資料流程抵達時，事件處理常式中的腳本會將新的 URL 載入名為 "content" 的框架，而完整的網頁會顯示在瀏覽器視窗上半部的框架中。
 
-如需有關使用 Windows Media 來串流 HTML 的詳細資訊，請參閱 Windows Media 編碼器 SDK。
+如需使用 Windows 媒體來串流 HTML 的詳細資訊，請參閱 Windows 媒體編碼器 SDK。
 
 ## <a name="related-topics"></a>相關主題
 
@@ -152,9 +152,9 @@ Loading...
 [**URL 翻轉**](url-flipping.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 919b36f1-d4de-4d5d-ba1a-0605bf59a6cd
 title: " (Direct3D 9) 的點陣化規則"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5115b2f12e0064202fcbca58f52cb163166d0a82
-ms.sourcegitcommit: 37f276b5d887a3aad04b1ba86e390dea9d87e591
+ms.openlocfilehash: d241248f5a69262129f60fc005582dc5e03b2a6931cf024bc4613d81558cdb38
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "104195654"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119746660"
 ---
 # <a name="rasterization-rules-direct3d-9"></a> (Direct3D 9) 的點陣化規則
 

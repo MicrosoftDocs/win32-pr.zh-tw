@@ -4,12 +4,12 @@ description: Edge UI 會在「內建」和「慣性」案例中隱藏
 ms.assetid: 005B6D03-52A6-4780-8D3E-4A5CDA5EED8C
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ef08eab653349beab0710d59d45bedc2874ced44
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ec032fa97f54fc1b1325055c9b02bdebe9e817b0f85971c2e2a7062e93c284c6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104184061"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119593958"
 ---
 # <a name="edge-ui-is-suppressed-in-in-out-in-and-inertia-scenarios"></a>Edge UI 會在「內建」和「慣性」案例中隱藏
 
@@ -18,7 +18,7 @@ ms.locfileid: "104184061"
 <dl> 用戶端-Windows 8。1  
 </dl>
 
-## <a name="description"></a>Description
+## <a name="description"></a>描述
 
 在某些情況下，使用者可能會意外地叫用 Edge UI， (常用鍵、應用程式行、應用程式切換) 。 我們推出了一項功能，可讓開發人員為整個螢幕設計 UI，而不需要進行 affordances (例如，框線) 來防止使用者意外碰到邊緣。
 
@@ -36,13 +36,13 @@ ms.locfileid: "104184061"
 
 當使用應用程式時，使用者快速地對邊緣進行輕量，將會看到意外的邊緣調用。
 
-## <a name="solution"></a>解決方法
+## <a name="solution"></a>解決方案
 
 開發人員應牢記這些緩和措施，而且應該能夠使用全螢幕，而不需要擔心使用者在邊緣與應用程式互動時，不會不慎觸發 Edge UI。
 
- 
+ 
 
- 
+ 
 
 
 

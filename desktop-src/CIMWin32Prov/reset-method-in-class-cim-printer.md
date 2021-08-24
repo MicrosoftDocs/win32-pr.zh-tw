@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 42e4f4ff44eb1de7b0834239cf0d8af0ea88b42c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: feede16d7dc7ad06e0253c4869b17b46acaa8c5b8206b2170314ae3c60fedc14
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106986248"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119701198"
 ---
 # <a name="reset-method-of-the-cim_printer-class"></a>CIM 印表機類別的 Reset 方法 \_
 

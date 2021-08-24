@@ -4,12 +4,12 @@ ms.assetid: adfd941d-1a36-4dd8-af1f-b105466e0668
 title: 動態連結的優點
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1764e25a051522600bd6b485b75f414f8a280e0b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 00a35e254ae14f74d5e2ed4c260f3ee201e2fd1f62efd8aa953b708256e437c6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106979005"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119632278"
 ---
 # <a name="advantages-of-dynamic-linking"></a>動態連結的優點
 

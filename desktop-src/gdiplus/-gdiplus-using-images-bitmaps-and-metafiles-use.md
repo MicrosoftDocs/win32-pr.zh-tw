@@ -1,19 +1,19 @@
 ---
-description: 瞭解如何使用影像、點陣圖和中繼檔。 Windows GDI + 提供的影像類別可使用 (點陣圖) 和向量影像 (中繼檔) 。
+description: 瞭解如何使用影像、點陣圖和中繼檔。 Windows GDI+ 會提供影像類別，以 (點陣圖) 和向量影像 (中繼檔) 來使用點陣影像。
 ms.assetid: 57e3bf33-5490-4f4a-addf-356ef8f1aeed
 title: 使用影像、點陣圖和中繼檔
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 49d0603c8a428c45feac8cdeb47a46b61dc5e3bd
-ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
+ms.openlocfilehash: 8bcb0a4d4bad09a931e62da8fe33e27638fede528ad8b29ec3b49417c7bd6e35
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112395533"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119466408"
 ---
 # <a name="using-images-bitmaps-and-metafiles"></a>使用影像、點陣圖和中繼檔
 
-Windows GDI + 提供的 [**影像**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image) 類別可使用 (點陣圖) 和向量影像 (中繼檔) 。 [**Bitmap**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-bitmap)類別和 [**中繼檔**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-metafile)類別都是繼承自 **Image** 類別。 **Bitmap** 類別藉由提供載入、儲存和操作點陣影像的其他方法，來擴充 **Image** 類別的功能。 **中繼檔** 類別藉由提供記錄和檢查向量影像的其他方法，來擴充 **Image** 類別的功能。
+Windows GDI+ 會提供 [**影像**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image)類別，以 (點陣圖) 和向量影像 (中繼檔) 來使用點陣影像。 [**Bitmap**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-bitmap)類別和 [**中繼檔**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-metafile)類別都是繼承自 **Image** 類別。 **Bitmap** 類別藉由提供載入、儲存和操作點陣影像的其他方法，來擴充 **Image** 類別的功能。 **中繼檔** 類別藉由提供記錄和檢查向量影像的其他方法，來擴充 **Image** 類別的功能。
 
 下列主題會更詳細地討論 [**影像**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image)、 [**點陣圖**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-bitmap)和 [**中繼檔**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-metafile) 類別：
 

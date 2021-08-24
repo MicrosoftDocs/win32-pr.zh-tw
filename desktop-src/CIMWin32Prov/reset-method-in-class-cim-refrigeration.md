@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 82ae0d2e63dc003865d465058373b8414f85e766
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 4d8b462023b3f9a43f07755b520904061e9986033b355d69c6789132aebd6216
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936487"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119701188"
 ---
 # <a name="reset-method-of-the-cim_refrigeration-class"></a>CIM 冷藏庫取出類別的 Reset 方法 \_
 

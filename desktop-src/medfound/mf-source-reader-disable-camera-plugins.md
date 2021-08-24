@@ -4,12 +4,12 @@ ms.assetid: 837A6BA8-9C79-4B0A-B40D-C094009BFF2C
 title: 'MF_SOURCE_READER_DISABLE_CAMERA_PLUGINS 屬性 (Mfreadwrite) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b7c72529d1cb684c547d283ce7f9ec92782f359
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f66ae9c69d13b6af3e368b57a3f864f031d0cc7e63716d2267ae5d3869d102b6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194860"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119600288"
 ---
 # <a name="mf_source_reader_disable_camera_plugins-attribute"></a>MF \_ 來源 \_ 讀取器 \_ 停用 \_ 相機 \_ 外掛程式屬性
 
@@ -31,8 +31,8 @@ ms.locfileid: "104194860"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 8 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | Windows Server 2012 \[ desktop app \| UWP 應用程式\]<br/>                              |
+| 最低支援的用戶端<br/> | Windows 8 \[桌面應用程式 \| UWP 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[桌面應用程式 \| UWP 應用程式\]<br/>                              |
 | 標頭<br/>                   | <dl> <dt>Mfreadwrite。h</dt> </dl> |
 
 

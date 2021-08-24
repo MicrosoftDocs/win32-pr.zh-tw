@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 52c9a37f23b555e140bfd541cf0b5e8e782f8d51
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 87a6768c8864de45d50dc630773b756dfad43759adbf4b09ed8070febd37f4d1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106997748"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119635468"
 ---
 # <a name="cbasecontrolwindowsetwindowforeground-method"></a>CBaseControlWindow. SetWindowForeground 方法
 
@@ -42,7 +42,7 @@ HRESULT SetWindowForeground(
 
 <dl> <dt>
 
-*重點* 
+*焦點* 
 </dt> <dd>
 
 值，指定影片視窗是否將取得焦點。 值為1會提供視窗焦點，0則否。
@@ -55,7 +55,7 @@ HRESULT SetWindowForeground(
 
 
 
-| 傳回碼                                                                                           | Description                                                               |
+| 傳回碼                                                                                           | 描述                                                               |
 |-------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------|
 | <dl> <dt>**NOERROR**</dt> </dl>                | 此方法已成功。<br/>                                          |
 | <dl> <dt>**E \_ INVALIDARG**</dt> </dl>          | 焦點不等於1或0。<br/>                                   |

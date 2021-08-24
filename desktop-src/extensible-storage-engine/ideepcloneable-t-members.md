@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Hh596443(v=EXCHG.10)
 ms:contentKeyID: 39515520
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 34d2274172cbb80f3c1bf18153aab58170279ebd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 254b315a87910ccef1feeae1213a55ca5396263b31e1b1c2ae748905155a2b23
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104570785"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119721488"
 ---
 # <a name="ideepcloneablet-members"></a>IDeepCloneable \<T\> 成員
 

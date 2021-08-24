@@ -4,12 +4,12 @@ description: 本節詳細說明一些與測試 Windows 應用程式的 UI 相關
 ms.assetid: d628e530-7a0b-4a8d-9a9f-253aec275fa9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e2e86282c03502642541c0ea1318b8ccaf6d16b2
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 17f3d6686cdcd892aa5608944cf8c1a20df0d44106a0fdac01b2bbbd855fe523
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103933529"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119507430"
 ---
 # <a name="testing-a-user-interface"></a>測試消費者介面
 
@@ -53,8 +53,8 @@ ms.locfileid: "103933529"
 
 測試應用程式的這些層面可透過存取範圍審核來完成，這牽涉到協助工具專家手動審核應用程式，以及已停用使用者和輔助技術裝置的專注可用性研究。
 
-雖然看似不相關，但是自動化測試架構的程式設計存取需求與輔助技術裝置的程式設計存取需求之間有密切的關聯性。 支援另一種是啟用另一項的額外優點。 如需有關 Windows 應用程式中的協助工具和測試自動化的詳細資訊，請參閱 [協助工具](/windows/desktop/accessibility)、 [測試控管](/windows/desktop/WinAuto/testing-tools)和 [windows 自動化 API](/windows/desktop/WinAuto/windows-automation-api-portal)。
+雖然看似不相關，但是自動化測試架構的程式設計存取需求與輔助技術裝置的程式設計存取需求之間有密切的關聯性。 支援另一種是啟用另一項的額外優點。 如需 Windows 應用程式中的協助工具和測試自動化的詳細資訊，請參閱[協助工具](/windows/desktop/accessibility)、[測試控管](/windows/desktop/WinAuto/testing-tools)和[Windows 自動化 API](/windows/desktop/WinAuto/windows-automation-api-portal)。
 
- 
+ 
 
- 
+ 

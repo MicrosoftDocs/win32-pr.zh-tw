@@ -8,12 +8,12 @@ keywords:
 - DrawDibRealize 函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ef1c79c2b7bb938cc34527b23cfc66fda6d19503
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e0f10d533fff97064ba3c6a081a2f1d0aaa9e1b72011f2baa1ac3a6bd1a81d43
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021416"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119678718"
 ---
 # <a name="drawing-a-display-context"></a>繪製顯示內容
 
@@ -43,9 +43,9 @@ ReleaseDC(hwnd, hdc);
 [使用 DrawDib](using-drawdib.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 7104b2da-2ece-46ce-b4ca-6c24dc4d6677
 title: 其他語言和 Unicode 考慮
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8433fb212917f29acbc2347c3324668a77533dee
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 24372194fb17498e1e0ce19be1bbbac3f1dccb27a63d840cedf95de38f735026
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026110"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119594478"
 ---
 # <a name="miscellaneous-linguistic-and-unicode-considerations"></a>其他語言和 Unicode 考慮
 
@@ -32,7 +32,7 @@ ms.locfileid: "104026110"
 
 片語是由一或多個其他人修改的單字或單字群組。 片語很難識別，因為相同的修飾詞可用於多個具有相同名詞的片語。 例如，「新房子」、「房子 Parliament」、「新房子 Parliament」。
 
-Windows Search 在查詢時使用最常使用的片語。 查詢文字中的片語會收到比個別單字更高的權數。 從上一個範例中，包含 "房子 of Parliament" 的檔在檔的不同時間點的等級高於一個包含 "房子" 和 "Parliament" 的檔。 如果片語可能至少符合一份檔，建議您在查詢時，斷詞工具產生片語。
+Windows搜尋最常在查詢時使用片語。 查詢文字中的片語會收到比個別單字更高的權數。 從上一個範例中，包含 "房子 of Parliament" 的檔在檔的不同時間點的等級高於一個包含 "房子" 和 "Parliament" 的檔。 如果片語可能至少符合一份檔，建議您在查詢時，斷詞工具產生片語。
 
 ## <a name="agglutinative-languages"></a>Agglutinative 語言
 
@@ -67,9 +67,9 @@ Agglutinative 語言會透過較小詞素的組合形成單字，以表達複合
 
 請為斷詞工具和字幹分析器選擇一種格式。 單一位元組的阿拉伯文數位會正規化，如此一來，包含上述任何一種形式的查詢就會與其他表單相符的檔。
 
-當您建立斷詞工具時，建議使用 "TT *hhmmss*" 模式將斷詞工具全部呈現為24小時標記法，其中 TT 是常值前置詞 "tt"， *hh* 是小時， *mm* 是分鐘， *ss* 是秒。 Windows Search 不符合額外的時間單位，例如毫秒。 上午剖析 與下午 模式是選擇性的。
+當您建立斷詞工具時，建議使用 "TT *hhmmss*" 模式將斷詞工具全部呈現為24小時標記法，其中 TT 是常值前置詞 "tt"， *hh* 是小時， *mm* 是分鐘， *ss* 是秒。 Windows搜尋不符合額外的時間單位，例如毫秒。 上午剖析 與下午 模式是選擇性的。
 
-當您建立斷詞工具時，建議斷詞工具以 "DD *yyyymmdd*" 的標準格式產生日期，其中 DD 是常值 "dd"， *yyyy* 是年份， *mm* 是月份，而 *DD* 是天。 我們也建議斷詞工具會以二十世紀和二十個世紀的格式儲存兩位數年份。 例如，斷詞工具代表 "2.2.99" 做為 "DD19990202" 和 "DD20990202"。 在查詢時，Windows Search 會使用 Windows 應用程式開發介面來衍生日期 (Api) 來判斷伺服器顯示正確格式（19 *XX* 或 20 *xx*）的間隔日期。
+當您建立斷詞工具時，建議斷詞工具以 "DD *yyyymmdd*" 的標準格式產生日期，其中 DD 是常值 "dd"， *yyyy* 是年份， *mm* 是月份，而 *DD* 是天。 我們也建議斷詞工具會以二十世紀和二十個世紀的格式儲存兩位數年份。 例如，斷詞工具代表 "2.2.99" 做為 "DD19990202" 和 "DD20990202"。 在查詢時，Windows Search 會使用 Windows 應用程式開發介面 (api) 來判斷伺服器顯示正確格式（19 *XX* 或 20 *xx*）的間隔日期，以衍生日期。
 
 ## <a name="compound-words"></a>複合字組
 
@@ -95,7 +95,7 @@ Agglutinative 語言會透過較小詞素的組合形成單字，以表達複合
 
 ## <a name="capitalization"></a>大寫
 
-Windows Search 在將單字儲存至全文檢索索引時，目前不會保留大小寫。 斷詞工具和字幹分析器不應該修改單字的大小寫。
+Windows搜尋在將單字儲存至全文檢索索引時，目前不會保留大小寫。 斷詞工具和字幹分析器不應該修改單字的大小寫。
 
 ## <a name="nonbreaking-spaces"></a>不分行空格
 

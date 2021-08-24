@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 6ea8b0397b71916e3fcf71c0b2c976556a9a57e5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e9c53dd2958f753c9f4eeb898a60da76e97d09afe2e6f2021c3143db4dd2c095
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104115944"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119721048"
 ---
 # <a name="jet_columnbasetostring-method"></a>JET_COLUMNBASE。ToString 方法
 

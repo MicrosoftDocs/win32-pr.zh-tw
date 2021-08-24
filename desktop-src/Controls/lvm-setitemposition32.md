@@ -3,7 +3,7 @@ title: 'LVM_SETITEMPOSITION32 訊息 (Commctrl .h) '
 description: 將專案移至清單視圖控制項中的指定位置 (必須是圖示或小圖示視圖) 。
 ms.assetid: 77db5fd0-bbc3-47ad-95ef-61ef4ac022bc
 keywords:
-- LVM_SETITEMPOSITION32 message Windows 控制項
+- LVM_SETITEMPOSITION32 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 450963e4adf5ea2b0644f8d155145ba577efab83
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 737b9aa78067bd4851c907da4ac51bd2645a833d8f3335c90a6e81a902d3a30a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104025154"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119656248"
 ---
 # <a name="lvm_setitemposition32-message"></a>LVM \_ SETITEMPOSITION32 訊息
 
@@ -53,8 +53,8 @@ ms.locfileid: "104025154"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

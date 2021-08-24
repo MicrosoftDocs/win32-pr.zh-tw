@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
-ms.openlocfilehash: 7f3430f9475a95ac600212145bbc106708977499
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1a32ae7231975bc34f24eed06b1ff09e3a398f174b3345ec8f97e15ed97b709b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106996289"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119749598"
 ---
 # <a name="id2d1drawingstateblocksetdescription-methods"></a>ID2D1DrawingStateBlock：： SetDescription 方法
 

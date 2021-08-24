@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: b35e934101cf7332dd144b5f46cd6cdfdeb596e7
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 3d96dc34ba16944d2f880e390cbd576c517241ca75c972547b940a51aa038e29
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110020"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119700294"
 ---
 # <a name="setpowerstate-method-of-the-cim_tachometer-class"></a>CIM \_ 轉速計類別的 SetPowerState 方法
 
@@ -46,7 +46,7 @@ uint32 SetPowerState(
 
 <dl> <dt>
 
-*>powerstate* \[在\]
+*>Powerstate* \[在\]
 </dt> <dd>
 
 指定此邏輯裝置所需電源狀態的 **ValueMap** 值。

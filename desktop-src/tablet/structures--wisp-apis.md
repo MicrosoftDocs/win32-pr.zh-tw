@@ -4,12 +4,12 @@ ms.assetid: 59d78d11-268e-460f-a889-5147ebde8bfb
 title: WPF 使用的結構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cb2d481838618a66b5a4b429f3d2f08a4de21899
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6b925b19ee47fe3bdaadf624167ff9296347e133d2a946559a7ae5773b0a5455
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106976573"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119596617"
 ---
 # <a name="structures-used-by-wpf"></a>WPF 使用的結構
 

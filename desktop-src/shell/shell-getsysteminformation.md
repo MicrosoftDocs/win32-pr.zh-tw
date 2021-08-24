@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: b9e021e767309007cfee2cfc78268fb7d7cea042
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 23ad48c673fb0c5925e796f77bd43c77f3abd0afd4511864a5b840214861f792
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108104276"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119660648"
 ---
 # <a name="shellgetsysteminformation-method"></a>GetSystemInformation 方法
 
@@ -100,7 +100,7 @@ ProcessorLevel
 
 **整數**
 
-**Windows Vista**（含）以後版本。 處理器層級。 分別針對 x386、x486 和 Pentium 層處理器傳回3、4或5。
+**Windows Vista 和更新版本**。 處理器層級。 分別針對 x386、x486 和 Pentium 層處理器傳回3、4或5。
 
 >processorspeed
 
@@ -134,7 +134,7 @@ Iso \_ 個人
 
 如果作業系統是 Windows XP Home Edition，則設定為 **true** ;否則 **為 false**。
 
-以下僅適用于 Windows XP 和更新版本。
+以下僅適用于 Windows XP 及更新版本。
 
 Iso \_ DomainMember
 
@@ -152,7 +152,7 @@ Microsoft Visual Basic 目前無法使用這個方法。
 
 下列範例顯示 JScript 和 VBScript 的 **GetSystemInformation** 用法。
 
-Jscript：
+JScript：
 
 
 ```JScript
@@ -197,10 +197,10 @@ VBScript
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 windows 2000 Professional、Windows XP \[ desktop 應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                          |
+| 最低支援的用戶端<br/> | Windows 2000 Professional，僅 Windows XP \[ desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                          |
 | 標頭<br/>                   | <dl> <dt>Shldisp。h</dt> </dl>                          |
-| Idl<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl>                        |
+| IDL<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl>                        |
 | DLL<br/>                      | <dl> <dt>Shell32.dll (5.0 版或更新版本) </dt> </dl> |
 
 

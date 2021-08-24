@@ -4,18 +4,18 @@ ms.assetid: 7a8a0bb8-9a0a-466c-96e0-3555d723c304
 title: AreaInformation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3a8521b5615df19bebb377c515831db09d4092c4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a56d84dd13ac05cd9a58c9f3e91fb1779bb7a313fc970ab5ad773b19e82ed813
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192543"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119598878"
 ---
 # <a name="systemgpsareainformation"></a>AreaInformation
 
 表示 GPS 區域的名稱。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

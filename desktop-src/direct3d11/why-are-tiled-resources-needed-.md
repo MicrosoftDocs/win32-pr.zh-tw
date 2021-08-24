@@ -4,12 +4,12 @@ description: 需要有並排的資源，因此 (GPU) 記憶體會浪費儲存應
 ms.assetid: E2179D65-56D3-481F-A5F3-B9C45A11A179
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d42ccccf66a73d224d8bab9a9d10c87cc330be43
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 502c2da8602cb0b2026ea8360c88388c18d37598d5672f547659cc6ea93e78e7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104971700"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119631938"
 ---
 # <a name="why-are-tiled-resources-needed"></a>為何需要磚資源？
 
@@ -40,6 +40,6 @@ Direct3D 11 支援在指定的一端具有最多16384圖元的 [**Texture2D**](/
 [磚資源](tiled-resources.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

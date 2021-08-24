@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9effect.h
-ms.openlocfilehash: 2256e24daa6dc8b6e5da1528e9a5e5aefce8ec99
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: a12541e9bfb33979b11f8198e218a3eb474f948aeb8c74982a5369eed782eaa3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104196181"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119631148"
 ---
 # <a name="d3dxparameter_desc-structure"></a>D3DXPARAMETER \_ DESC 結構
 
@@ -82,7 +82,7 @@ Parameter 類別。 將此值設定為 [**D3DXPARAMETER \_ 類別**](./d3dxparam
 
 </dd> <dt>
 
-**型別**
+**類型**
 </dt> <dd>
 
 類型： **[ **D3DXPARAMETER \_ 類型**](./d3dxparameter-type.md)**

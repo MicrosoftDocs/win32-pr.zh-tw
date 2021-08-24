@@ -3,7 +3,7 @@ title: 'ICM_SETSTATE 訊息 (Vfw .h) '
 description: ICM \_ SETSTATE 訊息會通知視訊壓縮驅動程式，以設定壓縮程式的狀態。 您可以使用 ICSetState 宏明確地傳送此訊息。
 ms.assetid: d1a91847-2893-4c8b-9ca1-02db71ec2c81
 keywords:
-- ICM_SETSTATE message Windows 多媒體
+- ICM_SETSTATE 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,14 +14,14 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 230e0aaf3752016efd276d7d55624ee2abb4f8e0
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6ea6cd7aa0314520a30e293a8f029920c22b8baa58e995eed7ff9e5a96dd1b7b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106965954"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119525808"
 ---
-# <a name="icm_setstate-message"></a>ICM \_ SETSTATE 訊息
+# <a name="icm_setstate-message"></a>ICM \_SETSTATE 訊息
 
 **ICM \_ SETSTATE** 訊息會通知視訊壓縮驅動程式，以設定壓縮程式的狀態。 您可以使用 [**ICSetState**](/windows/desktop/api/Vfw/nf-vfw-icsetstate) 宏明確地傳送此訊息。
 
@@ -58,7 +58,7 @@ lParam = (DWORD_PTR) cb;
 
 ## <a name="remarks"></a>備註
 
-這則訊息所使用的資訊是私用的，而且是指定之壓縮程式的特定資訊。 用戶端應用程式應該只使用此訊息來還原先前以 [**ICM \_ >getstate**](icm-getstate.md) 訊息取得的資訊，而且應該使用 ICM 設定訊息來調整視訊壓縮驅動程式的 [**\_ 設定**](icm-configure.md) 。
+這則訊息所使用的資訊是私用的，而且是指定之壓縮程式的特定資訊。 用戶端應用程式應該只使用此訊息來還原先前使用 [**ICM \_ >getstate**](icm-getstate.md)訊息所取得的資訊，而且應該使用 ICM 設定訊息來調整視訊壓縮驅動程式的 [**\_ 設定**](icm-configure.md)。
 
 ## <a name="requirements"></a>規格需求
 

@@ -8,22 +8,22 @@ keywords:
 - '資料交換、動態資料交換 (DDE) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 91d5fa52078c2fa1d2e67a74d019535c801c4c96
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4db58f1027f0dfaacf28c4b2ec8d4208747929b0d40ca55d7d377831777f78a2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104301044"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119678038"
 ---
 # <a name="dynamic-data-exchange"></a>動態資料交換
 
-本節提供針對無法使用動態資料交換管理程式庫 (DDEML) 的應用程式，執行動態資料交換的指導方針。 如需 DDEML 的詳細資訊，請參閱 [動態資料交換管理程式庫](dynamic-data-exchange-management-library.md)。
+本節提供針對無法使用動態資料交換管理程式庫 (DDEML) 的應用程式，執行動態資料交換的指導方針。 如需 DDEML 的詳細資訊，請參閱[動態資料交換管理程式庫](dynamic-data-exchange-management-library.md)。
 
 ### <a name="overviews"></a>概觀
 
 
 
-| Name                                                           | 描述                                                        |
+| 名稱                                                           | 描述                                                        |
 |----------------------------------------------------------------|--------------------------------------------------------------------|
 | [關於動態資料交換](about-dynamic-data-exchange.md) | 討論如何在應用程式之間傳輸資料。<br/>       |
 | [使用動態資料交換](using-dynamic-data-exchange.md) | 提供有關動態資料交換的程式碼範例。<br/> |
@@ -37,9 +37,9 @@ ms.locfileid: "104301044"
 
 
 
-| Name                                                             | 描述                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| 名稱                                                             | 描述                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 |------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**DdeSetQualityOfService**](/windows/desktop/api/Dde/nf-dde-ddesetqualityofservice)         | 指定服務品質 (QOS) 原始動態資料交換 (DDE) 應用程式想要在未來所起始的 DDE 交談。 指定的 QOS 適用于這些設定都已開始的任何交談。 DDE 交談的服務品質會在交談期間持續進行;交談期間對 [**DdeSetQualityOfService**](/windows/desktop/api/Dde/nf-dde-ddesetqualityofservice) 函式的呼叫不會影響交談的 QOS。 <br/> |
+| [**DdeSetQualityOfService**](/windows/desktop/api/Dde/nf-dde-ddesetqualityofservice)         | 指定服務品質 (QOS) 原始動態資料交換 (dde) 應用程式想要在未來所起始的 dde 交談。 指定的 QOS 適用于這些設定都已開始的任何交談。 DDE 交談的服務品質會在交談期間持續進行;交談期間對 [**DdeSetQualityOfService**](/windows/desktop/api/Dde/nf-dde-ddesetqualityofservice) 函式的呼叫不會影響交談的 QOS。 <br/> |
 | [**FreeDDElParam**](/windows/desktop/api/Dde/nf-dde-freeddelparam)                           | 釋出已張貼之 DDE 訊息的 *lParam* 參數所指定的記憶體。 接收已張貼之 DDE 訊息的應用程式應該在使用 [**UnpackDDElParam**](/windows/desktop/api/Dde/nf-dde-unpackddelparam) 函式將 *lParam* 值解壓縮之後，呼叫此函式。 <br/>                                                                                                                                                                                                     |
 | [**ImpersonateDdeClientWindow**](/windows/desktop/api/Dde/nf-dde-impersonateddeclientwindow) | 讓 DDE 伺服器應用程式模擬 DDE 用戶端應用程式的安全性內容。 這可防止未經授權的 DDE 用戶端進行安全的伺服器資料。 <br/>                                                                                                                                                                                                                                                                                                      |
 | [**PackDDElParam**](/windows/desktop/api/Dde/nf-dde-packddelparam)                           | 將 DDE *lParam* 值封裝成用來在進程之間共用 dde 資料的內部結構。<br/>                                                                                                                                                                                                                                                                                                                                                                 |
@@ -54,7 +54,7 @@ ms.locfileid: "104301044"
 
 
 
-| Name                                         | 描述                                                                                                                                                                                                                                                                                      |
+| 名稱                                         | 描述                                                                                                                                                                                                                                                                                      |
 |----------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**WM \_ DDE \_ 起始**](wm-dde-initiate.md) | 起始與伺服器應用程式的交談，回應指定的應用程式和主題名稱。 收到此訊息時，所有名稱符合指定之應用程式且支援指定主題的伺服器應用程式，都應該要知道它。<br/> |
 
@@ -66,7 +66,7 @@ ms.locfileid: "104301044"
 
 
 
-| Name                                           | 描述                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| 名稱                                           | 描述                                                                                                                                                                                                                                                                                                                                                                                                                   |
 |------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**WM \_ DDE \_ ACK**](wm-dde-ack.md)             | Nnotifies 接收和處理下列訊息的 DDE 應用程式： [**WM \_ dde \_**](wm-dde-poke.md)傳送、 [**wm \_ dde \_ 執行**](wm-dde-execute.md)、 [**wm \_ dde \_ 資料**](wm-dde-data.md)、 [**Wm \_ dde \_**](wm-dde-advise.md)、wm、 [**wm \_ dde \_ UNADVISE**](wm-dde-unadvise.md)、 [**wm \_ dde \_ 初始**](wm-dde-initiate.md)或 [**wm \_ dde \_ 要求**](wm-dde-request.md) (在某些情況下) 。 <br/> |
 | [**WM \_ DDE \_ 建議**](wm-dde-advise.md)       | DDE 用戶端應用程式會將 [**WM \_ DDE \_ 建議**](wm-dde-advise.md) 訊息張貼至 DDE 伺服器應用程式，要求伺服器在專案變更時，提供資料項目的更新。 <br/>                                                                                                                                                                                                              |
@@ -85,7 +85,7 @@ ms.locfileid: "104301044"
 
 
 
-| Name                           | 描述                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| 名稱                           | 描述                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 |--------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**DDEACK**](/windows/desktop/api/Dde/ns-dde-ddeack)       | 包含將 DDE 應用程式傳遞給其夥伴作為 [**WM \_ DDE \_ ACK**](wm-dde-ack.md) 訊息一部分的狀態旗標。 旗標會提供應用程式的相關詳細資料，內容為 [**wm： wm \_ dde \_ 資料**](wm-dde-data.md)、 [**wm \_ dde \_**](wm-dde-poke.md)郵件、 [**wm \_ dde \_ 執行**](wm-dde-execute.md)、 [**wm \_ dde \_ 建議**](wm-dde-advise.md)、 [**wm \_ dde \_ UNADVISE**](wm-dde-unadvise.md)和 [**wm \_ dde \_ 要求**](wm-dde-request.md)的訊息。 <br/> |
 | [**DDEADVISE**](/windows/desktop/api/Dde/ns-dde-ddeadvise) | 包含旗標，這些旗標會指定 DDE 伺服器應用程式在建議迴圈期間如何傳送資料給用戶端應用程式。 用戶端會將 [**DDEADVISE**](/windows/desktop/api/Dde/ns-dde-ddeadvise) 結構的控制碼傳遞給伺服器，作為 [**WM \_ DDE \_ 建議**](wm-dde-advise.md) 訊息的一部分。 <br/>                                                                                                                                                                                               |

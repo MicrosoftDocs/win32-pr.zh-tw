@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: c0bd65799bada2df8a3c9e0b113db3c911a53536
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: aab65a36a63ce68264be97ad20061a1ee84efe4dd52d712dfa3c260dc9c11525
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106982019"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119631478"
 ---
 # <a name="d3dxcreatecubetexturefromresource-function"></a>D3DXCreateCubeTextureFromResource 函式
 
@@ -91,7 +91,7 @@ HRESULT D3DXCreateCubeTextureFromResource(
 
 函數相當於 D3DXCreateCubeTextureFromResourceEx (pDevice、hSrcModule、pSrcResource、D3DX \_ default、D3DX \_ default、0、D3DFMT \_ UNKNOWN、D3DPOOL \_ MANAGED、D3DX \_ default、D3DX \_ default、0、 **null**、 **null**、ppCubeTexture) 。
 
-此函式支援下列檔案格式： .bmp、dds、.dib、hdr、.jpg、pfm、.png、ppm 和. tga。 請參閱 [**D3DXIMAGE \_ >fileformat**](./d3dximage-fileformat.md)。
+此函數支援下列檔案格式： .bmp、dds、.dib、hdr、.jpg、pfm、.png、ppm 和. tga。 請參閱 [**D3DXIMAGE \_ >fileformat**](./d3dximage-fileformat.md)。
 
 請注意，從 IDirect3DDevice9 物件呼叫時，使用這個函式所建立的資源將會放置在 D3DPOOL MANAGED 所表示的記憶體類別中 \_ 。 從 IDirect3DDevice9Ex 物件呼叫這個方法時，資源會放在 D3DPOOL 預設值所表示的 memory 類別中 \_ 。
 

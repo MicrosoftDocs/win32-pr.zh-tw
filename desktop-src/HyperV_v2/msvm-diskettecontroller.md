@@ -61,12 +61,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: f1e4e731464e25dc8e871ebd17cdcddd4e262673
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 78e2800724954c5acdb396c88d8c042159cb9ce20c3d540d520d6197ddae81d4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103690264"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119525338"
 ---
 # <a name="msvm_diskettecontroller-class"></a>Msvm \_ DisketteController 類別
 
@@ -866,8 +866,8 @@ class Msvm_DisketteController : CIM_Controller
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                                              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                                              |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                                                    |
 | 命名空間<br/>                | 根 \\ 虛擬化 \\ V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization。</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -884,7 +884,7 @@ class Msvm_DisketteController : CIM_Controller
 [**CIM \_ 控制器**](/windows/desktop/CIMWin32Prov/cim-controller)
 </dt> <dt>
 
-[儲存類別](storage-classes.md)
+[儲存體類](storage-classes.md)
 </dt> </dl>
 
  

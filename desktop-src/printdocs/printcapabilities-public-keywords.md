@@ -4,12 +4,12 @@ ms.assetid: 7f08747f-f7ff-4381-b2b9-1917e4708ee3
 title: PrintCapabilities 公用關鍵字
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d836ca13297f031897598bb2ecbfc6588c49753
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 8cccfa2cb22d8e784e8d4b82e548b9f4ae9772d1bd216573f5229d00f2f6d633
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112407091"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119600618"
 ---
 # <a name="printcapabilities-public-keywords"></a>PrintCapabilities 公用關鍵字
 

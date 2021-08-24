@@ -6,12 +6,12 @@ keywords:
 - 設定工作屬性工作排程器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2fcb05031961e38314cbc7cd12c20c1d863f54af
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: deac57ac28a16108eb886cc56cf697cd768ca7d2e351c4517728c2972be8582f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106966259"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119681628"
 ---
 # <a name="setting-task-property-examples"></a>設定工作屬性範例
 
@@ -22,7 +22,7 @@ ms.locfileid: "106966259"
 > [!Note]  
 > 在下列程式碼範例中，不再需要所有介面之後，就會釋放它們。
 
- 
+ 
 
 在下列範例中，修改後的工作物件一律會藉由呼叫 [**IPersistFile：： Save**](/windows/win32/api/objidl/nf-objidl-ipersistfile-save)儲存至磁片。  ([**IPersistFile**](/windows/win32/api/objidl/nn-objidl-ipersistfile) 介面是 task 物件所繼承的標準 COM 介面。 ) 
 
@@ -47,7 +47,7 @@ ms.locfileid: "106966259"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -56,6 +56,6 @@ ms.locfileid: "106966259"
 [工作排程器1.0 範例](task-scheduler-1-0-examples.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

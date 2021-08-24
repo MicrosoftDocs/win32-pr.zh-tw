@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 68845f713289c524afc844037ca305909e5b89b0
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 2182714588e5d408c6928a677433e68dac44f09abf5ec6bd4cb4d6df7e4acf02
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104323036"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119629058"
 ---
 # <a name="id3dxprtenginesetminmaxintersection-method"></a>ID3DXPRTEngine：： SetMinMaxIntersection 方法
 

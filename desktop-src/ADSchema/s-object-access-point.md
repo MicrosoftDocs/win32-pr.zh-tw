@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 12f0d8f75b41ddd3f5365e43cf04e942b41badc9
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: b7000223442157024cce2c0306eafe4bfe3286d6cd7658e671991937cd09804a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103844608"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119702558"
 ---
 # <a name="objectaccess-point-syntax"></a>物件 (存取點) 語法
 

@@ -4,12 +4,12 @@ ms.assetid: b7c5cd67-fd2a-49d8-8de5-61783a3b4577
 title: 'MF_PD_ASF_INFO_HAS_AUDIO 屬性 (Wmcontainer) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a5e2fbf9698e470af92cbd21fc5f26883dc5fd79
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 17be78de672b8de4e58e0aacb3cafbb8f52e1b8e43dd991a9b1f60fb709b2091
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193771"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119600348"
 ---
 # <a name="mf_pd_asf_info_has_audio-attribute"></a>MF \_ PD \_ ASF \_ 資訊 \_ 有 \_ 音訊屬性
 
@@ -33,8 +33,8 @@ ms.locfileid: "104193771"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                     |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                     |
 | 標頭<br/>                   | <dl> <dt>Wmcontainer。h</dt> </dl> |
 
 

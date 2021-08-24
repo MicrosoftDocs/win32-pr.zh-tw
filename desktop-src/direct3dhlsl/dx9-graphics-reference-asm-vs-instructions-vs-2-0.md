@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: bf8ea2dbe5d70cc4be8d3867cafc6127138f833a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0baaa0fb9523e59e3dafdb0a7dd1dd7856325c518f06995da4d768929982b6f1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372413"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119744468"
 ---
 # <a name="instructions---vs_2_0"></a>指示-vs \_ 2 \_ 0
 
@@ -25,14 +25,14 @@ ms.locfileid: "104372413"
 -   指示位置-每個指令所使用的指令位置數目。
 -   設定-非算術指令。 每個著色器都必須有 version 指令，而且必須是第一個指令。
 -   算術-這些指示可提供著色器中的數學運算。
--   流程式控制制-這些指示會新增流程式控制制功能，例如 [迴圈](loop---vs.md).。。[endloop](endloop---vs.md)， [如果](if-bool---vs.md).。。[其他](else---vs.md).。。[endif-vs](endif---vs.md)和副程式呼叫。
+-   Flow 控制項-這些指示會新增流程式控制制功能，例如[迴圈](loop---vs.md).。。[endloop](endloop---vs.md)，[如果](if-bool---vs.md).。。[其他](else---vs.md).。。[endif-vs](endif---vs.md)和副程式呼叫。
 -   新的-這些指示是此版本的新指示。
 
 ## <a name="instruction-set"></a>指令集
 
 
 
-| Name                                                                           | 描述                                                                                                     | 指令插槽 | 設定 | 算術 | 流量控制 | 新增 |
+| 名稱                                                                           | 描述                                                                                                     | 指令插槽 | 設定 | 算術 | 流量控制 | 新增 |
 |--------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|-------------------|-------|------------|--------------|-----|
 | [abs-vs](abs---vs.md)                                                       | 絕對值                                                                                                  | 1                 |       | x          |              | x   |
 | [新增-vs](add---vs.md)                                                       | 新增兩個向量                                                                                                 | 1                 |       | x          |              |     |
@@ -87,7 +87,7 @@ ms.locfileid: "104372413"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -96,9 +96,9 @@ ms.locfileid: "104372413"
 [頂點著色器指示](dx9-graphics-reference-asm-vs-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

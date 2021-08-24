@@ -4,12 +4,12 @@ ms.assetid: 7c673d21-5243-4e41-91df-c5d84aaf620a
 title: System. DateAcquired
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a85f36df252202c319e90460807e16fefa3d559a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f1a78ae9ccfe938551ab6c4a265972e48c3aad1c1791f02cfa933c583c6d4b0d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194831"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119599178"
 ---
 # <a name="systemdateacquired"></a>System. DateAcquired
 

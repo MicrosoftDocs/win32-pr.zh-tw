@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 112237a00e9e92a2074ee0b95f9964d73f083e43
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: bdc78266d18b73ee31634a0fc33a244aea3dd9b30d5f6c65c5d646b7aa3da0de
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106999601"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119681398"
 ---
 # <a name="createwinstation-method-of-the-win32_terminalservicesetting-class"></a>Win32 TerminalServiceSetting 類別的 CreateWinstation 方法 \_
 

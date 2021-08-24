@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: SWbemNamedValue 屬性
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e8c5bc0cf2c8a1d85b48fac356c433298d950d81
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e1e94bf58109d62631e3ea910091e5811a8e7850e313d332cd39a3b1dbad3bec
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103849562"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119679438"
 ---
 # <a name="swbemnamedvalue-properties"></a>SWbemNamedValue 屬性
 

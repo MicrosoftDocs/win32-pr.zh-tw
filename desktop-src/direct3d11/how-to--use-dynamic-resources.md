@@ -4,12 +4,12 @@ description: 當您的應用程式需要變更這些資源中的資料時，您�
 ms.assetid: E73EA4B0-BD14-430C-89CA-4CFCF92C7548
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e41e00cda7236040679c7863454e4cc18d81106b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2d85933490d1e3bbbd09cc83720651c4fd634012f8e5aa70562396e87c096ebc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104183113"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119633098"
 ---
 # <a name="how-to-use-dynamic-resources"></a>如何：使用動態資源
 
@@ -138,7 +138,7 @@ void TriangleRenderer::MapDoubleVertices()
 > [!Note]  
 > 當您對應具有 [**D3D11 \_ 對應 \_ 寫入 \_ 捨棄**](/windows/desktop/api/D3D11/ne-d3d11-d3d11_map)的緩衝區時，執行時間一律會捨棄整個緩衝區。 您無法藉由指定非零位移或受限大小欄位，來保留緩衝區未對應區域中的資訊。
 
- 
+ 
 
 在某些情況下，應用程式在每個地圖上儲存的資料量很小，例如新增四個頂點以呈現 sprite。 [**D3D11 \_「對應 \_ 寫入 \_ 無 \_ 覆寫**](/windows/desktop/api/D3D11/ne-d3d11-d3d11_map) 」表示應用程式不會覆寫動態緩衝區中已在使用中的資料。 [**Map**](/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-map)呼叫會傳回舊資料的指標，讓應用程式能夠在頂點或索引緩衝區未使用的區域中加入新的資料。 應用程式不能修改繪製作業中使用的頂點或索引，因為它們可能仍在 GPU 中使用。 我們建議應用程式在動態緩衝區填滿之後，使用 [**D3D11 \_ 對應 \_ 寫入 \_ 捨棄**](/windows/desktop/api/D3D11/ne-d3d11-d3d11_map) ，以接收新的記憶體區域，這會在 GPU 完成之後捨棄舊的頂點或索引資料。
 
@@ -147,7 +147,7 @@ void TriangleRenderer::MapDoubleVertices()
 > [!Note]  
 > 從 Windows 8 開始提供的 Direct3D 11.1 執行時間，可讓您將動態常數緩衝區和著色器資源流覽 (SRVs) 動態緩衝區，並將 [**D3D11 \_ 對應 \_ 寫入 [ \_ 不 \_ 覆寫**](/windows/desktop/api/D3D11/ne-d3d11-d3d11_map)]。 Direct3D 11 和舊版執行時間限制對頂點或索引緩衝區的無覆寫部分更新對應。 若要判斷 Direct3D 裝置是否支援這些功能，請使用 [**D3D11 \_ 功能 \_ D3D11 \_ 選項**](/windows/desktop/api/D3D11/ne-d3d11-d3d11_feature)來呼叫 [**ID3D11Device：： CheckFeatureSupport**](/windows/desktop/api/D3D11/nf-d3d11-id3d11device-checkfeaturesupport) 。 **CheckFeatureSupport** 會以裝置的功能填滿 [**D3D11 \_ 功能 \_ 資料 \_ D3D11 \_ 選項**](/windows/desktop/api/D3D11/ns-d3d11-d3d11_feature_data_d3d11_options) 結構的成員。 這裡的相關成員是 **MapNoOverwriteOnDynamicConstantBuffer** 和 **MapNoOverwriteOnDynamicBufferSRV**。
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -156,9 +156,9 @@ void TriangleRenderer::MapDoubleVertices()
 [如何使用 Direct3D 11](how-to-use-direct3d-11.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

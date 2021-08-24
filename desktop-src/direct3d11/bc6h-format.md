@@ -7,12 +7,12 @@ keywords:
 - DXGI_FORMAT_BC6H
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 92ea15e0275bc478c0708ce08f531d8888a3c84d
-ms.sourcegitcommit: ca37395fd832e798375e81142b97cffcffabf184
+ms.openlocfilehash: 27422e177e98ecdc53b4152ba0514866f5ad75216e9ef789145d1af882a645d5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "110335222"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119633818"
 ---
 # <a name="bc6h-format"></a>BC6H 格式
 
@@ -102,7 +102,7 @@ decompress_bc6h(x, y, block)
 
 下表包含了 BC6H 區塊中 14 種可能格式個別的位元計數及其數值。 
 
-| 模式 | 分割索引 | 資料分割 | 色彩端點                  | 模式位元      |
+| [模式] | 分割索引 | 資料分割 | 色彩端點                  | 模式位元      |
 |------|-------------------|-----------|----------------------------------|----------------|
 | 1    | 46 個位元           | 5 個位元    | 75 個位元 (10.555, 10.555, 10.555) | 2 個位元 (00)    |
 | 2    | 46 個位元           | 5 個位元    | 75 個位元 (7666, 7666, 7666)       | 2 個位元 (01)    |

@@ -4,16 +4,16 @@ ms.assetid: 146ca753-fe41-49d3-8b1c-077e10a28192
 title: MSDV 驅動程式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6b7c1bda24980abe84a11613126476ccfe35380d
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 5377471f61944c60f57720df6bc64482681d64515f54c853d78cfa405842ff15
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104385557"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119748614"
 ---
 # <a name="msdv-driver"></a>MSDV 驅動程式
 
-MSDV 是適用于 DV 攝影機的 Microsoft Windows Driver Model (WDM) 驅動程式。 當裝置插入電源時，驅動程式會顯示為 DirectShow 篩選。 它是以兩個篩選準則分類來列舉：
+MSDV 是適用于 DV 攝影機的 Microsoft Windows Driver Model (WDM) 驅動程式。 當裝置插入電源時，驅動程式會顯示為 DirectShow 的篩選準則。 它是以兩個篩選準則分類來列舉：
 
 -   CLSID \_ VideoInputDeviceCategory ( 「影片捕獲來源」 ) 
 -   \_KSCATEGORY 轉譯 \_ ( 「WDM 串流轉譯裝置」 ) 
@@ -40,8 +40,8 @@ MSDV 有兩個輸出圖釘。 一個 pin 會提供包含交錯音訊和影片資
 
 使用 MSDV 建立篩選圖形的一些秘訣：
 
--   您無法使用 [**IGraphBuilder：： render**](/windows/desktop/api/Strmif/nf-strmif-igraphbuilder-render) 在 MSDV 上轉譯輸出圖釘。  (篩選圖形管理員嘗試將輸出連接連接到 MSDV 的輸入 pin 失敗。 ) 改為使用 [**IGraphBuilder：： connect**](/windows/desktop/api/Strmif/nf-strmif-igraphbuilder-connect) 或 [**ICaptureGraphBuilder2：： RenderStream**](/windows/desktop/api/Strmif/nf-strmif-icapturegraphbuilder2-renderstream)。
--   當篩選圖形包含 MSDV 時，MSDV 應該提供圖形的參考時鐘。 從 DirectX 8.0，篩選圖形管理員會自動選擇 MSDV 做為參考時鐘。 使用較舊的版本時，您應該在篩選圖形管理員上呼叫 [**IMediaFilter：： SetSyncSource**](/windows/desktop/api/Strmif/nf-strmif-imediafilter-setsyncsource) 方法。 如需時鐘的詳細資訊，請參閱 [DirectShow 中的時間和時鐘](time-and-clocks-in-directshow.md)。
+-   您無法使用 [**IGraphBuilder：： render**](/windows/desktop/api/Strmif/nf-strmif-igraphbuilder-render) 在 MSDV 上轉譯輸出圖釘。  (篩選 Graph 管理員嘗試將輸出連接連接至 MSDV 的輸入 pin 失敗。 ) 改為使用 [**IGraphBuilder：：連線**](/windows/desktop/api/Strmif/nf-strmif-igraphbuilder-connect)或 [**ICaptureGraphBuilder2：： RenderStream**](/windows/desktop/api/Strmif/nf-strmif-icapturegraphbuilder2-renderstream)。
+-   當篩選圖形包含 MSDV 時，MSDV 應該提供圖形的參考時鐘。 從 DirectX 8.0，篩選 Graph 管理員會自動選擇 MSDV 做為參考時鐘。 使用較舊的版本時，您應該在篩選 Graph 管理員上呼叫 [**IMediaFilter：： SetSyncSource**](/windows/desktop/api/Strmif/nf-strmif-imediafilter-setsyncsource)方法。 如需有關時鐘的詳細資訊，請參閱[DirectShow 中的時間和時鐘](time-and-clocks-in-directshow.md)。
 -   視裝置而定， **IAMExtDevice**、 **IAMExtTransport** 和 **IAMTimeCodeReader** 中的某些方法可能會傳回 Windows 錯誤碼，而不是 **HRESULT** 值。 可能的錯誤代碼包括下列各項。
 
     | 錯誤碼              | 描述                                                                                      |
@@ -63,7 +63,7 @@ MSDV 有兩個輸出圖釘。 一個 pin 會提供包含交錯音訊和影片資
 
 ### <a name="clock-times"></a>時鐘時間
 
-MSDV 驅動程式會使用1394資料封包中包含的1394匯流排時鐘來衍生時鐘。 它會使用這些值，以時間戳記 DV 媒體範例。 由於此來源時鐘不是電腦系統時鐘，因此時間最後會與電腦系統時鐘漂移。 不過，如先前所述，篩選圖形管理員預設會選取 [MSDV] 做為圖形參考時鐘。
+MSDV 驅動程式會使用1394資料封包中包含的1394匯流排時鐘來衍生時鐘。 它會使用這些值，以時間戳記 DV 媒體範例。 由於此來源時鐘不是電腦系統時鐘，因此時間最後會與電腦系統時鐘漂移。 不過，如先前所述，根據預設，篩選 Graph 管理員會將 MSDV 選取為圖形參考時鐘。
 
 [**IAMDroppedFrames**](/windows/desktop/api/Strmif/nn-strmif-iamdroppedframes)介面會報告驅動程式目前的已卸載框架量值;在指定的時間內，此值可能不會與實際的已捨棄框架數目完全同步處理。 如果已卸載框架，表示系統未平衡 (資料生產量超過) 的資料耗用量。 例如，使用者的硬碟可能不夠快，無法支援 DV 捕捉率。
 
@@ -71,7 +71,7 @@ MSDV 驅動程式會使用1394資料封包中包含的1394匯流排時鐘來衍�
 
 <dl> <dt>
 
-[DirectShow 篩選](directshow-filters.md)
+[DirectShow過濾 器](directshow-filters.md)
 </dt> <dt>
 
 [DirectShow 中的數位視訊](digital-video-in-directshow.md)

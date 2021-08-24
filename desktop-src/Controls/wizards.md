@@ -4,12 +4,12 @@ description: Wizard 是一種屬性工作表，可提供簡單且強大的方式
 ms.assetid: f8def159-0a68-4d7f-9840-c7b6b906ed08
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fedd35bd0454e0d78ddbe74d832543e58d0a8fc7
-ms.sourcegitcommit: 11f52354f570aacaf1ba2a266b2e507abd73352a
+ms.openlocfilehash: 4254b448c719e3e1397fceadfcdc28475eaeae588f6f1eb0f0168cea07327d3d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "106986137"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119655816"
 ---
 # <a name="how-to-create-wizards"></a>如何建立嚮導
 
@@ -19,7 +19,7 @@ Wizard 是一種屬性工作表，可提供簡單且強大的方式來引導使�
 
 Wizard 其實是一種屬性工作表。 屬性工作表基本上是 *頁面* 集合的容器，每個頁面都是個別的對話方塊。 雖然一般屬性工作表可讓使用者隨時存取任何頁面，但嚮導會依序顯示頁面。 按鈕是用來向前及向後導覽，而不是索引標籤。 頁面的顯示順序是由應用程式所控制，並且可以根據使用者輸入加以修改。
 
-Wizard 有兩種主要的樣式：舊版 Wizard97 樣式，以及 Windows Vista 中引進的 Aero 樣式。 如需圖例，請參閱 [關於屬性工作表](property-sheets.md)。  (第三種樣式，只使用 PSH \_ WIZARD 或 PSH \_ wizard \_ LITE 旗標，提供簡單的屬性工作表順序，不含標頭或浮水印。 ) 
+wizard 的主要樣式有兩種：舊版 Wizard97 樣式，以及 Windows Vista 中引進的 Aero 樣式。 如需圖例，請參閱 [關於屬性工作表](property-sheets.md)。  (第三種樣式，只使用 PSH \_ WIZARD 或 PSH \_ wizard \_ LITE 旗標，提供簡單的屬性工作表順序，不含標頭或浮水印。 ) 
 
 > [!Note]  
 > 在嚮導的內容中，「浮水印」是顯示在部分頁面左邊界的點陣圖。
@@ -32,12 +32,12 @@ Wizard 有兩種主要的樣式：舊版 Wizard97 樣式，以及 Windows Vista 
 
 ### <a name="technologies"></a>技術
 
--   [Windows 控制項](window-controls.md)
+-   [Windows控制](window-controls.md)
 
 ### <a name="prerequisites"></a>必要條件
 
 -   C/C++
--   Windows 消費者介面程式設計
+-   Windows消費者介面程式設計
 
 ## <a name="instructions"></a>指示
 
@@ -197,7 +197,7 @@ PropertySheet(&psh);
 
 ### <a name="the-dialog-box-procedure"></a>對話方塊程式
 
-Wizard 的每一頁都需要一個對話方塊程式來處理 Windows 訊息，特別是來自其控制項和 wizard 的通知。 幾乎所有嚮導都必須能夠處理的三個訊息為 [**wm \_ INITDIALOG**](/windows/desktop/dlgbox/wm-initdialog)、 [**wm \_ 摧毀**](/windows/desktop/winmsg/wm-destroy)和 [**wm \_ 通知**](wm-notify.md)。
+wizard 的每一頁都需要一個對話方塊程式來處理 Windows 的訊息，特別是來自其控制項和 wizard 的通知。 幾乎所有嚮導都必須能夠處理的三個訊息為 [**wm \_ INITDIALOG**](/windows/desktop/dlgbox/wm-initdialog)、 [**wm \_ 摧毀**](/windows/desktop/winmsg/wm-destroy)和 [**wm \_ 通知**](wm-notify.md)。
 
 在顯示頁面之前，以及按一下任何 wizard 按鈕時，會收到 [**WM \_ 通知**](wm-notify.md) 訊息。 訊息的 *lParam* 參數是指向 [**NMHDR**](/windows/desktop/api/richedit/ns-richedit-nmhdr) 標頭結構的指標。 通知的識別碼包含在結構的程式 **代碼** 成員中。 大部分的嚮導需要處理的這四個通知如下。
 
@@ -330,7 +330,7 @@ case PSN_WIZFINISH :
 
 ## <a name="remarks"></a>備註
 
-如需 Wizard97 設計問題的完整討論，請參閱 Windows SDK 中其他位置的 [Wizard97 規格](/previous-versions//ms738248(v=vs.85))。 本檔包含對話方塊的維度、點陣圖維度和色彩，以及控制項位置等專案的指導方針。
+如需 Wizard97 設計問題的完整討論，請參閱 Windows SDK 中其他位置的[Wizard97 規格](/previous-versions//ms738248(v=vs.85))。 本檔包含對話方塊的維度、點陣圖維度和色彩，以及控制項位置等專案的指導方針。
 
 ## <a name="related-topics"></a>相關主題
 

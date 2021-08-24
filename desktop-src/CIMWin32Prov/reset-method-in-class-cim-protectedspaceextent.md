@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: a89d234fc4a134d81485f0e507873fc3cc111305
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 99a8c502b45998e9f1c0b544c944c1d2c8c9137eda5dfcc6661d0bb4a97c2e8a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111520"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119701178"
 ---
 # <a name="reset-method-of-the-cim_protectedspaceextent-class"></a>CIM ProtectedSpaceExtent 類別的 Reset 方法 \_
 

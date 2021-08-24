@@ -3,7 +3,7 @@ title: 'DRV_ENABLE 訊息 (Mmsystem .h) '
 description: 啟用驅動程式。 驅動程式應該初始化任何變數，並找出具有輸入和輸出 (i/o) 介面的裝置。
 ms.assetid: 8aa36f3d-b36c-4460-859c-108a7a450ae5
 keywords:
-- DRV_ENABLE message Windows 多媒體
+- DRV_ENABLE 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 569b4ca5f3d0dc5f439b1e2b0e25887ffd1da4ac
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e7ab74abf08380db97a15da22fa99d58d72b6aba124a430cad665f65bc94e26c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103935078"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119526278"
 ---
 # <a name="drv_enable-message"></a>WINSPOOL.DRV \_ 啟用訊息
 
@@ -54,7 +54,7 @@ ms.locfileid: "103935078"
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                                |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                      |
-| 標頭<br/>                   | <dl> <dt>Mmsystem (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Mmsystem (包含 Windows .h) </dt> </dl> |
 
 
 

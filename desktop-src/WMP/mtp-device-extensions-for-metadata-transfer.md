@@ -18,12 +18,12 @@ keywords:
 - 適用于中繼資料傳輸的 MTP 裝置擴充功能
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f64ff16fd97f135d7f8c902af823b967079408fb
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c56f633d7cd4ca44a90d311c1e4c1c2e6d213e1d2ad1a43b802e4795a59a7d47
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104020772"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119572438"
 ---
 # <a name="mtp-device-extensions-for-metadata-transfer"></a>適用于中繼資料傳輸的 MTP 裝置擴充功能
 
@@ -91,7 +91,7 @@ Bits 2 到31保留供日後使用。 這些位應設定為零。
 
 Windows Media Player 在傳送媒體檔案之前，于同步處理會話開始時，將 MTP 命令傳送到裝置。 裝置應該儘快傳回其回應，以避免同步處理作業的延遲。
 
-Windows Media Player 會針對回應中所傳回之每個修改 POUID 的 [中繼資料](about-the-metadata.md) ，要求所列屬性的值。 Windows Media Player 可能會在後續命令中，將這些屬性的更新值傳送至裝置。
+Windows Media Player 會針對回應中所傳回之每個修改 POUID 的[中繼資料](about-the-metadata.md)，要求所列屬性的值。 Windows Media Player 可能會在後續命令中，將這些屬性的更新值傳送至裝置。
 
 如果使用者的設定需要，則可以將回報為已從裝置移除的檔案再次複製到裝置。
 
