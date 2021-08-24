@@ -4,12 +4,12 @@ description: 媒體串流 API 提供下列結構。
 ms.assetid: 61B10B96-6B3C-4A4B-A7DA-F3E9E31EC5FD
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7a7b638fd73e51dbb7342869d8529e179b95b9d4
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 72f49564a52b3a451f66c6814f60dcd6898ffa6a330ed89bba1c2d2781c94a9d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104464165"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119720938"
 ---
 # <a name="media-streaming-structures"></a>媒體串流結構
 

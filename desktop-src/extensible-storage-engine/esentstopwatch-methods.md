@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102992
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 4a28eb819800d5e4ebd6f258417dab0638b8aa71
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3f765e9c328c2bba03fe830827c17605cbe04155faca0655d46d18405df422cc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103694775"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119721558"
 ---
 # <a name="esentstopwatch-methods"></a>EsentStopwatch 方法
 

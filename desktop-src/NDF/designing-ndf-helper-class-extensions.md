@@ -4,20 +4,20 @@ description: 本主題的目的是要透過 helper 類別擴充程式開發程�
 ms.assetid: f5dbd198-7d22-4e7e-830e-6753e9f4d6c8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d91ff748d8139aad17fca3710b17e73b5e1eaa14
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 474a9f4ade01fe98a8db30568aa6a7c4978156d2c791747353071f020af27605
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103932091"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119802358"
 ---
 # <a name="designing-ndf-helper-class-extensions"></a>設計 NDF Helper 類別延伸模組
 
-本主題的目的是要透過 helper 類別擴充程式開發程式來提供一般的指引。 本主題中的指導方針適用于所有 helper 類別的擴充功能。 如需更具體的指引，請參閱 [Windows 篩選平台](windows-filtering-platform-extensible-helper-class.md) 可延伸協助程式類別和 [802.11 無線診斷](802-11-wireless-diagnostics-extensible-helper-classes.md)可延伸協助程式類別。
+本主題的目的是要透過 helper 類別擴充程式開發程式來提供一般的指引。 本主題中的指導方針適用于所有 helper 類別的擴充功能。 如需更具體的指引，請參閱[Windows 篩選平台](windows-filtering-platform-extensible-helper-class.md)可延伸協助程式類別和[802.11 無線診斷](802-11-wireless-diagnostics-extensible-helper-classes.md)可延伸協助程式類別。
 
 ## <a name="extending-ndf-functionality"></a>擴充 NDF 功能
 
-Windows Vista 和更新版本隨附的各種協助程式類別，可診斷和修復各式各樣的問題。 但有時候，協力廠商開發人員可能會想要擴充這些協助程式類別，以診斷並解決其特定產品和執行的特定問題。
+WindowsVista 和更新版本隨附的各種協助程式類別，可診斷和修復各式各樣的問題。 但有時候，協力廠商開發人員可能會想要擴充這些協助程式類別，以診斷並解決其特定產品和執行的特定問題。
 
 下列 Microsoft NDF 協助程式類別是可擴充的。
 
@@ -85,7 +85,7 @@ Helper 類別延伸會將根本原因和修復資訊的相關資訊傳回給使�
 
 <dl> <dt>
 
-[Windows 篩選平台可擴充 Helper 類別](windows-filtering-platform-extensible-helper-class.md)
+[Windows篩選平臺可擴充 Helper 類別](windows-filtering-platform-extensible-helper-class.md)
 </dt> <dt>
 
 [802.11 無線診斷可延伸的 Helper 類別](802-11-wireless-diagnostics-extensible-helper-classes.md)

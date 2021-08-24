@@ -1,19 +1,19 @@
 ---
-description: 本節說明一組搭配 PROPVARIANT 和 VARIANT 類型使用的 Windows Shell 轉換和 helper 函數。
+description: 本節說明一組 Windows Shell 轉換和搭配 PROPVARIANT 和 VARIANT 類型使用的 helper 函式。
 ms.assetid: 683fffb7-e8e8-4f7c-8312-5baef9b20641
 title: PROPVARIANT 和 VARIANT 函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 321d6a191e837aa42254c82cc15f3ec509e5ec15
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ccb3aa11fd9dea39a3540f4b0e723d199bdd5ffaa0b99d3051af48395652e63d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106979168"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119600168"
 ---
 # <a name="propvariant-and-variant-functions"></a>PROPVARIANT 和 VARIANT 函式
 
-本節說明一組搭配 [**PROPVARIANT**](/windows/win32/api/propidlbase/ns-propidlbase-propvariant) 和 [**VARIANT**](/windows/win32/api/oaidl/ns-oaidl-variant) 類型使用的 Windows Shell 轉換和 helper 函數。
+本節說明一組 Windows Shell 轉換和搭配 [**PROPVARIANT**](/windows/win32/api/propidlbase/ns-propidlbase-propvariant)和 [**VARIANT**](/windows/win32/api/oaidl/ns-oaidl-variant)類型使用的 helper 函式。
 
 
 

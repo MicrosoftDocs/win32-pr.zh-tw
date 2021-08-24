@@ -11,12 +11,12 @@ api_name:
 - TransactionContext
 api_type:
 - COM
-ms.openlocfilehash: 595b5a3192b87420855eb43f1e1e33df37a45c23
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: aa0a90cee2b0af7d5ebe3679dca46aa04c6326fb5fd62fe5f57699d610b9efe8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191004"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119678148"
 ---
 # <a name="transactioncontext-class"></a>TransactionCoNtext 類別
 
@@ -48,7 +48,7 @@ ms.locfileid: "104191004"
 
 若要建立這個物件，請呼叫 [**IObjectCoNtext：： CreateInstance**](/windows/desktop/api/ComSvcs/nf-comsvcs-iobjectcontext-createinstance)。
 
-若要從 Microsoft Visual Basic 使用這個類別，請新增 COM + 服務類型程式庫的參考。 您可以使用 "COMSVCSLib. TransactionCoNtext" 將 TransactionCoNtext 物件宣告為類別名稱。
+若要從 Microsoft Visual Basic 使用這個類別，請新增 com + 服務類型程式庫的參考。 您可以使用 "COMSVCSLib. TransactionCoNtext" 將 TransactionCoNtext 物件宣告為類別名稱。
 
 ## <a name="requirements"></a>規格需求
 

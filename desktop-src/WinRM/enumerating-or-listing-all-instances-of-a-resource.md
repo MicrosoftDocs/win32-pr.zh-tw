@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 54587ce97ec6ed5e87af8b0424a6a18d684f7698
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 1f510d0e0cc8115ca4dca7c7e46dd5e987ef0dd15dd4fa7d92e47d737e467d8f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104186052"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119679988"
 ---
 # <a name="enumerating-or-listing-all-instances-of-a-resource"></a>列舉或列出資源的所有實例
 
@@ -109,9 +109,9 @@ End Sub
 [使用 Windows 遠端管理](using-windows-remote-management.md)
 </dt> <dt>
 
-[Windows 遠端管理參考](windows-remote-management-reference.md)
+[Windows遠端系統管理參考](windows-remote-management-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

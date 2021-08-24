@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 01d88f766fa50801cc92bf7629f3a2e15cbb7272
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 87f9d5386c9d38fef17050800d290f9a3067b32e1435a9444a2c3010cbf7d2da
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103851444"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119721078"
 ---
 # <a name="jet_bkinfogenhigh-property"></a>JET_BKINFO genHigh 屬性
 

@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e71284e4650a3cb146b1656c846483e33a6dd66
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 803b72a29eaa4c9f82f589e4f8578cc48a64e3857c9789db59bd2eef5cb6e815
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104385422"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119802118"
 ---
 # <a name="site-link-list-attribute"></a>站台連結清單屬性
 

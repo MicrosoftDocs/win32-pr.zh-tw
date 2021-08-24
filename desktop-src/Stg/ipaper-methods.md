@@ -6,12 +6,12 @@ keywords:
 - IPaper
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f84153c9fcec021d9084807d73d46198e3a56482
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 91a45322e35f07a6f136e76ecaad6ae237891a741dfb44a6b5db0702c87bda33
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104184047"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119662718"
 ---
 # <a name="ipaper-methods"></a>IPaper 方法
 
@@ -37,7 +37,7 @@ ms.locfileid: "104184047"
 
 
 
- 
+ 
 
 這個程式碼範例在複合檔案上的相關方法是 [**載入**](ipaper--load.md)、 [**儲存**](ipaper--save.md)和 [**重繪**](ipaper--redraw.md)。
 
@@ -45,9 +45,9 @@ ms.locfileid: "104184047"
 
 [**InkStart**](inkstart-method.md) 會在用戶端視窗座標中告訴 COPaper 繪圖順序的開始位置。 它也會傳遞目前選取的筆墨色彩和寬度。 用戶端會維護這些選項;COPaper 只會在進行 **InkStart** 呼叫時記錄它們。 重複呼叫 [**InkDraw**](inkdraw-method.md) ，以指示 COPaper 連續的視窗座標，代表滑鼠或畫筆的繪製動作。 [**InkStop**](cguipaper-methods.md) 會指示 COPaper 標示繪圖順序的結尾。
 
- 
+ 
 
- 
+ 
 
 
 

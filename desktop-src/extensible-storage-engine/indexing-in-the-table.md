@@ -7,17 +7,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Gg294106(v=EXCHG.10)
 ms:contentKeyID: 32765721
 ms.date: 04/11/2016
 ms.topic: article
-ms.openlocfilehash: 5d09fde8c5fcdcf2411f6d40c5a3a70912bed27f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8bfc5054e5fd2b2f13747b0b5729987b9f81d5c21aa2faf38385b11e757f6763
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026343"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119721448"
 ---
 # <a name="indexing-in-the-table"></a>資料表中的索引編制
 
 
-_**適用于：** Windows |Windows Server_
+_**適用于：** Windows |Windows伺服器_
 
 ## <a name="indexing-in-the-table"></a>資料表中的索引編制
 

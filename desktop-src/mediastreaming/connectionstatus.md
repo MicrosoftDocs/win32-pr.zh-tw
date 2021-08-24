@@ -14,12 +14,12 @@ api_type:
 - IDLDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 61368a494e5bff0f6aca575380937b98f9d6b650
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8617012abe75d213e0de7be70811152315a888693c7336ef58cd34ceb98eba55
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106985765"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119721248"
 ---
 # <a name="connectionstatus-enumeration"></a>ConnectionStatus 列舉
 
@@ -69,7 +69,7 @@ typedef enum ConnectionStatus {
 
 | 需求 | 值 |
 |----------------|------------------------------------------------------------------------------------------------------------------------------------------------|
-| Idl<br/> | <dl> <dt> (參考) 的 windows...。 </dt> </dl> |
+| IDL<br/> | <dl> <dt>Windows。 (參考 Windows 的參考。) 的串流 .idl</dt> </dl> |
 
 
 

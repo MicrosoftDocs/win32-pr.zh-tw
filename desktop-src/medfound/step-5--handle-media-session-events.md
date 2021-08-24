@@ -4,12 +4,12 @@ ms.assetid: db9b896f-6f56-47b1-b129-331c984e0b16
 title: 步驟5：處理媒體會話事件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a2ea3092189644f800a5cb27d2e8b07744f5d90c
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: be80d8d336cb5f3996c72d806259ae8c74eed464245ac439fdd356f091965bde
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106992116"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119721898"
 ---
 # <a name="step-5-handle-media-session-events"></a>步驟5：處理媒體會話事件
 

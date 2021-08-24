@@ -21,7 +21,7 @@ IAgentSpeechInputProperties 可讓您存取伺服器所維護的語音輸入屬�
 
 
 
-| IAgentSpeechInputProperties 方法                                     | Description                                               |
+| IAgentSpeechInputProperties 方法                                     | 描述                                               |
 |-------------------------------------------------------------------------|-----------------------------------------------------------|
 | [**GetEnabled**](iagentspeechinputproperties--getenabled.md)           | 傳回是否啟用語音辨識引擎。 |
 | [**GetHotKey**](iagentspeechinputproperties--gethotkey.md)             | 傳回接聽按鍵的目前金鑰指派。  |
