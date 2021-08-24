@@ -4,12 +4,12 @@ ms.assetid: d6ade463-82c7-46be-8d9a-e372ddbd7a4b
 title: 'AM_RATE_SimpleRateChange 屬性 (Dvdmedia) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 928dc477f5f8c6492d407ddc8b56f49170dec4f4
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: 8781d8c9866a44a2502acfea2d24655b4c20063396c975552f3c1ee94dd9fc51
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107910226"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118002346"
 ---
 # <a name="am_rate_simpleratechange-property"></a>AM \_ RATE \_ SimpleRateChange 屬性
 

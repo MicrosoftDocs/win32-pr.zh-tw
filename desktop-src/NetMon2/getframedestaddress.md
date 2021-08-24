@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Nmapi.dll
-ms.openlocfilehash: afec32f0e0fc66ccd5a1d78cc9769b0e742f1e6f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d7719392794027567521ce3e9c1bd1caf8ecbf76110f76ad0e54e0dd6549aae4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936629"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118366623"
 ---
 # <a name="getframedestaddress-function"></a>GetFrameDestAddress 函式
 
@@ -89,7 +89,7 @@ DWORD WINAPI GetFrameDestAddress(
 
 
 
-| 傳回碼                                                                                                | Description                                                                                |
+| 傳回碼                                                                                                | 描述                                                                                |
 |------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
 | <dl> <dt>**\_ \_ 找不到 BHERR 通訊協定 \_**</dt> </dl> | *AddressType* 參數中指定的通訊協定對框架而言無效。<br/> |
 | <dl> <dt>**BHERR \_ 不正確 \_ HFRAME**</dt> </dl>      | *HFrame* 值無效。<br/>                                                  |

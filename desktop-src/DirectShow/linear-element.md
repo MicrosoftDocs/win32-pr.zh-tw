@@ -4,12 +4,12 @@ ms.assetid: f6af4bf1-fc2d-439c-b1e3-8e095ecad503
 title: '線性元素 (Camerauicontrol .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e722dcbc68d24d76f34c80bdd17a91ad44423aa
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: 34bff0ef1ef4c9c95752f986aabeddd24b40cc695a8a0f292b1072dfdc1d3d28
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107910086"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118397142"
 ---
 # <a name="linear-element"></a>線性元素
 

@@ -4,12 +4,12 @@ ms.assetid: 246e9443-3120-49bf-a6e3-64dddba348fa
 title: 在傳統提供者中撰寫相關的事件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 771b08a66625d5cd6e723fbc2e12eed87bd1d434
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 41443c0a05bd94e25ae4ca6a4549671c6aa0682b848660ca31683bb4bf8b75b0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104321107"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117813810"
 ---
 # <a name="writing-related-events-in-a-classic-provider"></a>在傳統提供者中撰寫相關的事件
 

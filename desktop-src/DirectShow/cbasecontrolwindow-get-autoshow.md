@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: f45679b9d036f1c5386cd2c1d18a31fa3d6bd64f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7a5c16e0b460d07255cae113194f672ca3dace6f46827ac613c9559370284beb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106982536"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118158791"
 ---
 # <a name="cbasecontrolwindowget_autoshow-method"></a>CBaseControlWindow。取得自動完成 \_ 方法
 

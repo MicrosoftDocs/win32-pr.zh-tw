@@ -5,7 +5,7 @@ ms.assetid: 0cbfa6b7-44f0-41f0-93a3-d5941b5822de
 keywords:
 - OnDataChange (淘汰的) 方法舊版 Windows 環境功能
 - OnDataChange (淘汰的) 方法舊版 Windows 環境功能，IGatherNotify 介面
-- IGatherNotify 介面舊版 Windows 環境功能，OnDataChange (已淘汰的) 方法
+- IGatherNotify 介面舊版 Windows 環境功能，OnDataChange (已淘汰) 方法
 topic_type:
 - apiref
 api_name:
@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: d41edeaa591a7f3cbc9494064906af1815597737
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 95533a7937136a0f828a292efe7e398258e3c880974e031d9d7d2797f721f2a6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106988557"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118481592"
 ---
 # <a name="igathernotifyondatachange-deprecated-method"></a>IGatherNotify：： OnDataChange (已淘汰的) 方法
 

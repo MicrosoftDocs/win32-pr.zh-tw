@@ -1,15 +1,15 @@
 ---
-description: Windows Vista 和更新版本： NLS 除了現有的 Windows 地區設定之外，還定義了數個虛擬地區設定來使用。
+description: WindowsVista 和更新版本： NLS 除了現有的 Windows 地區設定之外，還定義了數個虛擬地區設定。
 ms.assetid: 8ec3038e-da18-47fc-a689-dd9162a41faa
 title: Pseudo-Locales
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bad7d4b161440cade65f24fb0157d42958c64d19
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e099ee2af283c38aff3de7813fec64b5d43c6ac5873549856b27fd224c3e0d61
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974025"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118390412"
 ---
 # <a name="pseudo-locales"></a>Pseudo-Locales
 

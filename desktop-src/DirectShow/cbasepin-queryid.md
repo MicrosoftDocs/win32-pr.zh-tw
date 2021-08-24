@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: fa14fb933c89da0b0b6d2eebfab480b5508a3666
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1ac4f7448b27e1780e2d44a512693f3a59113055d66f1b46a85038f04f87f045
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106989609"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118158140"
 ---
 # <a name="cbasepinqueryid-method"></a>CBasePin. QueryId 方法
 
@@ -55,7 +55,7 @@ Pin 識別碼的指標。
 
 
 
-| 傳回碼                                                                                   | Description                           |
+| 傳回碼                                                                                   | 描述                           |
 |-----------------------------------------------------------------------------------------------|---------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>          | 成功。<br/>                   |
 | <dl> <dt>**E \_ OUTOFMEMORY**</dt> </dl> | 記憶體不足。<br/>       |

@@ -19,7 +19,7 @@ ms.locfileid: "118328080"
 **伺服器**– Windows Server 2008 R2  
 
 
-## <a name="description"></a>Description
+## <a name="description"></a>描述
 
 在 Windows 7 之前，Windows 錯誤報告 (WER) 收集到的錯誤報表指出需要修復的問題。 這些錯誤報表包含實用的資訊，描述問題的一般本質，但無法判斷其根本原因的資訊。 針對這一點，開發人員需要一個工具來重現當機/停止回應案例以進行偵錯工具。
 

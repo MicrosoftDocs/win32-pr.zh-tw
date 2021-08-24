@@ -4,26 +4,26 @@ description: 請注意，從 Windows 10 設定系統健全狀況驗證程式 (SH
 ms.assetid: 0f2edd23-d44a-4a01-ae33-f7eef0e4b27f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b95784d05f4bf377f356a91fe5b0c1811fb9671d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 344b3a6d74acee0e06e3d2a9fedd4784b1c9d76ac8ba84c68ed4b7ef8ceebc56
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103672731"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118133426"
 ---
 # <a name="shv-module"></a>SHV 模組
 
 > [!Note]  
 > 從 Windows 10 開始，無法使用網路存取保護平臺
 
- 
+ 
 
 設定系統健康狀態驗證 (SHV) 模組，包括向 NAP 系統註冊及取消註冊。
 
 > [!Note]  
 > NAP SDK 也包含一組完整的範例程式碼，可在中 \\ 找到。範例 \\ NetDS \\ NAP .。。SDK 安裝的目錄。 此範例集包括系統健康情況代理程式 (SHA) 、SHV 和強制用戶端 (EC) 。 它有完整的工作 NAP 案例，可設定 SHA-SHV 與 SHA-1 之間的通訊。
 
- 
+ 
 
 
 ```C++
@@ -104,9 +104,9 @@ void FreeComponentRegistration(NapComponentRegistrationInfo *shvInfo)
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: af853c29-11c2-4fd0-ad81-80aebeb74cc3
 title: 新增附件嵌入式管理單元擴充功能節點
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2604a58284af7bc55ff57ae114bc77d8f0cd42ed
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a1fa9d02167106bfd8c8860f34abdc6bc8f362697a82e3d0f7b0ef1983df07a9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103693999"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117969747"
 ---
 # <a name="adding-an-attachment-snap-in-extension-node"></a>新增附件嵌入式管理單元擴充功能節點
 

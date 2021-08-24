@@ -4,12 +4,12 @@ description: 安裝程式設定需要系統管理員許可權，而且在重新�
 ms.assetid: 96e9c069-829b-4615-b94b-3761bc541440
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b43b543bfc81f963341d7b5f690f4b40312ee420
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 36d59065ff34e7998d9df0503f6ae7503d9d402def6053f8176ba5af5b6a9efa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104507045"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117996115"
 ---
 # <a name="setup-configuration"></a>安裝程式設定
 
@@ -19,9 +19,9 @@ ms.locfileid: "104507045"
 -   正在設定 SSL。 若要設定 SSL，系統管理員會呼叫 [**HttpSetServiceConfiguration**](/windows/desktop/api/Http/nf-http-httpsetserviceconfiguration) 函式，並將 *ConfigId* 參數設定為 **HttpServiceConfigSSLCertInfo** ，並將 *pConfigInformation* 參數中的指標傳遞至包含 ssl 憑證資訊的 [**HTTP \_ 服務 \_ \_ \_ 設定 ssl 集**](/windows/desktop/api/Http/ns-http-http_service_config_ssl_set) 結構。
 -   設定其他 HTTP 伺服器範圍的持續性設定，例如 HTTP 伺服器將接聽的 IP 位址，以及整個伺服器的超時值。 請參閱 [IP 接聽清單](ip-listen-list.md) 和 [**HTTP \_ 服務 \_ \_ \_ 設定超時設定**](/windows/desktop/api/Http/ns-http-http_service_config_timeout_set)。
 
- 
+ 
 
- 
+ 
 
 
 

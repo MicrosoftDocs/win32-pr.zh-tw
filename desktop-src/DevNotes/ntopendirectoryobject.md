@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Ntdll.dll
-ms.openlocfilehash: ceea03c36e0617e2f48887275e7867e3589c87ae
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ddfe43bab114af968de76673f08f2e301f775e2e7475e7b17a2e08004ef50dbb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995643"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118003789"
 ---
 # <a name="ntopendirectoryobject-function"></a>NtOpenDirectoryObject 函式
 
@@ -84,7 +84,7 @@ NTSTATUS WINAPI NtOpenDirectoryObject(
 
 
 
-| 傳回碼                                                                                                       | Description                                                                                                                                                                                                                                                                                               |
+| 傳回碼                                                                                                       | 描述                                                                                                                                                                                                                                                                                               |
 |-------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**狀態 \_ 不足的 \_ 資源**</dt> </dl>    | 無法配置此函數所需的暫存緩衝區。<br/>                                                                                                                                                                                                                           |
 | <dl> <dt>**狀態 \_ 不正確 \_ 參數**</dt> </dl>         | 指定的 ObjectAttributes 參數為 **Null** 指標，而不是 **物件 \_ 屬性** 結構的有效指標，或 **物件 \_ 屬性** 結構中指定的部分成員無效。<br/>                                                                          |

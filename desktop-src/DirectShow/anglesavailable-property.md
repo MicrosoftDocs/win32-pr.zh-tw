@@ -4,17 +4,17 @@ ms.assetid: 1e2635d4-63f1-4c3d-a034-437489289bd7
 title: AnglesAvailable 屬性
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f5b9d27806b314d89c68fcc4d1476a9918cd4446
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 071b70fc5a5a3bc7569474d6628a92c3b7fca0138c5bbbd5780cc1e9f6be8882
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106971939"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118001468"
 ---
 # <a name="anglesavailable-property"></a>AnglesAvailable 屬性
 
 > [!Note]  
-> 此元件可用於 Microsoft Windows 2000、Windows XP 及 Windows Server 2003 作業系統。 它在後續版本中可能會變更或無法使用。
+> 此元件可在 Microsoft Windows 2000、Windows XP 和 Windows Server 2003 作業系統中使用。 它在後續版本中可能會變更或無法使用。
 
  
 

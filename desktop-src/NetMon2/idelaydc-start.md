@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: 25bf778d9cccce20c736c5f8b83e6af9754ac933
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 750a33241358aee924ed3f91491185117a77a548a87bdfc5514d59fe4798a42c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108118436"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118365863"
 ---
 # <a name="idelaydcstart-method"></a>IDelaydC：： Start 方法
 
@@ -59,8 +59,8 @@ HRESULT STDMETHODCALLTYPE Start(
 |-------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**NMERR \_ CAPTURE 已 \_ 暫停**</dt> </dl> | 捕捉處於暫停狀態，必須先停止，才能重新開機。 呼叫 [**IDelaydC：： stop**](idelaydc-stop.md) 以停止捕捉。 如需詳細資訊，請參閱本主題中的「備註」一節。<br/> |
 | <dl> <dt>**NMERR \_ 捕獲**</dt> </dl>       | 已啟動 capture。<br/>                                                                                                                                                                                 |
-| <dl> <dt>**NMERR \_ 未 \_ 連接**</dt> </dl>  | NPP 未連接到網路。 呼叫 [**IDelaydC：： connect**](idelaydc-connect.md) 以連接到網路。<br/>                                                                                          |
-| <dl> <dt>**NMERR \_ 未 \_ 延遲**</dt> </dl>    | NPP 已連接到網路，但不是使用 [**IDelaydC：： Connect**](idelaydc-connect.md) 方法。<br/>                                                                                                      |
+| <dl> <dt>**NMERR \_ 未 \_ 連接**</dt> </dl>  | NPP 未連接到網路。 呼叫 [**IDelaydC：：連線**](idelaydc-connect.md)連接到網路。<br/>                                                                                          |
+| <dl> <dt>**NMERR \_ 未 \_ 延遲**</dt> </dl>    | NPP 是連接到網路，但不是使用 [**IDelaydC：：連線**](idelaydc-connect.md)方法。<br/>                                                                                                      |
 
 
 
@@ -68,7 +68,7 @@ HRESULT STDMETHODCALLTYPE Start(
 
 ## <a name="remarks"></a>備註
 
-您可以在 Windows 登錄中指定 [*capture*](c.md) 檔案的位置，但您可以使用網路監視器來變更檔案的位置。
+您 Windows 登錄中指定了 [*capture*](c.md)檔案的位置，但您可以使用網路監視器來變更檔案的位置。
 
 若要使用 **IDelaydC：： start** 和 [**IDelaydC：： Stop**](idelaydc-stop.md)重新開機 capture，您必須呼叫 [**IDelaydC：： Configure**](idelaydc-configure.md) 方法，以在每次呼叫 **IDelaydC：： start** 方法重新開機捕獲資料時重新設定連接。 當您使用這三種方法來啟動和停止捕捉時，每次啟動捕獲時都會建立新的捕獲檔案。
 
@@ -100,7 +100,7 @@ HRESULT STDMETHODCALLTYPE Start(
 [**IDelaydC：： Configure**](idelaydc-configure.md)
 </dt> <dt>
 
-[**IDelaydC：： Connect**](idelaydc-connect.md)
+[**IDelaydC：：連線**](idelaydc-connect.md)
 </dt> <dt>
 
 [**IDelaydC：:P ause**](idelaydc-pause.md)

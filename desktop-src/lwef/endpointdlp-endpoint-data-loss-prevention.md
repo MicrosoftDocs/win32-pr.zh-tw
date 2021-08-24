@@ -3,12 +3,12 @@ description: 端點資料遺失防止 (DLP) Api 可讓應用程式在特定作�
 title: 端點資料遺失防止
 ms.topic: article
 ms.date: 03/18/2021
-ms.openlocfilehash: 3b8576f9eadd0037eca56c0ba183ea1d1825679a
-ms.sourcegitcommit: 8b543a86e551cb5b4270a3cc3590ad0758fb6156
+ms.openlocfilehash: fcbe17d30addb86e37330b210d224720f9b50e525e2b8d41d07d349ea5819c2c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "107526089"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118479429"
 ---
 # <a name="endpoint-data-loss-prevention"></a>端點資料遺失防止
 

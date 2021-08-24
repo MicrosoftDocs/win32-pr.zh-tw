@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 935c4f3aa565b291e459d36e067805944b4fd6b2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: be9028db35cb6d74623bde77fac21e32793de436ea2f80d2f513687c15d1b64c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106975723"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118156510"
 ---
 # <a name="cmediasamplesettime-method"></a>CMediaSample. SetTime 方法
 
@@ -65,7 +65,7 @@ HRESULT SetTime(
 
 這個方法會設定 [**CMediaSample：： m \_ Start**](cmediasample-m-start.md) 和 [**CMediaSample：： m \_ End**](cmediasample-m-end.md) 成員變數，以指定時間戳記。 它也會更新 [**CMediaSample：： m \_ dwFlags**](cmediasample-m-dwflags.md) 成員變數，以指定時間戳記是否有效。
 
-如需時間戳記的詳細資訊，請參閱 [DirectShow 中的時間和時鐘](time-and-clocks-in-directshow.md)。
+如需時間戳記的詳細資訊，請參閱[DirectShow 中的時間和時鐘](time-and-clocks-in-directshow.md)。
 
 ## <a name="requirements"></a>規格需求
 

@@ -3,18 +3,18 @@ title: 將資料從一個檔案複製到另一個檔案
 description: 將資料從一個檔案複製到另一個檔案
 ms.assetid: 1403c396-46ea-48b1-a535-922ffca31bc2
 keywords:
-- Windows Media Format SDK，複製資料
+- Windows媒體格式 SDK，複製資料
 - Advanced Systems Format (ASF) ，複製資料
 - ASF (Advanced Systems Format) ，複製資料
 - 資料流程，複製資料
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b8b38a1675ac79630371fe4d3fda66d44b4b2990
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1e2fe8369a8e3ebef6bca191ceffdac7c284889b0afdb4145fbec9c44702a1a0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103932507"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118705073"
 ---
 # <a name="copying-data-from-one-file-to-another"></a>將資料從一個檔案複製到另一個檔案
 
@@ -31,7 +31,7 @@ ms.locfileid: "103932507"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -49,9 +49,9 @@ ms.locfileid: "103932507"
 [**寫入器物件**](writer-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

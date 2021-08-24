@@ -3,7 +3,7 @@ title: 'WM_CAP_SET_SCROLL 訊息 (Vfw .h) '
 description: WM \_ CAP \_ 設定 \_ 捲軸訊息會定義要在 [捕捉] 視窗中顯示的影片畫面部分。
 ms.assetid: 545605e4-6b1f-403a-a3ab-0fd6750ae776
 keywords:
-- WM_CAP_SET_SCROLL message Windows 多媒體
+- WM_CAP_SET_SCROLL 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 812b76bdcad166b9f766957032f232293d4083c0
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 352d65c2ad8e80622f7ff50cca0a8f7d6e523d53ae002a2325327a634b97c931
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466865"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118134982"
 ---
 # <a name="wm_cap_set_scroll-message"></a>WM \_ CAP \_ 設定 \_ 捲軸訊息
 

@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.syst
 ms:contentKeyID: 55104035
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 12e18b6c045758c8e9fd7ffb91f728c78dcf2e24
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 13b2735f699fe2943dcb63bf262c8c708e61df754ed6799f2fb948119755d2e4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104568063"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117890676"
 ---
 # <a name="systemparameters-properties"></a>SystemParameters 屬性
 

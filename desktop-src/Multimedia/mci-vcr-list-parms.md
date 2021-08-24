@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d3e7a2eae67ebc7148b7ff424361f16554a435c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d8eeb74aeee254ab050d394dbf250c037d00d10d51fe872052dd5d36164b2c3a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104317439"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118137979"
 ---
 # <a name="mci_vcr_list_parms-structure"></a>MCI \_ VCR \_ 清單 \_ PARMS 結構
 
@@ -83,7 +83,7 @@ VCR 影片或音訊輸入的數目。
 
 <dl> <dt>
 
-[**Mci**](mci.md)
+[**MCI**](mci.md)
 </dt> <dt>
 
 [**MCI 結構**](mci-structures.md)

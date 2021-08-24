@@ -4,12 +4,12 @@ ms.assetid: d304922c-86fb-4c62-9bfa-c827df4aecd8
 title: 使用 SC 設定服務
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7f65669a3a7daa7e0d02731e6423adfbb3806f11
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 976eb5fb8e9a462e4d1de38413593343dd1d8624985593f6ecb9c691ae9670da
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106991700"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117968225"
 ---
 # <a name="configuring-a-service-using-sc"></a>使用 SC 設定服務
 
@@ -66,7 +66,7 @@ Windows SDK 包含命令列公用程式（Sc.exe），可用來查詢或修改�
 
 <dl> <dt>
 
-[服務設定](service-configuration.md)
+[服務組態](service-configuration.md)
 </dt> <dt>
 
 [服務安裝、移除和列舉](service-installation-removal-and-enumeration.md)

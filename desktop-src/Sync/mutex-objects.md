@@ -4,12 +4,12 @@ ms.assetid: eca0795a-1fd0-4034-9d61-9416670919cf
 title: Mutex 物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e84c17ba3e99e888f7d1e9137a7f24a4d78ce2d4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 33261f100d7250a3abaa8888579e6a58d3426934d4e07c1ff014de3fd8136a6c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103850500"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117959198"
 ---
 # <a name="mutex-objects"></a>Mutex 物件
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 41c6417dae5006eb2ecaf64660fd0007cdf37fd2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 36c4a02795468ca719790707356b12a1aa24c1882a0cf57faa9e0454af33467a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106976292"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117972649"
 ---
 # <a name="storedelete-method"></a>Store. Delete 方法
 
@@ -74,7 +74,7 @@ Store.Delete()
 
 <dl> <dt>
 
-[**市集**](store.md)
+[**儲存**](store.md)
 </dt> <dt>
 
 [**加密物件**](cryptography-objects.md)

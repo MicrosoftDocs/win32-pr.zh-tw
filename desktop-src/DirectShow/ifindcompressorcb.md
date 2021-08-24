@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 113b128ce9b372d077056692c0956f86e1412f9e
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 7009c44cb91d9b0e7db6510884d56ad4a8421a1e8382eb378eb67b8cf81f95d8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106971286"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118399148"
 ---
 # <a name="ifindcompressorcb-interface"></a>IFindCompressorCB 介面
 
@@ -36,7 +36,7 @@ ms.locfileid: "106971286"
 
 <dl> <dt>
 
-[DirectShow 編輯服務 c + + 參考](directshow-editing-services-c---reference.md)
+[DirectShow編輯服務 c + + 參考](directshow-editing-services-c---reference.md)
 </dt> </dl>
 
  

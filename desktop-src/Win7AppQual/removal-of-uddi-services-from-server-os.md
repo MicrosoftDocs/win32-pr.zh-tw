@@ -24,7 +24,7 @@ ms.locfileid: "118328997"
 **嚴重性** -中  
 **頻率** -低  
 
-## <a name="description"></a>Description
+## <a name="description"></a>描述
 
 Microsoft 已從 Windows server 2008 R2 移除 UDDI (通用描述、探索與整合) 服務伺服器角色。 未來的 UDDI 服務版本將會是 Microsoft BizTalk 產品的一部分。 這種產品重做和匯總可定位 Microsoft，以提供服務導向架構 (SOA) 市場。
 

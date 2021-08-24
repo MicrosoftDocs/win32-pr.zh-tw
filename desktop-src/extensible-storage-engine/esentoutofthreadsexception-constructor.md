@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 5484da68d13488eaa50ca19889f0d21658361594
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f2543fc6887849cd594fc1df6085a5cd54854034ad3eb0a84c0e5b75c3e926a7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103945379"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118492285"
 ---
 # <a name="esentoutofthreadsexception-constructor"></a>EsentOutOfThreadsException 函式
 

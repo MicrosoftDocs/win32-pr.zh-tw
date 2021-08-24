@@ -3,7 +3,7 @@ title: 'CB_SETEXTENDEDUI 訊息 (Winuser .h) '
 description: 應用程式會傳送 CB \_ SETEXTENDEDUI 訊息，以針對具有 CBS \_ 下拉式清單或 cbs DROPDOWNLIST 樣式的下拉式方塊，選取預設的 ui 或擴充的 ui \_ 。
 ms.assetid: c489e484-777e-4afa-996b-1ec3eb6552ab
 keywords:
-- CB_SETEXTENDEDUI message Windows 控制項
+- CB_SETEXTENDEDUI 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f94c31c8bc5457799d0038ecd8340c03c55aed91
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 36b77e67e555628475b9e40e78b7b0391d0b631fd77e6ff7f549700a553fa507
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465253"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118414220"
 ---
 # <a name="cb_setextendedui-message"></a>CB \_ SETEXTENDEDUI 訊息
 
@@ -57,9 +57,9 @@ ms.locfileid: "104465253"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                     |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 

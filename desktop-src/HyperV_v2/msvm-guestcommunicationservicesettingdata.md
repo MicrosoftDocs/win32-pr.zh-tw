@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: c5506689f5b266c428a790774c1fb98a1b0413b2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 67026a1dd7e605effb923305c45d329e7a2a502fe0324f00d2ddcf346c899778
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113636"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118148047"
 ---
 # <a name="msvm_guestcommunicationservicesettingdata-class"></a>Msvm \_ GuestCommunicationServiceSettingData 類別
 
@@ -118,7 +118,7 @@ EnabledStatePolicy 是一個整數列舉，表示 **Msvm \_ GuestCommunicationSe
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 10 桌面應用程式\]<br/>                                                             |
+| 最低支援的用戶端<br/> | Windows 10 \[僅限桌面應用程式\]<br/>                                                             |
 | 最低支援的伺服器<br/> | Windows Server 2016<br/>                                                                          |
 | 命名空間<br/>                | 根 \\ 虛擬化 \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization。</dt> </dl> |

@@ -10,12 +10,12 @@ keywords:
 - 接收，列舉
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ff35124a8c88108082544b270aa4d9813ff67ea9
-ms.sourcegitcommit: b04e152a7f51618fc174ffa872654623fe088db2
+ms.openlocfilehash: 4b51b46f3efdf95902b1ca5b359227da845292c4b0f23dbf0bd52039fba151cd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "103681540"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118029069"
 ---
 # <a name="enumerating-sinks"></a>列舉接收
 
@@ -26,7 +26,7 @@ ms.locfileid: "103681540"
 > [!Note]  
 > 列舉接收時，為了回應 [**IWMWriter：： SetOutputFilename**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmwriter-setoutputfilename) 的呼叫所建立的預設檔案接收，會與您已新增的任何其他接收器一起列舉。 如果您只使用預設的檔案接收，您可以呼叫 **GetSink** 來存取接收器索引0。
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -38,9 +38,9 @@ ms.locfileid: "103681540"
 [**使用寫入器接收器**](working-with-writer-sinks.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

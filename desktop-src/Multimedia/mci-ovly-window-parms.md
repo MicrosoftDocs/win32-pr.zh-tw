@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a554c9ed4e4869eab333b93736a0400ef93053cc
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: bd19580dacdc819f35bc36ed8f0070a5fc1b9fc4b745c78711c4fc312611e3c0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103933898"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118138282"
 ---
 # <a name="mci_ovly_window_parms-structure"></a>MCI \_ OVLY \_ 視窗 \_ PARMS 結構
 
@@ -91,7 +91,7 @@ typedef struct {
 
 <dl> <dt>
 
-[**Mci**](mci.md)
+[**MCI**](mci.md)
 </dt> <dt>
 
 [**MCI 結構**](mci-structures.md)

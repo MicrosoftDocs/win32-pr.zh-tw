@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Npptools.dll
-ms.openlocfilehash: 2183f5635dcdb15362a86a77ae2b3c109c71dbd5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 20ed4a0358bc0aecada66858f9814bce94252ff9d705c971be947ca5af788ab3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103850583"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118364056"
 ---
 # <a name="setmacaddressinblob-function"></a>SetMacAddressInBlob 函式
 

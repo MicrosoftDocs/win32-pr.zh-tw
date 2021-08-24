@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Windowscodecs.dll
 - Wincodec.lib
-ms.openlocfilehash: d148127345e77da027191114f7e411bdae564deb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5e6e85d7e8454cf86aeac047f5269236a6091c108bd51b0e3be9828afe0766aa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112849"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118034703"
 ---
 # <a name="iwicbitmapcodecinfo_doessupportmultiframe_proxy-function"></a>IWICBitmapCodecInfo \_ DoesSupportMultiframe \_ Proxy 函式
 
@@ -44,18 +44,18 @@ HRESULT IWICBitmapCodecInfo_DoesSupportMultiframe_Proxy(
 *這 \_* \[ 中的 PTR\]
 </dt> <dd>
 
-類型： **[**IWICBitmapCodecInfo**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapcodecinfo) \** _
+類型： **[ **IWICBitmapCodecInfo**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapcodecinfo)\***
 
-這個 [_ *IWICBitmapCodecInfo* *](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapcodecinfo)物件的指標。
+這個 [**IWICBitmapCodecInfo**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapcodecinfo) 物件的指標。
 
 </dd> <dt>
 
 *pfSupportMultiframe* \[擴展\]
 </dt> <dd>
 
-類型： **BOOL \** _
+類型： **BOOL \***
 
-如果編解碼器支援多個框架影像，則為接收 _ *TRUE** 的指標;否則 **為 FALSE**。
+如果編解碼器支援多框架影像，則為收到 **TRUE** 的指標;否則 **為 FALSE**。
 
 </dd> </dl>
 
@@ -73,8 +73,8 @@ HRESULT IWICBitmapCodecInfo_DoesSupportMultiframe_Proxy(
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows XP （含 SP2）、 \[ 僅限 Windows Vista 桌面應用程式\]<br/>                                                                                              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                                                                                             |
+| 最低支援的用戶端<br/> | WindowsXP SP2，僅 Windows Vista \[ 桌面應用程式\]<br/>                                                                                              |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                                                                                             |
 | DLL<br/>                      | <dl> <dt>Windowscodecs.dll;</dt><dt>Wincodec .lib</dt> </dl> |
 
 

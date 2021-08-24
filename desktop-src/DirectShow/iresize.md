@@ -1,5 +1,5 @@
 ---
-description: 任何自訂的影片篩選器篩選器都必須支援 IResize 介面， (DES) 的 DirectShow 編輯服務。 若要設定自訂的調整器篩選，請在轉譯引擎上呼叫 IRenderEngine2：： SetResizerGUID 方法。
+description: 任何自訂的影片篩選器篩選器都必須支援 IResize 介面，DirectShow 編輯服務 (DES) 。 若要設定自訂的調整器篩選，請在轉譯引擎上呼叫 IRenderEngine2：： SetResizerGUID 方法。
 ms.assetid: 4740dbff-0881-45e8-b382-98ed9d055403
 title: 'IResize 介面 (Qedit .h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: 1b9684ed6f2d2901159dde5a79bb4563ca0b2bda
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 19aabd7c04cb5350ef3da87e1a20db6b75f6546f0fbcf5af3422c152bcafcf5c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107000689"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117818067"
 ---
 # <a name="iresize-interface"></a>IResize 介面
 
@@ -28,7 +28,7 @@ ms.locfileid: "107000689"
 
  
 
-`IResize`任何自訂的視頻篩選器篩選器都必須支援此介面， (DES) 的 DirectShow 編輯服務。 若要設定自訂的調整器篩選，請在轉譯引擎上呼叫 [**IRenderEngine2：： SetResizerGUID**](irenderengine2-setresizerguid.md) 方法。
+`IResize`任何自訂的影片篩選器篩選器都必須支援介面，DirectShow 編輯服務 (DES) 。 若要設定自訂的調整器篩選，請在轉譯引擎上呼叫 [**IRenderEngine2：： SetResizerGUID**](irenderengine2-setresizerguid.md) 方法。
 
 ## <a name="members"></a>成員
 
@@ -62,7 +62,7 @@ ms.locfileid: "107000689"
  
 
 > [!Note]  
-> 若要取得 Qedit，請下載 [適用于 Windows Vista 和 .NET Framework 3.0 的 Microsoft Windows SDK 更新](https://msdn.microsoft.com/windowsvista/bb980924.aspx)。 在 Windows 7 和 .NET Framework 3.5 Service Pack 1 的 Microsoft Windows SDK 中無法使用 Qedit。
+> 若要取得 Qedit，請下載[Windows Vista 和 .NET Framework 3.0 的 Microsoft Windows SDK 更新](https://msdn.microsoft.com/windowsvista/bb980924.aspx)。 Windows 7 和 .NET Framework 3.5 Service Pack 1 的 Microsoft Windows SDK 中無法使用 Qedit。
 
  
 

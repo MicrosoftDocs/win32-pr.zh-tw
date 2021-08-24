@@ -5,12 +5,12 @@ ms.assetid: 976a6cc2-7bbe-4ecc-91b4-b7c659eca5ba
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 25c29d360fb0ad4d6e31e828f9c62f42f64fb311
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 557f51adbf10562465f93a101e502632a791d5c272b278c5a8b7ea6124637913
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104300620"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118130814"
 ---
 # <a name="dvc-client-apis"></a>DVC 用戶端 Api
 
@@ -76,9 +76,9 @@ ms.locfileid: "104300620"
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

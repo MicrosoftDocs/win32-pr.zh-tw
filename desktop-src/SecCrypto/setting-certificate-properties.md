@@ -4,12 +4,12 @@ ms.assetid: 93e4b05d-0230-4562-8052-4e118fd92057
 title: 設定憑證屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f33534792e65c95e24125968a61cf6ac1ad27039
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dfe131190b10b431427162e628004d8b21053a099015a68184196b7218967222
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973205"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117974566"
 ---
 # <a name="setting-certificate-properties"></a>設定憑證屬性
 

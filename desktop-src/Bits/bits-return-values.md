@@ -7,16 +7,16 @@ keywords:
 - 錯誤位，代碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b9086de1d55bbdc9695876bd06368ab28dbbb161
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: eb7c6795572a2f81324e287c385a78e22e0b195dbbc3af061585fc847c464a95
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103933485"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118173827"
 ---
 # <a name="bits-return-values"></a>BITS 傳回值
 
-Bitsmsg 檔案包含下列傳回值常數。 常數代表 BITS 產生的傳回值，以及 BITS 所捕捉的 HTTP 傳回值。 您可以接收的所有其他傳回值為 COM、RPC 或轉換的 Windows 傳回值 (位使用 [ \_ \_ WIN32](/windows/win32/api/winerror/nf-winerror-hresult_from_win32) 宏的 hresult 將 windows 傳回值轉換成 hresult 值) 。
+Bitsmsg 檔案包含下列傳回值常數。 常數代表 BITS 產生的傳回值，以及 BITS 所捕捉的 HTTP 傳回值。 您可以接收的所有其他傳回值為 COM、RPC 或已轉換的 Windows 傳回值 (位會[使用 \_ \_ WIN32](/windows/win32/api/winerror/nf-winerror-hresult_from_win32)宏的 hresult，將 Windows 傳回值轉換為) 的 hresult 值。
 
 請注意，Bitsmsg 檔案包含以下未列出的其他傳回值。
 
@@ -326,7 +326,7 @@ HTTP proxy 略過清單太長。 清單不得超過 32 KB。
 <span id="BG_E_VALIDATION_FAILED__0x80200053_"></span><span id="bg_e_validation_failed__0x80200053_"></span><span id="BG_E_VALIDATION_FAILED__0X80200053_"></span>BG \_ E \_ 驗證 \_ 失敗 (0x80200053) 
 </dt> <dd>
 
-應用程式要求來自網站的資料，但回應無效。 如需詳細資訊，請使用事件檢視器來查看 \\ Microsoft \\ Windows \\ Bits-用戶端作業記錄檔的應用程式記錄 \\ 。
+應用程式要求來自網站的資料，但回應無效。 如需詳細資料，請使用事件檢視器來查看 \\ Microsoft \\ Windows \\ Bits-用戶端作業記錄檔的應用程式記錄 \\ 。
 
 </dd> <dt>
 
@@ -407,6 +407,6 @@ BITS 的下載作業已超時。 下載作業未在作業或 MaxDownloadTime 群
 
 Bitsmsg 標頭檔包含上面未列出的額外 HTTP 傳回值，位在內部使用。 如需這些和其他您可以接收之 HTTP 傳回值的相關資訊，請參閱來自網際網路工程任務推動小組的 RFC 2616 規格 [https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html\#sec10](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10) 。
 
- 
+ 
 
- 
+ 

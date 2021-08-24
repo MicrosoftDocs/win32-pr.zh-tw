@@ -8,12 +8,12 @@ keywords:
 - CAPSTATUS 結構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6e6019009c8510abe3429c1043527156c55f0c4f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 367d35c3869adb6f4e960fa472e0cd6a22483c37fa981e886b3a78f0b7410029
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021842"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118375284"
 ---
 # <a name="capture-window-status"></a>捕獲視窗狀態
 
@@ -21,9 +21,9 @@ ms.locfileid: "104021842"
 
 變更 [捕捉] 視窗的維度不會影響實際所捕獲影片資料流程的維度。 影片擷取裝置磁碟機所顯示的 [格式] 對話方塊會控制所捕獲影片串流的維度。
 
- 
+ 
 
- 
+ 
 
 
 

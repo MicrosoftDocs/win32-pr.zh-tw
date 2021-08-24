@@ -4,12 +4,12 @@ ms.assetid: a809045b-b60d-4092-bc4d-0e70e17d2913
 title: VMR 的功能
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d7c4a5a34be9fb3b3bb08df18091b88fbe7d7432
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 66c78fc34be3097beedb73ac3989bc468cff0851143355902e3236f672797a83
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106973558"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117819550"
 ---
 # <a name="features-of-the-vmr"></a>VMR 的功能
 

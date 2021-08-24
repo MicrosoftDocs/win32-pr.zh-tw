@@ -4,12 +4,12 @@ ms.assetid: 1894ea01-49ff-41e3-9912-1cd75966bd3f
 title: 取得稀疏檔案的大小
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e93a1c6a33f0d6913e0e6848e4593ea0e0bf0259
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 94fbe79448c73a0d5e0e8f60d19eb33f63a71ce58fbc20e66786b9d23cd7f161
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848259"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117996864"
 ---
 # <a name="obtaining-the-size-of-a-sparse-file"></a>取得稀疏檔案的大小
 

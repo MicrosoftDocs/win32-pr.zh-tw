@@ -1,6 +1,6 @@
 ---
 title: IWMPError webHelp 方法
-description: WebHelp 方法會啟動 Windows Media Player 的 Web 說明頁，以顯示錯誤佇列中第一個錯誤的詳細資訊 (索引零) 。 |IWMPError webHelp 方法
+description: webHelp 方法會啟動 Windows Media Player 的 Web 說明頁，以顯示錯誤佇列中第一個錯誤的詳細資訊 (索引零) 。 |IWMPError webHelp 方法
 ms.assetid: 30fc765a-04b2-44e5-99d8-0b4720ccbb25
 keywords:
 - webHelp 方法 Windows Media Player
@@ -16,16 +16,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6c9b0cd48d45ac5e5e5d77d0150b8acdf13347e2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 50d4b404988e8b317ec7b090adcb96aac8e26a5a82590aa1138848dc797e3e79
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106996271"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118115821"
 ---
 # <a name="iwmperrorwebhelp-method"></a>IWMPError：： webHelp 方法
 
-**WebHelp** 方法會啟動 Windows Media Player 的 Web 說明頁，以顯示錯誤佇列中第一個錯誤的詳細資訊 (索引零) 。
+**webHelp** 方法會啟動 Windows Media Player 的 Web 說明頁，以顯示錯誤佇列中第一個錯誤的詳細資訊 (索引零) 。
 
 ## <a name="syntax"></a>語法
 
@@ -59,8 +59,8 @@ Web 說明頁面一律包含 Windows Media Player 錯誤的最新和最詳細的
 
 若要直接存取 Web 說明頁面，請使用下列錯誤碼和支援中心連結：
 
--   [Windows Media Player 錯誤碼資訊](https://support.microsoft.com/kb/886273)
--   [Windows Media Player 解決方案中心](https://support.microsoft.com/ph/7763#tab0)
+-   [Windows Media Player錯誤碼資訊](https://support.microsoft.com/kb/886273)
+-   [Windows Media Player解決方案中心](https://support.microsoft.com/ph/7763#tab0)
 
 ## <a name="examples"></a>範例
 

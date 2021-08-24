@@ -4,12 +4,12 @@ ms.assetid: 31d30c91-fc6a-45ec-a2e0-34e6a1e902a4
 title: AVI Mux 篩選
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3755a4d5f63e824ae08eb736a5999dcac3d7ab32
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 9b5c3f02e5df7a9e17c2371916eb48b5ccfebe04dfa3046d464bc732f17f868f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103846736"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118159280"
 ---
 # <a name="avi-mux-filter"></a>AVI Mux 篩選
 
@@ -113,7 +113,7 @@ IMediaSeeking
 
 AVI Mux 篩選器會實 [**IMediaSeeking**](/windows/desktop/api/Strmif/nn-strmif-imediaseeking) 介面，如下所示：
 
--   [**GetCurrentPosition**](/windows/desktop/api/Strmif/nf-strmif-imediaseeking-getcurrentposition)方法會傳回多工處理的目前進度。 如果您正在轉碼檔案 (慢于即時) ，此值會比篩選圖形管理員所傳回的值更準確。 如需詳細資訊，請參閱 GetCurrentPosition 參考頁面的備註一節。
+-   [**GetCurrentPosition**](/windows/desktop/api/Strmif/nf-strmif-imediaseeking-getcurrentposition)方法會傳回多工處理的目前進度。 如果您正在轉碼檔案 (慢于即時) ，此值會比篩選 Graph 管理員所傳回的值更準確。 如需詳細資訊，請參閱 GetCurrentPosition 參考頁面的備註一節。
 -   [**GetDuration**](/windows/desktop/api/Strmif/nf-strmif-imediaseeking-getduration)方法會查詢每個上游篩選器，並傳回最長資料流程的持續時間。 如果這些篩選準則中有任何一個失敗 (或不支援 IMediaSeeking) ，則 AVI Mux 會傳回失敗碼，並在找到的最長持續時間內填入 *pDuration* 參數。 不過，在此情況下， *pDuration* 的值不一定是最長輸入資料流程的長度。
 -   AVI Mux 不會執行 GetStopPosition、GetPositions、GetAvailable、GetRate 或 GetPreroll 方法;也不會執行任何 Set \* 方法進行搜尋。
 
@@ -130,7 +130,7 @@ DirectShow 目前支援下列 AVI 2.0 檔案格式延伸模組：
 
 <dl> <dt>
 
-[DirectShow 篩選](directshow-filters.md)
+[DirectShow過濾 器](directshow-filters.md)
 </dt> </dl>
 
  

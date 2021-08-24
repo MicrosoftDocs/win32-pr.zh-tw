@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8004b4cfe811394acb328938775fcc9947bbbd19
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7098bfac95c80baad59c163581d1cbb26f73df0234a0f67d1d07c587ff6e06bc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104508359"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118131040"
 ---
 # <a name="deleteallservers-method-of-the-win32_tsgatewayloadbalancer-class"></a>Win32 TSGatewayLoadBalancer 類別的 DeleteAllServers 方法 \_
 

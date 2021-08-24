@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 879dd575918a33676e3ba73bd2a8f6212e3dc412
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ffb96cfd2f652bf989673bad68c95c6765034d2105fa554efee057faf099a9c8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934032"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118374966"
 ---
 # <a name="mci_seq_set_parms-structure"></a>MCI \_ SEQ \_ SET \_ PARMS 結構
 
@@ -123,7 +123,7 @@ Sequencer 的時間格式。
 
 <dl> <dt>
 
-[**Mci**](mci.md)
+[**MCI**](mci.md)
 </dt> <dt>
 
 [**MCI 結構**](mci-structures.md)

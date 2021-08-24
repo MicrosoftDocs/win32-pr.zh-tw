@@ -158,7 +158,7 @@ HRESULT put_Auxiliary(
 
 </dt> </dl> </dd> <dt>
 
-**Clsid**
+**CLSID**
 </dt> <dd> <dl>
 
 選擇性的提供者特定 CLSID，識別可執行此類別的 COM 物件。

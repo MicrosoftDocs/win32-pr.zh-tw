@@ -4,17 +4,17 @@ description: 本檔是內容索引服務通訊協定的規格。
 ms.assetid: b91c8038-5ace-441d-8523-60f849ff1458
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 14573dac5a7a6818234c086d05b52e5b81c2a1c1
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: 0df48db5dd1b19983b12daeb6747dce92eedcd78674553f11af2e335f08e7de5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113119733"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118481121"
 ---
 # <a name="content-indexing-services-protocol"></a>內容索引服務通訊協定
 
 > [!NOTE]
-> Windows Desktop Search 2.x 是一種淘汰的技術，最初是以 Windows XP 和 Windows Server 2003 的增益集形式提供。 在之後的版本中，請改用 [Windows Search](../search/-search-3x-wds-overview.md) 。
+> WindowsDesktop Search 2.x 是一種淘汰的技術，最初是以 Windows XP 和 Windows Server 2003 的增益集的形式提供。 在之後的版本中，請改用[Windows Search](../search/-search-3x-wds-overview.md) 。
 
 通訊協定規格，版本0.12
 
@@ -44,7 +44,7 @@ ms.locfileid: "113119733"
 
 本檔是內容索引服務通訊協定的規格。
 
-工作組伺服器通訊協定程式 (WSPP) 檔集適用于搭配公用標準檔、網路程式設計藝術以及 Windows 工作組分散式系統概念，並假設讀者已熟悉上述的材質或立即存取它。
+工作組伺服器通訊協定程式 (WSPP) 檔集適用于搭配公用標準檔、網路程式設計藝術，以及 Windows 工作組分散式系統概念，並假設讀者已熟悉上述的材質或立即存取它。
 
 WSPP 通訊協定規格不需要使用 Microsoft 程式設計工具或程式設計環境，才能讓授權者開發執行。 擁有 Microsoft 程式設計工具和環境存取權的授權人可自由利用這些工具。
 
@@ -191,13 +191,13 @@ CISP 可讓用戶端對裝載索引服務的遠端伺服器執行搜尋查詢。
 5.  一旦用戶端使用搜尋查詢完成，且不再需要額外的結果，用戶端會與伺服器聯繫以釋出查詢。
 6.  一旦伺服器釋出查詢之後，用戶端可能會傳送要求，以便中斷與伺服器的連線。 然後連接會關閉。 或者，用戶端可能會發出另一個查詢，並重複步驟2中的順序。
 
-Windows 行為：此通訊協定是在 Windows 2000、Windows XP、Windows Server 2003 和 Windows Vista 上執行。
+Windows行為：此通訊協定是在 Windows 2000、Windows XP、Windows Server 2003 和 Windows Vista 上執行。
 
 ### <a name="14-relationship-to-other-protocols"></a>1.4 與通訊協定的關聯性
 
 CISP 依賴 SMB \[ MS smb \] 通訊協定來傳輸訊息。 沒有其他通訊協定直接相依于內容編制索引服務通訊協定。
 
-*Windows 行為：應用程式通常會與 OLE DB 介面包裝函 \[ 式 MSDN-OLEDB \] (，例如通訊協定用戶端) ，而不是直接與通訊協定互動。*
+*Windows行為：應用程式通常會與 OLE DB 的介面包裝函 \[ 式 MSDN-OLEDB \] (例如通訊協定用戶端) ，而不是直接使用通訊協定進行互動。*
 
 ### <a name="15-prerequisites-and-preconditions"></a>1.5 必要條件和前置條件
 
@@ -207,7 +207,7 @@ CISP 依賴 SMB \[ MS smb \] 通訊協定來傳輸訊息。 沒有其他通訊�
 
 ### <a name="16-applicability-statement"></a>1.6 適用性陳述
 
-CISP 是設計用來從用戶端查詢及管理遠端伺服器上的目錄。 CISP 已在 Windows Vista 上淘汰。
+CISP 是設計用來從用戶端查詢及管理遠端伺服器上的目錄。 CISP 已在 Windows Vista 淘汰。
 
 ### <a name="17-versioning-and-capability-negotiation"></a>1.7 版本設定和功能交涉
 
@@ -219,7 +219,7 @@ CISP 是設計用來從用戶端查詢及管理遠端伺服器上的目錄。 CI
 
 此通訊協定也會使用取自在 Ms-chap 中定義之 NTSTATUS 網際空間的 NTSTATUS 值 \[ \] 。 廠商應以其指定的意義重複使用這些值。 選擇任何其他值，就會在未來發生衝突的風險。
 
-*Windows 行為： Windows 只會使用4.1.3 的區段中指定的值 \[ \] 。*
+*Windows行為： Windows 只使用4.1.3 的區段中指定的值 \[ \] 。*
 
 ### <a name="181-property-ids"></a>1.8.1 屬性識別碼
 
@@ -2684,7 +2684,7 @@ CColumnSet 結構會指定要傳回的資料行編號。 此結構一律用於�
 
 1
 
-計數
+count
 
  (變數的索引) 
 
@@ -2766,7 +2766,7 @@ CCategorizationSet 結構包含有關查詢結果集群組的資訊。
 
 1
 
-計數
+count
 
 類別 (變數) 
 
@@ -3232,7 +3232,7 @@ aProps (變數)
 
 
 
-| 值/GUID                                                                              | Name                                             |
+| 值/GUID                                                                              | 名稱                                             |
 |-------------------------------------------------------------------------------------------|--------------------------------------------------|
 | DBPROPSET \_ FSCIFRMWRK \_ EXT<br/> {A9BD1526-6A80-11D0-8C9D-0020AF1D740E}<br/>   | 檔案系統內容索引架構屬性集 |
 | DBPROPSET \_ QUERYEXT<br/> {A7AC77ED-F8D7-11CE-A798-0020F8008025}<br/>          | 查詢延伸模組屬性集                     |
@@ -3318,7 +3318,7 @@ CPidMapper 結構包含屬性識別碼的陣列，可指定要在資料列集中
 
 1
 
-計數
+count
 
 aPropSpec
 
@@ -3975,7 +3975,7 @@ CSortSet 結構包含查詢的排序次序。
 
 1
 
-Count
+計數
 
 sortArray (變數) 
 
@@ -4312,7 +4312,7 @@ rgb (變數)
 
 \* *
 
-*Windows 行為：用戶端一律將 \_ status 欄位設定為0x00000000。*
+*Windows行為：用戶端一律將 \_ status 欄位設定為0x00000000。*
 
 **\_ ulChecksum**： \_ ULCHECKSUM 的計算方式必須如下列訊息的區段3.2.4 所指定：
 
@@ -4985,15 +4985,15 @@ aPropertySets (變數)
 
 如果值大於0x00000008，則會假設用戶端能夠處理 CPMGetRowsOut 訊息中的64位位移。 如需詳細資訊，請參閱2.2.3.16 一節。
 
-*Windows 行為：在 windows 用戶端上，iClientVersion 的設定* 如下：
+*Windows 行為：在 Windows 用戶端上，iClientVersion 的設定* 如下：
 
 
 
 | 值      | 意義                                                              |
 |------------|----------------------------------------------------------------------|
 | 0x00000005 | 用戶端作業系統是 Windows 2000。                                           |
-| 0x00000008 | 用戶端作業系統可能是32位的 Windows XP 或32位 Windows Server 2003。 |
-| 0x00010008 | 用戶端作業系統可能是64位的 Windows XP 或64位 Windows Server 2003。 |
+| 0x00000008 | 用戶端作業系統可以是32位 Windows XP 或32位 Windows Server 2003。 |
+| 0x00010008 | 用戶端作業系統可以是64位 Windows XP 或64位 Windows Server 2003。 |
 
 
 
@@ -6351,7 +6351,7 @@ PropSpec (變數)
 
 **\_ cbChunk**：32位不帶正負號的整數，其中包含傳送者可在 CPMFetchValueOut 訊息中接受的位元組數目上限。
 
-*Windows 行為：此欄位會設定為所有 Windows 版本的0x00004000。*
+*Windows行為：所有 Windows 版本的此欄位都設為0x00004000。*
 
 **PropSpec**：指定要取得之屬性的 CFullPropSpec 結構。
 
@@ -7606,7 +7606,7 @@ CPMDisconnect 訊息會結束與伺服器的連接
 
 在 ulClientBase 欄位的用戶端位址空間中，為可變大小的資料列資料指定用戶端基底 \_ 。
 
-*Windows 行為：對於與32位伺服器通訊的32位用戶端，或與64位伺服器通訊的64位用戶端，此值會設定為應用程式進程中接收緩衝區的記憶體位址。這允許在用戶端應用程式進程中，以 CPMGetRowsOut 的資料欄欄位中收到的指標為正確的記憶體指標。否則，它會設定為0x00000000。*
+*Windows行為：對於與32位伺服器通訊的32位用戶端，或與64位伺服器通訊的64位用戶端，此值會設定為應用程式進程中接收緩衝區的記憶體位址。這允許在用戶端應用程式進程中，以 CPMGetRowsOut 的資料欄欄位中收到的指標為正確的記憶體指標。否則，它會設定為0x00000000。*
 
 -   計算 [搜尋描述] 的大小，並在 [cbSeek] 欄位中進行設定 \_ 。
 -   設定 cbReserved (的值，此值會作為資料列的位移開始) \_ cbSeek plus 0x14 的值。
@@ -7704,7 +7704,7 @@ CPMDisconnect 訊息會結束與伺服器的連接
 
 ### <a name="41-example-1"></a>4.1 範例1
 
-在下列範例中，我們假設電腦 A 上的使用者 JOHN 想要從儲存在伺服器 X 上的檔集的目錄系統中，取得包含 "Microsoft" 這個字的檔案大小。 讓我們假設電腦 A 正在執行32位的 Windows XP 作業系統，而電腦 X 正在執行32位的 Windows Server 2003 作業系統。
+在下列範例中，我們假設電腦 A 上的使用者 JOHN 想要從儲存在伺服器 X 上的檔集的目錄系統中，取得包含 "Microsoft" 這個字的檔案大小。 讓我們假設電腦 A 正在執行 32 Windows XP 作業系統，而電腦 X 正在執行32位 Windows Server 2003 作業系統。
 
 1.  使用者啟動搜尋應用程式，並輸入搜尋查詢。 接著，應用程式會將搜尋查詢傳遞給通訊協定用戶端。
 2.  通訊協定用戶端建立與索引伺服器 X 的連接。通訊協定用戶端使用具名管道 \\ 管道 \\ CI \_ SKADS，透過 SMB 連線到伺服器 X。
@@ -7819,7 +7819,7 @@ CPMDisconnect 訊息會結束與伺服器的連接
 
     訊息本文的填入方式如下：
 
-    -   **\_ serverVersion** 欄位設定為 0x00000007 (32 位 windows XP 或32位 windows Server 2003) 。
+    -   **\_ serverVersion** 欄位設定為 0x00000007 (32 Windows XP 或 32-bit Windows Server 2003) 。
     -   **\_ 保留** 的欄位會填入任意資料。
 
 5.  用戶端會準備 CPMCreateQueryIn 訊息。
@@ -7858,7 +7858,7 @@ CPMDisconnect 訊息會結束與伺服器的連接
         -   **\_ cCmdTimeOut** 設定為 0x00000000 (不會) 超時。
     -   **PidMapper** 設定為：
         -   **\_ count** 設定為0x00000001。
-        -   **\_ aPropSpec** 設定為 02608C9EEBAC \_ 的 GUID B725F130-47EF-101A-A5-F1-PRSPEC/0x00000001 (PROPID) /0x0000000c，代表 Windows 檔案大小屬性。
+        -   **\_ aPropSpec** 設定為 02608C9EEBAC \_ 的 GUID B725F130-47EF-101A-A5-F1-PRSPEC/0x00000001 (PROPID) /0x0000000c，代表 Windows file size 屬性。
 
 6.  伺服器會處理它，並以 CPMCreateQueryOut 訊息回應。
 
@@ -7891,7 +7891,7 @@ CPMDisconnect 訊息會結束與伺服器的連接
     -   **\_ cbBindingDesc** 會設定為結合的 **\_ cColumns** 和 **\_ aColumns** 欄位大小。
     -   **\_ cColumns** 設定為0x00000001。
     -   **\_ aColumns** 陣列設定為包含一個 CTableColumn 結構，其中包含：
-    -   -   **\_ PropSpec** 設定為 02608c9eebac \_ 的 GUID b725f130-47ef-101a-a5-f1-PRSPEC/0x00000001 (PROPID) /0x0000000c，代表 Windows 檔案大小屬性。
+    -   -   **\_ PropSpec** 設定為 02608c9eebac \_ 的 GUID b725f130-47ef-101a-a5-f1-PRSPEC/0x00000001 (PROPID) /0x0000000c，代表 Windows file size 屬性。
         -   **\_ vType** 設定為 0x0015 (VT \_UI8) 。
         -   **\_ ValueUsed** 會設定為在資料列) 中傳輸的 0x01 (資料行。
         -   **\_ ValueOffset** 會在資料列) 的開頭設定為 0x0002 (。
@@ -7997,7 +7997,7 @@ CPMDisconnect 訊息會結束與伺服器的連接
             -   欄位的其餘部分包含 CContentRestriction 結構：
                 -   PRSPEC 的屬性設定為 GUID b725f130-47ef-101a-a5f1-02608c9eebac/0x00000001 (**\_** \_PROPID) /0x13。
                 -   **\_ Cc** 設為0x00000006。
-                -   **\_ pwcsphrase** 會設定為 "Office" 字串。
+                -   **\_ pwcsphrase** 會設定為字串 "Office"。
                 -   針對英文) ， **\_ lcid** 設定為 0x409 (。
                 -   **\_ ulGenerateMethod** 設定為 0x00000000 (完全相符) 。
 

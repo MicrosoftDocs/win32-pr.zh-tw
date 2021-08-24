@@ -4,16 +4,16 @@ description: 本主題說明如何使用 IWICImageEncoder 將 ID2D1Image 形式�
 ms.assetid: F0D8BFC7-723A-4577-B2DF-4D656A18E2FC
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b19146d838474046fd634cb5524ddf2367fd1d6c
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 4c6020b29be3771575919ccb0200718e8e608afded584471625cfa922aee8da8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103842387"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118160364"
 ---
 # <a name="how-to-save-direct2d-content-to-an-image-file"></a>如何將 Direct2D 內容儲存至影像檔案
 
-本主題說明如何使用 [**IWICImageEncoder**](/windows/desktop/api/wincodec/nn-wincodec-iwicimageencoder)將 ID2D1Image 形式的內容以 [](/windows/win32/api/d2d1/nn-d2d1-id2d1image)形式儲存至編碼的影像檔案，例如 JPEG。 如果您要撰寫 Windows Store 應用程式，可以讓使用者使用 [**Windows：： Storage：:P ickers：： FileSavePicker**](/uwp/api/Windows.Storage.Pickers.FileSavePicker)來選取目的地檔案。
+本主題說明如何使用 [**IWICImageEncoder**](/windows/desktop/api/wincodec/nn-wincodec-iwicimageencoder)將 ID2D1Image 形式的內容以 [](/windows/win32/api/d2d1/nn-d2d1-id2d1image)形式儲存至編碼的影像檔案，例如 JPEG。 如果您要撰寫 Windows Store 應用程式，可以讓使用者使用 [**Windows：：儲存體：:P ickers：： FileSavePicker**](/uwp/api/Windows.Storage.Pickers.FileSavePicker)來選取目的地檔案。
 
 ## <a name="what-you-need-to-know"></a>您必須知道的事項
 
@@ -21,7 +21,7 @@ ms.locfileid: "103842387"
 
 -   [Direct2D](./direct2d-portal.md)
 -   [Direct2D 效果](effects-overview.md)
--   [**Windows：： Storage：:P ickers：： FileSavePicker**](/uwp/api/Windows.Storage.Pickers.FileSavePicker)
+-   [**Windows：：儲存體：:P ickers：： FileSavePicker**](/uwp/api/Windows.Storage.Pickers.FileSavePicker)
 
 ### <a name="prerequisites"></a>必要條件
 
@@ -33,7 +33,7 @@ ms.locfileid: "103842387"
 
 如果您想要讓使用者選取目的地檔案，您可以使用 [**FileSavePicker**](/uwp/api/Windows.Storage.Pickers.FileSavePicker)，開啟傳回的檔案，並取得要搭配 WIC 使用的 [**IStream**](/windows/desktop/api/objidl/nn-objidl-istream) 。
 
-建立 [**Windows：： Storage：:P ickers：： FileSavePicker**](/uwp/api/Windows.Storage.Pickers.FileSavePicker) ，並設定影像檔案的參數。 呼叫 [**PickSaveFileAsync**](/uwp/api/windows.storage.pickers.filesavepicker.picksavefileasync) 方法。
+建立 [**Windows：：儲存體：:P ickers：： FileSavePicker**](/uwp/api/Windows.Storage.Pickers.FileSavePicker) ，並設定影像檔案的參數。 呼叫 [**PickSaveFileAsync**](/uwp/api/windows.storage.pickers.filesavepicker.picksavefileasync) 方法。
 
 
 ```C++
@@ -81,7 +81,7 @@ ms.locfileid: "103842387"
 
 
 
-最後，使用 [**CreateStreamOverRandomAccessStream**](/windows/desktop/api/shcore/nf-shcore-createstreamoverrandomaccessstream) 方法來轉換檔案資料流程。 Windows 執行階段 Api 代表 [**IRandomAccessStream**](/previous-versions//hh438400(v=vs.85))的資料流程，而 WIC 會使用 [**IStream**](/windows/desktop/api/objidl/nn-objidl-istream)。
+最後，使用 [**CreateStreamOverRandomAccessStream**](/windows/desktop/api/shcore/nf-shcore-createstreamoverrandomaccessstream) 方法來轉換檔案資料流程。 Windows執行時間 Api 表示具有 [**IRandomAccessStream**](/previous-versions//hh438400(v=vs.85))的資料流程，而 WIC 會使用 [**IStream**](/windows/desktop/api/objidl/nn-objidl-istream)。
 
 
 ```C++
@@ -96,7 +96,7 @@ ms.locfileid: "103842387"
 > [!Note]  
 > 若要使用 [**CreateStreamOverRandomAccessStream**](/windows/desktop/api/shcore/nf-shcore-createstreamoverrandomaccessstream)函式，您應該在專案中包含 **shcore。**
 
- 
+ 
 
 ### <a name="step-2-get-the-wic-bitmap-and-frame-encoder"></a>步驟2：取得 WIC 點陣圖和框架編碼器
 
@@ -139,7 +139,7 @@ ms.locfileid: "103842387"
 
 ### <a name="step-3-get-an-iwicimageencoder"></a>步驟3：取得 IWICImageEncoder
 
-[**IWICImageEncoder**](/windows/desktop/api/wincodec/nn-wincodec-iwicimageencoder) 是 Windows 8 中的新介面。 它可以從 [**IWICImagingFactory2**](/windows/desktop/api/wincodec/nn-wincodec-iwicimagingfactory2)建立，它可延伸 **IWICImagingFactory** ，也是 Windows 8 的新功能。
+[**IWICImageEncoder**](/windows/desktop/api/wincodec/nn-wincodec-iwicimageencoder)是 Windows 8 中的新介面。 它可以從 [**IWICImagingFactory2**](/windows/desktop/api/wincodec/nn-wincodec-iwicimagingfactory2)建立，它可延伸 **IWICImagingFactory** ，也是 Windows 8 的新功能。
 
 
 ```C++
@@ -194,7 +194,7 @@ DX::ThrowIfFailed(
 > [!Note]  
 > [**ID2D1Image**](/windows/win32/api/d2d1/nn-d2d1-id2d1image)參數必須建立在傳遞至 [**IWICImagingFactory2：： CreateImageEncoder**](/windows/desktop/api/wincodec/nf-wincodec-iwicimagingfactory2-createimageencoder)的 [**ID2D1Device**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1device)上。
 
- 
+ 
 
 認可 WIC 和 stream 資源，以完成作業。
 
@@ -219,7 +219,7 @@ DX::ThrowIfFailed(
 > [!Note]  
 > 某些 [**IStream**](/windows/desktop/api/objidl/nn-objidl-istream) 的執行不會執行 [**Commit**](/windows/desktop/api/objidl/nf-objidl-istream-commit) 方法，並傳回 **E \_ >notimpl**。
 
- 
+ 
 
 現在您有一個包含 [Direct2D](./direct2d-portal.md) 映射的檔案。
 
@@ -365,6 +365,6 @@ void SaveAsImageFile::SaveBitmapToStream(
 
 
 
- 
+ 
 
- 
+ 

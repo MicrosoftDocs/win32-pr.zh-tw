@@ -4,12 +4,12 @@ ms.assetid: 7b2267c3-79f5-4ada-a7ce-78dd514f8487
 title: 'AUDCLNT_STREAMFLAGS_XXX 常數 (Audiosessiontypes) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 65faf887c35b4ce1110cecb7d7509eb3dfda1d57
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 84817607092c179286f47eb35ef51f5e0f82d44211bcd2345ca3d27ee06b0e13
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110792"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118407361"
 ---
 # <a name="audclnt_streamflags_xxx-constants"></a>AUDCLNT \_ STREAMFLAGS \_ XXX 常數
 
@@ -49,8 +49,8 @@ AUDCLNT \_ STREAMFLAGS \_ RATEADJUST 旗標可讓應用程式取得 [**IAudioClo
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows Vista \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                          |
-| 最低支援的伺服器<br/> | Windows Server 2008 \[ desktop app \| UWP 應用程式\]<br/>                                    |
+| 最低支援的用戶端<br/> | WindowsVista \[ desktop apps \| UWP 應用程式\]<br/>                                          |
+| 最低支援的伺服器<br/> | WindowsServer 2008 \[ desktop app \| UWP 應用程式\]<br/>                                    |
 | 標頭<br/>                   | <dl> <dt>Audiosessiontypes。h</dt> </dl> |
 
 

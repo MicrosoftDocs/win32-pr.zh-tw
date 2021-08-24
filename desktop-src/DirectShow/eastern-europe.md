@@ -4,12 +4,12 @@ ms.assetid: 0e2e81b3-52dc-451b-9734-464052128efe
 title: 東歐
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cb2c2b73b5d91728e0bfe3aca19431b586b18888
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 0713d4089494e8c81aeb2f0e3c6d0cc4cb61590d9d58a353430c7d1630250212
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103688008"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117820572"
 ---
 # <a name="eastern-europe"></a>東歐
 

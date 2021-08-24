@@ -3,7 +3,7 @@ title: 'EM_LINEFROMCHAR 訊息 (Winuser .h) '
 description: 取得在多行編輯控制項中包含指定之字元索引的行索引。
 ms.assetid: e8e9217b-3f0c-478d-b44d-2a51868dbc5a
 keywords:
-- EM_LINEFROMCHAR message Windows 控制項
+- EM_LINEFROMCHAR 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f0dfe0c6c2ed0f9d77817fddde75fa18b64d485f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1ddcbffff68ecafec2202c78f0707556508ed34d173647cccacc4b90f1658f66
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104094323"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118006283"
 ---
 # <a name="em_linefromchar-message"></a>EM \_ LINEFROMCHAR 訊息
 
@@ -57,9 +57,9 @@ ms.locfileid: "104094323"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                     |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 

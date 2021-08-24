@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Npptools.dll
-ms.openlocfilehash: 37278b9111818957e6d5fb3032f1bf33ad3a6ec3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 293aabf86769a8cfa678df79a04b5158b9c1d19c80d660b144c4a33cbf32c56f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191486"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118363677"
 ---
 # <a name="setstringinblob-function"></a>SetStringInBlob 函式
 

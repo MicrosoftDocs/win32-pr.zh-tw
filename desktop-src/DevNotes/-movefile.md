@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Msmdun80.dll
 - Sqlunirl.dll
-ms.openlocfilehash: 44c57d562feff62e21c4c769bfc9d6a650f4984c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 18c2b7312fae4f7d6110a9f38e1e7580fdab6beb2980ca16a3e3744b1f57f7ef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106993469"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118004228"
 ---
 # <a name="_movefile-function"></a>\_MoveFile 函式
 
