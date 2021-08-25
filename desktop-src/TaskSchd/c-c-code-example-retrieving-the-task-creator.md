@@ -7,12 +7,12 @@ keywords:
 - 工作排程器，工作建立者正在抓取工作專案屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3546d676a5f1ac4b99595e47f2514b84e38f4c08
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: baa756fbb10e2d0cd68cce8953dd38cf2d31ab0242d74faea07423292908665b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021348"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119872490"
 ---
 # <a name="cc-code-example-retrieving-the-task-creator"></a>C/c + + 程式碼範例：正在抓取工作建立者
 
@@ -121,9 +121,9 @@ int main(int argc, char **argv)
 [工作排程器1.0 範例](task-scheduler-1-0-examples.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

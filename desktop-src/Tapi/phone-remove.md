@@ -4,12 +4,12 @@ ms.assetid: 7c888976-65da-477a-b5a6-6e78d5f603b1
 title: 'PHONE_REMOVE 訊息 (Tapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6ab32ba8b8a8e003c5d87109dd2d0c9dbe98c236
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a26be60c55b16d0126d0b3be107a95af17dd490c9329343bb27ac6496403d46d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106987118"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119773898"
 ---
 # <a name="phone_remove-message"></a>手機 \_ 移除訊息
 

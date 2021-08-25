@@ -4,12 +4,12 @@ ms.assetid: e3e8b35d-9d18-4611-a898-72ca13e40d33
 title: 'SECURITY_INFORMATION (Winnt) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: aaad4b9f61a20b26397081433b88782dcbc33f8d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 35eda92db81cc2325dcc2eb084c06aa5ac7ca92475cca92d8221e394af9704c0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191564"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119907198"
 ---
 # <a name="security_information"></a>安全性 \_ 資訊
 
@@ -37,16 +37,16 @@ typedef DWORD SECURITY_INFORMATION, *PSECURITY_INFORMATION;
 
 | 需要查詢/設定的值/許可權                                                                                                                                                                                                     | 意義                                                                                                                                                                                                                                                                                                                                                                       |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 屬性 \_ 安全性 \_ 資訊<br/> 需要查詢的許可權： **讀取 \_ 控制項**<br/> 需要設定的許可權： **寫入 \_ DAC**<br/>                                                                                     | 所參考之物件的資源屬性。 資源屬性會儲存在安全描述項的 SACL 中的系統 \_ 資源 \_ 屬性 \_ ACE 類型。<br/> **Windows server 2008 R2、windows 7、Windows server 2008、Windows Vista、Windows server 2003 和 WINDOWS XP：** 無法使用這個位旗標。<br/> <br/>                 |
-| 備份 \_ 安全性 \_ 資訊<br/> 需要查詢的許可權： **讀取 \_ 控制** 和 **存取 \_ 系統 \_ 安全性**<br/> 需要設定的許可權： **寫入 \_ DAC** 和 **寫入 \_ 擁有** 者和 **存取 \_ 系統 \_ 安全性**<br/> | 安全描述項的所有部分。 這適用于需要保留整個安全描述項的備份和還原軟體。<br/> **Windows server 2008 R2、windows 7、Windows server 2008、Windows Vista、Windows server 2003 和 WINDOWS XP：** 無法使用這個位旗標。<br/> <br/>                                                  |
+| 屬性 \_ 安全性 \_ 資訊<br/> 需要查詢的許可權： **讀取 \_ 控制項**<br/> 需要設定的許可權： **寫入 \_ DAC**<br/>                                                                                     | 所參考之物件的資源屬性。 資源屬性會儲存在安全描述項的 SACL 中的系統 \_ 資源 \_ 屬性 \_ ACE 類型。<br/> **Windows server 2008 R2、Windows 7、Windows Server 2008、Windows Vista、Windows Server 2003 和 Windows XP：** 無法使用這個位旗標。<br/> <br/>                 |
+| 備份 \_ 安全性 \_ 資訊<br/> 需要查詢的許可權： **讀取 \_ 控制** 和 **存取 \_ 系統 \_ 安全性**<br/> 需要設定的許可權： **寫入 \_ DAC** 和 **寫入 \_ 擁有** 者和 **存取 \_ 系統 \_ 安全性**<br/> | 安全描述項的所有部分。 這適用于需要保留整個安全描述項的備份和還原軟體。<br/> **Windows server 2008 R2、Windows 7、Windows Server 2008、Windows Vista、Windows Server 2003 和 Windows XP：** 無法使用這個位旗標。<br/> <br/>                                                  |
 | DACL \_ 安全性 \_ 資訊<br/> 需要查詢的許可權： **讀取 \_ 控制項**<br/> 需要設定的許可權： **寫入 \_ DAC**<br/>                                                                                          | 正在參考物件的 DACL。<br/>                                                                                                                                                                                                                                                                                                                        |
 | 群組 \_ 安全性 \_ 資訊<br/> 需要查詢的許可權： **讀取 \_ 控制項**<br/> 需要設定的許可權：**寫入 \_ 擁有** 者 <br/>                                                                                      | 正在參考物件的主要群組識別碼。<br/>                                                                                                                                                                                                                                                                                                    |
-| 標籤 \_ 安全性 \_ 資訊<br/> 需要查詢的許可權： **讀取 \_ 控制項**<br/> 需要設定的許可權：**寫入 \_ 擁有** 者 <br/>                                                                                      | 正在參考強制完整性標籤。<br/> 強制完整性標籤是物件的 SACL 中的 ACE。<br/> **Windows Server 2003 和 WINDOWS XP：** 無法使用這個位旗標。<br/> <br/>                                                                                                                                    |
+| 標籤 \_ 安全性 \_ 資訊<br/> 需要查詢的許可權： **讀取 \_ 控制項**<br/> 需要設定的許可權：**寫入 \_ 擁有** 者 <br/>                                                                                      | 正在參考強制完整性標籤。<br/> 強制完整性標籤是物件的 SACL 中的 ACE。<br/> **Windows Server 2003 和 Windows XP：** 無法使用這個位旗標。<br/> <br/>                                                                                                                                    |
 | 擁有者 \_ 安全性 \_ 資訊<br/> 需要查詢的許可權： **讀取 \_ 控制項**<br/> 需要設定的許可權：**寫入 \_ 擁有** 者 <br/>                                                                                      | 正在參考物件的擁有者識別碼。<br/>                                                                                                                                                                                                                                                                                                            |
 | 受保護的 \_ DACL \_ 安全性 \_ 資訊<br/> 需要查詢的許可權：無法使用<br/> 需要設定的許可權： **寫入 \_ DAC**<br/>                                                                                   | DACL 無法 (Ace) 繼承 [*存取控制專案*](/windows/desktop/SecGloss/a-gly) 。<br/>                                                                                                                                                                                                                   |
 | 受保護的 \_ SACL \_ 安全性 \_ 資訊<br/> 需要查詢的許可權：無法使用<br/> 需要設定的許可權： **存取 \_ 系統 \_ 安全性**<br/>                                                                     | SACL 無法繼承 Ace。<br/>                                                                                                                                                                                                                                                                                                                                      |
 | SACL \_ 安全性 \_ 資訊<br/> 需要查詢的許可權： **存取 \_ 系統 \_ 安全性**<br/> 需要設定的許可權： **存取 \_ 系統 \_ 安全性**<br/>                                                                 | 正在參考物件的 SACL。<br/>                                                                                                                                                                                                                                                                                                                        |
-| 領域 \_ 安全性 \_ 資訊<br/> 需要查詢的許可權： **讀取 \_ 控制項**<br/> 需要設定的許可權： **存取 \_ 系統 \_ 安全性**<br/>                                                                           | 集中存取原則 (端點適用于所參考物件的) 識別碼。 每個 CAP 識別碼都會儲存在 \_ SD 的 SACL 中的系統範圍原則識別碼 \_ \_ \_ ACE 類型。<br/> **Windows server 2008 R2、windows 7、Windows server 2008、Windows Vista、Windows server 2003 和 WINDOWS XP：** 無法使用這個位旗標。<br/> <br/> |
+| 領域 \_ 安全性 \_ 資訊<br/> 需要查詢的許可權： **讀取 \_ 控制項**<br/> 需要設定的許可權： **存取 \_ 系統 \_ 安全性**<br/>                                                                           | 集中存取原則 (端點適用于所參考物件的) 識別碼。 每個 CAP 識別碼都會儲存在 \_ SD 的 SACL 中的系統範圍原則識別碼 \_ \_ \_ ACE 類型。<br/> **Windows server 2008 R2、Windows 7、Windows Server 2008、Windows Vista、Windows Server 2003 和 Windows XP：** 無法使用這個位旗標。<br/> <br/> |
 | 未受保護的 \_ DACL \_ 安全性 \_ 資訊<br/> 需要查詢的許可權：無法使用<br/> 需要設定的許可權： **寫入 \_ DAC**<br/>                                                                                 | DACL 繼承自父物件的 Ace。<br/>                                                                                                                                                                                                                                                                                                                     |
 | 未受保護的 \_ SACL \_ 安全性 \_ 資訊<br/> 需要查詢的許可權：無法使用<br/> 需要設定的許可權： **存取 \_ 系統 \_ 安全性**<br/>                                                                   | SACL 會從父物件繼承 Ace。<br/>                                                                                                                                                                                                                                                                                                                     |
 
@@ -60,9 +60,9 @@ typedef DWORD SECURITY_INFORMATION, *PSECURITY_INFORMATION;
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                                            |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                   |
-| 標頭<br/>                   | <dl> <dt>Winnt (包括 Windows .h) </dt> </dl> |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                                            |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                   |
+| 標頭<br/>                   | <dl> <dt>Winnt (包含 Windows .h) </dt> </dl> |
 
 
 

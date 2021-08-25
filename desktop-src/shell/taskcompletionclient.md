@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - ExecModelClient.dll
-ms.openlocfilehash: a823dc528ea189c70f44689ab69795eb3a430e67
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d03e52a15e6689b7f1ea98a2f1021874cab6a8967dd148b7eaf685ff3984e8cf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194428"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119773648"
 ---
 # <a name="taskcompletionclient-interface"></a>TaskCompletionClient 介面
 
@@ -49,7 +49,7 @@ ms.locfileid: "104194428"
 
 此介面的 GUID 為 "E97D552D-9AE9-46AA-9151-D2DA4BBB5E96"。
 
-此 API 已被取代，在未來的 Windows 版本中可能無法使用。 應用程式應該改為使用 [**ApplicationModel. ExtendedExecution**](/uwp/api/Windows.ApplicationModel.ExtendedExecution?view=winrt-19041) 命名空間中的 api。
+此 API 已被取代，未來版本的 Windows 可能無法使用。 應用程式應該使用 Windows 中的 Api [**。改為 ApplicationModel. ExtendedExecution**](/uwp/api/Windows.ApplicationModel.ExtendedExecution?view=winrt-19041)命名空間。
 
 ## <a name="requirements"></a>規格需求
 
@@ -57,8 +57,8 @@ ms.locfileid: "104194428"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 10 桌面應用程式\]<br/>                                                    |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2016 \[ desktop 應用程式\]<br/>                                           |
+| 最低支援的用戶端<br/> | Windows 10 \[僅限桌面應用程式\]<br/>                                                    |
+| 最低支援的伺服器<br/> | Windows Server 2016 \[僅限桌面應用程式\]<br/>                                           |
 | DLL<br/>                      | <dl> <dt>ExecModelClient.dll</dt> </dl> |
 
 

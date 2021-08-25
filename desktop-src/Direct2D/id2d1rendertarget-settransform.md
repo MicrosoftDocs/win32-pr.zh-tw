@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
-ms.openlocfilehash: 8310bf9e5c97beb3ea3cf3b2a9a513f606079a18
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f23ffcd8d64df02b0be2287a33eff63a6a680200c0e051a15c77958dafd81438
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106999733"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119873958"
 ---
 # <a name="id2d1rendertargetsettransform-methods"></a>ID2D1RenderTarget：： SetTransform 方法
 

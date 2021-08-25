@@ -4,12 +4,12 @@ ms.assetid: 2b15325e-34ed-497b-ae6d-3ec3ac168232
 title: 安全描述項定義語言
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e9de9d3535efe5c33ac633a9dbd295405d74b6a0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8b72e74f49d34577251aef3d875a3c0e9aede07556be1b918ad532f3987c54d0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848238"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119907408"
 ---
 # <a name="security-descriptor-definition-language"></a>安全描述項定義語言
 

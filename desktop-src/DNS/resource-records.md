@@ -4,12 +4,12 @@ description: 瞭解資源記錄。 資源記錄是 DNS 區域檔案中的資訊�
 ms.assetid: c64907c2-ebd3-4550-9454-13f51a6d7ca6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a84bd000e2d88884bbb387748eaced1d0d58a324
-ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
+ms.openlocfilehash: 606d74f41e18fefa144ff21d3ed88d9683938304b0c8aa0bc7d94e2fbaa624cd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "112010671"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119825058"
 ---
 # <a name="resource-records"></a>資源記錄
 
@@ -36,7 +36,7 @@ DNS 中通常會使用下列資源記錄類型：
 -   IPv6 位址 (AAAA) 
 -   郵件交換 (MX) 
 -   [*標準名稱*](c-gly.md) (CNAME) 
--   Windows Internet 命名服務 (WINS) 
+-   Windows (WINS) 的網際網路命名服務
 -   WINS 反向查閱 (WINSR) 
 
 DNS 中有許多其他資源記錄類型。 如需詳細資訊，請參閱 [DNS WMI 提供者參考](dns-wmi-provider-reference.md)。

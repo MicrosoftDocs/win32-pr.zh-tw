@@ -11,12 +11,12 @@ keywords:
 - lines
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8c9c97593d0230d6830cf3d3ce8fa2c13466e21e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a8b0dd0e254380e65171acef1a536038532a370da85ffaa361e8555f77457424
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104183896"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119776958"
 ---
 # <a name="porting-lines"></a>移植線
 

@@ -4,12 +4,12 @@ ms.assetid: e57e1aac-a2f1-42b7-9a0c-c74009a75305
 title: 主幹
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eb4afea1387c6d43dc4d9a2f5a6a12f260a8daeb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 676721df074d0fe84efbe3256da3e111e94932e0b99d5614d792ddbb0c860ca8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194033"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119872558"
 ---
 # <a name="trunk"></a>主幹
 

@@ -12,12 +12,12 @@ api_type:
 - DllExport
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 1cc42449bd2e2db7ec6637a7c405228fd3b51c1d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9db4da23faaea274a105dcfabdd33254223eb3b23e6395fd6d7cd9113134af74
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106984316"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119874358"
 ---
 # <a name="id2d1rendertargetdrawroundedrectangle-methods"></a>ID2D1RenderTarget：:D rawRoundedRectangle 方法
 

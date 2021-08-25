@@ -4,12 +4,12 @@ ms.assetid: 1c34faa0-936a-433a-9280-a94033f3f815
 title: 受託 人
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 90084a0b6bfc7f63db12b7f47eba335adc87239a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d4e79bc49a4ffc93c87b040327a2c7626bc7d816e060cf4bfcd42a6bcab0d024
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104195413"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119906958"
 ---
 # <a name="trustees"></a>受託 人
 

@@ -4,12 +4,12 @@ ms.assetid: 93726d5c-d4ed-4681-bf45-cb899f195b5d
 title: 字型和文字結構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c4ad9454f40471b9483c4e29dc12c9905f552da6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8e512b13eefab160f51f4e3844681580dd44d79ddd548bdca38a98bd4ce60ab2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104991250"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119889248"
 ---
 # <a name="font-and-text-structures"></a>字型和文字結構
 

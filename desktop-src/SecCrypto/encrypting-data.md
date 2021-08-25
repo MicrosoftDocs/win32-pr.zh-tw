@@ -4,12 +4,12 @@ ms.assetid: 34167767-96c5-4a20-b629-07e4d036b4d1
 title: 加密資料
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 44db44db08268241e399107d8af4088dac3c0c2e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cd7d2a7fde500397959f0a2352b3f8ddb4fa662209afb251ddceaa8774048f9c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104553709"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119874450"
 ---
 # <a name="encrypting-data"></a>加密資料
 

@@ -4,8 +4,8 @@ description: Free 方法會釋出配置方法所配置的記憶體。
 ms.assetid: 41f81cba-4431-4ff7-ac84-8ff5bea71b65
 keywords:
 - 自由方法結構化儲存體
-- 自由方法結構化儲存體、IMemoryAllocator 介面
-- IMemoryAllocator 介面結構化儲存體，免費方法
+- IMemoryAllocator 介面的免費方法結構化儲存體
+- IMemoryAllocator 介面結構化儲存體、免費方法
 topic_type:
 - apiref
 api_name:
@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7c07731f60aba7d847c79467b2b2c166b363d807
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f78690a37b5500f5e540cf4c2ef516b7c3ea89c219ba475dc5e5ac030f775d81
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104024694"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119906168"
 ---
 # <a name="imemoryallocatorfree-method"></a>IMemoryAllocator：： Free 方法
 

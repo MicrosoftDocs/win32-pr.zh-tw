@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 7035223082a9e446caebd6e07d3d55c84536d09f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a6db2c10e981ae059a46e84e7abfc4d6dfc372fc3c75c76cfc20fd8a8f42735d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106967526"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119776728"
 ---
 # <a name="string-structure"></a>字串結構
 
@@ -139,7 +139,7 @@ typedef struct {
 
 </dt> <dd>
 
-**值** 成員會識別檔案的內部名稱（如果有的話）。 例如，此字串可能包含 DLL 的模組名稱、Windows 虛擬裝置的虛擬裝置名稱，或 MS-DOS 設備磁碟機的裝置名稱。
+**值** 成員會識別檔案的內部名稱（如果有的話）。 例如，此字串可以包含 DLL 的模組名稱、Windows 虛擬裝置的虛擬裝置名稱，或 MS-DOS 設備磁碟機的裝置名稱。
 
 </dd> <dt>
 

@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: d05fce31ad4ef08bf9f573c0158a683bdbeba739
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ba17056aaf2b038abb519c1eff230f6cccb396edea1ee9c1f96077d572e63fe5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106996498"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119874858"
 ---
 # <a name="encodeddata-object"></a>EncodedData 物件
 
-\[CAPICOM 是僅限32位的元件，可用於下列作業系統： Windows Server 2008、Windows Vista 和 Windows XP。 請改用 [**system.string 命名空間中的**](/dotnet/api/system.security.cryptography?view=dotnet-plat-ext-3.1&preserve-view=true) [**AsnEncodedData 類別**](/dotnet/api/system.security.cryptography.asnencodeddata?view=netcore-3.1)。\]
+\[CAPICOM 是僅限32位的元件，可供下列作業系統使用： Windows Server 2008、Windows Vista 和 Windows XP。 請改用 [**system.string 命名空間中的**](/dotnet/api/system.security.cryptography?view=dotnet-plat-ext-3.1&preserve-view=true) [**AsnEncodedData 類別**](/dotnet/api/system.security.cryptography.asnencodeddata?view=netcore-3.1)。\]
 
 **EncodedData** 物件代表一組 asn.1 編碼的資料。
 
@@ -62,7 +62,7 @@ ms.locfileid: "106996498"
 
 
 
-| 屬性                                      | 存取類型          | Description                                                          |
+| 屬性                                      | 存取類型          | 描述                                                          |
 |:----------------------------------------------|:---------------------|:---------------------------------------------------------------------|
 | [**值**](encodeddata-value.md)<br/> | 唯讀<br/> | 抓取編碼的資料。 這是預設屬性。<br/> |
 

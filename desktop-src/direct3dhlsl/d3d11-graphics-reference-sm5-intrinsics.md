@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 0cd5976526f75b676a853ef7480d4e81e0e00a91
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
-ms.translationtype: HT
+ms.openlocfilehash: 3e68d3abc645617eb72f2bc892df2ff93bd7dde6d4ced4b375ab4faf5daedf04
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104373750"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119855658"
 ---
 # <a name="shader-model-5-intrinsic-functions"></a>著色器模型5內建函式
 
@@ -68,9 +68,9 @@ ms.locfileid: "104373750"
 [著色器模型5](d3d11-graphics-reference-sm5.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

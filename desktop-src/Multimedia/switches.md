@@ -17,12 +17,12 @@ keywords:
 - 身歷聲增強型控制項
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b1d65bb2a14a0e7dc527fab0e628035839855934
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 336d2e23c5e6438fbc19208e3366283147462c2451a12e3ccdcae6c13fcd93d2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103842171"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119805078"
 ---
 # <a name="switches"></a>交換器
 
@@ -33,7 +33,7 @@ Switch 控制項是雙狀態參數。 這些控制項使用 [**MIXERCONTROLDETAI
 | 控制         | 描述                                                                                                                                                                                                                           |
 |-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Boolean         | 泛型參數。 可以設定為 **TRUE** 或 **FALSE**。                                                                                                                                                                           |
-| 按鈕          | 針對驅動程式應處理的所有按鈕，將其設定為 **TRUE** ，就好像已按下一樣。 如果值為 **FALSE**，則不會採取任何動作。                                                                                         |
+| Button          | 針對驅動程式應處理的所有按鈕，將其設定為 **TRUE** ，就好像已按下一樣。 如果值為 **FALSE**，則不會採取任何動作。                                                                                         |
 | 開啟/關閉          | 替代參數，以除了用於布林值參數的其他圖形來表示。 可以設定為 ON 或 OFF。                                                                                                    |
 | Mute            | 靜音音訊行 (隱藏線) 的資料流程，或允許播放音訊資料。 此參數經常用來協助控制送入混音器的行。                                                        |
 | Mono            | 切換身歷聲音訊線的 mono 和身歷聲輸出。 設定為 [關閉] 可播放身歷聲資料作為個別的通道。 設定為 ON 可將這兩個通道的資料結合成 mono 音訊行。                                            |
@@ -42,8 +42,8 @@ Switch 控制項是雙狀態參數。 這些控制項使用 [**MIXERCONTROLDETAI
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

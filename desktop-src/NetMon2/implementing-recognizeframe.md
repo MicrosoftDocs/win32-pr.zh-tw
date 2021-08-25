@@ -4,12 +4,12 @@ ms.assetid: 6d0574da-f0ec-4ed9-bfb0-023dff2ac6fe
 title: 執行 RecognizeFrame
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d970eee80a04168b3fa06b117c2c219c506da7ea
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 39d3f9a79325c0c75a7a83cfb99a34ff3de1f073573dee13d39a846b575f6285
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320555"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119890491"
 ---
 # <a name="implementing-recognizeframe"></a>執行 RecognizeFrame
 

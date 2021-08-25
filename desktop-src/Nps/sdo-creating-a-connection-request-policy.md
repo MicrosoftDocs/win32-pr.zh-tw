@@ -5,12 +5,12 @@ ms.assetid: 659e7d1e-d985-4cb1-95ad-355c5b44d55a
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 78f2ff388cf3448a4482d304fabf90fdbaa83d5d
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 69c12a8969e4e16495881a08a67550cb2052862126baecf5cc07c2ad6b129c23
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104093244"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119889328"
 ---
 # <a name="creating-a-connection-request-policy"></a>建立連接要求原則
 
@@ -19,7 +19,7 @@ ms.locfileid: "104093244"
 > [!Note]  
 > 這個內嵌程式碼範例已建立在受控 Visual Basic 上。
 
- 
+ 
 
 
 ```VB
@@ -360,6 +360,6 @@ End Module
 [**PROFILEPROPERTIES**](/windows/desktop/api/sdoias/ne-sdoias-profileproperties)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

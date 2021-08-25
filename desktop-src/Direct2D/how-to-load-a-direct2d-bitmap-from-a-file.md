@@ -4,12 +4,12 @@ description: 顯示如何從影像檔載入 Direct2D 點陣圖。
 ms.assetid: 4abfbc2b-2730-4d96-897e-1e2232383a72
 ms.topic: article
 ms.date: 03/09/2019
-ms.openlocfilehash: c9590e799e71e92056157b75573565cf79b9236b
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: a330f0e32ee4abf62eb7df1c1d6a00b3f217e6f04502cebae6c489aa01eaaa9c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103682757"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119824558"
 ---
 # <a name="how-to-load-a-bitmap-from-a-file"></a>如何從檔案載入點陣圖
 
@@ -123,6 +123,6 @@ Direct2D 使用 Windows 影像處理元件 (WIC) 載入點陣圖。 若要從檔
 [如何從資源載入點陣圖](how-to-load-a-bitmap-from-a-resource.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ec240d008ef2f9469fb67f4041cfb33c08383079
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: edd2cbcdaba0a4324c4501339e972f8bb967f64716d1688cef7c3c38bb22b5b3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106974791"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119771448"
 ---
 # <a name="imsrdpclienttransportsettings-interface"></a>IMsRdpClientTransportSettings 介面
 
@@ -39,7 +39,7 @@ ms.locfileid: "106974791"
 
 
 
-| 屬性                                                                                                          | 存取類型           | Description                                                 |
+| 屬性                                                                                                          | 存取類型           | 描述                                                 |
 |:------------------------------------------------------------------------------------------------------------------|:----------------------|:------------------------------------------------------------|
 | [**GatewayCredsSource**](imsrdpclienttransportsettings-gatewaycredssource.md)<br/>                         | 讀取/寫入<br/> | RD 閘道伺服器驗證方法。<br/>     |
 | [**GatewayDefaultUsageMethod**](imsrdpclienttransportsettings-gatewaydefaultusagemethod.md)<br/>           | 唯讀<br/>  | 預設的 RD 閘道使用方法。<br/>             |

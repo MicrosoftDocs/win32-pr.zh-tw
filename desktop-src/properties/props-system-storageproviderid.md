@@ -1,19 +1,19 @@
 ---
-description: 此屬性代表 \[ \] 完整提供者識別碼的儲存提供者識別碼部分&\# 0034; \[儲存提供者識別碼 \] ！ \[Windows SID \] ！ \[帳戶識別碼 \] & \# 0034;。
+description: 此屬性代表 \[ \] 完整提供者識別碼&0034; 的儲存體提供者識別碼部分 \# 。 \[儲存體提供者識別碼 \] ！ \[WindowsSID \] ！ \[帳戶識別碼 \] & \# 0034;。
 ms.assetid: 361c5c25-2c8d-485b-83fd-55d94f6420a9
 title: System. StorageProviderId
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 17d633d49bb42badbd80492871e9977796112a0c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f21a42c1ef4168667d02213e27fc04e79811ef27abf97156ca9d32e84f3f40bd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106974503"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119774428"
 ---
 # <a name="systemstorageproviderid"></a>System. StorageProviderId
 
-此屬性代表 \[ \] 完整提供者識別碼「 \[ 儲存提供者 \] \[ 識別碼」的儲存提供者識別碼部分。Windows SID \] ！ \[帳戶識別碼」 \] 。
+此屬性代表 \[ \] 完整提供者識別碼 "儲存體提供者識別碼" 的儲存體提供者識別碼部分 \[ \] ！ \[WindowsSID \] ！ \[帳戶識別碼」 \] 。
 
 ## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81"></a>Windows 10，1703版、Windows 10、1607版、Windows 10、1511版、Windows 10、1507版、Windows 8。1
 

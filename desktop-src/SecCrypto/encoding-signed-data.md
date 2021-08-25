@@ -4,12 +4,12 @@ ms.assetid: 40d1c417-6d88-4421-920f-8b40d88d28ce
 title: 編碼簽署的資料
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: be4a542fe0890a6ee9d51ebc1a5ee6b98bab4242
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 43e5c3ab338c4e7b251416f1a488747eb0c9b897c1fa02082afcb580cb12341b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194177"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119874840"
 ---
 # <a name="encoding-signed-data"></a>編碼簽署的資料
 

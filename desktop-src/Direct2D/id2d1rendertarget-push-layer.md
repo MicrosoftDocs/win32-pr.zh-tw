@@ -12,12 +12,12 @@ api_type:
 - DllExport
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 6a5609192162ae0b0c0e2af8f1b84429d8710509
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e1f4f5ddeace0144f6314ee7eae8a640e489d99c43f4e21f6e6c260fd003dd0f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106979604"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119874028"
 ---
 # <a name="id2d1rendertargetpushlayer-methods"></a>ID2D1RenderTarget：:P ushLayer 方法
 

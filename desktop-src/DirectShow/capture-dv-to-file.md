@@ -4,19 +4,19 @@ ms.assetid: f7a8bcbb-a744-43c4-a226-354ae2d94df8
 title: 捕獲 DV 至檔案
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 713e49eba3016b353362c541ba31ffd6a1ae5de7
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: d886b964502d705f5902c17de8e6e008a11a31699de40b3089033867873fa021
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104317743"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119814338"
 ---
 # <a name="capture-dv-to-file"></a>捕獲 DV 至檔案
 
 本節說明如何從 DV 攝影機或 VTR 磁帶捕捉數位視訊 (DV) 。
 
 1.  建立 [MSDV 驅動程式](msdv-driver.md) 篩選器的實例。 如需詳細資訊，請參閱 [選取擷取裝置](selecting-a-capture-device.md)。
-2.  如 [關於 Capture graph](about-the-capture-graph-builder.md)產生器中所述，初始化 Capture graph builder。
+2.  如[《 capture Graph builder](about-the-capture-graph-builder.md)》中所述，初始化 capture Graph builder。
 3.  根據目的檔案類型建立 capture graph：
     -   [捕捉類型 1 DV 檔案](capture-a-type-1-dv-file.md)
     -   [捕捉類型 2 DV 檔案](capture-a-type-2-dv-file.md)

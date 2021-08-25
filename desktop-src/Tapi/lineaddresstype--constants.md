@@ -4,12 +4,12 @@ ms.assetid: 2c32eda1-e510-40eb-ae75-fc7b9e9953cd
 title: 'LINEADDRESSTYPE_ 的常數 (Tapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c6d0a46eff2a7a0c38fa17aed4b831ef8701c565
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f6555ff934ffb8c1b40b8f35d279a2071cad32b80b754af19672108f5e318a17
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106998399"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119873329"
 ---
 # <a name="lineaddresstype_-constants"></a>LINEADDRESSTYPE \_ 常數
 

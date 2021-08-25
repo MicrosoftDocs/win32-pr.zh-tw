@@ -4,12 +4,12 @@ ms.assetid: b025a9c6-d6a3-40b2-9b7f-1e6caa706b59
 title: 新增封包資料
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 360cc7cb6a65853ae6c23bb995df94566d0adc09
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 75aab8e931ff8c8591a899a21a1071754e32f2e2cecec3755baa3dc64db94dfd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106982370"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119874418"
 ---
 # <a name="enveloped-data-additions"></a>新增封包資料
 

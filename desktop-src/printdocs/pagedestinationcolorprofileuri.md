@@ -4,12 +4,12 @@ ms.assetid: b2a4a4d2-a8bc-48dc-ad56-20380f5f91c9
 title: PageDestinationColorProfileURI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c3cf719a97f8f8086e88425c1667199815efbbb
-ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
+ms.openlocfilehash: d861d7e7f1493c481f19c775895b367c3a94007f97c2ad40dc61663ccd510d40
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112396673"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119776508"
 ---
 # <a name="pagedestinationcolorprofileuri"></a>PageDestinationColorProfileURI
 
@@ -24,7 +24,7 @@ ms.locfileid: "112396673"
 
 
 
-| Name | 值 |
+| 名稱 | 值 |
 |----------------------------|----------------------------------------------------------|
 | 項目類型 <br/>   | ParameterDef<br/>                                  |
 | 範圍前置詞 <br/> | 頁面<br/>                                          |
@@ -74,8 +74,8 @@ ms.locfileid: "112396673"
 | DefaultValue<br/> | 字串<br/>  | 未定義<br/>       |
 | MaxLength<br/>    | 整數<br/> | 未定義<br/>       |
 | MinLength<br/>    | 整數<br/> | 1<br/>               |
-| 強制性<br/>    | string<br/>  | psk：條件式<br/> |
-| Unittype.pixel 表示<br/>     | string<br/>  | 字元<br/>      |
+| 強制性<br/>    | 字串<br/>  | psk：條件式<br/> |
+| Unittype.pixel 表示<br/>     | 字串<br/>  | 字元<br/>      |
 
 
 

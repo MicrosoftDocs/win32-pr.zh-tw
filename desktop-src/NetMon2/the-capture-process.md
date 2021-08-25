@@ -4,12 +4,12 @@ ms.assetid: f778aba5-8f66-4fc9-830b-f830c364da56
 title: 捕獲進程
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e0ca1987266b7e042713f1d1c292cf63d5e3ccf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 51a6d82d721f0f85c6b1ab279d556aaad866f70fde7c8e422995cba5be513d8e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104570988"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119889582"
 ---
 # <a name="the-capture-process"></a>捕獲進程
 
@@ -49,7 +49,7 @@ ms.locfileid: "104570988"
 [**IDelaydC：： Configure**](idelaydc-configure.md)
 </dt> <dt>
 
-[**IDelaydC：： Connect**](idelaydc-connect.md)
+[**IDelaydC：：連線**](idelaydc-connect.md)
 </dt> <dt>
 
 [**IDelaydC：:D isconnect**](idelaydc-disconnect.md)
@@ -70,7 +70,7 @@ ms.locfileid: "104570988"
 [**IESP：： Configure**](iesp-configure.md)
 </dt> <dt>
 
-[**IESP：： Connect**](iesp-connect.md)
+[**IESP：：連線**](iesp-connect.md)
 </dt> <dt>
 
 [**IESP：:D isconnect**](iesp-disconnect.md)
@@ -91,7 +91,7 @@ ms.locfileid: "104570988"
 [**IRTC：： Configure**](irtc-configure.md)
 </dt> <dt>
 
-[**IRTC：： Connect**](irtc-connect.md)
+[**IRTC：：連線**](irtc-connect.md)
 </dt> <dt>
 
 [**IRTC：:D isconnect**](irtc-disconnect.md)
@@ -112,7 +112,7 @@ ms.locfileid: "104570988"
 [**IStats：： Configure**](istats-configure.md)
 </dt> <dt>
 
-[**IStats：： Connect**](istats-connect.md)
+[**IStats：：連線**](istats-connect.md)
 </dt> <dt>
 
 [**IStats：:D isconnect**](istats-disconnect.md)

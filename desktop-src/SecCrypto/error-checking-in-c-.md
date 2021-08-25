@@ -4,12 +4,12 @@ ms.assetid: 4ab1b5ba-dd19-4802-aa9c-02bd5406681f
 title: 在 c + + 中檢查錯誤
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9f2a56acd41269ece0f9a5c7de4a2dff1960bb10
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bc3e374c6f0bd933c2e4de7a477fea02b4e1538a7a1fa9b4de78e45fd896b192
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104513140"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119874068"
 ---
 # <a name="error-checking-in-c"></a>在 c + + 中檢查錯誤
 

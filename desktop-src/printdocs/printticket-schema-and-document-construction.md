@@ -4,12 +4,12 @@ ms.assetid: 573c2c82-aeb9-4ef2-8a1b-40b4db6ac6e4
 title: PrintTicket 架構和檔結構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5998aeb534bbbeb16681a4136cf33425a7eefad7
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 4bd6de44ad04e9e39a516af0842bfaaca5b081191cb322b2f3a96f919590c64c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112405431"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119824438"
 ---
 # <a name="printticket-schema-and-document-construction"></a>PrintTicket 架構和檔結構
 

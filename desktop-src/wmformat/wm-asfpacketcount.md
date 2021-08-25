@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 59667e2895164ddfdb2ed688c55ac424315cd822
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 459b975129cc6268b54a181e5a5e9a6c7e3bd0175c4a65da5dc08480671b970d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104507780"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119771208"
 ---
 # <a name="wmasfpacketcount"></a>WM/ASFPacketCount
 
@@ -44,9 +44,9 @@ g \_ wszWMASFPacketCount
 [**屬性清單**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: b15cf324-5b9b-41da-a8cf-87071aaf3b60
 title: 依 CLSID 新增篩選
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f880ab1cb3b88fbe6d889acdd192bba341ce2acf
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: ed8306613e5a73ad863b3c16b04529e3e0def12b76fb4e27685db9cb442b6c80
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104109717"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119873428"
 ---
 # <a name="add-a-filter-by-clsid"></a>依 CLSID 新增篩選
 

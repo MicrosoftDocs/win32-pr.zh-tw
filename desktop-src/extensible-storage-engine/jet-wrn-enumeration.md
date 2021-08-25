@@ -124,12 +124,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: ce73682654899d597183689a36bb7e7e9d9094e0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1a4eba2e73314521b383452741f7a56a17e2179cad277850808c5dece717d7fb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510924"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119889738"
 ---
 # <a name="jet_wrn-enumeration"></a>JET_wrn 列舉
 

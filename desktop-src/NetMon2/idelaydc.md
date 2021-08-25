@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: cb87bc9f821e758b83a1bc3dee5d81a4b1b771d4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1b6b965990435dd7b9a1758cc9bf8ac8001c747ae800225a90123da862032ed1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106969225"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119890558"
 ---
 # <a name="idelaydc-interface"></a>IDelaydC 介面
 
@@ -42,7 +42,7 @@ ms.locfileid: "106969225"
 | 方法                                                                  | 描述                                                                                                                                             |
 |:------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**設定**](idelaydc-configure.md)                                 | 提交用於捕捉的設定資訊。<br/>                                                                                        |
-| [**連接**](idelaydc-connect.md)                                     | 將 NPP 連接到網路。<br/>                                                                                                             |
+| [**連線**](idelaydc-connect.md)                                     | 將 NPP 連接到網路。<br/>                                                                                                             |
 | [**中斷連線**](idelaydc-disconnect.md)                               | 中斷 NPP 與網路的連線。<br/>                                                                                                        |
 | [**GetControlState**](idelaydc-getcontrolstate.md)                     | [*抓取 capture*](c.md)的狀態，指出 capture 正在執行或已暫停。<br/>                      |
 | [**GetConversationStatistics**](idelaydc-getconversationstatistics.md) | 抓取目前 capture 的 [*會話*](s.md) 和 [*站資訊*](s.md) 。<br/> |

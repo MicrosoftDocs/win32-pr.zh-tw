@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 72f80d81b5f105f528292a23f8b58257066b425e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e70683d5307b81db14d23fec2c163b085cccaf64b7926eb41efdb5dfe9ac7611
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106976241"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119872390"
 ---
 # <a name="cbasepinattemptconnection-method"></a>CBasePin. AttemptConnection 方法
 
@@ -63,7 +63,7 @@ virtual HRESULT AttemptConnection(
 
 
 
-| 傳回碼                                                                                                | Description                                  |
+| 傳回碼                                                                                                | 描述                                  |
 |------------------------------------------------------------------------------------------------------------|----------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>                       | 成功。<br/>                          |
 | <dl> <dt>**\_ \_ \_ 未接受 VFW E \_ 類型**</dt> </dl> | 媒體類型無法接受。<br/> |

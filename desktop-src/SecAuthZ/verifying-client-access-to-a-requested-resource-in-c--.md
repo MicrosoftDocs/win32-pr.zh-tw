@@ -4,12 +4,12 @@ ms.assetid: 7c8a63c5-2eab-4414-9a3d-c99a92b67a62
 title: 使用 c + + 確認用戶端對要求的資源的存取
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eeffe9cb3312e33a283c1701b58356cdf5ea9b3a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 363490e3636f5ad5229dd4234eba3bf38b9dfc54a4564bda775b143a249fe640
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104195250"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119906728"
 ---
 # <a name="verifying-client-access-to-a-requested-resource-in-c"></a>使用 c + + 確認用戶端對要求的資源的存取
 

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 6415b8e3d8ae4e292b7e2592b123120927081ea8
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 9b471ac42ceb44f5e65a2ac08365bf97ab0e3157816b772b331cde0fa0b13bde
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108095116"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119907528"
 ---
 # <a name="ctransformfiltergetmediatype-method"></a>CTransformFilter. GetMediaType 方法
 
@@ -63,7 +63,7 @@ virtual HRESULT GetMediaType(
 
 
 
-| 傳回碼                                                                                            | Description                      |
+| 傳回碼                                                                                            | 描述                      |
 |--------------------------------------------------------------------------------------------------------|----------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>                   | 成功。<br/>              |
 | <dl> <dt>**VFW \_ S \_ 沒有 \_ 其他 \_ 專案**</dt> </dl> | 索引超出範圍。<br/>   |

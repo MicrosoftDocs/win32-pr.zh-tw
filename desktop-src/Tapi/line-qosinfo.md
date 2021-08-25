@@ -4,12 +4,12 @@ ms.assetid: b2844d12-c524-42ab-aeb9-8daf4e07a436
 title: 'LINE_QOSINFO 訊息 (Tspi .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d35ff19601ab6acd9a3d8e8aebf1e59b06a4f17e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9f0e6273eb31447f0e0c9543dfa191a25869fa08f05be8a5c639ceb101deff47
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995771"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119873318"
 ---
 # <a name="line_qosinfo-message"></a>行 \_ QOSINFO 訊息
 

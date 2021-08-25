@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 41c12b6c1da5d5bd5c8ce59a01e21b05baf77503
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: a6b220448fcaa6cbbbb6b01c605a9b5fd6e03f8dc6a60a0e409f6f275d9b74b5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104092688"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119825998"
 ---
 # <a name="ctext-control"></a>CTEXT 控制項
 
@@ -73,6 +73,6 @@ CTEXT "Filename", 101, 10, 10, 100, 100
 [**RTEXT**](rtext-control.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ffdb5bde76325409e0911615d1d21b1b4f593c06
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 5ba8ac5196de660c4cff4b90801470581cc660491902ec5b48f0ced8337c498b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103935340"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119835283"
 ---
 # <a name="user-principal-name-attribute"></a>使用者主體名稱屬性
 
@@ -59,15 +59,15 @@ ms.locfileid: "103935340"
 | 連結識別碼                | \-                                |
 | MAPI-Id                | \-                                |
 | System-Only            | 否                             |
-| 是-單一值       | 對                              |
-| 已編制索引             | 對                              |
-| 在通用類別目錄中      | 對                              |
+| 是-單一值       | 是                              |
+| 已編制索引             | 是                              |
+| 在通用類別目錄中      | 是                              |
 | NT-Security-描述元 | O:BAG：不正確： S：                      |
 | Range-Lower            | \-                                |
 | Range-Upper            | \-                                |
 | Search-Flags           | 0x00000001                        |
 | System-Flags           | 0x00000012                        |
-| 中使用的類別        | [**User**](c-user.md)<br/> |
+| 中使用的類別        | [**使用者**](c-user.md)<br/> |
 
 
 
@@ -80,15 +80,15 @@ ms.locfileid: "103935340"
 | 連結識別碼                | \-                                |
 | MAPI-Id                | \-                                |
 | System-Only            | 否                             |
-| 是-單一值       | 對                              |
-| 已編制索引             | 對                              |
-| 在通用類別目錄中      | 對                              |
+| 是-單一值       | 是                              |
+| 已編制索引             | 是                              |
+| 在通用類別目錄中      | 是                              |
 | NT-Security-描述元 | O:BAG：不正確： S：                      |
 | Range-Lower            | \-                                |
 | Range-Upper            | \-                                |
 | Search-Flags           | 0x00000001                        |
 | System-Flags           | 0x00000012                        |
-| 中使用的類別        | [**User**](c-user.md)<br/> |
+| 中使用的類別        | [**使用者**](c-user.md)<br/> |
 
 
 
@@ -101,9 +101,9 @@ ms.locfileid: "103935340"
 | 連結識別碼                | \-           |
 | MAPI-Id                | \-           |
 | System-Only            | 否        |
-| 是-單一值       | 對         |
-| 已編制索引             | 對         |
-| 在通用類別目錄中      | 對         |
+| 是-單一值       | 是         |
+| 已編制索引             | 是         |
+| 在通用類別目錄中      | 是         |
 | NT-Security-描述元 | O:BAG：不正確： S： |
 | Range-Lower            | \-           |
 | Range-Upper            | \-           |
@@ -122,15 +122,15 @@ ms.locfileid: "103935340"
 | 連結識別碼                | \-                                |
 | MAPI-Id                | \-                                |
 | System-Only            | 否                             |
-| 是-單一值       | 對                              |
-| 已編制索引             | 對                              |
-| 在通用類別目錄中      | 對                              |
+| 是-單一值       | 是                              |
+| 已編制索引             | 是                              |
+| 在通用類別目錄中      | 是                              |
 | NT-Security-描述元 | O:BAG：不正確： S：                      |
 | Range-Lower            | \-                                |
 | Range-Upper            | \-                                |
 | Search-Flags           | 0x00000001                        |
 | System-Flags           | 0x00000012                        |
-| 中使用的類別        | [**User**](c-user.md)<br/> |
+| 中使用的類別        | [**使用者**](c-user.md)<br/> |
 
 
 
@@ -143,15 +143,15 @@ ms.locfileid: "103935340"
 | 連結識別碼                | \-                                |
 | MAPI-Id                | \-                                |
 | System-Only            | 否                             |
-| 是-單一值       | 對                              |
-| 已編制索引             | 對                              |
-| 在通用類別目錄中      | 對                              |
+| 是-單一值       | 是                              |
+| 已編制索引             | 是                              |
+| 在通用類別目錄中      | 是                              |
 | NT-Security-描述元 | O:BAG：不正確： S：                      |
 | Range-Lower            | \-                                |
 | Range-Upper            | \-                                |
 | Search-Flags           | 0x00000001                        |
 | System-Flags           | 0x00000012                        |
-| 中使用的類別        | [**User**](c-user.md)<br/> |
+| 中使用的類別        | [**使用者**](c-user.md)<br/> |
 
 
 
@@ -164,15 +164,15 @@ ms.locfileid: "103935340"
 | 連結識別碼                | \-                                |
 | MAPI-Id                | \-                                |
 | System-Only            | 否                             |
-| 是-單一值       | 對                              |
-| 已編制索引             | 對                              |
-| 在通用類別目錄中      | 對                              |
+| 是-單一值       | 是                              |
+| 已編制索引             | 是                              |
+| 在通用類別目錄中      | 是                              |
 | NT-Security-描述元 | O:BAG：不正確： S：                      |
 | Range-Lower            | \-                                |
 | Range-Upper            | \-                                |
 | Search-Flags           | 0x00000001                        |
 | System-Flags           | 0x00000012                        |
-| 中使用的類別        | [**User**](c-user.md)<br/> |
+| 中使用的類別        | [**使用者**](c-user.md)<br/> |
 
 
 
@@ -185,15 +185,15 @@ ms.locfileid: "103935340"
 | 連結識別碼                | \-                                |
 | MAPI-Id                | \-                                |
 | System-Only            | 否                             |
-| 是-單一值       | 對                              |
-| 已編制索引             | 對                              |
-| 在通用類別目錄中      | 對                              |
+| 是-單一值       | 是                              |
+| 已編制索引             | 是                              |
+| 在通用類別目錄中      | 是                              |
 | NT-Security-描述元 | O:BAG：不正確： S：                      |
 | Range-Lower            | \-                                |
 | Range-Upper            | \-                                |
 | Search-Flags           | 0x00000001                        |
 | System-Flags           | 0x00000012                        |
-| 中使用的類別        | [**User**](c-user.md)<br/> |
+| 中使用的類別        | [**使用者**](c-user.md)<br/> |
 
 
 

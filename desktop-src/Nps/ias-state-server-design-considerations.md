@@ -5,19 +5,19 @@ ms.assetid: 2f8d268b-5518-4ad2-aed6-5971c913db6d
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7a0ef654f3641138075acc667d733b20c94c4840
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b39fa2460fbad5ffedd4a517da588cc0c951f734926c1219d750e28f71734c24
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372428"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119889478"
 ---
 # <a name="state-server-design-considerations"></a>狀態伺服器設計考慮
 
 > [!Note]  
-> 從 Windows Server 2008 開始， (IAS) 的網際網路驗證服務已重新命名為網路原則伺服器 (NPS) 。 本主題的內容適用于 IAS 和 NPS。 在整個文字中，NPS 是用來參考服務的所有版本，包括原本稱為 IAS 的版本。
+> 網際網路驗證服務 (IAS) 已重新命名網路原則伺服器 (NPS) 從 Windows Server 2008 開始。 本主題的內容適用于 IAS 和 NPS。 在整個文字中，NPS 是用來參考服務的所有版本，包括原本稱為 IAS 的版本。
 
- 
+ 
 
 視您的設計而定，您可能需要伺服器來追蹤目前登入網路的使用者。 狀態伺服器的主要挑戰是讓狀態伺服器資料庫中的資訊與實際登入的使用者保持同步。 如果狀態伺服器中的資訊不同步，當使用者未獲授權時，使用者可能會成功擁有多個會話。 此外，沒有多個會話的使用者可能不小心懲罰。
 
@@ -32,9 +32,9 @@ ms.locfileid: "104372428"
 
 讓授權延伸模組 DLL 更新狀態伺服器資料庫的優點是，授權延伸模組 DLL 可以存取已驗證使用者的詳細資訊。 授權延伸模組 DLL 可從 NPS 授權機制存取所有的授權屬性。 例如，有些使用者可能會有允許他們有多個會話的授權。 狀態伺服器應該將這類使用者視為特殊案例。
 
- 
+ 
 
- 
+ 
 
 
 

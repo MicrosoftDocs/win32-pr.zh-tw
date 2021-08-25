@@ -4,12 +4,12 @@ ms.assetid: b4b1455c-9a04-4fa0-a3fa-ed991f278c0c
 title: 'DBT_CONFIGCHANGECANCELED (Dbt 的事件) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 97944daa698808c55f88bc377c9bf1c59c1217fb
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 624144ccd5a87d983d453c8d6a3c0667376c2a1b9340bba83f229a29882bffe4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847289"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119874538"
 ---
 # <a name="dbt_configchangecanceled-event"></a>DBT \_ CONFIGCHANGECANCELED 事件
 

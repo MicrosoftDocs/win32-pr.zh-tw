@@ -524,7 +524,7 @@
               items:
                 - name: Configure 方法
                   href: idelaydc-configure.md
-                - name: Connect 方法
+                - name: 連線方法
                   href: idelaydc-connect.md
                 - name: Disconnect 方法
                   href: idelaydc-disconnect.md
@@ -551,7 +551,7 @@
               items:
                 - name: Configure 方法
                   href: iesp-configure.md
-                - name: Connect 方法
+                - name: 連線方法
                   href: iesp-connect.md
                 - name: Disconnect 方法
                   href: iesp-disconnect.md
@@ -574,7 +574,7 @@
               items:
                 - name: Configure 方法
                   href: irtc-configure.md
-                - name: Connect 方法
+                - name: 連線方法
                   href: irtc-connect.md
                 - name: Disconnect 方法
                   href: irtc-disconnect.md
@@ -601,7 +601,7 @@
               items:
                 - name: Configure 方法
                   href: istats-configure.md
-                - name: Connect 方法
+                - name: 連線方法
                   href: istats-connect.md
                 - name: Disconnect 方法
                   href: istats-disconnect.md

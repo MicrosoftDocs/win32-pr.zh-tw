@@ -4,16 +4,16 @@ ms.assetid: e8ca77b8-0322-43b4-9996-26f584cf878a
 title: 'IEnumTime：： Next 方法 (Sdpblb .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1487136b0e3e41ba11a23ba92500d2aa0758df79
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 6068d23fae96d5623ced72f44e6e8d185f861b6c49ff085f1b6e9e58bc489b89
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108118386"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119905958"
 ---
 # <a name="ienumtimenext-method"></a>IEnumTime：： Next 方法
 
-\[ 在 Windows Vista、Windows Server 2008 和後續版本的作業系統中，無法使用會合 IP 電話語音會議控制項和介面。 RTC 用戶端 API 提供類似的功能。\]
+\[Windows Vista、Windows Server 2008 及後續版本的作業系統無法使用會合 IP 電話語音會議控制項和介面。 RTC 用戶端 API 提供類似的功能。\]
 
 **下一個** 方法會取得列舉順序中的下一個指定元素數目。
 
