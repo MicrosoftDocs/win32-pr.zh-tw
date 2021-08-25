@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: 0530f428c9ebf89607fa89509c65ddd336fee293
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 4879009f603a6943302f0595f37176ec5edf8e1a1d3212efedb66c923d775104
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104196223"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119894148"
 ---
 # <a name="d3dtexturestagestatetype-enumeration"></a>D3DTEXTURESTAGESTATETYPE 列舉
 
@@ -166,14 +166,14 @@ typedef enum D3DTEXTURESTAGESTATETYPE {
 <span id="D3DTSS_COLORARG0"></span><span id="d3dtss_colorarg0"></span>**D3DTSS \_ COLORARG0**
 </dt> <dd>
 
-Triadic 作業的第三個色彩運算元的設定 (乘、加入和線性插補) （由 [D3DTA](d3dta.md)所識別）。 如果 \_ 有 D3DTEXOPCAPS MULTIPLYADD 或 D3DTEXOPCAPS LERP 裝置功能，則支援此設定 \_ 。 預設引數為 D3DTA \_ CURRENT。 指定 D3DTA \_ TEMP 以選取用於讀取或寫入的臨時暫存器色彩。 \_如果 \_ 有 D3DPMISCCAPS TSSARGTEMP 裝置功能，則支援 D3DTA TEMP。 註冊的預設值是 (0.0、0.0、0.0、0.0) 。
+Triadic 作業的第三個色彩運算元設定 (乘、加入和線性插補) （由[D3DTA](d3dta.md)所識別）。 如果 \_ 有 D3DTEXOPCAPS MULTIPLYADD 或 D3DTEXOPCAPS LERP 裝置功能，則支援此設定 \_ 。 預設引數為 D3DTA \_ CURRENT。 指定 D3DTA \_ TEMP 以選取用於讀取或寫入的臨時暫存器色彩。 \_如果 \_ 有 D3DPMISCCAPS TSSARGTEMP 裝置功能，則支援 D3DTA TEMP。 註冊的預設值是 (0.0、0.0、0.0、0.0) 。
 
 </dd> <dt>
 
 <span id="D3DTSS_ALPHAARG0"></span><span id="d3dtss_alphaarg0"></span>**D3DTSS \_ ALPHAARG0**
 </dt> <dd>
 
-Triadic 作業之 Alpha 通道選取器運算元的設定 (乘以、加入和線性插補) ，由 [D3DTA](d3dta.md)所識別。 如果 \_ 有 D3DTEXOPCAPS MULTIPLYADD 或 D3DTEXOPCAPS LERP 裝置功能，則支援此設定 \_ 。 預設引數為 D3DTA \_ CURRENT。 指定 D3DTA \_ TEMP 以選取用於讀取或寫入的臨時暫存器色彩。 \_如果 \_ 有 D3DPMISCCAPS TSSARGTEMP 裝置功能，則支援 D3DTA TEMP。 預設引數是 (0.0、0.0、0.0、0.0) 。
+Triadic 作業的 Alpha 通道選取器運算元設定 (乘、加入和線性插補) （由[D3DTA](d3dta.md)所識別）。 如果 \_ 有 D3DTEXOPCAPS MULTIPLYADD 或 D3DTEXOPCAPS LERP 裝置功能，則支援此設定 \_ 。 預設引數為 D3DTA \_ CURRENT。 指定 D3DTA \_ TEMP 以選取用於讀取或寫入的臨時暫存器色彩。 \_如果 \_ 有 D3DPMISCCAPS TSSARGTEMP 裝置功能，則支援 D3DTA TEMP。 預設引數是 (0.0、0.0、0.0、0.0) 。
 
 </dd> <dt>
 

@@ -4,12 +4,12 @@ description: 針對多重連接連線中的第一個連結，驗證服務會 \_ 
 ms.assetid: a6aee73b-43b2-43b4-a6f1-ac7b293c44ad
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: af39ebfa54469e2f44c44c800cebbfb176b33cad
-ms.sourcegitcommit: c20a43b333f03175ac23823c55f3204bfe8cd243
+ms.openlocfilehash: dfc7493550863a755a87668c96dbe0ce600d524a111b7e7300b97c307f4d30c5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "106966433"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119852318"
 ---
 # <a name="multilink-and-callback-connections"></a>多重連結和回呼連接
 
@@ -21,9 +21,9 @@ ms.locfileid: "106966433"
 
 驗證通訊協定可能會使用 [互動式使用者介面](interactive-user-interface.md) 來收集多重連結連接的特定連結資料。 在此情況下，驗證服務會在後續連結期間，將產生的資料提供給驗證通訊協定。 不過，這項資料永遠不會儲存在持續性儲存體中。
 
- 
+ 
 
- 
+ 
 
 
 

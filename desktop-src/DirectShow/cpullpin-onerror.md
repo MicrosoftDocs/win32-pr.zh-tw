@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 2dc8bf7f307ab56609b5f90f6955a1f666854270
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3b0d9873e2d327c424b2cd1ffda7112676f53399a63d2a9ca92dca1f50a02f62
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106999379"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119908878"
 ---
 # <a name="cpullpinonerror-method"></a>CPullPin 的 OnError 方法
 
@@ -55,7 +55,7 @@ virtual void OnError(
 
 ## <a name="remarks"></a>備註
 
-每當發生會中止資料提取執行緒的錯誤時，物件就會呼叫這個方法。 篩選可以使用這個方法，以正常方式從資料流程錯誤中復原。 在大部分的情況下，會從上游篩選傳回錯誤，因此上游篩選器會負責向篩選圖形管理員報告該錯誤。 如果錯誤發生在 [**CPullPin：： Receive**](cpullpin-receive.md) 方法內，您的篩選器應該會傳送 [**EC \_ ERRORABORT**](ec-errorabort.md) 事件。  (參閱 [**IMediaEventSink：： Notify**](/windows/desktop/api/Strmif/nf-strmif-imediaeventsink-notify)。 ) 
+每當發生會中止資料提取執行緒的錯誤時，物件就會呼叫這個方法。 篩選可以使用這個方法，以正常方式從資料流程錯誤中復原。 在大多數情況下，錯誤是從上游篩選傳回，因此上游篩選器會負責將它報告給篩選 Graph 管理員。 如果錯誤發生在 [**CPullPin：： Receive**](cpullpin-receive.md) 方法內，您的篩選器應該會傳送 [**EC \_ ERRORABORT**](ec-errorabort.md) 事件。  (參閱 [**IMediaEventSink：： Notify**](/windows/desktop/api/Strmif/nf-strmif-imediaeventsink-notify)。 ) 
 
 ## <a name="requirements"></a>規格需求
 

@@ -4,12 +4,12 @@ description: 您可以透過控制項初始字串中的標記來執行 SysLink �
 ms.assetid: CEE02A87-D85A-4F4D-931D-2B1371320814
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 77aa5c5ff3348f35f9c67cb34bea0cc495d403ef
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 1b2b50e364a2701d52aa0ed62222b0901a66b6c4073891b7f9348fffc8997fdc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103683196"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119878508"
 ---
 # <a name="how-to-create-syslink-controls"></a>如何建立 SysLink 控制項
 
@@ -18,7 +18,7 @@ ms.locfileid: "103683196"
 > [!Note]  
 > 建立 SysLink 控制項之前，您必須先呼叫 [**InitCommonControlsEx**](/windows/desktop/api/Commctrl/nf-commctrl-initcommoncontrolsex) 函式，並指定 ICC \_ 連結 \_ 類別。
 
- 
+ 
 
 若要建立 SysLink，請呼叫 [**CreateWindow**](/windows/desktop/api/winuser/nf-winuser-createwindowa) 或 [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) 函數，並指定 [**WC \_ 連結**](common-control-window-classes.md) 視窗類別。 這些函式通用的 *lpWindowName* 參數會指定以零結尾的字串指標，其中包含要顯示的已標記文字。 針對 SysLink 控制項的特定視窗樣式，請參閱 [SysLink 控制項樣式](syslink-control-styles.md)。
 
@@ -26,12 +26,12 @@ ms.locfileid: "103683196"
 
 ### <a name="technologies"></a>技術
 
--   [Windows 控制項](window-controls.md)
+-   [Windows控制](window-controls.md)
 
 ### <a name="prerequisites"></a>必要條件
 
 -   C/C++
--   Windows 消費者介面程式設計
+-   Windows消費者介面程式設計
 
 ## <a name="instructions"></a>指示
 
@@ -72,6 +72,6 @@ HWND CreateSysLink(HWND hDlg, HINSTANCE hInst, RECT rect)
 [Windows 通用控制項示範 (CppWindowsCommonControls) ](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

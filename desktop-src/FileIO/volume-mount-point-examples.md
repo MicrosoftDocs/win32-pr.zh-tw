@@ -4,12 +4,12 @@ ms.assetid: 82fb6f67-f71b-40ae-9f58-5ba0bd18785e
 title: 裝載的資料夾範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aceddc14f8c0f61d57eea03622cdbc1d25b42ddd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 04f6aca0790596fbb4634989de2384c1308e149687d08b34d4d40912b9ec72b8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106987221"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119981758"
 ---
 # <a name="mounted-folder-examples"></a>裝載的資料夾範例
 

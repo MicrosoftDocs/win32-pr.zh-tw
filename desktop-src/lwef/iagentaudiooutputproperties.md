@@ -21,7 +21,7 @@ IAgentAudioOutputProperties 可讓您存取 Microsoft 代理程式伺服器所�
 
 
 
-| IAgentAudioOutputProperties 方法                                               | Description                                     |
+| IAgentAudioOutputProperties 方法                                               | 描述                                     |
 |-----------------------------------------------------------------------------------|-------------------------------------------------|
 | [**GetEnabled**](iagentaudiooutputproperties--getenabled.md)                     | 傳回是否啟用音訊輸出。        |
 | [**GetUsingSoundEffects**](iagentaudiooutputproperties--getusingsoundeffects.md) | 傳回是否啟用音效效果輸出。 |

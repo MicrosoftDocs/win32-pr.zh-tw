@@ -16,17 +16,17 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b60cedaa4ef84cb9f3ea31cd619d7335cc09324e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9b4bcfbc5fcf128f3ef71250180b487c83ce3c0d5430a563dfa3b7069e4235e1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104094019"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119858038"
 ---
 # <a name="id3dx11threadpump-interface"></a>ID3DX11ThreadPump 介面
 
 > [!Note]  
-> D3DX (D3DX 9、D3DX 10 和 D3DX 11) 公用程式庫已針對 Windows 8 淘汰，而且不支援 Windows Store 應用程式。
+> D3DX (D3DX 9、D3DX 10 和 D3DX 11) 公用程式庫已針對 Windows 8 淘汰，不支援 Windows Store 應用程式。
 
  
 
@@ -60,7 +60,7 @@ ms.locfileid: "104094019"
 <td style="text-align: left;"><a href="id3dx11threadpump-addworkitem.md"><strong>Azuretasks</strong></a></td>
 <td style="text-align: left;"><blockquote>
 [!Note]<br />
-D3DX (D3DX 9、D3DX 10 和 D3DX 11) 公用程式庫已針對 Windows 8 淘汰，而且不支援 Windows Store 應用程式。
+D3DX (D3DX 9、D3DX 10 和 D3DX 11) 公用程式庫已針對 Windows 8 淘汰，不支援 Windows Store 應用程式。
 </blockquote>
 <br/> 將工作專案加入至執行緒抽取。<br/></td>
 </tr>
@@ -68,7 +68,7 @@ D3DX (D3DX 9、D3DX 10 和 D3DX 11) 公用程式庫已針對 Windows 8 淘汰，
 <td style="text-align: left;"><a href="id3dx11threadpump-getqueuestatus.md"><strong>GetQueueStatus</strong></a></td>
 <td style="text-align: left;"><blockquote>
 [!Note]<br />
-D3DX (D3DX 9、D3DX 10 和 D3DX 11) 公用程式庫已針對 Windows 8 淘汰，而且不支援 Windows Store 應用程式。
+D3DX (D3DX 9、D3DX 10 和 D3DX 11) 公用程式庫已針對 Windows 8 淘汰，不支援 Windows Store 應用程式。
 </blockquote>
 <br/> 取得執行緒抽取內三個佇列中的專案數。<br/></td>
 </tr>
@@ -76,7 +76,7 @@ D3DX (D3DX 9、D3DX 10 和 D3DX 11) 公用程式庫已針對 Windows 8 淘汰，
 <td style="text-align: left;"><a href="id3dx11threadpump-getworkitemcount.md"><strong>GetWorkItemCount</strong></a></td>
 <td style="text-align: left;"><blockquote>
 [!Note]<br />
-D3DX (D3DX 9、D3DX 10 和 D3DX 11) 公用程式庫已針對 Windows 8 淘汰，而且不支援 Windows Store 應用程式。
+D3DX (D3DX 9、D3DX 10 和 D3DX 11) 公用程式庫已針對 Windows 8 淘汰，不支援 Windows Store 應用程式。
 </blockquote>
 <br/> 取得執行緒抽取中的工作專案數。<br/></td>
 </tr>
@@ -84,7 +84,7 @@ D3DX (D3DX 9、D3DX 10 和 D3DX 11) 公用程式庫已針對 Windows 8 淘汰，
 <td style="text-align: left;"><a href="id3dx11threadpump-processdeviceworkitems.md"><strong>ProcessDeviceWorkItems</strong></a></td>
 <td style="text-align: left;"><blockquote>
 [!Note]<br />
-D3DX (D3DX 9、D3DX 10 和 D3DX 11) 公用程式庫已針對 Windows 8 淘汰，而且不支援 Windows Store 應用程式。
+D3DX (D3DX 9、D3DX 10 和 D3DX 11) 公用程式庫已針對 Windows 8 淘汰，不支援 Windows Store 應用程式。
 </blockquote>
 <br/> 在裝置完成載入和處理之後，將工作專案設定為裝置。<br/></td>
 </tr>
@@ -92,7 +92,7 @@ D3DX (D3DX 9、D3DX 10 和 D3DX 11) 公用程式庫已針對 Windows 8 淘汰，
 <td style="text-align: left;"><a href="id3dx11threadpump-purgeallitems.md"><strong>PurgeAllItems</strong></a></td>
 <td style="text-align: left;"><blockquote>
 [!Note]<br />
-D3DX (D3DX 9、D3DX 10 和 D3DX 11) 公用程式庫已針對 Windows 8 淘汰，而且不支援 Windows Store 應用程式。
+D3DX (D3DX 9、D3DX 10 和 D3DX 11) 公用程式庫已針對 Windows 8 淘汰，不支援 Windows Store 應用程式。
 </blockquote>
 <br/> 清除執行緒抽取中的所有工作專案。<br/></td>
 </tr>
@@ -100,7 +100,7 @@ D3DX (D3DX 9、D3DX 10 和 D3DX 11) 公用程式庫已針對 Windows 8 淘汰，
 <td style="text-align: left;"><a href="id3dx11threadpump-waitforallitems.md"><strong>WaitForAllItems</strong></a></td>
 <td style="text-align: left;"><blockquote>
 [!Note]<br />
-D3DX (D3DX 9、D3DX 10 和 D3DX 11) 公用程式庫已針對 Windows 8 淘汰，而且不支援 Windows Store 應用程式。
+D3DX (D3DX 9、D3DX 10 和 D3DX 11) 公用程式庫已針對 Windows 8 淘汰，不支援 Windows Store 應用程式。
 </blockquote>
 <br/> 等候執行緒抽取中的所有工作專案完成。<br/></td>
 </tr>
@@ -131,8 +131,8 @@ D3DX (D3DX 9、D3DX 10 和 D3DX 11) 公用程式庫已針對 Windows 8 淘汰，
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/>                                 |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                              |
+| 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/>                                 |
 | 標頭<br/>                   | <dl> <dt>D3DX11core。h</dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>D3DX11 .lib</dt> </dl>   |
 

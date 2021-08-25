@@ -4,12 +4,12 @@ ms.assetid: vs|directx_sdk|~\effectinstance.htm
 title: EffectInstance
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: be5eb81824372808c93ebd3d979b04d7cea54006
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 3c2db15886dc940fc22c31442d7877270e1c4f5f3ece5c2626034948360e3fc8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106973532"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119894038"
 ---
 # <a name="effectinstance"></a>EffectInstance
 

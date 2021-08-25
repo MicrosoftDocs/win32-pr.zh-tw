@@ -4,12 +4,12 @@ description: 網路管理 ApiBuffer 函式可用來管理具有網路管理功�
 ms.assetid: bf2fe8aa-dda6-4f6b-9c52-d7a96b96da18
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b316c6b2ee2d4095c15d5e859dd0069978c7ff91
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: a4b0778c216860fe16a673e1bdcc2ac470cbb52a128f0e08d4d32d98df929bc7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106967682"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119912477"
 ---
 # <a name="apibuffer-functions"></a>ApiBuffer 函式
 
@@ -28,10 +28,10 @@ ApiBuffer 函數如下所示。
 
 
 
- 
+ 
 
 針對將資訊傳回給呼叫端的可遠端函式，RPC 執行時間程式庫會配置包含傳回信息的緩衝區。 當呼叫端處理完資訊之後，它必須呼叫 [**NetApiBufferFree**](/windows/desktop/api/Lmapibuf/nf-lmapibuf-netapibufferfree) 函式來釋放已配置的緩衝區。
 
- 
+ 
 
- 
+ 

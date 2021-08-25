@@ -4,12 +4,12 @@ ms.assetid: fff01044-5749-42a5-b026-5b22671870bd
 title: 列舉類型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bc582a7f96d8fc91aad66387f579f05f9255346f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 56c5df6b0f76cc789c148e841827a75e7184aca2892d7d6e2233843e26aac80f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943889"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119869318"
 ---
 # <a name="enum-type"></a>列舉類型
 

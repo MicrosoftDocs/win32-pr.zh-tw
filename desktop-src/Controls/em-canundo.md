@@ -3,7 +3,7 @@ title: 'EM_CANUNDO 訊息 (Winuser .h) '
 description: 判斷是否在編輯控制項的復原佇列中有任何動作。 您可以將此訊息傳送至編輯控制項或 rich edit 控制項。
 ms.assetid: ae7ff372-b1f8-4ab7-9a7e-450aed3e0bc5
 keywords:
-- EM_CANUNDO message Windows 控制項
+- EM_CANUNDO 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 345367b25790051a444363bb9bbc02af3d6fb0fd
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7b1cb56b07232c6b55a85b7387cf7b2fafd40ac29e5dc0520b45e1aa50cadcb6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104502"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119915988"
 ---
 # <a name="em_canundo-message"></a>EM \_ CANUNDO 訊息
 
@@ -65,9 +65,9 @@ ms.locfileid: "104104502"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                     |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 

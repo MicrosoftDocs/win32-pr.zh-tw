@@ -1,20 +1,20 @@
 ---
-title: 使用 Windows Media Format SDK 開始使用
-description: 使用這些資源來取得 Windows Media Format SDK 的開始，例如程式庫檔案和編譯器設定。
+title: 使用 Windows 媒體格式 SDK 開始使用
+description: 使用這些資源來取得 Windows 媒體格式 SDK 的開始，例如程式庫檔案和編譯器設定。
 ms.assetid: e6f560a6-e677-47dc-b99c-e14bd60e4007
 keywords:
-- Windows Media Format SDK，使用者入門
-- Windows Media Format SDK，關於
+- Windows媒體格式 SDK，使用者入門
+- Windows媒體格式 SDK，關於
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f6022ead1dfa3e7efcab09e771c5b4fdffe601d9
-ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
+ms.openlocfilehash: cc7fa5a37aacbf0f0cf9d0f1854ee04d3220bd56263d42960574e7c7a2506eef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "112068244"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119930348"
 ---
-# <a name="getting-started-with-windows-media-format-sdk"></a>使用 Windows Media Format SDK 開始使用
+# <a name="getting-started-with-windows-media-format-sdk"></a>使用 Windows 媒體格式 SDK 開始使用
 
 下列各節列出使用此 SDK 開發應用程式之前應考慮的設定和問題。
 

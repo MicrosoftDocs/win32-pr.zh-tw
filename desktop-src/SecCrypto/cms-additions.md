@@ -4,12 +4,12 @@ ms.assetid: 4396d3e2-8e41-4864-a12a-a598fab82840
 title: CMS 新增
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1dcd8470cabb237e128e313fcafedab2dd819da0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fce7c54867c1ee2a603e37751bf43a0abc65cee670c4a1fc994c9ace3f3404bb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106981499"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119876958"
 ---
 # <a name="cms-additions"></a>CMS 新增
 

@@ -6,12 +6,12 @@ keywords:
 - RAS 管理 RRAS，DLL 登錄設定
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8b9a7b7c48422264a890a74b1bab36e61672f11d
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 8dbabc7a667455bce2cffbd3d04591076f820efa755c0f512f27130a82fde4f1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112406661"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119909908"
 ---
 # <a name="about-ras-administration-dll-registry-setup"></a>關於 RAS 管理 DLL 登錄設定
 

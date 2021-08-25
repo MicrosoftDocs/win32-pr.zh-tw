@@ -4,12 +4,12 @@ ms.assetid: dd7480b4-8218-4716-ab9f-74a9955b8aa7
 title: 'DXGI_STATUS (DXGI. h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b39c402880ccdcbda009402d56127e70a61543d0
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 2151c2c209feb630dfe445af2f5afc9d20048c08872fc73f9f5388abc5abb4b2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106993876"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119951228"
 ---
 # <a name="dxgi_status"></a>DXGI \_ 狀態
 
@@ -17,7 +17,7 @@ ms.locfileid: "106993876"
 
 
 
-| 常數/值                                                                                                                                                                                                                                                                                      | Description                                                                                                                                                                                                                                                                                              |
+| 常數/值                                                                                                                                                                                                                                                                                      | 描述                                                                                                                                                                                                                                                                                              |
 |:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="DXGI_STATUS_OCCLUDED"></span><span id="dxgi_status_occluded"></span><dl> <dt>**DXGI \_狀態 \_ pixels occluded**</dt> <dt>0x087A0001</dt> </dl>                                                 | 視窗內容是不可見的。 收到此狀態時，應用程式可能會停止轉譯，並使用 DXGI \_ 目前的 \_ 測試來判斷何時要繼續轉譯。 \_ \_ 如果您要使用翻轉模型交換鏈，您將不會收到 DXGI 狀態 pixels occluded。<br/>                                                                                                                           |
 | <span id="DXGI_STATUS_MODE_CHANGED"></span><span id="dxgi_status_mode_changed"></span><dl> <dt>**DXGI \_狀態 \_ 模式 \_ 已變更**</dt> <dt>0x087A0007</dt> </dl>                                    | 桌面顯示模式已變更，可能有色彩轉換/延展。 應用程式應該呼叫 [**IDXGISwapChain：： ResizeBuffers**](/windows/desktop/api/DXGI/nf-dxgi-idxgiswapchain-resizebuffers) ，以符合新的顯示模式。<br/>                                                                       |

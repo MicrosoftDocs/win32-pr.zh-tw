@@ -3,7 +3,7 @@ title: 'TVM_SETHOT 訊息 (Commctrl .h) '
 description: 設定樹狀檢視控制項的熱專案。 您可以使用 TreeView SetHot 宏明確地傳送此訊息 \_ 。
 ms.assetid: 5e7368f5-40ce-4e7b-bbe3-5fe0b17181a8
 keywords:
-- TVM_SETHOT message Windows 控制項
+- TVM_SETHOT 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: beccd5429267350682a6721cde66cca9316cf438
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 87ca61fd0bd3e25f37229cd5cee54f9bbb59b3a5c7556ae745821a8dc4d595d6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934944"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119913948"
 ---
 # <a name="tvm_sethot-message"></a>TVM \_ SETHOT 訊息
 
@@ -69,8 +69,8 @@ ms.locfileid: "103934944"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

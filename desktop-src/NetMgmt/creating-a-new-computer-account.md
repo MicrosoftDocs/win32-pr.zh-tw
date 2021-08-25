@@ -4,12 +4,12 @@ description: 下列程式碼範例示範如何使用 NetUserAdd 函數建立新�
 ms.assetid: 1e180b8e-b948-4836-b789-cb9dff0829e8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cfd02a9d2053310c50e40957e6afee6e3a4a5ab1
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 6d9b54b3e3b157bfed33b3f2429024e005b9b859bba563c0173b2ca02ab5f499
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106965238"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119912298"
 ---
 # <a name="creating-a-new-computer-account"></a>建立新的電腦帳戶
 
@@ -146,6 +146,6 @@ BOOL AddMachineAccount(
 
 您可以在目的電腦上授與 SeMachineAccountPrivilege，讓指定的使用者能夠建立電腦帳戶。 這讓非系統管理員能夠建立電腦帳戶。 呼叫端必須先啟用此許可權，才能新增電腦帳戶。 如需帳戶許可權的詳細資訊，請參閱 [許可權](/windows/desktop/SecAuthZ/privileges) 和 [授權常數](/windows/desktop/SecAuthZ/authorization-constants)。
 
- 
+ 
 
- 
+ 

@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - dvdevcode.h
-ms.openlocfilehash: fb83bc1de9c2933b53935c056b192eca74c4245c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e4edbdb337c4b57a7ed09bd63a8ed4fb0d1946b289b369badab64b561000d3e7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995256"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119928568"
 ---
 # <a name="ec_dvd_karaoke_mode"></a>EC \_ DVD \_ 卡拉卡拉 \_ 模式
 

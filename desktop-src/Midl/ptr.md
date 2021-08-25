@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b2d8b2ee2e3ea4daccd1c4fa37ff1c1f1899dd3c
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 53e9b85be5e9073a272dafd63a2a01ba64f440f90cc5d9c41f44260f235f9ab5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104314800"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119927418"
 ---
 # <a name="ptr-attribute"></a>ptr 屬性
 
@@ -112,7 +112,7 @@ typedef [ struct | union ]
 
 ## <a name="remarks"></a>備註
 
-**\[ Ptr \]** 屬性指定的完整指標會使用 C 語言指標的完整功能。 完整指標的值可以是 **null** ，而且可以在呼叫期間從 **null** 變更為非 **Null**。 具有完整指標的儲存區可由應用程式中的其他名稱所指向，以支援別名和迴圈。 這項功能在遠端程序呼叫中需要更多的額外負荷來識別指標所參考的資料、判斷值是否為 **Null**，以及探索兩個指標是否指向相同的資料。
+**\[ Ptr \]** 屬性指定的完整指標會使用 C 語言指標的完整功能。 完整指標的值可以是 **null** ，而且可以在呼叫期間從 **null** 變更為非 **Null**。 在支援別名和迴圈的應用程式中，其他名稱可以觸達完整指標所指的儲存體。 這項功能在遠端程序呼叫中需要更多的額外負荷來識別指標所參考的資料、判斷值是否為 **Null**，以及探索兩個指標是否指向相同的資料。
 
 使用的完整指標：
 
@@ -244,6 +244,6 @@ typedef [ptr, string] unsigned char * MY_STRING_TYPE;
 [**獨特**](unique.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

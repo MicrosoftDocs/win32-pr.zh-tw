@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0a3b25dffe69471f47eaf20124af48141835540f
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 9355a16196d386d4ec3f2a98588eced2981f8e62a3df96a9c0d094551a10a733
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104373401"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119930438"
 ---
 # <a name="wmgenreid"></a>WM/GenreID
 
@@ -47,7 +47,7 @@ g \_ wszWMGenreID
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>另請參閱
 
@@ -56,9 +56,9 @@ g \_ wszWMGenreID
 [**屬性清單**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

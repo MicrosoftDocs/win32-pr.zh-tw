@@ -7,12 +7,12 @@ keywords:
 - capFileSaveAs 宏
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ce1966b8cf1e189038e9ee427a868b84a1fb1b50
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f552f6f2f94ed1a7c7f7f8cae20b20c6fa4b5aa27e8105ab3f5dc33e60b7aff8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103673167"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119892908"
 ---
 # <a name="saving-captured-data-to-a-new-file"></a>將已捕捉的資料儲存至新檔案
 
@@ -20,9 +20,9 @@ ms.locfileid: "103673167"
 
 一般情況下，會針對預期的最大 capture 區段預先配置 capture 檔案，而且只會使用其中一部分來捕捉資料。 此訊息只會複製包含 capture 資料之 capture 檔案的部分。
 
- 
+ 
 
- 
+ 
 
 
 

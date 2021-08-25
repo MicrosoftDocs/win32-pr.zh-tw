@@ -24,16 +24,16 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 611f92e21dad83121b4e4a6226838ac9ebce2d7b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d0453bae6f966ee358d9c62e360cb3184153dd7fe20ce586f707ae4ce55f6961
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191241"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119840798"
 ---
 # <a name="apijetgetls-method"></a>JetGetLS 方法
 
-讓應用程式取出與資料指標相關聯的內容控制碼，或與該資料指標相關聯的資料表。 先前必須使用 [JetSetLS (JET_SESID、JET_TABLEID、JET_LS、LsGrbit) ](./api.jetsetls-method.md)設定此內容控制碼。 JetGetLS 也可以用來同時提取資料指標或資料表的目前內容控制碼，並重設該內容控制碼。
+讓應用程式抓取與資料指標或與該資料指標相關聯之資料表相關聯的內容控制碼，稱為本機儲存體。 先前必須使用 [JetSetLS (JET_SESID、JET_TABLEID、JET_LS、LsGrbit) ](./api.jetsetls-method.md)設定此內容控制碼。 JetGetLS 也可以用來同時提取資料指標或資料表的目前內容控制碼，並重設該內容控制碼。
 
 **命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)  
 **元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。

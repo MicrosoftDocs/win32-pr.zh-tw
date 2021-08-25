@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Capicom.h
-ms.openlocfilehash: 3cbde0e8a64fa931ce50d2277d33b5fd5c27ee68
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 70185a7a48b7dc195727991fb0dcc35f4909451fa0e4da5f4100e8385adebc2e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994704"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119879368"
 ---
 # <a name="capicom_certificates_save_as_type-enumeration"></a>\_將 CAPICOM 憑證 \_ 另存 \_ 為 \_ 類型列舉
 

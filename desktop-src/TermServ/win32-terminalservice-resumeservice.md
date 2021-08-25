@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 94f8e7dcfc9b9bd5b408e36d8a909aa10c84519c
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: b2886e011bddd4aa45a8d0fcf3041e54d93487a3d4835cd85dcd1f5fb3de3955
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108090586"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119867858"
 ---
 # <a name="resumeservice-method-of-the-win32_service-class-remote-desktop-services"></a>Win32_Service 類別的 ResumeService 方法 (遠端桌面服務) 
 

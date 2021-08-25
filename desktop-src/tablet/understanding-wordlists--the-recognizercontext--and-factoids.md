@@ -4,12 +4,12 @@ ms.assetid: 805788ec-1672-462a-b188-c680f56c2641
 title: 瞭解單字清單、辨識器內容和 Factoids
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d27f15d64f353b8702695b0067f13857427fc34e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e60fbfc7a3a3099a1146307637d20e777cca416789a61f5dd034f9d86911f1a4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193328"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119842808"
 ---
 # <a name="understanding-word-lists-recognizer-context-and-factoids"></a>瞭解單字清單、辨識器內容和 Factoids
 

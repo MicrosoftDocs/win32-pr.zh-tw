@@ -14,12 +14,12 @@ api_type:
 api_location:
 - PortableDeviceGUIDs.lib
 - PortableDeviceGUIDs.dll
-ms.openlocfilehash: 0c1ade76b4242c7508cb325e90c567349afcdc9d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: be1f6673e4cdc5d1454c05e0df3ff43490e30e661f2b21324cf104d926f4b306
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106992874"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119930028"
 ---
 # <a name="iportabledevicevaluessetunsignedlargeintegervalue-method"></a>IPortableDeviceValues：： SetUnsignedLargeIntegerValue 方法
 
@@ -61,7 +61,7 @@ HRESULT SetUnsignedLargeIntegerValue(
 
 
 
-| 傳回碼                                                                          | Description                      |
+| 傳回碼                                                                          | 描述                      |
 |--------------------------------------------------------------------------------------|----------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl> | 此方法已成功。<br/> |
 

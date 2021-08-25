@@ -1,25 +1,25 @@
 ---
-title: Microsoft Windows Media DRM 用戶端介面
-description: Microsoft Windows Media DRM 用戶端介面
+title: Microsoft Windows 媒體 DRM 用戶端介面
+description: Microsoft Windows 媒體 DRM 用戶端介面
 ms.assetid: 27bbc33f-8102-4db2-bbc6-1a1da92bac80
 keywords:
-- Windows Media Format SDK，介面
+- Windows媒體格式 SDK，介面
 - 數位版權管理 (DRM) ，介面
 - DRM (數位版權管理) ，介面
 - DRM 用戶端擴充 Api，介面
 - 用戶端擴充 Api，介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7b4e259ef5b8ef410db072a7f942d139f682bc90
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 972224decdad339876e4f72c40cad5b3ba28de98446ff358fd36cb7f86bee0af
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104383581"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119931098"
 ---
-# <a name="microsoft-windows-media-drm-client-interfaces"></a>Microsoft Windows Media DRM 用戶端介面
+# <a name="microsoft-windows-media-drm-client-interfaces"></a>Microsoft Windows 媒體 DRM 用戶端介面
 
-下表說明 Windows Media DRM 用戶端 Api 所支援的介面。
+下表說明 Windows 媒體 DRM 用戶端 api 所支援的介面。
 
 
 
@@ -36,10 +36,10 @@ ms.locfileid: "104383581"
 | [**IWMDRMLicenseManagement**](iwmdrmlicensemanagement.md)                   | 啟用本機授權存放的管理作業。                                                      |
 | [**IWMDRMLicenseManagement**](iwmdrmlicensemanagement.md)                   | 提供本機授權存放區的其他管理選項。                                             |
 | [**IWMDRMLicenseQuery**](iwmdrmlicensequery.md)                             | 可讓應用程式查詢受保護檔案的許可權和授權狀態。                                |
-| [**IWMDRMNetReceiver**](iwmdrmnetreceiver.md)                               | 提供所需的方法來建立網路裝置接收者應用程式的 Microsoft Windows Media DRM。          |
-| [**IWMDRMNetTransmitter**](iwmdrmnettransmitter.md)                         | 提供所需的方法，為網路裝置發送器應用程式建立 Microsoft Windows Media DRM。       |
+| [**IWMDRMNetReceiver**](iwmdrmnetreceiver.md)                               | 提供所需的方法，為網路裝置接收者應用程式建立 Microsoft Windows 媒體 DRM。          |
+| [**IWMDRMNetTransmitter**](iwmdrmnettransmitter.md)                         | 提供所需的方法，為網路裝置發送器應用程式建立 Microsoft Windows 媒體 DRM。       |
 | [**IWMDRMNonSilentLicenseAquisition**](iwmdrmnonsilentlicenseaquisition.md) | 提供可讓使用者介入取得授權的方法。                                        |
-| [**IWMDRMProvider**](iwmdrmprovider.md)                                     | 建立 Microsoft Windows Media DRM 用戶端擴充 Api 的其他物件。                              |
+| [**IWMDRMProvider**](iwmdrmprovider.md)                                     | 建立 Microsoft Windows 媒體 DRM 用戶端擴充 api 的其他物件。                              |
 | [**IWMDRMSecurity**](iwmdrmsecurity.md)                                     | 管理用戶端電腦和 DRM 子系統的各種安全性相關處理常式。                           |
 | [**IWMDRMSecurity**](iwmdrmsecurity.md)                                     | 管理元件撤銷和更新。                                                                       |
 | [**IWMSecureBuffer**](iwmsecurebuffer.md)                                   | 啟用緩衝區的加密和解密。                                                                   |

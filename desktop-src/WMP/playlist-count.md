@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ed1b42dcb58cb644fe551d1421cde2c3f88d32f2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a699557cec48ec57172614c0ef7916f3a42520491f2a65bd8eb39b807af4feb2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994078"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119862328"
 ---
 # <a name="playlistcount"></a>播放清單。計數
 

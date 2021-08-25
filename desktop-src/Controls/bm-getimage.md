@@ -3,7 +3,7 @@ title: 'BM_GETIMAGE 訊息 (Winuser .h) '
 description: 抓取影像的控制碼 (圖示或點陣圖) 與按鈕相關聯。
 ms.assetid: 766ea1b0-418d-41b8-b31d-0fcc58e03893
 keywords:
-- BM_GETIMAGE message Windows 控制項
+- BM_GETIMAGE 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9319f5310b40ff76a011e1a06b2be1d41be611f5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4b98ede304499aa97d9129957aa69a0991dee98565ff7827cdad4d0c1a82f19b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104317364"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119921258"
 ---
 # <a name="bm_getimage-message"></a>BM \_ GETIMAGE 訊息
 
@@ -64,9 +64,9 @@ ms.locfileid: "104317364"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                     |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 

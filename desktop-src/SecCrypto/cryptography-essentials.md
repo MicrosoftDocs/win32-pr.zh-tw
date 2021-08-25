@@ -4,12 +4,12 @@ ms.assetid: 8ba85b5e-c80a-4781-a021-ac911b4fc7ca
 title: 密碼編譯基本概念
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7f9fb502e741014da4813baadae0427db3da2b39
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6bbabd9661513674ed375c57bbcb1c64c3e501f1a269e08bc4baebafb2cf44b0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112680"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119876118"
 ---
 # <a name="cryptography-essentials"></a>密碼編譯基本概念
 

@@ -4,22 +4,22 @@ ms.assetid: 4b3a9023-0267-4caa-9d89-88237009df05
 title: CBasePin 連接進程
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1441b0daba58857e00da0139d3312fb277287fc2
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 6134c9094e00ea43c5e4bb9f92c9132287fab3c16f98d56497affc8c1015bd6a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103935799"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119916781"
 ---
 # <a name="cbasepin-connection-process"></a>CBasePin 連接進程
 
 本節說明 [**CBasePin**](cbasepin.md) 類別如何執行 pin 連接程式。
 
-篩選圖形管理員會起始所有的釘選連接。 它會呼叫輸出釘選的 [**IPin：： Connect**](/windows/desktop/api/Strmif/nf-strmif-ipin-connect) 方法，並指定輸入的 pin。 輸出 pin 會藉由呼叫輸入釘選的 [**IPin：： ReceiveConnection**](/windows/desktop/api/Strmif/nf-strmif-ipin-receiveconnection) 方法來完成連接。 輸入 pin 可以接受或拒絕連接。
+篩選 Graph 管理員會起始所有的釘選連接。 它會呼叫輸出釘選的 [**IPin：：連線**](/windows/desktop/api/Strmif/nf-strmif-ipin-connect)方法，並指定輸入的 pin。 輸出 pin 會藉由呼叫輸入釘選的 [**IPin：： ReceiveConnection**](/windows/desktop/api/Strmif/nf-strmif-ipin-receiveconnection) 方法來完成連接。 輸入 pin 可以接受或拒絕連接。
 
-篩選圖形管理員也可以指定連接的媒體類型。 如果是，則會嘗試使用該類型連接。 如果沒有，則 pin 必須協商型別。 篩選圖形管理員也可以指定 *部分* 媒體類型，此類型的 \_ 主要類型、子類型或格式類型的值為 GUID Null。 在這種情況下，pin 會嘗試比對媒體類型的任何部分（若已指定）;值 GUID \_ Null 可作為萬用字元。
+篩選 Graph 管理員也可以指定連接的媒體類型。 如果是，則會嘗試使用該類型連接。 如果沒有，則 pin 必須協商型別。 篩選 Graph 管理員也可以指定 *部分* 媒體類型，此類型的 \_ 主要類型、子類型或格式類型的值為 GUID Null。 在這種情況下，pin 會嘗試比對媒體類型的任何部分（若已指定）;值 GUID \_ Null 可作為萬用字元。
 
-[**CBasePin：： Connect**](cbasepin-connect.md)方法一開始先確認 pin 可以接受連接。 例如，它會檢查 pin 是否尚未連接。 它會將連接進程的其餘部分委派給 [**CBasePin：： AgreeMediaType**](cbasepin-agreemediatype.md) 方法。 接下來的所有專案都是由 **AgreeMediaType** 執行。
+[**CBasePin：：連線**](cbasepin-connect.md)方法一開始會先確認 pin 可以接受連接。 例如，它會檢查 pin 是否尚未連接。 它會將連接進程的其餘部分委派給 [**CBasePin：： AgreeMediaType**](cbasepin-agreemediatype.md) 方法。 接下來的所有專案都是由 **AgreeMediaType** 執行。
 
 如果媒體類型是完全指定的，則 pin 會呼叫 [**CBasePin：： AttemptConnection**](cbasepin-attemptconnection.md) 方法來嘗試連接。 否則，它會依下列順序嘗試媒體類型：
 

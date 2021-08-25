@@ -9,19 +9,19 @@ keywords:
 - DownloadCollection
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8b8275cbd2661bdce9c428800206c14b9c55942c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 565ddce120d71ab9825c424fefb6f0e3ace9a6ac349e87e044e9c74e6da28789
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106964979"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119902018"
 ---
 # <a name="downloadcollection-object"></a>DownloadCollection 物件
 
 > [!Note]  
 > 本章節描述專為線上商店使用而設計的功能。 不支援在線上商店的內容之外使用這項功能。
 
- 
+ 
 
 **DownloadCollection** 物件包含用來處理下載專案集合的屬性和方法。 它可供在完整模式中裝載的網頁使用 Windows Media Player 而且可以存取 **外部** 物件，例如線上存放區。
 
@@ -36,7 +36,7 @@ ms.locfileid: "106964979"
 
 
 
- 
+ 
 
 **DownloadCollection** 物件支援下列方法。
 
@@ -51,7 +51,7 @@ ms.locfileid: "106964979"
 
 
 
- 
+ 
 
 **DownloadCollection** 物件是透過下列方法來存取。
 
@@ -64,7 +64,7 @@ ms.locfileid: "106964979"
 
 
 
- 
+ 
 
 為了方便說明，請 **DownloadManager**。參考語法區段中使用了 **getDownloadCollection** (*collectionId*) 。
 
@@ -75,9 +75,9 @@ ms.locfileid: "106964979"
 [**類型 2 線上商店的參考**](reference-for-type-2-online-stores.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

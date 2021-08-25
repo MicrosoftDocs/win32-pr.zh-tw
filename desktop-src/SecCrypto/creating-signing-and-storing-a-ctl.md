@@ -4,12 +4,12 @@ ms.assetid: 82d75d60-2343-413c-ba53-ccee02d1ad41
 title: 建立、簽署和儲存 CTL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2da66ce5acb882d36451118700178519455a4ded
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e3f9aac8c75f7c112a09c62bb52d6e554aee7703e7f3e02c101545de5c5196db
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973242"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119876558"
 ---
 # <a name="creating-signing-and-storing-a-ctl"></a>建立、簽署和儲存 CTL
 

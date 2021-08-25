@@ -4,12 +4,12 @@ description: 執行比較篩選。 此指令的行為類似範例 \_ c，但」 
 ms.assetid: 5F11F091-AF2F-4293-88C7-824F11FE01E4
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 24ec2889dd3ea4c86af51c8e36bf2e302c6ad4dd
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 1b2866bdfddf91f9bd6ab1bbccbc9d76de071065b3cf28c1093cb1fdb041f3db
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104373779"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119981498"
 ---
 # <a name="sample_c_lz-sm4---asm"></a>範例 \_ c \_ lz (sm4-asm) 
 
@@ -71,9 +71,9 @@ ms.locfileid: "104373779"
 | [著色器模型5](d3d11-graphics-reference-sm5.md)        | 是       |
 | [著色器模型4。1](dx-graphics-hlsl-sm4.md)              | 是       |
 | [著色器模型4](dx-graphics-hlsl-sm4.md)                | 是       |
-| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 不可以        |
-| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 不可以        |
-| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 不可以        |
+| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 否        |
+| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 否        |
+| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 否        |
 
 
 

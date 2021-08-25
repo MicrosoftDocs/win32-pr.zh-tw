@@ -4,12 +4,12 @@ description: MIDL 編譯器選項
 ms.assetid: a78505cf-cda6-4b41-abd1-2609aec4dcb3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7e219daa345ad3140b78db8fdfc3de1d28678120
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 649cd96ffc0afa171ad218a737910ce15facbe0e9b5ef302dedb6615228bcf3c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104316564"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119859328"
 ---
 # <a name="midl-compiler-options"></a>MIDL 編譯器選項
 
@@ -17,7 +17,7 @@ ms.locfileid: "104316564"
 
 
 
-| 命令列參數                                       | Description                                                                                                                                                                                                                                      |
+| 命令列參數                                       | 描述                                                                                                                                                                                                                                      |
 |-----------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**/acf**](/windows/desktop/Midl/-acf)<br/>                          | 用來提供明確的 ACF 檔案名。 此參數也可讓您在 IDL 和 ACF 檔中使用不同的介面名稱。<br/>                                                                                                       |
 | [**/dlldata**](/windows/desktop/Midl/-dlldata)<br/>                  | 指定為 proxy DLL 產生之 DLL 資料檔案的檔案名。 預設檔案名為 Dlldata.c .c。<br/>                                                                                                                              |

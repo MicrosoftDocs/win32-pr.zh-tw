@@ -30,12 +30,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: fbe64ddfcf81a7410f5654db89c2924a8eabacc3
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: be7eca852f8c0d111bbdd977f76406ec690088262be989bea6e45e0afc27e502
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110816"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119919258"
 ---
 # <a name="cim_softwareelement-class-cimwin32-wmi-providers"></a>CIM_SoftwareElement 類別 (CIMWin32 WMI 提供者) 
 
@@ -601,7 +601,7 @@ HP-UX
 
 </dt> <dd>
 
-Windows 3。x
+Windows3.x
 
 </dd> <dt>
 

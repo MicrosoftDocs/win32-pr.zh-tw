@@ -4,12 +4,12 @@ ms.assetid: e9ef684d-e22c-43b3-a5ea-75a4cce663c1
 title: 使用64位自訂動作
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d1465f1b82d18c8e07d95e6d3ab08e9da6827bf1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 70d94e5d6118c0f2f5dcf5a297718e135cce25a69bea0f48a2d4ea5df4cc0463
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944643"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119809108"
 ---
 # <a name="using-64-bit-custom-actions"></a>使用64位自訂動作
 

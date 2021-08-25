@@ -4,12 +4,12 @@ ms.assetid: cc3e21fd-5fd3-40b6-9218-cb5f47be3567
 title: 隔離元件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e201375f50324209380a4ecef5fa762ae70e56d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 411d5e90114b7509dff2e5e48a4770841774df52fce804895155d2bd4d43e514
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847901"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119885188"
 ---
 # <a name="isolating-components"></a>隔離元件
 

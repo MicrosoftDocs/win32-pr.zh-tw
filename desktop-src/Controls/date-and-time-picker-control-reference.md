@@ -4,12 +4,12 @@ description: 本章節包含與日期和時間選擇器控制項搭配使用之 
 ms.assetid: vs|controls|~\controls\datetime\reflist.htm
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0e4e91b325b798ff465d8048cac2f0a9a72e5774
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: dd4dd1b29aa1bf7552b87f18a9ded05b67fc8e47770c01431af4da897f2b9733
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103842811"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119929478"
 ---
 # <a name="date-and-time-picker"></a>日期和時間選擇器
 

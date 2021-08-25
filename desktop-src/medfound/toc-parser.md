@@ -1,19 +1,19 @@
 ---
-description: 目錄剖析器 (TOC 剖析器) 是 Windows 元件，可讓您將 advanced index 資訊以 Advanced Systems 格式儲存 (ASF) 檔。
+description: 目錄剖析器 (TOC 剖析器) 是 Windows 元件，可讓您將 advanced index 資訊以 advanced Systems 格式儲存 (ASF) 檔。
 ms.assetid: 123083b0-dc1b-4c5c-8702-e236cffcf2da
 title: 目錄剖析器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 62d4f931013ba091a740c27c3af541c3bcb7200a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 348d98ed50057727407f0fd339a16f0d20538864289441846c3de7ef5e611614
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943868"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119953148"
 ---
 # <a name="table-of-contents-parser"></a>目錄剖析器
 
-目錄剖析器 (TOC 剖析器) 是 Windows 元件，可讓您將 advanced index 資訊以 Advanced Systems 格式儲存 (ASF) 檔。
+目錄剖析器 (TOC 剖析器) 是 Windows 元件，可讓您將 advanced index 資訊以 advanced Systems 格式儲存 (ASF) 檔。
 
 > [!Note]  
 > TOC 剖析器不會與 Microsoft 媒體基礎 Api 直接相關，不過它可以與媒體基礎搭配使用。

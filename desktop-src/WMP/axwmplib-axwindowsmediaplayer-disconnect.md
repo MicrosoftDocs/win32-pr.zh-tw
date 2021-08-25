@@ -14,12 +14,12 @@ api_type:
 - Assembly
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 89dffe3191efeddba74eb22c7c5c72b8c52bc095
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1f0554de8fe71ae13e510733ed2204ff4ed79d575a40f23a1769a5fb36eeb560
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107001504"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119902688"
 ---
 # <a name="disconnect-event-of-the-axwindowsmediaplayer-object"></a>AxWindowsMediaPlayer 物件的中斷線上活動
 

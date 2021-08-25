@@ -4,12 +4,12 @@ ms.assetid: 4e6042a0-36a9-4f74-b6cc-554e7f7aa2d9
 title: 從 INF 檔案安裝
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6bc3642edfb7abc2864c2c0784c79fbb21612fb9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0e32780855e126eaaa38ae937a265951711662434e90ab0ffb425e2e4f4f6c42
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103850820"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119867568"
 ---
 # <a name="installing-from-an-inf-file"></a>從 INF 檔案安裝
 
@@ -23,7 +23,7 @@ ms.locfileid: "103850820"
 
 相反地， [**SetupInstallFromInfSection**](/windows/desktop/api/Setupapi/nf-setupapi-setupinstallfrominfsectiona) 函式會建立並終結其本身的內部佇列。 **SetupInstallFromInfSection** 的常見用途是在所有檔案都成功複製之後呼叫它，以執行登錄和 INI 交易。
 
-在 Windows 2000 上，DLL 檔案可以自行註冊，方法是在其 **安裝** 區段中包含 **RegisterDlls** 指示詞的 INF 檔案上呼叫 [**SetupInstallFromInfSection**](/windows/desktop/api/Setupapi/nf-setupapi-setupinstallfrominfsectiona) 。 **SetupInstallFromInfSection** 也可以從64位進程自行註冊32位 dll。
+在 Windows 2000，DLL 檔案可能會透過在其 **安裝** 區段中包含 **RegisterDlls** 指示詞的 INF 檔案上呼叫 [**SetupInstallFromInfSection**](/windows/desktop/api/Setupapi/nf-setupapi-setupinstallfrominfsectiona) ，自行註冊。 **SetupInstallFromInfSection** 也可以從64位進程自行註冊32位 dll。
 
 在64位作業系統上，您可以呼叫 [**SetupInstallFromInfSection**](/windows/desktop/api/Setupapi/nf-setupapi-setupinstallfrominfsectiona) ，以在登錄的32位部分執行作業。 若要將登錄機碼新增至登錄的32位部分，請 \_ \_ 在 INF 的 **ADDREG** 行中包含 FLG ADDREG 32BITKEY 旗標。 若只要在登錄的32位部分中刪除登錄機碼，請 \_ \_ 在 **DELREG** 行中包含 FLG DELREG 32BITKEY 機碼。 若只要在登錄的32位部分中設定或清除二進位值，請 \_ \_ 在 **BITREG** 行中包含 FLG BITREG 32BITKEY。
 

@@ -3,7 +3,7 @@ title: 'DTM_CLOSEMONTHCAL 訊息 (Commctrl .h) '
 description: 關閉 (DTP) 控制項的日期和時間選擇器。 請明確地傳送此訊息，或使用 DateTime \_ CloseMonthCal 宏。
 ms.assetid: f60af77f-ec34-4f3d-9427-cda7ac6083bf
 keywords:
-- DTM_CLOSEMONTHCAL message Windows 控制項
+- DTM_CLOSEMONTHCAL 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bd79f33576490196bf29fd51316f8ce3daf4ad4b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8f458592d2842625b9826eda5963c66cbd182e3f052a2b2a70ff5219a054e8cb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104024674"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119878238"
 ---
 # <a name="dtm_closemonthcal-message"></a>DTM \_ CLOSEMONTHCAL 訊息
 
@@ -53,8 +53,8 @@ ms.locfileid: "104024674"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

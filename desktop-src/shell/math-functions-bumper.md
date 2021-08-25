@@ -1,6 +1,6 @@
 ---
 description: 數學函式
-title: " (Windows Shell 的數學函式) "
+title: 'Windows Shell (數學函數) '
 ms.topic: article
 ms.date: 05/31/2018
 ms.assetid: 27fbd94b-e84a-4583-a355-a669b9662e00
@@ -9,14 +9,14 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 00a20845dfa9f338ef080a0c028bbf85745fd440
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f1e60ea0a3a94e3792532019806d72ec568123e6a050b67de48075efc501cc6c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847621"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119884038"
 ---
-# <a name="math-functions-the-windows-shell"></a> (Windows Shell 的數學函式) 
+# <a name="math-functions-the-windows-shell"></a>Windows Shell (數學函數) 
 
 -   [**DWordPtrAdd**](/windows/desktop/api/Intsafe/nf-intsafe-dwordptradd)
 -   [**DWordPtrMult**](/windows/desktop/api/Intsafe/nf-intsafe-dwordptrmult)

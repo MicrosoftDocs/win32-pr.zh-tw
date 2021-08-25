@@ -3,8 +3,8 @@ title: 刪除授權
 description: 刪除授權
 ms.assetid: f941efeb-145d-48a1-a3e2-d12f66b7fdcf
 keywords:
-- Windows Media Format SDK，授權
-- Windows Media Format SDK，刪除授權
+- Windows媒體格式 SDK，授權
+- Windows媒體格式 SDK，刪除授權
 - 數位版權管理 (DRM) 、授權
 - DRM (數位版權管理) 、授權
 - 數位版權管理 (DRM) ，刪除授權
@@ -16,12 +16,12 @@ keywords:
 - 授權，刪除
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0f297db679ac2c8afe2c836d032fa045d6955665
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 8dd1e20c0e98fd2129b807cf11f27f5975701d851d9301eda894ccb24015360a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106967623"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119808298"
 ---
 # <a name="license-deletion"></a>刪除授權
 
@@ -67,9 +67,9 @@ ms.locfileid: "106967623"
 [**程式設計指南**](drm-programming-guide.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

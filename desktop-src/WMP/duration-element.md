@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: c0446fd207ce04ab08d4c7bd2e055ef8d11a5a36
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5b06b497a6d31b03c4cbec23748f6995a1382fb806ad18fabaa542ed8ff33e4f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994837"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119863348"
 ---
 # <a name="duration-element"></a>DURATION 元素
 
@@ -82,10 +82,10 @@ Windows Media Player 呈現專案的時間長度（以小時、分鐘、秒和�
 
 <dl> <dt>
 
-[**Windows Media 中繼檔元素參考**](windows-media-metafile-elements-reference.md)
+[**Windows媒體中繼檔元素參考**](windows-media-metafile-elements-reference.md)
 </dt> <dt>
 
-[**Windows Media 中繼檔參考**](windows-media-metafile-reference.md)
+[**Windows媒體中繼檔參考**](windows-media-metafile-reference.md)
 </dt> </dl>
 
  

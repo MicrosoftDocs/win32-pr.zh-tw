@@ -4,12 +4,12 @@ ms.assetid: 40758d5e-8538-47d9-b8ca-8de5b053ee8b
 title: 郵筒作業
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0055ad434971659dc2cfd058146029bb63023654
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6fefce55c70971f5d611c41d473180897706bc04960509818cb0d092c7f83825
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106977951"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119829498"
 ---
 # <a name="mailslot-operations"></a>郵筒作業
 

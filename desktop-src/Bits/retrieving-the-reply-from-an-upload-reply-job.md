@@ -4,12 +4,12 @@ description: 若要將資料上傳至伺服器應用程式，並將資料傳回�
 ms.assetid: bab28a2c-1e2f-4b76-9dc6-57df26f7efec
 ms.topic: article
 ms.date: 11/29/2018
-ms.openlocfilehash: 582a37a31c13c5cc3e0b44c51a767cfbe465c64c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 79ca145a3ed243209fc0059b20823e32da3cf3974850a6bc3e872f43dbd40aa1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103931955"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120004878"
 ---
 # <a name="retrieving-the-reply-from-an-upload-reply-job"></a>從 Upload-Reply 作業中取出回復
 
@@ -123,9 +123,9 @@ else
 
 
 
- 
+ 
 
- 
+ 
 
 
 

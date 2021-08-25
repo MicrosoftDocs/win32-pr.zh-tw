@@ -4,18 +4,18 @@ ms.assetid: 1281ee21-a154-4275-a9e6-6e92fff548ed
 title: ICEM13
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3286906cf162f24dce7105835544c3a387993ac6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 678b89e14cb699bb6207be5c2e14473de2a743494b47ff5ae5e0ccda2a9cc9cc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848934"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119894278"
 ---
 # <a name="icem13"></a>ICEM13
 
-ICEM13 會確認合併模組不包含發行者原則和設定元件。 發行者原則和設定元件不應該包含在要用於轉散發的合併模組中，因為這可能會影響使用者電腦上的其他應用程式。
+ICEM13 會確認合併模組不包含發行者原則和設定元件。 Publisher 原則和設定元件不應該包含在要用於轉散發的合併模組中，因為這可能會影響使用者電腦上的其他應用程式。
 
-此 ICEM 可在 Windows Installer 2.0 SDK 和更新版本提供的 Mergemod 檔中找到。 如需詳細資訊，請參閱 [Windows Installer 開發人員 Windows SDK 元件](platform-sdk-components-for-windows-installer-developers.md)。
+此 ICEM 可在 Windows Installer 2.0 SDK 和更新版本提供的 Mergemod 檔中找到。 如需詳細資訊，請參閱[Windows Installer 開發人員 Windows SDK 元件](platform-sdk-components-for-windows-installer-developers.md)。
 
 ## <a name="result"></a>結果
 

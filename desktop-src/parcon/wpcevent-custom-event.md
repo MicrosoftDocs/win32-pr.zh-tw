@@ -4,12 +4,12 @@ ms.assetid: e6cf8008-b896-453b-9946-a6b3d94a991a
 title: 'WPCEVENT_CUSTOM (Wpcevent 的事件) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7d20cb2450cd18bb0c77993622d226cfc06dff6c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e8082e03aa6dfea8cd2fd461feec093de71a1ada8051b8fb88295d0bbbf570b2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192613"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119951548"
 ---
 # <a name="wpcevent_custom-event"></a>WPCEVENT \_ 自訂事件
 
@@ -103,7 +103,7 @@ const EVENT_DESCRIPTOR WPCEVENT_CUSTOM = {0xd, 0x0, 0x10, 0x4, 0x17, 0xd, 0x8000
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                             |
 | 標頭<br/>                   | <dl> <dt>Wpcevent。h</dt> </dl> |
 

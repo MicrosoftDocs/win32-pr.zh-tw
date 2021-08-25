@@ -5,12 +5,12 @@ ms.assetid: 964e7e88-399f-4e4f-8340-ec0e28a0d79b
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9517880b65ff3a81fae35a98f6c5373492741c6c
-ms.sourcegitcommit: ae73f4dd3cf5a3c6a1ea7d191ca32a5b01f6686b
+ms.openlocfilehash: e7e13b2ede56689af9e9b01f147696acbec1c53cffec59dac4314142650f3ff5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "106965044"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119868608"
 ---
 # <a name="whats-new-in-windows-7"></a>Windows 7 的新功能
 
@@ -25,8 +25,8 @@ Windows 7 為遠端桌面服務引進了下列新的程式設計項目。
 </colgroup>
 <tbody>
 <tr class="odd">
-<td>遠端桌面 ActiveX 控制項介面<br/></td>
-<td>下列介面 (與其相關聯的屬性) 已新增至 <a href="remote-desktop-web-connection-reference.md">遠端桌面 ActiveX 控制項介面</a>。<br/>
+<td>遠端桌面 ActiveX 控制介面<br/></td>
+<td>下列介面 (與其相關聯的屬性) 已新增至<a href="remote-desktop-web-connection-reference.md">遠端桌面 ActiveX 控制項介面</a>。<br/>
 <ul>
 <li><a href="imsrdpclientadvancedsettings7.md"><strong>IMsRdpClientAdvancedSettings7 介面</strong></a></li>
 </ul></td>

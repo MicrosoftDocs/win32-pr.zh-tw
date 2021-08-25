@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 599dd82e282f2d14ac7e974363a62695e209c080
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8137c4e18708ce6a0402d1d34caf9560054f267d8de0280a6efb5c3dd36e6517
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106989784"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119909808"
 ---
 # <a name="cdrawimagedrawvideoimagehere-method"></a>CDrawImage. DrawVideoImageHere 方法
 

@@ -17,12 +17,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: d138aafd179f5fefa40896fe4b9e6a0426b34422
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 9e81cd96906cd7981ea7fdc7da54a728cb0efb22f0bed8269c735c642ad79cb0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110613"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119920878"
 ---
 # <a name="cim_realizesdiskpartition-class"></a>CIM \_ RealizesDiskPartition 類別
 

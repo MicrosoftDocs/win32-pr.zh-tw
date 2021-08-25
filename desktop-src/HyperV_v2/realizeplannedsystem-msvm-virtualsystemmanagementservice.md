@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: fc69cbc9be9fc72bc7c1184ec30d9e2b58ba2b6d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7589c4c68a5375971c085abd0411c0e6e8c7813797ba2f5e5e6f72483a4894a0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194556"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119980208"
 ---
 # <a name="realizeplannedsystem-method-of-the-msvm_virtualsystemmanagementservice-class"></a>Msvm VirtualSystemManagementService 類別的 RealizePlannedSystem 方法 \_
 
@@ -53,7 +53,7 @@ uint32 RealizePlannedSystem(
 
 如果作業是以同步方式完成，則會參考代表所產生之已實現虛擬機器的 CIM 電腦類型物件。 [**\_**](msvm-computersystem.md)
 
-Msvm 中的 [**資料 \_ 類型**](msvm-computersystem.md) 在 Windows 10 1703 版中更新。
+Msvm 中的 [**資料 \_ 類型**](msvm-computersystem.md)在 Windows 10 1703 版中更新。
 
 </dd> <dt>
 
@@ -172,8 +172,8 @@ RealizePvm(
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                                              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                                              |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                                                    |
 | 命名空間<br/>                | 根 \\ 虛擬化 \\ V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization。</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
