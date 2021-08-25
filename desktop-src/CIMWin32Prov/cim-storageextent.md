@@ -38,12 +38,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 83f2d83386822d0994cc3acf68b97acc2841b77d
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 9c9b48f092a5810d2dfdce4fc9a94b465e1a4ec25eab884fb70b4b2eba858295
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973970"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119919178"
 ---
 # <a name="cim_storageextent-class-cimwin32-wmi-providers"></a>CIM_StorageExtent 類別 (CIMWin32 WMI 提供者) 
 
@@ -422,7 +422,7 @@ class CIM_StorageExtent : CIM_LogicalDevice
 限定詞： [**架構**](/windows/desktop/WmiSdk/standard-qualifiers) ( "Win32" ) 
 </dt> </dl>
 
-Windows 設定管理員錯誤碼。
+Windows設定管理員錯誤碼。
 
 這個屬性繼承自 [**CIM \_ LogicalDevice**](cim-logicaldevice.md)。
 
@@ -966,7 +966,7 @@ Windows 仍在設定裝置。
 限定詞： [**架構**](/windows/desktop/WmiSdk/standard-qualifiers) ( "Win32" ) 
 </dt> </dl>
 
-Windows 隨插即用邏輯裝置的裝置識別碼。
+Windows隨插即用邏輯裝置的裝置識別碼。
 
 這個屬性繼承自 [**CIM \_ LogicalDevice**](cim-logicaldevice.md)。
 
@@ -1017,7 +1017,7 @@ Windows 隨插即用邏輯裝置的裝置識別碼。
 
 </dt> <dd>
 
-已啟用
+啟用
 
 電源管理功能目前已啟用，但實際的功能組不明，或資訊無法使用。
 

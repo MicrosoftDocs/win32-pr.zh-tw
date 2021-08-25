@@ -4,12 +4,12 @@ ms.assetid: c986b22c-2960-4571-98bc-028c9f41ec65
 title: " (Direct3D 10 圖形) 的資源列舉"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 04ae6e115fe8ae9a731e5778b986940cb17a915d
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 1bc82ac605c8ab4dd6ead6ea392dc30db67cd777642dbaab0b9f57520353a467
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026022"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119989557"
 ---
 # <a name="resource-enumerations-direct3d-10-graphics"></a> (Direct3D 10 圖形) 的資源列舉
 

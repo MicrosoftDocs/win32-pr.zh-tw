@@ -1,6 +1,6 @@
 ---
 title: IMsRdpClientNonScriptable5 介面
-description: 提供存取遠端桌面 ActiveX 控制項上用戶端遠端會話的 nonscriptable 屬性。 衍生自 IMsRdpClientNonScriptable4 介面。
+description: 在遠端桌面 ActiveX 控制項上，提供用戶端遠端會話的 nonscriptable 屬性存取。 衍生自 IMsRdpClientNonScriptable4 介面。
 ms.assetid: 41b8c624-0451-4a7e-bc80-d0bf269e33c6
 ms.tgt_platform: multiple
 keywords:
@@ -16,16 +16,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0ec338dbe07c4733bf80207298f23f388bf8f77c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ddb7f3407f0dc6b1bc8dc04c6c4a72cda95db6b6b1def088a18908a730b96600
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104467020"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120009798"
 ---
 # <a name="imsrdpclientnonscriptable5-interface"></a>IMsRdpClientNonScriptable5 介面
 
-提供存取遠端桌面 ActiveX 控制項上用戶端遠端會話的 nonscriptable 屬性。 衍生自 [**IMsRdpClientNonScriptable4**](imsrdpclientnonscriptable4.md) 介面。 這個介面的方法只能透過 vtable 存取;它們無法用於可編寫腳本的用戶端。
+在遠端桌面 ActiveX 控制項上，提供用戶端遠端會話的 nonscriptable 屬性存取。 衍生自 [**IMsRdpClientNonScriptable4**](imsrdpclientnonscriptable4.md) 介面。 這個介面的方法只能透過 vtable 存取;它們無法用於可編寫腳本的用戶端。
 
 藉由呼叫 [**IMsTscAx**](imstscax-interface.md)物件上的 [**QueryInterface**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q))來取得這個介面的實例，並傳遞 **IID \_ IMsRdpClientNonScriptable5**。
 
@@ -41,7 +41,7 @@ ms.locfileid: "104467020"
 
 
 
-| 屬性                                                                                                         | 存取類型           | Description                                                                                                             |
+| 屬性                                                                                                         | 存取類型           | 描述                                                                                                             |
 |:-----------------------------------------------------------------------------------------------------------------|:----------------------|:------------------------------------------------------------------------------------------------------------------------|
 | [**AllowPromptingForCredentials**](imsrdpclientnonscriptable5-allowpromptingforcredentials.md)<br/>       | 讀取/寫入<br/> | 指定遠端桌面 ActiveX 控制項是否可以提示使用者輸入認證。<br/>                    |
 | [**DisableConnectionBar**](imsrdpclientnonscriptable5-disableconnectionbar.md)<br/>                       | 唯寫<br/> | 指定遠端桌面 ActiveX 控制項是否應該停用連接列。<br/>                      |

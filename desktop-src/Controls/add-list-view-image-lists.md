@@ -4,12 +4,12 @@ description: 本主題示範如何將影像清單新增至清單視圖控制項�
 ms.assetid: 3C282FBC-5E37-4D8E-A2C4-B2876874E9A7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2c2f6f5b483ea80b412ab7638c9aceafcac4c5e6
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: 8875573634cd47fb5ccb271c3dabfca99daf9061469e31c1178b3e4ed938347e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "104316783"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119922052"
 ---
 # <a name="how-to-add-list-view-image-lists"></a>如何新增 List-View 的影像清單
 
@@ -21,12 +21,12 @@ ms.locfileid: "104316783"
 
 ### <a name="technologies"></a>技術
 
--   [Windows 控制項](window-controls.md)
+-   [Windows控制](window-controls.md)
 
 ### <a name="prerequisites"></a>必要條件
 
 -   C/C++
--   Windows 消費者介面程式設計
+-   Windows消費者介面程式設計
 
 ## <a name="instructions"></a>指示
 

@@ -4,12 +4,12 @@ ms.assetid: 71f87258-f8e1-466b-802e-a5ae22b38974
 title: " (電話語音 API) 的新功能"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b19a0b34620832e0fb13298f491d6d82c9e940c6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3abbc758d9fdf1560a9187a4a258b15801794b0d2917dcd84e6a03f1e510719a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974602"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120011838"
 ---
 # <a name="whats-new-telephony-api"></a> (電話語音 API) 的新功能
 
@@ -17,7 +17,7 @@ TAPI 3.1 新增了詳細的電話裝置控制項和一些專門的終端介面�
 
 
 
-| nbbnInterface                                                                                  | Description                                                                                                                                                                                                      |
+| nbbnInterface                                                                                  | 描述                                                                                                                                                                                                      |
 |------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**IEnumPhone**](/windows/desktop/api/tapi3if/nn-tapi3if-ienumphone)                                                               | 提供 [**ITPhone**](/windows/desktop/api/tapi3if/nn-tapi3if-itphone) 介面的列舉方法。                                                                                                                                       |
 | [**IEnumPluggableSuperclassInfo**](/windows/desktop/api/tapi3if/nn-tapi3if-ienumpluggablesuperclassinfo)                           | 提供 [**ITPluggableTerminalSuperclassInfo**](/windows/desktop/api/tapi3if/nn-tapi3if-itpluggableterminalsuperclassinfo) 介面的列舉方法。                                                                                   |

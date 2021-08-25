@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: e33ac35831b19f771f4f5b64d94bcc47c6657db5
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: d14603f077ddc61287d8d22580b161b59ddf8c6b67dad62141ecf4afb44d1f04
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104991966"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120023758"
 ---
 # <a name="mul---vs"></a>mul-vs
 

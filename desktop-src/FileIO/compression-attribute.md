@@ -4,12 +4,12 @@ ms.assetid: 8aca120c-22a7-4dc8-a921-dfcec1277452
 title: 壓縮屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d2e8e86eebe919476851f35f77cf10d6a07035d1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 99fb42aaa30fc3e5d2ef36da85bae194950c587d024510b18233f3c83504ab88
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103852976"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119982148"
 ---
 # <a name="compression-attribute"></a>壓縮屬性
 

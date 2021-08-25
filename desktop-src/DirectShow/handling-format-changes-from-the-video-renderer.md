@@ -4,12 +4,12 @@ ms.assetid: ac7d7b1c-3c9a-4693-87ea-0a10a8ab915c
 title: 處理影片轉譯器的格式變更
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d731ac4b9d6985cf5ad92f642b6d8262209fa91d
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: fc1dd0ec2f87a8604d3b03aa6c2f334161d218f4d7fb45c76aad1015f071d947
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106995797"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119905298"
 ---
 # <a name="handling-format-changes-from-the-video-renderer"></a>處理影片轉譯器的格式變更
 

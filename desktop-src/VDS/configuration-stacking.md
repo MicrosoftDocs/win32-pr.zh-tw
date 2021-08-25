@@ -4,16 +4,16 @@ ms.assetid: 1f0f75d6-3553-4ee1-8ee6-bd617da4a109
 title: 設定堆疊
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b50b90629556b5ed00db712b49fe8fa4e48ea8cc
-ms.sourcegitcommit: 37f276b5d887a3aad04b1ba86e390dea9d87e591
+ms.openlocfilehash: 9018a2484ce4e5b9121d08abffee54911531b7f421cfef75643594e827fe350e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "104567838"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119905554"
 ---
 # <a name="configuration-stacking"></a>設定堆疊
 
-\[從 Windows 8 和 Windows Server 2012 開始， [虛擬磁碟服務](virtual-disk-service-portal.md) COM 介面會被 [Windows 儲存體管理 API](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal)取代。\]
+\[從 Windows 8 和 Windows Server 2012 開始， [Windows 儲存體管理 API](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal)會取代[虛擬磁碟服務](virtual-disk-service-portal.md)COM 介面。\]
 
 堆疊牽涉到一組邏輯區塊對應的串連。 您可以從一個 LUN 下的相同子系統堆疊多個 Lun。 您可以將 LUN 與同一個磁片區中相同套件的磁片區堆疊在一起。 此外，您可以堆疊一個磁片區下的異類子系統所呈現的多個 Lun。
 

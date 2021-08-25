@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 接收 SNMP 事件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e4f718d2bcea85d0ee942050108f337f8ecb78e8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cf09e32ec05d42adcc60891cd369cde1f3f078541416ce1a492484de024744bd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980540"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119996018"
 ---
 # <a name="receiving-snmp-events"></a>接收 SNMP 事件
 
@@ -22,11 +22,11 @@ SNMP 事件提供者支援 SNMPv1 陷阱和 SNMPv2 通知。
 
     泛型陷阱和通知會對應到已命名的事件，例如連結和冷啟動。 泛型陷阱和通知會以類別（例如 **SnmpLinkUpNotification** 和 **SnmpWarmStartExtendedNotification**）來表示，而這些類別會在類別名稱中包含陷阱的名稱。 這些類別是 [SnmpNotification](snmpnotification.md) 和 [SnmpExtendedNotification](snmpextendednotification.md)的子類別。
 
--   企業專用
+-   Enterprise 特定
 
-    企業特定的陷阱和通知會對應至 WMI 類別所代表的事件，而該 WMI 類別不是 [SnmpNotification](snmpnotification.md) 和 [SnmpExtendedNotification](snmpextendednotification.md)的子類別。 若要支援企業特定的陷阱和通知，取用者必須藉由使用 SNMP MIB 編譯器編譯 MIB 定義來定義類別。
+    Enterprise 特定的陷阱和通知，會對應至不是[SnmpNotification](snmpnotification.md)和[SnmpExtendedNotification](snmpextendednotification.md)子類別的 WMI 類別所代表的事件。 若要支援企業特定的陷阱和通知，取用者必須藉由使用 SNMP MIB 編譯器編譯 MIB 定義來定義類別。
 
--   企業-非特定
+-   Enterprise-非特定
 
     Nonenterprise 特定的陷阱和通知不會對應到任何一般事件種類或企業特定的事件種類。 Nonenterprise 特定的陷阱和通知未將其 MIB 定義編譯成 SMIR。 它們是由衍生自 SnmpNotification 和 [SnmpExtendedNotification](snmpextendednotification.md)的 [SnmpNotification](snmpnotification.md)、 **SnmpV2Notification**、 **SnmpV1ExtendedNotification** 和 **SnmpV2ExtendedNotification** 類別表示。
 
@@ -90,7 +90,7 @@ SNMP 事件提供者支援 SNMPv1 陷阱和 SNMPv2 通知。
 
     如需詳細資訊，請參閱 [編譯 MOF](compiling-mof-files.md)檔案。
 
-如果 SNMP 事件提供者收到沒有類別的特定陷阱或通知，則提供者會產生 nonenterprise 特定的事件。 如需詳細資訊，請參閱 [接收企業非特定事件](#receiving-enterprise-nonspecific-events)。
+如果 SNMP 事件提供者收到沒有類別的特定陷阱或通知，則提供者會產生 nonenterprise 特定的事件。 如需詳細資訊，請參閱[接收 Enterprise](#receiving-enterprise-nonspecific-events)的非明確事件。
 
 ## <a name="receiving-enterprise-nonspecific-events"></a>接收 Enterprise-Nonspecific 事件
 

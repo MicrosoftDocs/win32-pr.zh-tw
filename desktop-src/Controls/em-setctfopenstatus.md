@@ -3,7 +3,7 @@ title: 'EM_SETCTFOPENSTATUS 訊息 (Richedit .h) '
 description: 開啟或關閉文字服務架構 (TSF) 鍵盤。
 ms.assetid: 9bdabf5a-93db-4b0e-9528-807d262de866
 keywords:
-- EM_SETCTFOPENSTATUS message Windows 控制項
+- EM_SETCTFOPENSTATUS 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cf4163a415f129dfc5d3f98aa06578d13bb462e5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 85ac27017abbadeb038f5b881aefe1aff394036931529c84c9c5a34a36e556c7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104025387"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120048628"
 ---
 # <a name="em_setctfopenstatus-message"></a>EM \_ SETCTFOPENSTATUS 訊息
 
@@ -53,8 +53,8 @@ ms.locfileid: "104025387"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 Windows XP （含 SP1） \[ 桌面應用程式\]<br/>                                  |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows僅限 XP （含 SP1） \[ 桌面應用程式\]<br/>                                  |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Richedit。h</dt> </dl> |
 
 

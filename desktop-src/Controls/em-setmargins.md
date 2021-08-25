@@ -3,7 +3,7 @@ title: 'EM_SETMARGINS 訊息 (Winuser .h) '
 description: 設定編輯控制項的左邊界和右邊界的寬度。 訊息會重新繪製控制項，以反映新的邊界。 您可以將此訊息傳送至編輯控制項或 rich edit 控制項。
 ms.assetid: 23eb6c9e-3cf9-4c90-b33e-8da84034b49b
 keywords:
-- EM_SETMARGINS message Windows 控制項
+- EM_SETMARGINS 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5c68f3394234a6f86b3c5ff69622b86e61afc556
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 396bba6dda0f6dbd132b9f67fa5a1ef012758bbf7cf8fa9517b656dcf164c94c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934549"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120048358"
 ---
 # <a name="em_setmargins-message"></a>EM \_ SETMARGINS 訊息
 
@@ -77,9 +77,9 @@ ms.locfileid: "103934549"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                     |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 

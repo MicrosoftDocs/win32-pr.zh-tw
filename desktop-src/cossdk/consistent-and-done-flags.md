@@ -4,12 +4,12 @@ ms.assetid: a641fa95-5587-4362-9869-e5c27c6dd2ce
 title: 一致且完成的旗標
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 56a61d1f715d06e6bfb6632b9bbb59276074c4d7
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 568b0c614c745f46d8bbcc816b65f501e02de1e0455f0b64216662ec52308213
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510754"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119954358"
 ---
 # <a name="consistent-and-done-flags"></a>一致且完成的旗標
 

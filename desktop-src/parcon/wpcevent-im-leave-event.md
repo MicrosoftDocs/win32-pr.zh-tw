@@ -4,12 +4,12 @@ ms.assetid: e6bd6bce-9eba-4192-aac8-c9e47d7180a1
 title: 'WPCEVENT_IM_LEAVE (Wpcevent 的事件) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 260833a30f08330da9c622faae06f76b5d79e682
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f6d814f6c9d4e3ec5acd3ee3cf3a6eb6e67d315148304f2766baf45fc633fa22
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106984241"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119951208"
 ---
 # <a name="wpcevent_im_leave-event"></a>WPCEVENT \_ IM \_ 離開活動
 
@@ -102,7 +102,7 @@ const EVENT_DESCRIPTOR WPCEVENT_IM_LEAVE = {0x9, 0x0, 0x10, 0x4, 0x16, 0x9, 0x80
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                             |
 | 標頭<br/>                   | <dl> <dt>Wpcevent。h</dt> </dl> |
 

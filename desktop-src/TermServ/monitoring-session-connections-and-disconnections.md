@@ -5,12 +5,12 @@ ms.assetid: 8524cb7a-a930-431a-bc5f-b0793781de15
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e819b13594ecec14a2b425560152cadedd4e9122
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 2813399650d535d10864f384afb6b745fb9e50039f2b981df61ceb2e6452a608
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104023580"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119989098"
 ---
 # <a name="monitoring-session-connections-and-disconnections"></a>監視會話連線和中斷連接
 
@@ -42,7 +42,7 @@ Type = AddinType
 
 
 
- 
+ 
 
 服務應用程式的註冊只會在執行註冊之後建立的會話中生效。
 
@@ -68,7 +68,7 @@ RemoteControlPersistent = flag
 
 *旗* 標的值可以是一或零。 預設值為零。 如果設定為1，當用戶端會話啟動或停止時，服務應用程式將不會收到通知。 如果設定為零，當用戶端會話啟動時，重新連接事件就會收到信號，並在用戶端會話停止時發出中斷線上活動。
 
-在 Windows Server 2008 中仍支援先前的事件物件名稱格式，以提供回溯相容性。 建議您使用較新的 Windows Server 2008 格式，因為它比較安全。
+Windows Server 2008 仍支援先前的事件物件名稱格式，以提供回溯相容性。 建議您使用較新的 Windows Server 2008 格式，因為它比較安全。
 
 先前的事件格式如下所示。
 
@@ -80,6 +80,6 @@ Global\AddinName-SessionId-Disconnect
 
 *AddinName* 是在註冊伺服器應用程式所用之登錄子機碼的 **名稱** 值中所指定的字串。 *SessionId* 是用戶端會話的會話識別碼。
 
- 
+ 
 
- 
+ 

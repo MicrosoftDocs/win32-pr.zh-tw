@@ -3,7 +3,7 @@ title: 'EM_UNDO 訊息 (Winuser .h) '
 description: 此訊息會復原控制項復原佇列中的最後一個編輯控制項作業。 您可以將此訊息傳送至編輯控制項或 rich edit 控制項。
 ms.assetid: c4bff128-0383-40c5-8f29-7738f7f26871
 keywords:
-- EM_UNDO message Windows 控制項
+- EM_UNDO 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4c75d79e7ed25e582682830b1323c27878bbdbb3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 452d82e6d0685314a79f1f95cff487ee3f52e2d1b70925c3e6e72f9263f442e0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103685927"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120047918"
 ---
 # <a name="em_undo-message"></a>EM \_ 復原訊息
 
@@ -63,9 +63,9 @@ ms.locfileid: "103685927"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                     |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 

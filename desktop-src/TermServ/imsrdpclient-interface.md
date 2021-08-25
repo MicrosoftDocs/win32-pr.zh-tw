@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bc6d3a1de6a6cd18004ff957ea0f8c4d7c23b14d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: bb5756fb9bc282343055ca1b6e434f4887ac253dee47e32392c6289e63b10cbc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106967520"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120010058"
 ---
 # <a name="imsrdpclient-interface"></a>IMsRdpClient 介面
 
@@ -56,7 +56,7 @@ ms.locfileid: "106967520"
 
 
 
-| 屬性                                                                             | 存取類型           | Description                                                                                                                                                               |
+| 屬性                                                                             | 存取類型           | 描述                                                                                                                                                               |
 |:-------------------------------------------------------------------------------------|:----------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**AdvancedSettings2**](imsrdpclient-advancedsettings2.md)<br/>               | 唯讀<br/>  | [**IMsRdpClientAdvancedSettings**](imsrdpclientadvancedsettings-interface.md)介面的指標，用來設定用戶端控制項的 advanced 設定。<br/> |
 | [**ColorDepth**](imsrdpclient-colordepth.md)<br/>                             | 讀取/寫入<br/> | 目前控制項的色彩深度。<br/>                                                                                                                            |

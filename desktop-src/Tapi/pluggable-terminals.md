@@ -4,12 +4,12 @@ ms.assetid: 34ba4f3c-0a14-4705-9490-817c70700746
 title: 可插入的終端機
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 52802d98d7eb6985dbb7de9ca3facab90a5550e8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 82560f2c1064ee18fd11e53b322bd5fd41b41b1d3502374e87df343cb7e7836d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106997868"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120034488"
 ---
 # <a name="pluggable-terminals"></a>可插入的終端機
 

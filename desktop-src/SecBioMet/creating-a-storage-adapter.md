@@ -4,16 +4,16 @@ description: 儲存體介面卡外掛程式的基本結構，會實作為 c + + 
 ms.assetid: c37e4c46-d11c-4458-b87b-78f693188e3c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2a4f922035b84593d812380991d0574a3ebeb141
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c8ff7ab15b1f94a37c77a7b3f4f014d34794999ae83429d663d7f97ac29ab5e5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104462441"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119993768"
 ---
 # <a name="creating-a-storage-adapter"></a>建立儲存體介面卡
 
-下列程式碼範例會顯示實作為 c + + 動態連結程式庫 (DLL) 的儲存介面卡外掛程式的基本結構。 若要查看 DLL 中每個公用函式的虛擬程式碼，請移至 [存放裝置介面卡功能](storage-adapter-functions.md)。 如果您選擇不提供特定函式的功能，您必須為它定義存根，並傳回 E \_ >notimpl。
+下列程式碼範例會顯示實作為 c + + 動態連結程式庫 (DLL) 的儲存介面卡外掛程式的基本結構。 若要查看 DLL 中每個公用函式的虛擬程式碼，請移至[儲存體 Adapter 函數](storage-adapter-functions.md)。 如果您選擇不提供特定函式的功能，您必須為它定義存根，並傳回 E \_ >notimpl。
 
 
 ```C++
@@ -738,9 +738,9 @@ StorageAdapterControlUnitPrivileged(
 [建立介面卡外掛程式](creating-adapter-plug-ins.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

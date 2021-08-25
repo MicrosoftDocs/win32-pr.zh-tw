@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101095
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: dd524ea6fab902ecb06f04e49bc53321e92c7c2e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: db6a63434c38b07e64b3c3590abc2e683f027f3273f257dec3beff6fd944c097
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104556561"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119976178"
 ---
 # <a name="esentbadbackupdatabasesizeexception-members"></a>EsentBadBackupDatabaseSizeException 成員
 

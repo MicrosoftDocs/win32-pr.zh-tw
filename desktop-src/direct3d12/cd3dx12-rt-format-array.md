@@ -15,12 +15,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c05b7ae9e51d2d6b2a43f45dc83bda2074f6b734
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 2a9c153b98e84176d2682f028657176902fb68ebc0e8e1e52c69c196842dc2fe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106993911"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119988358"
 ---
 # <a name="cd3dx12_rt_format_array-structure"></a>CD3DX12 \_ RT \_ 格式 \_ 陣列結構
 

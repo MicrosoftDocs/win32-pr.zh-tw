@@ -4,12 +4,12 @@ description: 本主題討論內容控制碼的失敗語義。
 ms.assetid: fcf28519-39ad-4823-bc27-f3502e4d540c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c4528b3f5160b92a4e6f10dbcf877e9fec59f81b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9549a659c56c4761de8df4f43c54b823d32f74786af928821ba82b6effc3bba7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021511"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120021268"
 ---
 # <a name="failure-semantics-for-context-handles"></a>內容控制碼的失敗語義
 
@@ -17,7 +17,7 @@ ms.locfileid: "104021511"
 
 ## <a name="failure-semantics-when-closing-the-context-handle-fails"></a>關閉內容控制碼失敗時的失敗語義
 
-假設用戶端應用程式嘗試關閉在伺服器上開啟的內容控制碼，而不關閉用戶端進程。 此外，假設對伺服器的呼叫關閉內容控制碼失敗 (例如，用戶端記憶體不足) 。 處理這種情況的適當方式是呼叫 [**RpcSsDestroyClientCoNtext**](/windows/desktop/api/Rpcndr/nf-rpcndr-rpcssdestroyclientcontext) 函數。 在這種情況下，用戶端會清除內容控制碼的側邊，而 abortively 會關閉與伺服器的連接。 由於連接是真正的連接集區 (請參閱 [RPC 和網路](rpc-and-the-network.md)) （參考計數的參考是針對每個開啟的系結或內容控制碼使用一個參考），藉由呼叫 **RpcSsDestroyClientCoNtext** 函式來終結內容控制碼，並不會實際損毀連接。 相反地，它會遞減連接集區的參考計數。 針對要關閉的集區中的連接，用戶端必須從用戶端進程關閉該伺服器的所有系結控制碼和內容控制碼。 然後，集區中的所有連接都會關閉，然後啟動並清除伺服器的執行機制。
+Imagine 用戶端應用程式嘗試關閉在伺服器上開啟的內容控制碼，而不關閉用戶端進程。 此外，假設對伺服器的呼叫關閉內容控制碼失敗 (例如，用戶端記憶體不足) 。 處理這種情況的適當方式是呼叫 [**RpcSsDestroyClientCoNtext**](/windows/desktop/api/Rpcndr/nf-rpcndr-rpcssdestroyclientcontext) 函數。 在這種情況下，用戶端會清除內容控制碼的側邊，而 abortively 會關閉與伺服器的連接。 由於連接是真正的連接集區 (請參閱 [RPC 和網路](rpc-and-the-network.md)) （參考計數的參考是針對每個開啟的系結或內容控制碼使用一個參考），藉由呼叫 **RpcSsDestroyClientCoNtext** 函式來終結內容控制碼，並不會實際損毀連接。 相反地，它會遞減連接集區的參考計數。 針對要關閉的集區中的連接，用戶端必須從用戶端進程關閉該伺服器的所有系結控制碼和內容控制碼。 然後，集區中的所有連接都會關閉，然後啟動並清除伺服器的執行機制。
 
 ## <a name="failure-semantics-during-change-of-state-of-the-context-handle"></a>變更內容控制碼狀態期間的失敗語義
 
@@ -69,9 +69,9 @@ ms.locfileid: "104021511"
 
     RPC 執行時間會呼叫內容處理常式執行時間，讓它有機會清除，而且用戶端上不會建立新的內容。
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: b62a6ccc-a1ea-455c-9659-544d4bcaf6a2
 title: '效果狀態 (Direct3D 9) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1fe92661fda82bd7dfa47ead0061ef8606e422a2
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 0eb7b00362520ed67203f5adf84f6c420e1e16fcb34dc741d2f3fdd303a2152d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107998865"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119986008"
 ---
 # <a name="effect-states-direct3d-9"></a>效果狀態 (Direct3D 9) 
 

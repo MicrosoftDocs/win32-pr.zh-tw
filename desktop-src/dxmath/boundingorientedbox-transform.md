@@ -11,12 +11,12 @@ api_name: ''
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 3a98a17415ea8af92c5614e07e72d6bafa9a79a9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1d049369e7653159bcc18b9a54fa7412bc41812b5bc7b0888ecb5b6babec9b25
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "107000094"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120022108"
 ---
 # <a name="boundingorientedboxtransform-methods"></a>BoundingOrientedBox 轉換方法
 

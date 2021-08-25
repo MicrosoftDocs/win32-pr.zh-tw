@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: CIM_Scanner 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5099a48978852171ab493838d3d57d3b41b0b90b
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: cedc33f945f37be7d5b7b23f30fccab7a11389a2f855033dda0c966490cc761a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104187632"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119920178"
 ---
 # <a name="cim_scanner-methods"></a>CIM \_ 掃描器方法
 

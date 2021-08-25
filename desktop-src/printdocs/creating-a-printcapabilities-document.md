@@ -4,12 +4,12 @@ ms.assetid: b49e20b7-bd9e-4b8f-bb4a-bb1e99b0c417
 title: 建立 PrintCapabilities 檔
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b96ea51cef9dfd0f351704b3b71a7f6163737736
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: cf1a01395df674b683349bd4a5f42fe1bd57ef2768ef4d967ba3aeda7734f5e5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112409511"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119950198"
 ---
 # <a name="creating-a-printcapabilities-document"></a>建立 PrintCapabilities 檔
 
@@ -19,7 +19,7 @@ ms.locfileid: "112409511"
 
 
 
-| 解決方案      | MediaType         | SpotDiameter   |
+| 解決方法      | MediaType         | SpotDiameter   |
 |-----------------|-------------------|----------------|
 | 300<br/>  | 債券<br/>   | 520<br/> |
 | 300<br/>  | 光澤<br/> | 350<br/> |

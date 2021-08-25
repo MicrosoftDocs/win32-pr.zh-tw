@@ -4,12 +4,12 @@ description: 本主題討論如何使用靜態控制項。
 ms.assetid: 155904e1-a963-496d-9b22-6e95ed0ebd47
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 064c1814b4f4ed6283b2fe22af06aed107e2c4d2
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 7aa9b77ff7c1357cede494f60c1d345d0eb4b8f5f8cf63ace13176179d385794
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103933655"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119922298"
 ---
 # <a name="about-static-controls"></a>關於靜態控制項
 
@@ -96,10 +96,10 @@ ms.locfileid: "103933655"
 
 
 
- 
+ 
 
 預先定義的視窗程式會將所有其他訊息傳遞給 [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) ，以進行預設處理。
 
- 
+ 
 
- 
+ 

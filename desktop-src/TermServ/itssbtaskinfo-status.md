@@ -18,12 +18,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3206013c32ee6cf3323f19c9e95e89c8d6756eb9
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d497bd46d1adfca88cce3a4b5c58cf72619ef1c38a03823ff26a14f2e6dfebd0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103685860"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120009238"
 ---
 # <a name="itssbtaskinfostatus-property"></a>ITsSbTaskInfo：： Status 屬性
 
@@ -54,7 +54,7 @@ HRESULT get_Status(
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | 都不支援<br/>                                                            |
 | 最低支援的伺服器<br/> | Windows Server 2012<br/>                                                       |
-| Idl<br/>                      | <dl> <dt>Sbtsv .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>Sbtsv .idl</dt> </dl> |
 
 
 

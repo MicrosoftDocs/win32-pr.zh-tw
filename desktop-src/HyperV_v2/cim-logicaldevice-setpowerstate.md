@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: a29f71806747e6d63f53618acd09d472ac8bdea5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 149145a3433b55cb8c71dc4affdea9a00b4cbd6696d77b91cfe6258b2f6e010e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944771"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119900268"
 ---
 # <a name="setpowerstate-method-of-the-cim_logicaldevice-class-hyper-v-management"></a>CIM_LogicalDevice 類別的 SetPowerState 方法 (Hyper-v 管理) 
 
@@ -40,7 +40,7 @@ uint32 SetPowerState(
 
 <dl> <dt>
 
-*>powerstate* \[在\]
+*>Powerstate* \[在\]
 </dt> <dd>
 
 要設定的電源狀態。

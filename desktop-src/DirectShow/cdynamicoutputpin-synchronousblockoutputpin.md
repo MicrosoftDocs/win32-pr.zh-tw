@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 7fff1a0a1f093b97d07c74d7916ef2a7511d0e16
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d8613a27d8af2dc2b69a93a1f324db17b054cf2dd312fdb0c9d6cd63e6c89ca8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107001206"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119916308"
 ---
 # <a name="cdynamicoutputpinsynchronousblockoutputpin-method"></a>CDynamicOutputPin. SynchronousBlockOutputPin 方法
 
@@ -46,7 +46,7 @@ HRESULT SynchronousBlockOutputPin();
 
 
 
-| 傳回碼                                                                                                                    | Description                                              |
+| 傳回碼                                                                                                                    | 描述                                              |
 |--------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>                                           | 成功。<br/>                                      |
 | <dl> <dt>**VFW \_ E \_ PIN \_ 已 \_ 封鎖**</dt> </dl>                   | Pin 已在另一個執行緒上遭到封鎖。<br/>     |

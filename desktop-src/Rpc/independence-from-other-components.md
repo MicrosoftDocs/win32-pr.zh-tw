@@ -6,12 +6,12 @@ keywords:
 - 與其他元件的獨立性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3ba20a47a5bb30d8e23c1a90d666bc6b957ebb98
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7b8174ffa0469550d3a7b274fb28f2f30dd807314e6bd596b75469f717f5924a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103932503"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120020448"
 ---
 # <a name="independence-from-other-components"></a>與其他元件的獨立性
 
@@ -27,9 +27,9 @@ ms.locfileid: "103932503"
 
     如果接受問題的探查無法運作，因為呼叫是本機的，或由於錯誤源自本機，請將偵錯工具附加至傳回錯誤的進程，並在 RPC 呼叫產生錯誤之後立即放置中斷點。 RPC 通常會藉由擲回例外狀況來指出錯誤，因此，如果您要尋找錯誤 1825 (RPC \_ S \_ SEC \_ PKG \_ error) ，請啟用例外狀況1825，並在偵錯工具中斷該例外狀況時，檢查執行緒的延伸錯誤資訊。
 
- 
+ 
 
- 
+ 
 
 
 

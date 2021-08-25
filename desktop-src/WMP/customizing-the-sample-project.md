@@ -1,6 +1,6 @@
 ---
-title: 自訂範例專案
-description: 自訂範例專案
+title: 自訂範例 Project
+description: 自訂範例 Project
 ms.assetid: 26031971-3d1b-4175-8fb3-f13b6c17dd01
 keywords:
 - Windows Media Player 線上商店，自訂範例專案
@@ -13,14 +13,14 @@ keywords:
 - 範例，請輸入2個線上商店
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0aeec3ebcb74304cd5181783e9c457d6a149b0cc
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 5fdb57327904d81ac85114af0df9037d6c2c054938f16048f6ca72e711063cc4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103932501"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119902078"
 ---
-# <a name="customizing-the-sample-project"></a>自訂範例專案
+# <a name="customizing-the-sample-project"></a>自訂範例 Project
 
 建立您自己的線上商店時，您會想要在名為 Yourproject。的檔案中變更下列方法的實作為：
 
@@ -61,9 +61,9 @@ ms.locfileid: "103932501"
 [**建立 Type 2 線上商店的外掛程式**](building-the-plug-in-for-a-type-2-online-store.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

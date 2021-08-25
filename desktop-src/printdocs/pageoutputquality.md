@@ -4,12 +4,12 @@ ms.assetid: 4720f812-a71a-458f-85fa-7885cca0dbbb
 title: PageOutputQuality
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8001d8ffd6bb3ead50a27b9ea36c9849c475576f
-ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
+ms.openlocfilehash: 59a17235061e2a00f665389be676e0f4099a1fcbf279391e350b0f0c973261c5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112395585"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119948178"
 ---
 # <a name="pageoutputquality"></a>PageOutputQuality
 
@@ -25,7 +25,7 @@ ms.locfileid: "112395585"
 
 
 
-| Name | 值 |
+| 名稱 | 值 |
 |----------------------------|--------------------|
 | 項目類型 <br/>   | 功能<br/> |
 | 範圍前置詞 <br/> | 頁面<br/>    |
@@ -59,10 +59,10 @@ ms.locfileid: "112395585"
 
 
 
-| Name                               | 資料類型         | 單位                  | 支援的值                                                                                                                                                                      | 總結                                                                      |
+| 名稱                               | 資料類型         | 單位                  | 支援的值                                                                                                                                                                      | 摘要                                                                      |
 |------------------------------------|-------------------|-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------|
-| \_選項名稱\_<br/>          | string<br/> | 字元<br/> | 以 [XML 命名空間](https://www.w3.org/TR/1999/REC-xml-names-19990114/)所定義的有效完整名稱。 如果未指定命名空間，則會假設為預設命名空間。<br/> | 選項的名稱。<br/>                                            |
-| \_IdentityOptionValue\_<br/> | string<br/> | n/a<br/>        | True、False<br/>                                                                                                                                                                | 定義選項，當選取此選項時，會停用此功能。<br/> |
+| \_選項名稱\_<br/>          | 字串<br/> | 字元<br/> | 以 [XML 命名空間](https://www.w3.org/TR/1999/REC-xml-names-19990114/)所定義的有效完整名稱。 如果未指定命名空間，則會假設為預設命名空間。<br/> | 選項的名稱。<br/>                                            |
+| \_IdentityOptionValue\_<br/> | 字串<br/> | n/a<br/>        | True、False<br/>                                                                                                                                                                | 定義選項，當選取此選項時，會停用此功能。<br/> |
 
 
 

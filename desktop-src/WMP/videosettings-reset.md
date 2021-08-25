@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 1f3eb0e3670107dc59968ddf20228aff78dd6c08
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e35eacf307dc20bbe20338911baec611e0e6bf5875fde349be92f511e7a7f791
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994095"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119900698"
 ---
 # <a name="videosettingsreset"></a>VIDEOSETTINGS 重設
 
@@ -42,7 +42,7 @@ ms.locfileid: "106994095"
 
 | 需求 | 值 |
 |--------------------|-----------------------------------------------------------------|
-| 版本<br/> | 適用于 Windows XP 或更新版本的 Windows Media Player 版本<br/> |
+| 版本<br/> | Windows XP 或更新版本的 Windows Media Player 版本<br/> |
 
 
 

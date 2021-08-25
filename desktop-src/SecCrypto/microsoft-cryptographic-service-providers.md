@@ -4,12 +4,12 @@ ms.assetid: 1461914e-5506-4f24-97da-3d2148aafd1c
 title: Microsoft 密碼編譯服務提供者
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 294d00660cbfa89c6113e6e9fcf2600b2f745e6c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 17cac0ff0276a548e5855a3f2d0d69cac3dcdc2ab35001a7f8dcabdb5cfd62bd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "107000075"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119992818"
 ---
 # <a name="microsoft-cryptographic-service-providers"></a>Microsoft 密碼編譯服務提供者
 
@@ -20,7 +20,7 @@ ms.locfileid: "107000075"
 | 提供者                                                                                                                                 | 描述                                                                                                                                                                                                                                              |
 |------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Microsoft 基礎密碼編譯提供者](microsoft-base-cryptographic-provider.md)                                                       | 一組廣泛的基本密碼編譯功能，可匯出至其他國家或地區。                                                                                                                                                     |
-| [Microsoft 強式密碼編譯提供者](microsoft-strong-cryptographic-provider.md)                                                   | 適用于 Windows XP 及更新版本的 Microsoft 基礎密碼編譯提供者延伸模組。                                                                                                                                                           |
+| [Microsoft 強式密碼編譯提供者](microsoft-strong-cryptographic-provider.md)                                                   | Windows XP 及更新版本提供的 Microsoft 基礎密碼編譯提供者的延伸模組。                                                                                                                                                           |
 | [Microsoft 增強型密碼編譯提供者](microsoft-enhanced-cryptographic-provider.md)                                               | 使用較長的金鑰和其他演算法的 Microsoft 基礎密碼編譯提供者。                                                                                                                                                                |
 | [Microsoft AES 密碼編譯提供者](microsoft-aes-cryptographic-provider.md)                                                         | Microsoft 增強型密碼編譯提供者，支援 AES 加密演算法。                                                                                                                                                                    |
 | [Microsoft DSS 密碼編譯提供者](microsoft-dss-cryptographic-provider.md)                                                         | 使用安全雜湊演算法 ([*SHA*](../secgloss/s-gly.md)) 和數位簽章標準 (DSS) 演算法，提供雜湊、資料簽章和簽章驗證功能。 |

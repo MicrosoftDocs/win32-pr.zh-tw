@@ -4,12 +4,12 @@ ms.assetid: b3403a64-128c-461e-9384-8e62c03322e1
 title: 搜尋分散式路由表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1c9977ca395393cef09198182fb8790738d2b00c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b9016c351412d80b7adb97bc4325dae546e24db68e5737badc311e7c068f1a22
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106985260"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120034238"
 ---
 # <a name="searching-a-distributed-routing-table"></a>搜尋分散式路由表
 

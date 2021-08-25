@@ -4,12 +4,12 @@ description: 依預設，在整個關聯關閉之前，不會關閉執行緒集�
 ms.assetid: e3d6c89b-0ec5-429d-96d9-1396cce10750
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 75587781991c2aae86968d90c9da51331d7a29e9
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ddc7a7d4cefcead53e9b92678867cd76ceb6fab7f1ab5f1a573cf75378cf2a5c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839507"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120020798"
 ---
 # <a name="idle-connection-cleanup"></a>閒置連接清除
 
@@ -17,9 +17,9 @@ ms.locfileid: "103839507"
 
 在 Windows XP 上，RPC 執行時間會追蹤關聯中開啟的連接數目，如果任何關聯中的連接數目超過特定臨界值，就會自動開啟閒置的連線清除。
 
- 
+ 
 
- 
+ 
 
 
 

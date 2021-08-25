@@ -4,12 +4,12 @@ ms.assetid: 5f00f638-9edb-474b-a7e4-f6f7b62c89a4
 title: PKCS \# 10 屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b6c69260fa09b99c4d91fa1f8bcdafeb4b0da285
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d7922f7d308c6956af4c0098ea278a859113af45861ef3d21a20548081e7eee3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104321051"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119993288"
 ---
 # <a name="pkcs-10-attributes"></a>PKCS \# 10 屬性
 

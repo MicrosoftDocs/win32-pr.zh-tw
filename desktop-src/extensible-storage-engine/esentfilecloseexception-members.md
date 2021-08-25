@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101676
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: abd7aa39d168b278ce39712d2aa76d7bb81121f1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e7f4e3f8f3185622efeb93badaf72109d755d62be7bedf68035414f2612dc6c6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103849843"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120020952"
 ---
 # <a name="esentfilecloseexception-members"></a>EsentFileCloseException 成員
 

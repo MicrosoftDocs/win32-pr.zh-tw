@@ -4,12 +4,12 @@ description: 設定 HTTP Server API 寬計時器
 ms.assetid: 34f80bac-a7c5-4949-9c15-ed63a3582e26
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ae91abb1c89419e99fa13273cd55b0783df3906a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 5e0eb5fc40bedd51884830893673b3bae2341a21110fa2c3b33878dba7a4aef0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104183545"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120047348"
 ---
 # <a name="configuring-the-http-server-api-wide-timers"></a>設定 HTTP Server API 寬計時器
 
@@ -17,9 +17,9 @@ HTTP 伺服器 API 範圍的 **HeaderWait** 和 **IdleConnection** 計時器是�
 
 設定 HTTP 伺服器 API 範圍的超時會需要系統管理許可權，不過查詢它們並不會。 這些設定會針對電腦上的所有應用程式進行設定，並在重新開機 HTTP 服務或重新開機電腦時保存這些設定。 若要查詢現有的 HTTP 伺服器整個 API 的超時，應用程式會呼叫 [**HttpQueryServiceConfiguration**](/windows/desktop/api/Http/nf-http-httpqueryserviceconfiguration)。
 
- 
+ 
 
- 
+ 
 
 
 

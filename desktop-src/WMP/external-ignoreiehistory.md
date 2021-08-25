@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 436dd774d247e150729d1921dc842bf0ecd3c26d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 39e874c6920c794f015c51bc1f1084ff545eb710e297f5e43b7c44e49ca39396
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995595"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119901938"
 ---
 # <a name="externalignoreiehistory"></a>IgnoreIEHistory
 
@@ -28,7 +28,7 @@ ms.locfileid: "106995595"
 
  
 
-**IgnoreIEHistory** 屬性會指定 Windows Media Player 是否應該忽略 Internet Explorer 歷程記錄。
+**ignoreIEHistory** 屬性會指定 Windows Media Player 是否應該忽略 Internet Explorer 歷程記錄。
 
 ``` syntax
 window.external.ignoreIEHistory

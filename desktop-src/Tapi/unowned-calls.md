@@ -4,12 +4,12 @@ ms.assetid: 6aa9ceb8-4dc7-46b9-979c-bf59a92cdf27
 title: 未擁有的呼叫
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ebf07f4d109eb83fb8666728d71c1e129d6cb499
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0ea6fffa2ee65f24d73337980e2a8952157aa5d1000e5c657d75af372f26f00d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106986371"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119991648"
 ---
 # <a name="unowned-calls"></a>未擁有的呼叫
 

@@ -4,12 +4,12 @@ ms.assetid: 66ee4dd6-15d2-49e8-89a3-6fbb5770cabf
 title: COM + 資源配置器介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 17a6ea5c5c09f67f86b42ebf5b881f1d19ad1501
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: ac7fa011681defaddc160e835c7caeb6719054f5e4397903a1716ae76f81c7c2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847160"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119991518"
 ---
 # <a name="com-resource-dispenser-interfaces"></a>COM + 資源配置器介面
 
@@ -17,7 +17,7 @@ ms.locfileid: "103847160"
 
 
 
-| 介面                                                | Description                                                                                                               |
+| 介面                                                | 描述                                                                                                               |
 |-----------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
 | [**IDispenserDriver**](/windows/desktop/api/ComSvcs/nn-comsvcs-idispenserdriver)<br/>   | 資源配置器持有者會呼叫此介面來建立、登錄、評估和終結資源。<br/> |
 | [**IDispenserManager**](/windows/desktop/api/ComSvcs/nn-comsvcs-idispensermanager)<br/> | 資源機使用此介面連接到分配器管理員。<br/>                                    |

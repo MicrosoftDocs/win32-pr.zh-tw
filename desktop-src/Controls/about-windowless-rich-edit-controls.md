@@ -4,12 +4,12 @@ description: 無視窗的 rich edit 控制項（也稱為文字服務物件）�
 ms.assetid: 880a704d-776a-49d3-be31-0328af408e3b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fc1c8bc685dff5f8ddb041011089a84eb2e12008
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 96b68a2bc0317a884f0516b73b3674d104c4fa6c12f16bdc24960d7ea0ef8bbf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103933633"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119922178"
 ---
 # <a name="about-windowless-rich-edit-controls"></a>關於無視窗的 Rich Edit 控制項
 
@@ -66,6 +66,6 @@ Msftedit.dll 也會匯出名為 **iid \_ ITextHost** 的介面識別碼 (iid) �
 
 您也可以將文字服務物件建立為 [COM 匯總物件](/windows/desktop/com/aggregation)的一部分。 這可讓您輕鬆地使用無視窗元件物件模型來匯總文字服務物件 (COM) 物件。
 
- 
+ 
 
- 
+ 

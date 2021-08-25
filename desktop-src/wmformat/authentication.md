@@ -1,10 +1,10 @@
 ---
-title: '驗證 (Windows Media Format 11 SDK) '
+title: '驗證 (Windows 媒體格式 11 SDK) '
 description: 驗證
 ms.assetid: 9c181615-e864-4588-846f-d04d73824f5f
 keywords:
-- Windows Media Format SDK，驗證
-- Windows Media Format SDK，網路驗證
+- Windows媒體格式 SDK，驗證
+- Windows媒體格式 SDK，網路驗證
 - Advanced Systems Format (ASF) 、驗證
 - ASF (Advanced 系統格式) 、驗證
 - Advanced Systems Format (ASF) ，網路驗證
@@ -13,14 +13,14 @@ keywords:
 - 網路驗證，關於
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0bf815881ac7beb354fffbfdb9b5475d040e9e83
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 1ee276bc2800ad7f2d5fa94f00e282dc7d4f5402396d69eb7e3b240fd4303f4b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "106968527"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120007118"
 ---
-# <a name="authentication-windows-media-format-11-sdk"></a>驗證 (Windows Media Format 11 SDK) 
+# <a name="authentication-windows-media-format-11-sdk"></a>驗證 (Windows 媒體格式 11 SDK) 
 
 讀取器物件可以處理網路驗證挑戰，包括摘要式驗證和 NTLM 驗證。 在某些情況下，應用程式必須透過回呼介面提供使用者的認證：
 
@@ -28,7 +28,7 @@ ms.locfileid: "106968527"
 -   NTLM 驗證：讀取器會自動回應使用者的登入認證。 如果目前的使用者已獲授權登入伺服器，則應用程式不需要執行任何動作。 如果使用者沒有授權，應用程式必須執行 **IWMCredentialCallback** 介面。
 
     > [!Note]  
-    > Windows Media Services 4.1 版不支援透過 proxy 伺服器進行 NTLM 驗證。 NTLM 驗證需要相同連線上的數個用戶端-伺服器交換，而4.1 版則不會持續與 proxy 的連接。 Microsoft Windows Server 2003 中的 Windows Media Services 9 系列支援透過 proxy 伺服器進行 NTLM 驗證，只要 proxy 支援 keep-alive 連線即可。
+    > Windows Media Services 版本4.1 不支援透過 proxy 伺服器進行 NTLM 驗證。 NTLM 驗證需要相同連線上的數個用戶端-伺服器交換，而4.1 版則不會持續與 proxy 的連接。 Microsoft Windows Server 2003 Windows Media Services 9 系列支援透過 proxy 伺服器進行 NTLM 驗證，只要 proxy 支援 keep-alive 連線即可。
 
      
 

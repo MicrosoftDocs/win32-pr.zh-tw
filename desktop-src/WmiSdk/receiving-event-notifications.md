@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 接收事件通知
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 43873c03155f2186f9d3a9a3daff9b8e322e511f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1064fd0098ac72c6ceecbb5fcbc212fb38f6b2b25d0e61d8149bdb0fad177267
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106980769"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119996008"
 ---
 # <a name="receiving-event-notifications"></a>接收事件通知
 

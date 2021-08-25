@@ -4,12 +4,12 @@ description: 在遠端程序呼叫中使用多個層級的指標， (RPC) 。
 ms.assetid: d45b9b20-3b21-4d46-9097-8aacb4e4e921
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a61a917ee29c982505c601d7b0dd0721e94e4678
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 866c4424679f69daf3a5d88f137d55bd485824ef08498266882d84931a6d03f1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103933456"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120019638"
 ---
 # <a name="multiple-levels-of-pointers"></a>多個指標層級
 
@@ -41,6 +41,6 @@ interface AnInterface
 [**大小 \_ 為**](/windows/desktop/Midl/size-is)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

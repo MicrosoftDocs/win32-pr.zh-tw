@@ -11,12 +11,12 @@ keywords:
 - 資料流程，寫入影像資料流程
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 60daa9b62701c172d127c4cff1fb6c301edf7d86
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 7a6061af2ff43cbeb3fe688b6533eee044036df029bdb7f7305af305c8d45084
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "103932934"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120006298"
 ---
 # <a name="writing-image-streams"></a>寫入影像資料流程
 
@@ -37,9 +37,9 @@ ms.locfileid: "103932934"
 [**寫入 ASF 檔案**](writing-asf-files.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

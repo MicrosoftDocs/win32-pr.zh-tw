@@ -4,12 +4,12 @@ ms.assetid: 48dcbc86-631e-4bc7-b809-b0e4a0a9ae8e
 title: 'Direct3d 材質 (Direct3D 9) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7afebd7217b36ad5f740616e198963314a1d2aca
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: a2ebce13b3db2669123c0acc1cc3aa83233fb4699440801dc69bd6862f14b3fc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104108468"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119986118"
 ---
 # <a name="direct3d-textures-direct3d-9"></a>Direct3d 材質 (Direct3D 9) 
 

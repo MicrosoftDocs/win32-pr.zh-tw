@@ -3,7 +3,7 @@ title: 'TB_GETTEXTROWS 訊息 (Commctrl .h) '
 description: 抓取工具列按鈕上可顯示的文字資料列數目上限。
 ms.assetid: a7950e5f-c80a-4af2-9ccd-d8e3df5552d2
 keywords:
-- TB_GETTEXTROWS message Windows 控制項
+- TB_GETTEXTROWS 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 69a871d1a13091b6dd70fa6d9f309735115e85ee
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a2dc6867530eac1c178c4f6e58ab8b42740af558d32b9edfcfd1f1431b253cd9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105258"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119918483"
 ---
 # <a name="tb_gettextrows-message"></a>TB \_ GETTEXTROWS 訊息
 
@@ -45,8 +45,8 @@ ms.locfileid: "104105258"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

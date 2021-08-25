@@ -4,12 +4,12 @@ description: C 和 c + + 程式設計語言基本上提供兩種類型的陣列�
 ms.assetid: 2aa042d6-6fd9-4164-a8bd-b73b9dceb0bf
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a7aeadbe4a83465d6b70389122ab1826e6791edd
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6e09ca93b4cb0967223fcbe007049f9b7b4368fe85ef917dee69de5ad713c05a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103932577"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120023928"
 ---
 # <a name="arrays-and-rpc"></a>陣列和 RPC
 
@@ -21,9 +21,9 @@ C 和 c + + 程式設計語言基本上提供兩種類型的陣列：單一維�
 -   [陣列屬性](array-attributes.md)
 -   [多維陣列](multidimensional-arrays.md)
 
- 
+ 
 
- 
+ 
 
 
 

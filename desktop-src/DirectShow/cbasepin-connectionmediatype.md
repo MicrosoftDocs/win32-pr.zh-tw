@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 62bd211b6c93e44c571d822ccc86104a5a6fdcab
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: cdeed52a212a659ca280163ea9513f0cb4f373ea2686bfde00078ebccb183daa
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106998699"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119916748"
 ---
 # <a name="cbasepinconnectionmediatype-method"></a>CBasePin. ConnectionMediaType 方法
 
@@ -55,7 +55,7 @@ HRESULT ConnectionMediaType(
 
 
 
-| 傳回碼                                                                                           | Description                           |
+| 傳回碼                                                                                           | 描述                           |
 |-------------------------------------------------------------------------------------------------------|---------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>                  | 成功。<br/>                   |
 | <dl> <dt>**E \_ 指標**</dt> </dl>             | **Null** 指標引數。<br/> |

@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ea51c4685f0c825fbc1a1b26eb3f22b5deefe32d
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 4b28ec9508dd5ed8d529c1a2634879c9df3e7642e66b03b02757f61088df59c4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103686808"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120049748"
 ---
 # <a name="dhcp-state-attribute"></a>dhcp 狀態屬性
 

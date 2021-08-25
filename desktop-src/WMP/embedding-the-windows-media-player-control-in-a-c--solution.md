@@ -3,30 +3,30 @@ title: 在 C 方案中內嵌 Windows Media Player 控制項
 description: 在 C \ 方案中內嵌 Windows Media Player 控制項
 ms.assetid: 0889cfd8-ed1f-4d0c-aff8-bff2f55ffccb
 keywords:
-- Windows Media Player 嵌入 ActiveX 控制項
-- Windows Media Player 物件模型，嵌入 ActiveX 控制項
+- Windows Media Player，內嵌 ActiveX 控制項
+- Windows Media Player 物件模型，內嵌 ActiveX 控制項
 - 物件模型，嵌入 ActiveX 控制項
-- Windows Media Player 行動裝置，內嵌 ActiveX 控制項
-- Windows Media Player ActiveX 控制項，內嵌
-- Windows Media Player 的行動 ActiveX 控制項，內嵌
-- ActiveX 控制項，嵌入
+- Windows Media PlayerMobile、內嵌 ActiveX 控制項
+- Windows Media Player ActiveX 控制項、內嵌
+- Windows Media PlayerMobile ActiveX 控制項，內嵌
+- ActiveX 控制項，內嵌
 - Windows Media Player、C
 - Windows Media Player 物件模型，C
 - 物件模型、C
-- Windows Media Player Mobile、C
-- Windows Media Player ActiveX 控制項，C
-- Windows Media Player 行動 ActiveX 控制項，C
+- Windows Media PlayerMobile、C
+- Windows Media Player ActiveX 控制項、C
+- Windows Media PlayerMobile ActiveX control、C
 - ActiveX 控制項，C
 - 內嵌、C 程式
 - C 程式內嵌
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c950bed9812cea0aa6ce28995fd6998bb8417ac
-ms.sourcegitcommit: e22adfb0dd3bb989e59455baedb4d905a877a240
+ms.openlocfilehash: a067a407fccdd78d71d9e60bc00d1eae6950e3fdaf204f886c5e96edf372eb07
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/21/2019
-ms.locfileid: "106995145"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119901978"
 ---
 # <a name="embedding-the-windows-media-player-control-in-a-c-solution"></a>在 c # 方案中內嵌 Windows Media Player 控制項
 
@@ -36,7 +36,7 @@ ms.locfileid: "106995145"
 
 ## <a name="add-the-video-window"></a>新增影片視窗
 
-將 Windows Media Player 的 ActiveX 控制項新增至表單。 調整控制項的大小，然後將它放在您想要顯示影片視窗的位置。
+將 Windows Media Player ActiveX 控制項新增至表單。 調整控制項的大小，然後將它放在您想要顯示影片視窗的位置。
 
 選取 Windows Media Player 控制項，然後將 [ **uiMode** ] 屬性變更為 [無]。 此設定會隱藏 UI 控制項。 當使用者播放影片時，它會出現在視窗中。 針對僅限音訊的內容，將會出現視覺效果。
 
@@ -109,9 +109,9 @@ axWindowsMediaPlayer1.Ctlcontrols.stop();
 
 
 > [!Note]  
-> Windows Media Player 控制項的 managed 程式碼包裝函式會將 **控制項** 物件公開為 **Ctlcontrols** ，以避免與繼承自 **system.object** 的 **控制項** 屬性衝突。
+> Windows Media Player 控制項的 managed 程式碼包裝函式會將 **控制項** 物件公開為 **Ctlcontrols** ，以避免與繼承自 System. Windows 的 **控制項** 屬性衝突 **。表單. 控制項**。
 
- 
+ 
 
 ## <a name="add-error-handling"></a>新增錯誤處理
 
@@ -159,9 +159,9 @@ catch(InvalidCastException)
 [**在 .NET Framework 方案中內嵌 Windows Media Player 控制項**](using-the-windows-media-player-control-in-a--net-framework-solution.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

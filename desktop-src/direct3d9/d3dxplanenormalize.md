@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: d38ccbc3f688ed61779cf48a77e97dfb544c686e
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: a8a5a80526e013c85caf59b3a6a3d6c595a3c10a6e29687882c7789765368d06
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108094146"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119952308"
 ---
 # <a name="d3dxplanenormalize-function-d3dx9mathh"></a>D3DXPlaneNormalize 函式 (D3dx9math) 
 

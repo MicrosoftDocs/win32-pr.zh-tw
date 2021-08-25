@@ -4,12 +4,12 @@ ms.assetid: c05c7dbf-c3e0-42a7-a97e-bb9d9764209d
 title: 使用畫筆進行清除
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2c9e71828e826f2d57dd21e57934e12c8de0be03
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f96d7d281f4e94a4a53f7e99e83c38192ceb7d31fbf9ee643653a20b4836a7cd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104386155"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119936568"
 ---
 # <a name="erasing-by-using-the-pen"></a>使用畫筆進行清除
 
@@ -29,7 +29,7 @@ Tablet 畫筆的秘訣通常用於手寫和繪圖;不過，秘訣也可以用來
 
 ### <a name="determining-if-erasing-with-the-top-of-the-pen-is-enabled"></a>判斷是否已啟用在畫筆上方清除
 
-使用者可以使用畫筆的上方來清除針對 Tablet PC 所設計之應用程式中的筆跡（如果其特定硬體允許的話）。 這項功能是由 [Tablet 和畫筆設定] 控制台對話方塊中 [畫筆選項] 索引標籤上的 [畫筆按鈕] 群組方塊中的核取方塊來存取。 若要偵測使用者是否已在畫筆上方啟用清除，請檢查下列登錄子機碼：
+使用者可以使用畫筆的上方來清除針對 Tablet PC 所設計之應用程式中的筆跡（如果其特定硬體允許的話）。 這項功能是由 Tablet 和 Pen 設定 [控制台] 對話方塊之 [畫筆選項] 索引標籤上的 [畫筆按鈕] 群組方塊中的核取方塊所存取。 若要偵測使用者是否已在畫筆上方啟用清除，請檢查下列登錄子機碼：
 
 `HKEY_CURRENT_USER\SOFTWARE\Microsoft\WISP\PEN\SysEventParameters`
 

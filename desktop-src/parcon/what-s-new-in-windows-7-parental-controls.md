@@ -4,32 +4,32 @@ ms.assetid: 5723fddd-52e2-46a1-a48f-647d479b21d9
 title: Windows 7 家長監護有哪些新功能
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8282021c81ee8611fb7206d75f7e6aab48ebf2e7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3f7b545c6791d286e51ae7a36ed65623d1697a7e742b1ae956e3ef4aaf3425e2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106981008"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119951818"
 ---
 # <a name="whats-new-in-windows-7-parental-controls"></a>Windows 7 父母控制項的新功能
 
 ## <a name="overview-of-parental-controls-changes-for-windows-7"></a>Windows 7 的家長監護變更總覽
 
-本檔的目的是概述 Windows 7 中所引進之 Windows 家長監護的變更，並讓協力廠商家長監護解決方案提供者能夠利用這些變更。 本檔假設讀者對 Windows Vista 的家長監護有更熟悉的程度，而且只會反映對 Windows 7 的這項功能所做的變更，這些變更與協力廠商家長監護解決方案開發有關。 MSDN Windows 家長監護檔的完整更新將在稍後的日期之後進行。
+本檔的目的是概述 Windows 7 中所引進 Windows 家長監護的變更，並讓協力廠商家長監護解決方案提供者能夠利用這些變更。 本檔假設讀者對 Windows Vista 的家長監護有熟悉，而且只會反映在與協力廠商家長監護開發相關的 Windows 7 中所做的這項功能變更。 MSDN Windows 家長監護檔的完整更新將在稍後的日期之後進行。
 
-## <a name="key-design-decisions-for-windows-7-parental-control-changes"></a>Windows 7 家長監護控制項變更的重要設計決策
+## <a name="key-design-decisions-for-windows-7-parental-control-changes"></a>Windows 7 家長監護變更的關鍵設計決策
 
-在 Windows 7 中引進之家長監護的變更，可繼續提升協力廠商家長監護解決方案與隨用隨功能共存的主要目標。 變更為：
+Windows 7 中所引進之家長監護的變更，可繼續提升協力廠商家長監護解決方案與隨用隨的功能共存的主要目標。 變更為：
 
--   從內建家長監護功能移除 web 篩選和活動報告。 內建的家長監護提供核心離線 Microsoft 實行的限制，例如時間限制、應用程式限制和遊戲限制。 Microsoft 或協力廠商家長監護解決方案可以提供 web 篩選、活動報告和其他功能。 例如，Windows Live Family 安全性解決方案提供網路篩選、遠端系統管理和活動監控，以及所有 Windows Live 應用程式的連絡人管理。
+-   從內建家長監護功能移除 web 篩選和活動報告。 內建的家長監護提供核心離線 Microsoft 實行的限制，例如時間限制、應用程式限制和遊戲限制。 Microsoft 或協力廠商家長監護解決方案可以提供 web 篩選、活動報告和其他功能。 例如，Windows Live 家長監護服務解決方案提供網路篩選、遠端系統管理和活動監視，以及所有 Windows 即時應用程式的連絡人管理。
 -   啟用協力廠商解決方案來取代內建提供者的設定使用者介面，同時仍依賴內建的時間、應用程式和遊戲限制的執行。
 -    (系統管理員帳戶) ，啟用在電腦上探索和啟用的協力廠商解決方案。
 
 ## <a name="parental-controls-top-level-user-interface-changes-in-windows-7"></a>家長監護 Windows 7 中最上層的消費者介面變更
 
-Windows 7 會將下列變更變更為最上層使用者介面主控台的家長監護：
+Windows 7 會將下列變更提供給上層使用者介面主控台的家長監護：
 
--   另外也引進了可從下拉式清單方塊中選取提供其他功能的控制項（例如，web 篩選、活動報告等等）的控制項區段。 Microsoft 或協力廠商提供者必須向 Windows 7 家長監護註冊他們的解決方案，才能從 [其他控制項] 下拉式清單方塊中選取這些控制項。 如需註冊解決方案的詳細資訊，請參閱本主題稍後的「提供者註冊」) 。
+-   另外也引進了可從下拉式清單方塊中選取提供其他功能的控制項（例如，web 篩選、活動報告等等）的控制項區段。 Microsoft 或協力廠商提供者必須向 Windows 7 家長監護註冊解決方案，才能從 [其他控制項] 下拉式清單方塊中選取這些控制項。 如需註冊解決方案的詳細資訊，請參閱本主題稍後的「提供者註冊」) 。
 -   目前所選提供者的標誌影像會顯示在頁面的右上角。
 -   受管理的使用者磚可顯示目前所選取提供者所提供之家長設定的摘要。
 
@@ -77,7 +77,7 @@ HKEY_LOCAL_MACHINE
 | <span id="Description"></span><span id="description"></span><span id="DESCRIPTION"></span>**描述**<br/> | 資源二進位檔的完整路徑，具有提供者描述的負資源識別碼。 描述長度不應超過200個字元。<br/>                               |
 | <span id="StateCLSID"></span><span id="stateclsid"></span><span id="STATECLSID"></span>**StateCLSID**<br/>     | 實 IWPCProviderState 之提供者類別的類別識別碼。<br/>                                                                                                                     |
 | <span id="ConfigCLSID"></span><span id="configclsid"></span><span id="CONFIGCLSID"></span>**ConfigCLSID**<br/> | 提供者類別的類別識別碼，它會執行 IWPCProviderConfig。 **StateCLSID** 和 **ConfigCLSID** 可以相同。<br/>                                                               |
-| <span id="GRSVisible"></span><span id="grsvisible"></span><span id="GRSVISIBLE"></span>**GRSVisible**<br/>     | 選擇性的 **DWORD** 非零值，指定在選取提供者作為新的目前提供者之後，Windows 家長監護會顯示遊戲評等系統畫面的連結。<br/> |
+| <span id="GRSVisible"></span><span id="grsvisible"></span><span id="GRSVISIBLE"></span>**GRSVisible**<br/>     | 選用的 **DWORD** 非零值，指定在選取提供者作為新的目前提供者之後，Windows 家長監護會顯示遊戲評等系統畫面的連結。<br/> |
 
 
 

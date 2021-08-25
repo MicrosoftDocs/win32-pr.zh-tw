@@ -4,12 +4,12 @@ ms.assetid: 5ffac4f8-7112-4383-bf73-16e2289a3942
 title: 家長監護活動報告
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a41527e166b683e2ae7cd72129d9c9f3e032c7c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3a5d45a180114c2c53dbccc48836697b1a4fdab733db4f06237696d3dd50f42c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980397"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119939358"
 ---
 # <a name="parental-controls-activity-reporting"></a>家長監護活動報告
 
@@ -19,9 +19,9 @@ ms.locfileid: "106980397"
 
 [家長監護] 面板右上方的 [摘要] 方塊指出活動報告的目前狀態。
 
-活動事件也會出現在事件檢視器中，並在應用程式記錄檔中顯示 Microsoft.com/Windows/ParentalControls 的名稱。
+您也可以在事件檢視器中看到活動事件，並在應用程式記錄檔中使用 Microsoft.com/Windows/ParentalControls 的名稱。
 
-這項功能取決於 Windows Vista 中的新事件記錄功能，並使用提供的發佈 Api。
+這項功能取決於 Windows Vista 中的新事件記錄功能，並使用提供的發佈 api。
 
  
 

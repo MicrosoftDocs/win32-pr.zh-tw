@@ -4,12 +4,12 @@ ms.assetid: 1d692501-a524-4ad4-8779-d71f1bda7bc9
 title: " (Direct3D 9) 的音量材質資源"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 67c66ff97d04e3c7c6c0a032f9a230dfd511b38c
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 17e72448fd1fd4856cf81a344f5c176fdb6272546468126975edbff8b20218d5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104551211"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119984351"
 ---
 # <a name="volume-texture-resources-direct3d-9"></a> (Direct3D 9) 的音量材質資源
 

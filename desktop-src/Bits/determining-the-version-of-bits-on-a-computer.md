@@ -4,12 +4,12 @@ description: 若要判斷用戶端電腦上的位版本，請檢查 QMgr.dll 的
 ms.assetid: b6057ae4-3bf0-4304-ae50-5da5e82a0bed
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c94e151608511ec59e52befdef6e4f63e44476e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 8caa2c501fd5f37d44becf11679debb1390aeeb9ee47bee02b43a97788493cd7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671440"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120005308"
 ---
 # <a name="determining-the-version-of-bits-on-a-computer"></a>判斷電腦上的位版本
 
@@ -44,7 +44,7 @@ ms.locfileid: "103671440"
 
 
 
- 
+ 
 
 您也可以使用符號類別識別碼來判斷電腦上已註冊的位版本。 下表列出 BITS 的版本及其對應的符號類別識別碼。 如果未註冊類別， **CoCreateInstance** 函數會傳回 **REGDB \_ E \_ CLASSNOTREG** 。
 
@@ -63,11 +63,11 @@ ms.locfileid: "103671440"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

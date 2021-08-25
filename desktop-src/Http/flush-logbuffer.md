@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a7f6679869ea29ea7577959ecea51d101286e5aa
-ms.sourcegitcommit: 476861130ea63675206d1f06e517059705b930ed
+ms.openlocfilehash: 242638e69a7b5c8cd56ae3e0e45d7cb92504841c73fd419d632b5f087fcc2cb3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "103678872"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120047328"
 ---
 # <a name="flush-logbuffer"></a>flush logbuffer
 
@@ -28,9 +28,9 @@ flush logbuffer
  
 ```
 
- 
+ 
 
- 
+ 
 
 
 

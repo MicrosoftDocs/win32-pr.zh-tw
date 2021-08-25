@@ -4,12 +4,12 @@ ms.assetid: a2867ae5-67cf-4b17-a282-cee8a7f42f23
 title: DialProtocol. InstalledApplications
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4113047cd6ec26b48ecb9c672f33cc942a6530f9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a140f9831d4e3f47dfa751b52cdca86cdb1593fa9ac4f03511c7566846ba45a0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193358"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120010687"
 ---
 # <a name="systemdevicesdialprotocolinstalledapplications"></a>DialProtocol. InstalledApplications
 

@@ -15,12 +15,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 281afeab8d1172e9cae749512612129dd001161b
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 784955545fe8e71227ffae6c5eec54acfd65b4a0ab0867f5c7de99a148976861
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106993859"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119987848"
 ---
 # <a name="cd3dx12_tiled_resource_coordinate-structure"></a>CD3DX12 並排顯示的 \_ \_ 資源 \_ 座標結構
 

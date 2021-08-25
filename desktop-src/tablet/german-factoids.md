@@ -4,12 +4,12 @@ ms.assetid: 0cf5ae1b-4633-4be8-9d67-f69128d021bb
 title: 德文 Factoids
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 356451754fe35d4045cab0acffec034c77a22d06
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3e9efa21f934a046f23ab9312f5e8495d0432654735353e93bdbe8d7950a5fd7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191431"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119940708"
 ---
 # <a name="german-factoids"></a>德文 Factoids
 

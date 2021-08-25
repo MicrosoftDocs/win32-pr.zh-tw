@@ -3,7 +3,7 @@ title: 'BCM_GETNOTELENGTH 訊息 (Commctrl .h) '
 description: 取得可在 [命令連結] 按鈕的 [描述] 中顯示的附注文字長度。 明確地傳送此訊息，或使用按鈕 \_ GetNoteLength 宏。
 ms.assetid: 62385485-b553-47e9-9f15-696cc4694752
 keywords:
-- BCM_GETNOTELENGTH message Windows 控制項
+- BCM_GETNOTELENGTH 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1b33c5245778481033bd97326c3d66a40bf03210
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 385cb5d7694818a0e0e03ab74bcc31b76d13f5d304c7415b1f70a0fd43e1b31b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104024999"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119921658"
 ---
 # <a name="bcm_getnotelength-message"></a>BCM \_ GETNOTELENGTH 訊息
 
@@ -59,8 +59,8 @@ ms.locfileid: "104024999"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

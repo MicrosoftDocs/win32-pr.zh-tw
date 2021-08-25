@@ -4,12 +4,12 @@ ms.assetid: d941e3c6-c1db-4de1-b640-4f582f86fc54
 title: WinHTTP 自動代理函數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: afd4cf8289add4c72c2266df4bb9025e0b4c1aa0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8443567e12d7a0f3b75d09fc284dc634315ec635ff8b630821bb84031e39781b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943435"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119955708"
 ---
 # <a name="winhttp-autoproxy-functions"></a>WinHTTP 自動代理函數
 

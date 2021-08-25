@@ -4,12 +4,12 @@ description: 樹狀檢視通知
 ms.assetid: 571748a0-f5f0-4436-a8c3-ff9af754c7ad
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d70215b29add300fab0c9afc1820b60462ab5ed8
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: fbcdae9c559022a2787e0698c2cc7b1bcf753a85256f48ea183af9b5791e9628
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106989139"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119969058"
 ---
 # <a name="tree-view-notifications"></a>樹狀檢視通知
 

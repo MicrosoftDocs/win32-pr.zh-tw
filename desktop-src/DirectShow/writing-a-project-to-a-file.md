@@ -1,23 +1,23 @@
 ---
-description: 將專案寫入檔案
+description: 將 Project 寫入檔案
 ms.assetid: 84499e4f-4f45-4aa6-aa89-d95c3b6b47d0
-title: 將專案寫入檔案
+title: 將 Project 寫入檔案
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b8f63ddbc6a021362134d420220f7e25c662553f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c3efea1d0949c419ba6f595e7a381b689d8a8ce69836609d328b555ee695743b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980325"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120051368"
 ---
-# <a name="writing-a-project-to-a-file"></a>將專案寫入檔案
+# <a name="writing-a-project-to-a-file"></a>將 Project 寫入檔案
 
 \[此 API 不受支援，而且可能會在未來變更或無法使用。\]
 
-本文說明如何將 [DirectShow 編輯服務](directshow-editing-services.md) 專案寫入檔案。 首先，它會說明如何使用基本轉譯引擎來寫入檔案。 然後，它會使用智慧型轉譯引擎來描述智慧型 recompression。
+本文說明如何將[DirectShow 編輯服務](directshow-editing-services.md)專案寫入檔案。 首先，它會說明如何使用基本轉譯引擎來寫入檔案。 然後，它會使用智慧型轉譯引擎來描述智慧型 recompression。
 
-如需有關「DirectShow 編輯服務」如何轉譯專案的總覽，請參閱 [關於呈現引擎](about-the-render-engines.md)。
+如需 DirectShow 編輯服務如何轉譯專案的總覽，請參閱[關於呈現引擎](about-the-render-engines.md)。
 
 **使用基本轉譯引擎**
 
@@ -42,7 +42,7 @@ hr = pRender->ConnectFrontEnd( );
 
 
 
-接下來，將多工器和檔案寫入篩選器新增至篩選圖形。 若要這麼做，最簡單的方式就是使用「 [捕獲圖形](capture-graph-builder.md)產生器」，這是用來建立捕獲圖形的 DirectShow 元件。 [Capture graph builder] 會公開 [**ICaptureGraphBuilder2**](/windows/desktop/api/Strmif/nn-strmif-icapturegraphbuilder2) 介面。 執行下列步驟：
+接下來，將多工器和檔案寫入篩選器新增至篩選圖形。 若要這麼做，最簡單的方式是使用[capture Graph Builder](capture-graph-builder.md)，這是建立捕獲圖形的 DirectShow 元件。 [Capture graph builder] 會公開 [**ICaptureGraphBuilder2**](/windows/desktop/api/Strmif/nn-strmif-icapturegraphbuilder2) 介面。 執行下列步驟：
 
 1.  建立「capture graph 建立器」的實例。
 2.  取得圖形的指標，並將其傳遞至 graph builder。
@@ -112,7 +112,7 @@ for (i = 0; i < NumGroups; i++)
 若要取得智慧 recompression 的優點，請使用智慧型轉譯引擎取代基本轉譯引擎。 建立圖形的步驟幾乎相同。 主要差異在於，壓縮是在圖形的前端處理，而不是在檔案寫入區段中處理。
 
 > [!IMPORTANT]
-> 請勿使用智慧型轉譯引擎來讀取或寫入 Windows Media 檔案。
+> 請勿使用智慧型轉譯引擎來讀取或寫入 Windows 媒體檔案。
 
  
 
@@ -152,7 +152,7 @@ pGroup->SetSmartRecompressFormat( (long*) pFormat );
 
 <dl> <dt>
 
-[轉譯專案](rendering-a-project.md)
+[轉譯 Project](rendering-a-project.md)
 </dt> </dl>
 
  

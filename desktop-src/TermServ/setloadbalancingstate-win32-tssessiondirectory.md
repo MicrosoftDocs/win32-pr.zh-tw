@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 88142f5a9c87b4af2688e06d2766ac38d7e234c0
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 23d539f07c97e4e5b92152190a7bb38a8132d31a73daf08de8f140a39f67efdb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106969152"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119987948"
 ---
 # <a name="setloadbalancingstate-method-of-the-win32_tssessiondirectory-class"></a>Win32 TSSessionDirectory 類別的 SetLoadBalancingState 方法 \_
 

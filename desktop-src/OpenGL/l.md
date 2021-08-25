@@ -9,12 +9,12 @@ keywords:
 - 亮度
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 091964e8d6a80ebad0c3c150a80c22ab71daaa12
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 73ce4625d515fc76831c5ed2c212ed99bdd092fb341fb925077ca789c80fc830
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104383614"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120034998"
 ---
 # <a name="l-opengl"></a>L (OpenGL) 
 

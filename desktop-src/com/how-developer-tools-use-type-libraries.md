@@ -4,12 +4,12 @@ description: 開發人員工具如何使用類型程式庫
 ms.assetid: 260aa694-1055-4a43-93aa-69a9d7359881
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e0cc0f5249075aa861a1301466f86a0f769b8bf3
-ms.sourcegitcommit: d39e82e232f6510f843fdb8d55d25b4e9e02e880
+ms.openlocfilehash: 18e829459176d96beab3fd818b7bafe3cddfb7969ff46531d26709ef6391ecc8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "106976617"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119993070"
 ---
 # <a name="how-developer-tools-use-type-libraries"></a>開發人員工具如何使用類型程式庫
 

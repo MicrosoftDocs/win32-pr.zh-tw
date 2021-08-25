@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: afe39f3a7aac155f3cc87fa6d58f402043861d1f
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 1c35bcaabcb4a088a5ea1871efe57aefa63175c15588973bc046f51353137994
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108099395"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119916828"
 ---
 # <a name="cbasepincheckmediatype-method"></a>CBasePin. CheckMediaType 方法
 
