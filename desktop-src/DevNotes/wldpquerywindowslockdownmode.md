@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - wldp.dll
-ms.openlocfilehash: fc746270a0634525154417cfba7e1529bee7edfb
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 94dc1665dcfa98b27fc15f68a799792b57f428875fefb88c6d35de57bad71b5f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104190986"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119911288"
 ---
 # <a name="wldpquerywindowslockdownmode-function"></a>WldpQueryWindowsLockdownMode 函式
 
@@ -42,7 +42,7 @@ ms.locfileid: "104190986"
 *lockdownMode* \[擴展\]
 </dt> <dd>
 
-成功時，會傳回 [**PWLDP 的 \_ WINDOWS \_ 鎖定 \_ 模式**](wldp-windows-lockdown-mode.md) ，指出目前 Windows 10 裝置的安全模式。
+成功時，會傳回 [**PWLDP 的 \_ WINDOWS \_ 鎖定 \_ 模式**](wldp-windows-lockdown-mode.md)，指出目前 Windows 10 裝置的安全模式。
 
 </dd> </dl>
 
@@ -57,7 +57,7 @@ ms.locfileid: "104190986"
 | 需求 | 值 |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 10， \[ 僅限1803版桌面應用程式\]<br/>                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2016 \[ desktop 應用程式\]<br/>                                |
+| 最低支援的伺服器<br/> | Windows Server 2016 \[僅限桌面應用程式\]<br/>                                |
 | 標頭<br/>                   | <dl> <dt>Wldp。h</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>Wldp.dll</dt> </dl> |
 

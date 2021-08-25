@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - RTSCom.dll
-ms.openlocfilehash: b977bbda4ff378b967142b89b4ec8bc1972ed25b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d51a9a3b55060d4202a4158f291029cfca511f287feeae4c809bf0e830f8bbf7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106988474"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119934298"
 ---
 # <a name="strokebuilder-class"></a>StrokeBuilder 類別
 
@@ -36,7 +36,7 @@ ms.locfileid: "106988474"
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 Windows XP Tablet PC Edition \[ 桌面應用程式\]<br/>                                                   |
+| 最低支援的用戶端<br/> | Windows僅限 XP Tablet PC Edition \[ 桌面應用程式\]<br/>                                                   |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                                       |
 | 標頭<br/>                   | <dl> <dt>RTSCom (也需要 RTSCom \_ c) </dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RTSCom.dll</dt> </dl>                           |

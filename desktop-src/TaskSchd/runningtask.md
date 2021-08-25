@@ -15,12 +15,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 261be07f71d0d35f5d3140de1b39574b635a531e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b0dea9d0810c12af383092e4cad7f77be601927f2a440efbbbb424f822159a31
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104508863"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119866868"
 ---
 # <a name="runningtask-object"></a>RunningTask 物件
 
@@ -54,12 +54,12 @@ ms.locfileid: "104508863"
 
 
 
-| 屬性                                                      | 存取類型          | Description                                                                         |
+| 屬性                                                      | 存取類型          | 描述                                                                         |
 |:--------------------------------------------------------------|:---------------------|:------------------------------------------------------------------------------------|
 | [**CurrentAction**](runningtask-currentaction.md)<br/> | 唯讀<br/> | 取得正在執行之工作正在執行之目前動作的名稱。<br/> |
 | [**EnginePID**](runningtask-enginepid.md)<br/>         | 唯讀<br/> | 取得正在執行工作之引擎 (進程) 的處理序識別碼。<br/>  |
 | [**InstanceGuid**](runningtask-instanceguid.md)<br/>   | 唯讀<br/> | 取得此工作實例的 GUID 識別碼。<br/>                  |
-| [**Name**](runningtask-name.md)<br/>                   | 唯讀<br/> | 取得工作的名稱。<br/>                                               |
+| [**名稱**](runningtask-name.md)<br/>                   | 唯讀<br/> | 取得工作的名稱。<br/>                                               |
 | [**路徑**](runningtask-path.md)<br/>                   | 唯讀<br/> | 取得工作儲存位置的路徑。<br/>                               |
 | [**狀態**](runningtask-state.md)<br/>                 | 唯讀<br/> | 取得正在執行之工作的狀態。 <br/>                                     |
 
@@ -73,8 +73,8 @@ ms.locfileid: "104508863"
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                          |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                    |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                          |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                    |
 | 類型程式庫<br/>             | <dl> <dt>Taskschd.msc .tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 

@@ -4,18 +4,18 @@ ms.assetid: f0199137-0a40-40ca-b3cf-ff8eef4309cc
 title: ICEM11
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 403a36435ce2367fc356934740e6d022f5457698
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 157248d62f43a0b1a791220e2aeb917ba8273d31b93de69078f9876cddbd2748
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193684"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119894428"
 ---
 # <a name="icem11"></a>ICEM11
 
 ICEM11 會確認可設定的合併模組會列出模組[ModuleIgnoreTable 資料表](moduleignoretable-table.md)中的[ModuleConfiguration 資料表](moduleconfiguration-table.md)和[ModuleSubstitution 資料表](modulesubstitution-table.md)。 這可確保無法辨識可設定合併模組 (小於2.0 版的合併工具，) 不會將這些資料表複製到目標資料庫。
 
-此 ICEM 可在 Windows Installer 2.0 SDK 和更新版本提供的 Mergemod 檔中找到。 如需詳細資訊，請參閱 [Windows Installer 開發人員 Windows SDK 元件](platform-sdk-components-for-windows-installer-developers.md)。
+此 ICEM 可在 Windows Installer 2.0 SDK 和更新版本提供的 Mergemod 檔中找到。 如需詳細資訊，請參閱[Windows Installer 開發人員 Windows SDK 元件](platform-sdk-components-for-windows-installer-developers.md)。
 
 ## <a name="result"></a>結果
 
@@ -34,7 +34,7 @@ table. These tables must be listed in the ModuleIgnoreTable table.
 
 
 
-| Name     | 格式 | 類型   | CoNtextData | DefaultValue |
+| 名稱     | 格式 | 類型   | CoNtextData | DefaultValue |
 |----------|--------|--------|-------------|--------------|
 | IconKey1 | 1      | Binary | 圖示        | DefaultIcon  |
 

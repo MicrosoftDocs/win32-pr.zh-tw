@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 644cff9c94876fab11bc9fbe181ac0375d9444fb
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3a48c9ce3a276f060ac90dd15100ca8612e35116e124588e27f4ee36c1a0b8a4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106982057"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119930738"
 ---
 # <a name="wmt_rights-enumeration"></a>WMT \_ 許可權列舉
 
@@ -95,7 +95,7 @@ typedef enum WMT_RIGHTS {
 <span id="WMT_RIGHT_COPY"></span><span id="wmt_right_copy"></span>**WMT \_ RIGHT \_ COPY**
 </dt> <dd>
 
-指定複製內容的許可權。 Windows Media DRM 10 會使用 (OPLs) 的輸出保護層級，來控制可將內容複寫到其中的裝置。
+指定複製內容的許可權。 Windows媒體 DRM 10 會使用 (OPLs) 的輸出保護層級，來控制可將內容複寫到其中的裝置。
 
 </dd> <dt>
 
@@ -124,7 +124,7 @@ typedef enum WMT_RIGHTS {
 
 這些值是位旗標，因此可以藉由結合位 **or** 運算子來設定一或多個值。
 
-使用 Windows Media DRM 10 時， **WMT \_ right \_ copy \_ 至 \_ 非 \_ sdmi \_ 裝置**、 **WMT \_ right \_ 複製 \_ 到 \_ SDMI \_ 裝置**，並由 **WMT \_ right \_ copy** 取代 **WMT \_ RIGHT \_ 複製 \_ 至 \_ CD** 。 您可以使用 (OPLs) 的輸出保護層級，來指定可複製內容之裝置的限制。
+使用 Windows 媒體 DRM 10 時， **WMT \_ right \_ copy \_ 至 \_ 非 \_ sdmi \_ 裝置**、 **WMT \_ right \_ copy \_ 至 \_ SDMI \_ 裝置**，並由 **WMT \_ right \_ copy** 取代 **WMT \_ RIGHT \_ 複製 \_ 至 \_ CD** 。 您可以使用 (OPLs) 的輸出保護層級，來指定可複製內容之裝置的限制。
 
 ## <a name="requirements"></a>規格需求
 

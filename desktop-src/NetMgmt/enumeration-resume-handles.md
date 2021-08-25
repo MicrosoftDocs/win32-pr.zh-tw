@@ -4,12 +4,12 @@ description: 列舉 resume 控制碼是函數實例資料中包含之實際 resu
 ms.assetid: 6734e99b-7f8c-43c9-96e3-44c9783960dd
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 61f20e7a7d5e1f9afb15e6adad4c0d7643bf841d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 10976661723af59af945b9dec1080196e682b308fa1a597edfc4cee6047aa783
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103932243"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119912188"
 ---
 # <a name="enumeration-resume-handles"></a>列舉 Resume 控制碼
 
@@ -19,9 +19,9 @@ ms.locfileid: "103932243"
 
 如果從列舉呼叫傳回錯誤，則必須將 resume 控制碼視為無效，且不會用於任何後續的列舉呼叫。 發生這種情況時，您必須從頭重新開機列舉。
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ description: 快顯功能表會顯示功能表命令的清單。
 ms.assetid: 9dbfa2d7-a086-4348-8b84-7e36d33e2d27
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 785fe8ac7a70352116b3a77cf30034092de04a23
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 8b578a6af66585e06c4d9392f7051a8ebf14c8c24865bac59bf0c4fa43c7deaa
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840380"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119861388"
 ---
 # <a name="pop-up-menu-msaa-ui-element-reference"></a>快顯功能表 (MSAA UI 元素參考) 
 

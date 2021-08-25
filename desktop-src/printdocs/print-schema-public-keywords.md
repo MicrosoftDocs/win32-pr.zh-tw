@@ -4,12 +4,12 @@ ms.assetid: ff966475-626d-4a48-9349-e60454d47c57
 title: 列印架構公用關鍵字
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0878ced6b011393479657a4fcdd4b7b7f9a2b62a
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: fbcab9ce943b7f344ce12c378252bc07c69260f75c607b36f7af54c107d3f84a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112407141"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119886358"
 ---
 # <a name="print-schema-public-keywords"></a>列印架構公用關鍵字
 

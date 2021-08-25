@@ -6,20 +6,20 @@ keywords:
 - DNS 網域
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 121ce61bb29505b4e15c9b42c3833638550a8b41
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 05244e58c4539b24b461b1907bb318db7f22f1d264b38f0b96b41641b8109abb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840256"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119913198"
 ---
 # <a name="dns-domains"></a>DNS 網域
 
 使用網際網路的大部分電腦專業人員都熟悉 DNS 網域;網域是 DNS 階層命名空間中的節點，而網域可進一步分割成子域。 例如，虛構 gadgets.widgets.microsoft.com 階層中的網域包括小工具、widget、microsoft 和 com 網域。
 
- 
+ 
 
- 
+ 
 
 
 

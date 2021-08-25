@@ -1,17 +1,17 @@
 ---
 description: Web 服務的裝置設定檔 (DPWS) 主機和用戶端會透過 UDP 和 HTTP 使用一連串的 SOAP 訊息，透過網路進行通訊。
 ms.assetid: 52282990-d993-4034-a791-2ee7c9c1663d
-title: 探索和中繼資料交換訊息模式
+title: 探索和中繼資料 Exchange 訊息模式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1e9a08852c5f25572daf9932afd2ce4b7e03858a
-ms.sourcegitcommit: 5b98bf8c68922f8f03c14f793fbe17504900559c
+ms.openlocfilehash: f1b41267e86358a9d6e263f4bc8971632f1061eb1c94d1e64cc76d65020ce255
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "104195696"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119856790"
 ---
-# <a name="discovery-and-metadata-exchange-message-patterns"></a>探索和中繼資料交換訊息模式
+# <a name="discovery-and-metadata-exchange-message-patterns"></a>探索和中繼資料 Exchange 訊息模式
 
 Web 服務的裝置設定檔 (DPWS) 主機和用戶端會透過 UDP 和 HTTP 使用一連串的 SOAP 訊息，透過網路進行通訊。
 

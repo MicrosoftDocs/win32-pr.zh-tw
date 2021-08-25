@@ -4,12 +4,12 @@ ms.assetid: 7b3c6352-51d5-4fdf-82c2-7a28194f607f
 title: 視窗顯示裝置內容
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 75abed6177771d9beff56ad5e7dec1f8e0a704c9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2dfed34646323114ffcfb7753331b1b5c305a7a0c01a475795a7918f6e5a2dd4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104973056"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119965088"
 ---
 # <a name="window-display-device-contexts"></a>視窗顯示裝置內容
 

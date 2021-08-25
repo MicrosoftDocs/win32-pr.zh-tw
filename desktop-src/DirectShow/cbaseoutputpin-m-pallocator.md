@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 0d5b512f2b40d27e13fa78904481fcc749d0bde4
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 9c5a1098acfdee1a9aa9ed370edac301a7ce29278c653e7696d72a9cf58e08af
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108096097"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119910458"
 ---
 # <a name="cbaseoutputpinm_pallocator-member"></a>CBaseOutputPin：： m \_ pAllocator 成員
 

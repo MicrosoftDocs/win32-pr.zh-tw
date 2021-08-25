@@ -14,12 +14,12 @@ api_type:
 api_location:
 - PortableDeviceGUIDs.lib
 - PortableDeviceGUIDs.dll
-ms.openlocfilehash: ecdfd91c9ea4ab5202a72015f579d560b37fbffd
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7f7aaceff66cd817666dd05b92243239f860b2f59a993e4afca1831fc8085de0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106988653"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119929998"
 ---
 # <a name="iportabledevicevalues-interface"></a>IPortableDeviceValues 介面
 
@@ -47,7 +47,7 @@ ms.locfileid: "106988653"
 
 | 方法                                                                                                                     | 描述                                                                                                            |
 |:---------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------|
-| [**清楚**](iportabledevicevalues-clear.md)                                                                               | 刪除集合中的所有專案。<br/>                                                                      |
+| [**清除**](iportabledevicevalues-clear.md)                                                                               | 刪除集合中的所有專案。<br/>                                                                      |
 | [**CopyValuesFromPropertyStore**](iportabledevicevalues-copyvaluesfrompropertystore.md)                                   | 將 **IPropertyStore** 的內容複寫到集合中。<br/>                                           |
 | [**CopyValuesToPropertyStore**](iportabledevicevalues-copyvaluestopropertystore.md)                                       | 將集合中的所有值複製到 **IPropertyStore** 介面。<br/>                               |
 | [**GetAt**](iportabledevicevalues-getat.md)                                                                               | 使用提供的以零為基底的索引，從集合中抓取值。<br/>                                  |

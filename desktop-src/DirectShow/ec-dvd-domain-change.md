@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - dvdevcode.h
-ms.openlocfilehash: 815b6b2dd318d0b7716f4cf640ef3f83dacd0d60
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a43c44e779d8ad64852b673fb053467687c50daec85acb9bc87999675200d5f1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995929"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119965658"
 ---
 # <a name="ec_dvd_domain_change"></a>EC \_ DVD \_ 網域 \_ 變更
 

@@ -3,7 +3,7 @@ title: 'LVM_GETVIEW 訊息 (Commctrl .h) '
 description: 抓取清單視圖控制項的目前視圖。
 ms.assetid: dd63e726-3a7f-40e7-8d46-4680816c02a3
 keywords:
-- LVM_GETVIEW message Windows 控制項
+- LVM_GETVIEW 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e2da295fa5a5b335de60169ce06b777d9e355121
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 431b0a7b3fba9a45370c372347285489a56082c4a04396c273a45c4da41b05b0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105485"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119915508"
 ---
 # <a name="lvm_getview-message"></a>LVM \_ GETVIEW 訊息
 
@@ -60,8 +60,8 @@ ms.locfileid: "104105485"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

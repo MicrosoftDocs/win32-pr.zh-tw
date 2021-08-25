@@ -4,12 +4,12 @@ ms.assetid: 8015682c-d84d-44e2-995d-dca68053c4fa
 title: 處理已排入佇列之元件中的錯誤
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 95752adf82d74e39a9c93f1ae54584e72007f1ce
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 314ff367e656043746bb34bcb28b6c5a3dc8db9b86b58a482af45f684fb658c0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510629"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119991078"
 ---
 # <a name="handling-errors-in-queued-components"></a>處理已排入佇列之元件中的錯誤
 
@@ -21,7 +21,7 @@ ms.locfileid: "104510629"
 
 ## <a name="visual-basic"></a>Visual Basic
 
-下列範例程式碼示範如何建立 MessageMover 物件、設定所需的屬性，以及起始傳送。 若要從 Visual Basic 使用它，請新增 COM + 服務類型程式庫的參考。
+下列範例程式碼示範如何建立 MessageMover 物件、設定所需的屬性，以及起始傳送。 若要從 Visual Basic 使用它，請新增 com + 服務類型程式庫的參考。
 
 > [!Note]  
 > 若要使用 MessageMover 物件，您必須在電腦上安裝訊息佇列，而且 AppName 指定的應用程式必須啟用佇列。 如需安裝訊息佇列的相關資訊，請參閱 [ **開始** ] 功能表上的 [說明及支援]。

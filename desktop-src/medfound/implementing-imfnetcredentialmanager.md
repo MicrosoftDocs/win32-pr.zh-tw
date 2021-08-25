@@ -4,12 +4,12 @@ ms.assetid: 3eb2afec-195c-4d8d-8e08-7e6ec7c572f8
 title: 執行 IMFNetCredentialManager
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 55c026f2c12b2ff248032a56d9c48a0e0e1576c1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9877a1782a9703a8f43ed385f21f572576858955253cea5e38fa2d3143383e24
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106986363"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119827838"
 ---
 # <a name="implementing-imfnetcredentialmanager"></a>執行 IMFNetCredentialManager
 

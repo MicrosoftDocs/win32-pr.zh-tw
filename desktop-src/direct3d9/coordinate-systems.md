@@ -4,12 +4,12 @@ ms.assetid: 268c3024-85a5-4fd5-b575-e126dd4be97c
 title: " (Direct3D 9) 協調系統"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bcb9fa389b2bf11bec9ee4f8053bbeb4c822f422
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 7e47b87ae6374d68b8c836dfb4818781e83e77c288f7bf05b121dbb4426c9aad
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971306"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119857571"
 ---
 # <a name="coordinate-systems-direct3d-9"></a> (Direct3D 9) 協調系統
 

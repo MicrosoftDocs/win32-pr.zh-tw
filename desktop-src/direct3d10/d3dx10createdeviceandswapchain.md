@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10Core.h
-ms.openlocfilehash: fe71aeae91f8c43966e0fda2d2f430c7908f2855
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: aa92b0fd7efb9c6f457fd035fad28992d965a4cf2f6fdad39936292f7a70a996
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104323196"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119852368"
 ---
 # <a name="d3dx10createdeviceandswapchain-function"></a>D3DX10CreateDeviceAndSwapChain 函式
 
@@ -72,7 +72,7 @@ HRESULT D3DX10CreateDeviceAndSwapChain(
 
 </dd> <dt>
 
-*Flags* \[in\]
+*旗標* \[在\]
 </dt> <dd>
 
 類型： **[ **UINT**](../winprog/windows-data-types.md)**

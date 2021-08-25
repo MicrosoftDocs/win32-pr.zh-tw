@@ -4,12 +4,12 @@ description: 本主題說明讓您的 COM 程式碼更有效率且更穩固的�
 ms.assetid: 76aca556-b4d6-4e67-a2a3-4439900f0c39
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8a26143e5049c3db7efcbcc9353e74890fe0009c
-ms.sourcegitcommit: ae73f4dd3cf5a3c6a1ea7d191ca32a5b01f6686b
+ms.openlocfilehash: 93febc4ee3dfd4f05f20fae8078bc2a5ebb7f9623a860f49ec9cd6ce4e69b95a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "104093436"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119913887"
 ---
 # <a name="com-coding-practices"></a>COM 編碼作法
 
@@ -42,7 +42,7 @@ hr = CoCreateInstance(__uuidof(FileOpenDialog), NULL, CLSCTX_ALL,
 > [!Note]  
 > GUID 值是藉由 `__declspec(uuid( ... ))` 在標頭中宣告來與型別名稱相關聯。 如需詳細資訊，請參閱 Visual C++ 檔中的 **\_ \_ declspec** 檔。
 
- 
+ 
 
 ## <a name="the-iid_ppv_args-macro"></a>IID \_ PPV \_ ARGS 宏
 
@@ -70,7 +70,7 @@ hr = CoCreateInstance(
 > [!Note]  
 > *Vtable* (虛擬方法資料表) 是函數指標的資料表。 Vtable 是 COM 如何在執行時間將方法呼叫系結至其實作為。 剛好，vtable 是大部分 c + + 編譯器如何執行虛擬方法的方式。
 
- 
+ 
 
 [**IID \_ PPV \_ ARGS**](/windows/desktop/api/combaseapi/nf-combaseapi-iid_ppv_args)宏可協助避免此錯誤類別。 若要使用這個宏，請取代下列程式碼：
 
@@ -286,6 +286,6 @@ hr = pFileOpen.CoCreateInstance(__uuidof(FileOpenDialog));
 
 [COM 中的錯誤處理](error-handling-in-com.md)
 
- 
+ 
 
- 
+ 

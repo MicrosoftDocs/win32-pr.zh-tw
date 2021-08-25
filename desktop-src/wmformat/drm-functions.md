@@ -1,25 +1,25 @@
 ---
-title: Microsoft Windows Media DRM 用戶端功能
-description: Microsoft Windows Media DRM 用戶端功能
+title: Microsoft Windows 媒體 DRM 用戶端函式
+description: Microsoft Windows 媒體 DRM 用戶端函式
 ms.assetid: 5d726c56-d0f3-4eb8-829f-3a0c1a0e0802
 keywords:
-- Windows Media Format SDK，函數
+- Windows媒體格式 SDK，函式
 - 數位版權管理 (DRM) ，函數
 - DRM (數位版權管理) ，函數
 - DRM 用戶端擴充 Api，函數
 - 用戶端擴充 Api，函數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 20c1730413a4918b0f748099fbd55714339a7e9b
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 73aaf5f3c536027801a85f8d38120e6e14c5d366a6d727498a5bc1d1200cb041
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "106966900"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119931168"
 ---
-# <a name="microsoft-windows-media-drm-client-functions"></a>Microsoft Windows Media DRM 用戶端功能
+# <a name="microsoft-windows-media-drm-client-functions"></a>Microsoft Windows 媒體 DRM 用戶端函式
 
-下列函式會實作為 Microsoft Windows Media DRM 用戶端擴充 Api 的一部分。
+下列函式會實作為 Microsoft Windows 媒體 DRM 用戶端擴充 api 的一部分。
 
 
 

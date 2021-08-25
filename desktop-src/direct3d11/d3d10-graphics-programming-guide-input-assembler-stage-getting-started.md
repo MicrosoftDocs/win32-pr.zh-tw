@@ -4,12 +4,12 @@ description: 有幾個步驟需要初始化輸入組合語言 (IA) 階段。
 ms.assetid: 84c0ca29-2356-4b7f-98ee-ff1758edc540
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 901b3facfef781e3f44acf75bee737f280dece55
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
-ms.translationtype: HT
+ms.openlocfilehash: 513e7452eebf157a80d4239127bf1d04a014375f7bbaf06e4f5814199d7ba053
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104375800"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119858208"
 ---
 # <a name="getting-started-with-the-input-assembler-stage"></a>使用 Input-Assembler 階段開始使用
 
@@ -29,7 +29,7 @@ ms.locfileid: "104375800"
 
 
 
- 
+ 
 
 在您瞭解這些步驟之後，請繼續 [使用 System-Generated 的值](d3d10-graphics-programming-guide-input-assembler-stage-using.md)。
 
@@ -145,7 +145,7 @@ g_pd3dDevice->IASetPrimitiveTopology( D3D_PRIMITIVE_TOPOLOGY_TRIANGLELIST );
 
 
 
-| Draw 方法                                                                                  | Description                                                                                            |
+| Draw 方法                                                                                  | 描述                                                                                            |
 |-----------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
 | [**ID3D11DeviceContext::Draw**](/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-draw)                                 | 繪製非索引、非實例的基本類型。                                                            |
 | [**ID3D11DeviceContext::DrawInstanced**](/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-drawinstanced)               | 繪製非索引的實例基本專案。                                                                |
@@ -155,7 +155,7 @@ g_pd3dDevice->IASetPrimitiveTopology( D3D_PRIMITIVE_TOPOLOGY_TRIANGLELIST );
 
 
 
- 
+ 
 
 每個 draw 方法都會呈現單一拓撲類型。 在轉譯期間，不完整的基本 (沒有足夠頂點的專案、缺少索引、部分基本專案，等等) 會以無訊息方式捨棄。
 
@@ -166,6 +166,6 @@ g_pd3dDevice->IASetPrimitiveTopology( D3D_PRIMITIVE_TOPOLOGY_TRIANGLELIST );
 [輸入組合階段](d3d10-graphics-programming-guide-input-assembler-stage.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

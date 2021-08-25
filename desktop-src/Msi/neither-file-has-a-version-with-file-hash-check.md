@@ -4,12 +4,12 @@ ms.assetid: 608859ac-6640-4c28-b4f0-34ab36d804d7
 title: 這兩個檔案都沒有具有檔案雜湊檢查的版本
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 415019838ac29418b13b513b393a18af2131510f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cb874cdc29c56f34be2d4ec8604c2436892744e44581258ec237f515600f9024
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104512776"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119869191"
 ---
 # <a name="neither-file-has-a-version-with-file-hash-check"></a>這兩個檔案都沒有具有檔案雜湊檢查的版本
 

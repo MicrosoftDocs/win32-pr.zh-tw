@@ -13,16 +13,16 @@ keywords:
 - 編解碼器，輸入格式列舉
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 18360d3172af785fd1c00648ba0c9e869fb7fbc6
-ms.sourcegitcommit: ad672d3a10192c5ccac619ad2524407109266e93
+ms.openlocfilehash: 09e1583c9331e9cfab26e7ac64064224111ea58858d32b876ece843b83df0d2e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2020
-ms.locfileid: "104023171"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119929248"
 ---
 # <a name="to-enumerate-input-formats"></a>列舉輸入格式
 
-每個 Windows Media 編解碼器都會接受一或多個類型的輸入媒體進行壓縮。 Windows Media Format SDK 可讓您輸入比編解碼器支援更多的格式。 SDK 會執行這項操作，方法是在必要時對輸入執行前置處理轉換，例如調整影片畫面的大小或重新取樣音訊。 在任何情況下，您都必須確定您所寫入之檔案的輸入格式符合您傳送給寫入器的資料。 每個編解碼器都有載入設定檔時，在寫入器中設定的預設輸入媒體格式。 您可以藉由呼叫 [**IWMWriter：： GetInputProps**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmwriter-getinputprops)來檢查預設輸入格式。
+每個 Windows 媒體編解碼器都會接受一或多個類型的輸入媒體進行壓縮。 Windows 媒體格式 SDK 可讓您輸入比編解碼器支援更多的格式。 SDK 會執行這項操作，方法是在必要時對輸入執行前置處理轉換，例如調整影片畫面的大小或重新取樣音訊。 在任何情況下，您都必須確定您所寫入之檔案的輸入格式符合您傳送給寫入器的資料。 每個編解碼器都有載入設定檔時，在寫入器中設定的預設輸入媒體格式。 您可以藉由呼叫 [**IWMWriter：： GetInputProps**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmwriter-getinputprops)來檢查預設輸入格式。
 
 影片編解碼器支援下列格式： IYUV、I420、YV12、YUY2、UYVY、YVYU、YVU9、RGB 32、RGB 24、RGB 565、RGB 555 和 RGB 8。 音訊編解碼器支援 PCM 音訊。
 
@@ -126,9 +126,9 @@ Exit:
 [**寫入 ASF 檔案**](writing-asf-files.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -17,7 +17,7 @@
     - name: 程式設計參考
       href: programming-reference.md
       items:
-        - name: 函數
+        - name: 函式
           href: functions.md
           items:
             - name: XInputEnable

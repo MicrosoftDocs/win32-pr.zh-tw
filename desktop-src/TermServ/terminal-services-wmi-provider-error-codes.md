@@ -35,12 +35,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 252015a5d80a1487033ad285ce3080f4d666f0c1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f02b2c1cc07bbe9431f2d0e64252258d76de9e6f06c0d7b756b3a5af4e42bff2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104509383"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119869668"
 ---
 # <a name="remote-desktop-services-wmi-provider-error-codes"></a>遠端桌面服務 WMI 提供者錯誤碼
 

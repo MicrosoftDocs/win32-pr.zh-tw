@@ -4,18 +4,18 @@ ms.assetid: 57a53d3a-31d4-4c0f-ad2a-2b2ef94a7d2b
 title: OtherAddressCity
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 570899c88d73e8b91c2fbc664430a3545ba3d110
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3ebab6b9f710741fdfcb383a82f560d696b9f474cd8b3fd2d3972a170ac7fa30
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106979206"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119946578"
 ---
 # <a name="systemcontactotheraddresscity"></a>OtherAddressCity
 
 連絡人的其他位址城市名稱。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

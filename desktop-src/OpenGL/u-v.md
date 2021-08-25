@@ -10,12 +10,12 @@ keywords:
 - 查看音量
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 643cb8597c07d8ef013ef8eb968acf16137084e2
-ms.sourcegitcommit: fdd00b445ee88366e9cdd1eed0cb3e42e2a73eca
+ms.openlocfilehash: 70be6896f4c0a4dfa73c9e7bc683b6b8465c52c17482dcf8dcef3d90e6975ab4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "103841807"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119887887"
 ---
 # <a name="u-v"></a>U V
 
@@ -55,9 +55,9 @@ ms.locfileid: "103841807"
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

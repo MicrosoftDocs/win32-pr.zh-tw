@@ -4,12 +4,12 @@ ms.assetid: 1557bde2-c382-4259-ae0c-a70902fa91bd
 title: 使用 Active Accessibility 來公開自訂控制項
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5d33d4c2b57a881cfbdc15f14e71e339ed7f9e84
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0d275b6c5639dddfe60f358427751ad4ff4cd7989923dc4a368b3316b3bfc01e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972401"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119934318"
 ---
 # <a name="using-active-accessibility-to-expose-custom-controls"></a>使用 Active Accessibility 來公開自訂控制項
 

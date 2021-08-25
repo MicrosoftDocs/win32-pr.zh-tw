@@ -4,12 +4,12 @@ ms.assetid: 6a509ed5-cea3-4318-ad17-9d20425a6e80
 title: 中繼檔結構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 33dfad6180b0b30c6bcb3786ec3870493c5b9839
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 370fa42f935a99183e9132c652368d102af83bc4ea908e4ae9733e346ae41cb5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191934"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119965628"
 ---
 # <a name="metafile-structures"></a>中繼檔結構
 

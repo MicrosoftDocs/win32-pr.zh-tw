@@ -4,17 +4,17 @@ ms.assetid: 4f1a3e74-b343-413d-8df7-6c4bea39c62d
 title: PlayForwards 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 10d49d8d6d80613c4dd5b2b8a374002b37d9baa4
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 81e607779147ba057b9cfd747ebfe827a25e294e2b04cdfa7e61a0691ecf293c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103688075"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119830628"
 ---
 # <a name="playforwards-method"></a>PlayForwards 方法
 
 > [!Note]  
-> 此元件可用於 Microsoft Windows 2000、Windows XP 及 Windows Server 2003 作業系統。 它在後續版本中可能會變更或無法使用。
+> 此元件可在 Microsoft Windows 2000、Windows XP 和 Windows Server 2003 作業系統中使用。 它在後續版本中可能會變更或無法使用。
 
  
 

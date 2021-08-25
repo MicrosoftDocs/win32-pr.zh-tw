@@ -4,12 +4,12 @@ ms.assetid: fbe2d420-f667-416b-bff3-0fee9ae22203
 title: 使用 Owner-Drawn 功能表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 42f16f9328fadfedccee2c730678fc4cd2d8ab3e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1a14e63e3602e31edc506a6c9c070fa0bfcce670ec2248c73d68944a2f83a12f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103690312"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119842798"
 ---
 # <a name="using-owner-drawn-menus"></a>使用 Owner-Drawn 功能表
 

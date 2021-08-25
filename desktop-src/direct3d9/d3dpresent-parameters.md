@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: f113b3df247765b958dfe47bb04fafb6c9a13bbe
-ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
+ms.openlocfilehash: 543b6b40d3fe24f902eb999a9377b8dbf60e1baa31efb70febbd2c0261d47305
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "110343103"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119857438"
 ---
 # <a name="d3dpresent_parameters-structure"></a>D3DPRESENT \_ 參數結構
 
@@ -141,7 +141,7 @@ D3DSWAPEFFECT \_ COPY 需要將 **BackBufferCount** 設定為1。
 
 Direct3D9 和 Direct3D9Ex 之間的差異：
 
-- 在 Direct3D9Ex 中， \_ 會加入 D3DSWAPEFFECT FLIPEX，以指定應用程式採用翻轉模式的時機。 也就是說，whan 應用程式的框架會以視窗的模式傳遞 (而不是複製) 至桌面視窗管理員 (DWM) 以進行組合。 Flip 模式提供更有效率的記憶體頻寬，並可讓應用程式利用全螢幕顯示的統計資料。 它不會變更全螢幕行為。 從 Windows 7 開始提供翻轉模式行為。
+- 在 Direct3D9Ex 中， \_ 會加入 D3DSWAPEFFECT FLIPEX，以指定應用程式採用翻轉模式的時機。 也就是說，whan 應用程式的框架會以視窗的模式傳遞 (而不是複製) 至桌面視窗管理員 (DWM) 以進行組合。 Flip 模式提供更有效率的記憶體頻寬，並可讓應用程式利用全螢幕顯示的統計資料。 它不會變更全螢幕行為。 從 Windows 7 開始，可以使用翻轉模式行為。
 
 
 

@@ -4,12 +4,12 @@ description: 您可以註冊正在執行的裝置或非執行中的裝置。
 ms.assetid: 40e30881-d5fb-4cf9-8dd7-0d50d2621d5c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d3be1561d82741ce33e7eb05e63b015d5cb38f52
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 8425578dbd5ccc76685c2a142bee8d2167c4058341c32e4b03bcedca15041579
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021487"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119867578"
 ---
 # <a name="how-to-register-a-device-with-the-device-host"></a>如何向裝置主機註冊裝置
 
@@ -42,9 +42,9 @@ ms.locfileid: "104021487"
 
 未執行裝置的註冊可設定為跨系統開機， (在關閉階段) 期間未發佈裝置。 因此，如果以這種方式設定，則會在每次電腦開機時發佈並宣告裝置。
 
- 
+ 
 
- 
+ 
 
 
 

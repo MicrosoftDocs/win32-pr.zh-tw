@@ -4,12 +4,12 @@ ms.assetid: 81476f50-5ea0-4e02-9e38-2b1dfcc32c4f
 title: 將資源新增至物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 869b5cdcf172c4b8f27f7081bfce8e6f05073789
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 34f95cd4b11182a8cc6bc3d249f2065744ba0f6d8efe1be204e47ad321429a88
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319611"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119930238"
 ---
 # <a name="adding-a-resource-to-an-object"></a>將資源新增至物件
 

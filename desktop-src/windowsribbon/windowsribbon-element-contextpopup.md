@@ -3,7 +3,7 @@ title: CoNtextPopup 元素
 description: 表示 CoNtextPopup View 中的內容快顯視窗控制項。
 ms.assetid: b955be16-803e-47b5-a72d-f993180fbf14
 keywords:
-- CoNtextPopup 元素視窗功能區
+- CoNtextPopup 元素 Windows 功能區
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: f779b0196d14fb42246c2a10d476352d835b6cf8
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 8fddda30a765eb314c7a29934c9fcdd12404647de9f1e480275f8fa685b50827
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111443460"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119840788"
 ---
 # <a name="contextpopup-element"></a>CoNtextPopup 元素
 

@@ -3,27 +3,27 @@ title: 透過 IWMDMDevice3 取得格式功能
 description: 在支援 IWMDMDevice3 的裝置上取得格式功能
 ms.assetid: a431c3cb-e722-4d68-a82d-385fff067ea6
 keywords:
-- Windows Media 裝置管理員，裝置功能
+- Windows媒體裝置管理員、裝置功能
 - 裝置管理員，裝置功能
 - 程式設計指南，裝置功能
 - 桌面應用程式，裝置功能
-- 建立 Windows Media 裝置管理員應用程式，裝置功能
+- 建立 Windows 媒體裝置管理員應用程式、裝置功能
 - 將檔案寫入裝置、裝置功能
 - IWMDMDevice3 方法
-- Windows Media 裝置管理員，IWMDMDevice3 方法
+- WindowsMedia 裝置管理員，IWMDMDevice3 方法
 - 裝置管理員，IWMDMDevice3 方法
 - 程式設計手冊，IWMDMDevice3 方法
 - 桌面應用程式，IWMDMDevice3 方法
-- 建立 Windows Media 裝置管理員應用程式，IWMDMDevice3 方法
+- 建立 Windows 媒體裝置管理員應用程式，IWMDMDevice3 方法
 - 將檔案寫入裝置，IWMDMDevice3 方法
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 734f674a5fc54aaec0df10d4db613fa067f9b505
-ms.sourcegitcommit: b95a94ffffda33f9ebbdd41787c01866444b4cf4
+ms.openlocfilehash: 1eadde80f957573563468375ea06cd64b95cf83815491a3f21775fb1ebcefc7d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "104022892"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119957521"
 ---
 # <a name="getting-format-capabilities-through-iwmdmdevice3"></a>透過 IWMDMDevice3 取得格式功能
 
@@ -37,7 +37,7 @@ ms.locfileid: "104022892"
     -   單一值，WMDM 列舉會將 \_ \_ \_ 有效值 \_ \_ 為有效值，表示支援此屬性的任何值。
     -   值的範圍，以最大值、最小值和間隔來定義。
     -   離散值的清單。
-6.  清除儲存的值。 這些值的記憶體是由 Windows Media 裝置管理員配置;您的裝置負責釋放記憶體。 本主題結尾會說明如何進行這項操作。
+6.  清除儲存的值。 Windows 媒體裝置管理員配置這些值的記憶體;您的裝置負責釋放記憶體。 本主題結尾會說明如何進行這項操作。
 
 當回應 **GetFormatCapability** 時，裝置可以 \_ \_ \_ \_ \_ 針對 **WMDM \_ 格式 \_ 功能報告 WMDM 列舉的有效值。WMDM \_ \_ 配置設定。WMDM \_ \_ 的： DESC。ValidValuesForm** 可支援任何位速率、通道等值的值。 不過，您應該小心處理此宣告，因為裝置有時可以報告任何值的支援，事實上它們並不支援所有的位元速率或映射大小。 您可以考慮讓應用程式將極大型或高位速率的檔案轉碼至較小的版本，或較少的記憶體和 CPU 密集的版本，將它們傳送給預定播放這些檔案的裝置。
 
@@ -224,9 +224,9 @@ e_Exit:
 [**探索裝置格式功能**](discovering-device-format-capabilities.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

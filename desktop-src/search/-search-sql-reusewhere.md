@@ -4,12 +4,12 @@ ms.assetid: ed51edd5-6edc-4fcd-a69b-cb48c399ba7c
 title: ReuseWhere 函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 16bb5af4c3acd4637b27a2b3c9c7e14436eabb0b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f073a7ac0d5faf5973d08ff53ccebdacf8bead080a53e2d9a4a6ae9ed5724db3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972384"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119944658"
 ---
 # <a name="reusewhere-function"></a>ReuseWhere 函式
 

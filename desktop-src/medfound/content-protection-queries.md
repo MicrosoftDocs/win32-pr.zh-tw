@@ -4,12 +4,12 @@ ms.assetid: 75e246c6-bf23-44d9-8fb3-46a6dc5324a5
 title: 內容保護查詢
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7a72f7f054783a644cb352727f4bf65864bf5f8d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5c5aaa8c43cf722d13550ab4a1860e7a53780e7e82da7f374e28a7f599a22638
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "107001655"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119829088"
 ---
 # <a name="content-protection-queries"></a>內容保護查詢
 
@@ -17,7 +17,7 @@ ms.locfileid: "107001655"
 
 
 
-| 狀態要求                                                                                                                            | Description                                                                                                                                                 |
+| 狀態要求                                                                                                                            | 描述                                                                                                                                                 |
 |-------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**D3DAUTHENTICATEDQUERY \_ ACCESSIBILITYATTRIBUTES**](d3dauthenticatedquery-accessibilityattributes.md)                                   | 傳回用來將資料傳送至 GPU 的 i/o 匯流排類型。                                                                                                   |
 | [**D3DAUTHENTICATEDQUERY \_ CHANNELTYPE**](d3dauthenticatedquery-channeltype.md)                                                           | 傳回已驗證通道的類型。                                                                                                                  |

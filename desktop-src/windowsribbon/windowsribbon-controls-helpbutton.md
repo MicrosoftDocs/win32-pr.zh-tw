@@ -4,12 +4,12 @@ description: '[說明] 按鈕是一種控制項，可讓使用者按一下以顯
 ms.assetid: 5f08a8b2-bc83-4256-bcc4-aecfbd07ea51
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7afc44c9f9a03561f1627067849272509838d7a5
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 295b3c7feae2aecada128dadbccd093f654c6a6660a68f4790975aee060aaf61
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103933257"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119933380"
 ---
 # <a name="help-button"></a>說明按鈕
 
@@ -36,7 +36,7 @@ ms.locfileid: "103933257"
 > [!Note]  
 > 在某些情況下，可以透過 [**IUIFramework：： GetUICommandProperty**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty) 方法抓取屬性，並使用 [**IUIFramework：： SetUICommandProperty**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty) 方法進行設定。
 
- 
+ 
 
 下表列出與 [說明] 按鈕控制項相關聯的屬性索引鍵。
 
@@ -51,18 +51,18 @@ ms.locfileid: "103933257"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
 <dl> <dt>
 
-[Windows 功能區架構控制項程式庫](windowsribbon-controls-entry.md)
+[Windows功能區架構控制項程式庫](windowsribbon-controls-entry.md)
 </dt> <dt>
 
 [**HelpButton 元素**](windowsribbon-element-helpbutton.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

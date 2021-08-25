@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 55679bf176fc0a8386ef3179a77d91245b5c9abc
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 66219913daf6a7b08f67774d8e3df10cf71b50dc34a9c4895feda014bce118b9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108109366"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119963528"
 ---
 # <a name="requeststatechange-method-of-the-msvm_virtualsystemmigrationservice-class"></a>Msvm VirtualSystemMigrationService 類別的 RequestStateChange 方法 \_
 

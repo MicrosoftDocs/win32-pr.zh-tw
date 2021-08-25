@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 7144283a062b0097d6866e74d1c263bb130c5e19
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8203d541db2596f4d691c055aba83e3b6b76163f7b5949e3b62d6e46256d8b28
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026148"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119841038"
 ---
 # <a name="apijetgetcursorinfo-method"></a>JetGetCursorInfo 方法
 

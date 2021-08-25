@@ -6,12 +6,12 @@ keywords:
 - 自動撥號，RAS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cfc2da449b91dd34165038b8d9f07b73926a943a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c7956148919505eb16d1fb2fe9bc045fa7ecbaa7e2959c430e15f8013ef372ef
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106968252"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119909868"
 ---
 # <a name="ras-autodial"></a>RAS 自動撥號
 
@@ -19,11 +19,11 @@ Windows XP 中的系統已新增稱為「預設連接」的功能。 如果連�
 
 **Windows 2000：** 當嘗試連線到網路位址失敗，因為無法連線到主機時，自動撥號功能可以自動啟動撥號連線操作。 若要這樣做，自動撥號會搜尋其網路位址的資料庫，以找出可用來建立連線的電話簿專案。
 
-**Windows NT 4.0：  ** RAS 會保存 Winsock 名稱和/或共用名稱稱的資料庫，當 RAS/VPN 連線為使用中狀態時，您已成功完成。 稍後，當 winsock 或共用連線嘗試失敗時，系統會檢查此資料庫，並提供為您撥儲存連接的供應專案。
+* * Windows NT 4.0： * * ras 會保存 Winsock 名稱和/或共用名稱稱的資料庫，當 RAS/VPN 連線為使用中狀態時，您已成功完成。 稍後，當 winsock 或共用連線嘗試失敗時，系統會檢查此資料庫，並提供為您撥儲存連接的供應專案。
 
- 
+ 
 
- 
+ 
 
 
 

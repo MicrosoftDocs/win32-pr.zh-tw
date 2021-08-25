@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 82364c6222f6b566ef6aacb5b71a72b49c213f5a
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 24a4135fdcb38fbad9e41b04a136f69420da7455f68d38a0c507135892e2a00f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104507536"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119895218"
 ---
 # <a name="idempotent-attribute"></a>等冪屬性
 
@@ -98,9 +98,9 @@ RPC 支援兩種類型的遠端呼叫語義：具有 **\[ 等 \] 冪** 屬性之
 [**也許**](maybe.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

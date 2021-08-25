@@ -4,12 +4,12 @@ ms.assetid: 38ebec28-c4fc-4e72-ac87-1e41707d1908
 title: DXVA-HD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1f8694a28d8d5871112590c90bf166d1aa9246e4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a40e23d6e91f576f062c52a0f58d0bfe1f769ad3879581b01386333266cb0553
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103689304"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119958648"
 ---
 # <a name="dxva-hd"></a>DXVA-HD
 

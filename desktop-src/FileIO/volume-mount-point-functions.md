@@ -4,12 +4,12 @@ ms.assetid: 2624500b-11d6-4892-97d7-22efa450f681
 title: 裝載的資料夾函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f3e984b9bee902f11af9d7b2b956ea0681cd6e7a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 13175dc4846d8f8438a3f1b94b3e407aaf347e2b6d10ad5c3761899882ecdfaf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319408"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119870778"
 ---
 # <a name="mounted-folder-functions"></a>裝載的資料夾函式
 

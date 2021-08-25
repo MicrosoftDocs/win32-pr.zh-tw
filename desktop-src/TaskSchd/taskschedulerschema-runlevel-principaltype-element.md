@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 9d374f5b9ad388f3ad0a626e1b99ecae96eeef1a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 143db96de30e647c67abadc2a9fb4384ae9784604b9c679efd9de5fd2157f923
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104317499"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119991088"
 ---
 # <a name="runlevel-runleveltype-element"></a>RunLevel (runLevelType) 元素
 
@@ -36,7 +36,7 @@ ms.locfileid: "104317499"
 
 
 
-| 元素                                                                                  | 衍生自                                                           | Description                                                                                                                           |
+| 元素                                                                                  | 衍生自                                                           | 描述                                                                                                                           |
 |------------------------------------------------------------------------------------------|------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
 | [**Principal (principalType)**](taskschedulerschema-principal-principaltype-element.md) | [**principalType**](taskschedulerschema-principaltype-complextype.md) | 指定主體的安全性認證。 這些認證會定義工作執行所在的安全性內容。 <br/> |
 
@@ -58,8 +58,8 @@ ms.locfileid: "104317499"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

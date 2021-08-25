@@ -4,12 +4,12 @@ description: 本節所述的 Api 適用于磚化的資源和磚集區。
 ms.assetid: 02DCF9BA-F9EA-4176-AD6F-AA620CE968BA
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8a0d97f5272f4f96db56e6e89b871951de035105
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3f433b6c70d475d4da511b85fdcc2b1c273de1efa8e1186215b25ce6b9b95d0a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104371912"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119894388"
 ---
 # <a name="tiled-resource-apis"></a>磚資源 Api
 
@@ -74,9 +74,9 @@ Direct3D 11.2 引進了下列其他複製方式的方法：
 [磚資源](tiled-resources.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

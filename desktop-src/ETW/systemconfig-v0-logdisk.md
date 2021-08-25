@@ -26,12 +26,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: eb0ad959d637a38a03b77bd8d7a812ff608ddc04
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 42b17cf31dcb3830cd35f046a7fcbad1858f8ae4f728fc1417339962a4be4441
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108105976"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119927518"
 ---
 # <a name="systemconfig_v0_logdisk-class"></a>SystemConfig \_ V0 \_ LogDisk 類別
 
@@ -317,7 +317,7 @@ class SystemConfig_V0_LogDisk : SystemConfig_V0
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
 | 最低支援的用戶端<br/> | 都不支援<br/>                            |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/> |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/> |
 
 
 

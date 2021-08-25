@@ -12,12 +12,12 @@ keywords:
 - 滑鼠滾輪
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 50b34f180aad6aec6120bf4e3ffa997eba13e760
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: bc38105da1fbbe3bee1be9ca280f1f5573dbb41ba4b7b6aa2013d9c600b8ad00
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104314944"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119829968"
 ---
 # <a name="using-mouse-input"></a>使用滑鼠輸入
 
@@ -441,25 +441,25 @@ LRESULT APIENTRY MainWndProc(HWND hwndMain, UINT uMsg, WPARAM wParam, LPARAM lPa
 
 ## <a name="using-a-mouse-wheel-in-a-document-with-embedded-objects"></a>在具有内嵌物件的檔中使用滑鼠滾輪
 
-此範例假設 Microsoft Word 檔包含各種内嵌物件：
+此範例假設 Microsoft Word 檔具有各種内嵌物件：
 
 -   Microsoft Excel 試算表
 -   內嵌的清單方塊控制項，可滾動回應滾輪
 -   未回應滾輪的內嵌文字方塊控制項
 
-[MSH \_ 滑鼠滾輪](about-mouse-input.md)訊息一律會傳送到 Microsoft Word 中的主視窗。 即使內嵌的試算表為使用中，也是如此。 下表說明如何 \_ 根據焦點處理 MSH 滑鼠滾輪訊息。
+[MSH \_ 滑鼠滾輪](about-mouse-input.md)訊息一律會傳送至 Microsoft Word 中的主視窗。 即使內嵌的試算表為使用中，也是如此。 下表說明如何 \_ 根據焦點處理 MSH 滑鼠滾輪訊息。
 
 
 
 | 焦點為開啟                | 處理如下所示                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 |----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Word 檔              | Word 會滾動文件視窗。                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| Embedded Excel 試算表 | Word 會將訊息張貼到 Excel。 您必須決定內嵌應用程式是否應該回應訊息。                                                                                                                                                                                                                                                                                                                                                            |
+| Embedded Excel 試算表 | Word 會將訊息張貼至 Excel。 您必須決定內嵌應用程式是否應該回應訊息。                                                                                                                                                                                                                                                                                                                                                            |
 | 內嵌控制項           | 應用程式會將訊息傳送至具有焦點的內嵌控制項，並檢查傳回碼以查看控制項是否處理它。 如果控制項未處理，則應用程式應該會滾動文件視窗。 例如，如果使用者按一下清單方塊，然後再滾動滾輪，該控制項就會滾動以回應滾輪旋轉。 如果使用者按一下某個文字方塊，然後旋轉滾輪，整份檔都會滾動。 |
 
 
 
- 
+ 
 
 下列範例會示範應用程式如何處理這兩個滾輪訊息。
 
@@ -652,6 +652,6 @@ UINT GetNumScrollLines(void)
 
 
 
- 
+ 
 
- 
+ 

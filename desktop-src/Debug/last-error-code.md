@@ -4,12 +4,12 @@ ms.assetid: fd5b0d6e-78cf-4f51-b61d-d32576cd485a
 title: Last-Error 程式碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 80bf0fe2f544fc3d87690be81b0d09767745ef95
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: dd3f7a202f4ed67105620a7d2688cfa278fbdc127ed942861de0d69517e96620
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936129"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119912548"
 ---
 # <a name="last-error-code"></a>Last-Error 程式碼
 

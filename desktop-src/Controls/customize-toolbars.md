@@ -1,24 +1,24 @@
 ---
 title: 如何自訂工具列
-description: 大部分的 Windows 應用程式都使用工具列控制項，讓使用者能夠輕鬆存取程式功能。
+description: 大部分以 Windows 為基礎的應用程式都使用工具列控制項，讓使用者能夠輕鬆存取程式功能。
 ms.assetid: 0CE2988E-D887-433B-BFB2-5F3442E8E1B7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 091451a139cf846b1106916f28c165d6640699eb
-ms.sourcegitcommit: f0ca63c18dc52c357d3398af7be766d2bdd40be7
+ms.openlocfilehash: f098880676fc0404df2a68694dc80b8601c21926d94ff594029321bafb1528a9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "104023192"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119929541"
 ---
 # <a name="how-to-customize-toolbars"></a>如何自訂工具列
 
-大部分的 Windows 應用程式都使用工具列控制項，讓使用者能夠輕鬆存取程式功能。 不過，靜態工具列有一些缺點，例如，沒有足夠的空間可有效顯示所有可用的工具。 解決此問題的方法是讓應用程式的工具列成為使用者可自訂的。 然後，使用者可以選擇只顯示所需的工具，並以適合其個人工作型態的方式來組織它們。
+大部分以 Windows 為基礎的應用程式都使用工具列控制項，讓使用者能夠輕鬆存取程式功能。 不過，靜態工具列有一些缺點，例如，沒有足夠的空間可有效顯示所有可用的工具。 解決此問題的方法是讓應用程式的工具列成為使用者可自訂的。 然後，使用者可以選擇只顯示所需的工具，並以適合其個人工作型態的方式來組織它們。
 
 > [!Note]  
 > 對話方塊中的工具列無法自訂。
 
- 
+ 
 
 若要啟用自訂，請在建立工具列控制項時，加入 [**CCS 可 \_ 調整**](common-control-styles.md) 的通用控制項樣式旗標。 自訂的基本方法有兩種：
 
@@ -31,12 +31,12 @@ ms.locfileid: "104023192"
 
 ### <a name="technologies"></a>技術
 
--   [Windows 控制項](window-controls.md)
+-   [Windows控制](window-controls.md)
 
 ### <a name="prerequisites"></a>必要條件
 
 -   C/C++
--   Windows 消費者介面程式設計
+-   Windows消費者介面程式設計
 
 ## <a name="instructions"></a>指示
 
@@ -169,7 +169,7 @@ case WM_NOTIFY:
 
 
 
- 
+ 
 
 如果您想要新增一些全域工具列資訊，請將它放在資料流程的開頭。 前進 **pCurrent** 至全域資料的結尾，使其指向資料流程未使用部分的開頭，然後傳回。
 
@@ -187,7 +187,7 @@ case WM_NOTIFY:
 
 
 
- 
+ 
 
 當您收到通知碼時，您應該從 [**TBBUTTON**](/windows/desktop/api/Commctrl/ns-commctrl-tbbutton)中解壓縮任何您需要的按鈕特定資訊。 請記住，當您新增按鈕時，可以使用 **TBBUTTON** 的 **dwData** 成員來保存應用程式特定資料。 將您的資料載入資料流程的 **pCurrent**。 將 **pCurrent** 向前移至資料的結尾，再次指向資料流程未使用部分的開頭，然後返回。
 
@@ -280,9 +280,9 @@ switch( lpnmhdr->code)
 [Windows 通用控制項示範 (CppWindowsCommonControls) ](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

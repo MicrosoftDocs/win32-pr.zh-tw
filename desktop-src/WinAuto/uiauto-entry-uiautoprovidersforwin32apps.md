@@ -4,12 +4,12 @@ description: 本節描述非受控、COM 型 \ 32 的介面和函式。消費者
 ms.assetid: 10e0e642-2839-48cb-a2e6-9a2292cd97bf
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f0811d82ae539afe08e183b24067f79401c99600
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: de9d1f17d8dbd0d6a2470b1760e530d4876e895be0e88c478f104876ce6292dd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106967809"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119859588"
 ---
 # <a name="ui-automation-providers"></a>消費者介面自動化提供者
 
@@ -31,9 +31,9 @@ ms.locfileid: "106967809"
 [參考](entry-uiautocore-ref.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

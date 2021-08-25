@@ -4,12 +4,12 @@ ms.assetid: 94f26d15-fb76-47ec-b805-f04975d41b43
 title: 平滑陰影
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a5b73738c03147083099a5070e61fe21ca5cac76
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fd5bfa54fef8d0a6810a3230e88e4e3144f7ecf4b62f7313f5daf4213e948c00
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193790"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119965198"
 ---
 # <a name="smooth-shading"></a>平滑陰影
 

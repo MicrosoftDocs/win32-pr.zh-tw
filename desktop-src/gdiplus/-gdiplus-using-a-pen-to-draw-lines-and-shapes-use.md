@@ -4,12 +4,12 @@ ms.assetid: d3c8d16c-858a-42a9-a512-3fcfa144f5fc
 title: 使用畫筆繪製線條和形狀
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 904f53149038d6109365adddc11d3c37881a8def
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d654b323f5db9094271ea564ab533e5fe2c6e758377d40ccdb85c86a8eec0ed1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112937"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119943708"
 ---
 # <a name="using-a-pen-to-draw-lines-and-shapes"></a>使用畫筆繪製線條和形狀
 

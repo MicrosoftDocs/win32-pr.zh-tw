@@ -4,16 +4,16 @@ description: IVMHostInfo 介面會公開下列屬性。
 ms.assetid: 198166B3-5D98-4A34-A232-FE0A29877409
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d342e4724fcfac28cb144e92d5a0866d02934a8
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 90738dee57faf0eaecd2e012b1c7a2360b9f6f97a9521143428d6be16734fc4e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106965240"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119867078"
 ---
 # <a name="ivmhostinfo-properties"></a>IVMHostInfo 屬性
 
-\[Windows 8 不能再使用 Windows Virtual PC。 請改為使用 [HYPER-V WMI 提供者 (V2) ](/windows/desktop/HyperV_v2/windows-virtualization-portal)。\]
+\[WindowsVirtual PC 不再適用于 Windows 8。 請改為使用 [HYPER-V WMI 提供者 (V2) ](/windows/desktop/HyperV_v2/windows-virtualization-portal)。\]
 
 [**IVMHostInfo**](ivmhostinfo.md)介面會公開下列屬性。
 
@@ -47,6 +47,6 @@ ms.locfileid: "106965240"
 -   [**ThreeDNow 屬性**](ivmhostinfo-threednow.md)
 -   [**UTCTime 屬性**](ivmhostinfo-utctime.md)
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ ms.assetid: 3ee073ea-7bac-4971-9167-93a4e541ab77
 title: 媒體緩衝區
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c87316ea64e24173dfa73f2cc2ff280a1281d50f
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 2ef02570ab994f0a15a9b53f2df8a0ac0b96a91a3bf3f260c1bcc5f866ade87e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106979855"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119827508"
 ---
 # <a name="media-buffers"></a>媒體緩衝區
 

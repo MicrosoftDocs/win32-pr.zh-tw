@@ -4,12 +4,12 @@ ms.assetid: 5b5b2c2d-dc3d-4edd-9e13-e6cb13022ceb
 title: 設定模擬等級
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1075ac3b10380892cdfdf770543a2dcbb32d56c8
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: e0c23b8d0b54f12cbce92af43187681922854519c69e8614e952fda241e4fa89
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110897"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119895948"
 ---
 # <a name="setting-an-impersonation-level"></a>設定模擬等級
 
@@ -28,7 +28,7 @@ ms.locfileid: "104110897"
     -   模擬。 伺服器可以模擬用戶端，並代表它執行動作 (但仍會有部份限制)。 伺服器可以存取與用戶端所在之同一部電腦上的資源。 如果伺服器與用戶端位於同一部電腦上，則可以做為用戶端來存取網路資源。 如果伺服器位於與用戶端不同的電腦上，則只能存取與伺服器位於同一部電腦上的資源。 這是 COM+ 伺服器應用程式的預設值。
     -   **委派**。 伺服器可以模擬用戶端，而不是在與用戶端相同的電腦上代表它。 在模擬期間，用戶端的認證 (具有本機的憑證，以及具有網路有效) 的憑證可傳遞至任意數目的電腦。
 
-4.  按一下 [確定]  。
+4.  按一下 [確定]。
 
 ## <a name="related-topics"></a>相關主題
 

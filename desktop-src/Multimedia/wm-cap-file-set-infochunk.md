@@ -3,7 +3,7 @@ title: 'WM_CAP_FILE_SET_INFOCHUNK 訊息 (Vfw .h) '
 description: WM \_ CAP 檔案 \_ \_ 集 INFOCHUNK 訊息會設定 \_ 並清除資訊區塊。
 ms.assetid: 67d11a05-a2b4-45d2-ba66-83a198745303
 keywords:
-- WM_CAP_FILE_SET_INFOCHUNK message Windows 多媒體
+- WM_CAP_FILE_SET_INFOCHUNK 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 067ba00563a5ca511f13b23615fc4542090ba397
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 06d64f88a87af63e5afc513e0e2cf2df53d64570bec099a2f8f2846d781fc0b0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104024622"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119892068"
 ---
 # <a name="wm_cap_file_set_infochunk-message"></a>WM \_ CAP \_ FILE \_ SET \_ INFOCHUNK message
 

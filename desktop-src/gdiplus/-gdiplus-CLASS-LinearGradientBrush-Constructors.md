@@ -4,12 +4,12 @@ ms.assetid: e40d71b5-43eb-4062-86cd-225e593acd36
 title: LinearGradientBrush. LinearGradientBrush 函數
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 62a62d65f9ce8be60843ccc929ed38239ad6623b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: 5acb4ece025c9cff6ac82ec9f41fab84d5e324cb4da63a09034aec9c0ddb12c8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104973028"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119848608"
 ---
 # <a name="lineargradientbrushlineargradientbrush-constructors"></a>LinearGradientBrush. LinearGradientBrush 函數
 

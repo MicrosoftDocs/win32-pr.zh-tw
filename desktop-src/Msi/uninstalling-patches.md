@@ -4,16 +4,16 @@ ms.assetid: 11e995b7-30c7-4992-b436-3af289ac3966
 title: 卸載修補程式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ff9418704bdeeb5ccc57839cbe2416faa5692265
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b10024d82bde0e902fb7f49f9af3bcfa041ca46efb1e6e19466c4acd09c805fa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104195419"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119893358"
 ---
 # <a name="uninstalling-patches"></a>卸載修補程式
 
-從 Windows Installer 3.0 開始，您可以從應用程式卸載一些修補程式。 修補程式必須是 [可卸載修補程式](uninstallable-patches.md)。 使用小於3.0 版的 Windows Installer 版本時， [移除修補](removing-patches.md) 程式需要卸載修補產品，並在不套用修補程式的情況下重新安裝產品。
+從 Windows Installer 3.0 開始，您可以從應用程式卸載一些修補程式。 修補程式必須是 [可卸載修補程式](uninstallable-patches.md)。 使用小於3.0 版的 Windows Installer 版本時，[移除修補](removing-patches.md)程式需要卸載修補產品，並在不套用修補程式的情況下重新安裝產品。
 
 **Windows Installer 2.0：** 不支援。 使用早于 Windows Installer 3.0 的 Windows Installer 版本所套用的修補程式則不會可卸載。
 
@@ -21,20 +21,20 @@ ms.locfileid: "104195419"
 
 ## <a name="uninstalling-a-patch-using-msipatchremove-on-a-command-line"></a>在命令列上使用 MSIPATCHREMOVE 卸載修補程式
 
-您可以使用 msiexec.exe 和 [命令列選項](command-line-options.md)，從命令卸載修補程式。 下列命令列範例會使用 [**MSIPATCHREMOVE**](msipatchremove.md)屬性和/i 命令列選項，從應用程式中移除 [可卸載修補](uninstallable-patches.md)程式（例如 .msp），example.msi。 使用/i 時，已修補的應用程式可透過應用程式封裝的路徑來識別 ( .msi 檔案) 或應用程式的 [產品代碼](product-codes.md)。 在此範例中，應用程式的安裝套件位於「 \\ \\ server \\ share \\ products \\ 範例example.msi」 \\ ，而應用程式的 [**ProductCode**](productcode.md)屬性為 "{0C9840E7-7F0B-C648-10F0-4641926FE463}"。 修補程式套件位於「 \\ \\ 伺服器 \\ 共用 \\ 產品 \\ 範例 \\ 修補程式 \\ 範例 .msp」，而 patch code GUID 為 "{EB8C947C-78B2-85A0-644D-86CEEF8E07C0}"。
+您可以使用 msiexec.exe 和 [命令列選項](command-line-options.md)，從命令卸載修補程式。 下列命令列範例會使用 [**MSIPATCHREMOVE**](msipatchremove.md)屬性和/i 命令列選項，從應用程式中移除 [可卸載修補](uninstallable-patches.md)程式（例如 .msp），example.msi。 使用/i 時，已修補的應用程式可透過應用程式封裝的路徑來識別 (.msi 檔) 或應用程式的 [產品代碼](product-codes.md)。 在此範例中，應用程式的安裝套件位於「 \\ \\ server \\ share \\ products \\ 範例example.msi」 \\ ，而應用程式的 [**ProductCode**](productcode.md)屬性為 "{0C9840E7-7F0B-C648-10F0-4641926FE463}"。 修補程式套件位於「 \\ \\ 伺服器 \\ 共用 \\ 產品 \\ 範例 \\ 修補程式 \\ 範例 .msp」，而 patch code GUID 為 "{EB8C947C-78B2-85A0-644D-86CEEF8E07C0}"。
 
 **Msiexec/I {0C9840E7-7F0B-C648-10F0-4641926FE463} MSIPATCHREMOVE = {EB8C947C-78B2-85A0-644D-86CEEF8E07C0}/qb**
 
 ## <a name="uninstalling-a-patch-using-the-standard-command-line-options"></a>使用標準命令列選項卸載修補程式
 
-從 Windows Installer 版本3.0 開始，您可以使用 Microsoft Windows 作業系統更新所使用的 [標準命令列選項](standard-installer-command-line-options.md) (update.exe) 從命令列卸載 Windows Installer 修補程式。
+從 Windows Installer 版本3.0 開始，您可以使用 Microsoft Windows 作業系統更新所使用的[標準命令列選項](standard-installer-command-line-options.md) (update.exe) 從命令列卸載 Windows Installer 修補程式。
 
-下列命令列是標準命令列，相當於使用 [**MSIPATCHREMOVE**](msipatchremove.md) 屬性卸載修補程式的 Windows Installer 命令列。 搭配/package 選項使用的/uninstall 選項表示卸載修補程式。 修補程式的完整路徑或 patch code GUID 可以參考修補程式。
+下列命令列是標準命令列，相當於使用 [**MSIPATCHREMOVE**](msipatchremove.md)屬性卸載修補程式的 Windows Installer 命令列。 搭配/package 選項使用的/uninstall 選項表示卸載修補程式。 修補程式的完整路徑或 patch code GUID 可以參考修補程式。
 
 **Msiexec/package {0C9840E7-7F0B-C648-10F0-4641926FE463}/uninstall {EB8C947C-78B2-85A0-644D-86CEEF8E07C0}/passive**
 
 > [!Note]  
-> /Passive standard 選項與 Windows Installer/qb 選項完全相等。
+> /passive standard 選項與 Windows Installer/qb 選項完全相等。
 
  
 
@@ -62,7 +62,7 @@ installer.RemovePatches(PatchList, Product, msiInstallTypeSingleInstance, "")
 
 ## <a name="uninstalling-a-patch-using-the-msiremovepatches-function"></a>使用 MsiRemovePatches 函數卸載修補程式
 
-您的應用程式可以使用 [Windows Installer 功能](installer-functions.md)，從其他應用程式卸載修補程式。 下列程式碼範例會使用 [**MsiRemovePatches**](/windows/desktop/api/Msi/nf-msi-msiremovepatchesa)函數，從應用程式中移除 [可卸載 patch](uninstallable-patches.md)（.msp），example.msi。 Patch 封裝的完整路徑或 patch code GUID 可以參考修補程式。 在此範例中，應用程式的安裝套件位於「 \\ \\ server \\ share \\ products \\ 範例example.msi」 \\ ，而應用程式的 [**ProductCode**](productcode.md)屬性為 "{0C9840E7-7F0B-C648-10F0-4641926FE463}"。 修補程式套件位於「 \\ \\ 伺服器 \\ 共用 \\ 產品 \\ 範例 \\ 修補程式 \\ 範例 .msp」，而 patch code GUID 為 "{EB8C947C-78B2-85A0-644D-86CEEF8E07C0}"。
+您的應用程式可以使用[Windows Installer 功能](installer-functions.md)，從其他應用程式卸載修補程式。 下列程式碼範例會使用 [**MsiRemovePatches**](/windows/desktop/api/Msi/nf-msi-msiremovepatchesa)函數，從應用程式中移除 [可卸載 patch](uninstallable-patches.md)（.msp），example.msi。 Patch 封裝的完整路徑或 patch code GUID 可以參考修補程式。 在此範例中，應用程式的安裝套件位於「 \\ \\ server \\ share \\ products \\ 範例example.msi」 \\ ，而應用程式的 [**ProductCode**](productcode.md)屬性為 "{0C9840E7-7F0B-C648-10F0-4641926FE463}"。 修補程式套件位於「 \\ \\ 伺服器 \\ 共用 \\ 產品 \\ 範例 \\ 修補程式 \\ 範例 .msp」，而 patch code GUID 為 "{EB8C947C-78B2-85A0-644D-86CEEF8E07C0}"。
 
 
 ```C++

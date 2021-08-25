@@ -1,19 +1,19 @@
 ---
-description: Microsoft Windows 提供一些可供您的檔案格式使用的系統屬性。
+description: Microsoft Windows 提供許多您可用於檔案格式的系統屬性。
 ms.assetid: 3a25c4fb-ffea-4524-b59b-912416b2fc7d
 title: 自訂檔案格式的 System-Defined 屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ba1a3645e383ea751298f766eacf60f5ac95ece3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c28dcf137d10fffb3cc192acf66b1279b83fd079b6b81cf963dfed8a78408388
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112401"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119944498"
 ---
 # <a name="system-defined-properties-for-custom-file-formats"></a>自訂檔案格式的 System-Defined 屬性
 
-Microsoft Windows 提供一些可供您的檔案格式使用的系統屬性。 如果您要建立自訂檔案格式，您應該盡可能支援最多的系統定義屬性。 建立自訂屬性處理常式之前，您應該先檢查系統提供的處理常式，看看您是否可以使用它，而不是撰寫自己的處理常式。
+Microsoft Windows 提供許多您可用於檔案格式的系統屬性。 如果您要建立自訂檔案格式，您應該盡可能支援最多的系統定義屬性。 建立自訂屬性處理常式之前，您應該先檢查系統提供的處理常式，看看您是否可以使用它，而不是撰寫自己的處理常式。
 
 下表將檔案格式分類，然後列出檔案格式應支援的最重要系統屬性。 為了提供絕佳的使用者體驗，您應該針對檔案格式的類別目錄支援所有優先順序1和2屬性。
 
@@ -30,14 +30,14 @@ Microsoft Windows 提供一些可供您的檔案格式使用的系統屬性。 �
 
 
 
-| Name            | 屬性                               | 優先順序 |
+| 名稱            | 屬性                               | 優先順序 |
 |-----------------|----------------------------------------|----------|
 | 收到日期   | DateReceived            | 1        |
 | 從名稱      | FromName                | 1        |
 | 具有附件 | HasAttachments          | 1        |
 | Mailbox         | Storeddisplayname | 1        |
-| Name            | System.string                        | 1        |
-| 主體         | System. Subject                         | 1        |
+| 名稱            | System.string                        | 1        |
+| 主旨         | System. Subject                         | 1        |
 | 名稱        | ToName                  | 1        |
 | 類別        | System. Category                        | 2        |
 | 類型            | System.PerceivedType                   | 2        |
@@ -50,7 +50,7 @@ Microsoft Windows 提供一些可供您的檔案格式使用的系統屬性。 �
 
 
 
-| Name             | 屬性                           | 優先順序 |
+| 名稱             | 屬性                           | 優先順序 |
 |------------------|------------------------------------|----------|
 | 帳戶名稱     | System.servicemodel   | 1        |
 | 公司電話   | BusinessTelephone   | 1        |
@@ -73,7 +73,7 @@ Microsoft Windows 提供一些可供您的檔案格式使用的系統屬性。 �
 
 
 
-| Name      | 屬性             | 優先順序 |
+| 名稱      | 屬性             | 優先順序 |
 |-----------|----------------------|----------|
 | Authors   | System.Author        | 1        |
 | 全文檢索 | System. 全文檢索      | 1        |
@@ -90,7 +90,7 @@ Microsoft Windows 提供一些可供您的檔案格式使用的系統屬性。 �
 
 
 
-| Name     | 屬性             | 優先順序 |
+| 名稱     | 屬性             | 優先順序 |
 |----------|----------------------|----------|
 | Authors  | System.Author        | 1        |
 | 標題    | System.Title         | 1        |
@@ -106,7 +106,7 @@ Microsoft Windows 提供一些可供您的檔案格式使用的系統屬性。 �
 
 
 
-| Name         | 屬性                     | 優先順序 |
+| 名稱         | 屬性                     | 優先順序 |
 |--------------|------------------------------|----------|
 | \#           | TrackNumber     | 1        |
 | 專輯        | AlbumTitle      | 1        |
@@ -129,7 +129,7 @@ Microsoft Windows 提供一些可供您的檔案格式使用的系統屬性。 �
 
 
 
-| Name          | 屬性                        | 優先順序 |
+| 名稱          | 屬性                        | 優先順序 |
 |---------------|---------------------------------|----------|
 | 匯入日期 | System. DateImported             | 1        |
 | 拍攝日期    | DateTaken          | 1        |
@@ -150,7 +150,7 @@ Microsoft Windows 提供一些可供您的檔案格式使用的系統屬性。 �
 
 
 
-| Name         | 屬性                 | 優先順序 |
+| 名稱         | 屬性                 | 優先順序 |
 |--------------|--------------------------|----------|
 | 長度       | System.object。持續時間    | 1        |
 | 分級       | 系統評分            | 1        |

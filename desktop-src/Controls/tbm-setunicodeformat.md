@@ -3,7 +3,7 @@ title: 'TBM_SETUNICODEFORMAT 訊息 (Commctrl .h) '
 description: TBM_SETUNICODEFORMAT 訊息：設定控制項的 Unicode 字元格式旗標。 此訊息可讓您變更控制項在執行時間所使用的字元集，而不需要重新建立控制項。
 ms.assetid: c50a49e8-6042-490d-bb7b-baf917d5c30a
 keywords:
-- TBM_SETUNICODEFORMAT message Windows 控制項
+- TBM_SETUNICODEFORMAT 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f076efe2a575eff131c9bc2a1fe3df9ecab0fe68
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: fe2c6635f895d8ebd11f8261da553fe59d65574151046f97e489a6d9c6990d3d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108104036"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119876998"
 ---
 # <a name="tbm_setunicodeformat-message"></a>TBM \_ SETUNICODEFORMAT 訊息
 
@@ -53,8 +53,8 @@ ms.locfileid: "108104036"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

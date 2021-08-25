@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: d1dc80943095611737d0c9704bcc0e82ffee506f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 84d39ada06b0155c350da062eed6fffd23fa07b4866e7b94079019703247fef8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943739"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119850268"
 ---
 # <a name="instanceparameterseventsourcekey-property"></a>InstanceParameters. EventSourceKey 屬性
 
