@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Winspool.h
-ms.openlocfilehash: 131b5ecf874554c3642808570a53ee8b20ad0e68
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d057914ef9a77c7a545817b205f919afa66fdd3bc154363f7e33a9a5ba43c446
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975428"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119824788"
 ---
 # <a name="printprocessor_caps_1-structure"></a>PRINTPROCESSOR \_ CAPS \_ 1 結構
 
@@ -72,7 +72,7 @@ typedef struct _PRINTPROCESSOR_CAPS_1 {
 
 ## <a name="remarks"></a>備註
 
-所有結構成員的值都是由 [**GetPrintProcessorCapabilities**](/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-getprintprocessorcapabilities) 函式所提供，此函數記載于 WINDOWS 驅動程式套件 (WDK) 中。
+所有結構成員的值都是由 [**GetPrintProcessorCapabilities**](/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-getprintprocessorcapabilities)函式所提供，此函數記載于 Windows 驅動程式套件 (WDK) 中。
 
 當應用程式呼叫 [**GetPrinterData**](getprinterdata.md)，以 [](/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-getprintprocessorcapabilities) PrintProcCaps datatype 的格式指定值名稱 \_ **（其中 *datatype* 是輸入資料類型的名稱）時，多工緩衝處理器會呼叫列印處理器的 GetPrintProcessorCapabilities 函式。
 
@@ -84,7 +84,7 @@ typedef struct _PRINTPROCESSOR_CAPS_1 {
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                                |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                      |
-| 標頭<br/>                   | <dl> <dt>Winspool.drv (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>winspool.drv (包含 Windows .h) </dt> </dl> |
 
 
 

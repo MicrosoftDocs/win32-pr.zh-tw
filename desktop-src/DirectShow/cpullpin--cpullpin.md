@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: e8f0b72716dcbfb438a84eb1ce852f8fc07f2898
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: d17d98903a48b995cfe3c82ac746dfe7b8f0268beb03f34ae8228f50f5022920
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108085486"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119908928"
 ---
 # <a name="cpullpincpullpin-destructor"></a>CPullPin. ~ CPullPin 的函式
 

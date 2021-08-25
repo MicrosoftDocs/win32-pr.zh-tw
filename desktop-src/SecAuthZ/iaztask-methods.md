@@ -4,12 +4,12 @@ ms.assetid: FE3ADC31-D3E0-4CE6-81AC-2DA44E2D3A64
 title: IAzTask 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b452804db53ecc5f8668c324f63af2db006b431d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2ce9fe9c3535c83029658f8f82d75df378a7d1c06f2c15dae0a5a03eb94c5670
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106978061"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119908397"
 ---
 # <a name="iaztask-methods"></a>IAzTask 方法
 

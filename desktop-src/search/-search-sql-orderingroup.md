@@ -4,12 +4,12 @@ ms.assetid: edfa2037-3360-411d-8a12-cdb9680222f2
 title: ORDER IN GROUP 子句
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d3b4a3a39ffeb2704a099389a6668a075fb4a24f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 83b17981f6368b67852e393d38ef8c4b856601d73014d9bdce40292e7e4a499d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318156"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119944648"
 ---
 # <a name="order-in-group-clause"></a>ORDER IN GROUP 子句
 

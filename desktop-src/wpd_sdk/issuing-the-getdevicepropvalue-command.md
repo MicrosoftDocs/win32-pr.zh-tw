@@ -4,12 +4,12 @@ ms.assetid: 60294ac6-06e0-4546-bbe9-da48d250e31e
 title: 發出 GetDevicePropValue 命令
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c5d2e5e99e2b1d51b9147fc4da2d86b4fa955907
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: da87366361bbcccba182b72cfb49124692f86dc88c5a87ebbeb4d5f667451a97
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106990334"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119839278"
 ---
 # <a name="issuing-the-getdevicepropvalue-command"></a>發出 GetDevicePropValue 命令
 

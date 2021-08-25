@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c47aa4069b9886d79fd77a6816eede4eb4ad81e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 44cb7aaf892d6f73a498d5d880c41ab2df3fa8e028039ea39966b6547b11d9b1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106996270"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119861787"
 ---
 # <a name="iwmplibrarytype-property"></a>IWMPLibrary：： type 屬性
 

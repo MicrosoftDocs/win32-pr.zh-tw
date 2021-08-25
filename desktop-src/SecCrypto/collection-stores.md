@@ -4,12 +4,12 @@ ms.assetid: 13e7e077-e8be-4ba4-99e1-08421fd2452e
 title: 集合存放區
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5bfeb8ef071d7a5ccf6bc7ce43ba418117879536
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 66d783aafe6d0ff22cd990195f6bce5ce433f2f01595bed2cf20c5c41ea3a24e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103851043"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119876910"
 ---
 # <a name="collection-stores"></a>集合存放區
 

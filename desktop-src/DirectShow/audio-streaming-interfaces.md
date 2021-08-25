@@ -4,17 +4,17 @@ ms.assetid: eaf510ef-a6a3-45e0-8f0a-281a44b0ff6f
 title: 音訊串流介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 68210beef0b05fcfc89ae5005c485fbc4b74d40f
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 1087ab127258fcd4f587cdd029d4604c35524689b5f0877476e1137e2ed924eb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104510282"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119824468"
 ---
 # <a name="audio-streaming-interfaces"></a>音訊串流介面
 
 > [!Note]  
-> 這些 Api 已被取代。 應用程式應該使用 [**範例捕獲**](sample-grabber-filter.md) 篩選器或執行自訂篩選，以從 DirectShow 篩選圖形取得資料。
+> 這些 Api 已被取代。 應用程式應該使用 [**範例捕獲**](sample-grabber-filter.md)篩選器或執行自訂篩選，以從 DirectShow 的篩選圖形取得資料。
 
  
 

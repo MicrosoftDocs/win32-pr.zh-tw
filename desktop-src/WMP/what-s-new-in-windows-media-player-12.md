@@ -20,12 +20,12 @@ keywords:
 - 版本的 Windows Media Player，第12版中的新功能
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d16b21077df1f4a9c11edbfa20032ed473f872a0
-ms.sourcegitcommit: c2a1c4314550ea9bd202d28adfcc7bfe6180932f
+ms.openlocfilehash: 976c9b0995188f9d6c6db6e7394ec0019047ff18b51940ada202c8c7ea713f39
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "104092597"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119862278"
 ---
 # <a name="whats-new-in-windows-media-player-12"></a>Windows Media Player 12的新功能
 
@@ -99,9 +99,9 @@ ms.locfileid: "104092597"
 [關於 Windows Media Player SDK](about-the-windows-media-player-sdk.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

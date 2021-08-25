@@ -4,12 +4,12 @@ description: 伺服器開發人員必須確保為所有 UI 元素產生適當的
 ms.assetid: 253e0162-20e6-4e89-b563-aae9cf7e53a9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: af6273411115e908303e863a34908e15ef91b19c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f7e148578f55f59d2827fd13a637baf5139c3f934ddf24059e437185c15349b8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104183910"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119860388"
 ---
 # <a name="generating-appropriate-winevents"></a>產生適當的 WinEvents
 
@@ -21,7 +21,7 @@ ms.locfileid: "104183910"
 
 ## <a name="general-events"></a>一般事件
 
-您可以針對所有 UI 元素傳送一般 WinEvents。 這些包括：
+您可以針對所有 UI 元素傳送一般 WinEvents。 其中包含：
 
 -   [**活動 \_建立 \_**](event-constants.md) 物件時建立 (的物件) 
 -   [**活動 \_物件 \_**](event-constants.md) 終結時 (物件終結) 
@@ -38,9 +38,9 @@ ms.locfileid: "104183910"
 -   [事件常數](event-constants.md)。 本主題包含作業系統和伺服器應用程式所產生之事件的相關資訊。
 -    (AccEvent.exe) 可存取的事件監看員。 此工具會顯示使用者針對特定 UI 元素傳送的事件。 您可以使用此工具來瞭解 UI 元素可以預期的事件。 如需詳細資訊，請參閱 [可存取的事件](accessible-event-watcher.md)監看員。
 
- 
+ 
 
- 
+ 
 
 
 

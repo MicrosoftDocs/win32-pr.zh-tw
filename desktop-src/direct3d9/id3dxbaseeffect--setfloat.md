@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: af955748fff66e67e0e2f5650b869a746168de54
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: f55ede140e324daa52b5bafc24cc7004a75163a96bdf2e75d4e4be5e7a4c4b39
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103853963"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119893698"
 ---
 # <a name="id3dxbaseeffectsetfloat-method"></a>ID3DXBaseEffect：： SetFloat 方法
 

@@ -4,19 +4,19 @@ ms.assetid: 14d520e7-7c15-441d-9662-24b972d208ac
 title: 工作列
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cce37991c6265f02ab92ece62dbae341031d272a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f8a4943c242b0b3f0993a4cf542c8625e19cf25c32b71cb01e4ef8581d12d64c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104991707"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119773718"
 ---
 # <a name="the-taskbar"></a>工作列
 
 Windows 介面包含名為 *工作列* 的特殊 [應用程式桌面工具列](application-desktop-toolbars.md)。 您可以使用工作列來進行這類工作，像是在開啟的視窗和啟動新的應用程式之間切換。
 
 > [!Note]  
-> 如需 Windows 7 的工作列變更的詳細資訊，請參閱 [工作列擴充](taskbar-extensions.md)功能。
+> 如需 Windows 7 時對工作列所做之變更的相關資訊，請參閱[工作列擴充](taskbar-extensions.md)功能。
 
  
 
@@ -44,33 +44,33 @@ Windows 介面包含名為 *工作列* 的特殊 [應用程式桌面工具列](a
 
 [ **開始** ] 功能表包含可存取程式、檔和設定的命令。 這些命令包括 **所有程式**、 **檔**、 **主控台**、 **遊戲**、說明 **及支援**、 **關機** 以及 **搜尋程式和** 檔案。
 
-在舊版的 Windows 中，**從** windows Vista 和更新版本的 **搜尋程式和** 檔案中包含的專案，像是 [**尋找**] 和 [**執行**]。
+從舊版 Windows **開始** 包含 **尋找** 和 **執行** 之類的專案，Windows Vista 和更新版本的 **搜尋程式和** 檔案中包含的功能。
 
-在 Windows 7 之前的 Windows 版本中提供的快速啟動 bar，包含應用程式的快捷方式。 Windows 提供預設的專案，例如 Windows Internet Explorer，而使用者可以加入他們選擇的任何進一步的快捷方式。 此區域中的圖示只會回應按一下。 在 Windows 7 和更新版本中，這項功能包含在工作列按鈕中。
+快速啟動列（在 Windows 7 之前的 Windows 版本中提供）包含應用程式的快捷方式。 Windows 提供預設專案（例如 Windows Internet Explorer），而且使用者可以加入他們選擇的任何其他快捷方式。 此區域中的圖示只會回應按一下。 在 Windows 7 和更新版本中，這項功能會包含在工作列按鈕中。
 
 每當應用程式建立無主視窗（也就是沒有父代且具有適當擴充樣式位的視窗）時，Shell 會在工作列上放置一個按鈕 (請參閱 [管理工作列按鈕](#managing-taskbar-buttons)，如下) 。 若要切換至視窗，使用者可以按一下視窗按鈕。 從 Windows 7 起，這項功能已經大幅擴充。 如需詳細資訊，請參閱 [工作列擴充](taskbar-extensions.md)功能。
 
-應用程式可以將圖示放在通知區域中，以指出作業的狀態，或通知使用者有關事件的狀態。 例如，應用程式可能會在通知區域中放置印表機圖示，以顯示列印工作正在進行中。 不過，在 Windows 7 和更新版本中，某些先前由通知區域提供的資訊，應該透過應用程式的工作列按鈕提供。 通知區域位於工作列的右邊緣 (如果工作列為水準) ，或如果工作列垂直) ，則位於底部 (。 如需詳細資訊，請參閱 [通知和通知區域](notification-area.md)。
+應用程式可以將圖示放在通知區域中，以指出作業的狀態，或通知使用者有關事件的狀態。 例如，應用程式可能會在通知區域中放置印表機圖示，以顯示列印工作正在進行中。 不過，在 Windows 7 和更新版本中，必須透過應用程式的工作列按鈕提供通知區域先前提供的部分資訊。 通知區域位於工作列的右邊緣 (如果工作列為水準) ，或如果工作列垂直) ，則位於底部 (。 如需詳細資訊，請參閱 [通知和通知區域](notification-area.md)。
 
 如果選取此選項，通知區域也會顯示目前的時間。 此選項會找到：
 
--   **Windows 7 和更新版本**：**通知區域圖示** 的 [**開啟或關閉系統圖示**] 頁面中的 [**時鐘**] 下拉式清單主控台應用程式 (也可透過 [通知] 區域屬性) 存取。
+-   **Windows 7 和更新版本**：**通知區域圖示** 主控台應用程式的 [**開啟或關閉系統圖示**] 頁面中的 [**時鐘**] 下拉式清單 (也可透過通知區域屬性) 存取。
 -   **Windows Vista**： [**工作列] 和 [開始] 功能表**[屬性] 視窗的 [通知]**區域** 頁面中的 [**時鐘**] 核取方塊。
--   **WINDOWS XP**： [**工作列] 和 [開始功能表** 屬性] 視窗中的 [**顯示時鐘**] 核取方塊。
+-   **Windows XP**： [**工作列] 和 [開始功能表** 屬性] 視窗中的 [**顯示時鐘**] 核取方塊。
 
 使用者可以在工作列上按一下滑鼠右鍵，以顯示快捷方式功能表。 快捷方式功能表包含了串聯視窗、堆疊視窗、並排顯示視窗、顯示桌面、開始工作管理員以及設定工作列屬性的命令。 快速鍵功能表也提供選項，可讓您從工作列新增或移除一組工具列。 您可以藉由在 CATID DeskBand 類別下註冊，將新的工具列新增至這個功能表中 \_ 。 如需詳細資訊，請參閱 [執行頻外物件](band-objects.md)。 請注意，從 Windows 7，工作列和通知區域都有個別的快捷方式功能表。 這些快捷方式功能表會共用一些選項，例如視窗排列，並加入其他選項。
 
 ### <a name="taskbar-display-options"></a>工作列顯示選項
 
-工作列支援兩種顯示選項：自動隱藏，而且只有在 Windows Vista 和較早的版本中，Always On 頂端 (工作列在 Windows 7 和更新版本的) 中一律處於此模式。 若要設定這些選項，使用者必須開啟工作列快捷方式功能表，按一下 [ **屬性**]，然後選取或清除 [ **自動隱藏工作列** ] 核取方塊或 [ **將工作列保持在其他視窗上方** ] 核取方塊。 若要取得這些顯示選項的狀態，請使用 [**ABM \_ >getstate**](abm-getstate.md) 訊息。 如果您想要在這些顯示選項的狀態變更時收到通知，請在您的視窗程式中處理 [**ABN \_ STATECHANGE**](abn-statechange.md) 通知訊息。 若要變更這些顯示選項的狀態，請使用 [**ABM \_ SETSTATE**](abm-setstate.md) 訊息。
+工作列支援兩種顯示選項：自動隱藏，而且在 Windows Vista 及更早版本中，Always On 頂端 (工作列在 Windows 7 和更新版本) 中一律處於此模式。 若要設定這些選項，使用者必須開啟工作列快捷方式功能表，按一下 [ **屬性**]，然後選取或清除 [ **自動隱藏工作列** ] 核取方塊或 [ **將工作列保持在其他視窗上方** ] 核取方塊。 若要取得這些顯示選項的狀態，請使用 [**ABM \_ >getstate**](abm-getstate.md) 訊息。 如果您想要在這些顯示選項的狀態變更時收到通知，請在您的視窗程式中處理 [**ABN \_ STATECHANGE**](abn-statechange.md) 通知訊息。 若要變更這些顯示選項的狀態，請使用 [**ABM \_ SETSTATE**](abm-setstate.md) 訊息。
 
 *工作區* 是工作列未遮蔽的畫面部分。 若要取得工作區域的大小，請使用已設定的 **SPI \_ GETWORKAREA** 值來呼叫 [**SystemParametersInfo**](/windows/win32/api/winuser/nf-winuser-systemparametersinfoa)函式。 若要取出描述工作列位置的矩形座標，請使用 [**ABM \_ GETTASKBARPOS**](abm-gettaskbarpos.md) 訊息。
 
-您可以使用 [**SetWindowPos**](/windows/win32/api/winuser/nf-winuser-setwindowpos)，明確地設定等於畫面大小的視窗矩形大小，以涵蓋工作列。 若為 Windows 2000 系統或更新版本，視窗必須要有 [**ws \_ 標題**](../winmsg/window-styles.md) 或 [**ws \_ THICKFRAME**](../winmsg/window-styles.md)，否則視窗必須調整大小，才能讓工作區涵蓋整個畫面。 也特別是對於這些系統而言，如果工作列設定為 Always On Top，則只有在應用程式是前景應用程式時，它才會保持隱藏。
+您可以使用 [**SetWindowPos**](/windows/win32/api/winuser/nf-winuser-setwindowpos)，明確地設定等於畫面大小的視窗矩形大小，以涵蓋工作列。 針對 Windows 2000 系統或更新版本，視窗必須缺少 [**ws \_ 標題**](../winmsg/window-styles.md)或 [**ws \_ THICKFRAME**](../winmsg/window-styles.md)，否則視窗必須調整大小，才能讓工作區涵蓋整個畫面。 也特別是對於這些系統而言，如果工作列設定為 Always On Top，則只有在應用程式是前景應用程式時，它才會保持隱藏。
 
 ### <a name="adding-shortcuts-to-the-start-menu"></a>將快捷方式新增至 [開始] 功能表
 
-若要將專案新增至 Microsoft Windows NT 4.0、Windows 2000 和更新版本或 Windows 95 或更新版本上的 [ **程式** ] 子功能表，請遵循下列步驟。
+若要將專案新增至 Microsoft Windows NT 4.0、Windows 2000 和更新版本，或 Windows 95 或更新版本的 [**程式**] 子功能表中，請遵循下列步驟。
 
 1.  使用 [**IShellLink**](/windows/desktop/api/Shobjidl_core/nn-shobjidl_core-ishelllinka)介面建立 [shell 連結](./links.md)。
 2.  使用 [**SHGetSpecialFolderLocation**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetspecialfolderlocation)傳遞 [**CSIDL \_ 程式**](csidl.md)，以取得 [程式] 資料夾的 PIDL。
@@ -123,16 +123,16 @@ Shell32.dll [4.71 版和更新版本](versions.md)新增了修改工作列內容
 
 如需如何變更與通知區域圖示相關聯的工具提示文字的範例，請參閱 [狀態列圖示的氣球工具提示](../controls/tooltip-controls.md)。
 
-Shell 的5.0 版和更新版本會以不同的方式來 [**\_ NotifyIcon**](/windows/desktop/api/Shellapi/nf-shellapi-shell_notifyicona) 滑鼠和鍵盤事件，而不像舊版的 shell 版本 Windows NT 4.0、Windows 95 和 Windows 98。 差異如下：
+shell 的5.0 版和更新版本會以不同的方式來 [**\_ NotifyIcon**](/windows/desktop/api/Shellapi/nf-shellapi-shell_notifyicona)滑鼠和鍵盤事件，而不像舊版 shell 版本 Windows NT 4.0、Windows 95 和 Windows 98。 差異如下：
 
 -   如果使用者向鍵盤要求通知圖示的快捷方式功能表，5.0 版 Shell 會傳送一個 [**WM \_ CONTEXTMENU**](../menurc/wm-contextmenu.md) 訊息給相關聯的應用程式。 舊版會傳送 [**wm \_ RBUTTONDOWN**](../inputdev/wm-rbuttondown.md) 和 [**wm \_ RBUTTONUP**](../inputdev/wm-rbuttonup.md) 訊息。
 -   如果使用者使用鍵盤選取 [通知] 圖示，並以空格鍵或 ENTER 鍵啟動它，則5.0 版 Shell 會將 **>nin \_ KEYSELECT** 通知傳送給相關聯的應用程式。 舊版會傳送 [**wm \_ RBUTTONDOWN**](../inputdev/wm-rbuttondown.md) 和 [**wm \_ RBUTTONUP**](../inputdev/wm-rbuttonup.md) 訊息。
 -   如果使用者使用滑鼠選取 [通知] 圖示，並使用 ENTER 鍵啟動它，則5.0 版 Shell 會傳送 **>nin \_ SELECT** 通知給相關聯的應用程式。 舊版會傳送 [**wm \_ RBUTTONDOWN**](../inputdev/wm-rbuttondown.md) 和 [**wm \_ RBUTTONUP**](../inputdev/wm-rbuttonup.md) 訊息。
 -   如果使用者將滑鼠指標移到與氣球工具提示相關聯的圖示上，版本 6.0 Shell (Windows XP) 傳送下列訊息。
-    -   -   **>nin \_BALLOONSHOW** -在顯示氣球時傳送 (球標排入佇列) 。
-        -   **>nin \_BALLOONHIDE** -當氣球消失時傳送，例如，當刪除圖示時。 如果因為超時或按下滑鼠，而關閉球標，則不會傳送此訊息。
-        -   **>nin \_BALLOONTIMEOUT** -當氣球因為 timeout 而關閉時傳送。
-        -   **>nin \_BALLOONUSERCLICK** -當氣球因為滑鼠按一下而關閉時傳送。
+    -   -   **>Nin \_BALLOONSHOW** -在顯示氣球時傳送 (球標排入佇列) 。
+        -   **>Nin \_BALLOONHIDE** -當氣球消失時傳送，例如，當刪除圖示時。 如果因為超時或按下滑鼠，而關閉球標，則不會傳送此訊息。
+        -   **>Nin \_BALLOONTIMEOUT** -當氣球因為 timeout 而關閉時傳送。
+        -   **>Nin \_BALLOONUSERCLICK** -當氣球因為滑鼠按一下而關閉時傳送。
 
 您可以藉由呼叫 [**shell \_ NotifyIcon**](/windows/desktop/api/Shellapi/nf-shellapi-shell_notifyicona) ，並將 *dwMessage* 設定為 **NIM \_ SETVERSION**，來選取 shell 的行為方式。 設定 [**NOTIFYICONDATA**](/windows/desktop/api/Shellapi/ns-shellapi-notifyicondataa)結構的 **uVersion** 成員，以指出您是否想要5.0 版或5.0 版之前的行為。
 

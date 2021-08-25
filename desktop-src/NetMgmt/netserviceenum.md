@@ -12,17 +12,17 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 978cfb62458c2cbcecba8c8d7ba8d9e7df201d2a
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: a7b7460dcbadc82a0bb8acb647f2ffd03edea711610bd5827c7aff057babf1ce
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106966873"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119911871"
 ---
 # <a name="netserviceenum"></a>NetServiceEnum
 
 **NetServiceEnum** 函式已過時。 它隨附于與16位版本的 Windows 的相容性。 其他應用程式應該使用 [服務功能](/windows/desktop/Services/service-functions)。
 
- 
+ 
 
- 
+ 

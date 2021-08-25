@@ -4,12 +4,12 @@ ms.assetid: aae5e2b4-bc80-4919-80a6-02230796f57e
 title: XMFLOAT3X3 延伸模組
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8869eb9a09ad9f06cd450a5a2075781d86c2001a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e2d1f176e7e17c26ad0911db12e8a5aebde7cb8acadf85293f98783a190c3db0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974582"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119841608"
 ---
 # <a name="xmfloat3x3-extensions"></a>XMFLOAT3X3 延伸模組
 

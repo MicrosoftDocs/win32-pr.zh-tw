@@ -11,12 +11,12 @@ api_name: ''
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 7d33ba964a43063cfcfc3ffcac10a525b9087474
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7098cf6159321d3572b4d7898e1c265d187adec370a940a41c79feddc9735a08
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114529"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119841658"
 ---
 # <a name="directxboundingsphere-constructors"></a>BoundingSphere 函式
 

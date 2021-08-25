@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: da8c1e6c70cb07e1fd81591512b2f3c35cd19a04
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9ea39f2a2a5ae351ba54d0a5973f2764532458d94adae7559ee816ac1cb09c4f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112112"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119890958"
 ---
 # <a name="jet_dbinfomisculeccfixfail-property"></a>JET_DBINFOMISC ulECCFixFail 屬性
 

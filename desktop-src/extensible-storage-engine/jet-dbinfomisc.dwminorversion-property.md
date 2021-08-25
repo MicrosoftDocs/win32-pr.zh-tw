@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: e539407bea7b8d6cb83c7dfe2bc8a3b7530d4f02
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dcebb644d3d095155d4958aab6bc666900e6274a54dc68cef29994f4a288fa10
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112976"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119891428"
 ---
 # <a name="jet_dbinfomiscdwminorversion-property"></a>JET_DBINFOMISC dwMinorVersion 屬性
 

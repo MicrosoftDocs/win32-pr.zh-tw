@@ -4,12 +4,12 @@ ms.assetid: 166bfb8c-b97d-4cc7-bf6b-399837cb8ad0
 title: 處理加密的檔案和目錄
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2718656a28eb678c10076e228e08a2a95cabd1fc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cf1a3a7b4a2d38aa2f4e012ccb96d01712f280879ff578afdb5c69392ab826a5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103945144"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119927788"
 ---
 # <a name="handling-encrypted-files-and-directories"></a>處理加密的檔案和目錄
 

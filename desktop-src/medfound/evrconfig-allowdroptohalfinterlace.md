@@ -4,12 +4,12 @@ ms.assetid: de7efc6a-19ae-4f3a-8675-38fda3c979e2
 title: 'EVRConfig_AllowDropToHalfInterlace 屬性 (Uuid. h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7c9989fe833ea763166ba870c331add5c18bcb45
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5cfae2bf47e71d1c6cb7dbed60069a79f56cee3249c362acf6c0efc99dc06f55
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191054"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119828148"
 ---
 # <a name="evrconfig_allowdroptohalfinterlace-attribute"></a>EVRConfig \_ AllowDropToHalfInterlace 屬性
 
@@ -39,8 +39,8 @@ ms.locfileid: "104191054"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                         |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/>                            |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                         |
+| 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/>                            |
 | 標頭<br/>                   | <dl> <dt>Uuid。h</dt> </dl> |
 
 

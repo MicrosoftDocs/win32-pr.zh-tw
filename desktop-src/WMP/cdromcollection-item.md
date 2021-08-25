@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a67dc58ae75819fa42940346b4f588b23a2f645a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a5f700a17c29c382e96a5601bd9bbfabf3c4ede1b253d9f271b1d37ab1106ee2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995969"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119864078"
 ---
 # <a name="cdromcollectionitem-method"></a>CdromCollection 專案方法
 
@@ -61,7 +61,7 @@ retVal = CdromCollection.item(
 
 ## <a name="examples"></a>範例
 
-下列 JScript 範例會使用 *CdromCollection*。用來從電腦上每一張 CD 列印播放清單名稱的 **專案** 。 如果磁片磁碟機實際包含 DVD 內容，則需要 Windows XP 或更新版本。 使用 ID = "播放清單" 建立的 HTML TextArea 元素。 使用 ID = "Player" 建立 **player** 物件。
+下列 JScript 範例會使用 *CdromCollection*。用來從電腦上每一張 CD 列印播放清單名稱的 **專案**。 如果磁片磁碟機實際包含 DVD 內容，則需要 Windows XP 或更新版本。 使用 ID = "播放清單" 建立的 HTML TextArea 元素。 使用 ID = "Player" 建立 **player** 物件。
 
 
 ```JScript

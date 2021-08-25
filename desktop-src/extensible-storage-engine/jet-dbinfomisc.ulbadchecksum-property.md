@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: fbe8a0f4aa72a79185626d891822a6c5e7fc8ddb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2e67b29b889bc8196c7da33b513717ac3fb1161b6c3a497726a9fb837477a624
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106967083"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119891218"
 ---
 # <a name="jet_dbinfomisculbadchecksum-property"></a>JET_DBINFOMISC ulBadChecksum 屬性
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - PortableDeviceGUIDs.lib
 - PortableDeviceGUIDs.dll
-ms.openlocfilehash: c246fabe7ced72a5aad6d30101df8035a159a923
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0f648020ddb82db2a619f75bb125e94c7679f8dd3061ac282fcc0f911a498a77
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994771"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119839388"
 ---
 # <a name="iportabledevicekeycollection-interface"></a>IPortableDeviceKeyCollection 介面
 
@@ -40,7 +40,7 @@ ms.locfileid: "106994771"
 | 方法                                                    | 描述                                                                         |
 |:----------------------------------------------------------|:------------------------------------------------------------------------------------|
 | [**添加**](iportabledevicekeycollection-add.md)           | 將屬性索引鍵加入至集合。<br/>                                   |
-| [**清楚**](iportabledevicekeycollection-clear.md)       | 刪除集合中的所有專案。<br/>                                   |
+| [**清除**](iportabledevicekeycollection-clear.md)       | 刪除集合中的所有專案。<br/>                                   |
 | [**GetAt**](iportabledevicekeycollection-getat.md)       | 依據索引，從集合抓取 **PROPERTYKEY** 。<br/>                |
 | [**GetCount**](iportabledevicekeycollection-getcount.md) | 捕獲此集合中的索引鍵數目。<br/>                         |
 | [**RemoveAt**](iportabledevicekeycollection-removeat.md) | 移除儲存在指定索引所指定之位置的元素。<br/> |

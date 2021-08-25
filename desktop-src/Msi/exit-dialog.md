@@ -4,12 +4,12 @@ ms.assetid: 06cf7f0b-b509-4865-ad8f-321ad2a2ce27
 title: 結束對話
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: da5c825c3e3ce143b63637e89b1daa20092f2d24
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 13850cb920cae1d2cb27684f60d6157994c157b20436e5bebefc6e3ef1f9d1da
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848846"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119821778"
 ---
 # <a name="exit-dialog"></a>結束對話
 

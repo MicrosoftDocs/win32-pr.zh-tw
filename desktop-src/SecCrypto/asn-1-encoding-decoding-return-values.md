@@ -4,12 +4,12 @@ ms.assetid: cb1f34dd-dab4-4ffb-a73b-79a214290509
 title: ASN. 1 編碼/解碼傳回值
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6cfae63484753564784cdfdfee0073d8f37e90ec
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 61c48bc5bc122f322650c7913ea9d1978d5113da31fa650a23e8f439555d7ed0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106990470"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119880098"
 ---
 # <a name="asn1-encodingdecoding-return-values"></a>ASN. 1 編碼/解碼傳回值
 

@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 0d5367a6887290f06d36225f211f42048e98ba03
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 0f8fe20bc138feb3eb1ad5bc937ef1f53f0e6b08e5757bbe03791177fe4c3531
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104022218"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119863948"
 ---
 # <a name="cdromcollection-object"></a>CdromCollection 物件
 
@@ -34,7 +34,7 @@ ms.locfileid: "104022218"
 
 
 
- 
+ 
 
 **CdromCollection** 物件支援下列方法。
 
@@ -47,7 +47,7 @@ ms.locfileid: "104022218"
 
 
 
- 
+ 
 
 **CdromCollection** 物件是透過下列屬性來存取。
 
@@ -59,7 +59,7 @@ ms.locfileid: "104022218"
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>另請參閱
 
@@ -68,9 +68,9 @@ ms.locfileid: "104022218"
 [**腳本的物件模型參考**](object-model-reference-for-scripting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

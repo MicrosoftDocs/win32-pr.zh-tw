@@ -4,12 +4,12 @@ ms.assetid: f5a23732-728b-415b-942b-2c7014ea3c2e
 title: 'BoundingOrientedBox.CORNER_COUNT (DirectXCollision) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e51ae908dfbab49c8b9e4d115e7e55dd2f4d82e7
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 74cbcefe4284cd75a91825d09b3709f797f3398d181eecc44ac505ca1a2d607f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995430"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119842398"
 ---
 # <a name="boundingorientedboxcorner_count"></a>BoundingOrientedBox 邊角 \_ 計數
 
@@ -27,7 +27,7 @@ public:
 
 ### <a name="platform-requirements"></a>平台需求
 
-Microsoft Visual Studio 2010 或 Microsoft Visual Studio 2012 搭配 Windows 8 的 Windows SDK。 Win32 桌面應用程式、Windows Store 應用程式和 Windows Phone 8 應用程式均可支援。
+Microsoft Visual Studio 2010 或 Microsoft Visual Studio 2012 搭配 Windows 8 的 Windows SDK。 支援 Win32 傳統型應用程式、Windows 儲存應用程式，以及 Windows Phone 8 個應用程式。
 
 ## <a name="requirements"></a>規格需求
 

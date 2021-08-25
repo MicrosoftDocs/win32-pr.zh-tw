@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 1360b197f0d7f5e0579a5378a37047e6a117a9c9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b6c19acc094426f99599b9e4aa9ea3968414c7de1d99377b2ce0bd2e8e3fde05
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106978704"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119877988"
 ---
 # <a name="certificate-object"></a>Certificate 物件
 
-\[CAPICOM 是僅限32位的元件，可用於下列作業系統： Windows Server 2008、Windows Vista 和 Windows XP。 請改為使用 [**system.security.cryptography.x509certificates.x509certificate2**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor?view=netcore-3.1)命名空間中的 [**X509Certificate2 類別**](/previous-versions/windows/embedded/hh424017(v=msdn.10))。\]
+\[CAPICOM 是僅限32位的元件，可供下列作業系統使用： Windows Server 2008、Windows Vista 和 Windows XP。 請改為使用 [**system.security.cryptography.x509certificates.x509certificate2**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor?view=netcore-3.1)命名空間中的 [**X509Certificate2 類別**](/previous-versions/windows/embedded/hh424017(v=msdn.10))。\]
 
 **憑證** 物件代表單一 [*數位憑證*](../secgloss/d-gly.md)。
 
@@ -61,7 +61,7 @@ ms.locfileid: "106978704"
 |:-------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**BasicConstraints**](certificate-basicconstraints.md)     | 傳回 [**BasicConstraints**](basicconstraints.md) 物件，這個物件表示憑證的基本條件約束延伸。<br/>  (繼承自 **CertificateICertificate2ICertificate**)                                                    |
 | [**顯示**](certificate-display.md)                       | 顯示憑證。<br/>  (繼承自 **CertificateICertificate2ICertificate**)                                                                                                                                                              |
-| [**出口**](certificate-export.md)                         | 將憑證複製到編碼的字串。 編碼的字串可以寫入檔案或匯入至新的 **憑證** 物件。<br/>  (繼承自 **CertificateICertificate2ICertificate**)                                                |
+| [**匯出**](certificate-export.md)                         | 將憑證複製到編碼的字串。 編碼的字串可以寫入檔案或匯入至新的 **憑證** 物件。<br/>  (繼承自 **CertificateICertificate2ICertificate**)                                                |
 | [**ExtendedKeyUsage**](certificate-extendedkeyusage.md)     | 傳回 [**ExtendedKeyUsage**](extendedkeyusage.md) 物件，這個物件會指出有效的憑證擴充金鑰使用。<br/>  (繼承自 **CertificateICertificate2ICertificate**)                                                        |
 | [**ExtendedProperties**](certificate-extendedproperties.md) | 傳回憑證擴充屬性的集合。<br/>  (繼承自 **CertificateICertificate2**)                                                                                                                              |
 | [**延伸模組**](certificate-extensions.md)                 | 傳回與憑證相關聯的延伸模組集合。<br/>  (繼承自 **CertificateICertificate2**)                                                                                                                          |
@@ -85,7 +85,7 @@ ms.locfileid: "106978704"
 
 
 
-| 屬性                                                      | 存取類型           | Description                                                                                                                                          |
+| 屬性                                                      | 存取類型           | 描述                                                                                                                                          |
 |:--------------------------------------------------------------|:----------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**封存**](certificate-archived.md)<br/>           | 讀取/寫入<br/> | 設定或抓取布林值，指出憑證是否已封存。<br/>  (繼承自 **CertificateICertificate2**)        |
 | [**IssuerName**](certificate-issuername.md)<br/>       | 唯讀<br/>  | 抓取包含憑證簽發者名稱的字串。<br/>  (繼承自 **CertificateICertificate2ICertificate**)             |

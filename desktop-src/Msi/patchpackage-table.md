@@ -4,12 +4,12 @@ ms.assetid: 212d99dd-c80c-42ca-9dfa-819ae1813006
 title: PatchPackage 資料表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b13bf9fc03012ca54a0b2144e97c828c968c68da
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: da4027913854436072330a69a788ca9dc9b1365a71b82fd1727227e33d8a203b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104195266"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119926118"
 ---
 # <a name="patchpackage-table"></a>PatchPackage 資料表
 

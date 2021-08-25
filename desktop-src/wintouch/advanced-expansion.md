@@ -3,20 +3,20 @@ title: Advanced 擴充
 description: Advanced 擴充
 ms.assetid: 29db15a1-fa56-441a-af99-9e858d143804
 keywords:
-- Windows Touch，擴充
-- Windows Touch，advanced 擴充
-- Windows Touch，操作
+- Windows觸控、擴充
+- WindowsTouch，advanced 擴充
+- Windows觸控、操作
 - 操作，擴充
 - 操作，advanced 擴充
 - 展開，advanced
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b81a3a395da053b7d0e8f79a115a2489f3e63190
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 27e176d91c08bd0d39383e2aba269bbdb5629cfe6b7c2d20eb1ac955786bef2b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104183071"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119881498"
 ---
 # <a name="advanced-expansion"></a>Advanced 擴充
 
@@ -56,9 +56,9 @@ ms.locfileid: "104183071"
 [操作](getting-started-with-manipulations.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

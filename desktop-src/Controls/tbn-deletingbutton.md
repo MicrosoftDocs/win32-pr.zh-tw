@@ -3,7 +3,7 @@ title: 'TBN_DELETINGBUTTON 訊息 (Commctrl .h) '
 description: 工具列控制項在即將刪除按鈕時傳送。 此通知碼會以 WM 通知訊息的形式傳送 \_ 。
 ms.assetid: 08116071-36d6-456b-88f9-62a22cdb7ed9
 keywords:
-- TBN_DELETINGBUTTON message Windows 控制項
+- TBN_DELETINGBUTTON 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 26337fd1abc6c67351fe2b38e83ee7d90a11f6e9
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a426d32af308d6d254a4221bbf35b103b401f07ab1ba6fa74801b6debd46ab70
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104508396"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119876968"
 ---
 # <a name="tbn_deletingbutton-message"></a>TBN \_ DELETINGBUTTON 訊息
 
@@ -55,8 +55,8 @@ ms.locfileid: "104508396"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

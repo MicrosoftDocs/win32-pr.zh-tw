@@ -1,19 +1,19 @@
 ---
-description: 「列印多工緩衝處理器」 API 包含應用程式用來管理 Windows 列印多工緩衝處理器的功能和資料結構，以及它所控制的印表機和列印工作。
+description: 列印多工緩衝處理器 API 包含應用程式用來管理 Windows 列印多工緩衝處理器的函式和資料結構，以及它所控制的印表機和列印工作。
 ms.assetid: d859f84d-af0e-4b8b-b7fa-d7b1fc35ed39
 title: 列印多工緩衝處理器 API 函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: df751b11206ebf26d2d0e8fd88f61ede8447dad1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 21cab0a23afcfa95c4acb427437c72758356ee9771182301111f9660455d2081
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194849"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119824888"
 ---
 # <a name="print-spooler-api-functions"></a>列印多工緩衝處理器 API 函式
 
-「列印多工緩衝處理器」 API 包含應用程式用來管理 Windows 列印多工緩衝處理器的功能和資料結構，以及它所控制的印表機和列印工作。
+列印多工緩衝處理器 API 包含應用程式用來管理 Windows 列印多工緩衝處理器的函式和資料結構，以及它所控制的印表機和列印工作。
 
 列印多工緩衝處理器 API 的功能分成下列群組：
 
@@ -89,7 +89,7 @@ ms.locfileid: "104194849"
 | [**EnumPrinterData**](enumprinterdata.md)<br/>                 | [**EnumPrinterData**](/windows/desktop/printdocs/enumprinterdata)函式會列舉指定印表機的設定資料。 <br/>                                                                                                                                                                                                                                                                               |
 | [**EnumPrinterDataEx**](enumprinterdataex.md)<br/>             | [**EnumPrinterDataEx**](/windows/desktop/printdocs/enumprinterdataex)函式會列舉指定之印表機和索引鍵的所有值名稱和資料。 <br/>                                                                                                                                                                                                                                                             |
 | [**EnumPrinterKey**](enumprinterkey.md)<br/>                   | [**EnumPrinterKey**](/windows/desktop/printdocs/enumprinterkey)函式會列舉指定印表機之指定機碼的子機碼。 <br/>                                                                                                                                                                                                                                                                     |
-| [**>enumprinters**](enumprinters.md)<br/>                       | [**>enumprinters**](/windows/desktop/printdocs/enumprinters)函式會列舉可用的印表機、列印伺服器、網域或列印提供者。 <br/>                                                                                                                                                                                                                                                                 |
+| [**>enumprinters**](enumprinters.md)<br/>                       | [**>Enumprinters**](/windows/desktop/printdocs/enumprinters)函式會列舉可用的印表機、列印伺服器、網域或列印提供者。 <br/>                                                                                                                                                                                                                                                                 |
 | [**FlushPrinter**](flushprinter.md)<br/>                       | [**FlushPrinter**](/windows/desktop/printdocs/flushprinter)函式會將緩衝區傳送至印表機，以便從暫時性狀態中清除。 <br/>                                                                                                                                                                                                                                                                 |
 | [**GetDefaultPrinter**](getdefaultprinter.md)<br/>             | [**GetDefaultPrinter**](/windows/desktop/printdocs/getdefaultprinter)函式會針對本機電腦上的目前使用者，抓取預設印表機的印表機名稱。 <br/>                                                                                                                                                                                                                                    |
 | [**GetPrinter**](getprinter.md)<br/>                           | [**GetPrinter**](/windows/desktop/printdocs/getprinter)函式會捕獲指定印表機的相關資訊。 <br/>                                                                                                                                                                                                                                                                                               |

@@ -17,16 +17,16 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: c069f5c7186d08f01b54fe02c0568dbb4ff43d26
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: c6df2338d46438bf3e1af371ebbce8b36f1a337f26a4785064119cca45bece46
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103688979"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119924928"
 ---
 # <a name="cim_configuration-class"></a>CIM 設定 \_ 類別
 
-Cim 設定物件允許將 [**cim \_ 設定**](cim-setting.md)物件中 (定義的參數集群組) 和一個或多個 managed 系統專案的相依性。 **\_** 此物件代表受管理系統元素的特定行為或所需的功能狀態。 所需的功能狀態通常是由外部需求（例如時間或位置）所驅動。 例如，若要從家裡連線到郵件系統，則會有數據機的相依性;然而，網路介面卡的相依性存在於工作中。 適用于相關邏輯裝置的設定 (在此範例中，您可以透過 **CIM \_** 設定來定義和匯總 POTS 數據機和網路介面卡) 。 因此，您可以藉由將相關相依性和 [**CIM \_ 設定**](cim-setting.md) 物件分組，來定義兩個「連接到郵件」設定。
+Cim 設定物件允許將 [**cim \_ 設定**](cim-setting.md)物件中 (定義的參數集群組) 和一個或多個 managed 系統專案的相依性。 **\_** 此物件代表受管理系統元素的特定行為或所需的功能狀態。 所需的功能狀態通常是由外部需求（例如時間或位置）所驅動。 例如，若要從家裡連線到郵件系統，則會有數據機的相依性;然而，網路介面卡的相依性存在於工作中。 設定適用于相關的邏輯裝置 (在此範例中，您可以透過 **CIM \_** 設定來定義和匯總 POTS 數據機和網路介面卡) 。 因此，您可以藉由將相關相依性和 [**CIM \_ 設定**](cim-setting.md)物件分組，來定義兩個 "連線 to Mail" 設定。
 
 > [!IMPORTANT]
 > DMTF (分散式管理工作強制) CIM (通用訊息模型) 類別是用來建立 WMI 類別的父類別。 WMI 目前僅支援 [CIM 2.x 版的架構](https://dmtf.org/standards/cim/schemas)。

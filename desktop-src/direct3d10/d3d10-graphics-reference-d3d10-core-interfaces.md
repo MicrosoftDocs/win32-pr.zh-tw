@@ -4,12 +4,12 @@ ms.assetid: f5ad2db8-da90-4bcd-83a7-7466723a9c3c
 title: Direct3D 10 核心介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c241def4bb0ab1064d924a7457c52e7197bc9199
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 3810f7d6de2562ad3c712fab4baa22bf75a252f752c8611eca84043913c2917a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104385958"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119895238"
 ---
 # <a name="direct3d-10-core-interfaces"></a>Direct3D 10 核心介面
 
@@ -17,7 +17,7 @@ ms.locfileid: "104385958"
 
 
 
-| 介面                                                           | Description                                         |
+| 介面                                                           | 描述                                         |
 |----------------------------------------------------------------------|-----------------------------------------------------|
 | [**ID3D10BlendState 介面**](/windows/desktop/api/D3D10/nn-d3d10-id3d10blendstate)               | 存取 Direct3D 10.0 裝置的混合狀態。 |
 | [**ID3D10BlendState1 介面**](/windows/desktop/api/D3D10_1/nn-d3d10_1-id3d10blendstate1)             | 存取 Direct3D 10.1 裝置的混合狀態。 |
@@ -32,7 +32,7 @@ ms.locfileid: "104385958"
 
 
 
-| 介面                                                 | Description                                                                          |
+| 介面                                                 | 描述                                                                          |
 |------------------------------------------------------------|--------------------------------------------------------------------------------------|
 | [**ID3D10Asynchronous 介面**](/windows/desktop/api/D3D10/nn-d3d10-id3d10asynchronous) | 以非同步方式從 GPU 捕獲資料。                                          |
 | [**ID3D10Blob 介面**](/windows/desktop/api/D3DCommon/nn-d3dcommon-id3d10blob)                 | 從記憶體傳回資料。                                                             |

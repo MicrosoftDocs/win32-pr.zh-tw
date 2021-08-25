@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 32f1f8cce4641203782b0a84840d2986780da26a
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: be294710fcd6ec2d8e72c7d7c9437623d29a2729a52144d4edfdc91e5be7eea1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106986131"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119848968"
 ---
 # <a name="id3dxanimationcontrollersettrackpriority-method"></a>ID3DXAnimationController：： SetTrackPriority 方法
 

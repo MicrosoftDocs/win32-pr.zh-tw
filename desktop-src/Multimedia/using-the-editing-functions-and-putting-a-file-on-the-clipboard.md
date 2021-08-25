@@ -8,12 +8,12 @@ keywords:
 - EditStreamCut 函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 533f2165afdb3173ea0f8c603764f25d0fa625fe
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6a2f3ad09b882d9df6d9b7603e6f5596789ba32157f6050916ae9212f52395a7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103932013"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119804528"
 ---
 # <a name="using-the-editing-functions-and-putting-a-file-on-the-clipboard"></a>使用編輯功能並將檔案放在剪貼簿上
 
@@ -94,9 +94,9 @@ case MENU_DELETE:
 
 
 
- 
+ 
 
- 
+ 
 
 
 

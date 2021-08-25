@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 88dc4a850edc43178deb043143ee8f9b37140507
-ms.sourcegitcommit: 3e70ae762629e244028b437420ed50b5850db4e3
+ms.openlocfilehash: ec2af088938219ed48f2b281c627c0b64cc8e13fdea630b54a51a6f23db1b448
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "104374638"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119808818"
 ---
 # <a name="isan"></a>ISAN
 
@@ -68,9 +68,9 @@ ISAN 是識別視聽運作的國際標準。 如需 ISAN 的相關資訊，請�
 [**屬性清單**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

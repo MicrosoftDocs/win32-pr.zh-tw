@@ -4,12 +4,12 @@ ms.assetid: 9d6a065d-c765-4d17-9f4c-38a984439278
 title: 加密資料類型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f84c6f21faa25e1ccc478c178a3f21458ff589ae
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4dc5c5361286eb515039d743a70d41d688de87cfb1201caf09945465e46448ac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106984165"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119876128"
 ---
 # <a name="cryptography-data-types"></a>加密資料類型
 

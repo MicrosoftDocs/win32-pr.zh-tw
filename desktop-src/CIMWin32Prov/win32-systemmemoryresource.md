@@ -1,5 +1,5 @@
 ---
-description: Win32 \_ SystemMemoryResource ABSTRACT WMI 類別代表執行 Windows 的電腦系統上的系統記憶體資源。
+description: Win32 \_ SystemMemoryResource ABSTRACT WMI 類別代表執行 Windows 之電腦系統上的系統記憶體資源。
 ms.assetid: a834a1e4-f3e4-4b57-9521-98520c301016
 ms.tgt_platform: multiple
 title: Win32_SystemMemoryResource 類別
@@ -24,16 +24,16 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: d6064f2d983978998c47518ee50b93c3a7fedfde
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: cd438d092ea4b0658c6c39f10d304e425c4f37af871a7e978218b5d658a9a7f7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847563"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119827998"
 ---
 # <a name="win32_systemmemoryresource-class"></a>Win32 \_ SystemMemoryResource 類別
 
-**Win32 \_ SystemMemoryResource** abstract [WMI 類別](../wmisdk/retrieving-a-class.md)代表執行 Windows 的電腦系統上的系統記憶體資源。
+**Win32 \_ SystemMemoryResource** abstract [WMI 類別](../wmisdk/retrieving-a-class.md)代表執行 Windows 之電腦系統上的系統記憶體資源。
 
 下列語法已經過受管理物件格式 (MOF) 程式碼簡化，並包含所有已繼承的屬性。 屬性會依字母順序列出，而不是依 MOF 順序列出。
 

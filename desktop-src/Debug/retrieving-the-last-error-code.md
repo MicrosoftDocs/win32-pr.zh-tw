@@ -4,12 +4,12 @@ ms.assetid: 4cc626ac-7574-44ce-8377-e0bdd8e74b7e
 title: 正在抓取 Last-Error 程式碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c28ba096fae2bd38bb8dc9c291a677aa6fa161d2
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 853fb6991bab5ad761dacaf18a2ec086dbf8fc4176964888bd0ededc548fbeda
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104025879"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119912448"
 ---
 # <a name="retrieving-the-last-error-code"></a>正在抓取 Last-Error 程式碼
 

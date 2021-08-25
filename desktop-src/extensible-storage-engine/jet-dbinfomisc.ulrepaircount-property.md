@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: ec39a6290eaf131f23e8e8b629ee192355f441a3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 91e81af790331930c09a15fea8e284fb5cedab32083435b3da2c92d066480f45
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510942"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119890874"
 ---
 # <a name="jet_dbinfomisculrepaircount-property"></a>JET_DBINFOMISC ulRepairCount 屬性
 

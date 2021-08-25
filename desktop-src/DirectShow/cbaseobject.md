@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: bbc3e072c31618dab6a7bc07048728f60dbcf0d2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7809ec53746730f02f9b095ede3ae00b53f1fe55c21116c22d854c3d4b193e97
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994012"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119910618"
 ---
 # <a name="cbaseobject-class"></a>CBaseObject 類別
 
@@ -29,7 +29,7 @@ ms.locfileid: "106994012"
 
 
 
-| 類別方法                                      | Description                            |
+| 類別方法                                      | 描述                            |
 |----------------------------------------------------|----------------------------------------|
 | [**CBaseObject**](cbaseobject-cbaseobject.md)     | 函式方法。                    |
 | [**~ CBaseObject**](cbaseobject--cbaseobject.md)   | 函式方法。                     |
@@ -41,7 +41,7 @@ ms.locfileid: "106994012"
 
 ## <a name="remarks"></a>備註
 
-大部分的 DirectShow 基底類別都衍生自 **CBaseObject**。 這個類別會在執行時間將所有的 DirectShow 物件計數保持在作用中狀態，以提供偵錯工具的協助。 物件計數會儲存在類別靜態成員變數中：
+大部分的 DirectShow 基類衍生自 **CBaseObject**。 這個類別會藉由保留在執行時間中使用中的所有 DirectShow 物件計數，來提供偵錯工具的協助。 物件計數會儲存在類別靜態成員變數中：
 
 
 ```
@@ -74,7 +74,7 @@ private:
 
 <dl> <dt>
 
-[DirectShow 基類](directshow-base-classes.md)
+[DirectShow基類](directshow-base-classes.md)
 </dt> </dl>
 
  

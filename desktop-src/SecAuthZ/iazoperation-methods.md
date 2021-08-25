@@ -4,12 +4,12 @@ ms.assetid: 96BC7551-35DD-4677-9131-7452C7A2C1E8
 title: IAzOperation 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c80778c19e61c9dcdf383532f52a77abb784c2ad
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ef8c734b209dc6f6b5aa0531757e7064b9bb2b3b97fd74deeae11dad018e09d0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106997898"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119908848"
 ---
 # <a name="iazoperation-methods"></a>IAzOperation 方法
 

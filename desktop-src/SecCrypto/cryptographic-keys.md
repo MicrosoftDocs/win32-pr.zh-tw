@@ -4,12 +4,12 @@ ms.assetid: dda7b527-1522-4b43-8d8e-44ce7983a9aa
 title: 密碼編譯金鑰
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 82858b26fa70ceacb4e7f9714e29983a773e66ad
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c25647d64aafa8d996c60df37d1f5b5a86226451e1a0f3a3cfefc7ef405f3a11
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104468896"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119876298"
 ---
 # <a name="cryptographic-keys"></a>密碼編譯金鑰
 

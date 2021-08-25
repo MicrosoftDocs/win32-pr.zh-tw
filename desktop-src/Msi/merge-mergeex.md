@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Mergemod.dll
-ms.openlocfilehash: 12accfcbc87877300b803ae90d8c924802410e9f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7e683597d78e568e6bfec9b59241fe45f922c5346ef83f427598ad0a7c59dcac
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995243"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119926528"
 ---
 # <a name="mergemergeex-method"></a>Merge. MergeEx 方法
 
@@ -71,7 +71,7 @@ Merge.MergeEx(
 
 ## <a name="remarks"></a>備註
 
-完成合併之後，模組中的元件會附加至 *功能* 所識別的功能。 這項功能不會建立，且必須是現有的功能。 您可以使用 [**Connect**](merge-connect.md) 方法將模組附加至其他功能。
+完成合併之後，模組中的元件會附加至 *功能* 所識別的功能。 這項功能不會建立，且必須是現有的功能。 您可以使用 [**連線**](merge-connect.md)方法，將模組附加至其他功能。
 
 只有在呼叫 [**CloseDatabase**](merge-closedatabase.md) 方法並將 *BCommit* 設為 **TRUE** 時，才會儲存對資料庫所做的變更。
 

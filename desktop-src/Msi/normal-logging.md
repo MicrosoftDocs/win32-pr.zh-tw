@@ -4,12 +4,12 @@ ms.assetid: 244e9afa-2052-469e-aa57-424e03ce5673
 title: 一般記錄
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0846305ef53c596fbd6f117eaf76b0715a94c313
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1dd1abeb4f110603bcc596cb7981ea65c7d9820d8054adc7533c4f85de2d8bf7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104512773"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119828538"
 ---
 # <a name="normal-logging"></a>一般記錄
 

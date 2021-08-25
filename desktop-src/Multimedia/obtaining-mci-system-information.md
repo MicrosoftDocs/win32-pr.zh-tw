@@ -6,12 +6,12 @@ keywords:
 - MCI_SYSINFO 命令
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c3b5f5d2bf8cc8edd3edf65a9c559b6ec47b0631
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0fa6cc0757bc09aa16216f2f20385bf31b44bb88e27ea64e091ff3909d8d57e6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103932116"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119893218"
 ---
 # <a name="obtaining-mci-system-information"></a>取得 MCI 系統資訊
 
@@ -19,9 +19,9 @@ ms.locfileid: "103932116"
 
 您可以使用 **sysinfo** (MCI \_ sysinfo) 命令來取得資訊，例如系統上的 mci 裝置數目、特定類型的 mci 裝置數目、開啟的 MCI 裝置數目，以及裝置的名稱。 此命令通常會被呼叫一次以上，以抓取特定的資訊片段。 例如，您可能會在第一次呼叫中取得特定類型的裝置數目，然後在下一步列舉裝置的名稱。
 
- 
+ 
 
- 
+ 
 
 
 

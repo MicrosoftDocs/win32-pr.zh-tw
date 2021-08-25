@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c0dffda7e5e44302173ac06e460414455eb19c6c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 95ce329a433439716700b6ffc990d446c5d22faab91fa256f6abc0c73734327d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843184"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119803488"
 ---
 # <a name="allocfixupinfo-function"></a>AllocFixupInfo 函式
 
@@ -64,7 +64,7 @@ NAPAPI HRESULT WINAPI AllocFixupInfo(
 
 
 
-| 傳回碼                                                                                   | Description                                                                |
+| 傳回碼                                                                                   | 描述                                                                |
 |-----------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>          | 作業已順利完成。<br/>                       |
 | <dl> <dt>**E \_ INVALIDARG**</dt> </dl>  | 傳遞了無效的引數。<br/>                                 |
@@ -90,8 +90,8 @@ NAP 系統支援的所有 COM 介面都會使用標準 COM 記憶體管理規則
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                 |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                 |
 | 標頭<br/>                   | <dl> <dt>NapUtil。h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qutil.dll</dt> </dl> |
 

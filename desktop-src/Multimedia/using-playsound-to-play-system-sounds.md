@@ -12,12 +12,12 @@ keywords:
 - 音效活動
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1940ee9f207213c4337c9b6bb0a0d58b0f471000
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: bf9978e9e33c049db82a033b2379ac9f52b5e2959fd9d8425deac180ba7a81e4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103842284"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119804568"
 ---
 # <a name="using-playsound-to-play-system-sounds"></a>使用 PlaySound 來播放系統音效
 
@@ -47,6 +47,6 @@ PlaySound("MouseClick", NULL, SND_SYNC);
 
 在嘗試載入具有這個名稱的檔案之前， [**sndPlaySound**](/previous-versions//dd798676(v=vs.85)) 函式一律會在登錄中搜尋符合 *lpszSound* 的 keyname。 [**PlaySound**](/previous-versions//dd743680(v=vs.85))函式會接受指定音效位置的旗標。
 
- 
+ 
 
- 
+ 

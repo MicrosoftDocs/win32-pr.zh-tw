@@ -4,16 +4,16 @@ ms.assetid: 39e1d4b9-2e39-4b36-9a6a-89e41cd59153
 title: 'ITParticipantSubStreamControl：： SwitchTerminalToSubStream 方法 (Confpriv .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 00f10401b2cf1598c76537ebd3a7049d67bf0657
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 41f211d4f3ff0f01801fb5497d36d81fa46e43397d8b69227180b022c9e74a34
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106999541"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119774648"
 ---
 # <a name="itparticipantsubstreamcontrolswitchterminaltosubstream-method"></a>ITParticipantSubStreamControl：： SwitchTerminalToSubStream 方法
 
-\[**SwitchTerminalToSubStream** 無法在 windows Vista、windows Server 2008 和後續版本的作業系統中使用。 RTC 用戶端 API 提供類似的功能。\]
+\[**SwitchTerminalToSubStream** 無法在 Windows Vista、Windows Server 2008 及後續版本的作業系統中使用。 RTC 用戶端 API 提供類似的功能。\]
 
 **SwitchTerminalToSubStream** 方法會將終端機設定為參與者子流。
 
@@ -53,7 +53,7 @@ HRESULT SwitchTerminalToSubStream(
 
 
 
-| 傳回碼                                                                                     | Description                                                                                        |
+| 傳回碼                                                                                     | 描述                                                                                        |
 |-------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>            | 方法成功。<br/>                                                                       |
 | <dl> <dt>**E 未 \_ 預期**</dt> </dl>    | 無法存取資料流程的參與者資訊。<br/>                           |

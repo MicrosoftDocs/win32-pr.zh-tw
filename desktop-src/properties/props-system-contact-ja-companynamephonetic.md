@@ -4,18 +4,18 @@ ms.assetid: 8a00e312-1c5b-4adc-9970-6d16fb5dd437
 title: System.object CompanyNamePhonetic
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c2e56f53feedf304953cb134f25e39c1f8ba8934
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 92ba51c67264c0d754b00276830158898cd0b9629e1a8b6cbe917a6c154de199
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192595"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119823178"
 ---
 # <a name="systemcontactjacompanynamephonetic"></a>System.object CompanyNamePhonetic
 
 連絡人的公司名稱 Pronounciation。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

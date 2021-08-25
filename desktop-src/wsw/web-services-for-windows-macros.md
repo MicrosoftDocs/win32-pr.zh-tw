@@ -1,17 +1,17 @@
 ---
-title: Windows Web 服務宏
+title: WindowsWeb 服務宏
 description: Windows Web 服務 API 包含下列宏 WS \_ STRING \_ EMPTYWS \_ STRING \_ VALUEWS xml string \_ \_ \_ DICTIONARY \_ VALUEWS xml string \_ \_ \_ NullWS xml string \_ \_ \_ VALUEWsCountOfWsOffsetOf。
 ms.assetid: 21be7332-130e-4f8a-b883-1a27674c0d30
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ca5532269f0b2a894c672cf451f479f6083a7d23
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 8eacd7c2e42aabd7fddfb759638be607d065414aa4b7d994b320198da77156a6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106966245"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119926818"
 ---
-# <a name="windows-web-services-macros"></a>Windows Web 服務宏
+# <a name="windows-web-services-macros"></a>WindowsWeb 服務宏
 
 Windows Web 服務 API 包含下列宏：
 
@@ -23,6 +23,6 @@ Windows Web 服務 API 包含下列宏：
 -   [**WsCountOf**](/windows/desktop/api/WebServices/nf-webservices-wscountof)
 -   [**WsOffsetOf**](/windows/desktop/api/WebServices/nf-webservices-wsoffsetof)
 
- 
+ 
 
- 
+ 

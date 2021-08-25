@@ -4,12 +4,12 @@ ms.assetid: 37f010ee-2658-4547-9871-c913201042de
 title: Mt.exe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: df654a943bad272a091dc6ac20cc1dcdab1731a0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8f18f3d60a7ad20298473ab1d65b2e1d07720bf54130dd66cb361fa5d220c357
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106986288"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119884998"
 ---
 # <a name="mtexe"></a>Mt.exe
 
@@ -39,7 +39,7 @@ Mt.exe 會使用下列不區分大小寫的命令列選項。
 <thead>
 <tr class="header">
 <th>選項</th>
-<th>Description</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -54,7 +54,7 @@ Mt.exe 會使用下列不區分大小寫的命令列選項。
 </tr>
 <tr class="even">
 <td>-identity</td>
-<td>提供資訊清單之 <strong>assemblyIdentity</strong> 元素的屬性值。 <strong>-Identity</strong>選項的引數是字串值，其中包含以逗號分隔之欄位中的屬性值。 在第一個欄位中提供 <strong>name</strong> 屬性的值，而不包含 &quot; name = &quot; substring。 其餘所有的欄位都會使用下列格式來指定屬性和其值： <em> <attribute name> </em> = <em> <attribute_value> </em> 。<br/> 例如，若要以下列資訊更新資訊清單的 <strong>assemblyIdentity</strong> 元素：<br/> <assemblyIdentity type=&quot;win32&quot; name=&quot;Microsoft.Windows.SampleAssembly&quot; version=&quot;6.0.0.0&quot; processorArchitecture=&quot;x86&quot; publicKeyToken=&quot;a5aaf5ba15723d5&quot;/> <br/> 在命令列上包含下列 <strong>-identity</strong> 選項：<br/> <strong>-identity：</strong> &quot;SampleAssembly、processorArchitecture = x86、version = 6.0.0.0、type = win32、publicKeyToken = a5aaf5ba15723d5&quot;<br/></td>
+<td>提供資訊清單之 <strong>assemblyIdentity</strong> 元素的屬性值。 <strong>-Identity</strong>選項的引數是字串值，其中包含以逗號分隔之欄位中的屬性值。 在第一個欄位中提供 <strong>name</strong> 屬性的值，而不包含 &quot; name = &quot; substring。 其餘所有的欄位都會使用下列格式來指定屬性和其值： <em> <attribute name> </em> = <em> <attribute_value> </em> 。<br/> 例如，若要以下列資訊更新資訊清單的 <strong>assemblyIdentity</strong> 元素：<br/> <assemblyIdentity type=&quot;win32&quot; name=&quot;Microsoft.Windows.SampleAssembly&quot; version=&quot;6.0.0.0&quot; processorArchitecture=&quot;x86&quot; publicKeyToken=&quot;a5aaf5ba15723d5&quot;/> <br/> 在命令列上包含下列 <strong>-identity</strong> 選項：<br/> <strong>-identity：</strong> &quot;微軟。Windows。SampleAssembly、processorArchitecture = x86、version = 6.0.0.0、type = win32、publicKeyToken = a5aaf5ba15723d5&quot;<br/></td>
 </tr>
 <tr class="odd">
 <td>-rgs</td>
@@ -66,7 +66,7 @@ Mt.exe 會使用下列不區分大小寫的命令列選項。
 </tr>
 <tr class="odd">
 <td>-dll</td>
-<td>指定動態連結程式庫 (DLL) 檔的名稱。 如果使用<strong>-rgs</strong>或<strong>-tlb</strong>選項， <strong>mt.exe</strong>需要<strong>-dll</strong>選項。 指定您想要從 .rgs 或 .tlb 檔案最後建立的 DLL 名稱。<br/> 例如，下列命令會要求從 .rgs 和 .tlb 檔案產生資訊清單的作業。<br/> <strong>mt.exe-rgs： testreg1 .rgs-tlb： testlib1 .tlb -dll:test.dll-取代： rep： &quot; SampleAssembly、processorArchitecture = x86、version = 6.0.0.0、type = win32、publicKeyToken = a5aaf5ba15723d5 &quot; -out： rgstlb. 資訊清單</strong><br/></td>
+<td>指定動態連結程式庫 (DLL) 檔的名稱。 如果使用<strong>-rgs</strong>或<strong>-tlb</strong>選項， <strong>mt.exe</strong>需要<strong>-dll</strong>選項。 指定您想要從 .rgs 或 .tlb 檔案最後建立的 DLL 名稱。<br/> 例如，下列命令會要求從 .rgs 和 .tlb 檔案產生資訊清單的作業。<br/> <strong>mt.exe-rgs： testreg1 .rgs-tlb： testlib1 .tlb -dll:test.dll-取代： rep. 資訊清單-身分識別： &quot; Microsoft. Windows。SampleAssembly、processorArchitecture = x86、version = 6.0.0.0、type = win32、publicKeyToken = a5aaf5ba15723d5 &quot; -out： rgstlb. manifest</strong><br/></td>
 </tr>
 <tr class="even">
 <td>-取代</td>

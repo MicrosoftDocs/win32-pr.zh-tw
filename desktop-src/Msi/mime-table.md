@@ -4,12 +4,12 @@ ms.assetid: 5d452b24-ae04-4c45-8b3b-48e81f13a21e
 title: MIME 資料表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ca11c8596e8f3735872c88668211953fc2b18b52
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a9e8a8f83499e286b63bf24dffa8858329231e74eec1f641588230da51578007
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194090"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119913368"
 ---
 # <a name="mime-table"></a>MIME 資料表
 
@@ -22,7 +22,7 @@ MIME 資料表具有下列資料行。
 | Column      | 類型             | 答案 | Nullable |
 |-------------|------------------|-----|----------|
 | ContentType | [Text](text.md) | Y   | N        |
-| 分機\_ | [Text](text.md) | N   | N        |
+| 延伸模組\_ | [Text](text.md) | N   | N        |
 | CLSID       | [GUID](guid.md) | N   | Y        |
 
 
@@ -47,7 +47,7 @@ MIME 資料表具有下列資料行。
 
 </dd> <dt>
 
-<span id="CLSID"></span><span id="clsid"></span>Clsid
+<span id="CLSID"></span><span id="clsid"></span>CLSID
 </dt> <dd>
 
 此資料行包含要與 MIME 內容相關聯的 COM 伺服器 CLSID。 此資料行中的 CLSID 可以是 [類別資料表](class-table.md) 中的外鍵，也可以是已存在於使用者電腦上的 clsid。 類別資料表包含 COM 伺服器的相關資訊，此資訊可作為公告的一部分。

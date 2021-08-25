@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 783ed7ad61337e606793b9b467e4b17fddd7ecd2
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: d51070b5b67b50859338943a60e44cbb224e572ab9e5704e56940328a65479f3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108115456"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119848528"
 ---
 # <a name="id3dxbasemeshgenerateadjacency-method"></a>ID3DXBaseMesh：： GenerateAdjacency 方法
 

@@ -14,19 +14,19 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: c367eee37f2f4d8329d71f3d42a3c78771a50a6c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6bfea6241e81352b8848304c3601650ef4dec2a8e5692874fa20995ccddcce38
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106967225"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119863458"
 ---
 # <a name="downloaditem-object"></a>DownloadItem 物件
 
 > [!Note]  
 > 本章節描述專為線上商店使用而設計的功能。 不支援在線上商店的內容之外使用這項功能。
 
- 
+ 
 
 **DownloadItem** 物件代表檔案下載要求。 它可供在完整模式中裝載的網頁使用 Windows Media Player 而且可以存取 **外部** 物件，例如 premium services。
 
@@ -44,7 +44,7 @@ ms.locfileid: "106967225"
 
 
 
- 
+ 
 
 **DownloadItem** 物件支援下列方法。
 
@@ -59,7 +59,7 @@ ms.locfileid: "106967225"
 
 
 
- 
+ 
 
 **DownloadItem** 物件是透過下列屬性來存取。
 
@@ -71,7 +71,7 @@ ms.locfileid: "106967225"
 
 
 
- 
+ 
 
 為了方便說明，請 **DownloadManager**。**getDownloadCollection** (*collectionId*) 。在參考語法區段中，會使用 (*itemId*) 的 **專案**。
 
@@ -82,9 +82,9 @@ ms.locfileid: "106967225"
 [**類型 2 線上商店的參考**](reference-for-type-2-online-stores.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,19 +1,19 @@
 ---
-description: 裝置服務呈現的藍牙類別。
+description: 裝置服務轉譯的藍牙類別。
 ms.assetid: 1df0a4c3-d11e-42da-b636-6ba1f2cbfb4f
-title: Aep....。
+title: Aep。藍牙。. 服務. 轉譯
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1649b37735f4160dd18614b7a2d8bb71154e12c5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b4c832800e07a971593c6c76fc7c0953de74125ec56ffa7019bf79d48140b915
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103692899"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119822858"
 ---
-# <a name="systemdevicesaepbluetoothcodservicesrendering"></a>Aep....。
+# <a name="systemdevicesaepbluetoothcodservicesrendering"></a>Aep。藍牙。. 服務. 轉譯
 
-裝置服務呈現的藍牙類別。
+裝置服務轉譯的藍牙類別。
 
 ## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511"></a>Windows 10，1703版、Windows 10、1607版、Windows 10、1511版
 

@@ -4,12 +4,12 @@ ms.assetid: 2f595ff9-ac0e-414c-a266-43feea3de034
 title: PrintTicket 語法和架構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2c627746dad0179ff437cf87e77bbc5a7580645e
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 4810c73ec643fea7972c926f03061ac5c95e0020f31ef1175eed57e1b89e0f2a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112405351"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119824388"
 ---
 # <a name="printticket-syntax-and-schema"></a>PrintTicket 語法和架構
 

@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9af88c7f751243697c00bcba6a4483f22020b9ad
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 1aa21dac2f456fc2a44169fae147e47469d20d654677e97308104073a251e300
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104107837"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119804056"
 ---
 # <a name="ms-ds-intid-attribute"></a>IntId 屬性
 
@@ -57,8 +57,8 @@ ms.locfileid: "104107837"
 |------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
 | 連結識別碼                | \-                                                                                                                                        |
 | MAPI-Id                | \-                                                                                                                                        |
-| System-Only            | 對                                                                                                                                      |
-| 是-單一值       | 對                                                                                                                                      |
+| System-Only            | 是                                                                                                                                      |
+| 是-單一值       | 是                                                                                                                                      |
 | 已編制索引             | 否                                                                                                                                     |
 | 在通用類別目錄中      | 否                                                                                                                                     |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                                                              |
@@ -66,7 +66,7 @@ ms.locfileid: "104107837"
 | Range-Upper            | \-                                                                                                                                        |
 | Search-Flags           | 0x00000008                                                                                                                                |
 | System-Flags           | 0x00000010                                                                                                                                |
-| 中使用的類別        | [**屬性-架構**](c-attributeschema.md)<br/> [**類別架構**](c-classschema.md)<br/> [**Dmd**](c-dmd.md)<br/> |
+| 中使用的類別        | [**屬性-架構**](c-attributeschema.md)<br/> [**類別架構**](c-classschema.md)<br/> [**DMD**](c-dmd.md)<br/> |
 
 
 
@@ -78,8 +78,8 @@ ms.locfileid: "104107837"
 |------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
 | 連結識別碼                | \-                                                                                                                                        |
 | MAPI-Id                | \-                                                                                                                                        |
-| System-Only            | 對                                                                                                                                      |
-| 是-單一值       | 對                                                                                                                                      |
+| System-Only            | 是                                                                                                                                      |
+| 是-單一值       | 是                                                                                                                                      |
 | 已編制索引             | 否                                                                                                                                     |
 | 在通用類別目錄中      | 否                                                                                                                                     |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                                                              |
@@ -87,7 +87,7 @@ ms.locfileid: "104107837"
 | Range-Upper            | \-                                                                                                                                        |
 | Search-Flags           | 0x00000008                                                                                                                                |
 | System-Flags           | 0x00000010                                                                                                                                |
-| 中使用的類別        | [**屬性-架構**](c-attributeschema.md)<br/> [**類別架構**](c-classschema.md)<br/> [**Dmd**](c-dmd.md)<br/> |
+| 中使用的類別        | [**屬性-架構**](c-attributeschema.md)<br/> [**類別架構**](c-classschema.md)<br/> [**DMD**](c-dmd.md)<br/> |
 
 
 
@@ -99,8 +99,8 @@ ms.locfileid: "104107837"
 |------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
 | 連結識別碼                | \-                                                                                                                                        |
 | MAPI-Id                | \-                                                                                                                                        |
-| System-Only            | 對                                                                                                                                      |
-| 是-單一值       | 對                                                                                                                                      |
+| System-Only            | 是                                                                                                                                      |
+| 是-單一值       | 是                                                                                                                                      |
 | 已編制索引             | 否                                                                                                                                     |
 | 在通用類別目錄中      | 否                                                                                                                                     |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                                                              |
@@ -108,7 +108,7 @@ ms.locfileid: "104107837"
 | Range-Upper            | \-                                                                                                                                        |
 | Search-Flags           | 0x00000008                                                                                                                                |
 | System-Flags           | 0x00000010                                                                                                                                |
-| 中使用的類別        | [**屬性-架構**](c-attributeschema.md)<br/> [**類別架構**](c-classschema.md)<br/> [**Dmd**](c-dmd.md)<br/> |
+| 中使用的類別        | [**屬性-架構**](c-attributeschema.md)<br/> [**類別架構**](c-classschema.md)<br/> [**DMD**](c-dmd.md)<br/> |
 
 
 
@@ -120,8 +120,8 @@ ms.locfileid: "104107837"
 |------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
 | 連結識別碼                | \-                                                                                                                                        |
 | MAPI-Id                | \-                                                                                                                                        |
-| System-Only            | 對                                                                                                                                      |
-| 是-單一值       | 對                                                                                                                                      |
+| System-Only            | 是                                                                                                                                      |
+| 是-單一值       | 是                                                                                                                                      |
 | 已編制索引             | 否                                                                                                                                     |
 | 在通用類別目錄中      | 否                                                                                                                                     |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                                                              |
@@ -129,7 +129,7 @@ ms.locfileid: "104107837"
 | Range-Upper            | \-                                                                                                                                        |
 | Search-Flags           | 0x00000008                                                                                                                                |
 | System-Flags           | 0x00000010                                                                                                                                |
-| 中使用的類別        | [**屬性-架構**](c-attributeschema.md)<br/> [**類別架構**](c-classschema.md)<br/> [**Dmd**](c-dmd.md)<br/> |
+| 中使用的類別        | [**屬性-架構**](c-attributeschema.md)<br/> [**類別架構**](c-classschema.md)<br/> [**DMD**](c-dmd.md)<br/> |
 
 
 
@@ -141,8 +141,8 @@ ms.locfileid: "104107837"
 |------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
 | 連結識別碼                | \-                                                                                                                                        |
 | MAPI-Id                | \-                                                                                                                                        |
-| System-Only            | 對                                                                                                                                      |
-| 是-單一值       | 對                                                                                                                                      |
+| System-Only            | 是                                                                                                                                      |
+| 是-單一值       | 是                                                                                                                                      |
 | 已編制索引             | 否                                                                                                                                     |
 | 在通用類別目錄中      | 否                                                                                                                                     |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                                                              |
@@ -150,7 +150,7 @@ ms.locfileid: "104107837"
 | Range-Upper            | \-                                                                                                                                        |
 | Search-Flags           | 0x00000008                                                                                                                                |
 | System-Flags           | 0x00000010                                                                                                                                |
-| 中使用的類別        | [**屬性-架構**](c-attributeschema.md)<br/> [**類別架構**](c-classschema.md)<br/> [**Dmd**](c-dmd.md)<br/> |
+| 中使用的類別        | [**屬性-架構**](c-attributeschema.md)<br/> [**類別架構**](c-classschema.md)<br/> [**DMD**](c-dmd.md)<br/> |
 
 
 
@@ -162,8 +162,8 @@ ms.locfileid: "104107837"
 |------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
 | 連結識別碼                | \-                                                                                                                                        |
 | MAPI-Id                | \-                                                                                                                                        |
-| System-Only            | 對                                                                                                                                      |
-| 是-單一值       | 對                                                                                                                                      |
+| System-Only            | 是                                                                                                                                      |
+| 是-單一值       | 是                                                                                                                                      |
 | 已編制索引             | 否                                                                                                                                     |
 | 在通用類別目錄中      | 否                                                                                                                                     |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                                                              |
@@ -171,7 +171,7 @@ ms.locfileid: "104107837"
 | Range-Upper            | \-                                                                                                                                        |
 | Search-Flags           | 0x00000008                                                                                                                                |
 | System-Flags           | 0x00000010                                                                                                                                |
-| 中使用的類別        | [**屬性-架構**](c-attributeschema.md)<br/> [**類別架構**](c-classschema.md)<br/> [**Dmd**](c-dmd.md)<br/> |
+| 中使用的類別        | [**屬性-架構**](c-attributeschema.md)<br/> [**類別架構**](c-classschema.md)<br/> [**DMD**](c-dmd.md)<br/> |
 
 
 

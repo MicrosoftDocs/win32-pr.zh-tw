@@ -4,16 +4,16 @@ ms.assetid: c07f3577-954e-400f-9e93-8e40c0a0945e
 description: 深入瞭解： XML 範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6c7a8a095546cc001044f4c22f03fc1dff789686
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1f313b83f638b00b2b6819b6d9b0fd2b29fda280772c68b22cc7c9afc936e439
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106998127"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119880728"
 ---
 # <a name="xml-examples"></a>XML 範例
 
-下列範例說明如何使用 XML 搭配適用于 Windows API 的 Web 服務：
+下列範例說明如何使用 XML 搭配 Web 服務來 Windows API：
 
 使用 XML 緩衝區來寫入和讀取 xml 的範例 [ReadWriteXmlExample](readwritexmlexample.md)
 

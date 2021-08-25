@@ -4,12 +4,12 @@ ms.assetid: 60ff844f-f8bf-4a55-9523-ba526dac9e29
 title: InstallExecuteAgain 動作
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 57865c3eec28afa454e440e056d1ee964528f889
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b2133fcf7acee7027337864eb8e33b6b297499e96979155f066538edbd6fec00
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943348"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119893978"
 ---
 # <a name="installexecuteagain-action"></a>InstallExecuteAgain 動作
 

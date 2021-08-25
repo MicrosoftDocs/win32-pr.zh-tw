@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 44c19f22cf57a811a7caebfbcc9bf4202c8d2ad7
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: e3d48974ecfae4cd932ed58718dded4b54b382317d269fea30ac450d8b05ef75
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108096986"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119878778"
 ---
 # <a name="getsecuritydescriptor-method-of-the-win32_service-class-cimwin32-wmi-providers"></a> (CIMWin32 WMI 提供者的 Win32_Service 類別的 GetSecurityDescriptor 方法) 
 
@@ -303,7 +303,7 @@ Set objWMIService = GetObject("winmgmts:" _
 
 
 
-同樣地，在 VB.NET 中，請務必設定 "EnablePrivileges = True"，並以系統管理員身分執行應用程式。
+同樣地，在 VB .net 中，請務必設定 "EnablePrivileges = True"，並以系統管理員身分執行應用程式。
 
 
 ```VB

@@ -4,12 +4,12 @@ ms.assetid: 36307589-de0e-4eaf-b439-e7ba3cd96fb3
 title: ICE 訊息指導方針
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cf4bee7dbf22184883e49da4d5a5f66f9debb577
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0951f8573fce1b9dbe81b107fba2f2beb674ed063fae53182a7d2694ded35abb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943383"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119821668"
 ---
 # <a name="ice-message-guidelines"></a>ICE 訊息指導方針
 

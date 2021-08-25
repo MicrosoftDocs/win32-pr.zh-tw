@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 090e8287e28daef0798a29fce337f60b0272c8f2
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 5f034a80c9704a6760e3053fccb87c909e92e976580d891a78787c9a5eb818b0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106972115"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119892818"
 ---
 # <a name="span-idvspixengineibufferobjectdatarequestspanibufferobjectdatarequest-interface"></a><span id="vspixengine.ibufferobjectdatarequest"></span>IBufferObjectDataRequest 介面
 

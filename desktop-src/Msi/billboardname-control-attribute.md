@@ -4,12 +4,12 @@ ms.assetid: 7ef7bc0f-ee4c-4a97-bea8-dd16a2cf28bc
 title: BillboardName 控制項屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 591c90e6a47e3a5190a56fe33e5840d8514cc03a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 79e068fc3ceb88920ce43bcd00b914b47483c50f7b068044b584a0df368af2aa
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971751"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119927018"
 ---
 # <a name="billboardname-control-attribute"></a>BillboardName 控制項屬性
 

@@ -4,12 +4,12 @@ ms.assetid: 71ca7e98-71f7-4355-886f-0edf9a3981c9
 title: 'CharacterRange. CharacterRange (Gdiplustypes .h) '
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: f3b04fa619379743df9a6f9d73b791a6928ba785
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 64229cd8e22ac28d2e81e7fd6fef917b1938d0db29c870b1020a2d5a95410af3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "104974817"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119848928"
 ---
 # <a name="characterrangecharacterrange-constructors"></a>CharacterRange. CharacterRange 函數
 

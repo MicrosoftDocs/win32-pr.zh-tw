@@ -4,12 +4,12 @@ ms.assetid: 47565d9b-c3c2-4a5c-8f91-2b3912a63b47
 title: ICE90
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a7b4063d06aa5a0a8688e2a411040d4b64f58f75
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4fba38ba074bf939431f497e8aab73ec0640d7bbc66fb0998498ce190d99fd92
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848844"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119894948"
 ---
 # <a name="ice90"></a>ICE90
 
@@ -23,7 +23,7 @@ ICE90 會張貼下列警告。
 
 
 
-| ICE90 錯誤                                                                                                                                                                                                                    | Description                                                     |
+| ICE90 錯誤                                                                                                                                                                                                                    | 描述                                                     |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------|
 | 快速鍵 ' \[ 1 \] ' 的目錄是公用屬性 (所有 CAPS) ，而且位於使用者設定檔目錄下。 如果 UI 順序中的 [**ALLUSERS**](allusers.md) 屬性值變更，這會導致問題。 | 快速鍵的目錄已指定為公用屬性。 |
 

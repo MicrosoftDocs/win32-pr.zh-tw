@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7953067281e394df71a1a53c874cb80837a5f35d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 778850da4094d8ac745018b115248de9008d15339b7ffee75de177cf957d3fc2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106988647"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119861156"
 ---
 # <a name="iwmpmediacollectionadd-method"></a>IWMPMediaCollection：： add 方法
 
@@ -128,7 +128,7 @@ player.mediaCollection.add(&quot;C:\WMSDK\WMPSDK\samples\media\house.wma&quot;)
 [**IWMPMediaCollection 介面 (VB 和 c # )**](iwmpmediacollection--vb-and-c.md)
 </dt> <dt>
 
-[**IWMPMediaCollection。移除 (VB 和 c # )**](wmplibiwmpmediacollection-iwmpmediacollection-remove--vb-and-c.md)
+[**IWMPMediaCollection 移除 (VB 和 c # )**](wmplibiwmpmediacollection-iwmpmediacollection-remove--vb-and-c.md)
 </dt> <dt>
 
 [**IWMPPlaylistCollection. importPlaylist (VB 和 c # )**](wmplibiwmpplaylistcollection-iwmpplaylistcollection-importplaylist--vb-and-c.md)

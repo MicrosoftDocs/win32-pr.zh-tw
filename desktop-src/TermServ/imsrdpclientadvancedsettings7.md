@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: eed28c5d26ecf280507ce3cce835a6d0a71fc3bb
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f5df2990a257d8f7fa544c24e33dba6a2422d2db8bea878f2487ca131e5bd607
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106994973"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119866558"
 ---
 # <a name="imsrdpclientadvancedsettings7-interface"></a>IMsRdpClientAdvancedSettings7 介面
 
@@ -41,7 +41,7 @@ ms.locfileid: "106994973"
 
 
 
-| 屬性                                                                                                    | 存取類型           | Description                                                                                                                                          |
+| 屬性                                                                                                    | 存取類型           | 描述                                                                                                                                          |
 |:------------------------------------------------------------------------------------------------------------|:----------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**AudioCaptureRedirectionMode**](imsrdpclientadvancedsettings7-audiocaptureredirectionmode.md)<br/> | 讀取/寫入<br/> | 指定或抓取值，指出是否將預設音訊輸入裝置從用戶端重新導向至遠端會話。<br/> |
 | [**AudioQualityMode**](imsrdpclientadvancedsettings7-audioqualitymode.md)<br/>                       | 讀取/寫入<br/> | 指定或抓取值，指出重新導向音訊的音訊品質模式設定。<br/>                                        |

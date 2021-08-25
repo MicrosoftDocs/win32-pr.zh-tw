@@ -3,17 +3,17 @@ title: 遷移至 Windows 功能區架構
 description: 依賴傳統功能表、工具列和對話方塊的應用程式可以遷移至 Windows 功能區架構命令系統的豐富、動態和內容導向的 UI。
 ms.assetid: 3a8ca41e-18b3-4c9d-865b-5f4c5fcf7ceb
 keywords:
-- Windows 功能區，遷移至
+- Windows功能區，遷移至
 - 功能區，遷移至
 - 遷移至 Windows 功能區
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a74822781f891815c6eb30d9e15a7f7efaa983fe
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 8a011e9b5dad52f6f71fab272f0fded39ec59eb71cc7311ab9cf5ffccb4dfbca
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104463384"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119841118"
 ---
 # <a name="migrating-to-the-windows-ribbon-framework"></a>遷移至 Windows 功能區架構
 
@@ -30,7 +30,7 @@ ms.locfileid: "104463384"
 > [!Note]  
 > 應檢查 [功能區使用者經驗指導方針](https://msdn.microsoft.com/library/cc872782.aspx) ，以判斷應用程式是否適合功能區 UI。
 
- 
+ 
 
 ## <a name="design-the-ribbon-layout"></a>設計功能區版面配置
 
@@ -64,7 +64,7 @@ ms.locfileid: "104463384"
 
 
 
- 
+ 
 
 在建立命令的清查時，查看現有的功能表和工具列。 請考慮使用者可以與工作區互動的所有方法。 雖然並非每個命令都適合包含在功能區中，但此練習可能很容易公開先前以 UI 層級遮蔽的命令。
 
@@ -77,7 +77,7 @@ ms.locfileid: "104463384"
 > [!Note]  
 > 記下每個命令可能指派的數值識別碼。 某些 UI 架構（例如，Microsoft Foundation class (MFC) ）會定義命令的識別碼，例如 [檔案] 和 [編輯] 功能表， (0xE100 至 0xE200) 。
 
- 
+ 
 
 ### <a name="organize"></a>組織
 
@@ -108,7 +108,7 @@ ms.locfileid: "104463384"
 > [!Note]  
 > 調整現有應用程式所需的許多步驟，類似于啟動新的功能區應用程式所需的步驟。 如需詳細資訊，請參閱建立新功能區應用程式逐步解說的 [功能區應用程式](windowsribbon-stepbystep.md) 教學課程。
 
- 
+ 
 
 功能區標記有兩個主要區段。 第一個區段是命令的資訊清單和其相關聯的資源， (字串和影像) 。 第二個區段指定功能區上控制項的結構和位置。
 
@@ -117,7 +117,7 @@ ms.locfileid: "104463384"
 > [!Note]  
 > 本文稍後會討論映射和字串資源。
 
- 
+ 
 
 
 ```C++
@@ -241,7 +241,7 @@ LANGUAGE 9, 1
 > [!IMPORTANT]
 > 您應保留現有的狀態列和鍵盤快速鍵表，因為功能區架構不會取代這些功能。
 
- 
+ 
 
 下列範例示範如何使用 [**IUIFramework：： initialize**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-initialize)初始化架構：
 
@@ -440,7 +440,7 @@ private:
 > [!Note]  
 > 字串和影像資源通常會在標記檔案中提供。 不過，您可以藉由執行 [**IUICommandHandler：： UpdateProperty**](/windows/desktop/api/uiribbon/nf-uiribbon-iuicommandhandler-updateproperty) 回呼方法，以程式設計方式產生或取代它們。
 
- 
+ 
 
 ### <a name="string-resources"></a>字串資源
 
@@ -471,7 +471,7 @@ private:
 
 
 
- 
+ 
 
 以下是應該在大部分命令上設定的其他字串屬性清單：
 
@@ -527,12 +527,12 @@ private:
 
 針對 Windows 8 和更新版本，功能區架構支援下列圖形格式：32位 ARGB 點陣圖 (BMP) 檔和可移植網狀圖形 (PNG) 具有透明度的檔。
 
-針對 Windows 7 及更早版本，映射資源必須符合 Windows 中所使用的標準 BMP 圖形格式。
+針對 Windows 7 及更早版本，影像資源必須符合 Windows 中所使用的標準 BMP 圖形格式。
 
 > [!Note]  
 > 現有的影像檔案可以轉換成任何格式。 但是，如果影像檔案不支援消除鋸齒和透明度，結果可能會小於滿意。
 
- 
+ 
 
 在功能區架構中，無法指定影像資源的單一預設大小。 不過，若要 [支援控制項](windowsribbon-templates.md) 的調適型配置，可 (大型和小型) 以兩種大小來指定影像。 功能區架構中的所有影像都會根據每英寸的點來調整， (DPI) 解析度解析度的顯示，以及與此 DPI 設定相依的精確呈現大小。 如需詳細資訊，請參閱 [指定功能區影像資源](windowsribbon-imageformats.md) 。
 
@@ -567,6 +567,6 @@ private:
 [指定功能區影像資源](windowsribbon-imageformats.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

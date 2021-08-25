@@ -3,7 +3,7 @@ title: 'WM_CAP_PAL_SAVE 訊息 (Vfw .h) '
 description: WM \_ CAP \_ PAL 儲存訊息會將 \_ 目前的調色板儲存至元件檔案。 調色板檔案通常會使用副檔名。朋友。 您可以使用 capPaletteSave 宏明確地傳送此訊息。
 ms.assetid: b1fa3978-9147-403f-aa08-db1a803aa5ac
 keywords:
-- WM_CAP_PAL_SAVE message Windows 多媒體
+- WM_CAP_PAL_SAVE 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cf5ea36b2eaf50b2555fa849a176d12d0932eed2
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3ff8703eafcc3c612fbde5bac7d15433758aa3d6ee44ab47697ffb25f9324dfd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106966934"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119891878"
 ---
 # <a name="wm_cap_pal_save-message"></a>WM \_ CAP \_ PAL \_ 儲存訊息
 

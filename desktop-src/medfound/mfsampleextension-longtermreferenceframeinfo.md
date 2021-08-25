@@ -4,12 +4,12 @@ ms.assetid: 0632D780-C56B-4FDB-8A76-B7A7DE414242
 title: 'MFSampleExtension_LongTermReferenceFrameInfo 屬性 (Mfapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3af85ffa5876cdf58a21a6933c46f460c23e7456
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 5642c246adf0e5e1c10249085201fba3dc430b6547516b79fe4929e9de4b998a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106992237"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119848118"
 ---
 # <a name="mfsampleextension_longtermreferenceframeinfo-attribute"></a>MFSampleExtension \_ LongTermReferenceFrameInfo 屬性
 
@@ -37,8 +37,8 @@ MFSampleExtension \_ LongTermReferenceFrameInfo 會傳回最多兩個欄位。
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 8.1 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                |
-| 最低支援的伺服器<br/> | Windows Server 2012 R2 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                     |
+| 最低支援的用戶端<br/> | Windows 8.1 \[桌面應用程式 \| UWP 應用程式\]<br/>                                |
+| 最低支援的伺服器<br/> | Windows Server 2012R2 \[ desktop apps \| UWP 應用程式\]<br/>                     |
 | 標頭<br/>                   | <dl> <dt>Mfapi。h</dt> </dl> |
 
 

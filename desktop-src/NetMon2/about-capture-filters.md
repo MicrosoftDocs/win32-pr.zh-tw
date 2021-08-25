@@ -4,12 +4,12 @@ ms.assetid: 6ab17e18-bd97-42a8-b569-b205ac19ffd1
 title: 關於 Capture 篩選
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7226bb7dc5bc214ab2e09504cc232e1bf591840f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3d0d1eee25915c30b8ddffc475545cbd7f7d04d0fdcecf4119480b737980cd9f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106987518"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119911358"
 ---
 # <a name="about-capture-filters"></a>關於 Capture 篩選
 

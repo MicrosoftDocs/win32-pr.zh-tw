@@ -6,12 +6,12 @@ keywords:
 - 資料類型 MIDL、封裝聯集
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4489a043ff3690ddb31a8acccf359dcd76940aa7
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6bc8f8f830d49430551af7d6450b0174742b9436afcdba764e9fa6494c957d9c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106965394"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119895358"
 ---
 # <a name="encapsulated-unions"></a>封裝聯集
 
@@ -48,9 +48,9 @@ typedef struct _S1_TYPE
 
 如需相關資訊，請參閱 [MIDL 基底類型](midl-base-types.md)、 [**char**](char-idl.md)、 **\[** [**coNtext \_ handle**](context-handle.md) **\]** 、 [**enum**](enum.md)、 **\[** [**\_ first**](first-is.md) **\]** 、 **\[** [**handle**](handle.md) **\]** 、 **\[** [**ignore**](ignore.md) **\]** 、 [**int**](int.md)、 **\[** [**ignore**](ignore.md) **\]** 、 **\[** [**last \_**](last-is.md) **\]** 、 **\[** [**length、length \_**](length-is.md)、 **\]** **\[** [**max \_**](max-is.md)、 **\]** **\[** [**ms \_ union**](ms-union-attrib.md) **\]** 、 [Nonencapsulated](nonencapsulated-unions.md)等位、 **\[** [**ptr**](ptr.md) **\]** 、 **\[** [**ref**](ref.md)、 **\]** **\[** [**\_**](size-is.md) **\]** **\[** switch as、 [**string**](string.md) **\]** 、 [**struct**](struct.md)、 [**switch**](switch.md)、switch、switch **\[** [**\_**](switch-is.md) **\]** **\[** [**\_ type**](switch-type.md) **\]** 、 **\[** [**傳輸 \_ as**](transmit-as.md) **\]** 、 [**union**](union.md)和 **\[** [**unique**](unique.md)**\]**
 
- 
+ 
 
- 
+ 
 
 
 
