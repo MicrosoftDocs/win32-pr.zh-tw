@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Capicom.h
-ms.openlocfilehash: 4cedd7c039212b7bae3e681d7e0d594d3e1b8de3
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8c008a77e11bd7803dfb09ed2e6ddf1f57ed8695f2de33655239eb73ac49a248
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106981118"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119879028"
 ---
 # <a name="capicom_oid-enumeration"></a>CAPICOM \_ OID 列舉
 
@@ -35,7 +35,7 @@ OID 會使用這個列舉 [**。Name**](oid-name.md) 屬性。
 | **CAPICOM \_ OID \_ 其他**                                       | 物件不是其中一個預先定義的 CAPICOM 物件類型。<br/>                                                                                                                                                                       | 0     |
 | **CAPICOM \_ OID \_ 授權單位 \_ 金鑰 \_ 識別碼 \_ 延伸**       | 此物件是包含憑證授權單位單位之公開金鑰識別碼的憑證延伸 (CA) 。<br/>                                                                                                                  | 1     |
 | **CAPICOM \_ OID 索引 \_ 鍵 \_ 屬性 \_ 延伸**                  | 物件是包含公開金鑰選用屬性的憑證延伸。<br/>                                                                                                                                            | 2     |
-| **CAPICOM \_ OID \_ CERT \_ 原則 \_ 95 \_ 擴充功能**               | 此物件是包含 Windows 95 憑證原則資訊的憑證延伸。<br/>                                                                                                                                      | 3     |
+| **CAPICOM \_ OID \_ CERT \_ 原則 \_ 95 \_ 擴充功能**               | 物件是包含 Windows 95 憑證原則資訊的憑證延伸。<br/>                                                                                                                                      | 3     |
 | **CAPICOM \_ OID \_ 金鑰 \_ 使用 \_ 限制 \_ 延伸模組**          | 此物件是包含憑證公開金鑰使用限制的憑證延伸。<br/>                                                                                                                          | 4     |
 | **CAPICOM \_ OID \_ 舊版 \_ 原則 \_ 對應 \_ 延伸模組**         | 物件是包含舊版原則對應資訊的憑證延伸。<br/>                                                                                                                                              | 5     |
 | **CAPICOM \_ OID \_ 主體 \_ 替換 \_ 名稱 \_ 延伸模組**               | 物件是憑證延伸，包含憑證主體的替代名稱。<br/>                                                                                                                         | 6     |
@@ -72,10 +72,10 @@ OID 會使用這個列舉 [**。Name**](oid-name.md) 屬性。
 | **CAPICOM \_ OID \_ 伺服器 \_ 閘道 \_ 加密 \_ EKU**                  | 物件是指定憑證可用於 [*伺服器閘道加密*](../secgloss/s-gly.md) (SGC) 的 [**EKU**](eku.md)物件。<br/> | 110   |
 | **CAPICOM \_ OID \_ 加密 \_ 檔 \_ 系統 \_ EKU**               | 物件是 [**EKU**](eku.md) 物件，指定憑證可用於 [*加密檔案系統*](../secgloss/e-gly.md) (EFS) 。<br/>      | 111   |
 | **CAPICOM \_ OID \_ EFS \_ 復原 \_ EKU**                          | 物件是 [**EKU**](eku.md) 物件，指定憑證可以用來復原 EFS。<br/>                                                                                                                 | 112   |
-| **CAPICOM \_ OID \_ WHQL \_ 加密 \_ EKU**                           | 物件是 [**EKU**](eku.md) 物件，指定憑證可用於 WINDOWS 硬體品質實驗室 (WHQL) 密碼編譯。<br/>                                                                                   | 113   |
-| **CAPICOM \_ OID \_ NT5 \_ 加密 \_ EKU**                            | 物件是 [**EKU**](eku.md) 物件，可指定憑證可用於 windows Server 2003 和 windows XP 密碼編譯。<br/>                                                                                     | 114   |
+| **CAPICOM \_ OID \_ WHQL \_ 加密 \_ EKU**                           | 物件是 [**EKU**](eku.md)物件，指定憑證可用於 Windows 硬體品質實驗室 (WHQL) 密碼編譯。<br/>                                                                                   | 113   |
+| **CAPICOM \_ OID \_ NT5 \_ 加密 \_ EKU**                            | 物件是 [**EKU**](eku.md)物件，指定憑證可用於 Windows Server 2003 和 Windows XP 密碼編譯。<br/>                                                                                     | 114   |
 | **CAPICOM \_ OID \_ OEM \_ WHQL \_ 加密 \_ EKU**                      | 物件是 [**EKU**](eku.md) 物件，可指定憑證可用於原始設備製造商 (OEM) WHQL 密碼編譯。<br/>                                                                            | 115   |
-| **CAPICOM \_ OID \_ 內嵌 \_ NT \_ 加密 \_ EKU**                    | 物件是 [**EKU**](eku.md) 物件，可指定憑證可用於 Windows NT Embedded 密碼編譯。<br/>                                                                                                    | 116   |
+| **CAPICOM \_ OID \_ 內嵌 \_ NT \_ 加密 \_ EKU**                    | 物件是 [**EKU**](eku.md)物件，可指定憑證可用於 Windows NT Embedded 密碼編譯。<br/>                                                                                                    | 116   |
 | **CAPICOM \_ OID \_ 根 \_ 清單 \_ 簽署者 \_ EKU**                     | 物件是指定憑證可以用來簽署根清單的 [**EKU**](eku.md) 物件。<br/>                                                                                                                     | 117   |
 | **CAPICOM \_ OID \_ 限定的 \_ 從屬 \_ EKU**               | 物件是 [**EKU**](eku.md) 物件，可指定憑證可用於限定的從屬。<br/>                                                                                                             | 118   |
 | **CAPICOM \_ OID \_ KEY \_ RECOVERY \_ EKU**                          | 物件是 [**EKU**](eku.md) 物件，可指定憑證可用於金鑰修復。<br/>                                                                                                                        | 119   |

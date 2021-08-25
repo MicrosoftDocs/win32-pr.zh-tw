@@ -3,7 +3,7 @@ title: 浮動工具列元素
 description: 表示內容相關的工具列。
 ms.assetid: bb50890d-554a-4add-a583-d4fd48b823bf
 keywords:
-- 浮動工具列元素視窗功能區
+- 浮動工具列元素 Windows 功能區
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: ceea8ba1a220674f177e740411bf98a13d7bfc2e
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: e47fee9fbf2b6b0bc95153fd512f6484129dc7f3edebd56e1d97664ecc2bbef0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111443259"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119881738"
 ---
 # <a name="minitoolbar-element"></a>浮動工具列元素
 
@@ -39,7 +39,7 @@ ms.locfileid: "111443259"
 
 | 屬性           | 類型                 | 必要       | 描述                                                                                                                                                                                                                |
 |---------------------|----------------------|----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **名稱**<br/> | xs:string<br/> | 是<br/> | <dt> (xs： string) <br/> </dt> <dd> 由任何字元序列組成的字串，包括空白字元和分行符號字元。<br/> </dd> </dl> |
+| **名稱**<br/> | xs:string<br/> | Yes<br/> | <dt> (xs： string) <br/> </dt> <dd> 由任何字元序列組成的字串，包括空白字元和分行符號字元。<br/> </dd> </dl> |
 
 
 

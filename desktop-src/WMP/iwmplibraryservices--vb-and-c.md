@@ -1,5 +1,5 @@
 ---
-title: 'IWMPLibraryServices (VB 和 C ) 介面 (h.264. h) '
+title: 'IWMPLibraryServices (VB 和 C ) 介面 (Wmp. h) '
 description: 提供列舉程式庫的方法。
 ms.assetid: f2a72731-6e61-4f78-b0ca-ae907004eb7d
 keywords:
@@ -15,12 +15,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3493d5c94dcbd9db1e4f281a8fddfadbd2e336f1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: fd3b0b2829355d60a8748ccc7f035a1656e403acb5e32d337033b29484ef2236
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107000687"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119901858"
 ---
 # <a name="iwmplibraryservices-vb-and-c-interface"></a>IWMPLibraryServices (VB 和 c # ) 介面
 
@@ -63,7 +63,7 @@ ms.locfileid: "107000687"
 
 <dl> <dt>
 
-[**適用于 Visual Basic .NET 和 C 的介面#**](interfaces-for-visual-basic--net-and-c.md)
+[**適用于 Visual Basic .net 和 C 的介面#**](interfaces-for-visual-basic--net-and-c.md)
 </dt> <dt>
 
 [**IWMPLibrary 介面 (VB 和 c # )**](iwmplibrary--vb-and-c.md)

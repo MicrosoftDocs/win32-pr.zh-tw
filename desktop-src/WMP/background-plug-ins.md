@@ -10,12 +10,12 @@ keywords:
 - 背景外掛程式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 26108d1415c380aa7605ffefcf3dfe7447544051
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: bcd52b84b7a1c2de924de4aca88a9fd0b7db59707cc1b1d8d7729c497d7ea0c0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104183534"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119902438"
 ---
 # <a name="background-plug-ins"></a>背景外掛程式
 
@@ -30,9 +30,9 @@ ms.locfileid: "104183534"
 [**UI 外掛程式總覽**](ui-plug-in-overview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

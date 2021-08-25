@@ -4,12 +4,12 @@ description: 網路管理功能可提供各種不同的資訊層級，以協助�
 ms.assetid: dc126431-57b0-467b-9f56-1e66a647c7b1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e1aa6ec8d7fed30d38d25adc67974d8bad8ab1f
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: fd3161bb4d689b70f85f6c20c7c302779d0f685e8bcace43cffdee68b2cda2d4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106966039"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119912498"
 ---
 # <a name="changing-elements-of-user-information"></a>變更使用者資訊的元素
 
@@ -157,7 +157,7 @@ else
 
 下列程式碼片段說明如何使用 [**NetUserSetInfo**](/windows/desktop/api/Lmaccess/nf-lmaccess-netusersetinfo) 函數的呼叫來設定使用者旗標。 「 [**使用者 \_ 資訊 \_ 1008**](/windows/desktop/api/Lmaccess/ns-lmaccess-user_info_1008) 」主題包含旗標的有效值清單以及每個旗標的描述。
 
-請注意，您 \_ 必須針對 Windows NT、windows 2000、WINDOWS XP 和 LAN Manager 網路設定 UF 腳本旗標。 嘗試設定其他旗標而不 \_ 在這些網路上設定 UF 腳本，將會導致 [**NetUserSetInfo**](/windows/desktop/api/Lmaccess/nf-lmaccess-netusersetinfo) 函數失敗。
+請注意，您 \_ 必須針對 Windows NT、Windows 2000、Windows XP 和 LAN Manager 網路設定 UF 腳本旗標。 嘗試設定其他旗標而不 \_ 在這些網路上設定 UF 腳本，將會導致 [**NetUserSetInfo**](/windows/desktop/api/Lmaccess/nf-lmaccess-netusersetinfo) 函數失敗。
 
 
 ```C++
@@ -180,7 +180,7 @@ else
 
 ## <a name="setting-the-user-script-path-level-1009"></a>設定使用者腳本路徑，層級1009
 
-下列程式碼片段說明如何使用 [**NetUserSetInfo**](/windows/desktop/api/Lmaccess/nf-lmaccess-netusersetinfo) 函數的呼叫來設定特定使用者的登入腳本檔案的路徑。 腳本檔案可以是。CMD 檔案、。EXE 檔案或。.BAT 檔案。 字串也可以是 null。 [**使用者 \_ 資訊 \_ 1009**](/windows/desktop/api/Lmaccess/ns-lmaccess-user_info_1009)主題包含其他資訊。
+下列程式碼片段說明如何使用 [**NetUserSetInfo**](/windows/desktop/api/Lmaccess/nf-lmaccess-netusersetinfo) 函數的呼叫來設定特定使用者的登入腳本檔案的路徑。 腳本檔案可以是。CMD 檔案、.EXE 檔案或 .BAT 檔。 字串也可以是 null。 [**使用者 \_ 資訊 \_ 1009**](/windows/desktop/api/Lmaccess/ns-lmaccess-user_info_1009)主題包含其他資訊。
 
 
 ```C++
@@ -247,6 +247,6 @@ else
 
 
 
- 
+ 
 
- 
+ 

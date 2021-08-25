@@ -4,23 +4,23 @@ ms.assetid: 13b5bc92-583d-4031-94f9-f84dbfbf7ee7
 title: 建立和測試 GINA DLL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 02e6e4a00f15e6ced4827bbc3efeb3c459f5d6a8
-ms.sourcegitcommit: 70f39ec77d19d3c32c376ee2831753d2cafae41a
+ms.openlocfilehash: 31df8597ca9ad78b8c94efb5610e3c899f7834cb14c9112b15a410c72705a0cc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104321795"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119883528"
 ---
 # <a name="building-and-testing-a-gina-dll"></a>建立和測試 GINA DLL
 
 所有的函式、原型、結構和常數都定義于 Winwlx .h 標頭檔中。
 
 > [!Note]  
-> 在 Windows Vista 中會忽略 GINA Dll。
+> Windows Vista 會忽略 GINA dll。
 
  
 
-若要測試 [*GINA*](/windows/desktop/SecGloss/g-gly) DLL，請從已檢查的作業系統版本（可透過 Microsoft Windows 驅動程式開發工具組 (DDK) 取得）使用 Winlogon.exe。 已檢查的 [*Winlogon*](/windows/desktop/SecGloss/w-gly) 版本支援偵錯工具 gina，如下所示：
+若要測試 [*GINA*](/windows/desktop/SecGloss/g-gly) DLL，請從已檢查版本的作業系統使用 Winlogon.exe，這可透過 Microsoft Windows 驅動程式開發工具組 (DDK) 取得。 已檢查的 [*Winlogon*](/windows/desktop/SecGloss/w-gly) 版本支援偵錯工具 gina，如下所示：
 
 -   您可以使用下列語法，在 Win.ini 中建立區段，以指定 Winlogon 調試選項。
 
@@ -36,7 +36,7 @@ ms.locfileid: "104321795"
 
     
 
-    | 調試旗標 | Description                                                                                                                                                                |
+    | 調試旗標 | 描述                                                                                                                                                                |
     |----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
     | CoolSwitch     | CTRL + ALT + SHIFT + TAB 鍵組合會導致 Winlogon 中的 debug break。                                                                                               |
     | 錯誤          | 列印錯誤。                                                                                                                                                              |

@@ -3,27 +3,27 @@ title: 透過 IWMDMDevice 取得格式功能
 description: 在僅支援 IWMDMDevice 的裝置上取得格式功能
 ms.assetid: bff079a1-d192-4e53-9b1d-9ad3b5dcca51
 keywords:
-- Windows Media 裝置管理員，裝置功能
+- Windows媒體裝置管理員、裝置功能
 - 裝置管理員，裝置功能
 - 程式設計指南，裝置功能
 - 桌面應用程式，裝置功能
-- 建立 Windows Media 裝置管理員應用程式，裝置功能
+- 建立 Windows 媒體裝置管理員應用程式、裝置功能
 - 將檔案寫入裝置、裝置功能
 - IWMDMDevice 方法
-- Windows Media 裝置管理員，IWMDMDevice 方法
+- WindowsMedia 裝置管理員，IWMDMDevice 方法
 - 裝置管理員，IWMDMDevice 方法
 - 程式設計手冊，IWMDMDevice 方法
 - 桌面應用程式，IWMDMDevice 方法
-- 建立 Windows Media 裝置管理員應用程式，IWMDMDevice 方法
+- 建立 Windows 媒體裝置管理員應用程式，IWMDMDevice 方法
 - 將檔案寫入裝置，IWMDMDevice 方法
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a923919611b40197b1deed30e781042e008ef41
-ms.sourcegitcommit: b95a94ffffda33f9ebbdd41787c01866444b4cf4
+ms.openlocfilehash: f3fe71969b48ded5616ee34e90a3420a77f468dfd9fb7f2cf0c6d14168a6fbb2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "104313845"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119957520"
 ---
 # <a name="getting-format-capabilities-through-iwmdmdevice"></a>透過 IWMDMDevice 取得格式功能
 
@@ -98,9 +98,9 @@ void CWMDMController::GetCaps(IWMDMDevice* pDevice)
 [**在支援 IWMDMDevice3 的裝置上取得格式功能**](getting-format-capabilities-on-devices-that-support-iwmdmdevice3.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

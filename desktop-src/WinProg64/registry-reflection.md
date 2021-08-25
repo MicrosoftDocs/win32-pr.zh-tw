@@ -7,16 +7,16 @@ keywords:
 - 反映64位 Windows 程式設計
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 523041004d9570bbdf101050e30f5d9139031913
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: d9104ba6bf4d537a597a2a45bfd9034379ed1781dd893e23633c08e9e9c1149b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106968292"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119899038"
 ---
 # <a name="registry-reflection"></a>登錄反映
 
-\[本主題中的資訊適用于 Windows Server 2008、Windows Vista、Windows Server 2003 和 Windows XP。 從 Windows 7 和 Windows Server 2008 R2 開始，WOW64 不再使用登錄反映，而是改為共用先前反映的金鑰。 如需詳細資訊，請參閱 [受 WOW64 影響的](shared-registry-keys.md)登錄機碼。\]
+\[本主題中的資訊適用于 Windows server 2008、Windows Vista、Windows server 2003 和 Windows XP。 從 Windows 7 和 Windows Server 2008 R2 開始，WOW64 不再使用登錄反映，而且先前反映的金鑰會改為共用。 如需詳細資訊，請參閱 [受 WOW64 影響的](shared-registry-keys.md)登錄機碼。\]
 
 登錄 [重定向](registry-redirector.md) 程式會在 WOW64 上提供登錄某些部分的個別邏輯視圖，以隔離32位和64位應用程式。 不過，在32位和64位視圖中，某些登錄機碼的值必須相同。
 
@@ -24,15 +24,15 @@ ms.locfileid: "106968292"
 
 藉由呼叫 [**RegCloseKey**](/windows/desktop/api/winreg/nf-winreg-regclosekey)來關閉索引鍵時，會複製反映的金鑰。 請注意，這會導致可能的競爭情形：如果有一個以上的進程變更了反映的索引鍵，則最後一個 **RegCloseKey** 呼叫會決定金鑰的最終值。
 
-反映程式會在兩個視圖之間複製本機伺服器的 COM 啟用資料，但不會複製同進程資料，因為64位的 Windows 上不允許有32/64 的同進程資料混合。
+反映程式會在兩個視圖之間複製本機伺服器的 COM 啟用資料，但不會複製同進程資料，因為64位 Windows 上不允許有32/64 的同進程資料混合。
 
 未重新導向的共用登錄機碼或登錄機碼的反映未啟用。 例如，未針對 **HKEY \_ 本機 \_ 電腦 \\ 系統** 金鑰啟用反映。 如需重新導向、共用或反映的登錄機碼清單，請參閱 [受 WOW64 影響](shared-registry-keys.md)的登錄機碼。
 
 登錄反映會使用「最後寫入者獲勝」原則，如下列範例所示：
 
--   在64位 Windows 的全新安裝之後，會註冊64位 Wordpad.exe，以處理 .doc 檔。 反映器會從64位登錄視圖將 .doc 註冊複製到32位登錄視圖中。
--   系統管理員會安裝32位 Office，在32位登錄視圖中註冊32位 Winword.exe 以處理 .doc 檔。 登錄反映程式會將這項資訊複製到64位的登錄視圖，因此32位和64位應用程式會為 .doc 檔案啟動32位版本的 Winword.exe。
--   系統管理員會安裝64位 Office，在64位登錄視圖中註冊64位 Winword.exe 以處理 .doc 檔。 登錄反映程式會將這項資訊複製到32位登錄中，因此32位和64位應用程式會為 .doc 檔案啟動64位版本的 Winword.exe。
+-   在64位 Windows 的全新安裝之後，會註冊64位 Wordpad.exe 來處理 .doc 的檔案。 反映器會從64位登錄視圖將 .doc 註冊複製到32位登錄視圖中。
+-   系統管理員會安裝32位 Office，其會註冊32位 Winword.exe，以在32位登錄視圖中處理 .doc 的檔案。 登錄反映程式會將此資訊複製到64位的登錄視圖，因此32位和64位應用程式都會啟動 .doc 檔案的32位版本 Winword.exe。
+-   系統管理員會安裝64位 Office，其會註冊64位 Winword.exe，以在64位登錄視圖中處理 .doc 的檔案。 登錄反映程式會將這項資訊複製到32位登錄中，因此32位和64位應用程式會為 .doc 檔案啟動64位版本的 Winword.exe。
 
 因此，最近安裝的應用程式會保留檔案關聯資訊。
 
@@ -63,6 +63,6 @@ ms.locfileid: "106968292"
 [受 WOW64 影響的登錄機碼](shared-registry-keys.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

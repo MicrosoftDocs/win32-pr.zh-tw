@@ -4,17 +4,17 @@ description: 建立通訊協定處理常式包括執行 ISearchProtocol 來管�
 ms.assetid: d4bcf370-4152-4cfd-a92e-eb9196d23ab4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2c5a88ca5137b012431fff75bf5975a8b4820121
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 32e33a7ebf6d5f14d0ec4d78031e25b17d59bac5fb99ee7ea6d20046fbe95c78
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104092680"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119963488"
 ---
 # <a name="implementing-a-protocol-handler-for-wds"></a>執行 WDS 的通訊協定處理常式
 
 > [!NOTE]
-> Windows Desktop Search 2.x 是一種淘汰的技術，最初是以 Windows XP 和 Windows Server 2003 的增益集形式提供。 在之後的版本中，請改用 [Windows Search](../search/-search-3x-wds-overview.md) 。
+> WindowsDesktop Search 2.x 是一種淘汰的技術，最初是以 Windows XP 和 Windows Server 2003 的增益集的形式提供。 在之後的版本中，請改用[Windows Search](../search/-search-3x-wds-overview.md) 。
 
 建立通訊協定處理常式包括執行 [**ISearchProtocol**](/windows/desktop/api/searchapi/nn-searchapi-isearchprotocol) 來管理 UrlAccessor 物件、 [**IUrlAccessor**](/windows/desktop/api/searchapi/nn-searchapi-iurlaccessor) 來產生的中繼資料，以及識別資料存放區中專案的適當篩選、IProtocolHandlerSite 來具現化 SearchProtocol 物件，以及識別適當的篩選準則，以及使用 [**IFilter**](/windows/desktop/api/filter/nn-filter-ifilter)來篩選專屬檔案，或列舉和篩選階層式儲存的檔案。 通訊協定處理常式必須為多執行緒。
 
@@ -29,7 +29,7 @@ ms.locfileid: "104092680"
 
 ## <a name="note-on-urls"></a>Url 上的注意事項
 
-Windows 桌面搜尋 (WDS) 使用 Url 來唯一識別檔案系統中的專案、類似資料庫的存放區，或在網路上。 定義專案節點的 URL 稱為起始頁;WDS 開始于該起始頁面，並遞迴地編目資料存放區。 一般的 URL 結構如下：
+Microsoft Windows Desktop Search (WDS) 會使用 url 來唯一識別檔案系統中的專案、類似資料庫的存放區，或在網路上。 定義專案節點的 URL 稱為起始頁;WDS 開始于該起始頁面，並遞迴地編目資料存放區。 一般的 URL 結構如下：
 
 `protocol://host/path/name.extension`
 
@@ -37,7 +37,7 @@ Windows 桌面搜尋 (WDS) 使用 Url 來唯一識別檔案系統中的專案、
 >
 > 當您想要加入新的資料存放區時，必須選取名稱以識別與目前不衝突的名稱。 我們建議採用此命名慣例：公司名稱配置。
 
- 
+ 
 
 ## <a name="protocol-handler-interfaces"></a>通訊協定處理常式介面
 
@@ -53,7 +53,7 @@ Windows 桌面搜尋 (WDS) 使用 Url 來唯一識別檔案系統中的專案、
 >
 > 系統會忽略目錄的修改時間。 [**IUrlAccessor**](/windows/desktop/api/searchapi/nn-searchapi-iurlaccessor)物件必須列舉子物件，以判斷是否有任何修改或刪除。
 
- 
+ 
 
 **UrlAccessor** 物件的大部分設計都取決於結構是階層式或以連結為基礎。 針對階層式資料存放區， **UrlAccessor** 物件必須找到可以列舉其內容的篩選準則。 階層式和連結式通訊協定處理常式之間的另一項差異，是使用 IsDirectory 方法。 在以連結為基礎的通訊協定處理常式中，此方法應該會傳回 \_ FALSE。 階層式通訊協定處理常式必須傳回 \_ 容器的 [確定]。
 
@@ -89,7 +89,7 @@ Windows 桌面搜尋 (WDS) 使用 Url 來唯一識別檔案系統中的專案、
 >
 > 著作權 (C) Microsoft。 著作權所有，並保留一切權利。
 
- 
+ 
 
 
 ```
@@ -156,20 +156,20 @@ HRESULT GetPropVariantForUrlAndTime(PCWSTR pszUrl, const FILETIME &ftLastModifie
 >
 > 容器 [**IFilter**](/windows/desktop/api/filter/nn-filter-ifilter)元件應該一律列舉所有的子 url，即使子 url 未變更，因為索引子會透過列舉進程偵測刪除。 如果 DIR 連結中的日期輸出 \_ \_ \_ 指出資料尚未變更，則索引子不會更新該 URL 的資料。
 
- 
+ 
 
 實體 URL 是 **UrlAccessor** 物件處理的 url。 如果篩選不會發出方便使用的 DisplayUrl，WDS 會在搜尋結果中顯示使用者的實體 URL。 WDS 架構包含兩個屬性，可控制要對終端使用者顯示的內容，如下表所示。
 
 
 
-| GUID                                 | PROPSPEC      | Description                                         |
+| GUID                                 | PROPSPEC      | 描述                                         |
 |--------------------------------------|---------------|-----------------------------------------------------|
 | D5CDD505-2E9C-101B-9397-08002B2CF9AE | DisplayFolder | 在搜尋結果中顯示給使用者的資料夾路徑 |
 | D5CDD505-2E9C-101B-9397-08002B2CF9AE | FolderName    | 父資料夾的顯示名稱                   |
 
 
 
- 
+ 
 
 如果您的程式碼未發出 DisplayFolder 或資料夾資料夾，則會從 DisplayUrl 計算這些值。 URL 中的正斜線代表存放區或檔案系統內的容器。
 
@@ -195,7 +195,7 @@ HRESULT GetPropVariantForUrlAndTime(PCWSTR pszUrl, const FILETIME &ftLastModifie
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -213,6 +213,6 @@ HRESULT GetPropVariantForUrlAndTime(PCWSTR pszUrl, const FILETIME &ftLastModifie
 [安裝和註冊通訊協定處理常式](-search-2x-wds-ph-install-registration.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

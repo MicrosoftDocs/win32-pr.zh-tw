@@ -1,5 +1,5 @@
 ---
-description: 描述與登入執行 Windows 的電腦系統之使用者相關聯的登入會話或會話。
+description: 描述與登入執行 Windows 之電腦系統的使用者相關聯的登入會話或會話。
 ms.assetid: d09a115b-95a3-47c7-a04d-c810d044ccc8
 ms.tgt_platform: multiple
 title: Win32_LogonSession 類別
@@ -23,12 +23,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 78e14bbd41c2fd8bb0c10a7bfeeda0dc9d426b0f
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 85cbc80050fafe887fa99974c41666c7189b2b12c21559aac0255870b2a697d5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103688668"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119972979"
 ---
 # <a name="win32_logonsession-class"></a>Win32 \_ LogonSession 類別
 

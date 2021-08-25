@@ -4,12 +4,12 @@ ms.assetid: d438ffae-fc50-454f-8ce4-2d6676500fff
 title: 非同步 MFTs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4a16950cf431eff16f2befb382a77910c49ccb2e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f0cab2ef683ef22fd22a911c045a1a744f1c0d561b3e8e66d46ca2cf6c6f0ee4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972362"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119959518"
 ---
 # <a name="asynchronous-mfts"></a>非同步 MFTs
 
@@ -37,13 +37,13 @@ ms.locfileid: "106972362"
 
 ## <a name="about-asynchronous-mfts"></a>關於非同步 MFTs
 
-在 Windows Vista 中引進 MFTs 時，API 是針對 *同步* 資料處理而設計。 在該模型中，MFT 一律是等候取得輸入或等候產生輸出。
+當 Windows Vista 引進 MFTs 時，API 是針對 *同步* 資料處理而設計。 在該模型中，MFT 一律是等候取得輸入或等候產生輸出。
 
 請考慮一般的影片解碼。 為了取得已解碼的框架，用戶端會呼叫 [**IMFTransform：:P rocessoutput**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-processoutput)。 如果此解碼器有足夠的資料來解碼框架， **ProcessOutput** 會在 MFT 解碼框架時區塊。 否則， **ProcessOutput** 會傳回 **MF_E_TRANSFORM_NEED_MORE_INPUT**，指出用戶端應該呼叫 [**IMFTransform：:P rocessinput**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-processinput)。
 
 如果解碼器在一個執行緒上執行所有的解碼作業，此模型就會順利運作。 但假設解碼器使用多個執行緒來平行解碼框架。 為了達到最佳效能，每當解碼執行緒變成閒置時，應該會收到新的輸入。 但是，執行緒完成解碼作業的速率不會與用戶端對 [**ProcessInput**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-processinput) 和 [**ProcessOutput**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-processoutput)的呼叫完全一致，因而導致執行緒等待工作。
 
-Windows 7 引進 MFTs 的事件驅動、 *非同步* 處理。 在此模型中，每當 MFT 需要輸入或有輸出時，它就會將事件傳送至用戶端。
+Windows 7 引進 MFTs 的事件驅動、*非同步* 處理。 在此模型中，每當 MFT 需要輸入或有輸出時，它就會將事件傳送至用戶端。
 
 ## <a name="general-requirements"></a>一般需求
 

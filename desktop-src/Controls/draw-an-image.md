@@ -4,12 +4,12 @@ description: 本主題將示範如何使用 ImageList \_ draw 函數來繪製影
 ms.assetid: BE2F20F3-B7D3-4FA2-B1E9-60A47A609C36
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ac13eef2eb5bc55866ac2fd930db5494f2683dd2
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: f7b42e97ad9b7cab8693431654dc31b473267414f31ae5811f4f66a6663ce8e6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "103933748"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119878328"
 ---
 # <a name="how-to-draw-an-image"></a>如何繪製影像
 
@@ -19,12 +19,12 @@ ms.locfileid: "103933748"
 
 ### <a name="technologies"></a>技術
 
--   [Windows 控制項](window-controls.md)
+-   [Windows控制](window-controls.md)
 
 ### <a name="prerequisites"></a>必要條件
 
 -   C/C++
--   Windows 消費者介面程式設計
+-   Windows消費者介面程式設計
 
 ## <a name="instructions"></a>指示
 

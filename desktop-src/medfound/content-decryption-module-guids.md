@@ -3,12 +3,12 @@ description: 下列 Guid 支援 (CDM) 的內容解密模組。
 title: 內容解密模組 (CDM) GUID
 ms.topic: reference
 ms.date: 01/21/2018
-ms.openlocfilehash: e06601fd23d3244d0965d2cfd7cd70a6f73a481f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ef4016b731b492ed61c6aed859a905446de72c308e03a734aa3cc8f573645668
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106984312"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119958778"
 ---
 # <a name="content-decryption-module-cdm-guids"></a>內容解密模組 (CDM) GUID
 

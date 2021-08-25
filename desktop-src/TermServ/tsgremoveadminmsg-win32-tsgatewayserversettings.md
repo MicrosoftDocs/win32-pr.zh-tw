@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5ba9877b9e8704c92eb482876ab69107e116207b
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: dc70fc302ea261a7777b3fbcd3c7773139b92bec48ea611960dfd6f1017b93af
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106981240"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119869038"
 ---
 # <a name="tsgremoveadminmsg-method-of-the-win32_tsgatewayserversettings-class"></a>Win32 TSGatewayServerSettings 類別的 TSGRemoveAdminMsg 方法 \_
 

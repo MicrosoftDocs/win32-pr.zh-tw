@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Win32_ScheduledJob 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: adfb461696ad8c45865660a606941735b67b4839
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 7ee25bca758d7822d0accd1d2838b4ce621706181dfff569710f27d6ee777cb3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106967033"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119917598"
 ---
 # <a name="win32_scheduledjob-methods"></a>Win32 \_ Register-scheduledjob 方法
 

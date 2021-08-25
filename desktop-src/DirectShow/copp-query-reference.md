@@ -4,12 +4,12 @@ ms.assetid: 11eb1443-857d-4516-a5cb-c3cc02a5eba4
 title: COPP 查詢參考
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 41de36f3cdcc37a38e2ebc53caa7b6b37c204d9d
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 59d36cde152600faaa1dd567faac916bfa8281e2b2edb9464074fe34a58d5011
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104025793"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119909658"
 ---
 # <a name="copp-query-reference"></a>COPP 查詢參考
 

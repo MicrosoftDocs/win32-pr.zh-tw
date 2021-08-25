@@ -3,7 +3,7 @@ title: 'DTM_GETDATETIMEPICKERINFO 訊息 (Commctrl .h) '
 description: 取得 (DTP) 控制項之日期和時間選擇器的資訊。
 ms.assetid: 04847b68-ac45-4b28-8f62-2cd68ffe48d4
 keywords:
-- DTM_GETDATETIMEPICKERINFO message Windows 控制項
+- DTM_GETDATETIMEPICKERINFO 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2398a2543caa6d7104339fb8debd83fcee3ac71f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 48dc639a48455564b9f925f7d6eea9634c01e597323f81d951cfde372a34ea37
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464433"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119878218"
 ---
 # <a name="dtm_getdatetimepickerinfo-message"></a>DTM \_ GETDATETIMEPICKERINFO 訊息
 
@@ -49,8 +49,8 @@ ms.locfileid: "104464433"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

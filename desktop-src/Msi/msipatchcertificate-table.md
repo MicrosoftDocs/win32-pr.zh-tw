@@ -4,12 +4,12 @@ ms.assetid: 8f76c27d-92f1-4de7-a69c-fba877e0325d
 title: MsiPatchCertificate 資料表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 01648e792931fd856a1231a5d876c7db843479df
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f39d2bc3a05c8b3fe3f23cd7dce01da36e14ce1f3984f24e827606bbc44c1a77
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104026876"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119913308"
 ---
 # <a name="msipatchcertificate-table"></a>MsiPatchCertificate 資料表
 

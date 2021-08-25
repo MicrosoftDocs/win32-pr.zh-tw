@@ -4,12 +4,12 @@ ms.assetid: 14786a9b-413e-4fb4-b267-bfd0ccd4631b
 title: 'MEStreamFormatChanged 事件 (Mfobjects) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fd48e7abc8121707b150af5bc8968a50c1eb44e6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 762f65beb26f5095c9e89be845f468e3ca53c9b5cd227916bb7cc38417626c60
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848533"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119957268"
 ---
 # <a name="mestreamformatchanged-event"></a>MEStreamFormatChanged 事件
 
@@ -21,7 +21,7 @@ ms.locfileid: "103848533"
 
 
 
-| VARTYPE                | Description                                                                                                 |
+| VARTYPE                | 描述                                                                                                 |
 |------------------------|-------------------------------------------------------------------------------------------------------------|
 | VT \_ 不明<br/> | 新媒體類型之 [**IMFMediaType**](/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype) 介面的指標。<br/> <br/> |
 
@@ -37,8 +37,8 @@ ms.locfileid: "103848533"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                                     |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                                     |
 | 標頭<br/>                   | <dl> <dt>Mfobjects (包含 Mfidl) </dt> </dl> |
 
 

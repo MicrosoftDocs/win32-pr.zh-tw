@@ -3,7 +3,7 @@ title: Command.Id 屬性
 description: 表示命令的唯一識別碼。
 ms.assetid: 937ca9d6-6910-4133-9cfa-d7e3f895f876
 keywords:
-- Command.Id 屬性視窗功能區
+- Command.Id 屬性 Windows 功能區
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 13e259e5fd74e3037afde3d4c001000b5a17a9bc
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 50c542cbf4103c6063a177990d454a45e5f937745720c7c0a7bc5c60c4c1047e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466589"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119931610"
 ---
 # <a name="commandid-property"></a>Command.Id 屬性
 
@@ -91,8 +91,8 @@ ms.locfileid: "104466589"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>              |
+| 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/> |
 
 
 

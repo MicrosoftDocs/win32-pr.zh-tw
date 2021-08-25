@@ -8,12 +8,12 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.custom: seodec18
-ms.openlocfilehash: 9a3777cac7cc0a258002d1475fb7b1c6dd2546ca
-ms.sourcegitcommit: 73417d55867c804274a55abe5ca71bcba7006119
+ms.openlocfilehash: d5b260741cae6aebb447a11692f03dad6e35498a19f33221aa77ac8a8507144a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "104093495"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119917158"
 ---
 # <a name="supported-pixel-formats-and-alpha-modes"></a>支援的像素格式和 Alpha 模式
 
@@ -60,7 +60,7 @@ ms.locfileid: "104093495"
 
 
 
- 
+ 
 
 ## <a name="specifying-a-pixel-format-for-a-render-target"></a>指定呈現目標的像素格式
 
@@ -113,7 +113,7 @@ hr = m_pD2DFactory->CreateHwndRenderTarget(
 > [!Note]  
 > 建議您使用 [**DXGI \_ format \_ B8G8R8A8 \_ UNORM**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) 做為像素格式，以獲得更好的效能。 這對軟體呈現目標特別有用。 BGRA 格式目標的執行效果優於 RGBA 格式。
 
- 
+ 
 
 當您建立 [**ID2D1HwndRenderTarget**](/windows/win32/api/d2d1/nn-d2d1-id2d1hwndrendertarget)時，您可以使用 [**D2D1 \_ 轉譯 \_ 目標 \_ 屬性**](/windows/desktop/api/d2d1/ns-d2d1-d2d1_render_target_properties) 結構來指定轉譯選項。 選項包括像素格式，如上一節所述。 此結構的 [類型] 欄位可讓您指定轉譯目標是要呈現給硬體或軟體，還是 Direct2D 應該自動判斷轉譯模式。
 
@@ -134,7 +134,7 @@ hr = m_pD2DFactory->CreateHwndRenderTarget(
 
 
 
- 
+ 
 
 若要強制轉譯目標使用硬體呈現，請使用 [**D2D1 轉譯 \_ \_ 目標 \_ 類型 \_ 硬體**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_render_target_type) 設定。 下表列出明確使用硬體轉譯的 [**ID2D1HwndRenderTarget**](/windows/win32/api/d2d1/nn-d2d1-id2d1hwndrendertarget) 物件所支援的格式。
 
@@ -154,7 +154,7 @@ hr = m_pD2DFactory->CreateHwndRenderTarget(
 
 
 
- 
+ 
 
 若要強制轉譯目標使用軟體呈現，請使用 [**D2D1 轉譯 \_ \_ 目標 \_ 類型 \_ 軟體**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_render_target_type) 設定。 下表列出明確使用軟體轉譯的 [**ID2D1HwndRenderTarget**](/windows/win32/api/d2d1/nn-d2d1-id2d1hwndrendertarget) 物件所支援的格式。
 
@@ -171,13 +171,13 @@ hr = m_pD2DFactory->CreateHwndRenderTarget(
 
 
 
- 
+ 
 
 無論 [**ID2D1HwndRenderTarget**](/windows/win32/api/d2d1/nn-d2d1-id2d1hwndrendertarget) 是否為硬體加速，預設的 [dxgi \_ 格式 \_ 未知](/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format) 格式都會使用 [dxgi \_ 格式 \_ B8G8R8A8](/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format) ，而 [**D2D1 \_ Alpha \_ 模式 \_ 未知**](/windows/desktop/api/dcommon/ne-dcommon-d2d1_alpha_mode) 的 Alpha 模式預設會使用 **D2D1 \_ Alpha \_ 模式 \_ 忽略** 。
 
 ## <a name="supported-formats-for-id2d1devicecontext"></a>支援的 ID2D1DeviceCoNtext 格式
 
-從 Windows 8 開始， [**裝置內容**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1devicecontext) 會利用更多的 [**Direct3D 高色彩格式**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) ，例如：
+從 Windows 8 開始，[**裝置內容**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1devicecontext)會利用更多的 [**Direct3D 高色彩格式**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format)，例如：
 
 -   DXGI \_ 格式 \_ B8G8R8A8 \_ UNORM \_ SRGB
 -   DXGI \_ 格式 \_ R8G8B8A8 \_ UNORM \_ SRGB
@@ -187,7 +187,7 @@ hr = m_pD2DFactory->CreateHwndRenderTarget(
 
 使用 [**ID2D1DeviceCoNtext：： IsDxgiFormatSupported**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-isdxgiformatsupported) 方法來查看格式是否適用于特定的裝置內容。 這些格式也可以在 [**ID2D1HwndRenderTarget**](/windows/win32/api/d2d1/nn-d2d1-id2d1hwndrendertarget)上運作。
 
-這些格式除了 Windows 7 中的 [**ID2D1HwndRenderTarget**](/windows/win32/api/d2d1/nn-d2d1-id2d1hwndrendertarget) 介面所支援的格式之外。 如需詳細資訊，請參閱 [裝置和裝置](devices-and-device-contexts.md) 內容。
+這些格式除了 Windows 7 中的 [**ID2D1HwndRenderTarget**](/windows/win32/api/d2d1/nn-d2d1-id2d1hwndrendertarget)介面所支援的格式之外。 如需詳細資訊，請參閱 [裝置和裝置](devices-and-device-contexts.md) 內容。
 
 ## <a name="supported-formats-for-compatible-render-target"></a>相容轉譯目標支援的格式
 
@@ -203,7 +203,7 @@ hr = m_pD2DFactory->CreateHwndRenderTarget(
 
 
 
- 
+ 
 
 [ [DXGI \_ 格式 \_ 未知](/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format) 格式] 預設會使用父轉譯目標格式，而 [ [**D2D1 \_ Alpha \_ ] 模式 \_ 未知**](/windows/desktop/api/dcommon/ne-dcommon-d2d1_alpha_mode) 的 [Alpha] 模式則使用預設預 **乘的 D2D1 \_ Alpha \_ 模式 \_** 。
 
@@ -226,12 +226,12 @@ DXGI 轉譯目標是由其中一個 [**ID2D1Factory：： CreateDxgiSurfaceRende
 
 
 
- 
+ 
 
 > [!Note]  
 > 格式必須符合 dxgi 介面呈現目標所繪製之 DXGI 介面的格式。
 
- 
+ 
 
 [ [Dxgi \_ 格式 \_ 未知](/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format) ] 格式預設會使用 dxgi 介面格式。 請勿使用 [**D2D1 \_ Alpha \_ 模式 \_ 未知**](/windows/desktop/api/dcommon/ne-dcommon-d2d1_alpha_mode) 的 Alpha 模式搭配 DXGI 介面轉譯目標。 它沒有預設值，而且會導致 DXGI 表面呈現目標建立失敗。
 
@@ -255,7 +255,7 @@ WIC 點陣圖轉譯目標是由其中一個 [**ID2D1Factory：： CreateWicBitma
 
 
 
- 
+ 
 
 WIC 點陣圖目標的像素格式必須符合 WIC 點陣圖的像素格式。
 
@@ -274,7 +274,7 @@ WIC 點陣圖目標的像素格式必須符合 WIC 點陣圖的像素格式。
 
 
 
- 
+ 
 
 請勿使用 [DXGI \_ 格式 \_ 未知](/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format) 的格式或 [**D2D1 \_ Alpha 模式的 \_ \_ 未知**](/windows/desktop/api/dcommon/ne-dcommon-d2d1_alpha_mode) Alpha 模式與 [**ID2D1DCRenderTarget**](/windows/win32/api/d2d1/nn-d2d1-id2d1dcrendertarget)。 它沒有預設值，而且會造成 **ID2D1DCRenderTarget** 建立失敗。
 
@@ -308,7 +308,7 @@ WIC 點陣圖目標的像素格式必須符合 WIC 點陣圖的像素格式。
 
 
 
- 
+ 
 
 當您使用 [**ID2D1RenderTarget：： CreateSharedBitmap**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-createsharedbitmap)方法時，您可以使用 [**D2D1 \_ BITMAP \_ 屬性**](/windows/desktop/api/d2d1/ns-d2d1-d2d1_bitmap_properties)結構的 **pixelFormat** 欄位來指定新轉譯目標的像素格式。 它必須符合 [**ID2D1Bitmap**](/windows/win32/api/d2d1/nn-d2d1-id2d1bitmap) 來源的像素格式。
 
@@ -317,7 +317,7 @@ WIC 點陣圖目標的像素格式必須符合 WIC 點陣圖的像素格式。
 > [!Note]  
 > 如需 (BCn) 像素格式之區塊壓縮的詳細資訊，請參閱 [區塊壓縮](block-compression.md)。
 
- 
+ 
 
 ### <a name="supported-wic-formats"></a>支援的 WIC 格式
 
@@ -334,7 +334,7 @@ WIC 點陣圖目標的像素格式必須符合 WIC 點陣圖的像素格式。
 
 
 
- 
+ 
 
 如需示範如何將 WIC 點陣圖轉換成支援格式的範例，請參閱 [如何從檔案載入點陣圖](how-to-load-a-direct2d-bitmap-from-a-file.md)。
 
@@ -390,6 +390,6 @@ Alpha 色板本身的值在直線和乘乘的 Alpha 中都相同。
 [DXGI \_ 格式](/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

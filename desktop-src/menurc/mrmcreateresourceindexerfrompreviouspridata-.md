@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 152ded28e6158fb80d8157c751026091afb51f65
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d178532a77e01bc724276b40881685e0ec44d5364617fd856ffc55acfd99cf98
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104317380"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119952349"
 ---
 # <a name="mrmcreateresourceindexerfrompreviouspridata-function"></a>MrmCreateResourceIndexerFromPreviousPriData 函式
 
@@ -77,9 +77,9 @@ HRESULT HRESULT MrmCreateResourceIndexerFromPreviousPriData (
 *priData* \[在\]
 </dt> <dd>
 
-類型： **BYTE \** _
+類型：**位元組 \***
 
-對 [_ *MrmCreateResourceFileInMemory* *](mrmcreateresourcefileinmemory.md)之前的呼叫所建立之 PRI 資料的指標。 在您完成使用此函數所建立的資源索引子之前，請勿釋放 *priData* 。
+由先前呼叫 [**MrmCreateResourceFileInMemory**](mrmcreateresourcefileinmemory.md)所建立之 PRI 資料的指標。 在您完成使用此函數所建立的資源索引子之前，請勿釋放 *priData* 。
 
 </dd> <dt>
 
@@ -95,7 +95,7 @@ HRESULT HRESULT MrmCreateResourceIndexerFromPreviousPriData (
 *索引子* \[in、out\]
 </dt> <dd>
 
-類型： **[**MrmResourceIndexerHandle**](mrmresourceindexerhandle.md) \** _
+類型： **[ **MrmResourceIndexerHandle**](mrmresourceindexerhandle.md)\***
 
 資源索引子控制碼的指標。
 
@@ -103,7 +103,7 @@ HRESULT HRESULT MrmCreateResourceIndexerFromPreviousPriData (
 
 ## <a name="return-value"></a>傳回值
 
-類型： _ *HRESULT**
+類型： **HRESULT**
 
 如果函式 \_ 成功，則為 [正常]，否則為其他值。 使用 winerror.h 中定義的成功 () 或失敗 ()  (宏) ，判斷成功或失敗。
 
@@ -118,7 +118,7 @@ HRESULT HRESULT MrmCreateResourceIndexerFromPreviousPriData (
 | 需求 | 值 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 10， \[ 僅限1803版桌面應用程式\]<br/>                                       |
-| 最低支援的伺服器<br/> | \[僅限 Windows Server desktop 應用程式\]<br/>                                                 |
+| 最低支援的伺服器<br/> | Windows\[僅限伺服器桌面應用程式\]<br/>                                                 |
 | 標頭<br/>                   | <dl> <dt>MrmResourceIndexer。h</dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>Mrmsupport .lib</dt> </dl>       |
 | DLL<br/>                      | <dl> <dt>Mrmsupport.dll</dt> </dl>       |

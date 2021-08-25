@@ -1,17 +1,17 @@
 ---
-description: 使用 VMR 來進行 DirectShow 篩選器開發人員
+description: 針對 DirectShow 濾波器開發人員使用 VMR
 ms.assetid: 0a038f0f-5fb6-44df-8263-03725c5bcb5f
-title: 使用 VMR 來進行 DirectShow 篩選器開發人員
+title: 針對 DirectShow 濾波器開發人員使用 VMR
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1ce548fd7c59a46a09fca8526292876c666ba94c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4ac188049468d38f6446f7805f70d68bef3f74646e22f5a7052efed311325e46
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104513672"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119903658"
 ---
-# <a name="using-the-vmr-for-directshow-filter-developers"></a>使用 VMR 來進行 DirectShow 篩選器開發人員
+# <a name="using-the-vmr-for-directshow-filter-developers"></a>針對 DirectShow 濾波器開發人員使用 VMR
 
 本主題包含下列幾節：
 

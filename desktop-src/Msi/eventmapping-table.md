@@ -4,12 +4,12 @@ ms.assetid: 63c9ba3e-aa8a-475b-8360-4aec78ed19db
 title: EventMapping 資料表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d6e9a7b5b4283b5d70102123dcb11e3e9e844221
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5f17380e3e91669926ef50532c36fec71f44d61eb2ed7273d053defe45fa874e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848851"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119963108"
 ---
 # <a name="eventmapping-table"></a>EventMapping 資料表
 

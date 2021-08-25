@@ -4,12 +4,12 @@ ms.assetid: f42227eb-a988-4eaa-9c18-b3ac270cd7a2
 title: 使用 TopoEdit 新增來源節點
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b12456e76f64d44d9c335dec1ea171c732e4040c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 10e85b1ec7eb15ceb3a7364c09c4e244d590b3d22e346f006c5653399e12e788
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970193"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119959578"
 ---
 # <a name="adding-source-nodes-with-topoedit"></a>使用 TopoEdit 新增來源節點
 

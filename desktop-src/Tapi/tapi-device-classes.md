@@ -4,12 +4,12 @@ ms.assetid: 859979a8-0d16-4b7b-b183-d6e30f3e034d
 title: TAPI 裝置類別
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 98c16f5baf81bdc66d5110da2a1ac5127237738e
-ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
+ms.openlocfilehash: 24f277e74012241139cf619c5229c4525711d93304f7321809461aff13416e62
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "112011361"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119975478"
 ---
 # <a name="tapi-device-classes"></a>TAPI 裝置類別
 
@@ -23,7 +23,7 @@ ms.locfileid: "112011361"
 
 
 
-| 裝置類別名稱                                      | Description                                       |
+| 裝置類別名稱                                      | 描述                                       |
 |--------------------------------------------------------|---------------------------------------------------|
 | [通訊](comm.md)                                       | 通訊埠。                              |
 | [通訊/datamodem](comm-datamodem.md)                   | 透過通訊埠的數據機。              |

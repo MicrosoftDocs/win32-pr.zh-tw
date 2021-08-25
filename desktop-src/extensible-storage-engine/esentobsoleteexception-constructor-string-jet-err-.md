@@ -20,12 +20,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 435a3db75cb09a47bccc311733b90fae30563c86
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 45aa611b9c91e548047a71466e2e86ca7a600ac7a9d2d24711b578f4399b8eef
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106979102"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119851704"
 ---
 # <a name="esentobsoleteexception-constructor-string-jet_err"></a>EsentObsoleteException (字串 JET_err) 的函式
 

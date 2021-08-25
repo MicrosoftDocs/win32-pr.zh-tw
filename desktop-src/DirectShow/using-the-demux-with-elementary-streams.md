@@ -4,12 +4,12 @@ ms.assetid: dd98aada-8309-428e-9609-2542195bc6ec
 title: 搭配使用 Demux 與基本資料流程
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e6b9004d6c99db96405797016b0d9854c96dae92
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dec805b4c93432c6532edaefac50e9bd15ad8fac5a7d9672fd358c66e57363fd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319535"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119964668"
 ---
 # <a name="using-the-demux-with-elementary-streams"></a>搭配使用 Demux 與基本資料流程
 

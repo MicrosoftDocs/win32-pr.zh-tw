@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: d3f32a37381714b06924cd2988ca9597e5312009
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 53b0029bc213fd01d051a44eb46df22ea0c8185e190673313e4f038b0ac181d2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106968453"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119958258"
 ---
 # <a name="eventmanifest-schema-simple-types"></a>EventManifest 架構簡單類型
 
@@ -22,7 +22,7 @@ ms.locfileid: "106968453"
 
 
 
-| 簡單型別                                                       | Description                                                                                                                                |
+| 簡單型別                                                       | 描述                                                                                                                                |
 |-------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
 | [**CountType**](eventmanifestschema-counttype-simpletype.md)     | 定義用來指定陣列中元素數目的計數類型。<br/>                                                |
 | [**CSymbolType**](eventmanifestschema-csymboltype-simpletype.md) | 定義有效的 C/c + + 符號名稱。<br/>                                                                                              |

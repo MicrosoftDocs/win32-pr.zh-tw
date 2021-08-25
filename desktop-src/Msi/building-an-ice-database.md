@@ -4,16 +4,16 @@ ms.assetid: 69151d5a-be6e-4947-862d-cea65306c536
 title: 建立 ICE 資料庫
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f51043aa9b3c1591fa3262492c117aba35f23d92
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0e078517f8942454320e3f743d7379bbfeb22a7c44afe635a8276568a56c27f1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848945"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119926988"
 ---
 # <a name="building-an-ice-database"></a>建立 ICE 資料庫
 
-選取 [適當的](internal-consistency-evaluators-ices.md) [驗證] 以進行驗證之後，開發人員必須將自訂動作一起收集到 ICE 資料庫中。 .Cub 檔案是標準 .msi 資料庫，其中只包含 Ices-003 和其所需的資料表。 無法安裝 .cub 檔案，而且只能用來儲存和提供 ICE 自訂動作的存取權。
+選取 [適當的](internal-consistency-evaluators-ices.md) [驗證] 以進行驗證之後，開發人員必須將自訂動作一起收集到 ICE 資料庫中。 .Cub 檔是標準的 .msi 資料庫，只包含 Ices-003 和其所需的資料表。 無法安裝 .cub 檔案，而且只能用來儲存和提供 ICE 自訂動作的存取權。
 
 .Cub 檔案包含下列資料庫資料表。
 

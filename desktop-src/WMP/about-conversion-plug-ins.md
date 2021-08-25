@@ -11,18 +11,18 @@ keywords:
 - 'ASF (Advanced Systems 格式) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ada6e2a8fa41b657a593dc03082f871503b53eba
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4331f2cc0cdf8726e2ba26e834c56546ee614e012a9dd6acdad56906d450b66e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671568"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119903548"
 ---
 # <a name="about-conversion-plug-ins"></a>關於轉換外掛程式
 
 您可以建立 Windows Media Player 外掛程式，將使用 Microsoft 未提供的技術所建立的數位媒體檔案轉換成 Advanced Systems 格式 (ASF) 。
 
-轉換外掛程式是元件物件模型 (COM) 物件，這些物件會封裝並散發為可執行檔 ( .exe) 檔。 在下列案例中，Windows Media Player 具現化轉換外掛程式以轉換協力廠商數位媒體格式：
+轉換外掛程式是元件物件模型 (COM) 物件，這些物件會封裝並散發為可執行檔 (.exe) 檔。 在下列案例中，Windows Media Player 具現化轉換外掛程式以轉換協力廠商數位媒體格式：
 
 -   數位媒體內容會從可攜式裝置複製到電腦上。
 -   使用 **IWMPMediaCollection：： add**，將數位媒體內容新增至程式庫。
@@ -44,12 +44,12 @@ ms.locfileid: "103671568"
 [**將中繼資料新增至轉換的檔案**](adding-metadata-to-converted-files.md)
 </dt> <dt>
 
-[**Windows Media Player 轉換外掛程式**](windows-media-player-conversion-plug-ins.md)
+[**Windows Media Player轉換外掛程式**](windows-media-player-conversion-plug-ins.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

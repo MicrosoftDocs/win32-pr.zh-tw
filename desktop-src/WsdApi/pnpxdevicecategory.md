@@ -4,12 +4,12 @@ ms.assetid: 1ca46000-4700-4326-8f49-1b9a22d45bfa
 title: PnPXDeviceCategory 元素
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8a08084d780c26d2f7fab902156939fd14a3e60c
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 42a34a3f63333a2d33266991c0e028e7d42a7244c962617974c9cc15e290d03c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107996585"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119897358"
 ---
 # <a name="pnpxdevicecategory-element"></a>PnPXDeviceCategory 元素
 
@@ -41,9 +41,9 @@ ms.locfileid: "107996585"
 
 ## <a name="remarks"></a>備註
 
-裝置也可以指定裝置子類別，以取得更具描述性的裝置類別。 例如，「Microsoft.windowsmobile.forms 攝影機. DigitalStillCamera MediaDevices. MusicPlayer」識別的裝置是具有相機和音樂播放機的 Microsoft Windows Mobile 裝置。 此裝置的主要裝置類別會是「電話」。
+裝置也可以指定裝置子類別，以取得更具描述性的裝置類別。 例如，「microsoft.windowsmobile.forms 攝影機. DigitalStillCamera MediaDevices. MusicPlayer」識別的裝置是具有相機和音樂播放機的 Microsoft Windows 行動裝置。 此裝置的主要裝置類別會是「電話」。
 
-若要指定一個以上的裝置類別，請以空格分隔類別。 例如，「印表機存放裝置」會識別主要類別為「印表機」和「儲存體」次要類別的裝置。
+若要指定一個以上的裝置類別，請以空格分隔類別。 例如，「印表機儲存體」會識別主要類別為「印表機」和「儲存體」次要類別的裝置。
 
 如果有 **PnPXDeviceCategory** 元素，則 [**至少一個裝載**](hosted.md) 的元素應該同時包含 [**PnPXHardwareId**](pnpxhardwareid.md) 和 [**PnPXCompatibleId**](pnpxcompatibleid.md) 專案。 同樣地，如果 **PnPXHardwareId** 和 **PnPXCompatibleId** 元素 **存在於裝載的元素中**，則 [**ThisModelMetadata**](thismodelmetadata.md)元素內至少應該有一個 **PnPXDeviceCategory** 元素。
 

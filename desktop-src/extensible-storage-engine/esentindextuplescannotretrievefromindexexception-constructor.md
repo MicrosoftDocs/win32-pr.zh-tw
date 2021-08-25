@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 8369b4e07437d3b749091a0b1c549188ddb6fc24
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cd2a715c3e0c40196117d679b6f8c4ddcaf1b809865867f169035ec90c9fe861
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193247"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119973108"
 ---
 # <a name="esentindextuplescannotretrievefromindexexception-constructor"></a>EsentIndexTuplesCannotRetrieveFromIndexException 函式
 

@@ -4,12 +4,12 @@ ms.assetid: c92aa519-647a-4cd9-b88e-b79be0116d05
 title: 使用影像將圖形平平圖
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 65c0b6e2ce39f5bf5c43b0352b8997202aa7e856
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fa0fc04439db21191ddc110859ae628e975d50bf617db3da63189859070766b0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112945"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119943768"
 ---
 # <a name="tiling-a-shape-with-an-image"></a>使用影像將圖形平平圖
 
@@ -40,13 +40,13 @@ stat = graphics.DrawRectangle(&blackPen, Rect(0, 0, 200, 200));
 
  
 
-## <a name="flipping-an-image-horizontally-while-tiling"></a>在並排平邊時水準翻轉影像
+## <a name="flipping-an-image-horizontally-while-tiling&quot;></a>在並排平邊時水準翻轉影像
 
 此範例使用75×75影像來填滿200×200的矩形。 Wrap 模式設定為水準翻轉影像。
 
 
 ```
-Image image(L"HouseAndTree.png");
+Image image(L&quot;HouseAndTree.png");
 TextureBrush tBrush(&image);
 Pen blackPen(Color(255, 0, 0, 0));
 stat = tBrush.SetWrapMode(WrapModeTileFlipX);
@@ -62,13 +62,13 @@ stat = graphics.DrawRectangle(&blackPen, Rect(0, 0, 200, 200));
 
  
 
-## <a name="flipping-an-image-vertically-while-tiling"></a>在並排平邊時垂直翻轉影像
+## <a name="flipping-an-image-vertically-while-tiling&quot;></a>在並排平邊時垂直翻轉影像
 
 此範例使用75×75影像來填滿200×200的矩形。 自動換行模式會設定為垂直翻轉影像。
 
 
 ```
-Image image(L"HouseAndTree.png");
+Image image(L&quot;HouseAndTree.png");
 TextureBrush tBrush(&image);
 Pen blackPen(Color(255, 0, 0, 0));
 stat = tBrush.SetWrapMode(WrapModeTileFlipY);
@@ -84,13 +84,13 @@ stat = graphics.DrawRectangle(&blackPen, Rect(0, 0, 200, 200));
 
  
 
-## <a name="flipping-an-image-horizontally-and-vertically-while-tiling"></a>在圖格時水準和垂直翻轉影像
+## <a name="flipping-an-image-horizontally-and-vertically-while-tiling&quot;></a>在圖格時水準和垂直翻轉影像
 
 此範例使用75×75影像來建立200×200矩形的磚。 Wrap 模式設定為水準和垂直翻轉影像。
 
 
 ```
-Image image(L"HouseAndTree.png");
+Image image(L&quot;HouseAndTree.png");
 TextureBrush tBrush(&image);
 Pen blackPen(Color(255, 0, 0, 0));
 stat = tBrush.SetWrapMode(WrapModeTileFlipXY);

@@ -1,17 +1,17 @@
 ---
 description: 查詢的藍牙父裝置。 未快取的查詢所需。
 ms.assetid: ded2fc28-2a7e-4913-9828-331539accb4b
-title: AepService 藍牙. TargetDevice
+title: AepService。藍牙。TargetDevice
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e1701d13e2ca488a9b4275f26022452c985fe1c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6fa5957adaafc6befef3d1a7ba13f2b500255b0c3023d5446c1d559222b533bc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192569"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119885588"
 ---
-# <a name="systemdevicesaepservicebluetoothtargetdevice"></a>AepService 藍牙. TargetDevice
+# <a name="systemdevicesaepservicebluetoothtargetdevice"></a>AepService。藍牙。TargetDevice
 
 查詢的藍牙父裝置。 未快取的查詢所需。
 

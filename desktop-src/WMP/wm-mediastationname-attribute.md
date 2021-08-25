@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e85c4ad81efc27628fbd8c1fe5d81ebf7d16339
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a745268bcc94538fccf513f7062f061040103474030f1ecadcc748625e19a5c6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106992888"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119900518"
 ---
 # <a name="wmmediastationname-attribute"></a>WM/MediaStationName 屬性
 
@@ -29,7 +29,7 @@ ms.locfileid: "106992888"
 
 ## <a name="remarks"></a>備註
 
-這個屬性的 Windows Media Format SDK 常數是 g \_ wszWMMediaStationName。
+這個屬性的 Windows 媒體格式 SDK 常數是 g \_ wszWMMediaStationName。
 
 若要判斷是否可以變更這個屬性的值，請使用 [isReadOnlyItem](media-isreadonlyitem.md) 方法。
 

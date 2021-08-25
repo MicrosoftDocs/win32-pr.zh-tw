@@ -4,12 +4,12 @@ ms.assetid: 2BCAA6F3-E08A-4387-BD48-038A7A3B1ADB
 title: 'CODECAPI_AVEncVideoContentType 屬性 (Codecapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 158a8344718f190ee100ae472353dc026db73fa4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4170d4545a0435e06b81e3112a72fef0ced3030dfbecc91bad7e70607b412597
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973992"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119959108"
 ---
 # <a name="codecapi_avencvideocontenttype-property"></a>CODECAPI \_ AVEncVideoContentType 屬性
 
@@ -37,8 +37,8 @@ ms.locfileid: "106973992"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 8 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                     |
-| 最低支援的伺服器<br/> | Windows Server 2012 \[ desktop app \| UWP 應用程式\]<br/>                           |
+| 最低支援的用戶端<br/> | Windows 8 \[桌面應用程式 \| UWP 應用程式\]<br/>                                     |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[桌面應用程式 \| UWP 應用程式\]<br/>                           |
 | 標頭<br/>                   | <dl> <dt>Codecapi。h</dt> </dl> |
 
 

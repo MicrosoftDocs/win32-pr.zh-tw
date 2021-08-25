@@ -4,16 +4,16 @@ description: Input-Active 用戶端
 ms.assetid: b46e91d3-eca7-4a4a-b1ce-27b5e6ad92a5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3223ddc7bb412b333d628f93cc56b27efd0abb7a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9555b614a30e73df0cc7d1d81cd8192480d49261a32e8be8d164bdb277e4c0f7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104301504"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119943958"
 ---
 # <a name="input-active-client"></a>Input-Active 用戶端
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 因為多個用戶端應用程式可以共用相同的字元，而且因為多個用戶端可以同時使用不同的字元，所以伺服器會將一個用戶端指定為 *輸入主動* 用戶端，並只將滑鼠和語音輸入傳送至該用戶端應用程式。 這可維護使用者輸入的有條理管理，讓適當的用戶端回應輸入。
 
@@ -23,9 +23,9 @@ ms.locfileid: "104301504"
 
 如果有多個用戶端共用相同的字元，伺服器會將其作用中 *客戶* 端指定為輸入-主動用戶端。 現用字元是用戶端順序的最上層。 您可以使用 [**啟動**](activate-method.md) 方法將用戶端設定為作用中或非使用中的用戶端。 您也可以使用 **啟動** 方法，明確地將用戶端輸入設為主動;但為了避免中斷其他用戶端的字元，您應該只在用戶端應用程式為使用中時才這樣做。 例如，如果使用者按一下應用程式的視窗，啟動您的應用程式，您可以呼叫 **Activate** 方法來接收和處理導向字元的滑鼠和語音輸入。
 
- 
+ 
 
- 
+ 
 
 
 

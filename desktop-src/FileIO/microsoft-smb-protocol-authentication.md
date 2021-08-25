@@ -4,12 +4,12 @@ ms.assetid: 985aa9fe-af3f-406d-920d-7fd7d0d58674
 title: Microsoft SMB 通訊協定驗證
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 531e863b2a241bc861714980e6c5617e7d94e264
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7b924b225a129a88d71d7906d815d330c74195252e40c9bc798efdb7df1948f4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847967"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119914678"
 ---
 # <a name="microsoft-smb-protocol-authentication"></a>Microsoft SMB 通訊協定驗證
 

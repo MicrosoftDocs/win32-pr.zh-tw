@@ -4,12 +4,12 @@ ms.assetid: db973b41-1e5c-4bc8-921d-5e9312eb21cb
 title: 'ASF 承載延伸模組 Guid (Wmcontainer .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bb7dbd27212c8f4812360ba22f89a717659307f6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6478c024d3e79b0f8035f03b6e893e2e5d0308037242f9ac3013450b57f83242
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510827"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119959568"
 ---
 # <a name="asf-payload-extension-guids"></a>ASF 承載延伸模組 Guid
 
@@ -34,8 +34,8 @@ ms.locfileid: "104510827"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                     |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                     |
 | 標頭<br/>                   | <dl> <dt>Wmcontainer。h</dt> </dl> |
 
 

@@ -4,12 +4,12 @@ ms.assetid: f77b4c06-46a5-4912-adb0-0fa8cb7769aa
 title: 'EC_STATE_CHANGE (Dshow) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bf64cc62ba15f77370e52821c3335f9a22f573d3
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e2b476c923f0b812196a5697444433ea0be65b8d3f46bd0388261b2a67a66881
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106989789"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119905728"
 ---
 # <a name="ec_state_change"></a>EC \_ 狀態 \_ 變更
 
@@ -38,7 +38,7 @@ ms.locfileid: "106989789"
 沒有預設動作。 此事件不會傳送至應用程式。
 
 > [!Note]  
-> 當圖形關閉時，就會發生此事件。 如果您覆寫預設動作並接聽此事件，您必須特別小心，不要在釋出篩選圖形管理員之後處理事件。 否則，您的應用程式可能會參考不正確 [**IMediaEvent**](/windows/desktop/api/Control/nn-control-imediaevent) 指標和損毀。 如需詳細資訊，請參閱 [回應事件](responding-to-events.md)。
+> 當圖形關閉時，就會發生此事件。 如果您覆寫預設動作並接聽此事件，則在釋出篩選 Graph 管理員之後，您必須特別小心不要處理事件。 否則，您的應用程式可能會參考不正確 [**IMediaEvent**](/windows/desktop/api/Control/nn-control-imediaevent) 指標和損毀。 如需詳細資訊，請參閱 [回應事件](responding-to-events.md)。
 
  
 

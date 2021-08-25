@@ -4,12 +4,12 @@ ms.assetid: 1253a9c7-b440-4ff2-b68c-c52b9b42a58b
 title: CounterData
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2e4604ce9886a6c4e3caa847dcf41a2d50b46d98
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2b352b9ec6bde6e644d80e7556ac46211212b66b4d92601deedaecaa5dd07344
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103849295"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120033988"
 ---
 # <a name="counterdata"></a>CounterData
 

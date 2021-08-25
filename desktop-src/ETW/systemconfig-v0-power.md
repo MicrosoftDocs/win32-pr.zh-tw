@@ -20,12 +20,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: ab268e719374906e149dc9c1b733487f986e8308
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 588622fb010cf9ca43f7253adc269e86b1755e5e459cbd6320a28d1d5416706a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108105936"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119914338"
 ---
 # <a name="systemconfig_v0_power-class"></a>SystemConfig \_ V0 \_ Power 類別
 
@@ -197,7 +197,7 @@ True 表示系統支援睡眠狀態 S5。
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
 | 最低支援的用戶端<br/> | 都不支援<br/>                            |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/> |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/> |
 
 
 

@@ -1,22 +1,22 @@
 ---
-title: 已移植至 Windows 的程式
-description: 下列程式是在 AUXDEMO 中使用相同 OpenGL 程式碼的 Windows OpenGL 程式。Platform SDK 提供的 C 範例程式。 將此程式與 X Window 系統 OpenGL 程式中的 X Window System OpenGL 程式進行比較。
+title: 程式已移植到 Windows
+description: 下列程式是在 AUXDEMO 中使用相同 opengl 程式碼的 Windows opengl 程式。Platform SDK 提供的 C 範例程式。 將此程式與 X Window 系統 OpenGL 程式中的 X Window System OpenGL 程式進行比較。
 ms.assetid: c42dce45-8f9e-4920-ac3d-ff7549aae3e9
 keywords:
 - 移植至 OpenGL、sample
 - OpenGL 移植，範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d0b86851ebc6acd5e61997b7e2efae662b11554
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1f8a90e205dbebc8ff4228e3114080b0e535cc6ecdcb6ebbd40738d6afc363fa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103932509"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119888028"
 ---
-# <a name="the-program-ported-to-windows"></a>已移植至 Windows 的程式
+# <a name="the-program-ported-to-windows"></a>程式已移植到 Windows
 
-下列程式是在 AUXDEMO 中使用相同 OpenGL 程式碼的 Windows OpenGL 程式。Platform SDK 提供的 C 範例程式。 將此程式與 [x Window 系統 Opengl 程式](an-x-window-system-opengl-program.md)中的 x Window system opengl 程式進行比較。
+下列程式是在 AUXDEMO 中使用相同 opengl 程式碼的 Windows opengl 程式。Platform SDK 提供的 C 範例程式。 將此程式與 [x Window 系統 Opengl 程式](an-x-window-system-opengl-program.md)中的 x Window system opengl 程式進行比較。
 
 
 ```C++
@@ -349,9 +349,9 @@ GLvoid drawScene(GLvoid)
 
 
 
- 
+ 
 
- 
+ 
 
 
 

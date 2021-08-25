@@ -1,5 +1,5 @@
 ---
-description: Win32 \_ LogicalProgramGroup&\# 8194;WMI 類別代表執行 Windows 的電腦系統中的程式群組。 例如，「配件」或「啟動」。
+description: Win32 \_ LogicalProgramGroup&\# 8194;WMI 類別代表執行 Windows 之電腦系統中的程式群組。 例如，「配件」或「啟動」。
 ms.assetid: e05b512d-92ab-4864-b8df-f4a8b66761c9
 ms.tgt_platform: multiple
 title: Win32_LogicalProgramGroup 類別
@@ -21,16 +21,16 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: db7c7484489ecbc87e908dc6eb1c3de156cda665
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 9b012966b61f018656b61134b4f889b2ba38ac70ca7e56751c332b1eb16a1564
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847482"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119973328"
 ---
 # <a name="win32_logicalprogramgroup-class"></a>Win32 \_ LogicalProgramGroup 類別
 
-**Win32 \_ LogicalProgramGroup** [WMI 類別](/windows/desktop/WmiSdk/retrieving-a-class)代表在執行 Windows 的電腦系統中的程式群組。 例如，「配件」或「啟動」。
+**Win32 \_ LogicalProgramGroup** [WMI 類別](/windows/desktop/WmiSdk/retrieving-a-class)代表執行 Windows 之電腦系統中的程式群組。 例如，「配件」或「啟動」。
 
 下列語法已經過受管理物件格式 (MOF) 程式碼簡化，並包含所有已繼承的屬性。 屬性和方法是以字母順序排列，而不是 MOF 順序。
 
@@ -282,7 +282,7 @@ Windows 程式群組的名稱。 程式群組會實作為 Win32 中的檔案資�
 
 **Win32 \_ LogicalProgramGroup** 類別衍生自 [**win32 \_ ProgramGroupOrItem**](win32-programgrouporitem.md)。
 
-使用這個類別的呼叫進程必須在登錄所在的電腦上具有「 **SE \_ 還原 \_ 名稱** 」許可權。 例如，如果您在本機電腦上列舉此類別，您的應用程式執行所在的帳戶必須具有此許可權。 如需詳細資訊，請參閱 [執行特殊許可權作業](/windows/desktop/WmiSdk/executing-privileged-operations)。
+使用這個類別的呼叫進程必須在登錄所在的電腦上具有 **SE \_ RESTORE \_ NAME** 許可權。 例如，如果您在本機電腦上列舉此類別，您的應用程式執行所在的帳戶必須具有此許可權。 如需詳細資訊，請參閱 [執行特殊許可權作業](/windows/desktop/WmiSdk/executing-privileged-operations)。
 
 ## <a name="requirements"></a>規格需求
 

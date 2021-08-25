@@ -4,12 +4,12 @@ ms.assetid: 68750820-e931-41c2-9d12-89ab83b4b97e
 title: 'MFPKEY_CHECKDATACONSISTENCY2P 屬性 (Wmcodecdsp) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: abc706712ef1e8bff36a118031fde155bb9bda31
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7a1cef9c8c2a8e4fcd536ce73653e80e62282b40734cc695493d6cba4187c8f6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106982507"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119954718"
 ---
 # <a name="mfpkey_checkdataconsistency2p-property"></a>MFPKEY \_ CHECKDATACONSISTENCY2P 屬性
 

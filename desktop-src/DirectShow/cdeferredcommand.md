@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 8d3db3f35b5589a6cd17791d72aa9931124ccfbb
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 3413deb3c606177c937aef72a8437769dc2a97acdcbee97200880c96f36f9fc7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104109701"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119910040"
 ---
 # <a name="cdeferredcommand-class"></a>CDeferredCommand 類別
 
@@ -31,7 +31,7 @@ ms.locfileid: "104109701"
 
 
 
-| 受保護的資料成員                                        | Description                                                                                                             |
+| 受保護的資料成員                                        | 描述                                                                                                             |
 |---------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | m \_ bStream                                                    | [**資料流程時間**](stream-time.md)或呈現時間的旗標。 傳遞給叫用的方法。                   |
 | m \_ 分派                                                   | 存取 **ITypeInfo** 介面。                                                                                   |
@@ -44,7 +44,7 @@ ms.locfileid: "104109701"
 | m \_ pvarResult                                                 | 來自已叫用方法的結果資訊（如果有的話）。                                                                 |
 | m \_ 時間                                                       | 執行命令的時間。                                                                                  |
 | m \_ wFlags                                                     | 指定調用內容的旗標。                                                                         |
-| 成員函數                                              | Description                                                                                                             |
+| 成員函數                                              | 描述                                                                                                             |
 | [**CDeferredCommand**](cdeferredcommand-cdeferredcommand.md) | 結構 **CDeferredCommand** 物件。                                                                               |
 | [**GetFlags**](cdeferredcommand-getflags.md)                 | 抓取與延後命令相關聯的內容旗標。                                                       |
 | [**GetIID**](cdeferredcommand-getiid.md)                     | 抓取將在其上執行方法之介面 (IID) 的介面識別碼。                              |
@@ -54,7 +54,7 @@ ms.locfileid: "104109701"
 | [**GetTime**](cdeferredcommand-gettime.md)                   | 抓取方法將執行的時間。                                                                         |
 | [**調用**](cdeferredcommand-invoke.md)                     | 提供物件所公開之方法和屬性的存取權。                                                         |
 | [**IsStreamTime**](cdeferredcommand-isstreamtime.md)         | 指定是否要在資料流程時間或呈現時間執行命令。                                         |
-| IDeferredCommand 方法                                      | Description                                                                                                             |
+| IDeferredCommand 方法                                      | 描述                                                                                                             |
 | [**取消**](cdeferredcommand-cancel.md)                     | 取消先前已排入佇列的 [**CDeferredCommand：： Invoke**](cdeferredcommand-invoke.md) 要求。                        |
 | [**信賴度**](cdeferredcommand-confidence.md)             | 目前未實作。                                                                                              |
 | [**延期**](cdeferredcommand-postpone.md)                 | 為先前佇列的命令指定新的呈現時間。                                                      |

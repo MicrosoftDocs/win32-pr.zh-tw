@@ -4,12 +4,12 @@ ms.assetid: 8284ab41-dfac-4da2-b101-6968a43b15d7
 title: 'InkEdit： KeyPress 事件 (筆跡 .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7e49264f82b2cfe3c6998666339f08340a540791
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 713100edeae3ce6b950433afb73d13f40aefb291047e98984cbd6908dde3ce2b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106990305"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119935097"
 ---
 # <a name="inkeditkeypress-event"></a>InkEdit 的按鍵事件
 
@@ -51,7 +51,7 @@ HRESULT KeyPress(
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 Windows XP Tablet PC Edition \[ 桌面應用程式\]<br/>                                                 |
+| 最低支援的用戶端<br/> | Windows僅限 XP Tablet PC Edition \[ 桌面應用程式\]<br/>                                                 |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                                     |
 | 標頭<br/>                   | <dl> <dt>筆跡 (也需要筆跡 \_ c) </dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>InkEd.dll</dt> </dl>                          |

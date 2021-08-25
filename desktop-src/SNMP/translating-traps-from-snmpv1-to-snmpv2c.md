@@ -4,12 +4,12 @@ description: 當 Microsoft WinSNMP 的執行從 SNMPv1 架構下的實體接收�
 ms.assetid: 472f67ba-05d5-46f7-a2f1-1cef6182574e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d36870bda9b434bcc19f42332f2751020689591
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f70ddbdfb779f6b06f8ed26490c6fabd2421ae96f0006b4af5b7f1ab18f7d5d2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839631"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119885858"
 ---
 # <a name="translating-traps-from-snmpv1-to-snmpv2c"></a>將 SNMPv1 的陷阱翻譯為 SNMPv2C
 
@@ -19,9 +19,9 @@ WinSNMP 應用程式可以檢查變數系結清單中的最後一個變數系結
 
 如需詳細資訊，請參閱 [管理陷阱和通知](managing-traps-and-notifications.md)。
 
- 
+ 
 
- 
+ 
 
 
 

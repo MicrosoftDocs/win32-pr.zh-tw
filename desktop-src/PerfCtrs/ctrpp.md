@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: eacfbb83abd56becc579c6b9bbaedacda96f94b4
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: 8c55e9f3b95d99feabac92574a4be59dacb8ffd7f3b55be07c2bd8fec576da86
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113119103"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120033928"
 ---
 # <a name="ctrpp"></a>CTRPP
 
@@ -38,7 +38,7 @@ ctrpp -o codeFile -rc rcFile [-legacy] [-MemoryRoutines] [-NotificationCallback]
 |**-前置** 詞 *前置* 詞|指定在產生的標頭檔中定義的變數和函數所使用的前置詞。
 |**-NotificationCallback**|變更 [**CounterInitialize**](counterinitialize.md) 函式的預設簽章，以包含用來指定 [*ControlCallback*](/windows/desktop/api/Perflib/nc-perflib-perflibrequest)、 [*AllocateMemory*](/windows/desktop/api/Perflib/nc-perflib-perf_mem_alloc)和 [*FreeMemory*](/windows/desktop/api/Perflib/nc-perflib-perf_mem_free) 回呼函數名稱的參數。 這個引數的效果與在 `callback` [**provider**](/windows/desktop/PerfCtrs/performance-counters-provider--counters--element) 元素中包含屬性相同。
 |**-遷移** *outputFile*|將 `.h` `.rc` *inputFile* 資訊清單升級為最新版本，並將其儲存至 *outputFile*，而不是產生和檔案。 此參數不能搭配其他參數使用。 使用方式：`CTRPP -migrate NewFile.man OldFile.man`
-|**-回溯相容性**     |已 **淘汰：** Windows 7 已新增對核心模式提供者的支援。 根據預設，CTRPP 針對核心模式提供者所產生的程式碼將會與舊版的 Windows 不相容 (驅動程式因為缺少 api) 而無法載入 `Pcw***` 。 設定 `-BackCompat` 為啟用與舊版 Windows 的相容性。 驅動程式會以動態方式載入必要的 Api，而產生的程式碼會在 Api 無法使用時，以無訊息方式停用提供者。
+|**-回溯相容性**     |已 **淘汰：** Windows 7 中新增了核心模式提供者的支援。 根據預設，CTRPP 針對核心模式提供者所產生的程式碼將會與舊版 Windows 不相容 (驅動程式會因為缺少 api) 而無法載入 `Pcw***` 。 設定 `-BackCompat` 以啟用與舊版 Windows 的相容性。 驅動程式會以動態方式載入必要的 Api，而產生的程式碼會在 Api 無法使用時，以無訊息方式停用提供者。
 |**-MemoryRoutines** |已 **淘汰：** 搭配參數使用時 `-Legacy` ，會在產生的程式碼中包含記憶體常式的範本。 否則，此引數與參數的效果相同 `-NotificationCallback` 。
 |**-舊版**         |已 **淘汰：**`*.h` `*.c` `*.rc` 使用 Windows Vista 程式碼範本產生、、和檔案 `*_r.h` (產生 PerfAutoInitialize 和 PerfAutoCleanup，而不是 CounterInitialize 和 CounterCleanup) 。 這個參數可以搭配 **-MemoryRoutines** 和 **-NotificationCallback** 使用，但不能搭配任何其他參數使用。 請勿使用 **-o** 或 **-rc** 參數搭配此參數。 產生的檔案會根據資訊清單的名稱命名，並且會寫入包含資訊清單的目錄。 使用方式：`CTRPP -legacy OldFile.man`
 
@@ -102,5 +102,5 @@ CTRPP 工具會產生 `.h` C/c + + 程式碼檔案。 如果提供者資訊清�
 
 | 需求             | 值 |
 |-------------------------|-------|
-| 最低支援的用戶端| \[僅限 Windows Vista 桌面應用程式\]
-| 最低支援的伺服器| 僅限 Windows Server 2008 \[ desktop 應用程式\]
+| 最低支援的用戶端| Windows\[僅限 Vista desktop 應用程式\]
+| 最低支援的伺服器| Windows\[僅限 Server 2008 desktop 應用程式\]

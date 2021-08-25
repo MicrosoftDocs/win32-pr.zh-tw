@@ -22,12 +22,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 65a0f1c9bf7905504ee3aa2ba6fff7e9804f4747
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 41361959c56810036b8ca2e17d338e2ff1d3433c6e0384fd168a2d21d6e0e0f5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466729"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119868448"
 ---
 # <a name="win32_rdcentralpublishedfileassociation-class"></a>Win32 \_ RDCentralPublishedFileAssociation 類別
 
@@ -87,7 +87,7 @@ class Win32_RDCentralPublishedFileAssociation
 限定詞：索引 [**鍵**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
-延伸 (的名稱，例如 .txt) 。
+延伸模組的名稱 (例如 .txt) 。
 
 </dd> <dt>
 

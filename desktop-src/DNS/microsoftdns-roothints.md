@@ -17,12 +17,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 15d69b737efaeb18058151b3e785270775d8af0d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 050da9acb1d3865fb490035b6de57fcc1279a45b6f9d78c57df305993d590c02
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104159"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119912998"
 ---
 # <a name="microsoftdns_roothints-class"></a>MicrosoftDNS \_ RootHints 類別
 

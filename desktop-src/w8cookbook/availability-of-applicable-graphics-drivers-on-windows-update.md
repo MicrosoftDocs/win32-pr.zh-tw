@@ -9,18 +9,18 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 208e984199c8de63dfa49133a255865035c84bdd
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 906894f317a86d851501e913e3c9491dc1f83336f7f80eefa660ee43d3510b18
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106968220"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119935428"
 ---
 # <a name="availability-of-applicable-graphics-drivers-on-windows-update"></a>Windows Update 上適用的圖形驅動程式可用性
 
 這些驅動程式在 Windows Update (WU) 的可用性將會決定是否要自動提供使用者從 Windows 7、Windows 8 或 Windows 8.1 升級為 Windows 10。 如果硬體掃描顯示電腦上的圖形介面卡 Windows Update 沒有可用的圖形驅動程式，則不會提供使用者更新的 Windows 10 OS。 不過，使用者仍然可以透過其他來源取得 Windows 10，並手動執行升級。
 
-有些使用者不確定它們在其他人的情況下未提供升級的原因，即使 Upgrade Advisor 解釋沒有任何圖形驅動程式可供他們的硬體使用也是一樣。
+某些使用者不確定他們在其他人的情況下未提供升級的原因，即使升級建議程式解釋沒有圖形驅動程式可供他們的硬體使用也是一樣。
 
 此外，某些使用者強制進行升級，然後發現其圖形功能和效能因為缺乏硬體驅動程式而發生。
 
@@ -34,13 +34,13 @@ ms.locfileid: "106968220"
 
 ## <a name="solutions"></a>方案
 
-Ihv 和 Oem 將其 Windows 10 graphics 驅動程式上傳至適用于任何想要支援之硬體的 WU 是很重要的。
+ihv 和 oem 將其 Windows 10 graphics 驅動程式上傳至適用于任何想要支援之硬體的 WU 是很重要的。
 
 請注意，已到達存留 (EOL) 的硬體在 WU 上可能沒有驅動程式。 在此情況下沒有解決方案-使用者必須選擇上述 [緩和措施] 下的其中一個選項。
 
- 
+ 
 
- 
+ 
 
 
 

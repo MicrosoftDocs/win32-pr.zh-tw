@@ -4,12 +4,12 @@ ms.assetid: b5fccaa8-03c7-4998-be46-82fc6aeb308b
 title: WPD_CONTENT_TYPE_CALENDAR
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d202b21c0ac690c4a0b9621b876f6926c4c0efe5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 819955c0554269deb26c6b6f7f7f3c74ee8715e2dca804b5d3d554b9657be524
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975232"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119927868"
 ---
 # <a name="wpd_content_type_calendar"></a>WPD \_ 內容 \_ 類型行事 \_ 曆
 
@@ -55,7 +55,7 @@ ms.locfileid: "106975232"
 
 
 
-| 資源名稱                                          | 必要或選擇性                             | Description        |
+| 資源名稱                                          | 必要或選擇性                             | 描述        |
 |--------------------------------------------------------|--------------------------------------------------|--------------------|
 | [**WPD \_ 資源 \_ 預設**](wpd-resource-default.md) | 如果物件是由二進位資料所支援，則為必要項。 | 包含資料。 |
 

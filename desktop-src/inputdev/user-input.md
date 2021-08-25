@@ -7,12 +7,12 @@ keywords:
 - 捕獲使用者輸入，關於
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 27746a2975e5e12ee75fd9311887b363a35470e6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: dc7ed1d3015ef63047570b1714b07f0eef8be89e67c5bc4d84a74a66f578544e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106966374"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119888878"
 ---
 # <a name="keyboard-and-mouse-input"></a>鍵盤和滑鼠輸入
 
@@ -22,7 +22,7 @@ ms.locfileid: "106966374"
 
 
 
-| Name                                 | 描述                                                                                                                             |
+| 名稱                                 | 描述                                                                                                                             |
 |--------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
 | [鍵盤輸入](keyboard-input.md) | 討論系統如何產生鍵盤輸入，以及應用程式如何接收和處理該輸入。<br/>                  |
 | [滑鼠輸入](mouse-input.md)       | 討論系統如何提供滑鼠輸入給您的應用程式，以及應用程式如何接收和處理該輸入。<br/> |

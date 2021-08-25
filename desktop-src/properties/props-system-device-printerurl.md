@@ -4,12 +4,12 @@ ms.assetid: F8C27A2B-A138-4efd-A843-78668643D1DB
 title: PrinterURL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5ba880ae7f838de9de63a00d85cf3b102be44245
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 832eb7686753f0435289c76d11b0996da1cca1f108a24bd80640b2835310c93d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192586"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119946518"
 ---
 # <a name="systemdeviceprinterurl"></a>PrinterURL
 

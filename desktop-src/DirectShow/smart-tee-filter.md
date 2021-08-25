@@ -4,12 +4,12 @@ ms.assetid: 25bfbd62-b6be-4d1f-aa4c-77798bbb9fc9
 title: Smart t 篩選
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c52077066f69e50fbb5218012a402a8d556c15c1
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: 50a8e829d78658b867d3884240250c10d10a65c7cd309f109fe29b023c726518
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107909296"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119964991"
 ---
 # <a name="smart-tee-filter"></a>Smart t 篩選
 
@@ -48,7 +48,7 @@ ms.locfileid: "107909296"
 
 <dl> <dt>
 
-[DirectShow 篩選](directshow-filters.md)
+[DirectShow過濾 器](directshow-filters.md)
 </dt> </dl>
 
  

@@ -4,12 +4,12 @@ ms.assetid: 695d08f4-ba5c-4a5f-a2ad-481a8ede49ab
 title: 資源配置器資源配置進程
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a12cb22abd6d4d825f1ca048495b032a77fe216
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: a34e91802b001bdb8a1af3a933d458c4e9b86b6e3bcd2eb40646e9b64a2e2e14
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104187709"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119953818"
 ---
 # <a name="resource-dispenser-resource-allocation-process"></a>資源配置器資源配置進程
 
