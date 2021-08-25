@@ -1,5 +1,5 @@
 ---
-description: Wia 物件的 Create 方法會連接到指定的 Windows 映像取得 (WIA) 裝置，並傳回代表該裝置的專案物件。
+description: wia 物件的 Create 方法會連線至指定的 Windows 映像取得 (Wia) 裝置，並傳回代表該裝置的專案物件。
 ms.assetid: c33c635a-159c-4ac3-8ad5-6f21a1986702
 title: Wia. 建立方法
 ms.topic: reference
@@ -14,16 +14,16 @@ api_type:
 - COM
 api_location:
 - Wiascr.dll
-ms.openlocfilehash: d22d45e473cec1d5186c300f97cbdb4661237ab9
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: a4056354992010d3d213ed619b7460e12c800630ca38fb17acb6d7677fe842a0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109841329"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119814048"
 ---
 # <a name="wiacreate-method"></a>Wia. 建立方法
 
-[**Wia**](-wia-wia.md)物件的 **Create** 方法會連接到指定的 WINDOWS 映射取得 (Wia) 裝置，並傳回代表該裝置的 [**專案**](-wia-item.md)物件。
+[**wia**](-wia-wia.md)物件的 **Create** 方法會連線至指定的 Windows 映像取得 (Wia) 裝置，並傳回代表該裝置的 [**專案**](-wia-item.md)物件。
 
 ## <a name="syntax"></a>語法
 
@@ -126,8 +126,8 @@ Set objWia = objWia.Create(Nothing)
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 windows 2000 Professional、Windows XP \[ desktop 應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                          |
+| 最低支援的用戶端<br/> | Windows 2000 Professional，僅 Windows XP \[ desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                          |
 | DLL<br/>                      | <dl> <dt>Wiascr.dll (4.90 版或更新版本) </dt> </dl> |
 
 

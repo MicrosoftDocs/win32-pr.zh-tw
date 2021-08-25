@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 316baa3cb1cf74a86f3adada02451deede6a798c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: da3be21c9af1d39002d1889ecdbf52547ff8a4ee5659dfe8c4b97a4f72e2e569
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936597"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119890038"
 ---
 # <a name="jet_tablecreatecbtyp-property"></a>JET_TABLECREATE cbtyp 屬性
 

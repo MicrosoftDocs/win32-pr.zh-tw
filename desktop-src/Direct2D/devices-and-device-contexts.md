@@ -8,16 +8,16 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.custom: seodec18
-ms.openlocfilehash: 2858861956a40bf969309be474105052e4692cde
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 735ad81a5911b16c159ffb8c63173421a55295e20e34090eb483065e1a7d311c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104557791"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119832991"
 ---
 # <a name="how-to-render-by-using-a-direct2d-device-context"></a>如何使用 Direct2D 裝置內容呈現
 
-在本主題中，您將瞭解如何在 Windows 8 中建立 [Direct2D](./direct2d-portal.md) [**裝置內容**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1devicecontext) 。 如果您要使用 Direct2D 開發 Windows Store 應用程式或傳統型應用程式，這項資訊適用于您。 本主題說明 Direct2D 裝置內容物件的用途、如何建立該物件，以及如何轉譯和顯示 Direct2D 基本和影像的逐步指南。 您也將瞭解如何切換轉譯目標，以及如何將效果新增至您的應用程式。
+在本主題中，您將瞭解如何在 Windows 8 中建立 [Direct2D](./direct2d-portal.md) [**裝置內容**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1devicecontext)。 如果您要使用 Direct2D 來開發 Windows Store 應用程式或桌面應用程式，這項資訊適用于您。 本主題說明 Direct2D 裝置內容物件的用途、如何建立該物件，以及如何轉譯和顯示 Direct2D 基本和影像的逐步指南。 您也將瞭解如何切換轉譯目標，以及如何將效果新增至您的應用程式。
 
 -   [什麼是 Direct2D 裝置？](#what-is-a-direct2d-device)
 -   [什麼是 Direct2D 裝置內容？](#what-is-a-direct2d-device-context)
@@ -37,13 +37,13 @@ ms.locfileid: "104557791"
 
 ## <a name="rendering-with-direct2d-on-windows-8"></a>在 Windows 8 上使用 Direct2D 轉譯
 
-在 Windows 7 及更早版本上，您可以使用 [**ID2D1HwndRenderTarget**](/windows/win32/api/d2d1/nn-d2d1-id2d1hwndrendertarget) 或其他轉譯目標介面，轉譯成視窗或表面。 從 Windows 8 開始，我們不建議使用依賴 **ID2D1HwndRenderTarget** 等介面的方法來轉譯，因為它們無法與 Windows Store 應用程式搭配使用。 如果您想要製作桌面應用程式，並仍利用 **裝置內容的** 其他功能，您可以使用 [**裝置內容**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1devicecontext)轉譯為 Hwnd。 不過，在具有 [Direct2D](./direct2d-portal.md)的 Windows Store 應用程式中轉譯內容時，需要 **裝置** 內容。
+在 Windows 7 及更早版本上，您可以使用 [**ID2D1HwndRenderTarget**](/windows/win32/api/d2d1/nn-d2d1-id2d1hwndrendertarget)或其他轉譯目標介面，以轉譯為視窗或表面。 從 Windows 8 開始，我們不建議使用依賴 **ID2D1HwndRenderTarget** 等介面的方法來轉譯，因為它們無法與 Windows Store 應用程式搭配使用。 如果您想要製作桌面應用程式，並仍利用 **裝置內容的** 其他功能，您可以使用 [**裝置內容**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1devicecontext)轉譯為 Hwnd。 不過，使用 [Direct2D](./direct2d-portal.md)在 Windows Store 應用程式中轉譯內容時，需要 **裝置** 內容。
 
 ## <a name="why-use-a-device-context-to-render"></a>為何要使用裝置內容呈現？
 
--   您可以針對 Windows Store 應用程式呈現。
+-   您可以針對 Windows Store 應用程式轉譯。
 -   您可以在轉譯之前、期間和之後隨時變更轉譯目標。 裝置內容可確保繪製方法的呼叫會依序執行，並在您切換轉譯目標時套用它們。
--   您可以使用一種以上的視窗類型搭配裝置內容。 您可以使用 [**裝置內容**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1devicecontext) 和 [**DXGI 交換鏈**](/windows/desktop/api/dxgi1_2/nn-dxgi1_2-idxgiswapchain1) ，直接轉譯為 [**windows：： ui：： Core：： COREWINDOW**](/uwp/api/Windows.UI.Core.CoreWindow) 或 [**windows：： ui：： XAML：： SwapChainBackgroundPanel**](/uwp/api/Windows.UI.Xaml.Controls.SwapChainBackgroundPanel)。
+-   您可以使用一種以上的視窗類型搭配裝置內容。 您可以使用 [**裝置內容**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1devicecontext)和 [**DXGI 交換鏈**](/windows/desktop/api/dxgi1_2/nn-dxgi1_2-idxgiswapchain1)，直接轉譯成 [**Windows：： ui：： Core：： CoreWindow**](/uwp/api/Windows.UI.Core.CoreWindow)或 [**Windows：： ui：： XAML：： SwapChainBackgroundPanel**](/uwp/api/Windows.UI.Xaml.Controls.SwapChainBackgroundPanel)。
 -   您可以使用 [Direct2D](./direct2d-portal.md) [**裝置內容**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1devicecontext) 來建立 [Direct2D 效果](effects-overview.md) ，並將影像效果或效果圖形的輸出轉譯成轉譯目標。
 -   您可以有多個 [**裝置**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1devicecontext)內容，這有助於改善執行緒應用程式中的效能。 如需詳細資訊，請參閱 [多執行緒 Direct2D 應用程式](multi-threaded-direct2d-apps.md) 。
 -   [**裝置內容**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1devicecontext)與 direct3d 緊密交互操作，讓您更容易存取 direct3d 選項。
@@ -59,7 +59,7 @@ ms.locfileid: "104557791"
 > [!Note]  
 > 這段程式碼假設您已有 [**ID2D1Factory1**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1factory1) 物件。如需詳細資訊，請參閱 [**ID2D1Factory 參考頁面**](/windows/win32/api/d2d1/nn-d2d1-id2d1factory)。
 
- 
+ 
 
 
 ```C++
@@ -132,7 +132,7 @@ ms.locfileid: "104557791"
         > [!Note]  
         > [Direct3D](/windows/desktop/direct3d11/atoc-dx-graphics-direct3d-11) 會搜尋您的清單，直到找到主機系統所支援的功能層級。
 
-         
+         
 
     -   您可以使用 [**D3D11CreateDevice**](/windows/desktop/api/d3d11/nf-d3d11-d3d11createdevice) 函式來建立 [**ID3D11Device**](/windows/desktop/api/d3d11_1/nn-d3d11_1-id3d11device1) 物件，此函式也會傳回 [**>id3d11devicecoNtext**](/windows/desktop/api/d3d11_1/nn-d3d11_1-id3d11devicecontext1) 物件，但此範例不需要該物件。
 
@@ -230,15 +230,15 @@ ms.locfileid: "104557791"
 
 1.  配置一個 [**DXGI \_ 交換 \_ 鏈 \_ DESC1**](/windows/desktop/api/dxgi1_2/ns-dxgi1_2-dxgi_swap_chain_desc1) 結構，並定義 [**交換鏈**](/windows/desktop/api/dxgi/nn-dxgi-idxgiswapchain)的設定。
 
-    這些設定顯示如何建立 Windows Store 應用程式可使用之交換鏈的範例。
+    這些設定顯示如何建立 Windows Store 應用程式可使用的交換鏈的範例。
 
 2.  取得 [**Direct3D 裝置**](/windows/desktop/api/d3d11/nn-d3d11-id3d11device) 和 [**DXGI 裝置**](/windows/desktop/api/dxgi/nn-dxgi-idxgidevice) 正在其上執行的介面卡，並取得與其相關聯的 [**IDXGIFactory**](/windows/desktop/api/dxgi1_2/nn-dxgi1_2-idxgifactory2) 物件。 您必須使用此 **DXGI factory** ，以確保在相同的介面卡上建立 [**交換鏈**](/windows/desktop/api/dxgi/nn-dxgi-idxgiswapchain) 。
 
-3.  呼叫 [**IDXGIFactory2：： CreateSwapChainForCoreWindow**](/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgifactory2-createswapchainforcorewindow) 方法來建立交換鏈。 針對 Windows Store 應用程式的主視窗，請使用 [**windows：： UI：： CoreWindow**](/uwp/api/Windows.UI.Core.CoreWindow) 類別。
+3.  呼叫 [**IDXGIFactory2：： CreateSwapChainForCoreWindow**](/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgifactory2-createswapchainforcorewindow) 方法來建立交換鏈。 針對 Windows Store 應用程式的主視窗，請使用 [**Windows：： UI：： CoreWindow**](/uwp/api/Windows.UI.Core.CoreWindow)類別。
 
     請務必將畫面格延遲上限設為1，以將耗電量降至最低。
 
-    如果您想要在 Windows Store 應用程式中呈現 Direct2D 內容，請參閱 [**CreateSwapChainForComposition**](/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgifactory2-createswapchainforcomposition) 方法。
+    如果您想要在 Windows 存放區應用程式中呈現 Direct2D 內容，請參閱 [**CreateSwapChainForComposition**](/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgifactory2-createswapchainforcomposition)方法。
 
 4.  從 [**交換鏈**](/windows/desktop/api/dxgi/nn-dxgi-idxgiswapchain)取得背面緩衝區。 背景緩衝區會公開由 **交換鏈** 配置的 [**ID3D11Texture2D**](/windows/desktop/api/d3d11/nn-d3d11-id3d11texture2d)介面
 
@@ -295,6 +295,6 @@ DX::ThrowIfFailed(
 
 現在您可以使用 [**Direct2D 裝置內容**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1devicecontext) 將基本、影像、影像效果和文字繪製到螢幕。
 
- 
+ 
 
- 
+ 

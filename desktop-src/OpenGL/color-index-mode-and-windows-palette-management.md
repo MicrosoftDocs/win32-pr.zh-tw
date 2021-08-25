@@ -1,22 +1,22 @@
 ---
-title: Color-Index 模式和 Windows 調色板管理
+title: Color-Index 模式和 Windows 的管理元件管理
 description: 色彩索引模式會以特定邏輯調色板專案的索引，指定邏輯調色板中的色彩。
 ms.assetid: 8cf07c3e-8a8b-4f28-a363-34d3c0d33890
 keywords:
-- Windows 上的 OpenGL，調色板管理
+- Windows 上的 OpenGL，管理元件管理
 - Windows 上的 OpenGL、色彩索引模式
 - 色彩索引模式 OpenGL
 - 調色板管理 OpenGL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 873308c4ac64d496e344b1c71d440d4dc8321418
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 72e4d7c9db02a80bdffdef93655e88cc5b2ca8197a58c5ffdb488c2b782f10d3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021726"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119889258"
 ---
-# <a name="color-index-mode-and-windows-palette-management"></a>Color-Index 模式和 Windows 調色板管理
+# <a name="color-index-mode-and-windows-palette-management"></a>Color-Index 模式和 Windows 的管理元件管理
 
 色彩索引模式會以特定邏輯調色板專案的索引，指定邏輯調色板中的色彩。 大部分的 GDI 程式都使用色彩索引調色板，但 RGBA 模式的效果較適用于 OpenGL 的數個效果，例如陰影、光源、霧化和材質對應。 如果您的 OpenGL 應用程式具有 truest 色彩並不重要，您可以選擇使用色彩索引模式 (例如，使用「false 色彩」的地形對應強調提高許可權漸層) 。
 
@@ -67,9 +67,9 @@ BOOL bSetupPixelFormat(HDC hdc)
 
 
 
- 
+ 
 
- 
+ 
 
 
 

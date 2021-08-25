@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: 030fafb4ccf041c2804179f8adf0088ca3fba845
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8e76bad23d79e261a27df5b83a94d4e477b21cde5057bb2587ffb49c93382df0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975568"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119890338"
 ---
 # <a name="istatsgetconversationstatistics-method"></a>IStats：： GetConversationStatistics 方法
 
@@ -87,11 +87,11 @@ DWORD 的指標，其中包含記錄給目前 capture 的 [*電臺*](s.md) 數�
 
 
 
-| 傳回碼                                                                                                   | Description                                                                                                                                                                                                                                |
+| 傳回碼                                                                                                   | 描述                                                                                                                                                                                                                                |
 |---------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <dl> <dt>**NMERR \_ 未 \_ 連接**</dt> </dl>          | NPP 未連接到網路。 呼叫 [**IStats：： connect**](istats-connect.md) 以將 NPP 連接到網路。<br/>                                                                                                      |
+| <dl> <dt>**NMERR \_ 未 \_ 連接**</dt> </dl>          | NPP 未連接到網路。 呼叫 [**IStats：：連線**](istats-connect.md)將 NPP 連接到網路。<br/>                                                                                                      |
 | <dl> <dt>**NMERR \_ 未 \_ 捕獲**</dt> </dl>          | NPP 不會捕捉資料。 呼叫 [**IStats：： start**](istats-start.md) 以開始捕獲。<br/>                                                                                                                                 |
-| <dl> <dt>**NMERR \_ 不是 \_ 統計資料 \_**</dt> </dl>        | NPP 已連接到網路，但不是使用 [**IStats：： Connect**](istats-connect.md) 方法。<br/>                                                                                                                         |
+| <dl> <dt>**NMERR \_ 不是 \_ 統計資料 \_**</dt> </dl>        | NPP 會連接到網路，但不會使用 [**IStats：：連線**](istats-connect.md)方法。<br/>                                                                                                                         |
 | <dl> <dt>**NMERR \_ 沒有 \_ 交談 \_ 統計資料**</dt> </dl> | 此連接的設定會設定為 [不儲存對話統計資料]。 若要儲存對話統計資料，請停止 capture，在設定 BLOB 中設定 **NoConversationStats = YES** ，然後重新開機 capture。<br/> |
 
 
@@ -130,7 +130,7 @@ DWORD 的指標，其中包含記錄給目前 capture 的 [*電臺*](s.md) 數�
 [**IStats：： Start**](istats-start.md)
 </dt> <dt>
 
-[**IStats：： Connect**](istats-connect.md)
+[**IStats：：連線**](istats-connect.md)
 </dt> <dt>
 
 [**SESSIONSTATS**](sessionstats.md)

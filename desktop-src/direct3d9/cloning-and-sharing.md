@@ -4,12 +4,12 @@ ms.assetid: 1dabe611-bf3b-49bf-99ab-dbdfd343f885
 title: '複製和共用 (Direct3D 9) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 983e674af4cdd24e21fcc2517eb8a32d6aec291c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 96add856c6e3c675cbf3ac225d39517214ed9dc002abded6f4f7f9f75d4736bc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847547"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119857698"
 ---
 # <a name="cloning-and-sharing-direct3d-9"></a>複製和共用 (Direct3D 9) 
 

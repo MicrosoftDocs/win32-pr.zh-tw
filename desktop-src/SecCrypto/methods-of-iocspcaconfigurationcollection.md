@@ -4,12 +4,12 @@ ms.assetid: 362737ac-9ae2-49d4-8eb9-b52930d4fe9f
 title: IOCSPCAConfigurationCollection 的方法
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 152ac3fc08c0a811cd4952fa5538bf32ba9abd3b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 14ee285400b918196a25b39b43944e4655100b92988226628bb7a1bb5a82647d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970834"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119797178"
 ---
 # <a name="methods-of-iocspcaconfigurationcollection"></a>IOCSPCAConfigurationCollection 的方法
 

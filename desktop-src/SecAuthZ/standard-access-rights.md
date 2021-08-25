@@ -4,24 +4,24 @@ ms.assetid: f43bccce-0f8c-4732-b678-5fd3218a9f84
 title: 標準存取權限
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bf28fb1ac86a60df373a9f747510b4df624a17eb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 56067a4ed31f9506aee0b326e82a9bd5b4b49b02d12e6d401cc04f8262b19da0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848233"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119907108"
 ---
 # <a name="standard-access-rights"></a>標準存取權限
 
 每一種安全物件類型都有一組存取權限，這些許可權會對應至該物件類型的特定作業。 除了這些特定物件的存取權限之外，還提供一組標準存取權限，以對應至大部分型別安全物件的一般作業。
 
-[存取遮罩格式](access-mask-format.md)包含標準存取權限的一組位。 下列適用于標準存取權限的 Windows 常數定義于 Winnt. h 中。
+[存取遮罩格式](access-mask-format.md)包含標準存取權限的一組位。 下列 Windows 標準存取權限的常數定義于 Winnt. h 中。
 
 
 
 | 常數      | 意義                                                                                                                                                                                                                                                                                                                                      |
 |---------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 刪除        | 刪除物件的權限。                                                                                                                                                                                                                                                                                                              |
+| DELETE        | 刪除物件的權限。                                                                                                                                                                                                                                                                                                              |
 | 讀取 \_ 控制 | 讀取物件 [*安全描述項*](/windows/desktop/SecGloss/s-gly)中資訊的許可權，不包括 [*系統存取控制清單*](/windows/desktop/SecGloss/s-gly) 中的資訊 (SACL) 。 |
 | SYNCHRONIZE   | 使用同步物件的權限。 這可讓執行緒等候，直到物件處於已發出信號的狀態。 某些物件類型不支援此存取權。                                                                                                                                                                |
 | 寫入 \_ DAC    | 在物件的安全描述項中，修改 [*任意存取控制清單*](/windows/desktop/SecGloss/d-gly) (DACL) 的許可權。                                                                                                                    |

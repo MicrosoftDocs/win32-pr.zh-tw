@@ -4,12 +4,12 @@ ms.assetid: bd7efa8b-4f12-4b19-a7df-fa34c6a3444a
 title: 偵錯工具
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 29965bb85ccfd2daf00612b09bb013ae170dddcd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e744b37a5376d228ac9023ed7556ce63e26a7a1c20b23fb98aff090e7ae9616f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104115708"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119856778"
 ---
 # <a name="debugging-tools"></a>偵錯工具
 
@@ -37,7 +37,7 @@ WSD Debug 用戶端會以三種模式的其中一種方式運作：多播、探�
 
  
 
-如需詳細資訊，請參閱 [使用泛型主機和用戶端進行 HTTP 中繼資料交換](using-a-generic-host-and-client-for-http-metadata-exchange.md)、 [使用泛型主機和用戶端進行 UDP WS 探索](using-a-generic-host-and-client-for-udp-ws-discovery.md)，以及 [使用 WSD 偵錯工具用戶端來驗證多播流量](using-wsddebug-client-to-verify-multicast-traffic.md)。
+如需詳細資訊，請參閱[使用泛型主機和用戶端進行 HTTP 中繼資料 Exchange](using-a-generic-host-and-client-for-http-metadata-exchange.md)、[使用泛型主機和用戶端進行 UDP WS 探索](using-a-generic-host-and-client-for-udp-ws-discovery.md)，以及[使用 WSD 偵錯工具用戶端來驗證多播流量](using-wsddebug-client-to-verify-multicast-traffic.md)。
 
 ## <a name="the-wsd-debug-host"></a>WSD Debug 主機
 
@@ -56,7 +56,7 @@ WSD Debug 主機會以兩種模式的其中一種方式運作：探索和中繼�
 
  
 
-如需詳細資訊，請參閱 [使用泛型主機和用戶端進行 HTTP 中繼資料交換](using-a-generic-host-and-client-for-http-metadata-exchange.md) ，以及 [使用一般主機和用戶端進行 UDP WS 探索](using-a-generic-host-and-client-for-udp-ws-discovery.md)。
+如需詳細資訊，請參閱[使用泛型主機和用戶端進行 HTTP 中繼資料 Exchange](using-a-generic-host-and-client-for-http-metadata-exchange.md)以及[使用一般主機和用戶端進行 UDP WS 探索](using-a-generic-host-and-client-for-udp-ws-discovery.md)。
 
 ## <a name="related-topics"></a>相關主題
 

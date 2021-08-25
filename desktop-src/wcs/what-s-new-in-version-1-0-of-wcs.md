@@ -1,48 +1,48 @@
 ---
 title: WCS 1.0 版的新功能
-description: Microsoft \ 160 提供的 (ICM) 1.0 版的影像色彩管理Windows \ 160; 95，並且在 Windows 裝置內容中提供基本的色彩管理功能。
+description: Microsoft \ 160 提供的映射色彩管理 (ICM) 版本 1.0;Windows \ 160; 95，並在 Windows 裝置內容中提供基本的色彩管理功能。
 ms.assetid: edc5a6c2-ca7c-4cf4-a339-4f1875c60493
 keywords:
-- Windows Color System (WCS) 、新功能
+- Windows色彩系統 (WCS) 、新功能
 - WCS (Windows 色彩系統) 、新功能
 - 影像色彩管理、新功能
 - 色彩管理、新功能
 - 色彩、新功能
-- Windows Color System (WCS) ，新功能
-- WCS (Windows Color System) 、新功能
+- Windows色彩系統 (WCS) 、新功能
+- WCS (Windows 色彩系統) 、新功能
 - 影像色彩管理、新功能
 - 色彩管理、新功能
 - 色彩、新功能
-- Windows Color System (WCS) ，Windows Vista
+- WindowsColor System (WCS) ，Windows Vista
 - WCS (Windows Color System) ，Windows Vista
 - 影像色彩管理，Windows Vista
-- 色彩管理，Windows Vista
+- Windows Vista 的色彩管理
 - 色彩，Windows Vista
-- Windows Color System (WCS) ，作業系統
-- WCS (Windows 色彩系統) ，作業系統
+- Windows色彩系統 (WCS) ，作業系統
+- WCS (Windows 色彩系統) 、作業系統
 - 影像色彩管理，作業系統
 - 色彩管理，作業系統
 - 色彩，作業系統
 - 影像色彩管理 (ICM)
 - 'ICM (影像色彩管理) '
-- Windows Vista 色彩管理
+- WindowsVista 色彩管理
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 88efb4807eb7bd9244cd20277c44809cec2e96df
-ms.sourcegitcommit: 38954f8f0d70f44bff4a943784f468ebd7ef691a
+ms.openlocfilehash: 8bdf3bb59d71cc08ffa5ffacecea3df0b02f2c303b8aa3034de98f710e44cc23
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "106981908"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119814328"
 ---
 # <a name="whats-new-in-version-10-of-wcs"></a>WCS 1.0 版的新功能
 
-映射色彩管理的版本 1.0 (ICM) 已在 Microsoft Windows 95 中提供，並在 Windows 裝置內容中提供基本的色彩管理功能。
+ (ICM) 在 Microsoft Windows 95 中提供的映射色彩管理版本1.0，並在 Windows 裝置內容中提供基本的色彩管理功能。
 
-ICM 2.0 版包含在 Windows 98、Windows Millennium Edition、Windows 2000 和 Windows XP 中，並包含各種可在裝置內容以外執行色彩管理的新功能。 這些新函式適用于需求較高的色彩管理需求，並讓應用程式更能掌控色彩管理程式。
+ICM 2.0 版包含在 Windows 98、Windows Millennium Edition、Windows 2000 和 Windows XP 中，並包含在裝置內容以外執行色彩管理的各種新功能。 這些新函式適用于需求較高的色彩管理需求，並讓應用程式更能掌控色彩管理程式。
 
-Windows Vista 版本的 Microsoft Windows 包含其他功能。
+Microsoft Windows 的 Windows Vista 版本包含其他功能。
 
 -   選擇靜態/整合式和動態/模組化的 CMM/設定檔工作流程
     -   HeidelbergerDruckmaschinen 在 Win98 ICM2 中提供的靜態，Canon Inc. 所提供的動態功能。使用 Canon 的 Kyuanos 技術

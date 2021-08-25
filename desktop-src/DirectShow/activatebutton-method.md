@@ -4,17 +4,17 @@ ms.assetid: 1da486a0-dadc-4c92-b3d3-83aeace01e39
 title: ActivateButton 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c8a463a3aad1ee0dcabc0e5daaa4a4969efa37aa
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 64853a191f688758deb42061e95c91308ff88c00fe9482cce677f8b00926f26f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106997468"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119873518"
 ---
 # <a name="activatebutton-method"></a>ActivateButton 方法
 
 > [!Note]  
-> 此元件可用於 Microsoft Windows 2000、Windows XP 及 Windows Server 2003 作業系統。 它在後續版本中可能會變更或無法使用。
+> 此元件可在 Microsoft Windows 2000、Windows XP 和 Windows Server 2003 作業系統中使用。 它在後續版本中可能會變更或無法使用。
 
  
 

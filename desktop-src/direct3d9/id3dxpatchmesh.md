@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: f1f13e6abe3a164e8027ddcb6bb33e9f0ca618fb
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 44899ccee6f13aa25b01e284df5a892196d657610c3f89d546fc0b646eeaa069
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104323060"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119856278"
 ---
 # <a name="id3dxpatchmesh-interface"></a>ID3DXPatchMesh 介面
 
@@ -55,7 +55,7 @@ ms.locfileid: "104323060"
 | [**LockAttributeBuffer**](id3dxpatchmesh--lockattributebuffer.md)               | 鎖定屬性緩衝區。<br/>                                                          |
 | [**LockIndexBuffer**](id3dxpatchmesh--lockindexbuffer.md)                       | 鎖定索引緩衝區。<br/>                                                               |
 | [**LockVertexBuffer**](id3dxpatchmesh--lockvertexbuffer.md)                     | 鎖定頂點緩衝區。<br/>                                                              |
-| [**優化**](id3dxpatchmesh--optimize.md)                                     | 將修補程式網格優化以進行有效率的鑲嵌。<br/>                                 |
+| [**最佳化**](id3dxpatchmesh--optimize.md)                                     | 將修補程式網格優化以進行有效率的鑲嵌。<br/>                                 |
 | [**SetDisplaceParam**](id3dxpatchmesh--setdisplaceparam.md)                     | 設定網狀幾何置換參數。<br/>                                          |
 | [**Tessellate**](id3dxpatchmesh--tessellate.md)                                 | 根據鑲嵌式層級執行統一鑲嵌。<br/>                       |
 | [**TessellateAdaptive**](id3dxpatchmesh--tessellateadaptive.md)                 | 根據以 z 為基礎的調適型鑲嵌準則，執行適應性鑲嵌。<br/> |

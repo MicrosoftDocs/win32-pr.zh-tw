@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
-ms.openlocfilehash: 5ace5c64dc90f057ff9fdfe5a79d664137c38030
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 430607b09795be249a05398b1bfb749e9be45ae517c6374e001a4c3042bf316f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106978639"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119874188"
 ---
 # <a name="id2d1rendertargetdrawtext-methods"></a>ID2D1RenderTarget：:D rawText 方法
 

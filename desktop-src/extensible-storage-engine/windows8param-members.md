@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.wind
 ms:contentKeyID: 55104471
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 10a91be2c3f20fb762d5f1a79344fd4cb5c66a21
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5340a8741e3c0709f4ab537e90f33a8cc197bb55e2fef30e55db3bea8e49c957
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104557847"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119779868"
 ---
 # <a name="windows8param-members"></a>Windows8Param 成員
 

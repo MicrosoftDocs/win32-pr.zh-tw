@@ -5,12 +5,12 @@ ms.assetid: c6a0cacc-f83e-4f5c-9002-7718bb2ffb6c
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f3040f462ce226ebd3018070abc818884cee6ad6
-ms.sourcegitcommit: 9bf844f41bd6451b8508d93e722e88a43e913b56
+ms.openlocfilehash: 46127e27b0f0890e305fee65534b0cce743c086e9e89934797bf2b16b15e9f9d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "106985787"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119814598"
 ---
 # <a name="error-codes-specific-to-wcs"></a>WCS 特定的錯誤碼
 
@@ -32,7 +32,7 @@ ms.locfileid: "106985787"
 
 </dd> <dt>
 
-<span id="ERROR_ICM_NOT_ENABLED"></span><span id="error_icm_not_enabled"></span>錯誤 \_ ICM \_ 未 \_ 啟用
+<span id="ERROR_ICM_NOT_ENABLED"></span><span id="error_icm_not_enabled"></span>\_ \_ 未啟用 ICM \_ 錯誤
 </dt> <dd>
 
 影像色彩管理目前未啟用。

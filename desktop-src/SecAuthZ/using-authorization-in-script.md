@@ -9,18 +9,18 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 36b3ba11148022c2265b6b2cd05e7c6ca25134ea
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3d0eec15f2847a1be8de9f42489cf82c22fb75f837caa9f2b4eca5b33a41a2de
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103945408"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119906758"
 ---
 # <a name="using-authorization-in-script"></a>在腳本中使用授權
 
 您可以使用授權管理員 API 來控制對應用程式資源的存取。
 
-本節中的範例是使用 Visual Basic Scripting Edition (VBScript) 和 Active Server Pages (ASP) 來撰寫。
+本節中的範例是使用 Visual Basic 腳本 Edition (VBScript) 和 Active Server Pages (ASP) 撰寫的。
 
 如需其他授權工作的詳細資訊，請參閱 [腳本中的支援](supporting-tasks-for-authorization-in-script.md)工作。
 

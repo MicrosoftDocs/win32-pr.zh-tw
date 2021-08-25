@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9cfc5119c15047fc6d3b7c15947d996b7f387957
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 62e532134b5bd78df6726eff15e84866b0c42e07aae3b473c76ce3abcade0fb6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103844755"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119804708"
 ---
 # <a name="domain-replica-attribute"></a>Domain-Replica 屬性
 
@@ -58,7 +58,7 @@ Unicode 字串屬性，提供 Windows NT 4.0 複寫網域控制站的清單。
 | 連結識別碼                | \-                                                    |
 | MAPI-Id                | \-                                                    |
 | System-Only            | 否                                                 |
-| 是-單一值       | 對                                                  |
+| 是-單一值       | 是                                                  |
 | 已編制索引             | 否                                                 |
 | 在通用類別目錄中      | 否                                                 |
 | NT-Security-描述元 | O:BAG：不正確： S：                                          |
@@ -79,7 +79,7 @@ Unicode 字串屬性，提供 Windows NT 4.0 複寫網域控制站的清單。
 | 連結識別碼                | \-                                                    |
 | MAPI-Id                | \-                                                    |
 | System-Only            | 否                                                 |
-| 是-單一值       | 對                                                  |
+| 是-單一值       | 是                                                  |
 | 已編制索引             | 否                                                 |
 | 在通用類別目錄中      | 否                                                 |
 | NT-Security-描述元 | O:BAG：不正確： S：                                          |
@@ -100,7 +100,7 @@ Unicode 字串屬性，提供 Windows NT 4.0 複寫網域控制站的清單。
 | 連結識別碼                | \-                                                    |
 | MAPI-Id                | \-                                                    |
 | System-Only            | 否                                                 |
-| 是-單一值       | 對                                                  |
+| 是-單一值       | 是                                                  |
 | 已編制索引             | 否                                                 |
 | 在通用類別目錄中      | 否                                                 |
 | NT-Security-描述元 | O:BAG：不正確： S：                                          |
@@ -121,7 +121,7 @@ Unicode 字串屬性，提供 Windows NT 4.0 複寫網域控制站的清單。
 | 連結識別碼                | \-                                                    |
 | MAPI-Id                | \-                                                    |
 | System-Only            | 否                                                 |
-| 是-單一值       | 對                                                  |
+| 是-單一值       | 是                                                  |
 | 已編制索引             | 否                                                 |
 | 在通用類別目錄中      | 否                                                 |
 | NT-Security-描述元 | O:BAG：不正確： S：                                          |
@@ -142,7 +142,7 @@ Unicode 字串屬性，提供 Windows NT 4.0 複寫網域控制站的清單。
 | 連結識別碼                | \-                                                    |
 | MAPI-Id                | \-                                                    |
 | System-Only            | 否                                                 |
-| 是-單一值       | 對                                                  |
+| 是-單一值       | 是                                                  |
 | 已編制索引             | 否                                                 |
 | 在通用類別目錄中      | 否                                                 |
 | NT-Security-描述元 | O:BAG：不正確： S：                                          |
@@ -163,7 +163,7 @@ Unicode 字串屬性，提供 Windows NT 4.0 複寫網域控制站的清單。
 | 連結識別碼                | \-                                                    |
 | MAPI-Id                | \-                                                    |
 | System-Only            | 否                                                 |
-| 是-單一值       | 對                                                  |
+| 是-單一值       | 是                                                  |
 | 已編制索引             | 否                                                 |
 | 在通用類別目錄中      | 否                                                 |
 | NT-Security-描述元 | O:BAG：不正確： S：                                          |

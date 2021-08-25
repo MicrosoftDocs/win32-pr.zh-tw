@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9mesh.h
-ms.openlocfilehash: 97731d4720e67fce899bf96f457e55f6adbc05a7
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 3209021b73bc9d17f43386d7df85082887a76600540c44955c41228da3d17379
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106992314"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119857018"
 ---
 # <a name="d3dximt-flags-enumeration"></a>D3DXIMT 旗標列舉
 

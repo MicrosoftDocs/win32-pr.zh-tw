@@ -1,21 +1,21 @@
 ---
-title: Windows 生物特徵辨識架構 API 參考
+title: Windows生物特徵辨識架構 API 參考
 description: 可以用來建立用戶端應用程式和外掛程式的函式、結構和功能的詳細描述。
 ms.assetid: e495f3a5-64f5-4181-bf3a-c0c2bbe09016
 keywords:
-- Windows 生物特徵辨識架構 API Windows 生物特徵辨識架構 API，參考
+- Windows生物特徵辨識架構 api Windows 生物特徵辨識架構 api，參考
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3bec69f85b345be81fa3ca61bae15e6c57975f0c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 168d0d17a27f5af62178ecc88702da8687bc427d9a337510e20d6ed9c0ec7276
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840607"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119906678"
 ---
-# <a name="windows-biometric-framework-api-reference"></a>Windows 生物特徵辨識架構 API 參考
+# <a name="windows-biometric-framework-api-reference"></a>Windows生物特徵辨識架構 API 參考
 
-Windows 生物特徵辨識架構 API 參考頁面包含可用於建立用戶端應用程式和外掛程式的函式、結構和功能的詳細描述。參考頁面分為下列群組：
+Windows生物特徵辨識架構 API 參考頁面包含可用於建立用戶端應用程式和外掛程式的函式、結構和功能的詳細描述。參考頁面分為下列群組：
 
 ## <a name="in-this-section"></a>本節內容
 

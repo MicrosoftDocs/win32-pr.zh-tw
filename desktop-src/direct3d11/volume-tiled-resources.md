@@ -4,12 +4,12 @@ description: 瞭解如何使用磁片區 (3D) 材質作為並排顯示的資源�
 ms.assetid: B6BF22A2-EDA3-4765-B545-BF825043D4C4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2bf9b3ed8b1db89d9718fa904eefd23ce2e871db
-ms.sourcegitcommit: ca37395fd832e798375e81142b97cffcffabf184
+ms.openlocfilehash: 618de4243598cdd9da3e80b0fe8cfad9cef65903736c4ae647f46e38d85fb77c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "110335432"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119857648"
 ---
 # <a name="volume-tiled-resources"></a>磁片區磚資源
 

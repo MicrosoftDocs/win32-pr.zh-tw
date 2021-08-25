@@ -4,12 +4,12 @@ ms.assetid: 56b15eac-ea0d-4d18-b5f6-2f1a7b1bb25f
 title: PGM 寄件者選項
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f1c2e83ec7b098b9a82f74d4a3e0b6aa3ab03b63
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 04bce19e096f269207a22f8e3078643fefd9a7ced31482305c2caeb0ae8b7749
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973266"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119857903"
 ---
 # <a name="pgm-sender-options"></a>PGM 寄件者選項
 

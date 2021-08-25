@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 0240c459ea2d09013379bfd7c3190ce691cf4cc6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dd7c848e9c792bcff3c0af58143d404bda744a982daeedbff01895242407a7aa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103945118"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119857688"
 ---
 # <a name="__win32provider-class"></a>\_\_Win32Provider 類別
 
@@ -82,7 +82,7 @@ WMI 用來判斷是否要將高效能提供者載入至用戶端進程或 WMI �
 
 </dd> <dt>
 
-**Clsid**
+**CLSID**
 </dt> <dd> <dl> <dt>
 
 資料類型： **字串**
@@ -299,7 +299,7 @@ TBD
 存取類型：讀取/寫入
 </dt> </dl>
 
-安全描述項定義語言中的安全描述項 (SD)  (SDDL) ，可決定可成功呼叫 IWbemDecoupledRegistrar 的一組使用者 [**：向**](/windows/desktop/api/Wbemprov/nf-wbemprov-iwbemdecoupledregistrar-register) 低耦合提供者註冊。 如需詳細資訊，請參閱 Windows SDK 的安全性一節中的「 [安全描述項定義語言](/windows/desktop/SecAuthZ/security-descriptor-definition-language) 」主題。 此安全描述項僅供低耦合提供者使用，且不會影響其他提供者。 如需詳細資訊，請參閱 [將提供者併入應用程式](incorporating-a-provider-in-an-application.md)。
+安全描述項定義語言中的安全描述項 (SD)  (SDDL) ，可決定可成功呼叫 IWbemDecoupledRegistrar 的一組使用者 [**：向**](/windows/desktop/api/Wbemprov/nf-wbemprov-iwbemdecoupledregistrar-register) 低耦合提供者註冊。 如需詳細資訊，請參閱 Windows SDK 的安全性一節中的「[安全描述項定義語言](/windows/desktop/SecAuthZ/security-descriptor-definition-language)」主題。 此安全描述項僅供低耦合提供者使用，且不會影響其他提供者。 如需詳細資訊，請參閱 [將提供者併入應用程式](incorporating-a-provider-in-an-application.md)。
 
 WMI 會針對使用 [**IWbemProviderInit**](/windows/desktop/api/Wbemprov/nn-wbemprov-iwbemproviderinit) 和 [**IWbemObjectSink**](iwbemobjectsink.md) 介面的低耦合提供者執行存取檢查。 如果安全描述項為 **Null**，則只有在 LocalSystem、NetworkService、LocalService 帳戶下執行的應用程式或服務可以執行低耦合提供者。
 

@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Wbemscripting.swbemlocator 屬性
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e3e029e6784cf18dde29cb1b54a28a40f56ee45e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 89bcdf0b3093f438362b4b1865f351ff3d210b3c498252847a46ab5fbdcaf032
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320527"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119857538"
 ---
 # <a name="swbemlocator-properties"></a>Wbemscripting.swbemlocator 屬性
 

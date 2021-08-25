@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 201a89e178515b270302b4d8541af64a63ad6813
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 43ce551bbf23c7eec378088a0a8d9a9ced25612e40cae1766c55099bb4e45b31
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104107495"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119835438"
 ---
 # <a name="trust-partner-attribute"></a>Trust-Partner 屬性
 
@@ -58,8 +58,8 @@ ms.locfileid: "104107495"
 | 連結識別碼                | \-                                                   |
 | MAPI-Id                | \-                                                   |
 | System-Only            | 否                                                |
-| 是-單一值       | 對                                                 |
-| 已編制索引             | 對                                                 |
+| 是-單一值       | 是                                                 |
+| 已編制索引             | 是                                                 |
 | 在通用類別目錄中      | 否                                                |
 | NT-Security-描述元 | O:BAG：不正確： S：                                         |
 | Range-Lower            | 1                                                    |
@@ -79,9 +79,9 @@ ms.locfileid: "104107495"
 | 連結識別碼                | \-                                                   |
 | MAPI-Id                | \-                                                   |
 | System-Only            | 否                                                |
-| 是-單一值       | 對                                                 |
-| 已編制索引             | 對                                                 |
-| 在通用類別目錄中      | 對                                                 |
+| 是-單一值       | 是                                                 |
+| 已編制索引             | 是                                                 |
+| 在通用類別目錄中      | 是                                                 |
 | NT-Security-描述元 | O:BAG：不正確： S：                                         |
 | Range-Lower            | 1                                                    |
 | Range-Upper            | 1024                                                 |
@@ -100,9 +100,9 @@ ms.locfileid: "104107495"
 | 連結識別碼                | \-                                                   |
 | MAPI-Id                | \-                                                   |
 | System-Only            | 否                                                |
-| 是-單一值       | 對                                                 |
-| 已編制索引             | 對                                                 |
-| 在通用類別目錄中      | 對                                                 |
+| 是-單一值       | 是                                                 |
+| 已編制索引             | 是                                                 |
+| 在通用類別目錄中      | 是                                                 |
 | NT-Security-描述元 | O:BAG：不正確： S：                                         |
 | Range-Lower            | 1                                                    |
 | Range-Upper            | 1024                                                 |
@@ -121,9 +121,9 @@ ms.locfileid: "104107495"
 | 連結識別碼                | \-                                                   |
 | MAPI-Id                | \-                                                   |
 | System-Only            | 否                                                |
-| 是-單一值       | 對                                                 |
-| 已編制索引             | 對                                                 |
-| 在通用類別目錄中      | 對                                                 |
+| 是-單一值       | 是                                                 |
+| 已編制索引             | 是                                                 |
+| 在通用類別目錄中      | 是                                                 |
 | NT-Security-描述元 | O:BAG：不正確： S：                                         |
 | Range-Lower            | 1                                                    |
 | Range-Upper            | 1024                                                 |
@@ -142,9 +142,9 @@ ms.locfileid: "104107495"
 | 連結識別碼                | \-                                                   |
 | MAPI-Id                | \-                                                   |
 | System-Only            | 否                                                |
-| 是-單一值       | 對                                                 |
-| 已編制索引             | 對                                                 |
-| 在通用類別目錄中      | 對                                                 |
+| 是-單一值       | 是                                                 |
+| 已編制索引             | 是                                                 |
+| 在通用類別目錄中      | 是                                                 |
 | NT-Security-描述元 | O:BAG：不正確： S：                                         |
 | Range-Lower            | 1                                                    |
 | Range-Upper            | 1024                                                 |
@@ -163,9 +163,9 @@ ms.locfileid: "104107495"
 | 連結識別碼                | \-                                                   |
 | MAPI-Id                | \-                                                   |
 | System-Only            | 否                                                |
-| 是-單一值       | 對                                                 |
-| 已編制索引             | 對                                                 |
-| 在通用類別目錄中      | 對                                                 |
+| 是-單一值       | 是                                                 |
+| 已編制索引             | 是                                                 |
+| 在通用類別目錄中      | 是                                                 |
 | NT-Security-描述元 | O:BAG：不正確： S：                                         |
 | Range-Lower            | 1                                                    |
 | Range-Upper            | 1024                                                 |

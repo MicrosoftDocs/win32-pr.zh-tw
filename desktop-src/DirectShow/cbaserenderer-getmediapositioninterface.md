@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 3d41d777b88f0e18ae1510c32b7e89024ea7bdd9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 12e15b297f78b3386ae9ad31e749858bad14b87e59e938ac02a3cf3a9ca002a9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995211"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119872328"
 ---
 # <a name="cbaserenderergetmediapositioninterface-method"></a>CBaseRenderer. GetMediaPositionInterface 方法
 
@@ -63,7 +63,7 @@ virtual HRESULT GetMediaPositionInterface(
 
 
 
-| 傳回碼                                                                                   | Description                         |
+| 傳回碼                                                                                   | 描述                         |
 |-----------------------------------------------------------------------------------------------|-------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>          | 成功。<br/>                 |
 | <dl> <dt>**E \_ OUTOFMEMORY**</dt> </dl> | 記憶體不足。<br/>     |

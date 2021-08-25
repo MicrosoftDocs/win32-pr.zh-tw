@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 0d994c8a9b9e0af9d4bd884c89cd67280513c9f1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: db8df81e56db9967db46b88c0587af9b82a6281e7e732b8647059e8bf4f5457a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104027073"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119857378"
 ---
 # <a name="swbemobjectdelete_-method"></a>SWbemObject \_ 方法
 
@@ -111,7 +111,7 @@ SWbemObject.Delete_( _
 
 ## <a name="remarks"></a>備註
 
-如果建立了 [**SWbemObject**](swbemobject.md)的新實例，但未提供索引鍵屬性的值， **Delete \_** 方法會失敗。 Windows Management Instrumentation (WMI) 會自動產生全域唯一識別碼 (GUID) 值，但 **SWbemObject \_** 不接受 guid 值。 在此情況下， [**SWbemServices**](swbemservices-delete.md)會使用物件路徑運作。 請注意，在將物件認可至 WMI 之後， [**SWbemObject \_ . Put**](swbemobject-put-.md)方法會傳回 [**SWbemObjectPath**](swbemobjectpath.md)物件。
+如果建立了 [**SWbemObject**](swbemobject.md)的新實例，但未提供索引鍵屬性的值， **Delete \_** 方法會失敗。 WindowsManagement Instrumentation (WMI) 會自動產生全域唯一識別碼 (GUID) 值，但 **SWbemObject \_** 不接受 guid 值。 在此情況下， [**SWbemServices**](swbemservices-delete.md)會使用物件路徑運作。 請注意，在將物件認可至 WMI 之後， [**SWbemObject \_ . Put**](swbemobject-put-.md)方法會傳回 [**SWbemObjectPath**](swbemobjectpath.md)物件。
 
 ## <a name="examples"></a>範例
 
@@ -167,8 +167,8 @@ Set objSWbemService = Nothing
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows Vista<br/>                                                                |
 | 最低支援的伺服器<br/> | Windows Server 2008<br/>                                                          |
-| 標頭<br/>                   | <dl> <dt>>wbemdisp.tlb。h</dt> </dl>   |
-| 類型程式庫<br/>             | <dl> <dt>>wbemdisp.tlb .tlb</dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>>Wbemdisp.tlb。h</dt> </dl>   |
+| 類型程式庫<br/>             | <dl> <dt>>Wbemdisp.tlb .tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
 | CLSID<br/>                    | CLSID \_ SWbemObject<br/>                                                           |
 | IID<br/>                      | IID \_ ISWbemObject<br/>                                                            |

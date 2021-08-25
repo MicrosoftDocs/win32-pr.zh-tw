@@ -4,12 +4,12 @@ ms.assetid: C1A2DF19-C68D-42CC-9CB2-190F22CB4158
 title: DBPROPSET_MSIDXS_ROWSETEXT
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ba37466c52f2fa9f83e3aa439ace03c1fba34f44
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9f8c647d4b1ecbf9e5cc88ccae4af649c27093472456377e478ff80f7a76f3a7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106983826"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119776408"
 ---
 # <a name="dbpropset_msidxs_rowsetext"></a>DBPROPSET \_ MSIDXS \_ ROWSETEXT
 
@@ -77,7 +77,7 @@ DBPROPSET \_ MSIDXS \_ ROWSETEXT 屬性集包含下列屬性常數：
 <span id="MSIDXSPROP_SERVER_VERSION_"></span><span id="msidxsprop_server_version_"></span>MSIDXSPROP \_ 伺服器 \_ 版本 
 </dt> <dd>
 
-適用于 Windows 7 的新。 屬性識別碼9。 伺服器版本。
+Windows 7 的新。 屬性識別碼9。 伺服器版本。
 
 </dd> <dt>
 

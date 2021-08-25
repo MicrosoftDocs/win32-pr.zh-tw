@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: befad2334a754843fa0ae412565db8c82260f7cd
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: fb4ec36aa7738db5762f6cb1dc80e418f60b67c4529cd613cb4a2299d1d0fe37
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104107525"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119836298"
 ---
 # <a name="shell-property-pages-attribute"></a>Shell-屬性頁屬性
 

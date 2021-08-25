@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 6d5c3940e38d8a9a8befa00b85ac9c3cd406c292
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7393001c63f0a5b605870a8498e76231f0bf620a8c7e819a8c624eace565499a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980363"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119906698"
 ---
 # <a name="verifying-client-access-to-requested-resources-in-script"></a>在腳本中驗證用戶端對要求的資源的存取
 

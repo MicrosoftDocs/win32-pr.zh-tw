@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: f1c456a4eb208ba8c9f2ac39ea0b4dad410ee270
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 98e8aea385dd124e455d26e809c655b25d513a1a7fc843b8b42c8de395c3241c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112100"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119890858"
 ---
 # <a name="jet_enumcolumnidcolumnid-property"></a>JET_ENUMCOLUMNID columnid 屬性
 

@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.vist
 ms:contentKeyID: 39514028
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: f8b824f716d35c3039bb77af745cf6cf08dfc9cc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 13713d00431337f5e2190e2f547729e96a7cfb634fe1a95dddba570a9236f1f9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944912"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119890278"
 ---
 # <a name="jet_threadstats-members"></a>JET_THREADSTATS 成員
 
@@ -148,14 +148,14 @@ ms.locfileid: "103944912"
 <thead>
 <tr class="header">
 <th> </th>
-<th>Name</th>
+<th>名稱</th>
 <th>描述</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><img src="../images/dn350944.puboperator(exchg.10).gif" title="公用運算子" alt="Public operator" /><img src="../images/dn292146.static(exchg.10).gif" title="靜態成員" alt="Static member" /></td>
-<td><a href="hh163281(v=exchg.10).md">除了</a></td>
+<td><a href="hh163281(v=exchg.10).md">加法</a></td>
 <td>將統計資料新增至兩個 JET_THREADSTATS 結構。</td>
 </tr>
 <tr class="even">
@@ -170,7 +170,7 @@ ms.locfileid: "103944912"
 </tr>
 <tr class="even">
 <td><img src="../images/dn350944.puboperator(exchg.10).gif" title="公用運算子" alt="Public operator" /><img src="../images/dn292146.static(exchg.10).gif" title="靜態成員" alt="Static member" /></td>
-<td><a href="hh557686(v=exchg.10).md">減法</a></td>
+<td><a href="hh557686(v=exchg.10).md">減</a></td>
 <td>計算兩個 JET_THREADSTATS 結構之間的統計差異。</td>
 </tr>
 </tbody>

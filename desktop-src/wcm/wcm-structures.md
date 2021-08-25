@@ -1,19 +1,19 @@
 ---
-title: Windows 連線管理員結構
-description: Windows 連線管理員 (WCM) 結構如下所示。
+title: Windows連線管理員結構
+description: Windows 連線管理員 (的 WCM) 結構如下所示。
 ms.assetid: E554D678-721A-4311-8B64-315D2403E69A
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aac6307364ed84af19dfddc186c489ecceb1889b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7a218706e812ec718db5261d26c68d4e0d2e92185561d13a90ac3716aba8035a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104507312"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119814630"
 ---
-# <a name="windows-connection-manager-structures"></a>Windows 連線管理員結構
+# <a name="windows-connection-manager-structures"></a>Windows連線管理員結構
 
-Windows 連線管理員 (WCM) 結構如下所示。
+Windows 連線管理員 (的 WCM) 結構如下所示。
 
 -   [**WCM \_ 計費 \_ 週期 \_ 資訊**](/windows/desktop/api/Wcmapi/ns-wcmapi-wcm_billing_cycle_info)
 -   [**WCM \_ 連接 \_ 成本 \_ 資料**](/windows/desktop/api/Wcmapi/ns-wcmapi-wcm_connection_cost_data)
@@ -24,9 +24,9 @@ Windows 連線管理員 (WCM) 結構如下所示。
 -   [**WCM \_ 時間 \_ 間隔**](/windows/desktop/api/Wcmapi/ns-wcmapi-wcm_time_interval)
 -   [**WCM \_ 使用方式 \_ 資料**](/windows/desktop/api/Wcmapi/ns-wcmapi-wcm_usage_data)
 
- 
+ 
 
- 
+ 
 
 
 

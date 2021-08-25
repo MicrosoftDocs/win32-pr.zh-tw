@@ -5,12 +5,12 @@ ms.assetid: FAEF1412-053C-4B5F-80FA-85396C2586B4
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d18399b85499787f74dab725d562b6a299878b35
-ms.sourcegitcommit: ae73f4dd3cf5a3c6a1ea7d191ca32a5b01f6686b
+ms.openlocfilehash: a84f935ba49df4910aa729c39ae6ac0ce08f3810bf3b0cd75752bbe4c00e9ef1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "104548475"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119858011"
 ---
 # <a name="d2d-using-d3d11on12"></a>使用 D3D11on12 的 D2D
 
@@ -60,7 +60,7 @@ ms.locfileid: "104548475"
 
 
 
- 
+ 
 
 ## <a name="create-a-d2d-factory"></a>建立 D2D factory
 
@@ -94,7 +94,7 @@ ms.locfileid: "104548475"
 
 
 
- 
+ 
 
 ## <a name="create-a-render-target-for-d2d"></a>建立 D2D 的呈現目標
 
@@ -214,7 +214,7 @@ D3D12 擁有交換鏈，因此，如果我們想要使用11On12 裝置 (的 D2D)
 
 
 
- 
+ 
 
 ## <a name="create-basic-d2d-text-objects"></a>建立基本的 D2D 文字物件
 
@@ -250,7 +250,7 @@ D3D12 擁有交換鏈，因此，如果我們想要使用11On12 裝置 (的 D2D)
 
 
 
- 
+ 
 
 ## <a name="updating-the-main-render-loop"></a>更新主要轉譯迴圈
 
@@ -286,7 +286,7 @@ void D3D1211on12::OnRender()
 
 
 
- 
+ 
 
 轉譯迴圈的唯一新功能是 **RenderUI** 呼叫，這會使用 D2D 來呈現 UI。 請注意，我們會先執行所有 D3D12 的命令清單，以轉譯我們的3D 場景，然後將 UI 轉譯為最上層。 在我們深入探討 **RenderUI** 之前，我們必須先查看 **PopulateCommandLists** 的變更。 在其他範例中，我們通常會先在命令清單上放置資源屏障，然後才關閉它，將背景緩衝區從轉譯目標狀態轉換為目前狀態。 不過，在此範例中，我們會移除該資源屏障，因為我們仍然需要使用 D2D 來呈現回緩衝區。 請注意，當我們建立了後置緩衝區的已包裝資源時，我們將轉譯目標狀態指定為「處於」狀態，並將目前狀態指定為「OUT」狀態。
 
@@ -343,7 +343,7 @@ void D3D1211on12::RenderUI()
 
 
 
- 
+ 
 
 ## <a name="run-the-sample"></a>執行範例
 
@@ -365,6 +365,6 @@ void D3D1211on12::RenderUI()
 [11on12 參考](direct3d-11on12-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
