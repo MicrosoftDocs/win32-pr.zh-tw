@@ -3,12 +3,12 @@ description: 使用自訂資料格式處理常式來擴充剪貼簿。
 title: 如何建立資料處理程式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 33ecc08769068d975c1fa16ef1385f362c67e43c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f0a3761b4dc8ce3e7d50d967d2267971537d3609e7a7cf76785623734558adac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104991566"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119715048"
 ---
 # <a name="how-to-create-data-handlers"></a>如何建立資料處理程式
 

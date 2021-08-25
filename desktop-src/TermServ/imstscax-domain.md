@@ -64,12 +64,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: faf95c02de10fe8db38a53b75d4d20cf796020f8
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 498098b57ef5ecb19958f6ef0e082022a92f15bab7f1fbfc74bef62d928e8726
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934971"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120125428"
 ---
 # <a name="imstscaxdomain-property"></a>IMsTscAx：:D omain 屬性
 

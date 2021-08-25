@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Ntdll.dll
-ms.openlocfilehash: 96862836d3f9c16034ce1c2e751aebea2884d114
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f45ee39e9599e2d77d77131eb64c2a9037de1f4ba31f907ac5c9ea562a706c27
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106987927"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120032188"
 ---
 # <a name="ntgetcurrentprocessornumber-function"></a>NtGetCurrentProcessorNumber 函式
 

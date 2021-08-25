@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Wiaguid.lib
 - Wiaguid.dll
-ms.openlocfilehash: 623cc21591289f4c1fff33cabe1d504b3682708c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ff19619b1f0ab46658d0876792248befd6940c525d5c7da1b3331f6ca1a8c12e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191395"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119813898"
 ---
 # <a name="iwiatransfer-interface"></a>IWiaTransfer 介面
 
@@ -54,7 +54,7 @@ ms.locfileid: "104191395"
 
 
 
-| IUnknown 方法                                        | Description                               |
+| IUnknown 方法                                        | 描述                               |
 |---------------------------------------------------------|-------------------------------------------|
 | [IUnknown：： QueryInterface](/windows/win32/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) | 傳回受支援介面的指標。 |
 | [IUnknown：： AddRef](/windows/win32/api/unknwn/nf-unknwn-iunknown-addref)                 | 遞增參考次數。               |
@@ -70,10 +70,10 @@ ms.locfileid: "104191395"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                         |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                   |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                         |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                   |
 | 標頭<br/>                   | <dl> <dt>Wia</dt> </dl>       |
-| Idl<br/>                      | <dl> <dt>Wia .idl</dt> </dl>     |
+| IDL<br/>                      | <dl> <dt>Wia .idl</dt> </dl>     |
 | 程式庫<br/>                  | <dl> <dt>Wiaguid .lib</dt> </dl> |
 
 

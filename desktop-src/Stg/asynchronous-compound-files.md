@@ -4,12 +4,12 @@ description: 非同步複合檔案是系統提供的非同步儲存體執行，�
 ms.assetid: 6cad074e-07a8-434f-a402-e29cb66a1a18
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 04de2162b50283b12bc8deed6ec908d92e7584d7
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: d15404f33041fb52f5baa5230f69434ce390b985c41374235c1f3979ef6c2f4b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104376269"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120034981"
 ---
 # <a name="asynchronous-compound-files"></a>非同步複合檔案
 
@@ -25,6 +25,6 @@ ms.locfileid: "104376269"
 
 非同步儲存和資料流程物件提供 [**IProgressNotify**](/windows/win32/api/objidl/nn-objidl-iprogressnotify) 介面的連接點，該介面是由非同步標記下載程式代碼所執行。 非同步複合檔案執行會呼叫 **IProgressNotify** ，以提供下載作業狀態相關資訊給下載程式。
 
- 
+ 
 
- 
+ 

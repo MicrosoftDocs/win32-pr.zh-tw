@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: d8653662a3ea4500a878009506f2518b10bcf370
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6bca4a1ebb4e4a8697b1dbcab9e9d38519c601fa3e5efaf99f4498c3138fdafc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319791"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120021148"
 ---
 # <a name="esentcheckpointdepthtoodeepexception-constructor"></a>EsentCheckpointDepthTooDeepException 函式
 

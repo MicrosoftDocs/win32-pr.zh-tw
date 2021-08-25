@@ -4,12 +4,12 @@ ms.assetid: 410143a4-9357-43d6-bdb3-c2a4549fe644
 title: 正在收集使用者的安裝資訊
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fa8c04a3cd7942dc73728c2dcff5a17121287590
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 415ca3d90ea03a4164e0d0754671630f7e38d0b7f5a4f61f1216eea4e485754f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103849443"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120126418"
 ---
 # <a name="gathering-setup-information-from-the-user"></a>正在收集使用者的安裝資訊
 

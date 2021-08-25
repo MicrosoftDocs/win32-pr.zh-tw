@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 49d6944c4a28c956356fef430e47bc8636082930
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 0fe5001de0f397be94e61ffa4118db0e9b6c76debedf84cc1f93cbfe468abc82
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110477"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120064878"
 ---
 # <a name="invoke-method-of-the-cim_osversioncheck-class"></a>CIM OSVersionCheck 類別的 Invoke 方法 \_
 

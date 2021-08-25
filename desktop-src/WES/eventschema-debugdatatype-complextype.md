@@ -1,6 +1,6 @@
 ---
 title: DebugDataType 複雜類型
-description: 定義可以針對 Windows 軟體追蹤預處理器 (的 WPP) 事件記錄的資料。
+description: 定義可以記錄 Windows 軟體追蹤預處理器 (WPP) 事件的資料。
 ms.assetid: 75638e0f-7a26-473e-a0c4-bd8972ac171f
 keywords:
 - DebugDataType 複雜類型 EventLog
@@ -13,16 +13,16 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: c190d3b2b0e870ac249fed03485828685d5dc770
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 38d5ec0297fce91b28592dfb9a894a62d3558f516a01ff18c942d37cc9c93f2d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104024521"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120124228"
 ---
 # <a name="debugdatatype-complex-type"></a>DebugDataType 複雜類型
 
-定義可以針對 Windows 軟體追蹤預處理器 (的 WPP) 事件記錄的資料。
+定義可以記錄 Windows 軟體追蹤預處理器 (WPP) 事件的資料。
 
 ``` syntax
 <xs:complexType name="DebugDataType">
@@ -75,12 +75,12 @@ ms.locfileid: "104024521"
 
 
 
-| 元素                                                                    | 類型        | Description                                                                                                        |
+| 元素                                                                    | 類型        | 描述                                                                                                        |
 |----------------------------------------------------------------------------|-------------|--------------------------------------------------------------------------------------------------------------------|
 | [**元件**](eventschema-component-debugdatatype-element.md)           | 字串      | 記錄追蹤訊息的元件名稱。<br/>                                                |
 | [**FileLine**](eventschema-fileline-debugdatatype-element.md)             | 字串      | 來源檔案的名稱，以及記錄追蹤訊息之原始程式檔內的行。<br/>          |
 | [**FlagsName**](eventschema-flagname-debugdatatype-element.md)            | 字串      | 啟用時傳遞給提供者的旗標值。<br/>                                              |
-| [**功能**](eventschema-function-debugdatatype-element.md)             | unsignedInt | 記錄追蹤訊息的函數名稱。<br/>                                                 |
+| [**Function**](eventschema-function-debugdatatype-element.md)             | unsignedInt | 記錄追蹤訊息的函數名稱。<br/>                                                 |
 | [**LevelName**](eventschema-levelname-debugdatatype-element.md)           | 字串      | 啟用時傳遞給提供者的層級值。<br/>                                             |
 | [**消息**](eventschema-message-debugdatatype-element.md)               | 字串      | 訊息字串。 如果 WPP 事件指定了 FormattedString 欄位，XML 就會包含這個元素。<br/> |
 | [**SequenceNumber**](eventschema-sequencenumber-debugdatatype-element.md) | unsignedInt | 追蹤訊息的本機或全域序號。<br/>                                               |
@@ -98,8 +98,8 @@ ms.locfileid: "104024521"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

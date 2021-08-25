@@ -1,19 +1,19 @@
 ---
-description: GDI + 的向量圖形部分是用來繪製線條、繪製曲線，以及繪製和填滿圖案。
+description: GDI+ 的向量圖形部分是用來繪製線條、繪製曲線，以及繪製和填滿圖案。
 ms.assetid: b610faa5-f0ef-4479-b55b-29004d8342d2
 title: 線條、曲線和形狀
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 15760228fc387df6aa27c773cd297972c049f191
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b4d31b48c13660e331d99548e125078c833a63ad34f27b3f367043893509cfb4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972872"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119778648"
 ---
 # <a name="lines-curves-and-shapes"></a>線條、曲線和形狀
 
-GDI + 的向量圖形部分是用來繪製線條、繪製曲線，以及繪製和填滿圖案。
+GDI+ 的向量圖形部分是用來繪製線條、繪製曲線，以及繪製和填滿圖案。
 
 -   [向量圖形的概觀](-gdiplus-overview-of-vector-graphics-about.md)
 -   [畫筆、線條和矩形](-gdiplus-pens-lines-and-rectangles-about.md)

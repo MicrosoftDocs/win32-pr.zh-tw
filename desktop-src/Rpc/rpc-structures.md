@@ -6,19 +6,19 @@ keywords:
 - 遠端程序呼叫 RPC、參考、結構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b94d03209af8b14f87cd8b15929389b6eb524833
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: c59552f775b56519620e46c610bef234fba488d4d6e0a7dfe7d4266e7ae2c50e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103682883"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120018209"
 ---
 # <a name="rpc-structures"></a>RPC 結構
 
 本節說明 Microsoft RPC 定義和使用的結構。
 
 -   [**NDR \_ SCONTEXT**](/previous-versions/aa374336(v=vs.80))
--   [**Guid**](/windows/win32/api/guiddef/ns-guiddef-guid)
+-   [**GUID**](/windows/win32/api/guiddef/ns-guiddef-guid)
 -   [**NDR \_ 使用者 \_ 封送處理 \_ 資訊**](/windows/win32/api/Rpcndr/ns-rpcndr-ndr_user_marshal_info)
 -   [**NDR \_ 使用者 \_ 封送處理 \_ 資訊 \_ 1-1**](/windows/win32/api/Rpcndr/ns-rpcndr-ndr_user_marshal_info_level1)
 -   [**RPC \_ 非同步 \_ 通知 \_ 資訊**](/windows/win32/api/Rpcasync/ns-rpcasync-rpc_async_notification_info)
@@ -33,7 +33,7 @@ ms.locfileid: "103682883"
 -   [**RPC \_ 呼叫 \_ 本機 \_ 位址 \_ V1**](/windows/win32/api/Rpcasync/ns-rpcasync-rpc_call_local_address_v1)
 -   [**RPC \_ 用戶端 \_ 介面**](/windows/win32/api/RpcdceP/ns-rpcdcep-rpc_client_interface)
 -   [**RPC \_ 分派 \_ 資料表**](/windows/win32/api/RpcdceP/ns-rpcdcep-rpc_dispatch_table)
--   [**RPC \_ EE \_ 資訊 \_ 參數**](/windows/win32/api/rpcasync/ns-rpcasync-rpc_ee_info_param)
+-   [**RPC \_ EE \_ INFO \_ 參數**](/windows/win32/api/rpcasync/ns-rpcasync-rpc_ee_info_param)
 -   [**RPC \_ 端點 \_ 範本**](/windows/win32/api/Rpcdce/ns-rpcdce-rpc_endpoint_template)
 -   [**RPC \_ 錯誤 \_ 列舉 \_ 控制碼**](/windows/win32/api/rpcasync/ns-rpcasync-rpc_error_enum_handle)
 -   [**RPC \_ 延伸 \_ 錯誤 \_ 資訊**](/windows/win32/api/rpcasync/ns-rpcasync-rpc_extended_error_info)
@@ -52,9 +52,9 @@ ms.locfileid: "103682883"
 -   [**RPC \_ 安全性 \_ QOS \_ V5**](/windows/win32/api/Rpcdce/ns-rpcdce-rpc_security_qos_v5_a)
 -   [**RPC \_ 統計資料 \_ 向量**](/windows/win32/api/Rpcdce/ns-rpcdce-rpc_stats_vector)
 -   [**秒的 \_ WINNT \_ 驗證身分 \_ 識別**](/windows/win32/api/Rpcdce/ns-rpcdce-sec_winnt_auth_identity_a)
--   [**Uuid**](./rpcdce/ns-rpcdce-uuid.md)
+-   [**UUID**](./rpcdce/ns-rpcdce-uuid.md)
 -   [**UUID \_ 向量**](/windows/win32/api/rpcdce/ns-rpcdce-uuid_vector)
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ ms.assetid: cb599a4d-80dd-40fe-b448-f9ea58f01124
 title: 線條設定
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8722dab15763822f6535783ecc8bc18e681e13ac
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3d3705854a5bd485dba01452a3885e52c3c2d0baf0d495a65a2db24d75894eeb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848277"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120126248"
 ---
 # <a name="line-configurations"></a>線條設定
 

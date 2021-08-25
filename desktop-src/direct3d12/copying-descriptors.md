@@ -5,12 +5,12 @@ ms.assetid: 65AE4D96-6221-46B5-BF55-F86479FCF97C
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 14fdec6c76f29800f2a0e42bde76b32ebc794275
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ce02abfb433b36738de0fd62285e44b2f065ac017217a1e61f8c305e8ca76228
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "74104125"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120069698"
 ---
 # <a name="copying-descriptors"></a>複製描述項
 
@@ -35,9 +35,9 @@ ms.locfileid: "74104125"
 [描述項](descriptors.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

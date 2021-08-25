@@ -14,16 +14,16 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 14086639db299038139e0e7d02eb12bb892042bd
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 635bc169b1f68e2ef29e85e9e7ef800868453dd7221d08eda7953eda277ae423
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104094064"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120035908"
 ---
 # <a name="rtmcreateenumerationhandle-function"></a>RtmCreateEnumerationHandle 函式
 
-\[此 API 已由 [路由表管理員第2版](about-routing-table-manager-version-2.md) api 取代，而且將無法在 Windows Server 2003 之外使用。 應用程式應該使用路由表管理員第2版 API。\]
+\[此 api 已由[路由表管理員第2版](about-routing-table-manager-version-2.md)api 取代，而且將無法在 Windows Server 2003 之外使用。 應用程式應該使用路由表管理員第2版 API。\]
 
 **RtmCreateEnumerationHandle** 函式會傳回要搭配 [**RtmEnumerateGetNextRoute**](rtmenumerategetnextroute.md)使用的控制碼，以掃描路由表管理員已知的所有路由或路由的子集。
 

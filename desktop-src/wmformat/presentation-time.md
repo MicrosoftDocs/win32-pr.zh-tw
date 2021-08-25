@@ -3,18 +3,18 @@ title: 呈現時間
 description: 呈現時間
 ms.assetid: 856e1783-85b4-4195-970f-3d7b5612672b
 keywords:
-- Windows Media Format SDK，簡報時間
+- Windows媒體格式 SDK，簡報時間
 - Advanced Systems Format (ASF) ，簡報時間
 - ASF (Advanced Systems Format) ，簡報時間
 - 展示時間
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3bc88dbba93d1fc68905a4bfea92328a4ef600eb
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c2dea9181552b42508745b256768b2c5ceb4443a057fc5d7d7a5a44410c788fa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104301732"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119807908"
 ---
 # <a name="presentation-time"></a>呈現時間
 
@@ -33,9 +33,9 @@ ms.locfileid: "104301732"
 [**媒體範例**](media-samples.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 29661a58-ada9-4b7c-8d85-ab65b824c7cd
 title: " (核心交易管理員的交易) "
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bff77ae0d89f5e334319ea0b7b73c27a4b34b57e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 471d2ece52d510c1a77baa59ee3af980c4e4630a17d0911fdcbe590bad78903f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106978925"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119913878"
 ---
 # <a name="transactions"></a>交易
 

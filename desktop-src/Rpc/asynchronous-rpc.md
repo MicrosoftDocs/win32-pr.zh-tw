@@ -7,12 +7,12 @@ keywords:
 - 非同步 RPC
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e36ac79a30fd01aeba1efb3cbd2b7cc741f26238
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 42f4a5f160054f78f0a5737993d1a030957af930ab036e73dbcea0a039125964
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104093087"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120023538"
 ---
 # <a name="asynchronous-rpc"></a>非同步 RPC
 
@@ -36,6 +36,6 @@ ms.locfileid: "104093087"
 -   [使用具有 DCE 管道的非同步 RPC](using-asynchronous-rpc-with-dce-pipes.md)
 -   [非同步 DCOM](asynchronous-dcom.md)
 
- 
+ 
 
- 
+ 

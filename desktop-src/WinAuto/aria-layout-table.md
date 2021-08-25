@@ -6,12 +6,12 @@ keywords:
 - AriaLayoutTableErrorId
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2ae1ef7cae971e6dc365bd3f8ebe6135561f3ff3
-ms.sourcegitcommit: 773fa6257ead6c74154ad3cf46d21e49adc900aa
+ms.openlocfilehash: 896c7ec4061119535ed544cfc41598c1387d98011eb275f6a0345d9334a7dc9e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "103684179"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120122280"
 ---
 # <a name="aria-presentation-table-error"></a>ARIA 展示表錯誤
 
@@ -43,9 +43,9 @@ ms.locfileid: "103684179"
 
 如果您判斷資料表確實需要協助工具資訊，請移除 [**role**](https://developer.mozilla.org/docs/Web/HTML/Reference) 屬性，或將它設定為 [presentation] 以外的值。
 
- 
+ 
 
- 
+ 
 
 
 

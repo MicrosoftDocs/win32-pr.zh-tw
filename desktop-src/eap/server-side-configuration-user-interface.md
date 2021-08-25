@@ -4,12 +4,12 @@ description: 藉由執行 COM 介面 IEAPProviderConfig，來為伺服器執行�
 ms.assetid: b205c573-6694-42c0-b4f1-1480932dd644
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e0904c90fea2bef3ccc00c00135be09a711d8454
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 92bf6a1f5b5f0e1302e68dd8ca9070771bfbc7714759a384f67782ffdad6e2ae
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104314968"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120021808"
 ---
 # <a name="server-side-configuration-user-interface"></a>Server-Side 設定消費者介面
 
@@ -23,6 +23,6 @@ UI 應該支援遠端系統管理。 換句話說，雖然 UI 會設定伺服器
 
 如果使用者同時連線到多部電腦，則會具現化多個設定 UI 物件。
 
- 
+ 
 
- 
+ 

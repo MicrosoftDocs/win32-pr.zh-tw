@@ -4,12 +4,12 @@ ms.assetid: f0729dc5-6b5f-4f24-85d6-47c45f1bf9be
 title: NPP 結構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2b514bded37450f6a7c33a016b231bb38f0c1812
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 79f80532e3e95743ee08f93d44961018e2154bcdc4bce292789ae0968c3d9200
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973680"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119778698"
 ---
 # <a name="npp-structures"></a>NPP 結構
 
@@ -17,7 +17,7 @@ ms.locfileid: "106973680"
 
 
 
-| NPP 結構                     | Description                                                                                                                      |
+| NPP 結構                     | 描述                                                                                                                      |
 |------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|
 | [SESSIONSTATS](sessionstats.md)   | 提供抓取交談統計資料時的會話資訊。                                                         |
 | [STATIONSTATS](stationstats.md)   | 提供特定 [*工作站*](s.md)的相關統計資料。                                                     |

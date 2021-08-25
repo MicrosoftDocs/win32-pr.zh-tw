@@ -7,12 +7,12 @@ keywords:
 - AVIStreamRelease 函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ec4462e261f1480129c073b70ddc61f91a422c8c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a35f678f2858d590956bc3ba724abacd12d2047e337fc8428934e0e32005bb24
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021164"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120038308"
 ---
 # <a name="opening-and-closing-streams"></a>開啟和關閉資料流程
 
@@ -26,9 +26,9 @@ ms.locfileid: "104021164"
 
 您可以使用 [**AVIStreamRelease**](/windows/desktop/api/Vfw/nf-vfw-avistreamrelease) 函數來關閉資料流程。 此函式會遞減資料流程的參考計數，並在參考計數到達零時將其關閉。 您的應用程式應在每次使用 [**AVIFileGetStream**](/windows/desktop/api/Vfw/nf-vfw-avifilegetstream)、 [**AVIFileCreateStream**](/windows/desktop/api/Vfw/nf-vfw-avifilecreatestream)、 **AVIStreamAddRef** 或 **AVIStreamOpenFromFile** 函數時包含呼叫 **AVIStreamRelease** ，以平衡參考計數。 當您釋放使用 **AVIStreamOpenFromFile** 開啟的資料流程時，AVIFile 會關閉包含該資料流程的檔案。 如果您的應用程式釋出具有開啟資料流程的檔案，則 AVIFile 會等到所有資料流程都釋出之後，才會關閉資料流程。
 
- 
+ 
 
- 
+ 
 
 
 

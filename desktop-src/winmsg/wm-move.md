@@ -4,12 +4,12 @@ ms.assetid: 552ddc26-fe63-449b-8c82-bb927a2c1c41
 title: 'WM_MOVE 訊息 (Winuser .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 56004ec47266a50bf2ac82a828b9046c84a8ebfb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 84c18d7a4f4411f45a3338a057a60942d01905ccefd25b40ee511d3b8a5d915d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106995836"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119810468"
 ---
 # <a name="wm_move-message"></a>WM \_ 移動訊息
 
@@ -75,7 +75,7 @@ yPos = (int)(short) HIWORD(lParam);   // vertical position
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                               |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 

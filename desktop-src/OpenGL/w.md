@@ -10,12 +10,12 @@ keywords:
 - 著色
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f1f6f1897af46c85ed48171d251ebe1b2de8c5e1
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: cab63248917d4490d6b577ac490ef6185e173e8b78031a055625e246c17e5485
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103685351"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119887828"
 ---
 # <a name="w-opengl"></a>W (OpenGL) 
 

@@ -16,12 +16,12 @@ api_location: ''
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 72b713907924a9d14227e879cc4a6cae907a20c4a86dc4336c7d6f23ecf7c40e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: eb304a89faca2381f8c8c0ede6ba743f740c4d0f
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118745102"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122468895"
 ---
 # <a name="span-idwwan_profile_v4element_dataroamingpartnersspandataroamingpartners"></a><span id="WWAN_profile_v4.element_DataRoamingPartners"></span>DataRoamingPartners
 
@@ -57,66 +57,29 @@ ms.locfileid: "118745102"
 
 ### <a name="span-idchild_elementsspanspan-idchild_elementsspanspan-idchild_elementsspanchild-elements"></a><span id="Child_Elements"></span><span id="child_elements"></span><span id="CHILD_ELEMENTS"></span>子項目
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>子元素</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="element-provider.md">提供者</a></td>
-<td><p>在漫遊時所要使用的提供者清單中，指定一個慣用的網路提供者。</p>
-<p>這個元素的值是 v1 <a href="../mbn/schema-providertype-complextype.md"><strong>providerType</strong></a> 複雜型別的實例。</p></td>
-</tr>
-</tbody>
-</table>
+
+| 子元素 | Description | 
+|---------------|-------------|
+| <a href="element-provider.md">提供者</a> | <p>在漫遊時所要使用的提供者清單中，指定一個慣用的網路提供者。</p><p>這個元素的值是 v1 <a href="../mbn/schema-providertype-complextype.md"><strong>providerType</strong></a> 複雜型別的實例。</p> | 
+
 
  
 
 ### <a name="span-idparent_elementsspanspan-idparent_elementsspanparent-elements"></a><span id="parent_elements"></span><span id="PARENT_ELEMENTS"></span>父元素
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Parent 項目</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="element-mbnprofileext.md">MBNProfileExt</a></td>
-<td><p><strong>MBNProfileExt</strong>元素是先前 MBNProfile 專案的延伸模組。 它會以比 MBNProfile 元素更豐富的選項組來識別行動寬頻設定檔。</p>
-<p>設定檔中可以有一個以上的 MbnProfileExt 元素，描述一組特定作業條件的設定檔設定。 使用<strong>MBNProfileExt</strong>的<a href="element-profileconditionedon.md"><strong>ProfileConditionedOn</strong></a>子項目，以指定哪些作業條件會將特定的設定檔設為使用中的設定檔。</p></td>
-</tr>
-</tbody>
-</table>
+
+| Parent 項目 | Description | 
+|----------------|-------------|
+| <a href="element-mbnprofileext.md">MBNProfileExt</a> | <p><strong>MBNProfileExt</strong>元素是先前 MBNProfile 專案的延伸模組。 它會以比 MBNProfile 元素更豐富的選項組來識別行動寬頻設定檔。</p><p>設定檔中可以有一個以上的 MbnProfileExt 元素，描述一組特定作業條件的設定檔設定。 使用<strong>MBNProfileExt</strong>的<a href="element-profileconditionedon.md"><strong>ProfileConditionedOn</strong></a>子項目，以指定哪些作業條件會將特定的設定檔設為使用中的設定檔。</p> | 
+
 
  
 
 ## <a name="requirements"></a>規格需求
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>命名空間</p></td>
-<td><p>https://www.microsoft.com/networking/WWAN/profile/v4</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p>命名空間</p> | <p>https://www.microsoft.com/networking/WWAN/profile/v4</p> | 
+
 
  
 

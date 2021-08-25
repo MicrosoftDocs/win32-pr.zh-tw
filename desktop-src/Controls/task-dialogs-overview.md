@@ -4,12 +4,12 @@ description: 工作對話方塊是一個對話方塊，可用來顯示資訊，�
 ms.assetid: vs|controls|~\controls\toolbar\taskdialogsoverview.htm
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2eb5cafa452a4ed653c404d053e888c6de644236
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f2367e3cadff68f10af9d883d4ed7959e4e862a6f406a83361ea2f40b2f69c78
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103932053"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120061422"
 ---
 # <a name="about-task-dialogs"></a>關於工作對話方塊
 
@@ -18,7 +18,7 @@ ms.locfileid: "103932053"
 > [!Note]  
 > 工作對話方塊需要單一執行緒的單元 (STA) 模型。
 
- 
+ 
 
 ## <a name="parts-of-a-task-dialog"></a>工作對話方塊的元件
 
@@ -51,11 +51,11 @@ ms.locfileid: "103932053"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

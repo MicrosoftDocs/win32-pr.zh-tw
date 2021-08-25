@@ -4,12 +4,12 @@ description: 本章節包含與按鈕控制項搭配使用之程式設計項目�
 ms.assetid: vs|controls|~\controls\buttons\buttons.htm
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: babe31ec9f11ee445167e57394da0fa88fd781dd
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: d50b9bf5875bc063d8b74626c528d5ec057492c4
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104464049"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122471294"
 ---
 # <a name="button-windows-controls"></a>按鈕 (Windows 控制項)
 
@@ -112,110 +112,25 @@ ms.locfileid: "104464049"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>主題</th>
-<th>目錄</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="bcn-dropdown.md">BCN_DROPDOWN</a></td>
-<td>當使用者按一下按鈕上的下拉箭號時傳送。 控制項的父視窗會以 <a href="wm-notify.md"><strong>WM_NOTIFY</strong></a> 訊息的形式接收此通知碼。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="bcn-hotitemchange.md">BCN_HOTITEMCHANGE</a></td>
-<td>通知按鈕控制項擁有者滑鼠正在進入或離開按鈕控制項的工作區。 按鈕控制項會以 <a href="wm-notify.md"><strong>WM_NOTIFY</strong></a> 訊息的形式傳送此通知碼。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="bn-clicked.md">BN_CLICKED</a></td>
-<td>當使用者按一下按鈕時傳送。 <br/> 按鈕的父視窗會透過<a href="/windows/desktop/menurc/wm-command"><strong>WM_COMMAND</strong></a>訊息接收<a href="bn-clicked.md">BN_CLICKED</a>通知程式碼。 <br/></td>
-</tr>
-<tr class="even">
-<td><a href="bn-dblclk.md">BN_DBLCLK</a></td>
-<td>當使用者按兩下按鈕時傳送。 系統會自動為 <a href="button-styles.md"><strong>BS_USERBUTTON</strong></a>、 <a href="button-styles.md"><strong>BS_RADIOBUTTON</strong></a>和 <a href="button-styles.md"><strong>BS_OWNERDRAW</strong></a> 按鈕傳送此通知碼。 其他按鈕類型只有在具有<a href="button-styles.md"><strong>BS_NOTIFY</strong></a>樣式時，才會傳送<a href="bn-dblclk.md">BN_DBLCLK</a> 。<br/> 按鈕的父視窗會透過<a href="/windows/desktop/menurc/wm-command"><strong>WM_COMMAND</strong></a>訊息接收<a href="bn-dblclk.md">BN_DBLCLK</a>通知程式碼。 <br/></td>
-</tr>
-<tr class="odd">
-<td><a href="bn-disable.md">BN_DISABLE</a></td>
-<td>停用按鈕時傳送。
-<blockquote>
-[!Note]<br />
-此通知碼僅提供與3.0 版之前的16位 Windows 版本的相容性。 應用程式應該使用這項工作的 <a href="button-styles.md"><strong>BS_OWNERDRAW</strong></a> 按鈕樣式和 <a href="/windows/win32/api/winuser/ns-winuser-drawitemstruct"><strong>DRAWITEMSTRUCT</strong></a> 結構。
-</blockquote>
-<br/> <br/> 按鈕的父視窗會透過<a href="/windows/desktop/menurc/wm-command"><strong>WM_COMMAND</strong></a>訊息接收<a href="bn-disable.md">BN_DISABLE</a>通知程式碼。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="bn-doubleclicked.md">BN_DOUBLECLICKED</a></td>
-<td>當使用者按兩下按鈕時傳送。 系統會自動為 <a href="button-styles.md"><strong>BS_USERBUTTON</strong></a>、 <a href="button-styles.md"><strong>BS_RADIOBUTTON</strong></a>和 <a href="button-styles.md"><strong>BS_OWNERDRAW</strong></a> 按鈕傳送此通知碼。 其他按鈕類型只有在具有<a href="button-styles.md"><strong>BS_NOTIFY</strong></a>樣式時，才會傳送<a href="bn-doubleclicked.md">BN_DOUBLECLICKED</a> 。<br/> 按鈕的父視窗會透過<a href="/windows/desktop/menurc/wm-command"><strong>WM_COMMAND</strong></a>訊息接收<a href="bn-doubleclicked.md">BN_DOUBLECLICKED</a>通知程式碼。 <br/></td>
-</tr>
-<tr class="odd">
-<td><a href="bn-hilite.md">BN_HILITE</a></td>
-<td>當使用者選取按鈕時傳送。
-<blockquote>
-[!Note]<br />
-此通知碼僅提供與3.0 版之前的16位 Windows 版本的相容性。 應用程式應該使用這項工作的 <a href="button-styles.md"><strong>BS_OWNERDRAW</strong></a> 按鈕樣式和 <a href="/windows/win32/api/winuser/ns-winuser-drawitemstruct"><strong>DRAWITEMSTRUCT</strong></a> 結構。
-</blockquote>
-<br/> <br/> 按鈕的父視窗會透過<a href="/windows/desktop/menurc/wm-command"><strong>WM_COMMAND</strong></a>訊息接收<a href="bn-hilite.md">BN_HILITE</a>通知程式碼。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="bn-killfocus.md">BN_KILLFOCUS</a></td>
-<td>當按鈕失去鍵盤焦點時傳送。 按鈕必須有 <a href="button-styles.md"><strong>BS_NOTIFY</strong></a> 樣式才能傳送此通知碼。 <br/> 按鈕的父視窗會透過<a href="/windows/desktop/menurc/wm-command"><strong>WM_COMMAND</strong></a>訊息接收<a href="bn-killfocus.md">BN_KILLFOCUS</a>通知程式碼。 <br/></td>
-</tr>
-<tr class="odd">
-<td><a href="bn-paint.md">BN_PAINT</a></td>
-<td>在應繪製按鈕時傳送。
-<blockquote>
-[!Note]<br />
-此通知碼僅提供與3.0 版之前的16位 Windows 版本的相容性。 應用程式應該使用這項工作的 <a href="button-styles.md"><strong>BS_OWNERDRAW</strong></a> 按鈕樣式和 <a href="/windows/win32/api/winuser/ns-winuser-drawitemstruct"><strong>DRAWITEMSTRUCT</strong></a> 結構。
-</blockquote>
-<br/> <br/> 按鈕的父視窗會透過<a href="/windows/desktop/menurc/wm-command"><strong>WM_COMMAND</strong></a>訊息接收<a href="bn-paint.md">BN_PAINT</a>通知程式碼。 <br/></td>
-</tr>
-<tr class="even">
-<td><a href="bn-pushed.md">BN_PUSHED</a></td>
-<td>當按鈕的推送狀態設定為推送時傳送。
-<blockquote>
-[!Note]<br />
-此通知碼僅提供與3.0 版之前的16位 Windows 版本的相容性。 應用程式應該使用這項工作的 <a href="button-styles.md"><strong>BS_OWNERDRAW</strong></a> 按鈕樣式和 <a href="/windows/win32/api/winuser/ns-winuser-drawitemstruct"><strong>DRAWITEMSTRUCT</strong></a> 結構。
-</blockquote>
-<br/> <br/> 按鈕的父視窗會透過<a href="/windows/desktop/menurc/wm-command"><strong>WM_COMMAND</strong></a>訊息接收<a href="bn-pushed.md">BN_PUSHED</a>通知程式碼。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="bn-setfocus.md">BN_SETFOCUS</a></td>
-<td>當按鈕收到鍵盤焦點時傳送。 按鈕必須有 <a href="button-styles.md"><strong>BS_NOTIFY</strong></a> 樣式才能傳送此通知碼。 <br/> 按鈕的父視窗會透過<a href="/windows/desktop/menurc/wm-command"><strong>WM_COMMAND</strong></a>訊息接收<a href="bn-setfocus.md">BN_SETFOCUS</a>通知程式碼。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="bn-unhilite.md">BN_UNHILITE</a></td>
-<td>當醒目提示應該從按鈕移除時傳送。
-<blockquote>
-[!Note]<br />
-此通知碼僅提供與3.0 版之前的16位 Windows 版本的相容性。 應用程式應該使用這項工作的 <a href="button-styles.md"><strong>BS_OWNERDRAW</strong></a> 按鈕樣式和 <a href="/windows/win32/api/winuser/ns-winuser-drawitemstruct"><strong>DRAWITEMSTRUCT</strong></a> 結構。
-</blockquote>
-<br/> <br/> 按鈕的父視窗會透過<a href="/windows/desktop/menurc/wm-command"><strong>WM_COMMAND</strong></a>訊息接收<a href="bn-unhilite.md">BN_UNHILITE</a>通知程式碼。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="bn-unpushed.md">BN_UNPUSHED</a></td>
-<td>當按鈕的推送狀態設定為未推送時傳送。
-<blockquote>
-[!Note]<br />
-此通知碼僅提供與3.0 版之前的16位 Windows 版本的相容性。 應用程式應該使用這項工作的 <a href="button-styles.md"><strong>BS_OWNERDRAW</strong></a> 按鈕樣式和 <a href="/windows/win32/api/winuser/ns-winuser-drawitemstruct"><strong>DRAWITEMSTRUCT</strong></a> 結構。
-</blockquote>
-<br/> <br/> 按鈕的父視窗會透過<a href="/windows/desktop/menurc/wm-command"><strong>WM_COMMAND</strong></a>訊息接收<a href="bn-unpushed.md">BN_UNPUSHED</a>通知程式碼。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="nm-customdraw-button.md">NM_CUSTOMDRAW (按鈕) </a></td>
-<td>通知按鈕控制項的父視窗，有關按鈕上的自訂繪製作業。 <br/> 按鈕控制項會以 <a href="wm-notify.md"><strong>WM_NOTIFY</strong></a> 訊息的形式傳送此通知碼。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="wm-ctlcolorbtn.md"><strong>WM_CTLCOLORBTN</strong></a></td>
-<td>在繪製按鈕之前， <a href="wm-ctlcolorbtn.md"><strong>WM_CTLCOLORBTN</strong></a> 的訊息會傳送至按鈕的父視窗。 父視窗可以變更按鈕的文字和背景色彩。 不過，只有主控描繪的按鈕會回應父視窗處理此訊息。 <br/></td>
-</tr>
-</tbody>
-</table>
+
+| 主題 | 目錄 | 
+|-------|----------|
+| <a href="bcn-dropdown.md">BCN_DROPDOWN</a> | 當使用者按一下按鈕上的下拉箭號時傳送。 控制項的父視窗會以 <a href="wm-notify.md"><strong>WM_NOTIFY</strong></a> 訊息的形式接收此通知碼。<br /> | 
+| <a href="bcn-hotitemchange.md">BCN_HOTITEMCHANGE</a> | 通知按鈕控制項擁有者滑鼠正在進入或離開按鈕控制項的工作區。 按鈕控制項會以 <a href="wm-notify.md"><strong>WM_NOTIFY</strong></a> 訊息的形式傳送此通知碼。<br /> | 
+| <a href="bn-clicked.md">BN_CLICKED</a> | 當使用者按一下按鈕時傳送。 <br /> 按鈕的父視窗會透過<a href="/windows/desktop/menurc/wm-command"><strong>WM_COMMAND</strong></a>訊息接收<a href="bn-clicked.md">BN_CLICKED</a>通知程式碼。 <br /> | 
+| <a href="bn-dblclk.md">BN_DBLCLK</a> | 當使用者按兩下按鈕時傳送。 系統會自動為 <a href="button-styles.md"><strong>BS_USERBUTTON</strong></a>、 <a href="button-styles.md"><strong>BS_RADIOBUTTON</strong></a>和 <a href="button-styles.md"><strong>BS_OWNERDRAW</strong></a> 按鈕傳送此通知碼。 其他按鈕類型只有在具有<a href="button-styles.md"><strong>BS_NOTIFY</strong></a>樣式時，才會傳送<a href="bn-dblclk.md">BN_DBLCLK</a> 。<br /> 按鈕的父視窗會透過<a href="/windows/desktop/menurc/wm-command"><strong>WM_COMMAND</strong></a>訊息接收<a href="bn-dblclk.md">BN_DBLCLK</a>通知程式碼。 <br /> | 
+| <a href="bn-disable.md">BN_DISABLE</a> | 停用按鈕時傳送。<blockquote>[!Note]<br />此通知碼僅提供給3.0 版之前 Windows 的16位版本相容性。 應用程式應該使用這項工作的 <a href="button-styles.md"><strong>BS_OWNERDRAW</strong></a> 按鈕樣式和 <a href="/windows/win32/api/winuser/ns-winuser-drawitemstruct"><strong>DRAWITEMSTRUCT</strong></a> 結構。</blockquote><br /><br /> 按鈕的父視窗會透過<a href="/windows/desktop/menurc/wm-command"><strong>WM_COMMAND</strong></a>訊息接收<a href="bn-disable.md">BN_DISABLE</a>通知程式碼。<br /> | 
+| <a href="bn-doubleclicked.md">BN_DOUBLECLICKED</a> | 當使用者按兩下按鈕時傳送。 系統會自動為 <a href="button-styles.md"><strong>BS_USERBUTTON</strong></a>、 <a href="button-styles.md"><strong>BS_RADIOBUTTON</strong></a>和 <a href="button-styles.md"><strong>BS_OWNERDRAW</strong></a> 按鈕傳送此通知碼。 其他按鈕類型只有在具有<a href="button-styles.md"><strong>BS_NOTIFY</strong></a>樣式時，才會傳送<a href="bn-doubleclicked.md">BN_DOUBLECLICKED</a> 。<br /> 按鈕的父視窗會透過<a href="/windows/desktop/menurc/wm-command"><strong>WM_COMMAND</strong></a>訊息接收<a href="bn-doubleclicked.md">BN_DOUBLECLICKED</a>通知程式碼。 <br /> | 
+| <a href="bn-hilite.md">BN_HILITE</a> | 當使用者選取按鈕時傳送。<blockquote>[!Note]<br />此通知碼僅提供給3.0 版之前 Windows 的16位版本相容性。 應用程式應該使用這項工作的 <a href="button-styles.md"><strong>BS_OWNERDRAW</strong></a> 按鈕樣式和 <a href="/windows/win32/api/winuser/ns-winuser-drawitemstruct"><strong>DRAWITEMSTRUCT</strong></a> 結構。</blockquote><br /><br /> 按鈕的父視窗會透過<a href="/windows/desktop/menurc/wm-command"><strong>WM_COMMAND</strong></a>訊息接收<a href="bn-hilite.md">BN_HILITE</a>通知程式碼。<br /> | 
+| <a href="bn-killfocus.md">BN_KILLFOCUS</a> | 當按鈕失去鍵盤焦點時傳送。 按鈕必須有 <a href="button-styles.md"><strong>BS_NOTIFY</strong></a> 樣式才能傳送此通知碼。 <br /> 按鈕的父視窗會透過<a href="/windows/desktop/menurc/wm-command"><strong>WM_COMMAND</strong></a>訊息接收<a href="bn-killfocus.md">BN_KILLFOCUS</a>通知程式碼。 <br /> | 
+| <a href="bn-paint.md">BN_PAINT</a> | 在應繪製按鈕時傳送。<blockquote>[!Note]<br />此通知碼僅提供給3.0 版之前 Windows 的16位版本相容性。 應用程式應該使用這項工作的 <a href="button-styles.md"><strong>BS_OWNERDRAW</strong></a> 按鈕樣式和 <a href="/windows/win32/api/winuser/ns-winuser-drawitemstruct"><strong>DRAWITEMSTRUCT</strong></a> 結構。</blockquote><br /><br /> 按鈕的父視窗會透過<a href="/windows/desktop/menurc/wm-command"><strong>WM_COMMAND</strong></a>訊息接收<a href="bn-paint.md">BN_PAINT</a>通知程式碼。 <br /> | 
+| <a href="bn-pushed.md">BN_PUSHED</a> | 當按鈕的推送狀態設定為推送時傳送。<blockquote>[!Note]<br />此通知碼僅提供給3.0 版之前 Windows 的16位版本相容性。 應用程式應該使用這項工作的 <a href="button-styles.md"><strong>BS_OWNERDRAW</strong></a> 按鈕樣式和 <a href="/windows/win32/api/winuser/ns-winuser-drawitemstruct"><strong>DRAWITEMSTRUCT</strong></a> 結構。</blockquote><br /><br /> 按鈕的父視窗會透過<a href="/windows/desktop/menurc/wm-command"><strong>WM_COMMAND</strong></a>訊息接收<a href="bn-pushed.md">BN_PUSHED</a>通知程式碼。<br /> | 
+| <a href="bn-setfocus.md">BN_SETFOCUS</a> | 當按鈕收到鍵盤焦點時傳送。 按鈕必須有 <a href="button-styles.md"><strong>BS_NOTIFY</strong></a> 樣式才能傳送此通知碼。 <br /> 按鈕的父視窗會透過<a href="/windows/desktop/menurc/wm-command"><strong>WM_COMMAND</strong></a>訊息接收<a href="bn-setfocus.md">BN_SETFOCUS</a>通知程式碼。<br /> | 
+| <a href="bn-unhilite.md">BN_UNHILITE</a> | 當醒目提示應該從按鈕移除時傳送。<blockquote>[!Note]<br />此通知碼僅提供給3.0 版之前 Windows 的16位版本相容性。 應用程式應該使用這項工作的 <a href="button-styles.md"><strong>BS_OWNERDRAW</strong></a> 按鈕樣式和 <a href="/windows/win32/api/winuser/ns-winuser-drawitemstruct"><strong>DRAWITEMSTRUCT</strong></a> 結構。</blockquote><br /><br /> 按鈕的父視窗會透過<a href="/windows/desktop/menurc/wm-command"><strong>WM_COMMAND</strong></a>訊息接收<a href="bn-unhilite.md">BN_UNHILITE</a>通知程式碼。<br /> | 
+| <a href="bn-unpushed.md">BN_UNPUSHED</a> | 當按鈕的推送狀態設定為未推送時傳送。<blockquote>[!Note]<br />此通知碼僅提供給3.0 版之前 Windows 的16位版本相容性。 應用程式應該使用這項工作的 <a href="button-styles.md"><strong>BS_OWNERDRAW</strong></a> 按鈕樣式和 <a href="/windows/win32/api/winuser/ns-winuser-drawitemstruct"><strong>DRAWITEMSTRUCT</strong></a> 結構。</blockquote><br /><br /> 按鈕的父視窗會透過<a href="/windows/desktop/menurc/wm-command"><strong>WM_COMMAND</strong></a>訊息接收<a href="bn-unpushed.md">BN_UNPUSHED</a>通知程式碼。<br /> | 
+| <a href="nm-customdraw-button.md">NM_CUSTOMDRAW (按鈕) </a> | 通知按鈕控制項的父視窗，有關按鈕上的自訂繪製作業。 <br /> 按鈕控制項會以 <a href="wm-notify.md"><strong>WM_NOTIFY</strong></a> 訊息的形式傳送此通知碼。<br /> | 
+| <a href="wm-ctlcolorbtn.md"><strong>WM_CTLCOLORBTN</strong></a> | 在繪製按鈕之前， <a href="wm-ctlcolorbtn.md"><strong>WM_CTLCOLORBTN</strong></a> 的訊息會傳送至按鈕的父視窗。 父視窗可以變更按鈕的文字和背景色彩。 不過，只有主控描繪的按鈕會回應父視窗處理此訊息。 <br /> | 
+
 
 
 

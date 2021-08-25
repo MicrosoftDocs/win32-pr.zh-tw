@@ -1,7 +1,7 @@
 ---
-description: IStats：： Connect 方法-Connect 方法會使用指定的 NIC 將 NPP 連接到網路，並提供連線的設定資訊。
+description: IStats：：連線方法-連線方法會使用指定的 NIC 將 NPP 連接到網路，並提供連線的設定資訊。
 ms.assetid: 29a12df7-9c81-40ff-ac12-33ce1de833b1
-title: 'IStats：： Connect 方法 (Netmon. h) '
+title: 'IStats：：連線方法 (Netmon. h) '
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
@@ -14,16 +14,16 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: 0719b6ff56aaa8c0be02f86d62ac23d4003aa3d6
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: e6521e77453ec77f81422c7903b1a394512a4c1b
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108098476"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122471184"
 ---
-# <a name="istatsconnect-method"></a>IStats：： Connect 方法
+# <a name="istatsconnect-method"></a>IStats：：連線方法
 
-**Connect** 方法會使用指定的 NIC 將 NPP 連接到網路，並提供連線的設定資訊。
+**連線** 方法會使用指定的 NIC 將 NPP 連接到網路，並提供連線的設定資訊。
 
 ## <a name="syntax"></a>語法
 
@@ -79,65 +79,21 @@ BLOB 的控制碼，指定 NPP 連接的 NIC，以及該連接的設定資訊。
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>傳回碼</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><dl> <dt><strong>NMERR_ALREADY_CONNECTED</strong></dt> </dl></td>
-<td>NPP COM 物件的這個實例已連線到網路。<br/></td>
-</tr>
-<tr class="even">
-<td><dl> <dt><strong>NMERR_BLOB_CONVERSION_ERROR</strong></dt> </dl></td>
-<td>設定 BLOB 已損毀。 此錯誤是由 <strong>IStats：： Configure</strong> 呼叫所產生。<br/></td>
-</tr>
-<tr class="odd">
-<td><dl> <dt><strong>NMERR_BLOB_ENTRY_DOES_NOT_EXIST</strong></dt> </dl></td>
-<td><em>HInputBlob</em>參數所指定的輸入 BLOB 缺少執行這項作業所需的專案。 此錯誤可能是由 <strong>IStats：： Connect</strong> 或 <strong>IStats：： Configure</strong> 呼叫所產生。 查看 <em>hErrorBlob</em> 傳回的錯誤 BLOB，以判斷找不到哪個專案。<br/></td>
-</tr>
-<tr class="even">
-<td><dl> <dt><strong>NMERR_BLOB_NOT_INITIALIZED</strong></dt> </dl></td>
-<td>尚未呼叫 <strong>CreateBlob</strong> 函數。 此錯誤是由 <strong>IStats：： Configure</strong> 呼叫所產生。<br/></td>
-</tr>
-<tr class="odd">
-<td><dl> <dt><strong>NMERR_BLOB_STRING_INVALID</strong></dt> </dl></td>
-<td>字串不是以 null 結束。 此錯誤是由 <strong>IStats：： Configure</strong> 呼叫所產生。<br/></td>
-</tr>
-<tr class="even">
-<td><dl> <dt><strong>NMERR_ILLEGAL_TRIGGER</strong></dt> </dl></td>
-<td>輸入 BLOB 的觸發程式部分已損毀。 此錯誤是由 <strong>IStats：： Configure</strong> 呼叫所產生。<br/></td>
-</tr>
-<tr class="odd">
-<td><dl> <dt><strong>NMERR_INVALID_BLOB</strong></dt> </dl></td>
-<td><em>HInputBlob</em>中指定的物件不是 BLOB。 此錯誤是由 <strong>IStats：： Configure</strong> 呼叫所產生。<br/></td>
-</tr>
-<tr class="even">
-<td><dl> <dt><strong>NMERR_NO_DEFAULT_CAPTURE_DIRECTORY</strong></dt> </dl></td>
-<td>未在登錄中設定預設的 capture 目錄。 若要設定 capture 目錄，請使用下列路徑。 <br/>
-<pre class="syntax" data-space="preserve"><code>HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\nm\Parameters\CapturePath</code></pre></td>
-</tr>
-<tr class="odd">
-<td><dl> <dt><strong>NMERR_OUT_OF_MEMORY</strong></dt> </dl></td>
-<td>無法使用執行此作業所需的記憶體。 此錯誤是由 <strong>IStats：： Configure</strong> 呼叫所產生。<br/></td>
-</tr>
-<tr class="even">
-<td><dl> <dt><strong>NMERR_TIMEOUT</strong></dt> </dl></td>
-<td>要求已超時。此錯誤是由 <strong>IStats：： Configure</strong> 呼叫所產生。<br/></td>
-</tr>
-<tr class="odd">
-<td><dl> <dt><strong>NMERR_UPLEVEL_BLOB</strong></dt> </dl></td>
-<td><em>HInputBlob</em>中指定的 BLOB 版本號碼不正確。 此錯誤是由 <strong>IStats：： Configure</strong> 呼叫所產生。<br/></td>
-</tr>
-</tbody>
-</table>
+
+| 傳回碼 | Description | 
+|-------------|-------------|
+| <dl><dt><strong>NMERR_ALREADY_CONNECTED</strong></dt></dl> | NPP COM 物件的這個實例已連線到網路。<br /> | 
+| <dl><dt><strong>NMERR_BLOB_CONVERSION_ERROR</strong></dt></dl> | 設定 BLOB 已損毀。 此錯誤是由 <strong>IStats：： Configure</strong> 呼叫所產生。<br /> | 
+| <dl><dt><strong>NMERR_BLOB_ENTRY_DOES_NOT_EXIST</strong></dt></dl> | <em>HInputBlob</em>參數所指定的輸入 BLOB 缺少執行這項作業所需的專案。 此錯誤可能是由<strong>IStats：：連線</strong>或<strong>IStats：： Configure</strong>呼叫所產生。 查看 <em>hErrorBlob</em> 傳回的錯誤 BLOB，以判斷找不到哪個專案。<br /> | 
+| <dl><dt><strong>NMERR_BLOB_NOT_INITIALIZED</strong></dt></dl> | 尚未呼叫 <strong>CreateBlob</strong> 函數。 此錯誤是由 <strong>IStats：： Configure</strong> 呼叫所產生。<br /> | 
+| <dl><dt><strong>NMERR_BLOB_STRING_INVALID</strong></dt></dl> | 字串不是以 null 結束。 此錯誤是由 <strong>IStats：： Configure</strong> 呼叫所產生。<br /> | 
+| <dl><dt><strong>NMERR_ILLEGAL_TRIGGER</strong></dt></dl> | 輸入 BLOB 的觸發程式部分已損毀。 此錯誤是由 <strong>IStats：： Configure</strong> 呼叫所產生。<br /> | 
+| <dl><dt><strong>NMERR_INVALID_BLOB</strong></dt></dl> | <em>HInputBlob</em>中指定的物件不是 BLOB。 此錯誤是由 <strong>IStats：： Configure</strong> 呼叫所產生。<br /> | 
+| <dl><dt><strong>NMERR_NO_DEFAULT_CAPTURE_DIRECTORY</strong></dt></dl> | 未在登錄中設定預設的 capture 目錄。 若要設定 capture 目錄，請使用下列路徑。 <br /><pre class="syntax" data-space="preserve"><code>HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\nm\Parameters\CapturePath</code></pre> | 
+| <dl><dt><strong>NMERR_OUT_OF_MEMORY</strong></dt></dl> | 無法使用執行此作業所需的記憶體。 此錯誤是由 <strong>IStats：： Configure</strong> 呼叫所產生。<br /> | 
+| <dl><dt><strong>NMERR_TIMEOUT</strong></dt></dl> | 要求已超時。此錯誤是由 <strong>IStats：： Configure</strong> 呼叫所產生。<br /> | 
+| <dl><dt><strong>NMERR_UPLEVEL_BLOB</strong></dt></dl> | <em>HInputBlob</em>中指定的 BLOB 版本號碼不正確。 此錯誤是由 <strong>IStats：： Configure</strong> 呼叫所產生。<br /> | 
+
 
 
 
@@ -145,7 +101,7 @@ BLOB 的控制碼，指定 NPP 連接的 NIC，以及該連接的設定資訊。
 
 ## <a name="remarks"></a>備註
 
-呼叫 **Connect** 方法時，網路監視器會使用 *hInputBlob* 參數所提供的 BLOB，自動呼叫 **IStats：： Configure** 方法。 請注意， **IStats：： Configure** 的呼叫所傳回的任何錯誤碼都會回傳，並由 **IStats：： Connect** 呼叫傳回。
+呼叫 **連線** 方法時，網路監視器會使用 *hInputBlob* 參數所提供的 BLOB，自動呼叫 **IStats：： Configure** 方法。 請注意， **IStats：： Configure** 的呼叫所傳回的任何錯誤碼都會回傳，並由 **IStats：：連線** 呼叫傳回。
 
 您必須先呼叫這個方法，才能開始捕獲框架。 請注意，當您使用此方法連接到網路時，您必須繼續使用 **IStats** 介面來捕捉畫面格。
 

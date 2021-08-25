@@ -4,12 +4,12 @@ ms.assetid: 484CABA1-5488-41AC-A6CC-51D0084DFC54
 title: 'WUA 成功和錯誤碼 (Wuerror .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5be23053ad3fc9fee6c91f21550be180c0a8e2ab
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 03909e07e7e04f51ab313bbc8f671b4405c71b31c16bc086a9788999a1cadd55
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106984878"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120071258"
 ---
 # <a name="wua-success-and-error-codes"></a>WUA 成功和錯誤碼
 
@@ -17,7 +17,7 @@ Windows Update 代理程式 (WUA) API 可能會傳回下列非網路作業的成
 
 
 
-| 常數/值                                                                                                                                                                                                                                                                                             | Description                                                                                                                                    |
+| 常數/值                                                                                                                                                                                                                                                                                             | 描述                                                                                                                                    |
 |:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="WU_S_SERVICE_STOP"></span><span id="wu_s_service_stop"></span><dl> <dt>**WU \_S \_ 服務 \_ 停止**</dt> <dt>0x00240001</dt> </dl>                                                                | 已成功停止 WUA。<br/>                                                                                                       |
 | <span id="WU_S_SELFUPDATE"></span><span id="wu_s_selfupdate"></span><dl> <dt>**WU \_S \_ SELFUPDATE**</dt> <dt>0x00240002</dt> </dl>                                                                       | WUA 本身已更新。<br/>                                                                                                                 |

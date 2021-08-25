@@ -1,6 +1,6 @@
 ---
 title: IMsTscNonScriptable ClearTextPassword 屬性
-description: 以純文字格式設定遠端桌面 ActiveX 控制項密碼。
+description: 以純文字格式設定遠端桌面 ActiveX 控制密碼。
 ms.assetid: 93d35b10-5c92-4ab7-a32a-328ba6fcf16b
 ms.tgt_platform: multiple
 keywords:
@@ -50,16 +50,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1aad33d7d85c6a5c331efe8383815e079150fb65
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0519e7379eab529cc5275c85a11116764417d524a03dff2e1eab74a914b6560b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103686440"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120125048"
 ---
 # <a name="imstscnonscriptablecleartextpassword-property"></a>IMsTscNonScriptable：： ClearTextPassword 屬性
 
-以純文字格式設定遠端桌面 ActiveX 控制項密碼。
+以純文字格式設定遠端桌面 ActiveX 控制密碼。
 
 此屬性是唯寫的。
 

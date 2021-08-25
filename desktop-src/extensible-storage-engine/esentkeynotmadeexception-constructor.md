@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: ca8f0a82e0d7974536fc72be5acce867c8925f87
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a4b8865bdfb7d8f017db4e55fdb2978b1d4c8107958737e89155d7835ad62b37
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104195514"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120064348"
 ---
 # <a name="esentkeynotmadeexception-constructor"></a>EsentKeyNotMadeException 函式
 

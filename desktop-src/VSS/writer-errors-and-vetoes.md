@@ -4,12 +4,12 @@ ms.assetid: 50eced73-3917-4d7e-96cc-2d793b448738
 title: 寫入器錯誤和 Vetoes
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7c24c15ad10766fc6ec395ed058ab3cb72a689d9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0835775aec21da9aa69e81b4f7af63f98d765b5c72763cb52af706c4e7a720e6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191358"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120124458"
 ---
 # <a name="writer-errors-and-vetoes"></a>寫入器錯誤和 Vetoes
 
@@ -26,7 +26,7 @@ ms.locfileid: "104191358"
 -   **VSS \_E \_ WRITERERROR \_ INCONSISTENTSNAPSHOT** 建議要求者可能會將其他磁片區新增至陰影複製
 -   **VSS \_E \_ WRITERERROR \_** 可重試表示重試而不重新設定可能會正常運作。 如果寫入器在數次重試之後仍繼續傳回錯誤，請嘗試重新開機裝載寫入器的服務。 下列寫入器裝載于 VSS 服務：登錄寫入器、COM + 類別註冊資料庫寫入器、陰影複製優化寫入器，以及自動系統復原 (ASR) 寫入器中。 如果寫入器屬於在它自己的進程中裝載寫入器的應用程式，請嘗試重新開機應用程式。
 
-    **Windows Server 2003 和 WINDOWS XP：** 下列寫入器裝載于 VSS 服務：登錄寫入器、COM + 類別註冊資料庫寫入器、應用程式事件記錄檔寫入器，以及 Microsoft SQL Server 2000 桌面引擎 (MSDE) 寫入器。
+    **Windows Server 2003 和 Windows XP：** 下列寫入器裝載于 VSS 服務：登錄寫入器、com + 類別註冊資料庫寫入器、應用程式事件記錄檔寫入器，以及 Microsoft SQL Server 2000 桌面引擎 (MSDE) 寫入器。
 
 -   VSS \_ E \_ 寫入器 \_ 狀態 \_ 無法 \_ 使用指出寫入器可能已達可用備份和還原會話的數目上限，而且當系統較不忙碌時，重試可能會正常運作。
 -   **VSS \_E \_ WRITERERROR \_ OUTOFRESOURCES** 或 **VSS \_ e \_ WRITERERROR \_ TIMEOUT** 可能會建議您在重試之前先降低系統負載

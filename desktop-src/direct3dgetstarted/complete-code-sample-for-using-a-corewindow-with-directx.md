@@ -1,19 +1,19 @@
 ---
 title: DirectX framework 的完整程式碼
-description: 本主題提供教學課程中使用的完整程式碼範例，開始使用適用于 Windows 的 DirectX。
+description: 本主題提供教學課程中所使用的完整程式碼範例，開始使用 DirectX 進行 Windows。
 ms.assetid: 5d1e1f21-b541-4a61-8f04-e1e767b3a23e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bb1a01e983f483503b42a0ac244453f14665460f
-ms.sourcegitcommit: 07b756a2f350efa5cfd5024a723ef392274ac3d9
+ms.openlocfilehash: 26940947a1806ab5e265720aa681b37cd9f93d1ac7f80ef69d72ce91a3ea8d5f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "107001774"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120068678"
 ---
 # <a name="complete-code-for-a-directx-framework"></a>DirectX framework 的完整程式碼
 
-本主題提供教學課程中使用的完整程式碼範例， [開始使用適用于 Windows 的 DirectX](getting-started-with-a-directx-game.md)。
+本主題提供教學課程中所使用的完整程式碼範例，[開始使用 DirectX 進行 Windows](getting-started-with-a-directx-game.md)。
 
 這段程式碼假設您使用 Microsoft Visual Studio 2013，而且您已建立空白的 Win32 專案。
 
@@ -38,7 +38,7 @@ ms.locfileid: "107001774"
 | 需求 | 值 |
 |-----------------------|-------------|
 | 程式語言 | C++         |
-| 程式設計模型    | Windows/c + + |
+| 程式設計模型    | Windows/C + + |
 
 <span id="requirements"></span>
 

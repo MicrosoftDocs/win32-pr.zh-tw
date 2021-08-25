@@ -1,18 +1,18 @@
 ---
 description: Windows Installer 屬性的清單，提供以 Uninstall 登錄機碼撰寫的值。
 ms.assetid: f831cc62-4b19-4285-8bb1-6080567ac985
-title: 卸載登錄機碼的 Windows Installer 屬性
+title: Windows卸載登錄機碼的安裝程式屬性
 ms.topic: article
 ms.date: 05/31/2018
 ms.custom: contperf-fy21q3
-ms.openlocfilehash: 90174cabed7a1d9ff0ca21b532c459a1026787a6
-ms.sourcegitcommit: 4af3e9ec3142ba499d20ed8b174c2b219c5eacd2
+ms.openlocfilehash: b898cd2a83a05783141ddf1fb4a7cbebb783bbcd7640526c5b653afa434d2175
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/30/2021
-ms.locfileid: "106979637"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119810317"
 ---
-# <a name="windows-installer-properties-for-the-uninstall-registry-key"></a>卸載登錄機碼的 Windows Installer 屬性
+# <a name="windows-installer-properties-for-the-uninstall-registry-key"></a>Windows卸載登錄機碼的安裝程式屬性
 
 下列安裝程式屬性會提供在登錄機碼下寫入的值：
 
@@ -22,7 +22,7 @@ ms.locfileid: "106979637"
 
 
 
-| 值               | Windows Installer 屬性                                                                                                                                                                                                                                                                                                                                           |
+| 值               | Windows安裝程式屬性                                                                                                                                                                                                                                                                                                                                           |
 |---------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | DisplayName         | [**ProductName**](productname.md) 屬性                                                                                                                                                                                                                                                                                                                          |
 | DisplayVersion      | 衍生自 [**ProductVersion**](productversion.md) 屬性                                                                                                                                                                                                                                                                                                       |

@@ -21,12 +21,12 @@ keywords:
 - 控制項類型，滑杆
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5be8e82dfc8f011363086745368ed1693c45a6aa
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 354217323ba4c3c59e416f7b9c36661d8ffe8a77
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103932343"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122472874"
 ---
 # <a name="slider-control-type"></a>滑杆控制項類型
 
@@ -50,40 +50,15 @@ ms.locfileid: "103932343"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>控制項檢視</th>
-<th>內容檢視</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>滑桿
-<ul>
-<li>按鈕 (2 或 4)</li>
-<li>Thumb (1) </li>
-<li>清單專案 (0 或更多) </li>
-</ul></li>
-</ul></td>
-<td><ul>
-<li>滑桿
-<ul>
-<li>清單專案 (0 或更多) </li>
-</ul></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| 控制項檢視 | 內容檢視 | 
+|--------------|--------------|
+| <ul><li>Slider<ul><li>按鈕 (2 或 4)</li><li>Thumb (1) </li><li>清單專案 (0 或更多) </li></ul></li></ul> | <ul><li>Slider<ul><li>清單專案 (0 或更多) </li></ul></li></ul> | 
 
 
 
- 
+
+ 
 
 ## <a name="relevant-properties"></a>相關屬性
 
@@ -106,7 +81,7 @@ ms.locfileid: "103932343"
 
 
 
- 
+ 
 
 ## <a name="required-control-patterns"></a>必要的控制項模式
 
@@ -122,7 +97,7 @@ ms.locfileid: "103932343"
 
 
 
- 
+ 
 
 ## <a name="required-events"></a>必要的事件
 
@@ -143,7 +118,7 @@ ms.locfileid: "103932343"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -158,9 +133,9 @@ ms.locfileid: "103932343"
 [UI 自動化概觀](uiauto-uiautomationoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

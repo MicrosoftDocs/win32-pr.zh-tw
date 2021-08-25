@@ -4,12 +4,12 @@ ms.assetid: 15114b14-bd7a-49b0-9719-8c28eeb12bb3
 title: 瞭解 MUI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c314fddd2aeeb9a1a05f6829f01566ce0d2620d1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 28e6f90914274297067b1a00a4b476b14d4cc082695377c5c5ca7d8d5685fc1a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104192977"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119811748"
 ---
 # <a name="understanding-mui"></a>瞭解 MUI
 

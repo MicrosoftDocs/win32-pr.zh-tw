@@ -3,7 +3,7 @@ title: 關於波形音訊
 description: 關於波形音訊
 ms.assetid: 2d886488-bdab-4422-b89e-15140d86fe48
 keywords:
-- Windows 多媒體，波形音訊
+- Windows 多媒體、波形音訊
 - 多媒體、波形音訊
 - 多媒體音訊、波形
 - 音訊、波形
@@ -14,12 +14,12 @@ keywords:
 - PlaySound 函式，關於
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6793e7f15756038083b2e399f143f80bdda12c02
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 4d7d9805e4be4e754efbb73d7745c834c9dc3d1f48a1f02a9a99b7877bc24306
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103933187"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119808698"
 ---
 # <a name="about-waveform-audio"></a>關於波形音訊
 
@@ -35,6 +35,6 @@ ms.locfileid: "103933187"
 
 除了此處討論的 Api 之外，Media Control 介面還可以用來播放波形音訊以及其他媒體，例如 MIDI 音效和影片。 如需詳細資訊，請參閱 [MCI](mci.md)。
 
- 
+ 
 
- 
+ 

@@ -3,7 +3,7 @@ title: 在裝置內容之外使用的 Advanced 函數
 description: 這些函式會在裝置內容之外提供先進的色彩管理功能。
 ms.assetid: 2f742743-094a-44b8-816b-24246607caeb
 keywords:
-- Windows Color System (WCS) ，函數
+- Windows色彩系統 (WCS) ，函數
 - WCS (Windows 色彩系統) ，函數
 - 影像色彩管理，函數
 - 色彩管理，函數
@@ -13,12 +13,12 @@ keywords:
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d04b7afe98f468fd3f580adf3eff145bce3aa1ac
-ms.sourcegitcommit: 3f366316c02c411c4c5e14620a699f6f30608634
+ms.openlocfilehash: 685b9fe1c7139be1c54e1b158a03c1de54d01b2b80ec4cab4b86603680c6d957
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "107000506"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119814610"
 ---
 # <a name="advanced-functions-for-use-outside-of-a-device-context"></a>在裝置內容之外使用的 Advanced 函數
 

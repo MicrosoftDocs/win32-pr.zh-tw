@@ -3,7 +3,7 @@ title: 'LM_SETITEM 訊息 (Commctrl .h) '
 description: 設定專案的狀態和屬性。
 ms.assetid: 02a68a31-2541-480e-b768-449d40e5e9e0
 keywords:
-- LM_SETITEM message Windows 控制項
+- LM_SETITEM 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 11888a76b11ccec7e8e659ca3a33bb23a71667ee
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e8dccdb37536352c8783f7dd6af6a9475f5bea69111e2f7f09e5395b0ebf25b4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104093864"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120062798"
 ---
 # <a name="lm_setitem-message"></a>LM \_ SETITEM 訊息
 
@@ -54,8 +54,8 @@ ms.locfileid: "104093864"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

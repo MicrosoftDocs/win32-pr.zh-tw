@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - dxva.h
-ms.openlocfilehash: aa512130b622d192acc37d8c309f462f8ecc87e4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dd15dfdbd35db56262487482e811210970852dcee4e791d710e0551b84e9e620
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106977188"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119777208"
 ---
 # <a name="idirect3dvideodevice9getdxvainternalinfo-method"></a>IDirect3DVideoDevice9：： GetDXVAInternalInfo 方法
 
@@ -72,8 +72,8 @@ HRESULT GetDXVAInternalInfo(
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                    |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                              |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                    |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                              |
 | 標頭<br/>                   | <dl> <dt>Dxva。h</dt> </dl> |
 
 

@@ -4,12 +4,12 @@ description: 動態注釋的替代方案
 ms.assetid: d8019c65-620b-4aa2-a631-cc32f34e5510
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0027cf9a9913efdff379d2f0c01e7bf22bc94f44
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 4af7582ec0fa3f317a0fabbdde0474c6a2e4d0b361062243d7518edf317477ff
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104092853"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120122428"
 ---
 # <a name="alternatives-to-dynamic-annotation"></a>動態注釋的替代方案
 
@@ -45,7 +45,7 @@ ms.locfileid: "104092853"
 
 如果未正確設計應用程式的使用者介面，Microsoft Active Accessibility 可能無法正確設定名稱。 若要與控制項相關聯，標籤或群組方塊必須緊接在定位順序中的動態控制項之前。
 
-當資源編輯器開啟) 或直接編輯資源檔時，可以使用 [ **格式** ] 功能表上 Visual Studio (中的工具來變更定位順序。
+當資源編輯器開啟) 或直接編輯資源檔時，可以使用 [**格式**] 功能表上 Visual Studio (中的工具來變更定位順序。
 
 下列範例顯示包含兩個標記編輯方塊之對話方塊的資源檔描述。
 
@@ -93,7 +93,7 @@ END
 
 每個控制項都不一定要有可見的標籤。 不過，您仍然可以藉由新增不可見的標籤，來提供控制項的名稱。 如同往常，隱藏的標籤必須緊接在定位順序中的控制項之前。
 
-如果您在 Microsoft Visual Studio .NET 中使用資源編輯器，則可以將 Visible 屬性設為 False。 若要在編輯資源檔時使標籤隱藏 ( .rc) ，請將 [不是 WS] \_ 或 [標籤] 控制項的樣式部分新增，如下列範例所示。
+如果您在 Microsoft Visual Studio .net 中使用資源編輯器，則可以將 Visible 屬性設為 False。 若要在編輯資源檔時使標籤隱藏 ( .rc) ，請將 [不是 WS] \_ 或 [標籤] 控制項的樣式部分新增，如下列範例所示。
 
 
 ```C++
@@ -104,6 +104,6 @@ END
 
 請注意，即使標籤不可見，任何指定的快速鍵仍可運作。
 
- 
+ 
 
- 
+ 

@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101153
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: bad2d8bfd6cdf5a8054338adcbdcf22d4158e926
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6e94e80d5883036960d21d299f292506fc2cf7e91e62c660a3edad6a19fd27c5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103945100"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119975918"
 ---
 # <a name="esentbadparentpagelinkexception-members"></a>EsentBadParentPageLinkException 成員
 

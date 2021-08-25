@@ -5,12 +5,12 @@ ms.assetid: c4f826bc-ea80-4fd5-99da-630e7ae56dd7
 title: 'S (磁碟區陰影複製服務) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eb5979d30f0b88762a2d022a89063ee44bd91a3a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 92843e9277709a1138bc51b403089c932387e1b282e349c7907fc4cde88e9de8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970610"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120124478"
 ---
 # <a name="s-volume-shadow-copy-service"></a>S (磁碟區陰影複製服務) 
 
@@ -66,7 +66,7 @@ Selectability for backup 和 Selectability for restore 彼此獨立，因此可�
 <span id="base.vssgloss_shadow_copies_for_shared_folders"></span><span id="BASE.VSSGLOSS_SHADOW_COPIES_FOR_SHARED_FOLDERS"></span>**共用資料夾陰影複製**
 </dt> <dd>
 
-Windows 的一項功能，可使用 VSS 建立磁片區的輕量線上備份複本。 用戶端可以透過 Windows shell 存取這些備份，以查看舊版檔案和復原錯誤，而不需要完整還原。 另請參閱 [*用戶端可存取陰影複製*](vssgloss-c.md)。
+Windows 的功能，可使用 VSS 建立磁片區的輕量線上備份複本。 用戶端可以透過 Windows shell 存取這些備份，以查看舊版檔案和復原錯誤，而不需要完整還原。 另請參閱 [*用戶端可存取陰影複製*](vssgloss-c.md)。
 
 </dd> <dt>
 
@@ -115,7 +115,7 @@ Windows 的一項功能，可使用 VSS 建立磁片區的輕量線上備份複�
 <span id="base.vssgloss_system_provider"></span><span id="BASE.VSSGLOSS_SYSTEM_PROVIDER"></span>**系統提供者**
 </dt> <dd>
 
-在 Windows 中提供的預設預先安裝提供者。
+Windows 中提供的預設預先安裝提供者。
 
 </dd> <dt>
 

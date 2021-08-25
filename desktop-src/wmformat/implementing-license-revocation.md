@@ -3,9 +3,9 @@ title: 執行授權撤銷
 description: 執行授權撤銷
 ms.assetid: 50ecfeaa-89cd-4788-a25a-ee0ae8973bf0
 keywords:
-- Windows Media Format SDK，執行授權撤銷
-- Windows Media Format SDK，授權撤銷
-- Windows Media Format SDK，撤銷授權
+- Windows媒體格式 SDK，執行授權撤銷
+- Windows媒體格式 SDK，授權撤銷
+- Windows媒體格式 SDK，撤銷授權
 - Advanced Systems Format (ASF) ，實施授權撤銷
 - ASF (Advanced Systems Format) ，實施授權撤銷
 - Advanced Systems Format (ASF) 、授權撤銷
@@ -21,16 +21,16 @@ keywords:
 - 授權撤銷，實施
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e83bfb1a512b031f5b7c297ecede4ed33fba8f2b
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: c73d0204e83c941600eefb53579b19ef72217055080c6ef4603d8eac28e08caa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "103681426"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119809128"
 ---
 # <a name="implementing-license-revocation"></a>執行授權撤銷
 
-Windows Media Rights Manager 10 SDK 包含稱為許可證撤銷的功能。 這項功能可讓授權伺服器要求從用戶端電腦移除授權。 Windows Media Format SDK 提供的方法可處理撤銷訊息，以及從本機授權存放區移除授權。
+Windows 媒體版權管理員 10 SDK 包含稱為「許可證撤銷」的功能。 這項功能可讓授權伺服器要求從用戶端電腦移除授權。 Windows 媒體格式 SDK 提供的方法可處理撤銷訊息，以及從本機授權存放區移除授權。
 
 授權撤銷程式是由授權簽發者所提供的服務所起始。 您的應用程式可以裝載此服務，也可以是 Web 應用程式。 無論是哪一種情況，您的應用程式都必須能夠收到服務所建立的授權挑戰。
 
@@ -44,7 +44,7 @@ Windows Media Rights Manager 10 SDK 包含稱為許可證撤銷的功能。 這�
 > [!Note]  
 > 此 SDK 的 x64 版本不支援 DRM。
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -56,9 +56,9 @@ Windows Media Rights Manager 10 SDK 包含稱為許可證撤銷的功能。 這�
 [**IWMLicenseRevocationAgent 介面**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmlicenserevocationagent)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

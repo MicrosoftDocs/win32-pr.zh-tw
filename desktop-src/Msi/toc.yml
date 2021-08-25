@@ -8,7 +8,7 @@
           href: role-based-guide-to-windows-installer-documentation.md
         - name: Windows Installer 資訊的其他來源
           href: other-sources-of-windows-installer-information.md
-        - name: Windows Installer 最佳作法
+        - name: Windows安裝程式最佳作法
           href: windows-installer-best-practices.md
     - name: Windows Installer 的新功能
       href: what-s-new-in-windows-installer.md
@@ -36,9 +36,9 @@
             - name: 元件和功能
               href: components-and-features.md
               items:
-                - name: Windows Installer 元件
+                - name: Windows安裝程式元件
                   href: windows-installer-components.md
-                - name: Windows Installer 功能
+                - name: Windows安裝程式功能
                   href: windows-installer-features.md
             - name: 安裝機制
               href: installation-mechanism.md
@@ -51,7 +51,7 @@
                   href: platform-support-of-advertisement.md
             - name: 隨選安裝
               href: installation-on-demand.md
-            - name: 災害復原
+            - name: 復原
               href: resiliency.md
             - name: 自訂
               href: customization.md
@@ -61,7 +61,7 @@
           href: rollback-installation.md
         - name: 維護安裝
           href: maintenance-installation.md
-        - name: Windows Installer 副檔名
+        - name: Windows安裝程式副檔名
           href: windows-installer-file-extensions.md
         - name: 命令列選項
           href: command-line-options.md
@@ -171,7 +171,7 @@
           href: merges-and-transforms.md
         - name: 合格元件
           href: qualified-components.md
-        - name: Windows Installer 記錄
+        - name: Windows安裝程式記錄
           href: windows-installer-logging.md
           items:
             - name: 一般記錄
@@ -265,7 +265,7 @@
               href: setting-the-code-page-of-a-database.md
             - name: 準備 Windows Installer 套件以進行當地語系化
               href: preparing-a-windows-installer-package-for-localization.md
-        - name: 搜尋現有的應用程式、檔案、登錄專案或 .ini 檔案專案
+        - name: 搜尋現有的應用程式、檔案、登錄專案或 .ini 的檔案專案
           href: searching-for-existing-applications-files-registry-entries-or--ini-file-entries.md
           items:
             - name: 搜尋檔案的所有固定磁片磁碟機
@@ -329,7 +329,7 @@
               href: make-a-non-com-component-in-an-existing-package-private.md
         - name: 判斷 Windows Installer 版本
           href: determining-the-windows-installer-version.md
-        - name: 安裝具有 Windows Installer 的 COM + 應用程式
+        - name: 安裝具有 Windows Installer 的 com + 應用程式
           href: installing-a-com--application-with-the-windows-installer.md
         - name: 在安裝或移除元件時新增或移除登錄機碼
           href: adding-or-removing-registry-keys-on-the-installation-or-removal-of-components.md
@@ -365,7 +365,7 @@
           href: using-services-configuration.md
         - name: 單一套件撰寫
           href: single-package-authoring.md
-    - name: Windows Installer 指南
+    - name: Windows安裝程式指南
       href: windows-installer-guide.md
       items:
         - name: 數位簽章和 Windows Installer
@@ -373,7 +373,7 @@
           items:
             - name: 數位簽章和外部封包檔
               href: digital-signatures-and-external-cabinet-files.md
-            - name: Windows Installer 和軟體限制原則
+            - name: Windows安裝程式和軟體限制原則
               href: windows-installer-and-software-restriction-policy.md
             - name: 撰寫經過完整驗證的已簽署安裝
               href: authoring-a-fully-verified-signed-installation.md
@@ -1071,7 +1071,7 @@
                   href: custom-action-return-processing-options.md
                 - name: 自訂動作傳回值
                   href: custom-action-return-values.md
-                - name: JScript 和 VBScript 自訂動作的傳回值
+                - name: 傳回 JScript 和 VBScript 自訂動作的值
                   href: return-values-of-jscript-and-vbscript-custom-actions.md
         - name: 屬性
           href: properties.md
@@ -1193,7 +1193,7 @@
                   href: computername.md
                 - name: CostingComplete
                   href: costingcomplete.md
-                - name: Date
+                - name: 日期
                   href: date.md
                 - name: DefaultUIFont
                   href: defaultuifont.md
@@ -1473,7 +1473,7 @@
                   href: terminalserver.md
                 - name: TextHeight
                   href: textheight.md
-                - name: Time
+                - name: 時間
                   href: time.md
                 - name: 變換
                   href: transforms.md
@@ -2113,7 +2113,7 @@
                               href: merge-closemodule.md
                             - name: ConfigurableItems 屬性
                               href: merge-configurableitems.md
-                            - name: Connect 方法
+                            - name: 連線方法
                               href: merge-connect.md
                             - name: CreateSourceImage 方法
                               href: merge-createsourceimage.md
@@ -2214,7 +2214,7 @@
                               href: /windows/desktop/api/mergemod/nf-mergemod-imsmmerge-closelog
                             - name: CloseModule 方法
                               href: /windows/desktop/api/mergemod/nf-mergemod-imsmmerge-closemodule
-                            - name: Connect 方法
+                            - name: 連線方法
                               href: /windows/desktop/api/mergemod/nf-mergemod-imsmmerge-connect
                             - name: CreateSourceImage 方法
                               href: /windows/desktop/api/Mergemod/nf-mergemod-imsmmerge2-createsourceimage
@@ -2349,14 +2349,14 @@
                           href: arbitrary-bitfield-type.md
                 - name: 可設定的元件範例
                   href: configurable-component-example.md
-        - name: Windows Installer 啟動載入
+        - name: Windows安裝程式啟動程式
           href: windows-installer-bootstrapping.md
           items:
-            - name: 引導
+            - name: 啟動
               href: bootstrapping.md
             - name: 網際網路下載啟動載入
               href: internet-download-bootstrapping.md
-        - name: 64位作業系統上的 Windows Installer
+        - name: Windows64位作業系統上的安裝程式
           href: windows-installer-on-64-bit-operating-systems.md
           items:
             - name: 關於64位作業系統上的 Windows Installer
@@ -2371,9 +2371,9 @@
               items:
                 - name: 64位自訂動作
                   href: 64-bit-custom-actions.md
-        - name: Windows Installer 和標誌需求
+        - name: Windows安裝程式和標誌需求
           href: windows-installer-and-logo-requirements.md
-    - name: Windows Installer 範例
+    - name: Windows安裝程式範例
       href: windows-installer-examples.md
       items:
         - name: 安裝範例
@@ -2496,7 +2496,7 @@
               href: sign-setup-exe-and-mysetup-msi.md
             - name: 建立 Setup.exe 的 HTML 參考
               href: establish-an-html-reference-to-setup-exe.md
-        - name: Windows Installer 腳本範例
+        - name: Windows安裝程式腳本範例
           href: windows-installer-scripting-examples.md
           items:
             - name: 列出產品、屬性、功能和元件
@@ -2533,7 +2533,7 @@
               href: manage-file-sizes-and-versions.md
             - name: 產生檔案封包
               href: generate-file-cabinet.md
-            - name: 執行 SQL 語句
+            - name: Execute SQL 語句
               href: execute-sql-statements.md
             - name: 將 ANSI 檔案複製到資料庫欄位
               href: copy-ansi-file-into-a-database-field.md
@@ -2545,7 +2545,7 @@
               href: preview-user-interface.md
         - name: 單一套件撰寫範例
           href: single-package-authoring-example.md
-    - name: Windows Installer 參考
+    - name: Windows安裝程式參考
       href: windows-installer-reference.md
       items:
         - name: Automation 介面
@@ -3654,13 +3654,13 @@
         - name: 已發行的版本、工具和可轉散發套件
           href: released-versions-tools-and-redistributables.md
           items:
-            - name: 適用于 Windows Installer 開發人員的 Windows SDK 元件
+            - name: Windows適用于 Windows Installer 開發人員的 SDK 元件
               href: platform-sdk-components-for-windows-installer-developers.md
             - name: Windows Installer 可轉散發套件
               href: windows-installer-redistributables.md
             - name: Windows Installer 的發行版本
               href: released-versions-of-windows-installer.md
-            - name: Windows Installer 開發工具
+            - name: Windows安裝程式開發工具
               href: windows-installer-development-tools.md
               items:
                 - name: Instmsi.exe
@@ -3733,7 +3733,7 @@
         - name: 錯誤參考
           href: errors-reference.md
           items:
-            - name: Windows Installer 錯誤訊息
+            - name: Windows安裝程式錯誤訊息
               href: windows-installer-error-messages.md
             - name: MsiExec.exe 並 InstMsi.exe 錯誤訊息
               href: error-codes.md

@@ -4,12 +4,12 @@ ms.assetid: 287e85ed-a324-4785-872a-26e4ab37986d
 title: WinHTTP 安全性考慮
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dc06725ba03631eb4d5e5c29f8cfa0aae69b5022
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b80d813fa5b50cb9c880598d3187c697412d1dab1d7fdd80b4507d17d03eff6a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104469076"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119955688"
 ---
 # <a name="winhttp-security-considerations"></a>WinHTTP 安全性考慮
 

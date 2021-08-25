@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 0573cc9902826d2a283e549414cf31aae98cc331
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 84fb7bb4c6ae3f5f562bc0a51d4a2a8ee4852fcb19a820b35e073d389366b133
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110472"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120064698"
 ---
 # <a name="iscompatible-method-of-the-cim_card-class"></a>CIM 卡片類別的 IsCompatible 方法 \_
 

@@ -4,12 +4,12 @@ ms.assetid: 3e148653-d238-487e-a540-2c315e700501
 title: 建議的通訊端群組行為
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 01a129c09616657ce935b986e443e20a4dee4ebe
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 196a8e3c25ddaf025a5f6af200e96be4d930c1dc03a9aace1cac5e32bafb9066
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106996659"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120121338"
 ---
 # <a name="recommended-socket-grouping-behavior"></a>建議的通訊端群組行為
 

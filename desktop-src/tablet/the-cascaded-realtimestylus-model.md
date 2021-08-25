@@ -4,12 +4,12 @@ ms.assetid: f4c377a7-979d-4a06-a8de-31b8e67d74f8
 title: 串聯的 RealTimeStylus 模型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cd2f61ea3cd44753d1d91fb2662226a716ee5590
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bf848f1382a8c6a54f58fb6db864ece165c7cff2
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104553530"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122467995"
 ---
 # <a name="the-cascaded-realtimestylus-model"></a>串聯的 RealTimeStylus 模型
 
@@ -40,50 +40,15 @@ ms.locfileid: "104553530"
 
     
 
-    <table>
-    <colgroup>
-    <col style="width: 50%" />
-    <col style="width: 50%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th>成員</th>
-    <th>行為</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td><a href="/previous-versions/ms825905(v=msdn.10)">GetDesiredPacketDescription</a></td>
-    <td>這個方法會從主要 <a href="realtimestylus-class.md"><strong>RealTimeStylus</strong></a> 物件傳回信息。<br/> 如果次要 <a href="realtimestylus-class.md"><strong>realtimestylus</strong></a> 未附加至主要 <strong>realtimestylus</strong> 物件，這個方法會傳回預設值。<br/></td>
-    </tr>
-    <tr class="even">
-    <td><a href="/previous-versions/ms826041(v=msdn.10)">SetDesiredPacketDescription</a></td>
-    <td>這個方法會引發 <a href="/dotnet/api/system.invalidoperationexception">InvalidOperationException</a> 例外狀況。<br/></td>
-    </tr>
-    <tr class="odd">
-    <td><a href="/previous-versions/ms825913(v=msdn.10)">GetStyluses</a></td>
-    <td>這個方法會從主要 <a href="realtimestylus-class.md"><strong>RealTimeStylus</strong></a> 物件傳回信息。<br/> 如果次要 <a href="realtimestylus-class.md"><strong>realtimestylus</strong></a> 未附加至主要 <strong>realtimestylus</strong> 物件，這個方法會傳回空陣列。<br/></td>
-    </tr>
-    <tr class="even">
-    <td><a href="/previous-versions/ms824832(v=msdn.10)">Enabled</a></td>
-    <td>取得此屬性會從主要 <a href="realtimestylus-class.md"><strong>RealTimeStylus</strong></a> 物件傳回信息。<br/> 如果次要 <a href="realtimestylus-class.md"><strong>realtimestylus</strong></a> 未附加至主要 <strong>realtimestylus</strong> 物件，則取得此屬性會傳回預設值。<br/>
-    <blockquote>
-    [!Note]<br />
-設定這個屬性會引發 <a href="/dotnet/api/system.invalidoperationexception">InvalidOperationException</a> 例外狀況。
-    </blockquote>
-    <br/></td>
-    </tr>
-    <tr class="odd">
-    <td><a href="/previous-versions/ms824834(v=msdn.10)">WindowInputRectangle</a></td>
-    <td>取得此屬性會從主要 <a href="realtimestylus-class.md"><strong>RealTimeStylus</strong></a> 物件傳回信息。<br/> 如果次要 <a href="realtimestylus-class.md"><strong>realtimestylus</strong></a> 未附加至主要 <strong>realtimestylus</strong> 物件，則取得此屬性會傳回預設值。<br/>
-    <blockquote>
-    [!Note]<br />
-設定這個屬性會引發 <a href="/dotnet/api/system.invalidoperationexception">InvalidOperationException</a> 例外狀況。
-    </blockquote>
-    <br/></td>
-    </tr>
-    </tbody>
-    </table>
+    
+| 成員 | 行為 | 
+|--------|----------|
+| <a href="/previous-versions/ms825905(v=msdn.10)">GetDesiredPacketDescription</a> | 這個方法會從主要 <a href="realtimestylus-class.md"><strong>RealTimeStylus</strong></a> 物件傳回信息。<br /> 如果次要 <a href="realtimestylus-class.md"><strong>realtimestylus</strong></a> 未附加至主要 <strong>realtimestylus</strong> 物件，這個方法會傳回預設值。<br /> | 
+| <a href="/previous-versions/ms826041(v=msdn.10)">SetDesiredPacketDescription</a> | 這個方法會引發 <a href="/dotnet/api/system.invalidoperationexception">InvalidOperationException</a> 例外狀況。<br /> | 
+| <a href="/previous-versions/ms825913(v=msdn.10)">GetStyluses</a> | 這個方法會從主要 <a href="realtimestylus-class.md"><strong>RealTimeStylus</strong></a> 物件傳回信息。<br /> 如果次要 <a href="realtimestylus-class.md"><strong>realtimestylus</strong></a> 未附加至主要 <strong>realtimestylus</strong> 物件，這個方法會傳回空陣列。<br /> | 
+| <a href="/previous-versions/ms824832(v=msdn.10)">Enabled</a> | 取得此屬性會從主要 <a href="realtimestylus-class.md"><strong>RealTimeStylus</strong></a> 物件傳回信息。<br /> 如果次要 <a href="realtimestylus-class.md"><strong>realtimestylus</strong></a> 未附加至主要 <strong>realtimestylus</strong> 物件，則取得此屬性會傳回預設值。<br /><blockquote>    [!Note]<br />    設定這個屬性會引發 <a href="/dotnet/api/system.invalidoperationexception">InvalidOperationException</a> 例外狀況。    </blockquote><br /> | 
+| <a href="/previous-versions/ms824834(v=msdn.10)">WindowInputRectangle</a> | 取得此屬性會從主要 <a href="realtimestylus-class.md"><strong>RealTimeStylus</strong></a> 物件傳回信息。<br /> 如果次要 <a href="realtimestylus-class.md"><strong>realtimestylus</strong></a> 未附加至主要 <strong>realtimestylus</strong> 物件，則取得此屬性會傳回預設值。<br /><blockquote>    [!Note]<br />    設定這個屬性會引發 <a href="/dotnet/api/system.invalidoperationexception">InvalidOperationException</a> 例外狀況。    </blockquote><br /> | 
+
 
     
 

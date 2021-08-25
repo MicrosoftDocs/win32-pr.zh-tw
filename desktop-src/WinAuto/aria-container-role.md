@@ -6,12 +6,12 @@ keywords:
 - AriaContainerRoleErrorId
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d02554c868816c05981fa9f008c8f79f0a3eb0f8
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 507f094a5f7270565de0426b50afd6aef699607d857ef1ba7ed3d6c8bb1a1a2c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103932522"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119759828"
 ---
 # <a name="aria-container-role-error"></a>ARIA 容器角色錯誤
 
@@ -52,9 +52,9 @@ ms.locfileid: "103932522"
 [ARIA 角色錯誤](aria-role-invalid.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

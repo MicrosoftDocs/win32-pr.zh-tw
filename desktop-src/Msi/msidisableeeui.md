@@ -4,12 +4,12 @@ ms.assetid: c5ada690-c5dd-455f-babe-8c09750525c4
 title: MSIDISABLEEEUI 屬性
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d89ce43f649d406e4ae086db236375c02c43e2d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: fb1e599ed0786c7d2c55644eb5759db3917757d3b41f6107161d72a3cc559484
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106998414"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120039948"
 ---
 # <a name="msidisableeeui-property"></a>MSIDISABLEEEUI 屬性
 
@@ -29,7 +29,7 @@ MSIDISABLEEEUI 屬性會停用單一封裝的內嵌使用者介面。 您可以�
 
 | 需求 | 值 |
 |--------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 版本<br/> | Windows Server 2012、Windows 8、Windows Server 2008 R2 或 Windows 7 上的 Windows Installer 5.0。 Windows Server 2008、Windows Vista、Windows Server 2003 和 Windows XP 上的 Windows Installer 4.5。 如需 Windows Installer 版本所需的最小 Windows service pack 相關資訊，請參閱 [Windows Installer Run-Time 需求](windows-installer-portal.md) 。<br/> |
+| 版本<br/> | WindowsWindows Server 2012、Windows 8 Windows Server 2008 R2 或 Windows 7 上的安裝程式5.0。 WindowsWindows Server 2008、Windows Vista、Windows Server 2003 和 Windows XP 上的安裝程式4.5。 如需 Windows Installer 版本所需的最低 Windows service pack 相關資訊，請參閱[Windows Installer Run-Time 需求](windows-installer-portal.md)。<br/> |
 
 
 

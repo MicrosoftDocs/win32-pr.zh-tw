@@ -8,15 +8,15 @@ keywords:
 - 外觀，播放清單
 - 播放清單、外觀
 - 中繼檔播放清單，外觀
-- Windows Media 中繼檔播放清單，外觀
+- Windows媒體中繼檔播放清單，外觀
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c42a4bc253d4b1a3ba9b8fe0f31ca16b0d522956
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e23d9198f1f913b83cef40cea9f6ec47976f9f1e08a5e54257ab16df63e538b1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106968648"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120031588"
 ---
 # <a name="adding-a-playlist"></a>新增播放清單
 
@@ -93,9 +93,9 @@ ms.locfileid: "106968648"
 [**外觀建立指南**](skin-creation-guide.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

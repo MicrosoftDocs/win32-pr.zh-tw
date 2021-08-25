@@ -4,12 +4,12 @@ ms.assetid: 729c0e68-ef52-4d6c-b771-a89043a937e6
 title: 連鎖變數存取
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ca2e083d3e3420e870ad9781b0d262df3d0786f1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9b298dffe45d1a0de655e225c8a240dd72be15a0fff7e4d6eac25ebb0a1130ad
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106994413"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120126318"
 ---
 # <a name="interlocked-variable-access"></a>連鎖變數存取
 
@@ -17,7 +17,7 @@ ms.locfileid: "106994413"
 
 簡單的讀取和寫入，以正確對齊的32位變數是不可部分完成的作業。 換句話說，您最後不會有一個已更新的變數部分。所有位都會以不可部分完成的方式更新。 但是，不保證會同步存取。 如果有兩個執行緒從相同的變數讀取和寫入，您就無法判斷某個執行緒是否會在另一個執行緒執行寫入作業之前，先執行它的讀取作業。
 
-在64位的 Windows 上，簡單的讀取和寫入可正確對齊的64位變數是不可部分完成的。 64位值的讀取和寫入不保證在32位 Windows 上是不可部分完成的。 在任何平臺上，讀取和寫入其他大小的變數不一定是不可部分完成的。
+對適當對齊的64位變數進行簡單的讀取和寫入，在64位 Windows 上是不可部分完成的。 64位值的讀取和寫入不保證在32位 Windows 上是不可部分完成的。 在任何平臺上，讀取和寫入其他大小的變數不一定是不可部分完成的。
 
 ## <a name="the-interlocked-api"></a>連鎖 API
 
@@ -31,7 +31,7 @@ ms.locfileid: "106994413"
 
 [**InterlockedAnd**](/windows/win32/api/winnt/nf-winnt-interlockedand)、 [**InterlockedOr**](/windows/win32/api/winnt/nf-winnt-interlockedor)和 [**InterlockedXor**](/windows/win32/api/winnt/nf-winnt-interlockedxor)函式會以原子方式分別執行 and、OR 和 XOR 作業。
 
-有一些函式是專為在64位記憶體值和位址上執行連鎖變數存取而設計，並且已針對64位 Windows 優化。 這些函式中的每一個都包含名稱中的 "64";例如， [**InterlockedDecrement64**](/windows/win32/api/winnt/nf-winnt-interlockeddecrement64) 和 [**InterlockedCompareExchangeAcquire64**](/previous-versions/windows/desktop/legacy/ms683566(v=vs.85))。
+有一些函式是專為在64位記憶體值和位址上執行連鎖變數存取而設計的，並已針對64位 Windows 進行優化。 這些函式中的每一個都包含名稱中的 "64";例如， [**InterlockedDecrement64**](/windows/win32/api/winnt/nf-winnt-interlockeddecrement64) 和 [**InterlockedCompareExchangeAcquire64**](/previous-versions/windows/desktop/legacy/ms683566(v=vs.85))。
 
 大部分的連鎖函式在所有 Windows 平臺上都提供完整的記憶體障礙。 此外，也有一些函數可結合基本連鎖變數存取作業，以及特定處理器所支援的取得和釋放記憶體順序的語法。 這些函式中的每一個都會在其名稱中包含 "取得" 或 "Release" 這個字。例如， [**InterlockedDecrementAcquire**](/previous-versions/windows/desktop/legacy/ms683583(v=vs.85)) 和 [**InterlockedDecrementRelease**](/previous-versions/windows/desktop/legacy/ms683586(v=vs.85))。 取得記憶體語義：指定在嘗試任何其他記憶體作業之前，目前線程所執行的記憶體作業將會顯示。 釋放記憶體語義：指定完成其他所有記憶體作業之後，目前線程所執行的記憶體作業將會顯示。 這些語義可讓您強制以特定循序執行記憶體作業。 在輸入受保護的區域時，請使用取得語義，並在離開時使用該語義。
 

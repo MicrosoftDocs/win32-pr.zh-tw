@@ -3,7 +3,7 @@ title: 儲存命令
 description: Save 命令會儲存 MCI 檔案。 影片-重迭和波形-音訊裝置會辨識此命令。 雖然數位視訊裝置和 MIDI sequencers 也會辨識此命令，但 MCIAVI 和 MCISEQ 驅動程式並不支援。
 ms.assetid: cae199b3-4ac4-49e0-9213-12d816b2f865
 keywords:
-- 儲存命令 Windows 多媒體
+- 將命令儲存 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0029ad03c1b7fe855e8485b2719b11628fac1103
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a0c7b4fb75f78f8468a204217f5a4fa1593a1c50d5db541a83070a7faed41cc5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106966490"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120037478"
 ---
 # <a name="save-command"></a>儲存命令
 
@@ -98,7 +98,7 @@ MCI 裝置的識別碼。 開啟裝置時，會指派此識別碼或別名。
 
 ## <a name="examples"></a>範例
 
-下列命令會將整個影片緩衝區儲存至名為 VCAPFILE 的檔案。Tga。
+下列命令會將整個影片緩衝區儲存至名為 VCAPFILE 的檔案。TGA。
 
 ``` syntax
 save vboard c:\vcap\vcapfile.tga
@@ -119,7 +119,7 @@ save vboard c:\vcap\vcapfile.tga
 
 <dl> <dt>
 
-[Mci](mci.md)
+[MCI](mci.md)
 </dt> <dt>
 
 [MCI 命令字串](mci-command-strings.md)

@@ -4,12 +4,12 @@ ms.assetid: 96a99f35-f9db-407e-a4e3-7adc3caccb19
 title: 'MF_ACTI加值稅E_MFT_LOCKED 屬性 (Mfidl) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e4d6dcb6cb60f760d87761a18b2b83545937878c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 445447af46e1ce1da25aaa075dd4490d1210c1d01b2e7717829d2672dc74701f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114609"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120060908"
 ---
 # <a name="mf_activate_mft_locked-attribute"></a>MF \_ 啟動 \_ MFT \_ 鎖定屬性
 
@@ -33,8 +33,8 @@ ms.locfileid: "104114609"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                     |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                               |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                     |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                               |
 | 標頭<br/>                   | <dl> <dt>Mfidl。h</dt> </dl> |
 
 

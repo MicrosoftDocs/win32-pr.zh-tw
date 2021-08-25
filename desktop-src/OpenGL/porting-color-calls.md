@@ -9,12 +9,12 @@ keywords:
 - 從鳶尾花 GL 的 OpenGL 移植，色彩
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 856b9f9d0a62b866ac1c9981d9fbb716cf243341
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 5e15774f66964c11527955b57651e69db26f6f3d3704d114fdfa4de9a0d5b97c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671843"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119777048"
 ---
 # <a name="porting-color-calls"></a>移植色彩呼叫
 
@@ -47,7 +47,7 @@ ms.locfileid: "103671843"
 
  
 
-如果您想要使用多個色彩對應，您需要使用適當的 Windows 色彩對應功能。 因此， **multimap**、 **onemap**、 **getcmmode**、 **setmap** 和 **getmap** 沒有 OpenGL 對等專案。
+如果您想要使用多個色彩對應，您必須使用適當的 Windows 色彩對應函式。 因此， **multimap**、 **onemap**、 **getcmmode**、 **setmap** 和 **getmap** 沒有 OpenGL 對等專案。
 
  
 

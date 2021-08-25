@@ -14,12 +14,12 @@ keywords:
 - 選取格式類型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bfc5d73d1b03f22923e6001d65898c05e2bd853e
-ms.sourcegitcommit: cb844c9ab17577ce171fd7b03add668645867bc7
+ms.openlocfilehash: 06f25f7b196fcb9462a3b61dd8e351ed75276c7df7bf46cec233dd8eac7deda5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "104314433"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120037648"
 ---
 # <a name="producing-a-dialog-box-for-selecting-a-specific-type-of-format"></a>產生對話方塊來選取特定類型的格式
 
@@ -61,9 +61,9 @@ if ((MMSYSERR_NOERROR != mmr) && (ACMERR_CANCELED != mmr))
 
 
 
- 
+ 
 
- 
+ 
 
 
 

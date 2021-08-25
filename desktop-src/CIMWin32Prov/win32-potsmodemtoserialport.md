@@ -21,12 +21,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 0a1e6128ffde7afce0132dd4415e4eca1f06b5cb
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 9188b456f31f81164ab27966e652c87ad06a80aa5115769d119c8f90dc268f2d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973387"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120064428"
 ---
 # <a name="win32_potsmodemtoserialport-class"></a>Win32 \_ POTSModemToSerialPort 類別
 

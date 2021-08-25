@@ -4,12 +4,12 @@ ms.assetid: 64aead5a-61c4-4e83-a556-af33e0aa82be
 title: 範例屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e1329946c36b1b7454deb76a25247985d9dcfdd6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b56593978a411b314e6e988c031ee36869c4ea44212fd7f154e3ba18478400b7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104512556"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119776978"
 ---
 # <a name="sample-attributes"></a>範例屬性
 

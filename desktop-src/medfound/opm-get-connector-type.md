@@ -4,12 +4,12 @@ ms.assetid: c5862758-0125-4dbe-af72-5ed4a85bd702
 title: 'OPM_GET_CONNECTOR_TYPE (Opmapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a95ca88b079aa93b4c2665fe7aa954eb58cfc1a9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3099da66193048b52011e58eb5ce3f925d451fc1ad26b193f2955f6012f0e607
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191771"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119887498"
 ---
 # <a name="opm_get_connector_type"></a>OPM \_ 取得 \_ 連接器 \_ 類型
 
@@ -45,8 +45,8 @@ ms.locfileid: "104191771"
 
 | 需求 | 值 |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                      |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                      |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                |
 | 標頭<br/>                   | <dl> <dt>Opmapi。h</dt> </dl> |
 
 

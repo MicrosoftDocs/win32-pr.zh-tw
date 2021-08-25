@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 17bbe36a55b5be18f9f4005b4e0ae24d3d610bd5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ff34ddaab25f47f537c1270ad3a70719a43e2e1efa978fbad19cbe9ae77ba937
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466597"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119886748"
 ---
 # <a name="mrmcreateresourcefileinmemory-function"></a>MrmCreateResourceFileInMemory 函式
 
@@ -85,9 +85,9 @@ HRESULT HRESULT MrmCreateResourceFileInMemory(
 *outputPriSize* \[擴展\]
 </dt> <dd>
 
-類型： **ULONG \** _
+類型： **ULONG \***
 
-ULONG 的位址。 在 _outputPriSize * 中，此函式會傳回 *outputPriData* 所指向之已配置記憶體的大小。
+ULONG 的位址。 在 *outputPriSize* 中，此函式會傳回 *outputPriData* 所指向之已配置記憶體的大小。
 
 </dd> </dl>
 
@@ -108,7 +108,7 @@ ULONG 的位址。 在 _outputPriSize * 中，此函式會傳回 *outputPriData*
 | 需求 | 值 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 10， \[ 僅限1803版桌面應用程式\]<br/>                                       |
-| 最低支援的伺服器<br/> | \[僅限 Windows Server desktop 應用程式\]<br/>                                                 |
+| 最低支援的伺服器<br/> | Windows\[僅限伺服器桌面應用程式\]<br/>                                                 |
 | 標頭<br/>                   | <dl> <dt>MrmResourceIndexer。h</dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>Mrmsupport .lib</dt> </dl>       |
 | DLL<br/>                      | <dl> <dt>Mrmsupport.dll</dt> </dl>       |

@@ -4,12 +4,12 @@ ms.assetid: 2510480e-cfea-4f7c-af0b-6d229c150c91
 title: 使用 PDH 函數來使用計數器資料
 ms.topic: article
 ms.date: 08/17/2020
-ms.openlocfilehash: 431bf160ef6ca54b4a37363d7fe6ed48bb25d953
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6c506e3c7a73a94a6bc3c282920e17504e28dedb42e0e3bee8a6f05a1e77ebbc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103849276"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120033188"
 ---
 # <a name="using-the-pdh-functions-to-consume-counter-data"></a>使用 PDH 函數來使用計數器資料
 

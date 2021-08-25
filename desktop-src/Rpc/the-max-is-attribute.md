@@ -6,12 +6,12 @@ keywords:
 - max_is
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8901f952a55de6b81143b0e615c878d8599fb354
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 7adb93aa5e01cd29c724ed61e6d5c9d56eb4c0ab4acf7d09d1cd7f919a80a030
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104186081"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120127628"
 ---
 # <a name="the-max_is-attribute"></a>\[Max \_ 為 \] 屬性
 
@@ -30,6 +30,6 @@ interface arraytest
 }
 ```
 
- 
+ 
 
- 
+ 

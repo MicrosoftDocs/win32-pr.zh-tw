@@ -4,12 +4,12 @@ ms.assetid: d1f44646-98ee-4e3a-a81a-83d6c87c23f4
 title: 指定遞交集
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e9acb421963bea3ffaa70b6165c6ffceee138e38
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3c2f3f7d559c83e3c56bc6ea202b3a0e339dbc1b76d93fc2af1b73f5a2c60c4e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970227"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119778348"
 ---
 # <a name="specifying-a-handoff-set"></a>指定遞交集
 

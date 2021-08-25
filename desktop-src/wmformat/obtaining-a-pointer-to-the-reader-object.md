@@ -1,12 +1,12 @@
 ---
-title: '取得讀取器物件的指標 (Windows Media Format 11 SDK) '
-description: 瞭解如何使用 IWMReaderAdvanced2 介面取得 Windows Media Format SDK 的 Reader 物件指標。
+title: '取得讀取器物件的指標 (Windows 媒體格式 11 SDK) '
+description: 瞭解如何使用 IWMReaderAdvanced2 介面取得 Windows 媒體格式 SDK 的 Reader 物件指標。
 ms.assetid: 70696ffc-2612-460d-b445-f200ba85d3c7
 keywords:
-- Windows Media Format SDK、DirectShow
-- Windows Media 格式 SDK，讀取器物件
-- Windows Media Format SDK，IWMReaderAdvanced2 介面
-- Advanced Systems Format (ASF) 、DirectShow
+- Windows媒體格式 SDK，DirectShow
+- Windows媒體格式 SDK，讀取器物件
+- Windows媒體格式 SDK，IWMReaderAdvanced2 介面
+- Advanced Systems Format (ASF) ，DirectShow
 - ASF (Advanced Systems Format) ，DirectShow
 - Advanced Systems Format (ASF) 、reader 物件
 - ASF (Advanced Systems Format) 、reader 物件
@@ -14,23 +14,23 @@ keywords:
 - ASF (Advanced Systems Format) ，IWMReaderAdvanced2 介面
 - DirectShow，讀取器物件
 - DirectShow，讀取器物件的指標
-- DirectShow、IWMReaderAdvanced2 介面
+- DirectShow，IWMReaderAdvanced2 介面
 - 讀取器物件，取得指標
 - 資料流程，讀取器物件
 - 資料流程，讀取器物件的指標
 - IWMReaderAdvanced2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6dd31bd868365b87b38eefd0c0c81e8beafef51c
-ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
+ms.openlocfilehash: 5e4b2829e56d08825234dcefdc4fb1012f48c894419e7c328f10afeb76cb6c4a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "111989133"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119808048"
 ---
-# <a name="obtaining-a-pointer-to-the-reader-object-windows-media-format-11-sdk"></a>取得讀取器物件的指標 (Windows Media Format 11 SDK) 
+# <a name="obtaining-a-pointer-to-the-reader-object-windows-media-format-11-sdk"></a>取得讀取器物件的指標 (Windows 媒體格式 11 SDK) 
 
-在某些情況下，例如，當您在指定的資料流程上設定哪些資料單位延伸模組時，您可能需要直接存取 Windows Media Format SDK 的 [Reader 物件](reader-object.md) 。 下列函式顯示如何取得讀取器物件本身的 [**IWMReaderAdvanced2**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced2) 介面：
+在某些情況下（例如，在決定指定的資料流程上設定哪些資料單位延伸模組）時，您可能需要直接存取 Windows 媒體格式 SDK 的[Reader 物件](reader-object.md)。 下列函式顯示如何取得讀取器物件本身的 [**IWMReaderAdvanced2**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced2) 介面：
 
 
 ```C++

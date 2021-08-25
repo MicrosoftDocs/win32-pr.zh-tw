@@ -4,12 +4,12 @@ description: 工作會在特定的安全性內容下註冊並執行。
 ms.assetid: be86eb9f-f6ec-4dce-afe8-e3314a74062a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 329f354518daeb11a5f330ae3fdc2c332b66d5c3
-ms.sourcegitcommit: 3e70ae762629e244028b437420ed50b5850db4e3
+ms.openlocfilehash: bb6f49ef07818b1fe729fa96a2b5e0712979a17f300e4f411f96cefd2f3917f9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "104374598"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119738248"
 ---
 # <a name="security-contexts-for-tasks"></a>工作的安全性內容
 
@@ -23,16 +23,16 @@ ms.locfileid: "104374598"
 
 使用工作 \_ 登入 \_ 密碼或工作登入 S4U 旗標注冊的工作， \_ \_ 只會在指定的使用者已啟用 [登入為批次許可權] 時啟動。 系統管理員和備份操作員群組使用者預設會啟用此許可權。
 
-當您呼叫 [**ITaskService：： connect**](/windows/desktop/api/taskschd/nf-taskschd-itaskservice-connect) ([**TaskService**](taskservice-connect.md) ，) 方法的腳本中，任何後續的方法呼叫工作排程器服務都會使用傳遞給 **Connect** 方法的認證。 使用互動式登入類型註冊工作時，請務必考慮這一點。 當您註冊的工作具有等於工作登入互動式權杖的登入類型，而且該工作在工作 \_ \_ 定義的 \_ [**Principal**](/windows/desktop/api/taskschd/nf-taskschd-itaskdefinition-get_principal) 屬性中指定的認證（在要 [**RegisterTaskDefinition**](/windows/desktop/api/taskschd/nf-taskschd-itaskfolder-registertaskdefinition)的參數中指定或在傳遞至 [**RegisterTask**](/windows/desktop/api/taskschd/nf-taskschd-itaskfolder-registertask)的 XML 中指定）時，會使用呼叫 **Connect** 方法的使用者認證來註冊該工作。
+當您呼叫 [**ITaskService：：連線**](/windows/desktop/api/taskschd/nf-taskschd-itaskservice-connect) ([**TaskService 連線**](taskservice-connect.md)腳本) 方法時，任何後續對工作排程器服務的方法呼叫都會使用傳遞至 **連線** 方法的認證。 使用互動式登入類型註冊工作時，請務必考慮這一點。 當您註冊的工作具有等於工作登入互動式權杖的登入類型，而且該工作在工作 \_ \_ 定義的 \_ [**Principal**](/windows/desktop/api/taskschd/nf-taskschd-itaskdefinition-get_principal)屬性中指定的認證（在要 [**RegisterTaskDefinition**](/windows/desktop/api/taskschd/nf-taskschd-itaskfolder-registertaskdefinition)的參數中指定或在傳遞至 [**RegisterTask**](/windows/desktop/api/taskschd/nf-taskschd-itaskfolder-registertask)的 XML 中指定）時，會使用呼叫 **連線** 方法的使用者認證來註冊該工作。
 
 ## <a name="user-account-control-uac-security-for-tasks"></a> (UAC) 安全性的使用者帳戶控制
 
  (UAC) 的[使用者帳戶控制](https://www.microsoft.com/technet/windowsvista/security/uac.mspx)可讓使用者執行一般功能，例如執行程式和儲存和修改資料，而不需要公開系統管理許可權。 依預設，當 UAC 開啟時，會以低層級許可權執行工作。 工作可以藉由從 IPrincipal ([**Principal.) RUNLEVEL**](principal-runlevel.md)之 [**RUNLEVEL 屬性**](/windows/desktop/api/taskschd/nf-taskschd-iprincipal-get_runlevel)的工作 [**\_ RUNLEVEL \_**](/windows/win32/api/taskschd/ne-taskschd-task_runlevel_type)別列舉設定許可權等級，來指定要以較高的許可權或低許可權執行這些工作。 **RunLevel** 屬性的值會決定工作的動作將執行的許可權層級。 如果工作的動作必須具有較高的許可權才能執行，則您必須將 **RunLevel** 屬性設定為 [ **task \_ RunLevel \_ 最高**]。 如果工作是使用工作安全性內容的 Administrators 群組來註冊的，則您也必須將 [ **RunLevel** ] 屬性設定為 [ **task \_ RunLevel \_** ] （如果您想要執行此工作）。 如果工作是使用內建 \\ 系統管理員帳戶或本機系統或本地服務帳戶來註冊的，則會忽略 **RunLevel** 屬性。 如果已關閉使用者帳戶控制 (UAC) ，也會忽略屬性值。 **RunLevel** 屬性的值不會影響執行或刪除工作所需的許可權。
 
 > [!Note]  
-> 將作業系統從 Windows XP 升級至 Windows Vista 之後， \\ 在 WINDOWS xp 上使用內建系統管理員帳戶註冊的工作會將 [**RunLevel**](/windows/desktop/api/taskschd/nf-taskschd-iprincipal-get_runlevel) 屬性設定為 **TASK \_ RunLevel \_ LUA**。 這可能會導致某些工作失敗。 您可以手動更新此屬性，以確保所有工作將會執行。
+> 將作業系統從 Windows XP 升級到 Windows Vista 之後，使用 \\ Windows XP 上的內建系統管理員帳戶註冊的工作會將 [**RunLevel**](/windows/desktop/api/taskschd/nf-taskschd-iprincipal-get_runlevel)屬性設定為 **TASK \_ RunLevel \_ LUA**。 這可能會導致某些工作失敗。 您可以手動更新此屬性，以確保所有工作將會執行。
 
- 
+ 
 
 在低許可權的程式中，您無法註冊 [**RunLevel**](/windows/desktop/api/taskschd/nf-taskschd-iprincipal-get_runlevel)屬性等於 **task \_ RunLevel \_ 最高** 的工作，但您可以使用等於 **task \_ RunLevel \_ LUA** 的 **RunLevel** 屬性來註冊工作。 工作動作將以低許可權執行。 您不能將工作註冊為內建/系統管理員、本機系統或群組。
 
@@ -84,9 +84,9 @@ ms.locfileid: "104374598"
 [**工作 \_ 登入 \_ 類型**](/windows/desktop/api/taskschd/ne-taskschd-task_logon_type)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

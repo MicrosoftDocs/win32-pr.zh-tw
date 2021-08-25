@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 27fe8e544bb14b119785b26b9cb5be5cdad48015
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3b4f3ad10a6defe4e7db252a1703888550ff5a89fe2a0d0618dd9886fc5f74bf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990789"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120123988"
 ---
 # <a name="axwindowsmediaplayerlaunchurl-method"></a>AxWindowsMediaPlayer. launchURL 方法
 

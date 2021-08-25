@@ -4,12 +4,12 @@ ms.assetid: f7d1bdcb-8e4f-493f-ad3c-9d4b9d21436b
 title: 憑證和信任傳回值
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e17f170c7c3aa1ac0839323b9a52767a101dd3c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bf575df785160682c132f38ccc280bb8b9377b15b64ed3efda163c68c1ef52e0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103690215"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120127238"
 ---
 # <a name="certificate-and-trust-return-values"></a>憑證和信任傳回值
 
@@ -17,7 +17,7 @@ ms.locfileid: "103690215"
 
 
 
-| Name                            | 描述                                                                                                                    | 值      |
+| 名稱                            | 描述                                                                                                                    | 值      |
 |---------------------------------|--------------------------------------------------------------------------------------------------------------------------------|------------|
 | CERT \_ E \_ 危急               | 憑證包含標示為「重大」的未知延伸模組。                                                         | 0x800B0105 |
 | CERT \_ E \_ 不正確 \_ 名稱          | 憑證的名稱無效。 名稱未包含在允許的清單中，或是已明確排除。 | 0x800B0114 |

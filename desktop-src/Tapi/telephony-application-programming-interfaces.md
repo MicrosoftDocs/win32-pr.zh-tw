@@ -1,19 +1,19 @@
 ---
-description: Microsoft 電話語音應用程式開發介面支援針對 Microsoft Windows 進行通訊應用程式的開發。 下表列出電話語音介面。
+description: Microsoft 電話語音應用程式開發介面支援 Microsoft Windows 的通訊應用程式開發。 下表列出電話語音介面。
 ms.assetid: e7348296-ee2d-4e0a-b274-3563dccea841
 title: 電話語音應用程式設計介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a19fd6a520c8a53440967eeef753b7ed8c90ba5f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 50aee0711966c8ff7111a42576d4dfcb84d4da5088c736bf0cf29fe8a15c33b1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103852031"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119773048"
 ---
 # <a name="telephony-application-programming-interfaces"></a>電話語音應用程式設計介面
 
-Microsoft 電話語音應用程式開發介面支援針對 Microsoft Windows 進行通訊應用程式的開發。 下表列出電話語音介面。
+Microsoft 電話語音應用程式開發介面支援 Microsoft Windows 的通訊應用程式開發。 下表列出電話語音介面。
 
 
 

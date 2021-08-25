@@ -3,20 +3,20 @@ title: 影像中的色彩
 description: 色彩管理不是新的主題。
 ms.assetid: 9559d1be-3452-4dda-a576-e80dfad21778
 keywords:
-- Windows Color System (WCS) ，色彩管理概念
-- WCS (Windows 色彩系統) ，色彩管理概念
+- Windows色彩系統 (WCS) ，色彩管理概念
+- WCS (Windows 色彩系統) 、色彩管理概念
 - 影像色彩管理、關於
 - 色彩管理，關於
 - 色彩，色彩管理概念
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ba8e0ce2f775a437cb409bd10dd60ccf25d64b8b
-ms.sourcegitcommit: 38954f8f0d70f44bff4a943784f468ebd7ef691a
+ms.openlocfilehash: d841867f85bd92017fac8ee18b93e229f76a492429e3d3a62e1c93ee8b520a4a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "106977115"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119814632"
 ---
 # <a name="color-in-imaging"></a>影像中的色彩
 

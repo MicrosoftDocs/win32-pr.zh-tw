@@ -4,12 +4,12 @@ description: 陷阱 Pdu 的格式與其他 Pdu 的格式不同。 SNMPv1 陷阱�
 ms.assetid: 2d2b4520-28b7-4a2e-8dee-456e17d9d6f6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e87adc3222808fcc7e81904ade07c09afa13bc6d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b73e9cd2a5396bbe258fcb67c88cc207ea0243a9e8aff9f31e4866b9ee8adcc1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021103"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119885678"
 ---
 # <a name="trap-formats"></a>補漏設格式
 
@@ -33,13 +33,13 @@ ms.locfileid: "104021103"
 
 
 
- 
+ 
 
 [**SnmpRecvMsg**](/windows/desktop/api/Winsnmp/nf-winsnmp-snmprecvmsg)函數一律會傳回 SNMPv2C 格式的訊息。 如果訊息包含「 **SNMP \_ PDU \_ 陷阱**」作業類型，應用程式可以讀取訊息的變數系結專案，並取得與該陷阱相關聯的資訊。
 
- 
+ 
 
- 
+ 
 
 
 

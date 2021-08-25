@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - ks.h
-ms.openlocfilehash: 62e26b1aa8804514588e66c1d02e1f0643e97bcb
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2e1cdf3d8edcea88fbcfb260d87d3e79d62eb2aebc57144ae38defb018065f1a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106998633"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119823308"
 ---
 # <a name="ksmultiple_item-structure"></a>KSMULTIPLE \_ 專案結構
 
@@ -68,7 +68,7 @@ typedef struct {
 
 <dl> <dt>
 
-[DirectShow 結構](directshow-structures.md)
+[DirectShow結構](directshow-structures.md)
 </dt> <dt>
 
 [**IKsPin::KsQueryMediums**](ikspin-ksquerymediums.md)

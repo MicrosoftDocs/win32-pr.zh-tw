@@ -1,9 +1,9 @@
 ---
 title: 'ICM_DRAW_STOP 訊息 (Vfw .h) '
-description: ICM \_ 繪製 \_ 停止訊息會通知轉譯驅動程式，以在繪製框架的時機停止其內部時鐘。 您可以使用 ICDrawStop 宏明確地傳送此訊息。
+description: ICM \_ 繪製 \_ 停止訊息會通知轉譯驅動程式，以在繪製框架的時間內停止其內部時鐘。 您可以使用 ICDrawStop 宏明確地傳送此訊息。
 ms.assetid: 9ffda595-e3d6-48f0-9487-69f7e95979c2
 keywords:
-- ICM_DRAW_STOP message Windows 多媒體
+- ICM_DRAW_STOP 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b3bde99dfcf483e67aa6a601de2718814cc22439
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 41bdb8fbc9a0cddf470733fa35b2f25dc62675175cbb40c427d0b160074c5409
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464993"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120038788"
 ---
-# <a name="icm_draw_stop-message"></a>ICM \_ 繪圖 \_ 停止訊息
+# <a name="icm_draw_stop-message"></a>ICM \_繪製 \_ 停止訊息
 
-**ICM \_ 繪製 \_ 停止** 訊息會通知轉譯驅動程式，以在繪製框架的時機停止其內部時鐘。 您可以使用 [**ICDrawStop**](/windows/desktop/api/Vfw/nf-vfw-icdrawstop) 宏明確地傳送此訊息。
+**ICM \_ 繪製 \_ 停止** 訊息會通知轉譯驅動程式，以在繪製框架的時間內停止其內部時鐘。 您可以使用 [**ICDrawStop**](/windows/desktop/api/Vfw/nf-vfw-icdrawstop) 宏明確地傳送此訊息。
 
 
 ```C++

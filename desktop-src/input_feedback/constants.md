@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.topic: article
 ms.date: 02/03/2020
-ms.openlocfilehash: d235818130815c14cabf9a4f2ba51c0aa7d07f27
-ms.sourcegitcommit: 4d4a6e9ad5de37e467cd3164276771b71e1f113f
+ms.openlocfilehash: ee732a3cf67287790fd691cbf8b2b1592de31106abf08deb713bd6402afb971f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "106991078"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119726699"
 ---
 # <a name="input-feedback-configuration-constants"></a>輸入回饋設定常數
 
@@ -44,8 +44,8 @@ ms.locfileid: "106991078"
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                 |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                           |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                                 |
 | 標頭<br/>                   | <dl> <dt>Winuser。h</dt> </dl> |
 
 

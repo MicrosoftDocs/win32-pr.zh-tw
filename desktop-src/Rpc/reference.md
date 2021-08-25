@@ -6,12 +6,12 @@ keywords:
 - 遠端程序呼叫 RPC，參考
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9f13bfdec10f520a3044bcd8b2fc1dd5fd8cdca0
-ms.sourcegitcommit: cba7f424a292fd7f3a8518947b9466439b455419
+ms.openlocfilehash: a43a66009f11e9c06e901917b84032b05646dcb112240f638ee2bbc0306e7407
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "103841708"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120018828"
 ---
 # <a name="rpc-reference"></a>RPC 參考
 
@@ -21,9 +21,9 @@ RPC 程式設計人員參考包含：
 -   [RPC 函數](function-reference.md)
 -   [RPC 宏](rpc-macros.md)
 
- 
+ 
 
- 
+ 
 
 
 

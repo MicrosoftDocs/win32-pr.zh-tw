@@ -20,12 +20,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: f1f9c950c86e4f749c7889fcf6914b8294850f00
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7b6fca1494a31bc342d4f8ad2933968c58efacc5f5e115ff10fe92a8afbabca8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "107001668"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120017256"
 ---
 # <a name="jet_dbidtostring-method-string-iformatprovider"></a>JET_DBID。ToString 方法 (字串，IFormatProvider) 
 

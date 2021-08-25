@@ -4,12 +4,12 @@ ms.assetid: cbc4c2ff-e08b-4ebb-a306-a80f9a6e4360
 title: 更新升級的功能
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8af072618bd0a2ba16a7f098d6b1129ba17c27af
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 107a6febda0c13101cc7c0615526514ebe3fee24e2aa14bac1d07794206f2de8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106985229"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119809904"
 ---
 # <a name="updating-features-for-an-upgrade"></a>更新升級的功能
 
@@ -33,10 +33,10 @@ ms.locfileid: "106985229"
 | 舞蹈      | 藝術            | 舞蹈         | Dance 位於紅色公園的事件   | 21      | 3     | ARTSDIR     | 2          |
 | 足球   | 運動項目           | 足球      | 足球遊戲             | 13      | 3     | SPORTDIR    | 2          |
 | 門       |                 | 門          | Red 公園的招生      | 6       | 3     | NOTEPADDIR  | 0          |
-| Help       | [記事本]         | Help          | 說明檔。                 | 5       | 3     | NOTEPADDIR  | 1          |
+| 說明       | [記事本]         | 說明          | 說明檔。                 | 5       | 3     | NOTEPADDIR  | 1          |
 | 一月    | 門            | 一月       | 1月招生         | 7       | 3     | MONDIR      | 2          |
 | NewYears   | 一月         | 新的年份日 | 新的年份招生   | 9       | 3     | HOLDIR      | 2          |
-| [記事本]    |                 | [記事本]       | 記事本編輯器             | 1       | 3     | NOTEPADDIR  | 0          |
+| [記事本]    |                 | [記事本]       | 記事本編輯 器             | 1       | 3     | NOTEPADDIR  | 0          |
 | 讀我檔案     | [記事本]         | 讀我檔案        | 讀我檔案                | 3       | 3     | NOTEPADDIR  | 0          |
 | 運動項目      |                 | 運動事件  | 在紅色公園運動事件   | 12      | 3     | NOTEPADDIR  | 0          |
 | 籃球 | 運動項目           | 籃球    | 籃球遊戲           | 15      | 3     | SPORTDIR    | 2          |
@@ -51,13 +51,13 @@ ms.locfileid: "106985229"
 
 
 
-| 功能\_  | 元件\_ |
+| 特徵\_  | 元件\_ |
 |------------|-------------|
 | 棒球   | 棒球    |
 | 演唱會    | 演唱會     |
 | 舞蹈      | 舞蹈       |
 | 足球   | 足球    |
-| Help       | Help        |
+| 說明       | 說明        |
 | 一月    | 一月     |
 | NewYears   | NewYears    |
 | [記事本]    | [記事本]     |

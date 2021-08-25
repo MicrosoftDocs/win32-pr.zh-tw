@@ -4,12 +4,12 @@ ms.assetid: 23482B8A-58F3-4B39-9C6D-54EC27D36C01
 title: 'MF_SA_D3D11_AWARE 屬性 (Mftransform) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d90f560e3d31b80c1b3fbcbb5c25c4e20815f51
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 59a996493ace387d1c6e93c734110772274986c6e5490b9e0e08567024d47c0a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318647"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119955398"
 ---
 # <a name="mf_sa_d3d11_aware-attribute"></a>MF \_ SA \_ D3D11 \_ 感知屬性
 
@@ -34,8 +34,8 @@ ms.locfileid: "104318647"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 8 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | Windows Server 2012 \[ desktop app \| UWP 應用程式\]<br/>                              |
+| 最低支援的用戶端<br/> | Windows 8 \[桌面應用程式 \| UWP 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[桌面應用程式 \| UWP 應用程式\]<br/>                              |
 | 標頭<br/>                   | <dl> <dt>Mftransform。h</dt> </dl> |
 
 

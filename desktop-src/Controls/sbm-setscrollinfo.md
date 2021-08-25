@@ -3,7 +3,7 @@ title: 'SBM_SETSCROLLINFO 訊息 (Winuser .h) '
 description: 傳送 SBM \_ SETSCROLLINFO 訊息來設定捲軸的參數。
 ms.assetid: e0e42a81-67be-4d40-88c8-77398b068617
 keywords:
-- SBM_SETSCROLLINFO message Windows 控制項
+- SBM_SETSCROLLINFO 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e98abbca2d53d4b104caea22954472a17dfd5c1c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5622371abb86301e1450c9fa0d6864e8db76c9837fca48fe8bcf11cb884f6b5c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106968188"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119914288"
 ---
 # <a name="sbm_setscrollinfo-message"></a>SBM \_ SETSCROLLINFO 訊息
 
@@ -74,9 +74,9 @@ ms.locfileid: "106968188"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                     |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 

@@ -54,12 +54,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 714b26081bb4caadface283553b1dd3ebd91192d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 95b4747aa5e2663bf98dcac86ba2f928efe1b715ad41ea6f4470610712eaa202
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103933931"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120033268"
 ---
 # <a name="imsrdpclientadvancedsettingsredirectports-property"></a>IMsRdpClientAdvancedSettings：： RedirectPorts 屬性
 

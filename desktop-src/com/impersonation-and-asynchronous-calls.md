@@ -4,12 +4,12 @@ description: 模擬和非同步呼叫
 ms.assetid: 7eaa0a66-7a80-4831-b0b6-b8eff4abd036
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0854946b619f7580173ffcbc97c9af3f2540361b
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: c84f7fcbdc820b50ef4eaaedd81ac579fcce64f1371bc57219348f6dcbedc0f9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103683202"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120070878"
 ---
 # <a name="impersonation-and-asynchronous-calls"></a>模擬和非同步呼叫
 
@@ -27,6 +27,6 @@ ms.locfileid: "103683202"
 [進行非同步呼叫](making-an-asynchronous-call.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

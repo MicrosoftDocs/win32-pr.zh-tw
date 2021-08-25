@@ -4,12 +4,12 @@ ms.assetid: 37d353c0-ac22-430f-b5f3-15deb69be24b
 title: 物件特定的 Ace
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e322344730f303cd479e4772563aa7b2dc798a154d54828ebd71d92caad111ba
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4212a0f7fe4eff7e38b41fe2636643c457cfeb51
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118912413"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122469575"
 ---
 # <a name="object-specific-aces"></a>物件特定的 Ace
 
@@ -17,34 +17,12 @@ ms.locfileid: "118912413"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>GUID</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>ObjectType</strong></td>
-<td>識別下列其中一項：
-<ul>
-<li>子物件的類型。 ACE 控制建立指定之子物件類型的許可權。 如需詳細資訊，請參閱 <a href="controlling-child-object-creation-in-c--.md">在 c + + 中控制建立子物件</a>。</li>
-<li>屬性集或屬性。 ACE 控制讀取或寫入屬性（property）或屬性集的許可權。 如需詳細資訊，請參閱 <a href="aces-to-control-access-to-an-object-s-properties.md">ace 來控制物件屬性的存取</a>。</li>
-<li>延伸的許可權。 ACE 控制執行與擴充許可權相關聯之作業的許可權。</li>
-<li>經過驗證的寫入。 ACE 控制執行特定寫入作業的許可權。 這些已驗證的寫入權限（在 ACL 編輯器中定義和公開）提供了驗證的屬性寫入權限，而不是將任何值的未檢查低層級寫入，授與具有 &quot; write property 許可權的屬性 &quot; 。</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><strong>InheritedObjectType</strong></td>
-<td>表示可以繼承 ACE 的子物件類型。 繼承也是由 <a href="/windows/desktop/api/Winnt/ns-winnt-ace_header"><strong>ACE_HEADER</strong></a>中的繼承旗標，以及針對子物件所放置之繼承的任何保護所控制。 如需詳細資訊，請參閱 <a href="ace-inheritance.md">ACE 繼承</a>。</td>
-</tr>
-</tbody>
-</table>
+
+| GUID | Description | 
+|------|-------------|
+| <strong>ObjectType</strong> | 識別下列其中一項：<ul><li>子物件的類型。 ACE 控制建立指定之子物件類型的許可權。 如需詳細資訊，請參閱 <a href="controlling-child-object-creation-in-c--.md">在 c + + 中控制建立子物件</a>。</li><li>屬性集或屬性。 ACE 控制讀取或寫入屬性（property）或屬性集的許可權。 如需詳細資訊，請參閱 <a href="aces-to-control-access-to-an-object-s-properties.md">ace 來控制物件屬性的存取</a>。</li><li>延伸的許可權。 ACE 控制執行與擴充許可權相關聯之作業的許可權。</li><li>經過驗證的寫入。 ACE 控制執行特定寫入作業的許可權。 這些已驗證的寫入權限（定義和公開于 ACL 編輯器中）提供了已驗證的屬性寫入權限，而不是針對以「寫入屬性」許可權授與的屬性進行未檢查的低層級寫入。</li></ul> | 
+| <strong>InheritedObjectType</strong> | 表示可以繼承 ACE 的子物件類型。 繼承也是由 <a href="/windows/desktop/api/Winnt/ns-winnt-ace_header"><strong>ACE_HEADER</strong></a>中的繼承旗標，以及針對子物件所放置之繼承的任何保護所控制。 如需詳細資訊，請參閱 <a href="ace-inheritance.md">ACE 繼承</a>。 | 
+
 
 
 

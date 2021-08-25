@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: da45ff8f3da29e7ddf51078d5f143ffb7db76f56
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0229e33567896d322b4c5b041056345cfc6833397996d3d1e393c9a1cd7bda58
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990968"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120122628"
 ---
 # <a name="wmmediaoriginalbroadcastdatetime-attribute"></a>WM/MediaOriginalBroadcastDateTime 屬性
 
@@ -29,7 +29,7 @@ ms.locfileid: "106990968"
 
 ## <a name="remarks"></a>備註
 
-這個屬性的 Windows Media Format SDK 常數是 g \_ wszWMMediaOriginalBroadcastDateTime。
+這個屬性的 Windows 媒體格式 SDK 常數是 g \_ wszWMMediaOriginalBroadcastDateTime。
 
 若要判斷是否可以變更這個屬性的值，請使用 [isReadOnlyItem](media-isreadonlyitem.md) 方法。
 

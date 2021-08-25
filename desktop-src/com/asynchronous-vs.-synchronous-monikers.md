@@ -4,12 +4,12 @@ description: 非同步和同步的名字標記
 ms.assetid: 79c7894d-956a-4c86-8806-2c6c7faa6034
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d54ee1b5f31941774944463baad893058fd15ad
-ms.sourcegitcommit: d39e82e232f6510f843fdb8d55d25b4e9e02e880
+ms.openlocfilehash: c631c669d73796d1596f52ab2ec6e724829ea80e6873523c1e9bd4f8ad567f09
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "104553358"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120071102"
 ---
 # <a name="asynchronous-and-synchronous-monikers"></a>非同步和同步的名字標記
 

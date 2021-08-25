@@ -4,12 +4,12 @@ description: 從 Windows 2000 開始，當您安裝 Windows SDK 時，安裝程�
 ms.assetid: bd72ca2f-bb93-4057-a877-be755a88719d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 11c1c895aecb3bdf74189461cd6aa9ee814b2d68
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b84450f4408ac0e90be04cfff7d1cbc92890cde4434969431a986e9cda378ca2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104462201"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120022438"
 ---
 # <a name="configuring-the-name-service"></a>設定名稱服務
 
@@ -20,7 +20,7 @@ ms.locfileid: "104462201"
 > [!Note]  
 > 您必須擁有數位設備公司的 DCE CD 產品，才能將 DCE CD 設定為您的名稱服務提供者。 請參閱數位設備公司提供的檔，以取得 DCE CD 的相關資訊。
 
- 
+ 
 
 **重新設定名稱服務提供者**
 
@@ -31,7 +31,7 @@ ms.locfileid: "104462201"
     1.  當您選取 [Microsoft 定位器] 時，按一下 [確定]。 完成設定程式。
     2.  當您選取 [DCE Cell Directory 服務，請在 [ **網路位址** ] 方塊中，輸入執行 NSI daemon (nsid) 的主電腦名稱稱，然後按一下 [確定]。
 
-**重新設定 Windows 2000 的名稱服務提供者**
+**若要重新設定 Windows 2000 的名稱服務提供者**
 
 1.  在主控台中，按一下 [ **網路** ] 圖示。
 
@@ -46,9 +46,9 @@ ms.locfileid: "104462201"
     1.  當您選取 [Microsoft 定位器] 時，按一下 [確定]。 完成設定程式。
     2.  當您選取 [DCE Cell Directory 服務，請在 [ **網路位址** ] 方塊中，輸入執行 NSI daemon (nsid) 的主電腦名稱稱，然後按一下 [確定]。
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ description: 本文說明如何在全螢幕 Microsoft DirectX 應用程式中，
 ms.assetid: 760ed960-08a3-e967-282e-7fbdbaeb7a4d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 195d3272c4051adbafc25d910f01ac98ec036cead314c7f7b04301528508a494
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d8cb5869579da97aeea465b572082a23a963e9db
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118396420"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122471964"
 ---
 # <a name="using-an-input-method-editor-in-a-game"></a>在遊戲中使用輸入法編輯器
 
@@ -274,48 +274,14 @@ CDXUTIMEEditBox 訊息處理常式也會將 \_ bShowReadingWindow 設定為 FALS
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>IME 命令</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="/windows/desktop/Intl/imn-setopenstatus">IMN_SETOPENSTATUS</a></td>
-<td>這個屬性所包含的資訊，像是組合字元串中每個字元的狀態 (例如，已轉換或非轉換的) 。 這項資訊是必要的，因為 CDXUTIMEEditBox 會根據其屬性，以不同的方式來色彩撰寫字串字元。</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/Intl/imn-opencandidate">IMN_OPENCANDIDATE</a>  / <a href="/windows/desktop/Intl/imn-changecandidate">IMN_CHANGECANDIDATE</a></td>
-<td>在即將開啟或更新候選視窗時，傳送至應用程式。 當使用者想要變更轉換的文字選擇時，就會開啟候選視窗。 當使用者移動選取指標或變更頁面時，會更新視窗。 CDXUTIMEEditBox 會針對這兩個命令使用一個訊息處理常式，因為所需的工作完全相同：<br/>
-<ol>
-<li>CDXUTIMEEditBox 會將候選清單結構的 bShowWindow 成員 s_CandList 設定為 TRUE，表示需要在畫面格轉譯期間繪製候選視窗。</li>
-<li>CDXUTIMEEditBox 會藉由呼叫 <a href="/windows/desktop/api/imm/nf-imm-immgetcandidatelista"><strong>ImmGetCandidateList</strong></a>，先取得所需的緩衝區大小，然後再取得實際的資料，以抓取候選清單。</li>
-<li>私用候選清單結構 s_CandList 會以抓取的候選資料進行初始化。</li>
-<li>候選字串會儲存為字串陣列。</li>
-<li>所選取專案的索引和頁面索引都會儲存起來。</li>
-<li>CDXUTIMEEditBox 會檢查候選視窗樣式是垂直或水準。 如果視窗樣式是水準的，則額外的字串緩衝區（s_CandList 的 HoriCand 成員）必須使用所有的候選字串來初始化，並在所有相鄰字串之間插入空白字元。 轉譯垂直候選視窗時，會一次繪製一個候選字串，其中每個字串的 y 座標都會遞增。 不過，轉譯水準候選視窗時應該使用這個 HoriCand 字串，因為空白字元是在同一行上分隔兩個相鄰字串的最佳方式。</li>
-</ol></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/Intl/imn-closecandidate">IMN_CLOSECANDIDATE</a></td>
-<td>當候選視窗即將關閉時，傳送至應用程式。 當使用者從候選清單進行選取時，就會發生這種情況。 CDXUTIMEEditBox 會藉由將候選視窗的可見旗標設定為 FALSE，然後清除候選字串緩衝區，來處理此命令。</td>
-</tr>
-<tr class="even">
-<td>IMN_PRI加值稅E</td>
-<td>當 IME 將其讀取字串更新為使用者鍵入或移除字元的結果時，傳送至應用程式。 應用程式應該取出讀取字串，並加以儲存以供呈現。 CDXUTIMEEditBox 有兩個方法可根據 IME 中的讀取字串支援方式來取出讀取字串： <br/>
-<ul>
-<li>如果 IME 支援 GetReadingString 函式，就會呼叫 GetReadingString 來取出讀取字串。</li>
-<li>如果 IME 未執行 GetReadingString，CDXUTIMEEditBox 會從輸入內容內容中抓取讀取字串。</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| IME 命令 | Description | 
+|-------------|-------------|
+| <a href="/windows/desktop/Intl/imn-setopenstatus">IMN_SETOPENSTATUS</a> | 這個屬性所包含的資訊，像是組合字元串中每個字元的狀態 (例如，已轉換或非轉換的) 。 這項資訊是必要的，因為 CDXUTIMEEditBox 會根據其屬性，以不同的方式來色彩撰寫字串字元。 | 
+| <a href="/windows/desktop/Intl/imn-opencandidate">IMN_OPENCANDIDATE</a>  / <a href="/windows/desktop/Intl/imn-changecandidate">IMN_CHANGECANDIDATE</a> | 在即將開啟或更新候選視窗時，傳送至應用程式。 當使用者想要變更轉換的文字選擇時，就會開啟候選視窗。 當使用者移動選取指標或變更頁面時，會更新視窗。 CDXUTIMEEditBox 會針對這兩個命令使用一個訊息處理常式，因為所需的工作完全相同：<br /><ol><li>CDXUTIMEEditBox 會將候選清單結構的 bShowWindow 成員 s_CandList 設定為 TRUE，表示需要在畫面格轉譯期間繪製候選視窗。</li><li>CDXUTIMEEditBox 會藉由呼叫 <a href="/windows/desktop/api/imm/nf-imm-immgetcandidatelista"><strong>ImmGetCandidateList</strong></a>，先取得所需的緩衝區大小，然後再取得實際的資料，以抓取候選清單。</li><li>私用候選清單結構 s_CandList 會以抓取的候選資料進行初始化。</li><li>候選字串會儲存為字串陣列。</li><li>所選取專案的索引和頁面索引都會儲存起來。</li><li>CDXUTIMEEditBox 會檢查候選視窗樣式是垂直或水準。 如果視窗樣式是水準的，則額外的字串緩衝區（s_CandList 的 HoriCand 成員）必須使用所有的候選字串來初始化，並在所有相鄰字串之間插入空白字元。 轉譯垂直候選視窗時，會一次繪製一個候選字串，其中每個字串的 y 座標都會遞增。 不過，轉譯水準候選視窗時應該使用這個 HoriCand 字串，因為空白字元是在同一行上分隔兩個相鄰字串的最佳方式。</li></ol> | 
+| <a href="/windows/desktop/Intl/imn-closecandidate">IMN_CLOSECANDIDATE</a> | 當候選視窗即將關閉時，傳送至應用程式。 當使用者從候選清單進行選取時，就會發生這種情況。 CDXUTIMEEditBox 會藉由將候選視窗的可見旗標設定為 FALSE，然後清除候選字串緩衝區，來處理此命令。 | 
+| IMN_PRI加值稅E | 當 IME 將其讀取字串更新為使用者鍵入或移除字元的結果時，傳送至應用程式。 應用程式應該取出讀取字串，並加以儲存以供呈現。 CDXUTIMEEditBox 有兩個方法可根據 IME 中的讀取字串支援方式來取出讀取字串： <br /><ul><li>如果 IME 支援 GetReadingString 函式，就會呼叫 GetReadingString 來取出讀取字串。</li><li>如果 IME 未執行 GetReadingString，CDXUTIMEEditBox 會從輸入內容內容中抓取讀取字串。</li></ul> | 
+
 
 
 

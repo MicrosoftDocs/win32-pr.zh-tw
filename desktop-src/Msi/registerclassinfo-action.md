@@ -4,12 +4,12 @@ ms.assetid: f8b60a75-9c0e-41c5-b6af-6a05a26b2d71
 title: RegisterClassInfo 動作
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bd916772bc236dfc86df336347514c10d5dfbce7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d1a0983b77c517cb2084b21d6d1500ec9b2a54b45d403c43f65bcc29505e2afe
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106988777"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119912888"
 ---
 # <a name="registerclassinfo-action"></a>RegisterClassInfo 動作
 

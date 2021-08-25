@@ -1,5 +1,5 @@
 ---
-title: 'Windows 事件記錄檔錯誤常數 (Winerror.h .h) '
+title: 'Windows事件記錄檔錯誤常數 (Winerror.h .h) '
 description: 以下是 Windows 事件記錄檔所定義的錯誤碼。
 ms.assetid: 889ea4ae-dede-45d5-9293-cec85d81f010
 topic_type:
@@ -49,14 +49,14 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: efa5443d98c53d6abedbe3a0027e8e2e524ae9df
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e0f6f0bd3e2805c02dad78c064b56a443bfbb596cf42f25e9b52ac7ba584f123
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106965529"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120031938"
 ---
-# <a name="windows-event-log-error-constants"></a>Windows 事件記錄檔錯誤常數
+# <a name="windows-event-log-error-constants"></a>Windows事件記錄檔錯誤常數
 
 以下是 Windows 事件記錄檔所定義的錯誤碼。
 
@@ -218,7 +218,7 @@ ms.locfileid: "106965529"
 
 </dt> </dl> </dd> <dt>
 
-<span id="ERROR_EVT_NON_VALIDATING_MSXML"></span><span id="error_evt_non_validating_msxml"></span>**錯誤 \_ .EVT \_ 非 \_ 驗證 \_ MSXML**
+<span id="ERROR_EVT_NON_VALIDATING_MSXML"></span><span id="error_evt_non_validating_msxml"></span>**錯誤 \_ .EVT \_ 未 \_ 驗證 \_ MSXML**
 </dt> <dd> <dl> <dt>
 
 15013
@@ -562,8 +562,8 @@ XPath 運算式超過支援的複雜度。 簡化運算式或將其分割成兩�
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Winerror.h。h</dt> </dl> |
 
 

@@ -4,12 +4,12 @@ ms.assetid: e26462bb-e67f-4522-bec2-88378c4ff442
 title: 檔案資料流程轉譯器篩選
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a64c8d8a0c87dab3aa811c8246be24ded8ee04dc
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 3da8651d61559a9b22b722f91563426cb067f7a3
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104510240"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122470563"
 ---
 # <a name="file-stream-renderer-filter"></a>檔案資料流程轉譯器篩選
 
@@ -19,54 +19,9 @@ ms.locfileid: "104510240"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>篩選介面</td>
-<td><a href="/windows/desktop/api/Strmif/nn-strmif-ibasefilter"><strong>IBaseFilter</strong></a></td>
-</tr>
-<tr class="even">
-<td>輸入 pin 媒體類型</td>
-<td><ul>
-<li>主要類型： MEDIATYPE_File</li>
-<li>子類型： GUID_Null</li>
-<li>格式類型： MEDIATYPE_File</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>輸入 pin 介面</td>
-<td><a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPin</strong></a>、 <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"> <strong>IQualityControl</strong></a></td>
-</tr>
-<tr class="even">
-<td>輸出 pin 媒體類型</td>
-<td>無</td>
-</tr>
-<tr class="odd">
-<td>輸出 pin 介面</td>
-<td><a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPin</strong></a>、 <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>IQualityControl</strong></a>、 <a href="/windows/desktop/api/Strmif/nn-strmif-istreambuilder"><strong>IStreamBuilder</strong></a></td>
-</tr>
-<tr class="even">
-<td>篩選 CLSID</td>
-<td>CLSID_FileRend</td>
-</tr>
-<tr class="odd">
-<td>可執行檔</td>
-<td>Quartz.dll</td>
-</tr>
-<tr class="even">
-<td><a href="merit.md">優點</a></td>
-<td>MERIT_UNLIKELY</td>
-</tr>
-<tr class="odd">
-<td><a href="filter-categories.md">篩選準則分類</a></td>
-<td>CLSID_LegacyAmFilterCategory</td>
-</tr>
-</tbody>
-</table>
+
+| | |篩選介面 | <a href="/windows/desktop/api/Strmif/nn-strmif-ibasefilter"><strong>IBaseFilter</strong></a> | |輸入 pin 媒體類型 | <ul><li>主要類型： MEDIATYPE_File</li><li>子類型： GUID_Null</li><li>格式類型： MEDIATYPE_File</li></ul> | |輸入 pin 介面 | <a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPin</strong></a>、 <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>IQualityControl</strong></a> | |輸出釘選媒體類型 |無 | |輸出 pin 介面 | <a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPin</strong></a>、 <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>IQualityControl</strong></a>、 <a href="/windows/desktop/api/Strmif/nn-strmif-istreambuilder"><strong>IStreamBuilder</strong></a> | |篩選 CLSID |CLSID_FileRend | |可執行檔 |Quartz.dll | | <a href="merit.md">業績</a> |MERIT_UNLIKELY | | <a href="filter-categories.md">篩選準則類別</a> |CLSID_LegacyAmFilterCategory | 
+
 
 
 
@@ -89,7 +44,7 @@ DEFINE_GUID(CLSID_FileRend,
 
 <dl> <dt>
 
-[DirectShow 篩選](directshow-filters.md)
+[DirectShow過濾 器](directshow-filters.md)
 </dt> </dl>
 
  

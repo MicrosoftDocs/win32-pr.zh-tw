@@ -25,12 +25,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 10dc41be66e687f7cba277dcbd7486e08ae2ad74
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 04a6ac55d1768eaf29146d89bf69be4cbcf90fd7686590153432533e7bff5684
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106986338"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120017338"
 ---
 # <a name="jet_dbidinequality-operator"></a>JET_DBID。不等比較運算子
 

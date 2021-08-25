@@ -4,16 +4,16 @@ ms.assetid: a324098d-ae22-42e9-901e-b277433af199
 title: 'ITSdp：： get_Originator 方法 (Sdpblb .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5f751dd5a9dffe2d3bbc7883b8a0f8f18f8e6381
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4033f6008f6bb1189f53c5ac3f649ac66d74d6bd2380d9c400143cfaa8df8da9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106999169"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120126268"
 ---
 # <a name="itsdpget_originator-method"></a>ITSdp：：取得建立者 \_ 方法
 
-\[ 在 Windows Vista、Windows Server 2008 和後續版本的作業系統中，無法使用會合 IP 電話語音會議控制項和介面。 RTC 用戶端 API 提供類似的功能。\]
+\[Windows Vista、Windows Server 2008 及後續版本的作業系統無法使用會合 IP 電話語音會議控制項和介面。 RTC 用戶端 API 提供類似的功能。\]
 
 取得建立者方法會取得會議製作者。 **\_**
 
@@ -45,7 +45,7 @@ HRESULT get_Originator(
 
 
 
-| 傳回碼                                                                                   | Description                                                     |
+| 傳回碼                                                                                   | 描述                                                     |
 |-----------------------------------------------------------------------------------------------|-----------------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>          | 方法成功。<br/>                                    |
 | <dl> <dt>**E \_ 指標**</dt> </dl>     | *PpOriginator* 參數不是有效的指標。<br/> |

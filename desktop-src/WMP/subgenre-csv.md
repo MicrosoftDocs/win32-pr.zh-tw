@@ -9,12 +9,12 @@ keywords:
 - subgenre.csv
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 98f004eb8cecaaae64a5cc95348ac93e8a7db230
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a10242e955423d75174d04899285dcd3dc20ea2ea4a761d2ab3ba53561c4d41c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106969479"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120122938"
 ---
 # <a name="subgenrecsv"></a>subgenre.csv
 

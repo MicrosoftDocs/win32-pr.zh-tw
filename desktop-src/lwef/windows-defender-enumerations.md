@@ -1,17 +1,17 @@
 ---
-title: Windows Defender 列舉
+title: Windows Defender枚舉
 description: 當呼叫以要求掃描、簽章更新或 Windows Defender 的資訊時，應用程式所使用的列舉。
 ms.assetid: AC84ED57-6221-4A19-8A1D-E4E2811B027E
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 02400576ddeccf7ffb79f6aeceafba725be78516
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 40a3b2f054d09a13e5e749f3a2b72b7adb1d5e8f52a664bac8e937c717031a32
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104300407"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120114468"
 ---
-# <a name="windows-defender-enumerations"></a>Windows Defender 列舉
+# <a name="windows-defender-enumerations"></a>Windows Defender枚舉
 
 當呼叫以要求掃描、簽章更新或 Windows Defender 的資訊時，應用程式所使用的列舉。
 

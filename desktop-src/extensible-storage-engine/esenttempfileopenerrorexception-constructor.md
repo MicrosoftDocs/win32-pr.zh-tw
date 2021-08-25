@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 61c8f2c88fc7d0f070bce55f43e1ca2aad553c59
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 58a0ef3af6f0496773561d65e37d661ed70b8e1770828d2410820b095362ec42
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103851964"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119891618"
 ---
 # <a name="esenttempfileopenerrorexception-constructor"></a>EsentTempFileOpenErrorException 函式
 

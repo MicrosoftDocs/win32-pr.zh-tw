@@ -14,12 +14,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: c23840b489bad1e06bdd0c7eb6e0033bfb1961f4
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ef25a43bf13b1cfb1e4b03f78f5772567b3bfb92f1c31bb810da7882a4d3e1c0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103686332"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120067228"
 ---
 # <a name="usercert-eaptype-element"></a>UserCert (EapType) 元素
 
@@ -39,8 +39,8 @@ ms.locfileid: "103686332"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

@@ -14,12 +14,12 @@ dev_langs:
 - JScript
 - VB
 - other
-ms.openlocfilehash: d090d42ec193a390dee699dd71a954a034fa6383
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 194f50437a4ce7fd79fe872d4029c5ab24324c316d4794b0aeaf4453c6976a02
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104561030"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120017528"
 ---
 # <a name="jet_dbidequals-method"></a>JET_DBID。Equals 方法
 
@@ -32,7 +32,7 @@ ms.locfileid: "104561030"
 <thead>
 <tr class="header">
 <th> </th>
-<th>Name</th>
+<th>名稱</th>
 <th>描述</th>
 </tr>
 </thead>

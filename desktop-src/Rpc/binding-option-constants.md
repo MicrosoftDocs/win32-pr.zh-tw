@@ -20,25 +20,25 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 52152b5ddcc17abe5c698697e30f1f1a512ee4f8
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 147d36cf66bb3a45add61b8639ccd3fada31856e72fce8c1f96d7a021e1d5e95
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934152"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120023118"
 ---
 # <a name="binding-option-constants"></a>系結選項常數
 
 應用程式會設定系結選項常數，以控制 RPC 執行時間程式庫處理遠端程序呼叫的方式。 下表列出每個系結屬性，以及系結屬性的相關常數值。
 
 > [!Note]  
-> 下表中 (MQ) 的所有訊息佇列選項僅適用于 Windows 2000。 Windows XP 和更新版本不支援訊息佇列。 開發人員不建議使用訊息佇列。
+> 下表中 (MQ) 的所有訊息佇列選項僅適用于 Windows 2000。 WindowsXP 和更新版本不支援訊息佇列。 開發人員不建議使用訊息佇列。
 
  
 
 
 
-| 常數/值                                                                                                                                                                                                                                                        | Description                                                                                                                                                                                                                                                                                           |
+| 常數/值                                                                                                                                                                                                                                                        | 描述                                                                                                                                                                                                                                                                                           |
 |:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="RPC_C_OPT_BINDING_NONCAUSAL"></span><span id="rpc_c_opt_binding_noncausal"></span><dl> <dt>**RPC \_C \_ OPT \_ \_**</dt>系結 NONCAUSAL <dt>9</dt> </dl>     | 預設值。 如果 **為 FALSE**，則為因果呼叫順序。 RPC 呼叫會以嚴格的提交順序來執行。 請參閱＜備註＞。<br/> 若 **為 TRUE**，則 noncausal 呼叫順序。 RPC 呼叫會獨立執行。 請參閱＜備註＞。<br/>                                                                        |
 | <span id="RPC_C_OPT_MAX_OPTIONS"></span><span id="rpc_c_opt_max_options"></span><dl> <dt>**RPC \_C \_ OPT \_ 最大 \_ 選項**</dt> <dt>17</dt> </dl>                      | 應用程式不需要。 由 Microsoft 在內部使用。<br/>                                                                                                                                                                                                                         |

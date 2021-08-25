@@ -8,12 +8,12 @@ keywords:
 - MCI_RESUME 命令
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1ddcd9618608226dec108d62754964fe6401d429
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 5485365a6c846556a1037f55a0b211755ce0f93162bc6720c7241353fc8625b9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103673335"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120037098"
 ---
 # <a name="stopping-pausing-and-resuming-a-device"></a>停止、暫停和繼續裝置
 
@@ -23,9 +23,9 @@ ms.locfileid: "103673335"
 
 某些裝置支援 [**resume**](resume.md) ([**MCI \_ resume**](mci-resume.md)) 命令以重新開機已暫停的裝置。 此命令不會變更以 [**pause**](pause.md)命令前面的 **play** 或 **record** 命令指定的 "to" 和 "from" 位置。
 
- 
+ 
 
- 
+ 
 
 
 

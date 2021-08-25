@@ -4,12 +4,12 @@ ms.assetid: 9f8268e8-4144-4dcc-adef-82c6dea2e10e
 title: AepService. ServiceInterfaces。
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 26552154c05adbf2496e438fc0336c6534a57a20
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8fd0ff990d50c919205594417e668a6e35a58527fbacc5526237139aef1290f9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104469484"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119775828"
 ---
 # <a name="systemdevicesaepserviceiotserviceinterfaces"></a>AepService. ServiceInterfaces。
 

@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9bf14e817831c099988e9fb3fee57ae0731ef621
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2f54c397db10e8ecd6b2ed3c67a73affde4507ea59a265d502f28ada97b8a68e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106983310"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119778638"
 ---
 # <a name="wm_nchittest-message"></a>WM \_ NCHITTEST 訊息
 
@@ -60,7 +60,7 @@ ms.locfileid: "106983310"
 
 
 
-| 傳回碼/值                                                                                                                                    | Description                                                                                                                                                                                                        |
+| 傳回碼/值                                                                                                                                    | 描述                                                                                                                                                                                                        |
 |------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**HTBORDER**</dt> <dt>18</dt> </dl>      | 在沒有調整大小框線的視窗框線中。<br/>                                                                                                                                           |
 | <dl> <dt>**HTBOTTOM**</dt> <dt>15</dt> </dl>      | 在可調整大小之視窗的水準框線 (使用者可以按一下滑鼠，以垂直方式調整視窗的大小) 。<br/>                                                                                    |
@@ -112,7 +112,7 @@ yPos = GET_Y_LPARAM(lParam);
 
  
 
-**Windows Vista：** 建立包含標準標題按鈕的自訂框架時，應先將此訊息傳遞至 [**DwmDefWindowProc**](/windows/desktop/api/dwmapi/nf-dwmapi-dwmdefwindowproc) 函式。 這可讓桌面視窗管理員 (DWM) 提供標題按鈕的點擊測試。 如果 **DwmDefWindowProc** 未處理訊息，可能需要進一步處理 **WM \_ NCHITTEST** 。
+**Windows Vista：** 建立包含標準標題按鈕的自訂框架時，應先將此訊息傳遞至 [**DwmDefWindowProc**](/windows/desktop/api/dwmapi/nf-dwmapi-dwmdefwindowproc)函式。 這可讓桌面視窗管理員 (DWM) 提供標題按鈕的點擊測試。 如果 **DwmDefWindowProc** 未處理訊息，可能需要進一步處理 **WM \_ NCHITTEST** 。
 
 ## <a name="requirements"></a>規格需求
 

@@ -4,12 +4,12 @@ ms.assetid: 0b78ecf6-fbff-4172-9b0d-09f993666db1
 title: 元件版本
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 48c9e32ecc0990572f17264edd2ff51c205a01c3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9e555035bf7b43f53d3a68f249005928867f453b78522f70dd45f3b5379c75e2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103693519"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119885568"
 ---
 # <a name="assembly-versions"></a>元件版本
 
