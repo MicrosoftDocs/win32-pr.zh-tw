@@ -4,12 +4,12 @@ ms.assetid: 0c263025-e719-453e-91c4-a9f2d9321db3
 title: 'LINE_APPNEWCALL 訊息 (Tapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 33d24ca816fb69384e90e4215edbc90b9410b887
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 22efd93febad5e0199f2ff8897841fe57e8e637acfb8f9cd316386ed913876c1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106993589"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119867128"
 ---
 # <a name="line_appnewcall-message"></a>行 \_ APPNEWCALL 訊息
 

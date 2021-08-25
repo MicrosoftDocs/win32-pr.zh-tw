@@ -4,12 +4,12 @@ ms.assetid: 6be1e12f-7d4a-4564-88ae-14fd71fd2cf9
 title: ASFParser 範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c159b481e22d77b0bee9adccbbb74073398c12b3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 50db441be45d28899bc8f2ace68b8f09af40e679449d26aec7adf25ab4fb9e2f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191088"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119959548"
 ---
 # <a name="asfparser-sample"></a>ASFParser 範例
 
@@ -54,7 +54,7 @@ ms.locfileid: "104191088"
 
 ## <a name="downloading-the-sample"></a>下載範例
 
-此範例可在 [Windows 傳統範例 github 存放庫](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/multimedia/mediafoundation/asfparser)中取得。
+此範例可在[Windows 傳統範例 github 存放庫](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/multimedia/mediafoundation/asfparser)中取得。
 
 ## <a name="related-topics"></a>相關主題
 

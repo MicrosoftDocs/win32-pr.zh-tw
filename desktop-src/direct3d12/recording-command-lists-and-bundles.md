@@ -5,12 +5,12 @@ ms.assetid: 0074B796-33A4-4AA1-A4E7-48A2A63F25B7
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d5ef2b54138cf3a08b85e3e8cc31f97cbe66abf6
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 480819cbd421b30cbf54a58578c02056d37d7e36bf2ead845c19e438df54cbb7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104548427"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119850707"
 ---
 # <a name="creating-and-recording-command-lists-and-bundles"></a>建立和記錄命令清單和組合
 
@@ -74,7 +74,7 @@ ms.locfileid: "104548427"
 -   描述元堆積-應用程式會使用描述元堆積來管理記憶體資源的管線系結。
 -   資源屏障-這可用來管理從某個狀態到另一個狀態的資源轉換，例如從轉譯目標視圖到著色器資源檢視。 如需詳細資訊，請參閱 [使用資源阻礙來同步處理資源狀態](using-resource-barriers-to-synchronize-resource-states-in-direct3d-12.md)。
 
-例如，
+例如
 
 
 ```C++

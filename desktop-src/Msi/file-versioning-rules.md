@@ -4,19 +4,19 @@ ms.assetid: e6f6d6a5-bdb0-4866-8d2c-56313d92c94c
 title: 檔案版本控制規則
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 67c6f8e59b4f15774f898217690dbb1c4d57b1bf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c8dfda6a909450ba45cc213016a159bbbc8f9a54b958c7d4e37d051fd86935ad
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106983542"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119828978"
 ---
 # <a name="file-versioning-rules"></a>檔案版本控制規則
 
 任何安裝程式的核心都是檔案的實際安裝。 判斷是否要安裝檔案是很複雜的進程。 在最高的層級上，這取決於檔案所屬的元件是否標記為要安裝。 一旦決定要複製檔案之後，如果目的檔案夾中有另一個具有相同名稱的檔案，程式就會很複雜。 在這種情況下，進行判斷需要一組涉及下列屬性的規則：
 
 -   版本
--   Date
+-   日期
 -   語言
 
 安裝程式只會在嘗試將檔案安裝至已包含同名檔案的位置時，才會使用這些規則。 在此情況下，Windows Installer 會使用下列規則，所有其他專案都相等，以判斷是否要安裝。

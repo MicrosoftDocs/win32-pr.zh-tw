@@ -11,12 +11,12 @@ api_name:
 - IUpdateEndpointProvider
 api_type:
 - COM
-ms.openlocfilehash: 81e9481f5233fac05e7fa7bdf3afa53c4c55513a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2242e30ccd64c0252d5a1ea97eedd865f9e80bee2c58f749ca6d2eabd64c6167
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972240"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119896838"
 ---
 # <a name="iupdateendpointprovider-interface"></a>IUpdateEndpointProvider 介面
 

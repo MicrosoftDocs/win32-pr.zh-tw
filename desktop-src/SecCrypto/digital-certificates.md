@@ -4,12 +4,12 @@ ms.assetid: e523b335-0156-4f47-b55c-b80495587c4f
 title: 數位憑證
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 161d200a0f8cab61594872f5182786a3e6597187
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 467f2df1a529d94fa5a04385c7f91f5aefbb40c0488ef0c5c484fe98c3874358
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103690128"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119875298"
 ---
 # <a name="digital-certificates"></a>數位憑證
 

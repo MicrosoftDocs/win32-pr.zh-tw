@@ -4,18 +4,18 @@ description: 設定游標影像
 ms.assetid: FB223131-19AE-41DD-87DE-73992AE2A0CA
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fe3bc993b7566dee1fa47bd2b53c270ad0e4f64b
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 4723289155bc7898f6f49e188ad972ca152332c82994b57c79af493c8fe6b572
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104463033"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119896908"
 ---
 # <a name="setting-the-cursor-image"></a>設定游標影像
 
 *游標* 是顯示滑鼠或其他指標裝置位置的小型影像。 許多應用程式會變更游標影像，以將意見反應提供給使用者。 雖然並非必要，但它會在您的應用程式中增加很棒的波蘭文。
 
-Windows 提供一組標準的資料指標映射，稱為 *系統資料指標*。 其中包括箭號、手形、I-橫樑、沙漏 (現在是旋轉圓形) 和其他。 本節說明如何使用系統資料指標。 如需更先進的工作，例如建立自訂資料指標，請參閱資料 [指標](/windows/desktop/menurc/cursors)。
+Windows 提供一組稱為 *系統* 資料指標的標準資料指標映射。 其中包括箭號、手形、I-橫樑、沙漏 (現在是旋轉圓形) 和其他。 本節說明如何使用系統資料指標。 如需更先進的工作，例如建立自訂資料指標，請參閱資料 [指標](/windows/desktop/menurc/cursors)。
 
 您可以藉由設定 [**WNDCLASS**](/windows/win32/api/winuser/ns-winuser-wndclassa)或 [**WNDCLASSEX**](/windows/win32/api/winuser/ns-winuser-wndclassexa)結構的 **hCursor** 成員，將資料指標與視窗類別產生關聯。 否則，預設資料指標就是箭號。 當滑鼠移至視窗上方時，除非有另一個視窗已捕捉到滑鼠) ，否則視窗會收到 [**WM \_ SETCURSOR**](/windows/desktop/menurc/wm-setcursor) 訊息 (。 此時會發生下列其中一個事件：
 
@@ -64,6 +64,6 @@ Windows 提供一組標準的資料指標映射，稱為 *系統資料指標*。
 
 [使用者輸入：擴充的範例](user-input--extended-example.md)
 
- 
+ 
 
- 
+ 

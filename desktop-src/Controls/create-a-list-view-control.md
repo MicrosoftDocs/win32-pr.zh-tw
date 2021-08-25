@@ -4,12 +4,12 @@ description: 本主題將示範如何建立清單視圖控制項。 若要建立
 ms.assetid: FEAA0ACA-A086-46DF-9DD2-A3E32F2CCDA3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3050498b87aaf701249a06cfe2c3ad18afdc1d84
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: d71eddfb60a2ea035a5afe62423289da40a47b61841d3ba58c4cafa2824a65b2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "104463944"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119826608"
 ---
 # <a name="how-to-create-a-list-view-control"></a>如何建立 List-View 控制項
 
@@ -21,12 +21,12 @@ ms.locfileid: "104463944"
 
 ### <a name="technologies"></a>技術
 
--   [Windows 控制項](window-controls.md)
+-   [Windows控制](window-controls.md)
 
 ### <a name="prerequisites"></a>必要條件
 
 -   C/C++
--   Windows 消費者介面程式設計
+-   Windows消費者介面程式設計
 
 ## <a name="instructions"></a>指示
 

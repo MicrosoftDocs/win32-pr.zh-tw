@@ -13,12 +13,12 @@ keywords:
 - 視覺效果中的預設值，發光範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 95d24841c95c3fc1029aa0c405e90b329799fdbe
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 03828614093836c5f9a3b422167b62f11b8f2489eb30556d42a2d80495935ec5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106983287"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119863908"
 ---
 # <a name="changing-presets"></a>變更預設值
 
@@ -80,7 +80,7 @@ enum {
 
 
 
-請注意，您也必須將 [ **\_ ap \_ ] 下一個 \_ SYMED \_ 值** 的資源數目變更為106。
+請注意，您也必須將 **\_ APS \_ NEXT \_ SYMED \_ 值** 的資源編號變更為106。
 
 ## <a name="resource-file"></a>資源檔案
 
@@ -103,9 +103,9 @@ enum {
 [**發光範例**](the-glow-sample.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

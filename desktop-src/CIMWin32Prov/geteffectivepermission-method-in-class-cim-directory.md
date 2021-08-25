@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 436a30517b7f3306ef8be2426385fe385947296e
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: a0b3792f59e0e4b624a4729f8b70345a56daaff823ca2733c5864d16db5e5bfe
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847207"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119878998"
 ---
 # <a name="geteffectivepermission-method-of-the-cim_directory-class"></a>CIM 目錄類別的 GetEffectivePermission 方法 \_
 

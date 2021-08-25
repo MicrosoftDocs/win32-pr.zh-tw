@@ -38,12 +38,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 433682f045ca7fb127c7dc69e3a26ed8356371ed
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 02b6d9d5c6100a652cf50096f5ef513fc164cfcfd2d8036e8444adc702459d1e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847240"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119827658"
 ---
 # <a name="win32_timezone-class"></a>Win32 \_ 時區類別
 

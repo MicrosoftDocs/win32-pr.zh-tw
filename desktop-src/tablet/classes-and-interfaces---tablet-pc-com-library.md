@@ -4,12 +4,12 @@ ms.assetid: 8bdd9674-9ace-457d-a3bd-167c7710bafc
 title: 核心 Tablet PC 類別和介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6dc1986da5f5337862df65db563b1f6172b38936
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f7b91b1c0288ef8ea76af4ef195400140eebec9172596d2f631d7a239a323e98
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191123"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119941209"
 ---
 # <a name="core-tablet-pc-classes-and-interfaces"></a>核心 Tablet PC 類別和介面
 

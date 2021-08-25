@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: b008f3cdb225c7616306dbd425c24e6737bc1ef1
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 1ab866c326948cdc1b9af82c8618f1a812807a67becd8c7e8b89b00032d86edc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108110516"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119892169"
 ---
 # <a name="span-idvspixengineregister_formatspanregister_format-enumeration"></a><span id="vspixengine.register_format"></span>註冊 \_ 格式列舉
 

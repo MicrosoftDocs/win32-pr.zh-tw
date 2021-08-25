@@ -8,12 +8,12 @@ keywords:
 - 查詢 ADSI，使用 OLE DB 搜尋
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 92b6b0c056a63174233271b9b059ebffa9d4d841
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 969dd544600bdb88b2c01b6b932f101f0b9508d7f3f54cd5e6728fd3e4dd5f6b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103683113"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119828368"
 ---
 # <a name="searching-with-ole-db"></a>使用 OLE DB 搜尋
 
@@ -47,6 +47,6 @@ ms.locfileid: "103683113"
 
 如需詳細資訊和示範如何使用 ADSI OLE DB 提供者來搜尋 Active Directory 的程式碼範例，請參閱 [使用 OLE DB 搜尋 Active Directory 的範例程式碼](example-code-for-using-ole-db-to-search-active-directory.md)。
 
- 
+ 
 
- 
+ 

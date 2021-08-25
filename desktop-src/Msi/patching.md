@@ -4,18 +4,18 @@ ms.assetid: e3c233bc-4344-449e-9e79-1a3b96ad2d08
 title: 修補
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8c3117723bda1699eeae341fc75db201421f6ae0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cb90436c2a33495aaa818d0796c5d749e5d76286db4dbdc247ec4ee58c7ea6ac
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106988472"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119926233"
 ---
 # <a name="patching"></a>修補
 
-使用 Microsoft Windows Installer 安裝的應用程式可以透過將更新的安裝套件重新安裝 () .msi 檔案來進行升級，或將 Windows Installer 修補程式 (.msp 檔) 套用至應用程式。
+使用 Microsoft Windows Installer 安裝的應用程式可以藉由重新安裝已更新的安裝套件 (.msi 檔) 來進行升級，或將 Windows Installer 修補程式 (.msp 檔) 套用至應用程式。
 
-Windows Installer 修補程式 ( .msp 檔) 是包含應用程式更新的獨立套件，並描述應用程式可接收修補程式的版本。 修補程式至少包含兩個資料庫轉換，而且可以包含儲存在修補程式套件的封包檔串流中的修補檔案。 如需 Windows Installer 修補程式套件元件的詳細資訊，請參閱 [修補套件](patch-packages.md)。
+Windows Installer 修補程式 ( .msp 檔) 是包含應用程式更新的獨立套件，並描述應用程式可接收修補程式的版本。 修補程式至少包含兩個資料庫轉換，而且可以包含儲存在修補程式套件的封包檔串流中的修補檔案。 如需 Windows Installer 修補程式套件元件的詳細資訊，請參閱[修補套件](patch-packages.md)。
 
 藉由提供 Windows Installer 修補程式來服務應用程式，而不是更新產品的完整安裝套件，可能有其優點。 修補程式可包含整個檔案，或只包含更新部分檔案所需的檔案位。 這可讓使用者下載的升級修補程式，比整個產品的安裝套件小得多。 使用修補程式的更新可以透過升級來保留應用程式的使用者自訂。
 
@@ -25,12 +25,12 @@ Windows Installer 修補程式 ( .msp 檔) 是包含應用程式更新的獨立�
 
 * * Windows Installer 3.0 和更新版本： * *
 
-使用 Windows Installer 3.0 的開發人員，以及撰寫具有 [MsiPatchSequence 資料表](msipatchsequence-table.md) 的 patch 封裝，可以建立可執行下列作業的 patch 封裝：
+使用 Windows Installer 3.0 的開發人員，以及撰寫具有[MsiPatchSequence 資料表](msipatchsequence-table.md)的 patch 封裝，可以建立可執行下列作業的 patch 封裝：
 
 -   使用安裝程式快取的產品基準，更輕鬆地以較小的 delta 修補程式來服務應用程式。 如需使用產品基準的詳細資訊，請參閱 [減少修補程式大小](reducing-patch-size.md)。
 -   略過修補程式未修改的特定資料表相關聯的動作。 這可大幅縮短安裝修補程式所需的時間。 如需可略過哪些資料表的詳細資訊，請參閱 [修補程式優化](patch-optimization.md)。
 -   建立並安裝可單獨卸載的修補程式，而不需要卸載並重新安裝整個應用程式和其他修補程式。 如需卸載修補程式的詳細資訊，請參閱 [移除修補程式](removing-patches.md)。
--   以固定順序套用修補程式，而不考慮將修補程式提供給系統的順序。 如需 Windows Installer 如何決定用來套用修補程式之順序的詳細資訊，請參閱將 [修補程式排序](sequencing-patches.md)。
+-   以固定順序套用修補程式，而不考慮將修補程式提供給系統的順序。 如需 Windows Installer 如何決定用來套用修補程式之順序的詳細資訊，請參閱將[修補程式排序](sequencing-patches.md)。
 -   將修補程式套用到已安裝在個別使用者管理內容中的應用程式。 如需詳細資訊，請參閱 [修補 Per-User 受控應用程式](patching-per-user-managed-applications.md)。
 
 * * Windows Installer 2.0： * *

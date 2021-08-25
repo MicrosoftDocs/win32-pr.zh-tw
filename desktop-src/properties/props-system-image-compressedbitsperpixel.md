@@ -4,18 +4,18 @@ ms.assetid: 9a7f9afd-cd12-4a8e-b9c2-3ce59a676eb2
 title: CompressedBitsPerPixel
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 70dc6df6119c00ff505ebbee1b2d422384a23a09
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a62388e7d22394ecc5a1f08e7f417854f8615b7f1a42b544000e50bd8758d04d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114968"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119844708"
 ---
 # <a name="systemimagecompressedbitsperpixel"></a>CompressedBitsPerPixel
 
 指出影像壓縮層級。 . 從 PKEY \_ image \_ COMPRESSEDBITSPERPIXELNUMERATOR 和 PKEY image CompressedBitsPerPixelDenominator 計算而來 \_ \_ 。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

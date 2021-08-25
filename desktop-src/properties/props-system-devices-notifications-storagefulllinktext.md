@@ -4,12 +4,12 @@ ms.assetid: 08b03990-eb6a-47fc-baed-0649638a428c
 title: StorageFullLinkText。
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e13c77284eb36617f4616ca546f45055f5795ff0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8597f7c5637d3b08d4124cb84af012fc2c881c4d8d19c127c5b4e736e0a2ca1a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320459"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119845428"
 ---
 # <a name="systemdevicesnotificationsstoragefulllinktext"></a>StorageFullLinkText。
 

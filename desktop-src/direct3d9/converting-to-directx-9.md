@@ -4,12 +4,12 @@ ms.assetid: 6f5b2cc1-5415-4af8-a964-051a5af42680
 title: 轉換成 Direct3D 9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: becdb878ad462bfc0157fb15b3c9c1ef2ba158dd
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 0fdf5ec812ede4e9d5d356d36b01bbcfcc7732fdb5946e2a13af90c9d9428fc1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971323"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119850528"
 ---
 # <a name="converting-to-direct3d-9"></a>轉換成 Direct3D 9
 
@@ -186,7 +186,7 @@ IDirect3DDevice9：： SetTextureStageState 現在會設定下列狀態：
 
 
 
-| Name                    | Number                                                         |
+| 名稱                    | 數字                                                         |
 |-------------------------|----------------------------------------------------------------|
 | ps \_ 1 \_ 1 到 ps \_ 1 \_ 3    | 4紋理取樣器                                             |
 | ps \_ 1 \_ 4                | 6紋理取樣器                                             |

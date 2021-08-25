@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: a23c2062c5f17e00d03161483d3ab1cf2ff225d4
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 861404127cebf23954ef340d8e92441bfdaec204418add85a5b4dfabcaea17dc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108102796"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119852348"
 ---
 # <a name="d3dx10createasynctextureinfoprocessor-function"></a>D3DX10CreateAsyncTextureInfoProcessor 函式
 

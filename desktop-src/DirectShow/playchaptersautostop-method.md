@@ -4,17 +4,17 @@ ms.assetid: ede19f02-6eda-42da-a108-06d78dc2e8a9
 title: PlayChaptersAutoStop 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 00f542f890a54c755c9ea041c46f7cef3b4b7fd9
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 58c518496f81f4ca4e662bf8dbc821f2378cd38d27c7546356144910c0c5ba72
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104187455"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119830738"
 ---
 # <a name="playchaptersautostop-method"></a>PlayChaptersAutoStop 方法
 
 > [!Note]  
-> 此元件可用於 Microsoft Windows 2000、Windows XP 及 Windows Server 2003 作業系統。 它在後續版本中可能會變更或無法使用。
+> 此元件可在 Microsoft Windows 2000、Windows XP 和 Windows Server 2003 作業系統中使用。 它在後續版本中可能會變更或無法使用。
 
  
 

@@ -4,31 +4,31 @@ ms.assetid: 296255b8-fe5c-46dd-b717-487aaae0db80
 title: 色彩管理和列印架構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9258d9dcc59ab24f9cfca8e170bf3f3f62841b21
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: c3e7e5a86b9f598183a4b3765e1cc38836b4ee7bb62e1835e06575392771dc5a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112409671"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119846381"
 ---
 # <a name="color-management-and-the-print-schema"></a>色彩管理和列印架構
 
 本主題並非最新的。 如需最新資訊，請參閱 [列印架構規格](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip)。
 
-使用者可設定的元素關鍵字可以是 XPS 專屬或非 XPS 特定。 如果它們不是 XPS 專用，關鍵字可能會用於舊版的 GDI 式列印。 如果應用程式決定在 PrintTicket 中設定這些關鍵字，驅動程式會根據列印架構中所呈現的定義，決定要採取的適當動作和行為。 任何這些關鍵字都可用於 ICM 的內容中。 如需詳細資訊，請參閱 Windows Vista SDK。
+使用者可設定的元素關鍵字可以是 XPS 專屬或非 XPS 特定。 如果它們不是 XPS 專用，關鍵字可能會用於舊版的 GDI 式列印。 如果應用程式決定在 PrintTicket 中設定這些關鍵字，驅動程式會根據列印架構中所呈現的定義，決定要採取的適當動作和行為。 任何這些關鍵字都可以在 ICM 的內容中使用。 如需詳細資訊，請參閱 Windows Vista SDK。
 
 
 
 | 列印架構使用者可設定關鍵字       | DEVMODE 相等     | XPS 特定   |
 |----------------------------------------------|------------------------|----------------|
-| PageColorManagement<br/>               | dmICMMethod<br/> | 否<br/>  |
-| PageBlackGenerationProcessing<br/>     | 無<br/>        | 是<br/> |
-| PageBlendColorSpace<br/>               | 無<br/>        | 是<br/> |
-| PageSourceColorProfile<br/>            | 無<br/>        | 否<br/>  |
-| PageDestinationColorProfile<br/>       | 無<br/>        | 否<br/>  |
-| PageICMRenderingIntent<br/>            | dmICMIntent<br/> | 否<br/>  |
-| JobOptimalDestinationColorProfile<br/> | 無<br/>        | 否<br/>  |
-| PageDeviceColorSpaceUsage<br/>         | 無<br/>        | 是<br/> |
+| PageColorManagement<br/>               | dmICMMethod<br/> | No<br/>  |
+| PageBlackGenerationProcessing<br/>     | 無<br/>        | Yes<br/> |
+| PageBlendColorSpace<br/>               | 無<br/>        | Yes<br/> |
+| PageSourceColorProfile<br/>            | 無<br/>        | No<br/>  |
+| PageDestinationColorProfile<br/>       | 無<br/>        | No<br/>  |
+| PageICMRenderingIntent<br/>            | dmICMIntent<br/> | No<br/>  |
+| JobOptimalDestinationColorProfile<br/> | 無<br/>        | No<br/>  |
+| PageDeviceColorSpaceUsage<br/>         | 無<br/>        | Yes<br/> |
 
 
 
@@ -82,7 +82,7 @@ ms.locfileid: "112409671"
 
 PageDeviceColorSpaceUsage 是應用程式所設定的 XPS 特定使用者可設定元素。 它會針對 XPS 檔中相關聯的色彩空間設定檔處理，在 PrintTicket 中設定適當的選項，以提供裝置的指示。 應用程式和/或現有的 PrintTicket 可以在傳送至裝置的 PrintTicket 中指定這個關鍵字。 無論是否存在，驅動程式都會根據列印架構中所呈現的定義，決定每個案例的行為。
 
-## <a name="print-schema-color-management-example-flow"></a>列印架構色彩管理範例流程
+## <a name="print-schema-color-management-example-flow"></a>列印架構色彩管理範例 Flow
 
 下圖說明使用色彩管理和列印架構的最可能案例的流程。 為了簡化和可讀性，只有下列使用者可設定的列印架構關鍵字會用來示範其使用方式： PageColorManagement、JobOptimalDestinaionColorProfile、PageSourceColorProfile 和 PageDestinationColorProfile。 實線表示應該發生的動作，而虛線表示可能會發生的動作。 下列案例不是會在應用程式、驅動程式和系統之間產生的保證互動，而是代表將會發生的最常見使用案例。
 

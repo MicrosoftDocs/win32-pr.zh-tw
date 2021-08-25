@@ -4,12 +4,12 @@ ms.assetid: c69ba452-3c2e-47d7-8ea0-8f8f9e6b58c8
 title: 消費者介面 Wizard 行為
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 045aa59fe510ff10f428d0a7c74549ce4d817157
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 846b1eb4b3896c31056f0eaee66c6b5cdd9989e60ae4c280c5cb0f42c3c67008
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103695400"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119809398"
 ---
 # <a name="user-interface-wizard-behavior"></a>消費者介面 Wizard 行為
 

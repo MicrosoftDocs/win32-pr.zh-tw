@@ -7,21 +7,21 @@ keywords:
 - 遠端桌面服務遠端桌面服務，使用
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ac575a89d1ae8c7c065199aca136f2f0e5fc7459
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d7d0af90aef8eed3c8b9dc397f86cb6940a79e8e399af201ff854cbfaba3ff3b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106966396"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119868768"
 ---
 # <a name="using-remote-desktop-services"></a>使用遠端桌面服務
 
-下列各節說明如何在遠端桌面服務環境中進行程式設計，以及如何使用遠端桌面網頁連線將先前稱為終端機服務) 技術的遠端桌面服務 (延伸至 web。 如果您要尋找遠端桌面連線的使用者資訊，請參閱 [使用遠端桌面連線連接到另一部電腦](https://windows.microsoft.com/windows/connect-using-remote-desktop-connection#connect-using-remote-desktop-connection=windows-7)。
+下列各節說明如何在遠端桌面服務環境中進行程式設計，以及如何使用遠端桌面網頁連線將先前稱為終端機服務) 技術的遠端桌面服務 (延伸至 web。 如果您要尋找遠端桌面連線的使用者資訊，請參閱[使用遠端桌面連線連線到另一部電腦](https://windows.microsoft.com/windows/connect-using-remote-desktop-connection#connect-using-remote-desktop-connection=windows-7)。
 
 > [!Note]  
 > 本主題適用于軟體發展人員。
 
- 
+ 
 
 ## <a name="in-this-section"></a>本節內容
 
@@ -30,7 +30,7 @@ ms.locfileid: "106966396"
 [偵測是否已安裝遠端桌面服務角色](detecting-whether-terminal-services-is-installed.md)
 </dt> <dd>
 
-C # 程式碼範例，其中顯示如果已安裝並執行遠端桌面服務伺服器角色，則會傳回 **True** 的方法，否則從 Windows server 2008 開始會傳回 **false** 。
+c # 程式碼範例，示範如果遠端桌面服務伺服器角色已安裝且正在執行，則會傳回 **True** 的方法，否則從 Windows server 2008 開始，則為 **false** 。
 
 </dd> <dt>
 
@@ -95,9 +95,9 @@ C # 程式碼範例，其中顯示如果已安裝並執行遠端桌面服務伺�
 [偵測遠端桌面服務環境](detecting-the-terminal-services-environment.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

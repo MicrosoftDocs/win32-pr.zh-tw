@@ -4,12 +4,12 @@ ms.assetid: 8ec7e678-8477-41fa-9726-54df5ed187cd
 title: Direct3D-Aware MFTs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ad50438250c0ee1627cc20aebb49262ec8eec9ac
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9ae3bc071ee707505fd7412cba6f0a5aa397fd4c3f623225da28cc5490bf3323
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510801"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119958733"
 ---
 # <a name="direct3d-aware-mfts"></a>Direct3D-Aware MFTs
 
@@ -25,7 +25,7 @@ ms.locfileid: "104510801"
  
 
 1.  執行 [**IMFTransform：： GetAttributes**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-getattributes) 方法。 這個方法會傳回屬性存放區的指標。
-2.  在自己的屬性存放區上，此 MFT 必須將 [**MF \_ SA \_ D3D \_ 感知**](mf-sa-d3d-aware-attribute.md) 屬性的值設定為 **TRUE** 。 從 Windows 8 開始，如果使用 Direct3D 11，請使用 [MF \_ SA \_ D3D11 \_ 感知](mf-sa-d3d11-aware.md)。
+2.  在自己的屬性存放區上，此 MFT 必須將 [**MF \_ SA \_ D3D \_ 感知**](mf-sa-d3d-aware-attribute.md) 屬性的值設定為 **TRUE** 。 從 Windows 8 開始，如果使用 Direct3D 11，請使用[MF \_ SA \_ D3D11 \_ 感知](mf-sa-d3d11-aware.md)。
 3.  在格式的協商期間， [**如果 \_ MF \_ sa \_ D3D 感知**](mf-sa-d3d-aware-attribute.md) (或 [mf \_ sa \_ D3D11 \_ 感知](mf-sa-d3d11-aware.md) 使用 Direct3D 11) 屬性是否為 **TRUE**，用戶端可能會將 [**mft \_ 訊息集的 \_ \_ D3D \_ 管理員**](mft-message-set-d3d-manager.md) 訊息傳送到 mft。 *UlParam* 事件參數是 [**IDirect3DDeviceManager9**](/windows/desktop/api/dxva2api/nn-dxva2api-idirect3ddevicemanager9)介面的指標。 從 Windows 8 開始，您可以使用 [**IMFDXGIDeviceManager**](/windows/desktop/api/mfobjects/nn-mfobjects-imfdxgidevicemanager) ，而不是 **IDirect3DDeviceManager9**。 用戶端不需要傳送此訊息。
 4.  MFT 會呼叫 [**IDirect3DDeviceManager9：： GetVideoService**](/windows/desktop/api/dxva2api/nf-dxva2api-idirect3ddevicemanager9-getvideoservice) 來查詢所需的 DXVA 服務。 從 Windows 8 開始，如果使用 [**IMFDXGIDeviceManager**](/windows/desktop/api/mfobjects/nn-mfobjects-imfdxgidevicemanager) ，則 MFT 會呼叫 [**IMFDXGIDeviceManager：： GetVideoService**](/windows/desktop/api/mfobjects/nf-mfobjects-imfdxgidevicemanager-getvideoservice)。 通常，解碼器會查詢 [**IDirectXVideoDecoderService**](/windows/desktop/api/dxva2api/nn-dxva2api-idirectxvideodecoderservice)，而視頻處理器會查詢 [**IDirectXVideoProcessorService**](/windows/desktop/api/dxva2api/nn-dxva2api-idirectxvideoprocessorservice)。
 5.  假設上一個步驟成功， [**IMFTransform：： GetInputAvailableType**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-getinputavailabletype) 和 [**IMFTransform：： GetOutputAvailableType**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-getoutputavailabletype) 方法必須傳回 DXVA 相容的格式。

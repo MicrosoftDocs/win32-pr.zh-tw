@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: eb5efc261a2c055a95f71ba556c9acbc0ad45373
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f7c614210a22bc6c6d160a7c161c5b5a89aab85116285822465b43ba75e63095
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104094031"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119865658"
 ---
 # <a name="messagetable-metadatatype-element"></a>messageTable (MetadataType) 元素
 
@@ -62,7 +62,7 @@ ms.locfileid: "104094031"
 
 
 
-| 元素                                                             | 類型 | Description                                                                               |
+| 元素                                                             | 類型 | 描述                                                                               |
 |---------------------------------------------------------------------|------|-------------------------------------------------------------------------------------------|
 | [**message**](eventmanifestschema-message-messagetable-element.md) |      | 指定資訊清單當地語系化區段中字串的參考。<br/> |
 
@@ -72,7 +72,7 @@ ms.locfileid: "104094031"
 
 
 
-| 名稱    | 類型   | Description                                                              |
+| 名稱    | 類型   | 描述                                                              |
 |---------|--------|--------------------------------------------------------------------------|
 | message | 字串 | 字串資料表中當地語系化字串的參考。<br/>      |
 | mid     | 字串 | 未使用。<br/>                                                     |
@@ -87,8 +87,8 @@ ms.locfileid: "104094031"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 2177c5e0-47db-44ae-a0ce-2544ff2d0855
 title: IWindowsDriverUpdate 屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 291d7933cf3e73dee6f47edab3240c4ebd14f454
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b3d0d890f62bc50983f7d8baaee4ec691dfcd7d7b4f14e7f1be36e8333e300d2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974055"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119896638"
 ---
 # <a name="iwindowsdriverupdate-properties"></a>IWindowsDriverUpdate 屬性
 
@@ -24,7 +24,7 @@ ms.locfileid: "106974055"
 | [**DriverClass**](/windows/desktop/api/Wuapi/nf-wuapi-iwindowsdriverupdate-get_driverclass)                                                     | 取得 Windows 驅動程式更新的類別。                                                          |
 | [**DriverHardwareID**](/windows/desktop/api/Wuapi/nf-wuapi-iwindowsdriverupdate-get_driverhardwareid)                                           | 取得 Windows 驅動程式更新必須符合才能安裝的硬體識別碼或相容識別碼。    |
 | [**DriverManufacturer**](/windows/desktop/api/Wuapi/nf-wuapi-iwindowsdriverupdate-get_drivermanufacturer)                                       | 取得 Windows 驅動程式更新之製造商的語言不變名稱。                    |
-| [**DriverModel**](/windows/desktop/api/Wuapi/nf-wuapi-iwindowsdriverupdate-get_drivermodel)                                                     | 取得適用于 Windows 驅動程式更新之裝置的語言不變模型名稱。 |
+| [**DriverModel**](/windows/desktop/api/Wuapi/nf-wuapi-iwindowsdriverupdate-get_drivermodel)                                                     | 取得要作為 Windows 驅動程式更新之裝置的語言不變模型名稱。 |
 | [**DriverProvider**](/windows/desktop/api/Wuapi/nf-wuapi-iwindowsdriverupdate-get_driverprovider)                                               | 取得 Windows 驅動程式更新的提供者的語言不變名稱。                        |
 | [**DriverVerDate**](/windows/desktop/api/Wuapi/nf-wuapi-iwindowsdriverupdate-get_driververdate)                                                 | 取得 Windows 驅動程式更新的驅動程式版本日期。                                            |
 

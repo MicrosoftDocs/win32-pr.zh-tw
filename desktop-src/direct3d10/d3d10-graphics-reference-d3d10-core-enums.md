@@ -4,12 +4,12 @@ ms.assetid: 3d1541bf-75d8-459d-a912-4068e9a0a9e4
 title: Direct3D 10 核心列舉
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: abe6e9b6c4e0ae472cca081b1bd3dfce06c7839e
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: e96a0426a50ad3e8d643f8b4e7e1ab0d7a2034bbaa925a09fcb7d4e5f96640f7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104317888"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119858598"
 ---
 # <a name="direct3d-10-core-enumerations"></a>Direct3D 10 核心列舉
 

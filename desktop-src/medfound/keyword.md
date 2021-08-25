@@ -4,12 +4,12 @@ ms.assetid: 1ce4a5ee-c053-4d31-a984-dc11acebbf2a
 title: 關鍵字元素
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7ba871fea760ed3b604048ade2722afc0323e03b
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: 9df1f7a648e7861dc8d248141f051e9911c9cb93257f47fee5f2b4d2fd9d5469
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113119373"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119827548"
 ---
 # <a name="keyword-element"></a>關鍵字元素
 
@@ -28,7 +28,7 @@ ms.locfileid: "113119373"
 
 | 屬性         | 類型             | 必要       | 描述                                             |
 |-------------------|------------------|----------------|---------------------------------------------------------|
-| **識別碼**<br/> | CDATA<br/> | 是<br/> | 關鍵字組的名稱或遮罩<br/> <br/> |
+| **識別碼**<br/> | CDATA<br/> | Yes<br/> | 關鍵字組的名稱或遮罩<br/> <br/> |
 
 
 
@@ -58,7 +58,7 @@ ms.locfileid: "113119373"
         可以是空的
     :::column-end:::
     :::column span="2":::
-        是
+        Yes
     :::column-end:::
 :::row-end:::
 

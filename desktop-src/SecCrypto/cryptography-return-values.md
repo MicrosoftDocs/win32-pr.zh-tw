@@ -4,12 +4,12 @@ ms.assetid: 0468cece-6449-4772-82c9-e3f410c34e46
 title: 密碼編譯傳回值
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8e45b726785adae8a88ab98753cb3f46aa622660
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 99dc7a08219c6387a6cd33641b91e2170577a3cb66e99470b73970f20268165a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847889"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119875968"
 ---
 # <a name="cryptography-return-values"></a>密碼編譯傳回值
 

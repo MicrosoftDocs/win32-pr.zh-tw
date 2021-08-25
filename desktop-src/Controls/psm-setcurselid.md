@@ -3,7 +3,7 @@ title: 'PSM_SETCURSELID 訊息 (Prsht.idl .h) '
 description: 根據頁面的資源識別碼，啟用屬性工作表中的指定頁面。 您可以使用 PropSheet SetCurSelByID 宏明確地傳送此訊息 \_ 。
 ms.assetid: 6db5f6ab-77ce-4a80-a84d-cb66eb1cdeaa
 keywords:
-- PSM_SETCURSELID message Windows 控制項
+- PSM_SETCURSELID 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9da6ec827bbf3b9bade0af649f124d25c420d299
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7be1d21b5153d480e409c6e9e7f4204746b5509b058bc292509e24ad9e03b538
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105084"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119877018"
 ---
 # <a name="psm_setcurselid-message"></a>PSM \_ SETCURSELID 訊息
 
@@ -57,8 +57,8 @@ ms.locfileid: "104105084"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                     |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                               |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                     |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                               |
 | 標頭<br/>                   | <dl> <dt>Prsht.idl。h</dt> </dl> |
 
 

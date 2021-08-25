@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: '#pragma'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 62ae13d5f960e0b415f34dce97a40cff6cba8056
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c3cb9541ceef51119ce521244282920ca88397afe13290e99bdc14ce7d98ab55
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106991915"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119860558"
 ---
 # <a name="pragma"></a>\#pragma
 

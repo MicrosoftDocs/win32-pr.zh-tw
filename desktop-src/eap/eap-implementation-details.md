@@ -4,12 +4,12 @@ description: 存取點 (Ap) ，例如遠端存取服務 (RAS) 、使用必須由
 ms.assetid: 85775c03-7538-41a1-9f83-42e71025a79c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 41115b16d843b0c1b087eac1c348a0491df1173a
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 8772d839e6d6fb748f56de0329a958057400d37afeb92a2f3ec89b3ab462e3a1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104314884"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119852408"
 ---
 # <a name="eap-implementation-details"></a>EAP 實行詳細資料
 
@@ -22,6 +22,6 @@ ms.locfileid: "104314884"
 -   [存取點和驗證通訊協定互動](ras-and-authentication-protocol-interaction-during-authentication.md)
 -   [完成驗證會話](completion-of-the-authentication-session.md)
 
- 
+ 
 
- 
+ 

@@ -12,12 +12,12 @@ api_type:
 - DllExport
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 766c9d1bda678a494ddeb2e20feb61016cce19a8
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9780c1ab851200061b2ae380254c4c06d82ee60c3d6bc932e9b6f31302a55557
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465504"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119891968"
 ---
 # <a name="idcompositionrotatetransform3dsetangle-methods"></a>IDCompositionRotateTransform3D：： SetAngle 方法
 
@@ -41,7 +41,7 @@ ms.locfileid: "104465504"
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                 |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2012 desktop 應用程式\]<br/>                                 |
 | 標頭<br/>                   | <dl> <dt>Dcomp。h</dt> </dl>   |
 | 程式庫<br/>                  | <dl> <dt>Dcomp .lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Dcomp.dll</dt> </dl> |

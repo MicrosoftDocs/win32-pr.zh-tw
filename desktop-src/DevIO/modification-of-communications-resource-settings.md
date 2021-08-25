@@ -1,17 +1,17 @@
 ---
 description: 當 CreateFile 函式開啟序列通訊資源的控制碼時，系統會根據上次開啟資源時所設定的值，初始化和設定資源。
 ms.assetid: a39881d8-32af-4846-a2d3-508f1945b666
-title: 修改通訊資源設定
+title: 設定的通訊資源修改
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8658029470fae9ee2d70ffb1459312c3c4d80ecf
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 02a4658c58c07dfbd7ffe8ba7977db587211d3422359677999db312d05bd2c79
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104025918"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119911981"
 ---
-# <a name="modification-of-communications-resource-settings"></a>修改通訊資源設定
+# <a name="modification-of-communications-resource-settings"></a>設定的通訊資源修改
 
 當 [**CreateFile**](/windows/desktop/api/fileapi/nf-fileapi-createfilea) 函式開啟序列通訊資源的控制碼時，系統會根據上次開啟資源時所設定的值，初始化和設定資源。 保留先前的設定可讓使用者在重新開啟裝置時，保留透過 **模式** 命令指定的設定。 繼承自先前開啟作業的值包含裝置控制區塊的設定， ([**DCB**](/windows/desktop/api/Winbase/ns-winbase-dcb) 結構) 和 i/o 作業中使用的超時值。 如果裝置從未開啟過，則會使用系統預設值進行設定。
 

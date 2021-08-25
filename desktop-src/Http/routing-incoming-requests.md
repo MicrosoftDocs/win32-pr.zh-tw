@@ -4,12 +4,12 @@ description: HTTP 伺服器 API 會維護路由資料庫，以判斷哪個應用
 ms.assetid: 7c613137-66bd-4375-93cb-b5562823bc12
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: da483030441f3a9239eef153da59212166bce9eb
-ms.sourcegitcommit: 73417d55867c804274a55abe5ca71bcba7006119
+ms.openlocfilehash: e40feab96a913da895633bddd8e53697b6aeef959162da054da22aeeedef652a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "104383209"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119829958"
 ---
 # <a name="routing-incoming-requests"></a>路由傳送連入要求
 
@@ -45,9 +45,9 @@ HTTP 伺服器 API 路由演算法會藉由搜尋路由資料庫的註冊專案�
 
 的連入要求 `https://adatum.com:80/vroot/file.htm/` 未傳遞至應用程式1，因為最符合專案會導致使用者 B 的保留專案。在此情況下，優先順序規則會套用至優先順序較高的保留。 如果沒有任何作用中的進程已獲授權，並已向其註冊以取得 URL 的服務要求，則會以400狀態碼 (不正確的要求) 來拒絕該要求。
 
- 
+ 
 
- 
+ 
 
 
 

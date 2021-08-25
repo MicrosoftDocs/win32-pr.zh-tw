@@ -4,12 +4,12 @@ ms.assetid: 030316e5-f9f3-4333-9bb4-7ad301bbe7bf
 title: 使用效能 DLL 提供計數器資料
 ms.topic: article
 ms.date: 08/17/2020
-ms.openlocfilehash: e14b8a0e59b1fc9af3d8cad6e895d4a0067b9ae6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 165e6a8797c50a22acff1d3cd3ded7f8b06a0ee2a7153300e98e46bea1127f27
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106979148"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119910308"
 ---
 # <a name="providing-counter-data-using-a-performance-dll"></a>使用效能 DLL 提供計數器資料
 
@@ -21,4 +21,4 @@ ms.locfileid: "106979148"
 系統會使用登錄來判斷要呼叫的提供者。 如需註冊提供者及其支援之計數器的詳細資訊，請參閱 [新增效能計數器](adding-performance-counters.md)。
 
 > [!Note]
-> Windows OneCore 不支援效能 Dll。 如果要撰寫必須在 Windows OneCore 上執行的元件，請使用在 [使用2.0 版提供計數器資料](providing-counter-data-using-version-2-0.md)中所述的方法。
+> Windows OneCore 不支援效能 Dll。 如果要撰寫必須在 Windows OneCore 上執行的元件，請使用在[使用2.0 版提供計數器資料](providing-counter-data-using-version-2-0.md)中所述的方法。

@@ -4,16 +4,16 @@ description: IAgentCharacter MoveTo
 ms.assetid: 4e24d2f8-1df2-47ca-a1e9-b9d29708207d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 86d1ba423dc637895216ff03e2adec2862bbf27d
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 00ea5a0e288e4b7d9782f1b463fdbcccf01b0da9314894be1a60c556392e25e8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104023351"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119848538"
 ---
 # <a name="iagentcharactermoveto"></a>IAgentCharacter：： MoveTo
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 ``` syntax
 HRESULT MoveTo(
@@ -65,6 +65,6 @@ HRESULT MoveTo(
 [**IAgentCharacter：： SetPosition**](iagentcharacter--setposition.md)
 
 
- 
+ 
 
- 
+ 

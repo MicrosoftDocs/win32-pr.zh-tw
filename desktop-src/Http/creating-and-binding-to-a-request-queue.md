@@ -4,12 +4,12 @@ description: 要求佇列是保留特定應用程式暫止要求的服務佇列�
 ms.assetid: 93f8b230-af0a-4582-b35b-d65f6841e525
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 945b8451f9128357b7da0ddc64600b74deffd0d7
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 24c3a36fbbb9a8bcaa1c4e708240e99c276b09448ca56615df7da3d2cdf26836
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372433"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119914278"
 ---
 # <a name="creating-and-binding-to-a-request-queue"></a>建立和系結至要求佇列
 
@@ -17,9 +17,9 @@ ms.locfileid: "104372433"
 
 為了將要求路由傳送至其要求佇列，應用程式會藉 [**由呼叫**](/windows/desktop/api/Http/nf-http-httpseturlgroupproperty) *Property* 參數中指定的 **HttpServerBindingProperty** ，將其建立為 [執行時間](run-time-configuration.md)設定一部分的 URL 群組系結至佇列。 從群組中的 Url 傳入的要求會路由傳送至指定的要求佇列。
 
- 
+ 
 
- 
+ 
 
 
 

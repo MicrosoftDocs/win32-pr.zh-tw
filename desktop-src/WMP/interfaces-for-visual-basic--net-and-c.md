@@ -1,15 +1,15 @@
 ---
-title: 適用于 Visual Basic .NET 和 C 的介面
-description: Visual Basic .NET 和 C 的介面 \
+title: 適用于 Visual Basic .net 和 C 的介面
+description: Visual Basic .net 和 C 的介面 \
 ms.assetid: c66f1e03-20eb-45b1-8710-be9eae63e7ad
 keywords:
 - Windows Media Player，介面
-- Windows Media Player 行動裝置、介面
+- Windows Media Player行動裝置，介面
 - Windows Media Player 物件模型，介面
 - 物件模型，介面
 - ActiveX 控制項，介面
-- Windows Media Player ActiveX 控制項，介面
-- Windows Media Player 的行動 ActiveX 控制項、介面
+- Windows Media Player ActiveX 控制項、介面
+- Windows Media PlayerMobile ActiveX 控制項、介面
 - 物件模型、介面的參考
 - 介面物件模型參考
 ms.topic: article
@@ -19,16 +19,16 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: a301cb075ccee049272f1db9b2582aeae6697fa3
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a7024c60235b0a545463826fc8948adf3716c9c2d5b491414212d788087404b2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104183776"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119862578"
 ---
-# <a name="interfaces-for-visual-basic-net-and-c"></a>適用于 Visual Basic .NET 和 C 的介面#
+# <a name="interfaces-for-visual-basic-net-and-c"></a>適用于 Visual Basic .net 和 C 的介面#
 
-本節記載 Windows Media Player ActiveX 控制項公開的介面。
+本節記載由 Windows Media Player ActiveX 控制項公開的介面。
 
 [AxWindowsMediaPlayer 物件](axwindowsmediaplayer-object--vb-and-c.md)的數個屬性和方法是用來取出特定介面。 這些介面接著可能具有屬性和存取子方法，可供您抓取進一步的介面。
 
@@ -80,18 +80,18 @@ Windows Media Player 控制項會公開下列介面。
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
 <dl> <dt>
 
-[**Visual Basic .NET 和 C 的物件模型參考#**](object-model-reference-for-visual-basic--net-and-c.md)
+[**Visual Basic .net 和 C 的物件模型參考#**](object-model-reference-for-visual-basic--net-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

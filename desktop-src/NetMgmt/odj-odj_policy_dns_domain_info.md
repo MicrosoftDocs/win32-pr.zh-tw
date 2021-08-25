@@ -5,12 +5,12 @@ ms.assetid: 44b1145f-3bdd-42cd-a88f-9b41888cc644
 ms.topic: reference
 ms.date: 10/12/2020
 ms.reviewer: jsimmons
-ms.openlocfilehash: 36b7759451811844a91b3ee66ff3460fa4c4db34
-ms.sourcegitcommit: 1e64562147b11f90de802c2431173582d066fae6
+ms.openlocfilehash: d0a83ccade72a11449ca0cc9b35b9fc58e9c53d48f8248a9f6074cdb087cc0c7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "103684205"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119911591"
 ---
 # <a name="odj_policy_dns_domain_info-structure"></a>ODJ_POLICY_DNS_DOMAIN_INFO 結構
 
@@ -31,7 +31,7 @@ typedef struct _ODJ_POLICY_DNS_DOMAIN_INFO
 
 ## <a name="members"></a>成員
 
-### <a name="name"></a>Name
+### <a name="name"></a>名稱
 
 必須設定為 Netbios 功能變數名稱。
 

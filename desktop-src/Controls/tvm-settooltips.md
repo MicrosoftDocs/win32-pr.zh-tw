@@ -3,7 +3,7 @@ title: 'TVM_SETTOOLTIPS 訊息 (Commctrl .h) '
 description: 設定樹狀檢視控制項的子工具提示控制項。 您可以使用 TreeView SetToolTips 宏明確地傳送此訊息 \_ 。
 ms.assetid: beb9a739-868e-46a8-95d9-9dc032c79dd4
 keywords:
-- TVM_SETTOOLTIPS message Windows 控制項
+- TVM_SETTOOLTIPS 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: efd9d5957a38d873993405a5283545472433e958
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: bd18a5217db0d105841722d208904c1b65199504750576acf1ff8035f31bd585
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104094572"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119913958"
 ---
 # <a name="tvm_settooltips-message"></a>TVM \_ SETTOOLTIPS 訊息
 
@@ -53,8 +53,8 @@ ms.locfileid: "104094572"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

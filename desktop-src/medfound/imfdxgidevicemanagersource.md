@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - mfidl.h
-ms.openlocfilehash: 669ec840a3122172147840052bd1dbf5c940569d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c75b2a691bfe9fcbda453fd49a29fcfd2ff640346f0e3c13a34418995439f4df
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103691272"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119957848"
 ---
 # <a name="imfdxgidevicemanagersource-interface"></a>IMFDXGIDeviceManagerSource 介面
 
@@ -50,9 +50,9 @@ ms.locfileid: "103691272"
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 8.1 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                  |
-| 最低支援的伺服器<br/> | Windows Server 2012 R2 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                       |
-| Idl<br/>                      | <dl> <dt>Mfidl .idl</dt> </dl> |
+| 最低支援的用戶端<br/> | Windows 8.1 \[桌面應用程式 \| UWP 應用程式\]<br/>                                  |
+| 最低支援的伺服器<br/> | Windows Server 2012R2 \[ desktop apps \| UWP 應用程式\]<br/>                       |
+| IDL<br/>                      | <dl> <dt>Mfidl .idl</dt> </dl> |
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: bbde9dfb-c205-4432-be71-250d73b881f1
 title: 磁片區管理結構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7fcadb770f702861d4c3d347e1c2018cc0086ac4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e80416e238658ba728a2813f1b1b67a5c47521e0f6e73a2c0a6bf2e1413a1d64
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511260"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119914308"
 ---
 # <a name="volume-management-structures"></a>磁片區管理結構
 

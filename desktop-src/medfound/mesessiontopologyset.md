@@ -4,12 +4,12 @@ ms.assetid: 22a298b7-d32b-44ed-b0a1-4e0398ecfe04
 title: 'MESessionTopologySet 事件 (Mfobjects) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 338668b0ec9b4dd81140edfb55a823a5a595459b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ba2b5454309855ff472c633388cddabe0c12fab09e2ae462aacd2de49c3c9bba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943796"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119957398"
 ---
 # <a name="mesessiontopologyset-event"></a>MESessionTopologySet 事件
 
@@ -21,7 +21,7 @@ ms.locfileid: "103943796"
 
 
 
-| VARTYPE                | Description                                                                                              |
+| VARTYPE                | 描述                                                                                              |
 |------------------------|----------------------------------------------------------------------------------------------------------|
 | VT \_ 空白<br/>   | 沒有事件資料。<br/> <br/>                                                                    |
 | VT \_ 不明<br/> | 完整拓撲之 [**IMFTopology**](/windows/desktop/api/mfidl/nn-mfidl-imftopology) 介面的指標。<br/> <br/> |
@@ -65,8 +65,8 @@ HRESULT GetTopologyFromEvent(IMFMediaEvent *pEvent, IMFTopology **ppTopology)
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                                     |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                                     |
 | 標頭<br/>                   | <dl> <dt>Mfobjects (包含 Mfidl) </dt> </dl> |
 
 

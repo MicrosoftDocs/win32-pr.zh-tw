@@ -3,25 +3,25 @@ title: 音訊裝置一致性範本
 description: 音訊裝置一致性範本
 ms.assetid: dad3dd2c-595e-45ce-bd84-2a20bc656cfb
 keywords:
-- Windows Media Format SDK，裝置一致性範本
+- Windows媒體格式 SDK，裝置一致性範本
 - Advanced Systems Format (ASF) 、裝置一致性範本
 - ASF (Advanced Systems Format) 、裝置一致性範本
-- Windows Media 格式 SDK、音訊裝置一致性範本
+- Windows媒體格式 SDK、音訊裝置一致性範本
 - Advanced Systems Format (ASF) 、音訊裝置一致性範本
 - ASF (Advanced Systems Format) 、音訊裝置一致性範本
-- Windows Media 音訊9編解碼器、音訊裝置一致性範本
+- WindowsMedia Audio 9 編解碼器、音訊裝置一致性範本
 - 編解碼器，Windows Media 音訊9編解碼器
 - 裝置一致性範本、影片
 - 音訊裝置一致性範本
 - 範本、音訊裝置一致性範本
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 39e1065395e64fdd2d8e60585900307a4dd3f39b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b66c3c414ef2132120cb0824e1e48847310396cf8002d95be13d7f841a0ff6db
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104300827"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119840248"
 ---
 # <a name="audio-device-conformance-templates"></a>音訊裝置一致性範本
 

@@ -3,14 +3,14 @@ title: 接收器
 description: 接收器
 ms.assetid: 6781a326-a30a-4d4d-96db-332d0f681a31
 keywords:
-- Windows Media 格式 SDK，接收
-- Windows Media Format SDK，file 接收
+- Windows媒體格式 SDK，接收
+- Windows媒體格式 SDK，檔案接收
 - Advanced Systems Format (ASF) 、接收
 - ASF (Advanced 系統格式) 、接收
 - Advanced Systems Format (ASF) ，file 接收
 - ASF (Advanced Systems Format) ，file 接收
-- Windows Media Format SDK，網路接收器
-- Windows Media Format SDK、push 接收器
+- Windows媒體格式 SDK，網路接收器
+- Windows媒體格式 SDK、推播接收
 - Advanced Systems Format (ASF) ，網路接收器
 - ASF (Advanced Systems Format) ，網路接收器
 - Advanced Systems Format (ASF) 、push 接收器
@@ -21,16 +21,16 @@ keywords:
 - 推播接收器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7a62548f159172f58d4f52b0289c5adbfef02f55
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: eb72479a231c3db508efcea7db54528c0b1bf9635afba8b842a4c23add0456cc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104023066"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119807898"
 ---
 # <a name="sinks"></a>接收器
 
-Windows Media 格式 SDK 的寫入器物件會將已處理的內容傳遞給接收。 每個接收都是可傳遞資料的物件。 傳遞點取決於接收的類型。 有三種類型的接收：檔案接收、網路接收和推播接收。
+Windows 媒體格式 SDK 的寫入器物件會將已處理的內容傳遞給接收。 每個接收都是可傳遞資料的物件。 傳遞點取決於接收的類型。 有三種類型的接收：檔案接收、網路接收和推播接收。
 
 ## <a name="file-sinks"></a>檔案接收
 
@@ -59,9 +59,9 @@ File 接收會將 ASF 內容寫入本機或網路磁碟機機上的檔案。 當
 [**使用寫入器接收器**](working-with-writer-sinks.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

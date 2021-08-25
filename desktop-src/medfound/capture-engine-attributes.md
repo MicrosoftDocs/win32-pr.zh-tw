@@ -4,12 +4,12 @@ ms.assetid: C153F0AD-4E8B-41DA-B7FB-8D10AC20D22E
 title: Capture 引擎屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f1340fa69f80d456a29331d303f313d41c31ee41
-ms.sourcegitcommit: 3d9dce1bd6c84e2b51759e940aa95aa9b459cd20
+ms.openlocfilehash: 05e79d0410407d12b46c0577615088f0f925b8558169d02140486b9fdc8fb303
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "107000527"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119959148"
 ---
 # <a name="capture-engine-attributes"></a>Capture 引擎屬性
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dxof.lib
 - D3dxof.dll
-ms.openlocfilehash: 858097139702770d148765c4c9a57f6522d9633b
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 0b5498833096a673226af60188397fb518f483b26d6b470021c590e16d190342
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106985908"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119893198"
 ---
 # <a name="idirectxfileenumobjectgetdataobjectbyname-method"></a>IDirectXFileEnumObject：： GetDataObjectByName 方法
 

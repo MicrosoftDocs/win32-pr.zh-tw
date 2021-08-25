@@ -1,5 +1,5 @@
 ---
-title: 'IWMPClosedCaption2 (VB 和 C ) 介面 (h.264. h) '
+title: 'IWMPClosedCaption2 (VB 和 C ) 介面 (Wmp. h) '
 description: 提供補充 IWMPClosedCaption 介面之隱藏式輔助字幕的屬性和方法。除了繼承自 IWMPClosedCaption 的屬性之外，IWMPClosedCaption2 介面也會公開下列屬性。
 ms.assetid: e34ea819-dc1a-48f3-9e55-cf2217379ddb
 keywords:
@@ -15,12 +15,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3dbf81cef3734a6466b6fd177ccc87a38c5c7085
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4e955feacd9447327ee003d3e4db535643be1bcd286f7ff24737df8c4b53b149
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990221"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119862458"
 ---
 # <a name="iwmpclosedcaption2-vb-and-c-interface"></a>IWMPClosedCaption2 (VB 和 c # ) 介面
 
@@ -57,7 +57,7 @@ ms.locfileid: "106990221"
 
 
 
-| 屬性                                                                                                | 存取類型           | Description                                                                         |
+| 屬性                                                                                                | 存取類型           | 描述                                                                         |
 |:--------------------------------------------------------------------------------------------------------|:----------------------|:------------------------------------------------------------------------------------|
 | [**SAMILangCount**](wmplibiwmpclosedcaption2-iwmpclosedcaption2-samilangcount--vb-and-c.md)<br/> | 讀取/寫入<br/> | 取得或設定目前的薩米文檔案所支援的語言數目。<br/> |
 | [**SAMIStyleCount**](wmplibiwmpclosedcaption2-samistylecount.md)<br/>                            | 讀取/寫入<br/> | 取得或設定目前的薩米文檔案所支援的樣式數目。<br/>    |
@@ -85,7 +85,7 @@ ms.locfileid: "106990221"
 [**將隱藏式輔助字幕新增至數位媒體**](adding-closed-captions-to-digital-media.md)
 </dt> <dt>
 
-[**適用于 Visual Basic .NET 和 C 的介面#**](interfaces-for-visual-basic--net-and-c.md)
+[**適用于 Visual Basic .net 和 C 的介面#**](interfaces-for-visual-basic--net-and-c.md)
 </dt> <dt>
 
 [**IWMPClosedCaption 介面 (VB 和 c # )**](iwmpclosedcaption--vb-and-c.md)

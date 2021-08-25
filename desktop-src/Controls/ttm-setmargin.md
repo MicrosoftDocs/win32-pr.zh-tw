@@ -3,7 +3,7 @@ title: 'TTM_SETMARGIN 訊息 (Commctrl .h) '
 description: 設定工具提示視窗的頂端、左方、下邊界和右邊界。 邊界是工具提示視窗框線和工具提示視窗內所含文字之間的距離（以圖元為單位）。
 ms.assetid: f1663861-c217-42dd-8249-7647b1651910
 keywords:
-- TTM_SETMARGIN message Windows 控制項
+- TTM_SETMARGIN 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9ed46bf40833a3046d15386782897eb6b573b29c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 04e5792b33f7f9f5a997759ba390c1b8a713308f95c4ba3f7b5cd0460747ff62
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106968165"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119914058"
 ---
 # <a name="ttm_setmargin-message"></a>TTM \_ SETMARGIN 訊息
 
@@ -66,8 +66,8 @@ ms.locfileid: "106968165"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

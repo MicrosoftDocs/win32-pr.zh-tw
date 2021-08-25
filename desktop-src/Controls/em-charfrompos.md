@@ -3,7 +3,7 @@ title: 'EM_CHARFROMPOS 訊息 (Winuser .h) '
 description: 取得最接近編輯控制項工作區中指定點之字元的相關資訊。 您可以將此訊息傳送至編輯控制項或 rich edit 控制項。
 ms.assetid: fe9f96f2-5b3c-4039-befd-5e9a456ba32d
 keywords:
-- EM_CHARFROMPOS message Windows 控制項
+- EM_CHARFROMPOS 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b1156d69c012faa0141726c00ab880d954fe2857
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3a133907b29857abdc1663d3283bc4b4164878f3fa0976769e6d42daef2c4cb1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465901"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119915958"
 ---
 # <a name="em_charfrompos-message"></a>EM \_ CHARFROMPOS 訊息
 
@@ -65,9 +65,9 @@ ms.locfileid: "104465901"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                     |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 

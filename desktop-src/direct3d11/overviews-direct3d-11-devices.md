@@ -4,12 +4,12 @@ description: 本節說明 Direct3D 11 裝置和裝置內容物件。
 ms.assetid: 61d1ea92-e657-4931-8475-74a3123c72f7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8dda010b3801952e90514fac6307556f8f6fbaff
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 9e77cfd255c43cc902f2583fe22575bef2567609f43b6f893984e99dec713532
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104991062"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119851118"
 ---
 # <a name="devices-direct3d-11-graphics"></a>裝置 (Direct3D 11 圖形) 
 
@@ -28,7 +28,7 @@ Direct3D 裝置會配置和終結物件、呈現基本專案，以及與圖形�
 | [軟體層](overviews-direct3d-11-devices-layers.md)<br/>                                                                                        | Direct3D 11 執行時間是使用圖層來建立，從核心的基本功能開始，並在外部層建立選擇性和開發人員協助工具。 本節說明每個圖層的功能。<br/> |
 | [建立變形和參考裝置的限制](overviews-direct3d-11-devices-limitations.md)<br/>                                                   | 在 Direct3D 10.1 和 Direct3D 11.0 中建立變形和參考裝置有一些限制。 本主題討論這些限制。<br/>                                                                                              |
 | [舊版硬體上的 Direct3D 11](overviews-direct3d-11-devices-downlevel.md)<br/>                                                                   | 本節討論如何設計 Direct3D 11，以支援新的和現有的硬體，從 DirectX 9 到 DirectX 11。<br/>                                                                                                             |
-| [使用 Direct3D 11 功能資料來補充 Direct3D 功能等級](using-direct3d-optional-features-to-supplement-direct3d-feature-levels.md)<br/> | 瞭解如何檢查裝置支援的選用功能，包括最新的 Windows 版本中新增的功能。<br/>                                                                                                           |
+| [使用 Direct3D 11 功能資料來補充 Direct3D 功能等級](using-direct3d-optional-features-to-supplement-direct3d-feature-levels.md)<br/> | 瞭解如何檢查裝置支援的選用功能，包括最近版本的 Windows 中新增的功能。<br/>                                                                                                           |
 
 
 

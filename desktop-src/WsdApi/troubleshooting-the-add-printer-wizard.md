@@ -4,12 +4,12 @@ ms.assetid: 3ffee09b-e980-4a14-97ad-270444457dd7
 title: 針對新增印表機嚮導進行疑難排解
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f3b0054758e3ec721598ad279a073a32862af368
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7d6c6971108b0f6fb46a373be47943a3ccbc7fcd97b830733c139653f991debd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106979079"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119860048"
 ---
 # <a name="troubleshooting-the-add-printer-wizard"></a>針對新增印表機嚮導進行疑難排解
 

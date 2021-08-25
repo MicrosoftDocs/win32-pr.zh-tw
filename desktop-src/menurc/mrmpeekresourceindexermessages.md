@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 45599865633afa413594be7e82b0c7ace853434b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f72325ab147656873af2bbf13d7ce1cfa47802c816dc9f14f0c6ee4f3c821683
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104025158"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119847328"
 ---
 # <a name="mrmpeekresourceindexermessages-function"></a>MrmPeekResourceIndexerMessages 函式
 
@@ -65,9 +65,9 @@ HRESULT HRESULT MrmPeekResourceIndexerMessages(
 *numMsgs* \[擴展\]
 </dt> <dd>
 
-類型： **ULONG \** _
+類型： **ULONG \***
 
-_Messages * 中傳回的訊息數目。
+*訊息* 中傳回的訊息數目。
 
 </dd> </dl>
 
@@ -88,7 +88,7 @@ _Messages * 中傳回的訊息數目。
 | 需求 | 值 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 10， \[ 僅限1803版桌面應用程式\]<br/>                                       |
-| 最低支援的伺服器<br/> | \[僅限 Windows Server desktop 應用程式\]<br/>                                                 |
+| 最低支援的伺服器<br/> | Windows\[僅限伺服器桌面應用程式\]<br/>                                                 |
 | 標頭<br/>                   | <dl> <dt>MrmResourceIndexer。h</dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>Mrmsupport .lib</dt> </dl>       |
 | DLL<br/>                      | <dl> <dt>Mrmsupport.dll</dt> </dl>       |

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: 21b4cd7b6cb921f7bd71b8670a37da12b2239b92
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: dfe48afce1e8fd2350f1d1b696eb426a326ade1b30151e872afee30c0ed997f2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108098496"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119910508"
 ---
 # <a name="idelaydcpause-method"></a>IDelaydC：:P ause 方法
 
@@ -46,12 +46,12 @@ HRESULT STDMETHODCALLTYPE Pause();
 
 
 
-| 傳回碼                                                                                           | Description                                                                                                                           |
+| 傳回碼                                                                                           | 描述                                                                                                                           |
 |-------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**NMERR \_ CAPTURE 已 \_ 暫停**</dt> </dl> | 此捕獲已處於暫停狀態。<br/>                                                                                  |
 | <dl> <dt>**NMERR \_ 未 \_ 捕獲**</dt> </dl>  | NPP 不會捕捉資料。 呼叫 [IDelaydC：： start](idelaydc-start.md) 以開始捕獲。<br/>                            |
-| <dl> <dt>**NMERR \_ 未 \_ 連接**</dt> </dl>  | NPP 未連接到網路。 呼叫 [IDelaydC：： connect](idelaydc-connect.md) 以將 NPP 連接到網路。<br/> |
-| <dl> <dt>**NMERR \_ 未 \_ 延遲**</dt> </dl>    | NPP 已連接到網路，但不是使用 [IDelaydC：： Connect](idelaydc-connect.md) 方法。<br/>                     |
+| <dl> <dt>**NMERR \_ 未 \_ 連接**</dt> </dl>  | NPP 未連接到網路。 呼叫[IDelaydC：：連線](idelaydc-connect.md)將 NPP 連接到網路。<br/> |
+| <dl> <dt>**NMERR \_ 未 \_ 延遲**</dt> </dl>    | NPP 是連接到網路，但不是使用[IDelaydC：：連線](idelaydc-connect.md)方法。<br/>                     |
 
 
 
@@ -87,7 +87,7 @@ HRESULT STDMETHODCALLTYPE Pause();
 [IDelaydC](idelaydc.md)
 </dt> <dt>
 
-[IDelaydC：： Connect](idelaydc-connect.md)
+[IDelaydC：：連線](idelaydc-connect.md)
 </dt> <dt>
 
 [IDelaydC：： Resume](idelaydc-resume.md)

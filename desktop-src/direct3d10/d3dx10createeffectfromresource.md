@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10Async.h
-ms.openlocfilehash: 6c5f7b7805e126f02c2658ddce6ec5029978de53
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: a94fd466194de6942fb2dee2968d738513743b043b18310ffabaf80fe73fc76a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104323016"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119852338"
 ---
 # <a name="d3dx10createeffectfromresource-function"></a>D3DX10CreateEffectFromResource 函式
 

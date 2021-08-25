@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 198a597020a0bfcbc789cc741e42048bd89eb95f
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: a602566c4d0e5b3cb5c68b2f983b6c56a9d9f596ee673db97a72e6054837759b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106993920"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119847378"
 ---
 # <a name="id3dxprtenginecomputessadaptive-method"></a>ID3DXPRTEngine：： ComputeSSAdaptive 方法
 

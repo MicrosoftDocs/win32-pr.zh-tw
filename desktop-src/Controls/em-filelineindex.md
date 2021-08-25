@@ -3,7 +3,7 @@ title: 'EM_FILELINEINDEX 訊息 (CommCtrl .h) '
 description: 取得多行編輯控制項中指定行第一個字元的字元索引，與螢幕上的線條顯示方式無關。
 ms.assetid: vs|controls|~\controls\editcontrols\editcontrolreference\editcontrolmessages\em_lineindex.htm
 keywords:
-- EM_FILELINEINDEX message Windows 控制項
+- EM_FILELINEINDEX 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a4ce5f5ca07fc9fb9869898965422c7c8a6aa3fb
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: df7c4bd1f21ee6bcdf7bec56828ea9c2996c837def614c0c537ef83ee053ebfc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104226"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119915608"
 ---
 # <a name="em_filelineindex-message-commctrlh"></a>EM_FILELINEINDEX 訊息 (CommCtrl .h) 
 
@@ -54,7 +54,7 @@ ms.locfileid: "104104226"
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 10， \[ 僅限 1809 desktop 應用程式\]<br/>                                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2019 \[ desktop 應用程式\]<br/>                                                     |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2019 desktop 應用程式\]<br/>                                                     |
 | 標頭<br/>                   | <dl> <dt>CommCtrl。h</dt> </dl> |
 
 

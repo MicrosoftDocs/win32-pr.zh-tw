@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 6096410a8e0ca15539bac4a52412d2f61611ddbe
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 43e27738037e771df1f447f95516ba9b1f956493af713f56244b6585fe7f7029
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104115304"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119851948"
 ---
 # <a name="esentlscallbacknotspecifiedexception-class"></a>EsentLSCallbackNotSpecifiedException 類別
 

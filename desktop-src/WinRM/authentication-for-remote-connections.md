@@ -1,6 +1,6 @@
 ---
 title: 遠端連線的驗證
-description: Windows 遠端管理藉由支援數種標準的驗證方法和訊息加密，來維護電腦間通訊的安全性。
+description: Windows遠端系統管理可支援數種標準的驗證方法和訊息加密，以維護電腦間通訊的安全性。
 ms.assetid: 97a13b07-ae7a-4d2f-8841-77a22c91b204
 ms.tgt_platform: multiple
 ms.topic: article
@@ -10,16 +10,16 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 0e9aa125f2ccf5d8c224eee645a6dba1ec2fd96e
-ms.sourcegitcommit: 25c6d442ab55cbf0e065398a006b1d409349fffd
+ms.openlocfilehash: 0622f3d80e923f7d910740c71ee99f0e9a0bc446cea259b292e2d645e3b5a973
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "104023179"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119858871"
 ---
 # <a name="authentication-for-remote-connections"></a>遠端連線的驗證
 
-Windows 遠端管理藉由支援數種標準的驗證方法和訊息加密，來維護電腦間通訊的安全性。
+Windows遠端系統管理可支援數種標準的驗證方法和訊息加密，以維護電腦間通訊的安全性。
 
 ## <a name="default-group-access"></a>預設群組存取
 
@@ -43,7 +43,7 @@ Windows 遠端管理藉由支援數種標準的驗證方法和訊息加密，來
 
 如果您指定 Negotiate、摘要式或基本驗證，但無法提供 [**ConnectionOptions**](connectionoptions.md) 物件，則您會收到錯誤，指出需要明確的認證。 如果 HTTPS 不是傳輸，則必須在信任的主機電腦清單中設定目標遠端電腦。
 
-如需有關在預設設定中啟用之驗證類型的詳細資訊，請參閱 [Windows 遠端管理的安裝和](installation-and-configuration-for-windows-remote-management.md)設定。
+如需有關在預設設定中啟用之驗證類型的詳細資訊，請參閱[Windows 遠端管理的安裝和](installation-and-configuration-for-windows-remote-management.md)設定。
 
 ## <a name="basic-authentication"></a>基本驗證
 
@@ -55,7 +55,7 @@ Windows 遠端管理藉由支援數種標準的驗證方法和訊息加密，來
 
 ## <a name="negotiate-authentication"></a>協商驗證
 
-若要明確建立 [*Negotiate*](windows-remote-management-glossary.md) 驗證（也稱為「Windows 整合式驗證」），請在 [**CreateSession**](wsman-createsession.md)的呼叫中，設定 Flags 參數中的 **WSManFlagUseNegotiate** 旗 *標* 。
+若要明確建立 [*Negotiate*](windows-remote-management-glossary.md)驗證（也稱為 Windows 整合式驗證），請在 [**CreateSession**](wsman-createsession.md)的呼叫中，設定 flags 參數中的 **WSManFlagUseNegotiate** 旗 *標*。
 
 [ (UAC) 的使用者帳戶控制 ](https://support.microsoft.com/help/922708/how-to-use-user-account-control-uac-in-windows-vista) 會影響 WinRM 服務的存取權。 在工作組中使用「協商驗證」時，只有內建的系統管理員帳戶可以存取該服務。 若要允許 Administrators 群組中的所有帳戶存取服務，請設定下列登錄值：
 
@@ -76,11 +76,11 @@ Windows 遠端管理藉由支援數種標準的驗證方法和訊息加密，來
 > [!Note]  
 > WinRM 在此內容中可用的憑證大小上限為16KB。
 
- 
+ 
 
 ## <a name="enabling-or-disabling-authentication-options"></a>啟用或停用驗證選項
 
-系統安裝時的預設驗證選項是 Kerberos。 如需詳細資訊，請參閱 [Windows 遠端管理的安裝和](installation-and-configuration-for-windows-remote-management.md)設定。
+系統安裝時的預設驗證選項是 Kerberos。 如需詳細資訊，請參閱[Windows 遠端管理的安裝和](installation-and-configuration-for-windows-remote-management.md)設定。
 
 如果您的腳本或應用程式需要未啟用的特定驗證方法，您必須變更設定，以啟用這種類型的驗證。 您可以使用 **Winrm** 命令列工具，或透過 **Windows 遠端管理群組原則物件** 的群組原則來進行這種變更。 您也可以選擇停用某些驗證方法。
 
@@ -107,9 +107,9 @@ Windows 遠端管理藉由支援數種標準的驗證方法和訊息加密，來
 [使用 Windows 遠端管理](using-windows-remote-management.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

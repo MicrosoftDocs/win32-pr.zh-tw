@@ -4,12 +4,12 @@ ms.assetid: 084b2737-eb55-4587-b8e8-3eb3fa3688c4
 title: 建立增強型中繼檔
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f4877481ed0a68d6379e7eaabb00bbe37cef74c7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4e53266ac0677da211308c7028f4d61869fc2890f27c06daeff9cfb6fea87e58
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104512917"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119849228"
 ---
 # <a name="creating-an-enhanced-metafile"></a>建立增強型中繼檔
 

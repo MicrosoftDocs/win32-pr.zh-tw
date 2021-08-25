@@ -3,7 +3,7 @@ title: 'TDM_ENABLE_RADIO_BUTTON 訊息 (Commctrl .h) '
 description: 啟用或停用工作對話方塊中的選項按鈕。
 ms.assetid: da605ce0-b2d5-481a-a0e1-628ae5b65726
 keywords:
-- TDM_ENABLE_RADIO_BUTTON message Windows 控制項
+- TDM_ENABLE_RADIO_BUTTON 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a78445158c5edc920eb329cdfc52d44f9cb7d6f3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 493c6813f15baa3ad3b5ceb7050049f620010a9eed12d75d09b3c9f102aa62db
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103935006"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119876068"
 ---
 # <a name="tdm_enable_radio_button-message"></a>TDM \_ 啟用 \_ 單選 \_ 按鈕訊息
 
@@ -53,8 +53,8 @@ ms.locfileid: "103935006"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

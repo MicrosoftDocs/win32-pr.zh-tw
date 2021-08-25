@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 7e448fcaaeaa2b1b50bd77b18ac4b3ac3f5e122a
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 09b8246f3fc5563dde6a425919a60f8850e2eae5bd3d41ba06c7715394c33bb6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104025784"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119892174"
 ---
 # <a name="span-idvspixengineprimitive_topologyspanprimitive_topology-enumeration"></a><span id="vspixengine.primitive_topology"></span>基本 \_ 拓撲列舉
 
