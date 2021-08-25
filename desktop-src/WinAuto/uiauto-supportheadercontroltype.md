@@ -21,12 +21,12 @@ keywords:
 - 控制項類型，標頭
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c38ee0a00749888c624b627db247f2d01d24ff1c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 472a0d7185fa3c2b2dc1dc7593afd106008890bb
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372125"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122482506"
 ---
 # <a name="header-control-type"></a>標題控制項類型
 
@@ -50,33 +50,15 @@ ms.locfileid: "104372125"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>控制項檢視</th>
-<th>內容檢視</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>標頭
-<ul>
-<li>HeaderItem (1 個以上)</li>
-</ul></li>
-</ul></td>
-<td>(不適用)</td>
-</tr>
-</tbody>
-</table>
+
+| 控制項檢視 | 內容檢視 | 
+|--------------|--------------|
+| <ul><li>標頭<ul><li>HeaderItem (1 個以上)</li></ul></li></ul> | (不適用) | 
 
 
 
- 
+
+ 
 
 標題控制項在消費者介面自動化樹狀結構的控制視圖中一律會有一或多個子系。
 
@@ -104,7 +86,7 @@ ms.locfileid: "104372125"
 
 
 
- 
+ 
 
 ## <a name="required-control-patterns"></a>必要的控制項模式
 
@@ -118,7 +100,7 @@ ms.locfileid: "104372125"
 
 
 
- 
+ 
 
 ## <a name="required-events"></a>必要的事件
 
@@ -136,7 +118,7 @@ ms.locfileid: "104372125"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -151,9 +133,9 @@ ms.locfileid: "104372125"
 [UI 自動化概觀](uiauto-uiautomationoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

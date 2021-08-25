@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: c095a702269084a938887ef9717253df4653aea0
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 74e576e0586b5ce861311da5b98840e2d8da8c8385dd4f9e20474731f7bb5165
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973560"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120089388"
 ---
 # <a name="rename-method-of-the-win32_shortcutfile-class"></a>Win32 ShortcutFile 類別的重新命名方法 \_
 
@@ -102,7 +102,7 @@ uint32 Rename(
 **12**
 </dt> <dd>
 
-平臺不是 Windows。
+平臺未 Windows。
 
 </dd> <dt>
 

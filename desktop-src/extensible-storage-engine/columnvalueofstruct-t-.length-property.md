@@ -25,12 +25,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: ae3c67ba3dfbdcf8c72e04e75185c835c290e21b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: adbd9a120fca578d2908ec1e98f467c6ce622dbcb16095653a08b81be35c4985
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104512364"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120066928"
 ---
 # <a name="columnvalueofstructtlength-property"></a>ColumnValueOfStruct \<T\> 。Length 屬性
 

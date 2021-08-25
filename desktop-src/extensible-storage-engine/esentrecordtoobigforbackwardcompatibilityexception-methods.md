@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102597
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 989927af04de04a51c4fde99e42d324e7c9b9e1b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c482bd1c6469169d861ea9a3f69efe9ec0719f078d7857e1c3dd489a22584c17
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103690951"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119946878"
 ---
 # <a name="esentrecordtoobigforbackwardcompatibilityexception-methods"></a>EsentRecordTooBigForBackwardCompatibilityException 方法
 

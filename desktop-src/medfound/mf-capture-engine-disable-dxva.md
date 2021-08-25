@@ -4,12 +4,12 @@ ms.assetid: 9F677E6E-0DCD-456F-8A00-1C11011BAA13
 title: 'MF_CAPTURE_ENGINE_DISABLE_DXVA 屬性 (Mfcaptureengine) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d2ce31ed55e151e7254168e5e6bcce0c5460e88
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4c722b70e1707e6ad5d14b7afca0da2c8d1a63b3a132345e727de1f37023916a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318551"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119941008"
 ---
 # <a name="mf_capture_engine_disable_dxva-attribute"></a>MF \_ 捕獲 \_ 引擎 \_ 停用 \_ DXVA 屬性
 
@@ -39,8 +39,8 @@ ms.locfileid: "104318551"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                                   |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                         |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                                   |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                                         |
 | 標頭<br/>                   | <dl> <dt>Mfcaptureengine. h</dt> </dl> |
 
 

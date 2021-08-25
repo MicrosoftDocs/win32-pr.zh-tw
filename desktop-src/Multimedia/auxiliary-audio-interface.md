@@ -19,12 +19,12 @@ keywords:
 - 波形音訊、輔助音訊裝置
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4daa76f2c4f33b7cc04e90313550ad2f254fc7e6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: effd30748914724cf089b47b9c7d8d1848cfef121d7eb1233738477f31c1e902
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106968254"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119808348"
 ---
 # <a name="auxiliary-audio-interface"></a>輔助音訊介面
 
@@ -33,9 +33,9 @@ ms.locfileid: "106968254"
 -   [查詢輔助音訊裝置](querying-auxiliary-audio-devices.md)
 -   [變更輔助音訊的數量-裝置](changing-the-volume-of-auxiliary-audio-devices.md)
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,23 +1,23 @@
 ---
-title: '使用即時手寫筆範例 (c + + 的 Windows Touch 便箋) '
+title: Windows使用即時手寫筆範例 (c + +) 的觸控式便箋
 description: 複習 Windows Touch 的 (MTScratchpadRTStylus) 範例，其中會示範如何使用 Windows Touch 的訊息，將觸控點的追蹤繪製至視窗。
 ms.assetid: c72ddc71-48b7-4c26-af2b-10919038eaf8
 keywords:
-- Windows Touch，程式碼範例
-- Windows Touch，範例程式碼
-- Windows Touch，範例簿範例
+- Windows觸控、程式碼範例
+- Windows觸控，範例程式碼
+- Windows觸控、便箋簿範例
 - 便箋範例
-- Windows Touch，即時手寫筆 (RTS) 物件
+- Windows觸控、即時手寫筆 (RTS) 物件
 ms.topic: article
 ms.date: 02/18/2020
-ms.openlocfilehash: 42e32e66942f3dcfad11b8b777e846e0cee6c0b3
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 8ae407240b939f1afe70a976c995e244521cf51ed9103ac5601fdfa817ddf9e3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112406291"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120089801"
 ---
-# <a name="windows-touch-scratchpad-using-the-real-time-stylus-sample-c"></a>使用即時手寫筆範例 (c + + 的 Windows Touch 便箋) 
+# <a name="windows-touch-scratchpad-using-the-real-time-stylus-sample-c"></a>Windows使用即時手寫筆範例 (c + +) 的觸控式便箋
 
 Windows Touch 的便箋範例 ([MTScratchpadRTStylus](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTScratchpadRTStylus/cpp)) 會示範如何使用 Windows Touch 訊息來繪製觸控點至視窗的追蹤。 主要手指的追蹤（先放在數位板上）會以黑色繪製。 次要手指會以六種其他色彩繪製：紅色、綠色、藍色、青色、洋紅和黃色。 下列螢幕擷取畫面顯示應用程式在執行時的外觀。
 
@@ -186,4 +186,4 @@ HRESULT CSyncEventHandlerRTS::StylusDown(
 
 ## <a name="related-topics"></a>相關主題
 
-[多點觸控式的程式簿應用程式 (rts/c # ) ](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTScratchpadRTStylus/CS)、多點觸控式的 [程式 (RTS/c + +) ](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTScratchpadRTStylus/cpp)、 [Windows Touch 範例](windows-touch-samples.md)
+[多點觸控式的程式簿應用程式 (rts/c # ) ](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTScratchpadRTStylus/CS)、多點觸控式的[程式 (RTS/c + +) ](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTScratchpadRTStylus/cpp)、 [Windows Touch 範例](windows-touch-samples.md)

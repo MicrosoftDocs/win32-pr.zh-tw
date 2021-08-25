@@ -1,20 +1,20 @@
 ---
-title: Windows Server 2008 的新功能
-description: Windows Server 2008 為終端機服務引進了下列新的程式設計項目。
+title: Windows Server 2008 中的新功能
+description: Windows伺服器2008為終端機服務引進了下列新的程式設計項目。
 ms.assetid: a2299b03-5e06-4984-a33f-b44c7cded513
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7ab74f22c41fa88147a1ef30a8f55f158e34990c
-ms.sourcegitcommit: ae73f4dd3cf5a3c6a1ea7d191ca32a5b01f6686b
+ms.openlocfilehash: 69a13dc35286a38a8164461643bf2b124413b04790877de7ebbc11174ce53894
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "104383066"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119868598"
 ---
-# <a name="whats-new-in-windows-server-2008"></a>Windows Server 2008 的新功能
+# <a name="whats-new-in-windows-server-2008"></a>Windows Server 2008 中的新功能
 
-Windows Server 2008 為終端機服務引進了下列新的程式設計項目。
+Windows伺服器2008為終端機服務引進了下列新的程式設計項目。
 
 
 
@@ -26,7 +26,7 @@ Windows Server 2008 為終端機服務引進了下列新的程式設計項目。
 <thead>
 <tr class="header">
 <th>程式設計元素</th>
-<th>Description</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>

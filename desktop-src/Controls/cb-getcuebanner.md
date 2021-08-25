@@ -3,7 +3,7 @@ title: 'CB_GETCUEBANNER 訊息 (Winuser .h) '
 description: 取得在下拉式方塊的編輯控制項中顯示的提示橫幅文字。 明確地傳送此訊息，或使用 ComboBox \_ GetCueBannerText 宏。
 ms.assetid: 38959228-9f07-4636-a1ea-681efe77b9ec
 keywords:
-- CB_GETCUEBANNER message Windows 控制項
+- CB_GETCUEBANNER 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 866f51df0083c4cd72c3f34bb3ce045e0f577a24
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c81ddcd8123f28317726f412255f440d47f53310aa035ab34d25190658550163
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843823"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120089268"
 ---
 # <a name="cb_getcuebanner-message"></a>CB \_ GETCUEBANNER 訊息
 
@@ -55,8 +55,8 @@ Unicode 字串緩衝區的指標，此緩衝區會接收提示橫幅文字。 �
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                                     |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                                     |
 | 標頭<br/>                   | <dl> <dt>CommCtrl。h</dt> </dl> |
 
 

@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: ab1e0495d3fbea490f7b1be6cc67e45d97bc89d5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 961a0cb7843f2545c81ea21048a9b68d0507153735708e5baaeca3f68cba5527
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104115016"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119947698"
 ---
 # <a name="apitrymovelast-method"></a>TryMoveLast 方法
 

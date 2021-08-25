@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2fd5a00c7cf68feea13dc0e617e5fe2adb34551032c8ec54bda6e0810fbb092e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7524e51908f7d941aa04b138cc67ba6c4ab6a2a8
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118195168"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122479494"
 ---
 # <a name="wmt_videoimage_transition_star"></a>WMT \_ VIDEOIMAGE \_ 轉換 \_ 星星
 
@@ -31,46 +31,14 @@ ms.locfileid: "118195168"
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>參數</th>
-<th>結構成員</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>中心 X</td>
-<td><strong>fEffectPara0</strong></td>
-<td>星形中間的 X 座標（相對於影片框架）。</td>
-</tr>
-<tr class="even">
-<td>中心 Y</td>
-<td><strong>fEffectPara1</strong></td>
-<td>星形中央的 Y 座標（相對於影片框架）。</td>
-</tr>
-<tr class="odd">
-<td>半徑</td>
-<td><strong>fEffectPara2</strong></td>
-<td>星形點所定義之圓形的半徑（以圖元為單位）。</td>
-</tr>
-<tr class="even">
-<td>Composition</td>
-<td><strong>fEffectPara3</strong></td>
-<td>設定為下列其中一個值：
-<ul>
-<li>0-指定一般組合，其中上一個影像是背景，而目前影像是前景。</li>
-<li>1-指定反轉組合，其中目前影像是背景影像，而上一個影像是前景。</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| 參數 | 結構成員 | Description | 
+|-----------|------------------|-------------|
+| 中心 X | <strong>fEffectPara0</strong> | 星形中間的 X 座標（相對於影片框架）。 | 
+| 中心 Y | <strong>fEffectPara1</strong> | 星形中央的 Y 座標（相對於影片框架）。 | 
+| 半徑 | <strong>fEffectPara2</strong> | 星形點所定義之圓形的半徑（以圖元為單位）。 | 
+| Composition | <strong>fEffectPara3</strong> | 設定為下列其中一個值：<ul><li>0-指定一般組合，其中上一個影像是背景，而目前影像是前景。</li><li>1-指定反轉組合，其中目前影像是背景影像，而上一個影像是前景。</li></ul> | 
+
 
 
 

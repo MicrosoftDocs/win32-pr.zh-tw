@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 4e1642cbd5cbdef162511185e9d2c05e849d78486b82e8219623286f33e39223
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a53a2953ba7d77f1969a7d5dabef3c17437e8bbb
+ms.sourcegitcommit: 8d7ce0c4827f8a4fd501cc6487f1a8360e944577
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118504933"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "122767602"
 ---
 # <a name="waveactivecountbits-function"></a>WaveActiveCountBits 函式
 
@@ -48,7 +48,7 @@ uint WaveActiveCountBits(
 
 ## <a name="return-value"></a>傳回值
 
-在目前 wave 的所有作用中通道上評估為 true 的數目。
+在目前 wave 的所有作用中通道上，布林值變數評估為 true 的通道數目。
 
 ## <a name="remarks"></a>備註
 
