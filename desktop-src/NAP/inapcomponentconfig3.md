@@ -15,12 +15,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ac0cfead891da106a1a950ba83b9108b5950a738
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: fea8ab7b42589fa548439b03c04ade56db498750ccd47841b806dcb6b506d3d3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106996175"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119803078"
 ---
 # <a name="inapcomponentconfig3-interface"></a>INapComponentConfig3 介面
 
@@ -71,9 +71,9 @@ ms.locfileid: "106996175"
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | 都不支援<br/>                                                                |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>NapCommon。h</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>NapCommon .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>NapCommon .idl</dt> </dl> |
 
 
 

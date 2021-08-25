@@ -8,12 +8,12 @@ keywords:
 - MCIWndOpenInterface 宏
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ac4191f18409a1fb1f23ba3a2128b4aaed1b30e8
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: cb9e388e4b7998a932cb22545c05509277f1f7fa705a81fbde02d4d5fb35cdd6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103673523"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119786260"
 ---
 # <a name="allowing-the-user-to-specify-devices-and-files"></a>允許使用者指定裝置和檔案
 
@@ -32,11 +32,11 @@ ms.locfileid: "103673523"
 > [!Note]  
 > 在建立新檔案或裝置與 MCIWnd 視窗的關聯之前， [**MCIWndOpenDialog**](/windows/desktop/api/Vfw/nf-vfw-mciwndopendialog) 和 [**MCIWndOpen**](/windows/desktop/api/Vfw/nf-vfw-mciwndopen) 會關閉目前與該視窗相關聯的任何裝置。 在使用這些宏之前，您的應用程式不需要關閉任何開啟的裝置。
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

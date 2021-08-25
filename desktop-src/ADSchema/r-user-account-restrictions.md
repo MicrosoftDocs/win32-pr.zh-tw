@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a8c3c39c80c83f321c654e675ccd87950cfd4bcf
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 050fe70f98bb0bb6fbb457e0540fa61bce9c8f61c2769cf24fb09aa87189d022
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103935217"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119702718"
 ---
 # <a name="user-account-restrictions-property-set"></a>使用者帳戶限制屬性集
 
@@ -50,7 +50,7 @@ ms.locfileid: "103935217"
 
 | 進入 | 值 |
 |-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Applies-To              | [**User**](c-user.md)<br/> [**電腦**](c-computer.md)<br/>                                                                                                                                                   |
+| Applies-To              | [**使用者**](c-user.md)<br/> [**電腦**](c-computer.md)<br/>                                                                                                                                                   |
 | 當地語系化-顯示識別碼 | 9                                                                                                                                                                                                                             |
 | 屬性集成員    | [**帳戶-到期**](a-accountexpires.md)<br/> [**Pwd-上次設定**](a-pwdlastset.md)<br/> [**使用者帳戶控制**](a-useraccountcontrol.md)<br/> [**使用者參數**](a-userparameters.md)<br/> |
 
@@ -62,7 +62,7 @@ ms.locfileid: "103935217"
 
 | 進入 | 值 |
 |-------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Applies-To              | [**User**](c-user.md)<br/> [**電腦**](c-computer.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/>                                                                                                                                                                                              |
+| Applies-To              | [**使用者**](c-user.md)<br/> [**電腦**](c-computer.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/>                                                                                                                                                                                              |
 | 當地語系化-顯示識別碼 | 9                                                                                                                                                                                                                                                                                                                            |
 | 屬性集成員    | [**帳戶-到期**](a-accountexpires.md)<br/> [**ms-DS-使用者-帳戶-控制項計算**](a-msds-user-account-control-computed.md)<br/> [**Pwd-上次設定**](a-pwdlastset.md)<br/> [**使用者帳戶控制**](a-useraccountcontrol.md)<br/> [**使用者參數**](a-userparameters.md)<br/> |
 
@@ -86,7 +86,7 @@ ms.locfileid: "103935217"
 
 | 進入 | 值 |
 |-------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Applies-To              | [**User**](c-user.md)<br/> [**電腦**](c-computer.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/>                                                                                                                                                                                              |
+| Applies-To              | [**使用者**](c-user.md)<br/> [**電腦**](c-computer.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/>                                                                                                                                                                                              |
 | 當地語系化-顯示識別碼 | 9                                                                                                                                                                                                                                                                                                                            |
 | 屬性集成員    | [**帳戶-到期**](a-accountexpires.md)<br/> [**ms-DS-使用者-帳戶-控制項計算**](a-msds-user-account-control-computed.md)<br/> [**Pwd-上次設定**](a-pwdlastset.md)<br/> [**使用者帳戶控制**](a-useraccountcontrol.md)<br/> [**使用者參數**](a-userparameters.md)<br/> |
 
@@ -98,7 +98,7 @@ ms.locfileid: "103935217"
 
 | 進入 | 值 |
 |-------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Applies-To              | [**User**](c-user.md)<br/> [**電腦**](c-computer.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/>                                                                                                                                                                                                                                                                                                   |
+| Applies-To              | [**使用者**](c-user.md)<br/> [**電腦**](c-computer.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/>                                                                                                                                                                                                                                                                                                   |
 | 當地語系化-顯示識別碼 | 9                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | 屬性集成員    | [**帳戶-到期**](a-accountexpires.md)<br/> [**ms-DS-使用者-帳戶-控制項計算**](a-msds-user-account-control-computed.md)<br/> [**ms-DS-User-Password-Expiry-Time-Computed**](a-msds-userpasswordexpirytimecomputed.md)<br/> [**Pwd-上次設定**](a-pwdlastset.md)<br/> [**使用者帳戶控制**](a-useraccountcontrol.md)<br/> [**使用者參數**](a-userparameters.md)<br/> |
 
@@ -110,7 +110,7 @@ ms.locfileid: "103935217"
 
 | 進入 | 值 |
 |-------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Applies-To              | [**User**](c-user.md)<br/> [**電腦**](c-computer.md)<br/> [**ms DS 管理-服務-帳戶**](c-msds-managedserviceaccount.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/>                                                                                                                                                                                                                  |
+| Applies-To              | [**使用者**](c-user.md)<br/> [**電腦**](c-computer.md)<br/> [**ms DS 管理-服務-帳戶**](c-msds-managedserviceaccount.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/>                                                                                                                                                                                                                  |
 | 當地語系化-顯示識別碼 | 9                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | 屬性集成員    | [**帳戶-到期**](a-accountexpires.md)<br/> [**ms-DS-使用者-帳戶-控制項計算**](a-msds-user-account-control-computed.md)<br/> [**ms-DS-User-Password-Expiry-Time-Computed**](a-msds-userpasswordexpirytimecomputed.md)<br/> [**Pwd-上次設定**](a-pwdlastset.md)<br/> [**使用者帳戶控制**](a-useraccountcontrol.md)<br/> [**使用者參數**](a-userparameters.md)<br/> |
 
@@ -122,7 +122,7 @@ ms.locfileid: "103935217"
 
 | 進入 | 值 |
 |-------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Applies-To              | [**User**](c-user.md)<br/> [**電腦**](c-computer.md)<br/> [**ms DS 管理-服務-帳戶**](c-msds-managedserviceaccount.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/>                                                                                                                                                                                                                  |
+| Applies-To              | [**使用者**](c-user.md)<br/> [**電腦**](c-computer.md)<br/> [**ms DS 管理-服務-帳戶**](c-msds-managedserviceaccount.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/>                                                                                                                                                                                                                  |
 | 當地語系化-顯示識別碼 | 9                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | 屬性集成員    | [**帳戶-到期**](a-accountexpires.md)<br/> [**ms-DS-使用者-帳戶-控制項計算**](a-msds-user-account-control-computed.md)<br/> [**ms-DS-User-Password-Expiry-Time-Computed**](a-msds-userpasswordexpirytimecomputed.md)<br/> [**Pwd-上次設定**](a-pwdlastset.md)<br/> [**使用者帳戶控制**](a-useraccountcontrol.md)<br/> [**使用者參數**](a-userparameters.md)<br/> |
 

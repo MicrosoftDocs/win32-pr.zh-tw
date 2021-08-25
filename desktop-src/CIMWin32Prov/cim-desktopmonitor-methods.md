@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: CIM_DesktopMonitor 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5d2b6c602c584a0e2f0e9ac2f8a15a2cbc96e13e
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 5ca74b477b10b3996390ce4b9a3ba36d65f8435f5d1dd2d7a1b962b885dad31c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110877"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119700638"
 ---
 # <a name="cim_desktopmonitor-methods"></a>CIM \_ DesktopMonitor 方法
 

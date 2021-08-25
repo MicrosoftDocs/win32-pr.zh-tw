@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 50b972f3ca61c108f96a4e3115438506e5fec2ce
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 53b603afa6909efea53897788fa554a5ddffa193bea4ad9dc75425e4b3fe3269
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845459"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119803648"
 ---
 # <a name="ms-ds-pso-applies-to-attribute"></a>PSO-適用于屬性
 

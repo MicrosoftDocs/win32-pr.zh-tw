@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Ctl3d32.dll
-ms.openlocfilehash: 85f4c85d1d608ff97147a935806b090162f5a78a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5edc8bafb00d5444f18b61e0600fb075b6a7367c315c2ab1cfe38f911e9a84d9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106979465"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119654608"
 ---
 # <a name="ctl3dautosubclass-function"></a>Ctl3dAutoSubclass 函式
 

@@ -4,12 +4,12 @@ ms.assetid: fcc70282-cfac-487c-b9ff-39e62c836f8b
 title: 'MF_TRANSFORM_ASYNC 屬性 (Mftransform) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 89622bd7bb7fa3e8306c94b02f90217b6367d21b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e92a647ca122c138f2ef7e90670798200fc3fa629be48d6242b4e71dbc93151e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103691252"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119714347"
 ---
 # <a name="mf_transform_async-attribute"></a>MF \_ 轉換 \_ 非同步屬性
 
@@ -69,7 +69,7 @@ BOOL IsTransformAsync(IMFTransform *pMFT)
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 7 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | Windows Server 2008 R2 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                           |
+| 最低支援的伺服器<br/> | WindowsServer 2008 R2 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                           |
 | 標頭<br/>                   | <dl> <dt>Mftransform。h</dt> </dl> |
 
 

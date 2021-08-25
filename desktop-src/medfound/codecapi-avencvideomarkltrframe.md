@@ -4,12 +4,12 @@ ms.assetid: D70A54D6-DA9B-40E5-B130-0AA9C5363DF0
 title: 'CODECAPI_AVEncVideoMarkLTRFrame 屬性 (Codecapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a377f30aec049bc5cbc850ea03ace9dcc640bd6d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a62f7bed0fd913dd17e06055ad259f4c8ed7037d90df2ecc53100e14ec4e505a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510818"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119606428"
 ---
 # <a name="codecapi_avencvideomarkltrframe-property"></a>CODECAPI \_ AVEncVideoMarkLTRFrame 屬性
 
@@ -39,8 +39,8 @@ CODECAPI \_ AVEncVideoMarkLTRFrame 屬性是動態的，可在編碼會話期間
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 8.1 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                   |
-| 最低支援的伺服器<br/> | Windows Server 2012 R2 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                        |
+| 最低支援的用戶端<br/> | Windows 8.1 \[桌面應用程式 \| UWP 應用程式\]<br/>                                   |
+| 最低支援的伺服器<br/> | Windows Server 2012R2 \[ desktop apps \| UWP 應用程式\]<br/>                        |
 | 標頭<br/>                   | <dl> <dt>Codecapi。h</dt> </dl> |
 
 

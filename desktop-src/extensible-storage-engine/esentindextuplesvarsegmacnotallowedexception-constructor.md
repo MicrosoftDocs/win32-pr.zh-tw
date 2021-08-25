@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: cfaab90f96bc66bcef96c868767aff768d116589
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 35501ec78fb0a209b86776e3342d44e7a0c52adaecb844d2e05fa8e4bf6b1f23
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104115309"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119724138"
 ---
 # <a name="esentindextuplesvarsegmacnotallowedexception-constructor"></a>EsentIndexTuplesVarSegMacNotAllowedException 函式
 

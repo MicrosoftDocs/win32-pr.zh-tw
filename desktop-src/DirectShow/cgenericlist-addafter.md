@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: fbb9553310a8ba817f90464d90226eb36371505e
-ms.sourcegitcommit: 168d11879cb9fd89d26f826482725c0a626be00f
+ms.openlocfilehash: 6de0037d76e63049294b0455c8ec1fbac82963d94febb35f7c9400ec8eae9ab5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "104323439"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119697528"
 ---
 # <a name="cgenericlistaddafter-method-wxlisth---p-pobj-parameters"></a>CGenericList. AddAfter 方法 (Wxlist .h) -p，pObj 參數
 
@@ -43,7 +43,7 @@ POSITION AddAfter(
 
 <dl> <dt>
 
-*P* 
+*p* 
 </dt> <dd>
 
 要在其後加入專案的位置。 如果 *p* 為 **Null**，則方法會將專案加入至清單的開頭。

@@ -4,12 +4,12 @@ ms.assetid: 1b9c0587-5854-45b5-b6d3-97d736cf92aa
 title: InkEdit 事件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 54727b4e582fa4133768269a8980ccbafe12975a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 67be45ccf1c4afa782189267ea07dd0bff09df937ba6e3c17bd701d6dfe98be1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980668"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119712928"
 ---
 # <a name="inkedit-events"></a>InkEdit 事件
 
@@ -19,7 +19,7 @@ ms.locfileid: "106980668"
 
 | 事件                                                  | 描述                                                                                                                                                                                                                  |
 |--------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**變更**](inkedit-change.md)                       | 發生于控制項的內容或屬性值變更時。<br/>                                                                                                                                               |
+| [**改變**](inkedit-change.md)                       | 發生于控制項的內容或屬性值變更時。<br/>                                                                                                                                               |
 | [**按一下**](inkedit-click.md)                         | 發生於按下控制項時。<br/>                                                                                                                                                                               |
 | [**DblClick**](inkedit-dblclick.md)                   | 發生於按兩下控制項時。<br/>                                                                                                                                                                        |
 | [**手勢**](inkedit-gesture.md)                     | 當應用程式手勢被辨識時發生。<br/>                                                                                                                                                                 |

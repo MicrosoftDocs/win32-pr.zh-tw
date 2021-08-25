@@ -4,12 +4,12 @@ description: 雖然捲軸控制項提供內建的鍵盤介面，但標準捲軸�
 ms.assetid: 249D0077-6E61-479A-91D5-A4BD9752B82E
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 43b739638d95d9f3e530718f8e9b9e6168069420
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: f25994639a40a6380bbf2f9cc0075e8a78b9e15787dbdf1babf0e6a15550faf1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103842776"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119698738"
 ---
 # <a name="how-to-create-a-keyboard-interface-for-standard-scroll-bars"></a>如何建立標準捲軸的鍵盤介面
 
@@ -21,12 +21,12 @@ ms.locfileid: "103842776"
 
 ### <a name="technologies"></a>技術
 
--   [Windows 控制項](window-controls.md)
+-   [Windows控制](window-controls.md)
 
 ### <a name="prerequisites"></a>必要條件
 
 -   C/C++
--   Windows 消費者介面程式設計
+-   Windows消費者介面程式設計
 
 ## <a name="instructions"></a>指示
 
@@ -86,6 +86,6 @@ ms.locfileid: "103842776"
 [Windows 通用控制項示範 (CppWindowsCommonControls) ](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

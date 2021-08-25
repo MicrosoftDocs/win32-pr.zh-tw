@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 720ac4d3bdae2910cee7913b9c34316d72526688
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 0ae47bf75a8f2a1f0b5e75ceadabff5a1ea7c6845617012a00a2bb115470e43c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108118186"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119750208"
 ---
 # <a name="d3dxmatrixrotationaxis-function-d3dx9mathh"></a>D3DXMatrixRotationAxis 函式 (D3dx9math) 
 

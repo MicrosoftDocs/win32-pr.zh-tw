@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Netmon.h
-ms.openlocfilehash: 18645a455e780020037384a2df7173a019d71677
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0fc8298f2495029d63889fd5ebb24cdb284933897a9d9150b1dfcc2e14084f46
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511240"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119743008"
 ---
 # <a name="ipx_address-structure"></a>IPX \_ 位址結構
 

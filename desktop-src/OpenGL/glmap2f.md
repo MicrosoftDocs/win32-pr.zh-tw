@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 152183ced46b55bcdf2038399583c1ecac8c5678
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: fb9f0d33cea662f35cdbbfb0b414d0254883cd619d55832550abdec3668ef070
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "103853599"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119741378"
 ---
 # <a name="glmap2f-function"></a>glMap2f 函式
 
@@ -109,7 +109,7 @@ void WINAPI glMap2f(
 
 </dd> <dt>
 
-*v2* 
+*2* 
 </dt> <dd>
 
 將 *v* 的線性對應（顯示為 [**glEvalCoord2**](glevalcoord-functions.md)）到 *v*^，這是由這個命令指定的方程式所評估的兩個變數之一。
@@ -147,7 +147,7 @@ void WINAPI glMap2f(
 
 
 
-| Name                                                                                                  | 意義                                                                                                                               |
+| 名稱                                                                                                  | 意義                                                                                                                               |
 |-------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**GL \_ 無效 \_ 列舉**</dt> </dl>      | *目標* 不是可接受的值。<br/>                                                                                        |
 | <dl> <dt>**GL \_ 無效 \_ 值**</dt> </dl>     | *u1* 等於 *u2*，或 *v1* 等於 *v2*。<br/>                                                                         |

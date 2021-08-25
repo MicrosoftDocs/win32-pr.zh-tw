@@ -4,18 +4,18 @@ ms.assetid: 67482227-9df6-4e89-b16f-160a0bae6609
 title: 其他來源物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b0c76c8f6cb104e87630f178a82d613675b96723
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: c8bbc1618cb7a76e87a4837fce3905a7c9ba7455b13297e779b8be8e80c40732
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103688203"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119790908"
 ---
 # <a name="other-source-objects"></a>其他來源物件
 
 \[此 API 不受支援，而且可能會在未來變更或無法使用。\]
 
-除了影片和音訊來源之外， (DES) 的 [DirectShow 編輯服務](directshow-editing-services.md) 也支援下列來源物件。
+除了影片和音訊來源之外， [DirectShow 編輯服務](directshow-editing-services.md) (DES) 支援下列來源物件。
 
 **靜止影像**
 
@@ -48,10 +48,10 @@ DES 也會將落在 RGB (0 –7、0–7、0– 7) 範圍內的任何黑色區域
 
 **自訂來源篩選**
 
-如果篩選準則符合下列條件，DES 可將 DirectShow 來源篩選器作為時間軸來源：
+如果篩選準則符合下列條件，DES 可以使用 DirectShow 來源篩選作為時間軸來源：
 
 -   它支援搜尋
--   它會產生 DES 所支援的格式。 只要使用者的系統具有能夠解碼的 DirectShow 篩選器，就可以壓縮格式。
+-   它會產生 DES 所支援的格式。 只要使用者的系統具有能夠解碼的 DirectShow 篩選，即可壓縮格式。
 
 若要使用自訂來源，請指定篩選的 CLSID 作為來源物件的子物件 GUID。 如需詳細資訊， [請參閱子](subobjects.md)內容。 若要支援自訂屬性，請將它們實作為 **IDispatch** "put" 屬性。 來源物件僅支援靜態屬性;不支援動態屬性。
 

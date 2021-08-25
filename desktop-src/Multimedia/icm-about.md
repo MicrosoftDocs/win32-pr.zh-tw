@@ -1,9 +1,9 @@
 ---
 title: 'ICM_ABOUT 訊息 (Vfw .h) '
-description: '\_關於訊息的 ICM 會通知視訊壓縮驅動程式顯示其 [關於] 對話方塊，或查詢 video 壓縮驅動程式來判斷它是否有 [關於] 對話方塊。 您可以使用 ICAbout 宏明確地傳送此訊息。'
+description: '\_關於訊息的 ICM 會通知影片壓縮驅動程式顯示其 [關於] 對話方塊，或查詢 video 壓縮驅動程式來判斷它是否有 [關於] 對話方塊。 您可以使用 ICAbout 宏明確地傳送此訊息。'
 ms.assetid: 6eca69a3-0463-48e6-befb-5003b7515e7d
 keywords:
-- ICM_ABOUT message Windows 多媒體
+- ICM_ABOUT 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d1e03e88993ba1e345a3ea32a9de7adb2d63abe9
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5bf47ff93ef1986d805b2cb37697fdf4d86876c5552fe6aeffb00ff172673018
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104024567"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119785068"
 ---
-# <a name="icm_about-message"></a>\_關於訊息的 ICM
+# <a name="icm_about-message"></a>ICM \_關於訊息
 
-**\_ 關於** 訊息的 ICM 會通知視訊壓縮驅動程式顯示其 [關於] 對話方塊，或查詢 video 壓縮驅動程式來判斷它是否有 [關於] 對話方塊。 您可以使用 [**ICAbout**](/windows/desktop/api/Vfw/nf-vfw-icabout) 宏明確地傳送此訊息。
+**\_ 關於** 訊息的 ICM 會通知影片壓縮驅動程式顯示其 [關於] 對話方塊，或查詢 video 壓縮驅動程式來判斷它是否有 [關於] 對話方塊。 您可以使用 [**ICAbout**](/windows/desktop/api/Vfw/nf-vfw-icabout) 宏明確地傳送此訊息。
 
 
 ```C++

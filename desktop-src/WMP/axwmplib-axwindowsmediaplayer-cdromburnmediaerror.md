@@ -14,12 +14,12 @@ api_type:
 - Assembly
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9d9fac8902fe8700171d2c909e8140c74c8cc3c8
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ba161945edcda7409b842987ab97768c30a6e1f0ba011772cf7f3757d3f61c33
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106986779"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119765267"
 ---
 # <a name="cdromburnmediaerror-event-of-the-axwindowsmediaplayer-object"></a>AxWindowsMediaPlayer 物件的 CdromBurnMediaError 事件
 
@@ -77,7 +77,7 @@ Private Sub player_CdromBurnMediaError(
 [**AxWindowsMediaPlayer 物件 (VB 和 c # )**](axwindowsmediaplayer-object--vb-and-c.md)
 </dt> <dt>
 
-[**AxWindowsMediaPlayer CdromBurnError 事件 (VB 和 c # )**](axwmplib-axwindowsmediaplayer-cdromburnerror.md)
+[**AxWindowsMediaPlayer. CdromBurnError 事件 (VB 和 c # )**](axwmplib-axwindowsmediaplayer-cdromburnerror.md)
 </dt> <dt>
 
 [**IWMPCdromBurn 介面 (VB 和 c # )**](iwmpcdromburn--vb-and-c.md)

@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: ce1b0ca7e1c7b3716be1a3029c5478f96e261ce5
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 492e0b5e400adc4e5c847f12880a668fb5e3b98f683a0f64dbe32ec98f28a93c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104023866"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119789858"
 ---
 # <a name="asint"></a>asint
 
@@ -53,7 +53,7 @@ ms.locfileid: "104023866"
 
 
 
-| Name  | [**範本類型**](dx-graphics-hlsl-intrinsic-functions.md)                                                  | [**元件類型**](dx-graphics-hlsl-intrinsic-functions.md)                  | 大小                           |
+| 名稱  | [**範本類型**](dx-graphics-hlsl-intrinsic-functions.md)                                                  | [**元件類型**](dx-graphics-hlsl-intrinsic-functions.md)                  | 大小                           |
 |-------|----------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------|--------------------------------|
 | *x*   | 純 [**量、**](dx-graphics-hlsl-intrinsic-functions.md)**向量** 或 **矩陣** | [**float**](/windows/desktop/WinProg/windows-data-types)、 [ **uint**](/windows/desktop/WinProg/windows-data-types) | 任意                            |
 | *Ret* | 與輸入 *x* 相同                                                                                              | [**int**](/windows/desktop/WinProg/windows-data-types)                                           | ) 為輸入 *x* 的相同維度 (s |
@@ -71,9 +71,9 @@ ms.locfileid: "104023866"
 | 著色器模型                                                        | 支援 |
 |---------------------------------------------------------------------|-----------|
 | [著色器模型 4](dx-graphics-hlsl-sm4.md) 和更高的著色器模型 | 是       |
-| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md)           | 不可以        |
-| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md)           | 不可以        |
-| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md)           | 不可以        |
+| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md)           | 否        |
+| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md)           | 否        |
+| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md)           | 否        |
 
 
 

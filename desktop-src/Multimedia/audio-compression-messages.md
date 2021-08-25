@@ -13,12 +13,12 @@ keywords:
 - 音訊壓縮，訊息
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 036c7afc484da4ac822fdc14f46dc4d402ada29c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e4db02e1b9daf34ad993d86d690b29763131a010e5a1cf032e39e97d0e90fc76
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106969670"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119786228"
 ---
 # <a name="audio-compression-messages"></a>音訊壓縮訊息
 
@@ -34,9 +34,9 @@ ms.locfileid: "106969670"
 [音訊壓縮管理員參考](audio-compression-manager-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

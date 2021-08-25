@@ -8,12 +8,12 @@ keywords:
 - AVIMakeCompressedStream 函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 209259f46e25275094dcd1eb5eeddd4f336ee906
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c33ce8d4ec6fd88a7283588d35955432cbe01a4855565928dca83d40afa8b64f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104462184"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119785698"
 ---
 # <a name="creating-temporary-streams"></a>建立暫存資料流程
 
@@ -25,9 +25,9 @@ ms.locfileid: "104462184"
 
 當您完成使用以 **AVIStreamCreate** 或 **AVIMakeCompressedStream** 建立的資料流程時，請使用 [**AVIStreamRelease**](/windows/desktop/api/Vfw/nf-vfw-avistreamrelease) 函數來關閉資料流程。 **AVIStreamRelease** 會釋出暫存資料流程所使用的資源。
 
- 
+ 
 
- 
+ 
 
 
 

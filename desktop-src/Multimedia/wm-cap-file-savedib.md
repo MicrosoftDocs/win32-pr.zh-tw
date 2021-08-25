@@ -3,7 +3,7 @@ title: 'WM_CAP_FILE_SAVEDIB 訊息 (Vfw .h) '
 description: WM \_ CAP \_ file \_ SAVEDIB 訊息會將目前的畫面格複製到 DIB 檔案。 您可以使用 capFileSaveDIB 宏明確地傳送此訊息。
 ms.assetid: bf6d343b-9236-4e68-bbda-2ed6e197a5cb
 keywords:
-- WM_CAP_FILE_SAVEDIB message Windows 多媒體
+- WM_CAP_FILE_SAVEDIB 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2155febfdac1b3f24133df47ce206c8e5ec33d3a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 66d6dd9b8675e1fb8625349afc4b3f86347d71d605407d5c99fbca291ade744d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466869"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119803808"
 ---
 # <a name="wm_cap_file_savedib-message"></a>WM \_ CAP \_ FILE \_ SAVEDIB 訊息
 

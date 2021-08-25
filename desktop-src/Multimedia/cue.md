@@ -3,7 +3,7 @@ title: 提示命令
 description: 提示命令可準備播放或錄製。 數位-影片、VCR 和波形-音訊裝置會辨識此命令。
 ms.assetid: 94fa0d0c-d5c9-4ef1-bb7d-22dfb09a7689
 keywords:
-- 提示命令 Windows 多媒體
+- Windows 多媒體的提示命令
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1dd71f06a71c8aff4752fc31d750a3612564eb8a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d14b9445de1736f563a33e44f1e4524f9c0c280e7e274f6b010b9b45a61714ef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103844411"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119785438"
 ---
 # <a name="cue-command"></a>提示命令
 
@@ -167,7 +167,7 @@ cue mysound input
 
 <dl> <dt>
 
-[Mci](mci.md)
+[MCI](mci.md)
 </dt> <dt>
 
 [MCI 命令字串](mci-command-strings.md)

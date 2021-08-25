@@ -4,16 +4,16 @@ description: IAgentCharacter 準備
 ms.assetid: e016039f-a0b1-4ae9-bff6-7212b02c1ad8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b383bf10330934379990693b75fe2908a432f8d5
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: de29c49960bbfd00a6e0d0e9ff1cb055a01cb930c414708fe9144ff0ff4b75af
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113119873"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119725324"
 ---
 # <a name="iagentcharacterprepare"></a>IAgentCharacter：:P 準備
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 ``` syntax
 HRESULT Prepare(

@@ -7,12 +7,12 @@ keywords:
 - MCIWndPlayTo 宏
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 518fc80588147c4ccbbca619452b714333a8a34d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1853c74cc4115cee72e4253e339f934e73b8d8e7e223f1b91e9992969c4ce3f6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103932187"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119785418"
 ---
 # <a name="defining-playback-scope"></a>定義播放範圍
 
@@ -20,9 +20,9 @@ MCIWnd 提供可讓您定義播放 *範圍* 的宏。 範圍是您想要播放�
 
 此外，您也可以使用 [**MCIWndPlayFromTo**](/windows/desktop/api/Vfw/nf-vfw-mciwndplayfromto) 宏來定義開始和結束位置。 這個宏會移至指定的開始位置並播放，直到到達指定的結束位置或內容結尾為止。
 
- 
+ 
 
- 
+ 
 
 
 

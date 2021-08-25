@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 208b1bbc87c430ca5a58a70fb3c86f9edae762bf
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 52e0e4819e4c78f092ee99c78403ace5d0205037db3096dfe45865c2216d486d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104462589"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119788818"
 ---
 # <a name="mad-function"></a>mad 函式
 
@@ -28,9 +28,9 @@ ms.locfileid: "104462589"
 
 ``` syntax
 numeric mad(
-  in numeric mvalue,
-  in numeric avalue,
-  in numeric bvalue
+  in numeric mvalue,
+  in numeric avalue,
+  in numeric bvalue
 );
 ```
 
@@ -85,19 +85,19 @@ numeric mad(
 
 
 
- 
+ 
 
 下列著色器類型支援此函數：
 
 
 
-| 頂點 | 船體 | 網域 | 幾何 | 像素 | 計算 |
+| 頂點 | 船體 | 網域 | 幾何形狀 | 像素 | 計算 |
 |--------|------|--------|----------|-------|---------|
 | x      | x    | x      | x        | x     | x       |
 
 
 
- 
+ 
 
 著色器作者可以使用 **mad** 內部，在編譯的著色器輸出中明確地以 **mad** 硬體指令作為目標，這在使用 [精確](dx-graphics-hlsl-appendix-keywords.md) 關鍵字標記結果的著色器中特別有用。 您可以在硬體中將 **mad** 指令實作為「融合的」，這可提供比起執行 **mul** 指令的精確度更高的精確度，並在後面加上「**新增** 指令」或 **mul**  +  **加入**。
 
@@ -113,9 +113,9 @@ numeric mad(
 [著色器模型5](d3d11-graphics-reference-sm5.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -19,12 +19,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 507c4211b9506e0635966e9541167d24495735ef
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3f095272ee0d836e77542e20badbe5bb1169206cc6b0e87d742e3fbd235acd52
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104509376"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119656178"
 ---
 # <a name="win32_sessionbrokerserviceproperties-class"></a>Win32 \_ SessionBrokerServiceProperties 類別
 
@@ -59,12 +59,12 @@ class Win32_SessionBrokerServiceProperties
 
 | 方法                                                                                                | 描述                                                                                                                                                                                                                          |
 |:------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**DeleteSBDbConnectionString**](win32-sessionbrokerserviceproperties-deletesbdbconnectionstring.md) | 從登錄中刪除主要和次要)  (的資料庫連接字串。<br/> **Windows server 2012 r2、Windows server 2012 和 Windows server 2008 R2：** 在 Windows Server 2016 之前無法使用此方法<br/> |
+| [**DeleteSBDbConnectionString**](win32-sessionbrokerserviceproperties-deletesbdbconnectionstring.md) | 從登錄中刪除主要和次要)  (的資料庫連接字串。<br/> **Windows Server 2012 R2、Windows Server 2012 和 Windows Server 2008 R2：** 在 Windows Server 2016 之前，無法使用此方法<br/> |
 | [**InstallBrokerDatabase**](win32-sessionbrokerserviceproperties-installbrokerdatabase.md)           | 在中央 SQL Server 上安裝 RD 連線代理人 DB<br/>                                                                                                                                                                    |
 | [**IsDbReachable**](win32-sessionbrokerserviceproperties-isdbreachable.md)                           | 檢查資料庫是否可連線<br/>                                                                                                                                                                                                 |
 | [**SetBrokerHAMode**](win32-sessionbrokerserviceproperties-setbrokerhamode.md)                       | 將資料從本機 WID 資料庫移轉至新的 SQL Server 資料庫。 它也會將訊息代理程式伺服器設定為使用中央 SQL Server<br/>                                                                                        |
 | [**SetBrokerNonHAMode**](win32-sessionbrokerserviceproperties-setbrokernonhamode.md)                 | 將資料從中央 SQL Server 遷移至本機 DB。 它也會將訊息代理程式伺服器設定為使用本機資料庫。<br/>                                                                                                              |
-| [**SetSBDbConnectionStrings**](win32-sessionbrokerserviceproperties-setsbdbconnectionstrings.md)     | 將資料庫連接字串儲存 (主要和次要) 登錄中。<br/> **Windows server 2012 r2、Windows server 2012 和 Windows server 2008 R2：** 在 Windows Server 2016 之前無法使用此方法<br/>     |
+| [**SetSBDbConnectionStrings**](win32-sessionbrokerserviceproperties-setsbdbconnectionstrings.md)     | 將資料庫連接字串儲存 (主要和次要) 登錄中。<br/> **Windows Server 2012 R2、Windows Server 2012 和 Windows Server 2008 R2：** 在 Windows Server 2016 之前，無法使用此方法<br/>     |
 
 
 
@@ -87,7 +87,7 @@ class Win32_SessionBrokerServiceProperties
 
 Session Broker 服務所使用的資料庫連接字串。
 
-**Windows Server 2008 R2：** 此屬性在 Windows Server 2012 之前無法使用
+**Windows Server 2008 R2：** 在 Windows Server 2012 之前，無法使用此屬性
 
 </dd> <dt>
 
@@ -102,7 +102,7 @@ Session Broker 服務所使用的資料庫連接字串。
 
 選擇性。 Session Broker 服務用來支援密碼到期的次要資料庫連接字串。
 
-**Windows server 2012 r2、Windows server 2012 和 Windows server 2008 R2：** 此屬性在 Windows Server 2016 之前無法使用
+**Windows Server 2012 R2、Windows Server 2012 和 Windows Server 2008 R2：** 在 Windows Server 2016 之前，無法使用此屬性
 
 </dd> <dt>
 

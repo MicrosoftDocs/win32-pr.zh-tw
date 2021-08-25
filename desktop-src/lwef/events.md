@@ -4,16 +4,16 @@ description: IAgentNotifySink
 ms.assetid: vs|msagent|~\paface_2xet.htm
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cb2ccfd4acf4a64c229379aeea5847fbe044b7d5
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: b43a092ddd9c50ff7aacb0254c4773a43005759ab23b6682aaf6484d5aef4839
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104023398"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119725778"
 ---
 # <a name="iagentnotifysink"></a>IAgentNotifySink
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 IAgentNotifySink 會在發生特定狀態變更時通知用戶端。 這些函數也可從 [IAgentNotifySinkEx](iagentnotifysinkex.md)取得。
 
@@ -21,7 +21,7 @@ IAgentNotifySink 會在發生特定狀態變更時通知用戶端。 這些函�
 
 
 
-| IAgentNotifySink                                                      | Description                                                                              |
+| IAgentNotifySink                                                      | 描述                                                                              |
 |-----------------------------------------------------------------------|------------------------------------------------------------------------------------------|
 | [**命令**](command-method.md)                                     | 當伺服器處理用戶端定義的命令時發生。                               |
 | [**ActivateInputState**](iagentnotifysink--activateinputstate.md)    | 當字元變成或停止輸入-主動時發生。                            |
@@ -40,10 +40,10 @@ IAgentNotifySink 會在發生特定狀態變更時通知用戶端。 這些函�
 
 
 
- 
+ 
 
 舊版 Microsoft Agent 支援的 IAgentNotifySink：： Restart 和 IAgentNotifySink：： Shutdown 事件現在已過時。 雖然支援回溯相容性，但伺服器不會再傳送這些事件。
 
- 
+ 
 
- 
+ 

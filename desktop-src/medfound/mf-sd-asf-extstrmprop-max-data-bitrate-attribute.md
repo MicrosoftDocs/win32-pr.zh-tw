@@ -4,12 +4,12 @@ ms.assetid: d20d374a-a259-4e89-8eeb-942bbe53e959
 title: 'MF_SD_ASF_EXTSTRMPROP_MAX_DATA_BITRATE 屬性 (Wmcontainer) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 85626be11afe2e9413852e8aec3533f987538473
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: daa9bb445724c15604ab30e353315769f78a71c0d6dd94291392e4c34ee05a70
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980492"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119714358"
 ---
 # <a name="mf_sd_asf_extstrmprop_max_data_bitrate-attribute"></a>MF \_ SD \_ ASF \_ EXTSTRMPROP \_ MAX \_ DATA \_ 位元速率屬性
 
@@ -31,8 +31,8 @@ ms.locfileid: "106980492"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                     |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                     |
 | 標頭<br/>                   | <dl> <dt>Wmcontainer。h</dt> </dl> |
 
 

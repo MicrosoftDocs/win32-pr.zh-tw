@@ -24,12 +24,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d7f1cf6aab1c4497ce85cb93318c9ca79368853
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 92fcd6cb93e3ac7abaa5fef33e1557008eb29b46940fae6d5165809d9252fa16
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103685708"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119769968"
 ---
 # <a name="win32_sessionbrokertargetevent-class"></a>Win32 \_ SessionBrokerTargetEvent 類別
 

@@ -4,12 +4,12 @@ ms.assetid: 8a0d06bb-51ba-4eaf-8719-120aed817f63
 title: 'LINEAGENTSESSIONSTATE_ 的常數 (Tapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bdfd1be8cf846d0e23828f0a3540960a86a83ef1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 702c9820fb6c2157a386241b13ea0593c4156195bc74bcfa7655c76db171083d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106981628"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119682198"
 ---
 # <a name="lineagentsessionstate_-constants"></a>LINEAGENTSESSIONSTATE \_ 常數
 

@@ -14,12 +14,12 @@ keywords:
 - RIFF 區塊
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9b45b2182e44ac84423c29a79fe29e96820d5bf2
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: acbb09c7777cf675ceb0f11ae84fb50a3b9deaa73910ca9e15280c3fb88c42cd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104375324"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119782088"
 ---
 # <a name="searching-for-a-riff-chunk"></a>搜尋 RIFF 區塊
 
@@ -46,6 +46,6 @@ else
 
 
 
- 
+ 
 
- 
+ 

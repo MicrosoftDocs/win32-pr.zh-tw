@@ -4,12 +4,12 @@ description: 'AxWindowsMediaPlayer 物件 (VB 和 C \ ) '
 ms.assetid: d7eeac20-1afa-4e73-9af6-9772fbb65516
 keywords:
 - Windows Media Player，AxWindowsMediaPlayer 物件
-- Windows Media Player Mobile，AxWindowsMediaPlayer 物件
+- Windows Media PlayerMobile、AxWindowsMediaPlayer 物件
 - Windows Media Player 物件模型，AxWindowsMediaPlayer 物件
 - 物件模型，AxWindowsMediaPlayer 物件
-- ActiveX 控制項，AxWindowsMediaPlayer 物件
-- Windows Media Player ActiveX 控制項，AxWindowsMediaPlayer 物件
-- Windows Media Player 行動 ActiveX 控制項，AxWindowsMediaPlayer 物件
+- ActiveX control、AxWindowsMediaPlayer 物件
+- Windows Media Player ActiveX control、AxWindowsMediaPlayer 物件
+- Windows Media PlayerMobile ActiveX control、AxWindowsMediaPlayer 物件
 - 物件模型的參考，AxWindowsMediaPlayer 物件
 - AxWindowsMediaPlayer 物件
 ms.topic: article
@@ -19,12 +19,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 32f814560c8b6eb13dc5abb8736378432ec4565e
-ms.sourcegitcommit: c2a1c4314550ea9bd202d28adfcc7bfe6180932f
+ms.openlocfilehash: 1d0c66360e80ea293795442472ce163292c38152baa859889086a5687f03764f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "104462796"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119765278"
 ---
 # <a name="axwindowsmediaplayer-object-vb-and-c"></a>AxWindowsMediaPlayer 物件 (VB 和 c # ) 
 
@@ -49,7 +49,7 @@ AxWindowsMediaPlayer 物件支援下列屬性。
 | [isOnline](axwmplib-axwindowsmediaplayer-isonline--vb-and-c.md)                     | 取得值，指出使用者是否已連接到網路。                                                                |
 | isRemote                                                                             | 不支援 .NET 程式設計。                                                                                                |
 | [mediaCollection](axwmplib-axwindowsmediaplayer-mediacollection--vb-and-c.md)       | 取得 IWMPMediaCollection 介面。                                                                                             |
-| [network](axwmplib-axwindowsmediaplayer-network--vb-and-c.md)                       | 取得 IWMPNetwork 介面。                                                                                                     |
+| [網路](axwmplib-axwindowsmediaplayer-network--vb-and-c.md)                       | 取得 IWMPNetwork 介面。                                                                                                     |
 | [openState](axwmplib-axwindowsmediaplayer-openstate--vb-and-c.md)                   | 取得值，指出內容來源的狀態。                                                                           |
 | playerApplication                                                                    | 不支援 .NET 程式設計。                                                                                                |
 | [playlistCollection](axwmplib-axwindowsmediaplayer-playlistcollection--vb-and-c.md) | 取得 IWMPPlaylistCollection 介面。                                                                                          |
@@ -64,7 +64,7 @@ AxWindowsMediaPlayer 物件支援下列屬性。
 
 
 
- 
+ 
 
 AxWindowsMediaPlayer 物件支援下列方法。
 
@@ -80,7 +80,7 @@ AxWindowsMediaPlayer 物件支援下列方法。
 
 
 
- 
+ 
 
 AxWindowsMediaPlayer 物件支援下列事件。
 
@@ -153,13 +153,13 @@ AxWindowsMediaPlayer 物件支援下列事件。
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
 <dl> <dt>
 
-[**適用于 Visual Basic .NET 和 C 的介面#**](interfaces-for-visual-basic--net-and-c.md)
+[**適用于 Visual Basic .net 和 C 的介面#**](interfaces-for-visual-basic--net-and-c.md)
 </dt> <dt>
 
 [**IWMPCdromCollection 介面 (VB 和 c # )**](iwmpcdromcollection--vb-and-c.md)
@@ -195,7 +195,7 @@ AxWindowsMediaPlayer 物件支援下列事件。
 [**IWMPSettings 介面 (VB 和 c # )**](iwmpsettings--vb-and-c.md)
 </dt> <dt>
 
-[**Visual Basic .NET 和 C 的物件模型參考#**](object-model-reference-for-visual-basic--net-and-c.md)
+[**Visual Basic .net 和 C 的物件模型參考#**](object-model-reference-for-visual-basic--net-and-c.md)
 </dt> <dt>
 
 [**WMPOpenState**](/previous-versions/windows/desktop/api/wmp/ne-wmp-wmpopenstate)
@@ -204,9 +204,9 @@ AxWindowsMediaPlayer 物件支援下列事件。
 [**WMPPlayState**](/previous-versions/windows/desktop/api/wmp/ne-wmp-wmpplaystate)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

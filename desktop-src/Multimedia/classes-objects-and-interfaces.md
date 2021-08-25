@@ -4,12 +4,12 @@ description: 類別、物件和介面
 ms.assetid: 52e48402-32d5-46b0-8eb9-46432e59e36a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d4892a805c87122ff7fb6db80feb52a7dcd7625
-ms.sourcegitcommit: 52d79b29f3b9933c8bef43207ff80c668a81cb73
+ms.openlocfilehash: 54008f316103a8a113e6702e4a4b1192bc0576f5a61fb28b38dbe2502bae881b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "104463905"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119786178"
 ---
 # <a name="classes-objects-and-interfaces"></a>類別、物件和介面
 
@@ -17,9 +17,9 @@ ms.locfileid: "104463905"
 
 在 OLE 中，物件是由資料和方法所組成，就像在 c + + 中一樣。 不過，OLE 物件會遵守更嚴格的規則。 資料完全是內部的。 物件只會公開介面。 *介面* 是一組物件的相關方法。 每個物件都可以支援多個介面。 所有 OLE 介面都支援 [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown) 介面。
 
- 
+ 
 
- 
+ 
 
 
 

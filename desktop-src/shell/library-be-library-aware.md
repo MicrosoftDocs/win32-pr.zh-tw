@@ -4,12 +4,12 @@ ms.assetid: 40ACC8F6-1416-4390-A8D7-8F924DC2C2FE
 title: 在您的程式中使用程式庫
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2812a66b148d9bd16fc3951efab64a4d37afaaff
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1b2c76c4ce8bf9114d7294b257c03bcc62adecc947a3d7e651d6f94fa8876d4a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104321119"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119821108"
 ---
 # <a name="using-libraries-in-your-program"></a>在您的程式中使用程式庫
 
@@ -36,15 +36,15 @@ ms.locfileid: "104321119"
 
 ## <a name="library-programming-overview"></a>程式庫程式設計總覽
 
-程式庫可讓使用者以有意義的方式組織其檔案內容，而不受檔案系統組織的限制。 當您的程式支援程式庫時，它會讓使用者以對他們而言有意義的方式來尋找其內容，同時呈現與 Windows 7 使用者體驗一致的使用者介面。 程式庫也可讓您的程式更容易找到儲存在不同資料夾或不同電腦上的檔案型內容。
+程式庫可讓使用者以有意義的方式組織其檔案內容，而不受檔案系統組織的限制。 當您的程式支援程式庫時，可讓使用者以對他們有意義的方式來尋找其內容，同時呈現與 Windows 7 使用者體驗一致的使用者介面。 程式庫也可讓您的程式更容易找到儲存在不同資料夾或不同電腦上的檔案型內容。
 
-本節中的主題描述如何將程式庫支援新增至您的程式，並利用程式庫所提供的新功能。 根據預設，Windows 7 會提供這項支援。 如果您的程式不會修改目前使用的一般檔案對話方塊，則可能需要極少的額外程式設計來支援程式庫。
+本節中的主題描述如何將程式庫支援新增至您的程式，並利用程式庫所提供的新功能。 Windows 7 預設會提供這項支援。 如果您的程式不會修改目前使用的一般檔案對話方塊，則可能需要極少的額外程式設計來支援程式庫。
 
-本節說明程式庫所提供的一些主要功能，以及如何在您的程式中支援這些功能。 透過這種資訊，您可以決定哪些功能會從您的程式提供最佳的使用者體驗。 如果您的程式自訂 [一般檔案] 對話方塊，本節中的資訊可協助您決定如何使用新的 [一般檔案] 對話方塊來使用程式庫，並在 Windows 7 中提供對等功能。
+本節說明程式庫所提供的一些主要功能，以及如何在您的程式中支援這些功能。 透過這種資訊，您可以決定哪些功能會從您的程式提供最佳的使用者體驗。 如果您的程式自訂 [一般檔案] 對話方塊，本節中的資訊可協助您決定如何使用新的 [一般檔案] 對話方塊，在 Windows 7 中使用程式庫並提供對等功能。
 
 ## <a name="programming-with-libraries"></a>使用程式庫進行程式設計
 
-Windows Shell 程式設計模型描述程式如何與 Windows Shell 程式設計物件互動。 雖然檔案系統物件（例如檔案和目錄）是由 Windows Shell 物件表示，但並非所有的 Windows Shell 物件都是以檔案系統表示。 例如，程式庫是沒有對等檔案系統的 Windows Shell 物件。 在程式中使用 Windows Shell 物件，可讓您的程式存取所有 Shell 物件，而不只是檔案系統物件。
+Windows shell 程式設計模型會描述程式如何與 Windows Shell 程式設計物件互動。 雖然檔案系統物件（例如檔案和目錄）是由 Windows Shell 物件表示，但並非所有 Windows Shell 物件都是以檔案系統表示。 例如，程式庫是 Windows Shell 物件，這些物件沒有對等檔案系統。 在程式中使用 Windows shell 物件，可讓您的程式存取所有 Shell 物件，而不只是檔案系統物件。
 
 為了獲得最佳結果，您的程式會使用 [**Shell 程式庫 API**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllibrary) 來與程式庫互動並存取其內容。 程式庫包含資料夾和檔案等檔案系統專案時，程式庫不是檔案系統專案。 因此，不能使用檔案系統 Api 來存取程式庫功能或程式庫內容。
 
@@ -52,11 +52,11 @@ Windows Shell 程式設計模型描述程式如何與 Windows Shell 程式設計
 
 ### <a name="moving-from-known-folders-to-libraries"></a>從已知資料夾移至程式庫
 
-在 Windows 7 之前，通常會使用已知資料夾（例如我的檔資料夾）作為 [檔案儲存] 或 [檔案開啟] 作業中的預設資料夾。 在 Windows 7 中，應該使用對應的程式庫，如此一來，使用者就會在您的程式中與其他 Windows 7 程式（例如 Windows 檔案總管）擁有相同的體驗。
+Windows 7 之前，通常會使用已知的資料夾（例如我的檔資料夾）作為 [檔案儲存] 或 [檔案開啟] 作業中的預設資料夾。 在 Windows 7 中，應該使用對應的程式庫，如此一來，使用者就會在您的程式中擁有與其他 Windows 7 程式（例如 Windows 檔案總管）相同的體驗。
 
 如果您目前在程式中使用 Windows Shell API，新增程式庫支援很簡單。 例如，如果您目前呼叫 [**SHGetKnownFolderItem**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetknownfolderitem) 函式以取得我的檔資料夾的位置，則可以將我的檔已知資料夾的 [**KNOWNFOLDERID**](knownfolderid.md) 值取代為對應程式庫的 **KNOWNFOLDERID** 值。
 
-下表顯示已知資料夾的 [**KNOWNFOLDERID**](knownfolderid.md) 值與 Windows 7 中對應程式庫的 **KNOWNFOLDERID** 值之間的關聯性。 
+下表顯示已知資料夾的 [**KNOWNFOLDERID**](knownfolderid.md)值與 Windows 7 中對應程式庫的 **KNOWNFOLDERID** 值之間的關聯性。 
 
 | 已知的資料夾 KNOWNFOLDERID 值 | 程式庫 KNOWNFOLDERID 值 |
 |-----------------------------------|------------------------------|
@@ -75,21 +75,21 @@ Windows Shell 程式設計模型描述程式如何與 Windows Shell 程式設計
 
 ## <a name="using-a-common-file-dialog-box-with-libraries"></a>使用具有程式庫的通用檔案對話方塊
 
-使用具有文件庫的通用檔案對話方塊已更新 [一般檔案] 對話方塊，以支援 Windows 7 中的程式庫。 下圖顯示 [一般檔案] 對話方塊如何出現在 Windows 7 中的使用者。
+使用具有程式庫的通用檔案對話方塊已更新 [一般檔案] 對話方塊，以支援 Windows 7 中的程式庫。 下圖顯示 [一般檔案] 對話方塊在 Windows 7 中如何顯示給使用者。
 
 ![顯示文件庫的 [一般檔案] 對話方塊的螢幕擷取畫面](images/libraries-commonfiledialog.png)
 
 在 Windows 7 中，如果您的程式目前顯示 [一般檔案] 對話方塊，而且沒有變更對話方塊範本或連結任何事件，它會自動顯示新的 Windows 7 版本的對話方塊。 具體來說，在呼叫一般檔案對話方塊函式時， [**OPENFILENAME**](/windows/win32/api/commdlg/ns-commdlg-openfilenamea)結構的 **lpfnHook**、 **hInstance**、 **lpTemplatename** 成員都必須是 **Null** ，而且 **OFN \_ ENABLEHOOK** 和 **OFN \_ ENABLETEMPLATE** 旗標必須是純文字。
 
-在 Windows 7 中， [**IFileDialog**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ifiledialog)相關的介面會取代舊版 Windows 中使用的通用檔案對話方塊功能。 Windows 7 仍支援舊版的一般檔案對話方塊功能，但它們並不提供完整的 Windows 7 使用者體驗，也不支援程式庫。 **IFileDialog** 相關介面支援的一些新功能包括：
+在 Windows 7 中， [**IFileDialog**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ifiledialog)相關的介面會取代舊版 Windows 中所使用的通用檔案對話方塊函式。 Windows 7 仍支援舊版的一般檔案對話方塊函式，但它們並不提供完整的 Windows 7 使用者體驗，也不支援程式庫。 **IFileDialog** 相關介面支援的一些新功能包括：
 
--   使用者可以存取 Windows 7 Windows 檔案總管所支援的檔案屬性來搜尋和選取檔案。
+-   使用者可以存取 Windows 7 Windows 檔案總管所支援的檔案屬性，以搜尋並選取檔案。
 -   程式可以使用 Shell 命名空間 API 中的介面和方法來處理專案。
 -   此程式可以使用資料驅動自訂模型（而不是資源檔案驅動的自訂模型），將新的控制項加入至 [一般檔案] 對話方塊。
 
 當下列情況時，您應該使用 [**IFileDialog**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ifiledialog)相關的介面：
 
--   您需要在 Windows 7 中為程式自訂 [一般檔案] 對話方塊。 這可讓您的程式使用程式庫，並支援自訂對話方塊。
+-   您必須在 Windows 7 中為程式自訂 [一般檔案] 對話方塊。 這可讓您的程式使用程式庫，並支援自訂對話方塊。
 -   您希望使用者能夠從 [一般檔案] 對話方塊中選取多個檔案。 這可確保您取得所選物件的正確路徑，因為程式庫可以有儲存在不同資料夾中的內容。
 
 如需有關 [**IFileDialog**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ifiledialog)相關介面的詳細資訊，請參閱：
@@ -103,7 +103,7 @@ Windows Shell 程式設計模型描述程式如何與 Windows Shell 程式設計
 
 ## <a name="enabling-library-selection-from-the-user-interface"></a>從使用者介面啟用程式庫選擇
 
-如果您的程式允許使用者在 Windows 7 中選取資料夾，例如匯入或匯出功能，它應該也會允許使用者選取媒體櫃。 當系統提示您選取資料夾時， [**IFileOpenDialog**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ifileopendialog) 介面和 [**SHBrowseForFolder**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shbrowseforfoldera) 函數可讓使用者選取程式庫。 **IFileOpenDialog** 介面優先于 **SHBrowseForFolder** 函數，因為 **IFileOpenDialog** 支援 Windows 7 使用者介面。
+如果您的程式允許使用者選取資料夾，例如匯入或匯出功能，則在 Windows 7 中，它應該也會允許使用者選取媒體櫃。 當系統提示您選取資料夾時， [**IFileOpenDialog**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ifileopendialog) 介面和 [**SHBrowseForFolder**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shbrowseforfoldera) 函數可讓使用者選取程式庫。 **IFileOpenDialog** 介面優先于 **SHBrowseForFolder** 函數，因為 **IFileOpenDialog** 支援 Windows 7 使用者介面。
 
 若要允許使用者在使用 [**IFileOpenDialog**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ifileopendialog) 介面時選取資料夾，請呼叫 >setoptions \_ 並設定 fos PICKFOLDERS 旗標，並確定 \_ 已清除 [fos FORCEFILESYSTEM] 旗標。
 
@@ -162,9 +162,9 @@ hr = pslLibrary->GetFolders(LFF_FORCEFILESYSTEM, IID_PPV_ARGS(&pictureFolders));
 
 ### <a name="accessing-library-content-with-the-shell-apis"></a>使用 Shell Api 存取程式庫內容
 
-由於程式庫物件是 Shell 程式設計模型的一部分，因此可以與其他 Windows Shell Api 搭配使用。 例如，您可以在程式中使用 [**IShellItem**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem) 和 [**IShellFolder**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ishellfolder) 介面，以及相關的協助程式函式來存取程式庫的內容，方式就如同使用檔案系統 api 來列舉資料夾和資料夾內容以存取內容一樣。
+由於程式庫物件是 shell 程式設計模型的一部分，因此可以與其他 Windows shell api 搭配使用。 例如，您可以在程式中使用 [**IShellItem**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem) 和 [**IShellFolder**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ishellfolder) 介面，以及相關的協助程式函式來存取程式庫的內容，方式就如同使用檔案系統 api 來列舉資料夾和資料夾內容以存取內容一樣。
 
-Windows Shell Api 支援兩種列舉模式來存取程式庫的內容：
+Windows Shell api 支援兩種列舉模式來存取程式庫的內容：
 
 -   **流覽列舉**
 
@@ -174,7 +174,7 @@ Windows Shell Api 支援兩種列舉模式來存取程式庫的內容：
 
     導覽列舉會列舉程式庫資料夾。 將 SHCONTF \_ 導覽 \_ 列舉旗標設定為使用這個模式。
 
-如果您的程式使用自訂的樹狀目錄控制項來流覽使用者的資料夾，則在導覽列舉模式中列舉資料夾會提供程式庫資料夾的清單，與 Windows 檔案總管在 Windows 7 中列舉資料夾的方式一致。
+如果您的程式使用自訂的樹狀目錄控制項來流覽使用者的資料夾，則在導覽列舉模式中列舉資料夾會提供程式庫資料夾的清單，這些資料夾與 Windows 檔案總管在 Windows 7 中列舉資料夾的方式一致。
 
 如需如何在程式中使用這些功能的範例，請參閱 Windows SDK 中的 ShellStorage 範例。
 
@@ -216,9 +216,9 @@ Windows Shell Api 支援兩種列舉模式來存取程式庫的內容：
 
 ### <a name="shell-api-notification"></a>Shell API 通知
 
-Windows Shell API 提供 [**SHChangeNotifyRegister**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shchangenotifyregister) 函式，這是當非服務進程在程式庫中收到變更時的慣用方式。
+Windows Shell API 提供 [**SHChangeNotifyRegister**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shchangenotifyregister)函式，這是在非服務進程收到程式庫變更通知的慣用方式。
 
-若要使用 Windows Shell API 來偵測程式庫中專案的變更，請呼叫 [**SHChangeNotifyRegister**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shchangenotifyregister) 註冊您的程式，以取得程式庫資料夾中專案變更的通知。 如果任何程式庫或只是在特定的媒體櫃中有變更，此函式就會通知您的程式。 當程式庫變更時，會立即傳送通知。
+若要使用 Windows Shell API 來偵測程式庫中專案的變更，請呼叫 [**SHChangeNotifyRegister**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shchangenotifyregister)註冊您的程式，以取得程式庫資料夾中專案變更的通知。 如果任何程式庫或只是在特定的媒體櫃中有變更，此函式就會通知您的程式。 當程式庫變更時，會立即傳送通知。
 
 ### <a name="file-system-api-notification"></a>檔案系統 API 通知
 

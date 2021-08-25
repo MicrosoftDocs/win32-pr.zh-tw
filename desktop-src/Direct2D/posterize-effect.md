@@ -4,12 +4,12 @@ description: 分離項效果會減少影像中的唯一色彩數目。
 ms.assetid: e6686998-1246-b3b7-6f4f-212568c3191c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2c98c55154300f7b29c23c24e97570335c6e930f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 21372ee43935441168609cc81ef053ac96fd3fdbbd7cd3c16578f13d1a47fda1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104025269"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119636100"
 ---
 # <a name="posterize-effect"></a>色調影響
 
@@ -58,8 +58,8 @@ m_d2dContext->EndDraw();
 
 | 需求 | 值 |
 |--------------------------|---------------------------------------------------|
-| 最低支援的用戶端 | Windows 10 \[ 桌面應用程式 \| Windows Store 應用程式\] |
-| 最低支援的伺服器 | Windows 10 \[ 桌面應用程式 \| Windows Store 應用程式\] |
+| 最低支援的用戶端 | Windows 10 \[桌面應用程式 \| Windows 儲存應用程式\] |
+| 最低支援的伺服器 | Windows 10 \[桌面應用程式 \| Windows 儲存應用程式\] |
 | 標頭                   | d2d1effects \_ 2。h                                  |
 | 程式庫                  | d2d1 .lib，dxguid .lib                              |
 

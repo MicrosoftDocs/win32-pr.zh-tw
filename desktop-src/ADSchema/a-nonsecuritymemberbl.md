@@ -1,6 +1,6 @@
 ---
 title: 非安全性成員 BL 屬性
-description: 非安全性-Exchange 通訊群組清單的成員清單。
+description: Exchange 通訊群組清單的非安全性成員清單。
 ms.assetid: 6f5044f5-3cab-4b92-9055-2d431efdd0f0
 ms.tgt_platform: multiple
 keywords:
@@ -14,16 +14,16 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c2478b887e25bcdcb2ecfcb6b13b06feb50994fa
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 81b663f0f1acb546a4fbfac4fc90660ca1299fdb8e28c4d4ef7eef96e60a9bbb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104467260"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119703118"
 ---
 # <a name="non-security-member-bl-attribute"></a>非安全性成員 BL 屬性
 
-非安全性-Exchange 通訊群組清單的成員清單。
+Exchange 通訊群組清單的非安全性成員清單。
 
 
 
@@ -57,7 +57,7 @@ ms.locfileid: "104467260"
 |------------------------|---------------------------------|
 | 連結識別碼                | 51                              |
 | MAPI-Id                | \-                              |
-| System-Only            | 對                            |
+| System-Only            | 是                            |
 | 是-單一值       | 否                           |
 | 已編制索引             | 否                           |
 | 在通用類別目錄中      | 否                           |
@@ -78,7 +78,7 @@ ms.locfileid: "104467260"
 |------------------------|---------------------------------|
 | 連結識別碼                | 51                              |
 | MAPI-Id                | \-                              |
-| System-Only            | 對                            |
+| System-Only            | 是                            |
 | 是-單一值       | 否                           |
 | 已編制索引             | 否                           |
 | 在通用類別目錄中      | 否                           |
@@ -99,7 +99,7 @@ ms.locfileid: "104467260"
 |------------------------|---------------------------------|
 | 連結識別碼                | 51                              |
 | MAPI-Id                | \-                              |
-| System-Only            | 對                            |
+| System-Only            | 是                            |
 | 是-單一值       | 否                           |
 | 已編制索引             | 否                           |
 | 在通用類別目錄中      | 否                           |
@@ -120,7 +120,7 @@ ms.locfileid: "104467260"
 |------------------------|---------------------------------|
 | 連結識別碼                | 51                              |
 | MAPI-Id                | \-                              |
-| System-Only            | 對                            |
+| System-Only            | 是                            |
 | 是-單一值       | 否                           |
 | 已編制索引             | 否                           |
 | 在通用類別目錄中      | 否                           |
@@ -141,7 +141,7 @@ ms.locfileid: "104467260"
 |------------------------|---------------------------------|
 | 連結識別碼                | 51                              |
 | MAPI-Id                | \-                              |
-| System-Only            | 對                            |
+| System-Only            | 是                            |
 | 是-單一值       | 否                           |
 | 已編制索引             | 否                           |
 | 在通用類別目錄中      | 否                           |
@@ -162,7 +162,7 @@ ms.locfileid: "104467260"
 |------------------------|---------------------------------|
 | 連結識別碼                | 51                              |
 | MAPI-Id                | \-                              |
-| System-Only            | 對                            |
+| System-Only            | 是                            |
 | 是-單一值       | 否                           |
 | 已編制索引             | 否                           |
 | 在通用類別目錄中      | 否                           |

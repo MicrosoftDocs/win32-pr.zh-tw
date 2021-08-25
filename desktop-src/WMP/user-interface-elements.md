@@ -3,17 +3,17 @@ title: 使用者介面項目
 description: 使用者介面項目
 ms.assetid: cb2876fb-632e-4c3d-8a6e-f7c8c4878c3f
 keywords:
-- Windows Media Player 行動外觀、使用者介面
-- Windows Media Player 行動外觀、元素
+- Windows Media Player行動外觀，使用者介面
+- Windows Media Player行動外觀、元素
 - 元素，Windows Media Player 行動面板
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 91819831d80235dd7f7c41cfcf98965c9fd61c35
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3a988598fede22fe041b102848855f21947501902b98f163c61ec6d9a00a79af
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104020941"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119762178"
 ---
 # <a name="user-interface-elements"></a>使用者介面項目
 
@@ -39,7 +39,7 @@ ms.locfileid: "104020941"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -48,9 +48,9 @@ ms.locfileid: "104020941"
 [**關於外觀**](about-skins-mobile.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 8590fc59-d7ad-4149-9a77-242037a11188
 title: 視窗座標系統
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c69c5faa7359700af8a3bb04413fa9b25648b0cc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f5c5492aaa02e1b2b2ace7e0cb02a65caa1faad320eca11414707145066308e8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103692592"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119717868"
 ---
 # <a name="window-coordinate-system"></a>視窗座標系統
 

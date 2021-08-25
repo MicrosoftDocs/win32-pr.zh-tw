@@ -23,12 +23,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: a8849ba149e0de570150682d3afbad3a4ee33f36
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 1f5c6a7feda436129e910b4db21cd3b7457f5a3d6a737e6a99b1c43244659495
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111213"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119699798"
 ---
 # <a name="win32_group-class"></a>Win32 \_ 群組類別
 
@@ -129,7 +129,7 @@ class Win32_Group : Win32_Account
 限定詞：覆 [**寫**](/windows/desktop/WmiSdk/standard-qualifiers) ( "Domain" ) ， [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ( "Win32API \| Network Management 函數 \| domainname" ) 
 </dt> </dl>
 
-群組帳戶所屬之 Windows 網域的名稱。
+群組帳戶所屬 Windows 網域的名稱。
 
 範例： "NA-SALES"
 
@@ -183,7 +183,7 @@ class Win32_Group : Win32_Account
 限定詞：覆 [**寫**](/windows/desktop/WmiSdk/standard-qualifiers) ( "Name" ) ， [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ( "Win32API \| Network Management 結構 \| 名稱" ) 
 </dt> </dl>
 
-此類別的 **domain** 屬性所指定之網域上的 Windows 群組帳戶名稱。
+此類別的 **domain** 屬性所指定之網域上的 Windows 群組帳戶的名稱。
 
 </dd> <dt>
 
@@ -199,7 +199,7 @@ class Win32_Group : Win32_Account
 限定詞： [**Fixed**](/windows/desktop/WmiSdk/standard-wmi-qualifiers)， [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ( "Win32API \| Security 識別碼 (sid) " ) 
 </dt> </dl>
 
-此帳戶 (SID) 的安全識別碼。 SID 是變數長度的字串值，用來識別信任者。 每個帳戶都有一個由授權單位所發行的唯一 SID (例如儲存在安全性資料庫中的 Windows 網域) 。 當使用者登入時，系統會從資料庫抓取使用者的 SID，並將其放在使用者的存取權杖中。 系統會在使用者的存取權杖中使用 SID，以在所有後續與 Windows 安全性的互動中識別使用者。 使用 SID 做為使用者或群組的唯一識別碼時，無法再次使用它來識別另一個使用者或群組。
+此帳戶 (SID) 的安全識別碼。 SID 是變數長度的字串值，用來識別信任者。 每個帳戶都有一個由授權單位所發行的唯一 SID (例如儲存在安全性資料庫中的 Windows 網域) 。 當使用者登入時，系統會從資料庫抓取使用者的 SID，並將其放在使用者的存取權杖中。 系統會在使用者的存取權杖中使用 SID，以在後續與 Windows 安全性的互動中識別使用者。 使用 SID 做為使用者或群組的唯一識別碼時，無法再次使用它來識別另一個使用者或群組。
 
 這個屬性是從 [**Win32 \_ 帳戶**](win32-account.md)繼承而來的。
 

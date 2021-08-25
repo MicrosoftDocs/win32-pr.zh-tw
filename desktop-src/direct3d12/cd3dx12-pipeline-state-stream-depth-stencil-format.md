@@ -15,12 +15,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8dc7ae2703ac80ac155c04d42624a081723288bf
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 9658f1df1fbe316fa9f308b9f8e0589f0f93858916c6dbde4607fd11a6f0707f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106995895"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119751948"
 ---
 # <a name="cd3dx12_pipeline_state_stream_depth_stencil_format-structure"></a>CD3DX12 \_ 管線 \_ 狀態 \_ 資料流程 \_ 深度 \_ 樣板 \_ 格式結構
 

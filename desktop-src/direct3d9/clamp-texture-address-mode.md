@@ -4,12 +4,12 @@ ms.assetid: 8efed38d-4c9f-4a8d-9d1b-af1c8df9292a
 title: " (Direct3D 9) 的夾具材質位址模式"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 153ed1f044bacaec6b87420eb7df22a2557349a7
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 0602b66c28dfbd48cc7ac3504ff643cd0ffe31769ee8edbeede5b4b870914289
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970115"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119751351"
 ---
 # <a name="clamp-texture-address-mode-direct3d-9"></a> (Direct3D 9) 的夾具材質位址模式
 

@@ -4,12 +4,12 @@ ms.assetid: 48a29922-8130-4540-86b0-0faa120566a6
 title: 位址視窗擴充功能
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b8cb311bf9ecef2de334018ca3f9982a31f0b072
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3c5f0c68e9609834a9065a919d12c23c40521e99ede94feb96889050b6873654
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103849165"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119764408"
 ---
 # <a name="address-windowing-extensions"></a>位址視窗擴充功能
 

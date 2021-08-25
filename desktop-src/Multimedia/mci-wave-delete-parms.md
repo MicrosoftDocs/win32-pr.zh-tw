@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 286c6443a229da266dae4992687c0e9ead5640bd
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 11633a1b6b3876f0382669856cf5971767be325906b270c4d42417e8d3f9b51d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464620"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119783824"
 ---
 # <a name="mci_wave_delete_parms-structure"></a>MCI \_ WAVE \_ 刪除 \_ PARMS 結構
 
@@ -83,7 +83,7 @@ typedef struct {
 
 <dl> <dt>
 
-[**Mci**](mci.md)
+[**MCI**](mci.md)
 </dt> <dt>
 
 [**MCI 結構**](mci-structures.md)

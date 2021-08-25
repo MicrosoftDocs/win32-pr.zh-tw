@@ -4,12 +4,12 @@ ms.assetid: 8a2e8683-502a-4893-8b4f-5e2cf464a933
 title: 效能計數器資料類型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 38f9800288494eb82f675265b6e0b801c783668d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 23208978cfc3c0a67c7547598f26e506a5571a54d0d5ddfc93b7ecff38f9c559
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106989405"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119674738"
 ---
 # <a name="performance-counters-data-types"></a>效能計數器資料類型
 

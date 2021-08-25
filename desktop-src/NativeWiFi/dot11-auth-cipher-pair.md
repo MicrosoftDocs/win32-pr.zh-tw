@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - wlantypes.h
-ms.openlocfilehash: fd1a8ef03d5c5cb897d95b768f8ab48705098d74
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 84e4abde6192cf1be92b21df0c6a79125a198e0fde28e304cf583d76ea91689f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975753"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119801478"
 ---
 # <a name="dot11_auth_cipher_pair-structure"></a>DOT11 \_ AUTH \_ CIPHER \_ 成對結構
 
@@ -64,8 +64,8 @@ DOT11 \_ AUTH \_ CIPHER 的 \_ 結構定義了一種驗證和密碼演算法，�
 
 | 需求 | 值 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows Vista、Windows XP （僅含 SP3） \[ 桌面應用程式\]<br/>                                         |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                                        |
+| 最低支援的用戶端<br/> | WindowsVista，Windows XP 只提供 SP3 \[ desktop 應用程式\]<br/>                                         |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                                        |
 | 可轉散發套件<br/>          | 適用于 Windows XP SP2 的無線區域網路 API<br/>                                                         |
 | 標頭<br/>                   | <dl> <dt>Wlantypes (包含 Windot11) </dt> </dl> |
 

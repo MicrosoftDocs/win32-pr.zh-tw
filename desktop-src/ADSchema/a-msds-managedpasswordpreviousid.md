@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fab69454b85b4509f8184303f0ac7999589fb8f8
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 8375d1136c41468ab8d814a4f3102ceb8b128a0bc3a03fe7866a77aa9c411fad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103687243"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119804038"
 ---
 # <a name="ms-ds-managedpasswordpreviousid-attribute"></a>ManagedPasswordPreviousId 屬性
 
@@ -52,8 +52,8 @@ ms.locfileid: "103687243"
 |------------------------|---------------------------------------------------------------------------------------------|
 | 連結識別碼                | \-                                                                                          |
 | MAPI-Id                | \-                                                                                          |
-| System-Only            | 對                                                                                        |
-| 是-單一值       | 對                                                                                        |
+| System-Only            | 是                                                                                        |
+| 是-單一值       | 是                                                                                        |
 | 已編制索引             | 否                                                                                       |
 | 在通用類別目錄中      | 否                                                                                       |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                |

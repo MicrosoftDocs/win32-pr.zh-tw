@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 9a8cf19038fd61d2fc50346743b62e7d8c251236
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3be7ccf445f229ca60a35ada245fb0c0fc779d3cdb01c4d8f8af0582f0073b51
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107001581"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119635238"
 ---
 # <a name="cbaselistgetheadpositioni-method"></a>CBaseList. GetHeadPositionI 方法
 

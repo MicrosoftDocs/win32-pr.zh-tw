@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 54a140a892b0e9144ef23fc0290ca3bb3747e90a
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: e9889be841df54f6ae18b7ac52d7117f780af37662c5a1d4f6c29af858350345
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104022196"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119743858"
 ---
 # <a name="groupmemorybarrier-function"></a>GroupMemoryBarrier 函式
 
@@ -52,19 +52,19 @@ void GroupMemoryBarrier(void);
 
 
 
- 
+ 
 
 下列著色器類型支援此函數：
 
 
 
-| 頂點 | 船體 | 網域 | 幾何 | 像素 | 計算 |
+| 頂點 | 船體 | 網域 | 幾何形狀 | 像素 | 計算 |
 |--------|------|--------|----------|-------|---------|
 |        |      |        |          |       | x       |
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>另請參閱
 
@@ -76,9 +76,9 @@ void GroupMemoryBarrier(void);
 [著色器模型5](d3d11-graphics-reference-sm5.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

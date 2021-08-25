@@ -3,7 +3,7 @@ title: 'TTM_GETDELAYTIME 訊息 (Commctrl .h) '
 description: 抓取目前針對工具提示控制項設定的初始、快顯和 reshow 持續時間。
 ms.assetid: f89a75ed-ba80-4741-927f-c571f3b2efe7
 keywords:
-- TTM_GETDELAYTIME message Windows 控制項
+- TTM_GETDELAYTIME 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ff8c75f078465646333cae1f519049733a0c9f3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f0e63eca126477a6f602e6e23be75495319d30aa2814d2d72b8426a96c078326
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106967736"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119769258"
 ---
 # <a name="ttm_getdelaytime-message"></a>TTM \_ GETDELAYTIME 訊息
 
@@ -61,8 +61,8 @@ ms.locfileid: "106967736"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

@@ -39,12 +39,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 8a71946eeda3a8c304e1a6dda0ab2cc92e7b4489
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 367d08ba77bed499313763f46873b2e6d41a4eb3becdcbc53c0f91c15ca87473
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110340"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119699528"
 ---
 # <a name="win32_infrareddevice-class"></a>Win32 \_ InfraredDevice 類別
 
@@ -892,7 +892,7 @@ Windows 仍在設定裝置。
 限定詞： [**架構**](/windows/desktop/WmiSdk/standard-qualifiers) ( "Win32" ) 
 </dt> </dl>
 
-Windows 隨插即用邏輯裝置的裝置識別碼。
+Windows隨插即用邏輯裝置的裝置識別碼。
 
 這個屬性繼承自 [**CIM \_ LogicalDevice**](cim-logicaldevice.md)。
 
@@ -1114,7 +1114,7 @@ Windows 隨插即用邏輯裝置的裝置識別碼。
 
 <span id="SCSI_Serial_Storage_Architecture"></span><span id="scsi_serial_storage_architecture"></span><span id="SCSI_SERIAL_STORAGE_ARCHITECTURE"></span>
 
-**SCSI 序列儲存架構** (13) 
+**SCSI 序列儲存體架構** (13) 
 
 
 </dt> <dd></dd> <dt>

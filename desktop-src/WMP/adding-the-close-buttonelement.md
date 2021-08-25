@@ -16,12 +16,12 @@ keywords:
 - 關閉按鈕
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 40716d4094d23eaf6ab86414f37c0778cc8d89cf
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: bf5d2a85e43ae4a664504c213d182b396707ff9cfa663187e7f153fa4cc154e8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104183600"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119765471"
 ---
 # <a name="adding-the-close-buttonelement"></a>新增 Close BUTTONELEMENT
 
@@ -52,7 +52,7 @@ ms.locfileid: "104183600"
 
 **onClick**
 
-這會定義滑鼠按一下按鈕時所發生的事件。 這個事件屬性的值稱為「事件處理常式」（event handler），它會是 Microsoft JScript 程式碼的行，或是由 **視圖** 的 **loadScript** 屬性所載入之外部文字檔中的 jscript 函數。 在此情況下，JScript 程式碼會使用全域屬性（attribute）**視圖** 來呼叫 **view** 專案的 **close** 方法，這會關閉視圖並關閉 Windows Media Player。
+這會定義滑鼠按一下按鈕時所發生的事件。 這個事件屬性的值稱為「事件處理常式」（event handler），它會是 Microsoft JScript 程式碼的行，或是在 **視圖** 的 **loadScript** 屬性所載入的外部文字檔中的 JScript 函數。 在此情況下，JScript 程式碼會使用全域屬性（attribute）**視圖** 來呼叫 **view** 專案的 **close** 方法，這會關閉視圖並關閉 Windows Media Player。
 
 ## <a name="related-topics"></a>相關主題
 
@@ -61,9 +61,9 @@ ms.locfileid: "104183600"
 [**建立外觀定義檔**](creating-the-skin-definition-file.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

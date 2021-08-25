@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: d5e92581db4d04d622f5dba5fbfe1c2c4a53b4ad
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2734c93d1a3d3d3ea29e037d1bf85baacd5358a69f08d1517012c3eb250ab8ae
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995360"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119635457"
 ---
 # <a name="cbasecontrolwindowsetwindowposition-method"></a>CBaseControlWindow. SetWindowPosition 方法
 

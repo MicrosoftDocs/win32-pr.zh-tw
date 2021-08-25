@@ -4,12 +4,12 @@ description: '\ Elif 指示詞會標記由 \ ifdef、\ ifndef 或 \ if 指示詞
 ms.assetid: 432b8543-7e1a-411a-8191-cc0f0e4a2e86
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2a548cff74151dadf4a83a1e7d91ceedeafe07e2
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 92e131d40648bcda75025087717798ceb2ad1262d680877512dbb85a451fc86e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021583"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119720898"
 ---
 # <a name="elif"></a>\#elif
 
@@ -47,9 +47,9 @@ BITMAP 1 userbox.bmp
 [預處理器指示詞](preprocessor-directives.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

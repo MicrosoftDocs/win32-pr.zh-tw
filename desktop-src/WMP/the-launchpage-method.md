@@ -10,12 +10,12 @@ keywords:
 - LaunchPage 方法
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7f04974eba1ba5c86300de44acd2ba6e2920954f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 11a22e1f4b136711a6f4336fbe54d6d90e4bb18b24a88645587311a0b4046f6f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021659"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119762718"
 ---
 # <a name="the-launchpage-method"></a>LaunchPage 方法
 
@@ -65,9 +65,9 @@ void LaunchPage(IWMPMedia *pMedia)
 [**執行 CPluginWindow**](implementing-cpluginwindow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

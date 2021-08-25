@@ -3,7 +3,7 @@ title: 'TTM_ADDTOOL 訊息 (Commctrl .h) '
 description: 使用工具提示控制項註冊工具。
 ms.assetid: c974866b-20e7-45bc-914e-9dcf9af161e0
 keywords:
-- TTM_ADDTOOL message Windows 控制項
+- TTM_ADDTOOL 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 29dad3e297f8c3430f18286afa9a998eaf578a26
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: bb66c43033e54ce51b396ff5bb11efe3b2a99e8eb2578a2e9fe4d4bc4487ccf0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106999815"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119769538"
 ---
 # <a name="ttm_addtool-message"></a>TTM \_ ADDTOOL 訊息
 
@@ -51,8 +51,8 @@ ms.locfileid: "106999815"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 | Unicode 與 ANSI 名稱<br/>   | **TTM \_ADDTOOLW** (Unicode) 和 **TTM \_ ADDTOOLA** (ANSI) <br/>                   |
 

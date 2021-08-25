@@ -4,12 +4,12 @@ ms.assetid: 27ccaab7-ec89-489b-80dc-df9beb7969bc
 title: 磁碟重組檔案
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6b2d079f58ec98f320356a477531616788f84ccb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2f04c0a3c961854b7e3ecab50d67db608178393113ca259b916db9623058e2f3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848674"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119696288"
 ---
 # <a name="defragmenting-files"></a>磁碟重組檔案
 
@@ -84,7 +84,7 @@ ms.locfileid: "103848674"
 -   ：： $EA
 -   ：： $LOGGED \_ 公用程式 \_ 資料流程
 
-* * Windows 7、Windows Server 2008 R2、Windows Server 2008、Windows Vista、Windows Server 2003 和 Windows XP： * *：： $EA 與：： $LOGGED \_ 公用程式 \_ 串流在 Windows 8 和 Windows Server 2012 之前都不受支援
+* * Windows 7、Windows Server 2008 R2、Windows server 2008、Windows Vista、Windows Server 2003 和 Windows XP： * *：： $EA 和：： $LOGGED \_ 公用程式 \_ 串流在 Windows 8 和 Windows Server 2012 之前都不受支援
 
 支援任何目錄的資料流程類型。
 

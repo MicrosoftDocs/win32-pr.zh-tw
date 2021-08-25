@@ -4,12 +4,12 @@ ms.assetid: d7df269a-2b08-4bc2-ad7e-9b69d8f2f2a5
 title: RealTimeStylus 列舉
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0b334ee297ae863060c3cde100eb683f5e85320b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 844f2522cfa933d36e48b39bd00037c96cb84b7ae20bf31f48b7d1b21b0c5a79
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319416"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119820338"
 ---
 # <a name="realtimestylus-enumerations"></a>RealTimeStylus 列舉
 

@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4a74de1aa410c2ddfb13a942fdf07d1c05d020ab
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 622938aaee4c6f1e1c4a07556dde9b77942569a64c3b5d883a319eed64fa2854
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107001566"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119696398"
 ---
 # <a name="status-bar-styles"></a>狀態列樣式
 

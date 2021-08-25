@@ -4,12 +4,12 @@ ms.assetid: c3ce7c63-b72d-4e91-9509-5189f2ccac8a
 title: 列印處理器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0bcb7ed062b4e03069201d3ec1faa0ee427f0973
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1250c617706b8e11309ffaf151fb09820ba1acbdb9f09d5cf44086e2153f8c5b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106983620"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119718618"
 ---
 # <a name="print-processor"></a>列印處理器
 

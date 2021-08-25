@@ -4,18 +4,18 @@ ms.assetid: cd7485b3-6be5-4163-9a86-7892dbc59181
 title: 提高許可權的工作模型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 27006e32210cfea05de5c2b3b9adf36613dc4f5f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 08aa485c47983760cc260a97cb52b58316a0d87bd4083d3ed09e72032f8fc7a2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320548"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119672318"
 ---
 # <a name="elevated-task-model"></a>提高許可權的工作模型
 
 在提高許可權的工作模型中，以標準使用者身分執行的應用程式會藉由啟動排程工作來執行需要系統管理員許可權的作業。
 
-**Windows Server 2003 和 WINDOWS XP：** 不支援提高許可權的工作模型。
+**Windows Server 2003 和 Windows XP：** 不支援提高許可權的工作模型。
 
 工作不會耗用許多系統資源做為服務，而工作會在完成時自動關閉。 除非需要與舊版作業系統的回溯相容性，否則請考慮使用此模型，而不是 [作業系統服務模型](operating-system-service-model.md) 。
 

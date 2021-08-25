@@ -14,12 +14,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 07/03/2019
-ms.openlocfilehash: 6befc9a7e64fb0963d45257d68d6bb8d2ba7a2cb
-ms.sourcegitcommit: c20a43b333f03175ac23823c55f3204bfe8cd243
+ms.openlocfilehash: 620b8cf1671c18f2e4a79a798fac366d61c9e09f5a83ecda2c1ade531c6a558a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "107001273"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119636030"
 ---
 # <a name="idodownloadfinalize-method"></a>IDODownload：： Finalize 方法
 
@@ -39,6 +39,6 @@ HRESULT Finalize();
 
 | &nbsp; | &nbsp; |
 | ---- |:---- |
-| **最低支援的用戶端** | \[僅限 Windows 10 版本1809的 Win32 應用程式\] |
-| **最低支援的伺服器** | Windows Server，僅限1809版的 \[ Win32 應用程式\] |
+| **最低支援的用戶端** | Windows 10 版本 1809 \[僅限 Win32 應用程式\] |
+| **最低支援的伺服器** | WindowsServer，僅限1809版的 \[ Win32 應用程式\] |
 | **標頭** | Do。h |

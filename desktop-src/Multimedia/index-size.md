@@ -9,12 +9,12 @@ keywords:
 - capCaptureSetSetup 宏
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 86cd9e59c23376a7aa201673ef71743c8a192b60
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: cd9742edb1aa73c7b77a56ef3ab2a29a5ea14a1e70351bec1ecb49507bbd0bc1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103673923"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119784678"
 ---
 # <a name="index-size"></a>索引大小
 
@@ -22,9 +22,9 @@ ms.locfileid: "103673923"
 
 您可以使用 [ [**WM \_ CAP \_ GET \_ SEQUENCE \_ 設定**](wm-cap-get-sequence-setup.md) 訊息 (] 或 [ [**capCaptureGetSetup**](/windows/desktop/api/Vfw/nf-vfw-capcapturegetsetup) 宏) ，來取得目前的索引大小。 目前的索引大小會儲存在 [**CAPTUREPARMS**](/windows/win32/api/vfw/ns-vfw-captureparms)結構的 **dwIndexSize** 成員中。 您可以指定新的索引大小作為 **dwIndexSize** 的值，然後使用 [ [**WM \_ CAP \_ SET \_ SEQUENCE \_ 設定**](wm-cap-set-sequence-setup.md)訊息 (] 或 [ [**capCaptureSetSetup**](/windows/desktop/api/Vfw/nf-vfw-capcapturesetsetup)宏) ，將更新的 **CAPTUREPARMS** 結構傳送至 [捕獲] 視窗。 預設的索引大小為34952個專案 (允許32K 框架和) 的音訊緩衝區數目。
 
- 
+ 
 
- 
+ 
 
 
 

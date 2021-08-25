@@ -4,12 +4,12 @@ ms.assetid: 09ec2e8a-bd50-4f82-8ce3-a1c61f48ddb7
 title: Text 元素
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 570f613a06f9fe814bfb1acbdbdba040dbc1119f
-ms.sourcegitcommit: c3f669dc1d52278432bf75ad9fddba3257d26aa2
+ms.openlocfilehash: ae4e9fa123f1f43bd92d902158fc3fbc5b1c1de8e074b57aadeb339a0a7b6f15
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111432313"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119819937"
 ---
 # <a name="text-element"></a>Text 元素
 

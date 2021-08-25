@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 95b839a2abdd546842ef0d33d45a31428af840f7
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 57c176c9a246329b6193c97ca5ce356c2b433cb421b77b374e103778df1b79dd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106994961"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119822028"
 ---
 # <a name="unique-attribute"></a>unique 屬性
 
@@ -199,7 +199,7 @@ typedef [unique, string] unsigned char * MY_STRING_TYPE;
 [midl \_ 使用者 \_ 免費](/windows/desktop/Rpc/the-midl-user-free-function)
 </dt> <dt>
 
-[**擴展**](out-idl.md)
+[**out**](out-idl.md)
 </dt> <dt>
 
 [**指標 \_ 預設值**](pointer-default.md)
@@ -229,6 +229,6 @@ typedef [unique, string] unsigned char * MY_STRING_TYPE;
 [**聯盟**](union.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 747695436094dd5d2e9787e3eeca525b292f14c4
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: d74c053806db14e48f41c5d3b79a67acce640a151cf696a2795a4175ccb5fc89
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104974073"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119673848"
 ---
 # <a name="dp4---vs"></a>dp4-vs
 

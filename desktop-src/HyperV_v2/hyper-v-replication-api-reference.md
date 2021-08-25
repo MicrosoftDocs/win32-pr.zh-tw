@@ -4,12 +4,12 @@ ms.assetid: 0A6FDE16-6A0A-4E6F-9241-79BCF77627E2
 title: Hyper-v 複寫 API 參考
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 65518cf0476229e5325390ad04b78b657ea15f84
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 50868ab86842f6292688b70973a2f5c676dc0aadd849ece98df1920306b7de33
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974586"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119682308"
 ---
 # <a name="hyper-v-replication-api-reference"></a>Hyper-v 複寫 API 參考
 

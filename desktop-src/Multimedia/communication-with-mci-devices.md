@@ -8,12 +8,12 @@ keywords:
 - mciSendCommand 函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c1b5bfb7909b94bf8e71745adeeaeda61cae20ae
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: fd04187b948adf144a317a1d9eab80efb60bab8e7b05eaccffeb34722baa98a1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104314710"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119785901"
 ---
 # <a name="communication-with-mci-devices"></a>與 MCI 裝置通訊
 
@@ -34,6 +34,6 @@ MCIWnd 提供可讓您用來取得此資訊的宏。 然後，您可以使用此
 
 最後，您可以使用 [**MCIWndGetFileName**](/windows/desktop/api/Vfw/nf-vfw-mciwndgetfilename) 宏取出 MCI 裝置所使用的檔案名。 檔案名會識別目前與 MCIWnd 視窗相關聯的內容。 當您的應用程式使用 **mciSendCommand** 或 **mciSendString** 與 MCI 裝置進行通訊時，您的應用程式可以使用此檔案名。
 
- 
+ 
 
- 
+ 

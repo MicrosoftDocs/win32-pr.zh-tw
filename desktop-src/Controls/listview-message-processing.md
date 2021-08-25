@@ -4,12 +4,12 @@ description: 此區段會列出由清單視圖控制項所執行的視窗訊息�
 ms.assetid: c634c446-37e5-4f7c-b337-306c29961e58
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6bdc19927479a78bd2bffeaaa66b2986847747f3
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 27daa334b8640c855c150216f68e8b243cacbc7b2fe9a218a7e3e17bf69402b8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104024162"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119698838"
 ---
 # <a name="default-list-view-message-processing"></a>預設 List-View 訊息處理
 

@@ -3,7 +3,7 @@ title: 'WM_CAP_DLG_VIDEODISPLAY 訊息 (Vfw .h) '
 description: '[WM \_ CAP \_ DLG \_ VIDEODISPLAY] 訊息會顯示一個對話方塊，讓使用者可以在其中設定或調整影片輸出。'
 ms.assetid: 151056f5-a9d1-4594-a8d7-32d4675ae3d6
 keywords:
-- WM_CAP_DLG_VIDEODISPLAY message Windows 多媒體
+- WM_CAP_DLG_VIDEODISPLAY 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 378d80923f9c0b7eda65fac83809e30626d53406
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 16afffbf1d3450670b99d26303627771aa4bd3399a252cd16a68bc690012f541
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934344"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119803868"
 ---
 # <a name="wm_cap_dlg_videodisplay-message"></a>WM \_ CAP \_ DLG \_ VIDEODISPLAY 訊息
 

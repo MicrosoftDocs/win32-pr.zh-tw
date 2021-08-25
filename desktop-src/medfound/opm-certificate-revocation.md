@@ -4,12 +4,12 @@ ms.assetid: 21faf809-1335-4d93-be06-628c5a05a4c8
 title: OPM 憑證撤銷
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 47ebf38a3fa6bd2b61a756d6103453fd0356f693
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: f87fd398dda654cff23d295a5554edee1e7116b6014c1eb2d1fa0320cedbf3fd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108092726"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119722258"
 ---
 # <a name="opm-certificate-revocation"></a>OPM 憑證撤銷
 
@@ -50,7 +50,7 @@ OPM) 憑證的輸出保護管理員 (可由 Microsoft 撤銷。 撤銷的憑證�
 </tr>
 <tr class="even">
 <td>更新：</td>
-<td>包含定義 Windows Update 識別碼的 Guid。 本節包含下列清單的識別碼：
+<td>包含定義 Windows Update 識別碼的 guid。 本節包含下列清單的識別碼：
 <ul>
 <li>核心二進位檔撤銷</li>
 <li>使用者模式二進位撤銷</li>

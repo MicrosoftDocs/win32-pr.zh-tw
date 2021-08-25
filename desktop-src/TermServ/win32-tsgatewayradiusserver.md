@@ -19,12 +19,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4157d89dc942a1c2f8ff7d778f9f8048971902ba
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9997494f9e93980ac4d6e4b1dcb9c95b0d7665a70226f77d1cd4c7ca3ad751d7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465088"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119769838"
 ---
 # <a name="win32_tsgatewayradiusserver-class"></a>Win32 \_ TSGatewayRADIUSServer 類別
 

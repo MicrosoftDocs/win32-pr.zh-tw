@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shldisp.h
 ms.assetid: 0699eb16-d6ef-46e3-bd02-d35512536275
-ms.openlocfilehash: fa59a70c04e7f78a315955aeabb9477c6f28c80d
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: a694ced28663a005bfdacd406adb3f6b3d6cd0300db2a101c9fdee4bf215a23d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109841839"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119821118"
 ---
 # <a name="webwizardhostfinalnext-method"></a>WebWizardHost. FinalNext 方法
 
@@ -47,10 +47,10 @@ iRetVal = WebWizardHost.FinalNext()
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                            |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                   |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                            |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                   |
 | 標頭<br/>                   | <dl> <dt>Shldisp。h</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl> |
 
 
 

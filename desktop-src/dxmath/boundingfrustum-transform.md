@@ -11,12 +11,12 @@ api_name: ''
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 33715c8fb8cf6388c22e6348c1161d8b3aa7190b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cbfbe4f178c404484ff4a2b95da5a325a9bdc51f6923cab8918576d860a48dec
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106969257"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119787066"
 ---
 # <a name="boundingfrustumtransform-methods"></a>BoundingFrustum 轉換方法
 

@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 29aae3a2c1093e026356ea7a096f8b673673f67d
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: c8fde43197bd71712986c52e6badcb4e13c13c39be81ad806a74fb3da7e8337a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110264"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119820728"
 ---
 # <a name="cim_packagealarm-class"></a>CIM \_ PackageAlarm 類別
 

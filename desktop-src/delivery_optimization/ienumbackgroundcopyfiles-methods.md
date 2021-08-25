@@ -4,12 +4,12 @@ description: IEnumBackgroundCopyFiles 介面會公開下列方法。 | () 的 IE
 ms.assetid: 5BB3263A-31D3-4987-8982-1FED26C9ED71
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e0bf8f4e06d5b6111bc849bef67a4d181051619f
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 6e5292b86f38ae38883d8006b7e7ff9b405b8bc4a60834692754543ee6765550
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106998203"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119635578"
 ---
 # <a name="ienumbackgroundcopyfiles-methods-do"></a> () 的 IEnumBackgroundCopyFiles 方法
 

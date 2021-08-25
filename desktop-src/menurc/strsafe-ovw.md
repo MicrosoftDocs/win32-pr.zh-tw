@@ -4,20 +4,20 @@ description: 不佳的緩衝區處理暗喻著在涉及緩衝區溢位的許多�
 ms.assetid: a104a260-1edb-441a-acf8-e2bd3a7d8235
 keywords:
 - 字串函數 (string functions)
-- '>strsafe.h。h'
-- '>strsafe.h 函式'
+- '>Strsafe.h。h'
+- '>Strsafe.h 函式'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7f9b993ccff6d085f3b1eb14c1920c4c633661df
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: fb5d50a6921e2775c64fd4db53393332c667aba975ffa366fb2eb49881b6beaf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106968903"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119720588"
 ---
 # <a name="about-strsafeh"></a>關於 >strsafe.h。h
 
-不佳的緩衝區處理暗喻著在涉及緩衝區溢位的許多安全性問題中。 >strsafe.h 中定義的函式會在程式碼中為適當的緩衝區處理提供額外的處理。 基於這個理由，它們的用途是取代內建的 C/c + + 對應專案，以及特定的 Windows 執行。 從 Windows XP Service Pack 2 （含 Service Pack 2） (SP2) 開始 Windows SDK 中提供 >strsafe.h。
+不佳的緩衝區處理暗喻著在涉及緩衝區溢位的許多安全性問題中。 >strsafe.h 中定義的函式會在程式碼中為適當的緩衝區處理提供額外的處理。 基於這個理由，它們的用途是取代內建的 c/c + + 對應專案，以及特定的 Windows 執行。 從 Windows XP Service Pack 2 (SP2) 開始 Windows SDK 中提供 >strsafe.h。
 
 >strsafe.h 函數的優點包括：
 
@@ -44,7 +44,7 @@ ms.locfileid: "106968903"
 
 
 
-| 函式                                                                                                                                                                                                                      | 取代                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| 函數                                                                                                                                                                                                                      | 取代                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>[**StringCchCat**](/windows/desktop/api/Strsafe/nf-strsafe-stringcchcata)</dt> <dt> [ **StringCchCatEx**](/windows/desktop/api/Strsafe/nf-strsafe-stringcchcatexa)</dt> </dl>                 | <dl> <dt>[strcat、wcscat、 \_ tcsat](/cpp/c-runtime-library/reference/strcat-wcscat-mbscat?view=vs-2019)</dt> <dt>[**lstrcat**](/windows/desktop/api/Winbase/nf-winbase-lstrcata)</dt> <dt>[**strcat**](/windows/desktop/api/shlwapi/nf-shlwapi-strcatw)</dt> <dt>[**StrCatBuff**](/windows/desktop/api/shlwapi/nf-shlwapi-strcatbuffa)</dt> </dl>                                                                             |
 | <dl> <dt>[**StringCchCatN**](/windows/desktop/api/Strsafe/nf-strsafe-stringcchcatna)</dt> <dt> [ **StringCchCatNEx**](/windows/desktop/api/Strsafe/nf-strsafe-stringcchcatnexa)</dt> </dl>             | <dl> <dt>[strncat](/cpp/c-runtime-library/reference/strncat-strncat-l-wcsncat-wcsncat-l-mbsncat-mbsncat-l?view=vs-2019)</dt> <dt> [ **strncat**](/windows/desktop/api/shlwapi/nf-shlwapi-strncata)</dt> </dl>                                                                                                                                                                                                                                                                   |
@@ -57,7 +57,7 @@ ms.locfileid: "106968903"
 
 
 
- 
+ 
 
 ## <a name="byte-count-functions"></a>位元組計數函數
 
@@ -65,7 +65,7 @@ ms.locfileid: "106968903"
 
 
 
-| 函式                                                                                                                                                                                                                  | 取代                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| 函數                                                                                                                                                                                                                  | 取代                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>[**StringCbCat**](/windows/desktop/api/Strsafe/nf-strsafe-stringcbcata)</dt> <dt> [ **StringCbCatEx**](/windows/desktop/api/Strsafe/nf-strsafe-stringcbcatexa)</dt> </dl>                 | <dl> <dt>[strcat、wcscat、 \_ tcsat](/cpp/c-runtime-library/reference/strcat-wcscat-mbscat?view=vs-2019)</dt> <dt>[**lstrcat**](/windows/desktop/api/Winbase/nf-winbase-lstrcata)</dt> <dt>[**strcat**](/windows/desktop/api/shlwapi/nf-shlwapi-strcatw)</dt> <dt>[**StrCatBuff**](/windows/desktop/api/shlwapi/nf-shlwapi-strcatbuffa)</dt> </dl>                                                                            |
 | <dl> <dt>[**StringCbCatN**](/windows/desktop/api/Strsafe/nf-strsafe-stringcbcatna)</dt> <dt> [ **StringCbCatNEx**](/windows/desktop/api/Strsafe/nf-strsafe-stringcbcatnexa)</dt> </dl>             | <dl> <dt>[strncat](/cpp/c-runtime-library/reference/strncat-strncat-l-wcsncat-wcsncat-l-mbsncat-mbsncat-l?view=vs-2019)</dt> <dt> [ **strncat**](/windows/desktop/api/shlwapi/nf-shlwapi-strncata)</dt> </dl>                                                                                                                                                                                                                                                                  |
@@ -78,7 +78,7 @@ ms.locfileid: "106968903"
 
 
 
- 
+ 
 
 ## <a name="using-strsafeh"></a>使用 >strsafe.h。h
 
@@ -93,7 +93,7 @@ ms.locfileid: "106968903"
     > [!Note]  
     > ：下列函式必須當做內嵌函數使用： [**StringCbGets**](/windows/desktop/api/Strsafe/nf-strsafe-stringcbgetsa)、 [**StringCbGetsEx**](/windows/desktop/api/Strsafe/nf-strsafe-stringcbgetsexa)、 [**StringCchGets**](/windows/desktop/api/Strsafe/nf-strsafe-stringcchgetsa)和 [**StringCchGetsEx**](/windows/desktop/api/Strsafe/nf-strsafe-stringcchgetsexa)。
 
-     
+     
 
 -   當您在檔案中包含 >strsafe.h 時，>strsafe.h 所取代的舊版函式將會被取代。 嘗試使用這些較舊的函式會導致編譯器錯誤，告知您使用較新的函式。 如果您想要覆寫此行為，請在包含 >strsafe.h 之前加入下列語句。
 
@@ -110,7 +110,7 @@ ms.locfileid: "106968903"
     > [!Note]  
     > 您可以定義 **>strsafe.h \_ 沒有 \_ CB \_ 函數** 或 **>strsafe.h \_ 沒有 \_ CCH \_** 函式，但不能同時定義兩者。
 
-     
+     
 
 -   某些 >strsafe.h 函式具有地區設定感知版本。 依預設，標頭不會宣告這些函數。 若要啟用這些宣告，請在包含 >strsafe.h 之前包含下列巨集式。
 
@@ -122,9 +122,9 @@ ms.locfileid: "106968903"
 
 <dl> <dt>
 
-[>strsafe.h 函式](string-overviews.md)
+[>Strsafe.h 函式](string-overviews.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 03d5b8a64edf73cc7ef76847177a1e86b2efc20d
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: b533ce6a40e43a9febd47d3dbd31abb963a9434990c51a5ce3643642aab8928c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104468541"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119700708"
 ---
 # <a name="reset-method-of-the-cim_videocontroller-class"></a>CIM VideoController 類別的 Reset 方法 \_
 

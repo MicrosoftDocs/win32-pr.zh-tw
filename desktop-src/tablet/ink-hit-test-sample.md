@@ -4,12 +4,12 @@ ms.assetid: fc581da4-0a7b-4c31-8f73-0784066fcc56
 title: 筆墨點擊測試範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9d25e6cbc0ed471384bea0cc1977dd38d3ae4830
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 995bd6f14b4a0a014452ae9392fa744ab93f01f9047c79e5dc30652c243473db
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106991819"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119713078"
 ---
 # <a name="ink-hit-test-sample"></a>筆墨點擊測試範例
 
@@ -23,7 +23,7 @@ ms.locfileid: "106991819"
 
 ## <a name="accessing-the-ink-api"></a>存取筆墨 API
 
-首先，參考位於 Windows Vista 或 Windows XP Tablet PC Edition 軟體發展工具組中的 Tablet PC 類別 (SDK) 。
+首先，參考位於 Windows Vista 或 Windows XP Tablet pc Edition 軟體發展工具組 (SDK) 的 Tablet pc 類別。
 
 
 ```C++
@@ -32,7 +32,7 @@ using Microsoft.Ink;
 
 
 
-## <a name="handling-form-load-and-paint-events"></a>處理表單載入和繪製事件
+## <a name="handling-form-load-and-paint-events"></a>處理表單載入和小畫家事件
 
 表單的 Load 事件處理常式：
 
@@ -56,7 +56,7 @@ ic.Enabled = true;ic.AutoRedraw = true;
 
 
 
-表單的繪製事件處理常式會檢查應用程式模式：
+表單的小畫家事件處理常式會檢查應用程式模式：
 
 -   在 System.windows.media.visualtreehelper.hittest 模式中，它會繪製圍繞游標的圓形。 現用畫筆是在應用程式的 handleHitTest 方法中設定。
 -   在 NearestPoint 模式中，它會在游標和最接近資料指標的點之間繪製紅線。 最接近的點會在應用程式的 handleNearestPoint 方法中計算。

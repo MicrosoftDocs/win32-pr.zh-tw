@@ -4,12 +4,12 @@ ms.assetid: ea40ed1d-1ef9-44f3-8ae8-3d854e308a49
 title: 將修補程式資訊以 XML 形式解壓縮
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 20e1e594d3ff2870ca1aaf87245c537045f95d72
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0574d953609b467c42467853f540dc85c9c24a31c07b3b3d006eaa6633472d53
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114564"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119821678"
 ---
 # <a name="extracting-patch-information-as-xml"></a>將修補程式資訊以 XML 形式解壓縮
 
@@ -17,7 +17,7 @@ ms.locfileid: "104114564"
 
 -   MsiPatch 元素是 XML blob 的最上層元素，包含修補程式的相關資訊。
 
-    SchemaVersion 屬性會指定架構定義的版本。 架構是由 MSIPatchApplicability 指定，而目前的架構版本是1.0.0.0。 PatchGUID 屬性的值是修補程式套件的 GUID 修補程式碼，從修補程式 [摘要資訊資料流程](summary-information-stream.md)中的 [[**修訂編號摘要**](revision-number-summary.md)] 屬性取得。 MinMsiVersion 是安裝從 [ [**字數統計] 摘要**](word-count-summary.md) 屬性取得之修補程式所需 Windows Installer 的最小版本。
+    SchemaVersion 屬性會指定架構定義的版本。 架構是由 MSIPatchApplicability 指定，而目前的架構版本是1.0.0.0。 PatchGUID 屬性的值是修補程式套件的 GUID 修補程式碼，從修補程式 [摘要資訊資料流程](summary-information-stream.md)中的 [[**修訂編號摘要**](revision-number-summary.md)] 屬性取得。 MinMsiVersion 是安裝從 [[**字數統計] 摘要**](word-count-summary.md)屬性取得之修補程式所需 Windows Installer 的最小版本。
 
 -   TargetProduct 元素是一個容器元素，可取得修補程式目標應用程式的相關資訊。
 
@@ -103,7 +103,7 @@ strPatchXML = installer.ExtractPatchXMLData("c:\example\patch.msp")
 
 ## <a name="patch-applicability-schema-definition"></a>修補適用性架構定義
 
-將下列文字複製到 [記事本] 或其他文字編輯器，以針對 XML blob 中的修補程式適用性資訊建立架構定義檔。 將這個檔案命名為 MSIPatchApplicability .XSD。
+將下列文字複製到記事本或其他文字編輯器，以針對 XML blob 中的修補程式適用性資訊建立架構定義檔。 將這個檔案命名為 MSIPatchApplicability .XSD。
 
 ``` syntax
 <?xml version="1.0" encoding="utf-8" ?>

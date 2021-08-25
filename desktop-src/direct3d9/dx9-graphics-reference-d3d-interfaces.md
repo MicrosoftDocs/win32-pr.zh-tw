@@ -4,19 +4,19 @@ ms.assetid: f12facdc-5a3f-4f89-8ae3-a322ef3389b2
 title: Direct3D 介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e81d7da07a9389dad1629e517c728488cb5b6bf9
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 85e48620ea697a52f9e5da599c4455b6c8051154394870dc4cc6bde37ef454eb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104509753"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119791418"
 ---
 # <a name="direct3d-interfaces"></a>Direct3D 介面
 
 本節包含元件物件模型的參考資訊， (由 Microsoft Direct3D 9 提供的 COM) 介面。
 
 > [!Note]  
-> Direct3D Windows Store 應用程式無法使用 Direct3D 9 API。 相反地，請使用 Microsoft Direct3D 11 或更新版本的 API 搭配 [功能層級](../direct3d11/overviews-direct3d-11-devices-downlevel-intro.md) 9 \_ x。
+> direct3d Windows Store 應用程式無法使用 direct3d 9 API。 相反地，請使用 Microsoft Direct3D 11 或更新版本的 API 搭配 [功能層級](../direct3d11/overviews-direct3d-11-devices-downlevel-intro.md) 9 \_ x。
 
  
 

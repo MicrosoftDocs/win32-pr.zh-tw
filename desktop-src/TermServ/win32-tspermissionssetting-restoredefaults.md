@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 073a8f8267ab9e7f7cbd50f15f4f3f20594d2e39
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8ef81f4b3008f68129026a90d1b2e98e8c13c298537952175e116c9c8e02c4f9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843388"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119769448"
 ---
 # <a name="restoredefaults-method-of-the-win32_tspermissionssetting-class"></a>Win32 TSPermissionsSetting 類別的 RestoreDefaults 方法 \_
 

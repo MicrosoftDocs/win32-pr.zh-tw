@@ -9,12 +9,12 @@ keywords:
 - WinNT 提供者 ADSI、使用者管理範例、使用者無法變更密碼、讀取
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dd075bfb6700779b60f9e578a4e89957487a2646
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 761a1ef0a332f1cdfd7dad1b20426b749618ed2286832c7ff16b207cee57c176
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112405911"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119637548"
 ---
 # <a name="reading-user-cannot-change-password-winnt-provider"></a>讀取使用者無法變更 (WinNT 提供者的密碼) 
 

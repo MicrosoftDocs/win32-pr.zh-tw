@@ -4,12 +4,12 @@ description: 有數種方式可存取資源。
 ms.assetid: 83950c4d-5df2-4ed1-9d8f-222a62791c18
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e69ab7bffd22b2271c4d648c3a95ec8d98656973
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: d5b66ae5ad0f3a49f51281d12ba5e3c2c52cd822aadd5097485b571533ae1a04
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104990971"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119677168"
 ---
 # <a name="accessing-resources"></a>存取資源
 
@@ -45,22 +45,22 @@ float4 myVar = myTexture[pos];
 > [!Note]  
 > 以這種方式存取材質的預設值是 mipmap 層級零 () 最詳細的層級。
 
- 
+ 
 
 > [!Note]  
 > "Float4 myVar = myTexture \[ pos \] ;" 行相當於 "float4 MyVar = MyTexture. Load (uint3 (pos，0) ) ;"。 依索引存取是新的 HLSL 語法增強功能。
 
- 
+ 
 
 > [!Note]  
 > 在2010年6月版的 DirectX SDK 和更新版本中，編譯器可讓您編制除了 [位元組位址緩衝區](direct3d-11-advanced-stages-cs-resources.md)以外的所有資源類型。
 
- 
+ 
 
 > [!Note]  
 > 2010年6月編譯器和更新版本可讓您宣告本機資源變數。 您可以將全域定義的資源指派 (例如，將) *myTexture* 至這些變數，並使用與全域對應專案相同的方式來使用它們。
 
- 
+ 
 
 ## <a name="access-by-mips-method"></a>由 Mips 方法存取
 
@@ -84,6 +84,6 @@ float4 myColor = myTexture.mips[2][uint2(x,y)];
 [計算著色器總覽](direct3d-11-advanced-stages-compute-shader.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

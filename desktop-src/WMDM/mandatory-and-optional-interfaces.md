@@ -3,7 +3,7 @@ title: 必要和選用介面
 description: 必要和選用介面
 ms.assetid: 582c9dd5-f8ab-48df-afb3-fba931ee0dea
 keywords:
-- Windows Media 裝置管理員，介面
+- Windows媒體裝置管理員，介面
 - 裝置管理員，介面
 - 程式設計指南，介面
 - 服務提供者，介面
@@ -11,12 +11,12 @@ keywords:
 - interfaces
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6aaa28db79fe8bc3cd159219cffb35f5434645ea
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 565f1a930b7dab5491101c16d529e4583bdc8e5588919b06a8118b69ab05d3e3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103672499"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119766428"
 ---
 # <a name="mandatory-and-optional-interfaces"></a>必要和選用介面
 
@@ -35,7 +35,7 @@ ms.locfileid: "103672499"
 | [**IMDSPDevice::GetManufacturer**](/windows/desktop/api/mswmdm/nf-mswmdm-imdspdevice-getmanufacturer)                                                                   | Mandatory。                                                                                                                                                                                                                                         |
 | [**IMDSPDevice：： GetName**](/windows/desktop/api/mswmdm/nf-mswmdm-imdspdevice-getname)                                                                                   | Mandatory。                                                                                                                                                                                                                                         |
 | [**IMDSPDevice::GetPowerSource**](/windows/desktop/api/mswmdm/nf-mswmdm-imdspdevice-getpowersource)                                                                     | 選擇性。                                                                                                                                                                                                                                          |
-| [**IMDSPDevice::GetSerialNumber**](/windows/desktop/api/mswmdm/nf-mswmdm-imdspdevice-getserialnumber)                                                                   | 選擇性。 針對受保護的內容傳輸，Windows Media 裝置管理員使用 **IMDSPStorageGlobals：： GetSerialNumber**。                                                                                                                              |
+| [**IMDSPDevice::GetSerialNumber**](/windows/desktop/api/mswmdm/nf-mswmdm-imdspdevice-getserialnumber)                                                                   | 選擇性。 針對受保護的內容傳輸，Windows 媒體裝置管理員使用 **IMDSPStorageGlobals：： GetSerialNumber**。                                                                                                                              |
 | [**IMDSPDevice：： GetStatus**](/windows/desktop/api/mswmdm/nf-mswmdm-imdspdevice-getstatus)                                                                               | Mandatory。                                                                                                                                                                                                                                         |
 | [**IMDSPDevice：： GetType**](/windows/desktop/api/mswmdm/nf-mswmdm-imdspdevice-gettype)                                                                                   | Mandatory。                                                                                                                                                                                                                                         |
 | [**IMDSPDevice：： GetVersion**](/windows/desktop/api/mswmdm/nf-mswmdm-imdspdevice-getversion)                                                                             | 選擇性。                                                                                                                                                                                                                                          |

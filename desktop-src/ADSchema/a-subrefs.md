@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ca114a4d35dddfb3913a1ce1684c468dad20272a
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 725d02ba22b2fcfa0de9b35faba4218f9461cf8fb514d9ca80a2efa50b2c5246
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104467318"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119801998"
 ---
 # <a name="sub-refs-attribute"></a>Sub-Refs 屬性
 
@@ -58,10 +58,10 @@ ms.locfileid: "104467318"
 |------------------------|---------------------------------|
 | 連結識別碼                | \-                              |
 | MAPI-Id                | 0x813B                          |
-| System-Only            | 對                            |
+| System-Only            | 是                            |
 | 是-單一值       | 否                           |
 | 已編制索引             | 否                           |
-| 在通用類別目錄中      | 對                            |
+| 在通用類別目錄中      | 是                            |
 | NT-Security-描述元 | O:BAG：不正確： S：                    |
 | Range-Lower            | \-                              |
 | Range-Upper            | \-                              |
@@ -79,10 +79,10 @@ ms.locfileid: "104467318"
 |------------------------|---------------------------------|
 | 連結識別碼                | \-                              |
 | MAPI-Id                | 0x813B                          |
-| System-Only            | 對                            |
+| System-Only            | 是                            |
 | 是-單一值       | 否                           |
 | 已編制索引             | 否                           |
-| 在通用類別目錄中      | 對                            |
+| 在通用類別目錄中      | 是                            |
 | NT-Security-描述元 | O:BAG：不正確： S：                    |
 | Range-Lower            | \-                              |
 | Range-Upper            | \-                              |
@@ -100,10 +100,10 @@ ms.locfileid: "104467318"
 |------------------------|---------------------------------|
 | 連結識別碼                | \-                              |
 | MAPI-Id                | 0x813B                          |
-| System-Only            | 對                            |
+| System-Only            | 是                            |
 | 是-單一值       | 否                           |
 | 已編制索引             | 否                           |
-| 在通用類別目錄中      | 對                            |
+| 在通用類別目錄中      | 是                            |
 | NT-Security-描述元 | O:BAG：不正確： S：                    |
 | Range-Lower            | \-                              |
 | Range-Upper            | \-                              |
@@ -121,10 +121,10 @@ ms.locfileid: "104467318"
 |------------------------|---------------------------------|
 | 連結識別碼                | \-                              |
 | MAPI-Id                | 0x813B                          |
-| System-Only            | 對                            |
+| System-Only            | 是                            |
 | 是-單一值       | 否                           |
 | 已編制索引             | 否                           |
-| 在通用類別目錄中      | 對                            |
+| 在通用類別目錄中      | 是                            |
 | NT-Security-描述元 | O:BAG：不正確： S：                    |
 | Range-Lower            | \-                              |
 | Range-Upper            | \-                              |
@@ -142,10 +142,10 @@ ms.locfileid: "104467318"
 |------------------------|---------------------------------|
 | 連結識別碼                | \-                              |
 | MAPI-Id                | 0x813B                          |
-| System-Only            | 對                            |
+| System-Only            | 是                            |
 | 是-單一值       | 否                           |
 | 已編制索引             | 否                           |
-| 在通用類別目錄中      | 對                            |
+| 在通用類別目錄中      | 是                            |
 | NT-Security-描述元 | O:BAG：不正確： S：                    |
 | Range-Lower            | \-                              |
 | Range-Upper            | \-                              |
@@ -163,10 +163,10 @@ ms.locfileid: "104467318"
 |------------------------|---------------------------------|
 | 連結識別碼                | \-                              |
 | MAPI-Id                | 0x813B                          |
-| System-Only            | 對                            |
+| System-Only            | 是                            |
 | 是-單一值       | 否                           |
 | 已編制索引             | 否                           |
-| 在通用類別目錄中      | 對                            |
+| 在通用類別目錄中      | 是                            |
 | NT-Security-描述元 | O:BAG：不正確： S：                    |
 | Range-Lower            | \-                              |
 | Range-Upper            | \-                              |
@@ -184,10 +184,10 @@ ms.locfileid: "104467318"
 |------------------------|---------------------------------|
 | 連結識別碼                | \-                              |
 | MAPI-Id                | 0x813B                          |
-| System-Only            | 對                            |
+| System-Only            | 是                            |
 | 是-單一值       | 否                           |
 | 已編制索引             | 否                           |
-| 在通用類別目錄中      | 對                            |
+| 在通用類別目錄中      | 是                            |
 | NT-Security-描述元 | O:BAG：不正確： S：                    |
 | Range-Lower            | \-                              |
 | Range-Upper            | \-                              |
