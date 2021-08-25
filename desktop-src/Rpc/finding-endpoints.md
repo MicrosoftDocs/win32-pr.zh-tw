@@ -4,12 +4,12 @@ description: 伺服器程式會接聽用戶端要求的端點。 端點字串的
 ms.assetid: 330bbe9f-b7e9-4a5b-86d8-824edec960d2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bb0a97df3408a4d3c24dff9de28553f9e4b2210d
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 024a85704287db7e5f78bb67eee9b64a7c6dc84ce5724623450d36f743e5fa9a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104315367"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120021278"
 ---
 # <a name="finding-endpoints"></a>尋找端點
 
@@ -26,7 +26,7 @@ ms.locfileid: "104315367"
 > [!Note]  
 > *靜態端點* 和 *已知端點* 的條款是相等的，並且可交換使用。
 
- 
+ 
 
 您的用戶端應用程式可能會使用端點對應來判斷伺服器程式目前是否正在執行。 您的用戶端可以呼叫 [**RpcMgmtInqIfIds**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcmgmtinqifids)、 [**RpcMgmtEpEltInqBegin**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcmgmtepeltinqbegin)和 [**RpcMgmtEpEltInqDone**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcmgmtepeltinqdone) ，以查看伺服器是否已在端點對應中註冊所需的特定介面。
 
@@ -61,6 +61,6 @@ ms.locfileid: "104315367"
 
 這種方法可讓已開始使用已知端點的應用程式轉換路徑，但不需要同時更新所有伺服器和用戶端，即可遷移至動態端點。
 
- 
+ 
 
- 
+ 

@@ -10,12 +10,12 @@ keywords:
 - 音訊 DSP 外掛程式、串流資源
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7ba82f150908e7b96f4e6e56c2161e1b2fdfe145
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f815fe9875f2e93e140b577da6e00dd7c684c1fedbad13234ecfbf87ca84ddb9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104092293"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119903728"
 ---
 # <a name="about-allocating-streaming-resources"></a>關於配置串流資源
 
@@ -30,9 +30,9 @@ Windows Media Player 外掛程式 Wizard 產生的範例 DSP 外掛程式不需�
 [**執行音訊 DSP 外掛程式**](implementing-an-audio-dsp-plug-in.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

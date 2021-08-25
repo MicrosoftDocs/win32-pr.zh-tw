@@ -4,12 +4,12 @@ ms.assetid: 6a2ed6a7-825a-422b-b035-b88746f3ab5d
 title: 'TransformVectors 方法 (Gdiplusmatrix .h) '
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 3bdb67d839163ffe2d26623a01fc186f8e885ca2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 732beef5da2fedb98db4c09ab851ea18973ba7a42c3946199bbdbe7562523241
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "104974821"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119888808"
 ---
 # <a name="matrixtransformvectors-methods"></a>TransformVectors 方法
 

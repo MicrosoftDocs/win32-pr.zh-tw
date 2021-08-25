@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: a68ab07e4f486a8df80ecde5844739a6a010c2dc
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 828f6873ed9bf48de6a02d4195fdd1fa9d2bc39f99da1f8906fd8a2c53075cf5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106982888"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120026408"
 ---
 # <a name="id3dxeffectstatemanagersetfvf-method"></a>ID3DXEffectStateManager：： SetFVF 方法
 

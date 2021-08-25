@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 8229387364a061febc7bd825e7bc76ee5d9b4a2d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b930746102bc43e3549b4565a7591f4ac5fee8cc6503d9fb6aadcbe1659a52f5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106978764"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120054238"
 ---
 # <a name="csourceseekingisusingtimeformat-method"></a>CSourceSeeking. IsUsingTimeFormat 方法
 
@@ -55,7 +55,7 @@ HRESULT IsUsingTimeFormat(
 
 
 
-| 傳回碼                                                                               | Description                                                |
+| 傳回碼                                                                               | 描述                                                |
 |-------------------------------------------------------------------------------------------|------------------------------------------------------------|
 | <dl> <dt>**S \_ FALSE**</dt> </dl>   | 指定的格式不是目前的格式。<br/> |
 | <dl> <dt>**S \_ 確定**</dt> </dl>      | 指定的格式為目前的格式。<br/>     |

@@ -4,12 +4,12 @@ ms.assetid: 6ec30c6e-93d1-4b77-9638-86308bbf8f3c
 title: " (Direct3D 9) 的視窗型 vs Full-Screen 模式"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bf51c641446d3f54ceb37c9cc1ac629604f68400
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: a845c464e6c402c46cc4aff09196ccfde65ad90371187045b0c14c41315a9f74
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104108733"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120025748"
 ---
 # <a name="windowed-vs-full-screen-mode-direct3d-9"></a> (Direct3D 9) 的視窗型 vs Full-Screen 模式
 

@@ -1,21 +1,21 @@
 ---
 title: DirectWrite 介面
-description: 列出由 DirectWrite 所定義的介面。
+description: 列出 DirectWrite 所定義的介面。
 ms.assetid: 7075e771-ce34-4426-8c07-13e85ff4d453
 keywords:
 - DirectWrite，介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8ff423289eb76a3506edb3537875a99a364be457
-ms.sourcegitcommit: 749dea42142dec076d41a8f26cb57ae8db46e848
+ms.openlocfilehash: 5f1abd75d83fedf29da1bb5f67073dd74ca10816fdeb6ca43a61f40ad8ae26c9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "112588041"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120048608"
 ---
 # <a name="directwrite-interfaces"></a>DirectWrite 介面
 
-DirectWrite 會定義下列介面。
+DirectWrite 定義下列介面。
 
 ## <a name="in-this-section"></a>本節內容
 
@@ -28,13 +28,13 @@ DirectWrite 會定義下列介面。
 | [**IDWriteColorGlyphRunEnumerator**](idwritecolorglyphrunenumerator.md) | 此介面可讓應用程式透過色彩圖像執行來列舉。 |
 | [**IDWriteColorGlyphRunEnumerator1**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritecolorglyphrunenumerator1) | 色彩圖像執行之已排序集合的列舉值。 |
 | [**IDWriteFactory**](/windows/win32/api/dwrite/nn-dwrite-idwritefactory) | 用來建立所有後續的 DirectWrite 物件。 這個介面是所有 DirectWrite 物件的根 factory 介面。 |
-| [**IDWriteFactory1**](/windows/win32/api/dwrite_1/nn-dwrite_1-idwritefactory1) | 所有 [DirectWrite](direct-write-portal.md) 物件的根 factory 介面。 |
-| [**IDWriteFactory2**](idwritefactory2.md) | 所有 [DirectWrite](direct-write-portal.md) 物件的根 factory 介面。 |
-| [**IDWriteFactory3**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefactory3) | 所有 [DirectWrite](direct-write-portal.md) 物件的根 factory 介面。 |
+| [**IDWriteFactory1**](/windows/win32/api/dwrite_1/nn-dwrite_1-idwritefactory1) | 所有[DirectWrite](direct-write-portal.md)物件的根 factory 介面。 |
+| [**IDWriteFactory2**](idwritefactory2.md) | 所有[DirectWrite](direct-write-portal.md)物件的根 factory 介面。 |
+| [**IDWriteFactory3**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefactory3) | 所有[DirectWrite](direct-write-portal.md)物件的根 factory 介面。 |
 | [**IDWriteFactory4**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefactory4) | 所有 DirectWrite 物件的根 factory 介面。 |
 | [**IDWriteFactory5**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefactory5) | 所有 DirectWrite 物件的根 factory 介面。 |
-| [**IDWriteFactory6**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefactory6) | 這代表用來建立所有 DirectWrite 物件的 factory 物件。 **IDWriteFactory6** 新增了使用字型和字型資源的功能。 |
-| [**IDWriteFactory7**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefactory7) | 此介面代表建立所有 DirectWrite 物件的 factory 物件。 **IDWriteFactory7** 新增了使用系統字型的新設備。 |
+| [**IDWriteFactory6**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefactory6) | 這代表建立所有 DirectWrite 物件的 factory 物件。 **IDWriteFactory6** 新增了使用字型和字型資源的功能。 |
+| [**IDWriteFactory7**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefactory7) | 這個介面代表建立所有 DirectWrite 物件的 factory 物件。 **IDWriteFactory7** 新增了使用系統字型的新設備。 |
 | [**IDWriteFont**](/windows/win32/api/dwrite/nn-dwrite-idwritefont) | 代表字型集合中的實體字型。 此介面是用來從實體字型建立字型臉部，或從現有字型臉部取得字型臉部度量或臉部名稱等資訊。 |
 | [**IDWriteFont1**](/windows/win32/api/dwrite_1/nn-dwrite_1-idwritefont1) | 代表字型集合中的實體字型。 |
 | [**IDWriteFont2**](idwritefont2.md) | 代表字型集合中的實體字型。 |

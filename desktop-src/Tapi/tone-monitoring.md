@@ -4,12 +4,12 @@ ms.assetid: c3218013-b71f-41cd-9397-ba717c0cf556
 title: 語氣監視
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b9a3275e5207999896792ee04dc1842b01f4ad0d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6fb811d91a70f439ae17123b35967800914bd6a04f1a30168754f602231f038e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104026860"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120034178"
 ---
 # <a name="tone-monitoring"></a>語氣監視
 

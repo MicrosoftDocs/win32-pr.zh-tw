@@ -4,12 +4,12 @@ description: 描述三種可能的感應器集區系統、私用和未指派。
 ms.assetid: d7fd3c39-d719-4cfd-9af0-a87837f3f328
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 263275af5c7decff37ef70ad3a5396ec562562f4
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 6d28bd03d84e2558f0fb1ba090440aa2bda62292c51773d54d5094466ba9e494
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104375788"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120035258"
 ---
 # <a name="sensor-pools"></a>感應器集區
 

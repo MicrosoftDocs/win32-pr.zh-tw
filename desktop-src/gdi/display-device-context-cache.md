@@ -4,12 +4,12 @@ ms.assetid: b017453a-c2c5-4bb1-ae46-f303d5e200ca
 title: 顯示裝置內容快取
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6bd9149d4c4ffed6b25f3eb40d0fd9b1ffca1bd6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d96bbf8cb388e31e43a0eacf9200b638fe8a232749dd5e2ef8ab67318b30d9de
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104991266"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120062428"
 ---
 # <a name="display-device-context-cache"></a>顯示裝置內容快取
 

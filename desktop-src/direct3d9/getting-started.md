@@ -4,12 +4,12 @@ ms.assetid: e0859675-9b8a-460e-8adb-818b9db6661b
 title: '開始使用 (Direct3D 9) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b4801e7fc881089db4fc65f6a751d5a2f7586fc6
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: bb0ee2b852ea668b14f72fd977fca164a190121b36e7ef8a4afe971ad26ba08b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104467786"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120026898"
 ---
 # <a name="getting-started-direct3d-9"></a>開始使用 (Direct3D 9) 
 

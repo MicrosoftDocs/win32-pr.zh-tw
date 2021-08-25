@@ -5,12 +5,12 @@ ms.assetid: 93903F50-A6CA-41C2-863D-68D645586B4C
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 09/25/2019
-ms.openlocfilehash: d60704e411a1ba45dd4902ad9101a416391743dd
-ms.sourcegitcommit: 622d149edf775af5a9633c2d12ccfddf7000b8fd
+ms.openlocfilehash: 2d250133d8cacb26d933d3774f397de4c949c72b7b58114759791c103d374c3f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "104548345"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119987544"
 ---
 # <a name="multi-engine-synchronization"></a>多引擎同步處理
 
@@ -335,14 +335,14 @@ void AsyncPipelinedComputeGraphics()
     -   佇列「類型」是下列三種之一：計算、3D 和複製。
     -   佇列「類型類別」是下列其中一項：計算/3D 和複製。
 
--   複製旗標 (複製 \_ 目的地和複製 \_ 來源) 當做初始狀態使用，代表 3D/計算類型類別中的狀態。 若要在一開始就在複製佇列上使用資源，它應該會在一般狀態中啟動。 您可以使用隱含狀態轉換，將一般狀態用於複製佇列上的所有使用量。 
+-   複製旗標 (複製 \_ 目的地和複製 \_ 來源) 當做初始狀態使用，代表 3D/計算類型類別中的狀態。 若要在一開始就在複製佇列上使用資源，它應該會在一般狀態中啟動。 您可以使用隱含狀態轉換，將一般狀態用於複製佇列上的所有使用量。 
 -   雖然資源狀態會跨所有計算和3D 佇列共用，但不允許在不同佇列上同時寫入資源。 這裡的「同時」表示未同步處理，請注意，在某些硬體上並不可能執行未同步執行。 適用下列規則。
 
     -   一次只能有一個佇列寫入資源。
     -   多個佇列可以從資源讀取，只要它們未讀取寫入器所修改的位元組 (讀取同時寫入的位元組會產生未定義的結果) 。
     -   在寫入之前，必須先使用隔離來同步處理，另一個佇列可以讀取寫入的位元組或進行寫入存取。
 
--   所呈現的背景緩衝區必須處於 Direct3D 12 \_ 資源 \_ 狀態的 \_ 一般狀態。 
+-   所呈現的背景緩衝區必須處於 Direct3D 12 \_ 資源 \_ 狀態的 \_ 一般狀態。 
 
 ## <a name="related-topics"></a>相關主題
 

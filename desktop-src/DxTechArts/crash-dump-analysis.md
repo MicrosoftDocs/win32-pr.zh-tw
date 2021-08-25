@@ -4,12 +4,12 @@ description: 本技術文章提供如何撰寫和使用小型傾印的相關資�
 ms.assetid: 575c4716-18c2-7b11-7308-aa2e3d8efac7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7558e47d08cb0183b8d9cefa5f22f0750fd1c598
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: a3c68891e2e20938036bd016e6e786a2cdad0096ae44af0e8974a88052963be0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104023729"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120075518"
 ---
 # <a name="crash-dump-analysis"></a>損毀傾印分析
 
@@ -29,19 +29,19 @@ ms.locfileid: "104023729"
 
 撰寫小型傾印的基本選項如下：
 
--   不執行任何動作。 每當程式擲回未處理的例外狀況時，Windows 就會自動產生小型傾印。 自 Windows XP 起提供自動產生的小型傾印。 如果使用者允許，則會透過 Windows 錯誤報告 (WER) ，將小型傾印傳送給 Microsoft，而不是開發人員。 開發人員可以透過 [Windows 傳統型應用程式計畫](../appxpkg/windows-desktop-application-program.md)取得這些小型傾印的存取權。
+-   不執行任何動作。 當程式擲回未處理的例外狀況時，Windows 自動產生小型傾印。 自 Windows XP 起提供自動產生的小型傾印。 如果使用者允許，則會透過 Windows 錯誤報告 (WER) ，將小型傾印傳送給 Microsoft，而不是開發人員。 開發人員可以透過[Windows 傳統型應用程式計畫](../appxpkg/windows-desktop-application-program.md)取得這些小型傾印的存取權。
 
     使用 WER 需要：
 
     -   開發人員使用 Authenticode 簽署其應用程式
     -   應用程式在每個可執行檔和 DLL 中都有有效的 VERSIONINFO 資源
 
-    如果您針對未處理的例外狀況執行自訂常式，則強烈呼籲在例外狀況處理常式中使用 [**ReportFault**](/windows/desktop/api/errorrep/nf-errorrep-reportfault) 函式，也會將自動小型傾印傳送至 WER。 **ReportFault** 函式會處理連接至和傳送小型傾印至 WER 的所有問題。 未將小型傾印傳送至 WER 違反 Windows 遊戲的需求。
+    如果您針對未處理的例外狀況執行自訂常式，則強烈呼籲在例外狀況處理常式中使用 [**ReportFault**](/windows/desktop/api/errorrep/nf-errorrep-reportfault) 函式，也會將自動小型傾印傳送至 WER。 **ReportFault** 函式會處理連接至和傳送小型傾印至 WER 的所有問題。 未將小型傾印傳送至 WER 會違反 Windows 遊戲的需求。
 
-    如需有關 WER 如何運作的詳細資訊，請參閱 [Windows 錯誤報告的運作方式](https://www.microsoft.com/whdc/maintain/WER/WERWorks.mspx)。 如需註冊詳細資料的說明，請參閱 MSDN [ISV 區域](https://msdn.microsoft.com/) [Windows 錯誤報告簡介](https://msdn.microsoft.com/)。
+    如需有關 WER 如何運作的詳細資訊，請參閱[Windows 錯誤報告的運作方式](https://www.microsoft.com/whdc/maintain/WER/WERWorks.mspx)。 如需註冊詳細資料的說明，請參閱 MSDN [ISV 區域](https://msdn.microsoft.com/) [Windows 錯誤報告簡介](https://msdn.microsoft.com/)。
 
 -   使用 Microsoft Visual Studio Team System 中的產品。 在 [ **調試** 程式] 功能表上，按一下 [ **儲存** 傾印]，儲存傾印的複本。 使用本機儲存的傾印只是內部測試和偵錯工具的選項。
--   將程式碼新增至您的專案。 新增 [**MiniDumpWriteDump**](/windows/desktop/api/minidumpapiset/nf-minidumpapiset-minidumpwritedump) 函式和適當的例外狀況處理常式代碼，以將小型傾印直接儲存並傳送給開發人員。 本文示範如何執行此選項。 不過，請注意， **MiniDumpWriteDump** 目前無法使用 managed 程式碼，且僅適用于 windows XP、windows Vista、windows 7。
+-   將程式碼新增至您的專案。 新增 [**MiniDumpWriteDump**](/windows/desktop/api/minidumpapiset/nf-minidumpapiset-minidumpwritedump) 函式和適當的例外狀況處理常式代碼，以將小型傾印直接儲存並傳送給開發人員。 本文示範如何執行此選項。 不過，請注意， **MiniDumpWriteDump** 目前無法使用 managed 程式碼，且僅適用于 Windows XP、Windows Vista Windows 7。
 
 ## <a name="thread-safety"></a>執行緒安全
 
@@ -126,7 +126,7 @@ MSDN 有更多小型傾印 [**\_ 例外狀況 \_ 資訊**](/windows/desktop/api/
 
 Dumpchk.exe 是一種命令列公用程式，可用來確認已正確建立傾印檔案。 如果 Dumpchk.exe 產生錯誤，則傾印檔案已損毀且無法進行分析。 如需使用 Dumpchk.exe 的詳細資訊，請參閱 [如何使用 Dumpchk.exe 檢查記憶體傾印](https://support.microsoft.com/kb/315271/)檔案。
 
-Dumpchk.exe 包含在 Windows XP 產品光碟中，並可透過在 \\ \\ \\ \\ \\ windows Xp 產品 cd 上的支援工具資料夾中執行 Setup.exe，安裝至系統磁片磁碟機程式檔支援工具。 您也可以下載並安裝 windows[硬體開發人員中心](https://www.microsoft.com/whdc/)上[windows 調試](https://www.microsoft.com/whdc/devtools/debugging/)程式所提供的偵錯工具，以取得最新版本的 Dumpchk.exe。
+Dumpchk.exe 包含在 Windows xp 產品光碟中，並可透過在 \\ \\ \\ \\ \\ Windows XP 產品 cd 上的支援工具資料夾中執行 Setup.exe，安裝至系統磁片磁碟機程式檔支援工具。 您也可以從[Windows 硬體開發人員中心](https://www.microsoft.com/whdc/)的[Windows 調試](https://www.microsoft.com/whdc/devtools/debugging/)程式下載並安裝可用的偵錯工具，以取得最新版本的 Dumpchk.exe。
 
 ## <a name="analyzing-a-minidump"></a>分析小型傾印
 
@@ -135,7 +135,7 @@ Dumpchk.exe 包含在 Windows XP 產品光碟中，並可透過在 \\ \\ \\ \\ \
 **分析小型傾印**
 
 1.  開啟 Visual Studio。
-2.  **在 [檔案**] 功能表上，按一下 [**開啟專案**]。
+2.  **在 [檔案**] 功能表上，按一下 [**開啟 Project**]。
 3.  將 **類型的** 檔案設定 **為傾** 印檔案、流覽至傾印檔案、加以選取，然後按一下 [ **開啟]。**
 4.  執行偵錯工具。
 
@@ -151,12 +151,12 @@ Dumpchk.exe 包含在 Windows XP 產品光碟中，並可透過在 \\ \\ \\ \\ \
 2.  在 [ **選項** ] 對話方塊中，開啟 [ **調試** ] 節點，然後按一下 [ **符號**]。
 3.  除非您想要在進行偵錯工具時手動載入符號，否則請務必 **只在手動載入符號時搜尋上面的位置** 。
 4.  如果您在遠端符號伺服器上使用符號，可以藉由指定可將符號複製到其中的本機目錄，來改善效能。 若要這樣做，請輸入 **從符號伺服器到這個目錄** 的快取符號路徑。 若要連接到 Microsoft public 符號伺服器，您必須啟用此設定。 請注意，如果您要在遠端電腦上進行程式的偵錯工具，則快取目錄會參考遠端電腦上的目錄。
-5.  按一下 [確定]  。
+5.  按一下 [確定]。
 6.  因為您使用的是 Microsoft public 符號伺服器，所以會出現 [使用者授權合約] 對話方塊。 按一下 **[是]** 接受合約並將符號下載至本機快取。
 
 ### <a name="debugging-a-minidump-with-windbg"></a>使用 WinDbg 來調試小型傾印
 
-您也可以使用 WinDbg （屬於 Windows 偵錯工具的偵錯工具）來對小型傾印進行 debug 錯。 WinDbg 可讓您在不需要使用 Visual Studio 的情況下進行 debug。 若要下載 Windows 調試工具，請參閱[Windows 硬體開發人員中心](https://www.microsoft.com/whdc/)上的[windows 調試工具](https://www.microsoft.com/whdc/devtools/debugging/)。
+您也可以使用 WinDbg （屬於 Windows 偵錯工具的偵錯工具）來對小型傾印進行 debug。 WinDbg 可讓您在不需要使用 Visual Studio 的情況下進行 debug。 若要下載 Windows 調試工具，請參閱[Windows 硬體開發人員中心](https://www.microsoft.com/whdc/)上的[Windows 調試工具](https://www.microsoft.com/whdc/devtools/debugging/)。
 
 安裝 Windows 調試工具之後，您必須在 WinDbg 中輸入符號路徑。
 
@@ -175,6 +175,6 @@ Dumpchk.exe 包含在 Windows XP 產品光碟中，並可透過在 \\ \\ \\ \\ \
 
 [**MiniDumpWriteDump**](/windows/desktop/api/minidumpapiset/nf-minidumpapiset-minidumpwritedump)函式可能是在產品發行之後，收集和解決 bug 時非常實用的工具。 撰寫使用 **MiniDumpWriteDump** 的自訂例外狀況處理常式，可讓開發人員自訂資訊集合並改進偵錯工具。 函式很有彈性，可用於任何以 c + + 為基礎的專案中，且應該視為任何專案的穩定性程式的一部分。
 
- 
+ 
 
- 
+ 

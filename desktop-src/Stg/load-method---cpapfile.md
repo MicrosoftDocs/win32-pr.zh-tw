@@ -6,18 +6,18 @@ keywords:
 - Load 方法-CPapFile
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1fe70be7241fe1e1eaeb779317e11a76fb479f76
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 49eac23bcb79738a30b18eb87a4d8ef4598aba89de0748c58b433df28d614886
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840888"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120034888"
 ---
 # <a name="load-method---cpapfile"></a>Load 方法-CPapFile
 
 當這些作業成功時，便會釋放取得的 [**IStorage**](/windows/desktop/api/Objidl/nn-objidl-istorage) 介面。 這會關閉檔案，並指出在其他用戶端操作期間，檔案未保持開啟狀態。 它會在需要時重新開啟。
 
-這個範例是來自 Papfile 的 **CPapFile** **Load** 方法。
+這個範例是來自 Papfile 的 **CPapFile** **Load** 方法。
 
 
 ```C++
@@ -103,9 +103,9 @@ HRESULT CPapFile::Load(
 
 當這些作業成功完成時，就會釋放已取得的 [**IStorage**](/windows/desktop/api/Objidl/nn-objidl-istorage) 介面。 這會關閉檔案，表示檔案在其他用戶端作業期間不會保持開啟。 它會在需要時重新開啟。
 
- 
+ 
 
- 
+ 
 
 
 

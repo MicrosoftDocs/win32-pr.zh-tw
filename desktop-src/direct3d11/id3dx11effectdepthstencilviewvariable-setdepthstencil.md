@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 723be51bc769982acf43c19482978bd581cafa13
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: ae1e8b984bb15e083360ef99036549c534d8e047a2375ad0b0a6e5469b9191c8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104992247"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120069678"
 ---
 # <a name="id3dx11effectdepthstencilviewvariablesetdepthstencil-method"></a>ID3DX11EffectDepthStencilViewVariable：： SetDepthStencil 方法
 

@@ -3,7 +3,7 @@ title: 'BCM_SETTEXTMARGIN 訊息 (Commctrl .h) '
 description: BCM \_ SETTEXTMARGIN 訊息會設定在按鈕控制項中繪製文字的邊界。
 ms.assetid: 0798b1c5-7db4-46c6-8881-4c847abc7460
 keywords:
-- BCM_SETTEXTMARGIN message Windows 控制項
+- BCM_SETTEXTMARGIN 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4fb6653007c155a508ce4da899a7be0d8ff2ab2d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 724c3e16c19aa2fb146bc0b47dec563db8b871536cb8f7e58fc86cbb739c225c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465269"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119921358"
 ---
 # <a name="bcm_settextmargin-message"></a>BCM \_ SETTEXTMARGIN 訊息
 
@@ -60,8 +60,8 @@ ms.locfileid: "104465269"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

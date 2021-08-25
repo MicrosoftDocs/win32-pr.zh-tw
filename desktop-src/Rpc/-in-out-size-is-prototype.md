@@ -4,12 +4,12 @@ description: '\ in、out、size \_ 是 \ 原型使用從用戶端到伺服器，
 ms.assetid: bce9a36f-9f7c-4438-9b5a-15b8877f74c0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 37829ce0d5a4bb44fefa038e9ce71773f9c4c9bd
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: a623dc39e9bd18fdd0c7bc02f008ccc1c16919362fd2a52e373abdde762eb726
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104315373"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120073638"
 ---
 # <a name="in-out-size_is-prototype"></a>\[in、out、size \_ 為 \] 原型
 
@@ -53,6 +53,6 @@ Analyze(char * str, long * pcbSize)
 }
 ```
 
- 
+ 
 
- 
+ 

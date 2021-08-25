@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 7f5d27de884f72b46db900487e26f1099bf30949
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 4933c3e15faee28448a653c5479be0d976abfd7bd913a7b50ef34acf4b52f6f3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108115446"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120026498"
 ---
 # <a name="id3dxbasemeshgetattributetable-method"></a>ID3DXBaseMesh：： GetAttributeTable 方法
 

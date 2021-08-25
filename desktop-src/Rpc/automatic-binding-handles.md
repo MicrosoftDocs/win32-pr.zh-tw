@@ -4,12 +4,12 @@ description: 當應用程式不需要特定伺服器，且不需要維護用戶�
 ms.assetid: ba049369-6c8b-4313-a266-e0364a30056e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5fe83d3f9029e0384c87e5e409583ff70f1e91ac
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: b619b17e44e79e623bcffa84f4938d1278a7d146d6de90547cd833e1bf091167
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104316114"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120023438"
 ---
 # <a name="automatic-binding-handles"></a>自動系結控制碼
 
@@ -20,7 +20,7 @@ ms.locfileid: "104316114"
 > [!Note]  
 > Macintosh 平臺不支援自動控制碼。
 
- 
+ 
 
 您可以 \[ 在 ACF 中包含 [**auto \_ 控制碼**](/windows/desktop/Midl/auto-handle)屬性，藉以指定自動控制碼的使用方式 \] 。 時間戳記範例會使用下列 ACF：
 
@@ -54,6 +54,6 @@ interface autoh
 
 自動控制碼的優點是，開發人員不需要撰寫任何程式碼來管理控制碼;存根會自動管理系結。 這與 [Hello，World 範例](tutorial.md)截然不同，因為用戶端會管理 ACF 中定義的隱含基本控制碼，而且必須呼叫數個執行時間函數來建立系結控制碼。
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ ms.assetid: f2a7c87c-9be7-4fd8-8ecd-4edf1f2336ef
 title: 金鑰發佈中心
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8f473fc3b84fed05e157fa700e7549f025979a90
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0eef410ccb9289d30507708dc35000e1c15d5d4c9998b28b33a2e51d1a15b1e1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104026870"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120013338"
 ---
 # <a name="key-distribution-center"></a>金鑰發佈中心
 

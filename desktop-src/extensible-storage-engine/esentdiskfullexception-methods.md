@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101622
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: e47daf220c9f283bc0e9925fc3c33c1dd3308a8b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bada8233a352d4c36eba5ef24f5cdd0242742a99fb264faa8d20222b34e65343
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104469237"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120065708"
 ---
 # <a name="esentdiskfullexception-methods"></a>EsentDiskFullException 方法
 

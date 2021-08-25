@@ -10,12 +10,12 @@ keywords:
 - Xlib 函式 OpenGL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d6e4cede2b74dc2881f867370744ee14c00cceba
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: e6864173cf85e0db24e77c53a7627a90e6110a1ff3ec3d94a7c85e456f98ffd8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382505"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120034448"
 ---
 # <a name="translating-the-glx-library"></a>翻譯 GLX 程式庫
 
@@ -23,7 +23,7 @@ OpenGL X Window 系統程式會使用 OpenGL 擴充功能搭配 X 視窗系統 (
 
 
 
-| GLX/Xlib 函式         | Windows 函數                                                                                                                                       |
+| GLX/Xlib 函式         | Windows 函式                                                                                                                                       |
 |---------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **glXChooseVisual**       | [**ChoosePixelFormat**](/windows/desktop/api/wingdi/nf-wingdi-choosepixelformat)                                                                                                         |
 | **glXCopyCoNtext**        | 不適用。                                                                                                                                        |
@@ -47,12 +47,12 @@ OpenGL X Window 系統程式會使用 OpenGL 擴充功能搭配 X 視窗系統 (
 
 
 
- 
+ 
 
-某些 GLX 函式沒有對等的 Windows 函數。 若要將這些函式移植至 Windows，請重寫您的程式碼以達成相同的功能。 例如， **glXWaitGL** 沒有對等的 Windows 函式，但是您可以藉由呼叫 [**glFinish**](glfinish.md)來達到相同的結果，執行任何擱置中的 OpenGL 命令。
+某些 GLX 函式沒有相等的 Windows 函數。 若要將這些函式移植至 Windows，請重寫您的程式碼以達成相同的功能。 例如， **glXWaitGL** 沒有對等的 Windows 函式，但是您可以藉由呼叫 [**glFinish**](glfinish.md)來達到相同的結果，執行任何擱置中的 OpenGL 命令。
 
 下列主題描述如何移植設定像素格式的 GLX 函式，以及管理轉譯內容、pixmaps 和點陣圖。
 
- 
+ 
 
- 
+ 

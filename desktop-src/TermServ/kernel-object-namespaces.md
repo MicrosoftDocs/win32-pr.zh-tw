@@ -5,23 +5,23 @@ ms.assetid: 771e0bbf-bd73-4e87-aa1e-945c1287b517
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 20680a32c8b35e3fa2f1ab15c732683d424550f0
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 82e1064638844039091dbe93aa1fedc75cb93f4aa1d012f8864e0154673c6cc4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106980279"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119989078"
 ---
 # <a name="kernel-object-namespaces"></a>核心物件命名空間
 
-遠端桌面服務伺服器有多個命名空間，適用于下列命名核心物件：事件、信號、mutex、可等候計時器、檔案對應物件和工作物件。 主要是由用戶端/伺服器應用程式中的服務所使用的全域命名空間。 此外，每個用戶端會話對於這些物件都有個別的命名空間，例如在 Windows Vista 中。
+遠端桌面服務伺服器有多個命名空間，適用于下列命名核心物件：事件、信號、mutex、可等候計時器、檔案對應物件和工作物件。 主要是由用戶端/伺服器應用程式中的服務所使用的全域命名空間。 此外，每個用戶端會話對於這些物件都有個別的命名空間，例如 Windows Vista 中。
 
 不同的用戶端會話命名空間可讓多個用戶端執行相同的應用程式，而不會干擾彼此。 針對在用戶端會話下啟動的進程，系統預設會使用會話命名空間。 不過，這些進程可以在物件名稱前面加上 "Global" 前置詞，以使用全域命名空間 \\ 。 例如，下列程式碼會呼叫 [**CreateEvent**](/windows/desktop/api/synchapi/nf-synchapi-createeventa) ，並在全域命名空間中建立名為 CSAPP 的事件物件：
 
 > [!Note]  
 > 全域命名空間不適用於 Windows Store 應用程式。
 
- 
+ 
 
 `CreateEvent( NULL, FALSE, FALSE, "Global\\CSAPP" );`
 
@@ -41,6 +41,6 @@ ms.locfileid: "106980279"
 
 從會話零以外的會話使用 [**CreateFileMapping**](/windows/desktop/api/winbase/nf-winbase-createfilemappinga)，在全域命名空間中建立檔案對應物件是具有特殊許可權的作業。 因此，在任意遠端桌面工作階段主機 (RD 工作階段主機) 伺服器會話中執行的應用程式必須啟用 [SeCreateGlobalPrivilege](/windows/desktop/SecAuthZ/authorization-constants) ，才能成功地在全域命名空間中建立檔案對應物件。 許可權檢查僅限於建立檔案對應物件，並不適用于開啟現有的物件。 例如，如果服務或系統建立檔案對應物件，則任何在任何會話中執行的進程都可以存取該檔案對應物件，前提是使用者具有必要的存取權。
 
- 
+ 
 
- 
+ 

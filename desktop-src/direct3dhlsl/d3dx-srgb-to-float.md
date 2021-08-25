@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 32e1b5dc6224a06881e227b82e74436c4820aaf3
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 2a02f78c7a342f781bb0260d1ec31c7c637ddd554ac597bee1cd5cb33f53759c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103946131"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120068538"
 ---
 # <a name="d3dx_srgb_to_float-function"></a>D3DX \_ SRGB \_ 至 \_ FLOAT 函數
 

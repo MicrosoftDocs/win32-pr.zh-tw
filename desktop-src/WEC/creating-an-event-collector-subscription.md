@@ -5,12 +5,12 @@ ms.assetid: 76f14e01-7a84-4c94-aea6-91189573eb89
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a1359033b61d419f1147ca930f30d924b8429e31
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 1b5fdcff469ad8f6dfef4f775e0c79da814e9f4c6e05a71a95b6ddf70446d4ba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104186054"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120006128"
 ---
 # <a name="creating-a-collector-initiated-subscription"></a>建立收集器起始的訂用帳戶
 
@@ -539,9 +539,9 @@ DWORD GetProperty(EC_HANDLE hSubscription,
 [將事件來源新增至事件收集器訂用帳戶](adding-an-event-source-to-an-event-collector-subscription.md)
 </dt> <dt>
 
-[Windows 事件收集器參考](windows-event-collector-reference.md)
+[Windows事件收集器參考](windows-event-collector-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

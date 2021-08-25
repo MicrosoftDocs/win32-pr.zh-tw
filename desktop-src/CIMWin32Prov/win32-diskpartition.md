@@ -1,5 +1,5 @@
 ---
-description: 表示在執行 Windows 的電腦系統上，實體磁片之資料分割區域的功能和管理容量。
+description: 表示執行 Windows 之電腦系統上的實體磁片之分割區的功能和管理功能。
 ms.assetid: 7e78be3f-bae4-4374-abbf-7c4e63ba7593
 ms.tgt_platform: multiple
 title: Win32_DiskPartition 類別
@@ -54,16 +54,16 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 4f9a9c16f58d0119c8027848c481479985e7505e
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: b33b812def4c921d528942e3bc416aa8791b4b0faecaaaeaf9d8cf9ccd345959
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847486"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120085808"
 ---
 # <a name="win32_diskpartition-class"></a>Win32 \_ DiskPartition 類別
 
-**Win32 \_ DiskPartition** [WMI 類別](/windows/desktop/WmiSdk/retrieving-a-class)代表在執行 Windows 的電腦系統上，實體磁片之分割區區域的功能和管理能力。 範例：磁片 \# 0、磁碟分割 \# 1。
+**Win32 \_ DiskPartition** [WMI 類別](/windows/desktop/WmiSdk/retrieving-a-class)代表執行 Windows 之電腦系統上實體磁片分割區的功能和管理能力。 範例：磁片 \# 0、磁碟分割 \# 1。
 
 下列語法已經過受管理物件格式 (MOF) 程式碼簡化，並包含所有已繼承的屬性。 屬性會依字母順序列出，而不是依 MOF 順序列出。
 
@@ -644,7 +644,7 @@ class Win32_DiskPartition : CIM_DiskPartition
 限定詞： [**架構**](/windows/desktop/WmiSdk/standard-qualifiers) ( "Win32" ) 
 </dt> </dl>
 
-Windows 設定管理員錯誤碼。
+Windows設定管理員錯誤碼。
 
 這個屬性繼承自 [**CIM \_ LogicalDevice**](cim-logicaldevice.md)。
 
@@ -1190,7 +1190,7 @@ Windows 設定管理員錯誤碼。
 限定詞： [**架構**](/windows/desktop/WmiSdk/standard-qualifiers) ( "Win32" ) 
 </dt> </dl>
 
-Windows 隨插即用邏輯裝置的裝置識別碼。
+Windows隨插即用邏輯裝置的裝置識別碼。
 
 範例： " \* PNP030b"
 
@@ -1599,7 +1599,7 @@ Windows 隨插即用邏輯裝置的裝置識別碼。
 
 </dd> <dt>
 
-**型別**
+**類型**
 </dt> <dd> <dl> <dt>
 
 資料類型： **字串**
@@ -1615,7 +1615,7 @@ Windows 隨插即用邏輯裝置的裝置識別碼。
 
 值如下：
 
-<dl> <dd>尚未</dd> <dd>"12-bit FAT"</dd> <dd>「Xenix 類型1」</dd> <dd>「Xenix 類型2」</dd> <dd>"16-bit FAT"</dd> <dd>「擴充的資料分割」</dd> <dd>「MS-DOS V4 龐大」</dd> <dd>「可安裝的檔案系統」</dd> <dd>「PowerPC 參考平臺」</dd> <dd>UNIX</dd> <dd>NFS</dd> <dd>"Win95 w/Extended Int 13"</dd> <dd>「擴充的 w/Extended Int 13」</dd> <dd>「邏輯磁片管理員」</dd> <dd>不明</dd> </dl>
+<dl> <dd>尚未</dd> <dd>"12-bit FAT"</dd> <dd>「Xenix 類型1」</dd> <dd>「Xenix 類型2」</dd> <dd>"16-bit FAT"</dd> <dd>「擴充的資料分割」</dd> <dd>「MS-DOS V4 龐大」</dd> <dd>「可安裝的檔案系統」</dd> <dd>「PowerPC 參考平臺」</dd> <dd>"UNIX"</dd> <dd>NFS</dd> <dd>"Win95 w/Extended Int 13"</dd> <dd>「擴充的 w/Extended Int 13」</dd> <dd>「邏輯磁片管理員」</dd> <dd>不明</dd> </dl>
 
 <dt>
 
@@ -1684,7 +1684,7 @@ Windows 隨插即用邏輯裝置的裝置識別碼。
 
 <span id="UNIX"></span><span id="unix"></span>
 
-**Unix** ( "unix" ) 
+**UNIX** ( "UNIX" ) 
 
 
 </dt> <dd></dd> <dt>
@@ -1732,7 +1732,7 @@ Windows 隨插即用邏輯裝置的裝置識別碼。
 
 磁碟分割是實體磁片磁碟機的結構化分割。 雖然磁片磁碟機可以包含單一磁碟分割，但較大的磁片區通常會分成多個磁碟分割。 這就是為什麼您的電腦只有一個實體硬碟，才能使用 C、D 和 E 磁片磁碟機。
 
-Windows 支援下列磁碟分割類型：
+Windows 支援下列資料分割類型：
 
 -   主要磁碟分割。 這是唯一可以安裝作業系統的資料分割類型。 每個磁片磁碟機最多可以有四個主要磁碟分割，每個磁碟分割都指派不同的磁碟機號。
 -   擴充的資料分割。 可細分為多個邏輯磁碟機的額外磁碟分割，每個都指派一個唯一的磁碟機號。 磁片磁碟機只能有一個擴充磁碟分割;不過，您可以將此分割區分割成多個邏輯磁碟機。 這可讓磁片擁有超過四個允許的主要磁碟分割。

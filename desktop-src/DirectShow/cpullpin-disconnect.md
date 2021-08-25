@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: ec13a7f29a06bab4f79ddb58932796f8363adadc
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0491bfba7e5b739a2b46674cc2f6506017810d4f1e51693d4478720c67a4a4da
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995413"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120055068"
 ---
 # <a name="cpullpindisconnect-method"></a>CPullPin 中斷方法
 
@@ -46,7 +46,7 @@ HRESULT Disconnect();
 
 ## <a name="remarks"></a>備註
 
-這個方法會中斷 [**CPullPin：： Connect**](cpullpin-connect.md) 方法中所做的任何連接。 在您的 [**IPin：:D isconnect**](/windows/desktop/api/Strmif/nf-strmif-ipin-disconnect) 方法內呼叫這個方法。  (如果您的 pin 衍生自 [**CBasePin**](cbasepin.md)，請覆寫 [**CBasePin：： BreakConnect**](cbasepin-breakconnect.md) 以呼叫這個方法。 ) 
+這個方法會中斷 [**CPullPin：：連線**](cpullpin-connect.md)方法中所做的任何連接。 在您的 [**IPin：:D isconnect**](/windows/desktop/api/Strmif/nf-strmif-ipin-disconnect) 方法內呼叫這個方法。  (如果您的 pin 衍生自 [**CBasePin**](cbasepin.md)，請覆寫 [**CBasePin：： BreakConnect**](cbasepin-breakconnect.md) 以呼叫這個方法。 ) 
 
 ## <a name="requirements"></a>規格需求
 

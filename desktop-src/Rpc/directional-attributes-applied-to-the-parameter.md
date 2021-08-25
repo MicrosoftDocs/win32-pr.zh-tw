@@ -4,12 +4,12 @@ description: 方向屬性 \ in \ 和 out \ 決定用戶端和伺服器如何配�
 ms.assetid: 21ab54c4-a707-4ee3-bea8-8ba216e25c16
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 752432836075b319483e3a17421f691a111689b4
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 9e18e34a7ea553fd5c1fd9157877a0296e403443fc490bb328f48ac4b7b2c8b3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106966881"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120073388"
 ---
 # <a name="directional-attributes-applied-to-the-parameter"></a>套用至參數的方向屬性
 
@@ -25,10 +25,10 @@ ms.locfileid: "106966881"
 
 
 
- 
+ 
 
 在上述所有情況下，用戶端 stub 都不會釋放記憶體。 用戶端應用程式必須在記憶體終止之前釋放記憶體。 當遠端程序呼叫傳回 (受制于 \[ [配置](/windows/desktop/Midl/allocate) \] ACF 屬性) 時，伺服器 stub 會釋出記憶體。
 
- 
+ 
 
- 
+ 

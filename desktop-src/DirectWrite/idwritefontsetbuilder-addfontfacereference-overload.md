@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 3c20ca2832bfce3696a98c22730580442f621469
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c9edfed7680b18ef9ffb271cb59de3a54d4b408ac5f194a7bead1bbb3fb9b2ef
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106993427"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120075578"
 ---
 # <a name="idwritefontsetbuilderaddfontfacereference-methods"></a>IDWriteFontSetBuilder：： AddFontFaceReference 方法
 

@@ -4,12 +4,12 @@ description: '\ 回呼 \ 和 \ 本機 \ 屬性可以套用為函式屬性。'
 ms.assetid: 05e19164-072c-4a5a-878d-845273975854
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 75ef199b937d5a3e9a8444be9ed65749da007ced
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: be36cac561a10ae2e1177c29dfc0e1219f650daf26af8154c47cdbd7e3d2bd57
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103682943"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120021018"
 ---
 # <a name="function-attributes"></a>函式屬性
 
@@ -21,6 +21,6 @@ ms.locfileid: "103682943"
 
 請務必注意， **\[** [](/windows/desktop/Midl/callback) **\]** 不建議在多執行緒程式設計中使用回呼。 作為單一執行緒程式設計功能，它並不支援多執行緒環境所提供的安全性需求。
 
- 
+ 
 
- 
+ 

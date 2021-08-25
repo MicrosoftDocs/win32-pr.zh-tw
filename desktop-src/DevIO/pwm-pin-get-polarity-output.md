@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Pwm.h
-ms.openlocfilehash: 81cf7b658a0024c3280db1523af34aaf2ef17262
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 7d4c3103663ceac65deff7744b0cf45a21a787959cc6e866bde5ac8673f7f64a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936241"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119984428"
 ---
 # <a name="pwm_pin_get_polarity_output-structure"></a>PWM \_ 針腳 \_ 取得 \_ 極性 \_ 輸出結構
 
@@ -54,8 +54,8 @@ typedef struct _PWM_PIN_GET_POLARITY_OUTPUT {
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 10 桌面應用程式\]<br/>                                                      |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2016 \[ desktop 應用程式\]<br/>                                             |
+| 最低支援的用戶端<br/> | Windows 10 \[僅限桌面應用程式\]<br/>                                                      |
+| 最低支援的伺服器<br/> | Windows Server 2016 \[僅限桌面應用程式\]<br/>                                             |
 | 最小 KMDF 版本<br/>     | 1.19<br/>                                                                                  |
 | 最小的 UMDF 版本<br/>     | 2.19<br/>                                                                                  |
 | 標頭<br/>                   | <dl> <dt>Pwm (包含 Pwm) </dt> </dl> |

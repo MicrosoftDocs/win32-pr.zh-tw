@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: c16c69a4fa0fd35ce7b12d69f880daa4b8345d02
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: c62c156470046aee4312a0e6dab82eca9aeb5c82b4536138ecd5afe838995cf2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104022358"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120067538"
 ---
 # <a name="texture2dms"></a>Texture2DMS
 
@@ -58,7 +58,7 @@ Texture2DMS 類型 (存在於著色器模型 4) 加上資源變數中。
 
 
 
-| 頂點 | 船體 | 網域 | 幾何 | 像素 | 計算 |
+| 頂點 | 船體 | 網域 | 幾何形狀 | 像素 | 計算 |
 |--------|------|--------|----------|-------|---------|
 | x      | x    | x      | x        | x     | x       |
 

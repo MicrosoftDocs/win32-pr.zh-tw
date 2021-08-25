@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: da8f9c1c8bb3aa74c0ab22a5cc701e7d835898de
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: e6173abf04f42b0632441b436706318796a5d0af758928e61dd3f19d30bda881
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104323003"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120027968"
 ---
 # <a name="d3dmultisample_type-enumeration"></a>D3DMULTISAMPLE \_ 類型列舉
 

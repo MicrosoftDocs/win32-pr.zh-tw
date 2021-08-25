@@ -3,7 +3,7 @@ title: 'EM_GETIMEOPTIONS 訊息 (Richedit .h) '
 description: 抓取目前的輸入方法編輯器 (IME) 選項。
 ms.assetid: 81ec89b9-dabd-487e-805e-e3c2e58e3068
 keywords:
-- EM_GETIMEOPTIONS message Windows 控制項
+- EM_GETIMEOPTIONS 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7bd805f2407fbe9e055df3d9174f106d33991aca
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: aea4513189014969dbfdf69a0ad257cbfde6a4ff99c2499f478c4865100a23c2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104820"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120049058"
 ---
 # <a name="em_getimeoptions-message"></a>EM \_ GETIMEOPTIONS 訊息
 
@@ -58,8 +58,8 @@ ms.locfileid: "104104820"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Richedit。h</dt> </dl> |
 
 

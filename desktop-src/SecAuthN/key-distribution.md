@@ -4,12 +4,12 @@ ms.assetid: 90ab0359-5079-49e9-809c-0c0005cc61bf
 title: 金鑰散發
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9f04a2968e8b7b978bc7b325d65b4a2acf08e1f6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fcd39f9cd5e219ac1e6339c0a6c3e7b9a19dc2680c21e948bdb979af791719a6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103693315"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120013328"
 ---
 # <a name="key-distribution"></a>金鑰散發
 

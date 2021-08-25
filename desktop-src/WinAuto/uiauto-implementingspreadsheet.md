@@ -15,12 +15,12 @@ keywords:
 - 介面，ISpreadsheetProvider
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4be34174745ccf91435db92665b98eb387f7241a
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: d7991937f1530e28ed85227fbe19be13b628f9722d5609367e2f483c86a2bb70
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104315775"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120098278"
 ---
 # <a name="spreadsheet-control-pattern"></a>試算表控制項模式
 
@@ -47,7 +47,7 @@ ms.locfileid: "104315775"
 
 
 
- 
+ 
 
 此控制項模式沒有任何相關聯的事件。
 
@@ -64,6 +64,6 @@ ms.locfileid: "104315775"
 [UI 自動化樹狀目錄概觀](uiauto-treeoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

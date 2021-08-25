@@ -4,12 +4,12 @@ ms.assetid: 765ef06c-957e-48fa-be5f-9cedc7823564
 title: DevObjectType
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fde6917b241b5f0e6080deedb78ab2ab7f9f045f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4c9cad5ff647102c5b39a056b33467edd3266f080051044347667a28a6163349
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192565"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120010668"
 ---
 # <a name="systemdevicesdevobjecttype"></a>DevObjectType
 

@@ -5,16 +5,16 @@ ms.assetid: A2127915-98E4-4307-8FB3-FA011125B0D1
 ms.tgt_platform: multiple
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 85c073d37fa93dea66b7f022c513d8ad1c1ac351
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a9547f84f2c729f44ac4dc194eef0ac2b89ade6e373657082f6d242931dded40
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106968234"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119989357"
 ---
 # <a name="iwtsprotocolconnectioncallback-methods"></a>IWTSProtocolConnectionCallback 方法
 
-\[IWTSProtocolConnectionCallback 不再適用于 Windows Server 2012。\]
+\[IWTSProtocolConnectionCallback 不再提供 Windows Server 2012 使用。\]
 
 [**IWTSProtocolConnectionCallback**](/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwtsprotocolconnectioncallback)介面會公開下列方法。
 
@@ -26,9 +26,9 @@ ms.locfileid: "106968234"
 -   [**RedrawWindow 方法**](/windows/desktop/api/Wtsprotocol/nf-wtsprotocol-iwtsprotocolconnectioncallback-redrawwindow)
 -   [**StopScreenUpdates 方法**](/windows/desktop/api/Wtsprotocol/nf-wtsprotocol-iwtsprotocolconnectioncallback-stopscreenupdates)
 
- 
+ 
 
- 
+ 
 
 
 

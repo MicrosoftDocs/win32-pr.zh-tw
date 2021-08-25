@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 156367ec08a5f1ecd94181be56558f4ba07005b4
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: fd31f4ce5cac538624fe736642b30cbee9ba54579ee50da9a2ccd027847e9ecc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021295"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120067968"
 ---
 # <a name="registers---vs_2_0"></a>暫存器-vs \_ 2 \_ 0
 
@@ -24,19 +24,19 @@ ms.locfileid: "104021295"
 
 
 
-| 註冊 | Name                                                                                      | Count      | R/W | \# 讀取埠 | \# 讀取/inst | 維度 | RelAddr | Defaults     | 需要 DCL |
+| 註冊 | 名稱                                                                                      | 計數      | R/W | \# 讀取埠 | \# 讀取/inst | 尺寸 | RelAddr | Defaults     | 需要 DCL |
 |----------|-------------------------------------------------------------------------------------------|------------|-----|---------------|-----------------|-----------|---------|--------------|--------------|
-| V\#      | [輸入暫存器](dx9-graphics-reference-asm-vs-registers-input.md)                       | 16         | R   | 1             | 無限制       | 4         | 否      | 請參閱附注1   | Yes          |
-| R\#      | [暫時註冊](dx9-graphics-reference-asm-vs-registers-temporary.md)               | 12         | R/W | 3             | 無限制       | 4         | 否      | None         | No           |
+| v\#      | [輸入暫存器](dx9-graphics-reference-asm-vs-registers-input.md)                       | 16         | R   | 1             | 無限制       | 4         | 否      | 請參閱附注1   | Yes          |
+| R\#      | [暫時註冊](dx9-graphics-reference-asm-vs-registers-temporary.md)               | 12         | R/W | 3             | 無限制       | 4         | 否      | 無         | No           |
 | c\#      | [常數 Float Register](dx9-graphics-reference-asm-vs-registers-constant-float.md)     | 請參閱附註 2 | R   | 1             | 2               | 4         | a0/aL |  (0、0、0、0)  | No           |
-| a0       | [位址註冊](dx9-graphics-reference-asm-vs-registers-address.md)                   | 1          | R/W | 1             | 2               | 4         | 否      | None         | No           |
+| a0       | [位址註冊](dx9-graphics-reference-asm-vs-registers-address.md)                   | 1          | R/W | 1             | 2               | 4         | 否      | 無         | No           |
 | B\#      | [常數布林值暫存器](dx9-graphics-reference-asm-vs-registers-constant-boolean.md) | 16         | R   | 1             | 1               | 1         | 否      | FALSE        | No           |
-| 我\#      | [常數整數暫存器](dx9-graphics-reference-asm-vs-registers-constant-integer.md) | 16         | R   | 1             | 1               | 4         | 否      |  (0、0、0、0)  | No           |
-| 鋁       | [迴圈計數器暫存器](dx9-graphics-reference-asm-vs-registers-loop-counter.md)         | 1          | R   | 1             | 2               | 1         | 否      | None         | No           |
+| i\#      | [常數整數暫存器](dx9-graphics-reference-asm-vs-registers-constant-integer.md) | 16         | R   | 1             | 1               | 4         | 否      |  (0、0、0、0)  | No           |
+| 鋁       | [迴圈計數器暫存器](dx9-graphics-reference-asm-vs-registers-loop-counter.md)         | 1          | R   | 1             | 2               | 1         | 否      | 無         | No           |
 
 
 
- 
+ 
 
 注意：
 
@@ -47,17 +47,17 @@ ms.locfileid: "104021295"
 
 
 
-| 註冊 | Name                                                                                          | Count | R/W | 維度 | RelAddr | Defaults | 需要 DCL |
+| 註冊 | 名稱                                                                                          | 計數 | R/W | 尺寸 | RelAddr | Defaults | 需要 DCL |
 |----------|-----------------------------------------------------------------------------------------------|-------|-----|-----------|---------|----------|--------------|
-| oPos     | [位置註冊](dx9-graphics-reference-asm-vs-registers-position.md)                     | 1     | W   | 4         | 否      | None     | No           |
-| oFog     | [霧化暫存器](dx9-graphics-reference-asm-vs-registers-fog.md)                               | 1     | W   | 1         | 否      | None     | No           |
-| 選擇     | [點大小暫存器](dx9-graphics-reference-asm-vs-registers-point-size.md)                 | 1     | W   | 1         | 否      | None     | No           |
-| Od\#     | [色彩註冊](dx9-graphics-reference-asm-vs-registers-color.md);請參閱附注1               | 2     | W   | 4         | 否      | None     | No           |
-| oT\#     | [材質座標註冊](dx9-graphics-reference-asm-vs-registers-texture-coordinate.md) | 8     | W   | 4         | 否      | None     | No           |
+| oPos     | [位置註冊](dx9-graphics-reference-asm-vs-registers-position.md)                     | 1     | W   | 4         | 否      | 無     | No           |
+| oFog     | [霧化暫存器](dx9-graphics-reference-asm-vs-registers-fog.md)                               | 1     | W   | 1         | 否      | 無     | No           |
+| 選擇     | [點大小暫存器](dx9-graphics-reference-asm-vs-registers-point-size.md)                 | 1     | W   | 1         | 否      | 無     | No           |
+| Od\#     | [色彩註冊](dx9-graphics-reference-asm-vs-registers-color.md);請參閱附注1               | 2     | W   | 4         | 否      | 無     | No           |
+| oT\#     | [材質座標註冊](dx9-graphics-reference-asm-vs-registers-texture-coordinate.md) | 8     | W   | 4         | 否      | 無     | No           |
 
 
 
- 
+ 
 
 注意：
 
@@ -70,9 +70,9 @@ ms.locfileid: "104021295"
 [頂點著色器暫存器](dx9-graphics-reference-asm-vs-registers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

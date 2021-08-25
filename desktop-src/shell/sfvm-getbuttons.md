@@ -4,12 +4,12 @@ ms.assetid: 0c0dbf61-9da9-4bcc-bad9-92c3f78db78f
 title: 'SFVM_GETBUTTONS 訊息 (Shlobj.h .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2ad4ced86909c37ec77bf0470b46a40954f5b61c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 299641ef45d17a6ad1e4d709c3250abe220e297daedabcb563eeba9dcf56262a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103850664"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120008978"
 ---
 # <a name="sfvm_getbuttons-message"></a>SFVM \_ GETBUTTONS 訊息
 

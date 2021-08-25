@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: ffcc9d2beed4050a8eed34925f30e52f67d129b0
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5ee34e566bafa72812303fcb1f41b664a45aa77772e6ee818b9cb79bc94cbb51
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105179"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119904521"
 ---
 # <a name="processingerrordatatype-complex-type"></a>ProcessingErrorDataType 複雜類型
 
@@ -54,10 +54,10 @@ ms.locfileid: "104105179"
 
 
 
-| 元素                                                                          | 類型        | Description                                                                          |
+| 元素                                                                          | 類型        | 描述                                                                          |
 |----------------------------------------------------------------------------------|-------------|--------------------------------------------------------------------------------------|
 | [**DataItemName**](eventschema-dataitemname-processingerrordatatype-element.md) | 字串      | 造成錯誤之事件資料項目的名稱。<br/>                    |
-| [**錯誤碼**](eventschema-errorcode-processingerrordatatype-element.md)       | unsignedInt | 轉譯事件資料時所發生的錯誤錯誤碼。<br/> |
+| [**ErrorCode**](eventschema-errorcode-processingerrordatatype-element.md)       | unsignedInt | 轉譯事件資料時所發生的錯誤錯誤碼。<br/> |
 | [**EventPayload**](eventschema-eventpayload-processingerrordatatype-element.md) | hexBinary   | 包含整個事件資料的二進位 blob。<br/>                        |
 
 
@@ -68,8 +68,8 @@ ms.locfileid: "104105179"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

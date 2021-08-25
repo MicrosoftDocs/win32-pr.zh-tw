@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10Mesh.h
-ms.openlocfilehash: 6640834cf81bfa5e4b6263d3b3cfbb1181bb16c9
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: d4b98550a2f3a896ed7b99f3e16f33a399a58035497e44420709ee8a0726901b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103946206"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119989468"
 ---
 # <a name="d3dx10_mesh_discard_flags-enumeration"></a>D3DX10 \_ 網格 \_ 捨棄 \_ 旗標列舉
 

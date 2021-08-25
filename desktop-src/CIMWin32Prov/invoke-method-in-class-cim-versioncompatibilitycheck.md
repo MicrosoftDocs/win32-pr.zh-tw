@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: bccbb6072ae84a238b60247daf6b81cfaa74e608
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 264c2b3810fc60e10e12e00328255398704d31199d5205513e4dbcdf0558aac0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847196"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120003268"
 ---
 # <a name="invoke-method-of-the-cim_versioncompatibilitycheck-class"></a>CIM VersionCompatibilityCheck 類別的 Invoke 方法 \_
 

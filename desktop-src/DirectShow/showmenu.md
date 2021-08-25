@@ -4,17 +4,17 @@ ms.assetid: 78fd0b80-baec-4174-9c55-f061627c3599
 title: ShowMenu
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 53b78c2751a270b56f95bac223ab80b2e2143b04
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: b56eb6767a8144bab3de832570db63bc4e2cdc012490f776f52b6c8977cce9d3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103935869"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120050448"
 ---
 # <a name="showmenu"></a>ShowMenu
 
 > [!Note]  
-> 此元件可用於 Microsoft Windows 2000、Windows XP 及 Windows Server 2003 作業系統。 它在後續版本中可能會變更或無法使用。
+> 此元件可在 Microsoft Windows 2000、Windows XP 和 Windows Server 2003 作業系統中使用。 它在後續版本中可能會變更或無法使用。
 
  
 

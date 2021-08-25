@@ -4,12 +4,12 @@ ms.assetid: d3dbe6ab-810c-4798-a769-c3f00c52a93a
 title: 寫入檔案
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bda23b144956ab5afca9dd733b29a6f9d639cddf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2cabb5575f371c6525e58cc8ede7d05c2701acc31be325af46e3b00e6e2d8d20
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106995826"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120051397"
 ---
 # <a name="writing-the-file"></a>寫入檔案
 
@@ -18,7 +18,7 @@ ms.locfileid: "106995826"
 若要顯示檔案寫入作業的進度，請查詢 [**IMediaSeeking**](/windows/desktop/api/Strmif/nn-strmif-imediaseeking) 介面的 Mux 篩選器。 呼叫 [**IMediaSeeking：： GetDuration**](/windows/desktop/api/Strmif/nf-strmif-imediaseeking-getduration) 方法，以取得檔案的持續時間。 當圖形正在執行時，會定期呼叫 [**IMediaSeeking：： GetCurrentPosition**](/windows/desktop/api/Strmif/nf-strmif-imediaseeking-getcurrentposition) 方法，以抓取圖形在資料流程中的目前位置。 依持續時間劃分的目前位置會讓百分比完成。
 
 > [!Note]  
-> 應用程式通常會查詢篩選圖形管理員以進行 **IMediaSeeking**，但是檔案寫入是此規則的例外狀況。 篩選圖形管理員會從開始位置和圖形執行的時間計算出目前的位置，這對檔案播放而言是正確的，但無法寫入檔案。 因此，若要取得精確的結果，您應該從 MUX 篩選器取出位置。
+> 應用程式通常會查詢篩選 Graph 管理員以進行 **IMediaSeeking**，但是檔案寫入是此規則的例外狀況。 篩選 Graph 管理員會從開始位置和圖形執行的時間計算出目前的位置，這對檔案播放而言是正確的，但無法寫入檔案。 因此，若要取得精確的結果，您應該從 MUX 篩選器取出位置。
 
  
 

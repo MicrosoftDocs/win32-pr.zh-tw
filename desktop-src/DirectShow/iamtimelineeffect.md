@@ -1,5 +1,5 @@
 ---
-description: IAMTimelineEffect 介面會提供方法，在 (DES) 的 DirectShow 編輯服務中操作音訊和影片效果。
+description: IAMTimelineEffect 介面提供在 DirectShow 編輯服務 (DES) 中操作音訊和影片效果的方法。
 ms.assetid: 3cc8a5f8-3f57-4e2b-82dd-827e04c771f7
 title: 'IAMTimelineEffect 介面 (Qedit .h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: 8b9936616b9c4487849053d36c6a63290bd16b5c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f710693c967e1f0ac73c69534e8ac90a65d6603e749cd2aeae6a355ed8517415
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106996519"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120052758"
 ---
 # <a name="iamtimelineeffect-interface"></a>IAMTimelineEffect 介面
 
@@ -28,11 +28,11 @@ ms.locfileid: "106996519"
 
  
 
-`IAMTimelineEffect`介面提供在 (DES) 的[DirectShow 編輯服務](directshow-editing-services.md)中操作音訊和影片效果的方法。 效果可以加入至任何公開 [**IAMTimelineEffectable**](iamtimelineeffectable.md) 介面的時間軸物件。 若要設定效果的屬性，請使用 [**IPropertySetter**](ipropertysetter.md) 介面。
+`IAMTimelineEffect`介面提供在[DirectShow 編輯服務](directshow-editing-services.md) (DES) 中操作音訊和影片效果的方法。 效果可以加入至任何公開 [**IAMTimelineEffectable**](iamtimelineeffectable.md) 介面的時間軸物件。 若要設定效果的屬性，請使用 [**IPropertySetter**](ipropertysetter.md) 介面。
 
 DES 效果物件實際上是兩個其他物件之一的包裝函式：
 
--   針對音訊效果，任何 DirectShow 音訊效果篩選。
+-   針對音訊效果，任何 DirectShow 的音效效果篩選。
 -   適用于影片效果和1輸入 DirectX 轉換物件。
 
 Microsoft 不再支援協力廠商 DirectX 轉換物件的開發。
@@ -69,7 +69,7 @@ Microsoft 不再支援協力廠商 DirectX 轉換物件的開發。
  
 
 > [!Note]  
-> 若要取得 Qedit，請下載 [適用于 Windows Vista 和 .NET Framework 3.0 的 Microsoft Windows SDK 更新](https://msdn.microsoft.com/windowsvista/bb980924.aspx)。 在 Windows 7 和 .NET Framework 3.5 Service Pack 1 的 Microsoft Windows SDK 中無法使用 Qedit。
+> 若要取得 Qedit，請下載[Windows Vista 和 .NET Framework 3.0 的 Microsoft Windows SDK 更新](https://msdn.microsoft.com/windowsvista/bb980924.aspx)。 Windows 7 和 .NET Framework 3.5 Service Pack 1 的 Microsoft Windows SDK 中無法使用 Qedit。
 
  
 

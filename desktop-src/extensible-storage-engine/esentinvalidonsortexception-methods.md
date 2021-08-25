@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102031
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 3921f6f2f27815829204450ea9a53ad374020b4c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d8961788f29ffa9600a7f935312e6c396719bdfbdaea0f7787411c80ee1c6d71
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104564966"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120064553"
 ---
 # <a name="esentinvalidonsortexception-methods"></a>EsentInvalidOnSortException 方法
 

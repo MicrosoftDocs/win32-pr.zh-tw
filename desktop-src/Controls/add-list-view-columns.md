@@ -4,12 +4,12 @@ description: 本主題示範如何將資料行加入至清單視圖控制項。
 ms.assetid: 9DBDFF56-7CD6-467C-AD2E-64213615E241
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 75e478c57a31fdd7ad91e0089106e93c24c47d5c
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: ee71065729502410d189493527af0e3e37663a4a2aaf541852454af7fa4a5aac
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "104024345"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119922078"
 ---
 # <a name="how-to-add-list-view-columns"></a>如何新增 List-View 資料行
 
@@ -19,12 +19,12 @@ ms.locfileid: "104024345"
 
 ### <a name="technologies"></a>技術
 
--   [Windows 控制項](window-controls.md)
+-   [Windows控制](window-controls.md)
 
 ### <a name="prerequisites"></a>必要條件
 
 -   C/C++
--   Windows 消費者介面程式設計
+-   Windows消費者介面程式設計
 
 ## <a name="instructions"></a>指示
 

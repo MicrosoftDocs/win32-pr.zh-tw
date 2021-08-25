@@ -4,12 +4,12 @@ ms.assetid: 0d122fa8-2ed8-4bd8-a52e-6cb20fe81741
 title: 顯示物件、實例和計數器名稱
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 92c0b7808ede82110d28b80c371d5f88ced03912
-ms.sourcegitcommit: 3d718d8f69d3f86eaecf94c5705d761c5a9ef4a1
+ms.openlocfilehash: 1b31251b9efd9624b63543d0690e4ee7eadfb638995d3b0f265f6d059b83ef20
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "103933702"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120033918"
 ---
 # <a name="displaying-object-instance-and-counter-names"></a>顯示物件、實例和計數器名稱
 
@@ -819,9 +819,9 @@ void FreePerfObjects(PPERF_OBJECT pObjects, DWORD dwNumberOfObjects)
 
 
 
- 
+ 
 
- 
+ 
 
 
 

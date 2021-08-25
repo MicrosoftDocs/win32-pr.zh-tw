@@ -1,5 +1,5 @@
 ---
-title: 'Windows 事件收集器常數 (Evcoll .h) '
+title: 'Windows事件收集器常數 (Evcoll .h) '
 description: Windows 事件收集器 SDK 包含下列常數。
 ms.assetid: 2ba862f9-6849-43b3-8914-e18ede1d63c0
 ms.tgt_platform: multiple
@@ -19,14 +19,14 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cf6e7e99186e2148bf6ec3400aadf760a79a2331
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8d168ecb16c293c524c4dffcb16aee7db2924e23219e42d402939ab26b4bbecf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103685468"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120005978"
 ---
-# <a name="windows-event-collector-constants"></a>Windows 事件收集器常數
+# <a name="windows-event-collector-constants"></a>Windows事件收集器常數
 
 Windows 事件收集器 SDK 包含下列常數。
 

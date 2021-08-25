@@ -4,12 +4,12 @@ description: 本檔說明用來開發軟體來管理 RAS 撥號連線的 RRAS �
 ms.assetid: 27cf63e2-9dd3-4bc1-98af-e93055d89492
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ec0a18f6c49964d89c308b065289dd4de9fc22c5
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ec2013305f1e37cdc90a1e331c93813520ff20aaafc6b32ffd2471f1f2cb7074
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104301900"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120036278"
 ---
 # <a name="ras-administration-functions"></a>RAS 管理功能
 
@@ -43,9 +43,9 @@ ms.locfileid: "104301900"
 
 -   [RAS 使用者管理功能](ras-user-administration-functions.md)
 
- 
+ 
 
- 
+ 
 
 
 

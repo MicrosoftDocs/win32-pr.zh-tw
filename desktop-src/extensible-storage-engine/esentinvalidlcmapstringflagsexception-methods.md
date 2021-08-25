@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101976
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: a8dc9b87894969fd3e8e2d30bcdf9206451e2712
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 38b813f6768eec3e1eb8155b3f9edeae14909a4a5bbc5fac086c78b6ee5ff9b9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104550469"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120064578"
 ---
 # <a name="esentinvalidlcmapstringflagsexception-methods"></a>EsentInvalidLCMapStringFlagsException 方法
 

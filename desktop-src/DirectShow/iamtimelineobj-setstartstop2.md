@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: 190e47d2ccee00d202dc16e20704b545447d844f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 30e7f9e6ce54cb86e2eee486937841842311dd498b42ec42e101128612bf16d8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107001125"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120086828"
 ---
 # <a name="iamtimelineobjsetstartstop2-method"></a>IAMTimelineObj：： SetStartStop2 方法
 
@@ -66,7 +66,7 @@ HRESULT SetStartStop2(
 
 
 
-| 傳回碼                                                                                  | Description                  |
+| 傳回碼                                                                                  | 描述                  |
 |----------------------------------------------------------------------------------------------|------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>         | 成功。<br/>          |
 | <dl> <dt>**E \_ INVALIDARG**</dt> </dl> | 無效引數。<br/> |
@@ -84,7 +84,7 @@ HRESULT SetStartStop2(
  
 
 > [!Note]  
-> 若要取得 Qedit，請下載 [適用于 Windows Vista 和 .NET Framework 3.0 的 Microsoft Windows SDK 更新](https://msdn.microsoft.com/windowsvista/bb980924.aspx)。 在 Windows 7 和 .NET Framework 3.5 Service Pack 1 的 Microsoft Windows SDK 中無法使用 Qedit。
+> 若要取得 Qedit，請下載[Windows Vista 和 .NET Framework 3.0 的 Microsoft Windows SDK 更新](https://msdn.microsoft.com/windowsvista/bb980924.aspx)。 Windows 7 和 .NET Framework 3.5 Service Pack 1 的 Microsoft Windows SDK 中無法使用 Qedit。
 
  
 

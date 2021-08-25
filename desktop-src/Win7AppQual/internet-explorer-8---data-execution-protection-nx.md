@@ -4,19 +4,19 @@ ms.assetid: 56a4889c-5dcf-416f-b46e-5c48277d5636
 title: Internet Explorer 8-資料執行防止/NX
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eb0208cc20e78c30f42b09af78460990be20b002
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 8b1f969aa2e934f36142995150b6484dad2fa5067f6cbb5ab3a947055af375ed
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108088246"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119998888"
 ---
 # <a name="internet-explorer-8---data-execution-protectionnx"></a>Internet Explorer 8-資料執行防止/NX
 
 ## <a name="affected-platforms"></a>受影響的平臺
 
- **客戶** 端-windows XP、windows Vista、windows 7  
-**伺服器** -windows server 2003、windows server 2008、windows Server 2008 R2  
+ **客戶** 端-Windows XP、Windows Vista、Windows 7  
+**伺服器**-Windows server 2003、Windows server 2008、Windows Server 2008 R2  
 
 
 
@@ -28,7 +28,7 @@ ms.locfileid: "108088246"
 
 
 > [!Note]  
-> Internet Explorer 8 將在具有最新 service pack 的作業系統上執行時，啟用 DEP/NX 保護。 在 Internet Explorer 8 中，windows XP SP3、Windows Server 2003 SP3、Windows Vista SP1 和 Windows Server 2008 都預設啟用 DEP/NX。
+> Internet Explorer 8 將在具有最新 service pack 的作業系統上執行時，啟用 DEP/NX 保護。 WindowsXP SP3、Windows Server 2003 SP3、Windows Vista SP1 和 Windows Server 2008 都預設會在 Internet Explorer 8 中啟用 DEP/NX。
 
  
 
@@ -42,7 +42,7 @@ ms.locfileid: "108088246"
 
  
 
-## <a name="description"></a>Description
+## <a name="description"></a>描述
 
 DEP/NX 是一種安全性功能，可協助減輕記憶體相關弱點。 從 Internet Explorer 8，所有 Internet Explorer 進程預設都會啟用 DEP/NX 功能。
 
@@ -66,7 +66,7 @@ Windows 核心會監視程式的執行。 如果核心偵測到嘗試從未標�
 
 ## <a name="compatibility-performance-reliability-and-usability-testing"></a>相容性、效能、可靠性和可用性測試
 
--   在 Windows Vista SP1 或更新版本上使用最新發行的 Internet Explorer 版本，以啟用 DEP/NX 測試您的程式碼。
+-   使用 Windows Vista SP1 或更新版本上最新發行的 Internet Explorer 版本，在啟用 DEP/NX 的情況下測試您的程式碼。
 -   啟用 DEP/NX 選項之後，請在 Windows Vista 上使用 Internet Explorer 7 進行測試。 若要啟用 Internet Explorer 7 的 DEP/NX，請以系統管理員身分執行 Internet Explorer，然後在 [工具 > 的 [網際網路選項] > [Advanced] 索引標籤中，設定適當的核取方塊。
 -   使用應用程式相容性工具組所提供的 Internet Explorer 相容性測試控管 (IECTT)  (ACT) 找出因 DEP/NX 變更而產生的任何潛在問題。
 
@@ -74,7 +74,7 @@ Windows 核心會監視程式的執行。 如果核心偵測到嘗試從未標�
 
 -   [Internet Explorer 8 安全性第 I 部： DEP/NX 記憶體保護](/archive/blogs/ie/)
 -   [資料執行防止](../memory/data-execution-prevention.md)
--   [新增至 Windows Vista SP1、Windows XP SP3 和 Windows Server 2008 R2 的新 NX Api](/archive/blogs/michael_howard/)
+-   [已將新的 NX api 新增至 Windows Vista SP1、Windows XP SP3 和 Windows Server 2008 R2](/archive/blogs/michael_howard/)
 -   [應用程式相容性工具組下載](/windows-hardware/get-started/adk-install)
 -   [已知 Internet Explorer 安全性功能問題](/previous-versions/windows/it-pro/windows-7/cc722079(v=ws.10))
 

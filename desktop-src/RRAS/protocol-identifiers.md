@@ -4,12 +4,12 @@ description: 下列通訊協定識別碼也會列在 Windows SDK 的 Routprot �
 ms.assetid: f67138b8-de5d-4907-a464-672d57864ebf
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 59ac515eb4b5090c0b4f75fd923d8345538ff5e3
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: dafcbcd028b5c8d4f58172565b34c93cff8d8f9ff766c055e3d8a956cfbb0aa8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104315946"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120036468"
 ---
 # <a name="protocol-identifiers"></a>通訊協定識別碼
 
@@ -39,13 +39,13 @@ ms.locfileid: "104315946"
 | PROTO \_ IP \_ BGP，MIB \_ IPPROTO \_ BGP                            | 邊界閘道協定 (BGP) 是動態路由通訊協定。                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | PROTO \_ IP \_ BOOTP，MIB \_ IPPROTO \_ BOOTP                        | 啟動程式通訊協定。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | PROTO \_ IPV6 \_ DHCPRELAY、MIB \_ IPV6PROTO \_ HDCPRELAY            | DHCPv6 轉送通訊協定。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| PROTO \_ IP \_ NT \_ AUTOSTATIC、MIB \_ IPNT \_ AUTOSTATIC             | 最初由路由通訊協定加入的 Windows 特定專案，但現在是靜態的。                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| PROTO \_ IP \_ NT \_ AUTOSTATIC、MIB \_ IPNT \_ AUTOSTATIC             | Windows 的特定專案原本是由路由通訊協定所新增，但現在是靜態的。                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | PROTO \_ IP \_ NT \_ 靜態、MIB \_ IPNT \_ 靜態                     | 從路由使用者介面或路由命令新增為靜態路由的 Windows 特定專案。                                                                                                                                                                                                                                                                                                                                                                                                               |
-| PROTO \_ IP \_ NT \_ 靜態 \_ 非 \_ DOD，MIB \_ IPNT \_ 靜態 \_ 非 \_ DOD | 從路由使用者介面或路由命令新增為靜態路由的 Windows 特定專案，但這些路由不會造成 (DOD) 的撥號要求。                                                                                                                                                                                                                                                                                                                                                        |
+| PROTO \_ IP \_ NT \_ 靜態 \_ 非 \_ DOD，MIB \_ IPNT \_ 靜態 \_ 非 \_ DOD | 從路由使用者介面或路由命令新增為靜態路由的 Windows 特定的專案，但這些路由不會造成 (DOD) 的撥號要求。                                                                                                                                                                                                                                                                                                                                                        |
 
 
 
- 
+ 
 
 具有 PROTO IP 本機通訊協定識別碼的路由 \_ \_ 包括：
 
@@ -76,7 +76,7 @@ IPRTRMGR \_ PID
 
 
 
- 
+ 
 
 IPX 路由器管理員的識別碼為：
 
@@ -84,6 +84,6 @@ IPX \_ 通訊協定 \_ 基底
 
 使用此識別碼，而不使用路由通訊協定識別碼進行與 IPX 路由器管理員的 MIB 通話。
 
- 
+ 
 
- 
+ 

@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: a78b31212cd769d4e418b382f5cc4aa8ab7e0dca
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 275bedabba24e4bd437363aed6bccc2aa47e60fdf1e7b736ab95196551cd4ae3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106989464"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120019548"
 ---
 # <a name="esentlogsectorsizemismatchexception-class"></a>EsentLogSectorSizeMismatchException 類別
 

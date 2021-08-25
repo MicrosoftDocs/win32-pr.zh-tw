@@ -4,20 +4,20 @@ ms.assetid: b668f1c3-eed0-44c5-921f-e92c016130f0
 title: 物件格式 Guid
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d69d941e8c644597fc182a9a0ed1207a88bad060
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6737795e2315ae1d69790fbdb7a981dc976181e77f944a899047781070b707b5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103693536"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120054938"
 ---
 # <a name="object-format-guids"></a>物件格式 Guid
 
-裝置上的檔案格式可由 **GUID** 值描述。 這個值是由 [ **WPD \_ 物件 \_ 格式** ] 屬性所指定。 Windows 可攜式裝置會定義下列格式：
+裝置上的檔案格式可由 **GUID** 值描述。 這個值是由 [ **WPD \_ 物件 \_ 格式** ] 屬性所指定。 Windows可攜式裝置會定義下列格式：
 
 
 
-| 格式 GUID                                | Description                                                                                                                                                  |
+| 格式 GUID                                | 描述                                                                                                                                                  |
 |--------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | WPD \_ 物件 \_ 格式 \_ .3g2                   | .3G2 音訊或影片、檔案                                                                                                                                    |
 | WPD \_ 物件 \_ 格式 \_ 3G2A                  | 音訊 (3G2A)                                                                                                                                                  |
@@ -39,22 +39,22 @@ ms.locfileid: "103693536"
 | WPD \_ 物件 \_ 格式 \_ 可執行檔            | 可執行檔                                                                                                                                                   |
 | WPD \_ 物件 \_ 格式的 \_ EXIF                  | 映射 (交換檔案格式)                                                                                                                              |
 | WPD \_ 物件 \_ 格式 \_ FLAC                  | 音訊 (FLAC)                                                                                                                                                  |
-| WPD \_ 物件 \_ 格式 \_ FLASHPIX              | 映射 (結構化儲存體映射格式)                                                                                                                       |
+| WPD \_ 物件 \_ 格式 \_ FLASHPIX              | 影像 (結構化儲存體影像格式)                                                                                                                       |
 | WPD \_ 物件 \_ 格式 \_ GIF                   | 影像 (GIF、圖形交換格式)                                                                                                                      |
 | WPD \_ 物件 \_ 格式 \_ HTML                  | HTML                                                                                                                                                         |
-| WPD \_ 物件 \_ 格式 \_ 圖示                  | Windows 圖示 (.ICO)                                                                                                                                            |
+| WPD \_ 物件 \_ 格式 \_ 圖示                  | Windows 圖示 (.ico)                                                                                                                                            |
 | WPD \_ 物件 \_ 格式 \_ JFIF                  | 影像 (JPEG 交換格式)                                                                                                                               |
 | WPD \_ 物件 \_ 格式 \_ .jp2                   | 映射 (JPEG2000 基準檔案格式)                                                                                                                         |
 | WPD \_ 物件 \_ 格式 \_ JPEGXR                | 影像 (JPEGXR，也稱為 HD 相片)                                                                                                                  |
 | WPD \_ 物件 \_ 格式 \_ JPX                   | 映射 (JPEG2000 延伸檔案格式)                                                                                                                         |
 | WPD \_ 物件 \_ 格式 \_ M3UPLAYLIST           | 播放清單 (M3U)                                                                                                                                                |
 | WPD \_ 物件 \_ 格式的 \_ MHT \_ 編譯 \_ HTML   | MHT 編譯過的 HTML 檔案檔案格式                                                                                                                       |
-| WPD \_ 物件 \_ 格式 \_ MICROSOFT \_ EXCEL      | Microsoft Office Excel 檔檔案格式                                                                                                                  |
-| WPD \_ 物件 \_ 格式 \_ MICROSOFT \_ POWERPOINT | Microsoft Office PowerPoint 檔檔案格式                                                                                                             |
+| WPD \_ 物件 \_ 格式 \_ MICROSOFT \_ EXCEL      | Microsoft Office Excel 檔案格式                                                                                                                  |
+| WPD \_ 物件 \_ 格式 \_ MICROSOFT \_ POWERPOINT | Microsoft Office PowerPoint 檔案格式                                                                                                             |
 | \_ \_ \_ MICROSOFT WFC 的 WPD 物件格式 \_        | Windows Connect Now 檔案格式                                                                                                                              |
-| WPD \_ 物件 \_ 格式 \_ MICROSOFT \_ WORD       | Microsoft Office Word 檔案格式                                                                                                                   |
+| WPD \_ 物件 \_ 格式 \_ MICROSOFT \_ WORD       | Microsoft OfficeWord 檔檔案格式                                                                                                                   |
 | WPD \_ 物件 \_ 格式 \_ .mp2                   | 音訊或影片檔案格式 (.MP2)                                                                                                                              |
-| WPD \_ 物件 \_ 格式 \_ MP3                   | 音訊 (MP3)                                                                                                                                                   |
+| WPD \_ 物件 \_ 格式 \_ MP3                   | 音訊 (MP3)                                                                                                                                                  |
 | WPD \_ 物件 \_ 格式 \_ M4A                   | MPEG4 音訊檔案                                                                                                                                             |
 | WPD \_ 物件 \_ 格式 \_                   | MPEG4 影片檔案                                                                                                                                             |
 | WPD \_ 物件 \_ 格式 \_ MPEG                  |  (MPEG) 的影片                                                                                                                                                 |
@@ -72,13 +72,13 @@ ms.locfileid: "103693536"
 | WPD \_ 物件 \_ 格式 \_ TIFF                  | 影像 (標記影像檔案格式)                                                                                                                                 |
 | WPD \_ 物件 \_ 格式 \_ TIFFEP                | 電子攝影) 的影像 (標記圖像檔案格式                                                                                                     |
 | WPD \_ 物件 \_ 格式 \_ TIFFIT                | 資訊技術) 的影像 (標記圖像檔案格式                                                                                                   |
-| \_ \_ 未指定 WPD 物件格式 \_           | 裝置上未定義或未指定的物件格式。 這會用於無法由定義的 Windows 可攜式裝置格式代碼指定的物件。 |
+| \_ \_ 未指定 WPD 物件格式 \_           | 裝置上未定義或未指定的物件格式。 這用於無法透過定義的 Windows 可攜式裝置格式代碼來指定的物件。 |
 | WPD \_ 物件 \_ 格式 \_ VCALENDAR1            | vCalendar 檔案格式 (vCalendar 第1版)                                                                                                                   |
 | WPD \_ 物件 \_ 格式 \_ VCARD2                | vcard 檔案格式 (vCard 第2版)                                                                                                                           |
 | WPD \_ 物件 \_ 格式 \_ VCARD3                | vcard 檔案格式 (vCard 第3版)                                                                                                                           |
 | WPD \_ 物件 \_ 格式 \_ WAVE                  | 音訊檔案 (WAV)                                                                                                                                              |
 | WPD \_ 物件 \_ 格式 \_ .WBMP                  | 影像 (無線應用程式協定點陣圖格式)                                                                                                           |
-| WPD \_ 物件 \_ 格式 \_ WINDOWSIMAGEFORMAT    | Image                                                                                                                                                        |
+| WPD \_ 物件 \_ 格式 \_ WINDOWSIMAGEFORMAT    | 映像                                                                                                                                                        |
 | WPD \_ 物件 \_ 格式 \_ WMA                   | 音訊 (WMA)                                                                                                                                                   |
 | WPD \_ 物件 \_ 格式 \_ WMV                   |  (WMV) 的影片                                                                                                                                                  |
 | WPD \_ 物件 \_ 格式 \_ WPLPLAYLIST           | 播放清單 (.WPL)                                                                                                                                                |
