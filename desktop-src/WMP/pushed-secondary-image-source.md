@@ -3,19 +3,19 @@ title: 推送的次要影像來源
 description: 推送的次要影像來源
 ms.assetid: f2a2380d-c876-456b-837b-01b3997d81f2
 keywords:
-- Windows Media Player 行動外觀、按鈕影像來源
+- Windows Media Player行動外觀，按鈕影像來源
 - 外觀，按鈕影像來源
 - 外觀、按鈕的參考
 - 外觀、影像來源中的按鈕
 - 外觀、按鈕的影像來源
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6de50f72c8af34fa4f3e44507e172cae6890dc47
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 37045da71b8417856ec72ac7e57a6a787426ba486993b9fef03910b4d32e663d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021523"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119861828"
 ---
 # <a name="pushed-secondary-image-source"></a>推送的次要影像來源
 
@@ -42,9 +42,9 @@ Pushed @ 248,0
 [**按鈕**](buttons.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

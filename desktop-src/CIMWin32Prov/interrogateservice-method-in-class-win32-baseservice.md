@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 29e29c152e7fea8de7a2ccaf1e7d86bf3a08d4c1
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 02c48dfefe0a1e504dfd40af802ea0737852c61c0cda2c5b62ceff7d9234f3ee
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936214"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119760398"
 ---
 # <a name="interrogateservice-method-of-the-win32_baseservice-class"></a>Win32 BaseService 類別的 InterrogateService 方法 \_
 

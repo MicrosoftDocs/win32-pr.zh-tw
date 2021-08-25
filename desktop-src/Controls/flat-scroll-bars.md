@@ -4,12 +4,12 @@ description: Microsoft Internet Explorer 4.0 推出了一個新的視覺技術�
 ms.assetid: f7e00e71-bf12-4db9-bb84-6d413b967049
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e56db4ee987a6d8cdc7b185f5db0f8d89540453
-ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
+ms.openlocfilehash: 24a89479ffc5bae08ed08f5c3f0ca2ec9498ac781438708154ca503a2427ffc7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "110423888"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119799641"
 ---
 # <a name="flat-scroll-bars"></a>平面捲軸
 

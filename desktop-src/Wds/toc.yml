@@ -7,10 +7,10 @@
       href: using-the-windows-deployment-services-server-api.md
     - name: 使用 Windows 部署服務用戶端 API
       href: using-the-windows-deployment-services-client-api.md
-    - name: Windows 部署服務參考
+    - name: Windows部署服務參考
       href: windows-deployment-services-reference.md
       items:
-        - name: Windows 部署服務用戶端函數
+        - name: Windows部署服務用戶端函數
           href: windows-deployment-services-client-functions.md
           items:
             - name: PFN_WdsCliCallback
@@ -83,7 +83,7 @@
               href: /windows/desktop/api/WdsClientAPI/nf-wdsclientapi-wdscligetimagehandlefromfindhandle
             - name: WdsCliGetImageHandleFromTransferHandle
               href: /windows/desktop/api/WdsClientAPI/nf-wdsclientapi-wdscligetimagehandlefromtransferhandle
-        - name: Windows 部署服務伺服器函數
+        - name: Windows部署服務伺服器函式
           href: windows-deployment-services-server-functions.md
           items:
             - name: PxeAsyncRecvDone
@@ -154,7 +154,7 @@
               href: /windows/desktop/api/WdsPxe/nf-wdspxe-pxedhcpv6parserelayforw
             - name: PxeDhcpv6CreateRelayRepl
               href: /windows/desktop/api/WdsPxe/nf-wdspxe-pxedhcpv6createrelayrepl
-        - name: Windows 部署服務傳輸函數
+        - name: Windows部署服務傳輸功能
           href: windows-deployment-services-transport--functions.md
           items:
             - name: WDS 傳輸提供者函式
@@ -238,7 +238,7 @@
                   href: /windows/desktop/api/Wdstci/nf-wdstci-wdstransportclientstartsession
                 - name: WdsTransportClientWaitForCompletion
                   href: /windows/desktop/api/Wdstci/nf-wdstci-wdstransportclientwaitforcompletion
-        - name: Windows 部署服務列舉
+        - name: Windows部署服務列舉
           href: windows-deployment-services-enumerations.md
           items:
             - name: TRANSPORTCLIENT_CALLBACK_ID
@@ -249,7 +249,7 @@
               href: /windows/desktop/api/wdsclientapi/ne-wdsclientapi-__unnamed_enum_2
             - name: WDS_LOG_TYPE_CLIENT
               href: /windows/desktop/api/wdsclientapi/ne-wdsclientapi-__unnamed_enum_1
-        - name: Windows 部署服務結構
+        - name: Windows部署服務結構
           href: windows-deployment-services-structures.md
           items:
             - name: PXE_ADDRESS
@@ -280,7 +280,7 @@
               href: /windows/win32/api/Wdstpdi/ns-wdstpdi-wds_transportprovider_init_params
             - name: WDS_TRANSPORTPROVIDER_SETTINGS
               href: /windows/win32/api/Wdstpdi/ns-wdstpdi-wds_transportprovider_settings
-        - name: Windows 部署服務傳輸管理 API
+        - name: Windows部署服務傳輸管理 API
           href: windows-deployment-services-transport-management-api.md
           items:
             - name: WDS 傳輸管理列舉
@@ -596,7 +596,7 @@
                   items:
                     - name: RetrieveTftpClients 方法
                       href: /windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransporttftpmanager-retrievetftpclients
-        - name: Windows 部署服務網路開機程式
+        - name: Windows部署服務網路開機程式
           href: windows-deployment-services-network-boot-program.md
           items:
             - name: WdsBpAddOption

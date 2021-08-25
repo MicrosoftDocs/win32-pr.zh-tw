@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: fa575bf30c71f6e43d1fd929bc40497d4cdb901e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 36b7286d606d937dbdbf5eac6fbb64788042c02ffee16d2b6c487d8a6553ae2b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106979988"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119780208"
 ---
 # <a name="systemparameterspagetempdbsmallest-field"></a>SystemParameters. PageTempDBSmallest 欄位
 

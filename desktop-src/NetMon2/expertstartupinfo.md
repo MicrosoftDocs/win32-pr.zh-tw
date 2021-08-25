@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Netmon.h
-ms.openlocfilehash: 627d47cec09a683f80c16374561899ab008d0596
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f49fcf3c87795dbd7c9e65745e1b5560331c96c471d8ff7b2c8a24560b143cb1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936635"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119911048"
 ---
 # <a name="expertstartupinfo-structure"></a>EXPERTSTARTUPINFO 結構
 

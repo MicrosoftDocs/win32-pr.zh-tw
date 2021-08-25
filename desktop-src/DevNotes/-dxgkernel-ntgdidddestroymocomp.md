@@ -16,12 +16,12 @@ api_location:
 - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
 - GDI32.dll
 - GDI32Full.dll
-ms.openlocfilehash: b7bc5915fe43bd4d48495b2b1beda8ee38f05fe9
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 414c9a5009a69d443189e39aecc2dda5601d819ff2beb8c1f523bc689007dc86
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847189"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119824918"
 ---
 # <a name="ntgdidddestroymocomp-function"></a>NtGdiDdDestroyMoComp 函式
 
@@ -65,7 +65,7 @@ DWORD APIENTRY NtGdiDdDestroyMoComp(
 
 
 
-| 傳回碼                                                                                              | Description                                                                                                                                                                                                                                                                                                                                                                |
+| 傳回碼                                                                                              | 描述                                                                                                                                                                                                                                                                                                                                                                |
 |----------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**DDHAL \_ 驅動程式已 \_ 處理**</dt> </dl>    | 驅動程式已執行作業，並傳回該操作的有效傳回碼。 如果這個程式碼是 DD \_ OK，DirectDraw 或 Direct3D 會繼續執行函數。 否則，DirectDraw 或 Direct3D 會傳回驅動程式所提供的錯誤碼，並中止函數。<br/>                                                                                 |
 | <dl> <dt>**DDHAL \_ 驅動程式 \_ NOTHANDLED**</dt> </dl> | 驅動程式對要求的作業沒有任何批註。 如果驅動程式必須執行特定的回呼，DirectDraw 或 Direct3D 會報告錯誤狀況。 否則，DirectDraw 或 Direct3D 會處理此作業，就像尚未執行 DirectDraw 或 Direct3D 裝置獨立的執行所定義的驅動程式回呼一樣。<br/> |

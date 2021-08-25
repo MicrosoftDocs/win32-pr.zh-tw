@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 44ab93428b683e39fe2081c7f58262cb7bde7280
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: ce17bbbf9bb928ce3b71b66f8fccdbb74d4a9a9669b4b7a5dcca64c4fab1cce6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106971261"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119925158"
 ---
 # <a name="iphostnumber-attribute"></a>ipHostNumber 屬性
 

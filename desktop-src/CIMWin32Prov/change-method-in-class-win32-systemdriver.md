@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: da814c8321e35189594bc350bd1e278a219bac59
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 96ff327e84d3a5b6c66011506c162810f0fcc91d0cafe4053266aa8928f6e5a2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104468368"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119925108"
 ---
 # <a name="change-method-of-the-win32_systemdriver-class"></a>Win32 >systemdriver 類別的 Change 方法 \_
 

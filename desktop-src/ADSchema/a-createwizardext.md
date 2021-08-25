@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9419d6d2a58b63c43a7bd2ebe4ed2835d1b568a4
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 2d6bcb8706f9e46476624f54d0e62549ceb2c895baa6eaf037230b4d62897d1f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104107255"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119926098"
 ---
 # <a name="create-wizard-ext-attribute"></a>建立-Wizard-Ext 屬性
 

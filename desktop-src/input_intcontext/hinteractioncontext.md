@@ -6,12 +6,12 @@ keywords:
 - HINTERACTIONCONTEXT
 ms.topic: article
 ms.date: 02/06/2020
-ms.openlocfilehash: d62f7ce0b5080cfac58538d948cba9d194e0cbdf
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: bd94a239f2c65b36206000b1c4b39bcfc63bf5d989b3e7fc21b80603268d96e9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464449"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119830358"
 ---
 # <a name="hinteractioncontext"></a>HINTERACTIONCONTEXT
 
@@ -25,8 +25,8 @@ typedef  HINTERACTIONCONTEXT;
 
 | 需求 | 值 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                                      |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                            |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                                      |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                                            |
 | 標頭<br/>                   | <dl> <dt>InteractioncoNtext。h</dt> </dl> |
 
 ## <a name="see-also"></a>另請參閱

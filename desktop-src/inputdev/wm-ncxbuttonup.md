@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6330849a433787dd09fad536f005d91f60376013
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2eab2067d3d16c3ae0864ba7ddf04b5666efa0186d0a7d55ebd5eddaa7533790
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103686119"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119829898"
 ---
 # <a name="wm_ncxbuttonup-message"></a>WM \_ NCXBUTTONUP 訊息
 
@@ -98,7 +98,7 @@ yPos = GET_Y_LPARAM(lParam);
 
 根據預設， [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) 函式會測試指定的點以取得資料指標的位置，並執行適當的動作。 如果有的話，它會將 [**WM \_ SYSCOMMAND**](/windows/desktop/menurc/wm-syscommand) 訊息傳送至視窗。
 
-不同于 [**wm \_ NCLBUTTONUP**](wm-nclbuttonup.md)、 [**wm \_ NCMBUTTONUP**](wm-ncmbuttonup.md)和 [**wm \_ NCRBUTTONUP**](wm-ncrbuttonup.md) 訊息，應用程式應該會在處理時從這個訊息傳回 **TRUE** 。 這麼做可讓在 Windows 2000 之前的 Windows 系統上模擬此訊息的軟體，判斷視窗程式是否已處理訊息或呼叫 [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) 來處理訊息。
+不同于 [**wm \_ NCLBUTTONUP**](wm-nclbuttonup.md)、 [**wm \_ NCMBUTTONUP**](wm-ncmbuttonup.md)和 [**wm \_ NCRBUTTONUP**](wm-ncrbuttonup.md) 訊息，應用程式應該會在處理時從這個訊息傳回 **TRUE** 。 這樣做會允許在早于 Windows 2000 的 Windows 系統上模擬此訊息的軟體，以判斷視窗程式是否已處理訊息或呼叫 [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca)來處理訊息。
 
 ## <a name="requirements"></a>規格需求
 

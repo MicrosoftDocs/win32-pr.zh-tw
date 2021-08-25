@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f6c255cb4d1c73e40b5636914d2bc70ae4e1efe3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8870281268ff9560d9c82455349f07c3df42e8ab1937b047c4aa9e431b02ed90
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106965109"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119825698"
 ---
 # <a name="mrmfreememory-function"></a>MrmFreeMemory 函式
 
@@ -45,9 +45,9 @@ HRESULT HRESULT MrmFreeMemory(
 *資料* \[在\]
 </dt> <dd>
 
-類型： **BYTE \** _
+類型：**位元組 \***
 
-由 [_ *MrmCreateConfigInMemory* *](mrmcreateconfiginmemory.md)、 [**MrmCreateResourceFileInMemory**](mrmcreateresourcefileinmemory.md)、 [**MrmDumpPriFileInMemory**](mrmdumpprifileinmemory.md)或 [**MrmDumpPriDataInMemory**](mrmdumppridatainmemory.md)所配置和傳回之記憶體的指標。
+[**MrmCreateConfigInMemory**](mrmcreateconfiginmemory.md)、 [**MrmCreateResourceFileInMemory**](mrmcreateresourcefileinmemory.md)、 [**MrmDumpPriFileInMemory**](mrmdumpprifileinmemory.md)或 [**MrmDumpPriDataInMemory**](mrmdumppridatainmemory.md)所配置和傳回之記憶體的指標。
 
 </dd> </dl>
 
@@ -64,7 +64,7 @@ HRESULT HRESULT MrmFreeMemory(
 | 需求 | 值 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 10， \[ 僅限1803版桌面應用程式\]<br/>                                       |
-| 最低支援的伺服器<br/> | \[僅限 Windows Server desktop 應用程式\]<br/>                                                 |
+| 最低支援的伺服器<br/> | Windows\[僅限伺服器桌面應用程式\]<br/>                                                 |
 | 標頭<br/>                   | <dl> <dt>MrmResourceIndexer。h</dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>Mrmsupport .lib</dt> </dl>       |
 | DLL<br/>                      | <dl> <dt>Mrmsupport.dll</dt> </dl>       |

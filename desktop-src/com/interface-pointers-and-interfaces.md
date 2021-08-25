@@ -4,12 +4,12 @@ description: 介面指標和介面
 ms.assetid: 8a8671fe-f0b2-4698-8c98-89753fffce0b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aa23d53f529c43fa7529d657108cc75cb6a23b15
-ms.sourcegitcommit: d482e4276cc06515e9fade2f253a257ffc418ce5
+ms.openlocfilehash: abeb6040c2e55168fee1aa2c73db0056de557d0ddafaed6499e7da048dfc56de
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/24/2019
-ms.locfileid: "106965963"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119854368"
 ---
 # <a name="interface-pointers-and-interfaces"></a>介面指標和介面
 
@@ -35,9 +35,9 @@ ms.locfileid: "106965963"
 [COM 物件和介面](com-objects-and-interfaces.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

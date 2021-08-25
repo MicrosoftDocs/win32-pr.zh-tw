@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 85e941fceb61e4f00393b05f96489ec7ac8e950f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 61e3c98937a12c145742895979ccccb8118f8349f82b2840c902dfe625ad0472
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106999389"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119861908"
 ---
 # <a name="iwmpcontrolscurrentpositionstring-property"></a>IWMPControls：： currentPositionString 屬性
 

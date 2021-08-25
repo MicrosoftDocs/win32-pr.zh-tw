@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3d9types.h
-ms.openlocfilehash: 5119da4e7efaf0c27db1065dacc56e3388a77474
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9d7d4daaec3d52b7aabafe61c5763304c400b6a36be1367e01b0a9163f2f9e38
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104386036"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119828678"
 ---
 # <a name="d3dauthenticatedquery_accessibilityattributes"></a>D3DAUTHENTICATEDQUERY \_ ACCESSIBILITYATTRIBUTES
 
@@ -51,8 +51,8 @@ ms.locfileid: "104386036"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                             |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/>                                |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                             |
+| 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/>                                |
 | 標頭<br/>                   | <dl> <dt>D3d9types。h</dt> </dl> |
 
 

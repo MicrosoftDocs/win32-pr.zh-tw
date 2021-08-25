@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fb668b80a2fea8ec5c8683a7a85a20cfbb217a7f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 59e395eb27be2b922cf9d53e40f1d8cea0fc13a5dcf7b62b95ac606ec8f3f96f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106965110"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119795338"
 ---
 # <a name="sessionbatchitems-property"></a>Session.BatchItems 屬性
 
@@ -56,7 +56,7 @@ Session.BatchItems As long
 | 最低支援的用戶端<br/> | Windows Vista<br/>                                                                 |
 | 最低支援的伺服器<br/> | Windows Server 2008<br/>                                                           |
 | 標頭<br/>                   | <dl> <dt>WSManDisp。h</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>WSManDisp .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>WSManDisp .idl</dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>WSManDisp .tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WSMAuto.dll</dt> </dl>   |
 
@@ -66,7 +66,7 @@ Session.BatchItems As long
 
 <dl> <dt>
 
-[**工作階段**](session.md)
+[**會話**](session.md)
 </dt> <dt>
 
 [**列舉**](session-enumerate.md)

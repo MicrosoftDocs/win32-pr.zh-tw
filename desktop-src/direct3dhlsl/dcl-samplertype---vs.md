@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 2fbcb934ad591274d743f09c810de2db42278261
-ms.sourcegitcommit: 7e4322a6ec1f964d5ad26e2e5e06cc8ce840030e
+ms.openlocfilehash: 048246f8a48430dca26a763e9266f00edd61215e769f4ff5385036054aebc34b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "113129866"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119726568"
 ---
 # <a name="dcl_samplertype-sm3---vs-asm"></a>dcl \_ samplerType (sm3-vs asm) 
 

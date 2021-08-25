@@ -4,18 +4,18 @@ ms.assetid: 91f5b051-cc42-46ba-88d9-680bd0367aff
 title: PGM 通訊端選項
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b5e2ec257043f86fabeafdc55ee0e7a828d495cb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 15e8df8050146774ac79d45594adcccf53a93d295ce42b9f00834aa0d699e83a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848004"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119860818"
 ---
 # <a name="pgm-socket-options"></a>PGM 通訊端選項
 
 PGM 使用通訊端選項來設定狀態、提供多播參數，並以其他方式執行其多播功能。 此頁面指定應如何設定 PGM 通訊端選項、列舉適用于 PGM 的通訊端選項，以及在適當的情況下，提供各種選項的使用範例和其他資訊。 如需每個 PCM 通訊端選項的基本定義，請參閱 [通訊端選項](socket-options.md)。
 
-**WINDOWS XP：** 不支援可靠的多播程式設計 (的 PGM) 。
+**Windows XP：** 不支援可靠的多播程式設計 (的 PGM) 。
 
 下列通訊端選項適用于 PGM 寄件者：
 

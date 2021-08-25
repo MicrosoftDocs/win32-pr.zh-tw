@@ -6,12 +6,12 @@ keywords:
 - CLSID 登錄機碼 COM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aa9253446a039e47996366c7dfdb51c01f9b1993
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: dd390fc6a1ccb15e128245c3b6a80e2b4ca57f41de9e9c21e93ebe4c708783d0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372419"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119854978"
 ---
 # <a name="clsid-key"></a>CLSID 金鑰
 
@@ -45,13 +45,13 @@ CLSID 是識別 COM 類別物件的全域唯一識別碼。 如果您的伺服�
 | [**ProgID**](progid.md)                                     | 將 ProgID 與 CLSID 產生關聯。                                                                                                        |
 | [**ToolBoxBitmap32**](toolboxbitmap32.md)                   | 識別要用於工具列或工具箱按鈕臉部的 16 x 16 點陣圖的模組名稱和資源識別碼。                      |
 | [**TreatAs**](treatas.md)                                   | 指定可模擬目前類別之類別的 CLSID。                                                                       |
-| [**動詞**](verb.md)                                         | 指定要為應用程式註冊的動詞。                                                                                 |
+| [**動詞命令**](verb.md)                                         | 指定要為應用程式註冊的動詞。                                                                                 |
 | [**版本**](version.md)                                   | 指定控制項的版本號碼。                                                                                             |
 | [**VersionIndependentProgID**](versionindependentprogid.md) | 將 ProgID 與 CLSID 產生關聯。 此值可用來判斷物件應用程式的最新版本。                           |
 
 
 
- 
+ 
 
 ## <a name="remarks"></a>備註
 
@@ -70,9 +70,9 @@ CLSID 是一對大括弧內的128位數位（以十六進位表示）。
 [**CoCreateGuid**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateguid)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

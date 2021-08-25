@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: f91578f91840c316347c6266e678357e31c8a284
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 49680848fc764cdbbdfeaf3bea363f29427a745297ef4fb39bca09159aa582f1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106998792"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119831941"
 ---
 # <a name="cmediatype-class"></a>CMediaType 類別
 
@@ -31,11 +31,11 @@ ms.locfileid: "106998792"
 
 
 
-| 公用方法                                                      | Description                                                                    |
+| 公用方法                                                      | 描述                                                                    |
 |---------------------------------------------------------------------|--------------------------------------------------------------------------------|
 | [**CMediaType**](cmediatype-cmediatype.md)                         | 函式方法。                                                            |
 | [**~ CMediaType**](cmediatype--cmediatype.md)                       | 函式方法。                                                             |
-| [**設定**](cmediatype-set.md)                                       | 設定另一種媒體類型的媒體類型。                                   |
+| [**設置**](cmediatype-set.md)                                       | 設定另一種媒體類型的媒體類型。                                   |
 | [**IsValid**](cmediatype-isvalid.md)                               | 判斷是否已將主要類型指派給這個物件。              |
 | [**類型**](cmediatype-type.md)                                     | 抓取主要型別。                                                      |
 | [**>advanced.field.settype**](cmediatype-settype.md)                               | 指定主要類型。                                                      |

@@ -4,12 +4,12 @@ ms.assetid: ec5fc2b3-13a9-4681-89f0-fd39bab1de5f
 title: TimeRemaining ControlEvent
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c4c8978dfb7ed3be855921ad66af8554ea50972a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7fa29184c489e3d3a0b0f71d0dcd01297aa5359b25b3c463d3ccd3def6991257
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104027400"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119810708"
 ---
 # <a name="timeremaining-controlevent"></a>TimeRemaining ControlEvent
 

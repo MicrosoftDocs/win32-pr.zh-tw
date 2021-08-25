@@ -4,12 +4,12 @@ ms.assetid: aa01d17f-f2ac-4504-b278-3edd90ab8a23
 title: 'MF_EVENT_SESSIONCAPS_DELTA 屬性 (Mfapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 284a31a8d3fc661c15e7de991972455468efbd40
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3a2e227e5608296a9b30fa2fc68f37215d687349516367d8689b20825e1ed4e5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104386161"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119714838"
 ---
 # <a name="mf_event_sessioncaps_delta-attribute"></a>MF \_ 事件 \_ SESSIONCAPS \_ DELTA 屬性
 
@@ -37,8 +37,8 @@ ms.locfileid: "104386161"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                     |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                               |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                     |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                               |
 | 標頭<br/>                   | <dl> <dt>Mfapi。h</dt> </dl> |
 
 

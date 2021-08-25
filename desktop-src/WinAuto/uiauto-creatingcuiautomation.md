@@ -11,12 +11,12 @@ keywords:
 - CUIAutomation 物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8162dac5276bbb22d00413276482cca34334fda5
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: c8b9720ce31f883c4561ae3f82372d902a0dcc3fbfca4bae6de998ce438a6d22
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103933297"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119795488"
 ---
 # <a name="creating-the-cuiautomation-object"></a>建立 CUIAutomation 物件
 
@@ -79,6 +79,6 @@ HRESULT InitializeUIAutomation(IUIAutomation **ppAutomation)
 [取得 UI 自動化項目](uiauto-obtainingelements.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

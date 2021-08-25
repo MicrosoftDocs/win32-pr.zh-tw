@@ -4,16 +4,16 @@ ms.assetid: 6aee18b8-79b1-47fb-816f-d1c2c77b3a03
 title: 媒體類型轉換
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ee3a72e74439251f9661e0ff27166c504e47c238
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: aacb4b7209ec96493c7b32c9de15ecf55071d7fb2861eda86f6f38fed8566e71
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "103696266"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119827468"
 ---
 # <a name="media-type-conversions"></a>媒體類型轉換
 
-有時候，您必須在媒體基礎媒體類型與 DirectShow 或 Windows Media Format SDK 的較舊媒體類型結構之間進行轉換。
+有時候，您必須從 DirectShow 或 Windows 媒體格式 SDK，在媒體基礎媒體類型與較舊的媒體類型結構之間進行轉換。
 
 ### <a name="from-a-format-structure-to-a-media-foundation-type"></a>從格式結構到媒體基礎類型
 
@@ -29,12 +29,12 @@ ms.locfileid: "103696266"
 <thead>
 <tr class="header">
 <th>要轉換的結構</th>
-<th>函式</th>
+<th>函數</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="/windows/win32/api/strmif/ns-strmif-am_media_type"><strong>AM_MEDIA_TYPE</strong></a> (DirectShow) <br/> <a href="/previous-versions/windows/desktop/api/mediaobj/ns-mediaobj-dmo_media_type"><strong>DMO_MEDIA_TYPE</strong></a> (DirectX 媒體物件)  <br/> <a href="/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_media_type"><strong>WM_MEDIA_TYPE</strong></a> (Windows MEDIA Format SDK)  <br/>
+<td><a href="/windows/win32/api/strmif/ns-strmif-am_media_type"><strong>AM_MEDIA_TYPE</strong></a> (DirectShow) <br/> <a href="/previous-versions/windows/desktop/api/mediaobj/ns-mediaobj-dmo_media_type"><strong>DMO_MEDIA_TYPE</strong></a> (DirectX 媒體物件)  <br/> <a href="/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_media_type"><strong>WM_MEDIA_TYPE</strong></a> (Windows 媒體格式 SDK)  <br/>
 <blockquote>
 [!Note]<br />
 這些結構是相等的。
@@ -83,7 +83,7 @@ ms.locfileid: "103696266"
 
 
 
-| 函式                                                                             | 目標結構                                                                                                                                                                    |
+| 函數                                                                             | 目標結構                                                                                                                                                                    |
 |--------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**IMFMediaType::GetRepresentation**](/windows/desktop/api/mfobjects/nf-mfobjects-imfmediatype-getrepresentation)            | [**AM \_媒體 \_ 類型**](/windows/win32/api/strmif/ns-strmif-am_media_type)、 [**MFVIDEOFORMAT**](/windows/desktop/api/mfobjects/ns-mfobjects-mfvideoformat)、 [**VIDEOINFOHEADER**](/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader)或 [**VIDEOINFOHEADER2**](/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-videoinfoheader2) |
 | [**MFCreateAMMediaTypeFromMFMediaType**](/windows/desktop/api/mfapi/nf-mfapi-mfcreateammediatypefrommfmediatype)     | [**\_媒體 \_ 類型**](/windows/win32/api/strmif/ns-strmif-am_media_type)                                                                                                                                          |

@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: article
 ms.date: 02/03/2020
-ms.openlocfilehash: 46d577e03eaf918e4f2ea40aae30a2ab5112b630
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ccc26947241d5d777cacee504a066b7e070faf0a8febc39b86571537c14245f9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104385033"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119829748"
 ---
 # <a name="touch-hit-testing-window-constants"></a>觸控點擊測試視窗常數
 
@@ -27,7 +27,7 @@ ms.locfileid: "104385033"
 
 
 
-| 常數/值                                                                                                                                                                                                                                                   | Description                                                                                                                            |
+| 常數/值                                                                                                                                                                                                                                                   | 描述                                                                                                                            |
 |:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="TOUCH_HIT_TESTING_DEFAULT"></span><span id="touch_hit_testing_default"></span><dl> <dt>**TOUCH_HIT_TESTING_DEFAULT**</dt> <dt>0 (0x0)</dt> </dl> | [**WM_TOUCHHITTESTING**](wm-touchhittesting.md) 的訊息不會傳送至目標視窗，而是傳送至子視窗。<br/> |
 | <span id="TOUCH_HIT_TESTING_CLIENT"></span><span id="touch_hit_testing_client"></span><dl> <dt>**TOUCH_HIT_TESTING_CLIENT**</dt> <dt>1 (0x1)</dt> </dl>    | [**WM_TOUCHHITTESTING**](wm-touchhittesting.md) 的訊息會傳送至目標視窗。<br/>                                   |
@@ -41,8 +41,8 @@ ms.locfileid: "104385033"
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                 |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                           |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                                 |
 | 標頭<br/>                   | <dl> <dt>Winuser。h</dt> </dl> |
 
 

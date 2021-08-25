@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Win32_tpm.dll
-ms.openlocfilehash: d28287e410fbaf65ce5b1e617113c35cfece160b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 779ae7e8578019215e0bab1091512c64d68a84675d702ea7a0d8a5c37e8f081f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971191"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119906298"
 ---
 # <a name="resetauthlockout-method-of-the-win32_tpm-class"></a>Win32 Tpm 類別的 ResetAuthLockOut 方法 \_
 
@@ -65,7 +65,7 @@ uint32 ResetAuthLockOut(
 
 
 
-| 傳回碼/值                                                                                                                                                            | Description                                                                                                                                                                                                                                                               |
+| 傳回碼/值                                                                                                                                                            | 描述                                                                                                                                                                                                                                                               |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**S \_確定**</dt> <dt>0 (0x0)</dt> </dl>                            | 此方法成功。<br/>                                                                                                                                                                                                                                     |
 | <dl> <dt>**TPM \_E \_ AUTHFAIL**</dt> <dt>2150105089 (0x80280001)</dt> </dl> | 提供的擁有者授權值不正確。 重設鎖定的其他嘗試將會失敗，並出現相同的錯誤。 請等到超時時間或其他製造商專屬的機制過期，再重試鎖定的 TPM 命令。<br/> |
@@ -88,8 +88,8 @@ uint32 ResetAuthLockOut(
 
 | 需求 | 值 |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                            |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                      |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                            |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                      |
 | 命名空間<br/>                | 根 \\ CIMV2 \\ 安全性 \\ MicrosoftTpm<br/>                                            |
 | MOF<br/>                      | <dl> <dt>Win32 \_ tpm。 mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Win32 \_tpm.dll</dt> </dl> |

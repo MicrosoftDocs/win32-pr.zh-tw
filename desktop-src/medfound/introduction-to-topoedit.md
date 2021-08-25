@@ -4,12 +4,12 @@ ms.assetid: 9223309c-5ee0-4059-9480-4f54252fdd39
 title: TopoEdit 簡介
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c244705446568ccfac439e636ebcbb3d2763ae9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 799c6ab3fe30c0c51d7246939be7436d025220e690a380db91dad41d4c2b216a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106978007"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119827558"
 ---
 # <a name="introduction-to-topoedit"></a>TopoEdit 簡介
 
@@ -21,7 +21,7 @@ TopoEdit 是用來建立和測試拓撲的視覺化檢視。 透過 TopoEdit，�
 
 -   藉由新增各種拓撲節點（例如來源、轉換和輸出節點）來建立拓撲。
 
--   連接並解決拓撲。
+-   連線並解決拓撲。
 
 -   透過播放來測試拓撲的功能。
 

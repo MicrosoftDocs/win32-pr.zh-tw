@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b6f8cc6d693b32b1bbe6f05e8d32ca31a48cfb29
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 07453b707012c966fc298cc61973cb056b42d741d861a22204c17eec5265317f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104093780"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119909598"
 ---
 # <a name="ras_params_value-union"></a>RAS \_ PARAMS \_ 值聯集
 

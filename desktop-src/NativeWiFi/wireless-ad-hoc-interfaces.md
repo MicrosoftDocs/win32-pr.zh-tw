@@ -4,12 +4,12 @@ ms.assetid: 8e975750-cfcc-4e36-a3d1-539b7c077459
 title: 無線特定介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bcc4fe481a5be1ff428396e5fd9b199f5a291fbe
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6c486da50a922a893f4378c4d139741953705f0500cfb78484548db933bb285c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106982316"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119800278"
 ---
 # <a name="wireless-ad-hoc-interfaces"></a>無線特定介面
 
@@ -35,7 +35,7 @@ ms.locfileid: "106982316"
  
 
 > [!Note]  
-> 未來的 Windows 版本可能無法使用臨機操作模式。 從 Windows 8.1 和 Windows Server 2012 R2 開始，請改用 [Wi-Fi Direct](about-the-wi-fi-direct-api.md) 。
+> 未來的 Windows 版本可能無法使用臨機操作模式。 從 Windows 8.1 和 Windows Server 2012 R2 開始，請改用[Wi-Fi Direct](about-the-wi-fi-direct-api.md) 。
 
  
 

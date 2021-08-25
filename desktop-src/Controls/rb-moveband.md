@@ -3,7 +3,7 @@ title: 'RB_MOVEBAND 訊息 (Commctrl .h) '
 description: 將一個索引區從一個索引移至另一個索引。
 ms.assetid: bb5b45de-957e-46fb-b59a-18b55b69c395
 keywords:
-- RB_MOVEBAND message Windows 控制項
+- RB_MOVEBAND 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 146103c4c3d70fc0514729a00eac152c4847b85c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2ab45f63b46b8bb883ef9f1fd8708f915dba2a6860ef2f6fabb09e2b00bd8fe6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464392"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119798538"
 ---
 # <a name="rb_moveband-message"></a>RB \_ MOVEBAND 訊息
 
@@ -59,8 +59,8 @@ ms.locfileid: "104464392"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

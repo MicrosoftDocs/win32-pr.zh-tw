@@ -4,12 +4,12 @@ ms.assetid: a4f53568-684b-48cf-835b-915cefb45a5d
 title: 裁剪框架
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1507b82ffedeb26939d5d954f116bb009ed0ab41
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9251fc6f8a1c9612a9fa7301ea8948956291ad0d074f90ff2ccbbf3f799bd2b5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106983609"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119911258"
 ---
 # <a name="clipping-a-frame"></a>裁剪框架
 

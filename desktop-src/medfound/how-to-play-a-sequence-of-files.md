@@ -4,12 +4,12 @@ ms.assetid: ee16eaa3-0506-4444-b139-f8a8498d6597
 title: 如何播放一連串的檔案
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 58dc4d1523be4cc6cc09416096af260c9eae736c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a1ddf9cfc6fe48caf5eb185a19ec98ac119fcfbbb78d5e2363bd2db9607a4875
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106979099"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119828158"
 ---
 # <a name="how-to-play-a-sequence-of-files"></a>如何播放一連串的檔案
 

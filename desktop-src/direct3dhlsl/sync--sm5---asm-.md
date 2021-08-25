@@ -4,12 +4,12 @@ description: 執行緒群組同步或記憶體屏障。
 ms.assetid: DCA637FE-8F5C-41D0-8B5E-F913463BA387
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: be072b51b4a18d9f1408df0907ec0a55131c18d2
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
-ms.translationtype: HT
+ms.openlocfilehash: c5c64532669fc94d7d2109c39e501af0825e56434f66b79e20e1641c787a1a58
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104990855"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119852858"
 ---
 # <a name="sync-sm5---asm"></a>同步 (sm5-asm) 
 
@@ -22,7 +22,7 @@ ms.locfileid: "104990855"
 
 
 
- 
+ 
 
 ## <a name="remarks"></a>備註
 
@@ -109,25 +109,25 @@ cs \_ 4 \_ 0 和 cs \_ 4 \_ 1 支援此指令。
 
 
 
-| 頂點 | 船體 | 網域 | 幾何 | 像素 | 計算 |
+| 頂點 | 船體 | 網域 | 幾何形狀 | 像素 | 計算 |
 |--------|------|--------|----------|-------|---------|
 |        |      |        |          | X     | X       |
 
 
 
- 
+ 
 
 由於 UAVs 可在 Direct3D 11.1 的所有著色器階段使用，因此此指令的 **同步 \_ uglobal** 變體適用于 direct3d 11.1 執行時間的所有著色器階段（從 Windows 8 開始提供）。
 
 
 
-| 頂點 | 船體 | 網域 | 幾何 | 像素 | 計算 |
+| 頂點 | 船體 | 網域 | 幾何形狀 | 像素 | 計算 |
 |--------|------|--------|----------|-------|---------|
 | X      | X    | X      | X        | X     | X       |
 
 
 
- 
+ 
 
 ## <a name="minimum-shader-model"></a>最小著色器模型
 
@@ -138,15 +138,15 @@ cs \_ 4 \_ 0 和 cs \_ 4 \_ 1 支援此指令。
 | 著色器模型                                              | 支援 |
 |-----------------------------------------------------------|-----------|
 | [著色器模型5](d3d11-graphics-reference-sm5.md)        | 是       |
-| [著色器模型4。1](dx-graphics-hlsl-sm4.md)              | 不可以        |
-| [著色器模型4](dx-graphics-hlsl-sm4.md)                | 不可以        |
-| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 不可以        |
-| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 不可以        |
-| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 不可以        |
+| [著色器模型4。1](dx-graphics-hlsl-sm4.md)              | 否        |
+| [著色器模型4](dx-graphics-hlsl-sm4.md)                | 否        |
+| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 否        |
+| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 否        |
+| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 否        |
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -155,9 +155,9 @@ cs \_ 4 \_ 0 和 cs \_ 4 \_ 1 支援此指令。
 [著色器模型5元件 (DirectX HLSL) ](shader-model-5-assembly--directx-hlsl-.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

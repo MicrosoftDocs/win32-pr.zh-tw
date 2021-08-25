@@ -4,12 +4,12 @@ description: 系統會自動處理所有使用者起始的文字作業，並在�
 ms.assetid: 9af3a1bc-4c87-4cc9-966d-50742be7c811
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9640616cf70b9a2933ef9d4c3fdb2accbfdcabf0
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 8698fbd38241a0e5c3f40e69f7ab401fc22e3982e2bc70001733bc71daf49689
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104024155"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119826368"
 ---
 # <a name="edit-control-text-operations"></a>編輯控制項文字作業
 
@@ -136,7 +136,7 @@ Microsoft Windows NT 4.0 和更新版本：編輯控制項包含內建的內容�
 
 ## <a name="autocompletion-of-strings"></a>自動完成字串
 
-自動完成會將已部分在編輯控制項中輸入的字串展開為完整字串。 例如，當使用者開始在 [Windows Internet Explorer] 工具列中內嵌的 [位址] 編輯控制項中輸入 URL 時，自動完成功能會將字串展開為一或多個與現有部分字串一致的完整 Url。 部分 URL 字串（例如 "mic"）可能會展開為 " https://www.microsoft.com " 或 " https://www.microsoft.com/windows "。 自動完成通常會與編輯控制項或具有內嵌編輯控制項的控制項一起使用。
+自動完成會將已部分在編輯控制項中輸入的字串展開為完整字串。 例如，當使用者開始在 [Windows Internet Explorer] 工具列中內嵌的 [位址] 編輯控制項中輸入 URL 時，自動完成會將字串展開為一或多個與現有部分字串一致的完整 url。 部分 URL 字串（例如 "mic"）可能會展開為 " https://www.microsoft.com " 或 " https://www.microsoft.com/windows "。 自動完成通常會與編輯控制項或具有內嵌編輯控制項的控制項一起使用。
 
 如需詳細資訊，請參閱 [**IAutoComplete**](/windows/desktop/api/shldisp/nn-shldisp-iautocomplete) 和 [**IAutoComplete2**](/windows/desktop/api/shldisp/nn-shldisp-iautocomplete2) 介面檔。
 
@@ -176,6 +176,6 @@ InvalidateRect(hWndEdit, NULL, FALSE);
 
 Uniscribe 是另一組函數，可提供精確的控制來處理複雜的腳本。 如需詳細資訊，請參閱 [Uniscribe](/windows/desktop/Intl/uniscribe)。
 
- 
+ 
 
- 
+ 

@@ -3,7 +3,7 @@ title: 'EM_GETSCROLLPOS 訊息 (Richedit .h) '
 description: 取得編輯控制項的目前滾動位置。
 ms.assetid: 26e122da-f1b4-4694-978c-ff678dad5d9f
 keywords:
-- EM_GETSCROLLPOS message Windows 控制項
+- EM_GETSCROLLPOS 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 70458abca94e483f8e202f13ecaed3df04a68366
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 42bde137096ae3c13582017f91b82c1eb9100097bb76f0d1babb91fa47b52196
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465153"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119800028"
 ---
 # <a name="em_getscrollpos-message"></a>EM \_ GETSCROLLPOS 訊息
 
@@ -57,8 +57,8 @@ ms.locfileid: "104465153"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 可轉散發套件<br/>          | Rich Edit 3。0<br/>                                                              |
 | 標頭<br/>                   | <dl> <dt>Richedit。h</dt> </dl> |
 

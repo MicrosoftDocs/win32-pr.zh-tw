@@ -13,18 +13,18 @@ api_type:
 - COM
 api_location:
 - VmApplicationHealthMonitor.idl
-ms.openlocfilehash: ac9f6574dd8261a120e434cc0351fd07985c71a4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3cc565c43fd61ebed6183cbfa2f4fdf7ece7d39872f23718fb1a12a3b591d531
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106982319"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119694318"
 ---
 # <a name="ivmapplicationhealthmonitor-interface"></a>IVmApplicationHealthMonitor 介面
 
 將虛擬機器中執行之應用程式的健全狀況狀態回報給在相同虛擬機器中執行的 Hyper-v 整合元件。 在虛擬機器中執行之應用程式的狀態會反映在 \[ \] [**Msvm \_ HeartbeatComponent**](msvm-heartbeatcomponent.md)類別的 OperationalStatus 1 屬性值中。 此介面也會提供一種方法，以重設所有在 Hyper-v 中累積的應用程式狀態。
 
-此介面是由 Windows 8 Hyper-v 整合元件所執行。 藉由建立 **397A2e5f-348c-482d-b9a3-57d383b483cd** CLSID 的實例，即可取得這個介面的實例。
+此介面是由 Windows 8 hyper-v 整合元件所執行。 藉由建立 **397A2e5f-348c-482d-b9a3-57d383b483cd** CLSID 的實例，即可取得這個介面的實例。
 
 ## <a name="members"></a>成員
 
@@ -57,10 +57,10 @@ ms.locfileid: "106982319"
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                                                                                                                     |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                                                                                                           |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                                                                                                                     |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                                                                                                                           |
 | 版本<br/>                  | Windows 8 的整合元件<br/>                                                                                                                                |
-| Idl<br/>                      | <dl> <dt>VmApplicationHealthMonitor .idl</dt> </dl>                                                                      |
+| IDL<br/>                      | <dl> <dt>VmApplicationHealthMonitor .idl</dt> </dl>                                                                      |
 | IID<br/>                      | IID \_ IVmApplicationHealthMonitor 定義為267a0284-848f-447e-a096-5e10a1a76bca<br/> 物件識別碼定義為397a2e5f-348c-482d-b9a3-57d383b483cd<br/> |
 
 

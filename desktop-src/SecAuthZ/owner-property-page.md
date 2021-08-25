@@ -4,12 +4,12 @@ ms.assetid: b0c421db-450e-4030-98e9-e062202e482c
 title: '[擁有者] 屬性頁'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cee9d5c276071674ec274c9955a2e8c5cd5a856a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b67b3707017aa8073cfdf4f5ca64340eda74a640bc604a0bd382b7cf2ebe122e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104115813"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119907658"
 ---
 # <a name="owner-property-page"></a>[擁有者] 屬性頁
 

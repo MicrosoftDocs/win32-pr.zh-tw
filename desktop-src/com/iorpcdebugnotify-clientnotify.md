@@ -16,19 +16,19 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c9e788a51e278df09715aaf9d4993ac5724ed65b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2cc80262b75bb170f14fa191f5a60e658cd371765714860f09a7bbcadcbcc369
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466957"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119854278"
 ---
 # <a name="iorpcdebugnotifyclientnotify-method"></a>IOrpcDebugNotify：： ClientNotify 方法
 
 通知用戶端傳出的偵錯工具要求至伺服器。
 
 > [!Note]  
-> 包含 **ClientNotify** 函式的匯入程式庫不包含在 Microsoft WINDOWS 軟體開發套件 (SDK) 中。 應用程式可以使用 [**GetProcAddress**](/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress) 和 [**GetModuleHandle**](/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulehandlea) 函式，從 oleaut.dll 中取出 [**DllDebugObjectRPCHook**](dlldebugobjectrpchook.md) 的函式指標，並透過 [**IOrpcDebugNotify**](iorpcdebugnotify.md) 介面提供此函數。
+> 包含 **ClientNotify** 函式的匯入程式庫不包含在 Microsoft Windows 軟體開發套件 (SDK) 中。 應用程式可以使用 [**GetProcAddress**](/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress) 和 [**GetModuleHandle**](/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulehandlea) 函式，從 oleaut.dll 中取出 [**DllDebugObjectRPCHook**](dlldebugobjectrpchook.md) 的函式指標，並透過 [**IOrpcDebugNotify**](iorpcdebugnotify.md) 介面提供此函數。
 
  
 
@@ -67,7 +67,7 @@ void ClientNotify(
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                     |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                           |
 | 標頭<br/>                   | <dl> <dt>N/A</dt> </dl> |
-| Idl<br/>                      | <dl> <dt>N/A</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>N/A</dt> </dl> |
 
 
 
