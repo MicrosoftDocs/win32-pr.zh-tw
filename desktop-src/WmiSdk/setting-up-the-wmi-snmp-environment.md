@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 設定 WMI SNMP 環境
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7eeed470b1e38bf853bd6b023fa0f07b01c5df47
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8a090dab219c589fc8d9084c445e9a69c8d75afefb64400fe3029bfed66ab931
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320667"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119860408"
 ---
 # <a name="setting-up-the-wmi-snmp-environment"></a>設定 WMI SNMP 環境
 
@@ -27,10 +27,10 @@ SNMP 服務預設不會啟用。 您可以透過主控台啟用 SNMP 服務和 W
 **安裝 SNMP 提供者**
 
 1.  從 **主控台** 選取 [ **程式**]。
-2.  在 [ **程式和功能**] 下，選取 [ **開啟或關閉 Windows 功能**]。
+2.  在 [**程式和功能**] 下，選取 [**開啟或關閉 Windows 功能**]。
 3.  在 [Windows 功能] 清單中，向下滾動至 **SNMP 功能** 並展開清單，讓您可以看到 **WMI SNMP 提供者**。
 4.  選取 [ **WMI SNMP 提供者**] 的核取方塊。 系統會自動選取 [ **snmp] 功能** 的核取方塊，因為提供者需要 SNMP。
-5.  按一下 [確定]  。
+5.  按一下 [確定]。
 6.  從命令提示字元或 [ **開始** ] 功能表，執行 services.msc，並確認 SNMP 服務已啟動。
 
 ## <a name="creating-an-snmp-namespace"></a>建立 SNMP 命名空間
@@ -91,7 +91,7 @@ SNMP 命名空間會定義網路裝置的觀點。
 
 ## <a name="setting-up-snmp-communities"></a>設定 SNMP 團體
 
-作為安全性措施，預設不會建立 SNMP 「公用」群組。 您可以建立如「 [社區登錄設定](/previous-versions/windows/embedded/ms907028(v=msdn.10))」中所述的「社區」。 如果您沒有任何社區，請建立「公用」群體來存取 SNMP 提供者。
+作為安全性措施，預設不會建立 SNMP 「公用」群組。 您可以依照「[社區登錄設定](/previous-versions/windows/embedded/ms907028(v=msdn.10))」所述來建立社區。 如果您沒有任何社區，請建立「公用」群體來存取 SNMP 提供者。
 
 ## <a name="generating-mof-files-from-mib-files"></a>從 MIB 檔案產生 MOF 檔案
 

@@ -4,18 +4,18 @@ ms.assetid: ce2076fe-22c4-4f43-9740-cdcbcb2eadc8
 title: FocalLength Proxy
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 68dd1f66aef65a2b75aedebed6aceb974803cec8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 33f17eb7b829bb0c21e596fa134ae35b289e862bc782d45786fb59ae57d892ba
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944377"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119882018"
 ---
 # <a name="systemphotofocallength-proxy"></a>FocalLength Proxy
 
 FocalLength 相片中繼資料原則的屬性 proxy。
 
-### <a name="description"></a>Description
+### <a name="description"></a>描述
 
 屬性 proxy 會透過 [PROPVARIANT](/windows/win32/api/propidlbase/ns-propidlbase-propvariant) uhVal 成員傳回有理數 a。
 

@@ -3,7 +3,7 @@ title: RecentItems 元素
 description: 代表 [應用程式] 功能表中的 [最近的專案] 控制項。
 ms.assetid: a3df0bb0-e0f8-413a-879d-8e39164535d0
 keywords:
-- RecentItems 元素視窗功能區
+- RecentItems 元素 Windows 功能區
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: a433e2f04eae8607b0c14c5494c734ad0f0dd83a
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 6ae49864fea057aa942b121f21813acfd0f26c6cc4411d4f1b3c59cda12014c3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111444109"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119881558"
 ---
 # <a name="recentitems-element"></a>RecentItems 元素
 
@@ -56,21 +56,21 @@ ms.locfileid: "111444109"
 <tr class="odd">
 <td><strong>CommandName</strong><br/></td>
 <td>xs： positiveInteger 或 xs： string<br/></td>
-<td>否<br/></td>
+<td>No<br/></td>
 <td>將元素與 <a href="windowsribbon-element-command.md"><strong>命令</strong></a>產生關聯。<br/> <br/>
 <dt><span></span><span></span><strong></strong> (xs： positiveInteger 或 xs： string) <br/> </dt> <dd> 字串、介於2與59999（含）之間的整數值，或介於0x2 與0xea5f （含）之間的十六進位值。 <br/> 值在功能區 XML 檔中必須是唯一的。 <br/> 最大長度：100個字元。 <br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><strong>EnablePinning</strong><br/></td>
 <td>Boolean<br/></td>
-<td>否<br/></td>
+<td>No<br/></td>
 <td>限制為下列其中一個值 (0 和1不是有效的) ：<br/> <br/>
 <dt><span></span><span></span><strong></strong> (true) <br/> </dt> <dd> 預設值。 <br/> </dd> <dt><span></span><span></span><strong></strong> (false) <br/> </dt> <dd></dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><strong>MaxCount</strong><br/></td>
 <td>xs:nonNegativeInteger<br/></td>
-<td>否<br/></td>
+<td>No<br/></td>
 <td>要顯示的最近專案數目。<br/> <br/>
 <dt><span></span><span></span><strong></strong> (xs： nonNegativeInteger) <br/> </dt> <dd> 0或大於零的整數值。<br/> 預設值為 <strong>10</strong>。<br/> </dd> </dl></td>
 </tr>

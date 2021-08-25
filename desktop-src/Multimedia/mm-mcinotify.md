@@ -3,7 +3,7 @@ title: 'MM_MCINOTIFY 訊息 (Mmsystem .h) '
 description: MM \_ MCINOTIFY 訊息會通知應用程式，MCI 裝置已完成操作。 MCI 裝置只會在使用 MCI 通知旗標時傳送此訊息 \_ 。
 ms.assetid: a0840130-2969-4ce5-b098-3e45401eebb1
 keywords:
-- MM_MCINOTIFY message Windows 多媒體
+- MM_MCINOTIFY 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 96ee62c4a2b6e17bf5ad6d719dcb7d6e992a2f2e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: fc03ab0406542472871f35ca3ff619d4d9a6f35725b9322a4c11bc73bc29a5aa
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104711"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119807508"
 ---
 # <a name="mm_mcinotify-message"></a>MM \_ MCINOTIFY 訊息
 
@@ -87,7 +87,7 @@ lParam = (LONG) lDevID
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                                |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                      |
-| 標頭<br/>                   | <dl> <dt>Mmsystem (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Mmsystem (包含 Windows .h) </dt> </dl> |
 
 
 
@@ -95,7 +95,7 @@ lParam = (LONG) lDevID
 
 <dl> <dt>
 
-[Mci](mci.md)
+[MCI](mci.md)
 </dt> <dt>
 
 [MCI 訊息](mci-messages.md)

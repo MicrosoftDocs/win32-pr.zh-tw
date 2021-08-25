@@ -4,12 +4,12 @@ ms.assetid: 397ae29c-f81c-410e-9670-db69c099a321
 title: 'WPD_COMMAND_MTP_EXT_GET_SUPPORTED_VENDOR_OPCODES 命令 (WpdMtpExtensions .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f8713c739da98c179ecc2b7bf042905e4fd06ad7
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 45b0ab00fc3ada963e56dced49f97d3c1dbca578dfc5c1cded4735f9df947ff1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106984779"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119927968"
 ---
 # <a name="wpd_command_mtp_ext_get_supported_vendor_opcodes-command"></a>WPD \_ 命令 \_ MTP \_ EXT \_ GET \_ 支援的 \_ 廠商 opcode \_ 碼命令
 
@@ -29,7 +29,7 @@ ms.locfileid: "106984779"
 
 
 
-| 結果                                                | VarType | Description                                                                                              |
+| 結果                                                | VarType | 描述                                                                                              |
 |-------------------------------------------------------|---------|----------------------------------------------------------------------------------------------------------|
 | **WPD \_ 屬性 \_ MTP \_ EXT \_ * \_ 操作 \_ 代碼** | VT \_ UI4 | 必要。 **IPortableDevicePropVariantCollection** ，其中包含所有廠商擴充的作業代碼。 |
 

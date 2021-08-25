@@ -4,12 +4,12 @@ ms.assetid: 7b28f70b-2d97-4cc2-8064-dfb806f9cffa
 title: DbgHelp 函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: db65e46fe407b26b1a6ec9ae3cb8d5d7301d5821
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 8afacd44409004034ed727920c98487a0e2e34ad03e7af4ef5a2e5e13ab5303c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510679"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119912768"
 ---
 # <a name="dbghelp-functions"></a>DbgHelp 函式
 

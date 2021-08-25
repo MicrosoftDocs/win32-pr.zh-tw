@@ -3,22 +3,22 @@ title: 關於影片壓縮管理員
 description: 關於影片壓縮管理員
 ms.assetid: 2a5ebc95-3ee8-4145-b2c5-512d82e49c6d
 keywords:
-- 'Windows 多媒體、視訊壓縮管理員 (BC-VCM-LVM-HYPERV) '
+- 'Windows 多媒體、視訊壓縮管理員 (bc-vcm-lvm-hyperv) '
 - '多媒體、視訊壓縮管理員 (BC-VCM-LVM-HYPERV) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6841446a5a0f22b8c05c2419448e65b035f90703
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 122114666713b3bf5d1e706db2206a3d4894f8a40dea94d33d3b12829fb02bfd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104463060"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119808718"
 ---
 # <a name="about-the-video-compression-manager"></a>關於影片壓縮管理員
 
 通常，可安裝的壓縮機會使用儲存在音訊中的影片影像資料（ (AVI) 檔案的影片）來運作。 本總覽說明用來透過 BC-VCM-LVM-HYPERV 存取可安裝壓縮機的程式設計技術，並涵蓋下列主題：
 
--   適用于 Windows 架構的 BC-VCM-LVM-HYPERV 和影片
+-   Windows 架構的 bc-vcm-lvm-hyperv 和影片
 -   從應用程式壓縮和解壓縮映射資料
 -   使用 BC-VCM-LVM-HYPERV 轉譯器從您的應用程式中繪製資料
 -   BC-VCM-LVM-HYPERV 函式和結構
@@ -28,7 +28,7 @@ ms.locfileid: "104463060"
 > [!Note]  
 > 音訊壓縮管理員 (的) 提供音訊壓縮和解壓縮驅動程式的系統層級支援。 如需音訊壓縮服務的說明，請參閱 [音訊壓縮管理員](audio-compression-manager.md)。
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -37,6 +37,6 @@ ms.locfileid: "104463060"
 [影片壓縮管理員](video-compression-manager.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

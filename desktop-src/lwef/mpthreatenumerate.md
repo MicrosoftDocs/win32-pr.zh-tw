@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: acdbb7971371015a401c1a951ace8c55869fd405
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9525ad44901bd62044721e634559e1c803b88b05e9250097d939b3a5a04d229a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934743"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119943828"
 ---
 # <a name="mpthreatenumerate-function"></a>MpThreatEnumerate 函式
 
@@ -53,9 +53,9 @@ HRESULT WINAPI MpThreatEnumerate(
 *ppThreatInfo* \[擴展\]
 </dt> <dd>
 
-類型： **PMPTHREAT \_ INFO \** _
+類型： **PMPTHREAT \_ 資訊 \***
 
-傳回威脅資訊結構的指標 [_ *MPTHREAT \_ 資訊* *](mpthreat-info.md)。 結構包含威脅識別碼、名稱和嚴重性等資訊。
+傳回威脅資訊結構的指標， [**MPTHREAT \_ 資訊**](mpthreat-info.md)。 結構包含威脅識別碼、名稱和嚴重性等資訊。
 
 </dd> </dl>
 
@@ -75,8 +75,8 @@ HRESULT WINAPI MpThreatEnumerate(
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                    |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                              |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                                    |
 | 標頭<br/>                   | <dl> <dt>MpClient。h</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>MpClient.dll</dt> </dl> |
 

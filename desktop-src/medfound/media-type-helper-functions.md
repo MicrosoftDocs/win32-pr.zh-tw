@@ -4,12 +4,12 @@ ms.assetid: 7d4f3581-8cb9-4d31-b2f7-c8fbde24cf2a
 title: 媒體類型 Helper 函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d7e5edb9748bad8ee16903eb9ff1ada50c1c043b
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: b488eb706338926aaffd3c3c4e13a5da4d1d004bd21dbbd1f5871c6d4818dae0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104514348"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119827358"
 ---
 # <a name="media-type-helper-functions"></a>媒體類型 Helper 函式
 

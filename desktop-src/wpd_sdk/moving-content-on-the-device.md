@@ -4,12 +4,12 @@ ms.assetid: 5072d308-d376-4141-96df-dbef23fb9f9b
 title: 移動裝置上的內容
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3eb4a9638e656d5cab8437448d64b79947df337b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c0830dab93b4ac0cd11f988c34edef24b1eb11b8869f63efdc4b0b518fc9380b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106990304"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119928368"
 ---
 # <a name="moving-content-on-the-device"></a>移動裝置上的內容
 

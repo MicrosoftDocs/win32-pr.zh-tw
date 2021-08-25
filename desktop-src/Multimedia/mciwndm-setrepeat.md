@@ -3,7 +3,7 @@ title: 'MCIWNDM_SETREPEAT 訊息 (Vfw .h) '
 description: MCIWNDM \_ SETREPEAT 訊息會設定與連續播放相關聯的重複旗標。
 ms.assetid: 9a8da201-9ce8-4b6c-8b76-cd9e1356c75d
 keywords:
-- MCIWNDM_SETREPEAT message Windows 多媒體
+- MCIWNDM_SETREPEAT 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: aeae2ac3cb57f8ddbb2343ee3f42d30fa8def370
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 158e0b52f01431886fd8a70e89efadfdd7335258c0808cdb6780bf06071e3280
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843912"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119807588"
 ---
 # <a name="mciwndm_setrepeat-message"></a>MCIWNDM \_ SETREPEAT 訊息
 

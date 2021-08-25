@@ -3,7 +3,7 @@ title: 'MM_MOM_DONE 訊息 (Mmsystem .h) '
 description: '\_ \_ 當已播放指定的 MIDI 系統專屬或串流緩衝區，並將其傳回給應用程式時，就會將 MM MOM 完成訊息傳送至視窗。'
 ms.assetid: 4651d5b4-3c98-4fa7-b761-dafb30e0d31e
 keywords:
-- MM_MOM_DONE message Windows 多媒體
+- MM_MOM_DONE 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 46ad5d4a7e91cc05aa51017cba79418b34445362
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e4fcbcde545c7d29a313e729761c2e565db3405b10faf3156d9ef7dd0585b16b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104024700"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119807138"
 ---
 # <a name="mm_mom_done-message"></a>MM \_ MOM \_ 完成訊息
 
@@ -64,7 +64,7 @@ lParam = (LPARAM) lpMidiHdr
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                                |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                      |
-| 標頭<br/>                   | <dl> <dt>Mmsystem (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Mmsystem (包含 Windows .h) </dt> </dl> |
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 3030789d-92cc-4ca3-b760-a312729e3e54
 title: 系統。通知
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a6a0af7374d99877203839ab0040c3a4d4e3713
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 08f72120332a5aab4bf6c3086f866f01053e2c07c0dcf65ca6632759640b5c5a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106988415"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119845488"
 ---
 # <a name="systemdevicesnotification"></a>系統。通知
 

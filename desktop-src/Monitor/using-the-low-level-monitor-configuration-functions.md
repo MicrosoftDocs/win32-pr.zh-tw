@@ -21,12 +21,12 @@ keywords:
 - 'VCP (虛擬主控台) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d98e2cd4d85cb972b6a13896e9c497e51e16f8d
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: f3ffd21f0b232db71bb6023f968122271ce70f03b0a632dc33d9df1e7ee993bf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103933183"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119927388"
 ---
 # <a name="using-the-low-level-monitor-configuration-functions"></a>使用 Low-Level 監視設定函數
 
@@ -55,6 +55,6 @@ ms.locfileid: "103933183"
 [**使用監視設定**](using-monitor-configuration.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

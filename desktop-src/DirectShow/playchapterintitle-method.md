@@ -4,17 +4,17 @@ ms.assetid: 784b0612-133b-465c-b1da-d9dac26e1b20
 title: PlayChapterInTitle 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 381a63c36c61a8853dcba6a587adb1f078b8cfaa
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 407684ecf8db6053a4d166a4ed069f9cabf0b36f983dd04bfdf9cf85e6c8dc2a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103845676"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119830868"
 ---
 # <a name="playchapterintitle-method"></a>PlayChapterInTitle 方法
 
 > [!Note]  
-> 此元件可用於 Microsoft Windows 2000、Windows XP 及 Windows Server 2003 作業系統。 它在後續版本中可能會變更或無法使用。
+> 此元件可在 Microsoft Windows 2000、Windows XP 和 Windows Server 2003 作業系統中使用。 它在後續版本中可能會變更或無法使用。
 
  
 

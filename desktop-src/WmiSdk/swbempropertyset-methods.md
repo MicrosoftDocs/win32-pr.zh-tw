@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 內含方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 103ff8d16891cef6bf0bb8186f917c3301843f83
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7fb099a650676b2a002c0f4ebb443943e519a488bbe6252349343e6d8eced8a1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106993051"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119897968"
 ---
 # <a name="swbempropertyset-methods"></a>內含方法
 

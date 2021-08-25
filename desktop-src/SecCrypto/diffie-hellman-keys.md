@@ -4,12 +4,12 @@ ms.assetid: 623a8c9e-3f6a-470b-be30-dec13342bb90
 title: Diffie-Hellman 金鑰
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f00eaddd580ac74e18e26498175f87b5d81b8e20
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a4082650b030ab1643b83cb154718176d445c98788b15a7bcadd1db97c30bab7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104321035"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119875498"
 ---
 # <a name="diffie-hellman-keys"></a>Diffie-Hellman 金鑰
 

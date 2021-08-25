@@ -15,12 +15,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 897874f333ed7933ea1616f7f5ba5f1686736d0c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d352d94204e4c590668018546f0d6304d4faa3836bcc7289b675b05b1ae2b825
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104024690"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119869258"
 ---
 # <a name="tlskeypackenumnext-function"></a>TLSKeyPackEnumNext 函式
 

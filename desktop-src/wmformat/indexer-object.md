@@ -3,7 +3,7 @@ title: 索引子物件
 description: 索引子物件
 ms.assetid: 652e04a5-ed6e-4e92-acf4-55ed82f77ef1
 keywords:
-- Windows Media Format SDK，索引子物件
+- Windows媒體格式 SDK，索引子物件
 - Advanced Systems Format (ASF) 、索引子物件
 - ASF (Advanced 系統格式) 、索引子物件
 - 物件、索引子物件
@@ -11,12 +11,12 @@ keywords:
 - 索引，索引子物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 71c9aa8c1c3ff694ae8e125e17dc0190451c7f21
-ms.sourcegitcommit: b04e152a7f51618fc174ffa872654623fe088db2
+ms.openlocfilehash: 795ef166f6b3ad46897305cbd3f6c38bbc7a219bb99df1dcf8b14dbfb1443577
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "104023153"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119839785"
 ---
 # <a name="indexer-object"></a>索引子物件
 
@@ -37,7 +37,7 @@ ms.locfileid: "104023153"
 
 
 
- 
+ 
 
 下列回呼介面必須由應用程式執行，才能使用索引子物件。
 
@@ -49,7 +49,7 @@ ms.locfileid: "104023153"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -61,9 +61,9 @@ ms.locfileid: "104023153"
 [**使用索引**](working-with-indexes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

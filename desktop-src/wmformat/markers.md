@@ -3,18 +3,18 @@ title: 標記
 description: 標記
 ms.assetid: ba9bc93e-76a9-4a49-951f-c38dbcceef8c
 keywords:
-- Windows Media Format SDK，標記
+- Windows媒體格式 SDK，標記
 - Advanced Systems Format (ASF) ，標記
 - ASF (Advanced Systems Format) ，標記
 - 標記，關於
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d314b4e74aa05a08dfd4a297687662e10f045abc
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 58ddc013b2d8e09fa30ac6a8b7373aaf6733b669f2ccacec6350ee70e0800b20
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840776"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119808228"
 ---
 # <a name="markers"></a>標記
 
@@ -37,9 +37,9 @@ ms.locfileid: "103840776"
 [**使用標記**](using-markers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -26,12 +26,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: e66322f20987e2d1f99042430f0f57cdc2e399d4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fe380b03daced6ca98a44c189c52b5842862aa2e033bf66a04f8dd1466968449
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103693055"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119899668"
 ---
 # <a name="cim_storageallocationsettingdata-class"></a>CIM \_ StorageAllocationSettingData 類別
 
@@ -177,7 +177,7 @@ class CIM_StorageAllocationSettingData : CIM_ResourceAllocationSettingData
 
 </dt> <dd>
 
-序號/廠商/模型 (SNVM) SNVM 是代表廠商名稱、廠商命名空間內的產品名稱，以及模型命名空間內序號的3個字串。 字串以 ' + ' 分隔。 可能包含空格，而且很重要。 序號是以十六進位大寫表示之序號的文字標記法。 這代表來自 SCSI 查詢資料的廠商和型號識別碼;廠商欄位必須是8個字元寬，而 product 欄位必須是16個字元寬。 例如，
+序號/廠商/模型 (SNVM) SNVM 是代表廠商名稱、廠商命名空間內的產品名稱，以及模型命名空間內序號的3個字串。 字串以 ' + ' 分隔。 可能包含空格，而且很重要。 序號是以十六進位大寫表示之序號的文字標記法。 這代表來自 SCSI 查詢資料的廠商和型號識別碼;廠商欄位必須是8個字元寬，而 product 欄位必須是16個字元寬。 例如
 
 ' ACME \_ \_ \_ \_ + SUPER DISK \_ \_ \_ \_ \_ \_ + 124437458 ' (\_ 是空白字元) 
 

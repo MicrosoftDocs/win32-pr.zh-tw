@@ -4,12 +4,12 @@ ms.assetid: ec50d6f1-999d-4ce9-85b4-816afb17550e
 title: 密碼編譯提供者類型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e976909cec25b5194187d61d2e753eeb830c09f4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5aaeee585ff9c11e2a20a201f541f3cd147aef6e9b50c37d60156e75a1b9fd94
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103690135"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119876208"
 ---
 # <a name="cryptographic-provider-types"></a>密碼編譯提供者類型
 

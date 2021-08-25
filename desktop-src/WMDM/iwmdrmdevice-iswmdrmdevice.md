@@ -1,6 +1,6 @@
 ---
 title: IWMDRMDevice IsWMDRMDevice 方法
-description: IsWMDRMDevice 方法會判斷裝置是否支援可攜式裝置的 Windows Media DRM 10。
+description: IsWMDRMDevice 方法會判斷裝置是否支援可攜式裝置 Windows 媒體 DRM 10。
 ms.assetid: 247e7a77-e805-4848-893f-f5522c161232
 keywords:
 - IsWMDRMDevice 方法 windows Media 裝置管理員
@@ -17,16 +17,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ca9cb79598ea41a996748e383c8fdfc63364dd6c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 60ee225267ce2301e9a2dad392d72ce72b0e698872cd3fd54ab3e50a07043477
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106984037"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119957258"
 ---
 # <a name="iwmdrmdeviceiswmdrmdevice-method"></a>IWMDRMDevice：： IsWMDRMDevice 方法
 
-**IsWMDRMDevice** 方法會判斷裝置是否支援可攜式裝置的 WINDOWS Media DRM 10。
+**IsWMDRMDevice** 方法會判斷裝置是否支援可攜式裝置 Windows 媒體 DRM 10。
 
 ## <a name="syntax"></a>語法
 
@@ -46,7 +46,7 @@ HRESULT IsWMDRMDevice(
 *pdwVersion* \[擴展\]
 </dt> <dd>
 
-適用于可攜式裝置的 Windows Media DRM 10 版本，其值為0x00010000。
+可攜式裝置的 Windows 媒體 DRM 10 版本，其值為0x00010000。
 
 </dd> </dl>
 
@@ -56,7 +56,7 @@ HRESULT IsWMDRMDevice(
 
 
 
-| 傳回碼                                                                          | Description                      |
+| 傳回碼                                                                          | 描述                      |
 |--------------------------------------------------------------------------------------|----------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl> | 此方法已成功。<br/> |
 

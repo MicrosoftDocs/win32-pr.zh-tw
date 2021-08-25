@@ -4,12 +4,12 @@ ms.assetid: 2fb7e568-fce1-4d00-9d24-2f677e280a67
 title: GraphicsPath. GetBounds 方法
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 966d6e678ff5507bf27385b5c1e2de2dc2cae00b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f42ca2a6de79e8a8d6c14890f3a9b8dc5faaf9cb14f2938ee99292ab1af25a3b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104991478"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119848658"
 ---
 # <a name="graphicspathgetbounds-methods"></a>GraphicsPath. GetBounds 方法
 

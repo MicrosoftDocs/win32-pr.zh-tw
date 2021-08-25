@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dxof.lib
 - D3dxof.dll
-ms.openlocfilehash: 664e2bf026df6d9e4b5bc07067ce1ce7fe7669db
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 1af59f6a32d163275df02d1469ba4777bf5c5152535c2df52fcf7d7c40218e2e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104514661"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119846938"
 ---
 # <a name="idirectxfilebinarygetsize-method"></a>IDirectXFileBinary：： GetSize 方法
 

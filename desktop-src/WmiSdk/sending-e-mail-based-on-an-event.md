@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 根據事件傳送電子郵件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4929b7c8c29d514d73a6e4c9d14049a19f306233
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 68bcef0858f7022fcb36006f038b20dedc940da60ee6c61e0372f5a74663093a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980896"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119860415"
 ---
 # <a name="sending-email-based-on-an-event"></a>根據事件傳送電子郵件
 

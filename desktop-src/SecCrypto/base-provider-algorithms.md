@@ -4,12 +4,12 @@ ms.assetid: 767d5192-6e8f-488a-b954-29d56488ccbb
 title: 基底提供者演算法
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dee99bc67769e0a7e91f2d0ecc635576336fd5ea
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f6b6f3af49529ad46e70dd154c06febf433f5fb483861f7c0b2530af7ebbef2c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106988453"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119879748"
 ---
 # <a name="base-provider-algorithms"></a>基底提供者演算法
 

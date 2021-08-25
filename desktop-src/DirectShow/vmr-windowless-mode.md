@@ -4,12 +4,12 @@ ms.assetid: 0dc871d2-79c4-4bf8-96ef-13c4d1ab4497
 title: VMR 無視窗模式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3b137fbc1351f2bbe5ed38673b681e45558675d9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 193f672e0fc1e3dced4bdff16da0e85123079eb94f2ac3c5fdb302b67c9432b0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318724"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119830580"
 ---
 # <a name="vmr-windowless-mode"></a>VMR 無視窗模式
 
@@ -37,7 +37,7 @@ ms.locfileid: "104318724"
 
 4.  呼叫 [**IVMRWindowlessControl：： SetVideoClippingWindow**](/windows/desktop/api/Strmif/nf-strmif-ivmrwindowlesscontrol-setvideoclippingwindow) ，以指定將出現轉譯影片的視窗。
 
-完成這些步驟之後，您就可以連接 VMR 篩選器的輸入接點。 建立圖形的方式有很多種，例如直接連接釘選、使用智慧型連接方法（例如 [**IGraphBuilder：： RenderFile**](/windows/desktop/api/Strmif/nf-strmif-igraphbuilder-renderfile)），或使用 Capture graph Builder 的 [**ICaptureGraphBuilder2：： RenderStream**](/windows/desktop/api/Strmif/nf-strmif-icapturegraphbuilder2-renderstream) 方法。 如需詳細資訊，請參閱 [一般 Graph-Building 技術](general-graph-building-techniques.md)。
+完成這些步驟之後，您就可以連接 VMR 篩選器的輸入接點。 建立圖形的方式有很多種，例如直接連接釘選、使用智慧型連線方法（例如 [**IGraphBuilder：： RenderFile**](/windows/desktop/api/Strmif/nf-strmif-igraphbuilder-renderfile)），或使用 Capture Graph Builder 的 [**ICaptureGraphBuilder2：： RenderStream**](/windows/desktop/api/Strmif/nf-strmif-icapturegraphbuilder2-renderstream)方法。 如需詳細資訊，請參閱 [一般 Graph-Building 技術](general-graph-building-techniques.md)。
 
 若要設定影片在應用程式視窗中的位置，請呼叫 [**IVMRWindowlessControl：： SetVideoPosition**](/windows/desktop/api/Strmif/nf-strmif-ivmrwindowlesscontrol-setvideoposition) 方法。 [**IVMRWindowlessControl：： GetNativeVideoSize**](/windows/desktop/api/Strmif/nf-strmif-ivmrwindowlesscontrol-getnativevideosize)方法會傳回原生影片大小。 在播放期間，應用程式應該通知 VMR 下列 Windows 訊息：
 
@@ -56,7 +56,7 @@ ms.locfileid: "104318724"
 
 **範例程式碼**
 
-下列程式碼示範如何建立 VMR-7 篩選器，將它新增至 DirectShow 篩選圖形，然後讓 VMR 進入無視窗模式。 若為 VMR-9，請使用 \_ **CoCreateInstance** 中的 CLSID VideoMixingRenderer9 和對應的 VMR-9 介面。
+下列程式碼示範如何建立 VMR-7 篩選器、將它新增至 DirectShow 篩選圖形，然後讓 VMR 進入無視窗模式。 若為 VMR-9，請使用 \_ **CoCreateInstance** 中的 CLSID VideoMixingRenderer9 和對應的 VMR-9 介面。
 
 
 ```C++

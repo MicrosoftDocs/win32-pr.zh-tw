@@ -4,18 +4,18 @@ ms.assetid: 00ed6b0d-0b59-43b4-a9ce-f5964f9268a3
 title: HomeAddressCity
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0a44e4d986339fa5448534a28f615c1b9c0cb242
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 67f526c283f023237409863c93587d216db2e33bebe3ee17c41c65262ddade65
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106987225"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119845808"
 ---
 # <a name="systemcontacthomeaddresscity"></a>HomeAddressCity
 
 連絡人的首頁位址城市名稱。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

@@ -3,7 +3,7 @@ title: 'DTM_SETMCSTYLE 訊息 (Commctrl .h) '
 description: 設定日期和時間選擇器 (DTP) 控制項的樣式。 請明確地傳送此訊息，或使用 DateTime \_ SetMonthCalStyle 宏。
 ms.assetid: 6b480a1e-c76e-4026-ab2a-5ec53df6fa28
 keywords:
-- DTM_SETMCSTYLE message Windows 控制項
+- DTM_SETMCSTYLE 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e3691dfbd62847bc490c3a45e1d640d19b09cca6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2805f2213bcbb1fa91a10ea80005b8b23bbc7447973bba6930bfdcb1e52a9e91
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104838"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119877798"
 ---
 # <a name="dtm_setmcstyle-message"></a>DTM \_ SETMCSTYLE 訊息
 
@@ -49,8 +49,8 @@ ms.locfileid: "104104838"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

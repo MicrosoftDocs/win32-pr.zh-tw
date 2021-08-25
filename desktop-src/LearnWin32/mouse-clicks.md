@@ -4,12 +4,12 @@ description: 回應滑鼠點擊
 ms.assetid: FED1CA3B-94C6-4780-B82D-C10171F36D98
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 32c37903264ca638aeca1c0b28fb2ea7fa792660
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 947b50726e79fbf29c4f013d4ac0a449c009c1817b74b1a8063e63a68c4dd6c5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104092721"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119897208"
 ---
 # <a name="responding-to-mouse-clicks"></a>回應滑鼠點擊
 
@@ -30,7 +30,7 @@ ms.locfileid: "104092721"
 
 
 
- 
+ 
 
 回想一下，工作區是排除框架的視窗部分。 如需有關用戶端區域的詳細資訊，請參閱 [什麼是視窗？](what-is-a-window-.md)
 
@@ -48,7 +48,7 @@ int yPos = GET_Y_LPARAM(lParam);
 
 這些宏會定義在標頭檔 WindowsX 中。
 
-在64位的 Windows 上， *lParam* 是64位值。 不使用 *lParam* 的上方32位。 MSDN 檔提及 *lParam* 的「低序位單字」和「高序位單字」。 在64位的情況下，這表示較低的32位的低和高序位字組。 宏會將正確的值解壓縮，因此，如果您使用這些值，就會是安全的。
+在64位 Windows 上， *lParam* 是64位值。 不使用 *lParam* 的上方32位。 MSDN 檔提及 *lParam* 的「低序位單字」和「高序位單字」。 在64位的情況下，這表示較低的32位的低和高序位字組。 宏會將正確的值解壓縮，因此，如果您使用這些值，就會是安全的。
 
 滑鼠座標以圖元為單位，而不是與裝置無關的圖元 (Dip) ，而且會相對於視窗的工作區進行測量。 座標為帶正負號的值。 在工作區左邊和左邊的位置具有負座標，如果您在視窗外追蹤滑鼠位置，這就很重要。 在稍後的主題中，我們將瞭解如何在 [視窗外捕捉滑鼠移動](mouse-movement.md)。
 
@@ -70,7 +70,7 @@ int yPos = GET_Y_LPARAM(lParam);
 
 
 
- 
+ 
 
 沒有旗標表示未按下對應的按鈕或按鍵。 例如，若要測試 CTRL 鍵是否已關閉：
 
@@ -139,6 +139,6 @@ else if (button == XBUTTON2)
 
 [滑鼠移動](mouse-movement.md)
 
- 
+ 
 
- 
+ 

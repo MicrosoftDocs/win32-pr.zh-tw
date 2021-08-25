@@ -4,16 +4,16 @@ description: 應用層強制 (ALE) 是由數個篩選層和許多相符的捨棄
 ms.assetid: 3ac71787-2350-4a60-b0bf-b00b52d30b83
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0a96e3b2ae5092bf8cca014eb3603eea5efe8f71
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: f2c9d13c7b5493171caa7216e8f2991e0350b79dd46dca612f241c9446cafa39
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104314722"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119901008"
 ---
 # <a name="ale-layers"></a>ALE 層
 
-應用層強制 (ALE) 是由數個篩選層和許多相符的捨棄層所組成。 所有的 Windows 篩選平台 (WFP) 篩選引擎層級（包括 ALE）都會在 [**篩選層識別碼**](management-filtering-layer-identifiers-.md)中描述。 本主題包含屬於 ALE 之篩選層的詳細描述。
+應用層強制 (ALE) 是由數個篩選層和許多相符的捨棄層所組成。 [**篩選層識別碼**](management-filtering-layer-identifiers-.md)中會描述所有 Windows 篩選平台 (WFP) 篩選引擎層級（包括 ALE）。 本主題包含屬於 ALE 之篩選層的詳細描述。
 
 ## <a name="resource_assignment"></a>資源 \_ 指派
 
@@ -26,7 +26,7 @@ ms.locfileid: "104314722"
 > [!Note]  
 > 這是唯一可篩選混合模式的層級。
 
- 
+ 
 
 如果系結 **()** 期間未指定埠，也就是埠設定為 0 (零) ，則 tcp/ip 堆疊會從動態埠範圍選取埠 (19152 – 65535) 。 選取的埠會在此層級進行分類，而 [ [**.Fwp \_ 條件] 旗標為 [ \_ \_ \_ 萬用字元 \_**](filtering-condition-flags-.md) 系結旗標]。
 
@@ -43,7 +43,7 @@ ms.locfileid: "104314722"
 > [!Note]  
 > 非 TCP 或 ICMP 的通訊協定會視為 UDP。
 
- 
+ 
 
 原始通訊端接收的 TCP 封包會以類似 UDP 流量的方式處理。 也就是說，只會篩選第一個 TCP [**傳送 ()**](/windows/desktop/api/winsock2/nf-winsock2-send) 以及透過原始通訊端的第一個 tcp [**接收 ()**](/windows/desktop/api/winsock/nf-winsock-recv) 。
 
@@ -54,7 +54,7 @@ ms.locfileid: "104314722"
 > [!Note]  
 > 非 TCP 或 ICMP 的通訊協定會視為 UDP。
 
- 
+ 
 
 原始通訊端傳送的 TCP 封包會以類似 UDP 流量的方式處理。 也就是說，只會篩選第一個 TCP [**傳送 ()**](/windows/desktop/api/winsock2/nf-winsock2-send) 以及透過原始通訊端的第一個 tcp [**接收 ()**](/windows/desktop/api/winsock/nf-winsock-recv) 。
 
@@ -64,7 +64,7 @@ ms.locfileid: "104314722"
 
 這一層的篩選不應傳回區塊或允許。
 
-注標驅動程式會使用此圖層來追蹤連接狀態，如 [Windows 驅動程式套件](/windows-hardware/drivers/network/windows-filtering-platform-callout-drivers2) 檔中的詳細說明。
+注標驅動程式會使用此圖層來追蹤連接狀態，如[Windows 驅動程式套件](/windows-hardware/drivers/network/windows-filtering-platform-callout-drivers2)檔中的詳細說明。
 
 ## <a name="resource_release"></a>資源 \_ 版本
 
@@ -102,7 +102,7 @@ ms.locfileid: "104314722"
 [ALE 重新授權](ale-re-authorization.md)
 </dt> <dt>
 
-[ALE 流程自訂](ale-flow-customization.md)
+[ALE Flow 自訂](ale-flow-customization.md)
 </dt> <dt>
 
 [TCP 封包流程](tcp-packet-flows.md)
@@ -120,6 +120,6 @@ ms.locfileid: "104314722"
 [**篩選每個篩選層級的可用條件**](filtering-conditions-available-at-each-filtering-layer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

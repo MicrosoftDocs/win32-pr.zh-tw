@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: b6ed17cf4fd57f3470a57b22daafa9858ba97f79
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 28b871224528581c3127553654dd57b7b991692c32f2c71cb99afa9b41443a0c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108085386"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119908048"
 ---
 # <a name="cseekingpassthrucseekingpassthru-destructor"></a>CSeekingPassThru. ~ CSeekingPassThru 的函式
 

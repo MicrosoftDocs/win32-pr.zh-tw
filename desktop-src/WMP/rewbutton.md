@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 6c94836e09b5b6a63cc45af850464787218f228a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c3020ecf13971cd6e23b9807988703a5b9d081d5124562522a5f11cbb59f3fb5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994225"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119901018"
 ---
 # <a name="rewbutton"></a>REWBUTTON
 

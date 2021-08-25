@@ -4,12 +4,12 @@ description: Windows 提供一組功能，可顯示系統所提供的 RAS 對話
 ms.assetid: 8231511a-7339-4fbb-8a39-f643ac575856
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3032da8b0647b48941d85fc4f085ddb8ced0125f
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 5be93db8e8d1819abe56d98bb293a7b6b027089be0648b00f7848d5204e911ff
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104093192"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119909718"
 ---
 # <a name="ras-common-dialog-boxes"></a>RAS 通用對話方塊
 
@@ -23,6 +23,6 @@ Windows 提供一組功能，可顯示系統所提供的 RAS 對話方塊。 這
 
 您可以呼叫 [**RasEntryDlg**](/windows/desktop/api/Rasdlg/nf-rasdlg-rasentrydlga) 函式，以顯示用來建立、編輯或複製電話簿專案的屬性工作表。 **RasEntryDlg** 函式會使用 [**RasEntryDlg**](/previous-versions/windows/desktop/legacy/aa377260(v=vs.85))結構來指定其他輸入和輸出參數，例如對話方塊的位置和電話簿操作的類型。
 
- 
+ 
 
- 
+ 

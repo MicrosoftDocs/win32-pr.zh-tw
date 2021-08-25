@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0ee14a5ab75e23a4206d340a3e2e15c8e74e79a7
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f304f3bd0c4f5c361139307f62ba5a3f00594e7b8fbc33df43a37ce1fc31efd0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106987912"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119862538"
 ---
 # <a name="acquisitiontimeyearmonthday-attribute"></a>AcquisitionTimeYearMonthDay 屬性
 

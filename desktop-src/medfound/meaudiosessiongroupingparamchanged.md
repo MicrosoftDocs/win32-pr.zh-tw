@@ -4,12 +4,12 @@ ms.assetid: d6f7757c-fd91-40bd-b2b5-a3e808445250
 title: 'MEAudioSessionGroupingParamChanged 事件 (Mfobjects) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8ac115bb30a4c01247da537f3255e9bc40099e3f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ab9a271ebaa4e3a0044dc425de2d6a7f313e17d63c693acede63773e94619c6a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191584"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119957508"
 ---
 # <a name="meaudiosessiongroupingparamchanged-event"></a>MEAudioSessionGroupingParamChanged 事件
 
@@ -23,7 +23,7 @@ ms.locfileid: "104191584"
 
 
 
-| VARTYPE                | Description                                                                               |
+| VARTYPE                | 描述                                                                               |
 |------------------------|-------------------------------------------------------------------------------------------|
 | VT \_ 不明<br/> | [**IMFAudioPolicy**](/windows/desktop/api/mfidl/nn-mfidl-imfaudiopolicy)介面的指標。<br/> <br/> |
 
@@ -41,8 +41,8 @@ ms.locfileid: "104191584"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                                     |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                                     |
 | 標頭<br/>                   | <dl> <dt>Mfobjects (包含 Mfidl) </dt> </dl> |
 
 

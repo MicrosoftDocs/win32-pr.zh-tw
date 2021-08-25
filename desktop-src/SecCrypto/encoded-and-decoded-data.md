@@ -4,12 +4,12 @@ ms.assetid: ef8982dc-bbbc-466a-9afe-dd0425c23f1d
 title: 編碼和解碼的資料
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c8b130232ac67503c6a20835c4c9b4e728b36f8b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 063f18a4f58f2989e2bd0b890fd11a7ab6022a3de255385b1cf529afb5493485
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943332"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119874941"
 ---
 # <a name="encoded-and-decoded-data"></a>編碼和解碼的資料
 

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1e700ce6b4556c42f3458404c7b23f892e16b6ca
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9b1bec5b6548de0ee4712cde822a47dc0a884702e9298af97882fb7cc24c3439
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994619"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119863078"
 ---
 # <a name="editboxtextlimit"></a>編輯方塊. textLimit
 
@@ -37,7 +37,7 @@ ms.locfileid: "106994619"
 
 | 需求 | 值 |
 |--------------------|---------------------------------------------------------|
-| 版本<br/> | 適用于 Windows XP 或更新版本的 Windows Media Player<br/> |
+| 版本<br/> | Windows XP 或更新版本的 Windows Media Player<br/> |
 
 
 

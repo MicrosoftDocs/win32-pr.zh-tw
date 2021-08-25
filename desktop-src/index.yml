@@ -1,19 +1,19 @@
 ### YamlMime:Landing
 title: 使用 WIN32 API 建立桌面 Windows 應用程式
-summary: 瞭解如何使用 c + + 和 WIN32 API 來建立適用于 Windows 電腦的桌面應用程式。
+summary: 瞭解如何使用 c + + 和 WIN32 API 建立適用于 Windows 電腦的桌面應用程式。
 metadata:
   author: mcleanbyron
-  description: 瞭解如何使用 c + + 和 WIN32 API 來建立適用于 Windows 電腦的桌面應用程式。
+  description: 瞭解如何使用 c + + 和 WIN32 API 建立適用于 Windows 電腦的桌面應用程式。
   manager: jken
   ms.author: mcleans
   ms.date: 09/15/2019
   ms.topic: landing-page
-  ms.openlocfilehash: 99090d109a717c1008a11e6a9c9e6cf7a31f2b7c
-  ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+  ms.openlocfilehash: cc2d2b66adddba0b164f5f3eccae1e076fd91d451d9857ba901ec4a81ac6e9f0
+  ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
   ms.translationtype: MT
   ms.contentlocale: zh-TW
-  ms.lasthandoff: 08/19/2020
-  ms.locfileid: "104023314"
+  ms.lasthandoff: 08/11/2021
+  ms.locfileid: "119848948"
 landingContent:
 - title: 開始使用
   linkLists:
@@ -35,7 +35,7 @@ landingContent:
   linkLists:
   - linkListType: overview
     links:
-    - text: Windows 功能與技術
+    - text: Windows 的功能與技術
       url: desktop-app-technologies.md
     - text: Windows 10 的現代化應用程式
       url: /windows/apps/desktop/modernize

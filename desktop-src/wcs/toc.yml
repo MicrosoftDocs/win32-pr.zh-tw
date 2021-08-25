@@ -1,4 +1,4 @@
-- name: Windows 色彩系統
+- name: Windows色彩系統
   href: windows-color-system.md
   items:
     - name: 安全性考慮： Windows 色彩系統
@@ -36,7 +36,7 @@
           href: color-conversion-and-color-matching.md
         - name: 詳細資訊
           href: further-information.md
-    - name: Windows 色彩系統架構和演算法
+    - name: Windows色彩系統架構和演算法
       href: windows-color-system-schemas-and-algorithms.md
       items:
         - name: WCS 一般配置檔案類型架構、版本控制和當地語系化策略
@@ -51,7 +51,7 @@
           href: wcs-gamut-map-model-profile-schema-and-algorithms.md
         - name: WCS 轉換建立演算法
           href: wcs-transform-creation-algorithms.md
-    - name: 關於 Windows Color System 版本1。0
+    - name: 關於 Windows 色彩系統版本1。0
       href: about-windows-color-system-version-1-0.md
       items:
         - name: Windows Vista 的 WCS 新功能
@@ -458,7 +458,7 @@
         - name: CMYK 值和色彩的宏
           href: macros-for-cmyk-values-and-colors.md
           items:
-            - name: Cmyk
+            - name: CMYK
               href: /windows/win32/api/wingdi/nf-wingdi-cmyk
             - name: GetCValue
               href: /windows/win32/api/wingdi/nf-wingdi-getcvalue

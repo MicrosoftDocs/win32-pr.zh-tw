@@ -45,9 +45,9 @@ Shell.FindComputer()
 
 ## <a name="examples"></a>範例
 
-下列範例顯示使用中的 **FindComputer** 。 此程式碼的結果與按下 [ **開始** ] 按鈕、按一下 [ **搜尋**]、按一下 [ **印表機]、[電腦] 或 [人員** ] 選項，然後按一下 **網路上的電腦** 一樣。 JScript、VBScript 和 Visual Basic 會顯示適當的使用方式。
+下列範例顯示使用中的 **FindComputer** 。 此程式碼的結果與按下 [ **開始** ] 按鈕、按一下 [ **搜尋**]、按一下 [ **印表機]、[電腦] 或 [人員** ] 選項，然後按一下 **網路上的電腦** 一樣。 JScript、VBScript 和 Visual Basic 都會顯示適當的使用方式。
 
-Jscript：
+JScript：
 
 
 ```JScript
@@ -105,10 +105,10 @@ End Sub
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 windows 2000 Professional、Windows XP \[ desktop 應用程式\]<br/>                                         |
+| 最低支援的用戶端<br/> | Windows 2000 Professional，僅 Windows XP \[ desktop 應用程式\]<br/>                                         |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                           |
 | 標頭<br/>                   | <dl> <dt>Shldisp。h</dt> </dl>                           |
-| Idl<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl>                         |
+| IDL<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Shell32.dll (4.71 版或更新版本) </dt> </dl> |
 
 

@@ -1,7 +1,7 @@
 ---
-description: Merge 物件的 Connect 方法會將模組連接到其他功能。 模組必須已經合併到資料庫中，或合併到資料庫中。 在呼叫此函式之前，此功能必須存在。
+description: Merge 物件的連線方法會將模組連接到其他功能。 模組必須已經合併到資料庫中，或合併到資料庫中。 在呼叫此函式之前，此功能必須存在。
 ms.assetid: 1c1ef664-792c-4cdc-b468-1ffe0b7810a5
-title: 'Merge. Connect 方法 (Mergemod .h) '
+title: '合併。連線方法 (Mergemod) '
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
@@ -14,16 +14,16 @@ api_type:
 - COM
 api_location:
 - Mergemod.dll
-ms.openlocfilehash: da66f7dfe4203e80d4778ae9b39c665a66164384
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c28aafaac9f8224ea4f622b2e63f81d9dc458d72e98c6e22c348087794e9e7a5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106989580"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119926668"
 ---
-# <a name="mergeconnect-method"></a>Merge. Connect 方法
+# <a name="mergeconnect-method"></a>合併。連線方法
 
-[**Merge**](merge-object.md)物件的 **Connect** 方法會將模組連接到其他功能。 模組必須已經合併到資料庫中，或合併到資料庫中。 在呼叫此函式之前，此功能必須存在。
+[**Merge**](merge-object.md)物件的 **連線** 方法會將模組連接到其他功能。 模組必須已經合併到資料庫中，或合併到資料庫中。 在呼叫此函式之前，此功能必須存在。
 
 除非呼叫 [**CloseDatabase**](merge-closedatabase.md) 方法，並將 *BCommit* 設定為 **TRUE**，否則對資料庫所做的變更不會儲存至磁片。
 
@@ -59,7 +59,7 @@ Merge.Connect(
 
 ### <a name="c"></a>C++
 
-請參閱 [**Connect**](/windows/win32/api/mergemod/nf-mergemod-imsmmerge-connect) 函數。
+請參閱 [**連線**](/windows/win32/api/mergemod/nf-mergemod-imsmmerge-connect)函式。
 
 ## <a name="requirements"></a>規格需求
 

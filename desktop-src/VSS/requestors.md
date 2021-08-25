@@ -4,12 +4,12 @@ ms.assetid: e49920d0-5b66-4aa1-b3ca-641629df5f8a
 title: 要求者
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b676b8cd287365b257e3b6ee85a7e47a70f88ef3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 59f0e7fa7b1718b0da278dabb164fbffee43c939cd688c150e202bfafc4731a9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192288"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119866378"
 ---
 # <a name="requesters"></a>要求者
 

@@ -1,17 +1,17 @@
 ---
 title: 操作和慣性範例
-description: 操作和慣性範例顯示如何將 Windows Touch 支援新增至使用 Windows Touch API 的原生 Windows 應用程式。
+description: 操作和慣性範例示範如何將 Windows Touch 支援新增至使用 Windows Touch API 的原生 Windows 應用程式。
 ms.assetid: 6a6e2e39-026e-47a3-b936-16f6a740a3af
 keywords:
-- Windows Touch，程式碼範例
-- Windows Touch，範例程式碼
-- Windows Touch，操作
-- Windows Touch，慣性
-- Windows Touch、操作和慣性範例
+- Windows觸控、程式碼範例
+- Windows觸控，範例程式碼
+- Windows觸控、操作
+- Windows觸控、慣性
+- Windows觸控、操作和慣性範例
 - 操作和慣性範例
-- Windows Touch，_IManipulationEventSink 介面
-- Windows Touch，IManipulationProcessor 介面
-- Windows Touch，IInertiaProcessor 介面
+- Windows觸控、_IManipulationEventSink 介面
+- WindowsTouch、IManipulationProcessor 介面
+- WindowsTouch、IInertiaProcessor 介面
 - 操作，範例程式碼
 - 操作，程式碼範例
 - 操作，_IManipulationEventSink 介面
@@ -26,16 +26,16 @@ keywords:
 - IInertiaProcessor 介面，範例程式碼
 ms.topic: article
 ms.date: 02/18/2020
-ms.openlocfilehash: a17b634fbe79d72e79fc5c9e03ef64a30cb46411
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 8b6471362d30b6efc9dfa0c4f07df70f014c8cb72866c92bbb04c9eb33463410
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104556254"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119840590"
 ---
 # <a name="manipulation-and-inertia-sample"></a>操作和慣性範例
 
-操作和慣性範例顯示如何將 Windows Touch 支援新增至使用 Windows Touch API 的原生 Windows 應用程式。 此範例會執行 API 的基本功能，以啟用物件的平移、旋轉和縮放，並將慣性屬性套用至它們。 此範例也會示範如何為您的 Windows Touch 應用程式提供基本的滑鼠支援。 下圖顯示範例在執行時的外觀。
+操作和慣性範例示範如何將 Windows Touch 支援新增至使用 Windows Touch API 的原生 Windows 應用程式。 此範例會執行 API 的基本功能，以啟用物件的平移、旋轉和縮放，並將慣性屬性套用至它們。 此範例也會示範如何為您的 Windows Touch 應用程式提供基本的滑鼠支援。 下圖顯示範例在執行時的外觀。
 
 ![顯示操作和慣性範例中具有漸層之兩個方塊的螢幕擷取畫面](images/manip-inertia-sample.png)
 
@@ -351,4 +351,4 @@ CComTouchDriver::~CComTouchDriver(VOID) {
 
 ## <a name="related-topics"></a>相關主題
 
-[多點觸控操作應用程式](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTManipulation/cpp)、 [操作和慣性範例](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTManipulationInertia/cpp)、 [Windows Touch 範例](windows-touch-samples.md)
+[多點觸控操作應用程式](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTManipulation/cpp)、[操作和慣性範例](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTManipulationInertia/cpp)、 [Windows Touch 範例](windows-touch-samples.md)

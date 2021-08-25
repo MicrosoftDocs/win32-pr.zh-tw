@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 807b44a7be97ac93b5b0f270c2d1723404887c9d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: fa5487b3a57fb1e7e4167561fcca08e10d6472182881fa221bd8e671bc814cc0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106993660"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119864088"
 ---
 # <a name="cdromcollectiongetbydrivespecifier-method"></a>CdromCollection. getByDriveSpecifier 方法
 

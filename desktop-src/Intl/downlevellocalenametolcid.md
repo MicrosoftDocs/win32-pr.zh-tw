@@ -13,19 +13,19 @@ api_type:
 - DllExport
 api_location:
 - NlsMap.dll
-ms.openlocfilehash: c41b82c59b63a5b324e15f89c1f77118d454e428
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 39a0a6b274ba141553d2ddda927f71754cc9639ff5fc3a0d3870a974e46526a2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980633"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119898728"
 ---
 # <a name="downlevellocalenametolcid-function"></a>DownlevelLocaleNameToLCID 函式
 
 將 [地區設定名稱](locale-names.md) 轉換成可以用來從作業系統取得資訊的 [地區設定識別碼](locale-identifiers.md) 。
 
 > [!Note]  
-> 只有在 Windows Vista 之前的作業系統上執行的應用程式，才會使用此函式。 其用途需要下載套件。 只在 Windows Vista 和更新版本上執行的應用程式，應該呼叫 [**LocaleNameToLCID**](/windows/desktop/api/Winnls/nf-winnls-localenametolcid) 來取出地區設定識別碼。
+> 此函式僅適用于在預先 Windows Vista 作業系統上執行的應用程式。 其用途需要下載套件。 只在 Windows Vista 和更新版本上執行的應用程式，應該呼叫 [**LocaleNameToLCID**](/windows/desktop/api/Winnls/nf-winnls-localenametolcid)來取出地區設定識別碼。
 
  
 
@@ -71,7 +71,7 @@ LCID DownlevelLocaleNameToLCID(
 ## <a name="remarks"></a>備註
 
 > [!Note]  
-> 此函數不支援中性地區設定。 對等的 [**LocaleNameToLCID**](/windows/desktop/api/Winnls/nf-winnls-localenametolcid) 函式支援 [自訂地區](custom-locales.md)設定，但僅適用于 Windows Vista 和更新版本。
+> 此函數不支援中性地區設定。 對等的 [**LocaleNameToLCID**](/windows/desktop/api/Winnls/nf-winnls-localenametolcid)函式支援 [自訂地區](custom-locales.md)設定，但僅適用于 Windows Vista 和更新版本。
 
  
 
@@ -83,8 +83,8 @@ LCID DownlevelLocaleNameToLCID(
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                                         |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                                         |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                |
 | 可轉散發套件<br/>          | Microsoft NLS 下層資料對應 Api 于 windows XP SP2 和 laterorWindows Vista<br/> |
 | 標頭<br/>                   | <dl> <dt>Nlsdl。h</dt> </dl>                  |
 | DLL<br/>                      | <dl> <dt>NlsMap.dll</dt> </dl>               |

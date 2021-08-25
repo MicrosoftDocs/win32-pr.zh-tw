@@ -4,12 +4,12 @@ ms.assetid: c53af815-ee3f-417a-8e62-3a3689715bc6
 title: 密碼編譯
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 852b7c2b38ca5b7d330a70e91a5b7a9dd5bb6557
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3050f84d118cb5ad9e1da49ddabd73489745339bb0b1357e229b0f1609a1c997
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970791"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119876108"
 ---
 # <a name="cryptography"></a>密碼編譯
 
@@ -21,9 +21,9 @@ Microsoft 密碼編譯技術包括 CryptoAPI、密碼編譯服務提供者 (CSP)
 
 ## <a name="developer-audience"></a>開發人員對象
 
-CryptoAPI 適用于 Windows 應用程式的開發人員，可讓使用者在安全的環境中建立及交換檔和其他資料，尤其是透過非安全的媒體（例如網際網路）。 開發人員應該熟悉 C 和 c + + 程式設計語言和 Windows 程式設計環境。 雖然並非必要，但建議您瞭解密碼編譯或安全性相關的主題。
+CryptoAPI 適用于以 Windows 為基礎的應用程式開發人員，可讓使用者在安全的環境中建立及交換檔和其他資料，尤其是透過非安全的媒體（例如網際網路）。 開發人員應該熟悉 C 和 c + + 程式設計語言，以及 Windows 程式設計環境。 雖然並非必要，但建議您瞭解密碼編譯或安全性相關的主題。
 
-CAPICOM 是僅限32位的元件，適用于使用 Visual Basic Scripting Edition (VBScript) 程式設計語言或 c + + 程式設計語言來建立應用程式的開發人員。 您可以在 Run-Time 需求所指定的作業系統中使用 CAPICOM。 針對未來的開發，建議您使用 .NET Framework 來執行安全性功能。 如需詳細資訊，請參閱 [使用 CAPICOM 的替代方案](alternatives-to-using-capicom.md)。
+CAPICOM 是一個僅限32位的元件，可供使用 Visual Basic 腳本撰寫版的開發人員使用 (VBScript) 程式設計語言或 c + + 程式設計語言。 您可以在 Run-Time 需求所指定的作業系統中使用 CAPICOM。 針對未來的開發，建議您使用 .NET Framework 來執行安全性功能。 如需詳細資訊，請參閱 [使用 CAPICOM 的替代方案](alternatives-to-using-capicom.md)。
 
 ## <a name="run-time-requirements"></a>執行階段需求求
 

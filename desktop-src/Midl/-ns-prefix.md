@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a85681182f9c6d89f3ada0014b406b4580b2c7fa
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f0f39483b10b8776e484946f67655de8cbfcaf0f3f96c972e9865cdfa490deda
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106989243"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119896038"
 ---
 # <a name="ns_prefix-switch"></a>/ns \_ 前置詞參數
 

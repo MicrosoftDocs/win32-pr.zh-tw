@@ -6,12 +6,12 @@ keywords:
 - AVIFileCreateStream 函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 370df08534bbdde870f6d28c828d47935abd80db
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: baaedd4103d2141ecaccde78462b2290cf5d5d37813b224c20101eacbe580d70
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103681918"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119891758"
 ---
 # <a name="writing-streams-to-a-file"></a>將資料流程寫入檔案
 
@@ -34,6 +34,6 @@ ms.locfileid: "103681918"
 [資料流作業](stream-operations.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

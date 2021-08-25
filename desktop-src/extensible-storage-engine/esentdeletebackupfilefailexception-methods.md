@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101496
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: ab8569864805c01dd9b1fa9a37e9a10553be16a9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cfb18391fbf6441381b34f6d070ac9d258a7acdf694a891a34e019859f9578d0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104569069"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119840012"
 ---
 # <a name="esentdeletebackupfilefailexception-methods"></a>EsentDeleteBackupFileFailException 方法
 

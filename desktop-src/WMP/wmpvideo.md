@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 7a918af8548ae7bc82cd4b1de1a81c685c1b5562
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 65560b9a5633020f2bbc37209af6ce5146027323fab7e422e6feac5536d0d84d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106996020"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119899748"
 ---
 # <a name="wmpvideo"></a>WMPVIDEO
 

@@ -3,17 +3,17 @@ title: 服務主機
 description: 服務主機是在進程中裝載服務的執行時間環境。
 ms.assetid: 42e4d24d-5611-4561-b874-6dc3f3f88c73
 keywords:
-- 適用于 Windows 的服務主機 Web 服務
+- Windows 的服務主機 Web 服務
 - WWSAPI
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0170f7dc0dfda99887b7d11d68d073517e0eb85f
-ms.sourcegitcommit: 5b98bf8c68922f8f03c14f793fbe17504900559c
+ms.openlocfilehash: ff3a09a41714ce80402c5430e6849988ae86163770af7ae3eb060fdd7925e861
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "106982136"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119838661"
 ---
 # <a name="service-host"></a>服務主機
 
@@ -120,7 +120,7 @@ WsFreeServiceHost(serviceHost, NULL);
 
 下列 API 專案會搭配服務主機使用。
 
-| 回呼                                                                             | Description                                                                     |
+| 回呼                                                                             | 描述                                                                     |
 |--------------------------------------------------------------------------------------|---------------------------------------------------------------------------------|
 | [**WS \_ 服務 \_ 接受 \_ 通道 \_ 回呼**](/windows/desktop/api/WebServices/nc-webservices-ws_service_accept_channel_callback) | 在服務主機的端點接聽程式接受通道時叫用。 |
 | [**WS \_ 服務 \_ 關閉 \_ 通道 \_ 回呼**](/windows/desktop/api/WebServices/nc-webservices-ws_service_close_channel_callback)   | 在端點上關閉或中止通道時叫用。                     |
@@ -159,7 +159,7 @@ WsFreeServiceHost(serviceHost, NULL);
 
 
 
-| Handle                                       | Description                                      |
+| Handle                                       | 描述                                      |
 |----------------------------------------------|--------------------------------------------------|
 | [**WS \_ 服務 \_ 主機**](ws-service-host.md) | 用來參考服務主機的不透明類型。 |
 
@@ -169,7 +169,7 @@ WsFreeServiceHost(serviceHost, NULL);
 
 
 
-| 結構                                                                              | Description                                                                     |
+| 結構                                                                              | 描述                                                                     |
 |----------------------------------------------------------------------------------------|---------------------------------------------------------------------------------|
 | [**WS \_ 服務 \_ 端點**](/windows/desktop/api/WebServices/ns-webservices-ws_service_endpoint)                                   | 代表服務主機上的個別端點。                            |
 | [**WS \_ 服務 \_ 端點 \_ 屬性**](/windows/desktop/api/WebServices/ns-webservices-ws_service_endpoint_property)                | 指定服務特定的設定。                                           |

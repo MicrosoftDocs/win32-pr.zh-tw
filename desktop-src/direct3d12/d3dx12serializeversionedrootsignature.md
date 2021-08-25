@@ -15,12 +15,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 70a9d0424f7f7a7f89edde18273c5d1fa22fae28
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 3f69e3bf66bcbad61e3d9bf676038f27511f756d7a3a473be2c513553862eb90
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106992699"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119851152"
 ---
 # <a name="d3dx12serializeversionedrootsignature-function"></a>D3DX12SerializeVersionedRootSignature 函式
 
@@ -88,7 +88,7 @@ HRESULT inline D3DX12SerializeVersionedRootSignature(
 
 ## <a name="remarks"></a>備註
 
-這個函式的發行與 Windows 10 年度更新版 (14393) 一致。 若要支援此之前的 Windows 10 版本，請使用此函式需要設定 d3d12 以進行 *延遲載入*。
+此函式已發行以符合 Windows 10 周年更新 (14393) 。 若要支援此之前的 Windows 10 版本，請使用此函式需要設定 d3d12 以進行 *延遲載入*。
 
 ## <a name="requirements"></a>規格需求
 

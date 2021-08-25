@@ -4,12 +4,12 @@ description: 本節中的主題提供指標輸入訊息和通知常數的參考�
 ms.assetid: 2224DCD0-DAE1-4AC2-AB36-23D114803138
 ms.topic: article
 ms.date: 02/03/2020
-ms.openlocfilehash: 6db54614e10c02cea5dfd4df9b7cf637abb3977c
-ms.sourcegitcommit: 0e611cdff84ff9f897c59e4e1d2b2d134bc4e133
+ms.openlocfilehash: 600ae37234c64ab313d38666b83f926795b08e21d91f23eeaec68aa68b24b9db
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "106995131"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119829768"
 ---
 # <a name="pointer-input-messages-and-notifications-constants"></a>指標輸入訊息和通知常數
 

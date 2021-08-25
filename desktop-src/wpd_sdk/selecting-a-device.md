@@ -4,12 +4,12 @@ ms.assetid: d1fc9608-5256-4c58-b77e-9dbe46a6abc5
 title: 選取 (WPD API) 的裝置
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: be04303ed04f165dd9d94723e218acb767a40596
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8110d24396c523186b324480b3dae3cf65d9d7b45819e610ea1f097ba9d8900d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106992097"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119839034"
 ---
 # <a name="selecting-a-device-wpd-api"></a>選取 (WPD API) 的裝置
 

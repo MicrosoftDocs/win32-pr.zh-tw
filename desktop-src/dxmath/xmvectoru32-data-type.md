@@ -4,12 +4,12 @@ ms.assetid: 1ac1f48a-cd7f-7741-933f-c341fc42a21c
 title: 'XMVECTORU32 資料類型 (Directxmath .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 90c7a64d42bc4638573b987642c0cd77c37cc12d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f13d37a5630df37021637bed978943a48a665db16301f2067c82f050a8231bbb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106977562"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119891678"
 ---
 # <a name="xmvectoru32-data-type"></a>XMVECTORU32 資料類型
 
@@ -42,7 +42,7 @@ data = uintVector;
 
 ### <a name="platform-requirements"></a>平台需求
 
-Microsoft Visual Studio 2010 或 Microsoft Visual Studio 2012 搭配 Windows 8 的 Windows SDK。 Win32 桌面應用程式、Windows Store 應用程式和 Windows Phone 8 應用程式均可支援。
+Microsoft Visual Studio 2010 或 Microsoft Visual Studio 2012 搭配 Windows 8 的 Windows SDK。 支援 Win32 傳統型應用程式、Windows 儲存應用程式，以及 Windows Phone 8 個應用程式。
 
 ## <a name="requirements"></a>規格需求
 

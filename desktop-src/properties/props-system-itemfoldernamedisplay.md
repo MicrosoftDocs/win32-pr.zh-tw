@@ -4,12 +4,12 @@ ms.assetid: 4049b6cb-41a1-4df6-89d1-a2022d3a285d
 title: System. ItemFolderNameDisplay
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d637412b02345b52fee2e1c13e8f499314af4c3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a7c8e8ca12af7c7665a2fd4b64f2911a1e6dbc99805cf4355ea1bb1ceec764c0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193740"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119945168"
 ---
 # <a name="systemitemfoldernamedisplay"></a>System. ItemFolderNameDisplay
 
@@ -19,7 +19,7 @@ ms.locfileid: "104193740"
 
 如果資料夾是檔案資料夾，則如果有可用的當地語系化名稱，此值就會當地語系化。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

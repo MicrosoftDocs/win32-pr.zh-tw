@@ -4,12 +4,12 @@ ms.assetid: def96d52-c9fa-4fac-b575-f9de8eb82d1c
 title: ModuleComponents 資料表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ea2f47418b0387c7fa9d289d156fb0369f53adf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 25216833022ada7592511091c6954222d8ebf354e732c95a54e8857948963541
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106981199"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119926478"
 ---
 # <a name="modulecomponents-table"></a>ModuleComponents 資料表
 

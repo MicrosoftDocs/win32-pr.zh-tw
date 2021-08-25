@@ -4,12 +4,12 @@ description: HTTP 伺服器版本 2.0 API 提供的功能，可讓您隔離在�
 ms.assetid: 893741b7-025c-4642-aff4-a5d69244763f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: efcfccc78bbef435aa0c74e918003383135bc4ed
-ms.sourcegitcommit: af9983bab40fe0b042f177ce7ca79f2eb0f9d0e8
+ms.openlocfilehash: 025e0829e020740aeeaf0381849b68bfde8b8244e845f9b5f24347bfa6bec1d6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "103853228"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119830071"
 ---
 # <a name="process-isolation"></a>處理序隔離
 

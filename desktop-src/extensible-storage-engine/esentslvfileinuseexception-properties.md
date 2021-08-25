@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102838
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 57314da3836badef282775f2710f222582ac0995
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5acf08d3cb52cdebff5434d8203104824745622b3465a9b2a32a6d12074ebb5e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103689995"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119946458"
 ---
 # <a name="esentslvfileinuseexception-properties"></a>EsentSLVFileInUseException 屬性
 

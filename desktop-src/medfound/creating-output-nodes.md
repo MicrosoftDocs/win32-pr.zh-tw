@@ -4,12 +4,12 @@ ms.assetid: 6e548f2a-77cd-460e-9ffd-c098f6ee75eb
 title: 建立輸出節點
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4388258c82c12f8473dc07df83ba3b9467eed7e6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6af2842458fb360374d34583b15bfbf5005b2f2bbdd8b32332bc6756ca4e8157
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847639"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119943018"
 ---
 # <a name="creating-output-nodes"></a>建立輸出節點
 

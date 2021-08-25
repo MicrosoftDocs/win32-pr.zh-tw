@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Npptools.dll
-ms.openlocfilehash: 883493215aaac0fa2568baec69232b379b8aa808
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 49920df1be929eb9b35781aeabdcdf47167e82a94066e2d3237207dd00b08f74
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103850151"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119910698"
 ---
 # <a name="getnppblobtable-function"></a>GetNPPBlobTable 函式
 
@@ -62,7 +62,7 @@ DWORD GetNPPBlobTable(
 
 
 
-| 傳回碼                                                                                                | Description                                                            |
+| 傳回碼                                                                                                | 描述                                                            |
 |------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | <dl> <dt>**NMERR \_ NO \_ NPP \_ DLL**</dt> </dl>         | 在 NPP 目錄中找不到任何 Dll。<br/>                    |
 | <dl> <dt>**NMERR \_ 沒有 \_ 有效的 \_ NPP \_ DLL**</dt> </dl> | NPP 目錄中的 Dll 都不是有效的 NPP Dll。<br/>  |

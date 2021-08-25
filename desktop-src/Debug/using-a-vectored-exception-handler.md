@@ -4,18 +4,18 @@ ms.assetid: dbf7016b-09ac-4ca7-9b47-38b0dd763462
 title: 使用向量例外狀況處理常式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 09c766d6695ebebdcb65f2895356866233117d87
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 1a74fa8d603997afcd5b2700a052c924315f2514651d588539a68f9bbc0e2068
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847299"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119929228"
 ---
 # <a name="using-a-vectored-exception-handler"></a>使用向量例外狀況處理常式
 
 下列範例程式碼示範如何使用向量式例外狀況處理。 它會使用 [**AddVectoredExceptionHandler**](/windows/win32/api/errhandlingapi/nf-errhandlingapi-addvectoredexceptionhandler) 函式來新增數個處理常式、測試處理常式，然後使用 [**RemoveVectoredExceptionHandler**](/windows/win32/api/errhandlingapi/nf-errhandlingapi-removevectoredexceptionhandler) 函數來移除處理常式。
 
-**64 位 Windows：** 這段程式碼不適合64位的 Windows。
+**64 位 Windows：** 此程式碼不適合64位 Windows。
 
 
 ```C++

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 967e5e8510d4456a085f393291f8c41afb5be446
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 681d6a878f90f29708812fce2c39f27024ed588deb5f3b8066cc4833487fd91f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103944058"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119900328"
 ---
 # <a name="killjob-method-of-the-cim_job-class"></a>CIM 作業類別的 KillJob 方法 \_
 
