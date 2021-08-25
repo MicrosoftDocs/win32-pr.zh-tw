@@ -4,12 +4,12 @@ description: IAccessible 介面提供描述性的屬性，描述物件的各種�
 ms.assetid: e6c1d1a3-417d-4aea-abac-f84a55f666b7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 271dc920034802b87afd4c76ab7ede6bb9476d99
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d7073d44478d3e7236a56828898346499922ab5e16e401489e54a41b61d7637e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104507256"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119860638"
 ---
 # <a name="content-of-descriptive-properties"></a>描述性屬性的內容
 
@@ -34,9 +34,9 @@ ms.locfileid: "104507256"
 
 如需這些屬性的參數和傳回值的詳細資訊，請參閱 Microsoft Active Accessibility [C/c + + 參考](c-c---reference.md)的 [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible)一節。
 
- 
+ 
 
- 
+ 
 
 
 

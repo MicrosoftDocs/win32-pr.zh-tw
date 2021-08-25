@@ -3,7 +3,7 @@ title: 'MCIWNDM_SETZOOM 訊息 (Vfw .h) '
 description: MCIWNDM \_ SETZOOM 訊息會根據縮放因數調整影片影像的大小。 這個 marco 會調整 MCIWnd 視窗的大小，同時維持固定的長寬比。 您可以使用 MCIWndSetZoom 宏明確地傳送此訊息。
 ms.assetid: c899b678-5ba7-4f0a-9ef9-c5370b3b4ea8
 keywords:
-- MCIWNDM_SETZOOM message Windows 多媒體
+- MCIWNDM_SETZOOM 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 80ecb513735c4e62266892e8ad55c7bf5daca151
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: fbcdd40206332df442bbae32975b0d888bbe39bc377a189d40e215888e4a6d0f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464508"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119807578"
 ---
 # <a name="mciwndm_setzoom-message"></a>MCIWNDM \_ SETZOOM 訊息
 

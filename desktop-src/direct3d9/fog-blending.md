@@ -4,12 +4,12 @@ ms.assetid: b5b43f12-bbed-4464-aebc-02ad6dab1951
 title: " (Direct3D 9) 的霧化混色"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fa918715a7bbe37b200568a0a9098135c5558b0d
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: f60f3402daf71a3fce14af936334c3d96e928d3469452eafb94d139594bb0b19
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104108401"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119894018"
 ---
 # <a name="fog-blending-direct3d-9"></a> (Direct3D 9) 的霧化混色
 

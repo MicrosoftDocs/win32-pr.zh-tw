@@ -11,12 +11,12 @@ api_name:
 - MBNProfile
 api_type:
 - Schema
-ms.openlocfilehash: 7016d492a70192a7d6accdcb3aaa57a9c564960e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 049ec22c170afda3a46620e2e94e2a16ae2708b4d6a69fcd0262baa69352a0a3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970443"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119943358"
 ---
 # <a name="mbnprofile-element"></a>MBNProfile 元素
 
@@ -120,7 +120,7 @@ ms.locfileid: "106970443"
 
 
 
-| 元素                                                                          | 類型                                                           | Description                                               |
+| 元素                                                                          | 類型                                                           | 描述                                               |
 |----------------------------------------------------------------------------------|----------------------------------------------------------------|-----------------------------------------------------------|
 | [**AutoConnectOnInternet**](schema-autoconnectoninternet-mbnprofile-element.md) | boolean                                                        | 裝置是否會自動連接。<br/> |
 | [**ConnectionMode**](schema-connectionmode-mbnprofile-element.md)               |                                                                | 裝置自動連線設定。<br/>           |
@@ -130,7 +130,7 @@ ms.locfileid: "106970443"
 | [**HomeProviderName**](schema-homeprovidername-mbnprofile-element.md)           | [**providerNameType**](schema-providernametype-simpletype.md) | 首頁提供者的名稱。<br/>                     |
 | [**ICONFilePath**](schema-iconfilepath-mbnprofile-element.md)                   | [**iconFileType**](schema-iconfiletype-simpletype.md)         | 圖示檔的路徑。<br/>                         |
 | [**IsDefault**](schema-isdefault-mbnprofile-element.md)                         | boolean                                                        | 設定檔是否為預設值。<br/>            |
-| [**Name**](schema-name-mbnprofile-element.md)                                   | [**nameType**](schema-nametype-simpletype.md)                 | 設定檔的名稱。<br/>                           |
+| [**名稱**](schema-name-mbnprofile-element.md)                                   | [**nameType**](schema-nametype-simpletype.md)                 | 設定檔的名稱。<br/>                           |
 | [**ProfileCreationType**](schema-profilecreationtype-mbnprofile-element.md)     |                                                                | 設定檔建立者的相關資訊。<br/>         |
 | [**SimIccID**](schema-simiccid-mbnprofile-element.md)                           | [**simIccIDType**](schema-simiccidtype-simpletype.md)         | GSM 裝置的 SIM 識別碼。<br/>     |
 | [**SubscriberID**](schema-subscriberid-mbnprofile-element.md)                   | [**subscriberIdType**](schema-subscriberidtype-simpletype.md) | 設定檔的唯一識別碼。<br/>              |

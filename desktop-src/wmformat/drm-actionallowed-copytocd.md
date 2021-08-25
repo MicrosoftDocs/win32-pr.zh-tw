@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0ba214fb2f067ba523222f92211bf7a9412a1634
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 852d44a4c812aed0d2f188b5ab18e9b74a1813bd9605bf348ca23b96b72f7d2b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "106969091"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119809408"
 ---
 # <a name="drm_actionallowed_copytocd"></a>DRM \_ ActionAllowed \_ CopyToCD
 
@@ -33,7 +33,7 @@ g \_ wszWMDRM \_ ActionAllowed \_ CopyToCD
 
 ## <a name="remarks"></a>備註
 
-Windows Media DRM 10 授權使用複製動作來限制複製到 CD。 您應該檢查 [**DRM \_ ActionAllowed \_ Copy**](drm-actionallowed-copy.md) 屬性，以判斷是否允許複製。
+WindowsMedia DRM 10 授權使用複製動作來限制複製到 CD。 您應該檢查 [**DRM \_ ActionAllowed \_ Copy**](drm-actionallowed-copy.md) 屬性，以判斷是否允許複製。
 
 這是使用 [**IWMDRMReader：： GetDRMProperty**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmreader-getdrmproperty)取出的唯讀屬性。
 
@@ -44,9 +44,9 @@ Windows Media DRM 10 授權使用複製動作來限制複製到 CD。 您應該�
 [**DRM 屬性**](drm-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

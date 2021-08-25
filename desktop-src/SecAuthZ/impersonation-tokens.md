@@ -4,12 +4,12 @@ ms.assetid: 74fcb0e3-303a-4a5e-9eb6-2aad3a4944db
 title: 模擬權杖
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9f468a4c7a9c6ff04a4481ffe7347e227a447db8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 67acf48a1f274703850fc8bfc2167014708124c46743f416591510b6c9ab559b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "107000313"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119908138"
 ---
 # <a name="impersonation-tokens"></a>模擬權杖
 

@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: CIM_DirectoryAction 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 59f5e160db96139bcb5fdeeea9c046177d709f7a
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 2dcd59272b2ef086165e9c271609fd76359a61d77e56b6464513efb9dd39fd9f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111077"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119924308"
 ---
 # <a name="cim_directoryaction-methods"></a>CIM \_ DirectoryAction 方法
 

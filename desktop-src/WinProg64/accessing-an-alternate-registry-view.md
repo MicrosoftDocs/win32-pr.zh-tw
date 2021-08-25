@@ -4,15 +4,15 @@ description: 根據預設，在 WOW64 上執行的 32 位元應用程式會存�
 ms.assetid: 2c5fd3de-998c-44ab-863e-8e0e90d56e5d
 keywords:
 - 登錄視圖64位 Windows 程式設計
-- WOW64 64 位 Windows 程式設計，登錄視圖
+- WOW64 64 位 Windows 程式設計、登錄視圖
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ad3bca57367394e1b2fffc6486065e93c966f224
-ms.sourcegitcommit: 35bb565804eaeed7ac5503595753f59d120076dd
+ms.openlocfilehash: 1642de971a2342ab26114803689b8de21dd66194618a8db23f97170bc8da576a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "106998935"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119859078"
 ---
 # <a name="accessing-an-alternate-registry-view"></a>存取替代登錄視圖
 
@@ -37,7 +37,7 @@ ms.locfileid: "106998935"
 
 您 \_ \_ 可以指定 key wow64 32KEY 或 key \_ wow64 \_ 64KEY。 如果同時指定這兩個旗標，則函式會失敗，並出現錯誤 \_ \_ 參數無效。
 
-**Windows server 2008、Windows Vista、Windows server 2003 和 WINDOWS XP：** 如果同時指定這兩個旗標，則函式的行為是未定義的。
+**Windows server 2008、Windows Vista Windows server 2003 和 Windows XP：** 如果同時指定這兩個旗標，則函式的行為是未定義的。
 
 [**RegDeleteKey**](/windows/desktop/api/winreg/nf-winreg-regdeletekeya)函數不能用來存取替代登錄視圖。
 

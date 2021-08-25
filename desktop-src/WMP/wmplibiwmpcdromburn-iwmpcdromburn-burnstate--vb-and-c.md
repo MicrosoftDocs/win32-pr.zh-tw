@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2c6b1aa8ec39f032e8f130a75370131bd2894c64
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 871d0884c9e5bf60a666f299953cff77d9a458b5a56f505c0588fafdb740023b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994143"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119862038"
 ---
 # <a name="iwmpcdromburnburnstate-property"></a>IWMPCdromBurn：： burnState 屬性
 

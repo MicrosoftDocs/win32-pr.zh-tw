@@ -17,12 +17,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 00a8558fb2834ba9b0143d644cf4922aa9a710d2
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2fd76cef258eaf7695278ce5bf5851f2433089773e980b5c4241282acc728372
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104094284"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119875278"
 ---
 # <a name="mdm_firewall_app04-class"></a>MDM \_ 防火牆 \_ App04 類別
 
@@ -137,7 +137,7 @@ class MDM_Firewall_App04
 
 | 需求 | 值 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 10 桌面應用程式\]<br/>                                                     |
+| 最低支援的用戶端<br/> | Windows 10 \[僅限桌面應用程式\]<br/>                                                     |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                       |
 | 命名空間<br/>                | 根 \\ cimv2 \\ mdm \\ dmmap<br/>                                                              |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv1 mof</dt> </dl> |

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: f714dfa91baba14524f12b6c3b2cb85211484cf5
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 230970e1328737339f236776c1405b7a950ea97c07a04d60d9ce26d9226168e9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106976745"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119848778"
 ---
 # <a name="id3dxbaseeffectgetboolarray-method"></a>ID3DXBaseEffect：： GetBoolArray 方法
 

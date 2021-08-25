@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5972bf95efc675d6dd9c2e58c0b7d25c8c305371
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: fc1e25fe090661bda40e8063c1d4d711c5a040f343408507756889a64bf96990
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104106320"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119859558"
 ---
 # <a name="access-flags"></a>存取旗標
 
@@ -26,7 +26,7 @@ ms.locfileid: "104106320"
 
 
 
-| 常數/值                                                                                                                                                                                                                                      | Description                                   |
+| 常數/值                                                                                                                                                                                                                                      | 描述                                   |
 |:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------|
 | <span id="ACTRL_ACCESS_ALLOWED"></span><span id="actrl_access_allowed"></span><dl> <dt>**ACTRL \_存取 \_ 允許**</dt>的 <dt>0x00000000</dt> </dl> | 表示允許存取的專案。<br/> |
 | <span id="ACTRL_ACCESS_DENIED"></span><span id="actrl_access_denied"></span><dl> <dt>**ACTRL \_\_拒絕存取**</dt> <dt>0x10000000</dt> </dl>    | 表示拒絕存取的專案。<br/>  |

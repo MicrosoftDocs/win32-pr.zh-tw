@@ -4,12 +4,12 @@ ms.assetid: 6823da94-724b-4465-ba5f-a4361c845951
 title: 家長監護
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a9151fa368b35f3a50d09dc5780808b77dbc4e3e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fc2017fddbaa8185a560fbbe5a600ffe363deea39e79490c954fc07bded8d69e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103693568"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119846588"
 ---
 # <a name="parental-controls-robustness"></a>家長監護
 

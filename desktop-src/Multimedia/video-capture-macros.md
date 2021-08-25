@@ -3,16 +3,16 @@ title: 影片捕獲宏
 description: 影片捕獲宏
 ms.assetid: 21061f06-d58b-4800-a9f5-9821494fabd6
 keywords:
-- 適用于 Windows (VFW) 影片捕獲宏的影片
-- 適用于 Windows) 的 VFW (影片、影片捕獲宏
+- 影片 Windows (VFW) 、影片捕獲宏
+- 適用于 Windows) 、影片捕獲宏的 VFW (影片
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 78d822485e3f774046f94126f9cc51a4403e4331
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c6aa4b92776d14216e61c3624efdb38b55e7db9c974143be0d1223bc7475f6af
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104371950"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119892108"
 ---
 # <a name="video-capture-macros"></a>影片捕獲宏
 
@@ -81,9 +81,9 @@ ms.locfileid: "104371950"
 [影片捕獲參考](video-capture-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

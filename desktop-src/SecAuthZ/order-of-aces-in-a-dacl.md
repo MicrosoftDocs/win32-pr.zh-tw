@@ -4,18 +4,18 @@ ms.assetid: fccf043e-e769-4f3f-b18c-252be20190d8
 title: DACL 中的 Ace 順序
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cc45d6fd286bb06bd4311a8a02010c68832735ac
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b3b5d017fe6441e90cded6458d8796dee301e3fa0fda01b7d088039abd9834ca
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106988293"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119907748"
 ---
 # <a name="order-of-aces-in-a-dacl"></a>DACL 中的 Ace 順序
 
-當 [*進程*](/windows/desktop/SecGloss/p-gly) 嘗試存取安全物件時，系統會逐步執行 [*存取控制專案*](/windows/desktop/SecGloss/a-gly) (ace) 在物件的 [*任意存取控制清單*](/windows/desktop/SecGloss/d-gly) 中， (DACL) 直到找到允許或拒絕所要求存取權的 ace 為止。 DACL 允許使用者的存取權限會視 DACL 中的 Ace 順序而有所不同。 因此，Windows XP 作業系統會在安全物件的 DACL 中定義 Ace 的慣用順序。 慣用的順序提供簡單的架構，可確保拒絕存取的 ACE 實際上會拒絕存取。 如需有關檢查存取權之系統演算法的詳細資訊，請參閱 [Dacl 如何控制物件的存取權](how-dacls-control-access-to-an-object.md)。
+當 [*進程*](/windows/desktop/SecGloss/p-gly) 嘗試存取安全物件時，系統會逐步執行 [*存取控制專案*](/windows/desktop/SecGloss/a-gly) (ace) 在物件的 [*任意存取控制清單*](/windows/desktop/SecGloss/d-gly) 中， (DACL) 直到找到允許或拒絕所要求存取權的 ace 為止。 DACL 允許使用者的存取權限會視 DACL 中的 Ace 順序而有所不同。 因此，Windows XP 作業系統會在安全物件的 DACL 中定義 ace 的慣用順序。 慣用的順序提供簡單的架構，可確保拒絕存取的 ACE 實際上會拒絕存取。 如需有關檢查存取權之系統演算法的詳細資訊，請參閱 [Dacl 如何控制物件的存取權](how-dacls-control-access-to-an-object.md)。
 
-在 Windows Server 2003 和 Windows XP 中，Ace 的正確順序很複雜，因為引進了物件特有的 Ace 和自動繼承。
+針對 Windows Server 2003 和 Windows XP，在引進物件專屬的 ace 和自動繼承時，ace 的正確順序會很複雜。
 
 下列步驟說明慣用的順序：
 

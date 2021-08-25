@@ -4,12 +4,12 @@ ms.assetid: 53bd2064-09dd-406f-a8ff-7b04f3525b9f
 title: 在合併模組中撰寫使用者介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1c2df8781efea35ddd854ef76c2155d4a2ded7f2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 931e539d8880c490853b20a6e53b3000f390c0b29f81bf8bb9d3e3703e3f7905
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106997521"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119829188"
 ---
 # <a name="authoring-user-interfaces-in-merge-modules"></a>在合併模組中撰寫使用者介面
 

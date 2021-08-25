@@ -205,12 +205,12 @@ api_type:
 - COM
 api_location:
 - Microsoft.Interop.Security.Azroles.dll
-ms.openlocfilehash: 45367e428df3920cad3143120278c22097bcbbfb
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3b3c53b661fc85112ae5510d75a2ff2483037b514fdc50d4841481cd79b544f0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106992543"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119907958"
 ---
 # <a name="microsoftinteropsecurityazrolesiazapplication3-interface"></a>AzRoles. IAzApplication3 介面
 
@@ -289,7 +289,7 @@ ms.locfileid: "106992543"
 
 
 
-| 屬性                                                                                   | 存取類型           | Description                                                                                                       |
+| 屬性                                                                                   | 存取類型           | 描述                                                                                                       |
 |:-------------------------------------------------------------------------------------------|:----------------------|:------------------------------------------------------------------------------------------------------------------|
 | **Azroles. IAzApplication3. ApplicationData**<br/>          | 讀取/寫入<br/> | [**IAzApplication 的 ApplicationData 屬性**](/windows/desktop/api/Azroles/nf-azroles-iazapplication-get_applicationdata)<br/>                   |
 | **Azroles. IAzApplication3. ApplicationGroups**<br/>        | 唯讀<br/>  | [**IAzApplication 的 ApplicationGroups 屬性**](/windows/desktop/api/Azroles/nf-azroles-iazapplication-get_applicationgroups)<br/>               |

@@ -1,5 +1,5 @@
 ---
-description: '[自動播放] 是 Windows XP 中的一項新功能 studio，可偵測卸載式媒體和可移動裝置上的圖片、音樂或影片檔案等內容。'
+description: '[自動播放] 是在 Windows XP 中 studio 的新功能，可偵測卸載式媒體和可移動裝置上的圖片、音樂或影片檔案等內容。'
 title: 使用硬體自動播放
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,16 +9,16 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 1c0eff0e9c8a96149d26ee5bdc514e5067c0abb2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5fc3d4700305100cab3c62d96c881830f6ea02c1c6060b1076709b5190833064
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191185"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119943578"
 ---
 # <a name="using-hardware-autoplay"></a>使用硬體自動播放
 
-[自動播放] 是 Windows XP 中的一項新功能 studio，可偵測卸載式媒體和可移動裝置上的圖片、音樂或影片檔案等內容。 自動播放會接著自動啟動應用程式，以播放或顯示該內容。 這可簡化特定週邊裝置的使用，例如 MPEG-Layer 3 (MP3) 播放機和數位相片讀取器。 它也可讓不熟悉軟體的使用者更容易存取各種內容類型。
+[自動播放] 是在 Windows XP 中 studio 的新功能，可偵測卸載式媒體和可移動裝置上的圖片、音樂或影片檔案等內容。 自動播放會接著自動啟動應用程式，以播放或顯示該內容。 這可簡化特定週邊裝置的使用，例如 MPEG-Layer 3 (MP3) 播放機和數位相片讀取器。 它也可讓不熟悉軟體的使用者更容易存取各種內容類型。
 
 其中包含一組已展開的圖示，包括主要製造商的品牌圖示，可在 **我的電腦** 中提供改良的磁片磁碟機和其他連接裝置的視覺差異。 具有卸載式媒體的裝置圖示（除了磁片磁碟機以外）會在 [就緒] 和 [未就緒] 版本中提供，以指出裝置的目前狀態。 這會確認裝置已熱插拔系統中可供使用，並可協助避免裝置在未插入媒體的情況下「裝置尚未就緒」訊息。
 

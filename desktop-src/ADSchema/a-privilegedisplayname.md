@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e41666264a0b0900765531c8afb38f16e2ffacb
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: b1f9fe2e87001621f962078cb33c4990dd4619791323552e66f84a404f3dac17
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103686959"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119923298"
 ---
 # <a name="privilege-display-name-attribute"></a>許可權-顯示名稱屬性
 
@@ -58,7 +58,7 @@ Windows NT 許可權的顯示名稱。
 | 連結識別碼                | \-           |
 | MAPI-Id                | \-           |
 | System-Only            | 否        |
-| 是-單一值       | 對         |
+| 是-單一值       | 是         |
 | 已編制索引             | 否        |
 | 在通用類別目錄中      | 否        |
 | NT-Security-描述元 | O:BAG：不正確： S： |
@@ -79,7 +79,7 @@ Windows NT 許可權的顯示名稱。
 | 連結識別碼                | \-           |
 | MAPI-Id                | \-           |
 | System-Only            | 否        |
-| 是-單一值       | 對         |
+| 是-單一值       | 是         |
 | 已編制索引             | 否        |
 | 在通用類別目錄中      | 否        |
 | NT-Security-描述元 | O:BAG：不正確： S： |
@@ -100,7 +100,7 @@ Windows NT 許可權的顯示名稱。
 | 連結識別碼                | \-           |
 | MAPI-Id                | \-           |
 | System-Only            | 否        |
-| 是-單一值       | 對         |
+| 是-單一值       | 是         |
 | 已編制索引             | 否        |
 | 在通用類別目錄中      | 否        |
 | NT-Security-描述元 | O:BAG：不正確： S： |
@@ -121,7 +121,7 @@ Windows NT 許可權的顯示名稱。
 | 連結識別碼                | \-           |
 | MAPI-Id                | \-           |
 | System-Only            | 否        |
-| 是-單一值       | 對         |
+| 是-單一值       | 是         |
 | 已編制索引             | 否        |
 | 在通用類別目錄中      | 否        |
 | NT-Security-描述元 | O:BAG：不正確： S： |
@@ -142,7 +142,7 @@ Windows NT 許可權的顯示名稱。
 | 連結識別碼                | \-           |
 | MAPI-Id                | \-           |
 | System-Only            | 否        |
-| 是-單一值       | 對         |
+| 是-單一值       | 是         |
 | 已編制索引             | 否        |
 | 在通用類別目錄中      | 否        |
 | NT-Security-描述元 | O:BAG：不正確： S： |
@@ -163,7 +163,7 @@ Windows NT 許可權的顯示名稱。
 | 連結識別碼                | \-           |
 | MAPI-Id                | \-           |
 | System-Only            | 否        |
-| 是-單一值       | 對         |
+| 是-單一值       | 是         |
 | 已編制索引             | 否        |
 | 在通用類別目錄中      | 否        |
 | NT-Security-描述元 | O:BAG：不正確： S： |

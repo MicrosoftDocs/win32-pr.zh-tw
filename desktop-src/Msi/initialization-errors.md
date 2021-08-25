@@ -4,12 +4,12 @@ ms.assetid: 5cce27ff-1143-4fe6-b4bd-727581431c07
 title: 初始化錯誤
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ee6730a0578579a5b52c30ba2d59436820381f22
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9494a560f8ec211da042736e767fc79371aeffcc4435a8fb554989ac625c2b3e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192442"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119894088"
 ---
 # <a name="initialization-errors"></a>初始化錯誤
 

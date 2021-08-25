@@ -4,12 +4,12 @@ ms.assetid: 1c1ff9bf-84a2-45ac-b464-ecc42a4d2d84
 title: ICE93
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0ed8cde0bce66db9f726a69f0f12064653d22727
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b66e87046c2f23fe3efcb2b9ae0e188f7f2f0232c623c3d3ecae77e73438b86f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975860"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119828838"
 ---
 # <a name="ice93"></a>ICE93
 
@@ -21,7 +21,7 @@ ICE93 會張貼下列警告。
 
 
 
-| ICE93 警告                                                      | Description                                                                                                                    |
+| ICE93 警告                                                      | 描述                                                                                                                    |
 |--------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|
 | 自訂動作 ' \[ 1 \] ' 使用的名稱與標準動作相同。 | CustomAction 資料表的動作資料行中有一個識別碼，也就是 Windows Installer 標準動作的名稱。 |
 

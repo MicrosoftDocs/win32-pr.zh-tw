@@ -4,12 +4,12 @@ ms.assetid: B85A33F9-F5E1-4F68-8A88-1CBA863CE1C8
 title: Eku 屬性
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bcc67eb394bfcf76067be2c6caaf7f603840ce55
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 75a78a5ab783501f2651a852e038e8ed64a0366d6e845554f8c702180a177aa8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112665"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119875008"
 ---
 # <a name="ekus-properties"></a>Eku 屬性
 

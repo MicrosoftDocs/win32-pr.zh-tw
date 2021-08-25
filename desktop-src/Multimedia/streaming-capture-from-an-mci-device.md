@@ -10,12 +10,12 @@ keywords:
 - capGetMCIDeviceName 宏
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ab8cf358a87a812024328abf7fc1aae0509a126f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 24d469465f47e908bda2512261ea638ad23e931a43cbb0449df676829469c3d9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104507373"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119892588"
 ---
 # <a name="streaming-capture-from-an-mci-device"></a>從 MCI 裝置串流捕獲
 
@@ -38,7 +38,7 @@ MCI 裝置會在即時捕捉和逐步執行框架捕獲中增強捕獲作業。 
 > [!Note]  
 > 如果您的硬體支援以硬體為基礎的減去，它可以以比指定更高的速率來捕捉範例，並使用這些額外的範例來取得與原始影像更一致的色彩定義。 使用之後會捨棄額外的範例，而硬體會以指定的速率將範例傳至 capture 驅動程式。
 
- 
+ 
 
 如果指定了步驟框架捕獲， **wStepCaptureAverageFrames** 成員會指定根據平均範例建立框架時，所取樣的框架次數。 這種平均技術可減少出現在框架中的亂數字化雜訊。 平均值的一般值為5。
 
@@ -51,9 +51,9 @@ MCI 裝置會在即時捕捉和逐步執行框架捕獲中增強捕獲作業。 
 [捕捉變化](capture-variations.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

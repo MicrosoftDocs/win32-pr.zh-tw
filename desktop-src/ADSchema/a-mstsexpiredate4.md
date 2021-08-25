@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 94a6d002d59c4f2794716dd8e2f7ad46bf5325a2
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 49a1cd0cd332e702f5a8dbf637a8cdbad462b1691988cf70d01edfe36e16d412
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104108048"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119924398"
 ---
 # <a name="ms-ts-expiredate4-attribute"></a>ExpireDate4 屬性
 
@@ -55,8 +55,8 @@ ms.locfileid: "104108048"
 | 連結識別碼                | \-           |
 | MAPI-Id                | \-           |
 | System-Only            | 否        |
-| 是-單一值       | 對         |
-| 已編制索引             | 對         |
+| 是-單一值       | 是         |
+| 已編制索引             | 是         |
 | 在通用類別目錄中      | 否        |
 | NT-Security-描述元 | O:BAG：不正確： S： |
 | Range-Lower            | \-           |
@@ -76,8 +76,8 @@ ms.locfileid: "104108048"
 | 連結識別碼                | \-           |
 | MAPI-Id                | \-           |
 | System-Only            | 否        |
-| 是-單一值       | 對         |
-| 已編制索引             | 對         |
+| 是-單一值       | 是         |
+| 已編制索引             | 是         |
 | 在通用類別目錄中      | 否        |
 | NT-Security-描述元 | O:BAG：不正確： S： |
 | Range-Lower            | \-           |
@@ -97,8 +97,8 @@ ms.locfileid: "104108048"
 | 連結識別碼                | \-           |
 | MAPI-Id                | \-           |
 | System-Only            | 否        |
-| 是-單一值       | 對         |
-| 已編制索引             | 對         |
+| 是-單一值       | 是         |
+| 已編制索引             | 是         |
 | 在通用類別目錄中      | 否        |
 | NT-Security-描述元 | O:BAG：不正確： S： |
 | Range-Lower            | \-           |

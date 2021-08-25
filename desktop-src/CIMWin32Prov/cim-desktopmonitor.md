@@ -38,12 +38,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: b22d0b681491bbddf0ee357b394da5f1a77aa0e1
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: c1c3ca9f621a4a91620e9c8ea46af0d15e84d13c51d61d96a341a0188ac2807b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104187764"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119924548"
 ---
 # <a name="cim_desktopmonitor-class-cimwin32-wmi-providers"></a>CIM_DesktopMonitor 類別 (CIMWin32 WMI 提供者) 
 

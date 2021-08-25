@@ -11,12 +11,12 @@ keywords:
 - DrawDibChangePalette 函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f5935831d8996c424a386f86082282f9cf7c1c12
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 3db474a9e983c442f21fd479342ac8b0786719f36f1494e307154c6cc0a0bd50
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103933195"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119893018"
 ---
 # <a name="palettes"></a>調色板
 
@@ -33,7 +33,7 @@ DrawDib 函式要求應用程式必須回應兩個以元件為導向的訊息：
 > [!Note]  
 > 如果您在 DC 選取 DrawDib 元件時將其釋出，當 DC 使用調色板時，會導致圖形裝置介面 (GDI) 錯誤。 相反地，您的應用程式應該使用 [**DrawDibSetPalette**](/windows/desktop/api/Vfw/nf-vfw-drawdibsetpalette) 來變更 DrawDib DC，以使用預設的調色板或其他調色板。
 
- 
+ 
 
 [**DrawDibEnd**](/windows/desktop/api/Vfw/nf-vfw-drawdibend)、 [**DrawDibClose**](/windows/desktop/api/Vfw/nf-vfw-drawdibclose)和 [**DrawDibBegin**](/windows/desktop/api/Vfw/nf-vfw-drawdibbegin)函數可以釋放 DrawDib 調色板。 不過，只有當 DC 尚未選取元件時，才應該使用這些函數。 DrawDibDraw 函式使用相同的 DrawDib DC 時，也可以釋出調色板，但會指定不同的繪圖參數 (*lpbi*、 *dxDst*、 *dyDst*、 *dxSrc* 或 *dySrc*) 或不同的格式。
 
@@ -44,6 +44,6 @@ DrawDib 函式要求應用程式必須回應兩個以元件為導向的訊息：
 [影像轉譯](image-rendering.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

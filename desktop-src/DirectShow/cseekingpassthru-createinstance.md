@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 3640cbd6a0a3e582899e7f5cd349ca48498f3532
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5060e2e9842022d89c49e01b56967a92b71c5752e01239fd970c881ccb509cbe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994687"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119908058"
 ---
 # <a name="cseekingpassthrucreateinstance-method"></a>CSeekingPassThru CreateInstance 方法
 

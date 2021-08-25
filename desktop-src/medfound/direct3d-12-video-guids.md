@@ -4,12 +4,12 @@ ms.assetid: CF2F3058-328A-4128-B5C6-29723B49AB1E
 title: 'Direct3D 12 Video Guid (D3d11 .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 05f7a56227ccc2953504d8466a34d6b2160ce1e3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b8c2411b2e9172323e544855cfd4ef0200c8043d365ac9b65afd9a2a1d8f83ad
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191060"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119942688"
 ---
 # <a name="direct3d-12-video-guids"></a>Direct3D 12 影片 Guid
 
@@ -19,7 +19,7 @@ ms.locfileid: "104191060"
 
 下表列出可識別 Direct3D 12 影片解碼設定檔的 Guid。 這些描述會將每個 Direct3D 12 video 解碼設定檔與相等的 Direct3D 11 video 或 DXVA 設定檔產生關聯。
 
-| Name                                                 | 值                                                                                | 描述
+| 名稱                                                 | 值                                                                                | 描述
 |------------------------------------------------------|--------------------------------------------------------------------------------------|--------------------------------------------------------|
 | D3D12 \_ 影片 \_ 解碼 \_ 設定檔 \_ MPEG1 \_ 和 \_ MPEG2           | 0x86695f12、0x340e、0x4f04、0x9f、0xd3、0x92、0x53、0xdd、0x32、0x74、0x60 | 相當於 DXVA2 \_ ModeMPEG2and1 \_ VLD。                 |
 | D3D12 \_ 視頻 \_ 解碼 \_ 設定檔 \_ MPEG2                     | 0xee27417f、0x5e28、0x4e65、0xbe、0xea、bugcheck 0x1d、0x26、0xb5、0x08、0xad、0xc9           | 相當於 D3D11 \_ 解碼器 \_ 設定檔 \_ MPEG2 \_ VLD 和 DXVA2 \_ ModeMPEG2 \_ VLD。                 |
@@ -48,8 +48,8 @@ ms.locfileid: "104191060"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 10 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2016 \[ desktop 應用程式\]<br/>                               |
+| 最低支援的用戶端<br/> | Windows 10 \[僅限桌面應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows Server 2016 \[僅限桌面應用程式\]<br/>                               |
 | 標頭<br/>                   | <dl> <dt>D3d11。h</dt> </dl> |
 
 

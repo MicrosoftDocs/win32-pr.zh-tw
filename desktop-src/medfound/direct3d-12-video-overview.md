@@ -4,12 +4,12 @@ ms.assetid: ''
 title: Direct3D 12 影片總覽
 ms.topic: article
 ms.date: 06/03/2019
-ms.openlocfilehash: b21587f2784b34131da9c050655b6f3fbe43582d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 561ceba8a3110d6aa7e9a336430c0a14ddb45bc5707c650588a08c391cd65863
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510802"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119828318"
 ---
 # <a name="direct3d-12-video-overview"></a>Direct3D 12 影片總覽
 

@@ -4,12 +4,12 @@ ms.assetid: 4FD8169D-FDDF-4C69-AD46-05B02B35028C
 title: 'MFSampleExtension_MULTIPLEXED_MANAGER 屬性 (Mfidl) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 20b46c277265538ccb2b990ea9d912b9337bcd67
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 848b613c4f6de9086f3da9636a29cad73499b7f0b37bd3445cee3d1086d61d7c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106979075"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119848098"
 ---
 # <a name="mfsampleextension_multiplexed_manager-attribute"></a>MFSampleExtension 多工 \_ \_ 管理器屬性
 

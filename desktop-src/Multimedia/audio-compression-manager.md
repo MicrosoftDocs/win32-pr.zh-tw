@@ -11,12 +11,12 @@ keywords:
 - " (音效壓縮管理員) ，關於"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 30f8906ceffc8930fd945a50c557030c1e8f8902
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 020d84ca784d85456f8173d18bd041c502e519579d96357a405e7e160e6779e4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021960"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119808328"
 ---
 # <a name="audio-compression-manager"></a>音訊壓縮管理員
 
@@ -26,9 +26,9 @@ ms.locfileid: "104021960"
 -   [使用音訊壓縮管理員](using-the-audio-compression-manager.md)
 -   [音訊壓縮管理員參考](audio-compression-manager-reference.md)
 
- 
+ 
 
- 
+ 
 
 
 

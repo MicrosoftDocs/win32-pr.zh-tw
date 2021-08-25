@@ -4,12 +4,12 @@ ms.assetid: ba1e7877-1612-4f2f-aced-0dd982352ad6
 title: 'WM_IME_SETCONTEXT 訊息 (Winuser .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6b36cb1e80127d1a451dabcc457dc364a27878ba
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a5fb3e65b47b5d62b1d37ffaee4dfc5927d76485d0c3e5de02662da64215e43f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191379"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119829248"
 ---
 # <a name="wm_ime_setcontext-message"></a>WM \_ 輸入法 \_ SETCONTEXT 訊息
 
@@ -86,7 +86,7 @@ LRESULT CALLBACK WindowProc(
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                                                                                                                |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                                                                                                      |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) ;</dt><dt>Imm (包括 Windows .h) </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) ;</dt><dt>Imm (包含 Windows .h) </dt> </dl> |
 
 
 

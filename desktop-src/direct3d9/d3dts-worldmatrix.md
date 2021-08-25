@@ -1,5 +1,5 @@
 ---
-description: 將範圍0到255之間的索引對應到相對應的轉換狀態。
+description: 地圖範圍從0到255的索引到對應的轉換狀態。
 ms.assetid: b0a1548c-de5d-4eff-baf9-4aecb5e13443
 title: 'D3DTS_WORLDMATRIX 宏 (D3d9types) '
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - HeaderDef
 api_location:
 - D3d9types.h
-ms.openlocfilehash: f80996a37e2fb48bf8ca7ea73f714b04e711b263
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 03a93753790378a7066f4a3ffa6bc6b7fb8139b77f9096886161013653312bba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104514576"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119850058"
 ---
 # <a name="d3dts_worldmatrix-macro"></a>D3DTS \_ WORLDMATRIX 宏
 
-將範圍0到255之間的索引對應到相對應的轉換狀態。
+地圖範圍從0到255的索引到對應的轉換狀態。
 
 ## <a name="syntax"></a>語法
 

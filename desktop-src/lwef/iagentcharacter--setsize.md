@@ -4,16 +4,16 @@ description: IAgentCharacter SetSize
 ms.assetid: 8324ab84-2b59-4459-b375-700d72b621bc
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d39d5b33afa7ff59516b793f194a0ba186c2e002
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 089226f98969594a1d19afc7f3bb529c30943e06ec4083364dc5ae2f9850c9c4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103674991"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119848518"
 ---
 # <a name="iagentcharactersetsize"></a>IAgentCharacter：： SetSize
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 ``` syntax
 HRESULT SetSize(
@@ -51,9 +51,9 @@ HRESULT SetSize(
 [**IAgentCharacter：： GetSize**](iagentcharacter--getsize.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

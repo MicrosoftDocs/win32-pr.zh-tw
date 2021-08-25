@@ -4,18 +4,18 @@ description: 資料傳輸介面
 ms.assetid: c42e65a4-7b77-4f39-8323-04fa60c5b140
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 448e1a580880c7202ec67d12965f6db7e0be99d0
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 63bffa72f2e6bd408cbb7f19121aeef991e74702ff1141b24aba779e6985585c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "106967499"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119896338"
 ---
 # <a name="data-transfer-interfaces"></a>資料傳輸介面
 
 [**IDataObject**](/windows/desktop/api/ObjIdl/nn-objidl-idataobject)介面為數據取用者提供了取得及設定物件資料的方法、判斷物件所支援的格式，以及在物件中的資料變更時，註冊和接收通知。 取得資料時，呼叫端可以指定要用來呈現資料的格式。 但是，資料的來源會判斷儲存媒體，它會在呼叫端所提供的 out 參數中傳回。
 
-[**IDataObject**](/windows/desktop/api/ObjIdl/nn-objidl-idataobject)本身會提供在您的應用程式中執行 Windows 剪貼簿傳輸或複合檔案傳輸所需的所有工具。 如果您也想要支援拖放傳輸，您需要執行 [**IDropSource**](/windows/desktop/api/OleIdl/nn-oleidl-idropsource) 和 [**IDropTarget**](/windows/desktop/api/OleIdl/nn-oleidl-idroptarget) 介面以及 **IDataObject**。
+[**IDataObject**](/windows/desktop/api/ObjIdl/nn-objidl-idataobject)本身會提供您在應用程式中執行 Windows 剪貼簿傳輸或複合檔案傳輸所需的所有工具。 如果您也想要支援拖放傳輸，您需要執行 [**IDropSource**](/windows/desktop/api/OleIdl/nn-oleidl-idropsource) 和 [**IDropTarget**](/windows/desktop/api/OleIdl/nn-oleidl-idroptarget) 介面以及 **IDataObject**。
 
 [**IDataObject**](/windows/desktop/api/ObjIdl/nn-objidl-idataobject)介面與 OLE 剪貼簿 api 結合，可提供 Windows 剪貼簿 api 的所有功能。 通常不需要同時使用剪貼簿 Api。 支援拖放傳送或 OLE 複合檔案的資料供應商必須執行 **IDataObject** 介面。 如果您的應用程式現在僅支援剪貼簿傳送，但您想要在稍後的版本中新增拖放或複合檔案，您可能會想要立即執行 **IDataObject** 和 OLE 剪貼簿 api，以將稍後進行編碼和偵測所花費的時間降到最低。 您也可能想要執行 **IDataObject** ，以便利用全域記憶體以外的傳輸媒體。
 

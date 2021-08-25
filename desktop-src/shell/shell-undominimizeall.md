@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 4a5010e4ac6b4fca42689f7c80db50c55ab2cb4a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5e2342bda1059e2bcb00893afb182e415840a4e650392fc3e1d3df4756cb2d03
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193339"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119941568"
 ---
 # <a name="shellundominimizeall-method"></a>UndoMinimizeALL 方法
 
-將所有桌面視窗還原到最後一個 [**MinimizeAll**](shell-minimizeall.md) 命令之前的相同狀態。 這個方法的效果與在工作列上按一下滑鼠右鍵，然後選取 [復原]，將舊版系統上的 **所有視窗最小化** ，或第二次按一下 windows 2000 或 windows XP 中工作列的 [快速啟動] 區域中的 [ **顯示桌面** ] 圖示。
+將所有桌面視窗還原到最後一個 [**MinimizeAll**](shell-minimizeall.md) 命令之前的相同狀態。 這個方法的效果與在工作列上按一下滑鼠右鍵，然後選取 [復原]，將舊版系統上的 **所有 Windows** ，或第二次按一下 Windows 2000 或 Windows XP 中工作列快速啟動區域中的 [**顯示桌面**] 圖示。
 
 ## <a name="syntax"></a>語法
 
@@ -47,9 +47,9 @@ Shell.UndoMinimizeALL() As Integer
 
 ## <a name="examples"></a>範例
 
-下列範例顯示使用中的 **UndoMinimizeALL** 。 JScript、VBScript 和 Visual Basic 會顯示適當的使用方式。
+下列範例顯示使用中的 **UndoMinimizeALL** 。 JScript、VBScript 和 Visual Basic 都會顯示適當的使用方式。
 
-Jscript：
+JScript：
 
 
 ```JScript
@@ -105,10 +105,10 @@ End Sub
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 windows 2000 Professional、Windows XP \[ desktop 應用程式\]<br/>                                         |
+| 最低支援的用戶端<br/> | Windows 2000 Professional，僅 Windows XP \[ desktop 應用程式\]<br/>                                         |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                           |
 | 標頭<br/>                   | <dl> <dt>Shldisp。h</dt> </dl>                           |
-| Idl<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl>                         |
+| IDL<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Shell32.dll (4.71 版或更新版本) </dt> </dl> |
 
 

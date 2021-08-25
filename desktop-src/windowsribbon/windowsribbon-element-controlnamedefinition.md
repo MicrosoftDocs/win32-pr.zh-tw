@@ -3,7 +3,7 @@ title: ControlNameDefinition 元素
 description: 表示自訂 SizeDefinition 版面配置範本中的控制項名稱。
 ms.assetid: 94b724bd-a4e3-40e0-9cf0-3cc6a71100d2
 keywords:
-- ControlNameDefinition 元素視窗功能區
+- ControlNameDefinition 元素 Windows 功能區
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 6b2dc1db251d4d657c3793d2a66a9add1d324c37
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 98dec89afb4a74d71271e3568935f9707a31cbb1db18be22cedb6f667e1010cb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111443439"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119840748"
 ---
 # <a name="controlnamedefinition-element"></a>ControlNameDefinition 元素
 
@@ -39,7 +39,7 @@ ms.locfileid: "111443439"
 
 | 屬性           | 類型                                       | 必要      | 描述                                                                                                                                                                                                                                                                                                                                                                           |
 |---------------------|--------------------------------------------|---------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **名稱**<br/> | xs： positiveInteger 或 xs： string<br/> | 否<br/> | <dt> (xs： positiveInteger 或 xs： string) <br/> </dt> <dd> 字串、介於2與59999（含）之間的整數值，或介於0x2 與0xea5f （含）之間的十六進位值。 <br/> 值在功能區 XML 檔中必須是唯一的。 <br/> 最大長度：100個字元。 <br/> </dd> </dl> |
+| **名稱**<br/> | xs： positiveInteger 或 xs： string<br/> | No<br/> | <dt> (xs： positiveInteger 或 xs： string) <br/> </dt> <dd> 字串、介於2與59999（含）之間的整數值，或介於0x2 與0xea5f （含）之間的十六進位值。 <br/> 值在功能區 XML 檔中必須是唯一的。 <br/> 最大長度：100個字元。 <br/> </dd> </dl> |
 
 
 

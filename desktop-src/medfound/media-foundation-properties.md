@@ -4,12 +4,12 @@ ms.assetid: 98510fda-7e10-4b63-83d4-5a224aed67a3
 title: 媒體基礎屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b94c43cb52cad860ee53dafaac512bd7274d5034
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 5789e978ee9f6ef0e4e4294765cc082a4dc2c7f6d1597fde50bbfa1cee751be4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106981737"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119827528"
 ---
 # <a name="media-foundation-properties"></a>媒體基礎屬性
 
@@ -105,7 +105,7 @@ ms.locfileid: "106981737"
 | [MFP \_ PKEY \_ StreamRenderingResults](mfp-pkey-streamrenderingresults.md)<br/>                                                              | 指定成功連接至媒體接收器的串流。<br/>                                                                                                                      |
 | [MFPKEY \_ ASFMEDIASINK \_ AUTOADJUST \_ 位元速率](mfpkey-asfmediasink-autoadjust-bitrate-property.md)<br/>                                      | 指定 ASF 媒體接收器是否自動調整位元速率。 <br/>                                                                                                                 |
 | [MFPKEY \_ ASFMEDIASINK \_ BASE \_ SENDTIME](mfpkey-asfmediasink-base-sendtime-property.md)<br/>                                                | ASF 媒體接收器的基底傳送時間（以毫秒為單位）。<br/>                                                                                                                                   |
-| [MFPKEY \_ ASFMEDIASINK \_ DRMACTION](mfpkey-asfmediasink-drmaction-property.md)<br/>                                                         | 指定 ASF 媒體接收器應該如何套用 Windows Media DRM。 <br/>                                                                                                                         |
+| [MFPKEY \_ ASFMEDIASINK \_ DRMACTION](mfpkey-asfmediasink-drmaction-property.md)<br/>                                                         | 指定如何將 ASF 媒體接收器套用 Windows 媒體 DRM。 <br/>                                                                                                                         |
 | [MFPKEY \_ ASFMediaSource \_ ApproxSeek](mfpkey-asfmediasource-approxseek-property.md)<br/>                                                   | 指定 ASF 媒體來源是否使用近似搜尋。 <br/>                                                                                                                         |
 | [MFPKEY \_ ASFMediaSource \_ IterativeSeek \_ 最大 \_ 計數](mfpkey-asfmediasource-iterativeseek-max-count.md)<br/>                                | 設定 ASF 媒體來源在執行反復搜尋時，所要使用的搜尋反復專案數目上限。<br/>                                                                            |
 | [MFPKEY \_ ASFMediaSource \_ IterativeSeek \_ 容錯 \_ （ \_ 毫秒）](mfpkey-asfmediasource-iterativeseek-tolerance-in-millisecond.md)<br/> | 設定當 ASF 媒體來源執行反復搜尋時，所使用的容錯（以毫秒為單位）。<br/>                                                                                   |
@@ -263,7 +263,7 @@ ms.locfileid: "106981737"
 | [**MFPKEY \_ WMA \_ 基本 \_ 資料流程**](mfpkey-wma-elementary-streamproperty.md)<br/>                                                       | 不支援。<br/>                                                                                                                                                                            |
 | [**MFPKEY \_ WMAAECMA \_ 裝置 \_ 索引**](mfpkey-wmaaecma-device-indexesproperty.md)<br/>                                                   | 指定語音捕獲 DSP 用來捕捉和呈現音訊的音訊裝置。 <br/>                                                                                              |
 | [**MFPKEY \_ WMAAECMA \_ DEVICEPAIR \_ GUID**](mfpkey-wmaaecma-devicepair-guidproperty.md)<br/>                                                 | 識別應用程式目前與語音捕獲 DSP 搭配使用之音訊裝置的組合。 <br/>                                                                          |
-| [**MFPKEY \_ WMAAECMA \_ SQL-DMO \_ 來源 \_ 模式**](mfpkey-wmaaecma-dmo-source-modeproperty.md)<br/>                                                | 指定語音捕獲 DSP 是否使用來源模式或篩選模式。 <br/>                                                                                                                 |
+| [**MFPKEY \_ WMAAECMA \_ DMO \_ 來源 \_ 模式**](mfpkey-wmaaecma-dmo-source-modeproperty.md)<br/>                                                | 指定語音捕獲 DSP 是否使用來源模式或篩選模式。 <br/>                                                                                                                 |
 | [**MFPKEY \_ WMAAECMA \_ FEATR \_ AES**](mfpkey-wmaaecma-featr-aesproperty.md)<br/>                                                             | 指定「語音捕獲」 DSP 對剩餘信號的 (AES) 執行聲場 DSP 抑制的次數。 <br/>                                                                          |
 | [**MFPKEY \_ WMAAECMA \_ FEATR \_ AGC**](mfpkey-wmaaecma-featr-agcproperty.md)<br/>                                                             | 指定語音捕獲 DSP 是否執行自動增益控制。 <br/>                                                                                                                 |
 | [**MFPKEY \_ WMAAECMA \_ FEATR \_ 中心 \_ 剪輯**](mfpkey-wmaaecma-featr-center-clipproperty.md)<br/>                                            | 指定語音捕獲 DSP 是否執行中央裁剪。 <br/>                                                                                                                        |

@@ -8,12 +8,12 @@ keywords:
 - 安裝檔案資訊
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a8785275f5aac69218989250d1c0f83e0a1ff9f
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 0447bc1dfc3b2d5d5006bb5ff9ca3e9fa8f3d488e9b5621acb932c843fc3630f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103681896"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119846988"
 ---
 # <a name="using-version-information"></a>使用版本資訊
 
@@ -53,6 +53,6 @@ ms.locfileid: "103681896"
 
 如果 [**VerInstallFile**](/windows/desktop/api/Winver/nf-winver-verinstallfilea) 傳回檔案錯誤（例如 **VIF \_ ACCESSVIOLATION**），則安裝程式應該使用 [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) 函式來取得最新的錯誤值。 程式應該將此值轉譯成可向使用者顯示的資訊訊息。 程式不能在呼叫 **VerInstallFile** 和 **GetLastError** 之間產生控制權。
 
- 
+ 
 
- 
+ 

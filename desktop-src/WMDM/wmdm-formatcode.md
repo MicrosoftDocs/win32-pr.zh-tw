@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d04db31578f36455fdf77bb4044ad45e5ca9f9a6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5b09a388926a0f5fc11e24fc17fe4693b710e04aa321202e9cf31890d60d6642
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107000660"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119862908"
 ---
 # <a name="wmdm_formatcode-enumeration"></a>WMDM \_ FORMATCODE 列舉
 
@@ -399,7 +399,7 @@ typedef enum tagWMDM_FORMATCODE {
 <span id="WMDM_FORMATCODE_WINDOWSIMAGEFORMAT"></span><span id="wmdm_formatcode_windowsimageformat"></span>**WMDM \_ FORMATCODE \_ WINDOWSIMAGEFORMAT**
 </dt> <dd>
 
-格式化 Windows 映像格式的程式碼。
+Windows 影像格式的格式程式碼。
 
 </dd> <dt>
 
@@ -581,7 +581,7 @@ Advanced 電視 Systems 委員會的格式程式碼 (ATSCTS) 格式標準。
 <span id="WMDM_FORMATCODE_WPLPLAYLIST"></span><span id="wmdm_formatcode_wplplaylist"></span>**WMDM \_ FORMATCODE \_ WPLPLAYLIST**
 </dt> <dd>
 
-格式化以 Windows Media 播放清單格式化的播放清單程式碼。
+格式化具有 Windows 媒體播放清單格式之播放清單的程式碼。
 
 </dd> <dt>
 
@@ -637,7 +637,7 @@ Advanced 電視 Systems 委員會的格式程式碼 (ATSCTS) 格式標準。
 <span id="WMDM_FORMATCODE_MICROSOFTWORDDOCUMENT"></span><span id="wmdm_formatcode_microsoftworddocument"></span>**WMDM \_ FORMATCODE \_ MICROSOFTWORDDOCUMENT**
 </dt> <dd>
 
-格式化 Microsoft Word 檔的程式碼。
+Microsoft Word 檔的格式化程式碼。
 
 </dd> <dt>
 
@@ -651,14 +651,14 @@ Advanced 電視 Systems 委員會的格式程式碼 (ATSCTS) 格式標準。
 <span id="WMDM_FORMATCODE_MICROSOFTEXCELSPREADSHEET"></span><span id="wmdm_formatcode_microsoftexcelspreadsheet"></span>**WMDM \_ FORMATCODE \_ MICROSOFTEXCELSPREADSHEET**
 </dt> <dd>
 
-為 Microsoft Excel 試算表格式化程式碼。
+Microsoft Excel 試算表的格式程式碼。
 
 </dd> <dt>
 
 <span id="WMDM_FORMATCODE_MICROSOFTPOWERPOINTDOCUMENT"></span><span id="wmdm_formatcode_microsoftpowerpointdocument"></span>**WMDM \_ FORMATCODE \_ MICROSOFTPOWERPOINTDOCUMENT**
 </dt> <dd>
 
-格式化 Microsoft PowerPoint 檔的程式碼。
+Microsoft PowerPoint 檔的格式化程式碼。
 
 </dd> <dt>
 

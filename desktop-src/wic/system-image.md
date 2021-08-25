@@ -4,12 +4,12 @@ ms.assetid: 33860A3D-0BC5-4a90-8479-8926ABBCDFA9
 title: 系統. 映射
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fdd180bbbb46c55b1f7356cd666579714cf45a1a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 15354b098a5a6d6c08e9828971e61a9b307c77cbedadb5d821fa1d58e033ef38
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320256"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119841328"
 ---
 # <a name="systemimage"></a>系統. 映射
 

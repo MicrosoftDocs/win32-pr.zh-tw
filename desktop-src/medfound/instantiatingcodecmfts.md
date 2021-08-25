@@ -4,12 +4,12 @@ ms.assetid: 171f9a0f-effb-4ed7-8aff-d7b1ee6e4973
 title: 具現化編解碼器 MFTs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5aa886f24f7dbd1acc373c7e505baddf71bc3aa8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a73af4055aee1d5b7e6a3ea137ab2204c9e59194f57ae4776e6c8368429db877
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191439"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119827608"
 ---
 # <a name="instantiating-codec-mfts"></a>具現化編解碼器 MFTs
 
