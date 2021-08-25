@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f6d018d47dd5cbcc8192dee490965bd06c56d0e3
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: c9eab33e5aff861c1afecaafa52e04964ef286c5835e0a6992a3d369210f8927
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104092375"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119895768"
 ---
 # <a name="u-switch"></a>/U 參數
 
@@ -70,9 +70,9 @@ midl /U name
 [**/no \_ cpp**](-no-cpp-nocpp.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

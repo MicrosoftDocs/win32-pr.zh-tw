@@ -4,12 +4,12 @@ description: 編輯控制訊息
 ms.assetid: b5c12b71-b7c3-4331-a656-15718121ddf4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d57fcf4077b74217140b201cf3ac95bfc620912
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 5eb870fbb76eff8e90b5a8cf92bc8826653c04e021bc49e099d610c5cb62a173
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "103853751"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119827338"
 ---
 # <a name="edit-control-messages"></a>編輯控制訊息
 

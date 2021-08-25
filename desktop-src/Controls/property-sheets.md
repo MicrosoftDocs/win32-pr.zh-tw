@@ -4,12 +4,12 @@ description: 屬性工作表是一種視窗，可讓使用者查看和編輯專�
 ms.assetid: 93676a64-7980-48cd-8615-23b14a118e1c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3256959b588e2109740033692c0c528889fc939f
-ms.sourcegitcommit: 11f52354f570aacaf1ba2a266b2e507abd73352a
+ms.openlocfilehash: 241d5ed4299a0771d9f2b4df6f17929474c7f4868edf7bcaf1ade5baa7e572b3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "107001524"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119914696"
 ---
 # <a name="about-property-sheets"></a>關於屬性工作表
 
@@ -54,7 +54,7 @@ ms.locfileid: "107001524"
 
 ## <a name="pages"></a>頁面
 
-屬性工作表必須包含至少一個頁面，但它不能包含超過 **MAXPROPPAGES** 的值，如 Windows 標頭檔中所定義。 每個頁面都有以零為基底的索引，屬性工作表會根據頁面加入至屬性工作表的順序來指派這些索引。 索引會用於您傳送至屬性工作表的訊息中。
+屬性工作表必須包含至少一個頁面，但不能包含超過 **MAXPROPPAGES** 的值，如 Windows 標頭檔中所定義。 每個頁面都有以零為基底的索引，屬性工作表會根據頁面加入至屬性工作表的順序來指派這些索引。 索引會用於您傳送至屬性工作表的訊息中。
 
 屬性頁可以包含嵌套的對話方塊。 如果有的話，您必須在最上層的對話方塊中包含 [**WS \_ EX \_ CONTROLPARENT**](/windows/desktop/winmsg/extended-window-styles) 樣式，並使用父對話方塊的控制碼來呼叫 [**IsDialogMessage**](/windows/desktop/api/winuser/nf-winuser-isdialogmessagea) 函數。 這可確保使用者可以使用助憶鍵和對話方塊導覽鍵，將焦點移至嵌套對話方塊中的控制項。
 
@@ -64,7 +64,7 @@ ms.locfileid: "107001524"
 
 屬性工作表頁面的最小大小為212對話單位水準和114對話方塊單位。 如果頁面對話方塊小於此值，則會放大頁面，直到它符合大小下限為止。 Prsht.idl 標頭檔包含屬性工作表頁面的三組建議大小，如下表所示。
 
-|  大小                |   Description                                                   |
+|  大小                |   描述                                                   |
 |----------------------|-----------------------------------------------------------------|
 | **\_SM \_ CXDLG**  | 小型屬性工作表頁面的寬度（以對話方塊單位為單位）。         |
 | **\_SM \_ CYDLG**  | 小型屬性工作表頁面的高度（以對話方塊單位）。        |
@@ -73,9 +73,9 @@ ms.locfileid: "107001524"
 | **\_LG \_ CXDLG 的**  | 大型屬性工作表頁面的寬度（以對話方塊單位）。         |
 | **\_LG \_ CYDLG 的**  | 大型屬性工作表頁面的高度（以對話方塊單位）。        |
 
-使用這些建議的大小將有助於確保您的應用程式與其他 Microsoft Windows 應用程式之間的視覺化一致性。
+使用這些建議的大小將有助於確保您的應用程式和其他 Microsoft Windows 應用程式之間的視覺化一致性。
 
-在 Microsoft Visual Studio 資源編輯器中，您可以在 [ **新增資源** ] 對話方塊中建立適當大小的頁面。 展開對話方塊節點，然後選取 [ **idd \_ PROPPAGE \_ 大型**、 **idd \_ PROPPAGE \_ 媒體** 或 **idd \_ PROPPAGE \_**]。
+在 Microsoft Visual Studio 資源編輯器中，您可以在 [**新增資源**] 對話方塊中建立適當大小的頁面。 展開對話方塊節點，然後選取 [ **idd \_ PROPPAGE \_ 大型**、 **idd \_ PROPPAGE \_ 媒體** 或 **idd \_ PROPPAGE \_**]。
 
 屬性工作表會自動調整大小以容納最大的頁面。
 
@@ -105,7 +105,7 @@ ms.locfileid: "107001524"
 當您定義頁面時，可以指定 [*PropSheetPageProc*](/windows/win32/api/prsht/nc-prsht-lpfnpspcallbacka) 回呼函式的位址，當屬性工作表正在建立或移除頁面時，會呼叫該函式。 使用 *PropSheetPageProc* 可讓您有機會執行個別頁面的初始化和清除作業。
 
 > [!NOTE]  
-> 當屬性工作表正在動作頁面清單時，會發生一些訊息和一個函式呼叫。 當此動作執行時，嘗試修改頁面清單將會產生無法預期的結果。 請勿在 [*PropSheetPageProc*](/windows/win32/api/prsht/nc-prsht-lpfnpspcallbacka)的執行中新增、插入或移除頁面，或處理下列通知和 Windows 訊息。
+> 當屬性工作表正在動作頁面清單時，會發生一些訊息和一個函式呼叫。 當此動作執行時，嘗試修改頁面清單將會產生無法預期的結果。 請勿在 [*PropSheetPageProc*](/windows/win32/api/prsht/nc-prsht-lpfnpspcallbacka)的執行中新增、插入或移除頁面，或在處理下列通知和 Windows 訊息時，新增、插入或移除頁面。
 >
 > -   [PSN \_ APPLY](psn-apply.md)
 > -   [PSN \_ KILLACTIVE](psn-killactive.md)
@@ -116,7 +116,7 @@ ms.locfileid: "107001524"
 > -   [**WM \_ INITDIALOG**](/windows/desktop/dlgbox/wm-initdialog)
 > -   [**WM 損 \_ 毀**](/windows/desktop/winmsg/wm-destroy)
 
-如果您在處理其中一個訊息時，或當 [*PropSheetPageProc*](/windows/win32/api/prsht/nc-prsht-lpfnpspcallbacka) 正在運作時，需要修改屬性工作表頁面，請張貼私用 Windows 訊息。 在內容工作表管理員完成工作之後，您的應用程式就不會收到該訊息，此時修改頁面清單是安全的。
+如果您在處理其中一個訊息時，或當 [*PropSheetPageProc*](/windows/win32/api/prsht/nc-prsht-lpfnpspcallbacka)正在進行時需要修改屬性工作表頁面，請張貼私用的 Windows 訊息。 在內容工作表管理員完成工作之後，您的應用程式就不會收到該訊息，此時修改頁面清單是安全的。
 
 當屬性工作表已損毀時，它會自動終結已新增至其中的所有頁面。 這些頁面會以反向順序從用來建立頁面的陣列中所指定的順序來銷毀。 若要終結 [**CreatePropertySheetPage**](/windows/desktop/api/Prsht/nf-prsht-createpropertysheetpagea) 函式所建立但未加入至屬性工作表的頁面，請使用 [**DestroyPropertySheetPage**](/windows/desktop/api/Prsht/nf-prsht-destroypropertysheetpage) 函數。
 
@@ -223,7 +223,7 @@ typedef struct DLGTEMPLATEEX
 
 有時候 [套用 **] 按鈕會** 讓頁面變更屬性工作表，而且變更無法復原。 發生這種情況時，頁面必須將 [**PSM \_ CANCELTOCLOSE**](psm-canceltoclose.md) 訊息傳送至屬性工作表。 此訊息會讓屬性工作表將 [ **確定]** 按鈕的文字變更為 [關閉]，表示無法取消套用的變更。
 
-有時候，頁面會變更系統組態，需要重新開機 Windows 或重新開機系統，變更才會生效。 進行這類變更之後，頁面必須將 [**psm \_ RESTARTWINDOWS**](psm-restartwindows.md) 或 [**psm \_ REBOOTSYSTEM**](psm-rebootsystem.md) 訊息傳送至屬性工作表。 這些訊息會在屬性工作表終結之後，使 [**PropertySheet**](/windows/desktop/api/Prsht/nf-prsht-propertysheeta) 函式傳回 **Id \_ PSRESTARTWINDOWS** 或 **id \_ PSREBOOTSYSTEM** 值。
+有時候，頁面會變更系統組態，需要重新開機 Windows，或系統在變更生效之前重新開機系統。 進行這類變更之後，頁面必須將 [**psm \_ RESTARTWINDOWS**](psm-restartwindows.md) 或 [**psm \_ REBOOTSYSTEM**](psm-rebootsystem.md) 訊息傳送至屬性工作表。 這些訊息會在屬性工作表終結之後，使 [**PropertySheet**](/windows/desktop/api/Prsht/nf-prsht-propertysheeta) 函式傳回 **Id \_ PSRESTARTWINDOWS** 或 **id \_ PSREBOOTSYSTEM** 值。
 
 當使用者按一下 [ **取消** ] 按鈕時，屬性工作表會將 [PSN \_ 重設](psn-reset.md) 通知程式碼傳送至所有頁面，指出即將終結屬性工作表。 頁面必須使用通知以執行清除作業。
 

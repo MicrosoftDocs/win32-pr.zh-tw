@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Rkeysvcc.h
-ms.openlocfilehash: 71d6724f7bae78a3c1ac4da83289c151b7ec1a73
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3c23cc259029cf76fcb1590e6261623827d59b48c9a0728e21c8250ca3e858f1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103945400"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119976091"
 ---
 # <a name="keysvc_type-enumeration"></a>KEYSVC \_ 類型列舉
 
@@ -61,7 +61,7 @@ typedef enum _KEYSVC_TYPE {
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | 都不支援<br/>                                                             |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Rkeysvcc。h</dt> </dl> |
 
 

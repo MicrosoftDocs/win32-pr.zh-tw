@@ -4,12 +4,12 @@ ms.assetid: edafb5f9-09fe-4f8e-9651-4002b6f622f4
 title: Winsock 函式s
 ms.topic: article
 ms.date: 10/01/2019
-ms.openlocfilehash: 9bf2205c970eeaaf4e64867565d58680b28298c8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5057a2fa7ff113da3c8e5f9077f9dfb1df83c3a390546b9d49d2d4b94db3625e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106978231"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119860718"
 ---
 # <a name="winsock-functions"></a>Winsock 函式s
 
@@ -106,7 +106,7 @@ ms.locfileid: "106978231"
 | [**WSAAsyncGetProtoByNumber**](/windows/win32/api/winsock/nf-winsock-wsaasyncgetprotobynumber) | 以非同步方式抓取對應至通訊協定編號的通訊協定資訊。 |
 | [**WSAAsyncGetServByName**](/windows/win32/api/winsock/nf-winsock-wsaasyncgetservbyname) | 以非同步方式抓取對應到服務名稱和埠的服務資訊。 |
 | [**WSAAsyncGetServByPort**](/windows/win32/api/winsock/nf-winsock-wsaasyncgetservbyport) | 以非同步方式抓取對應至埠和通訊協定的服務資訊。 |
-| [**WSAAsyncSelect**](/windows/win32/api/winsock/nf-winsock-wsaasyncselect) | 要求通訊端的網路事件以 Windows 訊息為基礎的通知。 |
+| [**WSAAsyncSelect**](/windows/win32/api/winsock/nf-winsock-wsaasyncselect) | 針對通訊端，要求 Windows 以訊息為基礎的網路事件通知。 |
 | [**WSACancelAsyncRequest**](/windows/win32/api/winsock/nf-winsock-wsacancelasyncrequest) | 取消不完整的非同步作業。 |
 | [**WSACleanup**](/windows/win32/api/winsock/nf-winsock-wsacleanup) | 終止使用 Ws2 \_32.DLL。 |
 | [**WSACloseEvent**](/windows/win32/api/Winsock2/nf-winsock2-wsacloseevent) | 關閉開啟的事件物件控制碼。 |

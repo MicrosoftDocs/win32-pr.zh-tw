@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2e729ba805d63068844192a134236722288fe8a9
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
-ms.translationtype: HT
+ms.openlocfilehash: 37665d3630979dee3fad7c109152a852883455f5de40c064faa8f1ea4f0645cb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104322695"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119855618"
 ---
 # <a name="d3dx_float_to_uint-function"></a>D3DX \_ FLOAT \_ 到 \_ UINT 函數
 

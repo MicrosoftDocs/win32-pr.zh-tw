@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7489dc7059f10e1a6f61d1a290f8f664a385f96c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 348092e079428e0b147d8143411cee7766365913115f968ed0e112b209383077
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106977419"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119862658"
 ---
 # <a name="wmdmmessage-enumeration"></a>WMDMMessage 列舉
 
@@ -47,28 +47,28 @@ enum WMDMMessage {
 <span id="WMDM_MSG_DEVICE_ARRIVAL"></span><span id="wmdm_msg_device_arrival"></span>**WMDM \_ MSG \_ 裝置 \_ 抵達**
 </dt> <dd>
 
-已插入 Windows Media 裝置管理員裝置。
+已插入 Windows 媒體裝置管理員裝置。
 
 </dd> <dt>
 
 <span id="WMDM_MSG_DEVICE_REMOVAL"></span><span id="wmdm_msg_device_removal"></span>**WMDM \_ MSG \_ 裝置 \_ 移除**
 </dt> <dd>
 
-Windows Media 裝置管理員裝置已移除。
+已移除 Windows 媒體裝置管理員裝置。
 
 </dd> <dt>
 
 <span id="WMDM_MSG_MEDIA_ARRIVAL"></span><span id="wmdm_msg_media_arrival"></span>**WMDM \_ MSG \_ 媒體 \_ 抵達**
 </dt> <dd>
 
-媒體已插入 Windows Media 裝置管理員裝置。
+媒體已插入 Windows 媒體裝置管理員裝置。
 
 </dd> <dt>
 
 <span id="WMDM_MSG_MEDIA_REMOVAL"></span><span id="wmdm_msg_media_removal"></span>**WMDM \_ MSG \_ 媒體 \_ 移除**
 </dt> <dd>
 
-媒體已從 Windows Media 裝置管理員裝置中移除。
+媒體已從 Windows 媒體裝置管理員裝置中移除。
 
 </dd> </dl>
 

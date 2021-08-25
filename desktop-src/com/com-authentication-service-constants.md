@@ -27,12 +27,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1227d2accdf871c2e57a25661837d10089c983ce
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 14cf6f0ab42b03d028d52df8160cad286e8c37af3988d8ca3b9736dad538012e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104106319"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119993778"
 ---
 # <a name="authentication-service-constants"></a>驗證服務常數
 
@@ -40,7 +40,7 @@ ms.locfileid: "104106319"
 
 
 
-| 常數/值                                                                                                                                                                                                                                               | Description                                                                                                                                                                                                                                                                    |
+| 常數/值                                                                                                                                                                                                                                               | 描述                                                                                                                                                                                                                                                                    |
 |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="RPC_C_AUTHN_NONE"></span><span id="rpc_c_authn_none"></span><dl> <dt>**RPC \_C \_ 驗證 \_ 無**</dt> <dt>0</dt> </dl>                              | 不需要驗證。<br/>                                                                                                                                                                                                                                                  |
 | <span id="RPC_C_AUTHN_DCE_PRIVATE"></span><span id="rpc_c_authn_dce_private"></span><dl> <dt>**RPC \_C \_ 驗證 \_ DCE \_ 私**</dt>用 <dt>1</dt> </dl>        | DCE 私密金鑰驗證。<br/>                                                                                                                                                                                                                                     |

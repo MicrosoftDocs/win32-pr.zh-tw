@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - mfmediaengine.h
-ms.openlocfilehash: a62a62d8cf11afaa0190ac442f84b00cfe23517b
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: b49a7c4fb0cb9e45ab0c2823d92ceb6e4076dfcaef4d2e8450f1f3d07f474279
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106982798"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119942028"
 ---
 # <a name="imfmediasourceextensionaddsourcebuffer-method"></a>IMFMediaSourceExtension：： AddSourceBuffer 方法
 
@@ -60,9 +60,9 @@ HRESULT AddSourceBuffer(
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8.1 桌面應用程式\]<br/>                                                 |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 R2 \[ desktop 應用程式\]<br/>                                      |
-| Idl<br/>                      | <dl> <dt>Mfmediaengine .idl</dt> </dl> |
+| 最低支援的用戶端<br/> | Windows 8.1 \[僅限桌面應用程式\]<br/>                                                 |
+| 最低支援的伺服器<br/> | Windows Server 2012\[僅限 R2 desktop 應用程式\]<br/>                                      |
+| IDL<br/>                      | <dl> <dt>Mfmediaengine .idl</dt> </dl> |
 
 
 

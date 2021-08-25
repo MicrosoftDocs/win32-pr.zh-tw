@@ -4,12 +4,12 @@ ms.assetid: ba917d15-bbdb-46fe-9ad8-56a8837f7b2d
 title: '電源管理 (電源管理) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f9964d0a02d9a2510825730ce47193b30de69b9a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 014c89518e4c40b181dd85315f1c435420f2a7c9a3cda1294f25e22ed4d57615
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106993132"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119868658"
 ---
 # <a name="power-management"></a>電源管理
 

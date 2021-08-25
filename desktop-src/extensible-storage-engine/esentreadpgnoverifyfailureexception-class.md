@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 0de6967016196e48fe15bf6f190d1a4207678bcd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9bca310e9eae421bc930efc4616d6252f2612450ff6094071ce3b71b42b8b250
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106978871"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119835958"
 ---
 # <a name="esentreadpgnoverifyfailureexception-class"></a>EsentReadPgnoVerifyFailureException 類別
 

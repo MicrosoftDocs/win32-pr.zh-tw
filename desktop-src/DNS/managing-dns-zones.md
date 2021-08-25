@@ -4,12 +4,12 @@ description: DNS 區域是對應至 DNS 階層式命名空間一部分之 RR 專
 ms.assetid: d4aa94e0-36f7-4b97-8a0a-c677c8a826a0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 58c4cc991821f88076d3c3e9b2bfcbddc3ab662d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d886a3a92d0c0265fd5da27af4a3c3fcd9a98243b5949406e9840250f6d2b98e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103674483"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119874928"
 ---
 # <a name="managing-dns-zones"></a>管理 DNS 區域
 
@@ -36,9 +36,9 @@ DNS WMI 提供者可從授權 DNS 伺服器本身或從遠端主機管理 DNS �
 -   [重載區域](dns-wmi-provider-samples-managing-dns-zones.md)
 -   [重新整理區域](dns-wmi-provider-samples-managing-dns-zones.md)
 
- 
+ 
 
- 
+ 
 
 
 

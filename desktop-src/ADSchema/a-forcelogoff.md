@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 63e31cb241cde4deb40d5978594b4354fbcc564b
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 1df1ab9721643edec3e03e91475c74e63dde94dcb982e0a84aad3cdf7c63b806
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104107087"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119925848"
 ---
 # <a name="force-logoff-attribute"></a>Force-Logoff 屬性
 
@@ -58,7 +58,7 @@ ms.locfileid: "104107087"
 | 連結識別碼                | \-                                                                                                       |
 | MAPI-Id                | \-                                                                                                       |
 | System-Only            | 否                                                                                                    |
-| 是-單一值       | 對                                                                                                     |
+| 是-單一值       | 是                                                                                                     |
 | 已編制索引             | 否                                                                                                    |
 | 在通用類別目錄中      | 否                                                                                                    |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                             |
@@ -79,7 +79,7 @@ ms.locfileid: "104107087"
 | 連結識別碼                | \-                                                                                                       |
 | MAPI-Id                | \-                                                                                                       |
 | System-Only            | 否                                                                                                    |
-| 是-單一值       | 對                                                                                                     |
+| 是-單一值       | 是                                                                                                     |
 | 已編制索引             | 否                                                                                                    |
 | 在通用類別目錄中      | 否                                                                                                    |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                             |
@@ -100,7 +100,7 @@ ms.locfileid: "104107087"
 | 連結識別碼                | \-                                                                                                       |
 | MAPI-Id                | \-                                                                                                       |
 | System-Only            | 否                                                                                                    |
-| 是-單一值       | 對                                                                                                     |
+| 是-單一值       | 是                                                                                                     |
 | 已編制索引             | 否                                                                                                    |
 | 在通用類別目錄中      | 否                                                                                                    |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                             |
@@ -121,7 +121,7 @@ ms.locfileid: "104107087"
 | 連結識別碼                | \-                                                                                                       |
 | MAPI-Id                | \-                                                                                                       |
 | System-Only            | 否                                                                                                    |
-| 是-單一值       | 對                                                                                                     |
+| 是-單一值       | 是                                                                                                     |
 | 已編制索引             | 否                                                                                                    |
 | 在通用類別目錄中      | 否                                                                                                    |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                             |
@@ -142,7 +142,7 @@ ms.locfileid: "104107087"
 | 連結識別碼                | \-                                                                                                       |
 | MAPI-Id                | \-                                                                                                       |
 | System-Only            | 否                                                                                                    |
-| 是-單一值       | 對                                                                                                     |
+| 是-單一值       | 是                                                                                                     |
 | 已編制索引             | 否                                                                                                    |
 | 在通用類別目錄中      | 否                                                                                                    |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                             |
@@ -163,7 +163,7 @@ ms.locfileid: "104107087"
 | 連結識別碼                | \-                                                                                                       |
 | MAPI-Id                | \-                                                                                                       |
 | System-Only            | 否                                                                                                    |
-| 是-單一值       | 對                                                                                                     |
+| 是-單一值       | 是                                                                                                     |
 | 已編制索引             | 否                                                                                                    |
 | 在通用類別目錄中      | 否                                                                                                    |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                             |

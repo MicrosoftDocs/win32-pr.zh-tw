@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: abed8c1d58687203aaeb32918cf15b2785b92622
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 642b76cde4f4e27979dae0e930ec987dc9a02d36aa8d17c7dcdd9b8785204ac9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106997110"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119860148"
 ---
 # <a name="swbemobjectex-object"></a>SWbemObjectEx 物件
 
@@ -56,7 +56,7 @@ ms.locfileid: "106997110"
 
 
 
-| 屬性                                                                 | 存取類型           | Description                                                                                                                                              |
+| 屬性                                                                 | 存取類型           | 描述                                                                                                                                              |
 |:-------------------------------------------------------------------------|:----------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**SystemProperties\_**](swbemobjectex-systemproperties-.md)<br/> | 讀取/寫入<br/> | [**內含**](swbempropertyset.md)物件，其中包含適用于 **SWbemObjectEx** 的系統屬性集合。<br/> |
 
@@ -72,8 +72,8 @@ ms.locfileid: "106997110"
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows Vista<br/>                                                                |
 | 最低支援的伺服器<br/> | Windows Server 2008<br/>                                                          |
-| 標頭<br/>                   | <dl> <dt>>wbemdisp.tlb。h</dt> </dl>   |
-| 類型程式庫<br/>             | <dl> <dt>>wbemdisp.tlb .tlb</dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>>Wbemdisp.tlb。h</dt> </dl>   |
+| 類型程式庫<br/>             | <dl> <dt>>Wbemdisp.tlb .tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
 | CLSID<br/>                    | CLSID \_ SWbemObjectEx<br/>                                                         |
 | IID<br/>                      | IID \_ ISWbemObjectEx<br/>                                                          |

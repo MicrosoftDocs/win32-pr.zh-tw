@@ -9,19 +9,19 @@ keywords:
 - 列舉，輸入2個線上商店
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3dd9cd733f39cb3c99b09986ea7136e984b3c666
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 05a203342d675eaac6e0565c9b120ab42f42a29799f9a2a84dc18ac165fc3ae0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104314298"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119862968"
 ---
 # <a name="enumerations-for-type-2-online-stores"></a>類型2線上商店的列舉
 
 > [!Note]  
 > 本章節描述專為線上商店使用而設計的功能。 不支援在線上商店的內容之外使用這項功能。
 
- 
+ 
 
 下列列舉類型適用于使用 c + + 程式碼的線上商店。
 
@@ -33,7 +33,7 @@ ms.locfileid: "104314298"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -42,9 +42,9 @@ ms.locfileid: "104314298"
 [**類型 2 線上商店的參考**](reference-for-type-2-online-stores.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

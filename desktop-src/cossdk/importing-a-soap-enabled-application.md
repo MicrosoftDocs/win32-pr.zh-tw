@@ -4,12 +4,12 @@ ms.assetid: 7f4783f7-4f53-4f0b-bb64-ae7903097d6c
 title: 匯入 SOAP-Enabled 應用程式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d9faca91a726caea765d4b2ca227ddba0ff3a2f
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 1a41a60c2b5ca69197582a684920e9e935f28631779bc632810049f1a7d03945
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510711"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119858918"
 ---
 # <a name="importing-a-soap-enabled-application"></a>匯入 SOAP-Enabled 應用程式
 

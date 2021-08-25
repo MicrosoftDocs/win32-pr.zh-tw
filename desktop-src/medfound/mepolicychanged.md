@@ -4,12 +4,12 @@ ms.assetid: 9dc78dc6-3fc2-4a81-ad41-45ff3fdbdade
 title: 'MEPolicyChanged 事件 (Mfobjects) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2b6827c44958e2df016365a8caa9a66f1aad9a30
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2ac87d3dae63b20d19c91f0fdef5471060753152901d9096b1be315cd76e9974
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974589"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119957408"
 ---
 # <a name="mepolicychanged-event"></a>MEPolicyChanged 事件
 
@@ -21,7 +21,7 @@ ms.locfileid: "106974589"
 
 
 
-| VARTYPE                | Description                                                                                                                  |
+| VARTYPE                | 描述                                                                                                                  |
 |------------------------|------------------------------------------------------------------------------------------------------------------------------|
 | VT \_ 不明<br/> | 資料流程之新原則的 [**IMFOutputPolicy**](/windows/desktop/api/mfidl/nn-mfidl-imfoutputpolicy) 介面指標。<br/> <br/> |
 
@@ -39,8 +39,8 @@ ms.locfileid: "106974589"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows Vista \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                                    |
-| 最低支援的伺服器<br/> | Windows Server 2008 \[ desktop app \| UWP 應用程式\]<br/>                                              |
+| 最低支援的用戶端<br/> | WindowsVista \[ desktop apps \| UWP 應用程式\]<br/>                                                    |
+| 最低支援的伺服器<br/> | WindowsServer 2008 \[ desktop app \| UWP 應用程式\]<br/>                                              |
 | 標頭<br/>                   | <dl> <dt>Mfobjects (包含 Mfidl) </dt> </dl> |
 
 

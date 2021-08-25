@@ -25,12 +25,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 76743d255bc50d213a4ce3f44057d97830078ccd
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: beaea36c40083e4305cf2304dd7a60dadc55e9eee3315288525ffcfdf056a192
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110869"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119924008"
 ---
 # <a name="cim_executeprogram-class"></a>CIM \_ ExecuteProgram 類別
 
@@ -447,7 +447,7 @@ HP-UX
 
 </dt> <dd>
 
-Windows 3。x
+Windows3.x
 
 </dd> <dt>
 

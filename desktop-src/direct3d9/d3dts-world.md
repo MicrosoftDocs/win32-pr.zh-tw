@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3d9types.h
-ms.openlocfilehash: c3c8f0ac30230a747fba34d9962791b4b331d647
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 68b0a3435df2ec36fca34fb8a8e4f2638ae9d432a009870ce85cbbdf2a42f1ea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106976473"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119850078"
 ---
 # <a name="d3dts_world-macro"></a>D3DTS \_ WORLD 宏
 

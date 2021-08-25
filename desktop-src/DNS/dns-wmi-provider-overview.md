@@ -6,12 +6,12 @@ keywords:
 - 網域名稱系統、WMI 提供者、架構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a6aed54d0d9cbac4070483e8e72e9917607e824c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ea44103edba64a1f572beef9cff9b8aeb31f02344f172f42b2a7378a6fbf3677
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021319"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119913158"
 ---
 # <a name="dns-wmi-provider-overview"></a>DNS WMI 提供者總覽
 
@@ -25,9 +25,9 @@ DNS WMI 提供者會向用戶端公開一些 DNS 物件，包括 DNS 伺服器�
 
 DNS WMI 提供者有一組在其他提供者中找不到的獨特行為。 如需類別的詳細資料，請參閱 [DNS WMI 提供者參考](dns-wmi-provider-reference.md) 。
 
- 
+ 
 
- 
+ 
 
 
 

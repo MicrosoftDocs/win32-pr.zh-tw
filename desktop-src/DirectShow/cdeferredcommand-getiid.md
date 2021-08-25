@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: d8677c70ab9c2c04224194bd825b106d33de8893
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6c5d43f04d8331f39e46e3223a64c09ad306585a1e29fd7627a0f50159d74cde
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994898"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119910078"
 ---
 # <a name="cdeferredcommandgetiid-method"></a>CDeferredCommand. GetIID 方法
 

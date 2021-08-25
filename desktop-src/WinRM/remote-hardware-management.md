@@ -7,16 +7,16 @@ keywords:
 - 遠端硬體管理
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 68bbb470d513b49d2158865c4c42051cc16856ed
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: db94c1f50b05f5180504ecef68bf10b1a5a596c9a9f88b96e7c5efb9faaa89bc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103682381"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119858728"
 ---
 # <a name="remote-hardware-management"></a>遠端硬體管理
 
-Windows 遠端管理硬體管理的目的是要藉由提供遠端硬體元件的監視和控制，特別是在系統啟動之前，以及在作業系統失敗之後，以降低整體 IT 管理成本。
+Windows遠端系統管理硬體管理的目的是要藉由提供遠端硬體元件的監視和控制來降低整體 IT 系統管理成本，特別是在系統啟動和作業系統失敗之後。
 
  (Oem 的原始設備製造商) 開發了一個可解決硬體管理需求的通用架構。 此架構的重要部分是基礎板 [*管理控制器*](windows-remote-management-glossary.md) (BMC) 。 BMC 是專門用來監視伺服器電腦狀態的裝置。 BMC 可提供伺服器硬體的遠端控制、捕獲狀態資料，以及接收有關重大錯誤和其他硬體狀態變更的通知。 監視遠端伺服器的腳本或應用程式可以直接從 BMC 取得來自伺服器的資料（透過遠端作業系統或 [*頻外的*](windows-remote-management-glossary.md)[*方式*](windows-remote-management-glossary.md)）。
 
@@ -36,6 +36,6 @@ BMC 也有一個稱為「系統事件記錄檔 (」的事件資料庫，) 會記
 [關於 Windows 遠端管理](about-windows-remote-management.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

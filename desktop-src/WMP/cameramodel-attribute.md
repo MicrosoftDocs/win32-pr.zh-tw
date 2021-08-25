@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 533f0fc33c391f51b3e109cb27c0a6cae78a79db
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 09c9b9f204c41392005f5d7e0722bfa7d9e597e95613d0cce2dc18aca0a4c4ce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106984478"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119864218"
 ---
 # <a name="cameramodel-attribute"></a>CameraModel 屬性
 

@@ -27,12 +27,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 04696331b7027b7cc65d2202c29e6ce95bb3f4b8
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e5560407da5a88fb17c39f76a91bdb0e193a246496c3f7333e4efccbe70c60ad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464969"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119868408"
 ---
 # <a name="win32_rdcentralpublishedremotedesktop-class"></a>Win32 \_ RDCentralPublishedRemoteDesktop 類別
 

@@ -4,12 +4,12 @@ description: 層級可用來將事件分組，通常表示事件的嚴重性或�
 ms.assetid: dfa4e0a9-4d89-4f50-aef9-1dae0dc11726
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1c8e2e979e75057a77cca267e540b3ec5469562f
-ms.sourcegitcommit: c2a1c4314550ea9bd202d28adfcc7bfe6180932f
+ms.openlocfilehash: 4b3c3c5e663e476f98bef5c9be3f20cae5e0e88a74a7996f6f515d1d92599eb0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "104374868"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119863678"
 ---
 # <a name="defining-severity-levels"></a>定義嚴重性層級
 

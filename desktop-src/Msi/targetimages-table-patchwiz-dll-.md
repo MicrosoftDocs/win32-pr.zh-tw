@@ -4,12 +4,12 @@ ms.assetid: 4681715e-9918-4d7b-8f33-1cca2bb34eb7
 title: 'TargetImages 資料表 (Patchwiz.dll) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4bbb8e7bae92fbc25b217808aaae709f079d65dd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ec35a9090f89e93e807cda9429ae48d8cc28d175acc4c83e97150e3a98ce5fb3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103852335"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119893588"
 ---
 # <a name="targetimages-table-patchwizdll"></a>TargetImages 資料表 (Patchwiz.dll) 
 
@@ -49,7 +49,7 @@ TargetImages 資料表具有下列資料行。
 <span id="MsiPath"></span><span id="msipath"></span><span id="MSIPATH"></span>MsiPath
 </dt> <dd>
 
-此欄位會指定目標映射之 .msi 檔案位置的完整路徑，包括檔案名。 這是目標映射的來源檔案位置。
+此欄位會指定目標映射的 .msi 檔案位置的完整路徑（包括檔案名）。 這是目標映射的來源檔案位置。
 
 </dd> <dt>
 

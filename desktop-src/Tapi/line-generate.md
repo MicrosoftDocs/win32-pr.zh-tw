@@ -4,12 +4,12 @@ ms.assetid: 375823c5-22c2-4010-bfb4-5b8b46141c72
 title: 'LINE_GENERATE 訊息 (Tapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b916dc95d1a6343b0f8ebc0eef9e589b04aa2112
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: bd3ab0d503d7515fec2cdbd1676eed235cced88e2adfa9fcc1dd354663929e95
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990733"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119774238"
 ---
 # <a name="line_generate-message"></a>行 \_ 產生訊息
 
@@ -57,7 +57,7 @@ ms.locfileid: "106990733"
 *dwParam3* 
 </dt> <dd>
 
-「滴答計數」 (從 Windows 開始) 數位或語氣產生完成的毫秒數。 如果是早于2.0 的 API 版本，則不會使用此參數。
+「滴答計數」 (從 Windows 開始算起的數位或音調產生) 的毫秒數。 如果是早于2.0 的 API 版本，則不會使用此參數。
 
 </dd> </dl>
 

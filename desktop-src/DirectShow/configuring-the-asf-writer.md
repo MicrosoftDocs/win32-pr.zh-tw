@@ -4,18 +4,18 @@ ms.assetid: 5708c4a0-6197-4a42-adfd-01c6dfe86302
 title: 設定 ASF 寫入器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 62a6dfc1827743dce946188ebf9e050226b5c484
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 5e3d28b3b6178a383909f53a98fef98a5c3e69297f71615010f505d28b77375a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106973138"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119871698"
 ---
 # <a name="configuring-the-asf-writer"></a>設定 ASF 寫入器
 
-當您建立了 [WM ASF 寫入](wm-asf-writer-filter.md) 器篩選器時，它會自動使用 \_ WMProfile \_ V80 256Video 設定檔進行設定。 此設定檔會使用 Windows Media 音訊和 Windows Media 視訊第8版編解碼器，而不像 Windows Media 9 系列編解碼器一樣。 建議您建立自訂設定檔，以使用 Windows Media 9 系列編解碼器，並使用自訂設定檔設定 WM ASF 寫入器，如設定 [設定檔和其他 ASF 檔案屬性](configuring-profiles-and-other-asf-file-properties.md)中所述。 在設定篩選之前，您必須先將 WM ASF 寫入器篩選器新增至篩選圖形，並先設定篩選器，再將它連接到其他任何篩選器。
+當您建立了 [WM ASF 寫入](wm-asf-writer-filter.md) 器篩選器時，它會自動使用 \_ WMProfile \_ V80 256Video 設定檔進行設定。 此設定檔會使用 Windows Media 音訊和 Windows Media 視訊第8版編解碼器，不像 Windows Media 9 系列編解碼器一樣新。 建議您建立自訂設定檔，以使用 Windows 媒體9系列編解碼器，並使用自訂設定檔設定 WM ASF 寫入器，如設定[設定檔和其他 ASF 檔案屬性](configuring-profiles-and-other-asf-file-properties.md)中所述。 在設定篩選之前，您必須先將 WM ASF 寫入器篩選器新增至篩選圖形，並先設定篩選器，再將它連接到其他任何篩選器。
 
-所有輸入的資料都必須加上時間戳記，而且必須先連接所有輸入的 pin，然後才能執行或暫停篩選。 因此，如果您使用具有音訊串流和影片串流的設定檔來設定篩選準則，則篩選準則會建立音訊和影片輸入的 pin，而且必須先連接這兩個 pin，然後才能執行篩選。 由於 Windows Media Format SDK 需要音訊串流才能運作，因此，即使是針對虛擬資料流程（也就是靜音的低位速率音訊串流），WM ASF 寫入器一律必須有輸入音訊 pin。
+所有輸入的資料都必須加上時間戳記，而且必須先連接所有輸入的 pin，然後才能執行或暫停篩選。 因此，如果您使用具有音訊串流和影片串流的設定檔來設定篩選準則，則篩選準則會建立音訊和影片輸入的 pin，而且必須先連接這兩個 pin，然後才能執行篩選。 由於 Windows 媒體格式 SDK 需要音訊串流才能運作，因此，WM ASF 寫入器必須一律具有輸入音訊 pin，即使它是針對虛擬資料流程（也就是靜音的低位速率音訊串流）也一樣。
 
 新增資料單位延伸模組
 

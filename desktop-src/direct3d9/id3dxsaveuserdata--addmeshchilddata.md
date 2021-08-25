@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 8a9d6b69e64e0e1eca5d4350125e0955254b6127
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 397dc9ade32222dd98e050110811464f6544a1d0af52729417c61fbc3367bdbd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104196429"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119893308"
 ---
 # <a name="id3dxsaveuserdataaddmeshchilddata-method"></a>ID3DXSaveUserData：： AddMeshChildData 方法
 

@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 5d4878a8cb21f89f3abeeb9e4b530948ef12e9aa
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 90d616f4a7a0fe8522118848826bee88523ad45c34cb8a3fff23c722e68f2495
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107001924"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119879758"
 ---
 # <a name="basicconstraintsiscertificateauthority-property"></a>BasicConstraints. IsCertificateAuthority 屬性
 
-\[CAPICOM 是僅限32位的元件，可用於下列作業系統： Windows Server 2008、Windows Vista、Windows XP。 請改為使用 [**system.security.cryptography.x509certificates.x509certificate2**](/previous-versions/windows/)命名空間中的 [**X509BasicConstraintsExtension 類別**](/dotnet/api/system.security.cryptography.x509certificates.x509basicconstraintsextension?view=netcore-3.1)。\]
+\[CAPICOM 是僅限32位的元件，可供下列作業系統使用： Windows Server 2008、Windows Vista Windows XP。 請改為使用 [**system.security.cryptography.x509certificates.x509certificate2**](/previous-versions/windows/)命名空間中的 [**X509BasicConstraintsExtension 類別**](/dotnet/api/system.security.cryptography.x509certificates.x509basicconstraintsextension?view=netcore-3.1)。\]
 
 **IsCertificateAuthority** 屬性會取得布林值，指出憑證是否為證書 [*頒發機構*](../secgloss/c-gly.md)單位 (CA) 。
 

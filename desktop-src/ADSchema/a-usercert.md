@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0a041375ba9e00539c51d1022b0f053b79c6eae1
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 3cc52a1476ec365d18266ff1197d019dff7983819217df18fb443434a8f016c3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106971889"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119835368"
 ---
 # <a name="user-cert-attribute"></a>User-Cert 屬性
 
@@ -58,9 +58,9 @@ Nortel v1 或 DMS 憑證。
 | 連結識別碼                | \-                                                   |
 | MAPI-Id                | 0x3A22                                               |
 | System-Only            | 否                                                |
-| 是-單一值       | 對                                                 |
+| 是-單一值       | 是                                                 |
 | 已編制索引             | 否                                                |
-| 在通用類別目錄中      | 對                                                 |
+| 在通用類別目錄中      | 是                                                 |
 | NT-Security-描述元 | O:BAG：不正確： S：                                         |
 | Range-Lower            | 0                                                    |
 | Range-Upper            | 32767                                                |
@@ -79,9 +79,9 @@ Nortel v1 或 DMS 憑證。
 | 連結識別碼                | \-                                                   |
 | MAPI-Id                | 0x3A22                                               |
 | System-Only            | 否                                                |
-| 是-單一值       | 對                                                 |
+| 是-單一值       | 是                                                 |
 | 已編制索引             | 否                                                |
-| 在通用類別目錄中      | 對                                                 |
+| 在通用類別目錄中      | 是                                                 |
 | NT-Security-描述元 | O:BAG：不正確： S：                                         |
 | Range-Lower            | 0                                                    |
 | Range-Upper            | 32767                                                |
@@ -100,9 +100,9 @@ Nortel v1 或 DMS 憑證。
 | 連結識別碼                | \-                                                   |
 | MAPI-Id                | 0x3A22                                               |
 | System-Only            | 否                                                |
-| 是-單一值       | 對                                                 |
+| 是-單一值       | 是                                                 |
 | 已編制索引             | 否                                                |
-| 在通用類別目錄中      | 對                                                 |
+| 在通用類別目錄中      | 是                                                 |
 | NT-Security-描述元 | O:BAG：不正確： S：                                         |
 | Range-Lower            | 0                                                    |
 | Range-Upper            | 32767                                                |
@@ -121,9 +121,9 @@ Nortel v1 或 DMS 憑證。
 | 連結識別碼                | \-                                                   |
 | MAPI-Id                | 0x3A22                                               |
 | System-Only            | 否                                                |
-| 是-單一值       | 對                                                 |
+| 是-單一值       | 是                                                 |
 | 已編制索引             | 否                                                |
-| 在通用類別目錄中      | 對                                                 |
+| 在通用類別目錄中      | 是                                                 |
 | NT-Security-描述元 | O:BAG：不正確： S：                                         |
 | Range-Lower            | 0                                                    |
 | Range-Upper            | 32767                                                |
@@ -142,9 +142,9 @@ Nortel v1 或 DMS 憑證。
 | 連結識別碼                | \-                                                   |
 | MAPI-Id                | 0x3A22                                               |
 | System-Only            | 否                                                |
-| 是-單一值       | 對                                                 |
+| 是-單一值       | 是                                                 |
 | 已編制索引             | 否                                                |
-| 在通用類別目錄中      | 對                                                 |
+| 在通用類別目錄中      | 是                                                 |
 | NT-Security-描述元 | O:BAG：不正確： S：                                         |
 | Range-Lower            | 0                                                    |
 | Range-Upper            | 32767                                                |
@@ -163,9 +163,9 @@ Nortel v1 或 DMS 憑證。
 | 連結識別碼                | \-                                                   |
 | MAPI-Id                | 0x3A22                                               |
 | System-Only            | 否                                                |
-| 是-單一值       | 對                                                 |
+| 是-單一值       | 是                                                 |
 | 已編制索引             | 否                                                |
-| 在通用類別目錄中      | 對                                                 |
+| 在通用類別目錄中      | 是                                                 |
 | NT-Security-描述元 | O:BAG：不正確： S：                                         |
 | Range-Lower            | 0                                                    |
 | Range-Upper            | 32767                                                |

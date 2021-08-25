@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: 498beda4f2f6c61af918d542542c4ed7b789ba1a
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: dd39cb83c90c566f0022679e70680e916daeb2a43a4d62e993e096930ee2f14e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108084246"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119890468"
 ---
 # <a name="iespresume-method"></a>IESP：： Resume 方法
 
@@ -46,11 +46,11 @@ HRESULT STDMETHODCALLTYPE Resume();
 
 
 
-| 傳回碼                                                                                                | Description                                                                                                               |
+| 傳回碼                                                                                                | 描述                                                                                                               |
 |------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**NMERR \_ CAPTURE \_ 未 \_ 暫停**</dt> </dl> | 捕捉未暫停。 呼叫 [**IESP：:P ause**](iesp-pause.md) 暫停捕捉。<br/>                        |
-| <dl> <dt>**NMERR \_ 未 \_ 連接**</dt> </dl>       | NPP 未連接到網路。 呼叫 [**IESP：： connect**](iesp-connect.md) 以連接到網路。<br/> |
-| <dl> <dt>**NMERR \_ 非 \_ ESP**</dt> </dl>             | NPP 已連接到網路，但不是使用 [**IESP：： Connect**](iesp-connect.md) 方法。<br/>            |
+| <dl> <dt>**NMERR \_ 未 \_ 連接**</dt> </dl>       | NPP 未連接到網路。 呼叫 [**IESP：：連線**](iesp-connect.md)連接到網路。<br/> |
+| <dl> <dt>**NMERR \_ 非 \_ ESP**</dt> </dl>             | NPP 會連接到網路，但不會使用 [**IESP：：連線**](iesp-connect.md)方法。<br/>            |
 
 
 
@@ -84,7 +84,7 @@ HRESULT STDMETHODCALLTYPE Resume();
 [IESP](iesp.md)
 </dt> <dt>
 
-[**IESP：： Connect**](iesp-connect.md)
+[**IESP：：連線**](iesp-connect.md)
 </dt> <dt>
 
 [**IESP：:P ause**](iesp-pause.md)

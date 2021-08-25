@@ -4,12 +4,12 @@ ms.assetid: 1c0dcf6f-7f80-424b-9e6a-5a8b6a5b176f
 title: 專家 DLL 匯出函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 923611521b98619b357eb2de93ee2269caf9c838
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4327b36990ac377595b31b55ebc0ed57157fd8d411f690aff3378293f35e39e6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936638"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119911128"
 ---
 # <a name="expert-dll-export-functions"></a>專家 DLL 匯出函式
 

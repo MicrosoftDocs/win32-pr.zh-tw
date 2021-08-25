@@ -4,12 +4,12 @@ ms.assetid: bc7fdc74-be41-4d17-997c-27171ef73f0f
 title: 事件來源
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ab2b408b76cdbc6e93e44099fea2842f9655a963
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 75c82c3328709a16ee7788025624a904ae7e25a21ddc83cecc9c41b27c283ab7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106981165"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119914788"
 ---
 # <a name="event-sources"></a>事件來源
 
@@ -42,7 +42,7 @@ HKEY_LOCAL_MACHINE
 <thead>
 <tr class="header">
 <th>登錄值</th>
-<th>Description</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -78,7 +78,7 @@ HKEY_LOCAL_MACHINE
 
  
 
-當應用程式使用 [**RegisterEventSource**](/windows/desktop/api/Winbase/nf-winbase-registereventsourcea) 或 [**OpenEventLog**](/windows/desktop/api/Winbase/nf-winbase-openeventloga) 函數來取得事件記錄檔的控制碼時，事件記錄服務會在登錄中搜尋指定的事件來源。 例如， **應用程式** 記錄檔可能包含 Microsoft SQL Server 和 Microsoft Excel 的事件來源。 如果應用程式使用 [**RegisterEventSource**](/windows/desktop/api/Winbase/nf-winbase-registereventsourcea) 或 **OpenEventLog** 搭配 Application、SQL 或 Excel 的來源名稱，事件記錄服務會將控制碼傳回給 **應用程式** 記錄檔。
+當應用程式使用 [**RegisterEventSource**](/windows/desktop/api/Winbase/nf-winbase-registereventsourcea) 或 [**OpenEventLog**](/windows/desktop/api/Winbase/nf-winbase-openeventloga) 函數來取得事件記錄檔的控制碼時，事件記錄服務會在登錄中搜尋指定的事件來源。 例如，**應用程式** 記錄檔可能包含 Microsoft SQL Server 和 Microsoft Excel 的事件來源。 如果應用程式使用 [**RegisterEventSource**](/windows/desktop/api/Winbase/nf-winbase-registereventsourcea)或 **OpenEventLog** 搭配 application、SQL 或 Excel 的來源名稱，事件記錄服務會將控制碼傳回給 **應用程式** 記錄檔。
 
 應用程式可以使用 **應用程式** 記錄，而不需要將新的事件來源新增至登錄。 如果應用程式呼叫 [**RegisterEventSource**](/windows/desktop/api/Winbase/nf-winbase-registereventsourcea) 並傳遞在登錄中找不到的來源名稱，則事件記錄服務預設會使用 **應用程式** 記錄檔。 不過，因為沒有任何訊息檔案，事件檢視器無法將任何事件識別碼或事件類別目錄對應至描述字串，而且將會顯示錯誤。 基於這個理由，您應該將唯一的事件來源加入至應用程式的登錄，並指定訊息檔。
 

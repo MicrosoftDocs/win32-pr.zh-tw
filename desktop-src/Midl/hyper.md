@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 57da7c0d54e5b9ffcd47f76b22825d13b0a8cff9
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 44f202890d2d81dcd7916f29c0330bf8e7093a7cf189e7b76a8af64dd2f0d0a2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103678247"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119895258"
 ---
 # <a name="hyper-attribute"></a>超屬性
 
@@ -45,7 +45,7 @@ ms.locfileid: "103678247"
 > [!Note]  
 > 若是16位平臺，MIDL 編譯器會以 **midl \_ uhyper** 取代不帶正負號的超整數。 這允許在不直接支援64位整數的平臺上，定義不帶正負號之超整數的介面。 **MIDL \_ uhyper** 是在 RPC 標頭檔中定義。
 
- 
+ 
 
 ## <a name="see-also"></a>另請參閱
 
@@ -63,9 +63,9 @@ ms.locfileid: "103678247"
 [**著**](typedef.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

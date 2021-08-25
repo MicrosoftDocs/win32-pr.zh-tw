@@ -4,16 +4,16 @@ ms.assetid: 535957e7-effe-4b1b-8cba-38a7a3fe9a9a
 title: 'ITSdp：:p ut_Description 方法 (Sdpblb .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ea8799ce9b2b8f3f44147b8ca60a92d2c37d5e87
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: fe47e55b41de2c656f04872846c8be9352c53a0f6265a27e0eefbb1ceb1d5d7d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106983209"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119873688"
 ---
 # <a name="itsdpput_description-method"></a>ITSdp：:p 的 ui \_ 描述方法
 
-\[ 在 Windows Vista、Windows Server 2008 和後續版本的作業系統中，無法使用會合 IP 電話語音會議控制項和介面。 RTC 用戶端 API 提供類似的功能。\]
+\[Windows Vista、Windows Server 2008 及後續版本的作業系統無法使用會合 IP 電話語音會議控制項和介面。 RTC 用戶端 API 提供類似的功能。\]
 
 **Put \_ description** 方法會設定會話描述。
 
@@ -45,7 +45,7 @@ HRESULT put_Description(
 
 
 
-| 傳回碼                                                                                   | Description                                                     |
+| 傳回碼                                                                                   | 描述                                                     |
 |-----------------------------------------------------------------------------------------------|-----------------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>          | 方法成功。<br/>                                    |
 | <dl> <dt>**E \_ 指標**</dt> </dl>     | *PDescription* 參數不是有效的指標。<br/> |

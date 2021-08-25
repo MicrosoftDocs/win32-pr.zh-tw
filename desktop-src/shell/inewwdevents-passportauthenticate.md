@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 48e6cfbcbf525784fe33520702bbd9c05226f353
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f462053281efd97b75422c55ce23829688d18ac153ecb92c7544eafb8f356b9b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103695651"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119942398"
 ---
 # <a name="newwdeventspassportauthenticate-method"></a>NewWDEvents. PassportAuthenticate 方法
 
@@ -64,10 +64,10 @@ bRetVal = NewWDEvents.PassportAuthenticate(
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                                                   |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                          |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                                                   |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                          |
 | 標頭<br/>                   | <dl> <dt>Shldisp。h</dt> </dl>                          |
-| Idl<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl>                        |
+| IDL<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl>                        |
 | DLL<br/>                      | <dl> <dt>Shell32.dll (6.0 版或更新版本) </dt> </dl> |
 
 

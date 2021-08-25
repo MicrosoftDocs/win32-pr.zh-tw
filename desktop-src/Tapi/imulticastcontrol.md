@@ -4,16 +4,16 @@ ms.assetid: 9bdb4ab9-30b3-46fb-b13a-de9c294c8046
 title: 'IMulticastControl 介面 (Confpriv .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 98ad006ea41034d6d4da32359d1ecbcdd250ab6b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7e7469ca26a49bc25b36ae87727a1fdcf324bcf54e8a253805ed56f252c7f062
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106993222"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119905948"
 ---
 # <a name="imulticastcontrol-interface"></a>IMulticastControl 介面
 
-\[**IMulticastControl** 無法在 windows Vista、windows Server 2008 和後續版本的作業系統中使用。 RTC 用戶端 API 提供類似的功能。\]
+\[**IMulticastControl** 無法在 Windows Vista、Windows Server 2008 及後續版本的作業系統中使用。 RTC 用戶端 API 提供類似的功能。\]
 
 **IMulticastControl** 介面是由 IPConf MSP 所執行，而且僅適用于多播呼叫物件。 此介面會公開方法，以啟用 H323 和 SDP 用戶端間通訊的終端機建立和操作。 **IMulticastControl** 介面控制多播回送模式。
 

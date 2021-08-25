@@ -20,12 +20,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: d022023142b38905067e30a4c1be3b133e49a86f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5b3a30b6df2b4fea50022f047df42f04e3635b37d015e16fed50e2d971827b61
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973999"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119829648"
 ---
 # <a name="cim_allocationcapabilities-class"></a>CIM \_ AllocationCapabilities 類別
 
@@ -308,7 +308,7 @@ class CIM_AllocationCapabilities : CIM_Capabilities
 
 <span id="Other_Storage_Device"></span><span id="other_storage_device"></span><span id="OTHER_STORAGE_DEVICE"></span>
 
-**其他存放裝置** (20) 
+**其他儲存體裝置** (20) 
 
 
 </dt> <dd></dd> <dt>
@@ -392,7 +392,7 @@ class CIM_AllocationCapabilities : CIM_Capabilities
 
 <span id="Storage_Volume"></span><span id="storage_volume"></span><span id="STORAGE_VOLUME"></span>
 
-**存放磁片區** (32) 
+**儲存體 Volume** (32) 
 
 
 </dt> <dd></dd> <dt>

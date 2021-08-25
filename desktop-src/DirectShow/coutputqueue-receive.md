@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 0ce8a0d44730fa35b38cf6d738edd26168284a46
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8fb896429e53c16b30dbc4301f2e54fca5a2087dc1c89635fa33395f68ba0f5b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106989264"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119871498"
 ---
 # <a name="coutputqueuereceive-method"></a>COutputQueue 接收方法
 
@@ -55,7 +55,7 @@ HRESULT Receive(
 
 
 
-| 傳回碼                                                                             | Description                                                                   |
+| 傳回碼                                                                             | 描述                                                                   |
 |-----------------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
 | <dl> <dt>**S \_ FALSE**</dt> </dl> | 在處理這個範例之前，收到的資料流程結束通知。<br/> |
 | <dl> <dt>**S \_ 確定**</dt> </dl>    | 成功。<br/>                                                           |

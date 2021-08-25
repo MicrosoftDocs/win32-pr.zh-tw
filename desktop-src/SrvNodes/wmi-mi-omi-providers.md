@@ -1,19 +1,19 @@
 ---
-description: Windows 管理基礎結構 (WMI) 、Management Instrumentation (MI) 和開放式管理基礎結構 (OMI) 全部使用管理物件格式 (MOF) 檔，以描述透過其個別提供者提供的資訊。
+description: Windows管理基礎結構 (WMI) 、Management Instrumentation (MI) 和開放式管理基礎結構 (OMI) 全部使用管理物件格式 (MOF) 檔，以描述透過其個別提供者提供的資訊。
 ms.assetid: 5ec3c6a2-df23-446d-a4da-b8e207eeb6f6
 title: WMI/MI/OMI 提供者
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 505a0853d9df7d9cf6f2371f6342b77f61f536b4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 682629f72da94cd2210fb781284a7cb4cf7f85868ff405f22727e619d128ae65
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "107001770"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119992413"
 ---
 # <a name="wmimiomi-providers"></a>WMI/MI/OMI 提供者
 
-Windows 管理基礎結構 (WMI) 、Management Instrumentation (MI) 和開放式管理基礎結構 (OMI) 全部使用管理物件格式 (MOF) 檔，以描述透過其個別提供者提供的資訊。
+Windows管理基礎結構 (WMI) 、Management Instrumentation (MI) 和開放式管理基礎結構 (OMI) 全部使用管理物件格式 (MOF) 檔，以描述透過其個別提供者提供的資訊。
 
 <dl> <dt>
 
@@ -27,7 +27,7 @@ Active Directory 提供者（也稱為目錄服務 (DS) 提供者）會將 Activ
 <span id="Application_Inventory"></span><span id="application_inventory"></span><span id="APPLICATION_INVENTORY"></span>[應用程式清查](/previous-versions/windows/desktop/appdevinvprov/applicationanddeviceinventory-portal)
 </dt> <dd>
 
-應用程式清查的 WMI 類別可讓您探索 Windows 系統上已安裝的 Win32 應用程式和 Windows store 應用程式。
+應用程式清查的 WMI 類別可讓您探索已安裝的 Win32 應用程式，並 Windows 將應用程式儲存在 Windows 系統上。
 
 </dd> <dt>
 
@@ -48,7 +48,7 @@ Active Directory 提供者（也稱為目錄服務 (DS) 提供者）會將 Activ
 <span id="BITS"></span><span id="bits"></span>[位](/previous-versions/windows/desktop/bitsprov/bits-provider)
 </dt> <dd>
 
-背景智慧型傳送服務 (位) Compact Server 搭配 BITS 遠端系統管理，可讓經過驗證的系統管理員或控制器應用程式在遠端建立、修改及管理 BITS 傳送工作，而不需使用 Internet Information Services (IIS) 服務。
+背景智慧型傳送服務 (位) Compact Server 搭配 BITS 遠端系統管理，可讓經過驗證的系統管理員或控制器應用程式在遠端建立、修改及管理 bits 傳送工作，而不需使用 Internet Information Services (IIS) 服務。
 
 </dd> <dt>
 
@@ -69,7 +69,7 @@ Active Directory 提供者（也稱為目錄服務 (DS) 提供者）會將 Activ
 <span id="Boot_Event_Collector"></span><span id="boot_event_collector"></span><span id="BOOT_EVENT_COLLECTOR"></span>[開機事件收集器](/windows/desktop/BEvtColProv/boot-event-collector-wmi-provider-portal)
 </dt> <dd>
 
-開機事件收集器 WMI 提供者可讓您存取 Windows Server 上的設定和開機事件集合功能的連接和設定資訊。
+開機事件收集器 WMI 提供者可存取 Windows Server 上的安裝和開機事件集合功能的連線與設定資訊。
 
 </dd> <dt>
 
@@ -136,7 +136,7 @@ DTC 提供者可讓您管理 DTC。
 
 </dd> <dt>
 
-<span id="DNS"></span><span id="dns"></span>[Dns](/windows/desktop/DNS/dns-wmi-provider)
+<span id="DNS"></span><span id="dns"></span>[DNS](/windows/desktop/DNS/dns-wmi-provider)
 </dt> <dd>
 
 可讓系統管理員和程式設計師使用 WMI 設定網域名稱系統 (DNS) 資源記錄 (Rr) 和 DNS 伺服器。
@@ -213,10 +213,10 @@ Dnsclientcim 提供者支援 (DNS) 用戶端與網域名稱系統互動的類別
 
 </dd> <dt>
 
-<span id="Gateway_Health_Monitor"></span><span id="gateway_health_monitor"></span><span id="GATEWAY_HEALTH_MONITOR"></span>[閘道健全狀況監視](/previous-versions/windows/desktop/gatewayhealthmonprov/gateway-health-monitor-wmi-provider-portal)
+<span id="Gateway_Health_Monitor"></span><span id="gateway_health_monitor"></span><span id="GATEWAY_HEALTH_MONITOR"></span>[閘道狀況監控](/previous-versions/windows/desktop/gatewayhealthmonprov/gateway-health-monitor-wmi-provider-portal)
 </dt> <dd>
 
-閘道健全狀況監視提供者會管理閘道健全狀況監視事件和資訊。
+閘道狀況監控提供者會管理閘道健全狀況監視事件和資訊。
 
 </dd> <dt>
 
@@ -255,10 +255,10 @@ Hyper-v (V2) 提供者會擴充 [hyper-v](/previous-versions/windows/desktop/vir
 
 </dd> <dt>
 
-<span id="Internet_Protocol_Address_Management__IPAM__Server"></span><span id="internet_protocol_address_management__ipam__server"></span><span id="INTERNET_PROTOCOL_ADDRESS_MANAGEMENT__IPAM__SERVER"></span>[ (IPAM) 伺服器的網際網路通訊協定位址管理](/previous-versions/windows/desktop/ipamserverpsprov/internet-protocol-address-management-server-wmi-provider-portal)
+<span id="Internet_Protocol_Address_Management__IPAM__Server"></span><span id="internet_protocol_address_management__ipam__server"></span><span id="INTERNET_PROTOCOL_ADDRESS_MANAGEMENT__IPAM__SERVER"></span>[網際網路通訊協定位址管理 (IPAM) 伺服器](/previous-versions/windows/desktop/ipamserverpsprov/internet-protocol-address-management-server-wmi-provider-portal)
 </dt> <dd>
 
-IPAM 伺服器提供者可讓開發人員透過 WMI 管理 IPAM。
+IPAM Server 提供者可讓開發人員透過 WMI 管理 IPAM。
 
 </dd> <dt>
 
@@ -279,7 +279,7 @@ IPAM 伺服器提供者可讓開發人員透過 WMI 管理 IPAM。
 <span id="iSCSI_Target_Server"></span><span id="iscsi_target_server"></span><span id="ISCSI_TARGET_SERVER"></span>[iSCSI 目標伺服器](/previous-versions/windows/desktop/iscsitarg/iscsi-software-target-api-portal)
 </dt> <dd>
 
-ISCSI 目標伺服器提供者支援 WMI 介面來管理 Microsoft iSCSI 目標伺服器，例如建立虛擬磁片，以及將它們呈現給用戶端。
+iSCSI 目標伺服器提供者支援 WMI 介面來管理 Microsoft iSCSI 目標伺服器，例如建立虛擬磁片，以及將它們呈現給用戶端。
 
 </dd> <dt>
 
@@ -437,10 +437,10 @@ NetWNV 提供者支援與 net virtualization 技術互動的類別。
 
 </dd> <dt>
 
-<span id="NFS"></span><span id="nfs"></span>[Nfs](/previous-versions/windows/desktop/nfswmi/wmi-provider-for-nfs-portal)
+<span id="NFS"></span><span id="nfs"></span>[NFS](/previous-versions/windows/desktop/nfswmi/wmi-provider-for-nfs-portal)
 </dt> <dd>
 
-Provider for NFS 可讓您建立工具和腳本，以設定和監視 Windows 網路檔案系統。
+provider for NFS 可讓您建立工具和腳本，以設定和監視 Windows 的網路檔案系統。
 
 </dd> <dt>
 
@@ -489,7 +489,7 @@ Ping 提供者會提供標準 Ping 命令所提供之狀態資訊的存取權。
 <span id="ReliabilityMetricsProvider"></span><span id="reliabilitymetricsprovider"></span><span id="RELIABILITYMETRICSPROVIDER"></span>[ReliabilityMetricsProvider](/previous-versions/windows/desktop/racwmiprov/reliabilitymetricsprovider-provider-classes)
 </dt> <dd>
 
-[ReliabilityMetricsProvider](/previous-versions/windows/desktop/racwmiprov/reliabilitymetricsprovider-provider-classes)提供者會公開系統和 Windows 事件記錄檔的可靠性計量。
+[ReliabilityMetricsProvider](/previous-versions/windows/desktop/racwmiprov/reliabilitymetricsprovider-provider-classes)提供者會公開系統和 Windows 事件記錄檔可靠性計量。
 
 </dd> <dt>
 
@@ -563,17 +563,17 @@ SMB 管理 API 提供類別和方法來管理共用和共用存取。
 
 </dd> <dt>
 
-<span id="SNMP"></span><span id="snmp"></span>[Snmp](/windows/desktop/WmiSdk/snmp-provider)
+<span id="SNMP"></span><span id="snmp"></span>[SNMP](/windows/desktop/WmiSdk/snmp-provider)
 </dt> <dd>
 
-將簡單的網路管理通訊協定 (SNMP) 物件，這些物件定義于管理資訊基礎 (MIB) 架構物件至類別中。 如需詳細資訊，請參閱 [設定 WMI SNMP 環境](/windows/desktop/WmiSdk/setting-up-the-wmi-snmp-environment)。
+地圖簡易網路管理通訊協定 (SNMP) 物件，這些物件定義于管理資訊基底 (MIB) 架構物件至類別中。 如需詳細資訊，請參閱 [設定 WMI SNMP 環境](/windows/desktop/WmiSdk/setting-up-the-wmi-snmp-environment)。
 
 </dd> <dt>
 
 <span id="Software_Inventory_Logging"></span><span id="software_inventory_logging"></span><span id="SOFTWARE_INVENTORY_LOGGING"></span>[軟體清查記錄](/previous-versions/windows/desktop/sil/software-inventory-logging-portal)
 </dt> <dd>
 
-軟體清查記錄提供者會收集安裝在 Windows 伺服器上之軟體的授權資料，並提供資料的遠端存取，讓資料中心可以輕鬆地匯總資料。
+軟體清查記錄提供者會收集 Windows 伺服器上所安裝之軟體的授權資料，並提供資料的遠端存取，讓資料中心可以輕鬆地匯總資料。
 
 </dd> <dt>
 
@@ -591,14 +591,14 @@ SMB 管理 API 提供類別和方法來管理共用和共用存取。
 
 </dd> <dt>
 
-<span id="Storage_Volume"></span><span id="storage_volume"></span><span id="STORAGE_VOLUME"></span>[存放磁片區](/previous-versions/windows/desktop/vdswmi/storage-volume-provider)
+<span id="Storage_Volume"></span><span id="storage_volume"></span><span id="STORAGE_VOLUME"></span>[儲存體體積](/previous-versions/windows/desktop/vdswmi/storage-volume-provider)
 </dt> <dd>
 
-存放磁片區提供者會提供磁片區管理功能。
+儲存體的磁片區提供者會提供磁片區管理功能。
 
 </dd> <dt>
 
-<span id="Storage_Replica"></span><span id="storage_replica"></span><span id="STORAGE_REPLICA"></span>[儲存體複本](/previous-versions/windows/desktop/wvrcimprov/storage-replica-mi-provider-portal)
+<span id="Storage_Replica"></span><span id="storage_replica"></span><span id="STORAGE_REPLICA"></span>[儲存體副本](/previous-versions/windows/desktop/wvrcimprov/storage-replica-mi-provider-portal)
 </dt> <dd>
 
 此提供者可讓您管理儲存體複本。
@@ -622,7 +622,7 @@ SMB 管理 API 提供類別和方法來管理共用和共用存取。
 <span id="Trusted_Platform_Module"></span><span id="trusted_platform_module"></span><span id="TRUSTED_PLATFORM_MODULE"></span>[信賴平臺模組](/windows/desktop/SecProv/trusted-platform-module-provider)
 </dt> <dd>
 
-提供安全性裝置相關資料的存取權，該安全性裝置是由 [**Win32 \_ TPM**](/windows/desktop/SecProv/win32-tpm)的實例所代表，也就是 Microsoft Windows 信賴平臺電腦系統的根信任。
+提供安全性裝置（由 [**Win32 \_ TPM**](/windows/desktop/SecProv/win32-tpm)的實例所代表）的相關資料存取，也就是 Microsoft Windows 信賴平臺電腦系統的根信任。
 
 </dd> <dt>
 
@@ -636,7 +636,7 @@ SMB 管理 API 提供類別和方法來管理共用和共用存取。
 <span id="User_Access_Logging"></span><span id="user_access_logging"></span><span id="USER_ACCESS_LOGGING"></span>[使用者存取記錄](/previous-versions/windows/desktop/ual/user-access-logging)
 </dt> <dd>
 
-使用者存取記錄 (UAL) 是 Windows Server 角色的通用架構，可報告其各自的耗用量計量。
+使用者存取記錄 (UAL) 是 Windows 伺服器角色用來報告其各自耗用量計量的通用架構。
 
 </dd> <dt>
 
@@ -668,7 +668,7 @@ SMB 管理 API 提供類別和方法來管理共用和共用存取。
 
 </dd> <dt>
 
-<span id="WDM"></span><span id="wdm"></span>[Wdm](/windows/desktop/WmiCoreProv/wdm-provider)
+<span id="WDM"></span><span id="wdm"></span>[WDM](/windows/desktop/WmiCoreProv/wdm-provider)
 </dt> <dd>
 
 針對符合 Windows Driver Model (WDM) 的硬體驅動程式，提供其類別、實例、方法和事件的存取權。
@@ -696,7 +696,7 @@ SMB 管理 API 提供類別和方法來管理共用和共用存取。
 
 </dd> <dt>
 
-<span id="Windows_Data_Access_Components__WDAC_"></span><span id="windows_data_access_components__wdac_"></span><span id="WINDOWS_DATA_ACCESS_COMPONENTS__WDAC_"></span>[Windows Data Access Components (WDAC) ](/previous-versions/windows/desktop/wdacwmiprov/windows-data-access-components-wmi-provider-portal)
+<span id="Windows_Data_Access_Components__WDAC_"></span><span id="windows_data_access_components__wdac_"></span><span id="WINDOWS_DATA_ACCESS_COMPONENTS__WDAC_"></span>[Windows (WDAC) 的資料存取元件](/previous-versions/windows/desktop/wdacwmiprov/windows-data-access-components-wmi-provider-portal)
 </dt> <dd>
 
 提供 WDAC 的管理。
@@ -710,42 +710,42 @@ Windows Defender 提供者會公開 Windows Defender 的安全性功能。
 
 </dd> <dt>
 
-<span id="Windows_Installer"></span><span id="windows_installer"></span><span id="WINDOWS_INSTALLER"></span>[Windows Installer](/previous-versions/windows/desktop/msiprov/windows-installer-provider)
+<span id="Windows_Installer"></span><span id="windows_installer"></span><span id="WINDOWS_INSTALLER"></span>[Windows安裝](/previous-versions/windows/desktop/msiprov/windows-installer-provider)
 </dt> <dd>
 
 Windows Installer 提供者（也稱為 MSI 提供者）可讓應用程式存取從 Windows Installer 相容的應用程式收集而來的資訊。
 
 </dd> <dt>
 
-<span id="Windows_Product_Activation"></span><span id="windows_product_activation"></span><span id="WINDOWS_PRODUCT_ACTIVATION"></span>[Windows 產品啟用](/previous-versions/windows/desktop/licwmiprov/windows-product-activation-provider)
+<span id="Windows_Product_Activation"></span><span id="windows_product_activation"></span><span id="WINDOWS_PRODUCT_ACTIVATION"></span>[Windows產品啟用](/previous-versions/windows/desktop/licwmiprov/windows-product-activation-provider)
 </dt> <dd>
 
 Windows 產品啟用 (WPA) 提供者是一種反盜版技術，旨在減少軟體的偶爾複製。
 
 </dd> <dt>
 
-<span id="Windows_Server_Manager"></span><span id="windows_server_manager"></span><span id="WINDOWS_SERVER_MANAGER"></span>[Windows 伺服器管理員](/previous-versions/windows/desktop/mgmtprovider/windows-server-manager-wmi-provider-portal)
+<span id="Windows_Server_Manager"></span><span id="windows_server_manager"></span><span id="WINDOWS_SERVER_MANAGER"></span>[Windows伺服器管理員](/previous-versions/windows/desktop/mgmtprovider/windows-server-manager-wmi-provider-portal)
 </dt> <dd>
 
 提供者可以存取和管理伺服器管理員應用程式所控制的設定。
 
 </dd> <dt>
 
-<span id="Windows_Server_Storage_Management__MsftStrgMan_"></span><span id="windows_server_storage_management__msftstrgman_"></span><span id="WINDOWS_SERVER_STORAGE_MANAGEMENT__MSFTSTRGMAN_"></span>[Windows Server 存放裝置管理 (MsftStrgMan) ](/previous-versions/windows/desktop/msftstrgmanprov/windows-storage-management-wmi-provider-portal)
+<span id="Windows_Server_Storage_Management__MsftStrgMan_"></span><span id="windows_server_storage_management__msftstrgman_"></span><span id="WINDOWS_SERVER_STORAGE_MANAGEMENT__MSFTSTRGMAN_"></span>[Windows伺服器儲存體管理 (MsftStrgMan) ](/previous-versions/windows/desktop/msftstrgmanprov/windows-storage-management-wmi-provider-portal)
 </dt> <dd>
 
-MsftStrgMan 提供者為 Windows Server 產品上的儲存系統提供管理。
+MsftStrgMan 提供者會針對 Windows Server 產品上的儲存系統提供管理。
 
 </dd> <dt>
 
-<span id="Windows_Storage_Management__StrgMgmt_"></span><span id="windows_storage_management__strgmgmt_"></span><span id="WINDOWS_STORAGE_MANAGEMENT__STRGMGMT_"></span>[Windows 存放裝置管理 (StrgMgmt) ](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal)
+<span id="Windows_Storage_Management__StrgMgmt_"></span><span id="windows_storage_management__strgmgmt_"></span><span id="WINDOWS_STORAGE_MANAGEMENT__STRGMGMT_"></span>[Windows 儲存體管理 (StrgMgmt) ](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal)
 </dt> <dd>
 
 StrgMgmt 提供者可以用來管理各種不同的儲存體設定，從平板電腦到伺服器上的外部存放裝置陣列。
 
 </dd> <dt>
 
-<span id="Windows_System_Assessment_Tool"></span><span id="windows_system_assessment_tool"></span><span id="WINDOWS_SYSTEM_ASSESSMENT_TOOL"></span>[Windows 系統評定工具](/windows/desktop/WinSAT/winsat-mof-classes)
+<span id="Windows_System_Assessment_Tool"></span><span id="windows_system_assessment_tool"></span><span id="WINDOWS_SYSTEM_ASSESSMENT_TOOL"></span>[Windows系統評定工具](/windows/desktop/WinSAT/winsat-mof-classes)
 </dt> <dd>
 
 Windows 系統評定工具 (WinSAT) 會公開一些可評估電腦效能特性和功能的類別。

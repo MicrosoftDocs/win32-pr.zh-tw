@@ -4,12 +4,12 @@ description: 您可以在 Active Server Pages (ASP) 應用程式中編寫 COM �
 ms.assetid: 3a074360-8b6c-4cb6-813b-73863fe11c46
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b5d73244ce5bd6c56deeda9bf4e3e4986b3d4039
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3b8ba1bbdd0729a8893b1c28d1a2347fc5ddea04c8d0de4e1ea413e765ab8df4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104300196"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119896197"
 ---
 # <a name="using-com-objects-in-active-server-pages"></a>使用 Active Server Pages 中的 COM 物件
 
@@ -69,9 +69,9 @@ CLASSID="Clsid:1621F7C0-60AC-11CF-9427-444553540000">
 [使用 COM 物件編寫腳本](scripting-with-com-objects.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

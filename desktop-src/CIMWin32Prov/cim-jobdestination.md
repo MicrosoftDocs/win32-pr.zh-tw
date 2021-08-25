@@ -22,12 +22,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: d01fbe3b6025795084bf0af4cca3d644fd3cf4a4
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: e5bcf06936acf635c138b86f1567143e8c3e92a1f18a4f3f53f95d194a2f69cc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847352"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119923318"
 ---
 # <a name="cim_jobdestination-class"></a>CIM \_ JobDestination 類別
 

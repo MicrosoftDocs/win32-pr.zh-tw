@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: d9cc0bc839a4e35c4ce896acdf50da10f0c2bb0c
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 6185204c41e177207d32c321985c021a93ea20506da5f4279cd3134a12952097
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108084786"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119907317"
 ---
 # <a name="ctransinplacefiltercompleteconnect-method"></a>CTransInPlaceFilter. CompleteConnect 方法
 
@@ -63,7 +63,7 @@ HRESULT CompleteConnect(
 
 
 
-| 傳回碼                                                                                           | Description                                     |
+| 傳回碼                                                                                           | 描述                                     |
 |-------------------------------------------------------------------------------------------------------|-------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>                  | 成功。<br/>                             |
 | <dl> <dt>**VFW \_ E \_ NOT \_ IN \_ GRAPH**</dt> </dl> | 篩選不在篩選圖形中。<br/> |

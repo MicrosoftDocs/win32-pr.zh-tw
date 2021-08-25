@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Nmapi.dll
-ms.openlocfilehash: 1e0841c49e54d10d38a56d6206bc255b0aa7c49a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e184ec0b874d55d149c9d049b8c6b2cafd716fe82c66410e2d3e1550b397c366
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106989389"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119911278"
 ---
 # <a name="attachpropertyinstanceex-function"></a>AttachPropertyInstanceEx 函式
 

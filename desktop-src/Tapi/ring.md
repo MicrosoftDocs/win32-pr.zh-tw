@@ -4,12 +4,12 @@ ms.assetid: c5ddcb3c-183c-4f97-9429-977d5cc32668
 title: 環形
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f671aac6ead1938ff5b35ecb4996e4bc072a66d4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c5d183c217447ca02bf5ee0c535360eecaea1f3c209cdb813ad58b77268f234d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103944207"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119773358"
 ---
 # <a name="ring"></a>環形
 

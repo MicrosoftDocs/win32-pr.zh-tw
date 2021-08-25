@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: b29784ae360ec78b9f7e01d2045617615333a5c2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: de0413c39a4abf47a24913f347ceed0158d0b51aa4e1da0b3005cace1326b53f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193908"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119908378"
 ---
 # <a name="ieaxiservicecleanup-method"></a>IeAxiService：：清除方法
 
@@ -48,7 +48,7 @@ HRESULT Cleanup();
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows Vista Business、Windows Vista Enterprise、Windows Vista 旗艦版傳統型 \[ 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windowsvista Business、Windows vista Enterprise、Windows vista 旗艦版傳統型 \[ 應用程式\]<br/> |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                                 |
 | IID<br/>                      | IID \_ IeAxiService 定義為 E9E92380-9ECD-4982-A0EB-6815A56CCF27<br/>                           |
 

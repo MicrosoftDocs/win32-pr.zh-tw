@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ded5b734278973afe35f5ed3d9fbb5b0aec9242b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3263f34cd59ba68ee895e5d5c77e297144cbadd6c8d8bbaa49ca6272248c2024
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466673"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119842648"
 ---
 # <a name="wm_dwmsendiconicthumbnail-message"></a>WM \_ DWMSENDICONICTHUMBNAIL 訊息
 
@@ -90,8 +90,8 @@ ms.locfileid: "104466673"
 
 | 需求 | 值 |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                          |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/>                             |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                          |
+| 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/>                             |
 | 標頭<br/>                   | <dl> <dt>Dwmapi.dll。h</dt> </dl> |
 
 

@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 4b17d99ab3ab485153a0af535aa74b9a9123ddaf
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: de38f1bbaf9af03eba8c026615eeb285c5a578002341a7c5023bf35a40e36f83
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994585"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119878168"
 ---
 # <a name="certificatesubjectname-property"></a>Certificate. SubjectName 屬性
 
-\[CAPICOM 是僅限32位的元件，可用於下列作業系統： Windows Server 2008、Windows Vista 和 Windows XP。 請改為使用 [**system.security.cryptography.x509certificates.x509certificate2**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor?view=netcore-3.1)命名空間中的 [**X509Certificate2 類別**](/previous-versions/windows/embedded/hh424017(v=msdn.10))。\]
+\[CAPICOM 是僅限32位的元件，可供下列作業系統使用： Windows Server 2008、Windows Vista 和 Windows XP。 請改為使用 [**system.security.cryptography.x509certificates.x509certificate2**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor?view=netcore-3.1)命名空間中的 [**X509Certificate2 類別**](/previous-versions/windows/embedded/hh424017(v=msdn.10))。\]
 
 **SubjectName** 屬性會抓取包含憑證主體名稱的字串。
 

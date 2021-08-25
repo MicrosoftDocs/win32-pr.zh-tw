@@ -1,22 +1,22 @@
 ---
-title: Windows 桌面搜尋2。x
-description: 瞭解 Windows Desktop Search 2.x。 針對 windows XP 和 Windows Server 2003 之後的 Windows 版本，請改用 Windows Search。
+title: WindowsDesktop Search 2。x
+description: 瞭解 Windows Desktop Search 2.x。 針對 Windows Windows XP 和 Windows Server 2003 之後的版本，請改用 Windows Search。
 ms.assetid: 3d73f850-58b8-4a41-8863-e2914661d4b9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c1ff43f827458d295e54b71b3f39c7aa471c058d
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: d3298d668266d913a427c74f605435257c1a4cfba56fae82c809bd9127e7ecf6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112408121"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119829098"
 ---
-# <a name="windows-desktop-search-2x"></a>Windows 桌面搜尋2。x
+# <a name="windows-desktop-search-2x"></a>WindowsDesktop Search 2。x
 
 > [!NOTE]
-> Windows Desktop Search 2.x 是一種淘汰的技術，最初是以 Windows XP 和 Windows Server 2003 的增益集形式提供。 在之後的版本中，請改用 [Windows Search](../search/-search-3x-wds-overview.md) 。
+> WindowsDesktop Search 2.x 是一種淘汰的技術，最初是以 Windows XP 和 Windows Server 2003 的增益集的形式提供。 在之後的版本中，請改用[Windows Search](../search/-search-3x-wds-overview.md) 。
 
-使用和開發 Microsoft Windows 桌面搜尋的2.x 版 (WDS) 強烈建議您改用 [Windows Search](../search/-search-3x-wds-overview.md)。
+針對2.x 版的 Microsoft Windows Desktop)  (搜尋使用和開發，強烈建議您不要使用[Windows Search](../search/-search-3x-wds-overview.md)。
 
 WDS 是一種索引服務和平臺，可在不同的資料來源和位置快速搜尋檔案和資料。 WDS 可協助使用者和其他應用程式在其電腦上尋找幾乎任何資訊、電子郵件訊息、行事曆約會、相片、檔等等。 此外，WDS 可以在 Windows 檔案總管環境中，從多個資料來源傳回結果，讓您的使用者可以快速預覽、篩選和操作搜尋結果。
 
@@ -39,7 +39,7 @@ WDS 會在指定的編目範圍內、在本機電腦內指定的位置，以及�
 
 ### <a name="about-the-wds-indexer"></a>關於 WDS 索引子
 
-第一次安裝時，索引子會編目我的檔資料夾、Microsoft Outlook 和 Microsoft Outlook Express 電子郵件資料夾中最常見的使用者面向檔案，以及群組原則中指定的位置。 使用者也可以指定新的檔案和位置，讓索引子包含 (，或將) 排除在後續的爬網中。 每個包含的位置都是以 URL 識別，而索引子會從該 URL 開始，並以遞迴方式逐一查看任何子資料夾或位置，直到所有專案都已編制索引為止。 範圍是一組 Url。 自訂應用程式可使用管理 Api 來定義其編目範圍、一組指向通訊協定內路徑的 Url，例如 `file://` 針對磁片磁碟機上的資料夾或 `mapi:// ` OUTLOOK 等 MAPI 電子郵件存放區。 WDS 會使用通訊協定處理常式來存取資料存放區和篩選器，以剖析和編制專案文字和屬性的索引。 然後，此資料會儲存在目錄中。
+第一次安裝時，索引子會編目我的檔資料夾、microsoft Outlook 和 microsoft Outlook Express 電子郵件資料夾中最常見的使用者對應檔案，以及群組原則中指定的位置。 使用者也可以指定新的檔案和位置，讓索引子包含 (，或將) 排除在後續的爬網中。 每個包含的位置都是以 URL 識別，而索引子會從該 URL 開始，並以遞迴方式逐一查看任何子資料夾或位置，直到所有專案都已編制索引為止。 範圍是一組 Url。 自訂應用程式可使用管理 Api 來定義其編目範圍、一組指向通訊協定內路徑的 Url，例如 `file://` 針對磁片磁碟機上的資料夾，或如 `mapi:// ` OUTLOOK 的 MAPI 電子郵件存放區。 WDS 會使用通訊協定處理常式來存取資料存放區和篩選器，以剖析和編制專案文字和屬性的索引。 然後，此資料會儲存在目錄中。
 
 ### <a name="about-the-wds-catalog"></a>關於 WDS 類別目錄
 
@@ -57,16 +57,16 @@ WDS 有兩種主要類型的整合：將資料新增至索引，以及查詢索�
 
 基本上有兩種類型的資料來源：檔案系統存放區和非檔案系統存放區。 我的檔中的一組檔案是簡單的檔案系統存放區。 WDS 可以搜尋儲存在這類檔案系統中的檔案中的資訊（如果它可以找到檔案類型的篩選器）。 如果您為該檔案類型提供 [**IFilter**](/windows/desktop/api/filter/nn-filter-ifilter)介面的執行，您可以啟用 WDS 來為新的專屬檔案類型編制索引。
 
-非檔案系統存放區（例如資料庫）需要通訊協定處理常式，才能讓 WDS 在資料存放區中流覽和編制資料的索引。 例如，如果您的郵件客戶程式會將收到的電子郵件清單儲存在自己的檔案 (例如 Outlook) 中的 PST 檔案，您可以提供通訊協定處理常式來為每個個別電子郵件編制索引並進行搜尋。 如果資料存放區為階層式，您也必須執行 [**IFilter**](/windows/desktop/api/filter/nn-filter-ifilter)介面，以列舉存放區中的專案。 若要獲得更好的使用者體驗，您可以執行 Shell 擴充功能，以從結果檢視內提供內容功能表和圖示。
+非檔案系統存放區（例如資料庫）需要通訊協定處理常式，才能讓 WDS 在資料存放區中流覽和編制資料的索引。 例如，如果您的郵件客戶程式將接收的電子郵件清單儲存在自己的檔案 (例如 Outlook) 的 PST 檔案，您可以提供通訊協定處理常式來編制索引，並搜尋每個個別的電子郵件。 如果資料存放區為階層式，您也必須執行 [**IFilter**](/windows/desktop/api/filter/nn-filter-ifilter)介面，以列舉存放區中的專案。 若要獲得更好的使用者體驗，您可以執行 Shell 擴充功能，以從結果檢視內提供內容功能表和圖示。
 
-目前，WDS 包含超過200種專案類型的篩選 (包括 HTML、XML 和原始程式碼檔案等純文字專案) ，並使用與 SharePoint 服務相同的 [**IFilter**](/windows/desktop/api/filter/nn-filter-ifilter)和通訊協定處理常式技術。 如果您已安裝適用于專屬檔案類型的篩選器，WDS 可以使用現有的篩選介面來為此資料編制索引。
+WDS 目前包含超過200種專案類型的篩選 (包括 HTML、XML 和原始程式碼檔案等純文字專案) ，並使用與 SharePoint Services 相同的 [**IFilter**](/windows/desktop/api/filter/nn-filter-ifilter)和通訊協定處理常式技術。 如果您已安裝適用于專屬檔案類型的篩選器，WDS 可以使用現有的篩選介面來為此資料編制索引。
 
 ### <a name="querying-the-index"></a>查詢索引
 
 WDS 根據任何可用的架構值，從索引提供自訂結果集的資料。 結果會以 ADO 記錄集的形式傳回。 有四種方式可將 WDS 查詢併入應用程式，每個都提供各種層級的自訂和穩定性。
 
--   ISearchDesktop 介面-此介面中的 Api 是用來以程式設計方式呼叫 WDS，方法是指定查詢字串、要傳回的資料行清單、類似結構化查詢語言 (SQL)  (SQL) WHERE 子句的範圍限制，以及要排序依據的資料行名稱。 這些 Api 適用于原生和 managed 程式碼。
--   WDS ActiveX 控制項-此控制項會繪製 WDS 搜尋介面，以及管理搜尋和顯示結果。 這個方法比使用 Api 更簡單，但較不具彈性。 若要在 Microsoft Visual Studio 應用程式中使用這個控制項，請從 [**工具**] 功能表移至 [**選擇工具箱專案**] 對話方塊，然後從 [ **COM 元件**] 索引標籤將 [Windows 桌面搜尋-結果檢視器] 新增至 [**工具箱**]。然後，將控制項新增至您想要包含該控制項的表單。 WDS ActiveX 控制項僅與 Windows XP 上的 WDS 2.x 和3.x 相容。
+-   ISearchDesktop 介面-此介面中的 api 是用來以程式設計方式呼叫 WDS，方法是指定查詢字串、要傳回的資料行清單、類似結構化查詢語言 (SQL)  (SQL) WHERE 子句的範圍限制，以及要排序依據的資料行名稱。 這些 Api 適用于原生和 managed 程式碼。
+-   wds ActiveX 控制項-此控制項會繪製 wds 搜尋介面，以及管理搜尋和顯示結果。 這個方法比使用 Api 更簡單，但較不具彈性。 若要在 Microsoft Visual Studio 應用程式中使用這個控制項，請從 [**工具**] 功能表移至 [**選擇工具箱專案**] 對話方塊，然後從 [ **COM 元件**] 索引標籤將 [Windows 桌面搜尋-結果檢視器] 新增至 [**工具箱**]。然後，將控制項新增至您想要包含該控制項的表單。 wds ActiveX 控制項僅與 Windows XP 上的 wds 2.x 和3.x 相容。
 -   命令列參數-應用程式可以呼叫具有各種參數的 WDS 可執行檔，以搜尋和顯示結果。 這會開啟 WDS 視窗，其中顯示結果。 這是將搜尋新增至應用程式的最簡單方式，但不會傳回給呼叫的應用程式任何有關使用者在 WDS 視窗中執行之工作的資訊。
 -   WDS 瀏覽器協助程式物件 (BHO) -同樣地，網頁可以使用 BHO 將查詢傳送至 WDS 或已註冊的搜尋應用程式。 針對 WDS 網域安全清單驗證網頁 URL 之後，WDS 會執行查詢並使用標準搜尋介面顯示結果，或將查詢傳遞至已註冊的搜尋應用程式。
 
@@ -78,13 +78,13 @@ WDS 2.6.5 僅適用于 Windows 2000、Windows Server 2003 和 Windows XP。 WDS 
 
 ### <a name="system-requirements"></a>系統需求
 
-使用 Windows 桌面搜尋需要下列各項：
+以下是使用 Windows 桌面搜尋的必要動作：
 
--   Windows Internet Explorer 或更新版本。
--   若要在目錄中包含您的電子郵件訊息，您必須有 Microsoft Microsoft Outlook 2000 或更新版本，或 Microsoft Outlook Express 6.0 或更新版本。
--   您需要 Office XP 或更新版本，才能在結果檢視中進行 Microsoft Microsoft Office 檔的完整預覽。
+-   WindowsInternet Explorer 或更新版本。
+-   若要在目錄中包含您的電子郵件訊息，您必須有 microsoft microsoft Outlook 2000 或更新版本，或 microsoft Outlook Express 6.0 或更新版本。
+-   在結果檢視中，Microsoft Microsoft Office 檔的完整預覽需要 Office XP 或更新版本。
 -   最小 Pentium 500 MHz 處理器 (1 GHz 建議的) 。
--   Windows XP、Windows 2000 SP4 或更新版本，或 Windows Server 2003 Service Pack 1。
+-   WindowsXP、Windows 2000 SP4 或更新版本，或 Windows Server 2003 Service Pack 1。
 -   最少 128 MB 的 RAM (256 MB 的建議) 。
 -   建議使用 500 MB 的可用硬碟空間。 索引的大小取決於您已編制索引的內容數量。
 -   建議使用 1024 x 768 螢幕解析度。

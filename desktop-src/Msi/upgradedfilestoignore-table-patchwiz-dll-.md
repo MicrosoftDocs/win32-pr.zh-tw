@@ -4,12 +4,12 @@ ms.assetid: 3b5f4360-887a-4a21-8f16-faa84da34328
 title: 'UpgradedFilesToIgnore 資料表 (Patchwiz.dll) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8f4a235759251ac3dadbe01b030c0d984d1f66b9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2f51143fcf7db350d5ee8aa1e43d49984914bcf9f05a2f8f5f787834a69b7e1a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106978383"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119809548"
 ---
 # <a name="upgradedfilestoignore-table-patchwizdll"></a>UpgradedFilesToIgnore 資料表 (Patchwiz.dll) 
 

@@ -3,41 +3,41 @@ title: DirectShow 中的多頻道音訊播放
 description: DirectShow 中的多頻道音訊播放
 ms.assetid: 5123854a-0f1f-40f4-bf57-47622b91103f
 keywords:
-- Windows Media Format SDK、DirectShow
-- Windows Media Format SDK，多頻道音訊播放
-- Windows Media Format SDK，音訊播放
-- Advanced Systems Format (ASF) 、DirectShow
+- Windows媒體格式 SDK，DirectShow
+- Windows媒體格式 SDK，多頻道音訊播放
+- Windows媒體格式 SDK，音訊播放
+- Advanced Systems Format (ASF) ，DirectShow
 - ASF (Advanced Systems Format) ，DirectShow
 - Advanced Systems Format (ASF) 、多頻道音訊播放
 - ASF (Advanced Systems Format) 、多頻道音訊播放
 - Advanced Systems Format (ASF) 、音訊播放
 - ASF (Advanced 系統格式) 、音訊播放
-- DirectShow、多頻道音訊播放
-- DirectShow、音訊播放
+- DirectShow，多頻道音訊播放
+- DirectShow，音訊播放
 - 多頻道音訊，播放
 - 音訊播放
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d44c6eec473c8bbbff81d35f4127d5d132d0b6cd
-ms.sourcegitcommit: 3e70ae762629e244028b437420ed50b5850db4e3
+ms.openlocfilehash: 99734ddf32be6e0340e26fafef0f22f1127ec3652cc0db0a9d2e94ce2f694b96
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "104374594"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119808158"
 ---
 # <a name="multichannel-audio-playback-in-directshow"></a>DirectShow 中的多頻道音訊播放
 
-若要在 DirectShow 中播放多重通道 Windows Media 音訊檔案，您必須在已 \_ 連接到 WM ASF 讀取器之後，直接在此解碼器上設定 "HIRESOUTPUT" 屬性。 不需要設定 Reader 物件。 不過，若要直接使用 SQL-DMO，您需要範例程式碼中的 wmcodecconst，才能 [使用 Windows Media 音訊和影片編解碼器介面](https://www.microsoft.com/downloads/details.aspx?FamilyId=92490D8A-4F2E-46F1-8835-B1D987B3C985&displaylang=en) 下載套件。
+若要在 DirectShow 中播放多重通道 Windows Media 音訊檔案，您必須在已 \_ 連接到 WM ASF 讀取器之後，直接在該解碼器上設定 "HIRESOUTPUT" 屬性。 不需要設定 Reader 物件。 不過，若要直接使用 DMO，您需要範例程式碼中的 wmcodecconst，[以使用 Windows Media 音訊和影片編解碼器介面](https://www.microsoft.com/downloads/details.aspx?FamilyId=92490D8A-4F2E-46F1-8835-B1D987B3C985&displaylang=en)下載套件。
 
 **注意** 只有未受數位 Rights Management 保護的檔案才支援此設定程式。
 
 啟用多重通道輸出的基本步驟如下：
 
 1.  呼叫 RenderFile 以建立篩選圖形。
-2.  取得 a 的 < i 包裝函式篩選準則指標
-3.  從音訊轉譯器中斷連接的 i 包裝函式
+2.  取得 DMO 包裝函式篩選的指標
+3.  中斷 DMO 包裝函式與音訊轉譯器的連線
 4.  在 \_ 解碼器上設定 "HIRESOUTPUT" 屬性。
-5.  重新連接 SQL-DMO 包裝函式和音訊轉譯器。
+5.  重新連接 DMO 包裝函式和音訊轉譯器。
 6.  執行圖形。
 
 下列程式碼片段示範這些步驟。  (為了簡潔起見，已省略所有錯誤檢查。 如果您在應用程式中使用此程式碼，您應該新增適當的錯誤處理常式。 ) 
@@ -141,9 +141,9 @@ HRESULT GetPin(IBaseFilter *pFilter, PIN_DIRECTION PinDir, IPin** ppPin)
 
 
 
- 
+ 
 
- 
+ 
 
 
 

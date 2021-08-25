@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 388d62d1e9c8f529a51a798d445c9535989d908a
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 13b458a5d66d8d6fd90a58519ce57de03f625087be4123f2e51ca8c09534ed96
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104509514"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119879838"
 ---
 # <a name="ms-ds-service-connection-point-publication-service-class"></a>ms-DS-服務-連接點-發行集-服務類別
 
@@ -49,7 +49,7 @@ ms.locfileid: "104509514"
 
 | 進入 | 值 |
 |-----------------------------|----------------------------------------|
-| System-Only                 | 對                                   |
+| System-Only                 | 是                                   |
 | Object-Category             | 1                                      |
 | 預設-物件-類別     | \-                                     |
 | Governs-Id                  | 1.2.840.113556.1.5.247                 |
@@ -89,7 +89,7 @@ ms.locfileid: "104509514"
 | [**啟用**](a-enabled.md)                                                | 否     | **ms-DS-服務-連接點-發行集-服務** |
 | [**從-進入**](a-fromentry.md)                                           | 否     | [**返回頁首**](c-top.md)<br/>                        |
 | [**FSMO 角色-擁有者**](a-fsmoroleowner.md)                                  | 否     | [**返回頁首**](c-top.md)<br/>                        |
-| [**實例類型**](a-instancetype.md)                                     | 對      | [**返回頁首**](c-top.md)<br/>                        |
+| [**實例類型**](a-instancetype.md)                                     | 是      | [**返回頁首**](c-top.md)<br/>                        |
 | [**為關鍵-系統物件**](a-iscriticalsystemobject.md)               | 否     | [**返回頁首**](c-top.md)<br/>                        |
 | [**已刪除**](a-isdeleted.md)                                           | 否     | [**返回頁首**](c-top.md)<br/>                        |
 | [**是-DL 的成員**](a-memberof.md)                                       | 否     | [**返回頁首**](c-top.md)<br/>                        |
@@ -111,10 +111,10 @@ ms.locfileid: "104509514"
 | [**ms-DS-複製-值中繼資料**](a-msds-replvaluemetadata.md)              | 否     | [**返回頁首**](c-top.md)<br/>                        |
 | [**ms-DS-SCP-容器**](a-msds-scpcontainer.md)                          | 否     | **ms-DS-服務-連接點-發行集-服務** |
 | [**ms-DS-服務-帳戶-BL**](a-msds-serviceaccountbl.md)                 | 否     | [**返回頁首**](c-top.md)<br/>                        |
-| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                    | 對      | [**返回頁首**](c-top.md)<br/>                        |
+| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                    | 是      | [**返回頁首**](c-top.md)<br/>                        |
 | [**Obj-Dist 名稱**](a-distinguishedname.md)                                | 否     | [**返回頁首**](c-top.md)<br/>                        |
-| [**物件-類別**](a-objectcategory.md)                                 | 對      | [**返回頁首**](c-top.md)<br/>                        |
-| [**物件類別**](a-objectclass.md)                                       | 對      | [**返回頁首**](c-top.md)<br/>                        |
+| [**物件-類別**](a-objectcategory.md)                                 | 是      | [**返回頁首**](c-top.md)<br/>                        |
+| [**物件類別**](a-objectclass.md)                                       | 是      | [**返回頁首**](c-top.md)<br/>                        |
 | [**物件-Guid**](a-objectguid.md)                                         | 否     | [**返回頁首**](c-top.md)<br/>                        |
 | [**物件版本**](a-objectversion.md)                                   | 否     | [**返回頁首**](c-top.md)<br/>                        |
 | [**其他知名物件**](a-otherwellknownobjects.md)                 | 否     | [**返回頁首**](c-top.md)<br/>                        |

@@ -19,12 +19,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 1afd78ba17e444520d8dec81eac05fffa103aede
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 45b8e95d1c29055c90046ae019a343b445a86f6629a8b190823e7c6a4f483e66
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510730"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119973188"
 ---
 # <a name="win32_logicalprogramgroupitem-class"></a>Win32 \_ LogicalProgramGroupItem 類別
 
@@ -126,7 +126,7 @@ class Win32_LogicalProgramGroupItem : Win32_ProgramGroupOrItem
 
 電腦系統內的實例。 程式群組會實作為 Win32 中的檔案資料夾。 應提供完整路徑名稱。
 
-範例： "C： \\ Users \\  \\ AppData \\ 漫遊 \\ Microsoft \\ Windows \\ 開始功能表 \\ 程式 \\ 配件 \\ NotePad"
+範例： "C： \\ Users \\  \\ AppData \\ 漫遊 \\ Microsoft \\ Windows \\ 開始功能表 \\ 程式 \\ 配件 \\ NotePad. .lnk"
 
 </dd> <dt>
 
@@ -242,7 +242,7 @@ class Win32_LogicalProgramGroupItem : Win32_ProgramGroupOrItem
 
 **Win32 \_ LogicalProgramGroupItem** 類別衍生自 [**win32 \_ ProgramGroupOrItem**](win32-programgrouporitem.md)。
 
-使用這個類別的呼叫進程必須在登錄所在的電腦上具有「 **SE \_ 還原 \_ 名稱** 」許可權。 例如，如果您在本機電腦上列舉此類別，您的應用程式執行所在的帳戶必須具有此許可權。 如需詳細資訊，請參閱 [執行特殊許可權作業](/windows/desktop/WmiSdk/executing-privileged-operations)。
+使用這個類別的呼叫進程必須在登錄所在的電腦上具有 **SE \_ RESTORE \_ NAME** 許可權。 例如，如果您在本機電腦上列舉此類別，您的應用程式執行所在的帳戶必須具有此許可權。 如需詳細資訊，請參閱 [執行特殊許可權作業](/windows/desktop/WmiSdk/executing-privileged-operations)。
 
 ## <a name="requirements"></a>規格需求
 

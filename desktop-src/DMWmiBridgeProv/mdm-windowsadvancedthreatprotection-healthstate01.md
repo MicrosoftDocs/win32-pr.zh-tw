@@ -17,18 +17,18 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5519b731cf54a633a659ec865e7a1f0e12deda75
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9fa8638aaa4aa99c22a67c8b3d680bb6a90a4b9aa0d37eb43cd2199e7b64f977
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934765"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119913378"
 ---
 # <a name="mdm_windowsadvancedthreatprotection_healthstate01-class"></a>MDM \_ WindowsAdvancedThreatProtection \_ HealthState01 類別
 
 \[某些資訊與預先發行的產品有關，在正式發行之前可能會經過大幅修改。 Microsoft 對此處提供的資訊，不做任何明確或隱含的瑕疵擔保。\]
 
-**MDM \_ WindowsAdvancedThreatProtection \_ HealthState01** 類別用來判斷 Windows Defender ADVANCED 威脅防護 (WDATP) 端點的健全狀況狀態。
+**MDM \_ WindowsAdvancedThreatProtection \_ HealthState01** 類別用來判斷 Windows Defender Advanced 威脅防護 (WDATP) 端點的健全狀況狀態。
 
 下列語法是簡化自 MOF 程式碼，且包含所有繼承的屬性。
 
@@ -141,7 +141,7 @@ class MDM_WindowsAdvancedThreatProtection_HealthState01
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 10 桌面應用程式\]<br/>                                                          |
+| 最低支援的用戶端<br/> | Windows 10 \[僅限桌面應用程式\]<br/>                                                          |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                            |
 | 命名空間<br/>                | 根 \\ cimv2 \\ mdm \\ dmmap<br/>                                                                   |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv1 mof</dt> </dl>      |

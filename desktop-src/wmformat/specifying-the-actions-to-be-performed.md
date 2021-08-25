@@ -9,12 +9,12 @@ keywords:
 - DRM (數位版權管理) ，指定動作
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5d2bd39a04d9ac87c4492749ca5e250d587c0e25
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: b2d27df2904aee061deb252e08b59e1e88e4d1cd9e151290cd940fc48a650404
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104374510"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119807798"
 ---
 # <a name="specifying-the-actions-to-be-performed"></a>指定要執行的動作
 
@@ -32,7 +32,7 @@ p_WMDRMReader->SetDRMProperty(g_wszWMDRM_Rights, WMT_TYPE_STRING,
 > [!Note]  
 > 請勿混淆 [ [**drm \_ 許可權**](drm-rights.md) ] 屬性與 [ [**drm \_ 旗標**](drm-flags.md) ] 屬性，這是用來指定從 CD 複製內容時，要套用到本機 DRM 第1版授權的 **DWORD** 。
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -41,9 +41,9 @@ p_WMDRMReader->SetDRMProperty(g_wszWMDRM_Rights, WMT_TYPE_STRING,
 [**讀取受保護的檔案**](reading-protected-files.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

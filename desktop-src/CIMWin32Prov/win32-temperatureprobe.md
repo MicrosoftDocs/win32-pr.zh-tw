@@ -51,12 +51,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: b6de4ed6334747e8313098075bc916a1975f520c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 8610c308eb92cd2aaabdbba287bc8c322a34a3f8e5e43dd942d48915332bb98b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847309"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119827668"
 ---
 # <a name="win32_temperatureprobe-class"></a>Win32 \_ TemperatureProbe 類別
 
@@ -138,7 +138,7 @@ class Win32_TemperatureProbe : CIM_TemperatureSensor
 
 <dl> <dt>
 
-**精確度**
+**精度**
 </dt> <dd> <dl> <dt>
 
 資料類型： **sint32**
@@ -1081,7 +1081,7 @@ Windows 仍在設定裝置。
 限定詞： [**架構**](../wmisdk/standard-qualifiers.md) ( "Win32" ) 
 </dt> </dl>
 
-Windows 隨插即用邏輯裝置的裝置識別碼。
+Windows隨插即用邏輯裝置的裝置識別碼。
 
 範例： " \* PNP030b"
 

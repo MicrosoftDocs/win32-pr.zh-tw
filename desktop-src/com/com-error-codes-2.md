@@ -222,12 +222,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2525528b931f194d58c031275364c3dc6419eeda
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ccf2b7d0f0fbd8e178fb9f5db510df7fa6851d112499bd30f672404d72c29fd0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106989704"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119993678"
 ---
 # <a name="com-error-codes-xact-sched-ole"></a>COM 錯誤碼 (交易、已計畫、OLE) 
 
@@ -237,7 +237,7 @@ ms.locfileid: "106989704"
 
 
 
-| 常數/值                                                                                                                                                                                                                                                                                                | Description                                                                                                                                                                                                                                                                                                                                                                                                          |
+| 常數/值                                                                                                                                                                                                                                                                                                | 描述                                                                                                                                                                                                                                                                                                                                                                                                          |
 |:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="XACT_E_ALREADYOTHERSINGLEPHASE"></span><span id="xact_e_alreadyothersinglephase"></span><dl> <dt>**交易 \_E \_ ALREADYOTHERSINGLEPHASE**</dt> <dt>0x8004D000</dt> </dl>                             | 另一個階段資源管理員已在此交易中登記。<br/>                                                                                                                                                                                                                                                                                                                      |
 | <span id="XACT_E_CANTRETAIN"></span><span id="xact_e_cantretain"></span><dl> <dt>**交易 \_E \_ CANTRETAIN**</dt> <dt>0x8004D001</dt> </dl>                                                                    | 不支援保留認可或中止<br/>                                                                                                                                                                                                                                                                                                                                                              |

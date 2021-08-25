@@ -13,12 +13,12 @@ api_type:
 - UserDefined
 api_location:
 - Netmon.h
-ms.openlocfilehash: 085d5c59b17b10949ad39d07354906f40e123988
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1203682e82b01b7665c9661c3f58c14bbf2cd479cac62c72a64505b0e25feaa1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848763"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119889568"
 ---
 # <a name="register-expert-callback-function"></a>註冊專家回呼函數
 

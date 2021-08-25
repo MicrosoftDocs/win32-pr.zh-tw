@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: d47444a95d8497e67c72fa399308ff7d8e815f46
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 497eaf85f1884da3817564d06f2a1989f5e33fec99f5aae50cd435cff76dce0c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106999626"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119871528"
 ---
 # <a name="coutputqueuem_pinputpin-member"></a>COutputQueue：： m \_ pInputPin 成員
 

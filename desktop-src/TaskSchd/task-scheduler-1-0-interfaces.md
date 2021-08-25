@@ -1,21 +1,21 @@
 ---
 title: 工作排程器1.0 介面
-description: 下列主題中所述的介面，可讓您以程式設計方式存取 Windows 2000、Windows XP 及 Windows Server 2003 作業系統中使用的工作排程器功能。
+description: 下列主題中所述的介面，可讓您以程式設計方式存取工作排程器中的可用功能，此功能可在 Windows 2000、Windows XP 和 Windows Server 2003 作業系統中使用。
 ms.assetid: 25f9c1ad-1859-4788-a876-6f4faa6e556e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2bab12b59d4b4561ecbe46c09a76c69209574c9d
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: 60d2033c78594c0f4ef1d9f871275f425ef5189240ed7b432266464343cf86e2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "104186651"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119975028"
 ---
 # <a name="task-scheduler-10-interfaces"></a>工作排程器1.0 介面
 
 \[\[此 API 可能會在後續版本的作業系統或產品中變更或無法使用。 請改用[工作排程器2.0 介面](task-scheduler-2-0-interfaces.md)或[工作排程器2.0 列舉類型](task-scheduler-2-0-enumerated-types.md)。 \]\]
 
-下列主題中所述的介面，可讓您以程式設計方式存取 Windows 2000、Windows XP 及 Windows Server 2003 作業系統中使用的工作排程器功能。
+下列主題中所述的介面，可讓您以程式設計方式存取工作排程器中的可用功能，此功能可在 Windows 2000、Windows XP 和 Windows Server 2003 作業系統中使用。
 
 這些主題包含介面的描述、介面所定義之屬性和方法的清單，以及使用介面時應注意的任何特殊情況的備註。
 

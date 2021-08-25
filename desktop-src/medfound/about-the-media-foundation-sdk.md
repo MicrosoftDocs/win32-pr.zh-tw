@@ -1,33 +1,33 @@
 ---
-description: Microsoft 媒體基礎是 Windows 的新一代多媒體平臺，可讓開發人員、取用者及內容提供者利用增強的強大功能、無與倫比的品質，以及無縫的互通性，來採用新的新 wave 內容 wave。
+description: Microsoft 媒體基礎是適用于 Windows 的新一代多媒體平臺，可讓開發人員、取用者和內容提供者利用增強的強大功能、無與倫比的品質，以及無縫的互通性，來採用新的新 wave 內容 wave。
 ms.assetid: 3f933e39-8f9b-4c62-b528-4f1bba4b45d1
 title: 關於媒體基礎
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7a166482bbb0291f702a0e402441e292109a3e10
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 1f2f8510cc6d967f7a3a809d395f032e277290074002399f9b54e6c54025c312
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106986008"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119959648"
 ---
 # <a name="about-media-foundation"></a>關於媒體基礎
 
-Microsoft 媒體基礎是 Windows 的新一代多媒體平臺，可讓開發人員、取用者及內容提供者利用增強的強大功能、無與倫比的品質，以及無縫的互通性，來採用新的新 wave 內容 wave。
+Microsoft 媒體基礎是適用于 Windows 的新一代多媒體平臺，可讓開發人員、取用者和內容提供者利用增強的強大功能、無與倫比的品質，以及無縫的互通性，來採用新的新 wave 內容 wave。
 
 媒體基礎需要 Windows Vista 或更新版本。 它使用元件物件模型 (COM) ，而且需要 C/c + +。 Microsoft 不會提供媒體基礎的受控 API。
 
-媒體基礎 Api 是 [Windows SDK](https://msdn.microsoft.com/windowsvista/bb980924.aspx)的一部分。 若要開發媒體基礎的應用程式，請安裝最新版本的 Windows SDK。
+媒體基礎 api 是[Windows SDK](https://msdn.microsoft.com/windowsvista/bb980924.aspx)的一部分。 若要開發媒體基礎的應用程式，請安裝最新版本的 Windows SDK。
 
 ## <a name="audio-and-video-quality"></a>音訊和影片品質
 
 媒體基礎的設計目的是要滿足高定義內容所造成的挑戰。 整個平臺中的音訊和影片品質增強功能現在可讓您為下一代的高定義內容提供絕佳的體驗。
 
--   DirectX Video 加速 (DXVA) 2.0 提供更有效率的影片加速，相較于 DXVA 1.0，其具有更強大且更有效率的影片解碼，並可在影片處理中擴充硬體的使用。 使用 DXVA 2.0，Windows 可以處理一些需求最高的高定義內容，而且具有高品質且改良的故障恢復功能。
+-   DirectX Video 加速 (DXVA) 2.0 提供更有效率的影片加速，相較于 DXVA 1.0，其具有更強大且更有效率的影片解碼，並可在影片處理中擴充硬體的使用。 使用 DXVA 2.0，Windows 可以處理一些需求最高的高定義內容，而且具有高品質且改良的故障恢復能力。
 
 -   整個影片管線都會保留色彩空間資訊。 使用者可以完整的精確度享受影片內容。 色彩資訊和交錯影像現在會傳遞給單一傳遞組合的硬體。 保留色彩空間資訊也可減少不必要的色彩空間轉換，以釋出更多的週期來處理要求的 HD 內容。
 -   增強的影片轉譯器 (EVR) 提供更佳的時間支援、增強的影片處理，以及改善的故障恢復功能。 全螢幕播放支援已增強，而視窗模式中的影片撕裂已降至最低。
--   媒體基礎使用多媒體類別排程器服務 (MMCSS) 是 Windows Vista 中的新系統服務。 MMCSS 可讓多媒體應用程式確保其時間緊迫的處理會獲得 CPU 資源的優先存取權。
+-   媒體基礎 (MMCSS) （Windows Vista 中的新系統服務）使用多媒體類別排程器服務。 MMCSS 可讓多媒體應用程式確保其時間緊迫的處理會獲得 CPU 資源的優先存取權。
 
 ## <a name="content-access"></a>內容存取
 
@@ -51,7 +51,7 @@ Microsoft 媒體基礎是 Windows 的新一代多媒體平臺，可讓開發人�
 
  
 
-媒體基礎不包含在 Windows 8 的 N 和 KN 版本中。 如需詳細資訊，請參閱 [Microsoft Windows Media Feature Pack 的 N 和 KN 版本的所有 Windows 8 版本](https://support.microsoft.com/kb/2703761)。
+媒體基礎不包含在 Windows 8 的 N 和 KN 版本中。 如需詳細資訊，請參閱[Microsoft Windows Media Feature Pack 的所有 Windows 8 版本的 N 和 KN 版本](https://support.microsoft.com/kb/2703761)。
 
 ## <a name="related-topics"></a>相關主題
 

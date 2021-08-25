@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: a944e86a4bd82bf57961d4d6b474c34afadba6b4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: dd01180b56816aa3458396f1c6183518d4365dce2f41643328e899057ed1ee72
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106989734"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119862018"
 ---
 # <a name="previewduration-element"></a>PREVIEWDURATION 元素
 
@@ -80,10 +80,10 @@ ms.locfileid: "106989734"
 
 <dl> <dt>
 
-[**Windows Media 中繼檔元素參考**](windows-media-metafile-elements-reference.md)
+[**Windows媒體中繼檔元素參考**](windows-media-metafile-elements-reference.md)
 </dt> <dt>
 
-[**Windows Media 中繼檔參考**](windows-media-metafile-reference.md)
+[**Windows媒體中繼檔參考**](windows-media-metafile-reference.md)
 </dt> </dl>
 
  

@@ -5,12 +5,12 @@ ms.assetid: 26C41948-9625-4786-BBDF-552D1F8A2437
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 47725702676d385d607fa87533680b9ffe0fc0df
-ms.sourcegitcommit: 294c5ab750c46b5100bb2c84ef6c33ef7266c54b
+ms.openlocfilehash: 2624a300811b4d4a1eef70873a31af89b0546224fd9b4f3ba06ecb1fbd2fac42
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/15/2020
-ms.locfileid: "104548417"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119894668"
 ---
 # <a name="uma-optimizations-cpu-accessible-textures-and-standard-swizzle"></a>UMA 優化：可存取 CPU 的材質和標準 Swizzle
 
@@ -111,9 +111,9 @@ D3D12 (和 D3D 11.3) 引進標準的多維度資料版面配置。 這樣做的�
 [資源系結](resource-binding.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

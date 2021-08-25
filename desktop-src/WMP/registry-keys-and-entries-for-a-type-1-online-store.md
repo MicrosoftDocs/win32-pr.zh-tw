@@ -9,12 +9,12 @@ keywords:
 - 登錄，請輸入1個線上商店
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1329ad69e91ebce41b258d1e148403f62caceb96
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 7e42b1b75b64a8736c1491ccc058fe5548d78808ba51e142b3272d17d3c0eba9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "106966440"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119861528"
 ---
 # <a name="registry-keys-and-entries-for-a-type-1-online-store"></a>類型1線上商店的登錄機碼和專案
 
@@ -73,10 +73,10 @@ ms.locfileid: "106966440"
 
 | 旗標                                    | 值 | 描述                                                                                                                                                                                                                                                                 |
 |-----------------------------------------|-------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 訂用帳戶 \_ 上限 \_ BACKGROUNDPROCESSING | 0x8   | Windows Media Player 應呼叫 [IWMPContentPartner：： Notify](/previous-versions/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-notify) ，以通知外掛程式應該啟動並停止背景處理。                                                                                                     |
-| 訂用帳戶 \_ 上限 \_ DEVICEAVAILABLE      | 0x10  | Windows Media Player 應呼叫 [IWMPContentPartner：： UpdateDevice](/previous-versions/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-updatedevice)。                                                                                                                                                                   |
+| 訂用帳戶 \_ 上限 \_ BACKGROUNDPROCESSING | 0x8   | Windows Media Player 應呼叫[IWMPContentPartner：： Notify](/previous-versions/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-notify) ，以通知外掛程式應該啟動並停止背景處理。                                                                                                     |
+| 訂用帳戶 \_ 上限 \_ DEVICEAVAILABLE      | 0x10  | Windows Media Player 應呼叫[IWMPContentPartner：： UpdateDevice](/previous-versions/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-updatedevice)。                                                                                                                                                                   |
 | 訂用帳戶 \_ 上限 \_ 為 \_ CONTENTPARTNER   | 0x40  | 通知 Windows Media Player 外掛程式會執行 **IWMPContentPartner** 介面。 所有類型1線上商店外掛程式都必須設定此旗標。                                                                                                                         |
-| 訂用帳戶 \_ 上限 \_ ALTLOGIN             | 0x80  | 通知 Windows Media Player 外掛程式支援替代登入。 如果外掛程式支援替代登入，Windows Media Player 會呼叫 [IWMPContentPartner：： GetItemInfo](/previous-versions/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-getiteminfo)，以抓取替代登入 URL 和標題。 |
+| 訂用帳戶 \_ 上限 \_ ALTLOGIN             | 0x80  | 通知 Windows Media Player 外掛程式支援替代登入。 如果外掛程式支援替代登入，Windows Media Player 會呼叫[IWMPContentPartner：： GetItemInfo](/previous-versions/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-getiteminfo)，以抓取替代登入 URL 和標題。 |
 
 
 

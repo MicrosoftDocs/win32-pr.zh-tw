@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5b9c233103330e9f8ae7318a613cbc5103315a74
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: c83d5c4b19800f92e3080d3fb435ddd20d62e4b6fe76986869a0f4da86deabcb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104462969"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119895068"
 ---
 # <a name="importlib-attribute"></a>importlib 屬性
 
@@ -68,7 +68,7 @@ library (library-name)
 > [!Note]  
 > **\[ Importlib \]** 指示詞會讓所匯入的程式庫中定義的任何類型都可從正在編譯的程式庫中存取。 為了避免在有重複的參考時不清楚，我們建議您使用適當的程式庫名稱來限定每個這類參考，如下所示：
 
- 
+ 
 
 ``` syntax
 library_name.type
@@ -115,6 +115,6 @@ library BrowseHelper
 [使用 MIDL 產生類型程式庫](generating-a-type-library-with-midl-2.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

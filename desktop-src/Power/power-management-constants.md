@@ -4,12 +4,12 @@ ms.assetid: 475c2819-5ed7-4b83-a119-4c55b215b9b6
 title: 電源管理常數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 41e869ef7e9b897180cd297ec854401a9250776c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 476c0f00764b29aeefcfce970c7bfa0a71066ed31312e59cf40f261c31645e8f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974276"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119961650"
 ---
 # <a name="power-management-constants"></a>電源管理常數
 
