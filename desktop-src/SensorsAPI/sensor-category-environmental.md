@@ -4,12 +4,12 @@ ms.assetid: 4a29d44b-8949-474d-a2bf-0c6e1d30b198
 title: 'SENSOR_CATEGORY_ENVIRONMENTAL (的感應器 .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9b5c41d4c117dc27a3303210a485b2233cf24cde
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f7cc2a6ca1d2832045a77f0a2ffa1902732e484700afaacd757719e99d667c55
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847864"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120126608"
 ---
 # <a name="sensor_category_environmental"></a>感應器 \_ 類別 \_ 環境
 
@@ -21,7 +21,7 @@ ms.locfileid: "103847864"
 
 
 
-| 感應器類型                                                                                                                                                                                                                                                                                                                                                     | Description               |
+| 感應器類型                                                                                                                                                                                                                                                                                                                                                     | 描述               |
 |:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------|
 | <span id="SENSOR_TYPE_ENVIRONMENTAL_ATMOSPHERIC_PRESSURE"></span><span id="sensor_type_environmental_atmospheric_pressure"></span><dl> <dt>**感應器 \_輸入 \_ 環境 \_ 大氣 \_ 壓力**</dt> <dt>{0E903829-FF8A-4A93-97DF-3DCBDE402288}</dt> </dl> | 氣壓 計。<br/>    |
 | <span id="SENSOR_TYPE_ENVIRONMENTAL_HUMIDITY"></span><span id="sensor_type_environmental_humidity"></span><dl> <dt>**感應器 \_輸入 \_ 環境 \_ 濕度**</dt> <dt>{5C72BF67-BD7E-4257-990B-98A3BA3B400A}</dt> </dl>                                      | Hygrometers.<br/>   |
@@ -41,7 +41,7 @@ ms.locfileid: "103847864"
 
 
 
-| 資料欄位名稱和 PID                                                                                                                                                                                                                                                                                                                                    | Description                                                                                                                                                                                                               |
+| 資料欄位名稱和 PID                                                                                                                                                                                                                                                                                                                                    | 描述                                                                                                                                                                                                               |
 |:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="SENSOR_DATA_TYPE_ATMOSPHERIC_PRESSURE_BAR"></span><span id="sensor_data_type_atmospheric_pressure_bar"></span><dl> <dt>**感應器 \_資料 \_ 類型 \_ 大氣 \_ 壓力 \_ BAR**</dt> <dt> (PID = 4)</dt> </dl>                                      | **VT \_ R4**<br/> Atmospheres (橫欄) 的大氣壓力。<br/>                                                                                                                                              |
 | <span id="SENSOR_DATA_TYPE_TEMPERATURE_CELSIUS"></span><span id="sensor_data_type_temperature_celsius"></span><dl> <dt>**感應器 \_資料 \_ 類型 \_ 溫度 \_ 攝氏**</dt> <dt> (PID = 2)</dt> </dl>                                                      | **VT \_ R4**<br/> 溫度（攝氏）。<br/>                                                                                                                                                          |
@@ -57,7 +57,7 @@ ms.locfileid: "103847864"
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                           |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                           |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                            |
 | 標頭<br/>                   | <dl> <dt>感應器。h</dt> </dl> |
 

@@ -14,12 +14,12 @@ keywords:
 - MIDI 對應程式，目的地
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d3b360148c994c0ee6434fdf097ca5f393b23d49
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 8a5becc117668964a584f29c311c3e3ac477f672085e837e28d7eecc595658d7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021274"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119805098"
 ---
 # <a name="the-midi-mapper"></a>MIDI 對應程式
 
@@ -32,14 +32,14 @@ MIDI 對應工具的標準修補程式服務可為應用程式提供與裝置無
 -   [MIDI 對應程式和 Windows](the-midi-mapper-and-windows.md)
 -   [MIDI 對應程式架構](the-midi-mapper-architecture.md)
 -   [通道對應](the-channel-map.md)
--   [修補程式對應](patch-maps.md)
+-   [Patch 地圖](patch-maps.md)
 -   [磁片區純量](the-volume-scalar.md)
--   [金鑰組應](key-maps.md)
+-   [金鑰地圖](key-maps.md)
 -   [地圖和 MIDI 訊息的摘要](summary-of-maps-and-midi-messages.md)
 
- 
+ 
 
- 
+ 
 
 
 

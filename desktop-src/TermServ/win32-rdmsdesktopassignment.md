@@ -20,12 +20,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 72bb252bd2efb71e3192ebd16160cecf18196cb0
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 88576607777fe55d2fb2d4d9232ddc9d4b23849503e56f53fe4cd99f3931ddea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104317239"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119868208"
 ---
 # <a name="win32_rdmsdesktopassignment-class"></a>Win32 \_ RDMSDesktopAssignment 類別
 

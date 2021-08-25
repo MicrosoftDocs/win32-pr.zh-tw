@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 12d7e84351d77730b580242a58b38d7506af451a
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 8122f98956b9bdc49f6d4ed11055a22aee660473a79860f9d00d4684f6cf3c7f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104385996"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119929638"
 ---
 # <a name="pause-method-of-the-win32_printer-class"></a>Win32 Printer 類別的 Pause 方法 \_
 

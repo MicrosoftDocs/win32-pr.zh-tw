@@ -49,12 +49,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 75477bcf670bcc0cf16c63f130f95d4c38d7b783
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 142e602e6f3f75a50e45aa22fd6ddd7d7cf9dc638cdebfb81fba7bc0e92409c8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026002"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119917988"
 ---
 # <a name="win32_battery-class"></a>Win32 \_ 電池類別
 
@@ -562,7 +562,7 @@ class Win32_Battery : CIM_Battery
 限定詞： [**架構**](/windows/desktop/WmiSdk/standard-qualifiers) ( "Win32" ) 
 </dt> </dl>
 
-Windows 設定管理員錯誤碼。
+Windows設定管理員錯誤碼。
 
 這個屬性繼承自 [**CIM \_ LogicalDevice**](cim-logicaldevice.md)。
 
@@ -1221,7 +1221,7 @@ Windows 仍在設定裝置。
 限定詞： [**架構**](/windows/desktop/WmiSdk/standard-qualifiers) ( "Win32" ) 
 </dt> </dl>
 
-Windows 隨插即用邏輯裝置的裝置識別碼。
+Windows隨插即用邏輯裝置的裝置識別碼。
 
 這個屬性繼承自 [**CIM \_ LogicalDevice**](cim-logicaldevice.md)。
 
@@ -1594,7 +1594,7 @@ Windows 隨插即用邏輯裝置的裝置識別碼。
 
 **Win32 \_ 電池** 類別衍生自 cim [**\_ 電池**](cim-battery.md)（衍生自 [**cim \_ LogicalDevice**](cim-logicaldevice.md)）。
 
-Windows Server 2008 包含作業系統中的 (APC) UPS 驅動程式，可讓您將 UPS 視為電池供電。 這可讓您使用腳本來監視 UPS 狀態，並在必要時採取動作。
+Windows伺服器2008包含作業系統中的 (APC) UPS 驅動程式，可讓您將 UPS 視為電池供電。 這可讓您使用腳本來監視 UPS 狀態，並在必要時採取動作。
 
 ## <a name="examples"></a>範例
 

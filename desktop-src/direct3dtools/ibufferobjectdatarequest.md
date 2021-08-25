@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 5f034a80c9704a6760e3053fccb87c909e92e976580d891a78787c9a5eb818b0
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 7f695e1a5079f37b44fbd370b8eebd38a771eb58
+ms.sourcegitcommit: 4e94fc75fad7b2a0f3c92a26f97e89924e59b7a9
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119892818"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "122787374"
 ---
 # <a name="span-idvspixengineibufferobjectdatarequestspanibufferobjectdatarequest-interface"></a><span id="vspixengine.ibufferobjectdatarequest"></span>IBufferObjectDataRequest 介面
 
@@ -38,13 +38,13 @@ ms.locfileid: "119892818"
 
 **IBufferObjectDataRequest** 介面具有這些方法。
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">方法</th><th style="text-align: left;">描述</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/ibufferobjectdatarequest-requestasync-eventid-dword-bstr-bstr-ibufferobjectdatacallback-ptr-dword-dword"><strong>RequestAsync</strong></a></td><td style="text-align: left;"><p>要求取得物件的原始內容 (緩衝區、材質、轉譯目標視圖等） ) </p></td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th >方法</th><th >說明</th></tr></thead><tbody><tr class="odd"><td ><a href="/windows/desktop/direct3dtools/ibufferobjectdatarequest-requestasync-eventid-dword-bstr-bstr-ibufferobjectdatacallback-ptr-dword-dword"><strong>RequestAsync</strong></a></td><td ><p>要求取得物件的原始內容 (緩衝區、材質、轉譯目標視圖等） ) </p></td></tr></tbody></table>
 
  
 
 ## <a name="requirements"></a>規格需求
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>標頭</p></td><td>Vspixengine。h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>標頭</p></td><td>Vspixengine。h</td></tr></tbody></table>
 
  
 

@@ -24,12 +24,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f7ae74003f798049fbdb34c955db3f64112bfcd2
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e43f3998e1b8f9e7d252a8a4c949d7d083c763a8759d7c9df6aa60c21618e217
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104094096"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119867958"
 ---
 # <a name="win32_terminal-class"></a>Win32 \_ 終端機類別
 
@@ -69,7 +69,7 @@ class Win32_Terminal : CIM_LogicalElement
 
 | 方法                                  | 描述                                                                                                                                                                             |
 |:----------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**創建**](create-win32-terminal.md) | 使用 [**Win32 \_ TerminalSetting**](win32-terminalsetting.md) 類別的屬性和方法，建立具有預設設定的終端機，這些設定可以自訂。<br/> |
+| [**建立**](create-win32-terminal.md) | 使用 [**Win32 \_ TerminalSetting**](win32-terminalsetting.md) 類別的屬性和方法，建立具有預設設定的終端機，這些設定可以自訂。<br/> |
 | [**刪除**](delete-win32-terminal.md) | 刪除指定的終端機。<br/>                                                                                                                                              |
 | [**啟用**](win32-terminal-enable.md) | 停用或啟用終端機。<br/>                                                                                                                                            |
 | [**重新命名**](win32-terminal-rename.md) | 重新命名終端機。<br/>                                                                                                                                                        |
@@ -300,7 +300,7 @@ class Win32_Terminal : CIM_LogicalElement
 
 請注意，與主控台會話相關聯的 Winstations 無法存取此類別的方法和屬性。 如果嘗試將 "Console" 指定為 **TerminalName** 屬性的值，則此物件的方法會傳回 **\_ \_ 不 \_ 支援的 WBEM E**。 如果視窗工作站嘗試呼叫此物件的方法來新增或修改 LocalSystem、LocalService 或 NetworkService 帳戶的安全性屬性，也會傳回此錯誤碼。
 
-若要連接到 \\ 根 \\ CIMV2 \\ microsoft-windows-terminalservices-gateway 命名空間，驗證層級必須包含封包隱私權。 針對 C/c + + 呼叫，這是 **RPC \_ C \_ 驗證 \_ level \_ PKT \_ 隱私權** 的驗證層級。 針對 Visual Basic 和腳本呼叫，這是 **WbemAuthenticationLevelPktPrivacy** 或 "pktPrivacy" 的驗證層級，其值為6。 下列 Visual Basic Scripting Edition (VBScript) 範例示範如何連接到具有封包隱私權的遠端電腦。
+若要連接到 \\ 根 \\ CIMV2 \\ microsoft-windows-terminalservices-gateway 命名空間，驗證層級必須包含封包隱私權。 針對 C/c + + 呼叫，這是 **RPC \_ C \_ 驗證 \_ level \_ PKT \_ 隱私權** 的驗證層級。 針對 Visual Basic 和腳本呼叫，這是 **WbemAuthenticationLevelPktPrivacy** 或 "pktPrivacy" 的驗證層級，其值為6。 下列 Visual Basic 腳本撰寫版 (VBScript) 範例示範如何連接到具有封包隱私權的遠端電腦。
 
 
 ```VB

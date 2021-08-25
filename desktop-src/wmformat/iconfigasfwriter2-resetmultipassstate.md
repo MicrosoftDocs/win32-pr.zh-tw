@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: ed61e4f0517822a602f2bb88c944bba82fa1f943
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 1f10563ed716b6b33258fe57ff8129bff78b401170db1512566015d0b05d54dd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104376292"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119839868"
 ---
 # <a name="iconfigasfwriter2resetmultipassstate-method"></a>IConfigAsfWriter2：： ResetMultiPassState 方法
 
@@ -45,7 +45,7 @@ HRESULT ResetMultiPassState();
 
 
 
-| 傳回碼                                                                                         | Description                                       |
+| 傳回碼                                                                                         | 描述                                       |
 |-----------------------------------------------------------------------------------------------------|---------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>                | 此方法已成功。<br/>                  |
 | <dl> <dt>**VFW \_ E \_ 未 \_ 停止**</dt> </dl> | 篩選未處於已停止狀態。<br/> |

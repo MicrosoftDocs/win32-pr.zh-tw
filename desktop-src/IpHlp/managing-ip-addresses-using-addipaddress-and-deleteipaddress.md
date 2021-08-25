@@ -4,12 +4,12 @@ description: AddIPAddress 函式會將指定的 IPv4 位址加入至指定的介
 ms.assetid: 71cf6b4d-192c-4b2a-b534-be0b3da552f9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 259a18effd95acaa6c0773c07e44088e448f48d6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0e726a2e5785641532abb739d61143f9fabfdd10c38e4b51fcd529f20d92503d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106982409"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119870088"
 ---
 # <a name="manage-ip-addresses-with-addipaddress-deleteipaddress"></a>使用 AddIPAddress、DeleteIPAddress 管理 IP 位址
 

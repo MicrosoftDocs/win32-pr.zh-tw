@@ -1,5 +1,5 @@
 ---
-description: IDxtJpeg 介面會設定「SMPTE 抹除」轉換的屬性。當 DirectShow 編輯服務轉譯了 SMPTE 抹除轉換時，會在內部使用此介面 (DES) 。
+description: IDxtJpeg 介面會設定「SMPTE 抹除」轉換的屬性。此介面會在內部用來 DirectShow 編輯服務 (DES) 轉譯 SMPTE 抹除轉換時使用。
 ms.assetid: ce1920d4-ebe5-42d1-a2eb-d71ddeaf14fe
 title: 'IDxtJpeg 介面 (Qedit .h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: e9c32bee3f4041abaa9529036b7bc78250ac2487
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b1f48ff04c087c0c0c391eaf1a64ae8e7768505a5ba8d108ab49c54ffc7b17f3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106977671"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119997498"
 ---
 # <a name="idxtjpeg-interface"></a>IDxtJpeg 介面
 
@@ -30,7 +30,7 @@ ms.locfileid: "106977671"
 
 `IDxtJpeg`介面會設定「 [SMPTE](smpte-wipe-transition.md)抹除」轉換的屬性。
 
-當 DirectShow 編輯服務轉譯了 SMPTE 抹除轉換時，會在內部使用此介面 (DES) 。 DES 應用程式不需要使用此介面。 若要在 DES 的轉換上設定屬性，請使用 [**IPropertySetter**](ipropertysetter.md) 介面。
+此介面會在內部用來 DirectShow 編輯服務 (DES) 轉譯 SMPTE 抹除轉換時使用。 DES 應用程式不需要使用此介面。 若要在 DES 的轉換上設定屬性，請使用 [**IPropertySetter**](ipropertysetter.md) 介面。
 
 ## <a name="members"></a>成員
 
@@ -83,7 +83,7 @@ ms.locfileid: "106977671"
  
 
 > [!Note]  
-> 若要取得 Qedit，請下載 [適用于 Windows Vista 和 .NET Framework 3.0 的 Microsoft Windows SDK 更新](https://msdn.microsoft.com/windowsvista/bb980924.aspx)。 在 Windows 7 和 .NET Framework 3.5 Service Pack 1 的 Microsoft Windows SDK 中無法使用 Qedit。
+> 若要取得 Qedit，請下載[Windows Vista 和 .NET Framework 3.0 的 Microsoft Windows SDK 更新](https://msdn.microsoft.com/windowsvista/bb980924.aspx)。 Windows 7 和 .NET Framework 3.5 Service Pack 1 的 Microsoft Windows SDK 中無法使用 Qedit。
 
  
 

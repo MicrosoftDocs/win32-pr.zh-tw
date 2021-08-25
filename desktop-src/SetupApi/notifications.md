@@ -45,7 +45,7 @@ MsgHandler(          //the specified callback routine
 
 
 
-| 通知                                                                     | Description                                                                                   |
+| 通知                                                                     | 描述                                                                                   |
 |----------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
 | [**SPFILENOTIFY \_ COPYERROR**](spfilenotify-copyerror.md)                        | 檔案複製作業期間發生錯誤。                                               |
 | [**SPFILENOTIFY \_ DELETEERROR**](spfilenotify-deleteerror.md)                    | 檔案刪除作業期間發生錯誤。                                           |

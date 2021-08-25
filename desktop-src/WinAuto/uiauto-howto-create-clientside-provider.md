@@ -4,12 +4,12 @@ description: 本主題包含範例程式碼，示範如何執行用戶端或 pro
 ms.assetid: 37e54a0f-3d41-4f47-ba73-7f1bf6c365e7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 62a0b32ae60d6364ea6eac18fae991d1d600e61c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7d7623a21681bdb1765d96d89e19b4089b59ab042865dbe5fdd39c37c635e432
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103673751"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119955738"
 ---
 # <a name="how-to-create-a-client-side-proxy-ui-automation-provider"></a>如何) 消費者介面自動化提供者建立 Client-Side (Proxy
 
@@ -72,7 +72,7 @@ HRESULT GetProxyTable()
 
 ## <a name="example-2-implementing-a-simple-proxy-for-button-controls"></a>範例2：針對按鈕控制項執行簡單的 Proxy
 
-下列範例程式碼會針對具有 "Button" 類別名稱的控制項來執行簡單的 proxy，並將 proxy 的專案加入至 proxy factory 資料表。 此範例會使用 [記事本] 的 [字型] 對話方塊來示範 proxy。
+下列範例程式碼會針對具有 "Button" 類別名稱的控制項來執行簡單的 proxy，並將 proxy 的專案加入至 proxy factory 資料表。 此範例使用記事本的 [字型] 對話方塊來示範 proxy。
 
 
 ```C++
@@ -375,9 +375,9 @@ cleanup:
 [消費者介面自動化提供者的使用說明主題](uiauto-howto-topics-for-uiautomation-providers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

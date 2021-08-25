@@ -7,12 +7,12 @@ keywords:
 - 系統還原，起始頁
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e0bdc4555171ad867f6e6b925144d9ed673ffc3
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 4472806aa2c0b6f8a29cc4e687d16e262639a66c65bda37fdca970c6c38b656f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104092892"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120111288"
 ---
 # <a name="system-restore"></a>[系統還原]
 
@@ -31,7 +31,7 @@ ms.locfileid: "104092892"
 
 ## <a name="run-time-requirements"></a>執行階段需求求
 
-自 Windows XP 起的用戶端作業系統支援系統還原 API。 如需有關使用特定 API 專案所需之作業系統的詳細資訊，請參閱其檔的需求一節。
+從 Windows XP 開始的用戶端作業系統支援系統還原 API。 如需有關使用特定 API 專案所需之作業系統的詳細資訊，請參閱其檔的需求一節。
 
 ## <a name="in-this-section"></a>本節內容
 

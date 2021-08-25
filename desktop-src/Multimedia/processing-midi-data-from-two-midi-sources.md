@@ -12,12 +12,12 @@ keywords:
 - 處理來自兩個來源的 MIDI 資料
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 513dcd16036f6f833aec6813f75c6c082925f666
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: f9a5eb31c4c6b4b965321b7458d058a3547426b95236d6e0b52d6eb0f55b3e74
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104023410"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119805788"
 ---
 # <a name="processing-midi-data-from-two-midi-sources"></a>處理來自兩個 MIDI 來源的 MIDI 資料
 
@@ -29,6 +29,6 @@ MIDI 子系統可以將來自兩個數據源的 MIDI 訊息路由傳送到單一
 
 使用 **midiOutShortMsg** 傳送的每個簡短訊息都必須是完整的 MIDI 訊息，其中包含狀態位元組和適當的資料位元組數目。 如果省略狀態位元組， **midiOutShortMsg** 會傳回錯誤。  (不過，沒有資料流程輸出的執行中狀態。 ) 
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ ms.assetid: 46037d53-085d-4fd0-91a0-408702cbfce5
 title: 'EC_COMPLETE (Dshow) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7cd6d548a56173b9c6ea83426ddab3fa8556e312
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7a3bb02275862e2cfaea88de5bad0ae545a257efc4d352506d284b83150032f1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106987134"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119998198"
 ---
 # <a name="ec_complete"></a>EC \_ 完成
 

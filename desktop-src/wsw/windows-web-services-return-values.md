@@ -1,5 +1,5 @@
 ---
-title: Windows Web 服務傳回值
+title: WindowsWeb 服務傳回值
 ms.assetid: 96285557-8317-4875-b634-e2eacd605901
 description: 深入瞭解： Windows Web 服務傳回值
 topic_type:
@@ -11,20 +11,20 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 08b31fc63d36682551292a64ba419eb13fe9987d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c27b7fe6f9f63da04984d829fbfd64b9327f55eff9eefcdda5d1e7e9df189d4a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320115"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120109738"
 ---
-# <a name="windows-web-services-return-values"></a>Windows Web 服務傳回值
+# <a name="windows-web-services-return-values"></a>WindowsWeb 服務傳回值
 
 Windows Web 服務 API 通常會傳回下列程式碼：
 
 
 
-| 傳回碼/值                                                                                                                                                                                                                                                                                   | Description                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| 傳回碼/值                                                                                                                                                                                                                                                                                   | 描述                                                                                                                                                                                                                                                                                                                                                                                                                    |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="CERT_E_CN_NO_MATCH"></span><span id="cert_e_cn_no_match"></span><dl> <dt>**CERT \_E \_ CN \_ 沒有 \_ 相符**</dt>的 <dt>0X800B010F</dt> </dl>                                                     | 憑證的一般名稱不符合應用程式所指定的值。<br/>                                                                                                                                                                                                                                                                                                                           |
 | <span id="CERT_E_EXPIRED"></span><span id="cert_e_expired"></span><dl> <dt>**CERT \_E 已 \_ 過期**</dt> <dt>0X800B0101</dt> </dl>                                                                   | 憑證已過期或尚未生效。<br/>                                                                                                                                                                                                                                                                                                                                                             |

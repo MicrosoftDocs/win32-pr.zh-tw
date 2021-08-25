@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Kernel32.dll
-ms.openlocfilehash: 7f22d7ceb59732e986c23c873133b11f358364cd
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3f754d4c0e88ee860d112a6fb99d15c2690af0014951e77425d425b65ad16e39
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106989276"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119929108"
 ---
 # <a name="thunkconnect32-function"></a>ThunkConnect32 函式
 

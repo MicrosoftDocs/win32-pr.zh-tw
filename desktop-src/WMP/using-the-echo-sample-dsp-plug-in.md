@@ -10,12 +10,12 @@ keywords:
 - Echo DSP 外掛程式範例，測試
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c47746f9e09db7b6cd0b93ec4eac74afaaba278b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9e0757988f5b6d06c3566be5cae12e4b472ab694786c75cce2170638e3e69eb5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106993720"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120001548"
 ---
 # <a name="using-the-echo-sample-dsp-plug-in"></a>使用 Echo 範例 DSP 外掛程式
 
@@ -30,9 +30,9 @@ ms.locfileid: "106993720"
 [**Echo 範例**](the-echo-sample.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

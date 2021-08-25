@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: a3a55f7b0a9527092e51156d55c7513ee59c4861
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 2c6cb636a644ba9d67bb6165163b297257af83753a1bcae77a0aa53f8731ffa3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847326"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119752298"
 ---
 # <a name="stopservice-method-of-the-cim_clusteringservice-class"></a>CIM ClusteringService 類別的 StopService 方法 \_
 

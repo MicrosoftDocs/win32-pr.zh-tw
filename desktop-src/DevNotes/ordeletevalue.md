@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Offreg.dll
-ms.openlocfilehash: 426765950fd38cbb3e3c99f4001db2965ddb07e3
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 717464b1ba44593a9b36ccf26e5df248cb95df9bfa40a7786896c87041e246d3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995454"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120045288"
 ---
 # <a name="ordeletevalue-function"></a>ORDeleteValue 函式
 
@@ -68,7 +68,7 @@ DWORD ORDeleteValue(
 
 | 需求 | 值 |
 |----------------------------|---------------------------------------------------------------------------------------|
-| 可轉散發套件<br/> | Windows Offline Registry library 1.0 版或更新版本<br/>                      |
+| 可轉散發套件<br/> | Windows離線登錄庫1.0 版或更新版本<br/>                      |
 | 標頭<br/>          | <dl> <dt>Offreg。h</dt> </dl>   |
 | DLL<br/>             | <dl> <dt>Offreg.dll</dt> </dl> |
 

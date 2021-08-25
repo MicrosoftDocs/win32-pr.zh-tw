@@ -4,19 +4,19 @@ ms.assetid: CBC31132-046C-4CD7-9DBA-20A9C666FB43
 title: 杜比數位音訊編碼器
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f901587b816bc17d62f4095e093b661ce55f0009
-ms.sourcegitcommit: 88049609e29f91a42442235885abf56f598b06b3
+ms.openlocfilehash: 84d14a434481a94021617f04e4cb9e10329ad20a
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "110153561"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122483094"
 ---
 # <a name="dolby-digital-audio-encoder"></a>杜比數位音訊編碼器
 
 杜比音訊編碼器是 [媒體基礎轉換](media-foundation-transforms.md) (MFT) 將 mono 或身歷聲音訊編碼為杜比數位，也稱為杜比 AC-3。 編碼器不支援多重通道輸入，例如5.1 通道設定。
 
 > [!IMPORTANT]
-> 在 Windows 8 之前的 Windows 版本中，Microsoft 應用程式所使用的杜比數位授權方案會限制 Microsoft 的杜比數位技術。
+> 在 Windows 8 之前的 Windows 版本中，microsoft 應用程式所使用的杜比數位授權方案會限制 microsoft 的杜比數位技術。
 
  
 
@@ -32,57 +32,16 @@ ms.locfileid: "110153561"
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>屬性</th>
-<th>描述</th>
-<th>備註</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="mf-mt-major-type-attribute.md">MF_MT_MAJOR_TYPE</a></td>
-<td>主要類型。</td>
-<td>必要。 必須是 <strong>MFMediaType_Audio</strong>。</td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-subtype-attribute.md">MF_MT_SUBTYPE</a></td>
-<td>音訊子類型。</td>
-<td>必要。 必須是 <strong>MFAudioFormat_Dolby_AC3</strong>。</td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-audio-samples-per-second-attribute.md">MF_MT_AUDIO_SAMPLES_PER_SECOND</a></td>
-<td>每秒樣本數。</td>
-<td>必要。 支援下列值：
-<ul>
-<li>32000</li>
-<li>44100</li>
-<li>48000</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-audio-num-channels-attribute.md">MF_MT_AUDIO_NUM_CHANNELS</a></td>
-<td>通道數目。</td>
-<td>必要。 必須是 1 (mono) 或 2 (身歷聲) 。</td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-audio-channel-mask-attribute.md">MF_MT_AUDIO_CHANNEL_MASK</a></td>
-<td>指定喇叭位置的音訊通道指派。</td>
-<td>選擇性。 如果設定，則值必須是 0x3 (front 左方和右聲道) 或 0x4 (front center 頻道) 。</td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-audio-avg-bytes-per-second-attribute.md">MF_MT_AUDIO_AVG_BYTES_PER_SECOND</a></td>
-<td>編碼的 AC-3 串流的位元速率（以每秒位元組數為單位）。</td>
-<td>選擇性。 請參閱備註中的有效值。 如果未設定此屬性，則編碼器會使用預設的位元速率，如備註中所述。</td>
-</tr>
-</tbody>
-</table>
+
+| 屬性 | 描述 | 備註 | 
+|-----------|-------------|---------|
+| <a href="mf-mt-major-type-attribute.md">MF_MT_MAJOR_TYPE</a> | 主要類型。 | 必要。 必須是 <strong>MFMediaType_Audio</strong>。 | 
+| <a href="mf-mt-subtype-attribute.md">MF_MT_SUBTYPE</a> | 音訊子類型。 | 必要。 必須是 <strong>MFAudioFormat_Dolby_AC3</strong>。 | 
+| <a href="mf-mt-audio-samples-per-second-attribute.md">MF_MT_AUDIO_SAMPLES_PER_SECOND</a> | 每秒樣本數。 | 必要。 支援下列值：<ul><li>32000</li><li>44100</li><li>48000</li></ul> | 
+| <a href="mf-mt-audio-num-channels-attribute.md">MF_MT_AUDIO_NUM_CHANNELS</a> | 通道數目。 | 必要。 必須是 1 (mono) 或 2 (身歷聲) 。 | 
+| <a href="mf-mt-audio-channel-mask-attribute.md">MF_MT_AUDIO_CHANNEL_MASK</a> | 指定喇叭位置的音訊通道指派。 | 選擇性。 如果設定，則值必須是 0x3 (front 左方和右聲道) 或 0x4 (front center 頻道) 。 | 
+| <a href="mf-mt-audio-avg-bytes-per-second-attribute.md">MF_MT_AUDIO_AVG_BYTES_PER_SECOND</a> | 編碼的 AC-3 串流的位元速率（以每秒位元組數為單位）。 | 選擇性。 請參閱備註中的有效值。 如果未設定此屬性，則編碼器會使用預設的位元速率，如備註中所述。 | 
+
 
 
 
@@ -96,71 +55,19 @@ ms.locfileid: "110153561"
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>屬性</th>
-<th>描述</th>
-<th>備註</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="mf-mt-major-type-attribute.md">MF_MT_MAJOR_TYPE</a></td>
-<td>主要類型。</td>
-<td>必要。 必須是 <strong>MFMediaType_Audio</strong>。</td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-subtype-attribute.md">MF_MT_SUBTYPE</a></td>
-<td>音訊子類型。</td>
-<td>必要。 必須是 <strong>MFAudioFormat_PCM</strong> 或 <strong>MFAudioFormat_Float</strong>。</td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-audio-bits-per-sample-attribute.md">MF_MT_AUDIO_BITS_PER_SAMPLE</a></td>
-<td>每個音訊樣本的位數數目。</td>
-<td>必要。 如果子類型為 <strong>MFAudioFormat_PCM</strong>，則值必須是16，如果是 <strong>MFAudioFormat_Float</strong>子類型，則為32。</td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-audio-samples-per-second-attribute.md">MF_MT_AUDIO_SAMPLES_PER_SECOND</a></td>
-<td>每秒樣本數。</td>
-<td>必要。 必須符合輸出類型。</td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-audio-num-channels-attribute.md">MF_MT_AUDIO_NUM_CHANNELS</a></td>
-<td>通道數目。</td>
-<td>必要。 必須符合輸出類型。</td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-audio-block-alignment-attribute.md">MF_MT_AUDIO_BLOCK_ALIGNMENT</a></td>
-<td>區塊對齊（以位元組為單位）。</td>
-<td>必要。 計算值，如下所示：
-<ul>
-<li><strong>MFAudioFormat_PCM</strong>：通道數目×2。</li>
-<li><strong>MFAudioFormat_Float</strong>：通道數目×4。</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-audio-avg-bytes-per-second-attribute.md">MF_MT_AUDIO_AVG_BYTES_PER_SECOND</a></td>
-<td>編碼 AC3 資料流程的位元速率（以每秒位元組數為單位）。</td>
-<td>必要。 每秒必須等於區塊對齊×樣本。</td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-audio-channel-mask-attribute.md">MF_MT_AUDIO_CHANNEL_MASK</a></td>
-<td>指定喇叭位置的音訊通道指派。</td>
-<td>選擇性。 如果設定，則值必須符合輸出類型。</td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-audio-valid-bits-per-sample-attribute.md">MF_MT_AUDIO_VALID_BITS_PER_SAMPLE</a></td>
-<td>每個音訊樣本中音訊資料的有效位數。</td>
-<td>選擇性。 如果設定，此值必須等同于 <a href="mf-mt-audio-bits-per-sample-attribute.md">MF_MT_AUDIO_BITS_PER_SAMPLE</a>。</td>
-</tr>
-</tbody>
-</table>
+
+| 屬性 | 描述 | 備註 | 
+|-----------|-------------|---------|
+| <a href="mf-mt-major-type-attribute.md">MF_MT_MAJOR_TYPE</a> | 主要類型。 | 必要。 必須是 <strong>MFMediaType_Audio</strong>。 | 
+| <a href="mf-mt-subtype-attribute.md">MF_MT_SUBTYPE</a> | 音訊子類型。 | 必要。 必須是 <strong>MFAudioFormat_PCM</strong> 或 <strong>MFAudioFormat_Float</strong>。 | 
+| <a href="mf-mt-audio-bits-per-sample-attribute.md">MF_MT_AUDIO_BITS_PER_SAMPLE</a> | 每個音訊樣本的位數數目。 | 必要。 如果子類型為 <strong>MFAudioFormat_PCM</strong>，則值必須是16，如果是 <strong>MFAudioFormat_Float</strong>子類型，則為32。 | 
+| <a href="mf-mt-audio-samples-per-second-attribute.md">MF_MT_AUDIO_SAMPLES_PER_SECOND</a> | 每秒樣本數。 | 必要。 必須符合輸出類型。 | 
+| <a href="mf-mt-audio-num-channels-attribute.md">MF_MT_AUDIO_NUM_CHANNELS</a> | 通道數目。 | 必要。 必須符合輸出類型。 | 
+| <a href="mf-mt-audio-block-alignment-attribute.md">MF_MT_AUDIO_BLOCK_ALIGNMENT</a> | 區塊對齊（以位元組為單位）。 | 必要。 計算值，如下所示：<ul><li><strong>MFAudioFormat_PCM</strong>：通道數目×2。</li><li><strong>MFAudioFormat_Float</strong>：通道數目×4。</li></ul> | 
+| <a href="mf-mt-audio-avg-bytes-per-second-attribute.md">MF_MT_AUDIO_AVG_BYTES_PER_SECOND</a> | 編碼 AC3 資料流程的位元速率（以每秒位元組數為單位）。 | 必要。 每秒必須等於區塊對齊×樣本。 | 
+| <a href="mf-mt-audio-channel-mask-attribute.md">MF_MT_AUDIO_CHANNEL_MASK</a> | 指定喇叭位置的音訊通道指派。 | 選擇性。 如果設定，則值必須符合輸出類型。 | 
+| <a href="mf-mt-audio-valid-bits-per-sample-attribute.md">MF_MT_AUDIO_VALID_BITS_PER_SAMPLE</a> | 每個音訊樣本中音訊資料的有效位數。 | 選擇性。 如果設定，此值必須等同于 <a href="mf-mt-audio-bits-per-sample-attribute.md">MF_MT_AUDIO_BITS_PER_SAMPLE</a>。 | 
+
 
 
 
@@ -238,7 +145,7 @@ ms.locfileid: "110153561"
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 8 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                       |
+| 最低支援的用戶端<br/> | Windows 8 \[桌面應用程式 \| UWP 應用程式\]<br/>                                       |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                               |
 | DLL<br/>                      | <dl> <dt>Msac3enc.dll</dt> </dl> |
 

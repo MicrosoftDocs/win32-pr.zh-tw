@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: 95aea5281f77b32868e0f0856bc63063e4f08639
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5c4a7332580d4e9a9fece5a66d390753566fbf54c615699663256c463cb401b5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107000436"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119791998"
 ---
 # <a name="imediadetgetbitmapbits-method"></a>IMediaDet：： GetBitmapBits 方法
 
@@ -90,7 +90,7 @@ HRESULT GetBitmapBits(
 
 
 
-| 傳回碼                                                                                             | Description                                                                                       |
+| 傳回碼                                                                                             | 描述                                                                                       |
 |---------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>                    | 成功。<br/>                                                                               |
 | <dl> <dt>**E \_ NOINTERFACE**</dt> </dl>           | 無法將 [**範例捕獲**](sample-grabber-filter.md) 篩選新增至圖形。<br/> |
@@ -117,7 +117,7 @@ HRESULT GetBitmapBits(
  
 
 > [!Note]  
-> 若要取得 Qedit，請下載 [適用于 Windows Vista 和 .NET Framework 3.0 的 Microsoft Windows SDK 更新](https://msdn.microsoft.com/windowsvista/bb980924.aspx)。 在 Windows 7 和 .NET Framework 3.5 Service Pack 1 的 Microsoft Windows SDK 中無法使用 Qedit。
+> 若要取得 Qedit，請下載[Windows Vista 和 .NET Framework 3.0 的 Microsoft Windows SDK 更新](https://msdn.microsoft.com/windowsvista/bb980924.aspx)。 Windows 7 和 .NET Framework 3.5 Service Pack 1 的 Microsoft Windows SDK 中無法使用 Qedit。
 
  
 

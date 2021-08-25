@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: db0de399ab1be7808370a6d0da57c4c3ca7b8de1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6035b65d6bf292f6ca35c4323ac5ad90c747b0cfd4bfa756b1f054d7b693d998
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106993285"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119998388"
 ---
 # <a name="deletemediatype-function"></a>DeleteMediaType 函式
 
@@ -57,7 +57,7 @@ void WINAPI DeleteMediaType(
 
 使用此函式釋放使用 [**CoTaskMemAlloc**](/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc) 或 [**CreateMediaType**](createmediatype.md)所配置的任何媒體類型結構。
 
-此函式定義于 [DirectShow 基底類別](directshow-base-classes.md) 庫中。 如果您不想要連結至基底類別庫，您可以使用下列程式碼：
+這個函式是在[DirectShow 基類](directshow-base-classes.md)程式庫中定義。 如果您不想要連結至基底類別庫，您可以使用下列程式碼：
 
 
 ```C++

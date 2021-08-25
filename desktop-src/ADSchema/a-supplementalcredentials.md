@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e19a73b3ae3cf19745fc995a59c336b72d264e78
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: c677e3f8f7c290dddc00b1754c611f68d778e6539086f3c5c6a0f2a0e9af8775
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104509576"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119836078"
 ---
 # <a name="supplemental-credentials-attribute"></a>Supplemental-Credentials 屬性
 

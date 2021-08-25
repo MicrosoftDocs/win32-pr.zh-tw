@@ -4,12 +4,12 @@ description: MethodReturnedUnexpectedHResult
 ms.assetid: CDDB4792-363F-4A4E-95BC-73D9AF95DF7E
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 94ac11abd93291faf18fc333b7b48390d4c7daaf
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d94dc359f888b2a630b3f0982fe31f54394fb7d20f6f2ba0a6b55917d9926151
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103674964"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119998318"
 ---
 # <a name="methodreturnedunexpectedhresult"></a>MethodReturnedUnexpectedHResult
 
@@ -36,9 +36,9 @@ ms.locfileid: "103674964"
 [**IAccessible：： get \_ accChild**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accchild)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

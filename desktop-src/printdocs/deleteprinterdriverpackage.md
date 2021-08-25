@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - Spoolss.dll
-ms.openlocfilehash: 54d1cda53795f4feab60e397ce7e38402f22374f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d7247f4f0ef4d1f77f00664792d0b7b36bc991b19d437017b54db676731ccc70
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106991858"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120112548"
 ---
 # <a name="deleteprinterdriverpackage-function"></a>DeletePrinterDriverPackage 函式
 
@@ -85,7 +85,7 @@ HRESULT \_ 程式碼 (錯誤 \_ 列印 \_ 驅動程式 \_ 封裝 \_ 在 \_ 使�
 
 驅動程式存放區通常是% windir% \\ inf 或% windir% \\ System32 \\ DriverStore \\ FileRepository。
 
-使用此功能時，無法移除隨附于 Windows 的驅動程式套件。
+無法使用此函式移除隨附于 Windows 的驅動程式套件。
 
 使用者必須具備印表機管理許可權。
 
@@ -95,9 +95,9 @@ HRESULT \_ 程式碼 (錯誤 \_ 列印 \_ 驅動程式 \_ 封裝 \_ 在 \_ 使�
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                            |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                                      |
-| 標頭<br/>                   | <dl> <dt>Winspool.drv (包含) 的 Windows。h </dt> </dl> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                            |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                                      |
+| 標頭<br/>                   | <dl> <dt>winspool.drv (包含 Windows .h) </dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>Winspool.drv .lib</dt> </dl>                   |
 | DLL<br/>                      | <dl> <dt>Spoolss.dll</dt> </dl>                    |
 | Unicode 與 ANSI 名稱<br/>   | **DeletePrinterDriverPackageW** (Unicode) 和 **DeletePrinterDriverPackageA** (ANSI) <br/>           |

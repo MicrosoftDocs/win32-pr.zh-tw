@@ -4,12 +4,12 @@ ms.assetid: 1c26509d-5bb6-42dc-aeb0-525d7eaecf7d
 title: 範例 C 程式：憑證驗證作業
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1efdbaaea172b24448ad2b15b03ee19c6dc7a445
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 19a50b8e9f89d761498eba87964dfb6e38f3d27c09d940c9cddda35682a944c9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975376"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119873968"
 ---
 # <a name="example-c-program-certificate-verification-operations"></a>範例 C 程式：憑證驗證作業
 

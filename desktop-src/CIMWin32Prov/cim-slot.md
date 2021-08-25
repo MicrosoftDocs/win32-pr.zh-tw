@@ -41,12 +41,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 73a63c8cd200096aa132d8205691669d765e54f2
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 910fb4a3dcd5d3d95ef524d838781bad8331d33d71fc0af8ebd358ac9dd9588e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104468501"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119919458"
 ---
 # <a name="cim_slot-class"></a>CIM \_ 插槽類別
 
@@ -490,7 +490,7 @@ VESA
 47
 </dt> <dd>
 
-Pcmcia
+PCMCIA
 
 </dd> <dt>
 
@@ -672,7 +672,7 @@ Mini-Centronics 類型-26
 73
 </dt> <dd>
 
-Agp
+AGP
 
 </dd> <dt>
 
@@ -1008,7 +1008,7 @@ VHDCI 防護 (68 pin)
 121
 </dt> <dd>
 
-InfiniBand
+Infiniband
 
 </dd> </dl>
 

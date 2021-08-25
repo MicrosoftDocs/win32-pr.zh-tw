@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: d19cd5b98ce39470860cc481ab05e4bb41adc9a4
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 21bafde8c148ea8249672dd26a244dec152ed0e9fc5ce5fbb769e5cae6c92b74
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108083722"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120008888"
 ---
 # <a name="shellshowbrowserbar-method"></a>ShowBrowserBar 方法
 
@@ -104,9 +104,9 @@ Microsoft Visual Basic 目前無法使用這個方法。
 
 ## <a name="examples"></a>範例
 
-下列範例示範如何使用 **ShowBrowserBar** 來顯示 [我的最愛 **]** 瀏覽器列。 JScript 和 VBScript 會顯示使用方式。
+下列範例示範如何使用 **ShowBrowserBar** 來顯示 [我的最愛 **]** 瀏覽器列。 JScript 和 VBScript 都會顯示使用方式。
 
-Jscript：
+JScript：
 
 
 ```JScript
@@ -149,10 +149,10 @@ VBScript
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 windows 2000 Professional、Windows XP \[ desktop 應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                          |
+| 最低支援的用戶端<br/> | Windows 2000 Professional，僅 Windows XP \[ desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                          |
 | 標頭<br/>                   | <dl> <dt>Shldisp。h</dt> </dl>                          |
-| Idl<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl>                        |
+| IDL<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl>                        |
 | DLL<br/>                      | <dl> <dt>Shell32.dll (5.0 版或更新版本) </dt> </dl> |
 
 

@@ -4,12 +4,12 @@ ms.assetid: 9bab0e43-6e9f-4cdb-bfd0-cdafcc12d526
 title: 匯入驅動程式公開金鑰
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 222b9c62bd9babe0a01a0e6a9b3a50747ab3b039
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: eebaa4d2d6b5de54eec5ef40070c5ecfb805494a2e937cbbc709f4e44656f55f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103846499"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120042841"
 ---
 # <a name="importing-the-drivers-public-key"></a>匯入驅動程式公開金鑰
 

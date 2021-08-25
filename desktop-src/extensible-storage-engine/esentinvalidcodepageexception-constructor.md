@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 6f673e9c01a2d2442558aea80c7721a71af1205b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fe47c38c61077cca759b86a735a65e5c5362ebf5f8496c8ecf38e7154c0ab8d3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104195534"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119837529"
 ---
 # <a name="esentinvalidcodepageexception-constructor"></a>EsentInvalidCodePageException 函式
 

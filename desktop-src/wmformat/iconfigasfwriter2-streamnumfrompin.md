@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: c63a31d515e70b0ee0ac5be617ee52fe23bd5416
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 9124d3acaea81e36b212f3dec001374cc035efca449f35af5e43fa18ce50d6dd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104375588"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119839819"
 ---
 # <a name="iconfigasfwriter2streamnumfrompin-method"></a>IConfigAsfWriter2：： StreamNumFromPin 方法
 
@@ -31,8 +31,8 @@ ms.locfileid: "104375588"
 
 ```C++
 HRESULT StreamNumFromPin(
-  [in]  IPin *pPin,
-  [out] WORD *pwStreamNum
+  [in]  IPin *pPin,
+  [out] WORD *pwStreamNum
 );
 ```
 
@@ -62,7 +62,7 @@ HRESULT StreamNumFromPin(
 
 ## <a name="remarks"></a>備註
 
-有時，您可能需要直接使用 Windows Media Format SDK 介面來運算元據流，才能執行篩選圖形。 因為您無法假設 ASF 串流號碼與 DirectShow pin 碼相同，所以會提供這個方法。
+有時您可能需要直接使用 Windows 媒體格式 SDK 介面，以在執行篩選圖形之前操控資料流程。 因為您無法假設 ASF 資料流程號碼與 DirectShow pin 號碼相同，所以會提供這個方法。
 
 ## <a name="see-also"></a>另請參閱
 
@@ -71,6 +71,6 @@ HRESULT StreamNumFromPin(
 [**IConfigAsfWriter2 介面**](/previous-versions/windows/desktop/legacy/dd743206(v=vs.85))
 </dt> </dl>
 
- 
+ 
 
- 
+ 

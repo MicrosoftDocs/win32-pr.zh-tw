@@ -1,9 +1,9 @@
 ---
-title: WM/編輯器屬性
-description: WM/編輯器屬性是音樂編輯器的名稱。
+title: WM/Composer 屬性
+description: WM/Composer 屬性是音樂編輯器的名稱。
 ms.assetid: 48459027-ed80-46a2-ad5c-ace602144150
 keywords:
-- WM/編輯器屬性 Windows Media Player
+- WM/Composer 屬性 Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -12,23 +12,23 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a2f206b1a23126612f3f7c875b9a9b4badca8339
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f41e92e1f343ecbd532769560a6d2d555c275e147ab2386ae574c2dea8bc411c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106992575"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120001168"
 ---
-# <a name="wmcomposer-attribute"></a>WM/編輯器屬性
+# <a name="wmcomposer-attribute"></a>WM/Composer 屬性
 
-**WM/編輯器** 屬性是音樂編輯器的名稱。
+**WM/Composer** 屬性是音樂編輯器的名稱。
 
 ## <a name="applies-to"></a>套用至
 
 -   [音訊專案](audio-item-attributes.md)
 -   [CD 播放清單](cd-playlist-attributes.md)
 -   [CD 曲目](cd-track-attributes.md)
--   [常用的 Windows Media 檔案屬性](commonly-used-windows-media-file-attributes.md)
+-   [常用 Windows 媒體檔案屬性](commonly-used-windows-media-file-attributes.md)
 
 ## <a name="remarks"></a>備註
 
@@ -36,9 +36,9 @@ ms.locfileid: "106992575"
 
 這個屬性可以有多個值。 若要取得多重值屬性的所有值，您必須使用 **getItemInfoByType** 方法，而不是 **getItemInfo** 方法。
 
-**編輯器** 是這個屬性的別名。
+**Composer** 是這個屬性的別名。
 
-這個屬性的 Windows Media Format SDK 常數是 g \_ wszWMComposer。
+這個屬性的 Windows 媒體格式 SDK 常數是 g \_ wszWMComposer。
 
 若要判斷是否可以變更這個屬性的值，請使用 [isReadOnlyItem](media-isreadonlyitem.md) 方法。
 

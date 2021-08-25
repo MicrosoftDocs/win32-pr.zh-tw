@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: e52007f8953d6926e6eee277001d7ba41797161d
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 3648be71cded740a1aae01e325a525d94baa9cec
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104510049"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122622554"
 ---
 # <a name="span-idvspixengineipixelhistoryrequestspanipixelhistoryrequest-interface"></a><span id="vspixengine.ipixelhistoryrequest"></span>IPixelHistoryRequest 介面
 
@@ -38,13 +38,13 @@ ms.locfileid: "104510049"
 
 **IPixelHistoryRequest** 介面具有這些方法。
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">方法</th><th style="text-align: left;">描述</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/ipixelhistoryrequest-requestasync-dword-point2d-dword-ipixelhistorycallback-ptr-dword-dword"><strong>RequestAsync</strong></a></td><td style="text-align: left;"><p>要求圖元歷程記錄的清單會產生指定的圖元、轉譯目標/UAV 和框架。</p></td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th style="text-align: left;">方法</th><th style="text-align: left;">描述</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/ipixelhistoryrequest-requestasync-dword-point2d-dword-ipixelhistorycallback-ptr-dword-dword"><strong>RequestAsync</strong></a></td><td style="text-align: left;"><p>要求圖元歷程記錄的清單會產生指定的圖元、轉譯目標/UAV 和框架。</p></td></tr></tbody></table>
 
  
 
 ## <a name="requirements"></a>規格需求
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>標頭</p></td><td>Vspixengine。h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>標頭</p></td><td>Vspixengine。h</td></tr></tbody></table>
 
  
 

@@ -15,21 +15,21 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 35120be9a26dcbdc8d012cd12c871ddcf8f71555
-ms.sourcegitcommit: 168d11879cb9fd89d26f826482725c0a626be00f
+ms.openlocfilehash: f341f88a192fee6de55e0077778abde83493e35e
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "106974901"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122482274"
 ---
 # <a name="jet_err"></a>JET_ERR
 
 
-_**適用于：** Windows |Windows Server_
+_**適用于：** Windows |Windows伺服器_
 
 ## <a name="jet_err"></a>JET_ERR
 
-**JET_ERR** 資料類型包含可延伸的 [儲存引擎錯誤碼](./extensible-storage-engine-error-codes.md)。
+**JET_ERR** 資料類型包含可擴充的 [儲存體引擎錯誤碼](./extensible-storage-engine-error-codes.md)。
 
 ```cpp
 typedef long JET_ERR;
@@ -43,34 +43,17 @@ JET_ERR
 
 ### <a name="remarks"></a>備註
 
-如需以 Hresult 傳回錯誤的相關資訊，請參閱可延伸 [儲存引擎錯誤](./extensible-storage-engine-errors.md)。 如需有關設定資料庫以處理錯誤之旗標的詳細資訊，請參閱 [錯誤處理參數](./error-handling-parameters.md)。
+如需以 Hresult 傳回錯誤的相關資訊，請參閱可延伸的[儲存體引擎錯誤](./extensible-storage-engine-errors.md)。 如需有關設定資料庫以處理錯誤之旗標的詳細資訊，請參閱 [錯誤處理參數](./error-handling-parameters.md)。
 
 ### <a name="requirements"></a>規格需求
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>用戶端</strong></p></td>
-<td><p>需要 Windows Vista、Windows XP 或 Windows 2000 Professional。</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>伺服器</strong></p></td>
-<td><p>需要 Windows Server 2008、Windows Server 2003 或 Windows 2000 Server。</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>標頭</strong></p></td>
-<td><p>宣告于 Esent. h 中。</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p><strong>用戶端</strong></p> | <p>需要 Windows Vista、Windows XP 或 Windows 2000 Professional。</p> | | <p><strong>伺服器</strong></p> | <p>需要 Windows server 2008、Windows Server 2003 或 Windows 2000 Server。</p> | | <p><strong>標頭</strong></p> | <p>宣告于 Esent. h 中。</p> | 
+
 
 
 ### <a name="see-also"></a>另請參閱
 
-[可擴充儲存引擎錯誤](./extensible-storage-engine-errors.md)  
-[可擴充儲存引擎錯誤碼](./extensible-storage-engine-error-codes.md)  
+[可擴充的儲存體引擎錯誤](./extensible-storage-engine-errors.md)  
+[可擴充的儲存體引擎錯誤碼](./extensible-storage-engine-error-codes.md)  
 [錯誤處理參數](./error-handling-parameters.md)

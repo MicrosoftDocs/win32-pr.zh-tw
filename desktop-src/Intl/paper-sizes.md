@@ -4,16 +4,16 @@ ms.assetid: a685b9c1-1c94-4d67-93db-40a259e4923a
 title: 紙張大小
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0871bfe3799a4f6644f978da5ce92aff28f8a646
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4d264831f9ac34bb802e603ddaf4b7bf6f9133b6354cf25e7d3a8f5f5400fd9f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847960"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120040688"
 ---
 # <a name="paper-sizes"></a>紙張大小
 
-**Windows 2000：** 本主題定義與 [地區設定 \_ IPAPERSIZE](locale-ipapersize.md) 常數相關聯的 NLS 紙張大小類型，指出地區設定的預設紙張大小。
+**Windows 2000：** 本主題定義與 [地區設定 \_ IPAPERSIZE](locale-ipapersize.md)常數相關聯的 NLS 紙張大小類型，指出地區設定的預設紙張大小。
 
 下表列出地區設定 IPAPERSIZE 的所有定義 \_ 型別，其中 DMPAPER \_ LETTER、DMPAPER \_ 法律聲明、DMPAPER \_ A3 和 DMPAPER \_ A4 是最常見的類型。 資料表中顯示的所有類型都是保留的。 請注意，紙張大小類型無法彼此結合。
 

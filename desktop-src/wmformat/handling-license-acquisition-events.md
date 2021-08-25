@@ -3,8 +3,8 @@ title: 處理授權取得事件
 description: 處理授權取得事件
 ms.assetid: e118bf09-1fa6-41b6-a6bb-3e8cb6097994
 keywords:
-- Windows Media Format SDK，處理授權取得事件
-- Windows Media Format SDK，授權取得事件
+- Windows媒體格式 SDK，處理授權取得事件
+- Windows媒體格式 SDK，授權取得事件
 - Advanced Systems Format (ASF) ，處理授權取得事件
 - ASF (Advanced Systems Format) ，處理授權取得事件
 - Advanced Systems Format (ASF) 、授權取得事件
@@ -15,12 +15,12 @@ keywords:
 - DRM (數位版權管理) 、授權取得事件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d5e31fd5b108f41d5b0925918fdf1c83764bcf7e
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: ff7eab9afe85d4e58ae422134e5268c5b411058cf5048f774994b0cc02b173fd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104374470"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120006708"
 ---
 # <a name="handling-license-acquisition-events"></a>處理授權取得事件
 
@@ -60,7 +60,7 @@ ms.locfileid: "104374470"
 
 如果已取得 **hr** 等於 NS \_ S \_ \_ 的 DRM 授權，則 \_ 會取得授權，而且應用程式可以嘗試播放該檔案，或將它複製到裝置，或執行任何已要求許可權的動作。
 
-在 Windows XP 上引進了新的錯誤碼： NS \_ E \_ DRM \_ LICENSE \_ NOTACQUIRED。 每當 Windows XP 上的 Windows Media Format 執行時間元件無法在無訊息授權取得期間取得授權時，就會產生此錯誤碼。 在其他平臺上， \_ \_ \_ \_ \_ 當授權取得失敗時，通常會傳回 NS E DRM 授權存放區錯誤。 新的錯誤碼旨在區別授權取得失敗，以及 \_ 產生 NS E \_ DRM \_ 授權 \_ 存放區 \_ 錯誤的其他失敗情況。
+在 Windows XP 中，引進了新的錯誤碼： NS \_ E \_ DRM \_ LICENSE \_ NOTACQUIRED。 每當 Windows XP 上的 Windows 媒體格式執行時間元件無法在無訊息授權取得期間取得授權時，就會產生此錯誤碼。 在其他平臺上， \_ \_ \_ \_ \_ 當授權取得失敗時，通常會傳回 NS E DRM 授權存放區錯誤。 新的錯誤碼旨在區別授權取得失敗，以及 \_ 產生 NS E \_ DRM \_ 授權 \_ 存放區 \_ 錯誤的其他失敗情況。
 
 下列程式碼片段會顯示在無訊息授權取得嘗試之後傳回這些錯誤的建議方式：
 
@@ -90,7 +90,7 @@ else
 > [!Note]  
 > 此 SDK 的 x64 版本不支援 DRM。
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -99,9 +99,9 @@ else
 [**讀取受保護的檔案**](reading-protected-files.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

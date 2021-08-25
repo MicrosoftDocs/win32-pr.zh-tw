@@ -4,12 +4,12 @@ description: 本章節包含與分頁控制項搭配使用之程式設計項目�
 ms.assetid: vs|controls|~\controls\pager\reflist.htm
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 21df98100ed649e4237c51bfcabf41420c49d004
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 45bf9860c9e1dd1d565b24c7bbfc02e46480198f5bdea03717288abc83591a7c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "106966478"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119914768"
 ---
 # <a name="pager"></a>呼叫器
 

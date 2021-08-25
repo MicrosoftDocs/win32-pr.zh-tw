@@ -4,12 +4,12 @@ description: 本節中的主題提供的範例顯示如何完成筆刷相關的�
 ms.assetid: b0756896-40b7-47a3-be8e-8ab100b022a5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6b071228eb28fdd7746c9f9f80bffefd800e84f6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2bf8d7b6bf1d51edda3610e25c83ea778cd6df2e104d27c3525885a1c23a1886
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372417"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119929098"
 ---
 # <a name="brushes-how-to-topics"></a>筆刷 HOW TO 主題
 

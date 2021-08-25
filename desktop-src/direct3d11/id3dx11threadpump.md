@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9b4bcfbc5fcf128f3ef71250180b487c83ce3c0d5430a563dfa3b7069e4235e1
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f06f50e489503d02a6ea772be65678022dd36f6c
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119858038"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122481284"
 ---
 # <a name="id3dx11threadpump-interface"></a>ID3DX11ThreadPump 介面
 
@@ -44,68 +44,16 @@ ms.locfileid: "119858038"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">方法</th>
-<th style="text-align: left;">描述</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><a href="id3dx11threadpump-addworkitem.md"><strong>Azuretasks</strong></a></td>
-<td style="text-align: left;"><blockquote>
-[!Note]<br />
-D3DX (D3DX 9、D3DX 10 和 D3DX 11) 公用程式庫已針對 Windows 8 淘汰，不支援 Windows Store 應用程式。
-</blockquote>
-<br/> 將工作專案加入至執行緒抽取。<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="id3dx11threadpump-getqueuestatus.md"><strong>GetQueueStatus</strong></a></td>
-<td style="text-align: left;"><blockquote>
-[!Note]<br />
-D3DX (D3DX 9、D3DX 10 和 D3DX 11) 公用程式庫已針對 Windows 8 淘汰，不支援 Windows Store 應用程式。
-</blockquote>
-<br/> 取得執行緒抽取內三個佇列中的專案數。<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="id3dx11threadpump-getworkitemcount.md"><strong>GetWorkItemCount</strong></a></td>
-<td style="text-align: left;"><blockquote>
-[!Note]<br />
-D3DX (D3DX 9、D3DX 10 和 D3DX 11) 公用程式庫已針對 Windows 8 淘汰，不支援 Windows Store 應用程式。
-</blockquote>
-<br/> 取得執行緒抽取中的工作專案數。<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="id3dx11threadpump-processdeviceworkitems.md"><strong>ProcessDeviceWorkItems</strong></a></td>
-<td style="text-align: left;"><blockquote>
-[!Note]<br />
-D3DX (D3DX 9、D3DX 10 和 D3DX 11) 公用程式庫已針對 Windows 8 淘汰，不支援 Windows Store 應用程式。
-</blockquote>
-<br/> 在裝置完成載入和處理之後，將工作專案設定為裝置。<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="id3dx11threadpump-purgeallitems.md"><strong>PurgeAllItems</strong></a></td>
-<td style="text-align: left;"><blockquote>
-[!Note]<br />
-D3DX (D3DX 9、D3DX 10 和 D3DX 11) 公用程式庫已針對 Windows 8 淘汰，不支援 Windows Store 應用程式。
-</blockquote>
-<br/> 清除執行緒抽取中的所有工作專案。<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="id3dx11threadpump-waitforallitems.md"><strong>WaitForAllItems</strong></a></td>
-<td style="text-align: left;"><blockquote>
-[!Note]<br />
-D3DX (D3DX 9、D3DX 10 和 D3DX 11) 公用程式庫已針對 Windows 8 淘汰，不支援 Windows Store 應用程式。
-</blockquote>
-<br/> 等候執行緒抽取中的所有工作專案完成。<br/></td>
-</tr>
-</tbody>
-</table>
+
+| 方法 | 描述 | 
+|--------|-------------|
+| <a href="id3dx11threadpump-addworkitem.md"><strong>Azuretasks</strong></a> | <blockquote>[!Note]<br />D3DX (D3DX 9、D3DX 10 和 D3DX 11) 公用程式庫已針對 Windows 8 淘汰，不支援 Windows Store 應用程式。</blockquote><br /> 將工作專案加入至執行緒抽取。<br /> | 
+| <a href="id3dx11threadpump-getqueuestatus.md"><strong>GetQueueStatus</strong></a> | <blockquote>[!Note]<br />D3DX (D3DX 9、D3DX 10 和 D3DX 11) 公用程式庫已針對 Windows 8 淘汰，不支援 Windows Store 應用程式。</blockquote><br /> 取得執行緒抽取內三個佇列中的專案數。<br /> | 
+| <a href="id3dx11threadpump-getworkitemcount.md"><strong>GetWorkItemCount</strong></a> | <blockquote>[!Note]<br />D3DX (D3DX 9、D3DX 10 和 D3DX 11) 公用程式庫已針對 Windows 8 淘汰，不支援 Windows Store 應用程式。</blockquote><br /> 取得執行緒抽取中的工作專案數。<br /> | 
+| <a href="id3dx11threadpump-processdeviceworkitems.md"><strong>ProcessDeviceWorkItems</strong></a> | <blockquote>[!Note]<br />D3DX (D3DX 9、D3DX 10 和 D3DX 11) 公用程式庫已針對 Windows 8 淘汰，不支援 Windows Store 應用程式。</blockquote><br /> 在裝置完成載入和處理之後，將工作專案設定為裝置。<br /> | 
+| <a href="id3dx11threadpump-purgeallitems.md"><strong>PurgeAllItems</strong></a> | <blockquote>[!Note]<br />D3DX (D3DX 9、D3DX 10 和 D3DX 11) 公用程式庫已針對 Windows 8 淘汰，不支援 Windows Store 應用程式。</blockquote><br /> 清除執行緒抽取中的所有工作專案。<br /> | 
+| <a href="id3dx11threadpump-waitforallitems.md"><strong>WaitForAllItems</strong></a> | <blockquote>[!Note]<br />D3DX (D3DX 9、D3DX 10 和 D3DX 11) 公用程式庫已針對 Windows 8 淘汰，不支援 Windows Store 應用程式。</blockquote><br /> 等候執行緒抽取中的所有工作專案完成。<br /> | 
+
 
 
 

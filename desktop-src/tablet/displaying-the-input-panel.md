@@ -4,12 +4,12 @@ ms.assetid: 6301dde1-e46b-42a0-ae0b-ccd984e9199b
 title: 顯示輸入面板
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a1fa8404cadd7c40b0185d60b574ac7d8ec77ced
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e5f491a8b2ddcea42588c38f7cfa7106a2e8f48ff1849ab8cd406718511a4cb0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106982103"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119940788"
 ---
 # <a name="displaying-the-input-panel"></a>顯示輸入面板
 

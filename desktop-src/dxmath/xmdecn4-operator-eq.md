@@ -11,12 +11,12 @@ api_name: ''
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 3b273b05a7d89f970ae8361b1b47d1587ea30227fb8c51b7ccd91fdcecb8a278
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 49dddaf2d359b6b0d5ea2fa5c364ebe10a1402e5
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118087475"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122622104"
 ---
 # <a name="xmdecn4-operator--operators"></a>XMDECN4 運算子 = 運算子
 
@@ -30,19 +30,19 @@ ms.locfileid: "118087475"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
-<th style="text-align: left;">運算子</th>
-<th style="text-align: left;">描述</th>
+<th >運算子</th>
+<th >描述</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmdecn4-operator-assign(uint32_t)"><strong>XMDECN4：： operator = (const XMDECN4&) </strong></a></td>
-<td style="text-align: left;">將一個實例的向量元件資料指派 <code>XMDECN4</code> 給目前的實例 <code>XMDECN4</code> 。 <br/> 這個運算子會將一個 <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmdecn4"><strong>XMDECN4</strong></a> 實例的向量元件資料指派給目前的實例 <code>XMDECN4</code> 。 <br/>
+<td ><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmdecn4-operator-assign(uint32_t)"><strong>XMDECN4：： operator = (const XMDECN4&) </strong></a></td>
+<td >將一個實例的向量元件資料指派 <code>XMDECN4</code> 給目前的實例 <code>XMDECN4</code> 。 <br/> 這個運算子會將一個 <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmdecn4"><strong>XMDECN4</strong></a> 實例的向量元件資料指派給目前的實例 <code>XMDECN4</code> 。 <br/>
 <blockquote>
 [!Note]<br />
 此運算子僅適用于 c + +。
@@ -50,8 +50,8 @@ ms.locfileid: "118087475"
 <br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmdecn4-operator-assign(uint32_t)"><strong>XMDECN4：： operator = (const uint32_t) </strong></a></td>
-<td style="text-align: left;">將實例中封裝的向量元件資料指派 <code>uint32_t</code> 給目前的實例 <code>XMDECN4</code> 。 <br/> 這個運算子會將實例中封裝的向量元件資料指派 <code>uint32_t</code> 給目前的 <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmdecn4"><strong>XMDECN4</strong></a>實例。 <br/>
+<td ><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmdecn4-operator-assign(uint32_t)"><strong>XMDECN4：： operator = (const uint32_t) </strong></a></td>
+<td >將實例中封裝的向量元件資料指派 <code>uint32_t</code> 給目前的實例 <code>XMDECN4</code> 。 <br/> 這個運算子會將實例中封裝的向量元件資料指派 <code>uint32_t</code> 給目前的 <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmdecn4"><strong>XMDECN4</strong></a>實例。 <br/>
 <blockquote>
 [!Note]<br />
 此運算子僅適用于 c + +。

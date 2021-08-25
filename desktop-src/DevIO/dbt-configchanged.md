@@ -4,12 +4,12 @@ ms.assetid: e5e33970-b17e-4723-98aa-e242f90fe4e7
 title: 'DBT_CONFIGCHANGED (Dbt 的事件) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d242832378ba9ca3d3006965719942aa41ecff93
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: ba7e0d93b2a89793bb572a5c7563e54fa3114101443b43b8d6beac7955bdd6ce
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104187721"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119874511"
 ---
 # <a name="dbt_configchanged-event"></a>DBT \_ CONFIGCHANGED 事件
 

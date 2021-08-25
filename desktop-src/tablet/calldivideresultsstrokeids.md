@@ -14,12 +14,12 @@ api_type:
 api_location:
 - InkDiv.dll
 - InkDiv.dll.dll
-ms.openlocfilehash: ee690c9564df3b8c75eca6eec8eeb88b7531f4ef
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 64b3e4180a34c45890408f8ba92cc79465fffa7f1028152e27f8d5c0aa40e3e1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970553"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120009128"
 ---
 # <a name="calldivideresultsstrokeids-function"></a>CallDivideResultsStrokeIds 函式
 
@@ -87,7 +87,7 @@ HRESULT WINAPI CallDivideResultsStrokeIds(
 
 
 
-| 傳回碼                                                                                  | Description                                     |
+| 傳回碼                                                                                  | 描述                                     |
 |----------------------------------------------------------------------------------------------|-------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>         | 此函數已成功。<br/>              |
 | <dl> <dt>**E \_ INVALIDARG**</dt> </dl> | *HDivider* 參數無效。<br/> |
@@ -102,7 +102,7 @@ HRESULT WINAPI CallDivideResultsStrokeIds(
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 Windows XP Tablet PC Edition \[ 桌面應用程式\]<br/>                         |
+| 最低支援的用戶端<br/> | Windows僅限 XP Tablet PC Edition \[ 桌面應用程式\]<br/>                         |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                             |
 | 程式庫<br/>                  | <dl> <dt>InkDiv.dll</dt> </dl> |
 

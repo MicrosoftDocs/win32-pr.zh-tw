@@ -4,12 +4,12 @@ ms.assetid: 4fe44688-a44e-4725-a744-e0eb6c3e29c0
 title: 使用系統關機
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8981bf33a60695012103c1318347a2044e946183
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cca6fd1b3acde110b81c6ea7d3accfc5d473742962ee3d61128d61a747b5e3d9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114104"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119867505"
 ---
 # <a name="using-system-shutdown"></a>使用系統關機
 

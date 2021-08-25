@@ -4,12 +4,12 @@ ms.assetid: 0f01f546-f76b-4c61-a204-2a06079a374a
 title: 使用輸入面板自動完成
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1c9e7f108631eb2723b71bf8ed919c17a0eabff5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2bb0589cca00a45d007c7df6a605f051161c07a62c864504780c307693fe8897
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112877"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119934373"
 ---
 # <a name="using-input-panel-autocomplete"></a>使用輸入面板自動完成
 
@@ -17,11 +17,11 @@ ms.locfileid: "104112877"
 
 ![具有 ie 自動完成清單的輸入面板](images/9e769482-543a-4e29-b274-8f19ae10250d.jpg)
 
-有三個選項可讓應用程式利用輸入面板自動完成整合。 包含使用 Shell 自動完成功能建立的自動完成功能的應用程式 (透過 [**IAutoComplete**](/windows/win32/api/shldisp/nn-shldisp-iautocomplete) 介面) 或透過 [autocompletemode.none](/dotnet/api/system.windows.forms.autocompletemode?view=netcore-3.1)) 列舉來 .NET Framework 自動完成 (，而不需要變更程式碼。 包含自訂自動完成文字欄位的應用程式可以使用輸入面板自動完成 API 來取得相同的功能。
+有三個選項可讓應用程式利用輸入面板自動完成整合。 包含使用 Shell 自動完成功能建立的自動完成功能的應用程式 (透過 [**IAutoComplete**](/windows/win32/api/shldisp/nn-shldisp-iautocomplete)介面) 或透過 [autocompletemode.none](/dotnet/api/system.windows.forms.autocompletemode?view=netcore-3.1)) 列舉來 .NET Framework 自動完成 (，而不需要變更程式碼。 包含自訂自動完成文字欄位的應用程式可以使用輸入面板自動完成 API 來取得相同的功能。
 
 在所有情況下，您都可以對應用程式的自動完成清單進行這些修改，而不需要複製或修改應用程式用來產生自動完成清單的 UI 或預測邏輯。 自動完成清單會繼續是應用程式所繪製的擁有者，而自動完成清單的內容則與直接輸入編輯欄位中的文字一樣。
 
-Windows Vista 作業系統或更新版本支援輸入面板自動完成整合。 從 Windows Vista 開始，輸入面板自動完成整合內建于 Shell 自動完成整合，並從 .NET Framework 3.0 版開始 Windows Forms 開發。 雖然 [**IAutoComplete**](/windows/win32/api/shldisp/nn-shldisp-iautocomplete) 和 [autocompletemode.none](/dotnet/api/system.windows.forms.autocompletemode?view=netcore-3.1) 都是在舊版 Windows 上執行，但 MICROSOFT Windows XP Tablet PC Edition 或舊版作業系統不支援輸入面板自動完成整合。 如果您在舊版 Tablet PC 上執行輸入面板自動完成功能，應用程式會還原為預先整合的行為。
+Windows Vista 作業系統或更新版本支援輸入面板自動完成整合。 輸入面板自動完成整合內建于 Shell 自動完成整合，從 Windows Vista 開始，到從 .NET Framework 3.0 版開始的 Windows Forms 開發。 雖然 [**IAutoComplete**](/windows/win32/api/shldisp/nn-shldisp-iautocomplete)和 [autocompletemode.none](/dotnet/api/system.windows.forms.autocompletemode?view=netcore-3.1)都是在舊版 Windows 上執行，但是 Microsoft Windows XP Tablet PC Edition 或舊版作業系統不支援輸入面板自動完成整合。 如果您在舊版 Tablet PC 上執行輸入面板自動完成功能，應用程式會還原為預先整合的行為。
 
 ## <a name="reasons-to-integrate-application-autocomplete-lists-with-input-panel"></a>整合應用程式自動完成清單與輸入面板的原因
 
@@ -53,11 +53,11 @@ Windows Vista 作業系統或更新版本支援輸入面板自動完成整合。
 
 ## <a name="standard-autocomplete-components-that-include-input-panel-autocomplete-integration"></a>包含輸入面板自動完成整合的標準自動完成元件
 
-[**IAutoComplete**](/windows/win32/api/shldisp/nn-shldisp-iautocomplete)和 [Autocompletemode.none](/dotnet/api/system.windows.forms.autocompletemode?view=netcore-3.1)都包含輸入面板自動完成的內建整合。 使用其中一種標準自動完成元件的應用程式，可以利用輸入面板的自動完成功能，幾乎不需要額外的工作。 此外，雖然只有在 Windows Vista 或新版的 Windows 作業系統上才支援輸入面板自動完成，但在 windows vista 發行之前使用 **IAutoComplete** 建立的應用程式會在 windows vista 上執行時，自動取得輸入面板自動完成整合。 下列各節包含特定 **IAutoComplete** 的詳細資訊，以及包含輸入面板自動完成整合的 autocompletemode.none 元素。
+[**IAutoComplete**](/windows/win32/api/shldisp/nn-shldisp-iautocomplete)和 [Autocompletemode.none](/dotnet/api/system.windows.forms.autocompletemode?view=netcore-3.1)都包含輸入面板自動完成的內建整合。 使用其中一種標準自動完成元件的應用程式，可以利用輸入面板的自動完成功能，幾乎不需要額外的工作。 此外，雖然只在 Windows vista 或新版的 Windows 作業系統上支援輸入面板自動完成功能，但是在 Windows vista 版本之前使用 **IAutoComplete** 建立的應用程式會在 Windows vista 中執行時自動取得輸入面板自動完成整合。 下列各節包含特定 **IAutoComplete** 的詳細資訊，以及包含輸入面板自動完成整合的 autocompletemode.none 元素。
 
 ### <a name="shell-autocomplete-with-input-panel-autocomplete-integration"></a>使用輸入面板自動完成整合的 Shell 自動完成整合
 
-使用 [**IAutoComplete**](/windows/win32/api/shldisp/nn-shldisp-iautocomplete) 的應用程式可免費取得輸入面板自動完成整合。 雖然 Shell 自動完成 Api 包含在 Windows 2000 中，但輸入面板自動完成整合只支援 Windows Vista 和更新版本。 不過，在 windows Vista 發行之前建立且使用 **IAutoComplete** 的應用程式，在 windows vista 上執行時，會自動取得輸入面板自動完成整合。
+使用 [**IAutoComplete**](/windows/win32/api/shldisp/nn-shldisp-iautocomplete) 的應用程式可免費取得輸入面板自動完成整合。 雖然 Shell 自動完成 api 包含在 Windows 2000 版中，但輸入面板自動完成整合只支援 Windows Vista 和更新版本。 不過，在使用 **IAutoComplete** 的 Windows Vista 版本之前建立的應用程式，會在 Windows Vista 上執行時自動取得輸入面板自動完成整合。
 
 為了利用這種方式來利用 Tablet 自動完成功能，您必須使用 [自動完成] 物件 (**CLSID \_ 自動完成**) 。 如果您想要提供 Url 或檔案名的自動完成功能，請使用 [**SHAutoComplete**](/windows/win32/api/shlwapi/nf-shlwapi-shautocomplete) 函式來建立自動完成物件。
 
@@ -65,13 +65,13 @@ Windows Vista 作業系統或更新版本支援輸入面板自動完成整合。
 
 ### <a name="input-panel-autocomplete-integration-with-net-framework-applications"></a>輸入面板自動完成與 .NET Framework 應用程式的整合
 
-從 .NET Framework 3.0 開始，Windows Forms 文字方塊包含自動完成。 Windows Forms textbox 自動完成建立在 Shell 自動完成之上，也就是內建的輸入面板自動完成整合。 在 Windows Vista 之前發行的 Windows 版本上，支援的 .NET Framework 3.0 層級。 不過，因為只有在 Windows Vista 或更新版本上才支援輸入面板自動完成整合，所以輸入面板自動完成整合只適用于在 Windows Vista 或更新版本上安裝的 .NET Framework 3.0 應用程式。
+從 .NET Framework 3.0 開始，Windows Forms 文字方塊包含自動完成。 Windows表單文字方塊自動完成建置於 Shell 自動完成功能之上，也就是內建的輸入面板自動完成整合。 Windows Vista 之前發行的 Windows 版本支援 .NET Framework 3.0 層級。 不過，因為只有 Windows Vista 或更新版本才支援輸入面板自動完成整合，所以輸入面板自動完成整合只適用于 .NET Framework 3.0 應用程式（安裝于 Windows Vista 或更新版本）。
 
 希望利用 .NET Framework 3.0 中輸入面板自動完成整合的應用程式，必須使用已啟用[autocompletemode.none](/dotnet/api/system.windows.forms.textbox.autocompletemode?view=netcore-3.1)屬性的 Windows Forms [TextBox](/dotnet/api/system.windows.forms.textbox?view=netcore-3.1) 。 您不需要執行任何額外的工作，就能讓 Windows Forms 自動完成工作，以利用輸入面板自動完成整合。
 
 ## <a name="using-input-panel-autocomplete-apis-directly"></a>直接使用輸入面板自動完成 Api
 
-自訂自動完成文字方塊的開發人員必須直接使用輸入面板自動完成 Api，才能獲得改進的文字輸入經驗，讓輸入面板自動完成整合可在其應用程式中啟用。 輸入面板自動完成 Api 隨附于 Windows Vista 作業系統中，屬於平板電腦平臺 SDK 1.9 版或更新版本。 輸入面板自動完成介面是以 COM 為基礎的介面。
+自訂自動完成文字方塊的開發人員必須直接使用輸入面板自動完成 Api，才能獲得改進的文字輸入經驗，讓輸入面板自動完成整合可在其應用程式中啟用。 輸入面板自動完成 api 隨附于 Windows Vista 作業系統的一部分，並隨附于 Tablet Platform SDK 1.9 版或更新版本。 輸入面板自動完成介面是以 COM 為基礎的介面。
 
 下一節將詳細說明如何針對 c + + 應用程式使用這些介面。 不過，您可以 \# 透過使用 Com Interop，以大部分的語言（包括 C）來執行這些 COM 介面。
 
@@ -175,7 +175,7 @@ m_spACClient->PreferredRects(&rcACList, &rcField,
 
 ## <a name="conclusion"></a>結論
 
-輸入面板自動完成整合是一項功能強大的工具，可改善在 Tablet Pc 上包含自動完成清單的 Windows 應用程式使用者體驗。 如果沒有整合，輸入面板使用者必須經過繁瑣的程式，一次插入一個字元，然後重新置放輸入面板，才能使用自動完成。 透過整合，自動完成清單會以使用者筆跡的形式出現在 [輸入面板] 的方便位置，同時增加速度和文字輸入的便利性。 在包含以 Shell 自動完成或 .NET Framework 3.0 自動完成功能為基礎的自動完成功能的應用程式中，輸入面板自動完成整合是一項免費且吸引人的功能。 此外，也提供一組簡單的 COM 型介面，以針對選擇使用自訂自動完成控制項的應用程式啟用相同的整合式體驗。
+輸入面板自動完成整合是一項功能強大的工具，可改善在 Tablet pc 上包含自動完成清單的 Windows 應用程式的使用者體驗。 如果沒有整合，輸入面板使用者必須經過繁瑣的程式，一次插入一個字元，然後重新置放輸入面板，才能使用自動完成。 透過整合，自動完成清單會以使用者筆跡的形式出現在 [輸入面板] 的方便位置，同時增加速度和文字輸入的便利性。 在包含以 Shell 自動完成或 .NET Framework 3.0 自動完成功能為基礎的自動完成功能的應用程式中，輸入面板自動完成整合是一項免費且吸引人的功能。 此外，也提供一組簡單的 COM 型介面，以針對選擇使用自訂自動完成控制項的應用程式啟用相同的整合式體驗。
 
 ## <a name="related-topics"></a>相關主題
 

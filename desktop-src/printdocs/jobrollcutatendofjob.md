@@ -4,12 +4,12 @@ ms.assetid: 1e2cd767-685b-47d8-9020-a0a5dda63506
 title: JobRollCutAtEndOfJob
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 11fdb973f3fda9fea28f64f0edb232910f2d2201
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 012ba13de0106f5132f0f42f385e8574f6254c86d6504c88b9fd18909b0a8473
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112408661"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120112348"
 ---
 # <a name="jobrollcutatendofjob"></a>JobRollCutAtEndOfJob
 
@@ -25,7 +25,7 @@ ms.locfileid: "112408661"
 
 
 
-| Name | 值 |
+| 名稱 | 值 |
 |----------------------------|--------------------|
 | 項目類型 <br/>   | 功能<br/> |
 | 範圍前置詞 <br/> | 工作 (Job)<br/>     |
@@ -59,10 +59,10 @@ ms.locfileid: "112408661"
 
 
 
-| Name                               | 資料類型         | 單位                  | 支援的值                                                                                                                                                                      | 總結                                                                      |
+| 名稱                               | 資料類型         | 單位                  | 支援的值                                                                                                                                                                      | 摘要                                                                      |
 |------------------------------------|-------------------|-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------|
-| \_選項名稱\_<br/>          | string<br/> | 字元<br/> | 以 [XML 命名空間](https://www.w3.org/TR/1999/REC-xml-names-19990114/)所定義的有效完整名稱。 如果未指定命名空間，則會假設為預設命名空間。<br/> | 選項的名稱。<br/>                                           |
-| \_IdentityOptionValue\_<br/> | string<br/> | n/a<br/>        | True、False。<br/>                                                                                                                                                               | 定義選項，當選取此選項時，會停用此功能。<br/> |
+| \_選項名稱\_<br/>          | 字串<br/> | 字元<br/> | 以 [XML 命名空間](https://www.w3.org/TR/1999/REC-xml-names-19990114/)所定義的有效完整名稱。 如果未指定命名空間，則會假設為預設命名空間。<br/> | 選項的名稱。<br/>                                           |
+| \_IdentityOptionValue\_<br/> | 字串<br/> | n/a<br/>        | True、False。<br/>                                                                                                                                                               | 定義選項，當選取此選項時，會停用此功能。<br/> |
 
 
 

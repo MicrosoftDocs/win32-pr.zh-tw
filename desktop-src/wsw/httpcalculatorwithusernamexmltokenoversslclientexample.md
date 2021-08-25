@@ -8,12 +8,12 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 90e2ec2146c8cdc13aa1efee8eb68f8bc07ae883
-ms.sourcegitcommit: b95a94ffffda33f9ebbdd41787c01866444b4cf4
+ms.openlocfilehash: 9a730b48efb1593cbd4490dff32f186f46fb0cf9e13213dbb1e51ad0d945d4f5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "104374035"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120005848"
 ---
 # <a name="httpcalculatorwithusernamexmltokenoversslclient-example"></a>HttpCalculatorWithUsernameXmlTokenOverSslClient 範例
 
@@ -510,9 +510,9 @@ clean:
 [HttpCalculatorWithUserNameOverSslServiceExample](httpcalculatorwithusernameoversslserviceexample.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

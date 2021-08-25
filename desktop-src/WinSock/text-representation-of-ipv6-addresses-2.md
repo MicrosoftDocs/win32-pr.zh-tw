@@ -4,12 +4,12 @@ ms.assetid: 52faecb9-0d7a-40fa-a021-3cc6816a4db8
 title: IPv6 位址的文字標記法
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: df97c1c8933f3708fee56e34e05f918d531d2a13
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 01d71ad1f98652a0f00e4f14f957bcedc27316444ceabc3e5c35ee2bcf81b5f9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106978897"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119733348"
 ---
 # <a name="text-representation-of-ipv6-addresses"></a>IPv6 位址的文字標記法
 

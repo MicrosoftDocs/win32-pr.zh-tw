@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d93bf97c7b5213e3d196897de1c3ebcfa6e6d2c5
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c6850bd73c9add044bdb845d17341745c7546918f7824b611ed2f018f66139d7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106980202"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120000488"
 ---
 # <a name="iwmpcontrols3getlanguagename-method"></a>IWMPControls3：： getLanguageName 方法
 
@@ -68,7 +68,7 @@ Implements IWMPControls3.getLanguageName
 
 LCID 可唯一識別特定語言方言，稱為地區設定。
 
-針對 Windows Media 內容，與語言選取相關的屬性和方法只支援單一輸出。
+針對 Windows 媒體型內容，與語言選取相關的屬性和方法只支援單一輸出。
 
 ## <a name="requirements"></a>規格需求
 

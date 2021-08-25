@@ -30,12 +30,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: ec61d29a2bfc3fc502b532b83dbb02640a600a0a5034c9751caab7185f1b037c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: efe052fc01014d3ebb624dbd4183bc8f0584b145
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117716647"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122481784"
 ---
 # <a name="committransactiongrbit-enumeration"></a>CommitTransactionGrbit 列舉
 
@@ -63,38 +63,13 @@ public enum CommitTransactionGrbit
 
 ## <a name="members"></a>成員
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th></th>
-<th>成員名稱</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td></td>
-<td>無</td>
-<td>預設選項。</td>
-</tr>
-<tr class="even">
-<td></td>
-<td>LazyFlush</td>
-<td>交易會正常認可，但此 Api 不會等到交易被排清到交易記錄檔，然後再傳回給呼叫者。 這可大幅減少認可作業的持續時間，代價是持久性。 在下次呼叫 JetInit 期間，任何未在損毀之前排清到記錄檔的交易都會自動中止。 如果指定 WaitLastLevel0Commit 或 WaitAllLevel0Commit，則會忽略此選項。</td>
-</tr>
-<tr class="odd">
-<td></td>
-<td>WaitLastLevel0Commit</td>
-<td>如果會話先前已認可任何交易，而且它們尚未排清到交易記錄檔，則應該立即排清它們。 此 Api 會等到交易已排清之後，再返回呼叫端。 如果應用程式先前已使用 JET_bitCommitLazyFlush 認可數筆交易，而現在想要將所有交易排清到磁片上，這項功能就很有用。
-<p>即使會話目前不在交易中，也可以使用此選項。 此選項不能與任何其他選項搭配使用。</p></td>
-</tr>
-</tbody>
-</table>
+
+|  | 成員名稱 | 描述 | 
+|--|-------------|-------------|
+|  | 無 | 預設選項。 | 
+|  | LazyFlush | 交易會正常認可，但此 Api 不會等到交易被排清到交易記錄檔，然後再傳回給呼叫者。 這可大幅減少認可作業的持續時間，代價是持久性。 在下次呼叫 JetInit 期間，任何未在損毀之前排清到記錄檔的交易都會自動中止。 如果指定 WaitLastLevel0Commit 或 WaitAllLevel0Commit，則會忽略此選項。 | 
+|  | WaitLastLevel0Commit | 如果會話先前已認可任何交易，而且它們尚未排清到交易記錄檔，則應該立即排清它們。 此 Api 會等到交易已排清之後，再返回呼叫端。 如果應用程式先前已使用 JET_bitCommitLazyFlush 認可數筆交易，而現在想要將所有交易排清到磁片上，這項功能就很有用。<p>即使會話目前不在交易中，也可以使用此選項。 此選項不能與任何其他選項搭配使用。</p> | 
+
 
 
 ## <a name="see-also"></a>另請參閱

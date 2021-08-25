@@ -9,12 +9,12 @@ keywords:
 - ICDrawEnd 宏
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: de20d23c0ded51d1933918c16da3f8827b77f796
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c32c87c751705dea6dc6e00c2f48635d685d87f7d900422efb980b22012e052e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104183433"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120037898"
 ---
 # <a name="preparing-to-draw-data"></a>準備繪製資料
 
@@ -50,9 +50,9 @@ else
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -3,19 +3,19 @@ title: 許可權常數
 description: 許可權常數
 ms.assetid: fb20dc57-25da-4613-a324-e081ba87df73
 keywords:
-- Windows Media Format SDK，常數
+- Windows媒體格式 SDK，常數
 - 數位版權管理 (DRM) ，常數
 - DRM (數位版權管理) ，常數
 - DRM 用戶端擴充 Api，常數
 - 用戶端擴充 Api，常數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b1349da53b63b1b7df59c13e0e69f7fdbf47ee3f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 088c3130551a6798900ea77cc3628cb784ff7c70b418795157b203ab2f71b64e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104092303"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120110138"
 ---
 # <a name="rights-constants"></a>許可權常數
 
@@ -39,7 +39,7 @@ ms.locfileid: "104092303"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -48,9 +48,9 @@ ms.locfileid: "104092303"
 [**常數**](constants.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

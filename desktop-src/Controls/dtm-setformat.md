@@ -3,7 +3,7 @@ title: 'DTM_SETFORMAT 訊息 (Commctrl .h) '
 description: 根據指定的格式字串，設定日期和時間選擇器的顯示 (DTP) 控制項。 您可以明確地傳送此訊息，或使用 DateTime \_ SetFormat 宏。
 ms.assetid: a89fa3ad-9894-4c52-ab56-fb62208e39b3
 keywords:
-- DTM_SETFORMAT message Windows 控制項
+- DTM_SETFORMAT 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 17669ed2e1ed23e3b090b77701bbe05d23a5ccb8
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 17d4bb08694b63c21f1790d0a1366dd34d1083592bdeb62d532a32a96be3857a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104025297"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119877858"
 ---
 # <a name="dtm_setformat-message"></a>DTM \_ SETFORMAT 訊息
 
@@ -60,8 +60,8 @@ ms.locfileid: "104025297"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 | Unicode 與 ANSI 名稱<br/>   | **DTM \_SETFORMATW** (Unicode) 和 **DTM \_ SETFORMATA** (ANSI) <br/>               |
 

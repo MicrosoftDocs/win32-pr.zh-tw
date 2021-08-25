@@ -10,12 +10,12 @@ keywords:
 - 效能、影片串流
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 33b4fc68e0b3a91cf135d29dc7123d5af88db84c
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 9b7a21e6352d03375b680702a16190b4af9eef24ca7ba9d592adb79ab5794b5c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "103681393"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119840158"
 ---
 # <a name="configuring-video-streams-for-seeking-performance"></a>設定影片串流以搜尋效能
 
@@ -36,7 +36,7 @@ ms.locfileid: "103681393"
 
 
 
- 
+ 
 
 如需在搜尋影片檔案時取得最佳效能的詳細資訊，請參閱 [取得最佳的影片尋找效能](getting-the-best-video-seeking-performance.md)。
 
@@ -47,9 +47,9 @@ ms.locfileid: "103681393"
 [**設定資料流程**](configuring-streams.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

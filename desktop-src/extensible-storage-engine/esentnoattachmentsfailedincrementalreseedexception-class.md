@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: cbaa3c51ffdfa6998afaf15dcc140584d2bc9972
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ca8681cb7f059b74b79c6b69087806d86ecc43d851a37b94103d3a0918ce34c0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192416"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119734023"
 ---
 # <a name="esentnoattachmentsfailedincrementalreseedexception-class"></a>EsentNoAttachmentsFailedIncrementalReseedException 類別
 

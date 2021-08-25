@@ -8,12 +8,12 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 314c4e4d57662467b02257c0476e35719c72b95b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 90286b6044b34983eeb3844d3e0ede4b8bc8d1077fe08f427af5856485dae001
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104311457"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120005838"
 ---
 # <a name="httpcalculatorwithkerberosoversslclientexample"></a>HttpCalculatorWithKerberosOverSslClientExample
 
@@ -385,9 +385,9 @@ clean:
     $(CLEANUP)
 ```
 
- 
+ 
 
- 
+ 
 
 
 

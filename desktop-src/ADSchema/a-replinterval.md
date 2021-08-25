@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e681b01fbc60b775b0cb947007056dc1d3d3adbb
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: fb5cd02d3458684f6d70cff84435c7809fcd4c912befd65373a264f961cefd72
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104107591"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119837438"
 ---
 # <a name="repl-interval-attribute"></a>Repl-Interval 屬性
 
@@ -59,7 +59,7 @@ Site-Link 物件的屬性，可定義網站清單中網站之間的複寫間隔�
 | 連結識別碼                | \-                                                                                                         |
 | MAPI-Id                | \-                                                                                                         |
 | System-Only            | 否                                                                                                      |
-| 是-單一值       | 對                                                                                                       |
+| 是-單一值       | 是                                                                                                       |
 | 已編制索引             | 否                                                                                                      |
 | 在通用類別目錄中      | 否                                                                                                      |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                               |
@@ -80,7 +80,7 @@ Site-Link 物件的屬性，可定義網站清單中網站之間的複寫間隔�
 | 連結識別碼                | \-                                                                                                         |
 | MAPI-Id                | \-                                                                                                         |
 | System-Only            | 否                                                                                                      |
-| 是-單一值       | 對                                                                                                       |
+| 是-單一值       | 是                                                                                                       |
 | 已編制索引             | 否                                                                                                      |
 | 在通用類別目錄中      | 否                                                                                                      |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                               |
@@ -101,7 +101,7 @@ Site-Link 物件的屬性，可定義網站清單中網站之間的複寫間隔�
 | 連結識別碼                | \-                                                                                                         |
 | MAPI-Id                | \-                                                                                                         |
 | System-Only            | 否                                                                                                      |
-| 是-單一值       | 對                                                                                                       |
+| 是-單一值       | 是                                                                                                       |
 | 已編制索引             | 否                                                                                                      |
 | 在通用類別目錄中      | 否                                                                                                      |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                               |
@@ -122,7 +122,7 @@ Site-Link 物件的屬性，可定義網站清單中網站之間的複寫間隔�
 | 連結識別碼                | \-                                                                                                         |
 | MAPI-Id                | \-                                                                                                         |
 | System-Only            | 否                                                                                                      |
-| 是-單一值       | 對                                                                                                       |
+| 是-單一值       | 是                                                                                                       |
 | 已編制索引             | 否                                                                                                      |
 | 在通用類別目錄中      | 否                                                                                                      |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                               |
@@ -143,7 +143,7 @@ Site-Link 物件的屬性，可定義網站清單中網站之間的複寫間隔�
 | 連結識別碼                | \-                                                                                                         |
 | MAPI-Id                | \-                                                                                                         |
 | System-Only            | 否                                                                                                      |
-| 是-單一值       | 對                                                                                                       |
+| 是-單一值       | 是                                                                                                       |
 | 已編制索引             | 否                                                                                                      |
 | 在通用類別目錄中      | 否                                                                                                      |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                               |
@@ -164,7 +164,7 @@ Site-Link 物件的屬性，可定義網站清單中網站之間的複寫間隔�
 | 連結識別碼                | \-                                                                                                         |
 | MAPI-Id                | \-                                                                                                         |
 | System-Only            | 否                                                                                                      |
-| 是-單一值       | 對                                                                                                       |
+| 是-單一值       | 是                                                                                                       |
 | 已編制索引             | 否                                                                                                      |
 | 在通用類別目錄中      | 否                                                                                                      |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                               |
@@ -185,7 +185,7 @@ Site-Link 物件的屬性，可定義網站清單中網站之間的複寫間隔�
 | 連結識別碼                | \-                                                                                                         |
 | MAPI-Id                | \-                                                                                                         |
 | System-Only            | 否                                                                                                      |
-| 是-單一值       | 對                                                                                                       |
+| 是-單一值       | 是                                                                                                       |
 | 已編制索引             | 否                                                                                                      |
 | 在通用類別目錄中      | 否                                                                                                      |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                               |

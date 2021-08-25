@@ -1,23 +1,23 @@
 ---
-description: 為了讓傳輸通訊協定可透過 Windows 通訊端存取，它必須正確安裝在系統上，並向 Windows 通訊端註冊。
+description: 為了讓傳輸通訊協定可透過 Windows 通訊端來存取，它必須正確安裝在系統上，並向 Windows 通訊端註冊。
 ms.assetid: 0f0b22e4-81b7-43a7-bc2f-7124fa32d925
 title: 傳輸設定和安裝
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ea980740f727e39338c7568f4cc30a961b5484df
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5f1ec75810790df0d9373e8f3ee184f2dbd51d9bb5c37d7721097febe23a8aee
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "107001334"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119733238"
 ---
 # <a name="transport-configuration-and-installation"></a>傳輸設定和安裝
 
-為了讓傳輸通訊協定可透過 Windows 通訊端存取，它必須正確安裝在系統上，並向 Windows 通訊端註冊。 藉由叫用廠商的安裝程式來安裝傳輸服務提供者時，必須將設定資訊新增至設定資料庫，以提供 Ws2 \_32.dll 有關服務提供者的必要資訊。 Ws2 \_32.dll 會針對廠商的安裝程式匯出數個安裝功能（ [**WSCInstallProvider**](/windows/desktop/api/Ws2spi/nf-ws2spi-wscinstallprovider) 和 [**WSCInstallProviderAndChains**](/windows/desktop/api/Ws2spi/nf-ws2spi-wscinstallproviderandchains)），以提供要安裝之服務提供者的相關資訊。 例如，這項資訊包含服務提供者 DLL 的名稱和路徑，以及此提供者可支援的 [**WSAPROTOCOL \_ 資訊**](/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa) 結構清單。 Ws2 \_32.dll 也提供廠商的卸載程式的函式 [**WSCDeinstallProvider**](/windows/desktop/api/Ws2spi/nf-ws2spi-wscdeinstallprovider)，以從 Ws232.dll 所維護的設定資料庫中移除所有相關資訊 \_ 。 這項設定資訊的確切位置和格式對 Ws232.dll 是私 \_ 用的，而且只能由上述的函式來操作。
+為了讓傳輸通訊協定可透過 Windows 通訊端來存取，它必須正確安裝在系統上，並向 Windows 通訊端註冊。 藉由叫用廠商的安裝程式來安裝傳輸服務提供者時，必須將設定資訊新增至設定資料庫，以提供 Ws2 \_32.dll 有關服務提供者的必要資訊。 Ws2 \_32.dll 會針對廠商的安裝程式匯出數個安裝功能（ [**WSCInstallProvider**](/windows/desktop/api/Ws2spi/nf-ws2spi-wscinstallprovider) 和 [**WSCInstallProviderAndChains**](/windows/desktop/api/Ws2spi/nf-ws2spi-wscinstallproviderandchains)），以提供要安裝之服務提供者的相關資訊。 例如，這項資訊包含服務提供者 DLL 的名稱和路徑，以及此提供者可支援的 [**WSAPROTOCOL \_ 資訊**](/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa) 結構清單。 Ws2 \_32.dll 也提供廠商的卸載程式的函式 [**WSCDeinstallProvider**](/windows/desktop/api/Ws2spi/nf-ws2spi-wscdeinstallprovider)，以從 Ws232.dll 所維護的設定資料庫中移除所有相關資訊 \_ 。 這項設定資訊的確切位置和格式對 Ws232.dll 是私 \_ 用的，而且只能由上述的函式來操作。
 
 在64位平臺上，有類似的函式可在32位和64位目錄上運作。 這些函數包括 [**WSCInstallProvider64 \_ 32**](/windows/desktop/api/Ws2spi/nf-ws2spi-wscinstallprovider64_32)、 [**WSCInstallProviderAndChains64 \_ 32**](/windows/desktop/api/Ws2spi/nf-ws2spi-wscinstallproviderandchains64_32)和 [**WSCDeinstallProvider32**](/windows/desktop/api/Ws2spi/nf-ws2spi-wscdeinstallprovider32)。
 
-最初安裝傳輸服務提供者的順序，會控制在服務提供者介面上透過 [**WSCEnumProtocols**](/windows/desktop/api/Ws2spi/nf-ws2spi-wscenumprotocols) 和 [**WSCEnumProtocols32**](/windows/desktop/api/Ws2spi/nf-ws2spi-wscenumprotocols32) 列舉的順序，或透過應用程式介面上的 [**WSAEnumProtocols**](/windows/desktop/api/Winsock2/nf-winsock2-wsaenumprotocolsa) 來進行列舉的順序。 更重要的是，當用戶端要求根據地址系列、類型和通訊協定識別碼建立通訊端時，此順序也會控制通訊協定和服務提供者的順序。 Windows 通訊端2包含稱為 Sporder.exe 的小程式，可讓已安裝的通訊協定目錄在安裝通訊協定之後以互動方式重新排序。 Windows 通訊端2也包含輔助 DLL （Sporder.dll），可匯出重新排列通訊協定的程式性介面。 這個程式介面是由稱為 [**WSCWriteProviderOrder**](/windows/desktop/api/Sporder/nf-sporder-wscwriteproviderorder)的單一程式所組成。
+最初安裝傳輸服務提供者的順序，會控制在服務提供者介面上透過 [**WSCEnumProtocols**](/windows/desktop/api/Ws2spi/nf-ws2spi-wscenumprotocols) 和 [**WSCEnumProtocols32**](/windows/desktop/api/Ws2spi/nf-ws2spi-wscenumprotocols32) 列舉的順序，或透過應用程式介面上的 [**WSAEnumProtocols**](/windows/desktop/api/Winsock2/nf-winsock2-wsaenumprotocolsa) 來進行列舉的順序。 更重要的是，當用戶端要求根據地址系列、類型和通訊協定識別碼建立通訊端時，此順序也會控制通訊協定和服務提供者的順序。 Windows通訊端2包含名為 Sporder.exe 的小程式，可讓已安裝的通訊協定目錄在安裝通訊協定之後以互動方式重新排序。 Windows通訊端2也包含輔助 DLL （Sporder.dll），可匯出重新排列通訊協定的程式性介面。 這個程式介面是由稱為 [**WSCWriteProviderOrder**](/windows/desktop/api/Sporder/nf-sporder-wscwriteproviderorder)的單一程式所組成。
 
 ## <a name="installing-layered-protocols-and-protocol-chains"></a>安裝多層式通訊協定和通訊協定鏈
 

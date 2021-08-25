@@ -64,12 +64,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1adbc8e11d2cc4fb4a8071372777a01d81b5edad
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c52e3d2349a4d3b0121b05a3a0424126b754757c1b0b356042a90c28ce9923ed
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105875"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120010068"
 ---
 # <a name="imsrdpclientfullscreen-property"></a>IMsRdpClient：：全螢幕屬性
 

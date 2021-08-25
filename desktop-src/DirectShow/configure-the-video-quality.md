@@ -4,12 +4,12 @@ ms.assetid: f789db78-292e-4092-a5dc-1906845fb1dd
 title: 設定影片品質
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9cb8d2d28e39f0083aac521f1953ebbb1ca8d5b6
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: c5987352eb329410efd3fc74d6bf12539e968da8e24d2f0a65af9c9ac7b5cb85
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103687704"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119871768"
 ---
 # <a name="configure-the-video-quality"></a>設定影片品質
 
@@ -21,7 +21,7 @@ ms.locfileid: "103687704"
 
 ## <a name="procamp-settings"></a>ProcAmp 設定
 
-Windows Driver Model (WDM) 視頻攝影機可以支援控制影像品質的屬性：
+Windows驅動程式模型 (WDM) 攝影機可以支援控制影像品質的屬性：
 
 -   背光補償
 -   亮度

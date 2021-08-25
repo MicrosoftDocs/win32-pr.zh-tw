@@ -4,12 +4,12 @@ ms.assetid: 84f81ee1-76d8-46fb-86ef-2500f8f4ef36
 title: 'EC_PROCESSING_LATENCY (Dshow) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7d97514b4d2851f619f89f42e644766d50b7d25f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ceb107dd4c895f9819d268e6112c22c0c514e480bf778692f28bc87853aee9bd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106999074"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119792618"
 ---
 # <a name="ec_processing_latency"></a>EC \_ 處理 \_ 延遲
 

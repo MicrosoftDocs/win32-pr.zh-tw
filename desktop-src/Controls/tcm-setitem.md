@@ -3,7 +3,7 @@ title: 'TCM_SETITEM 訊息 (Commctrl .h) '
 description: 設定部分或全部索引標籤的屬性。 您可以使用 TabCtrl SetItem 宏明確地傳送此訊息 \_ 。
 ms.assetid: 1d9c6607-d8ec-4644-a714-22bc2677aa78
 keywords:
-- TCM_SETITEM message Windows 控制項
+- TCM_SETITEM 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ee86cd0737c3c50c89a97d3881e2cdfd3850f481
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c27f93e2743e5676c0fcca932cfa1936bb72667ef4fa4a5334eaae3e78d2be08
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103685504"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119876321"
 ---
 # <a name="tcm_setitem-message"></a>TCM \_ SETITEM 訊息
 
@@ -55,8 +55,8 @@ ms.locfileid: "103685504"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 | Unicode 與 ANSI 名稱<br/>   | **TCM \_SETITEMW** (Unicode) 和 **TCM \_ SETITEMA** (ANSI) <br/>                   |
 

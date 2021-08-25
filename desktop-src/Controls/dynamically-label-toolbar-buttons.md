@@ -4,12 +4,12 @@ description: 您可以使用 TB SETBUTTONINFO 訊息，將文字指派給現有�
 ms.assetid: 571C7FB9-2806-47AF-8933-0D3541AE6ACF
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 38dbf6cbefffa799f60909859c99d3e8c2d65e8e
-ms.sourcegitcommit: f0ca63c18dc52c357d3398af7be766d2bdd40be7
+ms.openlocfilehash: 063a3b8be8a23dc8cead219c53989a8ff1a40225dc8411f9e8a1b156b6bb55bf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "104462800"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119877438"
 ---
 # <a name="how-to-dynamically-label-toolbar-buttons"></a>如何動態標記工具列按鈕
 
@@ -19,12 +19,12 @@ ms.locfileid: "104462800"
 
 ### <a name="technologies"></a>技術
 
--   [Windows 控制項](window-controls.md)
+-   [Windows控制](window-controls.md)
 
 ### <a name="prerequisites"></a>必要條件
 
 -   C/C++
--   Windows 消費者介面程式設計
+-   Windows消費者介面程式設計
 
 ## <a name="instructions"></a>指示
 
@@ -64,9 +64,9 @@ LRESULT RelabelButton(HWND hWndToolbar)
 [Windows 通用控制項示範 (CppWindowsCommonControls) ](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

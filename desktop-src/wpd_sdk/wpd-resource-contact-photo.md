@@ -4,12 +4,12 @@ ms.assetid: e26487d8-cd21-4d4a-ba68-ae915eff1304
 title: WPD_RESOURCE_CONTACT_PHOTO
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 25ee8a283492eba61989eca3f3bfa96bdba2f0ac
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4ec411a318ff0aeffe266b70ae0954968569f24fb3a025de15237684bf12f6c9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972201"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119838828"
 ---
 # <a name="wpd_resource_contact_photo"></a>WPD \_ 資源 \_ 連絡人 \_ 相片
 

@@ -7,20 +7,20 @@ MSHAttr:
 title: 關於 VHD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 29ea37851360e70c1108e0715a47c77163c2c2fa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a79bd7695144811a1ec98f79e736760bbaddc8ef4b7460e55c5a66353a0b2ad9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103690439"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119865951"
 ---
 # <a name="span-idvhdabout_vhdspanabout-vhd"></a><span id="vhd.about_vhd"></span>關於 VHD
 
 虛擬硬碟 (VHD) 格式是公開可用的映射格式 [規格](https://download.microsoft.com/download/f/f/e/ffef50a5-07dd-4cf8-aaa3-442c0673a029/Virtual%20Hard%20Disk%20Format%20Spec_10_18_06.doc) ，可將硬碟封裝成個別的檔案，以供作業系統作為 *虛擬磁片* 使用，方法與使用實體硬碟的方式相同。 這些虛擬磁片可以裝載原生檔案系統 (NTFS、FAT、exFAT 和 UDF) ，同時支援標準磁片和檔案作業。 VHD API 支援可讓您管理虛擬磁片。 使用 VHD API 建立的虛擬磁片可以作為開機磁片。
 
-如何使用 VHD 檔案的範例是 Windows 7、Windows Server 2008、Virtual Server 和 Windows Virtual PC 中的 [hyper-v](https://www.microsoft.com/windowsserver2008/en/us/hyperv.aspx) 功能。 這些產品使用 VHD API 來包含虛擬機器用來作為其系統開機磁片的 Windows 作業系統映射。
+如何使用 VHD 檔案的範例是 Windows 7、Windows Server 2008、virtual Server 和 Windows virtual PC 中的[hyper-v](https://www.microsoft.com/windowsserver2008/en/us/hyperv.aspx)功能。 這些產品使用 VHD API 來包含虛擬機器用來作為其系統開機磁片的 Windows 作業系統映射。
 
-Microsoft Windows 軟體開發套件 (SDK) 整合原生 VHD 支援以使用虛擬磁片，讓開發人員和系統管理員可以使用平臺 API 支援或管理工具，更輕鬆地在 VHD 檔案中建立、管理及部署 Windows 映像。 不需要安裝個別的應用程式，也不需要執行 VHD 格式剖析器來啟用這些作業。 這些 Api 可讓您一般使用虛擬磁片，而不受任何其他虛擬化技術的影響。
+Microsoft Windows 軟體開發套件 (SDK) 整合原生 VHD 支援以使用虛擬磁片，讓開發人員和系統管理員可以更輕鬆地使用平臺 API 支援或管理工具，在 VHD 檔案中建立、管理 Windows 映像，以及部署這些映射。 不需要安裝個別的應用程式，也不需要執行 VHD 格式剖析器來啟用這些作業。 這些 Api 可讓您一般使用虛擬磁片，而不受任何其他虛擬化技術的影響。
 
 ## <a name="span-idterminologyspanspan-idterminologyspanspan-idterminologyspanterminology"></a><span id="Terminology"></span><span id="terminology"></span><span id="TERMINOLOGY"></span>術語
 
@@ -36,13 +36,13 @@ Microsoft Windows 軟體開發套件 (SDK) 整合原生 VHD 支援以使用虛�
 
 以下是先前所述功能的摘要說明。
 
-使用者模式原生 Windows Api：
+使用者模式原生 Windows api：
 
 -   VirtDisk.dll-適用于 VHD 管理 Api 的通用程式庫。
 
 使用者模式網域特定的管理包裝函式：
 
--   [VDS Vhd api](/windows/desktop/VDS/about-vds) -適用于 VHD Windows api 的 Vds 物件模型包裝函式。
+-   [vds vhd api](/windows/desktop/VDS/about-vds) -vhd 的 vds 物件模型包裝函式 Windows api。
 
 核心模式驅動程式：
 
@@ -50,7 +50,7 @@ Microsoft Windows 軟體開發套件 (SDK) 整合原生 VHD 支援以使用虛�
 -   FsDepends.sys 嵌套的磁片區相依性管理。
 -   Vhdmp.sys-VHD 剖析器和相依性屬性提供者。
 
-本節中的 SDK 檔涵蓋使用者模式原生 Windows VHD Api。
+本節中的 SDK 檔涵蓋使用者模式原生 Windows VHD api。
 
 ## <a name="span-idvirtual_disk_typesspanspan-idvirtual_disk_typesspanspan-idvirtual_disk_typesspanvirtual-disk-types"></a><span id="Virtual_Disk_Types"></span><span id="virtual_disk_types"></span><span id="VIRTUAL_DISK_TYPES"></span>虛擬磁片類型
 

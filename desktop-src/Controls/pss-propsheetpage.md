@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 02/23/2021
-ms.openlocfilehash: 78e1d1e4e6b4b2067083443bdb5dc4db5df59558
-ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
+ms.openlocfilehash: 1c1be3b6240f024b5aeee4a4d7a9d308cdb6572ae5080db00b3d05da30e02306
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "110550343"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119914458"
 ---
 # <a name="propsheetpage-structure"></a>PROPSHEETPAGE 結構
 
@@ -198,7 +198,7 @@ Comctl32.dll 版6和更新版本不能轉散發。 若要使用 Comctl32.dll 6 �
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端 | \[僅限 Windows Vista 桌面應用程式\]                                    |
-| 最低支援的伺服器 | 僅限 Windows Server 2003 \[ desktop 應用程式\]                              |
+| 最低支援的用戶端 | Windows\[僅限 Vista desktop 應用程式\]                                    |
+| 最低支援的伺服器 | Windows\[僅限 Server 2003 desktop 應用程式\]                              |
 | 標頭                   | Prsht.idl。h |
 | Unicode 與 ANSI 名稱                   | **PROPSHEETHEADERW** (Unicode) 和 **PROPSHEETHEADERA** (ANSI)  |

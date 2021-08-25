@@ -8,12 +8,12 @@ keywords:
 - 索引緩衝區，什麼是
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 241ade0721ae87b1371586bc901ee18f8975b53f
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
-ms.translationtype: HT
+ms.openlocfilehash: d51f7b0dbd60264b77f9d9dc83f39cbb4325464079d537c3ee741a942d26a139
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104315451"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119752018"
 ---
 # <a name="introduction-to-buffers-in-direct3d-11"></a>Direct3D 11 中的緩衝區簡介
 
@@ -89,6 +89,6 @@ ms.locfileid: "104315451"
 [緩衝區](overviews-direct3d-11-resources-buffers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

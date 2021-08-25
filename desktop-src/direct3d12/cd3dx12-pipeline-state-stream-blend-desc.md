@@ -15,12 +15,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d251be9cc1423babc58e1d3c3be87c5345308874
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 300506d2c41be5a5380f4f0f64c93779185fd59ced2e0dd613d926f8397ea85c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106974840"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119752168"
 ---
 # <a name="cd3dx12_pipeline_state_stream_blend_desc-structure"></a>CD3DX12 \_ 管線 \_ 狀態 \_ 串流 \_ BLEND \_ DESC 結構
 

@@ -7,12 +7,12 @@ keywords:
 - ILockBytes Strctd Stg.，實施
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e9d7cae82c1503fcb53d2cfd8fee39095eb60801
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d30f9786f29433bcc02e0b56f3ea9d45c949593f60962e80a650d80ed625da41
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104300311"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119867445"
 ---
 # <a name="ilockbytes---global-memory-implementation"></a>ILockBytes-全域記憶體執行
 
@@ -90,9 +90,9 @@ COM 提供的 [**IStorage：： stat**](/windows/desktop/api/Objidl/nf-objidl-is
 [**IStream**](/windows/desktop/api/Objidl/nn-objidl-istream)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

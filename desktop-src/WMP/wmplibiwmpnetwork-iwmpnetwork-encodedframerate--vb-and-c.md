@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8b4176a9c2492d0ce34ffd0936c48dbdef065d1b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 33f8a08572f65e1e44027ed25d84acfe7d917f92bf4bb63d5d9b8cca1e1201d2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106977396"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120000008"
 ---
 # <a name="iwmpnetworkencodedframerate-property"></a>IWMPNetwork：： encodedFrameRate 屬性
 
@@ -126,7 +126,7 @@ End Sub
 [**IWMPNetwork 介面 (VB 和 c # )**](iwmpnetwork--vb-and-c.md)
 </dt> <dt>
 
-[**(VB 和 c # 的 IWMPNetwork 幀 )**](wmplibiwmpnetwork-iwmpnetwork-framerate--vb-and-c.md)
+[**IWMPNetwork (VB 和 c # )**](wmplibiwmpnetwork-iwmpnetwork-framerate--vb-and-c.md)
 </dt> </dl>
 
  

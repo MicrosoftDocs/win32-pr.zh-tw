@@ -4,12 +4,12 @@ ms.assetid: 1BD7452B-2DF5-44e9-9B09-C29ABFFA5F93
 title: 檔案類型驗證器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c8e4a588e4889241762a9d8e0567d4a4542c0255
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9ad3d3e66d85413a209c6899ce16061fa1fd46468fa32462026485d49b7326dd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103849206"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120009508"
 ---
 # <a name="file-type-verifier"></a>檔案類型驗證器
 
@@ -19,9 +19,9 @@ ms.locfileid: "103849206"
 
 ## <a name="about-the-file-type-verifier-tool"></a>關於檔案類型驗證器工具
 
-檔案類型驗證程式是 [Windows 7 SDK](https://msdn.microsoft.com/windowsvista/bb980924.aspx)中提供的一種程式。 它的設計目的是協助開發人員建立自訂的 Windows [檔案類型](fa-file-types.md) ，以偵測其檔案類型的潛在問題。 雖然檔案類型驗證器只會在 Windows 7 和更新版本上執行，但是檔案類型驗證器所強制執行的規則會套用至其所檢查之功能可用的所有 Windows 版本。
+檔案類型驗證程式是[Windows 7 SDK](https://msdn.microsoft.com/windowsvista/bb980924.aspx)中提供的一種程式。 它的設計目的是協助建立自訂 Windows[檔案類型](fa-file-types.md)的開發人員，以偵測其檔案類型的潛在問題。 雖然檔案類型驗證器只會在 Windows 7 和更新版本上執行，但是檔案類型驗證器所強制執行的規則會套用到其所檢查功能的所有 Windows 版本。
 
-檔案類型驗證程式會對檔案類型執行數個測試，以確認它已正確註冊，而且會提供適當的 [檔案類型處理常式](fa-file-extensions.md) ，以便在 Windows 檔案總管適當地顯示檔案類型，並在適當的情況下支援為檔案內容編制索引。
+檔案類型驗證程式會對檔案類型執行數個測試，以確認它已正確註冊，而且會提供適當的[檔案類型處理常式](fa-file-extensions.md)，以便在 Windows 檔案總管適當地顯示檔案類型，並在適當的情況下支援為檔案內容編制索引。
 
 檔案類型驗證器會測試下列專案：
 
