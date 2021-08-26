@@ -1,27 +1,27 @@
 ---
 title: 透過大小定義和調整原則自訂功能區
-description: 功能區命令列中裝載的控制項受限於 Windows 功能區架構所強制執行的版面配置規則，並根據預設行為和版面配置範本的組合 (在功能區標記中宣告的架構定義和自訂) 。 這些規則會定義功能區架構的調適型配置行為，此行為會影響命令列中的控制項在執行時間如何適應各種功能區大小。
+description: 功能區命令列中裝載的控制項受限於 Windows 功能區架構所強制執行的版面配置規則，並根據預設行為和版面配置範本的組合， (在功能區標記中宣告的架構定義和自訂) 。 這些規則會定義功能區架構的調適型配置行為，此行為會影響命令列中的控制項在執行時間如何適應各種功能區大小。
 ms.assetid: b5869394-3fa9-4817-add9-54487434fc4f
 keywords:
-- Windows 功能區，自訂
+- Windows功能區，自訂
 - 功能區，自訂
-- Windows 功能區，SizeDefinition 範本
+- Windows功能區、SizeDefinition 範本
 - 功能區、SizeDefinition 範本
-- Windows 功能區，自訂範本
+- Windows功能區、自訂範本
 - 功能區、自訂範本
 - 自訂 Windows 功能區
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f6576a672aa8c3d328a341370a7568595e988908
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 2eff1a9d1b2582d5386ce6ea0e02e20cfb5a806e1aaa4a98529474a756b5a8a8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111444139"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119933551"
 ---
 # <a name="customizing-a-ribbon-through-size-definitions-and-scaling-policies"></a>透過大小定義和調整原則自訂功能區
 
-功能區命令列中裝載的控制項受限於 Windows 功能區架構所強制執行的版面配置規則，並根據預設行為和版面配置範本的組合 (在功能區標記中宣告的架構定義和自訂) 。 這些規則會定義功能區架構的調適型配置行為，此行為會影響命令列中的控制項在執行時間如何適應各種功能區大小。
+功能區命令列中裝載的控制項受限於 Windows 功能區架構所強制執行的版面配置規則，並根據預設行為和版面配置範本的組合， (在功能區標記中宣告的架構定義和自訂) 。 這些規則會定義功能區架構的調適型配置行為，此行為會影響命令列中的控制項在執行時間如何適應各種功能區大小。
 
 -   [簡介](#introduction)
     -   [功能區 SizeDefinition 範本](#customizing-a-ribbon-through-size-definitions-and-scaling-policies)
@@ -811,10 +811,10 @@ BigButtonsAndSmallButtonsOrInputs
 
 
 
-|  類型  |      Image                                                                                         |
+|  類型  |      映像                                                                                         |
 |--------|----------------------------------------------------------------------------------------------------|
 | 大  | ![內嵌大型自訂範本的圖片。](images/overviews/sizedefinition-custom-large.png)   |
-| 適中 | ![內嵌中型自訂範本的圖片。](images/overviews/sizedefinition-custom-medium.png) |
+| 中 | ![內嵌中型自訂範本的圖片。](images/overviews/sizedefinition-custom-medium.png) |
 | Small  | ![內嵌小型自訂範本的圖片。](images/overviews/sizedefinition-custom-small.png)   |
 | 快顯  | ![內嵌快顯視窗自訂範本的圖片。](images/overviews/sizedefinition-custom-popup.png)   |
 
@@ -832,7 +832,7 @@ BigButtonsAndSmallButtonsOrInputs
 [**調整**](windowsribbon-element-scale.md)
 </dt> <dt>
 
-[**群組**](windowsribbon-element-group.md)
+[**Group**](windowsribbon-element-group.md)
 </dt> </dl>
 
  

@@ -4,12 +4,12 @@ description: WinSNMP 應用程式必須透過動態連結程式庫 WSNMP32.DLL �
 ms.assetid: ba0b9443-3fcf-41e2-993e-54e042f9d785
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e31c30302f9f6d15cef221da46ce721dc4727a44
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 87cf78c4937996a44b2a82ebeb0b2963f9a4ffaada0288068b07cd3b60432c70
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104182978"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119886068"
 ---
 # <a name="software-requirements-for-the-winsnmp-api"></a>WinSNMP API 的軟體需求
 
@@ -29,11 +29,11 @@ WinSNMP 應用程式必須透過動態連結程式庫 WSNMP32.DLL 來存取 WinS
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 6b81814f-2d9e-4862-8633-6ba016c11dac
 title: PageImageableSize
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ee4e44bc9afe33b87d32b43c93eafc3b6d4ba4b0
-ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
+ms.openlocfilehash: 924c89f304c75863246f266e2c64818ee7ab21c173009a096d32c3d1ac6e178b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112395303"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119948261"
 ---
 # <a name="pageimageablesize"></a>PageImageableSize
 
@@ -27,7 +27,7 @@ ms.locfileid: "112395303"
 
 ## <a name="element-information"></a>項目資訊
 
-| Name                 | 值         |
+| 名稱                 | 值         |
 |----------------------|---------------|
 | 項目類型<br/>    | 屬性<br/> |
 | 範圍前置詞 <br/> | 頁面<br/>     |
@@ -69,7 +69,7 @@ ms.locfileid: "112395303"
 
 
 
-| Name                                    | 資料類型          | 單位               | 支援的值                       | 總結                                                                                                                    |
+| 名稱                                    | 資料類型          | 單位               | 支援的值                       | 摘要                                                                                                                    |
 |-----------------------------------------|--------------------|--------------------|----------------------------------------|----------------------------------------------------------------------------------------------------------------------------|
 | \_ImageableSizeWidthValue\_<br/>  | 整數<br/> | 微米<br/> | 大於 0。<br/>             | 指定相對於 PageOrientation 之應用程式媒體大小的水準維度。<br/>               |
 | \_ImageableSizeHeightValue\_<br/> | 整數<br/> | 微米<br/> | 大於 0。<br/>             | 指定相對於 PageOrientation 的應用程式媒體大小垂直維度。<br/>                 |

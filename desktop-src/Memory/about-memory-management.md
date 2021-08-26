@@ -4,12 +4,12 @@ ms.assetid: f259f3cb-81c0-4b5f-b6fa-9681a278019a
 title: 關於記憶體管理
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4110bf1d0768f1321fd89ddd1d5a985e3e54aa75
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 53b2cc91b2a907fa5f9db24f42393be51bb8795200357eff0b612f8241219361
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971406"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119869968"
 ---
 # <a name="about-memory-management"></a>關於記憶體管理
 

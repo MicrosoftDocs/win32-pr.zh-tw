@@ -4,12 +4,12 @@ ms.assetid: 74092DF2-DE32-4E3F-B984-A3BC4543E605
 title: ICspAlgorithm 屬性
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d7f532c1f2b28ce010a7bbc9fdcad339be1516ac
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5174eb8a37bc8e5007955bdd5159e5bad7f6097a7007b9081bc2c5aeb13d6106
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106997184"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119960728"
 ---
 # <a name="icspalgorithm-properties"></a>ICspAlgorithm 屬性
 

@@ -9,12 +9,12 @@ keywords:
 - ADSI ADSI，範例程式碼 C/c + +，將 IDispatch 方法委派給匯總工具
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 435a4552b364afbf909d04a759e3713ce69befab
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: b783e9448926d6d29a27e5fb0db519175f82a9af1935e9f13655db743a946bcb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "106968515"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119930008"
 ---
 # <a name="supporting-dual-or-dispatch-interfaces"></a>支援雙重或分派介面
 
@@ -95,6 +95,6 @@ STDMETHODIMP MyExtension::Invoke(DISPID dispidMember, REFIID riid,
 
 強烈建議延伸模組寫入器支援雙重介面，而不是其擴充物件中的分派介面。 雙重介面可讓用戶端擁有更快速的存取權，只要在用戶端中啟用 vtable 存取即可。 如需詳細資訊，請參閱 [ADSI 擴充模型中的晚期繫結與 Vtable 存取](late-binding-vs--vtable-access-in-the-adsi-extension-model.md)。 以目前的模型為基礎，執行雙重介面應該比執行分派介面更為困難。
 
- 
+ 
 
- 
+ 

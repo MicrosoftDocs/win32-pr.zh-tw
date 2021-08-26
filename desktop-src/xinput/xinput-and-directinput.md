@@ -4,12 +4,12 @@ description: XInput 是一種 API，可讓應用程式從 Xbox Controller 接收
 ms.assetid: 0f29a47b-24ed-c0fa-e9e9-8a061619845c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 58339616f1e9e3a43529b6853bfc193d359ef11e
-ms.sourcegitcommit: b3839bea8d55c981d53cb8802d666bf49093b428
+ms.openlocfilehash: b01484e7c1419dea097ddf440d82a92edb527327f8696afa5f5864fb1b12453b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/16/2021
-ms.locfileid: "114373193"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119926218"
 ---
 # <a name="xinput-and-directinput"></a>XInput 和 DirectInput
 

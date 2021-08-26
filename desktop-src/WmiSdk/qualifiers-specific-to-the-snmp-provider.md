@@ -13,12 +13,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: a1405cb4d9609380fdf35d6ce05a0fc9e1255ba1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3b05e2d6994bd0bee1a1f0e30287169c23b69ef574ba47fab1f3d8b5db5abedf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103691515"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119996088"
 ---
 # <a name="qualifiers-specific-to-the-snmp-provider"></a>SNMP 提供者專用的限定詞
 
@@ -85,7 +85,7 @@ SNMP 代理程式在讀取作業期間用來驗證 SNMP 通訊協定資料單位
 
 資料類型： **CIM \_ 字串**
 
-用來與 SNMP 代理程式通訊的傳輸通訊協定。 目前唯一有效的值是網際網路通訊協定 (IP) 和網際網路封包交換 (IPX) 。 預設值為 [IP]。 此辨識符號是選擇性的。
+用來與 SNMP 代理程式通訊的傳輸通訊協定。 目前唯一有效的值是網際網路通訊協定 (IP) 和網際網路封包 Exchange (IPX) 。 預設值為 [IP]。 此辨識符號是選擇性的。
 
 </dd> <dt>
 

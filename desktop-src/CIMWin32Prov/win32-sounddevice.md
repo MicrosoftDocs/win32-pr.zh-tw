@@ -1,5 +1,5 @@
 ---
-description: 代表執行 Windows 的電腦系統上的音效裝置內容。
+description: 代表執行 Windows 之電腦系統上的聲音裝置屬性。
 ms.assetid: 5471ffe9-60a3-466f-a608-e6268ba73c2b
 ms.tgt_platform: multiple
 title: Win32_SoundDevice 類別
@@ -39,16 +39,16 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 73e0ef7cbc71872d26f75311b6d72ac48bbfae8e
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 3efe326ce7b67ca27250960cd3a072c9ca39f78dba36676944e24ee7ea698463
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111484"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119917488"
 ---
 # <a name="win32_sounddevice-class"></a>Win32 \_ SoundDevice 類別
 
-**Win32 \_ SoundDevice** [WMI 類別](../wmisdk/retrieving-a-class.md)代表在執行 Windows 的電腦系統上，聲音裝置的屬性。
+**Win32 \_ SoundDevice** [WMI 類別](../wmisdk/retrieving-a-class.md)代表執行 Windows 之電腦系統上的聲音裝置屬性。
 
 下列語法已經過受管理物件格式 (MOF) 程式碼簡化，並包含所有已繼承的屬性。 屬性會依字母順序列出，而不是依 MOF 順序列出。
 
@@ -912,7 +912,7 @@ Windows 仍在設定裝置。
 限定詞： [**架構**](../wmisdk/standard-qualifiers.md) ( "Win32" ) 
 </dt> </dl>
 
-Windows 隨插即用邏輯裝置的裝置識別碼。
+Windows隨插即用邏輯裝置的裝置識別碼。
 
 這個屬性繼承自 [**CIM \_ LogicalDevice**](cim-logicaldevice.md)。
 

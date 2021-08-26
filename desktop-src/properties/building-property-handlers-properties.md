@@ -4,12 +4,12 @@ ms.assetid: a773c7b3-a1a2-4cce-ae5f-b54217ea06f4
 title: 瞭解屬性處理常式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8b44d0a3a6d0a1b6c929eb151551155d0b5435a0
-ms.sourcegitcommit: ecd0ba4732f5264aab9baa2839c11f7fea36318f
+ms.openlocfilehash: 42139a869551f0f4dc786f02c66c673a49495ba01f5258aeeff12051bd3f60b8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "113481933"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119946968"
 ---
 # <a name="understanding-property-handlers"></a>瞭解屬性處理常式
 

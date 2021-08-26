@@ -4,12 +4,12 @@ description: 標題控制項通知
 ms.assetid: 29b91766-fed5-43c3-8341-be3ae14f6777
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b331d5287a4d6905777c220a028f5fda1db111ad
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 3facdaf976761be1b80824a7ec3743d05db4d6885d5fe4ddc2709ca9fa469538
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "103853868"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119916728"
 ---
 # <a name="header-control-notifications"></a>標題控制項通知
 

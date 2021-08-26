@@ -4,23 +4,23 @@ description: 地圖示記
 ms.assetid: 83e9bcc5-f158-4d08-a3bd-17118a28dd50
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 13167e21ee8d57adbd3331e09f9eca943a31c1f9
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 939de6bcc4d24f11f21d17afca7c757fa4ed8adc5e33ca4a69ed9988c8fb9069
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103673479"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119961278"
 ---
 # <a name="map-tag"></a>地圖示記
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 <dl> <dt>
 
 <span id="Description"></span><span id="description"></span><span id="DESCRIPTION"></span>**描述**
 </dt> <dd>
 
-將說出的文字對應至出現在文字提示中的文字。
+地圖文字文字提示中顯示的文字。
 
 </dd> <dt>
 
@@ -38,7 +38,7 @@ ms.locfileid: "103673479"
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -46,9 +46,9 @@ ms.locfileid: "103673479"
 
 此標籤可讓您使用不同的語音文字，而不是文字氣球中顯示的文字。
 
- 
+ 
 
- 
+ 
 
 
 

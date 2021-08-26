@@ -4,12 +4,12 @@ ms.assetid: a4fb5714-2806-4925-a6d1-63ecfe50e10a
 title: XPS OM 色彩管理
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2ec66f2300b80e9e6b83e3f7977300319547e148
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bc341fc21e9fafe4ecf7a8583619cf63e0b06c039f202898d452cab7b5a49636
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106987461"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119886188"
 ---
 # <a name="xps-om-color-management"></a>XPS OM 色彩管理
 

@@ -4,16 +4,16 @@ description: IAgentCommands SetVoice
 ms.assetid: dfb3b58a-7f24-4366-8f04-93a9e956fdc8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8a8e29936dbca65ffded5f8a5e5ea5297b28362e
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: d02fb124b51a3be1796258fdcb8ffa31d8b81b59636027f3d99497b27cd2bd00
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104463017"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119961898"
 ---
 # <a name="iagentcommandssetvoice"></a>IAgentCommands::SetVoice
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 ``` syntax
 HRESULT SetVoice(
@@ -84,7 +84,7 @@ HRESULT SetVoice(
 > [!Note]  
 > 可用的文法功能可能取決於語音辨識引擎。 您可能會想要檢查引擎的廠商，以判斷支援哪些文法選項。 使用 [**SRModeID**](srmodeid-property.md) 來使用特定的引擎。
 
- 
+ 
 
 這個屬性的操作取決於 Microsoft 代理程式伺服器的語音辨識狀態的狀態。 例如，如果已停用或未安裝語音辨識，此函式就不會立即生效。 但是，如果在會話期間啟用語音辨識，則當其用戶端應用程式為輸入-主動時，命令就會變成可存取。
 
@@ -93,6 +93,6 @@ HRESULT SetVoice(
 [**IAgentCommands：： GetVoice**](iagentcommands--getvoice.md)、 [**IAgentCommands：： SetCaption**](iagentcommands--setcaption.md)、 [**IAgentCommands：： SetVisible**](iagentcommands--setvisible.md)
 
 
- 
+ 
 
- 
+ 

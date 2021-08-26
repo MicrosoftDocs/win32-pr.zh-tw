@@ -4,16 +4,16 @@ description: IAgentCommandsEx InsertEx
 ms.assetid: 037c47df-f026-42dc-8c37-2704518d3fd2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d59b504cfa475c3ac63888796d7df8d800bfd72
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: d2b43a9e449e16a3be3017a67082da20cb31eb1352a81f699908b0b94267ea90
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104023393"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119961818"
 ---
 # <a name="iagentcommandsexinsertex"></a>IAgentCommandsEx::InsertEx
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 ``` syntax
 HRESULT InsertEx(
@@ -105,6 +105,6 @@ HRESULT InsertEx(
 [**IAgentCommandsEx：： AddEx**](iagentcommandsex--addex.md)、 [**IAgentCommandsEx：： SetHelpCoNtextID**](iagentcommandsex--sethelpcontextid.md)、 [**IAgentCommands：： Add**](iagentcommands--add.md)、 [**IAgentCommands：： Remove**](iagentcommands--remove.md)、 [**IAgentCommands：： RemoveAll**](iagentcommands--removeall.md)
 
 
- 
+ 
 
- 
+ 

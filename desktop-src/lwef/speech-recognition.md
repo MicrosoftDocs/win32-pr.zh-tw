@@ -4,16 +4,16 @@ description: 語音辨識
 ms.assetid: cb5ac509-12a4-4ca4-8776-424568cf780d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d5c037ced96c386a5e0baf18eeba258422e0193
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9dd36ea5754d53ceda2761635ecb838fdfb0328617827ca90fc969af915b4ea6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106967853"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119960848"
 ---
 # <a name="speech-recognition"></a>語音辨識
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 語音辨識提供非常自然且熟悉的介面來與字元互動。 不過，語音輸入也會帶來許多挑戰。 語音引擎目前沒有大量的人類語音通訊所有產品，例如手勢、聲調和臉部表情。 此外，自然語音通常是未系結的。 說話者很容易就能超過引擎目前的詞彙或 *文法*。 同樣地，任何給定的要求或回應都可能會有不同的用語或單字順序。 此外，語音辨識引擎通常必須處理喇叭環境中的大型變化。 例如，背景雜訊、麥克風品質和位置可能會影響輸入品質。 同樣地，不同的說話者發音或甚至是相同的喇叭變化，例如當喇叭有冷時，將聲場資料轉換成具像的理解是一項挑戰。 最後，語音引擎也必須處理類似發音的單字或片語，例如「新增」、「知道」和「gnu」、「wreck 優秀的海灘」和「辨識語音」。
 
@@ -31,9 +31,9 @@ ms.locfileid: "106967853"
 -   [明確和限制選擇](clarify-and-limit-choices.md)
 -   [提供良好的錯誤修復](provide-good-error-recovery.md)
 
- 
+ 
 
- 
+ 
 
 
 

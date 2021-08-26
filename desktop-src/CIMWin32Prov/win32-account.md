@@ -1,5 +1,5 @@
 ---
-description: 包含執行 Windows 的電腦系統已知的使用者帳戶和群組帳戶的相關資訊。
+description: 包含執行 Windows 之電腦系統已知的使用者帳戶和群組帳戶的相關資訊。
 ms.assetid: c0916f20-05be-4282-9642-28cec606bfd7
 ms.tgt_platform: multiple
 title: Win32_Account 類別
@@ -23,16 +23,16 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 2af601799095192d7af4ffedce0c8e0cd28bff21
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: dc98f826ddae09bd507517e564ec2d9387d6bf17147d5eac36596bdb9d1e81ba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111377"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119918118"
 ---
 # <a name="win32_account-class"></a>Win32 \_ 帳戶類別
 
-**Win32 \_ 帳戶** 抽象 [WMI 類別](/windows/desktop/WmiSdk/retrieving-a-class)包含使用者帳戶和使用者帳戶的相關資訊，以及執行 Windows 的電腦系統已知的群組帳戶。 Windows 網域辨識的使用者或組名是此類別 (或成員) 的子系。
+Win32 帳戶的「抽象 [WMI 類別](/windows/desktop/WmiSdk/retrieving-a-class)」（ **Win32 \_ Account** ）包含使用者帳戶和使用者帳戶的相關資訊，以及 Windows 執行之電腦系統的群組帳戶。 Windows 網域辨識的使用者或組名是此類別的子系 (或成員) 。
 
 下列語法已經過受管理物件格式 (MOF) 程式碼簡化，並包含所有已繼承的屬性。 屬性會依字母順序列出，而不是依 MOF 順序列出。
 
@@ -114,7 +114,7 @@ class Win32_Account : CIM_LogicalElement
 限定詞： [**key**](/windows/desktop/WmiSdk/key-qualifier)、 [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ( "Win32API \| Network Management 函數 \| Domain" ) 
 </dt> </dl>
 
-群組或使用者所屬之 Windows 網域的名稱。
+群組或使用者所屬 Windows 網域的名稱。
 
 範例： "NA-SALES"
 
@@ -166,7 +166,7 @@ class Win32_Account : CIM_LogicalElement
 限定詞：覆 [**寫**](/windows/desktop/WmiSdk/standard-qualifiers) ( "Name" ) ， [**key**](/windows/desktop/WmiSdk/key-qualifier)， [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ( "Win32API \| Network Management 結構 \| 名稱" ) 
 </dt> </dl>
 
-此類別的 **domain** 屬性所指定之網域上的 Windows 系統帳戶名稱。 這個屬性會覆寫繼承自 [**CIM \_ ManagedSystemElement**](cim-managedsystemelement.md)的 **Name** 屬性。
+此類別的 **domain** 屬性所指定之網域上 Windows 系統帳戶的名稱。 這個屬性會覆寫繼承自 [**CIM \_ ManagedSystemElement**](cim-managedsystemelement.md)的 **Name** 屬性。
 
 </dd> <dt>
 
@@ -182,7 +182,7 @@ class Win32_Account : CIM_LogicalElement
 限定詞： [**Fixed**](/windows/desktop/WmiSdk/standard-wmi-qualifiers)， [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ( "Win32API \| Security 識別碼 (sid) " ) 
 </dt> </dl>
 
-此帳戶 (SID) 的安全識別碼。 SID 是變數長度的字串值，用來識別信任者。 每個帳戶都有一個由授權單位所發行的唯一 SID (例如儲存在安全性資料庫中的 Windows 網域) 。 當使用者登入時，系統會從資料庫抓取使用者的 SID，並將其放在使用者的存取權杖中。 系統會在使用者的存取權杖中使用 SID，以在所有後續與 Windows 安全性的互動中識別使用者。 使用 SID 做為使用者或群組的唯一識別碼時，無法再次使用它來識別另一個使用者或群組。
+此帳戶 (SID) 的安全識別碼。 SID 是變數長度的字串值，用來識別信任者。 每個帳戶都有一個由授權單位所發行的唯一 SID (例如儲存在安全性資料庫中的 Windows 網域) 。 當使用者登入時，系統會從資料庫抓取使用者的 SID，並將其放在使用者的存取權杖中。 系統會在使用者的存取權杖中使用 SID，以在後續與 Windows 安全性的互動中識別使用者。 使用 SID 做為使用者或群組的唯一識別碼時，無法再次使用它來識別另一個使用者或群組。
 
 </dd> <dt>
 

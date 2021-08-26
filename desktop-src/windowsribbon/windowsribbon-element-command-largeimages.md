@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cf71557506d4b9cced21069473d1a6db9b208b8c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 66214eb05910296b2c03a749d88134bef68f86badc2ffd7f7b69d0ba6adfdd5d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466584"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119931611"
 ---
 # <a name="commandlargeimages-property"></a>LargeImages 屬性
 
@@ -41,7 +41,7 @@ ms.locfileid: "104466584"
 
 | 元素                                                 | 描述                                        |
 |---------------------------------------------------------|----------------------------------------------------|
-| [**圖像**](windowsribbon-element-image.md)<br/> | 可能會發生一次或多次<br/> <br/> |
+| [**映像**](windowsribbon-element-image.md)<br/> | 可能會發生一次或多次<br/> <br/> |
 
 
 
@@ -61,7 +61,7 @@ ms.locfileid: "104466584"
 
 每個 [**命令**](windowsribbon-element-command.md)最多可能會發生一次。
 
-影像資源必須符合 Windows 中所使用的標準點陣圖 (BMP) 圖形格式。
+影像資源必須符合 Windows 中使用的標準點陣圖 (BMP) 圖形格式。
 
 ## <a name="examples"></a>範例
 
@@ -117,8 +117,8 @@ ms.locfileid: "104466584"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>              |
+| 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/> |
 
 
 

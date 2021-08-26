@@ -4,12 +4,12 @@ ms.assetid: ef37d644-473f-4e51-9785-5b44fe0dce42
 title: 列舉堆積
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 79ad6ea7e23f480b4d4e27885d296f1be1632053
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6c8e995dde36911947e1c510103503a99a307219bc2661a7efb9569fdab4ca20
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970401"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119869838"
 ---
 # <a name="enumerating-a-heap"></a>列舉堆積
 

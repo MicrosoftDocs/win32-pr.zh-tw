@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 262abf623b34a1e3e640adb588cbe754c4247f79
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f43403186e38a96498c69b2a1e264a74f17263fb439043c62b53372a54cae610
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103691955"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119851316"
 ---
 # <a name="esentrfsfailureexception-constructor"></a>EsentRfsFailureException 函式
 

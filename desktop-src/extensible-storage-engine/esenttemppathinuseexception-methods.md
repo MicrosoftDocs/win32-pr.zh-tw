@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55103039
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: eb5a020664018d3cd3a0f467b50587b4dd9dd78f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4eafddb9ef53d324232edf009bb2b8257e9e293608a93b4a629307f02ca201f9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193197"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119850698"
 ---
 # <a name="esenttemppathinuseexception-methods"></a>EsentTempPathInUseException 方法
 

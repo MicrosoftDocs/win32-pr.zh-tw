@@ -12,12 +12,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
 api_location: ''
-ms.openlocfilehash: f1776643d062db048a7448d2cd032b49dd6d5d77
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 7623d9e9e5801ee88a4965834d8f00bb3ba53c1fbe4cfea0f2030f01e80c32d1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104023934"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119917468"
 ---
 # <a name="id2d1pathgeometry1computepointandsegmentatlength-methods"></a>ID2D1PathGeometry1：： ComputePointAndSegmentAtLength 方法
 

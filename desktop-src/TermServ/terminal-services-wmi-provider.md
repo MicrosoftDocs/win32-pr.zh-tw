@@ -7,12 +7,12 @@ keywords:
 - 遠端桌面服務遠端桌面服務，WMI 提供者
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 25d947db18c0cde63bcb6c4c3954fc9811e0f0f1
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 3ec4ed84dee9b2521c392b8b39ee1297121a85e1c4f8ad41f7d96d0d73042a5f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104023639"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119869598"
 ---
 # <a name="remote-desktop-services-wmi-provider"></a>遠端桌面服務 WMI 提供者
 
@@ -31,6 +31,6 @@ ms.locfileid: "104023639"
 [遠端桌面服務 WMI 提供者參考](terminal-services-wmi-provider-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

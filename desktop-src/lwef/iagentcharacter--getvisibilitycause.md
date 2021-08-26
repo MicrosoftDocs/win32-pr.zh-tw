@@ -4,16 +4,16 @@ description: IAgentCharacter GetVisibilityCause
 ms.assetid: 46f681de-1c99-4f90-a3fe-aae04bb75339
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6013385144b82b79a0f17ae6443b094a9d9c8a4c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: dfdae2465ccc9e7153a0e9cc8202027137e2a7c0f07fdfb5da2a83a7c0d1ed1f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372690"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119962238"
 ---
 # <a name="iagentcharactergetvisibilitycause"></a>IAgentCharacter::GetVisibilityCause
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 ``` syntax
 HRESULT GetVisibilityCause(

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 5adf390b7abf8fcbdb017ecde04bde76bf4bc001
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: bb94d5fae92d7494a4ac347591e9d571a7765d2be88072559fd74687eea87e97
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106992944"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119915928"
 ---
 # <a name="cmemallocator-class"></a>CMemAllocator 類別
 
@@ -33,18 +33,18 @@ ms.locfileid: "106992944"
 
 
 
-| 受保護的成員變數                              | Description                                                              |
+| 受保護的成員變數                              | 描述                                                              |
 |---------------------------------------------------------|--------------------------------------------------------------------------|
 | [**m \_ pBuffer**](cmemallocator-m-pbuffer.md)           | 包含緩衝區之記憶體區塊的指標。                   |
-| 保護方法                                       | Description                                                              |
+| 保護方法                                       | 描述                                                              |
 | [**自由**](cmemallocator-free.md)                      | 預留位置方法;在取消認可操作期間呼叫。                  |
 | [**ReallyFree**](cmemallocator-reallyfree.md)          | 釋放緩衝區的記憶體。                                     |
 | [**配置**](cmemallocator-alloc.md)                    | 配置緩衝區的記憶體。                                        |
-| 公用方法                                          | Description                                                              |
+| 公用方法                                          | 描述                                                              |
 | [**CMemAllocator**](cmemallocator-cmemallocator.md)    | 函式方法。                                                      |
 | [**~ CMemAllocator**](cmemallocator--cmemallocator.md) | 函式方法。                                                       |
 | [**CreateInstance**](cmemallocator-createinstance.md)  | 建立 **CMemAllocator** 類別的新實例。                   |
-| IMemAllocator 方法                                   | Description                                                              |
+| IMemAllocator 方法                                   | 描述                                                              |
 | [**SetProperties**](cmemallocator-setproperties.md)    | 指定要配置的緩衝區數目和每個緩衝區的大小。 |
 
 

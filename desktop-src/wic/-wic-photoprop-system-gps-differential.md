@@ -4,12 +4,12 @@ ms.assetid: 330d1f88-5f54-4e29-b57f-eb7112203e04
 title: 系統 GPS. 差異相片中繼資料原則
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4dc3f114683d324a067fe4ce4034e2de5cfc88da
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 728df47fd8e6e9748b7208b79444ba8fa257fa49c92587df199441de941f4fdd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320407"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119931798"
 ---
 # <a name="systemgpsdifferential-photo-metadata-policy"></a>系統 GPS. 差異相片中繼資料原則
 

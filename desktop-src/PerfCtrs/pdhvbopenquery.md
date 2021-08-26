@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Pdh.dll
-ms.openlocfilehash: c657f033e2e972473218f2b283e03b11659d9f2c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 70d207696f68b9ef86ba0bae1f596826bd6e400d05d011b330f67241e186f5eb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104115561"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119962388"
 ---
 # <a name="pdhvbopenquery-function"></a>PdhVbOpenQuery 函式
 
@@ -48,7 +48,7 @@ ms.locfileid: "104115561"
 
 
 
-| 傳回碼                                                                                                     | Description                                                  |
+| 傳回碼                                                                                                     | 描述                                                  |
 |-----------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------|
 | <dl> <dt>**PDH \_ 不正確 \_ 引數**</dt> </dl>           | 引數無效或不正確。<br/>             |
 | <dl> <dt>**PDH \_ 記憶體 \_ 配置 \_ 失敗**</dt> </dl> | 無法配置暫存記憶體緩衝區。<br/> |
@@ -63,8 +63,8 @@ ms.locfileid: "104115561"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                               |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                               |
 | 程式庫<br/>                  | <dl> <dt>Pdh. .lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Pdh.dll</dt> </dl> |
 

@@ -4,12 +4,12 @@ ms.assetid: b4954e05-64d0-434a-96fd-6185671252d0
 title: 規則運算式範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 11fe207be6378754bfe4b3e504d51e6ff49cadba
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8d1f3ac4428058a2c74b0285cd52c13a265b92c3379cef1f2ae8b2f35e19fbff
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106985095"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119934688"
 ---
 # <a name="regular-expression-examples"></a>規則運算式範例
 

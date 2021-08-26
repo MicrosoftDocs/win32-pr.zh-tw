@@ -3,7 +3,7 @@ title: 'EM_EMPTYUNDOBUFFER 訊息 (Winuser .h) '
 description: 重設編輯控制項的復原旗標。 每當編輯控制項內的作業可以復原時，就會設定 [復原] 旗標。 您可以將此訊息傳送至編輯控制項或 rich edit 控制項。
 ms.assetid: a4ff7bd9-f8ae-4f18-8429-4ceaaeeb0f94
 keywords:
-- EM_EMPTYUNDOBUFFER message Windows 控制項
+- EM_EMPTYUNDOBUFFER 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0abbdc067b603a032b8d311ddd7930a8ca6de01c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 63d59dab38bca921e2125377889f8d18ddf6eb45c023badeead47f7e07b860fb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465900"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119915898"
 ---
 # <a name="em_emptyundobuffer-message"></a>EM \_ EMPTYUNDOBUFFER 訊息
 
@@ -63,9 +63,9 @@ ms.locfileid: "104465900"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                     |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 

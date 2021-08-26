@@ -4,12 +4,12 @@ ms.assetid: 8a025bee-65e1-40a7-a269-72a93aca827b
 title: 搜尋
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 93436c921599795943308e08b7a2443331c768c4
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: a6c3fade741ae1766118fc3c1b7dc479a0cdb716c84745dbab178742909a7545
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108113826"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119944788"
 ---
 # <a name="search"></a>搜尋
 
@@ -27,7 +27,7 @@ ms.locfileid: "108113826"
 | [GatherTime](./props-system-search-gathertime.md)<br/>                                           | 日期時間值，表示 Windows Search 收集程式最後將此檔的屬性推送至 Windows Search 收集程式外掛程式的時間。<br/>                                                                                                                                                                                                 |
 | [擊中數](./props-system-search-hitcount.md)<br/>                                               | 在 Windows Search 索引上使用 CONTAINS 時，這是詞彙的相符專案數。 如果有多個包含，會計算最少的點擊次數，或計算最大的點擊次數。<br/>                                                                                                                                          |
 | [IsClosedDirectory](./props-system-search-iscloseddirectory.md)<br/>                             | 由容器專案發出為 **TRUE** ，表示如果容器專案自上次增量索引驗證編目之後未變更，索引子就不需要列舉其子專案。 這有助於優化索引子效能。<br/>                                                                                       |
-| [IsFullyContained](./props-system-search-isfullycontained.md)<br/>                               | 由容器的所有子專案發出為 **true** (例如電子郵件或副檔名為 .zip 的壓縮檔案) ，會發出 [IsClosedDirectory](./props-system-search-iscloseddirectory.md) 為 **true**。 這可確保子專案包含在搜尋索引中。<br/>                                                              |
+| [IsFullyContained](./props-system-search-isfullycontained.md)<br/>                               | 由容器的所有子專案發出為 **true** (例如電子郵件或副檔名為 .zip 的壓縮檔案，) 會發出 [IsClosedDirectory](./props-system-search-iscloseddirectory.md) 為 **true**。 這可確保子專案包含在搜尋索引中。<br/>                                                              |
 | [QueryFocusedSummary](./props-system-search-queryfocusedsummary.md)<br/>                         | 檔的查詢焦點摘要。<br/>                                                                                                                                                                                                                                                                                                                        |
 | [QueryFocusedSummaryWithFallback](./props-system-search-queryfocusedsummarywithfallback.md)<br/> | 檔的查詢焦點摘要。 如果沒有可用的，則會傳回 AutoSummary。<br/>                                                                                                                                                                                                                                                                     |
 | [QueryPropertyHits](props-system-search-querypropertyhits.md)<br/>                                    | 包含查詢中相符屬性的清單。<br/>                                                                                                                                                                                                                                                                                                             |

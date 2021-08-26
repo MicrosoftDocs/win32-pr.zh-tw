@@ -4,12 +4,12 @@ ms.assetid: 4d0aa672-1ff8-4fb1-82d2-76553c2b0209
 title: IsNetworkConnected
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c016b97dc3e966407582e0447ddeae1c4ffb86d6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bde5dfb7738c46cf8797286ef5894b6e993c6aed9a43b0d6dea67fa15fdf7302
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103692891"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119885548"
 ---
 # <a name="systemdevicesisnetworkconnected"></a>IsNetworkConnected
 

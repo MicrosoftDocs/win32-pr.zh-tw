@@ -4,12 +4,12 @@ ms.assetid: 93773eb7-141a-49f3-9306-ffbda2f4ab9f
 title: '登錄存取遮罩 (WinNT. h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 63e4ebd67f93368215ebcdcd362595d0341adb52
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 85f3d774c474c27896c16bba5c7552713f248519aa86ef56da0da5b704234b19
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106997205"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119870108"
 ---
 # <a name="enlistment-access-masks"></a>登記存取遮罩
 

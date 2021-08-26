@@ -4,12 +4,12 @@ ms.assetid: a7eb24b3-7e23-4798-8584-30a171fa4f04
 title: 本機快取
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c8132bc51831db752422de1e3071ee3ef0b33a1b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f9d60fa71274bfcbf559ff57a3ab1a6fceba13d47315d80d9c3722a2a206b611
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103852119"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119927618"
 ---
 # <a name="local-caching"></a>本機快取
 
