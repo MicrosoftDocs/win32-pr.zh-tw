@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - PortableDevice.h
-ms.openlocfilehash: e56e3e66cd20abaeb1daf0a674633a36b57a9575
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c8bc0d667e329db3afccf76497409350d7aa7250b0e6529d0b3f4ddae7a32370
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106984007"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119927988"
 ---
 # <a name="wpd_capture_modes-enumeration"></a>WPD \_ CAPTURE \_ 模式列舉
 

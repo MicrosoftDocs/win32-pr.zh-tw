@@ -4,12 +4,12 @@ ms.assetid: ac30d5c2-13a1-4f9e-a519-2bf428e21c75
 title: 版面配置分析
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e0901e7c7df96bec5ea3972f643469033fbb22ed
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f8131859dd7e4c7bd6927db42bd605541001ac0f1222bfbf27b0e59809d4b7bd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106969405"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119934818"
 ---
 # <a name="layout-analysis"></a>版面配置分析
 
@@ -19,7 +19,7 @@ ms.locfileid: "106969405"
 
 
 
-| 類型          | Description                                                                      |
+| 類型          | 描述                                                                      |
 |---------------|----------------------------------------------------------------------------------|
 | **區段**   | 辨識區段。<br/>                                                |
 | **線條**      | 包含一或多個辨識區段的手寫行。<br/> |

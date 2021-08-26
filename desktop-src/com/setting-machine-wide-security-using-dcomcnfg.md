@@ -4,12 +4,12 @@ description: 當您想讓一部電腦上的所有應用程式都未提供自己�
 ms.assetid: 23d1e222-c00b-497c-adc8-4ae14c5bdd98
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c7feaaf356263a48c2c93eb9b3b3764b7352cd39
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7914fd3b1561900426e2928a5277cb845918e3b8d1b1ad1569ea8db0d112e218
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372404"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119954368"
 ---
 # <a name="setting-system-wide-security-using-dcomcnfg"></a>使用 DCOMCNFG 設定 System-Wide 安全性
 
@@ -118,7 +118,7 @@ Dcomcnfg.exe 可讓您設定存取權限，以控制被授與或拒絕存取這�
 > [!Note]  
 > 如果您停用遠端電腦上的 DCOM，則在重新啟用 DCOM 之後，您將無法從遠端存取該電腦。 若要重新啟用 DCOM，您將需要該電腦的實體存取權。
 
- 
+ 
 
 **手動啟用 (或停用電腦的) DCOM**
 
@@ -137,9 +137,9 @@ Dcomcnfg.exe 可讓您設定存取權限，以控制被授與或拒絕存取這�
 [設定整個進程的安全性](setting-processwide-security.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

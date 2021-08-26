@@ -4,12 +4,12 @@ ms.assetid: 1e4c71ce-6846-4e64-9346-455ed82aa458
 title: 要求物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c51e81cae01f2624ba863b304c0a5f732b221199
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3bcf6da101c3642ffe31b05efb18279a79bcfc28ed24af7a959f3275d9cbc4f1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106982413"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119905888"
 ---
 # <a name="request-object"></a>要求物件
 

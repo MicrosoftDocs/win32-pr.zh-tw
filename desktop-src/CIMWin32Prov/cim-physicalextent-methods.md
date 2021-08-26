@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: CIM_PhysicalExtent 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d9476bc620efe473fb4e51c5d59922b4683d0a68
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 74a52fe86dd5a6abedbc0d0ff1a347efb93535d754f8862b0d22b30c69ca754a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847500"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119921268"
 ---
 # <a name="cim_physicalextent-methods"></a>CIM \_ PhysicalExtent 方法
 

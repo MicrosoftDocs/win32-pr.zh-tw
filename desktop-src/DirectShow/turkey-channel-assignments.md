@@ -4,12 +4,12 @@ ms.assetid: 840dbd02-a500-47fe-b8ce-5ed2e902b4a6
 title: 土耳其通道指派
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5c68b24b6226572877c007e67e03502192bd0f1a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8c621e2e73bbf850adec34f9f65f847d9b1f688b6bd86b5d9bf92d96430190ba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193135"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119903678"
 ---
 # <a name="turkey-channel-assignments"></a>土耳其通道指派
 
@@ -17,7 +17,7 @@ ms.locfileid: "104193135"
 
 如需下列資料表的說明，請參閱 [資料表和指派](tables-and-assignments.md)。
 
-在 Windows 7 中引進了下列通道指派。 先前使用的是 [Unicable Frequency 資料表](unicable-frequency-table.md) 。
+Windows 7 中引進了下列通道指派。 先前使用的是 [Unicable Frequency 資料表](unicable-frequency-table.md) 。
 
 -   [廣播指派](#broadcast-assignments)
 -   [纜線指派](#cable-assignments)

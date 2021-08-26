@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a1e3e72f5c401b8cbb0e5e5de45f594d61af6275
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a159d9c8b4e8c4b5086fff9c4fc6c67c0a6e33464eeefee77d15a620b157bd55
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384573"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119988148"
 ---
 # <a name="sendmessage-method-of-the-win32_virtualdesktopsession-class"></a>Win32 VirtualDesktopSession 類別的 SendMessage 方法 \_
 

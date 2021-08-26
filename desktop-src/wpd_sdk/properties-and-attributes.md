@@ -4,12 +4,12 @@ ms.assetid: 3bfbe8d0-6ad5-42de-afdd-d83328aaaa62
 title: 屬性和屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 047b7511633094a0a72356055b1ca6b221d72121
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 99c3956809e2169e9a6e72fef2b569ebc95975f117ddff17ea7a2780371545fd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320908"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120006238"
 ---
 # <a name="properties-and-attributes"></a>屬性和屬性
 

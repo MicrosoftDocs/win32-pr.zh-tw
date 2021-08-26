@@ -4,12 +4,12 @@ ms.assetid: 1595c03e-9f6d-456c-8164-fafba06bbd79
 title: 隨機鎖定作業
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eefd9b292747e89f5ebafd94cb8aa0e38833e8cd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 93fc24c0b503ec23d20be414508371c5e1f63e93d3b009a42e84d742e5f014c9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104513420"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119927638"
 ---
 # <a name="opportunistic-lock-operations"></a>隨機鎖定作業
 

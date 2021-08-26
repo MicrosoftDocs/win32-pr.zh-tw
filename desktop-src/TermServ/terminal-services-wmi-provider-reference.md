@@ -8,12 +8,12 @@ keywords:
 - WMI 提供者參考遠端桌面服務
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f72645ce77e2200eb82a2caaf5d598b2269fba82
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 6a484a5f874c8e14c4fba07a269d00c64a09d36afacf9f6c2ce8f7e5921220fc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103933374"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119987067"
 ---
 # <a name="remote-desktop-services-wmi-provider-reference"></a>遠端桌面服務 WMI 提供者參考
 
@@ -82,10 +82,10 @@ RemoteApp 和桌面連線管理服務 WMI 提供者提供下列類別。
 > [!Note]  
 > 在 Windows Server 2008 R2 中，終端機服務連接代理人功能的名稱已變更為 RD 連線代理人。
 
- 
+ 
 
 如需安全性問題和 WMI 應用程式的詳細資訊，請參閱 [維護 WMI 安全性](/windows/desktop/WmiSdk/maintaining-wmi-security)。
 
- 
+ 
 
- 
+ 

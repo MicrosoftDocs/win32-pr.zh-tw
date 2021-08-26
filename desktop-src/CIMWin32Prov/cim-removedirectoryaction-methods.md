@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: CIM_RemoveDirectoryAction 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f85a33021bf6796ae2f2d7fe06793c01ff1b4265
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 85a1e9835562df38723c1c6aa844c8e46d3310dc588485b7dce5eae93606af5c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847103"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119920448"
 ---
 # <a name="cim_removedirectoryaction-methods"></a>CIM \_ RemoveDirectoryAction 方法
 

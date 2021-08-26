@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 135d6f0fcb0faf5c1e8da152798863c8cecc8641
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 75b0e4183a2b736d0ed896fee4bf2cc57e35f0e6b628a9aee4345f4c33b33ed6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103686030"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119918338"
 ---
 # <a name="modify-method-of-the-microsoftdns_mbtype-class"></a>Modify MicrosoftDNS \_ MBType 類別的方法
 

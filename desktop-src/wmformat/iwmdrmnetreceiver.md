@@ -1,6 +1,6 @@
 ---
 title: IWMDRMNetReceiver 介面
-description: IWMDRMNetReceiver 介面提供使用 Microsoft Windows Media DRM 做為接收器的網路裝置所需的方法。若要取得這個介面的實例，請呼叫 IWMDRMProvider CreateObject。 將 IID \_ IWMDRMNetReceiver 傳遞為 riid 參數。
+description: IWMDRMNetReceiver 介面提供使用 Microsoft Windows 媒體 DRM 作為接收者的網路裝置所需的方法。若要取得這個介面的實例，請呼叫 IWMDRMProvider CreateObject。 將 IID \_ IWMDRMNetReceiver 傳遞為 riid 參數。
 ms.assetid: 29966260-c0aa-4e7e-b827-a872c7429333
 keywords:
 - IWMDRMNetReceiver 介面 windows 媒體格式
@@ -14,16 +14,16 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 7a85ae1525a81e97984e29a5dd28763d934dba2b
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 5cb917d7d229b81a6792461c506b2a6b50aaee2af3bd5f133e44273077924f86
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104373397"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119930108"
 ---
 # <a name="iwmdrmnetreceiver-interface"></a>IWMDRMNetReceiver 介面
 
-**IWMDRMNetReceiver** 介面提供使用 Microsoft WINDOWS Media DRM 做為接收器的網路裝置所需的方法。
+**IWMDRMNetReceiver** 介面提供使用 Microsoft Windows 媒體 DRM 作為接收者的網路裝置所需的方法。
 
 若要取得這個介面的實例，請呼叫 [**IWMDRMProvider：： CreateObject**](iwmdrmprovider-createobject.md)。 將 **IID \_ IWMDRMNetReceiver** 傳遞為 *riid* 參數。
 

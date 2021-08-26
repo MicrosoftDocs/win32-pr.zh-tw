@@ -4,17 +4,17 @@ ms.assetid: d7b8c6ba-5c4f-494c-a24f-3b81a176725f
 title: 'D3DX (Direct3D 9) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 397a2164349b761cd7ff2ccca5e2158abc22bd64
-ms.sourcegitcommit: 78ce1d1e3f12ee3e08390868e5b93c034f437657
+ms.openlocfilehash: 556d1f7dfe7f8d841220af4f5dbe650bd74e4c8dff86812650545a07129af644
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "111910246"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119986908"
 ---
 # <a name="d3dx-direct3d-9"></a>D3DX (Direct3D 9) 
 
 > [!NOTE]
-> D3DX 程式庫已被取代。 如果無法選擇升級至較新版本的 Direct3D 和相關聯的公用程式程式碼，您可以使用 [DXSDK D3DX](https://www.nuget.org/packages/Microsoft.DXSDK.D3DX) NuGet 套件，而不是依賴舊版 DirectX SDK 或 DirectSetup。
+> D3DX 程式庫已被取代。 如果無法選擇升級至較新版本的 Direct3D 和相關聯的公用程式程式碼，您可以使用[DXSDK. D3DX](https://www.nuget.org/packages/Microsoft.DXSDK.D3DX) NuGet 套件，而不是依賴舊版 DirectX SDK 或 DirectSetup。
 
 D3DX 是一種專為在 Direct3D 之上提供其他圖形功能而設計的工具程式庫。 D3DX 是以動態連結程式庫的形式提供， (DLL) 。
 

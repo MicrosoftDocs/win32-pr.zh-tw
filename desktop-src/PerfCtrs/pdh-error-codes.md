@@ -4,12 +4,12 @@ ms.assetid: ea67d798-81db-44ad-b0fb-24e0c3be7388
 title: 效能資料協助程式錯誤碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a1e24a5bb82aafa3e4a29bd24c087826bb5ead5e
-ms.sourcegitcommit: 9db18b0737bda194728fe387f336c92361f1b418
+ms.openlocfilehash: 16367cb3cd2c0ed83c69067e82fe180a6930910b1c45e76d3e01b75a6832d89a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "109690375"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120033808"
 ---
 # <a name="performance-data-helper-error-codes"></a>效能資料協助程式錯誤碼
 
@@ -115,12 +115,12 @@ void main(void)
 | 0xC0000BDF (PDH \_ 沒有 \_ 計數器)                                | 找不到此 Perfmon SQL 記錄集的計數器。
 | 0xC0000BE0 (PDH \_ SQL \_ 配置 \_ 失敗)                          | 呼叫 SQLAllocStmt 失敗，發生 %1。
 | 0xC0000BE1 (PDH \_ SQL \_ ALLOCCON \_ 失敗)                       | 呼叫 SQLAllocConnect 失敗，發生 %1。
-| 0xC0000BE2 (PDH \_ SQL \_ EXEC \_ 直接 \_ 失敗)                   | 呼叫 SQLExecDirect 失敗，發生 %1。
+| 0xC0000BE2 (PDH \_ SQL \_ EXEC \_ DIRECT \_ 失敗)                   | 呼叫 SQLExecDirect 失敗，發生 %1。
 | 0xC0000BE3 (PDH \_ SQL \_ 提取 \_ 失敗)                          | 呼叫 SQLFetch 失敗，發生 %1。
-| 0xC0000BE4 (PDH \_ SQL 資料列 \_ 計數 \_ 失敗)                       | 呼叫 SQLRowCount 失敗，發生 %1。
-| 0xC0000BE5 (PDH \_ SQL \_ 的 \_ 結果 \_ 失敗)                  | 呼叫 SQLMoreResults 失敗，發生 %1。
+| 0xC0000BE4 (PDH \_ SQL \_ ROWCOUNT \_ 失敗)                       | 呼叫 SQLRowCount 失敗，發生 %1。
+| 0xC0000BE5 (PDH \_ SQL \_ 更 \_ 多 \_ 失敗的結果)                  | 呼叫 SQLMoreResults 失敗，發生 %1。
 | 0xC0000BE6 (PDH \_ SQL \_ CONNECT \_ 失敗)                        | 呼叫 SQLConnect 失敗，發生 %1。
-| 0xC0000BE7 (PDH \_ SQL \_ BIND \_ 失敗)                           | 呼叫 SQLBindCol 失敗，發生 %1。
+| 0xC0000BE7 (PDH \_ SQL 系結 \_ \_ 失敗)                           | 呼叫 SQLBindCol 失敗，發生 %1。
 | 0xC0000BE8 (PDH \_ 無法連線 \_ 至 \_ WMI \_ 伺服器)                | 無法連接到所要求電腦上的 WMI 伺服器。
 | 0xC0000BE9 (PDH \_ PLA \_ 集合 \_ 已在執行中 \_)           | 集合 "%1！ s！" 已在執行中。
 | 0xC0000BEA (PDH \_ PLA \_ 錯誤 \_ 排程重 \_ 迭)               | 指定的開始時間晚于結束時間。
@@ -134,7 +134,7 @@ void main(void)
 | 0xC0000BF2 (PDH \_ PLA \_ 驗證 \_ 錯誤)                      | 傳遞的資訊無效。
 | 0x80000BF3 (PDH \_ PLA \_ 驗證 \_ 警告)                    | 傳遞的資訊無效。
 | 0xC0000BF4 (PDH \_ PLA \_ 錯誤 \_ 名稱 \_ 太 \_ 長)                 | 提供的名稱太長。
-| 0xC0000BF5 (PDH \_ 不正確 \_ SQL \_ 記錄 \_ 格式)                   | SQL 記錄格式不正確。 正確的格式為 `SQL:<DSN-name>!<LogSet-Name>` 。
+| 0xC0000BF5 (PDH \_ 不正確 \_ SQL \_ 記錄 \_ 格式)                   | SQL 記錄檔格式不正確。 正確的格式為 `SQL:<DSN-name>!<LogSet-Name>` 。
 | 0xC0000BF6 (PDH \_ 計數器 \_ 已 \_ 在 \_ 查詢) 中                | 效能查詢中已新增 [**PdhAddCounter**](/windows/desktop/api/Pdh/nf-pdh-pdhaddcountera) 呼叫中的效能計數器。 忽略此計數器。
 | 0xC0000BF7 (PDH \_ 二進位 \_ 記錄檔已損毀 \_)                        | 無法從輸入的二進位記錄檔讀取計數器資訊和資料。
 | 0xC0000BF8 (PDH \_ 記錄 \_ 範例 \_ 太 \_ 小)                     | 至少有一個輸入二進位記錄檔包含兩個以上的資料樣本。
@@ -142,5 +142,5 @@ void main(void)
 | 0xC0000BFA (PDH \_ OS \_ 舊版 \_)                        | %1 支援 %2 或更新版本。 檢查名為 %3 之電腦上的作業系統版本。
 | 0xC0000BFB (PDH \_ 不正確的 \_ 附加 \_ 時間)                     | 輸出檔案必須包含比要附加之檔案更舊的資料。
 | 0xC0000BFC (PDH 不 \_ 相符的 \_ 附加 \_ 計數器)                  | 這兩個檔案都必須有相同的計數器才能附加。
-| 0xC0000BFD (PDH \_ SQL \_ ALTER \_ DETAIL \_ 失敗)                  | 無法改變 SQL database 中的 CounterDetail 資料表配置。
+| 0xC0000BFD (PDH \_ SQL \_ 改變 \_ 詳細資料 \_ 失敗)                  | 無法改變 SQL 資料庫中的 CounterDetail 資料表版面配置。
 | 0xC0000BFE (PDH \_ 查詢 \_ 效能 \_ 資料 \_ 超時)                  | 系統忙碌中。 收集計數器資料時，發生超時。 請稍後再試一次，或增加 **CollectTime** 登錄值。

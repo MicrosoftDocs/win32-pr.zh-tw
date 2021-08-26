@@ -4,12 +4,12 @@ ms.assetid: 78099b59-b09b-43c0-91f5-adb5c9e0e191
 title: 開發需要系統管理員許可權的應用程式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 84d22687dad0a8914c5dcaebe8ea85a525529a34
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 410dc8ea112cfec6297cf7c11a044e62695a24e93d7eb0b13a773d40acd6c6cc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106977081"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119994428"
 ---
 # <a name="developing-applications-that-require-administrator-privilege"></a>開發需要系統管理員許可權的應用程式
 

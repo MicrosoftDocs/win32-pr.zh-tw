@@ -4,22 +4,22 @@ ms.assetid: cb4f48d0-d1e2-4a4b-bd5a-6e8f66d03806
 title: 使用圖形
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b4328b7a0109139421cf03c72a7228a3dc17e375
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fcdb4a40f1c086ada772239798990c3dfb24326b3e70bd768a95eacc35ee384b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106975105"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120034028"
 ---
 # <a name="working-with-graphs"></a>使用圖形
 
 使用對等圖形時，必須以特定順序呼叫函數。 呼叫的流程取決於您是建立或開啟對等圖形。 本主題指出簡單對等圖形應用程式中函式呼叫的流程。
 
-## <a name="starting-up-a-graph"></a>啟動圖形
+## <a name="starting-up-a-graph"></a>啟動 Graph
 
 在應用程式呼叫對等圖形 API 中的函式之前，必須先呼叫 [**PeerGraphStartup**](/windows/desktop/api/P2P/nf-p2p-peergraphstartup) 來初始化應用程式的對等圖形 api，然後設定支援的版本。
 
-## <a name="creating-a-peer-graph"></a>建立對等圖形
+## <a name="creating-a-peer-graph"></a>建立對等 Graph
 
 下列程式會識別用來建立對等圖形的呼叫流程。
 
@@ -39,7 +39,7 @@ ms.locfileid: "106975105"
 -   針對其餘的執行時間執行與應用程式相依的函式，例如，處理對等事件並使用連接。
 -   關閉對等圖形的連接。 呼叫 [**PeerGraphClose**](/windows/desktop/api/P2P/nf-p2p-peergraphclose)。
 
-## <a name="opening-a-peer-graph"></a>開啟對等圖形
+## <a name="opening-a-peer-graph"></a>開啟對等 Graph
 
 開啟對等圖形的函式呼叫流程，取決於呼叫 [**PeerGraphOpen**](/windows/desktop/api/P2P/nf-p2p-peergraphopen)的傳回值。 最重要的值為 **「 \_ 確定** 」和「 **對等」 \_ \_ 資料 \_ 建立**，如本主題的下列各節所述。
 

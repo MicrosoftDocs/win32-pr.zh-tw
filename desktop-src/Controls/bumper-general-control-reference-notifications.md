@@ -4,12 +4,12 @@ description: 控制通知
 ms.assetid: 8005eed8-9196-41ed-89dc-7f7ee7e60c5d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a57e07f60278794d1b1522ef0dcb6fe6d7720d29
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 890a2d21564f8bc53207a6bb8ef9f1838001660f2ed8a560d429b2c7d8831ed9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "103945917"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119917028"
 ---
 # <a name="control-notifications"></a>控制通知
 

@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 45c39ae5718227095ade406f13a0103e053cb09f2661d009964f6e7e2570583d
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 2c8b377889476661b67528dc67d3d6fe6901747a
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119989018"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122465465"
 ---
 # <a name="msrdpclient10-class"></a>MsRdpClient10 類別
 
@@ -124,392 +124,83 @@ Microsoft RDP 用戶端控制 (可轉散發套件) -第11版
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">屬性</th>
-<th style="text-align: left;">存取類型</th>
-<th style="text-align: left;">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><a href="imstscax-advancedsettings.md"><strong>AdvancedSettings</strong></a><br/></td>
-<td style="text-align: left;">唯讀<br/></td>
-<td style="text-align: left;"><a href="imstscadvancedsettings-interface.md"><strong>IMsTscAdvancedSettings</strong></a>介面指標。<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imsrdpclient-advancedsettings2.md"><strong>AdvancedSettings2</strong></a><br/></td>
-<td style="text-align: left;">唯讀<br/></td>
-<td style="text-align: left;"><a href="imsrdpclientadvancedsettings-interface.md"><strong>IMsRdpClientAdvancedSettings</strong></a>介面的指標，用來設定用戶端控制項的 advanced 設定。<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclient2-advancedsettings3.md"><strong>AdvancedSettings3</strong></a><br/></td>
-<td style="text-align: left;">唯讀<br/></td>
-<td style="text-align: left;"><a href="imsrdpclientadvancedsettings2.md"><strong>IMsRdpClientAdvancedSettings2</strong></a>介面的指標，用來設定用戶端控制項的 advanced 設定。<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imsrdpclient3-advancedsettings4.md"><strong>AdvancedSettings4</strong></a><br/></td>
-<td style="text-align: left;">唯讀<br/></td>
-<td style="text-align: left;"><a href="imsrdpclientadvancedsettings3.md"><strong>IMsRdpClientAdvancedSettings3</strong></a>介面的指標，用來設定用戶端控制項的 advanced 設定。<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclient4-advancedsettings5.md"><strong>AdvancedSettings5</strong></a><br/></td>
-<td style="text-align: left;">唯讀<br/></td>
-<td style="text-align: left;"><a href="imsrdpclientadvancedsettings4.md"><strong>IMsRdpClientAdvancedSettings4</strong></a>介面指標。<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imsrdpclient5-advancedsettings6.md"><strong>AdvancedSettings6</strong></a><br/></td>
-<td style="text-align: left;">唯讀<br/></td>
-<td style="text-align: left;">要 <a href="imsrdpclientadvancedsettings5.md"><strong>IMsRdpClientAdvancedSettings5</strong></a>的介面。<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclient6-advancedsettings7.md"><strong>AdvancedSettings7</strong></a><br/></td>
-<td style="text-align: left;">唯讀<br/></td>
-<td style="text-align: left;">要 <a href="imsrdpclientadvancedsettings6.md"><strong>IMsRdpClientAdvancedSettings6</strong></a>的介面。<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imsrdpclient7-advancedsettings8.md"><strong>AdvancedSettings8</strong></a><br/></td>
-<td style="text-align: left;">唯讀<br/></td>
-<td style="text-align: left;">支援 <a href="imsrdpclientadvancedsettings7.md"><strong>IMsRdpClientAdvancedSettings7</strong></a> 介面的物件。<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclient8-advancedsettings9.md"><strong>AdvancedSettings9</strong></a><br/></td>
-<td style="text-align: left;">唯讀<br/></td>
-<td style="text-align: left;">表示 settings 物件的 <a href="imsrdpclientadvancedsettings8.md"><strong>IMsRdpClientAdvancedSettings8</strong></a> 介面。<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable4-allowcredentialsaving.md"><strong>AllowCredentialSaving</strong></a><br/></td>
-<td style="text-align: left;">讀取/寫入<br/></td>
-<td style="text-align: left;">指定 [認證] 對話方塊是否顯示啟用儲存認證的核取方塊。<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable5-allowpromptingforcredentials.md"><strong>AllowPromptingForCredentials</strong></a><br/></td>
-<td style="text-align: left;">讀取/寫入<br/></td>
-<td style="text-align: left;">指定遠端桌面 ActiveX 控制項是否可以提示使用者輸入認證。<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imstscnonscriptable-binarypassword.md"><strong>BinaryPassword</strong></a><br/></td>
-<td style="text-align: left;">讀取/寫入<br/></td>
-<td style="text-align: left;">不支援這個屬性。<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imstscnonscriptable-binarysalt.md"><strong>BinarySalt</strong></a><br/></td>
-<td style="text-align: left;">讀取/寫入<br/></td>
-<td style="text-align: left;">不支援這個屬性。<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imstscax-cipherstrength.md"><strong>CipherStrength</strong></a><br/></td>
-<td style="text-align: left;">唯讀<br/></td>
-<td style="text-align: left;">目前控制項的最大加密強度。<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imstscnonscriptable-cleartextpassword.md"><strong>ClearTextPassword</strong></a><br/></td>
-<td style="text-align: left;">唯寫<br/></td>
-<td style="text-align: left;">以純文字格式 ActiveX 控制密碼的遠端桌面。<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imsrdpclient-colordepth.md"><strong>ColorDepth</strong></a><br/></td>
-<td style="text-align: left;">讀取/寫入<br/></td>
-<td style="text-align: left;">目前控制項的色彩深度。<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imstscax-connected.md"><strong>連線</strong></a><br/></td>
-<td style="text-align: left;">唯讀<br/></td>
-<td style="text-align: left;">目前控制項的連接狀態。<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imsrdpclient2-connectedstatustext.md"><strong>ConnectedStatusText</strong></a><br/></td>
-<td style="text-align: left;">讀取/寫入<br/></td>
-<td style="text-align: left;">控制項處於連接狀態時，在控制項的工作區中顯示的文字。<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imstscax-connectingtext.md"><strong>ConnectingText</strong></a><br/></td>
-<td style="text-align: left;">讀取/寫入<br/></td>
-<td style="text-align: left;">控制項連接時，顯示在控制項中央的文字。<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable3-connectionbartext.md"><strong>ConnectionBarText</strong></a><br/></td>
-<td style="text-align: left;">讀取/寫入<br/></td>
-<td style="text-align: left;">要為連接列顯示的文字字串。<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imstscax-desktopheight.md"><strong>DesktopHeight</strong></a><br/></td>
-<td style="text-align: left;">讀取/寫入<br/></td>
-<td style="text-align: left;">目前的控制項在初始遠端桌面上的高度（以圖元為單位）。<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imstscax-desktopwidth.md"><strong>DesktopWidth</strong></a><br/></td>
-<td style="text-align: left;">讀取/寫入<br/></td>
-<td style="text-align: left;">目前的控制項寬度（以圖元為單位），在初始的遠端桌面。<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable3-devicecollection.md"><strong>DeviceCollection</strong></a><br/></td>
-<td style="text-align: left;">唯讀<br/></td>
-<td style="text-align: left;">可用於重新導向的 PnP 裝置集合。<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable5-disableconnectionbar.md"><strong>DisableConnectionBar</strong></a><br/></td>
-<td style="text-align: left;">唯寫<br/></td>
-<td style="text-align: left;">指定遠端桌面 ActiveX 控制項是否應該停用連接列。<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable5-disableremoteappcapscheck.md"><strong>DisableRemoteAppCapsCheck</strong></a><br/></td>
-<td style="text-align: left;">讀取/寫入<br/></td>
-<td style="text-align: left;">指定遠端桌面 ActiveX 控制項是否不應檢查伺服器的 RemoteApp 功能。<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imstscax-disconnectedtext.md"><strong>DisconnectedText</strong></a><br/></td>
-<td style="text-align: left;">讀取/寫入<br/></td>
-<td style="text-align: left;">在連接結束之前出現在控制項中央的文字。<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imstscax-domain.md"><strong>域</strong></a><br/></td>
-<td style="text-align: left;">讀取/寫入<br/></td>
-<td style="text-align: left;">目前使用者登入的網域。<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable3-drivecollection.md"><strong>DriveCollection</strong></a><br/></td>
-<td style="text-align: left;">唯讀<br/></td>
-<td style="text-align: left;">可用於重新導向的磁片磁碟機集合。<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable3-enablecredsspsupport.md"><strong>EnableCredSspSupport</strong></a><br/></td>
-<td style="text-align: left;">讀取/寫入<br/></td>
-<td style="text-align: left;">指定是否啟用此連接的 CredSSP。<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imsrdpclient-extendeddisconnectreason.md"><strong>ExtendedDisconnectReason</strong></a><br/></td>
-<td style="text-align: left;">唯讀<br/></td>
-<td style="text-align: left;">有關用戶端控制項中斷連接原因的詳細資訊。<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclient-fullscreen.md"><strong>FullScreen</strong></a><br/></td>
-<td style="text-align: left;">讀取/寫入<br/></td>
-<td style="text-align: left;">指出控制項是否處於全螢幕模式。<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imstscax-fullscreentitle.md"><strong>FullScreenTitle</strong></a><br/></td>
-<td style="text-align: left;">唯寫<br/></td>
-<td style="text-align: left;">當控制項處於全螢幕模式時，所顯示的視窗標題。<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable5-getremotemonitorsboundingbox.md"><strong>GetRemoteMonitorsBoundingBox</strong></a><br/></td>
-<td style="text-align: left;">唯讀<br/></td>
-<td style="text-align: left;">指定遠端監視的周框。<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imstscax-horizontalscrollbarvisible.md"><strong>HorizontalScrollBarVisible</strong></a><br/></td>
-<td style="text-align: left;">唯讀<br/></td>
-<td style="text-align: left;">指出控制項是否已顯示水準捲軸。<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable4-launchedviaclientshellinterface.md"><strong>LaunchedViaClientShellInterface</strong></a><br/></td>
-<td style="text-align: left;">讀取/寫入<br/></td>
-<td style="text-align: left;">指定使用者是否使用 RD Web 存取介面啟動用戶端控制項。<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable4-markrdpsettingssecure.md"><strong>MarkRdpSettingsSecure</strong></a><br/></td>
-<td style="text-align: left;">讀取/寫入<br/></td>
-<td style="text-align: left;">指定是否將 RDP 設定標示為安全。<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclient5-msrdpclientshell.md"><strong>MsRdpClientShell</strong></a><br/></td>
-<td style="text-align: left;">唯讀<br/></td>
-<td style="text-align: left;">入口網站啟動器的用戶端設定。<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable3-negotiatesecuritylayer.md"><strong>NegotiateSecurityLayer</strong></a><br/></td>
-<td style="text-align: left;">讀取/寫入<br/></td>
-<td style="text-align: left;">指定此連接是否支援 NegotiateSecurityLayer 設定。<br/>
-<blockquote>
-[!Note]<br />
-當 <a href="imsrdpclientnonscriptable3-enablecredsspsupport.md"><strong>CredSspSupport</strong></a> 已啟用並存在於用戶端上，或當安全通訊端層 (SSL) 啟用使用者驗證時，會忽略 NegotiateSecurityLayer。
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imstscnonscriptable-portablepassword.md"><strong>PortablePassword</strong></a><br/></td>
-<td style="text-align: left;">讀取/寫入<br/></td>
-<td style="text-align: left;">不支援這個屬性。<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imstscnonscriptable-portablesalt.md"><strong>PortableSalt</strong></a><br/></td>
-<td style="text-align: left;">讀取/寫入<br/></td>
-<td style="text-align: left;">不支援這個屬性。<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable3-promptforcredentials.md"><strong>PromptForCredentials</strong></a><br/></td>
-<td style="text-align: left;">讀取/寫入<br/></td>
-<td style="text-align: left;">指定是否應顯示 [提示輸入認證] 對話方塊。<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable4-promptforcredsonclient.md"><strong>PromptForCredsOnClient</strong></a><br/></td>
-<td style="text-align: left;">讀取/寫入<br/></td>
-<td style="text-align: left;">指定用戶端控制項是否顯示提示輸入認證的對話方塊。<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable4-publishercertificatechain.md"><strong>PublisherCertificateChain</strong></a><br/></td>
-<td style="text-align: left;">讀取/寫入<br/></td>
-<td style="text-align: left;">指定發行者的憑證鏈。 鏈會儲存在類型 VT_BYREF 的變數中，其中包含 <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_context"><strong>CERT_CHAIN_CONTEXT</strong></a> 結構的指標。<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable3-redirectdynamicdevices.md"><strong>RedirectDynamicDevices</strong></a><br/></td>
-<td style="text-align: left;">讀取/寫入<br/></td>
-<td style="text-align: left;">指定是否可重新導向會話中所列舉的動態連接 PnP 裝置。<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable3-redirectdynamicdrives.md"><strong>RedirectDynamicDrives</strong></a><br/></td>
-<td style="text-align: left;">讀取/寫入<br/></td>
-<td style="text-align: left;">指定在會話中列舉的動態連接 PnP 磁片磁碟機是否可用於重新導向。<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable4-redirectionwarningtype.md"><strong>RedirectionWarningType</strong></a><br/></td>
-<td style="text-align: left;">讀取/寫入<br/></td>
-<td style="text-align: left;">控制重新導向對話方塊的存在和外觀。<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable5-remotemonitorcount.md"><strong>RemoteMonitorCount</strong></a><br/></td>
-<td style="text-align: left;">唯讀<br/></td>
-<td style="text-align: left;">指定遠端監視的數目。<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable5-remotemonitorlayoutmatcheslocal.md"><strong>RemoteMonitorLayoutMatchesLocal</strong></a><br/></td>
-<td style="text-align: left;">唯讀<br/></td>
-<td style="text-align: left;">指定遠端監視配置是否與本機監視器版面配置相同。<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclient5-remoteprogram.md"><strong>RemoteProgram</strong></a><br/></td>
-<td style="text-align: left;">唯讀<br/></td>
-<td style="text-align: left;">用戶端 RemoteApp 設定。<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imsrdpclient7-remoteprogram2.md"><strong>RemoteProgram2</strong></a><br/></td>
-<td style="text-align: left;">唯讀<br/></td>
-<td style="text-align: left;">支援 <a href="itsremoteprogram2.md"><strong>ITSRemoteProgram2</strong></a> 介面的物件。<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclient10-remoteprogram3.md"><strong>RemoteProgram3</strong></a><br/></td>
-<td style="text-align: left;">唯讀<br/></td>
-<td style="text-align: left;">支援 <a href="itsremoteprogram3.md"><strong>ITSRemoteProgram3</strong></a> 介面的物件。<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imstscax-securedsettings.md"><strong>SecuredSettings</strong></a><br/></td>
-<td style="text-align: left;">唯讀<br/></td>
-<td style="text-align: left;"><a href="imstscsecuredsettings-interface.md"><strong>IMsTscSecuredSettings</strong></a>介面指標。<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclient-securedsettings2.md"><strong>SecuredSettings2</strong></a><br/></td>
-<td style="text-align: left;">唯讀<br/></td>
-<td style="text-align: left;"><a href="imsrdpclientsecuredsettings-interface.md"><strong>IMsRdpClientSecuredSettings</strong></a>介面的指標，用來設定用戶端控制項的安全設定。<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imsrdpclient7-securedsettings3.md"><strong>SecuredSettings3</strong></a><br/></td>
-<td style="text-align: left;">唯讀<br/></td>
-<td style="text-align: left;">支援 <a href="imsrdpclientsecuredsettings2.md"><strong>IMsRdpClientSecuredSettings2</strong></a> 介面的物件。<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imstscax-securedsettingsenabled.md"><strong>SecuredSettingsEnabled</strong></a><br/></td>
-<td style="text-align: left;">唯讀<br/></td>
-<td style="text-align: left;">指出 <a href="imstscsecuredsettings-interface.md"><strong>IMsTscSecuredSettings</strong></a> 介面是否可供使用。<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imstscax-server.md"><strong>伺服器</strong></a><br/></td>
-<td style="text-align: left;">讀取/寫入<br/></td>
-<td style="text-align: left;">目前控制項所連接的伺服器名稱。<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable3-showredirectionwarningdialog.md"><strong>ShowRedirectionWarningDialog</strong></a><br/></td>
-<td style="text-align: left;">讀取/寫入<br/></td>
-<td style="text-align: left;">指定在啟動會話之前，是否應該顯示重新導向安全性警告對話方塊。<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imstscax-startconnected.md"><strong>StartConnected</strong></a><br/></td>
-<td style="text-align: left;">讀取/寫入<br/></td>
-<td style="text-align: left;">指出控制項是否會在啟動時立即建立 RD 工作階段主機的伺服器連接。<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclient5-transportsettings.md"><strong>TransportSettings</strong></a><br/></td>
-<td style="text-align: left;">唯讀<br/></td>
-<td style="text-align: left;">用戶端 RD 閘道設定。<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imsrdpclient6-transportsettings2.md"><strong>TransportSettings2</strong></a><br/></td>
-<td style="text-align: left;">唯讀<br/></td>
-<td style="text-align: left;">要 <a href="imsrdpclienttransportsettings2.md"><strong>IMsRdpClientTransportSettings2</strong></a>的介面。<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclient7-transportsettings3.md"><strong>TransportSettings3</strong></a><br/></td>
-<td style="text-align: left;">唯讀<br/></td>
-<td style="text-align: left;">支援 <a href="imsrdpclienttransportsettings3.md"><strong>IMsRdpClientTransportSettings3</strong></a> 介面的物件。<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imsrdpclient9-transportsettings4.md"><strong>TransportSettings4</strong></a><br/></td>
-<td style="text-align: left;">唯讀<br/></td>
-<td style="text-align: left;">支援 <a href="imsrdpclienttransportsettings4.md"><strong>IMsRdpClientTransportSettings4</strong></a> 介面的物件。<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable4-trustedzonesite.md"><strong>TrustedZoneSite</strong></a><br/></td>
-<td style="text-align: left;">讀取/寫入<br/></td>
-<td style="text-align: left;">指定使用者啟動連線的網站是否位於用戶端電腦的 [信任的網站] 清單中。<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable2-uiparentwindowhandle.md"><strong>UIParentWindowHandle</strong></a><br/></td>
-<td style="text-align: left;">讀取/寫入<br/></td>
-<td style="text-align: left;">要作為控制項父視窗的視窗控制碼。 如此一來，控制項所顯示的任何視窗都能針對父應用程式所顯示的任何視窗適當地進行模式回應。<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable5-usemultimon.md"><strong>UseMultimon</strong></a><br/></td>
-<td style="text-align: left;">讀取/寫入<br/></td>
-<td style="text-align: left;">指定遠端桌面 ActiveX 控制項是否應該使用多個監視器。<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imsrdppreferredredirectioninfo-useredirectionservername.md"><strong>UseRedirectionServerName</strong></a><br/></td>
-<td style="text-align: left;">讀取/寫入<br/></td>
-<td style="text-align: left;">是否要使用重新導向伺服器名稱。<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imstscax-username.md"><strong>使用者</strong></a><br/></td>
-<td style="text-align: left;">讀取/寫入<br/></td>
-<td style="text-align: left;">使用者名稱登入認證。<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imstscax-version.md"><strong>版本</strong></a><br/></td>
-<td style="text-align: left;">唯讀<br/></td>
-<td style="text-align: left;">目前控制項的版本號碼。<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imstscax-verticalscrollbarvisible.md"><strong>VerticalScrollBarVisible</strong></a><br/></td>
-<td style="text-align: left;">唯讀<br/></td>
-<td style="text-align: left;">指出控制項是否顯示垂直捲動條。<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable3-warnaboutclipboardredirection.md"><strong>WarnAboutClipboardRedirection</strong></a><br/></td>
-<td style="text-align: left;">讀取/寫入<br/></td>
-<td style="text-align: left;">指定在啟動會話之前，安全性警告對話方塊是否應包含關於剪貼簿重新導向的警告。<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable5-warnaboutdirectxredirection.md"><strong>WarnAboutDirectXRedirection</strong></a><br/></td>
-<td style="text-align: left;">讀取/寫入<br/></td>
-<td style="text-align: left;">不會使用此屬性。<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable4-warnaboutprinterredirection.md"><strong>WarnAboutPrinterRedirection</strong></a><br/></td>
-<td style="text-align: left;">讀取/寫入<br/></td>
-<td style="text-align: left;">指定在啟動會話之前，重新導向對話方塊是否顯示印表機重新導向的相關訊息。<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable3-warnaboutsendingcredentials.md"><strong>WarnAboutSendingCredentials</strong></a><br/></td>
-<td style="text-align: left;">讀取/寫入<br/></td>
-<td style="text-align: left;">指定在啟動會話之前，安全性警告是否應包含有關將認證傳送至遠端伺服器的警告。<br/></td>
-</tr>
-</tbody>
-</table>
+
+| 屬性 | 存取類型 | Description | 
+|----------|-------------|-------------|
+| <a href="imstscax-advancedsettings.md"><strong>AdvancedSettings</strong></a><br /> | 唯讀<br /> | <a href="imstscadvancedsettings-interface.md"><strong>IMsTscAdvancedSettings</strong></a>介面指標。<br /> | 
+| <a href="imsrdpclient-advancedsettings2.md"><strong>AdvancedSettings2</strong></a><br /> | 唯讀<br /> | <a href="imsrdpclientadvancedsettings-interface.md"><strong>IMsRdpClientAdvancedSettings</strong></a>介面的指標，用來設定用戶端控制項的 advanced 設定。<br /> | 
+| <a href="imsrdpclient2-advancedsettings3.md"><strong>AdvancedSettings3</strong></a><br /> | 唯讀<br /> | <a href="imsrdpclientadvancedsettings2.md"><strong>IMsRdpClientAdvancedSettings2</strong></a>介面的指標，用來設定用戶端控制項的 advanced 設定。<br /> | 
+| <a href="imsrdpclient3-advancedsettings4.md"><strong>AdvancedSettings4</strong></a><br /> | 唯讀<br /> | <a href="imsrdpclientadvancedsettings3.md"><strong>IMsRdpClientAdvancedSettings3</strong></a>介面的指標，用來設定用戶端控制項的 advanced 設定。<br /> | 
+| <a href="imsrdpclient4-advancedsettings5.md"><strong>AdvancedSettings5</strong></a><br /> | 唯讀<br /> | <a href="imsrdpclientadvancedsettings4.md"><strong>IMsRdpClientAdvancedSettings4</strong></a>介面指標。<br /> | 
+| <a href="imsrdpclient5-advancedsettings6.md"><strong>AdvancedSettings6</strong></a><br /> | 唯讀<br /> | 要 <a href="imsrdpclientadvancedsettings5.md"><strong>IMsRdpClientAdvancedSettings5</strong></a>的介面。<br /> | 
+| <a href="imsrdpclient6-advancedsettings7.md"><strong>AdvancedSettings7</strong></a><br /> | 唯讀<br /> | 要 <a href="imsrdpclientadvancedsettings6.md"><strong>IMsRdpClientAdvancedSettings6</strong></a>的介面。<br /> | 
+| <a href="imsrdpclient7-advancedsettings8.md"><strong>AdvancedSettings8</strong></a><br /> | 唯讀<br /> | 支援 <a href="imsrdpclientadvancedsettings7.md"><strong>IMsRdpClientAdvancedSettings7</strong></a> 介面的物件。<br /> | 
+| <a href="imsrdpclient8-advancedsettings9.md"><strong>AdvancedSettings9</strong></a><br /> | 唯讀<br /> | 表示 settings 物件的 <a href="imsrdpclientadvancedsettings8.md"><strong>IMsRdpClientAdvancedSettings8</strong></a> 介面。<br /> | 
+| <a href="imsrdpclientnonscriptable4-allowcredentialsaving.md"><strong>AllowCredentialSaving</strong></a><br /> | 讀取/寫入<br /> | 指定 [認證] 對話方塊是否顯示啟用儲存認證的核取方塊。<br /> | 
+| <a href="imsrdpclientnonscriptable5-allowpromptingforcredentials.md"><strong>AllowPromptingForCredentials</strong></a><br /> | 讀取/寫入<br /> | 指定遠端桌面 ActiveX 控制項是否可以提示使用者輸入認證。<br /> | 
+| <a href="imstscnonscriptable-binarypassword.md"><strong>BinaryPassword</strong></a><br /> | 讀取/寫入<br /> | 不支援這個屬性。<br /> | 
+| <a href="imstscnonscriptable-binarysalt.md"><strong>BinarySalt</strong></a><br /> | 讀取/寫入<br /> | 不支援這個屬性。<br /> | 
+| <a href="imstscax-cipherstrength.md"><strong>CipherStrength</strong></a><br /> | 唯讀<br /> | 目前控制項的最大加密強度。<br /> | 
+| <a href="imstscnonscriptable-cleartextpassword.md"><strong>ClearTextPassword</strong></a><br /> | 唯寫<br /> | 以純文字格式 ActiveX 控制密碼的遠端桌面。<br /> | 
+| <a href="imsrdpclient-colordepth.md"><strong>ColorDepth</strong></a><br /> | 讀取/寫入<br /> | 目前控制項的色彩深度。<br /> | 
+| <a href="imstscax-connected.md"><strong>連線</strong></a><br /> | 唯讀<br /> | 目前控制項的連接狀態。<br /> | 
+| <a href="imsrdpclient2-connectedstatustext.md"><strong>ConnectedStatusText</strong></a><br /> | 讀取/寫入<br /> | 控制項處於連接狀態時，在控制項的工作區中顯示的文字。<br /> | 
+| <a href="imstscax-connectingtext.md"><strong>ConnectingText</strong></a><br /> | 讀取/寫入<br /> | 控制項連接時，顯示在控制項中央的文字。<br /> | 
+| <a href="imsrdpclientnonscriptable3-connectionbartext.md"><strong>ConnectionBarText</strong></a><br /> | 讀取/寫入<br /> | 要為連接列顯示的文字字串。<br /> | 
+| <a href="imstscax-desktopheight.md"><strong>DesktopHeight</strong></a><br /> | 讀取/寫入<br /> | 目前的控制項在初始遠端桌面上的高度（以圖元為單位）。<br /> | 
+| <a href="imstscax-desktopwidth.md"><strong>DesktopWidth</strong></a><br /> | 讀取/寫入<br /> | 目前的控制項寬度（以圖元為單位），在初始的遠端桌面。<br /> | 
+| <a href="imsrdpclientnonscriptable3-devicecollection.md"><strong>DeviceCollection</strong></a><br /> | 唯讀<br /> | 可用於重新導向的 PnP 裝置集合。<br /> | 
+| <a href="imsrdpclientnonscriptable5-disableconnectionbar.md"><strong>DisableConnectionBar</strong></a><br /> | 唯寫<br /> | 指定遠端桌面 ActiveX 控制項是否應該停用連接列。<br /> | 
+| <a href="imsrdpclientnonscriptable5-disableremoteappcapscheck.md"><strong>DisableRemoteAppCapsCheck</strong></a><br /> | 讀取/寫入<br /> | 指定遠端桌面 ActiveX 控制項是否不應檢查伺服器的 RemoteApp 功能。<br /> | 
+| <a href="imstscax-disconnectedtext.md"><strong>DisconnectedText</strong></a><br /> | 讀取/寫入<br /> | 在連接結束之前出現在控制項中央的文字。<br /> | 
+| <a href="imstscax-domain.md"><strong>域</strong></a><br /> | 讀取/寫入<br /> | 目前使用者登入的網域。<br /> | 
+| <a href="imsrdpclientnonscriptable3-drivecollection.md"><strong>DriveCollection</strong></a><br /> | 唯讀<br /> | 可用於重新導向的磁片磁碟機集合。<br /> | 
+| <a href="imsrdpclientnonscriptable3-enablecredsspsupport.md"><strong>EnableCredSspSupport</strong></a><br /> | 讀取/寫入<br /> | 指定是否啟用此連接的 CredSSP。<br /> | 
+| <a href="imsrdpclient-extendeddisconnectreason.md"><strong>ExtendedDisconnectReason</strong></a><br /> | 唯讀<br /> | 有關用戶端控制項中斷連接原因的詳細資訊。<br /> | 
+| <a href="imsrdpclient-fullscreen.md"><strong>FullScreen</strong></a><br /> | 讀取/寫入<br /> | 指出控制項是否處於全螢幕模式。<br /> | 
+| <a href="imstscax-fullscreentitle.md"><strong>FullScreenTitle</strong></a><br /> | 唯寫<br /> | 當控制項處於全螢幕模式時，所顯示的視窗標題。<br /> | 
+| <a href="imsrdpclientnonscriptable5-getremotemonitorsboundingbox.md"><strong>GetRemoteMonitorsBoundingBox</strong></a><br /> | 唯讀<br /> | 指定遠端監視的周框。<br /> | 
+| <a href="imstscax-horizontalscrollbarvisible.md"><strong>HorizontalScrollBarVisible</strong></a><br /> | 唯讀<br /> | 指出控制項是否已顯示水準捲軸。<br /> | 
+| <a href="imsrdpclientnonscriptable4-launchedviaclientshellinterface.md"><strong>LaunchedViaClientShellInterface</strong></a><br /> | 讀取/寫入<br /> | 指定使用者是否使用 RD Web 存取介面啟動用戶端控制項。<br /> | 
+| <a href="imsrdpclientnonscriptable4-markrdpsettingssecure.md"><strong>MarkRdpSettingsSecure</strong></a><br /> | 讀取/寫入<br /> | 指定是否將 RDP 設定標示為安全。<br /> | 
+| <a href="imsrdpclient5-msrdpclientshell.md"><strong>MsRdpClientShell</strong></a><br /> | 唯讀<br /> | 入口網站啟動器的用戶端設定。<br /> | 
+| <a href="imsrdpclientnonscriptable3-negotiatesecuritylayer.md"><strong>NegotiateSecurityLayer</strong></a><br /> | 讀取/寫入<br /> | 指定此連接是否支援 NegotiateSecurityLayer 設定。<br /><blockquote>[!Note]<br />當 <a href="imsrdpclientnonscriptable3-enablecredsspsupport.md"><strong>CredSspSupport</strong></a> 已啟用並存在於用戶端上，或當安全通訊端層 (SSL) 啟用使用者驗證時，會忽略 NegotiateSecurityLayer。</blockquote><br /> | 
+| <a href="imstscnonscriptable-portablepassword.md"><strong>PortablePassword</strong></a><br /> | 讀取/寫入<br /> | 不支援這個屬性。<br /> | 
+| <a href="imstscnonscriptable-portablesalt.md"><strong>PortableSalt</strong></a><br /> | 讀取/寫入<br /> | 不支援這個屬性。<br /> | 
+| <a href="imsrdpclientnonscriptable3-promptforcredentials.md"><strong>PromptForCredentials</strong></a><br /> | 讀取/寫入<br /> | 指定是否應顯示 [提示輸入認證] 對話方塊。<br /> | 
+| <a href="imsrdpclientnonscriptable4-promptforcredsonclient.md"><strong>PromptForCredsOnClient</strong></a><br /> | 讀取/寫入<br /> | 指定用戶端控制項是否顯示提示輸入認證的對話方塊。<br /> | 
+| <a href="imsrdpclientnonscriptable4-publishercertificatechain.md"><strong>PublisherCertificateChain</strong></a><br /> | 讀取/寫入<br /> | 指定發行者的憑證鏈。 鏈會儲存在類型 VT_BYREF 的變數中，其中包含 <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_context"><strong>CERT_CHAIN_CONTEXT</strong></a> 結構的指標。<br /> | 
+| <a href="imsrdpclientnonscriptable3-redirectdynamicdevices.md"><strong>RedirectDynamicDevices</strong></a><br /> | 讀取/寫入<br /> | 指定是否可重新導向會話中所列舉的動態連接 PnP 裝置。<br /> | 
+| <a href="imsrdpclientnonscriptable3-redirectdynamicdrives.md"><strong>RedirectDynamicDrives</strong></a><br /> | 讀取/寫入<br /> | 指定在會話中列舉的動態連接 PnP 磁片磁碟機是否可用於重新導向。<br /> | 
+| <a href="imsrdpclientnonscriptable4-redirectionwarningtype.md"><strong>RedirectionWarningType</strong></a><br /> | 讀取/寫入<br /> | 控制重新導向對話方塊的存在和外觀。<br /> | 
+| <a href="imsrdpclientnonscriptable5-remotemonitorcount.md"><strong>RemoteMonitorCount</strong></a><br /> | 唯讀<br /> | 指定遠端監視的數目。<br /> | 
+| <a href="imsrdpclientnonscriptable5-remotemonitorlayoutmatcheslocal.md"><strong>RemoteMonitorLayoutMatchesLocal</strong></a><br /> | 唯讀<br /> | 指定遠端監視配置是否與本機監視器版面配置相同。<br /> | 
+| <a href="imsrdpclient5-remoteprogram.md"><strong>RemoteProgram</strong></a><br /> | 唯讀<br /> | 用戶端 RemoteApp 設定。<br /> | 
+| <a href="imsrdpclient7-remoteprogram2.md"><strong>RemoteProgram2</strong></a><br /> | 唯讀<br /> | 支援 <a href="itsremoteprogram2.md"><strong>ITSRemoteProgram2</strong></a> 介面的物件。<br /> | 
+| <a href="imsrdpclient10-remoteprogram3.md"><strong>RemoteProgram3</strong></a><br /> | 唯讀<br /> | 支援 <a href="itsremoteprogram3.md"><strong>ITSRemoteProgram3</strong></a> 介面的物件。<br /> | 
+| <a href="imstscax-securedsettings.md"><strong>SecuredSettings</strong></a><br /> | 唯讀<br /> | <a href="imstscsecuredsettings-interface.md"><strong>IMsTscSecuredSettings</strong></a>介面指標。<br /> | 
+| <a href="imsrdpclient-securedsettings2.md"><strong>SecuredSettings2</strong></a><br /> | 唯讀<br /> | <a href="imsrdpclientsecuredsettings-interface.md"><strong>IMsRdpClientSecuredSettings</strong></a>介面的指標，用來設定用戶端控制項的安全設定。<br /> | 
+| <a href="imsrdpclient7-securedsettings3.md"><strong>SecuredSettings3</strong></a><br /> | 唯讀<br /> | 支援 <a href="imsrdpclientsecuredsettings2.md"><strong>IMsRdpClientSecuredSettings2</strong></a> 介面的物件。<br /> | 
+| <a href="imstscax-securedsettingsenabled.md"><strong>SecuredSettingsEnabled</strong></a><br /> | 唯讀<br /> | 指出 <a href="imstscsecuredsettings-interface.md"><strong>IMsTscSecuredSettings</strong></a> 介面是否可供使用。<br /> | 
+| <a href="imstscax-server.md"><strong>伺服器</strong></a><br /> | 讀取/寫入<br /> | 目前控制項所連接的伺服器名稱。<br /> | 
+| <a href="imsrdpclientnonscriptable3-showredirectionwarningdialog.md"><strong>ShowRedirectionWarningDialog</strong></a><br /> | 讀取/寫入<br /> | 指定在啟動會話之前，是否應該顯示重新導向安全性警告對話方塊。<br /> | 
+| <a href="imstscax-startconnected.md"><strong>StartConnected</strong></a><br /> | 讀取/寫入<br /> | 指出控制項是否會在啟動時立即建立 RD 工作階段主機的伺服器連接。<br /> | 
+| <a href="imsrdpclient5-transportsettings.md"><strong>TransportSettings</strong></a><br /> | 唯讀<br /> | 用戶端 RD 閘道設定。<br /> | 
+| <a href="imsrdpclient6-transportsettings2.md"><strong>TransportSettings2</strong></a><br /> | 唯讀<br /> | 要 <a href="imsrdpclienttransportsettings2.md"><strong>IMsRdpClientTransportSettings2</strong></a>的介面。<br /> | 
+| <a href="imsrdpclient7-transportsettings3.md"><strong>TransportSettings3</strong></a><br /> | 唯讀<br /> | 支援 <a href="imsrdpclienttransportsettings3.md"><strong>IMsRdpClientTransportSettings3</strong></a> 介面的物件。<br /> | 
+| <a href="imsrdpclient9-transportsettings4.md"><strong>TransportSettings4</strong></a><br /> | 唯讀<br /> | 支援 <a href="imsrdpclienttransportsettings4.md"><strong>IMsRdpClientTransportSettings4</strong></a> 介面的物件。<br /> | 
+| <a href="imsrdpclientnonscriptable4-trustedzonesite.md"><strong>TrustedZoneSite</strong></a><br /> | 讀取/寫入<br /> | 指定使用者啟動連線的網站是否位於用戶端電腦的 [信任的網站] 清單中。<br /> | 
+| <a href="imsrdpclientnonscriptable2-uiparentwindowhandle.md"><strong>UIParentWindowHandle</strong></a><br /> | 讀取/寫入<br /> | 要作為控制項父視窗的視窗控制碼。 如此一來，控制項所顯示的任何視窗都能針對父應用程式所顯示的任何視窗適當地進行模式回應。<br /> | 
+| <a href="imsrdpclientnonscriptable5-usemultimon.md"><strong>UseMultimon</strong></a><br /> | 讀取/寫入<br /> | 指定遠端桌面 ActiveX 控制項是否應該使用多個監視器。<br /> | 
+| <a href="imsrdppreferredredirectioninfo-useredirectionservername.md"><strong>UseRedirectionServerName</strong></a><br /> | 讀取/寫入<br /> | 是否要使用重新導向伺服器名稱。<br /> | 
+| <a href="imstscax-username.md"><strong>使用者</strong></a><br /> | 讀取/寫入<br /> | 使用者名稱登入認證。<br /> | 
+| <a href="imstscax-version.md"><strong>版本</strong></a><br /> | 唯讀<br /> | 目前控制項的版本號碼。<br /> | 
+| <a href="imstscax-verticalscrollbarvisible.md"><strong>VerticalScrollBarVisible</strong></a><br /> | 唯讀<br /> | 指出控制項是否顯示垂直捲動條。<br /> | 
+| <a href="imsrdpclientnonscriptable3-warnaboutclipboardredirection.md"><strong>WarnAboutClipboardRedirection</strong></a><br /> | 讀取/寫入<br /> | 指定在啟動會話之前，安全性警告對話方塊是否應包含關於剪貼簿重新導向的警告。<br /> | 
+| <a href="imsrdpclientnonscriptable5-warnaboutdirectxredirection.md"><strong>WarnAboutDirectXRedirection</strong></a><br /> | 讀取/寫入<br /> | 不會使用此屬性。<br /> | 
+| <a href="imsrdpclientnonscriptable4-warnaboutprinterredirection.md"><strong>WarnAboutPrinterRedirection</strong></a><br /> | 讀取/寫入<br /> | 指定在啟動會話之前，重新導向對話方塊是否顯示印表機重新導向的相關訊息。<br /> | 
+| <a href="imsrdpclientnonscriptable3-warnaboutsendingcredentials.md"><strong>WarnAboutSendingCredentials</strong></a><br /> | 讀取/寫入<br /> | 指定在啟動會話之前，安全性警告是否應包含有關將認證傳送至遠端伺服器的警告。<br /> | 
+
 
 
 

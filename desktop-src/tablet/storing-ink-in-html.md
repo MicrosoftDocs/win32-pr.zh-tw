@@ -4,18 +4,18 @@ ms.assetid: 1cef7f91-118c-4a16-802d-bd2ec5d15416
 title: 以 HTML 儲存筆墨
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8372e6e77ea0284bc44fa70883964e53b3063bab
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3d8949582c5743ba7be5ac664627792c7b7f8a0cd5968a67f5db08b6428cb886
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106990360"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119934358"
 ---
 # <a name="storing-ink-in-html"></a>以 HTML 儲存筆墨
 
 您通常會想要複製一組更複雜的資訊，而不是可 (ISF) 的筆墨序列化格式。 HTML 特別適用于互通性格式，因為它會以業界標準的形式接受，以及其代表異類內容的能力。
 
-HTML 已廣泛理解、妥善記載，並熟悉許多開發人員。 有許多適用于 HTML 生產的工具。 此外，Microsoft Windows 還包含應用程式設計介面， (Api) ，以轉譯和操作 HTML。 最後，Tablet PC 平臺 Api 提供嚴加防禦 GIF 持續性格式，適用于以其他格式內嵌，最重要的是 HTML。 此格式是由 GIF 檔案所組成，其中包含內嵌在應用程式延伸模組區塊中筆跡序列化格式 (ISF) 。
+HTML 已廣泛理解、妥善記載，並熟悉許多開發人員。 有許多適用于 HTML 生產的工具。 此外，Microsoft Windows 包含應用程式開發介面， (api) 以轉譯和操作 HTML。 最後，Tablet PC 平臺 Api 提供嚴加防禦 GIF 持續性格式，適用于以其他格式內嵌，最重要的是 HTML。 此格式是由 GIF 檔案所組成，其中包含內嵌在應用程式延伸模組區塊中筆跡序列化格式 (ISF) 。
 
 這些 GIF 檔是筆墨物件的標記法：
 
@@ -24,7 +24,7 @@ HTML 已廣泛理解、妥善記載，並熟悉許多開發人員。 有許多�
 
 這些 GIF 檔案可以使用 Tablet PC 平臺 Api 的持續性方法來產生。 它們是 Gif，而且應該使用 GIF 擴充功能，而如果應用程式不是啟用筆墨，就不會有任何不同的標準 GIF。 不過，對啟用筆墨的應用程式來說，有一組豐富的資料基礎是影像。
 
-在 Tablet PC 平臺 Api 產生之後，HTML 中的 IMG 標記會參考嚴加防禦 GIF。 然後 HTML 會儲存在標準 CF HTML 剪貼簿位置中 \_ 。 這可讓其他應用程式看到 HTML，不論它們是否為啟用筆墨。 映射本身可以儲存在 Windows 網際網路快取中，並設定為在適當的一段時間後到期。
+在 Tablet PC 平臺 Api 產生之後，HTML 中的 IMG 標記會參考嚴加防禦 GIF。 然後 HTML 會儲存在標準 CF HTML 剪貼簿位置中 \_ 。 這可讓其他應用程式看到 HTML，不論它們是否為啟用筆墨。 映射本身可以儲存在 Windows 的網際網路快取中，並設定為在適當的一段時間後到期。
 
 提供或要求 IMG 標記的特定裝飾。 這些裝飾會將 HTML 識別為包含筆墨。 下列範例會使用 HTML 標籤來參考嚴加防禦 GIF：
 

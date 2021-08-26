@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Perfstruct.h
-ms.openlocfilehash: 599befea67b28acbedffd5c98ebce84aadf70838
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c7b8f83fffaa718c27e0333d864a564282228c0943f4d77fb653dc1800a6ddd2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106991198"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119928188"
 ---
 # <a name="perfinfo_dshow_audiobreak-structure"></a>PERFINFO \_ DSHOW \_ AUDIOBREAK 結構
 
@@ -74,9 +74,9 @@ DirectSound 緩衝區中的音訊中斷開頭。
 
 ## <a name="remarks"></a>備註
 
-若要啟用此事件，您必須在 \_ 呼叫 **EnableTrace** 時，在 *ENABLEFLAG* 參數中設定 AUDIOBREAK 位旗標。 此旗標定義于 Dxmperf 標頭檔中，並包含在 DirectShow 基類中。
+若要啟用此事件，您必須在 \_ 呼叫 **EnableTrace** 時，在 *ENABLEFLAG* 參數中設定 AUDIOBREAK 位旗標。 此旗標定義于標頭檔 Dxmperf 中，包含在 DirectShow 的基類中。
 
-若要從 DirectShow 篩選記錄此事件，請使用 **PERFLOG \_ AUDIOBREAK** 宏（定義于 Dxmperf 中）。
+若要從 DirectShow 篩選記錄此事件，請使用 Dxmperf 中所定義的 **PERFLOG \_ AUDIOBREAK** 宏。
 
 ## <a name="requirements"></a>規格需求
 
@@ -92,7 +92,7 @@ DirectSound 緩衝區中的音訊中斷開頭。
 
 <dl> <dt>
 
-[DirectShow 結構](directshow-structures.md)
+[DirectShow結構](directshow-structures.md)
 </dt> <dt>
 
 [DirectShow 中的事件追蹤](event-tracing-in-directshow.md)

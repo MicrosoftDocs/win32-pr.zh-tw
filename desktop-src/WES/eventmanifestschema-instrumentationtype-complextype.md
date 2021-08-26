@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 1679ae310a996458aad3e25aba74955036094e00
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 21462782ad14dfd977c87ab0898b7b9d2211e730bae42ed6281207fc557a4101
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106968596"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119904998"
 ---
 # <a name="instrumentationtype-complex-type"></a>Instrumentationtype.event 複雜類型
 
@@ -48,7 +48,7 @@ ms.locfileid: "106968596"
 
 
 
-| 元素                                                                  | 類型                                                             | Description                                                        |
+| 元素                                                                  | 類型                                                             | 描述                                                        |
 |--------------------------------------------------------------------------|------------------------------------------------------------------|--------------------------------------------------------------------|
 | [**事件**](eventmanifestschema-events-instrumentationtype-element.md) | [**EventsType**](eventmanifestschema-eventstype-complextype.md) | 包含資訊清單所定義之提供者的清單。<br/> |
 
@@ -60,8 +60,8 @@ ms.locfileid: "106968596"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

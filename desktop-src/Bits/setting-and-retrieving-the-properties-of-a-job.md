@@ -8,12 +8,12 @@ keywords:
 - 正在抓取作業屬性位
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 609299e3e7bdee477e2008f3f4ce83ae24583ffd
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c3ded532d3c99c8f8063a5c372c60086f35320d321860b056b60f2cb5a9a4003
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839352"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120004828"
 ---
 # <a name="setting-and-retrieving-the-properties-of-a-job"></a>設定和取出作業的屬性
 
@@ -189,9 +189,9 @@ if (SUCCEEDED(hr))
 
 
 
- 
+ 
 
- 
+ 
 
 
 

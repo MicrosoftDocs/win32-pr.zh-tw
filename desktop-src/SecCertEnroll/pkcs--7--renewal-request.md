@@ -4,12 +4,12 @@ ms.assetid: 3752600c-40a9-401b-9949-8536203d7f14
 title: PKCS \# 7 更新要求
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7ec3e8985ff77876295aa73b030e1c17d3e27c3f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 44473282c3b0efb283c4ad3e8b5cad17bed5b143449781f4708114a868546c60
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106979311"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119880701"
 ---
 # <a name="pkcs-7-renewal-request"></a>PKCS \# 7 更新要求
 

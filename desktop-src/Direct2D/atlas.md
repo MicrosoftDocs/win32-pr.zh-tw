@@ -4,12 +4,12 @@ description: 您可以使用此效果來輸出影像的一部分，但是將區�
 ms.assetid: D35E32CB-4DF7-408F-A717-1E421DDC8763
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0f9e1d4c6df0698d47a35eb2cbdaf670b98ed125
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 71b0d55e7751ef73d8f6bdff65a6ae5d5933695600a1003b9c4a010231628019
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466320"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119929043"
 ---
 # <a name="atlas-effect"></a>塔效果
 
@@ -75,7 +75,7 @@ m_d2dContext->DrawImage(atlasEffect.Get());
 
 
 
-| 顯示名稱和索引列舉                                             | Description                                                                                                                                                                  |
+| 顯示名稱和索引列舉                                             | 描述                                                                                                                                                                  |
 |--------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | InputRect<br/> D2D1 \_ 塔 \_ 的 \_ 輸入 \_ 矩形<br/>                 | 傳遞給下一個效果的影像部分。<br/> 類型為 D2D1 \_ VECTOR \_ 4F。<br/> 預設值為 (-FLT \_ max、-FLT \_ MAX、FLT \_ max、FLT \_ max) 。 <br/> |
 | InputPaddingRect<br/> D2D1 \_ 塔 \_ 的 \_ 輸入 \_ 填補 \_ 矩形<br/> | 針對輸出矩形取樣的大小上限。<br/> 類型為 D2D1 \_ VECTOR \_ 4F。<br/> 預設值為 (-FLT \_ max、-FLT \_ MAX、FLT \_ max、FLT \_ max) 。<br/>   |
@@ -90,8 +90,8 @@ m_d2dContext->DrawImage(atlasEffect.Get());
 
 | 需求 | 值 |
 |--------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端 | 適用于 Windows 7 desktop app 的 Windows 8 和平臺更新 \[ \| windows Store 應用程式\] |
-| 最低支援的伺服器 | 適用于 Windows 7 desktop app 的 Windows 8 和平臺更新 \[ \| windows Store 應用程式\] |
+| 最低支援的用戶端 | Windows 7 傳統型應用程式的 Windows 8 和平臺更新 \[ \| Windows 儲存應用程式\] |
+| 最低支援的伺服器 | Windows 7 傳統型應用程式的 Windows 8 和平臺更新 \[ \| Windows 儲存應用程式\] |
 | 標頭                   | d2d1effects。h                                                                      |
 | 程式庫                  | d2d1 .lib，dxguid .lib                                                               |
 

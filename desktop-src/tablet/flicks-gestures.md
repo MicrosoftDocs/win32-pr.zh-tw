@@ -1,19 +1,19 @@
 ---
-description: Windows Vista 包含一組8個基本筆觸手勢。 筆觸是與滾動動作和命令相關聯的快速、線性畫筆移動。
+description: WindowsVista 包含一組8個基本筆觸手勢。 筆觸是與滾動動作和命令相關聯的快速、線性畫筆移動。
 ms.assetid: 004c7d76-90a9-4506-a70b-dbf8f9e1c616
 title: 筆觸手勢
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f85d519f47b265779741b2f98fcb1b2f5d69df5b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 37e7d53c42eb178900ce22b7890febcfd1c6aca95f2257b0c5ed06eb20173b79
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104565455"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119936510"
 ---
 # <a name="flicks-gestures"></a>筆觸手勢
 
-Windows Vista 包含一組8個基本筆觸 *手勢*。 筆觸是與滾動動作和命令相關聯的快速、線性畫筆移動。
+WindowsVista 包含一組8個基本筆觸 *手勢*。 筆觸是與滾動動作和命令相關聯的快速、線性畫筆移動。
 
 ## <a name="flick-details"></a>筆鋒詳細資料
 
@@ -25,7 +25,7 @@ Windows Vista 包含一組8個基本筆觸 *手勢*。 筆觸是與滾動動作�
 
 ![顯示手勢地圖的圖例](images/2647eb2d-36d0-4610-b923-fa3530d1e640.jpg)
 
-當使用者將畫筆移到 Tablet PC 的數位板上時，硬體會產生將畫筆封包傳送到 Tablet PC 平臺的畫筆輸入子系統。 一般來說，如果畫筆是用來替代滑鼠，則畫筆輸入子系統會採用這些畫筆封包，並將其傳送給（可能有修改）至 User32，負責處理滑鼠輸入的 Windows 元件。 如果畫筆正在筆墨表面上使用，則會轉譯筆墨而非產生的滑鼠封包。
+當使用者將畫筆移到 Tablet PC 的數位板上時，硬體會產生將畫筆封包傳送到 Tablet PC 平臺的畫筆輸入子系統。 一般來說，如果畫筆是用來替代滑鼠，則畫筆輸入子系統會採用這些畫筆封包，並將它們傳送給（可能是修改）至 User32，也就是負責處理滑鼠輸入的 Windows 元件。 如果畫筆正在筆墨表面上使用，則會轉譯筆墨而非產生的滑鼠封包。
 
 筆鋒偵測常式會在畫筆輸入子系統中執行。 筆觸偵測開始于按下畫筆，並持續到下列其中一項：
 
@@ -59,7 +59,7 @@ Windows Vista 包含一組8個基本筆觸 *手勢*。 筆觸是與滾動動作�
 
 ## <a name="processing-application-commands"></a>處理應用程式命令
 
-您的應用程式應該回應任何可能指派給筆鋒手勢的應用程式命令。 如果應用程式無法回應 [**WM \_ TABLET \_ 筆鋒訊息**](wm-tablet-flick-message.md)，Windows Vista 會先傳送適用的 [**WM \_ APPCOMMAND**](/windows/desktop/inputdev/wm-appcommand) 通知，然後再傳送一則 [**wm 的 \_ KEYDOWN**](/windows/desktop/inputdev/wm-keydown) 通知。
+您的應用程式應該回應任何可能指派給筆鋒手勢的應用程式命令。 如果應用程式無法回應 [**WM \_ TABLET \_ 筆鋒訊息**](wm-tablet-flick-message.md)，Windows Vista 會先傳送適用的 [**WM \_ APPCOMMAND**](/windows/desktop/inputdev/wm-appcommand)通知，然後再傳送一則 [**wm 的 \_ KEYDOWN**](/windows/desktop/inputdev/wm-keydown)通知。
 
 以下是可指派給筆觸的應用程式命令清單，以及可能傳送的備份按鍵訊息。
 

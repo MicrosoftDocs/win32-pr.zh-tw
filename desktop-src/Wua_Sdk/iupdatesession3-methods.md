@@ -4,12 +4,12 @@ ms.assetid: 8015443a-e232-44ab-b53a-e8cc4acd4dd3
 title: IUpdateSession3 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2bd4126d8bae9e1ba768e574fd9520bdb6cf3d45
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 845af7bc4858aa713a3c044562c91325d337e49da0f413a3b2536c0129a85bc6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112160"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119896738"
 ---
 # <a name="iupdatesession3-methods"></a>IUpdateSession3 方法
 

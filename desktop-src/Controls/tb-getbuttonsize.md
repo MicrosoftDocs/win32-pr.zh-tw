@@ -3,7 +3,7 @@ title: 'TB_GETBUTTONSIZE 訊息 (Commctrl .h) '
 description: 抓取工具列按鈕目前的寬度和高度（以圖元為單位）。
 ms.assetid: c1b72494-670b-4cf8-a78f-c67b6eee0677
 keywords:
-- TB_GETBUTTONSIZE message Windows 控制項
+- TB_GETBUTTONSIZE 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c6a414f5b338353d7d8ce22a081e9b711a2b56a9
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ddfdb632c81424cc2bcf4eef57b616d4dacc3510e1f55d003d9405ec72369ed8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103844447"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119918998"
 ---
 # <a name="tb_getbuttonsize-message"></a>TB \_ GETBUTTONSIZE 訊息
 
@@ -45,8 +45,8 @@ ms.locfileid: "103844447"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

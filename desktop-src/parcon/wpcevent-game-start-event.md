@@ -4,12 +4,12 @@ ms.assetid: c870f9fb-3be1-4039-9a33-dddff17a4faa
 title: 'WPCEVENT_GAME_START (Wpcevent 的事件) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c5cc47144910f624005031573e28f5078db10ee9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 41367a47a9bace8dd615ab4b6eea0a875099aab465c285389478c4bee0a39392
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026705"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119951498"
 ---
 # <a name="wpcevent_game_start-event"></a>WPCEVENT \_ 遊戲 \_ 開始活動
 
@@ -89,7 +89,7 @@ GUID，可識別分級層級所套用的目前評等系統。
 
 </dd> <dt>
 
-*Pid* 
+*PID* 
 </dt> <dd>
 
 遊戲的處理序識別碼，用來與進程的填充碼關閉相互關聯。
@@ -102,7 +102,7 @@ GUID，可識別分級層級所套用的目前評等系統。
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                             |
 | 標頭<br/>                   | <dl> <dt>Wpcevent。h</dt> </dl> |
 

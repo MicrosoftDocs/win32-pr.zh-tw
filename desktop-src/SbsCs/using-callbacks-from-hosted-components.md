@@ -4,12 +4,12 @@ ms.assetid: 794a2e2f-ba1f-48ad-a435-244fc7936097
 title: 使用託管元件的回呼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8ef302601985bc7e56a296bc8f494e48e18d785e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7fb13e61b83ba52f0f8dd5265b11585e8366c0e8558d45c5738f179d43df2eb5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112697"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119884598"
 ---
 # <a name="using-callbacks-from-hosted-components"></a>使用託管元件的回呼
 

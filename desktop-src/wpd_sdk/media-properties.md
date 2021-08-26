@@ -1,5 +1,5 @@
 ---
-description: Windows 可攜式裝置支援下列媒體屬性。
+description: Windows可攜式裝置支援下列媒體屬性。
 ms.assetid: 414d245a-b0b0-4da0-a333-095f0e2259f1
 title: '媒體屬性 (PortableDevice .h) '
 ms.topic: reference
@@ -13,20 +13,20 @@ api_type:
 - HeaderDef
 api_location:
 - PortableDevice.h
-ms.openlocfilehash: 8aed3cc699800c24d22fbb9aa1eb7f35615226c1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2f5cb9451e26675beeadb3b6145af74291edcc19026d52992ee9a6f764513be3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990713"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120006228"
 ---
 # <a name="media-properties"></a>媒體屬性
 
-Windows 可攜式裝置支援下列媒體屬性。
+Windows可攜式裝置支援下列媒體屬性。
 
 
 
-| 屬性                                                                                                                 | VarType        | Description                                                                                                                                                                                                                                                                                                    |
+| 屬性                                                                                                                 | VarType        | 描述                                                                                                                                                                                                                                                                                                    |
 |--------------------------------------------------------------------------------------------------------------------------|----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **WPD \_ MEDIA \_ 專輯 \_ 演出者**                                                                                            | **VT \_ LPWSTR** | 識別執行媒體之演出者的字串。                                                                                                                                                                                                                                                      |
 | **WPD \_ 媒體 \_ 音訊 \_ 編碼 \_ 設定檔**                                                                                 | VT \_ LPWSTR     | 指定編碼設定檔的字串。 媒體編解碼器可根據設定檔進行編碼，以定義特定的編碼演算法或優化程式。                                                                                                                                  |

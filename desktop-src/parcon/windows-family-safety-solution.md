@@ -1,17 +1,17 @@
 ---
-description: Windows 系列安全性解決方案
+description: Windows系列安全性解決方案
 ms.assetid: b89cf0c7-bf9f-4bcb-b008-8b7c792f3300
-title: Windows 系列安全性解決方案
+title: Windows系列安全性解決方案
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0a2d8776893468df4f4877c7220436f505ab1e6f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7cc5e5749201fc849e7c9476c97c6fbd3dc5ee5b2d3f26ed3988eb72ac59c1ac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106985496"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119951648"
 ---
-# <a name="windows-family-safety-solution"></a>Windows 系列安全性解決方案
+# <a name="windows-family-safety-solution"></a>Windows系列安全性解決方案
 
 Microsoft 為更詳盡的解決方案所定義的主要需求如下。 請注意，online 的定義主要是網際網路面向的技術，與通常會在電腦上限制的離線用戶端不同。
 
@@ -19,7 +19,7 @@ Microsoft 為更詳盡的解決方案所定義的主要需求如下。 請注意
 
 -   支援監視受控制使用者的足夠活動，讓父系或守護者有合理的信心可探索有風險的活動。 此外，也可以重新設定受控制使用者的原則，以便探索非預期或未授權的變更。
 
--   透過標準的 Windows Vista 事件記錄介面公開活動監視功能，並提供現成的檢視器解決方案。 定義標準活動事件，並為 Isv 提供自訂事件產生的擴充性。
+-   透過標準 Windows Vista 事件記錄介面公開活動監視功能，並提供現成的檢視器解決方案。 定義標準活動事件，並為 Isv 提供自訂事件產生的擴充性。
 
 -   升階使用者的所有監視和限制都只會依據家長或監護人的選擇來開啟。 在可能的情況下，限制功能對於非控制的使用者應該完全非使用中，以將安全性和應用程式相容性風險降至最低。
 
@@ -31,7 +31,7 @@ Microsoft 為更詳盡的解決方案所定義的主要需求如下。 請注意
 
     例外狀況：在所選區域中提供完整的線上活動監視和限制，讓取用者和產業受益于成本。
 
--   使用公用 Api 來公開家長監護使用者介面設定和活動事件定義，讓協力廠商可以查詢狀態、修改設定和讀取活動記錄（如果它們是以足夠的 Windows 帳戶許可權執行的話）。
+-   使用公用 api 來公開家長監護使用者介面設定和活動事件定義，讓協力廠商可以查詢狀態、修改設定和讀取活動記錄（如果它們是以足夠的 Windows 帳戶許可權執行）。
 
 最主要的目標是要提升協力廠商家長監護解決方案與現成功能的共存，並藉由整合、擴充或提供適合的替代功能，支援增加價值。
 

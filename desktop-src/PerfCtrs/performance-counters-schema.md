@@ -4,19 +4,19 @@ ms.assetid: fa13d13a-f2e2-4732-8bf7-cb0a0f1d4ed7
 title: 效能計數器結構描述
 ms.topic: article
 ms.date: 08/17/2020
-ms.openlocfilehash: 5c41e9d54e259d6e53453a55cc97f7734ce793fe
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7e31aa6e42d185f95b142fac864dbaf725bbba456161c3484aba157c8afd6557
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103693031"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119962368"
 ---
 # <a name="performance-counters-schema"></a>效能計數器結構描述
 
-在 Windows Vista 或更新版本上支援 V2 效能資料提供者。 他們使用。男人 (XML 檢測資訊清單) 檔案來定義提供者、countersets 和計數器。
+Windows Vista 或更新版本支援 V2 效能資料提供者。 他們使用。男人 (XML 檢測資訊清單) 檔案來定義提供者、countersets 和計數器。
 
 > [!NOTE]
-> 檢測資訊清單可以包含 Windows (ETW) 提供者的事件追蹤和效能計數器提供者的相關資訊。 如需有關檢測資訊清單的詳細資訊，請參閱 [EventManifest 架構](/windows/desktop/WES/eventmanifestschema-schema) 和 [撰寫檢測資訊清單](/windows/desktop/WES/writing-an-instrumentation-manifest)) 。
+> 檢測資訊清單可以包含 Windows (ETW) 提供者和效能計數器提供者之事件追蹤的相關資訊。 如需有關檢測資訊清單的詳細資訊，請參閱 [EventManifest 架構](/windows/desktop/WES/eventmanifestschema-schema) 和 [撰寫檢測資訊清單](/windows/desktop/WES/writing-an-instrumentation-manifest)) 。
 
 本節說明您在 `counters` 檢測資訊清單區段中使用的下列元素和類型：
 

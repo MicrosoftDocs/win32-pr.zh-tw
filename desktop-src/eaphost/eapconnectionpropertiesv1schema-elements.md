@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: c14591631e6f050318dcc88f78ee11ea4f443c79
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 5c040f5a58b5e8855e3aea8aed2992b2a390e2bdc8eec8399bdf051c70117009
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "106965670"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119948218"
 ---
 # <a name="eapconnectionpropertiesv1-schema-elements"></a>eapconnectionpropertiesv1 架構元素
 
@@ -34,9 +34,9 @@ ms.locfileid: "106965670"
 [eapconnectionpropertiesv1 架構](eapconnectionpropertiesv1schema-schema.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

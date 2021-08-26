@@ -4,12 +4,12 @@ description: 如果伺服器應用程式成功處理上傳的檔案，應用程�
 ms.assetid: fd0b10f1-52b4-4564-9683-620f3b965680
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d6019f296cb3b960369efc2c3ca8f25eb7738e0
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2c66654bdc0070bf5988d16ac2489d62dc3614b44156337747052df5c7c314e0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671436"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120005278"
 ---
 # <a name="handling-server-application-errors"></a>處理伺服器應用程式錯誤
 
@@ -19,9 +19,9 @@ ms.locfileid: "103671436"
 
 若要取出錯誤，請呼叫 [**IBackgroundCopyError：： GetError**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopyerror-geterror) 方法。 錯誤內容將會是 BG \_ 錯誤 \_ 內容 \_ 遠端 \_ 應用程式。
 
- 
+ 
 
- 
+ 
 
 
 

@@ -31,12 +31,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 7a0b0f0cb73cc60ff117399a636b0ab8542fac6e
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: b2861d12740f894cc17a91d6a3f4c2b6792d38f658063bc89474f3656a74b45f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972347"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119917408"
 ---
 # <a name="win32_tcpipprinterport-class"></a>Win32 \_ TCPIPPrinterPort 類別
 
@@ -243,7 +243,7 @@ RAW
 
 </dt> <dd>
 
-Lpr
+LPR
 
 舊版通訊協定，最終會以 RAW 取代。
 
@@ -449,7 +449,7 @@ Lpr
 
 </dd> <dt>
 
-**型別**
+**類型**
 </dt> <dd> <dl> <dt>
 
 資料類型： **uint32**

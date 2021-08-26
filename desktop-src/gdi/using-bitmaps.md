@@ -4,12 +4,12 @@ ms.assetid: c58560dc-0263-4054-9230-aa6c3a82a016
 title: 使用點陣圖
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a6e6b69dc656b71b85858928c40c8273f22b0cbf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: e15de32f8c71e3594dfc9fccf591684fd3b70316ca79ea5f3c0a6a3fddaa2baf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104973080"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119888988"
 ---
 # <a name="using-bitmaps"></a>使用點陣圖
 

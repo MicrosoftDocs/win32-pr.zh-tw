@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 542e511c11111bb2698d9c936a1f0973a2145c9b
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 8d655ea3f4a0a5dccc8b5e1380296948c9a55dce1d86336f824b30189f6557d5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104023022"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119930898"
 ---
 # <a name="drm_rights"></a>DRM \_ 許可權
 
@@ -39,14 +39,14 @@ g \_ wszWMDRM \_ 許可權
 
 
 
-| Right                                           | 字串常值      | Description                                                                                                                                                                                                          |
+| Right                                           | 字串常值      | 描述                                                                                                                                                                                                          |
 |-------------------------------------------------|---------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | g \_ wszWMDRM \_ 右 \_ 備份                      | 備份            | 備份授權的許可權。                                                                                                                                                                                        |
 | g \_ wszWMDRM \_ RIGHT \_ 協同作業 \_ 播放         | "CollaborativePlay" | 在共同作業播放清單中播放檔案的許可權。                                                                                                                                                          |
 | g \_ wszWMDRM \_ RIGHT \_ COPY                        | "Copy"              | 將檔案複製到裝置的許可權。 此許可權會取代較舊的複製許可權 (g \_ wszWMDRM \_ right \_ copy \_ 至 \_ CD、g \_ wszWMDRM \_ right \_ copy \_ 至 \_ 非 \_ SDMI \_ 裝置，以及 g \_ wszWMDRM \_ right \_ 複製 \_ 到 \_ SDMI \_ 裝置) 。 |
-| g \_ wszWMDRM \_ RIGHT \_ 複製 \_ 到 \_ CD                | "Print. redbook"     | 將檔案複製到 CD (的紅色書籍格式) 的許可權。在 Windows Media DRM 10 中，此許可權由 g \_ wszWMDRM \_ right COPY 取代 \_ 。<br/>                                                                             |
-| g \_ wszWMDRM \_ RIGHT \_ COPY \_ 至 \_ 非 \_ SDMI \_ 裝置 | "Transfer. NONSDMI"  | 將檔案複製到非 SDMI 裝置的許可權。在 Windows Media DRM 10 中，此許可權由 g \_ wszWMDRM \_ right COPY 取代 \_ 。<br/>                                                                                  |
-| g \_ wszWMDRM \_ RIGHT \_ 複製 \_ 到 \_ SDMI \_ 裝置      | "Transfer. SDMI"     | 將檔案複製到符合 SDMI 規範之裝置的許可權。在 Windows Media DRM 10 中，此許可權由 g \_ wszWMDRM \_ right COPY 取代 \_ 。<br/>                                                                           |
+| g \_ wszWMDRM \_ RIGHT \_ 複製 \_ 到 \_ CD                | "Print. redbook"     | 將檔案複製到 CD (的紅色書籍格式) 的許可權。在 Windows 媒體 DRM 10 中，此許可權會由 g \_ wszWMDRM \_ right \_ COPY 取代。<br/>                                                                             |
+| g \_ wszWMDRM \_ RIGHT \_ COPY \_ 至 \_ 非 \_ SDMI \_ 裝置 | "Transfer. NONSDMI"  | 將檔案複製到非 SDMI 裝置的許可權。在 Windows 媒體 DRM 10 中，此許可權會由 g \_ wszWMDRM \_ right \_ COPY 取代。<br/>                                                                                  |
+| g \_ wszWMDRM \_ RIGHT \_ 複製 \_ 到 \_ SDMI \_ 裝置      | "Transfer. SDMI"     | 將檔案複製到符合 SDMI 規範之裝置的許可權。在 Windows 媒體 DRM 10 中，此許可權會由 g \_ wszWMDRM \_ right \_ COPY 取代。<br/>                                                                           |
 | g \_ wszWMDRM \_ 右 \_ 播放                    | 發出              | 播放媒體檔案的許可權。                                                                                                                                                                                        |
 
 

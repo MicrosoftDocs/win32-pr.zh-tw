@@ -4,23 +4,23 @@ ms.assetid: f7f1cf89-f211-4511-8260-b48c898c1cf6
 title: 管理摘要資訊
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 02ff360bd56dabc57b3a7ffccdba8c4f90346193
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9bf5ad72ee4f308831077ec2f732b92a70f407c560b204d10f2d3db63d1bb9bb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026323"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119926968"
 ---
 # <a name="manage-summary-information"></a>管理摘要資訊
 
-[Windows Installer 開發人員 Windows SDK 元件](platform-sdk-components-for-windows-installer-developers.md)中提供了 VBScript 檔案 WiSumInf.vbs。 此範例腳本可用來管理 Windows Installer 封裝的 [摘要資訊串流](summary-information-stream.md) 。
+[Windows Installer 開發人員 Windows SDK 元件](platform-sdk-components-for-windows-installer-developers.md)中提供了 VBScript 檔案 WiSumInf.vbs。 此範例腳本可用來管理 Windows Installer 封裝的[摘要資訊串流](summary-information-stream.md)。
 
 此範例將示範如何使用：
 
 -   [**SummaryInformation 屬性 (安裝程式物件)**](installer-summaryinformation.md)
 -   [](installer-lasterrorrecord.md) [**安裝程式物件** 的 LastErrorRecord 方法](installer-object.md)
 
-使用此範例需要 Windows Script Host 的 CScript.exe 或 WScript.exe 版本。 若要使用 CScript.exe 執行此範例，請使用下列語法在命令提示字元中輸入命令。 如果第一個引數是/？，則會顯示說明 或者，如果指定的引數太少。 若要將輸出重新導向至檔案，請以 VBS > 路徑結束命令列 \[  \] 。 此範例會傳回值0表示成功，如果叫用說明，則傳回 1; 如果腳本失敗，則傳回2。
+使用此範例需要 Windows 腳本主機的 CScript.exe 或 WScript.exe 版本。 若要使用 CScript.exe 執行此範例，請使用下列語法在命令提示字元中輸入命令。 如果第一個引數是/？，則會顯示說明 或者，如果指定的引數太少。 若要將輸出重新導向至檔案，請以 VBS > 路徑結束命令列 \[  \] 。 此範例會傳回值0表示成功，如果叫用說明，則傳回 1; 如果腳本失敗，則傳回2。
 
 **cscript WiSumInf.vbs \[ 資料庫 \] \[ 屬性 = 值的路徑\]**
 
@@ -28,11 +28,11 @@ ms.locfileid: "104026323"
 
 
 
-| PID | Name        | 描述                                                                                                                                                                                                                                                                                      |
+| PID | 名稱        | 描述                                                                                                                                                                                                                                                                                      |
 |-----|-------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 1   | codepage    | 摘要資訊中文字字串的 ANSI 字碼頁。 如需詳細資訊，請參閱 [**字碼頁摘要**](codepage-summary.md) 屬性。                                                                                                                                                           |
 | 2   | 標題       | Windows Installer 封裝的類型。 如需詳細資訊，請參閱 [**標題摘要屬性**](title-summary.md)。                                                                                                                                                                                    |
-| 3   | 主體     | 完整的產品名稱。 如需詳細資訊，請參閱 [**主題摘要屬性**](subject-summary.md)。                                                                                                                                                                                               |
+| 3   | 主旨     | 完整的產品名稱。 如需詳細資訊，請參閱 [**主題摘要屬性**](subject-summary.md)。                                                                                                                                                                                               |
 | 4   | 作者      | 建立者，通常是廠商名稱。 如需詳細資訊，請參閱 [**作者摘要屬性**](author-summary.md)。                                                                                                                                                                                     |
 | 5   | 關鍵字    | 檔案瀏覽器所使用的關鍵字清單。 如需詳細資訊，請參閱 [**關鍵字摘要屬性**](keywords-summary.md)。                                                                                                                                                                       |
 | 6   | 註解    | 封裝用途或使用的描述。 如需詳細資訊，請參閱 [**批註摘要屬性**](comments-summary.md)。                                                                                                                                                                       |
@@ -52,7 +52,7 @@ ms.locfileid: "104026323"
 
  
 
-如需其他腳本範例，請參閱 [Windows Installer 腳本範例](windows-installer-scripting-examples.md)。 如需不需要 Windows Script Host 的範例公用程式，請參閱 [Windows Installer 開發工具](windows-installer-development-tools.md)。
+如需其他腳本範例，請參閱[Windows Installer 腳本範例](windows-installer-scripting-examples.md)。 如需不需要 Windows 腳本主機的範例公用程式，請參閱[Windows Installer 開發工具](windows-installer-development-tools.md)。
 
  
 

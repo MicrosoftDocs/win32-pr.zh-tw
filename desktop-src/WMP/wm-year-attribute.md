@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 10bf10d4e905e10c74cfaf9986445ce9a68dc9b3
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: bec0b76fbf54a53a7ae09728fe34d75fff5c232de9ecfa13a77edaa97cd37e05
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106993407"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119900188"
 ---
 # <a name="wmyear-attribute"></a>WM/Year 屬性
 
@@ -26,7 +26,7 @@ ms.locfileid: "106993407"
 ## <a name="applies-to"></a>套用至
 
 -   [音訊專案](audio-item-attributes.md)
--   [常用的 Windows Media 檔案屬性](commonly-used-windows-media-file-attributes.md)
+-   [常用 Windows 媒體檔案屬性](commonly-used-windows-media-file-attributes.md)
 
 ## <a name="remarks"></a>備註
 
@@ -36,7 +36,7 @@ ms.locfileid: "106993407"
 
 這個屬性不應該當做查詢準則的一部分使用。 它是衍生自另一個屬性，而且無法在媒體集合中直接查詢。
 
-這個屬性的 Windows Media Format SDK 常數是 g \_ wszWMYear。
+這個屬性的 Windows 媒體格式 SDK 常數是 g \_ wszWMYear。
 
 ## <a name="requirements"></a>規格需求
 

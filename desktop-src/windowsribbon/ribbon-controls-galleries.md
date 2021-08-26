@@ -1,32 +1,32 @@
 ---
 title: 使用資源庫
-description: Windows 功能區架構為開發人員提供健全且一致的模型，以管理各種集合型控制項的動態內容。
+description: Windows 功能區架構可為開發人員提供健全且一致的模型，以管理各種集合型控制項的動態內容。
 ms.assetid: 447039f3-1428-4b6f-94cf-78cf81974041
 keywords:
-- Windows 功能區，資源庫
+- Windows功能區，資源庫
 - 功能區，資源庫
-- Windows 功能區，DropDownGallery 控制項
+- Windows功能區，DropDownGallery 控制項
 - 功能區，DropDownGallery 控制項
-- Windows 功能區，SplitButtonGallery 控制項
+- Windows功能區，SplitButtonGallery 控制項
 - 功能區，SplitButtonGallery 控制項
 - DropDownGallery 控制項
 - SplitButtonGallery 控制項
 - Windows 功能區的資源庫
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 784c69b0cf23edad906fbb35ee9a2a45454eacea
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: ce142c1159d7a7c4129f402716ed7e394ebb4829f043d7c58dd23221b1479720
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103682840"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119933441"
 ---
 # <a name="working-with-galleries"></a>使用資源庫
 
-Windows 功能區架構為開發人員提供健全且一致的模型，以管理各種集合型控制項的動態內容。 藉由調整並重新設定功能區 UI，這些動態控制項可讓架構在主應用程式和功能區本身中回應使用者互動，並提供彈性來處理各種執行時間環境。
+Windows 功能區架構可為開發人員提供健全且一致的模型，以管理各種集合型控制項的動態內容。 藉由調整並重新設定功能區 UI，這些動態控制項可讓架構在主應用程式和功能區本身中回應使用者互動，並提供彈性來處理各種執行時間環境。
 
 -   [簡介](#introduction)
--   [畫廊](#working-with-galleries)
+-   [資源庫](#working-with-galleries)
     -   [專案資源庫](#item-galleries)
     -   [命令資源庫](#command-galleries)
     -   [圖庫控制項](#working-with-galleries)
@@ -67,7 +67,7 @@ Windows 功能區架構為開發人員提供健全且一致的模型，以管理
 > [!IMPORTANT]
 > 此架構不支援在 [應用程式] 功能表中裝載專案資源庫。
 
- 
+ 
 
 ### <a name="command-galleries"></a>命令資源庫
 
@@ -83,7 +83,7 @@ Windows 功能區架構為開發人員提供健全且一致的模型，以管理
 
 [**DropDownGallery**](windowsribbon-element-dropdowngallery.md)是一個按鈕，顯示包含互斥專案或命令集合的下拉式清單。
 
-下列螢幕擷取畫面說明 Windows 7 Microsoft 小畫家中的功能區 [下拉式圖庫](windowsribbon-controls-dropdowngallery.md) 控制項。
+下列螢幕擷取畫面說明 Windows 7 Microsoft 小畫家中的功能區[下拉式圖庫](windowsribbon-controls-dropdowngallery.md)控制項。
 
 ![適用于 windows 7 的 microsoft 油漆中，下拉式圖庫控制項的螢幕擷取畫面。](images/controls/dropdowngallery.png)
 
@@ -91,7 +91,7 @@ Windows 功能區架構為開發人員提供健全且一致的模型，以管理
 
 [**SplitButtonGallery**](windowsribbon-element-splitbuttongallery.md)是複合控制項，會在主要按鈕上從其集合公開單一預設專案或命令，並在按一下次要按鈕時顯示的互斥下拉式清單中顯示其他專案或命令。
 
-下列螢幕擷取畫面說明 Windows 7 Microsoft 小畫家中的功能區 [分割按鈕資源庫](windowsribbon-controls-splitbuttongallery.md) 控制項。
+下列螢幕擷取畫面說明 Windows 7 的 Microsoft 小畫家中的功能區[分割按鈕資源庫](windowsribbon-controls-splitbuttongallery.md)控制項。
 
 ![適用于 windows 7 的 microsoft 油漆中分割按鈕圖庫控制項的螢幕擷取畫面。](images/controls/splitbuttongallery.png)
 
@@ -99,7 +99,7 @@ Windows 功能區架構為開發人員提供健全且一致的模型，以管理
 
 [**InRibbonGallery**](windowsribbon-element-inribbongallery.md)是一個資源庫，可在功能區中顯示相關專案或命令的集合。 如果資源庫中有太多專案，則會提供展開箭號，以在展開的窗格中顯示集合的其餘部分。
 
-下列螢幕擷取畫面說明 Windows 7 Microsoft 小畫家中功能區元件 [庫](windowsribbon-controls-inribbongallery.md) 控制項的功能區。
+下列螢幕擷取畫面說明 Windows 7 Microsoft 小畫家中功能區元件[庫](windowsribbon-controls-inribbongallery.md)控制項的功能區。
 
 ![microsoft 油漆功能區中功能區資源庫控制項的螢幕擷取畫面。](images/controls/inribbongallery.png)
 
@@ -107,7 +107,7 @@ Windows 功能區架構為開發人員提供健全且一致的模型，以管理
 
 [**ComboBox**](windowsribbon-element-combobox.md)是單一資料行清單方塊，其中包含具有靜態控制項或編輯控制項和下拉式箭號的專案集合。 當使用者按一下下拉式箭號時，就會顯示控制項的清單方塊部分。
 
-下列螢幕擷取畫面說明 Windows Live Movie Maker 的功能區 [下拉式列示方塊](windowsribbon-controls-combobox.md) 控制項。
+下列螢幕擷取畫面說明 Windows Live Movie Maker 中的功能區[下拉式列示方塊](windowsribbon-controls-combobox.md)控制項。
 
 ![microsoft 油漆功能區中 combobox 控制項的螢幕擷取畫面。](images/controls/combobox.png)
 
@@ -173,7 +173,7 @@ Windows 功能區架構為開發人員提供健全且一致的模型，以管理
 > [!Note]  
 > 某些專案屬性（例如 [UI \_ PKEY \_ 標籤](windowsribbon-reference-properties-uipkey-label.md)）可以在標記中定義。 如需詳細資訊，請參閱 [屬性索引鍵](windowsribbon-reference-properties.md) 參考檔。
 
- 
+ 
 
 
 
@@ -201,7 +201,7 @@ Windows 功能區架構為開發人員提供健全且一致的模型，以管理
 
 
 
- 
+ 
 
 下表說明命令資源庫 ([**UI \_ COMMANDTYPE \_ COMMANDCOLLECTION**](/windows/desktop/api/uiribbon/ne-uiribbon-ui_commandtype)) 的有效專案屬性。
 
@@ -215,7 +215,7 @@ Windows 功能區架構為開發人員提供健全且一致的模型，以管理
 
 
 
- 
+ 
 
 類別目錄是用來組織資源庫中的專案與命令。 類別目錄會透過 [UI \_ PKEY \_](windowsribbon-reference-properties-uipkey-categories.md) category 屬性索引鍵來定義並系結至資源庫，並以類別特定的 [**IUICollection**](/windows/desktop/api/uiribbon/nn-uiribbon-iuicollection) 物件來公開屬性。
 
@@ -224,7 +224,7 @@ Windows 功能區架構為開發人員提供健全且一致的模型，以管理
 > [!IMPORTANT]
 > 當針對沒有相關聯類別的專案要求 [ui \_ PKEY \_ 類別](windowsribbon-reference-properties-uipkey-categoryid.md)目錄時， [**IUISimplePropertySet：： GetValue**](/windows/desktop/api/uiribbon/nf-uiribbon-iuisimplepropertyset-getvalue)應該會傳回 [**ui \_ 集合 \_ INVALIDINDEX**](/windows/desktop/windowsribbon/windowsribbon-ui-collection-invalidindex) 。
 
- 
+ 
 
 ### <a name="declare-the-controls-in-markup"></a>在標記中宣告控制項
 
@@ -369,7 +369,7 @@ Windows 功能區架構為開發人員提供健全且一致的模型，以管理
 > [!Note]  
 > 由於 [**InRibbonGallery**](windowsribbon-element-inribbongallery.md) 的設計是要在功能區中顯示其專案集合的子集，而不啟動下拉式功能表，所以它提供了一些選擇性屬性，可在功能區初始化時管理其大小和專案版面配置。 這些屬性對 **InRibbonGallery** 而言是唯一的，而且無法從其他動態控制項使用。
 
- 
+ 
 
 
 ```XML
@@ -420,7 +420,7 @@ Windows 功能區架構為開發人員提供健全且一致的模型，以管理
 > [!Note]  
 > 多個命令可以系結至單一命令處理常式。
 
- 
+ 
 
 命令處理常式有兩個用途：
 
@@ -856,6 +856,6 @@ HRESULT CQATHandler::OnCollectionChanged(
 [資源庫範例](windowsribbon-gallerysample.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

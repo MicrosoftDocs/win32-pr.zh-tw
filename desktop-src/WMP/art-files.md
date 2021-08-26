@@ -9,12 +9,12 @@ keywords:
 - 適用于面板的美工圖案，關於
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a246ac411a3dfe2c5bab529ddcccce5596434617
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 89ccf07757e511f7717cbe3bbeff2cdacee004da8d3b64d27ddcef7ae2199a29
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106968454"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119956368"
 ---
 # <a name="art-files"></a>美工檔案
 
@@ -55,9 +55,9 @@ Windows Media Player 面板最強大的功能之一，就是您可以使用影�
 [**面板檔案**](skin-files.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

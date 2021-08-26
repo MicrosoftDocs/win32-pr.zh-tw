@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 41c7a1af3bd8ed9aae8908aa7ff926a3f4799ee5
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: f134b2d5801bc5003be6f45b42d13f1668c2e684b5f63fe0aed1f2c9c0400860
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104092385"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119952338"
 ---
 # <a name="popup-resource"></a>POPUP 資源
 
@@ -45,7 +45,7 @@ POPUP text, [optionlist] {item-definitions ...}
 
 
 
-| 選項           | Description                                                                                                                                                           |
+| 選項           | 描述                                                                                                                                                           |
 |------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **檢查**      | 功能表項目旁邊有核取記號。 最上層功能表的此選項無效。                                                                                 |
 | **灰色**       | 功能表項目一開始為非使用中，並顯示在功能表中的灰色或功能表文字色彩的淺色陰影。 此選項不能與 **非** 使用中的選項搭配使用。 |
@@ -56,7 +56,7 @@ POPUP text, [optionlist] {item-definitions ...}
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -106,9 +106,9 @@ chem MENU
 [**MENUITEM**](menuitem-statement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

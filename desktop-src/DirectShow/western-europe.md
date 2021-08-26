@@ -4,12 +4,12 @@ ms.assetid: 3af46a07-027f-4b31-9958-4a16971c81f8
 title: 西歐
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 552d2fc92b8a3c8433e863e7a69f63859b7efab8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8238078aa5b5c8fc0776fa0e604b09a1255823a6c348b2e9701087755afeadc5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973702"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119982358"
 ---
 # <a name="western-europe"></a>西歐
 

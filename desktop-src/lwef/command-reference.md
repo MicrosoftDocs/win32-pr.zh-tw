@@ -1,19 +1,19 @@
 ---
 title: '命令參考 (語言資訊音效編輯工具) '
-description: 此命令參考描述語言資訊音效編輯工具。 Microsoft Agent 已于 Windows 7 淘汰。
+description: 此命令參考描述語言資訊音效編輯工具。 Microsoft 代理程式已于 Windows 7 淘汰。
 ms.assetid: 084f14ee-6774-46e2-a4ec-92f480f2f74a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2a929691a96cfa62417785e1348448d78cc227be
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 7d942bccfc8d995b716902b3569eb05ddcd4cad5b12dc9e5fa2a781d692b6ac3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112405711"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119963228"
 ---
 # <a name="command-reference-linguistic-information-sound-editing-tool"></a>命令參考 (語言資訊音效編輯工具) 
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 ### <a name="the-file-menu"></a>[檔案] 功能表
 

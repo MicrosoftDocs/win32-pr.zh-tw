@@ -1,19 +1,19 @@
 ---
-description: 使用影片混音器控制項
+description: 使用影片 Mixer 控制項
 ms.assetid: 475996c6-a205-4133-8882-f55beaf9f8fd
-title: 使用影片混音器控制項
+title: 使用影片 Mixer 控制項
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0a8a062c6f984e0eac0128bd67c72bf691c95af6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 72506a69cb1e3a8584a92cc7052541ffc210cd307073dece61f3a9d76a4c35d4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026527"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119887140"
 ---
-# <a name="using-the-video-mixer-controls"></a>使用影片混音器控制項
+# <a name="using-the-video-mixer-controls"></a>使用影片 Mixer 控制項
 
-EVR 混音器提供數個介面，可讓應用程式用來控制混音器處理影片的方式。 這些介面可用於 DirectShow 或媒體基礎。
+EVR 混音器提供數個介面，可讓應用程式用來控制混音器處理影片的方式。 這些介面可以在 DirectShow 或媒體基礎中使用。
 
 
 
@@ -27,13 +27,13 @@ EVR 混音器提供數個介面，可讓應用程式用來控制混音器處理�
 
  
 
-取得這些介面指標的正確方式，取決於您使用的是 EVR 的 DirectShow 版本或媒體基礎版本。 針對媒體基礎 EVR，它也取決於您是直接使用 EVR 或透過 [媒體會話](media-session.md)使用。  (，應用程式通常會透過媒體會話使用 EVR，而不是直接) 。
+取得這些介面指標的正確方式，取決於您使用的是 DirectShow 版本的 EVR 或媒體基礎版本。 針對媒體基礎 EVR，它也取決於您是直接使用 EVR 或透過 [媒體會話](media-session.md)使用。  (，應用程式通常會透過媒體會話使用 EVR，而不是直接) 。
 
 若要取得這些介面的指標，請執行下列動作：
 
 1.  取得 EVR 上 [**IMFGetService**](/windows/desktop/api/mfidl/nn-mfidl-imfgetservice) 介面的指標。
 
-    -   如果您使用的是 DirectShow EVR 篩選器，請在篩選器上呼叫 **QueryInterface** 。
+    -   如果您使用 DirectShow EVR 篩選器，請在篩選器上呼叫 **QueryInterface** 。
 
     -   如果您直接使用 EVR 媒體接收，請在媒體接收器上呼叫 **QueryInterface** 。
 
@@ -63,7 +63,7 @@ EVR 可將一或多個影片子串流混合到主要影片串流。 若要控制
 
 -   呼叫 [**IMFVideoMixerControl：： SetStreamZOrder**](/windows/desktop/api/evr/nf-evr-imfvideomixercontrol-setstreamzorder) 來設定子串流的迭置順序。 EVR 會以其 z 順序值的順序（從零開始）繪製影片串流。 主要影片資料流程一律會先以 z 順序排列。
 
-## <a name="video-processor-settings"></a>視頻處理器設定
+## <a name="video-processor-settings"></a>影片處理器設定
 
 EVR 混音器使用 DirectX Video 加速 (DXVA) 在輸入串流上執行影片處理。 確切的處理功能取決於圖形驅動程式。 影片處理功能是使用 [**DXVA2 \_ VideoProcessorCaps**](/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_videoprocessorcaps) 結構來描述。 一組特定的功能稱為「 *影片處理模式*」，每個模式都是由 GUID 所識別。 如需預先定義的 Guid 清單，請參閱 [**IDirectXVideoProcessorService：： GetVideoProcessorDeviceGuids**](/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideoprocessorservice-getvideoprocessordeviceguids)。 驅動程式可能會定義其他廠商專屬的 Guid，以代表不同的功能組合。
 
@@ -83,7 +83,7 @@ EVR 混音器使用 DirectX Video 加速 (DXVA) 在輸入串流上執行影片�
 
 -   **DeinterlaceTechnology**。 如果來源影片是交錯的，則此欄位可提供您預期的去交錯品質層級的指示。
 
--   **ProcAmpControlCaps**。 此欄位會指定可用的色彩調整控制項。 如需可能的色彩調整清單，請參閱 [ProcAmp 設定](procamp-settings.md)。 如果驅動程式無法執行色彩調整，則此欄位為零。
+-   **ProcAmpControlCaps**。 此欄位會指定可用的色彩調整控制項。 如需可能的色彩調整清單，請參閱[ProcAmp 設定](procamp-settings.md)。 如果驅動程式無法執行色彩調整，則此欄位為零。
 
 -   **VideoProcessorOperations**。 此欄位包含描述其他影片處理功能的旗標。 特定重要性的兩個旗標是 DXVA2 \_ VideoProcess \_ 子串流旗標和 DXVA2 \_ VideoProcess \_ 子串流旗標。 EVR 必須至少有其中一個旗標，才能將子串流混合到參考影片串流。 如果兩個旗標都不存在，則 EVR 會限制為一個影片串流。
 
@@ -105,7 +105,7 @@ EVR 混音器使用 DirectX Video 加速 (DXVA) 在輸入串流上執行影片�
 
 4.  呼叫 [**IMFVideoProcessor：： SetFilteringValue**](/windows/desktop/api/evr9/nf-evr9-imfvideoprocessor-setfilteringvalue) 來設定色彩調整值。
 
-5.  如果驅動程式支援影像篩選，則每個篩選器類型 (雜訊和詳細資料) 支援三個設定（層級、半徑和臨界值），兩者都是在色度和 luma 中。  (參閱 [DXVA 影像篩選設定](dxva-image-filter-settings.md)。針對每個設定 ) ，呼叫 [**IMFVideoProcessor：： GetFilteringRange**](/windows/desktop/api/evr9/nf-evr9-imfvideoprocessor-getfilteringrange) 以取得可能值的範圍，並呼叫 [**IMFVideoProcessor：： GetFilteringValue**](/windows/desktop/api/evr9/nf-evr9-imfvideoprocessor-getfilteringvalue) 來取得目前的值。
+5.  如果驅動程式支援影像篩選，則每個篩選器類型 (雜訊和詳細資料) 支援三個設定（層級、半徑和臨界值），兩者都是在色度和 luma 中。  (參閱 [DXVA 影像篩選設定](dxva-image-filter-settings.md)) 。針對每個設定，請呼叫 [**IMFVideoProcessor：： GetFilteringRange**](/windows/desktop/api/evr9/nf-evr9-imfvideoprocessor-getfilteringrange)以取得可能值的範圍，並呼叫 [**IMFVideoProcessor：： GetFilteringValue**](/windows/desktop/api/evr9/nf-evr9-imfvideoprocessor-getfilteringvalue)來取得目前的值。
 
 6.  若要變更影像篩選設定，請呼叫 [**IMFVideoProcessor：： SetFilteringValue**](/windows/desktop/api/evr9/nf-evr9-imfvideoprocessor-setfilteringvalue)。
 

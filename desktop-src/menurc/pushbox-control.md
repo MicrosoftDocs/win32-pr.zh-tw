@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 18e3e81e11c7d9a87c4f5501b114ef77cdb88b07
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 06135aad813141e15bede8364a71e8fbc3016c7cb79afe0085bb6bc7bbcb2d8f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104092373"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119952368"
 ---
 # <a name="pushbox-control"></a>PUSHBOX 控制項
 
@@ -50,9 +50,9 @@ Pushbox 的樣式，可以是 **BS \_ pushbox** 樣式和下列樣式的組合�
 [**按鈕**](pushbutton-control.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

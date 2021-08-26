@@ -6,12 +6,12 @@ keywords:
 - WS_HEAP
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 05d996d3a3905a7f247cfc84840e5aae4baa781f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 79ca6f8eb745fa53b035cdb79d068099e96d2e037c87c139f4b19c30f933ecac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465736"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119926798"
 ---
 # <a name="ws_heap"></a>WS \_ 堆積
 
@@ -35,7 +35,7 @@ typedef struct _WS_HEAP WS_HEAP;
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 7 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | Windows Server 2008 R2 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                           |
+| 最低支援的伺服器<br/> | WindowsServer 2008 R2 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                           |
 | 標頭<br/>                   | <dl> <dt>WebServices。h</dt> </dl> |
 
 

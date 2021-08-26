@@ -1,19 +1,19 @@
 ---
-title: 使用 Win32 範例程式碼開始
-description: 本章節包含 Win32 和 c + + 開始系列的範例程式碼連結。
+title: 使用 Win32 範例程式碼入門
+description: 本章節包含 Win32 和 c + + 入門系列的範例程式碼連結。
 ms.assetid: 062006b4-e665-4c7c-a5eb-ee370449bd98
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fa8d306edf16b7c1c8981eeee57a8b0b03740e69
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 9945fde22990cd7b586c2d44b59066d34e6c51d85abeff093cd69ea7a7ed2172
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106968902"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119897388"
 ---
-# <a name="get-started-with-win32-sample-code"></a>使用 Win32 的開始：範例程式碼
+# <a name="get-started-with-win32-sample-code"></a>使用 Win32 的入門：範例程式碼
 
-本章節包含 [Win32 和 c + + 開始](learn-to-program-for-windows.md)系列的範例程式碼連結。
+本章節包含[Win32 和 c + + 入門](learn-to-program-for-windows.md)系列的範例程式碼連結。
 
 ## <a name="in-this-section"></a>本節內容
 
@@ -21,7 +21,7 @@ ms.locfileid: "106968902"
 
 | 主題                                                                   | 描述                                                                                                                                       |
 |-------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Windows Hello World 範例](windows-hello-world-sample.md)<br/> | 這個範例應用程式說明如何建立基本的 Windows 程式。<br/>                                                                 |
+| [Windows Hello世界範例](windows-hello-world-sample.md)<br/> | 這個範例應用程式會示範如何建立基本的 Windows 程式。<br/>                                                                 |
 | [BaseWindow 範例](basewindow-sample.md)<br/>                   | 這個範例應用程式說明如何在 [**WM \_ NCCREATE**](/windows/desktop/winmsg/wm-nccreate) 訊息中傳遞應用程式狀態資料。<br/>          |
 | [開啟對話方塊範例](open-dialog-box-sample.md)<br/>         | 這個範例應用程式示範如何初始化元件物件模型 (COM) 程式庫，並在 Windows 程式中使用以 COM 為基礎的 API。<br/> |
 | [Direct2D 圓形範例](direct2d-circle-sample.md)<br/>         | 這個範例應用程式會示範如何使用 Direct2D 來繪製圓形。<br/>                                                                     |

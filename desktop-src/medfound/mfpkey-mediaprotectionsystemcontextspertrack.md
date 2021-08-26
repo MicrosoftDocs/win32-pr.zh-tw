@@ -4,12 +4,12 @@ ms.assetid: 76911293-CEB3-4D0E-A021-70A2D1303ED1
 title: 'MFPKEY_MediaProtectionSystemCoNtextsPerTrack 屬性 (Mfidl) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: af5df5d233281a3fc437eed85cddc82297409a9a
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 578f9a3e18f420eec01db8ac8ad3ce6df4a74029217b13e54a3ed1ab00263913
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106989109"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119953918"
 ---
 # <a name="mfpkey_mediaprotectionsystemcontextspertrack-property"></a>MFPKEY \_ MediaProtectionSystemCoNtextsPerTrack 屬性
 
@@ -39,8 +39,8 @@ PROPVARIANT 成員
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 8.1 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                |
-| 最低支援的伺服器<br/> | Windows Server 2012 R2 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                     |
+| 最低支援的用戶端<br/> | Windows 8.1 \[桌面應用程式 \| UWP 應用程式\]<br/>                                |
+| 最低支援的伺服器<br/> | Windows Server 2012R2 \[ desktop apps \| UWP 應用程式\]<br/>                     |
 | 標頭<br/>                   | <dl> <dt>Mfidl。h</dt> </dl> |
 
 

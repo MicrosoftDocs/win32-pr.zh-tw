@@ -4,12 +4,12 @@ ms.assetid: fc5b8061-fd4f-4751-883d-877fa32cdfcc
 title: 調色板動畫
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f9761e99033e7a01fa875fce7c41e5a35cf40ab6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 18ea2d557ddd071a8f8e993f3a797fb42c2f4fef9abc68fc13737cded96a18fb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103691847"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119965588"
 ---
 # <a name="palette-animation"></a>調色板動畫
 

@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 77522da2ef471a3be9208a9df30bf7435a5476e2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b8188b4c3019e5b420b3c8b60a7de2ea30eb7a52d1d080fa01c3d46f89308576
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106982497"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119901518"
 ---
 # <a name="networkmaxbitrate"></a>MaxBitRate
 

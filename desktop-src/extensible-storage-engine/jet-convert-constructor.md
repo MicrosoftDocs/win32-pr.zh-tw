@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: ee21fad93d6dce8c884b8f3b00dbb6a3a171fea5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 825a3927c6f15479c9201d3ceefae67271ace715b2639f8be61cfd1a1e08826e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104027374"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119968248"
 ---
 # <a name="jet_convert-constructor"></a>JET_CONVERT 的函式
 

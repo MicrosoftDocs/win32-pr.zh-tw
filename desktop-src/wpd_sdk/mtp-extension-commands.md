@@ -4,12 +4,12 @@ ms.assetid: DEE0E2D4-7727-4C26-A6B6-12F96CFCCA49
 title: MTP 擴充功能命令
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 97624350fc3c0617b72238a023a4dfd2e9d6339e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cf21145361bca87d7847b2769eade96b092d26aff69dd7d4319b9334f45cbf99
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106974502"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119928318"
 ---
 # <a name="mtp-extension-commands"></a>MTP 擴充功能命令
 

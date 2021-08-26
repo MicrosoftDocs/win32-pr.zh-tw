@@ -4,12 +4,12 @@ ms.assetid: 3fcc28d8-b7ef-474b-8594-b31422974998
 title: width 屬性
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1b7480f80fdd1f862f1018a2e1909e68c68526bd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8249888c2016993879d3c27460efa035531a1ed1e7f7fcee3bf3aa94a3b584cf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848426"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119982268"
 ---
 # <a name="width-attribute"></a>width 屬性
 

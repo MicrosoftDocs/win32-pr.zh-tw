@@ -1,19 +1,19 @@
 ---
 title: '已啟用屬性 (AudioOutput 物件) '
-description: 瞭解已啟用的 AudioOutput 物件屬性。 Microsoft Agent 已于 Windows 7 淘汰。
+description: 瞭解已啟用的 AudioOutput 物件屬性。 Microsoft 代理程式已于 Windows 7 淘汰。
 ms.assetid: 6526f249-be13-4732-b79e-a9952489461f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b807b4cadcc9a0157b4efa400dd9d0e3cb5cf21a
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 515b7148acf65d98b0ec8b5a5f324e5bfd9dccd10c874e165adfa2d0de9442ad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112407341"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119963038"
 ---
 # <a name="enabled-property-audiooutput-object"></a>已啟用屬性 (AudioOutput 物件) 
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 <dl> <dt>
 

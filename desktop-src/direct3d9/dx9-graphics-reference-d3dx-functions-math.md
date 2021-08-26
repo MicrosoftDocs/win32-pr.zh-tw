@@ -4,12 +4,12 @@ ms.assetid: 00f0f943-64fa-45e3-8bd3-ca61c8b87e1a
 title: " (Direct3D 9 圖形) 的數學函數"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 17fa7e56282d74dbe6a67b023ca5f64d0f88be20
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: d3c9632b09c008ab0dba46f834e4faabe225f3c1ef779f59ee4214591188a065
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112408211"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119952158"
 ---
 # <a name="math-functions-direct3d-9-graphics"></a> (Direct3D 9 圖形) 的數學函數
 

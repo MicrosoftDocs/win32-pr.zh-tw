@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 7926f6393221552107667c9209ef2b4c51945ab8
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 7bdaf264e887c12b6dd711be978c5fc233bacc14d41d0899ddda43473001fe6b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106986542"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119985558"
 ---
 # <a name="id3dxprtenginegetvertexalbedo-method"></a>ID3DXPRTEngine：： GetVertexAlbedo 方法
 

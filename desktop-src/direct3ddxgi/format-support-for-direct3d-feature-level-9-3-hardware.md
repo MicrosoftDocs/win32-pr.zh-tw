@@ -1,25 +1,25 @@
 ---
-description: 本節指定 Direct3D Feature 10Level9 9.3 硬體支援的格式 ([ **DXGI_FORMAT_** _](/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format)值) 。
+description: 此區段會指定 Direct3D Feature 10Level9 9.3 硬體支援的格式 ([ **DXGI_FORMAT_** *](/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format)值) 。
 ms.assetid: B2A843D5-6A6B-4180-8B94-D032B1322798
 title: Direct3D 功能 10Level9 9.3 硬體的格式支援
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 79185ddb360fe9359371671e3722372c3a1615f9
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 05ad2746ce0d6e277f04783ae7140f3855fa7078e9a50b67d1e52bc827403c4b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104025652"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119951276"
 ---
 # <a name="format-support-for-direct3d-feature-10level9-93-hardware"></a>Direct3D 功能 10Level9 9.3 硬體的格式支援
 
-本節指定 Direct3D Feature 10Level9 9.3 硬體支援的格式 ([ _* DXGI_FORMAT_* * _](/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format)值) 。
+此區段會指定 Direct3D Feature 10Level9 9.3 硬體支援的格式 ([ **DXGI_FORMAT_** *](/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format)值) 。
 
 下表摘要說明使用下列索引鍵的功能支援。
 
 | 符號                            | 描述                                                                   |
 |-----------------------------------|-------------------------------------------------------------------------------|
-| _ *-**                             | 不允許或無法使用。                                                  |
+| **-**                             | 不允許或無法使用。                                                  |
 | ![必要](images/letter-r.jpg)  | 需要硬體支援。                                                 |
 | ![選用](images/letter-o.jpg)  | 硬體支援是選擇性的，格式可能或可能不會有硬體加速。 |
 | ![依賴](images/letter-d.jpg) | 如果支援相關的選擇性功能，則為必要項。                            |
@@ -64,7 +64,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | \- |
@@ -114,7 +114,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | \- |
@@ -164,7 +164,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | ![必要](images/letter-r.jpg) |
@@ -214,7 +214,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | \- |
@@ -264,7 +264,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | \- |
@@ -314,7 +314,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | \- |
@@ -364,7 +364,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | \- |
@@ -414,7 +414,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | \- |
@@ -464,7 +464,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | \- |
@@ -514,7 +514,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | \- |
@@ -564,7 +564,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | ![必要](images/letter-r.jpg) |
@@ -614,7 +614,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | ![必要](images/letter-r.jpg) |
@@ -664,7 +664,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | \- |
@@ -714,7 +714,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | \- |
@@ -764,7 +764,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | \- |
@@ -814,7 +814,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | \- |
@@ -864,7 +864,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | ![必要](images/letter-r.jpg) |
@@ -914,7 +914,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | \- |
@@ -964,7 +964,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | \- |
@@ -1014,7 +1014,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | \- |
@@ -1064,7 +1064,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | \- |
@@ -1114,7 +1114,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | \- |
@@ -1164,7 +1164,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | \- |
@@ -1214,7 +1214,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | \- |
@@ -1264,7 +1264,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | \- |
@@ -1314,7 +1314,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | \- |
@@ -1364,7 +1364,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | \- |
@@ -1414,7 +1414,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | \- |
@@ -1464,7 +1464,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | \- |
@@ -1514,7 +1514,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | ![必要](images/letter-r.jpg) |
@@ -1564,7 +1564,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | ![必要](images/letter-r.jpg) |
@@ -1614,7 +1614,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | \- |
@@ -1664,7 +1664,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | ![必要](images/letter-r.jpg) |
@@ -1714,7 +1714,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | \- |
@@ -1764,7 +1764,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | \- |
@@ -1814,7 +1814,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | ![必要](images/letter-r.jpg) |
@@ -1864,7 +1864,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | ![必要](images/letter-r.jpg) |
@@ -1914,7 +1914,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | \- |
@@ -1964,7 +1964,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | ![必要](images/letter-r.jpg) |
@@ -2014,7 +2014,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | \- |
@@ -2064,7 +2064,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | \- |
@@ -2114,7 +2114,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | \- |
@@ -2164,7 +2164,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | ![必要](images/letter-r.jpg) |
@@ -2214,7 +2214,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | \- |
@@ -2264,7 +2264,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | \- |
@@ -2314,7 +2314,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | \- |
@@ -2364,7 +2364,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | \- |
@@ -2414,7 +2414,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | \- |
@@ -2464,7 +2464,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | \- |
@@ -2514,7 +2514,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | \- |
@@ -2564,7 +2564,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | ![必要](images/letter-r.jpg) |
@@ -2614,7 +2614,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | \- |
@@ -2664,7 +2664,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | ![必要](images/letter-r.jpg) |
@@ -2714,7 +2714,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | \- |
@@ -2764,7 +2764,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | \- |
@@ -2814,7 +2814,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | \- |
@@ -2864,7 +2864,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | \- |
@@ -2914,7 +2914,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | ![必要](images/letter-r.jpg) |
@@ -2964,7 +2964,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | \- |
@@ -3014,7 +3014,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | \- |
@@ -3064,7 +3064,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | \- |
@@ -3114,7 +3114,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | \- |
@@ -3164,7 +3164,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | ![必要](images/letter-r.jpg) |
@@ -3214,7 +3214,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | \- |
@@ -3264,7 +3264,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | \- |
@@ -3314,7 +3314,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | \- |
@@ -3364,7 +3364,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | ![必要](images/letter-r.jpg) |
@@ -3414,7 +3414,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | \- |
@@ -3464,7 +3464,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | \- |
@@ -3514,7 +3514,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | \- |
@@ -3564,7 +3564,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | \- |
@@ -3614,7 +3614,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | ![必要](images/letter-r.jpg) |
@@ -3664,7 +3664,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | ![必要](images/letter-r.jpg) |
@@ -3714,7 +3714,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | \- |
@@ -3764,7 +3764,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | ![必要](images/letter-r.jpg) |
@@ -3814,7 +3814,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | ![必要](images/letter-r.jpg) |
@@ -3864,7 +3864,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | \- |
@@ -3914,7 +3914,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | ![必要](images/letter-r.jpg) |
@@ -3964,7 +3964,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | ![必要](images/letter-r.jpg) |
@@ -4014,7 +4014,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | \- |
@@ -4064,7 +4064,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | \- |
@@ -4114,7 +4114,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | \- |
@@ -4164,7 +4164,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | \- |
@@ -4214,7 +4214,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | \- |
@@ -4264,7 +4264,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | \- |
@@ -4314,7 +4314,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | ![必要](images/letter-r.jpg) |
@@ -4364,7 +4364,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | ![必要](images/letter-r.jpg) |
@@ -4414,7 +4414,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | \- |
@@ -4464,7 +4464,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | ![必要](images/letter-r.jpg) |
@@ -4514,7 +4514,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | ![必要](images/letter-r.jpg) |
@@ -4564,7 +4564,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | \- |
@@ -4614,7 +4614,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | ![必要](images/letter-r.jpg) |
@@ -4664,7 +4664,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | ![必要](images/letter-r.jpg) |
@@ -4714,7 +4714,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | ![必要](images/letter-r.jpg) |
@@ -4764,7 +4764,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | ![必要](images/letter-r.jpg) |
@@ -4814,7 +4814,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | ![必要](images/letter-r.jpg) |
@@ -4864,7 +4864,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | ![必要](images/letter-r.jpg) |
@@ -4914,7 +4914,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | ![必要](images/letter-r.jpg) |
@@ -4964,7 +4964,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | ![必要](images/letter-r.jpg) |
@@ -5014,7 +5014,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | \- |
@@ -5064,7 +5064,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | ![必要](images/letter-r.jpg) |
@@ -5114,7 +5114,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | ![必要](images/letter-r.jpg) |
@@ -5164,7 +5164,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | ![必要](images/letter-r.jpg) |
@@ -5214,7 +5214,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | ![必要](images/letter-r.jpg) |
@@ -5264,7 +5264,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | ![必要](images/letter-r.jpg) |
@@ -5314,7 +5314,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | ![必要](images/letter-r.jpg) |
@@ -5364,7 +5364,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | ![必要](images/letter-r.jpg) |
@@ -5414,7 +5414,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | ![必要](images/letter-r.jpg) |
@@ -5464,7 +5464,7 @@ ms.locfileid: "104025652"
 | UAV 不可部分完成的新增 | \- |
 | UAV 不可部分完成的位運算 | \- |
 | UAV 不可部分完成的 Cmp&Store/Cmp&Ms-exch-assistant-name | \- |
-| UAV 不可部分完成的交換 | \- |
+| UAV 不可部分完成 Exchange | \- |
 | UAV 不可部分完成的帶正負號 Min 或 Max | \- |
 | UAV 不可部分完成的不帶正負號 Min 或 Max | \- |
 | CPU 鎖定 | ![必要](images/letter-r.jpg) |

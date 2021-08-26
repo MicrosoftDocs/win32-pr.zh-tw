@@ -1,26 +1,26 @@
 ---
 title: SNMP 服務
-description: 簡易網路管理通訊協定 (SNMP) 的 Microsoft Windows 將會用來設定遠端裝置、監視網路效能、審核網路使用量，以及偵測網路錯誤或不適當的存取。重要事項： Microsoft Windows SNMP API 僅支援最多 SNMPv2C 的通訊協定版本。 它不支援任何較新版本的通訊協定。
+description: Microsoft Windows 簡易網路管理通訊協定 (SNMP) 用來設定遠端裝置、監視網路效能、審核網路使用狀況，以及偵測網路錯誤或不適當的存取。重要事項： Microsoft Windows SNMP API 僅支援最多 SNMPv2C 的通訊協定版本。 它不支援任何較新版本的通訊協定。
 ms.assetid: fbaddb10-804b-4230-8986-717edc19a2f5
 keywords:
 - SNMP SNMP
 - SNMP SNMP，起始頁
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 71df55c79244c0f74ef685271834adc01ca7e981
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 8dfb56450edbb6d5f18daa635e30e08e5914eb48fefb28013a66276dbc9a0a05
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104023973"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119886388"
 ---
 # <a name="snmp-service"></a>SNMP 服務
 
-\[SNMP 可用於 [需求] 區段中指定的作業系統。 它在後續版本中可能會變更或無法使用。 相反地，請使用 [Windows 遠端管理](/windows/desktop/WinRM/portal)，也就是 MICROSOFT 對 ws-atomictransaction 的實。\]
+\[SNMP 可用於 [需求] 區段中指定的作業系統。 它在後續版本中可能會變更或無法使用。 相反地，請使用[Windows 遠端管理](/windows/desktop/WinRM/portal)，也就是 Microsoft 對 ws-atomictransaction 的實。\]
 
 ## <a name="purpose"></a>目的
 
-簡易網路管理通訊協定 (SNMP) 的 Microsoft Windows 將會用來設定遠端裝置、監視網路效能、審核網路使用量，以及偵測網路錯誤或不適當的存取。
+Microsoft Windows 簡易網路管理通訊協定 (SNMP) 用來設定遠端裝置、監視網路效能、審核網路使用狀況，以及偵測網路錯誤或不適當的存取。
 
 > [!IMPORTANT]
 > Microsoft Windows SNMP API 僅支援最多 SNMPv2C 的通訊協定版本。 它不支援任何較新版本的通訊協定。
@@ -52,7 +52,7 @@ SNMP 使用由管理應用程式和代理程式應用程式所組成的分散式
 |------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
 | [SNMP 的新功能](new-in-snmp.md)<br/>                                                            | SNMP 更新的資訊。<br/>                                                                                                      |
 | [簡易網路管理通訊協定 (SNMP)](simple-network-management-protocol-snmp-.md)<br/> | SNMP 的資訊和 API 參考，包括 SNMP 管理 API、SNMP 延伸模組代理程式 API，以及 SNMP 公用程式 API 函式。<br/> |
-| [WinSNMP API](snmp-reference.md)<br/>                                                         | Microsoft Windows SNMP 應用程式開發介面的資訊和 API 參考 (的 WinSNMP API) 。 <br/>                       |
+| [WinSNMP API](snmp-reference.md)<br/>                                                         | Microsoft Windows SNMP 應用程式開發介面 (WinSNMP API) 的資訊和 API 參考。 <br/>                       |
 
 
 

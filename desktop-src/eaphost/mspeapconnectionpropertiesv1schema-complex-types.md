@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 87ad1b77b13d1f601431498cef4b7265524fd62c
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: bf557bbab2c7dfc8003c5fa2b97d89c5a07b517743c47738d498234394d45ac4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104093316"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119948088"
 ---
 # <a name="mspeapconnectionpropertiesv1-schema-complex-types"></a>mspeapconnectionpropertiesv1 架構複雜類型
 
@@ -36,9 +36,9 @@ ms.locfileid: "104093316"
 [mspeapconnectionpropertiesv2 架構](mspeapconnectionpropertiesv2schema-schema.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

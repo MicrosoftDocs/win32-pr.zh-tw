@@ -4,12 +4,12 @@ ms.assetid: 9dd32d4a-30bd-406f-a934-bb71ad4ca2cb
 title: 色彩函數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d4d977165d69fc71a31df0358b99b683eb45ed23
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 48ef9e233e5376718ac983982fd3f06e9fcd6c6fc5843d4a32d685fe64bbc1af
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103691924"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119966308"
 ---
 # <a name="color-functions"></a>色彩函數
 
@@ -28,7 +28,7 @@ ms.locfileid: "103691924"
 | [**GetPaletteEntries**](/windows/desktop/api/Wingdi/nf-wingdi-getpaletteentries)             | 從指定的邏輯調色板抓取指定的元件專案範圍。                                                                        |
 | [**GetSystemPaletteEntries**](/windows/desktop/api/Wingdi/nf-wingdi-getsystempaletteentries) | 從與指定的 DC 相關聯的系統選擇區中，抓取元件專案的範圍。                                                |
 | [**GetSystemPaletteUse**](/windows/desktop/api/Wingdi/nf-wingdi-getsystempaletteuse)         | 針對指定的 DC，抓取系統 (實體) 元件的目前狀態。                                                                    |
-| [**RealizePalette**](/windows/desktop/api/Wingdi/nf-wingdi-realizepalette)                   | 將目前邏輯調色板中的調色板專案對應至系統調色板。                                                                          |
+| [**RealizePalette**](/windows/desktop/api/Wingdi/nf-wingdi-realizepalette)                   | 從目前的邏輯選擇區，將調色板專案地圖到系統調色板。                                                                          |
 | [**ResizePalette**](/windows/desktop/api/Wingdi/nf-wingdi-resizepalette)                     | 根據指定值來增加或減少邏輯調色盤 (Palette) 的大小。                                                                    |
 | [**SelectPalette**](/windows/desktop/api/Wingdi/nf-wingdi-selectpalette)                     | 在裝置內容中選取指定的邏輯調色板。                                                                                          |
 | [**SetColorAdjustment**](/windows/desktop/api/Wingdi/nf-wingdi-setcoloradjustment)           | 使用指定的值，設定 DC 的色彩調整值。                                                                                 |

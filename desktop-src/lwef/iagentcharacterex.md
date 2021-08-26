@@ -4,16 +4,16 @@ description: IAgentCharacterEx
 ms.assetid: 8defc836-cc54-40c7-8afc-ec90f941861b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f92a9f9c39804d6b5d3ac777457fff5b7f03823c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 04e4b6661641ebf472001e502a7fec3042332ea039ec94c01349d58bbe93346d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840360"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119961958"
 ---
 # <a name="iagentcharacterex"></a>IAgentCharacterEx
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 **IAgentCharacterEx** 衍生自 [**IAgentCharacter**](iagentcharacter.md) 介面。 它包含所有的 **IAgentCharacter** 方法，以及提供其他函式的存取權。
 
@@ -21,7 +21,7 @@ ms.locfileid: "103840360"
 
 
 
-| IAgentCharacterEx 方法                                         | Description                                                                    |
+| IAgentCharacterEx 方法                                         | 描述                                                                    |
 |-------------------------------------------------------------------|--------------------------------------------------------------------------------|
 | [**ShowPopupMenu**](iagentcharacterex--showpopupmenu.md)         | 顯示字元的快顯功能表。                                    |
 | [**SetAutoPopupMenu**](iagentcharacterex--setautopopupmenu.md)   | 設定伺服器是否自動顯示字元的快顯功能表。    |
@@ -49,11 +49,11 @@ ms.locfileid: "103840360"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

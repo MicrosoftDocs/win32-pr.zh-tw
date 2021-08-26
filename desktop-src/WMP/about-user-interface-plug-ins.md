@@ -11,12 +11,12 @@ keywords:
 - UI 外掛程式，關於
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e3c64894b9db5d11ec4e9d8c5aee9c6e0bb103bc
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: bd188c34608aaa598a12e8e24f199fca657dca67287b180755fe832833c91c54
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103674324"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119903078"
 ---
 # <a name="about-user-interface-plug-ins"></a>關於消費者介面外掛程式
 
@@ -35,18 +35,18 @@ Windows Media Player 提供各種控制台，可讓使用者修改播放程式�
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
 <dl> <dt>
 
-[**Windows Media Player 消費者介面外掛程式**](windows-media-player-user-interface-plug-ins.md)
+[**Windows Media Player消費者介面外掛程式**](windows-media-player-user-interface-plug-ins.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

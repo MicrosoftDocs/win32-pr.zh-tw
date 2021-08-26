@@ -4,12 +4,12 @@ ms.assetid: 00ea5521-bc28-4a87-aba9-46c911631503
 title: 檢查計數器資料狀態碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7daed51ba6e8df385170b9a23b419267409ef497
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a34c433e1c45badd3a2211a0e53051ad40d495f63a67b0ca509ae74a5cd99972
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106982426"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119978878"
 ---
 # <a name="checking-counter-data-status-codes"></a>檢查計數器資料狀態碼
 
