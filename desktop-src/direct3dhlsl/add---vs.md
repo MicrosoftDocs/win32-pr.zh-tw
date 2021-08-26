@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 678e7f815a819be2abf1d985516fe081d3c09c94
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: b2a8b38a0858a4410c18fead1d0123b97c041bf8368be40a08fed4220f8fee3c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "103853580"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119983558"
 ---
 # <a name="add---vs"></a>新增-vs
 

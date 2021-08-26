@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3d9types.h
-ms.openlocfilehash: 90d932176a70159d31a239a9a37422b474acb485
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 18dbda6102aa694744ecf950ec2df40c904c5164cf7650f40fa0a02c26e48ef7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104323008"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120027998"
 ---
 # <a name="d3dissue_begin"></a>D3DISSUE \_ 開始
 

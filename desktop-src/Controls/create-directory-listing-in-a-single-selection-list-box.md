@@ -4,12 +4,12 @@ description: 本主題將示範如何使用單一選取清單方塊來顯示和�
 ms.assetid: 11C0DB10-59BA-47C4-8687-101A2A85D660
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 03829990605271574a2030486ac5aba428867ec3
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: 926dc09e1e8cee85d230b0715684e084350c97c64b6f6cafb8228cc82cc61dc4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "103933722"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119920468"
 ---
 # <a name="how-to-create-a-directory-listing-in-a-single-selection-listbox"></a>如何在單一選取清單方塊中建立目錄清單
 
@@ -21,12 +21,12 @@ ms.locfileid: "103933722"
 
 ### <a name="technologies"></a>技術
 
--   [Windows 控制項](window-controls.md)
+-   [Windows控制](window-controls.md)
 
 ### <a name="prerequisites"></a>必要條件
 
 -   C/C++
--   Windows 消費者介面程式設計
+-   Windows消費者介面程式設計
 
 ## <a name="instructions"></a>指示
 

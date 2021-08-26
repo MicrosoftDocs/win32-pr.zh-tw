@@ -4,17 +4,17 @@ ms.assetid: 290a9459-154a-4ec7-a013-d696e6b27341
 title: WindowlessActivation 屬性
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 427fdcb265d60200bfe8716cd1ece384861fbdf7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6915dbf2ddcfe1b8925ccc1dc3c163799563d137e39e6d6260ad75f5496a0b1d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106999936"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119982248"
 ---
 # <a name="windowlessactivation-property"></a>WindowlessActivation 屬性
 
 > [!Note]  
-> 此元件可用於 Microsoft Windows 2000、Windows XP 及 Windows Server 2003 作業系統。 它在後續版本中可能會變更或無法使用。
+> 此元件可在 Microsoft Windows 2000、Windows XP 和 Windows Server 2003 作業系統中使用。 它在後續版本中可能會變更或無法使用。
 
  
 

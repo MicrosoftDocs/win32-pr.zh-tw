@@ -24,12 +24,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 4265b108bd57bcb91aa903fd163ff14bd91311ae
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 1f867f82ad96cb639e0fbe54955647989876b3a61be4792901ecb47b43b72deb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973780"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119921468"
 ---
 # <a name="cim_memorycheck-class"></a>CIM \_ MemoryCheck 類別
 
@@ -424,7 +424,7 @@ HP-UX
 
 </dt> <dd>
 
-Windows 3。x
+Windows3.x
 
 </dd> <dt>
 

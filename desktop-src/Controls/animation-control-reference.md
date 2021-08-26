@@ -4,12 +4,12 @@ description: 本章節包含與動畫控制項搭配使用之程式設計項目�
 ms.assetid: 16994f93-e0fd-4c71-9c8a-15642408b8de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cd2a3fc7377c7258ba49b5a4188e6074270b5862
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 7241199dc92004f9b3616e2666dd96eadbf43fc6c4dfe9081369e13cca26e082
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104463793"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119921778"
 ---
 # <a name="animation-control"></a>動畫控制項
 

@@ -4,18 +4,18 @@ ms.assetid: 97432b99-e89b-4d69-963d-a959f887e580
 title: WDM 影片捕獲篩選
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b17afb9b4ee534146ef7b8e8c34d9594f6b9e45e
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: deeaae173fc629eb1b614b02cc6daca809d126c6798a35f29e54a441ef622e97
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107908636"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119982518"
 ---
 # <a name="wdm-video-capture-filter"></a>WDM 影片捕獲篩選
 
-WDM 影片捕獲篩選器會控制使用 Windows Driver Model (WDM) 驅動程式的類比捕獲裝置。
+wdm 影片捕獲篩選器會控制使用 Windows Driver Model (WDM) 驅動程式的類比捕獲裝置。
 
-此篩選實際上是核心模式 KsProxy 外掛程式。 它提供適用于 WDM 驅動程式的屬性頁和 COM 介面，可控制類比捕獲裝置 (也稱為類比視頻解碼器) 。 應用程式可以將它視為篩選。 若要將此篩選新增至篩選圖形，請使用 [系統裝置枚舉器](system-device-enumerator.md)。 它會針對每個使用此外掛程式的裝置傳回唯一的標記。 如需詳細資訊，請參閱 [列舉裝置和篩選](enumerating-devices-and-filters.md) 器，以及 [硬體裝置參與篩選圖形的方式](how-hardware-devices-participate-in-the-filter-graph.md)。 如同任何以 KsProxy 為基礎的篩選準則，篩選準則的易記名稱將取決於基礎驅動程式。
+此篩選實際上是核心模式 KsProxy 外掛程式。 它提供適用于 WDM 驅動程式的屬性頁和 COM 介面，可控制類比捕獲裝置 (也稱為類比視頻解碼器) 。 應用程式可以將它視為篩選。 若要將此篩選新增至篩選圖形，請使用 [系統裝置枚舉器](system-device-enumerator.md)。 它會針對每個使用此外掛程式的裝置傳回唯一的標記。 如需詳細資訊，請參閱[列舉裝置和篩選](enumerating-devices-and-filters.md)器，以及[硬體裝置如何參與篩選器 Graph](how-hardware-devices-participate-in-the-filter-graph.md)。 如同任何以 KsProxy 為基礎的篩選準則，篩選準則的易記名稱將取決於基礎驅動程式。
 
 並非所有透過 WDM Video Capture 篩選器公開的裝置都會執行下列所有介面。 應用程式可以使用 **QueryInterface** 來判斷特定裝置所支援的介面。
 
@@ -42,7 +42,7 @@ WDM 影片捕獲篩選器會控制使用 Windows Driver Model (WDM) 驅動程式
 
 <dl> <dt>
 
-[DirectShow 篩選](directshow-filters.md)
+[DirectShow過濾 器](directshow-filters.md)
 </dt> <dt>
 
 [影片捕獲](video-capture.md)

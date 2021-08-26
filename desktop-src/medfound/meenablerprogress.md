@@ -4,12 +4,12 @@ ms.assetid: ec14ba9b-cfb6-4e32-870e-2436e11c308b
 title: 'MEEnablerProgress 事件 (Mfobjects) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 58303835113408a7fe09436967286d5ff988acdc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9772a076e1d9de0cff2336b4c6d6b9b068f11e4fc572b44f0f914a8353f651bd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191915"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120013758"
 ---
 # <a name="meenablerprogress-event"></a>MEEnablerProgress 事件
 
@@ -21,7 +21,7 @@ ms.locfileid: "104191915"
 
 
 
-| VARTYPE               | Description                                                               |
+| VARTYPE               | 描述                                                               |
 |-----------------------|---------------------------------------------------------------------------|
 | VT \_ LPWSTR<br/> | 描述進度的寬字元字串。<br/> <br/> |
 
@@ -37,8 +37,8 @@ ms.locfileid: "104191915"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                                     |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                                     |
 | 標頭<br/>                   | <dl> <dt>Mfobjects (包含 Mfidl) </dt> </dl> |
 
 

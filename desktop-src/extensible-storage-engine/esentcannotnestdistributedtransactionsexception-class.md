@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 732b0995f75bb02174325489554aff2ece18a7f8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 93c13ce7d5593890c734705292f6be33fcb60eef21d8b5123c8c59f7e3f6e866
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106995849"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120066408"
 ---
 # <a name="esentcannotnestdistributedtransactionsexception-class"></a>EsentCannotNestDistributedTransactionsException 類別
 

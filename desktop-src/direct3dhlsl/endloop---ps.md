@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: ee1a7eb10146e40a39c05bcecb99d3a7667dee2c
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: b35daa5ca00db04b6e69dc70dd1a07aaf1287c2f9188819d5b65af9773edfe1f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "103932811"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119982488"
 ---
 # <a name="endloop---ps"></a>endloop-ps
 
@@ -30,7 +30,7 @@ ms.locfileid: "103932811"
 
 
 
- 
+ 
 
 endloop 必須遵循 [迴圈 ps](loop---ps.md) 區塊的最後一個指令。
 
@@ -52,9 +52,9 @@ endloop
 [圖元著色器指示](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 609cd16a-4421-4082-855d-229f5ba7117b
 title: 範例 .cub 檔案
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e937b779e2a620ffc17cf936e37f74867f3dfdd4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f7aadbaca8bde7091f38d5ce8ccc39926ec6c595aa33e65e488136e89cccfc81
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943381"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120039658"
 ---
 # <a name="sample-cub-file"></a>範例 .cub 檔案
 
@@ -23,7 +23,7 @@ ms.locfileid: "103943381"
 
 
 
-| Name    | 資料                               |
+| 名稱    | 資料                               |
 |---------|------------------------------------|
 | ice.vbs | ice.vbs 的未格式化二進位資料 |
 | ice.dll | ice.dll 的未格式化二進位資料 |
@@ -66,9 +66,9 @@ ICE01 和 ICE08 不需要包含特殊的處理資料表。 當 .cub 檔案包含
 
 
 
-| 資料表         | 資料行    | Nullable | MinValue | MaxValue | KeyTable | KeyColumn | 類別                         | 設定 | Description |
+| 資料表         | 資料行    | Nullable | MinValue | MaxValue | KeyTable | KeyColumn | 類別                         | 集合 | 描述 |
 |---------------|-----------|----------|----------|----------|----------|-----------|----------------------------------|-----|-------------|
-| Binary        | Name      | N        |          |          |          |           | [識別碼](identifier.md)     |     |             |
+| Binary        | 名稱      | N        |          |          |          |           | [識別碼](identifier.md)     |     |             |
 | Binary        | 資料      | N        |          |          |          |           | [二進位](binary.md)             |     |             |
 | CustomAction  | 動作    | N        |          |          |          |           | [識別碼](identifier.md)     |     |             |
 | CustomAction  | 類型      | N        |          |          |          |           | [整數](integer.md)           |     |             |

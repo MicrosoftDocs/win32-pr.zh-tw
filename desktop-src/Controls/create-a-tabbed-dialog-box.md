@@ -4,12 +4,12 @@ description: 本節中的範例將示範如何建立使用 tab 鍵來提供多�
 ms.assetid: DBF7FBDF-AADC-45CE-833E-F893C1129FC0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fa0b84a8a77d18903ddbdb29687cc2b97b88872b
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 8fa2ad8ba22c2972c6bdd502728af413d4800dabf0ab5c9196a4033a52267115
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103842788"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119920708"
 ---
 # <a name="how-to-create-a-tabbed-dialog-box"></a>如何建立索引標籤式對話方塊
 
@@ -18,7 +18,7 @@ ms.locfileid: "103842788"
 > [!Note]  
 > 在許多情況下，您可以使用屬性工作表更輕鬆地執行多頁對話方塊。 如需屬性工作表的詳細資訊，請參閱 [關於屬性工作表](property-sheets.md)。
 
- 
+ 
 
 主要對話方塊的範本只會定義兩個按鈕控制項。 處理 [**WM \_ INITDIALOG**](/windows/desktop/dlgbox/wm-initdialog) 訊息時，對話方塊程式會建立一個索引標籤控制項，並為每個子對話方塊載入對話方塊範本資源。
 
@@ -26,12 +26,12 @@ ms.locfileid: "103842788"
 
 ### <a name="technologies"></a>技術
 
--   [Windows 控制項](window-controls.md)
+-   [Windows控制](window-controls.md)
 
 ### <a name="prerequisites"></a>必要條件
 
 -   C/C++
--   Windows 消費者介面程式設計
+-   Windows消費者介面程式設計
 
 ## <a name="instructions"></a>指示
 
@@ -261,6 +261,6 @@ VOID WINAPI OnChildDialogInit(HWND hwndDlg)
 [Windows 通用控制項示範 (CppWindowsCommonControls) ](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

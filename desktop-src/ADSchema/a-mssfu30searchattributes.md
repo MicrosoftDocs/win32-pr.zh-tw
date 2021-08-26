@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e36b69609fb2effbff84464cf145ee2ac908c8f1
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 382315be18573dcb34fb704df29ccfa4d0b6f1e228b869a576e31357f10ba59f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106973506"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120066318"
 ---
 # <a name="mssfu-30-search-attributes-attribute"></a>msSFU-30-搜尋-Attributes 屬性
 

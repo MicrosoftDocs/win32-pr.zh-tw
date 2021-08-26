@@ -1,10 +1,10 @@
 ---
-title: 郵局-Box 屬性
+title: 後 Office-Box 屬性
 description: 此物件的郵局箱號碼。
 ms.assetid: e782271a-2f79-42af-9c62-5723917a6f47
 ms.tgt_platform: multiple
 keywords:
-- 郵局-Box 屬性 AD 架構
+- 後 Office-Box 屬性 AD 架構
 - postOfficeBox 屬性 AD 架構
 topic_type:
 - apiref
@@ -14,14 +14,14 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a8dc8edd327a8b7577e7a8256a8e2f082aad13c8
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 5f86bd2f1ae357485c00af2da52cf26fa4b5d8f67d1020fe9fa3e204a48a9e5a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103935504"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120065974"
 ---
-# <a name="post-office-box-attribute"></a>郵局-Box 屬性
+# <a name="post-office-box-attribute"></a>後 Office-Box 屬性
 
 此物件的郵局箱號碼。
 
@@ -29,7 +29,7 @@ ms.locfileid: "103935504"
 
 | 進入 | 值 |
 |-------------------|-----------------------------------------------------------------------------|
-| CN                | 郵局-Box                                                             |
+| CN                | 後續 Office-Box                                                             |
 | Ldap-顯示名稱 | postOfficeBox                                                               |
 | 大小              | \-                                                                          |
 | 更新許可權  | 網域系統管理員或帳戶擁有者。                                      |

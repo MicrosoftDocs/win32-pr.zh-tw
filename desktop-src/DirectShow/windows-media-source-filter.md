@@ -1,21 +1,21 @@
 ---
-description: Windows Media 來源篩選
+description: Windows媒體來源篩選
 ms.assetid: e59b3086-4f62-4541-8bef-b0581f01906f
-title: Windows Media 來源篩選
+title: Windows媒體來源篩選
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fa8e2c2f2e575a70d85fdce3d9b8d643e270f721
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: eb1e617a51095aec7cb409e46ba8f19f14f76fcd6f8d8a9bffeaa13843b1728b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107908996"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119982201"
 ---
-# <a name="windows-media-source-filter"></a>Windows Media 來源篩選
+# <a name="windows-media-source-filter"></a>Windows媒體來源篩選
 
-此篩選器是 Windows Media®內容的舊版來源篩選器。 它是由 Windows Media Player 6.4 所使用。 一般而言，使用此篩選器的最簡單且最可靠的方式，就是使用 Windows Media Player 6.4 ActiveX 控制項。 此篩選器公開的許多方法也會透過 ActiveX 控制項公開。 如需詳細資訊，請參閱 Windows Media Player SDK。
+此篩選器是 Windows 媒體®內容的舊版來源篩選。 它是由 Windows Media Player 6.4 所使用。 一般而言，使用此篩選器的最簡單且最可靠的方式，就是使用 Windows Media Player 6.4 ActiveX 控制項。 此篩選器公開的許多方法也會透過 ActiveX 控制項公開。 如需詳細資訊，請參閱 Windows Media Player SDK。
 
-當此篩選器指定本機 ASF 檔案的名稱或遠端檔案的 URL 時，它會讀取檔案、剖析壓縮的資料流程，並為每個檔案建立輸出圖釘。 此篩選器不會使用 Windows Media 格式 SDK。 它會使用 Windows Media 解碼器的可安裝編解碼器版本，而不是 SQL-DMO 版本。 音訊輸出圖釘一律會連接到 ASF 的處理常式篩選器，而影片 pin 一律會連接到 ASF ICM 處理常式。  (ICM 在此案例中是指視訊壓縮管理員的原始名稱。 ) 篩選器不支援搜尋。
+當此篩選器指定本機 ASF 檔案的名稱或遠端檔案的 URL 時，它會讀取檔案、剖析壓縮的資料流程，並為每個檔案建立輸出圖釘。 此篩選器不會使用 Windows 媒體格式 SDK。 它會使用 Windows 媒體解碼器的可安裝編解碼器版本，而不是 DMO 版本。 音訊輸出圖釘一律會連接到 asf 的處理常式篩選器，而影片 pin 一律會連接到 asf ICM 處理常式。 在此情況下 (ICM 是指視訊壓縮管理員的原始名稱。 ) 篩選不支援搜尋。
 
 下圖顯示具有此篩選的篩選圖形。
 
@@ -23,7 +23,7 @@ ms.locfileid: "107908996"
 
 為了維持與 Windows Media Player 6.4 的回溯相容性，此篩選器是具有 .wma、.wmv 和 .asf 副檔名之檔案的預設來源篩選。 針對檔案播放，較新的應用程式應該使用 [WM ASF 讀取](wm-asf-reader-filter.md) 器篩選器。 但是，WM ASF 讀取器不支援播放資料流程內容。
 
-應用程式播放資料流程式 Windows 媒體內容的最簡單方式是使用 Windows Media Player SDK。 另一個選項是使用 Windows Media Format SDK。 不建議您嘗試以 Windows Media 來源篩選器為基礎來建立自訂播放機。
+應用程式播放串流 Windows 媒體內容的最簡單方式，就是使用 Windows Media Player SDK。 另一個選項是使用 Windows 媒體格式 SDK。 不建議根據 Windows 媒體來源篩選器來建立自訂播放機。
 
 
 
@@ -60,7 +60,7 @@ DEFINE_GUID(CLSID_NetShowSource,
 
 <dl> <dt>
 
-[DirectShow 篩選](directshow-filters.md)
+[DirectShow過濾 器](directshow-filters.md)
 </dt> <dt>
 
 [在 DirectShow 中讀取 ASF 檔案](reading-asf-files-in-directshow.md)

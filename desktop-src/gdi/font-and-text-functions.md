@@ -1,17 +1,17 @@
 ---
 description: 下列函式適用于字型和文字。
 ms.assetid: 69c04ed7-52da-4cb6-9fd2-f2a8c044df8b
-title: " (Windows GDI) 的字型和文字功能"
+title: '字型和文字函式 (Windows GDI) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d1a4dd6f000356dfb0e52c34fadef81bd6e8843e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e243ea92cf8fdcecc159495102caa70f6a9a55128acf6df9c6d83e1c2b84737a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104512896"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120015348"
 ---
-# <a name="font-and-text-functions-windows-gdi"></a> (Windows GDI) 的字型和文字功能
+# <a name="font-and-text-functions-windows-gdi"></a>字型和文字函式 (Windows GDI) 
 
 下列函式適用于字型和文字。
 
@@ -74,7 +74,7 @@ ms.locfileid: "104512896"
 
 ## <a name="obsolete-functions"></a>過時的函式
 
-這些函式僅提供給 Windows 的16位版本的相容性。
+這些函式僅提供給 Windows 的16位版本相容。
 
 -   [**CreateScalableFontResource**](/windows/desktop/api/Wingdi/nf-wingdi-createscalablefontresourcea)
 -   [**>enumfontfamilies**](/windows/desktop/api/Wingdi/nf-wingdi-enumfontfamiliesa)

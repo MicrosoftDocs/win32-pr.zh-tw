@@ -4,12 +4,12 @@ description: 本章節包含如何使用 Windows 訊息與控制項通訊的相�
 ms.assetid: 94d34132-25c2-4a1a-bd0e-35e5a666bbfa
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 923a1b47d625a2797a900a6c582d00c5169097f3
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: ed60ebb66341332b6248b8427045abc5b62a2311427d56e46b25fe93b3d899ba
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103842944"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119921098"
 ---
 # <a name="control-messages"></a>控制訊息
 
@@ -47,7 +47,7 @@ fSuccess = TreeView_GetItem(hwnd, &tvItem);
 
 
 
-當系統色彩設定進行變更時，Windows 會將 [**WM \_ SYSCOLORCHANGE**](/windows/desktop/gdi/wm-syscolorchange) 訊息傳送至所有最上層視窗。 您的最上層視窗必須將 **WM \_ SYSCOLORCHANGE** 訊息轉寄到其通用控制項; 否則，將不會通知控制項色彩變更。 轉送訊息可確保通用控制項使用的色彩與其他使用者介面物件所使用的色彩一致。 例如，工具列控制項會使用「立體物件」色彩來繪製其按鈕。 如果使用者變更立體物件的色彩，但卻未將 **WM \_ SYSCOLORCHANGE** 訊息轉寄至工具列，工具列按鈕將會維持原來的色彩 (甚至會變更為舊色彩和新色彩的組合) 而系統中其他按鈕的色彩也會變更。
+當系統色彩設定進行變更時，Windows 會將 [**WM \_ SYSCOLORCHANGE**](/windows/desktop/gdi/wm-syscolorchange)訊息傳送至所有最上層視窗。 您的最上層視窗必須將 **WM \_ SYSCOLORCHANGE** 訊息轉寄到其通用控制項; 否則，將不會通知控制項色彩變更。 轉送訊息可確保通用控制項使用的色彩與其他使用者介面物件所使用的色彩一致。 例如，工具列控制項會使用「立體物件」色彩來繪製其按鈕。 如果使用者變更立體物件的色彩，但卻未將 **WM \_ SYSCOLORCHANGE** 訊息轉寄至工具列，工具列按鈕將會維持原來的色彩 (甚至會變更為舊色彩和新色彩的組合) 而系統中其他按鈕的色彩也會變更。
 
 ## <a name="notifications-from-controls"></a>來自控制項的通知
 

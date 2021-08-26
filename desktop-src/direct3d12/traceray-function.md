@@ -12,12 +12,12 @@ api_name:
 - TraceRay
 api_type:
 - NA
-ms.openlocfilehash: faeed928b25acb4dac95e47a46a103daf87124e0
-ms.sourcegitcommit: 3d9dce1bd6c84e2b51759e940aa95aa9b459cd20
+ms.openlocfilehash: 4e22a26d7bd2fd91029c106133667bce98c163d90d99f0700dac7f2bdf0796fb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "106992644"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120027978"
 ---
 # <a name="traceray-function"></a>TraceRay 函式
 

@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 4ddb42d55e4c2f1cc5eb4ad750028f24f6ee6751
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5eedeeaea9f4c7f882e99e9aaf6eef3cba984e03fa06ed751a80419769b8cdf8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106999728"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119980288"
 ---
 # <a name="idcompositiongaussianblureffectsetstandarddeviation-methods"></a>idcompositiongaussianblureffect：： SetStandardDeviation 方法
 

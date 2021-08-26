@@ -4,12 +4,12 @@ ms.assetid: de62bb80-56a0-4652-9509-5d36ed171c69
 title: 使用 UpgradeCode
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: caf32d40364653527b9f906e6dd42de64bb9f697
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8482bdaa228bc57432ab730e59f265fc50352c3a63ed29f75ee0a63c65c201ab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848922"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120039088"
 ---
 # <a name="using-an-upgradecode"></a>使用 UpgradeCode
 

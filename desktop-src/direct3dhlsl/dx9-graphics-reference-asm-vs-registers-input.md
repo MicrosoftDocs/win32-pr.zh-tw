@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 983f0520ccc50fa1683d4b8254ac436fff7491a1
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b6682d8987f2df3ba3fb06427d41b722abb5eb003a4226a155c104cc3239d0f7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103932358"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119982758"
 ---
 # <a name="input-register"></a>輸入暫存器
 
@@ -28,14 +28,14 @@ ms.locfileid: "103932358"
 
 | 屬性        | 描述                                                                                   |
 |-----------------|-----------------------------------------------------------------------------------------------|
-| Name            | v \[ n \] -n 是選擇性的註冊編號。 如果省略，則預設值為0。     |
-| Count           | 最多16個暫存器，v0-v15。                                                          |
+| 名稱            | v \[ n \] -n 是選擇性的註冊編號。 如果省略，則預設值為0。     |
+| 計數           | 最多16個暫存器，v0-v15。                                                          |
 | I/o 許可權 | 唯讀。 此暫存器無法由 API 或在著色器中寫入。                   |
 | 讀取埠      | 1. 這是在單一指令內可以讀取暫存器的次數。 請參閱下文。 |
 
 
 
- 
+ 
 
 任何單一指令都只能存取一個頂點輸入暫存器。 不過，指令中的每個來源都可以獨立地 swizzle，並在該向量被讀取時對其進行否定。
 
@@ -73,7 +73,7 @@ dcl_position v0
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -82,9 +82,9 @@ dcl_position v0
 [頂點著色器暫存器](dx9-graphics-reference-asm-vs-registers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

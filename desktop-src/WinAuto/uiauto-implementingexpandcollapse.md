@@ -15,12 +15,12 @@ keywords:
 - 介面，IExpandCollapseProvider
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 45bd28ddcc201dcff0a4811a1eb8e04670f93091
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2b7fa1461110a7fcdee83b8b3c20c15653e7bd5740187b89337620f5410b2bf7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021212"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119998038"
 ---
 # <a name="expandcollapse-control-pattern"></a>ExpandCollapse 控制項模式
 
@@ -42,12 +42,12 @@ ms.locfileid: "104021212"
     > [!Note]  
     > 例外狀況是功能表控制項，這是個別功能表項目物件的匯總。 功能表項目物件可以支援 **ExpandCollapse** 控制項模式，但是父功能表控制項則不能。 樹狀結構和樹狀目錄專案控制項會套用類似的例外狀況。
 
-     
+     
 
 -   當控制項的 [**IExpandCollapseProvider：： ExpandCollapseState**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iexpandcollapseprovider-get_expandcollapsestate) 設定為 **ExpandCollapseState \_ LeafNode** 時，控制項的任何 **ExpandCollapse** 功能目前為非使用中狀態，而且可以使用此控制項模式取得的唯一資訊是 **ExpandCollapseState**。 如果後續新增任何子物件，則會啟用 **ExpandCollapseState** 變更和 **ExpandCollapse** 功能。
 -   [**ExpandCollapseState**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iexpandcollapseprovider-get_expandcollapsestate) 只是指直屬子物件的可見度;它不會參考所有子系物件的可見度。
 -   [**IExpandCollapseProvider：： Expand**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iexpandcollapseprovider-expand) 和 [**Collapse**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iexpandcollapseprovider-collapse) 功能是控制項特定的。 以下是此行為的範例：
-    -   Office 個人功能表可以是三個狀態的功能表項目 ( 「展開」、「折迭」和「PartiallyExpanded」 ) 其中控制項指定在呼叫 [**展開**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iexpandcollapseprovider-expand)[**或折迭時要**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iexpandcollapseprovider-collapse)採用的狀態。
+    -   Office 的個人功能表可以是三個狀態的功能表項目 ( 「展開」、「折迭」和「PartiallyExpanded」 ) 其中控制項指定在呼叫 [**展開**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iexpandcollapseprovider-expand)[**或折迭時要**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iexpandcollapseprovider-collapse)採用的狀態。
     -   在樹狀目錄專案上呼叫 [**Expand**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iexpandcollapseprovider-expand) 可能會顯示所有子系或只顯示立即的子系。
     -   如果呼叫控制項的 [**展開**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iexpandcollapseprovider-expand)[**或折**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iexpandcollapseprovider-collapse)迭維持其子系的狀態，則應該傳送可見度變更事件，而不是狀態變更事件。 如果父控制項在折迭時不維持其子系的狀態，控制項可能會損毀所有不再可見的子系，並引發終結的事件;或者，它可能會變更每個子代的 [**ExpandCollapseState**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iexpandcollapseprovider-get_expandcollapsestate) ，並引發可見度變更事件。
 -   為了保證導覽，在 Microsoft 消費者介面自動化樹狀結構 (中，不論其父系 [**ExpandCollapseState**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iexpandcollapseprovider-get_expandcollapsestate)為何，都需要有適當的可見度狀態) 的物件。 如果子系是依需求產生的，則它們可能只會在第一次顯示時出現在消費者介面自動化樹狀結構中，或只在顯示時出現。
@@ -67,7 +67,7 @@ ms.locfileid: "104021212"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -82,9 +82,9 @@ ms.locfileid: "104021212"
 [UI 自動化樹狀目錄概觀](uiauto-treeoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

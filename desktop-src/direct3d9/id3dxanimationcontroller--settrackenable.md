@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 920576cbf630e061cd4d460315e905bdabf31ff5
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 61078a40e13ee1422c29de091e1758444e2bafa1586bb443e763e50d57457ad5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104035404"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120026578"
 ---
 # <a name="id3dxanimationcontrollersettrackenable-method"></a>ID3DXAnimationController：： SetTrackEnable 方法
 

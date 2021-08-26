@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: a04bd4b1bfa16d965a90b66e3956674ecb112590
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: f56699a4853b7012401529ecfad6fbfb0006e21990a99a2fe5631faebd57674d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "103932815"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119983288"
 ---
 # <a name="callnz-pred---ps"></a>callnz pred-ps
 
@@ -29,7 +29,7 @@ ms.locfileid: "103932815"
 
 
 
- 
+ 
 
 其中：
 
@@ -48,7 +48,7 @@ ms.locfileid: "103932815"
 
 
 
- 
+ 
 
 此指令會執行下列動作：
 
@@ -70,9 +70,9 @@ if (specified register component is not zero)
 [圖元著色器指示](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

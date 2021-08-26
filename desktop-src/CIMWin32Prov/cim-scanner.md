@@ -33,12 +33,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 3cf0afb62eccfa289418e3ffeb22ea3a976ce7e1
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 7265b56be29666a01bacca5953fe70234ade82fad0029a1e3687e100b73a02f8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106991625"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119920088"
 ---
 # <a name="cim_scanner-class"></a>CIM \_ 掃描器類別
 

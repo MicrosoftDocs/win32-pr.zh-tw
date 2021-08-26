@@ -15,12 +15,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1b341646b2dee7f469235c0b0bc9bb4550e56ff5
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 5c9d92953abdb0cf77a7a55f7b64341b857a111baaef0d84d4d44855b02efb2a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106991497"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120028298"
 ---
 # <a name="cd3dx12_resource_desc-structure"></a>CD3DX12 \_ 資源 \_ DESC 結構
 

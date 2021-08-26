@@ -3,7 +3,7 @@ title: 'LVM_SETBKIMAGE 訊息 (Commctrl .h) '
 description: 在清單視圖控制項中設定背景影像。 您可以明確地傳送此訊息，或使用 ListView \_ SetBkImage 宏來傳送。
 ms.assetid: 8fdd363c-ac12-498b-80b7-aaa5741cfd76
 keywords:
-- LVM_SETBKIMAGE message Windows 控制項
+- LVM_SETBKIMAGE 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e22bebdcb36faff56dfabab721731acb55fdec14
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4f00fbf02d4e354115c01af637251782adb9f95b11923d12cba4bc9f1a0f9e50
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465873"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119919968"
 ---
 # <a name="lvm_setbkimage-message"></a>LVM \_ SETBKIMAGE 訊息
 
@@ -59,8 +59,8 @@ ms.locfileid: "104465873"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 | Unicode 與 ANSI 名稱<br/>   | **LVM \_SETBKIMAGEW** (Unicode) 和 **LVM \_ SETBKIMAGEA** (ANSI) <br/>             |
 

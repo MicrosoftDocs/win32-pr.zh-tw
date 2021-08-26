@@ -1,17 +1,17 @@
 ---
-title: " (Windows 網際網路) 快取"
+title: " (Windows 網際網路) 的快取"
 description: WinINet 函數具有簡單但彈性的內建快取支援。
 ms.assetid: 44c268c9-a745-432a-8540-60d7e7d2cb2d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6e753d826ec3abe580b94158296562208dcbed44
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: cea485e1c6fc8b2b474d217d940c715b65b45de8f7d211ad37bff9bdd9a4243b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104093631"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119955608"
 ---
-# <a name="caching-windows-internet"></a> (Windows 網際網路) 快取
+# <a name="caching-windows-internet"></a> (Windows 網際網路) 的快取
 
 WinINet 函數具有簡單但彈性的內建快取支援。 從網路取出的任何資料都會快取在硬碟上，並針對後續的要求進行取出。 應用程式可以控制每個要求的快取。 若為來自伺服器的 HTTP 要求，也會快取大部分接收到的標頭。 從快取滿足 HTTP 要求時，快取的標頭也會傳回給呼叫端。 這可讓您順暢地下載資料，無論資料是來自快取或網路。
 
@@ -32,7 +32,7 @@ WinINet 快取符合 RFC 2616 中所述的 HTTP 快取控制指示詞。 快取�
 
 快取清除清理會定期從快取中清除專案。 如果將專案新增至快取，且快取已滿，則會將專案新增至快取，並排程快取清除程式。 如果快取清除程式完成一輪清除，而且快取尚未達到快取限制，則在另一個專案加入至快取時，會將清除程式排定為另一個四捨五入。 一般情況下，清除程式會在新增的專案將快取置於其大小限制時進行排程。 根據預設，快取中的最短存留時間會設定為10分鐘，除非在快取控制指示詞中另有指定。 快取清除程式啟動時，不保證最舊的專案是要從快取中刪除的第一個專案。
 
-快取會在電腦上的所有 WinINet 應用程式中，針對相同的使用者共用。 從 Windows Vista 和 Windows Server 2008 開始，快取大小設定為 1/第32磁片的大小，最小大小為8MB，大小上限為50MB。
+快取會在電腦上的所有 WinINet 應用程式中，針對相同的使用者共用。 從 Windows Vista 和 Windows Server 2008 開始，快取大小設定為 1/第32磁片的大小，最小大小為 8 mb，大小上限為50MB。
 
 ## <a name="using-flags-to-control-caching"></a>使用旗標來控制快取
 
@@ -462,7 +462,7 @@ lpDstCEInfo->lpszSourceUrlName =
 \_ \_ 如果您指定的緩衝區太小而無法包含函式所抓取的快取專案資訊，某些快取函數會失敗，並出現錯誤緩衝區錯誤訊息。 在此情況下，函式也會傳回所需的緩衝區大小。 然後，您可以配置適當大小的緩衝區，然後再次呼叫函式。
 
 > [!Note]  
-> WinINet 不支援伺服器實施。 此外，它不應該從服務使用。 針對伺服器執行或服務，請使用 [Microsoft WINDOWS HTTP services (WinHTTP) ](/windows/desktop/WinHttp/winhttp-start-page)。
+> WinINet 不支援伺服器實施。 此外，它不應該從服務使用。 若為伺服器執行或服務，請使用[Microsoft Windows HTTP 服務 (WinHTTP) ](/windows/desktop/WinHttp/winhttp-start-page)。
 
  
 

@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: CIM_SerialController 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7877babdd27938a36ee8edfe6f6a585f96467e14
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: ef52d2336111a04d2034bee40f2fbe30c94c6b1bfd45d2376125c1436e5cd1d9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110364"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119919928"
 ---
 # <a name="cim_serialcontroller-methods"></a>CIM \_ SerialController 方法
 

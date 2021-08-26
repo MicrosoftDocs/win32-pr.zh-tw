@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: eb80414134534d09a4030e2e87003a660e69fd9f
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 1c5eaf7e53fc7972795d0502c156e753bae60c777987e7304ef27a3a3fde54e8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106999834"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119920938"
 ---
 # <a name="cim_realizesaggregatepextent-class"></a>CIM \_ RealizesAggregatePExtent 類別
 

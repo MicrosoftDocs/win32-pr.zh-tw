@@ -4,12 +4,12 @@ ms.assetid: 69888d66-8e96-4a20-b8c5-a01267ff3c05
 title: 'MF_PD_ASF_METADATA_IS_VBR 屬性 (Wmcontainer) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5863d5366fd94e230040f81d3f67f4c75fd3fe3b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3e97d471c6a6466290c5b2ac490f88ae33de29aa3823af420ef8b8116a81192a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106983778"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119955418"
 ---
 # <a name="mf_pd_asf_metadata_is_vbr-attribute"></a>MF \_ PD \_ ASF \_ 中繼資料 \_ 是 \_ VBR 屬性
 
@@ -28,7 +28,7 @@ ms.locfileid: "106983778"
 [**IMFASFContentInfo：： GeneratePresentationDescriptor**](/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfcontentinfo-generatepresentationdescriptor)方法會產生這個屬性，並在表示描述項上設定它。
 
 > [!Note]  
-> 這個屬性會對應至 Windows Media 格式 SDK 中的 **IsVBR** 屬性。
+> 這個屬性會對應至 Windows 媒體格式 SDK 中的 **IsVBR** 屬性。
 
  
 
@@ -38,8 +38,8 @@ ms.locfileid: "106983778"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                     |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                     |
 | 標頭<br/>                   | <dl> <dt>Wmcontainer。h</dt> </dl> |
 
 

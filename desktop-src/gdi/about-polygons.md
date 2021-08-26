@@ -4,12 +4,12 @@ ms.assetid: 2259855f-4bad-4513-a021-b48c73eb7841
 title: 關於多邊形
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d3efe99793aa0f8ae964583b4ca854340792751f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3f0d28bd915237991294f6579448ca08785481f374814f0ed5840f77ee9f813c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026469"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119966438"
 ---
 # <a name="about-polygons"></a>關於多邊形
 

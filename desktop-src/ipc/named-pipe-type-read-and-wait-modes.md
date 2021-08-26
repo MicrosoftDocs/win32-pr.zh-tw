@@ -4,12 +4,12 @@ ms.assetid: 07cf9d06-6265-47f4-a9f1-c19c06cc5f9f
 title: 具名管道類型、讀取和等候模式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b116e5ca9357a65a6d63549b96065843b046d479
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a3b8ba69ef0d795747070072511c84abf5a3950db3b9c03ec18973f4d29bbd51
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847692"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120014888"
 ---
 # <a name="named-pipe-type-read-and-wait-modes"></a>具名管道類型、讀取和等候模式
 

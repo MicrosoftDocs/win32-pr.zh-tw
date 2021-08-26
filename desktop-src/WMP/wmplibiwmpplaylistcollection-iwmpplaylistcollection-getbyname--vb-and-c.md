@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e51f83b4db019286c04762a081e649fec282135e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4fcee45af3ef55d53a05bab290fa92d3e6842fbb097358235b6720cbb1b54e0d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994822"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119999738"
 ---
 # <a name="iwmpplaylistcollectiongetbyname-method"></a>IWMPPlaylistCollection：： getByName 方法
 
@@ -131,7 +131,7 @@ End If
 [**IWMPPlaylistArray 介面 (VB 和 c # )**](iwmpplaylistarray--vb-and-c.md)
 </dt> <dt>
 
-[**IWMPPlaylistArray (VB 和 c # )**](wmplibiwmpplaylistarray-iwmpplaylistarray-count--vb-and-c.md)
+[**IWMPPlaylistArray (VB 和 c # ) 的計數**](wmplibiwmpplaylistarray-iwmpplaylistarray-count--vb-and-c.md)
 </dt> <dt>
 
 [**IWMPPlaylistCollection 介面 (VB 和 c # )**](iwmpplaylistcollection--vb-and-c.md)

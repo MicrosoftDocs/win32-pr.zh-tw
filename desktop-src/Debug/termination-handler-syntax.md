@@ -4,12 +4,12 @@ ms.assetid: fbaf8890-2516-4b60-be57-464f91f2a38a
 title: Termination-Handler 語法
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bcbf2656636490738a292c274a3e3184a34c0f94
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 7c3a6322bbcf86f56a75c62eaba03d50827edcd71a57addf48ef3777c7687796
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106967048"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119984458"
 ---
 # <a name="termination-handler-syntax"></a>Termination-Handler 語法
 

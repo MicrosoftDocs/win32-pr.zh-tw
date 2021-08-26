@@ -3,7 +3,7 @@ title: 'TB_GETEXTENDEDSTYLE 訊息 (Commctrl .h) '
 description: 抓取工具列控制項的延伸樣式。
 ms.assetid: d9e31a8e-5e5a-4d2d-bc3b-65ac40e8592f
 keywords:
-- TB_GETEXTENDEDSTYLE message Windows 控制項
+- TB_GETEXTENDEDSTYLE 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f80bc4f4ad45e5c1c75366e0890f3fd76ec1fa74
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4ab059933c2019009ebc746cc59df6affb840f09c40a201a4ee4048dc2498a17
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103685835"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119918858"
 ---
 # <a name="tb_getextendedstyle-message"></a>TB \_ GETEXTENDEDSTYLE 訊息
 
@@ -45,8 +45,8 @@ ms.locfileid: "103685835"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

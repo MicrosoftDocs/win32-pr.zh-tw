@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 94a24e447f5cb941ba66d36d61c2b78fefed3cd2
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 76b223cde68ddec9993ccd4567f7c355257dd0427fda57ff0aadedb445423517
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "103945832"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120066038"
 ---
 # <a name="ms-ts-primary-desktop-bl-attribute"></a>ms-TS-BL 屬性
 
@@ -53,7 +53,7 @@ ms.locfileid: "103945832"
 |------------------------|-------------------------------------------|
 | 連結識別碼                | 2171                                      |
 | MAPI-Id                | \-                                        |
-| System-Only            | 對                                      |
+| System-Only            | 是                                      |
 | 是-單一值       | 否                                     |
 | 已編制索引             | 否                                     |
 | 在通用類別目錄中      | 否                                     |
@@ -74,7 +74,7 @@ ms.locfileid: "103945832"
 |------------------------|-------------------------------------------|
 | 連結識別碼                | 2171                                      |
 | MAPI-Id                | \-                                        |
-| System-Only            | 對                                      |
+| System-Only            | 是                                      |
 | 是-單一值       | 否                                     |
 | 已編制索引             | 否                                     |
 | 在通用類別目錄中      | 否                                     |

@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 310279b6f7dd7481b904542440c076c2006a8462
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 1e502dcdb1f2420ba238747c400d35ad2c6773d9ad28b8c37fb8d6d2d302a4bc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103935580"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119922328"
 ---
 # <a name="email-information-property-set"></a>Email-Information 屬性集
 
@@ -29,7 +29,7 @@ ms.locfileid: "103935580"
 | 進入 | 值 |
 |--------------|--------------------------------------|
 | CN           | Email-Information                    |
-| 顯示名稱 | 電話和郵件選項               |
+| 顯示名稱 | 電話和 Mail 選項               |
 | 許可權-GUID  | e45795b2-9455-11d1-aebd-0000f80367c1 |
 
 
@@ -50,7 +50,7 @@ ms.locfileid: "103935580"
 
 | 進入 | 值 |
 |-------------------------|-----------------------------------------------------------------------|
-| Applies-To              | [**User**](c-user.md)<br/> [**Group**](c-group.md)<br/> |
+| Applies-To              | [**使用者**](c-user.md)<br/> [**Group**](c-group.md)<br/> |
 | 當地語系化-顯示識別碼 | 22                                                                    |
 | 屬性集成員    | \-                                                                    |
 
@@ -62,7 +62,7 @@ ms.locfileid: "103935580"
 
 | 進入 | 值 |
 |-------------------------|---------------------------------------------------------------------------------------------------------------------------|
-| Applies-To              | [**User**](c-user.md)<br/> [**Group**](c-group.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> |
+| Applies-To              | [**使用者**](c-user.md)<br/> [**Group**](c-group.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> |
 | 當地語系化-顯示識別碼 | 22                                                                                                                        |
 | 屬性集成員    | \-                                                                                                                        |
 
@@ -86,7 +86,7 @@ ms.locfileid: "103935580"
 
 | 進入 | 值 |
 |-------------------------|---------------------------------------------------------------------------------------------------------------------------|
-| Applies-To              | [**User**](c-user.md)<br/> [**Group**](c-group.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> |
+| Applies-To              | [**使用者**](c-user.md)<br/> [**Group**](c-group.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> |
 | 當地語系化-顯示識別碼 | 22                                                                                                                        |
 | 屬性集成員    | \-                                                                                                                        |
 
@@ -98,7 +98,7 @@ ms.locfileid: "103935580"
 
 | 進入 | 值 |
 |-------------------------|---------------------------------------------------------------------------------------------------------------------------|
-| Applies-To              | [**User**](c-user.md)<br/> [**Group**](c-group.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> |
+| Applies-To              | [**使用者**](c-user.md)<br/> [**Group**](c-group.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> |
 | 當地語系化-顯示識別碼 | 22                                                                                                                        |
 | 屬性集成員    | \-                                                                                                                        |
 
@@ -110,7 +110,7 @@ ms.locfileid: "103935580"
 
 | 進入 | 值 |
 |-------------------------|---------------------------------------------------------------------------------------------------------------------------|
-| Applies-To              | [**User**](c-user.md)<br/> [**Group**](c-group.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> |
+| Applies-To              | [**使用者**](c-user.md)<br/> [**Group**](c-group.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> |
 | 當地語系化-顯示識別碼 | 22                                                                                                                        |
 | 屬性集成員    | \-                                                                                                                        |
 
@@ -122,7 +122,7 @@ ms.locfileid: "103935580"
 
 | 進入 | 值 |
 |-------------------------|---------------------------------------------------------------------------------------------------------------------------|
-| Applies-To              | [**User**](c-user.md)<br/> [**Group**](c-group.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> |
+| Applies-To              | [**使用者**](c-user.md)<br/> [**Group**](c-group.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> |
 | 當地語系化-顯示識別碼 | 22                                                                                                                        |
 | 屬性集成員    | \-                                                                                                                        |
 

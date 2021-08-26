@@ -4,16 +4,16 @@ ms.assetid: 46ee5ea2-35fd-4352-8a45-572d6fb5e080
 title: 指定自我註冊的順序
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5d99587f6e6bdd8726f2cdc584fc2f399d81ae91
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9bb26fbebad3167fbea95679a1ea7a29c28946ae6fa2dd2b014be6ade986e28f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104469276"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120039678"
 ---
 # <a name="specifying-the-order-of-self-registration"></a>指定自我註冊的順序
 
-請注意，您無法使用 [SelfRegModules](selfregmodules-action.md) 和 [SelfUnRegModules](selfunregmodules-action.md) 動作來指定安裝程式註冊或取消註冊自行註冊 dll 的順序。 這些動作會註冊 [SelfReg 資料表](selfreg-table.md)中列出的所有模組。 安裝程式不會自行註冊 .exe 檔案。
+請注意，您無法使用 [SelfRegModules](selfregmodules-action.md) 和 [SelfUnRegModules](selfunregmodules-action.md) 動作來指定安裝程式註冊或取消註冊自行註冊 dll 的順序。 這些動作會註冊 [SelfReg 資料表](selfreg-table.md)中列出的所有模組。 安裝程式不會自行註冊 .exe 的檔案。
 
 若要指定安裝程式註冊或取消註冊模組的順序，您必須針對每個模組使用兩個 [自訂動作](custom-actions.md) 。 一個用於 DllRegisterServer 的自訂動作，另一個用於 DllUnregisterServer。 然後，這些自訂動作必須在 [InstallExecuteSequence 資料表](installexecutesequence-table.md) 中，于要註冊或取消註冊 DLL 的位置，于順序中撰寫。
 

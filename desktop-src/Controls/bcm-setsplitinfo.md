@@ -3,7 +3,7 @@ title: 'BCM_SETSPLITINFO 訊息 (Commctrl .h) '
 description: 設定分割按鈕控制項的資訊。 明確地傳送此訊息，或使用按鈕 \_ SetSplitInfo 宏。
 ms.assetid: 609b8972-9616-4850-a72c-2f87ce19f563
 keywords:
-- BCM_SETSPLITINFO message Windows 控制項
+- BCM_SETSPLITINFO 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ac40f2d1ef016ee76ab21ccf2dc4733d0ff427f3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 17332ce5f10fa612d739598222e4973000961435fa525190a650adaa9aa9fc4c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106965089"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119921418"
 ---
 # <a name="bcm_setsplitinfo-message"></a>BCM \_ SETSPLITINFO 訊息
 
@@ -57,8 +57,8 @@ ms.locfileid: "106965089"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

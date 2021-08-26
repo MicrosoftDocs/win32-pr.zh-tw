@@ -4,12 +4,12 @@ ms.assetid: 7c2bfe54-3259-40d6-9eb4-1a8ad3dda477
 title: 以影線圖樣填滿形狀
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8c37f06c93a6ac66a4a6066874c99b88652a0819
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4b571ab09dc91c037e0cc89a2b107c2f8d253b832b593bb32a169bc970295d41
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104988240"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120015098"
 ---
 # <a name="filling-a-shape-with-a-hatch-pattern"></a>以影線圖樣填滿形狀
 

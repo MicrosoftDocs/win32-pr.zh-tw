@@ -4,12 +4,12 @@ ms.assetid: 502ef3fb-ba45-4f8b-bbd5-19c24e313439
 title: 建立辨識器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3bc71f56dc7095c6c72d18b36c3a12caa493ec9d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ab9f35277c32c40658adb5530f4521c945df12152aa214167573e111eccdca13
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106979718"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119941048"
 ---
 # <a name="creating-a-recognizer"></a>建立辨識器
 

@@ -17,12 +17,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 966d259cf427bcc83e9a8b2fb65670a2a05b9458
-ms.sourcegitcommit: cb87082135319cbdc5df541e3071eebb83a58972
+ms.openlocfilehash: aed3ca32fa063b9b824a2ecd444a6a71c1885697f839b67e117c75622f009c60
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111387654"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119921148"
 ---
 # <a name="comboboxex-control-extended-styles"></a>ComboBoxEx 控制項擴充樣式
 
@@ -37,7 +37,7 @@ ms.locfileid: "111387654"
 | <span id="CBES_EX_NOEDITIMAGEINDENT"></span><span id="cbes_ex_noeditimageindent"></span><dl> <dt>**CBES \_ EX \_ NOEDITIMAGEINDENT**</dt> </dl> | 編輯方塊和下拉式清單不會顯示專案影像。 <br/>                                                                                                                                                                                                                                                          |
 | <span id="CBES_EX_NOSIZELIMIT"></span><span id="cbes_ex_nosizelimit"></span><dl> <dt>**CBES \_ EX \_ NOSIZELIMIT**</dt> </dl>                   | 允許 ComboBoxEx 控制項的垂直大小小於其包含的下拉式方塊控制項。 如果 ComboBoxEx 的大小小於下拉式方塊，則會裁剪下拉式方塊。 <br/>                                                                                                                                  |
 | <span id="CBES_EX_PATHWORDBREAKPROC"></span><span id="cbes_ex_pathwordbreakproc"></span><dl> <dt>**CBES \_ EX \_ PATHWORDBREAKPROC**</dt> </dl> | 僅 Windows NT。 編輯方塊會使用斜線 (/) 、反斜線 (\\) 和句號 (. ) 字元作為文字分隔符號。 這可讓鍵盤快速鍵在路徑名稱和 Url 中有效地移動單字游標。<br/>                                                                                                       |
-| <span id="CBES_EX_TEXTENDELLIPSIS"></span><span id="cbes_ex_textendellipsis"></span><dl> <dt>**CBES \_ EX \_ TEXTENDELLIPSIS**</dt> </dl>       | **Windows Vista （含）以後版本。** 當編輯方塊為唯讀時，會導致下拉式清單和編輯方塊中的專案 () 要以省略號 ( "... ) " 來截斷，而不是只由控制項邊緣裁剪。 當控制項必須設定為固定寬度，但清單中的專案可能很長時，這非常有用。<br/> |
+| <span id="CBES_EX_TEXTENDELLIPSIS"></span><span id="cbes_ex_textendellipsis"></span><dl> <dt>**CBES \_ EX \_ TEXTENDELLIPSIS**</dt> </dl>       | **WindowsVista 和更新版本。** 當編輯方塊為唯讀時，會導致下拉式清單和編輯方塊中的專案 () 要以省略號 ( "... ) " 來截斷，而不是只由控制項邊緣裁剪。 當控制項必須設定為固定寬度，但清單中的專案可能很長時，這非常有用。<br/> |
 
 
 

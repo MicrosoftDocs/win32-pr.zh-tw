@@ -13,16 +13,16 @@ api_type:
 - DllExport
 api_location:
 - Sfcfiles.dll
-ms.openlocfilehash: 6b38b761372db656308e778fd96ea48607cf1f21
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3201621808708229419542acd7fa0caab0aa7f6e7d38bfe723b7f53bc68c4005
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103849860"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119999278"
 ---
 # <a name="sfcgetfiles-function"></a>SfcGetFiles 函式
 
-\[此函式可用於 [需求] 區段中指定的作業系統。 這項功能的支援已在 Windows Vista 和 Windows Server 2008 中移除。 請改用 [WRP](wfp-functions.md) 函式中所列的支援函數。\]
+\[此函式可用於 [需求] 區段中指定的作業系統。 Windows Vista 和 Windows Server 2008 已移除對此功能的支援。 請改用 [WRP](wfp-functions.md) 函式中所列的支援函數。\]
 
 列出受保護的檔案。
 
@@ -66,8 +66,8 @@ NTSTATUS WINAPI SfcGetFiles(
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                             |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                    |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                             |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                    |
 | 用戶端支援結束<br/>    | Windows XP<br/>                                                                   |
 | 伺服器支援結束<br/>    | Windows Server 2003<br/>                                                          |
 | 標頭<br/>                   | <dl> <dt>Sfcfiles。h</dt> </dl>   |

@@ -4,12 +4,12 @@ description: 本節討論不同類型的下拉式方塊。
 ms.assetid: 76410a87-aa0e-4da9-9e78-c80ac485e3cd
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 344596a3c0aa772568956344aaddcc053b534993
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 497bc6fc7e9254feb58ef95051ba1278e135ff241d3af93781f611373d2d096c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104559739"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119922506"
 ---
 # <a name="about-combo-boxes"></a>關於下拉式方塊
 
@@ -34,7 +34,7 @@ ms.locfileid: "104559739"
 
 
 
-| 下拉式列示方塊類型             | 樣式常數                                                 | Description                                                                                  |
+| 下拉式列示方塊類型             | 樣式常數                                                 | 描述                                                                                  |
 |----------------------------|----------------------------------------------------------------|----------------------------------------------------------------------------------------------|
 | 簡單                     | [**CBS \_ 簡單**](combo-box-styles.md)             | 每次都會顯示清單，並在編輯控制項中顯示選取的專案。              |
 | Drop-down                  | [**CBS \_ 下拉式清單**](combo-box-styles.md)         | 當您按一下圖示時，會顯示清單，並在編輯控制項中顯示選取的專案。  |
@@ -42,9 +42,9 @@ ms.locfileid: "104559739"
 
 
 
- 
+ 
 
-下列螢幕擷取畫面會顯示三種下拉式方塊，因為它們可能出現在 Windows Vista 中。 在第一個螢幕擷取畫面中，使用者已在 [簡單] 下拉式方塊中選取專案。 使用者也可以在這個控制項的編輯方塊中輸入新值。 清單已在 Microsoft Visual Studio 資源編輯器中調整大小，只夠大以容納兩個專案。
+下列螢幕擷取畫面會顯示三種下拉式方塊，因為它們可能會出現在 Windows Vista 中。 在第一個螢幕擷取畫面中，使用者已在 [簡單] 下拉式方塊中選取專案。 使用者也可以在這個控制項的編輯方塊中輸入新值。 清單已在 Microsoft Visual Studio 資源編輯器中調整大小，只夠大以容納兩個專案。
 
 ![顯示簡單下拉式方塊中所選取專案的螢幕擷取畫面](images/simplecombo.png)
 
@@ -61,7 +61,7 @@ ms.locfileid: "104559739"
 > [!Note]  
 > 若要搭配使用視覺化樣式與下拉式方塊，應用程式必須包含資訊清單，而且必須在程式的開頭呼叫 [**InitCommonControls**](/windows/desktop/api/Commctrl/nf-commctrl-initcommoncontrols) 。 如需視覺化樣式的詳細資訊，請參閱 [視覺化樣式](themes-overview.md)。 如需資訊清單的詳細資訊，請參閱 [啟用視覺化樣式](cookbook-overview.md)。
 
- 
+ 
 
 ## <a name="combo-box-list"></a>下拉式方塊清單
 
@@ -145,6 +145,6 @@ ms.locfileid: "104559739"
 
 子類別化的相關技術 superclassing。 超類類似于任何其他類別，不同之處在于其視窗程式不會呼叫 [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) 來處理未處理的訊息。 相反地，它會將未處理的訊息傳遞至父視窗類別的視窗程式。 遵循 [視窗程式](/windows/desktop/winmsg/window-procedures) 中的指導方針，以避免子類別化和 superclassing 可能發生的問題。
 
- 
+ 
 
- 
+ 

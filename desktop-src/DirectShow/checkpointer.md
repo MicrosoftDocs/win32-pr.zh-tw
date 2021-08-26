@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Wxdebug.h
-ms.openlocfilehash: 04f442303e520ef758a3576d21c2df810ef26fb2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ef1fa2370def45321958862ebaf3ded341b13f45ddae1ecafdc4a17e937aca08
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994360"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119999288"
 ---
 # <a name="checkpointer-macro"></a>CheckPointer 宏
 
@@ -40,7 +40,7 @@ HRESULT CheckPointer(
 
 <dl> <dt>
 
-*P* 
+*p* 
 </dt> <dd>
 
 要檢查的指標。

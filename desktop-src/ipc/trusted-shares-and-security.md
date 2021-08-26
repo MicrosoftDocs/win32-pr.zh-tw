@@ -4,16 +4,16 @@ ms.assetid: a22d9fc6-a0c9-442f-b278-1271cfbc636b
 title: 受信任的共用和安全性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 899be51745b2b27c22212c3ceeaceea016fa8d4b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 22bed3b520597f6cabe95929d2ee5bf9c29af6bb6c524d2aa136f4c86392cbb8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106998443"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120014678"
 ---
 # <a name="trusted-shares-and-security"></a>受信任的共用和安全性
 
-\[不再支援網路 DDE。 Windows Vista 上有 Nddeapi.dll，但是所有的函式呼叫都會傳回 NDDE \_ 未 \_ 執行。\]
+\[不再支援網路 DDE。 Nddeapi.dll 存在於 Windows Vista 中，但所有的函式呼叫會傳回 NDDE \_ 未 \_ 執行。\]
 
 網路 DDE 使用受信任的共用和安全描述項來控制對共用的存取。
 

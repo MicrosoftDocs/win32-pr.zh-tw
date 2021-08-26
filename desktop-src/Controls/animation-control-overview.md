@@ -4,12 +4,12 @@ description: 動畫控制項是顯示 Audio-Video 交錯 (AVI) 剪輯的視窗�
 ms.assetid: 6be69d1a-5b2c-41d5-b6d7-e86ddac2cb0d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1625828e5f4febce7314da365c9db93ce3a07136
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 57a2a579334fe266499884ccf40ad1154b3465ffd301c92643f248ff2664ed4a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "106965870"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119921788"
 ---
 # <a name="about-animation-controls"></a>關於動畫控制項
 
@@ -20,14 +20,14 @@ ms.locfileid: "106965870"
 > [!Note]  
 > 如果您使用 ComCtl32.dll 版本6，則不支援此執行緒;請確定您的應用程式不會封鎖 UI，否則不會發生動畫。
 
- 
+ 
 
 動畫控制項可以顯示源自未壓縮 AVI 檔案的 AVI 剪輯，或從使用執行時間長度 (BI RLE8) 編碼所壓縮的 AVI 檔案 \_ 。 您可以將 AVI 剪輯以 AVI 資源的形式新增至您的應用程式，也可以將您的應用程式隨附于不同的 AVI 檔。
 
 > [!Note]  
 > AVI 檔案或資源不能有音效通道。 動畫控制項的功能非常有限，而且可能會變更。 如果您需要控制項來提供應用程式的多媒體播放和記錄功能，您可以使用 MCIWnd 控制項。 如需詳細資訊，請參閱 [MCIWnd 視窗類別](/windows/desktop/Multimedia/mciwnd-window-class)。
 
- 
+ 
 
 本節將討論下列主題。
 
@@ -71,8 +71,8 @@ ms.locfileid: "106965870"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ ms.assetid: 81688d31-e560-4dd0-8d84-efb50206c76e
 title: ServiceInstall 資料表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b502583802a26c10bfd9572375149720c7c597f4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3850b957df4dd0af662354c14f82717e4b86ad597f151c6a45bb8dc1bebea5af
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106992480"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120039958"
 ---
 # <a name="serviceinstall-table"></a>ServiceInstall 資料表
 
@@ -20,7 +20,7 @@ ServiceInstall 資料表是用來安裝服務，並具有下列資料行。
 | Column         | 類型                               | 答案 | Nullable |
 |----------------|------------------------------------|-----|----------|
 | ServiceInstall | [識別碼](identifier.md)       | Y   | N        |
-| Name           | [格式 化](formatted.md)         | N   | N        |
+| 名稱           | [格式 化](formatted.md)         | N   | N        |
 | DisplayName    | [格式 化](formatted.md)         | N   | Y        |
 | ServiceType    | [DoubleInteger](doubleinteger.md) | N   | N        |
 | StartType      | [DoubleInteger](doubleinteger.md) | N   | N        |
@@ -31,7 +31,7 @@ ServiceInstall 資料表是用來安裝服務，並具有下列資料行。
 | 密碼       | [格式 化](formatted.md)         | N   | Y        |
 | 引數      | [格式 化](formatted.md)         | N   | Y        |
 | 元件\_    | [識別碼](identifier.md)       | N   | N        |
-| Description    | [格式 化](formatted.md)         | N   | Y        |
+| 描述    | [格式 化](formatted.md)         | N   | Y        |
 
 
 
@@ -168,7 +168,7 @@ Windows Installer 無法使用服務 \_ 啟動 \_ 啟動和服務 \_ 系統 \_ �
 
 請注意，刪除以使用者名稱和密碼安裝的服務之後，安裝程式就無法復原服務，而必須先使用自訂動作來取得密碼。 安裝程式可以取得有關服務的所有必要資訊，但密碼會儲存在系統的受保護部分中。 自訂動作會藉由提示使用者、從資料庫讀取屬性，或讀取檔案來取得密碼。 然後，自訂動作必須呼叫 [**ChangeServiceConfig**](/windows/win32/api/winsvc/nf-winsvc-changeserviceconfiga)，以提供密碼，才能重新安裝服務。
 
-Windows Installer 不會將輸入密碼欄位中的值寫入記錄檔中。
+Windows安裝程式不會將輸入密碼欄位中的值寫入記錄檔中。
 
 </dd> <dt>
 

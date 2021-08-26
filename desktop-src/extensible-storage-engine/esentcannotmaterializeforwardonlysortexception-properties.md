@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101174
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 7effe68322a4c0bcf003f7e114363b72318fe3c1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4a8bfad2414c18e4acc7e800f097a74a9ba070647f0cffde6a1bc50f036bff6e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103851036"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120066458"
 ---
 # <a name="esentcannotmaterializeforwardonlysortexception-properties"></a>EsentCannotMaterializeForwardOnlySortException 屬性
 

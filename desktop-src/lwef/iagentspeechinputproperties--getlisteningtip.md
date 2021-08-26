@@ -4,16 +4,16 @@ description: IAgentSpeechInputProperties GetListeningTip
 ms.assetid: b0488a54-03f8-43ce-935c-dd49c6ed5dbc
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 91218fb7935edb68458d540a8f35fe5402b317ea
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0199e75ad56cee2c299ce53be3aa94376104af5ead40004e8dbbd8fd4dcfec9e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106966775"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120014178"
 ---
 # <a name="iagentspeechinputpropertiesgetlisteningtip"></a>IAgentSpeechInputProperties::GetListeningTip
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 ``` syntax
 HRESULT GetListeningTip(
@@ -41,9 +41,9 @@ long * pbListeningTip  // address of variable for listening tip flag
 [**IAgentSpeechInputProperties：： GetEnabled**](iagentspeechinputproperties--getenabled.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

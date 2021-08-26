@@ -4,12 +4,12 @@ ms.assetid: ebb1a217-fce6-43f0-9139-c0f4422c8fc4
 title: 更新升級的屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 750c30a75650ff4009dda799b0542f41f535481f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 99d340f56eaf78c585e28a52dc7b310bf1af047d7530e61b841267bc0b83251a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104027447"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120039178"
 ---
 # <a name="updating-properties-for-an-upgrade"></a>更新升級的屬性
 
@@ -62,7 +62,7 @@ ms.locfileid: "104027447"
 | [**製造商**](manufacturer.md)             | Microsoft                                 |
 | [**PIDTemplate**](pidtemplate.md)               | 12345<\#\#\#-%%%%%%%>@@@@@          |
 | [**ProductCode**](productcode.md)               | {34CF587C-1D8F-4DD5-ADFE-440F4B593987}    |
-| [**產品**](productid.md)                   | 無                                      |
+| [**ProductID**](productid.md)                   | 無                                      |
 | [**ProductLanguage**](productlanguage.md)       | 1033                                      |
 | [**ProductName**](productname.md)               | MNP2001                                   |
 | [**ProductVersion**](productversion.md)         | 01.50.0000                                |

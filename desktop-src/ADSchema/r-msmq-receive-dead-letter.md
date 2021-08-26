@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7ee68beb0afc7b9bcbb38157ffd1de82fc447dd4
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: b10155964a22c129cc614c8a3a898c654a0d8d8eb8dfae462f265c90010452d8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104108332"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119922108"
 ---
 # <a name="msmq-receive-dead-letter-extended-right"></a>msmq-接收-寄不出的信件擴充許可權
 
