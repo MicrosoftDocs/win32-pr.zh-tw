@@ -3,19 +3,19 @@ title: 相互排除物件
 description: 相互排除物件
 ms.assetid: dd1f7865-e409-4bf9-9fa0-769a29eaed60
 keywords:
-- Windows Media Format SDK，相互排除物件
+- Windows媒體格式 SDK，相互排除物件
 - Advanced Systems Format (ASF) ，相互排除物件
 - ASF (Advanced Systems Format) ，相互排除物件
 - 物件，相互排除物件
 - 相互排除，物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8522b66f82bd88479b8c7b1d0d0b45bd038fdab3
-ms.sourcegitcommit: ad672d3a10192c5ccac619ad2524407109266e93
+ms.openlocfilehash: 32d7e780ac18dcad7ef04f9bb50d3a7389851156866980b21fbe0c231bcb057d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2020
-ms.locfileid: "104092577"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119929928"
 ---
 # <a name="mutual-exclusion-object"></a>相互排除物件
 
@@ -34,7 +34,7 @@ ms.locfileid: "104092577"
 
 
 
- 
+ 
 
 上表中的兩個方法都會設定 **IWMMutualExclusion** 介面的指標。 **IWMMutualExclusion** 會繼承 **IWMStreamList** 介面，且永遠不需要直接存取。 您可以藉由呼叫 **QueryInterface** 方法來取得相互排除物件的另一個介面。
 
@@ -50,7 +50,7 @@ ms.locfileid: "104092577"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -65,9 +65,9 @@ ms.locfileid: "104092577"
 [**設定檔管理員物件**](profile-manager-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: b32503fe-d494-44ea-b144-e38b8ab9b3d4
 title: 媒體控制項
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 50dad56e3feef8493a70cf93152b225be2777848
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 17e3ad30107a98cc5d1a312880fa29422c42dce2b2bc59cadfbf894cb032d74a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106982142"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120034528"
 ---
 # <a name="media-control"></a>媒體控制項
 
@@ -23,7 +23,7 @@ TAPI 3 引進 [媒體服務提供者](about-the-media-service-provider-msp-.md)�
 
 
 
-| TAPI 2.x 函數                                          | Description                                                                                                                |
+| TAPI 2.x 函數                                          | 描述                                                                                                                |
 |-------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|
 | [**lineGatherDigits**](/windows/win32/api/tapi/nf-tapi-linegatherdigits)       | 在指定的呼叫上起始已緩衝的數位收集。                                                          |
 | [**lineGenerateDigits**](/windows/win32/api/tapi/nf-tapi-linegeneratedigits)   | 使用指定的信號模式，在指定的呼叫上起始指定之數位的產生，作為 inband 音。 |
@@ -39,7 +39,7 @@ TAPI 3 引進 [媒體服務提供者](about-the-media-service-provider-msp-.md)�
 
 
 
-| TAPI 3.x 介面或方法                               | Description                                                                                                                                                                                            |
+| TAPI 3.x 介面或方法                               | 描述                                                                                                                                                                                            |
 |--------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**ITLegacyCallMediaControl**](/windows/desktop/api/tapi3if/nn-tapi3if-itlegacycallmediacontrol) | 支援必須直接與裝置通訊的繼承應用程式。                                                                                                                             |
 | [**ITLegacyWaveSupport**](/windows/desktop/api/tapi3if/nn-tapi3if-itlegacywavesupport)           | 允許應用程式探索是否可以使用 Wave API 來控制舊版 TSP (預先 TAPI 3) 所建立的終端機。                                                                        |

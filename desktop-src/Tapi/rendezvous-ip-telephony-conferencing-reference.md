@@ -4,16 +4,16 @@ ms.assetid: c39c548e-e6d8-4971-98e7-4aaec4f1b6a7
 title: 彙集 IP 電話語音會議參考
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e17fb730bc31f9712188bb883f4933afdefaf9b4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8f68718b482ef0e2b5eb65bb5f553d4a8521733c3940cae825ac456da652a556
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103944208"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120034438"
 ---
 # <a name="rendezvous-ip-telephony-conferencing-reference"></a>彙集 IP 電話語音會議參考
 
-\[ 在 Windows Vista、Windows Server 2008 和後續版本的作業系統中，無法使用會合 IP 電話語音會議控制項和介面。 RTC 用戶端 API 提供類似的功能。\]
+\[Windows Vista、Windows Server 2008 及後續版本的作業系統無法使用會合 IP 電話語音會議控制項和介面。 RTC 用戶端 API 提供類似的功能。\]
 
 TAPI 3 的會合 API 是一組元件物件模型 (COM) 介面，可用來通告及探索多方多媒體會議。 下列材質提供有關所提供之物件、介面和方法的詳細資料。
 

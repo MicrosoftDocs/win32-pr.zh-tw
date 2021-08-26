@@ -4,12 +4,12 @@ ms.assetid: 1f16a349-4919-46d2-9b78-2533b8679a73
 title: 驗證安裝資料庫
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f6db262a280afa1d9222696d40a6f5949d69ece0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d28d4d1937b5946d6c1df85a4c6c21ec8113ef6463b5aaad0e181f4bdc711e70
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847678"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119995818"
 ---
 # <a name="validating-an-installation-database"></a>驗證安裝資料庫
 

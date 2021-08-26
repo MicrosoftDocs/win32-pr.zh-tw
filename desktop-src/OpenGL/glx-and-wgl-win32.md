@@ -1,6 +1,6 @@
 ---
 title: GLX 和 WGL/Windows
-description: 某些 WGL 函式和 Windows 函式會比 GLX X 視窗函式更多或更少。 下列清單顯示 GLX 函式及其對應的 WGL/Windows 函數（如果有的話）。
+description: 某些 WGL 函式和 Windows 函式，類似于 GLX X 視窗函式的功能更多或更少。 下列清單顯示 GLX 函式及其對應的 WGL/Windows 函數（如果有的話）。
 ms.assetid: 428c0fdc-a541-4720-908f-99f0539d9f4b
 keywords:
 - Windows 上的 OpenGL，GLX 函式
@@ -8,20 +8,20 @@ keywords:
 - WGL 函式（相較于 GLX 函數）
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0eaa2c0ce28bd22e8b6efee4edc395223be2bf11
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: c24b88caeed9aea7bae8e38f73818ac180aad9117806508f40550b02eb8a4e76
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103682753"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120035380"
 ---
 # <a name="glx-and-wglwindows"></a>GLX 和 WGL/Windows
 
-某些 WGL 函式和 Windows 函式會比 GLX X 視窗函式更多或更少。 下列清單顯示 GLX 函式及其對應的 WGL/Windows 函數（如果有的話）。
+某些 WGL 函式和 Windows 函式，類似于 GLX X 視窗函式的功能更多或更少。 下列清單顯示 GLX 函式及其對應的 WGL/Windows 函數（如果有的話）。
 
 
 
-| GLX 函式             | WGL/Windows 函數                                                                                                                                       |
+| GLX 函式             | WGL/Windows 函式                                                                                                                                       |
 |---------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **glXChooseVisual**       | [**ChoosePixelFormat**](/windows/desktop/api/wingdi/nf-wingdi-choosepixelformat)                                                                                                              |
 | **glXCopyCoNtext**        |                                                                                                                                                             |
@@ -49,10 +49,10 @@ ms.locfileid: "103682753"
 
 
 
- 
+ 
 
 如需詳細資訊，請參閱 *移植指南*。
 
- 
+ 
 
- 
+ 

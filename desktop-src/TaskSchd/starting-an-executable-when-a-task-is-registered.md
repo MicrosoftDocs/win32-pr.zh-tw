@@ -6,12 +6,12 @@ keywords:
 - 工作排程器範例工作排程器、註冊觸發程式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a8036b8bdff807ded582279e0ba7675bc2160811
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d6a051c820a1099828ae0ee123e4241ec42d6edbb23ce9e98275057b5903dfbc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103932327"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120033948"
 ---
 # <a name="starting-an-executable-when-a-task-is-registered"></a>在工作註冊時啟動可執行檔
 
@@ -24,11 +24,11 @@ ms.locfileid: "103932327"
 > [!Note]  
 > 更新註冊觸發程式的工作時，工作會在更新發生之後執行。
 
- 
+ 
 
 ## <a name="registration-trigger-examples"></a>註冊觸發程式範例
 
-下列範例會在工作註冊時啟動「記事本」：
+下列範例會在工作註冊時開始記事本：
 
 -   [ (腳本) 的註冊觸發程式範例 ](registration-trigger-example--scripting-.md)
 -   [ (c + +) 的註冊觸發程式範例 ](registration-trigger-example--c---.md)
@@ -41,9 +41,9 @@ ms.locfileid: "103932327"
 [使用工作排程器](using-the-task-scheduler.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,21 +1,21 @@
 ---
 title: SVG 支援
-description: 從 Windows 10 年度更新版開始，Direct2D 支援包含 SVG 圖像大綱的轉譯色彩字型，如 OpenType 規格中所述 (看到「SVG」資料表) 。
+description: 從 Windows 10 周年更新開始，Direct2D 支援轉譯包含 svg 圖像大綱的色彩字型，如 OpenType 規格中所述 (參閱「SVG」資料表) 。
 ms.assetid: 5cb4cb7c-9b96-e110-bff9-d75ad1980010
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 678c5d9ef42a53c854bb2f175fac63816345c519
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 3c8c5f34531264f95c3617d1324079895b6444cbdbc776d5468fe51fc9890992
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104375408"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119917098"
 ---
 # <a name="svg-support"></a>SVG 支援
 
-從 Windows 10 年度更新版開始，Direct2D 支援包含 SVG 圖像大綱的轉譯 [色彩](../directwrite/color-fonts.md) 字型，如 [OpenType 規格](/typography/opentype/spec/) 中所述 (參閱 [svg 表格](/typography/opentype/spec/svg)) 。 從 Windows 10 Creators Update 開始，Direct2D 也支援呈現獨立 SVG 影像。 不過，在 OpenType SVG 字型內不允許某些 SVG 功能，而且 Direct2D 目前不支援某些 SVG 功能。  
+從 Windows 10 周年更新開始，Direct2D 支援包含 svg 圖像大綱的轉譯[色彩](../directwrite/color-fonts.md)字型（如[OpenType 規格](/typography/opentype/spec/)中所述） (參閱[SVG 表格](/typography/opentype/spec/svg)) 。 從 Windows 10 Creators Update 開始，Direct2D 也支援呈現獨立 SVG 影像。 不過，在 OpenType SVG 字型內不允許某些 SVG 功能，而且 Direct2D 目前不支援某些 SVG 功能。  
 
-本主題指出 Windows 10 年度更新版和更新版本中 Direct2D 所支援的 [SVG 1.1](https://www.w3.org/TR/SVG11/) 功能集。 本檔適用于 OpenType 字型中的 SVG，以及獨立 SVG 影像。
+本主題指出 Windows 10 周年更新和更新版本中，Direct2D 所支援的[SVG 1.1](https://www.w3.org/TR/SVG11/)功能集。 本檔適用于 OpenType 字型中的 SVG，以及獨立 SVG 影像。
 
 ## <a name="supported-svg-elements-and-attributes"></a>支援的 SVG 元素和屬性
 
@@ -46,9 +46,9 @@ Direct2D 支援轉譯下列 SVG 元素，以及每個專案的相關屬性。 �
 
 
 
- 
+ 
 
-<sup>\*</sup> 只有 Windows 10 Creators Update 和更新版本才支援
+<sup>\*</sup>只有 Windows 10 Creators Update 和更新版本才支援
 
 ## <a name="supported-svg-presentation-attributes"></a>支援的 SVG 呈現屬性
 
@@ -75,7 +75,7 @@ Direct2D 也支援下列展示屬性。 您可以在任何 SVG 元素上指定�
 -   筆劃寬度
 -   知名度<sup>\*</sup>
 
-<sup>\*</sup> 只有 Windows 10 Creators Update 和更新版本才支援
+<sup>\*</sup>只有 Windows 10 Creators Update 和更新版本才支援
 
 ## <a name="unsupported-svg-features"></a>不支援的 SVG 功能
 
@@ -85,7 +85,7 @@ Direct2D 不會將任何未包含在上述清單中的元素或屬性視為不�
 
 ### <a name="unsupported-length-units"></a>不支援的長度單位
 
-從 Windows 10 年度更新版，Direct2D 只支援使用者空間長度值和百分比長度值。 不支援具有單位尾碼的長度（例如 "mm" 或 "em"）。
+Windows 10 周年更新時，Direct2D 只支援使用者空間長度值和百分比長度值。 不支援具有單位尾碼的長度（例如 "mm" 或 "em"）。
 
 從 Windows 10 Fall Creators Update 開始，Direct2D 也支援絕對單位識別碼： px、pt、pc、cm、mm 和 in。 不支援相對單位識別碼 (em，例如) 。
 
@@ -93,6 +93,6 @@ Direct2D 不會將任何未包含在上述清單中的元素或屬性視為不�
 
 只有在 xlink： href 屬性設定為 base64 編碼的影像時，才支援 image 元素。 不支援遠端參考。
 
- 
+ 
 
- 
+ 

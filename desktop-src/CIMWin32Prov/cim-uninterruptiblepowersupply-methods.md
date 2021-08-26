@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: CIM_UninterruptiblePowerSupply 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7a4398d7cb4dbfe27acf43c29411e8ed8e6a9100
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 72559cb4ad8a11ceaa17182e2feb02857704b662a1b10e5d1c61b6ae33891d30
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103689200"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119918818"
 ---
 # <a name="cim_uninterruptiblepowersupply-methods"></a>CIM \_ UninterruptiblePowerSupply 方法
 

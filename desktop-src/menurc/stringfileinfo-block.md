@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cb0a1c5e7a2fd5e3d2f096c882ca928ce1febf92
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 468257d0b8b8b53f3168e8e11e2f649b8354d50a76d3c2a010b98d245472aad0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104373088"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119886760"
 ---
 # <a name="stringfileinfo-block-statement"></a>StringFileInfo BLOCK 語句
 
@@ -86,7 +86,7 @@ BLOCK "StringFileInfo" { BLOCK "lang-charset" {VALUE "string-name", "value" . . 
 
 
 
- 
+ 
 
 *Lang-字元集* 參數也會指定下列其中一個字元集識別碼。
 
@@ -109,13 +109,13 @@ BLOCK "StringFileInfo" { BLOCK "lang-charset" {VALUE "string-name", "value" . . 
 
 
 
- 
+ 
 
 *字串名稱* 參數會指定下列其中一個預先定義的名稱。
 
 
 
-| Name                 | 描述                                                                                                                                                                                                                                                                                                 |
+| 名稱                 | 描述                                                                                                                                                                                                                                                                                                 |
 |----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **註解**         | 為了診斷而應顯示的其他資訊。                                                                                                                                                                                                                                    |
 | **CompanyName**      | 產生檔案的公司，例如「Microsoft Corporation」或「標準 Microsystems Corporation，Inc.」。 這個字串是必要的。                                                                                                                                                                   |
@@ -132,11 +132,11 @@ BLOCK "StringFileInfo" { BLOCK "lang-charset" {VALUE "string-name", "value" . . 
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

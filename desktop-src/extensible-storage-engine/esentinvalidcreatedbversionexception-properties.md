@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101907
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 3f65ccd37be1c13ab015127ed4832846d767ce48
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 07b5c59c2d54ce444c5a8c0006232e877af2cd0c2bc8417ab19b05448f7d1d70
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104559385"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120020158"
 ---
 # <a name="esentinvalidcreatedbversionexception-properties"></a>EsentInvalidCreateDbVersionException 屬性
 

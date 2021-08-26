@@ -11,12 +11,12 @@ keywords:
 - 鳶尾花 GL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1fe340cfbd7dbef3d93cc68ba310d863717225c0
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 4e9b782c6edd1dedf6b081c2ee3b9da6c2489ac4d5549fb3a44ece5c81c38f3d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104508232"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120035100"
 ---
 # <a name="i-opengl"></a>我 (OpenGL) 
 

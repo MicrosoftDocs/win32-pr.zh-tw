@@ -1,20 +1,20 @@
 ---
-description: 本主題提供開發人員指引，說明如何在新式 Windows 的簡報堆疊中最大化效能和效率。
+description: 本主題提供的開發人員指導方針，可讓您瞭解如何在新式 Windows 版本的展示堆疊中最大化效能和效率。
 ms.assetid: B6B92F4F-B1D0-40B9-987D-F0C0F2CC7AD1
 title: 為了達到最佳效能，請使用 DXGI 翻轉模型
 ms.topic: article
 ms.date: 05/31/2018
 ms.custom: RS5
-ms.openlocfilehash: 2a1e671c03f468fd62b0b5bad0f008f84e62ca3c
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: ce999bc735042132902158cfd6bd6d41296d29a3afc98ab27d9480dc6bd8b3b3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106990917"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119951218"
 ---
 # <a name="for-best-performance-use-dxgi-flip-model"></a>為了達到最佳效能，請使用 DXGI 翻轉模型
 
-本主題提供開發人員指引，說明如何在新式 Windows 的簡報堆疊中最大化效能和效率。 它會挑選 [DXGI 翻轉模型](dxgi-flip-model.md)、 [DirectX 12： Windows 10 中的簡報模式 (影片) ](https://www.youtube.com/watch?v=E3wTajGZOsA)，以及 [Windows 10 中的簡報增強：提早 (影片) ](https://www.youtube.com/watch?v=nUZVV_mssWQ) 。
+本主題提供的開發人員指導方針，可讓您瞭解如何在新式 Windows 版本的展示堆疊中最大化效能和效率。 它會挑選[DXGI 翻轉模型](dxgi-flip-model.md)、 [DirectX 12： Windows 10 中的簡報模式 (影片) ](https://www.youtube.com/watch?v=E3wTajGZOsA)，以及[Windows 10 中的簡報增強：提早 (影片) ](https://www.youtube.com/watch?v=nUZVV_mssWQ) 。
 
 ## <a name="call-to-action"></a>喚起行動
 
@@ -36,13 +36,13 @@ ms.locfileid: "106990917"
 
 ## <a name="when-should-i-use-the-blt-model"></a>何時應該使用 blt 模型？
 
-翻轉模型不提供一項功能，就是能夠擁有多個不同的 Api 來產生內容，這一切都是以並存的方式結合到相同的 **HWND** 中。 其中一個範例是使用 D3D 來繪製視窗背景，然後使用 [WINDOWS GDI](/windows/desktop/gdi/windows-gdi) 來繪製某個東西，或使用兩個不同的圖形 api，或使用來自相同 API 的兩個 swapchains，以產生替代的畫面格。 如果您不需要圖形元件之間的 **HWND** 層級 interop，則不需要 blt 模型。
+翻轉模型不提供一項功能，就是能夠擁有多個不同的 Api 來產生內容，這一切都是以並存的方式結合到相同的 **HWND** 中。 其中一個範例是使用 D3D 來繪製視窗背景，然後[Windows GDI](/windows/desktop/gdi/windows-gdi)來繪製某個東西，或使用兩個不同的圖形 api 或相同 API 的兩個 swapchains，以產生替代的畫面格。 如果您不需要圖形元件之間的 **HWND** 層級 interop，則不需要 blt 模型。
 
 原始的翻轉模型設計中未提供第二個功能，但現在已可供使用，這是以調節幀呈現的能力。 若為使用同步間隔0的應用程式，除非 [IDXGIFactory5：： CheckFeatureSupport](/windows/desktop/api/DXGI1_5/nf-dxgi1_5-idxgifactory5-checkfeaturesupport) API 可供使用，否則不建議切換至 flip 模型，且支援的 **DXGI \_ 功能 \_ 目前 \_ 允許 \_** 卸載。 這項功能在最近版本的 Windows 10 和新式硬體上幾乎很普遍。
 
 ## <a name="directflip"></a>DirectFlip
 
-如果您 [在 Windows 10 觀看了 DirectX 12：展示模式](https://www.youtube.com/watch?v=E3wTajGZOsA)，您會看到「直接翻轉」和「獨立翻轉」的相關討論。 這些是使用 flip model swapchains 為應用程式啟用的優化。 視視窗和緩衝區的設定而定，您可以完全略過桌面撰寫，並以專用的全螢幕方式直接將應用程式框架傳送到畫面。
+如果您[在 Windows 10 觀看了 DirectX 12：展示模式](https://www.youtube.com/watch?v=E3wTajGZOsA)，您會看到「直接翻轉」和「獨立翻轉」的相關討論。 這些是使用 flip model swapchains 為應用程式啟用的優化。 視視窗和緩衝區的設定而定，您可以完全略過桌面撰寫，並以專用的全螢幕方式直接將應用程式框架傳送到畫面。
 
 在過去幾天，這些優化可以依照下列三種案例的其中一種來參與：
 
@@ -60,8 +60,8 @@ ms.locfileid: "106990917"
 
 除了上述的增強功能（適用于標準 swapchains，而不需要特別特殊）之外，還有數個可供 flip 模型應用程式使用的功能：
 
--   使用 **DXGI \_ 交換 \_ 鏈旗標 \_ \_ 框架 \_ 延遲 \_ 可等候 \_ 物件** 來降低延遲。 在獨立的翻轉模式下，您可以在最新版本的 Windows 上獲得最少1個延遲的畫面格，並在撰寫時正常地回復至最小的可能。
-    -   注意：發生問題，在 Windows 10 年度更新版及更早的版本中，至少有兩個延遲框架。 如需詳細資訊，請參閱 [此論壇主題](https://www.gamedev.net/forums/topic/686507-windows-10-dx12-low-latency-tearing-free-rendering/) 。 這在秋季建立者的更新中已修正。
+-   使用 **DXGI \_ 交換 \_ 鏈旗標 \_ \_ 框架 \_ 延遲 \_ 可等候 \_ 物件** 來降低延遲。 在獨立翻轉模式下，您可以在最新版本的 Windows 上，獲得最少1個延遲的畫面格，並在撰寫時，正常地回復至最小可能。
+    -   注意：在 Windows 10 周年更新和更早的版本中，有最少兩個延遲框架的問題。 如需詳細資訊，請參閱 [此論壇主題](https://www.gamedev.net/forums/topic/686507-windows-10-dx12-low-latency-tearing-free-rendering/) 。 這在秋季建立者的更新中已修正。
 -   **DXGI \_交換 \_ 效果 \_ 翻轉 \_ 捨棄** 可啟用「反轉合成」模式的直接翻轉，這會導致顯示桌面的整體工作較少。 DWM 可以在應用程式緩衝區上塗抹，然後將它們傳送到畫面，而不是在自己的 swapchains 中執行完整複製。
 -   **DXGI \_交換 \_ 鏈 \_ 旗 \_ \_** 標即使在具有多平面重迭支援的系統上，即使在具有多平面重迭支援之系統上的視窗中，也能讓您的延遲比可等候物件
 -   應用程式可控制在調整視窗大小時發生的內容調整，使用 swapchain 建立期間設定的 [DXGI \_ 調整](/windows/desktop/api/DXGI1_2/ne-dxgi1_2-dxgi_scaling) 屬性。

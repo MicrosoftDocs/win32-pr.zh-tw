@@ -5,12 +5,12 @@ ms.assetid: 44cb060c-e6a6-48d6-bbcf-d8dc1ae8ceb2
 title: TxF 詞彙
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ee17e9c53b804995e7ef3491b68e963e9311a37f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 06e6e296319dc1a9ccd02834fe6144c28d15d61a0fe0c1ec449a07d81f96dbe2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194756"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119900648"
 ---
 # <a name="txf-glossary"></a>TxF 詞彙
 

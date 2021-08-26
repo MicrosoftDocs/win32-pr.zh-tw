@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 314d3e1ce0e73e60ea07bb4f7270fa04f69750c7
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 0a91e936f13c76ed4d99d7c5048820777afa47c9a52c260bb7f34acb702cb777
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108096046"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119916848"
 ---
 # <a name="cbasepincheckconnect-method"></a>CBasePin. CheckConnect 方法
 
@@ -55,7 +55,7 @@ virtual HRESULT CheckConnect(
 
 
 
-| 傳回碼                                                                                               | Description                                   |
+| 傳回碼                                                                                               | 描述                                   |
 |-----------------------------------------------------------------------------------------------------------|-----------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>                      | 成功。<br/>                           |
 | <dl> <dt>**VFW \_ E \_ 不正確 \_ 方向**</dt> </dl> | Pin 方向不相容。<br/> |
@@ -66,7 +66,7 @@ virtual HRESULT CheckConnect(
 
 ## <a name="remarks"></a>備註
 
-在連接程式開始時，這兩個圖釘都會呼叫這個方法。 連接的 pin 會從 [**CBasePin：： Connect**](cbasepin-connect.md) 方法內呼叫它，而接收的 pin 會從 [**CBasePin：： ReceiveConnection**](cbasepin-receiveconnection.md) 方法中呼叫它。
+在連接程式開始時，這兩個圖釘都會呼叫這個方法。 連接的 pin 會從 [**CBasePin：：連線**](cbasepin-connect.md)方法內呼叫它，而接收的 pin 會從 [**CBasePin：： ReceiveConnection**](cbasepin-receiveconnection.md)方法中呼叫它。
 
 您可以使用這個方法來判斷 *pPin* 參數所指定的 pin 是否適合用於連接。 如果兩個圖釘都 (輸入相同方向，或兩個輸出) 都有相同的方向，則基類會傳回錯誤。 衍生類別可以覆寫這個方法，以驗證 pin 中的其他功能。 例如， [**CBaseOutputPin**](cbaseoutputpin.md) 類別會查詢其 [**IMemInputPin**](/windows/desktop/api/Strmif/nn-strmif-imeminputpin) 介面的輸入 pin。
 

@@ -4,12 +4,12 @@ ms.assetid: 72770b6f-1cec-4fa4-a91e-85367d531c7f
 title: 查看剖析的資訊
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e0d1e82503d8ad78757e7c6cb1b8f02df8bc163
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5f01cfc0df45f2fb6ef0e1342d7fe54e5ed5701bad8ba1635dc13f4546b10e20
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104555603"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119962681"
 ---
 # <a name="viewing-parsed-information"></a>查看剖析的資訊
 

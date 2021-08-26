@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: ce95af44b639b02095b6bae120bb23fd8a7d6bf9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6c6a876637b3c4351d6f4ffa70c84b7d7f22f2c0b1c9f7587eee591bc9a458d9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106982548"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119871378"
 ---
 # <a name="csourcem_ipins-member"></a>CSource：： m \_ iPins 成員
 

@@ -4,12 +4,12 @@ ms.assetid: e61640f7-d206-494a-a3af-f9fa32c87816
 title: 組態參考
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c65d047ffb6fbb801f50d5d4db9ffeb0c5efbac4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8277337df1743eb20809026efe57ae355c3e60c44e2631f224674aa38cfc82be
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975424"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119932268"
 ---
 # <a name="configuration-reference"></a>組態參考
 

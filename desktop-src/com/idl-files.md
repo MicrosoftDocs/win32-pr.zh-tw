@@ -4,12 +4,12 @@ description: IDL 檔案
 ms.assetid: 94a6752d-fcf3-47ce-ac3f-be1d1c9768e6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0bc9a736bf9b9a77ec1cb655fb5c76e9e1c0d27e
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 32e2329d14ea844658bf9ad08927ddcef5067debed7a1c8a424c06d3c7adb8d0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103842780"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119992898"
 ---
 # <a name="idl-files"></a>IDL 檔案
 
@@ -19,6 +19,6 @@ COM 使用 Microsoft 介面定義語言 (MIDL) 來描述 COM 物件。 MIDL 是�
 
 在 Visual Basic 中，建立 COM 物件的開發人員不會建立 IDL 檔案。 相反地，Visual Basic 會使用類別和專案屬性來收集資訊，並直接建立類型程式庫。
 
- 
+ 
 
- 
+ 

@@ -3,21 +3,21 @@ title: ASF 格式的概觀
 description: ASF 格式的概觀
 ms.assetid: ef22a493-d6cf-40d2-ab17-d87159066d1d
 keywords:
-- Windows Media Format SDK，ASF 格式總覽
+- Windows媒體格式 SDK，ASF 格式總覽
 - Advanced Systems Format (ASF) ，格式總覽
 - ASF (Advanced Systems Format) ，格式總覽
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2858ae1845629c25b52d4c15b5ce7fbb5eb82146
-ms.sourcegitcommit: d230e7720c0b566919f8ca11ff7fe3c6b32e028c
+ms.openlocfilehash: 3ee075330e9c68ef1fbdadea12c70fd8deec584f99f8dadd31cb55070dc11eee
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "104374829"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119930558"
 ---
 # <a name="overview-of-the-asf-format"></a>ASF 格式的概觀
 
-Advanced Systems Format (ASF) 是一種可延伸的檔案格式，主要是用來儲存及播放同步處理的數位媒體串流，並透過網路傳輸。 ASF 是 Windows Media 音訊的容器格式，也是以 Windows Media 視訊為基礎的內容。 副檔名 wma 或 wmv 可用來指定 ASF 檔案，其中包含以 Windows Media 音訊和/或 Windows Media 視訊編解碼器編碼的內容。 Windows Media Format SDK 可以用來建立和讀取 Windows Media 檔案，以及包含其他類型壓縮或未壓縮資料的 ASF 檔案。
+Advanced Systems Format (ASF) 是一種可延伸的檔案格式，主要是用來儲存及播放同步處理的數位媒體串流，並透過網路傳輸。 ASF 是 Windows Media 音訊的容器格式，也是以 Windows Media 視訊為基礎的內容。 副檔名 wma 或 wmv 可用來指定 ASF 檔案，其中包含以 Windows Media 音訊和/或 Windows Media 視訊編解碼器編碼的內容。 Windows 媒體格式 SDK 可以用來建立和讀取 Windows 媒體檔案，以及包含其他類型壓縮或未壓縮資料的 ASF 檔案。
 
 本節提供 ASF 格式的一般描述作為背景資訊。 由於讀取器和寫入器物件會處理所有的低層級檔案剖析和格式化工作，因此在使用此 SDK 建立 ASF 檔案之前，不需要先深入瞭解 ASF。 您可以在 [Microsoft 網站](https://download.microsoft.com/download/7/9/0/790fecaa-f64a-4a5e-a430-0bccdab3f1b4/ASF_Specification.doc)上找到完整的 ASF 規格。
 
@@ -41,12 +41,12 @@ ASF 規格中顯示之 ASF 的詳細資訊。 您可以從 [Microsoft 網站](ht
 
 <dl> <dt>
 
-[**關於 Windows Media Format SDK**](about-the-windows-media-format-sdk.md)
+[**關於 Windows 媒體格式 SDK**](about-the-windows-media-format-sdk.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

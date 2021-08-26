@@ -4,16 +4,16 @@ description: IAgentCommands
 ms.assetid: a171a2f0-7c1c-440f-9b19-28447cc68b95
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d1fc57b7e2e5f628708f46ace98700605f1eb5d7
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 1a1bcc40f80e9a10301ec305fdc3e8f3e83984ceb0de5d36121e13c3d823b8a7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104507899"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119961888"
 ---
 # <a name="iagentcommands"></a>IAgentCommands
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 Microsoft 代理程式伺服器會維護使用者目前可用的命令清單。 這份清單包含伺服器為一般互動所定義的命令，例如隱藏和 Microsoft Agent 屬性、可用 (清單、非輸入主動) 用戶端，以及目前作用中用戶端所定義的命令。 前兩組命令是全域命令;也就是說，無論輸入-主動用戶端為何，都可以隨時使用它們。 用戶端定義的命令只有在該用戶端為輸入-主動時才可使用。
 
@@ -37,15 +37,15 @@ Microsoft 代理程式伺服器會維護使用者目前可用的命令清單。 
 
 | Caption 屬性 | Voice-Caption 屬性 | Voice 屬性 | Visible 屬性 | 出現在字元的快顯功能表中             | 出現在 [語音命令] 視窗中                         |
 |------------------|------------------------|----------------|------------------|------------------------------------------------|----------------------------------------------------------|
-| 是              | 是                    | 是            | 對             | 是，使用 [**標題**](caption-property.md) | 是，使用 [ **VoiceCaption**](voicecaption-property.md) |
-| 是              | 是                    | 否¹            | 對             | 是，使用 [**標題**](caption-property.md) | 否                                                       |
+| 是              | 是                    | 是            | 是             | 是，使用 [**標題**](caption-property.md) | 是，使用 [ **VoiceCaption**](voicecaption-property.md) |
+| 是              | 是                    | 否¹            | 是             | 是，使用 [**標題**](caption-property.md) | 否                                                       |
 | 是              | 是                    | 是            | False            | 否                                             | 是，使用 [ **VoiceCaption**](voicecaption-property.md) |
 | 是              | 是                    | 否¹            | False            | 否                                             | 否                                                       |
 | 否¹              | 是                    | 是            | True             | 否                                             | 是，使用 [ **VoiceCaption**](voicecaption-property.md) |
 | 否¹              | 是                    | 是            | False            | 否                                             | 是，使用 [ **VoiceCaption**](voicecaption-property.md) |
 | 否¹              | Yes                    | 否¹            | True             | 否                                             | 否                                                       |
 | 否¹              | Yes                    | 否¹            | False            | 否                                             | 否                                                       |
-| 是              | 否¹                    | Yes            | 對             | 是，使用 [**標題**](caption-property.md) | 是，使用 [**標題**](caption-property.md)           |
+| 是              | 否¹                    | Yes            | 是             | 是，使用 [**標題**](caption-property.md) | 是，使用 [**標題**](caption-property.md)           |
 | Yes              | 否¹                    | 否¹            | True             | 是                                            | 否                                                       |
 | 是              | 否¹                    | Yes            | False            | 否                                             | 是，使用 [**標題**](caption-property.md)           |
 | Yes              | 否¹                    | 否¹            | False            | 否                                             | 否                                                       |
@@ -56,7 +56,7 @@ Microsoft 代理程式伺服器會維護使用者目前可用的命令清單。 
 
 
 
- 
+ 
 
 ¹，如果屬性設定為 null。 在某些程式設計語言中，空字串可能不會被解釋為 null 字串。
 
@@ -66,7 +66,7 @@ Microsoft 代理程式伺服器會維護使用者目前可用的命令清單。 
 
 
 
-| IAgentCommands 方法                           | Description                                                                                                                      |
+| IAgentCommands 方法                           | 描述                                                                                                                      |
 |--------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|
 | [**GetCommand**](iagentcommands--getcommand.md) | 從 [**命令**](/windows/desktop/lwef/the-commands-collection-object)集合中抓取 [**命令**](/windows/desktop/lwef/the-command-object)物件。              |
 | [**GetCount**](iagentcommands--getcount.md)     | 傳回 [**命令**](/windows/desktop/lwef/the-commands-collection-object)集合中的 [**命令**](/windows/desktop/lwef/the-command-object)數目值。 |
@@ -76,15 +76,15 @@ Microsoft 代理程式伺服器會維護使用者目前可用的命令清單。 
 | [**GetVoice**](iagentcommands--getvoice.md)     | 傳回 [**命令**](/windows/desktop/lwef/the-commands-collection-object)集合的 [**Voice**](voice-property.md)屬性值。      |
 | [**SetVisible**](iagentcommands--setvisible.md) | 設定 [**命令**](/windows/desktop/lwef/the-commands-collection-object)集合的 [**Visible**](visible-property.md)屬性值。    |
 | [**GetVisible**](iagentcommands--getvisible.md) | 傳回 [**命令**](/windows/desktop/lwef/the-commands-collection-object)集合的 [**Visible**](visible-property.md)屬性值。  |
-| [**加入**](iagentcommands--add.md)               | 將 [**命令**](/windows/desktop/lwef/the-command-object) 物件加入至 [**命令**](/windows/desktop/lwef/the-commands-collection-object) 集合。                       |
+| [**加**](iagentcommands--add.md)               | 將 [**命令**](/windows/desktop/lwef/the-command-object) 物件加入至 [**命令**](/windows/desktop/lwef/the-commands-collection-object) 集合。                       |
 | [**插入**](iagentcommands--insert.md)         | 在 [**命令**](/windows/desktop/lwef/the-commands-collection-object)集合中插入 [**Command**](/windows/desktop/lwef/the-command-object)物件。                    |
 | [**移除**](iagentcommands--remove.md)         | 移除 [**命令**](/windows/desktop/lwef/the-commands-collection-object)集合中的 [**命令**](/windows/desktop/lwef/the-command-object)物件。                    |
 | [**RemoveAll**](iagentcommands--removeall.md)   | 從 [**命令**](/windows/desktop/lwef/the-commands-collection-object)集合中移除所有的 [**命令**](/windows/desktop/lwef/the-command-object)物件。               |
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

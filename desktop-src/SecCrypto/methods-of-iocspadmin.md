@@ -4,12 +4,12 @@ ms.assetid: cbe43e5d-cd1b-467c-a0fd-1ee7cc5adcf7
 title: IOCSPAdmin 的方法
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e9ecd14d2566c5e80e863ba06e38b2945492f59b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a455ae5cfbb49d60cc0d0a03265d05c98efa2f2217746086b0acf0a4230709dc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318515"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119992848"
 ---
 # <a name="methods-of-iocspadmin"></a>IOCSPAdmin 的方法
 

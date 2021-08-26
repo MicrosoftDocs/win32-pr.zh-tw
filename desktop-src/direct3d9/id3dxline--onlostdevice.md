@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 9f3845e40e4ece115704c38904a61dbca3c24443
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: f67327a9582c959cc74d6bd2efb7f8d76dd6fac1e6de06d86aca28dfde5e3634
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108093676"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119951408"
 ---
 # <a name="id3dxlineonlostdevice-method"></a>ID3DXLine：： OnLostDevice 方法
 

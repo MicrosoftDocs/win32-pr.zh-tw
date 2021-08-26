@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9shader.h
-ms.openlocfilehash: d737fa1d95a119668602aeb056e15bc4248200aa
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: bdb3b8276711f3165c0c138155eb6e628c19a124d6f9301de7638e5be24d1c1d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106990024"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119952448"
 ---
 # <a name="d3dxconstant_desc-structure"></a>D3DXCONSTANT \_ DESC 結構
 
@@ -105,7 +105,7 @@ Parameter 類別。 請參閱 [**D3DXPARAMETER \_ 類別**](./d3dxparameter-clas
 
 </dd> <dt>
 
-**型別**
+**類型**
 </dt> <dd>
 
 類型： **[ **D3DXPARAMETER \_ 類型**](./d3dxparameter-type.md)**

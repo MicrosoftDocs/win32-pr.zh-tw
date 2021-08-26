@@ -7,12 +7,12 @@ keywords:
 - WGL 參考 OpenGL、結構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1acf8d3621632e9b45dc4f374641733d80542d92
-ms.sourcegitcommit: cba7f424a292fd7f3a8518947b9466439b455419
+ms.openlocfilehash: 46114fcd9edb5dc9ca12eec9e20baac3ee49c333a98736eac2e11468d1a074ac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "104373947"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120034598"
 ---
 # <a name="opengl-structures"></a>OpenGL 結構
 
@@ -23,9 +23,9 @@ ms.locfileid: "104373947"
 -   [**PIXELFORMATDESCRIPTOR**](/windows/win32/api/wingdi/ns-wingdi-pixelformatdescriptor)
 -   [**POINTFLOAT**](/windows/desktop/api/wingdi/ns-wingdi-pointfloat)
 
- 
+ 
 
- 
+ 
 
 
 

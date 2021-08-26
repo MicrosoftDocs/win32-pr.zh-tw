@@ -10,12 +10,12 @@ keywords:
 - 顯示清單，從鳶尾花 GL 進行移植
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 77a856350a0a248bf7dcac51c36b9d35cf114956
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 5fbb696673da7f4dc83abd625bb616b67449de64a40df1cfc99bd429a2a980e4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103673155"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119962428"
 ---
 # <a name="a-sample-port-of-a-display-list"></a>顯示清單的範例埠
 
@@ -92,9 +92,9 @@ glCallList(30);
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: c3dc6ae072ed6491915067bea4395a1a84369b15
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e5327bc267272942df30044678a96244d957122c9fbf7878a805bfd48433e20c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104024749"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119904520"
 ---
 # <a name="provider-systempropertiestype-element"></a>提供者 (SystemPropertiesType) 元素
 
@@ -49,11 +49,11 @@ ms.locfileid: "104024749"
 
 
 
-| 名稱            | 類型                                                | Description                                                                                                                                        |
+| 名稱            | 類型                                                | 描述                                                                                                                                        |
 |-----------------|-----------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
 | EventSourceName | 字串                                              | 如果事件來源來自舊版 [事件記錄](/windows/desktop/EventLog/event-logging) API) ，則發佈事件 (事件來源的名稱。<br/> |
 | Guid            | [**GUIDType**](eventschema-guidtype-simpletype.md) | 可唯一識別提供者的全域唯一識別碼。<br/>                                                                   |
-| Name            | anyURI                                              | 記錄事件之事件提供者的名稱。<br/>                                                                                   |
+| 名稱            | anyURI                                              | 記錄事件之事件提供者的名稱。<br/>                                                                                   |
 
 
 
@@ -63,8 +63,8 @@ ms.locfileid: "104024749"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

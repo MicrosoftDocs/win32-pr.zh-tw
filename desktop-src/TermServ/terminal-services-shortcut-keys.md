@@ -8,12 +8,12 @@ keywords:
 - 遠端桌面服務遠端桌面服務，鍵盤快速鍵
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 19bad388372aaacf836b1be83b858ff9fddd1acc
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: a673915b068092b7fb9fc4fe16142976e29e6b7442245b681a2765c539efdd64
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122467825"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119869898"
 ---
 # <a name="remote-desktop-services-shortcut-keys"></a>遠端桌面服務快速鍵
 
@@ -50,13 +50,40 @@ ms.locfileid: "122467825"
 
 
 
-
-| 快速鍵 | 描述 | 
-|--------------|-------------|
-| CTRL + ALT + 首頁<br /> | 啟用 <strong>連接</strong> 列。<br /> | 
-| CTRL + ALT + BREAK 或下列其中一個快速鍵：<br /><ul><li>CTRL + ALT + PAUSE<br /></li><li>CTRL + ALT + PRTSCN<br /></li><li>CTRL + ALT + FN + SCRLK<br /></li></ul> | 切換全螢幕模式和視窗模式的用戶端。<br /> 如果這些快速鍵無法運作，或沒有可用的金鑰，您可以嘗試下列替代方法：<br /><ul><li>按下 CTRL + ALT + HOME、TAB、tab、tab、tab、tab 鍵、ENTER。 這會啟用 <strong>連接</strong> 列，然後按下 [ <strong>還原</strong> ] 按鈕。<br /></li></ul> | 
-| CTRL+ALT+END<br /> | 在 [ <strong>Windows 安全性</strong>] 對話方塊中，遠端桌面工作階段主機 (RD 工作階段主機)  (提供的功能與在本機電腦上按 CTRL + ALT + DEL 相同。<br /> | 
-
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>快速鍵</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>CTRL + ALT + 首頁<br/></td>
+<td>啟用 <strong>連接</strong> 列。<br/></td>
+</tr>
+<tr class="even">
+<td>CTRL + ALT + BREAK 或下列其中一個快速鍵：<br/>
+<ul>
+<li>CTRL + ALT + PAUSE<br/></li>
+<li>CTRL + ALT + PRTSCN<br/></li>
+<li>CTRL + ALT + FN + SCRLK<br/></li>
+</ul></td>
+<td>切換全螢幕模式和視窗模式的用戶端。<br/> 如果這些快速鍵無法運作，或沒有可用的金鑰，您可以嘗試下列替代方法：<br/>
+<ul>
+<li>按下 CTRL + ALT + HOME、TAB、tab、tab、tab、tab 鍵、ENTER。 這會啟用 <strong>連接</strong> 列，然後按下 [ <strong>還原</strong> ] 按鈕。<br/></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td>CTRL+ALT+END<br/></td>
+<td>在 [ <strong>Windows 安全性</strong>] 對話方塊中，遠端桌面工作階段主機 (RD 工作階段主機)  (提供的功能與在本機電腦上按 CTRL + ALT + DEL 相同。<br/></td>
+</tr>
+</tbody>
+</table>
 
 
 
@@ -66,7 +93,7 @@ ms.locfileid: "122467825"
 
 
 
-| Windows 快速鍵                                         | 遠端桌面快捷方式            | Description                                                                             |
+| Windows 快速鍵                                         | 遠端桌面快捷方式            | 描述                                                                             |
 |----------------------------------------------------------|------------------------------------|-----------------------------------------------------------------------------------------|
 | ALT+TAB<br/>                                       | ALT+PAGE UP<br/>             | 從左到右切換程式。<br/>                                |
 | ALT + SHIFT + TAB<br/>                                 | ALT+PAGE DOWN<br/>           | 從右到左切換程式。<br/>                                |

@@ -4,16 +4,16 @@ description: IAgentBalloon GetEnabled
 ms.assetid: 1a5ea6c0-6150-459f-95eb-a9c7598c1d94
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cfd78245534b942e7972066ec90179172f7b556c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d144374f690d295b80d0092add56439eb4e5fc9d546ba1f970ab99976cf2d7f6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104311379"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119888389"
 ---
 # <a name="iagentballoongetenabled"></a>IAgentBalloon：： GetEnabled
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 ``` syntax
 HRESULT GetEnabled(
@@ -36,9 +36,9 @@ HRESULT GetEnabled(
 
 除非已停用，否則 Microsoft 代理程式伺服器會自動顯示語音輸出的文字提示。 您可以針對 Microsoft Agent 字元編輯器中的字元停用文字批註，或由使用者)  (Microsoft Agent 屬性工作表中的所有字元。 如果使用者停用文字提示，用戶端就無法將它還原。
 
- 
+ 
 
- 
+ 
 
 
 

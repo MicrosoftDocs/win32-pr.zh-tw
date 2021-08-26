@@ -4,12 +4,12 @@ ms.assetid: 0A83CFC0-7EAA-464B-BA39-50DF220AF683
 title: 'MF_BYTESTREAM_EFFECTIVE_URL 屬性 (Mfobjects) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b95e01238f04c30f72d55f940b3f3105863247ed
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 98f26ece6ef4b0c4b25629f6669296cec56e23a4bf28b7e284b343e16c0df512
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106981429"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119941078"
 ---
 # <a name="mf_bytestream_effective_url-attribute"></a>MF \_ BYTESTREAM \_ 有效 \_ URL 屬性
 
@@ -37,8 +37,8 @@ ms.locfileid: "106981429"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 8 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                      |
-| 最低支援的伺服器<br/> | Windows Server 2012 \[ desktop app \| UWP 應用程式\]<br/>                            |
+| 最低支援的用戶端<br/> | Windows 8 \[桌面應用程式 \| UWP 應用程式\]<br/>                                      |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[桌面應用程式 \| UWP 應用程式\]<br/>                            |
 | 標頭<br/>                   | <dl> <dt>Mfobjects。h</dt> </dl> |
 
 

@@ -4,12 +4,12 @@ ms.assetid: 4a6b7b5d-a74d-43be-b35c-54c49d742f89
 title: GraphicsPath. IsOutlineVisible 方法
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: bfc5bddb6ea4c8bd1c801820f7f2aed28d56c26b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cafc4189a07959e9be4cdc3dd36a89d58966a6bbbf185108a0f632de16049689
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104991475"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119964448"
 ---
 # <a name="graphicspathisoutlinevisible-methods"></a>GraphicsPath. IsOutlineVisible 方法
 

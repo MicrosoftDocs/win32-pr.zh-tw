@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: f02e5e1ce125a2c8495327a08c14c94ac9f48567
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: d041209dcdbd1d9a39d08acb75180ec9cf292f01934c21762418571d44a32460
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103688588"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119917538"
 ---
 # <a name="win32_sharetodirectory-class"></a>Win32 \_ ShareToDirectory 類別
 

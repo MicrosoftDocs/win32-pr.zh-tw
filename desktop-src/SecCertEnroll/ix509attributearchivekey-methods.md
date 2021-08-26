@@ -4,12 +4,12 @@ ms.assetid: 7EE3D2A6-7B67-45A2-B33C-A28CF02748D8
 title: IX509AttributeArchiveKey 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bc800420d1401d1be5e29289b3a2616f1a078e08
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a93b32e79d30dca5f935c28ad0af4423c8c91caa4942b086acd6f9e9636d1983
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194370"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119882438"
 ---
 # <a name="ix509attributearchivekey-methods"></a>IX509AttributeArchiveKey 方法
 

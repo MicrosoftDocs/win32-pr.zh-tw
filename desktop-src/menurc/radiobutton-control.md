@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 67dd559c2d61ca8b2735d393170c177a65735b4b
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 18b01d6b2313ec4b881f182fd4a4ca34cf5bbf713dca9f329173d1817132606d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104023475"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119952248"
 ---
 # <a name="radiobutton-control"></a>選項按鈕控制項
 
@@ -58,6 +58,6 @@ RADIOBUTTON "Italic", 100, 10, 10, 40, 10
 [選項按鈕](https://www.bing.com/search?q=Radio+Buttons)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

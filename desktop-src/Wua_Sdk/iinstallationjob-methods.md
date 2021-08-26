@@ -4,12 +4,12 @@ ms.assetid: 4990ef7c-b6cd-46fc-9e7d-8d1d78edc9f2
 title: IInstallationJob 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: aa0c1a5850f3d71ad1a6a51046fe890ea9bc7426
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e9c188b1d4d749e3bdd9a6f7bdcac179e3703eeb757fd0698dd3bfb67d98fac7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113536"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119994748"
 ---
 # <a name="iinstallationjob-methods"></a>IInstallationJob 方法
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - InkDiv.dll
 - InkDiv.dll.dll
-ms.openlocfilehash: 51e75b810c2103afed2e8ac8a28706b9c9af5da0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fee6fa3f9f9743f048cab4d9bee5af3fa9215ca903227acd0aa67cb68037550d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103849696"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119934708"
 ---
 # <a name="recognizercontextset-function"></a>RecognizerCoNtextSet 函式
 
@@ -55,7 +55,7 @@ HRESULT WINAPI RecognizerContextSet(
 
 
 
-| 傳回碼                                                                                  | Description                                     |
+| 傳回碼                                                                                  | 描述                                     |
 |----------------------------------------------------------------------------------------------|-------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>         | 此函數已成功。<br/>              |
 | <dl> <dt>**E \_ INVALIDARG**</dt> </dl> | *PDivider* 參數無效。<br/> |
@@ -70,7 +70,7 @@ HRESULT WINAPI RecognizerContextSet(
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 Windows XP Tablet PC Edition \[ 桌面應用程式\]<br/>                         |
+| 最低支援的用戶端<br/> | Windows僅限 XP Tablet PC Edition \[ 桌面應用程式\]<br/>                         |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                             |
 | 程式庫<br/>                  | <dl> <dt>InkDiv.dll</dt> </dl> |
 

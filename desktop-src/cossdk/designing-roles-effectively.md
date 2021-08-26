@@ -4,12 +4,12 @@ ms.assetid: 6a1e6cf3-7a8c-4249-926d-675a54061adf
 title: 有效設計角色
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c0a340cb2fc643a414ebf784a14e7b61a45bccd3
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 134b1caa68c06aef14a21963bb01ee4dfd12f43153ea917487598d76b0e36d5a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510473"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119991118"
 ---
 # <a name="designing-roles-effectively"></a>有效設計角色
 
@@ -17,13 +17,13 @@ ms.locfileid: "104510473"
 
 ## <a name="user-and-data-characteristics-and-the-suitability-of-roles"></a>使用者和資料特性以及角色的適用性
 
-角色非常適合用來排列使用者群組的特性，而且也可以篩選這些使用者可以執行的動作。 通常，這是藉由建立可反映組織內使用者位置的角色來執行，例如角色「經理」和「Tellers」、「系統管理員」和「讀者」、「專案 One 員工」和「專案兩個員工」。 在這種情況下，要存取的資料與使用者是相當的一般，您可以有效率地使用角色來強制執行商務規則，如下所示：
+角色非常適合用來排列使用者群組的特性，而且也可以篩選這些使用者可以執行的動作。 通常，這是藉由建立可反映組織內使用者位置的角色來執行，例如角色「經理」和「Tellers」、「系統管理員」和「讀者」、「Project 一個員工」和「Project 兩位員工」。 在這種情況下，要存取的資料與使用者是相當的一般，您可以有效率地使用角色來強制執行商務規則，如下所示：
 
 -   「經理可以轉移任何數量的金錢。 Tellers 最多隻能傳送 $10000。」
 
 -   「系統管理員可以變更任何變更。 其他人只能讀取。」
 
--   「Project One 員工可以存取特定的資料庫。 沒有人可以。」
+-   「Project 一個員工可以存取特定的資料庫。 沒有人可以。」
 
 使用者可以自然地分為多個角色，視角色如何建立企業組織結構的模型而定。
 

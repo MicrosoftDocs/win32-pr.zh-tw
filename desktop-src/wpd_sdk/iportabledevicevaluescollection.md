@@ -14,12 +14,12 @@ api_type:
 api_location:
 - PortableDeviceGUIDs.lib
 - PortableDeviceGUIDs.dll
-ms.openlocfilehash: cebe15dc9a4f4347eb58563e9b43240464565a4c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: cd6547a96013b2b83ce9962a62f0837dd01cacac6f3e64adc3b964754c148c5a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106993957"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119928378"
 ---
 # <a name="iportabledevicevaluescollection-interface"></a>IPortableDeviceValuesCollection 介面
 
@@ -40,7 +40,7 @@ ms.locfileid: "106993957"
 | 方法                                                       | 描述                                                                         |
 |:-------------------------------------------------------------|:------------------------------------------------------------------------------------|
 | [**添加**](iportabledevicevaluescollection-add.md)           | 將項目加入集合<br/>                                           |
-| [**清楚**](iportabledevicevaluescollection-clear.md)       | 釋放集合中的所有專案。<br/>                                  |
+| [**清除**](iportabledevicevaluescollection-clear.md)       | 釋放集合中的所有專案。<br/>                                  |
 | [**GetAt**](iportabledevicevaluescollection-getat.md)       | 以零為基底的索引，從集合中抓取專案。<br/>             |
 | [**GetCount**](iportabledevicevaluescollection-getcount.md) | 抓取集合中的專案數。<br/>                         |
 | [**RemoveAt**](iportabledevicevaluescollection-removeat.md) | 移除儲存在指定索引所指定之位置的元素。<br/> |

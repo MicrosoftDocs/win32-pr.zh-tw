@@ -8,24 +8,24 @@ keywords:
 - 物件模型、CD 翻錄
 - Windows Media Player ActiveX 控制項、CD 翻錄
 - ActiveX 控制項，CD 翻錄
-- Windows Media Player 的行動 ActiveX 控制項、CD 翻錄
-- Windows Media Player 行動電話、CD 翻錄
+- Windows Media PlayerMobile ActiveX control、CD 翻錄
+- Windows Media Player行動電話、CD 翻錄
 - CD 翻錄，關於
 - 翻錄 Cd、關於
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e28769c6af666e510fb97ebc98e44fadc7c3e472
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 0efab14a97f9cc24c4137e5d939bc9562b1fc073cd551bd83388de4ba1de0b65
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "106990886"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119903598"
 ---
 # <a name="about-cd-ripping"></a>關於 CD 翻錄
 
-Windows Media Player 11 SDK 引進了新功能，可將音訊曲目從 Cd 複製到使用者的電腦。 此進程稱為「 *翻錄*」。
+Windows Media Player 11 SDK 引進了新功能，可將音訊曲目從 cd 複製到使用者的電腦。 此進程稱為「 *翻錄*」。
 
-當您使用 Windows Media Player SDK 介面來翻錄音訊播放軌時，會使用使用者在 [Windows Media Player **選項** ] 對話方塊中定義的設定來建立所產生的音樂曲目。
+當您使用 Windows Media Player SDK 介面來翻錄音訊播放軌時，會使用使用者在 [Windows Media Player **選項**] 對話方塊中定義的設定來建立所產生的音樂曲目。
 
 若要列舉使用者電腦上的 CD 磁片磁碟機，請使用 **IWMPCdromCollection** 介面。 您可以藉由呼叫 [IWMPCore：： get \_ cdromCollection](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcore-get_cdromcollection)，來取得這個介面的指標。 藉由使用 **count** 和 **item** 方法，您可以逐一查看集合，以取得使用者電腦上每個 CD 光碟機的 **IWMPCdrom** 介面指標。 **IWMPCdrom** 介面代表個別的 CD 光碟機。 開始將 CD 翻錄之前，您必須先透過 **IWMPCdrom** 指標呼叫 **QueryInterface** ，以取得 **IWMPCdromRip** 介面的指標。
 
@@ -40,9 +40,9 @@ Windows Media Player 11 SDK 引進了新功能，可將音訊曲目從 Cd 複製
 [**關於 Player 物件模型**](about-the-player-object-model.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

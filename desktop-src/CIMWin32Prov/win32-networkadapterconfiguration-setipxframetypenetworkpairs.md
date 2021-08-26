@@ -1,5 +1,5 @@
 ---
-description: 為此網路介面卡設定網路封包交換 (IPX) 網路編號/框架配對。
+description: 為此網路介面卡設定網路封包 Exchange (IPX) 網路編號/畫面格配對。
 ms.assetid: 8190564f-7d9f-4b05-9949-2e732ce36dba
 ms.tgt_platform: multiple
 title: Win32_NetworkAdapterConfiguration 類別的 SetIPXFrameTypeNetworkPairs 方法
@@ -14,16 +14,16 @@ api_type:
 - COM
 api_location:
 - cimwin32.dll
-ms.openlocfilehash: e4d53ec7b5600a767505e517a02fbf87b5a43d13
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: f914f996e26d64ae66c0be2acf1dee3988ccc2015109c6e7d3b340b406c0c23e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111356"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119973020"
 ---
 # <a name="setipxframetypenetworkpairs-method-of-the-win32_networkadapterconfiguration-class"></a>Win32 >networkadapterconfiguration 類別的 SetIPXFrameTypeNetworkPairs 方法 \_
 
-為此網路介面卡設定網路封包交換 (IPX) 網路編號/框架配對。
+為此網路介面卡設定網路封包 Exchange (IPX) 網路編號/畫面格配對。
 
 Windows 2000 和 Windows NT 3.51 和更新版本會使用 IPX 網路編號來進行路由。 它會指派給電腦系統上每個設定的畫面格類型/網路介面卡組合。 此數位有時稱為「外部網路編號」。 對於每個網路區段而言，它必須是唯一的。 如果畫面類型設定為 [自動]，則網路編號應為零。
 
@@ -46,7 +46,7 @@ uint32 SetIPXFrameTypeNetworkPairs(
 *IPXNetworkNumber* \[在\]
 </dt> <dd>
 
-字元陣列，可唯一識別電腦系統上的介面卡。 在 Windows 2000 和 Windows NT 3.51 或更高版本中，NetWare 連結 (NWLink) IPX/SPX 相容傳輸會使用兩種不同類型的網路編號。 此數位有時稱為外部網路編號。 對於每個網路區段而言，它必須是唯一的。 此字串清單中的值必須在 IPXFrameType 參數中有對應的值，以識別用於此網路的封包框架類型。
+字元陣列，可唯一識別電腦系統上的介面卡。 NetWare 連結 (NWLink) Windows 2000 和 Windows NT 3.51 或更高版本中的 IPX/SPX 相容傳輸，會使用兩種不同類型的網路編號。 此數位有時稱為外部網路編號。 對於每個網路區段而言，它必須是唯一的。 此字串清單中的值必須在 IPXFrameType 參數中有對應的值，以識別用於此網路的封包框架類型。
 
 </dd> <dt>
 

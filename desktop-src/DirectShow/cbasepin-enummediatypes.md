@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: c68fe1ab83724149dcd2fb58a60e9c6950d887ca
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 95c79071030b2f40613138e526abd1f965d3b5aeb7b233c2c53be57b65f97da7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108099386"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119916398"
 ---
 # <a name="cbasepinenummediatypes-method"></a>CBasePin. EnumMediaTypes 方法
 
@@ -55,7 +55,7 @@ HRESULT EnumMediaTypes(
 
 
 
-| 傳回碼                                                                                   | Description                           |
+| 傳回碼                                                                                   | 描述                           |
 |-----------------------------------------------------------------------------------------------|---------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>          | 成功。<br/>                   |
 | <dl> <dt>**E \_ OUTOFMEMORY**</dt> </dl> | 記憶體不足。<br/>       |
@@ -69,7 +69,7 @@ HRESULT EnumMediaTypes(
 
 輸入 pin 不需要列舉任何慣用的類型。 輸出 pin 必須列舉至少一個慣用的類型。 否則，這兩個 pin 可能缺乏慣用的類型，因此無法進行連線。
 
-**IEnumMediaTypes** 介面的運作方式就像標準 COM 列舉值一樣。 如需詳細資訊，請參閱 [列舉篩選圖形中的物件](enumerating-objects-in-a-filter-graph.md)。 如果方法成功，則 **IEnumMediaTypes** 介面具有未處理的參考計數。 當您完成時，請務必放開。
+**IEnumMediaTypes** 介面的運作方式就像標準 COM 列舉值一樣。 如需詳細資訊，請參閱[列舉篩選 Graph 中的物件](enumerating-objects-in-a-filter-graph.md)。 如果方法成功，則 **IEnumMediaTypes** 介面具有未處理的參考計數。 當您完成時，請務必放開。
 
 [**CEnumMediaTypes**](cenummediatypes.md)基底類別會執行 **IEnumMediaTypes**。 它會呼叫釘選的 [**CBasePin：： GetMediaType**](cbasepin-getmediatype.md) 方法來列舉媒體類型。
 

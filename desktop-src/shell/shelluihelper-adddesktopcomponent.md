@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 41634a89-15b9-41c8-ba3f-4bf19b786f6f
-ms.openlocfilehash: 2edaa79bd62dcee40e4f197700d2128cb0b2070d
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: 5141b35b9fb71b09b9b269016d0b38cdb0b9f01ec88a02070a0f936934159930
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109842459"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119941498"
 ---
 # <a name="shelluihelperadddesktopcomponent-method"></a>ShellUIHelper. AddDesktopComponent 方法
 
@@ -122,9 +122,9 @@ iRetVal = ShellUIHelper.AddDesktopComponent(
 
 ## <a name="examples"></a>範例
 
-下列範例會針對內嵌于 HTML 和 Visual Basic 中的 JScript，顯示此方法的適當用法。
+下列範例會針對內嵌于 HTML 和 Visual Basic 的 JScript，顯示此方法的正確用法。
 
-Jscript：
+JScript：
 
 
 ```JScript
@@ -175,7 +175,7 @@ End Sub
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 windows 2000 Professional、Windows XP \[ desktop 應用程式\]<br/>                                         |
+| 最低支援的用戶端<br/> | Windows 2000 Professional，僅 Windows XP \[ desktop 應用程式\]<br/>                                         |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                           |
 | 標頭<br/>                   | <dl> <dt>Exdisp。h</dt> </dl>                            |
 | DLL<br/>                      | <dl> <dt>Shell32.dll (4.71 版或更新版本) </dt> </dl> |

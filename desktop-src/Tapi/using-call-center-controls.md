@@ -4,12 +4,12 @@ ms.assetid: cb7a4231-6249-4ab9-9de7-243768a18775
 title: 使用撥置中心控制項
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cdc01cac4b068c5ec17ff5794e2e7ffff46dbf95
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 04f166658cce86faa0003b762ec697286a434a06b36b18ae92a861d1f6757fa6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106997100"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119991538"
 ---
 # <a name="using-call-center-controls"></a>使用撥置中心控制項
 

@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101378
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 799f03dfe66d75a154dc2d0de27d283d8dc56acd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: de5b50ed59134a50f11ee75e49dd07e82becefd6ad96e3a973a39ecbf98a62cc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104550177"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119975148"
 ---
 # <a name="esentcontainernotemptyexception-properties"></a>EsentContainerNotEmptyException 屬性
 

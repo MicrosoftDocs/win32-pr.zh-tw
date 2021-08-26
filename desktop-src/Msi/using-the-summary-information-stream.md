@@ -4,12 +4,12 @@ ms.assetid: 2c22fe52-52a9-4e3f-9482-b5e41b91b3ae
 title: 使用摘要資訊資料流程
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: de3ece9ad336b1a88d343b859fd3881b23246c80
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0a90d6be9586ab6adc469f14fea71dc1325cb19107bd8ddc634a3d0b4463c490
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103944294"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119996038"
 ---
 # <a name="using-the-summary-information-stream"></a>使用摘要資訊資料流程
 
@@ -29,7 +29,7 @@ ms.locfileid: "103944294"
 5.  呼叫 [**MsiSummaryInfoPersist**](/windows/desktop/api/Msiquery/nf-msiquery-msisummaryinfopersist) 函數來儲存摘要資訊屬性。
 6.  呼叫 [**MsiCreateTransformSummaryInfo**](/windows/desktop/api/Msiquery/nf-msiquery-msicreatetransformsummaryinfoa) 函數，以建立現有轉換的摘要資訊。
 
-[Orca.exe](orca-exe.md) 和 [Msiinfo.exe](msiinfo-exe.md) 是可用於編輯或顯示資料庫之摘要資訊資料流程的工具。 這些工具僅適用于 [Windows Installer 開發人員的 Windows SDK 元件](platform-sdk-components-for-windows-installer-developers.md)。
+[Orca.exe](orca-exe.md) 和 [Msiinfo.exe](msiinfo-exe.md) 是可用於編輯或顯示資料庫之摘要資訊資料流程的工具。 這些工具僅適用于[Windows Installer 開發人員的 Windows SDK 元件](platform-sdk-components-for-windows-installer-developers.md)。
 
 您也可以使用 Windows Installer [Automation 介面](automation-interface.md)的下列方法和屬性來存取摘要資訊資料流程。
 

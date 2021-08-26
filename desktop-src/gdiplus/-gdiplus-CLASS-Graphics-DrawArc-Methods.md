@@ -4,12 +4,12 @@ ms.assetid: b30757ea-b8b8-45bd-a716-a4c8c9c5f1ec
 title: 'DrawArc 方法 (Gdiplusgraphics .h) '
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: a6d6448530dd9462cf8266c3b268672af00f8dcb
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2504fd1ec46758589e420317cd5d5e9926e9775f2d3bb1dd3d1fed62af5ef6fe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "104992531"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119964788"
 ---
 # <a name="graphicsdrawarc-methods"></a>DrawArc 方法
 

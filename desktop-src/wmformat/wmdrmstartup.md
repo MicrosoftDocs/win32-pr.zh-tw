@@ -1,6 +1,6 @@
 ---
 title: 'WMDRMStartup 函式 (Wmdrmsdk) '
-description: WMDRMStartup 函式會初始化 Windows Media DRM 用戶端擴充 Api 所使用的資源。
+description: WMDRMStartup 函式會初始化 Windows 媒體 DRM 用戶端擴充 api 所使用的資源。
 ms.assetid: 2fd26bcc-8106-4356-933a-d4cf3536f4fb
 keywords:
 - WMDRMStartup 函式 windows Media 格式
@@ -14,16 +14,16 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c152a5160750f3c1943b455a8877b4615781b6ca
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8c194a8c060ad1626fde796510c25c83e3e163dafffe9c17df17a7dcec890be3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106993212"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119928739"
 ---
 # <a name="wmdrmstartup-function"></a>WMDRMStartup 函式
 
-**WMDRMStartup** 函式會初始化 WINDOWS Media DRM 用戶端擴充 api 所使用的資源。
+**WMDRMStartup** 函式會初始化 Windows 媒體 DRM 用戶端擴充 api 所使用的資源。
 
 ## <a name="syntax"></a>語法
 
@@ -44,7 +44,7 @@ HRESULT STDMETHODCALLTYPE WMDRMStartup(void);
 
 
 
-| 傳回碼                                                                          | Description                      |
+| 傳回碼                                                                          | 描述                      |
 |--------------------------------------------------------------------------------------|----------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl> | 此方法已成功。<br/> |
 

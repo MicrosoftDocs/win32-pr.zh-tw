@@ -4,12 +4,12 @@ ms.assetid: b07da922-beac-4291-82a7-afb92dac5ddd
 title: IDownloadCompletedCallback 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b84f8b3e20a69c40cc4a54d0651f03851cbbed46
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 46f8f2e03261ab0374edba8332901c7476eff793a1fc5701af2cde3823a37c9d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848135"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119994788"
 ---
 # <a name="idownloadcompletedcallback-methods"></a>IDownloadCompletedCallback 方法
 

@@ -4,12 +4,12 @@ ms.assetid: f145fb80-c136-421c-9a65-e69c52109348
 title: 'MF_AUDIO_RENDERER_ATTRIBUTE_ENDPOINT_ID 屬性 (Mfidl) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e042f59baf4812c177358acca6badb2422914afc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a1dd99a42442342e25c748e12f8af84a03f2322b8c3dd24bb915b50b57952d65
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318815"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119941128"
 ---
 # <a name="mf_audio_renderer_attribute_endpoint_id-attribute"></a>MF \_ 音訊轉譯器 \_ \_ 屬性 \_ 端點 \_ 識別碼屬性
 
@@ -43,8 +43,8 @@ ms.locfileid: "104318815"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                     |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                               |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                     |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                               |
 | 標頭<br/>                   | <dl> <dt>Mfidl。h</dt> </dl> |
 
 
