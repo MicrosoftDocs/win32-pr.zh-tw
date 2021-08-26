@@ -4,12 +4,12 @@ ms.assetid: 3145629f-cc0a-4216-8549-76bb61070772
 title: 撰寫大型封裝
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aca09c427336e4ca8a17fd8ebdf803f52ebe6c26
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4d55f7933fe600bd6c0db0705328f18d7eae2f55e3463e3ea03be8118229eca6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106992447"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119996878"
 ---
 # <a name="authoring-a-large-package"></a>撰寫大型封裝
 

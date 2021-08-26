@@ -4,12 +4,12 @@ description: 紋理的區塊壓縮 (BC) 支援在 Direct3D 11 中已進行擴充
 ms.assetid: E0735D4E-9C0F-45DC-854A-C27EB8367D86
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f80a22c97c8a706a3825abfb4ac2b5133c1a9beb
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: b52c2c764c0f9dca4021dcb14187db67e697cd7155701294a9c6214b4543d00b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104092775"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120027798"
 ---
 # <a name="texture-block-compression-in-direct3d-11"></a>Direct3D 11 中的材質區塊壓縮
 

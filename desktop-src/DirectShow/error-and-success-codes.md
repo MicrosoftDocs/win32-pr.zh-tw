@@ -1,27 +1,27 @@
 ---
-description: 本主題列出針對 DirectShow 定義的 HRESULT 傳回碼。
+description: 本主題列出針對 DirectShow 所定義的 HRESULT 傳回碼。
 ms.assetid: 369c2bd1-9c11-4524-b999-6a3b73c45261
-title: 'DirectShow 錯誤和成功碼 (Vfwmsgs .h) '
+title: 'DirectShow錯誤和成功碼 (Vfwmsgs .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4f83b515161221ebc11d5b14276b1fe3259624e6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a60f3f128f2bf9e6b86c260315d8d7b1659d5095428d7afd4e3d4528d44af5b2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106987133"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119905648"
 ---
-# <a name="directshow-error-and-success-codes"></a>DirectShow 錯誤和成功碼
+# <a name="directshow-error-and-success-codes"></a>DirectShow錯誤和成功碼
 
-本主題列出針對 DirectShow 定義的 **HRESULT** 傳回碼。 請注意，DirectShow Api 可能會傳回此處未顯示的其他 **HRESULT** 值。 如需其他 **HRESULT** 值，請參閱 [COM 錯誤碼](/windows/desktop/com/com-error-codes)。
+本主題列出針對 DirectShow 所定義的 **HRESULT** 傳回碼。 請注意，DirectShow api 可能會傳回此處未顯示的其他 **HRESULT** 值。 如需其他 **HRESULT** 值，請參閱 [COM 錯誤碼](/windows/desktop/com/com-error-codes)。
 
-下表包含 DirectShow 特定的錯誤和成功碼（依數位順序）。 開頭為 VFW S 的傳回碼 \_ \_ 表示成功。 作業可能部分成功，且仍具有成功的傳回值。 例如，已 **\_ \_ \_ 忽略某些資料 \_ 的 VFW** ，表示檔案是藉由略過部分屬性設定來呈現。 以 VFW E 開頭的傳回碼 \_ \_ 表示錯誤。
+下表包含以數位順序 DirectShow 特定的錯誤和成功碼。 開頭為 VFW S 的傳回碼 \_ \_ 表示成功。 作業可能部分成功，且仍具有成功的傳回值。 例如，已 **\_ \_ \_ 忽略某些資料 \_ 的 VFW** ，表示檔案是藉由略過部分屬性設定來呈現。 以 VFW E 開頭的傳回碼 \_ \_ 表示錯誤。
 
 這些值會定義在標頭檔 Vfwmsgs 中。
 
 
 
-| 常數/值                                                                                                                                                                                                                                                                                                                    | Description                                                                                                                                                                                                                                                            |
+| 常數/值                                                                                                                                                                                                                                                                                                                    | 描述                                                                                                                                                                                                                                                            |
 |:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="VFW_S_NO_MORE_ITEMS"></span><span id="vfw_s_no_more_items"></span><dl> <dt>**VFW \_\_沒有 \_ 其他 \_ 專案**</dt> <dt>0x00040103</dt> </dl>                                                                                | 已到達清單結尾;清單中沒有其他專案。  (篩選開發人員： [**CBasePin：： GetMediaType**](cbasepin-getmediatype.md) 方法預期會傳回這個值。 ) <br/>                                                                           |
 | <span id="VFW_S_DUPLICATE_NAME"></span><span id="vfw_s_duplicate_name"></span><dl> <dt>**VFW \_S \_ 重複的 \_ 名稱**</dt> <dt>0x0004022D</dt> </dl>                                                                              | 嘗試以修改過的名稱加入具有重複名稱的篩選。<br/>                                                                                                                                                                            |
@@ -179,11 +179,11 @@ ms.locfileid: "106987133"
 
 
 
-除了先前所列的值之外，DirectShow 編輯服務也會定義下列 **HRESULT** 值。
+除了先前所列的值，DirectShow 編輯服務會定義下列 **HRESULT** 值。
 
 
 
-| 常數/值                                                                                                                                                                                                                                                       | Description                                                                                 |
+| 常數/值                                                                                                                                                                                                                                                       | 描述                                                                                 |
 |:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------|
 | <span id="S_WARN_OUTPUTRESET"></span><span id="s_warn_outputreset"></span><dl> <dt>**S \_警告 \_ OUTPUTRESET**</dt> <dt>0x00009DD4</dt> </dl>                        | 已刪除圖形的轉譯部分。 應用程式必須重建。<br/> |
 | <span id="E_NOTINTREE"></span><span id="e_notintree"></span><dl> <dt>**E \_NOTINTREE**</dt> <dt>0x80040400</dt> </dl>                                              | 此物件不包含在時間軸中。<br/>                                     |

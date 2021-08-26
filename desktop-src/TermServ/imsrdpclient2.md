@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d58367abeccb324fd20603b879e54673439c6049
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: aa5dfc7f4940ee9023c505b8a643b9a8c708701422a0a89c16f8ebe6bae8577e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104317159"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120033578"
 ---
 # <a name="imsrdpclient2-interface"></a>IMsRdpClient2 介面
 
@@ -39,7 +39,7 @@ ms.locfileid: "104317159"
 
 
 
-| 屬性                                                                    | 存取類型           | Description                                                                                                                                                       |
+| 屬性                                                                    | 存取類型           | 描述                                                                                                                                                       |
 |:----------------------------------------------------------------------------|:----------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**AdvancedSettings3**](imsrdpclient2-advancedsettings3.md)<br/>     | 唯讀<br/>  | [**IMsRdpClientAdvancedSettings2**](imsrdpclientadvancedsettings2.md)介面的指標，用來設定用戶端控制項的 advanced 設定。<br/> |
 | [**ConnectedStatusText**](imsrdpclient2-connectedstatustext.md)<br/> | 讀取/寫入<br/> | 控制項處於連接狀態時，在控制項的工作區中顯示的文字。<br/>                                                  |

@@ -3,7 +3,7 @@ title: 串流設定物件
 description: 串流設定物件
 ms.assetid: 228e334c-9d9b-4604-a225-73af7af3255f
 keywords:
-- Windows Media 格式 SDK、串流設定物件
+- Windows媒體格式 SDK，串流設定物件
 - Advanced Systems Format (ASF) ，stream configuration 物件
 - ASF (Advanced Systems Format) ，stream configuration objects
 - 物件，資料流程設定物件
@@ -11,12 +11,12 @@ keywords:
 - 串流，串流設定物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e16a6c2221952e6102b76c49fee660888c9dcbc
-ms.sourcegitcommit: ad672d3a10192c5ccac619ad2524407109266e93
+ms.openlocfilehash: 73e71be6149df3f2da0edba31d9c5803d86a6fd89189e1fc339cf99593336415
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2020
-ms.locfileid: "104092585"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119929378"
 ---
 # <a name="stream-configuration-object"></a>串流設定物件
 
@@ -34,7 +34,7 @@ ms.locfileid: "104092585"
 
 
 
- 
+ 
 
 上表中的所有方法都會設定 **IWMStreamConfig** 介面的指標。 您可以藉由呼叫 **QueryInterface** 方法來取得資料流程設定物件的其他介面。
 
@@ -53,7 +53,7 @@ Stream configuration 物件支援下列介面。
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -68,9 +68,9 @@ Stream configuration 物件支援下列介面。
 [**設定檔管理員物件**](profile-manager-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 0f3d0289-dc3b-4e0e-95f3-0fecd3b7eb88
 title: InkPicture 列舉
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ebdfe805b05148283741093b2232fdea928fbae5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 491e3f5397b05f633edb83446694f4fb87b44b7433bb6997dd99fc748e81627e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194415"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119939038"
 ---
 # <a name="inkpicture-enumerations"></a>InkPicture 列舉
 

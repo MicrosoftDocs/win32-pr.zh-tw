@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f6501dd5dda8e60b8ba1a5f2667f6b581cbdfd90
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 86ad0cc720c49926ddbd75fe71d47738a9e8af43fa97670a0b9915a50716ed0b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995448"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119902628"
 ---
 # <a name="axwindowsmediaplayermediacollection-property"></a>AxWindowsMediaPlayer. mediaCollection 屬性
 

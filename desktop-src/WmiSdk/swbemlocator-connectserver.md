@@ -16,18 +16,18 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 31c2e6de8cf1504543727cad056a3616a51182d6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f4153a5761d59c54cf8635202adcca0ddf72603022ebf8dbb5b160231c90e49e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106987790"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119955208"
 ---
 # <a name="swbemlocatorconnectserver-method"></a>Wbemscripting.swbemlocator. ConnectServer 方法
 
 [**Wbemscripting.swbemlocator**](swbemlocator.md)物件的 **ConnectServer** 方法會連接到 *strServer* 參數中指定之電腦上的命名空間。 目的電腦可以是本機或遠端，但必須安裝 WMI。 如需範例以及與連接的 [標記類型] 的比較，請參閱 [建立 WMI 腳本](creating-a-wmi-script.md)。
 
-從 Windows Vista 開始， **wbemscripting.swbemlocator** 可以使用 *strServer* 參數中的 ipv6 位址，連線到執行 ipv6 的電腦。 如需詳細資訊，請參閱 [WMI 中的 IPv6 和 IPv4 支援](ipv6-and-ipv4-support-in-wmi.md)。
+從 Windows Vista 開始， **wbemscripting.swbemlocator. ConnectServer** 可以使用 *strServer* 參數中的 ipv6 位址，連線到執行 ipv6 的電腦。 如需詳細資訊，請參閱 [WMI 中的 IPv6 和 IPv4 支援](ipv6-and-ipv4-support-in-wmi.md)。
 
 如需此語法的說明，請參閱 [腳本 API 的檔慣例](document-conventions-for-the-scripting-api.md)。
 
@@ -302,8 +302,8 @@ $WbemClasses
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows Vista<br/>                                                                |
 | 最低支援的伺服器<br/> | Windows Server 2008<br/>                                                          |
-| 標頭<br/>                   | <dl> <dt>>wbemdisp.tlb。h</dt> </dl>   |
-| 類型程式庫<br/>             | <dl> <dt>>wbemdisp.tlb .tlb</dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>>Wbemdisp.tlb。h</dt> </dl>   |
+| 類型程式庫<br/>             | <dl> <dt>>Wbemdisp.tlb .tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
 | CLSID<br/>                    | CLSID \_ wbemscripting.swbemlocator<br/>                                                          |
 | IID<br/>                      | IID \_ ISWbemLocator<br/>                                                           |

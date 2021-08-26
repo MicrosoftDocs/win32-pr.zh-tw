@@ -4,12 +4,12 @@ description: 建立視窗
 ms.assetid: e036519f-26b5-436c-b909-bb280d758e81
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eea5ec39187b389405d3c6d8eca475944278a3d5
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 253eb68747ce7511c11aeeba27343d7dd56c7d0a6f78f316d72aab83d11ddd92
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108103966"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119870028"
 ---
 # <a name="creating-a-window"></a>建立視窗
 
@@ -36,7 +36,7 @@ wc.lpszClassName = CLASS_NAME;
 - **hInstance** 是應用程式實例的控制碼。 從 **wWinMain** 的 *hInstance* 參數取得此值。
 - **lpszClassName** 是可識別視窗類別的字串。
 
-類別名稱是目前進程的本機名稱，因此名稱只需要在進程內是唯一的。 不過，標準的 Windows 控制項也有類別。 如果您使用這些控制項中的任一個，則必須挑選與控制項類別名稱不衝突的類別名稱。 例如，按鈕控制項的視窗類別會命名為 "Button"。
+類別名稱是目前進程的本機名稱，因此名稱只需要在進程內是唯一的。 但是，標準 Windows 控制項也有類別。 如果您使用這些控制項中的任一個，則必須挑選與控制項類別名稱不衝突的類別名稱。 例如，按鈕控制項的視窗類別會命名為 "Button"。
 
 [**WNDCLASS**](/windows/win32/api/winuser/ns-winuser-wndclassa)結構具有此處未顯示的其他成員。 您可以將它們設定為零（如本範例所示），或將其填入。 MSDN 檔會詳細說明此結構。
 

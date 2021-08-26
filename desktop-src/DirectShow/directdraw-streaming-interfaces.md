@@ -4,17 +4,17 @@ ms.assetid: 8f91d90d-0b9f-4d04-bc10-4b82c1b0e062
 title: DirectDraw 串流介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1bc922bfed03fd2fac3581168bda35f072871a52
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 11e7eec0ec7ad82c0046b8c052ff00093b496c05495ec38590d201724d7620e6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104025705"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119983048"
 ---
 # <a name="directdraw-streaming-interfaces"></a>DirectDraw 串流介面
 
 > [!Note]  
-> 這些 Api 已被取代。 應用程式應該使用 [**範例捕獲**](sample-grabber-filter.md) 篩選器或執行自訂篩選，以從 DirectShow 篩選圖形取得資料。
+> 這些 Api 已被取代。 應用程式應該使用 [**範例捕獲**](sample-grabber-filter.md)篩選器或執行自訂篩選，以從 DirectShow 的篩選圖形取得資料。
 
  
 

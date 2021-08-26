@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 9c74d56eaa0e41bc6ce9060ff291885a8a5c05a5
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 6aaa14bbd2f82be7ac87857c05a863b6459440dcfdd383d2144fe1b4426019ec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104322891"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119986518"
 ---
 # <a name="d3dxmatrixtranslation-function-d3dx9mathh"></a>D3DXMatrixTranslation 函式 (D3dx9math) 
 

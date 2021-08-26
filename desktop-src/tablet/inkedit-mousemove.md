@@ -4,12 +4,12 @@ ms.assetid: 6ccaf2eb-acec-4dfd-9ec7-c78aca043900
 title: 'InkEdit： MouseMove 事件 (筆跡 .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2a0d3e98827a1f0ebcdc80f5d44765ebe768f65e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 601bcaa4c5bc3379c207302c28e5eb17d44b2b184ce42452d5b78b6079d88ead
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106989476"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119939108"
 ---
 # <a name="inkeditmousemove-event"></a>InkEdit MouseMove 事件
 
@@ -106,7 +106,7 @@ HRESULT MouseMove(
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 Windows XP Tablet PC Edition \[ 桌面應用程式\]<br/>                                                 |
+| 最低支援的用戶端<br/> | Windows僅限 XP Tablet PC Edition \[ 桌面應用程式\]<br/>                                                 |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                                     |
 | 標頭<br/>                   | <dl> <dt>筆跡 (也需要筆跡 \_ c) </dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>InkEd.dll</dt> </dl>                          |

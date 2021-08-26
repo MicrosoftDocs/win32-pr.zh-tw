@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 66c1f763c4771a8406acd2f3401445d1a29cde79
-ms.sourcegitcommit: 7e4322a6ec1f964d5ad26e2e5e06cc8ce840030e
+ms.openlocfilehash: 9c2d1851025cb051a21a997f5e3a4987d3b6309e148248b3ea55c6b9ca6ad31c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "113129715"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119950478"
 ---
 # <a name="common-shader-core"></a>Common-Shader 核心
 
@@ -62,7 +62,7 @@ Direct3D 10 HLSL 中的 **int** 和 **uint** 資料類型會對應到硬體中�
 
 
 
-| 運算子  | 函式          |
+| 運算子  | 函數          |
 |-----------|-------------------|
 | ~         | 邏輯 Not       |
 | <<  | 左移        |

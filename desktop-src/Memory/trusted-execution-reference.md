@@ -4,12 +4,12 @@ ms.assetid: 7AD4D05D-922F-4611-9709-CDB9872B433E
 title: 信任的執行參考
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 76b165510337c792481c49021b17e5a0e869308d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2d200e5815d8ccebe74fe48ce1fb497697f09679e9ceeda6b696a330a743c578
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847943"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120040248"
 ---
 # <a name="trusted-execution-reference"></a>信任的執行參考
 

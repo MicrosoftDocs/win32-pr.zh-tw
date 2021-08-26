@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 68a6b51d980b6ca0a3c223f414571a42b2e3ae3f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5cfd55b2950f6d4268a9af5ee5bdc7fc9c378c4dbaeaa569406339263a2cf85e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464225"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120039108"
 ---
 # <a name="mci_ovly_rect_parms-structure"></a>MCI \_ OVLY \_ RECT \_ PARMS 結構
 
@@ -51,7 +51,7 @@ typedef struct {
 **鋼筋混凝土**
 </dt> <dd>
 
-包含位置資訊的矩形。 在 MCI 中，[矩形](/previous-versions//ms536136(v=vs.85))結構的處理方式不同于 Windows 的其他部分;在 MCI 中， **.rc** 會包含矩形和 rc 的寬度 **。下方** 包含其高度。
+包含位置資訊的矩形。 除了 Windows 的其他部分，以不同的方式處理在 MCI 中的 [矩形](/previous-versions//ms536136(v=vs.85))結構。在 MCI 中， **.rc** 會包含矩形和 rc 的寬度 **。下方** 包含其高度。
 
 </dd> </dl>
 
@@ -75,7 +75,7 @@ typedef struct {
 
 <dl> <dt>
 
-[**Mci**](mci.md)
+[**MCI**](mci.md)
 </dt> <dt>
 
 [**MCI 結構**](mci-structures.md)

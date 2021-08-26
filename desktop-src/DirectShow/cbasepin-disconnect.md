@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: bda01d02db2a93a90c63f206b723a55df2373418
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 0048624b79daa6948851fd9a56142b97c7e185caa9bbcbdeb6c2c1b19f591eb1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108096006"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119916628"
 ---
 # <a name="cbasepindisconnect-method"></a>CBasePin 中斷方法
 
@@ -46,7 +46,7 @@ HRESULT Disconnect();
 
 
 
-| 傳回碼                                                                                         | Description                                                                        |
+| 傳回碼                                                                                         | 描述                                                                        |
 |-----------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
 | <dl> <dt>**S \_ FALSE**</dt> </dl>             | Pin 未連接。<br/>                                              |
 | <dl> <dt>**S \_ 確定**</dt> </dl>                | 成功。<br/>                                                                |

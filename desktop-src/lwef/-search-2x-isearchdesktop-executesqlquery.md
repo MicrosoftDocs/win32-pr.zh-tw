@@ -15,17 +15,17 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: f0b13ff361d07f99efe1366e2201d610eac10523
-ms.sourcegitcommit: b9a94cea8f83153214af4c09509e1cc61a1bb616
+ms.openlocfilehash: ec436a427958988e7605673b12b3fd8dc6fd3e1a54ab61cc5f542f0494c34923
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "103681535"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120014288"
 ---
 # <a name="isearchdesktopexecutesqlquery-method"></a>ISearchDesktop：： ExecuteSQLQuery 方法
 
 > [!NOTE]
-> Windows Desktop Search 2.x 是一種淘汰的技術，最初是以 Windows XP 和 Windows Server 2003 的增益集形式提供。 在更新版本中，請改用 [WINDOWS SEARCH API](../search/-search-reference-entry-page.md) 。 
+> WindowsDesktop Search 2.x 是一種淘汰的技術，最初是以 Windows XP 和 Windows Server 2003 的增益集的形式提供。 在更新版本中，請改用[Windows Search API](../search/-search-reference-entry-page.md) 。 
 
 取得包含結構化查詢語言 (SQL)  (SQL) 查詢及其屬性的字串指標，並將指標傳回給傳回集。
 
@@ -34,9 +34,9 @@ ms.locfileid: "103681535"
 
 ```C++
 HRESULT ExecuteSQLQuery(
-  [in]  LPCWSTR *pdwAttributes,
-  [in]  LPCWSTR pwszURL,
-  [out] ppidUrl *ppidUrl
+  [in]  LPCWSTR *pdwAttributes,
+  [in]  LPCWSTR pwszURL,
+  [out] ppidUrl *ppidUrl
 );
 ```
 
@@ -79,9 +79,9 @@ HRESULT ExecuteSQLQuery(
 
 如果這個方法成功，它會傳回 **S \_ OK**。 否則，它會傳回 **HRESULT** 錯誤碼。
 
- 
+ 
 
- 
+ 
 
 
 

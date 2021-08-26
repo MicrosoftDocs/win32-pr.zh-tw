@@ -4,17 +4,17 @@ ms.assetid: 67b0ec96-adcb-4d0b-9f8c-38ce67c71cd3
 title: 'RegionChange 方法 (區段 .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 349f194d8863545828d3f71e938c302d8b0510cb
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 93e5aa7a1318b3b8abef35193f19983a75814046dbadfbb96b7c70b8d10e51d4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106984830"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119904598"
 ---
 # <a name="regionchange-method"></a>RegionChange 方法
 
 > [!Note]  
-> 此元件可用於 Microsoft Windows 2000、Windows XP 及 Windows Server 2003 作業系統。 它在後續版本中可能會變更或無法使用。
+> 此元件可在 Microsoft Windows 2000、Windows XP 和 Windows Server 2003 作業系統中使用。 它在後續版本中可能會變更或無法使用。
 
  
 

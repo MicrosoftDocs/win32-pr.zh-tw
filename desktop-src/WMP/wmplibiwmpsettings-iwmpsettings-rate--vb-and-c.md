@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f502bebdbd22523858637f8abccbe203db104cbe
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: cc053861b9061df676455e10b011cd0ffe0fe9f06052b129ec163e00d4c8d71f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106978636"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119999698"
 ---
 # <a name="iwmpsettingsrate-property"></a>IWMPSettings：： rate 屬性
 
@@ -65,7 +65,7 @@ Windows Media Player 選擇的模式取決於許多因素，包括檔案類型�
 
 其他考慮也適用，視用來建立內容的數位媒體格式而定：
 
--   **Windows Media 視訊 (WMV) 和 ASF。** **速率** 屬性的最佳值是從1到10，或從1到10以進行反向播放。 從0.5 到1.0 或從-0.5 到-1.0 的值可能也適用于可以維持音訊音調的情況，例如播放位於本機電腦上的檔案時。 允許絕對值大於10的值，但沒有什麼意義。
+-   **Windows媒體影片 (WMV) 和 ASF。** **速率** 屬性的最佳值是從1到10，或從1到10以進行反向播放。 從0.5 到1.0 或從-0.5 到-1.0 的值可能也適用于可以維持音訊音調的情況，例如播放位於本機電腦上的檔案時。 允許絕對值大於10的值，但沒有什麼意義。
 -   **其他影片格式。** **Rate** 屬性的範圍可以從0到9。 不允許負數值。 小於1的值表示緩慢的移動。 允許超過9個值，但沒有什麼意義。
 
 **IWMPControls. fastForward** 方法會將 **速率** 的值變更為5.0，而 **IWMPControls. fastReverse** 方法會將 **速率** 的值變更為5.0。
@@ -144,7 +144,7 @@ End Sub
 [**IWMPSettings. isAvailable (VB 和 c # )**](iwmpsettings-isavailable--vb-and-c.md)
 </dt> <dt>
 
-[**IWMPSettings (VB 和 c # ) 靜音**](wmplibiwmpsettings-iwmpsettings-mute--vb-and-c.md)
+[**IWMPSettings (VB 和 c # ) 的靜音**](wmplibiwmpsettings-iwmpsettings-mute--vb-and-c.md)
 </dt> </dl>
 
  

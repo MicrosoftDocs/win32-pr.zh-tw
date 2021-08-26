@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101727
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 3784521d906de74cb8ecf67553f9a2a4f0e0e094
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2e9d618c115ed572770b534953e4d980e202663e8b9c039bf7c21661e28d4b3f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104560888"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119973478"
 ---
 # <a name="esentforcedetachnotallowedexception-methods"></a>EsentForceDetachNotAllowedException 方法
 

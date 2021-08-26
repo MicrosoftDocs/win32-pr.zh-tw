@@ -4,12 +4,12 @@ ms.assetid: 816a5845-ca03-46c6-bdda-e6a7d02ff614
 title: 使用區域裁剪
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aa19426d62d5d3af99150bf9ac8e8099628fe2f8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ae2569350dd0d25066c42fc8ee102cad76e8e77c425bd075122da2179dd3249c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104551548"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119943898"
 ---
 # <a name="clipping-with-a-region"></a>使用區域裁剪
 

@@ -4,18 +4,18 @@ ms.assetid: 3115c9e0-05c9-462d-8238-fc035ea32d4e
 title: GDI 列印 API
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0239282543a68c6fe8b5d6503d085582fd9c20db
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1fc2a872b3a310ea44ddfc84103ddbd11cff61998d4884dca5f490e88c3d73f3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192718"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119949191"
 ---
 # <a name="gdi-print-api"></a>GDI 列印 API
 
 GDI 列印 API 會提供應用程式與裝置無關的列印介面。 如果應用程式使用 GDI 來呈現文字和圖形，請使用此介面。
 
-如果您撰寫適用于 Windows Vista 或更新版本 Windows 的應用程式，請考慮使用「 [Xps 檔 api](/previous-versions/windows/desktop/dd316976(v=vs.85)) 」和「 [xps 列印 api](xps-printing.md) 」來使用 XPSDrv 列印驅動程式所支援的較高效能圖形介面。
+如果您為 Windows 撰寫 Windows Vista 或更新版本的應用程式，請考慮使用[xps 檔 api](/previous-versions/windows/desktop/dd316976(v=vs.85))和[xps 列印 api](xps-printing.md)來使用 XPSDrv 列印驅動程式所支援的較高效能圖形介面。
 
 本節提供下列主題的相關資訊。
 

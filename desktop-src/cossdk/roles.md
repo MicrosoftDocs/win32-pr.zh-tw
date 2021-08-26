@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: f676a53f5fe54e42ca2a489ad834b9c91e4e0ef5
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 133477d82f718b992a628bde8af58f22d8d50a9e4974816c7c8f56be7ba8e33f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191006"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120029468"
 ---
 # <a name="roles-collection"></a>角色集合
 
@@ -49,7 +49,7 @@ ms.locfileid: "104191006"
 -   [描述](#description)
 -   [Name](#name)
 
-### <a name="description"></a>Description
+### <a name="description"></a>描述
 
 
 
@@ -65,7 +65,7 @@ ms.locfileid: "104191006"
 
  
 
-### <a name="name"></a>Name
+### <a name="name"></a>名稱
 
 
 

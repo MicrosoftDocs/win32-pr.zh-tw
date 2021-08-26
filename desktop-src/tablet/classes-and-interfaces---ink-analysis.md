@@ -4,12 +4,12 @@ ms.assetid: 712908e1-2d1d-4e42-8c80-71354b03d318
 title: 筆墨分析類別和介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 95d1c157a08a4b7366c20a712c120265320ab4f9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 48335b0e7bf6e29ee90cf1dbf8fb3e96fd761c4b8c0194daaa9d7365fe89d5c0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510907"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119937018"
 ---
 # <a name="ink-analysis-classes-and-interfaces"></a>筆墨分析類別和介面
 
@@ -59,7 +59,7 @@ Tablet PC COM 程式庫中的方法會傳回 **HRESULT** 值。 除非另有說�
 
 
 
-| HRESULT 值                                   | Description                                                                              |
+| HRESULT 值                                   | 描述                                                                              |
 |-------------------------------------------------|------------------------------------------------------------------------------------------|
 | S \_ 確定<br/>                                | 成功。<br/>                                                                      |
 | E \_ 指標<br/>                           | 輸入或輸出參數的至少一個指標 () 無效。<br/> |

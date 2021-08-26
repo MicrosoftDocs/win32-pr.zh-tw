@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 823dd4c07704188a2af31f89384153cc17a8c5c2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 92a1b9a1101493232ebdc600396badb150c3fa86396c580dcd8142166ed4f7c8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103849186"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119937008"
 ---
 # <a name="icons-and-icon-overlays"></a>圖示和圖示重迭
 

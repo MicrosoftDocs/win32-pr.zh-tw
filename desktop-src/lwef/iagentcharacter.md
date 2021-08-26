@@ -4,16 +4,16 @@ description: IAgentCharacter
 ms.assetid: 77d0ffc2-76a2-4a21-88e1-1ca85b8c5d2f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6f0a56272ba095f244e48e335049ec5b88b64855
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3d7144c6d3379a2237d3f14c955d8052ff4d20d1ff98d9c2f2637796f8b931b6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106965386"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119962088"
 ---
 # <a name="iagentcharacter"></a>IAgentCharacter
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 **IAgentCharacter** 定義了一個介面，可讓應用程式查詢字元屬性並播放動畫。 這些函數也可從 [**IAgentCharacterEx**](iagentcharacterex.md)取得。 您可以使用某些方法傳回要求識別碼，在字元的佇列中追蹤其狀態，並將您的程式碼與該字元的目前動畫狀態進行同步處理。
 
@@ -21,7 +21,7 @@ ms.locfileid: "106965386"
 
 
 
-| IAgentCharacter 方法                                           | Description                                                                       |
+| IAgentCharacter 方法                                           | 描述                                                                       |
 |-------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [**GetVisible**](iagentcharacter--getvisible.md)                 | 傳回 (框架) 的字元是否目前為可見。                       |
 | [**SetPosition**](iagentcharacter--setposition.md)               | 設定字元框架的位置。                                         |
@@ -32,7 +32,7 @@ ms.locfileid: "106965386"
 | [**GetDescription**](iagentcharacter--getdescription.md)         | 傳回字元的描述。                                        |
 | [**GetTTSSpeed**](iagentcharacter--getttsspeed.md)               | 傳回字元目前的 TTS 輸出速度設定。                   |
 | [**GetTTSPitch**](iagentcharacter--getttspitch.md)               | 傳回字元目前的 TTS 音調設定。                          |
-| [**啟動**](iagentcharacter--activate.md)                     | 設定用戶端是否為使用中或字元是否最上層。                        |
+| [**啟用**](iagentcharacter--activate.md)                     | 設定用戶端是否為使用中或字元是否最上層。                        |
 | [**SetIdleOn**](iagentcharacter--setidleon.md)                   | 設定伺服器的閒置處理。                                                |
 | [**GetIdleOn**](iagentcharacter--getidleon.md)                   | 傳回伺服器閒置處理的設定。                              |
 | [**準備**](iagentcharacter--prepare.md)                       | 抓取字元的動畫資料。                                       |
@@ -57,11 +57,11 @@ ms.locfileid: "106965386"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

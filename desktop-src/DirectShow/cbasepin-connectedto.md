@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 5003154011f93b2b70ddd49dab00dcc1659eb2f5
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2a37eafe9abf226be20cf5d573abc91bc52ee070e7667dbab3a8799f74022c92
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990626"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119916758"
 ---
 # <a name="cbasepinconnectedto-method"></a>CBasePin. ConnectedTo 方法
 
@@ -55,7 +55,7 @@ HRESULT ConnectedTo(
 
 
 
-| 傳回碼                                                                                           | Description                           |
+| 傳回碼                                                                                           | 描述                           |
 |-------------------------------------------------------------------------------------------------------|---------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>                  | 成功。<br/>                   |
 | <dl> <dt>**E \_ 指標**</dt> </dl>             | **Null** 指標引數。<br/> |

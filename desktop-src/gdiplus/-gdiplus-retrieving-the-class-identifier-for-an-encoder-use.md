@@ -4,16 +4,16 @@ ms.assetid: f78dac7c-4bc1-4614-8a26-d99d5619399a
 title: 正在抓取編碼器的類別識別碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a03193bfa9f2e86e92f66a649280828f12d4807c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9a40c31c7ad997ed3e7525ff247019f6a41c681b9523dc523105bd5ba6c7ca6d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972845"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120014708"
 ---
 # <a name="retrieving-the-class-identifier-for-an-encoder"></a>正在抓取編碼器的類別識別碼
 
-下列範例中 GetEncoderClsid 的函式會接收編碼器的 MIME 類型，並傳回該編碼器 (**CLSID**) 的類別識別碼。 Windows GDI + 內建的編碼器 MIME 類型如下所示：
+下列範例中 GetEncoderClsid 的函式會接收編碼器的 MIME 類型，並傳回該編碼器 (**CLSID**) 的類別識別碼。 內建在 Windows GDI+ 中之編碼器的 MIME 類型如下所示：
 
 -   image/bmp
 -   image/jpeg

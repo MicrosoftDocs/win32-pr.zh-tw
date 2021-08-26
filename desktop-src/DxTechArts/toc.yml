@@ -49,7 +49,7 @@
       href: accessibility-best-practices.md
     - name: 優化 Windows 遊戲的 DVD 效能
       href: optimizing-dvd-performance-for-windows-games.md
-    - name: 在 Windows XP、Windows Vista 和 Windows 7 中修補遊戲軟體
+    - name: 修補 Windows XP、Windows Vista 和 Windows 7 的遊戲軟體
       href: patching-methods-in-windows-xp-and-vista.md
     - name: 資源管理最佳作法
       href: resource-management-best-practices.md
@@ -61,15 +61,15 @@
       href: the-direct3d-transformation-pipeline.md
     - name: Windows 標題的主要問題
       href: top-issues-for-windows-titles.md
-    - name: 製作更健全的 Windows 遊戲的最佳工具和技術
+    - name: 製作更健全的 Windows 遊戲的熱門工具和技術
       href: top-tools-and-techniques-for-making-more-robust-windows-games.md
     - name: 遊戲開發人員的使用者帳戶控制
       href: user-account-control-for-game-developers.md
     - name: 在遊戲中使用輸入法編輯器
       href: using-an-input-method-editor-in-a-game.md
-    - name: 適用于遊戲開發人員的 Windows 防火牆
+    - name: Windows適用于遊戲開發人員的防火牆
       href: games-and-firewalls.md
-    - name: 適用于遊戲開發人員的 Windows 遊戲瀏覽器
+    - name: Windows適用于遊戲開發人員的遊戲瀏覽器
       href: windows-game-explorer-integration.md
-    - name: 適用于遊戲開發人員的 Windows Installer
+    - name: Windows遊戲開發人員的安裝程式
       href: windows-installer-for-game-developers.md

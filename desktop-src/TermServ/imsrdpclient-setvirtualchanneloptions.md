@@ -44,18 +44,18 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 10e727fd3486b9d1b31fb3a421ea6ff268949790
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 804d4bde2fec9cb6273cc78f79d733f61a08772746439aa1cbb6e7b2d3c29716
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384202"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119871579"
 ---
 # <a name="imsrdpclientsetvirtualchanneloptions-method"></a>IMsRdpClient：： SetVirtualChannelOptions 方法
 
 設定遠端桌面 ActiveX 控制項的虛擬通道選項。
 
-請在呼叫 [**CreateVirtualChannels**](imstscax-createvirtualchannels.md) 方法之後，但在使用 [**Connect**](imstscax-connect.md) 方法建立連接之前呼叫這個方法。 這個方法會在使用 **CreateVirtualChannels** 建立的虛擬通道上設定其他選項。
+請在呼叫 [**CreateVirtualChannels**](imstscax-createvirtualchannels.md)方法之後，但在使用 [**連線**](imstscax-connect.md)方法建立連接之前呼叫這個方法。 這個方法會在使用 **CreateVirtualChannels** 建立的虛擬通道上設定其他選項。
 
 ## <a name="syntax"></a>語法
 

@@ -20,12 +20,12 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 6759508e42b380f0c1987c2f69b422baf4025d58b0de3c503fdae6d55c15df09
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 27799dbdbc21af4421713828633199d1c1a18973
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118071953"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122466220"
 ---
 # <a name="jetsetdatabasesize-function"></a>JetSetDatabaseSize 函式
 
@@ -67,52 +67,16 @@ _**適用于：** Windows |Windows伺服器_
 
 此函數會傳回具有下列其中一個傳回碼的 [JET_ERR](./jet-err.md) 資料類型。 如需可能 ESE 錯誤的詳細資訊，請參閱可延伸的[儲存體引擎錯誤](./extensible-storage-engine-errors.md)和[錯誤處理參數](./error-handling-parameters.md)。
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>傳回碼</p></th>
-<th><p>描述</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errSuccess</p></td>
-<td><p>作業已成功完成。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errDatabaseInconsistent<br />
-JET_errDatabaseDirtyShutdown</p></td>
-<td><p>JET_errDatabaseInconsistent 和 JET_errDatabaseDirtyShutdown 是相同的數值。 要調整其大小的資料庫必須處於正常關機狀態，也就是所謂的一致狀態。 不一致的資料庫並未損毀，但需要重新執行記錄檔。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errDatabaseInvalidPath</p></td>
-<td><p><em>szDatabaseName</em> 不得為空的非 Null 字串。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errDiskFull</p></td>
-<td><p>磁片區上的可用空間不足，無法執行成長作業。 <strong>JetSetDatabaseSize</strong> 可能也會傳回許多與檔案相關的錯誤，包括但不限於：</p>
-<ul>
-<li><p>JET_errDiskIO</p></li>
-<li><p>JET_errFileNotFound</p></li>
-<li><p>JET_errInvalidPath</p></li>
-<li><p>JET_errFileAccessDenied</p></li>
-<li><p>JET_errOutOfFileHandles</p></li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errInvalidParameter</p></td>
-<td><p>可能會傳回此錯誤的其中一個原因是 <em>cpg</em> 符合資料庫大小下限。 目前的最小資料庫大小為256頁。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errOutOfMemory</p></td>
-<td><p>系統的記憶體資源不足。</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>傳回碼</p> | <p>Description</p> | 
+|--------------------|--------------------|
+| <p>JET_errSuccess</p> | <p>作業已成功完成。</p> | 
+| <p>JET_errDatabaseInconsistent<br />JET_errDatabaseDirtyShutdown</p> | <p>JET_errDatabaseInconsistent 和 JET_errDatabaseDirtyShutdown 是相同的數值。 要調整其大小的資料庫必須處於正常關機狀態，也就是所謂的一致狀態。 不一致的資料庫並未損毀，但需要重新執行記錄檔。</p> | 
+| <p>JET_errDatabaseInvalidPath</p> | <p><em>szDatabaseName</em> 不得為空的非 Null 字串。</p> | 
+| <p>JET_errDiskFull</p> | <p>磁片區上的可用空間不足，無法執行成長作業。 <strong>JetSetDatabaseSize</strong> 可能也會傳回許多與檔案相關的錯誤，包括但不限於：</p><ul><li><p>JET_errDiskIO</p></li><li><p>JET_errFileNotFound</p></li><li><p>JET_errInvalidPath</p></li><li><p>JET_errFileAccessDenied</p></li><li><p>JET_errOutOfFileHandles</p></li></ul> | 
+| <p>JET_errInvalidParameter</p> | <p>可能會傳回此錯誤的其中一個原因是 <em>cpg</em> 符合資料庫大小下限。 目前的最小資料庫大小為256頁。</p> | 
+| <p>JET_errOutOfMemory</p> | <p>系統的記憶體資源不足。</p> | 
+
 
 
 #### <a name="remarks"></a>備註
@@ -129,38 +93,9 @@ JET_errDatabaseDirtyShutdown</p></td>
 
 #### <a name="requirements"></a>規格需求
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>用戶端</strong></p></td>
-<td><p>需要 Windows Vista、Windows XP 或 Windows 2000 Professional。</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>伺服器</strong></p></td>
-<td><p>需要 Windows server 2008、Windows Server 2003 或 Windows 2000 Server。</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>標頭</strong></p></td>
-<td><p>宣告于 Esent. h 中。</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>程式庫</strong></p></td>
-<td><p>使用 ESENT。</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>DLL</strong></p></td>
-<td><p>需要 ESENT.dll。</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Unicode</strong></p></td>
-<td><p>實作為 <strong>JetSetDatabaseSizeW</strong> (Unicode) 和 <strong>JetSetDatabaseSizeA</strong> (ANSI) 。</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p><strong>用戶端</strong></p> | <p>需要 Windows Vista、Windows XP 或 Windows 2000 Professional。</p> | | <p><strong>伺服器</strong></p> | <p>需要 Windows server 2008、Windows Server 2003 或 Windows 2000 Server。</p> | | <p><strong>標頭</strong></p> | <p>宣告于 Esent. h 中。</p> | | <p><strong>程式庫</strong></p> | <p>使用 ESENT。</p> | | <p><strong>DLL</strong></p> | <p>需要 ESENT.dll。</p> | | <p><strong>Unicode</strong></p> | <p>實作為 <strong>JetSetDatabaseSizeW</strong> (Unicode) 和 <strong>JetSetDatabaseSizeA</strong> (ANSI) 。</p> | 
+
 
 
 #### <a name="see-also"></a>另請參閱

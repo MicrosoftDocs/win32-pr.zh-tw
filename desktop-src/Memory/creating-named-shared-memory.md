@@ -4,12 +4,12 @@ ms.assetid: 17458be2-3ef7-42f2-a717-abf73ac4846f
 title: 建立命名的共用記憶體
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 18ac708497ceb12ed099c7a9c0b3788d7a05a925
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b2fc5ec3d9865d310807d01ac9f76967d4378fc92e4c9588d00b2933a08c953f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970402"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119869918"
 ---
 # <a name="creating-named-shared-memory"></a>建立命名的共用記憶體
 

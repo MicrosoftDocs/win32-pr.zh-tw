@@ -4,22 +4,22 @@ description: 多重路徑 i/o 現在支援延伸儲存體要求區塊
 ms.assetid: 5373D9ED-34AF-4D66-8888-49F1EBF768F4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f558f8088b5066b51447c5f2ea23edd5154d5c10
-ms.sourcegitcommit: 46376be61d3fa308f9b1a06d7e2fa122a39755af
+ms.openlocfilehash: 6a3b3a5ce3050bf7fddc2bd77da30e766c7b9cd67a8c4f49c753da5302b104c9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "104316657"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119932208"
 ---
 # <a name="multipath-io-now-supports-extended-storage-request-blocks"></a>多重路徑 i/o 現在支援延伸儲存體要求區塊
 
 ## <a name="platforms"></a>平台
 
-**伺服器** – Windows Server 2012 
+**伺服器**– Windows Server 2012 
 
-## <a name="description"></a>Description
+## <a name="description"></a>描述
 
-在 Windows Server 2012 中， \_ (擴充 SRB 的儲存體要求 \_ 區塊) 會取代 \_ \_ 核心儲存體堆疊中 (舊版 SRB) 的 SCSI 要求區塊。 擴充 SRBs 會複寫舊版 SRBs 的功能，但也可延伸和擴充。
+在 Windows Server 2012 中，新的結構，儲存體 \_ 要求 \_ 區塊 (擴充 SRB) 取代 \_ \_ 核心儲存體堆疊中 (舊版 SRB) 的 SCSI 要求區塊。 擴充 SRBs 會複寫舊版 SRBs 的功能，但也可延伸和擴充。
 
 多重路徑 i/o (MPIO) 支援擴充 SRBs，並可讓裝置特定模組 (DSMs) 也可指定外延 SRB 支援。 不過，為了讓多重路徑裝置的儲存體堆疊使用擴充 SRBs， **堆疊中的所有元件都必須支援延伸 SRBs，包括 DSM**。 請注意，Microsoft 內建 DSM （即 MSDSM）支援擴充 SRBs。
 
@@ -28,13 +28,13 @@ SCSI 通過 \_ \_ \_ EX 結構並不是延伸的 MPIO 傳遞結構的一部分�
 > [!Note]  
 > 如果 DSM 不支援擴充 SRBs，MPIO 將會透過具有 MPIO \_ IOCTL 旗標與 \_ \_ \_ DSM 旗標設定的要求，使擴充 mpio 傳遞失敗。
 
- 
+ 
 
 ## <a name="manifestation"></a>表現
 
 如果裝置的儲存體堆疊有任何部分（包括 DSM）不支援擴充 SRBs，則儲存體堆疊會還原為使用舊版 SRBs。
 
-## <a name="solution"></a>解決方法
+## <a name="solution"></a>解決方案
 
 DSM 只有兩個 MPIO 需求可支援儲存體 \_ 要求 \_ 區塊：
 
@@ -53,11 +53,11 @@ DSM \_ 位址 \_ 類型支援的 \_ 函數接受兩個參數，其中一個是�
 -   我們在名為 srbhelper 的 WDK 中提供標頭檔，其中包含內嵌函式，可協助必須處理擴充和舊版 SRBs 的驅動程式。 我們的範例 DSM 會使用此標頭，讓您可以使用它作為如何使用這些函式的範例。
 -   不支援擴充 SRBs 的 DSM 永遠不需要處理延伸的 SRBs。
 -   當 DSM 不支援指定的儲存體位址 (類型時，MPIO 可能會導致儲存體堆疊回復舊版 SRBs， \_ \_ \_ \* 否則支援擴充的 SRBs) 。
--   "BTL8" 是 \_ \_ \_ \* 目前為 Windows Server 2012 定義的唯一儲存體網址類別型。
+-   "BTL8" 是 \_ \_ \_ \* 目前為 WINDOWS SERVER 2012 定義的唯一儲存體網址類別型。
 
- 
+ 
 
- 
+ 
 
 
 

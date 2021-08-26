@@ -4,12 +4,12 @@ description: 本節說明用戶端應用程式所呼叫的軟體裝置 API 函�
 ms.assetid: 68F142A9-08AD-4F74-A0C3-3DCC8F7449B2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a4a3cc9f0cd8b018f40210c434ee22b3512b2e81
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 30f5d525eb9a4d4bc9af4807a2b3ad069b109b17874040e84cb3a9059d31bb85
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382638"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119937088"
 ---
 # <a name="software-device-api-functions"></a>軟體裝置 API 函式
 

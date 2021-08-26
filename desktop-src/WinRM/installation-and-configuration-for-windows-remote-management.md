@@ -1,20 +1,20 @@
 ---
 title: Windows 遠端管理的安裝和設定
-description: 針對要執行 Windows 遠端管理 (WinRM) 腳本，以及針對 **winrm** 命令列工具執行資料操作，Windows 遠端管理 (winrm) 必須同時安裝及設定。
+description: 針對要執行 Windows 遠端管理 (winrm) 腳本，以及針對 **winrm** 命令列工具執行資料操作，Windows 遠端管理 (winrm) 必須同時安裝及設定。
 ms.date: 08/31/2020
 ms.assetid: 81c40456-0003-46d0-8695-83bf77432056
 ms.topic: article
 ms.custom: contperf-fy21q1
-ms.openlocfilehash: 4ebe4094984f237a3c8949392e3e9a6b47b8afe6
-ms.sourcegitcommit: f374b50b37160b683da16b59ac9340282a8f50a5
+ms.openlocfilehash: c031ad9b9d9c888385527c227b102c64bb4dfb65eaea340e52eac3fb9595e591
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/04/2021
-ms.locfileid: "104509745"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119997618"
 ---
 # <a name="installation-and-configuration-for-windows-remote-management"></a>Windows 遠端管理的安裝和設定
 
-針對要執行 Windows 遠端管理 (WinRM) 腳本，以及針對 **winrm** 命令列工具執行資料操作，Windows 遠端管理 (winrm) 必須同時安裝及設定。
+針對要執行 Windows 遠端管理 (winrm) 腳本，以及針對 **winrm** 命令列工具執行資料操作，Windows 遠端管理 (winrm) 必須同時安裝及設定。
 
 這些元素也取決於 WinRM 設定。
 
@@ -30,7 +30,7 @@ WinRM 會自動與所有目前支援的 Windows 作業系統版本一起安裝�
 
 這些 WinRM 和 [智慧型平臺管理介面 (IPMI) ](./windows-remote-management-glossary.md#i) [WMI 提供者](/previous-versions/windows/desktop/ipmiprv/ipmi-provider) 元件與作業系統一起安裝。
 
-- WinRM 服務會在 Windows Server 2008 上自動啟動，而在 Windows Vista 上的 wards (上，您需要以手動方式啟動服務) 。
+- WinRM 服務會自動在 Windows Server 2008 和 Windows Vista 上的 wards (上啟動，您必須) 手動啟動服務。
 - 依預設， [不會設定](./windows-remote-management-glossary.md#l) 任何 WinRM 接聽程式。 即使 WinRM 服務正在執行，也無法接收或傳送要求資料 WS-Management 的通訊協定 [訊息](./windows-remote-management-glossary.md#m) 。
 - 網際網路連線防火牆 (ICF) 封鎖對埠的存取。
 
@@ -109,7 +109,7 @@ winrm get winrm/config
 
 指定執行 WinRM 服務之電腦的主機名稱。 此值必須是完整功能變數名稱、IPv4 或 IPv6 常值字串，或萬用字元。
 
-### <a name="enabled"></a>已啟用
+### <a name="enabled"></a>啟用
 
 指定接聽程式已啟用或停用。 預設值是 *True*。
 
@@ -166,7 +166,7 @@ WinRM 的用戶端版本具有下列預設設定。
 
 允許用戶端電腦要求未加密的流量。 根據預設，用戶端電腦需要加密的網路流量，且此設定為 *False*。
 
-### <a name="basic"></a>基本
+### <a name="basic"></a>Basic
 
 允許用戶端電腦使用基本驗證。 基本驗證是使用純文字，將使用者名稱與密碼傳送至伺服器或 Proxy 的配置。 這個方法是最不安全的驗證方法。 預設值為 *True*。
 
@@ -246,7 +246,7 @@ WinRM 的服務版本具有下列預設設定。
 
 允許用戶端電腦要求未加密的流量。 預設值為 *False*。
 
-### <a name="basic"></a>基本
+### <a name="basic"></a>Basic
 
 允許 WinRM 服務使用基本驗證。 預設值為 *False*。
 
@@ -292,7 +292,7 @@ WinRM 的服務版本具有下列預設設定。
 
 指定是否啟用相容性 HTTPS 接聽程式。 如果此設定為 *True*，則接聽程式除了埠5986之外，還會接聽埠443。 預設值為 *False*。
 
-## <a name="winrs-default-configuration-settings"></a>Winrs 預設設定
+## <a name="winrs-default-configuration-settings"></a>Winrs 預設設定設定
 
 `winrm quickconfig` 也會設定 **Winrs** 預設設定。
 
@@ -330,16 +330,16 @@ WinRM 的服務版本具有下列預設設定。
 
 ## <a name="configuring-winrm-with-group-policy"></a>使用群組原則設定 WinRM
 
-使用群組原則編輯器，為您企業中的電腦設定 Windows 遠端 Shell 和 WinRM。
+使用群組原則編輯器，為您企業中的電腦設定 Windows 的遠端 Shell 和 WinRM。
 
 ### <a name="to-configure-with-group-policy"></a>若要使用群組原則設定
 
 1. 以系統管理員身分開啟 [命令提示字元] 視窗。
-2. 在命令提示字元中，輸入 `gpedit.msc` 。 **群組原則物件編輯器**] 視窗隨即開啟。
-3. 在 [電腦設定] **\\ 系統管理範本 [ \\ windows 元件**] 下的 [電腦設定] 底下，尋找 **Windows 遠端管理** 和 **WINDOWS 遠端 Shell** 群組原則物件 () GPO
+2. 在命令提示字元中，輸入 `gpedit.msc`。 **群組原則物件編輯器**] 視窗隨即開啟。
+3. 在 [電腦設定] **\\) \\ 系統管理範本元件** 下，尋找 **Windows 遠端管理**，並 **Windows 遠端 Shell** 群組原則物件 (GPO Windows。
 4. 在 [ **擴充** ] 索引標籤上，選取設定以查看描述。 按兩下設定以進行編輯。
 
-## <a name="windows-firewall-and-winrm-20-ports"></a>Windows 防火牆和 WinRM 2.0 埠
+## <a name="windows-firewall-and-winrm-20-ports"></a>Windows防火牆和 WinRM 2.0 埠
 
 從 WinRM 2.0 開始，所設定的預設接聽程式埠為 `Winrm quickconfig` HTTP 傳輸的埠5985，以及 HTTPS 的埠5986。 WinRM 接聽程式可以在任何任意埠上進行設定。
 
@@ -347,7 +347,7 @@ WinRM 的服務版本具有下列預設設定。
 
 ## <a name="winrm-installation-and-configuration-notes"></a>WinRM 安裝和設定注意事項
 
-WinRM 不相依于 WinHttp 以外的任何其他服務。 如果 IIS 系統管理員服務安裝在同一部電腦上，您可能會看到指出 WinRM 無法在 Internet Information Services (IIS) 之前載入的訊息。 不過，WinRM 實際上不依賴 IIS &mdash; 這些訊息，因為載入順序可確保 iis 服務會在 HTTP 服務之前啟動。 WinRM 確實需要 `WinHTTP.dll` 註冊。
+WinRM 不相依于 WinHttp 以外的任何其他服務。 如果 iis 系統管理員服務安裝在同一部電腦上，您可能會看到指出 WinRM 無法在 Internet Information Services (IIS) 之前載入的訊息。 不過，WinRM 實際上不依賴 IIS &mdash; 這些訊息，因為載入順序可確保 iis 服務會在 HTTP 服務之前啟動。 WinRM 確實需要 `WinHTTP.dll` 註冊。
 
 如果電腦上已安裝 ISA2004 防火牆用戶端，它可能會導致 Web 服務 (WS-MANAGEMENT) 用戶端停止回應。 若要避免此問題，請安裝 ISA2004 Firewall SP1。
 
@@ -367,7 +367,7 @@ IPMI 提供者會將硬體類別放在 WMI 的 **根 \\ 硬體**[命名空間](/
 
 ## <a name="wmi-plug-in-configuration-notes"></a>WMI 外掛程式設定注意事項
 
-從 Windows 8 和 Windows Server 2012 開始， [WMI 外掛程式](./windows-remote-management-glossary.md#w) 有自己的安全性設定。 若為一般或電源 (非系統管理員) 使用者要能夠使用 *WMI 外掛程式*，您 [必須在設定](./windows-remote-management-glossary.md#l) 接聽程式之後，啟用該使用者的存取權。 首先，您必須透過下列其中一個步驟，設定使用者以遠端存取 [WMI](./windows-remote-management-glossary.md#w) 。
+從 Windows 8 和 Windows Server 2012 開始， [WMI 外掛程式](./windows-remote-management-glossary.md#w)有自己的安全性設定。 若為一般或電源 (非系統管理員) 使用者要能夠使用 *WMI 外掛程式*，您 [必須在設定](./windows-remote-management-glossary.md#l) 接聽程式之後，啟用該使用者的存取權。 首先，您必須透過下列其中一個步驟，設定使用者以遠端存取 [WMI](./windows-remote-management-glossary.md#w) 。
 
 - 執行 `lusrmgr.msc` 以將使用者新增至 [**本機使用者和群組**] 視窗中的 [ **WinRMRemoteWMIUsers \_ \_** ] 群組，或
 - 使用 **winrm** 命令列工具來設定 [WMI 外掛程式](./windows-remote-management-glossary.md#w)[*命名空間*](./windows-remote-management-glossary.md#n)的安全描述項，如下所示： `winrm configSDDL http://schemas.microsoft.com/wbem/wsman/1/wmi/ WmiNamespace` 。

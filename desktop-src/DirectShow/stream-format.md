@@ -4,16 +4,16 @@ ms.assetid: 7ed095f2-b541-4b99-8afc-9acba58081cd
 title: 資料流程格式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 75413c28f0871db0168e27685de49fd35b682224
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a01ed1ac4501a2d8f081c12fef75baf15aaebd442fc182a116db1038c2a73523
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980602"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119903988"
 ---
 # <a name="stream-format"></a>資料流程格式
 
-MSDV 和 UVC 驅動程式都可以輸出兩種 DV 格式：交錯音訊-影片或僅限影片。 交錯音訊-影片是來自裝置的原始格式。 僅限影片的格式包含相同的資料，但範例標示為沒有音訊資料。 僅限影片的格式存在，主要是為了與使用適用于 Windows 的影片的應用程式相容。 如需詳細資訊，請參閱 [type-1 與 type-2 DV AVI Files](type-1-vs--type-2-dv-avi-files.md)。
+MSDV 和 UVC 驅動程式都可以輸出兩種 DV 格式：交錯音訊-影片或僅限影片。 交錯音訊-影片是來自裝置的原始格式。 僅限影片的格式包含相同的資料，但範例標示為沒有音訊資料。 僅限影片的格式存在，主要是為了與使用影片進行 Windows 的應用程式相容。 如需詳細資訊，請參閱 [type-1 與 type-2 DV AVI Files](type-1-vs--type-2-dv-avi-files.md)。
 
 **MSDV 驅動程式**
 

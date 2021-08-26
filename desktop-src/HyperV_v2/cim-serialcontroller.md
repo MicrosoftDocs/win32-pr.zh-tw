@@ -17,12 +17,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 4a2e69bab38bb8b68c15ed93b2bee721c35a7600
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6a438919674f805f59cb6e2cac6e76cb6367f03ce12fa2ceb0787527e56adb83
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972070"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119980828"
 ---
 # <a name="cim_serialcontroller-class-hyper-v-management"></a>CIM_SerialController 類別 (Hyper-v 管理) 
 

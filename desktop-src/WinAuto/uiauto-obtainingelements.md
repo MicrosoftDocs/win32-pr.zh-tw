@@ -18,12 +18,12 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.custom: project-verbatim
-ms.openlocfilehash: a1adbcea5cea81f97350ef15c491b289e07d3ee6
-ms.sourcegitcommit: af120ad5c30da2fc5eb717ca2a1c4c45878efd71
+ms.openlocfilehash: f2ecf8a30f468e7a7ca4df60465993fa7acdc1e8eef1c8537d8c3d796132cb82
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/20/2021
-ms.locfileid: "106992359"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119997738"
 ---
 # <a name="obtaining-ui-automation-elements"></a>取得 UI 自動化項目
 

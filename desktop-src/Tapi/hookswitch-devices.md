@@ -4,12 +4,12 @@ ms.assetid: 39e3f24d-55d8-4830-8599-383954c8a107
 title: Hookswitch 裝置
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 69ad6f839ec9078831ffe0b04849be2a4393c9d2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c3ca5c9f605731780068b9ad5a5b35d913213006c62d127e6a3b15d1ffc5fe1a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104512396"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120013098"
 ---
 # <a name="hookswitch-devices"></a>Hookswitch 裝置
 

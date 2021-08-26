@@ -4,12 +4,12 @@ ms.assetid: 4A2B427E-E654-48BA-8BF4-16F1B1F8D266
 title: 'MF_DEVICESTREAM_ATTRIBUTE_FRAMESOURCE_TYPES 屬性 (Mfapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8823a828a81290fe3b039c8959d694c62331622f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fcce2e7f90f4e5f23e99bac8e532455fac1309cc0e20177c5800d85f4580e20a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106992014"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120013188"
 ---
 # <a name="mf_devicestream_attribute_framesource_types-attribute"></a>MF \_ DEVICESTREAM \_ 屬性 \_ FRAMESOURCE \_ 類型屬性
 
@@ -30,7 +30,7 @@ ms.locfileid: "106992014"
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 10， \[ 僅限1607版桌面應用程式\]<br/>                          |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2016 \[ desktop 應用程式\]<br/>                               |
+| 最低支援的伺服器<br/> | Windows Server 2016 \[僅限桌面應用程式\]<br/>                               |
 | 標頭<br/>                   | <dl> <dt>Mfapi。h</dt> </dl> |
 
 

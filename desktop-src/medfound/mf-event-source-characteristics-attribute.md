@@ -4,12 +4,12 @@ ms.assetid: af2a2b75-cd4e-453c-876e-3be2db695e4e
 title: 'MF_EVENT_SOURCE_CHARACTERISTICS 屬性 (Mfapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7b8c775c0d3471d3d3442e565879ba8b42e07a61
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d5a9b72adaa5869d806ab0a3c8afcddff7892f93872e86aa6dfe96bde1b8348b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974071"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119956588"
 ---
 # <a name="mf_event_source_characteristics-attribute"></a>MF \_ 事件 \_ 來源 \_ 特性屬性
 
@@ -33,8 +33,8 @@ ms.locfileid: "106974071"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                     |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                               |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                     |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                               |
 | 標頭<br/>                   | <dl> <dt>Mfapi。h</dt> </dl> |
 
 

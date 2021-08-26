@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 63c48a0502ee074b0940f85386dca0619a3ad12d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6ef410ac8d96160b39ca9b7103e5125be8619169ba6b287a32b8769e57a0cbf4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107000706"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120053618"
 ---
 # <a name="ctransformfiltercheckinputtype-method"></a>CTransformFilter. CheckInputType 方法
 
@@ -55,7 +55,7 @@ virtual HRESULT CheckInputType(
 
 
 
-| 傳回碼                                                                                                | Description                              |
+| 傳回碼                                                                                                | 描述                              |
 |------------------------------------------------------------------------------------------------------------|------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>                       | 媒體類型是可接受的。<br/>     |
 | <dl> <dt>**\_ \_ \_ 未接受 VFW E \_ 類型**</dt> </dl> | 媒體類型無法接受。<br/> |

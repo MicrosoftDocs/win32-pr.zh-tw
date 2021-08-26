@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 48384c916664bf3745c5440ca9996d56c95f392e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 73dcd278f371397cc35644ec6ac7726d0fd5c999e1b5790f49387a13fabecc30
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106971561"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120015950"
 ---
 # <a name="systemparametersprocessfriendlyname-property"></a>SystemParameters. ProcessFriendlyName 屬性
 

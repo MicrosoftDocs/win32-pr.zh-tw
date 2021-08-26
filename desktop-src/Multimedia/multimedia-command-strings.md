@@ -10,12 +10,12 @@ keywords:
 - 多媒體命令字串
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ae4ec8f9b0efa783028850a6cd03cbc0bed20caf
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 986a1fc9e2a97671b04d8ba8a4a5cd033e176a94f6a8e898b4f899b7a9c707a7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103933196"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120038768"
 ---
 # <a name="multimedia-command-strings"></a>多媒體命令字串
 
@@ -75,6 +75,6 @@ ms.locfileid: "103933196"
 [多媒體參考](multimedia-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

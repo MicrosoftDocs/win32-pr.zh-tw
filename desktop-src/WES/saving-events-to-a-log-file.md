@@ -4,12 +4,12 @@ description: 若要將通道中的事件儲存至記錄檔，請呼叫 EvtClearL
 ms.assetid: 6d71ed15-97e3-4888-b161-c7e31bf3fc6d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3295d8a7a235fbb5fd5857d1b7283e9ca1fbb773
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 72a9bfafe5d1d9f75c85db4a0cc21fc3b9ae8d660aa08b542973b5e38b069158
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104183953"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120031958"
 ---
 # <a name="saving-events-to-a-log-file"></a>將事件儲存至記錄檔
 
@@ -232,9 +232,9 @@ cleanup:
 
 
 
- 
+ 
 
- 
+ 
 
 
 

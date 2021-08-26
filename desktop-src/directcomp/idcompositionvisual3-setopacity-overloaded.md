@@ -12,12 +12,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
 api_location: ''
-ms.openlocfilehash: f5e3149ec5a8431f701b9820a2876d42b70aebcb
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 04a1113efeaa355a120cd624c13573206014d58a9b5fbc16c277b05b7e801d76
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104315163"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119979888"
 ---
 # <a name="idcompositionvisual3setopacity-methods"></a>IDCompositionVisual3：： SetOpacity 方法
 

@@ -4,12 +4,12 @@ ms.assetid: 23AF25B8-B94C-48BC-83D8-5863ACFFD4CA
 title: 接收寫入器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d6b30d75e369de343bae61ba56dfd05c0d5d12a4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5a1cfa60abb9b107030aba18e30175592d637c7676ff44781d62b3f5c1509351
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318731"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119887350"
 ---
 # <a name="sink-writer"></a>接收寫入器
 

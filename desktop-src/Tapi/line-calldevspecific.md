@@ -4,12 +4,12 @@ ms.assetid: accd753a-3be0-4c7d-bbc7-d294d1381144
 title: 'LINE_CALLDEVSPECIFIC 訊息 (Tspi .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7a48bf8a54a1f326fe7bb27c82349e5575c8bbf6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9930da3c30d51781b10b28ed7a712cb681950eaea1a387212a5e0894658a9125
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995937"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120012598"
 ---
 # <a name="line_calldevspecific-message"></a>行 \_ CALLDEVSPECIFIC 訊息
 

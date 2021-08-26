@@ -4,12 +4,12 @@ ms.assetid: 2e004899-bb2b-4127-b606-e2a979275836
 title: 'EC_ACTI加值稅E (Dshow) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 81e48adb3ae98af172664b807386c615d34b6b22
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b14d9b0ad192045f179d9f0f366eed6a32efb0e6cc6f61b47255f118b7f55258
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106977735"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119966058"
 ---
 # <a name="ec_activate"></a>EC \_ 啟用
 

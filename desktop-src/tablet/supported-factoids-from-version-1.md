@@ -4,16 +4,16 @@ ms.assetid: 9d5fc370-ba58-438b-8850-f31f0f0f6608
 title: 從版本1支援的 Factoids
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bad6d08b91a457d38a3eb8543200eb1919eb2bfd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e4c24c192bcbda04be7ea25deb0c7b1cb7b392de57c43ce7a509e0ceaac31002
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106976572"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119934348"
 ---
 # <a name="supported-factoids-from-version-1"></a>從版本1支援的 Factoids
 
-\[請注意， (SDK) 第1版的 Microsoft Windows XP Tablet PC Edition 軟體發展工具組中所支援的 factoids 描述，但建議您) 使用 [InputScope](/windows/win32/api/inputscope/ne-inputscope-inputscope) 列舉中所定義的值，以取得拉丁腳本的所有新開發 (。\]
+\[請注意，在第1版的 Microsoft Windows XP Tablet PC Edition 軟體發展工具組中所支援的 factoids 描述， (SDK) 仍受到辨識器的支援，但建議所有適用于拉丁腳本的新開發 (，) 使用[InputScope](/windows/win32/api/inputscope/ne-inputscope-inputscope)列舉中所定義的值。\]
 
 Tablet PC 平臺支援數個 factoids，可用來增加辨識精確度。 使用 factoids 時，預期的輸入必須完全符合模擬程式的定義。 如果輸入不符合模擬程式的定義，辨識精確度就會受到影響。 例如，如果設定了 **數位** 的智慧標籤，而使用者輸入字母，則字母的辨識精確度很差。
 

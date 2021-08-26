@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cfe229657dfd29d3cb9d83a8a4853e2e89a7a6fc
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: cfbf032700959dd21a560b879357de2800ac657b
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106982919"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122466155"
 ---
 # <a name="wmt_videoimage_transition_filled_v"></a>WMT \_ VIDEOIMAGE \_ 轉換已 \_ 填滿 \_ V
 
@@ -31,52 +31,14 @@ ms.locfileid: "106982919"
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>參數</th>
-<th>結構成員</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>寬度</td>
-<td><strong>fEffectPara0</strong></td>
-<td>填滿 V 的寬度（以圖元為單位）。</td>
-</tr>
-<tr class="even">
-<td>高度</td>
-<td><strong>fEffectPara1</strong></td>
-<td>填滿 V 的高度（以圖元為單位）。</td>
-</tr>
-<tr class="odd">
-<td>方向</td>
-<td><strong>fEffectPara2</strong></td>
-<td>填滿 V 來源的方向。設定為下列其中一個值：<br/>
-<ul>
-<li>0-從框架左邊進入。</li>
-<li>1-從框架的右邊進入。</li>
-<li>2-從框架底部進入。</li>
-<li>3-從框架頂端進入。</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>Composition</td>
-<td><strong>fEffectPara3</strong></td>
-<td>設定為下列其中一個值：
-<ul>
-<li>0-指定一般組合，其中上一個影像是背景，而目前影像是前景。</li>
-<li>1-指定反轉組合，其中目前影像是背景影像，而上一個影像是前景</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| 參數 | 結構成員 | Description | 
+|-----------|------------------|-------------|
+| 寬度 | <strong>fEffectPara0</strong> | 填滿 V 的寬度（以圖元為單位）。 | 
+| 高度 | <strong>fEffectPara1</strong> | 填滿 V 的高度（以圖元為單位）。 | 
+| 方向 | <strong>fEffectPara2</strong> | 填滿 V 來源的方向。設定為下列其中一個值：<br /><ul><li>0-從框架左邊進入。</li><li>1-從框架的右邊進入。</li><li>2-從框架底部進入。</li><li>3-從框架頂端進入。</li></ul> | 
+| Composition | <strong>fEffectPara3</strong> | 設定為下列其中一個值：<ul><li>0-指定一般組合，其中上一個影像是背景，而目前影像是前景。</li><li>1-指定反轉組合，其中目前影像是背景影像，而上一個影像是前景</li></ul> | 
+
 
 
 

@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 705f02622b7298134328b513aa038804995eb1c1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d139b2daf3f3bc6ad78beaa50e19c0141aecd5e8bedac2dd20582fb1536d9b74
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106975986"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119930778"
 ---
 # <a name="iwmdrmsecuritygetrevocationdataversion-method"></a>IWMDRMSecurity：： GetRevocationDataVersion 方法
 
@@ -51,11 +51,11 @@ HRESULT GetRevocationDataVersion(
 
 
 
-| GUID 常數                 | Description                                                                      |
+| GUID 常數                 | 描述                                                                      |
 |-------------------------------|----------------------------------------------------------------------------------|
 | WMDRM \_ REVOCATIONTYPE \_ 應用程式    | 指定應用程式憑證撤銷清單。                           |
 | WMDRM \_ REVOCATIONTYPE \_ 裝置 | 指定裝置憑證撤銷清單。                                |
-| WMDRM \_ REVOCATIONTYPE \_ CARDEA | 指定「網路裝置的 Windows Media DRM」憑證撤銷清單。 |
+| WMDRM \_ REVOCATIONTYPE \_ CARDEA | 指定網路裝置憑證撤銷清單的 Windows 媒體 DRM。 |
 
 
 
@@ -76,7 +76,7 @@ HRESULT GetRevocationDataVersion(
 
 
 
-| 傳回碼                                                                          | Description                      |
+| 傳回碼                                                                          | 描述                      |
 |--------------------------------------------------------------------------------------|----------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl> | 此方法已成功。<br/> |
 

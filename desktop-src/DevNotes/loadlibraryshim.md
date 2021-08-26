@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Mscoree.dll
-ms.openlocfilehash: 3a2fd8ab6aef8d0309748cbbf37d56ccd032b050
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 123d4036713d6c1c5b7f7a08026d29d7d34126c28c5c2c1fceb94eb01baf9609
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106982275"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120001238"
 ---
 # <a name="loadlibraryshim-function"></a>LoadLibraryShim 函式
 
@@ -76,7 +76,7 @@ HRESULT LoadLibraryShim(
 
 ## <a name="remarks"></a>備註
 
-這個函式是用來載入 .NET Framework 可轉散發套件所包含的程式庫 Dll，而不是使用者產生的 Dll。
+這個函式是用來載入 .NET Framework 可轉散發套件所包含的程式庫 dll，而不是使用者產生的 dll。
 
 此函數沒有相關聯的匯入程式庫或標頭檔;您必須使用 [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) 和 [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) 函數來呼叫它。
 

@@ -4,12 +4,12 @@ ms.assetid: 38d453e2-ca23-45a5-8177-d7d122eaa9b5
 title: 使用可設定的合併模組
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a8f43fd6745b63fcaf4795ff0e28d13a28dc6b52
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2575ee5fec19f50d2bf8636a3dac7c68f11b41edb3b2002edec7d9c3b01158cc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106977936"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119996198"
 ---
 # <a name="using-configurable-merge-modules"></a>使用可設定的合併模組
 

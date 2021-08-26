@@ -15,12 +15,12 @@ keywords:
 - IMFTransform 介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5eb58ab84070a8cb9390e4525b9b642f15a29f14
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c3b410702d63657261faa2fc8e7db123e05dcdc12c3096a49f8c0e2e36a41ff4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106965562"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119903578"
 ---
 # <a name="about-imftransform"></a>關於 IMFTransform
 
@@ -62,7 +62,7 @@ Windows Media Player 會呼叫下列方法來取得或設定與外掛程式目�
 > [!Note]  
 > **SetInputType** 和 **SetOutputType** 用於格式化協商以及指定和取得狀態資訊。
 
- 
+ 
 
 ## <a name="methods-that-handle-buffering-and-processing-data"></a>處理緩衝處理和處理資料的方法
 
@@ -80,9 +80,9 @@ Windows Media Player 會呼叫下列方法，以起始外掛程式執行的各�
 [**必要的介面**](required-interfaces.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 0a016542-306e-48b4-8b0c-b9e4e915513e
 title: 'WPCEVENT_IM_CONTACT (Wpcevent 的事件) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9747f7ede57f7a1d77af0f0e8e5425401ee32b36
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: baac4bf5648b27f2e8d446a79bb2d90d52f0aac416e30d031d3b81d430a6927b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194973"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119951444"
 ---
 # <a name="wpcevent_im_contact-event"></a>WPCEVENT \_ IM \_ 連絡人事件
 
@@ -88,7 +88,7 @@ const EVENT_DESCRIPTOR WPCEVENT_IM_CONTACT = {0xf, 0x0, 0x10, 0x4, 0x16, 0xf, 0x
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                             |
 | 標頭<br/>                   | <dl> <dt>Wpcevent。h</dt> </dl> |
 

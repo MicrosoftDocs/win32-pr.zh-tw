@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ntoskrnl.lib
 - Ntoskrnl.dll
-ms.openlocfilehash: 7ba87d05d4264f3bb160bae16053a338e38e2145
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 481def34e3e8656205eefe96058fe3c7558d2c898c7e05ddc78f9a67435c507e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847126"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119984148"
 ---
 # <a name="obfindhandleforobject-function"></a>ObFindHandleForObject 函式
 
@@ -95,8 +95,8 @@ BOOLEAN WINAPI ObFindHandleForObject(
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                             |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                    |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                             |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                    |
 | 標頭<br/>                   | <dl> <dt>Ntosp。h</dt> </dl>      |
 | 程式庫<br/>                  | <dl> <dt>Ntoskrnl.exe .lib</dt> </dl> |
 

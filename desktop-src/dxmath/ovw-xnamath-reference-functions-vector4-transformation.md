@@ -4,12 +4,12 @@ ms.assetid: 25fada4c-0ddc-0b79-9b8a-e9edfefce19a
 title: DirectXMath 程式庫4D 向量轉換函式
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ae78e754a608724f3943c3cbef26cc18c5d12347
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 96a34d08ab7a1eed2daddfcda4b7f05a00dd9beadd8e0e8490bd78ee3a55cc6c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106989287"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119979168"
 ---
 # <a name="directxmath-library-4d-vector-transformation-functions"></a>DirectXMath 程式庫4D 向量轉換函式
 

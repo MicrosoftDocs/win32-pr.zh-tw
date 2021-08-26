@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: a168a26816825c33c0e047d93cc8b14ebd0f3536
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 83cb78b233385e502d6508212492c54865aca28990ae079e4bf588776bd83fe5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106985952"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119998538"
 ---
 # <a name="cvideotransformfilterm_nwaitforkey-member"></a>CVideoTransformFilter：： m \_ nWaitForKey 成員
 

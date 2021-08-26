@@ -4,12 +4,12 @@ ms.assetid: 84345690-37f2-4072-be3e-b0a610133408
 title: 圖形 API 常數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8beaf8f0e31e36832bc1002f10b8266a46af1866
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ad69ff09846a528a444fef7b646d1a57640f977a093bc65e6cff2f0106a298d8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106988800"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119887618"
 ---
 # <a name="graphing-api-constants"></a>圖形 API 常數
 

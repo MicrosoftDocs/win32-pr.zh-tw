@@ -1,33 +1,33 @@
 ---
-description: 請注意，本主題僅適用于 Windows Server 2003 R2 和 Windows Server 2003 Service Pack 1 (SP1) 。
+description: 請注意，本主題僅適用于 Windows Server 2003 R2 和 Windows server 2003 Service Pack 1 (SP1) 。
 ms.assetid: a192d9a7-1c65-4251-acb1-4df03ebfe910
 title: 在 Windows Server 2003 R2 和 Windows Server 2003 SP1 中備份和還原系統狀態
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: de2fdb50e3f719a5208c2894f5659f927bcc922d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c4803acc5981cc74084789064bd276baa28b35c0ffe225e49d2b65ba5485e51a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103945233"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120032948"
 ---
 # <a name="backing-up-and-restoring-system-state-in-windows-server-2003-r2-and-windows-server-2003-sp1"></a>在 Windows Server 2003 R2 和 Windows Server 2003 SP1 中備份和還原系統狀態
 
 > [!Note]  
-> 本主題僅適用于 Windows Server 2003 R2 和 Windows Server 2003 Service Pack 1 (SP1) 。 如需其他作業系統版本的詳細資訊，請參閱 [備份和還原系統狀態](locating-additional-system-files.md)。
+> 本主題僅適用于 Windows Server 2003 R2 和 Windows server 2003 Service Pack 1 (SP1) 。 如需其他作業系統版本的詳細資訊，請參閱 [備份和還原系統狀態](locating-additional-system-files.md)。
 
  
 
 > [!Note]  
-> Microsoft 不會提供開發人員或 IT 專業人員技術支援，以在 Windows (所有版本) 上執行線上系統狀態還原。 如需有關使用 Microsoft 提供的 Api 和程式來執行線上系統狀態還原的詳細資訊，請參閱 [MSDN 論壇中心](https://msdn.microsoft.com/community/default.aspx)提供的「社區資源」。
+> Microsoft 不會提供開發人員或 IT 專業人員技術支援，在 Windows (所有版本) 上執行線上系統狀態還原。 如需使用 Microsoft 提供的 api 和程式來執行線上系統狀態還原的詳細資訊，請參閱[MSDN Community Center](https://msdn.microsoft.com/community/default.aspx)提供的「社區資源」。
 
  
 
-執行 VSS 備份或還原時，會將 Windows 系統狀態定義為數個主要作業系統元素及其檔案的集合。 這些元素應一律由備份和還原作業視為一個單位來處理。
+執行 VSS 備份或還原時，Windows 系統狀態會定義為數個重要作業系統元素及其檔案的集合。 這些元素應一律由備份和還原作業視為一個單位來處理。
 
-在 Windows Server 2003 R2 和 Windows Server 2003 （含 SP1）中，沒有任何 Windows API 設計來將這些物件視為一，因此建議要求者擁有自己的系統狀態物件，以便能夠以一致的方式處理這些元件。
+在 Windows Server 2003 R2 和 Windows Server 2003 SP1 中，沒有任何 Windows API 設計來將這些物件視為一個物件，因此建議要求者擁有自己的系統狀態物件，以便能夠以一致的方式處理這些元件。
 
-由於 VSS 是在 Windows 版本上執行，而 [*系統檔案保護*](vssgloss-s.md) (WFP) 保護系統狀態檔案免于損毀，因此需要特殊步驟來備份和還原系統狀態。
+由於 VSS 是在 Windows 的版本上執行，因此 [*系統檔案保護*](vssgloss-s.md) (WFP) 保護系統狀態檔案免于損毀，因此需要特殊步驟來備份和還原系統狀態。
 
 系統狀態包含下列各項：
 
@@ -35,7 +35,7 @@ ms.locfileid: "103945233"
 -   在網域控制站的系統上，Active Directory (ADSI)  () 
 -   系統磁碟區資料夾 (SYSVOL) ，檔案複寫服務會在網域控制站的系統上 (FRS)  () 
 -   提供憑證授權單位單位之系統上的憑證伺服器 () 
--   叢集資料庫 (在屬於 Windows 叢集節點的系統上) 
+-   叢集資料庫 (位於 Windows 叢集節點的系統) 
 -   註冊服務
 -   COM + 類別註冊資料庫
 
@@ -67,7 +67,7 @@ ms.locfileid: "103945233"
 -   The WFP service catalog file must be backed up prior to backing up the WFP files, and it is found under: <dl> % SystemRoot% \\ System32 \\ CatRoot \\ {F750E6C3-38EE-11D1-85E5-00C04FC295EE} </dl>
 -   所有受 [*系統檔案保護*](vssgloss-s.md) 保護並由 [**SfcGetNextProtectedFile**](/windows/win32/api/sfc/nf-sfc-sfcgetnextprotectedfile) 列舉的檔案 (查看 -   效能計數器設定檔) 的 WFP 受保護檔案的 VSS 還原作業： <dl> % SystemRoot% \\ System32 效能 \\ ？00？。Dat  
     % SystemRoot% \\ System32 效能 \\ ？00？。Bak </dl>
--   如果存在，則會在備份和還原作業中包含網際網路資訊伺服器 (IIS) 的中繼檔，因為它包含 Microsoft Exchange 和其他網路應用程式所使用的狀態。 這個檔案位於下列位置： <dl> % SystemRoot% \\ System32 \\ InetSrv \\ 元資料庫. bin </dl>
+-如果存在，則會在備份和還原作業中包含網際網路資訊伺服器 (IIS) 的中繼檔，因為它包含 Microsoft Exchange 和其他網路應用程式所使用的狀態。 這個檔案位於下列位置： <dl> % SystemRoot% \\ System32 \\ InetSrv \\ 元資料庫. bin </dl>
 -   如果已備份 IIS 中繼檔，則可讓應用程式讀取特定加密專案的金鑰，應還原為系統狀態的一部分。 您可以在下列檔中找到這些檔案： <dl> % SystemRoot% \\ System32 \\ Microsoft \\ 保護\\\*  
     % AllUsersProfile% \\ Microsoft \\ 加密 \\ RSA \\ MachineKeys\\\* </dl>
 -備份開機和系統檔案時，您可能必須執行下列動作，以判斷 DOS 開機裝置： 1. 在 [ **HKEY \_ 本機 \_ 電腦** \\ **系統** \\ **安裝** \\ **SystemPartition**] 下尋找系統磁碟分割。

@@ -4,12 +4,12 @@ ms.assetid: 0a885b7a-840d-4112-85f7-ff6f2d87bb75
 title: 'EC_CLOCK_UNSET (Dshow) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 85ead35d89eee94bbffb38a96f658ccb2bb6e6e4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: dd7bc9daecb9e39ca2d121c9fa903b2e4e8257e6247f28d718ca093b302cc2e7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994718"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119998218"
 ---
 # <a name="ec_clock_unset"></a>EC \_ 時鐘未設定 \_
 
@@ -35,7 +35,7 @@ ms.locfileid: "106994718"
 
 ## <a name="default-action"></a>預設動作
 
-篩選圖形管理員會在下一個 pause 或 run 命令上選擇新的參考時鐘。 它也會將事件轉送到應用程式。
+篩選 Graph 管理員會在下一個 pause 或 run 命令上選擇新的參考時鐘。 它也會將事件轉送到應用程式。
 
 ## <a name="remarks"></a>備註
 

@@ -9,12 +9,12 @@ keywords:
 - 路由器管理 RRAS，說明
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d2e82aa6b0eba4d9fa9ab49480fb9393f492342
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9081d1effd7f28ef19801450d67f47bfb70f3daeb34787ad41350d4f3319ba1e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103673668"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120030788"
 ---
 # <a name="about-router-management"></a>關於路由器管理
 
@@ -26,9 +26,9 @@ ms.locfileid: "103673668"
 -   [瞭解 MprInfo 函式和資訊標頭](understanding-mprinfo-functions-and-information-headers.md)
 -   [管理路由器用戶端和介面](managing-router-clients-and-interfaces.md)
 
- 
+ 
 
- 
+ 
 
 
 

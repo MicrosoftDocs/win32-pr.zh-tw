@@ -4,12 +4,12 @@ ms.assetid: a3a598b2-5623-4472-a814-620c6a003a7e
 title: 正在抓取計數器資料
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f932408471b23dd413a3b8cece63d533b1ba5426
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 19109aac1a4b661e08be7f70418d19355649a0b4fb04e4a9d39fac610068cea3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106976895"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119962298"
 ---
 # <a name="retrieving-counter-data"></a>正在抓取計數器資料
 

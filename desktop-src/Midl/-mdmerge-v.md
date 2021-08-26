@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4efd1ba12e11b7bdfdda31b0e9c9670c97d5cc4c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d8c1c11494798cbef77d876ce10ba1a40454ad515d3a449f97bd6ab1348da2ed
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106983210"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119979688"
 ---
 # <a name="v-switch"></a>/v 參數
 

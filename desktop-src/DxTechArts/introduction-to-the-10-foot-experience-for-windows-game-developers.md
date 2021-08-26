@@ -4,41 +4,41 @@ description: 本文將介紹10英尺的體驗，並探索您應該先考慮這�
 ms.assetid: 126a0aae-6a7a-8cda-5748-c364e54c304e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e4814c76aeefdadbe1fd8bf9dc4c21cd84612671
-ms.sourcegitcommit: 773fa6257ead6c74154ad3cf46d21e49adc900aa
+ms.openlocfilehash: 049cbbe839509681f8f8629144511853d2984bbabafbf989611d1ed1db32e686
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "104383113"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119963618"
 ---
 # <a name="introduction-to-the-10-foot-experience-for-windows-game-developers"></a>Windows 遊戲開發人員的10英尺體驗簡介
 
-越來越多人以全新的方式使用個人電腦。 當您想像一般與 Windows 電腦的互動時，您可能會想到坐在一台電腦上的監視器，並使用滑鼠和鍵盤 (或可能是搖桿裝置) ;這就是所謂的2英尺經驗，它仍然是 Windows 遊戲最常見的案例，但是還有另一種趨勢，那就是使用您的電腦做為娛樂裝置，並有電視的輸出。 本文將介紹10英尺的體驗，並探索您應該先考慮這項新互動模式的事項清單，即使您不希望遊戲以這種方式播放也是一樣。 客戶的部分會在執行 Windows Media Center 的電腦上執行您的 Windows 遊戲，最好是在客戶試用之前，先瞭解該體驗的外觀。
+越來越多人以全新的方式使用個人電腦。 當您想要與以 Windows 為基礎的電腦進行一般互動時，您可能會想到坐在桌上的監視器，並使用滑鼠和鍵盤 (或可能是搖桿裝置) ;這指的是2英尺的體驗，它仍然是 Windows 遊戲最常見的案例，但是還有另一種趨勢，那就是使用您的電腦作為具有電視輸出之娛樂裝置的一種趨勢。 本文將介紹10英尺的體驗，並探索您應該先考慮這項新互動模式的事項清單，即使您不希望遊戲以這種方式播放也是一樣。 客戶的某些部分會在執行 Windows Media Center 的電腦上執行您的 Windows 遊戲—最好先瞭解該體驗在客戶試用之前的樣子。
 
--   [什麼是 Windows Media Center？](#what-is-windows-media-center)
+-   [什麼是 Media Center Windows？](#what-is-windows-media-center)
 -   [10英尺體驗](#the-10-foot-experience)
     -   [安裝](#installation)
     -   [使用者輸入](#user-input)
     -   [顯示器](#display)
 -   [外觀比例和寬螢幕](#aspect-ratio-and-widescreen)
--   [標題安全區域](#title-safe-region)
+-   [標題-保管庫區域](#title-safe-region)
 -   [NTSC 建議](#ntsc-suggestions)
     -   [在16和235之間夾具 RGB 色彩元件值](#clamp-the-rgb-color-component-values-between-16-and-235)
     -   [避免可能出現相同色彩的相似色彩](#avoid-similar-colors-that-might-appear-identical)
     -   [避免對比中的清晰差異](#avoid-sharp-differences-in-contrast)
 -   [結論](#conclusion)
 
-## <a name="what-is-windows-media-center"></a>什麼是 Windows Media Center？
+## <a name="what-is-windows-media-center"></a>什麼是 Media Center Windows？
 
-Windows Media Center 可作為主機電腦的多媒體功能介面。 這項功能的網站（ [Windows Media Center 首頁](https://windows.microsoft.com/windows/products/windows-media-center/)）提供詳盡的簡介，並顯示最新版本中所有可用的絕佳東西。 Media Center 隨附于 Windows XP Media Center Edition、Windows Vista Home Premium、Windows Vista 旗艦版，以及大部分的 Windows 7 版本。
+WindowsMedia Center 可作為主機電腦的多媒體功能介面。 這項功能的網站（ [Windows Media Center 首頁](https://windows.microsoft.com/windows/products/windows-media-center/)）提供詳盡的簡介，並顯示最新版本中所有可用的絕佳東西。 media center 隨附于 Windows XP Media center Edition、Windows vista Home 進階版、Windows vista 旗艦版，以及大部分版本的 Windows 7。
 
-在過去，取得 Windows Media Center 的唯一方法是從第1層系統製造商購買 Media Center 電腦，但因為 Windows Media Center 現在隨附于兩個版本的 Windows Vista 中，所以可能的 marketplace 現在更大。
+在過去，取得 Windows media center 的唯一方法是從第1層系統製造商購買 media center PC，但因為 Windows 的 media center 現在包含兩個 Windows Vista 版本，所以可能的 marketplace 現在更大。
 
 ## <a name="the-10-foot-experience"></a>10英尺體驗
 
-Windows Media Center 的設計目的是要讓人們可以使用 Windows 來提供豐富的客廳娛樂體驗，並遵循大部分的使用者偏好與 Windows Media Center 進行不同的互動，而不是傳統的電腦應用程式。 如果客戶使用的電腦位於娛樂的客廳中，則可能會在傳統電腦監視器以外的地方顯示影片：類比電視、高定義數位電視，以及任意數量的 LCD 顯示器都可能是候選項目。 這些類型的顯示器通常會從大約10英尺的距離中看到，因此標籤的 *10 英尺體驗*。
+WindowsMedia Center 的設計目的在於人們可以使用 Windows 來提供豐富的客廳娛樂體驗，並遵循大部分的使用者偏好使用與傳統電腦應用程式不同的 Windows Media Center 進行互動。 如果客戶使用的電腦位於娛樂的客廳中，則可能會在傳統電腦監視器以外的地方顯示影片：類比電視、高定義數位電視，以及任意數量的 LCD 顯示器都可能是候選項目。 這些類型的顯示器通常會從大約10英尺的距離中看到，因此標籤的 *10 英尺體驗*。
 
-10英尺的體驗不局限于 Windows Media Center 的使用者;在最近幾年，使用者將工作站或筆記本電腦連線到其電視和音訊系統會變得很普遍。 取用者顯示器裝置在電腦上公開 RGB 或 DVI 連接（標準影片輸出埠）的情況越來越普遍。 此外，S-video 埠是高階視訊卡的一般功能，並提供簡單的方式來輸出至替代顯示裝置。
+10英尺的體驗不限於 Windows Media Center 的使用者;在最近幾年，使用者將工作站或筆記本電腦連線到其電視和音訊系統會變得很普遍。 取用者顯示器裝置在電腦上公開 RGB 或 DVI 連接（標準影片輸出埠）的情況越來越普遍。 此外，S-video 埠是高階視訊卡的一般功能，並提供簡單的方式來輸出至替代顯示裝置。
 
 您應考慮一些重要的設計指導方針，以獲得愉快的10英尺體驗：安裝、使用者輸入和顯示。
 
@@ -48,11 +48,11 @@ Windows Media Center 的設計目的是要讓人們可以使用 Windows 來提�
 
 ### <a name="user-input"></a>使用者輸入
 
-Windows Media Center 的另一項功能是支援標準遠端控制，這是一般慣用的輸入裝置。 雖然遊戲標題的類型大多會決定遙控器是否適合提供遊戲輸入，但您還是可以讓使用者使用遙控器來暫停遊戲並存取遊戲中的功能表;不過，請確定您也允許使用者使用主要遊戲輸入裝置來控制功能表。 如需設計和開發 Windows Media Center 及其裝置的詳細資訊，請參閱 MSDN 上的 [Windows Media Center 軟體發展工具組](/previous-versions/msdn10/bb895967(v=msdn.10)) （英文）。
+Windows Media Center 的另一項功能是支援標準遠端控制，這是一般慣用的輸入裝置。 雖然遊戲標題的類型大多會決定遙控器是否適合提供遊戲輸入，但您還是可以讓使用者使用遙控器來暫停遊戲並存取遊戲中的功能表;不過，請確定您也允許使用者使用主要遊戲輸入裝置來控制功能表。 如需有關設計和開發 Windows Media center 及其裝置的詳細資訊，請參閱 MSDN 上的[Windows media center 軟體發展工具組](/previous-versions/msdn10/bb895967(v=msdn.10))。
 
 避免使用者與電腦或其周邊電腦之間的任何實體互動。 需要使用者在遊戲期間變更輸入控制器是不必要的，因為他或她可能接近主要輸入裝置。
 
-Microsoft 已建立常用的遊戲控制器控制器來搭配 Windows 和 Xbox 360-適用于 Windows 的 Xbox 360 控制器和適用于 Windows 的 Xbox 360 無線控制器。 確定您的標題在通用控制器上正常運作，可減輕一些與測試您的遊戲對可能的輸入裝置相關的麻煩。
+Microsoft 建立了常用的遊戲控制器控制器，可搭配 Windows 和 Xbox 360-Windows 專用 Xbox 360 控制器和 Windows 專用 Xbox 360 無線控制器使用。 確定您的標題在通用控制器上正常運作，可減輕一些與測試您的遊戲對可能的輸入裝置相關的麻煩。
 
 ### <a name="display"></a>顯示
 
@@ -142,8 +142,8 @@ NTSC 色彩區不會提供與一般電腦監視器相同的調色板，因此當
 
 ## <a name="conclusion"></a>結論
 
-本文提供從 Windows 遊戲開發人員的角度來看的10英尺經驗，但這並不是完整的問卷;如果您要開發 Windows 遊戲標題 (，您應該進一步研究這些主題，即使它不適合與 Windows Media Center) 搭配使用也是一樣。 真正的測試是在各種影片顯示器上試用您的遊戲，以確保您的遊戲在各方面都能提供愉快的體驗。 根據 Windows 遊戲的一般存留期，以及 Windows Media Center 的使用預測成長，我們幾乎保證您今天發行的遊戲是某人的10英尺體驗的一部分，也就是客戶可以從您的 couches 玩您的遊戲，或被迫坐在辦公桌上。
+本文提供從 Windows 遊戲開發人員觀點來看的10英尺經驗，但這並不是完整的問卷;如果您要開發 Windows 的遊戲標題，您應該進一步研究這些主題 (即使它不適合與 Windows Media Center) 搭配使用也是一樣。 真正的測試是在各種影片顯示器上試用您的遊戲，以確保您的遊戲在各方面都能提供愉快的體驗。 根據 Windows 遊戲的一般存留期，以及 Windows Media Center 使用的預測成長，幾乎保證您今天發行的遊戲是某人的10英尺體驗的一部分，也就是客戶是否可以從 couches 中玩遊戲，或被迫坐在辦公桌上，是由您決定。
 
- 
+ 
 
- 
+ 

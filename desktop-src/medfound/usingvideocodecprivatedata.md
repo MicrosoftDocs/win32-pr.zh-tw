@@ -4,18 +4,18 @@ ms.assetid: 0cc24fe4-a5b6-4805-8c8e-3066d12ec4bd
 title: '使用影片編解碼器私用資料 (Microsoft 媒體基礎) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 83e86fc31a50d2c4e553b5947717ea930698d812
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d7e417d4d83cc3ae3174e1bbf3310a6abb2900e2c5f3323192a8d17643e4066f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106977253"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119887088"
 ---
 # <a name="using-video-codec-private-data-microsoft-media-foundation"></a>使用影片編解碼器私用資料 (Microsoft 媒體基礎) 
 
-Windows Media 視訊9編解碼器所產生的壓縮輸出不能正確解壓縮，而不需要編碼器提供的某些資料。 此資料（稱為編解碼器私用資料）必須附加至輸出媒體類型。 您可以藉由呼叫 [IWMCodecPrivateData](/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-iwmcodecprivatedata) 介面的方法來取得編解碼器私用資料。 將其他完整的 [**Sql-dmo \_ 媒體 \_ 類型**](/previous-versions/windows/desktop/api/mediaobj/ns-mediaobj-dmo_media_type) 結構傳遞給 [IWMCodecPrivateData：： SetPartialOutputType](/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-iwmcodecprivatedata-setpartialoutputtype)。 然後呼叫 [IWMCodecPrivateData：： GetPrivateData](/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-iwmcodecprivatedata-getprivatedata) 兩次，一次取得資料的大小，然後再將資料複製到該大小的緩衝區。 建立新的緩衝區以保存已附加私用資料的 [**VIDEOINFOHEADER**](/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader) 結構，並將結構和資料複製到該緩衝區。 最後，將 **Sql-dmo \_ 媒體 \_ 類型** 結構的 **pbFormat** 成員設定為新建立之緩衝區的位址，並將 **cbFormat** 成員設定為 **VIDEOINFOHEADER** 和私用資料的組合大小（以位元組為單位）。
+Windows Media 視訊9編解碼器所產生的壓縮輸出不能正確解壓縮，而不需要編碼器提供的某些資料。 此資料（稱為編解碼器私用資料）必須附加至輸出媒體類型。 您可以藉由呼叫 [IWMCodecPrivateData](/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-iwmcodecprivatedata) 介面的方法來取得編解碼器私用資料。 將其他完整的 [**DMO \_ 媒體 \_ 類型**](/previous-versions/windows/desktop/api/mediaobj/ns-mediaobj-dmo_media_type)結構傳遞至 [IWMCodecPrivateData：： SetPartialOutputType](/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-iwmcodecprivatedata-setpartialoutputtype)。 然後呼叫 [IWMCodecPrivateData：： GetPrivateData](/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-iwmcodecprivatedata-getprivatedata) 兩次，一次取得資料的大小，然後再將資料複製到該大小的緩衝區。 建立新的緩衝區以保存已附加私用資料的 [**VIDEOINFOHEADER**](/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader) 結構，並將結構和資料複製到該緩衝區。 最後，將 **DMO \_ 媒體 \_ 類型** 結構的 **pbFormat** 成員設定為新建立之緩衝區的位址，並將 **cbFormat** 成員設定為 **VIDEOINFOHEADER** 和私用資料的組合大小（以位元組為單位）。
 
-如果您使用的是 MediaFoundation，您可以藉由呼叫 [**MFCreateAMMediaTypeFromMFMediaType**](/windows/desktop/api/mfapi/nf-mfapi-mfcreateammediatypefrommfmediatype)，從 [**IMFMediaType**](/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype)介面建立 [**sql-dmo \_ 媒體 \_ 類型**](/previous-versions/windows/desktop/api/mediaobj/ns-mediaobj-dmo_media_type)結構。
+如果您使用 MediaFoundation，您可以藉由呼叫 [**MFCreateAMMediaTypeFromMFMediaType**](/windows/desktop/api/mfapi/nf-mfapi-mfcreateammediatypefrommfmediatype)，從 [**IMFMediaType**](/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype)介面建立 [**DMO \_ 媒體 \_ 類型**](/previous-versions/windows/desktop/api/mediaobj/ns-mediaobj-dmo_media_type)結構。
 
 在第一次設定編碼器的屬性之後，您必須使用取得的編解碼器私用資料。 如果有任何屬性變更，您就必須取得新的私用資料。 如果您未在針對編碼會話設定所有屬性之後，使用所取得的私用資料，則編碼器可能無法解壓縮資料。
 

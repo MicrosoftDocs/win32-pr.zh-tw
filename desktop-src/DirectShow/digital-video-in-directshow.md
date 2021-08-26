@@ -4,18 +4,18 @@ ms.assetid: 22400118-2f38-4130-b50c-dcfc96bf0ae9
 title: DirectShow 中的數位視訊
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a081c07472b8c790d6e0a94be2502fe20002f8f8
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 36524b5042daa6b16baa881cad407f99c5dd1314fc7bf830c6d87a407767ad7d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106972309"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119983038"
 ---
 # <a name="digital-video-in-directshow"></a>DirectShow 中的數位視訊
 
-本節概述 DirectShow 中的數位視訊 (DV) 。 它包含下列主題：
+本節提供 DirectShow 中的數位視訊 (DV) 的總覽。 它包含下列主題：
 
--   [關於 DirectShow 中的數位視訊](about-digital-video-in-directshow.md)
+-   [關於 DirectShow 的數位視訊](about-digital-video-in-directshow.md)
 -   [類型1與類型 2 DV AVI 檔案](type-1-vs--type-2-dv-avi-files.md)
 -   [捕獲 DV 至檔案](capture-dv-to-file.md)
 -   [從檔案傳輸 DV 到磁帶](transmit-dv-from-file-to-tape.md)

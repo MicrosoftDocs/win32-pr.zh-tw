@@ -4,16 +4,16 @@ ms.assetid: 8a67cc9f-f9fc-4ec3-86f9-ffe34d075830
 title: 'ITSdp：： get_MachineAddress 方法 (Sdpblb .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a34968efa16f04cba8f99dbc0dc42b0cf4995a43
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3a4e4d849c17d6c371a6edc927679e2ba6af344fbf8515310eb22b27ba4abeab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106984004"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120012928"
 ---
 # <a name="itsdpget_machineaddress-method"></a>ITSdp：： get \_ MachineAddress 方法
 
-\[ 在 Windows Vista、Windows Server 2008 和後續版本的作業系統中，無法使用會合 IP 電話語音會議控制項和介面。 RTC 用戶端 API 提供類似的功能。\]
+\[Windows Vista、Windows Server 2008 及後續版本的作業系統無法使用會合 IP 電話語音會議控制項和介面。 RTC 用戶端 API 提供類似的功能。\]
 
 **Get \_ MachineAddress** 方法會取得來源主機的電腦位址。
 
@@ -45,7 +45,7 @@ HRESULT get_MachineAddress(
 
 
 
-| 傳回碼                                                                                   | Description                                                         |
+| 傳回碼                                                                                   | 描述                                                         |
 |-----------------------------------------------------------------------------------------------|---------------------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>          | 方法成功。<br/>                                        |
 | <dl> <dt>**E \_ 指標**</dt> </dl>     | *PpMachineAddres* s 參數不是有效的指標。<br/> |

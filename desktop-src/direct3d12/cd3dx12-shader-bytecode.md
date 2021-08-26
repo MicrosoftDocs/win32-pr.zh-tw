@@ -15,12 +15,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1227c18913492d6533b08f49f5761fab1b93e97b
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 5bd984268a8dcd083b2d42573c6fa0028d2b73e7a3daacecd3fefe41c68150db
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106979870"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119988367"
 ---
 # <a name="cd3dx12_shader_bytecode-structure"></a>CD3DX12 \_ 著色器 \_ 位元組位元組結構
 

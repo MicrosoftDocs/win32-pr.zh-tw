@@ -4,17 +4,17 @@ description: 設計完善的使用者帳戶控制體驗，可協助您以可預�
 ms.assetid: c4b83537-c600-4b24-bda6-df7a82719ab1
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: bb1424254a91f935073e57bbde2c7124fd838b32
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: b0330ee3ffbf608296bcb89abe3e02ef6969500356d0cca4f45db9d24d8ff73f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111443209"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119935899"
 ---
 # <a name="user-account-control"></a>使用者帳戶控制
 
 > [!NOTE]
-> 此設計指南是針對 Windows 7 所建立，而且尚未針對較新版本的 Windows 更新。 大部分的指引仍然適用于準則，但展示和範例不會反映我們目前的 [設計指引](/windows/uwp/design/)。
+> 此設計指南是針對 Windows 7 所建立，而且尚未針對較新的 Windows 版本進行更新。 大部分的指引仍然適用于準則，但展示和範例不會反映我們目前的 [設計指引](/windows/uwp/design/)。
 
 設計完善的使用者帳戶控制體驗，可協助您以可預測的方式來避免不必要的全系統變更，並需要進行極低的努力。
 
@@ -41,13 +41,13 @@ UAC 提供下列優點：
 
 在 Windows Vista 中，受保護的系統管理員可以選擇收到所有系統變更或無的通知。 UAC 預設設定是要通知所有變更，不論其來源為何。 當您收到通知時，您的桌面會變成暗灰色，而且您必須在 UAC 對話方塊中核准或拒絕要求，才能在電腦上進行任何其他動作。 您的桌面變暗，稱為 [安全桌面](glossary.md) ，因為其他程式在暗灰色時無法執行。
 
-除了 Windows Vista 中的兩者之外，Windows 7 還引進了兩個受保護系統管理員的中繼 UAC 設定。 第一個是要在程式進行變更時通知使用者，讓系統管理員在進行變更時自動提升許可權。 這是 Windows 7 中的 UAC 預設設定，也會使用安全桌面。
+除了 Windows Vista 以外的兩項之外，Windows 7 還引進了兩個受保護系統管理員的中繼 UAC 設定。 第一個是要在程式進行變更時通知使用者，讓系統管理員在進行變更時自動提升許可權。 這是 Windows 7 中的 UAC 預設設定，也會使用安全桌面。
 
-Windows 7 中的第二個中繼設定與第一個設定相同，差別在於它不會使用安全桌面。
+Windows 7 中的第二個中繼設定與第一個設定相同，不同之處在于它不會使用安全桌面。
 
 ![windows 7 中四個 uac 設定的螢幕擷取畫面 ](images/winenv-uac-image3.png)
 
-Windows 7 引進兩個中繼 UAC 設定。
+Windows 7 導入了兩個中繼 UAC 設定。
 
 **注意：** 與撰寫程式 [代碼以支援使用者帳戶控制](/previous-versions/aa905330(v=msdn.10)) 相關的指導方針會在個別的文章中顯示。
 
@@ -101,7 +101,7 @@ Windows 7 引進兩個中繼 UAC 設定。
 
     ![[日期和時間] 對話方塊的螢幕擷取畫面 ](images/winenv-uac-image7.png)
 
-    在此範例中，Windows 7 和 Windows Vista 中的時區功能已經過重新設計，可供所有使用者使用。
+    在此範例中，時區功能已在 Windows 7 和 Windows Vista 中重新設計，以供所有使用者使用。
 
 2.  **為標準使用者和系統管理員提供個別的 UI 元素。** 明確地分隔標準使用者工作與系統管理工作。 讓所有使用者都能存取有用的唯讀資訊。 使用 UAC 防護來清楚識別系統管理工作。
 
@@ -117,7 +117,7 @@ Windows 7 引進兩個中繼 UAC 設定。
 
 4.  **僅適用于系統管理員。** 這種方法只適用于系統管理員功能和程式！ 如果功能僅供系統 (管理員使用，且沒有適用于標準使用者) 的導覽路徑或有用的唯讀資訊，您可以在顯示任何 UI 之前，在進入點提示輸入系統管理員認證。 當所有路徑都需要系統管理許可權時，請使用此方法來處理冗長的嚮導和 [分頁流程](glossary.md) 。
 
-    如果整個程式僅供系統管理員，請將它標示為提示輸入系統管理員認證，才能啟動。 Windows 會顯示具有 UAC 防護覆迭的程式圖示。
+    如果整個程式僅供系統管理員，請將它標示為提示輸入系統管理員認證，才能啟動。 Windows 會以 UAC 防護覆迭顯示這類程式圖示。
 
     ![windows 標誌和 uac 防護的螢幕擷取畫面 ](images/winenv-uac-image10.png)
 
@@ -128,7 +128,7 @@ Windows 7 引進兩個中繼 UAC 設定。
 ### <a name="uac-shield-icon"></a>UAC 防護圖示
 
 -   **使用 uac 防護顯示控制項，指出當 uac 完全啟用時，工作需要立即提高許可權，** 即使 uac 目前未完全啟用也是如此。 如果 wizard 和 [頁面流程](glossary.md) 的所有路徑都需要提高許可權，請在工作的進入點顯示 UAC 盾牌。 UAC 防護的適當使用可協助使用者在需要提高許可權時進行預測。
--   **如果您的程式支援多個版本的 Windows，如果至少有一個版本需要提高許可權，就會顯示 UAC 防護程式。** 由於 Windows XP 不需要提高許可權，因此如果您可以一致且不會危害效能，請考慮移除 Windows XP 的 UAC 防護。
+-   **如果您的程式支援多個版本的 Windows，如果至少有一個版本需要提高許可權，就會顯示 UAC 防護板。** 由於 Windows XP 絕對不需要提高許可權，因此如果您可以一致且不會危害效能，請考慮移除 Windows XP 的 UAC 防護。
 -   **請勿在大部分內容中都不需要提高許可權的工作上顯示 UAC 防護板。** 因為這種方法有時會造成誤導，所以慣用的方法是改為使用適當受防護的內容相關命令。
 
     ![windows explorer 中相片檔案的螢幕擷取畫面 ](images/winenv-uac-image11.png)

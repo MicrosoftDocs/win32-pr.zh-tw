@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: e56dd807d28ba6952cd20c971b675b83687a3015
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 14dc76cb8ac3875101c42beb581c7eb2b96eb7511c85e7f76cd034658afcca3d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106974898"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119985578"
 ---
 # <a name="id3dxprtenginecomputedirectlightingshgpu-method"></a>ID3DXPRTEngine：： ComputeDirectLightingSHGPU 方法
 
@@ -59,7 +59,7 @@ HRESULT ComputeDirectLightingSHGPU(
 
 </dd> <dt>
 
-*Flags* \[in\]
+*旗標* \[在\]
 </dt> <dd>
 
 類型： **[ **UINT**](../winprog/windows-data-types.md)**

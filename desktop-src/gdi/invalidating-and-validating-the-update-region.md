@@ -4,12 +4,12 @@ ms.assetid: ec8abb77-47bc-4198-9daf-f2ccb0864ccc
 title: 使更新區域失效並進行驗證
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7ba895875f9ec1350b6eb28ccb8f1721df6999ce
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d6813d88674ef0339cfd3501b561e5a7c95fa5b41f0c7f212e625f9846f5beb5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972661"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119944168"
 ---
 # <a name="invalidating-and-validating-the-update-region"></a>使更新區域失效並進行驗證
 

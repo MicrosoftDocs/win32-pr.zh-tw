@@ -3,7 +3,7 @@ title: 'PBM_GETRANGE 訊息 (Commctrl .h) '
 description: 抓取指定進度列控制項目前最高和最低限制的相關資訊。
 ms.assetid: 676b7a37-bdde-4307-9888-9a0cf40db2db
 keywords:
-- PBM_GETRANGE message Windows 控制項
+- PBM_GETRANGE 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e0c4ffe9365686432a5e78cb1540055f41a838fc
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 007a62386180e7b47edca201236cd1dacc86df696b5705d02ec1da0acb89761c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934722"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119986398"
 ---
 # <a name="pbm_getrange-message"></a>PBM \_ GETRANGE 訊息
 
@@ -64,8 +64,8 @@ ms.locfileid: "103934722"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

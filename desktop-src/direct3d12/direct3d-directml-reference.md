@@ -1,20 +1,20 @@
 ---
 title: DirectML 參考
-description: 本節涵蓋在 DirectML 中宣告的直接 Machine Learning (DirectML) Api。
+description: 本節涵蓋在 DirectML 中宣告的直接機器學習 (DirectML) api。
 ms.localizationpriority: low
 ms.topic: article
 ms.date: 04/19/2019
 ms.custom: 19H1
-ms.openlocfilehash: 982b66e9ee07a6506e7b45ba67de7c44a8648cc4
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9d619a066fbbb323b957a7cbbe533f0852eabcd76a2389ee6855b6bcdc48a785
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106969462"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119987818"
 ---
 # <a name="directml-reference"></a>DirectML 參考
 
-本節涵蓋在 DirectML 中宣告的直接 Machine Learning (DirectML) Api。
+本節涵蓋在 DirectML 中宣告的直接機器學習 (DirectML) api。
 
 ## <a name="in-this-section"></a>本節內容
 

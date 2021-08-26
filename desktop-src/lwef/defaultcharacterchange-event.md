@@ -4,16 +4,16 @@ description: DefaultCharacterChange 事件
 ms.assetid: 14b86a44-8fd2-4719-b7b5-cdcc618d27cd
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ab92fe04f9c42466d559e9b4610eafc8490556d6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: eed166608d3f3b874e975ff58f600d24b73b50e293333b841039b2240780b4de
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372384"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119963128"
 ---
 # <a name="defaultcharacterchange-event"></a>DefaultCharacterChange 事件
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 <dl> <dt>
 
@@ -37,7 +37,7 @@ ms.locfileid: "104372384"
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -52,9 +52,9 @@ ms.locfileid: "104372384"
 [**ShowDefaultCharacterProperties 方法**](showdefaultcharacterproperties-method.md)， [ **Load 方法**](load-method.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

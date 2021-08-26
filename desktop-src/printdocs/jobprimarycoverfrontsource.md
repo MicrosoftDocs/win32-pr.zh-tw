@@ -4,12 +4,12 @@ ms.assetid: f27c5e65-87b0-47a4-a5dc-27b52082f097
 title: JobPrimaryCoverFrontSource
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6e4698d826e59e513d5eb171381cd1b18ea4a751
-ms.sourcegitcommit: 998d50f6def8a25850fc113fc8a2df903c829c5e
+ms.openlocfilehash: a2602027aa6ae861be06d6364f557ec14888a15c7ebb46fb7b7165b14760acfa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "113549396"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119948588"
 ---
 # <a name="jobprimarycoverfrontsource"></a>JobPrimaryCoverFrontSource
 
@@ -24,7 +24,7 @@ ms.locfileid: "113549396"
 
 
 
-| Name | 值 |
+| 名稱 | 值 |
 |----------------------------|--------------------------------------------|
 | 項目類型 <br/>   | ParameterDef<br/>                    |
 | 範圍前置詞 <br/> | 工作 (Job)<br/>                             |
@@ -73,8 +73,8 @@ ms.locfileid: "113549396"
 | DefaultValue<br/> | 字串<br/>  | 未定義<br/>       |
 | MaxLength<br/>    | 整數<br/> | 未定義<br/>       |
 | MinLength<br/>    | 整數<br/> | 1<br/>               |
-| 強制性<br/>    | string<br/>  | psk：條件式<br/> |
-| Unittype.pixel 表示<br/>     | string<br/>  | 字元<br/>      |
+| 強制性<br/>    | 字串<br/>  | psk：條件式<br/> |
+| Unittype.pixel 表示<br/>     | 字串<br/>  | 字元<br/>      |
 
 
 

@@ -1,18 +1,18 @@
 ---
-title: 使用 Direct3D 12 的管線和著色器
+title: 使用 Direct3D 12 的 Pipelines 和著色器
 description: 相較于上一代圖形程式設計介面，Direct3D 12 程式化管線可大幅提高轉譯效能。
 ms.assetid: 329882F5-D2A9-4D6D-AC3B-29F370D22C97
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e2c392b3915443da2f287a5511f3959cbb7179f
-ms.sourcegitcommit: af9983bab40fe0b042f177ce7ca79f2eb0f9d0e8
+ms.openlocfilehash: 8fd4ab60573fca9b9dce6759b5f87969199f83aed08aaa44a01f1501c402080e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "104548383"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119952923"
 ---
-# <a name="pipelines-and-shaders-with-direct3d-12"></a>使用 Direct3D 12 的管線和著色器
+# <a name="pipelines-and-shaders-with-direct3d-12"></a>使用 Direct3D 12 的 Pipelines 和著色器
 
 相較于上一代圖形程式設計介面，Direct3D 12 程式化管線可大幅提高轉譯效能。
 

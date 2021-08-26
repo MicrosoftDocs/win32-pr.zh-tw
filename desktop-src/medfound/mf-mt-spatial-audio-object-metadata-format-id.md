@@ -4,12 +4,12 @@ ms.assetid: 9714A2C7-25A1-4735-A0AC-22329ECBBC46
 title: 'MF_MT_SPATIAL_AUDIO_OBJECT_METADATA_FORMAT_ID 屬性 (Mfapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ed16188a24b4c61facf1e325867d093b9b5cc869
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5b43751655f2a583d50c8de3fe108babcaa08d11d78df552b6ddf1f10e413be8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193016"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119955498"
 ---
 # <a name="mf_mt_spatial_audio_object_metadata_format_id-attribute"></a>MF \_ MT \_ 空間 \_ 音訊 \_ 物件 \_ 中繼資料 \_ 格式 \_ 識別碼屬性
 

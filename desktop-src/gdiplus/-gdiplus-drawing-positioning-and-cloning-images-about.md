@@ -4,12 +4,12 @@ ms.assetid: 0ad2a132-6db6-4099-81a2-10e1cd1b1f61
 title: 繪製、定位和複製影像
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aa265a8f75cbfcaf0ff614ded4466482e5b986b6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e37e53ce3937d4f10b91a92e64feec57c6b39e718e7b551e4e4130569d4dd90d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192331"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120015148"
 ---
 # <a name="drawing-positioning-and-cloning-images"></a>繪製、定位和複製影像
 
