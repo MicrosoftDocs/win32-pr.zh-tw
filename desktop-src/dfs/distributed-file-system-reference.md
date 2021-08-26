@@ -4,12 +4,12 @@ description: DFS API 包含下列元素
 ms.assetid: 42e7f84a-ce25-4cb4-95ae-2a6f90912e0a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cd646fd7f51e0dc202de8511ad9f80a6df98b848
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: cfc97ac00800e296f12d7a44de7c8ae06ea5735d9f85fa08f2f930cf696549d5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104468512"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120070218"
 ---
 # <a name="distributed-file-system-reference"></a>分散式檔案系統參考
 

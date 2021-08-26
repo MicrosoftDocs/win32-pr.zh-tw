@@ -4,16 +4,16 @@ ms.assetid: 34fd4d15-ee64-4acf-967d-a4afb6f26329
 title: 複製及存取 (Direct3D 10) 的資源資料
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 38bd075585ee3123e163075a50b06b53a77a214c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: bdbe3ec1dc970635a08cea455927f21d8928f48d
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103688936"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122466835"
 ---
 # <a name="copying-and-accessing-resource-data-direct3d-10"></a>複製及存取 (Direct3D 10) 的資源資料
 
-您不再需要考慮在影片記憶體或系統記憶體中建立的資源。 或執行時間是否應該管理記憶體。 由於新的 WDDM (Windows 顯示驅動程式模型) 的架構，應用程式現在會使用不同的 [**使用**](/windows/desktop/api/D3D10/ne-d3d10-d3d10_usage) 方式旗標來建立 Direct3D 10 資源，以指出應用程式如何使用資源資料。 新的驅動程式模型會虛擬化資源所使用的記憶體;然後，作業系統/驅動程式/記憶體管理員會負責將資源放在最具效能的記憶體區域中，以提供預期的使用量。
+您不再需要考慮在影片記憶體或系統記憶體中建立的資源。 或執行時間是否應該管理記憶體。 由於新的 WDDM (Windows 顯示驅動程式模型) ，應用程式現在會使用不同的 [**使用**](/windows/desktop/api/D3D10/ne-d3d10-d3d10_usage)方式旗標來建立 Direct3D 10 資源，以指出應用程式如何使用資源資料。 新的驅動程式模型會虛擬化資源所使用的記憶體;然後，作業系統/驅動程式/記憶體管理員會負責將資源放在最具效能的記憶體區域中，以提供預期的使用量。
 
 在預設案例下，資源可供 GPU 使用。 當然，在某些情況下，CPU 的資源資料必須可供使用。 若要將資源予以複製，使適當的處理器可在不影響效能的情況下進行存取，您需要具備 API 方法運作方式的基本知識。
 
@@ -76,53 +76,15 @@ Direct3D 10 中的非同步呼叫 (是大部分的方法，尤其是轉譯呼叫
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Frame</th>
-<th>GPU/CPU 狀態</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>N</td>
-<td><ul>
-<li>CPU 為目前的影格送出轉譯呼叫。</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>N+1</td>
-<td><ul>
-<li>GPU 執行 CPU 在第 N 個影格時送出的呼叫。</li>
-<li>CPU 為目前的影格送出轉譯呼叫。</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>N+2</td>
-<td><ul>
-<li>GPU 完成執行 CPU 在第 N 個影格時送出的呼叫。結果準備就緒。</li>
-<li>GPU 執行 CPU 在第 N+1 個影格時送出的呼叫。</li>
-<li>CPU 為目前的影格送出轉譯呼叫。</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>N+3</td>
-<td><ul>
-<li>GPU 完成執行 CPU 在第 N+1 個影格時送出的呼叫。 結果準備就緒。</li>
-<li>GPU 執行 CPU 在第 N+2 個影格時送出的呼叫。</li>
-<li>CPU 為目前的影格送出轉譯呼叫。</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>N+4</td>
-<td>...</td>
-</tr>
-</tbody>
-</table>
+
+| Frame | GPU/CPU 狀態 | 
+|-------|----------------|
+| N | <ul><li>CPU 為目前的影格送出轉譯呼叫。</li></ul> | 
+| N+1 | <ul><li>GPU 執行 CPU 在第 N 個影格時送出的呼叫。</li><li>CPU 為目前的影格送出轉譯呼叫。</li></ul> | 
+| N+2 | <ul><li>GPU 完成執行 CPU 在第 N 個影格時送出的呼叫。結果準備就緒。</li><li>GPU 執行 CPU 在第 N+1 個影格時送出的呼叫。</li><li>CPU 為目前的影格送出轉譯呼叫。</li></ul> | 
+| N+3 | <ul><li>GPU 完成執行 CPU 在第 N+1 個影格時送出的呼叫。 結果準備就緒。</li><li>GPU 執行 CPU 在第 N+2 個影格時送出的呼叫。</li><li>CPU 為目前的影格送出轉譯呼叫。</li></ul> | 
+| N+4 | ... | 
+
 
 
 

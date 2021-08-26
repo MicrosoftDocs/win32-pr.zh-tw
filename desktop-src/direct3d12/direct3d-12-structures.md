@@ -6,12 +6,12 @@ ms.localizationpriority: low
 ms.topic: article
 ms.date: 04/19/2019
 ms.custom: 19H1
-ms.openlocfilehash: 4222e9637d87f5c2a6df7a296465c8b9d148dde87a6698f8296fb0a1ed646345
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 5dd546055c22711ecd9a3796e520ad034e9e46c6
+ms.sourcegitcommit: 0dec0044816af3f2b2e6403659e1cf11138c90cd
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119608548"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "121812683"
 ---
 # <a name="core-structures"></a>核心結構
 

@@ -3,18 +3,18 @@ title: Windows Media Player SDK) 的按鈕 (
 description: 按鈕
 ms.assetid: 1212e2d9-e8f8-45d8-8c7f-20865c9c9c94
 keywords:
-- Windows Media Player 行動外觀面板，按鈕總覽
+- Windows Media Player行動外觀，按鈕總覽
 - 外觀，按鈕總覽
 - 外觀、按鈕的參考
 - 面板中的按鈕，關於
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a0f06eb2fe21ee18a24f92e92d4fa760e9c76887
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 96128c723c5b8bbac31c82a32060704bc892dfb7
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104093708"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122885538"
 ---
 # <a name="buttons-windows-media-player-sdk"></a>Windows Media Player SDK) 的按鈕 (
 
@@ -53,7 +53,7 @@ ms.locfileid: "104093708"
 
 
 
-同樣地，請注意，這些應輸入為單一行，第一個開頭為 "// <Function> " 且結尾為 " &lt; Push 2 Image Src &gt; "。 第二行的開頭為 "//----------"，結尾為 "------------------."
+同樣地，請注意，這些應輸入為單一行，第一個開頭為 "// &lt; Function &gt; "，結尾為 " &lt; Push 2 Image Src &gt; "。 第二行的開頭為 "//----------"，結尾為 "------------------."
 
 按鈕區段中每一行的按鈕資訊必須以下列順序顯示。 只有行的前六個部分是必要的。 除非必要，否則不會包含次要映射。
 

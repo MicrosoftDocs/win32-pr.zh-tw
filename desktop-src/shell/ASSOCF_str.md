@@ -4,12 +4,12 @@ ms.assetid: e67d0282-9090-43e6-aedf-bb1fc0443221
 title: ASSOCF 列舉
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 70ddb0b4fb89925c643eb01c276772b9a7151578
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
-ms.translationtype: HT
+ms.openlocfilehash: 3d52de3ce181033358fc20ca3e4f8759b61f72ed
+ms.sourcegitcommit: 4e94fc75fad7b2a0f3c92a26f97e89924e59b7a9
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "104195789"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "122786694"
 ---
 # <a name="assocf-enumeration"></a>ASSOCF 列舉
 
@@ -17,26 +17,13 @@ ms.locfileid: "104195789"
 
 ## <a name="syntax"></a>Syntax
 
-<span codelanguage="ManagedCPlusPlus"></span>
 
-<table><colgroup><col style="width: 100%" /></colgroup><thead><tr class="header"><th>C++</th></tr></thead><tbody><tr class="odd"><td><pre><code>typedef enum  { 
-  ASSOCF_NONE                  = 0x00000000,
-  ASSOCF_INIT_NOREMAPCLSID     = 0x00000001,
-  ASSOCF_INIT_BYEXENAME        = 0x00000002,
-  ASSOCF_OPEN_BYEXENAME        = 0x00000002,
-  ASSOCF_INIT_DEFAULTTOSTAR    = 0x00000004,
-  ASSOCF_INIT_DEFAULTTOFOLDER  = 0x00000008,
-  ASSOCF_NOUSERSETTINGS        = 0x00000010,
-  ASSOCF_NOTRUNCATE            = 0x00000020,
-  ASSOCF_VERIFY                = 0x00000040,
-  ASSOCF_REMAPRUNDLL           = 0x00000080,
-  ASSOCF_NOFIXUPS              = 0x00000100,
-  ASSOCF_IGNOREBASECLASS       = 0x00000200,
-  ASSOCF_INIT_IGNOREUNKNOWN    = 0x00000400,
-  ASSOCF_INIT_FIXED_PROGID     = 0x00000800,
-  ASSOCF_IS_PROTOCOL           = 0x00001000,
-  ASSOCF_INIT_FOR_FILE         = 0x00002000
-} ASSOCF;</code></pre></td></tr></tbody></table>
+
+
+| C++ | 
+|-----|
+| <pre><code>typedef enum  {   ASSOCF_NONE                  = 0x00000000,  ASSOCF_INIT_NOREMAPCLSID     = 0x00000001,  ASSOCF_INIT_BYEXENAME        = 0x00000002,  ASSOCF_OPEN_BYEXENAME        = 0x00000002,  ASSOCF_INIT_DEFAULTTOSTAR    = 0x00000004,  ASSOCF_INIT_DEFAULTTOFOLDER  = 0x00000008,  ASSOCF_NOUSERSETTINGS        = 0x00000010,  ASSOCF_NOTRUNCATE            = 0x00000020,  ASSOCF_VERIFY                = 0x00000040,  ASSOCF_REMAPRUNDLL           = 0x00000080,  ASSOCF_NOFIXUPS              = 0x00000100,  ASSOCF_IGNOREBASECLASS       = 0x00000200,  ASSOCF_INIT_IGNOREUNKNOWN    = 0x00000400,  ASSOCF_INIT_FIXED_PROGID     = 0x00000800,  ASSOCF_IS_PROTOCOL           = 0x00001000,  ASSOCF_INIT_FOR_FILE         = 0x00002000} ASSOCF;</code></pre> | 
+
 
 
 
@@ -52,7 +39,7 @@ ms.locfileid: "104195789"
 
  <span id="ASSOCF_INIT_BYEXENAME"></span><span id="assocf_init_byexename"></span>**ASSOCF \_ INIT \_ BYEXENAME** 
 
-識別 [**IQueryAssociations：： Init**](/windows/win32/api/shlwapi/nf-shlwapi-iqueryassociations-init)的 *pwszAssoc* 參數值，做為可執行檔名稱。 如果未設定此旗標，則會將根機碼設定為與 **.exe** 索引鍵相關聯的 progid，而不是可執行檔的 progid。
+識別 [**IQueryAssociations：： Init**](/windows/win32/api/shlwapi/nf-shlwapi-iqueryassociations-init)的 *pwszAssoc* 參數值，做為可執行檔名稱。 如果未設定此旗標，則會將根金鑰設定為與 **.exe** 索引鍵相關聯的 progid，而不是可執行檔的 progid。
 
  <span id="ASSOCF_OPEN_BYEXENAME"></span><span id="assocf_open_byexename"></span>**ASSOCF \_ 開啟 \_ BYEXENAME** 
 
@@ -76,15 +63,15 @@ ms.locfileid: "104195789"
 
  <span id="ASSOCF_VERIFY"></span><span id="assocf_verify"></span>**ASSOCF \_ 確認** 
 
-指示 [**IQueryAssociations**](/windows/win32/api/shlwapi/nn-shlwapi-iqueryassociations) 方法驗證資料是否正確。 此設定可讓 **IQueryAssociations** 方法從使用者的硬碟讀取資料以進行驗證。 例如，他們可以在登錄中檢查儲存在 .exe 檔案中的易記名稱。 設定此旗標通常可減少方法的效率。
+指示 [**IQueryAssociations**](/windows/win32/api/shlwapi/nn-shlwapi-iqueryassociations) 方法驗證資料是否正確。 此設定可讓 **IQueryAssociations** 方法從使用者的硬碟讀取資料以進行驗證。 例如，他們可以針對儲存在 .exe 檔案中的檔案，檢查登錄中的易記名稱。 設定此旗標通常可減少方法的效率。
 
  <span id="ASSOCF_REMAPRUNDLL"></span><span id="assocf_remaprundll"></span>**ASSOCF \_ REMAPRUNDLL** 
 
-指示 [**IQueryAssociations**](/windows/win32/api/shlwapi/nn-shlwapi-iqueryassociations) 方法略過 Rundll.exe，並傳回其目標的相關資訊。 通常 **IQueryAssociations** 方法會傳回命令字串中的第一個 .exe 或 .dll 的相關資訊。 如果命令使用 Rundll.exe，設定這個旗標會告知方法忽略 Rundll.exe 並傳回其目標的相關資訊。
+指示 [**IQueryAssociations**](/windows/win32/api/shlwapi/nn-shlwapi-iqueryassociations) 方法略過 Rundll.exe，並傳回其目標的相關資訊。 通常 **IQueryAssociations** 方法會傳回命令字串中第一個 .exe 或 .dll 的相關資訊。 如果命令使用 Rundll.exe，設定這個旗標會告知方法忽略 Rundll.exe 並傳回其目標的相關資訊。
 
  <span id="ASSOCF_NOFIXUPS"></span><span id="assocf_nofixups"></span>**ASSOCF \_ NOFIXUPS** 
 
-指示 [**IQueryAssociations**](/windows/win32/api/shlwapi/nn-shlwapi-iqueryassociations) 方法不要修正登錄中的錯誤，例如函式的易記名稱與 .exe 檔案中找到的函式不相符。
+指示 [**IQueryAssociations**](/windows/win32/api/shlwapi/nn-shlwapi-iqueryassociations) 方法不要修正登錄中的錯誤，例如函式的易記名稱不符合 .exe 檔案中找到的函式。
 
  <span id="ASSOCF_IGNOREBASECLASS"></span><span id="assocf_ignorebaseclass"></span>**ASSOCF \_ IGNOREBASECLASS** 
 
@@ -92,7 +79,7 @@ ms.locfileid: "104195789"
 
  <span id="ASSOCF_INIT_IGNOREUNKNOWN"></span><span id="assocf_init_ignoreunknown"></span>**ASSOCF \_ INIT \_ IGNOREUNKNOWN** 
 
-**在 Windows 7 中引進**。 指定應忽略「未知」 ProgID;相反地，會失敗。
+**Windows 7 中引進**。 指定應忽略「未知」 ProgID;相反地，會失敗。
 
  <span id="ASSOCF_INIT_FIXED_PROGID"></span><span id="assocf_init_fixed_progid"></span>**ASSOCF \_ INIT \_ FIXED \_ PROGID** 
 
@@ -114,7 +101,7 @@ ms.locfileid: "104195789"
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| 最低支援的用戶端 | 僅限 windows 2000 Professional、Windows XP \[ desktop 應用程式\]               |
+| 最低支援的用戶端 | Windows 2000 Professional，僅 Windows XP \[ desktop 應用程式\]               |
 | 最低支援的伺服器 | Windows 2000 Server \[僅限傳統型應用程式\]                                 |
 | 標頭                   |  Shlwapi。h  |
 

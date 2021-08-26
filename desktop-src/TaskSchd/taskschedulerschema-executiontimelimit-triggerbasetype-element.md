@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 82c891e5d6646ead421eea337e5f1f182717165505db50216a44c71f24549223
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6e958c6a2b873bb78e66645ce2a2ae8100e2acbc
+ms.sourcegitcommit: 0dec0044816af3f2b2e6403659e1cf11138c90cd
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119059786"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "121812528"
 ---
 # <a name="executiontimelimit-triggerbasetype-element"></a>ExecutionTimeLimit (triggerBaseType) 元素
 

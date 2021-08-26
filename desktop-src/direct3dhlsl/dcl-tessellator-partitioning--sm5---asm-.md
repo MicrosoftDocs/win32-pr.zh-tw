@@ -4,12 +4,12 @@ description: 在 [輪廓著色器宣告] 區段中宣告鑲嵌資料分割。
 ms.assetid: 6EA00C6B-A0DE-4CE4-8B52-1337CA92CA5E
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c6f6091301f95dd2364debec2bf54c0966c0e64
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: ae40873db4042e568ae637634e75db6f4746985a316bf9c1e092e6b0925b51b2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104373899"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120068498"
 ---
 # <a name="dcl_tessellator_partitioning-sm5---asm"></a>dcl \_ 鑲嵌 \_ 分割 (sm5-asm) 
 
@@ -42,7 +42,7 @@ ms.locfileid: "104373899"
 
 
 
-| 頂點 | 船體                 | 網域 | 幾何 | 像素 | 計算 |
+| 頂點 | 船體                 | 網域 | 幾何形狀 | 像素 | 計算 |
 |--------|----------------------|--------|----------|-------|---------|
 |        | 宣告區段 |        |          |       |         |
 
@@ -59,11 +59,11 @@ ms.locfileid: "104373899"
 | 著色器模型                                              | 支援 |
 |-----------------------------------------------------------|-----------|
 | [著色器模型5](d3d11-graphics-reference-sm5.md)        | 是       |
-| [著色器模型4。1](dx-graphics-hlsl-sm4.md)              | 不可以        |
-| [著色器模型4](dx-graphics-hlsl-sm4.md)                | 不可以        |
-| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 不可以        |
-| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 不可以        |
-| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 不可以        |
+| [著色器模型4。1](dx-graphics-hlsl-sm4.md)              | 否        |
+| [著色器模型4](dx-graphics-hlsl-sm4.md)                | 否        |
+| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 否        |
+| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 否        |
+| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 否        |
 
 
 

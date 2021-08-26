@@ -8,12 +8,12 @@ ms:contentKeyID: 74520139
 ms.date: 03/30/2018
 ms.topic: article
 mtps_version: v=VS.85
-ms.openlocfilehash: c9192bf650588b7c21f17afb45149fe460f91bea
-ms.sourcegitcommit: ecd0ba4732f5264aab9baa2839c11f7fea36318f
+ms.openlocfilehash: 216952ac05811226c403739d389f8de9f636c3b8
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "113481863"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122880531"
 ---
 # <a name="setting-the-default-dpi-awareness-for-a-process"></a>設定進程的預設 DPI 感知
 
@@ -33,44 +33,14 @@ Windows 上的桌面應用程式可以在不同的 DPI 感知模式下執行。 
 
 下表說明如何使用兩個資訊清單設定來指定不同的進程預設 DPI 感知模式：
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>處理預設的 DPI 感知模式</th>
-<th>&lt;DPIAware &gt; 設定</th>
-<th>&lt;DPIAwareness &gt; 設定 (Windows 10，1607版和更新版本) </th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>知道</td>
-<td><p>N/A (資訊清單) 中沒有任何 DPIAware 設定</p>
-<p>或</p>
-<p>&lt;DPIAware &gt; false &lt; /DPIAware&gt;</p></td>
-<td>&lt;DPIAwareness 不 &gt; 知道 &lt; /DPIAwareness&gt;</td>
-</tr>
-<tr class="even">
-<td>系統感知</td>
-<td>&lt;DPIAware &gt; true &lt; /DPIAware&gt;</td>
-<td>&lt;DPIAwareness &gt; 系統 &lt; /DPIAwareness&gt;</td>
-</tr>
-<tr class="odd">
-<td>每個監視器</td>
-<td>&lt;DPIAware &gt; true/pm &lt; DPIAware&gt;</td>
-<td>&lt;DPIAwareness &gt; PerMonitor &lt; /DPIAwareness&gt;</td>
-</tr>
-<tr class="even">
-<td>每個監視器 V2</td>
-<td>不支援</td>
-<td>&lt;DPIAwareness &gt; PerMonitorV2 &lt; /DPIAwareness&gt;</td>
-</tr>
-</tbody>
-</table>
+
+| 處理預設的 DPI 感知模式 | &lt;DPIAware &gt; 設定 | &lt;DPIAwareness &gt; 設定 (Windows 10，1607版和更新版本)  | 
+|------------------------------------|--------------------|--------------------------------------------------------------|
+| 知道 | <p>N/A (資訊清單) 中沒有任何 DPIAware 設定</p><p>或</p><p>&lt;DPIAware &gt; false &lt; /DPIAware&gt;</p> | &lt;DPIAwareness 不 &gt; 知道 &lt; /DPIAwareness&gt; | 
+| 系統感知 | &lt;DPIAware &gt; true &lt; /DPIAware&gt; | &lt;DPIAwareness &gt; 系統 &lt; /DPIAwareness&gt; | 
+| 每個監視器 | &lt;DPIAware &gt; true/pm &lt; DPIAware&gt; | &lt;DPIAwareness &gt; PerMonitor &lt; /DPIAwareness&gt; | 
+| 每個監視器 V2 | 不支援 | &lt;DPIAwareness &gt; PerMonitorV2 &lt; /DPIAwareness&gt; | 
+
 
  
 
@@ -96,48 +66,13 @@ Windows 上的桌面應用程式可以在不同的 DPI 感知模式下執行。 
 
  
 
-<table>
-<colgroup>
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>API</th>
-<th>Windows 的最小版本</th>
-<th>不知道 DPI</th>
-<th>系統 DPI 感知</th>
-<th>每台監視器 DPI 感知</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="/windows/win32/api/winuser/nf-winuser-setprocessdpiaware">SetProcessDPIAware</a></td>
-<td>Windows Vista</td>
-<td>N/A</td>
-<td>SetProcessDPIAware () </td>
-<td>N/A</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/win32/api/shellscalingapi/nf-shellscalingapi-setprocessdpiawareness"><strong>SetProcessDpiAwareness</strong></a></td>
-<td>Windows 8.1</td>
-<td>SetProcessDpiAwareness (PROCESS_DPI_UNAWARE) </td>
-<td>SetProcessDpiAwareness (PROCESS_SYSTEM_DPI_AWARE) </td>
-<td>SetProcessDpiAwareness (PROCESS_PER_MONITOR_DPI_AWARE) </td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/win32/api/winuser/nf-winuser-setprocessdpiawarenesscontext"><strong>SetProcessDpiAwarenessCoNtext</strong></a></td>
-<td>Windows 10 (版本 1607)</td>
-<td>SetProcessDpiAwarenessCoNtext (DPI_AWARENESS_CONTEXT_UNAWARE) </td>
-<td>SetProcessDpiAwarenessCoNtext (DPI_AWARENESS_CONTEXT_SYSTEM_AWARE) </td>
-<td><p>SetProcessDpiAwarenessCoNtext (DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE) </p>
-<p>SetProcessDpiAwarenessCoNtext (DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE_V2) </p></td>
-</tr>
-</tbody>
-</table>
+
+| API | Windows 的最小版本 | 不知道 DPI | 系統 DPI 感知 | 每台監視器 DPI 感知 | 
+|-----|----------------------------|-------------|------------------|-----------------------|
+| <a href="/windows/win32/api/winuser/nf-winuser-setprocessdpiaware">SetProcessDPIAware</a> | Windows Vista | N/A | SetProcessDPIAware ()  | N/A | 
+| <a href="/windows/win32/api/shellscalingapi/nf-shellscalingapi-setprocessdpiawareness"><strong>SetProcessDpiAwareness</strong></a> | Windows 8.1 | SetProcessDpiAwareness (PROCESS_DPI_UNAWARE)  | SetProcessDpiAwareness (PROCESS_SYSTEM_DPI_AWARE)  | SetProcessDpiAwareness (PROCESS_PER_MONITOR_DPI_AWARE)  | 
+| <a href="/windows/win32/api/winuser/nf-winuser-setprocessdpiawarenesscontext"><strong>SetProcessDpiAwarenessCoNtext</strong></a> | Windows 10 (版本 1607) | SetProcessDpiAwarenessCoNtext (DPI_AWARENESS_CONTEXT_UNAWARE)  | SetProcessDpiAwarenessCoNtext (DPI_AWARENESS_CONTEXT_SYSTEM_AWARE)  | <p>SetProcessDpiAwarenessCoNtext (DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE) </p><p>SetProcessDpiAwarenessCoNtext (DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE_V2) </p> | 
+
 
  
 

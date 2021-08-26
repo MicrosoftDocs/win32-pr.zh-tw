@@ -4,12 +4,12 @@ ms.assetid: 8c7b9b8c-c4da-4861-a60c-79fe6255345d
 title: IAutomaticUpdatesSettings2 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 64f9c81068f71418bf447f9b50bd16a9a48be175
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 04f1c2e622a24aa9d35e478b8db64083bff0da7470a2dca2690f1ee4c3420743
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970831"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120071298"
 ---
 # <a name="iautomaticupdatessettings2-methods"></a>IAutomaticUpdatesSettings2 方法
 

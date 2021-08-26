@@ -4,12 +4,12 @@ ms.assetid: ''
 title: Direct3D video 解碼長條圖
 ms.topic: article
 ms.date: 08/19/2019
-ms.openlocfilehash: 6e25abd39ba95b669c2d76ced5f825ea80c4e3c6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 94371fd68c981a98c4ba629822f928e148c230565b5103dfaa2350543bbe9a57
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106999841"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120061628"
 ---
 # <a name="direct3d-video-decode-histograms"></a>Direct3D video 解碼長條圖
 

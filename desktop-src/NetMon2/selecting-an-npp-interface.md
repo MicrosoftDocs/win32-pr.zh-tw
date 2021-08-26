@@ -4,12 +4,12 @@ ms.assetid: 269b26f5-b794-4920-98da-505eda83c990
 title: 選取 NPP 介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e8dba919302190e1fd89c859f61fca14aaf7d6e4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4336c4ff2408aa89d723dd451174ef6dca81eba39c17c52aefdc829018e71483
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848761"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120128848"
 ---
 # <a name="selecting-an-npp-interface"></a>選取 NPP 介面
 

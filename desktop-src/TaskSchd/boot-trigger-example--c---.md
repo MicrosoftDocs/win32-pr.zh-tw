@@ -4,12 +4,12 @@ description: 本主題包含 c + + 程式碼範例，示範如何建立排程在
 ms.assetid: d4dbbfe5-bde9-4a1c-8e11-24cd1e14646c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bdbd5a5a73d100394b90e91f8b9c30c1bd495ac0
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1b1f556b2b0754d913e44c2874a7fa01f9aea7ea50f5ccc0aa15fa769dfdca95
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840335"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120100498"
 ---
 # <a name="boot-trigger-example-c"></a> (c + +) 的開機觸發程式範例
 
@@ -17,7 +17,7 @@ ms.locfileid: "103840335"
 
 下列程式描述如何排程工作，以在系統啟動時啟動可執行檔。
 
-**排定在系統啟動時啟動 [記事本]**
+**排定在系統啟動時啟動記事本**
 
 1.  初始化 COM 並設定一般 COM 安全性。
 2.  建立 [**ITaskService**](/windows/desktop/api/taskschd/nn-taskschd-itaskservice) 物件。
@@ -377,9 +377,9 @@ int __cdecl wmain()
 [使用工作排程器](using-the-task-scheduler.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

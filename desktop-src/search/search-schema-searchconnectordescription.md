@@ -1,19 +1,19 @@
 ---
-description: <searchConnectorDescriptionType>元素是搜尋連接器定義的最上層容器。
+description: '&lt;SearchConnectorDescriptionType &gt; 元素是搜尋連接器定義的最上層容器。'
 ms.assetid: a6b45864-210d-4099-804d-7548fd8eb562
 title: 'searchConnectorDescriptionType 元素 (搜尋連接器架構) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7edb69647567b7e18e25e11dcd0fc773d0be7902
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3f89621ab34f65fb3c3b1f8e88bbdc8dca246b8d
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970774"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122885067"
 ---
 # <a name="searchconnectordescriptiontype-element-search-connector-schema"></a>searchConnectorDescriptionType 元素 (搜尋連接器架構) 
 
-<searchConnectorDescriptionType>元素是搜尋連接器定義的最上層容器。
+&lt;SearchConnectorDescriptionType &gt; 元素是搜尋連接器定義的最上層容器。
 
 -   [語法](#syntax)
 -   [項目資訊](#element-information)
@@ -136,7 +136,7 @@ ms.locfileid: "106970774"
 
 
 
-| 屬性 | 描述                                                                      |
+| 屬性 | 說明                                                                      |
 |-----------|----------------------------------------------------------------------------------|
 | publisher | 選擇性。 提供搜尋連接器之發行者的顯示名稱。      |
 | product   | 選擇性。 搜尋連接器所套用之產品的顯示名稱。 |

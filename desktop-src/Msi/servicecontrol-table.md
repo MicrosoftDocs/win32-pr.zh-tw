@@ -4,12 +4,12 @@ ms.assetid: c51cd9bd-3c55-4eec-ab67-172765adc51c
 title: ServiceControl 資料表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 24b8531fb70c1887d77ae9b09bf3fe7e59de0c7878dfac44707df942e838f4f4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1b0c360991ce4a72698ac1b667d82a98ba64b7a0
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120039978"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122885688"
 ---
 # <a name="servicecontrol-table"></a>ServiceControl 資料表
 
@@ -27,7 +27,7 @@ ServiceControl 資料表具有下列資料行。
 | Column         | 類型                         | 答案 | Nullable |
 |----------------|------------------------------|-----|----------|
 | ServiceControl | [識別碼](identifier.md) | Y   | N        |
-| 名稱           | [格式 化](formatted.md)   | N   | N        |
+| Name           | [格式 化](formatted.md)   | N   | N        |
 | 事件          | [整數](integer.md)       | N   | N        |
 | 引數      | [格式 化](formatted.md)   | N   | Y        |
 | 等候           | [整數](integer.md)       | N   | Y        |
@@ -70,7 +70,7 @@ ServiceControl 資料表具有下列資料行。
 |------------------------------------|-------------|---------|------------------------------------------------------------------------------------|
 | **msidbServiceControlEventStart**  | 0x001       | 1       | 在 [StartServices 動作](startservices-action.md)期間啟動服務。    |
 | **msidbServiceControlEventStop**   | 0x002       | 2       | 在 [StopServices 動作](stopservices-action.md)期間停止服務。       |
-| (無)                             | 0x004       | 4       | <reserved>                                                                   |
+| (無)                             | 0x004       | 4       | &lt;保留&gt;                                                                   |
 | **msidbServiceControlEventDelete** | 0x008       | 8       | 在 [DeleteServices 動作](deleteservices-action.md)期間刪除服務。 |
 
 
@@ -81,11 +81,11 @@ ServiceControl 資料表具有下列資料行。
 
 
 
-| 常數                                    | 十六進位 | Decimal | 描述                                                                        |
+| 常數                                    | 十六進位 | Decimal | 說明                                                                        |
 |---------------------------------------------|-------------|---------|------------------------------------------------------------------------------------|
 | **msidbServiceControlEventUninstallStart**  | 0x010       | 16      | 在 [StartServices 動作](startservices-action.md)期間啟動服務。    |
 | **msidbServiceControlEventUninstallStop**   | 0x020       | 32      | 在 [StopServices 動作](stopservices-action.md)期間停止服務。       |
-| (無)                                      | 0x040       | 64      | <reserved>                                                                   |
+| (無)                                      | 0x040       | 64      | &lt;保留&gt;                                                                   |
 | **msidbServiceControlEventUninstallDelete** | 0x080       | 128     | 在 [DeleteServices 動作](deleteservices-action.md)期間刪除服務。 |
 
 

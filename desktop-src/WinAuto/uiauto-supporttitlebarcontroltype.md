@@ -21,12 +21,12 @@ keywords:
 - 控制項類型，標題列
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3ee83d3fb61b58bf627a424ec9fbe2c230968c07e8ae000f5af39d1682c3ddca
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: b7e3d3ed0c4a3abc995afab7aec4aa89d02542e2
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119570418"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122473354"
 ---
 # <a name="titlebar-control-type"></a>標題列控制項類型
 
@@ -48,30 +48,11 @@ ms.locfileid: "119570418"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>控制項檢視</th>
-<th>內容檢視</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>標題列
-<ul>
-<li>功能表 (0 或 1 個)</li>
-<li>按鈕 (0 個以上)</li>
-</ul></li>
-</ul></td>
-<td> (不適用;標題列控制項沒有內容) </td>
-</tr>
-</tbody>
-</table>
+
+| 控制項檢視 | 內容檢視 | 
+|--------------|--------------|
+| <ul><li>標題列<ul><li>功能表 (0 或 1 個)</li><li>按鈕 (0 個以上)</li></ul></li></ul> |  (不適用;標題列控制項沒有內容)  | 
+
 
 
 

@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 49df5f2dacc9bfd51f6673823ecc8a0961007c07
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 60421d4278c4817f9b02811369fb7937a5f67aa734c6fae0c0c280d2edcf3d4d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104023611"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120068178"
 ---
 # <a name="intrinsic-functions"></a>內建函式
 
@@ -26,7 +26,7 @@ ms.locfileid: "104023611"
 
 
 
-| Name                                                                                    | 描述                                                                                                                                                     | 最小著色器模型 |
+| 名稱                                                                                    | 描述                                                                                                                                                     | 最小著色器模型 |
 |-----------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------|
 | [**中止**](abort.md)                                                                  | 終止目前正在執行的繪圖或分派呼叫。                                                                                                    | 4                    |
 | [**Abs**](dx-graphics-hlsl-abs.md)                                                     | 每個元件) 的絕對值 (。                                                                                                                                 | 1¹                   |
@@ -106,7 +106,7 @@ ms.locfileid: "104023611"
 | [**log10**](dx-graphics-hlsl-log10.md)                                                 | 傳回 x 以10為底數的對數。                                                                                                                             | 1¹                   |
 | [**log2**](dx-graphics-hlsl-log2.md)                                                   | 傳回 x 的以2為底數的對數。                                                                                                                              | 1¹                   |
 | [**瘋狂**](mad.md)                                                                      | 針對三個值執行算術乘法/add 運算。                                                                                                  | 5                    |
-| [**麥克斯**](dx-graphics-hlsl-max.md)                                                     | 選取 x 和 y 的較大。                                                                                                                                 | 1¹                   |
+| [**max**](dx-graphics-hlsl-max.md)                                                     | 選取 x 和 y 的較大。                                                                                                                                 | 1¹                   |
 | [**分鐘**](dx-graphics-hlsl-min.md)                                                     | 選取 x 和 y 的較小者。                                                                                                                                  | 1¹                   |
 | [**modf**](dx-graphics-hlsl-modf.md)                                                   | 將值 x 分割成小數和整數部分。                                                                                                           | 1¹                   |
 | [**msad4**](dx-graphics-hlsl-msad4.md)                                                 | 比較4位元組的參考值和8位元組的來源值，並累積4加總的向量。                                                                | 5                    |
@@ -171,7 +171,7 @@ ms.locfileid: "104023611"
 
 
 
- 
+ 
 
 ¹請參閱參考頁面中的限制。
 
@@ -181,16 +181,16 @@ HLSL 內建函式聲明會針對輸入參數引數和傳回值使用元件類型
 
 
 
-| 這些範本類型 | Description                                           | 支援這些資料類型                                        |
+| 這些範本類型 | 描述                                           | 支援這些資料類型                                        |
 |----------------------|-------------------------------------------------------|-----------------------------------------------------------------|
 | 矩陣               | 最多16個元件，取決於宣告      | [基本 HLSL 類型](dx-graphics-hlsl-data-types.md)             |
-| 物件 (object)               | 取樣器物件                                        | *取樣* 器、 *sampler1D*、 *sampler2D*、 *sampler3D*、 *samplerCUBE* |
+| object               | 取樣器物件                                        | *取樣* 器、 *sampler1D*、 *sampler2D*、 *sampler3D*、 *samplerCUBE* |
 | 純量 (scalar)               | 1個元件                                           | [基本 HLSL 類型](dx-graphics-hlsl-data-types.md)             |
 | 向量               | 1個元件最小值，4個元件最大 (內含)  | [基本 HLSL 類型](dx-graphics-hlsl-data-types.md)             |
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>另請參閱
 
@@ -199,6 +199,6 @@ HLSL 內建函式聲明會針對輸入參數引數和傳回值使用元件類型
 [HLSL 的參考](dx-graphics-hlsl-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

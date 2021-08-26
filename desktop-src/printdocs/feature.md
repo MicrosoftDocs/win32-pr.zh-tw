@@ -4,12 +4,12 @@ ms.assetid: 5a6553c2-f322-47e2-bbc8-44f6541f1288
 title: 功能
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b28ab7e8cc69ecc9ba3956fbae3c5278baace8cf
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: d3d35686674d08ea0ea4030648b06803919e5d07
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113120633"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122882498"
 ---
 # <a name="feature"></a>功能
 
@@ -19,7 +19,7 @@ Feature 元素包含選項和屬性專案的完整清單，可完整描述裝置
 
 ## <a name="element-tag"></a>元素標記
 
-<Feature>
+&lt;功能&gt;
 
 ## <a name="xml-attributes"></a>XML 屬性
 
@@ -43,43 +43,13 @@ Feature 元素包含選項和屬性專案的完整清單，可完整描述裝置
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>類別</th>
-<th>詳細資料</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>父元素<br/></td>
-<td>PrintCapabilities <br/> PrintTicket <br/> 功能<br/></td>
-</tr>
-<tr class="even">
-<td>子元素<br/></td>
-<td>下列其中一個群組：<br/>
-<ul>
-<li><em>功能</em> (零或多個) <br/></li>
-<li><em>選項</em> (一或多個) <br/></li>
-<li><em>屬性</em> (零或多個) <br/></li>
-</ul>
-或 <br/>
-<ul>
-<li><em>功能</em> (一或多個) <br/></li>
-<li><em>選項</em> (零或多個) <br/></li>
-<li><em>屬性</em> (零或多個) <br/></li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>這個元素<br/></td>
-<td>不允許任何字元資料。<br/> 允許有同級的重複子選項元素。 允許重複的名稱屬性快捷方式。 <br/></td>
-</tr>
-</tbody>
-</table>
+
+| 類別 | 詳細資料 | 
+|----------|---------|
+| 父元素<br /> | PrintCapabilities <br /> PrintTicket <br /> 功能<br /> | 
+| 子元素<br /> | 下列其中一個群組：<br /><ul><li><em>功能</em> (零或多個) <br /></li><li><em>選項</em> (一或多個) <br /></li><li><em>屬性</em> (零或多個) <br /></li></ul>或 <br /><ul><li><em>功能</em> (一或多個) <br /></li><li><em>選項</em> (零或多個) <br /></li><li><em>屬性</em> (零或多個) <br /></li></ul> | 
+| 這個元素<br /> | 不允許任何字元資料。<br /> 允許有同級的重複子選項元素。 允許重複的名稱屬性快捷方式。 <br /> | 
+
 
 
 

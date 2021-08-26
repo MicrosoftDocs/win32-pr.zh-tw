@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: a371ad1f7b1da874b6a049b04d5f50ec694cf181
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: b3d602207cefa1adbae416f59f10bd0d7a52e50495a559e36ead184888a4d0ef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106967038"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120064818"
 ---
 # <a name="invoke-method-of-the-cim_removefileaction-class"></a>CIM RemoveFileAction 類別的 Invoke 方法 \_
 

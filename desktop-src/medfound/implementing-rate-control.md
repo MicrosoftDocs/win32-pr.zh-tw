@@ -4,12 +4,12 @@ ms.assetid: 077678db-ca5a-423b-9430-93497113d639
 title: 執行速率控制
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f5fd78cbbb95316a0d4ed12a50c9d3aa8954fe8a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4a3ff90e7b1748efd4cfcff41244164d1d6a997b6208d3e46afa0cdae9aa6bba
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104027134"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120114268"
 ---
 # <a name="implementing-rate-control"></a>執行速率控制
 

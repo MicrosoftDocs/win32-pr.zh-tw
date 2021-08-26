@@ -4,12 +4,12 @@ ms.assetid: 7e4ae4b8-e7b2-49b3-97b7-374b69006a2f
 title: 匯入消費者介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2957dbec645bb85121c9748de83bc5c96ad04b05
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2678eb2c6fb1c53f0d052c6bb1553af0f3d773b75d057969c66d74a39e499f35
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848251"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120043638"
 ---
 # <a name="importing-the-user-interface"></a>匯入消費者介面
 
@@ -30,7 +30,7 @@ ms.locfileid: "103848251"
 
 MNP2000.msi 安裝套件範例現在已準備好進行封裝驗證。 在第一次嘗試安裝封裝之前，請一律在新的封裝上執行驗證。 這會在驗證安裝範例中討論。
 
-如果您不想要在範例封裝中包含使用者介面，請省略或移除上述表格中的所有資訊，但不包括用來定義 [**DefaultUIFont**](defaultuifont.md)屬性) 所需的 [[樣式表單] 表格](textstyle-table.md) (。 您也應該從 [屬性資料表](property-table.md)中移除使用者介面屬性。 記事本範例的屬性工作表（不含 UI）如下所示。 如果您複製此範例，請不要重複使用表格中顯示的 Guid。
+如果您不想要在範例封裝中包含使用者介面，請省略或移除上述表格中的所有資訊，但不包括用來定義 [**DefaultUIFont**](defaultuifont.md)屬性) 所需的 [[樣式表單] 表格](textstyle-table.md) (。 您也應該從 [屬性資料表](property-table.md)中移除使用者介面屬性。 沒有 UI 的記事本範例屬性工作表如下所示。 如果您複製此範例，請不要重複使用表格中顯示的 Guid。
 
 [屬性工作表](property-table.md)
 

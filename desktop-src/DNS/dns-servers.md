@@ -6,12 +6,12 @@ keywords:
 - DNS 伺服器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8fe2415c50cdd2472b20e8f14123afa2aa919d26
-ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
+ms.openlocfilehash: b3f1eb0391d588431e082c69bcd19768c4047b1e4e24c64fbda251c11703a7eb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "112011251"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120131828"
 ---
 # <a name="dns-servers"></a>DNS 伺服器
 

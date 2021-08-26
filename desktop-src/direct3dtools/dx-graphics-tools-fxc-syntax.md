@@ -6,12 +6,12 @@ keywords:
 - fxc.exe，語法
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6241a728b4835b11d10ea6e39d67fd73a8576cd7
-ms.sourcegitcommit: ae73f4dd3cf5a3c6a1ea7d191ca32a5b01f6686b
+ms.openlocfilehash: f9cae0305a8fdca5c9fd419cf610b0ebbb547331
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "106967502"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122880768"
 ---
 # <a name="syntax"></a>Syntax
 
@@ -63,7 +63,7 @@ ms.locfileid: "106967502"
 ##### <a name="dumpbin"></a>/dumpbin
 載入二進位檔案，而不是編譯著色器。
 
-##### <a name="e-name"></a>/E <name>
+##### <a name="e-ltnamegt"></a>/E &lt; 名稱&gt;
 著色器進入點。 如果未指定任何進入點，則會將 **main** 視為著色器專案名稱。
 
 ##### <a name="enable_unbounded_descriptor_tables"></a>/enable_unbounded_descriptor_tables

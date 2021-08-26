@@ -4,12 +4,12 @@ ms.assetid: 6ad0d163-df51-48b6-aad7-a4b018688872
 title: portTypeDefinitions 元素
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ff073eb7b0f9cbc4b0b6df87c8f9fc84d4f62882
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: af9beb5b6697f53ecc3a9f7c805338c6ccebd9901d483607b100f5d1602ff4c5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107996545"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120071388"
 ---
 # <a name="porttypedefinitions-element"></a>portTypeDefinitions 元素
 

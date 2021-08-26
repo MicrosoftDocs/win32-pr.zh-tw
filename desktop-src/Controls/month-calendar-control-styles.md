@@ -19,12 +19,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 45ccef4a3cc8e16851c0676b8b0dce8c53cfdd27
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 45d236526792d4b965f58dc6c188add6a257845bcb8450e84f4b691849acb493
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106982584"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120061848"
 ---
 # <a name="month-calendar-control-styles"></a>月曆控制項樣式
 
@@ -39,9 +39,9 @@ ms.locfileid: "106982584"
 | <span id="MCS_WEEKNUMBERS"></span><span id="mcs_weeknumbers"></span><dl> <dt>**MCS \_ WEEKNUMBERS**</dt> </dl>                | [版本 4.70](common-control-versions.md)。 月曆控制項會在每個資料列的左邊顯示 (1-52) 的周數。 第1周定義為至少包含四天的第一周。 <br/>                                                                                              |
 | <span id="MCS_NOTODAYCIRCLE"></span><span id="mcs_notodaycircle"></span><dl> <dt>**MCS \_ NOTODAYCIRCLE**</dt> </dl>          | [版本 4.70](common-control-versions.md)。 月曆控制項不會圈出「今天」的日期。 <br/>                                                                                                                                                                                                |
 | <span id="MCS_NOTODAY"></span><span id="mcs_notoday"></span><dl> <dt>**MCS \_ NOTODAY**</dt> </dl>                            | [版本 4.70](common-control-versions.md)。月曆控制項不會在控制項底部顯示「今天」的日期。 <br/>                                                                                                                                                                   |
-| <span id="MCS_NOTRAILINGDATES"></span><span id="mcs_notrailingdates"></span><dl> <dt>**MCS \_ NOTRAILINGDATES**</dt> </dl>    | **Windows Vista。** 上個月和下個月的日期，不會顯示在當月的日曆中。<br/>                                                                                                                                                                                              |
-| <span id="MCS_SHORTDAYSOFWEEK"></span><span id="mcs_shortdaysofweek"></span><dl> <dt>**MCS \_ SHORTDAYSOFWEEK**</dt> </dl>    | **Windows Vista。** 簡短的日期名稱會顯示在標頭中。<br/>                                                                                                                                                                                                                                            |
-| <span id="MCS_NOSELCHANGEONNAV"></span><span id="mcs_noselchangeonnav"></span><dl> <dt>**MCS \_ NOSELCHANGEONNAV**</dt> </dl> | **Windows Vista。** 當使用者流覽日曆中的下一個或上一個時，不會變更選取專案。 這可讓使用者選取 [大於] 可見的範圍。<br/>                                                                                                                                  |
+| <span id="MCS_NOTRAILINGDATES"></span><span id="mcs_notrailingdates"></span><dl> <dt>**MCS \_ NOTRAILINGDATES**</dt> </dl>    | **WindowsVista。** 上個月和下個月的日期，不會顯示在當月的日曆中。<br/>                                                                                                                                                                                              |
+| <span id="MCS_SHORTDAYSOFWEEK"></span><span id="mcs_shortdaysofweek"></span><dl> <dt>**MCS \_ SHORTDAYSOFWEEK**</dt> </dl>    | **WindowsVista。** 簡短的日期名稱會顯示在標頭中。<br/>                                                                                                                                                                                                                                            |
+| <span id="MCS_NOSELCHANGEONNAV"></span><span id="mcs_noselchangeonnav"></span><dl> <dt>**MCS \_ NOSELCHANGEONNAV**</dt> </dl> | **WindowsVista。** 當使用者流覽日曆中的下一個或上一個時，不會變更選取專案。 這可讓使用者選取 [大於] 可見的範圍。<br/>                                                                                                                                  |
 
 
 

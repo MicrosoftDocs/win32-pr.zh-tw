@@ -4,12 +4,12 @@ ms.assetid: ce4ed777-9c09-404e-9d9e-878d2a8f40eb
 title: InterfacePaths
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c098dd1cc6486678489ab98dbd07a2215429f08c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 034078fdd18151f24bbd471c73dbd8677717591ed731c13360e855fd889f8d40
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104195461"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120059498"
 ---
 # <a name="systemdevicesinterfacepaths"></a>InterfacePaths
 

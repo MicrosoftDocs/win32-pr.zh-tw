@@ -3,7 +3,7 @@ title: 'TBM_SETRANGEMIN 訊息 (Commctrl .h) '
 description: 設定捲軸中滑杆的最小邏輯位置。
 ms.assetid: 85071be2-4df3-4b54-9122-b6dc767f6cb9
 keywords:
-- TBM_SETRANGEMIN message Windows 控制項
+- TBM_SETRANGEMIN 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d34c2e70aa6247cb970e576c915bdcd28cd18d23
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d35cbb162b42636d886cb5e41eb9ba6de1a2101a8327ff8ddffbc71c57fa6735
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103933909"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120046068"
 ---
 # <a name="tbm_setrangemin-message"></a>TBM \_ SETRANGEMIN 訊息
 
@@ -57,8 +57,8 @@ ms.locfileid: "103933909"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

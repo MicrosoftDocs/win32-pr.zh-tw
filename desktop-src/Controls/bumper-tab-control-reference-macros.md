@@ -4,12 +4,12 @@ description: 索引標籤控制項宏
 ms.assetid: 23c5bea5-c43e-45df-9761-911ed21f6a41
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fd928360a3626528d3b44b3854f833278264c4ae
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: e7165db6ccd2c89ef511a8025d5f18537e0eca9009fcfee5c807e1b15ee64756
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "103853771"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120064028"
 ---
 # <a name="tab-control-macros"></a>索引標籤控制項宏
 

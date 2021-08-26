@@ -8,12 +8,12 @@ keywords:
 - 命令列、AccChecker
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d370f1b4ba5c3d9752015425e12f48311c66dfd8928c6b9fe0f011c48ee6c8d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 272447e2513f109206af6fedaaf6adffe665e8b8
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118994030"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122887037"
 ---
 # <a name="the-accchecker-console"></a>AccChecker 主控台
 
@@ -30,7 +30,7 @@ AccChecker 主控台 (AccCheckConsole.exe) 是一種命令列工具，可用於�
 
 AccChecker 主控台具有下列命令列語法。
 
-**AccCheckConsole \[ 選項 \] (-hwnd <hwnd> \| -進程 <name>) \[<dlls>\]**
+**AccCheckConsole \[ 選項 \] (-hwnd &lt; hwnd &gt; \| -進程 &lt; 名稱 &gt;) \[ &lt; dll&gt;\]**
 
 命令列選項如下所示。
 
@@ -38,15 +38,15 @@ AccChecker 主控台具有下列命令列語法。
 
 | 選項。                                                                                                                                                         | 描述                                                                                                                  |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|
-| <span id="-hwnd__hwnd_"></span><span id="-HWND__HWND_"></span>-hwnd <hwnd><br/>                                                                     | 驗證具有指定之控制碼 (HWND) 的視窗。 控制碼可以用十六進位或十進位來指定。<br/> |
-| <span id="-window__title_"></span><span id="-WINDOW__TITLE_"></span>-視窗 <title><br/>                                                            | 驗證具有指定之標題的視窗。<br/>                                                                |
-| <span id="__________________-process__name_"></span><span id="__________________-PROCESS__NAME_"></span> -進程 <name><br/>                       | 驗證具有指定名稱之進程的主視窗。<br/>                                             |
+| <span id="-hwnd__hwnd_"></span><span id="-HWND__HWND_"></span>-hwnd &lt; hwnd&gt;<br/>                                                                     | 驗證具有指定之控制碼 (HWND) 的視窗。 控制碼可以用十六進位或十進位來指定。<br/> |
+| <span id="-window__title_"></span><span id="-WINDOW__TITLE_"></span>-視窗 &lt; 標題&gt;<br/>                                                            | 驗證具有指定之標題的視窗。<br/>                                                                |
+| <span id="__________________-process__name_"></span><span id="__________________-PROCESS__NAME_"></span> -進程 &lt; 名稱&gt;<br/>                       | 驗證具有指定名稱之進程的主視窗。<br/>                                             |
 | <span id="____________________________-list"></span><span id="____________________________-LIST"></span> -list<br/>                                       | 列出所有可用的驗證常式。<br/>                                                                 |
-| <span id="__________________-enable__name_"></span><span id="__________________-ENABLE__NAME_"></span> -啟用 <name><br/>                          | 執行指定的驗證常式。 此選項可指定一次以上。<br/>                             |
-| <span id="_____________________________-disable__name_"></span><span id="_____________________________-DISABLE__NAME_"></span> -停用 <name><br/> | 除了指定的驗證常式之外，全部執行。 此選項可指定一次以上。<br/>                     |
+| <span id="__________________-enable__name_"></span><span id="__________________-ENABLE__NAME_"></span> -啟用 &lt; 名稱&gt;<br/>                          | 執行指定的驗證常式。 此選項可指定一次以上。<br/>                             |
+| <span id="_____________________________-disable__name_"></span><span id="_____________________________-DISABLE__NAME_"></span> -停用 &lt; 名稱&gt;<br/> | 除了指定的驗證常式之外，全部執行。 此選項可指定一次以上。<br/>                     |
 | <span id="___________-log__info_warn_err_"></span><span id="___________-LOG__INFO_WARN_ERR_"></span> -log (info \| 警告 \| err) <br/>                          | 將記錄的最低事件評等。<br/>                                                                      |
-| <span id="__________________-logfile__file_"></span><span id="__________________-LOGFILE__FILE_"></span> -logfile <file><br/>                       | 將輸出寫入指定的記錄檔。 此選項可指定一次以上。<br/>                          |
-| <span id="-suppress__file_"></span><span id="-SUPPRESS__FILE_"></span>-隱藏 <file><br/>                                                         | 使用指定的 XML 檔案來抑制錯誤。 <br/>                                                                   |
+| <span id="__________________-logfile__file_"></span><span id="__________________-LOGFILE__FILE_"></span> -logfile &lt; 檔案&gt;<br/>                       | 將輸出寫入指定的記錄檔。 此選項可指定一次以上。<br/>                          |
+| <span id="-suppress__file_"></span><span id="-SUPPRESS__FILE_"></span>-隱藏 &lt; 檔案&gt;<br/>                                                         | 使用指定的 XML 檔案來抑制錯誤。 <br/>                                                                   |
 | <span id="-quiet"></span><span id="-QUIET"></span>-quiet<br/>                                                                                             | 請勿將記錄輸出寫入至 stdout。<br/>                                                                            |
 | <span id="-help__________________________________"></span><span id="-HELP__________________________________"></span>-help <br/>                           | 顯示快速協助。 <br/>                                                                                             |
 

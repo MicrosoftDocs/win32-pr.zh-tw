@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 6c58e8edd908c101c3045e221cc86420cbb5cb94
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 92349ab37fb677b561f342e99882c27208287310b544880e397f4f5df6cb0c38
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108098746"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120083918"
 ---
 # <a name="csourceseekingisformatsupported-method"></a>CSourceSeeking. IsFormatSupported 方法
 
@@ -55,7 +55,7 @@ HRESULT IsFormatSupported(
 
 
 
-| 傳回碼                                                                               | Description                             |
+| 傳回碼                                                                               | 描述                             |
 |-------------------------------------------------------------------------------------------|-----------------------------------------|
 | <dl> <dt>**S \_ FALSE**</dt> </dl>   | 不支援此格式。<br/> |
 | <dl> <dt>**S \_ 確定**</dt> </dl>      | 支援此格式。<br/>     |

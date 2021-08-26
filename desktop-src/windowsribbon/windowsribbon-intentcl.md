@@ -14,12 +14,12 @@ keywords:
 - 編譯 Windows 功能區標記
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 85534a05b3bde59cc2ec0eec482d8c3b47e898d39ad988c595fbac33eb5e9f36
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cefd64103ceb501e8f4d23e937a242e910b0cad5
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119932560"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122884902"
 ---
 # <a name="compiling-ribbon-markup"></a>編譯功能區標記
 
@@ -61,19 +61,19 @@ UICC <ribbonFile> <binaryFile> [options]
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
 <th>選項</th>
-<th>描述</th>
+<th>說明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>/header<headerFile></td>
-<td>產生名為的標頭檔 <headerFile> ，其中包含標記命令識別碼資源符號。 如果省略，則不會產生標頭檔。</td>
+<td>/header： &lt; headerFile&gt;</td>
+<td>產生名為 &lt; headerFile 的標頭檔 &gt; ，其中包含標記命令識別碼資源符號。 如果省略，則不會產生標頭檔。</td>
 </tr>
 <tr class="even">
 <td>/res<resourceFile></td>

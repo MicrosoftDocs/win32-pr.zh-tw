@@ -19,12 +19,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 8cc821b6bdd5d6f5d1c1085a804799c662f9d62e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 84b64ec1462d9d3cb487cac807891d57c219de7f
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103849492"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122885698"
 ---
 # <a name="msvm_replicationprovider-class"></a>Msvm \_ ReplicationProvider 類別
 
@@ -121,11 +121,11 @@ class Msvm_ReplicationProvider : CIM_ManagedSystemElement
 限定詞： **Key**、 **MaxLen** (256) 
 </dt> </dl>
 
-識別提供者的 WMI 實例識別碼。 這個屬性繼承自 [**CIM \_ ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)。 此屬性的格式為 "Microsoft： <主機名稱>\\ ReplicationProvider \\<提供者-名稱>」。
+識別提供者的 WMI 實例識別碼。 這個屬性繼承自 [**CIM \_ ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)。 此屬性的格式為 "Microsoft： &lt; 主機名稱 &gt; \\ ReplicationProvider \\ &lt; provider-name &gt; "。
 
 </dd> <dt>
 
-**名稱**
+名稱
 </dt> <dd> <dl> <dt>
 
 資料類型： **字串**
@@ -173,8 +173,8 @@ class Msvm_ReplicationProvider : CIM_ManagedSystemElement
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8.1 桌面應用程式\]<br/>                                                            |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 R2 \[ desktop 應用程式\]<br/>                                                 |
+| 最低支援的用戶端<br/> | Windows 8.1 \[僅限桌面應用程式\]<br/>                                                            |
+| 最低支援的伺服器<br/> | Windows Server 2012\[僅限 R2 desktop 應用程式\]<br/>                                                 |
 | 命名空間<br/>                | 根 \\ 虛擬化 \\ V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization。</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

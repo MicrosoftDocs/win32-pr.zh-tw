@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: b22524d356bad5f23f4ca1cc8a3e7c68e69fd83f0dc38e64eba70bc1812436f7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6a60d6ed17c6a5524af2a9bb54f386a325f63c10
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118315006"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122880247"
 ---
 # <a name="starting-and-stopping-the-wmi-service"></a>啟動和停止 WMI 服務
 
@@ -29,7 +29,7 @@ WMI 會以服務的形式執行，其顯示名稱為 "Windows Management Instrum
 
 **啟動 Winmgmt 服務**
 
-1.  在命令提示字元中，輸入 **net** **start** **winmgmt** \[ */<switch>* \] 。
+1.  在命令提示字元中，輸入 **net** **start** **winmgmt** \[ */ &lt; 參數 &gt;* \] 。
 
     如需可用參數的詳細資訊，請參閱 [winmgmt](winmgmt.md)。 您可以使用內建的系統管理員帳戶，或以較高的許可權執行的 Administrators 群組中的帳戶，以啟動 WMI 服務。 如需詳細資訊，請參閱 [使用者帳戶控制和 WMI](user-account-control-and-wmi.md)。
 

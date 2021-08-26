@@ -3,7 +3,7 @@ title: 'PGM_GETPOS 訊息 (Commctrl .h) '
 description: 抓取呼機控制項目前的滾動位置。 您可以明確地傳送此訊息，或使用呼叫器 \_ GetPos 宏。
 ms.assetid: 1e0f967a-3290-43b7-b812-8cf56abf2d32
 keywords:
-- PGM_GETPOS message Windows 控制項
+- PGM_GETPOS 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 611a27e9cb952c5be190fa041af3d238f0184b03
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 16f1d5608b720d5a5d3d661a368d094da9469d71108874a6cec5495bf120cc54
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106969184"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120046868"
 ---
 # <a name="pgm_getpos-message"></a>PGM \_ GETPOS 訊息
 
@@ -45,8 +45,8 @@ ms.locfileid: "106969184"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

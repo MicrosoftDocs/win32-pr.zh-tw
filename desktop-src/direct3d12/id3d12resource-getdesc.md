@@ -17,12 +17,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location:
 - d3d12.h
-ms.openlocfilehash: 5be3f6f825370c467388805c84096240441d09a5
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 179acfa051212a2f98eb94441cbfad9fd7d9bbab47e4616f82a4f4cff3d41035
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "106966428"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120069628"
 ---
 # <a name="id3d12resourcegetdesc-method"></a>ID3D12Resource：： GetDesc 方法
 
@@ -82,9 +82,9 @@ inline UINT64 GetRequiredIntermediateSize(
 [**ID3D12Resource**](/windows/desktop/api/d3d12/nn-d3d12-id3d12resource)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -21,18 +21,18 @@ keywords:
 - 控制項類型，功能表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: edee9f30f4d4cea123a2c7f5ff4dac235782faea
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 8d86d5aad29519bca4e9cfe03da4b6f0e9ccaeb9
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021340"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122468075"
 ---
 # <a name="menu-control-type"></a>Menu 控制項類型
 
 本主題提供 **功能表** 控制項類型之 Microsoft 消費者介面自動化支援的相關資訊。
 
-功能表控制項可將命令和事件處理常式的關聯項目以階層方式組織。 在一般的 Microsoft Windows 應用程式中，功能表列會包含數個功能表按鈕 **(例如 [** 檔案]、[ **編輯**] 和 [ **視窗]**) ，而且每個功能表按鈕都會顯示功能表。 功能表又包含一組功能表項目 (例如 [開新檔案] **F:System.Windows.Automation.AutomationElementIdentifiers.IsEnabledProperty**、[開啟舊檔] **UI Automation Properties Overview** 和 [關閉檔案] **TLA#tla_win32**)，這些項目可展開顯示更多的功能表項目，或在按一下時可執行特定的動作。
+功能表控制項可將命令和事件處理常式的關聯項目以階層方式組織。 在一般的 Microsoft Windows 應用程式中，功能表列會包含數個功能表按鈕 **(例如 [** 檔案]、[**編輯**] 和 [**視窗]**) ，而每個功能表按鈕會顯示功能表。 功能表又包含一組功能表項目 (例如 [開新檔案] **F:System.Windows.Automation.AutomationElementIdentifiers.IsEnabledProperty**、[開啟舊檔] **UI Automation Properties Overview** 和 [關閉檔案] **TLA#tla_win32**)，這些項目可展開顯示更多的功能表項目，或在按一下時可執行特定的動作。
 
 下列章節會定義 **功能表** 控制項類型所需的消費者介面自動化樹狀結構、屬性、控制項模式和事件。 消費者介面自動化需求適用于所有的功能表控制項，其中 UI framework/平臺會整合控制項類型和控制項模式的消費者介面自動化支援。
 
@@ -50,44 +50,15 @@ ms.locfileid: "104021340"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>控制項檢視</th>
-<th>內容檢視</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>功能表
-<ul>
-<li>MenuItem (1 或多個)</li>
-</ul>
-<ul>
-<li>其他控制項 (0 個以上)</li>
-</ul></li>
-</ul></td>
-<td><ul>
-<li>功能表
-<ul>
-<li>MenuItem (1 或多個)</li>
-</ul>
-<ul>
-<li>其他控制項 (0 個以上)</li>
-</ul></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| 控制項檢視 | 內容檢視 | 
+|--------------|--------------|
+| <ul><li>功能表<ul><li>MenuItem (1 或多個)</li></ul><ul><li>其他控制項 (0 個以上)</li></ul></li></ul> | <ul><li>功能表<ul><li>MenuItem (1 或多個)</li></ul><ul><li>其他控制項 (0 個以上)</li></ul></li></ul> | 
 
 
 
- 
+
+ 
 
 功能表控制項一律會出現在 [控制台] 和 [消費者介面自動化] 樹狀結構的內容視圖中。 功能表控制項應該會出現在其資訊所參考的控制項底下。 消費者介面自動化用戶端可以接聽 [**UIA \_ MenuOpenedEventId**](uiauto-event-ids.md) ，以確保它們持續取得功能表控制項所傳達的資訊。 內容功能表控制項是特殊案例。 它們可能會顯示為桌面的子系或最上層應用程式視窗的子系。
 
@@ -109,7 +80,7 @@ Menu 控制項可以在其結構內包含其他控制項，例如編輯控制項
 
 
 
- 
+ 
 
 ## <a name="required-control-patterns"></a>必要的控制項模式
 
@@ -135,7 +106,7 @@ Menu 控制項可以在其結構內包含其他控制項，例如編輯控制項
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -150,9 +121,9 @@ Menu 控制項可以在其結構內包含其他控制項，例如編輯控制項
 [UI 自動化概觀](uiauto-uiautomationoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -14,14 +14,14 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dfb9dd2703a843b9f09ba1404cd9acfddc25620ff2dc4a00566b4c1582847449
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2e5f56fd9cbcfd576a441d9199e7ec1114cfb9f3
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119075012"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122884482"
 ---
-# <a name="recttype-function"></a>Rect <Type> 函數
+# <a name="rectlttypegt-function"></a>Rect &lt; 類型 &gt; 函數
 
 使用指定的資料類型，建立儲存其座標的矩形結構。
 

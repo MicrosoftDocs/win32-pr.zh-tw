@@ -4,12 +4,12 @@ ms.assetid: 8f4dc314-76fc-40ce-a1e1-a701ae39d66d
 title: 'CryptXML 限制 (Cryptxml) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ccc56ee6459be2160efdeb8e9874e7dd0c53518d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 98a0dcdf5dc8f8bd9efed4dcdb15ca316ecb1645e5775f3d714f46c6835b3a18
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104468885"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120100918"
 ---
 # <a name="cryptxml-limits"></a>CryptXML 限制
 
@@ -17,7 +17,7 @@ CryptXML 會定義 Cryptxml .h 標頭檔中的下列全域限制。
 
 
 
-| 常數/值                                                                                                                                                                                                                                                             | Description                                                                                                                                                                                                                           |
+| 常數/值                                                                                                                                                                                                                                                             | 描述                                                                                                                                                                                                                           |
 |:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="CRYPT_XML_BLOB_MAX"></span><span id="crypt_xml_blob_max"></span><dl> <dt>**CRYPT \_XML \_ BLOB \_ MAX**</dt> <dt>0x7FFFFFF8</dt> </dl>                             | 編碼的資料不能超過 2 gb 的 (GB) 。<br/>                                                                                                                                                                               |
 | <span id="CRYPT_XML_ID_MAX"></span><span id="crypt_xml_id_max"></span><dl> <dt>**CRYPT \_XML \_ 識別碼 \_ 最大值**</dt> <dt>256</dt> </dl>                                          | 識別碼長度不能超過256個字元。<br/>                                                                                                                                                                                    |
@@ -37,8 +37,8 @@ CryptXML 會定義 Cryptxml .h 標頭檔中的下列全域限制。
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                            |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/>                               |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                            |
+| 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/>                               |
 | 標頭<br/>                   | <dl> <dt>Cryptxml。h</dt> </dl> |
 
 

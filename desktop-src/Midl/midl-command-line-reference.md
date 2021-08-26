@@ -7,12 +7,12 @@ keywords:
 - 命令列參考 MIDL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d1b7b3182d6a121fb417e5621fe1fb590dba896ebd4d3960b14a99cec3b35af2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: df927ded3f1a46045437fe1f9e72e2c7f80dd17d
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117991201"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122887349"
 ---
 # <a name="midl-command-line-reference"></a>MIDL Command-Line 參考
 
@@ -83,7 +83,7 @@ ms.locfileid: "117991201"
 [**/savePP**](-savepp.md)  
 [**/sstub**](-sstub.md)  
 [**/syntax \_ 檢查**](-syntax-check.md)  
-[**/<system>**](-system-.md)  
+[**/&lt;系統&gt;**](-system-.md)  
 [**/target**](-target.md)  
 [**/tlb**](-tlb.md)  
 [**U**](-u.md)  

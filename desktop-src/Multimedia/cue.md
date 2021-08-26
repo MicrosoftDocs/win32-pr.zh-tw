@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d14b9445de1736f563a33e44f1e4524f9c0c280e7e274f6b010b9b45a61714ef
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a6398d4773b6c92332e8a95996e4d81941a073fe
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119785438"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122467855"
 ---
 # <a name="cue-command"></a>提示命令
 
@@ -53,51 +53,13 @@ MCI 裝置的識別碼。 開啟裝置時，會指派此識別碼或別名。
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>值</th>
-<th>提示</th>
-<th>提示</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>digitalvideo</td>
-<td><ul>
-<li>input</li>
-<li>noshow</li>
-</ul></td>
-<td><ul>
-<li>output</li>
-<li><em>定位</em></li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>錄影機</td>
-<td><ul>
-<li>從 <em>位置</em></li>
-<li>input</li>
-<li>output</li>
-</ul></td>
-<td><ul>
-<li>預</li>
-<li>reverse</li>
-<li><em>定位</em></li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>waveaudio</td>
-<td>input</td>
-<td>output</td>
-</tr>
-</tbody>
-</table>
+
+| 值 | 提示 | 提示 | 
+|-------|-----|-----|
+| digitalvideo | <ul><li>input</li><li>noshow</li></ul> | <ul><li>output</li><li><em>定位</em></li></ul> | 
+| 錄影機 | <ul><li>從 <em>位置</em></li><li>input</li><li>output</li></ul> | <ul><li>預</li><li>reverse</li><li><em>定位</em></li></ul> | 
+| waveaudio | input | output | 
+
 
 
 

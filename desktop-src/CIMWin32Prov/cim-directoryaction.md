@@ -24,12 +24,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: c197e419db97d4d602ef6710fdb668d9af3dcb9802414285d73d9fe66234691e
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 90ef11615fe520ffe11c818df5491fb7adae6f1e
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119321438"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122881819"
 ---
 # <a name="cim_directoryaction-class"></a>CIM \_ DirectoryAction 類別
 
@@ -186,7 +186,7 @@ class CIM_DirectoryAction : CIM_Action
 
 </dd> <dt>
 
-**名稱**
+名稱
 </dt> <dd> <dl> <dt>
 
 資料類型： **字串**
@@ -828,8 +828,8 @@ Mac OS 9
 
 作業的版本應該採用下列其中一種形式：
 
--   <major>.<minor>.<revision>
--   <major>.<minor><letter><revision>
+-   &lt;主要 &gt; 。 &lt;次要 &gt; 。 &lt;修訂&gt;
+-   &lt;主要 &gt; 。 &lt;次要 &gt; &lt; 信件 &gt; &lt; 修訂&gt;
 
 這個屬性繼承自 [**CIM \_ 動作**](cim-action.md)。
 

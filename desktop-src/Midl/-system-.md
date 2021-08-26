@@ -12,16 +12,16 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 31def6297a1a91f6ed28943290a66b544dc368d5a00a91932035a338af50bac5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 01b6455807aedb99d7bd525c69fffc524dbe25d4
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118643776"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122882785"
 ---
-# <a name="system-switch"></a>/<system> 開關
+# <a name="ltsystemgt-switch"></a>/&lt;系統 &gt; 交換器
 
-此 **/<system>** 參數會指示 MIDL 編譯器為指定的系統產生類型程式庫。 預設值為目前的作業系統。
+**/ &lt; 系統 &gt;** 參數會指示 MIDL 編譯器為指定的系統產生類型程式庫。 預設值為目前的作業系統。
 
 ``` syntax
 midl /{win32 | ia64 | amd64}
@@ -71,7 +71,7 @@ Intel 架構的64位 Windows 環境，例如 Windows 2000、Windows Server 2003�
 
 ## <a name="remarks"></a>備註
 
-**/<system>** 參數的功能與 midl [**/env**](-env.md)選項相同，而且 midl 編譯器只會針對回溯相容性與 mktyplib.exe 進行辨識。 如果您要產生新的 makefile，請使用 **/env** 參數。
+**/ &lt; 系統 &gt;** 交換器的功能與 midl [**/env**](-env.md)選項相同，而且 midl 編譯器只會針對回溯相容性與 mktyplib.exe 進行辨識。 如果您要產生新的 makefile，請使用 **/env** 參數。
 
 ## <a name="examples"></a>範例
 
