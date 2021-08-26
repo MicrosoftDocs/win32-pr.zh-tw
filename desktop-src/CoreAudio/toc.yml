@@ -1,10 +1,10 @@
 - name: 核心音訊 Api
   href: core-audio-apis-in-windows-vista.md
   items:
-    - name: 關於 Windows Core 音訊 Api
+    - name: 關於 Windows Core 音訊 api
       href: about-the-windows-core-audio-apis.md
       items:
-        - name: Windows 7 中 Core Audio Api 的新功能
+        - name: Windows 7 中 Core Audio api 的新功能
           href: what-s-new-for-core-audio-apis-in-windows-7.md
         - name: 標頭檔和系統元件
           href: header-files-and-system-components.md
@@ -23,7 +23,7 @@
               href: duckingmediaplayer.md
             - name: EndpointVolume
               href: endpointvolume.md
-            - name: Osd
+            - name: OSD
               href: osd.md
             - name: RenderExclusiveEventDriven
               href: renderexclusiveeventdriven.md

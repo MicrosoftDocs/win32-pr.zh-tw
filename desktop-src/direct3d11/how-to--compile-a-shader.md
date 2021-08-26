@@ -4,12 +4,12 @@ description: 本主題說明如何在執行時間使用 D3DCompileFromFile 函�
 ms.assetid: A2CE368F-E72A-453D-BA4D-3D1D53DDDEE0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6bb5eadb1d6627f553a9d769e6a0f43ab3ebe3a9
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: a0ccda5ee552ed1c7cb40802d92a4562b85c7f36
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103682716"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122880654"
 ---
 # <a name="how-to-compile-a-shader"></a>如何：編譯著色器
 
@@ -42,9 +42,9 @@ ms.locfileid: "103682716"
 下列程式碼範例顯示如何編譯各種著色器。
 
 > [!Note]  
-> 在此範例程式碼中，您需要 \_ \_ 路徑中% PROGRAM file% Windows 套件8.0 可轉散發的 \\ \\ \\ \\ D3D \\ <arch> 資料夾的 Windows SDK 8.0 和 d3dcompiler44.dll 檔。 Windows Store 應用程式支援開發的執行時間編譯，而不支援部署。
+> 在此範例程式碼中，您需要 \_ \_ \\ \\ \\ \\ \\ &lt; &gt; 路徑中% PROGRAM file% Windows 套件8.0 可轉散發的 D3D 架構資料夾的 Windows SDK 8.0 和 d3dcompiler44.dll 檔。 WindowsStore apps 支援開發的執行時間編譯，而不支援部署。
 
- 
+ 
 
 
 ```C++
@@ -250,6 +250,6 @@ VS_OUTPUT VSMain( VS_INPUT Input )
 [如何使用 Direct3D 11](how-to-use-direct3d-11.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

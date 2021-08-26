@@ -3,10 +3,10 @@ title: 格式
 description: 格式
 ms.assetid: 7c602643-f1fc-4fbd-a739-4296dc758bc9
 keywords:
-- Windows Media Format SDK，輸入
-- Windows Media Format SDK，資料流程
-- Windows Media Format SDK，輸出
-- Windows Media 格式 SDK，格式
+- Windows媒體格式 SDK，輸入
+- Windows媒體格式 SDK，資料流程
+- Windows媒體格式 SDK，輸出
+- Windows媒體格式 SDK，格式
 - Advanced Systems Format (ASF) 、輸入
 - ASF (Advanced Systems Format) ，輸入
 - Advanced Systems Format (ASF) 、串流
@@ -17,18 +17,18 @@ keywords:
 - ASF (Advanced Systems Format) ，格式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b8e7895c27af3eb99e96d7009b79ea8df0011208
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a10f217b9935926d7bd7d5cba9ac53e6834385685e4a0f87ea6ba713cc8ff70b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104301623"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120089688"
 ---
 # <a name="formats"></a>格式
 
 格式的資訊描述特定媒體類型的所有須知事項。 每種格式都有一種主要類型，例如音訊或影片，而且可能有子類型。 格式包含以主要類型為基礎的不同資訊。 音訊和影片格式需要比其他類型更多的資訊。
 
-就像 Windows Media 格式 SDK 的物件會區分輸入數位、串流號碼和輸出編號 (查看輸入 [、串流和](inputs-streams-and-outputs.md) 輸出) ，輸入格式、串流格式和輸出格式之間有很大的差異。 以下說明這些差異：
+就像 Windows 媒體格式 SDK 的物件會區分輸入數位、串流號碼和輸出編號 (查看輸入[、串流和](inputs-streams-and-outputs.md)輸出) ，輸入格式、串流格式和輸出格式之間有很大的差異。 以下說明這些差異：
 
 ## <a name="input-formats"></a>輸入格式
 
@@ -44,7 +44,7 @@ ms.locfileid: "104301623"
 
 ## <a name="output-formats"></a>輸出格式
 
-輸出格式描述讀取器 (或同步讀取器) 傳遞至您應用程式的數位媒體。 如果 ASF 檔案中的串流以編解碼器壓縮，則編解碼器只會支援特定的輸出格式。 當您使用 Windows Media 音訊和影片編解碼器時，可以使用 reader 物件來列舉支援的輸出格式。 每個 Windows Media 編解碼器都有預設輸出格式，但您可以選取任何支援的輸出格式來傳遞範例。
+輸出格式描述讀取器 (或同步讀取器) 傳遞至您應用程式的數位媒體。 如果 ASF 檔案中的串流以編解碼器壓縮，則編解碼器只會支援特定的輸出格式。 當您使用 Windows Media 音訊和影片編解碼器時，可以使用 reader 物件來列舉支援的輸出格式。 每個 Windows 媒體編解碼器都有預設輸出格式，但您可以選取任何支援的輸出格式來傳遞範例。
 
 雖然壓縮資料的編解碼器必須支援輸出媒體格式，但某些輸出格式設定不需要符合資料流程格式。 例如，影片資料流程的輸出格式可能會有不同于資料流程格式所定義的框架大小。 編解碼器會在這些情況下執行轉換。
 
@@ -55,9 +55,9 @@ ms.locfileid: "104301623"
 [**概念**](concepts.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

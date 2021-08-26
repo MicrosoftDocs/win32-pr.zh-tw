@@ -13,12 +13,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 090fe71edbb00bd7964e5dcc1d518f57179af943
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d28d37faf454accd91281034d0aeb8df5e10dddb
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106982714"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122879869"
 ---
 # <a name="winmgmt"></a>winmgmt
 
@@ -49,7 +49,7 @@ winmgmt
 
 <dl> <dt>
 
-<span id="__________backup__filename_________"></span><span id="__________BACKUP__FILENAME_________"></span>**/backup***<filename>* 
+<span id="__________backup__filename_________"></span><span id="__________BACKUP__FILENAME_________"></span>**/backup** *&lt; 檔案名 &gt;* 
 </dt> <dd>
 
 導致 WMI 將存放庫備份至指定的檔案名。 *Filename* 引數應該包含檔案位置的完整路徑。 此程式需要儲存機制的寫入鎖定，如此一來，儲存機制的寫入作業才會暫止，直到備份程式完成為止。
@@ -58,7 +58,7 @@ winmgmt
 
 </dd> <dt>
 
-<span id="__________restore__filename____flag_____"></span><span id="__________RESTORE__FILENAME____FLAG_____"></span>**/restore** *<filename>**<flag>* 
+<span id="__________restore__filename____flag_____"></span><span id="__________RESTORE__FILENAME____FLAG_____"></span>**/restore** *&lt; filename &gt;* *&lt; 旗 &gt;* 標 
 </dt> <dd>
 
 從指定的備份檔案手動還原 WMI 存放庫。 *Filename* 引數應該包含備份檔案位置的完整路徑。 若要執行還原作業，WMI 會儲存現有的存放庫，以在作業失敗時回寫。 然後，系統會從 *filename* 引數中指定的備份檔案還原存放庫。 如果無法取得存放庫的獨佔存取權，現有的用戶端就會從 WMI 中斷連線。
@@ -67,7 +67,7 @@ winmgmt
 
 </dd> <dt>
 
-<span id="__________resyncperf__winmgmt-service-process-id_____"></span><span id="__________RESYNCPERF__WINMGMT-SERVICE-PROCESS-ID_____"></span>**/resyncperf** *<winmgmt-服務-處理序識別碼>* 
+<span id="__________resyncperf__winmgmt-service-process-id_____"></span><span id="__________RESYNCPERF__WINMGMT-SERVICE-PROCESS-ID_____"></span>**/resyncperf** *&lt; winmgmt-服務-進程-識別碼 &gt;* 
 </dt> <dd>
 
 使用 WMI 註冊電腦的效能程式庫。 WMI PID 是 WMI 服務的處理序識別碼。
@@ -76,7 +76,7 @@ winmgmt
 
 </dd> <dt>
 
-<span id="_standalonehost__level_"></span><span id="_STANDALONEHOST__LEVEL_"></span>**/standalonehost**\[*<level>*\]
+<span id="_standalonehost__level_"></span><span id="_STANDALONEHOST__LEVEL_"></span>**/standalonehost** \[*&lt; 層 &gt; 級*\]
 </dt> <dd>
 
 將 Winmgmt 服務移至具有固定 DCOM 端點的獨立 Svchost 進程。 預設端點為「ncacn \_ ip \_ 0.24158」。 不過，您可以藉由執行 Dcomcnfg.exe 來變更端點。 如需設定 WMI 固定通訊埠的詳細資訊，請參閱 [設定 wmi 的固定通訊埠](setting-up-a-fixed-port-for-wmi.md)。
@@ -94,10 +94,10 @@ winmgmt
 
 </dd> <dt>
 
-<span id="__________verifyrepository__path_____"></span><span id="__________VERIFYREPOSITORY__PATH_____"></span>**/verifyrepository***<path>* 
+<span id="__________verifyrepository__path_____"></span><span id="__________VERIFYREPOSITORY__PATH_____"></span>**/verifyrepository** *&lt; 路徑 &gt;* 
 </dt> <dd>
 
-在 WMI 儲存機制上執行一致性檢查。 當您新增沒有引數的 **/verifyrepository** 參數時 *<path>* ，系統就會驗證 WMI 目前使用的即時存放庫。 當您指定 *path* 引數時，您可以驗證儲存機制的任何儲存複本。 在此情況下，path 引數應該包含已儲存存放庫複本的完整路徑。 儲存的存放庫應該是整個存放庫資料夾的複本。 如需有關此命令所傳回錯誤的詳細資訊，請參閱「備註」一節。
+在 WMI 儲存機制上執行一致性檢查。 當您在沒有 *&lt; &gt; path* 引數的情況下新增 **/verifyrepository** 參數時，系統會驗證 WMI 目前使用的即時存放庫。 當您指定 *path* 引數時，您可以驗證儲存機制的任何儲存複本。 在此情況下，path 引數應該包含已儲存存放庫複本的完整路徑。 儲存的存放庫應該是整個存放庫資料夾的複本。 如需有關此命令所傳回錯誤的詳細資訊，請參閱「備註」一節。
 
 </dd> <dt>
 
@@ -129,7 +129,7 @@ WMI 存放庫（也稱為 CIM 存放庫）不只是單一檔案，而是存放�
 >
 > 如果 WMI 傳回錯誤訊息，請注意，它們可能不會指出 WMI 服務或 WMI 提供者中的問題。 失敗可能源自于作業系統的其他部分，並透過 WMI 出現錯誤。 在任何情況下，請勿將 WMI 儲存機制刪除為第一個動作，因為刪除存放庫可能會導致系統損毀或已安裝的應用程式。
 >
-> 如需問題來源的詳細資訊，請下載並執行 [WMI Diagnosis Utility](https://www.microsoft.com/downloads/en/details.aspx?familyid=d7ba3cd6-18d1-4d05-b11e-4c64192ae97d&displaylang=en) 診斷命令列工具。 這項工具會產生一份報告，通常可以找出問題的來源，並提供如何修正問題的指示。 報表也會協助 Microsoft 支援服務協助您。 您可以下載 [WMI Diagnosis Utility](https://www.microsoft.com/downloads/details.aspx?FamilyID=d7ba3cd6-18d1-4d05-b11e-4c64192ae97d)。
+> 如需問題來源的詳細資訊，請下載並執行[WMI Diagnosis Utility](https://www.microsoft.com/downloads/en/details.aspx?familyid=d7ba3cd6-18d1-4d05-b11e-4c64192ae97d&displaylang=en)診斷命令列工具。 這項工具會產生一份報告，通常可以找出問題的來源，並提供如何修正問題的指示。 報表也會協助 Microsoft 支援服務協助您。 您可以下載[WMI Diagnosis Utility](https://www.microsoft.com/downloads/details.aspx?FamilyID=d7ba3cd6-18d1-4d05-b11e-4c64192ae97d)。
 
  
 

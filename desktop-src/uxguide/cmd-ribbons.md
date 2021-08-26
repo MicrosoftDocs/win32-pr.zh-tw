@@ -5,12 +5,12 @@ ms.assetid: 8a4699da-9840-4622-9e94-d6d5c4e7708c
 ms.custom: contperf-fy21q1
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: db5a64d50bd225b714c2ff0578145c47c66bedb557dd067e0cdf89f369178b1e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cf74a58ae2fd9dda735c419f4ffa42b38d06c18c
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118042476"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122884447"
 ---
 # <a name="ribbons"></a>緞帶
 
@@ -355,7 +355,7 @@ Live preview 是一項功能強大的功能，可大幅提升使用者的生產�
 
 - **使用 [強制回應] 索引標籤，即可顯示套用至特定暫時模式的命令集合，而且沒有任何 [核心] 索引標籤適用。** 如果某些核心索引標籤適用，請改用內容索引標籤，並停用不適用的命令。 由於強制回應索引標籤非常有限，因此只有在沒有更好的替代方案時才應該使用。
 - ![[預覽列印] 索引標籤的螢幕擷取畫面 ](images/cmd-ribbons-image31.png)<br/>[預覽列印] 是常用的模式索引標籤。
-- 若要關閉強制回應索引標籤 **，請將 close 命令放在索引標籤 <mode> 上的最後一個命令。** 使用 [關閉] 圖示可讓您輕鬆找到命令。 提供命令中的模式，以防止對即將關閉的內容造成混淆。
+- 若要關閉強制回應索引標籤 **，請將 close mode 命令放在索引標籤 &lt; 上的 &gt; 最後一個命令。** 使用 [關閉] 圖示可讓您輕鬆找到命令。 提供命令中的模式，以防止對即將關閉的內容造成混淆。
 - ![[關閉預覽列印] 按鈕的螢幕擷取畫面 ](images/cmd-ribbons-image32.png)<br/>在此範例中，以模式明確標示 Close 命令會移除關閉內容的任何疑慮。
 - **若要關閉強制回應索引標籤，也請重新定義視窗標題列上的 [關閉] 按鈕，以關閉模式而不是程式。** 使用者測試顯示有許多使用者預期此行為。
 
@@ -411,7 +411,7 @@ Live preview 是一項功能強大的功能，可大幅提升使用者的生產�
 
 #### <a name="insert-tab"></a>插入索引標籤
 
-- Tables
+- 資料表
 - 插圖
 
 #### <a name="page-layout-tab"></a>[頁面配置] 索引標籤

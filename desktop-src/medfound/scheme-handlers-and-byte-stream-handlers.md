@@ -4,12 +4,12 @@ ms.assetid: b0113527-f22c-4519-b1cf-fea54bff4090
 title: 配置處理常式和 Byte-Stream 處理常式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cc7bde81a02762cd9c82e0a7d031582c856da6984ab231775580ddf249caca23
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2f5cbb2ee0af93e456e86b6eab16ff44705f5380
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118058225"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122881777"
 ---
 # <a name="scheme-handlers-and-byte-stream-handlers"></a>配置處理常式和 Byte-Stream 處理常式
 
@@ -47,7 +47,7 @@ HKEY_LOCAL_MACHINE
                   {00000000-0000-0000-0000-000000000000} = REG_SZ
 ```
 
-其中 *<scheme>* 是處理常式設計來剖析的 URL 配置。 配置包含尾端的 '： ' 字元;例如，"HTTP："。
+其中 *&lt; 配置 &gt;* 是處理常式設計來剖析的 URL 配置。 配置包含尾端的 '： ' 字元;例如，"HTTP："。
 
 若要註冊新的配置處理常式，請新增名稱為配置處理常式 CLSID 的專案，其名稱為標準字串格式： `{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}` 。 專案的值是字串 (REG \_ SZ) 包含處理常式的簡短描述，例如「我的配置處理常式」。 專案的重要部分是 CLSID。 來源解析程式會使用此 CLSID 呼叫 **CoCreateInstance** 來建立處理常式。
 
@@ -84,7 +84,7 @@ HKEY_LOCAL_MACHINE
                   {00000000-0000-0000-0000-000000000000} = REG_SZ
 ```
 
-其中 *<ExtensionOrMimeType>* 是檔案名副檔名或 MIME 類型。 副檔名包含初始 '. ' 字元;例如，".wmv"。
+其中 *&lt; ExtensionOrMimeType &gt;* 是副檔名或 MIME 類型。 副檔名包含初始 '. ' 字元;例如，".wmv"。
 
 副檔名是由應用程式提供的 URL 的一部分。 MIME 類型可透過位元組資料流程上的 [**MF \_ BYTESTREAM \_ 內容 \_ 類型**](mf-bytestream-content-type-attribute.md) 屬性取得。
 

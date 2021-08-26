@@ -55,12 +55,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 4af759cf621f5afbaef90924351ad24a232889b1d81048f0e1372630c74f98f3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1f7cefc27c0e4adc507276d118bcca95c274d121
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118950087"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122886603"
 ---
 # <a name="msvm_summaryinformation-class"></a>Msvm \_ SummaryInformation 類別
 
@@ -377,13 +377,13 @@ InstanceID 是選擇性屬性，可在具現化命名空間的範圍內，用來
 
 為確保命名空間中的唯一性，InstanceID 的值應使用下列「慣用」演算法來建立：
 
-<OrgID>:<LocalID>
+&lt;OrgID &gt; ： &lt; LocalID&gt;
 
-Where <OrgID> 和 <LocalID> 會以冒號分隔 (： ) ，其中 <OrgID> 必須包含受著作權、商標或其他唯一的名稱，而該名稱是由建立或定義 InstanceID 的商務實體所擁有，或是由可辨識的全域授權單位指派給商務實體的註冊識別碼。  (這項需求類似于 <Schema Name> \_ <Class Name> 架構類別名稱的結構。此外，) 此外，為了確保唯一性， <OrgID> 不能包含冒號 (： ) 。 使用此演算法時，InstanceID 中出現的第一個冒號必須出現在 <OrgID> 和之間 <LocalID> 。
+其中 &lt; OrgID &gt; 和 &lt; LocalID &gt; 是以冒號 (： ) ，而 &lt; OrgID &gt; 必須包含受著作權、商標或其他唯一名稱，而該實體是由建立或定義 InstanceID 的商務實體所擁有，或是由可辨識的全域授權單位指派給商務實體的註冊識別碼。  (這項需求與 <Schema Name> \_ <Class Name> 架構類別名稱的結構相似。 ) 此外，為了確保唯一性， &lt; OrgID &gt; 不能包含冒號 (： ) 。 使用此演算法時，InstanceID 中出現的第一個冒號必須出現在 &lt; OrgID &gt; 和 &lt; LocalID 之間 &gt; 。
 
-<LocalID> 由商務實體選擇，不應重複使用，以找出不同的基礎 (真實世界) 元素。 如果不是 null，而且未使用上述的「慣用」演算法，則定義實體必須確保產生的 InstanceID 不會在這個實例的命名空間或其他提供者所產生的任何 InstanceIDs 上重複使用。
+&lt;LocalID &gt; 由商務實體選擇，不應重複使用，以找出不同的基礎 (真實世界) 元素。 如果不是 null，而且未使用上述的「慣用」演算法，則定義實體必須確保產生的 InstanceID 不會在這個實例的命名空間或其他提供者所產生的任何 InstanceIDs 上重複使用。
 
-如果未針對 DMTF 定義的實例將設定為 null，就必須使用「慣用」演算法搭配 <OrgID> 將設定為 CIM。
+如果未針對 DMTF 定義的實例將設定為 null，就必須使用「慣用」演算法，並將 &lt; OrgID &gt; 設定為 CIM。
 
 > [!Note]  
 > 已在 Windows 10 中新增。
@@ -471,7 +471,7 @@ Where <OrgID> 和 <LocalID> 會以冒號分隔 (： ) ，其中 <OrgID> 必須�
 
 </dd> <dt>
 
-**名稱**
+名稱
 </dt> <dd> <dl> <dt>
 
 資料類型： **字串**

@@ -64,12 +64,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 09bda77a06723a6df63055374a3fc96cb80f7654
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9bdae5535d079335354306e47ed8378fa09450d9
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106965699"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122880054"
 ---
 # <a name="imstscaxstartconnected-property"></a>IMsTscAx：： StartConnected 屬性
 
@@ -102,9 +102,9 @@ HRESULT get_StartConnected(
 
 ## <a name="remarks"></a>備註
 
-當控制項屬性是在標記的參數清單中設定 <OBJECT> ，而不是透過腳本呼叫時，這個屬性最有用。
+當控制項屬性是在物件標記的參數清單中設定 &lt; &gt; ，而不是透過腳本呼叫時，這個屬性最有用。
 
-只有當伺服器名稱也使用 server 屬性指定時，才能使用這個屬性。 此參數必須在控制項啟動之前設定，例如，在使用網頁的控制項時，將它包含在標記的參數清單中 <OBJECT> 。
+只有當伺服器名稱也使用 server 屬性指定時，才能使用這個屬性。 此參數必須在控制項啟動之前設定，例如，在 &lt; &gt; 使用網頁的控制項時，將它包含在物件標記的參數清單中。
 
 如需遠端桌面網頁連線的詳細資訊，請參閱 [遠端桌面網頁連線的需求](requirements-for-remote-desktop-web-connection.md)。
 

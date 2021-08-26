@@ -3,7 +3,7 @@ title: 'CB_SETITEMDATA 訊息 (Winuser .h) '
 description: 應用程式會傳送 CB \_ SETITEMDATA 訊息，以設定與下拉式方塊中指定之專案相關聯的值。
 ms.assetid: 8be9eb57-a635-4c52-9838-556368813c74
 keywords:
-- CB_SETITEMDATA message Windows 控制項
+- CB_SETITEMDATA 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bbb1603f9906ebf30a391b57bd812dc2002136c4
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7abd50db9050178bc5d8d3b8ff556bce90f340fdb8d6692a514b0348aceeeab3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843900"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120089008"
 ---
 # <a name="cb_setitemdata-message"></a>CB \_ SETITEMDATA 訊息
 
@@ -57,9 +57,9 @@ ms.locfileid: "103843900"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                     |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 

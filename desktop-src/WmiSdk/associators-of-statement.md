@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 語句 ASSOCIATORS OF
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ec595584efb5c32342e5bbdaa8bae309b21b29d2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9af4b3d6455e81f87882bdd185ac7a8ef245f2d57c5d8f2c863f58d9c30c7b34
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320031"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120071578"
 ---
 # <a name="associators-of-statement"></a>語句 ASSOCIATORS OF
 

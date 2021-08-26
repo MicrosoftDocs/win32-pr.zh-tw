@@ -4,12 +4,12 @@ description: 本主題說明如何建立計算著色器。
 ms.assetid: 6114dd90-626b-4c9e-9da5-7d2d33153e79
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 64e6dc39476b83a9bd810cc7bb85231174ec1b18
-ms.sourcegitcommit: 73417d55867c804274a55abe5ca71bcba7006119
+ms.openlocfilehash: eea5e0ab6309dd441d33fc20b13d0ef31642b62f
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "104316744"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122884464"
 ---
 # <a name="how-to-create-a-compute-shader"></a>如何：建立計算著色器
 
@@ -52,9 +52,9 @@ ms.locfileid: "104316744"
 下列程式碼範例顯示如何編譯和建立計算著色器。
 
 > [!Note]  
-> 在此範例程式碼中，您需要 \_ \_ 路徑中% PROGRAM file% Windows 套件8.0 可轉散發的 \\ \\ \\ \\ D3D \\ <arch> 資料夾的 Windows SDK 8.0 和 d3dcompiler44.dll 檔。
+> 在此範例程式碼中，您需要 \_ \_ \\ \\ \\ \\ \\ &lt; &gt; 路徑中% PROGRAM file% Windows 套件8.0 可轉散發的 D3D 架構資料夾的 Windows SDK 8.0 和 d3dcompiler44.dll 檔。
 
- 
+ 
 
 
 ```cpp

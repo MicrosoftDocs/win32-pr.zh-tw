@@ -23,12 +23,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 0c4c73a5021efb4fc86c6cbc21d5b6bdc97aec07
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: a6a20248cf536d8de58d5e6ba3cc1961e194541b
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936317"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122884798"
 ---
 # <a name="cim_fileaction-class"></a>CIM \_ FileAction 類別
 
@@ -72,7 +72,7 @@ class CIM_FileAction : CIM_Action
 
 
 
-| 方法                                                  | 描述                                                   |
+| 方法                                                  | 說明                                                   |
 |:--------------------------------------------------------|:--------------------------------------------------------------|
 | [**調用**](invoke-method-in-class-cim-fileaction.md) | 採取特定動作。 不是由 WMI 所執行。<br/> |
 
@@ -168,7 +168,7 @@ class CIM_FileAction : CIM_Action
 
 </dd> <dt>
 
-**名稱**
+名稱
 </dt> <dd> <dl> <dt>
 
 資料類型： **字串**
@@ -414,7 +414,7 @@ HP-UX
 
 </dt> <dd>
 
-Windows 3。x
+Windows3.x
 
 </dd> <dt>
 
@@ -810,8 +810,8 @@ Mac OS 9
 
 作業的版本應該採用下列其中一種形式：
 
--   <major>.<minor>.<revision>
--   <major>.<minor><letter><revision>
+-   &lt;主要 &gt; 。 &lt;次要 &gt; 。 &lt;修訂&gt;
+-   &lt;主要 &gt; 。 &lt;次要 &gt; &lt; 信件 &gt; &lt; 修訂&gt;
 
 這個屬性繼承自 [**CIM \_ 動作**](cim-action.md)。
 

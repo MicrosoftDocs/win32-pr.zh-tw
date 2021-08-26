@@ -4,12 +4,12 @@ ms.assetid: e4c2afc2-0fd3-4bdd-812e-f112958e1576
 title: WinHttpCertCfg.exe，憑證設定工具
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 51ce9978f6e2ffcafa1357a45dbeff80c12bf0e6ea2f7f3fb9656376b33dfb23
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 21b8fbfadd6cf0282f63b26c8dd40d5ef96b5f54
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117743796"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122466425"
 ---
 # <a name="winhttpcertcfgexe-a-certificate-configuration-tool"></a>WinHttpCertCfg.exe，憑證設定工具
 
@@ -36,61 +36,19 @@ winhttpcertcfg [-i PFXFile | -g | -r | -l]
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>參數</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>-?</td>
-<td>顯示語法資料。</td>
-</tr>
-<tr class="even">
-<td>-i</td>
-<td>指定要從個人資訊匯入憑證 Exchange (PFX) 檔。 此參數後面必須接著檔案的名稱。 當指定這個參數時， &quot; &quot; &quot; 也必須指定-a 和-c &quot; 。</td>
-</tr>
-<tr class="odd">
-<td>-g</td>
-<td>指定授與私密金鑰的存取權。 當指定這個參數時， &quot; &quot; &quot; 也必須指定-a、-c &quot; 和 &quot; -s &quot; 。</td>
-</tr>
-<tr class="even">
-<td>-r</td>
-<td>指定移除私密金鑰的存取權。 當指定這個參數時， &quot; &quot; &quot; 也必須指定-a、-c &quot; 和 &quot; -s &quot; 。</td>
-</tr>
-<tr class="odd">
-<td>-l</td>
-<td>指定列出具有私密金鑰存取權的帳戶。 當指定這個參數時， &quot; &quot; &quot; 也必須指定-c 和-s &quot; 。</td>
-</tr>
-<tr class="even">
-<td>-a</td>
-<td>指定要設定之電腦上的使用者帳戶。 這可以是本機電腦或網域帳戶，例如 &quot; IWAM_TESTMACHINE &quot; 、 &quot; TESTUSER &quot; 或 &quot; TESTDOMAIN\DOMAINUSER &quot; 。</td>
-</tr>
-<tr class="odd">
-<td>-c</td>
-<td>指定 <a href="glossary.md"><em>憑證存放區</em></a>的位置和名稱。 使用 &quot; LOCAL_MACHINE &quot; 或 &quot; CURRENT_USER &quot; 指定要用於位置的登錄分支。 <em>憑證存放區</em>可以是電腦上安裝的任何一個。 一般名稱範例包括 &quot; MY &quot; 、 &quot; Root &quot; 和 &quot; TrustedPeople &quot; 。 <em>憑證存放區</em>的位置和名稱會以反斜線分隔，例如 &quot; LOCAL_MACHINE \root &quot; 。
-<blockquote>
-[!Note]<br />
-雖然您 &quot; &quot; 可以使用這個參數來指定登錄的 CURRENT_USER 分支，但延伸私密金鑰的存取主要是用於安裝在本機電腦 <a href="glossary.md"><em>憑證存放區</em></a> 中的憑證，可供多位使用者存取。
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td>-S</td>
-<td>指定不區分大小寫的搜尋字串，以尋找包含此子字串的主體名稱的第一個列舉憑證。</td>
-</tr>
-<tr class="odd">
-<td>-p</td>
-<td>指定用來匯入憑證和私密金鑰的密碼。 這只會與匯入選項搭配使用。</td>
-</tr>
-</tbody>
-</table>
+
+| 參數 | Description | 
+|-----------|-------------|
+| -? | 顯示語法資料。 | 
+| -i | 指定要從個人資訊匯入憑證 Exchange (PFX) 檔。 此參數後面必須接著檔案的名稱。 當指定這個參數時，也必須指定 "-a" 和 "-c"。 | 
+| -g | 指定授與私密金鑰的存取權。 當指定這個參數時，必須同時指定 "-a"、"-c" 和 "-s"。 | 
+| -r | 指定移除私密金鑰的存取權。 當指定這個參數時，必須同時指定 "-a"、"-c" 和 "-s"。 | 
+| -l | 指定列出具有私密金鑰存取權的帳戶。 當指定這個參數時，也必須指定 "-c" 和 "-s"。 | 
+| -a | 指定要設定之電腦上的使用者帳戶。 這可以是本機電腦或網域帳戶，例如 "IWAM_TESTMACHINE"、"TESTUSER" 或 "TESTDOMAIN\DOMAINUSER"。 | 
+| -c | 指定 <a href="glossary.md"><em>憑證存放區</em></a>的位置和名稱。 使用「LOCAL_MACHINE」或「CURRENT_USER」來指定要用於此位置的登錄分支。 <em>憑證存放區</em>可以是電腦上安裝的任何一個。 一般名稱範例是 "MY"、"Root" 和 "TrustedPeople"。 <em>憑證存放區</em>的位置和名稱會以反斜線分隔，例如 "LOCAL_MACHINE \root"。<blockquote>[!Note]<br />雖然可以使用這個參數來指定登錄的 "CURRENT_USER" 分支，但延伸私密金鑰的存取主要是用於安裝在本機電腦 <a href="glossary.md"><em>憑證存放區</em></a> 中的憑證，而這些憑證可以由多位使用者存取。</blockquote><br /> | 
+| -S | 指定不區分大小寫的搜尋字串，以尋找包含此子字串的主體名稱的第一個列舉憑證。 | 
+| -p | 指定用來匯入憑證和私密金鑰的密碼。 這只會與匯入選項搭配使用。 | 
+
 
 
 

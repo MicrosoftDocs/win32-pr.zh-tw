@@ -4,12 +4,12 @@ description: 若要建立觸發程式，您必須使用三個介面。
 ms.assetid: c0f121ff-d0a5-4b6c-935c-6f47b4ea26d5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f48ecb7b06e5bade6d5ad80e4c9a82794f6a17e8
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 0111fe8c45fdac5618407500b2168bf09c4ec01c5d68e78342f14d6bf103ff78
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104376040"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120100438"
 ---
 # <a name="creating-a-new-trigger"></a>建立新的觸發程式
 
@@ -35,7 +35,7 @@ ms.locfileid: "104376040"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -44,6 +44,6 @@ ms.locfileid: "104376040"
 [工作排程器1.0 範例](task-scheduler-1-0-examples.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

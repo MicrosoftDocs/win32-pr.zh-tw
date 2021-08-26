@@ -4,18 +4,18 @@ ms.assetid: 05924c7d-e074-4835-b42c-53c77dc1bbb5
 title: PageBlendColorSpaceICCProfileURI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 50db89757737ff5aa6a1358af418ee33809b960e
-ms.sourcegitcommit: 998d50f6def8a25850fc113fc8a2df903c829c5e
+ms.openlocfilehash: e8d62a50fd53c678f507ec18970e346285ed348f
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "113549316"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122880486"
 ---
 # <a name="pageblendcolorspaceiccprofileuri"></a>PageBlendColorSpaceICCProfileURI
 
 本主題並非最新的。 如需最新資訊，請參閱 [列印架構規格](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip)。
 
-指定定義應用於混合之色彩空間的 ICC 設定檔的相對 URI 參考。 <Uri>是 \_ 相對於封裝根目錄的絕對部分名稱。
+指定定義應用於混合之色彩空間的 ICC 設定檔的相對 URI 參考。 &lt;Uri &gt; 是 \_ 相對於封裝根目錄的絕對部分名稱。
 
 -   [項目資訊](#element-information)
 -   [結構內容](#structure-content)

@@ -4,12 +4,12 @@ description: .NET Framework 4.5 是預設值，.NET Framework 3.5 是選擇性�
 ms.assetid: 19B53C82-812A-49AC-87C6-C08E7C199208
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e875f7508bc0940689afde5eb9b3f00407dd2c7dd70e35de52fe580717c8ad53
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 18b45aef294e035f5fb7e647c49b22206ac8aadd
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119549788"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122883131"
 ---
 # <a name="net-framework-45-is-default-and-net-framework-35-is-optional"></a>.NET Framework 4.5 是預設值，.NET Framework 3.5 是選擇性的
 
@@ -18,7 +18,7 @@ ms.locfileid: "119549788"
 **用戶端** Windows 8     
 **伺服器** Windows Server 2012     
 
-## <a name="description"></a>描述
+## <a name="description"></a>說明
 
 預設會在 Windows 8 中啟用 .NET Framework 4.5。 Windows 8 預設不包含 .net 3.5，但 Windows 8 安裝媒體上有提供適用于 .net 3.5 的檔案做為選擇性功能。
 
@@ -129,7 +129,7 @@ IT 系統管理員可以透過登錄專案設定 .net 3.5 檔案的本機來源�
 <td>本機來源路徑</td>
 <td> REG_EXPAND_SZ </td>
 <td>預設會使用本機來源路徑)  (s。 可以指定多個路徑;它們應該以; 分隔。 系統會依照指定的順序來搜尋位置。 <br/> 在 DISM 命令列上指定的本機來源位置 (s) ，優先于此登錄專案中指定的位置。 您可以在此登錄專案中指定資料夾位置。 <br/> 您可以使用 Wim，但路徑必須是 WIM 檔案;不需要掛接它，例如： <br/> <dl> wim： \\ machine\share\file.wim：1<br />
-</dl> 請注意結尾的1。 您必須指定要在 WIM 檔案中使用之映射的數值索引。 <br/> 若為掛接的 WIM，來源路徑必須參考掛接映射的 windows 目錄，而不是指向掛接點 (例如：/source： <mount_point> \windows，而不是/source： <mount_point>) 。 <br/></td>
+</dl> 請注意結尾的1。 您必須指定要在 WIM 檔案中使用之映射的數值索引。 <br/> 針對掛接的 WIM，來源路徑必須參考掛接映射的 windows 目錄，而不是指向掛接點 (例如：/source： &lt; mount_point &gt; \windows，而不是/source： &lt; mount_point &gt;) 。 <br/></td>
 </tr>
 </tbody>
 </table>

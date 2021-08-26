@@ -4,12 +4,12 @@ ms.assetid: d76ed6df-944b-4996-bf07-e42ceb7a1b69
 title: AppId 資料表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e8452635cd7c167d6a8618629eaec2f6f6c1aa2e72e0b3628a7d4542a9e7160
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1d9a121e6252c6054d5ac2765a9649e345035dde
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119066268"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122882216"
 ---
 # <a name="appid-table"></a>AppId 資料表
 
@@ -54,14 +54,14 @@ AppId 資料表具有下列資料行。
 <span id="RemoteServerName"></span><span id="remoteservername"></span><span id="REMOTESERVERNAME"></span>RemoteServerName
 </dt> <dd>
 
-此資料行包含 "RemoteServerName" = 的值 <xxxx> ，將會寫入 HKCR \\ AppID \\ {AppID} \\ 。
+此資料行包含 "RemoteServerName" = xxxx 的 &lt; 值 &gt; ，將會寫入 HKCR \\ AppID \\ {AppID} \\ 。
 
 </dd> <dt>
 
 <span id="LocalService"></span><span id="localservice"></span><span id="LOCALSERVICE"></span>LocalService
 </dt> <dd>
 
-此資料行包含將在 HKCR \\ AppID \\ { <appid> } "LocalService" = 下寫入的 LocalService 值 <xxx> 。
+此資料行包含 LocalService 的值，此值將會寫入 HKCR \\ AppID \\ { &lt; AppID &gt; } "LocalService" = &lt; xxx &gt; 。
 
 </dd> <dt>
 
@@ -75,14 +75,14 @@ AppId 資料表具有下列資料行。
 <span id="DllSurrogate"></span><span id="dllsurrogate"></span><span id="DLLSURROGATE"></span>DllSurrogate
 </dt> <dd>
 
-此資料行包含將在 HKCR \\ AppId \\ { <appid> } "DllSurrogate" = 下寫入的 DllSurrogate 值 <xxx> 。 如果此資料行存在，則通常會是空字串。
+此資料行包含 DllSurrogate 的值，此值將會寫入 HKCR \\ AppId \\ { &lt; AppId &gt; } "DllSurrogate" = &lt; xxx &gt; 。 如果此資料行存在，則通常會是空字串。
 
 </dd> <dt>
 
 <span id="ActivateAtStorage"></span><span id="activateatstorage"></span><span id="ACTIVATEATSTORAGE"></span>ActivateAtStorage
 </dt> <dd>
 
-此欄位中的非零整數值會導致 Windows Installer 將 HKCR \\ AppID \\ { <appid> } "ActivateAtStorage" = "Y" 寫入登錄中。 如果欄位是空的，或值為零，則不會寫入任何值。
+此欄位中的非零整數值會導致 Windows Installer 將 HKCR \\ AppID \\ { &lt; AppID &gt; } "ActivateAtStorage" = "Y" 寫入登錄中。 如果欄位是空的，或值為零，則不會寫入任何值。
 
 </dd> <dt>
 

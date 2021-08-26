@@ -5,12 +5,12 @@ ms.assetid: 489d3613-177f-4045-a055-2c1577ef2191
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ef0f3a40b3404441df40434c7ddb2f1bb6ac578caaf182c14d2825c6f99e7f9d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 771a70758a57134cdaabd8a9a72e3ad43c8bb890
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118997968"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122887287"
 ---
 # <a name="creating-a-source-initiated-subscription"></a>建立來源起始的訂用帳戶
 
@@ -419,12 +419,12 @@ DWORD GetProperty(EC_HANDLE hSubscription,
 
     1.  從提升許可權的命令提示字元執行下列命令，以取得訂用帳戶的執行時間狀態：
 
-        **>wecutil gr***<subscriptionID>*
+        **>wecutil gr** *&lt; subscriptionID &gt;*
 
     2.  確認事件來源已連接。 在您建立要連接之事件來源的訂用帳戶之後，您可能需要等候直到原則中指定的重新整理間隔結束為止。
     3.  執行下列命令以取得訂用帳戶資訊：
 
-        **>wecutil gs***<subscriptionID>*
+        **>wecutil gs** *&lt; subscriptionID &gt;*
 
     4.  從訂用帳戶資訊中取得 DeliveryMaxItems 值。
 

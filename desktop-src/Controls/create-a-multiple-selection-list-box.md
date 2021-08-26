@@ -4,12 +4,12 @@ description: 本主題示範如何在多重選取清單方塊中顯示和存取�
 ms.assetid: 5192E171-8CEF-4921-9378-A7C3A52A9024
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: abd47b1d582d53a66bc77284927aef4230043e92
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: 3f375ca2df82f851401baec79683a54ff28cf14e7a004d08cb0885e60fb036d1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "104024343"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119920858"
 ---
 # <a name="how-to-create-a-multiple-selection-list-box"></a>如何建立 Multiple-Selection 清單方塊
 
@@ -21,12 +21,12 @@ ms.locfileid: "104024343"
 
 ### <a name="technologies"></a>技術
 
--   [Windows 控制項](window-controls.md)
+-   [Windows控制](window-controls.md)
 
 ### <a name="prerequisites"></a>必要條件
 
 -   C/C++
--   Windows 消費者介面程式設計
+-   Windows消費者介面程式設計
 
 ## <a name="instructions"></a>指示
 

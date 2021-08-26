@@ -11,12 +11,12 @@ api_name: ''
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 3c87ae3be7dbeb103c3ad9ee349df57597b0ec2f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: 515805db57a6689292fbb66581028e3c729ebfadcc2fa7baac024596180c9a87
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972948"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120115258"
 ---
 # <a name="rectfrectf-constructors"></a>RectF. RectF 函數
 

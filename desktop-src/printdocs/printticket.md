@@ -4,12 +4,12 @@ ms.assetid: fe6bd921-cbf3-4cca-afae-82d3822206ba
 title: PrintTicket
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b279ff681704a63f6547738c73fb9192d6f8a65d
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: 0a38638083f6a6aabd0290fa3466a30fd50f7375
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113120073"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122884900"
 ---
 # <a name="printticket"></a>PrintTicket
 
@@ -19,7 +19,7 @@ PrintTicket 元素是 PrintTicket 檔的根項目。 PrintTicket 元素包含輸
 
 ## <a name="element-tag"></a>元素標記
 
-<PrintTicket>
+&lt;PrintTicket&gt;
 
 ## <a name="xml-attributes"></a>XML 屬性
 

@@ -4,12 +4,12 @@ ms.assetid: 70185942-7d32-4151-a4e1-f71cf45e87af
 title: 使用登錄字串重新導向
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 30f0804d0586f8340e5a84e9da9c82ca39ffc30b55f72f4695d5216cbb26aab6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 561bac55f59bd414002f5dcc0ce3611102a4effd
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118389414"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122887403"
 ---
 # <a name="using-registry-string-redirection"></a>使用登錄字串重新導向
 
@@ -255,14 +255,14 @@ HKCR\AppEvents\EventLabels
 
 ## <a name="represent-ole-insert-object-common-dialog-strings"></a>代表 OLE 插入物件的通用對話方塊字串
 
-您可以將 OLE 可插入物件的顯示名稱，作為與執行該物件之程式碼相關聯的可當地語系化字串資源。 [ [OLE 插入物件] 對話方塊](/cpp/mfc/reference/coleinsertdialog-class) 會從登錄機碼 HKCR \\ CLSID {} 取得顯示名稱 \\ *<GUID>* ，其中 *GUID* 會識別可插入的 OLE 物件的類別識別碼。 WindowsVista 和更新版本會以可當地語系化的方式來執行這種類型的物件，並使用符合 MUI 規範的顯示名稱來自訂使用者介面語言。 相反地，預先 Windows Vista 作業系統會使用對應的登錄機碼的預設值來執行這種類型物件的顯示名稱。 此名稱通常是英文 (美國) 名稱或系統預設 UI 語言中的名稱。
+您可以將 OLE 可插入物件的顯示名稱，作為與執行該物件之程式碼相關聯的可當地語系化字串資源。 [ [OLE 插入物件] 對話方塊](/cpp/mfc/reference/coleinsertdialog-class)會從登錄機碼 HKCR \\ CLSID \\ {*&lt; GUID &gt;*} 取得顯示名稱，其中 *GUID* 會識別可插入之 OLE 物件的類別識別碼。 WindowsVista 和更新版本會以可當地語系化的方式來執行這種類型的物件，並使用符合 MUI 規範的顯示名稱來自訂使用者介面語言。 相反地，預先 Windows Vista 作業系統會使用對應的登錄機碼的預設值來執行這種類型物件的顯示名稱。 此名稱通常是英文 (美國) 名稱或系統預設 UI 語言中的名稱。
 
 > [!Note]  
 > 並非所有對應到登錄機碼子機碼的物件都是可插入的。
 
  
 
-HKCR \\ CLSID \\ {} 金鑰的預設值 *<GUID>* 應該保留人們可讀取的名稱，以提供回溯相容性。 不過，它也應該以 "" 格式來定義 >localizedstring 值， `@<path>,-ResID` 其中路徑會識別執行物件的可執行檔。 ResID 值會為顯示名稱指定可當地語系化字串的資源識別碼。
+HKCR \\ CLSID \\ {*&lt; &gt; GUID*} 金鑰的預設值應該保留人們可讀取的名稱，以提供回溯相容性。 不過，它也應該以 "" 格式來定義 >localizedstring 值， `@<path>,-ResID` 其中路徑會識別執行物件的可執行檔。 ResID 值會為顯示名稱指定可當地語系化字串的資源識別碼。
 
 例如，可插入媒體剪輯物件的註冊腳本包含下列幾行：
 

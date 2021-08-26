@@ -1,19 +1,19 @@
 ---
-description: 選擇性 <dateCreated> 元素會使用 ISO 8601 標準來識別建立此搜尋連接器的日期和時間。 它沒有任何子項目，而且沒有任何屬性。
+description: 選擇性 &lt; dateCreated &gt; 元素會使用 ISO 8601 標準來識別建立此搜尋連接器的日期和時間。 它沒有任何子項目，而且沒有任何屬性。
 ms.assetid: 96d8b067-b5ab-4d36-a8d7-1d084a9f661d
 title: 'dateCreated 元素 (搜尋連接器架構) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6b59af62b2bd7ce8678fafb1fdd84646314f41a51414b4285db3077b5db0e0f7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: eff7c739bcad9e3a6594008597c0392398f22864
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119944398"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122882502"
 ---
 # <a name="datecreated-element-search-connector-schema"></a>dateCreated 元素 (搜尋連接器架構) 
 
-選擇性 <dateCreated> 元素會使用 ISO 8601 標準來識別建立此搜尋連接器的日期和時間。 它沒有任何子項目，而且沒有任何屬性。
+選擇性 &lt; dateCreated &gt; 元素會使用 ISO 8601 標準來識別建立此搜尋連接器的日期和時間。 它沒有任何子項目，而且沒有任何屬性。
 
 ## <a name="syntax"></a>Syntax
 
