@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10Math.h
-ms.openlocfilehash: 1f69eb14cf2cf5fd77092ed6881e16524d8428c5
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 660d48219c3d93e9b3188926dd6f5bc2ddf9db45a9310b3bf8716cb2e960e895
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108108146"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119989618"
 ---
 # <a name="d3dxvec3projectarray-function-d3dx10mathh"></a>D3DXVec3ProjectArray 函式 (D3DX10Math) 
 

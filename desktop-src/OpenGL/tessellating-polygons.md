@@ -13,12 +13,12 @@ keywords:
 - 複雜的多邊形 OpenGL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 475076f6372042d61c1662b445b7573709134c65
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 948e0669348404af763883f7ff713212d52f6f0d79312812552c0e5053041627
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106967442"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120034510"
 ---
 # <a name="tessellating-polygons"></a>鑲嵌多邊形
 
@@ -44,9 +44,9 @@ OpenGL 只能直接顯示簡單的凸形多邊形。 多邊形很簡單，如下
 
 如需儲存鑲嵌式資料的詳細資訊，請參閱 [使用回呼函數](using-callback-functions.md)。
 
- 
+ 
 
- 
+ 
 
 
 

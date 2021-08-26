@@ -4,12 +4,12 @@ ms.assetid: dd0a4908-642b-4af1-80f5-0af606aee990
 title: GraphicsPathIterator 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 353abf03a34c9f79278fbf65682cf774adeda7ad
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5631220bd9eefb782074db1b52fade237c0126677c30c0788250e45a80e8a23b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972973"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120062008"
 ---
 # <a name="graphicspathiterator-methods"></a>GraphicsPathIterator 方法
 

@@ -4,12 +4,12 @@ description: 如果託管服務具有 evented 狀態變數，則必須執行 IUP
 ms.assetid: 7558496d-c909-4602-bfaa-d21108392fed
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 68a6382ee88d2ca5168c94eac20727bbfee4a598
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 313f979072a447f41b9edadfeec7bf4407463be67c86e9c3b34f43f4dcc47874
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840155"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120008078"
 ---
 # <a name="eventing"></a>事件
 
@@ -23,9 +23,9 @@ ms.locfileid: "103840155"
 
 當裝置主機不再需要從託管服務接收通知時，它會叫用 [**IUPnPEventSource：： Unadvise**](/windows/desktop/api/Upnphost/nf-upnphost-iupnpeventsource-unadvise)，並傳入從「 [**建議**](/windows/desktop/api/Upnphost/nf-upnphost-iupnpeventsource-advise)」接收的相同物件指標。 裝置主機不再位於網路時，會叫用此方法。
 
- 
+ 
 
- 
+ 
 
 
 

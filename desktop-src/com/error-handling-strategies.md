@@ -4,12 +4,12 @@ description: 錯誤處理策略
 ms.assetid: 8d03ede8-0661-43dc-adaf-3c1f5fc1687e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 36c594a8b1e5baf0eab3d928b8f1b861b7f0160d
-ms.sourcegitcommit: 85688bbfbe5b121bc05ddf112d54c23a469dfbc0
+ms.openlocfilehash: 0527edbb8bab4b4a0b0ca9e0d135bc5cf8c2827497a36fb9cad021680868f764
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "104462692"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120029968"
 ---
 # <a name="error-handling-strategies"></a>錯誤處理策略
 
@@ -47,7 +47,7 @@ COM 函數和方法的傳回值是 **HRESULT**。 某些 Hresult 的值已在 CO
 
 如果錯誤碼的前四個數字為8007，這表示系統或網路錯誤。 您可以使用 **net** 命令來解碼這些類型的錯誤。 若要解碼錯誤，請先將十六進位錯誤碼的最後四個數字轉換成 decimal。 然後，在命令提示字元中輸入下列命令，其中的十進位碼會以您要解碼的傳回值取代：
 
-**net helpmsg <***十進位 \_ 碼***>**
+**net helpmsg <**_十進位 \_ 碼_*_>_*
 
 Net 命令會傳回錯誤的描述。 例如，如果 COM 傳回錯誤8007054B，請將054B 轉換為 decimal (1355) 。 接著輸入下列內容：
 

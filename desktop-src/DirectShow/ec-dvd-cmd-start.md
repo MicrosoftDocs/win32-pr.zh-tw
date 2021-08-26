@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - dvdevcode.h
-ms.openlocfilehash: 0fb723b220bf8aa12baa7133c9985225d6051921
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 418163b55699f8ba7c38026764f3326985d7e1788369729f42067cff62a56949
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106998709"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119998078"
 ---
 # <a name="ec_dvd_cmd_start"></a>EC \_ DVD \_ CMD \_ 啟動
 

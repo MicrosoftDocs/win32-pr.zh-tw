@@ -6,12 +6,12 @@ keywords:
 - type_UserMarshal
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bca4cc8ced4b84e21475960912f8e4ac2054d1c3
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: ffea134b78ae8187fce3fab7876150c0a7a8cd7f892ebac602966712ec1b60e0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382785"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120016468"
 ---
 # <a name="the-type_usermarshal-function"></a>型別 \_ UserMarshal 函式
 
@@ -51,6 +51,6 @@ unsigned char __RPC_FAR * __RPC_USER  <type>_UserMarshal(
 [使用者 \_ 封送處理](/windows/desktop/Midl/user-marshal)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

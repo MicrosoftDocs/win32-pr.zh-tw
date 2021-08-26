@@ -4,12 +4,12 @@ description: 您可以藉由變更登錄中的設定來修改控制點 API 和�
 ms.assetid: 81893cde-d28f-41ec-a6c1-159b3eb84274
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4107df31335da2f93fd4be669c8557b1f56d179e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 68438f6eb425da253aa7f59af3b7d060bacacadb865d4546ddbc0f37fecd9ed2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106996551"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120008108"
 ---
 # <a name="configuration-settings"></a>組態設定
 
@@ -22,7 +22,7 @@ ms.locfileid: "106996551"
 -   \\**UPnP 裝置主機** \\檔案 **大小限制**
 -   \\**Windows** \\**CurrentVersion** \\**UPnP** \\檔案 **大小限制**
 -   **MaxCache**
--   **Ttl**
+-   **TTL**
 -   **ReceiveScope**
 
 有兩個登錄值（稱為檔案 **大小限制**），一個用於描述檔，另一個則用於使用簡單物件存取通訊協定 (SOAP) 的回應。
@@ -31,26 +31,26 @@ ms.locfileid: "106996551"
 
 ```
 HKEY_LOCAL_MACHINE
-   SOFTWARE
-      Microsoft
-         UPnPControl Point
-            DownloadScope
-         UPnP Device Host
-            Devices
-               DeviceLifeTime
-            File Size Limit
-         Windows
-            CurrentVersion
-               UPnP
-                  File Size Limit
-   SYSTEM
-      CurentControlSet
-         Services
-            SSDPSRV
-               Parameters
-                  MaxCache
-                  TTL
-                  ReceiveScope
+   SOFTWARE
+      Microsoft
+         UPnPControl Point
+            DownloadScope
+         UPnP Device Host
+            Devices
+               DeviceLifeTime
+            File Size Limit
+         Windows
+            CurrentVersion
+               UPnP
+                  File Size Limit
+   SYSTEM
+      CurentControlSet
+         Services
+            SSDPSRV
+               Parameters
+                  MaxCache
+                  TTL
+                  ReceiveScope
 ```
 
 ## <a name="registry-value-descriptions"></a>登錄值描述
@@ -78,7 +78,7 @@ HKEY_LOCAL_MACHINE
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -94,7 +94,7 @@ HKEY_LOCAL_MACHINE
 <span id="_UPnP_Device_HostFile_Size_Limit"></span><span id="_upnp_device_hostfile_size_limit"></span><span id="_UPNP_DEVICE_HOSTFILE_SIZE_LIMIT"></span>\\**UPnP 裝置主機** \\檔案 **大小限制**
 </dt> <dd>
 
-指定每個描述檔的大小上限（以位元組為單位）。 這項設定無法在 Windows XP Service Pack 2 之前的 Windows 版本中設定。 在先前的版本中，此設定是硬式編碼為102400。
+指定每個描述檔的大小上限（以位元組為單位）。 這項設定無法在 Windows XP Service Pack 2 之前的 Windows 版本中進行設定。 在先前的版本中，此設定是硬式編碼為102400。
 
 有效的值範圍從10240到 **最大的 \_ DWORD**。 預設值為102400。
 
@@ -103,7 +103,7 @@ HKEY_LOCAL_MACHINE
 <span id="_WindowsCurrentVersionUPnPFile_Size_Limit"></span><span id="_windowscurrentversionupnpfile_size_limit"></span><span id="_WINDOWSCURRENTVERSIONUPNPFILE_SIZE_LIMIT"></span>\\**Windows** \\**CurrentVersion** \\**UPnP** \\檔案 **大小限制**
 </dt> <dd>
 
-指定可接受之 SOAP 回應的大小上限（以位元組為單位）。 這項設定無法在 Windows XP Service Pack 2 之前的 Windows 版本中設定。 在先前的版本中，此設定是硬式編碼為102400。
+指定可接受之 SOAP 回應的大小上限（以位元組為單位）。 這項設定無法在 Windows XP Service Pack 2 之前的 Windows 版本中進行設定。 在先前的版本中，此設定是硬式編碼為102400。
 
 有效的值範圍從10240到 **最大的 \_ DWORD**。 預設值為102400。
 
@@ -118,7 +118,7 @@ HKEY_LOCAL_MACHINE
 
 </dd> <dt>
 
-<span id="TTL"></span><span id="ttl"></span>**Ttl**
+<span id="TTL"></span><span id="ttl"></span>**TTL**
 </dt> <dd>
 
 指定 SSDP 封包的存留時間。 亦即， **TTL** 會指定封包允許的躍點數目。
@@ -130,7 +130,7 @@ HKEY_LOCAL_MACHINE
 <span id="ReceiveScope"></span><span id="receivescope"></span><span id="RECEIVESCOPE"></span>**ReceiveScope**
 </dt> <dd>
 
-指定哪些 IP 位址是訊息的有效來源。 如果傳入訊息源自于 **ReceiveScope** 所指定之範圍內的位址，則會忽略該訊息。 這項設定無法在 Windows XP Service Pack 2 之前的 Windows 版本中設定。 在先前的版本中，會接受訊息，而不考慮其來源。
+指定哪些 IP 位址是訊息的有效來源。 如果傳入訊息源自于 **ReceiveScope** 所指定之範圍內的位址，則會忽略該訊息。 這項設定無法在 Windows XP Service Pack 2 之前的 Windows 版本中進行設定。 在先前的版本中，會接受訊息，而不考慮其來源。
 
 有效的值如下表所示。 預設值為 1。
 
@@ -145,7 +145,7 @@ HKEY_LOCAL_MACHINE
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -156,9 +156,9 @@ HKEY_LOCAL_MACHINE
 [UPnP 架構總覽](overview-of-universal-plug-and-play.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

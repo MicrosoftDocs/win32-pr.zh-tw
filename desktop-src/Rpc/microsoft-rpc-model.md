@@ -1,21 +1,21 @@
 ---
 title: RPC 模型
-description: C 和 c + + 程式設計語言 (RPC) 的遠端程序呼叫，其設計目的是為了協助滿足開發人員在 Windows 作業系統下一代軟體的需求。
+description: C 和 c + + 程式設計語言 (RPC) 的遠端程序呼叫，其設計目的是為了協助滿足開發人員在下一代軟體上 Windows 作業系統時的需求。
 ms.assetid: ebab41a5-e841-4e0f-8acd-d0aab94f01c1
 keywords:
 - 遠端程序呼叫 RPC （說明） RPC 模型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2e72048b12329133fcc8ce4ee82bce266ed29162
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 0dc4c21a9fbbff24f4aafe9bad67186b65f4e3411b507d07953e29f806c6ff73
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103682886"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120019708"
 ---
 # <a name="the-rpc-model"></a>RPC 模型
 
-C 和 c + + 程式設計語言 (RPC) 的遠端程序呼叫，其設計目的是為了協助滿足開發人員在 Windows 作業系統下一代軟體的需求。
+C 和 c + + 程式設計語言 (RPC) 的遠端程序呼叫，其設計目的是為了協助滿足開發人員在下一代軟體上 Windows 作業系統時的需求。
 
 RPC 是一種功能強大、穩固、有效率且安全的處理序間通訊 (IPC) 機制，可讓您在不同的進程中進行資料交換和叫用功能。 不同的進程可以位於相同電腦、區域網路或網際網路上。 本節說明 RPC 程式設計模型，以及可使用 RPC 來執行之分散式系統的模型。
 
@@ -30,6 +30,6 @@ RPC 最初開發為憑證 RPC 的延伸模組。 除了部分的 advanced 功能
 -   [RPC 的運作方式](how-rpc-works.md)
 -   [Microsoft RPC 元件](microsoft-rpc-components.md)
 
- 
+ 
 
- 
+ 

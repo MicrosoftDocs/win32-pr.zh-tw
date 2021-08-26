@@ -4,12 +4,12 @@ ms.assetid: 79ae0582-c991-4c0a-860b-0f5197ad0c7c
 title: 自訂動作類型2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0497b2a76dc2fac7f5e56f7347b50deac867757f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ba648578ecdd9d300a5cf15793e3abd9407f78853830f49c16a26db184ff3683
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106984222"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119996848"
 ---
 # <a name="custom-action-type-2"></a>自訂動作類型2
 

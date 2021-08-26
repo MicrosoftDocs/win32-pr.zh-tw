@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: a582e05756e8d034e5b2d0a1cd8f7eb569dbb842
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e4b81fc8dfc33cc2a6e5207e984de0c2e693b8c00b8f8d35949d0bb7150484bd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106993557"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120052428"
 ---
 # <a name="cbasereferenceclockadviseperiodic-method"></a>CBaseReferenceClock. AdvisePeriodic 方法
 
@@ -79,7 +79,7 @@ HRESULT AdvisePeriodic(
 
 
 
-| 傳回碼                                                                                   | Description                          |
+| 傳回碼                                                                                   | 描述                          |
 |-----------------------------------------------------------------------------------------------|--------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>          | Success<br/>                   |
 | <dl> <dt>**E \_ INVALIDARG**</dt> </dl>  | 時間值無效<br/>       |

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: 3435ed832484042bfeb9229e4b46fa34441cb395
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 00b83cbbb167775a8de360c880f381b41f250abf0eab01c883bc7580be4d956f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192217"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120037538"
 ---
 # <a name="iespquerystatus-method"></a>IESP：： QueryStatus 方法
 
@@ -55,7 +55,7 @@ HRESULT STDMETHODCALLTYPE QueryStatus(
 
 
 
-| 傳回碼                                                                                              | Description                                                                                                                                                                                 |
+| 傳回碼                                                                                              | 描述                                                                                                                                                                                 |
 |----------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**NMERR \_ 不正確 \_ 參數**</dt> </dl> | *PNetworkStatus* 參數未指向有效的 [>networkstatus](networkstatus.md)結構。 配置此結構的記憶體，並再次呼叫 **IESP：： QueryStatus** 。<br/> |
 

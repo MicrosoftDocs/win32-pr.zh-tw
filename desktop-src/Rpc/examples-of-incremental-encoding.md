@@ -6,12 +6,12 @@ keywords:
 - 使用遞增編碼的遠端程序呼叫 RPC、工作
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 16c9cb61e6b2bf55b29fb02e39f41dd7a61c8317
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 09d80b7f9b8ddb2acf31626da581996a667a7d2f7a395d419ea8da4c36c60d40
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103932561"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120021408"
 ---
 # <a name="examples-of-incremental-encoding"></a>遞增編碼範例
 
@@ -68,9 +68,9 @@ MesHandleFree ( Handle );
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ description: 使用自動控制碼的應用程式的伺服器端必須呼叫函�
 ms.assetid: d15fd8da-3afd-4031-95d1-b76a0ad9a20d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 45955ac7228018d8ddebbc7c156031648091b6f3
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f1f81ec4b494c9ce2abd18031e3bf0ed3dd25d55908238ebc7bba96bce57e88f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021495"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120073598"
 ---
 # <a name="advertising-server-interfaces"></a>廣告伺服器介面
 
@@ -67,13 +67,13 @@ status = RpcNsBindingUnexport(
 
 如需名稱服務資料庫的內容和格式的詳細資訊，請參閱 [RPC 名稱服務資料庫](the-rpc-name-service-database.md)。
 
-如果用戶端和伺服器程式都是在 Windows 2000 下執行，應用程式就可以利用 Active Directory 服務。 執行用戶端和伺服器程式的電腦必須是 Windows 2000 網域的成員。
+如果用戶端和伺服器程式都是在 Windows 2000 下執行，應用程式就可以利用 Active Directory 服務。 執行用戶端和伺服器程式的電腦，都必須是 Windows 2000 網域的成員。
 
 若要使用 Active Directory 服務通告其存在，伺服器程式應在網域系統管理員的安全性內容中執行。 如果它是在網域使用者的內容中執行，則網域系統管理員必須修改 RPC 服務容器 (ACL) 的存取控制清單。 如需詳細資訊，請參閱 Active Directory 檔。
 
- 
+ 
 
- 
+ 
 
 
 

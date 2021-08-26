@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 52143284be54868d36b55a6dd86e0b49c82d863d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ee7b31a5f4874e0ae4431ac452ea604da9c154bbb78e8debb91aad7ea892fa09
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106983930"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120030608"
 ---
 # <a name="creating-active-server-pages-for-wmi"></a>建立 WMI 的 Active Server Pages
 
@@ -34,7 +34,7 @@ Microsoft Active Server Pages (ASP) 可以同時包含伺服器端和用戶端�
 
 ## <a name="wmi-asp-page-example"></a>WMI ASP 頁面範例
 
-下列範例會使用 Active Server 頁面中的 Windows Management Instrumentation (WMI)  (ASP) ，以顯示執行此腳本之伺服器的 IP 位址和預設 IP 閘道設定。
+下列範例會使用 Active Server 頁面中的 Windows Management Instrumentation (WMI)  (ASP) ，以顯示執行此腳本之伺服器的 IP 位址和預設 ip 閘道設定。
 
 
 ```VB

@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: f2da7e0576579b0f0c509de7a8318e46e5dd955d
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 6d5f1b254ad4a833c1523f5a139224fc1fed508d4530a056ffdb0f111db5769e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "103945894"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120032348"
 ---
 # <a name="bitmapvaluetype-complex-type"></a>BitMapValueType 複雜類型
 
@@ -53,17 +53,17 @@ ms.locfileid: "103945894"
 
 
 
-| 名稱    | 類型                                                              | Description                                                                                                                                                                                                                                                                                                    |
+| 名稱    | 類型                                                              | 描述                                                                                                                                                                                                                                                                                                    |
 |---------|-------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | message | [**strTableRef**](eventmanifestschema-strtableref-simpletype.md) | 位值所對應的當地語系化字串值。 訊息字串會參考資訊清單之 [**stringTable**](eventmanifestschema-stringtable-resources-element.md) 區段中的當地語系化字串。 <br/>                                                                                  |
 | 符號  | [**CSymbolType**](eventmanifestschema-csymboltype-simpletype.md) | 用來在應用程式中參考地圖的符號。 [**訊息編譯器 (MC.exe)**](message-compiler--mc-exe-.md)會使用符號，在編譯器產生的標頭檔中建立對應的常數。 如果您未指定符號，編譯器會為您產生一個符號。<br/> |
-| value   | [**HexInt32Type**](eventmanifestschema-hex32type-simpletype.md)  | 要對應至字串值的位值。 您必須指定已設定單一位的十六進位數位。<br/>                                                                                                                                                                                          |
+| 值   | [**HexInt32Type**](eventmanifestschema-hex32type-simpletype.md)  | 要對應至字串值的位值。 您必須指定已設定單一位的十六進位數位。<br/>                                                                                                                                                                                          |
 
 
 
 ## <a name="remarks"></a>備註
 
-對應十六進位值 (數位前面必須加上 0x) ，並將單一位設定為名稱。
+地圖十六進位值 (數位前面必須加上 0x) ，並將單一位設定為名稱。
 
 ## <a name="requirements"></a>規格需求
 
@@ -71,8 +71,8 @@ ms.locfileid: "103945894"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

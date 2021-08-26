@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: aae4a0c6ae27e85fa1ed147a3173c4cc31b20f1b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: cd0ef67b0b41ff59f644b0d52376428ae7a2330d388aa62f9765cb4842eeb561
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106989775"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120000978"
 ---
 # <a name="wmgenre-attribute"></a>WM/內容類型屬性
 
@@ -28,7 +28,7 @@ ms.locfileid: "106989775"
 -   [音訊專案](audio-item-attributes.md)
 -   [CD 播放清單](cd-playlist-attributes.md)
 -   [CD 曲目](cd-track-attributes.md)
--   [常用的 Windows Media 檔案屬性](commonly-used-windows-media-file-attributes.md)
+-   [常用 Windows 媒體檔案屬性](commonly-used-windows-media-file-attributes.md)
 -   [DVD](dvd-attributes.md)
 -   [其他專案](other-item-attributes.md)
 -   [播放清單](playlist-attributes-ref.md)
@@ -42,7 +42,7 @@ ms.locfileid: "106989775"
 
 內容 **類型是此** 屬性的別名。
 
-這個屬性的 Windows Media Format SDK 常數是 g \_ wszWMGenre。
+這個屬性的 Windows 媒體格式 SDK 常數是 g \_ wszWMGenre。
 
 若要判斷是否可以變更這個屬性的值，請使用 [isReadOnlyItem](media-isreadonlyitem.md) 方法。
 

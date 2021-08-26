@@ -12,12 +12,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
 api_location: ''
-ms.openlocfilehash: 760c6313df2fb50ea821495d9f57933aef5bb0cc
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 3f2f67c430cf41b4fd45719140f2e3d4818a2326a95bb03a3bb2ae1f368e96e6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "104973892"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120022968"
 ---
 # <a name="texture2darraygathercmp-methods"></a>Texture2DArray：： GatherCmp 方法
 

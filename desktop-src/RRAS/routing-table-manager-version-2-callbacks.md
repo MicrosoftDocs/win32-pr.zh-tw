@@ -7,12 +7,12 @@ keywords:
 - 路由表管理員第2版 RRAS、回呼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: da3e3c4031f813de91604fdb5691ec1b08aae834
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 810666e10af11290ccfbe98c972e12423d62085ffb647849bdf3d699c055944e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104462272"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120026968"
 ---
 # <a name="routing-table-manager-version-2-callbacks"></a>路由表管理員第2版回呼
 
@@ -22,9 +22,9 @@ ms.locfileid: "104462272"
 
 [**RTM \_ 事件 \_ 回呼**](/windows/win32/api/rtmv2/nc-rtmv2-_event_callback)
 
- 
+ 
 
- 
+ 
 
 
 

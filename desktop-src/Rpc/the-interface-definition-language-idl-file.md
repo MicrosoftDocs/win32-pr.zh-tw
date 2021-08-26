@@ -6,12 +6,12 @@ keywords:
 - IDL 檔案 RPC
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 53859d138528b4096cc99912be1ca0f59317c674
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 169aabd31b9be491da3f4957510eb846f6a9254092daa94c488e2df1a4bdce46
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104024007"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120017038"
 ---
 # <a name="the-interface-definition-language-idl-file"></a>介面定義語言 (IDL) 檔
 
@@ -39,6 +39,6 @@ interface INTERFACENAME
 [IDL 屬性](/windows/desktop/Midl/idl-attributes)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

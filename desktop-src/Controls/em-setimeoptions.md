@@ -3,7 +3,7 @@ title: 'EM_SETIMEOPTIONS 訊息 (Richedit .h) '
 description: 將輸入方法編輯器 (IME) 選項。
 ms.assetid: 8a72ee1c-f6b8-44eb-b8df-57cd834db326
 keywords:
-- EM_SETIMEOPTIONS message Windows 控制項
+- EM_SETIMEOPTIONS 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 59be3148bd00abd998af200368f2ed77ad3ff911
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 83ffae9586c3ee05f951672f0927c4f10ad2115684643af8418062bb7724c7b1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843811"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120048388"
 ---
 # <a name="em_setimeoptions-message"></a>EM \_ SETIMEOPTIONS 訊息
 
@@ -91,8 +91,8 @@ ms.locfileid: "103843811"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Richedit。h</dt> </dl> |
 
 

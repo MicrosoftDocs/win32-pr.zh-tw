@@ -8,12 +8,12 @@ keywords:
 - 同質座標
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 965245306b8ee311f95102457e904daf19bea229
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 0aca517a4077d2264121d20ed739d2b79299744d09a6d29998ca7614b7bfca0a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103842975"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120035178"
 ---
 # <a name="h-opengl"></a>H (OpenGL) 
 

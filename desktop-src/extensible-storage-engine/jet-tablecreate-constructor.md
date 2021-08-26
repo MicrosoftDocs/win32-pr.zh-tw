@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 71c2cc157e8cd0a785248dfc38fcdff361125975
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5a5dcf23dd0050fe893a73be5f77e5844f35ce5c7658a9143ad4a0821f32275d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510929"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120016398"
 ---
 # <a name="jet_tablecreate-constructor"></a>JET_TABLECREATE 的函式
 

@@ -1,19 +1,19 @@
 ---
 title: 優先順序比較範例
-description: 示範如何使用 Direct2D 轉譯來搭配使用 Windows 動畫與您自己的優先順序比較。
+description: 示範如何使用 Direct2D 進行轉譯，以搭配您自己的優先順序比較來使用 Windows 動畫。
 ms.assetid: aa09f8a7-1919-4a44-832f-be8b848d6a2e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2bfcb20785d6a4c3c3384b85327a0e27d93c58d7
-ms.sourcegitcommit: c9c66a09eeb9e46311879a5181342e89964c1dd8
+ms.openlocfilehash: aafeb2332de02115cbb8af2f2afd69a2fc783be9908a91dbb4e9bb0615876bd8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "104092607"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120008188"
 ---
 # <a name="priority-comparison-sample"></a>優先順序比較範例
 
-示範如何使用 Direct2D 轉譯來搭配使用 Windows 動畫與您自己的優先順序比較。
+示範如何使用 Direct2D 進行轉譯，以搭配您自己的優先順序比較來使用 Windows 動畫。
 
 ## <a name="downloading-the-sample"></a>下載範例
 
@@ -21,14 +21,14 @@ ms.locfileid: "104092607"
 
 
 
-| Location                               | 路徑/URL                                                                                          |
+| 位置                               | 路徑/URL                                                                                          |
 |----------------------------------------|---------------------------------------------------------------------------------------------------|
 | Windows Software Development Kit (SDK) | [Microsoft Windows 軟體開發套件7。0](https://msdn.microsoft.com/windowsvista/bb980924.aspx) |
-| Code Gallery (程式碼庫)                           | [Windows 動畫管理員範例程式碼](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/DirectCompositionWindowsAnimationManager)          |
+| Code Gallery (程式碼庫)                           | [Windows動畫管理員範例程式碼](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/DirectCompositionWindowsAnimationManager)          |
 
 
 
- 
+ 
 
 下載並安裝 Windows SDK 之後，您會在安裝目錄中找到範例。 例如，如果您使用 Windows 7 的 Windows SDK 預設安裝路徑，則範例會安裝在 C： \\ Program Files \\ Microsoft sdk \\ Windows \\ 7.0 版 \\ 範例中。
 
@@ -51,7 +51,7 @@ ms.locfileid: "104092607"
     > [!Note]  
     > .Sln 副檔名不會顯示在 [預設資料夾設定] 下。 在這種情況下，它可以透過其唯一圖示或其類型描述「Microsoft Visual Studio 解決方案」來識別。
 
-     
+     
 
 3.  從 [ **組建** ] 功能表選取 [ **建立方案**]。
 
@@ -69,9 +69,9 @@ ms.locfileid: "104092607"
 
 5.  使用向上鍵和向下鍵，透過影像建立 wave (按下按鍵的速度越快，wave) 的速度就愈快。
 
- 
+ 
 
- 
+ 
 
 
 

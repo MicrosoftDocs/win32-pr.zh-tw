@@ -6,12 +6,12 @@ keywords:
 - 遠端程序呼叫 RPC、描述、內容控制碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a8ff36ff8f1a36843293060e091b7eecee0d8666
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e73fb49a2e4c09ec818777389194df98e0d7b8bcac618d05ff7b519aefe5eb28
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106965796"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120073418"
 ---
 # <a name="context-handles"></a>內容控制碼
 
@@ -34,9 +34,9 @@ Microsoft RPC 提供一個功能強大又安全的機制，稱為內容控制碼
 -   [用戶端內容重設](client-context-reset.md)
 -   [多執行緒用戶端和內容控制碼](multithreaded-clients-and-context-handles.md)
 
- 
+ 
 
- 
+ 
 
 
 

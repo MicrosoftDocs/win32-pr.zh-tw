@@ -5,12 +5,12 @@ ms.assetid: c7acbedb-3bf2-4519-ab11-a50bf071e757
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a06db01da6d9413684e3197aa9758d6e5c04643f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 5bc598042530ab59c0c8932522185ce5a9d0d3dce04cabce44239c3c81b79d59
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106966001"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119988848"
 ---
 # <a name="multiple-user-guidelines"></a>多使用者指導方針
 
@@ -52,9 +52,9 @@ ms.locfileid: "106966001"
 
 您的應用程式不能鎖定不是每個使用者檔案的任何執行時間應用程式檔。 鎖定的執行時間檔案可以保留應用程式的多個實例，或應用程式（例如，嚮導）下的進程執行。 測試哪些檔案是執行時間應用程式檔的好方法，就是追蹤應用程式安裝程式所安裝的檔案。 安裝程式很少會安裝每個使用者的檔案;因此，安裝程式安裝的大部分檔案都是執行時間的應用程式檔。
 
- 
+ 
 
- 
+ 
 
 
 

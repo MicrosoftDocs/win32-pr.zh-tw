@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 66cd29758e0b2d63db88db8b998cc79ec12efdd9
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 2816d148af2a7514dc28a71036402f3781e47a0144848a2ea81bbb94d339f961
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108094716"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119999028"
 ---
 # <a name="ctransinplaceoutputpincheckmediatype-method"></a>CTransInPlaceOutputPin. CheckMediaType 方法
 
@@ -55,7 +55,7 @@ HRESULT CheckMediaType(
 
 
 
-| 傳回碼                                                                                                | Description                         |
+| 傳回碼                                                                                                | 描述                         |
 |------------------------------------------------------------------------------------------------------------|-------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>                       | 成功。<br/>                 |
 | <dl> <dt>**\_ \_ \_ 未接受 VFW E \_ 類型**</dt> </dl> | 媒體類型不被接受。<br/> |

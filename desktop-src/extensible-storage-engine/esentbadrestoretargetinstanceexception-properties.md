@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101103
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: f5f0e9fb458d0a16ac4ccf66826c759f510c9006
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cd575f5eb3dd2258583bc2c554b96d0f84958d52cee4517150be010c69b01d3e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104558404"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120021338"
 ---
 # <a name="esentbadrestoretargetinstanceexception-properties"></a>EsentBadRestoreTargetInstanceException 屬性
 

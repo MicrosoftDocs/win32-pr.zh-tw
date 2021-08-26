@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 21c20b787a01b23d601f2834cdaa8786b30c67a8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5695c5e598b32d2f2624fd20a89fa92df1ee8f9bc2753edfa14e7ff7e2f45641
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103945181"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120063258"
 ---
 # <a name="jet_objectlistcolumnidobjtyp-property"></a>JET_OBJECTLIST columnidobjtyp 屬性
 

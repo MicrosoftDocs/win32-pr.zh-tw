@@ -4,12 +4,12 @@ description: 名稱服務專案應該包含不常變更的資訊。
 ms.assetid: b581bc10-e537-4714-b89a-d998fec23360
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2cf0ed6a21074a49a472d7505dcfea37cf182026
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ecfe7484d1c6d557899e3b661a3a616c97d3890becfad51df0e91f5a69467faa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021781"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120019603"
 ---
 # <a name="name-service-entry-cleanup"></a>名稱服務專案清除
 
@@ -48,9 +48,9 @@ RpcNsBindingExport(RPC_C_NS_SYNTAX_DEFAULT, EntryName, Interface
 RpcServerListen();
 ```
 
- 
+ 
 
- 
+ 
 
 
 

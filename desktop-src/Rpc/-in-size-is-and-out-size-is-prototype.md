@@ -4,12 +4,12 @@ description: 下列函式原型會使用兩個計數位符串。 開發人員必
 ms.assetid: 334c5e0f-b1fb-41ca-8157-d92525e78b3a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d03dbb4dd65d44122bea7ff086013295e0bf616d
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 75075ccabe4a29ca1765a189c371c407c791cb868d2980386488879415e8f60d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382622"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120073628"
 ---
 # <a name="in-size_is-and-out-size_is-prototype"></a>\[在中，大小 \_ 為 \] 和 \[ 輸出，大小 \_ 為 \] 原型
 
@@ -54,6 +54,6 @@ void Analyze(char *pchIn,
 
 \[  \] 當參數已知為字串時，就可以使用字串屬性。 此屬性會指示存根來計算字串大小，藉此排除與長度相關聯的額外負荷 \[ [**為**](/windows/desktop/Midl/size-is) \] 參數。 此外，它會指示存根在將參數傳遞至應用程式之前，先確認字串是否為 **Null** 終止。
 
- 
+ 
 
- 
+ 

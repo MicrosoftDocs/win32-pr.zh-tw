@@ -3,7 +3,7 @@ title: 'EM_SETPUNCTUATION 訊息 (Richedit .h) '
 description: 設定 rich edit 控制項的標點符號字元。
 ms.assetid: c0c8ad14-63e2-4be8-8fc0-6b8ef9be4522
 keywords:
-- EM_SETPUNCTUATION message Windows 控制項
+- EM_SETPUNCTUATION 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 710392cee7f7a1fb04fce59d6549134255499172
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9a5e0856c1ee1882695dc5e6d7dfdd6b72ea0f6c4f16ee7396bbfde2b76b49b3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105569"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120062898"
 ---
 # <a name="em_setpunctuation-message"></a>EM \_ SETPUNCTUATION 訊息
 
@@ -73,8 +73,8 @@ ms.locfileid: "104105569"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Richedit。h</dt> </dl> |
 
 

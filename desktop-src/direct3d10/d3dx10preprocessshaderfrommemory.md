@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: d1d06e46a5cd6b86420543b380f74273be032c17
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: a15bc79c593cbb527d440636d41c88d6d03ce5708e19a6bc961b491853d99116
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103696759"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119989128"
 ---
 # <a name="d3dx10preprocessshaderfrommemory-function"></a>D3DX10PreprocessShaderFromMemory 函式
 

@@ -4,12 +4,12 @@ description: 狀態列會在應用程式視窗底部的水準視窗中顯示狀�
 ms.assetid: e910a5c6-84d5-4ade-abf5-792ff1915021
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 81bddf2898b9b7eca5385d86d6dabc6a50d3d4df
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4ad6c4955bfe10bc7eb224213a8e2e262179d2b122ca4eae210d0d1e72e4635b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104311204"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119998058"
 ---
 # <a name="status-bar-control-msaa-ui-element-reference"></a>狀態列控制項 (MSAA UI 元素參考) 
 

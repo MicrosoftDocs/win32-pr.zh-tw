@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101843
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 4a52a65265ed707e5a4f7b923ea19b740860ecdb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 774513116f69dc11d4c7eac6eb4159b2bf8e53ba1aa754d45a10f51ba4c22e1d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104192891"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120020388"
 ---
 # <a name="esentindexnotfoundexception-members"></a>EsentIndexNotFoundException 成員
 

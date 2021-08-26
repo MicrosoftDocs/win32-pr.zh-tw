@@ -11,12 +11,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: be0e7f282978ada28c2dd71dc7c16dd317ddce42
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 4c9f3c71ab6308ad921b5cce27f2c078ad980da17daa7c0045228d27ef0579ed
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112406701"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120024118"
 ---
 # <a name="ps_2_x-registers"></a>ps \_ 2 \_ x 註冊
 
@@ -26,16 +26,16 @@ ms.locfileid: "112406701"
 
 
 
-| 註冊 | Name                                                                                          | Count      | R/W        | \# 讀取埠 | \# 讀取/inst | 尺寸 | RelAddr | Defaults                  | 需要 DCL |
+| 註冊 | 名稱                                                                                          | 計數      | R/W        | \# 讀取埠 | \# 讀取/inst | 尺寸 | RelAddr | Defaults                  | 需要 DCL |
 |----------|-----------------------------------------------------------------------------------------------|------------|------------|---------------|---------------|-----------|---------|---------------------------|--------------|
 | v\#      | [輸入色彩暫存器](dx9-graphics-reference-asm-ps-registers-input-color.md)               | 2          | R          | 1             | 無限制     | 4         | N       | 部分 (0001) 。 請參閱附注4 | Y            |
-| r\#      | [暫時註冊](dx9-graphics-reference-asm-ps-registers-temporary.md)                   | 請參閱附注1 | R/W        | 3             | 無限制     | 4         | N       | 無                      | N            |
+| R\#      | [暫時註冊](dx9-graphics-reference-asm-ps-registers-temporary.md)                   | 請參閱附注1 | R/W        | 3             | 無限制     | 4         | N       | 無                      | N            |
 | c\#      | [常數 Float Register](dx9-graphics-reference-asm-ps-registers-constant-float.md)         | 32         | R          | 1             | 2             | 4         | N       | 0000                      | N            |
-| 我\#      | [常數整數暫存器](dx9-graphics-reference-asm-ps-registers-constant-integer.md)     | 16         | 請參閱附註 2 | 1             | 1             | 4         | N       | 0000                      | N            |
+| i\#      | [常數整數暫存器](dx9-graphics-reference-asm-ps-registers-constant-integer.md)     | 16         | 請參閱附註 2 | 1             | 1             | 4         | N       | 0000                      | N            |
 | B\#      | [常數布林值暫存器](dx9-graphics-reference-asm-ps-registers-constant-boolean.md)     | 16         | 請參閱附註 2 | 1             | 1             | 1         | N       | FALSE                     | N            |
 | P       | [述詞註冊](dx9-graphics-reference-asm-ps-registers-predicate.md)                   | 1          | 請參閱附註 2 | 1             | 1             | 1         | N       | 無                      | Y            |
 | s\#      | [ (Direct3D 9 asm-ps) 的取樣器 ](dx9-graphics-reference-asm-ps-registers-sampler.md)            | 16         | 請參閱附注3 | 1             | 1             | 4         | N       | 請參閱附注5                | Y            |
-| t\#      | [材質座標註冊](dx9-graphics-reference-asm-ps-registers-texture-coordinate.md) | 8          | R          | 1             | 1             | 4         | N       | 無                      | Y            |
+| 10gbase-t\#      | [材質座標註冊](dx9-graphics-reference-asm-ps-registers-texture-coordinate.md) | 8          | R          | 1             | 1             | 4         | N       | 無                      | Y            |
 
 
 
@@ -55,7 +55,7 @@ Readports 數目是每個暫存器類型 (的不同暫存器數目，) 可在單
 
 
 
-| 註冊 | Name                                                                              | Count                                                                             | R/W | 尺寸 | RelAddr | Defaults | 需要 DCL |
+| 註冊 | 名稱                                                                              | 計數                                                                             | R/W | 尺寸 | RelAddr | Defaults | 需要 DCL |
 |----------|-----------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|-----|-----------|---------|----------|--------------|
 | Oc#     | [輸出色彩暫存器](dx9-graphics-reference-asm-ps-registers-output-color.md) | 查看 [多元素紋理 (Direct3D 9) ](/windows/desktop/direct3d9/multiple-element-textures) | W   | 4         | N       | 無     | N            |
 | oDepth   | [輸出深度註冊](dx9-graphics-reference-asm-ps-registers-output-depth.md) | 1                                                                                 | W   | 1         | N       | 無     | N            |

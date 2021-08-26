@@ -6,12 +6,12 @@ keywords:
 - 遠端存取服務 RAS，參考
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 37004077716767dd66cbed69a1b1346d69b58626
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: fd92c22a2468a4dc8779dc55ae1ee0fbd916e33d912ebe6783e39763ccc8c840
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021974"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120028128"
 ---
 # <a name="remote-access-service-reference"></a>遠端存取服務參考
 
@@ -23,9 +23,9 @@ ms.locfileid: "104021974"
 -   [遠端存取服務結構](remote-access-service-structures.md)
 -   [遠端存取服務列舉](remote-access-service-enumerations.md)
 
- 
+ 
 
- 
+ 
 
 
 

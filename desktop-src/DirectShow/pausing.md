@@ -4,12 +4,12 @@ ms.assetid: 945e1b1a-2557-4be2-bfdb-bb11ac7c3fe8
 title: 正在暫停
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a07f6f610c3cfac9361e1db40c0fcd37b90645b2
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 15f113bdaa41709055202886112d678c2a1fbb172d99e880ceaafc997817412a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104109509"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119997278"
 ---
 # <a name="pausing"></a>正在暫停
 

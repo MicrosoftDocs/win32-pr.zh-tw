@@ -5,16 +5,16 @@ ms.assetid: C58E8D49-9556-4A4D-BF48-CF8EC16FB59F
 ms.tgt_platform: multiple
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3cfd4907986bf5f1b21383a2f79231bd69ba59a5
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 8bddf544926e056df0c880f5e66408e9f66eff27aa5f91996b8ad96386750df0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021800"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119989328"
 ---
 # <a name="iwtssbplugin-methods"></a>IWTSSBPlugin 方法
 
-\[在 Windows Server 2008 R2 之後，不支援 [**IWTSSBPlugin**](/windows/desktop/api/Tssbx/nn-tssbx-iwtssbplugin) 介面。 從 Windows Server 2012 開始，請使用 [**ITsSbPlugin**](/windows/desktop/api/sbtsv/nn-sbtsv-itssbplugin) 介面。\]
+\[Windows Server 2008 R2 之後，不支援 [**IWTSSBPlugin**](/windows/desktop/api/Tssbx/nn-tssbx-iwtssbplugin)介面。 從 Windows Server 2012 開始，請使用 [**ITsSbPlugin**](/windows/desktop/api/sbtsv/nn-sbtsv-itssbplugin)介面。\]
 
 [**IWTSSBPlugin**](/windows/desktop/api/Tssbx/nn-tssbx-iwtssbplugin)介面會公開下列方法。
 
@@ -37,9 +37,9 @@ ms.locfileid: "104021800"
 [**ITsSbPlugin**](/windows/desktop/api/sbtsv/nn-sbtsv-itssbplugin)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

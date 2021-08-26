@@ -4,12 +4,12 @@ ms.assetid: ad3bdeb5-f303-411a-abfb-ccde3f9a86b9
 title: COM + 追蹤
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 828cc87b5a24363fd814d37c29e61a3ce204d988
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 069d910f0c559776125342b861e71566fb20f45231f960b1c1dcb18262171926
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104468117"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120029488"
 ---
 # <a name="com-tracking"></a>COM + 追蹤
 

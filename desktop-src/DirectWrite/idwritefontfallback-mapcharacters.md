@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 428778afc12c668d284dffb5a8a6f734c03f0705
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 99f18932121d44f61d67c8124faa2d26638035bdcff473ad26c4222ceea9a85b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104317311"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120048788"
 ---
 # <a name="idwritefontfallbackmapcharacters-method"></a>IDWriteFontFallback：： MapCharacters 方法
 
@@ -55,13 +55,13 @@ HRESULT MapCharacters(
 *source* 
 </dt> <dd>
 
-類型： **[**IDWriteTextAnalysisSource**](/windows/win32/api/dwrite/nn-dwrite-idwritetextanalysissource) \** _
+類型： **[ **IDWriteTextAnalysisSource**](/windows/win32/api/dwrite/nn-dwrite-idwritetextanalysissource)\***
 
 文字來源執行會保存文字和地區設定。
 
 </dd> <dt>
 
-_textPosition * 
+*textPosition* 
 </dt> <dd>
 
 類型： **UINT32**
@@ -82,22 +82,22 @@ _textPosition *
 *baseFontCollection* \[在中，選擇性\]
 </dt> <dd>
 
-類型： **[**IDWriteFontCollection**](/windows/win32/api/dwrite/nn-dwrite-idwritefontcollection) \** _
+類型： **[ **IDWriteFontCollection**](/windows/win32/api/dwrite/nn-dwrite-idwritefontcollection)\***
 
 要使用的預設字型集合。
 
 </dd> <dt>
 
-_baseFamilyName * \[ in，選擇性\]
+*baseFamilyName* \[在中，選擇性\]
 </dt> <dd>
 
-類型： **const wchar \_ t \** _
+Type： **const wchar \_ t \***
 
 基底字型的系列名稱。 如果您傳遞 null，則不會對該系列進行任何比對。
 
 </dd> <dt>
 
-_baseWeight * 
+*baseWeight* 
 </dt> <dd>
 
 類型： **[ **DWRITE \_ 字型 \_ 粗細**](/windows/win32/api/dwrite/ne-dwrite-dwrite_font_weight)**
@@ -127,13 +127,13 @@ _baseWeight *
 *mappedLength* \[擴展\]
 </dt> <dd>
 
-類型： **UINT32 \** _
+類型： **UINT32 \***
 
 對應至對應字型的文字長度。 如果文字長度不是) 零，則這一律會小於或等於文字長度，並大於零 (，讓呼叫端前進至少一個字元。
 
 </dd> <dt>
 
-_mappedFont * \[ out\]
+*mappedFont* \[擴展\]
 </dt> <dd>
 
 類型： **[ **IDWriteFont**](/windows/win32/api/dwrite/nn-dwrite-idwritefont)\*\***
@@ -145,7 +145,7 @@ _mappedFont * \[ out\]
 *調整規模* \[擴展\]
 </dt> <dd>
 
-類型： **FLOAT \** _
+類型： **FLOAT \***
 
 縮放比例，以將所傳回字型的 em 大小乘以。
 
@@ -153,7 +153,7 @@ _mappedFont * \[ out\]
 
 ## <a name="return-value"></a>傳回值
 
-類型： _ *HRESULT**
+類型： **HRESULT**
 
 如果這個方法成功，它會傳回 **S \_ OK**。 否則，它會傳回 **HRESULT** 錯誤碼。
 
@@ -163,8 +163,8 @@ _mappedFont * \[ out\]
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8.1 桌面應用程式\]<br/>                                            |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 R2 \[ desktop 應用程式\]<br/>                                 |
+| 最低支援的用戶端<br/> | Windows 8.1 \[僅限桌面應用程式\]<br/>                                            |
+| 最低支援的伺服器<br/> | Windows Server 2012\[僅限 R2 desktop 應用程式\]<br/>                                 |
 | 支援的最小電話<br/>  | Windows Phone 8.1 \[ Windows Phone Silverlight 8.1 和 Windows 執行階段應用程式\]<br/> |
 | 程式庫<br/>                  | <dl> <dt>Dwrite .lib</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>Dwrite.dll</dt> </dl>   |

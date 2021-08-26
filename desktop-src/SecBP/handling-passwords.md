@@ -4,12 +4,12 @@ ms.assetid: 1d810f71-9bf5-4c5c-a573-c35081f604cf
 title: 處理密碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f3d3a5ab2bc034500159adb25dab02b47eb43bcd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 99aaf133d23390a6f4efce97940c5116fddf91b45776dfd6847b2712b15b74ef
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980500"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120035468"
 ---
 # <a name="handling-passwords"></a>處理密碼
 
