@@ -1,5 +1,5 @@
 ---
-description: Win32 \_ NetworkLoginProfile&\# 8194;WMI 類別代表執行 Windows 的電腦系統上特定使用者的網路登入資訊。
+description: Win32 \_ NetworkLoginProfile&\# 8194;WMI 類別代表執行 Windows 之電腦系統上特定使用者的網路登入資訊。
 ms.assetid: e5a8e934-d5a7-43fa-b140-c3cca972590f
 ms.tgt_platform: multiple
 title: Win32_NetworkLoginProfile 類別
@@ -46,16 +46,16 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 3b138ce4bc92088896286f4a21a039b068e2206e
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 4fb71b27093cb1011b9aebaadf0a6760124b64f9e13ae7b5ef46f5ffc478cce4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970542"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119972647"
 ---
 # <a name="win32_networkloginprofile-class"></a>Win32 \_ NetworkLoginProfile 類別
 
-**Win32 \_ NetworkLoginProfile** [WMI 類別](../wmisdk/retrieving-a-class.md)代表執行 Windows 的電腦系統上特定使用者的網路登入資訊。 這包括但不限於密碼狀態、存取權限、磁片配額和登入目錄路徑。
+**Win32 \_ NetworkLoginProfile** [WMI 類別](../wmisdk/retrieving-a-class.md)代表執行 Windows 之電腦系統上特定使用者的網路登入資訊。 這包括但不限於密碼狀態、存取權限、磁片配額和登入目錄路徑。
 
 下列語法已經過受管理物件格式 (MOF) 程式碼簡化，並包含所有已繼承的屬性。
 
@@ -156,7 +156,7 @@ class Win32_NetworkLoginProfile : CIM_Setting
 2 (0x2) 
 </dt> <dd>
 
-通訊
+溝通
 
 </dd> <dt>
 
@@ -386,7 +386,7 @@ class Win32_NetworkLoginProfile : CIM_Setting
 
 工作站信任帳戶
 
-屬於此網域成員的 Windows 工作站或伺服器的電腦帳戶。
+屬於此網域成員之 Windows 工作站或伺服器的電腦帳戶。
 
 </dd> <dt>
 
@@ -947,7 +947,7 @@ MNS 登入帳戶
 
 **Win32 \_ NetworkLoginProfile** 類別衍生自 [**CIM \_ 設定**](cim-setting.md)。
 
-使用這個類別的呼叫進程必須在登錄所在的電腦上具有「 **SE \_ 還原 \_ 名稱** 」許可權。 如需詳細資訊，請參閱 [執行特殊許可權作業](../wmisdk/executing-privileged-operations.md)。
+使用這個類別的呼叫進程必須在登錄所在的電腦上具有 **SE \_ RESTORE \_ NAME** 許可權。 如需詳細資訊，請參閱 [執行特殊許可權作業](../wmisdk/executing-privileged-operations.md)。
 
 ## <a name="examples"></a>範例
 

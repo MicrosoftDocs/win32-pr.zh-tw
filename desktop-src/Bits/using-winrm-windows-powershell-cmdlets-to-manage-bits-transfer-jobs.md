@@ -1,19 +1,19 @@
 ---
 title: 使用 WinRM Windows PowerShell Cmdlet 來管理 BITS 傳送工作
-description: Windows 遠端管理 PowerShell Cmdlet 可以管理背景智慧型傳送服務 (BITS) 傳送作業。
+description: Windows遠端系統管理 PowerShell Cmdlet 可以管理背景智慧型傳送服務 (BITS) 的傳送作業。
 ms.assetid: 9fbef8a1-ed3f-4277-9a07-ed427f60d7a8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6eefd874a1056e959d1516d515891ae216e4aca3
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 9f24f4776d8a8431ac8c910fb8145633961bf353721698f8c3e5b4737ee0a1c3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510606"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120004638"
 ---
 # <a name="using-winrm-windows-powershell-cmdlets-to-manage-bits-transfer-jobs"></a>使用 WinRM Windows PowerShell Cmdlet 來管理 BITS 傳送工作
 
-Windows 遠端管理 PowerShell Cmdlet 可以管理背景智慧型傳送服務 (BITS) 傳送作業。 如需 BITS 遠端系統管理的詳細資訊，請參閱 [bits 提供者](/previous-versions/windows/desktop/bitsprov/bits-provider) 和 [bits 提供者類別]( /previous-versions//dd904507(v=vs.85))。
+Windows遠端系統管理 PowerShell Cmdlet 可以管理背景智慧型傳送服務 (BITS) 的傳送作業。 如需 BITS 遠端系統管理的詳細資訊，請參閱 [bits 提供者](/previous-versions/windows/desktop/bitsprov/bits-provider) 和 [bits 提供者類別]( /previous-versions//dd904507(v=vs.85))。
 
 下列範例需要 [位提供者](/previous-versions/windows/desktop/bitsprov/bits-provider)。 安裝 BITS Compact 伺服器之後，就可以使用位提供者。 如需安裝 Compact server 的詳細資訊，請參閱 [BITS Compact server](bits-compact-server.md) 檔集。
 

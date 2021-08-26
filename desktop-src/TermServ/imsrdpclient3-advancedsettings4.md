@@ -46,12 +46,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c7a229c28b645e7920212a04cc44ca5a9ce42be3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 77e8bd4d5562f5f7b73eac6c580fe7b033a10b8ce7f0471b2d1ca969cd7ae0ce
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843220"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120033538"
 ---
 # <a name="imsrdpclient3advancedsettings4-property"></a>IMsRdpClient3：： AdvancedSettings4 屬性
 

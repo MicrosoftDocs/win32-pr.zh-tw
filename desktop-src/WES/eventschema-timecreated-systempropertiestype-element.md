@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 998bb03601f0ecbe87c571daa94b1f33e307d6af
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5026bed56e3e065a403c0e6076daa0ec478223c4d742db0a35109a41cc98d5c3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934562"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120005298"
 ---
 # <a name="timecreated-systempropertiestype-element"></a>TimeCreated (SystemPropertiesType) 元素
 
@@ -41,7 +41,7 @@ ms.locfileid: "103934562"
 
 
 
-| 名稱       | 類型     | Description                                              |
+| 名稱       | 類型     | 描述                                              |
 |------------|----------|----------------------------------------------------------|
 | SystemTime | dateTime | 記錄事件的系統時間。<br/> |
 
@@ -53,8 +53,8 @@ ms.locfileid: "103934562"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

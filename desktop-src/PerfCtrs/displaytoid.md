@@ -4,12 +4,12 @@ ms.assetid: 414d16f1-ab6f-45f0-9287-154810543a6d
 title: DisplayToID
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8b71ae8c4ebaafc80d98580a13a83e3cc7cff815
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 485eab24a2c758b36e190e035a9442a032ebd683f3f5ea052bd37992ad14c85f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106975104"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120033908"
 ---
 # <a name="displaytoid"></a>DisplayToID
 
@@ -26,11 +26,11 @@ ms.locfileid: "106975104"
 -   **MinutesToUTC：** 用來將 UTC 時間儲存的資料列資料轉換為當地時間的值。
 -   **TimeZoneName：** 收集資料的時區名稱。 如果您要從您自己的時區的系統收集或 relogged 資料，此欄位將會陳述位置。
 
-**注意**  在 Windows Vista 之前，資料收集器集會儲存在登錄位置
+**注意** 在 Windows Vista 之前，資料收集器集會儲存在登錄位置
 
 **HKEY \_ LOCAL \_ MACHINE \\ SYSTEM \\ CurrentControlSet \\ Services \\ SysmonLog \\ 記錄查詢**
 
-. 上欄欄位未對應至 registry 中的值。 在 Windows Vista 中，資料收集器集合器不會儲存在登錄中。
+. 上欄欄位未對應至 registry 中的值。 針對 Windows Vista，資料收集器集合器不會儲存在登錄中。
 
  
 

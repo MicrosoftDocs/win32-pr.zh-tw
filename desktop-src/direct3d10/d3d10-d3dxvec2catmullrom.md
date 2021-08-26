@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 41b61d9488e09b72c73cba885d836c6451631c56
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: bfa83302c62c7e09991cb8c3cc9282b41cdd17ec396bc721511d7e13e59ed95a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108108406"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119989948"
 ---
 # <a name="d3dxvec2catmullrom-function-d3dx10mathh"></a>D3DXVec2CatmullRom 函式 (D3DX10Math) 
 

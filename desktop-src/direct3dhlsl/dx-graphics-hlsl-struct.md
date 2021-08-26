@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 89435e9c8757d2e732bc6237b02a508d3af4b4db
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: b050a60911212a550433c5cc961a12ea52209b268330739c2f73158bf8fe1063
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113119093"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120068138"
 ---
 # <a name="struct-type"></a>結構類型
 

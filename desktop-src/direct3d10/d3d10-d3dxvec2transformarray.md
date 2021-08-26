@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: cec42fcbe53d3a8aa160f6864af70cbf441a19ab
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: a795590530503819ae66d1e17f9a4c8f8236dfb3015af512f4c6e28d084ca778
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108108366"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119989898"
 ---
 # <a name="d3dxvec2transformarray-function-d3dx10mathh"></a>D3DXVec2TransformArray 函式 (D3DX10Math) 
 

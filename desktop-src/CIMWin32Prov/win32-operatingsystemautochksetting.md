@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 905ffc92273b46bb36b7b3e2909afea32e6baeff
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: cfa6e90828935dda8aa163967985813526042b8800f91cb01825fbd158f8a63d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111349"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119972538"
 ---
 # <a name="win32_operatingsystemautochksetting-class"></a>Win32 \_ OperatingSystemAutochkSetting 類別
 

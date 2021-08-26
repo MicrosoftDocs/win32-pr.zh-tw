@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: d6ebaddd4455ba1b62832f940d78534c90cefeeb
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: fa9bf70e82f5a46c8a9a346b33d18e3c9f4a12322ad10a5fca1233df5a36c1d0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973957"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119973308"
 ---
 # <a name="win32_logicalprogramgroupdirectory-class"></a>Win32 \_ LogicalProgramGroupDirectory 類別
 
@@ -88,7 +88,7 @@ class Win32_LogicalProgramGroupDirectory : CIM_Dependency
 
 **Win32 \_ LogicalProgramGroupDirectory** 類別衍生自 CIM 相依 [**性 \_**](cim-dependency.md)。
 
-使用這個類別的呼叫進程必須在登錄所在的電腦上具有「 **SE \_ 還原 \_ 名稱** 」許可權。 例如，如果您在本機電腦上列舉此類別，您的應用程式執行所在的帳戶必須具有此許可權。 如需詳細資訊，請參閱 [執行特殊許可權作業](/windows/desktop/WmiSdk/executing-privileged-operations)。
+使用這個類別的呼叫進程必須在登錄所在的電腦上具有 **SE \_ RESTORE \_ NAME** 許可權。 例如，如果您在本機電腦上列舉此類別，您的應用程式執行所在的帳戶必須具有此許可權。 如需詳細資訊，請參閱 [執行特殊許可權作業](/windows/desktop/WmiSdk/executing-privileged-operations)。
 
 ## <a name="requirements"></a>規格需求
 

@@ -4,12 +4,12 @@ ms.assetid: 7627b580-4119-48e2-88b7-51b714b5d5b2
 title: FOURCC 碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eb789bc16a1643ee737c1c1a63bdbc5704567931
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 25820d21fb8e8386fb11816c373debf427fa783b8a2f2d4723a46e689e6aea0d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104108545"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120043318"
 ---
 # <a name="fourcc-codes"></a>FOURCC 碼
 
@@ -34,13 +34,13 @@ DWORD fccYUY2 = '2YUY';  // Declares the FOURCC 'YUY2'.
 
 
 
-反轉順序是必要的，因為 Microsoft Windows 作業系統使用位元組由小到大的架構。 ' Y ' = 0x59，' U ' = 0x55，' 2 ' = 0x32，因此 ' 2YUY ' 為0x32595559。
+必須反轉順序是必要的，因為 Microsoft Windows 作業系統使用的是位元組由大到小的架構。 ' Y ' = 0x59，' U ' = 0x55，' 2 ' = 0x32，因此 ' 2YUY ' 為0x32595559。
 
 ### <a name="converting-fourcc-codes-to-subtype-guids"></a>將 FOURCC 碼轉換成子類型 Guid
 
 2 \* 32 guid 的範圍是保留來代表 FOURCCs。 這些 Guid 全都是 `XXXXXXXX-0000-0010-8000-00AA00389B71` `XXXXXXXX` FOURCC 程式碼的形式。 因此，YUY2 的子類型 GUID 為 `32595559-0000-0010-8000-00AA00389B71` 。
 
-其中有許多 Guid 已定義在標頭檔 Uuid 中。 例如，YUY2 子類型定義為 MEDIASUBTYPE \_ YUY2。 DirectShow 基類庫也提供 helper 類別 [**FOURCCMap**](fourccmap.md)，可用來將 FOURCC 碼轉換成 GUID 值。 **FOURCCMap** 函式會採用 FOURCC 程式碼作為輸入參數。 然後，您可以將 **FOURCCMap** 物件轉換成對應的 GUID：
+其中有許多 Guid 已定義在標頭檔 Uuid 中。 例如，YUY2 子類型定義為 MEDIASUBTYPE \_ YUY2。 DirectShow 基類程式庫也會提供 helper 類別 [**FOURCCMap**](fourccmap.md)，可用來將 FOURCC 碼轉換成 GUID 值。 **FOURCCMap** 函式會採用 FOURCC 程式碼作為輸入參數。 然後，您可以將 **FOURCCMap** 物件轉換成對應的 GUID：
 
 
 ```C++

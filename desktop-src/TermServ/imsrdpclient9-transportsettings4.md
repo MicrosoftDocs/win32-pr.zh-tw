@@ -22,12 +22,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 765d2ad5a50e0608e4c11731742debbaede51737
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7bf5c8d4371b6e4357fdeca21ba78265af8bb345f851e8d15a0eb01317fb6f51
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104317128"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119990288"
 ---
 # <a name="imsrdpclient9transportsettings4-property"></a>IMsRdpClient9：： TransportSettings4 屬性
 
