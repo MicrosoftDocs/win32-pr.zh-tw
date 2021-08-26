@@ -4,16 +4,16 @@ ms.assetid: 09608214-7346-4ee8-bbfd-0877d3ad0766
 title: 'IH323LineEx：： SetAlias 方法 (H323priv .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7341d177297cf95f46d07e503244f06b2c4dea71
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 464c6707c3221fda1ef245e0302731ee7c6a1cf274c7ecac537c55f7f48437a0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995925"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119992188"
 ---
 # <a name="ih323lineexsetalias-method"></a>IH323LineEx：： SetAlias 方法
 
-\[**SetAlias** 無法在 windows Vista、windows Server 2008 和後續版本的作業系統中使用。 RTC 用戶端 API 提供類似的功能。\]
+\[**SetAlias** 無法在 Windows Vista、Windows Server 2008 及後續版本的作業系統中使用。 RTC 用戶端 API 提供類似的功能。\]
 
 **SetAlias** 方法會為位址設定預設的 H. 323 別名。 此別名將用於 h.264 呼叫設定 exchange，讓另一方知道此合作物件的名稱。
 
@@ -57,7 +57,7 @@ HRESULT SetAlias(
 
 
 
-| 傳回碼                                                                               | Description                                                                                                                      |
+| 傳回碼                                                                               | 描述                                                                                                                      |
 |-------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>      | 方法成功。<br/>                                                                                                     |
 | <dl> <dt>**E \_ 指標**</dt> </dl> | *DwLength* 中指出的字元數超過 *strAlias* 參數中的實際字元數。<br/> |

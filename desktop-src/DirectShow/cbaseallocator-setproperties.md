@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 000da3ee359ad727e3af972fc4aa6d0dbbb9133e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d81ee1c29f1c9e2cc9927f926144a7427b5e94f72406f94ce65f7d4a20e2ab32
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106987833"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120057478"
 ---
 # <a name="cbaseallocatorsetproperties-method"></a>CBaseAllocator. SetProperties 方法
 
@@ -63,7 +63,7 @@ HRESULT SetProperties(
 
 
 
-| 傳回碼                                                                                                 | Description                                                           |
+| 傳回碼                                                                                                 | 描述                                                           |
 |-------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>                        | 成功。<br/>                                                   |
 | <dl> <dt>**E \_ 指標**</dt> </dl>                   | **Null** 指標引數。<br/>                                 |

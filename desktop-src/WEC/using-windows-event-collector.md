@@ -1,20 +1,20 @@
 ---
 title: 使用 Windows 事件收集器
-description: 本節列出的主題說明可以使用 Windows 事件收集器 SDK 完成的工作。 所有工作的程式碼範例和說明都包含在下列每個主題中。
+description: 本節列出的主題說明可使用 Windows 事件收集器 SDK 完成的工作。 所有工作的程式碼範例和說明都包含在下列每個主題中。
 ms.assetid: 3396454a-4f43-45d0-951e-3096b9a4a077
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dc618ced4cefc7f17fb63b27bb1e097e65b3adac
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: cb8b928dddcd3e70848d510a8986962d478bedbe6f2f8bffcbec19c276983328
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106969848"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120006008"
 ---
 # <a name="using-windows-event-collector"></a>使用 Windows 事件收集器
 
-本節列出的主題說明可以使用 Windows 事件收集器 SDK 完成的工作。 所有工作的程式碼範例和說明都包含在下列每個主題中。
+本節列出的主題說明可使用 Windows 事件收集器 SDK 完成的工作。 所有工作的程式碼範例和說明都包含在下列每個主題中。
 
 ## <a name="in-this-section"></a>本節內容
 
@@ -58,9 +58,9 @@ ms.locfileid: "106969848"
 
     提供資訊和 c + + 程式碼範例，以在一或多個事件來源失敗時重試事件收集器訂用帳戶。 您可以重試單一事件來源，也可以重試整個訂用帳戶。
 
- 
+ 
 
- 
+ 
 
 
 

@@ -5,12 +5,12 @@ ms.assetid: ab1c2011-1a36-4a8f-8b1b-dcacfc4d4561
 title: 'O (磁碟區陰影複製服務) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 581e864f3d26369322e07d85dc2125170d71f204
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 846c3886a1d3f7420608428f0c4710222b64321af9e36ee2b5cbaf22c83d7f8b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113168"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120006208"
 ---
 # <a name="o-volume-shadow-copy-service"></a>O (磁碟區陰影複製服務) 
 

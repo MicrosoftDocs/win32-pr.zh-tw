@@ -4,12 +4,12 @@ description: 下列範例程式碼示範如何新增依使用者或應用程式�
 ms.assetid: f1ca483e-cf60-499f-8a4a-29656ed9503a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f00ddd6f1d5f7a7515abbdb32047c530dd5c3db4
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 8aa513809b294451235c5e14cf8b7c79bf41ca754b27134e9366ffce77b4c7cc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103674356"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120078488"
 ---
 # <a name="permitting-and-blocking-applications-and-users"></a>允許和封鎖應用程式和使用者
 
@@ -155,9 +155,9 @@ CLEANUP:
 [**篩選每個篩選層級的可用條件**](filtering-conditions-available-at-each-filtering-layer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

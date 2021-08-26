@@ -4,12 +4,12 @@ ms.assetid: ee90fe3d-51f4-433b-a5ce-950a03e1d8fb
 title: 撰寫 ActionText 和錯誤資料表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1e20646a90ca76c159a88bdd8a6d026ff10845da
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9a7b89c8150e3767841fe914cf55fc7be8c92e8cecf8f54f8486993d955349be
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848958"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120045398"
 ---
 # <a name="authoring-the-actiontext-and-error-tables"></a>撰寫 ActionText 和錯誤資料表
 

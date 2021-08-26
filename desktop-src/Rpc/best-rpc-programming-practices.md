@@ -6,12 +6,12 @@ keywords:
 - 遠端程序呼叫 RPC，最佳作法
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c88cbc9cda1fee3f41b12d41eceba4a9c63f744
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: fdad2a69c19efc11554bffc1d58b84a1dceb93f2ff41c37e7bae07ab55cfb717
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104300548"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120023148"
 ---
 # <a name="best-rpc-programming-practices"></a>最佳的 RPC 程式設計實務
 
@@ -29,9 +29,9 @@ ms.locfileid: "104300548"
 -   [開發高效能 RPC 伺服器](developing-a-high-performance-rpc-server.md)
 -   [取得延伸的 RPC 錯誤資訊](obtaining-extended-rpc-error-information.md)
 
- 
+ 
 
- 
+ 
 
 
 

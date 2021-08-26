@@ -4,12 +4,12 @@ ms.assetid: aefc0680-cbe6-42eb-8c00-eaa343eee469
 title: '什麼是交換鏈？  (Direct3D 9) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7c8fc1fd2d313c70a680d9b276a3aabedc6d8cff
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 91666ffeb05dd7020a4caad1c11777842d7222cdc4cd6b04cd862edea5fff764
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104187424"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120068808"
 ---
 # <a name="what-is-a-swap-chain-direct3d-9"></a>什麼是交換鏈？  (Direct3D 9) 
 

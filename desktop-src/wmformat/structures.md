@@ -1,27 +1,27 @@
 ---
-title: Windows Media 格式 SDK 結構
-description: Windows Media 格式 SDK 結構
+title: Windows媒體格式 SDK 結構
+description: Windows媒體格式 SDK 結構
 ms.assetid: 118ef278-ca4f-4c30-9633-a2d851f5c758
 keywords:
-- Windows Media Format SDK，結構
+- Windows媒體格式 SDK，結構
 - Advanced Systems Format (ASF) 、結構
 - ASF (Advanced Systems Format) ，結構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1f730ba3cbc5bd8bbec2a9f01c72df1fe46f0b64
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 319be2d061132f59c1c75ebb295c8ceb8ae87ffbcce48e8259a1faedcf18d666
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "106965464"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120006608"
 ---
-# <a name="windows-media-format-sdk-structures"></a>Windows Media 格式 SDK 結構
+# <a name="windows-media-format-sdk-structures"></a>Windows媒體格式 SDK 結構
 
-Windows Media Format SDK 會執行下列結構。
+Windows 媒體格式 SDK 會執行下列結構。
 
 
 
-| 結構                                                                                | Description                                                                                                                                                               |
+| 結構                                                                                | 描述                                                                                                                                                               |
 |------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**DRM \_ 複製 \_ OPL**](/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-drm_copy_opl)                                                   | 保留適用于 DRM 授權中複製動作的輸出保護層級資訊。                                                                               |
 | [**DRM \_ 授權 \_ 狀態 \_ 資料**](drm-license-state-data.md)                              | 包含有關指定之 [*DRM*](wmformat-glossary.md)許可權的 [*授權*](wmformat-glossary.md)資訊。 |

@@ -4,23 +4,23 @@ description: 若要使用 HTTP 做為 RPC 的傳輸通訊協定，在 Internet I
 ms.assetid: 5a67af51-924a-4f2b-b013-a4fd1bfaeddd
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 62d1b39276633f3b827f778deef77edd5630c599
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b4628339afe09e2b6e9a6f216504f411550d37b7a285614e507c89a4a8052c2c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106966194"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120022468"
 ---
 # <a name="configuring-computers-for-rpc-over-http"></a>設定 RPC over HTTP 的電腦
 
-若要使用 HTTP 做為 RPC 的傳輸通訊協定，在 Internet Information Server 內執行的 RPC Proxy (IIS) 必須在伺服器程式的網路上設定。 本節說明設定選項。 如需使用 RPC over HTTP 時最佳程式設計和設定作法的建議，請參閱 [RPC OVER Http 部署建議](rpc-over-http-deployment-recommendations.md)。 主要工作是設定 RPC Proxy，以接受 rpc over HTTP 連線，並將其轉送至 RPC over HTTP 伺服器程式。
+若要使用 HTTP 做為 RPC 的傳輸通訊協定，在 Internet Information Server 內執行的 RPC Proxy (IIS) 必須在伺服器程式的網路上設定。 本節說明設定選項。 如需使用 RPC over HTTP 時最佳程式設計和設定作法的建議，請參閱[rpc OVER Http 部署建議](rpc-over-http-deployment-recommendations.md)。 主要工作是設定 RPC Proxy，以接受 rpc over HTTP 連線，並將其轉送至 RPC over HTTP 伺服器程式。
 
-IIS 必須先安裝在執行 RPC Proxy 的電腦上。 安裝 IIS 之後，會安裝 RPC Proxy。 您可以同時從主控台中的 [ **新增/移除 Windows 元件** ] 安裝 IIS 和 RPC Proxy。 RPC Proxy 是從 **網路服務** 安裝，在 Windows 安裝程式中則是透過 **HTTP proxy 呼叫 rpc** proxy。 如果同時安裝 IIS 和 RPC Proxy，Windows 會確保以正確的順序安裝它們。
+IIS 必須先安裝在執行 RPC Proxy 的電腦上。 安裝 IIS 之後，會安裝 RPC Proxy。 您可以同時從主控台中的 [**新增/移除 Windows 元件**] 安裝 IIS 和 RPC Proxy。 rpc Proxy 是從 **網路服務** 安裝，在 Windows 安裝程式中，會透過 **HTTP proxy 呼叫 rpc** proxy。 如果同時安裝 IIS 和 RPC Proxy，Windows 可確保以正確的順序安裝這些 Proxy。
 
 > [!Note]  
 > 安裝完成之後，如果 IIS 是在安裝過程中執行，則必須重新開機。
 
- 
+ 
 
 在安裝 RPC Proxy 之後，必須執行一些額外的設定工作：
 
@@ -72,7 +72,7 @@ DWORD。 如果存在，則指定用戶端和 RPC Proxy 所使用的最小連接
 
 **HKLM \\ Software \\ Microsoft \\ Rpc \\ UseProxyForIPAddrIfRDNSFails**
 
-當出現並設定為非零，且以 RPC Proxy 位址提供數值 IP 位址時，RPC over HTTP 用戶端會嘗試反向名稱解析，如果失敗，則會嘗試透過 HTTP proxy 連接到 RPC Proxy。 可以用來模擬需要這類行為之安裝的 Windows NT 行為。 針對 RPC over HTTP v2 略過。 只有在使用 RPC over HTTP v1 時才會使用。 只有在 Windows 2000 Service Pack 3 (SP3) 和更新版本才支援。
+當出現並設定為非零，且以 RPC Proxy 位址提供數值 IP 位址時，RPC over HTTP 用戶端會嘗試反向名稱解析，如果失敗，則會嘗試透過 HTTP proxy 連接到 RPC Proxy。 可以用來模擬需要這類行為之安裝的 Windows NT 行為。 針對 RPC over HTTP v2 略過。 只有在使用 RPC over HTTP v1 時才會使用。 只有 Windows 2000 Service Pack 3 (SP3) 和更新版本才支援。
 
 \-
 
@@ -83,11 +83,11 @@ DWORD。 如果不存在或設為零，RPC Proxy 會檢查連線是否已通過�
 > [!WARNING]
 > 基於安全性考慮，Microsoft 強烈建議您不要在生產系統上設定 **AllowAnonymous** 值。 應設定此金鑰的唯一原因是要在沒有外部存取的封閉網路上進行測試。 任何連線到網際網路的系統，以及將 **AllowAnonymous** 機碼設定為非零值的 RPC Proxy，都很容易受到攻擊。
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

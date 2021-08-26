@@ -4,12 +4,12 @@ description: 您如何設定應用程式的 COM 安全性，取決於您的應�
 ms.assetid: db5c9adb-b04b-4621-b738-2959cac40985
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 62cacef6d4e3aab59cb3b603125c36dd17d07846
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d57ccbbc8fc96b7c94e90fd3925dfb2ffff07225c34ebe1da34353f42b08b3ab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103675823"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119993228"
 ---
 # <a name="determining-your-security-needs"></a>判斷您的安全性需求
 
@@ -36,9 +36,9 @@ COM 中的安全性依賴安全性封裝所管理的驗證服務。 NTLMSSP 適�
 [COM 中的安全性](security-in-com.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

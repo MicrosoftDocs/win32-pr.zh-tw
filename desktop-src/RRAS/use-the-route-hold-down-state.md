@@ -4,12 +4,12 @@ description: 下列範例程式碼示範如何標示保留狀態的目的地，�
 ms.assetid: bdc97fad-4805-4432-96ca-9225a51c92eb
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bcdff6b05f254b03d5aff30b177135702d64f3db
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: efed37238afff1606585f044b1f8366213a79dc0ea88a3622f231a01f37a1f96
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106967432"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120035538"
 ---
 # <a name="use-the-route-hold-down-state"></a>使用路由 Hold-Down 狀態
 
@@ -123,9 +123,9 @@ if (Status == NO_ERROR)
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8a25e4eccebe9f6c1de72d90f5a981a35c035cb0
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 856cfbacfe1fdbe0ea41c10d9b8ede9c39614eda4aa7747a16bd40b078c63d93
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106988563"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120036448"
 ---
 # <a name="gltexcoord2iv-function"></a>glTexCoord2iv 函式
 
@@ -40,7 +40,7 @@ void WINAPI glTexCoord2iv(
 
 <dl> <dt>
 
-*V* 
+*v* 
 </dt> <dd>
 
 指向兩個專案之陣列的指標，接著會指定 s 和 t 材質座標。

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - UpdateEndpointAuth.dll
-ms.openlocfilehash: 670835ee3c2dfd01ae46a7cf78395959ea9a26de
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a9b7d15d6d27170106118c720d25567389884c50e27aac202adedf00290236c3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191477"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119994578"
 ---
 # <a name="iupdateendpointauthprovidergetpreferredendpointtokentype-method"></a>IUpdateEndpointAuthProvider：： GetPreferredEndpointTokenType 方法
 
@@ -84,10 +84,10 @@ HRESULT GetPreferredEndpointTokenType(
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows XP、Windows 2000 專業版（含 SP3） \[ 桌面應用程式\]<br/>                   |
-| 最低支援的伺服器<br/> | Windows Server 2003、Windows 2000 Server （僅含 SP3 \[ desktop 應用程式）\]<br/>                |
+| 最低支援的用戶端<br/> | WindowsXP、Windows 2000 Professional 搭配 SP3 \[ desktop 應用程式\]<br/>                   |
+| 最低支援的伺服器<br/> | Windows伺服器2003、Windows 2000 伺服器（僅含 SP3 \[ desktop 應用程式）\]<br/>                |
 | 標頭<br/>                   | <dl> <dt>UpdateEndpointAuth。h</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>UpdateEndpointAuth .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>UpdateEndpointAuth .idl</dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>UpdateEndpointAuth .lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>UpdateEndpointAuth.dll</dt> </dl> |
 

@@ -4,12 +4,12 @@ description: 此資料表會將 D3DVERTEXELEMENT9 宣告的成員對應至 Direc
 ms.assetid: da02b2cd-5221-4d37-97d5-840df91e39a6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d5c52bd804907f201916386ef5fa5776a32a046b
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: d38e6c94836499a6f2bf5dc4e88c76b822ef3143278581a4020e76dba16c9869
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103687452"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120069028"
 ---
 # <a name="map-between-d3d9-and-d3d8-declarations"></a>D3D9 和 D3D8 宣告之間的對應
 

@@ -4,12 +4,12 @@ ms.assetid: 4ebf7185-0179-4754-80da-63b0002c883f
 title: 密碼威脅評估
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d48a79d44bda9714083c5dd1085e9d09497e7341
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2f9042efa524b0503a648a195e77669b19231fec0445c4b0c8347b802b323076
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106987401"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119977148"
 ---
 # <a name="password-threat-assessment"></a>密碼威脅評估
 

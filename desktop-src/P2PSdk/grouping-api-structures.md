@@ -4,12 +4,12 @@ ms.assetid: ac65f558-a97b-46c5-984f-d1bb5d1f1078
 title: 將 API 結構分組
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8fded30a44b270e96a993cfb22f57f918886dc7d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4140e856a27bfaa1ab00488185a2213a971cd928dd27e96ba1e3c41401c5e2c8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106977327"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120034408"
 ---
 # <a name="grouping-api-structures"></a>將 API 結構分組
 
@@ -17,7 +17,7 @@ ms.locfileid: "106977327"
 
 
 
-| 結構                                                                  | Description                                                                                                   |
+| 結構                                                                  | 描述                                                                                                   |
 |----------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | [**對等 \_ 認證 \_ 資訊**](/windows/desktop/api/P2P/ns-p2p-peer_credential_info)                     | 定義用來取得和發行對等安全性認證的資訊。                                   |
 | [**對等 \_ 事件 \_ 成員 \_ 變更 \_ 資料**](/windows/desktop/api/P2P/ns-p2p-peer_event_member_change_data) | 包含描述對等群組成員狀態變更的資料。                                   |

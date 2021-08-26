@@ -4,12 +4,12 @@ ms.assetid: D4DD6B02-E689-4E37-A456-533F6A9C9374
 title: IX509PrivateKey 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cbade050acbdcb10f16783b3c8f02a50d617e092
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4e78d0ad1164a9c1af42334d52f9a13779ea96e8a2453fe79a6f5c61d67fba16
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103693712"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119993578"
 ---
 # <a name="ix509privatekey-methods"></a>IX509PrivateKey 方法
 

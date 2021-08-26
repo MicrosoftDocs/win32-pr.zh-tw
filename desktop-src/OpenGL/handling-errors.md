@@ -7,12 +7,12 @@ keywords:
 - X.GLU 隊 (OpenGL 公用程式) ，錯誤碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ab319fd978cd5ea901133fc9961caf1c66f3185d
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 75ac3fd9010862dd9c567cb7688f7f96286cae06f7e3b0e4ffe73d3b41ca9b67
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104316984"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120035188"
 ---
 # <a name="handling-errors-opengl"></a>處理 (OpenGL) 的錯誤
 

@@ -4,12 +4,12 @@ description: 如果有可用的延伸錯誤資訊，參與建立延伸錯誤資�
 ms.assetid: 10c54f53-f449-4e7d-ba84-7b000beaee22
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d6f52e45e3f181c5aaa0db196f9ce791581cc38
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b4d2c7a67bb678472fbd3abbf90e0885590c795e2ffc46213a7acbb397da149c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840187"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120021303"
 ---
 # <a name="extended-error-information-for-the-user"></a>使用者的延伸錯誤資訊
 
@@ -17,9 +17,9 @@ ms.locfileid: "103840187"
 
 最後一筆記錄之前的記錄會指出錯誤抵達的路徑，而且通常會做為例行性檢查，而不是疑難排解程式中的且有助於。
 
- 
+ 
 
- 
+ 
 
 
 

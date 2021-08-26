@@ -12,12 +12,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
 api_location: ''
-ms.openlocfilehash: 31e2092c69b96e7b308ec9a2b5ad1cc64b6c8d2c
-ms.sourcegitcommit: 476861130ea63675206d1f06e517059705b930ed
+ms.openlocfilehash: 5b59b2d57e0698b90c6af79a1745d54f67c4df3a1bb7c140e4123b0b33cfdea0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "103841568"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120022978"
 ---
 # <a name="texture2dsamplelevel-methods"></a>Texture2D：： SampleLevel 方法
 

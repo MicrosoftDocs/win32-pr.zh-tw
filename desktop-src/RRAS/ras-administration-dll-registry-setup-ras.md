@@ -4,12 +4,12 @@ description: 瞭解向 RAS 註冊協力廠商遠端存取服務 (RAS) 管理 DLL
 ms.assetid: 8108a0ac-8562-4251-99be-5f2b2f5c67c4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ed0af8e4b189de69f254429c18beb4756e01ad56
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 1e40ed8fe4fe853c12e33e6168cb72cf1b3ec5b33afc92e8767731a13ec37412
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112406711"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120036360"
 ---
 # <a name="ras-administration-dll-registry-setup"></a>RAS 管理 DLL 登錄設定
 

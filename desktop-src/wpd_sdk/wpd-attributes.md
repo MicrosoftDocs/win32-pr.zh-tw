@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - PortableDevice.h
-ms.openlocfilehash: 113b2b35a5b6e61cd2cc1d3666d1a13fbade5ec7
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8004f4e2f9f7c22d795b6ce4e4cb0affac1b55ecd876c21288c02e226ee14262
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106982259"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120006108"
 ---
 # <a name="parameter-attributes"></a>參數屬性
 
@@ -30,7 +30,7 @@ ms.locfileid: "106982259"
 
 
 
-| 屬性                                            | VarType         | Description                                                                                                                                                                                 |
+| 屬性                                            | VarType         | 描述                                                                                                                                                                                 |
 |------------------------------------------------------|-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **WPD \_ 參數 \_ 屬性 \_ 預設 \_ 值**        | VT \_ *XXXX*      | 參數的預設值。                                                                                                                                                         |
 | **WPD \_ 參數 \_ 屬性 \_ 列舉 \_ 元素** | **VT \_ 不明** | [**IPortableDevicePropVariantCollection**](iportabledevicepropvariantcollection.md)介面，其中包含參數的列舉值。                                   |

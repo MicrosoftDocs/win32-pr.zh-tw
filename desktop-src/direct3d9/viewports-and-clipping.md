@@ -4,12 +4,12 @@ ms.assetid: eddadaa1-9181-47fa-8530-44aa46fea286
 title: " (Direct3D 9) 的區形和剪切"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d57f64d17f7abf4e370406f984fa50037be6d44e
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: eb6ed7cd5e5a8a3116c07c5b88f3e665e7ba7de7c6dd1d3cd7bf55f936e60386
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104108396"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120068840"
 ---
 # <a name="viewports-and-clipping-direct3d-9"></a> (Direct3D 9) 的區形和剪切
 

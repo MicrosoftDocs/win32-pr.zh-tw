@@ -4,12 +4,12 @@ ms.assetid: 8a7ed4b1-25a1-4984-baea-6e176f0545ea
 title: " (Direct3D 9) 的大綱和填滿狀態"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 65092fb2e4bfe29ac5e9f9291250a0c78b80626d
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: db18c38b7511d6fd7954ffdbf18b9e5681cb884414373fd7a22dba2ade3bebf8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106973941"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120068938"
 ---
 # <a name="outline-and-fill-state-direct3d-9"></a> (Direct3D 9) 的大綱和填滿狀態
 

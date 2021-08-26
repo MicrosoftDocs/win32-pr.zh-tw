@@ -3,15 +3,15 @@ title: 用戶端應用程式函數
 description: Windows 生物特徵辨識架構 API 所支援的用戶端應用程式開發功能。
 ms.assetid: 57c9378d-b170-4ba8-8eee-8078531540d5
 keywords:
-- Windows 生物特徵辨識架構 API Windows 生物特徵辨識架構 API，用戶端應用程式函式
+- Windows生物特徵辨識架構 api Windows 生物特徵辨識架構 API，用戶端應用程式函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 84a552c10bf242d87e23428a08e497fd0efaf98d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f3f3145c486e88a21a654a8a00fcdda4f5ad8bf6b06bca7b815e26d42479a5af
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840603"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119994028"
 ---
 # <a name="client-application-functions"></a>用戶端應用程式函數
 

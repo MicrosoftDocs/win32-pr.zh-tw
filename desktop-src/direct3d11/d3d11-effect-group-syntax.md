@@ -4,12 +4,12 @@ description: 使用本節所述的語法來宣告效果群組。
 ms.assetid: f6695ae5-198f-45bd-853b-8c02fabd0c39
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9221341810990801f1ed07005e0dcb917df42360
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 4c1b2c72b0a67a31911a0f2c9f9ae6ac0e9e20463a850c303dab4a208401d1c4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104462609"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120069748"
 ---
 # <a name="effect-group-syntax-direct3d-11"></a> (Direct3D 11) 的效果群組語法
 

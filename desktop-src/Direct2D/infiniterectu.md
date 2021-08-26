@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 81a43c3ca7e1151f18608bec5554c034ba537af5
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1602f947ee7d6699002be1e5074f8c723db7f9534460f39f7fe3fe29e66f68f8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106984118"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120057998"
 ---
 # <a name="infiniterectu-function"></a>InfiniteRectU 函式
 

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: b724f63907c8372867095b059ff728b4c646df21
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0019678054b8cce9aafad302818f40d2076931b27295c43d57b71e8e13eb7b95
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106989793"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120057118"
 ---
 # <a name="cbasecontrolvideoget_sourceheight-method"></a>CBaseControlVideo. 取得 \_ SourceHeight 方法
 
@@ -55,7 +55,7 @@ HRESULT get_SourceHeight(
 
 
 
-| 傳回碼                                                                                           | Description                                                                      |
+| 傳回碼                                                                                           | 描述                                                                      |
 |-------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------|
 | <dl> <dt>**E \_ 失敗**</dt> </dl>                | 失敗。<br/>                                                              |
 | <dl> <dt>**E \_ 指標**</dt> </dl>             | **Null** 指標引數。<br/>                                            |

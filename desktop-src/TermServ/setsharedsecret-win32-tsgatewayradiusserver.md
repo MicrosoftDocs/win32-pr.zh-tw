@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f17e22061467194bdb09fc3f2c6105706f58e587
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: fc9d6c37b4826b451a932ff282b451c77aef22c91e92a6c47cd3907ce2705371
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103686124"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120008648"
 ---
 # <a name="setsharedsecret-method-of-the-win32_tsgatewayradiusserver-class"></a>Win32 TSGatewayRADIUSServer 類別的 SetSharedSecret 方法 \_
 

@@ -4,12 +4,12 @@ ms.assetid: 6f6d45b0-759d-4d28-a542-5cdbb589448f
 title: 撰寫啟動自訂動作
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4805b20b2250351927100ad978d8791e7acf045f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 536f22c95d871ab502518a0619efad5ae70cb348cdf75163fc50309b440f6393
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103944003"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120045270"
 ---
 # <a name="authoring-the-launch-custom-action"></a>撰寫啟動自訂動作
 

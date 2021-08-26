@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 12/16/2020
-ms.openlocfilehash: 368b2d46e6dfc2c32c0bb294edceda31f8a58f4e
-ms.sourcegitcommit: 04e801237156e90b48111d60bddf437f87f5cdfe
+ms.openlocfilehash: 617c91491d88736ca60218d71f9dd5aa02ad0f9faeefdda6b872ba9262cec587
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "104467402"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119990658"
 ---
 # <a name="imsrdpcameraredirconfigdeviceexists-property"></a>IMsRdpCameraRedirConfig：:D eviceExists 屬性
 

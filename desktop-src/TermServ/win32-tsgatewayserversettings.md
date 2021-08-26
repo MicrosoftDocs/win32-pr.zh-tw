@@ -39,12 +39,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c0fb9b93f75c47760da8778e4aef8bed7f4e022
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 00c199b4b8e98832dcc8dbe65b8fc2ef636df71c8bd6e3c096670e6333f83a75
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466705"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120008518"
 ---
 # <a name="win32_tsgatewayserversettings-class"></a>Win32 \_ TSGatewayServerSettings 類別
 
@@ -101,15 +101,15 @@ class Win32_TSGatewayServerSettings
 | [**EnableCentralCAP**](enablecentralcap-win32-tsgatewayserversettings.md)                                                                         | 啟用或停用 **CentralCAPEnabled** 屬性，此屬性會控制是否使用中央遠端桌面連線授權原則 (RD CAP) 伺服器來控制這部伺服器的連線授權原則。<br/>                    |
 | [**EnableLogEvent**](enablelogevent-win32-tsgatewayserversettings.md)                                                                             | 啟用或停用指定事件種類的記錄。<br/>                                                                                                                                                                                              |
 | [**EnableOnlyConsentCapableClients**](enableonlyconsentcapableclients-win32-tsgatewayserversettings.md)                                           | 設定 **OnlyConsentCapableClients** 屬性。<br/> **Windows Server 2008：** Windows Server 2008 R2 之前無法使用這個方法。<br/>                                                                                                      |
-| [**EnableRequestSOH**](win32-tsgatewayserversettings-enablerequestsoh.md)                                                                         | 從 Windows Server 2016 開始不支援這個方法。<br/> **Windows server 2012 r2、Windows server 2012、Windows server 2008 R2 和 Windows server 2008：** 啟用或停用健康狀態聲明 (SoH) 的要求。<br/> <br/> |
-| [**EnableTransport**](enabletransport-win32-tsgatewayserversettings.md)                                                                           | 啟用或停用指定的傳輸。<br/> **Windows server 2008 R2 和 Windows server 2008：** Windows Server 2012 之前無法使用這個方法。<br/>                                                                                  |
+| [**EnableRequestSOH**](win32-tsgatewayserversettings-enablerequestsoh.md)                                                                         | 從 Windows Server 2016 開始，不支援這個方法。<br/> **Windows Server 2012 R2、Windows Server 2012、Windows Server 2008 R2 和 Windows Server 2008：** 啟用或停用健康狀態聲明 (SoH) 的要求。<br/> <br/> |
+| [**EnableTransport**](enabletransport-win32-tsgatewayserversettings.md)                                                                           | 啟用或停用指定的傳輸。<br/> **Windows server 2008 R2 和 Windows server 2008：** 此方法在 Windows Server 2012 之前無法使用。<br/>                                                                                  |
 | [**EnumAuthenticationPlugins**](enumauthenticationplugins-win32-tsgatewayserversettings.md)                                                       | 列舉所有已註冊的驗證外掛程式。<br/> **Windows Server 2008：** 無法使用這個方法。<br/>                                                                                                                                  |
 | [**EnumAuthorizationPlugins**](enumauthorizationplugins-win32-tsgatewayserversettings.md)                                                         | 列舉所有已註冊的授權外掛程式。<br/> **Windows Server 2008：** Windows Server 2008 R2 之前無法使用這個方法。<br/>                                                                                                     |
-| [**GetIPAndPort**](getipandport-win32-tsgatewayserversettings.md)                                                                                 | 取得指定傳輸的接聽 IP 位址和埠號碼。<br/> **Windows server 2008 R2 和 Windows server 2008：** Windows Server 2012 之前無法使用這個方法。<br/>                                                 |
+| [**GetIPAndPort**](getipandport-win32-tsgatewayserversettings.md)                                                                                 | 取得指定傳輸的接聽 IP 位址和埠號碼。<br/> **Windows server 2008 R2 和 Windows server 2008：** 此方法在 Windows Server 2012 之前無法使用。<br/>                                                 |
 | [**GetLogEventName**](getlogeventname-win32-tsgatewayserversettings.md)                                                                           | 傳回指定之記錄事件索引的記錄事件名稱。<br/>                                                                                                                                                                                         |
 | [**GetProtocolName**](getprotocolname-win32-tsgatewayserversettings.md)                                                                           | 傳回指定之通訊協定索引的通訊協定名稱。<br/>                                                                                                                                                                                           |
 | [**IsLogEventEnabled**](islogeventenabled-win32-tsgatewayserversettings.md)                                                                       | 指出是否已啟用指定的事件記錄檔類型。<br/>                                                                                                                                                                                            |
-| [**IsTransportEnabled**](istransportenabled-win32-tsgatewayserversettings.md)                                                                     | 判斷指定的傳輸是否已啟用。<br/> **Windows server 2008 R2 和 Windows server 2008：** Windows Server 2012 之前無法使用這個方法。<br/>                                                                        |
+| [**IsTransportEnabled**](istransportenabled-win32-tsgatewayserversettings.md)                                                                     | 判斷指定的傳輸是否已啟用。<br/> **Windows server 2008 R2 和 Windows server 2008：** 此方法在 Windows Server 2012 之前無法使用。<br/>                                                                        |
 | [**QueryCertCoNtext**](win32-tsgatewayserversettings-querycertcontext.md)                                                                         | 指出是否已安裝指定的憑證。<br/>                                                                                                                                                                                             |
 | [**RecycleRpcApplicationPools**](recyclerpcapplicationpools-win32-tsgatewayserversettings.md)                                                     | 回收 IIS 中的 RPC 應用程式集區。<br/> **Windows Server 2008：** Windows Server 2008 R2 之前無法使用這個方法。<br/>                                                                                                            |
 | [**RefreshCertCoNtext**](win32-tsgatewayserversettings-refreshcertcontext.md)                                                                     | 重新整理 RD 閘道伺服器所使用的憑證。<br/>                                                                                                                                                                                      |
@@ -119,8 +119,8 @@ class Win32_TSGatewayServerSettings
 | [**SetCertificate**](setcertificate-win32-tsgatewayserversettings.md)                                                                             | 在 IIS 中設定埠443的 HTTPS 系結憑證雜湊。<br/> **Windows Server 2008：** Windows Server 2008 R2 之前無法使用這個方法。<br/>                                                                                       |
 | [**SetCertificateACL**](setcertificateacl-win32-tsgatewayserversettings.md)                                                                       | 設定此伺服器 (Acl) 的憑證存取控制清單。<br/>                                                                                                                                                                                     |
 | [**SetDefaultPluginsAndRecycleRpcApplicationPools**](setdefaultpluginsandrecyclerpcapplicationpools-win32-tsgatewayserversettings.md)             | 設定 RD 閘道伺服器目前的驗證和授權外掛程式，並在 IIS 中回收 RPC 應用程式集區。<br/> **Windows Server 2008：** Windows Server 2008 R2 之前無法使用這個方法。<br/>                   |
-| [**SetEnforceChannelBinding**](setenforcechannelbinding-win32-tsgatewayserversettings.md)                                                         | 設定 **EnforceChannelBinding** 屬性。<br/> **Windows server 2008 R2 和 Windows server 2008：** Windows Server 2012 之前無法使用這個方法。<br/>                                                                                  |
-| [**SetIPAndPort**](setipandport-win32-tsgatewayserversettings.md)                                                                                 | 設定指定傳輸的接聽 IP 位址和埠號碼。<br/> **Windows server 2008 R2 和 Windows server 2008：** Windows Server 2012 之前無法使用這個方法。<br/>                                                    |
+| [**SetEnforceChannelBinding**](setenforcechannelbinding-win32-tsgatewayserversettings.md)                                                         | 設定 **EnforceChannelBinding** 屬性。<br/> **Windows server 2008 R2 和 Windows server 2008：** 此方法在 Windows Server 2012 之前無法使用。<br/>                                                                                  |
+| [**SetIPAndPort**](setipandport-win32-tsgatewayserversettings.md)                                                                                 | 設定指定傳輸的接聽 IP 位址和埠號碼。<br/> **Windows server 2008 R2 和 Windows server 2008：** 此方法在 Windows Server 2012 之前無法使用。<br/>                                                    |
 | [**SetMaxConnections**](setmaxconnections-win32-tsgatewayserversettings.md)                                                                       | 設定允許的最大連接數 RD 閘道。 這個方法會變更 **MaxConnections** 和 **UnlimitedConnections** 屬性。<br/>                                                                                                |
 | [**SetSslBridging**](setsslbridging-win32-tsgatewayserversettings.md)                                                                             | 設定 RD 閘道伺服器所使用的 SSL 橋接類型。<br/> **Windows Server 2008：** Windows Server 2008 R2 之前無法使用這個方法。<br/>                                                                                    |
 | [**TSGRemoveAdminMsg**](tsgremoveadminmsg-win32-tsgatewayserversettings.md)                                                                       | 移除閘道伺服器的系統管理訊息。<br/> **Windows Server 2008：** Windows Server 2008 R2 之前無法使用這個方法。<br/>                                                                                            |
@@ -149,7 +149,7 @@ class Win32_TSGatewayServerSettings
 
 系統管理訊息的結束時間。
 
-**Windows Server 2008：** 此屬性在 Windows Server 2008 R2 之前無法使用。
+**Windows Server 2008：** Windows Server 2008 R2 之前，無法使用此屬性。
 
 </dd> <dt>
 
@@ -164,7 +164,7 @@ class Win32_TSGatewayServerSettings
 
 管理訊息開始時間。
 
-**Windows Server 2008：** 此屬性在 Windows Server 2008 R2 之前無法使用。
+**Windows Server 2008：** Windows Server 2008 R2 之前，無法使用此屬性。
 
 </dd> <dt>
 
@@ -179,7 +179,7 @@ class Win32_TSGatewayServerSettings
 
 系統管理郵件內文。
 
-**Windows Server 2008：** 此屬性在 Windows Server 2008 R2 之前無法使用。
+**Windows Server 2008：** Windows Server 2008 R2 之前，無法使用此屬性。
 
 </dd> <dt>
 
@@ -194,7 +194,7 @@ class Win32_TSGatewayServerSettings
 
 目前驗證外掛程式的 CLSID。
 
-**Windows Server 2008：** 此屬性在 Windows Server 2008 R2 之前無法使用。
+**Windows Server 2008：** Windows Server 2008 R2 之前，無法使用此屬性。
 
 </dd> <dt>
 
@@ -209,7 +209,7 @@ class Win32_TSGatewayServerSettings
 
 目前驗證外掛程式的描述。
 
-**Windows Server 2008：** 此屬性在 Windows Server 2008 R2 之前無法使用。
+**Windows Server 2008：** Windows Server 2008 R2 之前，無法使用此屬性。
 
 </dd> <dt>
 
@@ -224,7 +224,7 @@ class Win32_TSGatewayServerSettings
 
 目前驗證外掛程式的名稱。
 
-**Windows Server 2008：** 此屬性在 Windows Server 2008 R2 之前無法使用。
+**Windows Server 2008：** Windows Server 2008 R2 之前，無法使用此屬性。
 
 </dd> <dt>
 
@@ -239,7 +239,7 @@ class Win32_TSGatewayServerSettings
 
 目前授權外掛程式的 CLSID。
 
-**Windows Server 2008：** 此屬性在 Windows Server 2008 R2 之前無法使用。
+**Windows Server 2008：** Windows Server 2008 R2 之前，無法使用此屬性。
 
 </dd> <dt>
 
@@ -254,7 +254,7 @@ class Win32_TSGatewayServerSettings
 
 目前授權外掛程式的描述。
 
-**Windows Server 2008：** 此屬性在 Windows Server 2008 R2 之前無法使用。
+**Windows Server 2008：** Windows Server 2008 R2 之前，無法使用此屬性。
 
 </dd> <dt>
 
@@ -269,7 +269,7 @@ class Win32_TSGatewayServerSettings
 
 目前授權外掛程式的名稱。
 
-**Windows Server 2008：** 此屬性在 Windows Server 2008 R2 之前無法使用。
+**Windows Server 2008：** Windows Server 2008 R2 之前，無法使用此屬性。
 
 </dd> <dt>
 
@@ -297,7 +297,7 @@ class Win32_TSGatewayServerSettings
 
 在 IIS 中為埠443上的 HTTPS 系結指定憑證雜湊。
 
-**Windows Server 2008：** 此屬性在 Windows Server 2008 R2 之前無法使用。
+**Windows Server 2008：** Windows Server 2008 R2 之前，無法使用此屬性。
 
 </dd> <dt>
 
@@ -312,7 +312,7 @@ class Win32_TSGatewayServerSettings
 
 同意郵件內文。
 
-**Windows Server 2008：** 此屬性在 Windows Server 2008 R2 之前無法使用。
+**Windows Server 2008：** Windows Server 2008 R2 之前，無法使用此屬性。
 
 </dd> <dt>
 
@@ -327,7 +327,7 @@ class Win32_TSGatewayServerSettings
 
 指出是否針對 HTTP 傳輸強制執行通道系結。 您可以使用 [**SetEnforceChannelBinding**](setenforcechannelbinding-win32-tsgatewayserversettings.md) 方法來變更這個屬性值。
 
-**Windows server 2008 R2 和 Windows server 2008：** 此屬性在 Windows Server 2012 之前無法使用。
+**Windows server 2008 R2 和 Windows server 2008：** 在 Windows Server 2012 之前，無法使用此屬性。
 
 </dd> <dt>
 
@@ -342,7 +342,7 @@ class Win32_TSGatewayServerSettings
 
 指定是否設定 RD 閘道服務所需的 IIS 和 RPC 設定。
 
-**Windows Server 2008：** 此屬性在 Windows Server 2008 R2 之前無法使用。
+**Windows Server 2008：** Windows Server 2008 R2 之前，無法使用此屬性。
 
 </dd> <dt>
 
@@ -412,7 +412,7 @@ RD 閘道支援的通訊協定數目。
 
 指定是否只允許用戶端能夠同意訊息連接到 RD 閘道。
 
-**Windows Server 2008：** 此屬性在 Windows Server 2008 R2 之前無法使用。
+**Windows Server 2008：** Windows Server 2008 R2 之前，無法使用此屬性。
 
 <dt>
 
@@ -441,7 +441,7 @@ RD 閘道支援的通訊協定數目。
 存取類型：唯讀
 </dt> </dl>
 
-從 Windows Server 2016 開始不支援這個屬性。
+從 Windows Server 2016 開始，不支援這個屬性。
 
 * * Windows Server 2012 R2、Windows Server 2012、Windows Server 2008 R2 和 Windows Server 2008： * *
 
@@ -473,7 +473,7 @@ SKU 的名稱。
 
 指定 RD 閘道伺服器所使用的 SSL 橋接類型。 這可以是下列其中一個值。
 
-**Windows Server 2008：** 此屬性在 Windows Server 2008 R2 之前無法使用。
+**Windows Server 2008：** Windows Server 2008 R2 之前，無法使用此屬性。
 
 <dt>
 

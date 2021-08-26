@@ -4,12 +4,12 @@ ms.assetid: 39bc0fa2-ad3f-4036-a1bb-b5027fa86d1b
 title: TimedFloatKeys
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1ff15195566945884c8fdf670e3a696f0a28e929
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 0f1635a7ee8ce1f13ab64cdaddf6bd8dfa8eae12cac552c7065748ebea657d71
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104510015"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120068948"
 ---
 # <a name="timedfloatkeys"></a>TimedFloatKeys
 

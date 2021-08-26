@@ -4,12 +4,12 @@ ms.assetid: 56487746-328d-4435-af58-368aaa15b32a
 title: 將 COM + 伺服器應用程式設定為服務應用程式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d3b3bbf8b691221590d6588c48dbef5198772439
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 11ad6ec0af4ddf6d7ac7bf703209af2412e1ca4e128a942e7e1ecd089b69e278
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847158"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119991188"
 ---
 # <a name="configuring-a-com-server-application-as-a-service-application"></a>將 COM + 伺服器應用程式設定為服務應用程式
 
@@ -45,7 +45,7 @@ ms.locfileid: "103847158"
 
 9.   (選擇性的) 表示應該允許服務與桌面互動，請勾選 [ **允許服務與桌面互動]** 核取方塊。
 
-10. 按一下頁面底部的 [新增]  。
+10. 按一下 [建立]。
 
 11.  (選擇性) 將服務指派給使用者帳戶：
 

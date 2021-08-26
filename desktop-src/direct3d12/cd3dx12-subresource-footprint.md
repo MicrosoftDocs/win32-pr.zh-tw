@@ -15,12 +15,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ab58e9a007d736222d9525d7a064456a1a9a7f14
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: d32c3da3e133a5509543ffaa4fbf80b4c565730f13d3b9e92753658c96efcfcd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106976460"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120069728"
 ---
 # <a name="cd3dx12_subresource_footprint-structure"></a>CD3DX12 \_ SUBRESOURCE \_ 足跡結構
 

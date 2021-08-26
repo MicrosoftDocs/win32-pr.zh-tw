@@ -10,12 +10,12 @@ keywords:
 - 圖元、GLX 範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9f0ab6464d54e696c136a6c987b94124f52b0ee2
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 312b95fb2ff4719c9ecda863b67ac926905b09d0e4b8aecbcc673a03c18c307a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671411"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120035382"
 ---
 # <a name="glx-pixel-format-code-sample"></a>GLX 像素格式的程式碼範例
 
@@ -40,9 +40,9 @@ static int attributes[] = {GLX_DEPTH_SIZE, 16, GLX_DOUBLEBUFFER, None};
 
 視覺效果可以用來建立視窗和轉譯內容。
 
- 
+ 
 
- 
+ 
 
 
 

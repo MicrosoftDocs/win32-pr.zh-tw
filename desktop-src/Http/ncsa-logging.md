@@ -4,12 +4,12 @@ description: NCSA 擴充記錄是一種可在 URL 群組上啟用的伺服器端
 ms.assetid: 14a2492a-3bcf-46f3-a3a5-1ea578516865
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f04db62d5d561fb227f7a46a33c2aefcacd943b0
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f9a5b9ef608da18264f4534c7e50e9672794a21bc61c91741feeb9e814c7afc8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103675503"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120078308"
 ---
 # <a name="ncsa-logging"></a>NCSA 記錄
 
@@ -31,7 +31,7 @@ NCSA 一般記錄檔格式會記錄下列資料。 資料表中的資料會依�
 
 
 
- 
+ 
 
 並非所有欄位都包含資訊。 針對沒有資訊的欄位， ( ) 的連字號會顯示為預留位置。 如果欄位包含非列印字元，HTTP 伺服器 API 會將它取代為加號 (+) ，以保留記錄檔格式。 這通常發生在病毒攻擊的情況下，例如，惡意使用者傳送換行字元和換行字元（如果不是以加號 (+) 取代），就會破壞記錄檔格式。 欄位會以空格分隔，而時間會記錄為當地時間與 GMT 位移。
 
@@ -44,9 +44,9 @@ NCSA 一般記錄檔格式會記錄下列資料。 資料表中的資料會依�
 
 用戶端的 IP 位址是172.21.13.45，而使用者名稱是 Microsoft \\ JohnDoe。 記錄檔記錄于2005年4月7日，17:39:04 在年4月7日，格林威治時差為8小時。 要求動詞和通訊協定版本為 "GET/scripts/iisadmin/ism.dll？ HTTP/serv HTTP/1.0"。 狀態碼是 200 OK，而用戶端傳送的位元組數目是3401。
 
- 
+ 
 
- 
+ 
 
 
 

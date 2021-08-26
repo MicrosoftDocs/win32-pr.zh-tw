@@ -4,12 +4,12 @@ description: 作業系統版本已隨著 Windows 10 作業系統版本而遞增�
 ms.assetid: 55BB7B44-1AFD-456D-9380-38B4D26E5EF6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 93ea1e65ed97859486bdd0a18fe53ee44a653faf
-ms.sourcegitcommit: 773fa6257ead6c74154ad3cf46d21e49adc900aa
+ms.openlocfilehash: 710f59313f05dac95e5953c6013108987dc9bf8ad84d7eb7d8bca67a5391996b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "104093451"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120007878"
 ---
 # <a name="windows-version-check"></a>Windows 版本檢查
 
@@ -28,14 +28,14 @@ ms.locfileid: "104093451"
 -   如果 app 依存於特定的 API 功能，請確定您有將正確的 API 版本作為目標。
 -   NTDDI (NT 設備磁碟機介面) 版本號碼會在 API 中的目標功能變更時遞增。 請確定您透過 APISet 或功能小組所建立的其他公開 API 偵測到變更，而且不使用版本作為某些功能或修正的 proxy。 如果有重大變更，且並未適當檢查，該變更就會變成是錯誤。
 -   確定應用程式不會以奇怪的方式檢查版本，例如透過登錄、檔案版本、位移、核心模式、驅動程式或其他方式。 如果應用程式確實需要檢查版本，請使用 GetVersion Api，這應該會傳回主要、次要和組建編號。
--   如果您使用 GetVersion API 或其他版本協助程式函式（例如 [VerifyVersionInfo](/windows/desktop/api/winbase/nf-winbase-verifyversioninfoa)），請記住此 API 的行為已從 Windows 8.1 開始變更。 如需詳細資訊，請參閱 [API 檔](../SysInfo/version-helper-apis.md) 。
+-   如果您使用 GetVersion API 或其他版本協助程式函式（例如[VerifyVersionInfo](/windows/desktop/api/winbase/nf-winbase-verifyversioninfoa)），請記住此 API 的行為已從 Windows 8.1 開始變更。 如需詳細資訊，請參閱 [API 檔](../SysInfo/version-helper-apis.md) 。
 -   如果您擁有像是反惡意程式碼或防火牆的應用程式，則應該透過 Windows 測試人員程式來完成您一般的意見反應通道。
 
 ## <a name="declaring-windows-10-compatibility-with-an-app-manifest"></a>宣告與應用程式資訊清單 Windows 10 的相容性
 
-如果您的應用程式與 Windows 10 相容，則可在應用程式的可 [執行檔) 資訊清單](/windows/compatibility/application-executable-manifest) 中宣告這項事實 (可執行檔。 這會告訴系統您的應用程式瞭解 Windows 10 的系統版本號碼 10.0 (因此，GetVersion API 不會傳回舊版) ，也可讓系統關閉未宣告 Windows 10 相容性之應用程式的其他相容性行為。
+如果您的應用程式與 Windows 10 相容，則可在應用程式的可[執行檔) 資訊清單](/windows/compatibility/application-executable-manifest)中宣告這項事實 (可執行檔。 這會告訴系統您的應用程式瞭解 Windows 10 的系統版本號碼 10.0 (因此，GetVersion API 不會傳回舊版) ，也可讓系統關閉未宣告 Windows 10 相容性之應用程式的其他相容性行為。
 
-若要在應用程式資訊清單中宣告 Windows 10 相容性，您必須加入資訊清單的 [ **&lt; 相容性 &gt;** 區段](../SbsCs/application-manifests.md#compatibility)（如果尚未存在），然後 Windows 10 為您要宣告的應用程式所支援的每個 Windows 版本新增 **&lt; supportedOS &gt;** 元素。
+若要在應用程式資訊清單中宣告 Windows 10 相容性，您必須加入資訊清單的 [ **&lt; 相容性 &gt;** 區段](../SbsCs/application-manifests.md#compatibility)（如果尚未存在），然後新增 Windows 10 的 **&lt; supportedOS &gt;** 元素，以及您想要宣告的應用程式所支援的其他每個 Windows 版本。
 
 下列範例會顯示應用程式的應用程式資訊清單檔，以支援從 Windows Vista 到 Windows 10 的所有 Windows 版本：
 

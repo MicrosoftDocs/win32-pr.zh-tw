@@ -4,12 +4,12 @@ description: 命名的要求佇列
 ms.assetid: d0686a9b-fc3d-4b69-b083-d04b35ce5b50
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f4aca045f84fe9f9e4b57365ba8831456f2dc1ad
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0d2174044f23f30470f3285e3c8fcf9bd2dbd474b10c306df7f2fbb215b992eb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104311096"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120078340"
 ---
 # <a name="named-request-queue"></a>命名的要求佇列
 
@@ -48,9 +48,9 @@ ms.locfileid: "104311096"
 
 ![要求佇列的背景工作進程模型](images/namedrequestqueue.png)
 
- 
+ 
 
- 
+ 
 
 
 

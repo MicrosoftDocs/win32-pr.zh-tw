@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 23b891b4d982d41fa61fa2eccc341979d181635e
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 9a11d1ec244e02c15dbb17422e9b0371b3451114cb347cfb0c25d4dbdcb2622d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106985838"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120035968"
 ---
 # <a name="glvertex3f-function"></a>glVertex3f 函式
 
@@ -56,7 +56,7 @@ void WINAPI glVertex3f(
 
 </dd> <dt>
 
-*Z* 
+*z* 
 </dt> <dd>
 
 指定頂點的 z 座標。

@@ -4,12 +4,12 @@ ms.assetid: 174847c8-4545-4f61-ae13-42bdec1405e7
 title: 以參數形式傳遞物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a58e012138bc65cec481f714ac216bb8227fb924
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: c47669d3e3e5af572b6dfd50dcbbefacf5c008971f276408fa87b37ccbed9a1b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510672"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120070378"
 ---
 # <a name="passing-objects-as-parameters"></a>以參數形式傳遞物件
 
@@ -24,12 +24,12 @@ COM + 佇列元件服務不會針對每個現有的 COM 元件啟用佇列。 �
 
 支援 [**IPersistStream**](/windows/desktop/api/objidl/nn-objidl-ipersiststream) 的物件參考可用來做為已排入佇列元件上的方法呼叫的參數。 物件無法進行 reinstantiated 時的假設。 例如，伺服器可能無法使用，或伺服器元件可能會在一天之後才啟動。 不支援 **IPersistStream** 的物件將會傳回錯誤。
 
-## <a name="visual-basic-persistable-objects"></a>Visual Basic 永久性物件
+## <a name="visual-basic-persistable-objects"></a>Visual Basic永久性物件
 
 Microsoft Visual Basic 6 允許建立永久性物件。 這些物件支援 [**IPersistStream**](/windows/desktop/api/objidl/nn-objidl-ipersiststream) ，並且可以做為參數傳遞至已排入佇列的元件方法呼叫。 在 Visual Basic 物件可以傳遞至已排入佇列的元件之前，必須先初始化永久性物件。 這可以透過下列兩種方式之一來完成：
 
 -   如果建立永久性物件的應用程式是以 Visual Basic 寫入，則 Visual Basic 執行時間會自動處理物件初始化。
--   如果建立 Visual Basic 永久性物件的應用程式是以 Visual Basic 以外的語言（例如 Microsoft Visual C++）撰寫，則應用程式必須藉由查詢永久性物件的 [**IPersistStream**](/windows/desktop/api/objidl/nn-objidl-ipersiststream) 介面或呼叫 [**IPersistStreamInit：： InitNew**](/windows/desktop/api/ocidl/nf-ocidl-ipersiststreaminit-initnew)或 [**IPersistStream：： Load**](/windows/desktop/api/objidl/nf-objidl-ipersiststream-load) 方法，明確地初始化元件。
+-   如果建立 Visual Basic 永久性物件的應用程式是以 Visual Basic 以外的語言（例如 Microsoft Visual C++）撰寫，則應用程式必須藉由查詢永久性物件的 [**IPersistStream**](/windows/desktop/api/objidl/nn-objidl-ipersiststream)介面或呼叫 [**IPersistStreamInit：： InitNew**](/windows/desktop/api/ocidl/nf-ocidl-ipersiststreaminit-initnew)或 [**IPersistStream：： Load**](/windows/desktop/api/objidl/nf-objidl-ipersiststream-load)方法，明確地初始化元件。
 
 ## <a name="ado-recordsets-and-ole-db-rowsets"></a>ADO 記錄集和 OLE DB 資料列集
 

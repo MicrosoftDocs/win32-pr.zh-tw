@@ -4,12 +4,12 @@ description: 瞭解 Microsoft DirectX Graphic Infrastructure 在您的 Windows S
 ms.assetid: 24c0c81d-6b55-4116-868a-154addf0f04c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 096e2be6f957d99bc6e5055f845c14448ecd647f
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 600af9c5ca2d2ba8ce8a7b078c769e195c4a7898384d102a21be3aaaf2c936bd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104463356"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120068658"
 ---
 # <a name="work-with-directx-device-resources"></a>使用 DirectX 裝置資源
 
@@ -110,7 +110,7 @@ if(m_hWnd == NULL)
 
 
 
-Windows 桌面應用程式模型包含 Windows 訊息迴圈的掛勾。 您必須撰寫 "StaticWindowProc" 函式來處理視窗化事件，以將您的主要程式迴圈從這個攔截基礎。 這必須是靜態函式，因為 Windows 會在任何類別實例的內容之外呼叫它。 以下是一個非常簡單的靜態訊息處理函數範例。
+Windows 傳統型應用程式模型包含攔截 Windows 訊息迴圈。 您必須撰寫 "StaticWindowProc" 函式來處理視窗化事件，以將您的主要程式迴圈從這個攔截基礎。 這必須是靜態函式，因為 Windows 會在任何類別實例的內容之外呼叫。 以下是一個非常簡單的靜態訊息處理函數範例。
 
 
 ```C++
@@ -152,7 +152,7 @@ LRESULT CALLBACK MainClass::StaticWindowProc(
 
 這個簡單的範例只會檢查程式的 [**\_ 結束**](/windows/desktop/winmsg/wm-close)條件：當要求關閉視窗時，會關閉並傳送 wm，而會在視窗實際從螢幕中移除之後傳送的 [**wm \_ 摧毀**](/windows/desktop/winmsg/wm-destroy)。 完整的生產環境應用程式也需要處理其他的視窗事件，如需視窗內事件的完整清單，請參閱 [視窗通知](/windows/desktop/winmsg/window-notifications)。
 
-主要程式迴圈本身需要讓 Windows 有機會執行靜態訊息程式，以確認 Windows 訊息。 藉由分叉行為來協助程式有效率地執行：每個反復專案都應該選擇處理新的 Windows 訊息（如果有的話），如果佇列中沒有任何訊息，則應該呈現新的框架。 以下是一個非常簡單的範例：
+main 程式迴圈本身需要有機會執行靜態訊息程式，以確認 Windows Windows 的訊息。 藉由分叉行為來協助程式有效率地執行：每個反復專案都應該選擇處理新的 Windows 訊息（如果有的話），如果佇列中沒有任何訊息，則應該呈現新的框架。 以下是一個非常簡單的範例：
 
 
 ```C++
@@ -259,11 +259,11 @@ context.As(&m_pd3dDeviceContext);
 -   **SwapEffect**：將此設定為 [DXGI \_ 交換 \_ 效果] \_ 反轉 \_ 順序。
 -   **格式**： [DXGI \_ 格式 \_ B8G8R8A8 \_ UNORM 格式] 會指定32位色彩：三個 RGB 色頻的每一個都是8位，Alpha 色板則為8位。
 -   **BufferCount**：將此設定為2，以進行傳統的雙重緩衝行為，以避免發生撕裂。 如果您的圖形內容需要一個以上的監視器重新整理迴圈來轉譯單一畫面格 60 (（例如，閾值超過 16 ms) ，請將緩衝區計數設為3。
--   **SampleDesc**：此欄位會控制取樣。 針對翻轉模型交換鏈，將 **計數** 設定為1，並將 **品質** 設為0。  (若要使用具有翻轉模型交換鏈的交叉分析，請在個別的多重取樣轉譯目標上進行繪製，然後在呈現之前將該目標解析為交換鏈。 在 [Windows Store 應用程式的取樣](/previous-versions/windows/apps/dn458384(v=win.10))中提供範例程式碼。 ) 
+-   **SampleDesc**：此欄位會控制取樣。 針對翻轉模型交換鏈，將 **計數** 設定為1，並將 **品質** 設為0。  (若要使用具有翻轉模型交換鏈的交叉分析，請在個別的多重取樣轉譯目標上進行繪製，然後在呈現之前將該目標解析為交換鏈。 範例程式碼會在[Windows Store 應用程式的取樣](/previous-versions/windows/apps/dn458384(v=win.10))中提供。 ) 
 
 指定交換鏈的設定之後，您必須使用建立 Direct3D 裝置 (和裝置內容) 的相同 DXGI factory，才能建立交換鏈。
 
-**簡短形式：  **
+* * 簡短形式： * *
 
 取得您先前建立的 [**ID3D11Device**](/windows/desktop/api/d3d11_2/nn-d3d11_2-id3d11device2) 參考。 如果您尚未) ，請將它向上轉換成 [**IDXGIDevice3**](/windows/desktop/api/dxgi1_3/nn-dxgi1_3-idxgidevice3) (，然後呼叫 [**IDXGIDevice：： GETADAPTER**](/windows/desktop/api/dxgi/nf-dxgi-idxgidevice-getadapter) 以取得 DXGI 介面卡。 藉由呼叫 [**IDXGIFactory2：： GetParent**](/windows/desktop/api/dxgi/nf-dxgi-idxgiobject-getparent) ([**IDXGIFactory2**](/windows/desktop/api/dxgi1_2/nn-dxgi1_2-idxgifactory2) 繼承自 [**IDXGIObject**](/windows/desktop/api/dxgi/nn-dxgi-idxgiobject)) 來取得該介面卡的父 factory，現在您可以藉由呼叫 [**CreateSwapChainForHwnd**](/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgifactory2-createswapchainforhwnd)來使用該 factory 來建立交換鏈，如下列程式碼範例所示。
 
@@ -398,6 +398,6 @@ m_pd3dDeviceContext->RSSetViewports(
 [使用著色器和著色器資源](work-with-shaders-and-shader-resources.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

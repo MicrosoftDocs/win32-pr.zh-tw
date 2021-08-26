@@ -4,12 +4,12 @@ ms.assetid: aba0bd34-f5bb-4233-bde2-0dfd8f1ff0bf
 title: 傳送 COPP 命令
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 044756f8bdfe59e44309c158cb0be1dc983143d1
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: e66a6ad66abe7e6c4a596446b147fe5943c5460b4ef540dbc5e5a3dfad4bdc7c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106973129"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120078878"
 ---
 # <a name="sending-copp-commands"></a>傳送 COPP 命令
 

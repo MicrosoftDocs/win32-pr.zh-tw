@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: a2c7d450c50b11186546a25ceebd317a308dd805
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f00b3cb274490f5da86bec659840277567869a36f3edc42eb81455b9927bd11e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106978693"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120057248"
 ---
 # <a name="cbasecontrolvideoget_destinationtop-method"></a>CBaseControlVideo. 取得 \_ DestinationTop 方法
 
@@ -55,7 +55,7 @@ HRESULT get_DestinationTop(
 
 
 
-| 傳回碼                                                                                           | Description                                                                      |
+| 傳回碼                                                                                           | 描述                                                                      |
 |-------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------|
 | <dl> <dt>**E \_ 失敗**</dt> </dl>                | 失敗。<br/>                                                              |
 | <dl> <dt>**E \_ 指標**</dt> </dl>             | **Null** 指標引數。<br/>                                            |

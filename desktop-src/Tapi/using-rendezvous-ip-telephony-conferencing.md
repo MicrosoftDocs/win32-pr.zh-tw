@@ -4,16 +4,16 @@ ms.assetid: c5b752c5-4113-41e3-85f7-6a19fa0c7c80
 title: 使用會合 IP 電話語音會議
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6bfa5191be7e4a630af8736fba5661433d7925d6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 066d1fa523281504c317882e5fd8fbca238927e6901d202dd8ef066d27844bc3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106974700"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120034118"
 ---
 # <a name="using-rendezvous-ip-telephony-conferencing"></a>使用會合 IP 電話語音會議
 
-\[ 在 Windows Vista、Windows Server 2008 和後續版本的作業系統中，無法使用會合 IP 電話語音會議控制項和介面。 RTC 用戶端 API 提供類似的功能。\]
+\[Windows Vista、Windows Server 2008 及後續版本的作業系統無法使用會合 IP 電話語音會議控制項和介面。 RTC 用戶端 API 提供類似的功能。\]
 
 會合包含三組基本的介面：
 

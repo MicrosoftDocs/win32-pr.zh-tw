@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 4bace2c4a7c79755249e78fbecd0238e6f5961bd
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 81ccad647e47f5805c8cdc7bc070c336864ec455275396631338d8265d5b144c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990784"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120057528"
 ---
 # <a name="cautolockcautolock-destructor"></a>CAutoLock. ~ CAutoLock 的函式
 

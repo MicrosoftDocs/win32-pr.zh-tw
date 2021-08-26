@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 9df6a84fff7c6988ed9333584a7196fa06ad30ec
-ms.sourcegitcommit: 168d11879cb9fd89d26f826482725c0a626be00f
+ms.openlocfilehash: 0dfd7e15b49eac739c069ea113c8daca996e7eb48e6b769f4b27934f891cbda7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "104974766"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120023488"
 ---
 # <a name="samplecmpsamplecmpsfloatfloatintfloat-function-for-texture2d"></a>Texture2D 的 SampleCmp：： SampleCmp (S、float、float、int、float) 函數
 

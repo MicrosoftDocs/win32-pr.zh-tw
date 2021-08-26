@@ -1,15 +1,15 @@
 ---
-description: 將篩選準則儲存為自訂 DirectShow 篩選準則的建立篩選屬性頁的一部分。
+description: 將篩選的指標儲存為自訂 DirectShow 篩選準則的建立篩選屬性頁的一部分。
 ms.assetid: 7c715129-5bdf-468f-96cd-a46ab9c97f4c
 title: 步驟 5。 將指標儲存至篩選
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3aa1e98e98fcc0f41d07774b8a2d1ab93dea8d0c
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 63becf4cb98f401a4810f0f9a2604ef65387a58d08d84b9f670c09b51fe9acd6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112406791"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120078768"
 ---
 # <a name="step-5-store-a-pointer-to-the-filter"></a>步驟 5。 將指標儲存至篩選
 

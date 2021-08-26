@@ -4,12 +4,12 @@ ms.assetid: 15252358-d932-22f4-f13a-8e4b8487dd86
 title: 音效圓錐
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 215659ab08c33066abfade2faf206f6360a51051
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7d1dc6b55ce1cc98b1875dff7079a0a304ef77c5567966808a4678f01f2297ea
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106996946"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120005770"
 ---
 # <a name="sound-cones"></a>音效圓錐
 

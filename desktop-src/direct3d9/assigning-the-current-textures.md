@@ -4,12 +4,12 @@ ms.assetid: 5a58c915-7b67-45a7-9493-6657c75aaa10
 title: '將目前的材質指派 (Direct3D 9) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2e7ae6d603d9547841628f9395889095533cf3e2
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 22b2a9ac0b61f7a7d0a9b3ee27c7a9b7e6b8cd4d48fda33959462e26ad6958ac
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104468577"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120069418"
 ---
 # <a name="assigning-the-current-textures-direct3d-9"></a>將目前的材質指派 (Direct3D 9) 
 

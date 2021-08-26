@@ -4,12 +4,12 @@ ms.assetid: 2c65d199-141d-43a7-b513-4cb4459d7c27
 title: " (Direct3D 9) 的查詢"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 22f450aa7015d4b66ad28b6c4d0632b2995bedd7
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 2113500673def3e2cca5816e534b567a29fc322fb51f853db98eada20ba62674
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103845732"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120068990"
 ---
 # <a name="queries-direct3d-9"></a> (Direct3D 9) 的查詢
 

@@ -4,12 +4,12 @@ description: 在同步 RPC 中，用戶端會進行遠端呼叫，以成功或�
 ms.assetid: 7dfc9f84-ce3c-49f3-8f72-b212095133fd
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 017892b94438cc73f88cbfe60c03c088bf3ebcc9
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 6daf29091602c36a23c0ed7e08eb0459985e13ca26ec128f401754f64c2329ef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104024500"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120021657"
 ---
 # <a name="error-handling-rpc"></a> (RPC) 處理錯誤
 

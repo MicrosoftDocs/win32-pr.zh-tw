@@ -4,16 +4,16 @@ ms.assetid: f5cd7971-3456-4e2f-8808-deb16678099a
 title: 'ITMedia 介面 (Sdpblb .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8dd00d7eab685fe99b089556bcdb0ed2bf6329df
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: bfd1cf7dcf8ef294481a4687dbac950f97b4adede6a6871222292127e6255057
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106982662"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120034638"
 ---
 # <a name="itmedia-interface"></a>ITMedia 介面
 
-\[ 在 Windows Vista、Windows Server 2008 和後續版本的作業系統中，無法使用會合 IP 電話語音會議控制項和介面。 RTC 用戶端 API 提供類似的功能。\]
+\[Windows Vista、Windows Server 2008 及後續版本的作業系統無法使用會合 IP 電話語音會議控制項和介面。 RTC 用戶端 API 提供類似的功能。\]
 
 **ITMedia** 介面是會話描述項通訊協定 (SDP 中媒體的標記法，請參閱 RFC 2327) 。 此介面會匯出方法來取得和設定基本媒體屬性，例如類型。 [**ITMediaCollection：： get \_ 專案**](itmediacollection-get-item.md)和 [**ITMediaCollection：： Create**](itmediacollection-create.md)方法會建立 **ITMedia** 介面。
 

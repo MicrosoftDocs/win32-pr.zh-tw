@@ -4,12 +4,12 @@ ms.assetid: ae1589ae-0ad7-4314-8bf1-c8ad51eac5a2
 title: 使用 MsiSetExternalUI 處理進度訊息
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 30cab15cbbed030ecaa43f7c034df4661555243d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 87a0d91a38bc89511a3119a30bdd3b229b1094ce2aa834c17ea84a9cc6aabb59
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103850196"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120044218"
 ---
 # <a name="handling-progress-messages-using-msisetexternalui"></a>使用 MsiSetExternalUI 處理進度訊息
 

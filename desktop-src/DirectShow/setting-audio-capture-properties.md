@@ -4,12 +4,12 @@ ms.assetid: 81400072-91d7-4db4-86d3-d072663e691f
 title: 設定音訊捕獲屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 31afe61d4641906391934bafe4c3acb8a911a9fe
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 0230f3a9679871380f6eecf09ad5589bfc02c13e0d1433bab8e3b4075de2cf5d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104187372"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120078808"
 ---
 # <a name="setting-audio-capture-properties"></a>設定音訊捕獲屬性
 

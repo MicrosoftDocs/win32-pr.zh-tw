@@ -4,12 +4,12 @@ description: '相當於發出命令，後面接著剪下命令。 |emitThenCut (
 ms.assetid: 80DE112A-790A-4DDF-A5BE-51F70BD7872C
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: eb5b413ca11e22c7cfc17691fc0a39fe96bf7c0f
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: ab83fa3eca853a75dca74ef32116e3d13da2dbe76f34fa407f9b0d5f2459d66a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104322520"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120023858"
 ---
 # <a name="emitthencut-sm4---asm"></a>emitThenCut (sm4-asm) 
 
@@ -53,9 +53,9 @@ ms.locfileid: "104322520"
 | [著色器模型5](d3d11-graphics-reference-sm5.md)        | 是       |
 | [著色器模型4。1](dx-graphics-hlsl-sm4.md)              | 是       |
 | [著色器模型4](dx-graphics-hlsl-sm4.md)                | 是       |
-| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 不可以        |
-| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 不可以        |
-| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 不可以        |
+| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 否        |
+| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 否        |
+| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 否        |
 
 
 
