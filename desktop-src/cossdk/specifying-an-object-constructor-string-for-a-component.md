@@ -4,12 +4,12 @@ ms.assetid: 0c5aaaae-368e-4b3e-a483-b3a23c353e6e
 title: 指定元件的物件表示函式字串
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0ca4604d07a5b750d02a968456d33c9e5bc6bee8
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: ead0c4d59e0da6301e989a1dfa256f8f3e4868ff823acf7d320fd169bdee188d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847219"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120120348"
 ---
 # <a name="specifying-an-object-constructor-string-for-a-component"></a>指定元件的物件表示函式字串
 

@@ -5,19 +5,19 @@ ms.assetid: f459025f-fe5e-4ffa-a651-c70a4f8234ae
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ddd6f9bd0be7479726110b41d6060a7e5c836bb8
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: b8db32889f266861809a0637dd380eb9f5d2ba7265bdf16d6a9404ed96a5420a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103933466"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120128768"
 ---
 # <a name="network-policy-server-extensions"></a>網路原則伺服器擴充功能
 
 > [!Note]  
-> 從 Windows Server 2008 開始， (IAS) 的網際網路驗證服務已重新命名為網路原則伺服器 (NPS) 。 本主題的內容適用于 IAS 和 NPS。 在整個文字中，NPS 是用來參考服務的所有版本，包括原本稱為 IAS 的版本。
+> 網際網路驗證服務 (IAS) 已重新命名網路原則伺服器 (NPS) 從 Windows Server 2008 開始。 本主題的內容適用于 IAS 和 NPS。 在整個文字中，NPS 是用來參考服務的所有版本，包括原本稱為 IAS 的版本。
 
- 
+ 
 
 NPS 擴充功能 API 可讓軟體發展人員撰寫可用於驗證、授權和帳戶處理的擴充 Dll。 NPS 擴充功能 API 支援遠端驗證撥入消費者服務 (RADIUS) 通訊協定。
 
@@ -49,6 +49,6 @@ RADIUS 和 NPS 擴充功能 API 的一般資訊。
 [可延伸的驗證通訊協定 (EAP)](../eap/eap-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

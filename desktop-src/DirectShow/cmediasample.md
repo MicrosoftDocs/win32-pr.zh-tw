@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 72cfe0f86ff6b6643f2f7793822899136a5c6454
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7b0b27c8878a2841eeecb3bc1ae24bdcc43d056c57a881596179f5d2bd990fcd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995908"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120084488"
 ---
 # <a name="cmediasample-class"></a>CMediaSample 類別
 
@@ -39,7 +39,7 @@ ms.locfileid: "106995908"
 
 
 
-| 受保護的成員變數                                           | Description                                                                                     |
+| 受保護的成員變數                                           | 描述                                                                                     |
 |----------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
 | [**m \_ dwFlags**](cmediasample-m-dwflags.md)                         | 範例屬性旗標。                                                                          |
 | [**m \_ dwTypeSpecificFlags**](cmediasample-m-dwtypespecificflags.md) | 特定類型的旗標。                                                                            |
@@ -54,13 +54,13 @@ ms.locfileid: "106995908"
 | [**m \_ MediaEnd**](cmediasample-m-mediaend.md)                       | 媒體停止時間。                                                                                |
 | [**m \_ pMediaType**](cmediasample-m-pmediatype.md)                   | 媒體類型的指標，如果類型已在資料流程中的前一個範例變更。 |
 | [**m \_ dwStreamId**](cmediasample-m-dwstreamid.md)                   | 資料流程識別碼。                                                                              |
-| Public 成員變數                                              | Description                                                                                     |
+| Public 成員變數                                              | 描述                                                                                     |
 | [**m \_ cRef**](cmediasample-m-cref.md)                               | 參考計數。                                                                                |
-| 公用方法                                                       | Description                                                                                     |
+| 公用方法                                                       | 描述                                                                                     |
 | [**CMediaSample**](cmediasample-cmediasample.md)                    | 函式方法。                                                                             |
 | [**~ CMediaSample**](cmediasample--cmediasample.md)                 | 函式方法。 虛擬。                                                                     |
 | [**SetPointer**](cmediasample-setpointer.md)                        | 設定記憶體緩衝區的指標。                                                          |
-| IMediaSample 方法                                                 | Description                                                                                     |
+| IMediaSample 方法                                                 | 描述                                                                                     |
 | [**GetPointer**](cmediasample-getpointer.md)                        | 擷取緩衝區的讀取/寫入指標。                                                   |
 | [**GetSize**](cmediasample-getsize.md)                              | 擷取緩衝區的大小。                                                               |
 | [**GetTime**](cmediasample-gettime.md)                              | 抓取此範例應開始及完成的資料流程時間。                        |
@@ -77,7 +77,7 @@ ms.locfileid: "106995908"
 | [**SetDiscontinuity**](cmediasample-setdiscontinuity.md)            | 指定此範例是否表示資料流程中的中斷。                            |
 | [**GetMediaTime**](cmediasample-getmediatime.md)                    | 捕獲此範例的媒體時間。                                                      |
 | [**SetMediaTime**](cmediasample-setmediatime.md)                    | 設定此範例的媒體時間。                                                           |
-| IMediaSample2 方法                                                | Description                                                                                     |
+| IMediaSample2 方法                                                | 描述                                                                                     |
 | [**GetProperties**](cmediasample-getproperties.md)                  | 抓取範例的屬性。                                                         |
 | [**SetProperties**](cmediasample-setproperties.md)                  | 設定範例的屬性。                                                              |
 

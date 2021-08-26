@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 0d70854177baecf6261d550bc5ad37cf5319eed323ae9b17f5fd281118acd8b9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b6785a786bfe80f5a5b13bc5e9dfbe39507a2c9a
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119593628"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122478484"
 ---
 # <a name="assigning-control-panel-categories"></a>指派主控台分類
 
@@ -24,126 +24,22 @@ ms.locfileid: "119593628"
 
 
 
-<table>
-<colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>類別目錄識別碼</th>
-<th>類別名稱 (Windows 7) </th>
-<th>Windows Vista) 的類別名稱 (</th>
-<th>Windows XP) 的類別名稱 (</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>0</td>
-<td>&quot;所有主控台專案&quot;</td>
-<td>&quot;其他選項&quot;
-<blockquote>
-[!Note]<br />
-未指定類別目錄識別碼的任何主控台專案都會出現在此分類中。
-</blockquote>
-<br/></td>
-<td>&quot;其他主控台選項&quot;
-<blockquote>
-[!Note]<br />
-未指定類別目錄識別碼的任何主控台專案都會出現在此分類中。
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td>1</td>
-<td>&quot;[外觀與個人化]&quot;</td>
-<td>&quot;[外觀與個人化]&quot;</td>
-<td>&quot;外觀和主題&quot;</td>
-</tr>
-<tr class="odd">
-<td>2</td>
-<td>&quot;硬體和音效&quot;</td>
-<td>&quot;硬體和音效&quot;</td>
-<td>&quot;印表機和其他硬體&quot;</td>
-</tr>
-<tr class="even">
-<td>3</td>
-<td>&quot;[網路和網際網路]&quot;</td>
-<td>&quot;[網路和網際網路]&quot;</td>
-<td>&quot;網路和網際網路連接&quot;</td>
-</tr>
-<tr class="odd">
-<td>4</td>
-<td>不再使用。 只要將本身新增至類別4的任何專案，就會出現在類別 2 (硬體和音效) 。</td>
-<td>不再使用。 只要將本身新增至類別4的任何專案，就會出現在類別 2 (硬體和音效) 。</td>
-<td>&quot;聲音、語音和音訊裝置&quot;</td>
-</tr>
-<tr class="even">
-<td>5</td>
-<td>&quot;系統和安全性&quot;</td>
-<td>&quot;系統及維護&quot;</td>
-<td>&quot;效能與維護&quot;</td>
-</tr>
-<tr class="odd">
-<td>6</td>
-<td>&quot;時鐘、語言和區域&quot;</td>
-<td>&quot;時鐘、語言和區域&quot;</td>
-<td>&quot;日期、時間、語言和地區選項&quot;</td>
-</tr>
-<tr class="even">
-<td>7</td>
-<td>&quot;輕鬆存取&quot;</td>
-<td>&quot;輕鬆存取&quot;</td>
-<td>&quot;協助工具選項&quot;</td>
-</tr>
-<tr class="odd">
-<td>8</td>
-<td>&quot;Programs&quot;</td>
-<td>&quot;Programs&quot;</td>
-<td>&quot;新增或移除程式&quot;</td>
-</tr>
-<tr class="even">
-<td>9</td>
-<td>&quot;使用者帳戶&quot;
-<blockquote>
-[!Note]<br />
-若未連線至網域，這稱為 &quot; 使用者帳戶和家庭安全 &quot; 。
-</blockquote>
-<br/></td>
-<td>&quot;使用者帳戶&quot;
-<blockquote>
-[!Note]<br />
-若未連線至網域，這稱為 &quot; 使用者帳戶和家庭安全 &quot; 。
-</blockquote>
-<br/></td>
-<td>&quot;使用者帳戶&quot;</td>
-</tr>
-<tr class="odd">
-<td>10</td>
-<td>不再使用。 在此類別中註冊的專案會出現在 [類別 5 (系統和安全性) ] 中。</td>
-<td>&quot;安全性&quot;</td>
-<td>&quot;資訊安全中心&quot;
-<blockquote>
-[!Note]<br />
-僅適用于 Windows XP Service Pack 2 (SP2) 或更新版本。
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td>11</td>
-<td>不再使用。 在此類別中註冊的專案會顯示在類別 0 (所有主控台專案) 。</td>
-<td>&quot;行動電腦&quot;
-<blockquote>
-[!Note]<br />
-此類別只會顯示在行動電腦上。
-</blockquote>
-<br/></td>
-<td>未使用。</td>
-</tr>
-</tbody>
-</table>
+
+| 類別目錄識別碼 | 類別名稱 (Windows 7)  | Windows Vista) 的類別名稱 ( | Windows XP) 的類別名稱 ( | 
+|-------------|---------------------------|-------------------------------|----------------------------|
+| 0 | 「所有主控台專案」 | [其他選項]<blockquote>[!Note]<br />未指定類別目錄識別碼的任何主控台專案都會出現在此分類中。</blockquote><br /> | 「其他主控台選項」<blockquote>[!Note]<br />未指定類別目錄識別碼的任何主控台專案都會出現在此分類中。</blockquote><br /> | 
+| 1 | 「外觀和個人化」 | 「外觀和個人化」 | 「外觀和主題」 | 
+| 2 | 「硬體和音效」 | 「硬體和音效」 | 「印表機和其他硬體」 | 
+| 3 | 「網路和網際網路」 | 「網路和網際網路」 | 「網路和網際網路連接」 | 
+| 4 | 不再使用。 只要將本身新增至類別4的任何專案，就會出現在類別 2 (硬體和音效) 。 | 不再使用。 只要將本身新增至類別4的任何專案，就會出現在類別 2 (硬體和音效) 。 | 「聲音、語音和音訊裝置」 | 
+| 5 | 「系統和安全性」 | 「系統和維護」 | 「效能和維護」 | 
+| 6 | 「時鐘、語言和區域」 | 「時鐘、語言和區域」 | 「日期、時間、語言和地區選項」 | 
+| 7 | "輕鬆存取" | "輕鬆存取" | [協助工具選項] | 
+| 8 | 程式 | 程式 | [新增或移除程式] | 
+| 9 | 「使用者帳戶」<blockquote>[!Note]<br />若未連線至網域，這稱為「使用者帳戶和家庭安全」。</blockquote><br /> | 「使用者帳戶」<blockquote>[!Note]<br />若未連線至網域，這稱為「使用者帳戶和家庭安全」。</blockquote><br /> | 「使用者帳戶」 | 
+| 10 | 不再使用。 在此類別中註冊的專案會出現在 [類別 5 (系統和安全性) ] 中。 | "Security" | 「安全性中心」<blockquote>[!Note]<br />僅適用于 Windows XP Service Pack 2 (SP2) 或更新版本。</blockquote><br /> | 
+| 11 | 不再使用。 在此類別中註冊的專案會顯示在類別 0 (所有主控台專案) 。 | "Mobile PC"<blockquote>[!Note]<br />此類別只會顯示在行動電腦上。</blockquote><br /> | 未使用。 | 
+
 
 
 

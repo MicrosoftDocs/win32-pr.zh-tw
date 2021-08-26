@@ -7,12 +7,12 @@ keywords:
 - 伺服器資料物件 SDO，參考
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d2e1d91df8a42896fb512fe49e066f9ce85b1826
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 4113813f30274e78d539fd7192fb0880cc4a954dbf3f2a37fa0e7cdb97442438
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104375869"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120128448"
 ---
 # <a name="server-data-objects-reference"></a>伺服器資料物件參考
 
@@ -21,6 +21,6 @@ ms.locfileid: "104375869"
 -   [伺服器資料物件列舉](/windows/desktop/Nps/sdo-server-data-objects-enumerations)
 -   [伺服器資料物件介面](/windows/desktop/Nps/sdo-server-data-objects-interfaces)
 
- 
+ 
 
- 
+ 

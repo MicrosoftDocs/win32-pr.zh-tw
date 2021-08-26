@@ -4,12 +4,12 @@ ms.assetid: 2eb00fe5-e441-4fce-9623-81a089269a2b
 title: 使用 Windows Installer 設定新增/移除程式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 99e1393eb586cfe1067840e4622fddd777a84512f55f9e82f7c9fad3b1f5688f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d48ad8499d395ffc4a5aad5491883f9c3161b78a
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118638747"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122465485"
 ---
 # <a name="configuring-addremove-programs-with-windows-installer"></a>使用 Windows Installer 設定新增/移除程式
 
@@ -23,96 +23,25 @@ ms.locfileid: "118638747"
 
 安裝程式會使用下列 [公用屬性](public-properties.md) 來管理主控台中的 [新增/移除程式]。
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>屬性名稱</th>
-<th>屬性的簡短描述</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="arpauthorizedcdfprefix.md"><strong>ARPAUTHORIZEDCDFPREFIX</strong></a></td>
-<td>應用程式更新通道的 URL。 安裝程式在卸載登錄機 <a href="uninstall-registry-key.md">碼</a>下寫入的值。</td>
-</tr>
-<tr class="even">
-<td><a href="arpcomments.md"><strong>ARPCOMMENTS</strong></a></td>
-<td>提供主控台中的 [新增/移除程式] 的批註。 安裝程式在卸載登錄機 <a href="uninstall-registry-key.md">碼</a>下寫入的值。</td>
-</tr>
-<tr class="odd">
-<td><a href="arpcontact.md"><strong>ARPCONTACT</strong></a></td>
-<td>提供主控台中的 [新增/移除程式] 的連絡人。 安裝程式在卸載登錄機 <a href="uninstall-registry-key.md">碼</a>下寫入的值。</td>
-</tr>
-<tr class="even">
-<td><a href="arpinstalllocation.md"><strong>ARPINSTALLLOCATION</strong></a></td>
-<td>應用程式主要資料夾的完整路徑。 安裝程式在卸載登錄機 <a href="uninstall-registry-key.md">碼</a>下寫入的值。</td>
-</tr>
-<tr class="odd">
-<td><a href="arphelplink.md"><strong>ARPHELPLINK</strong></a></td>
-<td>技術支援的網際網路位址或 URL。 安裝程式在卸載登錄機 <a href="uninstall-registry-key.md">碼</a>下寫入的值。</td>
-</tr>
-<tr class="even">
-<td><a href="arphelptelephone.md"><strong>ARPHELPTELEPHONE</strong></a></td>
-<td>技術支援電話號碼。 安裝程式在卸載登錄機 <a href="uninstall-registry-key.md">碼</a>下寫入的值。</td>
-</tr>
-<tr class="odd">
-<td><a href="arpnomodify.md"><strong>ARPNOMODIFY</strong></a></td>
-<td>防止在主控台的 [新增/移除程式] 中顯示產品的變更按鈕。
-<blockquote>
-<b>注意：</b> 這只會影響 ARP 中的顯示。 Windows Installer 仍可以透過命令列或程式設計介面來修復、安裝隨選和卸載應用程式。
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td><a href="arpnoremove.md"><strong>ARPNOREMOVE</strong></a></td>
-<td>防止在主控台的 [新增/移除程式] 中顯示產品的 [移除] 按鈕。 如果已使用可提供產品移除選項的使用者介面來撰寫安裝套件，仍然可以藉由選取 [變更] 按鈕來移除產品。
-<blockquote>
-<b>注意：</b> 這只會影響 ARP 中的顯示。 Windows Installer 仍可以透過命令列或程式設計介面來修復、安裝隨選和卸載應用程式。
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="arpnorepair.md"><strong>ARPNOREPAIR</strong></a></td>
-<td>在主控台中停用 [新增/移除程式] 中的 [修復] 按鈕。
-<blockquote>
-<b>注意：</b> 這只會影響 ARP 中的顯示。 Windows Installer 仍可以透過命令列或程式設計介面來修復、安裝隨選和卸載應用程式。
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td><a href="arpproducticon.md"><strong>ARPPRODUCTICON</strong></a></td>
-<td>識別 [新增/移除程式] 中顯示的圖示。 如果未定義此屬性，[新增/移除程式] 會指定顯示圖示。</td>
-</tr>
-<tr class="odd">
-<td><a href="arpreadme.md"><strong>ARPREADME</strong></a></td>
-<td>提供主控台中的 [新增/移除程式] 的讀我檔案。 安裝程式在卸載登錄機 <a href="uninstall-registry-key.md">碼</a>下寫入的值。</td>
-</tr>
-<tr class="even">
-<td><a href="arpsize.md"><strong>ARPSIZE</strong></a></td>
-<td>應用程式的估計大小（以 KB 為單位）。</td>
-</tr>
-<tr class="odd">
-<td><a href="arpsystemcomponent.md"><strong>ARPSYSTEMCOMPONENT</strong></a></td>
-<td>防止在主控台的 [新增/移除程式] 的 [程式] 清單中顯示應用程式。
-<blockquote>
-<b>注意：</b> 這只會影響 ARP 中的顯示。 Windows Installer 仍可以透過命令列或程式設計介面來修復、安裝隨選和卸載應用程式。
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td><a href="arpurlinfoabout.md"><strong>ARPURLINFOABOUT</strong></a></td>
-<td>應用程式首頁的 URL。 安裝程式在卸載登錄機 <a href="uninstall-registry-key.md">碼</a>下寫入的值。</td>
-</tr>
-<tr class="odd">
-<td><a href="arpurlupdateinfo.md"><strong>ARPURLUPDATEINFO</strong></a></td>
-<td>應用程式更新資訊的 URL。 安裝程式在卸載登錄機 <a href="uninstall-registry-key.md">碼</a>下寫入的值。</td>
-</tr>
-</tbody>
-</table>
+
+| 屬性名稱 | 屬性的簡短描述 | 
+|---------------|-------------------------------|
+| <a href="arpauthorizedcdfprefix.md"><strong>ARPAUTHORIZEDCDFPREFIX</strong></a> | 應用程式更新通道的 URL。 安裝程式在卸載登錄機 <a href="uninstall-registry-key.md">碼</a>下寫入的值。 | 
+| <a href="arpcomments.md"><strong>ARPCOMMENTS</strong></a> | 提供主控台中的 [新增/移除程式] 的批註。 安裝程式在卸載登錄機 <a href="uninstall-registry-key.md">碼</a>下寫入的值。 | 
+| <a href="arpcontact.md"><strong>ARPCONTACT</strong></a> | 提供主控台中的 [新增/移除程式] 的連絡人。 安裝程式在卸載登錄機 <a href="uninstall-registry-key.md">碼</a>下寫入的值。 | 
+| <a href="arpinstalllocation.md"><strong>ARPINSTALLLOCATION</strong></a> | 應用程式主要資料夾的完整路徑。 安裝程式在卸載登錄機 <a href="uninstall-registry-key.md">碼</a>下寫入的值。 | 
+| <a href="arphelplink.md"><strong>ARPHELPLINK</strong></a> | 技術支援的網際網路位址或 URL。 安裝程式在卸載登錄機 <a href="uninstall-registry-key.md">碼</a>下寫入的值。 | 
+| <a href="arphelptelephone.md"><strong>ARPHELPTELEPHONE</strong></a> | 技術支援電話號碼。 安裝程式在卸載登錄機 <a href="uninstall-registry-key.md">碼</a>下寫入的值。 | 
+| <a href="arpnomodify.md"><strong>ARPNOMODIFY</strong></a> | 防止在主控台的 [新增/移除程式] 中顯示產品的變更按鈕。<blockquote><b>注意：</b> 這只會影響 ARP 中的顯示。 Windows Installer 仍可以透過命令列或程式設計介面來修復、安裝隨選和卸載應用程式。</blockquote><br /> | 
+| <a href="arpnoremove.md"><strong>ARPNOREMOVE</strong></a> | 防止在主控台的 [新增/移除程式] 中顯示產品的 [移除] 按鈕。 如果已使用可提供產品移除選項的使用者介面來撰寫安裝套件，仍然可以藉由選取 [變更] 按鈕來移除產品。<blockquote><b>注意：</b> 這只會影響 ARP 中的顯示。 Windows Installer 仍可以透過命令列或程式設計介面來修復、安裝隨選和卸載應用程式。</blockquote><br /> | 
+| <a href="arpnorepair.md"><strong>ARPNOREPAIR</strong></a> | 在主控台中停用 [新增/移除程式] 中的 [修復] 按鈕。<blockquote><b>注意：</b> 這只會影響 ARP 中的顯示。 Windows Installer 仍可以透過命令列或程式設計介面來修復、安裝隨選和卸載應用程式。</blockquote><br /> | 
+| <a href="arpproducticon.md"><strong>ARPPRODUCTICON</strong></a> | 識別 [新增/移除程式] 中顯示的圖示。 如果未定義此屬性，[新增/移除程式] 會指定顯示圖示。 | 
+| <a href="arpreadme.md"><strong>ARPREADME</strong></a> | 提供主控台中的 [新增/移除程式] 的讀我檔案。 安裝程式在卸載登錄機 <a href="uninstall-registry-key.md">碼</a>下寫入的值。 | 
+| <a href="arpsize.md"><strong>ARPSIZE</strong></a> | 應用程式的估計大小（以 KB 為單位）。 | 
+| <a href="arpsystemcomponent.md"><strong>ARPSYSTEMCOMPONENT</strong></a> | 防止在主控台的 [新增/移除程式] 的 [程式] 清單中顯示應用程式。<blockquote><b>注意：</b> 這只會影響 ARP 中的顯示。 Windows Installer 仍可以透過命令列或程式設計介面來修復、安裝隨選和卸載應用程式。</blockquote><br /> | 
+| <a href="arpurlinfoabout.md"><strong>ARPURLINFOABOUT</strong></a> | 應用程式首頁的 URL。 安裝程式在卸載登錄機 <a href="uninstall-registry-key.md">碼</a>下寫入的值。 | 
+| <a href="arpurlupdateinfo.md"><strong>ARPURLUPDATEINFO</strong></a> | 應用程式更新資訊的 URL。 安裝程式在卸載登錄機 <a href="uninstall-registry-key.md">碼</a>下寫入的值。 | 
+
 
 > [!Note]  
 > 如需 [設定程式] 和 [預設值] 工具的相關資訊，請參閱 [使用設定程式存取和電腦預設值](/previous-versions//bb776877(v=vs.85))一節。

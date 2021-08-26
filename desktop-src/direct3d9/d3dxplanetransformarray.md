@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: bdbc845eda69d22f6e7097131f71b074a9b53985
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: f7df8e49850917413f2d6e80a13d62f9d3289caa2d0eb089593fb946070d0456
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108094126"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120119028"
 ---
 # <a name="d3dxplanetransformarray-function-d3dx9mathh"></a>D3DXPlaneTransformArray 函式 (D3dx9math) 
 

@@ -4,12 +4,12 @@ description: 瞭解如何藉由啟用群組原則來設定要求者。 查看要
 ms.assetid: ac04b83b-1322-41d4-85e0-93687f10a7f6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b2a388bf8dba155e42d5542c1379f7b0cc34d44579b92809387541d7e20cf65
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 97a36d2d464ef4f29c1f021f5ee7d1fad4d820e5
+ms.sourcegitcommit: 0dec0044816af3f2b2e6403659e1cf11138c90cd
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118784997"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "121812713"
 ---
 # <a name="enabling-group-policy"></a>啟用群組原則
 
@@ -25,8 +25,8 @@ ms.locfileid: "118784997"
 
     如需詳細資訊，請參閱下列主題。
 
-    -   [常見問題的一般問題](general-frequently-asked-questions.md)
-    -   [EAP 方法](eap-method-frequently-asked-questions.md)的常見問題。
+    -   [常見問題的一般問題](general-frequently-asked-questions.yml)
+    -   [EAP 方法](eap-method-frequently-asked-questions.yml)的常見問題。
     -   [**EapHostPeerConfigXml2Blob**](/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerconfigxml2blob)
     -   [**EapHostPeerCredentialsXml2Blob**](/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeercredentialsxml2blob)
 

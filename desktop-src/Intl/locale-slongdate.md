@@ -4,12 +4,12 @@ ms.assetid: 1b72cd57-819e-4b1f-bbb0-b600a9e8631c
 title: LOCALE_SLONGDATE
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 503b24d81318f471b33a4ab644a059607e5ac490
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 33e47409d99d4db9afa2e684d3be8ae2f874200d56d748868eaa0fa1953452d4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113569"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120106058"
 ---
 # <a name="locale_slongdate"></a>地區設定 \_ SLONGDATE
 

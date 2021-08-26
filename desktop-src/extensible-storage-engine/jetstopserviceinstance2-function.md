@@ -19,19 +19,19 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 5029e2cf45ec91d0282f32491895a24b32e6259e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3a28439932d9c0eb76675ed4e88d5595c64b5ace
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103690816"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122470764"
 ---
 # <a name="jetstopserviceinstance2-function"></a>JetStopServiceInstance2 函式
 
 
-_**適用于：** Windows |Windows Server_
+_**適用于：** Windows |Windows伺服器_
 
-**JetStopServiceInstance2** 函式會在暫停之前準備實例，並在繼續之後準備實例。 暫止和繼續是 Windows Store 應用程式生命週期模型的執行狀態。
+**JetStopServiceInstance2** 函式會在暫停之前準備實例，並在繼續之後準備實例。 暫止和繼續是 Windows 存放區應用程式生命週期模型的執行狀態。
 
 **JetStopServiceInstance2** 函式是在 Windows 8 引進。
 
@@ -52,60 +52,25 @@ JET_ERR JET_API JetStopServiceInstance2(
 
 位群組，指定下表中列出和定義的一或多個值。
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>值</p></th>
-<th><p>描述</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_bitStopServiceAll</p></td>
-<td><p>針對指定的實例停止所有可延伸的儲存引擎 (ESE) 服務。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitStopServiceBackgroundUserTasks</p></td>
-<td><p>停止可重新開機的用戶端指定的背景維護工作 (B + 樹狀重組，例如) 。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitStopServiceQuiesceCaches</p></td>
-<td><p>將所有中途快取 Quiesces 至磁片。 這個值是非同步，而且可以取消。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitStopServiceResume</p></td>
-<td><p>繼續先前發行的 StopService 作業;也就是說，它會重新開機服務。 這個值可以與 <em>grbits</em> 參數結合以繼續特定服務，或使用 JET_bitStopServiceAll 繼續所有先前停止的服務。 此位只能用來繼續 StopServiceBackgroundUserTasks 和 JET_bitStopServiceQuiesceCaches。 如果您先前已使用 JET_bitStopServiceAll 呼叫，則嘗試使用 JET_bitStopServiceResume 將會失敗。 如果未呼叫第二個恢復步驟，應用程式將會降低效能。 在這種情況下，檢查點會保持為零。</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>值</p> | <p>描述</p> | 
+|--------------|--------------------|
+| <p>JET_bitStopServiceAll</p> | <p>針對指定的實例停止所有可擴充的儲存體引擎 (ESE) 服務。</p> | 
+| <p>JET_bitStopServiceBackgroundUserTasks</p> | <p>停止可重新開機的用戶端指定的背景維護工作 (B + 樹狀重組，例如) 。</p> | 
+| <p>JET_bitStopServiceQuiesceCaches</p> | <p>將所有中途快取 Quiesces 至磁片。 這個值是非同步，而且可以取消。</p> | 
+| <p>JET_bitStopServiceResume</p> | <p>繼續先前發行的 StopService 作業;也就是說，它會重新開機服務。 這個值可以與 <em>grbits</em> 參數結合以繼續特定服務，或使用 JET_bitStopServiceAll 繼續所有先前停止的服務。 此位只能用來繼續 StopServiceBackgroundUserTasks 和 JET_bitStopServiceQuiesceCaches。 如果您先前已使用 JET_bitStopServiceAll 呼叫，則嘗試使用 JET_bitStopServiceResume 將會失敗。 如果未呼叫第二個恢復步驟，應用程式將會降低效能。 在這種情況下，檢查點會保持為零。</p> | 
+
 
 
 ### <a name="return-value"></a>傳回值
 
-此函數會傳回具有下列其中一個傳回碼的 [JET_ERR](./jet-err.md) 資料類型。 如需可能 ESE 錯誤的詳細資訊，請參閱可延伸 [儲存引擎錯誤](./extensible-storage-engine-errors.md) 和 [錯誤處理參數](./error-handling-parameters.md)。
+此函數會傳回具有下列其中一個傳回碼的 [JET_ERR](./jet-err.md) 資料類型。 如需可能 ESE 錯誤的詳細資訊，請參閱可延伸的[儲存體引擎錯誤](./extensible-storage-engine-errors.md)和[錯誤處理參數](./error-handling-parameters.md)。
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>傳回碼</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errSuccess</p></td>
-<td><p>作業已成功完成。</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>傳回碼</p> | <p>Description</p> | 
+|--------------------|--------------------|
+| <p>JET_errSuccess</p> | <p>作業已成功完成。</p> | 
+
 
 
 #### <a name="remarks"></a>備註
@@ -122,34 +87,9 @@ JET_ERR JET_API JetStopServiceInstance2(
 
 #### <a name="requirements"></a>規格需求
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>用戶端</strong></p></td>
-<td><p>需要 Windows 8。</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>伺服器</strong></p></td>
-<td><p>需要 Windows Server 2012。</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>標頭</strong></p></td>
-<td><p>宣告于 Esent. h 中。</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>程式庫</strong></p></td>
-<td><p>使用 ESENT。</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>DLL</strong></p></td>
-<td><p>需要 ESENT.dll。</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p><strong>用戶端</strong></p> | <p>需要 Windows 8。</p> | | <p><strong>伺服器</strong></p> | <p>需要 Windows Server 2012。</p> | | <p><strong>標頭</strong></p> | <p>宣告于 Esent. h 中。</p> | | <p><strong>程式庫</strong></p> | <p>使用 ESENT。</p> | | <p><strong>DLL</strong></p> | <p>需要 ESENT.dll。</p> | 
+
 
 
 #### <a name="see-also"></a>另請參閱

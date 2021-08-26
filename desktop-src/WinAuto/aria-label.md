@@ -6,12 +6,12 @@ keywords:
 - AriaLabelErrorId
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1091c46dbb660c4c3568d24bfca34d94ef869f1e
-ms.sourcegitcommit: 773fa6257ead6c74154ad3cf46d21e49adc900aa
+ms.openlocfilehash: 42abee9028db8c3a4070d9b60d0650187339fc4c9ec34d0b70f720c27e973897
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "104024262"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120122318"
 ---
 # <a name="aria-label-error"></a>ARIA 標籤錯誤
 
@@ -39,7 +39,7 @@ ms.locfileid: "104024262"
 > [!Note]  
 > AccChecker 會顯示此錯誤，即使是根據內部 HTML 內容預設設定可存取名稱的專案 (請參閱上述範例中的 **橫幅** 元素) 。 在這些情況下，您可以隱藏此錯誤。
 
- 
+ 
 
 所有語義重要的 UI 專案（例如表單欄位） (例如， **輸入**、 **選取** **、文字** 區) 、影像、按鈕和地標 (標記（代表邏輯區域）) 都必須具有可存取的名稱，才能讓螢幕讀取器正確地將其宣告。
 
@@ -87,9 +87,9 @@ attribute to reference the visible headers. -->
 
 
 
- 
+ 
 
- 
+ 
 
 
 

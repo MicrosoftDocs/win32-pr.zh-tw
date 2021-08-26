@@ -4,12 +4,12 @@ ms.assetid: 283b54e0-94cb-47a8-8cfc-5798e0538b9f
 title: 'Direct3d 9 至 direct3d 10 考慮 (direct3d 10) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 467ceefe7784a9b408bb36c8bed13217cb6de7c4
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 9e6c2dac7da24184bb5cc6a78f8e7d391c7d0f8b7000107915ba5a606188dcf4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103688688"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120120008"
 ---
 # <a name="direct3d-9-to-direct3d-10-considerations-direct3d-10"></a>Direct3d 9 至 direct3d 10 考慮 (direct3d 10) 
 
@@ -160,7 +160,7 @@ typedef ID3D10PixelShader   IDirect3DPixelShader;
 
 ### <a name="resolving-link-issues"></a>解決連結問題
 
-建議使用最新版的 Microsoft Visual Studio 開發 Direct3D 10 和 Windows Vista 應用程式。 不過，您可以建立 Windows Vista 應用程式，其相依于使用舊版 Visual Studio 2003 版本的 Direct3D 10。 Direct3D 10 是 Windows Vista 平臺元件，其相依性 (與下列 lib 上的 Server 2003 SP1 platform SDK) 相同：需要 BufferOverflowU，才能解決任何緩衝區 \_ 安全性檢查連結器問題。
+建議使用最新版本的 Microsoft Visual Studio 來開發 Direct3D 10 和 Windows Vista 應用程式。 不過，您可以使用舊版 Visual Studio 的2003版本，建立相依于 Direct3D 10 的 Windows Vista 應用程式。 Direct3D 10 是 Windows Vista 平臺元件，其相依性 (與下列 lib 上的 Server 2003 SP1 platform SDK) 相同：需要 BufferOverflowU .lib 才能解決任何緩衝區 \_ 安全性檢查連結器問題。
 
 ### <a name="simulating-device-caps"></a>模擬裝置帽
 
@@ -231,7 +231,7 @@ Direct3D 10 HLSL 編譯器為 HLSL 語言定義帶來了一些增強功能，因
 您可以在 [HLSL](../direct3dhlsl/dx-graphics-hlsl.md)中找到適用于 Direct3D 10 的著色器模型4.0 特定 HLSL 語言語義和內建函式。 從 Direct3D 9 HLSL 的語法中，最重要的變更是在材質存取區域中。 新的語法是編譯器在相容性模式之外唯一支援的形式。
 
 > [!Note]  
-> Direct3D 10 編譯器型別 Api ([**D3D10CompileShader**](/windows/desktop/api/D3D10Shader/nf-d3d10shader-d3d10compileshader) 和 [**D3D10CompileEffectFromMemory**](/windows/desktop/api/D3D10Effect/nf-d3d10effect-d3d10compileeffectfrommemory)) 由在 Windows Vista 和更新版本中執行的 direct3d 10、10.1 和11執行時間提供。 Direct3D 10 編譯器類型 Api 的功能與 (2006 年12月) 的 DirectX SDK 隨附的 HLSL 編譯器相同。 此 HLSL 編譯器不支援 Direct3D 10.1 設定檔 (vs \_ 4 \_ 1、ps \_ 4 \_ 1、gs \_ 4 \_ 1、fx \_ 4 \_ 1) ，而且缺少一些優化和改進功能。 您可以從最新的舊版 [DIRECTX SDK 版本](/previous-versions/windows/apps/hh452744(v=win.10))取得支援 Direct3D 10.1 設定檔的 HLSL 編譯器。 如需舊版 DirectX SDK 的詳細資訊，請參閱 [什麼是 DIRECTX sdk？](../directx-sdk--august-2009-.md)。 您可以從 Windows SDK 取得最新的 HLSL Fxc.exe 命令列編譯器和 [D3DCompiler](../direct3dhlsl/dx-graphics-d3dcompiler-reference.md) api。
+> direct3d 10 編譯器類型 api ([**D3D10CompileShader**](/windows/desktop/api/D3D10Shader/nf-d3d10shader-d3d10compileshader)和 [**D3D10CompileEffectFromMemory**](/windows/desktop/api/D3D10Effect/nf-d3d10effect-d3d10compileeffectfrommemory)) 是由 Windows Vista 和更新版本中執行的 direct3d 10、10.1 和11執行時間所提供。 Direct3D 10 編譯器類型 Api 的功能與 (2006 年12月) 的 DirectX SDK 隨附的 HLSL 編譯器相同。 此 HLSL 編譯器不支援 Direct3D 10.1 設定檔 (vs \_ 4 \_ 1、ps \_ 4 \_ 1、gs \_ 4 \_ 1、fx \_ 4 \_ 1) ，而且缺少一些優化和改進功能。 您可以從最新的舊版 [DIRECTX SDK 版本](/previous-versions/windows/apps/hh452744(v=win.10))取得支援 Direct3D 10.1 設定檔的 HLSL 編譯器。 如需舊版 DirectX SDK 的詳細資訊，請參閱 [什麼是 DIRECTX sdk？](../directx-sdk--august-2009-.md)。 您可以從 Windows SDK 取得最新的 HLSL Fxc.exe 命令列編譯器和[D3DCompiler](../direct3dhlsl/dx-graphics-d3dcompiler-reference.md) api。
 
  
 
@@ -465,7 +465,7 @@ bool IsSignatureElementExpected(ID3D10ShaderReflection *pReflector, const LPCSTR
 
  
 
-¹ DXGI 1.1 （包含在 Direct3D 11 執行時間中）包含 BGRA 格式。 不過，對於具有可執行 windows 顯示驅動程式模型之驅動程式的 Direct3D 10 和10.1 裝置，這些格式的支援是選擇性的， (WDDM) 適用于 Windows Vista (WDDM 1.0) 。 請考慮改為使用 DXGI \_ 格式 \_ R8G8B8A8 \_ UNORM。 或者，您可以使用 [**D3D10 \_ 建立 \_ 裝置 \_ BGRA \_ 支援**](/windows/desktop/api/D3D10/ne-d3d10-d3d10_create_device_flag) 來建立裝置，以確保只支援安裝 Direct3D 11.0 執行時間和 WDDM 1.1 驅動程式或更高版本的電腦。
+¹ DXGI 1.1 （包含在 Direct3D 11 執行時間中）包含 BGRA 格式。 不過，對於具有針對 Windows 顯示驅動程式模型的驅動程式所執行之驅動程式的 Direct3D 10 和10.1 裝置，這些格式的支援是選擇性的， (wddm) 適用于 Windows Vista (WDDM 1.0) 。 請考慮改為使用 DXGI \_ 格式 \_ R8G8B8A8 \_ UNORM。 或者，您可以使用 [**D3D10 \_ 建立 \_ 裝置 \_ BGRA \_ 支援**](/windows/desktop/api/D3D10/ne-d3d10-d3d10_create_device_flag) 來建立裝置，以確保只支援安裝 Direct3D 11.0 執行時間和 WDDM 1.1 驅動程式或更高版本的電腦。
 
 ² DXGI 1.0 已定義5:6:5 和5:5:5:1 格式，但 Direct3D 2.x 或 Direct3D 11.0 執行時間不支援這些格式。 您可以選擇性地支援 DirectX 11.1 執行時間中的 DXGI 1.2，這是功能層級11.1 視訊卡和 WDDM 1.2 (顯示驅動程式模型（從 Windows 8) 驅動程式開始，且已在10level9 功能層級上支援）。
 
@@ -525,7 +525,7 @@ float4   Color : TEXCOORD6;     float4 color : TEXCOORD6;
 
 ### <a name="mouse-cursors"></a>滑鼠游標
 
-在舊版的 Windows 上，標準的 GDI 滑鼠游標常式在所有全螢幕專用裝置上無法正常運作。 已新增 [**SetCursorProperties**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setcursorproperties)、 [**ShowCursor**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-showcursor)和 [**SetCursorPosition**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setcursorposition) api 來處理這些情況。 由於 Windows Vista 的 GDI 版本完全瞭解 [DXGI](../direct3ddxgi/d3d10-graphics-programming-guide-dxgi.md) 介面，因此不需要這個特殊的滑鼠游標 API，因此沒有 Direct3D 10 對等專案。 Direct3D 10 應用程式應該改為使用滑鼠游標的標準 [GDI 滑鼠游標常式](../menurc/cursors.md) 。
+在舊版的 Windows 上，標準的 GDI 滑鼠游標常式在所有全螢幕專屬裝置上都無法正常運作。 已新增 [**SetCursorProperties**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setcursorproperties)、 [**ShowCursor**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-showcursor)和 [**SetCursorPosition**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setcursorposition) api 來處理這些情況。 由於 Windows Vista 的 GDI 版本完全瞭解[DXGI](../direct3ddxgi/d3d10-graphics-programming-guide-dxgi.md)介面，因此不需要這個特殊的滑鼠游標 API，因此沒有 Direct3D 10 對等專案。 Direct3D 10 應用程式應該改為使用滑鼠游標的標準 [GDI 滑鼠游標常式](../menurc/cursors.md) 。
 
 ### <a name="mapping-texels-to-pixels-in-direct3d-10"></a>將材質對應至 Direct3D 10 中的圖元
 
@@ -547,7 +547,7 @@ Direct3D 10 和10.1 中不提供類似 Direct3D 9 [**IDirect3DDevice9：： Stre
 
 ## <a name="additional-direct3d-101-differences"></a>其他 Direct3D 10.1 差異
 
-Windows Vista Service Pack 1 (SP1) 包含 Direct3D 10 和 Direct3D 10.1 的次要更新，這會公開下列額外的硬體功能：
+WindowsVista Service Pack 1 (SP1) 包含 Direct3D 10 和 Direct3D 10.1 的次要更新，這會公開下列額外的硬體功能：
 
 -   MSAA 每個範例著色器
 -   MSAA 深度讀回
@@ -574,13 +574,13 @@ Direct3D 10.1 API 包含名為功能層級的新概念。 此概念表示您可�
 
  
 
-Windows 7 包含 Direct3D 11 執行時間所包含的 Direct3D 10.1 API 的次要更新。 此更新新增了下列功能層級的支援：
+Windows 7 包含 direct3d 10.1 API 的次要更新，包含在 direct3d 11 執行時間中。 此更新新增了下列功能層級的支援：
 
 -   [**D3D10 \_ 功能 \_ 層級 \_ 9 \_ 1**](/windows/desktop/api/D3D10_1/ne-d3d10_1-d3d10_feature_level1)
 -   [**D3D10 \_ 功能 \_ 層級 \_ 9 \_ 2**](/windows/desktop/api/D3D10_1/ne-d3d10_1-d3d10_feature_level1)
 -   [**D3D10 \_ 功能 \_ 層級 \_ 9 \_ 3**](/windows/desktop/api/D3D10_1/ne-d3d10_1-d3d10_feature_level1)
 
-Windows 7 也為 [Windows Advanced 點陣化平臺 (變形) ](../direct3darticles/directx-warp.md)，新增了 Direct3D 10.1 的支援。 您可以使用 [**D3D10 \_ 驅動程式 \_ 類型的 \_ 變形**](/windows/desktop/api/D3D10misc/ne-d3d10misc-d3d10_driver_type)來指定變形驅動程式。
+Windows 7 還新增了 Direct3D 10.1 的支援，適用于[Windows Advanced 點陣化平臺 (變形) ](../direct3darticles/directx-warp.md)。 您可以使用 [**D3D10 \_ 驅動程式 \_ 類型的 \_ 變形**](/windows/desktop/api/D3D10misc/ne-d3d10misc-d3d10_driver_type)來指定變形驅動程式。
 
 如需 Direct3D 10.1 的詳細資訊，請參閱 [direct3d 10.1 功能](d3d10-graphics-programming-guide-10-1.md) 和 [**D3D10 \_ 功能 \_**](/windows/desktop/api/D3D10_1/ne-d3d10_1-d3d10_feature_level1) 級1列舉。
 

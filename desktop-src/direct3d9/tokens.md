@@ -4,12 +4,12 @@ ms.assetid: vs|directx_sdk|~\tokens.htm
 title: 權杖
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1df253327b1256ea5e04f8b80b7e1da89f13e32c
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: cf3e3654d90566fa6c4a6208c965518ce54acd3dd31669038de1b9a8ab38684d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106970899"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120095578"
 ---
 # <a name="tokens"></a>權杖
 

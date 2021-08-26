@@ -21,12 +21,12 @@ keywords:
 - 控制項類型，資料表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cb4ee709bd16156a62882aeee014b4744dab2214
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0badb06cfc449140162663625f3fa7282f9c1589
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104507340"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122470075"
 ---
 # <a name="table-control-type"></a>Table 控制項類型
 
@@ -50,41 +50,15 @@ ms.locfileid: "104507340"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>控制項檢視</th>
-<th>內容檢視</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>資料表
-<ul>
-<li>文字 (0 或 1)</li>
-<li>標頭 (0 或更多) </li>
-<li>不同控制項 (0 或更多)</li>
-</ul></li>
-</ul></td>
-<td><ul>
-<li>資料表
-<ul>
-<li>文字 (1 或更多) </li>
-<li>不同控制項 (0 或更多)</li>
-</ul></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| 控制項檢視 | 內容檢視 | 
+|--------------|--------------|
+| <ul><li>資料表<ul><li>文字 (0 或 1)</li><li>標頭 (0 或更多) </li><li>不同控制項 (0 或更多)</li></ul></li></ul> | <ul><li>資料表<ul><li>文字 (1 或更多) </li><li>不同控制項 (0 或更多)</li></ul></li></ul> | 
 
 
 
- 
+
+ 
 
 如果資料表控制項具有資料列或資料行標頭，就必須在消費者介面自動化樹狀結構的控制項視圖中公開這些標頭。 內容視圖不需要公開此資訊，因為它可以使用 [**IUIAutomationTablePattern**](/windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomationtablepattern)存取。
 
@@ -111,7 +85,7 @@ ms.locfileid: "104507340"
 
 
 
- 
+ 
 
 ## <a name="required-control-patterns"></a>必要的控制項模式
 
@@ -128,7 +102,7 @@ ms.locfileid: "104507340"
 
 
 
- 
+ 
 
 ## <a name="required-events"></a>必要的事件
 
@@ -146,7 +120,7 @@ ms.locfileid: "104507340"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -161,9 +135,9 @@ ms.locfileid: "104507340"
 [UI 自動化概觀](uiauto-uiautomationoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

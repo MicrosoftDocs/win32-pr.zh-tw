@@ -4,12 +4,12 @@ ms.assetid: 2d397c98-d0cd-08e0-6104-cca31bb6bd11
 title: DirectXMath 程式庫四元數函數
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7b085e336b19c9258a113b0442f339118f802146
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 333721cee48083156a8fc4ba31c6a716d837e431ed6d3a6dbb88958672a1c1dd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106995829"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120117538"
 ---
 # <a name="directxmath-library-quaternion-functions"></a>DirectXMath 程式庫四元數函數
 

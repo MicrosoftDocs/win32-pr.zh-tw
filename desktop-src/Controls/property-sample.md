@@ -4,12 +4,12 @@ ms.assetid: 44642d32-2cbc-4dd9-bccc-15924f310539
 description: 深入瞭解：屬性範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b9c11fda9b133ca6fa3b2f9942d8d48bec3a9e47
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 83f17e12031b326566e6b948b05dae5851ec4aabd1cc7fd0a0281fc9d1a89c0f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110152"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120061638"
 ---
 # <a name="property-sample"></a>屬性範例
 
@@ -21,7 +21,7 @@ ms.locfileid: "104110152"
 -   [建立範例](#building-the-sample)
 -   [相關主題](#related-topics)
 
-## <a name="description"></a>Description
+## <a name="description"></a>描述
 
 屬性範例會示範如何執行三種不同的屬性工作表樣式：強制回應、非模式和 wizard。 它也會示範如何使用 [*PropSheetProc*](/windows/desktop/api/Prsht/nc-prsht-pfnpropsheetcallback) 函式來修改建立之前或之後的屬性工作表對話方塊。
 
@@ -40,11 +40,11 @@ ms.locfileid: "104110152"
 
 ## <a name="downloading-the-sample"></a>下載範例
 
-屬性範例會安裝為 [Windows 軟體開發套件 (SDK) ](https://msdn.microsoft.com/windows/bb980924.aspx) 的一部分，並可在下列位置中取得。
+屬性範例會安裝為[Windows 軟體開發套件 (SDK) ](https://msdn.microsoft.com/windows/bb980924.aspx)的一部分，並可在下列位置中取得。
 
 
 
-| Location    | 路徑/URL                                                                                                 |
+| 位置    | 路徑/URL                                                                                                 |
 |-------------|----------------------------------------------------------------------------------------------------------|
 | Windows SDK | % Program Files% \\ Microsoft sdk \\ Windows \\ \[ 版本號碼 \] \\ 範例 \\ winui \\ 控制項 \\ 通用 \\ 屬性 |
 

@@ -21,12 +21,12 @@ keywords:
 - 控制項類型，核取方塊
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d8e5bac106c8ba3bbf58c7f5b06c087ceb7b3418
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ec20bc259095c41bd1bdc4c3d4e5953be2e883d2
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839968"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122467805"
 ---
 # <a name="checkbox-control-type"></a>CheckBox 控制項類型
 
@@ -51,32 +51,15 @@ ms.locfileid: "103839968"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>控制項檢視</th>
-<th>內容檢視</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>CheckBox</li>
-</ul></td>
-<td><ul>
-<li>CheckBox</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| 控制項檢視 | 內容檢視 | 
+|--------------|--------------|
+| <ul><li>CheckBox</li></ul> | <ul><li>CheckBox</li></ul> | 
 
 
 
- 
+
+ 
 
 ## <a name="relevant-properties"></a>相關屬性
 
@@ -99,7 +82,7 @@ ms.locfileid: "103839968"
 
 
 
- 
+ 
 
 ## <a name="required-control-patterns"></a>必要的控制項模式
 
@@ -113,7 +96,7 @@ ms.locfileid: "103839968"
 
 
 
- 
+ 
 
 ## <a name="required-events"></a>必要的事件
 
@@ -132,7 +115,7 @@ ms.locfileid: "103839968"
 
 
 
- 
+ 
 
 ## <a name="defaultaction"></a>DefaultAction
 
@@ -151,9 +134,9 @@ ms.locfileid: "103839968"
 [UI 自動化概觀](uiauto-uiautomationoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

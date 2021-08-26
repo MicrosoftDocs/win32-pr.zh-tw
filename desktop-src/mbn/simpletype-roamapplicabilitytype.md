@@ -7,12 +7,12 @@ MSHAttr:
 title: roamApplicabilityType 簡單類型
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 95d81214ab5a44dcac60bb5e1a6accc81b0d0418
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2c2ce8f24e0987d5e8463838b33d4f2f2cf859da
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847984"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122474754"
 ---
 # <a name="span-idwwan_profile_v4simpletype_roamapplicabilitytypespanroamapplicabilitytype-simple-type"></a><span id="WWAN_profile_v4.simpleType_roamApplicabilityType"></span>roamApplicabilityType 簡單類型
 
@@ -61,44 +61,16 @@ RoamApplicabilityType 描述漫遊設定檔適用的漫遊條件。
 
 **RoamApplicabilityType** 簡單類型會定義下列值。
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>值</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>NonPartnerOnly</td>
-<td><p>此設定檔僅適用于在非夥伴網路漫遊時</p></td>
-</tr>
-<tr class="even">
-<td>PartnerOnly</td>
-<td><p>此設定檔只會在合作夥伴網路上進行漫遊時使用</p></td>
-</tr>
-<tr class="odd">
-<td>HomeOnly</td>
-<td><p>只有在家用網路上才會使用此設定檔</p></td>
-</tr>
-<tr class="even">
-<td>HomeAndPartner</td>
-<td><p>此設定檔僅適用于在家或合作夥伴網路時</p></td>
-</tr>
-<tr class="odd">
-<td>PartnerAndNonpartner</td>
-<td><p>此設定檔是在任何網路上沒有家用 (漫遊時使用) </p></td>
-</tr>
-<tr class="even">
-<td>AllRoaming</td>
-<td><p>此設定檔用於所有網路</p></td>
-</tr>
-</tbody>
-</table>
+
+| 值 | 描述 | 
+|-------|-------------|
+| NonPartnerOnly | <p>此設定檔僅適用于在非夥伴網路漫遊時</p> | 
+| PartnerOnly | <p>此設定檔只會在合作夥伴網路上進行漫遊時使用</p> | 
+| HomeOnly | <p>只有在家用網路上才會使用此設定檔</p> | 
+| HomeAndPartner | <p>此設定檔僅適用于在家或合作夥伴網路時</p> | 
+| PartnerAndNonpartner | <p>此設定檔是在任何網路上沒有家用 (漫遊時使用) </p> | 
+| AllRoaming | <p>此設定檔用於所有網路</p> | 
+
 
  
 

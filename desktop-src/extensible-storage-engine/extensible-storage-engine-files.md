@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Gg294069(v=EXCHG.10)
 ms:contentKeyID: 32765684
 ms.date: 09/22/2016
 ms.topic: article
-ms.openlocfilehash: a955da455cb2a2397010fd7869f6320970ef9f85ac1e1602f4439239dc56b167
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1e6d0988966d1eb58a21668cad559308eadbd3eb
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118256299"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122469995"
 ---
 # <a name="extensible-storage-engine-files"></a>可擴充的儲存體引擎檔案
 
@@ -39,184 +39,9 @@ _**適用于：** Windows |Windows伺服器_
 
 下表包含由 ESE 管理之資料檔案名稱的總覽。 針對 Windows Vista 和更新版本，JET_paramLegacyNames 設定會影響所使用的檔案名。
 
-<table xmlns="https://www.w3.org/1999/xhtml">
-  <tr>
-    <th>
-      <p>作業系統</p>
-    </th>
-    <th>
-      <p>WindowsServer 2003 及更早版本<br /><br /></p>
-    </th>
-    <th colspan="2">
-      <p></p>
-      <p>WindowsVista 和更新版本 (用戶端)  <br />
-WindowsServer 2008 和更新版本 (server) 
-</p>
-    </th>
-    <th>
-      <p>Windows 10年度更新版和更新版本 (用戶端)  <br />
-Windows Server 2016 和更新版本 (伺服器) 
-</p>
-    </th>
-  </tr>
-  <tr>
-    <td>
-      <p>
-        <strong>JET_paramLegacyNames 設定</strong>
-      </p>
-    </td>
-    <td>
-      <p>
-        <strong>N/A</strong>
-      </p>
-    </td>
-    <td>
-      <p>
-        <strong>無</strong>
-      </p>
-    </td>
-    <td>
-      <p>
-        <strong>JET_bitESE98FileNames</strong>
-      </p>
-    </td>
-    <td>
-      <p>
-        <strong>與 Windows Vista/Server 2008 相同</strong>
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <p>目前的記錄</p>
-    </td>
-    <td>
-      <p>&lt;inst &gt; .log</p>
-    </td>
-    <td>
-      <p>&lt;inst &gt; . jtx</p>
-    </td>
-    <td>
-      <p>&lt;inst &gt; .log</p>
-    </td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>
-      <p>預先初始化記錄檔</p>
-    </td>
-    <td>
-      <p>&lt;inst &gt; tmp .log</p>
-    </td>
-    <td>
-      <p>&lt;inst &gt; tmp. jtx</p>
-    </td>
-    <td>
-      <p>&lt;inst &gt; tmp .log</p>
-    </td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>
-      <p>輪替的記錄</p>
-    </td>
-    <td>
-      <p>&lt;inst &gt; XXXXX 記錄檔</p>
-    </td>
-    <td>
-      <p>&lt;inst &gt; XXXXX 在 FFFFF 切換至 &lt; inst xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx 之後 jtx &gt; 。 jtx</p>
-    </td>
-    <td>
-      <p>&lt;&gt;在 FFFFF 切換至 inst xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx 之後，inst XXXXX. 記錄檔 &lt; &gt; 。</p>
-    </td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>
-      <p>
-        <a href="gg294069(v=exchg.10).md">檢查點檔案</a>
-      </p>
-    </td>
-    <td>
-      <p>&lt;inst &gt;</p>
-    </td>
-    <td>
-      <p>&lt;inst &gt; . jcp</p>
-    </td>
-    <td>
-      <p>&lt;inst &gt;</p>
-    </td>
-    <td rowspan="2"></td>
-  </tr>
-  <tr>
-    <td>
-      <p>
-        <a href="gg294069(v=exchg.10).md">暫存資料庫</a>
-      </p>
-    </td>
-    <td>
-      <p>&lt;暫存資料庫檔案名 &gt; 預設： .tmp</p>
-    </td>
-    <td>
-      <p>&lt;暫存資料庫檔案名 &gt; 預設： .tmp</p>
-    </td>
-    <td>
-      <p>&lt;暫存資料庫檔案名 &gt; 預設： .tmp</p>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <p>
-        <a href="gg294069(v=exchg.10).md">保留的交易記錄檔</a>
-      </p>
-    </td>
-    <td>
-      <p>res1 .log &amp; res2</p>
-    </td>
-    <td>
-      <p>&lt;inst &gt; RESXXXXX. jrs</p>
-    </td>
-    <td colspan="2">
-      <p>&lt;inst &gt; RESXXXXX. jrs</p>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <p>
-        <a href="gg294069(v=exchg.10).md">資料庫檔案</a>
-      </p>
-    </td>
-    <td>
-      <p>&lt;資料庫檔案名&gt;</p>
-    </td>
-    <td>
-      <p>&lt;資料庫檔案名&gt;</p>
-    </td>
-    <td>
-      <p>&lt;資料庫檔案名&gt;</p>
-    </td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>
-      <p>
-        <a href="gg294069(v=exchg.10).md">清除對應檔</a>
-      </p>
-    </td>
-    <td>
-      <p>N/A</p>
-    </td>
-    <td>
-      <p>N/A</p>
-    </td>
-    <td>
-      <p>N/A</p>
-    </td>
-    <td>
-      <p>&lt;沒有副檔名的資料庫檔案名 &gt; 。 jfm</p>
-    </td>
-  </tr>
-</table>
+
+| | |  | 
+
 
 
 ### <a name="transaction-log-files"></a>交易記錄檔

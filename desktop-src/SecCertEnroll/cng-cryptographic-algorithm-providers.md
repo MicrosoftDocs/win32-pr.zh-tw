@@ -4,12 +4,12 @@ ms.assetid: ce29bc97-049e-4c82-979f-4c805a318ba0
 title: CNG 密碼編譯演算法提供者
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 11685441e8dfa4482839b702083ab0797b59cae3360e3e509251b43e9f44126b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0fd98a7eb6fd159c54977cdf8b72ebffd747da48
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119670268"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122467075"
 ---
 # <a name="cng-cryptographic-algorithm-providers"></a>CNG 密碼編譯演算法提供者
 
@@ -25,7 +25,7 @@ ms.locfileid: "119670268"
 
 
 
-| 名稱                                   | 支援的模式                                                                                                                                                                                                 | 金鑰大小（位） (預設/最小/最大)  |
+| Name                                   | 支援的模式                                                                                                                                                                                                 | 金鑰大小（位） (預設/最小/最大)  |
 |----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------|
 | 進階加密標準 (AES)     | ECB、CBC、CFB8、CFB128、GCM、CCM、GMAC、CMAC、AES 金鑰包裝、XTS<br/> **Windows 8：** CFB128 和 CMAC 模式的支援開始。<br/> **Windows 10：** 支援 XTS-AES 模式開始。<br/> | 128/192/256                        |
 | 資料加密標準 (DES)          | ECB、CBC、CFB8、CFB64<br/> **Windows 8：** CFB64 模式的支援開始。<br/>                                                                                                                   | 56/56/56                           |
@@ -73,42 +73,13 @@ ms.locfileid: "119670268"
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>演算法名稱</th>
-<th>備註</th>
-<th>金鑰大小（位） (預設/最小/最大) </th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Diffie-Hellman 金鑰 Exchange 演算法</td>
 
-<td>512至4096，以64位遞增</td>
-</tr>
-<tr class="even">
-<td> (ECDH) 的橢圓曲線 Diffie-Hellman</td>
-<td>包含使用256、384和521位公開金鑰的曲線（如 SP800-56A 中所指定）。</td>
-<td>256/384/521</td>
-</tr>
-<tr class="odd">
-<td> (ECDSA) 的橢圓曲線數位簽章演算法</td>
-<td>包含使用256、384和521位公開金鑰的曲線，如 FIPS 186-3 中所指定。
-<blockquote>
-[!Note]<br />
-若要顯示所有命名的橢圓曲線，請使用 <strong>Certutil displayEccCurve</strong>。
-</blockquote>
-<br/></td>
-<td>256/384/521</td>
-</tr>
-</tbody>
-</table>
+| 演算法名稱 | 備註 | 金鑰大小（位） (預設/最小/最大)  | 
+|----------------|-------|------------------------------------|
+| Diffie-Hellman 金鑰 Exchange 演算法 | 512至4096，以64位遞增 | 
+|  (ECDH) 的橢圓曲線 Diffie-Hellman | 包含使用256、384和521位公開金鑰的曲線（如 SP800-56A 中所指定）。 | 256/384/521 | 
+|  (ECDSA) 的橢圓曲線數位簽章演算法 | 包含使用256、384和521位公開金鑰的曲線，如 FIPS 186-3 中所指定。<blockquote>[!Note]<br />若要顯示所有命名的橢圓曲線，請使用 <strong>Certutil displayEccCurve</strong>。</blockquote><br /> | 256/384/521 | 
+
 
 
 

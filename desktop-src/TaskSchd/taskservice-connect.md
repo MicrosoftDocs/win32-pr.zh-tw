@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d4da8fb2aed018eab9880ab6c8a6bed310e6d89bb293d52efc5d6ac6d8baf190
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1e8d9491fb66d8e79b18efed363d4eb4f21bc6c5
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119059736"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122472344"
 ---
 # <a name="taskserviceconnect-method"></a>TaskService.連線方法
 
@@ -85,45 +85,15 @@ TaskService.Connect( _
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>錯誤識別碼</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>0x80070005</td>
-<td>拒絕存取以連接到工作排程器服務。</td>
-</tr>
-<tr class="even">
-<td>0x80041315</td>
-<td>工作排程器服務未執行。</td>
-</tr>
-<tr class="odd">
-<td>0x8007000e</td>
-<td>應用程式沒有足夠的記憶體可完成作業，或者 <em>使用者</em>、 <em>密碼</em>或 <em>網域</em> 至少有一個 null 和一個非 null 值。</td>
-</tr>
-<tr class="even">
-<td>53</td>
-<td>在下列情況下，會傳回此錯誤：
-<ul>
-<li><em>ServerName</em>參數中指定的電腦名稱稱不存在。</li>
-<li>當您嘗試連接到 Windows Server 2003 或 Windows XP 電腦，而且遠端電腦未啟用 [檔案和印表機共用] 防火牆例外，或遠端登入服務未執行時。</li>
-<li>當您嘗試連線到 Windows Vista 電腦時，如果遠端電腦未啟用 [遠端排程工作] 管理防火牆例外，且已啟用 [檔案及印表機共用] 防火牆例外，或遠端登入服務未執行。</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>50</td>
-<td>從 Windows Vista 電腦連接至遠端 Windows XP 或 Windows Server 2003 電腦時，無法指定<em>使用者</em>、<em>密碼</em>或<em>網域</em>參數。</td>
-</tr>
-</tbody>
-</table>
+
+| 錯誤識別碼 | Description | 
+|------------------|-------------|
+| 0x80070005 | 拒絕存取以連接到工作排程器服務。 | 
+| 0x80041315 | 工作排程器服務未執行。 | 
+| 0x8007000e | 應用程式沒有足夠的記憶體可完成作業，或者 <em>使用者</em>、 <em>密碼</em>或 <em>網域</em> 至少有一個 null 和一個非 null 值。 | 
+| 53 | 在下列情況下，會傳回此錯誤：<ul><li><em>ServerName</em>參數中指定的電腦名稱稱不存在。</li><li>當您嘗試連接到 Windows Server 2003 或 Windows XP 電腦，而且遠端電腦未啟用 [檔案和印表機共用] 防火牆例外，或遠端登入服務未執行時。</li><li>當您嘗試連線到 Windows Vista 電腦時，如果遠端電腦未啟用 [遠端排程工作] 管理防火牆例外，且已啟用 [檔案及印表機共用] 防火牆例外，或遠端登入服務未執行。</li></ul> | 
+| 50 | 從 Windows Vista 電腦連接至遠端 Windows XP 或 Windows Server 2003 電腦時，無法指定<em>使用者</em>、<em>密碼</em>或<em>網域</em>參數。 | 
+
 
 
 

@@ -1,19 +1,19 @@
 ---
-description: Windows Installer 在稱為元件的元件中安裝和移除應用程式或產品。
+description: Windows安裝程式會在稱為元件的元件中安裝和移除應用程式或產品。
 ms.assetid: 949d8b8c-8f1a-4fde-9a7d-824d33436e62
 title: 將應用程式組織成元件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d3fc2db794bef2a29025bf7ebc54c65691145ee
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1398bbbacbdb15df148576ebf0904f7aec98354a4d417681a81f2195535f08d7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848930"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120129188"
 ---
 # <a name="organizing-applications-into-components"></a>將應用程式組織成元件
 
-Windows Installer 在稱為 [元件的元件](windows-installer-components.md)中安裝和移除應用程式或產品。 元件是一律以一個單位從使用者的系統中安裝或移除的資源集合。 資源可以是檔案、登錄機碼、快捷方式，或可能安裝的任何其他檔案。 每個元件都會被指派一個唯一的元件程式碼 [GUID](guid.md)。
+Windows安裝程式會在稱為[元件的元件](windows-installer-components.md)中安裝和移除應用程式或產品。 元件是一律以一個單位從使用者的系統中安裝或移除的資源集合。 資源可以是檔案、登錄機碼、快捷方式，或可能安裝的任何其他檔案。 每個元件都會被指派一個唯一的元件程式碼 [GUID](guid.md)。
 
 安裝套件的作者應該只建立可安裝和移除的元件和元件版本，而不會破壞其他元件。 此外，移除元件時，不應該留下使用者電腦上任何孤立的資源，例如未使用的檔案、登錄機碼或快捷方式。 為確保這一點，作者在將資源組織成元件時，應遵守下列一般規則：
 

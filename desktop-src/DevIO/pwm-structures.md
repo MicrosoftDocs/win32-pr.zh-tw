@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 99511820f8500cd8df827a80664f6c274d732665
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 2fa5efcc601c9bcfd62ed8a699e89df4eee4cc8ac9e7424ebad13e337198d35c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936240"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120131628"
 ---
 # <a name="pwm-structures"></a>PWM 結構
 

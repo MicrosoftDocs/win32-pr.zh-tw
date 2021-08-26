@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 清除和關閉 WMI 應用程式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7758cbdba81e018ff3362cec86aa5096838dc9e0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 296d2093b16491bcb600438d781fa833a09754fdc5d0cc8cc83feb710a6d2727
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944719"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120120908"
 ---
 # <a name="cleaning-up-and-shutting-down-a-wmi-application"></a>清除和關閉 WMI 應用程式
 

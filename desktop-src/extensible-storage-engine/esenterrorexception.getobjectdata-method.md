@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 7a4388d9af4f7cc6dbc284296b121fb3366e210c0d174a3db8e2b726f748f23a
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 1ff4588429d5b45690763c3f4eefd3553f88f480
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119784358"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122476654"
 ---
 # <a name="esenterrorexceptiongetobjectdata-method"></a>EsentErrorException. GetObjectData 方法
 
@@ -82,24 +82,11 @@ public override void GetObjectData(
 
 ## <a name="exceptions"></a>例外狀況
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>例外狀況</th>
-<th>條件</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
-<td><p>info 參數是 null 參考 (在 Visual Basic 中為 Nothing)。</p></td>
-</tr>
-</tbody>
-</table>
+
+| 例外狀況 | 條件 | 
+|-----------|-----------|
+| <a href="/dotnet/api/system.argumentnullexception">ArgumentNullException</a> | <p>info 參數是 null 參考 (在 Visual Basic 中為 Nothing)。</p> | 
+
 
 
 ## <a name="see-also"></a>另請參閱

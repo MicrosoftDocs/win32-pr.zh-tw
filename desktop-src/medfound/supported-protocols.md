@@ -4,12 +4,12 @@ ms.assetid: 3c026426-c2b7-4909-9524-9cc0bd45347e
 title: 支援的通訊協定
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1b086b48b73c0412968c00091e6353d134006f45fa9c8b8f229ea3f9e695bf99
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 20cc5e47bddec9e00fbb62e853db5a492172da84
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118238125"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122468025"
 ---
 # <a name="supported-protocols"></a>支援的通訊協定
 
@@ -39,56 +39,15 @@ ms.locfileid: "118238125"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>允許的架構</th>
-<th>通訊協定變換順序</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>mms://或 rtsp://</td>
-<td>快速快取已啟用：<br/>
-<ol>
-<li>使用 TCP 的 RTSP (RTSPT) <br/></li>
-<li>使用 UDP (RTSPU) 的 RTSP<br/></li>
-<li>HTTP 串流<br/></li>
-<li> (HTTPD) 的 HTTP 下載<br/></li>
-</ol>
-快取已停用：<br/>
-<ol>
-<li>RTSPU<br/></li>
-<li>RTSPT<br/></li>
-<li>HTTP 串流<br/></li>
-<li>HTTP 下載<br/></li>
-</ol></td>
-</tr>
-<tr class="even">
-<td>rtspu://</td>
-<td>RTSPU</td>
-</tr>
-<tr class="odd">
-<td>rtspt://</td>
-<td>RTSPT</td>
-</tr>
-<tr class="even">
-<td>https://</td>
-<td><ol>
-<li>HTTP<br/></li>
-<li>HTTPD<br/></li>
-</ol></td>
-</tr>
-<tr class="odd">
-<td>HTTPd://</td>
-<td>HTTPD</td>
-</tr>
-</tbody>
-</table>
+
+| 允許的架構 | 通訊協定變換順序 | 
+|-----------------|-------------------------|
+| mms://或 rtsp:// | 快速快取已啟用：<br /><ol><li>使用 TCP 的 RTSP (RTSPT) <br /></li><li>使用 UDP (RTSPU) 的 RTSP<br /></li><li>HTTP 串流<br /></li><li> (HTTPD) 的 HTTP 下載<br /></li></ol>快取已停用：<br /><ol><li>RTSPU<br /></li><li>RTSPT<br /></li><li>HTTP 串流<br /></li><li>HTTP 下載<br /></li></ol> | 
+| rtspu:// | RTSPU | 
+| rtspt:// | RTSPT | 
+| https:// | <ol><li>HTTP<br /></li><li>HTTPD<br /></li></ol> | 
+| HTTPd:// | HTTPD | 
+
 
 
 

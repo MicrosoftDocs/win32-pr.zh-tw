@@ -1,6 +1,6 @@
 ---
 title: WMDRMNET_Revocation
-description: WMDRMNET 撤銷屬性會抓取適用于 \_ 網路裝置之 Windows MEDIA DRM 10 的撤銷清單。
+description: WMDRMNET \_ 撤銷屬性會抓取網路裝置 Windows 媒體 DRM 10 的撤銷清單。
 ms.assetid: 54029c9e-1951-43cf-bc42-2e8d27175a6d
 keywords:
 - WMDRMNET_Revocation windows Media 格式
@@ -12,16 +12,16 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 740f3054b52fefa5e8636e68210e7f015f6fd65a
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 197f885ca1c82034c7549cb96361c1af0398070deb5e8dc7ea0a374641306f4b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104022659"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120109948"
 ---
 # <a name="wmdrmnet_revocation"></a>WMDRMNET \_ 撤銷
 
-**WMDRMNET \_ 撤銷** 屬性會抓取適用于網路裝置之 Windows Media DRM 10 的撤銷清單。
+**WMDRMNET \_ 撤銷** 屬性會抓取網路裝置 Windows 媒體 DRM 10 的撤銷清單。
 
 ## <a name="global-constant"></a>全域常數
 
@@ -42,9 +42,9 @@ g \_ wszWMDRMNET \_ 撤銷
 [**DRM 屬性**](drm-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

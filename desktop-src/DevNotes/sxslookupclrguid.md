@@ -14,16 +14,16 @@ api_type:
 api_location:
 - Mscoree.dll
 - Sxs.dll
-ms.openlocfilehash: 893fe6c51d0b31a6db3f34a60cac01f90297d26b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 516ba97eb70defdbc6f92efa5c65e6d23246fe67
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106983998"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122465595"
 ---
 # <a name="sxslookupclrguid-function"></a>SxsLookupClrGuid 函式
 
-在元件的資訊清單中，抓取與指定 GUID 相關聯的類別名稱和其他資訊。 只有在 .NET Framework 中執行低層級的 managed 非受控互通性時，才會使用此函數。 如需受管理的非受控互通性的詳細資訊，請參閱 .NET Framework SDK 以及 [隔離的應用程式和並存元件](../sbscs/isolated-applications-and-side-by-side-assemblies-portal.md)中的「與非受控碼互通」。
+在元件的資訊清單中，抓取與指定 GUID 相關聯的類別名稱和其他資訊。 只有在 .NET Framework 中執行低層級的 managed 非受控互通性時，才會使用此函數。 如需受管理的非受控互通性的詳細資訊，請參閱 .NET Framework SDK 以及[隔離的應用程式和並存元件](../sbscs/isolated-applications-and-side-by-side-assemblies-portal.md)中的「與非受控碼互通」。
 
 ## <a name="syntax"></a>語法
 
@@ -148,44 +148,15 @@ typedef const SXS_GUID_INFORMATION_CLR *PCSXS_GUID_INFORMATION_CLR;
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>member</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><span id="cbSize"></span><span id="cbsize"></span><span id="CBSIZE"></span><strong>cbSize</strong><br/></td>
-<td>包含 SXS_GUID_INFORMATION_CLR 結構的大小， (這可讓結構在較新的版本) 中成長。<br/></td>
-</tr>
-<tr class="even">
-<td><span id="dwFlags"></span><span id="dwflags"></span><span id="DWFLAGS"></span><strong>dwFlags</strong><br/></td>
-<td>包含下列兩個旗標值的其中一個： <br/>
-<ul>
-<li>SXS_GUID_INFORMATION_CLR_FLAG_IS_SURROGATE (0x00000001) ：表示指定的 GUID 與代理相關聯 &quot; 。&quot;</li>
-<li>SXS_GUID_INFORMATION_CLR_FLAG_IS_CLASS (0x00000002) ：表示指定的 GUID 與類別相關聯 &quot; 。&quot;</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><span id="pcwszRuntimeVersion"></span><span id="pcwszruntimeversion"></span><span id="PCWSZRUNTIMEVERSION"></span><strong>pcwszRuntimeVersion</strong><br/></td>
-<td>指向以零結尾的寬字元字串，識別此類別的主機資訊清單中指定的執行階段版本。<br/></td>
-</tr>
-<tr class="even">
-<td><span id="pcwszTypeName"></span><span id="pcwsztypename"></span><span id="PCWSZTYPENAME"></span><strong>pcwszTypeName</strong><br/></td>
-<td>指向以零結尾的寬字元字串，其中包含與指定 GUID 相關聯的 .NET 類別名稱。<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="pcwszAssemblyIdentity"></span><span id="pcwszassemblyidentity"></span><span id="PCWSZASSEMBLYIDENTITY"></span><strong>pcwszAssemblyIdentity</strong><br/></td>
-<td>指向以零結尾的寬字元字串，其中包含裝載這個類別之元件的文字識別。 如需文字身分識別的詳細資訊，請參閱在 &quot; &quot; &quot; 執行時間 &quot; &quot; 使用 .NET Framework SDK 中的 .NET Framework，在 [在執行時間探索類型資訊] 下指定完整的類型名稱 &quot; 。<br/></td>
-</tr>
-</tbody>
-</table>
+
+| member | 描述 | 
+|--------|-------------|
+| <span id="cbSize"></span><span id="cbsize"></span><span id="CBSIZE"></span><strong>cbSize</strong><br /> | 包含 SXS_GUID_INFORMATION_CLR 結構的大小， (這可讓結構在較新的版本) 中成長。<br /> | 
+| <span id="dwFlags"></span><span id="dwflags"></span><span id="DWFLAGS"></span><strong>dwFlags</strong><br /> | 包含下列兩個旗標值的其中一個： <br /><ul><li>SXS_GUID_INFORMATION_CLR_FLAG_IS_SURROGATE (0x00000001) ：表示指定的 GUID 與「代理」相關聯。</li><li>SXS_GUID_INFORMATION_CLR_FLAG_IS_CLASS (0x00000002) ：表示指定的 GUID 與「類別」相關聯。</li></ul> | 
+| <span id="pcwszRuntimeVersion"></span><span id="pcwszruntimeversion"></span><span id="PCWSZRUNTIMEVERSION"></span><strong>pcwszRuntimeVersion</strong><br /> | 指向以零結尾的寬字元字串，識別此類別的主機資訊清單中指定的執行階段版本。<br /> | 
+| <span id="pcwszTypeName"></span><span id="pcwsztypename"></span><span id="PCWSZTYPENAME"></span><strong>pcwszTypeName</strong><br /> | 指向以零結尾的寬字元字串，其中包含與指定 GUID 相關聯的 .NET 類別名稱。<br /> | 
+| <span id="pcwszAssemblyIdentity"></span><span id="pcwszassemblyidentity"></span><span id="PCWSZASSEMBLYIDENTITY"></span><strong>pcwszAssemblyIdentity</strong><br /> | 指向以零結尾的寬字元字串，其中包含裝載這個類別之元件的文字識別。 如需文字身分識別的詳細資訊，請參閱 .NET Framework SDK 的「使用 .NET Framework 進行程式設計」下的「在執行時間探索類型資訊」底下的「指定完整的類型名稱」。<br /> | 
+
 
 
 

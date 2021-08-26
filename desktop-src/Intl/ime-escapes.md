@@ -4,12 +4,12 @@ ms.assetid: ede886dc-8a92-428c-8975-3feadc1d4f90
 title: IME 轉義
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a8ff93751450ee6eb6957482362cc8bc22f41d07
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4764e884a65069d73c535d38d5ee2896b1d2ecaeb66600bd868f8830cddcfc4f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971431"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120107208"
 ---
 # <a name="ime-escapes"></a>IME 轉義
 
@@ -17,16 +17,16 @@ ms.locfileid: "106971431"
 
 
 
-| 逸出                           | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| 逸出                           | 描述                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 |----------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | IME \_ ESC \_ 取得 \_ EUDC \_ 字典  | 取出 EUDC 字典檔案的路徑。 在輸入時， *lpData* 參數必須是接收路徑之緩衝區的指標。 這個緩衝區必須等於或大於 80 \* sizeof (TCHAR) 。 傳回時，緩衝區會包含以 null 終止的字串，指定字典的完整路徑。 僅供中文 EUDC 編輯器使用;請勿在其他應用程式中使用。                                                                                  |
 | IME \_ ESC \_ 漢字 \_ 模式            | 從韓文轉換成漢字。 在輸入時， *lpData* 必須指向包含要轉換之韓文字元的緩衝區;在輸出時，它會接收轉換的朝鮮文（以 null 結束的字串）。 供韓文編輯器使用;請勿在其他應用程式中使用。                                                                                                                                                                                                           |
-| IME \_ ESC \_ IME \_ 名稱              | 取出 IME 的名稱。 在輸入時， *lpData* 參數必須是要接收名稱之緩衝區的指標。 傳回時，緩衝區會包含指定 IME 名稱的以 null 結束的字串。 僅供中文 EUDC 編輯器使用;請勿在其他應用程式中使用。**Windows Me/98/95：** 緩衝區不能小於16個 \* sizeof (TCHAR) 。<br/> **Windows NT、windows 2000、WINDOWS XP：** 緩衝區必須小於64個字元。<br/> |
+| IME \_ ESC \_ IME \_ 名稱              | 取出 IME 的名稱。 在輸入時， *lpData* 參數必須是要接收名稱之緩衝區的指標。 傳回時，緩衝區會包含指定 IME 名稱的以 null 結束的字串。 僅供中文 EUDC 編輯器使用;請勿在其他應用程式中使用。**Windows Me/98/95：** 緩衝區不能小於16個 \* sizeof (TCHAR) 。<br/> **Windows NT，Windows 2000 Windows XP：** 緩衝區必須小於64個字元。<br/> |
 | 輸入法 \_ ESC \_ 鍵最大值 \_               | 函數的傳回值是 EUDC 字元的金鑰 stokes 數目上限。 僅供中文 EUDC 編輯器使用;請勿在其他應用程式中使用。                                                                                                                                                                                                                                                                                                         |
 | IME \_ ESC \_ 查詢 \_ 支援         | 檢查是否有執行。 在輸入時， *lpData* 會指向包含輸入法 Escape 值的緩衝區。 如果未執行 escape，函數會傳回0。                                                                                                                                                                                                                                                                                                             |
 | 輸入輸入 \_ ESC \_ 順序 \_ 至 \_ 內部 | 傳回符合指定序列程式碼的字元碼。 在輸入時， *lpData* 參數是包含序列程式碼之32位變數的指標。 僅供中文 EUDC 編輯器使用;請勿在其他應用程式中使用。 一般來說，中文 IME 會將其讀取字元碼編碼為序列1到 n。                                                                                                                               |
 | IME \_ ESC \_ 設定 \_ EUDC \_ 字典  | 設定 EUDC 字典檔。 在輸入時， *lpData* 參數是以 null 結束的字串指標，指定完整路徑。 路徑應小於 80 \* sizeof (TCHAR) 。 僅供中文 EUDC 編輯器使用;請勿在其他應用程式中使用。                                                                                                                                                                                                           |
-| IME \_ ESC \_ GETHELPFILENAME        | **Windows Me/98、windows 2000、WINDOWS XP：** 傳回 IME 說明檔的名稱。 傳回時， *lpData* 參數是 IME 的說明檔的完整路徑。 路徑應小於 80 \* sizeof (TCHAR) 。                                                                                                                                                                                                                                                           |
+| IME \_ ESC \_ GETHELPFILENAME        | **Windows Me/98、Windows 2000 Windows XP：** 傳回 IME 說明檔的名稱。 傳回時， *lpData* 參數是 IME 的說明檔的完整路徑。 路徑應小於 80 \* sizeof (TCHAR) 。                                                                                                                                                                                                                                                           |
 
 
 

@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 96dceb02ab1ebc2b6a1ad3cc978d1b60441198e0
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 8750059a3ec0ebb4d57d927cef1b3a10366aea54
+ms.sourcegitcommit: 4e94fc75fad7b2a0f3c92a26f97e89924e59b7a9
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106991597"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "122786314"
 ---
 # <a name="span-idvspixengineiupdateobjectcallbackspaniupdateobjectcallback-interface"></a><span id="vspixengine.iupdateobjectcallback"></span>IUpdateObjectCallback 介面
 
@@ -38,13 +38,13 @@ ms.locfileid: "106991597"
 
 **IUpdateObjectCallback** 介面具有這些方法。
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">方法</th><th style="text-align: left;">描述</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/iupdateobjectcallback-updatecomplete-uint-hresult"><strong>UpdateComplete</strong></a></td><td style="text-align: left;"><p>回呼，用來通知主機物件已更新。</p></td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th >方法</th><th >說明</th></tr></thead><tbody><tr class="odd"><td ><a href="/windows/desktop/direct3dtools/iupdateobjectcallback-updatecomplete-uint-hresult"><strong>UpdateComplete</strong></a></td><td ><p>回呼，用來通知主機物件已更新。</p></td></tr></tbody></table>
 
  
 
 ## <a name="requirements"></a>規格需求
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>標頭</p></td><td>Vspixengine。h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>標頭</p></td><td>Vspixengine。h</td></tr></tbody></table>
 
  
 

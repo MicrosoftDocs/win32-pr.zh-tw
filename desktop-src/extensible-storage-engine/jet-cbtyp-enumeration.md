@@ -48,12 +48,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 3d2e545fea9c1942dc09df82eb93eafa1d3e4e89
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 209d3ffe9721f51b8c2d510eecb5408ac66cdbeb58309d1f033e2d23730328ae
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106976770"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120116228"
 ---
 # <a name="jet_cbtyp-enumeration"></a>JET_cbtyp 列舉
 
@@ -143,12 +143,12 @@ public enum JET_cbtyp
 <tr class="odd">
 <td></td>
 <td>FreeCursorLS</td>
-<td>當應用程式需要清除與資料庫引擎所釋放之資料指標相關聯之本機儲存體的內容控制碼時，就會發生此回呼。 如需詳細資訊，請參閱 JetSetLS。 此回呼原因的委派是透過 JET_paramRuntimeCallback 的 JetSetSystemParameter 來設定。</td>
+<td>當應用程式需要清除與資料庫引擎所釋放之資料指標相關聯的本機儲存體的內容控制碼時，就會發生此回呼。 如需詳細資訊，請參閱 JetSetLS。 此回呼原因的委派是透過 JET_paramRuntimeCallback 的 JetSetSystemParameter 來設定。</td>
 </tr>
 <tr class="even">
 <td></td>
 <td>FreeTableLS</td>
-<td>這項回呼的原因是，應用程式必須清除與資料庫引擎所釋放之資料表相關聯之本機儲存體的內容控制碼。 如需詳細資訊，請參閱 JetSetLS。 此回呼原因的委派是透過 JET_paramRuntimeCallback 的 JetSetSystemParameter 來設定。</td>
+<td>這是因為應用程式必須清除與資料庫引擎所釋放之資料表相關聯之本機儲存體的內容控制碼，因此會發生此回呼。 如需詳細資訊，請參閱 JetSetLS。 此回呼原因的委派是透過 JET_paramRuntimeCallback 的 JetSetSystemParameter 來設定。</td>
 </tr>
 </tbody>
 </table>

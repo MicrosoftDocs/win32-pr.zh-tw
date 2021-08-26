@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: 5cd896ed0890a199f85838a01c4c6ebec6d0895d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 72aeb68b3b3f9b31dc9ba00b2ffe8d82e2df8f8c5271abffcbd7737fa65203ca
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106977561"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120131178"
 ---
 # <a name="iamtimelinesrcgetmedialength-method"></a>IAMTimelineSrc：： GetMediaLength 方法
 
@@ -58,7 +58,7 @@ HRESULT GetMediaLength(
 
 
 
-| 傳回碼                                                                                     | Description                                        |
+| 傳回碼                                                                                     | 描述                                        |
 |-------------------------------------------------------------------------------------------------|----------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>            | 成功。<br/>                                |
 | <dl> <dt>**E \_ NOTDETERMINED**</dt> </dl> | 未在這個物件上設定媒體時間。<br/> |
@@ -76,7 +76,7 @@ HRESULT GetMediaLength(
  
 
 > [!Note]  
-> 若要取得 Qedit，請下載 [適用于 Windows Vista 和 .NET Framework 3.0 的 Microsoft Windows SDK 更新](https://msdn.microsoft.com/windowsvista/bb980924.aspx)。 在 Windows 7 和 .NET Framework 3.5 Service Pack 1 的 Microsoft Windows SDK 中無法使用 Qedit。
+> 若要取得 Qedit，請下載[Windows Vista 和 .NET Framework 3.0 的 Microsoft Windows SDK 更新](https://msdn.microsoft.com/windowsvista/bb980924.aspx)。 Windows 7 和 .NET Framework 3.5 Service Pack 1 的 Microsoft Windows SDK 中無法使用 Qedit。
 
  
 

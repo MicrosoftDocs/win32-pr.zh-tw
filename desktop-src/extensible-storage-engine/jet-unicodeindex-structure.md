@@ -15,17 +15,17 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: c4a2332551fb1f624b75e32596b2941d97ffa47d
-ms.sourcegitcommit: 168d11879cb9fd89d26f826482725c0a626be00f
+ms.openlocfilehash: 544438541affba1121850d5ad5a7a60d54d398bd
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "104386534"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122471384"
 ---
 # <a name="jet_unicodeindex-structure"></a>JET_UNICODEINDEX 結構
 
 
-_**適用于：** Windows |Windows Server_
+_**適用于：** Windows |Windows伺服器_
 
 ## <a name="jet_unicodeindex-structure"></a>JET_UNICODEINDEX 結構
 
@@ -58,76 +58,25 @@ typedef struct tagJET_UNICODEINDEX {
 
 **dwMapFlags** 具有下列限制。
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>值</p></th>
-<th><p>意義</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>LCMAP_SORTKEY</p></td>
-<td><p>Mandatory。</p></td>
-</tr>
-<tr class="even">
-<td><p>LCMAP_BYTEREV</p></td>
-<td><p>選擇性。</p></td>
-</tr>
-<tr class="odd">
-<td><p>NORM_IGNORECASE</p></td>
-<td><p>選擇性。</p></td>
-</tr>
-<tr class="even">
-<td><p>NORM_IGNORENONSPACE</p></td>
-<td><p>選擇性。</p></td>
-</tr>
-<tr class="odd">
-<td><p>NORM_IGNORESYMBOLS</p></td>
-<td><p>選擇性。</p></td>
-</tr>
-<tr class="even">
-<td><p>NORM_IGNOREKANATYPE</p></td>
-<td><p>選擇性。</p></td>
-</tr>
-<tr class="odd">
-<td><p>NORM_IGNOREWIDTH</p></td>
-<td><p>選擇性。</p></td>
-</tr>
-<tr class="even">
-<td><p>SORT_STRINGSORT</p></td>
-<td><p>選擇性。</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>值</p> | <p>意義</p> | 
+|--------------|----------------|
+| <p>LCMAP_SORTKEY</p> | <p>Mandatory。</p> | 
+| <p>LCMAP_BYTEREV</p> | <p>選擇性。</p> | 
+| <p>NORM_IGNORECASE</p> | <p>選擇性。</p> | 
+| <p>NORM_IGNORENONSPACE</p> | <p>選擇性。</p> | 
+| <p>NORM_IGNORESYMBOLS</p> | <p>選擇性。</p> | 
+| <p>NORM_IGNOREKANATYPE</p> | <p>選擇性。</p> | 
+| <p>NORM_IGNOREWIDTH</p> | <p>選擇性。</p> | 
+| <p>SORT_STRINGSORT</p> | <p>選擇性。</p> | 
+
 
 
 ### <a name="requirements"></a>規格需求
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>用戶端</strong></p></td>
-<td><p>需要 Windows Vista、Windows XP 或 Windows 2000 Professional。</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>伺服器</strong></p></td>
-<td><p>需要 Windows Server 2008、Windows Server 2003 或 Windows 2000 Server。</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>標頭</strong></p></td>
-<td><p>宣告于 Esent. h 中。</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p><strong>用戶端</strong></p> | <p>需要 Windows Vista、Windows XP 或 Windows 2000 Professional。</p> | | <p><strong>伺服器</strong></p> | <p>需要 Windows server 2008、Windows Server 2003 或 Windows 2000 Server。</p> | | <p><strong>標頭</strong></p> | <p>宣告于 Esent. h 中。</p> | 
+
 
 
 ### <a name="see-also"></a>另請參閱

@@ -4,24 +4,24 @@ ms.assetid: 1135b309-b158-4b70-9f76-5c93d0ad3250
 title: 如何撰寫 EVR 展示者
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 505ba7ec225ac5f1316ad4343a4e1058ff0b6cb8
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: 4e80c2c6397282b93aef1db0e5c491234e045472
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113118773"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122474744"
 ---
 # <a name="how-to-write-an-evr-presenter"></a>如何撰寫 EVR 展示者
 
 本文說明如何撰寫增強型影片轉譯器的自訂展示者 (EVR) 。 自訂的簡報者可以與 DirectShow 和媒體基礎搭配使用;這兩種技術的介面和物件模型都相同，雖然作業的確切順序可能不同。
 
-本主題中的範例程式碼是從 Windows SDK 中提供的 [EVRPresenter 範例](evrpresenter-sample.md)來調整。
+本主題中的範例程式碼是從 Windows SDK 中提供的[EVRPresenter 範例](evrpresenter-sample.md)來調整。
 
 本主題包含下列幾節：
 
--   [必要條件](#prerequisites)
+-   [先決條件](#prerequisites)
 -   [展示者物件模型](#presenter-object-model)
-    -   [EVR 內的資料流程](#data-flow-inside-the-evr)
+    -   [EVR 內的資料 Flow](#data-flow-inside-the-evr)
     -   [展示者狀態](#presenter-states)
     -   [展示者介面](#presenter-interfaces)
     -   [執行 IMFVideoDeviceID](#implementing-imfvideodeviceid)
@@ -61,7 +61,7 @@ ms.locfileid: "113118773"
 
 本節包含展示者物件模型和介面的總覽。
 
-### <a name="data-flow-inside-the-evr"></a>EVR 內的資料流程
+### <a name="data-flow-inside-the-evr"></a>EVR 內的資料 Flow
 
 EVR 會使用兩個外掛程式元件來呈現影片： *混音* 器和展示 *者*。 如有需要，混音器會混合影片串流並 deinterlaces 影片。 展示者會繪製 (*，或在* 繪製每個畫面時，將影片) 顯示和排程。 應用程式可以將其中一個物件取代為自訂的執行。
 
@@ -148,7 +148,7 @@ enum RENDER_STATE
 |----------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**IEVRTrustedVideoPlugin**](/windows/desktop/api/evr/nn-evr-ievrtrustedvideoplugin) | 讓展示者能夠使用受保護的媒體。 如果您的展示者是受信任的元件，其設計目的是要在受保護的媒體路徑中 (PMP) ，請執行這個介面。 |
 | [**IMFRateSupport**](/windows/desktop/api/mfidl/nn-mfidl-imfratesupport)                 | 報告展示者支援的播放率範圍。 請參閱 [執行 IMFRateSupport](#implementing-imfratesupport)。                                         |
-| [**IMFVideoPositionMapper**](/windows/desktop/api/evr/nn-evr-imfvideopositionmapper) | 將輸出影片畫面上的座標組應到輸入影片畫面上的座標。                                                                                       |
+| [**IMFVideoPositionMapper**](/windows/desktop/api/evr/nn-evr-imfvideopositionmapper) | 在輸出影片畫面上地圖座標，以在輸入影片畫面上座標。                                                                                       |
 | [**IQualProp**](/previous-versions/windows/desktop/api/amvideo/nn-amvideo-iqualprop)                         | 報告效能資訊。 EVR 會使用此資訊來進行品質控制管理。 此介面記載于 DirectShow SDK 中。                        |
 
 
@@ -197,9 +197,9 @@ HRESULT EVRCustomPresenter::GetDeviceID(IID* pDeviceID)
 
 
 
-| EVR 介面                                | 描述                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| EVR 介面                                | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 |----------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**IMediaEventSink**](/windows/win32/api/strmif/nn-strmif-imediaeventsink) | 提供方法讓展示者將訊息傳送至 EVR。 此介面定義于 DirectShow SDK 中，因此訊息會遵循 DirectShow 事件的模式，而不是媒體基礎事件。<br/>                                                                                                                                                                                                                                                                                                                                              |
+| [**IMediaEventSink**](/windows/win32/api/strmif/nn-strmif-imediaeventsink) | 提供方法讓展示者將訊息傳送至 EVR。 此介面是在 DirectShow SDK 中定義，因此訊息會遵循 DirectShow 事件的模式，而不是媒體基礎事件。<br/>                                                                                                                                                                                                                                                                                                                                              |
 | [**IMFClock**](/windows/desktop/api/mfidl/nn-mfidl-imfclock)                 | 表示 EVR 的時鐘。 展示者會使用此介面來排程簡報的範例。 EVR 可在沒有時鐘的情況下執行，因此可能無法使用此介面。 如果沒有，請忽略 [**LookupService**](/windows/desktop/api/evr/nf-evr-imftopologyservicelookup-lookupservice)中的錯誤碼。<br/> 時鐘也會實 [**IMFTimer**](/windows/desktop/api/mfidl/nn-mfidl-imftimer) 介面。 在媒體基礎管線中，時鐘會實 [**IMFPresentationClock**](/windows/desktop/api/mfidl/nn-mfidl-imfpresentationclock) 介面。 它不會在 DirectShow 中執行這個介面。<br/> |
 
 
@@ -210,7 +210,7 @@ HRESULT EVRCustomPresenter::GetDeviceID(IID* pDeviceID)
 
 
 
-| 混音器介面                              | 描述                                                |
+| Mixer介面                              | Description                                                |
 |----------------------------------------------|------------------------------------------------------------|
 | [**IMFTransform**](/windows/desktop/api/mftransform/nn-mftransform-imftransform)         | 讓展示者與混音器進行通訊。       |
 | [**IMFVideoDeviceID**](/windows/desktop/api/evr/nn-evr-imfvideodeviceid) | 讓展示者可以驗證混音器的裝置 GUID。 |
@@ -336,7 +336,7 @@ HRESULT EVRCustomPresenter::ReleaseServicePointers()
 
 由於各種原因，EVR 會呼叫 [**ReleaseServicePointers**](/windows/desktop/api/evr/nf-evr-imftopologyservicelookupclient-releaseservicepointers) ，包括：
 
--   中斷連接或重新連接 (DirectShow) 的 pin，或 (媒體基礎) 新增或移除串流接收器。
+-   中斷連接或重新連線 (DirectShow) 的 pin，或新增或移除 (媒體基礎) 的串流接收器。
 -   變更格式。
 -   設定新的時鐘。
 -   EVR 的最終關機。
@@ -426,45 +426,9 @@ done:
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockstart"><strong>OnClockStart</strong></a></td>
-<td><ol>
-<li>將展示者狀態設定為 [已啟動]。</li>
-<li>如果未<strong>PRESENTATION_CURRENT_POSITION</strong> <em>llClockStartOffset</em> ，請清除展示者的範例佇列。  (這相當於接收 <strong>MFVP_MESSAGE_FLUSH</strong> 訊息。 ) </li>
-<li>如果先前的框架步驟要求仍在擱置中，請處理要求 (查看 <a href="#frame-stepping">畫面格逐步執行</a>) 。 否則，請嘗試處理混音器的輸出 (查看 <a href="#processing-output">處理輸出</a>。</li>
-</ol></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockstop"><strong>OnClockStop</strong></a></td>
-<td><ol>
-<li>將展示者狀態設定為 [已停止]。</li>
-<li>清除展示者的範例佇列。</li>
-<li>取消任何暫止的框架步驟操作。</li>
-</ol></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockpause"><strong>OnClockPause</strong></a></td>
-<td>將展示者狀態設定為 [已暫停]。</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockrestart"><strong>OnClockRestart</strong></a></td>
-<td>視為與 <a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockstart"><strong>OnClockStart</strong></a> 相同，但不會排清範例的佇列。</td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclocksetrate"><strong>OnClockSetRate</strong></a></td>
-<td><ol>
-<li>如果速率從0變更為非零值，則取消框架逐步執行。</li>
-<li>儲存新的時脈速率。 顯示樣本時，頻率會受到影響。 如需詳細資訊，請參閱 <a href="#scheduling-samples">排程範例</a>。</li>
-</ol></td>
-</tr>
-</tbody>
-</table>
+
+| | |<a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockstart"> <strong>OnClockStart</strong></a> | <ol><li>將展示者狀態設定為 [已啟動]。</li><li>如果未<strong>PRESENTATION_CURRENT_POSITION</strong> <em>llClockStartOffset</em> ，請清除展示者的範例佇列。  (這相當於接收 <strong>MFVP_MESSAGE_FLUSH</strong> 訊息。 ) </li><li>如果先前的框架步驟要求仍在擱置中，請處理要求 (查看 <a href="#frame-stepping">畫面格逐步執行</a>) 。 否則，請嘗試處理混音器的輸出 (查看 <a href="#processing-output">處理輸出</a>。</li></ol> | |<a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockstop"> <strong>OnClockStop</strong></a> | <ol><li>將展示者狀態設定為 [已停止]。</li><li>清除展示者的範例佇列。</li><li>取消任何暫止的框架步驟操作。</li></ol> | | <a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockpause"><strong>OnClockPause</strong></a> |將展示者狀態設定為 [已暫停]。 | | <a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockrestart"><strong>OnClockRestart</strong></a> |視為與 <a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockstart"><strong>OnClockStart</strong></a> 相同，但不會排清範例的佇列。 | |<a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclocksetrate"> <strong>OnClockSetRate</strong></a> | <ol><li>如果速率從0變更為非零值，則取消框架逐步執行。</li><li>儲存新的時脈速率。 顯示樣本時，頻率會受到影響。 如需詳細資訊，請參閱 <a href="#scheduling-samples">排程範例</a>。</li></ol> | 
+
 
 
 
@@ -579,7 +543,7 @@ done:
 
 ### <a name="sending-events-to-the-evr"></a>將事件傳送至 EVR
 
-展示者必須通知 EVR 各種事件。 若要這樣做，它會使用 EVR 的 [**IMediaEventSink**](/windows/win32/api/strmif/nn-strmif-imediaeventsink) 介面，此介面會在 EVR 呼叫展示者的 [**IMFTopologyServiceLookupClient：： InitServicePointers**](/windows/desktop/api/evr/nf-evr-imftopologyservicelookupclient-initservicepointers) 方法時取得。  (**IMediaEventSink** 介面最初是一個 directshow 介面，但用於 directshow EVR 和媒體基礎。 ) 下列程式碼示範如何將事件傳送到 EVR：
+展示者必須通知 EVR 各種事件。 若要這樣做，它會使用 EVR 的 [**IMediaEventSink**](/windows/win32/api/strmif/nn-strmif-imediaeventsink) 介面，此介面會在 EVR 呼叫展示者的 [**IMFTopologyServiceLookupClient：： InitServicePointers**](/windows/desktop/api/evr/nf-evr-imftopologyservicelookupclient-initservicepointers) 方法時取得。  (**IMediaEventSink** 介面最初是 DirectShow 介面，但同時用於 DirectShow EVR 和媒體基礎。 ) 下列程式碼示範如何將事件傳送至 EVR：
 
 
 ```C++
@@ -599,86 +563,17 @@ done:
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>事件</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="/windows/desktop/DirectShow/ec-complete"><strong>EC_COMPLETE</strong></a></td>
-<td>展示者已完成 MFVP_MESSAGE_ENDOFSTREAM 訊息之後的所有畫面格轉譯。<br/>
-<ul>
-<li><em>Param1</em>： HRESULT，指出作業的狀態。</li>
-<li><em>Param2</em>：未使用。</li>
-</ul>
-如需詳細資訊，請參閱 <a href="#end-of-stream">資料流程的結尾</a>。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/DirectShow/ec-display-changed"><strong>EC_DISPLAY_CHANGED</strong></a></td>
-<td>Direct3D 裝置已變更。<br/>
-<ul>
-<li><em>Param1</em>：未使用。</li>
-<li><em>Param2</em>：未使用。</li>
-</ul>
-如需詳細資訊，請參閱 <a href="#managing-the-direct3d-device">管理 Direct3D 裝置</a>。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/DirectShow/ec-errorabort"><strong>EC_ERRORABORT</strong></a></td>
-<td>發生錯誤，需要串流處理停止。<br/>
-<ul>
-<li><em>Param1</em>： <strong>HRESULT</strong> ，表示發生的錯誤。</li>
-<li><em>Param2</em>：未使用。</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/DirectShow/ec-processing-latency"><strong>EC_PROCESSING_LATENCY</strong></a></td>
-<td>指定展示者花在轉譯每個畫面格的時間量。 (選擇性。)<br/>
-<ul>
-<li><em>Param1</em>：常數 <strong>LONGLONG</strong> 值的指標，其中包含處理框架的時間長度（以 100-毫微秒為單位）。</li>
-<li><em>Param2</em>：未使用。</li>
-</ul>
-如需詳細資訊，請參閱 <a href="#processing-output">處理輸出</a>。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/DirectShow/ec-sample-latency"><strong>EC_SAMPLE_LATENCY</strong></a></td>
-<td>在轉譯範例中指定目前的延隔時間。 如果此值為正數，則樣本會落後排程。 如果值為負數，則範例會提前排程。 (選擇性。)<br/>
-<ul>
-<li><em>Param1</em>：常數 <strong>LONGLONG</strong> 值的指標，其中包含延隔時間（100-毫微秒單位）。</li>
-<li><em>Param2</em>：未使用。</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/DirectShow/ec-scrub-time"><strong>EC_SCRUB_TIME</strong></a></td>
-<td>如果播放率為零，則會在 <strong>EC_STEP_COMPLETE</strong> 後立即傳送。 此事件包含所顯示框架的時間戳記。<br/>
-<ul>
-<li><em>Param1</em>：時間戳記的較低32位。</li>
-<li><em>Param2</em>：時間戳記的上方32位。</li>
-</ul>
-如需詳細資訊，請參閱 <a href="#frame-stepping">框架逐步執行</a>。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/DirectShow/ec-step-complete"><strong>EC_STEP_COMPLETE</strong></a></td>
-<td>展示者已完成或取消框架步驟。<br/>
-<ul>
-<li><em>Param1</em>：未使用。</li>
-<li><em>Param2</em>：未使用。</li>
-</ul>
-如需詳細資訊，請參閱 <a href="#frame-stepping">框架逐步執行</a>。<br/>
-<blockquote>
-[!Note]<br />
-先前版本的檔所述的 <em>Param1</em> 不正確。 此參數不適用於此事件。
-</blockquote>
-<br/></td>
-</tr>
-</tbody>
-</table>
+
+| 事件 | 描述 | 
+|-------|-------------|
+| <a href="/windows/desktop/DirectShow/ec-complete"><strong>EC_COMPLETE</strong></a> | 展示者已完成 MFVP_MESSAGE_ENDOFSTREAM 訊息之後的所有畫面格轉譯。<br /><ul><li><em>Param1</em>： HRESULT，指出作業的狀態。</li><li><em>Param2</em>：未使用。</li></ul>如需詳細資訊，請參閱 <a href="#end-of-stream">資料流程的結尾</a>。<br /> | 
+| <a href="/windows/desktop/DirectShow/ec-display-changed"><strong>EC_DISPLAY_CHANGED</strong></a> | Direct3D 裝置已變更。<br /><ul><li><em>Param1</em>：未使用。</li><li><em>Param2</em>：未使用。</li></ul>如需詳細資訊，請參閱 <a href="#managing-the-direct3d-device">管理 Direct3D 裝置</a>。<br /> | 
+| <a href="/windows/desktop/DirectShow/ec-errorabort"><strong>EC_ERRORABORT</strong></a> | 發生錯誤，需要串流處理停止。<br /><ul><li><em>Param1</em>： <strong>HRESULT</strong> ，表示發生的錯誤。</li><li><em>Param2</em>：未使用。</li></ul> | 
+| <a href="/windows/desktop/DirectShow/ec-processing-latency"><strong>EC_PROCESSING_LATENCY</strong></a> | 指定展示者花在轉譯每個畫面格的時間量。 (選擇性。)<br /><ul><li><em>Param1</em>：常數 <strong>LONGLONG</strong> 值的指標，其中包含處理框架的時間長度（以 100-毫微秒為單位）。</li><li><em>Param2</em>：未使用。</li></ul>如需詳細資訊，請參閱 <a href="#processing-output">處理輸出</a>。<br /> | 
+| <a href="/windows/desktop/DirectShow/ec-sample-latency"><strong>EC_SAMPLE_LATENCY</strong></a> | 在轉譯範例中指定目前的延隔時間。 如果此值為正數，則樣本會落後排程。 如果值為負數，則範例會提前排程。 (選擇性。)<br /><ul><li><em>Param1</em>：常數 <strong>LONGLONG</strong> 值的指標，其中包含延隔時間（100-毫微秒單位）。</li><li><em>Param2</em>：未使用。</li></ul> | 
+| <a href="/windows/desktop/DirectShow/ec-scrub-time"><strong>EC_SCRUB_TIME</strong></a> | 如果播放率為零，則會在 <strong>EC_STEP_COMPLETE</strong> 後立即傳送。 此事件包含所顯示框架的時間戳記。<br /><ul><li><em>Param1</em>：時間戳記的較低32位。</li><li><em>Param2</em>：時間戳記的上方32位。</li></ul>如需詳細資訊，請參閱 <a href="#frame-stepping">框架逐步執行</a>。<br /> | 
+| <a href="/windows/desktop/DirectShow/ec-step-complete"><strong>EC_STEP_COMPLETE</strong></a> | 展示者已完成或取消框架步驟。<br /><ul><li><em>Param1</em>：未使用。</li><li><em>Param2</em>：未使用。</li></ul>如需詳細資訊，請參閱 <a href="#frame-stepping">框架逐步執行</a>。<br /><blockquote>[!Note]<br />先前版本的檔所述的 <em>Param1</em> 不正確。 此參數不適用於此事件。</blockquote><br /> | 
+
 
 
 
@@ -708,7 +603,7 @@ done:
 5.  配置 direct3d 表面的集區，如配置 [direct3d](#allocating-direct3d-surfaces)介面中所述。 混音器會在繪製合成的影片框架時使用這些表面。
 6.  藉由呼叫 [**SetOutputType**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-setoutputtype) （沒有旗標）來設定混音器上的輸出類型。 如果在步驟4中第一次呼叫 **SetOutputType** 成功，此方法應該會再次成功。
 
-如果混音器的類型不足， [**GetOutputAvailableType**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-getoutputavailabletype) 方法會傳回 **MF_E_NO_MORE_TYPES**。 如果展示器找不到適合混音器的輸出類型，就無法轉譯資料流程。 在該情況下，DirectShow 或媒體基礎可能會嘗試另一個串流格式。 因此，在找到有效的型別之前，展示者可能會在一個資料列中接收數 **MFVP_MESSAGE_INVALIDATEMEDIATYPE** 的訊息。
+如果混音器的類型不足， [**GetOutputAvailableType**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-getoutputavailabletype) 方法會傳回 **MF_E_NO_MORE_TYPES**。 如果展示器找不到適合混音器的輸出類型，就無法轉譯資料流程。 在此情況下，DirectShow 或媒體基礎可能會嘗試另一個資料流程格式。 因此，在找到有效的型別之前，展示者可能會在一個資料列中接收數 **MFVP_MESSAGE_INVALIDATEMEDIATYPE** 的訊息。
 
 混音器會自動 letterboxes 影片，將圖元外觀比例納入 (等同于來源和目的地的) 。 為了獲得最佳結果，表面寬度和高度和幾何光圈應等於您希望影片顯示在顯示器上的實際大小。 下圖說明此程式。
 
@@ -1580,9 +1475,9 @@ done:
 
 ## <a name="frame-stepping"></a>畫面逐步執行
 
-EVR 的設計是為了支援在 DirectShow 中逐步執行，並在媒體基礎中進行清理。 框架逐步執行和清除在概念上類似。 在這兩種情況下，應用程式一次都會要求一個影片畫面。 在內部，展示者會使用相同的機制來執行這兩項功能。
+EVR 的設計是為了支援在媒體基礎 DirectShow 和清除中的畫面格逐步執行。 框架逐步執行和清除在概念上類似。 在這兩種情況下，應用程式一次都會要求一個影片畫面。 在內部，展示者會使用相同的機制來執行這兩項功能。
 
-DirectShow 中的框架逐步執行方式如下：
+DirectShow 中的框架逐步執行運作方式如下：
 
 -   應用程式會呼叫 [**IVideoFrameStep：： Step**](/windows/win32/api/strmif/nf-strmif-ivideoframestep-step)。 *DwSteps* 參數中提供的步驟數目。 EVR 會將 **MFVP_MESSAGE_STEP** 訊息傳送給展示者，其中 (*ulParam*) 的訊息參數是步驟數目。
 -   如果應用程式呼叫 [**IVideoFrameStep：： CancelStep**](/windows/win32/api/strmif/nf-strmif-ivideoframestep-cancelstep) 或變更圖形狀態 (執行中、已暫停或已停止) ，EVR 就會傳送 **MFVP_MESSAGE_CANCELSTEP** 訊息。

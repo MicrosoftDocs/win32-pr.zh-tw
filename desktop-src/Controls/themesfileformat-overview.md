@@ -1,21 +1,21 @@
 ---
 title: 主題檔案格式
-description: 本檔討論主題 ( 的格式。主題) 檔。 主題檔案是一個 .ini 文字檔，可分為區段，以指定顯示在 Windows 桌面上的視覺元素。 區段名稱會以方括弧括住 ( \\ ) 在 .ini 檔案中。
+description: 本檔討論主題 ( 的格式。主題) 檔。 主題檔案是一種 .ini 文字檔，可劃分成區段，以指定顯示在 Windows 桌面上的視覺元素。 區段名稱會以括弧括住 .ini 檔案中的 ( \\ ) 。
 ms.assetid: 0b7b0ff7-f55a-4215-a2fd-6c3ea117d6e8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b61ba97172fc5aaddb912183130941337a149536
-ms.sourcegitcommit: 25e1fa2b3641ae13b79e0afdf9cb7a168d99e009
+ms.openlocfilehash: c67fc2d73e54e4f9c319108c2b29ed62fb58266f
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "103842852"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122472302"
 ---
 # <a name="theme-file-format"></a>主題檔案格式
 
-本檔討論主題 ( 的格式。主題) 檔。 主題檔案是一個 .ini 文字檔，可分為區段，以指定顯示在 Windows 桌面上的視覺元素。 區段名稱會以方括弧括住 \[ \] ， (.Ini 檔案中的) 。
+本檔討論主題 ( 的格式。主題) 檔。 主題檔案是一種 .ini 文字檔，可劃分成區段，以指定顯示在 Windows 桌面上的視覺元素。 區段名稱會以括弧括住 \[ \] ， () 在 .ini 檔案中。
 
-Windows 7 引進了新的檔案格式 themepack，可協助使用者共用主題。 您只能在 Windows 7 Home Premium 或更高版本的個人化主控台中選取主題，或只在安裝桌面元件時，在 Windows Server 2008 R2 上選取主題。
+Windows 7 引進了新的檔案格式（themepack），可協助使用者共用主題。 您只能在 Windows 7 家用進階版或更高版本中的個人化主控台中選取主題，或只在安裝桌面元件時 Windows Server 2008 R2 上選取主題。
 
 本文將討論下列主題。
 
@@ -40,7 +40,7 @@ Windows 7 引進了新的檔案格式 themepack，可協助使用者共用主題
 
 主題檔案可讓您變更某些桌面元素的外觀。 您可以透過兩種方式來建立或修改主題檔案：
 
--   修改主控台中的個人化或顯示設定，並將設定儲存為主題檔案。 如需相關指示，請參閱 Windows 說明。
+-   修改主控台中的個人化或顯示設定，並將設定儲存為主題檔案。 如需相關指示，請參閱您的 Windows 說明。
 -   手動建立一個主題檔，以進一步控制您主題的詳細資料。
 
 若要讓您的主題可供其他使用者使用，您必須提供您的主題檔案，以及背景圖片、螢幕保護裝置和圖示檔案。 您可以使用 [主題套件](#theme-packs)來完成此動作。
@@ -64,8 +64,8 @@ Windows 7 引進了新的檔案格式 themepack，可協助使用者共用主題
 
 | 元素                                                                                                                    | 描述                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 |----------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| DisplayName = 名稱<br/> 或<br/> DisplayName = @module 、-stringid 指定<br/> 範例： DisplayName = @themeui.dll 、-2013 | DisplayName 是將會顯示在個人化主控台中的主題名稱。 它可以是字串或當地語系化名稱的參考。<br/> 此為選擇性欄位。 如果遺失，則會使用主題檔案名作為主題名稱。<br/>                                                                                                                                                                                                                                         |
-| BrandImage = 影像的路徑<br/> 範例： BrandImage = c： \\ Fabrikam \\brand.png<br/>                                 | **Windows 7 和更新版本** BrandImage 會指定在個人化主控台的主題預覽中所併入之品牌化圖形檔案的路徑。<br/> 圖示圖形必須是 PNG 檔。 圖形會調整為80x240 圖元，因此建議您提供該大小的影像。 主題資源庫會遵循您品牌圖示的透明區域。<br/> 此為選擇性欄位。 如果遺失，則不會顯示任何標誌作為主題圖示。<br/> |
+| DisplayName = 名稱<br/> 或<br/> DisplayName = @module 、-stringid 指定<br/> 範例： DisplayName = @themeui.dll 、-2013 | DisplayName 是將會顯示在個人化主控台中的主題名稱。 它可以是字串或當地語系化名稱的參考。<br/> 這是選擇性欄位。 如果遺失，則會使用主題檔案名作為主題名稱。<br/>                                                                                                                                                                                                                                         |
+| BrandImage = 影像的路徑<br/> 範例： BrandImage = c： \\ Fabrikam \\brand.png<br/>                                 | **Windows 7 和更新版本** BrandImage 會指定在個人化主控台的主題預覽中所併入之品牌化圖形檔案的路徑。<br/> 圖示圖形必須是 PNG 檔。 圖形會調整為80x240 圖元，因此建議您提供該大小的影像。 主題資源庫會遵循您品牌圖示的透明區域。<br/> 這是選擇性欄位。 如果遺失，則不會顯示任何標誌作為主題圖示。<br/> |
 
 
 
@@ -92,7 +92,7 @@ DefaultValue=%ProgramFiles%\Fabrikam\MyApp.exe,0
 
 
 
-以下是 Windows 7 中預設桌面圖示的值。
+以下是 Windows 7 中的預設桌面圖示值。
 
 
 ```
@@ -123,7 +123,7 @@ Empty=%SystemRoot%\System32\imageres.dll,-55
 
  
 
-您可以自訂元素的色彩，例如捲軸、文字和按鈕。 這個主題檔會指定要針對這些元素變更的 RGB 值。 這些值會覆寫視覺化樣式的預設值，而且當您的主題是以 Windows 傳統、Windows 7 Basic 或高對比主題為基礎時，就會使用這些值。
+您可以自訂元素的色彩，例如捲軸、文字和按鈕。 這個主題檔會指定要針對這些元素變更的 RGB 值。 這些值會覆寫視覺化樣式的預設值，並在您的主題以 Windows 傳統、Windows 7 基本或高對比主題為基礎時使用。
 
 以下是如何設定色彩的範例。
 
@@ -236,50 +236,15 @@ WallpaperStyle=2
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>屬性</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Interval = 毫秒數</td>
-<td>必要。 間隔是決定背景變更頻率的數位。 它是以毫秒為單位來測量。</td>
-</tr>
-<tr class="even">
-<td>隨機 = 0 或1</td>
-<td>必要。 隨機識別是否為背景洗牌。<br/> 0 = 停用<br/> 1 = 啟用<br/></td>
-</tr>
-<tr class="odd">
-<td>Rss 摘要 = RSS 摘要的 URL</td>
-<td>如果未指定 ImagesRootPath，則為必要項。 Rss 摘要指定要作為背景投影片放映使用的 RSS 摘要。 若要讓摘要能夠運作，您必須參考符合 &quot; &quot; <a href="/previous-versions/windows/desktop/ms684701(v=vs.85)">Windows RSS 平臺</a>所使用之主機殼標準的高解析度映射。 由於這項限制，必須以手動方式建立包含 RSS 摘要的主題檔案。 <br/>
-<blockquote>
-[!Note]<br />
-您無法同時指定 Rss 摘要和 ImagesRootPath。
-</blockquote>
-<br/> <br/></td>
-</tr>
-<tr class="even">
-<td>ImagesRootPath = 映射資料夾的路徑</td>
-<td>如果未指定 Rss 摘要，則為必要項。 ImagesRootPath 指定一組您想要用來做為背景投影片放映的影像路徑。 子資料夾中的影像不包含在投影片放映中。<br/> ImagesRootPath 支援路徑中的環境變數替代。<br/>
-<blockquote>
-[!Note]<br />
-您無法同時指定 Rss 摘要和 ImagesRootPath。
-</blockquote>
-<br/> <br/></td>
-</tr>
-<tr class="odd">
-<td>專案<em>N</em>路徑 = 路徑 (s) 至特定映射 (s) </td>
-<td>與 ImagesRootPath 搭配使用。 <br/> 專案<em>N</em>路徑指定特定影像的路徑，讓您可以將投影片放映限制為特定影像，而不是資料夾中的所有影像。 如果未指定路徑，則會在投影片放映中使用 ImagesRootPath 路徑中的所有影像，包括建立和安裝主題之後加入的影像。<br/> 專案<em>N</em>路徑支援路徑中的環境變數替代。 <em>N</em> 為0、1、2等等。 <br/></td>
-</tr>
-</tbody>
-</table>
+
+| 屬性 | 描述 | 
+|-----------|-------------|
+| Interval = 毫秒數 | 必要。 間隔是決定背景變更頻率的數位。 它是以毫秒為單位來測量。 | 
+| 隨機 = 0 或1 | 必要。 隨機識別是否為背景洗牌。<br /> 0 = 停用<br /> 1 = 啟用<br /> | 
+| Rss 摘要 = RSS 摘要的 URL | 如果未指定 ImagesRootPath，則為必要項。 Rss 摘要指定要作為背景投影片放映使用的 RSS 摘要。 若要讓摘要能夠運作，您必須參考符合<a href="/previous-versions/windows/desktop/ms684701(v=vs.85)">Windows RSS 平臺</a>所使用之「主機殼」標準的高解析度映射。 由於這項限制，必須以手動方式建立包含 RSS 摘要的主題檔案。 <br /><blockquote>[!Note]<br />您無法同時指定 Rss 摘要和 ImagesRootPath。</blockquote><br /><br /> | 
+| ImagesRootPath = 映射資料夾的路徑 | 如果未指定 Rss 摘要，則為必要項。 ImagesRootPath 指定一組您想要用來做為背景投影片放映的影像路徑。 子資料夾中的影像不包含在投影片放映中。<br /> ImagesRootPath 支援路徑中的環境變數替代。<br /><blockquote>[!Note]<br />您無法同時指定 Rss 摘要和 ImagesRootPath。</blockquote><br /><br /> | 
+| 專案<em>N</em>路徑 = 路徑 (s) 至特定映射 (s)  | 與 ImagesRootPath 搭配使用。 <br /> 專案<em>N</em>路徑指定特定影像的路徑，讓您可以將投影片放映限制為特定影像，而不是資料夾中的所有影像。 如果未指定路徑，則會在投影片放映中使用 ImagesRootPath 路徑中的所有影像，包括建立和安裝主題之後加入的影像。<br /> 專案<em>N</em>路徑支援路徑中的環境變數替代。 <em>N</em> 為0、1、2等等。 <br /> | 
+
 
 
 
@@ -421,9 +386,9 @@ Size=NormalSize
 
 
 
-將 Path 元素加入至 msstyles 檔案是選擇性的。 如果您提供路徑，您應該從主題檔案中移除 [度量] 和 [色彩] 區段。 移除這些區段時，主題的色彩、字型和大小會來自 msstyles 檔案，並符合 msstyles 作者的意圖。 無法移除 [度量] 和 [色彩] 區段可能會導致 Windows 或應用程式有繪製問題。
+將 Path 元素加入至 msstyles 檔案是選擇性的。 如果您提供路徑，您應該從主題檔案中移除 [度量] 和 [色彩] 區段。 移除這些區段時，主題的色彩、字型和大小會來自 msstyles 檔案，並符合 msstyles 作者的意圖。 無法移除計量和色彩區段可能會導致 Windows 或應用程式有繪製問題。
 
-**Windows Vista/windows 7：** 當路徑指向 Aero. msstyles 時，您可以指定所需的半透明色彩，如下列範例所示。
+**Windows Vista/Windows 7：** 當路徑指向 Aero. msstyles 時，您可以指定所需的半透明色彩，如下列範例所示。
 
 **Windows 7：** 當路徑指向 Aero. msstyles 時，您也可以指定所需的透明度值，如下列範例所示。
 
@@ -456,7 +421,7 @@ Transparency=1
 
 
 
-以下顯示 Windows 傳統主題的 >visualstyles 一節。
+以下顯示 Windows 傳統主題的 >visualstyles 區段。
 
 
 ```
@@ -530,7 +495,7 @@ SchemeName 值會指定音效配置名稱或當地語系化的音效配置名稱
 ### <a name="boot-section"></a>\[開機 \] 區段
 
 > [!Note]  
-> **螢幕保護裝置在 Windows 10 年度更新版和之後已淘汰。**
+> **螢幕保護裝置在 Windows 10 周年更新和更新版中已淘汰。**
 
  
 
@@ -539,7 +504,7 @@ SchemeName 值會指定音效配置名稱或當地語系化的音效配置名稱
 
  
 
-在 [主題] 檔案中，您可以指定 Windows 要使用的螢幕保護裝置。 以下範例說明這點。
+在主題檔案中，您可以指定要使用 Windows 的螢幕保護裝置。 以下範例說明這點。
 
 
 ```
@@ -716,10 +681,10 @@ Transparency=1
 
 
 
-| 檔案類型    | 分機                           |
+| 檔案類型    | 延伸模組                           |
 |--------------|-------------------------------------|
 | 佈景主題        | .theme                              |
-| Image        | .jpg、jpeg、.bmp、.dib、.tif、.png |
+| 映像        | .jpg、jpeg、.bmp、.dib、.tif、.png |
 | 音效        | .wav                                |
 | 滑鼠游標 | 。                          |
 | 桌面圖示 | .ico                                |

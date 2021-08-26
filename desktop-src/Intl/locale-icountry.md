@@ -4,12 +4,12 @@ ms.assetid: fd3a85cf-7227-497d-9f52-9e4cd15d9ad6
 title: LOCALE_IDIALINGCODE 和 LOCALE_ICOUNTRY
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e70e515ed564a1e18e6f7358485cb592584f48ab
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 47aad609d35622bd3baff3e05933dd03aaa06b98879d9fa09cc3d8a02cef81f6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104386079"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120106838"
 ---
 # <a name="locale_idialingcode-and-locale_icountry"></a>地區設定 \_ IDIALINGCODE 和地區設定 \_ ICOUNTRY
 

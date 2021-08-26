@@ -4,12 +4,12 @@ ms.assetid: 1465bd41-94f9-4e19-8236-00e7a2d6f54a
 title: DXVA2_VideoProc 範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8497a241baf07b76148a5bc2e7ddb4dd5e878e86
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d8fc4be1bad6a3955af255cb083a4595ecedfd30
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104317975"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122473924"
 ---
 # <a name="dxva2_videoproc-sample"></a>DXVA2 \_ VideoProc 範例
 
@@ -63,106 +63,18 @@ DXVA2 \_ VideoProc 範例會建立 Windows 應用程式。
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Key</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>F1</td>
-<td>調整 Alpha 值。<br/>
-<ul>
-<li>向上：增加兩個數據流的平面 Alpha。</li>
-<li>向下：減少這兩個數據流的平面 Alpha。</li>
-<li>RIGHT：增加子流的圖元 Alpha。</li>
-<li>左方：減少子流的圖元 Alpha。</li>
-</ul>
-子流色彩：白色<br/></td>
-</tr>
-<tr class="even">
-<td>F2</td>
-<td>調整主要資料流程的來源區域 (縮放) 。<br/>
-<ul>
-<li>向上：提高) 的垂直 (放大。</li>
-<li>下：減少垂直 (縮小) 。</li>
-<li>RIGHT：水準增加 (放大) 。</li>
-<li>左方：減少水準 (放大) 。</li>
-</ul>
-子流色彩：紅色<br/></td>
-</tr>
-<tr class="odd">
-<td>F3</td>
-<td>移動主要資料流程的來源區域。<br/>
-<ul>
-<li>向上：向上移動。</li>
-<li>向下：下移。</li>
-<li>RIGHT：右移。</li>
-<li>左方：左移。</li>
-</ul>
-子流色彩：黃色<br/></td>
-</tr>
-<tr class="even">
-<td>F4</td>
-<td>調整主要資料流程的目的地區域。<br/>
-<ul>
-<li>向上：垂直增加。</li>
-<li>向下：垂直減少。</li>
-<li>RIGHT：水準增加。</li>
-<li>左方：水準減少。</li>
-</ul>
-子流色彩：綠色<br/></td>
-</tr>
-<tr class="odd">
-<td>F5</td>
-<td>移動主要資料流程的目的地區域。<br/>
-<ul>
-<li>向上：向上移動。</li>
-<li>向下：下移。</li>
-<li>RIGHT：右移。</li>
-<li>左方：左移。</li>
-</ul>
-子流色彩：青色<br/></td>
-</tr>
-<tr class="even">
-<td>F6</td>
-<td>變更背景色彩或色彩空間。<br/>
-<ul>
-<li>向上、向下：迴圈顯示色彩空間。</li>
-<li>靠右、靠左：迴圈顯示背景色彩。</li>
-</ul>
-子流色彩：藍色<br/></td>
-</tr>
-<tr class="odd">
-<td>F7</td>
-<td>調整亮度和對比。<br/>
-<ul>
-<li>向上：提高亮度。</li>
-<li>減少：降低亮度。</li>
-<li>RIGHT：提高對比。</li>
-<li>左方：減少對比。</li>
-</ul>
-子流色彩：洋紅<br/></td>
-</tr>
-<tr class="even">
-<td>F8</td>
-<td>調整色調和飽和度。<br/>
-<ul>
-<li>向上：提高色調。</li>
-<li>DOWN：減少色調。</li>
-<li>RIGHT：提高飽和度。</li>
-<li>左方：減少飽和度。</li>
-</ul>
-子流色彩：黑色<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Key | 描述 | 
+|-----|-------------|
+| F1 | 調整 Alpha 值。<br /><ul><li>向上：增加兩個數據流的平面 Alpha。</li><li>向下：減少這兩個數據流的平面 Alpha。</li><li>RIGHT：增加子流的圖元 Alpha。</li><li>左方：減少子流的圖元 Alpha。</li></ul>子流色彩：白色<br /> | 
+| F2 | 調整主要資料流程的來源區域 (縮放) 。<br /><ul><li>向上：提高) 的垂直 (放大。</li><li>下：減少垂直 (縮小) 。</li><li>RIGHT：水準增加 (放大) 。</li><li>左方：減少水準 (放大) 。</li></ul>子流色彩：紅色<br /> | 
+| F3 | 移動主要資料流程的來源區域。<br /><ul><li>向上：向上移動。</li><li>向下：下移。</li><li>RIGHT：右移。</li><li>左方：左移。</li></ul>子流色彩：黃色<br /> | 
+| F4 | 調整主要資料流程的目的地區域。<br /><ul><li>向上：垂直增加。</li><li>向下：垂直減少。</li><li>RIGHT：水準增加。</li><li>左方：水準減少。</li></ul>子流色彩：綠色<br /> | 
+| F5 | 移動主要資料流程的目的地區域。<br /><ul><li>向上：向上移動。</li><li>向下：下移。</li><li>RIGHT：右移。</li><li>左方：左移。</li></ul>子流色彩：青色<br /> | 
+| F6 | 變更背景色彩或色彩空間。<br /><ul><li>向上、向下：迴圈顯示色彩空間。</li><li>靠右、靠左：迴圈顯示背景色彩。</li></ul>子流色彩：藍色<br /> | 
+| F7 | 調整亮度和對比。<br /><ul><li>向上：提高亮度。</li><li>減少：降低亮度。</li><li>RIGHT：提高對比。</li><li>左方：減少對比。</li></ul>子流色彩：洋紅<br /> | 
+| F8 | 調整色調和飽和度。<br /><ul><li>向上：提高色調。</li><li>DOWN：減少色調。</li><li>RIGHT：提高飽和度。</li><li>左方：減少飽和度。</li></ul>子流色彩：黑色<br /> | 
+
 
 
 
@@ -184,7 +96,7 @@ DXVA2 \_ VideoProc 範例會建立 Windows 應用程式。
 
 ## <a name="downloading-the-sample"></a>下載範例
 
-此範例可在 [Windows 傳統範例 github 存放庫](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/multimedia/mediafoundation/evrpresenter)中取得。
+此範例可在[Windows 傳統範例 github 存放庫](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/multimedia/mediafoundation/evrpresenter)中取得。
 
 ## <a name="related-topics"></a>相關主題
 

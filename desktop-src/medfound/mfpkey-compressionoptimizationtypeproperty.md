@@ -4,12 +4,12 @@ ms.assetid: 9449b5fa-4f13-4c33-bfdf-611720e8dd77
 title: 'MFPKEY_COMPRESSIONOPTIMIZATIONTYPE 屬性 (Wmcodecdsp) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5c7171990280fe004b12c306a09af3b617ba2de0a7cfa274edb3d9191b16a886
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e140a854999a5c634620d98958e40832acbe9439
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118242877"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122471724"
 ---
 # <a name="mfpkey_compressionoptimizationtype-property"></a>MFPKEY \_ COMPRESSIONOPTIMIZATIONTYPE 屬性
 
@@ -33,38 +33,12 @@ VT \_ I4
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>值</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>0</td>
-<td>編解碼器不會強制優化，而且會使用其他屬性指定的任何功能。 在許多情況下，編解碼器將會使用內部邏輯來判斷未指定的設定。 這是預設值。</td>
-</tr>
-<tr class="even">
-<td>1</td>
-<td>啟用將產生最佳視覺品質的功能。使用此值會設定編解碼器，就如同您已設定下列屬性：<br/>
-<ul>
-<li><a href="mfpkey-bdeltaqpproperty.md">MFPKEY_BDELTAQP</a> = 1</li>
-<li><a href="mfpkey-complexityexproperty.md">MFPKEY_COMPLEXITYEX</a> = 3</li>
-<li><a href="mfpkey-loopfilterproperty.md">MFPKEY_LOOPFILTER</a> = 1</li>
-<li><a href="mfpkey-motionmatchmethodproperty.md">MFPKEY_MOTIONMATCHMETHOD</a> =-1</li>
-<li><a href="mfpkey-motionsearchlevelproperty.md">MFPKEY_MOTIONSEARCHLEVEL</a> = 1</li>
-<li><a href="mfpkey-motionsearchrangeproperty.md">MFPKEY_MOTIONSEARCHRANGE</a> =-1</li>
-<li><a href="mfpkey-numbframesproperty.md">MFPKEY_NUMBFRAMES</a> = 1</li>
-</ul>
-如果您在上一個清單中設定任何屬性，您設定的值會覆寫與此設定相關聯的值，但 <a href="mfpkey-complexityexproperty.md">MFPKEY_COMPLEXITYEX</a>除外。<br/></td>
-</tr>
-</tbody>
-</table>
+
+| 值 | 描述 | 
+|-------|-------------|
+| 0 | 編解碼器不會強制優化，而且會使用其他屬性指定的任何功能。 在許多情況下，編解碼器將會使用內部邏輯來判斷未指定的設定。 這是預設值。 | 
+| 1 | 啟用將產生最佳視覺品質的功能。使用此值會設定編解碼器，就如同您已設定下列屬性：<br /><ul><li><a href="mfpkey-bdeltaqpproperty.md">MFPKEY_BDELTAQP</a> = 1</li><li><a href="mfpkey-complexityexproperty.md">MFPKEY_COMPLEXITYEX</a> = 3</li><li><a href="mfpkey-loopfilterproperty.md">MFPKEY_LOOPFILTER</a> = 1</li><li><a href="mfpkey-motionmatchmethodproperty.md">MFPKEY_MOTIONMATCHMETHOD</a> =-1</li><li><a href="mfpkey-motionsearchlevelproperty.md">MFPKEY_MOTIONSEARCHLEVEL</a> = 1</li><li><a href="mfpkey-motionsearchrangeproperty.md">MFPKEY_MOTIONSEARCHRANGE</a> =-1</li><li><a href="mfpkey-numbframesproperty.md">MFPKEY_NUMBFRAMES</a> = 1</li></ul>如果您在上一個清單中設定任何屬性，您設定的值會覆寫與此設定相關聯的值，但 <a href="mfpkey-complexityexproperty.md">MFPKEY_COMPLEXITYEX</a>除外。<br /> | 
+
 
 
 

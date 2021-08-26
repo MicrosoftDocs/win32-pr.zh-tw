@@ -4,12 +4,12 @@ description: 這項技術可讓用戶端取得視窗的自訂物件。 伺服器
 ms.assetid: 91713fe5-f03f-464e-88ee-9d8d66d5b19d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6c2c5c6ec194ca643475444feb5839c02d3fa890
-ms.sourcegitcommit: 2e9db3c7d9a3dbea15196b03c883846fad6f32be
+ms.openlocfilehash: ed99db4641235ceee57688865710c19a41f0a517d70d4601d138150cb88dd470
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "104373658"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120098088"
 ---
 # <a name="use-objid_nativeom-to-expose-a-native-interface-for-a-window"></a>使用 OBJID \_ NATIVEOM 來公開視窗的原生介面
 
@@ -35,9 +35,9 @@ ms.locfileid: "104373658"
 
 許多 Microsoft Office 元件都支援此技術。 如需詳細資訊，請參閱 [**AccessibleObjectFromWindow**](/windows/desktop/api/Oleacc/nf-oleacc-accessibleobjectfromwindow)。
 
- 
+ 
 
- 
+ 
 
 
 

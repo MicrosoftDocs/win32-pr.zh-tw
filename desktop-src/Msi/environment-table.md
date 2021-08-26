@@ -4,12 +4,12 @@ ms.assetid: f7106ed6-706f-4e57-989f-030066bcecd3
 title: 環境資料表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d7a4db2e33c01685bdc40475f659e1b03b69b6c6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: de1fe52e8222bfde3e451b6ccc543511822e0d511a2ce1ce2b6bee8bc4fd117f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106987482"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120129598"
 ---
 # <a name="environment-table"></a>環境資料表
 
@@ -22,7 +22,7 @@ ms.locfileid: "106987482"
 | Column      | 類型                         | 答案 | Nullable |
 |-------------|------------------------------|-----|----------|
 | 環境 | [識別碼](identifier.md) | Y   | N        |
-| Name        | [Text](text.md)             | N   | N        |
+| 名稱        | [Text](text.md)             | N   | N        |
 | 值       | [格式 化](formatted.md)   | N   | Y        |
 | 元件\_ | [識別碼](identifier.md) | N   | N        |
 
@@ -54,7 +54,7 @@ ms.locfileid: "106987482"
 | \+                             | 如果環境變數不存在，請建立環境變數，然後在安裝期間進行設定。 如果環境變數的值已存在，則不會對其產生任何影響。                                                                                                                                                                                                                                                                                                                         |
 | \-                             | 移除元件時，移除環境變數。 這個符號可以與任何前置詞結合。                                                                                                                                                                                                                                                                                                                                                                                      |
 | !                              | 在安裝期間移除環境變數。 如果變數的名稱和值與環境資料表的 [名稱] 和 [值] 欄位中的專案相符，則安裝程式只會在安裝期間移除環境變數。 如果您想要移除環境變數（不論其值為何），請使用 '！ ' 語法，並將 [值] 欄位保留空白。                                                                                                                    |
-| \*                             | 這個前置詞會與 Windows 2000 搭配使用，指出名稱是指系統內容變數。 如果沒有星號存在，安裝程式會將變數寫入使用者的環境。 這個符號可以與任何前置詞結合。 在每一部電腦的 [安裝內容](installation-context.md) 中，用於安裝的封裝應該包含 \* 在名稱資料行中，以將環境變數寫入機器的環境中。 如需詳細資訊，請參閱＜備註＞。 |
+| \*                             | 這個前置詞會搭配 Windows 2000 使用，以表示名稱是指系統內容變數。 如果沒有星號存在，安裝程式會將變數寫入使用者的環境。 這個符號可以與任何前置詞結合。 在每一部電腦的 [安裝內容](installation-context.md) 中，用於安裝的封裝應該包含 \* 在名稱資料行中，以將環境變數寫入機器的環境中。 如需詳細資訊，請參閱＜備註＞。 |
 | =-                             | 環境變數會在安裝時設定，並在卸載時移除。 這是一般的行為。                                                                                                                                                                                                                                                                                                                                                                                                 |
 | !-                             | 在安裝或卸載期間移除環境變數。                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | =+ !+<br/> !=<br/> | 這些不是有效的首碼                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
@@ -97,7 +97,7 @@ ms.locfileid: "106987482"
 
 若要讓安裝程式設定環境變數，必須在[InstallExecuteSequence 資料表](installexecutesequence-table.md)中列出[WriteEnvironmentStrings 動作](writeenvironmentstrings-action.md)和[RemoveEnvironmentStrings 動作](removeenvironmentstrings-action.md)。
 
-請注意，執行 [WriteEnvironmentStrings 動作](writeenvironmentstrings-action.md) 或 [RemoveEnvironmentStrings 動作](removeenvironmentstrings-action.md) 時，環境變數不會變更進行中的安裝。 在 Windows 2000 上，這項資訊會儲存在登錄中，而訊息則會在安裝完成時通知系統變更。 新的進程或另一個檢查這些訊息的程式會使用新的環境變數。
+請注意，執行 [WriteEnvironmentStrings 動作](writeenvironmentstrings-action.md) 或 [RemoveEnvironmentStrings 動作](removeenvironmentstrings-action.md) 時，環境變數不會變更進行中的安裝。 在 Windows 2000 上，此資訊會儲存在登錄中，而當安裝完成時，訊息會通知系統有變更。 新的進程或另一個檢查這些訊息的程式會使用新的環境變數。
 
 使用環境資料表修改 path 環境變數時，請勿嘗試將整個新路徑明確地輸入到 [值] 欄位中。 請改為將現有的路徑加上首碼或附加值和分隔符號 (; ) \[ ~ \] 。 如果未 \[ ~ \] 出現在 [值] 欄位中，則會遺失現有的路徑資訊，而且安裝 .msi 檔案可能會導致電腦無法開機。 Path 變數通常是使用語法： \[ ~ \] ;價值。
 

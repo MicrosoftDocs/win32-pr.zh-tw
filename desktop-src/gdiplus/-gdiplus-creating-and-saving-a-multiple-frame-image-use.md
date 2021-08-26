@@ -4,12 +4,12 @@ ms.assetid: 9b61e01d-0a98-4ac3-865e-7570ed0c3cde
 title: 建立和儲存多框架影像
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 532a8fc8f8fc7e8742651f3d3853e001d493609b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ecd99bc2d5f21c143b66ccc201f9a96a93f3437516a6fd1cdd03e521a00ceb59
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104115240"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120115118"
 ---
 # <a name="creating-and-saving-a-multiple-frame-image"></a>建立和儲存多框架影像
 

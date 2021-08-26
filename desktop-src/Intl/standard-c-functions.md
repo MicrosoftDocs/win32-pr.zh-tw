@@ -4,12 +4,12 @@ ms.assetid: a86626c1-7f90-4924-bfdd-384729bd0cc5
 title: 標準 C 函數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f6247b3707f96908ef16d887462ba06573fd8dd7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7f0e576dd8ad506d3d0f3379c161526dd7b9330542ca1cc575c95e3eda8e7dd4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103852788"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120130158"
 ---
 # <a name="standard-c-functions"></a>標準 C 函數
 
@@ -29,14 +29,14 @@ ms.locfileid: "103852788"
 
 
 
-請注意，Tchar .h 和 Wchar .h 檔案都是必要的，而且 UNICODE 變數上的前置底線 \_ 也是必要的。 這是標準 C 程式庫特有的命名法。 未以底線轉譯的「UNICODE」適用于 Microsoft Windows 執行時間。
+請注意，Tchar .h 和 Wchar .h 檔案都是必要的，而且 UNICODE 變數上的前置底線 \_ 也是必要的。 這是標準 C 程式庫特有的命名法。 「UNICODE」在沒有底線的情況下呈現，適用于 Microsoft Windows 執行時間。
 
 [Wcstombs](/cpp/c-runtime-library/reference/wcstombs-wcstombs-l)和[mbstowcs](/cpp/c-runtime-library/reference/mbstowcs-s-mbstowcs-s-l)函式可以從標準 C 程式庫所支援的字元集轉換成 Unicode 和回來，但有一些限制。 如需將字串轉換成 Unicode 和從 Unicode 轉譯的詳細資訊，請參閱 [字串類型之間的轉譯](translation-between-string-types.md)。
 
 Tchar 中定義的 [printf](/cpp/c-runtime-library/reference/printf-printf-l-wprintf-wprintf-l) 函數支援與 >strsafe.h 相同的格式規格，例如 [**StringCbPrintf**](/windows/win32/api/strsafe/nf-strsafe-stringcbprintfa)。 同樣地，Tchar 會定義 [wprintf](/cpp/c-runtime-library/reference/printf-printf-l-wprintf-wprintf-l) 函式，其中格式字串本身是 Unicode 字串。
 
 > [!Caution]  
-> 不佳的緩衝區處理暗喻著在涉及緩衝區溢位的許多安全性問題中。 請參閱 [>strsafe.h 參考](../menurc/strsafe-ovw.md)。 >strsafe.h 中定義的函式會在程式碼中為適當的緩衝區處理提供額外的處理。 它們的目的是要取代其內建的 C/c + + 對應專案，以及特定的 Microsoft Windows 實作為方案。 如需詳細資訊，請參閱 [安全性考慮：國際化功能](security-considerations--international-features.md)。
+> 不佳的緩衝區處理暗喻著在涉及緩衝區溢位的許多安全性問題中。 請參閱 [>strsafe.h 參考](../menurc/strsafe-ovw.md)。 >strsafe.h 中定義的函式會在程式碼中為適當的緩衝區處理提供額外的處理。 它們的目的是要取代其內建的 c/c + + 對應專案，以及特定的 Microsoft Windows 的實作為方案。 如需詳細資訊，請參閱 [安全性考慮：國際化功能](security-considerations--international-features.md)。
 
  
 
