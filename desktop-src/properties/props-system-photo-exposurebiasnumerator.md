@@ -4,18 +4,18 @@ ms.assetid: 717808cb-7f73-4543-bc07-2ab252792b91
 title: ExposureBiasNumerator
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1e0e12893d87de153189049d62e10bcfcad2c95f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 25c791c5ed25248aa58ef00fb2751be2cf7a0d201e8473fd2dfabc700f527508
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106989368"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120112058"
 ---
 # <a name="systemphotoexposurebiasnumerator"></a>ExposureBiasNumerator
 
 PKEY \_ 相片 ExposureBias 的分子 \_ 。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

@@ -4,12 +4,12 @@ ms.assetid: 44479f5d-2e92-4802-a633-3e0bb7d61e94
 title: 使用裝置電源 API
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8cabd7a54efc0979360a863dc9c0cf16d69d8d22
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1aff8239c1cd0ffc8d5e8abaf0133a9ca42bb3a01a5b6fc2acef7850929a8484
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104513393"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120032768"
 ---
 # <a name="using-the-device-power-api"></a>使用裝置電源 API
 

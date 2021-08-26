@@ -4,12 +4,12 @@ ms.assetid: 9739efa5-8b88-4f9c-983d-806968caf9d5
 title: NLS：國際化功能變數名稱轉換範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 90173b1ea6bd35b89d2cd6d6b723e419c97e7a77
-ms.sourcegitcommit: 9c8ddec1e955f181beecad0478c1fb79013b5e9d
+ms.openlocfilehash: 905c8eb11d4de1a5118a873df845feae2687d1ab44de2129f8be30a0c6e92217
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "106993761"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120040888"
 ---
 # <a name="nls-internationalized-domain-name-conversion-sample"></a>NLS：國際化功能變數名稱轉換範例
 

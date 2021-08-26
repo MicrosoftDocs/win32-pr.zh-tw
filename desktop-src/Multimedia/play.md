@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dbf262db152677ef5a2f29de9526152c1d48d4c9
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2da0df530f1c7a0166dcbb7c852fe491127a9e187d1cb6cb953ec46b2533ac00
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106965709"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120038048"
 ---
 # <a name="play-command"></a>play 命令
 
@@ -128,7 +128,7 @@ play mysound from 1000 to 2000 notify
 
 <dl> <dt>
 
-[Mci](mci.md)
+[MCI](mci.md)
 </dt> <dt>
 
 [MCI 命令字串](mci-command-strings.md)

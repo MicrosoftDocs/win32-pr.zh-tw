@@ -14,16 +14,16 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 3e7b1f7cf2f09fa20f7bf19b15e82f536ca0aa50
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 9c04b39e6b8a4ad89500fc50d0236136362cd4ec48f221461c51cd6d724b981c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970111"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120077498"
 ---
 # <a name="releasedhcpleaseall-method-of-the-win32_networkadapterconfiguration-class"></a>Win32 >networkadapterconfiguration 類別的 >releasedhcpleaseall 方法 \_
 
-**>releasedhcpleaseall** [WMI 類別](/windows/desktop/WmiSdk/retrieving-a-class)靜態方法會釋放系結至所有啟用 DHCP 之網路介面卡的 IP 位址。
+**>Releasedhcpleaseall** [WMI 類別](/windows/desktop/WmiSdk/retrieving-a-class)靜態方法會釋放系結至所有啟用 DHCP 之網路介面卡的 IP 位址。
 
 > [!Note]  
 > 警告：如果本機電腦系統上已啟用 DHCP，此選項將會終止所有的 DHCP TCP/IP 連接。

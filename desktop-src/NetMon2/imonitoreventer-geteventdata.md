@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Netmon.h
-ms.openlocfilehash: be1654c38f51fa62909e10c12900c087bf0842fd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3a089e57ac5f66187f97dfa6ae7533aeda620632bdbf35c7b5bf3a34d4654b0c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191276"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120037368"
 ---
 # <a name="imonitoreventergeteventdata-method"></a>IMonitorEventer：： GetEventData 方法
 

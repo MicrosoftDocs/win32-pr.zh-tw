@@ -4,12 +4,12 @@ ms.assetid: 218883c5-9a26-4733-8308-1827cf1f2cd7
 title: 'MFNETSOURCE_PROXYEXCEPTIONLIST 屬性 (Mfidl) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 591f7036491964928937f2b48b0656e60f9a20f3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4e87c07068d31cdd5e9762dab14e2a61edbe9c8f90f8750acc1b23c851ad47c1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106977899"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120113488"
 ---
 # <a name="mfnetsource_proxyexceptionlist-property"></a>MFNETSOURCE \_ PROXYEXCEPTIONLIST 屬性
 
@@ -43,8 +43,8 @@ VT \_ LPWSTR
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                     |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                               |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                     |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                               |
 | 標頭<br/>                   | <dl> <dt>Mfidl。h</dt> </dl> |
 
 

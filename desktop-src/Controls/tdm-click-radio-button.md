@@ -3,7 +3,7 @@ title: 'TDM_CLICK_RADIO_BUTTON 訊息 (Commctrl .h) '
 description: 模擬選項按鈕在工作對話方塊中按一下的動作。
 ms.assetid: ad1616fc-f64d-4575-8bd1-7ce63185d725
 keywords:
-- TDM_CLICK_RADIO_BUTTON message Windows 控制項
+- TDM_CLICK_RADIO_BUTTON 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b76d465b1b937359a3d312a401914d497f9c9b22
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 80c1eb7e72030a3c2dadc61bfd90027dab032c3342a25c72e4da9dd9a7338142
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103935007"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120104658"
 ---
 # <a name="tdm_click_radio_button-message"></a>TDM \_ 按一下 \_ 單選 \_ 按鈕訊息
 
@@ -57,8 +57,8 @@ ms.locfileid: "103935007"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

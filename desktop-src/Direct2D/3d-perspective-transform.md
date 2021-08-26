@@ -6,12 +6,12 @@ keywords:
 - 3d 透視轉換效果
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ed2b1c5131319dd711d2c7802a0bfabceaaa32e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 513d48a38e948f1255afa0cad3972a626c1e5b9039c9285c9c49b4180a5791d6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103844427"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120079640"
 ---
 # <a name="3d-perspective-transform-effect"></a>3D 透視轉換效果
 
@@ -64,7 +64,7 @@ m_d2dContext->EndDraw();
 
 
 
-| 顯示名稱和索引列舉                                                              | Description                                                                                                                                                                                                                                                                                        |
+| 顯示名稱和索引列舉                                                              | 描述                                                                                                                                                                                                                                                                                        |
 |-------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | InterpolationMode<br/> D2D1 \_ 3DPERSPECTIVETRANSFORM \_ 的 \_ 內插補點 \_ 模式<br/> | 效果在影像上使用的插補模式。 有5種調整模式的品質和速度。<br/> 類型為 D2D1 \_ 3DPERSPECTIVETRANSFORM \_ 插補 \_ 模式。<br/> 預設值為 D2D1 \_ 3DPERSPECTIVETRANSFORM \_ 插補 \_ 模式 \_ 線性。<br/>              |
 | BorderMode<br/> D2D1 \_ 3DPERSPECTIVETRANSFORM \_ 的 \_ 樣式框線 \_ 模式<br/>               | 用來計算影像（軟或硬）框線的模式。 如需詳細資訊，請參閱 [框線模式](https://www.bing.com/search?q=Border+modes) 。<br/> 類型為 D2D1 \_ 框線 \_ 模式。<br/> 預設值為 [D2D1 \_ 框線 \_ 模式] \_ 。<br/>                                                              |
@@ -109,7 +109,7 @@ m_d2dContext->EndDraw();
 
 
 
-| Name                     | 描述                                                                                                      |
+| 名稱                     | 描述                                                                                                      |
 |--------------------------|------------------------------------------------------------------------------------------------------------------|
 | D2D1 \_ 框線 \_ 模式 \_ 軟 | 效果會在插補時以透明黑色圖元來填補影像，進而產生軟邊緣。<br/> |
 | D2D1 \_ 框線 \_ 模式 \_ 硬性 | 效果會將輸出個至輸入影像的大小。 <br/>                                         |
@@ -130,8 +130,8 @@ m_d2dContext->EndDraw();
 
 | 需求 | 值 |
 |--------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端 | 適用于 Windows 7 desktop app 的 Windows 8 和平臺更新 \[ \| windows Store 應用程式\] |
-| 最低支援的伺服器 | 適用于 Windows 7 desktop app 的 Windows 8 和平臺更新 \[ \| windows Store 應用程式\] |
+| 最低支援的用戶端 | Windows 7 傳統型應用程式的 Windows 8 和平臺更新 \[ \| Windows 儲存應用程式\] |
+| 最低支援的伺服器 | Windows 7 傳統型應用程式的 Windows 8 和平臺更新 \[ \| Windows 儲存應用程式\] |
 | 標頭                   | d2d1effects。h                                                                      |
 | 程式庫                  | d2d1 .lib，dxguid .lib                                                               |
 

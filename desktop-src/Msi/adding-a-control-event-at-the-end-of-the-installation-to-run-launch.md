@@ -4,12 +4,12 @@ ms.assetid: 323d62ae-333b-49fd-96a1-55b228c8ab2c
 title: 在安裝結束時新增控制項事件以執行啟動
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 545901c4cfd0936f63078d5ad56586022fb4ec4c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c0cf2a32a30187ea263bd2e3530e6eaae7d236e111826cbcab2461746d9c8e48
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103944045"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120078218"
 ---
 # <a name="adding-a-control-event-at-the-end-of-the-installation-to-run-launch"></a>在安裝結束時新增控制項事件以執行啟動
 

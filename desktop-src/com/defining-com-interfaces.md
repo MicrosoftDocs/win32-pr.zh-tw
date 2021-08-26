@@ -4,12 +4,12 @@ description: Microsoft 會定義許多 COM 介面。 在大多數情況下，您
 ms.assetid: 8a94bd7d-d101-411c-97de-9e9a46bf9591
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 516c02a2c337b2c76229094b0e42d75b44f65d16
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 7e676172e51fca810f0cbb7ba93b5d52b814319b6e8b890f20ba9c51617f7ac2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104093360"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120071018"
 ---
 # <a name="defining-com-interfaces"></a>定義 COM 介面
 
@@ -42,6 +42,6 @@ Microsoft 會定義許多 COM 介面。 在大多數情況下，您可以重複�
 [元件物件模型](the-component-object-model.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

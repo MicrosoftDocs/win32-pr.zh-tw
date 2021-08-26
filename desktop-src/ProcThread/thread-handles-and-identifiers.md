@@ -4,12 +4,12 @@ ms.assetid: ff91fe27-9773-4185-bc1e-57e897be3821
 title: 執行緒控制碼和識別碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 501d449bdb34d158ad14e52409967d4ef17f62f3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6058388f450b4b44c371fc26b132ea785b22c29bc0a2fd86875f563371608512
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103849259"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120031628"
 ---
 # <a name="thread-handles-and-identifiers"></a>執行緒控制碼和識別碼
 

@@ -1,19 +1,19 @@
 ---
-description: '憑證註冊 API 包含多個範例，其設計目的是要協助您建立自訂應用程式。 大部分的範例都是使用 c + + 撰寫，但 c # 和 Visual Basic Scripting Edition (VBScript) 範例也包含在內。'
+description: '憑證註冊 API 包含多個範例，其設計目的是要協助您建立自訂應用程式。 大部分的範例都是使用 c + + 撰寫的，但 c # 和 Visual Basic 腳本 Edition (VBScript) 範例也包含在內。'
 ms.assetid: 70ac7b75-542c-4d79-85ce-4b1bac414879
 title: 使用包含的範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bd3cbf17d35e65ade52e97438d638cbd4f1489e0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 511d9d5424455c1b54c6bd03cc72138b3672b256d535dcbdaf31d2393b2cb5f6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106985479"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120127200"
 ---
 # <a name="using-the-included-samples"></a>使用包含的範例
 
-憑證註冊 API 包含多個範例，其設計目的是要協助您建立自訂應用程式。 大部分的範例都是使用 c + + 撰寫，但 c # 和 Visual Basic Scripting Edition (VBScript) 範例也包含在內。
+憑證註冊 API 包含多個範例，其設計目的是要協助您建立自訂應用程式。 大部分的範例都是使用 c + + 撰寫的，但 c # 和 Visual Basic 腳本 Edition (VBScript) 範例也包含在內。
 
 當您安裝 Microsoft Windows 軟體開發套件 (SDK) 時，預設會在 *% ProgramFiles%* \\ Microsoft sdk \\ Windows \\ 7.0 版 \\ 範例 \\ 安全性 \\ X509 憑證註冊 \\ 資料夾中安裝下列範例。
 
@@ -35,7 +35,7 @@ ms.locfileid: "106985479"
 | [enrollSimpleMachineCert](enrollsimplemachinecert.md)                 | 使用範本、憑證顯示名稱和憑證描述，在證書階層中註冊電腦。<br/>                                                                                                                                                                                                                 | C + +、VBS<br/> |
 | [enrollSimpleUserCert](enrollsimpleusercert.md)                       | 使用範本、主體名稱和金鑰的長度（以位為單位），向 CA 註冊使用者。<br/>                                                                                                                                                                                                                                       | C + +、C#<br/> |
 | [enrollWithIX509EnrollmentHelper](enrollwithix509enrollmenthelper.md) | 示範如何使用 Windows 7 HTTP 通訊協定在企業 CA 註冊憑證。<br/>                                                                                                                                                                                                                                                | C#<br/>      |
-| [installResponseFromPFX](installresponsefrompfx.md)                   | 從個人資訊交換將已註冊的憑證 (PFX) 檔案安裝至憑證存放區。<br/>                                                                                                                                                                                                                                      | C++<br/>      |
+| [installResponseFromPFX](installresponsefrompfx.md)                   | 從個人資訊安裝註冊的憑證 Exchange (PFX) 檔案儲存至憑證存放區。<br/>                                                                                                                                                                                                                                      | C++<br/>      |
 
 
 

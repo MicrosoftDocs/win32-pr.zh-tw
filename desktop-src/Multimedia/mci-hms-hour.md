@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a7ecab8b5de7712a9c1a5ebd5c0a4401b264d7ee
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 97b8000e642d18f8499be5f8622a1cf7540fefbd041b7d34f23e1fd5e231815a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104025475"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120039268"
 ---
 # <a name="mci_hms_hour-macro"></a>MCI \_ HMS \_ HOUR 宏
 
@@ -80,7 +80,7 @@ HMS 格式的時間以 **DWORD** 值表示，其中最小的位元組包含小�
 
 <dl> <dt>
 
-[Mci](mci.md)
+[MCI](mci.md)
 </dt> <dt>
 
 [MCI 宏](mci-macros.md)

@@ -6,12 +6,12 @@ keywords:
 - named_type_from_local
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b94606a197f3763770db8e0d455a9d0b09f5dab0
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7c294398913a3bf6fe8b88eed5c42ceec84abf6b23ed994c85ff0fae8f21f2e0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104300440"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120127618"
 ---
 # <a name="the-named_type_from_local-function"></a>區域函式中的命名 \_ 類型 \_ \_
 
@@ -24,9 +24,9 @@ void __RPC_USER <named_type>_from_local (
 
 第一個參數是應用程式資料的指標。 第二個參數是指向指標的指標。 函式會將它指向傳送的資料。 函數必須為傳輸的類型配置記憶體。
 
- 
+ 
 
- 
+ 
 
 
 

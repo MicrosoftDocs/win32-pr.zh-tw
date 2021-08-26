@@ -15,12 +15,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d6b10749f7a56d928e0a4218d534cc2a8ec4fab
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: bdd2e64a98a8dd11b62154bb3239934fd8da29eb6f8bf2919ef88452d280de6c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106982193"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120069758"
 ---
 # <a name="cd3dx12_static_sampler_desc-structure"></a>CD3DX12 \_ 靜態 \_ 取樣器 \_ DESC 結構
 

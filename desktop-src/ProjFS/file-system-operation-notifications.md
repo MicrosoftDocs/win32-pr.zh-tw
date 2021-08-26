@@ -4,12 +4,12 @@ description: 描述提供者如何接收檔案系統作業的通知。
 ms.assetid: <GUID-GOES-HERE>
 ms.date: 10/04/2018
 ms.topic: article
-ms.openlocfilehash: 9eae9bde6d56592f371dcd48c24fef96a9eecbdf
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 2e09efcc9d1a1aea99f79b70446162df5e3ef924067ac6619a443aa15e06e9df
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103682484"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120031238"
 ---
 # <a name="file-system-operation-notifications"></a>檔案系統作業通知
 

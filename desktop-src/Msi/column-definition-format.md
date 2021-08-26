@@ -4,12 +4,12 @@ ms.assetid: 77379664-26f2-4c1d-8c44-d9be2376efa9
 title: 資料行定義格式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6e43e7f70c942fda32bf5003571fa687250e971d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b2f0fcad09d0c87b766022602b152c09f466b4d6cddc87467b89ff02793240b8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193125"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120077912"
 ---
 # <a name="column-definition-format"></a>資料行定義格式
 
@@ -32,7 +32,7 @@ ms.locfileid: "104193125"
 
  
 
-用來描述資料行的字串與 CREATE 和 ALTER 所使用的 SQL 查詢字串具有下列關聯性。 如需詳細資訊，請參閱 [SQL 語法](sql-syntax.md)。
+用來描述資料行的字串與 CREATE 和 ALTER 所使用的 SQL 查詢字串具有下列關聯性。 如需詳細資訊，請參閱[SQL 語法](sql-syntax.md)。
 
 
 
@@ -54,7 +54,7 @@ ms.locfileid: "104193125"
 
  
 
-如果字母不是大寫，則應該附加非 Null 的 SQL 語句。
+如果字母不是大寫，則應該附加不是 Null 的 SQL 語句。
 
 
 
@@ -70,7 +70,7 @@ ms.locfileid: "104193125"
 
 使用 [**MsiDatabaseMerge**](/windows/desktop/api/Msiquery/nf-msiquery-msidatabasemergea) 將參考資料庫合併到目標資料庫時，資料行名稱、主鍵數目和資料行資料類型必須相符。 **MsiDatabaseMerge** 會忽略當地語系化和資料行長度屬性。 如果參考資料庫中的資料行長度為0或大於該資料行在目標資料庫中的長度， **MsiDatabaseMerge** 會將目標資料庫中的資料行長度增加到參考資料庫中的長度。
 
-使用 Mergmod.dll 版本2.0 時，將合併模組的應用程式寫入 .msi 檔案時，絕對不會變更資料行的長度或現有資料庫資料表的資料行類型。 但是，如果模組將新的資料行加入至資料表，以便加入資料行，則合併模組的應用程式可以變更現有資料庫資料表的架構。 使用小於2.0 版的 Mergemod.dll 版本時，合併模組的應用程式永遠不會變更資料行的長度，而且永遠不會變更目標資料庫的架構。
+使用 Mergmod.dll 版本2.0 時，合併模組至 .msi 檔案的應用程式永遠不會變更資料行的長度或現有資料庫資料表的資料行類型。 但是，如果模組將新的資料行加入至資料表，以便加入資料行，則合併模組的應用程式可以變更現有資料庫資料表的架構。 使用小於2.0 版的 Mergemod.dll 版本時，合併模組的應用程式永遠不會變更資料行的長度，而且永遠不會變更目標資料庫的架構。
 
  
 

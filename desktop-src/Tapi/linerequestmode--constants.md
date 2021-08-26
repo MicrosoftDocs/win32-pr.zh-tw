@@ -4,12 +4,12 @@ ms.assetid: 23321700-64d3-45e3-929a-8f5df64dc4be
 title: 'LINEREQUESTMODE_ 的常數 (Tapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 52fb227c192a6e65577e8cbcc757dec4427c2249
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 20bb6d9322c84010eafecd8eb4686cb4017eee9945223fd83dfb6e4ba50ea333
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994243"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120073028"
 ---
 # <a name="linerequestmode_-constants"></a>LINEREQUESTMODE \_ 常數
 

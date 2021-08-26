@@ -11,12 +11,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: acf9d74ae2bf586941f3b93a6c2cbb3a84836144
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: 2f42eac1c9e8904933cedba54d1b51e5cc63919279de93286bfa658be1f60b11
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "104186647"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120100108"
 ---
 # <a name="task-scheduler-scripting-objects"></a>工作排程器腳本物件
 
@@ -62,7 +62,7 @@ ms.locfileid: "104186647"
 | [**TaskSettings**](tasksettings.md)                           | 提供工作排程器服務用來執行工作的設定。                                                                                                                                                                      |
 | [**TaskVariables**](taskvariables.md)                         | 定義可作為參數傳遞給工作處理常式的工作變數，以及工作所啟動的外部可執行檔。                                                                                                                         |
 | [**TimeTrigger**](timetrigger.md)                             | 表示啟動觸發程式時啟動工作的觸發程式。                                                                                                                                                                                |
-| [**觸發**](trigger.md)                                     | 提供所有觸發程式物件所繼承的通用屬性。                                                                                                                                                                             |
+| [**觸發程序**](trigger.md)                                     | 提供所有觸發程式物件所繼承的通用屬性。                                                                                                                                                                             |
 | [**TriggerCollection**](triggercollection.md)                 | 用來新增、移除和捕獲工作的觸發程式。                                                                                                                                                                                     |
 | [**WeeklyTrigger**](weeklytrigger.md)                         | 表示根據每週排程啟動工作的觸發程式。                                                                                                                                                                                   |
 

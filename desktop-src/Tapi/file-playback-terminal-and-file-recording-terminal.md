@@ -4,12 +4,12 @@ ms.assetid: 16b04ce1-d625-4824-bb1e-994a292cd42c
 title: 檔案播放終端機和檔案記錄終端機
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 28a73c788e3e1750e44298c1020a088cf8111bee
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8ad07ea46e2abf13465ac3344e69f586673c3b29463eac8bdd324966fb838368
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103944212"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120100588"
 ---
 # <a name="file-playback-terminal-and-file-recording-terminal"></a>檔案播放終端機和檔案記錄終端機
 

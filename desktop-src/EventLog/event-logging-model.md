@@ -4,12 +4,12 @@ ms.assetid: 7f38af18-c8fd-4af9-8423-c73e95b14deb
 title: 事件記錄模型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bf596d8569ded9d6c9729587f8b93762c99a77ed
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 54736ee1e78b2732eb3469b2272483698276875055e19d93e2c4c7aa63f03eca
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103692511"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120102188"
 ---
 # <a name="event-logging-model"></a>事件記錄模型
 

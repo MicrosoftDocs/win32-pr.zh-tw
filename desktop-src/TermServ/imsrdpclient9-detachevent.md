@@ -20,12 +20,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 399611ea526338f4cfe40ef3a4d6543bf27f134a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: cc60a3a7e1499632ac721192ce324fcf786e179604c11e2a70c4450b6171b779
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104093888"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120099458"
 ---
 # <a name="imsrdpclient9detachevent-method"></a>IMsRdpClient9：:d etachEvent 方法
 

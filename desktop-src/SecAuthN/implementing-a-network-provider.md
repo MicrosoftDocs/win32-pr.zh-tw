@@ -4,16 +4,16 @@ ms.assetid: 21dfa941-72fd-4f2c-8bc4-379ed6ca2a4c
 title: 執行網路提供者
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 97819b033c57feb25cf882f97051785123e2e382
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4776bd97b9528bd04bbda25b88e0ff45a8f911429bb573e62dbbb8581abdfbac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112192"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120015978"
 ---
 # <a name="implementing-a-network-provider"></a>執行網路提供者
 
-網路提供者是一種 DLL，可讓 Windows 作業系統支援特定的網路通訊協定。 它是藉由執行網路提供者 API 來完成。 此 API 是 [*多個提供者路由器*](../secgloss/m-gly.md) (MPR) 呼叫以與網路通訊的一組功能。 網路提供者接著會將這些呼叫轉譯成網路特定 API 呼叫，以執行 MPR 所指定的動作。 如此一來，Windows 作業系統就可以與新的網路通訊協定互動，而不需要瞭解其網路特定的 Api。
+網路提供者是一種 DLL，可讓 Windows 作業系統支援特定的網路通訊協定。 它是藉由執行網路提供者 API 來完成。 此 API 是 [*多個提供者路由器*](../secgloss/m-gly.md) (MPR) 呼叫以與網路通訊的一組功能。 網路提供者接著會將這些呼叫轉譯成網路特定 API 呼叫，以執行 MPR 所指定的動作。 如此一來，Windows 作業系統就可以與新的網路通訊協定互動，而不需要瞭解其網路特定 api。
 
 若要建立網路提供者，請撰寫可匯出 [**NPGetCaps**](/windows/desktop/api/Npapi/nf-npapi-npgetcaps) 函式的 DLL。
 
@@ -21,7 +21,7 @@ ms.locfileid: "104112192"
 
 例外狀況是，如果您支援下列其中一個列舉函數，您也必須支援其他兩個函式： [**NPOpenEnum**](/windows/desktop/api/Npapi/nf-npapi-npopenenum)、 [**NPEnumResource**](/windows/desktop/api/Npapi/nf-npapi-npenumresource)和 [**NPCloseEnum**](/windows/desktop/api/Npapi/nf-npapi-npcloseenum)。
 
-下列指導方針說明如何撰寫可與 MPR 和 Windows 作業系統妥善互動的網路提供者。 可能的話，您的提供者應該遵循下列指導方針來進行速度、驗證和路由。
+下列指導方針說明如何撰寫可與 MPR 和 Windows 作業系統互動的網路提供者。 可能的話，您的提供者應該遵循下列指導方針來進行速度、驗證和路由。
 
 ## <a name="speed"></a>速度
 
@@ -45,7 +45,7 @@ ms.locfileid: "104112192"
 
 ## <a name="implementation-note"></a>執行附注
 
-在執行網路提供者 DLL 時，提供者不能呼叫其他 [Windows 網路功能](../wnet/windows-networking-functions.md)、 [Shell api](../shell/samples-usingthumbnailproviders.md)，或其他以 UNC 路徑為基礎的查詢，這些查詢可能會導致 MPR 子系統的進入。 如果您從網路提供者 DLL 進行這類呼叫，則應用程式或其他作業系統元件可能會遇到爭用、效能不佳或 MPR 子系統內的鎖死。
+在執行網路提供者 DLL 時，提供者不能呼叫其他[Windows 網路功能](../wnet/windows-networking-functions.md)、 [Shell api](../shell/samples-usingthumbnailproviders.md)，或其他以 UNC 路徑為基礎的查詢，這些查詢可能會導致 MPR 子系統的進入。 如果您從網路提供者 DLL 進行這類呼叫，則應用程式或其他作業系統元件可能會遇到爭用、效能不佳或 MPR 子系統內的鎖死。
 
  
 

@@ -7,12 +7,12 @@ keywords:
 - last_is
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 159a2696db8e175f921b797176baaa8f3aa0263c
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 16c30c2e7e6689ba2a61f7f5e694a5b29f39af5cadcf7fa2ca2f51e14e1f3457
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104316315"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120017138"
 ---
 # <a name="the-first_is-and-last_is-attributes"></a>\[第一個 \_ 是 \] 和 \[ 最後一個 \_ 是 \] 屬性
 
@@ -38,6 +38,6 @@ interface arraytest
 }
 ```
 
- 
+ 
 
- 
+ 

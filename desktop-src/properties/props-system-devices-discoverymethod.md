@@ -4,12 +4,12 @@ ms.assetid: 1201630e-95e5-41e5-9b91-6f60cd8a5d7b
 title: DiscoveryMethod
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 442fa7b0e891d0c3f2d1094db8ef9e99c0dee43d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 335b075ee28455fb9cb2d1c8717b2c6cbffe15adf473c8017142b685a212508b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103849082"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120091308"
 ---
 # <a name="systemdevicesdiscoverymethod"></a>DiscoveryMethod
 

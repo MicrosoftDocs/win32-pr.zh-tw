@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a578d036180ecb1dc8a5e66bf853eec8845583f1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4a8ee7f92db1185fe2762b0b308b4fbafdbdd80e7417c7b615939c72333f15e5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104025205"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120104018"
 ---
 # <a name="createinstancefromtextrepresentation-method-of-the-microsoftdns_resourcerecord-class"></a>MicrosoftDNS ResourceRecord 類別的 CreateInstanceFromTextRepresentation 方法 \_
 

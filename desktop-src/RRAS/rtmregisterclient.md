@@ -14,16 +14,16 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 564f47e68fd6cdce3d5437fe184bac1ed74d8322
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: db58fc9457195c2149fd8d34a8a65a6d5085135275e1c878633f64cb742b02cc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103686310"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120081038"
 ---
 # <a name="rtmregisterclient-function"></a>RtmRegisterClient 函式
 
-\[此 API 已由 [路由表管理員第2版](about-routing-table-manager-version-2.md) api 取代，而且將無法在 Windows Server 2003 之外使用。 應用程式應該使用路由表管理員第2版 API。\]
+\[此 api 已由[路由表管理員第2版](about-routing-table-manager-version-2.md)api 取代，而且將無法在 Windows Server 2003 之外使用。 應用程式應該使用路由表管理員第2版 API。\]
 
 **RtmRegisterClient** 函數會將用戶端註冊為指定之通訊協定的處理常式。 它會建立用戶端的路由變更通知機制，並設定通訊協定選項。
 
@@ -68,7 +68,7 @@ HANDLE RtmRegisterClient(
 
 </dd> <dt>
 
-*Flags* \[in\]
+*旗標* \[在\]
 </dt> <dd>
 
 指定路由通訊協定特殊處理的其他選項。 目前支援下列值。

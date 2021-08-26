@@ -4,12 +4,12 @@ ms.assetid: 4d8b769d-0830-4e4e-b284-ce0b21dfe5d4
 title: MUI 資源管理
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aeed59c4b835e2c93e5f4cfc9988509349d8b0ee
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 94c0b489d10ae28ca0fe7c659153b58c6ee7713e4eda4e1da9d96ffe16ae1a2c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "107000257"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120041268"
 ---
 # <a name="mui-resource-management"></a>MUI 資源管理
 

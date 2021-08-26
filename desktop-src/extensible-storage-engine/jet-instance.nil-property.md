@@ -25,12 +25,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 2a2ec46d6c8a9104cd9e9581fcb46059a82cc63c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c688a684dcc46f5b768a21fc26ef9de059a0f0251ddf005ad47abef0040795e3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319659"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120016748"
 ---
 # <a name="jet_instancenil-property"></a>JET_INSTANCE。Nil 屬性
 

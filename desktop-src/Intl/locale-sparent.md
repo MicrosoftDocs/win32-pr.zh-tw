@@ -4,12 +4,12 @@ ms.assetid: 3fa0bc36-7577-4b5a-b557-8ac42e8594a8
 title: LOCALE_SPARENT
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f35a774c6a7f8eea631a2d6579b97058b30acdfe
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 11383e6fcdd216a1837d9f2f31e70a26821d394c3c56ea614b1df197bbe35c76
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975226"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120105918"
 ---
 # <a name="locale_sparent"></a>地區設定 \_ SPARENT
 

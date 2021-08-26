@@ -4,12 +4,12 @@ ms.assetid: badd3b5a-ce6f-4be7-9dd8-a3b17344b185
 title: 設定完成位
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6a53368377016c88633d91d942cde1970d979563
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 0ad2d9a9dc06caa623d3f7c58d51aec389b40a1f3315ae09a21052bdf6e2ae3a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106992394"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120070248"
 ---
 # <a name="setting-the-done-bit"></a>設定完成位
 

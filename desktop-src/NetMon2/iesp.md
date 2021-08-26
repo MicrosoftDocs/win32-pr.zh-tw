@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: 1a7400bb9a16e6ece5f5f26fe95a0398a7d45e19
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e7420e21a9f2c6ac92712326fa4a51159c6303d3972756e7a47c0797f22a1d83
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112801"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120037428"
 ---
 # <a name="iesp-interface"></a>IESP 介面
 
@@ -40,7 +40,7 @@ ms.locfileid: "104112801"
 | 方法                                          | 描述                                                                                                                        |
 |:------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------|
 | [**設定**](iesp-configure.md)             | 提交 capture 的設定資訊<br/>                                                                         |
-| [**連接**](iesp-connect.md)                 | 將 NPP 連接到網路。<br/>                                                                                        |
+| [**連線**](iesp-connect.md)                 | 將 NPP 連接到網路。<br/>                                                                                        |
 | [**中斷連線**](iesp-disconnect.md)           | 中斷 NPP 與網路的連線。<br/>                                                                                   |
 | [**GetControlState**](iesp-getcontrolstate.md) | [*抓取 capture*](c.md)的狀態，指出 capture 正在執行或已暫停。<br/> |
 | [**暫停**](iesp-pause.md)                     | 暫時停止目前的捕獲。<br/>                                                                                  |

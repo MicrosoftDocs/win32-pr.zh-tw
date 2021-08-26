@@ -4,12 +4,12 @@ ms.assetid: 543c4bed-b224-4da7-9746-12c9993a40af
 title: 使用 Microsoft Digest 驗證後續要求
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8eecccc3be68fb541994e63cdfc5035187e04aa3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a25954612a99fa0a0a9710f5e8e0679948cc3bac5ceae669a06ec40bd5c22241
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103694240"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120101420"
 ---
 # <a name="authenticating-subsequent-requests-with-microsoft-digest"></a>使用 Microsoft Digest 驗證後續要求
 

@@ -4,23 +4,23 @@ ms.assetid: 872c2a33-327e-41a8-81db-905c46673f13
 title: On/Off 效能的最佳作法
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e2c88eaf5175db43061e57bc4689d8bf256e6881
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: f8ef9e10b0a6fc82be138951d45f811ce1ccf0dbe2222b620cf73d0c272570c8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108088616"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120031048"
 ---
 # <a name="best-practices-for-onoff-performance"></a>On/Off 效能的最佳作法
 
 ## <a name="platform"></a>平台
 
-**用戶端-** Windows Vista \| windows 7  
-**伺服器-** Windows Server 2008 \| Windows server 2008 R2  
+**用戶端-** Windows Vista \| Windows 7  
+**伺服器-** Windows server 2008 \| Windows server 2008 R2  
 
-## <a name="description"></a>Description
+## <a name="description"></a>描述
 
-系統電源狀態 (或 S 狀態) （如 Advanced Computer 電源介面 (ACPI) 規格中所定義）堆疊稱為「開啟/關閉」狀態，因為最常見的 S 狀態轉換是電腦開啟和關閉。 在執行 Windows Vista 或 Windows 7 的系統上，不同的開啟/關閉狀態轉換是開機、睡眠 (ACPI S3) 、休眠 (ACPI S4) 和關機。
+系統電源狀態 (或 S 狀態) （如 Advanced Computer 電源介面 (ACPI) 規格中所定義）堆疊稱為「開啟/關閉」狀態，因為最常見的 S 狀態轉換是電腦開啟和關閉。 在執行 Windows Vista 或 Windows 7 的系統上，不同的開啟/關閉狀態轉換是開機、睡眠 (acpi S3) 、休眠 (acpi S4) 和關機。
 
 在這些開啟/關閉轉換期間的良好效能不僅能改善電腦的認知品質，也會大幅影響每日電腦使用模式和系統可靠性。 客戶可能會因為開機或關機時間太長的系統而感到挫折。 具有冗長睡眠和休眠轉換的行動系統可能會不必要地耗盡電池壽命。 較長的關機時間也會對行動系統的可靠性造成負面影響。 例如，它們會增加非預期電源減少的風險。
 
@@ -51,11 +51,11 @@ ms.locfileid: "108088616"
 
 ## <a name="links-to-other-resources"></a>其他資源的連結
 
--   -   [Windows On/Off 轉換解決方案指南](/windows-hardware/test/assessments/onoff-transition-performance)
+-   -   [Windows開啟/關閉轉換解決方案指南](/windows-hardware/test/assessments/onoff-transition-performance)
 -   [Windows Vista 的開啟/關閉轉換效能分析](/windows-hardware/test/assessments/onoff-transition-performance)
--   [Windows 效能分析](https://msdn.microsoft.com/performance/default.aspx)
--   [MSDN 上的 Windows 效能工具組檔](/previous-versions/windows/desktop/xperf/windows-performance-analyzer--wpa-)
--   [Windows 效能分析論壇](https://social.msdn.microsoft.com/Forums/wptk_v4/threads/)
+-   [Windows效能分析](https://msdn.microsoft.com/performance/default.aspx)
+-   [WindowsMSDN 上的效能工具組檔](/previous-versions/windows/desktop/xperf/windows-performance-analyzer--wpa-)
+-   [Windows效能分析論壇](https://social.msdn.microsoft.com/Forums/wptk_v4/threads/)
 -   [MSDN 上的 Windows 事件追蹤](../etw/event-tracing-portal.md)
 
  

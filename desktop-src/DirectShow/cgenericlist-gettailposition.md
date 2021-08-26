@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 66fc4e396fab558c79fb7333263442fac146e105
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 90b84369688c065445f7d8a127219e707a20867776d1c5949b2927dd22e24868
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106989875"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120076268"
 ---
 # <a name="cgenericlistgettailposition-method"></a>CGenericList. GetTailPosition 方法
 

@@ -15,16 +15,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 006fe414a662c3d6d556aba68712aa0b428d9b5e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b6f2f50c5279bafd12d8edd01a47e9cbcb1a3cc3bb2b89ea140e46cf06c0aa06
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106968944"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120124678"
 ---
 # <a name="ivmvirtualmachine-interface"></a>IVMVirtualMachine 介面
 
-\[Windows 8 不能再使用 Windows Virtual PC。 請改為使用 [HYPER-V WMI 提供者 (V2) ](/windows/desktop/HyperV_v2/windows-virtualization-portal)。\]
+\[WindowsVirtual PC 不再適用于 Windows 8。 請改為使用 [HYPER-V WMI 提供者 (V2) ](/windows/desktop/HyperV_v2/windows-virtualization-portal)。\]
 
 定義虛擬機器的介面。 **IVMVirtualMachine** 可以使用 [**IVMVirtualMachineEvents**](ivmvirtualmachineevents.md) 的輸出介面，通知用戶端有關事件的資訊。 **IVMVirtualMachine** 物件會從 [**IVMVirtualPC**](ivmvirtualpc.md) 方法（例如 [**CreateVirtualMachine**](ivmvirtualpc-createvirtualmachine.md)、 [**RegisterVirtualMachine**](ivmvirtualpc-registervirtualmachine.md)和 [**FindVirtualMachine**](ivmvirtualpc-findvirtualmachine.md)）傳回。 您也可以從 [**IVMVirtualPC：： VirtualMachines**](ivmvirtualpc-virtualmachines.md)屬性傳回的 [**IVMVirtualMachineCollection**](ivmvirtualmachinecollection.md)物件中取出 **IVMVirtualMachine** 物件。
 
@@ -79,7 +79,7 @@ ms.locfileid: "106968944"
 
 
 
-| 屬性                                                                            | 存取類型           | Description                                                                                                                                    |
+| 屬性                                                                            | 存取類型           | 描述                                                                                                                                    |
 |:------------------------------------------------------------------------------------|:----------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------|
 | [**會計**](ivmvirtualmachine-accountant.md)<br/>                       | 唯讀<br/>  | 此虛擬機器的會計。<br/>                                                                                             |
 | [**AttachedDriveTypes**](ivmvirtualmachine-attacheddrivetypes.md)<br/>       | 唯讀<br/>  | 陣列，指出連接到虛擬機器中每個位置的磁片磁碟機類型。<br/>                                             |
@@ -102,7 +102,7 @@ ms.locfileid: "106968944"
 | [**鍵盤**](ivmvirtualmachine-keyboard.md)<br/>                           | 唯讀<br/>  | 虛擬機器的鍵盤裝置。<br/>                                                                                        |
 | [**記憶**](ivmvirtualmachine-memory.md)<br/>                               | 讀取/寫入<br/> | 虛擬機器中的實體記憶體數量（以 mb 為單位）。<br/>                                                                 |
 | [**滑鼠**](ivmvirtualmachine-mouse.md)<br/>                                 | 唯讀<br/>  | 虛擬機器的滑鼠裝置。<br/>                                                                                           |
-| [**Name**](ivmvirtualmachine-name.md)<br/>                                   | 讀取/寫入<br/> | 虛擬機器設定的名稱。<br/>                                                                                      |
+| [**名稱**](ivmvirtualmachine-name.md)<br/>                                   | 讀取/寫入<br/> | 虛擬機器設定的名稱。<br/>                                                                                      |
 | [**NetworkAdapters**](ivmvirtualmachine-networkadapters.md)<br/>             | 唯讀<br/>  | 連接至虛擬機器之 Nic 的可列舉集合。<br/>                                                                   |
 | [**備註**](ivmvirtualmachine-notes.md)<br/>                                 | 讀取/寫入<br/> | 虛擬機器的附注。<br/>                                                                                                  |
 | [**ParallelPorts**](ivmvirtualmachine-parallelports.md)<br/>                 | 唯讀<br/>  | 平行埠的可列舉集合。<br/>                                                                                         |
@@ -110,7 +110,7 @@ ms.locfileid: "106968944"
 | [**RdpPipeName**](ivmvirtualmachine-rdppipename.md)<br/>                     | 唯讀<br/>  | 用於影片和輸入的 RDP 連接具名管道的名稱。<br/>                                                                     |
 | [**SavedStateFilePath**](ivmvirtualmachine-savedstatefilepath.md)<br/>       | 唯讀<br/>  | 儲存狀態檔案的完整路徑。<br/>                                                                                              |
 | [**SerialPorts**](ivmvirtualmachine-serialports.md)<br/>                     | 唯讀<br/>  | 序列埠的可列舉集合。<br/>                                                                                           |
-| [**ShutdownActionOnQuit**](ivmvirtualmachine-shutdownactiononquit.md)<br/>   | 讀取/寫入<br/> | 當 Windows Virtual PC 結束時，要在此虛擬機器上執行的動作。<br/>                                |
+| [**ShutdownActionOnQuit**](ivmvirtualmachine-shutdownactiononquit.md)<br/>   | 讀取/寫入<br/> | 當 Windows virtual PC 結束時，要在此虛擬機器上執行的動作。<br/>                                |
 | [**狀態**](ivmvirtualmachine-state.md)<br/>                                 | 唯讀<br/>  | 虛擬機器的目前狀態。<br/>                                                                                           |
 | [**撤銷**](ivmvirtualmachine-undoable.md)<br/>                           | 讀取/寫入<br/> | 指出是否已為連接至虛擬機器的硬碟啟用復原磁片磁碟機。<br/>                                      |
 | [**UndoAction**](ivmvirtualmachine-undoaction.md)<br/>                       | 讀取/寫入<br/> | 當虛擬機器從客體作業系統中關閉時，要在所有復原磁片磁碟機上執行的預設動作。<br/> |
@@ -125,7 +125,7 @@ ms.locfileid: "106968944"
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                                    |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                     |
 | 用戶端支援結束<br/>    | Windows 7<br/>                                                                          |
 | 產品<br/>                  | Windows Virtual PC<br/>                                                                 |

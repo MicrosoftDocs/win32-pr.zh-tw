@@ -54,12 +54,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 08fa2abb97a28af013e5791bcbd643f3f479d5c6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ae77499f685bb8b55e02fbf5c2eae0a1909469a3db6353a7914b1b8f0bcabe68
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104025022"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120125398"
 ---
 # <a name="imstscaxhorizontalscrollbarvisible-property"></a>IMsTscAx：： HorizontalScrollBarVisible 屬性
 

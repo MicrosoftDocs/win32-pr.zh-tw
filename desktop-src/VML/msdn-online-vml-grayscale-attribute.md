@@ -4,21 +4,21 @@ description: VML 灰階屬性
 ms.assetid: 0715b78c-f529-422e-9064-7b99324e60de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c1c4b5da616ec5f96eeb226ecb2ba18202874f67
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 683371e2441ffa93f96dc8f727e4eed293954b1897267db8848aa39ffa497af8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104375740"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120099208"
 ---
 # <a name="vml-grayscale-attribute"></a>VML 灰階屬性
 
 本主題說明 VML，這是 Windows Internet Explorer 9 淘汰的功能。 依賴 VML 的網頁和應用程式應該遷移至 SVG 或其他廣泛支援的標準。
 
 > [!Note]  
-> 從2011年12月起，本主題已封存。 因此，它不會再主動維護。 如需詳細資訊，請參閱封存的 [內容](/previous-versions/windows/internet-explorer/ie-developer/)。 如需目前 Windows Internet Explorer 版本的相關資訊、建議和指引，請參閱 [Internet Explorer 開發人員中心](https://msdn.microsoft.com/ie/)。
+> 從2011年12月起，本主題已封存。 因此，它不會再主動維護。 如需詳細資訊，請參閱封存的 [內容](/previous-versions/windows/internet-explorer/ie-developer/)。 如需有關 Windows Internet Explorer 目前版本的資訊、建議和指引，請參閱[Internet Explorer 開發人員中心](https://msdn.microsoft.com/ie/)。
 
- 
+ 
 
 判斷圖片是否會以灰階模式顯示。 讀取/寫入 **VgTriState**。
 
@@ -61,6 +61,6 @@ ms.locfileid: "104375740"
 
 
 
- 
+ 
 
- 
+ 

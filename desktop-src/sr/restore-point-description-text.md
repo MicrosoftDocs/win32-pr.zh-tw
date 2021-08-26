@@ -4,12 +4,12 @@ description: 當應用程式呼叫 SRSetRestorePoint 函式時，它可以提供
 ms.assetid: e6e1974b-c162-4019-9349-936f3786cb9b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 59e90fd1b7d5776c8c3798a68946382cc702b3bd
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: cd785d143d3eed243e5d80ec261f121817db6187013f70b6f6cc6be0b1c2b790
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104183607"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120111247"
 ---
 # <a name="restore-point-description-text"></a>還原點描述文字
 
@@ -17,7 +17,7 @@ ms.locfileid: "104183607"
 
 
 
-| 系統修改                            | 還原點類型      | Description            |
+| 系統修改                            | 還原點類型      | 描述            |
 |------------------------------------------------|-------------------------|------------------------|
 | 應用程式安裝                       | 應用程式 \_ 安裝    | 安裝的 *AppName*    |
 |  (新增/移除功能) 的應用程式修改 | 修改 \_ 設定        | 設定的 *AppName*   |
@@ -26,16 +26,16 @@ ms.locfileid: "104183607"
 
 
 
- 
+ 
 
 安裝程式（例如 Windows Installer 和 InstallShield）會將這些慣例用於描述文字：
 
 -   產品名稱後面接著動詞;例如，安裝了 *AppName*。
 -   您可以單獨使用產品名稱 (*appname*) 或產品名稱，也可以使用 (*MyCompany appname*) 的公司名稱。
 
- 
+ 
 
- 
+ 
 
 
 

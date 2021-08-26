@@ -4,12 +4,12 @@ ms.assetid: 99db6485-2e85-47c3-a449-ef85b7efc865
 title: 安裝永久元件、檔案、字型、登錄機碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bd9a6e77f2e6bb2d8d7a6f48d80f6855906e4d93
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 87818c2b9a80d582992dd964daa632575f51e5fa24f17a97af0191277e880df6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104027542"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120105098"
 ---
 # <a name="installing-permanent-components-files-fonts-registry-keys"></a>安裝永久元件、檔案、字型、登錄機碼
 

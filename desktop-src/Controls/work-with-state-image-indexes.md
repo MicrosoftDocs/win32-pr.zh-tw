@@ -4,12 +4,12 @@ description: 通常會對如何在樹狀檢視控制項中設定和取出狀態�
 ms.assetid: 2666D922-9957-4A75-BFDA-038720F1EEDC
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: be84035907b69ba98ed60a33046f1a58fd2b47b2
-ms.sourcegitcommit: 3e70ae762629e244028b437420ed50b5850db4e3
+ms.openlocfilehash: 04504019f79a388b6c21f940724de884d8516263daf6d410a841a96fc2e557b2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "103681455"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120059298"
 ---
 # <a name="how-to-work-with-state-image-indexes"></a>如何使用狀態影像索引
 
@@ -19,12 +19,12 @@ ms.locfileid: "103681455"
 
 ### <a name="technologies"></a>技術
 
--   [Windows 控制項](window-controls.md)
+-   [Windows控制](window-controls.md)
 
 ### <a name="prerequisites"></a>必要條件
 
 -   C/C++
--   Windows 消費者介面程式設計
+-   Windows消費者介面程式設計
 
 ## <a name="instructions"></a>指示
 
@@ -88,9 +88,9 @@ ms.locfileid: "103681455"
 [CustDTv 範例說明 Tree-View 控制項中的自訂繪圖](https://support.microsoft.com/default.aspx?scid=kb;EN-US;q248496)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

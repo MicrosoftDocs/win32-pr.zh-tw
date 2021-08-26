@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 7f845ac7ae52537bfadfb6c913537b32e4d44171
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 26a0c35be9914641abfa053cd1ee00f46bb09222aecbebc55d45900331a2ee81
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106997671"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120075938"
 ---
 # <a name="cvideotransformfiltershouldskipframe-method"></a>CVideoTransformFilter. ShouldSkipFrame 方法
 
@@ -68,7 +68,7 @@ BOOL ShouldSkipFrame(
 -   自最後一個主要畫面格之後的框架數目 (**m \_ nFramesSinceKeyFrame**) 
 -   在主要畫面格 (**m \_ nKeyFramePeriod** 之間有多少個框架的估計) 
 
-一旦篩選器卸載框架之後，它會繼續卸載框架，直到到達下一個主要畫面格為止。 如果這個方法傳回 **TRUE**，也會將 [**EC \_ 品質 \_ 變更**](ec-quality-change.md) 事件傳送至篩選圖形管理員。
+一旦篩選器卸載框架之後，它會繼續卸載框架，直到到達下一個主要畫面格為止。 如果這個方法傳回 **TRUE**，也會將 [**EC \_ 品質 \_ 變更**](ec-quality-change.md)事件傳送至篩選 Graph 管理員。
 
 ## <a name="requirements"></a>規格需求
 

@@ -4,12 +4,12 @@ description: 裝置與驅動程式安裝參考
 ms.assetid: 9abeb5b9-9f45-459d-a787-dd633ff2e0f3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 550ddb6f97c3638242362a4ca35b7be6ee57f713
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: 314af758e19318f0a8c4725ee269951e9c65447b94fe04219acecd29b2b7c66a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "104383321"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120070228"
 ---
 # <a name="device-and-driver-installation-reference"></a>裝置與驅動程式安裝參考
 

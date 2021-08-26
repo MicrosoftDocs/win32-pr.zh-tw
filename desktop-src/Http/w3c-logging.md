@@ -4,12 +4,12 @@ description: W3C 擴充記錄是伺服器端記錄類型，可以在伺服器會
 ms.assetid: a08b8f9e-2247-43c6-b253-81f72001d8d2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eb53ccf3b6bf5383a0a4da62538b6fa516c500f8
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: 8fa67d2e0141dfb936ea44070479560ca90e9c3720db8ffebedf5af20b0442dc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113119943"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120078298"
 ---
 # <a name="w3c-logging"></a>W3C 記錄
 
@@ -40,7 +40,7 @@ W3C 擴充記錄是伺服器端記錄類型，可以在伺服器會話或 URL �
 | 使用者代理程式                       | cs (使用者代理程式)   | 用戶端使用的瀏覽器類型。                                                                                                     | UserAgent                      | HTTP \_ 記錄 \_ 欄位 \_ 使用者 \_ 代理程式    |
 | Cookie                           | cs (Cookie)       | 傳送或接收的 cookie 內容（如果有的話）。                                                                                        | Cookie                         | HTTP \_ 記錄 \_ 欄位 \_ COOKIE         |
 | Referrer                         | cs (查閱者)     | 使用者上次造訪的網站。 這個網站提供目前網站的連結。                                                        | Referrer                       | HTTP \_ 記錄 \_ 欄位查閱者 \_       |
-| 主機                             | cs-主機         | 主機標頭名稱（如果有的話）。                                                                                                              | 主機                           | HTTP \_ 記錄 \_ 欄位 \_ 主機           |
+| Host                             | cs-主機         | 主機標頭名稱（如果有的話）。                                                                                                              | Host                           | HTTP \_ 記錄 \_ 欄位 \_ 主機           |
 | HTTP 狀態                      | sc-狀態       | HTTP 狀態碼。                                                                                                                      | ProtocolStatus                 | HTTP \_ 記錄 \_ 欄位 \_ 狀態         |
 | 通訊協定子狀態               | sc-子狀態    | 子狀態錯誤碼。                                                                                                                  | SubStatus                      | HTTP \_ 記錄 \_ 欄位 \_ 子 \_ 狀態    |
 | Win32 狀態                     | sc-win32-status | Windows 狀態碼。                                                                                                                   | Win32Status                    | HTTP \_ 記錄 \_ 欄位 \_ WIN32 \_ 狀態  |

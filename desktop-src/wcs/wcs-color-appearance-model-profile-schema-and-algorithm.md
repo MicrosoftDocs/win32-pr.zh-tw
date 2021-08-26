@@ -3,13 +3,13 @@ title: WCS 色彩外觀模型設定檔架構和演算法
 description: WCS 色彩外觀模型設定檔架構和演算法
 ms.assetid: 017588fe-cec9-4178-a912-7950cefc036c
 keywords:
-- 'Windows Color System (WCS) 、色彩外觀模型設定檔 (CAMP) '
-- 'WCS (Windows 色彩系統) ，色彩外觀模型設定檔 (CAMP) '
+- 'Windows色彩系統 (WCS) 、色彩外觀模型設定檔 (CAMP) '
+- 'WCS (Windows 色彩系統) 、色彩外觀模型設定檔 (CAMP) '
 - '影像色彩管理、色彩外觀模型設定檔 (CAMP) '
 - '色彩管理、色彩外觀模型設定檔 (CAMP) '
 - '色彩、色彩外觀模型設定檔 (CAMP) '
-- Windows Color System (WCS) ，設定檔
-- WCS (Windows 色彩系統) ，設定檔
+- Windows色彩系統 (WCS) ，設定檔
+- WCS (Windows 色彩系統) 、設定檔
 - 影像色彩管理，設定檔
 - 色彩管理，設定檔
 - 色彩，設定檔
@@ -21,12 +21,12 @@ keywords:
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9a928aebcfe02f1db39de2452a0b49e5c888bccc
-ms.sourcegitcommit: 37f276b5d887a3aad04b1ba86e390dea9d87e591
+ms.openlocfilehash: 042cf74d264a7b5d40fdc30fec44784680a67b95363b579d0c7bebc7ececcedb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "106988085"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120090092"
 ---
 # <a name="wcs-color-appearance-model-profile-schema-and-algorithm"></a>WCS 色彩外觀模型設定檔架構和演算法
 
@@ -158,7 +158,7 @@ targetNamespace = " http://schemas.microsoft.com/windows/2005/02/color/ColorAppe
 
 ## <a name="version"></a>版本
 
-&gt; &lt; 第一版的 Windows Vista 版本0.1 或 = "1.0"。
+版本 &gt; 0.1 或 &lt; = "1.0" Windows Vista 的第一版。
 
 **驗證條件：** 任何版本值 &lt; = 2.0 也都有效，可支援格式的非重大變更。
 
@@ -267,7 +267,7 @@ CIECAM02 可以用兩種方式來使用。 在色階到外觀的方向中，它�
 [基本色彩管理概念](basic-color-management-concepts.md)
 </dt> <dt>
 
-[Windows 色彩系統架構和演算法](windows-color-system-schemas-and-algorithms.md)
+[Windows色彩系統架構和演算法](windows-color-system-schemas-and-algorithms.md)
 </dt> </dl>
 
  

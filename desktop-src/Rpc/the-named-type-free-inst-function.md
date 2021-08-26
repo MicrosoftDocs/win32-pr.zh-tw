@@ -6,12 +6,12 @@ keywords:
 - named_type_free_inst
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e2d3b5103572eb58e4311c65b0e1cff02e91f66f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0aa55e896b89fccc513795a62634e805c2ad6e21b7bdecdd99a0b9cfe2d71cd7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103672260"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120016887"
 ---
 # <a name="the-named_type_free_inst-function"></a>指名 \_ 型別 \_ free \_ inst 函式
 
@@ -23,9 +23,9 @@ void __RPC_USER <named_type>_free_inst(<type> __RPC_FAR *)
 
 參數指向已傳送型別的實例。 此物件不應該釋放。 如需有關何時呼叫函數的討論，請參閱 [代表 \_ as 屬性](the-represent-as-attribute.md)。
 
- 
+ 
 
- 
+ 
 
 
 

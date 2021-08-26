@@ -4,12 +4,12 @@ ms.assetid: 6587b349-852d-4d4e-a8d4-76dfb0ef0f0b
 title: 搜尋檔案並建立保存檔案路徑的屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ed742ee874c2e4b76137e9f17e90fbf54e9729f1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 57d1315616c6d2ea24052ddad85c005d53716f8b130f4aa2d23d69754c946416
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103849948"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120041138"
 ---
 # <a name="searching-for-a-file-and-creating-a-property-holding-the-files-path"></a>搜尋檔案並建立保存檔案路徑的屬性
 

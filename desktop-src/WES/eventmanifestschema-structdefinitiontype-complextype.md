@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 01e739077d38dec94c0a407e5779bec90369ffb9
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 035b8abe5440ffb80b902e1f4b1564b2fb80b77ee34b20f4f068d298b251478a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106997344"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120124248"
 ---
 # <a name="structdefinitiontype-complex-type"></a>StructDefinitionType 複雜類型
 
@@ -57,7 +57,7 @@ ms.locfileid: "106997344"
 
 
 
-| 元素                                                               | 類型                                                                             | Description                                                               |
+| 元素                                                               | 類型                                                                             | 描述                                                               |
 |-----------------------------------------------------------------------|----------------------------------------------------------------------------------|---------------------------------------------------------------------------|
 | [**資料**](eventmanifestschema-data-structdefinitiontype-element.md) | [**DataDefinitionType**](eventmanifestschema-datadefinitiontype-complextype.md) | 定義您想要包含在結構中的資料項目。<br/> |
 
@@ -87,8 +87,8 @@ ms.locfileid: "106997344"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

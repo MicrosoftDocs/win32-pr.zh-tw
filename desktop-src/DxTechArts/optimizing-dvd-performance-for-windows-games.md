@@ -4,16 +4,16 @@ description: 本文討論如何將 Windows 遊戲的 DVD 效能優化。
 ms.assetid: 01e8dc7d-4ba7-40dd-d845-a20000201ae1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bb15063d0441423ccb3a9f67db84caa134f801c6
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: fe08ba6188df9b8bbc25a73595bf1509b257696955c1fcbd1ae98091b3c8aecf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106967680"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120042531"
 ---
 # <a name="optimizing-dvd-performance-for-windows-games"></a>優化 Windows 遊戲的 DVD 效能
 
-執行 Windows 的電腦有很高百分比的 DVD 光碟機，而許多遊戲都是在 DVD 上寄出。 如此一來，我們建議您確保遊戲使用 DVD 光碟機來享有充分優勢。 藉由瞭解如何從 DVD 讀取資料，以及資料的位置如何影響其讀取時間，您可以縮短載入時間，並改善遊戲播放期間的整體效能。 本文討論如何將 Windows 遊戲的 DVD 效能優化。
+執行 Windows 具有 dvd 光碟機的電腦數量過高，而許多遊戲都是在 dvd 上寄出。 如此一來，我們建議您確保遊戲使用 DVD 光碟機來享有充分優勢。 藉由瞭解如何從 DVD 讀取資料，以及資料的位置如何影響其讀取時間，您可以縮短載入時間，並改善遊戲播放期間的整體效能。 本文討論如何將 Windows 遊戲的 DVD 效能優化。
 
 -   [DVD 的基本版面配置](#basic-layout-of-a-dvd)
 -   [從 DVD 讀取](#reading-from-a-dvd)
@@ -50,7 +50,7 @@ DVD 上的資料會儲存為連續的螺旋（例如 CD）;不過，這些檔案
 > [!Note]  
 > 每個未快取的讀取都會清空磁片磁碟機快取。
 
- 
+ 
 
 ## <a name="reading-errors"></a>讀取錯誤
 
@@ -80,9 +80,9 @@ DVD 光碟機的資料輸送量取決於多個因素：要求的資料的位置�
 
 ## <a name="dvd-compatibility"></a>DVD 相容性
 
-在 DVD 上放開時，有一些重要的相容性問題需要注意。 首先，以 Windows 為基礎的電腦上的 DVD 光碟機可能會有不同的效能，因此，如果您的 DVD 具有特定的輸送量需求，請務必確定您的使用者硬體符合這些需求。 此外，多層 Dvd 可能會導致某些 DVD 磁片磁碟機上的相容性問題。 為了避免這些問題，建議您在發行之前，先提供一層 DVD 或徹底測試多數磁片磁碟機上的多層 DVD。
+在 DVD 上放開時，有一些重要的相容性問題需要注意。 首先，以 Windows 為基礎的電腦上的 dvd 光碟機可能會有不同的效能，因此，如果您的 dvd 具有特定的輸送量需求，請務必確定您的使用者硬體符合這些需求。 此外，多層 Dvd 可能會導致某些 DVD 磁片磁碟機上的相容性問題。 為了避免這些問題，建議您在發行之前，先提供一層 DVD 或徹底測試多數磁片磁碟機上的多層 DVD。
 
-## <a name="summary"></a>總結
+## <a name="summary"></a>摘要
 
 若要改善 DVD 效能，可以套用一些一般規則。 下列技巧可協助您將輸送量最大化，並減少浪費的資料：
 
@@ -93,6 +93,6 @@ DVD 光碟機的資料輸送量取決於多個因素：要求的資料的位置�
 -   以非同步方式讀取，以減少 CPU 負載和過多的記憶體使用量
 -   避免釋出多層 Dvd
 
- 
+ 
 
- 
+ 

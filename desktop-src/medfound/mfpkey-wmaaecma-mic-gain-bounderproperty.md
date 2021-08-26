@@ -4,12 +4,12 @@ ms.assetid: b9f0bcc7-57ab-4339-bf1d-2b12c8744f01
 title: 'MFPKEY_WMAAECMA_MIC_GAIN_BOUNDER 屬性 (Wmcodecdsp) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5c1b09f2095f5accb44e4e0edaff2b8c94941d3d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c7d00e906ec953e2fd00d9c288336c322c2d0dc07ea1c2d74a014ab78ae21acd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106985424"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120113148"
 ---
 # <a name="mfpkey_wmaaecma_mic_gain_bounder-property"></a>MFPKEY \_ WMAAECMA \_ MIC \_ 增益 \_ BOUNDER 屬性
 
@@ -58,8 +58,8 @@ VARIANT \_ TRUE
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                          |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                    |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                          |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                    |
 | 標頭<br/>                   | <dl> <dt>Wmcodecdsp。h</dt> </dl> |
 
 

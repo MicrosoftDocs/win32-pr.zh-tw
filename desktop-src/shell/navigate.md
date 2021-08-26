@@ -4,12 +4,12 @@ ms.assetid: bd9f903d-bea6-494f-af81-d90457dc2647
 title: 流覽命名空間
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d24993369222fb32f9de6c79a0c998b1d7be9f2e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e2778fc21df12e9228f9335a52c04556e97563cba5f8a4cb6b82eb779944c451
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026334"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120111478"
 ---
 # <a name="navigating-the-namespace"></a>流覽命名空間
 

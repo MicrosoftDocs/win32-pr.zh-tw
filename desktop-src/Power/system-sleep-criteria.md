@@ -4,12 +4,12 @@ ms.assetid: 83c9394a-1813-405a-802a-0623e5de50d3
 title: 系統睡眠準則
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b90950b980ec1e0fa06171d7a57d76b410534f96
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9b93b0eb1a55d156a9d75b51ef826c85eabd28b29789cf50bb7f0fd7b5fee90a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103693019"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120032818"
 ---
 # <a name="system-sleep-criteria"></a>系統睡眠準則
 
