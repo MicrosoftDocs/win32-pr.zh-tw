@@ -4,12 +4,12 @@ ms.assetid: d4386681-3523-4872-b048-2a5cfbf7d039
 title: 裝飾筆
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fbb312ed0b3825397ff79ebc32d363956ad04519
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ae65f875ce5873b5f53cba19b5440751b8ac7683df99765ea7e8e6eec813ef73
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103691911"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119966068"
 ---
 # <a name="cosmetic-pens"></a>裝飾筆
 

@@ -4,16 +4,16 @@ description: IAgentCharacter 話
 ms.assetid: 3c4baf83-9e69-4048-bdaf-4ead8ea8e7cd
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 03e290ab9037ee6f261445d4dfd00a206213cd26
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 693b40a00b34173976410391249d3fac1a7f0684e34a6e2ae82afbd8b8169ce0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104507903"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120014208"
 ---
 # <a name="iagentcharacterspeak"></a>IAgentCharacter：：說話
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 ``` syntax
 HRESULT Speak(
@@ -63,13 +63,13 @@ Microsoft Agent 自動斷詞字組，使用空白字元來分隔文字 (例如�
 > [!Note]  
 > 先使用 [**IAgentCharacterEx：： SetLanguageID**](iagentcharacterex--setlanguageid.md) 來設定字元的語言 (識別碼，然後再使用 [ [**朗讀**](/windows/desktop/lwef/iagentcharacter--speak) ] 方法，以確保文字氣球內適當的文字顯示。
 
- 
+ 
 
 ## <a name="see-also"></a>另請參閱
 
 [**IAgentCharacter：:P 的版面**](iagentcharacter--play.md)配置、 [**IAgentBalloon：： GetEnabled**](iagentballoon--getenabled.md)、 [**IAgentCharacter：:P 準備**](iagentcharacter--prepare.md)
 
 
- 
+ 
 
- 
+ 

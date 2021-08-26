@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: fb84b71028998d3f3df881f0d3b681432c3d6292
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 511872e5374a66711945456bebeec22cd1533fc65048cdf3b6cade86812c16c6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103850096"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119970338"
 ---
 # <a name="esentslvownermapalreadyexistsexception-class"></a>EsentSLVOwnerMapAlreadyExistsException 類別
 

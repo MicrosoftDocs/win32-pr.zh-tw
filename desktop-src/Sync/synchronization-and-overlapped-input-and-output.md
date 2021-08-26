@@ -4,12 +4,12 @@ ms.assetid: db44990e-5a0f-4153-8ff6-79dd7cda48af
 title: 同步處理和重迭的輸入和輸出
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e263bb39badc7cbfadd67d80eb169dc1fe6d6c35
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 13e462e4c2cffa3f1c9dee9bc33a7c75b910ce8139dbdfab9c190b4691c4b6bc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106978360"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119975908"
 ---
 # <a name="synchronization-and-overlapped-input-and-output"></a>同步處理和重迭的輸入和輸出
 
@@ -40,7 +40,7 @@ ms.locfileid: "106978360"
 
 * * Windows Vista、Windows Server 2003 和 Windows XP： * *
 
-[**重複使用**](/windows/win32/api/minwinbase/ns-minwinbase-overlapped)重迭的結構時，請務必小心。 如果 **在** 多個執行緒上重複使用重迭結構，而且 [**GetOverlappedResult**](/windows/win32/api/ioapiset/nf-ioapiset-getoverlappedresult) 是在 *bWait* 參數設定為 **TRUE** 的情況下呼叫，則呼叫執行緒必須確定相關聯的事件會在重複使用結構之前收到信號。 在呼叫 **GetOverlappedResult** 之後，您可以使用 [**WaitForSingleObject**](/windows/win32/api/winbase/nf-winbase-registerwaitforsingleobject)函式來強制執行緒等候，直到作業完成為止。 請注意，事件物件必須是手動重設事件物件。 如果使用 autoreset 事件物件，則呼叫 **GetOverlappedResult** 並將 *bWait* 參數設為 **TRUE** ，會導致函式無限期地封鎖。 此行為已從 Windows 7 和 Windows Server 2008 R2 變更，而應用程式會在應用程式資訊清單中指定 Windows 7 作為支援的作業系統。 如需詳細資訊，請參閱 [應用程式資訊清單](/previous-versions/windows/desktop/adrms_sdk/application-manifests)。
+[**重複使用**](/windows/win32/api/minwinbase/ns-minwinbase-overlapped)重迭的結構時，請務必小心。 如果 **在** 多個執行緒上重複使用重迭結構，而且 [**GetOverlappedResult**](/windows/win32/api/ioapiset/nf-ioapiset-getoverlappedresult) 是在 *bWait* 參數設定為 **TRUE** 的情況下呼叫，則呼叫執行緒必須確定相關聯的事件會在重複使用結構之前收到信號。 在呼叫 **GetOverlappedResult** 之後，您可以使用 [**WaitForSingleObject**](/windows/win32/api/winbase/nf-winbase-registerwaitforsingleobject)函式來強制執行緒等候，直到作業完成為止。 請注意，事件物件必須是手動重設事件物件。 如果使用 autoreset 事件物件，則呼叫 **GetOverlappedResult** 並將 *bWait* 參數設為 **TRUE** ，會導致函式無限期地封鎖。 從 Windows 7 和 Windows Server 2008 R2 開始，此行為已變更，因為應用程式會在應用程式資訊清單中指定 Windows 7 做為支援的作業系統。 如需詳細資訊，請參閱 [應用程式資訊清單](/previous-versions/windows/desktop/adrms_sdk/application-manifests)。
 
 ## <a name="related-topics"></a>相關主題
 

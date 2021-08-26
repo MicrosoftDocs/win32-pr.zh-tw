@@ -4,12 +4,12 @@ ms.assetid: abb2d5c1-040b-4c36-aae5-3517b6a8c540
 title: 執行緒堆疊大小
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f4204e0bffa13fb43b6ea9520b60c0505372bad6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9ff392577d529ab03a3859a0c6b0a94057ff8d8e0dc3c09fef86176d5c8950ef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944419"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120031408"
 ---
 # <a name="thread-stack-size"></a>執行緒堆疊大小
 

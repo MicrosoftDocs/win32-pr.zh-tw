@@ -4,12 +4,12 @@ ms.assetid: d5450ff9-085f-4345-87af-bf6c87931755
 title: 'MFPKEY_COLORCONV_SRCLEFT 屬性 (Wmcodecdsp) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7c3168125390cef6472ebc6ae6bf71ea426976c2
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 879f66fc98b15831de18d2d14be49eca859b9be58aacbb08dd21fab5ef90e2c2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108092966"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119940138"
 ---
 # <a name="mfpkey_colorconv_srcleft-property"></a>MFPKEY \_ COLORCONV \_ SRCLEFT 屬性
 
@@ -33,8 +33,8 @@ VT \_ I4
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                             |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                    |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                             |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                    |
 | 標頭<br/>                   | <dl> <dt>Wmcodecdsp。h</dt> </dl> |
 
 

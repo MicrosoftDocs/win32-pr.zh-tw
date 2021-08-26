@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: d6e6789a91f34d95933ae7869e1588eeb14b6006
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0f639e5d68b11b6a7a65ccfe0d0c6465f822d591b0c4dfd0f4916072fde40856
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994755"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120043768"
 ---
 # <a name="cbaserendererfindpin-method"></a>CBaseRenderer. FindPin 方法
 
@@ -63,7 +63,7 @@ HRESULT FindPin(
 
 
 
-| 傳回碼                                                                                       | Description                           |
+| 傳回碼                                                                                       | 描述                           |
 |---------------------------------------------------------------------------------------------------|---------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>              | 成功。<br/>                   |
 | <dl> <dt>**E \_ 指標**</dt> </dl>         | **Null** 指標引數。<br/> |

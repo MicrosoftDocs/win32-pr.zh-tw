@@ -4,12 +4,12 @@ description: 指標版面配置描述結構或陣列的指標。
 ms.assetid: 1a4984c1-97b9-4e95-a17e-851b67fa94a3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f26a6639b0c4b56c911be1e688995aaf3fb9d2d8
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6616cc7d1000b042c6039b2abf3f79d4900cd0e5fadac748881666610b139c57
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840523"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120019190"
 ---
 # <a name="pointer-layout"></a>指標版面配置
 
@@ -174,9 +174,9 @@ Endianess 的傳遞會以下列方式不同：每個結構和每個成員都必�
 
 Endianess 逐步檢查常見的緩衝區外狀況，並執行其他不相關本質的檢查。 以關聯值為目標的檢查 (例如，調整大小引數與一致大小) 無法使用此步驟執行;它們會在稍後進行封送時執行。
 
- 
+ 
 
- 
+ 
 
 
 

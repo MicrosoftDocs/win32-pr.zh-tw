@@ -4,12 +4,12 @@ ms.assetid: 8b47a007-525c-4d02-8723-d6217600041e
 title: 'AVEncMPVUseConcealmentMotionVectors 屬性 (Codecapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5d5a9316e257ebbbb8ba72ce027fe4c8c84db92b
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: f2335eaf57e0fdcddcd52a66f9645d3467e8feea1d866e199b10a030728b793a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103935665"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119999888"
 ---
 # <a name="avencmpvuseconcealmentmotionvectors-property"></a>AVEncMPVUseConcealmentMotionVectors 屬性
 
@@ -35,8 +35,8 @@ ms.locfileid: "103935665"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 2000 專業版傳統型 \[ 應用程式 \| UWP 應用程式\]<br/>                     |
-| 最低支援的伺服器<br/> | Windows 2000 Server \[ desktop 應用程式 \| UWP 應用程式\]<br/>                           |
+| 最低支援的用戶端<br/> | Windows 2000 Professional \[ 桌面應用程式 \| UWP 應用程式\]<br/>                     |
+| 最低支援的伺服器<br/> | Windows 2000 Server \[ desktop apps \| UWP 應用程式\]<br/>                           |
 | 標頭<br/>                   | <dl> <dt>Codecapi。h</dt> </dl> |
 
 

@@ -4,12 +4,12 @@ description: Microsoft Active Accessibility 使用 BSTR 資料類型所定義的
 ms.assetid: 47f525fe-6d18-43b9-a706-e49afa796830
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3fa26813c61be0a3959593f370016cfce0211ea9
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: b001791b2de2bde4c1efa0b09dcee55203a6cf69a41d5b7927c5df5438de90fc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104315784"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120030938"
 ---
 # <a name="converting-unicode-and-ansi-strings"></a>轉換 Unicode 和 ANSI 字串
 
@@ -21,6 +21,6 @@ Microsoft Active Accessibility 使用 **BSTR** 資料類型所定義的 Unicode 
 
 如需這些字串函數的詳細資訊，請參閱 Windows 軟體開發套件 (SDK) 的參考。
 
- 
+ 
 
- 
+ 

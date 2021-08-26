@@ -4,12 +4,12 @@ description: 屬性頁和屬性工作表
 ms.assetid: 02de6119-e880-4b15-8af8-7935418b12b8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 98e1adbaeb0b683603438976c48c05792c11ab15
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9157bd6ab4dca6f6d5e51f7ce6b06b87eb351e23fcbec437a9b1f60f24693fb6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104301088"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119954428"
 ---
 # <a name="property-pages-and-property-sheets"></a>屬性頁和屬性工作表
 
@@ -22,9 +22,9 @@ OLE 屬性頁可讓物件在稱為屬性工作表的索引標籤式對話方塊�
 -   [屬性工作表和屬性頁](property-sheets-and-property-pages.md)
 -   [透過 IPropertyNotifySink 的資料系結](data-binding-through-ipropertynotifysink.md)
 
- 
+ 
 
- 
+ 
 
 
 

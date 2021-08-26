@@ -3,7 +3,7 @@ title: 'TTM_POPUP 訊息 (Commctrl .h) '
 description: 使工具提示顯示于最後一個滑鼠訊息的座標上。
 ms.assetid: 6b7b430b-4f59-49f9-bd3f-70099485fac8
 keywords:
-- TTM_POPUP message Windows 控制項
+- TTM_POPUP 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dabcbf710b57cdb110eb349a928bdceaf389dbb1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8ba2668af3ba53618147b1afccfdbb71347e3074ca113b68fde00bb61c32d3d9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104103727"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119967828"
 ---
 # <a name="ttm_popup-message"></a>TTM \_ 快顯視窗訊息
 
@@ -52,8 +52,8 @@ ms.locfileid: "104103727"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

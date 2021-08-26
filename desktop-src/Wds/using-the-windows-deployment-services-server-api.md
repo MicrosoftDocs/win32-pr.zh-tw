@@ -1,27 +1,27 @@
 ---
 title: 使用 Windows 部署服務伺服器 API
-description: 在無法使用標準 Windows 部署服務 (WDS) 解決方案的環境中，WDS 伺服器會公開可讓開發人員撰寫外掛程式（稱為提供者）的 API，以處理 (PXE) 要求的啟動載入器執行環境。
+description: 在無法使用標準 Windows 部署服務 (WDS) 解決方案的環境中，wds 伺服器會公開可讓開發人員撰寫外掛程式（稱為提供者）的 API，以處理 (PXE) 要求的啟動載入器執行環境。
 ms.assetid: 5e25654a-33c6-4c0f-acc3-e938d1f4a4e7
 keywords:
-- 使用伺服器 API Windows 部署服務 Windows 部署服務
+- Windows使用伺服器 API Windows 部署服務部署服務
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d3634dffa73eddc9b5db92be6bc807cccbc5248f
-ms.sourcegitcommit: c2a1c4314550ea9bd202d28adfcc7bfe6180932f
+ms.openlocfilehash: 21ce7516e5279fecdfeecfa90edd8e3a0dad265562fa5ea59336367dbe157c5e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "103681597"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119999568"
 ---
 # <a name="using-the-windows-deployment-services-server-api"></a>使用 Windows 部署服務伺服器 API
 
-在無法使用標準 Windows 部署服務 (WDS) 解決方案的環境中，WDS 伺服器會公開可讓開發人員撰寫外掛程式（稱為提供者）的 API，以處理 (PXE) 要求的啟動載入器執行環境。 撰寫適用于 WDS 的 PXE 提供者時，開發人員應該遵循下列指導方針。
+在無法使用標準 Windows 部署服務 (WDS) 解決方案的環境中，wds 伺服器會公開可讓開發人員撰寫外掛程式（稱為提供者）的 API，以處理 (PXE) 要求的啟動載入器執行環境。 撰寫適用于 WDS 的 PXE 提供者時，開發人員應該遵循下列指導方針。
 
 ## <a name="install-the-wds-role-on-the-server"></a>在伺服器上安裝 WDS 角色
 
--   Windows 部署服務 (WDS) 是 (RIS) 的遠端安裝服務修訂版本，您將需要 WDS 伺服器角色才能執行 WDS PXE 伺服器和提供者。
--   WDS 會以 Windows Server 2008 和 Windows Server 2003 Service Pack 2 (SP2) 的標準元件取代 RIS。
--   您必須將 RIS 伺服器更新至 Windows Server 2003 Service Pack 1 (SP1) 上的 WDS。 您可以使用 [Windows 自動化安裝套件 (WAIK) ](https://www.microsoft.com/download/details.aspx?id=10333)來安裝 WDS 伺服器角色。
+-   Windows部署服務 (WDS) 是 (RIS) 的遠端安裝服務修訂版本，您將需要 WDS 伺服器角色才能執行 WDS PXE 伺服器和提供者。
+-   WDS 將 RIS 取代為從 Windows Server 2008 開始的標準元件，以及 Windows server 2003 Service Pack 2 (SP2) 。
+-   您必須將 RIS 伺服器更新為 Windows server 2003 Service Pack 1 (SP1) 上的 WDS。 您可以使用[Windows 自動安裝套件 (WAIK) ](https://www.microsoft.com/download/details.aspx?id=10333)來安裝 WDS 伺服器角色。
 
 ## <a name="register-providers"></a>註冊提供者
 
@@ -29,7 +29,7 @@ ms.locfileid: "103681597"
     > [!Note]  
     > 當您安裝新的或修改的提供者時，您必須重新開機 WDS PXE 服務，變更才會生效。
 
-     
+     
 
 -   使用 [**PxeProviderRegister**](/windows/win32/api/WdsPxe/nf-wdspxe-pxeproviderregister) 函式來註冊提供者，並將其新增至清單。 使用 [**PxeProviderUnRegister**](/windows/win32/api/WdsPxe/nf-wdspxe-pxeproviderunregister) 函式取消註冊已註冊的提供者，並將它從清單中移除。
 -   在排序的清單中指定提供者的順序。 無法保證清單中的提供者索引，因為稍後可能會先註冊另一個提供者。 若要將提供者插入到另一個已註冊的提供者之前或之後的清單中，請先使用 [**PxeProviderQueryIndex**](/windows/win32/api/WdsPxe/nf-wdspxe-pxeproviderqueryindex) 函式取得已註冊之提供者的索引，然後在指定較大或較小的索引值時註冊新的提供者。
@@ -102,9 +102,9 @@ ms.locfileid: "103681597"
 [使用 Windows 部署服務用戶端 API](using-the-windows-deployment-services-client-api.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

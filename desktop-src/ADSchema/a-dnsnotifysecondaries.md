@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d9106ce3a83cee835f2c8ef4cd837728e34975f5
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: e64a82ac12932b6b79914970ba1e1a847e4fac4c90bfd07cbb8be596c88c5a8e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103687287"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120077913"
 ---
 # <a name="dns-notify-secondaries-attribute"></a>Dns-通知-次要屬性
 

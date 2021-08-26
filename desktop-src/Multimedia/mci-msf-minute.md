@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f65f978c13fc1b3fbf86266c35786b21612c4e7c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8423e63c7e155c072b496a9bf13c332619f96e8c6780cac6fae266f6a924c9f6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106966542"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120039138"
 ---
 # <a name="mci_msf_minute-macro"></a>MCI \_ MSF \_ MINUTE 宏
 
@@ -80,7 +80,7 @@ MSF 格式的時程表示為 **DWORD** 值，具有最小的最小位元組數�
 
 <dl> <dt>
 
-[Mci](mci.md)
+[MCI](mci.md)
 </dt> <dt>
 
 [MCI 宏](mci-macros.md)

@@ -4,12 +4,12 @@ description: 捲軸參考
 ms.assetid: 8a0fb114-6b3f-4c99-aeaf-32d0bd95fde7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 871e28060409dfb18ff8eaf4992bc0ca9e98155f
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 513e932fac6ebec4b2b5a06671cea54c0ad8071bf37059abdb3d375dbeccef5a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "103945961"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119970258"
 ---
 # <a name="scroll-bar-reference"></a>捲軸參考
 

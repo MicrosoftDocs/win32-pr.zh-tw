@@ -1,5 +1,5 @@
 ---
-description: 代表安裝在電腦上的 Windows 作業系統。
+description: 代表安裝在電腦上 Windows 為基礎的作業系統。
 ms.assetid: eb6a8cff-20a0-4211-b46a-3084e9c39246
 ms.tgt_platform: multiple
 title: Win32_OperatingSystem 類別
@@ -80,16 +80,16 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 15a6a1bf7bec8c830d1a15ec690b01ec9ea22e48
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: a1df0da4cadf0cd610803b2f456f22049471b28bc5653bc400f4c730cb0c47de
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191014"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119972528"
 ---
 # <a name="win32_operatingsystem-class"></a>Win32 \_ 作業系統類別
 
-**Win32 \_ 作業系統** [WMI 類別](../wmisdk/retrieving-a-class.md)代表安裝在電腦上的 Windows 作業系統。
+**Win32 \_ 作業系統** [WMI 類別](../wmisdk/retrieving-a-class.md)代表安裝在電腦上的 Windows 為基礎的作業系統。
 
 下列語法已經過受管理物件格式 (MOF) 程式碼簡化，並包含所有已繼承的屬性。 屬性和方法是以字母順序排列，而不是 MOF 順序。
 
@@ -185,7 +185,7 @@ class Win32_OperatingSystem : CIM_OperatingSystem
 |:-------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**重新啟動**](reboot-method-in-class-win32-operatingsystem.md)                             | 關機後再重新開機電腦系統。<br/>                                                                                                                                                                                                           |
 | [**SetDateTime**](setdatetime-method-in-class-win32-operatingsystem.md)                   | 允許設定電腦日期和時間。<br/>                                                                                                                                                                                                                |
-| [**關閉**](shutdown-method-in-class-win32-operatingsystem.md)                         | 將程式和 Dll 卸載至關閉電腦的安全點。<br/>                                                                                                                                                                           |
+| [**關機**](shutdown-method-in-class-win32-operatingsystem.md)                         | 將程式和 Dll 卸載至關閉電腦的安全點。<br/>                                                                                                                                                                           |
 | [**Win32Shutdown**](win32shutdown-method-in-class-win32-operatingsystem.md)               | 提供 Windows 作業系統所支援的一組完整關機選項。<br/>                                                                                                                                                                           |
 | [**Win32ShutdownTracker**](win32shutdowntracker-method-in-class-win32-operatingsystem.md) | 提供 **Win32 \_ 作業系統** 中 [**Win32Shutdown**](win32shutdown-method-in-class-win32-operatingsystem.md)方法所支援的相同關機選項組，但也可讓您指定批註、關機原因或超時。<br/> |
 
@@ -267,7 +267,7 @@ Windows 作業系統啟動所在之磁片磁碟機的名稱。
 
 物件的簡短描述（單行字串）。 字串包含作業系統版本。 例如「Microsoft Windows 7 企業版」。 這個屬性可以當地語系化。
 
-**Windows Vista 和 windows 7：** 這個屬性可包含尾端的字元。 例如，包含的字串 "Microsoft Windows 7 企業版" (尾端空格) 可能需要使用這個屬性來取得資訊。
+**Windows Vista 和 Windows 7：** 這個屬性可包含尾端的字元。 例如，包含的字串 "Microsoft Windows 7 企業版" (尾端空格) 可能需要使用這個屬性來取得資訊。
 
 這個屬性繼承自 [**CIM \_ ManagedSystemElement**](cim-managedsystemelement.md)。
 
@@ -492,7 +492,7 @@ Windows 作業系統啟動所在之磁片磁碟機的名稱。
 
 </dt> <dd>
 
-DEP 已啟用有限的二進位檔、核心和所有 Windows 服務的數目。 不過，它預設會針對所有32位應用程式關閉。 使用者或系統管理員必須明確選擇 **Always On** 或選擇 **退出** 設定，才能將 DEP 套用至32位應用程式。
+DEP 已針對有限的二進位檔、核心和所有 Windows 型服務啟用。 不過，它預設會針對所有32位應用程式關閉。 使用者或系統管理員必須明確選擇 **Always On** 或選擇 **退出** 設定，才能將 DEP 套用至32位應用程式。
 
 </dd> <dt>
 
@@ -672,7 +672,7 @@ Windows 作業系統的描述。 某些使用者介面（例如允許編輯此�
 存取類型：唯讀
 </dt> <dt>
 
-限定詞： [**MappingStrings**](../wmisdk/standard-qualifiers.md) ( "MIF。DMTF \| 系統記憶體設定 \| 001.4 ") ， [**單位**](../wmisdk/standard-qualifiers.md) (" kb ") 
+限定詞： [**MappingStrings**](../wmisdk/standard-qualifiers.md) ( "MIF。DMTF \| 系統記憶體設定 \| 001.4 ") ，[**單位**](../wmisdk/standard-qualifiers.md) (" kb ") 
 </dt> </dl>
 
 可以對應到作業系統分頁檔的數位（以 kb 為單位），而不會造成其他任何頁面交換。
@@ -822,7 +822,7 @@ Windows 作業系統的描述。 某些使用者介面（例如允許編輯此�
 限定詞： [**MappingStrings**](../wmisdk/standard-qualifiers.md) ( "WMI" ) 
 </dt> </dl>
 
-作業系統製造商的名稱。 如果是以 Windows 為基礎的系統，此值會是 "Microsoft Corporation"。
+作業系統製造商的名稱。 若為 Windows 為基礎的系統，此值為 "Microsoft Corporation"。
 
 </dd> <dt>
 
@@ -876,7 +876,7 @@ Windows 作業系統的描述。 某些使用者介面（例如允許編輯此�
 限定詞： [**MappingStrings**](../wmisdk/standard-qualifiers.md) ( "WMI" ) 
 </dt> </dl>
 
-電腦上安裝的多語系消費者介面套件 (MUI 套件 ) 語言。 例如，"en-us"。 MUI 套件語言是可安裝在英文版作業系統上的資源檔。 安裝 MUI 套件之後，您可以將使用者介面語言變更為33支援的語言之一。
+多語系消費者介面電腦上安裝的 (MUI Pack ) 語言套件。 例如，"en-us"。 MUI 套件語言是可安裝在英文版作業系統上的資源檔。 安裝 MUI 套件之後，您可以將使用者介面語言變更為33支援的語言之一。
 
 </dd> <dt>
 
@@ -1004,7 +1004,7 @@ Home Basic 版
 
 </dt> <dd>
 
-Home Premium Edition
+Home 進階版 Edition
 
 </dd> <dt>
 
@@ -1037,7 +1037,7 @@ Business Edition
 
 </dt> <dd>
 
-Windows Server Standard Edition (桌面體驗安裝) 
+Windows伺服器 Standard Edition (桌面體驗安裝) 
 
 </dd> <dt>
 
@@ -1048,7 +1048,7 @@ Windows Server Standard Edition (桌面體驗安裝)
 
 </dt> <dd>
 
-Windows Server Datacenter Edition (桌面體驗安裝) 
+WindowsServer Datacenter Edition (桌面體驗安裝) 
 
 </dd> <dt>
 
@@ -1070,7 +1070,7 @@ Small Business Server 版本
 
 </dt> <dd>
 
-Enterprise Server Edition
+Enterprise伺服器版本
 
 </dd> <dt>
 
@@ -1114,7 +1114,7 @@ Datacenter Server Core Edition
 
 </dt> <dd>
 
-Enterprise Server Core 版
+EnterpriseServer Core 版本
 
 </dd> <dt>
 
@@ -1147,7 +1147,7 @@ Home Server Edition
 
 </dt> <dd>
 
-Storage Express Server 版本
+儲存體Express Server Edition
 
 </dd> <dt>
 
@@ -1158,7 +1158,7 @@ Storage Express Server 版本
 
 </dt> <dd>
 
-Windows Storage Server Standard Edition (桌面體驗安裝) 
+Windows 儲存體伺服器 Standard Edition (桌面體驗安裝) 
 
 </dd> <dt>
 
@@ -1169,7 +1169,7 @@ Windows Storage Server Standard Edition (桌面體驗安裝)
 
 </dt> <dd>
 
-Windows Storage Server Workgroup Edition (桌面體驗安裝) 
+Windows 儲存體 Server Workgroup Edition (桌面體驗安裝) 
 
 </dd> <dt>
 
@@ -1180,7 +1180,7 @@ Windows Storage Server Workgroup Edition (桌面體驗安裝)
 
 </dt> <dd>
 
-Storage Enterprise Server Edition
+儲存體 Enterprise Server 版本
 
 </dd> <dt>
 
@@ -1202,7 +1202,7 @@ Storage Enterprise Server Edition
 
 </dt> <dd>
 
-Small Business Server Premium Edition
+Small Business Server 進階版 Edition
 
 </dd> <dt>
 
@@ -1224,7 +1224,7 @@ Windows Enterprise Edition
 
 </dt> <dd>
 
-Windows 旗艦版
+Windows旗艦版
 
 </dd> <dt>
 
@@ -1235,7 +1235,7 @@ Windows 旗艦版
 
 </dt> <dd>
 
-Windows Server Web Server Edition (Server Core 安裝) 
+WindowsServer Web Server Edition (Server Core 安裝) 
 
 </dd> <dt>
 
@@ -1246,7 +1246,7 @@ Windows Server Web Server Edition (Server Core 安裝)
 
 </dt> <dd>
 
-不含 Hyper-v 的 Windows Server Standard Edition
+Windows不含 hyper-v 的伺服器 Standard Edition
 
 </dd> <dt>
 
@@ -1257,7 +1257,7 @@ Windows Server Web Server Edition (Server Core 安裝)
 
 </dt> <dd>
 
-沒有 Hyper-v 的 Windows Server Datacenter Edition (完整安裝) 
+Windows沒有 Hyper-v 的 Server Datacenter Edition (完整安裝) 
 
 </dd> <dt>
 
@@ -1268,7 +1268,7 @@ Windows Server Web Server Edition (Server Core 安裝)
 
 </dt> <dd>
 
-沒有 Hyper-v 的 Windows Server Enterprise Edition (完整安裝) 
+Windows沒有 hyper-v 的伺服器 Enterprise Edition (完整安裝) 
 
 </dd> <dt>
 
@@ -1279,7 +1279,7 @@ Windows Server Web Server Edition (Server Core 安裝)
 
 </dt> <dd>
 
-沒有 Hyper-v 的 Windows Server Datacenter Edition (Server Core 安裝) 
+Windows沒有 Hyper-v (Server Core 安裝的 server Datacenter Edition) 
 
 </dd> <dt>
 
@@ -1290,7 +1290,7 @@ Windows Server Web Server Edition (Server Core 安裝)
 
 </dt> <dd>
 
-沒有 Hyper-v 的 Windows Server Standard Edition (Server Core 安裝) 
+Windows沒有 hyper-v 的伺服器 Standard Edition (server Core 安裝) 
 
 </dd> <dt>
 
@@ -1301,7 +1301,7 @@ Windows Server Web Server Edition (Server Core 安裝)
 
 </dt> <dd>
 
-沒有 Hyper-v 的 Windows Server Enterprise Edition (Server Core 安裝) 
+Windows沒有 hyper-v 的伺服器 Enterprise Edition (server Core 安裝) 
 
 </dd> <dt>
 
@@ -1323,7 +1323,7 @@ Microsoft Hyper-V Server
 
 </dt> <dd>
 
-Storage Server Express Edition (Server Core 安裝) 
+儲存體Server Express Edition (Server Core 安裝) 
 
 </dd> <dt>
 
@@ -1334,7 +1334,7 @@ Storage Server Express Edition (Server Core 安裝)
 
 </dt> <dd>
 
-Storage Server Standard Edition (Server Core 安裝) 
+儲存體伺服器 Standard Edition (server Core 安裝) 
 
 </dd> <dt>
 
@@ -1345,7 +1345,7 @@ Storage Server Standard Edition (Server Core 安裝)
 
 </dt> <dd>
 
-Storage Server Workgroup Edition (Server Core 安裝) 
+儲存體Server Workgroup Edition (Server Core 安裝) 
 
 </dd> <dt>
 
@@ -1356,7 +1356,7 @@ Storage Server Workgroup Edition (Server Core 安裝)
 
 </dt> <dd>
 
-Storage Server Workgroup Edition (Server Core 安裝) 
+儲存體Server Workgroup Edition (Server Core 安裝) 
 
 </dd> <dt>
 
@@ -1367,7 +1367,7 @@ Storage Server Workgroup Edition (Server Core 安裝)
 
 </dt> <dd>
 
-Windows 專業版
+Windows Professional
 
 </dd> <dt>
 
@@ -1378,7 +1378,7 @@ Windows 專業版
 
 </dt> <dd>
 
-Windows Server Essentials (桌面體驗安裝) 
+WindowsServer Essentials (桌面體驗安裝) 
 
 </dd> <dt>
 
@@ -1389,7 +1389,7 @@ Windows Server Essentials (桌面體驗安裝)
 
 </dt> <dd>
 
-Small Business Server Premium (Server Core 安裝) 
+Small Business Server 進階版 (Server Core 安裝) 
 
 </dd> <dt>
 
@@ -1400,7 +1400,7 @@ Small Business Server Premium (Server Core 安裝)
 
 </dt> <dd>
 
-不含 Hyper-v 的 Windows Compute Cluster Server
+Windows不含 Hyper-v 的計算叢集伺服器
 
 </dd> <dt>
 
@@ -1422,7 +1422,7 @@ Windows RT
 
 </dt> <dd>
 
-Windows 首頁
+Windows家
 
 </dd> <dt>
 
@@ -1433,7 +1433,7 @@ Windows 首頁
 
 </dt> <dd>
 
-具有 Media Center 的 Windows 專業版
+使用 Media Center Windows Professional
 
 </dd> <dt>
 
@@ -1455,7 +1455,7 @@ Windows Mobile
 
 </dt> <dd>
 
-Windows IoT (物聯網) 核心
+WindowsIoT (物聯網) 核心
 
 </dd> <dt>
 
@@ -1466,7 +1466,7 @@ Windows IoT (物聯網) 核心
 
 </dt> <dd>
 
-Windows Server Datacenter Edition (Nano Server 安裝) 
+WindowsServer Datacenter Edition (Nano Server 安裝) 
 
 </dd> <dt>
 
@@ -1477,7 +1477,7 @@ Windows Server Datacenter Edition (Nano Server 安裝)
 
 </dt> <dd>
 
-Windows Server Standard Edition (Nano Server 安裝) 
+Windows伺服器 Standard Edition (Nano Server 安裝) 
 
 </dd> <dt>
 
@@ -1488,7 +1488,7 @@ Windows Server Standard Edition (Nano Server 安裝)
 
 </dt> <dd>
 
-Windows Server Datacenter Edition (Server Core 安裝) 
+WindowsServer Datacenter Edition (Server Core 安裝) 
 
 </dd> <dt>
 
@@ -1499,7 +1499,7 @@ Windows Server Datacenter Edition (Server Core 安裝)
 
 </dt> <dd>
 
-Windows Server Standard Edition (Server Core 安裝) 
+Windows伺服器 Standard Edition (server Core 安裝) 
 
 </dd> </dl>
 
@@ -2419,10 +2419,10 @@ Hindi
 存取類型：唯讀
 </dt> <dt>
 
-限定詞： [**MappingStrings**](../wmisdk/standard-qualifiers.md) ( "Win32Registry \| SYSTEM \\ \\ CurrentControlSet \\ \\ Control \\ \\ ProductOptions \| ProductSuite" ) 、 [**BitValues**](../wmisdk/standard-qualifiers.md) ( "Small Business"、"Enterprise"、"BackOffice"、"Communication Server"、"Terminal server"、"Small Business (受限的) "、"Embedded NT"、"Data Center" ) 
+限定詞： [**MappingStrings**](../wmisdk/standard-qualifiers.md) ( "Win32Registry \| SYSTEM \\ \\ CurrentControlSet \\ \\ Control \\ \\ ProductOptions \| ProductSuite" ) 、 [**BitValues**](../wmisdk/standard-qualifiers.md) ( "Small business"、"Enterprise"、"BackOffice"、"Communication server"、"Terminal server"、"Small Business (限制) "、"Embedded NT"、"Data Center" ) 
 </dt> </dl>
 
-已安裝並授權系統產品新增至作業系統。 例如， **OSProductSuite** (0x92) 的146值表示企業、終端機服務和資料中心 (位1、四和七組) 。 下列清單列出可能的值。
+已安裝並授權系統產品新增至作業系統。 例如， **OSProductSuite** 的值 146 (0x92) 表示 Enterprise、終端機服務和資料中心 (位一、四和七組) 。 下列清單列出可能的值。
 
 <dt>
 
@@ -2436,14 +2436,14 @@ Microsoft Small Business Server 已安裝完成，但可能已升級至另一個
 2 (0x2) 
 </dt> <dd>
 
-已安裝 Windows Server 2008 Enterprise。
+Windows已安裝 Server 2008 Enterprise。
 
 </dd> <dt>
 
 4 (0x4) 
 </dt> <dd>
 
-已安裝 Windows BackOffice 元件。
+Windows已安裝 BackOffice 元件。
 
 </dd> <dt>
 
@@ -2471,7 +2471,7 @@ Microsoft Small Business Server 已安裝了嚴格的用戶端授權。
 64 (0x40) 
 </dt> <dd>
 
-已安裝 Windows Embedded。
+Windows已安裝 Embedded。
 
 </dd> <dt>
 
@@ -2492,7 +2492,7 @@ Microsoft Small Business Server 已安裝了嚴格的用戶端授權。
 512 (0x200) 
 </dt> <dd>
 
-已安裝 Windows Home Edition。
+Windows已安裝 Home Edition。
 
 </dd> <dt>
 
@@ -2506,7 +2506,7 @@ Microsoft Small Business Server 已安裝了嚴格的用戶端授權。
 8192 (0x2000) 
 </dt> <dd>
 
-已安裝 Storage Server Edition。
+儲存體已安裝伺服器版本。
 
 </dd> <dt>
 
@@ -3062,7 +3062,7 @@ Solaris
 
 指定作業系統是否從外部 USB 裝置開機。 若為 true，表示作業系統偵測到在支援的本機連線存放裝置上開機。
 
-**Windows server 2008 R2、windows 7、Windows server 2008 和 Windows Vista：** 在 Windows 8 和 Windows Server 2012 之前，不支援這個屬性。
+**Windows server 2008 R2、Windows 7、Windows Server 2008 和 Windows Vista：** 在 Windows 8 和 Windows Server 2012 之前，不支援這個屬性。
 
 </dd> <dt>
 
@@ -3176,7 +3176,7 @@ Solaris
 
 * * Windows Server 2008 和 Windows Vista： * *
 
-**QuantumType** 屬性會指定固定或可變長度的量程。 Windows 預設為可變長度的量子，其中前景應用程式的量子比背景應用程式更長。 Windows Server 預設為固定長度的量程。 量子是在切換到另一個應用程式之前，允許排程器提供給應用程式的執行時間單位。 當執行緒執行一個量子時，核心會 shutdown 它，並將其移至具有相同優先順序的應用程式佇列結尾。 執行緒的量子的實際長度會因不同的 Windows 平臺而異。
+**QuantumType** 屬性會指定固定或可變長度的量程。 Windows 預設為可變長度的量子，其中前景應用程式的量子比背景應用程式更長。 Windows伺服器預設為固定長度的量程。 量子是在切換到另一個應用程式之前，允許排程器提供給應用程式的執行時間單位。 當執行緒執行一個量子時，核心會 shutdown 它，並將其移至具有相同優先順序的應用程式佇列結尾。 執行緒的量子的實際長度會因不同的 Windows 平臺而異。
 
 可能的值為。
 
@@ -3282,7 +3282,7 @@ Solaris
 存取類型：唯讀
 </dt> <dt>
 
-限定詞： [**MappingStrings**](../wmisdk/standard-qualifiers.md) ( "MIF。DMTF \| 系統記憶體設定 \| 001.3 ") ， [**單位**](../wmisdk/standard-qualifiers.md) (" kb ") 
+限定詞： [**MappingStrings**](../wmisdk/standard-qualifiers.md) ( "MIF。DMTF \| 系統記憶體設定 \| 001.3 ") ，[**單位**](../wmisdk/standard-qualifiers.md) (" kb ") 
 </dt> </dl>
 
 作業系統分頁檔案中可儲存的 kb 總數— 0 (零) 表示沒有分頁檔案。 請注意，此數目不代表磁片上分頁檔案的實際實際大小。
@@ -3406,7 +3406,7 @@ Solaris
 存取類型：唯讀
 </dt> <dt>
 
-限定詞： [**BitMap**](../wmisdk/standard-qualifiers.md) ( "0"、"1"、"2"、"3"、"4"、"5"、"6"、"7"、"8"、"9"、"10" ) 、 [**BitValues**](../wmisdk/standard-qualifiers.md) ( "Windows Server Small Business Edition"、"Windows server、Enterprise Edition"、"Windows server，Backoffice Edition"、"Windows server，communication Edition"、"Microsoft Terminal Services"、"Windows Server，Small Business edition 限制"、"windows Embedded"、"Windows server、Datacenter Edition"、"Single User"、"Windows server、Datacenter edition"、"Windows server、Web edition" ) 
+限定詞： [**BitMap**](../wmisdk/standard-qualifiers.md) ( "0"、"1"、"2"、"3"、"4"、"5"、"6"、"7"、"8"、"9"、"10" ) 、 [**BitValues**](../wmisdk/standard-qualifiers.md) ( "Windows Server small Business Edition"、"Windows Server、Enterprise Edition"、"Windows server、Backoffice Edition"、"Windows server、communication edition"、"Microsoft Terminal Services"、"Windows server、Small Business edition 限制"、"Windows Embedded"、"Windows server、Datacenter edition"、"Single User"、"Windows Home edition"、"Windows server、Web Edition" ) 
 </dt> </dl>
 
 識別系統上可用之產品套件的位旗標。
@@ -3553,7 +3553,7 @@ Web 服務器版本
 限定詞： [**單位**](../wmisdk/standard-qualifiers.md) ( "kb" ) 
 </dt> </dl>
 
-交換空間總計（以 kb 為單位）。 如果交換空間與分頁檔不區分，則此值可能是 **Null** (未指定) 。 不過，有些作業系統會區分這些概念。 例如，在 UNIX 中，當免費頁面清單落在低於指定的數量時，可以將整個進程交換。
+交換空間總計（以 kb 為單位）。 如果交換空間與分頁檔不區分，則此值可能是 **Null** (未指定) 。 不過，有些作業系統會區分這些概念。 例如，在 UNIX 中，可以在免費頁面清單落在低於指定的數量時，將整個進程換出。
 
 如需在腳本中使用 **uint64** 值的詳細資訊，請參閱 [WMI 中的腳本](/previous-versions//aa393262(v=vs.85))。
 
@@ -3631,7 +3631,7 @@ Web 服務器版本
 限定詞： [**MappingStrings**](../wmisdk/standard-qualifiers.md) ( "Win32API \| 系統資訊函數 \| [**GetWindowsDirectory**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getwindowsdirectorya)" ) 
 </dt> </dl>
 
-作業系統的 Windows 目錄。
+作業系統 Windows 目錄。
 
 範例： "C： \\ WINDOWS"
 
@@ -3641,7 +3641,7 @@ Web 服務器版本
 
 **Win32 \_ 作業系統** 類別衍生自 [**CIM \_ 作業系統**](cim-operatingsystem.md)。
 
-可以安裝在可執行 Windows 作業系統之電腦上的任何作業系統都是此類別的子系或成員。 **Win32 \_作業系統** 是單一類別。 若要取得單一實例，請使用 "@" 作為索引鍵。
+可以安裝在可執行 Windows 為基礎之作業系統的電腦上的任何作業系統，都是此類別的子系或成員。 **Win32 \_作業系統** 是單一類別。 若要取得單一實例，請使用 "@" 作為索引鍵。
 
 不同于 Mgmtclassgen.exe 所產生的其他大部分 WMI 類別， **作業系統 CreateInstance** () 方法會傳回空白的 **作業系統** 物件。 因此，如果您使用 C 搭配 \# mgmtclassgen.exe，您可以使用下列程式碼：
 
@@ -3656,7 +3656,7 @@ WMI.OperatingSystem os = new ROOT.CIMV2.win32.OperatingSystem();
 
 您可以在 [**win32 \_ 處理器**](win32-processor.md)主題範例中找到 VBScript 範例，以取得 [**win32 \_**](win32-computersystem.md)系統、 [**win32 \_ 處理器**](win32-processor.md)和 **win32 作業系統 \_** 的作業系統和處理器資料。
 
-在 TechNet 資源庫上 [使用 powershell powershell 範例產生 Exchange 環境報告](https://Gallery.TechNet.Microsoft.Com/scriptcenter/Generate-Exchange-2388e7c9) ，會使用 **Win32 \_ 作業系統** 類別做為較大應用程式的一部分，以產生 Exchange 環境報告。
+使用 powershell 資源庫上的 powershell powershell 範例 [產生 Exchange 環境報告](https://Gallery.TechNet.Microsoft.Com/scriptcenter/Generate-Exchange-2388e7c9)使用 **Win32 \_ 作業系統** 類別做為較大應用程式的一部分，以產生 Exchange 環境報告。
 
 TechNet 資源庫中的「 [使用 WMI 取得伺服器執行時間](https://Gallery.TechNet.Microsoft.Com/Get-Server-Uptime-Using-WMI-15aaa8ac) 」範例會使用 **LastBootupTime** 屬性來判斷伺服器的作用時間。 此範例也會使用 timeout 選項，以確保 WMI 呼叫不會停止回應。
 

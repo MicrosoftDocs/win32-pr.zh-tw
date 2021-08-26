@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 001b91338b2956f663d777cbc9597fa2d9a478f3
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 951744cded927707ac0b39e562b4207acbecdd92420c91a2b130f0b493444b01
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106993671"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119999550"
 ---
 # <a name="cdrawimage-class"></a>CDrawImage 類別
 
@@ -57,7 +57,7 @@ ms.locfileid: "106993671"
 
 
 
-| 受保護的成員變數                                            | Description                                                                                                                     |
+| 受保護的成員變數                                            | 描述                                                                                                                     |
 |-----------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|
 | [**m \_ bStretch**](cdrawimage-m-bstretch.md)                          | 指出是否必須延展影片影像以符合目的地視窗。                                              |
 | [**m \_ bUsingImageAllocator**](cdrawimage-m-busingimageallocator.md)  | 指出釘選連接的配置器是否為 **CImageAllocator** 物件。                                         |
@@ -70,13 +70,13 @@ ms.locfileid: "106993671"
 | [**m \_ SourceRect**](cdrawimage-m-sourcerect.md)                      | 指定繪圖的來源矩形。                                                                                     |
 | [**m \_ StartSample**](cdrawimage-m-startsample.md)                    | 指定最新範例的開始時間。                                                                             |
 | [**m \_ TargetRect**](cdrawimage-m-targetrect.md)                      | 指定繪圖的目標矩形。                                                                                     |
-| 保護方法                                                     | Description                                                                                                                     |
+| 保護方法                                                     | 描述                                                                                                                     |
 | [**DisplaySampleTimes**](cdrawimage-displaysampletimes.md)           | 在影片影像上方繪製媒體範例的時間戳記。                                                              |
 | [**FastRender**](cdrawimage-fastrender.md)                           | 使用 **BitBlt** 或 **StretchBlt** 函數繪製影片影像。                                                         |
 | [**SetStretchMode**](cdrawimage-setstretchmode.md)                   | 計算影片影像是否必須伸展。                                                                           |
 | [**SlowRender**](cdrawimage-slowrender.md)                           | 使用 **SetDIBitsToDevice** 或 **StretchDIBits** 函數繪製影片影像。                                           |
 | [**UpdateColourTable**](cdrawimage-updatecolourtable.md)             | 以新的調色板更新色彩表。                                                                                     |
-| 公用方法                                                        | Description                                                                                                                     |
+| 公用方法                                                        | 描述                                                                                                                     |
 | [**CDrawImage**](cdrawimage-cdrawimage.md)                           | 函式方法。                                                                                                             |
 | [**DrawImage**](cdrawimage-drawimage.md)                             | 在影片視窗中繪製影片框架。                                                                                        |
 | [**DrawVideoImageHere**](cdrawimage-drawvideoimagehere.md)           | 從媒體範例將影像繪製到指定的裝置內容。                                                               |

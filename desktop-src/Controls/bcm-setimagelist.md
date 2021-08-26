@@ -3,7 +3,7 @@ title: 'BCM_SETIMAGELIST 訊息 (Commctrl .h) '
 description: 將影像清單指派給按鈕控制項。 您可以明確地傳送此訊息，或使用按鈕 \_ SetImageList 宏。
 ms.assetid: 805d2d9b-3e8f-4323-abaf-0dd5765cd740
 keywords:
-- BCM_SETIMAGELIST message Windows 控制項
+- BCM_SETIMAGELIST 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c9bdf29735958f3c40af544bca4b946458df8431
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1f5c88020bb139c358b17386b003bfb9de9cfcd4e769b9262ed90e23f3f95e75
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104024998"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119921558"
 ---
 # <a name="bcm_setimagelist-message"></a>BCM \_ SETIMAGELIST 訊息
 
@@ -77,8 +77,8 @@ enum PUSHBUTTONSTATES {
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

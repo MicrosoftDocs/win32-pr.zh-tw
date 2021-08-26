@@ -67,7 +67,7 @@ HRESULT ReleaseTargetLock(
 | 最低支援的用戶端<br/> | 都不支援<br/>                                                                     |
 | 最低支援的伺服器<br/> | Windows Server 2012 R2<br/>                                                             |
 | 伺服器支援結束<br/>    | Windows Server 2012 R2<br/>                                                             |
-| Idl<br/>                      | <dl> <dt>SbTsV .idl</dt> </dl>          |
+| IDL<br/>                      | <dl> <dt>SbTsV .idl</dt> </dl>          |
 | IID<br/>                      | IID \_ ITsSbResourcePluginStoreEx 定義為80b83ffd-625d-11e5-bea1-a0481c7e9064<br/> |
 
 

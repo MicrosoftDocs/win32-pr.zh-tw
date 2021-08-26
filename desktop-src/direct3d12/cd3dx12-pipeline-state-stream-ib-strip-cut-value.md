@@ -15,12 +15,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 86c14924828c924b3bbbca3bb1a5f822437ec4c9
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 1e204b4f89cced7cf0bd5cdcb21702c37c241a81abfbc12d8644eafdb3c7c7ae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106976461"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119988408"
 ---
 # <a name="cd3dx12_pipeline_state_stream_ib_strip_cut_value-structure"></a>CD3DX12 \_ 管線 \_ 狀態 \_ 串流 \_ IB \_ 帶 \_ 剪下 \_ 值結構
 

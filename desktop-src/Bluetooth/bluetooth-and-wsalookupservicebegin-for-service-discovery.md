@@ -1,35 +1,35 @@
 ---
-title: 適用于服務探索的藍牙和 WSALookupServiceBegin
-description: 用戶端會使用 WSALookupServiceBegin、WSALookupServiceNext 和 WSALookupServiceEnd 功能，來探索藍牙伺服器上的特定服務是否存在。
+title: 服務探索藍牙和 WSALookupServiceBegin
+description: 若要探索藍牙伺服器上的特定服務是否存在，用戶端會使用 WSALookupServiceBegin、WSALookupServiceNext 和 WSALookupServiceEnd 函數。
 ms.assetid: d9961600-cdca-42ec-92eb-118b8186ed2e
 keywords:
-- 藍牙與 WSALookupServiceBegin for Service Discovery 藍牙
+- 服務探索藍牙的藍牙和 WSALookupServiceBegin
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 274b3beb3de7683bd43a0f99350db6e1a347f51e
-ms.sourcegitcommit: ae73f4dd3cf5a3c6a1ea7d191ca32a5b01f6686b
+ms.openlocfilehash: 30049adfb02fb6478e581e4a6fdefdfe5b6960bdbc872f30be5fe482a28ac541
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "103842835"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120004248"
 ---
-# <a name="bluetooth-and-wsalookupservicebegin-for-service-discovery"></a>適用于服務探索的藍牙和 WSALookupServiceBegin
+# <a name="bluetooth-and-wsalookupservicebegin-for-service-discovery"></a>服務探索藍牙和 WSALookupServiceBegin
 
-用戶端會使用 [**WSALookupServiceBegin**](/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicebegina)、 [**WSALookupServiceNext**](/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicenexta)和 [**WSALookupServiceEnd**](/windows/desktop/api/winsock2/nf-winsock2-wsalookupserviceend) 功能，來探索藍牙伺服器上的特定服務是否存在。 您可以針對本機和遠端位址執行查詢，但只能與遠端位址建立連接。 在此作業期間探索到的服務控制碼，無法透過 [**WSASetService**](/windows/desktop/api/winsock2/nf-winsock2-wsasetservicea)來刪除服務。 RFCOMM 不支援回送。
+若要探索藍牙伺服器上的特定服務是否存在，用戶端會使用 [**WSALookupServiceBegin**](/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicebegina)、 [**WSALookupServiceNext**](/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicenexta)和 [**WSALookupServiceEnd**](/windows/desktop/api/winsock2/nf-winsock2-wsalookupserviceend)函數。 您可以針對本機和遠端位址執行查詢，但只能與遠端位址建立連接。 在此作業期間探索到的服務控制碼，無法透過 [**WSASetService**](/windows/desktop/api/winsock2/nf-winsock2-wsasetservicea)來刪除服務。 RFCOMM 不支援回送。
 
 您可以執行兩種基本類型的服務探索查詢：
 
 -   查詢本機裝置上的一或多個服務
 -   查詢指定的對等裝置上的一或多個服務
 
-[**WSALookupServiceBegin**](/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicebegina)函數會在其 *lpqsRestrictions* 參數中收到 [**WSAQUERYSET**](/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw)結構。 **WSALookupServiceBegin** 會根據 **WSAQUERYSET** 包含的一組搜尋限制來執行用戶端查詢。 當使用 **WSALookupServiceBegin** 函數來查詢服務時，藍牙用戶端必須在 **WSAQUERYSET** 結構中指定下表所列的限制。
+[**WSALookupServiceBegin**](/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicebegina)函數會在其 *lpqsRestrictions* 參數中收到 [**WSAQUERYSET**](/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw)結構。 **WSALookupServiceBegin** 會根據 **WSAQUERYSET** 包含的一組搜尋限制來執行用戶端查詢。 使用 **WSALookupServiceBegin** 函數查詢服務時，藍牙用戶端必須在 **WSAQUERYSET** 結構中指定下表所列的限制。
 
 
 
 | WSAQUERYSET 成員    | 限制                                                                                                                                                                                                                                                                                                                                                                     |
 |-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **dwSize**            | 設定為 **sizeof** ([**WSAQUERYSET**](/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw)) 。                                                                                                                                                                                                                                                                                                                    |
-| **lpServiceClassId**  | 設定為可用於判斷查詢範圍的最特定藍牙 UUID。 例如，將 **lpServiceClassId** 設定為 L2CAP 通訊協定的 UUID 會導致所有傳回的 L2CAP 服務，基本上會列舉目標上的所有 SD 記錄。 但是，將 UUID 設定為特定服務，只會傳回該服務的實例。<br/> |
+| **lpServiceClassId**  | 設定為最特定的藍牙 UUID，可用來判斷查詢的範圍。 例如，將 **lpServiceClassId** 設定為 L2CAP 通訊協定的 UUID 會導致所有傳回的 L2CAP 服務，基本上會列舉目標上的所有 SD 記錄。 但是，將 UUID 設定為特定服務，只會傳回該服務的實例。<br/> |
 | **dwNameSpace**       | 設定為 **NS \_ BTH**。                                                                                                                                                                                                                                                                                                                                                             |
 | **dwNumberOfCsAddrs** | 設定為0。                                                                                                                                                                                                                                                                                                                                                                       |
 | **lpszCoNtext**       | 設定為要用來建立用來執行服務查詢之 SDP 連接的藍牙裝置位址。 此成員必須是使用 [**WSAAddressToString**](/windows/desktop/api/winsock2/nf-winsock2-wsaaddresstostringa) 函數進行轉換的字串。 如果提供了本機無線電位址，則會搜尋本機的 SDP 記錄。<br/>                                             |
@@ -39,7 +39,7 @@ ms.locfileid: "103842835"
 
  
 
-[**WSALookupServiceBegin**](/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicebegina)函式完成服務查詢之後，與遠端裝置的 SDP 連接不會保持作用中狀態;連接會在 **WSALookupServiceBegin** 傳回之前終止。 在服務查詢完成之後，需要 SDP 連線才能保持使用中的應用程式，應該在發出 Windows Socket [**connect**](/windows/desktop/api/winsock2/nf-winsock2-connect)函數呼叫時，使用 [**SOCKADDR \_ BTH**](/windows/desktop/api/Ws2bth/ns-ws2bth-sockaddr_bth)結構的 **serviceClassId** 成員來指定要連接的服務類別 UUID。
+[**WSALookupServiceBegin**](/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicebegina)函式完成服務查詢之後，與遠端裝置的 SDP 連接不會保持作用中狀態;連接會在 **WSALookupServiceBegin** 傳回之前終止。 在服務查詢完成之後，需要 SDP 連線才能保持使用中的應用程式，應該會在發出 Windows 通訊端 [**connect**](/windows/desktop/api/winsock2/nf-winsock2-connect)函數呼叫時，使用 [**SOCKADDR \_ BTH**](/windows/desktop/api/Ws2bth/ns-ws2bth-sockaddr_bth)結構的 **serviceClassId** 成員來指定要連接的服務類別 UUID。
 
 下表所列的旗標，用於 [**WSALookupServiceBegin**](/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicebegina)和 [**WSALookupServiceNext**](/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicenexta)函數的 *dwControlFlags* 參數，以控制查詢結果。 **WSALookupServiceBegin** 函式會使用 **LUP \_ 容器** 和 **LUP \_ FLUSHCACHE** 旗標; 其餘的旗標會用於 **WSALookupServiceNext** 函數的呼叫中。
 
@@ -61,7 +61,7 @@ ms.locfileid: "103842835"
 </tr>
 <tr class="even">
 <td><strong>LUP_FLUSHCACHE</strong></td>
-<td>應用程式通常應該指定 <strong>LUP_FLUSHCACHE</strong>。 此旗標會指示系統忽略任何快取的資訊，並建立與指定裝置的無線 SDP 連線，以執行 SDP 搜尋。 這種非快取的作業可能需要幾秒鐘的時間 (而快取的搜尋會迅速傳回) 。 藍牙目前不會主動快取來自鄰近裝置的 SDP 記錄，也不會主動快取先前的查詢。 因此，如果未指定<strong>LUP_FLUSHCACHE</strong> ，應用程式應該預期查詢可能不會傳回任何結果 (錯誤碼為<strong>WSASERVICE_NOT_FOUND</strong>) 。 使用 Windows 通訊端介面所提供的快取資料可能會在未來增強。</td>
+<td>應用程式通常應該指定 <strong>LUP_FLUSHCACHE</strong>。 此旗標會指示系統忽略任何快取的資訊，並建立與指定裝置的無線 SDP 連線，以執行 SDP 搜尋。 這種非快取的作業可能需要幾秒鐘的時間 (而快取的搜尋會迅速傳回) 。 藍牙目前不會主動快取來自鄰近裝置的 SDP 記錄，也不會主動快取先前的查詢。 因此，如果未指定<strong>LUP_FLUSHCACHE</strong> ，應用程式應該預期查詢可能不會傳回任何結果 (錯誤碼為<strong>WSASERVICE_NOT_FOUND</strong>) 。 未來可能會增強使用 Windows 通訊端介面所提供的快取資料。</td>
 </tr>
 <tr class="odd">
 <td><strong>LUP_RES_SERVICE</strong></td>
@@ -86,7 +86,7 @@ ms.locfileid: "103842835"
 </tr>
 <tr class="odd">
 <td><strong>LUP_RETURN_BLOB</strong></td>
-<td>傳回 <strong>lpBlob</strong> 成員中相符的 SD 記錄，並根據藍牙 SDP 記錄規格進行格式化。</td>
+<td>傳回<strong>lpBlob</strong>成員中相符的 SD 記錄，並根據藍牙的 SDP 記錄規格進行格式化。</td>
 </tr>
 <tr class="even">
 <td><strong>LUP_RETURN_ALL</strong></td>
@@ -132,12 +132,12 @@ ms.locfileid: "103842835"
 | 旗標                     | 結果                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 |--------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **LUP \_ 容器**      | 不得設定。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| **LUP \_ FLUSHCACHE**      | 應用程式通常應該會指定 **LUP \_ FLUSHCACHE**。 此旗標會指示系統忽略任何快取的資訊，並建立與指定裝置的無線 SDP 連線，以執行 SDP 搜尋。 這種非快取的作業可能需要幾秒鐘的時間 (而快取的搜尋會迅速傳回) 。 藍牙不會主動快取鄰近裝置的 SDP 記錄，也不會積極快取先前的查詢。 因此，如果未指定 **LUP \_ FLUSHCACHE** ，應用程式應該會預期查詢可能會頻繁地傳回結果， (找 **\_ 不 \_ 到 WSASERVICE**) 。 使用 Windows 通訊端介面所提供的快取資料可能會在未來增強。 |
+| **LUP \_ FLUSHCACHE**      | 應用程式通常應該會指定 **LUP \_ FLUSHCACHE**。 此旗標會指示系統忽略任何快取的資訊，並建立與指定裝置的無線 SDP 連線，以執行 SDP 搜尋。 這種非快取的作業可能需要幾秒鐘的時間 (而快取的搜尋會迅速傳回) 。 藍牙不會主動快取來自鄰近裝置的 SDP 記錄，也不會積極快取先前的查詢。 因此，如果未指定 **LUP \_ FLUSHCACHE** ，應用程式應該會預期查詢可能會頻繁地傳回結果， (找 **\_ 不 \_ 到 WSASERVICE**) 。 未來可能會增強使用 Windows 通訊端介面所提供的快取資料。 |
 | **LUP \_ RES \_ 服務**    | 傳回本機藍牙位址的資訊。 只有在同時指定 **LUP 傳回 \_ \_ ADDRR** 時，才會設定這個旗標的效果。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | **LUP \_ 傳回 \_ 名稱**    | 傳回服務的顯示名稱。 針對 **SDP \_ 服務 \_ 搜尋 \_ 要求**，會忽略此旗標。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | **LUP \_ 傳回 \_ 類型**    | 傳回服務類別識別碼。 針對 **SDP \_ 服務 \_ 搜尋 \_ 要求**，會忽略此旗標。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | **LUP \_ 傳回 \_ 位址**    | 傳回 **lpcsaBuffer** 成員中要搭配 [**連接**](/windows/desktop/api/winsock2/nf-winsock2-connect) 函式呼叫使用的位址。 傳回的位址包含埠號碼。 針對 **SDP \_ 服務 \_ 搜尋 \_ 要求**，會忽略此旗標。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| **LUP \_ 傳回 \_ BLOB**    | 以符合藍牙 SDP 記錄規格的格式傳回相符的 SD 記錄。 針對 **SDP \_ 服務 \_ 搜尋 \_ 要求**，後續呼叫 [**WSALOOKUPSERVICENEXT**](/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicenexta)的 **lpBlob** 結果是藍牙 SDP 控點的陣列。 針對 **sdp \_ 服務 \_ 屬性 \_ 要求** 和 **sdp \_ 服務 \_ 搜尋 \_ 屬性 \_ 要求**，每個後續呼叫 **WSALookupServiceNext** 的結果都是二進位 Bluetooth SDP 記錄，其屬性會限制為查詢的 **pRange** 成員所指定的屬性。 此旗標是 **SDP \_ 服務 \_ 搜尋 \_ 要求** 的必要項。                                                               |
+| **LUP \_ 傳回 \_ BLOB**    | 以符合藍牙 SDP 記錄規格的格式傳回相符的 SD 記錄。 針對 **SDP \_ 服務 \_ 搜尋 \_ 要求**，後續呼叫 [**WSALookupServiceNext**](/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicenexta)的 **lpBlob** 結果是藍牙 SDP 控制碼的陣列。 針對 **SDP \_ 服務 \_ 屬性 \_ 要求** 和 **sdp \_ 服務 \_ 搜尋 \_ 屬性 \_ 要求**，每個後續呼叫 **WSALookupServiceNext** 的結果都是二進位藍牙 SDP 記錄，其屬性會限制為查詢的 **pRange** 成員所指定的屬性。 此旗標是 **SDP \_ 服務 \_ 搜尋 \_ 要求** 的必要項。                                                               |
 | **LUP \_ 傳回 \_ 批註** | 針對每個 [**WSALookupServiceNext**](/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicenexta)函式呼叫，傳回 [**WSAQUERYSET**](/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw)結構之 **lpszComment** 成員中的服務描述。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | **LUP \_ FLUSHPREVIOUS**   | 略過下一個可用的記錄，然後傳回其後的記錄。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 
@@ -156,7 +156,7 @@ ms.locfileid: "103842835"
 
 | 成員            | 值                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 |-------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **type**          | 要執行的搜尋類型。 此值可以是 **sdp \_ 服務 \_ 搜尋 \_ 要求**、 **sdp \_ 服務 \_ 屬性 \_ 要求** 或 **sdp \_ 服務 \_ 搜尋 \_ 屬性 \_ 要求** 的其中一個。 每種搜尋類型都與藍牙 SDP 規格所定義的基礎搜尋機制相關聯。 每個傳回的結果都是 [**WSAQUERYSET**](/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw) 結構所描述的表單，這是稍早在此 (Advanced services 查詢) 一節中所定義。 |
+| **type**          | 要執行的搜尋類型。 此值可以是 **sdp \_ 服務 \_ 搜尋 \_ 要求**、 **sdp \_ 服務 \_ 屬性 \_ 要求** 或 **sdp \_ 服務 \_ 搜尋 \_ 屬性 \_ 要求** 的其中一個。 每個搜尋類型都與藍牙 SDP 規格所定義的基礎搜尋機制相關聯。 每個傳回的結果都是 [**WSAQUERYSET**](/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw) 結構所描述的表單，這是稍早在此 (Advanced services 查詢) 一節中所定義。 |
 | **serviceHandle** | 用於屬性搜尋。 這個值會指定用來查詢 **pRange** 成員中屬性的服務控制碼。                                                                                                                                                                                                                                                                                                                                            |
 | **uuid**         | 用於服務和 **serviceAttribute** 搜尋。 此值指定記錄必須包含以符合搜尋的 Uuid。 如果要查詢 **\_ 查詢 uuid \_ 中 \_ 的最大 uuid** ，此值會將緊接在最後一個有效 UUID 之後的 SdpQueryUuid 元素設定為全部零。                                                                                                                                                                       |
 | **numRange**      | 用於屬性和 **serviceAttribute** 搜尋。 這個值會指定 **pRange** 中的元素數目。                                                                                                                                                                                                                                                                                                                                                             |
@@ -171,7 +171,7 @@ ms.locfileid: "103842835"
 | 值                                                                                | 描述                                                                                                                                                                                                                                                                                                                                          |
 |--------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **SDP \_ 服務 \_ 搜尋 \_ 要求**                                                    | SDP 記錄控制碼的陣列，與藍牙 1.1 SDP 4.5.2 所定義的 **ServiceRecordHandleList** 相同。 傳回的 SDP 控制碼數目是由 (**lpBlob**->cbSize) /**sizeof** (ULONG) 所計算。 [**WSALookupServiceNext**](/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicenexta)函式的單一呼叫會傳回所有結果。 |
-| **SDP \_服務 \_ 屬性 \_ 要求** 或 **SDP \_ 服務 \_ 搜尋 \_ 屬性 \_ 要求** | 二進位 Bluetooth SDP 記錄。 針對 **SDP \_ 服務 \_ 屬性 \_ 要求**， [**WSALookupServiceNext**](/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicenexta) 函式的單一呼叫會傳回所有結果。                                                                                                                                                       |
+| **SDP \_服務 \_ 屬性 \_ 要求** 或 **SDP \_ 服務 \_ 搜尋 \_ 屬性 \_ 要求** | 二進位藍牙 SDP 記錄。 針對 **SDP \_ 服務 \_ 屬性 \_ 要求**， [**WSALookupServiceNext**](/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicenexta) 函式的單一呼叫會傳回所有結果。                                                                                                                                                       |
 
 
 
@@ -186,7 +186,7 @@ ms.locfileid: "103842835"
 
 <dl> <dt>
 
-[用於服務查詢的藍牙和 WSAQUERYSET](bluetooth-and-wsaqueryset-for-service-inquiry.md)
+[服務查詢的藍牙和 WSAQUERYSET](bluetooth-and-wsaqueryset-for-service-inquiry.md)
 </dt> <dt>
 
 [探索藍牙裝置和服務](discovering-bluetooth-devices-and-services.md)
@@ -195,7 +195,7 @@ ms.locfileid: "103842835"
 [藍牙和 WSALookupServiceNext](bluetooth-and-wsalookupservicenext.md)
 </dt> <dt>
 
-[適用于裝置查詢的藍牙和 WSALookupServiceBegin](bluetooth-and-wsalookupservicebegin-for-device-inquiry.md)
+[裝置查詢的藍牙和 WSALookupServiceBegin](bluetooth-and-wsalookupservicebegin-for-device-inquiry.md)
 </dt> <dt>
 
 [**BTH \_ 查詢 \_ 服務**](/windows/desktop/api/Ws2bth/ns-ws2bth-bth_query_service)

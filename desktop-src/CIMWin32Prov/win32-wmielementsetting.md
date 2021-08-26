@@ -1,5 +1,5 @@
 ---
-description: Win32 \_ WMIElementSetting 關聯 WMI 類別會將 Windows 系統中執行的服務與它可以使用的 WMI 設定產生關聯。
+description: Win32 \_ WMIElementSetting 關聯 WMI 類別會將 Windows 系統中執行的服務及其可使用的 WMI 設定產生關聯。
 ms.assetid: 00e9f882-5f54-4042-a916-2f90ed9a37c0
 ms.tgt_platform: multiple
 title: Win32_WMIElementSetting 類別
@@ -16,16 +16,16 @@ api_type:
 - DllExport
 api_location:
 - Wbemcore.dll
-ms.openlocfilehash: 41f79614fd0931759d502bbd61c7f4143e9e7dc9
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: f46a9d5fd7c3f0baace1f763b9912f49fbcf318ffd07fa7cbf3138d04d8621f4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847075"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119922538"
 ---
 # <a name="win32_wmielementsetting-class"></a>Win32 \_ WMIElementSetting 類別
 
-**Win32 \_ WMIElementSetting** 關聯 [WMI 類別](../wmisdk/retrieving-a-class.md)會將 Windows 系統中執行的服務與它可以使用的 WMI 設定產生關聯。
+**Win32 \_ WMIElementSetting** 關聯 [WMI 類別](../wmisdk/retrieving-a-class.md)會將 Windows 系統中執行的服務及其可使用的 WMI 設定產生關聯。
 
 下列語法已從受管理物件格式 (MOF) 程式碼加以簡化，並包含所有繼承的屬性。 屬性和方法是以字母順序排列，而不是 MOF 順序。
 
@@ -64,7 +64,7 @@ class Win32_WMIElementSetting : CIM_ElementSetting
 限定詞： [**key**](../wmisdk/key-qualifier.md)、 [**Override**](../wmisdk/standard-qualifiers.md) ( "Element" ) 、 [**MappingStrings**](../wmisdk/standard-qualifiers.md) ( "WMI \| Win32 \_ Service" ) 
 </dt> </dl>
 
-使用或呈現 WMI 屬性之實例的參考，表示 Windows 服務。
+使用或呈現 WMI 屬性之實例的參考，代表 Windows 服務。
 
 </dd> <dt>
 

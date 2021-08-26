@@ -4,12 +4,12 @@ description: 使用 DPI 補償效果，自動調整輸入點陣圖以符合內�
 ms.assetid: EA8AD89B-A710-468F-A6F3-474DA29586F1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 69a0477d2a57f39738fa9b1ce16c97995c60cf96
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 38f1390825087cabb9ee1bec65f2708990757ff25f08e71140be5be0fc6ae11e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103844423"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119967110"
 ---
 # <a name="dpi-compensation-effect"></a>DPI 補償效果
 
@@ -21,7 +21,7 @@ ms.locfileid: "103844423"
 
 
 
-| 顯示名稱和索引列舉                                                       | Description                                                                                                                                                                                                                                    |
+| 顯示名稱和索引列舉                                                       | 描述                                                                                                                                                                                                                                    |
 |------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | InterpolationMode<br/> D2D1 \_ DPICOMPENSATION \_ 的 \_ 內插補點 \_ 模式<br/> | 效果用來調整影像的插補模式。<br/> 此類型為 D2D1 \_ DPICOMPENSATION \_ 插補 \_ 模式。<br/> 預設值為 D2D1 \_ DPICOMPENSATION \_ 插補 \_ 模式 \_ 線性。<br/>                  |
 | BorderMode<br/> D2D1 \_ DPICOMPENSATION \_ 的 \_ 樣式框線 \_ 模式<br/>               | 用來計算影像（軟或硬）框線的模式。 如需詳細資訊，請參閱 [框線模式](https://www.bing.com/search?q=Border+modes) 。 <br/> 此類型為 D2D1 \_ 框線 \_ 模式。<br/> 預設值為 [D2D1 \_ 框線 \_ 模式] \_ 。<br/> |
@@ -57,7 +57,7 @@ ms.locfileid: "103844423"
 
 
 
-| Name                     | 描述                                                                                                 |
+| 名稱                     | 描述                                                                                                 |
 |--------------------------|-------------------------------------------------------------------------------------------------------------|
 | D2D1 \_ 框線 \_ 模式 \_ 軟 | 輸入界限之外的圖元是由 [鏡像框線效果](border.md)所產生。 <br/> |
 | D2D1 \_ 框線 \_ 模式 \_ 硬性 | 輸入界限之外的圖元是透明的黑色。<br/>                                    |
@@ -72,8 +72,8 @@ ms.locfileid: "103844423"
 
 | 需求 | 值 |
 |--------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端 | 適用于 Windows 7 desktop app 的 Windows 8 和平臺更新 \[ \| windows Store 應用程式\] |
-| 最低支援的伺服器 | 適用于 Windows 7 desktop app 的 Windows 8 和平臺更新 \[ \| windows Store 應用程式\] |
+| 最低支援的用戶端 | Windows 7 傳統型應用程式的 Windows 8 和平臺更新 \[ \| Windows 儲存應用程式\] |
+| 最低支援的伺服器 | Windows 7 傳統型應用程式的 Windows 8 和平臺更新 \[ \| Windows 儲存應用程式\] |
 | 標頭                   | d2d1effects。h                                                                      |
 | 程式庫                  | d2d1 .lib，dxguid .lib                                                               |
 

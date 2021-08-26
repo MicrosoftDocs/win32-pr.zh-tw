@@ -4,12 +4,12 @@ ms.assetid: b4915dae-c97c-4d36-95ee-bb10dcb40845
 title: COM + 物件的函數位符串概念
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c32bffd35ad230efe1f22b52da10e1b4910d71da
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 9baef62780950e93043a48c2ccf13910faf7c692dc534f984ffd028e0b342dcd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936184"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120029518"
 ---
 # <a name="com-object-constructor-strings-concepts"></a>COM + 物件的函數位符串概念
 

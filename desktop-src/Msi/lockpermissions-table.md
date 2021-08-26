@@ -4,18 +4,18 @@ ms.assetid: 7c20e211-7704-49c2-a0c5-aaa695a09764
 title: LockPermissions 資料表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2c07402b80caec7beff68083567f2ff2fb9bf5eb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6724f9559f8bf4b5c0aac4581dab6ad7496e2c0e8e023636e621214760c26c99
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106992453"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120043138"
 ---
 # <a name="lockpermissions-table"></a>LockPermissions 資料表
 
 LockPermissions 資料表是用來保護鎖定環境中應用程式的個別部分。 它可用於安裝檔案、登錄機碼和建立的資料夾。
 
-適用于在 Windows Server 2008 R2 或 Windows 7 安裝的套件應該使用 [MsiLockPermissionsEx 資料表](msilockpermissionsex-table.md) ，而不是 LockPermissions 資料表。 Windows Installer Windows Installer 5.0 之前的版本會忽略 MsiLockPermissionsEx 資料表。 Windows Installer 5.0 可以安裝包含 LockPermissions 資料表的封裝。 從 Windows Installer 5.0 開始，安裝包含 MsiLockPermissionsEx 資料表和 LockPermissions 資料表的封裝會失敗，並傳回 Windows Installer 錯誤訊息1941。
+適用于 Windows Server 2008 R2 或 Windows 7 安裝的封裝應該使用[MsiLockPermissionsEx 資料表](msilockpermissionsex-table.md)，而不是 LockPermissions 資料表。 Windows早于 Windows Installer 5.0 的安裝程式版本會忽略 MsiLockPermissionsEx 資料表。 Windows安裝程式5.0 可以安裝包含 LockPermissions 資料表的封裝。 從 Windows Installer 5.0 開始，安裝包含 MsiLockPermissionsEx 資料表和 LockPermissions 資料表的封裝會失敗，並傳回 Windows Installer 錯誤訊息1941。
 
 LockPermissions 資料表具有下列資料行。
 
@@ -26,7 +26,7 @@ LockPermissions 資料表具有下列資料行。
 | LockObject | [識別碼](identifier.md)       | Y   | N        |
 | 資料表      | [Text](text.md)                   | Y   | N        |
 | 網域     | [格式 化](formatted.md)         | Y   | Y        |
-| User       | [格式 化](formatted.md)         | Y   | N        |
+| 使用者       | [格式 化](formatted.md)         | Y   | N        |
 | 權限 | [DoubleInteger](doubleinteger.md) | N   | Y        |
 
 
@@ -76,7 +76,7 @@ LockPermissions 資料表具有下列資料行。
 
 
 
-| Privilege                                                              | Description                     |
+| Privilege                                                              | 描述                     |
 |------------------------------------------------------------------------|---------------------------------|
 | 一般 \_ 全部<br/> 0X10000000<br/> 268435456<br/>     | 讀取、寫入和執行存取權 |
 | 一般 \_ 執行<br/> 0X20000000<br/> 536870912<br/> | 執行存取                  |
@@ -104,7 +104,7 @@ LockPermissions 資料表中所列的每個檔案、登錄機碼或目錄都會�
 
 如果物件未列在 LockPermissions 資料表中，而且不會取代現有的物件，它就不會收到任何明確的安全描述項。 新物件的存取是以其父系或容器物件的屬性為基礎。 如果物件未列在資料表中，並將物件取代為沒有明確安全描述項的物件，則會根據其父系或容器物件的屬性來存取新的物件。
 
-Windows Installer 將 [**UserSID**](usersid.md) 屬性設定為安全性識別元 (SID) 或執行安裝的使用者。
+Windows Installer 將 [**UserSID**](usersid.md)屬性設定為安全性識別元 (SID) 或執行安裝的使用者。
 
 ## <a name="validation"></a>驗證
 

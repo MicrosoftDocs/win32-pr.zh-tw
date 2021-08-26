@@ -4,12 +4,12 @@ ms.assetid: 83bcce3e-4d54-463d-863e-88e8dfd0c8da
 title: 'DVD 媒體類型 (Ksuuids .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 83f99801e0c48b44a74f6c05191a86322fbf5cb1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b19460ed0eb5689bee54a9ec557c78a4b27f2b374dee7ea5932da35f50e740f2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106993478"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120043548"
 ---
 # <a name="dvd-media-types"></a>DVD 媒體類型
 
@@ -19,7 +19,7 @@ ms.locfileid: "106993478"
 
 
 
-| GUID                            | Description                               |
+| GUID                            | 描述                               |
 |---------------------------------|-------------------------------------------|
 | 媒體的媒體 \_ \_ 加密 \_ 套件 | 加密的 DVD 資料                        |
 | 媒體媒體的 \_ MPEG2 \_ pe           | MPEG-2 Packetized (PE) 的基本資料流程 |
@@ -32,7 +32,7 @@ ms.locfileid: "106993478"
 
 
 
-| GUID                          | Description                             |
+| GUID                          | 描述                             |
 |-------------------------------|-----------------------------------------|
 | MEDIASUBTYPE \_ 杜 \_ AC3      | 杜 AC3 音訊                         |
 | MEDIASUBTYPE \_ DTS             | 數位劇院系統 (DTS) 音訊     |

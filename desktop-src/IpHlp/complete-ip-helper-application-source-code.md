@@ -4,12 +4,12 @@ ms.assetid: c0290660-8a18-4d5c-8f0a-df15da1a9167
 title: 完整 IP 協助程式的原始程式碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 964f32d99642f026a55b2cc0667daf56a7bd4077
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d5baa4770abac979ae10285b9911de6a4f37a92cc01471adb4d9a08da3548eb1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106992188"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120040378"
 ---
 # <a name="complete-ip-helper-application-source-code"></a>完整 IP 協助程式的原始程式碼
 

@@ -9,12 +9,12 @@ keywords:
 - 外觀中的滑杆
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c3efcae55b3826b69a7c88fed5a23a262526c9dd
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c6c3644e1b243188664295bbc00101a74377cbef17632217ff0a81dac0d377a9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021702"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120004377"
 ---
 # <a name="adding-a-slider"></a>新增滑杆
 
@@ -71,9 +71,9 @@ ms.locfileid: "104021702"
 [**外觀建立指南**](skin-creation-guide.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

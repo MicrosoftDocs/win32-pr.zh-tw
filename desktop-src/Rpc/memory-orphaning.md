@@ -4,12 +4,12 @@ description: 如果您的分散式應用程式使用 \ in、out、unique \ 或 i
 ms.assetid: 65588b4d-6bf4-44f7-994c-29a5b185c6b9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 32042911695f377e0a628168e91387bfa25f0d79
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: a64b3a560eb1daecf3cd10bc18c62057cd2d09c1321c272f4e8fe73a65305832
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106965036"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120019826"
 ---
 # <a name="memory-orphaning"></a>記憶體損壞
 
@@ -19,6 +19,6 @@ ms.locfileid: "106965036"
 
 可能導致記憶體流失的另一種情況，則牽涉到一致、變化和開放的陣列，其中包含指標。 當伺服器應用程式修改指定陣列大小或傳輸範圍的參數，使其代表較小的值時，存根會使用較小的值 (s) 來釋放記憶體。 索引大於 size 參數的陣列元素是孤立的。 您的應用程式必須在傳輸的範圍之外釋放元素。
 
- 
+ 
 
- 
+ 

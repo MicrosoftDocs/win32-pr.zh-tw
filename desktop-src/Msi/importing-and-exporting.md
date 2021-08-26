@@ -4,12 +4,12 @@ ms.assetid: 1025da16-9e1f-4fb4-9ce1-f992970eb903
 title: 匯入和匯出
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eb778f4a0fe415686c80f2609f63958ae042d920
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f0bfd141506729be6b4197c3ee3d607bf8aaf36abb1ba0b517fe8d5deb44fdf6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114329"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120043788"
 ---
 # <a name="importing-and-exporting"></a>匯入和匯出
 

@@ -4,12 +4,12 @@ ms.assetid: 105d2b85-c6e1-4719-83b4-1693c14ef4f4
 title: 壓縮檔案中的 ASCII 資料
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d43deeb7918b75a71770ab9d09535972f6e8bb4b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: da7fa327d19b59793862bd2c06ce814b17979e8e8a6f72d41b1af677b715b4ea
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848964"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120078068"
 ---
 # <a name="ascii-data-in-text-archive-files"></a>壓縮檔案中的 ASCII 資料
 
@@ -21,7 +21,7 @@ ms.locfileid: "103848964"
 
 
 
-| Name  | 資料      |
+| 名稱  | 資料      |
 |-------|-----------|
 | 書籍 | Ibd |
 | Cars  | 車輛. ibd  |
@@ -80,7 +80,7 @@ Advertise   Publication d'informations sur l'application
 ```
 
 > [!Note]  
-> 如果文字保存檔案包含非 ASCII 資料，封存檔案就會包含字碼頁資訊。 具有字碼頁資訊的封存檔案只能匯回至該確切字碼頁的資料庫，或匯入至非語言相關的資料庫中。 如果是中性語言的資料庫，則字碼頁會設定為封存檔案的字碼頁。 如需 Windows Installer 如何處理字碼頁的詳細資訊，請參閱 [ (Windows Installer) 中的字碼頁處理 ](code-page-handling-windows-installer-.md)小節。
+> 如果文字保存檔案包含非 ASCII 資料，封存檔案就會包含字碼頁資訊。 具有字碼頁資訊的封存檔案只能匯回至該確切字碼頁的資料庫，或匯入至非語言相關的資料庫中。 如果是中性語言的資料庫，則字碼頁會設定為封存檔案的字碼頁。 如需 Windows Installer 如何處理字碼頁的詳細資訊，請參閱[ (Windows Installer) 中的字碼頁處理](code-page-handling-windows-installer-.md)小節。
 
  
 

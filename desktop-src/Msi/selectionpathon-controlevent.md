@@ -4,12 +4,12 @@ ms.assetid: 441b9416-066a-429b-92d2-555584a20fa2
 title: SelectionPathOn ControlEvent
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9882ea534a0d4c91a0107ce3949363350a17fbea
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fea32926117c200f466bd2c40ac611e7ccbc47fb6a231a5dcf93ffa2ee0446b1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106971651"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120040428"
 ---
 # <a name="selectionpathon-controlevent"></a>SelectionPathOn ControlEvent
 

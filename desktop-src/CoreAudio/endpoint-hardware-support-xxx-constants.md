@@ -4,12 +4,12 @@ ms.assetid: 54032f75-2287-4589-bda5-e005ee077c41
 title: 'ENDPOINT_HARDWARE_SUPPORT_XXX 常數 (Mmdeviceapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9ffb5b2255330b205519ce3065ccb5f7eebb6b65
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 3c975a7bc00229943bb943035bf1fc84609414d83015ce4ae7d84d175b2e18a3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111549"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120053718"
 ---
 # <a name="endpoint_hardware_support_xxx-constants"></a>端點 \_ 硬體 \_ 支援 \_ XXX 常數
 
@@ -17,7 +17,7 @@ ms.locfileid: "104111549"
 
 
 
-| 常數/值                                                                                                                                                                                                                                                                           | Description                                                              |
+| 常數/值                                                                                                                                                                                                                                                                           | 描述                                                              |
 |:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------|
 | <span id="ENDPOINT_HARDWARE_SUPPORT_VOLUME"></span><span id="endpoint_hardware_support_volume"></span><dl> <dt>**端點 \_硬體 \_ 支援 \_ 磁片**</dt>區 <dt>0x00000001</dt> </dl> | 音訊端點裝置支援硬體磁片區控制。<br/> |
 | <span id="ENDPOINT_HARDWARE_SUPPORT_MUTE"></span><span id="endpoint_hardware_support_mute"></span><dl> <dt>**端點 \_硬體 \_ 支援 \_ 靜音**</dt> <dt>0x00000002</dt> </dl>       | 音訊端點裝置支援硬體靜音控制。<br/>   |
@@ -37,8 +37,8 @@ ms.locfileid: "104111549"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                     |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                     |
 | 標頭<br/>                   | <dl> <dt>Mmdeviceapi。h</dt> </dl> |
 
 

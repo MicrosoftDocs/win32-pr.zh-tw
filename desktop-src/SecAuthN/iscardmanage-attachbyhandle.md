@@ -12,16 +12,16 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 266b6a0d2a4027fe85f1f5539b970a44fc21bbee
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c464f2d514a59754b5dc4d9d98f745a4802843c3cfafa3df16057c53456221c5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103849896"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120014158"
 ---
 # <a name="iscardmanageattachbyhandle-method"></a>ISCardManage：： AttachByHandle 方法
 
-\[**AttachByHandle** 方法可用於 [需求] 區段中指定的作業系統。 它無法在 Windows Server 2003 （含 Service Pack 1） (SP1) 和更新版本、Windows Vista、Windows Server 2008 和後續版本的作業系統中使用。 [智慧卡模組](/previous-versions/windows/desktop/secsmart/smart-card-modules)提供類似的功能。\]
+\[**AttachByHandle** 方法可用於 [需求] 區段中指定的作業系統。 它無法用於 Windows Server 2003 Service Pack 1 (SP1) 和更新版本、Windows Vista、Windows Server 2008 和後續版本的作業系統。 [智慧卡模組](/previous-versions/windows/desktop/secsmart/smart-card-modules)提供類似的功能。\]
 
 **AttachByHandle** 方法會使用智慧卡 [*資源管理員*](../secgloss/r-gly.md)所傳回的控制碼，建立 [*智慧卡*](../secgloss/s-gly.md) (ICC) 的通訊連結。
 
@@ -53,7 +53,7 @@ HRESULT AttachByHandle(
 
 
 
-| 傳回碼                                                                                   | Description                                   |
+| 傳回碼                                                                                   | 描述                                   |
 |-----------------------------------------------------------------------------------------------|-----------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>          | 作業順利完成。<br/>  |
 | <dl> <dt>**E \_ INVALIDARG**</dt> </dl>  | *HICC* 參數無效。<br/> |
@@ -81,8 +81,8 @@ HRESULT AttachByHandle(
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>          |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>          |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/> |
 | 用戶端支援結束<br/>    | Windows XP<br/>                                |
 | 伺服器支援結束<br/>    | Windows Server 2003<br/>                       |
 

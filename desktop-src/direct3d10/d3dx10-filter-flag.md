@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10Tex.h
-ms.openlocfilehash: f12842cd07c55c33509ecfbb56fc804a6fc3b7c0
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 400347efde28133055b97016d877b1bd4148624387ddd7086f4ff185ab87cca9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103946224"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119989528"
 ---
 # <a name="d3dx10_filter_flag-enumeration"></a>D3DX10 \_ 篩選 \_ 旗標列舉
 
@@ -152,7 +152,7 @@ U 軸上材質邊緣的圖元應進行鏡像，而不會換行。
 
 ## <a name="remarks"></a>備註
 
-D3DX10 會自動執行 gamma 更正 (將色彩資料從 RGB 空間轉換成標準的 RGB 空間，) 載入材質資料時。 當 RGB 資料從 .png 檔案載入至 sRGB 材質時，就會自動完成這項操作。 使用 SRGB 篩選旗標來指出資料是否不需要轉換成 sRGB 空間。
+D3DX10 會自動執行 gamma 更正 (將色彩資料從 RGB 空間轉換成標準的 RGB 空間，) 載入材質資料時。 當 RGB 資料從 .png 檔案載入至 sRGB 材質時，就會自動完成此工作。 使用 SRGB 篩選旗標來指出資料是否不需要轉換成 sRGB 空間。
 
 ## <a name="requirements"></a>規格需求
 

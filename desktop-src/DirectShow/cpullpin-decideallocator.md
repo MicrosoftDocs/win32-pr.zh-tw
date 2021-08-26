@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 91ffa139b916b1594e0729a0f8d52f07c62eda12
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e02fe78631c6ddee01b7acc96d761f71b80e8d3e1738d2ed6f6ae40d70b0c5d1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994816"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120055058"
 ---
 # <a name="cpullpindecideallocator-method"></a>CPullPin. DecideAllocator 方法
 
@@ -83,7 +83,7 @@ virtual HRESULT DecideAllocator(
 [**CPullPin 類別**](cpullpin.md)
 </dt> <dt>
 
-[**CPullPin：： Connect**](cpullpin-connect.md)
+[**CPullPin：：連線**](cpullpin-connect.md)
 </dt> </dl>
 
  

@@ -4,12 +4,12 @@ description: 本教學課程說明如何從 HTTP 要求中取出標頭資訊。
 ms.assetid: 347e4fb3-5f96-488a-bef8-4df0b8d1ade1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a5b31043940b8c2127d1cfa1696d2821641d0784
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: ba9c1dbae3447d5ae44c8d348394f2dc802ed9d7b4af7d99fde19d0b5d2c3d22
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106969923"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119955508"
 ---
 # <a name="retrieving-http-headers"></a>正在抓取 HTTP 標頭
 
@@ -157,10 +157,10 @@ retry:
 
 
 > [!Note]  
-> WinINet 不支援伺服器實施。 此外，它不應該從服務使用。 針對伺服器執行或服務，請使用 [Microsoft WINDOWS HTTP services (WinHTTP) ](/windows/desktop/WinHttp/winhttp-start-page)。
+> WinINet 不支援伺服器實施。 此外，它不應該從服務使用。 若為伺服器執行或服務，請使用[Microsoft Windows HTTP 服務 (WinHTTP) ](/windows/desktop/WinHttp/winhttp-start-page)。
 
- 
+ 
 
- 
+ 
 
- 
+ 

@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 0d57e2723c90eee8df728aa540baeab86932e773
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: e8717edc045f50cc572d675dbec405b01fda49503349e9716210dfcae23fb277
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "103679136"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119982448"
 ---
 # <a name="expp---vs"></a>expp-vs
 
@@ -29,7 +29,7 @@ ms.locfileid: "103679136"
 
 
 
- 
+ 
 
 其中：
 
@@ -47,7 +47,7 @@ ms.locfileid: "103679136"
 
 
 
- 
+ 
 
 ### <a name="vs_1_1"></a>vs \_ 1 \_ 1
 
@@ -100,9 +100,9 @@ dest.x = dest.y = dest.z = dest.y = pow( 2, V ) (partial-precision)
 [頂點著色器指示](dx9-graphics-reference-asm-vs-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

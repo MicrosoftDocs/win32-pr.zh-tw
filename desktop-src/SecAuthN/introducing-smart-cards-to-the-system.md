@@ -4,16 +4,16 @@ ms.assetid: 5b331d7d-9440-4e0d-a73b-48a2a556c31c
 title: 將智慧卡引入系統
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6b9134dd9efce17b60f3495bf7bfc36b03c34ed3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 07cd65135e1580792135a1042729f2002f4437697fa0548a4f6cd776650485b5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194510"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120015708"
 ---
 # <a name="introducing-smart-cards-to-the-system"></a>將智慧卡引入系統
 
-在 [*智慧卡子系統*](../secgloss/s-gly.md) 可以找到 [*智慧卡*](../secgloss/s-gly.md)之前，必須先將智慧卡引入系統。 這通常是透過卡片製造商提供的智慧卡設定工具來完成。 此工具可能是磁片磁碟機上的一種程式， (與智慧卡) 、網站上可用的 ActiveX 控制項等等。
+在 [*智慧卡子系統*](../secgloss/s-gly.md) 可以找到 [*智慧卡*](../secgloss/s-gly.md)之前，必須先將智慧卡引入系統。 這通常是透過卡片製造商提供的智慧卡設定工具來完成。 此工具可能是磁片磁碟機上的一種程式， (的智慧卡) 、網站上可用的 ActiveX 控制項等等。
 
 安裝工具必須提供下列有關卡片的資訊：
 

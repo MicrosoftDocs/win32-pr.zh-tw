@@ -6,10 +6,10 @@ keywords:
 - Windows Media Player，程式庫
 - Windows Media Player 物件模型，程式庫
 - 物件模型，程式庫
-- Windows Media Player ActiveX 控制項，物件模型的程式庫
+- Windows Media Player ActiveX 控制項、物件模型的程式庫
 - ActiveX 控制項，物件模型的程式庫
-- Windows Media Player 的行動 ActiveX 控制項、物件模型的程式庫
-- Windows Media Player 行動裝置、物件模型的程式庫
+- Windows Media PlayerMobile ActiveX 控制項，物件模型的程式庫
+- Windows Media Player適用于物件模型的 Mobile、library
 - Windows Media Player 程式庫，關於
 - Windows Media Player 程式庫，服務
 - 程式庫，服務
@@ -21,12 +21,12 @@ keywords:
 - 介面，程式庫服務
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 743efc8ae5cb464aa38655314c52112bc9541de6
-ms.sourcegitcommit: b04e152a7f51618fc174ffa872654623fe088db2
+ms.openlocfilehash: 5dc6f073fa4c361f114589e080145a3cb3bb0a8c78736ba2dd1464332a7f7adc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "106967249"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120004509"
 ---
 # <a name="about-library-services"></a>關於程式庫服務
 
@@ -37,9 +37,9 @@ Windows Media Player 11 引進了多個和遠端程式庫的概念。 現在除�
 若要列舉可用的程式庫，請使用 **IWMPLibraryServices** 介面。 此介面會公開 [IWMPLibraryServices：： getCountByType](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmplibraryservices-getcountbytype) 方法，以抓取指定類型的程式庫計數。 程式庫類型是由 [WMPLibraryType](/previous-versions/windows/desktop/api/wmp/ne-wmp-wmplibrarytype) 列舉所定義。 此列舉包含本機程式庫的值 wmpltLocal。 這是因為程式庫服務功能一律可讓您使用 **IWMPLibraryServices** 和相關的介面來處理本機程式庫。
 
 > [!Note]  
-> **WMPLibraryType** 列舉包含值 wmpltRemote，代表網路共用的媒體程式庫。 若要存取這些共用程式庫，Player 控制項必須在遠端模式中執行。 如需在遠端模式中執行播放程式控制項的相關資訊，請參閱 [遠端處理 Windows Media Player 控制項](remoting-the-windows-media-player-control.md)。
+> **WMPLibraryType** 列舉包含值 wmpltRemote，代表網路共用的媒體程式庫。 若要存取這些共用程式庫，Player 控制項必須在遠端模式中執行。 如需在遠端模式中執行播放程式控制項的相關資訊，請參閱[遠端處理 Windows Media Player 控制項](remoting-the-windows-media-player-control.md)。
 
- 
+ 
 
 在您抓取程式庫計數之後，您可以在迴圈中重複呼叫 [IWMPLibraryServices：： getLibraryByType](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmplibraryservices-getlibrarybytype) 來逐一查看可用的程式庫集合，並傳遞新的索引值給每個反復專案。 這個方法會抓取 [IWMPLibrary](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmplibrary) 介面的指標，代表個別的程式庫。
 
@@ -61,7 +61,7 @@ Windows Media Player 11 引進了多個和遠端程式庫的概念。 現在除�
 
 ## <a name="sample"></a>範例
 
-名為 WMPML 的範例示範如何使用程式庫服務。 如需 Windows Media Player SDK 範例的詳細資訊，請參閱 [範例](samples.md)。
+名為 WMPML 的範例示範如何使用程式庫服務。 如需 Windows Media Player SDK 範例的詳細資訊，請參閱[範例](samples.md)。
 
 ## <a name="related-topics"></a>相關主題
 
@@ -109,9 +109,9 @@ Windows Media Player 11 引進了多個和遠端程式庫的概念。 現在除�
 [**使用程式庫**](working-with-the-library.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

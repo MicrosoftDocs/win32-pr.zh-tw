@@ -4,12 +4,12 @@ ms.assetid: d3b5668a-29bf-4846-8ab0-1bda7b6160f9
 title: 筆墨縮放範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f20253a3f56b2a03b5a6dad45ab9a8b72090b5ea
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3d786fe502e1510a44df39049e845f05694a1befae0d4a21bcfa2ba2bd2b19b2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511024"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119939438"
 ---
 # <a name="ink-zoom-sample"></a>筆墨縮放範例
 
@@ -30,7 +30,7 @@ ms.locfileid: "104511024"
 
 ## <a name="initializing-the-form"></a>初始化表單
 
-首先，此範例參照的是 Windows Vista 或 Windows XP Tablet PC Edition 軟體發展工具組中提供的 Tablet PC 自動化介面 (SDK) 。
+首先，此範例會參考 Windows Vista 或 Windows XP Tablet PC Edition 軟體發展工具組 (SDK) 所提供的 Tablet pc 自動化介面。
 
 
 ```C++

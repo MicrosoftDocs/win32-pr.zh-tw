@@ -1,17 +1,17 @@
 ---
 description: 如果用戶端和主機無法交換中繼資料，則可以將泛型主機和用戶端替換為自訂主機和用戶端，以協助對問題進行疑難排解。
 ms.assetid: 7e5c8444-b3ee-4e9c-984f-13d54f2bbfc0
-title: 使用泛型主機和用戶端進行 HTTP 中繼資料交換
+title: 使用泛型主機和用戶端來取得 HTTP 中繼資料 Exchange
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 36827dde8aa03fa15fc4beaa5917f1f2c3c36eca
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d6623b39989b613e725fb2103165c825425f20b53a4375d6791aa92cd3b99187
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106977795"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120030078"
 ---
-# <a name="using-a-generic-host-and-client-for-http-metadata-exchange"></a>使用泛型主機和用戶端進行 HTTP 中繼資料交換
+# <a name="using-a-generic-host-and-client-for-http-metadata-exchange"></a>使用泛型主機和用戶端來取得 HTTP 中繼資料 Exchange
 
 如果用戶端和主機無法交換中繼資料，則可以將泛型主機和用戶端替換為自訂主機和用戶端，以協助對問題進行疑難排解。 如果裝置位址或裝置中繼資料未出現在 WSD Debug 用戶端輸出中，則提供的傳輸位址或網路環境可能會造成失敗。 如需泛型主機和用戶端的詳細資訊，請參閱 [調試](debugging-tools.md)程式。
 
@@ -21,11 +21,11 @@ ms.locfileid: "106977795"
 
 **使用泛型主機和用戶端對 HTTP 中繼資料交換進行疑難排解**
 
-1.  開啟 [命令提示字元] 視窗。
+1.  開啟命令提示字元視窗。
 2.  執行下列命令： **WSDDebug \_host.exe/mode 中繼資料/start**
 
     > [!Note]  
-    > 可能會出現 **Windows 安全性警示** ] 對話方塊。 如果是的話，請按一下 [ **解除封鎖** ]，以允許 WSD Debug 主機執行。
+    > 可能會出現 **Windows 安全性警示**] 對話方塊。 如果是的話，請按一下 [ **解除封鎖** ]，以允許 WSD Debug 主機執行。
 
      
 
@@ -40,7 +40,7 @@ ms.locfileid: "106977795"
 
 3.  執行下列命令： **WSDDebug \_client.exe/mode metadata/hello off/resolve** *<id>* 。 取代 *<id>* 為在步驟2中識別的裝置識別碼。
     > [!Note]  
-    > 可能會出現 **Windows 安全性警示** ] 對話方塊。 如果是，請按一下 [ **解除封鎖** ]，以允許 WSD Debug 用戶端執行。
+    > 可能會出現 **Windows 安全性警示**] 對話方塊。 如果是，請按一下 [ **解除封鎖** ]，以允許 WSD Debug 用戶端執行。
 
      
 
@@ -115,7 +115,7 @@ WSD Debug 用戶端可能會在具有許多 DPWS 裝置的網路上產生大量�
     如果提供的 XAddrs 不符合 [XAddr 驗證規則](xaddr-validation-rules.md)，則 WSD Debug 用戶端無法取得裝置的中繼資料。
 
 -   應用程式正在錯誤的安全性內容中執行。 請確認應用程式使用正確的認證，而且用戶端和主機具有足夠的許可權可存取網路。
--   防火牆設定錯誤。 遵循 [檢查介面卡和防火牆設定](inspecting-adapter-and-firewall-settings.md) 中的指示，確認 Windows 防火牆設定正確無誤，而且沒有任何其他規則捨棄封包。 您也可以將用戶端和主機複製到「初始化」電腦， (一個預設作業系統安裝尚未加入網域) 的電腦，以便嘗試重現失敗。
+-   防火牆設定錯誤。 遵循[檢查介面卡和防火牆設定](inspecting-adapter-and-firewall-settings.md)中的指示，確認 Windows 防火牆設定是否正確，以及是否沒有任何其他規則捨棄封包。 您也可以將用戶端和主機複製到「初始化」電腦， (一個預設作業系統安裝尚未加入網域) 的電腦，以便嘗試重現失敗。
 -   IPSec 原則封鎖了應用程式。 將用戶端和主機複製到不受 IPSec 原則影響的電腦，然後嘗試重現失敗。
 
 ## <a name="related-topics"></a>相關主題

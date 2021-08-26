@@ -4,12 +4,12 @@ ms.assetid: e9cfbc00-ff19-4e4b-bf73-b0fe50d7612b
 title: 'D3DX 結構 (Direct3D 10 圖形) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9a9171906848d99e493b4d1fe1f0ce37f007a9e3
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: e0e4664ed412149619282178979c8f92a01b891df57cb4da43e8b72fec65e7f3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112407551"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119989588"
 ---
 # <a name="d3dx-structures-direct3d-10-graphics"></a>D3DX 結構 (Direct3D 10 圖形) 
 

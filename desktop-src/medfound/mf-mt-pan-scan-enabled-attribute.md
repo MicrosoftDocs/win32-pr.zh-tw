@@ -4,12 +4,12 @@ ms.assetid: 9e8746c6-13a4-4cf7-9748-82223d9529fa
 title: 'MF_MT_PAN_SCAN_ENABLED 屬性 (Mfapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b347c898ce827ff37796a9698e843f6321db8a1d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ee1e78c38cd15f5d735d49b5689905a40d74614b46817a8621ce1dabcdc5a1b9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104513164"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119955488"
 ---
 # <a name="mf_mt_pan_scan_enabled-attribute"></a>\_ \_ 已啟用 MF MT PAN \_ 掃描的 \_ 屬性
 
@@ -37,8 +37,8 @@ ms.locfileid: "104513164"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows Vista \[ 桌面應用程式 \| UWP 應用程式\]<br/>                              |
-| 最低支援的伺服器<br/> | Windows Server 2008 \[ desktop app \| UWP 應用程式\]<br/>                        |
+| 最低支援的用戶端<br/> | WindowsVista \[ desktop apps \| UWP 應用程式\]<br/>                              |
+| 最低支援的伺服器<br/> | WindowsServer 2008 \[ desktop app \| UWP 應用程式\]<br/>                        |
 | 標頭<br/>                   | <dl> <dt>Mfapi。h</dt> </dl> |
 
 

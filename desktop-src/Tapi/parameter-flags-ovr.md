@@ -4,12 +4,12 @@ ms.assetid: 30511328-a310-42b7-a81e-3ef2abf586ed
 title: 參數旗標
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d3adcb8b430045dc41afea4e7f55e5fa4458530b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bf663ea4ff6121f3e130f9c2a2e4c3c1f86f8611be8cc3fef3762adc535e84bf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106983627"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119959858"
 ---
 # <a name="parameter-flags"></a>參數旗標
 

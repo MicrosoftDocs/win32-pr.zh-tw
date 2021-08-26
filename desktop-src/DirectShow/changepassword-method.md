@@ -4,17 +4,17 @@ ms.assetid: 58dac785-e20e-4a41-89cf-56644964da19
 title: ChangePassword 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bba8bfb9adcecdb88f19f3ac1b8061f93486e269
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 9f5d15eef943afa019f1b1bba4e3b1412978bc5dd8f52f411c504e880428848a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104467519"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119999328"
 ---
 # <a name="changepassword-method"></a>ChangePassword 方法
 
 > [!Note]  
-> 此元件可用於 Microsoft Windows 2000、Windows XP 及 Windows Server 2003 作業系統。 它在後續版本中可能會變更或無法使用。
+> 此元件可在 Microsoft Windows 2000、Windows XP 和 Windows Server 2003 作業系統中使用。 它在後續版本中可能會變更或無法使用。
 
  
 

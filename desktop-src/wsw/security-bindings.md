@@ -3,17 +3,17 @@ title: 安全性系結
 description: 安全性系結是安全性權杖的規格，可告知執行時間如何取得和使用安全性權杖來進行通道安全性。
 ms.assetid: 3e50e0fb-a7ca-4615-ac4c-5d93988e6460
 keywords:
-- 適用于 Windows 的安全性系結 Web 服務
+- Windows 的安全性系結 Web 服務
 - WWSAPI
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d8a263c1a79212f3438e77c3dca519f6493cf40e
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: 4afc668e6dc6ab42e2d57066ecfb47ce337603bcadeccfb6b12a14a0e0550381
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "104093519"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120054538"
 ---
 # <a name="security-bindings"></a>安全性系結
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: c962064faa61dc7045b0111c5efbf1d1bea9fd40
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 1c120e0089c350133372526f1b030eb1a94ede5a511ba44fb21b5ae320aa7090
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "107000592"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119986858"
 ---
 # <a name="d3dxgetdeclvertexsize-function"></a>D3DXGetDeclVertexSize 函式
 

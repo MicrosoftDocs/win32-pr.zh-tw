@@ -4,12 +4,12 @@ ms.assetid: 4d0e4f01-0530-4202-bc78-b6e52670b8e5
 title: 自訂動作類型34
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 76ba17c9a4dc5b35d8d03e9cca2707079cb15bf6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4173633e7912897a3327d6d4c9c556d33f38bbd7f45cca6d4a1d96ef916b08ec
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106997851"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120077938"
 ---
 # <a name="custom-action-type-34"></a>自訂動作類型34
 

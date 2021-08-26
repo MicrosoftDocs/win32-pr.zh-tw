@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 電源管理事件提供者
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eeb515c072161a9973d0f5554a1e0a3118674ed6
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 95506a85d5d627514743ae7eb37efa1df2f86555181a7adb565e58cb3b93e639
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111641"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120003078"
 ---
 # <a name="power-management-event-provider"></a>電源管理事件提供者
 

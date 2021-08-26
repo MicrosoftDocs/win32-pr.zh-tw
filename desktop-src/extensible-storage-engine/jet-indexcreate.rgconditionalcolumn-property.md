@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 52ab4bf834aade111b5cbc0bc5e4783fc0888908
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a77ff7d1ee2286ac7b0f2cb295c6d493823cb63deb93510a5c389349217593e6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104027433"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120016968"
 ---
 # <a name="jet_indexcreatergconditionalcolumn-property"></a>JET_INDEXCREATE rgconditionalcolumn 屬性
 

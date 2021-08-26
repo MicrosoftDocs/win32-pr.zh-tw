@@ -6,12 +6,12 @@ keywords:
 - 遠端程序呼叫 RPC、工作、使伺服器可供使用
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7ee2826e4e63e7e78e7f87f6afc120b80e885cd3
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 55385a1ba10f7f8ca28622af0b145ce25ef1bbbd0ab8df327687ce7fd7db6f77
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021656"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120020052"
 ---
 # <a name="making-the-server-available-on-the-network"></a>讓伺服器可在網路上使用
 
@@ -52,9 +52,9 @@ status = RpcServerInqBindings(&rpcBindingVector);
 
 傳遞至 [**RpcServerInqBindings**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcserverinqbindings) 函式的唯一參數是指向 RPC 系結 [**\_ \_ 向量**](/windows/desktop/api/Rpcdce/ns-rpcdce-rpc_binding_vector) 結構指標的指標。 RPC 執行時間程式庫會動態配置系結向量的陣列，並將陣列的位址儲存在參數變數 (在此案例中為 **rpcBindingVector**) 。 每個伺服器應用程式在使用 RpcBindingVectorFree 函式完成使用之後，會負責使用[](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindingvectorfree)函式釋放這個系結向量 (例如，將它傳遞給適當的函式) 。
 
- 
+ 
 
- 
+ 
 
 
 

@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 40f1069c1664195371734ce511113e25fd7acb9f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 84904983e7fcba7d828f44c43143f3210b8ee1cd4f56ba096adf4bdf28812ee6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113729"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119970763"
 ---
 # <a name="esentresourcereleaseresource-method"></a>EsentResource. ReleaseResource 方法
 

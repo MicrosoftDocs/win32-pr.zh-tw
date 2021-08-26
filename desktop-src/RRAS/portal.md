@@ -4,12 +4,12 @@ description: 路由及遠端存取服務
 ms.assetid: fa0a183a-0254-401e-8b78-441cb3f83e8b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 49d81e743f640e600588413f0c15c44e0410c5ea
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 2d827150b84806afe4a9290436620def7675ee03163bf5f63c0c0d6556932a1b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108116466"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120028998"
 ---
 # <a name="routing-and-remote-access-service"></a>路由及遠端存取服務
 
@@ -35,7 +35,7 @@ ms.locfileid: "108116466"
 
 | 主題                                                                                                             | 描述                                                                                                           |
 |-------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
-| [路由及遠端存取服務架構](routing-and-remote-access-services-architecture.md)<br/> | 路由和遠端存取服務架構的總覽。<br/>                                           |
+| [路由和遠端 Access Services 架構](routing-and-remote-access-services-architecture.md)<br/> | 路由和遠端 Access Services 架構的總覽。<br/>                                           |
 | [路由及遠端存取登錄版面配置](routing-and-remote-access-registry-layout.md)<br/>             | 路由器服務的登錄版面配置範例<br/>                                                          |
 | [路由和遠端存取錯誤代碼](routing-and-remote-access-error-codes.md)<br/>                     | 所有路由和遠端存取錯誤代碼的清單。<br/>                                                         |
 | [遠端存取](remote-access-start-page.md)<br/>                                                          | RAS 和 RAS 管理 Api 的檔。<br/>                                                         |

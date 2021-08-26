@@ -6,12 +6,12 @@ keywords:
 - 遠端程序呼叫 RPC、工作、取得編碼身分識別
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8591e030913d659fb48034e4c386295773227f7f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c7a0883a1a032a76f13cfeeb6c5d6a8923146b7ee9e8184d37d5994fb5e328bd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103674915"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120019445"
 ---
 # <a name="obtaining-an-encoding-identity"></a>取得編碼身分識別
 
@@ -19,9 +19,9 @@ ms.locfileid: "103674915"
 
 MIDL 編譯器會為介面中的每個程式指派一個整數識別碼，稱為程式 *識別碼* 或 *proc ID*。 編號開頭為零。 RPC 執行時間程式庫不涉及將程式識別碼轉譯為實際的程序呼叫。 指定 proc 識別碼之後，您的應用程式必須提供呼叫正確程式的方法。 一般來說，應用程式開發人員會在使用 C/c + + 時，使用一系列的 **if** 語句或 (，) 這個用途的 **switch** 語句。
 
- 
+ 
 
- 
+ 
 
 
 

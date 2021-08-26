@@ -4,12 +4,12 @@ description: 本主題說明如何新增受限制的屬性，指出只有特殊�
 ms.assetid: BCEB1FBF-3D3F-45B8-A92B-7C5FBF6745C0
 ms.topic: article
 ms.date: 02/11/2020
-ms.openlocfilehash: e23f8b7f2cc1884e2f878739f56507e79eb1bb69
-ms.sourcegitcommit: 3d718d8f69d3f86eaecf94c5705d761c5a9ef4a1
+ms.openlocfilehash: 62bca034a2edab9b31267f14672b4821ca6569dead0fd645d98c52c234c24cb6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "104024290"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120029048"
 ---
 # <a name="register-the-device-interface-as-restricted-to-privileged-apps"></a>將裝置介面註冊為受特殊許可權的應用程式限制
 
@@ -49,4 +49,4 @@ AddProperty=PrivilegedProperties
 
 ## <a name="related-topics"></a>相關主題
 
-[自訂驅動程式存取範例](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/411c271e537727d737a53fa2cbe99eaecac00cc0/Official%20Windows%20Platform%20Sample/Custom%20driver%20access%20sample)、 [適用于內部裝置的 UWP 裝置應用程式](/windows-hardware/drivers/devapps/uwp-device-apps-for-specialized-devices)、 [硬體開發人員中心](/windows-hardware/drivers/)
+[自訂驅動程式存取範例](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/411c271e537727d737a53fa2cbe99eaecac00cc0/Official%20Windows%20Platform%20Sample/Custom%20driver%20access%20sample)、[適用于內部裝置的 UWP 裝置應用程式](/windows-hardware/drivers/devapps/uwp-device-apps-for-specialized-devices)、[硬體開發人員中心](/windows-hardware/drivers/)

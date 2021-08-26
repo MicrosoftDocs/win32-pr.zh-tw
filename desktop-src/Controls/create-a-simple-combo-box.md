@@ -4,12 +4,12 @@ description: 本主題說明如何建立、新增專案，以及從簡單的下�
 ms.assetid: E432AEC0-6C06-40C7-BBFE-B66C21DB8ACA
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c4175d435ac78795e7020fd84099d512cc65be20
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: eb1ab672e0beea90d07eadf05f14ffdc4a8181a4da7bf7940af50b00ddc69cde
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104463773"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119920808"
 ---
 # <a name="how-to-create-a-simple-combo-box"></a>如何建立簡單的下拉式方塊
 
@@ -24,12 +24,12 @@ ms.locfileid: "104463773"
 
 ### <a name="technologies"></a>技術
 
--   [Windows 控制項](window-controls.md)
+-   [Windows控制](window-controls.md)
 
 ### <a name="prerequisites"></a>必要條件
 
 -   C/C++
--   Windows 消費者介面程式設計
+-   Windows消費者介面程式設計
 
 ## <a name="instructions"></a>指示
 
@@ -102,7 +102,7 @@ SendMessage(hWndComboBox, CB_SETCURSEL, (WPARAM)2, (LPARAM)0);
 > [!Note]  
 > [CBN \_ SELCHANGE](cbn-selchange.md)通知會在專案放置於下拉式方塊選取欄位之前傳送和處理。 如此一來，在此範例中，選取的專案將不會出現在 [選取] 欄位中，直到訊息方塊關閉為止。
 
- 
+ 
 
 
 ```C++
@@ -498,6 +498,6 @@ LRESULT CALLBACK DemoApp::WndProc(HWND hwnd, UINT message, WPARAM wParam, LPARAM
 [ComboBox](combo-boxes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

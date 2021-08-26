@@ -4,12 +4,12 @@ description: 當嘗試連線到網路位址失敗，因為無法連線到主機�
 ms.assetid: 343ee69e-1ff5-4107-9ddb-4245c3b4a54d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 150fa8542d1724be9d60f997db7952d6df387b9b
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: ef0f65f62121d631dcf035e641c9d0d4d89850d7673e1c47b82ff4a4889dff49
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104375504"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120030498"
 ---
 # <a name="autodial-connection-operations"></a>自動撥號連線作業
 
@@ -23,6 +23,6 @@ RAS API 提供的函式可讓您設定及查詢控制撥號連線的自動撥號
 
 當系統針對具有自訂自動撥號處理常式的電話簿專案啟動自動撥號操作時，它會呼叫指定的 [**RASADFunc**](/windows/desktop/api/Ras/nc-ras-rasadfunca)。 **RASADFunc** 函式會接收 [**RASADPARAMS**](/previous-versions/windows/desktop/legacy/aa376719(v=vs.85))結構的指標，指出使用者介面視窗的位置和父視窗。 您的 **RASADFunc** 可以啟動執行緒來執行自訂撥號操作。 **RASADFunc** 函式會傳回 **TRUE** 以表示它接管撥號，或傳回 **FALSE** 以允許系統執行撥號。 您的自訂撥號操作必須使用 [**RasDial**](/windows/desktop/api/Ras/nf-ras-rasdiala) 函式來執行實際的撥號。 當撥號作業完成時，自訂撥號作業會藉由設定傳遞至 [**RASADFunc**](/windows/desktop/api/Ras/nc-ras-rasadfunca)的 *lpdwRetCode* 參數所指向的變數來指出成功或失敗。
 
- 
+ 
 
- 
+ 

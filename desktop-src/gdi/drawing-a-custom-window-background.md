@@ -4,12 +4,12 @@ ms.assetid: 72a342dc-2766-4ec9-b4c6-5ac3c550ea25
 title: 繪製自訂視窗背景
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 437a88bec680a6f35e84f5444fc90a45f98da533
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b4248f7d7a1ae27ae09c93e95734fd72285028e1185b6d35110e5141fcbf88c2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972697"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119966008"
 ---
 # <a name="drawing-a-custom-window-background"></a>繪製自訂視窗背景
 

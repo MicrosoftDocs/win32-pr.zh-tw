@@ -13,19 +13,19 @@ api_type:
 - DllExport
 api_location:
 - Idndl.dll
-ms.openlocfilehash: bc5a9fdaf3beb9e1c401943f923fa48bd9d4b44c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 23eca82d97ac1da2d0f179c6e670ed032a57410490dcc5a52cf3005d75d65b2e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975260"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120041618"
 ---
 # <a name="downlevelgetstringscripts-function"></a>DownlevelGetStringScripts 函式
 
 提供指定之 Unicode 字串中所使用的腳本清單。
 
 > [!Note]  
-> 只有在 Windows Vista 之前的作業系統上執行的應用程式，才會使用此函式。 其用途需要下載套件。 只在 Windows Vista 和更新版本上執行的應用程式應該呼叫 [**GetStringScripts**](/windows/desktop/api/Winnls/nf-winnls-getstringscripts)。
+> 此函式僅適用于在預先 Windows Vista 作業系統上執行的應用程式。 其用途需要下載套件。 只在 Windows Vista 和更新版本上執行的應用程式應該呼叫 [**GetStringScripts**](/windows/desktop/api/Winnls/nf-winnls-getstringscripts)。
 
  
 
@@ -217,9 +217,9 @@ Zzzz
 
 | 需求 | 值 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                                                                                                 |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                                                                        |
-| 可轉散發套件<br/>          | Microsoft 國際化功能變數名稱 (IDN) Windows XP (SP2 或更新版本) 、Windows Server 2003 (SP1 或更新版本) 或 Windows Vista 上的緩和 Api<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                                                                                                 |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                                                                        |
+| 可轉散發套件<br/>          | Microsoft 國際化功能變數名稱 (IDN) Windows XP (SP2 或更新版本) 、Windows Server 2003 (SP1 或更新版本) 或 Windows Vista 的風險降低 api<br/> |
 | 標頭<br/>                   | <dl> <dt>Idndl。h</dt> </dl>                                                                          |
 | DLL<br/>                      | <dl> <dt>Idndl.dll</dt> </dl>                                                                        |
 

@@ -4,12 +4,12 @@ ms.assetid: be53d72f-f7b4-44a7-9231-fe0480daf49c
 title: 'MFPKEY_COLORCONV_HEIGHT 屬性 (Wmcodecdsp) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d355a690962fa4525eec66061ad1f2cca23f8e6b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 77da2eede1200b8917df7f3ad55e25d28122c997ac93f7fefa2fc4e469c9b9ae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104469272"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119954328"
 ---
 # <a name="mfpkey_colorconv_height-property"></a>MFPKEY \_ COLORCONV \_ HEIGHT 屬性
 
@@ -33,8 +33,8 @@ VT \_ I4
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                             |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                    |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                             |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                    |
 | 標頭<br/>                   | <dl> <dt>Wmcodecdsp。h</dt> </dl> |
 
 
