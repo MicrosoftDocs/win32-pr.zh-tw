@@ -4,12 +4,12 @@ ms.assetid: 3ae07fbd-0b69-42d6-81ab-cc239c354bbb
 title: 正在抓取傳輸控制通訊協定和使用者資料包協定的相關資訊
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 99a73893bf379dda6a58f86854028967da806863
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4f10691c39e1f1a2c9c92af8736549427f01cc2400773e214f3a4d5f536fa46e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103695871"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120102048"
 ---
 # <a name="retrieving-information-about-the-transmission-control-protocol-and-the-user-datagram-protocol"></a>正在抓取傳輸控制通訊協定和使用者資料包協定的相關資訊
 

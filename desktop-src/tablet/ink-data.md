@@ -4,12 +4,12 @@ ms.assetid: 5a8c370e-79cb-47f0-a7b3-a631874ad757
 title: 筆墨資料
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: de73291269398ae42a47ee26897c8da9bac8abe7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 55f62f566e48859ba2aea7013783b3ccc8c825b8559fdec34e24438d68b6ee65
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511304"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119939408"
 ---
 # <a name="ink-data"></a>筆墨資料
 

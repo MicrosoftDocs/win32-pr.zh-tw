@@ -4,12 +4,12 @@ ms.assetid: 83fdb160-ce3b-42e1-8688-42d3ba39d6dd
 title: DirectoryListUp ControlEvent
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d0fa8b3fcb19c46e00ad24030c9608cc73c57e9d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2c99fb0731a06f30cf788e3565e0988bf5b20ebce7abec8be351f4d1fe9d2aab
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103945501"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120086178"
 ---
 # <a name="directorylistup-controlevent"></a>DirectoryListUp ControlEvent
 

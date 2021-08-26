@@ -4,18 +4,18 @@ ms.assetid: ce773140-7e50-4b72-8cb5-e34cba51644d
 title: 設定效果和轉換的屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c4ddd129eb9d4ab24ebef6f5c760a4211f26c9a6
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 1305eb7860b5519b14cfeebc349643c2662db3f133c0bf3424d1d71ccf85753c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106972915"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119904258"
 ---
 # <a name="setting-properties-on-effects-and-transitions"></a>設定效果和轉換的屬性
 
 \[此 API 不受支援，而且可能會在未來變更或無法使用。\]
 
-許多 [DirectShow 編輯服務](directshow-editing-services.md) 效果和轉換都支援控制其行為的屬性。 應用程式可以使用 [**IPropertySetter**](ipropertysetter.md) 介面來設定屬性的值。 基礎效果或轉換物件必須支援 **IDispatch** 來設定屬性。 使用影片效果和轉換，應用程式可以設定一段時間後會變更的值範圍。  (例如，您可以設定抹除轉換，以在整個框架中來回移動。 ) 有音訊效果時，屬性的值為靜態，且不會隨著時間而變更。 唯一的例外是 [音量信封](volume-envelope-effect.md) 效果，其支援磁片區層級的動態屬性。
+許多[DirectShow 編輯服務](directshow-editing-services.md)效果和轉換都支援控制其行為的屬性。 應用程式可以使用 [**IPropertySetter**](ipropertysetter.md) 介面來設定屬性的值。 基礎效果或轉換物件必須支援 **IDispatch** 來設定屬性。 使用影片效果和轉換，應用程式可以設定一段時間後會變更的值範圍。  (例如，您可以設定抹除轉換，以在整個框架中來回移動。 ) 有音訊效果時，屬性的值為靜態，且不會隨著時間而變更。 唯一的例外是 [音量信封](volume-envelope-effect.md) 效果，其支援磁片區層級的動態屬性。
 
 若要設定屬性，請執行下列步驟。
 

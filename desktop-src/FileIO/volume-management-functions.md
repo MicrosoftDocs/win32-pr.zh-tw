@@ -4,12 +4,12 @@ ms.assetid: dc985126-970c-49f2-877f-3759125e43b6
 title: 磁片區管理功能
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fd2be955b892bfcd31a70694bc79a7272676aae0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d3673e73007c977992d0209bcd79ded2afd4ed555ec3a22821e5f74d90e3cb61
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103694167"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120130688"
 ---
 # <a name="volume-management-functions"></a>磁片區管理功能
 

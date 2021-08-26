@@ -4,12 +4,12 @@ ms.assetid: 078ffd99-2020-4da2-8968-301dba8cc436
 title: Null 述詞
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ea02a04313ac2b86afe809633bee5ad2cbcf764e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0bd80ea6cba2009b398c8cdd0a2926240e3ce78309ca3f8511fb6ba286f44a64
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972179"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120058118"
 ---
 # <a name="null-predicate"></a>Null 述詞
 

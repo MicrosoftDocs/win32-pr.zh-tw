@@ -18,12 +18,12 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 7e720286c3e7308078d5d5ec91aa27edc95b725830824473e7b5858f2de5bc90
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ca8b05c0eeac88521d03b95a94f7d2363d5746e9
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118072476"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122468945"
 ---
 # <a name="jetgotosecondaryindexbookmark-function"></a>JetGotoSecondaryIndexBookmark 函式
 
@@ -78,90 +78,31 @@ _**適用于：** Windows |Windows伺服器_
 
 指定零或多個下列選項的位群組。
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>值</p></th>
-<th><p>意義</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_bitBookmarkPermitVirtualCurrency</p></td>
-<td><p>如果找不到索引項目，就會將游標放在先前找到索引項目的位置。 作業仍會因為 JET_errRecordDeleted 而失敗;不過，您可以移至下一個或上一個索引項目（相對於現在遺漏的索引項目）。</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>值</p> | <p>意義</p> | 
+|--------------|----------------|
+| <p>JET_bitBookmarkPermitVirtualCurrency</p> | <p>如果找不到索引項目，就會將游標放在先前找到索引項目的位置。 作業仍會因為 JET_errRecordDeleted 而失敗;不過，您可以移至下一個或上一個索引項目（相對於現在遺漏的索引項目）。</p> | 
+
 
 
 ### <a name="return-value"></a>傳回值
 
 此函數會傳回具有下列其中一個傳回碼的 [JET_ERR](./jet-err.md) 資料類型。 如需可能 ESE 錯誤的詳細資訊，請參閱可延伸的[儲存體引擎錯誤](./extensible-storage-engine-errors.md)和[錯誤處理參數](./error-handling-parameters.md)。
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>傳回碼</p></th>
-<th><p>描述</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errSuccess</p></td>
-<td><p>作業已成功完成。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errClientRequestToStopJetService</p></td>
-<td><p>無法完成作業，因為與該會話相關聯之實例上的所有活動都已停止，因此呼叫 <a href="gg269240(v=exchg.10).md">JetStopService</a>。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errInstanceUnavailable</p></td>
-<td><p>作業無法完成，因為與會話相關聯的實例發生嚴重錯誤，需要撤銷所有資料的存取權，以保護該資料的完整性。</p>
-<p><strong>Windows XP：</strong> 此傳回值會在 Windows XP 中引進。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errInvalidBookmark</p></td>
-<td><p>提供的次要索引書簽無效。 發生此錯誤的原因可能是次要索引鍵為零，或次要金鑰緩衝區指標為 <strong>Null</strong>。 發生此錯誤的原因是</p>
-<ul>
-<li><p>目前的次要索引沒有唯一性條件約束，且所提供書簽的大小為零。</p></li>
-<li><p>書簽緩衝區指標為 <strong>Null</strong>。</p></li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errNoCurrentIndex</p></td>
-<td><p>資料指標目前不在次要索引上。 當資料指標目前未使用次要索引時，移至次要索引書簽並沒有意義。 當資料指標不在次要索引上時，應使用<a href="gg294053(v=exchg.10).md">JetGotoBookmark</a> 。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errNotInitialized</p></td>
-<td><p>無法完成作業，因為與會話相關聯的實例尚未初始化。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errRecordDeleted</p></td>
-<td><p>找不到與次要索引書簽相關聯的索引項目。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errRestoreInProgress</p></td>
-<td><p>作業無法完成，因為與會話相關聯的實例正在進行還原作業。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errSessionSharingViolation</p></td>
-<td><p>相同的會話無法同時用於一個以上的執行緒。</p>
-<p><strong>Windows XP：</strong> 此傳回值會在 Windows XP 中引進。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errTermInProgress</p></td>
-<td><p>無法完成作業，因為與會話相關聯的實例正在關閉中。</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>傳回碼</p> | <p>Description</p> | 
+|--------------------|--------------------|
+| <p>JET_errSuccess</p> | <p>作業已成功完成。</p> | 
+| <p>JET_errClientRequestToStopJetService</p> | <p>無法完成作業，因為與該會話相關聯之實例上的所有活動都已停止，因此呼叫 <a href="gg269240(v=exchg.10).md">JetStopService</a>。</p> | 
+| <p>JET_errInstanceUnavailable</p> | <p>作業無法完成，因為與會話相關聯的實例發生嚴重錯誤，需要撤銷所有資料的存取權，以保護該資料的完整性。</p><p><strong>Windows XP：</strong> 此傳回值會在 Windows XP 中引進。</p> | 
+| <p>JET_errInvalidBookmark</p> | <p>提供的次要索引書簽無效。 發生此錯誤的原因可能是次要索引鍵為零，或次要金鑰緩衝區指標為 <strong>Null</strong>。 發生此錯誤的原因是</p><ul><li><p>目前的次要索引沒有唯一性條件約束，且所提供書簽的大小為零。</p></li><li><p>書簽緩衝區指標為 <strong>Null</strong>。</p></li></ul> | 
+| <p>JET_errNoCurrentIndex</p> | <p>資料指標目前不在次要索引上。 當資料指標目前未使用次要索引時，移至次要索引書簽並沒有意義。 當資料指標不在次要索引上時，應使用<a href="gg294053(v=exchg.10).md">JetGotoBookmark</a> 。</p> | 
+| <p>JET_errNotInitialized</p> | <p>無法完成作業，因為與會話相關聯的實例尚未初始化。</p> | 
+| <p>JET_errRecordDeleted</p> | <p>找不到與次要索引書簽相關聯的索引項目。</p> | 
+| <p>JET_errRestoreInProgress</p> | <p>作業無法完成，因為與會話相關聯的實例正在進行還原作業。</p> | 
+| <p>JET_errSessionSharingViolation</p> | <p>相同的會話無法同時用於一個以上的執行緒。</p><p><strong>Windows XP：</strong> 此傳回值會在 Windows XP 中引進。</p> | 
+| <p>JET_errTermInProgress</p> | <p>無法完成作業，因為與會話相關聯的實例正在關閉中。</p> | 
+
 
 
 如果此函式成功，游標將放置於與指定的次要索引書簽相關聯的索引項目目。 如果已備妥記錄以進行更新，就會取消該更新。 如果索引範圍有效，就會取消該索引範圍。 如果已針對要使用的資料指標建立搜尋索引鍵，則會刪除該搜尋索引鍵。 不會變更資料庫狀態。
@@ -172,34 +113,9 @@ _**適用于：** Windows |Windows伺服器_
 
 #### <a name="requirements"></a>規格需求
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>用戶端</strong></p></td>
-<td><p>需要 Windows Vista 或 Windows XP。</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>伺服器</strong></p></td>
-<td><p>需要 Windows server 2008 或 Windows server 2003。</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>標頭</strong></p></td>
-<td><p>宣告于 Esent. h 中。</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>程式庫</strong></p></td>
-<td><p>使用 ESENT。</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>DLL</strong></p></td>
-<td><p>需要 ESENT.dll。</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p><strong>用戶端</strong></p> | <p>需要 Windows Vista 或 Windows XP。</p> | | <p><strong>伺服器</strong></p> | <p>需要 Windows server 2008 或 Windows server 2003。</p> | | <p><strong>標頭</strong></p> | <p>宣告于 Esent. h 中。</p> | | <p><strong>程式庫</strong></p> | <p>使用 ESENT。</p> | | <p><strong>DLL</strong></p> | <p>需要 ESENT.dll。</p> | 
+
 
 
 #### <a name="see-also"></a>另請參閱

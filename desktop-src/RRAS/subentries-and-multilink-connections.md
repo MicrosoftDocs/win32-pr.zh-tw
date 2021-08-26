@@ -1,21 +1,21 @@
 ---
 title: 子機和多重連結連接
-description: Windows NT Server 4.0 支援電話簿子機，可啟用多重連接連線。 多重連接連接會結合多個連線的頻寬，以提供具有更高頻寬的單一連線。
+description: Windows NT伺服器4.0 支援電話簿子機，可啟用多重連接連線。 多重連接連接會結合多個連線的頻寬，以提供具有更高頻寬的單一連線。
 ms.assetid: 19cf6e1a-cdba-47e4-8d8f-d6030ed6f9e3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c1970e2e2ad668b376b1097aa20cd18986fb605a
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 76cdada1e48ffc42753480a6a62fb79986d537402ad21449617359cd49df76f0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104316078"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120101798"
 ---
 # <a name="subentries-and-multilink-connections"></a>子機和多重連結連接
 
-Windows NT Server 4.0 支援電話簿子機，可啟用多重連接連線。 多重連接連接會結合多個連線的頻寬，以提供具有更高頻寬的單一連線。
+Windows NT伺服器4.0 支援電話簿子機，可啟用多重連接連線。 多重連接連接會結合多個連線的頻寬，以提供具有更高頻寬的單一連線。
 
-RAS 電話簿專案可以有零或多個子專案。 [**RasGetEntryProperties**](/windows/desktop/api/Ras/nf-ras-rasgetentrypropertiesa)函式會抓取 [**RASENTRY**](/previous-versions/windows/desktop/legacy/aa377274(v=vs.85))結構，其中包含有關電話簿專案之子專案的資訊。 **RASENTRY** 結構的 **dwSubEntries** 成員會指出子值的數目。 電話簿一開始沒有任何子專案。 若要將子專案新增至電話簿專案，請使用 [**RasSetSubEntryProperties**](/windows/desktop/api/Ras/nf-ras-rassetsubentrypropertiesa) 函數。
+RAS 電話簿專案可以有零或多個子專案。 [**RasGetEntryProperties**](/windows/desktop/api/Ras/nf-ras-rasgetentrypropertiesa)函式會抓取 [**RASENTRY**](/previous-versions/windows/desktop/legacy/aa377274(v=vs.85))結構，其中包含有關電話簿專案之子專案的資訊。 **RASENTRY** 結構的 **dwSubEntries** 成員會指出子值的數目。 電話書籍專案一開始沒有任何子專案。 若要將子專案新增至電話簿專案，請使用 [**RasSetSubEntryProperties**](/windows/desktop/api/Ras/nf-ras-rassetsubentrypropertiesa) 函數。
 
 每個子索引的屬性都包含電話號碼，以及撥號裝置的撥號時所要使用之 TAPI 裝置的名稱和類型。 此外，如果 RAS 無法使用主要號碼進行連線，則子索引可包含備用電話號碼清單來撥打電話。 [**RasSetSubEntryProperties**](/windows/desktop/api/Ras/nf-ras-rassetsubentrypropertiesa)和 [**RasGetSubEntryProperties**](/windows/desktop/api/Ras/nf-ras-rasgetsubentrypropertiesa)函式會使用 [**RASSUBENTRY**](/previous-versions/windows/desktop/legacy/aa377839(v=vs.85))結構來設定和取出指定的電話通訊錄子索引項目的屬性。 子索引是以以一個為基礎的索引來識別。
 
@@ -29,6 +29,6 @@ RAS 電話簿專案可以有零或多個子專案。 [**RasGetEntryProperties**]
 
 您可以在 [**RasHangUp**](/windows/desktop/api/Ras/nf-ras-rashangupa)、 [**RasGetConnectStatus**](/windows/desktop/api/Ras/nf-ras-rasgetconnectstatusa)和 [**RasGetProjectionInfo**](/previous-versions/windows/embedded/ms897107(v=msdn.10)) 函式中使用合併的多重連結連接控制碼和子索引連接控制碼。 使用合併的多重連結控制碼呼叫 **RasHangUp** 會終止整個連接;使用子索引介面進行呼叫，只會使該子索引的連線停止回應。 同樣地， **RasGetConnectStatus** 會根據指定的控制碼，傳回合並或個別連接的資訊。 **RasGetProjectionInfo** 針對多重連接專案所傳回的投射資訊，對於主要連接控制碼而言是相同的。
 
- 
+ 
 
- 
+ 

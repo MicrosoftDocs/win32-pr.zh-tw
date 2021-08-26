@@ -4,12 +4,12 @@ ms.assetid: 062de6c2-9f82-415d-860e-2d1afd2ac027
 title: 錄製中繼檔
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 129b8fe810b1394921c60540488c93676341c562
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 047cdce842a9b44096ebd0f866e1b1551a5f951e138557062dff5e8f8d54f3ac
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972152"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120014778"
 ---
 # <a name="recording-metafiles"></a>錄製中繼檔
 

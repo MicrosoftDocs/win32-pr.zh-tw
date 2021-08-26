@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Windowscodecs.dll
 - Wincodec.lib
-ms.openlocfilehash: 9eb5ab9db9341d138c72d350304407966a6293d2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8fe4970fbc6d50e19b917fe9364169089199ac17fa5ca15be1e65ec0c0e71b8f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104195447"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120090039"
 ---
 # <a name="iwicbitmapframeencode_writesource_proxy-function"></a>IWICBitmapFrameEncode \_ WriteSource \_ Proxy 函式
 
@@ -45,25 +45,25 @@ HRESULT IWICBitmapFrameEncode_WriteSource_Proxy(
 *這 \_* \[ 中的 PTR\]
 </dt> <dd>
 
-類型： **[**IWICBitmapFrameEncode**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframeencode) \** _
+類型： **[ **IWICBitmapFrameEncode**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframeencode)\***
 
-這個 [_ *IWICBitmapFrameEncode* *](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframeencode)物件的指標。
+這個 [**IWICBitmapFrameEncode**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframeencode) 物件的指標。
 
 </dd> <dt>
 
 *pIBitmapSource* \[在\]
 </dt> <dd>
 
-類型： **[**IWICBitmapSource**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapsource) \** _
+類型： **[ **IWICBitmapSource**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapsource)\***
 
 要編碼的點陣圖來源。
 
 </dd> <dt>
 
-_prc * \[ in\]
+*中國* \[在\]
 </dt> <dd>
 
-類型： **[**WICRect**](/windows/desktop/api/Wincodec/ns-wincodec-wicrect) \** _
+類型： **[ **WICRect**](/windows/desktop/api/Wincodec/ns-wincodec-wicrect)\***
 
 點陣圖來源的大小矩形。
 
@@ -71,7 +71,7 @@ _prc * \[ in\]
 
 ## <a name="return-value"></a>傳回值
 
-類型： _ *HRESULT**
+類型： **HRESULT**
 
 如果此函式成功，則會傳回 **S \_ OK**。 否則，它會傳回 **HRESULT** 錯誤碼。
 
@@ -83,8 +83,8 @@ _prc * \[ in\]
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows XP （含 SP2）、 \[ 僅限 Windows Vista 桌面應用程式\]<br/>                                                                                              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                                                                                             |
+| 最低支援的用戶端<br/> | WindowsXP SP2，僅 Windows Vista \[ 桌面應用程式\]<br/>                                                                                              |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                                                                                             |
 | DLL<br/>                      | <dl> <dt>Windowscodecs.dll;</dt><dt>Wincodec .lib</dt> </dl> |
 
 

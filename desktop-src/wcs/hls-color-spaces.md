@@ -3,8 +3,8 @@ title: HLS 色彩空間
 description: HLS 色彩空間也會由演出者廣泛使用。 其色彩元件為色調、亮度和飽和度 (色度) 。
 ms.assetid: 8c80d200-c4d0-4233-8f53-a9637dff9ab2
 keywords:
-- Windows Color System (WCS) ，HLS 色彩空間
-- WCS (Windows 色彩系統) ，HLS 色彩空間
+- Windows色彩系統 (WCS) 、HLS 色彩空間
+- WCS (Windows 色彩系統) 、HLS 色彩空間
 - 影像色彩管理、HLS 色彩空間
 - 色彩管理，HLS 色彩空間
 - 色彩，HLS 色彩空間
@@ -19,12 +19,12 @@ keywords:
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 613a62d4a998b51f9bfb22bd7431dd8645a72f3e
-ms.sourcegitcommit: 38954f8f0d70f44bff4a943784f468ebd7ef691a
+ms.openlocfilehash: 4d0dc0c47555f5358360a1ac81faf113c0fd6e98572c4d0c96852070a1749073
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "106985173"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119934961"
 ---
 # <a name="hls-color-spaces"></a>HLS 色彩空間
 

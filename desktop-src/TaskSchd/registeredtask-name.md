@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 309218eddc0ca53802d1b06b35a936ec4b6cbcd1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8db5899ef5706955c2405229577fc041e39ee0ed027e87603337169ea9dad02e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106968781"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120011388"
 ---
 # <a name="registeredtaskname-property"></a>RegisteredTask.Name 屬性
 
@@ -46,8 +46,8 @@ RegisteredTask.Name As String
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                          |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                    |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                          |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                    |
 | 類型程式庫<br/>             | <dl> <dt>Taskschd.msc .tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 

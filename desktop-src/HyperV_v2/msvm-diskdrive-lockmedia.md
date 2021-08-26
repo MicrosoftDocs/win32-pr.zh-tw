@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 7ddc082ca6ceb7141eaa42bdfddf7a97897a9240
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: d6a3b35b418427a4af8f86dfb162cff7009539d93eab3d87f0c96423a5e951e8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106986018"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120130578"
 ---
 # <a name="lockmedia-method-of-the-msvm_diskdrive-class"></a>Msvm DiskDrive 類別的 LockMedia 方法 \_
 

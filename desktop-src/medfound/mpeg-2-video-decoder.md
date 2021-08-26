@@ -4,12 +4,12 @@ ms.assetid: 3E7FAE14-932D-44A3-997B-567C0D2EAE7B
 title: MPEG-2 視頻解碼器
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ca4384154faff777280fd0a03cf4fd289603e7a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 57e2b270cadb114875fb63bc6c57ce2ddd63eecb2815b8fe3bcee175710d1771
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104512596"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120012588"
 ---
 # <a name="mpeg-2-video-decoder"></a>MPEG-2 視頻解碼器
 
@@ -99,8 +99,8 @@ MPEG-2 影片解碼會公開下列介面：
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                                 |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                       |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                                 |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                                       |
 | DLL<br/>                      | <dl> <dt>Msmpeg2vdec.dll</dt> </dl> |
 
 

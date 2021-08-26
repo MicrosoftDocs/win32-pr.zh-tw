@@ -4,16 +4,16 @@ ms.assetid: 0dea39e2-a2b4-47fc-b44a-56af8ba1e346
 title: 代理和補充字元
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c8d6b738955c8b8de4f6cb0ae43c78f86752a928
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a5b1dc4743627297962c7279449c06cc1ff967ac35f931a6e945b4577c937b59
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971197"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120130048"
 ---
 # <a name="surrogates-and-supplementary-characters"></a>代理和補充字元
 
-Windows 應用程式通常會使用 UTF-16 來代表 [Unicode](unicode.md) 字元資料。 使用16個位可直接表示65536的唯一字元，但這個基本多語系平面 (BMP) 幾乎不足以涵蓋人類語言中使用的所有符號。 Unicode 4.1 版包含超過97000個字元，且僅適用于中文的超過70000個字元。
+Windows 的應用程式通常會使用 utf-16 來代表[Unicode](unicode.md)字元資料。 使用16個位可直接表示65536的唯一字元，但這個基本多語系平面 (BMP) 幾乎不足以涵蓋人類語言中使用的所有符號。 Unicode 4.1 版包含超過97000個字元，且僅適用于中文的超過70000個字元。
 
 Unicode 標準已建立16個字元的額外「平面」，每個字元的大小都與 BMP 相同。 當然，除了 BMP 以外的大部分程式碼點尚未指派字元給它們，但平面的定義讓 Unicode 有可能定義1114112字元 (也就是在程式 \* 代碼點範圍 u + 0000 到 u + 10FFFF 內，2¹⁶17個) 字元。 若為 UTF-16 以表示這組較大的字元組，Unicode 標準會定義「增補字元」。
 
@@ -29,18 +29,18 @@ Unicode 標準已建立16個字元的額外「平面」，每個字元的大小�
 作業系統可透過下列方式支援補充字元：
 
 -   OpenType 字型 cmap 資料表的格式12直接支援4位元組字元碼。 如需詳細資訊，請參閱 [OpenType 字型規格](/typography/opentype/spec/)。
--   Windows 支援已啟用代理功能的 [輸入方法編輯器 (ime) ](../dxtecharts/installing-and-using-input-method-editors.md)。
--   [WINDOWS GDI](../gdi/windows-gdi.md) API 支援在字型中格式化12個 cmap 資料表，讓代理程式可以正確顯示。
+-   Windows 支援已啟用代理功能的[輸入方法編輯器 (ime) ](../dxtecharts/installing-and-using-input-method-editors.md)。
+-   [Windows GDI](../gdi/windows-gdi.md) API 支援在字型中格式化12個 cmap 資料表，讓代理程式可以正確顯示。
 -   [Uniscribe](uniscribe.md) API 支援補充字元。
--   [Windows 控制項](../controls/window-controls.md)（包括 [編輯](../controls/edit-controls.md) 和 [Rich edit](../controls/rich-edit-controls.md)）支援補充字元。
--   HTML 引擎支援包含補充字元的 HTML 網頁，可透過 Outlook Express) 和表單提交來顯示、編輯 (。
+-   [Windows 控制項](../controls/window-controls.md)（包括[編輯](../controls/edit-controls.md)和[Rich edit](../controls/rich-edit-controls.md)）支援補充字元。
+-   html 引擎支援包含補充字元的 html 網頁，可透過 Outlook Express) 和表單提交來顯示、編輯 (。
 -   作業系統排序表支援補充字元。
 
 ## <a name="general-guidelines-for-software-development-using-supplementary-characters"></a>使用補充字元進行軟體發展的一般指導方針
 
 UTF-16 會將補充字元處理為代理組。 作業系統會以類似于處理非 [間距標記](using-nonspacing-characters-and-diacritics.md)的方式來處理代理配對。 在顯示時間，代理字組會透過 Unicode 標準所規定，以 Uniscribe 的方式顯示為一個圖像。
 
-Windows Vista 引進了三個新宏，以協助識別 UTF-16 字串中的代理和代理配對。 這些都 [**是 \_ 高 \_ 代理**](/windows/win32/api/Winnls/nf-winnls-is_high_surrogate)、 [**\_ 低 \_ 代理**](/windows/win32/api/Winnls/nf-winnls-is_low_surrogate)和 [**\_ 代理 \_ 配對**](/windows/win32/api/Winnls/nf-winnls-is_surrogate_pair)。
+WindowsVista 引進了三個新宏，可協助您識別 UTF-16 字串中的代理和代理配對。 這些都 [**是 \_ 高 \_ 代理**](/windows/win32/api/Winnls/nf-winnls-is_high_surrogate)、 [**\_ 低 \_ 代理**](/windows/win32/api/Winnls/nf-winnls-is_low_surrogate)和 [**\_ 代理 \_ 配對**](/windows/win32/api/Winnls/nf-winnls-is_surrogate_pair)。
 
 如果應用程式支援 Unicode 並使用系統控制項和標準 API 函式（例如 [**ExtTextOut**](/windows/win32/api/wingdi/nf-wingdi-exttextouta) 和 [**DrawText**](/windows/win32/api/winuser/nf-winuser-drawtext)），則會自動支援補充字元。 因此，如果您的應用程式使用標準系統控制項，或使用一般 [**ExtTextOut**](/windows/win32/api/wingdi/nf-wingdi-exttextouta)類型呼叫來顯示，補充字元應該可以運作，而不需要任何特殊的編碼。
 
@@ -53,7 +53,7 @@ Windows Vista 引進了三個新宏，以協助識別 UTF-16 字串中的代理�
 
  
 
-如果您正在開發字型或 IME 提供者，請注意 Windows 之前的 XP 作業系統預設會停用補充字元支援。 Windows XP 和更新版本預設會啟用補充字元。 如果您提供的字型和 IME 套件需要補充字元，則您的應用程式必須設定下列登錄值：
+如果您正在開發字型或 IME 提供者，請注意預先 Windows XP 作業系統預設會停用補充字元支援。 WindowsXP 和更新版本預設會啟用補充字元。 如果您提供的字型和 IME 套件需要補充字元，則您的應用程式必須設定下列登錄值：
 
 
 ```C++

@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: b77cb6c379319c97377b2a3953a9f8fd86b65938
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 509cdbc25c57c6d0b556433c3bee8b1e68083248c8356769a31529b83c2df1f6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106983155"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119902827"
 ---
 # <a name="asx-element"></a>ASX 元素
 
@@ -128,10 +128,10 @@ Windows Media Player 會以橫幅空間最左邊的圖元開始呈現圖形。 �
 
 <dl> <dt>
 
-[**Windows Media 中繼檔元素參考**](windows-media-metafile-elements-reference.md)
+[**Windows媒體中繼檔元素參考**](windows-media-metafile-elements-reference.md)
 </dt> <dt>
 
-[**Windows Media 中繼檔參考**](windows-media-metafile-reference.md)
+[**Windows媒體中繼檔參考**](windows-media-metafile-reference.md)
 </dt> </dl>
 
  

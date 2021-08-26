@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 524ed44028372eeabf176c30da8b3a31a8ee7988
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: e8648ab49db8b835bce5127b7e02c2d39783f15e3edf9b261d33712b00f10c6c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104023608"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120068118"
 ---
 # <a name="texcube-hlsl-reference"></a>texCUBE (HLSL 參考) 
 
@@ -54,7 +54,7 @@ ms.locfileid: "104023608"
 
 
 
-| Name | 輸入/輸出 | [**範本類型**](dx-graphics-hlsl-intrinsic-functions.md)                       | [**元件類型**](dx-graphics-hlsl-intrinsic-functions.md) | 大小 |
+| 名稱 | 輸入/輸出 | [**範本類型**](dx-graphics-hlsl-intrinsic-functions.md)                       | [**元件類型**](dx-graphics-hlsl-intrinsic-functions.md) | 大小 |
 |------|--------|-------------------------------------------------------------------------------------|----------------------------------------------------------------|------|
 | s    | in     | [**物件**](dx-graphics-hlsl-intrinsic-functions.md) | [samplerCUBE](dx-graphics-hlsl-sampler.md)                    | 1    |
 | t    | in     | [**向量**](dx-graphics-hlsl-intrinsic-functions.md) | [**浮動**](/windows/desktop/WinProg/windows-data-types)                        | 3    |

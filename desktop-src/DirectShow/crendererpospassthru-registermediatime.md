@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 3c829690572d55ea700d51124b99370f23e755a4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 69688bb011fc8a75b0ec52effaef3afd7972fb7a198a4cdedf20c07a40c4fa7f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106977681"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120054378"
 ---
 # <a name="crendererpospassthruregistermediatime-method-ctlutilh"></a>CRendererPosPassThru. RegisterMediaTime 方法 (Ctlutil .h) 
 
@@ -55,7 +55,7 @@ HRESULT RegisterMediaTime(
 
 
 
-| 傳回碼                                                                                                  | Description                                |
+| 傳回碼                                                                                                  | 描述                                |
 |--------------------------------------------------------------------------------------------------------------|--------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>                         | 成功。<br/>                        |
 | <dl> <dt>**\_ \_ \_ \_ 未設定 VFW E 媒體 \_ 時間**</dt> </dl> | 此範例不會加上時間戳記。<br/> |

@@ -4,12 +4,12 @@ ms.assetid: 23a38f49-2d63-4fc8-8113-29143493359c
 title: 寫入 ADDRESSTABLE 篩選部分
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2b06b00d046d555dffc39561b817629f4f47ca4d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: efbf0a18f8004ea4c38607d6c1c7b8fa741315b41fefe5b4d31b103167d415eb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106978364"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120128788"
 ---
 # <a name="writing-addresstable-filter-portion"></a>寫入 ADDRESSTABLE 篩選部分
 

@@ -4,12 +4,12 @@ ms.assetid: 2a08e109-3ecb-4a87-81da-e9ae6bd34f27
 title: VSS 工具和範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c82ce0e7c191081e525d6b483f45a86e1ccea2d6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fd9caf7fa761dfe5e32dc607e73b3bb254490b8b01e90937502cdecb60073923
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113176"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119905168"
 ---
 # <a name="vss-tools-and-samples"></a>VSS 工具和範例
 

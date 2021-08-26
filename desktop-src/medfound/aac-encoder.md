@@ -4,12 +4,12 @@ ms.assetid: d88a8c32-c71f-4ddb-af8c-e2fb54c2322c
 title: AAC 編碼器
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ec9730ffc17d7ac3d5e16d86ef5aa20a46b329cd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 674ad291e1cf6b56f7ffef640fade683265b62a7
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848110"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122465635"
 ---
 # <a name="aac-encoder"></a>AAC 編碼器
 
@@ -31,56 +31,15 @@ AAC 編碼器支援下列媒體類型。 您可以將類型設定為 [第一個]
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>屬性</th>
-<th>描述</th>
-<th>備註</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="mf-mt-major-type-attribute.md"><strong>MF_MT_MAJOR_TYPE</strong></a></td>
-<td>主要類型。</td>
-<td>必須是 <strong>MFMediaType_Audio</strong>。</td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-subtype-attribute.md"><strong>MF_MT_SUBTYPE</strong></a></td>
-<td>亞。</td>
-<td>必須是 <strong>MFAudioFormat_PCM</strong>。</td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-audio-bits-per-sample-attribute.md"><strong>MF_MT_AUDIO_BITS_PER_SAMPLE</strong></a></td>
-<td>每個樣本的位數。</td>
-<td>必須是16。</td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-audio-samples-per-second-attribute.md"><strong>MF_MT_AUDIO_SAMPLES_PER_SECOND</strong></a></td>
-<td>每秒樣本數。</td>
-<td>支援下列值：
-<ul>
-<li>44100 (44.1 KHz) </li>
-<li>48000 (48 KHz) </li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-audio-num-channels-attribute.md"><strong>MF_MT_AUDIO_NUM_CHANNELS</strong></a></td>
-<td>通道數目。</td>
-<td>必須是 1 (mono) 或 2 (身歷聲) 或 6 (5.1) 。
-<blockquote>
-[!Note]<br />
-Windows 10 引進了6個音訊通道的支援，且不適用於舊版的 Windows。
-</blockquote>
-<br/></td>
-</tr>
-</tbody>
-</table>
+
+| 屬性 | 描述 | 備註 | 
+|-----------|-------------|---------|
+| <a href="mf-mt-major-type-attribute.md"><strong>MF_MT_MAJOR_TYPE</strong></a> | 主要類型。 | 必須是 <strong>MFMediaType_Audio</strong>。 | 
+| <a href="mf-mt-subtype-attribute.md"><strong>MF_MT_SUBTYPE</strong></a> | 亞。 | 必須是 <strong>MFAudioFormat_PCM</strong>。 | 
+| <a href="mf-mt-audio-bits-per-sample-attribute.md"><strong>MF_MT_AUDIO_BITS_PER_SAMPLE</strong></a> | 每個樣本的位數。 | 必須是16。 | 
+| <a href="mf-mt-audio-samples-per-second-attribute.md"><strong>MF_MT_AUDIO_SAMPLES_PER_SECOND</strong></a> | 每秒樣本數。 | 支援下列值：<ul><li>44100 (44.1 KHz) </li><li>48000 (48 KHz) </li></ul> | 
+| <a href="mf-mt-audio-num-channels-attribute.md"><strong>MF_MT_AUDIO_NUM_CHANNELS</strong></a> | 通道數目。 | 必須是 1 (mono) 或 2 (身歷聲) 或 6 (5.1) 。<blockquote>[!Note]<br />Windows 10 引進了6個音訊通道的支援，且不適用於舊版的 Windows。</blockquote><br /> | 
+
 
 
 
@@ -98,81 +57,18 @@ Windows 10 引進了6個音訊通道的支援，且不適用於舊版的 Windows
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>屬性</th>
-<th>描述</th>
-<th>備註</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="mf-mt-major-type-attribute.md"><strong>MF_MT_MAJOR_TYPE</strong></a></td>
-<td>主要類型。</td>
-<td>必須是 <strong>MFMediaType_Audio</strong>。</td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-subtype-attribute.md"><strong>MF_MT_SUBTYPE</strong></a></td>
-<td>音訊子類型。</td>
-<td>必須是 <strong>MFAudioFormat_AAC</strong>。</td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-audio-bits-per-sample-attribute.md"><strong>MF_MT_AUDIO_BITS_PER_SAMPLE</strong></a></td>
-<td>每個樣本的位數。</td>
-<td>必須是16。</td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-audio-samples-per-second-attribute.md"><strong>MF_MT_AUDIO_SAMPLES_PER_SECOND</strong></a></td>
-<td>每秒樣本數。</td>
-<td>必須符合輸入類型。</td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-audio-num-channels-attribute.md"><strong>MF_MT_AUDIO_NUM_CHANNELS</strong></a></td>
-<td>通道數目。</td>
-<td>必須符合輸入類型。</td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-audio-avg-bytes-per-second-attribute.md"><strong>MF_MT_AUDIO_AVG_BYTES_PER_SECOND</strong></a></td>
-<td>編碼 AAC 資料流程的位元速率（以每秒位元組數為單位）。</td>
-<td>支援下列值：
-<ul>
-<li>12000</li>
-<li>16000</li>
-<li>20000</li>
-<li>24000</li>
-</ul>
-Mono 和身歷聲的預設值為 12000 (96 Kbps) 。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-aac-payload-type.md">MF_MT_AAC_PAYLOAD_TYPE</a></td>
-<td>AAC 裝載類型。</td>
-<td>選擇性。 如果設定，此值必須為零，表示資料流程只包含 raw_data_block 元素。<br/> 選擇性。 如果未設定屬性，則預設值為零，表示資料流程只包含 (原始 AAC) 的 raw_data_block 元素。 <br/> 在 Windows 7 中，如果已設定此屬性，則值必須為零。<br/> 從 Windows 8 開始，值可以是 0 (原始 AAC) 或 1 (ADTS AAC) 。 <br/></td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-aac-audio-profile-level-indication.md">MF_MT_AAC_AUDIO_PROFILE_LEVEL_INDICATION</a></td>
-<td>AAC 音訊設定檔和層級。</td>
-<td>選擇性。 支援下列值：
-<ul>
-<li>0x29 (預設) </li>
-<li>0x2A</li>
-<li>0x2B</li>
-<li>0x2C</li>
-<li>0x2E</li>
-<li>0x2F</li>
-<li>0x30</li>
-<li>0x31</li>
-<li>0x32</li>
-<li>0x33</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| 屬性 | 描述 | 備註 | 
+|-----------|-------------|---------|
+| <a href="mf-mt-major-type-attribute.md"><strong>MF_MT_MAJOR_TYPE</strong></a> | 主要類型。 | 必須是 <strong>MFMediaType_Audio</strong>。 | 
+| <a href="mf-mt-subtype-attribute.md"><strong>MF_MT_SUBTYPE</strong></a> | 音訊子類型。 | 必須是 <strong>MFAudioFormat_AAC</strong>。 | 
+| <a href="mf-mt-audio-bits-per-sample-attribute.md"><strong>MF_MT_AUDIO_BITS_PER_SAMPLE</strong></a> | 每個樣本的位數。 | 必須是16。 | 
+| <a href="mf-mt-audio-samples-per-second-attribute.md"><strong>MF_MT_AUDIO_SAMPLES_PER_SECOND</strong></a> | 每秒樣本數。 | 必須符合輸入類型。 | 
+| <a href="mf-mt-audio-num-channels-attribute.md"><strong>MF_MT_AUDIO_NUM_CHANNELS</strong></a> | 通道數目。 | 必須符合輸入類型。 | 
+| <a href="mf-mt-audio-avg-bytes-per-second-attribute.md"><strong>MF_MT_AUDIO_AVG_BYTES_PER_SECOND</strong></a> | 編碼 AAC 資料流程的位元速率（以每秒位元組數為單位）。 | 支援下列值：<ul><li>12000</li><li>16000</li><li>20000</li><li>24000</li></ul>Mono 和身歷聲的預設值為 12000 (96 Kbps) 。<br /> | 
+| <a href="mf-mt-aac-payload-type.md">MF_MT_AAC_PAYLOAD_TYPE</a> | AAC 裝載類型。 | 選擇性。 如果設定，此值必須為零，表示資料流程只包含 raw_data_block 元素。<br /> 選擇性。 如果未設定屬性，則預設值為零，表示資料流程只包含 (原始 AAC) 的 raw_data_block 元素。 <br /> 在 Windows 7 中，如果已設定此屬性，則值必須為零。<br /> 從 Windows 8 開始，值可以是 0 (原始 AAC) 或 1 (ADTS AAC) 。 <br /> | 
+| <a href="mf-mt-aac-audio-profile-level-indication.md">MF_MT_AAC_AUDIO_PROFILE_LEVEL_INDICATION</a> | AAC 音訊設定檔和層級。 | 選擇性。 支援下列值：<ul><li>0x29 (預設) </li><li>0x2A</li><li>0x2B</li><li>0x2C</li><li>0x2E</li><li>0x2F</li><li>0x30</li><li>0x31</li><li>0x32</li><li>0x33</li></ul> | 
+
 
 下表列出可用於 MF_MT_AAC_PROFILE_LEVEL_INDICATION 屬性的值。
 
@@ -276,8 +172,8 @@ LONGLONG hnsSampleDuration =
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/>                                 |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                              |
+| 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/>                                 |
 | DLL<br/>                      | <dl> <dt>Mfaacenc.dll</dt> </dl> |
 
 

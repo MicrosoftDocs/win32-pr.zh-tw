@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 22a1cd4a288e30373d460fafbc92b3aaa29283cd
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 02aa5445cb3a7fa59fb59fc04a3bc2b5ff54640b4662c8cb469064d633d1a4f1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106992847"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119900688"
 ---
 # <a name="videosettingssaturation"></a>VIDEOSETTINGS 飽和度
 
@@ -37,7 +37,7 @@ ms.locfileid: "106992847"
 
 | 需求 | 值 |
 |--------------------|-----------------------------------------------------------------|
-| 版本<br/> | 適用于 Windows XP 或更新版本的 Windows Media Player 版本<br/> |
+| 版本<br/> | Windows XP 或更新版本的 Windows Media Player 版本<br/> |
 
 
 

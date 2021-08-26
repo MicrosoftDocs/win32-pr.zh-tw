@@ -1,19 +1,19 @@
 ---
-description: 本檔說明 MSP 基類的設計和使用。 這些類別並不是必要的，但大部分的開發人員會發現它們簡化了針對 TAPI 3 秒新 MSPI 建立 DirectShow 型 MSP 的工作。
+description: 本檔說明 MSP 基類的設計和使用。 這些類別並不是必要的，但大部分的開發人員會發現它們簡化了針對 TAPI 3 秒新 MSPI 建立以 DirectShow 為基礎之 MSP 的工作。
 ms.assetid: 97597dcf-eb18-47aa-b0ed-a43286d5d134
 title: TAPI 3 MSP 基類
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7eb7c7958847ef7bf699cfe4810f7133ef0b4bc7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ee34d4f9f67618c3637bfaff149773ab7b0de4b93f33c8bca8e5eb892527735e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106987776"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120012338"
 ---
 # <a name="tapi-3-msp-base-classes"></a>TAPI 3 MSP 基類
 
-本檔說明 MSP 基類的設計和使用。 這些類別並不是必要的，但大部分的開發人員會發現它們簡化了針對 TAPI 3 的新 MSPI 建立 DirectShow 型 MSP 的工作。
+本檔說明 MSP 基類的設計和使用。 這些類別並不是必要的，但大部分的開發人員會發現它們簡化了針對 TAPI 3 的新 MSPI 建立以 DirectShow 為基礎之 MSP 的工作。
 
 MSP 基礎類別的原始程式碼可在平臺軟體發展工具組 (SDK) 的範例目錄中找到。
 

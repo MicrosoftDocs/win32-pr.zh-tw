@@ -4,12 +4,12 @@ ms.assetid: f4986fdd-996f-4791-aa41-375decf1524f
 title: LOCALE_SABBREV * 常數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ba4a456dfa725fea262211f73059d627dba29819
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 020c08df7161fb38d9b2b9912338cfb18155f7cfa938a8cd4dc3dd85d8d650f8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106978989"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120106298"
 ---
 # <a name="locale_sabbrev-constants"></a>地區設定 \_ SABBREV \* 常數
 

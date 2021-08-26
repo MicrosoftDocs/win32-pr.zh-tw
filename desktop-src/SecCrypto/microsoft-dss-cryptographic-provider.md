@@ -4,12 +4,12 @@ ms.assetid: 9b9a288e-0167-4696-98a3-283a788f8062
 title: Microsoft DSS 密碼編譯提供者
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 930fca73edfbb652a077c5c4b9dcd5f069b11ffb
-ms.sourcegitcommit: 822413efb4a70dd464e5db4d9e8693ef74f8132f
+ms.openlocfilehash: 4c09bbe19d0dd9af46dbf1820cf28df9681e2bf1d0e6c899694c0f220555a419
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "113581856"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120100708"
 ---
 # <a name="microsoft-dss-cryptographic-provider"></a>Microsoft DSS 密碼編譯提供者
 

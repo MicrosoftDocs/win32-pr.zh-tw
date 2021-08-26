@@ -4,12 +4,12 @@ ms.assetid: f8a56e2c-e4a9-48fa-b445-2c917035a682
 title: 以程式設計方式公開文字
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: df5e5fc9a038ad44e590c598d818b58874307264
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f1c896083a8c2615464883c433aee44521376826a51aee33bcffde599a7e4aec
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973482"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119936558"
 ---
 # <a name="exposing-text-programmatically"></a>以程式設計方式公開文字
 

@@ -4,12 +4,12 @@ ms.assetid: ef28141f-1b63-4694-b6df-fcc11ce7e50b
 title: System.servicemodel
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e65431412b0d46ad7b68100febd4d6e8efd31a17
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cf12d65c2776c3740360c4cb298048621a877d58999eaddd6e219c682e5a0c9a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104115933"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120010338"
 ---
 # <a name="systemgpslongitude"></a>System.servicemodel
 
@@ -31,7 +31,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="windows-7-windows-vista"></a>Windows 7、Windows Vista
+## <a name="windows-7-windows-vista"></a>Windows 7，Windows Vista
 
 ```
 propertyDescription
@@ -51,7 +51,7 @@ propertyDescription
 
 PKEY 值定義于 Propkey 中。
 
-`label`針對 Windows Vista Service Pack 1 (SP1) ，已新增 **labelInfo** 屬性之特定間接字串參考的需求。
+`label`針對 Windows Vista （含 Service Pack 1 (SP1) ）新增了特定間接字串參考的屬性（attribute **）的需求**。
 
 ## <a name="related-topics"></a>相關主題
 

@@ -3,7 +3,7 @@ title: 'WM_CTLCOLOREDIT 訊息 (Winuser .h) '
 description: 不是唯讀或停用的編輯控制項，會在 \_ 即將繪製控制項時，將 WM CTLCOLOREDIT 訊息傳送至其父視窗。
 ms.assetid: 2294e3b8-00a7-43ef-b20a-fe0e46764055
 keywords:
-- WM_CTLCOLOREDIT message Windows 控制項
+- WM_CTLCOLOREDIT 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e100367f37018424fad33dc7cea30700183a0a2c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: da7f1fd27c51cabc699cf945fd4701c36d2e9709d1654de45859777333b9b4bb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464237"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120053898"
 ---
 # <a name="wm_ctlcoloredit-message"></a>WM \_ CTLCOLOREDIT 訊息
 
@@ -77,9 +77,9 @@ WM_CTLCOLOREDIT
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                     |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 

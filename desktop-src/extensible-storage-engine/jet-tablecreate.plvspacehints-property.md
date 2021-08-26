@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 508eb7731dc08089e1142ad267672a1c3976dd3e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 744e5eb988a4831349c02f7ebb13c2108589248d2062a02e32ee7e469cea0c0c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106985078"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120016409"
 ---
 # <a name="jet_tablecreateplvspacehints-property"></a>JET_TABLECREATE pLVSpacehints 屬性
 

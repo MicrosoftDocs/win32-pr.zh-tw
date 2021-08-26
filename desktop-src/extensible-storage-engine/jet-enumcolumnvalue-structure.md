@@ -15,17 +15,17 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: bc95c6b8403a64432451ea29dbb66868fad25264
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 86905d49bb798d37bad48087c48e77349ec10f57
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980605"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122482284"
 ---
 # <a name="jet_enumcolumnvalue-structure"></a>JET_ENUMCOLUMNVALUE 結構
 
 
-_**適用于：** Windows |Windows Server_
+_**適用于：** Windows |Windows伺服器_
 
 ## <a name="jet_enumcolumnvalue-structure"></a>JET_ENUMCOLUMNVALUE 結構
 
@@ -50,33 +50,13 @@ _**適用于：** Windows |Windows Server_
 
 由資料行值列舉所產生的資料行狀態碼。
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>值</p></th>
-<th><p>意義</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_wrnColumnNull</p></td>
-<td><p>要求的資料行值為 Null。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_wrnColumnSkipped</p></td>
-<td><p>在對應于此<strong>JET_ENUMCOLUMNVALUE</strong>結構的<a href="gg294138(v=exchg.10).md">JET_ENUMCOLUMN</a>結構中，于<em>rgtagSequence</em>陣列的元素中指定的<em>itagSequence</em>為零。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_wrnColumnTruncated</p></td>
-<td><p>要求的資料行值在傳回之前已被截斷為指定的大小。</p>
-<p>只有包含大量資料的長文字和長二進位資料行才會發生截斷。</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>值</p> | <p>意義</p> | 
+|--------------|----------------|
+| <p>JET_wrnColumnNull</p> | <p>要求的資料行值為 Null。</p> | 
+| <p>JET_wrnColumnSkipped</p> | <p>在對應于此<strong>JET_ENUMCOLUMNVALUE</strong>結構的<a href="gg294138(v=exchg.10).md">JET_ENUMCOLUMN</a>結構中，于<em>rgtagSequence</em>陣列的元素中指定的<em>itagSequence</em>為零。</p> | 
+| <p>JET_wrnColumnTruncated</p> | <p>要求的資料行值在傳回之前已被截斷為指定的大小。</p><p>只有包含大量資料的長文字和長二進位資料行才會發生截斷。</p> | 
+
 
 
 **cbData**
@@ -93,26 +73,9 @@ _**適用于：** Windows |Windows Server_
 
 ### <a name="requirements"></a>規格需求
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>用戶端</strong></p></td>
-<td><p>需要 Windows Vista、Windows XP 或 Windows 2000 Professional。</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>伺服器</strong></p></td>
-<td><p>需要 Windows Server 2008、Windows Server 2003 或 Windows 2000 Server。</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>標頭</strong></p></td>
-<td><p>宣告于 Esent. h 中。</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p><strong>用戶端</strong></p> | <p>需要 Windows Vista、Windows XP 或 Windows 2000 Professional。</p> | | <p><strong>伺服器</strong></p> | <p>需要 Windows server 2008、Windows Server 2003 或 Windows 2000 Server。</p> | | <p><strong>標頭</strong></p> | <p>宣告于 Esent. h 中。</p> | 
+
 
 
 ### <a name="see-also"></a>另請參閱

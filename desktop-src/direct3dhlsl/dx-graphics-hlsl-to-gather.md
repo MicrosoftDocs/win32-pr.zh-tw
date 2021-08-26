@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 5edf92b127210a5eb05e5339a1dff4cc08ce9443e638461b71d7bf7d27c7b78a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bf364bc9d8feac199235319639ab5be8b851de4b
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118513087"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122626954"
 ---
 # <a name="gather-directx-hlsl-texture-object"></a>收集 (DirectX HLSL 材質物件) 
 
@@ -32,8 +32,8 @@ ms.locfileid: "118513087"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">

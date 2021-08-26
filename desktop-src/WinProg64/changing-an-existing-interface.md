@@ -6,12 +6,12 @@ keywords:
 - 變更現有介面64位 Windows 程式設計
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 51a656ee768dcc2e88725d2cff0ddc5604fd771f
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 782587471de5616750501552445599a94571ff2275d080347937c595e2cd7668
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104508003"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119899068"
 ---
 # <a name="changing-an-existing-interface"></a>變更現有介面
 
@@ -25,6 +25,6 @@ RPC 介面是由其 UUID 及其主要和次要版本號碼所定義。 當您變
 
 DCOM 介面是由其 GUID 識別。 在 DCOM 中，系統會將介面視為不可變，而且您只能藉由建立繼承自舊介面的新介面來進行變更。 這些規則可確保用戶端和伺服器保持相容。
 
- 
+ 
 
- 
+ 

@@ -17,12 +17,12 @@ keywords:
 - OpenGL、light 函數的參考
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e14ca663f1d6a3d437900ec00da1d1b9b9637728
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e09d01f7f3d6d30f086919a037e1447bfcc5f7f417a2d5590d9194a212c37f8d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106965560"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120128248"
 ---
 # <a name="glmaterial-functions"></a>glMaterial 函式
 
@@ -33,9 +33,9 @@ ms.locfileid: "106965560"
 -   [**glMaterialfv**](glmaterialfv.md)
 -   [**glMaterialiv**](glmaterialiv.md)
 
- 
+ 
 
- 
+ 
 
 
 

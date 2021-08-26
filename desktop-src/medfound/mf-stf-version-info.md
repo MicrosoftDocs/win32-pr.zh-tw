@@ -4,12 +4,12 @@ ms.assetid: C9128AA0-E86B-4E83-8173-2568377235FB
 title: 'MF_STF_VERSION_INFO 屬性 (Mfidl) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 81b49bb2dc4ba20779a4c440f3dde7cd90912345
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6d5e5a35c8abfaca3d88b92906331807786e5856e66dc262434d7b89afb6d90e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511317"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119940348"
 ---
 # <a name="mf_stf_version_info-attribute"></a>MF \_ STF \_ 版本 \_ 資訊屬性
 

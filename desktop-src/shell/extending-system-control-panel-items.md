@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 9b0f6628d7bc75378915c1d9f3e20327478742df
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8c5948ad99111dc87578dfa15c5278cf03d5918e
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104991158"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122469745"
 ---
 # <a name="extending-system-control-panel-items"></a>擴充系統主控台專案
 
@@ -36,88 +36,24 @@ HKEY_LOCAL_MACHINE
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>主控台專案</th>
-<th><em>name</em></th>
-<th>備註</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>顯示</td>
-<td>桌子</td>
-<td>也支援取代 <strong>桌面</strong> 網頁。
-<blockquote>
-[!Note]<br />
-Windows Vista 已不再支援此功能。
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td>顯示設定 Advanced</td>
-<td>裝置</td>
-<td>Nonhardware 特定的 advanced 屬性。
-<blockquote>
-[!Note]<br />
-Windows Vista 已不再支援此功能。
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td>顯示設定 Advanced</td>
-<td>顯示</td>
-<td>硬體特定的 advanced 屬性。
-<blockquote>
-[!Note]<br />
-Windows Vista 已不再支援此功能。
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td>網際網路選項</td>
-<td>網際網路</td>
-<td>延伸模組頁面的最大數目為18。</td>
-</tr>
-<tr class="odd">
-<td>鍵盤</td>
-<td>鍵盤</td>
-<td>延伸頁面的最大數目為30。</td>
-</tr>
-<tr class="even">
-<td>滑鼠</td>
-<td>滑鼠</td>
-<td>也支援取代標準頁面。 延伸模組頁面的數目上限為8。</td>
-</tr>
-<tr class="odd">
-<td>電源選項</td>
-<td>電源</td>
-<td>頁面數目上限（包括標準頁面）為18。</td>
-</tr>
-<tr class="even">
-<td>系統</td>
-<td>系統</td>
-<td>延伸模組頁面的數目上限為8。
-<blockquote>
-[!Note]<br />
-Windows Vista 已不再支援此功能。
-</blockquote>
-<br/></td>
-</tr>
-</tbody>
-</table>
+
+| 主控台專案 | <em>name</em> | 備註 | 
+|--------------------|---------------|---------|
+| 顯示 | 桌子 | 也支援取代 <strong>桌面</strong> 網頁。<blockquote>[!Note]<br />Windows Vista 中已不再支援此功能。</blockquote><br /> | 
+| 顯示設定 Advanced | 裝置 | Nonhardware 特定的 advanced 屬性。<blockquote>[!Note]<br />Windows Vista 中已不再支援此功能。</blockquote><br /> | 
+| 顯示設定 Advanced | 顯示 | 硬體特定的 advanced 屬性。<blockquote>[!Note]<br />Windows Vista 中已不再支援此功能。</blockquote><br /> | 
+| 網際網路選項 | 網際網路 | 延伸模組頁面的最大數目為18。 | 
+| 鍵盤 | 鍵盤 | 延伸頁面的最大數目為30。 | 
+| 滑鼠 | 滑鼠 | 也支援取代標準頁面。 延伸模組頁面的數目上限為8。 | 
+| 電源選項 | 電源 | 頁面數目上限（包括標準頁面）為18。 | 
+| 系統 | 系統 | 延伸模組頁面的數目上限為8。<blockquote>[!Note]<br />Windows Vista 中已不再支援此功能。</blockquote><br /> | 
+
 
 
 
  
 
-Windows XP 主控台中的 [ **新增或移除程式** ] 專案不是屬性工作表，因此無法透過此處討論的方法來擴充。 相反地，它的內容是從應用程式發行者取得的。 如需有關新增內容至 **新增或移除程式** 的詳細資訊，請參閱 [**IAppPublisher**](/windows/desktop/api/Shappmgr/nn-shappmgr-iapppublisher)、 [**IEnumPublishedApps**](/windows/desktop/api/Shappmgr/nn-shappmgr-ienumpublishedapps)和 [**IPublishedApp**](/windows/desktop/api/Shappmgr/nn-shappmgr-ipublishedapp)。
+Windows XP 主控台中的 [**新增或移除程式**] 專案不是屬性工作表，因此無法透過此處討論的方法來擴充。 相反地，它的內容是從應用程式發行者取得的。 如需有關新增內容至 **新增或移除程式** 的詳細資訊，請參閱 [**IAppPublisher**](/windows/desktop/api/Shappmgr/nn-shappmgr-iapppublisher)、 [**IEnumPublishedApps**](/windows/desktop/api/Shappmgr/nn-shappmgr-ienumpublishedapps)和 [**IPublishedApp**](/windows/desktop/api/Shappmgr/nn-shappmgr-ipublishedapp)。
 
 ## <a name="related-topics"></a>相關主題
 
@@ -147,7 +83,7 @@ Windows XP 主控台中的 [ **新增或移除程式** ] 專案不是屬性工�
 [建立主控台專案的可搜尋工作連結](creating-searchable-task-links.md)
 </dt> <dt>
 
-[在 Windows Vista 下存取安全模式下的主控台](accessing-the-cp-in-safe-mode-under-vista.md)
+[在 Windows Vista 下存取保管庫模式下的主控台](accessing-the-cp-in-safe-mode-under-vista.md)
 </dt> </dl>
 
  

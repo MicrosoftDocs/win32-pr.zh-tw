@@ -4,12 +4,12 @@ ms.assetid: d3119504-9b6a-47b8-b3c6-15cb329929cb
 title: 'PKEY_AudioEndpoint_GUID (Mmdeviceapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 45405cd2350777e535b50859e77aa56755d191fc
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 357531a76316381e9ae39f867a5b6cfa0a055a04f41b0cba5fab95fcccbcc7fb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972977"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120104358"
 ---
 # <a name="pkey_audioendpoint_guid"></a>PKEY \_ AudioEndpoint \_ GUID
 
@@ -44,8 +44,8 @@ ms.locfileid: "106972977"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                     |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                     |
 | 標頭<br/>                   | <dl> <dt>Mmdeviceapi。h</dt> </dl> |
 
 

@@ -3,15 +3,15 @@ title: 適用于上線類型2線上商店的驗證測試
 description: 本主題說明 Microsoft 將執行以驗證您的 Type 2 線上商店的測試。 Microsoft 要求您必須先執行這些測試，才能提交候選版。 您的線上商店必須成功通過這些測試才能進行發佈。
 ms.assetid: 1da51772-9711-4913-b05d-830fabe49da2
 keywords:
-- Windows Media Player 線上商店
+- Windows Media Player線上商店
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: beefd0945f9d1a9ae61e61f8be74beada1695baf
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ab2cb1b4d44b1bd3c6289311c6b276de7c75ed1bcd955431796a36d272811942
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372241"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119901261"
 ---
 # <a name="validation-tests-for-on-boarding-type-2-online-stores"></a>適用于上線類型2線上商店的驗證測試
 
@@ -20,7 +20,7 @@ ms.locfileid: "104372241"
 > [!Note]  
 > 如果您的商店是類型1而不是類型2，您可以使用本主題作為指導方針，以瞭解類型1存放區所涵蓋的憑證測試範圍。 針對類型1存放區的一組完整測試，請聯絡 [Microsoft 支援服務](https://support.microsoft.com/ph/7763#tab0)。
 
- 
+ 
 
 本主題包含下列各節。
 
@@ -54,7 +54,7 @@ ms.locfileid: "104372241"
 
 測試
 
-Windows XP
+Windows XP
 
 Windows Vista
 
@@ -142,7 +142,7 @@ Windows 7
 
 
 
- 
+ 
 
 ### <a name="test-pass-preparation"></a>測試階段準備
 
@@ -197,11 +197,11 @@ Windows 7
 
 您必須對下列設定進行測試：
 
--   Windows XP Service Pack 3 (SP3) 32 位和64位作業系統上的 Microsoft Windows Media Player 11
+-   Windows XP Service Pack 3 (SP3) 32 位和64位作業系統的 Microsoft Windows Media Player 11
 -   Windows Vista 32 位和64位 (32 位 Windows Media Player) 作業系統上的 Windows Media Player 11
 -   Windows 7 32 位和64位 (32 位 Windows Media Player) 作業系統上的 Microsoft Windows Media Player 12
 
-雖然您必須在所有列出的作業系統版本和平臺上執行測試，但是32位版本的 Windows Vista 和 Windows 7 是目標作業系統版本的優先考慮。 您必須在所有平臺上測試任何軟體的安裝。
+雖然您必須在所有列出的作業系統版本和平臺上執行測試，但32位版本的 Windows Vista 和 Windows 7 是目標作業系統版本的優先順序。 您必須在所有平臺上測試任何軟體的安裝。
 
 本主題中的螢幕擷取畫面使用虛構的商店 Proseware，來示範使用者介面的使用方式。
 
@@ -214,7 +214,7 @@ Windows 7
 請執行下列步驟來設定測試電腦：
 
 1.  藉由新增存放區專屬的登錄機碼，將測試電腦指向內容測試伺服器。
-2.  將 [ **地區及語言選項** ] 對話方塊中的值設定為適當的語言和地區設定。 若要設定語言，請選取 [ **格式** ] 索引標籤，然後從 [ **目前格式** ] 下拉式方塊中選取語言。 若要設定區域，請選取 [ **位置** ] 索引標籤，然後從 [ **目前位置** ] 下拉式方塊中選取區域。 此外，對於需要安裝外掛程式或存放區特定自訂軟體的存放區，您可能需要將系統地區設定變更為存放區地區設定的語言，以便進行安裝。 軟體安裝程式必須同時支援單位元組和雙位元組字元，而且必須在任何地區設定上執行。 您必須以原生地區設定進行測試。 若要設定原生地區設定，請開啟 [ **地區和語言** ] 對話方塊，選取 [系統 **管理** ] 索引標籤，然後按一下 [ **變更系統地區** 設定] 按鈕，如下列螢幕擷取畫面所示。 按一下這個按鈕會顯示 [ **區域和語言設定** ] 對話方塊。 該對話方塊中的 [ **目前的系統地區設定** ] 下拉式方塊會變更系統地區設定。
+2.  將 [ **地區及語言選項** ] 對話方塊中的值設定為適當的語言和地區設定。 若要設定語言，請選取 [ **格式** ] 索引標籤，然後從 [ **目前格式** ] 下拉式方塊中選取語言。 若要設定區域，請選取 [ **位置** ] 索引標籤，然後從 [ **目前位置** ] 下拉式方塊中選取區域。 此外，對於需要安裝外掛程式或存放區特定自訂軟體的存放區，您可能需要將系統地區設定變更為存放區地區設定的語言，以便進行安裝。 軟體安裝程式必須同時支援單位元組和雙位元組字元，而且必須在任何地區設定上執行。 您必須以原生地區設定進行測試。 若要設定原生地區設定，請開啟 [ **地區和語言** ] 對話方塊，選取 [系統 **管理** ] 索引標籤，然後按一下 [ **變更系統地區** 設定] 按鈕，如下列螢幕擷取畫面所示。 按一下這個按鈕會顯示 [**區域和語言設定**] 對話方塊。 該對話方塊中的 [ **目前的系統地區設定** ] 下拉式方塊會變更系統地區設定。
 
     下列螢幕擷取畫面顯示可設定區域和語言的索引標籤：
 
@@ -222,7 +222,7 @@ Windows 7
 
     ![顯示如何變更目前系統地區設定的螢幕擷取畫面](images/reg-lang-settings.png)
 
-3.  藉由設定 Windows Media Player 來播放視覺效果，關閉商店資訊中心的觀點。 平臺之間的主要差異在於，在 Windows Media Player 11 中，您一開始可以按一下 [ **立即播放**]，而在 Windows Media Player 12 中，則是以滑鼠右鍵按一下主視窗開始。
+3.  藉由設定 Windows Media Player 來播放視覺效果，關閉商店資訊中心的觀點。 平臺之間的主要差異在於，在 Windows Media Player 11 中，您一開始可以按一下 [**立即播放**]，而在 Windows Media Player 12 中，則是以滑鼠右鍵按一下主視窗開始。
 
     下列螢幕擷取畫面顯示在 Windows Media Player 11 中播放視覺效果的功能表選項順序：
 
@@ -237,7 +237,7 @@ Windows 7
 首先，請執行下列步驟來設定存放區，然後執行遵循初始步驟的步驟來確認存放區設定：
 
 1.  啟動 Windows Media Player 並等候數秒，以取得最新的 AllServices.xml 檔案。
-2.  針對 Windows XP 和 Windows Vista，若要選取線上商店，請先按一下 [媒體指南] 和 [線上商店] 視圖之間分割的索引標籤。 然後，從功能表中按一下 **[流覽所有線上商店]**，然後按一下商店清單中的圖示來選取商店。 若為 Windows 7，請按一下 [媒體櫃] 流覽窗格中的按鈕，該按鈕會在 [ **媒體指南** ] 按鈕和 [ **線上商店** ] 按鈕之間進行分割。 然後，從功能表中按一下 **[流覽所有線上商店]**，然後按一下商店清單中的圖示來選取商店。
+2.  針對 Windows XP 和 Windows Vista，若要選取線上商店，請先按一下 [Media Guide] 和 [線上商店] 視圖之間分割的索引標籤。 然後，從功能表中按一下 **[流覽所有線上商店]**，然後按一下商店清單中的圖示來選取商店。 針對 Windows 7，請按一下 [媒體櫃] 流覽窗格中的按鈕，該按鈕會在 [**媒體指南**] 按鈕和 [**線上商店**] 按鈕之間進行分割。 然後，從功能表中按一下 **[流覽所有線上商店]**，然後按一下商店清單中的圖示來選取商店。
 
     下列螢幕擷取畫面顯示如何選取 Windows Media Player 11 的線上商店：
 
@@ -269,16 +269,16 @@ Windows 7
 
     確認 [存放區] 索引標籤已變更，以指出選取的存放區。
 
-    若為具有 Windows Media Player 11 的 Windows XP 和 Windows Vista，請確認已針對深 Windows Media Player 11 背景顯示商店名稱和圖示。
+    針對 Windows XP 和 Windows Vista （含 Windows Media Player 11），請確認已針對深色 Windows Media Player 11 背景顯示商店名稱和圖示。
 
-    針對 Windows Media Player 12 的 Windows 7，請確認在 [程式庫] 導覽窗格中的 [存放區名稱] 和 [圖示] 會顯示在服務選取器內容功能表中。
+    針對 Windows 7 （Windows Media Player 12），請確認在 [程式庫] 導覽窗格中，您可以在服務選取器內容功能表中看到商店名稱和圖示。
 
     確認商店列在功能表中商店選取器清單的頂端。
 
     > [!Note]  
     > 如果類型2存放區是區域的精選 (預設) 存放區，將不會有 [ **新增目前的服務] 功能表** 選項。
 
-     
+     
 
     下列螢幕擷取畫面顯示當您在 Windows Media Player 11 的右上角按一下索引標籤時，所顯示的功能表：
 
@@ -294,11 +294,11 @@ Windows 7
 
 1.  確認存放區有建立新帳戶的選項，然後依照儲存指示建立新的帳戶。
 
-    下列螢幕擷取畫面會反白顯示 [ **建立新帳戶** ] 按鈕，如 Windows Media Player 11 所示：
+    下列螢幕擷取畫面會反白顯示 [**建立新帳戶**] 按鈕，如 Windows Media Player 11 所示：
 
     ![顯示如何驗證 windows media player 11 帳戶設定的螢幕擷取畫面](images/wmp11-verify-account.png)
 
-    下列螢幕擷取畫面會反白顯示 [ **建立新帳戶** ] 按鈕，如 Windows Media Player 12：
+    下列螢幕擷取畫面會反白顯示 [**建立新帳戶**] 按鈕，如 Windows Media Player 12：
 
     ![顯示如何驗證 windows media player 12 帳戶設定的螢幕擷取畫面](images/wmp12-verify-account.png)
 
@@ -362,8 +362,8 @@ Windows 7
 
     當下載完成時，流覽至 Windows Media Player 程式庫中下載的內容。 下載的內容位於目前使用者的文件庫中。
 
-    -   若為具有 Windows Media Player 11 的 Windows XP 和 Windows Vista，下載的內容會出現在 [文件庫] 流覽窗格中的 [程式庫]、[連結 **庫** ] 和 [ **歌曲**] 下
-    -   針對 Windows Media Player 12 的 Windows 7，下載至 Windows Media Player 程式庫的內容會出現在 [ **音樂**] 的 Windows Media Player 流覽窗格中。
+    -   針對 Windows XP 和 Windows Vista （含 Windows Media Player 11），下載的內容會出現在 [文件庫] 流覽窗格中的 [程式庫]、[連結 **庫**] 和 [**歌曲**] 下
+    -   針對 Windows 7 （Windows Media Player 12），下載至 Windows Media Player 程式庫的內容會出現在 [**音樂**] 的 Windows Media Player 流覽窗格中。
 
 3.  確認購買的中繼資料已下載。
 
@@ -411,7 +411,7 @@ Windows 7
 
     ![顯示如何在 windows media player 11 中購買內容的螢幕擷取畫面](images/wmp11-verify-buy-play.png)
 
-    在 Windows 7 中，執行下列步驟以 Windows Media Player 12 購買內容：
+    請執行下列步驟，以 Windows Media Player 12 購買 Windows 7 中的內容：
 
     1.  在 [程式庫] 模式中，按一下 [ **播放** ] 索引標籤。
     2.  在播放清單中的專輯封面下，按一下 [**購買**]
@@ -437,7 +437,7 @@ Windows 7
 > [!Note]  
 > 燒錄購買的曲目之前，請記下它的燒錄計數，讓您稍後可以在燒錄曲目之後，確認計數是否遞減。
 
- 
+ 
 
 1.  按一下 [ **燒錄** ] 索引標籤
 2.  將購買的曲目拖曳到 **燒錄清單**。
@@ -474,18 +474,18 @@ Windows 7
 > [!Note]  
 > 在您傳輸已購買的曲目之前，請記下其同步計數，讓您可以在稍後確認計數是否會在您傳輸曲目後遞減。
 
- 
+ 
 
-1.  以安全時鐘連接裝置。 範例包括使用適用于可攜式裝置之 Windows Media DRM 的裝置，例如 iRiver H10 等便攜媒體中心、創意 Zen 等等。
-2.  在 Windows Media Player 中，按一下 [ **同步** 處理] 索引標籤。
+1.  連線具有安全時鐘的裝置。 範例包括使用適用于可攜式裝置 Windows 媒體 DRM 的裝置，例如 iRiver H10 等便攜媒體中心、創意 Zen 等等。
+2.  在 Windows Media Player 中，按一下 [**同步** 處理] 索引標籤。
 3.  將文件庫中的內容拖曳至 [**同步** 處理] 索引標籤上的 [**同步清單**] 區域。
 4.  按一下 [ **開始同步** 處理] 按鈕。
 
-下列螢幕擷取畫面顯示 **同步清單** 區域中的追蹤1，並顯示 Windows Media Player 11 中的 [ **開始同步** 處理] 按鈕：
+下列螢幕擷取畫面顯示 **同步清單** 區域中的追蹤1，並顯示 Windows Media Player 11 中的 [**開始同步** 處理] 按鈕：
 
 ![顯示如何在 windows media player 11 中傳送內容的螢幕擷取畫面](images/wmp11-verify-transfer.png)
 
-下列螢幕擷取畫面顯示 **同步清單** 區域中的追蹤1，並顯示 Windows Media Player 12 中的 [ **開始同步** 處理] 按鈕：
+下列螢幕擷取畫面顯示 **同步清單** 區域中的追蹤1，並顯示 Windows Media Player 12 中的 [**開始同步** 處理] 按鈕：
 
 ![顯示如何在 windows media player 12 中傳送內容的螢幕擷取畫面](images/wmp12-verify-transfer.png)
 
@@ -530,14 +530,14 @@ Windows 7
 > [!Note]  
 > 雖然 Microsoft 無法認證商店專屬的帳戶功能，但為了確保客戶體驗良好，您應該測試該功能。
 
- 
+ 
 
 ### <a name="managing-the-info-center"></a>管理資訊中心
 
 首先，請執行下列步驟來準備測試預設狀態，然後執行遵循初始步驟的下一個步驟，以確認資訊中心預設為關閉：
 
 1.  播放存放區中的一些內容。
-2.  切換至 [立即播放] 模式。 在具有 Windows Media Player 11 的 Windows XP 或 Windows Vista 中，按一下 [ **立即播放** ] 索引標籤。在具有 Windows Media Player 12 的 Windows 7 中，按一下位於右下角的 [ **立即播放** ] 按鈕。
+2.  切換至 [立即播放] 模式。 在 Windows XP 或 Windows Vista （含 Windows Media Player 11）中，按一下 [**立即播放**] 索引標籤。在 Windows Media Player 12 的 Windows 7 中，按一下位於右下角的 [**立即播放**] 按鈕。
 
 **確認資訊中心預設為關閉**
 
@@ -545,13 +545,13 @@ Windows 7
 
 如果存放區提供資訊中心視圖，請播放存放區中的一些內容，並在內容播放時，切換到 [立即播放] 模式，並開啟資訊中心。
 
-在具有 Windows Media Player 11 的 Windows XP 或 Windows Vista 中，以滑鼠右鍵按一下 [立即播放] 視窗，然後從內容功能表中選取 [ **資訊中心視圖**]。
+在 Windows XP 或 Windows Vista （含 Windows Media Player 11）中，以滑鼠右鍵按一下 [立即播放] 視窗，然後從內容功能表中選取 [**資訊中心視圖**]。
 
 下列螢幕擷取畫面顯示 Windows Media Player 11 的內容功能表：
 
 ![顯示如何存取 windows media player 11 中商店資訊中心的螢幕擷取畫面](images/wmp11-info-center.png)
 
-在具有 Windows Media Player 12 的 Windows 7 中，以滑鼠右鍵按一下 [立即播放] 視窗，然後在操作功能表上選取 [ **視覺效果**]，再按一下 [ **資訊中心視圖**]。
+在 Windows Media Player 12 的 Windows 7 中，以滑鼠右鍵按一下 [立即播放] 視窗，然後在內容功能表上選取 [**視覺效果**]，再按一下 [**資訊中心視圖**]。
 
 下列螢幕擷取畫面顯示 Windows Media Player 12 中的內容功能表：
 
@@ -614,9 +614,9 @@ Windows 7
 2.  登入、查看帳戶頁面，然後登出。
 3.  按一下 Windows Media Player 中的 [上一步] 按鈕，並確認您沒有看到先前的使用者帳戶資訊。
 
- 
+ 
 
- 
+ 
 
 
 

@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2953066f115ebec05e7ee90e57a171884986d156
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c14c36ff8a60c95ee1f5e1f85a46991660a6e5bae17367c01cec3d00da3d1f06
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106979591"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119901128"
 ---
 # <a name="playlistcollectionsetdeleted-method"></a>PlaylistCollection. setDeleted 方法
 
@@ -71,7 +71,7 @@ PlaylistCollection.setDeleted(
 
 | 需求 | 值 |
 |--------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 版本<br/> | 適用于 Windows XP 的 Windows Media Player 7.0 版、Windows Media Player 7.1 版或 Windows Media Player。 Windows Media Player 9 系列或更新版本不支援這個方法。<br/> |
+| 版本<br/> | Windows XP Windows Media Player 版本7.0、Windows Media Player 7.1 版或 Windows Media Player。 Windows Media Player 9 系列或更新版本不支援這個方法。<br/> |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl>                                                                                                              |
 
 

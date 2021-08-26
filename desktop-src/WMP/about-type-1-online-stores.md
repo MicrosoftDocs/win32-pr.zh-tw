@@ -9,21 +9,21 @@ keywords:
 - Windows Media Player，請輸入1個線上商店
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 10ecd939a03734fed121dcaa22c0d7ae89127476
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 35bc84311bb61c71fdcaf57b584b5c595a62be5c80d406f71ef36c8d1ad8e655
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "106968083"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119903058"
 ---
 # <a name="about-type-1-online-stores"></a>關於類型1線上商店
 
 > [!Note]  
 > 本章節描述專為線上商店使用而設計的功能。 不支援在線上商店的內容之外使用這項功能。
 
- 
+ 
 
-Microsoft Windows Media Player 11 支援兩種線上商店：類型1和類型2。 類型1存放區比類型2存放區更深層整合至 Windows Media Player。 Type 1 線上商店提供可下載的音樂類別目錄，讓 Windows Media Player 可以將商店的內容提供給使用者，就像內容是在使用者的本機媒體文件庫中一樣。
+Microsoft Windows Media Player 11 支援兩種線上商店：類型1和類型2。 類型1存放區比類型2存放區更深層整合至 Windows Media Player。 type 1 線上商店提供可下載的音樂類別目錄，讓 Windows Media Player 可以將商店的內容提供給使用者，就像內容是在使用者的本機媒體文件庫中一樣。
 
 類型1線上商店必須提供可實 [IWMPContentPartner](/previous-versions/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentpartner) 介面的外掛程式。 當使用者流覽 Windows Media Player 使用者介面時，播放程式會呼叫外掛程式，讓線上商店可以藉由提供顯示在播放程式中的網頁來增強使用者的體驗。
 
@@ -60,7 +60,7 @@ Microsoft Windows Media Player 11 支援兩種線上商店：類型1和類型2�
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -69,9 +69,9 @@ Microsoft Windows Media Player 11 支援兩種線上商店：類型1和類型2�
 [**輸入1個線上商店**](type-1-online-stores.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

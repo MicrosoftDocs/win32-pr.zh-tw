@@ -4,12 +4,12 @@ ms.assetid: 49c91c8c-6889-48c6-8fa5-84929c03d951
 title: '未壓縮的 RGB 影片子類型 (Dshow .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1f149786c32c0734492179e2d3e75e5a7d7df969
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: a8fc35faaa5b6a58a597bf8d563ded4a920b0a112f61a4858f32c1b61fa29966
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113119243"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120130978"
 ---
 # <a name="uncompressed-rgb-video-subtypes"></a>未壓縮的 RGB 影片子類型
 

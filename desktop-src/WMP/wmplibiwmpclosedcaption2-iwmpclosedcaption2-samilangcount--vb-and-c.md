@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ea01357de508dea319389cd14ab85ebafe0329e6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 23b85ce04bd672f0219b8dd96f91172241689a80042a37a7680e2f8e26b65c85
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106987837"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119899998"
 ---
 # <a name="iwmpclosedcaption2samilangcount-property"></a>IWMPClosedCaption2：： SAMILangCount 屬性
 

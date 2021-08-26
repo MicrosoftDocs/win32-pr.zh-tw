@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: c8b6952ff50dc2266655c58bd5c2e1ed13105598
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 4cdd7e26b0c08b154c6cffd08066e8ae841a6aa849db4751ffa0cdf252848719
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108095706"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120055948"
 ---
 # <a name="cdynamicoutputpindeliverendflush-method"></a>CDynamicOutputPin. DeliverEndFlush 方法
 

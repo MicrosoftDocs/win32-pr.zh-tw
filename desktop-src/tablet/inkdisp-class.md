@@ -15,12 +15,12 @@ api_type:
 api_location:
 - InkObj.dll
 - InkObj.dll.dll
-ms.openlocfilehash: e4214d6b03e5823bd5012017e418066763c8132c
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 928bda8af246b41bab2c285a5292155917ba8903c6dd71c20177dbf906c64924
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108109986"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119939158"
 ---
 # <a name="inkdisp-class"></a>InkDisp 類別
 
@@ -76,7 +76,7 @@ ms.locfileid: "108109986"
 | [**ClipboardCopy**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-clipboardcopy)                           | 將 [InkStrokes](/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)) 集合複製到剪貼簿。<br/>                                                                                                           |
 | [**ClipboardCopyWithRectangle**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-clipboardcopywithrectangle) | 將已知矩形內所包含的 [**IInkStrokeDisp**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp) 物件複製到剪貼簿。<br/>                                                               |
 | [**ClipboardPaste**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-clipboardpaste)                         | 將 [**IDataObject**](/windows/desktop/api/objidl/nn-objidl-idataobject) 從剪貼簿複製到 **InkDisp** 物件。<br/>                                                                                               |
-| [**克隆**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-clone)                                           | 建立重複的 **InkDisp** 物件。<br/>                                                                                                                                                   |
+| [**複製**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-clone)                                           | 建立重複的 **InkDisp** 物件。<br/>                                                                                                                                                   |
 | [**CreateStroke**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-createstroke)                             | 從點或封包資料建立筆劃。<br/>                                                                                                                                              |
 | [**CreateStrokes**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-createstrokes)                           | 建立這個 **InkDisp** 物件的 [InkStrokes](/previous-versions/windows/desktop/legacy/ms703293(v=vs.85))集合。<br/>                                                                                                |
 | [**DeleteStroke**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-deletestroke)                             | 從 **InkDisp** 物件中刪除筆劃。<br/>                                                                                                                                             |
@@ -101,7 +101,7 @@ ms.locfileid: "108109986"
 
 
 
-| 屬性                                                                           | 存取類型           | Description                                                                                                                             |
+| 屬性                                                                           | 存取類型           | 描述                                                                                                                             |
 |:-----------------------------------------------------------------------------------|:----------------------|:----------------------------------------------------------------------------------------------------------------------------------------|
 | [**CustomStrokes**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-get_customstrokes)<br/>                          | 唯讀<br/>  | 取得要與筆墨一起保存的 [**IInkCustomStrokes**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkcustomstrokes) 集合。<br/>                             |
 | [**髒**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-get_dirty)<br/>                                          | 讀取/寫入<br/> | 取得或設定值，這個值會指出自上一次儲存筆墨之後， **InkDisp** 物件是否已修改。<br/> |
@@ -117,7 +117,7 @@ ms.locfileid: "108109986"
 此物件可以透過在 c + + 中呼叫 [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) 方法來具現化。
 
 > [!Note]  
-> 這個物件的第一個具現化也會使 GDI + 具現化。 副作用是，如果您在迴圈中使用單一筆墨物件，並在迴圈中建立和終結它，您將會導致 GDI + 的具現化。 這可能會導致應用程式效能降低。 若要避免這種情況，請在應用程式使用筆墨時隨時保留筆墨物件的單一實例。
+> 這個物件的第一個具現化會導致 GDI+ 也會具現化。 副作用是，如果您在迴圈中使用單一筆墨物件，並在迴圈中建立和終結它，您將會導致 GDI+ 的具現化。 這可能會導致應用程式效能降低。 若要避免這種情況，請在應用程式使用筆墨時隨時保留筆墨物件的單一實例。
 
  
 
@@ -135,7 +135,7 @@ ms.locfileid: "108109986"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 Windows XP Tablet PC Edition \[ 桌面應用程式\]<br/>                                                       |
+| 最低支援的用戶端<br/> | Windows僅限 XP Tablet PC Edition \[ 桌面應用程式\]<br/>                                                       |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                                           |
 | 標頭<br/>                   | <dl> <dt>Msinkaut (也需要 Msinkaut \_ c) </dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>InkObj.dll</dt> </dl>                               |

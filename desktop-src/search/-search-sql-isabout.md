@@ -4,12 +4,12 @@ ms.assetid: e2629c4c-4b44-4427-ac1d-17f55fd969e3
 title: ISABOUT 字詞
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5665e7bf62da4858cf2e7d68e65d0f42771903d55e3189db12f19cdd5414530d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ee772bbd3be1f9ef3924989dfbaa2a9afd77d4a6
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118969607"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122627354"
 ---
 # <a name="isabout-term"></a>ISABOUT 字詞
 
@@ -47,9 +47,9 @@ ISABOUT 字詞可以有一或多個元件。 在 [CONTAINS](-search-sql-contains
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -65,7 +65,7 @@ ISABOUT 字詞可以有一或多個元件。 在 [CONTAINS](-search-sql-contains
 <td><span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -83,7 +83,7 @@ ISABOUT 字詞可以有一或多個元件。 在 [CONTAINS](-search-sql-contains
 <span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -102,7 +102,7 @@ ISABOUT 字詞可以有一或多個元件。 在 [CONTAINS](-search-sql-contains
 <span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">

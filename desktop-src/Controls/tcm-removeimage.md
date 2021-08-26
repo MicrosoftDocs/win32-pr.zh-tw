@@ -3,7 +3,7 @@ title: 'TCM_REMOVEIMAGE 訊息 (Commctrl .h) '
 description: 從索引標籤控制項的影像清單中移除影像。 您可以使用 TabCtrl RemoveImage 宏明確地傳送此訊息 \_ 。
 ms.assetid: f2761338-0afa-47d8-9d9c-1d5a4a7f7bcf
 keywords:
-- TCM_REMOVEIMAGE message Windows 控制項
+- TCM_REMOVEIMAGE 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6cbc51aa0efed847e39e735443c0d42e288bbaab
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 40d2305386f948e1dc4522124708b31ca360203ba9723241c99262fcdb5d2b20
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106965528"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120104838"
 ---
 # <a name="tcm_removeimage-message"></a>TCM \_ REMOVEIMAGE 訊息
 
@@ -53,8 +53,8 @@ ms.locfileid: "106965528"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

@@ -4,12 +4,12 @@ ms.assetid: 8f92873d-569a-48af-a913-6d4cce65640f
 title: 選取捕獲裝置
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b599728c6bd2d98b89285b6008923aa4fb2a3aef
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: e5bf92692070c8a0191a91559481d5446bf3d4d894c8e7f6aafc2ed9e73a6667
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106970885"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119904408"
 ---
 # <a name="selecting-a-capture-device"></a>選取捕獲裝置
 
@@ -20,7 +20,7 @@ ms.locfileid: "106970885"
 1.  呼叫 [**CoCreateInstance**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance) 以建立系統裝置列舉值的實例。
 2.  呼叫 [**ICreateDevEnum：： CreateClassEnumerator**](/windows/desktop/api/Strmif/nf-strmif-icreatedevenum-createclassenumerator) ，並將裝置類別指定為 GUID。 針對 capture 裝置，下列類別是相關的。 
 
-    | 類別 GUID                       | Description           |
+    | 類別 GUID                       | 描述           |
     |-------------------------------------|-----------------------|
     | **CLSID \_ AudioInputDeviceCategory** | 音訊捕獲裝置 |
     | **CLSID \_ VideoInputDeviceCategory** | 影片捕獲裝置 |
@@ -65,7 +65,7 @@ HRESULT EnumerateDevices(REFGUID category, IEnumMoniker **ppEnum)
 
 
 
-[**IEnumMoniker**](/windows/win32/api/objidl/nn-objidl-ienummoniker)介面會列舉 [**IMoniker**](/windows/win32/api/objidl/nn-objidl-imoniker)介面的清單，每個介面都代表一個裝置的標記。 應用程式可以從標記讀取屬性，或使用此標記來建立裝置的 DirectShow 捕獲篩選。 會以 **變異** 值的形式傳回「標記」屬性。 裝置的名字標記支援下列屬性。
+[**IEnumMoniker**](/windows/win32/api/objidl/nn-objidl-ienummoniker)介面會列舉 [**IMoniker**](/windows/win32/api/objidl/nn-objidl-imoniker)介面的清單，每個介面都代表一個裝置的標記。 應用程式可以從標記讀取屬性，或使用此標記來建立裝置的 DirectShow capture 篩選器。 會以 **變異** 值的形式傳回「標記」屬性。 裝置的名字標記支援下列屬性。
 
 
 
@@ -85,7 +85,7 @@ HRESULT EnumerateDevices(REFGUID category, IEnumMoniker **ppEnum)
 -   每個裝置都可以使用「FriendlyName」屬性。 它包含人們看得懂的裝置名稱。
 -   [描述] 屬性僅適用于 DV 和 D VHS/MPEG 攝像機裝置。 如需詳細資訊，請參閱 [MSDV 驅動程式](msdv-driver.md) 和 [MSTape 驅動程式](mstape-driver.md)。 如果有的話，它會包含裝置的描述，而該裝置的描述比 "FriendlyName" 屬性更明確。 通常會包含廠商名稱。
 -   "DevicePath" 屬性不是人們可讀取的字串，但在系統上的每個影片捕獲裝置保證都是唯一的。 您可以使用這個屬性來區別相同裝置模型的兩個或多個實例。
--   如果出現 "WaveInID" 屬性，則表示 DirectShow 捕獲篩選器會在內部使用 [波形音訊](../multimedia/waveform-audio.md) api 來與裝置通訊。 "WaveInID" 屬性的值會對應到 **waveIn \** _ 函式所使用的識別碼，例如 [_ *waveInOpen* *](/windows/win32/api/mmeapi/nf-mmeapi-waveinopen)。
+-   如果出現 "WaveInID" 屬性，則表示 DirectShow capture 篩選器會在內部使用[波形音訊](../multimedia/waveform-audio.md)api 來與裝置通訊。 "WaveInID" 屬性的值會對應到 **waveIn \** _ 函式所使用的識別碼，例如 [_ *waveInOpen* *](/windows/win32/api/mmeapi/nf-mmeapi-waveinopen)。
 
 若要從標記讀取屬性，請執行下列步驟。
 
@@ -174,7 +174,7 @@ void main()
 
 
 
-若要建立裝置的 DirectShow 捕獲篩選器，請呼叫 [**IMoniker：： BindToObject**](/windows/win32/api/objidl/nf-objidl-imoniker-bindtoobject) 方法來取得 [**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter) 指標。 然後呼叫 [**IFilterGraph：： AddFilter**](/windows/desktop/api/Strmif/nf-strmif-ifiltergraph-addfilter) ，將篩選新增至篩選圖形：
+若要建立裝置的 DirectShow capture 篩選器，請呼叫 [**IMoniker：： BindToObject**](/windows/win32/api/objidl/nf-objidl-imoniker-bindtoobject)方法來取得 [**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter)指標。 然後呼叫 [**IFilterGraph：： AddFilter**](/windows/desktop/api/Strmif/nf-strmif-ifiltergraph-addfilter) ，將篩選新增至篩選圖形：
 
 
 ```C++

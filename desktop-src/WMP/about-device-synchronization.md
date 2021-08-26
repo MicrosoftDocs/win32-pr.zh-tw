@@ -6,10 +6,10 @@ keywords:
 - Windows Media Player，同步處理裝置
 - Windows Media Player 物件模型，同步處理裝置
 - 物件模型，同步處理裝置
-- Windows Media Player ActiveX 控制項，同步處理裝置
-- ActiveX 控制項，同步處理裝置
-- Windows Media Player 的行動 ActiveX 控制項，同步處理裝置
-- Windows Media Player 行動裝置，同步處理裝置
+- Windows Media Player ActiveX 控制，同步處理裝置
+- ActiveX 控制，同步處理裝置
+- Windows Media Player行動 ActiveX 控制，同步處理裝置
+- Windows Media Player行動裝置，同步處理裝置
 - 正在同步處理裝置，關於
 - 裝置同步處理，關於
 - 同步處理裝置，手動轉移
@@ -18,12 +18,12 @@ keywords:
 - 裝置同步處理，自動同步處理
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f0ad6b6526698def2f7d58ec7afc04c8e22e89c7
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: eed6a03781121a58bee36fd9ff1f74bf21a85347f81384f30c2db5afb4ef3e1f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106967197"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119903558"
 ---
 # <a name="about-device-synchronization"></a>關於裝置同步處理
 
@@ -56,9 +56,9 @@ Windows Media Player 10 引進了新的模型，可將數位媒體內容與可�
 [**使用可攜式裝置**](working-with-portable-devices.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

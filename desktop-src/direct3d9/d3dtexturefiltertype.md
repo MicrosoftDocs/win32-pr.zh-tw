@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: bd6038e1b3d2b2f85e5766605583db9879427343
-ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
+ms.openlocfilehash: a9a55632ee1f1b8f2e40b1be1272411c7c24b3b18c576563ff9c0de7c79bc413
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "110343003"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120069368"
 ---
 # <a name="d3dtexturefiltertype-enumeration"></a>D3DTEXTUREFILTERTYPE 列舉
 

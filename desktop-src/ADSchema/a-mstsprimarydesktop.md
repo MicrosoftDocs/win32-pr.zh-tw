@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fd73430e120b2d44d7fe037a2736469fe0771f94
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 51b050e44f4dfa32973ddb8773eda0672919df2ddbfef0ca77a5303e140a123d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103935383"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120066069"
 ---
 # <a name="ms-ts-primary-desktop-attribute"></a>ms-TS-主要-桌面屬性
 
@@ -54,7 +54,7 @@ ms.locfileid: "103935383"
 | 連結識別碼                | 2170                              |
 | MAPI-Id                | \-                                |
 | System-Only            | 否                             |
-| 是-單一值       | 對                              |
+| 是-單一值       | 是                              |
 | 已編制索引             | 否                             |
 | 在通用類別目錄中      | 否                             |
 | NT-Security-描述元 | O:BAG：不正確： S：                      |
@@ -62,7 +62,7 @@ ms.locfileid: "103935383"
 | Range-Upper            | \-                                |
 | Search-Flags           | 0x00000000                        |
 | System-Flags           | 0x00000010                        |
-| 中使用的類別        | [**User**](c-user.md)<br/> |
+| 中使用的類別        | [**使用者**](c-user.md)<br/> |
 
 
 
@@ -75,7 +75,7 @@ ms.locfileid: "103935383"
 | 連結識別碼                | 2170                              |
 | MAPI-Id                | \-                                |
 | System-Only            | 否                             |
-| 是-單一值       | 對                              |
+| 是-單一值       | 是                              |
 | 已編制索引             | 否                             |
 | 在通用類別目錄中      | 否                             |
 | NT-Security-描述元 | O:BAG：不正確： S：                      |

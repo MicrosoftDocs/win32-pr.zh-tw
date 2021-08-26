@@ -4,18 +4,18 @@ ms.assetid: 53e782a2-0fab-46b4-b029-20017d9905bd
 title: 時間軸模型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ac01f90e8ca827bde41f2ad36e1ab32b3d429437
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 67e5eeb60dce31fa466a518476bb3da341a3d2fda4fdeaa47ca58a89a904dded
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104558118"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119903804"
 ---
 # <a name="the-timeline-model"></a>時間軸模型
 
 \[此 API 不受支援，而且可能會在未來變更或無法使用。\]
 
-*時間軸* 是一種物件，可 [DirectShow 編輯服務](directshow-editing-services.md) (DES) 用來代表影片編輯專案。 編輯專案會以來源剪輯集合的形式啟動，其取自影片檔案、音效檔或仍為影像檔案。 剪輯的線性序列會形成 *軌跡*。在 [DirectShow 編輯服務 (DES) 中，音訊和影片都會放在不同的曲目中。
+*時間軸* 是一種物件，可 [DirectShow 編輯](directshow-editing-services.md) (DES) 用來代表影片編輯專案的服務。 編輯專案會以來源剪輯集合的形式啟動，其取自影片檔案、音效檔或仍為影像檔案。 剪輯的線性序列會形成 *軌跡*。在 DirectShow 編輯服務 (DES) 中，音訊和影片都會放在不同的曲目中。
 
 曲目也可以分層。 多個音訊曲目會混合在一起，而且可能包含音訊效果，例如淡化或回音。 使用多個影片曲目來建立轉換。 例如，您可以建立從一個剪輯到另一個剪輯的抹除。 另一個範例是色度鍵，其中一個剪輯的背景會以不同的播放軌來進行索引。 (satelite 影像前面的氣象預測器是一種色度加密範例。 ) 
 

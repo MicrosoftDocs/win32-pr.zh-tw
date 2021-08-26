@@ -4,12 +4,12 @@ ms.assetid: e9ce25aa-4fb1-4357-9f4e-5bf649e29447
 title: 使用 COM + 系統管理目錄的簡介範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: db24f3985538b7189534c9fef3ef279ed240e3a1
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 5bfd085cbe9a829a1248ddf36057c9d9f79de9d576236a2621b237063340cf95
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971973"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120070588"
 ---
 # <a name="introductory-example-using-the-com-administration-catalog"></a>使用 COM + 系統管理目錄的簡介範例
 
@@ -35,7 +35,7 @@ ms.locfileid: "106971973"
 6.  開啟安全性屬性，讓應用程式能夠執行角色檢查。
 7.  將 MyHomeZoo 應用程式匯出到檔案，使其可以安裝在其他電腦上。
 
-若要從 Visual Basic 使用此範例，請將參考新增至 COM + 系統管理員類型程式庫。
+若要從 Visual Basic 使用此範例，請將參考新增至 com + 系統管理員類型程式庫。
 
 
 ```VB

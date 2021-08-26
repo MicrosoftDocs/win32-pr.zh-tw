@@ -28,12 +28,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 81f047cd69bca668a5eae2b5147d8c0a137011e0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 43cabd8057e9c5c5546d8b38b6e819cccace74a351be30486a1e5e5f578ec09d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104026839"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120016008"
 ---
 # <a name="movegrbit-enumeration"></a>MoveGrbit 列舉
 
