@@ -4,12 +4,12 @@ ms.assetid: abe0798a-0b60-4bdb-a61e-45393f1e958d
 title: 執行緒集區
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 690aa3eb6fd3ce7a99d71e0f57118529ef79113f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d7918a0f6f0b881233ebea8e664d6e743a7bff105e265270063b08af313417e7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106985180"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120081258"
 ---
 # <a name="thread-pools"></a>執行緒集區
 

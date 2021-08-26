@@ -4,12 +4,12 @@ ms.assetid: 9531947d-4cd8-43c3-8825-4c48a0d69395
 title: 設定 (Direct3D 9) 的陰影模式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 62f93d79e4507d9e9d08569e5cbd75bb8b42aa4f
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 769908513d4388fafae73f5a6788aef37c3ac9456a00f2e3280c57e04c18b462
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104467782"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120068958"
 ---
 # <a name="setting-the-shading-mode-direct3d-9"></a>設定 (Direct3D 9) 的陰影模式
 

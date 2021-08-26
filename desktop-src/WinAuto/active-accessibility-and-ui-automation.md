@@ -4,16 +4,16 @@ description: Microsoft Active Accessibility 是專為搭配 Windows XP 和舊版
 ms.assetid: 8eb36d2c-0c2f-4311-8690-52ce070c9f33
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e2483f4f6679926ef2f87c380d4ac0febcc88652
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 49fa4c06d528281552c47b987a07fba416376b3291f40315770ed98be944554e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106966414"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120071908"
 ---
 # <a name="active-accessibility-and-ui-automation"></a>Active Accessibility 和消費者介面自動化
 
-Microsoft Active Accessibility 是專為搭配 Windows XP 和舊版作業系統使用所設計。 適用于 Windows XP 和 Windows Vista 的自訂控制項和可存取技術用戶端應用程式的開發人員，應該考慮改為使用 Microsoft [消費者介面自動化](entry-uiauto-win32.md) 。
+Microsoft Active Accessibility 是專為搭配 Windows XP 和舊版作業系統使用所設計。 針對 Windows XP 和 Windows Vista 的自訂控制項和可存取技術用戶端應用程式的開發人員，應該考慮改為使用 Microsoft[消費者介面自動化](entry-uiauto-win32.md)。
 
 Microsoft 消費者介面自動化是一種功能完整的系統，可提供更精確的使用者介面相關資訊，並讓使用者更能夠與控制項互動。 尤其是，它提供大幅增強的文字支援。
 
@@ -36,9 +36,9 @@ Microsoft Active Accessibility 的用戶端會透過橋接層存取有限的 UI 
 [使用者介面自動化](entry-uiauto-win32.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

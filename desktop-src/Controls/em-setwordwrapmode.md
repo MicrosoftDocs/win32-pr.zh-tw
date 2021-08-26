@@ -3,7 +3,7 @@ title: 'EM_SETWORDWRAPMODE 訊息 (Richedit .h) '
 description: 設定 rich edit 控制項的自動換行和斷字選項。
 ms.assetid: 43703ac8-6ae5-470b-9156-e60330ef97c4
 keywords:
-- EM_SETWORDWRAPMODE message Windows 控制項
+- EM_SETWORDWRAPMODE 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cf1dc6f064f52bf2a5f58c71db099f38b9350e63
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a0b5c750bb83f4f3fb0c1acfc82b67677c36094df461d10787186177fc891df2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104025209"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120047978"
 ---
 # <a name="em_setwordwrapmode-message"></a>EM \_ SETWORDWRAPMODE 訊息
 
@@ -77,8 +77,8 @@ ms.locfileid: "104025209"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Richedit。h</dt> </dl> |
 
 

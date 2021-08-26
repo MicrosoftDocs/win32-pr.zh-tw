@@ -4,12 +4,12 @@ ms.assetid: f9e40a86-a4a6-4524-8045-312da72dc655
 title: 永久連結和接合
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7b8d1444db977dd95419e4cb004d2b3cb811da9f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 376ed8b3bbe163d2bad4b8c51715537e194633f02ec200ceb5df02df7d582ae3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106987359"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120107447"
 ---
 # <a name="hard-links-and-junctions"></a>永久連結和接合
 

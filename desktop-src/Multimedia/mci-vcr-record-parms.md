@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4089b6b7977959b5eb0d0ac60dd4e612b17b823d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e1b613c2b64bae1395b3fc402816145c0ef690801b9fd6402201198f7ff28a6d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106968149"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120038228"
 ---
 # <a name="mci_vcr_record_parms-structure"></a>MCI \_ VCR \_ 記錄 \_ PARMS 結構
 
@@ -93,7 +93,7 @@ typedef struct tagMCI_VCR_RECORD_PARMS {
 
 <dl> <dt>
 
-[**Mci**](mci.md)
+[**MCI**](mci.md)
 </dt> <dt>
 
 [**MCI 結構**](mci-structures.md)

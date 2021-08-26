@@ -11,12 +11,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 143633fbc983a4ff828c3406b5015995b4bc7842
-ms.sourcegitcommit: 40dd8501397fc79a643deb528c6c57ac2e9726ce
+ms.openlocfilehash: 7b03744b864aea8903cb77482d2ce377186266be5ad160c2c037f996d7b5ed91
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/24/2020
-ms.locfileid: "104092503"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120080368"
 ---
 # <a name="task-scheduler-schema"></a>工作排程器架構
 
@@ -695,9 +695,9 @@ ms.locfileid: "104092503"
 
 
 
- 
+ 
 
- 
+ 
 
 
 

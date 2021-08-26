@@ -4,12 +4,12 @@ ms.assetid: e75b6bb7-cf21-4e25-80a5-3b35f7ed0d0e
 title: 從提供的 NPP BLOB 資料表選取 NIC
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ce0215ca258c02745a7e5b4c285d6bf7df98a49e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ba6e2dfed9f0f03d5b2b15e7d7377cb0d3fcc00391f6deb2786c0786a2287333
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106986863"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120074441"
 ---
 # <a name="selecting-a-nic-from-a-supplied-npp-blob-table"></a>從提供的 NPP BLOB 資料表選取 NIC
 

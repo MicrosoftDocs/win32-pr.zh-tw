@@ -4,16 +4,16 @@ ms.assetid: 4dd57202-f4de-40d9-b720-efaba8a60a7c
 title: DV Muxer 濾波器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 013251f2f9c1946aaa0f7b3c95edfd2de81c4d78
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: d6ad8189d7430a150c6860ef9e390a0e66aabd00971b56197ffe8651cde8967b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107908596"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120102968"
 ---
 # <a name="dv-muxer-filter"></a>DV Muxer 濾波器
 
-此篩選器結合數位視訊 (DV) 編碼的影片串流與一或兩個音訊串流，以產生交錯的 DV 串流。 若要將資料流程寫入 AVI 檔案，請將此篩選連接到 [Avi mux](avi-mux-filter.md) 篩選器，並將 *AVI mux* 連接至檔案 [寫入](file-writer-filter.md) 器篩選器。 如需詳細資訊，請參閱 [DirectShow 中的數位視訊](digital-video-in-directshow.md)。
+此篩選器結合數位視訊 (DV) 編碼的影片串流與一或兩個音訊串流，以產生交錯的 DV 串流。 若要將資料流程寫入 AVI 檔案，請將此篩選連接到 [Avi mux](avi-mux-filter.md) 篩選器，並將 *AVI mux* 連接至檔案 [寫入](file-writer-filter.md) 器篩選器。 如需詳細資訊，請參閱[DirectShow 中的數位視訊](digital-video-in-directshow.md)。
 
 
 
@@ -188,7 +188,7 @@ SD 2 通道
 
 藉由連接並中斷連接音訊 pin 1，就可以達到不允許的格式。 在此情況下，篩選的 [**IMediaFilter：:P ause**](/windows/desktop/api/Strmif/nf-strmif-imediafilter-pause) 方法會傳回 VFW \_ E \_ 未 \_ 連接。 這項限制可防止第一個音訊區塊沒有音訊，但第二個音訊區塊有音訊的情況。 第二個區塊只有在第一個區塊也有音訊時，才應該有音訊。
 
-DV Muxer 不允許具有不同取樣率的音訊輸入。 不過，圖形建立方法（例如 [**IGraphBuilder：： Connect**](/windows/desktop/api/Strmif/nf-strmif-igraphbuilder-connect) ）通常會新增「高階 [包裝](acm-wrapper-filter.md) 函式」篩選器，這會將第二個音訊串流轉換成符合第一個資料流程的取樣率。
+DV Muxer 不允許具有不同取樣率的音訊輸入。 不過，圖形建立方法（例如 [**IGraphBuilder：：連線**](/windows/desktop/api/Strmif/nf-strmif-igraphbuilder-connect)）通常會新增 [高階 [包裝](acm-wrapper-filter.md)函式] 篩選器，這會將第二個音訊串流轉換成符合第一個資料流程的取樣率。
 
 如果音訊輸入是 48 kHz 或 32 kHz，音訊輸出會被鎖定。  (不能鎖定 44.1-kHz 音訊。 ) 
 
@@ -198,7 +198,7 @@ DV Muxer 不允許具有不同取樣率的音訊輸入。 不過，圖形建立�
 
 <dl> <dt>
 
-[DirectShow 篩選](directshow-filters.md)
+[DirectShow過濾 器](directshow-filters.md)
 </dt> <dt>
 
 [DirectShow 中的數位視訊](digital-video-in-directshow.md)

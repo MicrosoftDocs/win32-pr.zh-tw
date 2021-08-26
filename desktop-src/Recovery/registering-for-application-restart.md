@@ -4,12 +4,12 @@ description: 若要註冊要重新開機的應用程式，請呼叫 RegisterAppl
 ms.assetid: 4dfbced7-77db-4042-823f-b4b81b2b27a6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 717f8984f26570284a70b40eef70a9d6f753d66a
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: fe5777d3ed6b99d421f7eba6b5b104b92a1c2c71462c675b2573f18da0ba69f3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104186085"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120024568"
 ---
 # <a name="registering-for-application-restart"></a>註冊應用程式重新開機
 
@@ -19,7 +19,7 @@ ms.locfileid: "104186085"
 
 復原程式完成之後，WER 會終止應用程式，然後重新開機應用程式。 若為主控台應用程式，應用程式會在應用程式結束時關閉的另一個主控台視窗中啟動。
 
-**請注意應用程式安裝程式的作者：** 註冊應用程式重新開機也會導致 Windows 在電腦重新開機後，在電腦因軟體更新而重新開機的情況下自動重新開機應用程式。 若要這樣做，應用程式的安裝程式必須使用 EWX [](/windows/desktop/api/winuser/nf-winuser-exitwindowsex) \_ RESTARTAPPS 旗標集或 [**InitiateShutdown**](/windows/desktop/api/winreg/nf-winreg-initiateshutdowna)函式（已設定 SHUTDOWN RESTARTAPPS 旗標）來呼叫 ExitWindowsEx 函數 \_ 。
+**請注意應用程式安裝程式的作者：** 註冊應用程式重新開機也會導致 Windows 在電腦因軟體更新而重新開機時，自動重新開機應用程式。 若要這樣做，應用程式的安裝程式必須使用 EWX [](/windows/desktop/api/winuser/nf-winuser-exitwindowsex) \_ RESTARTAPPS 旗標集或 [**InitiateShutdown**](/windows/desktop/api/winreg/nf-winreg-initiateshutdowna)函式（已設定 SHUTDOWN RESTARTAPPS 旗標）來呼叫 ExitWindowsEx 函數 \_ 。
 
 下列範例示範如何註冊，讓 WER 重新開機應用程式。 在註冊應用程式重新開機之後，此範例會造成存取違規。 Windows 錯誤報告會挑選存取違規，並示範錯誤報表使用者體驗，包括應用程式重新開機。 它應該從沒有命令列引數的主控台視窗中執行。
 
@@ -240,6 +240,6 @@ cleanup:
 
 
 
- 
+ 
 
- 
+ 

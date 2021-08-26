@@ -4,12 +4,12 @@ description: 如果通訊中斷時，伺服器會代表用戶端維護內容，�
 ms.assetid: b39654e4-6f03-43a0-8a5d-6f24bd0a529c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 73ad8afb7f698a258d7c4403143e74d566f813a5
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ef3bab4477555e5a304627d026c7471874af50daceb9fe3e4484928c290a55d6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021893"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120035488"
 ---
 # <a name="server-context-run-down-routine"></a>伺服器內容執行例行常式
 
@@ -39,9 +39,9 @@ void __RPC_USER PCONTEXT_HANDLE_TYPE_rundown(
 }
 ```
 
- 
+ 
 
- 
+ 
 
 
 

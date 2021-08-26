@@ -6,12 +6,12 @@ keywords:
 - 工作排程器工作排程器，關於
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6022546550efe32504dd0a3d12c94163e78214f6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: dca865fe98ffb56f2bb6e9310e31d38bdaa804a63da07e486bbc89a0cd9ebcdf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106965593"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120072708"
 ---
 # <a name="about-the-task-scheduler"></a>關於工作排程器
 
@@ -21,9 +21,9 @@ ms.locfileid: "106965593"
 
 系統會自動安裝數個 Microsoft 作業系統的工作排程器。
 
-工作排程器1.0 安裝于 Windows Server 2003、Windows XP 及 Windows 2000 作業系統中。
+工作排程器1.0 與 Windows Server 2003、Windows XP 和 Windows 2000 作業系統一起安裝。
 
-Windows Vista 和 Windows Server 2008 安裝了工作排程器2.0。
+工作排程器2.0 與 Windows Vista 和 Windows Server 2008 一起安裝。
 
 工作排程器 2.0 API 應該用於開發在 Windows Vista 上使用工作排程器服務的應用程式。 如需詳細資訊，請參閱 [工作排程器參考](task-scheduler-reference.md)。
 
@@ -51,9 +51,9 @@ Windows Vista 和 Windows Server 2008 安裝了工作排程器2.0。
 [工作排程器](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

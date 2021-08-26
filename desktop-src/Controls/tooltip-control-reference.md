@@ -4,12 +4,12 @@ description: 本章節包含與工具提示控制項搭配使用之程式設計�
 ms.assetid: vs|controls|~\controls\tooltip\reflist.htm
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 228f7a0b40e934342081d73a24a612c9631e39bd
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b30ebe66569ede133c311168d3f3f2870dc3aeabe8eaeaa3e15d6584be2d6873
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104183470"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120046038"
 ---
 # <a name="tooltip"></a>工具提示
 

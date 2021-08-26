@@ -3,7 +3,7 @@ title: 'LVM_ARRANGE 訊息 (Commctrl .h) '
 description: 在圖示視圖中排列專案。 您可以明確地傳送此訊息，或使用 ListView \_ 排列宏來傳送。
 ms.assetid: f7dbcdd2-3cc9-4bae-827e-8bac3b49486c
 keywords:
-- LVM_ARRANGE message Windows 控制項
+- LVM_ARRANGE 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a1b6a081cf963a649329951358ea4c972f200f5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 98d7e3595c276815af8708a54d6e81c2a40192d8d07e6cbce514481723799d04
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104093859"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120062648"
 ---
 # <a name="lvm_arrange-message"></a>LVM \_ 排列訊息
 
@@ -66,8 +66,8 @@ ms.locfileid: "104093859"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

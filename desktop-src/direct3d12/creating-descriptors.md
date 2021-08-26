@@ -5,12 +5,12 @@ ms.assetid: 0D360A7C-8A2F-49E1-A5CC-98C958B59D1C
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aac9aab5dde0f5ca0864fcc1627ade984c6b6ccf
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 915cf1d92165f6d802bf4e8698180675a3edb32bd77da0510f4d9b52d6e044b1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104548389"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120069708"
 ---
 # <a name="creating-descriptors"></a>建立描述項
 
@@ -50,7 +50,7 @@ typedef struct D3D12_INDEX_BUFFER_VIEW
 
 最後呼叫 [**ID3D12GraphicsCommandList：： IASetIndexBuffer**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-iasetindexbuffer)。
 
-例如，
+例如
 
 
 ```C++
@@ -80,7 +80,7 @@ typedef struct D3D12_VERTEX_BUFFER_VIEW {
 
 Stride 通常是單一頂點資料結構的大小，例如 `sizeof(Vertex);` ，然後呼叫 [**ID3D12GraphicsCommandList：： IASetVertexBuffers**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-iasetvertexbuffers)。
 
-例如，
+例如
 
 
 ```C++
@@ -138,7 +138,7 @@ typedef struct D3D12_SHADER_RESOURCE_VIEW_DESC
 
 最後，若要建立著色器資源檢視，請呼叫 [**ID3D12Device：： CreateShaderResourceView**](/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createshaderresourceview)。
 
-例如，
+例如
 
 
 ```C++
@@ -168,7 +168,7 @@ typedef struct D3D12_CONSTANT_BUFFER_VIEW_DESC {
 
 然後呼叫 [**ID3D12Device：： CreateConstantBufferView**](/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createconstantbufferview)。
 
-例如，
+例如
 
 
 ```C++
@@ -211,7 +211,7 @@ typedef struct D3D12_SAMPLER_DESC
 
 最後，呼叫 [**ID3D12Device：： CreateSampler**](/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createsampler)。
 
-例如，
+例如
 
 
 ```C++
@@ -269,7 +269,7 @@ typedef struct D3D12_UNORDERED_ACCESS_VIEW_DESC
 
 最後呼叫 [**ID3D12Device：： CreateUnorderedAccessView**](/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createunorderedaccessview)。
 
-例如，
+例如
 
 
 ```C++
@@ -382,7 +382,7 @@ typedef struct D3D12_RENDER_TARGET_VIEW_DESC
 
 最後，呼叫 [**ID3D12Device：： CreateRenderTargetView**](/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createrendertargetview)。
 
-例如，
+例如
 
 ```C++
 // Create descriptor heaps.
@@ -448,7 +448,7 @@ typedef struct D3D12_DEPTH_STENCIL_VIEW_DESC
 
 最後，呼叫 [**ID3D12Device：： CreateDepthStencilView**](/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createdepthstencilview)。
 
-例如，
+例如
 
 
 ```C++
@@ -489,6 +489,6 @@ typedef struct D3D12_DEPTH_STENCIL_VIEW_DESC
 [描述元堆積](descriptor-heaps.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

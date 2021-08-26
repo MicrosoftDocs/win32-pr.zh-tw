@@ -4,16 +4,16 @@ ms.assetid: 436933c7-6e5d-4b4e-9147-c60a26871dbe
 title: 撰寫合併模組檔案資料表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8e2687ed69c1a0362f96db896a5fdf4237ac4681
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 715fe570a96015f62e45b0c2924b2a83be8eefc067e5d054decd59110b7797c2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026642"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120045468"
 ---
 # <a name="authoring-merge-module-file-tables"></a>撰寫合併模組檔案資料表
 
-每個合併模組都必須要有一個檔案 [資料表](file-table.md) ，而且每個檔案的記錄都應該由合併模組傳遞至目標安裝套件。 合併模組合併為 .msi 檔案時，合併模組檔案資料表中的每個檔案都會儲存在 .msm 檔案的封 [*包*](c-gly.md) 檔中。 合併模組中的封包名稱一律如下： MergeModule.CABinet。
+每個合併模組都必須要有一個檔案 [資料表](file-table.md) ，而且每個檔案的記錄都應該由合併模組傳遞至目標安裝套件。 合併模組合併到 .msi 檔案時，合併模組檔案資料表中的每個檔案都會儲存在 .msm 檔案的封 [*包*](c-gly.md) 檔中。 合併模組中的封包名稱一律如下： MergeModule.CABinet。
 
 如需詳細資訊，請參閱 [產生 MergeModule.CABinet 封包](generating-mergemodule-cabinet-cabinet-files.md)檔。
 

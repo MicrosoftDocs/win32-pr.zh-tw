@@ -3,7 +3,7 @@ title: 'TB_SETSTYLE 訊息 (Commctrl .h) '
 description: 設定工具列控制項的樣式。
 ms.assetid: a1056136-e027-4ce4-b348-2d912a3ab467
 keywords:
-- TB_SETSTYLE message Windows 控制項
+- TB_SETSTYLE 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 00c49a4239d131f1fe54a73e79beea8f32108681
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 70974f6ae4291da3b6a4b93b66b14f46a7933dd49a2594b935c15f93c80e4cbf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104106584"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120061238"
 ---
 # <a name="tb_setstyle-message"></a>TB \_ >setstyle 訊息
 
@@ -49,8 +49,8 @@ ms.locfileid: "104106584"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

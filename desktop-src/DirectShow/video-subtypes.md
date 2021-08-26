@@ -4,12 +4,12 @@ ms.assetid: 122beb40-410b-4f97-a09d-3d6278846a15
 title: 影片子類型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6b89303463a9f180fbafa7e61c614849999afb1c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0edc964a2227db01711f4533cb07b2898d20cd683bc1b42d1800b2bda7a8ae49
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106983717"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120078528"
 ---
 # <a name="video-subtypes"></a>影片子類型
 

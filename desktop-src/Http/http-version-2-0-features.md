@@ -7,12 +7,12 @@ keywords:
 - 功能，HTTP 伺服器版本 2.0 API
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 62320ffa4a8ca4609ad0235196b3d20c47d83075
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b51d728bc9b5b685c079321f493ed1391fa22d206961d5fcd817598caa5289e3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103675104"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120047238"
 ---
 # <a name="http-version-20-features"></a>HTTP 版本2.0 功能
 
@@ -29,14 +29,14 @@ ms.locfileid: "103675104"
 -   正常關機要求佇列
 -   要求佇列上的要求開始
 -   連接埠共用
--   適用于 Windows 的事件追蹤支援
+-   Windows 支援的事件追蹤
 -   效能計數器
 -    (IDN) 支援的國際化功能變數名稱
 -   Net shell 設定公用程式
 
- 
+ 
 
- 
+ 
 
 
 

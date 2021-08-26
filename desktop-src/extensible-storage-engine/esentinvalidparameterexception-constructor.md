@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: ff0cdd14738d1571c1a5e9b45ebbde5f4a349c93
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 50bda9a630ea89c603c7ce9a7ea9e88aaaa3f962ba14096414b6294d2571105f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106998349"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120064528"
 ---
 # <a name="esentinvalidparameterexception-constructor"></a>EsentInvalidParameterException 函式
 

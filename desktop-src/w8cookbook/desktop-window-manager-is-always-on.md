@@ -4,46 +4,46 @@ description: 桌面視窗管理員一律開啟
 ms.assetid: 36E2DD1B-E480-47A9-850B-3057119641C0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f855635615dee734b9a719d4e51d3ead663d144e
-ms.sourcegitcommit: ea4baf9953a78d2d6bd530b680601e39f3884541
+ms.openlocfilehash: b256b4270ab0bbeba588a4beff9bd1bd2bbe1c8166b40cd527f8b48a4f897df0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "104316591"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120057358"
 ---
 # <a name="desktop-window-manager-is-always-on"></a>桌面視窗管理員一律開啟
 
 ## <a name="platforms"></a>平台
 
-**用戶端** – Windows 8  
-**伺服器** – Windows Server 2012  
+**用戶端**– Windows 8  
+**伺服器**– Windows Server 2012  
 
 
-## <a name="description"></a>Description
+## <a name="description"></a>描述
 
-在 Windows 8 中，桌面視窗管理員 (DWM) 一律為開啟狀態，且使用者和應用程式無法停用。 在 Windows 7 中，會使用 DWM 來撰寫桌面。 除了在 Windows 7 中啟用的經驗之外，現在 DWM 桌面組合還可讓所有主題的桌面電腦群組合、支援3D 立體視覺，以及管理、隔離和保護 Windows Store 應用程式的體驗。
+在 Windows 8 中，桌面視窗管理員 (DWM) 一律為開啟狀態，且使用者和應用程式無法停用。 如同 Windows 7，DWM 用來撰寫桌面。 除了 Windows 7 中啟用的體驗之外，現在 DWM 桌面組合還可讓所有主題的桌面電腦群組合、支援3D 立體視覺，以及管理、隔離和保護 Windows Store 應用程式的體驗。
 
 **所有主題的桌面組合**
 
-在 Windows Vista 和 Windows 7 中，只會使用 AERO 半透明主題來啟用桌面組合。 因此，Windows 傳統和高對比主題的使用者無法使用桌面組合啟用的體驗，例如 Windows Flip、高解析度的自動調整 (DPI) 調整、縮圖預覽和全螢幕放大鏡。 此外，在這些舊版的 Windows 中，應用程式開發人員必須撰寫和維護多個程式碼路徑–一個是啟用桌面電腦群組合，另一個則停用桌面電腦群組合。
+在 Windows Vista 和 Windows 7 中，只會使用 AERO 半透明主題來啟用桌面電腦群組合。 因此，Windows 傳統和高對比主題的使用者無法使用桌面電腦群組合啟用的體驗，例如 Windows Flip、高解析度的自動縮放 (DPI) 縮放、縮圖預覽和全螢幕放大鏡。 此外，在這些舊版的 Windows 中，應用程式開發人員必須撰寫和維護多個程式碼路徑–一個是啟用桌面電腦群組合，另一個則停用桌面電腦群組合。
 
-使用 Windows 8 時，會為所有主題啟用桌面電腦群組合。 Windows 傳統和高對比主題的使用者可以使用桌面電腦群組合啟用的體驗，例如 Windows Flip、高解析度的自動調整 (DPI) 調整、縮圖預覽，以及全螢幕放大鏡。 此外，開發人員不需要撰寫和維護多個程式碼路徑，進而簡化開發。
+使用 Windows 8 時，會為所有主題啟用桌面電腦群組合。 Windows 傳統和高對比主題的使用者可以使用桌面組合啟用的體驗，例如 Windows Flip、高解析度的自動縮放 (DPI) 縮放、縮圖預覽，以及全螢幕放大鏡。 此外，開發人員不需要撰寫和維護多個程式碼路徑，進而簡化開發。
 
 **支援 stereoscopic 3D**
 
 DWM 桌面組合支援轉譯和呈現視窗化和全螢幕 stereoscopic 3D 應用程式內容。
 
-**管理、隔離和保護 Windows Store 應用程式的體驗**
+**使用 Windows Store 應用程式來管理、隔離和保護體驗**
 
-DWM 桌面電腦群組合可讓您從 Windows Store 應用程式視窗管理和分隔桌面應用程式視窗，以從新的 Windows Store 應用程式視窗區隔和保護傳統型應用程式視窗。 由於桌面電腦群組合負責管理所有的應用程式視窗，因此停用桌面組合可能會導致非預期的行為。 此外，桌面電腦群組合負責撰寫新的 [開始] 功能表，以及構成新 Windows 作業系統核心特性的其他視窗動畫。
+DWM 桌面組合可讓您從新的 Windows 存放區應用程式視窗，藉由從 Windows store 應用程式視窗管理和分隔桌面應用程式視窗，來區隔和保護傳統型應用程式視窗。 由於桌面電腦群組合負責管理所有的應用程式視窗，因此停用桌面組合可能會導致非預期的行為。 此外，桌面電腦群組合負責撰寫新的 [開始] 功能表以及構成新 Windows 作業系統核心特性的其他視窗動畫。
 
 ## <a name="controlling-desktop-composition"></a>控制桌面電腦群組合
 
-在 Windows Vista 和 Windows 7 中，桌面電腦群組合在許多案例中都已停用。 在 Windows 8 中，DWM 桌面組合是核心作業系統元件，無法停用。 但有一些例外狀況，桌面電腦群組合永遠開啟;它會在使用者登入之前啟動，並在會話持續期間維持使用中狀態。 本節說明 Windows 8 如何在 Windows 7 中停用桌面電腦群組合的案例。
+在 Windows Vista 和 Windows 7 中，桌面電腦群組合在許多案例中都是停用的。 在 Windows 8 中，DWM 桌面組合是核心作業系統元件，無法停用。 但有一些例外狀況，桌面電腦群組合永遠開啟;它會在使用者登入之前啟動，並在會話持續期間維持使用中狀態。 本節說明 Windows 8 如何處理在 Windows 7 中停用桌面電腦群組合的案例。
 
 **伺服器 SKU 和特定用戶端 Sku**
 
-在 Windows 8 中，所有伺服器和用戶端 Sku 都會啟用桌面組合。 這樣可確保伺服器管理員和使用者可以受益于桌面電腦群組合所啟用的體驗。
+在 Windows 8 中，所有伺服器和用戶端 sku 都會啟用桌面組合。 這樣可確保伺服器管理員和使用者可以受益于桌面電腦群組合所啟用的體驗。
 
 **桌面撰寫的基本需求**
 
@@ -91,7 +91,7 @@ Microsoft 基本顯示器介面卡是使用 CPU 而不是 GPU 來執行所有繪
 
 **遠端桌面連線**
 
-在 Windows 8 中，一律會啟用遠端桌面連線的桌面組合。 連接到 Windows 8 遠端電腦的用戶端電腦一律會啟用遠端桌面會話的桌面電腦群組合，而不考慮 Windows 用戶端版本。 用戶端電腦上的多個監視器以及遠端應用程式會話都支援桌面電腦群組合。
+在 Windows 8 中，一律會啟用遠端桌面連線的桌面組合。 連接到 Windows 8 遠端電腦的用戶端電腦一律會啟用遠端桌面會話的桌面電腦群組合，而不管 Windows 用戶端版本。 用戶端電腦上的多個監視器以及遠端應用程式會話都支援桌面電腦群組合。
 
 此外，連接到 Windows 8 遠端電腦時，遠端桌面連線用戶端中的這些設定將不會生效：
 
@@ -100,9 +100,9 @@ Microsoft 基本顯示器介面卡是使用 CPU 而不是 GPU 來執行所有繪
 
 連接的色彩深度一律設定為每圖元32位，且桌面組合一律為啟用狀態。
 
- 
+ 
 
- 
+ 
 
 
 

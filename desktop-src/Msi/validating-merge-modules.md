@@ -4,12 +4,12 @@ ms.assetid: 8d6794af-403a-416e-8ace-1af3f193414b
 title: 驗證合併模組
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d8bbe7f1c1ea32baa39cadd7c729f3a8ca3ac17
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: af5a226f72e35ce4ee76599444e86ef80bd71a8866ca80eef2a5da04a87fb79a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113825"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119995797"
 ---
 # <a name="validating-merge-modules"></a>驗證合併模組
 

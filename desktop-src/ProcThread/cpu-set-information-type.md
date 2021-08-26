@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Processthreadapi.h
-ms.openlocfilehash: 0283275856e8e68bf983aaeb9a7660a5a0a6bf59
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7c932a143553c1101d6a81bac86ba54e21603eaf80ed5d2613484bff22a7e625
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106975091"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120101928"
 ---
 # <a name="cpu_set_information_type-enumeration"></a>CPU \_ 集 \_ 資訊 \_ 類型列舉
 
@@ -52,9 +52,9 @@ typedef enum _CPU_SET_INFORMATION_TYPE {
 
 | 需求 | 值 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 10 桌面應用程式\]<br/>                                                                       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2016 \[ desktop 應用程式\]<br/>                                                              |
-| 標頭<br/>                   | <dl> <dt>Processthreadsapi (包含) 的 Windows。h </dt> </dl> |
+| 最低支援的用戶端<br/> | Windows 10 \[僅限桌面應用程式\]<br/>                                                                       |
+| 最低支援的伺服器<br/> | Windows Server 2016 \[僅限桌面應用程式\]<br/>                                                              |
+| 標頭<br/>                   | <dl> <dt>Processthreadsapi (包含 Windows .h) </dt> </dl> |
 
 
 

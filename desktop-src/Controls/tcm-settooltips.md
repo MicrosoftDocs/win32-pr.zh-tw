@@ -3,7 +3,7 @@ title: 'TCM_SETTOOLTIPS 訊息 (Commctrl .h) '
 description: 將工具提示控制項指派給索引標籤控制項。 您可以使用 TabCtrl SetToolTips 宏明確地傳送此訊息 \_ 。
 ms.assetid: c1b173b1-9da6-441a-a2b6-3875e2c343f8
 keywords:
-- TCM_SETTOOLTIPS message Windows 控制項
+- TCM_SETTOOLTIPS 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 25e00166fb97c49c33b22811d28b79165bed4e9b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c8bfec3b7272ceae3dcbf1781e3bb17a988f2252b3c0a74822677bff6ea39209
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103685500"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120104688"
 ---
 # <a name="tcm_settooltips-message"></a>TCM \_ SETTOOLTIPS 訊息
 
@@ -53,8 +53,8 @@ ms.locfileid: "103685500"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

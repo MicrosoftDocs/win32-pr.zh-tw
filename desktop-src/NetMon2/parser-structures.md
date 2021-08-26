@@ -4,12 +4,12 @@ ms.assetid: ce45a8ef-4355-46fd-909e-3ab4d63a3bf1
 title: 剖析器結構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 59a9b767974214472f24ea9e1ec9359c97d26fc4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c0d54e02e26e9874f27f49312a84b4b643cc4b3bfdb0c6056f274e4febecf0ec
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103945497"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120082528"
 ---
 # <a name="parser-structures"></a>剖析器結構
 
@@ -17,7 +17,7 @@ ms.locfileid: "103945497"
 
 
 
-| 結構                                 | Description                                                                                                                     |
+| 結構                                 | 描述                                                                                                                     |
 |-------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|
 | [MACFRAME](macframe.md)                  | 定義最常使用的初始通訊協定。                                                                               |
 | [E](entrypoints.md)            | 指定剖析器 DLL 進入點的指標。                                                                      |

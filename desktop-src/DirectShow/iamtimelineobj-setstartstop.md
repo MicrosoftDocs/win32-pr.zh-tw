@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: e7839417a0406fc2702fb0fbd593edc92fa80437
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e2806d926c9842f5900f46f923f4cbdf8caa47f112e1832077ab7d2b80a9341c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106987826"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120052448"
 ---
 # <a name="iamtimelineobjsetstartstop-method"></a>IAMTimelineObj：： SetStartStop 方法
 
@@ -66,7 +66,7 @@ HRESULT SetStartStop(
 
 
 
-| 傳回碼                                                                                  | Description                  |
+| 傳回碼                                                                                  | 描述                  |
 |----------------------------------------------------------------------------------------------|------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>         | 成功。<br/>          |
 | <dl> <dt>**E \_ INVALIDARG**</dt> </dl> | 無效引數。<br/> |
@@ -82,7 +82,7 @@ HRESULT SetStartStop(
 
 請勿在相同的播放軌內的來源物件上設定重迭的時間。這樣做可能會導致未定義的行為。
 
-針對來源物件，開始和停止時間與媒體開始和媒體停止時間無關。 變更一對值並不會變更另一個值。 若要設定媒體的開始和停止時間，請呼叫 [**IAMTimelineSrc：： SetMediaTimes**](iamtimelinesrc-setmediatimes.md) 方法。 如需詳細資訊，請參閱 [DirectShow 編輯服務中的時間](time-in-directshow-editing-services.md)。
+針對來源物件，開始和停止時間與媒體開始和媒體停止時間無關。 變更一對值並不會變更另一個值。 若要設定媒體的開始和停止時間，請呼叫 [**IAMTimelineSrc：： SetMediaTimes**](iamtimelinesrc-setmediatimes.md) 方法。 如需詳細資訊，請參閱[DirectShow 編輯服務中的時間](time-in-directshow-editing-services.md)。
 
 若要取得幀精確的剪下和轉換，請將 *Start* 和 *Stop* 參數設定為框架界限。 您可以使用 [**IAMTimelineObj：： FixTimes**](iamtimelineobj-fixtimes.md) 方法，將時間值轉換為最接近的框架界限，或使用下列函式，從畫面格編號轉換為參考時間：
 
@@ -110,7 +110,7 @@ REFERENCE_TIME inline FrameNumToTime(LONGLONG frame, double fps)
  
 
 > [!Note]  
-> 若要取得 Qedit，請下載 [適用于 Windows Vista 和 .NET Framework 3.0 的 Microsoft Windows SDK 更新](https://msdn.microsoft.com/windowsvista/bb980924.aspx)。 在 Windows 7 和 .NET Framework 3.5 Service Pack 1 的 Microsoft Windows SDK 中無法使用 Qedit。
+> 若要取得 Qedit，請下載[Windows Vista 和 .NET Framework 3.0 的 Microsoft Windows SDK 更新](https://msdn.microsoft.com/windowsvista/bb980924.aspx)。 Windows 7 和 .NET Framework 3.5 Service Pack 1 的 Microsoft Windows SDK 中無法使用 Qedit。
 
  
 

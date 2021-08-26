@@ -4,20 +4,20 @@ ms.assetid: ab4568bd-fc05-4e2a-ac8c-f035e6583a36
 title: 使用 WinHTTP 記錄來確認取得流量
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 448e4a127baf90a64291cbd14477c424270b332d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 031359dac8c8fa890568d6833cbfdf8c3d41d43bd52403a7def61a7392e8e23a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104192904"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119995218"
 ---
 # <a name="using-winhttp-logging-to-verify-get-traffic"></a>使用 WinHTTP 記錄來確認取得流量
 
 如果泛型主機和用戶端成功，但實際的主機和用戶端仍失敗，則可能是中繼資料要求尚未初始化。 您可以使用[WinHTTP](/windows/desktop/WinHttp/winhttp-start-page)記錄來確認是否已正確產生和傳送輸出訊息。
 
-以 WSDAPI 為基礎的用戶端應用程式會使用 [WinHTTP](/windows/desktop/WinHttp/winhttp-start-page) 連接到裝置。 WSDAPI 型裝置主機不使用 WinHTTP。 此外，有些協力廠商 proxy 不會使用 WinHTTP。 針對不使用 WinHTTP 的主機或 proxy 進行疑難排解時，請略過此診斷程式，並遵循 [檢查 HTTP 中繼資料交換的網路追蹤](inspecting-network-traces-for-http-metadata-exchange.md)中的程式來繼續進行疑難排解。
+以 WSDAPI 為基礎的用戶端應用程式會使用 [WinHTTP](/windows/desktop/WinHttp/winhttp-start-page) 連接到裝置。 WSDAPI 型裝置主機不使用 WinHTTP。 此外，有些協力廠商 proxy 不會使用 WinHTTP。 針對不使用 WinHTTP 的主機或 proxy 進行疑難排解時，請跳過此診斷程式，並遵循[檢查 HTTP 中繼資料的網路追蹤 Exchange](inspecting-network-traces-for-http-metadata-exchange.md)中的程式，繼續進行疑難排解。
 
-[WinHTTP](/windows/desktop/WinHttp/winhttp-start-page) 記錄不會顯示所有 TCP 層級的流量。 如果有興趣 HTTP 流量以外的流量，請跳過 [檢查 Http 中繼資料交換的網路追蹤](inspecting-network-traces-for-http-metadata-exchange.md) 。
+[WinHTTP](/windows/desktop/WinHttp/winhttp-start-page) 記錄不會顯示所有 TCP 層級的流量。 如果 HTTP 流量以外的流量有興趣，請跳過[檢查 HTTP 中繼資料的網路追蹤 Exchange](inspecting-network-traces-for-http-metadata-exchange.md) 。
 
 **使用 WinHTTP 記錄來確認取得流量**
 
@@ -26,7 +26,7 @@ ms.locfileid: "104192904"
 3.  開啟 WinHTTP 記錄檔。
 4.  確認已傳送所需的 HTTP 要求和中繼資料訊息。
 
-如果在 WinHTTP 記錄檔中找到主機的 [Get](get--metadata-exchange--http-request-and-message.md) 訊息，則會成功將中繼資料要求傳送到 winHTTP。 遵循 [檢查 HTTP 中繼資料交換的網路追蹤](inspecting-network-traces-for-http-metadata-exchange.md)中的程式，繼續進行疑難排解。
+如果在 WinHTTP 記錄檔中找到主機的 [Get](get--metadata-exchange--http-request-and-message.md) 訊息，則會成功將中繼資料要求傳送到 winHTTP。 遵循[檢查 HTTP 中繼資料的網路追蹤 Exchange](inspecting-network-traces-for-http-metadata-exchange.md)中的程式，繼續進行疑難排解。
 
 如果在 WinHTTP 記錄檔中找不到主機的 [Get](get--metadata-exchange--http-request-and-message.md) 訊息，則不會起始中繼資料要求。 當主機發佈不正確 XAddrs 時，就會發生這種情況。 確認主機上的 XAddrs 符合 [XAddr 驗證規則](xaddr-validation-rules.md)。
 

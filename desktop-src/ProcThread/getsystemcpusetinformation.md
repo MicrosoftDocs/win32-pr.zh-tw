@@ -15,12 +15,12 @@ api_location:
 - Kernel32.dll
 - API-MS-Win-Core-ProcessThreads-L1-1-3.dll
 - KernelBase.dll
-ms.openlocfilehash: d8ce490e3377e45a81b24523504d06941755de49
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 011a809c78f2e94e6d16bbe5deb716ee7e97db356765bb771709048d3b00d05a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192761"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119995368"
 ---
 # <a name="getsystemcpusetinformation-function"></a>GetSystemCpuSetInformation 函式
 
@@ -90,8 +90,8 @@ BOOL WINAPI GetSystemCpuSetInformation(
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 10 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                            |
-| 最低支援的伺服器<br/> | Windows Server 2016 \[ desktop app \| UWP 應用程式\]<br/>                                   |
+| 最低支援的用戶端<br/> | Windows 10 \[桌面應用程式 \| UWP 應用程式\]<br/>                                            |
+| 最低支援的伺服器<br/> | Windows Server 2016 \[桌面應用程式 \| UWP 應用程式\]<br/>                                   |
 | 標頭<br/>                   | <dl> <dt>Processthreadsapi。h</dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>Windows。h</dt> </dl>          |
 | DLL<br/>                      | <dl> <dt>Kernel32.dll</dt> </dl>       |

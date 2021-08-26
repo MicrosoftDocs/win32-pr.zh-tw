@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7b7eb50da6b69622f6101fdbae4ad098d88f0366
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f85bb423ae27a3d0b0b15f7b04d287a749f4fe23f3a4b58f7c2462b487b8a705
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104024826"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120072648"
 ---
 # <a name="registrationinfo-object"></a>RegistrationInfo 物件
 
@@ -39,7 +39,7 @@ ms.locfileid: "104024826"
 
 
 
-| 屬性                                                                     | 存取類型           | Description                                                                                                                                |
+| 屬性                                                                     | 存取類型           | 描述                                                                                                                                |
 |:-----------------------------------------------------------------------------|:----------------------|:-------------------------------------------------------------------------------------------------------------------------------------------|
 | [**作者**](registrationinfo-author.md)<br/>                         | 讀取/寫入<br/> | 取得或設定工作的作者。<br/>                                                                                            |
 | [**日期**](registrationinfo-date.md)<br/>                             | 讀取/寫入<br/> | 取得或設定工作的註冊日期和時間。<br/>                                                                     |
@@ -71,8 +71,8 @@ ms.locfileid: "104024826"
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                          |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                    |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                          |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                    |
 | 類型程式庫<br/>             | <dl> <dt>Taskschd.msc .tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 

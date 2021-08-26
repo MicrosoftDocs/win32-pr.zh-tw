@@ -4,12 +4,12 @@ description: 瞭解如何為 EAPHost 要求者實行 NAP 支援。 請參閱 EAP
 ms.assetid: c25e4f03-759a-47a7-8b35-bbe669501c5c
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cff84c24aeb475b83146f2c56e9e139fd930eac27656349c594f05d91c1036fb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 00860057baeedbfdbae1939ab402db6f28fd74bd
+ms.sourcegitcommit: 0dec0044816af3f2b2e6403659e1cf11138c90cd
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118273312"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "121812383"
 ---
 # <a name="implementing-nap-support-for-eap-methods"></a>為 EAP 方法執行 NAP 支援
 
@@ -36,7 +36,7 @@ EAPHost 可能會在任何時間呼叫要求者提供的回呼函式：在主動
 
 -   [**EAP \_ 屬性 \_ 類型**](/windows/desktop/api/eaptypes/ne-eaptypes-eap_attribute_type)
 -   [**EAP \_ 錯誤**](/windows/desktop/api/eaptypes/ns-eaptypes-eap_error)
--   [EAPHost 要求者的常見問題](eaphost-supplicant-frequently-asked-questions.md)
+-   [EAPHost 要求者的常見問題](eaphost-supplicant-frequently-asked-questions.yml)
 -   [**EAP 方法屬性**](eap-method-properties.md)
 -   [**EapHostPeerBeginSession**](/previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeerbeginsession)
 -   [**EAP 相關的錯誤和資訊常數**](eap-related-error-and-information-constants.md)

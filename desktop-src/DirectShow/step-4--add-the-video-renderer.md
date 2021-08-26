@@ -1,21 +1,21 @@
 ---
-description: 本主題是在 DirectShow 中進行音訊/影片播放教學課程的步驟4。
+description: 本主題是 DirectShow 中音訊/影片播放教學課程的步驟4。
 ms.assetid: 34f35a95-1981-4467-a581-46db96c05224
 title: 步驟4：新增影片轉譯器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ea17a0622909525f69cf64fd374c8512a8fa9bb4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ae2d73dce5bba34f92c8df59cd9730ef1e25b57b9757039d9bda5c2e4432d734
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106992620"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120051408"
 ---
 # <a name="step-4-add-the-video-renderer"></a>步驟4：新增影片轉譯器
 
-本主題是 [在 DirectShow 中進行音訊/影片播放](audio-video-playback-in-directshow.md)教學課程的步驟4。 完整的程式碼會顯示在「 [DirectShow 播放」範例](directshow-playback-example.md)中。
+本主題是[DirectShow 中音訊/影片播放](audio-video-playback-in-directshow.md)教學課程的步驟4。 完整的程式碼會顯示在[DirectShow 播放範例](directshow-playback-example.md)的主題中。
 
-DirectShow 提供數種可轉譯影片的不同篩選：
+DirectShow 提供數個會轉譯影片的不同篩選：
 
 -   [**增強的影片轉譯器篩選器**](enhanced-video-renderer-filter.md) (EVR) 
 -   [影片混合轉譯器篩選器 9](video-mixing-renderer-filter-9.md) (VMR-9) 
@@ -465,10 +465,10 @@ done:
 
 <dl> <dt>
 
-[DirectShow 播放範例](directshow-playback-example.md)
+[DirectShow播放範例](directshow-playback-example.md)
 </dt> <dt>
 
-[使用 DirectShow EVR 篩選器](../medfound/using-the-directshow-evr-filter.md)
+[使用 DirectShow EVR 篩選](../medfound/using-the-directshow-evr-filter.md)
 </dt> <dt>
 
 [使用影片混合轉譯器](using-the-video-mixing-renderer.md)

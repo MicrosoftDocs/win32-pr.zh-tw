@@ -4,12 +4,12 @@ description: 下列是 COM 所提供的函式。
 ms.assetid: 36563ef5-1523-4b77-bca9-472c39e04785
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 498430921ee2274525e33ad46e23cf7f75c490ca
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 94d71384a9cc0e35cdcd40dd2b65e7143f7e5ec95e5f41b96366f85e23ed1c07
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "106969130"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120070978"
 ---
 # <a name="functions-com"></a>COM) 函數 (
 
@@ -36,7 +36,7 @@ ms.locfileid: "106969130"
 | [**CoDisableCallCancellation**](/windows/desktop/api/combaseapi/nf-combaseapi-codisablecallcancellation)                         | 復原 [**CoEnableCallCancellation**](/windows/desktop/api/combaseapi/nf-combaseapi-coenablecallcancellation)呼叫的動作。                                                                                                                                                            |
 | [**CoDisconnectCoNtext**](/windows/desktop/api/combaseapi/nf-combaseapi-codisconnectcontext)                                     | 將代表所有指向目前內容中物件之介面指標的所有 proxy 連接中斷連接。                                                                                                           |
 | [**CoDisconnectObject**](/windows/desktop/api/combaseapi/nf-combaseapi-codisconnectobject)                                       | 將代表所有指向指定物件之介面指標的所有遠端處理連接中斷連接。                                                                                                                   |
-| [**CoDosDateTimeToFileTime**](/windows/desktop/api/Objbase/nf-objbase-codosdatetimetofiletime)                             | 將時間和日期的 MS-DOS 表示轉換成 Windows 所使用的 [**FILETIME**](/windows/desktop/api/minwinbase/ns-minwinbase-filetime) 結構。                                                                                                                               |
+| [**CoDosDateTimeToFileTime**](/windows/desktop/api/Objbase/nf-objbase-codosdatetimetofiletime)                             | 將時間和日期的 MS-DOS 表示轉換為 Windows 所使用的 [**FILETIME**](/windows/desktop/api/minwinbase/ns-minwinbase-filetime)結構。                                                                                                                               |
 | [**CoEnableCallCancellation**](/windows/desktop/api/combaseapi/nf-combaseapi-coenablecallcancellation)                           | 允許取消呼叫執行緒上的同步呼叫。                                                                                                                                                                                        |
 | [**CoFileTimeNow**](/windows/desktop/api/combaseapi/nf-combaseapi-cofiletimenow)                                                 | 以 [**FILETIME**](/windows/desktop/api/minwinbase/ns-minwinbase-filetime) 結構傳回目前的時間。                                                                                                                                                                              |
 | [**CoFileTimeToDosDateTime**](/windows/desktop/api/Objbase/nf-objbase-cofiletimetodosdatetime)                             | 將 [**FILETIME**](/windows/desktop/api/minwinbase/ns-minwinbase-filetime) 轉換成 MS-DOS 日期和時間值。                                                                                                                                                                          |
@@ -129,7 +129,7 @@ ms.locfileid: "106969130"
 | [**GetClassFile**](/windows/desktop/api/Objbase/nf-objbase-getclassfile)                                                   | 傳回與所指定檔案名相關聯的 CLSID。                                                                                                                                                                                               |
 | [**GetRunningObjectTable**](/windows/desktop/api/Objbase/nf-objbase-getrunningobjecttable)                                 | 傳回本機執行物件資料表上 [**IRunningObjectTable**](/windows/desktop/api/ObjIdl/nn-objidl-irunningobjecttable) 介面的指標， (ROT) 。                                                                                                                          |
 | [**IIDFromString**](/windows/desktop/api/combaseapi/nf-combaseapi-iidfromstring)                                                 | 將 StringFromIID 函式所產生的字串，轉換回 (IID) 的原始介面識別碼。                                                                                                                                            |
-| [**初始化**](/windows/win32/api/objbase/nf-objbase-coinitialize)                                                       | 初始化要使用 Windows 執行階段 Api 的執行緒。                                                                                                                                                                                                       |
+| [**初始化**](/windows/win32/api/objbase/nf-objbase-coinitialize)                                                       | 初始化要使用 Windows 執行階段 api 的執行緒。                                                                                                                                                                                                       |
 | [**IsAccelerator**](/windows/desktop/api/Ole2/nf-ole2-isaccelerator)                                                 | 判斷指定的按鍵是否對應到指定快速鍵對應表中的快速鍵。                                                                                                                                                   |
 | [**IsEqualCLSID**](/windows/desktop/api/GuidDef/nf-guiddef-isequalclsid)                                                   | 判斷兩個 Clsid 是否相等。                                                                                                                                                                                                                |
 | [**IsEqualGUID**](/windows/win32/api/guiddef/nf-guiddef-isequalguid)                                                     | 判斷兩個 Guid 是否相等。                                                                                                                                                                                                                 |

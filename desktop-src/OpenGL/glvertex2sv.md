@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b0e865ab8999e08f9c13ad46443ba039be1cda9e
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 2c9ad15caf9747e398868334c680aa2bbb1b3f30b11975ea3ef6eec381d5fd73
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106974804"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120036148"
 ---
 # <a name="glvertex2sv-function"></a>glVertex2sv 函式
 
@@ -40,7 +40,7 @@ void WINAPI glVertex2sv(
 
 <dl> <dt>
 
-*V* 
+*v* 
 </dt> <dd>
 
 兩個元素的陣列指標。 元素是頂點的 x 和 y 座標。

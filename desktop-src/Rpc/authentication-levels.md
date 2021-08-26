@@ -4,12 +4,12 @@ description: Microsoft RPC 提供多個層級的驗證。
 ms.assetid: d9ed938e-4cd4-4355-8d08-830f955dd00c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5c5fd25efb84b4ee2834e6f79c7fdd21dd903d55
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 8cff12dae7331577da7748c2dc069bd6e7e4af6cfb1961f80d3de461930ddc3e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104183456"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120080898"
 ---
 # <a name="authentication-levels"></a>驗證層級
 
@@ -21,9 +21,9 @@ Microsoft RPC 提供多個層級的驗證。 根據驗證層級而定，流量�
 
 分散式應用程式的用戶端和伺服器部分必須使用相同的驗證層級。 如需 RPC 驗證層級的清單，請參閱 [驗證層級常數](authentication-level-constants.md)。
 
- 
+ 
 
- 
+ 
 
 
 

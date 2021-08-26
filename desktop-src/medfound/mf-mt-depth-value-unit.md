@@ -4,12 +4,12 @@ ms.assetid: 0D7238F3-C224-48BD-8654-B3182DFB244C
 title: 'MF_MT_DEPTH_VALUE_UNIT 屬性 (Mfapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8f6086a34f62c26b3fe1fa611318792c9056a50c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ca57fa5cf72be266ac58ee504b1d4b7c4f2506646f33295e468d2ed0781ab8d7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106969267"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120060638"
 ---
 # <a name="mf_mt_depth_value_unit-attribute"></a>MF \_ MT \_ 深度 \_ 值 \_ 單位屬性
 
@@ -38,7 +38,7 @@ Unit 值是 nanometers 中的 UINT64 值（以 1e-9 計量範圍為單位）。 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 10， \[ 僅限1709版桌面應用程式\]<br/>                          |
-| 最低支援的伺服器<br/> | 僅限 Windows Server，版本 1709 \[ 桌面應用程式\]<br/>                      |
+| 最低支援的伺服器<br/> | WindowsServer， \[ 僅限1709版桌面應用程式\]<br/>                      |
 | 標頭<br/>                   | <dl> <dt>Mfapi。h</dt> </dl> |
 
 

@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 從 WMI 集合移除單一專案
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e6dabeb3ff2e7e70cf6fe25f1ddfb0b14032119d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 50364173aff9f28362878e84d5f3ddb496e430521dc5b1bb92bbc11e7e6b528c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106980768"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119995898"
 ---
 # <a name="removing-a-single-item-from-a-wmi-collection"></a>從 WMI 集合移除單一專案
 

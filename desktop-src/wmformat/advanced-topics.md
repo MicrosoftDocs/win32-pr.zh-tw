@@ -1,11 +1,11 @@
 ---
-title: " (Windows Media Format 11 SDK) 的 Advanced 主題"
+title: " (Windows 媒體格式 11 SDK 的 Advanced 主題) "
 description: 進階主題
 ms.assetid: 782d87ef-3489-4996-b7e2-a10b298375c2
 keywords:
-- Windows Media Format SDK，advanced 主題
-- Windows Media Format SDK，功能
-- Windows Media Format SDK，多個物件
+- Windows媒體格式 SDK，advanced 主題
+- Windows媒體格式 SDK，功能
+- Windows媒體格式 SDK，多個物件
 - Advanced Systems Format (ASF) ，advanced 主題
 - ASF (Advanced Systems Format) ，advanced 主題
 - Advanced Systems Format (ASF) ，功能
@@ -14,12 +14,12 @@ keywords:
 - ASF (Advanced Systems Format) 、多重物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1deb11ee45e7a4b216940e1a272f71ad95bc34aa
-ms.sourcegitcommit: 40a1246849dba8ececf54c716b2794b99c96ad50
+ms.openlocfilehash: 54076df81e281bac2fc5d24e0dbdac661dafb51b5d0c65457921ea110ba80b8e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "103679068"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120007299"
 ---
 # <a name="advanced-topics"></a>進階主題
 
@@ -44,7 +44,7 @@ ms.locfileid: "103679068"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -53,9 +53,9 @@ ms.locfileid: "103679068"
 [**程式設計指南**](programming-guide.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

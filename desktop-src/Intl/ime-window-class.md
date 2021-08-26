@@ -4,12 +4,12 @@ ms.assetid: 0fa01d84-1304-4235-a148-ea5e8dd5d0b3
 title: IME 視窗類別
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: faae7fd0135ec894186b4e10df9bc02da66bb933
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 56449534467a2b01ce8e59991bfc1c5f5ad4e1a9156f86cee5e154a8b8eb1d2b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103849482"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120107188"
 ---
 # <a name="ime-window-class"></a>IME 視窗類別
 

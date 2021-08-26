@@ -4,12 +4,12 @@ description: 本節提供按鈕控制項的執行詳細資料與範例程式碼�
 ms.assetid: 0c56f6ee-984d-47b8-9066-e14f13396eb9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aa18d03041e2d4130fc50d6072a6d4a17fef3e37
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 4fbe7a1585b9b6e86f7d443dd1e6cd6d007179b703c316cf3c5eb92f2da6d0aa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104316507"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120059508"
 ---
 # <a name="using-buttons"></a>使用按鈕
 

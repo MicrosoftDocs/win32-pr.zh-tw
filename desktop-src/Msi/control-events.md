@@ -4,12 +4,12 @@ ms.assetid: 8768acaa-884b-428f-a14e-3f39f8ea4ad5
 title: 控制 (Windows Installer) 的事件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 221e8d9e6a8cea9a02b303040d06da346800912e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fdd72e93da7ed84c845b5993b2a021119c861b682ab5eb4645c69c723b17a404
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980346"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120075088"
 ---
 # <a name="control-events-windows-installer"></a>控制 (Windows Installer) 的事件
 

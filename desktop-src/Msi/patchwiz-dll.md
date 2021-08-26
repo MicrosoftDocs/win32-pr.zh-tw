@@ -4,22 +4,22 @@ ms.assetid: aca3bbd2-440a-405f-bddc-5f9cc831b811
 title: Patchwiz.dll
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c6dc1135a9e2c09bb8a96e041f77bae39f0057ea
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0de7a099a95eb6b42341b7f440f15fadb42e6a5ea8bbf69ff4d61b1fcaa28d21
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104195265"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120129168"
 ---
 # <a name="patchwizdll"></a>Patchwiz.dll
 
-若要產生修補程式套件，建議您使用修補程式建立工具，例如 [Msimsp.exe](msimsp-exe.md) 和 Patchwiz.dll。 Patchwiz.dll 版本4.0 與使用舊版 Patchwiz.dll 撰寫的套件和修補程式相容。 Patchwiz.dll 工具僅適用于 [Windows Installer 開發人員 Windows SDK 元件](platform-sdk-components-for-windows-installer-developers.md)。
+若要產生修補程式套件，建議您使用修補程式建立工具，例如 [Msimsp.exe](msimsp-exe.md) 和 Patchwiz.dll。 Patchwiz.dll 版本4.0 與使用舊版 Patchwiz.dll 撰寫的套件和修補程式相容。 Patchwiz.dll 工具僅適用于[Windows Installer 開發人員 Windows SDK 元件](platform-sdk-components-for-windows-installer-developers.md)。
 
 Patchwiz.dll 4.0 版有一個新的函式（ [UiCreatePatchPackageEx (Patchwiz.dll) ](uicreatepatchpackageex--patchwiz-dll-.md)），可延伸 [UiCreatePatchPackage (Patchwiz.dll) ](uicreatepatchpackage-patchwiz-dll-.md)的功能。 這些函式會取得修補程式建立屬性檔 ( pcp 檔案) 並產生安裝 [程式修補套件](patch-packages.md)。
 
-Pcp 檔案是二進位資料庫檔案，其格式與 Windows Installer 資料庫 ( .msi 檔案) 相同，但使用不同的資料庫架構。 因此，您可以使用安裝程式資料庫所使用的相同工具來撰寫 pcp 檔案。
+pcp 檔案是二進位資料庫檔案，其格式與 Windows Installer 資料庫 (.msi 檔) 相同，但使用不同的資料庫架構。 因此，您可以使用安裝程式資料庫所使用的相同工具來撰寫 pcp 檔案。
 
-您可以使用資料表編輯器（例如 [Orca.exe](orca-exe.md) ）來建立 pcp 檔案，並將資訊輸入 Windows Installer SDK 所提供的 pcp 資料庫 pcp。 如需詳細資訊，請參閱 [小型更新修補範例](a-small-update-patching-example.md)。
+您可以使用資料表編輯器（例如[Orca.exe](orca-exe.md) ）來建立 pcp 檔案，並將資訊輸入 Windows Installer SDK 所提供的 pcp 資料庫 pcp。 如需詳細資訊，請參閱 [小型更新修補範例](a-small-update-patching-example.md)。
 
 每個 pcp 檔案都需要下列資料庫資料表：
 
@@ -45,7 +45,7 @@ Pcp 檔案是二進位資料庫檔案，其格式與 Windows Installer 資料庫
 
  
 
-使用 Windows Installer 3.0 發行的 Patchwiz.dll 版本可以自動產生修補程式順序資訊，並將其新增至新修補程式的 [MsiPatchSequence 資料表](msipatchsequence-table.md) 。 您可以使用 [PatchSequence 資料表](patchsequence-table--patchwiz-dll-.md) ，以手動方式將修補程式排序資訊新增至 MsiPatchSequence 資料表。 如需詳細資訊，請參閱 [產生修補程式順序資訊](generating-patch-sequence-information---patchwiz-dll-.md)。
+使用 Windows Installer 3.0 發行的 Patchwiz.dll 版本可以自動產生修補程式順序資訊，並將其新增至新修補程式的[MsiPatchSequence 資料表](msipatchsequence-table.md)。 您可以使用 [PatchSequence 資料表](patchsequence-table--patchwiz-dll-.md) ，以手動方式將修補程式排序資訊新增至 MsiPatchSequence 資料表。 如需詳細資訊，請參閱 [產生修補程式順序資訊](generating-patch-sequence-information---patchwiz-dll-.md)。
 
 從 Patchwiz.dll 版本2.0 開始，您可以使用 [修補資訊快取 (Patchwiz.dll) ](patch-information-caching-patchwiz-dll-.md)來提高後續修補建立的速度。
 

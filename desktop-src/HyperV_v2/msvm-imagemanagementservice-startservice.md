@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 5fb895687960348bf030efe5f668f7a914157ff5
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: ec12863893e603f7f6fe00d9b619386420ee69d40ea31fc586c00e12ce75af9c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108111746"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120046568"
 ---
 # <a name="startservice-method-of-the-msvm_imagemanagementservice-class"></a>Msvm ImageManagementService 類別的 StartService 方法 \_
 

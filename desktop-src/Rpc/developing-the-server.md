@@ -6,12 +6,12 @@ keywords:
 - 遠端程序呼叫 RPC、工作、開發伺服器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0fc3405c52c48f531572ab159ad083bad93f95e0
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: efeba77168abe53e1df823f416c80a015cc63bc7b89c79a0a86d79174a7c78fb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104316075"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120073400"
 ---
 # <a name="developing-the-server"></a>開發伺服器
 
@@ -25,8 +25,8 @@ ms.locfileid: "104316075"
 
 Mysrvr 和 Rprocs 檔案會與 Myapp 一起編譯以產生目的檔。 \_ 然後，會將物件檔案與 RPC 執行時間程式庫和其他任何可能需要的程式庫連結在一起。 結果會是名為 Mysrvr.exe 的可執行伺服器程式。
 
-如果您未在 Open Software Foundation 中編譯 IDL 檔案 (憑證) 相容性模式 ([**/osf**](/windows/desktop/Midl/-osf)) ，則您的伺服器程式必須提供用來配置記憶體的函式，以及用來解除配置的功能。 若為 Windows 2000 和更新版本的 Windows，建議模式為 [**/Oicf**](/windows/desktop/Midl/-oi)。 如需詳細資訊，請參閱 [如何配置和解除配置記憶體](how-memory-is-allocated-and-deallocated.md)，以及 [指標和記憶體配置](pointers-and-memory-allocation.md)。
+如果您未在 Open Software Foundation 中編譯 IDL 檔案 (憑證) 相容性模式 ([**/osf**](/windows/desktop/Midl/-osf)) ，則您的伺服器程式必須提供用來配置記憶體的函式，以及用來解除配置的功能。 針對 Windows 2000 和更新版本的 Windows，建議模式為 [**/Oicf**](/windows/desktop/Midl/-oi)。 如需詳細資訊，請參閱 [如何配置和解除配置記憶體](how-memory-is-allocated-and-deallocated.md)，以及 [指標和記憶體配置](pointers-and-memory-allocation.md)。
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ description: 當伺服器必須將用戶端要求傳遞給其他伺服器進程�
 ms.assetid: 49d833d8-c61c-4746-91cf-c0753847cd3d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d03ad3b4d9e2984708e8b274ab9bc57c3235808b
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 73061a35c61a22a4d238e902c3dcb298e3ac0affaf4b0929c83311145a684f1e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104093084"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120022820"
 ---
 # <a name="client-impersonation"></a>用戶端模擬
 
@@ -32,8 +32,8 @@ ms.locfileid: "104093084"
 > [!Note]  
 > 「模擬 *」一詞* 代表兩個重迭的意義。 模擬的第一個含意是代表用戶端進行的一般處理常式。 第二個意義是稱為模擬的特定模擬等級。 文字的內容通常會說明其意義。
 
- 
+ 
 
- 
+ 
 
- 
+ 

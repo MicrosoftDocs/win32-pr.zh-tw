@@ -4,12 +4,12 @@ ms.assetid: 264a0e86-49e9-4777-956b-a83e9db52a25
 title: 服務介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 31687cc1c1283eb59c7731743eaf4ece0127b392
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d99155eb5cfb8c435281a5f23567759931cc53fae3743d9c76ce7be75f68c380
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106976786"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120060409"
 ---
 # <a name="service-interfaces"></a>服務介面
 
@@ -54,7 +54,7 @@ ms.locfileid: "106976786"
 | MR \_ 影片 \_ 加速 \_ 服務            | [**IDirect3DDeviceManager9**](/windows/desktop/api/dxva2api/nn-dxva2api-idirect3ddevicemanager9)、 [ **IDirectXVideoAccelerationService**](/windows/desktop/api/dxva2api/nn-dxva2api-idirectxvideoaccelerationservice) | 增強的影片轉譯器 (EVR)                                                                                                                      |
 | MR \_ 影片 \_ 加速 \_ 服務            | [**IDirectXVideoMemoryConfiguration**](/windows/desktop/api/dxva2api/nn-dxva2api-idirectxvideomemoryconfiguration)                                                             | DirectShow EVR 篩選器上的輸入釘                                                                                                           |
 | MR \_ 影片 \_ 加速 \_ 服務            | [**IMFVideoSampleAllocator 介面**](/windows/desktop/api/mfidl/nn-mfidl-imfvideosampleallocator)                                                                     | EVR 資料流程接收。                                                                                                                                 |
-| MR \_ 影片 \_ 混音器 \_ 服務                   | EVR 混音器所公開的各種介面。 請參閱 [使用影片混音器控制項](using-the-video-mixer-controls.md)。                   | EVR                                                                                                                                               |
+| MR \_ 影片 \_ 混音器 \_ 服務                   | EVR 混音器所公開的各種介面。 請參閱[使用影片 Mixer 控制項](using-the-video-mixer-controls.md)。                   | EVR                                                                                                                                               |
 | MR \_ 影片 \_ 轉譯 \_ 服務                  | EVR 展示者公開的各種介面。 請參閱 [使用影片顯示控制項](using-the-video-display-controls.md)。           | EVR                                                                                                                                               |
 
 

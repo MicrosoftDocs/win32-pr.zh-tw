@@ -15,12 +15,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d6dc9ff69973fb340bf3b140462c4012499680ba
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b6cf4187875f3b02dfbdc8ef5bd9fd8bd43ed99c37134b2c899215decacfb605
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843324"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120126078"
 ---
 # <a name="principal-object"></a>Principal 物件
 
@@ -38,7 +38,7 @@ ms.locfileid: "103843324"
 
 
 
-| 屬性                                                | 存取類型           | Description                                                                                                                                                  |
+| 屬性                                                | 存取類型           | 描述                                                                                                                                                  |
 |:--------------------------------------------------------|:----------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**DisplayName**](principal-displayname.md)<br/> | 讀取/寫入<br/> | 取得或設定工作排程器 UI 中顯示之主體的名稱。<br/>                                                                |
 | [**GroupId**](principal-groupid.md)<br/>         | 讀取/寫入<br/> | 取得或設定執行與主體相關聯之工作所需之使用者群組的識別碼。<br/>                           |
@@ -69,8 +69,8 @@ ms.locfileid: "103843324"
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                          |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                    |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                          |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                    |
 | 類型程式庫<br/>             | <dl> <dt>Taskschd.msc .tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 

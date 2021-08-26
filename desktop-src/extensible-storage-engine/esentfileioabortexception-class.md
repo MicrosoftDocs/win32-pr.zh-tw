@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 5e6741cda64359ad91762bb991bf9f798b112cac
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4741ad2bee162593fe3592321fb9b45e306eadda6a72b25eaf4416e928ce1e61
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106989094"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120065378"
 ---
 # <a name="esentfileioabortexception-class"></a>EsentFileIOAbortException 類別
 

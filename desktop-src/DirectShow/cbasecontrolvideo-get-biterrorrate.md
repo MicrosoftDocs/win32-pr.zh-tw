@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 9ae15a882f6dcd8840519f9067223dde3e925f6a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2602d203ca5a418dcc889d26932cd28be78d984390e71cff996e6fd3938030a6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106976052"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120057288"
 ---
 # <a name="cbasecontrolvideoget_biterrorrate-method"></a>CBaseControlVideo. 取得 \_ BitErrorRate 方法
 

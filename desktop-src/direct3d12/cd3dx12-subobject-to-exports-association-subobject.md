@@ -14,12 +14,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 08/04/2021
-ms.openlocfilehash: 07fc8ba911e1f16c6cec96752b658b1578d998bd0d9a469016fb8506f3dbc85d
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 23a0bfe1afff461e5d6b8ba69bedd6ade9069904
+ms.sourcegitcommit: 0dec0044816af3f2b2e6403659e1cf11138c90cd
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120132294"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "121812472"
 ---
 # <a name="cd3dx12_subobject_to_exports_association_subobject-class"></a>CD3DX12_SUBOBJECT_TO_EXPORTS_ASSOCIATION_SUBOBJECT 類別
 

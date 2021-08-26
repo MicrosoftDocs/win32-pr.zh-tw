@@ -13,12 +13,12 @@ api_type:
 - LibDef
 api_location:
 - Aux_klib.lib
-ms.openlocfilehash: 00649b042e13ecbc055a132d1de5c5c3248ba0e7
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: be734583c8b7d02be4c498bc75069a0c813565d48aea3db3826712d6375e72b4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106992820"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120045308"
 ---
 # <a name="auxklibquerymoduleinformation-function"></a>AuxKlibQueryModuleInformation 函式
 
@@ -82,7 +82,7 @@ NTSTATUS _stdcall AuxKlibQueryModuleInformation(
 
 | 需求 | 值 |
 |----------------------------|------------------------------------------------------------------------------------------|
-| 可轉散發套件<br/> | Windows 輔助 API 程式庫1.0 版或更新版本<br/>                            |
+| 可轉散發套件<br/> | Windows輔助 API 程式庫1.0 版或更新版本<br/>                            |
 | 標頭<br/>          | <dl> <dt>Aux \_ klib。h</dt> </dl>   |
 | 程式庫<br/>         | <dl> <dt>Aux \_ klib .lib</dt> </dl> |
 

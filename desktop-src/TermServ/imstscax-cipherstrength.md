@@ -54,12 +54,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 401cf3796d349aaa6764eae46a371a9d485f763c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4b66418f2e956afcf6c5b9f1f9a0d5971119e7fddae1c1d46d115f4bbe0e6391
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384033"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120125438"
 ---
 # <a name="imstscaxcipherstrength-property"></a>IMsTscAx：： CipherStrength 屬性
 
@@ -88,7 +88,7 @@ HRESULT get_CipherStrength(
 
 ## <a name="remarks"></a>備註
 
-針對遠端桌面網頁連線，加密強度一律為128，因為遠端桌面 ActiveX 控制項支援最多（含）128位的加密。 128位控制項仍可連接至56位加密遠端桌面工作階段主機 (RD 工作階段主機) 伺服器。
+針對遠端桌面網頁連線，加密強度一律為128，因為遠端桌面 ActiveX 控制項支援最高至128位的加密。 128位控制項仍可連接至56位加密遠端桌面工作階段主機 (RD 工作階段主機) 伺服器。
 
 如需遠端桌面網頁連線的詳細資訊，請參閱 [遠端桌面網頁連線的需求](requirements-for-remote-desktop-web-connection.md)。
 

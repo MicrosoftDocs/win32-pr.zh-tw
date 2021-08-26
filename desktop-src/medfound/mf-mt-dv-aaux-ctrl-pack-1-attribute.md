@@ -4,12 +4,12 @@ ms.assetid: e9c17940-beb7-4034-95a3-983aaca0c905
 title: 'MF_MT_DV_AAUX_CTRL_PACK_1 屬性 (Mfapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 119c58d6a988f955229b46c0cb482bc24dd6f770
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3670fdfcd853240fb0b0f14b14b421994e2b40cbc1dffee12b6acc82671872af
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106985174"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120113868"
 ---
 # <a name="mf_mt_dv_aaux_ctrl_pack_1-attribute"></a>MF \_ MT \_ DV \_ AAUX \_ CTRL \_ PACK \_ 1 屬性
 
@@ -31,8 +31,8 @@ ms.locfileid: "106985174"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows Vista \[ 桌面應用程式 \| UWP 應用程式\]<br/>                              |
-| 最低支援的伺服器<br/> | Windows Server 2008 \[ desktop app \| UWP 應用程式\]<br/>                        |
+| 最低支援的用戶端<br/> | WindowsVista \[ desktop apps \| UWP 應用程式\]<br/>                              |
+| 最低支援的伺服器<br/> | WindowsServer 2008 \[ desktop app \| UWP 應用程式\]<br/>                        |
 | 標頭<br/>                   | <dl> <dt>Mfapi。h</dt> </dl> |
 
 

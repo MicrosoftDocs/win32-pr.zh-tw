@@ -6,12 +6,12 @@ keywords:
 - OpenGL，簡介
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0cece636e51348288e587116bf13f95696b93ab9
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: aa30507db7d7994fe9bf88d6b056d48ee0266b9e7f4959d82a31134a9c3ce5dc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103932081"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120035018"
 ---
 # <a name="introduction-to-opengl"></a>OpenGL 簡介
 
@@ -50,9 +50,9 @@ OpenGL 的主要目的是將兩個和三維的物件轉譯成畫面格緩衝區�
 [OpenGL 公用程式庫](opengl-utility-library.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

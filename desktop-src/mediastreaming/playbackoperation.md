@@ -14,12 +14,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 796ef1765deb4226470df09395c8a2cd7670513f
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: cb0c1bad5fa3cef3223b4b2d6ca9a9ac4aac5523a2eff8cbaf7bcb6ebb884949
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103678055"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120092248"
 ---
 # <a name="playbackoperation-class"></a>PlaybackOperation 類別
 
@@ -50,7 +50,7 @@ ms.locfileid: "103678055"
 
 
 
-| 屬性                                                    | 存取類型           | Description                                                                                                                                                                           |
+| 屬性                                                    | 存取類型           | 描述                                                                                                                                                                           |
 |:------------------------------------------------------------|:----------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**Completed**](playbackoperation-completed.md)<br/> | 讀取/寫入<br/> | 取得或設定當其中一個 [**MediaRenderer**](mediarenderer.md) 播放方法啟動的非同步作業完成時叫用的事件處理常式。 <br/> |
 

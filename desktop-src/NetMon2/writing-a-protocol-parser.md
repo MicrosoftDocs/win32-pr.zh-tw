@@ -4,12 +4,12 @@ ms.assetid: 0be87b33-aab0-4986-8a86-914e0a7b8f2d
 title: 撰寫通訊協定剖析器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 338c224dd036df747af6ab805dae273f6ad3f510
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e934867952fc02734ef205cdbdc961db9d4c6f81197ba3229a49b8598400047a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104513149"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120128808"
 ---
 # <a name="writing-a-protocol-parser"></a>撰寫通訊協定剖析器
 

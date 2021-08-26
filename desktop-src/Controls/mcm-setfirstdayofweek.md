@@ -3,7 +3,7 @@ title: 'MCM_SETFIRSTDAYOFWEEK 訊息 (Commctrl .h) '
 description: 設定月曆控制項的每週第一天。 您可以使用 MonthCal SetFirstDayOfWeek 宏明確地傳送此訊息 \_ 。
 ms.assetid: 6e0dc906-a41e-4c3a-9528-1f5428dceb8d
 keywords:
-- MCM_SETFIRSTDAYOFWEEK message Windows 控制項
+- MCM_SETFIRSTDAYOFWEEK 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a32452c9043bbd7c3bbcf96f9dc32e67714eacce
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1e34732257c18acceec3fd7db9807753e9a930e106198b33a0dd61dc27a33eef
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106967762"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120077108"
 ---
 # <a name="mcm_setfirstdayofweek-message"></a>MCM \_ SETFIRSTDAYOFWEEK 訊息
 
@@ -53,8 +53,8 @@ ms.locfileid: "106967762"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

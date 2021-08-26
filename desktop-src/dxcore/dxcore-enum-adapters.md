@@ -4,18 +4,18 @@ description: 查看 DXCore 的主要功能，並提供一些程式碼範例，�
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 06/20/2019
-ms.openlocfilehash: f1c21971f2daea69de1f317d1db8eceb9ec00118
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: fc2120c85b48b89478d1a10c8cf853c947e6553d
+ms.sourcegitcommit: 0dec0044816af3f2b2e6403659e1cf11138c90cd
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106968497"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "121812358"
 ---
 # <a name="using-dxcore-to-enumerate-adapters"></a>使用 DXCore 來列舉介面卡
 
 DXCore 是適用于 DirectX 裝置的介面卡列舉 API，因此其某些設備會與 [DXGI](../direct3ddxgi/dx-graphics-dxgi.md)的部分重迭。
 
-DXCore 可讓您將新的裝置類型公開至使用者模式，例如 MCDM (Microsoft Compute Driver Model) ，以搭配 [Direct3D 12](../direct3d12/directx-12-programming-guide.md)、 [DirectML](../direct3d12/dml.md)和 [Windows Machine Learning](/windows/ai/windows-ml/)使用。 與 DXGI 不同的是，DXCore 不會提供有關顯示相關技術或屬性的任何資訊
+DXCore 可讓您將新的裝置類型公開至使用者模式，例如 MCDM (Microsoft Compute Driver Model) ，以搭配[Direct3D 12](../direct3d12/directx-12-programming-guide.md)、 [DirectML](/windows/ai/directml/dml)和[Windows 機器學習](/windows/ai/windows-ml/)使用。 與 DXGI 不同的是，DXCore 不會提供有關顯示相關技術或屬性的任何資訊
 
 在接下來的幾節中，我們將探討 DXCore 的主要功能，其中包含一些程式碼範例， (以 [c + +/WinRT](/windows/uwp/cpp-and-winrt-apis)) 撰寫。 以下所示的程式碼範例會從完整的源代碼清單中解壓縮，您可以在 [最基本的 DXCore 應用程式](dxcore-source-code.md)中找到這些程式碼。
 
@@ -192,7 +192,7 @@ HRESULT hr = factory->UnregisterEventNotification(m_eventCookie);
 ## <a name="display-information"></a>顯示資訊
 
 > [!NOTE]
-> DXCore 本身不會提供任何顯示資訊。 必要時，您應該使用 Windows 執行階段 [**DisplayMonitor**](/uwp/api/windows.devices.display.displaymonitor) 類別來取得此資訊。 介面卡的 [**LUID**](/windows/win32/api/winnt/ns-winnt-luid) 提供通用識別碼，可讓您用來將 DXCore 介面卡對應至 [**DisplayMonitor DisplayAdapterId**](/uwp/api/windows.devices.display.displaymonitor.displayadapterid) 資訊。 若要取得介面卡的 LUID，請將 [**DXCoreAdapterProperty：： InstanceLuid**](./dxcore_interface/ne-dxcore_interface-dxcoreadapterproperty.md) 傳遞給 [**IDXCoreAdapter：： GetProperty**](./dxcore_interface/nf-dxcore_interface-idxcoreadapter-getproperty.md) 方法。
+> DXCore 本身不會提供任何顯示資訊。 必要時，您應該使用 Windows 執行階段 [**DisplayMonitor**](/uwp/api/windows.devices.display.displaymonitor)類別來取得此資訊。 介面卡的 [**LUID**](/windows/win32/api/winnt/ns-winnt-luid) 提供通用識別碼，可讓您用來將 DXCore 介面卡對應至 [**DisplayMonitor DisplayAdapterId**](/uwp/api/windows.devices.display.displaymonitor.displayadapterid) 資訊。 若要取得介面卡的 LUID，請將 [**DXCoreAdapterProperty：： InstanceLuid**](./dxcore_interface/ne-dxcore_interface-dxcoreadapterproperty.md) 傳遞給 [**IDXCoreAdapter：： GetProperty**](./dxcore_interface/nf-dxcore_interface-idxcoreadapter-getproperty.md) 方法。
 
 ## <a name="see-also"></a>另請參閱
 

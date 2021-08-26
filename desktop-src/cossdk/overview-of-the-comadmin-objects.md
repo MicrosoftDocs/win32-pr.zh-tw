@@ -4,12 +4,12 @@ ms.assetid: 84cee7a7-f7a6-41a0-afd5-fae56365612e
 title: COMAdmin 物件的總覽
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 22837cbe0548b623463234d1a03d17288eba2149
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 1ad382fcfab6e53a2eb8bfec9914a070d8a78e6ef2a29253005c324c8df8257e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111673"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120070388"
 ---
 # <a name="overview-of-the-comadmin-objects"></a>COMAdmin 物件的總覽
 

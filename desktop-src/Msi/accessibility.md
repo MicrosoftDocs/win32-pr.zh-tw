@@ -4,12 +4,12 @@ ms.assetid: 516e504e-7895-4388-a38e-fd2fc7dfd61d
 title: '存取範圍 (Windows Installer) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 46325c11337ef1e1db6f2da5728f06f9d4ee0649
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b8811d47bc7288e966ca5d536b435611c79fd81f3a38fa0b2dbdd422b5939a42
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848996"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120078228"
 ---
 # <a name="accessibility-windows-installer"></a>存取範圍 (Windows Installer) 
 
@@ -25,8 +25,8 @@ ms.locfileid: "103848996"
 -   由於靜態文字無法取得焦點，因此必須將描述[編輯](edit-control.md)、 [PathEdit](pathedit-control.md)、 [ListView](listview-control.md)、 [ComboBox](combobox-control.md)或[VolumeSelectCombo 控制項](volumeselectcombo-control.md)的[文字控制項](text-control.md)設為對話方塊中的第一個控制項，以確保與螢幕讀取器的相容性。
 -   如果是顯示圖示或點陣圖影像的 [按鈕控制項](pushbutton-control.md) ，AccName 和 accKeyboardShortcut 會指定于 [控制項資料表](control-table.md) 記錄的 [說明] 欄位中，位於分隔符號的左邊 \| 。
 -   避免在白色點陣圖上使用文字控制項，因為在高對比黑色時，文字可能會變得不可見。
--   請勿在背景中放入全白色點陣圖影像的黑色文字控制項。 將 Windows 顯示變更為高對比黑色的使用者看不到這個文字。
--   請勿將白色文字控制項放在全部為黑色點陣圖影像的背景上。 將 Windows 顯示變更為高對比白色的使用者看不到這個文字。
+-   請勿在背景中放入全白色點陣圖影像的黑色文字控制項。 將 Windows 顯示變更為高對比黑色的使用者看不到此文字。
+-   請勿將白色文字控制項放在全部為黑色點陣圖影像的背景上。 將 Windows 顯示變更為高對比白色的使用者看不到此文字。
 -   請勿將透明 [文字控制項](text-control.md) 放在彩色點陣圖上方。 如果使用者變更顯示色彩配置，可能看不到文字。 例如，如果使用者設定協助工具的高對比參數，文字可能會變成隱藏。
 -   請注意，在選取群組中的其中一個按鈕之前，不會將焦點放在對話方塊上的 [RadioButtonGroup 控制項](radiobuttongroup-control.md) 。 若要將 [焦點] 索引標籤設為這個按鈕群組，請將其中一個按鈕指定為控制項的預設設定。
 -   為螢幕閱讀程式提供有關 [RadioButtonGroup 控制項](radiobuttongroup-control.md)的額外描述性文字。 遵循 [將額外文字新增至選項按鈕](adding-extra-text-to-radio-buttons.md)所提供的範例。

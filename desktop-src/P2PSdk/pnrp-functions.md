@@ -4,12 +4,12 @@ ms.assetid: 7c9f2dd7-8dbc-4bbe-b53c-8036c79faa8a
 title: PNRP 函數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bc0e811c2d10927064e380970456c76f30730ee4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f109684be61bf1a9a194acb89b22fd4a50be652a6615a18a789e157ca2a5d909
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106979156"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120034378"
 ---
 # <a name="pnrp-functions"></a>PNRP 函數
 
@@ -19,7 +19,7 @@ PNRP 命名空間提供者 API 會使用下列函數。
 
 | 函式                                                             | 描述                                                                                                                                                  |
 |----------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**PeerNameToPeerHostName**](/windows/desktop/api/P2P/nf-p2p-peernametopeerhostname)             | 將提供的對等名稱編碼為可搭配後續呼叫 [**getaddrinfo**](/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfo) Windows 通訊端函式使用的格式。 |
+| [**PeerNameToPeerHostName**](/windows/desktop/api/P2P/nf-p2p-peernametopeerhostname)             | 將提供的對等名稱編碼為可搭配 [**getaddrinfo**](/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfo) Windows 通訊端函數的後續呼叫使用的格式。 |
 | [**PeerHostNameToPeerName**](/windows/desktop/api/P2P/nf-p2p-peerhostnametopeername)             | 將 [**PeerNameToPeerHostName**](/windows/desktop/api/P2P/nf-p2p-peernametopeerhostname) 傳回的主機名稱解碼成它所代表的對等名稱字串。                            |
 | [**PeerPnrpStartup**](/windows/desktop/api/P2P/nf-p2p-peerpnrpstartup)                           | 啟動呼叫端的對等名稱解析通訊協定 (PNRP) 服務。                                                                                |
 | [**PeerPnrpShutdown**](/windows/desktop/api/P2P/nf-p2p-peerpnrpshutdown)                         | 關閉執行中的對等名稱解析通訊協定實例 (PNRP) 服務，並釋放與其相關聯的所有資源。                             |

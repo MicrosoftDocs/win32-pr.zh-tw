@@ -3,7 +3,7 @@ title: 'CB_DELETESTRING 訊息 (Winuser .h) '
 description: 刪除下拉式方塊的清單方塊中的字串。
 ms.assetid: 8d526796-04ef-4c01-94d6-fb50e6fef27b
 keywords:
-- CB_DELETESTRING message Windows 控制項
+- CB_DELETESTRING 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: eb0d3900c86874db1113c219fd9f7967c5f6bb6e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b0bed1d654b86ffeb4a02c780678822e1999847ef0e163e35ecba081af099f66
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104106002"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120063578"
 ---
 # <a name="cb_deletestring-message"></a>CB \_ DELETESTRING 訊息
 
@@ -57,9 +57,9 @@ ms.locfileid: "104106002"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                     |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 

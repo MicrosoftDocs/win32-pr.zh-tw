@@ -4,12 +4,12 @@ ms.assetid: e582dbc2-8081-424c-a972-1a182a477293
 title: 'IMC_GETCANDIDATEPOS 命令 (Imm. h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4bcb5cd143bf45f9bdb37be4cbe3078a483f53db
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e155a08c9d95fa2ac9f865d80b18d51120d19b28489bcad418eb4323dda39c3e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106992207"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120107318"
 ---
 # <a name="imc_getcandidatepos-command"></a>IMC \_ GETCANDIDATEPOS 命令
 
@@ -56,7 +56,7 @@ LRESULT IMC_GETCANDIDATEPOS
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                           |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                 |
-| 標頭<br/>                   | <dl> <dt>Imm (包括 Windows .h) </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Imm (包含 Windows .h) </dt> </dl> |
 
 
 

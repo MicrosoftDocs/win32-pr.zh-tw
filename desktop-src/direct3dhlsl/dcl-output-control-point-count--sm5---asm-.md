@@ -4,12 +4,12 @@ description: 宣告輪廓著色器輸出控制點計數。
 ms.assetid: 51E8117F-1802-413B-9820-04D5CEBE2DB6
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 147f8f7021252f07cdb6dd0f225555ff0f23d54b
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 93dc28a2af3ac50c835fa7ec38d7d344029af76a11cb2b84945dbf5009d68473
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104022858"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120024698"
 ---
 # <a name="dcl_output_control_point_count-sm5---asm"></a>dcl \_ 輸出 \_ 控制 \_ 點 \_ 計數 (sm5-asm) 
 
@@ -42,7 +42,7 @@ ms.locfileid: "104022858"
 
 
 
-| 頂點 | 船體                 | 網域 | 幾何 | 像素 | 計算 |
+| 頂點 | 船體                 | 網域 | 幾何形狀 | 像素 | 計算 |
 |--------|----------------------|--------|----------|-------|---------|
 |        | 宣告區段 |        |          |       |         |
 
@@ -59,11 +59,11 @@ ms.locfileid: "104022858"
 | 著色器模型                                              | 支援 |
 |-----------------------------------------------------------|-----------|
 | [著色器模型5](d3d11-graphics-reference-sm5.md)        | 是       |
-| [著色器模型4。1](dx-graphics-hlsl-sm4.md)              | 不可以        |
-| [著色器模型4](dx-graphics-hlsl-sm4.md)                | 不可以        |
-| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 不可以        |
-| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 不可以        |
-| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 不可以        |
+| [著色器模型4。1](dx-graphics-hlsl-sm4.md)              | 否        |
+| [著色器模型4](dx-graphics-hlsl-sm4.md)                | 否        |
+| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 否        |
+| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 否        |
+| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 否        |
 
 
 

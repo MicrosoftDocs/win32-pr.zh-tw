@@ -28,12 +28,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 42966f98db18257c9a6a9ca463d5bd88028a02f7
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9165325c2d78ac6e4dc1ae69e410d293100de24cb8d38868475e99e49c0faaa8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106981280"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120046018"
 ---
 # <a name="trackbar-control-styles"></a>[控制項] 控制項樣式
 
@@ -58,8 +58,8 @@ ms.locfileid: "106981280"
 | <span id="TBS_TOOLTIPS"></span><span id="tbs_tooltips"></span><dl> <dt>**TB \_ 工具提示**</dt> </dl>                         | [版本 4.70](common-control-versions.md)。 [提示] 控制項支援工具提示。 當使用此樣式建立的 [顯示] 控制項時，它會自動建立預設的工具提示控制項，以顯示滑杆的目前位置。 您可以使用 [**TBM \_ SETTIPSIDE**](tbm-settipside.md) 訊息來變更顯示工具提示的位置。 <br/> |
 | <span id="TBS_REVERSED"></span><span id="tbs_reversed"></span><dl> <dt>**已 \_ 反轉 TB**</dt> </dl>                         | [版本5.80。](common-control-versions.md)此樣式位會用於「反轉」 trackbars，其中較小的數位表示「較高」，而較大的數位表示「較低」。 它對控制項沒有任何作用;這只是可以檢查的標籤，以判斷是否為正常或反向的標題。<br/>                                             |
 | <span id="TBS_DOWNISLEFT"></span><span id="tbs_downisleft"></span><dl> <dt>**TB \_ DOWNISLEFT**</dt> </dl>                   | 依預設，[追蹤器] 控制項使用向右和向上等於左。 您可以使用 [TB] \_ DOWNISLEFT 樣式來反轉預設值，使其向左和向右對齊。 <br/>                                                                                                                                                                          |
-| <span id="TBS_NOTIFYBEFOREMOVE"></span><span id="tbs_notifybeforemove"></span><dl> <dt>**TB \_ NOTIFYBEFOREMOVE**</dt> </dl> | [版本 6.00](common-control-versions.md) 和 **Windows Vista。** 由於使用者動作 (啟用貼齊) ，因此在定位滑杆之前，應該會通知父代。 <br/>                                                                                                                                                                                   |
-| <span id="TBS_TRANSPARENTBKGND"></span><span id="tbs_transparentbkgnd"></span><dl> <dt>**TB \_ TRANSPARENTBKGND**</dt> </dl> | [版本 6.00](common-control-versions.md) 和 **Windows Vista。** 背景由父系透過 WM \_ PRINTCLIENT 訊息繪製。 <br/>                                                                                                                                                                                                                   |
+| <span id="TBS_NOTIFYBEFOREMOVE"></span><span id="tbs_notifybeforemove"></span><dl> <dt>**TB \_ NOTIFYBEFOREMOVE**</dt> </dl> | [版本 6.00](common-control-versions.md)和 **Windows Vista。** 由於使用者動作 (啟用貼齊) ，因此在定位滑杆之前，應該會通知父代。 <br/>                                                                                                                                                                                   |
+| <span id="TBS_TRANSPARENTBKGND"></span><span id="tbs_transparentbkgnd"></span><dl> <dt>**TB \_ TRANSPARENTBKGND**</dt> </dl> | [版本 6.00](common-control-versions.md)和 **Windows Vista。** 背景由父系透過 WM \_ PRINTCLIENT 訊息繪製。 <br/>                                                                                                                                                                                                                   |
 
 
 

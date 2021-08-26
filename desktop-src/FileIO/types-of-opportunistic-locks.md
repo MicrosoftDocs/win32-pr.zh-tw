@@ -4,12 +4,12 @@ ms.assetid: 06136348-0c08-4e9c-9c96-fd3af33cbdc0
 title: 隨機鎖定的類型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a755a6ff766f5d19e13d4b269c1ba4bb9803e934
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 39dc450b038013454ea2d0ddd9c78a701dc8f977b4fa3b0aca7cdda076e8b12e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103851575"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120047848"
 ---
 # <a name="types-of-opportunistic-locks"></a>隨機鎖定的類型
 
