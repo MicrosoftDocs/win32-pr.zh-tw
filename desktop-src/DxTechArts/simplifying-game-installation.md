@@ -1,19 +1,19 @@
 ---
 title: 簡化遊戲安裝
-description: 本文概述 Windows 遊戲開發人員可以和執行的一些概念，以改善整體體驗。
+description: 本文概述 Windows 遊戲的開發人員可以執行的一些概念，並應執行這些概念來改善整體體驗。
 ms.assetid: 356780b7-801d-c6dd-a266-6272bcb8bd36
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8728eb2c9c53a99673ee742a5c961b91e37abed6
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 53062b9905e59435f1b9175eb95832294d93e51193003622d3bcc6dd16ee07df
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104315853"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120042462"
 ---
 # <a name="simplifying-game-installation"></a>簡化遊戲安裝
 
-在主控台而不是在 Windows 上執行之遊戲的主要優點之一，就是安裝程式或缺乏。 當遊戲首次在主控台上執行時，播放程式會進行一些選擇或確認，而且幾乎可以立即開始播放。 相較之下，在 Windows 上安裝遊戲比較複雜，因為它需要大量的使用者輸入，以及可能會有很長的安裝流程。 不過，您可以改進此安裝程式，以提供更好的 Windows 遊戲玩家體驗。 本文概述 Windows 遊戲開發人員可以和執行的一些概念，以改善整體體驗。
+在主控台而不是在 Windows 上執行遊戲的其中一項主要優點，就是安裝程式，或缺乏。 當遊戲首次在主控台上執行時，播放程式會進行一些選擇或確認，而且幾乎可以立即開始播放。 相較之下，在 Windows 上安裝遊戲比較複雜，因為它需要大量的使用者輸入，以及可能會有很長的安裝流程。 不過，您可以改進此安裝程式，以提供更好的體驗來 Windows 遊戲的玩家。 本文概述 Windows 遊戲的開發人員可以執行的一些概念，並應執行這些概念來改善整體體驗。
 
 -   [一般遊戲安裝](#typical-game-installation)
 -   [簡化的遊戲安裝](#simplified-game-installation)
@@ -25,14 +25,14 @@ ms.locfileid: "104315853"
     -   [思考您的 EULA](#think-about-your-eula)
     -   [在安裝後自動啟動](#automatically-launch-after-installation)
     -   [優化您的安裝效能](#optimize-your-installation-performance)
-    -   [在安裝期間註冊 Windows 防火牆](#register-with-windows-firewall-during-installation)
+    -   [在安裝期間向 Windows 防火牆註冊](#register-with-windows-firewall-during-installation)
     -   [為所有使用者安裝，而不只是目前的使用者](#install-for-all-users-not-just-the-current-user)
 -   [簡化安裝的範例](#example-of-simplified-installation)
 -   [總結](#summary)
 
 ## <a name="typical-game-installation"></a>一般遊戲安裝
 
-比較輕鬆安裝和開始玩遊戲所需的時間量時，一般的 Xbox 體驗優於 Windows。 圖1中的流程圖顯示 Xbox 和 Windows 上的一般安裝程式，以進行比較。
+比較輕鬆安裝和開始玩遊戲所需的時間量時，一般的 Xbox 體驗遠優於 Windows。 圖1中的流程圖顯示 Xbox 和 Windows 上的一般安裝程式，以進行比較。
 
 **圖1。一般安裝程式，Xbox 與 Windows**
 
@@ -40,7 +40,7 @@ ms.locfileid: "104315853"
 
 ## <a name="simplified-game-installation"></a>簡化的遊戲安裝
 
-但是，使用者在 Windows 上安裝遊戲的需求愈大，就不需要。 藉由執行下列概念，您將會減少使用者必須完成的步驟數目，這可以縮短安裝所需的時間量。
+但是，使用者在 Windows 上安裝遊戲的需求並不需要。 藉由執行下列概念，您將會減少使用者必須完成的步驟數目，這可以縮短安裝所需的時間量。
 
 ### <a name="ask-all-questions-up-front"></a>事先詢問所有問題
 
@@ -94,9 +94,9 @@ DirectX EULA 可以和應該附加至遊戲開發人員的授權合約。 不允
 
 開發人員應該測試其安裝，以判斷安裝需要多少時間。 開發人員可以使用其安裝工具的最新版本，以及藉由將安裝媒體上的資料版面配置優化，來縮短安裝時間。 大部分的 DVD 製作工具都具有版面配置優化的選項，可改善安裝時間，而不會增加開發工作負載。
 
-### <a name="register-with-windows-firewall-during-installation"></a>在安裝期間註冊 Windows 防火牆
+### <a name="register-with-windows-firewall-during-installation"></a>在安裝期間向 Windows 防火牆註冊
 
-如果您的遊戲可作為伺服器執行，或遊戲網路模型是對等，請在安裝時向 Windows 防火牆註冊您的遊戲。 這可防止在使用者嘗試存取網路時，防火牆對話方塊出現在遊戲中間。 如果遊戲是單純的用戶端，則安裝程式不應將遊戲新增至防火牆的例外清單。
+如果您的遊戲可作為伺服器執行，或遊戲網路模型是點對點，請在安裝時向 Windows 防火牆註冊您的遊戲。 這可防止在使用者嘗試存取網路時，防火牆對話方塊出現在遊戲中間。 如果遊戲是單純的用戶端，則安裝程式不應將遊戲新增至防火牆的例外清單。
 
 如需詳細資訊，請參閱適用于遊戲開發人員的 Windows 防火牆。
 
@@ -106,7 +106,7 @@ DirectX EULA 可以和應該附加至遊戲開發人員的授權合約。 不允
 
 ## <a name="example-of-simplified-installation"></a>簡化安裝的範例
 
-在 [圖 2] 中，您可以利用簡化的安裝對話方塊，以改良的方式在 Windows 中安裝遊戲的流程範例。
+在 [圖 2] 中，您可以利用簡化的安裝對話方塊，在 Windows 中安裝遊戲的改良程式範例。
 
 **[圖 2]簡化的安裝流程**
 
@@ -125,10 +125,10 @@ DirectX EULA 可以和應該附加至遊戲開發人員的授權合約。 不允
 -   為了方便起見，[ **執行遊戲** ] 核取方塊提供另一次啟動遊戲的機會。 此選項一律預設為未選取，因為只有在安裝 [**安裝選項**] 對話方塊中取消選取 [安裝完成] 對話方塊 **之後**，才會顯示 [**安裝完成**] 對話方塊。
 -   [ **確定]** 按鈕會關閉對話方塊，並選擇性地在 **執行** 時採取動作並 **查看讀我檔案** 核取方塊。
 
-## <a name="summary"></a>總結
+## <a name="summary"></a>摘要
 
 玩家希望儘快播放遊戲。 玩家想要做的最後一件事，就是透過對話來費力，然後選擇與他或她已安裝的所有其他遊戲一樣。 執行這些構想可以縮短玩家花在 Windows 上安裝遊戲的時間，並協助改善 Windows 遊戲體驗的整體品質。
 
- 
+ 
 
- 
+ 

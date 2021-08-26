@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: f1c24de6af571eec948a92f666a76df6b65187c6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 07b897d22c1aa8e666c5de40aecb8ef63d17384957e82eee8dc7d569f0e71f57
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994291"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120003188"
 ---
 # <a name="playlistcopy"></a>播放清單。複製
 
@@ -38,7 +38,7 @@ ms.locfileid: "106994291"
 
 ## <a name="remarks"></a>備註
 
-這個方法只會複製播放清單中的已核取專案，而且其運作方式與在 Windows Media Player 的完整模式中， **從 [從 CD 複製** ] 窗格的方式相同。 若要讓此方法運作，cd 必須位於 CD 光碟機中。 將 **checkboxesVisible** 屬性設定為 true，可讓使用者在複製前選取 CD 上的個別專案。
+這個方法只會複製播放清單中的已核取專案，而且其運作方式與在 Windows Media Player 的完整模式中，**從 [從 CD 複製**] 窗格的方式相同。 若要讓此方法運作，cd 必須位於 CD 光碟機中。 將 **checkboxesVisible** 屬性設定為 true，可讓使用者在複製前選取 CD 上的個別專案。
 
 ## <a name="requirements"></a>規格需求
 

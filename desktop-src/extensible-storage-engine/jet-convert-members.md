@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.jet_
 ms:contentKeyID: 55103539
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 1943588cf4210a8961d81060d41920b492a8c674
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cae8f2cd9cd3438978645956d840bf34955e277e0686d9883b4e3f3b2a2f1def
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848325"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120017638"
 ---
 # <a name="jet_convert-members"></a>JET_CONVERT 成員
 
@@ -21,7 +21,7 @@ ms.locfileid: "103848325"
 
 **注意：此 API 現已淘汰。**
 
-JetCompact (的轉換選項 [JET_SESID、字串、字串、JET_PFNSTATUS、JET_CONVERT、CompactGrbit) ](./api.jetcompact-method.md)。 這項功能已在 Windows Server 2003 中停用。
+JetCompact (的轉換選項 [JET_SESID、字串、字串、JET_PFNSTATUS、JET_CONVERT、CompactGrbit) ](./api.jetcompact-method.md)。 Windows Server 2003 已停止這項功能。
 
 [JET_CONVERT](./jet-convert-class.md)類型會公開下列成員。
 

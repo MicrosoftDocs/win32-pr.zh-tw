@@ -4,12 +4,12 @@ ms.assetid: e4f0e638-f606-4745-888b-14a846c7fd37
 title: 'WM_QUERYDRAGICON 訊息 (Winuser .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ed2c6040df06923e778eb717db4148bed233db4b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 20aac405a247f89a31c49f60a4e421fa171465d399dcb61a436936de5c646362
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104319208"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120055988"
 ---
 # <a name="wm_querydragicon-message"></a>WM \_ QUERYDRAGICON 訊息
 
@@ -50,7 +50,7 @@ ms.locfileid: "104319208"
 
 ## <a name="remarks"></a>備註
 
-當使用者拖曳沒有類別圖示的視窗圖示時，系統會將圖示取代為預設游標。 如果應用程式需要在拖曳期間顯示不同的資料指標，它必須傳回與顯示器驅動程式解析度相容之游標或圖示的控制碼。 如果應用程式將控制碼傳回至色彩游標或圖示，系統會將游標或圖示轉換成黑色和白色。 應用程式可以呼叫 [**LoadCursor**](/windows/win32/api/winuser/nf-winuser-loadcursora) 或 [**LoadIcon**](/windows/win32/api/winuser/nf-winuser-loadicona) 函式，以從可執行檔的 ( .exe) 檔案中的資源載入資料指標或圖示，並取得此控制碼。
+當使用者拖曳沒有類別圖示的視窗圖示時，系統會將圖示取代為預設游標。 如果應用程式需要在拖曳期間顯示不同的資料指標，它必須傳回與顯示器驅動程式解析度相容之游標或圖示的控制碼。 如果應用程式將控制碼傳回至色彩游標或圖示，系統會將游標或圖示轉換成黑色和白色。 應用程式可以呼叫 [**LoadCursor**](/windows/win32/api/winuser/nf-winuser-loadcursora) 或 [**LoadIcon**](/windows/win32/api/winuser/nf-winuser-loadicona) 函式，將資料指標或圖示從其可執行檔中的資源載入 (.exe) 檔案，以及取得此控制碼。
 
 如果對話方塊程式處理此訊息，則應該將所需的傳回值轉換成 **布林** 值，並直接傳回值。 [**SetWindowLong**](/windows/win32/api/winuser/nf-winuser-setwindowlonga)函數所設定的 **DWL \_ MSGRESULT** 值會被忽略。
 
@@ -62,7 +62,7 @@ ms.locfileid: "104319208"
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                               |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 

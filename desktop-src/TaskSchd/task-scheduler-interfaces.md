@@ -6,12 +6,12 @@ keywords:
 - 工作排程器工作排程器、參考、介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d9c088c1388da273b0b0a17c92e21be18e1a983
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: 0bce7b18fe1791f913d86352ce0b68c2bbd94a590ca921eb063ea54f0d812e58
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "106968313"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120033888"
 ---
 # <a name="task-scheduler-interfaces"></a>工作排程器介面
 
@@ -20,7 +20,7 @@ ms.locfileid: "106968313"
 這些主題包含介面的描述、介面所定義之屬性和方法的清單，以及使用介面時應注意的任何特殊情況的備註。
 
 
-下列是在 Windows Vista 作業系統中使用的工作排程器2.0 中引進的介面。
+下列介面是在 Windows Vista 作業系統中使用的工作排程器2.0 中引進。
 
 
 
@@ -74,7 +74,7 @@ ms.locfileid: "106968313"
 
 
 > [!WARNING]
-> 工作排程器1.0 介面只能在 Windows 2000、Windows XP 及 Windows Server 2003 作業系統中使用。 它們已在 Windows Vista 中淘汰，未來可能會完全移除。 請改用上面所列的工作排程器2.0 介面。
+> 工作排程器1.0 介面僅適用于 Windows 2000、Windows XP 和 Windows Server 2003 作業系統。 它們在 Windows Vista 中已被取代，而且未來可能會完全移除。 請改用上面所列的工作排程器2.0 介面。
 
  
 

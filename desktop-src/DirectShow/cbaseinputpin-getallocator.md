@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 72aaf6bb4c1ff8bf108086a8a42a618267c4bc06
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 119f3ffaa5863584b55210306b38b011c758f9bab0febac47547bdfe469b5ac0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108099707"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120056338"
 ---
 # <a name="cbaseinputpingetallocator-method"></a>CBaseInputPin. GetAllocator 方法
 

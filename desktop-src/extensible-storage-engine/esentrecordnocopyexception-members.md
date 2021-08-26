@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102580
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 03b58576442aa724d838291ed89128aaa2f645fc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 29b6ec7a077a478b7cfe75a7d7206a5b8a546a71604259053427c1e160354286
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104553047"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119971228"
 ---
 # <a name="esentrecordnocopyexception-members"></a>EsentRecordNoCopyException 成員
 

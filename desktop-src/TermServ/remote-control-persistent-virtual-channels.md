@@ -5,12 +5,12 @@ ms.assetid: 0c3d5429-250e-4272-8cdd-69097acfaff4
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d87054a79863df5816b30fced648ab40251a80e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 71206b8272fb516da9a3c39bed7f7d54edbc5227958d975bf11b114db9c13869
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372575"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119988778"
 ---
 # <a name="remote-control-persistent-virtual-channels"></a>遠端控制持續性虛擬通道
 
@@ -18,9 +18,9 @@ ms.locfileid: "104372575"
 
 遠端控制持續性虛擬通道是在呼叫 **VirtualChannelInit** 期間指定。 如需有關這個的特定資訊，請參閱 [**VirtualChannelInit**](/windows/desktop/api/Cchannel/nc-cchannel-virtualchannelinit) 的參考頁面。
 
- 
+ 
 
- 
+ 
 
 
 

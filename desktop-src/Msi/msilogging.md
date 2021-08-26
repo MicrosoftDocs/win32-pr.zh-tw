@@ -4,12 +4,12 @@ ms.assetid: f5ae389e-bc27-465d-886b-4f4f41d49118
 title: MsiLogging 屬性
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 97e53df57723157f7184a904e512aac9035a9f53
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e166a52e970cdb3e0be5ffae6611a8ea9a299232d55f36a45ba470b3717cafae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995478"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120042778"
 ---
 # <a name="msilogging-property"></a>MsiLogging 屬性
 
@@ -32,8 +32,8 @@ ms.locfileid: "106995478"
 | <dl> <dt>c</dt> </dl> | 初始 UI 參數。<br/>                                              |
 | <dl> <dt>m</dt> </dl> | 記憶體不足或嚴重的離開資訊。<br/>                            |
 | <dl> <dt>o</dt> </dl> | 磁碟空間不足的訊息。<br/>                                         |
-| <dl> <dt>P</dt> </dl> | 終端機屬性。<br/>                                                |
-| <dl> <dt>V</dt> </dl> | 詳細資訊輸出。<br/>                                                     |
+| <dl> <dt>p</dt> </dl> | 終端機屬性。<br/>                                                |
+| <dl> <dt>v</dt> </dl> | 詳細資訊輸出。<br/>                                                     |
 | <dl> <dt>x</dt> </dl> | 額外的調試資訊。 僅適用于 Windows Server 2003。<br/> |
 | <dl> <dt>!</dt> </dl> | 將每一行排清到記錄檔。<br/>                                         |
 
@@ -59,7 +59,7 @@ ms.locfileid: "106995478"
 
 | 需求 | 值 |
 |--------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 版本<br/> | Windows Server 2012、Windows 8、Windows Server 2008 R2 或 Windows 7 上的 Windows Installer 5.0。 Windows Server 2008 或 Windows Vista 上的 Windows Installer 4.0 或 Windows Installer 4.5。 Windows Server 2003 或 Windows XP 上的 Windows Installer 4.5。 如需 Windows Installer 版本所需的最小 Windows service pack 相關資訊，請參閱 [Windows Installer Run-Time 需求](windows-installer-portal.md) 。<br/> |
+| 版本<br/> | WindowsWindows Server 2012、Windows 8 Windows Server 2008 R2 或 Windows 7 上的安裝程式5.0。 WindowsWindows Server 2008 或 Windows Vista 上的安裝程式4.0 或 Windows Installer 4.5。 WindowsWindows Server 2003 或 Windows XP 上的安裝程式4.5。 如需 Windows Installer 版本所需的最低 Windows service pack 相關資訊，請參閱[Windows Installer Run-Time 需求](windows-installer-portal.md)。<br/> |
 
 
 

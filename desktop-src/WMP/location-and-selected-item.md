@@ -18,12 +18,12 @@ keywords:
 - 程式庫，選取的專案
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d665b11e7509e369224d3e85db30dddb4a988a14
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6532c6417b6e95632aa21fa8d4a3a9ed943ad844eb1324f34eb80191043eeb80
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104183418"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120003375"
 ---
 # <a name="location-and-selected-item"></a>位置和選取的專案
 
@@ -52,7 +52,7 @@ Windows Media Player 使用下列五個專案來描述其目前線上商店內�
 
 
 
- 
+ 
 
 Windows Media Player 中的索引標籤代表不同的工作。 Player 會在三個不同的工作窗格中顯示線上商店內容： **媒體** 櫃、 **燒錄** 和 **同步**。[程式庫] 工作窗格也稱為 [ **流覽** 工作窗格]。 有時，工作窗格稱為 *功能*，因此您可能會在此檔中看到 [ *燒錄功能* 與 *同步* 處理] 等詞彙。
 
@@ -72,7 +72,7 @@ Windows Media Player 中的索引標籤代表不同的工作。 Player 會在三
 
 
 
- 
+ 
 
 在 [ **同步** 處理工作] 窗格中，播放程式會顯示所有專輯的集合，也就是專輯的容器。 在此視圖中，選取的專案是識別碼為300的專輯。 請注意，程式庫位置識別碼不適用於此視圖。
 
@@ -88,7 +88,7 @@ Windows Media Player 中的索引標籤代表不同的工作。 Player 會在三
 
 
 
- 
+ 
 
 在樹狀檢視控制項中，會選取線上商店的根節點。 在此情況下，沒有任何容器，因此沒有任何專案。 整個 [ **媒體** 櫃] 工作窗格都會顯示 [探索] 頁面。
 
@@ -104,7 +104,7 @@ Windows Media Player 中的索引標籤代表不同的工作。 Player 會在三
 
 
 
- 
+ 
 
 在 [ **同步** 處理工作] 窗格中，播放程式會將2002年份顯示為追蹤的容器。 在此視圖中，選取的專案是識別碼為450的軌跡。
 
@@ -120,7 +120,7 @@ Windows Media Player 中的索引標籤代表不同的工作。 Player 會在三
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -132,9 +132,9 @@ Windows Media Player 中的索引標籤代表不同的工作。 Player 會在三
 [**探索頁面**](discovery-pages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

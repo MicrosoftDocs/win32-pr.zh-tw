@@ -1,5 +1,5 @@
 ---
-description: 以下是 Windows 影像取得的有效頁面大小 (WIA) 2.0 專案屬性，例如 WIA \_ ip \_ 頁面 \_ 大小。 以英寸為萬分之一的維度。
+description: 以下是 Windows 影像取得的有效頁面大小 (wia) 2.0 專案屬性，例如 wia \_ ip \_ 頁面 \_ 大小。 以英寸為萬分之一的維度。
 ms.assetid: 64f2296b-7104-49be-9632-f075d06f94aa
 title: 'WIA 2.0 頁面大小常數 (Wiadef .h) '
 ms.topic: reference
@@ -70,20 +70,20 @@ api_type:
 - HeaderDef
 api_location:
 - wiadef.h
-ms.openlocfilehash: d3b8751f69b96b5286828de670359628c94c5aac
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 75d0f336d2ccca997d9b5d24cd4ade1b5994c7b4dab8f7fa8c7027b2d8b60988
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972424"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120056858"
 ---
 # <a name="wia-20-page-size-constants"></a>WIA 2.0 頁面大小常數
 
-以下是 Windows 影像取得的有效頁面大小 (WIA) 2.0 專案屬性，例如 WIA \_ ip \_ 頁面 \_ 大小。 以英寸為萬分之一的維度。
+以下是 Windows 影像取得的有效頁面大小 (wia) 2.0 專案屬性，例如 wia \_ ip \_ 頁面 \_ 大小。 以英寸為萬分之一的維度。
 
 
 
-| 常數/值                                                                                                                                                                                                                                   | Description                                                   |
+| 常數/值                                                                                                                                                                                                                                   | 描述                                                   |
 |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------|
 | <span id="WIA_PAGE_A4"></span><span id="wia_page_a4"></span><dl> <dt>**WIA \_頁面 \_ A4**</dt> <dt>0</dt> </dl>                                  | 8267 x 11692<br/>                                       |
 | <span id="WIA_PAGE_LETTER"></span><span id="wia_page_letter"></span><dl> <dt>**WIA \_分頁 \_ 字母**</dt> <dt>1</dt> </dl>                      | 8500 x 11000<br/>                                       |
@@ -152,8 +152,8 @@ ms.locfileid: "106972424"
 
 | 需求 | 值 |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                      |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                      |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                |
 | 標頭<br/>                   | <dl> <dt>Wiadef。h</dt> </dl> |
 
 

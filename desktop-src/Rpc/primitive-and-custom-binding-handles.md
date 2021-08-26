@@ -4,12 +4,12 @@ description: 以控制碼 t 或 RPC 系結控制碼類型宣告的所有控制�
 ms.assetid: 7a948aad-02fa-421d-b32c-f5dab071bd04
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d496a9a54ba0ee7b9552326f7c4dc15792a72bce
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 2e0e1d6f7cc2ad4d11e268e0f5c83b0275fcd2677a32303820507272f550b834
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104023977"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120019148"
 ---
 # <a name="primitive-and-custom-binding-handles"></a>基本和自訂系結控制碼
 
@@ -21,14 +21,14 @@ ms.locfileid: "104023977"
 
 
 
-| 函式原型                     | Description       |
+| 函式原型                     | 描述       |
 |----------------------------------------|-------------------|
 | 處理 \_ t 類型系結 \_ (*類型*)            | 系結常式   |
 | void 類型 \_ 解除系結 (*類型*， *處理 \_ t*)  | 解除系結常式 |
 
 
 
- 
+ 
 
 下列範例顯示如何在 IDL 檔案中定義自訂系結控制碼：
 
@@ -115,6 +115,6 @@ void __RPC_USER DATA_HANDLE_TYPE_unbind(
 -   基本和明確
 -   自訂和明確
 
- 
+ 
 
- 
+ 

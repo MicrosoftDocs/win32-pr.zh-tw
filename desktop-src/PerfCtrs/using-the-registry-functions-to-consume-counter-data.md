@@ -4,12 +4,12 @@ ms.assetid: feac7b8d-1dee-462c-89dc-bec1ba045da2
 title: 使用登錄函式來使用計數器資料
 ms.topic: article
 ms.date: 08/17/2020
-ms.openlocfilehash: ce2a4ba9992510cb296b037cfd98965410c48939
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 69f64f6e4cb44dd98d4f5097ca791054cd04c7e07219dc0e270cbfdff4cdbdc2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106980852"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120033118"
 ---
 # <a name="using-the-registry-functions-to-consume-counter-data"></a>使用登錄函式來使用計數器資料
 

@@ -4,12 +4,12 @@ description: 功能區架構字型控制項的屬性索引鍵參考檔。
 ms.assetid: fe0f4255-c429-4821-a180-38a3bdbf0623
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 987b2bfda06a56df0cfe31eed9a3bc2f22241dc0
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 9404adb6c51e0a175297ba0987a31a2e06d0da13913bf789935b3567e533401b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104186031"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120056268"
 ---
 # <a name="font-control-properties"></a>字型控制項屬性
 

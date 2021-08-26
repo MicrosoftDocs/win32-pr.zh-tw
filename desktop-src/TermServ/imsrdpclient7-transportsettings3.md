@@ -30,12 +30,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1c60b58f8f2438de0d43f69ce0b3bb73607e7551
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: eeff2c3d3427c9c8c5323f3c4cbea9d194c81d223c2a07ee364f87dd1dd2c33d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103685673"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120033338"
 ---
 # <a name="imsrdpclient7transportsettings3-property"></a>IMsRdpClient7：： TransportSettings3 屬性
 

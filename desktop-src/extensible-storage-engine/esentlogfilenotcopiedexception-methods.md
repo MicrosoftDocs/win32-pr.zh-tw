@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102108
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 3f328e66722781202a11cf5c22a6e7f7d708c146
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1a9487787f2c4bf9ba30485bfe3d8f2323b0e777e0f26ddfb9649dce88b24e04
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104555007"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119971596"
 ---
 # <a name="esentlogfilenotcopiedexception-methods"></a>EsentLogFileNotCopiedException 方法
 

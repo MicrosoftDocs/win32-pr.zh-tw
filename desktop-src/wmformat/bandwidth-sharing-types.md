@@ -3,18 +3,18 @@ title: 頻寬共用類型
 description: 頻寬共用類型
 ms.assetid: 2da15981-65d4-4d77-a68c-810ded18670c
 keywords:
-- Windows Media Format SDK，頻寬共用
+- Windows媒體格式 SDK，頻寬共用
 - Advanced Systems Format (ASF) 、頻寬共用
 - ASF (Advanced 系統格式) 、頻寬共用
 - 頻寬共用，類型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7c30f7995f63cd07e5bc2315e0881de95a1400b4
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: faf2b9ea05210e39c54334373be725284dbd1affc0170be6568600eeb4c2bead
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "103681420"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120055588"
 ---
 # <a name="bandwidth-sharing-types"></a>頻寬共用類型
 
@@ -31,7 +31,7 @@ ms.locfileid: "103681420"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -40,9 +40,9 @@ ms.locfileid: "103681420"
 [**GUID 值**](guid-values.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

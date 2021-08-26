@@ -4,12 +4,12 @@ ms.assetid: a1bc40ea-d928-495a-abc0-daf097202a12
 title: 將效能資料寫入至記錄檔
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: afce3c85b36d66f1b621e4c4f174bff327e6084a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f97bce7d5256db5ebeaee659a12809535b9718bc6fdadc807c9d9ffdc8b67c7f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106983634"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120033078"
 ---
 # <a name="writing-performance-data-to-a-log-file"></a>將效能資料寫入至記錄檔
 

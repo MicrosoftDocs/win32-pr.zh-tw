@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 650d05f379be634bfdd9dfb0908153260f795b00
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: af4dea966b63549c4bcef913175c6c97e1c49d73e3d5694cfcd0f7b6c8170497
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108098366"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119989158"
 ---
 # <a name="d3dx10getimageinfofromresource-function"></a>D3DX10GetImageInfoFromResource 函式
 

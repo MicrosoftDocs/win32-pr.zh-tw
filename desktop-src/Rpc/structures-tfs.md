@@ -4,12 +4,12 @@ description: 遠端程序呼叫中的各種結構類型的描述， (RPC) 。
 ms.assetid: edaf547d-d3d1-443c-93dd-8e036bc42944
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e4ccae91f703badd2e0153dfc3d8acff1ace562f
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 1783508a834ce2fa3d93d3db04edc1de362d6f888c29511c1eb6852cce0e83ae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104023821"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120017408"
 ---
 # <a name="structures-rpc"></a>RPC) 的結構 (
 
@@ -27,7 +27,7 @@ ms.locfileid: "104023821"
 > [!Note]  
 > 相較于陣列類別目錄，它會清楚地描述最高可達64k 大小的結構， (大小適用于結構) 的平面部分，也就是沒有適用于 SM 和 LG 陣列的專案。
 
- 
+ 
 
 **結構通用的成員**
 
@@ -175,7 +175,7 @@ FC_END
 > [!Note]  
 > 這與其他結構相反，後者會將內嵌陣列或結構中所包含之任何指標的描述複製到它們自己的指標配置 \_<> 欄位中。
 
- 
+ 
 
 複雜結構指標配置的格式也有截然不同的差異。 因為它只包含實際指標成員的描述，而且因為複雜結構會一次封送處理和取消封送處理一個欄位，所以指標 \_ 版面配置<> 欄位只包含所有指標成員的指標描述。 沒有開始 FC \_ PP，也沒有任何一般指標 \_ 版面配置<> 資訊。
 
@@ -188,7 +188,7 @@ FC_END
     > [!Note]  
     > 另外還有緩衝區對齊權杖，FC \_ ALIGNB2 透過 fc \_ ALIGNM8; 這些都不會使用。
 
-     
+     
 
 -   記憶體填補。 這些只會發生在結構描述的結尾，並表示結構中符合標準的陣列之前的記憶體填補位元組數： FC \_ STRUCTPADn，其中 n 是填補的位元組數目。
 -   任何內嵌的 nonbase 類型 (注意，標準的陣列永遠不會出現在結構配置) 中。 這有4個位元組的描述：
@@ -206,6 +206,6 @@ FC_END
 
 如有需要，可能也會在 \_ 終止 fc 結束之前有 FC PAD， \_ 以確保格式字串會在 FC 端之後的雙位元組界限上對齊 \_ 。
 
- 
+ 
 
- 
+ 

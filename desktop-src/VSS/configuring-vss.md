@@ -4,12 +4,12 @@ ms.assetid: fe6d7e5d-c181-4413-a4ca-c9e0c7cfc6f5
 title: 設定 VSS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b042e33a46a36f68883c204ae1698899c5a83529
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 911ba58b29b63e84cdfc12c17618ba394ee0b24d3b2c0d3f3381360548a3c135
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103695371"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120032848"
 ---
 # <a name="configuring-vss"></a>設定 VSS
 

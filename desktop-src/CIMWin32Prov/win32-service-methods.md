@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Win32_Service 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: aabb8e998cbfc5bf86ef47cd3f1820dd6499274c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 893ae7b76eccef0c82cd1ee3b6e562bcc81110377ac057faa82416928bf8743a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936106"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119971538"
 ---
 # <a name="win32_service-methods"></a>Win32 \_ 服務方法
 

@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 24495c94cca0eb6b99bc209cad8f25fac8f66896
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 1c5d2f1a475800506dadc8929079ecb2549d59bfd838f340c56e5f763aa9af24
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104468077"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120002888"
 ---
 # <a name="uncompress-method-of-the-cim_datafile-class"></a>CIM \_ 資料檔案類別的解壓縮方法
 
@@ -96,7 +96,7 @@ uint32 Uncompress();
 **12**
 </dt> <dd>
 
-平臺不是 Windows。
+平臺未 Windows。
 
 </dd> <dt>
 

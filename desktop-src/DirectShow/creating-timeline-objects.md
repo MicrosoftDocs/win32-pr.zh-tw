@@ -4,12 +4,12 @@ ms.assetid: fb369b32-a54b-4d8a-8358-5f05aa48f853
 title: 建立時間軸物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 929fffb6a953e198b6e7ed9b17250d45e84f7932
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: c7c0a2a88b2cd931e6a9d12274f4a2503b4c97d52348b6ed2629c22bf204f302
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106973345"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120054778"
 ---
 # <a name="creating-timeline-objects"></a>建立時間軸物件
 

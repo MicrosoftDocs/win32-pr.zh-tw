@@ -6,26 +6,26 @@ keywords:
 - Windows Media Player，媒體專案的屬性
 - Windows Media Player 物件模型，媒體專案的屬性
 - 物件模型、媒體專案的屬性
-- Windows Media Player 行動裝置，媒體專案的屬性
+- Windows Media Player行動電話，媒體專案的屬性
 - Windows Media Player ActiveX 控制項、媒體專案的屬性
-- Windows Media Player 的行動 ActiveX 控制項、媒體專案的屬性
-- ActiveX 控制項、媒體專案的屬性
+- Windows Media Player行動 ActiveX 控制項、媒體專案的屬性
+- ActiveX 控制項，媒體專案的屬性
 - Windows Media Player 文件庫、媒體專案的屬性
 - 文件庫、媒體專案的屬性
 - 屬性，讀取值
 - 讀取屬性值
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d527429b71cff5594c127b3ad2bfb82b3f3b2ef
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 8431405b68435f41cb357a810e30c37bb96c5971824b3878b1982986aa0d0833
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106983289"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120002828"
 ---
 # <a name="reading-attribute-values"></a>讀取屬性值
 
-您可以在程式庫和 Windows Media 檔案中找到的屬性具有預先定義的名稱。 您可以撰寫程式碼，藉由將該屬性的名稱傳遞給 *媒體*，以抓取一個屬性的值。**getItemInfo** 或 *媒體*。**getItemInfoByType**。 您也可以撰寫程式碼，以抓取檔案或專案中的所有屬性值。
+您可以在文件庫中找到的屬性，以及 Windows 媒體檔案中有預先定義的名稱。 您可以撰寫程式碼，藉由將該屬性的名稱傳遞給 *媒體*，以抓取一個屬性的值。**getItemInfo** 或 *媒體*。**getItemInfoByType**。 您也可以撰寫程式碼，以抓取檔案或專案中的所有屬性值。
 
 下列 c # 範例會抓取 **Title** 屬性的值，並將它顯示在訊息方塊中。 在此範例中， **player** 物件已定義為 AxWMPLib. AxWindowsMediaPlayer player。
 
@@ -102,9 +102,9 @@ private string getAttributeValues(string strAttrName, IWMPMedia3 media)
 [**從 CD 或 DVD 讀取屬性值**](reading-attribute-values-from-a-cd-or-dvd.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

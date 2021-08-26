@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 71bc0f4edb879fc4a51a012bc53db67031056f47
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 3baa83179ac6c5040aa85a5fcf2af0d932a4c8e9cdc2d10742c5c8aaa66abb5f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108089687"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120003798"
 ---
 # <a name="create-method-of-the-win32_service-class-cimwin32-wmi-providers"></a>Win32_Service 類別的建立方法 (CIMWin32 WMI 提供者) 
 
@@ -174,7 +174,7 @@ uint32 Create(
 *StartMode* \[在\]
 </dt> <dd>
 
-Windows 基底服務的啟動模式。
+Windows 基礎服務的啟動模式。
 
 <dt>
 
@@ -206,7 +206,7 @@ Boot
 
 </dd> <dt>
 
-Disabled
+已停用
 </dt> <dd>
 
 無法再啟動的服務。

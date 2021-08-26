@@ -4,18 +4,18 @@ description: 您可以使用 Windows 事件記錄檔 API 來存取本機電腦�
 ms.assetid: df789981-0e1c-4d68-9bd5-5d054f1724d4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e0063238560ddd7f1613e94b83ecc7f27900bb3
-ms.sourcegitcommit: c2a1c4314550ea9bd202d28adfcc7bfe6180932f
+ms.openlocfilehash: 0a64bf1b3bded6ba1c72231e85bc78fa7f486739741fea1391c869ad79b457e5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "104092594"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120032578"
 ---
 # <a name="accessing-remote-computers"></a>存取遠端電腦
 
 您可以使用 Windows 事件記錄檔 API 來存取本機電腦或遠端電腦上的資料。 若要存取遠端電腦上的資料，您必須呼叫 [**EvtOpenSession**](/windows/desktop/api/WinEvt/nf-winevt-evtopensession) 函數來建立遠端會話內容。 當您呼叫此函式時，您會指定要連接的遠端電腦名稱稱、用來建立連線的使用者認證，以及用來驗證使用者的驗證類型。 若要指定目前的使用者，請將 [網域]、[使用者] 和 [密碼] 成員設為 **Null**。
 
-當您呼叫 Windows 事件記錄檔 API 時，您會將控制碼傳遞至 [**EvtOpenSession**](/windows/desktop/api/WinEvt/nf-winevt-evtopensession) 函式所傳回的遠端會話內容。  (存取本機電腦上的資料，請傳遞 **Null** 以指定預設會話。 ) 若要存取遠端電腦上的資料，遠端電腦必須啟用「遠端事件日誌管理」 Windows 防火牆例外;否則，當您嘗試使用會話控制碼時，該呼叫將會發生 RPC \_ S \_ 伺服器無法使用的錯誤 \_ 。 您要連接的電腦必須執行 Windows Vista 或更新版本。
+當您呼叫 Windows 事件記錄檔 API 時，您會將控制碼傳遞至 [**EvtOpenSession**](/windows/desktop/api/WinEvt/nf-winevt-evtopensession)函式所傳回的遠端會話內容。  (存取本機電腦上的資料，請傳遞 **Null** 以指定預設會話。 ) 若要存取遠端電腦上的資料，遠端電腦必須啟用「遠端事件日誌管理」 Windows 防火牆例外;否則，當您嘗試使用會話控制碼時，該呼叫將會發生 RPC \_ S \_ 伺服器無法使用的錯誤 \_ 。 您要連接的電腦必須執行 Windows Vista 或更新版本。
 
 下列範例示範如何連接到遠端電腦。
 

@@ -4,12 +4,12 @@ description: 執行比較篩選。
 ms.assetid: 59786ED2-48FB-494E-A5A4-F732D63BF01B
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 23563fe52bbc943e8756d04085b66d156ab259d7
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 2656f70a95487ce98aadc30a028fccaed00cb1c8d6324d64bb22c9672543d5f9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104990735"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120067728"
 ---
 # <a name="sample_c-sm4---asm"></a>範例 \_ c (sm4-asm) 
 
@@ -87,9 +87,9 @@ SrcResource 參數的參數必須是. r (red) swizzle。 **範例 \_ c** 專門�
 | [著色器模型5](d3d11-graphics-reference-sm5.md)        | 是       |
 | [著色器模型4。1](dx-graphics-hlsl-sm4.md)              | 是       |
 | [著色器模型4](dx-graphics-hlsl-sm4.md)                | 是       |
-| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 不可以        |
-| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 不可以        |
-| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 不可以        |
+| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 否        |
+| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 否        |
+| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 否        |
 
 
 

@@ -3,7 +3,7 @@ title: 'LVM_GETINSERTMARK 訊息 (Commctrl .h) '
 description: 抓取插入點的位置。
 ms.assetid: ad00df4c-4b4b-48f1-8821-7849a216df2e
 keywords:
-- LVM_GETINSERTMARK message Windows 控制項
+- LVM_GETINSERTMARK 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a8cba96ae7d357e3e1f5a007fa41f6b7e9e3b64f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f5e64281ccc9d4638353ddbb6062ce5cf1c0a678e009639dcc43cd0d4cf52741
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843352"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120002668"
 ---
 # <a name="lvm_getinsertmark-message"></a>LVM \_ GETINSERTMARK 訊息
 
@@ -54,8 +54,8 @@ ms.locfileid: "103843352"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

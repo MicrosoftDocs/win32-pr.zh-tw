@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102645
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: affd02a6164d24cd0038d05a8a34a3fc3dfa0dc2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 45013e5b7e9aebc4ec2d04b8d9f1acb83c4fd4a15d0ba1d9d3cfc30060b26611
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191971"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120018494"
 ---
 # <a name="esentrollbackerrorexception-methods"></a>EsentRollbackErrorException 方法
 

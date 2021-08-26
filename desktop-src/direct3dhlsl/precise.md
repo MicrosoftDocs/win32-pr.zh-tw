@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 03f288fb5dafee0e29c8c11cab72156f7ad3d569
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 3c7929a7ebab01b17aca3e11cb98de8796bf568cd08a3a7b04d8f3395f531d72
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104507708"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120067908"
 ---
 # <a name="precise"></a>精確
 
@@ -27,7 +27,7 @@ ms.locfileid: "104507708"
 
 
 
- 
+ 
 
 此修飾詞需要全域著色器旗標「允許重構」 \_ 。 當 \_ 有允許重構時，個別指令的個別元件結果可能會被強制由編譯器或驅動程式保持精確或不 refactorable。 如果將 [**mad**](mad--sm4---asm-.md) 指令的元件標記為 **精確**，則硬體必須執行 **mad** 指令或完全相同的對等指令，而且無法將它分割成乘上的乘號。 相反地，後面接著一個加上的乘法，其中任一或兩者都會標示為 **精確**，因此無法合併到融合的 **mad** 中。
 
@@ -42,15 +42,15 @@ ms.locfileid: "104507708"
 | 著色器模型                                              | 支援 |
 |-----------------------------------------------------------|-----------|
 | [著色器模型5](d3d11-graphics-reference-sm5.md)        | 是       |
-| [著色器模型4。1](dx-graphics-hlsl-sm4.md)              | 不可以        |
+| [著色器模型4。1](dx-graphics-hlsl-sm4.md)              | 否        |
 | [著色器模型4](dx-graphics-hlsl-sm4.md)                | 是       |
-| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 不可以        |
-| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 不可以        |
-| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 不可以        |
+| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 否        |
+| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 否        |
+| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 否        |
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -59,9 +59,9 @@ ms.locfileid: "104507708"
 [著色器模型5指令修飾詞](shader-model-5-instruction-modifiers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 2c395d81-4f46-444e-a275-7a5d806e473c
 title: 發佈產品、功能和元件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9cdd8c8445491646399c7d118a69ae497d27faff
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 74dd62e080cf58188405e20d1fd69507f849dd37ceddd01eaf1f4bbe7c59ea76
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192649"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120041988"
 ---
 # <a name="publishing-products-features-and-components"></a>發佈產品、功能和元件
 

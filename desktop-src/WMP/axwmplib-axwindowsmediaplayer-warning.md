@@ -14,12 +14,12 @@ api_type:
 - Assembly
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2a868ba7f619287cd96929c62d89dee3555d908b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 18925236148a508e66bb34e83f7ddb69f0cb59d87c98dfe0188f780ea2fc3605
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106987878"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120003998"
 ---
 # <a name="warning-event-of-the-axwindowsmediaplayer-object"></a>AxWindowsMediaPlayer 物件的警告事件
 

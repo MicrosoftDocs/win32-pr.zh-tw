@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 27b0ad5fa640b853b46cd39ae595a1f486812adb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: de8ec24c0b033731cbecf5299a747296036878ac9aa399714f7d387072ebad9f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103852623"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120067188"
 ---
 # <a name="apijetinit-method"></a>JetInit 方法
 

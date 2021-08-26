@@ -4,12 +4,12 @@ description: 本節包含一般版本列舉的相關資訊。
 ms.assetid: 002154d5-74a6-48fb-b55f-8687e4505fc7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4f77a952413584ccdd582626b8c7c000fa6f8996
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: 57c8cd78b4935061bc450dfe657c6f9c1a6437204b00aa99b4d7058a225fecd7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "103684278"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119988608"
 ---
 # <a name="common-version-enumerations"></a>一般版本列舉
 

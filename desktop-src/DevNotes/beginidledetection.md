@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Msidle.dll
-ms.openlocfilehash: 06cd016dc4102ef2f5b0f351aa4836a7f9980645
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1bbb27114177a6f64f471b0122832bc09180988019bc23a63343920eb76221f0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106993418"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120002318"
 ---
 # <a name="beginidledetection-function"></a>BeginIdleDetection 函式
 

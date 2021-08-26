@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102533
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 65f3a9e63fad670cd84f9b377634133bc5dfa2ad
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 76c6f39f992aa68fc8156e39a31db1ab48eccb474554f2cd671cb6adbdc66a22
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194643"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120018868"
 ---
 # <a name="esentpreviousversionexception-properties"></a>EsentPreviousVersionException 屬性
 

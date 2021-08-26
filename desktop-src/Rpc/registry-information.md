@@ -6,12 +6,12 @@ keywords:
 - 遠端程序呼叫 RPC、說明的登錄資訊
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 97edddb164525a0a5f68a432f359aae3ce0dee8b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 5178dfccbb00f7509c9cc829f3dda411fd54015849fd23ee825346008b030ee2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839103"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120018782"
 ---
 # <a name="registry-information"></a>登錄資訊
 
@@ -19,9 +19,9 @@ ms.locfileid: "103839103"
 
 -   設定登錄[以進行埠配置和選擇性](configuring-the-windows-xp-2000-nt-registry-for-port-allocations-and-selective-binding.md)系結。
 
- 
+ 
 
- 
+ 
 
 
 

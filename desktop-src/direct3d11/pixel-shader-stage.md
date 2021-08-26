@@ -4,12 +4,12 @@ description: 圖元著色器階段 (PS) 啟用豐富的陰影技術，例如每�
 ms.assetid: 09831B10-4FD1-41E7-8D81-5AA63DC90020
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 57142e9c32919a6959a7fac14bf544cca1dacd79
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 0dd58bbc55bbc2fb7d590036bceb061f2a304c0be16ff058d04f226021dfe3cf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104093043"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119988158"
 ---
 # <a name="pixel-shader-stage"></a>圖元著色器階段
 
@@ -49,6 +49,6 @@ ms.locfileid: "104093043"
 [ (Direct3D 10) 的管線階段 ](/windows/desktop/direct3d10/d3d10-graphics-programming-guide-pipeline-stages)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

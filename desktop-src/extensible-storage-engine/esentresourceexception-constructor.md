@@ -14,12 +14,12 @@ dev_langs:
 - JScript
 - VB
 - other
-ms.openlocfilehash: 4809bc642459ccbc604d9743eb612ad5fd0d9d4d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 659641ca192f65e28f11e05e83b0c280744877f1b512fabf224f900224e57aa9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104560371"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120018518"
 ---
 # <a name="esentresourceexception-constructor"></a>EsentResourceException 函式
 
@@ -32,7 +32,7 @@ ms.locfileid: "104560371"
 <thead>
 <tr class="header">
 <th> </th>
-<th>Name</th>
+<th>名稱</th>
 <th>描述</th>
 </tr>
 </thead>

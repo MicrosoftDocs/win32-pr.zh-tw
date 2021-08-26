@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 6fa354922e57436c0d9e3e18924dcf31afe1629e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5eb1c017353ed3e5095f5ee5d24870773c11211c14eaa44a673b4f12913c56c4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106991341"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120057038"
 ---
 # <a name="cbasecontrolvideogetvideopaletteentries-method"></a>CBaseControlVideo. GetVideoPaletteEntries 方法
 

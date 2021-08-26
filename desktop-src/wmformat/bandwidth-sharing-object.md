@@ -3,19 +3,19 @@ title: 頻寬共用物件
 description: 頻寬共用物件
 ms.assetid: 9dc863da-1842-41e7-b66c-c97e0140046d
 keywords:
-- Windows Media Format SDK，頻寬共用物件
+- Windows媒體格式 SDK，頻寬共用物件
 - Advanced Systems Format (ASF) 、頻寬共用物件
 - ASF (Advanced 系統格式) 、頻寬共用物件
 - 物件，頻寬共用物件
 - 頻寬共用、關於
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d29048e3094f1a12775dfbec7422baf349c18be7
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 449a1e43a8f5c7212f1e9c4240d85eb11c9ee39209fab4313b373a56d017b2dc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104374494"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120055598"
 ---
 # <a name="bandwidth-sharing-object"></a>頻寬共用物件
 
@@ -34,7 +34,7 @@ ms.locfileid: "104374494"
 
 
 
- 
+ 
 
 上表中的兩個方法都會設定 **IWMBandwidthSharing** 介面的指標。 **IWMBandwidthSharing** 會繼承 **IWMStreamList** 介面，因此不需要使用這個物件來呼叫 **QueryInterface** 。
 
@@ -49,7 +49,7 @@ ms.locfileid: "104374494"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -64,9 +64,9 @@ ms.locfileid: "104374494"
 [**設定檔物件**](profile-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

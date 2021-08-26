@@ -4,12 +4,12 @@ ms.assetid: 0daf5b44-ba07-47f1-95d9-28c59f7cf985
 title: SelectionTree 控制項
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5287736c3293c736d6d392ce8532b76ee7b62ded
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 894a7d90829172c29a6f1df1ffc4139cc0bf6c540bd49193c3cc2f3a396891ec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103852720"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120040348"
 ---
 # <a name="selectiontree-control"></a>SelectionTree 控制項
 
@@ -19,7 +19,7 @@ SelectionTree 控制項會自動在 Windows XP 或舊版作業系統上發佈下
 
 
 
-| 控制項事件                                                 | Description                                                                                        |
+| 控制項事件                                                 | 描述                                                                                        |
 |---------------------------------------------------------------|----------------------------------------------------------------------------------------------------|
 | [SelectionAction](selectionaction-controlevent.md)           | 從描述反白顯示專案的 [UIText 資料表](uitext-table.md) 發行字串。      |
 | [SelectionBrowse](selectionbrowse-controlevent.md)           | 產生流覽對話方塊，用來修改反白專案的路徑。                     |
@@ -37,7 +37,7 @@ SelectionTree 控制項會自動在 Windows XP 或舊版作業系統上發佈下
 
 
 
-| 控制項事件                               | Description                                        |
+| 控制項事件                               | 描述                                        |
 |---------------------------------------------|----------------------------------------------------|
 | [Dataadapter.doaction](doaction-controlevent.md)       | 通知安裝程式執行自訂動作。 |
 | [SetProperty](setproperty-controlevent.md) | 將屬性設定為新的值。                    |
@@ -78,7 +78,7 @@ SelectionTree 控制項會自動在 Windows XP 或舊版作業系統上發佈下
 
 
 
-| 屬性識別碼                                               | 十六進位位                  | Description                                                                                                                                                                                                                                                                                                                                                               |
+| 屬性識別碼                                               | 十六進位位                  | 描述                                                                                                                                                                                                                                                                                                                                                               |
 |--------------------------------------------------------------------|----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [IndirectPropertyName](indirectpropertyname-control-attribute.md) |                                  | 與控制項相關聯之間接屬性的名稱。 如果已設定間接屬性位，控制項會顯示或變更具有這個名稱的屬性值。 如果設定了間接屬性位，此名稱也會是 [控制資料表](control-table.md)之屬性資料行中所列屬性的值。                                    |
 | [位置](position-control-attribute.md)                         |                                  | 對話方塊中控制項的位置。 將控制項左上角的控制項寬度、高度和座標，輸入控制項 [資料表](control-table.md)的 Width、Height、X 和 Y 資料行中。 使用 [安裝程式單位](installer-units.md) 來表示長度和距離。<br/>                                                                             |

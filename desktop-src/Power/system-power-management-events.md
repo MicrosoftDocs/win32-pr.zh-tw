@@ -4,12 +4,12 @@ ms.assetid: f73b072a-1f69-4e26-9712-dab428edca18
 title: 系統電源管理事件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7ab18fad9116cfff9e1cd35703e32a49e3b12c8b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0558dfe0c846c6b48125a382d14f03181d7f18fb2d11deb4783af975e57c4cf0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971792"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120032928"
 ---
 # <a name="system-power-management-events"></a>系統電源管理事件
 

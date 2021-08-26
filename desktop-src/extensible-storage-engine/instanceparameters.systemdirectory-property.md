@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 8c0478b4b9d626610549240d58f3289fc24d10aa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 870a039e15e42170dc6ae85127866cd2075773468ac71fcc5b8d7b3ee56635c5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106981048"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120017658"
 ---
 # <a name="instanceparameterssystemdirectory-property"></a>InstanceParameters.SystemDirectory 屬性
 

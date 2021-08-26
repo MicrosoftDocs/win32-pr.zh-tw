@@ -4,18 +4,18 @@ ms.assetid: 877d3691-948f-4aea-89d8-0ff008126ccc
 title: 合併模組自動化
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d8ae27370b2ad898cf9413567285afc41d117815
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e592429b77671e154b932f3d79f6f57bb39a65ee2058aafd2164428234458acf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106987403"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120043048"
 ---
 # <a name="merge-module-automation"></a>合併模組自動化
 
 Mergemod.dll 提供的 COM 物件會針對合併模組執行合併作業和來源映射產生。 主要物件會針對 C/c + + 程式和自動化用戶端（包括 Visual Basic 和 VBScript）來實作為介面。
 
-安裝 Mergemod.dll 的慣用方法是使用 Windows Installer。 包含 Mergemod.dll COM 介面之元件的元件識別碼為 {FD153241-37EC-11D2-8892-00A0C981B015}。 在所有 Windows 系統上都可以使用相同的二進位檔，而 dll 將會在舊版系統上透過 regsvr32 自行註冊。
+安裝 Mergemod.dll 的慣用方法是使用 Windows Installer。 包含 Mergemod.dll COM 介面之元件的元件識別碼為 {FD153241-37EC-11D2-8892-00A0C981B015}。 您可以在所有 Windows 系統上使用相同的二進位檔，而 dll 將在舊版系統上透過 regsvr32 自行註冊。
 
 請注意，Mergemod.dll 需要在系統上安裝 Msvcrt.dll。
 

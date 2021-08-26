@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c82d298506c5117c0643df8ecea841832d5f923
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 096bd5488335d59944b03815184735a4530b20310ddc7c21389e86fac1997eec
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "106976330"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120040086"
 ---
 # <a name="float-attribute"></a>float 屬性
 
@@ -51,7 +51,7 @@ float identifier-name;
 [MIDL 基底類型](midl-base-types.md)
 </dt> <dt>
 
-[**double**](double.md)
+[**雙**](double.md)
 </dt> <dt>
 
 [ (IDL) 檔案的介面定義](interface-definition-idl-file.md)
@@ -60,9 +60,9 @@ float identifier-name;
 [**著**](typedef.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

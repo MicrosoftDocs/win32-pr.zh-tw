@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: ca70878f8f6358a3297c22cbb9ac8e49ba0ce310
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 83f248e15c3965305719269a19a1f2ff2c8feddfe0e57b6349985d9133e38789
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106982696"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120054398"
 ---
 # <a name="crendererinputpinsetmediatype-method"></a>CRendererInputPin. SetMediaType 方法
 

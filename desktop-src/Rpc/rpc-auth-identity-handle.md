@@ -6,12 +6,12 @@ keywords:
 - RPC_AUTH_IDENTITY_HANDLE
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e86559e7852172d34898d48f13bb2975ed792d85
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 973de2cf6dcefde6c640de4511b896520093b9fa978f22d5c7b7cab58af1ec6a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104106386"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120018678"
 ---
 # <a name="rpc_auth_identity_handle"></a>RPC \_ 驗證身分 \_ 識別 \_ 控制碼
 

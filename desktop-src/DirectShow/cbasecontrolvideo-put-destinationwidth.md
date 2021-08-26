@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 3ada15c61884e8e8787db06ae6fa3fbee3f79bb2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1762a7b86d38ffb4f8feeced3ce002f33fc434d07ed9716d3334aa25db69fe94
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990270"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120056818"
 ---
 # <a name="cbasecontrolvideoput_destinationwidth-method"></a>CBaseControlVideo. put \_ DestinationWidth 方法
 
@@ -55,7 +55,7 @@ HRESULT put_DestinationWidth(
 
 
 
-| 傳回碼                                                                                           | Description                                                                      |
+| 傳回碼                                                                                           | 描述                                                                      |
 |-------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------|
 | <dl> <dt>**E \_ 失敗**</dt> </dl>                | 失敗。<br/>                                                              |
 | <dl> <dt>**E \_ INVALIDARG**</dt> </dl>          | 無效引數。<br/>                                                     |

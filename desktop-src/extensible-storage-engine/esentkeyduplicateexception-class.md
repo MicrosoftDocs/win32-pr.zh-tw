@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 0d63945d5db3ca97e858e7f02fd2b4e8a9045f86
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5a93ad69d045cda0658ff8298d635b2efc5016e2850023ad9c4be16450b92a83
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320779"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119971926"
 ---
 # <a name="esentkeyduplicateexception-class"></a>EsentKeyDuplicateException 類別
 

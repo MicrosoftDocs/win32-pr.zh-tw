@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102730
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 16fb04644e579bc69cbf1b4f2509a87225902a9e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f9bd48443e05bcef03c3dc3a1cdedc348e9860ae4ec1df82e730716dcc2f3ab9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104552472"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119970828"
 ---
 # <a name="esentslvcolumncannotdeleteexception-members"></a>EsentSLVColumnCannotDeleteException 成員
 

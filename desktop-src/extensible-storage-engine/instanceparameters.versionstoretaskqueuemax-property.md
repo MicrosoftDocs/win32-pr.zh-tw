@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: fd522fa46df40182b6dfe638e7663df8e9e56c80
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5da5e2e0ac354d3263e4ef4feb0a44a20bd3b458a7375b0fa1c8a6ce75a79e0f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104469520"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120017648"
 ---
 # <a name="instanceparametersversionstoretaskqueuemax-property"></a>InstanceParameters. VersionStoreTaskQueueMax 屬性
 

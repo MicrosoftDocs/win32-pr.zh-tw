@@ -4,12 +4,12 @@ description: 應用程式可以取出單一物件或多個物件的屬性。 瞭
 ms.assetid: 499644ee-9eef-4267-9c45-7c7ba9ef61af
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b19815fb6b3f3e5be57f8705d3bbaeff7b44fb5c
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: fdab57cd527cd9b6bf47cea6915dcf098fd57f3486d30597d51a8cad50fcd152
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112409841"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120054758"
 ---
 # <a name="retrieving-object-properties-overview"></a>正在抓取物件屬性總覽
 

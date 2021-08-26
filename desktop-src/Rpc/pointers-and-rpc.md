@@ -4,12 +4,12 @@ description: 使用指標做為 C 函數參數非常有效率。
 ms.assetid: 5792bd45-9c2a-4dd2-b050-17082fd0c929
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dbacce89046e2808acad539d19bbdcfeb1bc99c1
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6a2ce934ed1440bc070fab1b59b76f87182419aada06acaf7699533ef9989697
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840520"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120019180"
 ---
 # <a name="pointers-and-rpc"></a>指標和 RPC
 
@@ -24,9 +24,9 @@ MIDL 提供指標屬性，將所需的額外負荷和應用程式大小降到最
 -   [預設指標類型](default-pointer-types.md)
 -   [指標屬性類型繼承](pointer-attribute-type-inheritance.md)
 
- 
+ 
 
- 
+ 
 
 
 

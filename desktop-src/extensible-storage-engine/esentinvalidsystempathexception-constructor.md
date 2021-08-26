@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 237570ab2c0ce2f06a3957652a9313e0069d1500
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a7136dbcc04dbc06e07765f52ec2ca64f9dc1a020809a90595eeda68bf244a6a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103849824"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119971938"
 ---
 # <a name="esentinvalidsystempathexception-constructor"></a>EsentInvalidSystemPathException 函式
 

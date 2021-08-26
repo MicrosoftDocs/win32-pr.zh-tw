@@ -4,12 +4,12 @@ ms.assetid: e298857b-0579-48b4-add0-72320bc52d63
 title: 'EC_VMR_SURFACE_FLIPPED (Dshow) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1feafaa58f0cacdafde04591d494dbb9a9eb258e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 02c352af01ee31728b41aa276d14ca64b7c3fa6770bb4c9328a8c4ee5e91bb07
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106993513"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120043348"
 ---
 # <a name="ec_vmr_surface_flipped"></a>已 \_ 翻轉 EC VMR \_ 介面 \_
 

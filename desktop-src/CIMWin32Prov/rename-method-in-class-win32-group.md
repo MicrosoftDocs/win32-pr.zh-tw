@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: c111a0c12d0fdc1ce3f6d6bcaa0e7b0f57831054
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: cff8f587426b45133716e308ea40785602fea2d5b5d30a99645bfd0c6cc5c4e1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970705"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120003018"
 ---
 # <a name="rename-method-of-the-win32_group-class"></a>Win32 群組類別的重新命名方法 \_
 

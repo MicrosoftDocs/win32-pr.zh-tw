@@ -4,30 +4,30 @@ ms.assetid: e43ea4ad-8ebe-4096-a9f3-a8f618b46877
 title: MSWebDVD 事件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8f363f15c35cbfe61a3ab1ff3703a31307785481
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: e61a37eda7b8c2ebafc704d96195cc9e92e70fbd9d8bfda4aa7c971cd890e41c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106973940"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120042708"
 ---
 # <a name="mswebdvd-events"></a>MSWebDVD 事件
 
 > [!Note]  
-> 此元件可用於 Microsoft Windows 2000、Windows XP 及 Windows Server 2003 作業系統。 它在後續版本中可能會變更或無法使用。
+> 此元件可在 Microsoft Windows 2000、Windows XP 和 Windows Server 2003 作業系統中使用。 它在後續版本中可能會變更或無法使用。
 
  
 
 > [!Note]  
-> 此 API 即將淘汰。 如需有關在 DirectShow 播放和流覽 DVD 的詳細資訊，請參閱 [Dvd 應用程式](dvd-applications.md)。
+> 此 API 即將淘汰。 如需 DirectShow dvd 播放和流覽的相關資訊，請參閱[dvd 應用程式](dvd-applications.md)。
 
  
 
-MSWebDVD Microsoft® ActiveX®控制項，會在發生各種類型的內部事件或在光碟上遇到特定資訊時通知您的應用程式。
+MSWebDVD Microsoft® ActiveX®控制項會在發生各種類型的內部事件或在光碟上遇到特定資訊時，通知您的應用程式。
 
 大部分的事件都與使用者作業 (UOP) 控制項相關。 DVD 作者可以將光碟編碼，以便隨時都可以停用任何 DVD 命令 (例如 **PlayForwards**、 **Pause**、 **ShowMenu** 等) 。 例如，大部分的光碟都不會讓使用者在 FBI 警告現正播放時，向前快轉或顯示功能表。 出現警告之後，光碟會允許這些作業。 藉由處理 UOP 事件，您的應用程式可以更新其使用者介面，以向使用者顯示光碟目前允許的命令。最常見的方法是停用按鈕。 例如，如果您的應用程式收到 PlayForwards 事件， **bEnabled** 設定為 **FALSE**，您可以停用 [播放] 按鈕。 當它收到 **bEnabled** 設為 **TRUE** 的事件時，您可以再次啟用此按鈕。
 
-有三個事件與 UOP 控制項無關。 **DVDNotify** 事件會通知您應用程式有許多不同類型的 DVD 相關事件，這些事件會在 *EventCode* 參數中識別。 某些事件在 *Param1* 和 *Param2* 參數中有其他資訊。 **ReadyStateChange** 事件會通知您應用程式在 MSWebDVD ReadyState 屬性中的變更，這是所有 ActiveX 控制項的通用屬性。 **UpdateOverlay** 事件只有在以無視窗模式裝載 MSWebDVD 時，才會傳送至應用程式。 只有當應用程式在全螢幕模式中的影片矩形上顯示浮動按鈕時，才需要回應此事件。
+有三個事件與 UOP 控制項無關。 **DVDNotify** 事件會通知您應用程式有許多不同類型的 DVD 相關事件，這些事件會在 *EventCode* 參數中識別。 某些事件在 *Param1* 和 *Param2* 參數中有其他資訊。 **ReadyStateChange** 事件會通知您應用程式 MSWebDVD ReadyState 屬性中的變更，這是所有 ActiveX 控制項的通用屬性。 **UpdateOverlay** 事件只有在以無視窗模式裝載 MSWebDVD 時，才會傳送至應用程式。 只有當應用程式在全螢幕模式中的影片矩形上顯示浮動按鈕時，才需要回應此事件。
 
 
 

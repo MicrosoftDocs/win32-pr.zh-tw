@@ -14,12 +14,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 6e88d1b9b5b36815b1a833062c30e804e4db744a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 11a85c182511a866d3fb76f291b0a73ed0541fdee34b7e6f74c036b5446792db
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103694259"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120041858"
 ---
 # <a name="fileio_v0_name-class"></a>FileIo \_ V0 \_ Name 類別
 
@@ -84,7 +84,7 @@ FileObject
 
 ## <a name="remarks"></a>備註
 
-**Windows Server 2003：** 若要取得檔案名路徑的磁碟機號，請使用 **FileObject** 屬性值對應至對應的 [**DiskIo \_ TypeGroup1**](diskio-typegroup1.md) 事件。 從 **DiskIo \_ TypeGroup1** 事件中，使用 **DiskNumber** 和 **ByteOffset** 屬性值對應至對應的 [**SystemConfig \_ LogDisk**](systemconfig-logdisk.md) 事件。 **DriveLetterString** 屬性包含磁碟機號。
+**Windows Server 2003：** 若要取得檔案名路徑的磁碟機號，請使用 **FileObject** 屬性值對應至對應的 [**DiskIo \_ TypeGroup1**](diskio-typegroup1.md)事件。 從 **DiskIo \_ TypeGroup1** 事件中，使用 **DiskNumber** 和 **ByteOffset** 屬性值對應至對應的 [**SystemConfig \_ LogDisk**](systemconfig-logdisk.md) 事件。 **DriveLetterString** 屬性包含磁碟機號。
 
 ## <a name="requirements"></a>規格需求
 

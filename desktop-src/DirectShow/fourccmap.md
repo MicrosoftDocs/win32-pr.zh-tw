@@ -12,18 +12,18 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: b9254986bebadeffafaa832817f59194bfc58e12
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: a0ba22ce288535a8d940a5f70275f0152ffa559090d820b77df06ed3d1a9178d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107908856"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120043261"
 ---
 # <a name="fourccmap-class"></a>FOURCCMap 類別
 
 ![fourccmap 類別階層](images/fourcc01.png)
 
-**FOURCCMap** 類別提供 **GUID** 媒體子類型與舊樣式 **FOURCC** 32 位媒體標記之間的轉換。 在原始的 Windows 多媒體 Api 中，媒體類型已標記為32位值（從 4 8 位字元建立），也稱為 **FOURCC** s。 DirectShow 媒體類型具有子類型的 **GUID**，部分原因在於建立新 **FOURCC** 的 (建立時，必須向 Microsoft) 註冊。 由於 **FOURCC** 是唯一的，因此您可以配置代表 **FOURCC** 的 4000000000 **GUID** 範圍，藉以進行一對一的對應。 此範圍是所有格式的 **GUID**：
+**FOURCCMap** 類別提供 **GUID** 媒體子類型與舊樣式 **FOURCC** 32 位媒體標記之間的轉換。 在原始的 Windows 多媒體 api 中，媒體類型已標記為32位值（從 4 8 位字元建立），也稱為 **FOURCC** s。 DirectShow 媒體類型具有子類型的 **GUID**，部分原因在於建立新 **FOURCC** 的 (建立時，必須向 Microsoft) 註冊。 由於 **FOURCC** 是唯一的，因此您可以配置代表 **FOURCC** 的 4000000000 **GUID** 範圍，藉以進行一對一的對應。 此範圍是所有格式的 **GUID**：
 
 `XXXXXXXX-0000-0010-8000-00AA00389B71`
 

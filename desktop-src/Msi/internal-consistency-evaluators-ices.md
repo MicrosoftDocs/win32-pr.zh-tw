@@ -1,19 +1,19 @@
 ---
-description: 內部一致性評估工具（也稱為「Ices-003」）是以 VBScript、JScript 或 DLL 或 EXE 撰寫的自訂動作。
+description: 內部一致性評估工具（也稱為「ices-003」）是以 VBScript、JScript 或 DLL 或 EXE 撰寫的自訂動作。
 ms.assetid: 0789103d-ae34-46be-a9fb-093e066d6d4b
 title: 內部一致性評估工具-Ices-003
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 77be6e2bf33bbe348acab45191782a211ea4663a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 744915d7f484128095e308f390caae75323775b684b38a0184592dc99a2700f4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106988430"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120043378"
 ---
 # <a name="internal-consistency-evaluators---ices"></a>內部一致性評估工具-Ices-003
 
-內部一致性評估工具（也稱為「Ices-003」）是以 VBScript、JScript 或 DLL 或 EXE 撰寫的自訂動作。 當執行這些自訂動作時，它們會在資料庫記錄中，針對在個別檢查時有效的專案，掃描資料庫中的專案，但這可能會在整個資料庫的內容中造成不正確的行為。 請注意，這與使用 [**MsiViewModify**](/windows/desktop/api/Msiquery/nf-msiquery-msiviewmodify)對個別記錄進行的驗證不同。
+內部一致性評估工具（也稱為「ices-003」）是以 VBScript、JScript 或 DLL 或 EXE 撰寫的自訂動作。 當執行這些自訂動作時，它們會在資料庫記錄中，針對在個別檢查時有效的專案，掃描資料庫中的專案，但這可能會在整個資料庫的內容中造成不正確的行為。 請注意，這與使用 [**MsiViewModify**](/windows/desktop/api/Msiquery/nf-msiquery-msiviewmodify)對個別記錄進行的驗證不同。
 
 例如， [元件資料表](component-table.md) 可能會列出數個在使用 [**MsiViewModify**](/windows/desktop/api/Msiquery/nf-msiquery-msiviewmodify)個別測試時都有效的元件。 不過，當兩個元件使用相同的 [GUID](guid.md)做為其元件程式碼時， **MsiViewModify** 不會攔截錯誤。 自訂動作 [ICE08](ice08.md) 的設計目的是要驗證元件資料表不包含重複的元件程式碼 guid。
 

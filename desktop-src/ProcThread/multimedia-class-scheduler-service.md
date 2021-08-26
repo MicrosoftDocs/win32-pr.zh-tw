@@ -4,12 +4,12 @@ ms.assetid: a7169938-1c72-4c4c-881a-cb08ad6182c7
 title: 多媒體類別排程器服務
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 80656276af30495c084d0964534a04e11896bcd2
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: cf0744883180c361d5656cf7c182f538d93617be7f6bbdc6a05ff93efa732b53
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "103945630"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120032438"
 ---
 # <a name="multimedia-class-scheduler-service"></a>多媒體類別排程器服務
 
@@ -19,7 +19,7 @@ MMCSS 會使用儲存在登錄中的資訊來識別支援的工作，並判斷�
 
 如需使用 MMCSS 的程式範例，請參閱 [獨佔模式資料流程](/previous-versions//bb614507(v=vs.85))。
 
-**Windows Server 2003 和 WINDOWS XP：** MMCSS 無法使用。
+**Windows Server 2003 和 Windows XP：** MMCSS 無法使用。
 
 ## <a name="registry-settings"></a>登錄設定
 
@@ -29,14 +29,14 @@ MMCSS 設定會儲存在下列登錄機碼中：
 
 此機碼包含名為 **SystemResponsiveness** 的 **REG \_ DWORD** 值，可決定應保證低優先順序工作的 CPU 資源百分比。 例如，如果此值為20，則會為低優先順序工作保留20% 的 CPU 資源。 請注意，未平均整除的值會無條件進位到最接近10的倍數。 0值也會被視為10。
 
-金鑰也包含名為 **tasks** 的子機碼，其中包含工作清單。 依預設，Windows 支援下列工作：
+金鑰也包含名為 **tasks** 的子機碼，其中包含工作清單。 根據預設，Windows 支援下列工作：
 
 -   **音訊**
 -   **擷取**
 -   **Distribution**
 -   **遊戲**
 -   **播放**
--   **Pro 音訊**
+-   **Pro音訊**
 -   **視窗管理員**
 
 Oem 可以視需要新增其他工作。
@@ -76,7 +76,7 @@ MMCSS 會使用下列因素來判斷線程的優先順序：
 
 MMCSS 會根據其排程分類來設定用戶端執行緒的優先順序。
 
-| 類別 | 優先順序 | Description                                                                                                                               |
+| 類別 | 優先順序 | 描述                                                                                                                               |
 |----------|----------|-------------------------------------------------------------------------------------------------------------------------------------------|
 | 高     | 23-26    | 這些執行緒執行的執行緒優先順序低於特定的系統層級工作。 此類別是針對 Pro 音訊工作所設計。 |
 | 中   | 16-22    | 這些執行緒是前景中的應用程式的一部分。                                                                      |

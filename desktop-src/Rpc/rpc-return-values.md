@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 98215490826f2680682527bfb407aae2b1e9d0c0
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 71595258e748d5f39bbc4919a1ed80a115482db1520ae3a7b341d0b53b90a4eb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843520"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120018298"
 ---
 # <a name="rpc-return-values"></a>RPC 傳回值
 
@@ -25,7 +25,7 @@ ms.locfileid: "103843520"
 
 
 
-| file:///                                                                                                                                                                                                                 | Description                                                                                                                                                                                                                                                      |
+| file:///                                                                                                                                                                                                                 | 描述                                                                                                                                                                                                                                                      |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="EPT_S_CANT_CREATE"></span><span id="ept_s_cant_create"></span><dl> <dt>**EPT \_ S \_ 無法 \_ 建立**</dt> </dl>                                              | 無法在端點對應程式資料庫中建立專案。<br/>                                                                                                                                                                                         |
 | <span id="EPT_S_CANT_PERFORM_OP"></span><span id="ept_s_cant_perform_op"></span><dl> <dt>**EPT \_ S \_ 無法 \_ 執行 \_ OP**</dt> </dl>                                 | 嘗試在端點對應程式資料庫上執行操作時，發生一般失敗。<br/>                                                                                                                                                                  |

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 40a588cda1416e2c8c5967a323337e82210d35f0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e6d3a87f2419fb9fdbf0fdaba6d99e78923c8acafe5684ff560a63d770c471f9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106976194"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120002908"
 ---
 # <a name="radioband-attribute"></a>RadioBand 屬性
 

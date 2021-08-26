@@ -4,12 +4,12 @@ description: 遠端程序呼叫 (RPC) 網路資料表示 (NDR) 引擎是 RPC 和
 ms.assetid: E452AA27-053D-4032-868B-CF2D5C0D4BE0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5bf7ba92a74d2d7dc8c394c561f65337db13af99
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: a0dd01ae40562528ac89c8b9dcfb0b9009ead5ca1a92b2cde90c3274d574fc1a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104024452"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120018418"
 ---
 # <a name="rpc-ndr-engine-rpc"></a>RPC)  (rpc NDR 引擎
 
