@@ -1,19 +1,19 @@
 ---
-description: 繪圖物件的插補模式會影響 Windows GDI + 縮放 (擴充和縮小) 影像的方式。
+description: 繪圖物件的插補模式會影響 Windows GDI+ 調整 (伸展和縮減) 影像的方式。
 ms.assetid: 3aeead47-78da-4ab3-9126-2fbe9e341e48
 title: 在縮放期間使用插補模式控制影像品質
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d34a829f2edf2f341f50bee771d909f7c4eef98e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 92fefe314ef680a54f9d885bb185c77b3349e84cbe5f7bcf347cf9ff3fa0a4ed
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972137"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119943698"
 ---
 # <a name="using-interpolation-mode-to-control-image-quality-during-scaling"></a>在縮放期間使用插補模式控制影像品質
 
-[**圖形**](/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics)物件的插補模式會影響 Windows gdi + 縮放 (擴充和縮小) 影像的方式。 Gdiplusenums 中的 [**InterpolationMode**](/windows/desktop/api/Gdiplusenums/ne-gdiplusenums-interpolationmode) 列舉定義了數個插補模式，其中有些會顯示在下列清單中：
+[**圖形**](/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics)物件的插補模式會影響 Windows GDI+ 調整 (伸展和縮減) 影像的方式。 Gdiplusenums 中的 [**InterpolationMode**](/windows/desktop/api/Gdiplusenums/ne-gdiplusenums-interpolationmode) 列舉定義了數個插補模式，其中有些會顯示在下列清單中：
 
 -   InterpolationModeNearestNeighbor
 -   InterpolationModeBilinear

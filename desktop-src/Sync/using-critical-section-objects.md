@@ -4,12 +4,12 @@ ms.assetid: 3c96414b-97e7-4ebb-a629-bfdb7a77c576
 title: 使用重要區段物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a1e280319e3eb3078ea67a1f96065598d4517766
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9fe2634987b49ebd6fb0109597fe7429ac9467e4e5178f0e65242f1c7cf402be
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104192932"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120073058"
 ---
 # <a name="using-critical-section-objects"></a>使用重要區段物件
 

@@ -4,12 +4,12 @@ ms.assetid: a4f6c90e-1b38-4c70-8bc5-e2e16af3d87a
 title: 初始化新 ASF 檔案的 ContentInfo 物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 74826942700f4be8028075fcd9466414834eb8e2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bf0180eb4e9369447355a9a4cd607f630bfb3664108ad77d6d008c281f92fdf1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318308"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120114248"
 ---
 # <a name="initializing-the-contentinfo-object-of-a-new-asf-file"></a>初始化新 ASF 檔案的 ContentInfo 物件
 

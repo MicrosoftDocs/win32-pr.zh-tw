@@ -4,12 +4,12 @@ ms.assetid: bd2582df-8d2c-4169-8b82-b78d0a770e8b
 title: 家長監護最小合規性 API
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a3af7bd47d2e88fd4db0f493f2cda32d80477116
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 085726064aa8ab3e2dff6b941c37d7f00000c5858d36f0d63c5fe0089c240511
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104469321"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119951928"
 ---
 # <a name="parental-controls-minimum-compliance-api"></a>家長監護最小合規性 API
 

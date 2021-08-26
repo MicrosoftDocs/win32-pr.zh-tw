@@ -4,12 +4,12 @@ description: Direct2D 提供的方法，可讓您以只有 IDWriteTextFormat 或
 ms.assetid: 4acd1aee-98bf-4ca3-b4dc-b73c96c6ca63
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 58af17e15bcb9bd52461a2da3110982fb04e4c0a
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 9ad297a8fdf2078c966989baf5e81c69cf515427340f8de8d073035fcf98f434
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104024017"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120048478"
 ---
 # <a name="render-using-direct2d"></a>使用 Direct2D 轉譯
 
@@ -78,6 +78,6 @@ Direct2D 提供的方法，可讓您以只有 [**IDWriteTextFormat**](/windows/w
 
     
 
- 
+ 
 
- 
+ 

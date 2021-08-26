@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 34493f60e60bc0dce35f5f9db50360265191c742
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 0845e619e8674d729735da1b639802df256d9c210615d71578a4e1effd777e39
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104992235"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119845768"
 ---
 # <a name="trunc"></a>trunc
 
@@ -58,7 +58,7 @@ ms.locfileid: "104992235"
 
 
 
-| Name | [**範本類型**](dx-graphics-hlsl-intrinsic-functions.md)                                                  | [**元件類型**](dx-graphics-hlsl-intrinsic-functions.md) | 大小                         |
+| 名稱 | [**範本類型**](dx-graphics-hlsl-intrinsic-functions.md)                                                  | [**元件類型**](dx-graphics-hlsl-intrinsic-functions.md) | 大小                         |
 |------|----------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|------------------------------|
 | *x*  | 純 [**量、**](dx-graphics-hlsl-intrinsic-functions.md)**向量** 或 **矩陣** | [**浮動**](/windows/desktop/WinProg/windows-data-types)                        | 任意                          |
 | Ret  | 與輸入 x 相同的類型                                                                                           | [**浮動**](/windows/desktop/WinProg/windows-data-types)                        | ) 為輸入 x 的相同維度 (s |

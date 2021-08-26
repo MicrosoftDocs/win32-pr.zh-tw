@@ -4,12 +4,12 @@ ms.assetid: d78a1d8f-a239-4388-aa21-c162953fe355
 title: EUDC
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 27b583c7a0bfaa67684901e8d0a4a95ac5e45658
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: f8a7509364545d9de01d4480a58d4e6af8043c30fa8f74db0fdbaf24e252e298
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113120703"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120082988"
 ---
 # <a name="eudc"></a>EUDC
 
@@ -58,9 +58,9 @@ MS Gothic=GOTEUDC.TTF
 
 
 
-當與非 Unicode 程式語言相關聯的 Windows 字碼頁 (system ACP) 符合子機碼時，GDI 子系統會查看子機碼值組，以取得字元的顯示資訊。 它會先尋找符合目前字型的名稱。 如果沒有，它會檢查 SystemDefaultEUDCFont 值。 如果未定義任何值，GDI 會將字元視為未定義。
+當與非 Unicode 程式語言相關聯的 Windows 字碼頁 (系統 ACP) 符合子機碼時，GDI 子系統會查看子機碼值組，以取得字元的顯示資訊。 它會先尋找符合目前字型的名稱。 如果沒有，它會檢查 SystemDefaultEUDCFont 值。 如果未定義任何值，GDI 會將字元視為未定義。
 
-請注意，文字本身不一定要位於 Windows 字碼頁中。 例如，假設字碼頁的識別碼為1252，也就是英文的預設 Windows 字碼頁。 應用程式會將 Unicode 私用區域中的單一 Unicode 程式碼點 U + E000 傳遞 (PUA) ，以進行 [**DrawText**](/windows/win32/api/winuser/nf-winuser-drawtext)。 在此情況下，GDI 會查看1252底下的登錄值，以取得字元顯示內容的字型資訊。
+請注意，文字本身不一定要位於 Windows 字碼頁中。 例如，假設字碼頁的識別碼為1252，預設值為英文的預設 Windows 字碼頁。 應用程式會將 Unicode 私用區域中的單一 Unicode 程式碼點 U + E000 傳遞 (PUA) ，以進行 [**DrawText**](/windows/win32/api/winuser/nf-winuser-drawtext)。 在此情況下，GDI 會查看1252底下的登錄值，以取得字元顯示內容的字型資訊。
 
 ## <a name="related-topics"></a>相關主題
 

@@ -4,12 +4,12 @@ ms.assetid: 44f3ff21-4978-4902-aa74-ddeef60881db
 title: COM + SOAP 服務總覽
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b93ce7d80753f306777d3ac0b77dc46dc4e08d22
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 68501d80596d8547715cb1694fe77a17a3ab4b6955ad1e1acd596f249be5f231
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106986257"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120096868"
 ---
 # <a name="com-soap-service-overview"></a>COM + SOAP 服務總覽
 
@@ -65,7 +65,7 @@ SOAP-ENV:encodingStyle="https://schemas.xmlsoap.org/soap/encoding//">
 
 COM + 提供兩種方式讓您存取和使用遠端 XML web 服務，如下所示：
 
--   *已知的物件* (WKO) 模式可用來存取任何使用 WSDL 發行其語法的 xml web service，即使該 xml web service 不是使用 com + 或甚至是 Microsoft Windows 來建立也一樣。
+-   *已知的物件* (WKO) 模式可用來存取任何使用 WSDL 發行其語法的 xml web 服務，即使該 xml web service 不是使用 com + 或甚至 Microsoft Windows 建立的也一樣。
 -    (CAO) 模式的 *用戶端啟始物件* 只能用來存取公開 com + 應用程式所建立的 XML web service。 CAO 模式使用持續連線（目前的 SOAP 標準不支援的功能）來提升效能。
 
 這兩種方法都可讓用戶端應用程式以直接的方式從遠端呼叫 XML web service 的方法，而不需要撰寫程式碼來透過網路介面進行通訊或剖析 SOAP。 如需有關如何在任一模式中存取 XML web service 的詳細資訊，請參閱以 [CAO 模式存取 Xml Web service](accessing-xml-web-services-in-cao-mode.md) 和 [在 WKO 模式中存取 xml web service](accessing-xml-web-services-in-wko-mode.md)。

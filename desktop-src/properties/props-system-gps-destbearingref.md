@@ -4,18 +4,18 @@ ms.assetid: d0dda2fb-6a9c-471a-a92a-1fba06815065
 title: DestBearingRef
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eed9ca7a42d754925cbac2f571a22dff577adb9f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: db9853bea09b1f72d710b3526f2a2b6aa50a1064343c17692ea5d2710add5308
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106979223"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120059168"
 ---
 # <a name="systemgpsdestbearingref"></a>DestBearingRef
 
 指出用來為目的點提供關聯的參考 (例如，真實方向、磁性方向) 。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

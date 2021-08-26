@@ -4,12 +4,12 @@ ms.assetid: 35a1b9bd-8da9-47e6-beda-e0b159bd840d
 title: 例外狀況分派
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e02b40aa132541fe88d692cbbf1881a8b620a209
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 1b7b4f73c9d2c3fbaf15b4390ee6ecc6b9aa06b50524ec080fc45319d3b94767
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104109976"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119912728"
 ---
 # <a name="exception-dispatching"></a>例外狀況分派
 

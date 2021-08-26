@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
-ms.openlocfilehash: fcd512393a3f037cd3def40d4aa55003d9fddcef
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 411ae2dd81fce88bec5d6a3717fe79d942de84f060c53a90b83cae461d6a49de
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106996199"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120053088"
 ---
 # <a name="id2d1rendertargetcreatebitmapbrush-methods"></a>ID2D1RenderTarget：： CreateBitmapBrush 方法
 

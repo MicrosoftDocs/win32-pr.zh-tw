@@ -3,26 +3,26 @@ title: SMPTE 時間代碼支援
 description: SMPTE 時間代碼支援
 ms.assetid: 047bda0d-142d-4eed-9b59-c0c36b97ed45
 keywords:
-- Windows Media Format SDK、SMPTE 時間碼
+- Windows媒體格式 SDK，SMPTE 時間碼
 - Advanced Systems Format (ASF) 、SMPTE 時間碼
 - ASF (Advanced Systems Format) ，SMPTE 時間碼
-- Windows Media Format SDK，IWMReaderTimecode 介面
+- Windows媒體格式 SDK，IWMReaderTimecode 介面
 - Advanced Systems Format (ASF) ，IWMReaderTimecode 介面
 - ASF (Advanced Systems Format) ，IWMReaderTimecode 介面
 - SMPTE 時間代碼，關於
 - IWMReaderTimecode
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ecf8ef9da7d0fb0ee7d973cf21129f307066bc9
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: b19e3d7a85c797a3b0247bedb2359b4b40b60e8d4f243f14e2c94175bb1e2740
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104507796"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119929608"
 ---
 # <a name="smpte-time-code-support"></a>SMPTE 時間代碼支援
 
-Windows Media Format SDK 提供有限的 SMPTE 時間代碼支援，這是適用于電影和電視的標準時間代碼格式。 您可以使用範例作為資料單位延伸模組來包含 SMPTE 時間代碼資料。 延伸模組的資料部分是 WMT 時間 [**\_ 碼 \_ 延伸模組 \_ 資料**](/previous-versions/windows/desktop/api/Wmsdkidl/ns-wmsdkidl-wmt_timecode_extension_data) 結構，其中包含來自原始 SMPTE 時間戳記的資訊。
+Windows 媒體格式 SDK 提供有限的 SMPTE 時間代碼支援，這是適用于電影和電視的標準時間代碼格式。 您可以使用範例作為資料單位延伸模組來包含 SMPTE 時間代碼資料。 延伸模組的資料部分是 WMT 時間 [**\_ 碼 \_ 延伸模組 \_ 資料**](/previous-versions/windows/desktop/api/Wmsdkidl/ns-wmsdkidl-wmt_timecode_extension_data) 結構，其中包含來自原始 SMPTE 時間戳記的資訊。
 
 在您的 ASF 檔案中維護 SMPTE 時間代碼會有效能限制。 具有相關聯之 SMPTE 時間戳記的每個範例，都需要在時間戳記結構中傳輸14個位元組。 在串流處理案例中，這種增加的頻寬需求可能會很嚴重。 因此，建議在影片編輯程式期間，僅將 SMPTE 時間代碼保存在 ASF 檔案中，這通常是使用本機檔案來完成。 建立最後的檔案時，您應該移除資料單位延伸模組。
 
@@ -40,9 +40,9 @@ Windows Media Format SDK 提供有限的 SMPTE 時間代碼支援，這是適用
 [**設定資料單位延伸模組**](configuring-data-unit-extensions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

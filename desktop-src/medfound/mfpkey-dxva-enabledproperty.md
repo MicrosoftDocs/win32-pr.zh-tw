@@ -4,12 +4,12 @@ ms.assetid: 6220310f-5760-4ddb-944b-752b97bf4696
 title: 'MFPKEY_DXVA_ENABLED 屬性 (Wmcodecdsp) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4a92dd2a27292b0616b30f417ebd8de271c333e1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e1165fcef344b667ea1b7bb6fe88c5243ea8824d86572f79c826805e5f46f02f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106987485"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119954058"
 ---
 # <a name="mfpkey_dxva_enabled-property"></a>\_已啟用 MFPKEY DXVA 的 \_ 屬性
 
@@ -33,8 +33,8 @@ ms.locfileid: "106987485"
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                             |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                    |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                             |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                    |
 | 標頭<br/>                   | <dl> <dt>Wmcodecdsp。h</dt> </dl> |
 
 

@@ -4,18 +4,18 @@ ms.assetid: F7937402-1173-4647-B9FF-856C0925C1C3
 title: 使用 XState 內容
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5ca58a8fadb4404e2f6fc431b7b7d2a9d7f583f4
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 6300049f96ff6e7c1fb51759978f84e6c93c305de559a527c9791f2d33f87150
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847294"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119912218"
 ---
 # <a name="working-with-xstate-context"></a>使用 XState 內容
 
 本檔包含的範例示範如何使用 XState 內容函式，線上程上取得和設定擴充功能。 下列範例會操作 Intel Advanced Vector Extensions (AVX) 狀態，此狀態是由 FeatureId 2 (功能遮罩 4) 所定義。 Intel AVX 是定義在提供的「Intel Advanced Vector Extensions 程式設計參考」中 <https://go.microsoft.com/fwlink/p/?linkid=212716> 。
 
-**Windows 7 SP1：**[AVX API](avx-support-portal.md)首次在 WINDOWS 7 SP1 上執行。 由於沒有適用于 Windows 7 SP1 的 SDK，因此沒有可供使用的標頭和程式庫檔案。 在這種情況下，呼叫端必須宣告此檔所需的函式，並使用 [**GetModuleHandle**](/windows/win32/api/libloaderapi/nf-libloaderapi-getmodulehandlea) 在 "Kernel32.dll" 上取得其指標，然後再呼叫 [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress)。
+**Windows 7 SP1：**[AVX API](avx-support-portal.md)會先在 Windows 7 SP1 上執行。 由於沒有適用于 Windows 7 SP1 的 SDK，因此沒有可供使用的標頭和程式庫檔案。 在這種情況下，呼叫端必須宣告此檔所需的函式，並使用 [**GetModuleHandle**](/windows/win32/api/libloaderapi/nf-libloaderapi-getmodulehandlea) 在 "Kernel32.dll" 上取得其指標，然後再呼叫 [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress)。
 
 
 ```C++

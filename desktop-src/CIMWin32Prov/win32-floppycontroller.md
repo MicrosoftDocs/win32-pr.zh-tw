@@ -39,16 +39,16 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 7aac44fb8e2b0a91ca3794f234a31cd4c25a4b5b
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: d78295e2621f5563f403daac3f0e3a6ed68e6102fa2146536b6f78cfc21d2e30
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936419"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119878658"
 ---
 # <a name="win32_floppycontroller-class"></a>Win32 \_ FloppyController 類別
 
-\[**Win32 \_FloppyController** 不再適用于 Windows 10 和 Windows Server 2016。\]
+\[**Win32 \_FloppyController** 不再適用于 Windows 10 和 Windows Server 2016 的使用。\]
 
 **Win32 \_ FloppyController** [WMI 類別](/windows/desktop/WmiSdk/retrieving-a-class)代表磁片磁碟機控制器的功能和管理能力。
 
@@ -904,7 +904,7 @@ Windows 仍在設定裝置。
 限定詞： [**架構**](/windows/desktop/WmiSdk/standard-qualifiers) ( "Win32" ) 
 </dt> </dl>
 
-邏輯裝置的 Windows 隨插即用裝置識別碼。
+Windows隨插即用邏輯裝置的裝置識別碼。
 
 範例： " \* PNP030b"
 
@@ -1124,7 +1124,7 @@ Windows 仍在設定裝置。
 
 <span id="SCSI_Serial_Storage_Architecture"></span><span id="scsi_serial_storage_architecture"></span><span id="SCSI_SERIAL_STORAGE_ARCHITECTURE"></span>
 
-**SCSI 序列儲存架構** (13) 
+**SCSI 序列儲存體架構** (13) 
 
 
 </dt> <dd></dd> <dt>

@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: CIM_RebootAction 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1475b17e3a97ea224bac31113abcde780944a0ef
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 97faca47322cdebc91ac8869fc6917924acea7221bd5f9c5ad689ad53c07175d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936251"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119920848"
 ---
 # <a name="cim_rebootaction-methods"></a>CIM \_ RebootAction 方法
 

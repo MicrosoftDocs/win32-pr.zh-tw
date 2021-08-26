@@ -4,12 +4,12 @@ description: 應用程式復原和重新開機會定義下列功能
 ms.assetid: 17de24d1-32fe-4b2d-a224-3730af73c892
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b6f9f5fb41f2ef694b4d99044a8756ff0bb66c3f
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 5df0a2139a24c3e69ae328533d6bf8b1baeee2043bc82b9f8d50f4272a16e2f3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104092995"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120024618"
 ---
 # <a name="application-recovery-and-restart-functions"></a>應用程式修復和重新開機函式
 
@@ -30,8 +30,8 @@ ms.locfileid: "104092995"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

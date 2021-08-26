@@ -4,12 +4,12 @@ ms.assetid: 4f854c1a-f2e1-48c4-9cc1-8a0fcf1bebed
 title: 列印票證 API
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0e19cfd8d624a1390b8afacd625e92fcee2704dd
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: ac91cc976addba630bae3f250d244442ba1dd3b61f741575fe21cb250bab4a2f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "104027694"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119947790"
 ---
 # <a name="print-ticket-api"></a>列印票證 API
 
@@ -26,7 +26,7 @@ ms.locfileid: "104027694"
 -   [列印票證 API 函式](print-ticket-api-functions.md)
 -   [列印票證 API 列舉](print-ticket-api-enumerations.md)
 
-下圖顯示 Print Ticket API 與原生 Windows 應用程式可以使用的其他列印 Api 的關聯性。
+下圖顯示 print Ticket api 與原生 Windows 應用程式可使用的其他列印 api 的關聯性。
 
 ![此圖表顯示列印票證 api 與原生 windows 應用程式可以使用的其他列印 api 的關聯性](images/print-apis-pt.png)
 

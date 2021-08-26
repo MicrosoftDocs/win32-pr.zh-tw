@@ -4,12 +4,12 @@ ms.assetid: 2ae217ba-6cc7-4057-bb52-880da7ff8fd0
 title: 系統手勢
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aeec3ba7b8fe93b48cdc67116f82c23041a1defd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 01ef0b1b82dda43c08e4f060934f5dda6c563a564023ce614d6038d346a27937
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106988473"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119843328"
 ---
 # <a name="system-gestures"></a>系統手勢
 

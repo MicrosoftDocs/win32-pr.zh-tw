@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: de0f09b0a0f8de4e7f7d06cb84753e6b708841f9
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d4c6fc6123470f6633b77a1c51234e751f3be04044c0ad100f0017849cb1ac42
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384949"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119898688"
 ---
 # <a name="sessionput-method"></a>Session. Put 方法
 
@@ -52,7 +52,7 @@ Session.Put( _
 
 此參數可包含下列清單中包含的其中一個元素：
 
--   具有或不含 [*選取器*](windows-remote-management-glossary.md)的 URI。 當呼叫 **Put** 方法來取得 WMI 資源時，請使用物件的索引鍵屬性（property）或屬性（property）。 例如，在下列 Visual Basic Scripting Edition 中 (VBScript) 程式碼範例，則是由指定索引鍵 `Win32_Service?Name=winmgmt` 。
+-   具有或不含 [*選取器*](windows-remote-management-glossary.md)的 URI。 當呼叫 **Put** 方法來取得 WMI 資源時，請使用物件的索引鍵屬性（property）或屬性（property）。 例如，在下列 Visual Basic 腳本撰寫版 (VBScript) 程式碼範例中，則是由指定索引鍵 `Win32_Service?Name=winmgmt` 。
 
     ```VB
     strResourceUri = "http://schemas.microsoft.com/" & _ 
@@ -149,7 +149,7 @@ End Sub
 | 最低支援的用戶端<br/> | Windows Vista<br/>                                                                 |
 | 最低支援的伺服器<br/> | Windows Server 2008<br/>                                                           |
 | 標頭<br/>                   | <dl> <dt>WSManDisp。h</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>WSManDisp .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>WSManDisp .idl</dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>WSManDisp .tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WSMAuto.dll</dt> </dl>   |
 
@@ -159,7 +159,7 @@ End Sub
 
 <dl> <dt>
 
-[**工作階段**](session.md)
+[**會話**](session.md)
 </dt> </dl>
 
  

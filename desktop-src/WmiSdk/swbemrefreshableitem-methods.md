@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: SWbemRefreshableItem 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d29f92400bc47adf556f00914d35805857418fe0
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: c0fb4b41caac71f9589121f36a846178b1bd5e82c3d4bc6f2bafaf6ad08fe7b3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104469544"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119897648"
 ---
 # <a name="swbemrefreshableitem-methods"></a>SWbemRefreshableItem 方法
 

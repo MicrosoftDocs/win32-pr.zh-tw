@@ -3,11 +3,11 @@ title: 資料管理
 description: 本主題討論記憶體物件如何將資料從某個應用程式傳遞到另一個應用程式。
 ms.assetid: 32919f27-4699-4831-8837-c5160b1daf4e
 keywords:
-- 'Windows 消費者介面，動態資料交換 (DDE) '
+- 'Windows消費者介面，動態資料交換 (DDE) '
 - 動態資料交換 (DDE) 、資料管理
 - DDE (動態資料交換) 、資料管理
 - '資料交換、動態資料交換 (DDE) '
-- 'Windows 消費者介面、動態資料交換管理程式庫 (DDEML) '
+- 'Windows消費者介面，動態資料交換管理程式庫 (DDEML) '
 - 動態資料交換管理程式庫 (DDEML) 、資料管理
 - DDEML (動態資料交換管理程式庫) ，資料管理
 - '資料交換、動態資料交換管理程式庫 (DDEML) '
@@ -17,16 +17,16 @@ keywords:
 - DDEML (動態資料交換管理程式庫) ，物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dfc5178f636cf4b75111d4fc48e17fd144400a91
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 85dc9b8ccd82d184866ac9ed28f15bdeac424ec0bf9bd7767a520dea69bc4d11
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372650"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119953738"
 ---
 # <a name="data-management"></a>資料管理
 
-因為動態資料交換 (DDE) 會使用記憶體物件將資料從某個應用程式傳遞到另一個應用程式，所以動態資料交換管理程式庫 (DDEML) 會提供一組可讓 DDE 應用程式用來建立和管理 DDE 物件的函數。
+因為動態資料交換 (DDE) 會使用記憶體物件將資料從某個應用程式傳遞到另一個應用程式，所以動態資料交換管理程式庫 (DDEML) 會提供一組可讓 dde 應用程式用來建立和管理 dde 物件的函數。
 
 所有涉及資料交換的交易都需要應用程式提供資料來建立包含資料的本機緩衝區，然後呼叫 [**DdeCreateDataHandle**](/windows/desktop/api/Ddeml/nf-ddeml-ddecreatedatahandle) 函數。 此函式會配置 DDE 物件、將資料從緩衝區複製到物件，並傳回資料控制碼。 資料處理程式是一個 **DWORD** 值，DDEML 會使用此值來提供 DDE 物件中資料的存取權。 為了共用 DDE 物件中的資料，應用程式會將資料控制碼傳遞給 DDEML，而 DDEML 會將控制碼傳遞給接收資料交易之應用程式的 DDE 回呼函數。
 
@@ -172,9 +172,9 @@ case XTYP_ADVDATA:
 
 尚未將控制碼傳遞給 DDEML 的應用程式可以將資料加入至物件，或使用 [**DdeAddData**](/windows/desktop/api/Ddeml/nf-ddeml-ddeadddata) 函數來覆寫物件中的資料。 一般而言，應用程式會使用 **DdeAddData** 來填滿未初始化的 DDE 物件。 當應用程式將資料控制碼傳遞給 DDEML 之後，就無法變更控制碼所識別的 DDE 物件;只能釋放。
 
- 
+ 
 
- 
+ 
 
 
 

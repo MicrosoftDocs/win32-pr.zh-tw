@@ -6,12 +6,12 @@ keywords:
 - 路由及遠端存取服務 RRAS，路由表管理員第2版，參考
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0bb0ba9668dc7a71e4f73d7fd43360f4093484e6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2663772ab559ef72c003de3fb4c67cbe44ee8e6d6f9aff1f46fbb470ea6a9f6f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103932287"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120026848"
 ---
 # <a name="routing-table-manager-version-2-reference"></a>路由表管理員第2版參考
 
@@ -25,9 +25,9 @@ ms.locfileid: "103932287"
 -   [路由表管理員第2版列舉](routing-table-manager-version-2-enumerations.md)
 -   [路由表管理員第2版單一資料型別](routing-table-manager-version-2-simple-data-types.md)
 
- 
+ 
 
- 
+ 
 
 
 

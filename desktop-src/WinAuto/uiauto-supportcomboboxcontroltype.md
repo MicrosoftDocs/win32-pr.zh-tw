@@ -21,12 +21,12 @@ keywords:
 - 控制項類型，ComboBox
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 410cca4887c04a00d6da53feb9fcf1242476a979
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6a9d9f38dab9877aee38773e5c900ee125d2ba6a
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103673079"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122480104"
 ---
 # <a name="combobox-control-type"></a>ComboBox 控制項類型
 
@@ -50,41 +50,15 @@ ms.locfileid: "103673079"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>控制項檢視</th>
-<th>內容檢視</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>ComboBox
-<ul>
-<li>編輯 (0 或 1 個)</li>
-<li>列出 (0 或 1) </li>
-<li>清單項目 (子系清單；0 到多個)</li>
-<li>按鈕 (1)</li>
-</ul></li>
-</ul></td>
-<td><ul>
-<li>ComboBox
-<ul>
-<li>清單項目 (0 到多個)</li>
-</ul></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| 控制項檢視 | 內容檢視 | 
+|--------------|--------------|
+| <ul><li>ComboBox<ul><li>編輯 (0 或 1 個)</li><li>列出 (0 或 1) </li><li>清單項目 (子系清單；0 到多個)</li><li>按鈕 (1)</li></ul></li></ul> | <ul><li>ComboBox<ul><li>清單項目 (0 到多個)</li></ul></li></ul> | 
 
 
 
- 
+
+ 
 
 只有當下拉式方塊可以編輯為採用任何輸入（如同在 [ **執行** ] 對話方塊中的下拉式方塊的情況下）時，才需要在下拉式方塊的控制項視圖中編輯控制項。
 
@@ -110,7 +84,7 @@ ms.locfileid: "103673079"
 
 
 
- 
+ 
 
 ## <a name="required-control-patterns"></a>必要的控制項模式
 
@@ -127,7 +101,7 @@ ms.locfileid: "103673079"
 
 
 
- 
+ 
 
 ## <a name="required-events"></a>必要的事件
 
@@ -147,7 +121,7 @@ ms.locfileid: "103673079"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -162,9 +136,9 @@ ms.locfileid: "103673079"
 [UI 自動化概觀](uiauto-uiautomationoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

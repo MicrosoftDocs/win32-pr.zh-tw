@@ -3,7 +3,7 @@ title: 'EM_GETREDONAME 訊息 (Richedit .h) '
 description: 在 rich edit 控制項的重做佇列中，抓取下一個動作的型別（如果有的話）。
 ms.assetid: 8649236f-32dc-45d3-847e-c9f65ffba44c
 keywords:
-- EM_GETREDONAME message Windows 控制項
+- EM_GETREDONAME 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9ea44257344b9ebdb8ffe91ad97e939aae0db9b9
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9687ae54223ec7cc0f908d747eff2504216b79469b5f285863f8c8ffdfe91b3b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934488"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120048818"
 ---
 # <a name="em_getredoname-message"></a>EM \_ GETREDONAME 訊息
 
@@ -59,8 +59,8 @@ ms.locfileid: "103934488"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Richedit。h</dt> </dl> |
 
 

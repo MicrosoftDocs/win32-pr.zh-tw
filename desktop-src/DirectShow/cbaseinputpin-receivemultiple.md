@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 5725b7d8b70c8f7c61eb44231812997a903ba41a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 63d71f47978a2eefdcbdacbe1c31bfe69c732c24a0479357b35aa1ddd2b0a9de
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106984876"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120079398"
 ---
 # <a name="cbaseinputpinreceivemultiple-method"></a>CBaseInputPin. ReceiveMultiple 方法
 
@@ -71,7 +71,7 @@ HRESULT ReceiveMultiple(
 
 
 
-| 傳回碼                                                                                             | Description                                                |
+| 傳回碼                                                                                             | 描述                                                |
 |---------------------------------------------------------------------------------------------------------|------------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>                    | 成功。<br/>                                        |
 | <dl> <dt>**S \_ FALSE**</dt> </dl>                 | Pin 目前正在排清;已拒絕範例。<br/> |

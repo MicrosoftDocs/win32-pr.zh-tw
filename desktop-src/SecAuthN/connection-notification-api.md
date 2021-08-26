@@ -4,12 +4,12 @@ ms.assetid: 62559eab-dd2f-43fa-9b09-5e4d82efc879
 title: 連接通知 API
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 352d5cb09923a666e3fe1474e9fd2ebe033f05be
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0afaa2e08e6a88f101e8914d9d98a40d6024bdf942ed4bcb0fd1924bc5800213
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114941"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119883308"
 ---
 # <a name="connection-notification-api"></a>連接通知 API
 
@@ -19,7 +19,7 @@ MPR 會在嘗試每個新增連接作業之前和之後呼叫 [**AddConnectNotif
 
 MPR 會在嘗試 ([**WNetCancelConnection**](/windows/desktop/api/winnetwk/nf-winnetwk-wnetcancelconnectiona)或 [**WNetCancelConnection2**](/windows/desktop/api/winnetwk/nf-winnetwk-wnetcancelconnection2a)) 的每個取消連接作業之前和之後呼叫 [**CancelConnectNotify**](/windows/desktop/api/Npapi/nf-npapi-cancelconnectnotify)函數。
 
-如需 WNet 函式的詳細資訊，請參閱 [Windows 網路](/windows/desktop/WNet/windows-networking-wnet-)功能。
+如需 WNet 函式的詳細資訊，請參閱[Windows 網路](/windows/desktop/WNet/windows-networking-wnet-)功能。
 
 如需有關如何建立及註冊接收網路連線通知的應用程式的詳細資訊，請參閱 [接收連接通知](receiving-connection-notifications.md) 和 [註冊以接收連線通知](registering-to-receive-connection-notifications.md)。
 

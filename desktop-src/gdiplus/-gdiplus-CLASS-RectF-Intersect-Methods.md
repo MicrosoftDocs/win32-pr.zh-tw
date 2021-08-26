@@ -4,12 +4,12 @@ ms.assetid: 4b57bc29-cec2-4a66-9227-6a31d8f1d4de
 title: RectF Intersect 方法
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 45224d169d83ef66483e8867d3d1e81da9c058f1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6fa12d63792cd763f302e2ed995035c14e5f6ec14fb38605eb087240f5db6938
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104973000"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120092408"
 ---
 # <a name="rectfintersect-methods"></a>RectF Intersect 方法
 

@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 5e1962dc10b5ef45ba3ad7d7196872fd4d27708c
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
-ms.translationtype: HT
+ms.openlocfilehash: 4db53509411c4b0d8e189f7ec9e2e3a1bee0fa7fa14fee94a7d5cc60a0703743
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104196086"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120118138"
 ---
 # <a name="texture2dgathercmpalphasfloatfloatint2int2int2int2uint-function"></a>Texture2D：： GatherCmpAlpha (S、float、float、int2、int2、int2、int2、uint) 函數
 
@@ -132,7 +132,7 @@ TemplateType GatherCmpAlpha(
 
 
 
-| 頂點 | 船體 | 網域 | 幾何 | 像素 | 計算 |
+| 頂點 | 船體 | 網域 | 幾何形狀 | 像素 | 計算 |
 |--------|------|--------|----------|-------|---------|
 | x      | x    | x      | x        | x     | x       |
 

@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 85e912542b09b02297f5119392115857259f70f0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8cda73c4a698d40a602b39fd7822dabfbded9a7a35c27db16ca74f7993f7f684
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106981654"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119879518"
 ---
 # <a name="basicconstraints-object"></a>BasicConstraints 物件
 
-\[CAPICOM 是僅限32位的元件，可用於下列作業系統： Windows Server 2008、Windows Vista、Windows XP。 請改為使用 [**system.security.cryptography.x509certificates.x509certificate2**](/previous-versions/windows/)命名空間中的 [**X509BasicConstraintsExtension 類別**](/dotnet/api/system.security.cryptography.x509certificates.x509basicconstraintsextension?view=netcore-3.1)。\]
+\[CAPICOM 是僅限32位的元件，可供下列作業系統使用： Windows Server 2008、Windows Vista Windows XP。 請改為使用 [**system.security.cryptography.x509certificates.x509certificate2**](/previous-versions/windows/)命名空間中的 [**X509BasicConstraintsExtension 類別**](/dotnet/api/system.security.cryptography.x509certificates.x509basicconstraintsextension?view=netcore-3.1)。\]
 
 **BasicConstraints** 物件代表憑證的基本限制延伸。
 
@@ -47,7 +47,7 @@ ms.locfileid: "106981654"
 
 
 
-| 屬性                                                                                     | 存取類型          | Description                                                                                                                                                                                                        |
+| 屬性                                                                                     | 存取類型          | 描述                                                                                                                                                                                                        |
 |:---------------------------------------------------------------------------------------------|:---------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**IsCertificateAuthority**](basicconstraints-iscertificateauthority.md)<br/>         | 唯讀<br/> | 取得布林值，指出憑證是否為證書 [*頒發機構*](../secgloss/c-gly.md) 單位 (CA) 。<br/> |
 | [**IsCritical**](basicconstraints-iscritical.md)<br/>                                 | 唯讀<br/> | 抓取布林值，指出基本條件約束延伸是否標記為重大。<br/>                                                                                                     |

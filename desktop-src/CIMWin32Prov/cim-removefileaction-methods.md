@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: CIM_RemoveFileAction 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 12626f70c2abc878beddeeac3980b37a5a8df411
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: eb1cbaffdd5e4546340ae93f5dbe166c39945f4bd18ec125f37fdc8436edff81
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103688648"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119920398"
 ---
 # <a name="cim_removefileaction-methods"></a>CIM \_ RemoveFileAction 方法
 

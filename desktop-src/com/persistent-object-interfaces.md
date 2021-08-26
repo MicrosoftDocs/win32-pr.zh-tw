@@ -4,12 +4,12 @@ description: 持續性物件會執行一個或多個持續性物件介面。
 ms.assetid: 8c8e44e4-f564-4af5-9a8a-ac6883862cae
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5df8920f1242d077044654d1090adcc0e3f3f05c
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 97ee1062c80a5c40d139965e0e3bebf96cbda534062322e218e2f5a7da586ff0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103933670"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120120408"
 ---
 # <a name="persistent-object-interfaces"></a>持續性物件介面
 

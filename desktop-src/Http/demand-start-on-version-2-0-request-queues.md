@@ -4,12 +4,12 @@ description: 2.0 版要求佇列的要求開始
 ms.assetid: 84a744b7-1b0e-4fa7-8015-4840251aa856
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 06f6b14759e60fb69a47cda6975f6559c00771f1
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: f7ec5f0d2d973cfb7d4d0a3f23a5d1f6b6c6055dd9aff19521ed9ff100879c43
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108090926"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120050788"
 ---
 # <a name="demand-start-on-version-20-request-queues"></a>2.0 版要求佇列的要求開始
 

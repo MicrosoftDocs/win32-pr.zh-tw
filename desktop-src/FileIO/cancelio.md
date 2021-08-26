@@ -17,12 +17,12 @@ api_location:
 - KernelBase.dll
 - MinKernelBase.dll
 - api-ms-win-downlevel-kernel32-l1-1-0.dll
-ms.openlocfilehash: adb1ab95b30b31670a6ff5a4cc0e0205943f7683
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 900a47d51df882ce1f2931489ea93b5e3b4c498b8d5cc0f35e521e015e12c1d3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "107001698"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120075338"
 ---
 # <a name="cancelio-function"></a>CancelIo 函式
 
@@ -68,7 +68,7 @@ I/o 作業必須發出為重迭的 i/o。 如果不是，i/o 作業就不會傳�
 
 所有已取消且錯誤錯誤作業完成的 i/o 作業都會 **\_ \_ 中止**，且 i/o 作業的所有完成通知都會正常執行。
 
-在 Windows 8 和 Windows Server 2012 中，下列技術支援此功能。
+在 Windows 8 和 Windows Server 2012 中，下列技術支援此函數。
 
 
 
@@ -90,9 +90,9 @@ I/o 作業必須發出為重迭的 i/o。 如果不是，i/o 作業就不會傳�
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows XP \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                                                                                                                                                                                                                                       |
-| 最低支援的伺服器<br/> | Windows Server 2003 \[ desktop app \| UWP 應用程式\]<br/>                                                                                                                                                                                                                                              |
-| 標頭<br/>                   | <dl> <dt>IoAPI (包含 Windows .h) ;</dt><dt>Windows server 2008 R2、windows 7、Windows server 2008、Windows Vista、Windows server 2003 和 WINDOWS XP (的 WinBase，包括 windows .h) </dt> </dl> |
+| 最低支援的用戶端<br/> | WindowsXP \[ desktop apps \| UWP 應用程式\]<br/>                                                                                                                                                                                                                                                       |
+| 最低支援的伺服器<br/> | WindowsServer 2003 \[ desktop app \| UWP 應用程式\]<br/>                                                                                                                                                                                                                                              |
+| 標頭<br/>                   | <dl> <dt>IoAPI (包含 Windows .h) ;</dt><dt>Windows server 2008 R2、Windows 7、Windows Server 2008、Windows Vista、Windows Server 2003 和 Windows XP (的 WinBase .h 包含 Windows .h) </dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>Kernel32.lib</dt> </dl>                                                                                                                                                                                                                  |
 | DLL<br/>                      | <dl> <dt>Kernel32.dll</dt> </dl>                                                                                                                                                                                                                  |
 

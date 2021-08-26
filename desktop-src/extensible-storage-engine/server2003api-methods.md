@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.serv
 ms:contentKeyID: 55104095
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 4f38977b9d6e553ce7b7ab704956a53e3161a5f7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 41415780934622da5458b7cd56ea43e07eadc52879ceab8fa9ff67b3e076300a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104556481"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120093238"
 ---
 # <a name="server2003api-methods"></a>Server2003Api 方法
 

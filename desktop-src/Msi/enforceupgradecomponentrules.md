@@ -4,12 +4,12 @@ ms.assetid: 0d39c059-d936-454c-aed8-efedd3da7473
 title: EnforceUpgradeComponentRules
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c5a2fc093c2f0beb4167374f93447d978bbca8eb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 882d7df0e794dfb89ab2211db1fada576bd6e056972810d582385c1404e625a8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944427"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120086068"
 ---
 # <a name="enforceupgradecomponentrules"></a>EnforceUpgradeComponentRules
 
@@ -35,7 +35,7 @@ ms.locfileid: "103944427"
 
 ## <a name="registry-key"></a>登錄金鑰
 
-**HKEY \_本機 \_ 電腦** \\ **軟體** \\ **原則** \\ **Microsoft** \\ **Windows** \\ **Installer**
+**HKEY \_本機 \_ 電腦** \\ **軟體** \\ **原則** \\ **Microsoft** \\ **Windows** \\ **安裝程式**
 
 ## <a name="data-type"></a>資料類型
 

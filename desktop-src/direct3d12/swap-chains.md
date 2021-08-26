@@ -5,12 +5,12 @@ ms.assetid: AABF5FDE-DB49-4B29-BC0E-032E0C7DF9EB
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ebbc7ec1b62ba620b42bc85c1c1f491ff7ba952d
-ms.sourcegitcommit: 5b98bf8c68922f8f03c14f793fbe17504900559c
+ms.openlocfilehash: 9e98fc2baf63d7d80fefc190f2d01da33ea24d420e647b4f0c57df7ec4c501f9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "104548407"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119850648"
 ---
 # <a name="swap-chains"></a>交換鏈
 
@@ -69,7 +69,7 @@ void Present()
 
 ### <a name="presenting-on-windows-7"></a>在 Windows 7 上展示
 
-在 Windows 7 上以 Direct3D 12 為目標時，不會顯示 Direct3D 12 的必要 DXGI 類型，因此您必須使用 D3D12On7 提供的 **ID3D12CommandQueueDownLevel** (從直接命令佇列中查詢，) 才會出現。
+以 Windows 7 上的 direct3d 12 為目標時，不會顯示 Direct3D 12 的必要 DXGI 型別，因此您必須使用 D3D12On7 提供的 **ID3D12CommandQueueDownLevel** (從直接命令佇列中查詢) 要顯示。
 
 您可以將開啟的命令清單提供給 Windows 7 目前的方法，然後使用、關閉，並自動提交給裝置。 您必須提供必須為應用程式建立的後置緩衝區、必須是已認可的資源、必須是單一取樣，而且必須是下列其中一種格式。
 

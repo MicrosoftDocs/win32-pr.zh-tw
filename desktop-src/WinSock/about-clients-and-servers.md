@@ -4,12 +4,12 @@ ms.assetid: 05e42384-1746-462d-82c7-8df848b4525e
 title: 關於伺服器和用戶端
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a951d23ba1c6ad4f0f5ffd1f674b056a36c3f8dd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 07e6d8016d1fc9c23b901a03a924cd0e3ade3982dc2e1bf0db277eac47170d89
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106989914"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119898638"
 ---
 # <a name="about-servers-and-clients"></a>關於伺服器和用戶端
 

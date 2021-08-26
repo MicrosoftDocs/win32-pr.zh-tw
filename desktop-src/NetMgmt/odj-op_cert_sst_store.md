@@ -5,12 +5,12 @@ ms.assetid: 6c44756e-29f9-48fc-b678-d2b1f0fb90d4
 ms.topic: reference
 ms.date: 10/12/2020
 ms.reviewer: jsimmons
-ms.openlocfilehash: 294d21d730e1cce478088cddb43686706217ec5b
-ms.sourcegitcommit: db89157e3be911fdce2e543e99faa31fb2403bc8
+ms.openlocfilehash: 4104635ea845394251f28eea48a2b3c67063826f98dd4da71a8f9adda8fd14a2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "104383434"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119911548"
 ---
 # <a name="op_cert_sst_store-structure"></a>OP_CERT_SST_STORE 結構
 

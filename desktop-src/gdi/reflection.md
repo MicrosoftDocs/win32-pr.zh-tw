@@ -4,12 +4,12 @@ ms.assetid: 2205dc3c-ca4b-4a0a-be3e-0332ce8467a0
 title: 反射
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5d8e327af098a4e232e2a6734b37a17a1ac85f19
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f03d872273e7d0b9f23d9ffb31c6304c8b59b59eda80c7181802120f89c0d764
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972549"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120092698"
 ---
 # <a name="reflection"></a>反射
 

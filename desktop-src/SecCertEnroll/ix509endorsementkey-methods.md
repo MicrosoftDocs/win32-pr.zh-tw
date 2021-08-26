@@ -4,12 +4,12 @@ ms.assetid: 536E5DE6-FF14-45C8-9227-68AF673E5FDC
 title: IX509EndorsementKey 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f3c1eb6a96cd555d4b0a0fdcd2ad52ccf80ec4aa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 83bc951830f308e2918558794c9790c9f57183ca250e17b7821ba2a152428576
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104195076"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119881728"
 ---
 # <a name="ix509endorsementkey-methods"></a>IX509EndorsementKey 方法
 

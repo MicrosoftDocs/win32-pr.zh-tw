@@ -4,12 +4,12 @@ ms.assetid: 6e424bd4-389c-4f51-9898-f60a8a818f89
 title: 地理位置資料表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fa59c091257fcb0ae7ebb48da7d685a0de8d74e8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c7c45ad723829fb4233987457e84134c472eca0697c68ced8ec78c8a40d786ac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106985687"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119897868"
 ---
 # <a name="table-of-geographical-locations"></a>地理位置資料表
 

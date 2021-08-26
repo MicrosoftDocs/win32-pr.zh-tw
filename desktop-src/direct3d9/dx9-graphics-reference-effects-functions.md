@@ -4,12 +4,12 @@ ms.assetid: 8aa68b19-d248-448a-9364-42913253c55f
 title: 效果函數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 98b6f14d45bb98c80a491c8ee29583fc5a0b9650
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 3a7f2ed7b793050c87d863bde913b4bc104acfa2c45615ac88c4c020e78f75a5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106971931"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120026978"
 ---
 # <a name="effect-functions"></a>效果函數
 

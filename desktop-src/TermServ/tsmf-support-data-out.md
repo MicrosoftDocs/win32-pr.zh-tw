@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 9705c4c2c27eaff904e09364b029bd74ebd05d6c
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 8577266c2e259e7a7e4bb70310837eee1d743905e0e0d166e5797bc51a1f1b45
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "103945818"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119869018"
 ---
 # <a name="tsmf_support_data_out-structure"></a>TSMF \_ 支援 \_ 資料 \_ 輸出結構
 

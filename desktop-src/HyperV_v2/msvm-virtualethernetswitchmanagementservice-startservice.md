@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: d58ec579d13edd87b0a952d8b9e26ad387622d3b
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 8e15dcf329a2ef4192ef9bd04ee9a275d0437787e4d14338bb1d6e3bf270d409
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108109406"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120075278"
 ---
 # <a name="startservice-method-of-the-msvm_virtualethernetswitchmanagementservice-class"></a>Msvm VirtualEthernetSwitchManagementService 類別的 StartService 方法 \_
 

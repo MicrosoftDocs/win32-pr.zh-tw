@@ -1,5 +1,5 @@
 ---
-description: IMpeg2PsiParser：： GetRecordProgramNumber 方法-此方法的實作為使用 DirectShow SDK 的範例程式碼來提供。 這不是支援的 DirectShow API。
+description: IMpeg2PsiParser：： GetRecordProgramNumber 方法-會以 DirectShow SDK 的範例程式碼形式提供此方法的執行。 這不是支援的 DirectShow API。
 ms.assetid: 3800a0b1-a581-40ed-81ab-3d5f77f442df
 title: IMpeg2PsiParser：： GetRecordProgramNumber 方法
 ms.topic: reference
@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 0fd99178edaa23f2cdf32672a746f79c368b4265
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: e42e991fc7e288fc36dafcd167fe21ffb4983baeeb34bbb80e1bf67981e24779
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108089136"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120083698"
 ---
 # <a name="impeg2psiparsergetrecordprogramnumber-method"></a>IMpeg2PsiParser：： GetRecordProgramNumber 方法
 
@@ -61,7 +61,7 @@ HRESULT GetRecordProgramNumber(
 
 
 
-| 傳回碼                                                                          | Description         |
+| 傳回碼                                                                          | 描述         |
 |--------------------------------------------------------------------------------------|---------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl> | 成功。<br/> |
 

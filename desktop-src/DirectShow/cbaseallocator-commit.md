@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: b49fae72e5588105b1235c1f0c461d5cc45cfa2b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ba9c373a15d5200d6466fef5c519a59a1052c8e5854ebe38c5a8b027d21188a5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106983046"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120087578"
 ---
 # <a name="cbaseallocatorcommit-method"></a>CBaseAllocator Commit 方法
 
@@ -46,7 +46,7 @@ HRESULT Commit();
 
 
 
-| 傳回碼                                                                                       | Description                                        |
+| 傳回碼                                                                                       | 描述                                        |
 |---------------------------------------------------------------------------------------------------|----------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>              | 成功。<br/>                                |
 | <dl> <dt>**VFW \_ E \_ SIZENOTSET**</dt> </dl> | 未指定緩衝區需求。<br/> |

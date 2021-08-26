@@ -4,12 +4,12 @@ ms.assetid: 3018ffa7-e709-45b0-8b2b-7640d5633378
 title: 媒體基礎函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b651595ba8624c091ceab9f24b17cd5d08b5c8c9
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 5f6f563afbf9234f5f3ff5b553c6dd422b5b97694a1d513846e2ac5d8858c8ae
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "103696209"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120114158"
 ---
 # <a name="media-foundation-functions"></a>媒體基礎函式
 

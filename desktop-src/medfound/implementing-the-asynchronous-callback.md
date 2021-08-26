@@ -4,12 +4,12 @@ ms.assetid: c2c9d0f7-038b-4f23-985c-b812908d71a7
 title: 執行非同步回呼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 24088aea4e74b39ae08625c6917a5ca56f554158
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7f064c9a3d16ebf54342065439415557ea4621c72a57a0a52e4f4c9ed65721e7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "107000069"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119941888"
 ---
 # <a name="implementing-the-asynchronous-callback"></a>執行非同步回呼
 

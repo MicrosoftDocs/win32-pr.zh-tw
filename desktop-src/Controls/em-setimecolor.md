@@ -3,7 +3,7 @@ title: 'EM_SETIMECOLOR 訊息 (Richedit .h) '
 description: 設定 rich edit 控制項的輸入法) 組合色彩 (IME。
 ms.assetid: ea5449c9-7d0f-4340-8e3e-1e0b77d443f6
 keywords:
-- EM_SETIMECOLOR message Windows 控制項
+- EM_SETIMECOLOR 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c020bb3af2b1197afc005bd0b6efec82b609b88
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7a0f68e548a36cbdaa28f292feb69b6d56cbc3264b0bea8bdb1938088717bd62
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465712"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120048398"
 ---
 # <a name="em_setimecolor-message"></a>EM \_ SETIMECOLOR 訊息
 
@@ -60,8 +60,8 @@ ms.locfileid: "104465712"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Richedit。h</dt> </dl> |
 
 

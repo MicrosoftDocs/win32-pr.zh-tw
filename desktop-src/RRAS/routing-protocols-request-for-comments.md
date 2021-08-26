@@ -7,12 +7,12 @@ keywords:
 - 要求留言，路由通訊協定
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3a3d3acb6e269c10a128a2b9519b892cd373ad4f
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: dca1cb772b3e2e3f37a643ac73b2bd855820e238a54c4090d79377868dd9c546
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112404781"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120027258"
 ---
 # <a name="routing-protocols-request-for-comments"></a>批註的路由通訊協定要求
 

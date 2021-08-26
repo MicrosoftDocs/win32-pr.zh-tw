@@ -3,7 +3,7 @@ title: 'TBM_GETRANGEMAX 訊息 (Commctrl .h) '
 description: 抓取捲軸中滑杆的最大位置。
 ms.assetid: c0ae5f96-f4ce-46cd-84d0-9e7c473441a0
 keywords:
-- TBM_GETRANGEMAX message Windows 控制項
+- TBM_GETRANGEMAX 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6bdd9687b617759ab8b8fdea59ed06d7fcd78b6d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e14e5988802135816076bea8549df125c46708a83d3d949bbe0f90659ea2468f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104025124"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120046488"
 ---
 # <a name="tbm_getrangemax-message"></a>TBM \_ GETRANGEMAX 訊息
 
@@ -45,8 +45,8 @@ ms.locfileid: "104025124"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

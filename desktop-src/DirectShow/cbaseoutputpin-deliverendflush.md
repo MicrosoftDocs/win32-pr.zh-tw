@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 5f3fd5c1bc686ee5c0b4ff0cd1285a5114b93049
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 6225406d23dd409c9d2b1ff3dcb7669fa468d8f8cba6c49773dbe057c4545cc3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108096176"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120076561"
 ---
 # <a name="cbaseoutputpindeliverendflush-method"></a>CBaseOutputPin. DeliverEndFlush 方法
 
@@ -46,7 +46,7 @@ virtual HRESULT DeliverEndFlush();
 
 
 
-| 傳回碼                                                                                           | Description                      |
+| 傳回碼                                                                                           | 描述                      |
 |-------------------------------------------------------------------------------------------------------|----------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>                  | 成功。<br/>              |
 | <dl> <dt>**VFW \_ E \_ 未 \_ 連線**</dt> </dl> | Pin 未連接。<br/> |

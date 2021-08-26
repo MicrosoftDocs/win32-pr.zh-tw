@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: a995b4edbfe122a6cbfe4a2fa70ea9de24310ddc
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 1ef23e3136a5af31eff2f45929a9bd70c7f846ce
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104109300"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122623934"
 ---
 # <a name="span-idvspixengineiupdateobjectspaniupdateobject-interface"></a><span id="vspixengine.iupdateobject"></span>IUpdateObject 介面
 
@@ -38,13 +38,13 @@ ms.locfileid: "104109300"
 
 **IUpdateObject** 介面具有這些方法。
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">方法</th><th style="text-align: left;">描述</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/iupdateobject-updateobject-uint-dword-byte-arr-iupdateobjectcallback-ptr"><strong>UpdateObject</strong></a></td><td style="text-align: left;"><p>要求更新物件的初始狀態;例如紋理或著色器。</p></td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th style="text-align: left;">方法</th><th style="text-align: left;">描述</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/iupdateobject-updateobject-uint-dword-byte-arr-iupdateobjectcallback-ptr"><strong>UpdateObject</strong></a></td><td style="text-align: left;"><p>要求更新物件的初始狀態;例如紋理或著色器。</p></td></tr></tbody></table>
 
  
 
 ## <a name="requirements"></a>規格需求
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>標頭</p></td><td>Vspixengine。h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>標頭</p></td><td>Vspixengine。h</td></tr></tbody></table>
 
  
 

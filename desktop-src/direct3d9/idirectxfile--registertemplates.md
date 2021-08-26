@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dxof.lib
 - D3dxof.dll
-ms.openlocfilehash: 683a495398e7fe0718ee0642c7760b0a8590538c
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 685e97ec28241348ff4a969c444b6da5638aeba01af8be35cc5490a0d2be0a95
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106991455"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119846958"
 ---
 # <a name="idirectxfileregistertemplates-method"></a>IDirectXFile：： RegisterTemplates 方法
 

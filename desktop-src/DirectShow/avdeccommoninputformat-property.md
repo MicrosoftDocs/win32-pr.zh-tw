@@ -4,12 +4,12 @@ ms.assetid: 8fddf8c3-268e-4706-9003-e4bfb03d5278
 title: 'AVDecCommonInputFormat 屬性 (Codecapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7432d2a48727ec144d4206d4a11bfe65ce2c5d2a
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 187e923be9c53cebbb55663d55ec6351be38f84c33f8c03277f587d61a4db719
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104467832"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120079488"
 ---
 # <a name="avdeccommoninputformat-property"></a>AVDecCommonInputFormat 屬性
 
@@ -31,7 +31,7 @@ ms.locfileid: "104467832"
 
 
 
-| **GUID**                                            | Description                                    |
+| **GUID**                                            | 描述                                    |
 |-----------------------------------------------------|------------------------------------------------|
 | **CODECAPI \_ GUID \_ AVDecAudioInputAAC**              | Advanced Audio 編碼 (AAC)                     |
 | **CODECAPI \_ GUID \_ AVDecAudioInputDolbyDigitalPlus** | 杜比數位加號音訊                       |
@@ -41,7 +41,7 @@ ms.locfileid: "104467832"
 | **CODECAPI \_ GUID \_ AVDecAudioInputMPEG**             | MPEG 音訊                                     |
 | **CODECAPI \_ GUID \_ AVDecAudioInputPCM**              | PCM 音訊                                      |
 | **CODECAPI \_ GUID \_ AVDecAudioInputWMA**              | Windows Media 音訊                            |
-| **CODECAPI \_ GUID \_ AVDecAudioInputWMAPro**           | Windows Media 音訊 9 Professional (WMA Pro)    |
+| **CODECAPI \_ GUID \_ AVDecAudioInputWMAPro**           | WindowsMedia Audio 9 Professional (WMA Pro)    |
 
 
 
@@ -53,8 +53,8 @@ ms.locfileid: "104467832"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 2000 專業版傳統型 \[ 應用程式 \| UWP 應用程式\]<br/>                     |
-| 最低支援的伺服器<br/> | Windows 2000 Server \[ desktop 應用程式 \| UWP 應用程式\]<br/>                           |
+| 最低支援的用戶端<br/> | Windows 2000 Professional \[ 桌面應用程式 \| UWP 應用程式\]<br/>                     |
+| 最低支援的伺服器<br/> | Windows 2000 Server \[ desktop apps \| UWP 應用程式\]<br/>                           |
 | 標頭<br/>                   | <dl> <dt>Codecapi。h</dt> </dl> |
 
 

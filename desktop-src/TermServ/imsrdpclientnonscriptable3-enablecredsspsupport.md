@@ -44,12 +44,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e2330b800d15f95a7b59a01735de971dd4b212d6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2f682fe85de22bcffad42d5da80c2f565f4690373629a804c7bbb4fefafa23b2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104094483"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120125688"
 ---
 # <a name="imsrdpclientnonscriptable3enablecredsspsupport-property"></a>IMsRdpClientNonScriptable3：： EnableCredSspSupport 屬性
 

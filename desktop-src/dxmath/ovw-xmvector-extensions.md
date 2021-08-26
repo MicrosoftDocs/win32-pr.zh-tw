@@ -4,12 +4,12 @@ ms.assetid: 34c31b2f-7913-4eda-a47b-962c1ab68fc2
 title: XMVECTOR 延伸模組
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c468c51796b332bb33bde418bcf2d680ab509722
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8d7f3e50cdae47061d6bcb20732932efc1802c8ee10e65a6e4fa8a92260747c4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106976801"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120117588"
 ---
 # <a name="xmvector-extensions"></a>XMVECTOR 延伸模組
 

@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: b9810c7cd54afd9649530c1bea6db93161911efb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e7c0579a6ec7e6bf6c92d47f94c9132ad5648ca559d2aa3800846747bd2e2572
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103945221"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119947418"
 ---
 # <a name="esentdiskioexception-class"></a>EsentDiskIOException 類別
 

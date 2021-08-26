@@ -4,12 +4,12 @@ description: C 語言中的陣列和指標之間有接近的關聯性。
 ms.assetid: 0d65c993-63e4-42ae-ae24-6c19a71386a1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f5ed669a2a81528afa84b41a1be25a0c84f70fbe
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 8ba7bdaa08352a96987066313d4db074872f28b71ec0be0856a32522a849029c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103682891"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120073518"
 ---
 # <a name="array-attributes"></a>陣列屬性
 
@@ -63,13 +63,13 @@ void fLocal1(char * pch1)
 
 
 
- 
+ 
 
 > [!Note]  
 > **最小值 \_ 是** 不會在 RPC 中執行的屬性。 最小陣列索引一律會被視為零。
 
- 
+ 
 
- 
+ 
 
- 
+ 

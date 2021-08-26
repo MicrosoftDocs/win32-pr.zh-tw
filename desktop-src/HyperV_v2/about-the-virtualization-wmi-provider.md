@@ -4,20 +4,20 @@ ms.assetid: 773BB141-7B9C-4015-81A0-BD17B8233CCD
 title: 關於 Hyper-v WMI 提供者
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e70c30b329f7e8a3fd3ae65b49f8467a8f712707
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1868560e3c82c5f97fb1bedb3979c16328a042a7b9cedf3eaf1162e45f172794
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974456"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120046948"
 ---
 # <a name="about-the-hyper-v-wmi-provider"></a>關於 Hyper-v WMI 提供者
 
 Hyper-v 的 WMI 提供者可讓開發人員和腳本撰寫人員快速建立虛擬化平臺的自訂工具、公用程式和增強功能。 WMI 介面可以管理 Hyper-v 服務的所有層面。
 
-## <a name="about-microsoft-windows-server-2008-r2-hyper-v"></a>關於 Microsoft Windows Server 2008 R2 Hyper-v
+## <a name="about-microsoft-windows-server-2008-r2-hyper-v"></a>關於 Microsoft Windows Server 2008 R2 hyper-v
 
-Microsoft Windows Server 2008 R2 Hyper-v 可讓系統管理員將個別的硬體伺服器合併到執行 Microsoft Windows Server 2008 R2 作為主機作業系統的單一伺服器上。
+Microsoft Windows Server 2008 R2 hyper-v 可讓系統管理員將個別的硬體伺服器合併到執行 Microsoft Windows Server 2008 R2 作為主機作業系統的單一伺服器上。
 
 每個裝載的虛擬機器都會在其各自獨立且獨立的虛擬環境中執行。 這可讓系統管理員輕鬆地管理、提供及維護大量的虛擬機器，同時減少執行多個硬體解決方案以使用各種產品和作業系統的需求。
 

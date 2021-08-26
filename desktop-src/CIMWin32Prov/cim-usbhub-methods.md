@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: CIM_USBHub 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 919c28eaba9bb19586eb29838ffb31e3dfa83d99
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: c1588363a99d8dd2f7c5f095209a01773271ef003d9d5ef80f708a285b49d9ef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103688564"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119918768"
 ---
 # <a name="cim_usbhub-methods"></a>CIM \_ USBHub 方法
 

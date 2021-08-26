@@ -3,7 +3,7 @@ title: 'EM_GETIMESTATUS 訊息 (Winuser .h) '
 description: 取得一組狀態旗標，指出編輯控制項如何與輸入方法編輯器互動 (IME) 。
 ms.assetid: 56705aed-afab-4f4d-9e0b-dc533b516a15
 keywords:
-- EM_GETIMESTATUS message Windows 控制項
+- EM_GETIMESTATUS 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2a9b449053972db8101db7f5c01d1a03611cae67
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 01a8251a62aa9cf48bcc6476af27e4c3a5dbbb82dd0ce76ca21ae094225a3e46
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105120"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120048988"
 ---
 # <a name="em_getimestatus-message"></a>EM \_ GETIMESTATUS 訊息
 
@@ -59,7 +59,7 @@ ms.locfileid: "104105120"
 
 
 
-| 傳回碼                                                                                                    | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| 傳回碼                                                                                                    | 描述                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 |----------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**EIMES \_ GETCOMPSTRATONCE**</dt> </dl>         | 如果設定此旗標，則編輯控制項會將 *fFlags* 設定為 gc RESULTSTR 的 [**WM \_ IME \_ 組合**](/windows/desktop/Intl/wm-ime-composition)訊息進行攔截， \_ 並立即傳回結果字串。 如果未設定此旗標，則編輯控制項會將 **wm \_ IME \_ 組合** 訊息傳遞至預設視窗程式，並處理來自 [**WM \_ CHAR**](/windows/desktop/inputdev/wm-char) 訊息的結果字串，這是編輯控制項的預設行為。<br/> |
 | <dl> <dt>**EIMES \_ CANCELCOMPSTRINFOCUS**</dt> </dl>     | 如果設定此旗標，則編輯控制項會在收到 [**WM \_ SETFOCUS**](/windows/desktop/inputdev/wm-setfocus) 訊息時取消撰寫字串。 如果未設定此旗標，則編輯控制項不會取消撰寫字串;這是編輯控制項的預設行為。<br/>                                                                                                                                                                       |
@@ -79,9 +79,9 @@ ms.locfileid: "104105120"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                     |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 

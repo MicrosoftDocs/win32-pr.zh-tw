@@ -4,12 +4,12 @@ ms.assetid: fdf9bdf5-b847-426e-949a-63af76358cea
 title: DiskCost 對話方塊
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 93753fee084804f96db9c0e9c45e9c12573b9e79
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2bbb07dbeae28e6c29de083a64a33170c1a1825a276c0258156e505d4ae6da05
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112273"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120086158"
 ---
 # <a name="diskcost-dialog"></a>DiskCost 對話方塊
 

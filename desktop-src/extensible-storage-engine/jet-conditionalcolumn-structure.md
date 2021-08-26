@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 870536ff408558332e6a07f91649edb1a17ca2fb0c69ed46fb7171f3505d683e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: dacaff181b40af870bd01bf9d287683c3d3d63a6
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119731148"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122469475"
 ---
 # <a name="jet_conditionalcolumn-structure"></a>JET_CONDITIONALCOLUMN 結構
 
@@ -51,28 +51,12 @@ _**適用于：** Windows |Windows伺服器_
 
 **grbit** 提供條件式索引選項的位群組。 傳入零或邏輯 **或** ed 值對於 **JET_CONDITIONALCOLUMN** 無效。 位欄位必須是下列其中一項：
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>值</p></th>
-<th><p>意義</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_bitIndexColumnMustBeNull</p></td>
-<td><p><em>SzColumnName</em>參數所指定的資料行必須是 Null，指定資料列的索引項目才會出現在此索引中。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitIndexColumnMustBeNonNull</p></td>
-<td><p><em>SzColumnName</em>參數所指定的資料行必須是索引項目的非 Null，才能讓指定的資料列出現在此索引中。</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>值</p> | <p>意義</p> | 
+|--------------|----------------|
+| <p>JET_bitIndexColumnMustBeNull</p> | <p><em>SzColumnName</em>參數所指定的資料行必須是 Null，指定資料列的索引項目才會出現在此索引中。</p> | 
+| <p>JET_bitIndexColumnMustBeNonNull</p> | <p><em>SzColumnName</em>參數所指定的資料行必須是索引項目的非 Null，才能讓指定的資料列出現在此索引中。</p> | 
+
 
 
 ### <a name="remarks"></a>備註
@@ -81,30 +65,9 @@ _**適用于：** Windows |Windows伺服器_
 
 ### <a name="requirements"></a>規格需求
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>用戶端</strong></p></td>
-<td><p>需要 Windows Vista、Windows XP 或 Windows 2000 Professional。</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>伺服器</strong></p></td>
-<td><p>需要 Windows server 2008、Windows Server 2003 或 Windows 2000 Server。</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>標頭</strong></p></td>
-<td><p>宣告于 Esent. h 中。</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Unicode</strong></p></td>
-<td><p>實作為 <strong>JET_CONDITIONALCOLUMN_W</strong> (Unicode) 和 <strong>JET_CONDITIONALCOLUMN_A</strong> (ANSI) 。</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p><strong>用戶端</strong></p> | <p>需要 Windows Vista、Windows XP 或 Windows 2000 Professional。</p> | | <p><strong>伺服器</strong></p> | <p>需要 Windows server 2008、Windows Server 2003 或 Windows 2000 Server。</p> | | <p><strong>標頭</strong></p> | <p>宣告于 Esent. h 中。</p> | | <p><strong>Unicode</strong></p> | <p>實作為 <strong>JET_CONDITIONALCOLUMN_W</strong> (Unicode) 和 <strong>JET_CONDITIONALCOLUMN_A</strong> (ANSI) 。</p> | 
+
 
 
 ### <a name="see-also"></a>另請參閱

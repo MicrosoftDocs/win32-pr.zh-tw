@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: f564efe9df3122951969a45443d58ace60e9db30
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b52054c170cd8072bde1b742d0446732fa0b89d2be0dfc2efc66d557cdf98fdb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994572"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119880158"
 ---
 # <a name="algorithm-object"></a>演算法物件
 
-\[CAPICOM 是僅限32位的元件，可用於下列作業系統： Windows Server 2008、Windows Vista、Windows XP。 相反地，請使用 [**AlgorithmIdentifier 類別**](/dotnet/api/system.security.cryptography.pkcs.algorithmidentifier?view=dotnet-plat-ext-3.1&preserve-view=true)，以使用 [**system.servicemodel 命名空間。**](/dotnet/api/system.security.cryptography.pkcs?view=dotnet-plat-ext-3.1&preserve-view=true)\]
+\[CAPICOM 是僅限32位的元件，可供下列作業系統使用： Windows Server 2008、Windows Vista Windows XP。 相反地，請使用 [**AlgorithmIdentifier 類別**](/dotnet/api/system.security.cryptography.pkcs.algorithmidentifier?view=dotnet-plat-ext-3.1&preserve-view=true)，以使用 [**system.servicemodel 命名空間。**](/dotnet/api/system.security.cryptography.pkcs?view=dotnet-plat-ext-3.1&preserve-view=true)\]
 
 **演算法** 物件指定用於簽署、封套和加密作業的演算法。
 
@@ -50,10 +50,10 @@ ms.locfileid: "106994572"
 
 
 
-| 屬性                                            | 存取類型           | Description                                                                                                                       |
+| 屬性                                            | 存取類型           | 描述                                                                                                                       |
 |:----------------------------------------------------|:----------------------|:----------------------------------------------------------------------------------------------------------------------------------|
 | [**KeyLength**](algorithm-keylength.md)<br/> | 讀取/寫入<br/> | 設定或抓取索引鍵的長度。<br/>                                                                               |
-| [**Name**](algorithm-name.md)<br/>           | 讀取/寫入<br/> | 設定或抓取用於簽署、封套和加密作業的演算法。 這是預設屬性。<br/> |
+| [**名稱**](algorithm-name.md)<br/>           | 讀取/寫入<br/> | 設定或抓取用於簽署、封套和加密作業的演算法。 這是預設屬性。<br/> |
 
 
 

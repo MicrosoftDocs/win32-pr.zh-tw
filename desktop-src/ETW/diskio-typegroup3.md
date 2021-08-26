@@ -17,12 +17,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 63ca227269dab249be755da22288ce41696a19e1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6e421a8bd596869ac06af61f05ed1af8c633fb23b95e576398de6418620249c7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104971945"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120050658"
 ---
 # <a name="diskio_typegroup3-class"></a>DiskIo \_ TypeGroup3 類別
 
@@ -178,7 +178,7 @@ I/o 要求封包。 這個屬性會識別 i/o 活動。
 
 發行執行緒的識別碼。
 
-**Windows server 2008 R2、Windows server 2008、windows 7 和 Windows Vista：** 不支援這個屬性。
+**Windows server 2008 R2、Windows Server 2008、Windows 7 和 Windows Vista：** 不支援這個屬性。
 
 </dd> </dl>
 
@@ -188,8 +188,8 @@ I/o 要求封包。 這個屬性會識別 i/o 活動。
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

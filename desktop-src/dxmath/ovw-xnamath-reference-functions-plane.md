@@ -4,12 +4,12 @@ ms.assetid: 6505e72e-4af5-5db3-4fc0-f83fa77692b1
 title: DirectXMath 程式庫平面函式
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b3f450b4dbaa5ed1b4348ad8b090210c14e2022
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4a91e58ddad68c31bcc5579b2727891fdddd5b6737761c89d9db70ca21c56bfc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106983383"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119841198"
 ---
 # <a name="directxmath-library-plane-functions"></a>DirectXMath 程式庫平面函式
 

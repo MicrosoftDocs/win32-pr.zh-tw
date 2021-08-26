@@ -4,12 +4,12 @@ ms.assetid: 2911ae57-1703-4a9d-bd33-94af1e0f8804
 title: 影片交錯
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ec10f49ef21f3701f85467a3f4a1c4b08d69df72
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 340c727f8faaaf20ff82eff58d0c651601071dea
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974977"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122474334"
 ---
 # <a name="video-interlacing"></a>影片交錯
 
@@ -48,11 +48,11 @@ ms.locfileid: "106974977"
 
 | MF \_ MT \_ 交錯 \_ 模式                       | 交錯？ | 範例                                  | 第一個欄位    |
 |-----------------------------------------------|-------------|------------------------------------------|----------------|
-| MFVideoInterlace \_ 漸進式                 | No          | 漸進式框架                        | 不適用 |
-| MFVideoInterlace \_ FieldInterleavedUpperFirst  | Yes         | 交錯欄位                       | 上一個    |
-| MFVideoInterlace \_ FieldInterleavedLowerFirst  | Yes         | 交錯欄位                       | 先較低    |
-| MFVideoInterlace \_ FieldSingleUpper            | Yes         | 單一欄位                             | 上一個    |
-| MFVideoInterlace \_ FieldSingleLower            | Yes         | 單一欄位                             | 先較低    |
+| MFVideoInterlace \_ 漸進式                 | 否          | 漸進式框架                        | 不適用 |
+| MFVideoInterlace \_ FieldInterleavedUpperFirst  | 是         | 交錯欄位                       | 上一個    |
+| MFVideoInterlace \_ FieldInterleavedLowerFirst  | 是         | 交錯欄位                       | 先較低    |
+| MFVideoInterlace \_ FieldSingleUpper            | 是         | 單一欄位                             | 上一個    |
+| MFVideoInterlace \_ FieldSingleLower            | 是         | 單一欄位                             | 先較低    |
 | MFVideoInterlace \_ MixedInterlaceOrProgressive | 可能不同    | 交錯的欄位或漸進式框架 | 可能不同       |
 
 
@@ -69,41 +69,14 @@ ms.locfileid: "106974977"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>屬性</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="mfsampleextension-interlaced-attribute.md">MFSampleExtension_Interlaced</a></td>
-<td>若 <strong>為 TRUE</strong>，則框架為交錯式。 如果 <strong>為 FALSE</strong>，則表示框架為漸進式。<br/> 如果媒體類型為 MFVideoInterlace_MixedInterlaceOrProgressive，請在每個範例上設定此屬性。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="mfsampleextension-bottomfieldfirst-attribute.md">MFSampleExtension_BottomFieldFirst</a></td>
-<td>此旗標的意義取決於範例是否包含交錯欄位或單一欄位。<br/>
-<ul>
-<li>交錯欄位：如果 <strong>為 TRUE</strong>，則較低的欄位為第一個。 如果 <strong>為 FALSE</strong>，則表示上方欄位為第一個。<br/></li>
-<li>單一欄位：如果 <strong>為 TRUE</strong>，則範例包含較低的欄位。 如果 <strong>為 FALSE</strong>，則表示範例包含上方欄位。<br/></li>
-</ul>
-如果媒體類型為 MFVideoInterlace_FieldSingleUpper、MFVideoInterlace_FieldSingleLower 或 MFVideoInterlace_MixedInterlaceOrProgressive，請在每個交錯範例上設定此屬性。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="mfsampleextension-repeatfirstfield-attribute.md">MFSampleExtension_RepeatFirstField</a></td>
-<td>若 <strong>為 TRUE</strong>，則會重複第一個欄位。 如果 <strong>為 FALSE</strong> 或未設定，則不會重複第一個欄位。</td>
-</tr>
-<tr class="even">
-<td><a href="mfsampleextension-singlefield-attribute.md">MFSampleExtension_SingleField</a></td>
-<td>若 <strong>為 TRUE</strong>，則範例包含單一欄位。 如果 <strong>為 FALSE</strong>，則範例包含交錯的欄位。</td>
-</tr>
-</tbody>
-</table>
+
+| 屬性 | 描述 | 
+|-----------|-------------|
+| <a href="mfsampleextension-interlaced-attribute.md">MFSampleExtension_Interlaced</a> | 若 <strong>為 TRUE</strong>，則框架為交錯式。 如果 <strong>為 FALSE</strong>，則表示框架為漸進式。<br /> 如果媒體類型為 MFVideoInterlace_MixedInterlaceOrProgressive，請在每個範例上設定此屬性。<br /> | 
+| <a href="mfsampleextension-bottomfieldfirst-attribute.md">MFSampleExtension_BottomFieldFirst</a> | 此旗標的意義取決於範例是否包含交錯欄位或單一欄位。<br /><ul><li>交錯欄位：如果 <strong>為 TRUE</strong>，則較低的欄位為第一個。 如果 <strong>為 FALSE</strong>，則表示上方欄位為第一個。<br /></li><li>單一欄位：如果 <strong>為 TRUE</strong>，則範例包含較低的欄位。 如果 <strong>為 FALSE</strong>，則表示範例包含上方欄位。<br /></li></ul>如果媒體類型為 MFVideoInterlace_FieldSingleUpper、MFVideoInterlace_FieldSingleLower 或 MFVideoInterlace_MixedInterlaceOrProgressive，請在每個交錯範例上設定此屬性。<br /> | 
+| <a href="mfsampleextension-repeatfirstfield-attribute.md">MFSampleExtension_RepeatFirstField</a> | 若 <strong>為 TRUE</strong>，則會重複第一個欄位。 如果 <strong>為 FALSE</strong> 或未設定，則不會重複第一個欄位。 | 
+| <a href="mfsampleextension-singlefield-attribute.md">MFSampleExtension_SingleField</a> | 若 <strong>為 TRUE</strong>，則範例包含單一欄位。 如果 <strong>為 FALSE</strong>，則範例包含交錯的欄位。 | 
+
 
 
 
@@ -237,7 +210,7 @@ ms.locfileid: "106974977"
 
 相同規則適用于幾何光圈 ([MF \_ mt \_ 幾何 \_ 光圈](mf-mt-geometric-aperture-attribute.md) 屬性) 和最小顯示光圈 ([MF \_ mt \_ 最小 \_ 顯示 \_ 光圈](mf-mt-minimum-display-aperture-attribute.md) 屬性) 。 這些區域是以整個框架（而非個別欄位）來指定。
 
-## <a name="directshow-mappings"></a>DirectShow 對應
+## <a name="directshow-mappings"></a>DirectShow映射
 
 在 DirectShow 中，每個範例交錯的資訊都包含在 **AM \_ sample2.xml \_ 屬性** 結構的 **dwTypeSpecificFlags** 成員中。 下表顯示媒體基礎的對等屬性。
 

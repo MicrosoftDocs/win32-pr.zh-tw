@@ -4,12 +4,12 @@ description: RAS 伺服器管理功能可讓您取得指定的 RAS 伺服器與�
 ms.assetid: 783b0ded-7c0e-49eb-8040-563d5dd675f0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2af21dfeda38a1c1147bf864a1fa1959092ac946
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 82d09d683bf0850b5f51a5d9c1ac1aa21b25f2968ddedbed2d383d28dad7785f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021721"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120028798"
 ---
 # <a name="ras-server-and-port-administration"></a>RAS 伺服器和埠管理
 
@@ -30,9 +30,9 @@ RAS 伺服器管理功能可讓您取得指定的 RAS 伺服器與其埠的相�
 
 您可以使用 [**RasAdminFreeBuffer**](rasadminfreebuffer.md) 函式來釋放 [**RasAdminPortEnum**](rasadminportenum.md) 和 [**RasAdminPortGetInfo**](rasadminportgetinfo.md) 函式所配置的記憶體。 您可以使用 [**RasAdminGetErrorString**](rasadmingeterrorstring.md) 函式來取得字串，此字串描述其中一個 ras 伺服器管理 (RasAdmin) 函式所傳回的 ras 錯誤碼。
 
- 
+ 
 
- 
+ 
 
 
 

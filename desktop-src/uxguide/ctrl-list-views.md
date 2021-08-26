@@ -4,17 +4,17 @@ description: 使用清單視圖時，使用者可以使用單一選取或多重�
 ms.assetid: 62a7bfc8-96a9-450d-9db9-ec9dab6687b7
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 13847e484ccaa78fd08ac9fe60b1432d272b9efa
-ms.sourcegitcommit: 8ebcf6cd36f67f8bcf78e76ae8923d65b8995c8a
+ms.openlocfilehash: 8f1440608e5a9aded6acf55d9e6bb3d9ce1bb096
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "111524562"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122472145"
 ---
 # <a name="list-views"></a>列出視圖
 
 > [!NOTE]
-> 此設計指南是針對 Windows 7 所建立，而且尚未針對較新版本的 Windows 更新。 大部分的指引仍然適用于準則，但展示和範例不會反映我們目前的 [設計指引](/windows/uwp/design/)。
+> 此設計指南是針對 Windows 7 所建立，而且尚未針對較新的 Windows 版本進行更新。 大部分的指引仍然適用于準則，但展示和範例不會反映我們目前的 [設計指引](/windows/uwp/design/)。
 
 使用清單視圖時，使用者可以使用單一選取或多重選取專案來查看資料物件的集合，並與之互動。
 
@@ -90,31 +90,9 @@ ms.locfileid: "111524562"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><strong>資料行選擇器</strong><br/> 清單視圖有時候會有這麼多的資料行，而不會顯示所有資料行。 在此情況下，最佳方法是依預設顯示最有用的資料行，並允許使用者視需要新增或移除資料行。 <br/></td>
-<td><img src="images/ctrl-list-views-image7.png" alt="Screen shot of list view with Column Chooser menu " /><br/> 以滑鼠右鍵按一下資料行標題，就會顯示可讓使用者新增或移除資料行的內容功能表。<br/> <img src="images/ctrl-list-views-image8.png" alt="Screen shot of Choose Details dialog box " /><br/> 在資料行標頭操作功能表中按一下 [更多]，會顯示 [選擇資料行] 對話方塊，讓使用者可以新增或移除資料行，以及重新排列資料行。<br/></td>
-</tr>
-<tr class="even">
-<td><strong>核取方塊清單視圖</strong><br/> 允許使用者選取多個專案。<br/></td>
-<td>多重選取清單視圖與單一選取清單視圖的外觀完全相同，因此沒有視覺提示可支援多重選取。 您可以使用核取方塊清單視圖，清楚地指出可能會有多個選取專案。 因此，您應該將此模式用於多個選取專案很重要或經常使用的工作。<br/> <img src="images/ctrl-list-views-image9.png" alt="Screen shot of dialog box with several check boxes " /><br/> 在此範例中，小圖示視圖會使用核取方塊，因為多個選項對工作而言是不可或缺的。<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>列出具有群組的視圖</strong><br/> 將資料組織成群組。<br/></td>
-<td>雖然詳細資料檢視通常支援依任何資料行排序資料，但清單視圖還可讓使用者將專案組織成群組。 群組的一些優點如下：<br/>
-<ul>
-<li>群組會在 (清單) 以外的所有視圖中運作，因此，例如，使用者可以依演出者群組專輯的額外大型圖示觀點。</li>
-<li>群組可以是高層級的集合，這通常比直接從資料群組更有意義。 例如，Windows 檔案總管將日期組成今天、昨天、去年、去年和很長一段時間。</li>
-</ul>
-<img src="images/ctrl-list-views-image10.png" alt="Screen shot of list view with several data groups " /><br/> 在此範例中，Windows 歡迎中心會在清單視圖中顯示群組專案。<br/></td>
-</tr>
-</tbody>
-</table>
+
+| | |資料 <strong>行選擇器</strong><br /> 清單視圖有時候會有這麼多的資料行，而不會顯示所有資料行。 在此情況下，最佳方法是依預設顯示最有用的資料行，並允許使用者視需要新增或移除資料行。 <br /> | <img src="images/ctrl-list-views-image7.png" alt="Screen shot of list view with Column Chooser menu " /><br /> 以滑鼠右鍵按一下資料行標題，就會顯示可讓使用者新增或移除資料行的內容功能表。<br /><img src="images/ctrl-list-views-image8.png" alt="Screen shot of Choose Details dialog box " /><br /> 在資料行標頭操作功能表中按一下 [更多]，會顯示 [選擇資料行] 對話方塊，讓使用者可以新增或移除資料行，以及重新排列資料行。<br /> | | <strong>核取方塊清單視圖</strong><br /> 允許使用者選取多個專案。<br /> |多重選取清單視圖與單一選取清單視圖的外觀完全相同，因此沒有視覺提示可支援多重選取。 您可以使用核取方塊清單視圖，清楚地指出可能會有多個選取專案。 因此，您應該將此模式用於多個選取專案很重要或經常使用的工作。<br /><img src="images/ctrl-list-views-image9.png" alt="Screen shot of dialog box with several check boxes " /><br /> 在此範例中，小圖示視圖會使用核取方塊，因為多個選項對工作而言是不可或缺的。<br /> | | <strong>列出具有群組的視圖</strong><br /> 將資料組織成群組。<br /> |雖然詳細資料檢視通常支援依任何資料行排序資料，但清單視圖還可讓使用者將專案組織成群組。 群組的一些優點如下：<br /><ul><li>群組會在 (清單) 以外的所有視圖中運作，因此，例如，使用者可以依演出者群組專輯的額外大型圖示觀點。</li><li>群組可以是高層級的集合，這通常比直接從資料群組更有意義。 例如，Windows 檔案總管將日期組成今天、昨天、去年、去年和很長一段時間。</li></ul><img src="images/ctrl-list-views-image10.png" alt="Screen shot of list view with several data groups " /><br /> 在此範例中，Windows 歡迎中心會顯示清單視圖中的群組專案。<br /> | 
+
 
 
 

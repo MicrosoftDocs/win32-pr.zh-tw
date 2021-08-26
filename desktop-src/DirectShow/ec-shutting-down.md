@@ -4,12 +4,12 @@ ms.assetid: f1b3fc87-16ec-485b-b659-fc7d975c4a22
 title: 'EC_SHUTTING_DOWN (Dshow) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 471b746df3980afd96bbfc122a164ccd30561846
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 917a8f79b1a5201e50d0fcf2761a99b2801f75601f95ef866902492fb36065f9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106976040"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120079108"
 ---
 # <a name="ec_shutting_down"></a>EC \_ 關機 \_
 

@@ -4,12 +4,12 @@ ms.assetid: c2a64435-b2fb-3638-2eea-3ed52f4c7cd5
 title: DirectXMath 程式設計指南
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: df406787776f9fa5d1786e6ed6c5998e27a1c059
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e9d939e45b087f169e4d36cf94c6019f9e9177466e5ad7ef628e2bcb88360cd8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974174"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119841318"
 ---
 # <a name="directxmath-programming-guide"></a>DirectXMath 程式設計指南
 

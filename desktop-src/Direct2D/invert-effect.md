@@ -4,12 +4,12 @@ description: 反轉影像的色彩。
 ms.assetid: aa859cd4-0fb0-9902-3add-748d0cca63ce
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ba6a39a273417cb479f2f99a1e08cf20c16e1398
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8dd718d5a6f23dc1e1ab0bae0cbe9b39411379af43e56097aee106409826c635
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103685945"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120076710"
 ---
 # <a name="invert-effect"></a>反轉效果
 
@@ -36,8 +36,8 @@ ms.locfileid: "103685945"
 
 | 需求 | 值 |
 |--------------------------|---------------------------------------------------|
-| 最低支援的用戶端 | Windows 10 \[ 桌面應用程式 \| Windows Store 應用程式\] |
-| 最低支援的伺服器 | Windows 10 \[ 桌面應用程式 \| Windows Store 應用程式\] |
+| 最低支援的用戶端 | Windows 10 \[桌面應用程式 \| Windows 儲存應用程式\] |
+| 最低支援的伺服器 | Windows 10 \[桌面應用程式 \| Windows 儲存應用程式\] |
 | 標頭                   | d2d1effects \_ 2。h                                  |
 | 程式庫                  | d2d1 .lib，dxguid .lib                              |
 

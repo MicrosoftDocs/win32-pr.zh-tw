@@ -25,16 +25,16 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: e623000d4ab176ccb9592191499608801bcb81be
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: aff156f868cad30f8159ed1bc186cd5cf129da374826229757c9f86864846e14
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848897"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119850368"
 ---
 # <a name="esentversionsupportsvistafeatures-property"></a>EsentVersion. SupportsVistaFeatures 屬性
 
-取得值，這個值表示目前的 ESENT 版本是否支援 Windows Vista 版本的 ESENT 中提供的功能。
+取得值，這個值表示目前的 esent 版本是否支援在 Windows Vista 版本的 esent 中提供的功能。
 
 **命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)  
 **元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。

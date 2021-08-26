@@ -4,19 +4,19 @@ ms.assetid: 8f74ff84-6165-46a3-976b-36c7f70546be
 title: 使用 CAPICOM 的替代方案
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e2518f527555bbae0dc02f0234074fd657aa7bdc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: da0d9a7293dd0f401e98d29d844609dcebc871b917ab0ca6880f4218e561e32c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106997985"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119880138"
 ---
 # <a name="alternatives-to-using-capicom"></a>使用 CAPICOM 的替代方案
 
-\[CAPICOM 是僅限32位的元件，可用於下列作業系統： Windows Server 2008、Windows Vista、Windows XP。 相反地，請使用 .NET Framework 來執行安全性功能。 如需詳細資訊，請參閱下面所列的替代方案。\]
+\[CAPICOM 是僅限32位的元件，可供下列作業系統使用： Windows Server 2008、Windows Vista Windows XP。 相反地，請使用 .NET Framework 來執行安全性功能。 如需詳細資訊，請參閱下面所列的替代方案。\]
 
 > [!IMPORTANT]
-> CAPICOM 的替代方案沒有提供腳本的解決方案;因此，您必須撰寫自己的 ActiveX 控制項。 如需詳細資訊，請參閱 [ActiveX 控制項](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa751968(v=vs.85))。
+> CAPICOM 的替代方案沒有提供腳本的解決方案;因此，您必須自行撰寫 ActiveX 控制項。 如需詳細資訊，請參閱[ActiveX 控制項](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa751968(v=vs.85))。
 
  
 
@@ -45,7 +45,7 @@ ms.locfileid: "106997985"
 | [**延伸模組**](extensions.md)                   | [**擴充**](extensions.md)物件可在 [需求] 區段中指定的作業系統中使用。 請改為使用 [**system.security.cryptography.x509certificates.x509certificate2**](/previous-versions/windows/)命名空間中的 [**X509ExtensionCollection 類別**](/dotnet/api/system.security.cryptography.x509certificates.x509extensioncollection?view=netcore-3.1)。<br/>                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | [**PrivateKey**](privatekey.md)                   | [**PrivateKey**](privatekey.md)物件可用於 [需求] 區段中指定的作業系統。 請改為使用 [**system.security.cryptography.x509certificates.x509certificate2**](/previous-versions/windows/)命名空間中的 [**X509Certificate2. PrivateKey 屬性**](/dotnet/api/system.security.cryptography.x509certificates.x509certificate2.privatekey?view=netcore-3.1)。<br/>                                                                                                                                                                                                                                                                                                                                                                                                 |
 | [**PublicKey**](publickey.md)                     | [**PublicKey**](publickey.md)物件可用於 [需求] 區段中指定的作業系統。 請改為使用 [**system.security.cryptography.x509certificates.x509certificate2**](/previous-versions/windows/)命名空間中的 [**X509Certificate2. PublicKey 屬性**](/dotnet/api/system.security.cryptography.x509certificates.x509certificate2.publickey?view=netcore-3.1)。<br/>                                                                                                                                                                                                                                                                                                                                                                                                     |
-| [**市集**](store.md)                             | [**Store**](store.md)物件可在 [需求] 區段中指定的作業系統中使用。 請改為使用 [**system.security.cryptography.x509certificates.x509certificate2**](/previous-versions/windows/)命名空間中的 [**system.security.cryptography.x509certificates.x509store 類別**](/previous-versions/windows/embedded/hh424027(v=msdn.10))。<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| [**儲存**](store.md)                             | [**Store**](store.md)物件可在 [需求] 區段中指定的作業系統中使用。 請改為使用 [**system.security.cryptography.x509certificates.x509certificate2**](/previous-versions/windows/)命名空間中的 [**system.security.cryptography.x509certificates.x509store 類別**](/previous-versions/windows/embedded/hh424027(v=msdn.10))。<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | [**範本**](template.md)                       | [**範本**](template.md)物件可在 [需求] 區段中指定的作業系統中使用。 相反地，請使用 [**system.security.cryptography.x509certificates.x509certificate2**](/previous-versions/windows/)命名空間中的 [**X509Extension 類別**](/dotnet/api/system.security.cryptography.x509certificates.x509extension?view=netcore-3.1)，方法是呼叫接受 OID 作為參數的函式，然後使用憑證範本的 oid 來取得憑證延伸範本。<br/>                                                                                                                                                                                                                                                                                  |
 
 

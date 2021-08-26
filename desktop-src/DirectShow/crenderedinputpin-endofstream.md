@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: c836b1098c92a69fa720fb7b87e4a63b3c05a526
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 26f7a5075e06a3943978a8e938f034fbabcaddfa31c9ffa2a2b37d33a0120640
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106978759"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120107988"
 ---
 # <a name="crenderedinputpinendofstream-method"></a>CRenderedInputPin. EndOfStream 方法
 
@@ -46,7 +46,7 @@ HRESULT EndOfStream();
 
 ## <a name="remarks"></a>備註
 
-如果篩選器正在執行，這個方法會將 [**EC \_ 完成**](ec-complete.md) 事件傳送至篩選圖形管理員。 否則，會設定旗標，以便在 \_ 下次執行篩選時傳送 EC 完成事件。 清除篩選器會清除旗標。
+如果正在執行篩選，這個方法會將 [**EC \_ 完成**](ec-complete.md)事件傳送至篩選 Graph 管理員。 否則，會設定旗標，以便在 \_ 下次執行篩選時傳送 EC 完成事件。 清除篩選器會清除旗標。
 
 您應覆寫此方法以保存釘選的串流鎖定：
 

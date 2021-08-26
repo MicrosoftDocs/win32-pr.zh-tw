@@ -233,12 +233,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 88f35b202d55fa12bedb57aa11cb9f60bb4a55fd
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1bd45006f9a1269651827643807183feec5a4a7da2d48a03b56fe62362be4751
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106989279"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119896498"
 ---
 # <a name="com-error-codes-fwp-ws-ndis-hyperv"></a>COM 錯誤碼 (.FWP、WS、NDIS、HyperV) 
 
@@ -248,7 +248,7 @@ ms.locfileid: "106989279"
 
 
 
-| 常數/值                                                                                                                                                                                                                                                                                                                               | Description                                                                                                                                                                                                                                                                                   |
+| 常數/值                                                                                                                                                                                                                                                                                                                               | 描述                                                                                                                                                                                                                                                                                   |
 |:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="FWP_E_CALLOUT_NOT_FOUND"></span><span id="fwp_e_callout_not_found"></span><dl> <dt>**.Fwp \_E \_ 標注找 \_ 不 \_ 到**</dt> <dt>0x80320001</dt> </dl>                                                                               | 標注不存在。<br/>                                                                                                                                                                                                                                                        |
 | <span id="FWP_E_CONDITION_NOT_FOUND"></span><span id="fwp_e_condition_not_found"></span><dl> <dt>**.Fwp \_E \_ 條件找 \_ 不 \_ 到**</dt> <dt>0x80320002</dt> </dl>                                                                         | 篩選準則不存在。<br/>                                                                                                                                                                                                                                               |

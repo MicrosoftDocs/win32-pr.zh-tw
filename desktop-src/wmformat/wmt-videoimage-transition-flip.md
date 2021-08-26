@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dc92ad1dfffd945b89293dd9207289aa47645d4f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d2a3bfe94e001c6a65256facd5484a015d00f245
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106996314"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122475754"
 ---
 # <a name="wmt_videoimage_transition_flip"></a>WMT \_ VIDEOIMAGE \_ 轉換 \_ 翻轉
 
@@ -31,36 +31,12 @@ ms.locfileid: "106996314"
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>參數</th>
-<th>結構成員</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>角度</td>
-<td><strong>fEffectPara0</strong></td>
-<td>旋轉的角度，從0.0 到180.0 度。</td>
-</tr>
-<tr class="even">
-<td>Composition</td>
-<td><strong>fEffectPara1</strong></td>
-<td>設定為下列其中一個值：
-<ul>
-<li>0-指定一般組合，其中上一個影像是背景，而目前影像是前景。</li>
-<li>1-指定反轉組合，其中目前影像是背景影像，而上一個影像是前景</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| 參數 | 結構成員 | Description | 
+|-----------|------------------|-------------|
+| 角度 | <strong>fEffectPara0</strong> | 旋轉的角度，從0.0 到180.0 度。 | 
+| Composition | <strong>fEffectPara1</strong> | 設定為下列其中一個值：<ul><li>0-指定一般組合，其中上一個影像是背景，而目前影像是前景。</li><li>1-指定反轉組合，其中目前影像是背景影像，而上一個影像是前景</li></ul> | 
+
 
 
 

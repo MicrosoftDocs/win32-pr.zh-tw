@@ -4,12 +4,12 @@ ms.assetid: f9dd92fe-6d7a-452c-893e-e6df1757e377
 title: User-Mode 排程
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f3ceea3c4d4e40d73f48414d074bcb5b4f6e911d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c8a13b30685dbcbfc4d3d502e02bdbfdc10d15ea1f804cc6a8391073c44ce447
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106992471"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120074238"
 ---
 # <a name="user-mode-scheduling"></a>User-Mode 排程
 
@@ -17,7 +17,7 @@ ms.locfileid: "106992471"
 
 如果應用程式需要高效能需求，且需要在多處理器或多核心系統上同時執行許多執行緒，則建議使用 UMS。 若要利用 UMS，應用程式必須執行排程器元件來管理應用程式的 UMS 執行緒，並判斷它們應該執行的時機。 開發人員應考慮其應用程式效能需求是否符合開發這類元件的相關工作。 具有中等效能需求的應用程式，可能會因為允許系統排程器排程其執行緒而提供更佳的服務。
 
-UMS 適用于在64位版本的 Windows 7 和 Windows Server 2008 R2 或64更新版本的 windows 版本上執行的64位應用程式。 這項功能不適用於32位版本的 Windows。
+UMS 適用于在64位版本的 Windows 7 和 Windows Server 2008 R2 或更新版本的 Windows 之64位版本上執行的64位應用程式。 這項功能不適用於32位版本的 Windows。
 
 如需詳細資訊，請參閱下列各節：
 

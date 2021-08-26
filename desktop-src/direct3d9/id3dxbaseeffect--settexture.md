@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: 398dcc2f3d61ad32c08b67735a9ec7ed1a192acf
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 9bc2860efc6fd9ede3e9e95a6ab64e27ea35ec0ec83c46e83dc1c608878a3d1a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106985861"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120026508"
 ---
 # <a name="id3dxbaseeffectsettexture-method"></a>ID3DXBaseEffect：： SetTexture 方法
 

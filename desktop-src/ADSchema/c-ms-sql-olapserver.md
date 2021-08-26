@@ -1,11 +1,11 @@
 ---
-title: Olapserver.server 類別
-description: 用於儲存 OLAPDatabase 物件的容器。
+title: olapserver.server 類別 SQL
+description: 用於儲存 MS SQL OLAPDatabase 物件的容器。
 ms.assetid: b7364669-a29e-47a4-828c-a610c9d721ad
 ms.tgt_platform: multiple
 keywords:
-- Olapserver.server 類別 AD 架構
-- Olapserver.server 類別 AD 架構
+- olapserver.server 類別 AD 架構 SQL
+- olapserver.server 類別 AD 架構 SQL
 topic_type:
 - apiref
 api_name:
@@ -14,23 +14,23 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c411a3f31ed01e66e42e7ccbc848761d5dc5ec9
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: c6871a78a9a7bb420406669f182cf59b2222caa8ab57bfcc0e611cc4e827b0c7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104467160"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119922468"
 ---
-# <a name="ms-sql-olapserver-class"></a>Olapserver.server 類別
+# <a name="ms-sql-olapserver-class"></a>olapserver.server 類別 SQL
 
-用於儲存 [**OLAPDatabase**](c-ms-sql-olapdatabase.md) 物件的容器。
+用於儲存 [**MS SQL OLAPDatabase**](c-ms-sql-olapdatabase.md)物件的容器。
 
 
 
 | 進入 | 值 |
 |-------------------|--------------------------------------|
-| CN                | Olapserver.server                    |
-| Ldap-顯示名稱 | Olapserver.server                    |
+| CN                | 毫秒-SQL-olapserver.server                    |
+| Ldap-顯示名稱 | 毫秒-SQL-olapserver.server                    |
 | 更新許可權  | 此值是由系統所設定。     |
 | 更新頻率  | 在系統設定時。                     |
 | 架構識別碼-Guid    | 0c7e18ea-ccef-11d2-9993-0000f87a57d4 |
@@ -85,7 +85,7 @@ ms.locfileid: "104467160"
 | [**允許-子類別-有效**](a-allowedchildclasseseffective.md) | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**橋頭-伺服器-清單-BL**](a-bridgeheadserverlistbl.md)             | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**標準名稱**](a-canonicalname.md)                                 | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
-| [**一般名稱**](a-cn.md)                                               | 對      | [**連接點**](c-connectionpoint.md)<br/> [**返回頁首**](c-top.md)<br/> |
+| [**一般名稱**](a-cn.md)                                               | 是      | [**連接點**](c-connectionpoint.md)<br/> [**返回頁首**](c-top.md)<br/> |
 | [**建立時間戳記**](a-createtimestamp.md)                            | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**描述**](a-description.md)                                      | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**顯示名稱**](a-displayname.md)                                     | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
@@ -98,7 +98,7 @@ ms.locfileid: "104467160"
 | [**Frs-電腦-參考-BL**](a-frscomputerreferencebl.md)             | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**FRS-成員參考-BL**](a-frsmemberreferencebl.md)                 | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**FSMO 角色-擁有者**](a-fsmoroleowner.md)                                | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
-| [**實例類型**](a-instancetype.md)                                   | 對      | [**返回頁首**](c-top.md)<br/>                                                          |
+| [**實例類型**](a-instancetype.md)                                   | 是      | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**為關鍵-系統物件**](a-iscriticalsystemobject.md)             | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**已刪除**](a-isdeleted.md)                                         | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**是-DL 的成員**](a-memberof.md)                                     | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
@@ -111,23 +111,23 @@ ms.locfileid: "104467160"
 | [**修改時間戳記**](a-modifytimestamp.md)                            | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**MS DS-一致性-子計數**](a-ms-ds-consistencychildcount.md)    | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**MS-DS-Consistency-Guid**](a-ms-ds-consistencyguid.md)                 | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
-| [**MS-SQL-組建**](a-ms-sql-build.md)                                    | 否     | **Olapserver.server**                                                                    |
-| [**MS-SQL-連絡人**](a-ms-sql-contact.md)                                | 否     | **Olapserver.server**                                                                    |
-| [**InformationURL**](a-ms-sql-informationurl.md)                  | 否     | **Olapserver.server**                                                                    |
-| [**MS-CHAP-關鍵字**](a-ms-sql-keywords.md)                              | 否     | **Olapserver.server**                                                                    |
-| [**MS-CHAP-語言**](a-ms-sql-language.md)                              | 否     | **Olapserver.server**                                                                    |
-| [**MS-SQL-名稱**](a-ms-sql-name.md)                                      | 否     | **Olapserver.server**                                                                    |
-| [**PublicationURL**](a-ms-sql-publicationurl.md)                  | 否     | **Olapserver.server**                                                                    |
-| [**>registeredowner**](a-ms-sql-registeredowner.md)                | 否     | **Olapserver.server**                                                                    |
-| [**ServiceAccount**](a-ms-sql-serviceaccount.md)                  | 否     | **Olapserver.server**                                                                    |
-| [**MS-SQL-狀態**](a-ms-sql-status.md)                                  | 否     | **Olapserver.server**                                                                    |
-| [**MS-SQL-版本**](a-ms-sql-version.md)                                | 否     | **Olapserver.server**                                                                    |
+| [**MS SQL-組建**](a-ms-sql-build.md)                                    | 否     | **毫秒-SQL-olapserver.server**                                                                    |
+| [**MS-SQL-Contact**](a-ms-sql-contact.md)                                | 否     | **毫秒-SQL-olapserver.server**                                                                    |
+| [**毫秒-SQL-InformationURL**](a-ms-sql-informationurl.md)                  | 否     | **毫秒-SQL-olapserver.server**                                                                    |
+| [**ms-chap-SQL 關鍵字**](a-ms-sql-keywords.md)                              | 否     | **毫秒-SQL-olapserver.server**                                                                    |
+| [**MS SQL 語言**](a-ms-sql-language.md)                              | 否     | **毫秒-SQL-olapserver.server**                                                                    |
+| [**毫秒-SQL-名稱**](a-ms-sql-name.md)                                      | 否     | **毫秒-SQL-olapserver.server**                                                                    |
+| [**毫秒-SQL-PublicationURL**](a-ms-sql-publicationurl.md)                  | 否     | **毫秒-SQL-olapserver.server**                                                                    |
+| [**毫秒-SQL->registeredowner**](a-ms-sql-registeredowner.md)                | 否     | **毫秒-SQL-olapserver.server**                                                                    |
+| [**毫秒-SQL-ServiceAccount**](a-ms-sql-serviceaccount.md)                  | 否     | **毫秒-SQL-olapserver.server**                                                                    |
+| [**毫秒-SQL-狀態**](a-ms-sql-status.md)                                  | 否     | **毫秒-SQL-olapserver.server**                                                                    |
+| [**MS SQL 版本**](a-ms-sql-version.md)                                | 否     | **毫秒-SQL-olapserver.server**                                                                    |
 | [**netboot-SCP-BL**](a-netbootscpbl.md)                                  | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**非安全性成員-BL**](a-nonsecuritymemberbl.md)                   | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
-| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                  | 對      | [**返回頁首**](c-top.md)<br/>                                                          |
+| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                  | 是      | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**Obj-Dist 名稱**](a-distinguishedname.md)                              | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
-| [**物件-類別**](a-objectcategory.md)                               | 對      | [**返回頁首**](c-top.md)<br/>                                                          |
-| [**物件類別**](a-objectclass.md)                                     | 對      | [**返回頁首**](c-top.md)<br/>                                                          |
+| [**物件-類別**](a-objectcategory.md)                               | 是      | [**返回頁首**](c-top.md)<br/>                                                          |
+| [**物件類別**](a-objectclass.md)                                     | 是      | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**物件-Guid**](a-objectguid.md)                                       | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**物件版本**](a-objectversion.md)                                 | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**其他知名物件**](a-otherwellknownobjects.md)               | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
@@ -193,7 +193,7 @@ ms.locfileid: "104467160"
 
 
 
-## <a name="windows-server-2003-attributes"></a>Windows Server 2003 屬性
+## <a name="windows-server-2003-attributes"></a>Windows伺服器2003屬性
 
 此類別包含 Windows Server 2003 的下列屬性：
 
@@ -210,7 +210,7 @@ ms.locfileid: "104467160"
 | [**應用程式架構版本**](a-appschemaversion.md)                            | 否     | [**服務-連接點**](c-serviceconnectionpoint.md)<br/>                  |
 | [**橋頭-伺服器-清單-BL**](a-bridgeheadserverlistbl.md)               | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**標準名稱**](a-canonicalname.md)                                   | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
-| [**一般名稱**](a-cn.md)                                                 | 對      | [**連接點**](c-connectionpoint.md)<br/> [**返回頁首**](c-top.md)<br/> |
+| [**一般名稱**](a-cn.md)                                                 | 是      | [**連接點**](c-connectionpoint.md)<br/> [**返回頁首**](c-top.md)<br/> |
 | [**建立時間戳記**](a-createtimestamp.md)                              | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**描述**](a-description.md)                                        | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**顯示名稱**](a-displayname.md)                                       | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
@@ -223,7 +223,7 @@ ms.locfileid: "104467160"
 | [**Frs-電腦-參考-BL**](a-frscomputerreferencebl.md)               | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**FRS-成員參考-BL**](a-frsmemberreferencebl.md)                   | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**FSMO 角色-擁有者**](a-fsmoroleowner.md)                                  | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
-| [**實例類型**](a-instancetype.md)                                     | 對      | [**返回頁首**](c-top.md)<br/>                                                          |
+| [**實例類型**](a-instancetype.md)                                     | 是      | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**為關鍵-系統物件**](a-iscriticalsystemobject.md)               | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**已刪除**](a-isdeleted.md)                                           | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**是-DL 的成員**](a-memberof.md)                                       | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
@@ -254,23 +254,23 @@ ms.locfileid: "104467160"
 | [**ms-chap---------BL**](a-msds-tasksforazrolebl.md)               | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**ms DS-工作--Az-Task-BL**](a-msds-tasksforaztaskbl.md)               | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**Ms-exch-assistant-name-擁有者-BL**](a-ownerbl.md)                                       | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
-| [**MS-SQL-組建**](a-ms-sql-build.md)                                      | 否     | **Olapserver.server**                                                                    |
-| [**MS-SQL-連絡人**](a-ms-sql-contact.md)                                  | 否     | **Olapserver.server**                                                                    |
-| [**InformationURL**](a-ms-sql-informationurl.md)                    | 否     | **Olapserver.server**                                                                    |
-| [**MS-CHAP-關鍵字**](a-ms-sql-keywords.md)                                | 否     | **Olapserver.server**                                                                    |
-| [**MS-CHAP-語言**](a-ms-sql-language.md)                                | 否     | **Olapserver.server**                                                                    |
-| [**MS-SQL-名稱**](a-ms-sql-name.md)                                        | 否     | **Olapserver.server**                                                                    |
-| [**PublicationURL**](a-ms-sql-publicationurl.md)                    | 否     | **Olapserver.server**                                                                    |
-| [**>registeredowner**](a-ms-sql-registeredowner.md)                  | 否     | **Olapserver.server**                                                                    |
-| [**ServiceAccount**](a-ms-sql-serviceaccount.md)                    | 否     | **Olapserver.server**                                                                    |
-| [**MS-SQL-狀態**](a-ms-sql-status.md)                                    | 否     | **Olapserver.server**                                                                    |
-| [**MS-SQL-版本**](a-ms-sql-version.md)                                  | 否     | **Olapserver.server**                                                                    |
+| [**MS SQL-組建**](a-ms-sql-build.md)                                      | 否     | **毫秒-SQL-olapserver.server**                                                                    |
+| [**MS-SQL-Contact**](a-ms-sql-contact.md)                                  | 否     | **毫秒-SQL-olapserver.server**                                                                    |
+| [**毫秒-SQL-InformationURL**](a-ms-sql-informationurl.md)                    | 否     | **毫秒-SQL-olapserver.server**                                                                    |
+| [**ms-chap-SQL 關鍵字**](a-ms-sql-keywords.md)                                | 否     | **毫秒-SQL-olapserver.server**                                                                    |
+| [**MS SQL 語言**](a-ms-sql-language.md)                                | 否     | **毫秒-SQL-olapserver.server**                                                                    |
+| [**毫秒-SQL-名稱**](a-ms-sql-name.md)                                        | 否     | **毫秒-SQL-olapserver.server**                                                                    |
+| [**毫秒-SQL-PublicationURL**](a-ms-sql-publicationurl.md)                    | 否     | **毫秒-SQL-olapserver.server**                                                                    |
+| [**毫秒-SQL->registeredowner**](a-ms-sql-registeredowner.md)                  | 否     | **毫秒-SQL-olapserver.server**                                                                    |
+| [**毫秒-SQL-ServiceAccount**](a-ms-sql-serviceaccount.md)                    | 否     | **毫秒-SQL-olapserver.server**                                                                    |
+| [**毫秒-SQL-狀態**](a-ms-sql-status.md)                                    | 否     | **毫秒-SQL-olapserver.server**                                                                    |
+| [**MS SQL 版本**](a-ms-sql-version.md)                                  | 否     | **毫秒-SQL-olapserver.server**                                                                    |
 | [**netboot-SCP-BL**](a-netbootscpbl.md)                                    | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**非安全性成員-BL**](a-nonsecuritymemberbl.md)                     | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
-| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                    | 對      | [**返回頁首**](c-top.md)<br/>                                                          |
+| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                    | 是      | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**Obj-Dist 名稱**](a-distinguishedname.md)                                | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
-| [**物件-類別**](a-objectcategory.md)                                 | 對      | [**返回頁首**](c-top.md)<br/>                                                          |
-| [**物件類別**](a-objectclass.md)                                       | 對      | [**返回頁首**](c-top.md)<br/>                                                          |
+| [**物件-類別**](a-objectcategory.md)                                 | 是      | [**返回頁首**](c-top.md)<br/>                                                          |
+| [**物件類別**](a-objectclass.md)                                       | 是      | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**物件-Guid**](a-objectguid.md)                                         | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**物件版本**](a-objectversion.md)                                   | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**其他知名物件**](a-otherwellknownobjects.md)                 | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
@@ -341,7 +341,7 @@ ms.locfileid: "104467160"
 
 
 
-## <a name="windows-server-2003-r2-attributes"></a>Windows Server 2003 R2 屬性
+## <a name="windows-server-2003-r2-attributes"></a>WindowsServer 2003 R2 屬性
 
 此類別包含 Windows Server 2003 R2 的下列屬性：
 
@@ -358,7 +358,7 @@ ms.locfileid: "104467160"
 | [**應用程式架構版本**](a-appschemaversion.md)                            | 否     | [**服務-連接點**](c-serviceconnectionpoint.md)<br/>                  |
 | [**橋頭-伺服器-清單-BL**](a-bridgeheadserverlistbl.md)               | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**標準名稱**](a-canonicalname.md)                                   | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
-| [**一般名稱**](a-cn.md)                                                 | 對      | [**連接點**](c-connectionpoint.md)<br/> [**返回頁首**](c-top.md)<br/> |
+| [**一般名稱**](a-cn.md)                                                 | 是      | [**連接點**](c-connectionpoint.md)<br/> [**返回頁首**](c-top.md)<br/> |
 | [**建立時間戳記**](a-createtimestamp.md)                              | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**描述**](a-description.md)                                        | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**顯示名稱**](a-displayname.md)                                       | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
@@ -371,7 +371,7 @@ ms.locfileid: "104467160"
 | [**Frs-電腦-參考-BL**](a-frscomputerreferencebl.md)               | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**FRS-成員參考-BL**](a-frsmemberreferencebl.md)                   | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**FSMO 角色-擁有者**](a-fsmoroleowner.md)                                  | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
-| [**實例類型**](a-instancetype.md)                                     | 對      | [**返回頁首**](c-top.md)<br/>                                                          |
+| [**實例類型**](a-instancetype.md)                                     | 是      | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**為關鍵-系統物件**](a-iscriticalsystemobject.md)               | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**已刪除**](a-isdeleted.md)                                           | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**是-DL 的成員**](a-memberof.md)                                       | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
@@ -405,23 +405,23 @@ ms.locfileid: "104467160"
 | [**ms DS-工作--Az-Task-BL**](a-msds-tasksforaztaskbl.md)               | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**Ms-exch-assistant-name-擁有者-BL**](a-ownerbl.md)                                       | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**msSFU-30-Posix-成員**](a-mssfu30posixmemberof.md)                  | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
-| [**MS-SQL-組建**](a-ms-sql-build.md)                                      | 否     | **Olapserver.server**                                                                    |
-| [**MS-SQL-連絡人**](a-ms-sql-contact.md)                                  | 否     | **Olapserver.server**                                                                    |
-| [**InformationURL**](a-ms-sql-informationurl.md)                    | 否     | **Olapserver.server**                                                                    |
-| [**MS-CHAP-關鍵字**](a-ms-sql-keywords.md)                                | 否     | **Olapserver.server**                                                                    |
-| [**MS-CHAP-語言**](a-ms-sql-language.md)                                | 否     | **Olapserver.server**                                                                    |
-| [**MS-SQL-名稱**](a-ms-sql-name.md)                                        | 否     | **Olapserver.server**                                                                    |
-| [**PublicationURL**](a-ms-sql-publicationurl.md)                    | 否     | **Olapserver.server**                                                                    |
-| [**>registeredowner**](a-ms-sql-registeredowner.md)                  | 否     | **Olapserver.server**                                                                    |
-| [**ServiceAccount**](a-ms-sql-serviceaccount.md)                    | 否     | **Olapserver.server**                                                                    |
-| [**MS-SQL-狀態**](a-ms-sql-status.md)                                    | 否     | **Olapserver.server**                                                                    |
-| [**MS-SQL-版本**](a-ms-sql-version.md)                                  | 否     | **Olapserver.server**                                                                    |
+| [**MS SQL-組建**](a-ms-sql-build.md)                                      | 否     | **毫秒-SQL-olapserver.server**                                                                    |
+| [**MS-SQL-Contact**](a-ms-sql-contact.md)                                  | 否     | **毫秒-SQL-olapserver.server**                                                                    |
+| [**毫秒-SQL-InformationURL**](a-ms-sql-informationurl.md)                    | 否     | **毫秒-SQL-olapserver.server**                                                                    |
+| [**ms-chap-SQL 關鍵字**](a-ms-sql-keywords.md)                                | 否     | **毫秒-SQL-olapserver.server**                                                                    |
+| [**MS SQL 語言**](a-ms-sql-language.md)                                | 否     | **毫秒-SQL-olapserver.server**                                                                    |
+| [**毫秒-SQL-名稱**](a-ms-sql-name.md)                                        | 否     | **毫秒-SQL-olapserver.server**                                                                    |
+| [**毫秒-SQL-PublicationURL**](a-ms-sql-publicationurl.md)                    | 否     | **毫秒-SQL-olapserver.server**                                                                    |
+| [**毫秒-SQL->registeredowner**](a-ms-sql-registeredowner.md)                  | 否     | **毫秒-SQL-olapserver.server**                                                                    |
+| [**毫秒-SQL-ServiceAccount**](a-ms-sql-serviceaccount.md)                    | 否     | **毫秒-SQL-olapserver.server**                                                                    |
+| [**毫秒-SQL-狀態**](a-ms-sql-status.md)                                    | 否     | **毫秒-SQL-olapserver.server**                                                                    |
+| [**MS SQL 版本**](a-ms-sql-version.md)                                  | 否     | **毫秒-SQL-olapserver.server**                                                                    |
 | [**netboot-SCP-BL**](a-netbootscpbl.md)                                    | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**非安全性成員-BL**](a-nonsecuritymemberbl.md)                     | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
-| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                    | 對      | [**返回頁首**](c-top.md)<br/>                                                          |
+| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                    | 是      | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**Obj-Dist 名稱**](a-distinguishedname.md)                                | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
-| [**物件-類別**](a-objectcategory.md)                                 | 對      | [**返回頁首**](c-top.md)<br/>                                                          |
-| [**物件類別**](a-objectclass.md)                                       | 對      | [**返回頁首**](c-top.md)<br/>                                                          |
+| [**物件-類別**](a-objectcategory.md)                                 | 是      | [**返回頁首**](c-top.md)<br/>                                                          |
+| [**物件類別**](a-objectclass.md)                                       | 是      | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**物件-Guid**](a-objectguid.md)                                         | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**物件版本**](a-objectversion.md)                                   | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**其他知名物件**](a-otherwellknownobjects.md)                 | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
@@ -492,7 +492,7 @@ ms.locfileid: "104467160"
 
 
 
-## <a name="windows-server-2008-attributes"></a>Windows Server 2008 屬性
+## <a name="windows-server-2008-attributes"></a>Windows伺服器2008屬性
 
 此類別包含 Windows Server 2008 的下列屬性：
 
@@ -509,7 +509,7 @@ ms.locfileid: "104467160"
 | [**應用程式架構版本**](a-appschemaversion.md)                               | 否     | [**服務-連接點**](c-serviceconnectionpoint.md)<br/>                  |
 | [**橋頭-伺服器-清單-BL**](a-bridgeheadserverlistbl.md)                  | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**標準名稱**](a-canonicalname.md)                                      | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
-| [**一般名稱**](a-cn.md)                                                    | 對      | [**連接點**](c-connectionpoint.md)<br/> [**返回頁首**](c-top.md)<br/> |
+| [**一般名稱**](a-cn.md)                                                    | 是      | [**連接點**](c-connectionpoint.md)<br/> [**返回頁首**](c-top.md)<br/> |
 | [**建立時間戳記**](a-createtimestamp.md)                                 | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**描述**](a-description.md)                                           | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**顯示名稱**](a-displayname.md)                                          | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
@@ -522,7 +522,7 @@ ms.locfileid: "104467160"
 | [**Frs-電腦-參考-BL**](a-frscomputerreferencebl.md)                  | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**FRS-成員參考-BL**](a-frsmemberreferencebl.md)                      | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**FSMO 角色-擁有者**](a-fsmoroleowner.md)                                     | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
-| [**實例類型**](a-instancetype.md)                                        | 對      | [**返回頁首**](c-top.md)<br/>                                                          |
+| [**實例類型**](a-instancetype.md)                                        | 是      | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**為關鍵-系統物件**](a-iscriticalsystemobject.md)                  | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**已刪除**](a-isdeleted.md)                                              | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**是-DL 的成員**](a-memberof.md)                                          | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
@@ -567,23 +567,23 @@ ms.locfileid: "104467160"
 | [**ms DS-工作--Az-Task-BL**](a-msds-tasksforaztaskbl.md)                  | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**Ms-exch-assistant-name-擁有者-BL**](a-ownerbl.md)                                          | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**msSFU-30-Posix-成員**](a-mssfu30posixmemberof.md)                     | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
-| [**MS-SQL-組建**](a-ms-sql-build.md)                                         | 否     | **Olapserver.server**                                                                    |
-| [**MS-SQL-連絡人**](a-ms-sql-contact.md)                                     | 否     | **Olapserver.server**                                                                    |
-| [**InformationURL**](a-ms-sql-informationurl.md)                       | 否     | **Olapserver.server**                                                                    |
-| [**MS-CHAP-關鍵字**](a-ms-sql-keywords.md)                                   | 否     | **Olapserver.server**                                                                    |
-| [**MS-CHAP-語言**](a-ms-sql-language.md)                                   | 否     | **Olapserver.server**                                                                    |
-| [**MS-SQL-名稱**](a-ms-sql-name.md)                                           | 否     | **Olapserver.server**                                                                    |
-| [**PublicationURL**](a-ms-sql-publicationurl.md)                       | 否     | **Olapserver.server**                                                                    |
-| [**>registeredowner**](a-ms-sql-registeredowner.md)                     | 否     | **Olapserver.server**                                                                    |
-| [**ServiceAccount**](a-ms-sql-serviceaccount.md)                       | 否     | **Olapserver.server**                                                                    |
-| [**MS-SQL-狀態**](a-ms-sql-status.md)                                       | 否     | **Olapserver.server**                                                                    |
-| [**MS-SQL-版本**](a-ms-sql-version.md)                                     | 否     | **Olapserver.server**                                                                    |
+| [**MS SQL-組建**](a-ms-sql-build.md)                                         | 否     | **毫秒-SQL-olapserver.server**                                                                    |
+| [**MS-SQL-Contact**](a-ms-sql-contact.md)                                     | 否     | **毫秒-SQL-olapserver.server**                                                                    |
+| [**毫秒-SQL-InformationURL**](a-ms-sql-informationurl.md)                       | 否     | **毫秒-SQL-olapserver.server**                                                                    |
+| [**ms-chap-SQL 關鍵字**](a-ms-sql-keywords.md)                                   | 否     | **毫秒-SQL-olapserver.server**                                                                    |
+| [**MS SQL 語言**](a-ms-sql-language.md)                                   | 否     | **毫秒-SQL-olapserver.server**                                                                    |
+| [**毫秒-SQL-名稱**](a-ms-sql-name.md)                                           | 否     | **毫秒-SQL-olapserver.server**                                                                    |
+| [**毫秒-SQL-PublicationURL**](a-ms-sql-publicationurl.md)                       | 否     | **毫秒-SQL-olapserver.server**                                                                    |
+| [**毫秒-SQL->registeredowner**](a-ms-sql-registeredowner.md)                     | 否     | **毫秒-SQL-olapserver.server**                                                                    |
+| [**毫秒-SQL-ServiceAccount**](a-ms-sql-serviceaccount.md)                       | 否     | **毫秒-SQL-olapserver.server**                                                                    |
+| [**毫秒-SQL-狀態**](a-ms-sql-status.md)                                       | 否     | **毫秒-SQL-olapserver.server**                                                                    |
+| [**MS SQL 版本**](a-ms-sql-version.md)                                     | 否     | **毫秒-SQL-olapserver.server**                                                                    |
 | [**netboot-SCP-BL**](a-netbootscpbl.md)                                       | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**非安全性成員-BL**](a-nonsecuritymemberbl.md)                        | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
-| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                       | 對      | [**返回頁首**](c-top.md)<br/>                                                          |
+| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                       | 是      | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**Obj-Dist 名稱**](a-distinguishedname.md)                                   | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
-| [**物件-類別**](a-objectcategory.md)                                    | 對      | [**返回頁首**](c-top.md)<br/>                                                          |
-| [**物件類別**](a-objectclass.md)                                          | 對      | [**返回頁首**](c-top.md)<br/>                                                          |
+| [**物件-類別**](a-objectcategory.md)                                    | 是      | [**返回頁首**](c-top.md)<br/>                                                          |
+| [**物件類別**](a-objectclass.md)                                          | 是      | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**物件-Guid**](a-objectguid.md)                                            | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**物件版本**](a-objectversion.md)                                      | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**其他知名物件**](a-otherwellknownobjects.md)                    | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
@@ -654,7 +654,7 @@ ms.locfileid: "104467160"
 
 
 
-## <a name="windows-server-2008-r2-attributes"></a>Windows Server 2008 R2 屬性
+## <a name="windows-server-2008-r2-attributes"></a>WindowsServer 2008 R2 屬性
 
 此類別包含 Windows Server 2008 R2 的下列屬性：
 
@@ -671,7 +671,7 @@ ms.locfileid: "104467160"
 | [**應用程式架構版本**](a-appschemaversion.md)                                 | 否     | [**服務-連接點**](c-serviceconnectionpoint.md)<br/>                  |
 | [**橋頭-伺服器-清單-BL**](a-bridgeheadserverlistbl.md)                    | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**標準名稱**](a-canonicalname.md)                                        | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
-| [**一般名稱**](a-cn.md)                                                      | 對      | [**連接點**](c-connectionpoint.md)<br/> [**返回頁首**](c-top.md)<br/> |
+| [**一般名稱**](a-cn.md)                                                      | 是      | [**連接點**](c-connectionpoint.md)<br/> [**返回頁首**](c-top.md)<br/> |
 | [**建立時間戳記**](a-createtimestamp.md)                                   | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**描述**](a-description.md)                                             | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**顯示名稱**](a-displayname.md)                                            | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
@@ -684,7 +684,7 @@ ms.locfileid: "104467160"
 | [**Frs-電腦-參考-BL**](a-frscomputerreferencebl.md)                    | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**FRS-成員參考-BL**](a-frsmemberreferencebl.md)                        | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**FSMO 角色-擁有者**](a-fsmoroleowner.md)                                       | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
-| [**實例類型**](a-instancetype.md)                                          | 對      | [**返回頁首**](c-top.md)<br/>                                                          |
+| [**實例類型**](a-instancetype.md)                                          | 是      | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**為關鍵-系統物件**](a-iscriticalsystemobject.md)                    | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**已刪除**](a-isdeleted.md)                                                | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**是-DL 的成員**](a-memberof.md)                                            | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
@@ -736,23 +736,23 @@ ms.locfileid: "104467160"
 | [**ms DS-工作--Az-Task-BL**](a-msds-tasksforaztaskbl.md)                    | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**Ms-exch-assistant-name-擁有者-BL**](a-ownerbl.md)                                            | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**msSFU-30-Posix-成員**](a-mssfu30posixmemberof.md)                       | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
-| [**MS-SQL-組建**](a-ms-sql-build.md)                                           | 否     | **Olapserver.server**                                                                    |
-| [**MS-SQL-連絡人**](a-ms-sql-contact.md)                                       | 否     | **Olapserver.server**                                                                    |
-| [**InformationURL**](a-ms-sql-informationurl.md)                         | 否     | **Olapserver.server**                                                                    |
-| [**MS-CHAP-關鍵字**](a-ms-sql-keywords.md)                                     | 否     | **Olapserver.server**                                                                    |
-| [**MS-CHAP-語言**](a-ms-sql-language.md)                                     | 否     | **Olapserver.server**                                                                    |
-| [**MS-SQL-名稱**](a-ms-sql-name.md)                                             | 否     | **Olapserver.server**                                                                    |
-| [**PublicationURL**](a-ms-sql-publicationurl.md)                         | 否     | **Olapserver.server**                                                                    |
-| [**>registeredowner**](a-ms-sql-registeredowner.md)                       | 否     | **Olapserver.server**                                                                    |
-| [**ServiceAccount**](a-ms-sql-serviceaccount.md)                         | 否     | **Olapserver.server**                                                                    |
-| [**MS-SQL-狀態**](a-ms-sql-status.md)                                         | 否     | **Olapserver.server**                                                                    |
-| [**MS-SQL-版本**](a-ms-sql-version.md)                                       | 否     | **Olapserver.server**                                                                    |
+| [**MS SQL-組建**](a-ms-sql-build.md)                                           | 否     | **毫秒-SQL-olapserver.server**                                                                    |
+| [**MS-SQL-Contact**](a-ms-sql-contact.md)                                       | 否     | **毫秒-SQL-olapserver.server**                                                                    |
+| [**毫秒-SQL-InformationURL**](a-ms-sql-informationurl.md)                         | 否     | **毫秒-SQL-olapserver.server**                                                                    |
+| [**ms-chap-SQL 關鍵字**](a-ms-sql-keywords.md)                                     | 否     | **毫秒-SQL-olapserver.server**                                                                    |
+| [**MS SQL 語言**](a-ms-sql-language.md)                                     | 否     | **毫秒-SQL-olapserver.server**                                                                    |
+| [**毫秒-SQL-名稱**](a-ms-sql-name.md)                                             | 否     | **毫秒-SQL-olapserver.server**                                                                    |
+| [**毫秒-SQL-PublicationURL**](a-ms-sql-publicationurl.md)                         | 否     | **毫秒-SQL-olapserver.server**                                                                    |
+| [**毫秒-SQL->registeredowner**](a-ms-sql-registeredowner.md)                       | 否     | **毫秒-SQL-olapserver.server**                                                                    |
+| [**毫秒-SQL-ServiceAccount**](a-ms-sql-serviceaccount.md)                         | 否     | **毫秒-SQL-olapserver.server**                                                                    |
+| [**毫秒-SQL-狀態**](a-ms-sql-status.md)                                         | 否     | **毫秒-SQL-olapserver.server**                                                                    |
+| [**MS SQL 版本**](a-ms-sql-version.md)                                       | 否     | **毫秒-SQL-olapserver.server**                                                                    |
 | [**netboot-SCP-BL**](a-netbootscpbl.md)                                         | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**非安全性成員-BL**](a-nonsecuritymemberbl.md)                          | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
-| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                         | 對      | [**返回頁首**](c-top.md)<br/>                                                          |
+| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                         | 是      | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**Obj-Dist 名稱**](a-distinguishedname.md)                                     | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
-| [**物件-類別**](a-objectcategory.md)                                      | 對      | [**返回頁首**](c-top.md)<br/>                                                          |
-| [**物件類別**](a-objectclass.md)                                            | 對      | [**返回頁首**](c-top.md)<br/>                                                          |
+| [**物件-類別**](a-objectcategory.md)                                      | 是      | [**返回頁首**](c-top.md)<br/>                                                          |
+| [**物件類別**](a-objectclass.md)                                            | 是      | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**物件-Guid**](a-objectguid.md)                                              | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**物件版本**](a-objectversion.md)                                        | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**其他知名物件**](a-otherwellknownobjects.md)                      | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
@@ -823,9 +823,9 @@ ms.locfileid: "104467160"
 
 
 
-## <a name="windows-server-2012-attributes"></a>Windows Server 2012 屬性
+## <a name="windows-server-2012-attributes"></a>Windows Server 2012屬性
 
-此類別包含 Windows Server 2012 的下列屬性：
+這個類別包含 Windows Server 2012 的下列屬性：
 
 
 
@@ -840,7 +840,7 @@ ms.locfileid: "104467160"
 | [**應用程式架構版本**](a-appschemaversion.md)                                             | 否     | [**服務-連接點**](c-serviceconnectionpoint.md)<br/>                  |
 | [**橋頭-伺服器-清單-BL**](a-bridgeheadserverlistbl.md)                                | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**標準名稱**](a-canonicalname.md)                                                    | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
-| [**一般名稱**](a-cn.md)                                                                  | 對      | [**連接點**](c-connectionpoint.md)<br/> [**返回頁首**](c-top.md)<br/> |
+| [**一般名稱**](a-cn.md)                                                                  | 是      | [**連接點**](c-connectionpoint.md)<br/> [**返回頁首**](c-top.md)<br/> |
 | [**建立時間戳記**](a-createtimestamp.md)                                               | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**描述**](a-description.md)                                                         | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**顯示名稱**](a-displayname.md)                                                        | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
@@ -853,7 +853,7 @@ ms.locfileid: "104467160"
 | [**Frs-電腦-參考-BL**](a-frscomputerreferencebl.md)                                | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**FRS-成員參考-BL**](a-frsmemberreferencebl.md)                                    | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**FSMO 角色-擁有者**](a-fsmoroleowner.md)                                                   | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
-| [**實例類型**](a-instancetype.md)                                                      | 對      | [**返回頁首**](c-top.md)<br/>                                                          |
+| [**實例類型**](a-instancetype.md)                                                      | 是      | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**為關鍵-系統物件**](a-iscriticalsystemobject.md)                                | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**已刪除**](a-isdeleted.md)                                                            | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**是-DL 的成員**](a-memberof.md)                                                        | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
@@ -906,28 +906,28 @@ ms.locfileid: "104467160"
 | [**ms DS-設定**](a-msds-settings.md)                                                    | 否     | [**連接點**](c-connectionpoint.md)<br/>                                 |
 | [**ms-chap---------BL**](a-msds-tasksforazrolebl.md)                                | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**ms DS-工作--Az-Task-BL**](a-msds-tasksforaztaskbl.md)                                | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
-| [**ms DS-TDO-出口-BL**](a-msds-tdoegressbl.md)                                            | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
+| [**ms-chap-Egress-BL**](a-msds-tdoegressbl.md)                                            | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**ms-DS-TDO-輸入-BL**](a-msds-tdoingressbl.md)                                          | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**ms-chap-------Reference-BL**](a-msds-valuetypereferencebl.md)                         | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**Ms-exch-assistant-name-擁有者-BL**](a-ownerbl.md)                                                        | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**msSFU-30-Posix-成員**](a-mssfu30posixmemberof.md)                                   | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
-| [**MS-SQL-組建**](a-ms-sql-build.md)                                                       | 否     | **Olapserver.server**                                                                    |
-| [**MS-SQL-連絡人**](a-ms-sql-contact.md)                                                   | 否     | **Olapserver.server**                                                                    |
-| [**InformationURL**](a-ms-sql-informationurl.md)                                     | 否     | **Olapserver.server**                                                                    |
-| [**MS-CHAP-關鍵字**](a-ms-sql-keywords.md)                                                 | 否     | **Olapserver.server**                                                                    |
-| [**MS-CHAP-語言**](a-ms-sql-language.md)                                                 | 否     | **Olapserver.server**                                                                    |
-| [**MS-SQL-名稱**](a-ms-sql-name.md)                                                         | 否     | **Olapserver.server**                                                                    |
-| [**PublicationURL**](a-ms-sql-publicationurl.md)                                     | 否     | **Olapserver.server**                                                                    |
-| [**>registeredowner**](a-ms-sql-registeredowner.md)                                   | 否     | **Olapserver.server**                                                                    |
-| [**ServiceAccount**](a-ms-sql-serviceaccount.md)                                     | 否     | **Olapserver.server**                                                                    |
-| [**MS-SQL-狀態**](a-ms-sql-status.md)                                                     | 否     | **Olapserver.server**                                                                    |
-| [**MS-SQL-版本**](a-ms-sql-version.md)                                                   | 否     | **Olapserver.server**                                                                    |
+| [**MS SQL-組建**](a-ms-sql-build.md)                                                       | 否     | **毫秒-SQL-olapserver.server**                                                                    |
+| [**MS-SQL-Contact**](a-ms-sql-contact.md)                                                   | 否     | **毫秒-SQL-olapserver.server**                                                                    |
+| [**毫秒-SQL-InformationURL**](a-ms-sql-informationurl.md)                                     | 否     | **毫秒-SQL-olapserver.server**                                                                    |
+| [**ms-chap-SQL 關鍵字**](a-ms-sql-keywords.md)                                                 | 否     | **毫秒-SQL-olapserver.server**                                                                    |
+| [**MS SQL 語言**](a-ms-sql-language.md)                                                 | 否     | **毫秒-SQL-olapserver.server**                                                                    |
+| [**毫秒-SQL-名稱**](a-ms-sql-name.md)                                                         | 否     | **毫秒-SQL-olapserver.server**                                                                    |
+| [**毫秒-SQL-PublicationURL**](a-ms-sql-publicationurl.md)                                     | 否     | **毫秒-SQL-olapserver.server**                                                                    |
+| [**毫秒-SQL->registeredowner**](a-ms-sql-registeredowner.md)                                   | 否     | **毫秒-SQL-olapserver.server**                                                                    |
+| [**毫秒-SQL-ServiceAccount**](a-ms-sql-serviceaccount.md)                                     | 否     | **毫秒-SQL-olapserver.server**                                                                    |
+| [**毫秒-SQL-狀態**](a-ms-sql-status.md)                                                     | 否     | **毫秒-SQL-olapserver.server**                                                                    |
+| [**MS SQL 版本**](a-ms-sql-version.md)                                                   | 否     | **毫秒-SQL-olapserver.server**                                                                    |
 | [**netboot-SCP-BL**](a-netbootscpbl.md)                                                     | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**非安全性成員-BL**](a-nonsecuritymemberbl.md)                                      | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
-| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                                     | 對      | [**返回頁首**](c-top.md)<br/>                                                          |
+| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                                     | 是      | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**Obj-Dist 名稱**](a-distinguishedname.md)                                                 | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
-| [**物件-類別**](a-objectcategory.md)                                                  | 對      | [**返回頁首**](c-top.md)<br/>                                                          |
-| [**物件類別**](a-objectclass.md)                                                        | 對      | [**返回頁首**](c-top.md)<br/>                                                          |
+| [**物件-類別**](a-objectcategory.md)                                                  | 是      | [**返回頁首**](c-top.md)<br/>                                                          |
+| [**物件類別**](a-objectclass.md)                                                        | 是      | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**物件-Guid**](a-objectguid.md)                                                          | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**物件版本**](a-objectversion.md)                                                    | 否     | [**返回頁首**](c-top.md)<br/>                                                          |
 | [**其他知名物件**](a-otherwellknownobjects.md)                                  | 否     | [**返回頁首**](c-top.md)<br/>                                                          |

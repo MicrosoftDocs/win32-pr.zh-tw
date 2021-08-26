@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c3cba5ea6b27227d99c61e06aa88fc3017835d6
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 41d45acdcaa79e22fcc1b365ab1b0688ab878c3d72210fc48d67dbb47c71822e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103844687"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120050028"
 ---
 # <a name="dhcp-options-attribute"></a>dhcp-Options 屬性
 

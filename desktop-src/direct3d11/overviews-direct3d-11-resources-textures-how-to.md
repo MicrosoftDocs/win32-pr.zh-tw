@@ -4,21 +4,21 @@ description: 本主題說明如何使用 Windows 影像處理元件 (WIC) 來分
 ms.assetid: ea3c6003-191d-47d1-8931-f43598728ad4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1bf6ba4296c2103d7f84f934899f906500e712cd
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 7b3e8035e630a7b2182c114e329cf4b08428ab3a83ca218b933cb2b922ff305c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103933511"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120027938"
 ---
 # <a name="how-to-initialize-a-texture-from-a-file"></a>如何：從檔案初始化材質
 
-您可以使用 [Windows 影像處理元件](/windows/desktop/wic/-wic-lh) API，從檔案初始化 [材質](overviews-direct3d-11-resources-textures.md) 。 若要載入紋理，您必須建立材質和材質視圖。 本主題說明如何使用 Windows 影像處理元件 (WIC) 來分開建立材質和視圖。
+您可以使用[Windows 影像處理元件](/windows/desktop/wic/-wic-lh)API，從檔案初始化[材質](overviews-direct3d-11-resources-textures.md)。 若要載入紋理，您必須建立材質和材質視圖。 本主題說明如何使用 Windows 影像處理元件 (WIC) 來分開建立材質和視圖。
 
 > [!Note]  
 > 本主題適用于您建立為簡單2D 材質的影像。 如需更複雜的資源，請使用 [DDS](/windows/desktop/direct3ddds/dx-graphics-dds)。 如需完整功能的 DDS 檔案讀取器、寫入器和材質處理管線，請參閱 [DirectXTex](https://github.com/Microsoft/DirectXTex) 和 [DirectXTK](https://github.com/Microsoft/DirectXTK)。
 
- 
+ 
 
 在本主題的結尾，您將會找到完整的範例程式碼。 本主題說明建立材質和視圖的範例程式碼部分。
 
@@ -48,11 +48,11 @@ ms.locfileid: "103933511"
     | GUID \_ WICPixelFormat16bppGray                     | DXGI \_ 格式 \_ R16 \_ UNORM\*                              |
     | GUID \_ WICPixelFormat8bppGray                      | DXGI \_ 格式 \_ R8 \_ UNORM\*                               |
     | GUID \_ WICPixelFormat8bppAlpha                     | DXGI \_ 格式 \_ A8 \_ UNORM                                 |
-    | GUID \_ WICPixelFormat96bppRGBFloat (WINDOWS 8 WIC)  | DXGI \_ 格式 \_ R32G32B32 \_ FLOAT                          |
+    | GUID \_ WICPixelFormat96bppRGBFloat (Windows 8 WIC)  | DXGI \_ 格式 \_ R32G32B32 \_ FLOAT                          |
 
     
 
-     
+     
 
     \* 單一通道 DXGI 格式是紅色通道，因此您需要 HLSL 著色器 swizzles，例如 rrr 將這些格式轉譯為灰階。
 
@@ -883,6 +883,6 @@ HRESULT CreateWICTextureFromFile( _In_ ID3D11Device* d3dDevice,
 [紋理](overviews-direct3d-11-resources-textures.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

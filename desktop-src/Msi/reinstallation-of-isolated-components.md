@@ -1,19 +1,19 @@
 ---
-description: 當套件包含隔離的元件時，Windows Installer 在重新安裝應用程式期間執行下列動作。 通常， \_ 共用元件是元件 \_ 應用程式和其他用戶端可執行檔共用的 DLL。
+description: Windows當套件包含隔離的元件時，安裝程式會在重新安裝應用程式期間執行下列動作。 通常， \_ 共用元件是元件 \_ 應用程式和其他用戶端可執行檔共用的 DLL。
 ms.assetid: 65909b47-dc09-4e9a-920a-9cb3f55b2e67
 title: 重新安裝隔離的元件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 68ad1c7fb53eb09e96882209f7738e95be9b4a64
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c624777647ab9e5023cd6c78d9aaa4d20951563f915afcd800ba60ca3b233174
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103849146"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120086008"
 ---
 # <a name="reinstallation-of-isolated-components"></a>重新安裝隔離的元件
 
-當套件包含隔離的元件時，Windows Installer 在重新安裝應用程式期間執行下列動作。 通常， \_ 共用元件是元件 \_ 應用程式和其他用戶端可執行檔共用的 DLL。
+Windows當套件包含隔離的元件時，安裝程式會在重新安裝應用程式期間執行下列動作。 通常， \_ 共用元件是元件 \_ 應用程式和其他用戶端可執行檔共用的 DLL。
 
 ## <a name="reinstallation"></a>重新安裝
 

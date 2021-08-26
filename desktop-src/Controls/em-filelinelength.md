@@ -3,7 +3,7 @@ title: 'EM_FILELINELENGTH 訊息 (CommCtrl .h) '
 description: 抓取編輯控制項中某一行的長度（以字元為單位），與螢幕上的線條顯示方式無關。
 ms.assetid: cfb0632c-9ba9-4864-939a-dbbaed6c177e
 keywords:
-- EM_FILELINELENGTH message Windows 控制項
+- EM_FILELINELENGTH 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4aa50f4d9b49253a558095be78e0e781d7d4c7f8
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 10cb05b0e2acbfb5049eddefab1dad42ecd7b6db234fa4a3c34d4877ed52b007
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104508712"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119915538"
 ---
 # <a name="em_filelinelength-message"></a>EM \_ FILELINELENGTH 訊息
 
@@ -64,7 +64,7 @@ ms.locfileid: "104508712"
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 10， \[ 僅限 1809 desktop 應用程式\]<br/>                                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2019 \[ desktop 應用程式\]<br/>                                                     |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2019 desktop 應用程式\]<br/>                                                     |
 | 標頭<br/>                   | <dl> <dt>CommCtrl。h</dt> </dl> |
 
 

@@ -4,12 +4,12 @@ description: 下列函式原型使用 \ in、string \ 參數和 out、string \ �
 ms.assetid: acb0ec4f-1846-4fa2-98c2-2081b52a8260
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5c216197fb33a666029429d98761b3219b27b176
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 498d12c85130bba8d7d8dcddfc400e2a90fa2d0e2c3cb11c4a7d89696cfe9aa4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103933554"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120073618"
 ---
 # <a name="in-string-and-out-string-prototype"></a>\[在、字串 \] 和 \[ 輸出中，字串 \] 原型
 
@@ -25,6 +25,6 @@ void Analyze(
 
 第二個參數（代表醫生的回應）只是 \[ [**輸出**](/windows/desktop/Midl/out-idl) \] 。 這個回應字串只會從伺服器傳送到用戶端。 提供配置大小，讓伺服器存根可以為它配置記憶體。 因為 *pszOutput* 是 \[ [**ref**](/windows/desktop/Midl/ref) \] 指標，所以用戶端必須在呼叫之前配置足夠的記憶體給字串。 當遠端程式傳回時，回應字串會寫入此記憶體區域中。
 
- 
+ 
 
- 
+ 

@@ -6,12 +6,12 @@ ms.tgt_platform: multiple
 title: 'W (WMI) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bc30e54be719bb7765c323662bad805c4c440a00
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a3e764e567217ffa1b0cd5a686fe5195389a1a49430f97f66098624973d799f6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106983885"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120030528"
 ---
 # <a name="w-wmi"></a>W (WMI) 
 
@@ -22,7 +22,7 @@ ms.locfileid: "106983885"
 <span id="wmi.gloss_win32_schema"></span><span id="WMI.GLOSS_WIN32_SCHEMA"></span>**Win32 架構**
 </dt> <dd>
 
-[*CIM 架構*](gloss-c.md)的 Microsoft 擴充功能，包含類別和實例的定義，以代表存在於一般 Windows 環境中的 [*managed 物件*](gloss-m.md)。
+[*CIM 架構*](gloss-c.md)的 Microsoft 擴充功能，其中包含類別和實例的定義，以代表存在於一般 Windows 環境中的 [*managed 物件*](gloss-m.md)。
 
 </dd> <dt>
 
@@ -57,14 +57,14 @@ Microsoft Management Console (MMC) 嵌入式管理單元，可讓使用者在本
 <span id="wmi.gloss_wmi_odbc_adapter"></span><span id="WMI.GLOSS_WMI_ODBC_ADAPTER"></span>**WMI ODBC 介面卡**
 </dt> <dd>
 
-此介面可讓應用程式使用 *WMI 查詢語言* 從 Windows 管理取得資訊。 這會提供標準 API，可讓 ODBC 應用程式使用 [*CIM 儲存*](gloss-c.md) 機制中的資料，就像是資料庫一樣。
+介面，可讓應用程式使用 *WMI 查詢語言* 取得 Windows 管理的資訊。 這會提供標準 API，可讓 ODBC 應用程式使用 [*CIM 儲存*](gloss-c.md) 機制中的資料，就像是資料庫一樣。
 
 </dd> <dt>
 
 <span id="wmi.gloss_wmi_query_language"></span><span id="WMI.GLOSS_WMI_QUERY_LANGUAGE"></span>**WMI 查詢語言 (WQL)**
 </dt> <dd>
 
-結構化查詢語言的子集 (SQL) ，其中包含支援 WMI 事件通知和其他 WMI 特定功能的延伸模組。
+結構化查詢語言的子集 (SQL) 具有支援 WMI 事件通知和其他 wmi 特定功能的延伸模組。
 
 </dd> <dt>
 

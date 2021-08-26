@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Qedit.h
-ms.openlocfilehash: 64647cbcbcc836c400890fb173a29c76f8723029
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: 2686c64b3251616ac8cefbe81a77282e5b1a7c6847ef965b6361759118b74756
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107908806"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120050878"
 ---
 # <a name="null-renderer-filter"></a>Null 轉譯器篩選
 
@@ -52,7 +52,7 @@ Null 轉譯器篩選器會捨棄它收到的每個範例，而不顯示或轉譯
 
 當圖形中的輸出釘選需要下游連接，但您不想從該 pin 轉譯資料時，請使用此篩選器。 藉由將輸出連接連接到 Null 轉譯器，您就可以完成連接，而不會轉譯資料。
 
-雖然此篩選不會轉譯任何範例，但它會在捨棄範例之前等候每個樣本的呈現時間。 因此，圖形會以一般費率執行。 如果您想要儘快執行圖形，請將參考時鐘設定為 **Null**。 如需詳細資訊，請參閱 [設定圖形時鐘](setting-the-graph-clock.md)。
+雖然此篩選不會轉譯任何範例，但它會在捨棄範例之前等候每個樣本的呈現時間。 因此，圖形會以一般費率執行。 如果您想要儘快執行圖形，請將參考時鐘設定為 **Null**。 如需詳細資訊，請參閱[設定 Graph 時鐘](setting-the-graph-clock.md)。
 
 ## <a name="requirements"></a>規格需求
 
@@ -68,7 +68,7 @@ Null 轉譯器篩選器會捨棄它收到的每個範例，而不顯示或轉譯
 
 <dl> <dt>
 
-[DirectShow 編輯服務物件](directshow-editing-services-objects.md)
+[DirectShow編輯服務物件](directshow-editing-services-objects.md)
 </dt> </dl>
 
  

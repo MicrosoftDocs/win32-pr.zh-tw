@@ -4,12 +4,12 @@ ms.assetid: 4ab576ce-becd-4736-921e-e463c0dff841
 title: 時間戳記和持續時間
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2323c11fa0e3ec2b2b2d5ba1cefe4f5d5fa80c5b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 22452e8b6b8094e643126f479f13b2c447db584588f3be1c1aa6595b3e7e2bb7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114349"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119953198"
 ---
 # <a name="time-stamps-and-durations"></a>時間戳記和持續時間
 

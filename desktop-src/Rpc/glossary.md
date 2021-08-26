@@ -4,12 +4,12 @@ description: 本詞彙包含有關遠端程序呼叫的重要詞彙和概念。 
 ms.assetid: 4EC80A0B-D816-452C-93C0-D48A5220EEF6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0a4c82bc9f1bcd78f09d226111bfe567e998397f
-ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
+ms.openlocfilehash: 7fa5dc92e6399a66311387807bb1f49aa675450b9b58b4980ea1e68a527b24c1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "112068134"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120020868"
 ---
 # <a name="glossary-rpc"></a> (RPC) 的詞彙
 
@@ -21,8 +21,8 @@ ms.locfileid: "112068134"
 -   [D](d-glos.md)
 -   [Pci-e](e-glos.md)
 -   [F](f-glos.md)
--   [I](i-glos.md)
--   [我](l-glos.md)
+-   [我](i-glos.md)
+-   [L](l-glos.md)
 -   [M](m-glos.md)
 -   [N](n-glos.md)
 -   [輸出](o-glos.md)
