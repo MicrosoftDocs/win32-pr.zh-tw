@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 6dfcac6c11471a1216636f1e12601e6fe6dd0e4e
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: ae4a4edce4f0f79edee95042cbd53cbaeb610b1bf68a6bdb9de5fd313e8c1355
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970316"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120002958"
 ---
 # <a name="setpowerstate-method-of-the-cim_diskettedrive-class"></a>CIM DisketteDrive 類別的 SetPowerState 方法 \_
 
@@ -46,7 +46,7 @@ uint32 SetPowerState(
 
 <dl> <dt>
 
-*>powerstate* \[在\]
+*>Powerstate* \[在\]
 </dt> <dd>
 
 指定此邏輯裝置所需電源狀態的 **ValueMap** 值。

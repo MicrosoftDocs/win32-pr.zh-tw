@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 9d9395f5c5ebaf2948043fe43e84685e4c39d4d0
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: ecdd0989530810ee4eafc33fb447c35b6f97c90388a5145df0b423b9726d84c5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847571"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120003708"
 ---
 # <a name="delete-method-of-the-win32_codecfile-class"></a>Win32 CodecFile 類別的 Delete 方法 \_
 

@@ -4,12 +4,12 @@ ms.assetid: a64ed11a-43d6-41f7-aabd-5dca2a2b4a12
 title: WM_POWERBROADCAST 訊息
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0f70c5848ec5d71666c26fcd4b5b161e31465543
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7997f6c9bed6b4d46068c9974f4ff3571a9617ba2bf09adc6b98bb33facb3d1a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106983630"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120032688"
 ---
 # <a name="wm_powerbroadcast-messages"></a>WM \_ POWERBROADCAST 訊息
 

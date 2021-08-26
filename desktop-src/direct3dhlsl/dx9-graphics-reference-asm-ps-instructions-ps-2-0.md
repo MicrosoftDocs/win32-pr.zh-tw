@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: bac2a70ed0147885174c2290d5e58c92ae3347e7
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 292263ed6331c8cc878d6dbd9cfa3e4d766c193d2242b841afb926b296675ccf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104990663"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120067988"
 ---
 # <a name="ps_2_0-instructions"></a>ps \_ 2 \_ 0 指示
 
@@ -32,7 +32,7 @@ ms.locfileid: "104990663"
 
 
 
-| Name                                                             | 描述                                                                                      | 指令插槽 | 設定 | 算術 | 紋理 | 新增 |
+| 名稱                                                             | 描述                                                                                      | 指令插槽 | 設定 | 算術 | 紋理 | 新增 |
 |------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|-------------------|-------|------------|---------|-----|
 | [abs-ps](abs---ps.md)                                         | 絕對值                                                                                   | 1                 |       | x          |         | x   |
 | [新增-ps](add---ps.md)                                         | 新增兩個向量                                                                                  | 1                 |       | x          |         |     |
@@ -73,7 +73,7 @@ ms.locfileid: "104990663"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -82,9 +82,9 @@ ms.locfileid: "104990663"
 [圖元著色器指示](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

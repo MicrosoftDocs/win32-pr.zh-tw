@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 0cbcf06f28a327e18aa9f31b417dc1911411d0c9
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: 001683c612aefb56d8257977ce7efe99d162a0919d39c678ee4074128a019a31
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113119074"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120068188"
 ---
 # <a name="for-statement"></a>for 陳述式
 
@@ -92,7 +92,7 @@ ms.locfileid: "113119074"
 
 <dl> <dt>
 
-[流程式控制制](dx-graphics-hlsl-flow-control.md)
+[Flow控制](dx-graphics-hlsl-flow-control.md)
 </dt> </dl>
 
  

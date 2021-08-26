@@ -5,12 +5,12 @@ ms.assetid: 4cc7197b-88f3-4906-9b59-66587f970e2a
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0193440414c1b95b741b6e1f0257d8d1aa3e00b9
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f851fe74d7e22a068eccd0d901cab14d754b6b2364611bfdda2aecd68dcf224d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372010"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119988788"
 ---
 # <a name="registering-the-protocol-manager"></a>註冊通訊協定管理員
 
@@ -22,14 +22,14 @@ ms.locfileid: "104372010"
 
 ```
 HKEY_LOCAL_MACHINE
-   System
-      CurrentControlSet
-         Control
-            Terminal Server
-               WinStations
-                  RDP-Tcp
-                  MyListener1
-                  MyListener2
+   System
+      CurrentControlSet
+         Control
+            Terminal Server
+               WinStations
+                  RDP-Tcp
+                  MyListener1
+                  MyListener2
 ```
 
 您可以在此位置中查看預設的 **rdp-tcp 接聽程式** 金鑰底下的值專案，以供參考。
@@ -53,9 +53,9 @@ HKEY_LOCAL_MACHINE
 [方法呼叫順序](method-call-sequence.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

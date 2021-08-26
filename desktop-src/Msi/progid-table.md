@@ -4,12 +4,12 @@ ms.assetid: 66a7e170-6f70-4db7-98f4-8a074471b9f2
 title: ProgId 資料表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 293ce3748f691b664d55b0a1158a574472388202
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fbed8baea9bd8421757cf2e31f0ba06679db3394c95f732537a7e230c02b5ee8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103945254"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120042058"
 ---
 # <a name="progid-table"></a>ProgId 資料表
 
@@ -24,7 +24,7 @@ ProgId 資料表具有下列資料行。
 | ProgId         | [Text](text.md)             | Y   | N        |
 | ProgId \_ 父系 | [Text](text.md)             | N   | Y        |
 | 類別\_        | [GUID](guid.md)             | N   | Y        |
-| Description    | [Text](text.md)             | N   | Y        |
+| 描述    | [Text](text.md)             | N   | Y        |
 | 圖示\_         | [識別碼](identifier.md) | N   | Y        |
 | >iconindex      | [整數](integer.md)       | N   | Y        |
 

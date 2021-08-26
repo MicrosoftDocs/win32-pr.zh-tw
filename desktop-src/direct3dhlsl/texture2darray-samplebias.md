@@ -12,12 +12,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
 api_location: ''
-ms.openlocfilehash: 718feac9dd80b2cdc5adf0d5005e9a7b997cf5a0
-ms.sourcegitcommit: 476861130ea63675206d1f06e517059705b930ed
+ms.openlocfilehash: a947ed2aca7c6372547ff9eeb36f03477bc48f3bf8ddaae0bbafa16e7b85234f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "104022709"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120067448"
 ---
 # <a name="texture2darraysamplebias-methods"></a>Texture2DArray：： SampleBias 方法
 

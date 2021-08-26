@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: e6f711722852cba4b671cc84416055d279fd7cc6
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: c9e532bae8cb121fc93f3fdf2a5a1ee23e597c66599277b73b3b36b15ebbb963
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106982209"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119989118"
 ---
 # <a name="id3dx10dataloaderdecompress-method"></a>ID3DX10DataLoader：:D ecompress 方法
 

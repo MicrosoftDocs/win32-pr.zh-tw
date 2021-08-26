@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102229
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 64eb5085832f287e32c0d96bb4a8849efe34b7b5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c7891986533a59f530257b68bd6c6eedf6bfb347e9dcb2f7b829e267f859f4d4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192427"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120019868"
 ---
 # <a name="esentlsalreadysetexception-members"></a>EsentLSAlreadySetException 成員
 

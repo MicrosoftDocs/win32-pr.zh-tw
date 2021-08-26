@@ -4,12 +4,12 @@ description: 下列列舉是在 projectedfslib 中宣告。
 ms.assetid: <GUID-GOES-HERE>
 ms.date: 01/17/2020
 ms.topic: article
-ms.openlocfilehash: ab6650cb5f4fdeb956c0f5c748c88aa93dfa4a25
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: b04404c855bba24b40a681d570532213235b2c833844766cd42ba699c12f133b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104024401"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120031118"
 ---
 # <a name="projfs-enumerations"></a>ProjFS 列舉
 

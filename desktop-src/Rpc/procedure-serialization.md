@@ -4,12 +4,12 @@ description: 當您使用程式序列化時，會使用 \ 編碼 \ 或 \ 解碼 
 ms.assetid: 98367b00-696b-44c4-a747-92ecac34ba1e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 77696761a9aa5fe1471e9ebf24a57303b15d0ff3
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 023b514aa5a2e5be1b937a3989c3446bcc6e61c76f885381ce257286b5c625b4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "104386333"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120018948"
 ---
 # <a name="procedure-serialization"></a>程式序列化
 

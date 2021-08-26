@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 49c663741da50620e03cfde9f13d67a0c0063453
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3f50942d32691d9dc76aa30ddcef36df390fccfe058c31af3527c0eafe0d7df0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372400"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120067978"
 ---
 # <a name="vertex-shader-source-register-modifiers"></a>頂點著色器來源登錄修飾詞
 
@@ -26,13 +26,13 @@ ms.locfileid: "104372400"
 
 
 
-| 元件修飾詞 | Description     |
+| 元件修飾詞 | 描述     |
 |--------------------|-----------------|
 | \- R               | 來源否定 |
 
 
 
- 
+ 
 
 不能在這些指示的第二個來源登錄上使用否定修飾詞： [m3x2-vs](m3x2---vs.md)、 [m3x3-vs](m3x3---vs.md)、 [m3x4-vs](m3x4---vs.md)、 [m4x3-vs](m4x3---vs.md)、 [m4x4-vs](m4x4---vs.md)。
 
@@ -44,7 +44,7 @@ ms.locfileid: "104372400"
 
 
 
- 
+ 
 
 ## <a name="absolute-value"></a>絕對值
 
@@ -58,7 +58,7 @@ ms.locfileid: "104372400"
 
 
 
- 
+ 
 
 如果任何第3版著色器從一或多個常數浮點數暫存器 (c \#) 讀取，下列其中一個條件必須為 true。
 
@@ -72,9 +72,9 @@ ms.locfileid: "104372400"
 [頂點著色器暫存器修飾詞](dx9-graphics-reference-asm-vs-registers-modifiers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

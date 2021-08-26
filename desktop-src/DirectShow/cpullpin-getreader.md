@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 3a20bbb689c4ee5e3ac12c510098163d9fbb224e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7880cba8e910c3da8ade049e18ae22e403c0c616246e4dfde94e587a1fcdeab9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106996003"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120054998"
 ---
 # <a name="cpullpingetreader-method"></a>CPullPin. System.diagnostics.symbolstore.isymbolbinder1.getreader 方法
 
@@ -48,7 +48,7 @@ IAsyncReader* GetReader();
 
 傳回的介面具有未處理的參考計數。 呼叫端必須釋放介面。
 
-在呼叫 **AddRef** 之前，方法不會檢查介面指標的值，因此，除非您已成功呼叫 [**CPullPin：： Connect**](cpullpin-connect.md) 方法，否則請不要呼叫這個方法。 否則，介面指標可能是 **Null** ，而且呼叫 **AddRef** 將會擲回例外狀況。
+在呼叫 **AddRef** 之前，方法不會檢查介面指標的值，因此，除非您已成功呼叫 [**CPullPin：：連線**](cpullpin-connect.md)方法，否則請不要呼叫這個方法。 否則，介面指標可能是 **Null** ，而且呼叫 **AddRef** 將會擲回例外狀況。
 
 ## <a name="requirements"></a>規格需求
 

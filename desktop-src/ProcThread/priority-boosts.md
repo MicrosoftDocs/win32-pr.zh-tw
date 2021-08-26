@@ -4,12 +4,12 @@ ms.assetid: bcc6cec7-2d85-4810-98d0-7d99486f4924
 title: 優先權提升
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 37f463f30b0abffb24daadb4241ad32c5b51f123
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5bfe04bcd1df27c2456a06d35d83b894243c9871b3799f04bdc3c3df190ef251
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192758"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120032018"
 ---
 # <a name="priority-boosts"></a>優先權提升
 

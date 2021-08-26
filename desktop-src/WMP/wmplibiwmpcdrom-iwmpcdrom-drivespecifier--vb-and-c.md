@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e0a6c439523d90824da708700d48274f5a2e5ef4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b555cba0ec694a19a01c040a0369aeb473c6811933d45892cbf3c69ef640b8b7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106978770"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120031457"
 ---
 # <a name="iwmpcdromdrivespecifier-property"></a>IWMPCdrom：:d riveSpecifier 屬性
 
@@ -121,7 +121,7 @@ System.Windows.Forms.MessageBox.Show(MyDriveSpecifiers)
 [**IWMPCdrom 介面 (VB 和 c # )**](iwmpcdrom--vb-and-c.md)
 </dt> <dt>
 
-[**IWMPCdromCollection (VB 和 c # )**](wmplibiwmpcdromcollection-iwmpcdromcollection-count--vb-and-c.md)
+[**IWMPCdromCollection (VB 和 c # ) 的計數**](wmplibiwmpcdromcollection-iwmpcdromcollection-count--vb-and-c.md)
 </dt> <dt>
 
 [**IWMPSettings2. mediaAccessRights (VB 和 c # )**](wmplibiwmpsettings2-iwmpsettings2-mediaaccessrights--vb-and-c.md)

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: b56ae2a846b4d89da4c6a9d4c8f88bd3094c5cff
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 732bf7aa6d0d247c93c0334db48b86bccd2ac15715dd2da9a4d60a0d315966bd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106984874"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120054569"
 ---
 # <a name="crendererinputpinqueryid-method"></a>CRendererInputPin. QueryId 方法
 
@@ -55,7 +55,7 @@ HRESULT QueryId(
 
 
 
-| 傳回碼                                                                                   | Description                          |
+| 傳回碼                                                                                   | 描述                          |
 |-----------------------------------------------------------------------------------------------|--------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>          | Success<br/>                   |
 | <dl> <dt>**E \_ OUTOFMEMORY**</dt> </dl> | 記憶體不足<br/>       |

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: e4addb06b120801b0d5e697c7df93ab8ba620bbd
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 98044f8a05c22022f66e6014be591d99ec57451e33e8f2d7d464e6793bec19e5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106992588"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120054028"
 ---
 # <a name="csourceseekingm_dwseekingcaps-member"></a>CSourceSeeking：： m \_ dwSeekingCaps 成員
 

@@ -4,12 +4,12 @@ ms.assetid: 6cd04d9a-5489-4fde-951e-aa962e9bd755
 title: ModuleInstallExecuteSequence 資料表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d294ddfdf06028bf18d518e1086d37a0719f8c8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6659c8223e41307766d67a4a5138699b46e03fbf3d50b514cb452bdc870c009c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975507"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120042842"
 ---
 # <a name="moduleinstallexecutesequence-table"></a>ModuleInstallExecuteSequence 資料表
 

@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 273cd08d41d0ce3302f64719d67155cff963e6a1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: bec56c84f857f715c41a8000eccd195db0b6123fb636a52956adb7c3e66bcfc1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990539"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120001778"
 ---
 # <a name="themelogstring"></a>LogString
 

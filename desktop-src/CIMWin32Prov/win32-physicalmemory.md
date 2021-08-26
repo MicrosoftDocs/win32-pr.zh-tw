@@ -50,12 +50,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: e026c3c3d0a29bbbd10ed2b5565708f0bcb0900c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 5559de847cf15b60e3af27f8b092605b8ca8c3bfd874d27ebab7a0edda454d14
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104468565"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119972208"
 ---
 # <a name="win32_physicalmemory-class"></a>Win32 \_ PhysicalMemory 類別
 
@@ -136,7 +136,7 @@ SMBIOS 類型 17-屬性。 表示排名。
 
 此值來自 SMBIOS 資訊中 **記憶體設備** 結構的 **屬性** 成員。
 
-**Windows server 2012 R2、Windows 8.1、Windows server 2012、Windows 8、Windows server 2008 R2、windows 7、Windows server 2008 和 Windows Vista：** 在 Windows Server 2016 和 Windows 10 之前，不支援此屬性。
+**Windows Server 2012 R2、Windows 8.1、Windows Server 2012、Windows 8、Windows server 2008 R2、Windows 7、Windows server 2008 和 Windows Vista：** 在 Windows Server 2016 和 Windows 10 之前，不支援這個屬性。
 
 </dd> <dt>
 
@@ -218,7 +218,7 @@ SMBIOS 類型 17-屬性。 表示排名。
 
 此值來自 SMBIOS 資訊中 **記憶體設備** 結構的 **已設定記憶體頻率速度** 成員。
 
-**Windows server 2012 R2、Windows 8.1、Windows server 2012、Windows 8、Windows server 2008 R2、windows 7、Windows server 2008 和 Windows Vista：** 在 Windows Server 2016 和 Windows 10 之前，不支援此屬性。
+**Windows Server 2012 R2、Windows 8.1、Windows Server 2012、Windows 8、Windows server 2008 R2、Windows 7、Windows server 2008 和 Windows Vista：** 在 Windows Server 2016 和 Windows 10 之前，不支援這個屬性。
 
 </dd> <dt>
 
@@ -238,7 +238,7 @@ SMBIOS 類型 17-屬性。 表示排名。
 
 此值來自 SMBIOS 資訊中的 **記憶體設備** 結構 **設定的電壓** 成員。
 
-**Windows server 2012 R2、Windows 8.1、Windows server 2012、Windows 8、Windows server 2008 R2、windows 7、Windows server 2008 和 Windows Vista：** 在 Windows Server 2016 和 Windows 10 之前，不支援此屬性。
+**Windows Server 2012 R2、Windows 8.1、Windows Server 2012、Windows 8、Windows server 2008 R2、Windows 7、Windows server 2008 和 Windows Vista：** 在 Windows Server 2016 和 Windows 10 之前，不支援這個屬性。
 
 </dd> <dt>
 
@@ -367,7 +367,7 @@ Unknown
 
 </dt> <dd>
 
-Sip
+SIP
 
 </dd> <dt>
 
@@ -422,7 +422,7 @@ SOJ
 
 </dt> <dd>
 
-Simm
+SIMM
 
 </dd> <dt>
 
@@ -433,7 +433,7 @@ Simm
 
 </dt> <dd>
 
-Dimm
+DIMM
 
 </dd> <dt>
 
@@ -455,7 +455,7 @@ TSOP
 
 </dt> <dd>
 
-Pga
+PGA
 
 </dd> <dt>
 
@@ -499,7 +499,7 @@ SRIMM
 
 </dt> <dd>
 
-Smd
+SMD
 
 </dd> <dt>
 
@@ -554,7 +554,7 @@ SOIC
 
 </dt> <dd>
 
-Lcc
+LCC
 
 </dd> <dt>
 
@@ -576,7 +576,7 @@ PLCC
 
 </dt> <dd>
 
-Bga
+BGA
 
 </dd> <dt>
 
@@ -730,7 +730,7 @@ Noninterleaved
 
 此值來自 SMBIOS 資訊中 **記憶體裝置** 結構的 **最大電壓** 成員。
 
-**Windows server 2012 R2、Windows 8.1、Windows server 2012、Windows 8、Windows server 2008 R2、windows 7、Windows server 2008 和 Windows Vista：** 在 Windows Server 2016 和 Windows 10 之前，不支援此屬性。
+**Windows Server 2012 R2、Windows 8.1、Windows Server 2012、Windows 8、Windows server 2008 R2、Windows 7、Windows server 2008 和 Windows Vista：** 在 Windows Server 2016 和 Windows 10 之前，不支援這個屬性。
 
 </dd> <dt>
 
@@ -959,7 +959,7 @@ FBD2
 
 此值來自 SMBIOS 資訊中 **記憶體裝置** 結構的 **最小電壓** 成員。
 
-**Windows server 2012 R2、Windows 8.1、Windows server 2012、Windows 8、Windows server 2008 R2、windows 7、Windows server 2008 和 Windows Vista：** 在 Windows Server 2016 和 Windows 10 之前，不支援此屬性。
+**Windows Server 2012 R2、Windows 8.1、Windows Server 2012、Windows 8、Windows server 2008 R2、Windows 7、Windows server 2008 和 Windows Vista：** 在 Windows Server 2016 和 Windows 10 之前，不支援這個屬性。
 
 </dd> <dt>
 
@@ -1149,7 +1149,7 @@ FBD2
 
 原始的 SMBIOS 記憶體類型。 **MemoryType** 屬性的值是對應至 SMBIOS 值的 CIM 值。
 
-**Windows server 2012 R2、Windows 8.1、Windows server 2012、Windows 8、Windows server 2008 R2、windows 7、Windows server 2008 和 Windows Vista：** 在 Windows Server 2016 和 Windows 10 之前，不支援此屬性。
+**Windows Server 2012 R2、Windows 8.1、Windows Server 2012、Windows 8、Windows server 2008 R2、Windows 7、Windows server 2008 和 Windows Vista：** 在 Windows Server 2016 和 Windows 10 之前，不支援這個屬性。
 
 </dd> <dt>
 

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 63fac25bd8434ac525423b70bf603749a581ccb0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7c01fd199165bd29434c793b9627c70fe0f76334f270fcc08e04249baac6b79b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106984325"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120055458"
 ---
 # <a name="cimageallocatorfree-method"></a>CImageAllocator 方法
 

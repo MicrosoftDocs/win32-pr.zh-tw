@@ -14,12 +14,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 8000c63d7e80b195a03ab4822117b871bcd989b6
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 3840506b50e59c518394991fc110631d4f141da3bb34182c000c198206c2c336
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103678788"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120031798"
 ---
 # <a name="iwmdrmdevice2-interface"></a>IWMDRMDevice2 介面
 

@@ -4,12 +4,12 @@ description: Memory-Management 模型
 ms.assetid: 1690901b-2a1e-455b-a440-2674f5e5dfa4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b8114f11755829be9d5f7b17b751e075701ac0aa
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a985158f54bf09d149e04c7eebc5853417e39191ca0bb854cb7d1ba5de1e5d86
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103932597"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120019978"
 ---
 # <a name="memory-management-models"></a>Memory-Management 模型
 
@@ -21,9 +21,9 @@ ms.locfileid: "103932597"
 -   [用戶端應用程式配置給整個樹狀結構的單一線性緩衝區](application-allocated-buffer.md)。
 -   [伺服器上的持續性儲存體](persistent-storage-on-the-server.md)。
 
- 
+ 
 
- 
+ 
 
 
 

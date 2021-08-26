@@ -4,12 +4,12 @@ ms.assetid: ddf624f9-6f85-4ef6-8dfc-8635a25915d0
 title: 搜尋目錄和目錄中的檔案
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8b4821a53ef0c3f063e943f1f5821b043791dd44
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0e857460dc58fa5fded802cb53b9ae6a558e5a27426baef87be9f561fa35fe6d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106978000"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120041178"
 ---
 # <a name="searching-for-a-directory-and-a-file-in-the-directory"></a>搜尋目錄和目錄中的檔案
 
@@ -73,7 +73,7 @@ ms.locfileid: "106978000"
 
 <dl> <dt>
 
-[搜尋現有的應用程式、檔案、登錄專案或 .ini 檔案專案](searching-for-existing-applications-files-registry-entries-or--ini-file-entries.md)
+[搜尋現有的應用程式、檔案、登錄專案或 .ini 的檔案專案](searching-for-existing-applications-files-registry-entries-or--ini-file-entries.md)
 </dt> </dl>
 
  

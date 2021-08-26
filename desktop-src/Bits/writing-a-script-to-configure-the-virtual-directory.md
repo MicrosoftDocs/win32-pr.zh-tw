@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: ae23a33c2c91dc0a141c6f377daf89708499aae7
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b9ea1de5a0b9f7be9598a4011cbb6cd76f49e6d4bcc3d468093be1479ee2b59e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103931911"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120004598"
 ---
 # <a name="writing-a-script-to-configure-the-virtual-directory"></a>撰寫腳本來設定虛擬目錄
 
@@ -22,7 +22,7 @@ ms.locfileid: "103931911"
 
 如需您可以修改之屬性的清單和說明，請參閱 [BITS IIS 擴充功能屬性](bits-iis-extension-properties.md)。 使用 [**IBITSExtensionSetup**](/windows/desktop/api/Bitscfg/nn-bitscfg-ibitsextensionsetup) 介面的方法來啟用和停用用於上傳的虛擬目錄。
 
-下列範例示範如何使用 Windows Script Host 來建立、設定和啟用用於 BITS 上傳的 IIS 虛擬目錄。
+下列範例顯示如何使用 Windows 腳本主機來建立、設定和啟用用於 BITS 上傳的 IIS 虛擬目錄。
 
 
 ```JScript
@@ -71,9 +71,9 @@ VirtualDir.BITSServerNotificationURL = "https://myserver/mypath/myasp.asp";
 
 如需在伺服器應用程式中接收上傳資料的詳細資訊，請參閱 [使用 BITS 通知要求/回應標頭](using-bits-notification-request-response-headers.md)。
 
- 
+ 
 
- 
+ 
 
 
 

@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 3bb7565d75948fe951d87da49fe00cd4ff565115
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: b0c27c672c7f65a524a0c8042281b1fee17ed113e8a75f77435151b685ef3199
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108089266"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120001988"
 ---
 # <a name="ifeedbackhubappinfogetrunningapps-method"></a>IFeedbackHubAppInfo：： GetRunningApps 方法
 
@@ -55,8 +55,8 @@ virtual void GetRunningApps(
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 10 桌面應用程式\]<br/>          |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2016 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows 10 \[僅限桌面應用程式\]<br/>          |
+| 最低支援的伺服器<br/> | Windows Server 2016 \[僅限桌面應用程式\]<br/> |
 
 
 

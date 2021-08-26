@@ -6,21 +6,21 @@ keywords:
 - Windows Media Player，合作關係
 - Windows Media Player 物件模型，合作關係
 - 物件模型，合作關係
-- Windows Media Player ActiveX 控制項，合作關係
-- ActiveX 控制項，合作關係
-- Windows Media Player 的行動 ActiveX 控制項，合作關係
-- Windows Media Player 行動裝置、合作關係
+- Windows Media Player ActiveX 控制，合作關係
+- ActiveX 控制，合作關係
+- Windows Media PlayerMobile ActiveX 控制，合作關係
+- Windows Media Player行動、合作關係
 - 同步處理裝置，合作關係
 - 裝置同步處理，合作關係
 - 裝置與 Windows Media Player 之間的合作關係
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0cfc3fa20e1e8a4b6a4c7993ea7dcc5842719f2a
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: e4c018934ed06e5872d5866a463bdd909ea2501a1872ded29231be222572b2ae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104462708"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120004488"
 ---
 # <a name="about-partnerships"></a>關於合作關係
 
@@ -45,9 +45,9 @@ Windows Media Player 無法與狀態為 **wmpdsManualDevice** 的裝置建立合
 [**使用可攜式裝置**](working-with-portable-devices.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

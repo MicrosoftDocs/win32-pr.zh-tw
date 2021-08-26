@@ -4,12 +4,12 @@ ms.assetid: b5355053-9922-444f-a117-f6af461ef9e9
 title: 安全來源轉換
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ec59d551489fa1699c20c24d09b7ecbff99f8ca4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f591e6f30c11ec9fa7edf2f943ef1f660a0a3b12ff87c3c1de0984328652565b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103852927"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120040998"
 ---
 # <a name="secure-at-source-transforms"></a>安全來源轉換
 

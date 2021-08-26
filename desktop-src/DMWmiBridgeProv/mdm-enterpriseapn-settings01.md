@@ -17,12 +17,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 74704451790690df8f9cc11fec8bc1ed80d3c2dd
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6150e86f798e9408117daac5966f1efdecae4063ae3c4665b3f7577c1e2f31e0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104993"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120053528"
 ---
 # <a name="mdm_enterpriseapn_settings01-class"></a>MDM \_ EnterpriseAPN \_ Settings01 類別
 
@@ -107,7 +107,7 @@ class MDM_EnterpriseAPN_Settings01
 限定詞：索引 [**鍵**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
-描述父節點的完整路徑。 此類別的字串為 "./Vendor/MSFT/EnterpriseAPN/Settings"
+描述父節點的完整路徑。 針對此類別，字串為 "./Vendor/MSFT/EnterpriseAPN/設定"
 
 </dd> </dl>
 
@@ -117,7 +117,7 @@ class MDM_EnterpriseAPN_Settings01
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 10 桌面應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | Windows 10 \[僅限桌面應用程式\]<br/>                                                    |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                      |
 | 命名空間<br/>                | 根 \\ cimv2 \\ mdm \\ dmmap<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv mof</dt> </dl> |

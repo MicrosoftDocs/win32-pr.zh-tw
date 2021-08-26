@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 9a1e5f4dc71d5af2e7973ef180c919a49e65ef81
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: 95be6d9b6c4cbf70aed059399af0892a3c75f0a3462b6ef2b0732e8180f4e123
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113118583"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120068108"
 ---
 # <a name="getsampleposition-directx-hlsl-texture-object"></a>GetSamplePosition (DirectX HLSL 材質物件) 
 

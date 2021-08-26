@@ -5,12 +5,12 @@ ms.assetid: e1c3c3ed-2f7c-433d-a51d-66c2abd2e961
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d7c806d72d4945e2e45384b91bc94fbef3ed08b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2a6efd0268ef571d8f9ad984bb70a9e69e489e6349f8af0ee9e47e9aa18a1cc5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104300747"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120032648"
 ---
 # <a name="displaying-the-status-of-an-event-collector-subscription"></a>顯示事件收集器訂用帳戶的狀態
 
@@ -22,7 +22,7 @@ ms.locfileid: "104300747"
 >
 > **>wecutil gr** *SubscriptionName*
 
- 
+ 
 
 您將需要訂用帳戶的名稱以顯示其狀態。 若要列出本機電腦上目前訂用帳戶的名稱，您可以使用 [列出事件收集器](listing-event-collector-subscriptions.md)訂用帳戶中所示的 c + + 範例，或者您可以在命令提示字元中輸入下列命令：
 
@@ -432,12 +432,12 @@ std::wstring ConvertEcDateTime( ULONGLONG code )
 [列出事件收集器訂閱](listing-event-collector-subscriptions.md)
 </dt> <dt>
 
-[Windows 事件收集器參考](windows-event-collector-reference.md)
+[Windows事件收集器參考](windows-event-collector-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 
