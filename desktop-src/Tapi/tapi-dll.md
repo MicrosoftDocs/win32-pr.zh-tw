@@ -4,12 +4,12 @@ ms.assetid: 17937bf1-e0bd-4845-9484-d23190807642
 title: TAPI DLL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8482045ec16a999957121aff669e93b34b605069
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4ff26274baf25047212a3f9f8e15c2211d90cbaa10db23674ae54dbb97bbfdf7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104551613"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120012200"
 ---
 # <a name="tapi-dll"></a>TAPI DLL
 

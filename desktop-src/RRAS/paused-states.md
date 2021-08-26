@@ -4,16 +4,16 @@ description: 在連接操作期間，遠端伺服器可能會在沒有本機使�
 ms.assetid: a1a36b2a-33df-4cba-85a6-f4225779cd63
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 914acb85ccf74c92b4bd4119966a421faddeb011
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: ec66a63adbee524ec231b5c9dd9b0b410c8f4fbc73746ae9b924294c680b4a9c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104316321"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120029138"
 ---
 # <a name="paused-states"></a>暫停狀態
 
-在連接操作期間，遠端伺服器可能會在沒有本機使用者的其他資訊的情況下繼續進行。 從 Windows NT 3.5 開始， [**RasDial**](/windows/desktop/api/Ras/nf-ras-rasdiala) 函數支援暫停狀態。 暫停狀態可讓遠端存取連線管理員暫停線上作業，讓 RAS 用戶端應用程式可以從使用者收集資訊。
+在連接操作期間，遠端伺服器可能會在沒有本機使用者的其他資訊的情況下繼續進行。 從 Windows NT 3.5 開始， [**RasDial**](/windows/desktop/api/Ras/nf-ras-rasdiala)函數支援暫停狀態。 暫停狀態可讓遠端存取連線管理員暫停線上作業，讓 RAS 用戶端應用程式可以從使用者收集資訊。
 
 暫停狀態在下列情況下很有用：
 
@@ -33,6 +33,6 @@ ms.locfileid: "104316321"
 
 無法從通知處理常式內進行第二個 [**RasDial**](/windows/desktop/api/Ras/nf-ras-rasdiala) 呼叫。
 
- 
+ 
 
- 
+ 

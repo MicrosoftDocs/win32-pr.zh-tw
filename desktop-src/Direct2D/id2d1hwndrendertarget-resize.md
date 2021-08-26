@@ -12,12 +12,12 @@ api_type:
 - DllExport
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 3f15af87c59c943bd7d5dc8ece708d3603bddce6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 31ffcae6473924e12ca428fd48927fd1507840dce4fdbce3a18e8f82ffe9fcaf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106980110"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119917608"
 ---
 # <a name="id2d1hwndrendertargetresize-methods"></a>ID2D1HwndRenderTarget：： Resize 方法
 

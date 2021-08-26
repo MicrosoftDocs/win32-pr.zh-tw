@@ -4,12 +4,12 @@ ms.assetid: 85f89fcc-2ab1-411b-ab3e-f1e9d425433f
 title: 郵筒函數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 22df27841465004a3acb64691f6b0b164da66061
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 48ef9a4a715e664c9524a7e8d181dd43689ae8f2ea70e8302137a3a0aadad5cb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104026833"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119964198"
 ---
 # <a name="mailslot-functions"></a>郵筒函數
 

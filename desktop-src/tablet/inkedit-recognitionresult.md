@@ -4,12 +4,12 @@ ms.assetid: 09618be0-fe49-494f-940f-79ff8352097e
 title: 'InkEdit. RecognitionResult 事件 (筆跡 .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 40d6206293b604e5540b5e6d0271e1ebe984a987
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 37ef71d38be31f32c59919a9ce4f24fd90b2d188d86a26e81821f6f7987da31d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194797"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119939078"
 ---
 # <a name="inkeditrecognitionresult-event"></a>InkEdit. RecognitionResult 事件
 
@@ -51,7 +51,7 @@ void RecognitionResult(
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 Windows XP Tablet PC Edition \[ 桌面應用程式\]<br/>                                                 |
+| 最低支援的用戶端<br/> | Windows僅限 XP Tablet PC Edition \[ 桌面應用程式\]<br/>                                                 |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                                     |
 | 標頭<br/>                   | <dl> <dt>筆跡 (也需要筆跡 \_ c) </dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>InkEd.dll</dt> </dl>                          |

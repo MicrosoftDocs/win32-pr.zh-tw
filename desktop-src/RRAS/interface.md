@@ -4,12 +4,12 @@ description: 介面是與網路的邏輯連接。 每個介面都是由唯一索
 ms.assetid: 761a033c-b95e-46f0-948b-d0a60337390f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bdd1e3988eac75bd465bf9a9b890f360f850a0d7
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 2f1347f1a8d9afd049dd8283e7199c6da7d8a9dce6990a1e7ea674943f32811f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103933814"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120030158"
 ---
 # <a name="interface-rras"></a> (RRAS) 的介面
 

@@ -23,12 +23,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 8c8685e468d60983408c52a985169c61be91f632
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9ab3feab1f34d0f44ce5cd0618915d8575af9e463a9ec772961c185e946ac094
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973609"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119963498"
 ---
 # <a name="msvm_virtualsystemmigrationservicesettingdata-class"></a>Msvm \_ VirtualSystemMigrationServiceSettingData 類別
 
@@ -178,7 +178,7 @@ class Msvm_VirtualSystemMigrationServiceSettingData : CIM_SettingData
 存取類型：唯讀
 </dt> </dl>
 
-指定虛擬系統移轉是否已啟用或停用。 儲存體遷移一律為啟用狀態。 這是唯讀屬性，但是可以使用 [**Msvm \_ VirtualSystemMigrationService**](msvm-virtualsystemmigrationservice.md)類別的 [**ModifyServiceSettings**](modifyservicesettings-msvm-virtualsystemmigrationservice.md)方法來變更。
+指定虛擬系統移轉是否已啟用或停用。 一律會啟用儲存體的遷移。 這是唯讀屬性，但是可以使用 [**Msvm \_ VirtualSystemMigrationService**](msvm-virtualsystemmigrationservice.md)類別的 [**ModifyServiceSettings**](modifyservicesettings-msvm-virtualsystemmigrationservice.md)方法來變更。
 
 </dd> <dt>
 
@@ -230,8 +230,8 @@ class Msvm_VirtualSystemMigrationServiceSettingData : CIM_SettingData
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                                              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                                              |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                                                    |
 | 命名空間<br/>                | 根 \\ 虛擬化 \\ V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization。</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

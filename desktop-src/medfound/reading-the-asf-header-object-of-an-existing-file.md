@@ -4,12 +4,12 @@ ms.assetid: 0e37f0d3-a37b-4f36-a133-7b1922e9944b
 title: 讀取現有檔案的 ASF 標頭物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b231cb0b9af6b24f84efaa6403a4774e66bbb646
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e653154d632786995bdf45dcfa8e67e3cfd55cdf3f90103ce1cf995179e1266b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971689"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119887338"
 ---
 # <a name="reading-the-asf-header-object-of-an-existing-file"></a>讀取現有檔案的 ASF 標頭物件
 

@@ -1,19 +1,19 @@
 ---
-description: 本文包含適用于 DirectShow 音訊/影片播放的影片 .cpp 檔案的程式碼。
+description: 本文包含 DirectShow 中教學課程音訊/影片播放的影片 .cpp 檔案的程式碼。
 ms.assetid: c406a099-4956-46a8-b1f4-6d2e6ab3427a
 title: video .cpp
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f24d7bd3f27ce995d69e3f1425b7cae95d8997f3
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: d594bb850944fde6803d26ec49a547402e3d1a1bcdf5dba2814d4ce8299f7288
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112407851"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119964638"
 ---
 # <a name="videocpp"></a>video .cpp
 
-本主題包含 [在 DirectShow 中播放教學課程音訊/影片](audio-video-playback-in-directshow.md)的程式碼。
+本主題包含 DirectShow 中的教學課程[音訊/影片播放](audio-video-playback-in-directshow.md)程式碼。
 
 
 ```C++
@@ -654,10 +654,10 @@ done:
 
 <dl> <dt>
 
-[在 DirectShow 播放音訊/影片](audio-video-playback-in-directshow.md)
+[DirectShow 中的音訊/影片播放](audio-video-playback-in-directshow.md)
 </dt> <dt>
 
-[DirectShow 播放範例](directshow-playback-example.md)
+[DirectShow播放範例](directshow-playback-example.md)
 </dt> </dl>
 
  

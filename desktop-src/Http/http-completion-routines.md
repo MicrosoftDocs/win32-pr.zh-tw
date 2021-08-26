@@ -4,12 +4,12 @@ description: 應用程式有數個選項可接收完成指示，並為開發人�
 ms.assetid: c48a64d2-b6c8-4694-8600-f84751954bad
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8aee05efc8284cb29130efae4bcaefb4834a3fb4
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: dd80259d806d81153a649ad606e40c10986090442e3cab5e04bd864367441871
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103933223"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119981668"
 ---
 # <a name="http-completion-routines"></a>HTTP 完成常式
 
@@ -33,7 +33,7 @@ ms.locfileid: "103933223"
 
 
 
- 
+ 
 
 ## <a name="returning-the-number-of-bytes-read"></a>傳回讀取的位元組數目
 
@@ -45,7 +45,7 @@ ms.locfileid: "103933223"
 
 
 
-| pBytesReceived\* | pOverlapped  | Description                                                                             |
+| pBytesReceived\* | pOverlapped  | 描述                                                                             |
 |------------------|--------------|-----------------------------------------------------------------------------------------|
 | **NULL**         | **NULL**     | 應用程式不會收到傳回的位元組數目資訊。           |
 | **NULL**         | 非 **Null** | 非同步作業， *pBytesReceived* 沒有意義。                                |
@@ -54,17 +54,17 @@ ms.locfileid: "103933223"
 
 
 
- 
+ 
 
 > [!Note]  
 > \*此參數也可以是 *pBytesSent* 或 *pBytesRead*。
 
- 
+ 
 
 > [!Note]  
 > \*\*建議應用程式在 *pBytesReceived* 中傳遞 **Null** 以進行非同步作業，並取得從 [**GetOverlappedResult**](/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult)或 [**GetQueuedCompletionStatus**](/windows/desktop/api/ioapiset/nf-ioapiset-getqueuedcompletionstatus)接收的位元組數目。
 
- 
+ 
 
 ## <a name="return-codes"></a>傳回碼
 
@@ -78,6 +78,6 @@ HTTP 伺服器 API 會針對非同步函式呼叫傳回三個程式碼類別。
 
 如果 HTTP 伺服器 API 傳回錯誤 \_ IO \_ 暫止或沒有錯誤的任何作業 \_ ，則從非同步函式呼叫中，完成常式不會收到信號，且 API 會直接傳回錯誤。
 
- 
+ 
 
- 
+ 

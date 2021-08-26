@@ -5,12 +5,12 @@ ms.assetid: 22A25A94-A45C-482D-853A-FA6860EE7E4E
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d8846fd5f916c440d3dbdf5d907cc7f66cc6a313
-ms.sourcegitcommit: 3cea99a2ed9579a94236fa7924abd6149db51a58
+ms.openlocfilehash: 80c095d93237a44369cb249d6de9e514fa7021a91fb78430ddc428c88e4e71b5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/30/2021
-ms.locfileid: "114991805"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120027988"
 ---
 # <a name="uploading-texture-data-through-buffers"></a>透過緩衝區上傳材質資料
 

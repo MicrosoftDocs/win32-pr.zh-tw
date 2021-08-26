@@ -4,12 +4,12 @@ description: RTMv2 可讓用戶端使用 RtmGetEntityInfo、RtmGetDestInfo、Rtm
 ms.assetid: a3fc2020-eac4-40a1-9a6e-6eaa2bcc582c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 058a87c9463011aec55b0c6c8c0574ff1e013f23
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 51958fccc8a07e8846705945d9210f4259dfd89b1e3cefccd65d57dd0f033757
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104183101"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120028018"
 ---
 # <a name="retrieving-information"></a>擷取資訊
 
@@ -20,7 +20,7 @@ RTMv2 可讓用戶端使用 [**RtmGetEntityInfo**](/windows/desktop/api/Rtmv2/nf
 > [!Note]  
 > 用戶端的資訊僅適用于目前的實例和位址系列。
 
- 
+ 
 
 如需示範如何使用這些函式的範例程式碼，請參閱 [搜尋最佳路由](search-for-the-best-route.md)。
 
@@ -50,9 +50,9 @@ RTMv2 可讓用戶端使用 [**RtmGetEntityInfo**](/windows/desktop/api/Rtmv2/nf
 
 [**RtmIsBestRoute**](/windows/desktop/api/Rtmv2/nf-rtmv2-rtmisbestroute)函式可讓用戶端快速找出特定路由是否為目的地的最佳路由。 例如，如果用戶端是最適合的路由，則可能需要儲存特定的路由。 因此，用戶端可以呼叫這個函式，而不是列舉所有路由並進行比較。
 
- 
+ 
 
- 
+ 
 
 
 

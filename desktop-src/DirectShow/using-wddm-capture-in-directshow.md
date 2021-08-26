@@ -4,18 +4,18 @@ ms.assetid: 57ee86b0-50bc-4992-94d4-f290f83d2afc
 title: 在 DirectShow 中使用 WDDM Capture
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7926af70a3b7f1c4ba67c791d98c9928c3809b89
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f2e0a442c6929ef2435b05268035bb0b39b196a958440cd7ce5cfe44ea4b4c55
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106992059"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119903588"
 ---
 # <a name="using-wddm-capture-in-directshow"></a>在 DirectShow 中使用 WDDM Capture
 
 本主題適用于 Windows Vista 和更新版本。
 
-有些視訊卡有整合的影片捕捉功能。 在這些卡片上，已捕捉的影片畫面會放在視訊記憶體中 (VRAM) 。 在 Windows Vista 之前，沒有標準的機制可處理畫面格保持在 VRAM 的狀態。 相反地，必須將資料複製到系統記憶體中，然後再將資料複製回 VRAM 以供顯示。 在 Windows Vista 中，DirectShow 現在支援一種機制，可讓整個處理管線的影片畫面保持 VRAM，從 capture 到顯示。
+有些視訊卡有整合的影片捕捉功能。 在這些卡片上，已捕捉的影片畫面會放在視訊記憶體中 (VRAM) 。 在 Windows Vista 之前，沒有標準的機制可處理框架維持在 VRAM 中的狀態。 相反地，必須將資料複製到系統記憶體中，然後再將資料複製回 VRAM 以供顯示。 在 Windows Vista 中，DirectShow 現在支援一種機制，可讓整個處理管線的影片畫面保持 VRAM，從 capture 到顯示。
 
 KsProxy 篩選器會藉由查詢 KSPROPERTY \_ 慣用 \_ 捕獲介面屬性的驅動程式，來判斷驅動程式是否支援 VRAM 介面捕捉 \_ 。  (此屬性記載于 Windows 驅動程式套件檔中。 ) 如果驅動程式支援 VRAM surface capture，KsProxy 會配置一種特殊類型的媒體範例，其中包含 Direct3D 介面的指標。
 

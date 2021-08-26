@@ -4,17 +4,17 @@ ms.assetid: c8252cc6-a83f-4cce-ba3e-7db669eeb465
 title: 'NotifyParentalLevelChange 方法 (區段 .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cc47b7d78af8cfdd32aa63361411e769c375ddf1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8382b52f64d4196b0ef74e5f3285e9bb047a4e1f77d3b0e5bec4da218ee753b3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107000017"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119997358"
 ---
 # <a name="notifyparentallevelchange-method"></a>NotifyParentalLevelChange 方法
 
 > [!Note]  
-> 此元件可用於 Microsoft Windows 2000、Windows XP 及 Windows Server 2003 作業系統。 它在後續版本中可能會變更或無法使用。
+> 此元件可在 Microsoft Windows 2000、Windows XP 和 Windows Server 2003 作業系統中使用。 它在後續版本中可能會變更或無法使用。
 
  
 

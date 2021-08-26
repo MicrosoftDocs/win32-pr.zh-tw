@@ -7,12 +7,12 @@ keywords:
 - 路由表管理員第2版 RRAS，函數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9f59e4a1ad2bf091d8a74672f1f473589c5fa1d3
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3cb7138b54ee0fa747c7d367c54d7a0fb893c3d2d451577932c669650a0fc76e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372329"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120026918"
 ---
 # <a name="routing-table-manager-version-2-functions"></a>路由表管理員第2版函數
 
@@ -154,9 +154,9 @@ ms.locfileid: "104372329"
 
 [**RtmReferenceHandles**](/windows/desktop/api/Rtmv2/nf-rtmv2-rtmreferencehandles)
 
- 
+ 
 
- 
+ 
 
 
 

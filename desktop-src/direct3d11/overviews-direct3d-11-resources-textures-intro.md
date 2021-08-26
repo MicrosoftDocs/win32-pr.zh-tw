@@ -4,12 +4,12 @@ description: 紋理資源是設計來儲存紋素的結構化資料集合。
 ms.assetid: d745093e-2d51-4d45-a88a-caa0ca58b2ba
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 71fcafdfb9caf53a27e60956c8182ae3ef95008e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6ea3bfd19f018ff3f3d9fc8eb1608212a93b4364de2cc24b6213763dfcda4ffe
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840307"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120027898"
 ---
 # <a name="introduction-to-textures-in-direct3d-11"></a>Direct3D 11 中的材質簡介
 
@@ -73,7 +73,7 @@ Texture2D 資源包含 2D 紋格。 每個紋素是由 u、v 向量定位。 因
 > [!Note]  
 > 您使用 [**10 個 \_ 功能等級**](/windows/desktop/api/D3DCommon/ne-d3dcommon-d3d_feature_level) （含）以上建立的裝置可以支援材質 cube 的陣列，其中紋理數目等於陣列中的材質 cube 數目（以六為限）。 您使用 [**10 個 \_ 功能層級**](/windows/desktop/api/D3DCommon/ne-d3dcommon-d3d_feature_level) 建立的裝置僅支援六個臉部的單一紋理 cube。 此外，Direct3D 11 不支援部分 cubemaps。
 
- 
+ 
 
 ### <a name="3d-textures"></a>3D 紋理
 
@@ -92,9 +92,9 @@ Texture2D 資源包含 2D 紋格。 每個紋素是由 u、v 向量定位。 因
 [紋理](overviews-direct3d-11-resources-textures.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

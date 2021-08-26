@@ -8,12 +8,12 @@ keywords:
 - 多播群組管理員 RRAS，參考
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d81b02ad4a4510e5ebf7dc48a27557bacd472d3
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 38e33d33cc2fd5a5f5cece8b78c28693ba4427e823e2d2fb405d5ce726700b11
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104311120"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120029418"
 ---
 # <a name="multicast-group-manager-reference"></a>多播群組管理員參考
 
@@ -24,9 +24,9 @@ ms.locfileid: "104311120"
 -   [多播群組管理員結構](multicast-group-manager-structures.md)
 -   [多播群組管理員列舉](multicast-group-manager-enumerations.md)
 
- 
+ 
 
- 
+ 
 
 
 

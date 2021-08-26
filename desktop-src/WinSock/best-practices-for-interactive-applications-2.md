@@ -4,12 +4,12 @@ ms.assetid: 2c5d0610-88b5-437e-acde-214553121380
 title: 互動式應用程式的最佳作法
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 89764cf19de223f4622edd947c8122bc7fe8b11a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 497fc56419f8859b7490671590b4589092c4c5b37047a01b0bf80cee9bf8c213
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972633"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119996898"
 ---
 # <a name="best-practices-for-interactive-applications"></a>互動式應用程式的最佳作法
 
@@ -29,7 +29,7 @@ ms.locfileid: "106972633"
 
 <dl> <dt>
 
-[高效能的 Windows 通訊端應用程式](high-performance-windows-sockets-applications-2.md)
+[高效能 Windows 通訊端應用程式](high-performance-windows-sockets-applications-2.md)
 </dt> </dl>
 
  

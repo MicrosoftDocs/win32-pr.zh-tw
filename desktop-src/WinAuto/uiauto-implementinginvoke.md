@@ -15,12 +15,12 @@ keywords:
 - 介面，IInvokeProvider
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 963f8d9ccd6ea2a50557ec26a655d5c7f43c6123
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 18fbd675a9c30daf0e7b097a706dae9ff0d7767f92f7b785b3098d72ddf6f7cf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839807"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119997938"
 ---
 # <a name="invoke-control-pattern"></a>Invoke 控制項模式
 
@@ -51,9 +51,9 @@ ms.locfileid: "103839807"
 
      
 
--   叫用控制項和選擇項目不同。 但是，依據控制項而定，叫用某些控制項可能會有造成此項目受到選取的副作用。 例如，在 [我的檔] 資料夾中叫用 Microsoft Word 檔案清單專案時，會選取該專案並開啟檔。
+-   叫用控制項和選擇項目不同。 但是，依據控制項而定，叫用某些控制項可能會有造成此項目受到選取的副作用。 例如，在我的檔資料夾中叫用 Microsoft Word 檔案清單專案時，會選取該專案並開啟檔。
 -   元素可能會在叫用時立即從 Microsoft 消費者介面自動化樹狀結構中消失。 要求事件回呼所提供的項目資訊，可能會因此而失敗。 建議的解決方法是預先擷取快取的資訊。
--   控制項可以實作多個控制項模式。 例如，Microsoft Excel 工具列上的 [ **填滿色彩** ] 控制項可同時實作為 Invoke 和 [ExpandCollapse](uiauto-implementingexpandcollapse.md) 控制項模式。 ExpandCollapse 控制項模式會公開功能表 **，而叫用控制項模式** 會以選擇的色彩填滿現用選取範圍。
+-   控制項可以實作多個控制項模式。 例如，[Microsoft Excel] 工具列上的 [**填滿色彩**] 控制項會同時執行 Invoke 和 [ExpandCollapse](uiauto-implementingexpandcollapse.md)控制項模式。 ExpandCollapse 控制項模式會公開功能表 **，而叫用控制項模式** 會以選擇的色彩填滿現用選取範圍。
 
 ## <a name="required-members-for-iinvokeprovider"></a>**IInvokeProvider** 的必要成員
 

@@ -22,12 +22,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 6b3d492c140d443d14583a80985820f55ff9bec8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2fa050bd301842b9f8eeb2816420e4f09601e29a0f47cace721f2d56583f3a5b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106975110"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119981178"
 ---
 # <a name="cim_protocolendpoint-class"></a>CIM \_ ProtocolEndpoint 類別
 
@@ -889,14 +889,14 @@ MIO (38) **的**
 
 <span id="Voice_Foreign_Exchange_Office"></span><span id="voice_foreign_exchange_office"></span><span id="VOICE_FOREIGN_EXCHANGE_OFFICE"></span>
 
-**語音外部 Exchange 辦公室** (101) 
+**語音外 Exchange Office** (101) 
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Voice_Foreign_Exchange_Service"></span><span id="voice_foreign_exchange_service"></span><span id="VOICE_FOREIGN_EXCHANGE_SERVICE"></span>
 
-**語音外部交換服務** (102) 
+**語音外 Exchange 服務** (102) 
 
 
 </dt> <dd></dd> <dt>
@@ -1057,7 +1057,7 @@ MIO (38) **的**
 
 <span id="FAST_Channel"></span><span id="fast_channel"></span><span id="FAST_CHANNEL"></span>
 
-**FAST Channel** (125) 
+**FAST 通道** (125) 
 
 
 </dt> <dd></dd> <dt>
@@ -1099,7 +1099,7 @@ MIO (38) **的**
 
 <span id="Tunnel"></span><span id="tunnel"></span><span id="TUNNEL"></span>
 
-通道 **(131**) 
+**Tunnel** (131) 
 
 
 </dt> <dd></dd> <dt>
@@ -1232,7 +1232,7 @@ IP (139) 的 **多媒體郵件**
 
 <span id="MPLS_Tunnel"></span><span id="mpls_tunnel"></span><span id="MPLS_TUNNEL"></span>
 
-**MPLS** 通道 (150) 
+**MPLS Tunnel** (150) 
 
 
 </dt> <dd></dd> <dt>

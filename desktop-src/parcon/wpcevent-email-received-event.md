@@ -4,12 +4,12 @@ ms.assetid: 3b8d9bac-16b0-49e9-b360-b2d6e82f1753
 title: 'WPCEVENT_EMAIL_RECEIVED (Wpcevent 的事件) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2f14d583cadb6bc976b85953bb09ea34811a5061
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a81a51e79125403504aae2ed6e823c10044ffc35ed36ff139e8333f955338d81
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192612"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119951558"
 ---
 # <a name="wpcevent_email_received-event"></a>WPCEVENT \_ 電子郵件 \_ 收到事件
 
@@ -47,7 +47,7 @@ const EVENT_DESCRIPTOR WPCEVENT_EMAIL_RECEIVED = {0x4, 0x0, 0x10, 0x4, 0x16, 0x4
 
 </dd> <dt>
 
-*主旨* 
+*主體* 
 </dt> <dd>
 
 所接收訊息的主旨行。
@@ -109,7 +109,7 @@ const EVENT_DESCRIPTOR WPCEVENT_EMAIL_RECEIVED = {0x4, 0x0, 0x10, 0x4, 0x16, 0x4
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                             |
 | 標頭<br/>                   | <dl> <dt>Wpcevent。h</dt> </dl> |
 

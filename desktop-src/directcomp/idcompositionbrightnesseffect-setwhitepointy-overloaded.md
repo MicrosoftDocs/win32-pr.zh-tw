@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: e2c4a11d20800730f43818f2b69387418aa3151c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1657703347268e7179ddfabdc787eecb023839b308e675e3e9105c3bd7c4b4d2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106999130"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119980308"
 ---
 # <a name="idcompositionbrightnesseffectsetwhitepointy-methods"></a>idcompositionbrightnesseffect：： SetWhitePointY 方法
 

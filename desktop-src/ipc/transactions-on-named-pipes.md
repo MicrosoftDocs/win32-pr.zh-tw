@@ -4,12 +4,12 @@ ms.assetid: aedce207-7dea-4670-b6dd-0c61b3f6f690
 title: 具名管道上的交易
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 489039b92b65f57cefc71c5d78a01b1824b1418a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 524f9ae453eb958efd59d8ef6ee5adfda12dd2701e4c719be51299e2873913dd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104514068"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119963898"
 ---
 # <a name="transactions-on-named-pipes"></a>具名管道上的交易
 

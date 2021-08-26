@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d809ac640061ecf8bd51b9e2016aefe537b1ee8
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b30b4a64313952d48662a82e2f62cdef25106136e7757220668fc094c9258d4d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104509187"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120011788"
 ---
 # <a name="mrmcreateconfiginmemory-function"></a>MrmCreateConfigInMemory 函式
 
@@ -75,9 +75,9 @@ HRESULT HRESULT MrmCreateConfigInMemory(
 *outputXmlSize* \[擴展\]
 </dt> <dd>
 
-類型： **ULONG \** _
+類型： **ULONG \***
 
-ULONG 的位址。 在 _outputXmlSize * 中，此函式會傳回 *outputXmlData* 所指向之已配置記憶體的大小。
+ULONG 的位址。 在 *outputXmlSize* 中，此函式會傳回 *outputXmlData* 所指向之已配置記憶體的大小。
 
 </dd> </dl>
 
@@ -94,7 +94,7 @@ ULONG 的位址。 在 _outputXmlSize * 中，此函式會傳回 *outputXmlData*
 | 需求 | 值 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 10， \[ 僅限1803版桌面應用程式\]<br/>                                       |
-| 最低支援的伺服器<br/> | \[僅限 Windows Server desktop 應用程式\]<br/>                                                 |
+| 最低支援的伺服器<br/> | Windows\[僅限伺服器桌面應用程式\]<br/>                                                 |
 | 標頭<br/>                   | <dl> <dt>MrmResourceIndexer。h</dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>Mrmsupport .lib</dt> </dl>       |
 | DLL<br/>                      | <dl> <dt>Mrmsupport.dll</dt> </dl>       |

@@ -4,12 +4,12 @@ ms.assetid: 64d32c78-8bee-4d3c-a770-5a097cb71b13
 title: 'MFT_SUPPORT_DYNAMIC_FORMAT_CHANGE 屬性 (Mfapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d8224e9b7f0f05f430afac464e61900c7ce879fd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3286d9bfd2185006975cf128cc60f2b774eba6ba74229b3e290c743c4cde3930
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106996669"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120012608"
 ---
 # <a name="mft_support_dynamic_format_change-attribute"></a>MFT \_ 支援 \_ 動態 \_ 格式 \_ 變更屬性
 
@@ -52,8 +52,8 @@ ms.locfileid: "106996669"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows Vista \[ 桌面應用程式 \| UWP 應用程式\]<br/>                              |
-| 最低支援的伺服器<br/> | Windows Server 2008 \[ desktop app \| UWP 應用程式\]<br/>                        |
+| 最低支援的用戶端<br/> | WindowsVista \[ desktop apps \| UWP 應用程式\]<br/>                              |
+| 最低支援的伺服器<br/> | WindowsServer 2008 \[ desktop app \| UWP 應用程式\]<br/>                        |
 | 標頭<br/>                   | <dl> <dt>Mfapi。h</dt> </dl> |
 
 

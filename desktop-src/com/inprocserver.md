@@ -6,12 +6,12 @@ keywords:
 - InprocServer 登錄機碼 COM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5682693d711f734bbc60def8a711f11e2bad0ef9
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1b6cd1c7ab32733687292f01ddb48167c68243c62345fb17af3b6533a5cb454d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103932201"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120029888"
 ---
 # <a name="inprocserver"></a>InprocServer
 
@@ -21,9 +21,9 @@ ms.locfileid: "103932201"
 
 ```
 HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID
-   {CLSID}
-      InprocServer
-         (Default) = path
+   {CLSID}
+      InprocServer
+         (Default) = path
 ```
 
 ## <a name="remarks"></a>備註
@@ -39,9 +39,9 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID
 [**InprocServer32**](inprocserver32.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

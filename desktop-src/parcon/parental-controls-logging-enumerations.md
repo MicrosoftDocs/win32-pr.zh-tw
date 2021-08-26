@@ -4,12 +4,12 @@ ms.assetid: 617e103c-a24f-4576-acde-1ddec0dc7062
 title: 家長監護記錄列舉
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9a13848d7cce1e283b9e6784c64989c6c08e1cd0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 047aff3e8bca51a2eba3a1e6b9ffa3b8ab3b36133d714003fd89080f0796fb0e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106985106"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119939278"
 ---
 # <a name="parental-controls-logging-enumerations"></a>家長監護記錄列舉
 
@@ -22,7 +22,7 @@ ms.locfileid: "106985106"
 -   [**WPCFLAG \_ ISBLOCKED**](/windows/win32/api/wpcevent/ne-wpcevent-wpcflag_isblocked)
 -   [**WPCFLAG \_ 登出 \_ 類型**](/windows/win32/api/wpcevent/ne-wpcevent-wpcflag_logoff_type)
 
-在 Wpcevent 中定義的列舉，可將參數傳遞給每個事件種類的 Windows 事件記錄檔發佈 API：
+在 Wpcevent 中定義的列舉，可將參數傳遞至每個事件種類的 Windows 事件記錄檔發佈 API：
 
 -   [**WPC 的 \_ ARGS \_ CONVERSATIONINITEVENT**](/windows/win32/api/wpcevent/ne-wpcevent-wpc_args_conversationinitevent)
 -   [**WPC 的 \_ ARGS \_ CONVERSATIONJOINEVENT**](/windows/win32/api/wpcevent/ne-wpcevent-wpc_args_conversationjoinevent)

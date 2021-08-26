@@ -15,19 +15,19 @@ api_type:
 - DllExport
 api_location:
 - Winspool.drv
-ms.openlocfilehash: ab21b98036975934c00e28d0be1d5670d4c0742c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: de99b0866e8cd7ec8486d2a3f15f95194b4350008a43fe4db8ae82d970684c39
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103692915"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119950748"
 ---
 # <a name="addjob-function"></a>System.printing.printqueue.addjob 函式
 
 **System.printing.printqueue.addjob** 函式會將列印工作加入至可由列印多工緩衝處理器排程的列印工作清單。 函數會抓取您可用來儲存作業的檔案名。
 
 > [!NOTE]
-> 在 Windows 8 和更新版本的作業系統中，我們不建議您直接使用 **system.printing.printqueue.addjob** ，因為在某些情況下 (，例如使用 File：或 PORTPROMPT： ) 列印到佇列， **system.printing.printqueue.addjob** 將會失敗。 相反地，根據列印案例，建議您從 [**Windows. 列印**](/uwp/api/Windows.Graphics.Printing)命名空間使用 [GDI 列印 Api](gdi-printing.md)、 [XPS 列印 api](xps-printing.md)、 [**StartDocPrinter**](startdocprinter.md)或適當的方法。
+> 在 Windows 8 和更新版本的作業系統中，我們不建議您直接使用 **system.printing.printqueue.addjob** ，因為在某些情況下 (，例如使用 File：或 PORTPROMPT： ) 列印到佇列， **system.printing.printqueue.addjob** 將會失敗。 相反地，建議您從 Windows 使用 [GDI 列印 api](gdi-printing.md)、 [XPS 列印 api](xps-printing.md)、 [**StartDocPrinter**](startdocprinter.md)或適當的方法 [**。圖形：列印**](/uwp/api/Windows.Graphics.Printing)命名空間（視列印案例而定）。
 >
 > 如果您嘗試使用 **File：** 或 **PORTPROMPT：** 來列印至佇列， **System.printing.printqueue.addjob** 將會傳回不 \_ 支援的錯誤。
 
@@ -105,7 +105,7 @@ BOOL AddJob(
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                                |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                      |
-| 標頭<br/>                   | <dl> <dt>Winspool.drv (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>winspool.drv (包含 Windows .h) </dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>Winspool.drv .lib</dt> </dl>                   |
 | DLL<br/>                      | <dl> <dt>Winspool.drv. winspool.drv</dt> </dl>                   |
 | Unicode 與 ANSI 名稱<br/>   | **AddJobW** (Unicode) 和 **AddJobA** (ANSI) <br/>                                                   |
@@ -140,7 +140,7 @@ BOOL AddJob(
 [**StartDocPrinter**](startdocprinter.md)
 </dt> <dt>
 
-[**Windows. 列印**](/uwp/api/Windows.Graphics.Printing)
+[**Windows。圖形：列印**](/uwp/api/Windows.Graphics.Printing)
 </dt> <dt>
 
 [**WriteFile**](/windows/desktop/api/fileapi/nf-fileapi-writefile)

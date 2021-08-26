@@ -6,12 +6,12 @@ keywords:
 - 路由表管理員第2版 RRAS，註冊
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f1ce5a1b350ec5420b3fc32a4e5a68a213a61151
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 088072fac8679d9b2f87729b67a826ac850e77109f18b28fef3c2dc33c433f7b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104183431"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120028288"
 ---
 # <a name="registering-with-the-routing-table-manager"></a>向路由表管理員註冊
 
@@ -27,9 +27,9 @@ RTMv2 中使用的 [**RtmRegisterEntity**](/windows/desktop/api/Rtmv2/nf-rtmv2-r
 
 如需示範如何使用這些函數的範例程式碼，請參閱 [向路由表管理員註冊](register-with-the-routing-table-manager.md) ，並 [使用事件通知回呼](use-the-event-notification-callback.md)。
 
- 
+ 
 
- 
+ 
 
 
 

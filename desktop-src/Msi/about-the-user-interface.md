@@ -1,19 +1,19 @@
 ---
-description: Windows Installer 包含的功能，可讓安裝套件開發人員撰寫圖形化使用者介面 (GUI) ，在安裝期間對使用者顯示。
+description: Windows安裝套裝程式含的功能，可讓安裝套件開發人員撰寫圖形化使用者介面， (GUI) 在安裝期間對使用者顯示。
 ms.assetid: 58ef0043-fb30-4f64-9291-e703d7a28bb5
 title: 關於消費者介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a8639a19c5ec045d77cb90648323388d5cb6e452
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1ff4613e82bc25a0a9555904a6bab276b31e16642186401bbb5cc0caff58e973
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848997"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119996978"
 ---
 # <a name="about-the-user-interface"></a>關於消費者介面
 
-Windows Installer 包含的功能，可讓安裝套件開發人員撰寫圖形化使用者介面 (GUI) ，在安裝期間對使用者顯示。 此使用者介面可以展示 [使用者介面 wizard 的行為](user-interface-wizard-behavior.md)、顯示對話方塊和公告欄，以及在安裝期間對使用者呈現互動式控制項。
+Windows安裝套裝程式含的功能，可讓安裝套件開發人員撰寫圖形化使用者介面， (GUI) 在安裝期間對使用者顯示。 此使用者介面可以展示 [使用者介面 wizard 的行為](user-interface-wizard-behavior.md)、顯示對話方塊和公告欄，以及在安裝期間對使用者呈現互動式控制項。
 
 安裝程式內部 UI 是透過 Windows Installer 本身內的一組資料庫資料表來管理和控制。 安裝程式只會提供一組用於處理錯誤和資訊訊息的預設對話方塊。 所有自訂對話方塊都必須由封裝作者建立。
 
@@ -21,7 +21,7 @@ Windows Installer 包含的功能，可讓安裝套件開發人員撰寫圖形�
 
 安裝程式套件作者建立自訂對話方塊的方式，是將其自訂對話方塊的名稱輸入 \_ 對話方塊資料表的 "dialog" 資料行，並使用其餘的資料行來指定大小、位置和其他屬性。
 
-Windows Installer 也會執行封裝作者可放置在對話方塊上的一些標準控制項。 並非所有標準的 Microsoft Windows 控制項都可使用，而且無法建立自訂控制項以搭配安裝程式 UI 使用。
+Windows安裝程式也會執行封裝作者可放置在對話方塊上的一些標準控制項。 並非所有標準的 Microsoft Windows 控制項都可使用，而且無法建立自訂控制項以搭配安裝程式 UI 使用。
 
 您可以在特定的對話方塊上建立控制項，方法是輸入對話方塊名稱、對話方塊資料表中對話方塊專案的主鍵、控制項資料表的第二個欄位，以及使用其餘的資料行來指定控制項的大小、位置和其他屬性。
 
@@ -31,7 +31,7 @@ Windows Installer 也會執行封裝作者可放置在對話方塊上的一些�
 
 安裝期間的安裝程式 UI 會透過 UI 順序資料表來管理： [InstallUISequence 資料表](installuisequence-table.md)和 [AdminUISequence 資料表](adminuisequence-table.md)。 系統會根據起始安裝的最上層動作，執行下列其中一個順序資料表： [安裝](install-action.md)、系統 [管理員](admin-action.md)或 [公告](advertise-action.md)。
 
-如需在 Windows Installer 中執行 UI 的詳細資訊，請參閱 [使用消費者介面](using-the-user-interface.md)、 [消費者介面架構](user-interface-schema.md)，以及對話方塊和控制項的個別主題。
+如需在 Windows Installer 中執行 UI 的詳細資訊，請參閱[使用消費者介面](using-the-user-interface.md)、[消費者介面架構](user-interface-schema.md)，以及對話方塊和控制項的個別主題。
 
  
 

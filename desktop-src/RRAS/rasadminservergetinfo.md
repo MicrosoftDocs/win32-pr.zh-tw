@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 115a2421db5efbafb72d73952684ff7758c6995b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1f6f83f7310700e774692d876bda979343da80aa45ea8012bf187e50f0af67bf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106993577"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120028448"
 ---
 # <a name="rasadminservergetinfo-function"></a>RasAdminServerGetInfo 函式
 
@@ -46,7 +46,7 @@ DWORD RasAdminServerGetInfo(
 *lpszServer* \[在\]
 </dt> <dd>
 
-以 **null** 結束的 Unicode 字串指標，指定 Windows NT/WINDOWS 2000 RAS 伺服器的名稱。 如果此參數為 **Null**，則函式會傳回本機電腦的相關資訊。 \\ \\ 請以下列格式指定開頭為 "" 字元的名稱： \\ \\ *servername*。
+以 **null** 結束的 Unicode 字串指標，指定 Windows NT/Windows 2000 RAS 伺服器的名稱。 如果此參數為 **Null**，則函式會傳回本機電腦的相關資訊。 \\ \\ 請以下列格式指定開頭為 "" 字元的名稱： \\ \\ *servername*。
 
 </dd> <dt>
 

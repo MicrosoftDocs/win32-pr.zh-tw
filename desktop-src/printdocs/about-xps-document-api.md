@@ -1,19 +1,19 @@
 ---
-description: XPS 檔 API 會執行 XPS 物件模型，並可讓開發人員建立 XPS OM、操作原生 Windows 程式中的 XPS 檔內容 \\ \\ ，並將 xps om 儲存為檔案或串流作為 xps 檔。
+description: xps 檔 API 會執行 xps 物件模型，並可讓開發人員建立 xps om、操作原生 Windows 程式中的 xps 檔內容 \\ \\ ，並將 xps om 儲存為檔案或串流作為 xps 檔。
 ms.assetid: dbb48dae-1ee6-4a8b-9184-8b796755087e
 title: 關於 XPS 檔 API
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e24a93061b7f09697a987aa83be121dac42703c8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 61b2363bba55fed184b1cf80bfc81fac9474444f77c9b867b461940e6b72d8f8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106971537"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119950908"
 ---
 # <a name="about-xps-document-api"></a>關於 XPS 檔 API
 
-[Xps 檔 API](documents-xps.md)會執行 xps 物件模型，並可讓開發人員建立 xps om、操作原生 Windows 程式中的 xps 檔內容 \\ \\ ，並將 xps om 儲存為檔案或串流作為 xps 檔。 XPSDrv 篩選管線模組的開發人員也可以使用 XPS 檔 API，在 XPSDrv 印表機驅動程式篩選器中操作 XPS 檔內容。
+[xps 檔 API](documents-xps.md)會執行 xps 物件模型，並可讓開發人員建立 xps om、操作原生 Windows 程式中的 xps 檔內容 \\ \\ ，並將 xps om 儲存為檔案或串流作為 xps 檔。 XPSDrv 篩選管線模組的開發人員也可以使用 XPS 檔 API，在 XPSDrv 印表機驅動程式篩選器中操作 XPS 檔內容。
 
 ## <a name="xps-document-api-overview"></a>XPS 檔 API 總覽
 

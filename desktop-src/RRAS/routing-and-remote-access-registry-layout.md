@@ -6,12 +6,12 @@ keywords:
 - 路由及遠端存取服務 RRAS、路由及遠端存取登錄配置
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0f6ed72b569a8fe2efe1423ce2429c31cd0a0a65
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: cd3388c2a11f69a473a334105d2872872b98b17b4956f12f886e50ada89f406f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839983"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120027398"
 ---
 # <a name="routing-and-remote-access-registry-layout"></a>路由及遠端存取登錄版面配置
 
@@ -136,9 +136,9 @@ HKEY_LOCAL_MACHINE\Software\Microsoft
 
 介面索引鍵會填入從路由器設定新增至本機系統的介面。 每個介面都有相關聯的類型 (內部、專用或動態) ，以及每個路由器管理員 (IP 和 IPX 的子機碼，例如) 。
 
- 
+ 
 
- 
+ 
 
 
 

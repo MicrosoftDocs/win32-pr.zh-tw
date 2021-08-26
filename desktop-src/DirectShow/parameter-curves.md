@@ -4,12 +4,12 @@ ms.assetid: c073e7d0-c119-4c36-a5b2-b31dd6326ac8
 title: 參數曲線
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cc3c482112c8bd76217f5cbdabdf3cda13b09c3e
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 5130cf158271ffe3cb3da5e4e16b5fffa8a5a6994b14b9f8766fe20cdf1510ec
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104109512"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119997374"
 ---
 # <a name="parameter-curves"></a>參數曲線
 

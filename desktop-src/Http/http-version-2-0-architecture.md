@@ -4,12 +4,12 @@ description: 伺服器會話、要求佇列和 URL 群組設定物件可讓應�
 ms.assetid: 05a2d689-fd10-4065-85fc-2057bee42fbc
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3bc7a07cb5e0439ed82421dd413aee3b6688bc0f
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 1b3905a27708c87c43e141dd4cf8d84b2f0e7e66bc4dd189440733321ee951a7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104383645"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119997101"
 ---
 # <a name="architecture-http-server-api"></a> (HTTP 伺服器 API) 的架構
 
@@ -37,7 +37,7 @@ HTTP 伺服器版本 2.0 API 的命名要求佇列功能，可讓多個背景工
 
 
 
-| Name           | 屬性                                                                                                                                                                                                                                                                      |
+| 名稱           | 屬性                                                                                                                                                                                                                                                                      |
 |----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 伺服器會話 | HttpServerStateProperty<br/> HttpServerLoggingProperty<br/> HttpServerBandwidthProperty<br/> HttpServerTimeoutsProperty<br/> HttpServerAuthenticatonProperty<br/>                                                                               |
 | URL 群組      | HttpServerStateProperty<br/> HttpServerAuthenticatonProperty<br/> HttpServerLoggingProperty<br/> HttpServerConnectionsProperty<br/> HttpServerBandwidthProperty<br/> HttpServerBindingProperty<br/> HttpServerTimeoutsProperty<br/> |
