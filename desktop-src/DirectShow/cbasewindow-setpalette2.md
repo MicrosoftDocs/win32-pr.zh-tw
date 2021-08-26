@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 1203b6aeedd39eb82d7188c4e5d5503b01d167fe
-ms.sourcegitcommit: 168d11879cb9fd89d26f826482725c0a626be00f
+ms.openlocfilehash: f15df65f6e427e467c14654a0e2745b84d774a5226b9a526193fc546261c5a0f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "104196474"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120052148"
 ---
 # <a name="cbasewindowsetpalette-method-winutilh---no-parameters"></a>CBaseWindow. SetPalette 方法 (Winutil .h) -沒有參數
 
@@ -46,7 +46,7 @@ HRESULT SetPalette();
 
 
 
-| 傳回碼                                                                             | Description                                                    |
+| 傳回碼                                                                             | 描述                                                    |
 |-----------------------------------------------------------------------------------------|----------------------------------------------------------------|
 | <dl> <dt>**S \_ FALSE**</dt> </dl> | **GdiFlush** 的內部呼叫傳回錯誤。<br/> |
 | <dl> <dt>**S \_ 確定**</dt> </dl>    | 成功。<br/>                                            |

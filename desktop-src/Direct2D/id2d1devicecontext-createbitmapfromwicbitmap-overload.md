@@ -12,12 +12,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
 api_location: ''
-ms.openlocfilehash: 0d96b08bad3eb2396cb1cc93f04f4852fb405b11
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: dacc7d16e55c033141c8268ce771591c6b2b6f48be3314a16cff32bd602a0028
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104375520"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120044348"
 ---
 # <a name="id2d1devicecontextcreatebitmapfromwicbitmap-methods"></a>ID2D1DeviceCoNtext：： CreateBitmapFromWicBitmap 方法
 

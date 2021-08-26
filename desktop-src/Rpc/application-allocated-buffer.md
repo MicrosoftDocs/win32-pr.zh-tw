@@ -4,12 +4,12 @@ description: ACF 屬性 \ 位元組 \_ 計數 \ 會將存根導向至用戶端�
 ms.assetid: 1b370f74-394e-4e57-9749-83334be50f28
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: db533495f16d37aca0bdae96035783650573a60f
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 9bb87390637cba57cbdf4021a43f4ec98ea64c3828c67dfdb615ffcd62dc8c16
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104463544"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120024178"
 ---
 # <a name="application-allocated-buffer"></a>Application-Allocated 緩衝區
 
@@ -40,6 +40,6 @@ SortNames([byte_count(cBytes)] pRoot);
 
 從這些 IDL 和 ACF 檔產生的用戶端 stub 不會配置或釋放此緩衝區的記憶體。 伺服器 stub 會使用提供的大小參數，在單一呼叫中配置和釋出緩衝區。 如果資料太大而無法使用指定的緩衝區大小，則會引發例外狀況。
 
- 
+ 
 
- 
+ 

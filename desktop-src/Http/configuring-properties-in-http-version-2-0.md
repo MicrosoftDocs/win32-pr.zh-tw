@@ -4,12 +4,12 @@ description: 設定屬性
 ms.assetid: 9d659887-a696-4344-9c71-a2cc6131d8b1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f898467f92f669596b4a8b1a4e68581c343ea883
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 681d5707840634f86da41d3e67a1014e93b8450c668cae9ea6f3129a0fe021f6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372163"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120047450"
 ---
 # <a name="configuring-properties"></a>設定屬性
 
@@ -37,7 +37,7 @@ HTTP 伺服器版本 2.0 API 可讓應用程式手動設定要求佇列、伺服
 
 
 
- 
+ 
 
 伺服器會話屬性是在 [HTTP \_ 伺服器 \_ 屬性](/windows/desktop/api/Http/ne-http-http_server_property) 列舉中定義。 下表列出當應用程式未設定這些屬性時，針對每個屬性類型所設定的屬性結構，以及 HTTP 伺服器 API 預設值。
 
@@ -51,13 +51,13 @@ HTTP 伺服器版本 2.0 API 可讓應用程式手動設定要求佇列、伺服
 | HttpServerTimeoutsProperty                                  | [**HTTP \_ 超時 \_ 限制 \_ 資訊**](/windows/desktop/api/Http/ns-http-http_timeout_limit_info)                 | 120秒。                   |
 | HttpServerQosProperty->HttpQosSettingTypeBandwidth       | [**HTTP \_ 頻寬 \_ 限制 \_ 資訊**](/windows/desktop/api/Http/ns-http-http_bandwidth_limit_info)             | 沒有限制                   |
 | HttpServerQueueLengthProperty                               | ULONG                                                                         | 1000                       |
-| HttpServerStateProperty                                     | [**HTTP \_ 狀態 \_ 資訊**](/windows/desktop/api/Http/ns-http-http_state_info)                                  | 已啟用                    |
+| HttpServerStateProperty                                     | [**HTTP \_ 狀態 \_ 資訊**](/windows/desktop/api/Http/ns-http-http_state_info)                                  | 啟用                    |
 | HttpServer503VerbosityProperty                              | [**HTTP \_ 503 \_ 回應 \_ 詳細資訊**](/windows/desktop/api/Http/ne-http-http_503_response_verbosity)         | HttpResponseVerbosityBasic |
 | HttpServerBindingProperty                                   | [**HTTP 系結 \_ \_ 資訊**](/windows/desktop/api/Http/ns-http-http_binding_info)                              | 無                       |
 
 
 
- 
+ 
 
 下表列出 HTTP 伺服器 API 設定的最小值和最大值。
 
@@ -70,11 +70,11 @@ HTTP 伺服器版本 2.0 API 可讓應用程式手動設定要求佇列、伺服
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

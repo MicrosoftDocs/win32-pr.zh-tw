@@ -4,12 +4,12 @@ ms.assetid: e42bb993-7079-4d5b-bb2e-c958e99e705e
 title: RegisterComPlus 動作
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fb824d67e776a99f8cd05c56f73f171f436c71d1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 046d1f40293888d3a1be48a3c55fd5082b6073828c8d5cc7d34c464556986d4f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104115501"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120082638"
 ---
 # <a name="registercomplus-action"></a>RegisterComPlus 動作
 
@@ -41,7 +41,7 @@ RegisterComPlus 動作必須遵循 [InstallFiles 動作](installfiles-action.md)
 [UnregisterComPlus 動作](unregistercomplus-action.md)
 </dt> <dt>
 
-[安裝具有 Windows Installer 的 COM + 應用程式](installing-a-com--application-with-the-windows-installer.md)
+[安裝具有 Windows Installer 的 com + 應用程式](installing-a-com--application-with-the-windows-installer.md)
 </dt> </dl>
 
  

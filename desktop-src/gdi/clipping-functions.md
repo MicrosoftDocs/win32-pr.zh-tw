@@ -4,12 +4,12 @@ ms.assetid: de9e5786-63d8-47be-8522-e96d7c0f8634
 title: 裁剪函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6bf202d5ba102095c6bfddb3c3928cab1e55a230
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: 8c7e3ec1c57713a87e5367ed28427caaab663e0bcd1abfe83c4040e04a7e6d75
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972756"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120115328"
 ---
 # <a name="clipping-functions"></a>裁剪函式
 

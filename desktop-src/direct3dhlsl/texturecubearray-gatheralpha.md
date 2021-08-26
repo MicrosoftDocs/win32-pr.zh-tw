@@ -12,12 +12,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
 api_location: ''
-ms.openlocfilehash: 4d2c24bed5e73f7d4e1b9588f9baef5bf4a74fe6
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 6d72c5954f0d54bb05406cfa2c9ef3e7e2ddca797aa870643473815308da0b0d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104974172"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120022508"
 ---
 # <a name="texturecubearraygatheralpha-methods"></a>TextureCubeArray：： GatherAlpha 方法
 

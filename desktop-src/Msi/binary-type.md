@@ -4,18 +4,18 @@ ms.assetid: b6a25100-9f3e-4207-b56f-0c27ee16f188
 title: 二進位類型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fda0711b53f865bbd844514ed2429d97d91e07a3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8412d63891f3028c1ef2beb8fa0e6a17c4a35c33df182cbd9f1059a593c50915
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104513233"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120105368"
 ---
 # <a name="binary-type"></a>二進位類型
 
 [語義類型](semantic-types.md)的二進位類型是其中一種[主要格式類型](key-format-types.md)。 此類型是由使用者提供的 [二進位資料表](binary-table.md) 中的索引鍵所組成。
 
-合併工具必須將有效的 Windows Installer [識別碼](identifier.md) 取代為此類型的專案。 Mergemod.dll 不會強制執行這項限制，而是由「合併」工具組成，以確保使用者在二進位資料表中提供有效的金鑰。
+合併工具必須將有效的 Windows Installer[識別碼](identifier.md)取代為此類型的專案。 Mergemod.dll 不會強制執行這項限制，而是由「合併」工具組成，以確保使用者在二進位資料表中提供有效的金鑰。
 
 除非 msmConfigItemNonNullable 已包含在 [ModuleConfiguration 資料表](moduleconfiguration-table.md)的 [屬性] 欄位中，否則 Null 對此型別是有效的值。
 

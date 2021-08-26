@@ -4,12 +4,12 @@ ms.assetid: b788f66d-43e0-4300-b546-b6a710bee7e8
 title: XMUDECN4 延伸模組
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e3c6b5ad608ab38afe178badadd0d7dc00cf8560
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7575e9a3f145fa81baa8eb3c83f18a6a06639948a3065afa4e78c2b48970e88c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114505"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120117598"
 ---
 # <a name="xmudecn4-extensions"></a>XMUDECN4 延伸模組
 

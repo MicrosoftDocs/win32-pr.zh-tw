@@ -4,12 +4,12 @@ ms.assetid: 6ab8f3b7-19e9-46f3-b09e-36bdb43d6f55
 title: ICE69
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 95bd00efc6b141bfa872470adcc9e88a63a2c52d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 183a62989ff39387639af1a9e1feeeddc3e0567f28915ca3857ba6dd5f58f68c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194398"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120043938"
 ---
 # <a name="ice69"></a>ICE69
 
@@ -53,7 +53,7 @@ ERROR: "Mismatched component reference. Entry 'Shortcut2' of the Shortcut table 
 
 
 
-| 分機 | 動詞\_ | 引數                |
+| 延伸模組 | 動詞命令\_ | 引數                |
 |-----------|--------|-------------------------|
 | Tst       | 開啟   | -v \[ $comp 1 \] \[ $comp 2\] |
 
@@ -65,7 +65,7 @@ ERROR: "Mismatched component reference. Entry 'Shortcut2' of the Shortcut table 
 
 
 
-| 分機 | 元件\_ |
+| 延伸模組 | 元件\_ |
 |-----------|-------------|
 | Tst       | comp1       |
 | Tst       | comp2       |
@@ -78,7 +78,7 @@ ERROR: "Mismatched component reference. Entry 'Shortcut2' of the Shortcut table 
 
 
 
-| 功能\_ | 元件\_ |
+| 特徵\_ | 元件\_ |
 |-----------|-------------|
 | Feature1  | QuickTest   |
 | Feature1  | 測試        |
@@ -110,9 +110,9 @@ ERROR: "Mismatched component reference. Entry 'Shortcut2' of the Shortcut table 
 
 [快速鍵](shortcut-table.md)
 
-[動詞](verb-table.md)
+[動詞命令](verb-table.md)
 
-[分機](extension-table.md)
+[延伸模組](extension-table.md)
 
 [類別](class-table.md)
 

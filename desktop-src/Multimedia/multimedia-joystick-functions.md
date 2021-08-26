@@ -3,7 +3,7 @@ title: 多媒體搖桿函數
 description: 多媒體搖桿函數
 ms.assetid: 84e47ac3-b40f-48bc-8f59-cc678d7d521e
 keywords:
-- Windows 多媒體，搖桿功能
+- Windows 多媒體、搖桿函數
 - 多媒體、搖桿功能
 - 多媒體輸入、搖桿功能
 - 操縱杆，函數
@@ -11,12 +11,12 @@ keywords:
 - 搖桿參考，函數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ce0a8ac3013a6f8f0f5e409a6886ea1bfe773fd
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 10598942f0ddae03e0ae17b788a5575d93dbfd23e6461c6e946f61e6a150aae0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104463080"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120038708"
 ---
 # <a name="multimedia-joystick-functions"></a>多媒體搖桿函數
 
@@ -39,6 +39,6 @@ ms.locfileid: "104463080"
 [搖桿參考](joystick-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -4,27 +4,27 @@ description: 'HRef 屬性 (圖形)  (VML) '
 ms.assetid: c44b3099-df3f-42e5-ad0c-10400630e884
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8ecbc0f97ca2fb9c1565b712d3677d007a62b035
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: dfe4b545aa27d311b0e1d0c73f0107aa6fdb357d524d3150ce6ab7dfb1e0f009
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104024002"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120072038"
 ---
 # <a name="href-attribute-shapevml"></a>HRef 屬性 (圖形)  (VML) 
 
 本主題說明 VML，這是 Windows Internet Explorer 9 淘汰的功能。 依賴 VML 的網頁和應用程式應該遷移至 SVG 或其他廣泛支援的標準。
 
 > [!Note]  
-> 從2011年12月起，本主題已封存。 因此，它不會再主動維護。 如需詳細資訊，請參閱封存的 [內容](/previous-versions/windows/internet-explorer/ie-developer/)。 如需目前 Windows Internet Explorer 版本的相關資訊、建議和指引，請參閱 [Internet Explorer 開發人員中心](https://msdn.microsoft.com/ie/)。
+> 從2011年12月起，本主題已封存。 因此，它不會再主動維護。 如需詳細資訊，請參閱封存的 [內容](/previous-versions/windows/internet-explorer/ie-developer/)。 如需有關 Windows Internet Explorer 目前版本的資訊、建議和指引，請參閱[Internet Explorer 開發人員中心](https://msdn.microsoft.com/ie/)。
 
- 
+ 
 
 定義圖形的 URL。 按一下圖形時，瀏覽器會載入 URL。 讀取/寫入 **字串**。
 
 **適用於**
 
-[形狀](shape-element--vml.md)
+[圖形](shape-element--vml.md)
 
 **標記語法**
 
@@ -61,6 +61,6 @@ ms.locfileid: "104024002"
 
 [HRef 屬性範例](/previous-versions/bb229672(v=vs.85))。  (需要 Microsoft Internet Explorer 5 或更高版本。 ) 
 
- 
+ 
 
- 
+ 

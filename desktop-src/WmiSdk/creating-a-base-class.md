@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 建立 WMI 基類
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ebdcbe6995a7782d854a4d0950db841f23a30b45
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4780279f00eea403b330400c490da75adfa097406796cd0b14f15f9861411bfa
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103945113"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120071508"
 ---
 # <a name="creating-a-wmi-base-class"></a>建立 WMI 基類
 

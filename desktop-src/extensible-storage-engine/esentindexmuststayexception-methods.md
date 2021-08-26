@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101764
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 3f8ad351d8208a0a7144ce70ad5b291ec91d0e99
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 76e387c63ea06cc046d9ffb90f237efc97030e261c98f7a2e6cab61934e0212d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104571527"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120020410"
 ---
 # <a name="esentindexmuststayexception-methods"></a>EsentIndexMustStayException 方法
 

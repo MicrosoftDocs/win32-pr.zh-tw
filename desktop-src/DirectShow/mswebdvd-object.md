@@ -4,26 +4,26 @@ ms.assetid: 74187af4-a86d-4dec-a1f4-203fda0c6309
 title: MSWebDVD 物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ea98f79c3f0f4b97534ef812e70e5a7417759e25
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: b3a5f485dc56938f7a0d36d9eedec92b3cb5dd47ca216fdc68cac085634e5906
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104510177"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120050928"
 ---
 # <a name="mswebdvd-object"></a>MSWebDVD 物件
 
 > [!Note]  
-> 此元件可用於 Microsoft Windows 2000、Windows XP 及 Windows Server 2003 作業系統。 它在後續版本中可能會變更或無法使用。
+> 此元件可在 Microsoft Windows 2000、Windows XP 和 Windows Server 2003 作業系統中使用。 它在後續版本中可能會變更或無法使用。
 
  
 
 > [!Note]  
-> 此 API 即將淘汰。 如需有關在 DirectShow 播放和流覽 DVD 的詳細資訊，請參閱 [Dvd 應用程式](dvd-applications.md)。
+> 此 API 即將淘汰。 如需 DirectShow dvd 播放和流覽的相關資訊，請參閱[dvd 應用程式](dvd-applications.md)。
 
  
 
-MSWebDVD 物件的方法、屬性和事件可讓應用程式控制 DVD-Video 流覽和播放的所有層面，以及從光碟取出資訊。MSWebDVD 物件不會執行實際的流覽工作;相反地，它會將命令傳遞至 [DVD](dvd-navigator-filter.md) 導覽器篩選器，這是可讀取 DVD-Video 光碟的 Microsoft® DirectShow®元件。
+MSWebDVD 物件的方法、屬性和事件可讓應用程式控制 DVD-Video 流覽和播放的所有層面，以及從光碟取出資訊。MSWebDVD 物件不會執行實際的流覽工作;相反地，它會將命令傳遞至[DVD](dvd-navigator-filter.md)導覽器篩選器，這是一種讀取 DVD-Video 光碟的 Microsoft® DirectShow®元件。
 
 MSWebDVD 方法和屬性會作用於 DVD 導覽器的目前狀態或光碟上的資訊，或兩者。 若要在登錄中儲存和取出各種類型的應用程式特定資訊，例如家長監護和 default language 的使用者喜好設定，請使用 [MSDVDAdm](msdvdadm-object.md) 物件的方法。 您可以使用 [**DVDAdm**](dvdadm-property.md) 屬性來存取這個物件。
 
@@ -99,7 +99,7 @@ MSWebDVD 方法和屬性會作用於 DVD 導覽器的目前狀態或光碟上的
 | 影片矩形                                                                   |                                                                                                                                                                                             |
 | [**AspectRatio**](aspectratio-property.md)                                       | 抓取目前影片資料流程的外觀比例，如光碟上所撰寫。                                                                                                             |
 | [**顏色**](backcolor-property.md)                                           | 當原生影片的長寬比與物件的顯示區域不同時，設定或抓取在影片矩形邊緣周圍出現的橫條色彩。 |
-| [**捕獲**](capture-method.md)                                                 | 當 MSWebDVD 物件處於無視窗模式時，從影片框架捕捉靜止影像。                                                                                                 |
+| [**擷取**](capture-method.md)                                                 | 當 MSWebDVD 物件處於無視窗模式時，從影片框架捕捉靜止影像。                                                                                                 |
 | [**FullScreenMode**](fullscreenmode-property.md)                                 | 設定或抓取值，指出顯示器是否處於全螢幕模式。                                                                                                            |
 | [**GetClipVideoRect**](getclipvideorect-method.md)                               | 抓取為影片顯示所定義的裁剪矩形。                                                                                                                             |
 | [**GetVideoSize**](getvideosize-method.md)                                       | 抓取原生影片維度。                                                                                                                                                      |
@@ -153,7 +153,7 @@ MSWebDVD 方法和屬性會作用於 DVD 導覽器的目前狀態或光碟上的
 | [**PlayState**](playstate-property.md)                                           | 抓取目前的播放狀態。                                                                                                                                                           |
 | [**ReadyState**](readystate-property.md)                                         | 捕獲 MSWebDVD 物件的 ReadyState。                                                                                                                                            |
 | [**RegionChange**](regionchange-method.md)                                       | 顯示 [系統] 對話方塊，可讓使用者變更與 DVD 光碟機相關聯的區域。                                                                                      |
-| [**轉譯**](render-method.md)                                                   | 初始化 DVD 篩選圖形。                                                                                                                                                           |
+| [**呈現**](render-method.md)                                                   | 初始化 DVD 篩選圖形。                                                                                                                                                           |
 | [**WindowlessActivation**](windowlessactivation-property.md)                     | 在設計階段為視窗化或無視窗模式初始化 MSWebDVD 物件。                                                                                                      |
 | 書籤                                                                         |                                                                                                                                                                                             |
 | [**DeleteBookmark**](deletebookmark-method.md)                                   | 刪除目前的書簽。                                                                                                                                                               |
@@ -164,7 +164,7 @@ MSWebDVD 方法和屬性會作用於 DVD 導覽器的目前狀態或光碟上的
 | [**GetDelayTime**](getdelaytime-method.md)                                       | 捕獲與 MSWebDVD 物件相關聯的工具提示延遲時間。                                                                                                               |
 | [**SetDelayTime**](setdelaytime.md)                                              | 設定與 MSWebDVD 物件相關聯的工具提示延遲時間。                                                                                                                    |
 | [**ShowCursor**](showcursor-method.md)                                           | 當 DVD 導覽器處於全螢幕模式時，讓滑鼠指標變成可見。                                                                                                              |
-| [**ToolTip**](tooltip-property.md)                                               | 設定當滑鼠指標停留在 MSWebDVD 的影片矩形上時，將出現的工具提示文字。                                                                                 |
+| [**提示**](tooltip-property.md)                                               | 設定當滑鼠指標停留在 MSWebDVD 的影片矩形上時，將出現的工具提示文字。                                                                                 |
 | [**ToolTipMaxWidth**](tooltipmaxwidth-property.md)                               | 設定或抓取與 MSWebDVD 物件相關聯之工具提示的最大寬度。                                                                                                    |
 | GPRMs 和 SPRMs                                                                   |                                                                                                                                                                                             |
 | [**GetGPRM**](getgprm-method.md)                                                 | 抓取指定的一般參數暫存器。                                                                                                                                         |

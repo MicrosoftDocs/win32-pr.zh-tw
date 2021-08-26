@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 8c966296c79a3215eb5b66c8825bb17d19854bd1
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: f9530594fb72c2186c1e69356e398fe94985f753a50404939b5d1d9367c720ff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108111606"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120046518"
 ---
 # <a name="reset-method-of-the-msvm_memory-class"></a>Msvm Memory 類別的 Reset 方法 \_
 

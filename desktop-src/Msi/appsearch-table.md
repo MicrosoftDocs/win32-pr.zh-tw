@@ -1,19 +1,19 @@
 ---
-description: AppSearch 資料表包含搜尋具有特定檔案簽章的檔案時所需的屬性。 AppSearch 資料表也可以用來將屬性設為登錄或 .ini 檔案專案的現有值。
+description: AppSearch 資料表包含搜尋具有特定檔案簽章的檔案時所需的屬性。 AppSearch 資料表也可以用來將屬性設定為登錄或 .ini 檔案專案的現有值。
 ms.assetid: d560096f-6baa-4fea-8786-f4e3d5ee6bf4
 title: AppSearch 資料表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a9419a768a51364b4f22444288e6728a87289aa0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 450ab07a397366ca01e664b88321942e4f6a7800cd9e04c4d0cbbe048eed8b87
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192461"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120045648"
 ---
 # <a name="appsearch-table"></a>AppSearch 資料表
 
-AppSearch 資料表包含搜尋具有特定檔案簽章的檔案時所需的屬性。 AppSearch 資料表也可以用來將屬性設為登錄或 .ini 檔案專案的現有值。
+AppSearch 資料表包含搜尋具有特定檔案簽章的檔案時所需的屬性。 AppSearch 資料表也可以用來將屬性設定為登錄或 .ini 檔案專案的現有值。
 
 AppSearch 資料表具有下列資料行。
 

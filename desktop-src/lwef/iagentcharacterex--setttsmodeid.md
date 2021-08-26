@@ -4,16 +4,16 @@ description: IAgentCharacterEx SetTTSModeID
 ms.assetid: 66ed792a-1693-45dc-b9a8-eebe772c5af9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 34392e65fcb8f3a46db6251f01f59ad76aba278d
-ms.sourcegitcommit: 3e70ae762629e244028b437420ed50b5850db4e3
+ms.openlocfilehash: a24195fd177abbde3c6423f966df67ba0faeaf315038d7f8cb0b4ca136f16c3c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "104374658"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120114718"
 ---
 # <a name="iagentcharacterexsetttsmodeid"></a>IAgentCharacterEx::SetTTSModeID
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 ``` syntax
 HRESULT SetTTSModeID(
@@ -35,7 +35,7 @@ HRESULT SetTTSModeID(
 > [!Note]  
 > **IAgentCharacterEx：** 如果未安裝 Speech.dll，且您指定的引擎不符合字元的編譯 TTS 模式設定，SetTTSModeID 可能會失敗。
 
- 
+ 
 
 </dd> </dl>
 
@@ -54,9 +54,9 @@ Microsoft 代理程式的語音引擎需求是以 Microsoft 語音 API 為基礎
 [**IAgentCharacterEx:GetTTSModeID**](iagentcharacterex--getttsmodeid.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

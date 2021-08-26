@@ -4,12 +4,12 @@ ms.assetid: a3b8bff2-8593-483c-af49-a975ab2dc330
 title: 時間軸
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6e6ac73b84409629f63ad4be469edf6b943f9e64
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1f298c2649a280bf5fd622d5fb5a2aef820d1f340d45f7e2beb83fe9edd6a402
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106985146"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120049998"
 ---
 # <a name="the-timeline"></a>時間軸
 
@@ -26,7 +26,7 @@ hr = CoCreateInstance(CLSID_AMTimeline, NULL, CLSCTX_INPROC_SERVER,
 
 
 
-新的時間軸是空的。 此時您可以載入現有的專案檔 (查看 [載入和預覽專案](loading-and-previewing-a-project.md)) ，或建立新的物件來建立時間軸， (參閱 [建立時間軸](constructing-a-timeline.md)) 。
+新的時間軸是空的。 此時您可以載入現有的專案檔 (查看[載入和預覽 Project](loading-and-previewing-a-project.md)) ，或建立和插入新的物件來建立時間軸 (查看[建立時間軸](constructing-a-timeline.md)) 。
 
 ## <a name="related-topics"></a>相關主題
 

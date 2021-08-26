@@ -4,12 +4,12 @@ ms.assetid: 68172566-586C-41AC-82B8-5DBE8B50EC8F
 title: 筆跡展示者介面
 ms.topic: article
 ms.date: 02/03/2020
-ms.openlocfilehash: 1839c8ebc0a7597ab7c5becaf7c7492128b4d6af
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0c1fb4cab0b8387dec7c75087a72719f72fbc85dc2776a5e20fc6d638fb02d95
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106981166"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120092388"
 ---
 # <a name="ink-presenter-interfaces"></a>筆跡展示者介面
 

@@ -7,12 +7,12 @@ keywords:
 - 遷移64位 Windows 程式設計
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7a84a5f5f58f2cab7555ce3401ed6fae0af240f4
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: 55d12e7c5566b5cb2b934eefb71b1b51858f278d3e408d3080cb1810f185dcfb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "104316804"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120071638"
 ---
 # <a name="common-compiler-errors"></a>常見的編譯器錯誤
 
@@ -107,7 +107,7 @@ typedef struct __CONFIGURATION_COMPONENT {
 } CONFIGURATION_COMPONENT, * POINTER_32 PCONFIGURATION_COMPONENT;
 ```
 
-PCONFIGURATION 元件的型別定義 \_ 會在32位和64位模型中提供32位指標，因為它是宣告的 **指標 \_ 32**。 此結構的原始設計工具知道它即將用於 BIOS 中的32位內容，並明確地加以定義以供使用。 這段程式碼在32位視窗中運作正常，因為指標會是32位。 在64位的 Windows 中，它無法運作，因為程式碼是在64位內容中。
+PCONFIGURATION 元件的型別定義 \_ 會在32位和64位模型中提供32位指標，因為它是宣告的 **指標 \_ 32**。 此結構的原始設計工具知道它即將用於 BIOS 中的32位內容，並明確地加以定義以供使用。 這段程式碼在32位 Windows 中運作正常，因為指標會是32位。 在64位 Windows 中，它無法運作，因為程式碼是在64位內容中。
 
 </dd> <dt>
 
@@ -259,7 +259,7 @@ return ComPortAddress;
 }
 ```
 
-**PULONG \_PTR** 是適用于32位 windows 和64位（適用于64位 windows）本身32位的指標。 它會指向不帶正負號的整數（ **ULONG \_ PTR**），也就是32位 windows 的32位和64位 windows 的64位。
+**PULONG \_PTR** 是一個指標，它本身是32位 Windows 的32位和64位 Windows 的64位。 它會指向不帶正負號的整數（ **ULONG \_ PTR**），也就是32位 Windows 的32位和64位 Windows 的64位。
 
 </dd> </dl>
 

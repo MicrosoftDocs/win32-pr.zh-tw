@@ -4,12 +4,12 @@ ms.assetid: 025447f4-98d0-4cb8-b546-4797b7e60722
 title: 支援的延伸模組
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bd55886b03cdea5783f918182c84382910510918
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0362bc289e8f0631520a7d9d56ff4bed1af2c698c721db703b27b0ecee5a1629
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103690759"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120101107"
 ---
 # <a name="supported-extensions"></a>支援的延伸模組
 
@@ -33,7 +33,7 @@ ms.locfileid: "103690759"
 
 ## <a name="authoritykeyidentifier"></a>AuthorityKeyIdentifier
 
-授權單位金鑰識別碼延伸可以識別對應至簽署已發行憑證之 CA 私密金鑰的 CA 公開金鑰。 它是由 Windows server 上的憑證路徑建立軟體用來尋找 CA 憑證。 當 CA 發出憑證時，會將擴充值設定為等於 CA 簽署憑證中的 **SubjectKeyIdentifier** 延伸模組。 此值通常是公開金鑰的 SHA-1 雜湊。
+授權單位金鑰識別碼延伸可以識別對應至簽署已發行憑證之 CA 私密金鑰的 CA 公開金鑰。 它是由 Windows 伺服器上的憑證路徑建立軟體用來尋找 CA 憑證。 當 CA 發出憑證時，會將擴充值設定為等於 CA 簽署憑證中的 **SubjectKeyIdentifier** 延伸模組。 此值通常是公開金鑰的 SHA-1 雜湊。
 
 **介面：** [ **IX509ExtensionAuthorityKeyIdentifier**](/windows/desktop/api/CertEnroll/nn-certenroll-ix509extensionauthoritykeyidentifier)
 

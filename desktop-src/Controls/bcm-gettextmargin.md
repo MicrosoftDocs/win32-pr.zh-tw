@@ -3,7 +3,7 @@ title: 'BCM_GETTEXTMARGIN 訊息 (Commctrl .h) '
 description: 取得用來在按鈕控制項中繪製文字的邊界。 您可以明確地傳送此訊息，或使用按鈕 \_ GetTextMargin 宏。
 ms.assetid: 6c141752-e636-41c4-9d05-df8b320ff59f
 keywords:
-- BCM_GETTEXTMARGIN message Windows 控制項
+- BCM_GETTEXTMARGIN 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d6a7d809207c21c74a36c796a9035ed0e3772481
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2ea871d0054558e1522011d4fdb00fdd3c82a0dd1562fe3420d3295bbab89a01
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934277"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120064408"
 ---
 # <a name="bcm_gettextmargin-message"></a>BCM \_ GETTEXTMARGIN 訊息
 
@@ -60,8 +60,8 @@ ms.locfileid: "103934277"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

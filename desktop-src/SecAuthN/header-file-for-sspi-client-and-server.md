@@ -4,12 +4,12 @@ ms.assetid: 358c2cd6-674b-4d70-9657-800b0d1b2fe7
 title: SSPI 用戶端和伺服器的標頭檔
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 75f2702186f7a0a9def4405890f39f588dbbfa84
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6ba76283b2686ecde8a6e453c5c376f8589a78dccf9e740b381f89fc5ef4db21
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104386190"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120101278"
 ---
 # <a name="header-file-for-sspi-client-and-server"></a>SSPI 用戶端和伺服器的標頭檔
 

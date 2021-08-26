@@ -10,12 +10,12 @@ keywords:
 - MM_WOM_DONE 訊息
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 73e909777c115b6b10500e081a08bde6cfe24b00
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c6aca93f23ed74a4a4974633d8345f2e897535e156ccc03f46eb0da92a2d2fdf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104462212"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120037858"
 ---
 # <a name="processing-the-mm_wom_done-message"></a>處理 MM \_ WOM \_ 完成訊息
 
@@ -47,9 +47,9 @@ switch (msg)
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ description: 將遠端程序呼叫中的管道和 nonpipe 參數結合 (RPC) 。
 ms.assetid: 52109ba9-4e10-4426-8dfc-e3052d403e9a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0776f995dacb4d477724b0ee1e5c2fa969723199
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: ac76bc2f334325c87cbf8c4a09898cf0fe54153cd84f6f2809995e66cc08e843
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103842587"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120022668"
 ---
 # <a name="combining-pipe-and-nonpipe-parameters"></a>結合管道和 Nonpipe 參數
 
@@ -31,6 +31,6 @@ ms.locfileid: "103842587"
 [/Oi](/windows/desktop/Midl/-oi)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

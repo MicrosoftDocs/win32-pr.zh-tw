@@ -4,12 +4,12 @@ ms.assetid: 8a812860-338b-4ada-8f5f-ea693e038941
 title: 感應器資料包表物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 41d43753aa28be5cd20c85b7e65bf4c7516d4c90
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7ca1a8e5f61b23753437bd8b1cf4c2a176515b7042b21e84c4d2f431debc8fe6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944615"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119992598"
 ---
 # <a name="the-sensor-data-report-object"></a>感應器資料包表物件
 

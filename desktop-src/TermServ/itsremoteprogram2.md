@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8f57e78d5027d1825f9e1601eb1f36efb94d37a0
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 06f5f6769cb764691966d13e0f6d4b4b48f17684c4013b6d6a0d333885aad3c9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934969"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120072278"
 ---
 # <a name="itsremoteprogram2-interface"></a>ITSRemoteProgram2 介面
 
@@ -39,7 +39,7 @@ ms.locfileid: "103934969"
 
 
 
-| 屬性                                                                                  | 存取類型           | Description                                                 |
+| 屬性                                                                                  | 存取類型           | 描述                                                 |
 |:------------------------------------------------------------------------------------------|:----------------------|:------------------------------------------------------------|
 | [**RemoteApplicationArgs**](itsremoteprogram2-remoteapplicationargs.md)<br/>       | 唯寫<br/> | RemoteApp 的命令列引數。<br/>    |
 | [**RemoteApplicationName**](itsremoteprogram2-remoteapplicationname.md)<br/>       | 唯寫<br/> | RemoteApp 的名稱。<br/>                       |

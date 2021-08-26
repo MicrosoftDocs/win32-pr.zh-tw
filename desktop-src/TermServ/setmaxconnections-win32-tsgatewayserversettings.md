@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c7e8a2fa18491232a058913fd338bb871b0a98aa
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1e241b137f2a3a061be06538b934c163ea6445ff177fecf9aaf4dc7db5367990
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106967742"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120009041"
 ---
 # <a name="setmaxconnections-method-of-the-win32_tsgatewayserversettings-class"></a>Win32 TSGatewayServerSettings 類別的 SetMaxConnections 方法 \_
 

@@ -4,12 +4,12 @@ ms.assetid: adc3ac3e-0a47-4b5c-b9ea-50bc4cde9547
 title: 使用目錄管理
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f594ef487362c6b4ff366d761f61925aeb192328
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8c8141157797ca88f0db4fa445a21339e7f4d3adb13538ccd47053dc15a3bcda
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106977979"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120047708"
 ---
 # <a name="using-directory-management"></a>使用目錄管理
 

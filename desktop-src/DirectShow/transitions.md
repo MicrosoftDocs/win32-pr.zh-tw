@@ -4,12 +4,12 @@ ms.assetid: 432db77f-c3fa-4234-bbce-cf17d8878b99
 title: 轉換
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 01fef1cd888293ad83ab1ba9f05ab4bb83ddafa9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b7511a010de60cdd87907b4ad7faa59963d3f0c6037dce3adc8fc58fa1c0a67a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103852147"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120078694"
 ---
 # <a name="transitions"></a>轉換
 

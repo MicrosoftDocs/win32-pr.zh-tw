@@ -4,12 +4,12 @@ ms.assetid: 25c730ff-4b01-4b40-ab50-3b8df3dad4c8
 title: WsdCodeGen 設定檔 XML 參考
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 38e31d46935d23f5eb652cf386ed722e4565b0cf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 11a9184e30f16550f0e9144a94499860ed04be6dbba4e70bad5d6a17fd6e3e35
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104192896"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119995128"
 ---
 # <a name="wsdcodegen-configuration-file-xml-reference"></a>WsdCodeGen 設定檔 XML 參考
 
@@ -45,7 +45,7 @@ WsdCodeGen 設定檔會使用下列 XML 元素。
 -   [**layerPrefix**](layerprefix.md)
 -   [**literalInclude**](literalinclude.md)
 -   [**位置**](location.md)
--   [**宏觀**](macro.md)
+-   [**巨集**](macro.md)
 -   [**macroPrefix**](macroprefix.md)
 -   [**製造商**](manufacturer.md)
 -   [**manufacturerLS**](manufacturerls.md)

@@ -10,16 +10,16 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: b90ee4f81c2afdfc222dd7d5d824f88bda122b73
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e261459785fa4e0ccdce7337df788de007c6f335799bbe4778e80f551f5e519e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104571034"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119995519"
 ---
 # <a name="wmi-architecture"></a>WMI 架構
 
-WMI 提供統一的介面，可用於從電腦系統、網路或企業取得管理資料的任何本機或遠端應用程式或腳本。 統一介面的設計，是為了讓 WMI 用戶端應用程式和腳本不需要呼叫各種不同的操作系統應用程式設計介面， (Api) 。 許多 Api 都無法由腳本或 Visual Basic 應用程式等 automation 用戶端呼叫。 其他 Api 不會對遠端電腦進行呼叫。
+WMI 提供統一的介面，可用於從電腦系統、網路或企業取得管理資料的任何本機或遠端應用程式或腳本。 統一介面的設計，是為了讓 WMI 用戶端應用程式和腳本不需要呼叫各種不同的操作系統應用程式設計介面， (Api) 。 許多 api 都無法由腳本或 Visual Basic 應用程式等 automation 用戶端呼叫。 其他 Api 不會對遠端電腦進行呼叫。
 
 若要從 WMI 取得資料，請撰寫可存取 [Wmi 類別](wmi-classes.md) 的用戶端腳本或應用程式，或撰寫 [*wmi 提供者*](gloss-p.md)以將資料提供給 WMI。 如需詳細資訊，請參閱 [使用 WMI](using-wmi.md)。
 
@@ -45,7 +45,7 @@ WMI 提供統一的介面，可用於從電腦系統、網路或企業取得管�
 
 -   [WMI 基礎結構](wmi-infrastructure.md)
 
-    WMI 基礎結構是一種 Microsoft Windows 作業系統元件，也就是 (winmgmt) 的 WMI 服務。 WMI 基礎結構有兩個元件： WMI 核心和 Wmi 存放 [*庫*](gloss-w.md)。
+    wmi 基礎結構是 Microsoft Windows 作業系統元件，也就是 (winmgmt) 的 wmi 服務。 WMI 基礎結構有兩個元件： WMI 核心和 Wmi 存放 [*庫*](gloss-w.md)。
 
     WMI 存放庫是由 WMI [*命名空間*](gloss-n.md)所組成。 WMI 服務會在系統啟動時建立一些命名空間，例如根 \\ 預設、根 \\ cimv2 和根 \\ 訂用帳戶，並預先安裝一組預設的類別定義，包括 [Win32 類別](/windows/desktop/CIMWin32Prov/win32-provider)、 [WMI 系統類別](wmi-system-classes.md)和其他命名空間。 在系統上找到的其餘命名空間是由作業系統或產品其他部分的提供者所建立。 如需詳細資訊和大部分作業系統版本中找到的 WMI 提供者清單，請參閱 [Wmi 提供者](wmi-providers.md)。
 

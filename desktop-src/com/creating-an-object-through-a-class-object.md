@@ -4,12 +4,12 @@ description: 透過類別物件建立物件
 ms.assetid: cecf21b0-e509-425f-8dd6-ca6b1ac04f5e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 38787e7bc32151446cda6ff0a4cfe3f23a0f6eda
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7ea76e8ecb826d8bba6e9f0ea84af894f4632d3d4bb5f41708d84c2f37e416b4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103932565"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119993498"
 ---
 # <a name="creating-an-object-through-a-class-object"></a>透過類別物件建立物件
 
@@ -30,9 +30,9 @@ COM 提供此基本 COM 進程的延伸模組，讓它在網路上幾乎順暢�
 [COM 用戶端和伺服器](com-clients-and-servers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

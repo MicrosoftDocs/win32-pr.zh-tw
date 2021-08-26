@@ -4,12 +4,12 @@ ms.assetid: 1a616f42-ec24-44ab-872f-7ea43646dd00
 title: 修正 (Direct3D 9) 的函式 FVF 碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dd10b655c0692881e5d93b6c716ec9bcd8a76c45
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 3ec4fb691192fcc4dbd7dc42c4d6c00829c209f87f68ec32ea42f6c26ff4663c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106970274"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120069188"
 ---
 # <a name="fixed-function-fvf-codes-direct3d-9"></a>修正 (Direct3D 9) 的函式 FVF 碼
 

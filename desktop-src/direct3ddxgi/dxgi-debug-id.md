@@ -4,12 +4,12 @@ ms.assetid: 85946D30-5E49-4E4B-AC25-394ABFF0DB11
 title: 'DXGI_DEBUG_ID (DXGIDebug) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fcc750d94fbdc51ba3399a6e3d4ff45b0adeb68b
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 3642f8ece96a7a63ed6137eef14069a33a418511321a4df10cdd95e122e13397
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106970897"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120068818"
 ---
 # <a name="dxgi_debug_id"></a>DXGI \_ DEBUG \_ ID
 
@@ -17,7 +17,7 @@ ms.locfileid: "106970897"
 
 
 
-| 常數/值                                                                                                                                                                                                                                                                                         | Description                                                                                                                                    |
+| 常數/值                                                                                                                                                                                                                                                                                         | 描述                                                                                                                                    |
 |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="DXGI_DEBUG_ALL"></span><span id="dxgi_debug_all"></span><dl> <dt>**DXGI \_DEBUG \_ ALL**</dt> <dt>0xe48ae283、0xda80、0x490b、0x87、0xe6、0x43、0xe9、0xa9、0xcf、0xda、0x8</dt> </dl>       | 所有 Direct3D 和 DXGI 物件和私用應用程式。<br/>                                                                                     |
 | <span id="DXGI_DEBUG_DX"></span><span id="dxgi_debug_dx"></span><dl> <dt>**DXGI \_DEBUG \_ DX**</dt> <dt>0x35cdd7fc、0x13b2、0x421d、0xa5、0xd7、0x7e、0x44、0x51、0x28、0x7d、0x64</dt> </dl>         | Direct3D 和 DXGI 物件。<br/>                                                                                                          |
@@ -50,8 +50,8 @@ DEFINE_GUID(DXGI_DEBUG_D3D11, 0x4b99317b, 0xac39, 0x4aa6, 0xbb, 0xb, 0xba, 0xa0,
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 8 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                      |
-| 最低支援的伺服器<br/> | Windows Server 2012 \[ desktop app \| UWP 應用程式\]<br/>                            |
+| 最低支援的用戶端<br/> | Windows 8 \[桌面應用程式 \| UWP 應用程式\]<br/>                                      |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[桌面應用程式 \| UWP 應用程式\]<br/>                            |
 | 標頭<br/>                   | <dl> <dt>DXGIDebug。h</dt> </dl> |
 
 

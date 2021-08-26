@@ -4,23 +4,23 @@ ms.assetid: bb3c658d-96db-495a-a0dc-e93949c3835d
 title: '系統錯誤碼 (12000-15999)  (Winerror.h. h) '
 ms.topic: reference
 ms.date: 07/18/2019
-ms.openlocfilehash: 8cac8adf6d8a4cf8f60fe978eb6f99f5efc1b9fe
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: aa250eb26db3a2dfefda4c8b31bb2bbfd5e5d6415ea50d7279121fb09302c7ce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104468248"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120058988"
 ---
 # <a name="system-error-codes-12000-15999"></a>系統錯誤碼 (12000-15999) 
 
 > [!NOTE]
-> 這項資訊適用于程式設計人員偵測系統錯誤。 針對其他錯誤（例如 Windows Update 的問題），[ [錯誤碼](system-error-codes.md) ] 頁面上有資源清單。
+> 這項資訊適用于程式設計人員偵測系統錯誤。 針對其他錯誤（例如 Windows Update 的問題），[[錯誤碼](system-error-codes.md)] 頁面上有資源清單。
 
 下列清單描述 (錯誤12000到 15999) 的 [系統錯誤碼](system-error-codes.md) 。 當有許多函式失敗時， [**GetLastError**](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror) 函式會傳回這些函數。 若要在您的應用程式中取得錯誤的描述文字，請使用 [**FormatMessage**](/windows/desktop/api/WinBase/nf-winbase-formatmessage) 函式，並搭配系統旗標的 **格式 \_ 訊息 \_ \_** 。
 
 <dl> <dt>
 
-<span id="ERROR_INTERNET__"></span><span id="error_internet__"></span>**錯誤 \_\_網際網路 \** _
+<span id="ERROR_INTERNET__"></span><span id="error_internet__"></span>**錯誤 \_ 網際網路\_\***
 </dt> <dd> <dl> <dt>
 
 12000-12175 (0x2EE0) 
@@ -33,7 +33,7 @@ ms.locfileid: "104468248"
 
 </dt> </dl> </dd> <dt>
 
-<span id="ERROR_IPSEC_QM_POLICY_EXISTS"></span><span id="error_ipsec_qm_policy_exists"></span>_ *錯誤 \_ IPSEC \_ QM \_ 原則 \_ 存在**
+<span id="ERROR_IPSEC_QM_POLICY_EXISTS"></span><span id="error_ipsec_qm_policy_exists"></span>**\_IPSEC \_ QM \_ 原則 \_ 存在時發生錯誤**
 </dt> <dd> <dl> <dt>
 
 13000 (0x32C8) 
@@ -3621,7 +3621,7 @@ XML 宣告中的字元編碼與檔中使用的編碼不相符。
 
 </dt> </dl> </dd> <dt>
 
-<span id="ERROR_EVT_NON_VALIDATING_MSXML"></span><span id="error_evt_non_validating_msxml"></span>**錯誤 \_ .EVT \_ 非 \_ 驗證 \_ MSXML**
+<span id="ERROR_EVT_NON_VALIDATING_MSXML"></span><span id="error_evt_non_validating_msxml"></span>**錯誤 \_ .EVT \_ 未 \_ 驗證 \_ MSXML**
 </dt> <dd> <dl> <dt>
 
 15013 (0x3AA5) 
@@ -3772,7 +3772,7 @@ XML 宣告中的字元編碼與檔中使用的編碼不相符。
 
 
 
-發行者屬性 %1！ s！ 包含不正確值。 值的類型無效、不在有效範圍內、無法更新，或是此類型的發行者不支援此值。
+Publisher 屬性 %1！ s！ 包含不正確值。 值的類型無效、不在有效範圍內、無法更新，或是此類型的發行者不支援此值。
 
 
 </dt> </dl> </dd> <dt>
@@ -5111,7 +5111,7 @@ GPIO 用戶端驅動程式所提供的註冊封包無效。
 
 
 
-無法安裝封裝，因為 Windows 防火牆服務未執行。 啟用 Windows 防火牆服務，然後再試一次。
+無法安裝封裝，因為 Windows 的防火牆服務未執行。 請啟用 Windows 防火牆服務，然後再試一次。
 
 
 </dt> </dl> </dd> <dt>
@@ -5434,8 +5434,8 @@ GPIO 用戶端驅動程式所提供的註冊封包無效。
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Winerror.h。h</dt> </dl> |
 
 

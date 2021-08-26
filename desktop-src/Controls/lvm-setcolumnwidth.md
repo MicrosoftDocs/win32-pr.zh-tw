@@ -3,7 +3,7 @@ title: 'LVM_SETCOLUMNWIDTH 訊息 (Commctrl .h) '
 description: 變更報表檢視模式中的資料行寬度，或在清單視圖模式中變更所有資料行的寬度。 您可以明確地傳送此訊息，或使用 ListView \_ SetColumnWidth 宏。
 ms.assetid: 309aebfb-9fed-4c77-acbb-ea905b32b0e2
 keywords:
-- LVM_SETCOLUMNWIDTH message Windows 控制項
+- LVM_SETCOLUMNWIDTH 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 529e989b3d66562acc7b6f91c3b3b06527235e8e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7a127706d6a47444ee59f1434478aadb5170f9ac7a919dca6fd6151de33486d0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104093840"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120077288"
 ---
 # <a name="lvm_setcolumnwidth-message"></a>LVM \_ SETCOLUMNWIDTH 訊息
 
@@ -68,8 +68,8 @@ ms.locfileid: "104093840"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

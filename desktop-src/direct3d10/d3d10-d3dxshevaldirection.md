@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: c7fa1f94d65ca8096a0398d71ca2f562b643d47a
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: bf52e29962e773798073ad6c779394318fcfcbc7186db5b4f0e6862a8e7b672c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108108586"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120070028"
 ---
 # <a name="d3dxshevaldirection-function-d3dx10h"></a>D3DXSHEvalDirection 函式 (D3DX10) 
 

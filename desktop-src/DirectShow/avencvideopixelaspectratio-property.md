@@ -4,12 +4,12 @@ ms.assetid: 948eae1e-ab24-4b39-aa20-ec7da71bb359
 title: 'AVEncVideoPixelAspectRatio 屬性 (Codecapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cecd4b48f51fd6e91b45ad962a9ef81ebbf40824
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: b6d3f1050cbdd4006f9e32b9b574bbffc14ccf5f64a53982137804165ca26226
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104509813"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120057928"
 ---
 # <a name="avencvideopixelaspectratio-property"></a>AVEncVideoPixelAspectRatio 屬性
 
@@ -35,8 +35,8 @@ ms.locfileid: "104509813"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 2000 專業版傳統型 \[ 應用程式 \| UWP 應用程式\]<br/>                     |
-| 最低支援的伺服器<br/> | Windows 2000 Server \[ desktop 應用程式 \| UWP 應用程式\]<br/>                           |
+| 最低支援的用戶端<br/> | Windows 2000 Professional \[ 桌面應用程式 \| UWP 應用程式\]<br/>                     |
+| 最低支援的伺服器<br/> | Windows 2000 Server \[ desktop apps \| UWP 應用程式\]<br/>                           |
 | 標頭<br/>                   | <dl> <dt>Codecapi。h</dt> </dl> |
 
 

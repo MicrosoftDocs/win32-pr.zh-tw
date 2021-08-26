@@ -6,12 +6,12 @@ keywords:
 - 遠端程序呼叫 RPC、描述、陣列和指標
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4cb6bc3f4a2ec4af85156bf15160b0ce7d1efc33
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 26cc588d4db7cb222ec0fb2689bf645a2a7ed0e12b632392264d480c26777531
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103673756"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120073498"
 ---
 # <a name="arrays-and-pointers"></a>陣列和指標
 
@@ -25,9 +25,9 @@ ms.locfileid: "103673756"
 -   [指標和 RPC](pointers-and-rpc.md)
 -   [使用陣列、字串和指標](using-arrays-strings-and-pointers.md)
 
- 
+ 
 
- 
+ 
 
 
 

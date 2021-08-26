@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 39441ba3244f206b057ba47c3cb6f765b5e80604
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 30e48373859e59464986aab85bf00d16a76a066bad12e3e38bf7b07275257016
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106967731"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120009028"
 ---
 # <a name="setallowdwm-method-of-the-win32_tsclientsetting-class"></a>Win32 TSClientSetting 類別的 SetAllowDwm 方法 \_
 

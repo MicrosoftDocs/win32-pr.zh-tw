@@ -4,18 +4,18 @@ ms.assetid: 57ef6472-c317-42c0-9771-b0728768b100
 title: EmailAddresses
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: abca4557f050ad98ef48e24d091418e094aa6a22
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7d92c5070e00764a346d12c4ca1a335ee73050bde1ae27ee5b781f072a17e206
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106978303"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120011378"
 ---
 # <a name="systemcontactemailaddresses"></a>EmailAddresses
 
 指出連絡人的所有電子郵件地址。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

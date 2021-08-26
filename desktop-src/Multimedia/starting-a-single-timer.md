@@ -12,19 +12,19 @@ keywords:
 - 單一計時器事件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c9d0024e3dfa9b0bda79f209abd9b81e89ad11c
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 7dc3a4c69aefe8df3310c8ff974ef7592b435eabccd661bdbeb1ebbf85dc3c9d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104375072"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120037168"
 ---
 # <a name="starting-a-single-timer-event"></a>啟動單一計時器事件
 
 > [!Note]  
 > 本主題說明過時的函式。 新的應用程式應該使用 [**CreateTimerQueueTimer**](/windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-createtimerqueuetimer) 函式來建立計時器。
 
- 
+ 
 
 若要啟動單一計時器事件，請呼叫 [**timeSetEvent**](/previous-versions//dd757634(v=vs.85)) 函式，並指定回呼發生之前的時間量、解析度、回呼函式的位址 (查看 [**TimeProc**](/previous-versions//dd757631(v=vs.85))) ，以及要提供給回呼函數的使用者資料。 應用程式可以使用類似下列的函式來啟動單一計時器事件。
 
@@ -58,6 +58,6 @@ UINT SetTimerCallback(NPSEQ npSeq,  // sequencer data
 [使用多媒體計時器](using-multimedia-timers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

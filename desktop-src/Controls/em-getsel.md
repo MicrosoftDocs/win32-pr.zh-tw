@@ -3,7 +3,7 @@ title: 'EM_GETSEL 訊息 (Winuser .h) '
 description: 取得 (在編輯控制項中目前選取範圍的 TCHARs) 中的開始和結束字元位置。 您可以將此訊息傳送至編輯控制項或 rich edit 控制項。
 ms.assetid: cf12aaea-cfa7-4804-ae34-fd0992332288
 keywords:
-- EM_GETSEL message Windows 控制項
+- EM_GETSEL 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d28ba97c9043866c3e97c1c51389447498562455
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: dca5f3cf1fdaa3c40dd1bb25ebbabb672474e76ae621a05cf52247c216adca17
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104025036"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120048798"
 ---
 # <a name="em_getsel-message"></a>EM \_ GETSEL 訊息
 
@@ -63,9 +63,9 @@ ms.locfileid: "104025036"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                     |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 

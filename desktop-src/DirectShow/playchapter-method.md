@@ -4,17 +4,17 @@ ms.assetid: d0318a0d-4ff4-42f2-b009-996b7ff0f632
 title: PlayChapter 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bab4600d8d4fc09c4b63fa423c66823e92e95a2a
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 832b1da6940b26a3cc3a4ab5bdba8653806966f8a399b74eb5adf50600e22293
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106998422"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120102338"
 ---
 # <a name="playchapter-method"></a>PlayChapter 方法
 
 > [!Note]  
-> 此元件可用於 Microsoft Windows 2000、Windows XP 及 Windows Server 2003 作業系統。 它在後續版本中可能會變更或無法使用。
+> 此元件可在 Microsoft Windows 2000、Windows XP 和 Windows Server 2003 作業系統中使用。 它在後續版本中可能會變更或無法使用。
 
  
 

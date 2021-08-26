@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
-ms.openlocfilehash: f6b79e8434a2174bcb05659f6656a46cc2d43cbb
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 344cb55314c3cafc2e84479944342633c74bd5a35754c9f7a4f6d53a30da58fb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106997750"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120044168"
 ---
 # <a name="id2d1geometrycomputearea-methods"></a>ID2D1Geometry：： ComputeArea 方法
 

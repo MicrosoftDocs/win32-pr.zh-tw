@@ -1,5 +1,5 @@
 ---
-description: IRenderEngine 介面會將 DirectShow 編輯服務 (DES) 專案中，藉由從時間軸建立篩選圖形來呈現。DES 提供兩個可執行此介面的元件：基本轉譯引擎會建立未壓縮的輸出。
+description: IRenderEngine 介面會從時間軸建立篩選圖形，以轉譯 DirectShow 編輯服務 (DES) 專案。DES 提供兩個可執行此介面的元件：基本轉譯引擎會建立未壓縮的輸出。
 ms.assetid: e2a91b34-ee4d-405e-81bf-29d15ea6342a
 title: 'IRenderEngine 介面 (Qedit .h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: d8c57e976fac877a02c3f3993fb3fe4d27f9033b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a13d51eb41a917dc4790c75a8a1f8a881dbcb8489364722ff8805bdf26fc77f7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106980207"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120051308"
 ---
 # <a name="irenderengine-interface"></a>IRenderEngine 介面
 
@@ -28,7 +28,7 @@ ms.locfileid: "106980207"
 
  
 
-介面會藉 `IRenderEngine` 由從時間軸建立篩選圖形， (DES) 專案呈現 [DirectShow 編輯服務](directshow-editing-services.md) 。
+`IRenderEngine`介面會從時間軸建立篩選圖形，以轉譯[DirectShow 編輯服務](directshow-editing-services.md) (DES) 專案。
 
 DES 提供兩個可執行此介面的元件：
 
@@ -90,7 +90,7 @@ DES 提供兩個可執行此介面的元件：
  
 
 > [!Note]  
-> 若要取得 Qedit，請下載 [適用于 Windows Vista 和 .NET Framework 3.0 的 Microsoft Windows SDK 更新](https://msdn.microsoft.com/windowsvista/bb980924.aspx)。 在 Windows 7 和 .NET Framework 3.5 Service Pack 1 的 Microsoft Windows SDK 中無法使用 Qedit。
+> 若要取得 Qedit，請下載[Windows Vista 和 .NET Framework 3.0 的 Microsoft Windows SDK 更新](https://msdn.microsoft.com/windowsvista/bb980924.aspx)。 Windows 7 和 .NET Framework 3.5 Service Pack 1 的 Microsoft Windows SDK 中無法使用 Qedit。
 
  
 
@@ -109,7 +109,7 @@ DES 提供兩個可執行此介面的元件：
 
 <dl> <dt>
 
-[轉譯專案](rendering-a-project.md)
+[轉譯 Project](rendering-a-project.md)
 </dt> </dl>
 
  

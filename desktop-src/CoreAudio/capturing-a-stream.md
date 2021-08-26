@@ -4,12 +4,12 @@ ms.assetid: 1d9072dc-4f9b-4111-a747-5eb33ad3ae5b
 title: 捕獲資料流程
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 371d4b92b97a26e81074edee68216255d576e614
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 6dda6fd8527acbfff4072a2b79854eca4c32541f57d462b6073f9f6f39854ddb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847338"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120059028"
 ---
 # <a name="capturing-a-stream"></a>捕獲資料流程
 
@@ -180,7 +180,7 @@ CopyData 函式會從指定的緩衝區位置複製指定的音訊框架數目�
 
 只要 MyAudioSink 物件需要額外的資料，CopyData 函式就會透過其第三個參數輸出值 **FALSE** ，而在上述程式碼範例中，是變數的指標 `bDone` 。 當 MyAudioSink 物件擁有所需的所有資料時，CopyData 函式會將設定 `bDone` 為 **TRUE**，這會導致程式結束 RecordAudioStream 函式中的迴圈。
 
-RecordAudioStream 函式會配置一個持續時間為一秒的共用緩衝區。  (配置的緩衝區可能會有較長的持續時間。 ) 在主要迴圈內，對 Windows [**Sleep**](/windows/desktop/api/synchapi/nf-synchapi-sleep) 函式的呼叫會導致程式等候半秒。 在每個 **睡眠** 通話的開頭，共用緩衝區是空的或幾乎空白的。 當 **睡眠** 呼叫傳回時，共用緩衝區大約會填滿填滿資料的一半。
+RecordAudioStream 函式會配置一個持續時間為一秒的共用緩衝區。  (配置的緩衝區可能會有較長的持續時間。 ) 在主要迴圈內，對 Windows [**Sleep**](/windows/desktop/api/synchapi/nf-synchapi-sleep)函式的呼叫會導致程式等候半秒。 在每個 **睡眠** 通話的開頭，共用緩衝區是空的或幾乎空白的。 當 **睡眠** 呼叫傳回時，共用緩衝區大約會填滿填滿資料的一半。
 
 在呼叫 [**IAudioClient：： Initialize**](/windows/desktop/api/Audioclient/nf-audioclient-iaudioclient-initialize) 方法之後，資料流程會保持開啟，直到用戶端釋出其所有對 [**IAudioClient**](/windows/desktop/api/Audioclient/nn-audioclient-iaudioclient) 介面的參考，以及用戶端透過 [**IAudioClient：： GetService**](/windows/desktop/api/Audioclient/nf-audioclient-iaudioclient-getservice) 方法取得的所有服務介面參考。 最終 [**釋放**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) 呼叫會關閉資料流程。
 

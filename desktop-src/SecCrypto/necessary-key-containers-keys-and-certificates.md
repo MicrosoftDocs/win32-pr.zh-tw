@@ -4,12 +4,12 @@ ms.assetid: b03528ff-0170-4dde-ae35-f5c3951d6b1f
 title: 必要的金鑰容器、金鑰和憑證
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d2d1f01a59c83ea21437608608e033a2ee0f8fae
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4ee5f86f887050d0d7abe440c89cc9c9444dba26854645d5ad6d16279af91e1e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103694951"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119992718"
 ---
 # <a name="necessary-key-containers-keys-and-certificates"></a>必要的金鑰容器、金鑰和憑證
 

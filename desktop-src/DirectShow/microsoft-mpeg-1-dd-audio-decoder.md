@@ -4,12 +4,12 @@ ms.assetid: 2fd14296-9eed-4e25-b140-6281c707fdb7
 title: 'Microsoft MPEG-1/DD/AAC 音訊解碼器 (Wmcodecdsp .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a685fa2be32dd963cdc7de08ec716117e6a7016e
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 2dd20bfc2ad8a366b46ac0c0600d8cc7a8bca5abacae621e8ea7d02f5f1cb4d3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106967008"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120051248"
 ---
 # <a name="microsoft-mpeg-1ddaac-audio-decoder"></a>Microsoft MPEG-1/DD/AAC 音訊解碼器
 
@@ -34,7 +34,7 @@ ms.locfileid: "106967008"
 
  
 
-將杜比數位加號、AAC 和 AAC 格式解碼需要 Windows 7。 Windows 7 Home Basic 或 Windows 7 Starter 版不支援對杜比數位或杜比數位加號進行解碼。
+將杜比數位加號、AAC 和 AAC 格式解碼需要 Windows 7。 Windows 7 家用入門版或 Windows 7 簡易版不支援對杜比數位或杜比數位加號進行解碼。
 
 在登錄中，此篩選器的易記名稱是「Microsoft DTV DVD-音訊解碼」。
 
@@ -152,7 +152,7 @@ Mono 資料流程一律會解碼為身歷聲。
 
 針對 AAC，此解碼器在壓縮的 AAC 輸入上有特定的格式條件約束。 這些格式條件約束與媒體基礎 [**AAC 解碼器**](../medfound/aac-decoder.md)相同，並記載于 "[**format 條件約束**](../medfound/aac-decoder.md)" 一節中。
 
-DirectShow 解碼器也可接受與媒體基礎解碼器不同的輸入類型。 DirectShow 解碼器支援下列 AAC 輸入類型：
+DirectShow 的解碼器也可接受與媒體基礎解碼器不同的輸入類型。 DirectShow 的解碼器支援下列 AAC 輸入類型：
 
 -   **MEDIASUBTYPE \_RAW \_ AAC1**：原始 AAC，通常會在 AVI 或 Matroska ( 中找到。.MKV) 檔。
 -   **MEDIASUBTYPE \_MPEG \_ ADTS \_ AAC**：音訊資料傳輸串流中的 AAC (ADTS) 進行串流處理。
@@ -186,7 +186,7 @@ DirectShow 解碼器也可接受與媒體基礎解碼器不同的輸入類型。
 | [**AVAudioChannelConfig**](avaudiochannelconfig-property.md)     | Windows Vista                                            |
 | [**AVAudioChannelCount**](avaudiochannelcount-property.md)       | Windows Vista                                            |
 | [**AVAudioSampleRate**](avaudiosamplerate-property.md)           | Windows Vista                                            |
-| [**AVDDSurroundMode**](avddsurroundmode-property.md)             | 僅限 Windows Vista;在 Windows 7 或更新版本中不支援。 |
+| [**AVDDSurroundMode**](avddsurroundmode-property.md)             | Windows僅限 Vista;Windows 7 或更新版本不支援。 |
 | [**AVDecAudioDualMono**](avdecaudiodualmono-property.md)         | Windows Vista                                            |
 | [**AVDecCommonInputFormat**](avdeccommoninputformat-property.md) | Windows Vista                                            |
 | [**AVDecCommonMeanBitRate**](avdeccommonmeanbitrate.md)          | Windows 7                                                |
@@ -226,7 +226,7 @@ DirectShow 解碼器也可接受與媒體基礎解碼器不同的輸入類型。
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows Vista Home Premium、Windows Vista 旗艦版、Windows 7 \[ 桌面應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windowsvista Home 進階版、Windows vista 旗艦版、Windows 7 \[ 桌面應用程式\]<br/> |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                      |
 | 標頭<br/>                   | <dl> <dt>Wmcodecdsp。h</dt> </dl>        |
 
@@ -239,7 +239,7 @@ DirectShow 解碼器也可接受與媒體基礎解碼器不同的輸入類型。
 [**音訊子類型**](audio-subtypes.md)
 </dt> <dt>
 
-[DirectShow 篩選](directshow-filters.md)
+[DirectShow過濾 器](directshow-filters.md)
 </dt> <dt>
 
 [**DVD 媒體類型**](dvd-media-types.md)

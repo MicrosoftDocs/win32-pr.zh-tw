@@ -4,12 +4,12 @@ ms.assetid: 57987cc1-8bb5-4bbd-a425-fda2e5a8b597
 title: 監視物件統計資料
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9f438bc7081546083f1930fe31f16a2198b09b48
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 1e58946953ef1688dcb44223522cc58ccd1195f07ec0173a0b75413fe441195f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104317856"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120070458"
 ---
 # <a name="monitoring-object-statistics"></a>監視物件統計資料
 
@@ -38,7 +38,7 @@ ms.locfileid: "104317856"
     | **ProgID**<br/>         | 識別特定元件。<br/>                                                                                                                                                                                |
     | **物件**<br/>        | 顯示用戶端參考目前保留的物件數目。<br/>                                                                                                                                       |
     | **已啟動**<br/>      | 顯示目前已啟用的物件數目。 <br/>                                                                                                                                                      |
-    | **彙集**<br/>         | 顯示集區所建立的物件總數，包括使用中的物件以及停用的物件。<br/>                                                                                      |
+    | **集區式**<br/>         | 顯示集區所建立的物件總數，包括使用中的物件以及停用的物件。<br/>                                                                                      |
     | **在呼叫中**<br/>        | 識別呼叫中的物件。<br/>                                                                                                                                                                                     |
     | **呼叫時間 (ms)**<br/> | 顯示在過去20秒內 (的平均通話持續時間，以毫秒為單位)  (最多20個呼叫) 。 呼叫時間是在物件上測量，不包含用來跨越網路的時間。<br/> |
 

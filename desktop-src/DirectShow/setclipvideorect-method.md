@@ -4,17 +4,17 @@ ms.assetid: 3940a382-8d53-4ff9-b024-38de1aa00f54
 title: SetClipVideoRect 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ff7f4b003ef20b82f1e783ebf074e8bbd5cc793
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 7e7741a2604ed1c2896b105295020893e23b447e3fa6f6ab7c53def92aa508c4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103687824"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120078868"
 ---
 # <a name="setclipvideorect-method"></a>SetClipVideoRect 方法
 
 > [!Note]  
-> 此元件可用於 Microsoft Windows 2000、Windows XP 及 Windows Server 2003 作業系統。 它在後續版本中可能會變更或無法使用。
+> 此元件可在 Microsoft Windows 2000、Windows XP 和 Windows Server 2003 作業系統中使用。 它在後續版本中可能會變更或無法使用。
 
  
 

@@ -4,12 +4,12 @@ ms.assetid: e4392907-a84f-40ea-aa88-2ad0510bca3c
 title: 檔案關聯範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 23b92922bb907c4dd90b3e2bdc3d16c8e8b52e6a
-ms.sourcegitcommit: b0d03febac36ff77cba034615b94ea103311398d
+ms.openlocfilehash: 3ad24c3e65ca5b297412c4a69702987cd86b5187dab63dd81435d50e7d06721d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/19/2021
-ms.locfileid: "107715786"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120009528"
 ---
 # <a name="file-association-example"></a>檔案關聯範例
 
@@ -66,7 +66,7 @@ ms.locfileid: "107715786"
 ## <a name="additional-resources"></a>其他資源
 
 -   [檔案關聯簡介](fa-intro.md)
--   [如何使用 Windows [開始] 功能表註冊網際網路瀏覽器或電子郵件客戶程式](start-menu-reg.md)
+-   [如何使用 Windows 開始功能表註冊網際網路瀏覽器或電子郵件客戶程式](start-menu-reg.md)
 -   [將應用程式註冊至 URI 配置](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa767914(v=vs.85))
 
 ## <a name="related-topics"></a>相關主題

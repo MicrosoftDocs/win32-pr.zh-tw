@@ -4,12 +4,12 @@ description: 若要開始從伺服器接收資料，用戶端會呼叫其中一�
 ms.assetid: 5d791f4f-1d95-4bc0-b68f-db4fccc75ff8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bb3eb1362736207f9cc79d82ab6c981431d0bfe7
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 234d93b2933499ca86ab49732d46cf2abe3c37247ed7bfa5e653e5aa0119b1e7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104023978"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120020488"
 ---
 # <a name="implementing-output-pipes-on-the-server"></a>在伺服器上執行輸出管道
 
@@ -66,6 +66,6 @@ void OutPipe(LONG_PIPE *outputPipe )
 [**/Oi**](/windows/desktop/Midl/-oi)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

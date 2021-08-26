@@ -48,12 +48,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: fc7a6073ab2841fde4492cd59ae1696aeca9f6a7
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 1d9f41178c69f40513b26de5221af6eb7b5e425acf5c4893f2de87fb18211291
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111233"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120079908"
 ---
 # <a name="win32_codecfile-class"></a>Win32 \_ CodecFile 類別
 
@@ -507,7 +507,7 @@ class Win32_CodecFile : CIM_DataFile
 
 </dd> <dt>
 
-**分機**
+**延伸模組**
 </dt> <dd> <dl> <dt>
 
 資料類型： **字串**

@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 07dce4f540ea8bea5b03e9e1fabe4f22b01ed14e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b674ab3a897283c233c2108af3b74f5226ede3b655d90b3f7c1dcc4e4639d9bb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106988493"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120117018"
 ---
 # <a name="esentrestoreofnonbackupdatabaseexception-constructor"></a>EsentRestoreOfNonBackupDatabaseException 函式
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - UpdateEndpointAuth.dll
-ms.openlocfilehash: 071bc23bdf9d67412fef561c71e17fe81485984f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3cbc51ab0f1192e20612829532b907e3644a7da3f99fdedd8e3dbd45a780c54d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511784"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119994568"
 ---
 # <a name="iupdateendpointauthprovider-interface"></a>IUpdateEndpointAuthProvider 介面
 
@@ -55,10 +55,10 @@ WUA 會呼叫這個介面的 [**GetPreferredEndpointTokenType**](iupdateendpoint
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows XP、Windows 2000 專業版（含 SP3） \[ 桌面應用程式\]<br/>                   |
-| 最低支援的伺服器<br/> | Windows Server 2003、Windows 2000 Server （僅含 SP3 \[ desktop 應用程式）\]<br/>                |
+| 最低支援的用戶端<br/> | WindowsXP、Windows 2000 Professional 搭配 SP3 \[ desktop 應用程式\]<br/>                   |
+| 最低支援的伺服器<br/> | Windows伺服器2003、Windows 2000 伺服器（僅含 SP3 \[ desktop 應用程式）\]<br/>                |
 | 標頭<br/>                   | <dl> <dt>UpdateEndpointAuth。h</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>UpdateEndpointAuth .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>UpdateEndpointAuth .idl</dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>UpdateEndpointAuth .lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>UpdateEndpointAuth.dll</dt> </dl> |
 

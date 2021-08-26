@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 223ef5d2d9a68c993553d52f5d4cf63e8b95dd3b
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 40666e4fc74f834d6333259636f9953281d534570eedabf37a3d99590ec2e1ee
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106999306"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120070158"
 ---
 # <a name="d3dxmatrixaffinetransformation2d-function-d3dx10mathh"></a>D3DXMatrixAffineTransformation2D 函式 (D3DX10Math) 
 

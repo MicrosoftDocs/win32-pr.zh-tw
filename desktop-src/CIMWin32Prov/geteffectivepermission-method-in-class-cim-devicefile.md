@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: e4b74c489c41b3da83f0e009526af225fd7de889
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: bb6d9fa6f08db52cb1dfa035348137d7a1d464ba3c2b61f4e9dac40c95b249a9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110504"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120077488"
 ---
 # <a name="geteffectivepermission-method-of-the-cim_devicefile-class"></a>CIM DeviceFile 類別的 GetEffectivePermission 方法 \_
 

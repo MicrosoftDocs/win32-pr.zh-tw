@@ -3,15 +3,15 @@ title: 用戶端應用程式常數
 description: Winbio \_ 類型 .h 標頭檔中定義的常數。
 ms.assetid: 5632f425-6247-49f5-b9dd-63e2187e1672
 keywords:
-- Windows 生物特徵辨識架構 API Windows 生物特徵辨識架構 API、用戶端應用程式常數
+- Windows生物特徵辨識架構 api Windows 生物特徵辨識架構 API、用戶端應用程式常數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a165174b2def381c94a7ea4efae1ea39a9c7fc1
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ee5b15f903f5b818159b31a0a91b23592e69f1b38146d1a2d2a77a7bb9ba6b70
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103675156"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119994468"
 ---
 # <a name="client-application-constants"></a>用戶端應用程式常數
 
@@ -36,7 +36,7 @@ ms.locfileid: "103675156"
 | [**WINBIO \_ ANSI \_ 385 \_ 臉部常數**](winbio-ansi-385-face-constants.md)<br/>                       | 指定臉部辨識的正面臉部影像類型。<br/>                                                                                                                                                |
 | [**WINBIO \_ 生物特徵辨識 \_ 感應器 \_ 子類型常數**](winbio-biometric-sensor-subtype-constants.md)<br/> | 指定用來上架感應器功能的位元遮罩。<br/>                                                                                                                                                          |
 | [**WINBIO \_ 生物特徵辨識 \_ 子類型常數**](winbio-biometric-subtype-constants.md)<br/>                | 提供生物特徵辨識測量的相關資訊。<br/>                                                                                                                                                          |
-| [**WINBIO \_ 生物特徵辨識 \_ 類型常數**](winbio-biometric-type-constants.md)<br/>                      | 美國國家標準與技術資訊局所定義的標準生物特徵辨識類型 (NISTIR) 6529-A，亦稱為一般生物特徵辨識交換格式架構 (CBEFF) Patron 格式 A。<br/> |
+| [**WINBIO \_ 生物特徵辨識 \_ 類型常數**](winbio-biometric-type-constants.md)<br/>                      | 美國國家標準與技術資訊局所定義的標準生物特徵辨識類型 (NISTIR) 6529-A，亦稱為一般生物特徵辨識 Exchange 格式架構 (CBEFF) Patron 格式 A。<br/> |
 | [**WINBIO \_ BIR \_ 資料 \_ 旗標常數**](winbio-bir-data-flags-constants.md)<br/>                     | 指定資料的條件。<br/>                                                                                                                                                                          |
 | [**WINBIO \_ BIR \_ 欄位常數**](winbio-bir-field-constants.md)<br/>                                | 指定位元遮罩。<br/>                                                                                                                                                                                          |
 | [**WINBIO \_ BIR \_ 用途常數**](winbio-bir-purpose-constants.md)<br/>                            | 指定 (BIR) 預定或適用的生物特徵辨識資訊記錄用途。<br/>                                                                                               |

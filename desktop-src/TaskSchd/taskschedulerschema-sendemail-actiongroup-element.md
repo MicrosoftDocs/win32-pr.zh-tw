@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 81f6f3437521dea2c5cf6e157ad7997718632081
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1b42a8e63f3b64ef2a66a74300036bbf8ade24a7e0ee5c68b3d1d599f00a04b4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934828"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120099848"
 ---
 # <a name="sendemail-actiongroup-element"></a>SendEmail (actionGroup) 元素
 
@@ -36,7 +36,7 @@ ms.locfileid: "103934828"
 
 
 
-| 元素                                                         | 衍生自                                                       | Description                                            |
+| 元素                                                         | 衍生自                                                       | 描述                                            |
 |-----------------------------------------------------------------|--------------------------------------------------------------------|--------------------------------------------------------|
 | [**行動**](taskschedulerschema-actions-tasktype-element.md) | [**actionsType**](taskschedulerschema-actionstype-complextype.md) | 包含工作所執行的動作。<br/> |
 
@@ -46,13 +46,13 @@ ms.locfileid: "103934828"
 
 
 
-| 元素                                                                        | 類型                                                                         | Description                                                                                      |
+| 元素                                                                        | 類型                                                                         | 描述                                                                                      |
 |--------------------------------------------------------------------------------|------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
 | [**附件**](taskschedulerschema-attachments-sendemailtype-element.md)   | [**attachmentsType**](taskschedulerschema-attachmentstype-complextype.md)   | 指定電子郵件訊息中的附件清單。<br/>                                 |
 | [**密件副本**](taskschedulerschema-bcc-sendemailtype-element.md)                   | **string**                                                                   | 指定電子郵件訊息的 [密件副本] 行上使用的電子郵件地址。<br/>               |
 | [**主體**](taskschedulerschema-body-sendemailtype-element.md)                 | **string**                                                                   | 指定電子郵件訊息主體中的文字。<br/>                                  |
 | [**Cc**](taskschedulerschema-cc-sendemailtype-element.md)                     | **string**                                                                   | 指定電子郵件訊息之 Cc 行上使用的電子郵件地址。<br/>                |
-| [**寄件者**](taskschedulerschema-from-sendemailtype-element.md)                 | **string**                                                                   | 指定寄件者的電子郵件地址。<br/>                                            |
+| [**從**](taskschedulerschema-from-sendemailtype-element.md)                 | **string**                                                                   | 指定寄件者的電子郵件地址。<br/>                                            |
 | [**HeaderFields**](taskschedulerschema-headerfields-sendemailtype-element.md) | [**headerFieldsType**](taskschedulerschema-headerfieldstype-complextype.md) | 指定標頭欄位，以及在電子郵件訊息的標頭中使用的值。<br/> |
 | [**ReplyTo**](taskschedulerschema-replyto-sendemailtype-element.md)           | **string**                                                                   | 指定電子郵件訊息中要回復的電子郵件地址。<br/>               |
 | [**伺服器**](taskschedulerschema-server-sendemailtype-element.md)             | [**nonEmptyString**](taskschedulerschema-nonemptystring-simpletype.md)      | 指定用來傳送電子郵件訊息的電子郵件伺服器。 <br/>                           |
@@ -79,8 +79,8 @@ ms.locfileid: "103934828"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 | 用戶端支援結束<br/>    | Windows 7<br/>                                 |
 | 伺服器支援結束<br/>    | Windows Server 2008 R2<br/>                    |
 

@@ -9,12 +9,12 @@ keywords:
 - framebuffers，修改圖元的片段
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 00e2b4c2dc36e24c4fd9baa82b28fa4d336f69b5
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7ab5d4124445455e518e4f091730e6e38e899442785b9f86ef73a230b99fbd41
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106984930"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120082408"
 ---
 # <a name="fragments"></a>片段
 
@@ -32,9 +32,9 @@ ms.locfileid: "106984930"
 -   [抖動](dithering.md)
 -   [邏輯作業](logical-operations.md)
 
- 
+ 
 
- 
+ 
 
 
 

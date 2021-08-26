@@ -7,12 +7,12 @@ keywords:
 - 函數 HTTP，HTTP 伺服器 API 版本1。0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 050821e40695268d6e3fa2c946d2e8859748db2b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 8520753e56e995b5751b55ff71cf49f8e82d414e702b2df255c2901e69c397fb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104183944"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120047198"
 ---
 # <a name="http-server-api-version-10-functions"></a>HTTP 伺服器 API 版本1.0 函式
 
@@ -31,7 +31,7 @@ HTTP 伺服器 API 提供下列功能來撰寫應用程式。
 
 
 
- 
+ 
 
 ## <a name="cache-management"></a>快取管理
 
@@ -45,7 +45,7 @@ HTTP 伺服器 API 提供下列功能來撰寫應用程式。
 
 
 
- 
+ 
 
 ## <a name="configuration"></a>組態
 
@@ -59,7 +59,7 @@ HTTP 伺服器 API 提供下列功能來撰寫應用程式。
 
 
 
- 
+ 
 
 ## <a name="input-and-output"></a>輸入和輸出
 
@@ -75,7 +75,7 @@ HTTP 伺服器 API 提供下列功能來撰寫應用程式。
 
 
 
- 
+ 
 
 ## <a name="ssl"></a>SSL
 
@@ -87,7 +87,7 @@ HTTP 伺服器 API 提供下列功能來撰寫應用程式。
 
 
 
- 
+ 
 
 ## <a name="url-registration"></a>URL 註冊
 
@@ -100,7 +100,7 @@ HTTP 伺服器 API 提供下列功能來撰寫應用程式。
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -109,9 +109,9 @@ HTTP 伺服器 API 提供下列功能來撰寫應用程式。
 [HTTP 伺服器 API 版本1.0 結構](http-server-api-version-1-0-structures.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

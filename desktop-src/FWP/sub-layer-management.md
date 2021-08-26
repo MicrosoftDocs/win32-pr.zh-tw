@@ -4,12 +4,12 @@ description: Sub-Layer 管理
 ms.assetid: 0C11180C-1A78-4A36-85A4-A450A093B0A7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 33e5f308b032c2e25f12e55fea3283ae807bf374
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 9ea2b6f245835dd51109f838237095490f54ca39adb90716cd3003c37c1b646b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103681827"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120078450"
 ---
 # <a name="sub-layer-management"></a>Sub-Layer 管理
 
@@ -28,6 +28,6 @@ ms.locfileid: "103681827"
 -   [**FwpmSubLayerSubscriptionsGet0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmsublayersubscriptionsget0)
 -   [**FwpmSubLayerUnsubscribeChanges0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmsublayerunsubscribechanges0)
 
- 
+ 
 
- 
+ 

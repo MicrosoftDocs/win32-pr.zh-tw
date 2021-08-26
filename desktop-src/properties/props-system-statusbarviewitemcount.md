@@ -4,12 +4,12 @@ ms.assetid: F32BEBFB-5D80-4920-A243-62C6AC421E2C
 title: System. StatusBarViewItemCount
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e2e765b0e103468e3fe915a390efc7e6d3b44d3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cd387f833d48eba26fddce21f94a439bef0302e3453646d9d58078423f04f7f5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193168"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120058388"
 ---
 # <a name="systemstatusbarviewitemcount"></a>System. StatusBarViewItemCount
 
