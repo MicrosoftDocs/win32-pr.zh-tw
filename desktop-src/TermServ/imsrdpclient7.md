@@ -54,7 +54,7 @@ ms.locfileid: "119990528"
 
 
 
-| 屬性                                                                  | 存取類型          | Description                                                                                                                |
+| 屬性                                                                  | 存取類型          | 描述                                                                                                                |
 |:--------------------------------------------------------------------------|:---------------------|:---------------------------------------------------------------------------------------------------------------------------|
 | [**AdvancedSettings8**](imsrdpclient7-advancedsettings8.md)<br/>   | 唯讀<br/> | 支援 [**IMsRdpClientAdvancedSettings7**](imsrdpclientadvancedsettings7.md) 介面的物件。<br/>   |
 | [**RemoteProgram2**](imsrdpclient7-remoteprogram2.md)<br/>         | 唯讀<br/> | 支援 [**ITSRemoteProgram2**](itsremoteprogram2.md) 介面的物件。<br/>                           |

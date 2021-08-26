@@ -1,19 +1,19 @@
 ---
-description: 若要將媒體檔案轉換成 ASF 格式，您可以使用 Windows Media 編碼器。 瞭解如何使用 CoCreateInstance 建立編碼器。
+description: 若要將媒體檔案轉換成 ASF 格式，您可以使用 Windows 媒體編碼器。 瞭解如何使用 CoCreateInstance 建立編碼器。
 ms.assetid: 96f19dfb-a328-41db-8fa8-77f052b1a192
 title: 使用 CoCreateInstance 建立編碼器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 15c4cdf7b72bbfee97031088502113d085738981
-ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
+ms.openlocfilehash: cbd48931b7bc8e0b449ee8ffaa0141a6413f2699ebaae6e1ba01fdd1f4b38a0f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "112068464"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120092318"
 ---
 # <a name="creating-an-encoder-by-using-cocreateinstance"></a>使用 CoCreateInstance 建立編碼器
 
-若要將媒體檔案轉換成 ASF 格式，您可以使用 Windows Media 編碼器。 若要使用這些編碼器，必須向系統註冊。 編碼器會實作為 [媒體基礎轉換](media-foundation-transforms.md) (MFTs) 且必須公開 IMFTransform 介面。 本主題說明應用程式如何取得所需的 MFT 編碼器 IMFTransform 介面的指標，並將其具現化以供使用。
+若要將媒體檔案轉換成 ASF 格式，您可以使用 Windows 媒體編碼器。 若要使用這些編碼器，必須向系統註冊。 編碼器會實作為 [媒體基礎轉換](media-foundation-transforms.md) (MFTs) 且必須公開 IMFTransform 介面。 本主題說明應用程式如何取得所需的 MFT 編碼器 IMFTransform 介面的指標，並將其具現化以供使用。
 
 如需編碼器註冊的相關資訊，請參閱具現 [化編碼器 MFT](instantiating-the-encoder-mft.md)。
 
@@ -23,7 +23,7 @@ ms.locfileid: "112068464"
 
 ## <a name="using-an-encoders-imftransform-interface"></a>使用編碼器的 IMFTransform 介面
 
-在成功向系統註冊 Windows Media 編碼器之後，應用程式可以藉由呼叫 [**MFTEnum**](/windows/desktop/api/mfapi/nf-mfapi-mftenum)來列舉編碼器。 若要搜尋正確的編碼器，您必須指定下列各項：
+成功向系統註冊 Windows 媒體編碼器之後，應用程式就可以藉由呼叫 [**MFTEnum**](/windows/desktop/api/mfapi/nf-mfapi-mftenum)來列舉編碼器。 若要搜尋正確的編碼器，您必須指定下列各項：
 
 -   代表分類的 GUID，也就是 **mft \_ 類別 \_ 音訊 \_ 編碼器** 或 **mft 類別的 \_ \_ 影片 \_ 編碼器**。
 
@@ -95,7 +95,7 @@ HRESULT FindEncoder(
 [具現化編碼器 MFT](instantiating-the-encoder-mft.md)
 </dt> <dt>
 
-[Windows Media 編碼器](windows-media-encoders.md)
+[Windows媒體編碼器](windows-media-encoders.md)
 </dt> </dl>
 
  

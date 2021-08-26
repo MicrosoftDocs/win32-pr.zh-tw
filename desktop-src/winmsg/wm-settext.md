@@ -4,12 +4,12 @@ ms.assetid: 1b48c309-6903-4139-bf42-e8526963e681
 title: 'WM_SETTEXT 訊息 (Winuser .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c3284855d817d5207b0d7572a41774e961c0113f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6fc2ab860fd89d726b9763c198fe8d58caa1376a3b919fd3587ad39a612d6667
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103694971"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120055978"
 ---
 # <a name="wm_settext-message"></a>WM \_ SETTEXT 訊息
 
@@ -60,7 +60,7 @@ ms.locfileid: "103694971"
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                               |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 

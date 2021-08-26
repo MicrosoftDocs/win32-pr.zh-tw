@@ -4,12 +4,12 @@ description: RPC 工具會讓使用者看起來像用戶端直接呼叫位於遠
 ms.assetid: 265f31b8-9a41-4255-b070-fd50b00b935b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 12832d0de4eb972bb1d9d51df0c871191d4d079a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0bd7a3adf59e848d962d4765a0feee16eb1fa84842c2a1ddd34ed82ecf95a8e4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103674088"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120020850"
 ---
 # <a name="how-rpc-works"></a>RPC 的運作方式
 
@@ -45,9 +45,9 @@ RPC 工具會讓使用者看起來像用戶端直接呼叫位於遠端伺服器�
 
 伺服器應用程式包含伺服器執行時間程式庫函式的呼叫，這些函數會註冊伺服器的介面，並允許伺服器接受遠端程序呼叫。 伺服器應用程式也包含用戶端應用程式所呼叫的應用程式特定的遠端程式。
 
- 
+ 
 
- 
+ 
 
 
 

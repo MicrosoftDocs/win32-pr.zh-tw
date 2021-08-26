@@ -4,12 +4,12 @@ ms.assetid: ea264188-3c39-4f00-84f3-114c81a5642e
 title: 圖像。儲存方法
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 72da9fd7695a6f02f1d215294073fa724f9a0e4d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: 5ddc25e18e0ff377249ef991b1bb28a9f3edd006739ee265a05366b6940c8cfc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104973032"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120092458"
 ---
 # <a name="imagesave-methods"></a>圖像。儲存方法
 

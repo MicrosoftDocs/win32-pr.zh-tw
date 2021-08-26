@@ -8,25 +8,25 @@ keywords:
 - 物件模型，Error 物件
 - Windows Media Player ActiveX 控制項，Error 物件
 - ActiveX 控制項，Error 物件
-- Windows Media Player Mobile ActiveX 控制項，Error 物件
-- Windows Media Player Mobile，Error 物件
+- Windows Media PlayerMobile ActiveX 控制項，Error 物件
+- Windows Media PlayerMobile，Error 物件
 - Error 物件
 - Windows Media Player，ErrorItem 物件
 - Windows Media Player 物件模型，ErrorItem 物件
 - 物件模型，ErrorItem 物件
-- Windows Media Player ActiveX 控制項，ErrorItem 物件
-- ActiveX 控制項，ErrorItem 物件
-- Windows Media Player 行動 ActiveX 控制項，ErrorItem 物件
-- Windows Media Player Mobile，ErrorItem 物件
+- Windows Media Player ActiveX control、ErrorItem 物件
+- ActiveX control、ErrorItem 物件
+- Windows Media PlayerMobile ActiveX control、ErrorItem 物件
+- Windows Media PlayerMobile、ErrorItem 物件
 - ErrorItem 物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 23064670f13229aca84ae6dc86cf27cf34abbc56
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 84dcd8e0961007c185640b32ac53d249d2e739ca5e1aa4247a6735e09b2a3242
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104301099"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120004398"
 ---
 # <a name="about-the-error-and-erroritem-objects"></a>關於 Error 和 ErrorItem 物件
 
@@ -63,9 +63,9 @@ player.error.webHelp();
 [**指令碼語言的播放程式物件模型**](player-object-model-for-scripting-languages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

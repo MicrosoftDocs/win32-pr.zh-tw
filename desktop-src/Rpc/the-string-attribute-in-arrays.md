@@ -6,12 +6,12 @@ keywords:
 - 字串
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7e8bd2f7234b2713b6a7df05cfb5d6ae4c08b2d8
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: c9d56099c9cc2be3638642b20f6d3572786ea0a93f47f8660c2e847c4c06dd3e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104092963"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120016658"
 ---
 # <a name="the-string-attribute-in-arrays"></a>\[ \] 陣列中的字串屬性
 
@@ -31,6 +31,6 @@ interface arraytest
 }
 ```
 
- 
+ 
 
- 
+ 

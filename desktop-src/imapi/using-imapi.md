@@ -4,12 +4,12 @@ description: 下列主題示範如何使用「映射主控 API」。
 ms.assetid: c42043db-612f-488f-a6ae-a8caea8ac42b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ccd44d01e925d07d251e93a29c5268cc7e9c5076
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d7bf19d619f6ed5ab9a2d6b0deb1ca6a42b71a0b0941a96f54cccfa87c14b5f6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840832"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120092428"
 ---
 # <a name="using-imapi"></a>使用 IMAPI.EXE
 
@@ -30,7 +30,7 @@ ms.locfileid: "103840832"
 | [建立多會話光碟](creating-a-multisession-disc.md)                                                 | 示範如何使用 IMAPI.EXE 建立多會話光碟。<br/>                                                                                              |
 | [監視事件的進度](monitoring-progress-with-events.md)                                           | 示範如何使用特定介面，以允許事件處理常式的執行，以便接收進度資訊。 <br/>        |
 | [在燒錄期間防止登出或暫停](preventing-logoff-or-suspend-during-a-burn.md)                     | 包含詳細說明在 Windows 中涉及使用者「登出」和「暫停」之案例的應用程式開發考慮。<br/> |
-| [提供媒體燒錄裝置的使用者權限](providing-user-permissions-for-media-burning-devices.md) | 詳細說明在 Windows XP 及 Windows Server 2003 上，確保使用者有足夠的許可權可使用媒體燒錄裝置所需的程式。<br/>             |
+| [提供媒體燒錄裝置的使用者權限](providing-user-permissions-for-media-burning-devices.md) | 詳細說明確保使用者有足夠的許可權可利用 Windows XP 和 Windows Server 2003 上的媒體燒錄裝置所需的程式。<br/>             |
 
 
 

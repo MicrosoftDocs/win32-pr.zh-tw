@@ -1,19 +1,19 @@
 ---
 title: RequestReplyNamedPipesClientWithWindowsTransportSecurityExample
-description: 此範例顯示的具名管道用戶端，會傳送具有 Windows SSPI 傳輸安全性所提供之安全性的要求-回復訊息。 它會說明使用安全性權杖屬性的用戶端，以修改預設所允許的模擬等級。
+description: 此範例顯示具名管道用戶端，此用戶端會傳送 Windows SSPI 傳輸安全性所提供的安全性要求-回復訊息。 它會說明使用安全性權杖屬性的用戶端，以修改預設所允許的模擬等級。
 ms.assetid: 50BA8F67-95F4-414A-952C-8AF91C511753
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f81eb77680b161a121be68d1e4f00a3d87c9dcb6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d46dda53ceeff5a8bbe1b649c65b294fb190224491c9b90a144be35c4123f42b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104507016"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120089458"
 ---
 # <a name="requestreplynamedpipesclientwithwindowstransportsecurityexample"></a>RequestReplyNamedPipesClientWithWindowsTransportSecurityExample
 
-此範例顯示的具名管道用戶端，會傳送具有 Windows SSPI 傳輸安全性所提供之安全性的要求-回復訊息。 它會說明使用安全性權杖屬性的用戶端，以修改預設所允許的模擬等級。
+此範例顯示具名管道用戶端，此用戶端會傳送 Windows SSPI 傳輸安全性所提供的安全性要求-回復訊息。 它會說明使用安全性權杖屬性的用戶端，以修改預設所允許的模擬等級。
 
 -   [RequestReplyNamedPipesClientWithWindowsTransportSecurity .cpp](#requestreplynamedpipesclientwithwindowstransportsecuritycpp)
 -   [PurchaseOrder .wsdl](#purchaseorderwsdl)
@@ -584,9 +584,9 @@ clean:
     $(CLEANUP)
 ```
 
- 
+ 
 
- 
+ 
 
 
 

@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 4b8313ddbe5961d270a7342a7240b5f5bc02e946
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5d92650333d2cd787a8e7622f2e4abd70c530bff178b4fca47884003e291b68e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320771"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120019578"
 ---
 # <a name="esentlogbuffertoosmallexception-class"></a>EsentLogBufferTooSmallException 類別
 

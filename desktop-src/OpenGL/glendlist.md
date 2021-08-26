@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 59f8db8c2abea44d678268f804159b60fe695f96
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: ad75f62b3b049f2244b6e701f69654d110c559b337c0d4bb72da75af93f954f9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106998987"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120081518"
 ---
 # <a name="glendlist-function"></a>glEndList 函式
 
@@ -48,7 +48,7 @@ void WINAPI glEndList(void);
 
 
 
-| Name                                                                                                  | 意義                                                                                                                                       |
+| 名稱                                                                                                  | 意義                                                                                                                                       |
 |-------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**GL \_ 不正確 \_ 操作**</dt> </dl> | 呼叫 **glEndList** 時沒有先前的 **glNewList**，或在定義顯示清單時呼叫 **glNewList** 。<br/> |
 

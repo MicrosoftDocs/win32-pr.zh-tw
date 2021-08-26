@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8e2e7e5965da9604c690384301de6f1879a98994
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6c503cac59bbec912c535120161d27991118dab818a185c1f39d8f48cb2a5939
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106965094"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120082238"
 ---
 # <a name="glaretexturesresident-function"></a>glAreTexturesResident 函式
 
@@ -69,7 +69,7 @@ GLboolean WINAPI glAreTexturesResident(
 
 
 
-| Name                                                                                                  | 意義                                                                                                                                   |
+| 名稱                                                                                                  | 意義                                                                                                                                   |
 |-------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**GL \_ 無效 \_ 值**</dt> </dl>     | *n* 為負值、 *材質* 中的元素為零，或 *紋理* 中的元素未包含材質識別碼。<br/> |
 | <dl> <dt>**GL \_ 不正確 \_ 操作**</dt> </dl> | 呼叫 [**glBegin**](glbegin.md) 和對應的 [**glEnd**](glend.md)呼叫之間呼叫了函數。<br/>     |

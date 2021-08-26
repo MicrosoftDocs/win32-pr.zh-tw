@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 097af089a7221f005cf7f3aac74953166af3cb2a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e2d20c4487f0969a5abaf689f7c5c712e6fbb7fd83ceb7484694a3eec8599698
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994759"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120083958"
 ---
 # <a name="csourceseekinggetpreroll-method"></a>CSourceSeeking. GetPreroll 方法
 
@@ -55,7 +55,7 @@ HRESULT GetPreroll(
 
 
 
-| 傳回碼                                                                               | Description                       |
+| 傳回碼                                                                               | 描述                       |
 |-------------------------------------------------------------------------------------------|-----------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>      | Success<br/>                |
 | <dl> <dt>**E \_ 指標**</dt> </dl> | **Null** 指標值<br/> |

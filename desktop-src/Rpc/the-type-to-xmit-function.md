@@ -6,12 +6,12 @@ keywords:
 - type_to_xmit
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bd6a6b250d661fc19b0ee8fb68d21f171960e512
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 970d4a0de9675ac7a5f1b1c1449521177ecb661a1a80fd9ef609a6dc630605a3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103932432"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120016498"
 ---
 # <a name="the-type_to_xmit-function"></a>要 xmit 的型別 \_ \_ 函數
 
@@ -59,9 +59,9 @@ void __RPC_USER DOUBLE_LINK_TYPE_to_xmit (
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -3,7 +3,7 @@ title: 'EM_SETFONTSIZE 訊息 (Richedit .h) '
 description: 設定 rich edit 控制項中所選取文字的字型大小。
 ms.assetid: 18d91370-12c0-4e5f-a0e9-ffde02abc966
 keywords:
-- EM_SETFONTSIZE message Windows 控制項
+- EM_SETFONTSIZE 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8eb75276acbb86cbd452a8ad97698f1cd7382bd2
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e646d58626a034f4764d6b9636e5b4b3eedba5befd7986eade9979c1f4a4fd5a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465384"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120048458"
 ---
 # <a name="em_setfontsize-message"></a>EM \_ SETFONTSIZE 訊息
 
@@ -102,8 +102,8 @@ Rich Edit 會先將 *wParam* 新增至目前的字型大小，然後使用產生
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 可轉散發套件<br/>          | Rich Edit 3。0<br/>                                                              |
 | 標頭<br/>                   | <dl> <dt>Richedit。h</dt> </dl> |
 

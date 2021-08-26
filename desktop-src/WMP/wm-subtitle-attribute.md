@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a82630f6f8dbd36df5d71b942ea2949bb6237e65
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 54e825f4ebfff07010c46b7150076bba69325cd96be4793611027a2dc148cb35
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106998885"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120000858"
 ---
 # <a name="wmsubtitle-attribute"></a>WM/子標題屬性
 
@@ -26,7 +26,7 @@ ms.locfileid: "106998885"
 ## <a name="applies-to"></a>套用至
 
 -   [音訊專案](audio-item-attributes.md)
--   [常用的 Windows Media 檔案屬性](commonly-used-windows-media-file-attributes.md)
+-   [常用 Windows 媒體檔案屬性](commonly-used-windows-media-file-attributes.md)
 
 ## <a name="remarks"></a>備註
 
@@ -34,7 +34,7 @@ ms.locfileid: "106998885"
 
 子 **標題** 是此屬性的別名。
 
-這個屬性的 Windows Media Format SDK 常數是 g \_ wszWMSubTitle。
+這個屬性的 Windows 媒體格式 SDK 常數是 g \_ wszWMSubTitle。
 
 若要判斷是否可以變更這個屬性的值，請使用 [isReadOnlyItem](media-isreadonlyitem.md) 方法。
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 89e103d441648643be0176ca34f72f6175c11213
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: ed9cf5e6e85e65da69dee1998c8d75241f775fdc212e2e86687bb380271c898a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108113126"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120028688"
 ---
 # <a name="d3dxmatrixmultiply-function-d3dx10mathh"></a>D3DXMatrixMultiply 函式 (D3DX10Math) 
 

@@ -4,12 +4,12 @@ ms.assetid: cf6b80de-de02-4222-a414-e940ffaed8fe
 title: 進程控制碼和識別碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 39a1ec0acb6535f8f64b9f4bd0815392d61fccbc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4603b3d217db0870aeb890b05c7a416f46f2309ea9a0230b33d150387ebc5173
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104319155"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120031768"
 ---
 # <a name="process-handles-and-identifiers"></a>進程控制碼和識別碼
 

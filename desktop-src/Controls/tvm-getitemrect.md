@@ -3,7 +3,7 @@ title: 'TVM_GETITEMRECT 訊息 (Commctrl .h) '
 description: 抓取樹狀檢視專案的周框，並指出專案是否可見。 您可以使用 TreeView GetItemRect 宏明確地傳送此訊息 \_ 。
 ms.assetid: f2d7d7b1-cfe7-4361-bd90-e3e99dbcd99c
 keywords:
-- TVM_GETITEMRECT message Windows 控制項
+- TVM_GETITEMRECT 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ebdf4d73fb83ddbd8e9e682f11ee1f5ecfbd5153
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1c6b58ff7d2ce88fd4257ce7db84fa8bd9b4fa2b2d223af03a3f1d57a83c9b9d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104094411"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120053998"
 ---
 # <a name="tvm_getitemrect-message"></a>TVM \_ GETITEMRECT 訊息
 
@@ -68,8 +68,8 @@ SendMessage(hwndTreeView, TVM_GETITEMRECT, FALSE, (LPARAM)&rc);
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

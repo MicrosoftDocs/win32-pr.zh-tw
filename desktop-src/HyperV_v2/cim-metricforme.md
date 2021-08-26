@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 89c119ad622b778d0402100a64ff15befe623685
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bbab6db5bd02ea4dbab553e758318c5b0b71f525068874cfe49fbbed8d21dfd0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106984586"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120046837"
 ---
 # <a name="cim_metricforme-class"></a>CIM \_ MetricForME 類別
 

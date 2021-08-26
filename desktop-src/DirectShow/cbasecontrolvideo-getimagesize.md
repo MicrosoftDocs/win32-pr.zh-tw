@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: ed7795e3998bc101e907bce87c9981e86f51fcb6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9a7e0d970e06186ced3800d4b1f4dc4190778834941b69ac17402e2294312b05
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106978526"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120057058"
 ---
 # <a name="cbasecontrolvideogetimagesize-method"></a>CBaseControlVideo. GetImageSize 方法
 
@@ -71,7 +71,7 @@ HRESULT GetImageSize(
 
 
 
-| 傳回碼                                                                                  | Description                                                               |
+| 傳回碼                                                                                  | 描述                                                               |
 |----------------------------------------------------------------------------------------------|---------------------------------------------------------------------------|
 | <dl> <dt>**E \_ 失敗**</dt> </dl>       | 失敗。<br/>                                                       |
 | <dl> <dt>**E \_ INVALIDARG**</dt> </dl> | 無效引數。 資料格式不相容。<br/>           |

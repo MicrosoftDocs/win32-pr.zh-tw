@@ -14,12 +14,12 @@ dev_langs:
 - JScript
 - VB
 - other
-ms.openlocfilehash: c3c0161b0b145e5862ce6093a25ac4c6ea913dfd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 88d6c3a85c308da75998828a4fd3762590c28773982dffdc58f7b99b62a8a8cf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104553323"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120066808"
 ---
 # <a name="durablecommitcallbackdispose-method"></a>DurableCommitCallback Dispose 方法
 
@@ -32,7 +32,7 @@ ms.locfileid: "104553323"
 <thead>
 <tr class="header">
 <th> </th>
-<th>Name</th>
+<th>名稱</th>
 <th>描述</th>
 </tr>
 </thead>

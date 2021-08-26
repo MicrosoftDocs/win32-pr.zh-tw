@@ -4,12 +4,12 @@ ms.assetid: 117c3d6d-24cd-462f-bdb0-b65d8914273a
 title: 'WM_GETTEXT 訊息 (Winuser .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 47f8e2268c1d0ec043e24a001f16abae357bdbdc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e3e1bc6a8a77c51b3ab5b84f5cce700e65b180b357c932b4044a2b65cb49fc8e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103693856"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120089888"
 ---
 # <a name="wm_gettext-message"></a>WM \_ GETTEXT 訊息
 
@@ -68,7 +68,7 @@ ANSI 應用程式可能會將緩衝區中的字串縮減 (為 *wParam* 值的最
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                               |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 

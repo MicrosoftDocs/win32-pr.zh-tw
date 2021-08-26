@@ -4,12 +4,12 @@ ms.assetid: 15b004de-1e8a-4bea-8e3d-28885f321126
 title: 網路共用管理結構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 55a7277387867b2b0c6687afdd6e503ff997eda7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6fac6990ca3e011b6a43442caa0cdb0cc980e6255e926229eb1ce88676ab208b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106984227"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120102028"
 ---
 # <a name="network-share-management-structures"></a>網路共用管理結構
 

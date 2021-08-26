@@ -4,12 +4,12 @@ description: 區段會使用下列格式設定慣例。FormatMeaningItalicInform
 ms.assetid: 00b325b4-c19e-4191-82a8-620910a57de1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c64f2d357c6d911ee373ebd6a1b788824913aea3
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 5112953df5eb25caf666bc5b5c0d81379e95bde85eca91b56444a6c0928d3b0c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104183201"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120047258"
 ---
 # <a name="formatting-legend"></a>格式圖例
 
@@ -26,11 +26,11 @@ ms.locfileid: "104183201"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

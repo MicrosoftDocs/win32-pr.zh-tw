@@ -4,12 +4,12 @@ ms.assetid: 17dadd64-6e81-444a-985e-1b340e4f2ee5
 title: 小型更新修補範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 36d4997a326e8fea33086a75c9cf40ecef8cb997
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a0670693e9f5c6bf1c6b48c72e4b05b0f06703d69c08f46f6a2209b3d5046ea7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106995832"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120082968"
 ---
 # <a name="a-small-update-patching-example"></a>小型更新修補範例
 

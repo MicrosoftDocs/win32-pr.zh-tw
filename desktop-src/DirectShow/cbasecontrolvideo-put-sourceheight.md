@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 3fa9b8f685a257dbbe9d62f90a5cfc6b0957898d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3511cfd5d12b782fb12765ff76b3013abd402c90488fa904577bf0d51e92ebc6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994600"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120056768"
 ---
 # <a name="cbasecontrolvideoput_sourceheight-method"></a>CBaseControlVideo. put \_ SourceHeight 方法
 
@@ -55,7 +55,7 @@ HRESULT put_SourceHeight(
 
 
 
-| 傳回碼                                                                                           | Description                                                                      |
+| 傳回碼                                                                                           | 描述                                                                      |
 |-------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------|
 | <dl> <dt>**E \_ 失敗**</dt> </dl>                | 失敗。<br/>                                                              |
 | <dl> <dt>**E \_ INVALIDARG**</dt> </dl>          | 無效引數。<br/>                                                     |

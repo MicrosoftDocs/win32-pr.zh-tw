@@ -1,19 +1,19 @@
 ---
-description: 指出如果 Wi-Fi Direct 裝置支援 Miracast，則為 Miracast 通訊協定的版本。
+description: 指出 Wi-Fi Direct 裝置 Miracast 能力時，Miracast 通訊協定的版本。
 ms.assetid: c888120e-a8c8-4e64-8c38-ce6b74dd1718
 title: WiFiDirect. MiracastVersion
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 06ee7d126173030484c7a3f8d723baa5f72a9fd5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b7c8eb009d4e06b8c1511259c860296e36b3de2a34cf3c7a0bb7406cc7139014
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192551"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120059348"
 ---
 # <a name="systemdeviceswifidirectmiracastversion"></a>WiFiDirect. MiracastVersion
 
-指出如果 Wi-Fi Direct 裝置支援 Miracast，則為 Miracast 通訊協定的版本
+指出 Wi-Fi Direct 裝置 Miracast 能力時，Miracast 通訊協定的版本
 
 ## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507"></a>Windows 10，1703版、Windows 10、1607版、Windows 10、1511版、Windows 10、1507版
 

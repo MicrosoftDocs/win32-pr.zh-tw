@@ -3,7 +3,7 @@ title: 'TBM_GETRANGEMIN 訊息 (Commctrl .h) '
 description: 抓取捲軸中滑杆的最小位置。
 ms.assetid: 64334aed-0403-4785-829e-693292734d10
 keywords:
-- TBM_GETRANGEMIN message Windows 控制項
+- TBM_GETRANGEMIN 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fddef597f7b129f8334f75136f56404a8ef117fa
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 92b79cfcf589dcd246699e0eb79c30368a3cad0e72eb74a76528967d3a0683d0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934408"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120046538"
 ---
 # <a name="tbm_getrangemin-message"></a>TBM \_ GETRANGEMIN 訊息
 
@@ -45,8 +45,8 @@ ms.locfileid: "103934408"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

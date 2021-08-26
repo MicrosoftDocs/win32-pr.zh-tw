@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d5f5c5863e804cd4bbaab651447e4c6f22dc24a6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 63b71538e41e4b70155da8352e531b620fbe5de7f62746713c3a2a58f3adddf2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104467128"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120002688"
 ---
 # <a name="doreadermode-function"></a>DoReaderMode 函式
 
@@ -70,8 +70,8 @@ void WINAPI DoReaderMode(
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows Vista、Windows Vista \[ 桌面應用程式\]<br/>                                                   |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                            |
+| 最低支援的用戶端<br/> | Windowsvista，僅 Windows vista \[ 桌面應用程式\]<br/>                                                   |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                            |
 | DLL<br/>                      | <dl> <dt>Comctl32.dll (4.72 版或更新版本) </dt> </dl> |
 
 

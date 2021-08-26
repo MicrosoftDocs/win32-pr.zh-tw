@@ -6,12 +6,12 @@ keywords:
 - 長條圖效果
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b654ffb2b830914b00a59490ceb429b5de9c51cb
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 08477a832b2dbf758d26a16e78905f8530d4d4525205cbc85e9d138f8b3bded7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384493"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120044404"
 ---
 # <a name="histogram-effect"></a>長條圖效果
 
@@ -34,7 +34,7 @@ ms.locfileid: "104384493"
 | 之前                                                     |
 |------------------------------------------------------------|
 | ![效果之前的影像。](images/default-before.jpg) |
-| 長條圖輸出資料的圖表                         |
+| 長條圖輸出資料的 Graph                         |
 | ![轉換後的影像。](images/33-histogram.png) |
 
 
@@ -76,7 +76,7 @@ hr = histogramEffect->GetValue(D2D1_HISTOGRAM_PROP_HISTOGRAM_OUTPUT,
 
 
 
-| 顯示名稱和索引列舉                                             | 類型和預設值                                                   | Description                                                                                                                                                                                   |
+| 顯示名稱和索引列舉                                             | 類型和預設值                                                   | 描述                                                                                                                                                                                   |
 |--------------------------------------------------------------------------------|--------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | NumBins<br/> D2D1 \_ 長條圖 \_ 的 \_ 數目 \_ 分類<br/>                 | UINT32<br/> 256<br/>                                         | 指定用於長條圖的 bin 數目。 落在特定值區中的濃度值範圍取決於指定的 bucket 數目。                              |
 | ChannelSelect<br/> D2D1 \_ 長條圖 \_ 的 \_ \_ 選擇通道<br/>     | D2D1 \_ 通道 \_ 選取器<br/> D2D1 \_ 通道 \_ 選取器 \_ R<br/> | 指定用來產生長條圖的通道。 此效果具有對應至指定通道的單一資料輸出。 如需詳細資訊，請參閱 [通道選取器](#channel-selectors) 。 |
@@ -118,8 +118,8 @@ hr = histogramEffect->GetValue(D2D1_HISTOGRAM_PROP_HISTOGRAM_OUTPUT,
 
 | 需求 | 值 |
 |--------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端 | 適用于 Windows 7 desktop app 的 Windows 8 和平臺更新 \[ \| windows Store 應用程式\] |
-| 最低支援的伺服器 | 適用于 Windows 7 desktop app 的 Windows 8 和平臺更新 \[ \| windows Store 應用程式\] |
+| 最低支援的用戶端 | Windows 7 傳統型應用程式的 Windows 8 和平臺更新 \[ \| Windows 儲存應用程式\] |
+| 最低支援的伺服器 | Windows 7 傳統型應用程式的 Windows 8 和平臺更新 \[ \| Windows 儲存應用程式\] |
 | 標頭                   | d2d1effects。h                                                                      |
 | 程式庫                  | d2d1 .lib，dxguid .lib                                                               |
 

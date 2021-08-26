@@ -4,12 +4,12 @@ ms.assetid: ec0e367e-9ef9-4de6-9132-b462c233bc98
 title: 使用範例捕獲
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d4886c796691e83e02b58ddea129d60d5004c9f3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 47318b7bd4dbbad57fb82bec11e0a1293a0284c906c78fc7175d8a758ad477f2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106992481"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120083558"
 ---
 # <a name="using-the-sample-grabber"></a>使用範例捕獲
 
@@ -19,18 +19,18 @@ ms.locfileid: "106992481"
 
 如果您只是要從影片檔案抓取點陣圖， [ (MediaDet) ](media-detector--mediadet.md) 物件中使用媒體偵測器會比較容易。 如需詳細資訊，請參閱 [抓取海報框架](grabbing-a-poster-frame.md) 。 不過，範例抓取程式更有彈性，因為它幾乎適用于任何媒體類型 (請參閱 [**ISampleGrabber：： SetMediaType**](isamplegrabber-setmediatype.md)) 的幾個例外狀況，並為應用程式提供更多控制權。
 
--   [建立篩選圖形管理員](#create-the-filter-graph-manager)
--   [將範例捕獲新增至篩選圖形](#add-the-sample-grabber-to-the-filter-graph)
+-   [建立篩選 Graph 管理員](#create-the-filter-graph-manager)
+-   [將範例捕獲新增至篩選 Graph](#add-the-sample-grabber-to-the-filter-graph)
 -   [設定媒體類型](#set-the-media-type)
--   [建立篩選圖形](#build-the-filter-graph)
--   [執行圖形](#run-the-graph)
+-   [建立篩選 Graph](#build-the-filter-graph)
+-   [執行 Graph](#run-the-graph)
 -   [抓取範例](#grab-the-sample)
 -   [範例程式碼](#example-code)
 -   [相關主題](#related-topics)
 
-## <a name="create-the-filter-graph-manager"></a>建立篩選圖形管理員
+## <a name="create-the-filter-graph-manager"></a>建立篩選 Graph 管理員
 
-若要開始，請建立 [篩選圖形管理員](filter-graph-manager.md) 並查詢 [**IMediaControl**](/windows/desktop/api/Control/nn-control-imediacontrol) 和 [**IMediaEventEx**](/windows/desktop/api/Control/nn-control-imediaeventex) 介面。
+若要開始，請為 [**IMediaControl**](/windows/desktop/api/Control/nn-control-imediacontrol)和 [**IMediaEventEx**](/windows/desktop/api/Control/nn-control-imediaeventex)介面建立 [篩選 Graph 管理員](filter-graph-manager.md)和查詢。
 
 
 ```C++
@@ -63,7 +63,7 @@ ms.locfileid: "106992481"
 
 
 
-## <a name="add-the-sample-grabber-to-the-filter-graph"></a>將範例捕獲新增至篩選圖形
+## <a name="add-the-sample-grabber-to-the-filter-graph"></a>將範例捕獲新增至篩選 Graph
 
 建立範例捕獲篩選器的實例，並 addit 至篩選圖形。 查詢 [**ISampleGrabber**](isamplegrabber.md) 介面的範例捕獲篩選器。
 
@@ -120,11 +120,11 @@ ms.locfileid: "106992481"
 
 
 
-## <a name="build-the-filter-graph"></a>建立篩選圖形
+## <a name="build-the-filter-graph"></a>建立篩選 Graph
 
-現在您可以建立篩選圖形的其餘部分。 因為範例抓取器只會使用您指定的媒體類型進行連線，這可讓您在建立圖表時利用篩選圖形管理員的 [智慧型連接](intelligent-connect.md) 機制。
+現在您可以建立篩選圖形的其餘部分。 因為範例抓取器只會使用您指定的媒體類型進行連線，這可讓您在建立圖表時，利用篩選 Graph Manager 的[智慧型連線](intelligent-connect.md)機制。
 
-例如，如果您指定了未壓縮的影片，您可以將來源篩選連接到範例抓取器，而篩選圖形管理員會自動加入檔案剖析器和解碼器。 下列範例會使用 ConnectFilters helper 函式，它會列在 [[連接兩個篩選器]](connect-two-filters.md)中：
+例如，如果您指定了未壓縮的影片，您可以將來源篩選連接到範例抓取器，而篩選 Graph 管理員會自動新增檔案剖析器和解碼器。 下列範例會使用 ConnectFilters helper 函式，此函式列在[連線兩個篩選器](connect-two-filters.md)中：
 
 
 ```C++
@@ -200,7 +200,7 @@ ms.locfileid: "106992481"
 
 請注意，在影片解碼和影片轉譯器之間放置範例，可能會大幅影響轉譯效能。 範例抓取器是一種就地篩選，這表示輸出緩衝區與輸入緩衝區相同。 針對影片轉譯，輸出緩衝區可能位於圖形配接器上，其中讀取作業的速度會比主儲存體中的讀取作業慢很多。
 
-## <a name="run-the-graph"></a>執行圖形
+## <a name="run-the-graph"></a>執行 Graph
 
 範例抓取程式會以兩種模式的其中一種方式運作：
 
@@ -211,7 +211,7 @@ ms.locfileid: "106992481"
 
 （選擇性）使用值 **TRUE** 來呼叫 [**ISampleGrabber：： SetOneShot**](isamplegrabber-setoneshot.md)方法。 這會導致範例捕獲程式在收到第一個媒體範例之後停止，這在您想要從資料流程抓取單一畫面格時很有用。 搜尋所需的時間、執行圖形，然後等候 [**EC \_ 完成**](ec-complete.md) 事件。 請注意，畫面格精確度的層級取決於來源。 例如，在尋找 MPEG 檔案時，通常不會有正確的框架。
 
-若要儘快執行圖形，請依照 [設定圖形時鐘](setting-the-graph-clock.md)中所述的方式來開啟圖形時鐘。
+若要盡可能快速地執行圖形，請依照[設定 Graph 時鐘](setting-the-graph-clock.md)中所述的方式來開啟圖形時鐘。
 
 下列範例會啟用一次模式和緩衝模式、執行篩選圖形，並等候完成。
 

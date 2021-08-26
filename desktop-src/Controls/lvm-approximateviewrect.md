@@ -3,7 +3,7 @@ title: 'LVM_APPROXIMATEVIEWRECT 訊息 (Commctrl .h) '
 description: 計算顯示指定專案數目所需的大約寬度和高度。 您可以明確地傳送此訊息，或使用 ListView \_ ApproximateViewRect 宏。
 ms.assetid: a14331a8-217d-48c6-9489-fb90c4d31b91
 keywords:
-- LVM_APPROXIMATEVIEWRECT message Windows 控制項
+- LVM_APPROXIMATEVIEWRECT 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: be929d34acad46b75a53a9e0cc8825ec9801e998
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 97fcbb5476f28debd28116a52123bd01b8030c8b0a0c9c52e6598c864caed021
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103933927"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120047058"
 ---
 # <a name="lvm_approximateviewrect-message"></a>LVM \_ APPROXIMATEVIEWRECT 訊息
 
@@ -59,8 +59,8 @@ ms.locfileid: "103933927"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

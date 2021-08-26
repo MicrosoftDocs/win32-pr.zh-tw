@@ -11,12 +11,12 @@ keywords:
 - 登錄，私人線上商店
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e11490a8a12659dfc1e2c5445167e8d71abaf00
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0667c19ffde3bb3c78b539253650e4f6f0b84cfbfd940f4d06237f987b99efd1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372377"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120002928"
 ---
 # <a name="private-online-stores"></a>私人線上商店
 
@@ -34,9 +34,9 @@ HKEY \_ CURRENT \_ USER \\ Software \\ Microsoft \\ MediaPlayer \\ PrivateServic
 
 
 
- 
+ 
 
-只有當控制項在遠端模式中執行時，Windows Media Player 10 ActiveX 控制項才支援私用線上存放區。 無論控制項是否以遠端模式執行，Windows Media Player 11 ActiveX 控制項都支援私用線上存放區。
+只有當控制項在遠端模式中執行時，Windows Media Player 10 ActiveX 控制項才支援私用線上存放區。 無論控制項是否以遠端模式執行，Windows Media Player 11 ActiveX 控制項都支援私用線上商店。
 
 ## <a name="related-topics"></a>相關主題
 
@@ -45,9 +45,9 @@ HKEY \_ CURRENT \_ USER \\ Software \\ Microsoft \\ MediaPlayer \\ PrivateServic
 [**Type 1 和 Type 2 線上商店的一般資訊**](information-common-to-type-1-and-type-2-online-stores.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

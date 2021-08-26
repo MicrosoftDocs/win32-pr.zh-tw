@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fb40ef8c0c984258dc11dd00c80807db2f4eb64a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6ad61be7a611eefc18f408f3f325a45b5f5952e81d53279f04f002f8d87dc2f7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106997738"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120031058"
 ---
 # <a name="iwmpmediagetattributename-method"></a>IWMPMedia：： getAttributeName 方法
 
@@ -70,7 +70,7 @@ Implements IWMPMedia.getAttributeName
 
 在呼叫這個方法之前，您必須擁有程式庫的讀取權限。 如需詳細資訊，請參閱連結 [庫存取](library-access.md)。
 
-如需 Windows Media Player 所支援之屬性的詳細資訊，請參閱 [屬性參考](attribute-reference.md)。
+如需 Windows Media Player 所支援之屬性的詳細資訊，請參閱[屬性參考](attribute-reference.md)。
 
 ## <a name="examples"></a>範例
 

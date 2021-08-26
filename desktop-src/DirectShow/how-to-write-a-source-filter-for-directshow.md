@@ -1,22 +1,22 @@
 ---
-description: 本主題說明如何撰寫適用于 DirectShow 的自訂來源篩選。
+description: 本主題說明如何撰寫 DirectShow 的自訂來源篩選。
 ms.assetid: 032f7624-2237-41cd-844a-18ed4a2e420d
-title: 如何撰寫 DirectShow 的來源篩選
+title: 如何為 DirectShow 撰寫來源篩選
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 87af99595a43c86be0e2f4ecaa51768a211e9674
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 79ea6821dc7d56f2628ce68e7320e5e76b2c1643978e68287d434b7a111cbbd0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104510291"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120043238"
 ---
-# <a name="how-to-write-a-source-filter-for-directshow"></a>如何撰寫 DirectShow 的來源篩選
+# <a name="how-to-write-a-source-filter-for-directshow"></a>如何為 DirectShow 撰寫來源篩選
 
-本主題說明如何撰寫適用于 DirectShow 的自訂來源篩選。
+本主題說明如何撰寫 DirectShow 的自訂來源篩選。
 
 > [!Note]  
-> 本主題僅描述推送來源;它不會描述提取來源（例如，非同步讀取器篩選器）或連接到提取來源的分隔器篩選。 如需 *推送* 和 *提取* 來源之間的差異，請參閱 [篩選開發人員的資料流程](data-flow-for-filter-developers.md)。
+> 本主題僅描述推送來源;它不會描述提取來源（例如，非同步讀取器篩選器）或連接到提取來源的分隔器篩選。 如需 *推送* 和 *提取* 來源之間的差異，請參閱 [篩選開發人員的資料 Flow](data-flow-for-filter-developers.md)。
 
  
 
@@ -24,7 +24,7 @@ ms.locfileid: "104510291"
 
 當您撰寫來源篩選器時，請務必瞭解推播來源與即時來源的內容不同。 即時來源會從某個外部來源（例如相機或網路串流）取得資料。 一般情況下，即時來源無法控制傳入資料的速率。 如果下游篩選器的資料不夠快，則來源需要卸載範例。
 
-但推送來源不必是即時來源。 例如，推送來源可以從本機檔案讀取資料。 在這種情況下，下游轉譯器篩選器會根據參考時鐘和取樣時間戳記，判斷其從來源取用資料的速度。 來源篩選器會儘快傳遞範例，但實際的資料流程會受到轉譯器的限制。 [篩選器開發人員](data-flow-for-filter-developers.md)的資料流程中描述了控制資料流程的機制。
+但推送來源不必是即時來源。 例如，推送來源可以從本機檔案讀取資料。 在這種情況下，下游轉譯器篩選器會根據參考時鐘和取樣時間戳記，判斷其從來源取用資料的速度。 來源篩選器會儘快傳遞範例，但實際的資料流程會受到轉譯器的限制。 [篩選器開發人員的資料 Flow](data-flow-for-filter-developers.md)會描述控制資料流程的機制。
 
 來源篩選器上的每個輸出釘選都會建立一個稱為 *串流執行緒* 的執行緒。 Pin 會在串流處理執行緒上提供範例。 一般而言，所有的解碼、處理和轉譯都會發生在此執行緒上，不過某些下游篩選器可能會建立額外的執行緒，以將其輸出範例排入佇列。
 
@@ -44,7 +44,7 @@ until (stopped)
 
 ## <a name="using-csource-and-csourcestream"></a>使用 CSource 和 CSourceStream
 
-DirectShow 基礎類別包含兩個支援推送來源的類別： [**CSource**](csource.md) 和 [**CSourceStream**](csourcestream.md)。
+DirectShow 基類包含兩個支援推送來源的類別： [**CSource**](csource.md)和 [**CSourceStream**](csourcestream.md)。
 
 -   [**CSource**](csource.md) 是篩選的基類，並會執行 [**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter) 介面。
 -   [**CSourceStream**](csourcestream.md) 是輸出圖釘的基類，並會執行 [**IPin**](/windows/desktop/api/Strmif/nn-strmif-ipin) 介面。
@@ -134,7 +134,7 @@ DirectShow 基礎類別包含兩個支援推送來源的類別： [**CSource**](
 
 如果應用程式設定新的時間格式，則會根據新的時間格式來解讀 [**IMediaSeeking**](/windows/desktop/api/Strmif/nn-strmif-imediaseeking) 方法中的所有位置參數。 例如，如果時間格式是畫面格， [**IMediaSeeking：： GetDuration**](/windows/desktop/api/Strmif/nf-strmif-imediaseeking-getduration) 方法必須傳回框架中的持續時間。
 
-在實務上，少數的 DirectShow 篩選器支援額外的時間格式，因此，少數的 DirectShow 應用程式會使用這項功能。
+在實務上，少數 DirectShow 篩選準則支援額外的時間格式，因此，少數 DirectShow 的應用程式會使用這項功能。
 
 ## <a name="related-topics"></a>相關主題
 

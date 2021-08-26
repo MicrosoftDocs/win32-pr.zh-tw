@@ -4,12 +4,12 @@ description: RPC 負載平衡
 ms.assetid: c646f748-d5f2-422d-8305-1f86c0dc61b4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4039742fcfcc67280c610270908bed51034f691a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a7fbace237f6d86ebadf3fadc5f3b376d94799b137153b114bc07fead3d64b09
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104020891"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120101648"
 ---
 # <a name="rpc-load-balancing"></a>RPC 負載平衡
 
@@ -28,7 +28,7 @@ Microsoft RPC 負載平衡旨在提供可調整的解決方案，適用于需要
 
 ## <a name="requirements"></a>規格需求
 
-執行 windows Server 2008 R2 或更新版本的伺服器，以及執行 Windows 7 或更新版本 Windows 的用戶端，都支援 RPC 負載平衡服務。
+執行 Windows Server 2008 R2 或更新版本的伺服器，以及執行 Windows 7 或更新版本 Windows 的用戶端，都支援 RPC 負載平衡服務。
 
 RPC Proxy 服務、RPC 負載平衡服務和伺服器端點都必須在同一部電腦上執行。 此外，伺服器陣列中的所有伺服器都必須能夠服務所要求的端點。 如需設定 RPC Proxy 服務與 RPC 負載平衡服務的相關資訊，請參閱分別設定 [rpc OVER HTTP 的電腦](configuring-computers-for-rpc-over-http.md) 和設定 [負載平衡](configuring-load-balancing.md)。
 
@@ -36,9 +36,9 @@ RPC Proxy 服務、RPC 負載平衡服務和伺服器端點都必須在同一部
 
 目前，RPC 負載平衡只支援每個資源一個伺服器陣列。 所有伺服器陣列中的所有伺服器也必須能夠服務所有資源。
 
- 
+ 
 
- 
+ 
 
 
 

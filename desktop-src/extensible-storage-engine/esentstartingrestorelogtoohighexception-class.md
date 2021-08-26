@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: bf3be54b85359f00c94cfc35b960c2d3bf6b202f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a886142e5b99546ba01ce941c9a24a116e43adf8011ba938098c4baeca6fac15
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319999"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120018008"
 ---
 # <a name="esentstartingrestorelogtoohighexception-class"></a>EsentStartingRestoreLogTooHighException 類別
 

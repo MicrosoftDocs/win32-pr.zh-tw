@@ -17,12 +17,12 @@ api_location:
 - WinSpool.drv
 - Ext-MS-Win-Printer-WinSpool-l1-1-2.dll
 - Ext-MS-Win-Printer-WinSpool-L1-1-3.dll
-ms.openlocfilehash: 34dfc8c0239a10d7e7f036beed457d57329f4c67
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9259429a7696e832bbbe6d0dd4bbb6fb46e7bce2bf7157122c10ca47656af346
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975185"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120060018"
 ---
 # <a name="setjob-function"></a>SetJob 函式
 
@@ -83,11 +83,11 @@ BOOL SetJob(
 
 設定列印工作參數之結構的指標。
 
-**所有版本的 Windows**： *PJob* 可指向 [**作業 \_ 資訊 \_ 1**](job-info-1.md) 或 [**作業 \_ 資訊 \_ 2**](job-info-2.md) 結構。
+**所有版本的 Windows**： *pJob* 可指向 [**作業 \_ 資訊 \_ 1**](job-info-1.md)或 [**作業 \_ 資訊 \_ 2**](job-info-2.md)結構。
 
 *pJob* 也可以指向 [**作業 \_ 資訊 \_ 3**](job-info-3.md) 結構。 您必須擁有作業 **\_ 資訊 \_ 3** 結構的 **JobId** 和 **NextJobId** 成員所指定之作業的 **作業存取權 \_ \_ 管理** 存取權限。
 
-從 **Windows Vista** 開始： *pJob* 也可以指向 [**工作 \_ 資訊 \_ 4**](job-info-4.md) 結構。
+從 **Windows Vista** 開始： *pJob* 也可以指向 [**工作 \_ 資訊 \_ 4**](job-info-4.md)結構。
 
 如果 *Level* 參數為0，則 *PJob* 應該是 **Null**。
 
@@ -164,7 +164,7 @@ BOOL SetJob(
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                                |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                      |
-| 標頭<br/>                   | <dl> <dt>Winspool.drv (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>winspool.drv (包含 Windows .h) </dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>Winspool.drv .lib</dt> </dl>                   |
 | DLL<br/>                      | <dl> <dt>Winspool.drv. winspool.drv</dt> </dl>                   |
 | Unicode 與 ANSI 名稱<br/>   | **SetJobW** (Unicode) 和 **SetJobA** (ANSI) <br/>                                                   |

@@ -4,12 +4,12 @@ ms.assetid: 32835bcd-e0b6-4156-ac1b-05d5bfc3116c
 title: COM + 程式設計參考
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fba749c6b0c4952e2c35c5e97a8751b9c1613332
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: a607974a25558fdbecbcb0d7630045751bfcd7503033142312d9a1e7db60f2dd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110397"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120029528"
 ---
 # <a name="com-programming-reference"></a>COM + 程式設計參考
 

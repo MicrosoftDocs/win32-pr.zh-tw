@@ -7,12 +7,12 @@ keywords:
 - WGL 函式，字型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e205549346cccc2c44b7670db91530cfbc24017d
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 1341dab969178a08e43c1af0a32c4cac817072ad2d5315cd051df2c87ac3c3fc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104383666"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120082438"
 ---
 # <a name="font-and-text-functions-opengl"></a>字型和文字函數 (OpenGL) 
 
@@ -20,7 +20,7 @@ ms.locfileid: "104383666"
 
 
 
-| Windows 函數                                 | Description                                                                                                                                                                                                                      |
+| Windows功能                                 | 描述                                                                                                                                                                                                                      |
 |--------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**wglUseFontBitmaps**](/windows/desktop/api/wingdi/nf-wingdi-wglusefontbitmapsa)   | 建立一組字元點陣圖顯示清單。 字元來自指定之裝置內容的目前字型。 字元會指定為字型字元集內的連續執行。                                      |
 | [**wglUseFontOutlines**](/windows/desktop/api/wingdi/nf-wingdi-wglusefontoutlinesa) | 根據目前選取的裝置內容大綱字型字型，建立一組顯示清單，以與目前的轉譯內容搭配使用。 顯示清單是用來繪製立體字元的 TrueType 字型。 |

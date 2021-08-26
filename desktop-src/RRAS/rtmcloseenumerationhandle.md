@@ -14,16 +14,16 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a5adb47d40cb1300305c7ff6f9bb6f1c3c716f0f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0313cc594b0629509ffcee65ea333caa9dbc373de323dc656a6028bc26e14317
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104025241"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120081048"
 ---
 # <a name="rtmcloseenumerationhandle-function"></a>RtmCloseEnumerationHandle 函式
 
-\[此 API 已由 [路由表管理員第2版](about-routing-table-manager-version-2.md) api 取代，而且將無法在 Windows Server 2003 之外使用。 應用程式應該使用路由表管理員第2版 API。\]
+\[此 api 已由[路由表管理員第2版](about-routing-table-manager-version-2.md)api 取代，而且將無法在 Windows Server 2003 之外使用。 應用程式應該使用路由表管理員第2版 API。\]
 
 **RtmCloseEnumerationHandle** 會終止指定的列舉，並釋出相關聯的資源。
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Windowscodecs.dll
 - Wincodec.lib
-ms.openlocfilehash: 89eb7342277d335c78ee2bc6807f2fc4d170bb9b
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 6911c2adc46bf59a93ba5d09b34a7d9b1234d4b78782b9f491af4d0f6317c2d9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108113606"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120056668"
 ---
 # <a name="iwicbitmapframeencode_getmetadataquerywriter_proxy-function"></a>IWICBitmapFrameEncode \_ GetMetadataQueryWriter \_ Proxy 函式
 
@@ -73,8 +73,8 @@ HRESULT IWICBitmapFrameEncode_GetMetadataQueryWriter_Proxy(
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows XP （含 SP2）、 \[ 僅限 Windows Vista 桌面應用程式\]<br/>                                                                                              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                                                                                             |
+| 最低支援的用戶端<br/> | WindowsXP SP2，僅 Windows Vista \[ 桌面應用程式\]<br/>                                                                                              |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                                                                                             |
 | DLL<br/>                      | <dl> <dt>Windowscodecs.dll;</dt><dt>Wincodec .lib</dt> </dl> |
 
 

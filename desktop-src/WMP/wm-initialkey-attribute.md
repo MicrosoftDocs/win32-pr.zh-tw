@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 89dd4daeabe2971615518b0a3cf37223a4c623c3
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c3d5cb7576f7dc4c4c6a65a80c09222c30a3312e54230535bd64494a4eeae4d5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106987076"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120000998"
 ---
 # <a name="wminitialkey-attribute"></a>WM/InitialKey 屬性
 
@@ -26,13 +26,13 @@ ms.locfileid: "106987076"
 ## <a name="applies-to"></a>套用至
 
 -   [音訊專案](audio-item-attributes.md)
--   [常用的 Windows Media 檔案屬性](commonly-used-windows-media-file-attributes.md)
+-   [常用 Windows 媒體檔案屬性](commonly-used-windows-media-file-attributes.md)
 
 ## <a name="remarks"></a>備註
 
 這個屬性會儲存在文件庫和數位媒體檔案中。
 
-這個屬性的 Windows Media Format SDK 常數是 g \_ wszWMInitialKey。
+這個屬性的 Windows 媒體格式 SDK 常數是 g \_ wszWMInitialKey。
 
 **InitialKey** 是此屬性的別名。
 

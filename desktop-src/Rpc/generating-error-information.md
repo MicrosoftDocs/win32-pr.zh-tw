@@ -4,12 +4,12 @@ description: 如果伺服器或應用程式在透過 RPC 呼叫時發生嚴重�
 ms.assetid: 6658c387-94df-4d85-9749-53858f9e0f5f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1b06a13e932034e6840479443e0b78f4c322c0b3
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e7eb6868dfe11318e09b30217d5410a94ce32983ce64e75521c55fc5cc060ad0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106965790"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120020908"
 ---
 # <a name="generating-error-information"></a>產生錯誤資訊
 
@@ -29,9 +29,9 @@ ms.locfileid: "106965790"
 
 如果沒有足夠的記憶體可用， [**RpcErrorAddRecord**](/windows/desktop/api/Rpcasync/nf-rpcasync-rpcerroraddrecord) 函數呼叫可能會失敗，即使它只需要幾個位元組的堆積空間也一樣。 此外， **RpcErrorAddRecord** 所加入的記錄會累積在指定的執行緒中。 執行時間通常會在呼叫您的伺服器常式之前清除這些記錄，但如果在 RPC 外部使用延伸的錯誤資訊，請呼叫 [**RpcErrorClearInformation**](/windows/desktop/api/Rpcasync/nf-rpcasync-rpcerrorclearinformation)來處理線上程中累積累積的擴充錯誤。
 
- 
+ 
 
- 
+ 
 
 
 

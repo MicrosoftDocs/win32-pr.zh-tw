@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8fb7c8f109fb1d393b3b5646907f697d394e99c6
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 0c83bcf3f809c3a25f9e17daab9acdc63d78b3b2b8b7b2d9f3c5fd7533c315f9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103678439"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120055708"
 ---
 # <a name="aspectratioy"></a>AspectRatioY
 
@@ -45,9 +45,9 @@ g \_ wszWMAspectRatioY
 [**使用非正方形圖元讀取和寫入影片串流**](to-read-and-write-video-streams-with-non-square-pixels.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 231c9c250bb1fbf2025c3c1d5bae70df70ed47d0
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: ff684c046c30d9f5a323a632804e60c127574190a451ad2786bb863cd2f3b7f9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108118826"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120046458"
 ---
 # <a name="requeststatechange-method-of-the-msvm_processor-class"></a>Msvm Processor 類別的 RequestStateChange 方法 \_
 
