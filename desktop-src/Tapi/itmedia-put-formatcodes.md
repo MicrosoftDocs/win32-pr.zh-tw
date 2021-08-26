@@ -4,16 +4,16 @@ ms.assetid: b76a7fee-0fae-41fb-a8cd-6803458d9182
 title: 'ITMedia：:p ut_FormatCodes 方法 (Sdpblb .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a9131f946635c2bb066e704f1d6245c1c30d1372
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: dac8c2d9e102c6a923a535b8141c546885c583668e32fddb1fc607a8c1179a99
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106988235"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120012958"
 ---
 # <a name="itmediaput_formatcodes-method"></a>ITMedia：:p 的 \_ FormatCodes 方法
 
-\[ 在 Windows Vista、Windows Server 2008 和後續版本的作業系統中，無法使用會合 IP 電話語音會議控制項和介面。 RTC 用戶端 API 提供類似的功能。\]
+\[Windows Vista、Windows Server 2008 及後續版本的作業系統無法使用會合 IP 電話語音會議控制項和介面。 RTC 用戶端 API 提供類似的功能。\]
 
 **Put \_ FormatCodes** 方法會設定媒體裝載格式的程式代碼清單。 變數包含 **BSTR** s 的 SAFEARRAY。 該陣列中的每個 **BSTR** 都是格式的程式碼字串。
 
@@ -45,7 +45,7 @@ HRESULT put_FormatCodes(
 
 
 
-| 傳回碼                                                                                   | Description                                                     |
+| 傳回碼                                                                                   | 描述                                                     |
 |-----------------------------------------------------------------------------------------------|-----------------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>          | 方法成功。<br/>                                    |
 | <dl> <dt>**E \_ INVALIDARG**</dt> </dl>  | *NewVal* 參數無效。<br/>                 |

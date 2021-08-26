@@ -4,12 +4,12 @@ ms.assetid: 15096db9-a163-4278-beb2-8b7558d9e49b
 title: 預設列印介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c3efb446f720c38cb69f7a4d82079c21bb52ca72
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 93fc420ccd26f7cc4a40dc90428fffbdab56c95107861fc8b501d3c621d0bfa8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103850447"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119950118"
 ---
 # <a name="default-printing-interface"></a>預設列印介面
 

@@ -17,12 +17,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: fdc8ea1a3324395e5230ca6d47487b61c8c02ba9
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: abe08007a92959276216cac0a592d79c72147b7db0f31a51cb1673c030d1a7de
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106981123"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119919588"
 ---
 # <a name="cim_serviceservicedependency-class"></a>CIM \_ ServiceServiceDependency 類別
 

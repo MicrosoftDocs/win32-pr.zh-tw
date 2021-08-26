@@ -4,12 +4,12 @@ ms.assetid: 528763a2-c0f2-4981-91dc-dd17987f5bd5
 title: 清除資料
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 750ddd052c18928d53511d9e955122d2d66ee59d
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: c8a435bf40ae9f71b35707935812c3a935a95df1904db00a652634b171f20a10
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103687495"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119965458"
 ---
 # <a name="flushing-data"></a>清除資料
 

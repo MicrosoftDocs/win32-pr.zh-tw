@@ -6,19 +6,19 @@ keywords:
 - Windows Media Player、Network 物件
 - Windows Media Player 物件模型、Network 物件
 - 物件模型，網路物件
-- Windows Media Player ActiveX 控制項、Network 物件
-- ActiveX 控制項、Network 物件
-- Windows Media Player 的行動 ActiveX 控制項、Network 物件
-- Windows Media Player Mobile、Network 物件
+- Windows Media Player ActiveX control、Network 物件
+- ActiveX control、Network 物件
+- Windows Media PlayerMobile ActiveX control、Network 物件
+- Windows Media PlayerMobile、Network 物件
 - Network 物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a1f3ff892a4d5b078956c9d126d0efaa844031d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0378b1cd4469f6141a4ea60021f2d54e5c32b33ae1943624f7c65f70aa2a655f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671400"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119903288"
 ---
 # <a name="about-the-network-object"></a>關於 Network 物件
 
@@ -42,9 +42,9 @@ mybandwidth = player.network.bandwidth;
 [**指令碼語言的播放程式物件模型**](player-object-model-for-scripting-languages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

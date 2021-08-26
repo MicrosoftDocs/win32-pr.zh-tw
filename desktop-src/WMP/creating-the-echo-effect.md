@@ -11,12 +11,12 @@ keywords:
 - Echo DSP 外掛程式範例，建立 echo 效果
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e978562ff4cdee016f92409d183990cd4bb178b9
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: fcb79b5be53f391854f38ce9aeba1c1bbff61ed2c0a982395c7063ff53146760
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104020886"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119902288"
 ---
 # <a name="creating-the-echo-effect"></a>建立 Echo 效果
 
@@ -217,9 +217,9 @@ i = (int)((i * m_fDryMix ) + (delay * m_fWetMix));
 [**執行 CEcho：:D oProcessOutput**](implementing-cecho--doprocessoutput.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

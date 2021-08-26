@@ -4,24 +4,24 @@ ms.assetid: 97515703-0bf4-4230-ae35-181b48b70c40
 title: 建立可轉散發安裝程式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d1ad9b9ec8b10032d4a2bb44cca52e5c2f4178b6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 80bdd63a00f1f4245ea83173e1a7e609094fe30e5357f5e1ebf3d6da63182cde
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510757"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119936868"
 ---
 # <a name="creating-a-redistributable-setup"></a>建立可轉散發安裝程式
 
 若要將啟用筆墨的應用程式散發到未執行 Windows Vista 或 Windows XP Tablet PC Edition 2005 (也就是執行 Windows XP、Windows Server 2003 或 Windows 2000) 的電腦，您必須在安裝程式中包含必要的合併模組。
 
-Mstpcrt .msm merge 模組包含 Windows Installer 安裝共用檔案所需的所有檔案、資源、登錄專案和安裝程式邏輯，而其他平臺需要這些檔案才能執行針對 Tablet PC 開發的非受控應用程式。 Windows Installer ( .msi) 檔會使用 Mstpcrt。 若為使用 [**InkDivider**](inkdivider-class.md) 物件的應用程式，您也必須轉散發 InkDiv .msm。 針對使用 managed 元件的應用程式，您也必須包含這些受管理元件的合併模組檔案。
+Mstpcrt .msm merge 模組包含 Windows Installer 安裝共用檔案所需的所有檔案、資源、登錄專案和安裝程式邏輯，而其他平臺需要這些檔案才能執行針對 Tablet PC 開發的非受控應用程式。 Windows Installer (.msi) 檔會使用 Mstpcrt。 若為使用 [**InkDivider**](inkdivider-class.md) 物件的應用程式，您也必須轉散發 InkDiv .msm。 針對使用 managed 元件的應用程式，您也必須包含這些受管理元件的合併模組檔案。
 
 下表說明 Windows XP Tablet PC Edition 軟體發展工具組 (SDK) 隨附的合併模組檔案。
 
 
 
-| 可轉散發合併模組 | Description                                                                                                                    | 檔案                                                       |
+| 可轉散發合併模組 | 描述                                                                                                                    | 檔案                                                       |
 |------------------------------|--------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------|
 | InkDiv .msm<br/>        | 安裝 [**InkDivider**](inkdivider-class.md) 物件的非受控版本。<br/>                                | InkDiv.dll<br/>                                       |
 | Mstpcrt .msm<br/>       | 安裝 Tablet PC Platform 版本1.0 的非受控元件。<br/>                                            | Gdiplus.dll、InkEd.dll、Tpcps.dll、Wisptis.exe<br/>   |
@@ -46,11 +46,11 @@ Mstpcrt .msm merge 模組包含 Windows Installer 安裝共用檔案所需的所
 
 ## <a name="reduced-feature-set"></a>縮減功能集
 
-啟用筆墨的應用程式會將滑鼠事件視為畫筆移動，以模擬使用 tablet 畫筆。 使用者可以新增筆跡、清除筆跡和儲存筆跡檔。 但是，不是執行 Windows XP Tablet PC Edition 的使用者無法使用辨識和手勢。
+啟用筆墨的應用程式會將滑鼠事件視為畫筆移動，以模擬使用 tablet 畫筆。 使用者可以新增筆跡、清除筆跡和儲存筆跡檔。 但是，除了執行 Windows XP Tablet PC Edition 以外的使用者，也無法使用辨識和手勢。
 
 Mstpcrt 不包含 Windows 筆記本或 Tablet PC 輸入面板。
 
-[**PenInputPanel**](peninputpanel-class.md)物件無法在 Windows XP Tablet PC Edition 以外的任何作業系統上運作。
+除了 Windows XP Tablet PC Edition 以外， [**PenInputPanel**](peninputpanel-class.md)物件無法在任何作業系統上運作。
 
 ## <a name="deployment"></a>部署
 
@@ -59,10 +59,10 @@ Mstpcrt 不包含 Windows 筆記本或 Tablet PC 輸入面板。
 
  
 
-若要將 Mstpcrt 包含在 Microsoft Visual Studio .NET 安裝專案中：
+若要將 Mstpcrt 包含在 Microsoft Visual Studio .net 安裝專案中：
 
 1.  在 [方案總管中，選取您的安裝專案。
-2.  在 [專案] 功能表上，按一下 [ **加入**]，然後按一下 [ **合併模組**]。
+2.  在 [Project] 功能表上，按一下 [**加入**]，然後按一下 [**合併模組**]。
     > [!Note]  
     > 您也可以用滑鼠右鍵按一下 [方案總管中的安裝程式專案名稱，按一下 [**加入**]，然後選取 [**合併模組**]，以連線到 [**加入模組**] 對話方塊。
 
@@ -73,7 +73,7 @@ Mstpcrt 不包含 Windows 筆記本或 Tablet PC 輸入面板。
 
 Mstpcrt 會加入至您的安裝專案，並顯示在方案總管視窗中。
 
-Windows Installer 將合併模組中包含的檔案新增至 Program Files 資料夾。 若要使用這些檔案，終端使用者必須使用可存取 [Program Files] 資料夾的帳戶登入。
+Windows安裝程式會將合併模組中包含的檔案新增至 Program Files 資料夾。 若要使用這些檔案，終端使用者必須使用可存取 [Program Files] 資料夾的帳戶登入。
 
 > [!Note]  
 > 您必須將 [SelfRegModules 動作](../msi/selfregmodules-action.md) 和 [SelfUnregModules 動作](../msi/selfunregmodules-action.md) 動作新增至安裝順序。 [MsiPublishAssemblies 動作](../msi/msipublishassemblies-action.md)和[MsiUnpublishAssemblies 動作](/windows/desktop/Msi/msiunpublishassemblies-action)動作會從這些動作的安裝順序中收到其順序。

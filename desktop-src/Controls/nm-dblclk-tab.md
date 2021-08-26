@@ -3,7 +3,7 @@ title: 'NM_DBLCLK (] 索引標籤) 通知碼 (Commctrl) '
 description: 通知索引標籤控制項的父視窗，使用者在控制項內按兩下滑鼠左鍵。 此通知碼會以 WM 通知訊息的形式傳送 \_ 。
 ms.assetid: fd99f195-ceac-47e8-b584-d814b055fa21
 keywords:
-- NM_DBLCLK (] 索引標籤) 通知碼 Windows 控制項
+- NM_DBLCLK (] 索引標籤) 通知程式碼 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 74c8171696e57684be55e6e42792666ae206d890
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 61c100b266ea0e409b9d48846e81d1a5bf9a07de0c6473800b4f2251942bc94b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105455"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119919688"
 ---
 # <a name="nm_dblclk-tab-notification-code"></a>NM \_ DBLCLK (tab) 通知碼
 
@@ -55,8 +55,8 @@ NM_DBLCLK
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

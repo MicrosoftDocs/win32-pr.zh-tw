@@ -4,12 +4,12 @@ ms.assetid: f5464614-f6bb-427d-5488-3ba0fd4c6e8d
 title: 元件的向量函數
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 70d7bae881827e0662a06c46dd54971ce5ed591d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1aee8de793dc6d1c4cd7880581a20dbf43bbba38487728e37d3bf92724fd0f26
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106983537"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119979328"
 ---
 # <a name="component-wise-vector-functions"></a>元件的向量函數
 

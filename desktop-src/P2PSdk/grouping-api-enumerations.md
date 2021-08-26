@@ -4,12 +4,12 @@ ms.assetid: 7f7e926c-e8dc-48c0-b5b9-0dc98686a174
 title: 將 API 列舉分組
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 34ce48a9f4b3b3894be90b809bc29d83496642d9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b238b135296aee82611eabe7224ab9bfc39d9662f27fcf8c8bf68adf4e7cdd0e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106977328"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119887568"
 ---
 # <a name="grouping-api-enumerations"></a>將 API 列舉分組
 

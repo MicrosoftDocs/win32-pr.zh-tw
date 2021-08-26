@@ -4,12 +4,12 @@ ms.assetid: 2a8c5f79-18bd-4645-8777-13a65038abad
 title: 關於 Winsock
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e8996e1c72f9fe40aee74102bcb89458ae35f272
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a9c29da3d5d5a8e2f866e086e8a6ce8a286cbb7ae3dcd629996847afaf508ece
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104469072"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119996928"
 ---
 # <a name="about-winsock"></a>關於 Winsock
 

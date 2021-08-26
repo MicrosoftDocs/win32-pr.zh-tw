@@ -1,6 +1,6 @@
 ---
 title: 字元和圖像執行
-description: 圖像和圖像執行可在 DirectWrite API 的最底層功能（圖像呈現層）上取得。
+description: 字元和圖像執行可在 DirectWrite API 的最底層功能（圖像呈現層）上取得。
 ms.assetid: e670cb65-1fcb-46fd-ac0b-02eaaaa51996
 keywords:
 - DirectWrite，字型
@@ -9,16 +9,16 @@ keywords:
 - 圖像
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 32c5c6b30c9a44cde4704e6afd231cebbc91d2be
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: b39d1ca47249adf11f4e1e2072620f24553f7e299e0690c1cc147c4f74a4939f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104092840"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119902914"
 ---
 # <a name="glyphs-and-glyph-runs"></a>字元和圖像執行
 
-圖像和圖像執行可在 [DirectWrite](direct-write-portal.md) API 的最底層功能（圖像呈現層）上取得。
+字元和圖像執行可在[DirectWrite](direct-write-portal.md) API 的最底層功能（圖像呈現層）上取得。
 
 ## <a name="glyphs"></a>字符
 
@@ -44,7 +44,7 @@ ms.locfileid: "104092840"
 
 ### <a name="the-idwritefontface-interface"></a>IDWriteFontFace 介面
 
-[DirectWrite](direct-write-portal.md) 使用與 Windows Pesentation FOUNDATION (WPF) 相同的字型分類系統，因此每個字型系列可能會有多個實體字型。 字型，例如 DirectWrite 中的 [**IDWriteFontFace**](/windows/win32/api/dwrite/nn-dwrite-idwritefontface) 介面，代表具有特定權數、斜面和延展的實體字型。 其中包含字型類型、適當的檔案參考、臉部辨識資料和各種字型資料，例如度量、名稱和圖像外框。
+[DirectWrite](direct-write-portal.md)使用與 Windows Pesentation Foundation (WPF) 相同的字型分類系統，因此每個字型系列都可以有多個實體字型。 字型，例如 DirectWrite 中的 [**IDWriteFontFace**](/windows/win32/api/dwrite/nn-dwrite-idwritefontface)介面，代表具有特定權數、斜面和延展的實體字型。 其中包含字型類型、適當的檔案參考、臉部辨識資料和各種字型資料，例如度量、名稱和圖像外框。
 
 [**IDWriteFontFace**](/windows/win32/api/dwrite/nn-dwrite-idwritefontface)可以直接從字型名稱建立，或從字型集合中取得。
 
@@ -64,6 +64,6 @@ ms.locfileid: "104092840"
 
 如需詳細資訊，請參閱 [如何執行自訂文字](how-to-implement-a-custom-text-renderer.md) 轉譯器主題。
 
- 
+ 
 
- 
+ 

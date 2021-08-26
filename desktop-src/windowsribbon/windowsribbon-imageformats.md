@@ -1,38 +1,38 @@
 ---
 title: 指定功能區影像資源
-description: Windows 功能區架構是一種豐富的命令呈現系統，其設計目的是要在功能區使用者介面上廣泛地支援影像資源， (UI) 。 所有影像資源都是在功能區標記中宣告，或從功能區主機應用程式進行查詢。
+description: Windows 功能區架構是一種豐富的命令呈現系統，其設計目的是要在功能區使用者介面 (UI) 中廣泛地支援影像資源。 所有影像資源都是在功能區標記中宣告，或從功能區主機應用程式進行查詢。
 ms.assetid: 37b57992-8da8-4e6b-869d-72a136f6ad77
 keywords:
-- Windows 功能區，影像資源
+- Windows功能區、影像資源
 - 功能區、影像資源
-- Windows 功能區，透明度
+- Windows功能區、透明度
 - 功能區、透明度
-- Windows 功能區，色彩深度
+- Windows功能區、色彩深度
 - 功能區、色彩深度
-- Windows 功能區，對比
+- Windows功能區，對比
 - 功能區，對比
 - Windows 功能區中的影像資源
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 13e7666126e5b8f7fbe8b610678a8a1d71589373
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: c485de9c0d9d1b51b09d4a2b9dba95dd30a778922750a7f388c7a5c8963cda6c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104463548"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119932584"
 ---
 # <a name="specifying-ribbon-image-resources"></a>指定功能區影像資源
 
-Windows 功能區架構是一種豐富的命令呈現系統，其設計目的是要在功能區使用者介面上廣泛地支援影像資源， (UI) 。 所有影像資源都是在 [功能區標記](windowsribbon-schema.md) 中宣告，或從功能區主機應用程式進行查詢。
+Windows 功能區架構是一種豐富的命令呈現系統，其設計目的是要在功能區使用者介面 (UI) 中廣泛地支援影像資源。 所有影像資源都是在 [功能區標記](windowsribbon-schema.md) 中宣告，或從功能區主機應用程式進行查詢。
 
 針對 Windows 8 和更新版本，功能區架構支援下列圖形格式：32位 ARGB 點陣圖 (BMP) 檔和可移植網狀圖形 (PNG) 具有透明度的檔。
 
-針對 Windows 7 及更早版本，映射資源必須符合 Windows 中所使用的標準 BMP 圖形格式。
+針對 Windows 7 及更早版本，影像資源必須符合 Windows 中所使用的標準 BMP 圖形格式。
 
 > [!Note]  
 > 如果提供不支援的影像格式給架構，則可能會發生編譯錯誤。
 
- 
+ 
 
 ## <a name="image-sizes"></a>映射大小
 
@@ -65,7 +65,7 @@ Windows 功能區架構是一種豐富的命令呈現系統，其設計目的是
 
 
 
- 
+ 
 
 功能區架構會視需要調整影像資源。 不過，由於調整大小可能會產生不必要的成品和影像效能，因此強烈建議應用程式提供一組小型的影像資源，以跨越各種常用的 DPI 設定。 如果找不到完全相符的，則最接近的影像會向上或向下擴充。
 
@@ -77,7 +77,7 @@ Windows 功能區架構是一種豐富的命令呈現系統，其設計目的是
 >
 > 如果未使用符合目前螢幕 DPI 設定的 *MinDPI* 值來宣告 [**影像**](windowsribbon-element-image.md)元素，則架構會挑選最接近目前螢幕 DPI 設定的最接近 *MinDPI* 值的 **影像**，並向上調整影像資源。 否則，如果未使用 *MinDPI* 屬性值（小於目前的螢幕 DPI 設定）來宣告 **影像** 元素，則架構會挑選大於目前螢幕 DPI 設定的最接近 *MinDPI* 值，並將影像資源向下調整。
 
- 
+ 
 
 下列範例說明如何宣告一組影像來容納各種功能區大小和系統設定。
 
@@ -116,7 +116,7 @@ Windows 功能區架構是一種豐富的命令呈現系統，其設計目的是
 > [!Note]  
 > 大型影像的 sm CXICON 大小為 sm \_ \_ CXICON，而小型影像的大小為 sm \_ CXICON/2，sm \_ CXICON/2。
 
- 
+ 
 
 ## <a name="color-depth-transparency-and-contrast"></a>色彩深度、透明度和對比
 
@@ -125,7 +125,7 @@ Windows 功能區架構是一種豐富的命令呈現系統，其設計目的是
 > [!WARNING]
 > 在載入或儲存 32 BPP 影像時，許多影像編輯工具都不會保留最高順序的8位 Alpha 通道。
 
- 
+ 
 
 若要在高對比模式中正確顯示影像，其必須為 4 BPP palletized 像素格式。 轉譯影像時，功能區架構會根據影像的高對比內容重新對應特定色彩。
 
@@ -201,7 +201,7 @@ n/a
 
 
 
- 
+ 
 
 如需功能區架構所支援之影像格式的詳細資訊，請參閱下列各項：
 
@@ -279,6 +279,6 @@ n/a
 [UI \_ PKEY \_ LargeHighContrastImage](windowsribbon-reference-properties-uipkey-largehighcontrastimage.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

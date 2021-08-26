@@ -4,12 +4,12 @@ ms.assetid: 981a3def-1e59-4703-ad97-c8cd5431375d
 title: 定義安裝程式元件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3ade4476fa1bf54a0ab4f64d0d43d72265ac1eb6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2ae83d5fa02182c40fa209453484db23706db2f261f41324cd4d86894d9e78dd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975767"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119979558"
 ---
 # <a name="defining-installer-components"></a>定義安裝程式元件
 
@@ -19,7 +19,7 @@ ms.locfileid: "106975767"
 
 1.  從取得應用程式中使用的所有檔案和其他資源的目錄和檔案樹狀結構開始。
 2.  識別在應用程式間共用的任何檔案、登錄機碼、快捷方式或其他資源，而且可以由可作為 [合併模組](merge-modules.md)的現有元件提供。 您不能在您所撰寫的元件中包含這些資源。 您可以藉由合併合併模組至您的安裝套件，來取得這些元件。 下列步驟說明如何將應用程式的其餘資源組織成元件。
-3.  為每個 .exe、.dll 和 .ocx 檔案定義一個新元件。 將這些檔案指定為其元件的金鑰路徑檔案。 為每個元件指派元件程式碼 GUID。
+3.  針對每個 .exe、.dll 和 .ocx 檔案定義新元件。 將這些檔案指定為其元件的金鑰路徑檔案。 為每個元件指派元件程式碼 GUID。
 4.  為每個 .hlp 或 .chm 說明檔定義一個新元件。 將這些檔案指定為其元件的金鑰路徑檔案。 將 cnt 或..............。 為每個元件指派元件程式碼 GUID。
 5.  針對做為快捷方式目標的每個檔案定義新元件。 將這些檔案指定為其元件的金鑰路徑檔案。 為每個元件指派元件程式碼 GUID。
 6.  將所有剩餘的資源群組到資料夾中。 每個資料夾中的所有資源都必須一起出貨。 如果未來可能會有一組資源分開運送，請將這些資源放在不同的資料夾中。 為每個資料夾定義一個新元件。 請嘗試將元件總數保持在低，以改善效能。 需要讓安裝程式徹底檢查安裝的有效性時，將應用程式分成許多元件。 將元件中的任何檔案指定為金鑰路徑檔案。 為每個元件指派元件程式碼 GUID。

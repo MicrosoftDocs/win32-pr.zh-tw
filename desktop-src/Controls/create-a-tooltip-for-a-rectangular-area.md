@@ -4,12 +4,12 @@ description: 下列範例示範如何建立視窗整個工作區的標準工具�
 ms.assetid: 6AF1CE6E-AD63-4F84-9759-14FE4F16092B
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8f8daf62bf2ba85c8750fd07a1b9122b0360fc11
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c9be19be187e8c09b3aeb618e1c3518c7c15ca66816cbbb751abe43aa0b9172a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671968"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119920690"
 ---
 # <a name="how-to-create-a-tooltip-for-a-rectangular-area"></a>如何建立矩形區域的工具提示
 
@@ -23,12 +23,12 @@ ms.locfileid: "103671968"
 
 ### <a name="technologies"></a>技術
 
--   [Windows 控制項](window-controls.md)
+-   [Windows控制](window-controls.md)
 
 ### <a name="prerequisites"></a>必要條件
 
 -   C/C++
--   Windows 消費者介面程式設計
+-   Windows消費者介面程式設計
 
 ## <a name="instructions"></a>指示
 
@@ -74,9 +74,9 @@ void CreateToolTipForRect(HWND hwndParent)
 [使用工具提示控制項](using-tooltip-contro.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

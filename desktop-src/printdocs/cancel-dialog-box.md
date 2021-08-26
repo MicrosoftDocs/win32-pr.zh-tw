@@ -4,12 +4,12 @@ ms.assetid: 2b7a0ab7-bf7e-473d-ab43-8b79478d4453
 title: 如何：顯示列印工作進度
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9effc778f6affaba5b53cbd96a7a428ea5554d8c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ec61c07844262b258fb052d08d8d20e9285a8f7e9bb83808ea61eddaf32f3a88
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106997126"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119950608"
 ---
 # <a name="how-to-display-the-print-job-progress"></a>如何：顯示列印工作進度
 

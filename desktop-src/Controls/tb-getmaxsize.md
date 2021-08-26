@@ -3,7 +3,7 @@ title: 'TB_GETMAXSIZE 訊息 (Commctrl .h) '
 description: 抓取工具列中所有可見按鈕和分隔符號的總大小。
 ms.assetid: 560e6ce2-00ef-46c3-b1d8-fbe0ac79c888
 keywords:
-- TB_GETMAXSIZE message Windows 控制項
+- TB_GETMAXSIZE 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f4829e65d90c04181369dd73b9c54634f1077144
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 511d5726f117bbda183f55af5570fb75c2df3c78f5f6132dcefb406ee8fa7b70
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106965103"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119918678"
 ---
 # <a name="tb_getmaxsize-message"></a>TB \_ GETMAXSIZE 訊息
 
@@ -49,8 +49,8 @@ ms.locfileid: "106965103"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

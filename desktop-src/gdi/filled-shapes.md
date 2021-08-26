@@ -4,12 +4,12 @@ ms.assetid: 78439288-a769-4aab-aee7-7a03396ccebc
 title: 填滿的圖案
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2ede1b23b2053a28674c7467906dd747a350b4d8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cd6fc38fecb719b9f4303a2af7cc4919b93cb895cebf092fbfc70511005bfbfa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103691880"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119965908"
 ---
 # <a name="filled-shapes"></a>填滿的圖案
 
@@ -17,7 +17,7 @@ ms.locfileid: "103691880"
 
 -   橢圓形
 -   Chord
--   圓形圖
+-   Pie
 -   Polygon
 -   矩形
 

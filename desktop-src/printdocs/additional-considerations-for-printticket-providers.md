@@ -4,12 +4,12 @@ description: 深入瞭解 PrintTicket 提供者的其他考慮、支援 PrintTic
 ms.assetid: b6ffcd54-b50c-477c-8bb7-de5b7ffa1c73
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c95ec4d74dc4915b7b364e2c14e5799bfc27816a
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: c569e7ac88aca79ec64e5674257dc79b719f447bd37f3d802e690982c25cf40b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112409681"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119950808"
 ---
 # <a name="additional-considerations-for-printticket-providers"></a>針對 PrintTicket 提供者的其他考慮
 

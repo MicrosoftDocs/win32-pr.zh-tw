@@ -10,12 +10,12 @@ keywords:
 - 音訊 DSP 外掛程式，中斷
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0448220d4616122b3c99670357bbbd78de11c392
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 40de4c75c2d17699f0c72416873d64177e47d81761b27e5ffd465d89c9ecb9c8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104371906"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119903568"
 ---
 # <a name="about-discontinuity"></a>關於中斷
 
@@ -33,9 +33,9 @@ Windows Media Player 可以在輸入資料流程中的任何時間，藉由呼�
 [**執行音訊 DSP 外掛程式**](implementing-an-audio-dsp-plug-in.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

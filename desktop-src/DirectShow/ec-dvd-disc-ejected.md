@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - dvdevcode.h
-ms.openlocfilehash: ab6c1333245b589d4f13bafcba89eada3ef98ab0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ba262ca68ce9d76e9963fb54c325e9b7ba4dcf8352c9ede13c652bf0059e794a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106977495"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119965738"
 ---
 # <a name="ec_dvd_disc_ejected"></a>EC \_ DVD \_ 光碟已 \_ 退出
 

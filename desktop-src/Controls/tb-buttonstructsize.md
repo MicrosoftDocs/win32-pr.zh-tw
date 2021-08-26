@@ -3,7 +3,7 @@ title: 'TB_BUTTONSTRUCTSIZE 訊息 (Commctrl .h) '
 description: 指定 TBBUTTON 結構的大小。
 ms.assetid: 4e63a075-4191-44c1-8df6-38fce51d4be5
 keywords:
-- TB_BUTTONSTRUCTSIZE message Windows 控制項
+- TB_BUTTONSTRUCTSIZE 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7187c1f4cb45306fd293c7eb74ef8807f395ba22
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ceed10eec9038b338d060f28acdab8a10aa88aecef6b264b6d6d0682168f4937
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104025503"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119919138"
 ---
 # <a name="tb_buttonstructsize-message"></a>TB \_ BUTTONSTRUCTSIZE 訊息
 
@@ -55,8 +55,8 @@ ms.locfileid: "104025503"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

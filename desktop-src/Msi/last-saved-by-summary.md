@@ -4,12 +4,12 @@ ms.assetid: 6da171d9-29db-4524-abc6-77db8fbfca38
 title: 上次儲存的摘要屬性
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5dfd1c00863eee3bc31728783042ada8298b2067
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e9299dc6a00af4e48eb3901842aba58a3c8d9a9c1d98d3a3e1e0f05bfccc4333
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106999375"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119979448"
 ---
 # <a name="last-saved-by-summary-property"></a>上次儲存的摘要屬性
 
@@ -27,7 +27,7 @@ ms.locfileid: "106999375"
 
 | 需求 | 值 |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 版本<br/> | Windows Server 2012、Windows 8、Windows Server 2008 R2 或 Windows 7 上的 Windows Installer 5.0。 Windows Server 2008 或 Windows Vista 上的 Windows Installer 4.0 或 Windows Installer 4.5。 Windows Server 2003 或 Windows XP 上的 Windows Installer<br/> |
+| 版本<br/> | WindowsWindows Server 2012、Windows 8 Windows Server 2008 R2 或 Windows 7 上的安裝程式5.0。 WindowsWindows Server 2008 或 Windows Vista 上的安裝程式4.0 或 Windows Installer 4.5。 WindowsWindows Server 2003 或 Windows XP 上的安裝程式<br/> |
 
 
 

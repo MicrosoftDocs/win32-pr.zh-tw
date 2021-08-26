@@ -4,19 +4,19 @@ ms.assetid: be2cdcbc-03e8-407d-8ae2-569f8fd8cba8
 title: 使用大型頁面建立檔案對應
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 49a852de187f6798904ef1795dca5955663283f5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8df68cc483856d0fe7f329b4f5e6e5c8a424a8c0e55958ca1da8de1ce51cbf71
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106991710"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119869938"
 ---
 # <a name="creating-a-file-mapping-using-large-pages"></a>使用大型頁面建立檔案對應
 
 下列範例使用 [**CreateFileMapping**](/windows/desktop/api/WinBase/nf-winbase-createfilemappinga) 函數搭配 **SEC \_ 大型 \_ 頁面** 旗標來使用大型頁面。 緩衝區必須夠大，才能包含大型頁面的大小下限。 此值是使用 [**GetLargePageMinimum**](/windows/win32/api/memoryapi/nf-memoryapi-getlargepageminimum) 函式取得。 這項功能也需要 "SeLockMemoryPrivilege" 許可權。
 
 > [!NOTE]
-> 從 Windows 10 版本1703開始， [**MapViewOfFile**](/windows/win32/api/memoryapi/nf-memoryapi-mapviewoffile) 函式預設會使用小型頁面來對應視圖，即使是使用「 **\_ 大型 \_ 頁面** 」旗標建立的檔案對應物件也是一樣。 在這個和更新版本的作業系統中，您必須使用 [**MapViewOfFile**](/windows/win32/api/memoryapi/nf-memoryapi-mapviewoffile)函式指定檔案 **\_ 對應 \_ 大型 \_ 頁面** 旗標，以對應大型頁面。 在 Windows 10 1703 版之前，會忽略此旗標的 OS 版本。
+> 從 Windows 10 版本1703開始， [**MapViewOfFile**](/windows/win32/api/memoryapi/nf-memoryapi-mapviewoffile)函式預設會使用小型頁面來對應視圖，即使是使用「 **\_ 大型 \_ 頁面**」旗標建立的檔案對應物件也是一樣。 在這個和更新版本的作業系統中，您必須使用 [**MapViewOfFile**](/windows/win32/api/memoryapi/nf-memoryapi-mapviewoffile)函式指定檔案 **\_ 對應 \_ 大型 \_ 頁面** 旗標，以對應大型頁面。 在 Windows 10 1703 版之前，會忽略此旗標的 OS 版本。
 
 
 ```C++

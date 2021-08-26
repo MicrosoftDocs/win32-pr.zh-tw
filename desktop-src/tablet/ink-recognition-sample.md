@@ -1,19 +1,19 @@
 ---
-description: 此應用程式會示範如何建立手寫辨識應用程式。Windows Vista SDK 也會在 C 和 Visual Basic .NET 中提供此範例的版本 \# 。
+description: 此應用程式會示範如何建立手寫辨識應用程式。Windows Vista SDK 也會在 C 和 Visual Basic .net 中提供此範例的版本 \# 。
 ms.assetid: 4b3fc078-731e-4263-8e95-2c273d69a457
 title: 筆跡辨識範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 30d97d9d15ef64a3d7a1fe1fc5d45b3cb0454ba7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c151c92c9f407461c34ecffb015af179e57b5c9ed4735b36f70c9a4d26c78088
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191300"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119935118"
 ---
 # <a name="ink-recognition-sample"></a>筆跡辨識範例
 
-此應用程式會示範如何建立手寫辨識應用程式。Windows Vista SDK 也會在 C 和 Visual Basic .NET 中提供此範例的版本 \# 。 本主題是指 Visual Basic .NET 範例，但版本之間的概念相同。
+此應用程式會示範如何建立手寫辨識應用程式。Windows Vista SDK 也會在 C 和 Visual Basic .net 中提供此範例的版本 \# 。 本主題是指 Visual Basic .net 範例，但版本之間的概念相同。
 
 ## <a name="access-the-tablet-pc-interfaces"></a>存取 Tablet PC 介面
 

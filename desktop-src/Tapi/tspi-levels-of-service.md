@@ -4,12 +4,12 @@ ms.assetid: e2e6b113-b6b0-43a1-ac95-6e8e188a6120
 title: TSPI 服務層級
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d829199bdcfce350d82f3c56cbbf9414fc46b35b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a6c72f09f7a076364918815ba5fdb79591f6f5b12382ac2aa529e0859eec53f6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104513468"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120012128"
 ---
 # <a name="tspi-levels-of-service"></a>TSPI 服務層級
 
@@ -17,7 +17,7 @@ TAPI 將通訊服務分成基本、補充和延伸。 如需其他資訊，請�
 
 必須有 TSP，才能執行所有基本的電話語音功能。 [TSPI 基本電話語音功能](tspi-basic-telephony-functions.md) 包含這些功能的摘要。
 
-補充電話語音包含新式 Pbx 上的功能，例如保存、傳輸、會議、公園等等。 服務提供者應該只有在可執行 TAPI 所定義的確切意義時，才提供補充的電話語音服務。 如果沒有，則應以擴充電話語音服務的形式提供此功能。 所有補充功能都是選擇性的。 服務提供者會透過回應（例如 [**TSPI \_ LineGetDevCaps**](/windows/win32/api/tspi/nf-tspi-tspi_linegetdevcaps) 或 [**TSPI \_ lineGetAddressCaps**](/windows/win32/api/tspi/nf-tspi-tspi_linegetaddresscaps)），指定其所支援的服務。 單一補充服務可以包含多個函式呼叫和訊息。 電話裝置服務是補充電話語音的一部分。
+補充電話語音包含新式 Pbx 上的功能，例如保存、傳輸、會議、公園等等。 服務提供者應該只有在可執行 TAPI 所定義的確切意義時，才提供補充的電話語音服務。 如果沒有，則應以擴充電話語音服務的形式提供此功能。 所有補充功能都是選擇性的。 服務提供者會透過回應（例如 [**TSPI \_ LineGetDevCaps**](/windows/win32/api/tspi/nf-tspi-tspi_linegetdevcaps) 或 [**TSPI \_ lineGetAddressCaps**](/windows/win32/api/tspi/nf-tspi-tspi_linegetaddresscaps)），指定其所支援的服務。 單一補充服務可以包含多個函式呼叫和訊息。 電話的裝置服務是補充電話語音的一部分。
 
 擴充的電話語音服務允許提供者執行裝置特定的功能。 服務提供者必須使用 *延伸模組識別碼* 來唯一識別延伸。 應用程式會取出並使用這個唯一識別碼來判斷服務提供者所支援的延伸模組。
 

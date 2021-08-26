@@ -3,7 +3,7 @@ title: 'LVM_ENSUREVISIBLE 訊息 (Commctrl .h) '
 description: 確定清單視圖專案是完全或部分可見的，視需要滾動清單視圖控制項。 您可以明確地傳送此訊息，或使用 ListView \_ EnsureVisible 宏來傳送。
 ms.assetid: 3564b6e6-b8b6-401b-85bc-8bd6261fc054
 keywords:
-- LVM_ENSUREVISIBLE message Windows 控制項
+- LVM_ENSUREVISIBLE 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d0ff4009399988f20f3e162114f91e4cff02820
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: baeefaf90f0a4562fb187024b2c6f8676c68fb9d46377a4ced900bda6cfd3dfd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103933925"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119920298"
 ---
 # <a name="lvm_ensurevisible-message"></a>LVM \_ ENSUREVISIBLE 訊息
 
@@ -57,8 +57,8 @@ ms.locfileid: "103933925"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

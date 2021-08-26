@@ -4,12 +4,12 @@ ms.assetid: 4447013a-86c4-48a9-bfe1-5e758c799a2f
 title: 屬性名稱的限制
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c137bc4902bdd62b42e4f3888243a11de43399b2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 461039f62cbbd820b6ccc132551406944457784da2d4d8093a2235f5caf79104
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194086"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119979268"
 ---
 # <a name="restrictions-on-property-names"></a>屬性名稱的限制
 

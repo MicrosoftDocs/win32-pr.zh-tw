@@ -3,21 +3,21 @@ title: 按鈕位置
 description: 按鈕位置
 ms.assetid: 104f4dfb-8452-4dcc-9d48-cd754318083c
 keywords:
-- Windows Media Player 行動外觀、美工檔案
+- Windows Media Player行動外觀、美工檔案
 - 外觀、美工檔案
 - 適用于外觀、藝術的檔案
 - 面板的美工圖案、按鈕位置
-- Windows Media Player 行動外觀、按鈕位置
+- Windows Media Player行動外觀、按鈕位置
 - 外觀、按鈕位置
 - 面板中的按鈕位置
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fe14e941e620f80906bb78f86c30f1beceeb66fb
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d93bc748d2b88cf46c18414916ae9cf563edde112a94e89723105600f68de57d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840504"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119902378"
 ---
 # <a name="button-placement"></a>按鈕位置
 
@@ -30,9 +30,9 @@ ms.locfileid: "103840504"
 [**美工檔案**](art-files.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

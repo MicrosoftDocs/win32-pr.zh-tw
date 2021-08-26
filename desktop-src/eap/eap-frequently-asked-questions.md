@@ -4,12 +4,12 @@ description: 尋找有關 EAP Api (常見問題) 常見問題的解答，例如�
 ms.assetid: 4e26df7b-3cce-4522-ab39-e24f06b4c4b4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c08713b17491d4b0bd76540c09b9d4588116256f
-ms.sourcegitcommit: db89157e3be911fdce2e543e99faa31fb2403bc8
+ms.openlocfilehash: 93a8b424ed195d30621c67007fc8e7d1a0882bae6ce676c70a1ca0dc93e8b846
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "103933772"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119978528"
 ---
 # <a name="eap-frequently-asked-questions"></a>EAP 常見問題
 

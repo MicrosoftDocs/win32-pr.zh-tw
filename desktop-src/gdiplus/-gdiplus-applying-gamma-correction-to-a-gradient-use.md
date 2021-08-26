@@ -4,12 +4,12 @@ ms.assetid: 47472e41-f469-44f4-8b39-cf3982b79f9e
 title: 將 Gamma 修正套用至漸層
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 80e51673e8be4fd289286ce5e4e3e8f7c5469724
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: eae76306e5c68804d76777d9fc80c65d06904702487a8b60f80659b9d16a96ae
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104115272"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119888538"
 ---
 # <a name="applying-gamma-correction-to-a-gradient"></a>將 Gamma 修正套用至漸層
 

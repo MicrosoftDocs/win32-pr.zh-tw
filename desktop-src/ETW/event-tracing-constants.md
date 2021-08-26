@@ -4,12 +4,12 @@ ms.assetid: 34e28c8a-036f-48ab-a162-140bfaf3ca12
 title: 事件追蹤常數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e9fe37ef0fb79772adc272522c08befc0015132a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 308ae04aa57a5c838fd841b71e38134d4ef2165622afe7107f7214a4628525f4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104971936"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119901188"
 ---
 # <a name="event-tracing-constants"></a>事件追蹤常數
 

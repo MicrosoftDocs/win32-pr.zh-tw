@@ -4,12 +4,12 @@ ms.assetid: 2da5d4bc-a219-47b5-8522-1237f7bcac16
 title: 剖析器 DLL 架構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7852029a892d8b74c954cbc2d7341fcaf29032fb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cb8b2c3ead77d5172bc57fa3bc1c8b6001b9c690cd254dc436ac93f504ddb732
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104469513"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119962860"
 ---
 # <a name="parser-dll-architecture"></a>剖析器 DLL 架構
 

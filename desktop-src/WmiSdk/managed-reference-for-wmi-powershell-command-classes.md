@@ -5,18 +5,18 @@ ms.tgt_platform: multiple
 title: WMI Windows PowerShell 命令類別的受控參考
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cb309a9ca421a3966f84ba1ae825bd0c81eee8ed
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 228e4ea741edd9029f30159fd5aa6c009cae081a4f6d67d1e532086ea1d53fa0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106997562"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119996458"
 ---
 # <a name="managed-reference-for-wmi-windows-powershell-command-classes"></a>WMI Windows PowerShell 命令類別的受控參考
 
 Windows PowerShell 透過一組 Cmdlet 來執行 Windows Management Instrumentation (WMI) 功能。 您可以使用這些 Cmdlet 來完成管理本機和遠端電腦所需的端對端工作。
 
-如需詳細資訊，請參閱 [Windows PowerShell](https://msdn.microsoft.com/library/dd835506(v=vs.85).aspx) 。
+如需詳細資訊，請參閱[Windows PowerShell](https://msdn.microsoft.com/library/dd835506(v=vs.85).aspx) 。
 
 ## <a name="wmi-powershell-classes"></a>WMI PowerShell 類別
 

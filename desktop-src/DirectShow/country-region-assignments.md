@@ -4,12 +4,12 @@ ms.assetid: a71784eb-e6b4-4dab-91fc-103c39dd1591
 title: 國家/地區指派
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b804a1ccb5a9dc552545202bb6dc20a006a4ba77
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 0396a0027a5046a0730a5344351917104b5f47184047106fa6c345ae7c0f3b5b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104467492"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119915588"
 ---
 # <a name="countryregion-assignments"></a>國家/地區指派
 

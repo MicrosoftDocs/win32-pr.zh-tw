@@ -1,22 +1,22 @@
 ---
 title: Windows 環境
-description: Windows 環境是 Windows 所提供的螢幕上的工作區，類似于實體桌面，以及作業系統的核心擴充點。
+description: Windows 環境是 Windows 所提供的螢幕上工作區域，類似于實體桌面，以及作業系統的核心擴充點。
 ms.assetid: 9485459D-AE46-43D1-941C-3B5EE784391F
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 1cb6e731f2bccb7b2f9508432ec63754f177eafc
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 5e4404e621e87b45ab7bc8be6a83e236422afe75b5e7fc2a3af7ac728781f0ac
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "106975584"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119882758"
 ---
 # <a name="windows-environment"></a>Windows 環境
 
 > [!NOTE]
-> 此設計指南是針對 Windows 7 所建立，而且尚未針對較新版本的 Windows 更新。 大部分的指引仍然適用于準則，但展示和範例不會反映我們目前的 [設計指引](/windows/uwp/design/)。
+> 此設計指南是針對 Windows 7 所建立，而且尚未針對較新的 Windows 版本進行更新。 大部分的指引仍然適用于準則，但展示和範例不會反映我們目前的 [設計指引](/windows/uwp/design/)。
 
-Windows 環境是 Windows 所提供的螢幕上的工作區，類似于實體桌面，以及作業系統的核心擴充點。 瞭解如何利用應用程式的桌面、工作列、通知區域、控制台、說明和使用者帳戶控制。
+Windows 環境是 Windows 所提供的螢幕上工作區域，類似于實體桌面，以及作業系統的核心擴充點。 瞭解如何利用應用程式的桌面、工作列、通知區域、控制台、說明和使用者帳戶控制。
 
 ## <a name="in-this-section"></a>本節內容
 
@@ -25,7 +25,7 @@ Windows 環境是 Windows 所提供的螢幕上的工作區，類似于實體桌
 | 主題                                                   | 描述                                                                                                                                                                                                               |
 |---------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [桌上型電腦](winenv-desktop.md)<br/>                | 桌面是其程式的使用者工作區。 它無法提升您對程式或其品牌的認知。 不要濫用！ <br/>                                                                     |
-| [工作列](winenv-taskbar.md)<br/>                | 工作列是顯示在桌面上的程式存取點。 透過新的 Windows 7 工作列功能，使用者可以直接從工作列提供命令、存取資源，以及查看程式狀態。 <br/> |
+| [工作列](winenv-taskbar.md)<br/>                | 工作列是顯示在桌面上的程式存取點。 利用新的 Windows 7 工作列功能，使用者可以直接從工作列提供命令、存取資源，以及查看程式狀態。 <br/> |
 | [通知區域](winenv-notification.md)<br/> | 通知區域會提供通知和狀態。 設計完善的程式會適當地使用通知區域，而不會干擾或困擾。 <br/>                                               |
 | [控制台](winenv-ctrl-panels.md)<br/>     | 使用控制台專案來協助使用者設定系統層級的功能，並執行相關工作。 具有使用者介面的程式應該改為從其 UI 直接設定。 <br/>                     |
 | [說明](winenv-help.md)<br/>                      | 使用「說明」做為次要機制，以協助使用者完成及更瞭解主要機制成為 UI 本身的工作。 套用這些指導方針，讓內容真正實用且容易找到。 <br/>    |

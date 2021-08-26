@@ -4,12 +4,12 @@ ms.assetid: 88590e8d-7c3a-49db-8b3a-4afc471cb76a
 title: XMUDECN4 運算子
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bd19cf7eac5effe1699a04bb204a0603a5614d94
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8df90ee7daa6982ea849477b1f4ff1884cefb4cb8f9e00a43abf84a5514461f5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106997503"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119979468"
 ---
 # <a name="xmudecn4-operators"></a>XMUDECN4 運算子
 

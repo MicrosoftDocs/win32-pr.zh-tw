@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - dvdevcode.h
-ms.openlocfilehash: c98d32960e2ab6a21633899164b3ff84525f2aaf
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6911d4ad044e0b2080007f9751bd7090b182d8474673da98d35dd91544947e03
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990053"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119997918"
 ---
 # <a name="ec_dvd_disc_inserted"></a>插入的 EC \_ DVD \_ 光碟 \_
 

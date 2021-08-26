@@ -14,12 +14,12 @@ api_type:
 api_location:
 - InkObj.dll
 - InkObj.dll.dll
-ms.openlocfilehash: 61641f0fed8ec98321e155f82ff9a35150e7fdcd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4bdc93e2c80f1a7ef4a8eacf1a58288c008e1354cda702e492deb2990e8938d8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980711"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119938658"
 ---
 # <a name="inktransform-class"></a>InkTransform 類別
 
@@ -57,7 +57,7 @@ ms.locfileid: "106980711"
 
 
 
-| 屬性                                     | 存取類型           | Description                                                                                          |
+| 屬性                                     | 存取類型           | 描述                                                                                          |
 |:---------------------------------------------|:----------------------|:-----------------------------------------------------------------------------------------------------|
 | [**資料**](/windows/desktop/api/msinkaut/nf-msinkaut-iinktransform-get_data)<br/> | 讀取/寫入<br/> | 取得或設定 WIN32 XFORM 結構的自動化版本。<br/>                            |
 | [**eDx**](/windows/desktop/api/msinkaut/nf-msinkaut-iinktransform-get_edx)<br/>   | 讀取/寫入<br/> | 取得或設定指定第三列第一個資料行中之元素的實數。<br/>   |
@@ -88,7 +88,7 @@ ms.locfileid: "106980711"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 Windows XP Tablet PC Edition \[ 桌面應用程式\]<br/>                                                       |
+| 最低支援的用戶端<br/> | Windows僅限 XP Tablet PC Edition \[ 桌面應用程式\]<br/>                                                       |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                                           |
 | 標頭<br/>                   | <dl> <dt>Msinkaut (也需要 Msinkaut \_ c) </dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>InkObj.dll</dt> </dl>                               |

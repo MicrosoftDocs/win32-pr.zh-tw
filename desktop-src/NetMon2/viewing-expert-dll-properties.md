@@ -4,12 +4,12 @@ ms.assetid: 90e9f32b-79cd-4199-8488-33c092579e96
 title: 查看專家 DLL 屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3f1cc12e9974ac9e38a44a25e9835b2cd5af032b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 944d8b6eeafd1fb4f452272836d6a342c2b1ab434503fadaaa9053c08a4b6427
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104556326"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119962700"
 ---
 # <a name="viewing-expert-dll-properties"></a>查看專家 DLL 屬性
 

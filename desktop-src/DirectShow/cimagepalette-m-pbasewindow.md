@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: d046fd38cbc75cfdeb1ed3bf3e9ac35ab4e4820a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1978ab29ded8b5875803f82c42660f9912458ccaeccdbea04a02c108327645c2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106984466"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119916288"
 ---
 # <a name="cimagepalettem_pbasewindow-member"></a>CImagePalette：： m \_ pBaseWindow 成員
 

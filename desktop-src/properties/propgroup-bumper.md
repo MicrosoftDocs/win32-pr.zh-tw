@@ -4,12 +4,12 @@ ms.assetid: 2caad1ee-5944-46ec-904a-32631b8afd0f
 title: PropGroup
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2bb4a73907755fa915a0c2edfda842076b7c8f28
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 2d65b1cc33c114952dcbac609ec49ae0cc4901020c4e068acd9e45a028c187fb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108104946"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119885918"
 ---
 # <a name="propgroup"></a>PropGroup
 

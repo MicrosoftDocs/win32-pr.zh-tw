@@ -3,8 +3,8 @@ title: 人類色彩認知
 description: 人們可以藉由將視力為棒敲和圓錐的視覺資料格存在，來取得人為願景。
 ms.assetid: 41fa627d-8f33-4d55-9856-85d9920a479f
 keywords:
-- Windows Color System (WCS) ，人類視覺
-- WCS (Windows 色彩系統) ，人類視覺
+- Windows色彩系統 (WCS) ，人類視覺
+- WCS (Windows 色彩系統) 、人為視覺
 - 影像色彩管理、人為視覺
 - 色彩管理、人為視覺
 - 色彩，人為視覺
@@ -15,12 +15,12 @@ keywords:
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 82270fe50d9e8da3a79b3b187bbc1f010d547736
-ms.sourcegitcommit: 38954f8f0d70f44bff4a943784f468ebd7ef691a
+ms.openlocfilehash: 44429efc5d14d6500bc7e098b3bed050d2d9433278d465cea8c2349a54972f4a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "106998932"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119934948"
 ---
 # <a name="human-color-perception"></a>人類色彩認知
 

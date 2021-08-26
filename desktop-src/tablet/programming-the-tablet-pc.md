@@ -4,12 +4,12 @@ ms.assetid: 5c54adf8-336d-4e49-8b5e-90c6a05438ba
 title: Tablet PC 的程式設計
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 37b7920acd4cff2bdb969a6aa93211d1aba0b00f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ebe660c8a60d24163e9a501dc349afb2dbc194c70c62097e66690114f39aeabf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320731"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119934718"
 ---
 # <a name="programming-the-tablet-pc"></a>Tablet PC 的程式設計
 

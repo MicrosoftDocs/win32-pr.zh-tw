@@ -4,12 +4,12 @@ ms.assetid: 53e4f5b7-c85d-4b44-9a0c-0ad05ca872cc
 title: 步驟 6. 新增對 COM 的支援
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 097d51fa440812311edde9ce448916c66721a507
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 354299ed9ed2f752e0041b82af712e7a9c5411eb7bb7e16588267183442edf68
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112406771"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119964898"
 ---
 # <a name="step-6-add-support-for-com"></a>步驟 6. 新增對 COM 的支援
 
@@ -56,7 +56,7 @@ STDMETHODIMP CMyFilter::NonDelegatingQueryInterface(REFIID iid, void **ppv)
 
 ## <a name="object-creation"></a>建立物件
 
-如果您打算將篩選封裝到 DLL 中，並將它提供給其他用戶端使用，您必須支援 [**CoCreateInstance**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance) 和其他相關的 COM 函數。 基類庫會執行大部分的，您只需要提供一些關於篩選的資訊。 本節將簡短介紹該怎麼做。 如需詳細資訊，請參閱 [如何建立 DirectShow 篩選 DLL](how-to-create-a-dll.md)。
+如果您打算將篩選封裝到 DLL 中，並將它提供給其他用戶端使用，您必須支援 [**CoCreateInstance**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance) 和其他相關的 COM 函數。 基類庫會執行大部分的，您只需要提供一些關於篩選的資訊。 本節將簡短介紹該怎麼做。 如需詳細資訊，請參閱[如何建立 DirectShow 篩選 DLL](how-to-create-a-dll.md)。
 
 首先，撰寫會傳回新的篩選準則實例的靜態類別方法。 您可以將此方法命名為任何您喜歡的名稱，但簽章必須符合下列範例中所示的內容：
 
@@ -124,9 +124,9 @@ STDAPI DllUnregisterServer()
 先前的範例示範如何註冊 COM 的篩選器 CLSID。 針對許多篩選準則，這就夠了。 接著，用戶端應該使用 [**CoCreateInstance**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance) 建立篩選，並藉由呼叫 [**IFilterGraph：： AddFilter**](/windows/desktop/api/Strmif/nf-strmif-ifiltergraph-addfilter)將它新增至篩選圖形。 不過，在某些情況下，您可能會想要在登錄中提供篩選的其他相關資訊。 這項資訊會執行下列動作：
 
 -   可讓用戶端使用 [篩選器](filter-mapper.md) 對應程式或 [系統裝置列舉](system-device-enumerator.md)值來探索篩選。
--   讓篩選圖形管理員在自動圖形建立期間探索篩選。
+-   讓篩選 Graph 管理員在自動圖形建立期間探索篩選。
 
-下列範例會在影片壓縮程式類別目錄中註冊 RLE 編碼器篩選器。 如需詳細資訊，請參閱 [如何註冊 DirectShow 篩選](how-to-register-directshow-filters.md)。 請務必閱讀註冊篩選準則的章節 [指導方針](guidelines-for-registering-filters.md)，其中描述了篩選註冊的建議作法。
+下列範例會在影片壓縮程式類別目錄中註冊 RLE 編碼器篩選器。 如需詳細資訊，請參閱[如何註冊 DirectShow 篩選](how-to-register-directshow-filters.md)。 請務必閱讀註冊篩選準則的章節 [指導方針](guidelines-for-registering-filters.md)，其中描述了篩選註冊的建議作法。
 
 
 ```C++
@@ -244,10 +244,10 @@ int main()
 
 <dl> <dt>
 
-[智慧型連接](intelligent-connect.md)
+[智慧型連線](intelligent-connect.md)
 </dt> <dt>
 
-[撰寫 DirectShow 篩選器](writing-directshow-filters.md)
+[撰寫 DirectShow 篩選](writing-directshow-filters.md)
 </dt> <dt>
 
 [寫入轉換篩選](writing-transform-filters.md)

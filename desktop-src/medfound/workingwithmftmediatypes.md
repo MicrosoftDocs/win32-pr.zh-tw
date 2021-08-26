@@ -4,12 +4,12 @@ ms.assetid: 16c270ee-f246-4222-97e9-d8d0fe009155
 title: 使用 MFT 媒體類型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 98bfc996704f6069ca1d16570b33f456ea1cc115
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 60ead31c4291cf41cff62f4341227bf0ee1ad22d12e96a6c9eff87ff5a3e6faa
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104195722"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119886948"
 ---
 # <a name="working-with-mft-media-types"></a>使用 MFT 媒體類型
 

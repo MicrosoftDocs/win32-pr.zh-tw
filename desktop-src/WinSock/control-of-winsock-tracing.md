@@ -4,12 +4,12 @@ ms.assetid: b079bdfc-b192-451c-967d-dcefa94b7ec7
 title: Winsock 追蹤的控制權
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 75f256c4e3927672bc13b14bfb72ca3b02c22bde
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: bc80251410b95e2d02106474ae97ab3c6ea57759dcfdbc76987d6621794c822e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108110546"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119996808"
 ---
 # <a name="control-of-winsock-tracing"></a>Winsock 追蹤的控制權
 
@@ -17,7 +17,7 @@ ms.locfileid: "108110546"
 
 -   命令列工具
 
-    Windows Vista 和 Windows Server 2008 中包含兩個命令列工具，可用來控制追蹤並將二進位追蹤記錄檔轉換為可讀取的文字。
+    Windows Vista 和 Windows Server 2008 包含兩個命令列工具，可用來控制追蹤並將二進位追蹤記錄檔轉換為可讀取的文字。
 
     **logman.exe** 工具是用來啟動或停止 Winsock 追蹤。
 
@@ -49,10 +49,10 @@ ms.locfileid: "108110546"
 
 **tracerpt.exe etl 檔的 <名稱> – o winsocktracelog.xml of xml**
 
-在 Windows Vista 和更新版本上，預設會啟用 Winsock 目錄變更追蹤。
+預設會在 Windows Vista 和更新版本上啟用 Winsock 目錄變更追蹤。
 
 > [!Note]  
-> 已淘汰分層服務提供者。 從 Windows 8 和 Windows Server 2012 開始，請使用 [Windows 篩選平台](../fwp/windows-filtering-platform-start-page.md)。
+> 已淘汰分層服務提供者。 從 Windows 8 和 Windows Server 2012 開始，請使用[Windows 篩選平台](../fwp/windows-filtering-platform-start-page.md)。
 
  
 
@@ -76,7 +76,7 @@ ms.locfileid: "108110546"
 
 ## <a name="using-event-viewer-to-start-winsock-network-event-tracing"></a>使用事件檢視器啟動 Winsock 網路事件追蹤
 
-當您開啟事件檢視器時，左窗格會包含事件的清單。 開啟 [ **應用程式及服務記錄** 檔]，並流覽至 [ **Microsoft \\ Windows \\ Winsock 網路事件** ] 作為來源，然後選取 [ **操作**]。
+當您開啟事件檢視器時，左窗格會包含事件的清單。 開啟 [**應用程式及服務記錄** 檔]，並流覽至 **Microsoft \\ Windows \\ Winsock 網路事件** 作為來源，然後選取 [**操作**]。
 
 在 [動作] 窗格中，選取 [ **記錄** 內容]，然後選取 [ **啟用記錄** ] 核取方塊。 啟用記錄之後，您也可以變更記錄檔的大小（如果需要的話）。
 
@@ -86,7 +86,7 @@ Winsock 網路事件追蹤現在已啟用，您只需要重新整理動作，即
 
 ## <a name="using-event-viewer-to-start-winsock-catalog-change-tracing"></a>使用事件檢視器啟動 Winsock 類別目錄變更追蹤
 
-當您開啟事件檢視器時，左窗格會包含事件的清單。 開啟 [ **應用程式及服務記錄** 檔]，並流覽至 [ **Microsoft \\ Windows \\ Winsock 目錄變更** ] 作為來源，然後選取 [ **操作**]。
+當您開啟事件檢視器時，左窗格會包含事件的清單。 開啟 [**應用程式及服務記錄** 檔]，並流覽至 **Microsoft \\ Windows \\ Winsock 目錄變更** 作為來源，然後選取 [**操作**]。
 
 在 [動作] 窗格中，選取 [ **記錄** 內容]，然後選取 [ **啟用記錄** ] 核取方塊。 啟用記錄之後，您也可以變更記錄檔的大小（如果需要的話）。
 

@@ -4,16 +4,16 @@ description: 載入字元和動畫資料
 ms.assetid: cd674513-fd68-49bb-a43f-12b07adddf3d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ed77524c4e3cbbcae725b87c3671914f2261fa1c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e0e387a6122ab08513763878678d99941ef65d8ed11822eed8639fccd6e3815d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106969061"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119961428"
 ---
 # <a name="loading-character-and-animation-data"></a>載入字元和動畫資料
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 當您有 [**IAgentEx**](iagentex.md) 介面的指標之後，您可以使用 [**load**](load-method.md) 方法來載入字元並取出其 [**IAgentCharacterEx**](iagentcharacterex.md) 介面。 字元的載入路徑有三種不同的可能性。 第一個與 Microsoft 代理程式1.5 相容，其中指定的路徑是字元檔案的完整路徑和檔案名。 第二種可能性是只指定檔案名，在這種情況下，代理程式會在其 [字元] 目錄中尋找。 最後一個可能的原因是提供空的 Variant 參數，以載入預設的字元。
 
@@ -87,9 +87,9 @@ VariantClear(&vPath);
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -3,7 +3,7 @@ title: 'TVM_SORTCHILDREN 訊息 (Commctrl .h) '
 description: 排序樹狀檢視控制項中所指定父專案的子專案。 您可以使用 TreeView SortChildren 宏明確地傳送此訊息 \_ 。
 ms.assetid: c18bcd5f-c083-46ee-873b-d3100b0d7b04
 keywords:
-- TVM_SORTCHILDREN message Windows 控制項
+- TVM_SORTCHILDREN 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 341591c31accb4aab0b49f611359a93ec99c0cab
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f975814fadc5271c562e4e8e420c35dbb3450142bed797af83af73fdf81a55d5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104025429"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119913798"
 ---
 # <a name="tvm_sortchildren-message"></a>TVM \_ SORTCHILDREN 訊息
 
@@ -57,8 +57,8 @@ ms.locfileid: "104025429"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

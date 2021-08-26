@@ -4,12 +4,12 @@ ms.assetid: 6f4fd5a4-f066-4fc3-82cd-6ed2c5cdac0d
 title: 畫筆寬度
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: abb8ad66a13bbc884062b8639128f1c0fb9d3855
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f5b9b14081d78b173b2ea97dfa737313feb96f8eb4287762e5127a536423bc8d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104512853"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119965358"
 ---
 # <a name="pen-width"></a>畫筆寬度
 

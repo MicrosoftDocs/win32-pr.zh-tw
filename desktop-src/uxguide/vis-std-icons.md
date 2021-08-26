@@ -4,17 +4,17 @@ description: 標準圖示是 Windows 中的錯誤、警告、資訊和問號圖�
 ms.assetid: 63b5c31d-5094-4299-b44b-35b2452ce706
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 69085f4c527db8431b5e33f0dba4668d43d1c669
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 74f5b70fb218606eb5f87cbad247c1c75a100f9c5e0f675bb6c075e559fd1a3d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "104321399"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119936324"
 ---
 # <a name="standard-icons"></a>標準圖示
 
 > [!NOTE]
-> 此設計指南是針對 Windows 7 所建立，而且尚未針對較新版本的 Windows 更新。 大部分的指引仍然適用于準則，但展示和範例不會反映我們目前的 [設計指引](/windows/uwp/design/)。
+> 此設計指南是針對 Windows 7 所建立，而且尚未針對較新的 Windows 版本進行更新。 大部分的指引仍然適用于準則，但展示和範例不會反映我們目前的 [設計指引](/windows/uwp/design/)。
 
 標準圖示是 Windows 中的錯誤、警告、資訊和問號圖示。
 
@@ -29,7 +29,7 @@ ms.locfileid: "104321399"
 -   **資訊圖示。** UI 會呈現有用的資訊。
 -   **問號圖示。** UI 表示說明進入點。
 
-標準圖示很值得注意，因為它們內建在許多 Windows 應用程式開發介面中， (Api) ，例如工作 [對話方塊](win-dialog-box.md)、 [訊息方塊](glossary.md)、 [氣球](ctrl-balloons.md)和 [通知](mess-notif.md)。 它們也經常用於就地 [訊息](glossary.md) 和 [狀態列](ctrl-status-bars.md)。
+標準圖示很重要，因為它們內建在許多 Windows 應用程式開發介面中 (api) ，例如工作[對話方塊](win-dialog-box.md)、[訊息方塊](glossary.md)、[氣球](ctrl-balloons.md)和[通知](mess-notif.md)。 它們也經常用於就地 [訊息](glossary.md) 和 [狀態列](ctrl-status-bars.md)。
 
 **注意：** 與 [圖示](vis-icons.md) 相關的指導方針會在個別的文章中顯示。
 
@@ -57,9 +57,9 @@ ms.locfileid: "104321399"
 
 根據強調和措辭，某些問題可能會顯示為錯誤、警告或資訊。 例如，假設網頁無法根據目前的 Windows Internet Explorer 設定載入未簽署的 ActiveX 控制項：
 
--   **錯誤。** 「此頁面無法載入未簽署的 ActiveX 控制項。」  (片語做為現有的問題。 ) 
--   **警告。** 「此頁面可能無法如預期般運作，因為 Windows Internet Explorer 未設定為載入未簽署的 ActiveX 控制項。」 或「允許此頁面安裝未簽署的 ActiveX 控制項？ 從不受信任的來源執行此動作可能會危害您的電腦。」  (這兩個片語為可能會導致未來問題的狀況。 ) 
--   **資訊。** 「您已設定 Windows Internet Explorer 封鎖未簽署的 ActiveX 控制項。」  (片語作為事實的陳述。 ) 
+-   **錯誤。** 「此頁面無法載入未簽署的 ActiveX 控制項」。  (片語做為現有的問題。 ) 
+-   **警告。** 「此頁面可能無法如預期般運作，因為 Windows Internet Explorer 未設定為載入未簽署的 ActiveX 控制項」。 或「允許此頁面安裝不帶正負號的 ActiveX 控制項？ 從不受信任的來源執行此動作可能會危害您的電腦。」  (這兩個片語為可能會導致未來問題的狀況。 ) 
+-   **資訊。** 「您已設定 Windows Internet Explorer 封鎖未簽署的 ActiveX 控制項」。  (片語作為事實的陳述。 ) 
 
 **若要判斷適當的訊息類型，請將焦點放在使用者需要知道或採取行動之問題的最重要層面。** 一般來說，如果問題封鎖使用者繼續進行，則會顯示為錯誤。如果使用者可以繼續，則會出現警告。 根據焦點製作 [主要指示](text-ui.md) 或其他對應的文字，然後選擇符合文字的圖示 (標準或) 。 主要的指令文字和圖示應該一律相符。
 
@@ -77,7 +77,7 @@ ms.locfileid: "104321399"
 -   它們有非預期或非預期的結果。
 -   它們現在需要正確的處理，因為錯誤無法輕易地修正，甚至可能無法復原。
 
-若要區分非重大錯誤和警告和嚴重錯誤，通常會顯示非關鍵性的訊息，而不會有圖示。 這麼做會將重點放在重要的訊息，讓重要和非關鍵性的訊息以視覺化方式區分，並且與 [Windows 語氣](text-style-tone.md)一致。
+若要區分非重大錯誤和警告和嚴重錯誤，通常會顯示非關鍵性的訊息，而不會有圖示。 這麼做會將重點放在重要的訊息，讓關鍵和非關鍵訊息以視覺化方式區分，並且與[Windows 的語氣](text-style-tone.md)一致。
 
 並非每個訊息都需要圖示。 圖示不是裝飾訊息的方法。
 
@@ -95,7 +95,7 @@ ms.locfileid: "104321399"
 
 在此範例中，這項 [確認](mess-confirm.md) 並不重要，因為它可能是刻意且很容易復原。
 
-在一般的 UI 中，大部分的錯誤都與使用者輸入錯誤有關。 大部分的使用者輸入錯誤都不重要，因為它們很容易更正，而使用者必須更正這些錯誤才能繼續。 此外，繪製太多錯誤的使用者錯誤，與 Windows 的語氣相反。 因此，通常會顯示次要使用者輸入錯誤，而不會出現錯誤圖示。 為了強化其非關鍵本質，我們將這些視為使用者輸入問題。
+在一般的 UI 中，大部分的錯誤都與使用者輸入錯誤有關。 大部分的使用者輸入錯誤都不重要，因為它們很容易更正，而使用者必須更正這些錯誤才能繼續。 此外，繪製太多輕微的使用者錯誤，與 Windows 的語氣相反。 因此，通常會顯示次要使用者輸入錯誤，而不會出現錯誤圖示。 為了強化其非關鍵本質，我們將這些視為使用者輸入問題。
 
 ![螢幕擷取畫面會通知使用者正確的輸入 ](images/vis-std-icons-image4.png)
 
@@ -103,7 +103,7 @@ ms.locfileid: "104321399"
 
 ### <a name="avoid-overwarning"></a>避免 overwarning
 
-我們在 Windows 程式中 overwarn。 一般的 Windows 程式具有看似在所有位置的警告圖示，這是關於有意義的事物的警告。 在某些程式中，幾乎每個問題都會顯示為警告。 Overwarning 讓程式感覺像是有害的活動，而且會使真正的重大問題。
+我們 overwarn Windows 程式。 一般的 Windows 程式在所有地方都有警告圖示，但有一點重要性的警告。 在某些程式中，幾乎每個問題都會顯示為警告。 Overwarning 讓程式感覺像是有害的活動，而且會使真正的重大問題。
 
 單獨可能遺失資料的可能性不足以呼叫警告圖示。 此外，任何非預期的結果都應該是非預期的或非預期的結果，而且不容易更正。 否則，您可以將任何不正確回答的問題解釋為會導致某種資料遺失，並提出警告圖示。
 

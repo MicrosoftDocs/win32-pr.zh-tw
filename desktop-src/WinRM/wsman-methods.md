@@ -5,12 +5,12 @@ ms.assetid: DD26E1DB-40D8-460C-9635-EDD009844AB2
 ms.tgt_platform: multiple
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3ad02fd654879c9d78bdc5e683f90b26d8126030
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d3dfd3258b22976b40e6ed8eabc311806ba04d19df2c6d964d93312ac05d7fb3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372313"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119997248"
 ---
 # <a name="wsman-methods"></a>WSMan 方法
 
@@ -43,9 +43,9 @@ ms.locfileid: "104372313"
 -   [**SessionFlagUseNoAuthentication 方法**](wsman-sessionflagusenoauthentication.md)
 -   [**SessionFlagUTF8 方法**](wsman-sessionflagutf8.md)
 
- 
+ 
 
- 
+ 
 
 
 

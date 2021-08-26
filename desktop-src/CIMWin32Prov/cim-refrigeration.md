@@ -34,12 +34,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: f714acdfeb1bab37093ed2a7dee7098188c31f48
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 4ace3aa659f87c728c20e8427724aef29044a04a8d432023abcefb4333b36420
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106967035"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119920648"
 ---
 # <a name="cim_refrigeration-class"></a>CIM \_ 冷藏庫取出類別
 

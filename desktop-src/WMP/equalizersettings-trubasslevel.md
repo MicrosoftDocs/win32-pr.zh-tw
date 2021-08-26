@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 48a262d90b9363f18b20922f92f77960f3b0b882
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c17fdb293ee081c99055a88fcd8a6ffeb420c9eb922be655f92df04c71058af2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106989259"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119901948"
 ---
 # <a name="equalizersettingstrubasslevel"></a>EQUALIZERSETTINGS.truBassLevel
 

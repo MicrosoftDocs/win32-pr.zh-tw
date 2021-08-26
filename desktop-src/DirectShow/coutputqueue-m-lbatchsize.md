@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 987adce4353ef393c1522e91b4104385da3890c8
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f5f341415ea379b76d46de86fd952c66ff0c42ea34fe752b42c780520b3da1d0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106986581"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119915598"
 ---
 # <a name="coutputqueuem_lbatchsize-member"></a>COutputQueue：： m \_ lBatchSize 成員
 

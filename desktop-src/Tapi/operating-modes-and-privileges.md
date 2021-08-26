@@ -4,12 +4,12 @@ ms.assetid: 2bb16fbe-883e-4734-a071-f14f5e5737e3
 title: 操作模式和許可權
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9ba1cc01ed0552762ac3bc97449b1ae5a923cb10
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 44f7d3c1f6b7049c3986b96734a537906dc62166c48d62e549684cdaa6d35ba2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103692236"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120012468"
 ---
 # <a name="operating-modes-and-privileges"></a>操作模式和許可權
 
