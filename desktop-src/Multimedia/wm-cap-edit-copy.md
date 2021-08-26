@@ -3,7 +3,7 @@ title: 'WM_CAP_EDIT_COPY 訊息 (Vfw .h) '
 description: WM \_ CAP \_ 編輯 \_ 複製訊息會將影片框架緩衝區和相關聯的調色板內容複寫到剪貼簿。 您可以使用 capEditCopy 宏明確地傳送此訊息。
 ms.assetid: 16f1dd7d-af4d-4096-add8-eec5f0a0607f
 keywords:
-- WM_CAP_EDIT_COPY message Windows 多媒體
+- WM_CAP_EDIT_COPY 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bb81c21fc10846adaa113c02b6250bbb35cfff50
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e944273ff8519aefa52803b2072199760a480e0fcb2a76dd314b578dcbcfdf4d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104700"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119892078"
 ---
 # <a name="wm_cap_edit_copy-message"></a>WM \_ CAP \_ 編輯 \_ 複製訊息
 
