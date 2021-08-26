@@ -4,12 +4,12 @@ ms.assetid: e5b82013-f6b9-460d-9f53-1b50dee2064f
 title: 剪切
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2c641ee0275828a7552251b0f8901c1ea41280b2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 32edb9484fd8bb2a9da15220b0acf39fd5c44c50091551205022c6458b50d4e2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193791"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120092628"
 ---
 # <a name="shear"></a>剪切
 

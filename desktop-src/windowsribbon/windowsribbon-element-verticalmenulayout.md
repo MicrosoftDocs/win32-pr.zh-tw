@@ -3,7 +3,7 @@ title: VerticalMenuLayout 元素
 description: 代表資源庫中專案的垂直版面配置。
 ms.assetid: 4124c639-c078-4eb0-9d36-37d1ffcebac0
 keywords:
-- VerticalMenuLayout 元素視窗功能區
+- VerticalMenuLayout 元素 Windows 功能區
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 5e6f3e4a691c9691b9bc6c8c6d760bb10635d8d8
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 732fff993e4ac4e1caf8637c1f83804636bf6882
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111444049"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122623294"
 ---
 # <a name="verticalmenulayout-element"></a>VerticalMenuLayout 元素
 
@@ -39,10 +39,10 @@ ms.locfileid: "111444049"
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col  />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">

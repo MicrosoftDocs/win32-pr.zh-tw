@@ -4,12 +4,12 @@ ms.assetid: e6c5a398-56e9-48ea-92dd-e60a8c5f33a7
 title: DbgHelp 列舉
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b176d39968a1a32b89cc1c019552710c489049f2
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 3650396a7fce6a9de7e1acc4bf0f1fe65370a3edb1982bf2d977b85b148f4a22
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104109996"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120076918"
 ---
 # <a name="dbghelp-enumerations"></a>DbgHelp 列舉
 

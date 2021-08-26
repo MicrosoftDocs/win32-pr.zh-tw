@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55103090
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 8aaaf4b35ef4b0132b1806d34c0ed1ee2c729726
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f81955038de336a9cf00bf2275177c1f0412aec8cc172910eb550bea8bdd9290
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104195356"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120116578"
 ---
 # <a name="esenttoomanyioexception-members"></a>EsentTooManyIOException 成員
 

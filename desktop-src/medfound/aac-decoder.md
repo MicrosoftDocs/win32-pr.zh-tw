@@ -4,12 +4,12 @@ ms.assetid: 036fb0ee-8165-41a3-b41a-2e9bf035a6a6
 title: AAC 解碼器
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0bdde0611a3c567f446a2d42560e083cd2f5ade4f166d98a54096241ee990960
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1b9990965092c04b6ddc9e7b6c7b4d26cf577937
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119606878"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122483104"
 ---
 # <a name="aac-decoder"></a>AAC 解碼器
 
@@ -50,78 +50,19 @@ AAC 解碼器支援下列音訊子類型：
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>屬性</th>
-<th>描述</th>
-<th>備註</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="mf-mt-major-type-attribute.md"><strong>MF_MT_MAJOR_TYPE</strong></a></td>
-<td>主要類型。</td>
-<td>必須是 <strong>MFMediaType_Audio</strong>。</td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-subtype-attribute.md"><strong>MF_MT_SUBTYPE</strong></a></td>
-<td>音訊子類型。</td>
-<td>如需詳細資料，請參閱先前的描述。</td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-aac-audio-profile-level-indication.md">MF_MT_AAC_AUDIO_PROFILE_LEVEL_INDICATION</a></td>
-<td>音訊設定檔和層級。 <br/></td>
-<td>選擇性。 只適用于 <strong>MFAudioFormat_AAC</strong>。 <br/> 這個屬性的值是 <strong>audioProfileLevelIndication</strong> 欄位，如 ISO/IEC 14496-3 所定義。 <br/> 如果不明，請將設定為零或 0xFE (&quot; 未指定任何音訊設定檔 &quot;) 。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-aac-payload-type.md">MF_MT_AAC_PAYLOAD_TYPE</a></td>
-<td>裝載類型。<br/></td>
-<td>只適用于 <strong>MFAudioFormat_AAC</strong>。 此解碼器支援下列承載類型： <br/>
-<ul>
-<li>0：原始 AAC。 資料流程只包含 raw_data_block 的 () 元素，如 MPEG-2 所定義。</li>
-<li>1： ADTS。 資料流程包含 adts_sequence 的 () ，如 MPEG-2 所定義。 每個 adts_frame () 只允許一個 raw_data_block () 。</li>
-<li>3：具有同步處理層的音訊廣播串流 (LOA) 和多工層 (LATM) 。 在這三種類型的 LOA 中，只支援 <strong>AudioSyncStream</strong> 。 多工層是 <strong>AudioMuxElement</strong>，限制為一個音訊程式和一層。</li>
-</ul>
-<a href="mf-mt-aac-payload-type.md">MF_MT_AAC_PAYLOAD_TYPE</a> 是選擇性的。 如果未指定此屬性，則會使用預設值0，此值會指定資料流程只包含 raw_data_block 元素。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-audio-bits-per-sample-attribute.md"><strong>MF_MT_AUDIO_BITS_PER_SAMPLE</strong></a></td>
-<td>已解碼 PCM 音訊所需的位深度。</td>
 
-</tr>
-<tr class="even">
-<td><a href="mf-mt-audio-channel-mask-attribute.md"><strong>MF_MT_AUDIO_CHANNEL_MASK</strong></a></td>
-<td>指定喇叭位置的音訊通道指派。</td>
-<td>選擇性。 如需詳細資訊，請參閱 <a href="#format-constraints">格式條件約束</a>。</td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-audio-num-channels-attribute.md"><strong>MF_MT_AUDIO_NUM_CHANNELS</strong></a></td>
-<td>通道的數目，包括低頻率 (LFE) 通道（如果有的話）。<br/></td>
-<td>此值的解讀取決於媒體子類型，如先前所述。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-audio-samples-per-second-attribute.md"><strong>MF_MT_AUDIO_SAMPLES_PER_SECOND</strong></a></td>
-<td>取樣率（以每秒樣本數為單位）。<br/></td>
-<td>此值的解讀取決於媒體子類型，如先前所述。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-user-data-attribute.md"><strong>MF_MT_USER_DATA</strong></a></td>
-<td>其他格式資訊。</td>
-<td>這個屬性的值取決於子類型。<br/>
-<ul>
-<li><strong>MFAudioFormat_AAC</strong>：包含在<strong>WAVEFORMATEX</strong>結構後面出現的部分<a href="/windows/desktop/api/mmreg/ns-mmreg-heaacwaveinfo"><strong>HEAACWAVEINFO</strong></a>結構， (也就是<strong>wfx</strong>成員) 之後。 後面接著 AudioSpecificConfig () 資料，如 ISO/IEC 14496-3 所定義。</li>
-<li><strong>MEDIASUBTYPE_RAW_AAC1</strong>：包含 AudioSpecificConfig () 資料。 此資料必須出現;否則，此解碼器將會拒絕媒體類型。</li>
-</ul>
-AudioSpecificConfig () 資料的長度為2個位元組，適用于 AAC-LC 或 AAC，且具有 .SBR/PS 的隱含信號。 使用 .SBR/PS 的明確信號，AAC 超過2個位元組。<br/> 在 AudioSpecificConfig () 中定義的 <strong>audioObjectType</strong> 值必須是2，表示 AAC-LC。 <strong>ExtensionAudioObjectType</strong>的值必須是5，適用于 .sbr 或29（適用于 PS）。 <br/></td>
-</tr>
-</tbody>
-</table>
+| 屬性 | 描述 | 備註 | 
+|-----------|-------------|---------|
+| <a href="mf-mt-major-type-attribute.md"><strong>MF_MT_MAJOR_TYPE</strong></a> | 主要類型。 | 必須是 <strong>MFMediaType_Audio</strong>。 | 
+| <a href="mf-mt-subtype-attribute.md"><strong>MF_MT_SUBTYPE</strong></a> | 音訊子類型。 | 如需詳細資料，請參閱先前的描述。 | 
+| <a href="mf-mt-aac-audio-profile-level-indication.md">MF_MT_AAC_AUDIO_PROFILE_LEVEL_INDICATION</a> | 音訊設定檔和層級。 <br /> | 選擇性。 只適用于 <strong>MFAudioFormat_AAC</strong>。 <br /> 這個屬性的值是 <strong>audioProfileLevelIndication</strong> 欄位，如 ISO/IEC 14496-3 所定義。 <br /> 如果不明，請將設定為零或 0xFE ( 「未指定音訊設定檔」 ) 。<br /> | 
+| <a href="mf-mt-aac-payload-type.md">MF_MT_AAC_PAYLOAD_TYPE</a> | 裝載類型。<br /> | 只適用于 <strong>MFAudioFormat_AAC</strong>。 此解碼器支援下列承載類型： <br /><ul><li>0：原始 AAC。 資料流程只包含 raw_data_block 的 () 元素，如 MPEG-2 所定義。</li><li>1： ADTS。 資料流程包含 adts_sequence 的 () ，如 MPEG-2 所定義。 每個 adts_frame () 只允許一個 raw_data_block () 。</li><li>3：具有同步處理層的音訊廣播串流 (LOA) 和多工層 (LATM) 。 在這三種類型的 LOA 中，只支援 <strong>AudioSyncStream</strong> 。 多工層是 <strong>AudioMuxElement</strong>，限制為一個音訊程式和一層。</li></ul><a href="mf-mt-aac-payload-type.md">MF_MT_AAC_PAYLOAD_TYPE</a> 是選擇性的。 如果未指定此屬性，則會使用預設值0，此值會指定資料流程只包含 raw_data_block 元素。<br /> | 
+| <a href="mf-mt-audio-bits-per-sample-attribute.md"><strong>MF_MT_AUDIO_BITS_PER_SAMPLE</strong></a> | 已解碼 PCM 音訊所需的位深度。 | 
+| <a href="mf-mt-audio-channel-mask-attribute.md"><strong>MF_MT_AUDIO_CHANNEL_MASK</strong></a> | 指定喇叭位置的音訊通道指派。 | 選擇性。 如需詳細資訊，請參閱 <a href="#format-constraints">格式條件約束</a>。 | 
+| <a href="mf-mt-audio-num-channels-attribute.md"><strong>MF_MT_AUDIO_NUM_CHANNELS</strong></a> | 通道的數目，包括低頻率 (LFE) 通道（如果有的話）。<br /> | 此值的解讀取決於媒體子類型，如先前所述。<br /> | 
+| <a href="mf-mt-audio-samples-per-second-attribute.md"><strong>MF_MT_AUDIO_SAMPLES_PER_SECOND</strong></a> | 取樣率（以每秒樣本數為單位）。<br /> | 此值的解讀取決於媒體子類型，如先前所述。<br /> | 
+| <a href="mf-mt-user-data-attribute.md"><strong>MF_MT_USER_DATA</strong></a> | 其他格式資訊。 | 這個屬性的值取決於子類型。<br /><ul><li><strong>MFAudioFormat_AAC</strong>：包含在<strong>WAVEFORMATEX</strong>結構後面出現的部分<a href="/windows/desktop/api/mmreg/ns-mmreg-heaacwaveinfo"><strong>HEAACWAVEINFO</strong></a>結構， (也就是<strong>wfx</strong>成員) 之後。 後面接著 AudioSpecificConfig () 資料，如 ISO/IEC 14496-3 所定義。</li><li><strong>MEDIASUBTYPE_RAW_AAC1</strong>：包含 AudioSpecificConfig () 資料。 此資料必須出現;否則，此解碼器將會拒絕媒體類型。</li></ul>AudioSpecificConfig () 資料的長度為2個位元組，適用于 AAC-LC 或 AAC，且具有 .SBR/PS 的隱含信號。 使用 .SBR/PS 的明確信號，AAC 超過2個位元組。<br /> 在 AudioSpecificConfig () 中定義的 <strong>audioObjectType</strong> 值必須是2，表示 AAC-LC。 <strong>ExtensionAudioObjectType</strong>的值必須是5，適用于 .sbr 或29（適用于 PS）。 <br /> | 
+
 
 
 
@@ -133,37 +74,13 @@ AudioSpecificConfig () 資料的長度為2個位元組，適用于 AAC-LC 或 AA
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Subtype</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>MFAudioFormat_Float</strong></td>
-<td>IEEE 浮點音訊。</td>
-</tr>
-<tr class="even">
-<td><strong>MFAudioFormat_PCM</strong></td>
-<td>16位 PCM 音訊。</td>
-</tr>
-<tr class="odd">
-<td><strong>MFAudioFormat_AAC</strong></td>
-<td>需要 Windows 8。 <br/> 此輸出類型可以用來將 LOA/LATM 格式的 AAC 資料流程轉換成 ADTS 格式。 <br/> 若要將 LOA/LATM 資料流程轉換成 ADTS 資料流程，請將輸入類型設定為具有裝載類型 3 (LOA) 的 <strong>MFAudioFormat_AAC</strong> 。 然後，將輸出類型設定為承載類型 1 (ADTS) 的 <strong>MFAudioFormat_AAC</strong> 。 此解碼器將會重新格式化 conainter，而不會解碼位流。 <br/>
-<blockquote>
-[!Note]<br />
-此解碼器不會將 <strong>MFAudioFormat_AAC</strong> 註冊為輸出類型。 但是，如果應用程式設定所述的輸入類型， <a href="/windows/desktop/api/mftransform/nf-mftransform-imftransform-getoutputavailabletype"><strong>IMFTransform：： GetOutputAvailableType</strong></a> 方法會傳回可用輸出類型清單中 <strong>MFAudioFormat_AAC</strong> 。
-</blockquote>
-<br/> <br/></td>
-</tr>
-</tbody>
-</table>
+
+| Subtype | Description | 
+|---------|-------------|
+| <strong>MFAudioFormat_Float</strong> | IEEE 浮點音訊。 | 
+| <strong>MFAudioFormat_PCM</strong> | 16位 PCM 音訊。 | 
+| <strong>MFAudioFormat_AAC</strong> | 需要 Windows 8。 <br /> 此輸出類型可以用來將 LOA/LATM 格式的 AAC 資料流程轉換成 ADTS 格式。 <br /> 若要將 LOA/LATM 資料流程轉換成 ADTS 資料流程，請將輸入類型設定為具有裝載類型 3 (LOA) 的 <strong>MFAudioFormat_AAC</strong> 。 然後，將輸出類型設定為承載類型 1 (ADTS) 的 <strong>MFAudioFormat_AAC</strong> 。 此解碼器將會重新格式化 conainter，而不會解碼位流。 <br /><blockquote>[!Note]<br />此解碼器不會將 <strong>MFAudioFormat_AAC</strong> 註冊為輸出類型。 但是，如果應用程式設定所述的輸入類型， <a href="/windows/desktop/api/mftransform/nf-mftransform-imftransform-getoutputavailabletype"><strong>IMFTransform：： GetOutputAvailableType</strong></a> 方法會傳回可用輸出類型清單中 <strong>MFAudioFormat_AAC</strong> 。</blockquote><br /><br /> | 
+
 
 
 
@@ -235,37 +152,13 @@ AAC 解碼器會 [**執行 IMFTransform：： GetAttributes**](/windows/desktop/
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>屬性</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="/windows/desktop/DirectShow/avdecaudiodualmono-property"><strong>CODECAPI_AVDecAudioDualMono</strong></a></td>
-<td>指定雙聲道音訊是否編碼為身歷聲或雙 mono。 視為唯讀。</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/DirectShow/avdecaudiodualmonorepromode-property"><strong>CODECAPI_AVDecAudioDualMonoReproMode</strong></a></td>
-<td>指定解碼器如何重現雙重 mono 音訊。 預設值為 [ <strong>eAVDecAudioDualMonoReproMode_LEFT_MONO</strong>：輸出 Ch1 至左方和右邊的喇叭。 <br/> 應用程式可以設定此屬性來變更預設行為。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="mft-support-dynamic-format-change-attribute.md"><strong>MFT_SUPPORT_DYNAMIC_FORMAT_CHANGE</strong></a></td>
-<td>AAC 解碼器不會處理動態格式變更，而且必須在設定新的輸入媒體類型之前排清或清空。 將此屬性視為唯讀。 <br/>
-<blockquote>
-[!Note]<br />
-AAC 解碼器錯誤地將此屬性的值報告為 <strong>TRUE</strong> 。
-</blockquote>
-<br/> <br/> 在 Windows 7 中，解碼器錯誤地將這個屬性的值報告為<strong>TRUE</strong> 。 在 Windows 8 中，此解碼器會報告<strong>FALSE</strong>，也就是正確的值<br/></td>
-</tr>
-</tbody>
-</table>
+
+| 屬性 | 描述 | 
+|-----------|-------------|
+| <a href="/windows/desktop/DirectShow/avdecaudiodualmono-property"><strong>CODECAPI_AVDecAudioDualMono</strong></a> | 指定雙聲道音訊是否編碼為身歷聲或雙 mono。 視為唯讀。 | 
+| <a href="/windows/desktop/DirectShow/avdecaudiodualmonorepromode-property"><strong>CODECAPI_AVDecAudioDualMonoReproMode</strong></a> | 指定解碼器如何重現雙重 mono 音訊。 預設值為 [ <strong>eAVDecAudioDualMonoReproMode_LEFT_MONO</strong>：輸出 Ch1 至左方和右邊的喇叭。 <br /> 應用程式可以設定此屬性來變更預設行為。<br /> | 
+| <a href="mft-support-dynamic-format-change-attribute.md"><strong>MFT_SUPPORT_DYNAMIC_FORMAT_CHANGE</strong></a> | AAC 解碼器不會處理動態格式變更，而且必須在設定新的輸入媒體類型之前排清或清空。 將此屬性視為唯讀。 <br /><blockquote>[!Note]<br />AAC 解碼器錯誤地將此屬性的值報告為 <strong>TRUE</strong> 。</blockquote><br /><br /> 在 Windows 7 中，解碼器錯誤地將這個屬性的值報告為<strong>TRUE</strong> 。 在 Windows 8 中，此解碼器會報告<strong>FALSE</strong>，也就是正確的值<br /> | 
+
 
 
 

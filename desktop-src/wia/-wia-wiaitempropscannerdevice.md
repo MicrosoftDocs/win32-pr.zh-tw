@@ -1,5 +1,5 @@
 ---
-description: Windows 映像取得 (WIA) 硬體裝置具有儲存在 Windows 登錄中的屬性值。
+description: Windows影像取得 (WIA) 硬體裝置具有儲存在 Windows 登錄中的屬性值。
 ms.assetid: 78caa3af-927b-4143-9e88-4b5c918d00a4
 title: '掃描器裝置屬性常數 (Wiadef .h) '
 ms.topic: reference
@@ -47,16 +47,16 @@ api_type:
 - HeaderDef
 api_location:
 - wiadef.h
-ms.openlocfilehash: af50f5d319e368ce2a672c040dc9d23843436121
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d9e7afee9b5b639c21e52dc797e7ad42a6ee0dd0
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971005"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122627184"
 ---
 # <a name="scanner-device-property-constants"></a>掃描器裝置屬性常數
 
-Windows 映像取得 (WIA) 硬體裝置具有儲存在 Windows 登錄中的屬性值。 如需詳細資訊，請參閱 [**一般裝置屬性常數**](-wia-wiaitempropcommondevice.md)。 下列裝置屬性常數（與其相關聯的字串）是數位影像掃描器的特定常數。
+Windows影像取得 (WIA) 硬體裝置具有儲存在 Windows 登錄中的屬性值。 如需詳細資訊，請參閱 [**一般裝置屬性常數**](-wia-wiaitempropcommondevice.md)。 下列裝置屬性常數（與其相關聯的字串）是數位影像掃描器的特定常數。
 
 前置詞 "WIA \_ DPS \_ " 表示掃描器裝置的裝置屬性，而且是 C/c + + 中使用的命名慣例。 針對腳本用途，這些常數會使用前置詞 "ScannerDevice"，而且是 [WiaItemPropertyId](-wia-wiaitempropertyid.md) 列舉型別的一部分。 來自該腳本列舉的對應成員名稱，會出現在下列清單中 C/c + + 常數名稱旁邊的括弧中。
 
@@ -64,40 +64,40 @@ Windows 映像取得 (WIA) 硬體裝置具有儲存在 Windows 登錄中的屬�
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
-<th style="text-align: left;">常數/值</th>
-<th style="text-align: left;">Description</th>
+<th >常數/值</th>
+<th >描述</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_DPS_DEVICE_ID"></span><span id="wia_dps_device_id"></span><dl> <dt><strong>WIA_DPS_DEVICE_ID</strong></dt> <dt>ScannerDeviceDeviceId</dt> </dl></td>
-<td style="text-align: left;"><blockquote>
+<td ><span id="WIA_DPS_DEVICE_ID"></span><span id="wia_dps_device_id"></span><dl> <dt><strong>WIA_DPS_DEVICE_ID</strong></dt> <dt>ScannerDeviceDeviceId</dt> </dl></td>
+<td ><blockquote>
 [!Note]<br />
-只有在 Windows Vista 和更新版本上才支援此屬性。
+只有 Windows Vista 和更新版本才支援此屬性。
 </blockquote>
 <br/> 包含 web 服務掃描器裝置的唯一函數實例識別碼。 此識別碼代表 WIA 迷你驅動程式用來進行通訊的掃描器裝置上的 web 服務。 這項識別碼的表單不應進行任何假設。 WIA 迷你驅動程式會建立並維護此屬性。 <br/> WIA 應用程式可使用「函式探索 API」這項 WIA_DPS_DEVICE_ID 的值，來尋找目前 WIA 2.0 會話中使用的 web 服務掃描器裝置的函式實例物件。<br/> 類型： <strong>VT_BSTR</strong>、存取：唯讀、有效的值： <a href="-wia-property-attributes.md">WIA_PROP_NONE</a><br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_DPS_DITHER_PATTERN_DATA"></span><span id="wia_dps_dither_pattern_data"></span><dl> <dt><strong>WIA_DPS_DITHER_PATTERN_DATA</strong></dt> </dl></td>
-<td style="text-align: left;">保留，請勿使用。<br/> 類型： <strong>VT_I4</strong>、存取：唯讀、有效的值： <a href="-wia-property-attributes.md">WIA_PROP_NONE</a><br/></td>
+<td ><span id="WIA_DPS_DITHER_PATTERN_DATA"></span><span id="wia_dps_dither_pattern_data"></span><dl> <dt><strong>WIA_DPS_DITHER_PATTERN_DATA</strong></dt> </dl></td>
+<td >保留，請勿使用。<br/> 類型： <strong>VT_I4</strong>、存取：唯讀、有效的值： <a href="-wia-property-attributes.md">WIA_PROP_NONE</a><br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_DPS_DITHER_SELECT"></span><span id="wia_dps_dither_select"></span><dl> <dt><strong>WIA_DPS_DITHER_SELECT</strong></dt> </dl></td>
-<td style="text-align: left;">保留，請勿使用。<br/> 類型： <strong>VT_I4</strong>、存取：唯讀、有效的值： <a href="-wia-property-attributes.md">WIA_PROP_NONE</a><br/></td>
+<td ><span id="WIA_DPS_DITHER_SELECT"></span><span id="wia_dps_dither_select"></span><dl> <dt><strong>WIA_DPS_DITHER_SELECT</strong></dt> </dl></td>
+<td >保留，請勿使用。<br/> 類型： <strong>VT_I4</strong>、存取：唯讀、有效的值： <a href="-wia-property-attributes.md">WIA_PROP_NONE</a><br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_DPS_DOCUMENT_HANDLING_CAPABILITIES"></span><span id="wia_dps_document_handling_capabilities"></span><dl> <dt><strong>WIA_DPS_DOCUMENT_HANDLING_CAPABILITIES</strong></dt> <dt>ScannerDeviceDocumentHandlingCapabilities</dt> </dl></td>
-<td style="text-align: left;">包含掃描器的功能。 迷你驅動程式會建立並維護此屬性。 <br/> 應用程式會讀取此屬性，以判斷掃描器是否已安裝平板、檔輸送器或雙面列印器。 這個屬性也可用來進一步定義已安裝的功能。<br/> 類型： <strong>VT_I4</strong>、存取：唯讀、有效的值： <a href="-wia-property-attributes.md">WIA_PROP_NONE</a><br/> 下表說明僅適用于 Windows 7 的常數。<br/> 
+<td ><span id="WIA_DPS_DOCUMENT_HANDLING_CAPABILITIES"></span><span id="wia_dps_document_handling_capabilities"></span><dl> <dt><strong>WIA_DPS_DOCUMENT_HANDLING_CAPABILITIES</strong></dt> <dt>ScannerDeviceDocumentHandlingCapabilities</dt> </dl></td>
+<td >包含掃描器的功能。 迷你驅動程式會建立並維護此屬性。 <br/> 應用程式會讀取此屬性，以判斷掃描器是否已安裝平板、檔輸送器或雙面列印器。 這個屬性也可用來進一步定義已安裝的功能。<br/> 類型： <strong>VT_I4</strong>、存取：唯讀、有效的值： <a href="-wia-property-attributes.md">WIA_PROP_NONE</a><br/> 下表描述僅 Windows 7 有效的常數。<br/> 
 <table>
 <thead>
 <tr class="header">
 <th>Flags</th>
-<th>Description</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -109,13 +109,13 @@ Windows 映像取得 (WIA) 硬體裝置具有儲存在 Windows 登錄中的屬�
 </table>
 
 <p> </p>
-<p>下表說明僅適用于 Windows 7 和 Windows Vista 的常數。</p>
+<p>下表描述僅 Windows 7 和 Windows Vista 有效的常數。</p>
 <p></p>
 <table>
 <thead>
 <tr class="header">
 <th>Flags</th>
-<th>Description</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -143,13 +143,13 @@ Windows 映像取得 (WIA) 硬體裝置具有儲存在 Windows 登錄中的屬�
 </table>
 
 <p> </p>
-<p>下表描述的是 Windows XP 或更新版本中有效的常數。</p>
+<p>下表描述 Windows XP 或更新版本中有效的常數。</p>
 <p></p>
 <table>
 <thead>
 <tr class="header">
 <th>Flags</th>
-<th>Description</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -181,13 +181,13 @@ Windows 映像取得 (WIA) 硬體裝置具有儲存在 Windows 登錄中的屬�
 </table>
 
 <p> </p>
-<p>下表說明僅適用于 Windows XP 的常數。 這些值在 Windows 7 和 Windows Vista 中已被取代，不應該使用。</p>
+<p>下表描述僅 Windows XP 有效的常數。 這些值已針對 Windows 7 和 Windows Vista 取代，因此不應該使用。</p>
 <p></p>
 <table>
 <thead>
 <tr class="header">
 <th>Flags</th>
-<th>Description</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -209,8 +209,8 @@ Windows 映像取得 (WIA) 硬體裝置具有儲存在 Windows 登錄中的屬�
 <p> </p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_DPS_DOCUMENT_HANDLING_SELECT"></span><span id="wia_dps_document_handling_select"></span><dl> <dt><strong>WIA_DPS_DOCUMENT_HANDLING_SELECT</strong></dt> <dt>ScannerDeviceDocumentHandlingSelect</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_DPS_DOCUMENT_HANDLING_SELECT"></span><span id="wia_dps_document_handling_select"></span><dl> <dt><strong>WIA_DPS_DOCUMENT_HANDLING_SELECT</strong></dt> <dt>ScannerDeviceDocumentHandlingSelect</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
 Windows Vista 和更新版本不支援此屬性。 使用 <a href="-wia-wiaitempropscanneritem.md"><strong>WIA_IPS_DOCUMENT_HANDLING_SELECT</strong></a>。
@@ -227,7 +227,7 @@ Windows Vista 和更新版本不支援此屬性。 使用 <a href="-wia-wiaitemp
 <thead>
 <tr class="header">
 <th>Flags</th>
-<th>Description</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -277,16 +277,16 @@ Windows Vista 和更新版本不支援此屬性。 使用 <a href="-wia-wiaitemp
 <p> </p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_DPS_DOCUMENT_HANDLING_STATUS"></span><span id="wia_dps_document_handling_status"></span><dl> <dt><strong>WIA_DPS_DOCUMENT_HANDLING_STATUS</strong></dt> <dt>ScannerDeviceDocumentHandlingStatus</dt> </dl></td>
-<td style="text-align: left;"><p>包含掃描器安裝的平板、檔輸送器或雙面列印器的目前狀態。 迷你驅動程式會建立並維護此屬性。</p>
+<td ><span id="WIA_DPS_DOCUMENT_HANDLING_STATUS"></span><span id="wia_dps_document_handling_status"></span><dl> <dt><strong>WIA_DPS_DOCUMENT_HANDLING_STATUS</strong></dt> <dt>ScannerDeviceDocumentHandlingStatus</dt> </dl></td>
+<td ><p>包含掃描器安裝的平板、檔輸送器或雙面列印器的目前狀態。 迷你驅動程式會建立並維護此屬性。</p>
 <p>應用程式會讀取此屬性，以判斷掃描器裝置是否已準備好可供使用。 在取得影像之前，這是檢查紙紙是否在紙器中的理想方式。</p>
 <p>類型： <strong>VT_I4</strong>、存取：唯讀、有效的值： <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p>
-<p>下表包含對此屬性有效的常數。星號 * 表示 Windows Vista 或更新版本中不支援此旗標。 <strong>V</strong>符號表示只有在 Windows Vista 和更新版本中才支援旗標。 </p>
+<p>下表包含對此屬性有效的常數。星號 * 表示 Windows Vista 或更新版本中不支援此旗標。 <strong>V</strong>符號表示只有 Windows Vista 和更新版本才支援旗標。 </p>
 <table>
 <thead>
 <tr class="header">
 <th>Flags</th>
-<th>Description</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -344,13 +344,13 @@ Windows Vista 和更新版本不支援此屬性。 使用 <a href="-wia-wiaitemp
 <p> </p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_DPS_ENDORSER_CHARACTERS"></span><span id="wia_dps_endorser_characters"></span><dl> <dt><strong>WIA_DPS_ENDORSER_CHARACTERS</strong></dt> <dt>ScannerDeviceEndorserCharacters</dt> </dl></td>
-<td style="text-align: left;"><p>包含應用程式可用於建立有效 endorser 字串的所有有效字元。 Endorser 是安裝在掃描器上的印表機，可在每個掃描的頁面上 imprints 文字訊息。 迷你驅動程式應該針對這個屬性中的有效字元集驗證 <strong>WIA_DPS_ENDORSER_STRING</strong> 屬性的設定。 迷你驅動程式會建立並維護此屬性。</p>
+<td ><span id="WIA_DPS_ENDORSER_CHARACTERS"></span><span id="wia_dps_endorser_characters"></span><dl> <dt><strong>WIA_DPS_ENDORSER_CHARACTERS</strong></dt> <dt>ScannerDeviceEndorserCharacters</dt> </dl></td>
+<td ><p>包含應用程式可用於建立有效 endorser 字串的所有有效字元。 Endorser 是安裝在掃描器上的印表機，可在每個掃描的頁面上 imprints 文字訊息。 迷你驅動程式應該針對這個屬性中的有效字元集驗證 <strong>WIA_DPS_ENDORSER_STRING</strong> 屬性的設定。 迷你驅動程式會建立並維護此屬性。</p>
 <p>類型： <strong>VT_BSTR</strong>、存取：唯讀、有效的值： <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_DPS_ENDORSER_STRING"></span><span id="wia_dps_endorser_string"></span><dl> <dt><strong>WIA_DPS_ENDORSER_STRING</strong></dt> <dt>ScannerDeviceEndorserString</dt> </dl></td>
-<td style="text-align: left;"><p>包含要背書的字串 (換句話說，在迷你驅動程式掃描的每個頁面上列印) 。 應用程式會使用 <strong>WIA_DPS_ENDORSER_CHARACTERS</strong> 屬性中所報告的有效字元集來設定這個屬性。 只有在這個屬性中設定了字串時，迷你驅動程式才會將檔背書。 空字串表示 endorser 功能已停用。</p>
+<td ><span id="WIA_DPS_ENDORSER_STRING"></span><span id="wia_dps_endorser_string"></span><dl> <dt><strong>WIA_DPS_ENDORSER_STRING</strong></dt> <dt>ScannerDeviceEndorserString</dt> </dl></td>
+<td ><p>包含要背書的字串 (換句話說，在迷你驅動程式掃描的每個頁面上列印) 。 應用程式會使用 <strong>WIA_DPS_ENDORSER_CHARACTERS</strong> 屬性中所報告的有效字元集來設定這個屬性。 只有在這個屬性中設定了字串時，迷你驅動程式才會將檔背書。 空字串表示 endorser 功能已停用。</p>
 <p>因為驅動程式必須負責解讀 endorser 字串，所以您的驅動程式可以在 <strong>WIA_DPS_ENDORSER_STRING</strong>中使用特殊字元。 不過，只有您的應用程式會瞭解這些字元。</p>
 <p>Type： <strong>VT_BSTR</strong>、Access： Read/Write、Valid 值： <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p>
 <p>支援 <strong>WIA_DPS_ENDORSER_STRING</strong> 屬性的驅動程式必須支援下列權杖清單。 </p>
@@ -392,16 +392,16 @@ Windows Vista 和更新版本不支援此屬性。 使用 <a href="-wia-wiaitemp
 <p> </p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_DPS_FILTER_SELECT"></span><span id="wia_dps_filter_select"></span><dl> <dt><strong>WIA_DPS_FILTER_SELECT</strong></dt> </dl></td>
-<td style="text-align: left;"><p>保留，請勿使用。</p>
+<td ><span id="WIA_DPS_FILTER_SELECT"></span><span id="wia_dps_filter_select"></span><dl> <dt><strong>WIA_DPS_FILTER_SELECT</strong></dt> </dl></td>
+<td ><p>保留，請勿使用。</p>
 <p>類型： <strong>VT_I4</strong>、存取：唯讀、有效的值： <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_DPS_GLOBAL_IDENTITY"></span><span id="wia_dps_global_identity"></span><dl> <dt><strong>WIA_DPS_GLOBAL_IDENTITY</strong></dt> <dt>ScannerDeviceGlobalIdentity</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_DPS_GLOBAL_IDENTITY"></span><span id="wia_dps_global_identity"></span><dl> <dt><strong>WIA_DPS_GLOBAL_IDENTITY</strong></dt> <dt>ScannerDeviceGlobalIdentity</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
-只有在 Windows Vista 和更新版本上才支援此屬性。
+只有 Windows Vista 和更新版本才支援此屬性。
 </blockquote>
 </div>
 <div>
@@ -411,8 +411,8 @@ Windows Vista 和更新版本不支援此屬性。 使用 <a href="-wia-wiaitemp
 <p>類型： <strong>VT_BSTR</strong>、存取：唯讀、有效的值： <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_DPS_HORIZONTAL_BED_REGISTRATION"></span><span id="wia_dps_horizontal_bed_registration"></span><dl> <dt><strong>WIA_DPS_HORIZONTAL_BED_REGISTRATION</strong></dt> <dt>ScannerDeviceHorizontalBedRegistration</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_DPS_HORIZONTAL_BED_REGISTRATION"></span><span id="wia_dps_horizontal_bed_registration"></span><dl> <dt><strong>WIA_DPS_HORIZONTAL_BED_REGISTRATION</strong></dt> <dt>ScannerDeviceHorizontalBedRegistration</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
 Windows Vista 和更新版本不支援此屬性。
@@ -453,8 +453,8 @@ Windows Vista 和更新版本不支援此屬性。
 <p><strong>WIA_DPS_VERTICAL_BED_REGISTRATION</strong></p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_DPS_HORIZONTAL_BED_SIZE"></span><span id="wia_dps_horizontal_bed_size"></span><dl> <dt><strong>WIA_DPS_HORIZONTAL_BED_SIZE</strong></dt> <dt>ScannerDeviceHorizontalBedSize</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_DPS_HORIZONTAL_BED_SIZE"></span><span id="wia_dps_horizontal_bed_size"></span><dl> <dt><strong>WIA_DPS_HORIZONTAL_BED_SIZE</strong></dt> <dt>ScannerDeviceHorizontalBedSize</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
 Windows Vista 和更新版本不支援此屬性。 使用 <a href="-wia-wiaitempropscanneritem.md"><strong>WIA_IPS_MAX_HORIZONTAL_SIZE</strong></a>。
@@ -467,8 +467,8 @@ Windows Vista 和更新版本不支援此屬性。 使用 <a href="-wia-wiaitemp
 <p>類型： <strong>VT_I4</strong>、存取：唯讀、有效的值： <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_DPS_HORIZONTAL_SHEET_FEED_SIZE"></span><span id="wia_dps_horizontal_sheet_feed_size"></span><dl> <dt><strong>WIA_DPS_HORIZONTAL_SHEET_FEED_SIZE</strong></dt> <dt>ScannerDeviceHorizontalSheetFeedSize</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_DPS_HORIZONTAL_SHEET_FEED_SIZE"></span><span id="wia_dps_horizontal_sheet_feed_size"></span><dl> <dt><strong>WIA_DPS_HORIZONTAL_SHEET_FEED_SIZE</strong></dt> <dt>ScannerDeviceHorizontalSheetFeedSize</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
 Windows Vista 和更新版本不支援此屬性。 使用 <a href="-wia-wiaitempropscanneritem.md"><strong>WIA_IPS_MAX_HORIZONTAL_SIZE</strong></a>。
@@ -481,13 +481,13 @@ Windows Vista 和更新版本不支援此屬性。 使用 <a href="-wia-wiaitemp
 <p>類型： <strong>VT_I4</strong>、存取：唯讀、有效的值： <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_DPS_MAX_SCAN_TIME"></span><span id="wia_dps_max_scan_time"></span><dl> <dt><strong>WIA_DPS_MAX_SCAN_TIME</strong></dt> <dt>ScannerDeviceMaxScanTime</dt> </dl></td>
-<td style="text-align: left;"><p>包含使用目前的屬性設定掃描單一頁面的最長時間（以毫秒為單位）。 應用程式會讀取此屬性，以估計掃描頁面所需的時間。 這在判斷已停止回應之裝置的條件時很有説明。 迷你驅動程式會建立並維護此屬性。 所有掃描器都需要這個屬性。</p>
+<td ><span id="WIA_DPS_MAX_SCAN_TIME"></span><span id="wia_dps_max_scan_time"></span><dl> <dt><strong>WIA_DPS_MAX_SCAN_TIME</strong></dt> <dt>ScannerDeviceMaxScanTime</dt> </dl></td>
+<td ><p>包含使用目前的屬性設定掃描單一頁面的最長時間（以毫秒為單位）。 應用程式會讀取此屬性，以估計掃描頁面所需的時間。 這在判斷已停止回應之裝置的條件時很有説明。 迷你驅動程式會建立並維護此屬性。 所有掃描器都需要這個屬性。</p>
 <p>類型： <strong>VT_I4</strong>、存取：唯讀、有效的值： <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_DPS_MIN_HORIZONTAL_SHEET_FEED_SIZE"></span><span id="wia_dps_min_horizontal_sheet_feed_size"></span><dl> <dt><strong>WIA_DPS_MIN_HORIZONTAL_SHEET_FEED_SIZE</strong></dt> <dt>ScannerDeviceMinHorizontalSheetFeedSize</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_DPS_MIN_HORIZONTAL_SHEET_FEED_SIZE"></span><span id="wia_dps_min_horizontal_sheet_feed_size"></span><dl> <dt><strong>WIA_DPS_MIN_HORIZONTAL_SHEET_FEED_SIZE</strong></dt> <dt>ScannerDeviceMinHorizontalSheetFeedSize</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
 Windows Vista 和更新版本不支援此屬性。 使用 <a href="-wia-wiaitempropscanneritem.md"><strong>WIA_IPS_MIN_HORIZONTAL_SIZE</strong></a>。
@@ -502,8 +502,8 @@ Windows Vista 和更新版本不支援此屬性。 使用 <a href="-wia-wiaitemp
 <p><strong>WIA_DPS_MIN_VERTICAL_SHEET_FEED_SIZE</strong></p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_DPS_MIN_VERTICAL_SHEET_FEED_SIZE"></span><span id="wia_dps_min_vertical_sheet_feed_size"></span><dl> <dt><strong>WIA_DPS_MIN_VERTICAL_SHEET_FEED_SIZE</strong></dt> <dt>ScannerDeviceMinVerticalSheetFeedSize</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_DPS_MIN_VERTICAL_SHEET_FEED_SIZE"></span><span id="wia_dps_min_vertical_sheet_feed_size"></span><dl> <dt><strong>WIA_DPS_MIN_VERTICAL_SHEET_FEED_SIZE</strong></dt> <dt>ScannerDeviceMinVerticalSheetFeedSize</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
 Windows Vista 和更新版本不支援此屬性。 使用 <a href="-wia-wiaitempropscanneritem.md"><strong>WIA_IPS_MIN_VERTICAL_SIZE</strong></a>。
@@ -518,8 +518,8 @@ Windows Vista 和更新版本不支援此屬性。 使用 <a href="-wia-wiaitemp
 <p><strong>WIA_DPS_MIN_HORIZONTAL_SHEET_FEED_SIZE</strong></p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_DPS_OPTICAL_XRES"></span><span id="wia_dps_optical_xres"></span><dl> <dt><strong>WIA_DPS_OPTICAL_XRES</strong></dt> <dt>ScannerDeviceOpticalXres</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_DPS_OPTICAL_XRES"></span><span id="wia_dps_optical_xres"></span><dl> <dt><strong>WIA_DPS_OPTICAL_XRES</strong></dt> <dt>ScannerDeviceOpticalXres</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
 Windows Vista 不支援這個屬性。 使用 <a href="-wia-wiaitempropscanneritem.md"><strong>WIA_IPS_OPTICAL_XRES</strong></a>。
@@ -532,8 +532,8 @@ Windows Vista 不支援這個屬性。 使用 <a href="-wia-wiaitempropscannerit
 <p>類型： <strong>VT_I4</strong>、存取：唯讀、有效的值： <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_DPS_OPTICAL_YRES"></span><span id="wia_dps_optical_yres"></span><dl> <dt><strong>WIA_DPS_OPTICAL_YRES</strong></dt> <dt>ScannerDeviceOpticalYres</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_DPS_OPTICAL_YRES"></span><span id="wia_dps_optical_yres"></span><dl> <dt><strong>WIA_DPS_OPTICAL_YRES</strong></dt> <dt>ScannerDeviceOpticalYres</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
 Windows Vista 不支援這個屬性。 使用 <a href="-wia-wiaitempropscanneritem.md"><strong>WIA_IPS_OPTICAL_YRES</strong></a>。
@@ -546,8 +546,8 @@ Windows Vista 不支援這個屬性。 使用 <a href="-wia-wiaitempropscannerit
 <p>類型： <strong>VT_I4</strong>、存取：唯讀、有效的值： <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_DPS_ORIENTATION"></span><span id="wia_dps_orientation"></span><dl> <dt><strong>WIA_DPS_ORIENTATION</strong></dt> <dt>ScannerDeviceOrientation</dt> </dl></td>
-<td style="text-align: left;"><p>包含目前的方向設定。迷你驅動程式會建立並維護此屬性。</p>
+<td ><span id="WIA_DPS_ORIENTATION"></span><span id="wia_dps_orientation"></span><dl> <dt><strong>WIA_DPS_ORIENTATION</strong></dt> <dt>ScannerDeviceOrientation</dt> </dl></td>
+<td ><p>包含目前的方向設定。迷你驅動程式會建立並維護此屬性。</p>
 <p>應用程式會設定 <strong>WIA_DPS_ORIENTATION</strong> 屬性，以定義要取得之頁面或影像的原始方向。 如需如何使用 WIA_DPS_ORIENTATION 的詳細資訊，請參閱 <strong>WIA_DPS_PAGE_SIZE</strong></p>
 <p>Type： <strong>VT_I4</strong>、Access： Read/Write、Valid 值： <a href="-wia-property-attributes.md">WIA_PROP_LIST</a></p>
 <p>下表包含四個對此屬性有效的常數。</p>
@@ -584,14 +584,14 @@ Windows Vista 不支援這個屬性。 使用 <a href="-wia-wiaitempropscannerit
 <p><a href="-wia-wiaitempropscanneritem.md"><strong>WIA_IPS_ROTATION</strong></a></p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_DPS_PAD_COLOR"></span><span id="wia_dps_pad_color"></span><dl> <dt><strong>WIA_DPS_PAD_COLOR</strong></dt> <dt>ScannerDevicePadColor</dt> </dl></td>
-<td style="text-align: left;"><p>當沒有足夠的影像資料來填滿要求的緩衝區時，用來填補的色彩。 這個屬性是針對填補緩衝區的掃描器所執行。 所有掃描器的這個屬性是選擇性的。 迷你驅動程式會建立並維護此屬性。</p>
+<td ><span id="WIA_DPS_PAD_COLOR"></span><span id="wia_dps_pad_color"></span><dl> <dt><strong>WIA_DPS_PAD_COLOR</strong></dt> <dt>ScannerDevicePadColor</dt> </dl></td>
+<td ><p>當沒有足夠的影像資料來填滿要求的緩衝區時，用來填補的色彩。 這個屬性是針對填補緩衝區的掃描器所執行。 所有掃描器的這個屬性是選擇性的。 迷你驅動程式會建立並維護此屬性。</p>
 <p>類型： <strong>VT_UI1</strong>  |  <strong>VT_VECTOR</strong>、存取：唯讀、有效的值： <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p>
 <p>色彩資訊的格式為 <a href="/windows/win32/api/wingdi/ns-wingdi-rgbquad">RGBQUAD</a>。</p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_DPS_PAGE_HEIGHT"></span><span id="wia_dps_page_height"></span><dl> <dt><strong>WIA_DPS_PAGE_HEIGHT</strong></dt> <dt>ScannerDevicePageHeight</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_DPS_PAGE_HEIGHT"></span><span id="wia_dps_page_height"></span><dl> <dt><strong>WIA_DPS_PAGE_HEIGHT</strong></dt> <dt>ScannerDevicePageHeight</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
 Windows Vista 不支援這個屬性。 使用 <a href="-wia-wiaitempropscanneritem.md"><strong>WIA_IPS_PAGE_HEIGHT</strong></a>。
@@ -604,8 +604,8 @@ Windows Vista 不支援這個屬性。 使用 <a href="-wia-wiaitempropscannerit
 <p>類型： <strong>VT_I4</strong>、存取：唯讀、有效的值： <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_DPS_PAGE_SIZE"></span><span id="wia_dps_page_size"></span><dl> <dt><strong>WIA_DPS_PAGE_SIZE</strong></dt> <dt>ScannerDevicePageSize</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_DPS_PAGE_SIZE"></span><span id="wia_dps_page_size"></span><dl> <dt><strong>WIA_DPS_PAGE_SIZE</strong></dt> <dt>ScannerDevicePageSize</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
 Windows Vista 不支援這個屬性。 使用 <a href="-wia-wiaitempropscanneritem.md"><strong>WIA_IPS_PAGE_SIZE</strong></a>。
@@ -660,7 +660,7 @@ Windows Vista 不支援這個屬性。 使用 <a href="-wia-wiaitempropscannerit
 <span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -684,7 +684,7 @@ WIA_IPS_YRES = 100</code></pre></td>
 <span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -709,7 +709,7 @@ WIA_IPS_YRES = 100</code></pre></td>
 <span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -734,7 +734,7 @@ WIA_IPS_YRES = 100</code></pre></td>
 <span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -755,8 +755,8 @@ WIA_IPS_YRES = 100</code></pre></td>
 </div></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_DPS_PAGE_WIDTH"></span><span id="wia_dps_page_width"></span><dl> <dt><strong>WIA_DPS_PAGE_WIDTH</strong></dt> <dt>ScannerDevicePageWidth</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_DPS_PAGE_WIDTH"></span><span id="wia_dps_page_width"></span><dl> <dt><strong>WIA_DPS_PAGE_WIDTH</strong></dt> <dt>ScannerDevicePageWidth</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
 Windows Vista 不支援這個屬性。 使用 <a href="-wia-wiaitempropscanneritem.md"><strong>WIA_IPS_PAGE_WIDTH</strong></a>。
@@ -769,8 +769,8 @@ Windows Vista 不支援這個屬性。 使用 <a href="-wia-wiaitempropscannerit
 <p>類型： <strong>VT_I4</strong>、存取：唯讀、有效的值： <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_DPS_PAGES"></span><span id="wia_dps_pages"></span><dl> <dt><strong>WIA_DPS_PAGES</strong></dt> <dt>ScannerDevicePages</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_DPS_PAGES"></span><span id="wia_dps_pages"></span><dl> <dt><strong>WIA_DPS_PAGES</strong></dt> <dt>ScannerDevicePages</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
 Windows Vista 不支援這個屬性。 使用 <a href="-wia-wiaitempropscanneritem.md"><strong>WIA_IPS_PAGES</strong></a>。
@@ -795,14 +795,14 @@ Windows Vista 不支援這個屬性。 使用 <a href="-wia-wiaitempropscannerit
 <p>將 <strong>WIA_DPS_PAGES</strong> 設定為1，會導致掃描器處理頁面的其中一個邊。 如果掃描器在雙工模式下無法僅掃描頁面的一端，則應該將 WIA_PROPERTY_INFO 結構的 Inc 成員 <strong>WIA_DPS_PAGES</strong> 有效值變更為2。 此值會通知應用程式，它必須以兩個的倍數要求頁面。 值為零表示要掃描目前載入檔送紙器中的 <em>所有</em> 頁面。</p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_DPS_PLATEN_COLOR"></span><span id="wia_dps_platen_color"></span><dl> <dt><strong>WIA_DPS_PLATEN_COLOR</strong></dt> <dt>ScannerDevicePlatenColor</dt> </dl></td>
-<td style="text-align: left;"><p>指定要掃描的工作表背面的影印色彩。 對於具有玻璃的掃描器，這個屬性是選擇性的。 迷你驅動程式會建立並維護此屬性。</p>
+<td ><span id="WIA_DPS_PLATEN_COLOR"></span><span id="wia_dps_platen_color"></span><dl> <dt><strong>WIA_DPS_PLATEN_COLOR</strong></dt> <dt>ScannerDevicePlatenColor</dt> </dl></td>
+<td ><p>指定要掃描的工作表背面的影印色彩。 對於具有玻璃的掃描器，這個屬性是選擇性的。 迷你驅動程式會建立並維護此屬性。</p>
 <p>類型： <strong>VT_UI1</strong>  |  <strong>VT_VECTOR</strong>、存取：唯讀、有效的值： <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p>
 <p>色彩資訊的格式為 <a href="/windows/win32/api/wingdi/ns-wingdi-rgbquad">RGBQUAD</a>。</p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_DPS_PREVIEW"></span><span id="wia_dps_preview"></span><dl> <dt><strong>WIA_DPS_PREVIEW</strong></dt> <dt>ScannerDevicePreview</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_DPS_PREVIEW"></span><span id="wia_dps_preview"></span><dl> <dt><strong>WIA_DPS_PREVIEW</strong></dt> <dt>ScannerDevicePreview</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
 Windows Vista 不支援這個屬性。 使用 <a href="-wia-wiaitempropscanneritem.md"><strong>WIA_IPS_PREVIEW</strong></a>。
@@ -836,14 +836,14 @@ Windows Vista 不支援這個屬性。 使用 <a href="-wia-wiaitempropscannerit
 <p> </p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_DPS_SCAN_AHEAD_PAGES"></span><span id="wia_dps_scan_ahead_pages"></span><dl> <dt><strong>WIA_DPS_SCAN_AHEAD_PAGES</strong></dt> <dt>ScannerDeviceScanAheadPages</dt> </dl></td>
-<td style="text-align: left;"><p>包含值，指出掃描器在將頁面傳送至應用程式之前，是否會在掃描器緩衝區中快取頁面。</p>
+<td ><span id="WIA_DPS_SCAN_AHEAD_PAGES"></span><span id="wia_dps_scan_ahead_pages"></span><dl> <dt><strong>WIA_DPS_SCAN_AHEAD_PAGES</strong></dt> <dt>ScannerDeviceScanAheadPages</dt> </dl></td>
+<td ><p>包含值，指出掃描器在將頁面傳送至應用程式之前，是否會在掃描器緩衝區中快取頁面。</p>
 <p>值為0會停用事先掃描，而且不會事先掃描任何頁面。 在經過緩衝處理的掃描專案上進行一般資料傳輸，會抓取緩衝的頁面。 在提前掃描工作期間，無法變更 WIA 屬性。 這是選用屬性。</p>
 <p>類型： <strong>VT_I4</strong>、存取：讀取/寫入、有效的值：從零到檔送紙器可以容納的最大頁面數目的 <a href="-wia-property-attributes.md">WIA_PROP_RANGE</a> 。</p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_DPS_SCAN_AVAILABLE_ITEM"></span><span id="wia_dps_scan_available_item"></span><dl> <dt><strong>WIA_DPS_SCAN_AVAILABLE_ITEM</strong></dt> <dt>ScannerDeviceScanAvailableItem</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_DPS_SCAN_AVAILABLE_ITEM"></span><span id="wia_dps_scan_available_item"></span><dl> <dt><strong>WIA_DPS_SCAN_AVAILABLE_ITEM</strong></dt> <dt>ScannerDeviceScanAvailableItem</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
 只有 Windows 7 和更新版本才支援此屬性。
@@ -857,8 +857,8 @@ Windows Vista 不支援這個屬性。 使用 <a href="-wia-wiaitempropscannerit
 <p>類型： <strong>VT_I4</strong>、存取：讀取/寫入、有效的值：從零到檔送紙器可以容納的最大頁面數目的 <a href="-wia-property-attributes.md">WIA_PROP_RANGE</a> 。</p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_DPS_SERVICE_ID"></span><span id="wia_dps_service_id"></span><dl> <dt><strong>WIA_DPS_SERVICE_ID</strong></dt> <dt>ScannerDeviceServiceId</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_DPS_SERVICE_ID"></span><span id="wia_dps_service_id"></span><dl> <dt><strong>WIA_DPS_SERVICE_ID</strong></dt> <dt>ScannerDeviceServiceId</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
 只有 Windows Vista 和更新版本才支援此屬性。
@@ -871,8 +871,8 @@ Windows Vista 不支援這個屬性。 使用 <a href="-wia-wiaitempropscannerit
 <p>類型： <strong>VT_BSTR</strong>、存取：唯讀、有效的值： <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_DPS_SHEET_FEEDER_REGISTRATION"></span><span id="wia_dps_sheet_feeder_registration"></span><dl> <dt><strong>WIA_DPS_SHEET_FEEDER_REGISTRATION</strong></dt> <dt>ScannerDeviceSheetFeederRegistration</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_DPS_SHEET_FEEDER_REGISTRATION"></span><span id="wia_dps_sheet_feeder_registration"></span><dl> <dt><strong>WIA_DPS_SHEET_FEEDER_REGISTRATION</strong></dt> <dt>ScannerDeviceSheetFeederRegistration</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
 Windows Vista 和更新版本不支援此屬性。 使用 <a href="-wia-wiaitempropscanneritem.md"><strong>WIA_IPS_SHEET_FEEDER_REGISTRATION</strong></a>。
@@ -912,8 +912,8 @@ Windows Vista 和更新版本不支援此屬性。 使用 <a href="-wia-wiaitemp
 <p> </p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_DPS_SHOW_PREVIEW_CONTROL"></span><span id="wia_dps_show_preview_control"></span><dl> <dt><strong>WIA_DPS_SHOW_PREVIEW_CONTROL</strong></dt> <dt>ScannerDeviceShowPreviewControl</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_DPS_SHOW_PREVIEW_CONTROL"></span><span id="wia_dps_show_preview_control"></span><dl> <dt><strong>WIA_DPS_SHOW_PREVIEW_CONTROL</strong></dt> <dt>ScannerDeviceShowPreviewControl</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
 Windows Vista 不支援這個屬性。 使用 <a href="-wia-wiaitempropscanneritem.md"><strong>WIA_IPS_SHOW_PREVIEW_CONTROL</strong></a>。
@@ -947,8 +947,8 @@ Windows Vista 不支援這個屬性。 使用 <a href="-wia-wiaitempropscannerit
 <p> </p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_DPS_USER_NAME"></span><span id="wia_dps_user_name"></span><dl> <dt><strong>WIA_DPS_USER_NAME</strong></dt> <dt>ScannerDeviceUserName</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_DPS_USER_NAME"></span><span id="wia_dps_user_name"></span><dl> <dt><strong>WIA_DPS_USER_NAME</strong></dt> <dt>ScannerDeviceUserName</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
 只有 Windows Vista 和更新版本才支援此屬性。
@@ -962,8 +962,8 @@ Windows Vista 不支援這個屬性。 使用 <a href="-wia-wiaitempropscannerit
 <p>類型： <strong>VT_BSTR</strong>、存取：唯讀、有效的值： <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_DPS_VERTICAL_BED_REGISTRATION"></span><span id="wia_dps_vertical_bed_registration"></span><dl> <dt><strong>WIA_DPS_VERTICAL_BED_REGISTRATION</strong></dt> <dt>ScannerDeviceVerticalBedRegistration</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_DPS_VERTICAL_BED_REGISTRATION"></span><span id="wia_dps_vertical_bed_registration"></span><dl> <dt><strong>WIA_DPS_VERTICAL_BED_REGISTRATION</strong></dt> <dt>ScannerDeviceVerticalBedRegistration</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
 Windows Vista 和更新版本不支援此屬性。
@@ -1003,8 +1003,8 @@ Windows Vista 和更新版本不支援此屬性。
 <p><strong>WIA_DPS_HORIZONTAL_BED_REGISTRATION</strong></p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_DPS_VERTICAL_BED_SIZE"></span><span id="wia_dps_vertical_bed_size"></span><dl> <dt><strong>WIA_DPS_VERTICAL_BED_SIZE</strong></dt> <dt>ScannerDeviceVerticalBedSize</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_DPS_VERTICAL_BED_SIZE"></span><span id="wia_dps_vertical_bed_size"></span><dl> <dt><strong>WIA_DPS_VERTICAL_BED_SIZE</strong></dt> <dt>ScannerDeviceVerticalBedSize</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
 Windows Vista 和更新版本不支援此屬性。 使用 <a href="-wia-wiaitempropscanneritem.md"><strong>WIA_IPS_MAX_VERTICAL_SIZE</strong></a>。
@@ -1017,8 +1017,8 @@ Windows Vista 和更新版本不支援此屬性。 使用 <a href="-wia-wiaitemp
 <p>類型： <strong>VT_I4</strong>、存取：唯讀、有效的值： <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_DPS_VERTICAL_SHEET_FEED_SIZE"></span><span id="wia_dps_vertical_sheet_feed_size"></span><dl> <dt><strong>WIA_DPS_VERTICAL_SHEET_FEED_SIZE</strong></dt> <dt>ScannerDeviceVerticalSheetFeedSize</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_DPS_VERTICAL_SHEET_FEED_SIZE"></span><span id="wia_dps_vertical_sheet_feed_size"></span><dl> <dt><strong>WIA_DPS_VERTICAL_SHEET_FEED_SIZE</strong></dt> <dt>ScannerDeviceVerticalSheetFeedSize</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
 Windows Vista 和更新版本不支援此屬性。 使用 <a href="-wia-wiaitempropscanneritem.md"><strong>WIA_IPS_MAX_VERTICAL_SIZE</strong></a>。
@@ -1041,8 +1041,8 @@ Windows Vista 和更新版本不支援此屬性。 使用 <a href="-wia-wiaitemp
 
 | 需求 | 值 |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 windows 2000 Professional、Windows XP \[ desktop 應用程式\]<br/>              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                |
+| 最低支援的用戶端<br/> | Windows 2000 Professional，僅 Windows XP \[ desktop 應用程式\]<br/>              |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                |
 | 標頭<br/>                   | <dl> <dt>Wiadef。h</dt> </dl> |
 
 

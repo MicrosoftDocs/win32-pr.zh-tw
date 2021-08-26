@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: adcaaa5194abeb17d110118de922811eb84af7fa
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: f65a08d1f1ec8a1f7710272d2a1c48e936f211b3bcdee8b84652b9a7196f39e3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104386467"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120118698"
 ---
 # <a name="id3dxeffectfindnextvalidtechnique-method"></a>ID3DXEffect：： FindNextValidTechnique 方法
 

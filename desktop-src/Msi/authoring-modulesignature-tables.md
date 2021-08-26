@@ -4,12 +4,12 @@ ms.assetid: 5f0b4590-dac3-4528-b714-ff760ae8d123
 title: 撰寫 ModuleSignature 資料表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 796775b0237c17db4fa21075a792c372bed3e97b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9c7aaa84b7e5f2db2327bbb272d195333b7a82e609a2dfe2dc72b82eaad9bd09
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106982382"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120045408"
 ---
 # <a name="authoring-modulesignature-tables"></a>撰寫 ModuleSignature 資料表
 

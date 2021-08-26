@@ -4,17 +4,17 @@ ms.assetid: eaaf9f65-e8ff-4e54-90a9-04252cdd773a
 title: '系統錯誤碼 (6000-8199)  (Winerror.h. h) '
 ms.topic: reference
 ms.date: 07/18/2019
-ms.openlocfilehash: 0660009411224673481e9b65bcb62d7b194ab71f
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: d24a165798f0d4bf8a3ed534880cd3f9ad1f2b8b85d072e8a4d7aae8e6345508
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847420"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120131658"
 ---
 # <a name="system-error-codes-6000-8199"></a>系統錯誤碼 (6000-8199) 
 
 > [!NOTE]
-> 這項資訊適用于程式設計人員偵測系統錯誤。 針對其他錯誤（例如 Windows Update 的問題），[ [錯誤碼](system-error-codes.md) ] 頁面上有資源清單。
+> 這項資訊適用于程式設計人員偵測系統錯誤。 針對其他錯誤（例如 Windows Update 的問題），[[錯誤碼](system-error-codes.md)] 頁面上有資源清單。
 
 下列清單描述 (錯誤6000到 8199) 的 [系統錯誤碼](system-error-codes.md) 。 當有許多函式失敗時， [**GetLastError**](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror) 函式會傳回這些函數。 若要在您的應用程式中取得錯誤的描述文字，請使用 [**FormatMessage**](/windows/desktop/api/WinBase/nf-winbase-formatmessage) 函式，並搭配系統旗標的 **格式 \_ 訊息 \_ \_** 。
 
@@ -1939,7 +1939,7 @@ $Txf 目錄必須是空的，此作業才會成功。
 
 
 
-Windows 已在檔案中發現損毀，且該檔案已修復。 可能發生資料遺失。
+Windows 在檔案中發現損毀，且該檔案已修復。 可能發生資料遺失。
 
 
 </dt> </dl> </dd> <dt>
@@ -2758,7 +2758,7 @@ RDP 通訊協定元件 %2 偵測到通訊協定資料流程中的錯誤，並已
 
 
 
-Windows 無法連線到您的會話，因為 Windows video 子系統發生問題。 請稍後再試一次連接，或洽詢伺服器管理員以取得協助。
+Windows 因為 Windows 的影片子系統發生問題，所以無法連線到您的會話。 請稍後再試一次連接，或洽詢伺服器管理員以取得協助。
 
 
 </dt> </dl> </dd> <dt>
@@ -2990,8 +2990,8 @@ Windows 無法連線到您的會話，因為 Windows video 子系統發生問題
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Winerror.h。h</dt> </dl> |
 
 

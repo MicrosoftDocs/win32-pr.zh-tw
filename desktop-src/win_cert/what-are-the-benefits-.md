@@ -9,22 +9,22 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 4f386ae6f44ada93d710c49fc9a30c58c38c23f8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a567121e94c9203c65c9aa4233cf10cc38caae5640bffd8ad789547da410ca7f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192790"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120090018"
 ---
 # <a name="benefits-of-windows-certification"></a>Windows 認證的優點
 
 當您認證您的 Windows 8.1 或 Windows 8 桌面應用程式時，您有資格：
 
--   參與多億美元的 Windows 軟體市場及最大的 Windows 版本
--   在 Windows 安裝程式相容性報告中的特色為相容
--   在 Windows 市集中列出，全球各地有數百萬個潛在客戶 (Windows 8.1) 
+-   參與多達十億元的 Windows 軟體市場和最大版本的 Windows
+-   在 Windows 安裝相容性報告中視為相容
+-   在 Windows 存放區中列出，全球各地有數百萬個潛在客戶 (Windows 8.1) 
 -   可存取 Microsoft 合作夥伴網路的行銷資產和訓練
--   獲得認證標誌，輕鬆地將您的應用程式識別為高品質和 Windows 相容
+-   獲得認證標誌，輕鬆地將您的應用程式識別為高品質且 Windows 相容
 -   為客戶提供您產品品質的信賴度
 
 ## <a name="related-topics"></a>相關主題

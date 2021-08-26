@@ -4,12 +4,12 @@ description: 本主題說明如何使用點陣圖和筆刷來定義不透明度�
 ms.assetid: 869821b0-6ebe-46c2-aab6-93177d8a92c5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2050cccd37012028e2a86fbf77cd071671ce7201
-ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
+ms.openlocfilehash: 513365474ed6b1f6f42d34f9b876226e00ba6e85
+ms.sourcegitcommit: 4e94fc75fad7b2a0f3c92a26f97e89924e59b7a9
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "122626554"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "122786374"
 ---
 # <a name="opacity-masks-overview"></a>不透明度遮罩概觀
 
@@ -24,7 +24,7 @@ ms.locfileid: "122626554"
 -   [將不透明度遮罩套用至圖層](#apply-an-opacity-mask-to-a-layer)
 -   [相關主題](#related-topics)
 
-## <a name="prerequisites"></a>先決條件
+## <a name="prerequisites"></a>必要條件
 
 本總覽假設您已經熟悉基本的 Direct2D 繪圖作業，如 [建立簡單的 Direct2D 應用程式](direct2d-quickstart.md) 逐步解說中所述。 您也應該熟悉不同類型的筆刷，如 [筆刷總覽](direct2d-brushes-overview.md)中所述。
 
@@ -176,7 +176,7 @@ ms.locfileid: "122626554"
                 );
     ```
 
-    <span codelanguage="ManagedCPlusPlus"></span>
+    
     <table>
     <colgroup>
     <col  />
@@ -200,7 +200,7 @@ ms.locfileid: "122626554"
     </tbody>
     </table>
 
-    <span codelanguage="ManagedCPlusPlus"></span>
+    
     <table>
     <colgroup>
     <col  />
@@ -304,7 +304,7 @@ ms.locfileid: "122626554"
 
 
 
-<span codelanguage="ManagedCPlusPlus"></span>
+
 
 <table>
 <colgroup>
@@ -329,7 +329,7 @@ ms.locfileid: "122626554"
 </tbody>
 </table>
 
-<span codelanguage="ManagedCPlusPlus"></span>
+
 
 <table>
 <colgroup>

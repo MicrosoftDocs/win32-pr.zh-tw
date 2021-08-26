@@ -6,12 +6,12 @@ keywords:
 - HTTP 伺服器 API，錯誤記錄
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d988d87a65c914625623c3f55d33a7f8cc9a4f94
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9c92c071929b61020b456d8ecabc81ebc0f05503c2f385b235afc323cf8dea33
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106966182"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120130678"
 ---
 # <a name="error-logging-in-the-http-server-api"></a>HTTP 伺服器 API 中的錯誤記錄
 
@@ -23,9 +23,9 @@ ms.locfileid: "106966182"
 -   [記錄檔格式](format-of-the-http-server-api-error-logs.md) HTTP 伺服器 API 會建立符合全球資訊網協會 (W3C) 記錄檔慣例的記錄檔，而且可以使用標準工具進行剖析。 不過，與 W3C 記錄檔不同的是，HTTP 伺服器 API 記錄檔不包含資料行的名稱。
 -   [記錄的錯誤類型](types-of-errors-logged-by-the-http-server-api.md) HTTP 伺服器 API 會記錄各種常見的錯誤。
 
- 
+ 
 
- 
+ 
 
 
 

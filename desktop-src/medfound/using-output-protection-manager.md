@@ -4,12 +4,12 @@ ms.assetid: 01edc17e-e71c-4772-a03c-09c9a2b8400f
 title: 使用輸出保護管理員
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 57bf4def3b0575dd706ae5f0c62924b6f1375a05
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 73e37dd548603a6f9d7769a9e724df3477e2fcde
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106969296"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122475514"
 ---
 # <a name="using-output-protection-manager"></a>使用輸出保護管理員
 
@@ -22,7 +22,7 @@ ms.locfileid: "106969296"
 -   [處理已停用的影片輸出](#sending-opm-commands)
 -   [使用 HDCP 來保護內容](#using-hdcp-to-protect-content)
 
-Premium 影片內容通常會經過加密，以防止未經授權的重複。 當然，影片必須先解密才能顯示。 經過解密的未壓縮框架之後，必須傳送至顯示裝置的實體連接器。 內容提供者可能需要在此時間點保護影片畫面，因為它們會在實體連接器間移動。
+進階版的影片內容通常會經過加密，以防止未經授權的重複。 當然，影片必須先解密才能顯示。 經過解密的未壓縮框架之後，必須傳送至顯示裝置的實體連接器。 內容提供者可能需要在此時間點保護影片畫面，因為它們會在實體連接器間移動。
 
 基於此目的，有各種保護機制，包括 High-Bandwidth 數位內容保護 (HDCP) 和 DisplayPort 內容保護針對數位輸出 (DPCP) ;和複製世代管理系統-類比 (CGMS-類比輸出的) 。 一般而言，這些機制牽涉到加密或編碼 befores 送到顯示器的信號。
 
@@ -41,7 +41,7 @@ OPM 會將認證的輸出保護協定 (COPP) ，並使用類似的 API。 為了
 
 如果您的應用程式使用受保護的媒體路徑 (PMP) 播放影片內容，則不需要使用 OPM API，因為 PMP 會進行所有必要的 OPM 呼叫。 OPM API 適用于未使用 PMP 的應用程式。
 
-OPM 可在 Windows Vista 和更新版本中使用，但在 Windows 7 之前，API 不是公用的。 若要在應用程式中使用 OPM，您必須擁有 Windows 7 SDK 的標頭和程式庫檔案。 在 Windows Vista 或 Windows Server 2008 中，您不需要轉散發任何 Dll 以使用 OPM。
+OPM 可在 Windows Vista 和更新版本中使用，但在 Windows 7 之前，API 不是公用的。 若要在應用程式中使用 OPM，您必須有 Windows 7 SDK 的標頭和程式庫檔案。 您不需要轉散發任何 dll 以使用 Windows Vista 或 Windows Server 2008 中的 OPM。
 
 ## <a name="video-outputs"></a>影片輸出
 
@@ -159,43 +159,14 @@ OPM 命令是用來設定影片輸出的保護層級和其他設定。 傳送 OP
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>旗標</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>OPM_STATUS_LINK_LOST</strong></td>
-<td>輸出保護因某些原因而停止運作;例如，顯示裝置可能會從 conntector 中拔下。 停止播放並關閉所有輸出保護機制。</td>
-</tr>
-<tr class="even">
-<td><strong>OPM_STATUS_RENEGOTIATION_REQUIRED</strong></td>
-<td>應用程式必須重新建立 OPM 會話。 回應方式如下：
-<ol>
-<li>停止播放。</li>
-<li>關閉所有保護機制。</li>
-<li>釋放 <a href="/windows/desktop/api/opmapi/nn-opmapi-iopmvideooutput"><strong>IOPMVideoOutput</strong></a> 介面。</li>
-<li>重新建立所有的影片表面。</li>
-<li>建立新的 OPM 物件，並嘗試重新建立內容保護。 如果失敗，則會向使用者顯示錯誤訊息。 請勿播放任何其他的影片內容。</li>
-</ol></td>
-</tr>
-<tr class="odd">
-<td><strong>OPM_STATUS_REVOKED_HDCP_DEVICE_ATTACHED</strong></td>
-<td>此旗標只適用于使用 HDCP 時，並表示已撤銷的 HDCP 裝置是否存在。 停止播放並關閉此影片輸出上的所有保護機制。 當設定這個旗標時，也會設定 <strong>OPM_STATUS_LINK_LOST</strong> 旗標。</td>
-</tr>
-<tr class="even">
-<td><strong>OPM_STATUS_REVOKED_HDCP_DEVICE_ATTACHED</strong></td>
-<td>驅動程式偵測到篡改。 停止播放，並使用此影片輸出播放其他影片。 停止使用任何其他影片輸出也是不錯的主意，因為系統可能會受到危害。</td>
-</tr>
-</tbody>
-</table>
+
+| 旗標 | 描述 | 
+|------|-------------|
+| <strong>OPM_STATUS_LINK_LOST</strong> | 輸出保護因某些原因而停止運作;例如，顯示裝置可能會從 conntector 中拔下。 停止播放並關閉所有輸出保護機制。 | 
+| <strong>OPM_STATUS_RENEGOTIATION_REQUIRED</strong> | 應用程式必須重新建立 OPM 會話。 回應方式如下：<ol><li>停止播放。</li><li>關閉所有保護機制。</li><li>釋放 <a href="/windows/desktop/api/opmapi/nn-opmapi-iopmvideooutput"><strong>IOPMVideoOutput</strong></a> 介面。</li><li>重新建立所有的影片表面。</li><li>建立新的 OPM 物件，並嘗試重新建立內容保護。 如果失敗，則會向使用者顯示錯誤訊息。 請勿播放任何其他的影片內容。</li></ol> | 
+| <strong>OPM_STATUS_REVOKED_HDCP_DEVICE_ATTACHED</strong> | 此旗標只適用于使用 HDCP 時，並表示已撤銷的 HDCP 裝置是否存在。 停止播放並關閉此影片輸出上的所有保護機制。 當設定這個旗標時，也會設定 <strong>OPM_STATUS_LINK_LOST</strong> 旗標。 | 
+| <strong>OPM_STATUS_REVOKED_HDCP_DEVICE_ATTACHED</strong> | 驅動程式偵測到篡改。 停止播放，並使用此影片輸出播放其他影片。 停止使用任何其他影片輸出也是不錯的主意，因為系統可能會受到危害。 | 
+
 
 
 

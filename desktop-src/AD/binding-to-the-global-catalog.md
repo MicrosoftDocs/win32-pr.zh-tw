@@ -8,12 +8,12 @@ keywords:
 - 通用類別目錄 AD，系結至
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 08fe40b944130f66617b0c111b361ca51cbef126
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: b4d094a0c07a40fa063b726d0ba1c5a15977873d
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104023287"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122881644"
 ---
 # <a name="binding-to-the-global-catalog"></a>系結至通用類別目錄
 
@@ -60,7 +60,7 @@ GC://servername.fabrikam.com/DC=sales,DC=fabrikam,DC=com
 2.  列舉通用類別目錄容器。 通用類別目錄容器包含單一物件，可供您用來搜尋整個樹系。
 3.  使用容器中的物件來執行搜尋。 在 C/c + + 中，呼叫 [**QueryInterface**](/windows/win32/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) 以取得物件的 [**>idirectorysearch**](/windows/desktop/api/iads/nn-iads-idirectorysearch) 指標，讓您可以使用 **>idirectorysearch** 介面來執行搜尋。 在 Visual Basic 中，請使用在您 ADO 查詢中從列舉傳回的物件。
 
-若要列舉網站中的通用類別目錄伺服器，請使用下列篩選字串來執行「cn = <yoursite> ，cn = sites」的 LDAP 子樹搜尋 <DN of the configurationNamingContext> 。
+若要列舉網站中的通用類別目錄伺服器，請使用下列篩選字串來執行「cn = &lt; >yoursite &gt; ，cn = sites」的 LDAP 子樹搜尋 <DN of the configurationNamingContext> 。
 
 ``` syntax
 (&(objectCategory=nTDSDSA)(options:1.2.840.113556.1.4.803:=1))
@@ -122,6 +122,6 @@ Next
 
 如需示範如何搜尋整個樹系的詳細資訊和程式碼範例，請參閱 [搜尋樹系的範例程式碼](example-code-for-searching-a-forest.md)。
 
- 
+ 
 
- 
+ 

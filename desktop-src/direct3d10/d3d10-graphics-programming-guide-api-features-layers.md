@@ -4,12 +4,12 @@ ms.assetid: 19c81383-6ac7-49ea-98a3-bf761a32ab40
 title: " (Direct3D 10) 的 API 層"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8b07b33dfd8280af13ea3df74e5e6d0fd040bb2c
-ms.sourcegitcommit: ca37395fd832e798375e81142b97cffcffabf184
+ms.openlocfilehash: dd452032eda61c49edbf007b5ebaf0314f9054fe0b016cf07e3f4473ae3abee6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "110335412"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120119988"
 ---
 # <a name="api-layers-direct3d-10"></a> (Direct3D 10) 的 API 層
 

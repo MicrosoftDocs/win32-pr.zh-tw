@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bee48670a512ad6a52431a33db40258b112dc267
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 86da3cdbdd3995838ffb5171c00f89dcd17b64814d048b7d52f69a8fd32ddaa3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104092414"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120110028"
 ---
 # <a name="wmaudiofileurl"></a>WM/AudioFileURL
 
@@ -38,9 +38,9 @@ g \_ wszWMAudioFileURL
 [**屬性清單**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

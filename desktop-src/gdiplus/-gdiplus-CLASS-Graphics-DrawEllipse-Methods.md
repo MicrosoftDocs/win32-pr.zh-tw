@@ -4,12 +4,12 @@ ms.assetid: 1abaee7d-63a5-4786-b08c-f3b59e50f180
 title: DrawEllipse 方法
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: a19c882aa0c4be891449bd86cca2337cc282329b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b33de81188dc51d8ec064fa6a3cac2f584932ad8aac2781bc185fe60785d37bd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104513204"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120092488"
 ---
 # <a name="graphicsdrawellipse-methods"></a>DrawEllipse 方法
 

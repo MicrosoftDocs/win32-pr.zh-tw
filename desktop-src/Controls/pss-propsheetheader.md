@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 02/23/2021
-ms.openlocfilehash: 90a11ff727b491a1801f8071e28c39a3a6594408
-ms.sourcegitcommit: 11f52354f570aacaf1ba2a266b2e507abd73352a
+ms.openlocfilehash: 719982c1e17ab74dc5c624352625d226f8f4bef90ae84dce4f2b85d5dc2713f2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "107001523"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120085118"
 ---
 # <a name="propsheetheader--structure"></a>PROPSHEETHEADER 結構
 
@@ -210,7 +210,7 @@ PSH_WIZARD、PSH_WIZARD97 和 PSH_WIZARD_LITE 樣式互相不相容。 只應設
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端 | \[僅限 Windows Vista 桌面應用程式\]                                    |
-| 最低支援的伺服器 | 僅限 Windows Server 2003 \[ desktop 應用程式\]                              |
+| 最低支援的用戶端 | Windows\[僅限 Vista desktop 應用程式\]                                    |
+| 最低支援的伺服器 | Windows\[僅限 Server 2003 desktop 應用程式\]                              |
 | 標頭                   | Prsht.idl。h |
 | Unicode 與 ANSI 名稱                   | **PROPSHEETHEADERW** (Unicode) 和 **PROPSHEETHEADERA** (ANSI)  |

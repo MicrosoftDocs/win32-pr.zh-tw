@@ -4,18 +4,18 @@ ms.assetid: 95516437-9708-4f4e-a5c2-7bcd4741c776
 title: 資料庫函數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e4a4233437d24944c8bb7fe5c7de6412e700022b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6214dadc413a2c4e2d5f257c396438c850446fb9106fb70970bdb971f4653d44
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103691076"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120086208"
 ---
 # <a name="database-functions"></a>資料庫函數
 
-這份資料是針對正在撰寫自己的安裝程式，以及想要深入瞭解安裝程式資料庫資料表之開發人員的開發人員所設計。 如需安裝程式的一般資訊，請參閱 [關於 Windows Installer](about-windows-installer.md)。
+這份資料是針對正在撰寫自己的安裝程式，以及想要深入瞭解安裝程式資料庫資料表之開發人員的開發人員所設計。 如需安裝程式的一般資訊，請參閱[關於 Windows Installer](about-windows-installer.md)。
 
-您可以使用安裝程式存取功能來存取資料庫和安裝程式。 這些函式只能由自訂安裝動作和 authoring tools 使用。 部分安裝程式存取函式需要 SQL 查詢字串來查詢資料庫。 查詢必須遵守安裝程式 [SQL 語法](sql-syntax.md)。
+您可以使用安裝程式存取功能來存取資料庫和安裝程式。 這些函式只能由自訂安裝動作和 authoring tools 使用。 某些安裝程式存取函數需要 SQL 查詢字串來查詢資料庫。 查詢必須遵守安裝程式[SQL 語法](sql-syntax.md)。
 
 本主題依類別列出安裝程式資料庫存取功能。
 

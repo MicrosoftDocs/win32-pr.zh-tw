@@ -4,12 +4,12 @@ ms.assetid: C203B5AB-917C-4543-98D6-EDE02E0B5E49
 title: 如何註冊事件處理常式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6a3d786111a80cba455dd3480bdc970bc27009d6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3f96aedc8b6b7944238938539a8fafa5d80c6dc7f1afd4dc5f818ecc91abd08c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104973133"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120090558"
 ---
 # <a name="how-to-register-an-event-handler"></a>如何註冊事件處理常式
 
@@ -60,7 +60,7 @@ HKEY_LOCAL_MACHINE
                               MyNewRemovalEventHandler
 ```
 
-Windows XP 預先定義下列一組 EventHandlers。 
+WindowsXP 預先定義下列一組 EventHandlers。 
 
 | EventHandlers 索引鍵        | 媒體或檔案類型                             |
 |--------------------------|------------------------------------------------|
@@ -75,7 +75,7 @@ Windows XP 預先定義下列一組 EventHandlers。
 
  
 
-除了上述的 EventHandlers 以外，Windows Vista 還預先定義了下列一組。 
+Windows除了上述的 EventHandlers 以外，Vista 還預先定義了下列一組。 
 
 | EventHandlers 索引鍵              | 媒體或檔案類型   |
 |--------------------------------|----------------------|

@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 使用 WMI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 31878b41de0f44a70c31c2134f0a611a9309a321
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 82d1556d321441c7e6a3191bf95e85db356e7ba9
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104115856"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122475314"
 ---
 # <a name="using-wmi"></a>使用 WMI
 
@@ -39,48 +39,16 @@ ms.locfileid: "104115856"
 
     
 
-    <table>
-    <colgroup>
-    <col style="width: 50%" />
-    <col style="width: 50%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th>應用程式語言</th>
-    <th>主題</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>以 Microsoft ActiveX script 裝載撰寫的腳本，包括 Visual Basic Scripting Edition (VBScript) 和 Perl<br/></td>
-    <td><a href="scripting-api-for-wmi.md">適用于 WMI 的腳本 API</a>。<br/> 從 <a href="creating-a-wmi-script.md">建立 WMI 腳本</a>開始。<br/> 如需腳本範例，請參閱 <a href="wmi-tasks-for-scripts-and-applications.md">腳本和應用程式的 WMI</a> 工作和 TechNet <a href="https://www.microsoft.com/technet/scriptcenter">ScriptCenter</a> 腳本存放庫。<br/></td>
-    </tr>
-    <tr class="even">
-    <td>Windows PowerShell<br/></td>
-    <td><a href="/powershell/scripting/getting-started/getting-started-with-windows-powershell?view=powershell-7">使用 Windows PowerShell 開始使用</a><br/> WMI PowerShell Cmdlet，例如 <a href="/previous-versions//dd315295(v=technet.10)">>get-wmiobject</a>。<br/></td>
-    </tr>
-    <tr class="odd">
-    <td>Visual Basic 應用程式<br/></td>
-    <td><a href="scripting-api-for-wmi.md">適用于 WMI 的腳本 API</a>。<br/></td>
-    </tr>
-    <tr class="even">
-    <td>Active Server Page<br/></td>
-    <td><a href="scripting-api-for-wmi.md">適用于 WMI 的腳本 API</a>。<br/> 從 <a href="creating-active-server-pages-for-wmi.md">建立 WMI 的 Active Server 頁面</a>開始。<br/></td>
-    </tr>
-    <tr class="odd">
-    <td>C++ 應用程式<br/></td>
-    <td><a href="com-api-for-wmi.md">適用于 WMI 的 COM API</a>。<br/> 首先，使用 c + + 和<a href="wmi-c---application-examples.md">Wmi c + + 應用程式範例</a><a href="creating-a-wmi-application-using-c-.md">來建立 wmi 應用程式</a> (包含) 的範例。<br/></td>
-    </tr>
-    <tr class="even">
-    <td>.NET Framework 以 c #、Visual Basic .NET 或 J 撰寫的應用程式#<br/></td>
-    <td>在「 <a href="/previous-versions//hh872326(v=vs.85)"><strong>管理基礎結構</strong></a> 」命名空間中的類別。<br/>
-    <blockquote>
-    [!Note]<br />
-    <strong>System. Management</strong> 是涵蓋 WMI managed 程式碼的原始命名空間。 但是， <strong>管理系統</strong> 的基礎技術通常會比更慢，而且也不會調整及 <a href="/previous-versions//hh872326(v=vs.85)"><strong>管理基礎結構</strong></a>。 因此，不建議您針對新的專案使用 [ <strong>系統管理</strong> ]。  (如需有關 <strong>系統管理</strong>的詳細資訊，請參閱 <a href="/previous-versions/bb404655(v=vs.90)">WMI .net 總覽</a>。 )  </blockquote>
-    <br/></td>
-    </tr>
-    </tbody>
-    </table>
+    
+| 應用程式語言 | 主題 | 
+|----------------------|-------|
+| 以 Microsoft ActiveX 腳本裝載撰寫的腳本，包括 Visual Basic 腳本版本 (VBScript) 和 Perl<br /> | <a href="scripting-api-for-wmi.md">適用于 WMI 的腳本 API</a>。<br /> 從 <a href="creating-a-wmi-script.md">建立 WMI 腳本</a>開始。<br /> 如需腳本範例，請參閱 <a href="wmi-tasks-for-scripts-and-applications.md">腳本和應用程式的 WMI</a> 工作和 TechNet <a href="https://www.microsoft.com/technet/scriptcenter">ScriptCenter</a> 腳本存放庫。<br /> | 
+| Windows PowerShell<br /> | <a href="/powershell/scripting/getting-started/getting-started-with-windows-powershell?view=powershell-7">使用 Windows PowerShell 開始使用</a><br /> WMI PowerShell Cmdlet，例如 <a href="/previous-versions//dd315295(v=technet.10)">>get-wmiobject</a>。<br /> | 
+| Visual Basic 應用程式<br /> | <a href="scripting-api-for-wmi.md">適用于 WMI 的腳本 API</a>。<br /> | 
+| Active Server Page<br /> | <a href="scripting-api-for-wmi.md">適用于 WMI 的腳本 API</a>。<br /> 從 <a href="creating-active-server-pages-for-wmi.md">建立 WMI 的 Active Server 頁面</a>開始。<br /> | 
+| C++ 應用程式<br /> | <a href="com-api-for-wmi.md">適用于 WMI 的 COM API</a>。<br /> 首先，使用 c + + 和<a href="wmi-c---application-examples.md">Wmi c + + 應用程式範例</a><a href="creating-a-wmi-application-using-c-.md">來建立 wmi 應用程式</a> (包含) 的範例。<br /> | 
+| .NET Framework 以 c #、Visual Basic .net 或 J 撰寫的應用程式#<br /> | 在「 <a href="/previous-versions//hh872326(v=vs.85)"><strong>管理基礎結構</strong></a> 」命名空間中的類別。<br /><blockquote>    [!Note]<br /><strong>System. Management</strong> 是涵蓋 WMI managed 程式碼的原始命名空間。 但是， <strong>管理系統</strong> 的基礎技術通常會比更慢，而且也不會調整及 <a href="/previous-versions//hh872326(v=vs.85)"><strong>管理基礎結構</strong></a>。 因此，不建議您針對新的專案使用 [ <strong>系統管理</strong> ]。  (如需有關 <strong>系統管理</strong>的詳細資訊，請參閱 <a href="/previous-versions/bb404655(v=vs.90)">WMI .net 總覽</a>。 )     </blockquote><br /> | 
+
 
     
 
@@ -142,7 +110,7 @@ ms.locfileid: "104115856"
 
     -   使用 .NET Framework 中的 WMI 來建立 managed 程式碼提供者。
 
-        這種方法會建立 managed 程式碼提供者。 Managed 程式碼提供者可以用任何 .NET Framework 語言撰寫，比 WMI COM 提供者更容易撰寫，並可從 WMI [*CIM*](gloss-c.md)型類別（例如 [Win32 類別](/windows/desktop/CIMWin32Prov/win32-provider)）取得資料。 不過，.NET Framework WMI 提供者有一些限制。 如需詳細資訊，請參閱 [使用 WMI 管理應用程式](/previous-versions/dotnet/netframework-1.1/aa720264(v=vs.71))。
+        這種方法會建立 managed 程式碼提供者。 Managed 程式碼提供者可以用任何 .NET Framework 語言撰寫，比 wmi COM 提供者更容易撰寫，並可從 wmi [*CIM*](gloss-c.md)型類別（例如 [Win32 類別](/windows/desktop/CIMWin32Prov/win32-provider)）取得資料。 不過，.NET Framework WMI 提供者有一些限制。 如需詳細資訊，請參閱 [使用 WMI 管理應用程式](/previous-versions/dotnet/netframework-1.1/aa720264(v=vs.71))。
 
     -   不建議使用 [提供者架構類別](wmi-c-classes.md) 。
 
@@ -154,7 +122,7 @@ ms.locfileid: "104115856"
     |---------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
     | 與 WMI 相同的進程中的 COM 提供者<br/>            | [將資料提供給 WMI](providing-data-to-wmi.md)<br/>                                           |
     | COM 低耦合提供者<br/>                             | [將提供者併入應用程式中](incorporating-a-provider-in-an-application.md)<br/> |
-    | C # 或 Visual Basic.NET 中的 .NET Framework 提供者<br/> | [使用 WMI 管理應用程式](/previous-versions/dotnet/netframework-1.1/aa720264(v=vs.71))<br/>            |
+    | c # 或 Visual Basic .net 中的 .NET Framework 提供者<br/> | [使用 WMI 管理應用程式](/previous-versions/dotnet/netframework-1.1/aa720264(v=vs.71))<br/>            |
 
     
 
@@ -169,7 +137,7 @@ ms.locfileid: "104115856"
 | 主題                                                                                                                                           | 描述                                                                                                                                                                                                                                                                                                                                                           |
 |-------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [腳本和應用程式的 WMI 工作](wmi-tasks-for-scripts-and-applications.md)<br/>                                                 | 描述如何在執行一般電腦和網路管理工作的腳本和應用程式中，尋找要使用的正確 WMI 類別和程式，例如為遠端電腦新增新的印表機連線，或尋找電腦上所有已安裝的修補程式。<br/>                                                                            |
-| [建立 WMI 應用程式或腳本](creating-a-wmi-application-or-script.md)<br/>                                                     | 任何搭配 ActiveX 物件使用的指令碼語言，例如 VBScript 或 Perl 都可以存取 WMI 資料。 應用程式可以在 c + + 中使用 [適用于 wmi 的 COM API](com-api-for-wmi.md) 或 Visual Basic 中的 wmi，使用 >wbemdisp.tlb .tlb[類型程式庫](using-the-wmi-scripting-type-library.md) 和 [適用于 wmi 的腳本 API](scripting-api-for-wmi.md)來存取 wmi。<br/> |
+| [建立 WMI 應用程式或腳本](creating-a-wmi-application-or-script.md)<br/>                                                     | 適用于 ActiveX 物件的任何指令碼語言（如 VBScript 或 Perl）都可以存取 WMI 資料。 應用程式可以在 c + + 中使用[適用于 wmi 的 COM API](com-api-for-wmi.md)或 Visual Basic 中的 wmi，使用 >wbemdisp.tlb .tlb[類型程式庫](using-the-wmi-scripting-type-library.md)和[適用于 wmi 的腳本 API](scripting-api-for-wmi.md)來存取 wmi。<br/> |
 | [連接至遠端電腦上的 WMI](connecting-to-wmi-on-a-remote-computer.md)<br/>                                                 | 描述腳本、應用程式和提供者如何在遠端電腦上建立與 WMI 的連接，以取得資料或控制硬體和軟體。<br/>                                                                                                                                                                                                   |
 | [使用 Windows PowerShell 連接到遠端電腦上的 WMI](connecting-to-wmi-on-a-remote-computer-by-using-powershell.md)<br/> | 說明如何使用 Windows PowerShell 在遠端電腦上建立與 WMI 的連接，以取得資料或控制硬體和軟體。<br/>                                                                                                                                                                                                            |
 | [監視事件](monitoring-events.md)<br/>                                                                                           | 說明如何藉由建立暫時或永久的 WMI 事件取用者來取得事件通知。<br/>                                                                                                                                                                                                                                                           |

@@ -6,12 +6,12 @@ keywords:
 - UPnP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 022ede01a62230194969d7789e0ace70f960debb
-ms.sourcegitcommit: 773fa6257ead6c74154ad3cf46d21e49adc900aa
+ms.openlocfilehash: dfadd64dbee845f62052e8b140ca1f0b69837ece78cf7b0cc5f24e61563a6e22
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "104093463"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120124798"
 ---
 # <a name="upnp-apis"></a>UPnP API
 
@@ -32,15 +32,15 @@ UPnP 架構可啟用智慧型設備、無線裝置及電腦的動態網路功能
 
 使用裝置主機 Api 的開發人員應該熟悉 Active Template Library (ATL) 和 COM 介面。
 
-控制點 Api 和裝置主機 Api 是由各種應用程式所使用，從 HTML 網頁中內嵌的腳本到完備的 c + + 和 Microsoft Visual Basic 程式。
+控制點 api 和裝置主機 api 是由各種應用程式所使用，從 HTML 網頁中內嵌的腳本到完備的 c + + 和 Microsoft Visual Basic 程式。
 
-只有控制點 API 支援 Visual Basic Scripting Edition (VBScript) 。
+只有控制點 API 支援 Visual Basic 腳本版本 (VBScript) 。
 
 ## <a name="run-time-requirements"></a>執行階段需求求
 
-控制點 API 是在執行 Microsoft Windows Millennium Edition、Windows XP、Windows XP Professional 和 Windows CE .NET 的電腦上使用。
+控制點 API 會在執行 Microsoft Windows Millennium Edition、Windows XP、Windows xp Professional 和 Windows CE .net 的電腦上使用。
 
-裝置主機 API 是在執行 Windows XP、Windows XP Professional 和 Windows CE .NET 的電腦上使用。
+裝置主機 API 用於執行 Windows XP、Windows XP Professional 和 Windows CE .net 的電腦上。
 
 如需有關哪些作業系統支援特定功能的詳細資訊，請參閱檔中的「需求」。
 

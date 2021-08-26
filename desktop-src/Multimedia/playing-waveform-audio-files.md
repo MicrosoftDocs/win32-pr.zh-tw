@@ -8,12 +8,12 @@ keywords:
 - 播放波形-音訊檔案，關於
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a5fb6b2fb67e52374351063d330ffdf392529389
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 357998d2b1a026d867092dc323c9e65121705bd9178e6ea4555edfc2c778cc78
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372078"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120037958"
 ---
 # <a name="playing-waveform-audio-files"></a>播放 Waveform-Audio 檔案
 
@@ -26,9 +26,9 @@ ms.locfileid: "104372078"
 -   [變更 Waveform-Audio 播放的音量](changing-the-volume-of-waveform-audio-playback.md)
 -   [變更音調和播放速率](changing-pitch-and-playback-rate.md)
 
- 
+ 
 
- 
+ 
 
 
 

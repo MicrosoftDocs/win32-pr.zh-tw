@@ -4,12 +4,12 @@ ms.assetid: 65f8f7a4-757b-43a3-9d47-b115754c89d6
 title: IPPROTO_IPV6 通訊端選項
 ms.topic: article
 ms.date: 10/07/2019
-ms.openlocfilehash: 86f8156f91e5f7e185319224e06d7bf54e87c6da
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 0a6612e9d494325a40cf7b00803dbd13ead68def094383cb3faa50e0160ef932
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111444249"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120097748"
 ---
 # <a name="ipproto_ipv6-socket-options"></a>IPPROTO \_ IPV6 通訊端選項
 
@@ -100,12 +100,12 @@ ms.locfileid: "111444249"
 
 ## <a name="remarks"></a>備註
 
-在 Windows Vista （含）以後版本的 Microsoft Windows 軟體開發套件 (SDK) 上，標頭檔的組織已變更，且 **IPPROTO \_ IPV6** 層級定義于 *Ws2def .h* 標頭檔中，該檔案會自動包含在 *Winsock2* 標頭檔中。 **IPPROTO \_ IPV6** 通訊端選項定義于 *Ws2ipdef .h* 標頭檔中，該檔案會自動包含在 *Ws2tcpip .h* 標頭檔中。 不應直接使用 *Ws2def .h* 和 *Ws2ipdef* 標頭檔。
+在 Windows Vista 和更新版本所發行的 Microsoft Windows 軟體開發套件 (SDK) 上，標頭檔的組織已變更，而 **IPPROTO \_ IPV6** 層級定義于 *Ws2def .h* 標頭檔中，該檔案會自動包含在 *Winsock2* 標頭檔中。 **IPPROTO \_ IPV6** 通訊端選項定義于 *Ws2ipdef .h* 標頭檔中，該檔案會自動包含在 *Ws2tcpip .h* 標頭檔中。 不應直接使用 *Ws2def .h* 和 *Ws2ipdef* 標頭檔。
 
-\_ \_ \_ 當 Windows Server 2008 R2 和 windows 7 上支援「通訊端」選項時，IP 原始抵達。
+\_ \_ \_ 如果 Windows Server 2008 R2 以及 Windows 7 上支援「通訊端」選項，則 IP 原始抵達。
 
 ## <a name="requirements"></a>規格需求
 
 | 需求 | 值 |
 |-|-|
-| 標頭 | <dl> <dt>Ws2def (包含 Winsock2. h) ;</dt><dt>Windows Server 2003 和 WINDOWS XP 上的 Winsock2</dt> </dl> |
+| 標頭 | <dl> <dt>Ws2def (包含 Winsock2. h) ;</dt><dt>Windows Server 2003 和 Windows XP 上的 Winsock2. h</dt> </dl> |

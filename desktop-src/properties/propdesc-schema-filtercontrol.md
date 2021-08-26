@@ -4,12 +4,12 @@ ms.assetid: a3117e16-20d0-4637-b726-9fa49516ad5c
 title: filterControl
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 74f002543b220347ba9aaba3659aa9a66f8aea7760b9d8a9177ef2980a823434
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 7ac7424cf281c08f1d8de87686e95a38be3f4f3a
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119885958"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122627544"
 ---
 # <a name="filtercontrol"></a>filterControl
 
@@ -57,8 +57,8 @@ ms.locfileid: "119885958"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">

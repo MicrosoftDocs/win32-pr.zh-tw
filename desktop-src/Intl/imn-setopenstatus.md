@@ -4,12 +4,12 @@ ms.assetid: cc6fa7f4-b85a-486a-985d-53c071321bd1
 title: 'IMN_SETOPENSTATUS 通知碼 (Imm) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3598d7415cf415de3279e016d81a6d14b767d5da
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 57797210f9c0595a952315ca75858890b1998fe16e49049b3a22fb8ed72a5aea
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026726"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120107038"
 ---
 # <a name="imn_setopenstatus-notification-code"></a>IMN \_ SETOPENSTATUS 通知碼
 
@@ -56,7 +56,7 @@ IMN_SETOPENSTATUS
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                           |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                 |
-| 標頭<br/>                   | <dl> <dt>Imm (包括 Windows .h) </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Imm (包含 Windows .h) </dt> </dl> |
 
 
 

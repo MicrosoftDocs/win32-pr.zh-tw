@@ -4,12 +4,12 @@ ms.assetid: 0eaa7bd3-8537-483a-b0d6-db3b790a6f3d
 title: 關於事件追蹤
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3a2f13284cec1d9300c23241fafe154f277f72a3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a5004ada6d0d11d9c232a6fda1553ea24de5a59fb1d03e46728084f84f0e79de
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943581"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120086428"
 ---
 # <a name="about-event-tracing"></a>關於事件追蹤
 
@@ -43,7 +43,7 @@ ETW 可讓您以動態方式啟用或停用事件追蹤，讓您可以在實際�
 
 ### <a name="types-of-providers"></a>提供者類型
 
-提供者有四種主要類型： MOF (傳統) 提供者、WPP 提供者、資訊清單型提供者和 TraceLogging 提供者。 如果您要撰寫不需要支援舊版系統的 Windows Vista 或更新版本的應用程式，則應該使用以資訊清單為基礎的提供者或 TraceLogging 提供者。
+提供者有四種主要類型： MOF (傳統) 提供者、WPP 提供者、資訊清單型提供者和 TraceLogging 提供者。 如果您要撰寫 Windows Vista 或更新版本的應用程式，而不需要支援舊版系統，則應該使用以資訊清單為基礎的提供者或 TraceLogging 提供者。
 
 #### <a name="mof-classic-providers"></a>MOF (傳統) 提供者：
 
@@ -79,7 +79,7 @@ ETW 可讓您以動態方式啟用或停用事件追蹤，讓您可以在實際�
 
 ## <a name="missing-events"></a>遺失的事件
 
-Perfmon、系統診斷和其他系統工具可能會報告事件記錄檔中遺失的事件，並指出 Windows 的事件追蹤 (ETW) 可能不是最佳的設定。 事件可能會因為許多原因而遺失：
+Perfmon、系統診斷和其他系統工具可能會報告事件記錄檔中遺失的事件，並指出 Windows (ETW) 的事件追蹤設定可能不是最佳的。 事件可能會因為許多原因而遺失：
 
 -   事件大小總計大於64K。 這包括 ETW 標頭加上資料或承載。 使用者無法控制這些遺漏的事件，因為事件大小是由應用程式設定。
 

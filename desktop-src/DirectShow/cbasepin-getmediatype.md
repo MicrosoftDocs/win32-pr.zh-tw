@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 186f2eddbedf4eb0565a4ca66ff4ed7e5b080090
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: cc202c3b6dbc570d063ef74619b266c2faa20cb74322b29e61626418412e2cb9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108099366"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120044078"
 ---
 # <a name="cbasepingetmediatype-method"></a>CBasePin. GetMediaType 方法
 
@@ -63,7 +63,7 @@ virtual HRESULT GetMediaType(
 
 
 
-| 傳回碼                                                                                            | Description                      |
+| 傳回碼                                                                                            | 描述                      |
 |--------------------------------------------------------------------------------------------------------|----------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>                   | 成功。<br/>              |
 | <dl> <dt>**VFW \_ S \_ 沒有 \_ 其他 \_ 專案**</dt> </dl> | 索引超出範圍。<br/>   |

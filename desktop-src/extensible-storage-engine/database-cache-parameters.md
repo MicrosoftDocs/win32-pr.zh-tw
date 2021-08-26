@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: ac7e8859eabfa35d37464340958b52e85315a9237655107d6736af3555915757
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: defc33e3d020b9a6b59c580446afc51ee12631a4
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119786345"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122476663"
 ---
 # <a name="database-cache-parameters"></a>資料庫快取參數
 
@@ -38,58 +38,9 @@ _**適用于：** Windows |Windows伺服器_
 
 **Windows XP 和更新版本：** 此參數已過時，且不會影響資料庫引擎的操作。
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>預設值：3</p></td>
-<td><p>256</p></td>
-</tr>
-<tr class="even">
-<td><p>輸入：</p></td>
-<td><p>整數</p></td>
-</tr>
-<tr class="odd">
-<td><p>有效範圍：</p></td>
-<td><p>0、2-2147483647</p></td>
-</tr>
-<tr class="even">
-<td><p>範圍：</p></td>
-<td><p>全球</p></td>
-</tr>
-<tr class="odd">
-<td><p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>會影響實體版面配置：</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>會影響可靠性：</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>影響效能：</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>會影響資源：</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="odd">
-<td><p>可用性：</p></td>
-<td><p>全部</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p>預設值：3</p> | <p>256</p> | | <p>輸入：</p> | <p>整數</p> | | <p>有效範圍：</p> | <p>0、2-2147483647</p> | | <p>範圍：</p> | <p>全球</p> | | <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p>否</p> | | <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p>否</p> | | <p>會影響實體版面配置：</p> | <p>否</p> | | <p>會影響可靠性：</p> | <p>否</p> | | <p>影響效能：</p> | <p>是</p> | | <p>會影響資源：</p> | <p>是</p> | | <p>可用性：</p> | <p>全部</p> | 
+
 
 
 *JET_paramCacheSize*  
@@ -101,59 +52,9 @@ _**適用于：** Windows |Windows伺服器_
 
 讀取此參數時，會傳回資料庫頁面中的實際快取大小。 應用程式可使用此大小做為輸入，以驅動其手動調整快取大小。
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>預設值：3</p></td>
-<td><p>特殊</p></td>
-</tr>
-<tr class="even">
-<td><p>輸入：</p></td>
-<td><p>整數</p></td>
-</tr>
-<tr class="odd">
-<td><p>有效範圍：</p></td>
-<td><p><strong>Windows 2000：</strong> 1 –1048575</p>
-<p><strong>Windows XP：</strong> 1-4294967295</p></td>
-</tr>
-<tr class="even">
-<td><p>範圍：</p></td>
-<td><p>全球</p></td>
-</tr>
-<tr class="odd">
-<td><p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="odd">
-<td><p>會影響實體版面配置：</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>會影響可靠性：</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>影響效能：</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>會影響資源：</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="odd">
-<td><p>可用性：</p></td>
-<td><p>全部</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p>預設值：3</p> | <p>特殊</p> | | <p>輸入：</p> | <p>整數</p> | | <p>有效範圍：</p> | <p><strong>Windows 2000：</strong> 1 –1048575</p><p><strong>Windows XP：</strong> 1-4294967295</p> | | <p>範圍：</p> | <p>全球</p> | | <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p>是</p> | | <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p>是</p> | | <p>會影響實體版面配置：</p> | <p>否</p> | | <p>會影響可靠性：</p> | <p>否</p> | | <p>影響效能：</p> | <p>是</p> | | <p>會影響資源：</p> | <p>是</p> | | <p>可用性：</p> | <p>全部</p> | 
+
 
 
 *JET_paramCacheSizeMin*  
@@ -167,62 +68,9 @@ _**適用于：** Windows |Windows伺服器_
 
 **Windows XP 和更新版本：** 快取管理員會自動設定自己的最小快取大小，以避免鎖死。
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>預設值：3</p></td>
-<td><p><strong>Windows 2000：</strong> 64</p>
-<p><strong>Windows XP：</strong> 1</p></td>
-</tr>
-<tr class="even">
-<td><p>輸入：</p></td>
-<td><p>整數</p></td>
-</tr>
-<tr class="odd">
-<td><p>有效範圍：</p></td>
-<td><p><strong>Windows 2000：</strong> 1 –1048575</p>
-<p><strong>Windows XP：</strong> 1-4294967295</p></td>
-</tr>
-<tr class="even">
-<td><p>範圍：</p></td>
-<td><p>全球</p></td>
-</tr>
-<tr class="odd">
-<td><p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p></td>
-<td><p><strong>Windows 2000：</strong> 不</p>
-<p><strong>Windows XP：</strong> 是的</p></td>
-</tr>
-<tr class="even">
-<td><p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p></td>
-<td><p><strong>Windows 2000：</strong> 不</p>
-<p><strong>Windows XP：</strong> 是的</p></td>
-</tr>
-<tr class="odd">
-<td><p>會影響實體版面配置：</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>會影響可靠性：</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>影響效能：</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>會影響資源：</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="odd">
-<td><p>可用性：</p></td>
-<td><p>全部</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p>預設值：3</p> | <p><strong>Windows 2000：</strong> 64</p><p><strong>Windows XP：</strong> 1</p> | | <p>輸入：</p> | <p>整數</p> | | <p>有效範圍：</p> | <p><strong>Windows 2000：</strong> 1 –1048575</p><p><strong>Windows XP：</strong> 1-4294967295</p> | | <p>範圍：</p> | <p>全球</p> | | <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p><strong>Windows 2000：</strong> 不</p><p><strong>Windows XP：</strong> 是的</p> | | <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p><strong>Windows 2000：</strong> 不</p><p><strong>Windows XP：</strong> 是的</p> | | <p>會影響實體版面配置：</p> | <p>否</p> | | <p>會影響可靠性：</p> | <p>否</p> | | <p>影響效能：</p> | <p>是</p> | | <p>會影響資源：</p> | <p>是</p> | | <p>可用性：</p> | <p>全部</p> | 
+
 
 
 *JET_paramCacheSizeMax*  
@@ -236,62 +84,9 @@ _**適用于：** Windows |Windows伺服器_
 
 **Windows Vista：** 從 Windows Vista，此參數的預設值已變更，以闡明此行為。
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>預設值：3</p></td>
-<td><p><strong>Windows 2000、Windows XP 和 Windows Server 2003：</strong> 512</p>
-<p><strong>Windows Vista：</strong> 2000000000</p></td>
-</tr>
-<tr class="even">
-<td><p>輸入：</p></td>
-<td><p>整數</p></td>
-</tr>
-<tr class="odd">
-<td><p>有效範圍：</p></td>
-<td><p><strong>Windows 2000：</strong> 1 –1048575</p>
-<p><strong>Windows XP：</strong> 1-4294967295</p></td>
-</tr>
-<tr class="even">
-<td><p>範圍：</p></td>
-<td><p>全球</p></td>
-</tr>
-<tr class="odd">
-<td><p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p></td>
-<td><p><strong>Windows 2000：</strong> 不</p>
-<p><strong>Windows XP：</strong> 是的</p></td>
-</tr>
-<tr class="even">
-<td><p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p></td>
-<td><p><strong>Windows XP 和 Windows 2000：</strong> 不</p>
-<p><strong>Windows Vista 和 Windows Server 2003：</strong> 是的</p></td>
-</tr>
-<tr class="odd">
-<td><p>會影響實體版面配置：</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>會影響可靠性：</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>影響效能：</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>會影響資源：</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="odd">
-<td><p>可用性：</p></td>
-<td><p>全部</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p>預設值：3</p> | <p><strong>Windows 2000、Windows XP 和 Windows Server 2003：</strong> 512</p><p><strong>Windows Vista：</strong> 2000000000</p> | | <p>輸入：</p> | <p>整數</p> | | <p>有效範圍：</p> | <p><strong>Windows 2000：</strong> 1 –1048575</p><p><strong>Windows XP：</strong> 1-4294967295</p> | | <p>範圍：</p> | <p>全球</p> | | <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p><strong>Windows 2000：</strong> 不</p><p><strong>Windows XP：</strong> 是的</p> | | <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p><strong>Windows XP 和 Windows 2000：</strong> 不</p><p><strong>Windows Vista 和 Windows Server 2003：</strong> 是的</p> | | <p>會影響實體版面配置：</p> | <p>否</p> | | <p>會影響可靠性：</p> | <p>否</p> | | <p>影響效能：</p> | <p>是</p> | | <p>會影響資源：</p> | <p>是</p> | | <p>可用性：</p> | <p>全部</p> | 
+
 
 
 *JET_paramCheckpointDepthMax*  
@@ -303,60 +98,9 @@ _**適用于：** Windows |Windows伺服器_
 
 此參數的設定必須太低。 因為這個參數的值接近零，所以快取在將資料庫頁面排清至磁片時，會變得越來越多。 這並不只會導致資料庫檔案的寫入數目增加，也會間接造成這些檔案的讀取次數增加。 在某些情況下，這可能會造成極大的效能問題。 可惜的是，為此參數設定最小的最佳值只能透過目標應用程式的實驗來完成。
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>預設值：3</p></td>
-<td><p>20971520</p></td>
-</tr>
-<tr class="even">
-<td><p>輸入：</p></td>
-<td><p>整數</p></td>
-</tr>
-<tr class="odd">
-<td><p>有效範圍：</p></td>
-<td><p><strong>Windows 2000、Windows XP 和 Windows Server 2003：</strong> 0 –2147483647</p>
-<p><strong>Windows Vista：</strong> 所有值</p></td>
-</tr>
-<tr class="even">
-<td><p>範圍：</p></td>
-<td><p><strong>Windows 2000、Windows XP 和 Windows Server 2003：</strong>此參數為 global。</p>
-<p><strong>Windows Vista：</strong> 此參數為每個實例。</p></td>
-</tr>
-<tr class="odd">
-<td><p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="odd">
-<td><p>會影響實體版面配置：</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>會影響可靠性：</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="odd">
-<td><p>影響效能：</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>會影響資源：</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="odd">
-<td><p>可用性：</p></td>
-<td><p>全部</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p>預設值：3</p> | <p>20971520</p> | | <p>輸入：</p> | <p>整數</p> | | <p>有效範圍：</p> | <p><strong>Windows 2000、Windows XP 和 Windows Server 2003：</strong> 0 –2147483647</p><p><strong>Windows Vista：</strong> 所有值</p> | | <p>範圍：</p> | <p><strong>Windows 2000、Windows XP 和 Windows Server 2003：</strong>此參數為 global。</p><p><strong>Windows Vista：</strong> 此參數為每個實例。</p> | | <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p>是</p> | | <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p>是</p> | | <p>會影響實體版面配置：</p> | <p>否</p> | | <p>會影響可靠性：</p> | <p>是</p> | | <p>影響效能：</p> | <p>是</p> | | <p>會影響資源：</p> | <p>是</p> | | <p>可用性：</p> | <p>全部</p> | 
+
 
 
 *JET_paramCheckpointIOMax*  
@@ -364,58 +108,9 @@ _**適用于：** Windows |Windows伺服器_
 
 此參數會控制資料庫引擎將用來排清修改過的資料庫頁面，以使檢查點前進的最大並行寫入數目。 此參數的值可用來平衡檢查點的速度，以及此進程對保存資料庫的磁片之其他 i/o 作業的回應時間所造成的負面影響。
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>預設值：3</p></td>
-<td><p>96</p></td>
-</tr>
-<tr class="even">
-<td><p>輸入：</p></td>
-<td><p>整數</p></td>
-</tr>
-<tr class="odd">
-<td><p>有效範圍：</p></td>
-<td><p>8–1024</p></td>
-</tr>
-<tr class="even">
-<td><p>範圍：</p></td>
-<td><p>全球</p></td>
-</tr>
-<tr class="odd">
-<td><p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="odd">
-<td><p>會影響實體版面配置：</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>會影響可靠性：</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>影響效能：</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>會影響資源：</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>可用性：</p></td>
-<td><p>WindowsVista 和更新版本</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p>預設值：3</p> | <p>96</p> | | <p>輸入：</p> | <p>整數</p> | | <p>有效範圍：</p> | <p>8–1024</p> | | <p>範圍：</p> | <p>全球</p> | | <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p>是</p> | | <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p>是</p> | | <p>會影響實體版面配置：</p> | <p>否</p> | | <p>會影響可靠性：</p> | <p>否</p> | | <p>影響效能：</p> | <p>是</p> | | <p>會影響資源：</p> | <p>否</p> | | <p>可用性：</p> | <p>WindowsVista 和更新版本</p> | 
+
 
 
 *JET_paramEnableViewCache*  
@@ -427,58 +122,9 @@ _**適用于：** Windows |Windows伺服器_
 
 只有將 JET_paramEnableFileCache 設定為 **True**，才能使用 Windows 檔案快取時，才可以使用 view cache。
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>預設值：3</p></td>
-<td><p>否</p></td>
-</tr>
-<tr class="even">
-<td><p>輸入：</p></td>
-<td><p>Boolean</p></td>
-</tr>
-<tr class="odd">
-<td><p>有效範圍：</p></td>
-<td><p>False, True</p></td>
-</tr>
-<tr class="even">
-<td><p>範圍：</p></td>
-<td><p>全球</p></td>
-</tr>
-<tr class="odd">
-<td><p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>會影響實體版面配置：</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>會影響可靠性：</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>影響效能：</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>會影響資源：</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="odd">
-<td><p>可用性：</p></td>
-<td><p>WindowsVista 和更新版本</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p>預設值：3</p> | <p>否</p> | | <p>輸入：</p> | <p>Boolean</p> | | <p>有效範圍：</p> | <p>False, True</p> | | <p>範圍：</p> | <p>全球</p> | | <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p>否</p> | | <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p>否</p> | | <p>會影響實體版面配置：</p> | <p>否</p> | | <p>會影響可靠性：</p> | <p>否</p> | | <p>影響效能：</p> | <p>是</p> | | <p>會影響資源：</p> | <p>是</p> | | <p>可用性：</p> | <p>WindowsVista 和更新版本</p> | 
+
 
 
 *JET_paramLRUKCorrInterval*  
@@ -486,59 +132,9 @@ _**適用于：** Windows |Windows伺服器_
 
 此參數會設定以微秒為單位的時間間隔，這會將兩個資料庫頁面存取視為相互關聯。 此相互關聯間隔可控制快取頁面取代演算法的敏感度， (LRU-K) 至後續的頁面存取。 接著，這會影響其選擇要保持快取的頁面。
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>預設值：3</p></td>
-<td><p>128000</p></td>
-</tr>
-<tr class="even">
-<td><p>輸入：</p></td>
-<td><p>整數</p></td>
-</tr>
-<tr class="odd">
-<td><p>有效範圍：</p></td>
-<td><p><strong>Windows 2000、Windows XP 和 Windows Server 2003：</strong> 0 –2147483647</p>
-<p><strong>Windows Vista：</strong> 所有值</p></td>
-</tr>
-<tr class="even">
-<td><p>範圍：</p></td>
-<td><p>全球</p></td>
-</tr>
-<tr class="odd">
-<td><p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>會影響實體版面配置：</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>會影響可靠性：</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>影響效能：</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>會影響資源：</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>可用性：</p></td>
-<td><p>全部</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p>預設值：3</p> | <p>128000</p> | | <p>輸入：</p> | <p>整數</p> | | <p>有效範圍：</p> | <p><strong>Windows 2000、Windows XP 和 Windows Server 2003：</strong> 0 –2147483647</p><p><strong>Windows Vista：</strong> 所有值</p> | | <p>範圍：</p> | <p>全球</p> | | <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p>否</p> | | <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p>否</p> | | <p>會影響實體版面配置：</p> | <p>否</p> | | <p>會影響可靠性：</p> | <p>否</p> | | <p>影響效能：</p> | <p>是</p> | | <p>會影響資源：</p> | <p>否</p> | | <p>可用性：</p> | <p>全部</p> | 
+
 
 
 *JET_paramLRUKHistoryMax*  
@@ -548,60 +144,9 @@ _**適用于：** Windows |Windows伺服器_
 
 **Windows XP 和 Windows Server 2003：** Windows XP 和 Windows Server 2003 會忽略此參數，且不會影響資料庫引擎的操作。
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>預設值：3</p></td>
-<td><p><strong>Windows 2000：</strong> 1024</p>
-<p><strong>Windows Vista：</strong> 100000</p></td>
-</tr>
-<tr class="even">
-<td><p>輸入：</p></td>
-<td><p>整數</p></td>
-</tr>
-<tr class="odd">
-<td><p>有效範圍：</p></td>
-<td><p><strong>Windows 2000：</strong> 0 –4194303</p>
-<p><strong>Windows Vista：</strong> 所有值</p></td>
-</tr>
-<tr class="even">
-<td><p>範圍：</p></td>
-<td><p>全球</p></td>
-</tr>
-<tr class="odd">
-<td><p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>會影響實體版面配置：</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>會影響可靠性：</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>影響效能：</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>會影響資源：</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="odd">
-<td><p>可用性：</p></td>
-<td><p>全部</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p>預設值：3</p> | <p><strong>Windows 2000：</strong> 1024</p><p><strong>Windows Vista：</strong> 100000</p> | | <p>輸入：</p> | <p>整數</p> | | <p>有效範圍：</p> | <p><strong>Windows 2000：</strong> 0 –4194303</p><p><strong>Windows Vista：</strong> 所有值</p> | | <p>範圍：</p> | <p>全球</p> | | <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p>否</p> | | <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p>否</p> | | <p>會影響實體版面配置：</p> | <p>否</p> | | <p>會影響可靠性：</p> | <p>否</p> | | <p>影響效能：</p> | <p>是</p> | | <p>會影響資源：</p> | <p>是</p> | | <p>可用性：</p> | <p>全部</p> | 
+
 
 
 *JET_paramLRUKPolicy*  
@@ -609,58 +154,9 @@ _**適用于：** Windows |Windows伺服器_
 
 此參數會設定視為用來判斷頁面實用性的資料庫頁面存取數目。 此參數基本上是 LRU-K 中的 K，也就是資料庫頁面快取的頁面取代演算法。
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>預設值：3</p></td>
-<td><p>2</p></td>
-</tr>
-<tr class="even">
-<td><p>輸入：</p></td>
-<td><p>整數</p></td>
-</tr>
-<tr class="odd">
-<td><p>有效範圍：</p></td>
-<td><p>1 - 2</p></td>
-</tr>
-<tr class="even">
-<td><p>範圍：</p></td>
-<td><p>全球</p></td>
-</tr>
-<tr class="odd">
-<td><p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>會影響實體版面配置：</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>會影響可靠性：</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>影響效能：</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>會影響資源：</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>可用性：</p></td>
-<td><p>全部</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p>預設值：3</p> | <p>2</p> | | <p>輸入：</p> | <p>整數</p> | | <p>有效範圍：</p> | <p>1 - 2</p> | | <p>範圍：</p> | <p>全球</p> | | <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p>否</p> | | <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p>否</p> | | <p>會影響實體版面配置：</p> | <p>否</p> | | <p>會影響可靠性：</p> | <p>否</p> | | <p>影響效能：</p> | <p>是</p> | | <p>會影響資源：</p> | <p>否</p> | | <p>可用性：</p> | <p>全部</p> | 
+
 
 
 *JET_paramLRUKTimeout*  
@@ -668,59 +164,9 @@ _**適用于：** Windows |Windows伺服器_
 
 此參數表示以秒為單位的時間間隔，在這段時間之後，資料庫頁面快取中的頁面會被視為已遺失頁面存取權，目的是考慮頁面的實用性。
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>預設值：3</p></td>
-<td><p>100</p></td>
-</tr>
-<tr class="even">
-<td><p>輸入：</p></td>
-<td><p>整數</p></td>
-</tr>
-<tr class="odd">
-<td><p>有效範圍：</p></td>
-<td><p><strong>Windows 2000、Windows XP 和 Windows Server 2003：</strong> 1 –2147483647</p>
-<p><strong>Windows Vista：</strong> 1-4294967295</p></td>
-</tr>
-<tr class="even">
-<td><p>範圍：</p></td>
-<td><p>全球</p></td>
-</tr>
-<tr class="odd">
-<td><p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>會影響實體版面配置：</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>會影響可靠性：</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>影響效能：</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>會影響資源：</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>可用性：</p></td>
-<td><p>全部</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p>預設值：3</p> | <p>100</p> | | <p>輸入：</p> | <p>整數</p> | | <p>有效範圍：</p> | <p><strong>Windows 2000、Windows XP 和 Windows Server 2003：</strong> 1 –2147483647</p><p><strong>Windows Vista：</strong> 1-4294967295</p> | | <p>範圍：</p> | <p>全球</p> | | <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p>否</p> | | <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p>否</p> | | <p>會影響實體版面配置：</p> | <p>否</p> | | <p>會影響可靠性：</p> | <p>否</p> | | <p>影響效能：</p> | <p>是</p> | | <p>會影響資源：</p> | <p>否</p> | | <p>可用性：</p> | <p>全部</p> | 
+
 
 
 *JET_paramLRUKTrxCorrInterval*  
@@ -735,61 +181,9 @@ _**適用于：** Windows |Windows伺服器_
 
 開始閾值的距離高度將決定資料庫頁面快取在應用程式需要之前產生可用緩衝區所必須擁有的回應時間。 高啟動臨界值可讓背景進程更有時間回應。 不過，高啟動閾值表示較高的停止閾值，而且會減少修改頁面的資料庫頁面快取的有效大小 (Windows 2000) 或 (Windows XP 和更新版本) 的所有頁面。
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>預設值：3</p></td>
-<td><p><strong>Windows 2000、Windows XP 和 Windows Server 2003：</strong> 5 (1% ) </p>
-<p><strong>Windows Vista：</strong> 20000000 (1% ) </p></td>
-</tr>
-<tr class="even">
-<td><p>輸入：</p></td>
-<td><p>整數</p></td>
-</tr>
-<tr class="odd">
-<td><p>有效範圍：</p></td>
-<td><p><strong>Windows 2000：</strong> 1 –1048575</p>
-<p><strong>Windows XP：</strong> 1-4294967295</p>
-<p><strong>Windows Vista：</strong> 所有值</p></td>
-</tr>
-<tr class="even">
-<td><p>範圍：</p></td>
-<td><p>全球</p></td>
-</tr>
-<tr class="odd">
-<td><p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="odd">
-<td><p>會影響實體版面配置：</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>會影響可靠性：</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>影響效能：</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>會影響資源：</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="odd">
-<td><p>可用性：</p></td>
-<td><p>全部</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p>預設值：3</p> | <p><strong>Windows 2000、Windows XP 和 Windows Server 2003：</strong> 5 (1% ) </p><p><strong>Windows Vista：</strong> 20000000 (1% ) </p> | | <p>輸入：</p> | <p>整數</p> | | <p>有效範圍：</p> | <p><strong>Windows 2000：</strong> 1 –1048575</p><p><strong>Windows XP：</strong> 1-4294967295</p><p><strong>Windows Vista：</strong> 所有值</p> | | <p>範圍：</p> | <p>全球</p> | | <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p>是</p> | | <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p>是</p> | | <p>會影響實體版面配置：</p> | <p>否</p> | | <p>會影響可靠性：</p> | <p>否</p> | | <p>影響效能：</p> | <p>是</p> | | <p>會影響資源：</p> | <p>是</p> | | <p>可用性：</p> | <p>全部</p> | 
+
 
 
 *JET_paramStopFlushThreshold*  
@@ -799,85 +193,16 @@ _**適用于：** Windows |Windows伺服器_
 
 開始閾值和停止臨界值之間的距離，會影響背景進程清除資料庫頁面的效率。 較大的間距將可讓您更有可能合併對相鄰頁面的寫入。 不過，高停止閾值會減少修改頁面的資料庫頁面快取的有效大小 (Windows 2000) 或 (Windows XP 和更新版本) 的所有頁面。
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>預設值：3</p></td>
-<td><p><strong>Windows 2000、Windows XP 和 Windows Server 2003：</strong> 10 (2% ) </p>
-<p><strong>Windows Vista：</strong> 40000000 (2% ) </p></td>
-</tr>
-<tr class="even">
-<td><p>輸入：</p></td>
-<td><p>整數</p></td>
-</tr>
-<tr class="odd">
-<td><p>有效範圍：</p></td>
-<td><p><strong>Windows 2000：</strong> 1 –1048575</p>
-<p><strong>Windows XP：</strong> 1-4294967295</p>
-<p><strong>Windows Vista：</strong> 所有值</p></td>
-</tr>
-<tr class="even">
-<td><p>範圍：</p></td>
-<td><p>全球</p></td>
-</tr>
-<tr class="odd">
-<td><p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="odd">
-<td><p>會影響實體版面配置：</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>會影響可靠性：</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>影響效能：</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>會影響資源：</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="odd">
-<td><p>可用性：</p></td>
-<td><p>全部</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p>預設值：3</p> | <p><strong>Windows 2000、Windows XP 和 Windows Server 2003：</strong> 10 (2% ) </p><p><strong>Windows Vista：</strong> 40000000 (2% ) </p> | | <p>輸入：</p> | <p>整數</p> | | <p>有效範圍：</p> | <p><strong>Windows 2000：</strong> 1 –1048575</p><p><strong>Windows XP：</strong> 1-4294967295</p><p><strong>Windows Vista：</strong> 所有值</p> | | <p>範圍：</p> | <p>全球</p> | | <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p>是</p> | | <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p>是</p> | | <p>會影響實體版面配置：</p> | <p>否</p> | | <p>會影響可靠性：</p> | <p>否</p> | | <p>影響效能：</p> | <p>是</p> | | <p>會影響資源：</p> | <p>是</p> | | <p>可用性：</p> | <p>全部</p> | 
+
 
 
 ### <a name="requirements"></a>規格需求
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>用戶端</strong></p></td>
-<td><p>需要 Windows Vista、Windows XP 或 Windows 2000 Professional。</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>伺服器</strong></p></td>
-<td><p>需要 Windows server 2008、Windows Server 2003 或 Windows 2000 Server。</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>標頭</strong></p></td>
-<td><p>宣告于 Esent. h 中。</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p><strong>用戶端</strong></p> | <p>需要 Windows Vista、Windows XP 或 Windows 2000 Professional。</p> | | <p><strong>伺服器</strong></p> | <p>需要 Windows server 2008、Windows Server 2003 或 Windows 2000 Server。</p> | | <p><strong>標頭</strong></p> | <p>宣告于 Esent. h 中。</p> | 
+
 
 
 ### <a name="see-also"></a>另請參閱

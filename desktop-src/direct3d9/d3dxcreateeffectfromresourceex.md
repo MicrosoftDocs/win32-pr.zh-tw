@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: d0ae7a0ee43f93019f3c4c1f6145b3d8aa0e4367
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: b72e17e648360a535f8090dc28323a3762a5cec0517f07ae78e9bb6d88045969
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106985899"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120096248"
 ---
 # <a name="d3dxcreateeffectfromresourceex-function"></a>D3DXCreateEffectFromResourceEx 函式
 
@@ -103,7 +103,7 @@ Type： **Const [**D3DXMACRO**](d3dxmacro.md) \***
 
 </dd> <dt>
 
-*Flags* \[in\]
+*旗標* \[在\]
 </dt> <dd>
 
 類型： **[ **DWORD**](../winprog/windows-data-types.md)**

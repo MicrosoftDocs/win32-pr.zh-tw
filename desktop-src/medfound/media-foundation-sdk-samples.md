@@ -4,12 +4,12 @@ ms.assetid: 9d460107-ec12-4df5-a7a9-d19943685599
 title: 媒體基礎 SDK 範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aa7d07d4136e613b4c6b553aa089834f58ccf65b6b87043ec5148d8db4ee6547
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5482fabe5e4bfdfe5d451fd8ccb9c0ba0504a5ff
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119465139"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122482714"
 ---
 # <a name="media-foundation-sdk-samples"></a>媒體基礎 SDK 範例
 
@@ -112,50 +112,15 @@ ms.locfileid: "119465139"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>範例</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="mfplayer2-sample.md">MFPlayer2</a></td>
-<td>示範 <a href="using-mfplay-for-audio-video-playback.md">MFPlay</a> API 的一些先進播放功能。</td>
-</tr>
-<tr class="even">
-<td><a href="/previous-versions//bb970336(v=vs.85)">PlaybackFX</a></td>
-<td>將灰階效果套用到影片。 說明如何將 MFTs 插入播放拓撲中。<br/>
-<blockquote>
-[!Note]<br />
-SDK 中已不再包含此範例。
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="playlist-sample.md">播放 清單</a></td>
-<td>使用 sequencer 來源播放一系列的音訊檔案。<br/>
-<blockquote>
-[!Note]<br />
-SDK 中已不再包含此範例。
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td><a href="simplecapture-sample.md">SimpleCapture</a></td>
-<td>說明如何使用 MFPlay API，從影片捕獲裝置預覽影片。</td>
-</tr>
-<tr class="odd">
-<td><a href="simpleplay-sample.md">SimplePlay</a></td>
-<td>說明如何使用 MFPlay API 播放媒體檔案。</td>
-</tr>
-</tbody>
-</table>
+
+| 範例 | 描述 | 
+|--------|-------------|
+| <a href="mfplayer2-sample.md">MFPlayer2</a> | 示範 <a href="using-mfplay-for-audio-video-playback.md">MFPlay</a> API 的一些先進播放功能。 | 
+| <a href="/previous-versions//bb970336(v=vs.85)">PlaybackFX</a> | 將灰階效果套用到影片。 說明如何將 MFTs 插入播放拓撲中。<br /><blockquote>[!Note]<br />SDK 中已不再包含此範例。</blockquote><br /> | 
+| <a href="playlist-sample.md">播放 清單</a> | 使用 sequencer 來源播放一系列的音訊檔案。<br /><blockquote>[!Note]<br />SDK 中已不再包含此範例。</blockquote><br /> | 
+| <a href="simplecapture-sample.md">SimpleCapture</a> | 說明如何使用 MFPlay API，從影片捕獲裝置預覽影片。 | 
+| <a href="simpleplay-sample.md">SimplePlay</a> | 說明如何使用 MFPlay API 播放媒體檔案。 | 
+
 
 
 

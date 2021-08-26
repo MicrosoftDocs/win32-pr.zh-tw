@@ -3,7 +3,7 @@ title: 'LVM_SETEXTENDEDLISTVIEWSTYLE 訊息 (Commctrl .h) '
 description: 在清單視圖控制項中設定延伸樣式。 您可以明確地傳送此訊息，或使用 ListView \_ SetExtendedListViewStyle 或 listview \_ SetExtendedListViewStyleEx 宏。
 ms.assetid: eb3f47ed-484a-49a8-94b0-e50ee081bd69
 keywords:
-- LVM_SETEXTENDEDLISTVIEWSTYLE message Windows 控制項
+- LVM_SETEXTENDEDLISTVIEWSTYLE 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f7d36869283d863bef7b31187a002125c9cd79bc
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 336732b927c7ee6170e777f2f7c1cd57eac6baa2c7706870e681f602e2309c37
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103933921"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120077278"
 ---
 # <a name="lvm_setextendedlistviewstyle-message"></a>LVM \_ SETEXTENDEDLISTVIEWSTYLE 訊息
 
@@ -61,8 +61,8 @@ ms.locfileid: "103933921"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

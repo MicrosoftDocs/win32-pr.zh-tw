@@ -4,12 +4,12 @@ ms.assetid: 4c2ffd22-49ee-4318-bfa0-e0ce4d8c67bb
 title: 感應器 API 程式設計指南
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 078cc99e88a1a4fd6a232220e08c53a99dfbdfb0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c5886564e66a0a8db64713b280b44f85a197430dc23523266bc45e66e44c956b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970391"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120073238"
 ---
 # <a name="sensor-api-programming-guide"></a>感應器 API 程式設計指南
 

@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 0dadaf387fcf6e8381404440e0d31dd210b9f8a6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 88692175fedbad4faf5b2755ce92897cff25fe9d588e6fb446d8174407aa6b5e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103686050"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120072388"
 ---
 # <a name="irdvtaskpluginnotifysink-interface"></a>IRDVTaskPluginNotifySink 介面
 

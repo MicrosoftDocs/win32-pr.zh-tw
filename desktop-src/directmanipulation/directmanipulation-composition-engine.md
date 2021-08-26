@@ -4,12 +4,12 @@ ms.assetid: 6D8FB359-F52B-43F9-8A62-6BB2AEDE4F2B
 title: 撰寫引擎
 ms.topic: article
 ms.date: 02/03/2020
-ms.openlocfilehash: aa4d922893472c1fe235bae60e41a00924d13bba
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 14bc2ad60405dba7874493096e022b553a8b276cd6f0bb21ea9ae3cf191f5d3b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104467661"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120117898"
 ---
 # <a name="composition-engine"></a>撰寫引擎
 

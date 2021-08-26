@@ -17,12 +17,12 @@ keywords:
 - 兩維方格的點或線條
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 96b9e6b9cf0cf182a86d4b795d18dccc831b68f9
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 767835088d75d14b6059a6d94b0c58b1e47d947395d0f38e21aaa476ab784030
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103674424"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120081508"
 ---
 # <a name="glevalmesh-functions"></a>glEvalMesh 函式
 
@@ -31,9 +31,9 @@ ms.locfileid: "103674424"
 -   [**glEvalMesh1**](glevalmesh1.md)
 -   [**glEvalMesh2**](glevalmesh2.md)
 
- 
+ 
 
- 
+ 
 
 
 

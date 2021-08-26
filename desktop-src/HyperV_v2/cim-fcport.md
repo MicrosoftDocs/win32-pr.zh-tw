@@ -18,12 +18,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: f6a858cbb4603743e1ddd11cac71500a9e39325a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 071a3b606d4fcb9845073877eb52dcf61b9a732a3046cf255229c6ea05451a14
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973804"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120046918"
 ---
 # <a name="cim_fcport-class"></a>CIM \_ FCPort 類別
 

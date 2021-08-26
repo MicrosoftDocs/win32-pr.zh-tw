@@ -4,12 +4,12 @@ description: 快速存取工具列 (QAT) 是一個小型、可自訂的工具列
 ms.assetid: b2adf4e9-0de1-4c4d-9293-693d0f7cf6fe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 20a50d562477e5c626d2d2bffa8ee5e0ecc84919
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 6d63eb3f7b1a2c1213430f86a9a12fe4517c738290ed736eb1d356420aa145cd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104023493"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120110721"
 ---
 # <a name="quick-access-toolbar"></a>快速存取工具列
 
@@ -40,7 +40,7 @@ ms.locfileid: "104023493"
 
 ## <a name="implement-the-quick-access-toolbar"></a>執行快速存取工具列
 
-如同所有 Windows 功能區架構控制項，充分利用快速存取工具列 (QAT) 需要在功能區中控制其簡報的標記元件，以及控制其功能的程式碼元件。
+如同所有 Windows 功能區 framework 控制項，充分利用快速存取工具列 (QAT) 同時需要在功能區中控制其簡報的標記元件，以及控制其功能的程式碼元件。
 
 ### <a name="markup"></a>標記
 
@@ -61,7 +61,7 @@ ms.locfileid: "104023493"
 [QuickAccessToolbar. s](windowsribbon-element-quickaccesstoolbar-applicationdefaults.md) 支援三種類型的功能區控制項： [按鈕](windowsribbon-controls-button.md)、 [切換按鈕](windowsribbon-controls-togglebutton.md)和 [核取方塊](windowsribbon-controls-checkbox.md)。
 
 > [!Note]
-> Windows 8 和更新版本： ([ComboBox](windowsribbon-element-combobox.md)、 [InRibbonGallery](windowsribbon-element-inribbongallery.md)、 [SplitButtonGallery](windowsribbon-element-splitbuttongallery.md)和 [DropDownGallery](windowsribbon-element-dropdowngallery.md)) 都支援所有資源庫型控制項。
+> Windows 8 和更新版本： ([ComboBox](windowsribbon-element-combobox.md)、 [InRibbonGallery](windowsribbon-element-inribbongallery.md)、 [SplitButtonGallery](windowsribbon-element-splitbuttongallery.md)和[DropDownGallery](windowsribbon-element-dropdowngallery.md)) 都支援所有資源庫型控制項。
 >
 > 資源庫控制項中的專案可支援在停留時醒目提示。 若要支援暫止醒目提示，資源庫必須是專案庫，並使用[VerticalMenuLayout](windowsribbon-element-verticalmenulayout.md)類型的[FlowMenuLayout](windowsribbon-element-flowmenulayout.md) 。
 
@@ -218,5 +218,5 @@ class CQATCommandHandler
 
 ## <a name="related-topics"></a>相關主題
 
-- [Windows 功能區架構控制項程式庫](windowsribbon-controls-entry.md)
+- [Windows功能區架構控制項程式庫](windowsribbon-controls-entry.md)
 - [QuickAccessToolbar 標記元素](windowsribbon-element-quickaccesstoolbar.md)

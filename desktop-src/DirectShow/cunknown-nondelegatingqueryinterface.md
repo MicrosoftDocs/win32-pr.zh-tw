@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: b41810eb52db38644bda472907228cd812f76f6a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 26e13d9d30c3da208bb702427ee99a9648a7f538ba0d5a6a1b359db41e2cd155
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107001847"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120076008"
 ---
 # <a name="cunknownnondelegatingqueryinterface-method"></a>CUnknown. NonDelegatingQueryInterface 方法
 
@@ -63,7 +63,7 @@ HRESULT NonDelegatingQueryInterface(
 
 
 
-| 傳回碼                                                                                   | Description                                        |
+| 傳回碼                                                                                   | 描述                                        |
 |-----------------------------------------------------------------------------------------------|----------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>          | 成功。<br/>                                |
 | <dl> <dt>**E \_ NOINTERFACE**</dt> </dl> | 物件不支援此介面。<br/> |

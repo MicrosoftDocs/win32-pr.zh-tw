@@ -6,19 +6,19 @@ keywords:
 - Windows Media Player，StringCollection 物件
 - Windows Media Player 物件模型，StringCollection 物件
 - 物件模型，StringCollection 物件
-- Windows Media Player ActiveX 控制項，StringCollection 物件
-- ActiveX 控制項，StringCollection 物件
-- Windows Media Player 行動 ActiveX 控制項，StringCollection 物件
-- Windows Media Player Mobile，StringCollection 物件
+- Windows Media Player ActiveX control、StringCollection 物件
+- ActiveX control、StringCollection 物件
+- Windows Media PlayerMobile ActiveX control、StringCollection 物件
+- Windows Media PlayerMobile、StringCollection 物件
 - StringCollection 物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1dba88fcd4a87b0905fc2beca249a227ef4ac9cb
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ae871dbe749764b97fa6be1691ad6ba546ba2829dffcc52bc086fea6c49a61ab
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104183116"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120124078"
 ---
 # <a name="about-the-stringcollection-object"></a>關於 StringCollection 物件
 
@@ -34,9 +34,9 @@ ms.locfileid: "104183116"
 [**StringCollection 物件**](stringcollection-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

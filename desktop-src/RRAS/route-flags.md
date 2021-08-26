@@ -7,12 +7,12 @@ keywords:
 - 路由旗標
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1711ef4ed621d55cc00302cca181676a3892c030
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1476742f1204eb14dd2bb96b289825d179a58e5bec01ff0aee18bcfbdb13a9b7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103931945"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120081238"
 ---
 # <a name="route-flags"></a>路由旗標
 
@@ -28,7 +28,7 @@ ms.locfileid: "103931945"
 
 
 
- 
+ 
 
 ## <a name="route-update-flags"></a>路由更新旗標
 
@@ -42,7 +42,7 @@ ms.locfileid: "103931945"
 
 
 
- 
+ 
 
 ## <a name="unicast-flags"></a>單播旗標
 
@@ -56,7 +56,7 @@ ms.locfileid: "103931945"
 
 
 
- 
+ 
 
 ## <a name="broadcast-and-multicast-flags"></a>廣播和多播旗標
 
@@ -74,13 +74,13 @@ ms.locfileid: "103931945"
 
 
 
- 
+ 
 
 ## <a name="grouping-of-flags"></a>旗標群組
 
 
 
-| Group                            | 成員                                                                                                                                                                  | Description                                              |
+| Group                            | 成員                                                                                                                                                                  | 描述                                              |
 |----------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------|
 | RTM \_ 路由 \_ 旗標 \_ 轉送    | RTM \_ 路由 \_ 旗標 \_ MARTIAN、RTM \_ 路由 \_ 旗標 \_ BLACKHOLE、RTM \_ 路由旗標 \_ \_ 捨棄、RTM \_ 路由 \_ 旗標 \_ 非使用中                                                        | 指定任何轉送旗標。                          |
 | RTM \_ 路由 \_ 旗標 \_ 任何 \_ 單播  | RTM \_ 路由 \_ 旗標 \_ LOCAL、RTM \_ ROUTE \_ FLAGS \_ REMOTE、RTM \_ ROUTE \_ FLAGS \_                                                                                           | 指定任何單播旗標。                             |
@@ -91,11 +91,11 @@ ms.locfileid: "103931945"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

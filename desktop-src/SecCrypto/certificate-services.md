@@ -1,23 +1,23 @@
 ---
-description: 憑證服務是在 Windows server 作業系統上執行的服務，會接收透過傳輸（例如 RPC 或 HTTP）的新數位憑證要求。
+description: 憑證服務是在 Windows 的伺服器作業系統上執行的服務，會透過傳輸（例如 RPC 或 HTTP）接收新數位憑證的要求。
 ms.assetid: 4c0098be-6b1b-4ce0-b3a0-942c1290b5b4
 title: 憑證服務
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d1a3f25972f98a79a208719eb2bcb08de07d7894
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: aaac2e1ee01b588beedbe2e632e52ef41459a885782a7975e460182f8a211bef
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106998521"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120126848"
 ---
 # <a name="certificate-services"></a>憑證服務
 
-[*憑證服務*](../secgloss/c-gly.md)是在 Windows server 作業系統上執行的服務，會接收透過傳輸（例如 RPC 或 HTTP）的新數位憑證要求。 它會根據自訂或網站特定原則來檢查每個要求、設定要發行之憑證的選擇性屬性，以及頒發證書。 憑證服務可讓系統管理員將專案新增至 (CRL) 的 [*憑證撤銷清單*](../secgloss/c-gly.md) ，以及定期發佈已簽署的 crl。
+[*憑證服務*](../secgloss/c-gly.md)是在 Windows 的伺服器作業系統上執行的服務，會透過傳輸（例如 RPC 或 HTTP）接收新數位憑證的要求。 它會根據自訂或網站特定原則來檢查每個要求、設定要發行之憑證的選擇性屬性，以及頒發證書。 憑證服務可讓系統管理員將專案新增至 (CRL) 的 [*憑證撤銷清單*](../secgloss/c-gly.md) ，以及定期發佈已簽署的 crl。
 
 憑證服務包含可程式化的介面，可用於建立其他傳輸、原則和憑證屬性與格式的支援。
 
-在 Windows Server 2003 中，您可以按一下 [**新增或移除程式**]，然後按一下 [**新增/移除 Windows 元件**] 以安裝或卸載憑證服務，從 **主控台** 安裝憑證服務2.0。
+在 Windows Server 2003 中，您可以按一下 [**新增或移除程式**]，然後按一下 [**新增/移除 Windows 元件**]，以安裝或卸載憑證服務，從 **主控台** 安裝憑證服務2.0。
 
 下列各節將詳細說明憑證服務概念。 內容旨在協助您開發會與憑證服務互動的應用程式。
 

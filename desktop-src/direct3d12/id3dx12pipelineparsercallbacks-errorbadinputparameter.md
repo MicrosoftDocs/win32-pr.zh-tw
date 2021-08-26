@@ -17,12 +17,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5181e8d9fb83b7338adc3af5c0ce44aec1b447d1
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 91fb00490fc2c2710207e7bdd01f7be900996452f34b379a2c883ef2a99dfcd9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106975696"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120096416"
 ---
 # <a name="id3dx12pipelineparsercallbackserrorbadinputparameter-method"></a>ID3DX12PipelineParserCallbacks：： ErrorBadInputParameter 方法
 

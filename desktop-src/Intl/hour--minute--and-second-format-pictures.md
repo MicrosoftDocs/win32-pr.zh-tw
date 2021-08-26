@@ -4,12 +4,12 @@ ms.assetid: a5e87d88-4037-4302-99b7-179bfb03fac3
 title: Hour、Minute 和 Second 格式的圖片
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 589c04fea0d6ce2f522436c30c39c873e3a7165e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 40e201e72e4da621334a46f20c47e1dd5f731d7ea443bb9970ce07bb7f4e5455
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104027576"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120130388"
 ---
 # <a name="hour-minute-and-second-format-pictures"></a>Hour、Minute 和 Second 格式的圖片
 

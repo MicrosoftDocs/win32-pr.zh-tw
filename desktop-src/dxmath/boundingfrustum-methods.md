@@ -4,12 +4,12 @@ ms.assetid: f77aac4a-7fbf-4149-a1c4-ee4c58d37222
 title: BoundingFrustum 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 94f5c4b7dfe7da243a61970853a241187df40e12
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9f21e02677ae08b20d509cab8e319d7fe968af9c8ce90d5208ae63495f5cff8c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106978858"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120117708"
 ---
 # <a name="boundingfrustum-methods"></a>BoundingFrustum 方法
 

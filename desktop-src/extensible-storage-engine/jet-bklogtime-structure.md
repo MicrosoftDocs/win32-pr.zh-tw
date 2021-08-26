@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: b34740d582e341cce3b2fd0b28203b7346a4de1d94a8586289be8ab252247943
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2d6f8e3f77d905eb601441ad8ab3ca88bb08f59d
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118487720"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122478524"
 ---
 # <a name="jet_bklogtime-structure"></a>JET_BKLOGTIME 結構
 
@@ -104,28 +104,12 @@ _**適用于：** Windows |Windows伺服器_
 
 如果此事件是備份，此旗標會包含下列其中一個可能的值：
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Name</p></th>
-<th><p>值</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>串流備份</p></td>
-<td><p>0 (零)</p></td>
-</tr>
-<tr class="even">
-<td><p>快照集備份</p></td>
-<td><p>1</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Name</p> | <p>值</p> | 
+|-------------|--------------|
+| <p>串流備份</p> | <p>0 (零)</p> | 
+| <p>快照集備份</p> | <p>1</p> | 
+
 
 
 **fReserved**
@@ -138,26 +122,9 @@ _**適用于：** Windows |Windows伺服器_
 
 ### <a name="requirements"></a>規格需求
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>用戶端</strong></p></td>
-<td><p>需要 Windows Vista。</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>伺服器</strong></p></td>
-<td><p>需要 Windows Server 2008。</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>標頭</strong></p></td>
-<td><p>宣告于 Esent. h 中。</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p><strong>用戶端</strong></p> | <p>需要 Windows Vista。</p> | | <p><strong>伺服器</strong></p> | <p>需要 Windows Server 2008。</p> | | <p><strong>標頭</strong></p> | <p>宣告于 Esent. h 中。</p> | 
+
 
 
 ### <a name="see-also"></a>另請參閱

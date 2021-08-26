@@ -18,17 +18,17 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 883085633bebf25180c82f0f8917f6fa31fe7304
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 918d1c7f70f4f02158473ad4b97a510058787a6b
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191499"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122477464"
 ---
 # <a name="jetsetindexrange-function"></a>JetSetIndexRange 函式
 
 
-_**適用于：** Windows |Windows Server_
+_**適用于：** Windows |Windows伺服器_
 
 ## <a name="jetsetindexrange-function"></a>JetSetIndexRange 函式
 
@@ -56,107 +56,35 @@ _**適用于：** Windows |Windows Server_
 
 位群組，其中包含要用於此呼叫的選項，其中包含零或多個下列各項：
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>值</p></th>
-<th><p>意義</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_bitRangeInclusive</p></td>
-<td><p>此選項的存在或不存在，表示索引範圍的界限準則。 如果有的話，這個選項會指出索引範圍的限制是內含的。 如果不存在，此選項表示索引範圍的限制為獨佔。 當索引範圍的限制為包含時，與搜尋準則完全相符的任何索引項目都會包含在範圍內。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitRangeInstantDuration</p></td>
-<td><p>此選項會要求在建立索引範圍時立即予以移除。 作業的所有其他層面都會保持不變。 這適合用來測試符合搜尋準則的索引項目是否存在。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitRangeRemove</p></td>
-<td><p>此選項會要求取消資料指標上的現有索引範圍。 一旦取消索引範圍後，就可以使用 <a href="gg294117(v=exchg.10).md">JetMove</a>移至索引範圍結尾以外的範圍。 如果索引範圍尚未生效， <strong>JetSetIndexRange</strong> 將會失敗，並 JET_errInvalidOperation。</p>
-<p>指定此選項時，會忽略所有其他選項。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitRangeUpperLimit</p></td>
-<td><p>如果使用此選項，則資料指標中的搜尋索引鍵代表索引項目的搜尋準則，最接近索引的結尾會符合索引範圍。 索引範圍將會建立在目前的資料指標位置與此索引項目之間，以便找到所有相符專案，方法是使用 <a href="gg294117(v=exchg.10).md">JetMove</a> 搭配 JET_MoveNext 或正位移向前移動索引。</p>
-<p>搭配使用 <a href="gg269329(v=exchg.10).md">JetMakeKey</a> 所建立的搜尋索引鍵，並不適合用來尋找最接近索引開頭的索引項目的萬用字元選項，這是使用此選項的意義。</p>
-<p>如果省略這個選項，則資料指標中的搜尋索引鍵代表索引項目的搜尋準則，最接近索引的開頭會符合索引範圍。 索引範圍將會建立在目前的資料指標位置與此索引項目之間，以便找到所有相符專案，方法是使用 <a href="gg294117(v=exchg.10).md">JetMove</a> 搭配 JET_MovePrevious 或負位移，在索引上向前移動。</p>
-<p>使用透過 <a href="gg269329(v=exchg.10).md">JetMakeKey</a> 所建立的搜尋索引鍵，並使用萬用字元選項來尋找最接近索引結尾的索引項目，以省略此選項的意義。</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>值</p> | <p>意義</p> | 
+|--------------|----------------|
+| <p>JET_bitRangeInclusive</p> | <p>此選項的存在或不存在，表示索引範圍的界限準則。 如果有的話，這個選項會指出索引範圍的限制是內含的。 如果不存在，此選項表示索引範圍的限制為獨佔。 當索引範圍的限制為包含時，與搜尋準則完全相符的任何索引項目都會包含在範圍內。</p> | 
+| <p>JET_bitRangeInstantDuration</p> | <p>此選項會要求在建立索引範圍時立即予以移除。 作業的所有其他層面都會保持不變。 這適合用來測試符合搜尋準則的索引項目是否存在。</p> | 
+| <p>JET_bitRangeRemove</p> | <p>此選項會要求取消資料指標上的現有索引範圍。 一旦取消索引範圍後，就可以使用 <a href="gg294117(v=exchg.10).md">JetMove</a>移至索引範圍結尾以外的範圍。 如果索引範圍尚未生效， <strong>JetSetIndexRange</strong> 將會失敗，並 JET_errInvalidOperation。</p><p>指定此選項時，會忽略所有其他選項。</p> | 
+| <p>JET_bitRangeUpperLimit</p> | <p>如果使用此選項，則資料指標中的搜尋索引鍵代表索引項目的搜尋準則，最接近索引的結尾會符合索引範圍。 索引範圍將會建立在目前的資料指標位置與此索引項目之間，以便找到所有相符專案，方法是使用 <a href="gg294117(v=exchg.10).md">JetMove</a> 搭配 JET_MoveNext 或正位移向前移動索引。</p><p>搭配使用 <a href="gg269329(v=exchg.10).md">JetMakeKey</a> 所建立的搜尋索引鍵，並不適合用來尋找最接近索引開頭的索引項目的萬用字元選項，這是使用此選項的意義。</p><p>如果省略這個選項，則資料指標中的搜尋索引鍵代表索引項目的搜尋準則，最接近索引的開頭會符合索引範圍。 索引範圍將會建立在目前的資料指標位置與此索引項目之間，以便找到所有相符專案，方法是使用 <a href="gg294117(v=exchg.10).md">JetMove</a> 搭配 JET_MovePrevious 或負位移，在索引上向前移動。</p><p>使用透過 <a href="gg269329(v=exchg.10).md">JetMakeKey</a> 所建立的搜尋索引鍵，並使用萬用字元選項來尋找最接近索引結尾的索引項目，以省略此選項的意義。</p> | 
+
 
 
 ### <a name="return-value"></a>傳回值
 
-此函數會傳回具有下列其中一個傳回碼的 [JET_ERR](./jet-err.md) 資料類型。 如需可能 ESE 錯誤的詳細資訊，請參閱可延伸 [儲存引擎錯誤](./extensible-storage-engine-errors.md) 和 [錯誤處理參數](./error-handling-parameters.md)。
+此函數會傳回具有下列其中一個傳回碼的 [JET_ERR](./jet-err.md) 資料類型。 如需可能 ESE 錯誤的詳細資訊，請參閱可延伸的[儲存體引擎錯誤](./extensible-storage-engine-errors.md)和[錯誤處理參數](./error-handling-parameters.md)。
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>傳回碼</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errSuccess</p></td>
-<td><p>作業已成功完成。</p>
-<p>若為 <strong>JetSetIndexRange</strong>，這表示現有的索引範圍已取消，或索引範圍內至少有一個索引項目目。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errClientRequestToStopJetService</p></td>
-<td><p>無法完成作業，因為與該會話相關聯之實例上的所有活動都不是呼叫 <a href="gg269240(v=exchg.10).md">JetStopService</a>的結果。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errInstanceUnavailable</p></td>
-<td><p>無法完成作業，因為與會話相關聯的實例發生嚴重錯誤，需要撤銷所有資料的存取權，以保護該資料的完整性。</p>
-<p>只有 Windows XP 和更新版本才會傳回此錯誤。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errInvalidOperation</p></td>
-<td><p>當指定 JET_bitRangeRemove 且沒有任何索引範圍生效時， <strong>JetSetIndexRange</strong> 會傳回這個錯誤。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errKeyNotMade</p></td>
-<td><p>沒有目前的資料指標搜尋索引鍵。 <strong>JetSetIndexRange</strong> 要求資料指標必須有有效的搜尋索引鍵，因為它會針對用來尋找索引項目的搜尋條件使用該索引鍵。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errNoCurrentIndex</p></td>
-<td><p>沒有目前的資料指標索引。 如果資料指標位於資料表的叢集索引，但尚未定義主要索引，就會發生這種<strong>情況。</strong> 不支援設定這類索引的索引範圍。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errNoCurrentRecord</p></td>
-<td><p><strong>JetSetIndexRange</strong>會傳回此錯誤，表示索引範圍內沒有任何索引項目。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errNotInitialized</p></td>
-<td><p>無法完成作業，因為與會話相關聯的實例尚未初始化。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errRestoreInProgress</p></td>
-<td><p>無法完成作業，因為與會話相關聯的實例正在進行還原作業。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errSessionSharingViolation</p></td>
-<td><p>相同的會話無法同時用於一個以上的執行緒。</p>
-<p>只有 Windows XP 和更新版本才會傳回此錯誤。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errTermInProgress</p></td>
-<td><p>無法完成作業，因為與會話相關聯的實例正在關閉。</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>傳回碼</p> | <p>Description</p> | 
+|--------------------|--------------------|
+| <p>JET_errSuccess</p> | <p>作業已成功完成。</p><p>若為 <strong>JetSetIndexRange</strong>，這表示現有的索引範圍已取消，或索引範圍內至少有一個索引項目目。</p> | 
+| <p>JET_errClientRequestToStopJetService</p> | <p>無法完成作業，因為與該會話相關聯之實例上的所有活動都不是呼叫 <a href="gg269240(v=exchg.10).md">JetStopService</a>的結果。</p> | 
+| <p>JET_errInstanceUnavailable</p> | <p>無法完成作業，因為與會話相關聯的實例發生嚴重錯誤，需要撤銷所有資料的存取權，以保護該資料的完整性。</p><p>只有 Windows XP 和更新版本才會傳回此錯誤。</p> | 
+| <p>JET_errInvalidOperation</p> | <p>當指定 JET_bitRangeRemove 且沒有任何索引範圍生效時， <strong>JetSetIndexRange</strong> 會傳回這個錯誤。</p> | 
+| <p>JET_errKeyNotMade</p> | <p>沒有目前的資料指標搜尋索引鍵。 <strong>JetSetIndexRange</strong> 要求資料指標必須有有效的搜尋索引鍵，因為它會針對用來尋找索引項目的搜尋條件使用該索引鍵。</p> | 
+| <p>JET_errNoCurrentIndex</p> | <p>沒有目前的資料指標索引。 如果資料指標位於資料表的叢集索引，但尚未定義主要索引，就會發生這種<strong>情況。</strong> 不支援設定這類索引的索引範圍。</p> | 
+| <p>JET_errNoCurrentRecord</p> | <p><strong>JetSetIndexRange</strong>會傳回此錯誤，表示索引範圍內沒有任何索引項目。</p> | 
+| <p>JET_errNotInitialized</p> | <p>無法完成作業，因為與會話相關聯的實例尚未初始化。</p> | 
+| <p>JET_errRestoreInProgress</p> | <p>無法完成作業，因為與會話相關聯的實例正在進行還原作業。</p> | 
+| <p>JET_errSessionSharingViolation</p> | <p>相同的會話無法同時用於一個以上的執行緒。</p><p>只有 Windows XP 和更新版本才會傳回此錯誤。</p> | 
+| <p>JET_errTermInProgress</p> | <p>無法完成作業，因為與會話相關聯的實例正在關閉。</p> | 
+
 
 
 成功時，如果指定 JET_bitRangeRemove，則會取消目前作用中的索引範圍。 如果未指定 JET_bitRangeRemove，且指定了 JET_bitRangeInstantDuration，則沒有任何索引範圍生效。 如果未指定 JET_bitRangeRemove 或 JET_bitRangeInstantDuration，則新的索引範圍會生效。 此索引範圍會暫時限制索引項目的索引項目集合，資料指標可以使用 [JetMove](./jetmove-function.md) 從目前的索引項目目開始，然後結束于符合搜尋準則的索引項目。 資料指標的位置會保持不變。 如果已針對資料指標建立搜尋索引鍵，則會刪除該搜尋索引鍵。 不會變更資料庫狀態。
@@ -171,34 +99,9 @@ _**適用于：** Windows |Windows Server_
 
 #### <a name="requirements"></a>規格需求
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>用戶端</strong></p></td>
-<td><p>需要 Windows Vista、Windows XP 或 Windows 2000 Professional。</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>伺服器</strong></p></td>
-<td><p>需要 Windows Server 2008、Windows Server 2003 或 Windows 2000 Server。</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>標頭</strong></p></td>
-<td><p>宣告于 Esent. h 中。</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>程式庫</strong></p></td>
-<td><p>使用 ESENT。</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>DLL</strong></p></td>
-<td><p>需要 ESENT.dll。</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p><strong>用戶端</strong></p> | <p>需要 Windows Vista、Windows XP 或 Windows 2000 Professional。</p> | | <p><strong>伺服器</strong></p> | <p>需要 Windows server 2008、Windows Server 2003 或 Windows 2000 Server。</p> | | <p><strong>標頭</strong></p> | <p>宣告于 Esent. h 中。</p> | | <p><strong>程式庫</strong></p> | <p>使用 ESENT。</p> | | <p><strong>DLL</strong></p> | <p>需要 ESENT.dll。</p> | 
+
 
 
 #### <a name="see-also"></a>另請參閱

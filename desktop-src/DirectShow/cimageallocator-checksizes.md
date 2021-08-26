@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 71184d4915911c29bff9d3a6fa9985942a4aaa44
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 070c0cac981f73ea6fa7e3c0ecb620e262f744edd651571be9b592840ad23956
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106989675"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120076228"
 ---
 # <a name="cimageallocatorchecksizes-method"></a>CImageAllocator. CheckSizes 方法
 
@@ -55,7 +55,7 @@ HRESULT CheckSizes(
 
 
 
-| 傳回碼                                                                                           | Description                                                                 |
+| 傳回碼                                                                                           | 描述                                                                 |
 |-------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>                  | 要求的屬性與媒體類型相容。<br/>     |
 | <dl> <dt>**E \_ INVALIDARG**</dt> </dl>          | 要求的屬性與媒體類型不相容。<br/> |

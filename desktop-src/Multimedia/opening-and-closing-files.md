@@ -7,12 +7,12 @@ keywords:
 - AVIFileRelease 函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 68e1c51c4747e03bf4f18a8e6c560e45798e1c8c
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: cca5cfdce177e119d178ca09dd447b7d4e3b6a52c1881f059b72e4424f9c54c3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106992659"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120038318"
 ---
 # <a name="opening-and-closing-files"></a>開啟和關閉檔案
 

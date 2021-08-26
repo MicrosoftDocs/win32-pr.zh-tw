@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 1cd1c9ad1b32c965610295a3b42d8dbb2a3899e7
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 2be9abd990baa5beefb17da63cd951fafe344c947ceed7db466715f1cf833b50
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103688851"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120088058"
 ---
 # <a name="pwm-enumeration-types"></a>PWM 列舉類型
 

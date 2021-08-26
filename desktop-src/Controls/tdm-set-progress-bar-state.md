@@ -3,7 +3,7 @@ title: 'TDM_SET_PROGRESS_BAR_STATE 訊息 (Commctrl .h) '
 description: 在工作對話方塊中設定進度列的狀態。
 ms.assetid: 8b0f2ee9-e6ca-4a5b-8687-6e2682eda7d0
 keywords:
-- TDM_SET_PROGRESS_BAR_STATE message Windows 控制項
+- TDM_SET_PROGRESS_BAR_STATE 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 00f0ae4ec104c8472d3640aa804650640d77cc63
-ms.sourcegitcommit: e584514ced7396dde55e58501c8c8a872229acc4
+ms.openlocfilehash: cb3be7432ac3a93af4f27fe9b06dced50fc6c77c0176c3bff7419cf15f2c73ab
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "104321791"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120104528"
 ---
 # <a name="tdm_set_progress_bar_state-message"></a>TDM \_ 設定 \_ 進度 \_ 列 \_ 狀態訊息
 
@@ -67,8 +67,8 @@ ms.locfileid: "104321791"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

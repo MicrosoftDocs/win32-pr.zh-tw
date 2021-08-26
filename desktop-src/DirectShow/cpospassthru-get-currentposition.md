@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 6c146eb1ee3d0a48da90973ab181a4bd02182331
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: db49717284f597249603b3c18340855793ebd342632aeb2091861f9742963a02
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994052"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120084238"
 ---
 # <a name="cpospassthruget_currentposition-method"></a>CPosPassThru. 取得 \_ CurrentPosition 方法
 

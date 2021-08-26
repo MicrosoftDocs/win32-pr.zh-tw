@@ -16,17 +16,17 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 68236451bf2ba6f491d17541f7d4ca627f5063c5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 92b688fcbeff21edf23f6a3be1b39be5a9cf0000
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104094020"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122471644"
 ---
 # <a name="id3dx11dataloader-interface"></a>ID3DX11DataLoader 介面
 
 > [!Note]  
-> D3DX (D3DX 9、D3DX 10 和 D3DX 11) 公用程式庫已針對 Windows 8 淘汰，而且不支援 Windows Store 應用程式。
+> D3DX (D3DX 9、D3DX 10 和 D3DX 11) 公用程式庫已針對 Windows 8 淘汰，不支援 Windows Store 應用程式。
 
  
 
@@ -44,44 +44,13 @@ ms.locfileid: "104094020"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">方法</th>
-<th style="text-align: left;">描述</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><a href="id3dx11dataloader-decompress.md"><strong>解 壓縮</strong></a></td>
-<td style="text-align: left;"><blockquote>
-[!Note]<br />
-D3DX (D3DX 9、D3DX 10 和 D3DX 11) 公用程式庫已針對 Windows 8 淘汰，而且不支援 Windows Store 應用程式。
-</blockquote>
-<br/> 解壓縮編碼的資料。<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="id3dx11dataloader-destroy.md"><strong>摧毀</strong></a></td>
-<td style="text-align: left;"><blockquote>
-[!Note]<br />
-D3DX (D3DX 9、D3DX 10 和 D3DX 11) 公用程式庫已針對 Windows 8 淘汰，而且不支援 Windows Store 應用程式。
-</blockquote>
-<br/> 在工作專案完成後終結載入器。<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="id3dx11dataloader-load.md"><strong>載入</strong></a></td>
-<td style="text-align: left;"><blockquote>
-[!Note]<br />
-D3DX (D3DX 9、D3DX 10 和 D3DX 11) 公用程式庫已針對 Windows 8 淘汰，而且不支援 Windows Store 應用程式。
-</blockquote>
-<br/> 從磁片載入資料。<br/></td>
-</tr>
-</tbody>
-</table>
+
+| 方法 | 描述 | 
+|--------|-------------|
+| <a href="id3dx11dataloader-decompress.md"><strong>解 壓縮</strong></a> | <blockquote>[!Note]<br />D3DX (D3DX 9、D3DX 10 和 D3DX 11) 公用程式庫已針對 Windows 8 淘汰，不支援 Windows Store 應用程式。</blockquote><br /> 解壓縮編碼的資料。<br /> | 
+| <a href="id3dx11dataloader-destroy.md"><strong>摧毀</strong></a> | <blockquote>[!Note]<br />D3DX (D3DX 9、D3DX 10 和 D3DX 11) 公用程式庫已針對 Windows 8 淘汰，不支援 Windows Store 應用程式。</blockquote><br /> 在工作專案完成後終結載入器。<br /> | 
+| <a href="id3dx11dataloader-load.md"><strong>載入</strong></a> | <blockquote>[!Note]<br />D3DX (D3DX 9、D3DX 10 和 D3DX 11) 公用程式庫已針對 Windows 8 淘汰，不支援 Windows Store 應用程式。</blockquote><br /> 從磁片載入資料。<br /> | 
+
 
 
 
@@ -97,8 +66,8 @@ D3DX (D3DX 9、D3DX 10 和 D3DX 11) 公用程式庫已針對 Windows 8 淘汰，
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/>                                 |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                              |
+| 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/>                                 |
 | 標頭<br/>                   | <dl> <dt>D3DX11core。h</dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>D3DX11 .lib</dt> </dl>   |
 

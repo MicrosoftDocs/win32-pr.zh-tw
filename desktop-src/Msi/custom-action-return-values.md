@@ -4,12 +4,12 @@ ms.assetid: 56c2d639-eef8-47cd-9d47-9a4781b9be36
 title: 自訂動作傳回值
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7c01ba6273aea6cf950edb56ef3c2a94ab9a272d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f3853cfeafba22cb2d479feb1e699c29bcf4b0ab7a08402245f30958cb593df6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106971627"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120044998"
 ---
 # <a name="custom-action-return-values"></a>自訂動作傳回值
 

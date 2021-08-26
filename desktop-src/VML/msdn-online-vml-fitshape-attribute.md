@@ -4,21 +4,21 @@ description: VML FitShape 屬性
 ms.assetid: a6e5a198-1478-4256-a4f2-b9ae6db6d7fb
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dd2b05d7bc31afc52c664217ff21d14b40fd0c27
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 0adbb6fd92f296156cf2f95cf2b714cfacd2f193f8e1e1b912e6637b9e8d5cd6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106966267"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120099248"
 ---
 # <a name="vml-fitshape-attribute"></a>VML FitShape 屬性
 
 本主題說明 VML，這是 Windows Internet Explorer 9 淘汰的功能。 依賴 VML 的網頁和應用程式應該遷移至 SVG 或其他廣泛支援的標準。
 
 > [!Note]  
-> 從2011年12月起，本主題已封存。 因此，它不會再主動維護。 如需詳細資訊，請參閱封存的 [內容](/previous-versions/windows/internet-explorer/ie-developer/)。 如需目前 Windows Internet Explorer 版本的相關資訊、建議和指引，請參閱 [Internet Explorer 開發人員中心](https://msdn.microsoft.com/ie/)。
+> 從2011年12月起，本主題已封存。 因此，它不會再主動維護。 如需詳細資訊，請參閱封存的 [內容](/previous-versions/windows/internet-explorer/ie-developer/)。 如需有關 Windows Internet Explorer 目前版本的資訊、建議和指引，請參閱[Internet Explorer 開發人員中心](https://msdn.microsoft.com/ie/)。
 
- 
+ 
 
 定義文字是否適合圖形的周框方塊。 讀取/寫入 **VgTriState**。
 
@@ -58,6 +58,6 @@ ms.locfileid: "106966267"
 
 
 
- 
+ 
 
- 
+ 

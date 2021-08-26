@@ -4,12 +4,12 @@ ms.assetid: e780df46-bf47-4334-b788-05ad8179f051
 title: 步驟3C。 執行 CheckTransform 方法
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 78148701fc54e73a6970d45fde95d70f4cf0df3a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 430ad933acfa7fc41a8b075183080e0b710a5d4780b55fa89cd4bf80984c1edc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194763"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120075588"
 ---
 # <a name="step-3c-implement-the-checktransform-method"></a>步驟3C。 執行 CheckTransform 方法
 
@@ -112,7 +112,7 @@ HRESULT CRleFilter::CheckTransform(
 [影片轉譯器中的來源和目標矩形](source-and-target-rectangles-in-video-renderers.md)
 </dt> <dt>
 
-[撰寫 DirectShow 篩選器](writing-directshow-filters.md)
+[撰寫 DirectShow 篩選](writing-directshow-filters.md)
 </dt> </dl>
 
  

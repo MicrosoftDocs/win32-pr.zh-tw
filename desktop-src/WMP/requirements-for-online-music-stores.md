@@ -3,15 +3,15 @@ title: 線上音樂商店的需求
 description: 線上音樂商店的需求
 ms.assetid: 0595e7e0-6da9-4caa-a305-cfedd81e217e
 keywords:
-- Windows Media Player 線上商店
+- Windows Media Player線上商店
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ff9896bc9c715ed0c7bda22bf28e95ef8d887b04
-ms.sourcegitcommit: 773fa6257ead6c74154ad3cf46d21e49adc900aa
+ms.openlocfilehash: 9613f3c050cd8783c956067e98b07b2c51c3dc15c32230ed44a46c085a4c91e0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "104024253"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120123228"
 ---
 # <a name="requirements-for-online-music-stores"></a>線上音樂商店的需求
 
@@ -24,7 +24,7 @@ ms.locfileid: "104024253"
 -   在主要數位媒體服務以外的不同動作（例如登入、帳單、購買實體 Cd 或其他相關功能）可能會連結至非數位媒體功能的播放程式外部瀏覽器實例。
 -   無論存放區與 Windows Media Player 的連線，存放區所提供的授權都必須保持有效。 如需詳細資訊，請參閱 Windows Media Player 線上媒體服務清單協定的「期限」和「終止」一節。
 
-Microsoft 有時可能會更新資格和隨用隨的需求，並將其張貼在 [Windows Media 網站](https://www.microsoft.com/windows/windowsmedia/default.mspx) (上 https://www.microsoft.com/windows/windowsmedia/default.mspx) 。
+Microsoft 有時可能會更新資格和隨用隨的需求，並將其張貼在[Windows 媒體網站](https://www.microsoft.com/windows/windowsmedia/default.mspx) (上 https://www.microsoft.com/windows/windowsmedia/default.mspx) 。
 
 ## <a name="related-topics"></a>相關主題
 
@@ -33,9 +33,9 @@ Microsoft 有時可能會更新資格和隨用隨的需求，並將其張貼在 
 [線上商店歡迎套件](online-stores-welcome-kit.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

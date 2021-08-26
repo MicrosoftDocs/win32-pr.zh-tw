@@ -4,12 +4,12 @@ ms.assetid: 2c796d5c-1556-4348-83e2-23e93780ebc1
 title: 參考參數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 650790af5ca6849bd082b4819dd4c411adea320f
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: def14223c2d1a4471582e28881a3784eb86239e8daec0e9ec63bff8bc8b7838a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112405321"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120112138"
 ---
 # <a name="referencing-parameters"></a>參考參數
 

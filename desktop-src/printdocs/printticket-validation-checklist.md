@@ -4,12 +4,12 @@ ms.assetid: 4698f151-2237-4d16-b32f-4d15024cd063
 title: PrintTicket 驗證檢查清單
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6154b7cabb5825a0f0edcc8f90b8294557001f1a
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: 3dd9f6c04bc1cd57ce453c061e30c25d2111964f5f82bdaa21bf5921cd53c30e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113120143"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120091708"
 ---
 # <a name="printticket-validation-checklist"></a>PrintTicket 驗證檢查清單
 

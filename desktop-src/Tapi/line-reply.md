@@ -4,12 +4,12 @@ ms.assetid: 5d98ed8b-b75e-49f8-aba3-c6eee89e91c1
 title: 'LINE_REPLY 訊息 (Tapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8ed963a777a5073b0182e809eec83fb7f904768e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: febe10c822a469465984b715c7b6f23d150f1f068730d4e92190b05ce50cd535
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106983214"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120126238"
 ---
 # <a name="line_reply-message"></a>行 \_ 回復訊息
 

@@ -4,18 +4,18 @@ ms.assetid: 59332096-bdfe-4208-b99a-1f434652f287
 title: 全螢幕轉譯器篩選
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d331ff6f31d1c985c7e255b23381a289931da60
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: 5013bee81d92c1ade3da4574f576f519b94c025c60c563ab70a35d0956e82865
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113120473"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120102778"
 ---
 # <a name="full-screen-renderer-filter"></a>全螢幕轉譯器篩選
 
 全螢幕轉譯器篩選器會在舊版硬體上提供全螢幕的影片呈現。 較新的視訊卡可以有效率地延展影片，而不需要全螢幕轉譯器。 因此，使用此篩選器現在已被取代。
 
-請勿手動將此篩選新增至篩選圖形。 如果應用程式呼叫 [**IVideoWindow：:p 的 \_ FullScreenMode**](/windows/desktop/api/Control/nf-control-ivideowindow-put_fullscreenmode)，則篩選圖形管理員會自動針對全螢幕模式選取適當的影片轉譯器。 選取專案對應用程式而言是透明的。 使用目前的視訊卡時，篩選圖形管理員不太可能選取全螢幕轉譯器。
+請勿手動將此篩選新增至篩選圖形。 如果應用程式呼叫 [**IVideoWindow：:p 的 \_ FullScreenMode**](/windows/desktop/api/Control/nf-control-ivideowindow-put_fullscreenmode)，篩選準則 Graph 管理員會自動針對全螢幕模式選取適當的影片轉譯器。 選取專案對應用程式而言是透明的。 使用目前的視訊卡時，篩選 Graph 管理員不太可能選取全螢幕轉譯器。
 
 
 
@@ -42,7 +42,7 @@ ms.locfileid: "113120473"
 
 
 
-| 模式 | 寬度 | 高度 | 位元深度 |
+| [模式] | 寬度 | 高度 | 位元深度 |
 |------|-------|--------|-----------|
 | 0    | 320   | 200    | 16        |
 | 1    | 320   | 200    | 8         |
@@ -75,7 +75,7 @@ ms.locfileid: "113120473"
 
 <dl> <dt>
 
-[DirectShow 篩選](directshow-filters.md)
+[DirectShow過濾 器](directshow-filters.md)
 </dt> </dl>
 
  

@@ -4,12 +4,12 @@ ms.assetid: a170e63a-8586-47df-af5e-4ee3621795b2
 title: 沒有自動設定檔的探索
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b6a5ec281c2ef74e2a377cecbd30f16cbc49bd79
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 553f4f798a821ff219b587c494d5dccfbba8c4b22efd0d1692ca2069f53041de
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106981897"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120097938"
 ---
 # <a name="discovery-without-an-auto-config-file"></a>沒有自動設定檔的探索
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 2ddf0876928f85debded1645b9a22de790917017
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 2506191db941eee0a046d52f64aaeeb0f642f11dd35e42d6b49c4b5f5f457d79
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106999054"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120096648"
 ---
 # <a name="id3dx10mesh-interface"></a>ID3DX10Mesh 介面
 
@@ -41,7 +41,7 @@ ms.locfileid: "106999054"
 |:-----------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**CloneMesh**](id3dx10mesh-clonemesh.md)                                               | 建立新的網格，並將其填入先前載入之網格的資料。<br/>                                                                                                                                                                                                                                                |
 | [**CommitToDevice**](id3dx10mesh-committodevice.md)                                     | 將對網格所做的任何變更認可到裝置，以便轉譯變更。 這應該在網格的資料改變之後，以及轉譯之前呼叫。 除非已對裝置認可網狀，否則無法轉譯。 請參閱＜備註＞。<br/>                                                                         |
-| [**捨棄**](id3dx10mesh-discard.md)                                                   | 使用 [**ID3DX10Mesh：： CommitToDevice**](id3dx10mesh-committodevice.md)) ，從已認可至裝置 (的裝置移除網格資料。<br/>                                                                                                                                                                         |
+| [**丟棄**](id3dx10mesh-discard.md)                                                   | 使用 [**ID3DX10Mesh：： CommitToDevice**](id3dx10mesh-committodevice.md)) ，從已認可至裝置 (的裝置移除網格資料。<br/>                                                                                                                                                                         |
 | [**DrawSubset**](id3dx10mesh-drawsubset.md)                                             | 繪製網格的子集。<br/>                                                                                                                                                                                                                                                                                                 |
 | [**DrawSubsetInstanced**](id3dx10mesh-drawsubsetinstanced.md)                           | 繪製相同網格子集的數個實例。<br/>                                                                                                                                                                                                                                                                      |
 | [**GenerateAdjacencyAndPointReps**](id3dx10mesh-generateadjacencyandpointreps.md)       | 產生網格邊緣清單以及共用每個邊緣的臉部清單。<br/>                                                                                                                                                                                                                                           |
@@ -62,7 +62,7 @@ ms.locfileid: "106999054"
 | [**GetVertexDescription**](id3dx10mesh-getvertexdescription.md)                         | 存取傳遞至 [**D3DX10CreateMesh**](d3d10-d3dx10createmesh.md)的頂點描述。 頂點描述描述網格頂點緩衝區的版面配置。<br/>                                                                                                                                                   |
 | [**相交**](id3dx10mesh-intersect.md)                                               | 判斷光線是否與此網格交集。<br/>                                                                                                                                                                                                                                                                            |
 | [**IntersectSubset**](id3dx10mesh-intersectsubset.md)                                   | 判斷光線是否與這個網格的子集相交。<br/>                                                                                                                                                                                                                                                                |
-| [**優化**](id3dx10mesh-optimize.md)                                                 | 產生具有重新排序臉部和頂點的新網格，以將繪製效能優化。<br/>                                                                                                                                                                                                                                   |
+| [**最佳化**](id3dx10mesh-optimize.md)                                                 | 產生具有重新排序臉部和頂點的新網格，以將繪製效能優化。<br/>                                                                                                                                                                                                                                   |
 | [**SetAdjacencyData**](id3dx10mesh-setadjacencydata.md)                                 | 設定網狀網格的相鄰資料。<br/>                                                                                                                                                                                                                                                                                            |
 | [**SetAttributeData**](id3dx10mesh-setattributedata.md)                                 | 設定網狀的屬性資料。<br/>                                                                                                                                                                                                                                                                                            |
 | [**SetAttributeTable**](id3dx10mesh-setattributetable.md)                               | 設定網格的屬性工作表和儲存在資料表中的專案數目。<br/>                                                                                                                                                                                                                                        |

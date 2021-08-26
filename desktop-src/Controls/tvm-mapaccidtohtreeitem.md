@@ -1,9 +1,9 @@
 ---
 title: 'TVM_MAPACCIDTOHTREEITEM 訊息 (Commctrl .h) '
-description: 將存取範圍識別碼對應至 HTREEITEM。
+description: 地圖 HTREEITEM 的存取範圍識別碼。
 ms.assetid: f4feb7cb-2138-4930-b8ee-b9e2d4b19001
 keywords:
-- TVM_MAPACCIDTOHTREEITEM message Windows 控制項
+- TVM_MAPACCIDTOHTREEITEM 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b827b18387723fe4792321f7932e1abb3673466e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f6481d8db806156d10536ac0ec7c66fdeb4693a1133365767b4c3dc37ad8420f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104024834"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120045798"
 ---
 # <a name="tvm_mapaccidtohtreeitem-message"></a>TVM \_ MAPACCIDTOHTREEITEM 訊息
 
-將存取範圍識別碼對應至 **HTREEITEM**。
+地圖 **HTREEITEM** 的存取範圍識別碼。
 
 ## <a name="parameters"></a>參數
 
@@ -54,8 +54,8 @@ ms.locfileid: "104024834"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

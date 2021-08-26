@@ -4,26 +4,26 @@ description: 瞭解如何使用 SignTool 來簽署您的 Windows 應用程式套
 ms.assetid: 93541EB4-3419-45D1-AA63-563E6C6D3055
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 49f1abfdf0e43fb4d87dbf892f30c2a3ba63e775
-ms.sourcegitcommit: ae73f4dd3cf5a3c6a1ea7d191ca32a5b01f6686b
+ms.openlocfilehash: 2b4e4c0941cbcced30053b8fd31e44100adc9aa7
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "106969736"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122474884"
 ---
 # <a name="how-to-sign-an-app-package-using-signtool"></a>如何使用 SignTool 簽署應用程式套件
 
 > [!Note]  
-> 如需簽署 Windows 應用程式套件，請參閱 [使用 SignTool 簽署應用程式套件](/windows/msix/package/sign-app-package-using-signtool)。
+> 如需簽署 Windows 應用程式套件，請參閱[使用 SignTool 簽署應用程式套件](/windows/msix/package/sign-app-package-using-signtool)。
 
  
 
-瞭解如何使用 [**SignTool**](/windows-hardware/drivers/devtest/signtool) 來簽署您的 Windows 應用程式套件，以便部署。 [**SignTool**](/windows-hardware/drivers/devtest/signtool) 是 WINDOWS 軟體開發套件 (SDK) 的一部分。
+瞭解如何使用 [**SignTool**](/windows-hardware/drivers/devtest/signtool)來簽署您的 Windows 應用程式套件，以便部署。 [**SignTool**](/windows-hardware/drivers/devtest/signtool)是 Windows 軟體開發套件 (SDK) 的一部分。
 
-所有 Windows 應用程式套件都必須經過數位簽署，才能進行部署。 雖然 Microsoft Visual Studio 2012 和更新版本可以在建立應用程式套件時進行簽署，但您使用應用程式封裝工具建立的封裝 [ (MakeAppx.exe) ](make-appx-package--makeappx-exe-.md) Windows SDK 工具不會簽署。
+所有 Windows 應用程式套件都必須經過數位簽署，才能進行部署。 雖然 Microsoft Visual Studio 2012 和更新版本可以在建立應用程式套件時進行簽署，但您使用應用程式封裝工具建立的封裝[ (MakeAppx.exe) ](make-appx-package--makeappx-exe-.md) Windows SDK 工具不會簽署。
 
 > [!Note]  
-> 您只能使用 [**SignTool**](/windows-hardware/drivers/devtest/signtool) 來簽署 Windows 8 和更新版本或 windows Server 2012 及更新版本上的 Windows 應用程式套件。 您無法使用 **SignTool** 來簽署舊版作業系統（例如 Windows 7 或 windows Server 2008 R2）上的應用程式套件。
+> 您只能使用 [**SignTool**](/windows-hardware/drivers/devtest/signtool)來簽署 Windows 8 和更新版本或 Windows Server 2012 和更新版本的 Windows 應用程式套件。 您無法使用 **SignTool** 來簽署下層作業系統（例如 Windows 7 或 Windows Server 2008 R2）上的應用程式套件。
 
  
 
@@ -38,17 +38,17 @@ ms.locfileid: "106969736"
 ### <a name="prerequisites"></a>必要條件
 
 -   [**SignTool**](/windows-hardware/drivers/devtest/signtool)，這是 Windows SDK 的一部分
--   有效的程式碼簽署憑證，例如，使用 [**MakeCert.exe**](/windows-hardware/drivers/devtest/makecert) 和 [**Pvk2Pfx.exe**](/windows-hardware/drivers/devtest/pvk2pfx) 工具建立的個人資訊交換 ( .pfx) 檔案
+-   有效的程式碼簽署憑證，例如，使用 [**MakeCert.exe**](/windows-hardware/drivers/devtest/makecert)和 [**Pvk2Pfx.exe**](/windows-hardware/drivers/devtest/pvk2pfx)工具建立的個人資訊 Exchange ( .pfx) 檔
 
     如需建立有效程式碼簽署憑證的詳細資訊，請參閱 [如何建立應用程式套件簽署憑證](how-to-create-a-package-signing-certificate.md)。
 
--   封裝的 Windows 應用程式，例如，使用應用程式封裝工具建立的 .appx 檔案 [ (MakeAppx.exe) ](make-appx-package--makeappx-exe-.md) 工具
+-   封裝的 Windows 應用程式，例如，使用應用程式封裝工具建立的 .appx 檔案[ (MakeAppx.exe) ](make-appx-package--makeappx-exe-.md)工具
 
-**其他考量**
+**其他考慮**
 
 您用來簽署應用程式套件的憑證必須符合下列準則：
 
--   憑證的主體名稱必須符合封裝中儲存之 AppxManifest.xml 檔案的 [**Identity**](/uwp/schemas/appxpackage/appxmanifestschema/element-identity)元素所包含的 **發行者** 屬性。 發行者名稱是已封裝之 Windows 應用程式身分識別的一部分，因此您必須讓憑證的主體名稱符合應用程式的發行者名稱。 這可讓您根據數位簽章檢查已簽署套件的身分識別。 如需使用 [**SignTool**](/windows-hardware/drivers/devtest/signtool)簽署應用程式套件時可能產生之簽署錯誤的詳細資訊，請參閱 [如何建立應用程式套件簽署憑證](how-to-create-a-package-signing-certificate.md)的備註一節。
+-   憑證的主體名稱必須符合封裝中儲存之 AppxManifest.xml 檔案的 [**Identity**](/uwp/schemas/appxpackage/appxmanifestschema/element-identity)元素所包含的 **Publisher** 屬性。 發行者名稱是封裝 Windows 應用程式身分識別的一部分，因此您必須讓憑證的主體名稱符合應用程式的發行者名稱。 這可讓您根據數位簽章檢查已簽署套件的身分識別。 如需使用 [**SignTool**](/windows-hardware/drivers/devtest/signtool)簽署應用程式套件時可能產生之簽署錯誤的詳細資訊，請參閱 [如何建立應用程式套件簽署憑證](how-to-create-a-package-signing-certificate.md)的備註一節。
 -   憑證必須有效，才能進行程式碼簽署。 這表示這兩個專案都必須為 true：
 
     -   憑證的 [擴充金鑰使用方法] (EKU) 欄位必須設定為 [未設定]，或包含 [程式碼簽署 (1.3.6.1.5.5.7.3.3) 的 EKU 值。
@@ -132,47 +132,18 @@ Error information: "Error: SignerSign() failed." (-2147024885 / 0x8007000B)
 **若要搜尋事件記錄檔**
 
 1.  執行 Eventvwr.msc services.msc。
-2.  開啟事件記錄檔：事件檢視器 (本機) > 應用程式和服務記錄 > Microsoft > Windows > AppxPackagingOM > Microsoft Windows-AppxPackaging/Operational
+2.  開啟事件記錄檔：事件檢視器 (本機) > 應用程式和服務記錄 > microsoft > Windows > AppxPackagingOM > microsoft Windows AppxPackaging/Operational
 3.  尋找最新的錯誤事件。
 
 內部錯誤通常會對應到下列其中一項：
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>事件識別碼</th>
-<th>範例事件字串</th>
-<th>建議</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>150</td>
-<td>錯誤 0x8007000B: 應用程式資訊清單發行者名稱 (CN=Contoso) 必須符合簽署憑證 (CN=Contoso, C=US) 的主體名稱。</td>
-<td>應用程式資訊清單發行者名稱必須完全符合簽署的主體名稱。
-<blockquote>
-[!Note]<br />
-這些名稱會以引號指定，且區分大小寫和空白字元。
-</blockquote>
-<br/> 您可以更新為 AppxManifest.xml 檔中的<a href="/uwp/schemas/appxpackage/appxmanifestschema/element-identity"><strong>Identity</strong></a>專案定義的<strong>發行者</strong>屬性字串，以符合所需簽署憑證的主體名稱。 或者，選取具有與應用程式資訊清單發行者名稱相符之主體名稱的不同簽署憑證。 資訊清單發行者名稱和憑證主體名稱都會列在事件訊息中。</td>
-</tr>
-<tr class="even">
-<td>151</td>
-<td>錯誤 0x8007000B: 指定的簽章雜湊方法 (SHA512) 必須符合應用程式套件區塊對應中使用的雜湊方法 (SHA256)。</td>
-<td>在/fd 參數中指定的 hashAlgorithm 不正確 (請參閱步驟1：判斷要使用的雜湊演算法) 。 使用符合應用程式套件區塊對應的 hashAlgorithm 重新執行 <a href="/windows-hardware/drivers/devtest/signtool"><strong>SignTool</strong></a> 。</td>
-</tr>
-<tr class="odd">
-<td>152</td>
-<td>錯誤 0x8007000B: 應用程式套件內容必須通過區塊對應的驗證。</td>
-<td>應用程式套件損壞，需要重建產生新區塊對應。 如需建立應用程式套件的詳細資訊，請參閱使用 <a href="make-appx-package--makeappx-exe-.md">應用程式封裝程式</a> 建立應用程式套件或 <a href="/previous-versions/hh975357(v=vs.110)">使用 Visual Studio 2012 建立應用程式套件</a>。</td>
-</tr>
-</tbody>
-</table>
+
+| 事件識別碼 | 範例事件字串 | 建議 | 
+|----------|----------------------|------------|
+| 150 | 錯誤 0x8007000B: 應用程式資訊清單發行者名稱 (CN=Contoso) 必須符合簽署憑證 (CN=Contoso, C=US) 的主體名稱。 | 應用程式資訊清單發行者名稱必須完全符合簽署的主體名稱。<blockquote>[!Note]<br />這些名稱會以引號指定，且區分大小寫和空白字元。</blockquote><br /> 您可以更新為 AppxManifest.xml 檔案中的<a href="/uwp/schemas/appxpackage/appxmanifestschema/element-identity"><strong>Identity</strong></a>專案定義的<strong>Publisher</strong>屬性字串，以符合所需簽署憑證的主體名稱。 或者，選取具有與應用程式資訊清單發行者名稱相符之主體名稱的不同簽署憑證。 資訊清單發行者名稱和憑證主體名稱都會列在事件訊息中。 | 
+| 151 | 錯誤 0x8007000B: 指定的簽章雜湊方法 (SHA512) 必須符合應用程式套件區塊對應中使用的雜湊方法 (SHA256)。 | 在/fd 參數中指定的 hashAlgorithm 不正確 (請參閱步驟1：判斷要使用的雜湊演算法) 。 使用符合應用程式套件區塊對應的 hashAlgorithm 重新執行 <a href="/windows-hardware/drivers/devtest/signtool"><strong>SignTool</strong></a> 。 | 
+| 152 | 錯誤 0x8007000B: 應用程式套件內容必須通過區塊對應的驗證。 | 應用程式套件損壞，需要重建產生新區塊對應。 如需建立應用程式套件的詳細資訊，請參閱使用<a href="make-appx-package--makeappx-exe-.md">應用程式封裝程式</a>建立應用程式套件或<a href="/previous-versions/hh975357(v=vs.110)">使用 Visual Studio 2012 建立應用程式套件</a>。 | 
+
 
 
 

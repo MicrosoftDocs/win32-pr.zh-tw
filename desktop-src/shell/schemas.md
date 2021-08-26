@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: cffedfcb9678d42e322ce9c4cd34c26f9b82f016
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3d1cc078129694f855c4eab6189220498e181e584e9edaf18b6464ab8bc36860
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104971864"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120090168"
 ---
 # <a name="shell-schemas"></a>Shell 架構
 

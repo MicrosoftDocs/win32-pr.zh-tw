@@ -4,12 +4,12 @@ ms.assetid: 1537e98b-d7ed-49e6-aa25-8f2f124c88eb
 title: 'MFPKEY_COMPLEXITY 屬性 (Wmcodecdsp) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 042e3158b43efb5a4a82542f000d137fa0c195e6
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 03bb611c95451f590df2e9ff4c1df02b17eda2d1dc00e256381931cbacde435f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108092936"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120113438"
 ---
 # <a name="mfpkey_complexity-property"></a>MFPKEY \_ 複雜性屬性
 
@@ -33,8 +33,8 @@ VT \_ I4
 
 | 編碼器版本                 | 預設值 |
 |---------------------------------|---------------|
-| Windows Media 視訊9編碼器   | 3             |
-| Windows Media 視訊7/8 編碼器 | 1             |
+| WindowsMedia Video 9 編碼器   | 3             |
+| Windows媒體影片7/8 編碼器 | 1             |
 
 
 
@@ -50,8 +50,8 @@ VT \_ I4
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                             |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                    |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                             |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                    |
 | 標頭<br/>                   | <dl> <dt>Wmcodecdsp。h</dt> </dl> |
 
 

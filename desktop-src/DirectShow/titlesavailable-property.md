@@ -4,17 +4,17 @@ ms.assetid: 821ab1dc-7a42-407f-8fcd-8662036a6fa5
 title: TitlesAvailable 屬性
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 388f81cab788fb440d55d4bb5a80e99d13c54db0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 980870b0aa56ca472fa839c9560b93f5c3f069fa9376e950d9d65f6a3fb6fed3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106992601"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120078728"
 ---
 # <a name="titlesavailable-property"></a>TitlesAvailable 屬性
 
 > [!Note]  
-> 此元件可用於 Microsoft Windows 2000、Windows XP 及 Windows Server 2003 作業系統。 它在後續版本中可能會變更或無法使用。
+> 此元件可在 Microsoft Windows 2000、Windows XP 和 Windows Server 2003 作業系統中使用。 它在後續版本中可能會變更或無法使用。
 
  
 

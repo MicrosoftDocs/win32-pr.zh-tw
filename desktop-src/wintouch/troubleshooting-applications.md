@@ -3,22 +3,22 @@ title: 針對應用程式進行疑難排解
 description: 本節提供常見問題的解決方案。
 ms.assetid: dfdc5a97-aa0a-4011-8f61-6e405e28b6f8
 keywords:
-- Windows Touch，疑難排解應用程式
-- Windows Touch，棕櫚拒絕
+- Windows觸控、疑難排解應用程式
+- Windows觸控、棕櫚拒絕
 - 手掌拒絕
-- Windows Touch，舊版支援
+- WindowsTouch，舊版支援
 - 疑難排解 Windows Touch
 - 慣性，針對應用程式進行疑難排解
 - 操作，疑難排解應用程式
 - 手勢，疑難排解應用程式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 389d200cedc57b7f128a535355b12a9288c6e9eb
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: bfadf28f5582f702c27f5cb1e15aff142ae14bcf
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111443141"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122625334"
 ---
 # <a name="troubleshooting-applications"></a>針對應用程式進行疑難排解
 
@@ -30,9 +30,9 @@ ms.locfileid: "111443141"
 
 | 類別 | 描述 |
 |----------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 問題    | 我正在執行 Windows Server 2008，但 Windows Touch 功能無法運作。                                                                                                                                                                                                                                       |
+| 問題    | 我正在執行 Windows Server 2008，Windows Touch 功能無法運作。                                                                                                                                                                                                                                       |
 | 原因    | 您尚未啟用桌面體驗。                                                                                                                                                                                                                                                                        |
-| 解決方法 | 開啟伺服器管理員系統管理工具：按一下 [ **開始**]，指向 [系統 **管理工具**]，然後按一下 [ **伺服器管理員**]。 按一下左側資料行中的 [ **功能** ] 專案。 按一下 [**功能**] 區段中的 [**新增功能**]。 選取 [ **桌面體驗**]，按 **[下一步]**，然後按一下 [ **安裝**]。 |
+| 解決方案 | 開啟伺服器管理員系統管理工具：按一下 [ **開始**]，指向 [系統 **管理工具**]，然後按一下 [ **伺服器管理員**]。 按一下左側資料行中的 [ **功能** ] 專案。 按一下 [**功能**] 區段中的 [**新增功能**]。 選取 [ **桌面體驗**]，按 **[下一步]**，然後按一下 [ **安裝**]。 |
 
 
 
@@ -44,7 +44,7 @@ ms.locfileid: "111443141"
 |----------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 問題    | 當我在應用程式中快速移動手指時，會出現箭號，而我的手勢或操作並未正確註冊。                                                             |
 | 原因    | 在不需要筆觸的情況下啟用筆觸。                                                                                                                                                      |
-| 解決方法 | 當您想要停用筆觸時，會啟用筆觸。 如需停用筆觸的詳細資訊，請參閱 [使用捲軸來移動流覽的舊版支援](legacy-support-for-panning-with-scrollbars.md) 。 |
+| 解決方案 | 當您想要停用筆觸時，會啟用筆觸。 如需停用筆觸的詳細資訊，請參閱 [使用捲軸來移動流覽的舊版支援](legacy-support-for-panning-with-scrollbars.md) 。 |
 
 
 
@@ -54,8 +54,8 @@ ms.locfileid: "111443141"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -67,11 +67,11 @@ ms.locfileid: "111443141"
 <td>當使用者按一下螢幕時，Windows 會針對舊版支援產生滑鼠訊息。</td>
 </tr>
 <tr class="odd">
-<td>解決方法</td>
+<td>解決方案</td>
 <td>您可以呼叫<strong>WM_LBUTTONDOWN</strong>的<a href="/windows/win32/api/winuser/nf-winuser-getmessageextrainfo">GetMessageExtraInfo</a> ，並<strong>WM_LBUTTONUP</strong>訊息來判斷來源。 下列程式碼顯示如何完成這項操作。 <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -105,8 +105,8 @@ if ((GetMessageExtraInfo() & MOUSEEVENTF_FROMTOUCH) == MOUSEEVENTF_FROMTOUCH) {
 | 類別 | 描述 |
 |----------|------------------------------------------------------------------------------------|
 | 問題    | 如何? 在 Windows 7 上執行 Microsoft PixelSense 應用程式？                       |
-| 原因    | Windows Touch 與 Microsoft PixelSense 不相容。                           |
-| 解決方法 | 您需要將目標設為 Windows 7 平臺或 Microsoft PixelSense 平臺。 |
+| 原因    | Windows觸控和 Microsoft PixelSense 不相容。                           |
+| 解決方案 | 您必須以 Windows 7 平臺或 Microsoft PixelSense 平臺為目標。 |
 
 
 
@@ -120,7 +120,7 @@ if ((GetMessageExtraInfo() & MOUSEEVENTF_FROMTOUCH) == MOUSEEVENTF_FROMTOUCH) {
 |----------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 問題    | 我的應用程式因為沒有原因而凍結。 我在初始化物件介面時遇到存取違規。                                                                                                                                          |
 | 原因    | 使用 [**IManipulationProcessor**](/windows/desktop/api/manipulations/nn-manipulations-imanipulationprocessor)或 [**IInertiaProcessor**](/windows/desktop/api/manipulations/nn-manipulations-iinertiaprocessor)介面時遺漏 **CoInitialize** 的呼叫。                                                                                 |
-| 解決方法 | 這可能是因為將 Windows Touch 元件物件模型具現化 (COM) 物件，而不呼叫 CoInitialize。 有時候，當您將專案從使用筆勢轉換成使用操作或慣性介面時，就會發生這種情況。 |
+| 解決方案 | 這可能是因為將 Windows Touch 元件物件模型具現化 (COM) 物件，而不呼叫 CoInitialize。 有時候，當您將專案從使用筆勢轉換成使用操作或慣性介面時，就會發生這種情況。 |
 
 
 
@@ -132,7 +132,7 @@ if ((GetMessageExtraInfo() & MOUSEEVENTF_FROMTOUCH) == MOUSEEVENTF_FROMTOUCH) {
 |----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 問題    | 我的物件在轉譯時的旋轉不正確。 單一手指旋轉無法正常運作。                                                                                                                                                                                                                                                                           |
 | 原因    | 設定物件的透視表不當。                                                                                                                                                                                                                                                                                                                                                 |
-| 解決方法 | 您未正確設定操作樞紐分析表點。 將 [ [**PivotPointX**](/windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-get_pivotpointx) ] 和 [ [**PivotPointY**](/windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-get_pivotpointy) ] 屬性設定為您想要旋轉的物件或點中央，然後將 [**PivotRadius**](/windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-get_pivotradius) 屬性設定為物件的半徑。 |
+| 解決方案 | 您未正確設定操作樞紐分析表點。 將 [ [**PivotPointX**](/windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-get_pivotpointx) ] 和 [ [**PivotPointY**](/windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-get_pivotpointy) ] 屬性設定為您想要旋轉的物件或點中央，然後將 [**PivotRadius**](/windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-get_pivotradius) 屬性設定為物件的半徑。 |
 
 
 
@@ -146,7 +146,7 @@ if ((GetMessageExtraInfo() & MOUSEEVENTF_FROMTOUCH) == MOUSEEVENTF_FROMTOUCH) {
 |----------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 問題    | 我在處理 [**WM \_ 觸控**](wm-touchdown.md) 訊息之後，就會停止取得界限意見反應。                                                                                                                                                                                                                                        |
 | 原因    | 使用 [**WM \_ 觸控**](wm-touchdown.md) 訊息而不加以處理。                                                                                                                                                                                                                                                           |
-| 解決方法 | 您可能會耗用 Windows Touch 的訊息，而不將它轉送至 **DefWindowProc**，這會導致非預期的行為。 如需有關如何適當處理 [**WM \_ 觸控**](wm-touchdown.md)訊息的詳細資訊，請參閱 [Windows Touch 訊息的開始使用](getting-started-with-multi-touch-messages.md)。 |
+| 解決方案 | 您可能會耗用 Windows Touch 的訊息，而不將它轉送至 **DefWindowProc**，這會導致非預期的行為。 如需有關如何適當處理 [**WM \_ 觸控**](wm-touchdown.md)訊息的詳細資訊，請參閱 [Windows Touch 訊息的開始使用](getting-started-with-multi-touch-messages.md)。 |
 
 
 
@@ -156,8 +156,8 @@ if ((GetMessageExtraInfo() & MOUSEEVENTF_FROMTOUCH) == MOUSEEVENTF_FROMTOUCH) {
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -166,14 +166,14 @@ if ((GetMessageExtraInfo() & MOUSEEVENTF_FROMTOUCH) == MOUSEEVENTF_FROMTOUCH) {
 </tr>
 <tr class="even">
 <td>原因</td>
-<td>Targetver.h 中的 Windows 版本不正確。</td>
+<td>targetver.h 中的 Windows 版本不正確。</td>
 </tr>
 <tr class="odd">
-<td>解決方法</td>
-<td>您未在專案中設定正確的 Windows 版本。 下列程式碼說明 Windows 7 中適用于 Windows Touch 的正確設定 Windows 版本。 <span data-codelanguage="ManagedCPlusPlus"></span>
+<td>解決方案</td>
+<td>您尚未在您的專案中設定正確的 Windows 版本。 下列程式碼說明 Windows 7 中 Windows Touch 正確設定的 Windows 版本。 <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -201,8 +201,8 @@ if ((GetMessageExtraInfo() & MOUSEEVENTF_FROMTOUCH) == MOUSEEVENTF_FROMTOUCH) {
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -214,11 +214,11 @@ if ((GetMessageExtraInfo() & MOUSEEVENTF_FROMTOUCH) == MOUSEEVENTF_FROMTOUCH) {
 <td>您可能需要將觸控點轉換成圖元，或者您可能需要轉換螢幕座標。</td>
 </tr>
 <tr class="odd">
-<td>解決方法</td>
+<td>解決方案</td>
 <td>請確定您呼叫 <a href="/windows/desktop/api/winuser/nf-winuser-touch_coord_to_pixel"><strong>TOUCH_COORD_TO_PIXEL</strong></a> 和 <a href="/windows/desktop/api/winuser/nf-winuser-screentoclient"><strong>ScreenToClient</strong></a>。 下列程式碼示範如何執行這項操作。 <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -266,9 +266,9 @@ if ((GetMessageExtraInfo() & MOUSEEVENTF_FROMTOUCH) == MOUSEEVENTF_FROMTOUCH) {
 
 | 類別 | 描述 |
 |----------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 問題    | 我看不到 [**wm 的 \_ 觸控**](wm-touchdown.md) 訊息，但我知道 Windows Touch 正在運作，因為我看到了 [**wm \_ 手勢**](wm-gesture.md) 訊息。                                                             |
+| 問題    | 我看不到 [**wm 的 \_ 觸控**](wm-touchdown.md)訊息，但我知道 Windows Touch 正在運作，因為我看到了 [**wm \_ 手勢**](wm-gesture.md)訊息。                                                             |
 | 原因    | 遺漏 [**RegisterTouchWindow**](/windows/desktop/api/winuser/nf-winuser-registertouchwindow)的呼叫。                                                                                                                                                          |
-| 解決方法 | [**WM \_觸控**](wm-touchdown.md) 和 [**WM \_ 手勢**](wm-gesture.md) 訊息都是互斥的。 如果您未呼叫 [**RegisterTouchWindow**](/windows/desktop/api/winuser/nf-winuser-registertouchwindow)，則只會收到 **WM \_ 手勢** 訊息。 |
+| 解決方案 | [**WM \_觸控**](wm-touchdown.md) 和 [**WM \_ 手勢**](wm-gesture.md) 訊息都是互斥的。 如果您未呼叫 [**RegisterTouchWindow**](/windows/desktop/api/winuser/nf-winuser-registertouchwindow)，則只會收到 **WM \_ 手勢** 訊息。 |
 
 
 
@@ -280,7 +280,7 @@ if ((GetMessageExtraInfo() & MOUSEEVENTF_FROMTOUCH) == MOUSEEVENTF_FROMTOUCH) {
 |----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 問題    | 我注意到我在我的應用程式中收到輸入時，從我接觸到的時候，會有很小的延遲。                                                                                                                                                                                                                                         |
 | 原因    | 手掌拒絕會導致輸入延遲。                                                                                                                                                                                                                                                                                                            |
-| 解決方法 | 如果 **TWF \_ WANTPALM** 設定在對 [**RegisterTouchWindow**](/windows/desktop/api/winuser/nf-winuser-registertouchwindow)的呼叫中，則會啟用 palm 拒絕。 如此一來，當軟體測試輸入是來自手指、手寫筆或使用者的掌上時，就會導致短暫的 (100 ms) 延遲。 藉由呼叫 **RegisterTouchWindow** 並清除 **TWF \_ WANTPALM** 旗標來停用 palm 拒絕。 |
+| 解決方案 | 如果 **TWF \_ WANTPALM** 設定在對 [**RegisterTouchWindow**](/windows/desktop/api/winuser/nf-winuser-registertouchwindow)的呼叫中，則會啟用 palm 拒絕。 如此一來，當軟體測試輸入是來自手指、手寫筆或使用者的掌上時，就會導致短暫的 (100 ms) 延遲。 藉由呼叫 **RegisterTouchWindow** 並清除 **TWF \_ WANTPALM** 旗標來停用 palm 拒絕。 |
 
 
 
@@ -294,7 +294,7 @@ if ((GetMessageExtraInfo() & MOUSEEVENTF_FROMTOUCH) == MOUSEEVENTF_FROMTOUCH) {
 |----------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 問題    | 在處理 [**WM \_ 手勢**](wm-gesture.md) 訊息之後，我會停止取得界限意見反應。 或者，先前工作的手勢目前無法運作。                                                                                                                                                                                                                         |
 | 原因    | 使用 [**WM \_ 手勢**](wm-gesture.md) 訊息而不加以處理。                                                                                                                                                                                                                                                                                                    |
-| 解決方法 | 您可能會耗用 Windows Touch 的訊息，而不將它轉送至 [DefWindowProc](/windows/win32/api/winuser/nf-winuser-defwindowproca)，這會導致非預期的行為。 如需如何正確處理 [**WM \_ 手勢**](wm-gesture.md)訊息的詳細資訊，請參閱 [開始使用的 Windows 手勢](getting-started-with-multi-touch-gestures.md)。 |
+| 解決方案 | 您可能會耗用 Windows Touch 的訊息，而不將它轉送至[DefWindowProc](/windows/win32/api/winuser/nf-winuser-defwindowproca)，這會導致非預期的行為。 如需如何正確處理 [**WM \_ 手勢**](wm-gesture.md)訊息的詳細資訊，請參閱 [開始使用 Windows 手勢](getting-started-with-multi-touch-gestures.md)。 |
 
 
 
@@ -304,9 +304,9 @@ if ((GetMessageExtraInfo() & MOUSEEVENTF_FROMTOUCH) == MOUSEEVENTF_FROMTOUCH) {
 
 | 類別 | 描述 |
 |----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 問題    | 我看不到 [**wm \_ 手勢**](wm-gesture.md) 訊息，但我知道 Windows Touch 正在運作，因為我看到了 [**wm \_ 觸控**](wm-touchdown.md) 訊息。                                                      |
+| 問題    | 我看不到 [**wm \_ 手勢**](wm-gesture.md)訊息，但我知道 Windows Touch 正在運作，因為我看到了 [**wm \_ 觸控**](wm-touchdown.md)訊息。                                                      |
 | 原因    | 呼叫 [**RegisterTouchWindow**](/windows/desktop/api/winuser/nf-winuser-registertouchwindow)。                                                                                                                                                             |
-| 解決方法 | [**WM \_觸控**](wm-touchdown.md) 和 [**WM \_ 手勢**](wm-gesture.md) 訊息都是互斥的。 如果您呼叫 [**RegisterTouchWindow**](/windows/desktop/api/winuser/nf-winuser-registertouchwindow)，就不會收到 **WM \_ 手勢** 訊息。 |
+| 解決方案 | [**WM \_觸控**](wm-touchdown.md) 和 [**WM \_ 手勢**](wm-gesture.md) 訊息都是互斥的。 如果您呼叫 [**RegisterTouchWindow**](/windows/desktop/api/winuser/nf-winuser-registertouchwindow)，就不會收到 **WM \_ 手勢** 訊息。 |
 
 
 
@@ -316,8 +316,8 @@ if ((GetMessageExtraInfo() & MOUSEEVENTF_FROMTOUCH) == MOUSEEVENTF_FROMTOUCH) {
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -329,11 +329,11 @@ if ((GetMessageExtraInfo() & MOUSEEVENTF_FROMTOUCH) == MOUSEEVENTF_FROMTOUCH) {
 <td>某些手勢（例如旋轉手勢）預設不會啟用。</td>
 </tr>
 <tr class="odd">
-<td>解決方法</td>
+<td>解決方案</td>
 <td>當您收到<a href="wm-gesturenotify.md"><strong>WM_GESTURENOTIFY</strong></a>訊息（如<strong>WM_GESTURENOTIFY</strong>參考中所述）時，您必須呼叫<a href="/windows/desktop/api/winuser/nf-winuser-setgestureconfig"><strong>SetGestureConfig</strong></a> ，否則您必須加入<strong>WM_GESTURENOTIFY</strong>訊息的處理常式。 下列程式碼示範如何執行處理常式來啟用旋轉支援。 <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -387,7 +387,7 @@ LRESULT CTestWndApp::OnWindowsGestureNotify(
 |----------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 問題    | 當我執行平移手勢時，我的應用程式中的自訂捲軸不會滾動。                                                                                                                                                                                                                                                                                                         |
 | 原因    | 遺漏正確 WM \_ \* 捲軸訊息的處理常式。                                                                                                                                                                                                                                                                                                                                            |
-| 解決方法 | 您未 \_ \* 在自訂捲軸中處理所有的 WM 捲軸訊息。 建議您處理 [**WM \_ 手勢**](wm-gesture.md) 訊息，而不是透過舊版支援保留自訂捲軸功能。 您需要支援的訊息，如 [舊版支援移動捲軸的支援](legacy-support-for-panning-with-scrollbars.md)一節中所述。 |
+| 解決方案 | 您未 \_ \* 在自訂捲軸中處理所有的 WM 捲軸訊息。 建議您處理 [**WM \_ 手勢**](wm-gesture.md) 訊息，而不是透過舊版支援保留自訂捲軸功能。 您需要支援的訊息，如 [舊版支援移動捲軸的支援](legacy-support-for-panning-with-scrollbars.md)一節中所述。 |
 
 
 
@@ -399,7 +399,7 @@ LRESULT CTestWndApp::OnWindowsGestureNotify(
 |----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 問題    | 我遇到手勢的延遲。                                                                                                                                                                                                                               |
 | 原因    | 筆觸可能會導致手勢的延遲。                                                                                                                                                                                                                      |
-| 解決方法 | 筆觸可能會導致應用程式收到 [**WM \_ 手勢**](wm-gesture.md) 訊息所需的時間延遲。 如需停用筆觸的詳細資訊，請參閱 [使用捲軸來移動流覽的舊版支援](legacy-support-for-panning-with-scrollbars.md) 。 |
+| 解決方案 | 筆觸可能會導致應用程式收到 [**WM \_ 手勢**](wm-gesture.md) 訊息所需的時間延遲。 如需停用筆觸的詳細資訊，請參閱 [使用捲軸來移動流覽的舊版支援](legacy-support-for-panning-with-scrollbars.md) 。 |
 
 
 

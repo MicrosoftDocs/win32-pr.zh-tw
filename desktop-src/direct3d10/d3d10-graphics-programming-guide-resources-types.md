@@ -4,12 +4,12 @@ ms.assetid: c5238a2f-d69d-4ce5-a5aa-66a6c18d5f69
 title: " (Direct3D 10) 的資源類型"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0ec6ec9b57a2e504c137d424b19c61f2353d685e
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 8b0f757eac93fac8c0ffd49641441fa4570824670dfcca9c3d271f954054548b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104566375"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120120102"
 ---
 # <a name="resource-types-direct3d-10"></a> (Direct3D 10) 的資源類型
 

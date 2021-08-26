@@ -4,12 +4,12 @@ description: 共用結構
 ms.assetid: 17D6C193-EF87-4FC5-8CAA-A1098D129577
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 974c7ec94069798f259172f6b6f3618ad9f35579
-ms.sourcegitcommit: 013de6f5280f28a9b04c3cce9387e629b07d70fc
+ms.openlocfilehash: 60439adfbb44fddeb69dafad08b33475c316b2f9623e729402e63e20060255ef
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "104314526"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120075368"
 ---
 # <a name="shared-structures"></a>共用結構
 
@@ -25,9 +25,9 @@ ms.locfileid: "104314526"
 -   [**.FWP \_ V6 \_ 位址 \_ 和 \_ 遮罩**](/windows/desktop/api/Fwptypes/ns-fwptypes-fwp_v6_addr_and_mask)
 -   [**.FWP \_ VALUE0**](/windows/desktop/api/Fwptypes/ns-fwptypes-fwp_value0)
 
- 
+ 
 
- 
+ 
 
 
 

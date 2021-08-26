@@ -4,12 +4,12 @@ description: 本章節包含 Microsoft XAudio2 API 所提供的函式相關資�
 ms.assetid: 870a0425-3226-7848-bcc0-0ba7145135cb
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9bcd8bcfdb00565d6f8bbc31ae0ee6a24f106dee
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b950ce33f55a4b834f3ee7a068f613e144c2e30633c67e887b8a24789140a618
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "107000293"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120109648"
 ---
 # <a name="xaudio2-functions"></a>XAudio2 函式
 

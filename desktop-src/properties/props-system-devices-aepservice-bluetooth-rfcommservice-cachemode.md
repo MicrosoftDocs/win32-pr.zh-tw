@@ -1,17 +1,17 @@
 ---
 description: 設定查詢的藍牙 RFCOMM 快取模式。
 ms.assetid: 04ba721b-614b-4621-a230-abc8ba2a568b
-title: AepService. RfcommService. CacheMode
+title: AepService。藍牙。RfcommService. CacheMode
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0afee8b888ece8fec0197c55c332ff1d1195168c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: afa9aee643f5fa2b3dd5f984f8aef359f92165f1d1f1a3a5cb02618abba0b032
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980327"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120091408"
 ---
-# <a name="systemdevicesaepservicebluetoothrfcommservicecachemode"></a>AepService. RfcommService. CacheMode
+# <a name="systemdevicesaepservicebluetoothrfcommservicecachemode"></a>AepService。藍牙。RfcommService. CacheMode
 
 設定查詢的藍牙 RFCOMM 快取模式。
 
