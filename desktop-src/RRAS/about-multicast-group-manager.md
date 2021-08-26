@@ -9,12 +9,12 @@ keywords:
 - 路由及遠端存取服務 RRAS，多播群組管理員，描述
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 034d37b99aaa9ca0139b5425cd5b85e7b3f280e9
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b9f83dc2b212f7d70d04b4a3ec08bf07e664fa2d67d9c638233a4e8e914369c0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106965800"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120030928"
 ---
 # <a name="about-multicast-group-manager"></a>關於多播群組管理員
 
@@ -37,9 +37,9 @@ MGM API 提供下列功能：
 
 本總覽說明多播架構的元件、用來與多播群組管理員交互操作的用戶端案例，以及使用 MGM API 的程式設計考慮。
 
- 
+ 
 
- 
+ 
 
 
 

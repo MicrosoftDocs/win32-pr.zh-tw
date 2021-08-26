@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: aacc2680bebcdd7de74f6f357380066a8fd37f1f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 568a95df0d0cee39245c268fa1c49505531ddc84e1fd1542a1eae170e5c7d0da
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990149"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120053178"
 ---
 # <a name="ctransinplaceoutputpinsetallocator-method"></a>CTransInPlaceOutputPin. SetAllocator 方法
 

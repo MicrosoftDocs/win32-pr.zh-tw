@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d4da78c6c8af5dbff3e283a784f0c1f583e093c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a5808156e73620f775c2aa91feceaed4e06961f8e974c53a1595cdc739185062
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106976289"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120000878"
 ---
 # <a name="wmparentalrating-attribute"></a>WM/ParentalRating 屬性
 
@@ -26,7 +26,7 @@ ms.locfileid: "106976289"
 ## <a name="applies-to"></a>套用至
 
 -   [音訊專案](audio-item-attributes.md)
--   [常用的 Windows Media 檔案屬性](commonly-used-windows-media-file-attributes.md)
+-   [常用 Windows 媒體檔案屬性](commonly-used-windows-media-file-attributes.md)
 -   [DVD](dvd-attributes.md)
 -   [影片專案](video-item-attributes.md)
 
@@ -34,7 +34,7 @@ ms.locfileid: "106976289"
 
 這個屬性會儲存在程式庫 (或快取) 和數位媒體檔案中。
 
-這個屬性的 Windows Media Format SDK 常數是 g \_ wszWMParentalRating。
+這個屬性的 Windows 媒體格式 SDK 常數是 g \_ wszWMParentalRating。
 
 **MPAARating** 是此屬性的別名。
 

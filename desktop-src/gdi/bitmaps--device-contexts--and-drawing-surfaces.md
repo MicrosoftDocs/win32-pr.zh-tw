@@ -4,12 +4,12 @@ ms.assetid: 4feafb23-bf5a-493a-9d1d-96170711b907
 title: 點陣圖、裝置內容和繪圖表面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6297eb3446d05d0fa21ac23c9de9f3416a300746
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ed42215dc98ce179f9d36ddc0a24244c018c4177287d1fdfff974a2814e14d64
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191960"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119966388"
 ---
 # <a name="bitmaps-device-contexts-and-drawing-surfaces"></a>點陣圖、裝置內容和繪圖表面
 

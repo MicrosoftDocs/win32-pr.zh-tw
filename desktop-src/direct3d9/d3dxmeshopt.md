@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9mesh.h
-ms.openlocfilehash: db7c2a2411d1c846c7369fc1d925a8e5569df3b1
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: d4d26538832a698909ace59da42b13ae51aef93d2d4d622b687f324a62d8361e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108114346"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119986488"
 ---
 # <a name="d3dxmeshopt-enumeration"></a>D3DXMESHOPT 列舉
 
@@ -99,7 +99,7 @@ enum _D3DXMESHOPT {
 
 D3DXMESHOPT \_ STRIPREORDER 和 D3DXMESHOPT \_ VERTEXCACHE 優化旗標彼此互斥。
 
-\_此列舉已移除 D3DXMESHOPT SHAREVB 旗標。 \_ \_ 在 [**D3DXMESH**](./d3dxmesh.md)中，請改用 D3DXMESH VB SHARE。
+\_此列舉已移除 D3DXMESHOPT SHAREVB 旗標。 \_ \_ 在 [**D3DXMESH**](./d3dxmesh.md)中改用 D3DXMESH VB 共用。
 
 ## <a name="requirements"></a>規格需求
 

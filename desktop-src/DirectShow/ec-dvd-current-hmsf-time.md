@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - dvdevcode.h
-ms.openlocfilehash: 36306b95682e62ffebf8fb819dcc4b7c5185493c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 52a6eb077599b4fe6dfd89267974cb71c0c5a58a65d6c52307d77eb3e98201d4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106997633"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119965808"
 ---
 # <a name="ec_dvd_current_hmsf_time"></a>EC \_ DVD \_ 目前 \_ HMSF \_ 時間
 

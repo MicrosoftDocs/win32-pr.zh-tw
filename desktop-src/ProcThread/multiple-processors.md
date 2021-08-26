@@ -4,12 +4,12 @@ ms.assetid: 3c9186c8-a54d-4536-8237-bfff78cc7d11
 title: 多個處理器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0093404a0df653a153823915f1ac72b5e41d50c0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d28b381faaceb5a171ddcf33c0705fee144f98952c4d473c0db8c7d99050deb1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106987532"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120032408"
 ---
 # <a name="multiple-processors"></a>多個處理器
 

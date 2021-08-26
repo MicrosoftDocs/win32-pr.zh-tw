@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 3a1d7fcec98d32167155ebcafc4f13d2a727d59a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2612a98c282627154a9107f2f9f77a3ddb52c191e00dbcb394c8db4d7c796b79
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104106331"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120032008"
 ---
 # <a name="suppress-querytype-element"></a>隱藏 (QueryType) 元素
 
@@ -42,7 +42,7 @@ XPath 查詢，識別要從查詢結果集排除的事件。
 
 
 
-| 名稱 | 類型   | Description                                                                              |
+| 名稱 | 類型   | 描述                                                                              |
 |------|--------|------------------------------------------------------------------------------------------|
 | 路徑 | anyURI | 通道的名稱或包含事件之記錄檔的路徑。<br/> |
 
@@ -54,8 +54,8 @@ XPath 查詢，識別要從查詢結果集排除的事件。
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

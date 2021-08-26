@@ -4,12 +4,12 @@ ms.assetid: 60c11519-f7ca-4002-b3f6-d74f50310730
 title: 初始化安全性封裝
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bed981c7a209c8f76be9e58f970d84b0aa184371
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e8d39cbbd9a1126a22d04c14bee3b6ac9b305b2feb3593d03756779e4cb0649b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104115065"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120015848"
 ---
 # <a name="initializing-the-security-package"></a>初始化安全性封裝
 

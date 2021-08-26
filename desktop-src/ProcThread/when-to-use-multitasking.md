@@ -4,12 +4,12 @@ ms.assetid: ac0a8163-1498-4274-acfc-6a36b4c02a27
 title: 使用多工的時機
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b17e52f39a08120d3038663a95307ad72f228cfc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ee3e37f63ada4aa1a17355ac3bc5b7361d498a1a20ec87b490965b53c4811ebb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980319"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120031338"
 ---
 # <a name="when-to-use-multitasking"></a>使用多工的時機
 

@@ -4,12 +4,12 @@ ms.assetid: 1393bfaa-8649-40d3-9ff8-5e119c34aed3
 title: 順序動作
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c68bedaaa3d6cc985b9795e6f640e0799131a578
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 854f0a783926c4cec4c0f92559f50a11dccbdfebebe21bace31df2e6be7e2073
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320863"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120040208"
 ---
 # <a name="sequence-action"></a>順序動作
 

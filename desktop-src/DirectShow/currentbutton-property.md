@@ -4,17 +4,17 @@ ms.assetid: bd9720bc-068a-4f29-aa2d-1c6b550f789c
 title: CurrentButton 屬性
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c12def9f9a73c9538781bde6940b03bfb376fcc
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: d85b246b77283a2632f2feac4c2b374075ef9d9a205bcb71813856b9847df21b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104317720"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120053138"
 ---
 # <a name="currentbutton-property"></a>CurrentButton 屬性
 
 > [!Note]  
-> 此元件可用於 Microsoft Windows 2000、Windows XP 及 Windows Server 2003 作業系統。 它在後續版本中可能會變更或無法使用。
+> 此元件可在 Microsoft Windows 2000、Windows XP 和 Windows Server 2003 作業系統中使用。 它在後續版本中可能會變更或無法使用。
 
  
 

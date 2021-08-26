@@ -13,16 +13,16 @@ api_type:
 - DllExport
 api_location:
 - ntdll.dll
-ms.openlocfilehash: 1fee03b4a06d274b495070eb40833b270a795158
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: c70a732f1e1d1dd71db8d89489066547ee5238e89cf992fca9f2b04759b4c9ba
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104385856"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120001298"
 ---
 # <a name="ldrunregisterdllnotification-function"></a>LdrUnregisterDllNotification 函式
 
-\[您可以在不另行通知的情況下，從 Windows 變更或移除此功能。\]
+\[您可以從 Windows 中變更或移除此函式，而不需另行通知。\]
 
 取消先前藉由呼叫 [**LdrRegisterDllNotification**](ldrregisterdllnotification.md) 函式註冊的 DLL 載入通知。
 
@@ -68,8 +68,8 @@ NTSTATUS NTAPI LdrUnregisterDllNotification(
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                 |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                 |
 | DLL<br/>                      | <dl> <dt>Ntdll.dll</dt> </dl> |
 
 

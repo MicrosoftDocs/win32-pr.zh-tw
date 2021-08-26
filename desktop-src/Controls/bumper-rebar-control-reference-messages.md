@@ -4,12 +4,12 @@ description: Rebar 控制項訊息
 ms.assetid: 5fa1df55-0883-4b3b-bcde-7c40d574c792
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cc43d8091b1a3808b98091b62ed8b7965f13bb9b
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 330391d0c6a66992984461eefe08a2038d96c967566eb829d67ff9f35936a03b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104035294"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119970638"
 ---
 # <a name="rebar-control-messages"></a>Rebar 控制項訊息
 

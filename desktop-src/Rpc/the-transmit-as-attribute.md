@@ -7,12 +7,12 @@ keywords:
 - transmit_as
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f08b885826aea302a16d8c23709de0ef0b07a848
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 617422c50bae46de72bac1e548b6f248b19d0cb2436ac0c08b265bbba4f5a6cb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104376108"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120016638"
 ---
 # <a name="the-transmit_as-attribute"></a>傳輸 \_ 為屬性
 
@@ -28,20 +28,20 @@ typedef [transmit_as (xmit_type)] type_spec type;
 
 
 
-| 常式傳回的值                                                 | Description                                                                                                                                     |
+| 常式傳回的值                                                 | 描述                                                                                                                                     |
 |---------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**輸入 \_ 至 \_ xmit**](the-type-to-xmit-function.md)     | 配置傳送型別的物件，並從應用程式類型轉換成透過網路傳送的型別， (呼叫端和稱為) 的物件。 |
 | [**\_從 \_ xmit 輸入**](the-type-from-xmit-function.md) | 從傳輸型別轉換為應用程式類型 (呼叫端和稱為) 的物件。                                                                  |
 | [**輸入 \_ 免費 \_ inst**](the-type-free-inst-function.md) | 釋出應用程式類型所使用的資源 (只呼叫) 的物件。                                                                              |
-| [**輸入 \_ 免費 \_ xmit**](the-type-free-xmit-function.md) | 釋出型別傳回的儲存空間， *****\_*** 以 \_ xmit** 常式 (呼叫端和稱為) 的物件。                                                      |
+| [**輸入 \_ 免費 \_ xmit**](the-type-free-xmit-function.md) | 釋出 **型** 別傳回的儲存空間， _\__ *_以 \_ xmit_* 常式 (呼叫端和稱為) 的物件。                                                      |
 
 
 
- 
+ 
 
 除了這四個程式設計人員提供的函式以外，應用程式不會操作傳輸的型別。 傳送的類型只定義為透過網路移動資料。 將資料轉換為應用程式所使用的型別之後，會釋出傳輸類型所使用的記憶體。
 
-這些程式設計人員提供的常式是由用戶端或伺服器應用程式根據方向屬性提供。 如果參數為 **\[** [](/windows/desktop/Midl/in) **\]** ，則用戶端會傳送至伺服器。 用戶端必須 **要有型別 \_ 才能 \_ xmit** 和 **輸入 \_ free \_ xmit** 函數。 伺服器需要 **\_ 來自 \_ xmit 的類型** ，並 **輸入 \_ free \_ inst** 函數。 針對 **\[** [**out**](/windows/desktop/Midl/out-idl) **\]** 參數，伺服器會傳送至用戶端。 當用戶端程式必須 **\_ 從 \_ xmit** 函式提供型別時，伺服器應用程式必須將型別實 **\_ \_ xmit** 和 **輸入 \_ free \_ xmit** 函數。 針對暫存 **xmit \_ 型** 別物件，存根會呼叫 **類型 ***\_*** free \_ xmit** ，以釋出對 **\_ \_ xmit** 的呼叫所配置的任何記憶體。
+這些程式設計人員提供的常式是由用戶端或伺服器應用程式根據方向屬性提供。 如果參數為 **\[** [](/windows/desktop/Midl/in) **\]** ，則用戶端會傳送至伺服器。 用戶端必須 **要有型別 \_ 才能 \_ xmit** 和 **輸入 \_ free \_ xmit** 函數。 伺服器需要 **\_ 來自 \_ xmit 的類型** ，並 **輸入 \_ free \_ inst** 函數。 針對 **\[** [**out**](/windows/desktop/Midl/out-idl) **\]** 參數，伺服器會傳送至用戶端。 當用戶端程式必須 **\_ 從 \_ xmit** 函式提供型別時，伺服器應用程式必須將型別實 **\_ \_ xmit** 和 **輸入 \_ free \_ xmit** 函數。 針對暫存 **xmit \_ 型** 別物件，存根會呼叫 **類型** _\__ *_free \_ xmit_* ，以釋出對 **\_ \_ xmit** 的呼叫所配置的任何記憶體。
 
 某些指導方針適用于應用程式類型實例。 如果應用程式類型是指標或包含指標，則 \_ **\_ xmit** 常式的型別必須配置記憶體給指標指向 (應用程式類型物件本身是由存根) 的一般方式來操作。
 
@@ -100,6 +100,6 @@ void __RPC_USER DOUBLE_LINK_TYPE_free_xmit (
     DOUBLE_XMIT_TYPE __RPC_FAR * pArray);
 ```
 
- 
+ 
 
- 
+ 

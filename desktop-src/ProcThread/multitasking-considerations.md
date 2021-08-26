@@ -4,12 +4,12 @@ ms.assetid: ed9bd3cf-b10c-49f9-bf62-7332517350b7
 title: 多工考慮
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6ec64bf1b7d59a42a1aec3511a72328f18bfaa88
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8fd11b0015db8f3fd3606b74a5bce695aed135f79265b3f1d6ba410002b74a44
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104115553"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120032238"
 ---
 # <a name="multitasking-considerations"></a>多工考慮
 

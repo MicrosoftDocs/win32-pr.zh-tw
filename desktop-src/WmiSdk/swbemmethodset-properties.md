@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: SWbemMethodSet 屬性
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1f447ad3ceb984b90e787262a0a1fa666600ea1b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0cfdc8a4617aea9c0b3fb4c650542468d7f8097bdd48555df2c1fd9e44551e15
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106997111"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119954938"
 ---
 # <a name="swbemmethodset-properties"></a>SWbemMethodSet 屬性
 

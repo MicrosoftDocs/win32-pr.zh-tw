@@ -4,12 +4,12 @@ ms.assetid: c79352c1-d9c5-4eeb-8d53-ba4063fc208d
 title: 進程和執行緒列舉
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3b3068585a54ba6042eeb7ee99b33eb003938522
-ms.sourcegitcommit: 3d718d8f69d3f86eaecf94c5705d761c5a9ef4a1
+ms.openlocfilehash: 509c6a7a995a93829706c0d2549cf170f64eeb830fa9abf8caf538a573874b80
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "106966068"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120031908"
 ---
 # <a name="process-and-thread-enumerations"></a>進程和執行緒列舉
 

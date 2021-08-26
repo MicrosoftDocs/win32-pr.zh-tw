@@ -19,12 +19,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2a7d230db9da32ce47cd4cfaf99c4978c4e63385
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ba6c04f6d87663534f9d1743ce09990de86fed9f7a16f78f26643f868554f58b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105936"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119967407"
 ---
 # <a name="microsoftdns_minfotype-class"></a>MicrosoftDNS \_ MINFOType 類別
 
@@ -58,7 +58,7 @@ class MicrosoftDNS_MINFOType : MicrosoftDNS_ResourceRecord
 | 方法                             | 描述                                                                                                                                                                                                                                                                                                                                                                   |
 |:-----------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **CreateInstanceFromPropertyData** | 根據方法的輸入參數中的資料具現化 MINFO 類型的 RR：記錄的 DNS 伺服器名稱、功能變數名稱、郵寄清單/box 的擁有者名稱、類別 (預設值 =) 、存留時間值以及負責任和錯誤信箱。 它會將新物件的參考傳回做為輸出參數。 <br/> 限定詞：實作為、靜態<br/> |
-| **修改**                         | 這個方法會將 TTL、負責任的信箱和錯誤信箱更新為指定為此方法之輸入參數的值。 如果未指定參數的新值，則不會變更參數的目前值。 方法會將修改過之物件的參考傳回為輸出參數。 <br/> 限定詞：實作為<br/>    |
+| **Modify**                         | 這個方法會將 TTL、負責任的信箱和錯誤信箱更新為指定為此方法之輸入參數的值。 如果未指定參數的新值，則不會變更參數的目前值。 方法會將修改過之物件的參考傳回為輸出參數。 <br/> 限定詞：實作為<br/>    |
 
 
 

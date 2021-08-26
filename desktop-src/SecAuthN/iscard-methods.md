@@ -4,12 +4,12 @@ ms.assetid: D40EDB64-DA56-453B-9F68-B44BC284D2DB
 title: ISCard 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ff6326261ae30dcbf81d0f1b659ebb4574d1fbe7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 63188dc43dddf22b78273d934f04042cc7679e9cc1c4589a21a898608f9fd39b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112185"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120015528"
 ---
 # <a name="iscard-methods"></a>ISCard 方法
 

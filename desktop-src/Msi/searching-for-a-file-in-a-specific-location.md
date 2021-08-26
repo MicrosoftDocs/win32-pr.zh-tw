@@ -4,12 +4,12 @@ ms.assetid: 127d83a2-b651-42ef-ac7c-a7fa1b15cf27
 title: 搜尋特定位置中的檔案
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 72ad4e456d331119b698d8e6e696e86b953006eb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 92b131708e5f9ff37474864aa5d6ef13abcab8f0d162563ca810c7e31fe2c41c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104513660"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120041148"
 ---
 # <a name="searching-for-a-file-in-a-specific-location"></a>搜尋特定位置中的檔案
 

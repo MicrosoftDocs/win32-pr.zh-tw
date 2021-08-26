@@ -4,12 +4,12 @@ ms.assetid: c6019b28-b0a7-4104-9d78-b4b4228635b8
 title: 安全的轉換
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e498d6049a2c913ca78f12b6a8700a104af37c4e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e07c36b70827c301117bff7d98b30aae2990efb80f892bda24b0be35cbba5316
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103852924"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120040838"
 ---
 # <a name="secured-transforms"></a>安全的轉換
 
@@ -21,7 +21,7 @@ ms.locfileid: "103852924"
 
 如果安裝程式發現安全的轉換無法在本機使用，則會嘗試從來源還原轉換快取。 安全轉換可以是安全的來源或安全的-完整路徑：
 
--   本機轉換快取中遺失的[安全來源轉換](secure-at-source-transforms.md)會從 .msi 檔案來源的根目錄還原。
+-   本機轉換快取中遺失的[安全來源轉換](secure-at-source-transforms.md)會從 .msi 檔來源的根目錄還原。
 -   本機轉換快取中遺失的[安全-完整路徑轉換](secure-full-path-transforms.md)會從轉換清單所指定的原始完整路徑還原。
 
  

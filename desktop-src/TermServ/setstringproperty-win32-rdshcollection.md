@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2606c195822432138ee67576db54f945c6834cfd
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 87556f82f4004b6c7dbf194dfe38f47804d1fa07747ccb7e18d2b24a4a70f355
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106968364"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119987488"
 ---
 # <a name="setstringproperty-method-of-the-win32_rdshcollection-class"></a>Win32 RDSHCollection 類別的 SetStringProperty 方法 \_
 

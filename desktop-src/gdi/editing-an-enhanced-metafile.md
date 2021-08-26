@@ -4,12 +4,12 @@ ms.assetid: 19d9c523-cff8-47e1-bbf2-16d8991dac3b
 title: 編輯增強的中繼檔
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c86dc9cc609d616bf82ae3f0a13d8d63e827e3eb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a052be915d966d90a0189376de7e1ff6e27831ebc9c44a0ff6af266b37fa65f9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114668"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120015578"
 ---
 # <a name="editing-an-enhanced-metafile"></a>編輯增強的中繼檔
 

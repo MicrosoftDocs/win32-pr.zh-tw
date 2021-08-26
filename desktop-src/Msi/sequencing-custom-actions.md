@@ -4,12 +4,12 @@ ms.assetid: 1aea75b1-a498-405e-9208-91672455496b
 title: 排序自訂動作
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ad7c24fb91247a36880cb808c9b8e10437312cf7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 26d86449b67809f782560e35d32b1b1e42434153ced776a27fd479a7b80a25a7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104195261"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120039968"
 ---
 # <a name="sequencing-custom-actions"></a>排序自訂動作
 
@@ -31,7 +31,7 @@ ms.locfileid: "104195261"
 
 請注意，如果產品是藉由將其最上層功能設定為 [不存在] 來移除，則 [ [**移除**](remove.md) ] 屬性在 [InstallValidate](installvalidate-action.md) 動作之後可能不會完全相同。 這表示任何相依于 REMOVE = ALL 的自訂動作都必須在 InstallValidate 動作之後排序。 自訂動作可能會勾選 [移除]，以判斷產品是否已設定為完全卸載。
 
-參考已安裝檔案作為其來源的自訂動作，例如自訂動作類型 17 (DLL) 、自訂動作類型 18 (EXE) 、自訂動作類型 21 (JScript) 和自訂動作類型 22 (VBScript) ，必須遵守下列排序限制。
+參考已安裝之檔案作為其來源的自訂動作（例如自訂動作類型 17 (DLL) 、自訂動作類型 18 (EXE) 、自訂動作類型 21 (JScript) ，以及自訂動作類型 22 (VBScript) ）必須遵守下列順序限制。
 
 -   自訂動作必須在 [CostFinalize](costfinalize-action.md) 動作之後排序，才能解析參考檔案的路徑。
 -   如果來源檔案尚未安裝在電腦上，延遲的 (腳本內) 自訂動作必須在 [InstallFiles](installfiles-action.md)之後排序。

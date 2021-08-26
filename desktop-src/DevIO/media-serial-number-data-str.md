@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 843c445a29bcce9e6dc26b66b0c6738831e9b79c
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: cbb007769238f0e6a4239366e8fe9956e61f892f7d3c98f2b638dc425dc9359f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106997314"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120053478"
 ---
 # <a name="media_serial_number_data-structure"></a>媒體 \_ 序號 \_ \_ 資料結構
 

@@ -4,12 +4,12 @@ ms.assetid: fa5f6baa-0a21-4162-8870-38e71763aba0
 title: 'MF_MT_AUDIO_CHANNEL_MASK 屬性 (Mfapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5293f5387a2c293b97ee32db54fcfb3f3ff304d2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 544f287ad9cc8addc60245143e079f0ccdd3c1fead043198be93eed59babc98c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026442"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119955928"
 ---
 # <a name="mf_mt_audio_channel_mask-attribute"></a>MF \_ MT \_ 音訊 \_ 通道 \_ 遮罩屬性
 
@@ -89,8 +89,8 @@ ms.locfileid: "104026442"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows Vista \[ 桌面應用程式 \| UWP 應用程式\]<br/>                              |
-| 最低支援的伺服器<br/> | Windows Server 2008 \[ desktop app \| UWP 應用程式\]<br/>                        |
+| 最低支援的用戶端<br/> | WindowsVista \[ desktop apps \| UWP 應用程式\]<br/>                              |
+| 最低支援的伺服器<br/> | WindowsServer 2008 \[ desktop app \| UWP 應用程式\]<br/>                        |
 | 標頭<br/>                   | <dl> <dt>Mfapi。h</dt> </dl> |
 
 

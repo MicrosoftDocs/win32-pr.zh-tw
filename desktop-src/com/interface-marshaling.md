@@ -4,12 +4,12 @@ description: 介面封送處理
 ms.assetid: 71069bd3-5f90-406a-be78-bb1af9b1c1c0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f5112b67e643fb95e1025fd4ed297043f81f576e
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 0cdee8762fb9ef69507fb5b2c4295531dd87a98d5174ab4e10f05a66cab718d4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "106999805"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120029868"
 ---
 # <a name="interface-marshaling"></a>介面封送處理
 
@@ -26,6 +26,6 @@ ms.locfileid: "106999805"
 [物件間通訊](inter-object-communication.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

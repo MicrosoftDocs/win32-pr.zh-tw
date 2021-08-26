@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Pwm.h
-ms.openlocfilehash: 607fcb1ab429e7cbe9aee593f75d48f0f9d308bd
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: dda05c06ee8c53968647bc29da2febee14abf758d4ad228c16178703c2d1da08
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110681"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120053318"
 ---
 # <a name="pwm_pin_get_active_duty_cycle_percentage_output-structure"></a>PWM \_ PIN \_ 取得 \_ 主動式的工作 \_ \_ 週期 \_ 百分比 \_ 輸出結構
 
@@ -54,8 +54,8 @@ typedef struct _PWM_PIN_GET_ACTIVE_DUTY_CYCLE_PERCENTAGE_OUTPUT {
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 10 桌面應用程式\]<br/>                                                      |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2016 \[ desktop 應用程式\]<br/>                                             |
+| 最低支援的用戶端<br/> | Windows 10 \[僅限桌面應用程式\]<br/>                                                      |
+| 最低支援的伺服器<br/> | Windows Server 2016 \[僅限桌面應用程式\]<br/>                                             |
 | 最小 KMDF 版本<br/>     | 1.19<br/>                                                                                  |
 | 最小的 UMDF 版本<br/>     | 2.19<br/>                                                                                  |
 | 標頭<br/>                   | <dl> <dt>Pwm (包含 Pwm) </dt> </dl> |

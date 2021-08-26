@@ -6,12 +6,12 @@ keywords:
 - type_free_xmit
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b33d5cb8079d50923de2161b0384550829a5f22f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d4c192e30ec4f18d70d6e694e6097cb77ee7a2338230868730dc37c1c3207010
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104183583"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120016578"
 ---
 # <a name="the-type_free_xmit-function"></a>Type \_ free \_ xmit 函式
 
@@ -33,9 +33,9 @@ void __RPC_USER DOUBLE_LINK_TYPE_free_xmit(
 }
 ```
 
- 
+ 
 
- 
+ 
 
 
 

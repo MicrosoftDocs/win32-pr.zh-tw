@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: eeb64d74e2ec52a89afea41d98df2add0729000d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dcb89fc69616bf868536aa9eef516bc5cacc7dd89b9b3bd29eadd3fe1ae06677
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104469373"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120066815"
 ---
 # <a name="cursorfiltergrbit-enumeration"></a>CursorFilterGrbit 列舉
 

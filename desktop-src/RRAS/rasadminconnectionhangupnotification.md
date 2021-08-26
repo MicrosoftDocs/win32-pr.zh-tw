@@ -11,20 +11,20 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 9c48703813d130986668b0fef907c5f2fcc54406
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 7feb85a1a79b99206bec08fb3b3aa0b51caae1d0667250eba77e7e0bcecafedb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103932670"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120028628"
 ---
 # <a name="rasadminconnectionhangupnotification-callback-function"></a>RasAdminConnectionHangupNotification 回呼函式
 
 不支援這個回呼函數。
 
- 
+ 
 
- 
+ 
 
 
 

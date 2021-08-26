@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d3d45f486d2c44e2cbe319e920ab4bdec764fd8
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 589954208886b7dccf4f48d2724c98ab4404d5394b73d894a8eb4924e152cdcf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104992206"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119983238"
 ---
 # <a name="d3dx_r16g16_snorm_to_float2-function"></a>D3DX \_ R16G16 \_ SNORM \_ to \_ FLOAT2 function
 

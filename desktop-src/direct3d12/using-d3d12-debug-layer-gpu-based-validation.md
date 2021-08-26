@@ -5,16 +5,16 @@ ms.assetid: 01D1F94F-4DD4-4781-86EF-6C639E8B1069
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 02/12/2019
-ms.openlocfilehash: 3160df3faf994df2abf9cf878088e84564bb5fe1
-ms.sourcegitcommit: 00e0a8e56d28c4c720b97f0cf424c29f547460d7
+ms.openlocfilehash: 63e1ebbe34bbb94fbdf52b374b10283100e3bfa432338521a9807497b236d868
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "104548443"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119952738"
 ---
 # <a name="gpu-based-validation-and-the-direct3d-12-debug-layer"></a>以 GPU 為基礎的驗證和 Direct3D 12 Debug 層
 
-本主題說明如何充分利用 Direct3D 12 Debug 層。 以 GPU 為基礎的驗證 (GBV) 啟用 GPU 時間軸上的驗證案例，這在 CPU 上的 API 呼叫期間無法執行。 從「適用于 Windows 10 年度更新版的圖形工具」開始，可以使用 GBV。
+本主題說明如何充分利用 Direct3D 12 Debug 層。 以 GPU 為基礎的驗證 (GBV) 啟用 GPU 時間軸上的驗證案例，這在 CPU 上的 API 呼叫期間無法執行。 從 Windows 10 周年更新的圖形工具開始提供 GBV。
 
 ## <a name="purpose-of-gpu-based-validation"></a>以 GPU 為基礎的驗證用途
 
@@ -33,7 +33,7 @@ GBV 的運作方式是建立已修補的著色器，並將驗證直接新增至�
 
 ## <a name="turning-on-gpu-based-validation"></a>開啟以 GPU 為基礎的驗證
 
-您可以強制執行 Direct3D 12 Debug 層，並在 [控制台] 的 [新增] 索引標籤) 中強制執行以 GPU 為基礎的 (驗證，以強制 GBV DXCPL) 使用 DirectX (控制台來強制執行。 啟用之後，GBV 就會維持啟用狀態，直到您釋放 Direct3D 12 裝置為止。 或者，您可以在建立 Direct3D 12 裝置之前，以程式設計方式啟用 GBV：
+您可以強制執行 Direct3D 12 Debug 層，並在 [控制台]) 的 [新增] 索引標籤上強制執行以 GPU 為基礎的 (驗證，以強制執行 GBV (DXCPL) 主控台的。 啟用之後，GBV 就會維持啟用狀態，直到您釋放 Direct3D 12 裝置為止。 或者，您可以在建立 Direct3D 12 裝置之前，以程式設計方式啟用 GBV：
 
 ```cpp
 void EnableShaderBasedValidation()

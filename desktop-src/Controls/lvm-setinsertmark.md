@@ -3,7 +3,7 @@ title: 'LVM_SETINSERTMARK 訊息 (Commctrl .h) '
 description: 將插入點設定為已定義的位置。
 ms.assetid: 32cf5a11-918a-4dc4-bf10-88b3c26f26cc
 keywords:
-- LVM_SETINSERTMARK message Windows 控制項
+- LVM_SETINSERTMARK 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dab80b1b73b620ce94b75aecab90f6bdd69bf228
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: fae1cad35bd20605c4cb229dac69eb7461add8b7240b495cc48fb809d39aa098
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104093832"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119919858"
 ---
 # <a name="lvm_setinsertmark-message"></a>LVM \_ SETINSERTMARK 訊息
 
@@ -54,8 +54,8 @@ ms.locfileid: "104093832"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

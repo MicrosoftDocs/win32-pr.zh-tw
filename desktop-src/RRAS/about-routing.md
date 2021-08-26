@@ -6,12 +6,12 @@ keywords:
 - 路由 RAS，描述
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d6b4fbcb50c7bf7c8e88b87aab50a5d44c811de8
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: e3da9d8534658710d100a79ce57ec0edd8e27fc334ad53b144876785aa3416f3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104375505"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120030718"
 ---
 # <a name="about-routing"></a>關於路由
 
@@ -22,6 +22,6 @@ ms.locfileid: "104375505"
 -   [路由器管理](about-router-management.md)
 -   [路由器管理員和管理資訊基礎](/windows/desktop/RRAS/about-router-management-with-mib)
 
- 
+ 
 
- 
+ 

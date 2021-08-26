@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 589b1a567d91594483d9b53a23b57ed780616f4a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9b6515339afc9a0f2e3f53fa057bacc0ac3ade1db1963666c61c59bd98baff02
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "107001768"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120066094"
 ---
 # <a name="esentdatabasealreadyupgradedexception-constructor"></a>EsentDatabaseAlreadyUpgradedException 函式
 

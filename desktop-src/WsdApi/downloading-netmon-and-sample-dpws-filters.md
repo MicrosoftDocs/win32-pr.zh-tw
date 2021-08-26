@@ -4,16 +4,16 @@ ms.assetid: 015a6a6d-9e07-4f22-b931-dcce77051bef
 title: 下載 Netmon 和範例 DPWS 篩選器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 47790b26164ec0ed2792d1d1e1f2ad4ba5d77d38
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c8a6f92f2680807101a3c82664f4b0b3ae5a877f0d9f5797da9c9c0b6ea2b158
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106996673"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120030218"
 ---
 # <a name="downloading-netmon-and-sample-dpws-filters"></a>下載 Netmon 和範例 DPWS 篩選器
 
-Microsoft 網路監視器 3 (Netmon) 是用來檢查網路流量的封包分析器。 必須先下載 Netmon，才能 [檢查 UDP WS-探索的網路追蹤](inspecting-network-traces-for-udp-ws-discovery.md) ，以及 [檢查是否可以遵循 HTTP 中繼資料交換的網路追蹤](inspecting-network-traces-for-http-metadata-exchange.md) 。 下載 Netmon 之後，您可以使用 DPWS 篩選器來協助找出感興趣的流量。
+Microsoft 網路監視器 3 (Netmon) 是用來檢查網路流量的封包分析器。 必須先下載 Netmon，才能[檢查 UDP WS-探索的網路追蹤](inspecting-network-traces-for-udp-ws-discovery.md)和[檢查 HTTP 中繼資料的網路追蹤 Exchange](inspecting-network-traces-for-http-metadata-exchange.md)可以遵循的疑難排解步驟。 下載 Netmon 之後，您可以使用 DPWS 篩選器來協助找出感興趣的流量。
 
 ## <a name="downloading-netmon"></a>下載 Netmon
 

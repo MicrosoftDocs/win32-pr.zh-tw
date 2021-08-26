@@ -4,12 +4,12 @@ ms.assetid: ac45bef6-f078-40ac-95f4-06bd61ff46c4
 title: 多工
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d06c1d8d44f397f06923c793971bcb20f35b2b4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ee7826ca79d6095715c722b4b5c3da479e276444825343ac096cd9822d9e365a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104319163"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120032178"
 ---
 # <a name="multitasking"></a>多工
 

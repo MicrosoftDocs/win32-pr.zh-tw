@@ -4,12 +4,12 @@ ms.assetid: 22e98880-bcd1-448a-9223-604fff9173fe
 title: DXGI 結構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 694237591618c80402ae632a11ce8fe937eb1b08
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: cd0004a0bb188d568c5f88cc1b5f99b992888854153b1295aaa1dc936c259b0c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104108729"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119984258"
 ---
 # <a name="dxgi-structures"></a>DXGI 結構
 

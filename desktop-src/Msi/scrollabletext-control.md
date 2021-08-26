@@ -4,12 +4,12 @@ ms.assetid: a49209f3-043c-4360-b1e3-9fa9538c2c9b
 title: ScrollableText 控制項
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 05ff807f2b0175eb411b3c45eb9d1e3b5eeaea01
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 02f4d5ac48f6b89b779960126e62c204d1d09e1f9a7bc832b0e3477635df35ea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103849328"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120041298"
 ---
 # <a name="scrollabletext-control"></a>ScrollableText 控制項
 
@@ -23,7 +23,7 @@ ms.locfileid: "103849328"
 
 
 
-| 屬性識別碼                               | 十六進位位                  | Description                                                                                                                                                                                                                                                                                                                                                                    |
+| 屬性識別碼                               | 十六進位位                  | 描述                                                                                                                                                                                                                                                                                                                                                                    |
 |----------------------------------------------------|----------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [位置](position-control-attribute.md)         |                                  | 對話方塊中的控制項位置。 將控制項左上角的寬度、高度和 Y 座標，輸入控制項 [資料表](control-table.md) 或 [BBControl 資料表](bbcontrol-table.md)的 Width、Height、X 和 Y 資料行中。 使用 [安裝程式單位](installer-units.md) 來表示長度和距離。<br/>                                            |
 | [Text](text-control-attribute.md)                 |                                  | 控制項所顯示的文字。 在 [ [控制] 資料表](control-table.md)的 [文字] 資料行中輸入 RTF 文字字串。                                                                                                                                                                                                                                                       |

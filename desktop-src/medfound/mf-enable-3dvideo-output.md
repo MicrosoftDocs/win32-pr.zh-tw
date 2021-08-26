@@ -4,12 +4,12 @@ ms.assetid: AA75A2FB-DEAC-44E9-93E9-4AC2D9F03B39
 title: 'MF_ENABLE_3DVIDEO_OUTPUT 屬性 (Mftransform) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fd0123a574ec74ed4aa9fa0aea3b2cabecbb29da
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ed361ef53d628e0970ffa35f9920750c9d3b0f7efbe81a0ef8759e8ba00a45ee
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848527"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120013168"
 ---
 # <a name="mf_enable_3dvideo_output-attribute"></a>MF \_ 啟用 \_ 3DVIDEO \_ 輸出屬性
 
@@ -33,8 +33,8 @@ ms.locfileid: "103848527"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 8 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | Windows Server 2012 \[ desktop app \| UWP 應用程式\]<br/>                              |
+| 最低支援的用戶端<br/> | Windows 8 \[桌面應用程式 \| UWP 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[桌面應用程式 \| UWP 應用程式\]<br/>                              |
 | 標頭<br/>                   | <dl> <dt>Mftransform。h</dt> </dl> |
 
 

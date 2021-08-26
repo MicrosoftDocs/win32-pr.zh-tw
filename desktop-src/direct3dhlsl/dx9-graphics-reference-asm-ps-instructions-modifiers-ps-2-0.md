@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: dc8ed91f8e103ebbab7c43ffe53201f0e1d5dfcf
-ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
+ms.openlocfilehash: 6875789c40a2f0fab2987927662658a821de5742b2473b7947250cfb11da8155
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "111989283"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119982888"
 ---
 # <a name="modifiers-for-ps_2_0-and-above"></a>Ps \_ 2 \_ 0 和更新版本的修飾詞
 

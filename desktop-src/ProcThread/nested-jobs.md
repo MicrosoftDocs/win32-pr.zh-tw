@@ -4,18 +4,18 @@ ms.assetid: FA22493B-CD29-49A7-BDAC-349FA96B8C9E
 title: 嵌套作業
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: abf105c70ec8e83b395fcce56c6274d4838358bc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fba0a517b71cdc01ec701a4a8f6a4f272f039797c140333e64ecad5532aca23f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104553761"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120032203"
 ---
 # <a name="nested-jobs"></a>嵌套作業
 
 應用程式可以使用嵌套作業來管理進程的子集。 嵌套作業也可讓使用工作的應用程式裝載其他也使用作業的應用程式。
 
-**Windows 7、Windows server 2008 R2、WINDOWS XP SP3、Windows server 2008、Windows Vista 和 Windows server 2003：** 進程只能與單一作業相關聯。 內嵌工作是在 Windows 8 和 Windows Server 2012 中引進。
+**Windows 7、Windows server 2008 R2、Windows XP SP3、Windows Server 2008、Windows Vista 和 Windows server 2003：** 進程只能與單一作業相關聯。 嵌套作業是在 Windows 8 和 Windows Server 2012 引進。
 
 本主題概要說明嵌套作業的作業嵌套和行為：
 

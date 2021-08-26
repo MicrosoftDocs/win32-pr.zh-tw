@@ -17,12 +17,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: de7f0b61cdbc5d5776039c3bf13b83ca0a6f8fdc
-ms.sourcegitcommit: ea73413ee4f69fa573ee0cd4422f20d17bd42e1f
+ms.openlocfilehash: 165b0a74f71ee5267fb3bd300baec4e48c51662b33c83203ebae1ba462f10a0b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/27/2021
-ms.locfileid: "104027609"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119953558"
 ---
 # <a name="ibackgroundcopymanagercreatejob-method"></a>IBackgroundCopyManager：： >batchclient.joboperations.createjob 方法
 
@@ -80,7 +80,7 @@ HRESULT CreateJob(
 
 
 
-| 傳回碼                                                                              | Description                                    |
+| 傳回碼                                                                              | 描述                                    |
 |------------------------------------------------------------------------------------------|------------------------------------------------|
 | <dl> <dt>S_OK * * * *</dt> </dl> | 已成功產生新的作業。<br/> |
 
@@ -99,9 +99,9 @@ HRESULT CreateJob(
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 10， \[ 僅限1709版桌面應用程式\]<br/>                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server，版本 1709 \[ 桌面應用程式\]<br/>                                       |
-| 標頭<br/>                   | <dl> <dt>>deliveryoptimization。h</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>>deliveryoptimization .idl</dt> </dl> |
+| 最低支援的伺服器<br/> | WindowsServer， \[ 僅限1709版桌面應用程式\]<br/>                                       |
+| 標頭<br/>                   | <dl> <dt>>Deliveryoptimization。h</dt> </dl>   |
+| IDL<br/>                      | <dl> <dt>>deliveryoptimization .idl</dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>Dosvc .lib</dt> </dl>                |
 | DLL<br/>                      | <dl> <dt>Dosvc.dll</dt> </dl>                |
 | IID<br/>                      | IID_IBackgroundCopyManager 定義為5CE34C0D-0DC9-4C1F-897C-DAA1B78CEE7C<br/>           |

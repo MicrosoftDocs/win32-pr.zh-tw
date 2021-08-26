@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Scardssp.dll
-ms.openlocfilehash: 7dbbeccdf6c3fa9d586c841de661ed351ec37d9c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 68015cc4e834aaa1baaec0046a472d5a290cb22b0d0879e6d6f2fccfd9d21d67
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104512761"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120015538"
 ---
 # <a name="iscard-interface"></a>ISCard 介面
 
@@ -72,7 +72,7 @@ ms.locfileid: "104512761"
 
 
 
-| 屬性                                               | 存取類型          | Description                                                                                                                                                                                    |
+| 屬性                                               | 存取類型          | 描述                                                                                                                                                                                    |
 |:-------------------------------------------------------|:---------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**Atr**](iscard-get-atr.md)<br/>               | 唯讀<br/> | 抓取智慧卡的 [*ATR 字串*](../secgloss/a-gly.md) 。<br/>                                                                   |
 | [**CardHandle**](iscard-get-cardhandle.md)<br/> | 唯讀<br/> | 抓取連接智慧卡的控制碼。<br/>                                                                                                                                  |
@@ -90,8 +90,8 @@ ms.locfileid: "104512761"
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                             |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                    |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                             |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                    |
 | 用戶端支援結束<br/>    | Windows XP<br/>                                                                   |
 | 伺服器支援結束<br/>    | Windows Server 2003<br/>                                                          |
 | 標頭<br/>                   | <dl> <dt>Scardmgr。h</dt> </dl>   |

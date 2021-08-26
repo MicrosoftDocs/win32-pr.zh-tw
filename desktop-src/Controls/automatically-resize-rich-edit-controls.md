@@ -4,12 +4,12 @@ description: 應用程式可以視需要調整 rich edit 控制項的大小，�
 ms.assetid: CCAFC039-AC9E-4BC4-ABE1-8C56FA9DD3F5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ee9ead05c4c04526a9290dc115f7a2fa7741397
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 0ef3fa798da0a7747464d42535c638f437154124dd76b0324add35b5ba01931a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104024184"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119921718"
 ---
 # <a name="how-to-automatically-resize-rich-edit-controls"></a>如何自動調整 Rich Edit 控制項的大小
 
@@ -19,12 +19,12 @@ ms.locfileid: "104024184"
 
 ### <a name="technologies"></a>技術
 
--   [Windows 控制項](window-controls.md)
+-   [Windows控制](window-controls.md)
 
 ### <a name="prerequisites"></a>必要條件
 
 -   C/C++
--   Windows 消費者介面程式設計
+-   Windows消費者介面程式設計
 
 ## <a name="instructions"></a>指示
 
@@ -48,6 +48,6 @@ ms.locfileid: "104024184"
 [Windows 通用控制項示範 (CppWindowsCommonControls) ](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

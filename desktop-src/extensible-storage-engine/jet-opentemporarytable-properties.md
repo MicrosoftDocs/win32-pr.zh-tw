@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.vist
 ms:contentKeyID: 55104127
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: e9c55afddd1128a517c27f6a86466b488e6924a4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cbba2937283ab9a3d008d3bad04329d1fd42b84e0de4a1a42e2e100d99a03854
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104561222"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120016718"
 ---
 # <a name="jet_opentemporarytable-properties"></a>JET_OPENTEMPORARYTABLE 屬性
 
@@ -35,7 +35,7 @@ ms.locfileid: "104561222"
 <tr class="odd">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="公用屬性" alt="Public property" /></td>
 <td><a href="dn335290(v=exchg.10).md">cbKeyMost</a></td>
-<td>取得或設定表示指定資料列之索引鍵的大小上限。 您可以設定最大索引鍵大小來控制如何截斷金鑰。 金鑰截斷很重要，因為它可能會影響資料列視為相異的時間。 如果此參數設定為0或255，則最大的索引鍵大小及其語義將會與 Windows Server 2003 所支援的最大金鑰大小保持一致。 此參數也可以設定為較大的值，做為實例 <a href="hh596135(v=exchg.10).md">DatabasePageSize</a>之資料庫頁面大小的功能。 如需詳細資訊，請參閱 <a href="dn335292(v=exchg.10).md">KeyMost</a> 。</td>
+<td>取得或設定表示指定資料列之索引鍵的大小上限。 您可以設定最大索引鍵大小來控制如何截斷金鑰。 金鑰截斷很重要，因為它可能會影響資料列視為相異的時間。 如果此參數設定為0或255，則最大的索引鍵大小及其語義將維持與 Windows Server 2003 所支援的最大金鑰大小相同。 此參數也可以設定為較大的值，做為實例 <a href="hh596135(v=exchg.10).md">DatabasePageSize</a>之資料庫頁面大小的功能。 如需詳細資訊，請參閱 <a href="dn335292(v=exchg.10).md">KeyMost</a> 。</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="公用屬性" alt="Public property" /></td>

@@ -4,12 +4,12 @@ description: DXGI 1.2 支援新的翻轉模型交換鏈、中途矩形和捲動�
 ms.assetid: 22236FBD-E881-49B5-8AE9-96FB526DFEF8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a3abbb784de82f5bf647a4b66503497edcd4f89
-ms.sourcegitcommit: 5724b38883e518ac565e1b266defa85ad0941bb2
+ms.openlocfilehash: 12f191af4a94b1379e2539b8d544163467fe4dc49141f244e8dcc1f13a3e36af
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/14/2021
-ms.locfileid: "104564077"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119984207"
 ---
 # <a name="flip-model-dirty-rectangles-scrolled-areas"></a>翻轉模型、中途矩形、捲動區域
 
@@ -17,9 +17,9 @@ DXGI 1.2 支援新的翻轉模型交換鏈、中途矩形和捲動區域。 我�
 
 ## <a name="dxgi-flip-model-presentation"></a>DXGI 翻轉模型簡報
 
-DXGI 1.2 新增了 Direct3D 10 和更新版本 Api 之翻轉表示模型的支援。 在 Windows 7 中，Direct3D 9EX 會先採用 [反轉模型呈現](../direct3darticles/direct3d-9ex-improvements.md) ，以避免不必要地複製交換鏈緩衝區。 藉由使用翻轉模型，背景緩衝區會在執行時間和桌面視窗管理員 (DWM) 之間翻轉，因此 DWM 一律會直接從後端緩衝區撰寫，而不是複製回緩衝區內容。
+DXGI 1.2 新增了 Direct3D 10 和更新版本 Api 之翻轉表示模型的支援。 在 Windows 7 中，Direct3D 9EX 會先採用[反轉模型呈現](../direct3darticles/direct3d-9ex-improvements.md)，以避免不必要地複製交換鏈緩衝區。 藉由使用翻轉模型，背景緩衝區會在執行時間和桌面視窗管理員 (DWM) 之間翻轉，因此 DWM 一律會直接從後端緩衝區撰寫，而不是複製回緩衝區內容。
 
-DXGI 1.2 Api 包含修改過的 DXGI 交換連結口 [**IDXGISwapChain1**](/windows/desktop/api/DXGI1_2/nn-dxgi1_2-idxgiswapchain1)。 您可以使用多個 [**IDXGIFactory2**](/windows/desktop/api/DXGI1_2/nn-dxgi1_2-idxgifactory2)介面方法來建立適當的 IDXGISwapChain1 物件，以搭配 [**HWND**](../winprog/windows-data-types.md)控制碼、 [CoreWindow](/uwp/api/Windows.UI.Core.CoreWindow?view=winrt-19041)物件、 [DirectComposition](../directcomp/directcomposition-portal.md)或物件 [**使用。**](/uwp/api/Windows.UI.Xaml?view=winrt-19041)
+DXGI 1.2 Api 包含修改過的 DXGI 交換連結口 [**IDXGISwapChain1**](/windows/desktop/api/DXGI1_2/nn-dxgi1_2-idxgiswapchain1)。 您可以使用多個 [**IDXGIFactory2**](/windows/desktop/api/DXGI1_2/nn-dxgi1_2-idxgifactory2)介面方法來建立適當 **的 IDXGISwapChain1** 物件，以搭配 [**HWND**](../winprog/windows-data-types.md)控制碼、 [CoreWindow](/uwp/api/Windows.UI.Core.CoreWindow?view=winrt-19041)物件、 [DirectComposition](../directcomp/directcomposition-portal.md)或 Windows 使用 [**。UI。Xaml**](/uwp/api/Windows.UI.Xaml?view=winrt-19041)架構。
 
 您可以藉由在 [**dxgi \_ 交換 \_ 鏈 \_ DESC1**](/windows/desktop/api/DXGI1_2/ns-dxgi1_2-dxgi_swap_chain_desc1)結構的 **SwapEffect** 成員中指定 [**dxgi \_ 交換 \_ 效果 \_ \_**](/windows/desktop/api/DXGI/ne-dxgi-dxgi_swap_effect) ，以及將 **dxgi \_ 交換 \_ 鏈 \_ DESC1** 的 **BufferCount** 成員設定為最小值2，來選取翻轉展示模型。 如需如何使用 DXGI 反轉模型的詳細資訊，請參閱 [dxgi 翻轉模型](dxgi-flip-model.md)。 由於反轉展示模型的呈現方式和其他新功能，我們建議您針對使用 Direct3D 10 和更新版本的 Api 撰寫的所有新應用程式使用 flip 展示模型。
 

@@ -6,12 +6,12 @@ keywords:
 - 遠端程序呼叫 RPC、最佳作法、版本控制
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7e03b23c91bf69fbc3c4f72366b80812fd54330d
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: ac3681ce1290b7653c28b12c09c93d21de3052e0e6137ed5c6f906afd42f8d07
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104093076"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120016378"
 ---
 # <a name="the-versioning-theory-for-rpc-and-com"></a>RPC 和 COM 的版本控制理論
 
@@ -30,6 +30,6 @@ ms.locfileid: "104093076"
 
 針對 COM， [**QueryInterface**](/windows/win32/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) 函式是一種已建立的方法，可檢查伺服器是否支援介面;因此，可以輕鬆地解析用戶端可以與舊版本或新版介面互動的情況。
 
- 
+ 
 
- 
+ 

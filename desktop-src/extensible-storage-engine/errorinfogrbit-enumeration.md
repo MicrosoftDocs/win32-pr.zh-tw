@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: d6004d6f7dade417aa5d71dcb0f67161ffe1e884
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: be6e90e0930ab21df11e84cb58c7fe91ca7749b2895e4bccac6226149c452bab
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104195196"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120066758"
 ---
 # <a name="errorinfogrbit-enumeration"></a>ErrorInfoGrbit 列舉
 

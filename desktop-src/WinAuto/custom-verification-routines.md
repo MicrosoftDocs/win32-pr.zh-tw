@@ -4,12 +4,12 @@ description: 本節說明如何建立 UI 協助工具檢查程式 (AccChecker) t
 ms.assetid: 56F3EA1F-39C3-4DD9-8F2B-0C3608DD8737
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d66ad2fe0e27d16b55dd2d50d367250aadd15c4f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 245865a0ab4aa6848d4a4361a30febbb341742208586ebf4ec5b35c34fa30534
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103931996"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120030880"
 ---
 # <a name="custom-verification-routines"></a>自訂驗證常式
 
@@ -166,7 +166,7 @@ namespace VerificationRoutines
 > [!Note]  
 > 包含驗證範例程式碼的 Microsoft Visual Studio 解決方案包含在說明文件中。 這些檔案位於 AccChecker 安裝路徑中。
 
- 
+ 
 
 ## <a name="using-a-custom-verification"></a>使用自訂驗證
 
@@ -183,13 +183,13 @@ namespace VerificationRoutines
 > [!Note]  
 > 如果未在自訂驗證常式中指定驗證屬性值，即使它未出現在 UI 中，仍會將驗證載入 AccChecker 中。 因為它不會顯示在 UI 中，所以無法取消核取，也無法從後續的驗證執行中排除。
 
- 
+ 
 
 ### <a name="accchecker-automation"></a>AccChecker 自動化
 
 將自訂驗證常式併入自動化的 AccChecker 架構，就像新增驗證 DLL 和啟用所需的驗證常式一樣簡單。
 
-下列程式碼片段示範如何使用 AccChecker API，在 [Windows 防火牆] 控制台應用程式中測試 tab 鍵功能。
+下列程式碼片段示範如何使用 AccChecker API，在 Windows 防火牆控制台應用程式中測試 tab 鍵功能。
 
 
 ```CSharp
@@ -245,7 +245,7 @@ public class TestCases : TestBase
 > [!Note]  
 > 說明文件中包含包含驗證範例程式碼的 Microsoft Visual Studio 2008 解決方案。 這些檔案位於 AccChecker 安裝路徑中。
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -254,9 +254,9 @@ public class TestCases : TestBase
 [UI 協助工具檢查程式](ui-accessibility-checker.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

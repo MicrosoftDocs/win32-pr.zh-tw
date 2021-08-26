@@ -4,12 +4,12 @@ description: 本主題示範如何以動態方式建立日期和時間選擇器 
 ms.assetid: D4ACA939-3004-48D3-ADD9-FC5E53128BA2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1253a2972b8d858a7440b3e472d5b3aa347b8175
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: afa3f18e6033d3764e385280da383d74c351201694969266dcc383654a4372ac
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104186103"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119920888"
 ---
 # <a name="how-to-create-a-date-and-time-picker-control"></a>如何建立日期和時間選擇器控制項
 
@@ -19,12 +19,12 @@ ms.locfileid: "104186103"
 
 ### <a name="technologies"></a>技術
 
--   [Windows 控制項](window-controls.md)
+-   [Windows控制](window-controls.md)
 
 ### <a name="prerequisites"></a>必要條件
 
 -   C/C++
--   Windows 消費者介面程式設計
+-   Windows消費者介面程式設計
 
 ## <a name="instructions"></a>指示
 
@@ -130,6 +130,6 @@ HWND WINAPI CreateDatePick(HWND hwndMain)
 [日期和時間選擇器](date-and-time-picker-control-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

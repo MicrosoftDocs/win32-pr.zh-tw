@@ -4,12 +4,12 @@ ms.assetid: c16a5cbb-d530-4932-944b-af68d0a4018c
 title: SearchOrder
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c8f486ee58eebd1a1bd1174f18e413785e5e3129
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cfaab6ff8d4b40b966b5ab1785ddd5fd473316732833fc32be7102acaa7c4877
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103852931"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120041038"
 ---
 # <a name="searchorder"></a>SearchOrder
 
@@ -27,7 +27,7 @@ ms.locfileid: "103852931"
 
 ## <a name="registry-key"></a>登錄金鑰
 
-**HKEY \_目前的 \_ 使用者** \\ **軟體** \\ **原則** \\ **Microsoft** \\ **Windows** \\ **Installer**
+**HKEY \_\_** \\  \\  \\ **Microsoft** \\ **Windows** \\ **安裝程式** 的目前使用者軟體原則
 
 ## <a name="data-type"></a>資料類型
 

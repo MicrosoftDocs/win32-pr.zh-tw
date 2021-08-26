@@ -1,4 +1,4 @@
-- name: 'Windows 網路 (WNet) '
+- name: 'Windows網路 (WNet) '
   href: windows-networking-wnet-.md
   items:
     - name: 關於 Windows 網路
@@ -6,9 +6,9 @@
       items:
         - name: WNet 函式
           href: wnet-functions.md
-        - name: Windows 網路作業
+        - name: Windows網路作業
           href: windows-networking-operations.md
-    - name: 使用 Windows 網路功能
+    - name: 使用 Windows 網路
       href: using-windows-networking.md
       items:
         - name: 使用連接對話方塊
@@ -31,10 +31,10 @@
           href: retrieving-information-about-a-network-resource.md
         - name: 正在捕獲網路錯誤
           href: retrieving-network-errors.md
-    - name: Windows 網路功能參考
+    - name: Windows網路參考
       href: windows-networking-reference.md
       items:
-        - name: Windows 網路回呼
+        - name: Windows網路回呼
           href: windows-networking-callbacks.md
           items:
             - name: PFNGETPROFILEPATH
@@ -43,7 +43,7 @@
               href: /previous-versions/windows/desktop/legacy/aa385360(v=vs.85)
             - name: PFNRECONCILEPROFILE
               href: /previous-versions/windows/desktop/legacy/aa385364(v=vs.85)
-        - name: Windows 網路功能
+        - name: Windows網路功能
           href: windows-networking-functions.md
           items:
             - name: MultinetGetConnectionPerformance
@@ -92,7 +92,7 @@
               href: /windows/desktop/api/winnetwk/nf-winnetwk-wnetrestoreconnectionw
             - name: WNetUseConnection
               href: /windows/desktop/api/winnetwk/nf-winnetwk-wnetuseconnectiona
-        - name: Windows 網路結構
+        - name: Windows網路結構
           href: windows-networking-structures.md
           items:
             - name: CONNECTDLGSTRUCT

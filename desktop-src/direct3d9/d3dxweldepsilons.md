@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9mesh.h
-ms.openlocfilehash: bb11e6f5481b1adf7cc1bac58edf40d4ac770e92
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 63cef1f2023ac29d321775551cdaccd1803c20f76792e0ba9f8136d47782436d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108115496"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119986468"
 ---
 # <a name="d3dxweldepsilons-structure"></a>D3DXWELDEPSILONS 結構
 

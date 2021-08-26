@@ -4,12 +4,12 @@ description: 使用伺服器提供的額外資料來執行和啟用處理常式
 ms.assetid: 5bbf81bd-430d-4008-b1cc-9ea91bb3b1e7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: db78a3e39c85c37c52dfa3f09ef41f0a71b5f431
-ms.sourcegitcommit: d39e82e232f6510f843fdb8d55d25b4e9e02e880
+ms.openlocfilehash: d4777c44dd9983a0193872507272862766c51e708f5caa491a6f8d787923749c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "104321323"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120029922"
 ---
 # <a name="implementing-and-activating-a-handler-with-extra-data-supplied-by-server"></a>使用伺服器提供的額外資料來執行和啟用處理常式
 

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 5a775146973b353413fa2e74584a6c763b721e7b
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 000bbdc0400a84f41cf370beca92b96d898b57ddb62ab7dc72319557fbe18a77
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108099296"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119983058"
 ---
 # <a name="cdynamicoutputpindisconnect-method"></a>CDynamicOutputPin 中斷方法
 
@@ -46,7 +46,7 @@ HRESULT Disconnect();
 
 
 
-| 傳回碼                                                                             | Description                           |
+| 傳回碼                                                                             | 描述                           |
 |-----------------------------------------------------------------------------------------|---------------------------------------|
 | <dl> <dt>**S \_ FALSE**</dt> </dl> | Pin 未連接。<br/> |
 | <dl> <dt>**S \_ 確定**</dt> </dl>    | 成功。<br/>                   |

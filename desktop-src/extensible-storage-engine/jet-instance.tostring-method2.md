@@ -14,12 +14,12 @@ dev_langs:
 - JScript
 - VB
 - other
-ms.openlocfilehash: 3eae18ed5788add4962930f124394bbf0bd52be8
-ms.sourcegitcommit: 4d4a6e9ad5de37e467cd3164276771b71e1f113f
+ms.openlocfilehash: 624e1e829ca2f5ed1e525d2d2cc49872c91e51b205775bd0af18fffffc6076cf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "106990869"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120016788"
 ---
 # <a name="jet_instancetostring-method-overload-list"></a>JET_INSTANCE。ToString 方法多載清單
 
@@ -32,7 +32,7 @@ ms.locfileid: "106990869"
 <thead>
 <tr class="header">
 <th> </th>
-<th>Name</th>
+<th>名稱</th>
 <th>描述</th>
 </tr>
 </thead>

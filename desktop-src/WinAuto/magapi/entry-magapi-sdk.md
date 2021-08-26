@@ -4,12 +4,12 @@ description: 放大 API 可讓應用程式放大整個螢幕或畫面的部分�
 ms.assetid: 644af100-82ec-4450-b809-cede9b388cb4
 ms.topic: article
 ms.date: 02/07/2020
-ms.openlocfilehash: 7e6c652c2cca8e3c5675b390e93b70ad0b522a44
-ms.sourcegitcommit: 541c08d5d36109b754f39bf89e57404f007c5f63
+ms.openlocfilehash: 2a6c7a7ffb103b39c506c41b6b7b88f82319685226aff0d479558977caa9d46b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "103841860"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119998430"
 ---
 # <a name="magnification-api"></a>放大 API
 
@@ -23,11 +23,11 @@ ms.locfileid: "103841860"
 
 ## <a name="developer-audience"></a>開發人員對象
 
-放大 API 主要是針對瞭解 Windows 程式設計的 C 和 c + + 開發人員，以及熟悉圖形程式設計概念的人員所設計。
+放大 API 主要是針對瞭解 Windows 程式設計的 c 和 c + + 開發人員，以及熟悉圖形程式設計概念的人員所設計。
 
 ## <a name="run-time-requirements"></a>執行階段需求求
 
-在 Windows Vista 和更新版本的作業系統上，支援放大 API 的初始版本。 第二個版本新增了全螢幕放大功能，並支援 Windows 8 和更新版本。
+Windows Vista 和更新版本的作業系統上，支援放大 API 的初始版本。 第二個版本新增了全螢幕放大功能，並支援 Windows 8 和更新版本。
 
 Magnification.dll 支援 API。 若要編譯您的應用程式，請包含放大和連結至放大程式庫。
 

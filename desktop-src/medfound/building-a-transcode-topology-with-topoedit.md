@@ -4,12 +4,12 @@ ms.assetid: 9a7b57f9-f606-4874-9fd3-aa37215f6f20
 title: 使用 TopoEdit 建立轉碼拓撲
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a43ef750b4dd54ef05ab7733cc861d7a09dd5d65
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2e5386af09b04f155295b807523cdb1c5519c946b45228df51d767e9d2a3aabe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510823"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119959458"
 ---
 # <a name="building-a-transcode-topology-with-topoedit"></a>使用 TopoEdit 建立轉碼拓撲
 

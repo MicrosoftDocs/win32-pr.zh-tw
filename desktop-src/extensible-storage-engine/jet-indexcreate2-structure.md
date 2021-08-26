@@ -17,21 +17,21 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: ac0d9a40e159a8aa5054228d18e431cee8d0319f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fe474bad552ca816ec9f0f5419cac21923b1f10f9d711812ee5aab749a027aba
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103945463"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120016918"
 ---
 # <a name="jet_indexcreate2-structure"></a>JET_INDEXCREATE2 結構
 
 
-_**適用于：** Windows |Windows Server_
+_**適用于：** Windows |Windows伺服器_
 
-**JET_INDEXCREATE2** 結構包含對可延伸儲存引擎中的資料建立索引所需的資訊， (ESE) 資料庫。 結構是由函式（例如 [JetCreateIndex2](./jetcreateindex2-function.md)）和結構（例如 [JET_TABLECREATE](./jet-tablecreate-structure.md) 和 [JET_TABLECREATE2](./jet-tablecreate2-structure.md)）所使用。
+**JET_INDEXCREATE2** 結構包含對可延伸的儲存體引擎 (ESE) 資料庫中的資料建立索引所需的資訊。 結構是由函式（例如 [JetCreateIndex2](./jetcreateindex2-function.md)）和結構（例如 [JET_TABLECREATE](./jet-tablecreate-structure.md) 和 [JET_TABLECREATE2](./jet-tablecreate2-structure.md)）所使用。
 
-在 Windows 7 作業系統中引進了 **JET_INDEXCREATE2** 結構。
+Windows 7 作業系統引進了 **JET_INDEXCREATE2** 結構。
 
 ```cpp
 typedef struct tagJET_INDEXCREATE2 {
@@ -159,7 +159,7 @@ typedef struct tagJET_INDEXCREATE2 {
 <tr class="even">
 <td><p>JET_bitIndexTuples</p></td>
 <td><p>指定索引為元組索引。 如需元組索引的描述，請參閱 <a href="gg269207(v=exchg.10).md">JET_TUPLELIMITS</a> 。</p>
-<p>JET_bitIndexTuples 的值是在 Windows XP 作業系統中引進的。</p></td>
+<p>Windows XP 作業系統引進了 JET_bitIndexTuples 的值。</p></td>
 </tr>
 <tr class="odd">
 <td><p>JET_bitIndexTupleLimits</p></td>
@@ -171,19 +171,19 @@ typedef struct tagJET_INDEXCREATE2 {
 0x00004000</p></td>
 <td><p>針對具有多值資料行之多個索引鍵資料行的索引指定此旗標，會導致針對這些索引鍵資料行中的所有值交叉乘積的每個結果建立索引項目。 否則，索引在最重要的索引鍵資料行中，每個多重值都只會有一個專案，這是多值資料行，而每個索引項目會使用任何其他索引鍵資料行中的第一個多重值資料行值。</p>
 <p>例如，如果您在資料行 A 上為索引指定了這個旗標，其值為 &quot; 紅色 &quot; 和 &quot; 藍色， &quot; 而資料行 B 的值為 &quot; 1 &quot; 和 &quot; 2 &quot; ，則會建立下列索引項目： &quot; 紅色 &quot; 、 &quot; 1 &quot; ; &quot;紅色 &quot; 、 &quot; 2 &quot; ; &quot;藍色 &quot; 、 &quot; 1 &quot; ; &quot;藍色 &quot; 、 &quot; 2 &quot; 。 否則，將會建立下列索引項目： &quot; 紅色 &quot; 、 &quot; 1 &quot; ; &quot;藍色 &quot; 、 &quot; 1 &quot; 。</p>
-<p>在 Windows Vista 中引進了 <strong>JET_bitIndexCrossProduct</strong> 的值。</p></td>
+<p>Windows Vista 引進了<strong>JET_bitIndexCrossProduct</strong>的值。</p></td>
 </tr>
 <tr class="odd">
 <td><p>JET_bitIndexKeyMost<br />
 0x00008000</p></td>
 <td><p>指定此旗標將會導致索引使用結構中 <strong>cbKeyMost</strong> 欄位指定的最大索引鍵大小。 否則，索引會使用 JET_cbKeyMost (255) 做為其最大索引鍵大小。</p>
-<p>在 Windows Vista 中引進了 <strong>JET_bitIndexKeyMost</strong> 的值。</p></td>
+<p>Windows Vista 引進了<strong>JET_bitIndexKeyMost</strong>的值。</p></td>
 </tr>
 <tr class="even">
 <td><p>JET_bitIndexDisallowTruncation<br />
 0x00010000</p></td>
 <td><p>指定此旗標會導致索引的任何更新會導致截斷的金鑰失敗，並產生 JET_errKeyTruncated 的回應碼。 否則，將會以無訊息方式截斷金鑰。 如需有關金鑰截斷的詳細資訊，請參閱 <a href="gg269329(v=exchg.10).md">JetMakeKey</a>。</p>
-<p>在 Windows Vista 中引進了 <strong>JET_bitIndexDisallowTruncation</strong> 的值。</p></td>
+<p>Windows Vista 引進了<strong>JET_bitIndexDisallowTruncation</strong>的值。</p></td>
 </tr>
 </tbody>
 </table>
@@ -251,7 +251,7 @@ typedef struct tagJET_INDEXCREATE2 {
 
 [JET_SPACEHINTS](./jet-spacehints-structure.md)結構的指標。
 
-**pSpacehints** 是在 Windows 7 中引進的。
+**pSpacehints** 是在 Windows 7 中引進。
 
 ### <a name="remarks"></a>備註
 
@@ -323,7 +323,7 @@ YZ</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>伺服器</strong></p></td>
-<td><p>需要 Windows Server 2008、Windows Server 2003 或 Windows 2000 Server。</p></td>
+<td><p>需要 Windows server 2008、Windows Server 2003 或 Windows 2000 Server。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>標頭</strong></p></td>

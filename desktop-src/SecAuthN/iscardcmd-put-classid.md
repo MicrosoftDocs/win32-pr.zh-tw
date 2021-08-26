@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Scardssp.dll
-ms.openlocfilehash: ed4b1f273ebe9ea0a5e105ec3d88fc8446f7a831
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c632b25e3fcef3f08b79dffa6f72dcc7ae3409d744de02527b3be495638b2ba9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943668"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120014598"
 ---
 # <a name="iscardcmdput_classid-method"></a>ISCardCmd：:p 的 ui \_ ClassId 方法
 
-\[**Put \_ ClassId** 方法可用於 [需求] 區段中指定的作業系統。 它無法在 Windows Server 2003 （含 Service Pack 1） (SP1) 和更新版本、Windows Vista、Windows Server 2008 和後續版本的作業系統中使用。 [智慧卡模組](/previous-versions/windows/desktop/secsmart/smart-card-modules)提供類似的功能。\]
+\[**Put \_ ClassId** 方法可用於 [需求] 區段中指定的作業系統。 它無法用於 Windows Server 2003 Service Pack 1 (SP1) 和更新版本、Windows Vista、Windows Server 2008 和後續版本的作業系統。 [智慧卡模組](/previous-versions/windows/desktop/secsmart/smart-card-modules)提供類似的功能。\]
 
 **Put \_ ClassId** 方法會在 [*應用程式協定資料單位*](../secgloss/a-gly.md)中設定新的類別識別碼， (APDU) 。
 
@@ -54,7 +54,7 @@ HRESULT put_ClassId(
 
 
 
-| 傳回碼                                                                                   | Description                                  |
+| 傳回碼                                                                                   | 描述                                  |
 |-----------------------------------------------------------------------------------------------|----------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>          | 作業順利完成。<br/> |
 | <dl> <dt>**E \_ INVALIDARG**</dt> </dl>  | *ByClass* 無效。<br/>       |
@@ -97,8 +97,8 @@ if (FAILED(hr))
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                             |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                    |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                             |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                    |
 | 用戶端支援結束<br/>    | Windows XP<br/>                                                                   |
 | 伺服器支援結束<br/>    | Windows Server 2003<br/>                                                          |
 | 標頭<br/>                   | <dl> <dt>Scarddat。h</dt> </dl>   |

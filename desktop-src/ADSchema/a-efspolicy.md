@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b00e1b589567f945861fe34055a8aa3f0be3e5bb
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: ee6ae775e74ffd72009d9ac45e9c8926a37186362533cdb478ffb11f694d0ca0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106970026"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120054168"
 ---
 # <a name="efspolicy-attribute"></a>EFSPolicy 屬性
 

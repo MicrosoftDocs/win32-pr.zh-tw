@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.serv
 ms:contentKeyID: 55104216
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 8209f2a6ec244112b213130b56978903868a222b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8a8dd47d2ce95b55f25c415f9d54b8c4d0317bcaa9ee881fecae930a01b5891a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114040"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120016038"
 ---
 # <a name="server2003param-members"></a>Server2003Param 成員
 

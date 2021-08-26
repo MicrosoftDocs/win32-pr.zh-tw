@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Scardssp.dll
-ms.openlocfilehash: 2abe9d4acd4d59019fe0c8ce122baa12fde06f2e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 60f5be785da0cca6aac4fdf1c098d49548696420042ce60a97a46de73edde9bf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106993034"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120015558"
 ---
 # <a name="iscardtransaction-method"></a>ISCard：： Transaction 方法
 
@@ -54,7 +54,7 @@ HRESULT Transaction(
 
 
 
-| 傳回碼                                                                                   | Description                                              |
+| 傳回碼                                                                                   | 描述                                              |
 |-----------------------------------------------------------------------------------------------|----------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>          | 作業已成功完成。<br/>         |
 | <dl> <dt>**E \_ INVALIDARG**</dt> </dl>  | *PpCmd* 參數無效。<br/>           |
@@ -96,8 +96,8 @@ if (FAILED(hr))
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                             |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                    |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                             |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                    |
 | 用戶端支援結束<br/>    | Windows XP<br/>                                                                   |
 | 伺服器支援結束<br/>    | Windows Server 2003<br/>                                                          |
 | 標頭<br/>                   | <dl> <dt>Scardmgr。h</dt> </dl>   |

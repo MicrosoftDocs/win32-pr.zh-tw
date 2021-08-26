@@ -4,12 +4,12 @@ description: Rich Edit 訊息
 ms.assetid: 3a20f28f-de78-4a41-8a8d-8fd896c8ae30
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 837c2efe34861aaecbc334b9fbcd23c65ed01475
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: b07d37a9b99224b590dacd12fafc5da3e94ae7e94481d174ba0872d31c510ea5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104196004"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119970298"
 ---
 # <a name="rich-edit-messages"></a>Rich Edit 訊息
 
