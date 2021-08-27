@@ -4,12 +4,12 @@ ms.assetid: 1261e029-4cdf-4e35-a4b3-57dd151e2e7f
 title: modelNumber 元素
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e207084e1614d408034c7e4bbc36bdbadce77195
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 16ac121cb392a494beddab43c666d268bf5d923db15a1e3f120c381f4c054e1b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107995475"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120071428"
 ---
 # <a name="modelnumber-element"></a>modelNumber 元素
 

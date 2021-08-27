@@ -4,12 +4,12 @@ ms.assetid: 8ee50fd7-507e-484f-9a16-de5449470562
 title: ODBCSourceAttribute 資料表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d52dd9636ac19eae0fb3a9e41d1a1c8389753e5d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4c6d84ca19dfd059df4ff8f79d9409ef23288800f09e84d45e1b55d81bc8641e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511186"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120082708"
 ---
 # <a name="odbcsourceattribute-table"></a>ODBCSourceAttribute 資料表
 

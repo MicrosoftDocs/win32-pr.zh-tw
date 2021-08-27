@@ -3,7 +3,7 @@ title: 'PGM_GETBORDER 訊息 (Commctrl .h) '
 description: 抓取呼機控制項目前的框線大小。 您可以明確地傳送此訊息，或使用呼叫器 \_ GetBorder 宏。
 ms.assetid: 5d2f49ad-d940-4a0b-b5a0-05d742151b1c
 keywords:
-- PGM_GETBORDER message Windows 控制項
+- PGM_GETBORDER 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: be510af44c9cf53000420531843a79e9856c40dd
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 148b3d840548116d3082e27b5a760650c5802bdb2c6dbc1fc7c94f1df3a3d5b5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "107001311"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120046858"
 ---
 # <a name="pgm_getborder-message"></a>PGM \_ GETBORDER 訊息
 
@@ -45,8 +45,8 @@ ms.locfileid: "107001311"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

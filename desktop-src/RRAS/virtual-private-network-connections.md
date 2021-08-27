@@ -4,12 +4,12 @@ description: 遠端存取服務 (RAS) 除了使用點對點通訊協定 (PPP)  (
 ms.assetid: c1195ebb-3107-4429-bc67-b64577d66268
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 09f5fc0b80a6eb00e7587e941eea39c056a11d14
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 4fc532d0873a5c3cb4a50552ca267a8a88b305ad855a1588338786881b3af04e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104023590"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120024778"
 ---
 # <a name="virtual-private-network-connections"></a>虛擬私人網路連接
 
@@ -27,6 +27,6 @@ VPN 連線之 [**RASENTRY**](/previous-versions/windows/desktop/legacy/aa377274(
 
 在上述案例中，兩個對 [**RasDial**](/windows/desktop/api/Ras/nf-ras-rasdiala) 的呼叫會針對 IP 網路和 VPN 傳回不同的連接控制碼。 使用 VPN 連線的控制碼來呼叫 [**RasHangUp**](/windows/desktop/api/Ras/nf-ras-rashangupa) 會終止 vpn 連線，但不會讓 IP 網路的連線保持不變。
 
- 
+ 
 
- 
+ 

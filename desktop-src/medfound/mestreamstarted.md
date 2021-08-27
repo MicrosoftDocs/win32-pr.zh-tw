@@ -4,12 +4,12 @@ ms.assetid: 6652e440-5de9-4767-b7a6-9d919ceece38
 title: 'MEStreamStarted 事件 (Mfobjects) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 479726c1295b4497080b2e15abdde1558f0d4888
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2a385516a6f0f973dd5bd0453d6c9751a0f7411a8ea43cb6acb936d8601c5272
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106977820"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120113938"
 ---
 # <a name="mestreamstarted-event"></a>MEStreamStarted 事件
 
@@ -21,7 +21,7 @@ ms.locfileid: "106977820"
 
 
 
-| VARTYPE              | Description                                                                                                    |
+| VARTYPE              | 描述                                                                                                    |
 |----------------------|----------------------------------------------------------------------------------------------------------------|
 | VT \_ 空白<br/> | 沒有事件資料。<br/> <br/>                                                                          |
 | VT \_ I8<br/>    | 相對於樣本上時間戳記的開始時間，以 100-毫微秒單位為單位。<br/> <br/> |
@@ -34,8 +34,8 @@ ms.locfileid: "106977820"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                                     |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                                     |
 | 標頭<br/>                   | <dl> <dt>Mfobjects (包含 Mfidl) </dt> </dl> |
 
 

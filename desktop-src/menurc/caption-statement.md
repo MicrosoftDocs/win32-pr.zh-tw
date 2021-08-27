@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b893488cb41ea6ee694c43e39b7f24f816913511
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: f971bf3606f17e3f35a8602c1537855514c8445b3e00f03e50ce8e409b73b068
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104092371"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120060048"
 ---
 # <a name="caption-statement"></a>CAPTION 語句
 
@@ -46,9 +46,9 @@ CAPTION "captiontext"
 CAPTION "Error!" 
 ```
 
- 
+ 
 
- 
+ 
 
 
 

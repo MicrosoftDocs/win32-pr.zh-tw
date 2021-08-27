@@ -4,12 +4,12 @@ ms.assetid: 6bff848c-0c55-41e7-aff1-84c6b21a1b8d
 title: 處理序和執行緒
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0f469806a5f803910a773c78c9847d0f7b0ecc7f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 482f9f394001503350d4e213bd51e441ea43d073aacd8d10a49512e04404ba17
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106982419"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120081308"
 ---
 # <a name="processes-and-threads"></a>處理序和執行緒
 

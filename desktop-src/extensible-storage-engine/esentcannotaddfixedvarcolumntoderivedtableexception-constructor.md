@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: d89acf1af0550bc181d6154e303a63115e68406b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 27e81f1e3415947129257c8cf4f952bfe033f00d04f2b24963207ef446ffe38b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106984676"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120021228"
 ---
 # <a name="esentcannotaddfixedvarcolumntoderivedtableexception-constructor"></a>EsentCannotAddFixedVarColumnToDerivedTableException 函式
 

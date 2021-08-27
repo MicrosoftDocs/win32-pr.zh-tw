@@ -4,12 +4,12 @@ ms.assetid: 93051c87-a03e-4149-ac20-a699de7b646d
 title: DeviceDescription1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 32e268c16897efcb39c5250d30107dcab409cd63
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3ffedc8476b24a94bba288c64fda39bd48ba44327621ba728db2eb825aee62a5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319355"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120059578"
 ---
 # <a name="systemdevicesdevicedescription1"></a>DeviceDescription1
 

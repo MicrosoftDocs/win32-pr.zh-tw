@@ -4,12 +4,12 @@ ms.assetid: d377951f-e7d4-4482-9182-2c3b153cb325
 title: 使用 GetNetworkParams 抓取資訊
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 20aed9b1ffa761ec53637d4d5b165e3fd2c2673d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 84bbe1d03cd619af3a6e73e7995876431a804b3ec723cf9a132df5dba517e719
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193128"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120102037"
 ---
 # <a name="retrieving-information-using-getnetworkparams"></a>使用 GetNetworkParams 抓取資訊
 

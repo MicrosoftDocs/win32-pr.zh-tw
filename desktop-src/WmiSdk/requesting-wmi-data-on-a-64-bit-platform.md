@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 在64位平臺上要求 WMI 資料
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fd392d482f083a3c1b1dff3b90d70f1857aeebb4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 320aaec9f11600e3b963a01fe9dcddbd6c4f1f3fd98df8ff2311417ddcd6fef7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106979066"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119995778"
 ---
 # <a name="requesting-wmi-data-on-a-64-bit-platform"></a>在64位平臺上要求 WMI 資料
 
@@ -34,7 +34,7 @@ ms.locfileid: "106979066"
 <span id="__RequiredArchitecture"></span><span id="__requiredarchitecture"></span><span id="__REQUIREDARCHITECTURE"></span>**\_\_RequiredArchitecture**
 </dt> <dd>
 
-除了 **\_ \_ microsoft.sqlserver.management.smo.wmi.wmiconnectioninfo.providerarchitecture<** 之外，還會使用布林值來強制載入指定的提供者版本。 如果版本無法使用，則 WMI 會傳回錯誤0x80041013、 **wbemErrProviderLoadFailure** （適用于 Visual Basic）和 **WBEM \_ E \_ 提供者 \_ 載入 \_ 失敗** （c + +）。 未指定時，此旗標的預設值為 **FALSE**。
+除了 **\_ \_ microsoft.sqlserver.management.smo.wmi.wmiconnectioninfo.providerarchitecture<** 之外，還會使用布林值來強制載入指定的提供者版本。 如果版本無法使用，則 WMI 會傳回錯誤0x80041013、 **wbemErrProviderLoadFailure** （適用于 Visual Basic）和 **WBEM \_ E \_ 提供者 \_ 載入 \_ 失敗**（c + +）。 未指定時，此旗標的預設值為 **FALSE**。
 
 </dd> </dl>
 
@@ -54,7 +54,7 @@ C + + 應用程式可以使用 [**IWbemCoNtext**](/windows/desktop/api/WbemCli/n
 
 腳本會示範如何透過 [**SWbemServices.ExecMethod**](swbemservices-execmethod.md)呼叫登錄 [**StdRegProv**](/previous-versions/windows/desktop/regprov/stdregprov)類別的方法，以取得32位登錄區中的資料。
 
-下列腳本會從提供者取得符合呼叫端位寬度的提供者（在此案例中為64位），因為它是在64位 Windows 腳本主機下執行的腳本 (WSH) 。 此腳本會從64位登錄節點取得值 **HKEY \_ 本機 \_ 電腦 \\ 軟體 \\ microsoft \\ wbem \\ cimom \\ 記錄** ，而不是32位節點 **HKEY \_ 本機 \_ 電腦 \\ 軟體 \\ Wow6432Node \\ Microsoft \\ WBEM \\ cimom**。
+下列腳本會從提供者取得符合呼叫端位寬度的提供者的資料，在此案例中為64位，因為它是在64位 Windows 腳本主機 (WSH) 的腳本。 此腳本會從64位登錄節點取得值 **HKEY \_ 本機 \_ 電腦 \\ 軟體 \\ microsoft \\ wbem \\ cimom \\ 記錄** ，而不是32位節點 **HKEY \_ 本機 \_ 電腦 \\ 軟體 \\ Wow6432Node \\ Microsoft \\ WBEM \\ cimom**。
 
 
 ```VB

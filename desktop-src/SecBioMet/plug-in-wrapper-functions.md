@@ -3,15 +3,15 @@ title: 外掛程式包裝函數
 description: 包裝函式，可讓您在任何附加至管線的介面卡上呼叫公用函式，而不需要手動取得介面卡的指標。
 ms.assetid: a87536bf-3a10-4062-a509-db7f03172307
 keywords:
-- Windows 生物特徵辨識架構 API Windows 生物特徵辨識架構 API、外掛程式包裝函式
+- Windows生物特徵辨識架構 api Windows 生物特徵辨識架構 API、外掛程式包裝函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e73d7f935ebe1a2dab047f8dd3a09e0bf6ed3855
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e2b3f6991d0723f284bb95ecfd40d7931c48aa8647fb52e2b34a959791a7338b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840595"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120101248"
 ---
 # <a name="plug-in-wrapper-functions"></a>外掛程式包裝函數
 

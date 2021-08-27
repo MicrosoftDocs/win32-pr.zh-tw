@@ -3,7 +3,7 @@ title: 'CB_GETCOMBOBOXINFO 訊息 (Winuser .h) '
 description: 取得指定下拉式方塊的相關資訊。
 ms.assetid: 3239dfa8-7301-48e3-ba8e-29c5d5f43b39
 keywords:
-- CB_GETCOMBOBOXINFO message Windows 控制項
+- CB_GETCOMBOBOXINFO 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bd7052ef4feca8a8704258c7c34d6516c7cd6cd4
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4ce6227df0031c01b15892daa14eea9cc8d25bd2c7eede68af275063d7201505
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464436"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120089288"
 ---
 # <a name="cb_getcomboboxinfo-message"></a>CB \_ GETCOMBOBOXINFO 訊息
 
@@ -59,9 +59,9 @@ ms.locfileid: "104464436"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                     |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 

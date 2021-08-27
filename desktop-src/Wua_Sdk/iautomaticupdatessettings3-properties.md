@@ -4,12 +4,12 @@ ms.assetid: d186fdcd-1184-4fd5-875b-b16c2041e2c3
 title: IAutomaticUpdatesSettings3 屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7a58889e1c483d40039efa2f913282cdec397abf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ab4d4f41b141c473d6f0f4909e76ffbcded39803fa08d32fd2f61a2bdcb006e8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943487"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119994858"
 ---
 # <a name="iautomaticupdatessettings3-properties"></a>IAutomaticUpdatesSettings3 屬性
 

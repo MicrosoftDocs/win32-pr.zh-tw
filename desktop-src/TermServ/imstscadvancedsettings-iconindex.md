@@ -50,19 +50,19 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3be56eab5dbe7f03155c6082e4e70fc4bd439253
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a7c1c53a073f218666ab44eb926b9a92f835078c50a88bc488cc1da4b70b056f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104508556"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120125458"
 ---
 # <a name="imstscadvancedsettingsiconindex-property"></a>IMsTscAdvancedSettings：： >iconindex 屬性
 
 指定目前圖示檔中的圖示索引。
 
 > [!Note]  
-> ActiveX 控制項 (MsRdp) 不支援這個屬性。 標準用戶端 (MsTsc.exe) 中包含的 MsTscAx.dll 程式庫都支援此功能。
+> ActiveX 控制項 (MsRdp) 中不支援這個屬性。 標準用戶端 (MsTsc.exe) 中包含的 MsTscAx.dll 程式庫都支援此功能。
 
  
 

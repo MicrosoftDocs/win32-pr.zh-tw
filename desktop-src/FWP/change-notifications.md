@@ -4,12 +4,12 @@ description: 基礎篩選引擎 (BFE) 變更通知遵循發佈/訂閱模式。
 ms.assetid: 443f1767-5694-4584-ba0f-229275900774
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c7a3a2069525cc44823ed975fade3b5f100efd8
-ms.sourcegitcommit: 60ad94096619da5476f9bbcd4cc231b40b6f5358
+ms.openlocfilehash: a0038dc851cb15414dbc0180f205104725bf069b599632a93ae6e257fe7a1f84
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "103932951"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120078498"
 ---
 # <a name="change-notifications"></a>變更通知
 
@@ -30,9 +30,9 @@ BFE 提供的變更通知如下：
 
 訂閱者不會收到用來訂閱的會話控制碼所做之變更的通知。 一般來說，「訂閱者」只需要通知其他人所做的變更;他們已經知道自己所做的變更。
 
- 
+ 
 
- 
+ 
 
 
 

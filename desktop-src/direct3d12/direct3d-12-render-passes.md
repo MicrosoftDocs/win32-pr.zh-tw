@@ -4,16 +4,16 @@ description: 轉譯傳遞功能可減少進出晶片記憶體的記憶體流量�
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 11/15/2018
-ms.openlocfilehash: f776729f17ac0017d713c6f37bc71de7302a7c08
-ms.sourcegitcommit: 780d4b1601c45658ef0b799b80d13f45a53d808d
+ms.openlocfilehash: 96ed14cecd518a3e03672f2667306ee0a4b8d64999aab01aa72aae04975f0a83
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "104548347"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120069688"
 ---
 # <a name="direct3d-12-render-passes"></a>Direct3D 12 轉譯階段
 
-轉譯階段功能是 Windows 10 1809 版的新功能， (10.0;組建 17763) ，並介紹 Direct3D 12 轉譯傳遞的概念。 轉譯階段是由您記錄至命令清單中的命令子集所組成。
+轉譯階段功能是 Windows 10 版本 1809 (10.0 的新功能;組建 17763) ，並介紹 Direct3D 12 轉譯傳遞的概念。 轉譯階段是由您記錄至命令清單中的命令子集所組成。
 
 若要宣告每個轉譯傳遞的開始和結束位置，您可以將屬於該傳遞的命令，裝載至 [**ID3D12GraphicsCommandList4：： BeginRenderPass**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist4-beginrenderpass) 和 [**EndRenderPass**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist4-endrenderpass)的呼叫內。 因此，任何命令清單都會包含零個、一個或多個轉譯階段。
 
@@ -43,7 +43,7 @@ ms.locfileid: "104548347"
 - 適當地識別其作業的資料/順序相依性。
 - 以最小化 (的方式來排序其提交，將 **_PRESERVE** 旗標) 的使用降至最低。
 - 正確利用資源阻礙，並追蹤資源狀態。
-- 避免不必要的複本/清除。 為了協助識別這些資訊，您可以從 [Windows 工具上的 PIX](https://devblogs.microsoft.com/pix/)使用自動化效能警告。
+- 避免不必要的複本/清除。 為了協助識別這些資訊，您可以從[Windows 工具上的 PIX](https://devblogs.microsoft.com/pix/)使用自動化效能警告。
 
 ## <a name="using-the-render-pass-feature"></a>使用轉譯傳遞功能
 
@@ -134,7 +134,7 @@ RTVs 和 DSV 不會繼承到轉譯階段。 相反地，必須設定它們。 **
 - **D3D12_RESOURCE_STATE_RENDER_TARGET** 目前系結 RTVs/dsv 上的任何讀取狀態。
 - **D3D12_RESOURCE_STATE_DEPTH_WRITE** 目前系結 RTVs/dsv 上的任何讀取狀態。
 - 任何別名屏障。
-- 未排序的存取權視圖 (UAV) 的阻礙。 
+- 未排序的存取權視圖 (UAV) 的阻礙。 
 
 ### <a name="resource-access-declaration"></a>資源存取宣告
 

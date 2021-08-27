@@ -4,12 +4,12 @@ ms.assetid: f36f81b3-4e3d-4e06-a039-c243fd69c937
 title: 系統 GPS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 996c0edf41e03bc7f4a824ae9ed812450eb36e6e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f4895e09a20c2a13aa1a6b003289d61d6802ef164b47c8cca63a5e45a5cacbcf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104512241"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120091208"
 ---
 # <a name="systemgpslatitude"></a>系統 GPS
 
@@ -31,7 +31,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="windows-7-windows-vista"></a>Windows 7、Windows Vista
+## <a name="windows-7-windows-vista"></a>Windows 7，Windows Vista
 
 ```
 propertyDescription
@@ -51,7 +51,7 @@ propertyDescription
 
 PKEY 值定義于 Propkey 中。
 
-`label`針對 Windows Vista Service Pack 1 (SP1) ，已新增 **labelInfo** 屬性之特定間接字串參考的需求。
+`label`針對 Windows Vista （含 Service Pack 1 (SP1) ）新增了特定間接字串參考的屬性（attribute **）的需求**。
 
 ## <a name="related-topics"></a>相關主題
 

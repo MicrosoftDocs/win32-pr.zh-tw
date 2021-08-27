@@ -21,12 +21,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9aff40961ddc8fa07de6c49d6c95aefe3d005d6d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 147f399f3e72936235f0d9d0ba0e9c18f1680877d3ae65dfe31f606c4c307777
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104094052"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120080238"
 ---
 # <a name="cim_elementsetting-class-remote-desktop-services"></a>CIM_ElementSetting 類別 (遠端桌面服務) 
 

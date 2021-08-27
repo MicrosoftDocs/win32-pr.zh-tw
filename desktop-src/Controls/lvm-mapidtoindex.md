@@ -1,9 +1,9 @@
 ---
 title: 'LVM_MAPIDTOINDEX 訊息 (Commctrl .h) '
-description: 將專案的識別碼對應至索引。
+description: 地圖專案的識別碼加入至索引。
 ms.assetid: vs|controls|~\controls\listview\messages\lvm_mapidtoindex.htm
 keywords:
-- LVM_MAPIDTOINDEX message Windows 控制項
+- LVM_MAPIDTOINDEX 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fb4cb8aa49b37186ef689ed8cb319bbb92b62d75
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 77b5380d52f839f28324b808ed0d3304b6c5e2837869e0f0cfc6ab99d8f00b04
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106966136"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120079868"
 ---
 # <a name="lvm_mapidtoindex-message"></a>LVM \_ MAPIDTOINDEX 訊息
 
-將專案的識別碼對應至索引。
+地圖專案的識別碼加入至索引。
 
 ## <a name="parameters"></a>參數
 
@@ -75,8 +75,8 @@ ms.locfileid: "106966136"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

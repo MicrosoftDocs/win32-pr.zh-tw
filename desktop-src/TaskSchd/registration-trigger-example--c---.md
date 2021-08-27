@@ -1,28 +1,28 @@
 ---
 title: " (c + +) 的註冊觸發程式範例"
-description: 這個 c + + 範例示範如何建立排定在工作註冊時執行「記事本」的工作。
+description: 這個 c + + 範例會示範如何建立排程在工作註冊時執行記事本的工作。
 ms.assetid: 5e2e8fa6-66c7-4356-8fd6-22f7974791b9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 090a690601e24e1245040d0e7b394123afa94b07
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: cb9b87f21f2d301bcd500b4f28e41d1e2fada63ddaa8e7c9a4c833c6359f0b15
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106966199"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120011328"
 ---
 # <a name="registration-trigger-example-c"></a> (c + +) 的註冊觸發程式範例
 
-這個 c + + 範例示範如何建立排定在工作註冊時執行「記事本」的工作。 此工作包含指定工作之開始界限和結束界限的註冊觸發程式，以及工作的延遲。 開始界限會指定觸發程式的啟動時間，而延遲會設定工作在註冊和啟動工作之間的時間長度。 此工作也包含指定工作以執行 [記事本] 的動作。
+這個 c + + 範例會示範如何建立排程在工作註冊時執行記事本的工作。 此工作包含指定工作之開始界限和結束界限的註冊觸發程式，以及工作的延遲。 開始界限會指定觸發程式的啟動時間，而延遲會設定工作在註冊和啟動工作之間的時間長度。 此工作也包含指定要執行記事本工作的動作。
 
 > [!Note]  
 > 更新註冊觸發程式的工作時，工作會在更新發生之後執行。
 
- 
+ 
 
 下列程式描述如何排程工作，以便在註冊工作時啟動可執行檔。
 
-**排定在註冊工作時啟動 [記事本]**
+**排定在註冊工作時啟動記事本**
 
 1.  初始化 COM 並設定一般 COM 安全性。
 2.  建立 [**ITaskService**](/windows/desktop/api/taskschd/nn-taskschd-itaskservice) 物件。 此物件可讓您在指定的資料夾中建立工作。
@@ -32,7 +32,7 @@ ms.locfileid: "106966199"
 6.  使用 ITaskDefinition 的 [ [**動作] 屬性**](/windows/desktop/api/taskschd/nf-taskschd-itaskdefinition-get_actions) 來存取工作的 [**IActionCollection**](/windows/desktop/api/taskschd/nn-taskschd-iactioncollection) 介面，以建立工作要執行的動作。 使用 [**IActionCollection：： Create**](/windows/desktop/api/taskschd/nf-taskschd-iactioncollection-create) 方法可指定您想要建立的動作類型。 這個範例會使用 [**IExecAction**](/windows/desktop/api/taskschd/nn-taskschd-iexecaction) 物件，代表執行命令列操作的動作。
 7.  使用 [**ITaskFolder：： RegisterTaskDefinition**](/windows/desktop/api/taskschd/nf-taskschd-itaskfolder-registertaskdefinition) 方法註冊工作。
 
-下列 c + + 範例示範如何排程工作，以便在工作註冊後的30秒內執行「記事本」。
+下列 c + + 範例示範如何將工作排程在工作註冊之後記事本30秒內執行。
 
 
 ```C++
@@ -389,9 +389,9 @@ int __cdecl wmain()
 [使用工作排程器](using-the-task-scheduler.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

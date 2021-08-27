@@ -3,7 +3,7 @@ title: 'CB_GETDROPPEDCONTROLRECT 訊息 (Winuser .h) '
 description: 應用程式會傳送 CB \_ GETDROPPEDCONTROLRECT 訊息，以取得下拉式方塊中下拉式方塊的螢幕座標。
 ms.assetid: fd8d78c0-e1a8-49c8-9e35-a105d00b863c
 keywords:
-- CB_GETDROPPEDCONTROLRECT message Windows 控制項
+- CB_GETDROPPEDCONTROLRECT 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: adff5ad10ff91557b2579006dae6e1258650d74e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c140abb139cc47020f333ccf66f71cf36d890449be91d66f51b646db22091c39
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465720"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120089278"
 ---
 # <a name="cb_getdroppedcontrolrect-message"></a>CB \_ GETDROPPEDCONTROLRECT 訊息
 
@@ -55,9 +55,9 @@ ms.locfileid: "104465720"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                     |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 

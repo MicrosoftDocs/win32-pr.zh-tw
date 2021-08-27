@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cae5a7c24d392bd034dfcd69fb67723c9492f982
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
-ms.translationtype: HT
+ms.openlocfilehash: 3b9ba87c400129d9caab88657f0d554c67a75072feaf425054ee638ccf7b3d11
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104323027"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120069658"
 ---
 # <a name="id3dx11effecttechniquegetannotationbyname-method"></a>ID3DX11EffectTechnique：： GetAnnotationByName 方法
 

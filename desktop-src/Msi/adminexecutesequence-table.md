@@ -4,12 +4,12 @@ ms.assetid: 33a2ef50-519b-424e-b510-55c21c5706a3
 title: AdminExecuteSequence 資料表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d0c62ae43f8436ab210765e5402751c5722b78b8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7eed182f5a27b357ecd546003cbfd7c68728d41c4018442b23bbf834ac8a796a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106986891"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120045998"
 ---
 # <a name="adminexecutesequence-table"></a>AdminExecuteSequence 資料表
 

@@ -4,12 +4,12 @@ description: 從 DXCore 介面卡清單物件的索引抓取特定的介面卡�
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 06/20/2019
-ms.openlocfilehash: 5ba03c9e6f2711adc5264354a6abd70ee489965f
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 96b2973e36c93ca50db273fc28bd0f02cbaf7a48f96e6833af7f14323c7de57d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104023903"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120022128"
 ---
 # <a name="idxcoreadapterlistgetadapter-method"></a>IDXCoreAdapterList：： GetAdapter 方法
 

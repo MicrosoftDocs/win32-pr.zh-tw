@@ -1,24 +1,24 @@
 ---
-title: 'C (MTScratchpadWMTouchCS 中的 Windows Touch 範例簿範例) '
-description: 'C # 中的 Windows Touch 便箋範例會示範如何使用 Windows Touch 的訊息，將觸控點的追蹤繪製至視窗。'
+title: WindowsC (MTScratchpadWMTouchCS) 的觸控式範例
+description: 'c # 中的 Windows Touch 便箋範例會示範如何使用 Windows Touch 的訊息，將觸控點的追蹤繪製至視窗。'
 ms.assetid: 652124be-01a8-4df4-b590-e5c2ca3f012c
 keywords:
-- Windows Touch，程式碼範例
-- Windows Touch，範例程式碼
-- Windows Touch，範例簿範例
+- Windows觸控、程式碼範例
+- Windows觸控，範例程式碼
+- Windows觸控、便箋簿範例
 - 便箋範例
 ms.topic: article
 ms.date: 10/28/2019
-ms.openlocfilehash: 2d91c08c55f0d5b29a170a3a01c6ee882fad765f
-ms.sourcegitcommit: c7fa8fc137714433c8d18b1bf71e9cf0b5bf5e80
+ms.openlocfilehash: 112f8446af4b845bfd36e4262a11da807535c93baaf6257a10a9a8d2b03374e9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "104024211"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120089841"
 ---
-# <a name="windows-touch-scratchpad-sample-c"></a>Windows Touch (的 c # 範例 ) 
+# <a name="windows-touch-scratchpad-sample-c"></a>Windows觸控簿範例 (c # ) 
 
-[C # 中的 Windows Touch 便箋範例會示範](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTScratchpadWMTouch/CS)如何使用 Windows Touch 的訊息，將觸控點的追蹤繪製至視窗。 主要手指的追蹤（先放在數位板上）會以黑色繪製。 次要手指會以六種其他色彩繪製：紅色、綠色、藍色、青色、洋紅和黃色。 下圖顯示應用程式執行時的外觀。
+[c # 中的 Windows Touch 便箋範例會示範](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTScratchpadWMTouch/CS)如何使用 Windows Touch 的訊息，將觸控點的追蹤繪製至視窗。 主要手指的追蹤（先放在數位板上）會以黑色繪製。 次要手指會以六種其他色彩繪製：紅色、綠色、藍色、青色、洋紅和黃色。 下圖顯示應用程式執行時的外觀。
 
 ![螢幕擷取畫面，顯示在螢幕上以紅色、綠色、藍色和紅色波浪線表示的 windows 觸控式攝影者範例](images/mtscratchpadwmtouchcs.png)
 
@@ -180,5 +180,5 @@ ms.locfileid: "104024211"
 
 ## <a name="related-topics"></a>相關主題
 
-[Windows Touch 的 () 的 c + + ](windows-touch-scratchpad-sample--mtscratchpadwmtouch-.md)、 [多點觸控式的程式 (WM_TOUCH/c # ) ](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTScratchpadWMTouch/CS)、 [多點觸控式的便箋應用程式 (WM_TOUCH/c + +) ](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTScratchpadWMTouch/cpp)、 [Windows Touch 範例](windows-touch-samples.md)
+[Windows Touch 的 () 的 c + + ](windows-touch-scratchpad-sample--mtscratchpadwmtouch-.md)、[多點觸控式的程式 (WM_TOUCH/c # ) ](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTScratchpadWMTouch/CS)、[多點觸控式的便箋應用程式 (WM_TOUCH/c + +) ](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTScratchpadWMTouch/cpp)、 [Windows Touch 範例](windows-touch-samples.md)
 

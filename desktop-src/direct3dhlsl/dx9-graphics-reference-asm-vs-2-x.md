@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 3449ae4c1e1eb3b977916f6fb1d19303e9d21a4e
-ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
+ms.openlocfilehash: a412c7980ef12bfd8814933cd9d3de07db27fac353a636406e96e1377cd57829
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "112010712"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120023968"
 ---
 # <a name="vs_2_x"></a>vs \_ 2 \_ x
 
@@ -33,7 +33,7 @@ ms.locfileid: "112010712"
 
 新功能如下：
 
-### <a name="dynamic-flow-control"></a>動態流程式控制制
+### <a name="dynamic-flow-control"></a>動態 Flow 控制項
 
 如果 [D3DVS20CAPS](/windows/desktop/direct3d9/d3dvs20caps) > 0，則支援下列動態流程式控制制指示：
 
@@ -48,15 +48,15 @@ ms.locfileid: "112010712"
 -   [callnz pred-vs](callnz-pred---vs.md)
 -   [breakp-vs](breakp---vs.md)
 
-動態流程式控制制深度的值範圍是0到24，等於動態流程式控制制指示的嵌套深度 (如需詳細資料，請參閱 [流程式控制制的嵌套限制](dx9-graphics-reference-asm-vs-instructions-flow-control.md)) 。 如果此上限為零，則裝置不支援動態流程式控制制指示。
+動態流程式控制制深度的值範圍為0到24，等於動態流程式控制制指示的嵌套深度 (如需詳細資料，請參閱[Flow 控制項的嵌套限制](dx9-graphics-reference-asm-vs-instructions-flow-control.md)) 。 如果此上限為零，則裝置不支援動態流程式控制制指示。
 
 ### <a name="number-of-temporary-registers"></a>臨時暫存器數目
 
 [D3DVS20CAPS](/windows/desktop/direct3d9/d3dvs20caps) 代表裝置所支援的 [暫存](dx9-graphics-reference-asm-vs-registers-temporary.md)登錄數目。 此上限的值範圍是12到32。
 
-### <a name="static-flow-control-nesting-depth"></a>靜態流程式控制制的嵌套深度
+### <a name="static-flow-control-nesting-depth"></a>靜態 Flow 控制項的嵌套深度
 
-[D3DVS20CAPS](/windows/desktop/direct3d9/d3dvs20caps)代表兩種靜態流程式控制制指令類型的嵌套深度：[迴圈-vs](loop---vs.md) / [rep-vs](rep---vs.md)和[call-vs](call---vs.md) / [callnz bool-vs](callnz-bool---vs.md)， / [如果 bool-vs](if-bool---vs.md). 迴圈-vs/rep-vs 指令可以嵌套到 D3DVS20CAPS 深層。 相對地，call-vs/callnz bool-vs 指令可以嵌套至 D3DVS20CAPS 深層。 如果同時設定了 D3DVS20CAPS，則 [callnz pred-vs](callnz-pred---vs.md) 會計算呼叫-vs/callnz bool-vs/if bool-vs (如需詳細資料，請參閱 [流程式控制制的嵌套限制](dx9-graphics-reference-asm-vs-instructions-flow-control.md)) 。
+[D3DVS20CAPS](/windows/desktop/direct3d9/d3dvs20caps)代表兩種靜態流程式控制制指令類型的嵌套深度：[迴圈-vs](loop---vs.md) / [rep-vs](rep---vs.md)和[call-vs](call---vs.md) / [callnz bool-vs](callnz-bool---vs.md)， / [如果 bool-vs](if-bool---vs.md). 迴圈-vs/rep-vs 指令可以嵌套到 D3DVS20CAPS 深層。 相對地，call-vs/callnz bool-vs 指令可以嵌套至 D3DVS20CAPS 深層。 如果同時設定了 D3DVS20CAPS，則[callnz pred-vs](callnz-pred---vs.md)會計入 call-vs/callnz bool-vs/if bool-vs (的對應深度。) 的詳細資料，請參閱[Flow 控制項的嵌套限制](dx9-graphics-reference-asm-vs-instructions-flow-control.md)。
 
 ### <a name="predication"></a>預測
 

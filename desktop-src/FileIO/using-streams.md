@@ -4,12 +4,12 @@ ms.assetid: 9cd5f418-404c-40f5-aa51-ef4d2a5f238e
 title: 使用資料流程
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 04edc73a3524d45eeead4cd6c0d508925e6caa5e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 23ebb6e2297c82e8643eb79ce66991b32fdf27e46fc723113a2866c79b2f8377
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194112"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120078388"
 ---
 # <a name="using-streams"></a>使用資料流程
 

@@ -4,24 +4,24 @@ ms.assetid: 2febea35-3fea-4a2d-baaf-7a4f935fc81f
 title: 讀取和寫入中繼資料
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e4ea0a8f389f31870b31a0b15480815bdd7cf1f
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: f4b965285e2d8a4666ef86b78cdc5dbb9ed38c55ee7c84b4a93f1dbe80141efa
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113118293"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120114928"
 ---
 # <a name="reading-and-writing-metadata"></a>讀取和寫入中繼資料
 
-有些影像檔案包含可供您讀取的中繼資料，以判斷影像的功能。 例如，數位相片可能包含您可以讀取的中繼資料，以判斷用來捕捉影像的相機製作和型號。 您可以使用 Windows GDI + 來讀取現有的中繼資料，也可以將新的中繼資料寫入影像檔案。
+有些影像檔案包含可供您讀取的中繼資料，以判斷影像的功能。 例如，數位相片可能包含您可以讀取的中繼資料，以判斷用來捕捉影像的相機製作和型號。 使用 Windows GDI+，您可以讀取現有的中繼資料，也可以將新的中繼資料寫入影像檔案。
 
-GDI + 提供統一的方式，可從影像檔案以各種格式儲存和抓取中繼資料。 在 GDI + 中，中繼資料的部分稱為 *屬性專案*。 您可以藉由呼叫 [**Image**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image)類別的 **SetPropertyItem** 和 **GetPropertyItem** 方法來儲存和取出中繼資料，而不需要擔心特定檔案格式儲存該中繼資料的詳細資料。
+GDI+ 提供統一的方式來儲存及抓取不同格式之影像檔的中繼資料。 在 GDI+ 中，中繼資料的部分稱為 *屬性專案*。 您可以藉由呼叫 [**Image**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image)類別的 **SetPropertyItem** 和 **GetPropertyItem** 方法來儲存和取出中繼資料，而不需要擔心特定檔案格式儲存該中繼資料的詳細資料。
 
-GDI + 目前支援 TIFF、JPEG、Exif 和 PNG 檔案格式的中繼資料。 此 Exif 格式可指定如何儲存數位攝影機所捕捉的影像，並以 TIFF 和 JPEG 格式為基礎。 Exif 針對未壓縮的圖元資料使用 TIFF 格式，並針對壓縮的圖元資料使用 JPEG 格式。
+GDI+ 目前支援 TIFF、JPEG、Exif 和 PNG 檔案格式的中繼資料。 此 Exif 格式可指定如何儲存數位攝影機所捕捉的影像，並以 TIFF 和 JPEG 格式為基礎。 Exif 針對未壓縮的圖元資料使用 TIFF 格式，並針對壓縮的圖元資料使用 JPEG 格式。
 
-GDI + 會定義一組用來識別屬性專案的屬性標記。 某些標記為一般用途;亦即，上一段所述的所有檔案格式都支援它們。 其他標記是特殊用途，只適用于特定格式。 如果您嘗試將屬性專案儲存至不支援該屬性專案的檔案，GDI + 會忽略要求。 更具體來說， [**Image：： SetPropertyItem**](/windows/desktop/api/Gdiplusheaders/nf-gdiplusheaders-image-setpropertyitem) 方法會傳回 PropertyNotSupported。
+GDI+ 會定義一組用來識別屬性專案的屬性標記。 某些標記為一般用途;亦即，上一段所述的所有檔案格式都支援它們。 其他標記是特殊用途，只適用于特定格式。 如果您嘗試將屬性專案儲存至不支援該屬性專案的檔案，GDI+ 會忽略要求。 更具體來說， [**Image：： SetPropertyItem**](/windows/desktop/api/Gdiplusheaders/nf-gdiplusheaders-image-setpropertyitem) 方法會傳回 PropertyNotSupported。
 
-您可以藉由呼叫 [**image：： GetPropertyIdList**](/windows/desktop/api/Gdiplusheaders/nf-gdiplusheaders-image-getpropertyidlist)，判斷儲存在影像檔案中的屬性專案。 如果您嘗試抓取不在檔案中的屬性專案，GDI + 會忽略要求。 更具體來說， [**Image：： GetPropertyItem**](/windows/desktop/api/Gdiplusheaders/nf-gdiplusheaders-image-getpropertyitem) 方法會傳回 PropertyNotFound。
+您可以藉由呼叫 [**image：： GetPropertyIdList**](/windows/desktop/api/Gdiplusheaders/nf-gdiplusheaders-image-getpropertyidlist)，判斷儲存在影像檔案中的屬性專案。 如果您嘗試取出不在檔案中的屬性專案，GDI+ 會忽略要求。 更具體來說， [**Image：： GetPropertyItem**](/windows/desktop/api/Gdiplusheaders/nf-gdiplusheaders-image-getpropertyitem) 方法會傳回 PropertyNotFound。
 
 ## <a name="reading-metadata-from-a-file"></a>從檔案讀取中繼資料
 
@@ -64,7 +64,7 @@ The total size of the metadata is 436 bytes.
 
 
 
-GDI + 會將個別的中繼資料儲存在 [**PropertyItem**](/windows/win32/api/gdiplusimaging/nl-gdiplusimaging-propertyitem) 物件中。 您可以呼叫 [**Image**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image)類別的 **GetAllPropertyItems** 方法，從檔案取出所有中繼資料。 **GetAllPropertyItems** 方法會傳回 **PropertyItem** 物件的陣列。 在呼叫 **GetAllPropertyItems** 之前，您必須配置夠大的緩衝區來接收該陣列。 您可以呼叫 **Image** 類別的 **GetPropertySize** 方法，以取得所需緩衝區)  (位元組大小。
+GDI+ 會在 [**PropertyItem**](/windows/win32/api/gdiplusimaging/nl-gdiplusimaging-propertyitem)物件中儲存中繼資料的個別部分。 您可以呼叫 [**Image**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image)類別的 **GetAllPropertyItems** 方法，從檔案取出所有中繼資料。 **GetAllPropertyItems** 方法會傳回 **PropertyItem** 物件的陣列。 在呼叫 **GetAllPropertyItems** 之前，您必須配置夠大的緩衝區來接收該陣列。 您可以呼叫 **Image** 類別的 **GetPropertySize** 方法，以取得所需緩衝區)  (位元組大小。
 
 [**PropertyItem**](/windows/win32/api/gdiplusimaging/nl-gdiplusimaging-propertyitem)物件具有下列四個公用成員：
 

@@ -6,12 +6,12 @@ keywords:
 - 使用 RPC/HTTP 的遠端程序呼叫 RPC、工作
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c84551500af712b1126d8f9a65cb3d02eba8c9d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2fedeb1700d798a616d3441b356f6f31867eed0399f412ed1f82923bcc4ac5f3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103931809"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120101658"
 ---
 # <a name="remote-procedure-calls-using-rpc-over-http"></a>使用 RPC over HTTP 的遠端程序呼叫
 
@@ -31,9 +31,9 @@ RPC Proxy 會在 IIS 電腦上執行。 它會接受來自網際網路的 RPC �
 
 如需有關高容量 RPC over HTTP 案例的詳細資訊，請參閱 [MICROSOFT RPC 負載平衡](rpc-load-balancing.md)。
 
- 
+ 
 
- 
+ 
 
 
 

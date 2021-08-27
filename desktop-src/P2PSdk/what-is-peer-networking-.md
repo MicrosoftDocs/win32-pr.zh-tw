@@ -4,12 +4,12 @@ ms.assetid: d2a43d3b-2782-4777-8c65-05e2c52930d0
 title: 什麼是對等網路？
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c456fac9b7695a2846765ee0ccd38c1e5df646e0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1f6ce2175aa32e37c80c4cde5c231540a48c448360974ecbd022c21eb552ccdd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103944272"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120034098"
 ---
 # <a name="what-is-peer-networking"></a>什麼是對等網路？
 
@@ -39,8 +39,8 @@ ms.locfileid: "103944272"
 
 分散式資料管理會自動儲存所有傳送至對等圖形的記錄，直到每筆記錄的指定到期時間為止。 對等網路可確保點對點圖形中的每個節點都具有記錄資料庫的類似觀點。 如果對等圖形具有與其相關聯的安全性模型，則圖形會包含下列資訊：
 
--   誰可以和無法連接至圖形
--   誰可以根據外部定義的準則來保護和驗證記錄
+-   神秘可以和無法連接至圖形
+-   神秘可以根據外部定義的準則來保護和驗證記錄
 
 ## <a name="secure-peer-identities"></a>安全對等身分識別
 
@@ -50,7 +50,7 @@ ms.locfileid: "103944272"
 
 對等 [群組 API](grouping-api.md) 結合了對等圖形、Identity MANAGER 和 PNRP api，形成對等網路應用程式開發的一致且方便的解決方案。 點對點群組 API 會使用對等身分識別管理員 API 和自我簽署憑證配置，以確保圖形基礎結構內的安全性。 您可以透過 PNRP 解析和註冊每個群組，以允許在註冊的點對點群組內進行隨機對等的名稱解析。 群組可以是 PNRP 中的端點，就像對等一樣。
 
-如需對等基礎結構的總覽，請參閱「[WINDOWS XP 對等網路簡介](https://www.microsoft.com/windowsxp/pro/techinfo/administration/p2p/introduction.asp)」一文。
+如需對等基礎結構的總覽，請參閱「[Windows XP 對等網路簡介](https://www.microsoft.com/windowsxp/pro/techinfo/administration/p2p/introduction.asp)」一文。
 
 如需對等基礎結構中的 Api 總覽，請參閱「 [什麼是對等基礎結構？](what-is-the-peer-infrastructure-.md)」主題。
 

@@ -4,12 +4,12 @@ ms.assetid: 70db139c-2c5b-4574-bec3-dfe758b16715
 title: 使用系統裝置列舉值
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 88f8f66cb64e9f7bb51d6b0716b9fa23cf531435
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7192a1ea85d807dd388b79eef455edf59c83d3c22ab3a4a330799b3491253bb6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104550762"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120083530"
 ---
 # <a name="using-the-system-device-enumerator"></a>使用系統裝置列舉值
 
@@ -23,7 +23,7 @@ ms.locfileid: "104550762"
 2.  藉由呼叫 [**ICreateDevEnum：： CreateClassEnumerator**](/windows/desktop/api/Strmif/nf-strmif-icreatedevenum-createclassenumerator) 與所需分類的 CLSID 來取得類別列舉值。 這個方法會傳回 **IEnumMoniker** 介面指標。 如果類別目錄是空的 (或不存在) 中，此方法會傳回 \_ FALSE，而不是錯誤碼。 如果是，則傳回的 **IEnumMoniker** 指標為 **Null** ，而取值會造成例外狀況。 因此， \_ 當您呼叫 **CreateClassEnumerator** 時，請明確地測試是否沒問題，而不是呼叫一般的 **SUCCEEDED** 宏。
 3.  使用 **IEnumMoniker：： Next** 方法來列舉每個標記。 這個方法會傳回 **IMoniker** 介面指標。 當 **下一個** 方法到達列舉的結尾時，它也會傳回 \_ FALSE，因此再次檢查是否 \_ 正常。
 4.  若要取得裝置的易記名稱 (例如，要顯示在使用者介面) 中，請呼叫 **IMoniker：： BindToStorage** 方法。
-5.  若要建立及初始化管理裝置的 DirectShow 篩選器，請在標記上呼叫 **IMoniker：： BindToObject** 。 呼叫 [**IFilterGraph：： AddFilter**](/windows/desktop/api/Strmif/nf-strmif-ifiltergraph-addfilter) 將篩選準則新增至圖形。
+5.  若要建立及初始化管理裝置的 DirectShow 篩選，請在標記上呼叫 **IMoniker：： BindToObject** 。 呼叫 [**IFilterGraph：： AddFilter**](/windows/desktop/api/Strmif/nf-strmif-ifiltergraph-addfilter) 將篩選準則新增至圖形。
 
 下圖說明此程序。
 

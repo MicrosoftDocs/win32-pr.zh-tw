@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - Winspool.drv
-ms.openlocfilehash: 9e84730be0d20100c2da42aa357f35c08cfb0727
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d878bb848eebed7eaccd904d4cdfd035d5056ee32eaa67eac5064dd5cf4e1e51
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974435"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120060028"
 ---
 # <a name="deleteprinterdriver-function"></a>DeletePrinterDriver 函式
 
@@ -57,7 +57,7 @@ BOOL DeletePrinterDriver(
 *pEnvironment* \[在\]
 </dt> <dd>
 
-以 null 結束的字串指標，指定要從中刪除驅動程式 (例如，Windows x86、Windows IA64 或 Windows x64) 的環境。 如果此參數為 **Null**，則會從目前的呼叫應用程式和用戶端電腦的環境中刪除驅動程式名稱， (不是目的地應用程式和列印伺服器) 。
+以 null 結束的字串指標，指定要從中刪除驅動程式的環境 (例如 Windows x86、Windows IA64 或 Windows x64) 。 如果此參數為 **Null**，則會從目前的呼叫應用程式和用戶端電腦的環境中刪除驅動程式名稱， (不是目的地應用程式和列印伺服器) 。
 
 </dd> <dt>
 
@@ -95,7 +95,7 @@ BOOL DeletePrinterDriver(
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                                |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                      |
-| 標頭<br/>                   | <dl> <dt>Winspool.drv (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>winspool.drv (包含 Windows .h) </dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>Winspool.drv .lib</dt> </dl>                   |
 | DLL<br/>                      | <dl> <dt>Winspool.drv. winspool.drv</dt> </dl>                   |
 | Unicode 與 ANSI 名稱<br/>   | **DeletePrinterDriverW** (Unicode) 和 **DeletePrinterDriverA** (ANSI) <br/>                         |

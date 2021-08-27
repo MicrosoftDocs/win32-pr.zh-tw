@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 251ed6f7a83bab161d902d9e343250368ee239d7
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 5e5453a2aaf12b478e97586790dfe011a35565fbd1ed31af177c62b24f80c512
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104322523"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120023878"
 ---
 # <a name="else---ps"></a>其他-ps
 

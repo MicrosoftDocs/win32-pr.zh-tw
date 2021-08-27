@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c0497fa55b43b22e4649e7ece3eb17f6f9e5339
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 097cf8b57b3ae9bf197c073595d6695eff05ed5e3f5cad39a19b9a7a92ed8c84
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "103853947"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120035478"
 ---
 # <a name="glvertex4sv-function"></a>glVertex4sv 函式
 
@@ -40,7 +40,7 @@ void WINAPI glVertex4sv(
 
 <dl> <dt>
 
-*V* 
+*v* 
 </dt> <dd>
 
 四個元素的陣列指標。 元素是頂點的 x、y、z 和 w 座標。

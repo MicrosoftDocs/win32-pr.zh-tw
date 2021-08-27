@@ -4,16 +4,16 @@ ms.assetid: 65DDD992-5E96-447E-9151-2CCA740822A1
 title: 如何建立動詞與 DDE 命令的關聯
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7174a22c993d93c347c8a0368fa7d1798362070f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: 216cfca1548ed16dfea2f018fc3a1607d5c29d080f0f54541ace0491813a73d1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104973176"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120090578"
 ---
 # <a name="how-to-associate-verbs-with-dde-commands"></a>如何建立動詞與 DDE 命令的關聯
 
-叫用動詞通常會啟動動詞命令子機碼所指定的應用程式。 但是，如果您的應用程式支援動態資料交換 (的 DDE) ，則可以改為讓 Shell 起始 DDE 交談。
+叫用動詞通常會啟動動詞命令子機碼所指定的應用程式。 但是，如果您的應用程式支援動態資料交換 (的 dde) ，則可以改為讓 Shell 起始 dde 對話。
 
 若要指定叫用動詞應該起始 DDE 交談，請遵循下列步驟。
 

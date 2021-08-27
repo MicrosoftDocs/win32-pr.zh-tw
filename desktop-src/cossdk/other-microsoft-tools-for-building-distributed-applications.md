@@ -4,12 +4,12 @@ ms.assetid: 518ca5b5-4285-4d69-abfe-bf6444a1deb5
 title: 用來建立分散式應用程式的其他 Microsoft 工具
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 657d65bd7c61a73bedb9463e8558415c7b27fe04
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: ed9114454dbbeaa3c8f21cc1ea5166f93760fdd99772425f0245d7b8883f2db3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972786"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120070398"
 ---
 # <a name="other-microsoft-tools-for-building-distributed-applications"></a>用來建立分散式應用程式的其他 Microsoft 工具
 
@@ -22,9 +22,9 @@ ms.locfileid: "106972786"
 
      
 
--   Microsoft SQL Server。 除了提供穩固且 eloquent 的關係資料庫系統之外，Microsoft SQL Server 可以提供具有連接共用和安全性的分散式應用程式，而該應用程式可以與 Windows 安全性模型整合。
+-   Microsoft SQL Server。 除了提供穩固且 eloquent 的關係資料庫系統之外，Microsoft SQL Server 可以提供具有連接共用和安全性的分散式應用程式，而該應用程式可與 Windows 的安全性模型整合。
 
--   COM 交易整合 (COMTI) 。 COMTI 可以用來將大型主機系統整合到 Windows 系統，包括 COM + 應用程式。 COMTI 使用標準通訊 (協定，例如，在 Windows 電腦和大型主機與 minicomputers 之間通訊的 LU 6.2) 。
+-   COM 交易整合 (COMTI) 。 COMTI 可以用來將大型主機系統整合到 Windows 系統，包括 com + 應用程式。 COMTI 使用標準通訊協定 (例如，LU 6.2) 在 Windows 電腦和大型主機與 minicomputers 之間進行通訊。
 
 ## <a name="related-topics"></a>相關主題
 
@@ -36,7 +36,7 @@ ms.locfileid: "106972786"
 [使用 UML 設計 COM + 應用程式](designing-the-com--application-using-uml.md)
 </dt> <dt>
 
-[使用 COM + 的一般設計秘訣](general-design-tips-for-using-com-.md)
+[使用 COM + 的一般設計提示](general-design-tips-for-using-com-.md)
 </dt> <dt>
 
 [優化與 COM + 商務邏輯層的互動](optimizing-interactions-with-the-com--business-logic-tier.md)

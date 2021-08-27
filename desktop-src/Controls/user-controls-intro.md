@@ -4,12 +4,12 @@ description: 本節包含應用程式定義或自訂控制項的相關資訊。
 ms.assetid: 220f7058-db04-46d0-acee-ed5e676790b3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e82ed9394ec06257e524153b86ef487f4507f35b
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 12d1a31a44f1f71d99088f7729c2de6d5fdb597e14507f5f994dfaca1b96613d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104093332"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120059708"
 ---
 # <a name="custom-controls"></a>自訂控制項
 
@@ -92,7 +92,7 @@ case WM_DRAWITEM:
 
 
 
- 
+ 
 
 應用程式定義的控制項訊息是特定的控制項，而且必須使用 [**SendMessage**](/windows/desktop/api/winuser/nf-winuser-sendmessage) 或 [**SendDlgItemMessage**](/windows/desktop/api/winuser/nf-winuser-senddlgitemmessagea) 函式明確地傳送給控制項。 每個訊息的數值都必須是唯一的，且不能與其他視窗訊息的值衝突。 為了確保應用程式定義的訊息值不會衝突，應用程式應該將唯一的數位新增至 [**WM \_ 使用者**](/windows/desktop/winmsg/wm-user) 值，以建立每個值。
 
@@ -137,7 +137,7 @@ SendMessage(GetParent(hwndControl),
 
 自訂控制項應該執行 [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) 介面 (，以支援 MSAA) 或消費者介面自動化介面，或兩者都支援。 否則，可存取的技術產品將只能取得控制項視窗的極有限資訊、無法存取控制項的屬性，而且將無法在控制項中觸發事件。
 
-如需讓控制項可供存取的詳細資訊，請參閱 [Windows AUTOMATION API](/windows/desktop/WinAuto/windows-automation-api-portal)。
+如需讓控制項可供存取的詳細資訊，請參閱[Windows Automation API](/windows/desktop/WinAuto/windows-automation-api-portal)。
 
 ## <a name="related-topics"></a>相關主題
 
@@ -158,6 +158,6 @@ SendMessage(GetParent(hwndControl),
 [搭配 Owner-Drawn 控制項使用視覺化樣式](using-visual-styles.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

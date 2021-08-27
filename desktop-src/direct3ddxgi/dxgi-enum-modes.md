@@ -4,12 +4,12 @@ ms.assetid: 7e0f5629-f8e2-478b-b8eb-00780a3dcf1f
 title: 'DXGI_ENUM_MODES (DXGI. h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 056ad959f0b86fb6f357d690f2daab908275e038
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 568e3919955c2f5612cf88896a2cb6389ebc58fcb427e159824c1dc2feeebca6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106992309"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120025628"
 ---
 # <a name="dxgi_enum_modes"></a>DXGI \_ 列舉 \_ 模式
 
@@ -17,7 +17,7 @@ ms.locfileid: "106992309"
 
 
 
-| 常數/值                                                                                                                                                                                                                                                                  | Description                                                                                                                                                                                                                                                                                                                                     |
+| 常數/值                                                                                                                                                                                                                                                                  | 描述                                                                                                                                                                                                                                                                                                                                     |
 |:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="DXGI_ENUM_MODES_INTERLACED"></span><span id="dxgi_enum_modes_interlaced"></span><dl> <dt>**DXGI \_列舉 \_ 模式 \_ 交錯**</dt>式 <dt>1UL</dt> </dl>                 | 包含交錯模式。<br/>                                                                                                                                                                                                                                                                                                            |
 | <span id="DXGI_ENUM_MODES_SCALING"></span><span id="dxgi_enum_modes_scaling"></span><dl> <dt>**DXGI \_列舉 \_ 模式 \_ 調整**</dt> <dt>2UL</dt> </dl>                          | 包含延伸調整模式。<br/>                                                                                                                                                                                                                                                                                                     |

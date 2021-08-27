@@ -4,12 +4,12 @@ ms.assetid: 67811ddb-1961-4306-a62f-b9fd2d2d2b55
 title: 剖析器 DLL 匯出函數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 929541a1eda60740fe219352fee285a5a34a89df
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 94c04eb57cf5d5f76b60bca43fc5ed47ae641182efc74b21c8b41fa5d909af6b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104386098"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120037028"
 ---
 # <a name="parser-dll-export-functions"></a>剖析器 DLL 匯出函數
 

@@ -4,12 +4,12 @@ ms.assetid: 2e756dea-366c-4024-8fc8-6feabaef1954
 title: 'EC_REPAINT (Dshow) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ba86b54d6d465330ec1635ed7301ce774ef7cb27
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7edd498d84aaace460a10c88d5579c2f5a87bba42e1a5f393786134bbe727af3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106982064"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120102788"
 ---
 # <a name="ec_repaint"></a>EC 重新 \_ 繪製
 

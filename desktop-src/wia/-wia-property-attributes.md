@@ -4,12 +4,12 @@ ms.assetid: 00e04790-e319-41b3-b88f-8064912b91b1
 title: " (WIA) 的屬性屬性"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 47c635cb0d4e21fe2a1d65a3f21254f8e9c04d64
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cdee1cdee48bba6183f9bcae2abc521ac9f53dfb33eec544ab3ed6bead4947b9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104469116"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120007528"
 ---
 # <a name="property-attributes-wia"></a> (WIA) 的屬性屬性
 

@@ -4,16 +4,16 @@ description: 轉譯成 GDI 介面
 ms.assetid: a6096ff5-1e6e-4edb-b455-ea5d205072ff
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1ff292feb2250a4dd81abeb62d8ee48ebfb4488b
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 20df241e379e9a133cb662ea141fa27c86a4bb486c8ffba311423cb9afd83fbf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382694"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120048488"
 ---
 # <a name="render-to-a-gdi-surface"></a>轉譯成 GDI 介面
 
-在某些情況下，您可能會想要能夠在 GDI 介面上顯示 [DirectWrite](direct-write-portal.md) 的文字。 [**IDWriteBitmapRenderTarget**](/windows/win32/api/dwrite/nn-dwrite-idwritebitmaprendertarget)介面會封裝點陣圖和裝置內容，以將文字轉譯至。 您可以使用 [**IDWriteGdiInterop：： CreateBitmapRenderTarget**](/windows/win32/api/dwrite/nf-dwrite-idwritegdiinterop-createbitmaprendertarget)方法來建立 **IDWriteBitmapRenderTarget** ，如下列程式碼所示。
+在某些情況下，您可能會想要能夠在 GDI 介面上顯示[DirectWrite](direct-write-portal.md)文字。 [**IDWriteBitmapRenderTarget**](/windows/win32/api/dwrite/nn-dwrite-idwritebitmaprendertarget)介面會封裝點陣圖和裝置內容，以將文字轉譯至。 您可以使用 [**IDWriteGdiInterop：： CreateBitmapRenderTarget**](/windows/win32/api/dwrite/nf-dwrite-idwritegdiinterop-createbitmaprendertarget)方法來建立 **IDWriteBitmapRenderTarget** ，如下列程式碼所示。
 
 
 ```C++
@@ -69,7 +69,7 @@ STDMETHODIMP GdiTextRenderer::DrawGlyphRun(
 
 [**IDWriteBitmapRenderTarget**](/windows/win32/api/dwrite/nn-dwrite-idwritebitmaprendertarget)介面會轉譯成 (DC) 在記憶體中的裝置內容。 您可以使用 [**IDWriteBitmapRenderTarget：： GetMemoryDC**](/windows/win32/api/dwrite/nf-dwrite-idwritebitmaprendertarget-getmemorydc) 方法，取得此 DC 的控制碼。 一旦執行繪圖， **IDWriteBitmapRenderTarget** 物件的記憶體 DC 就必須複製到目的地 GDI 介面。
 
-您可以使用 [**GetBoundsRect**](/windows/win32/api/wingdi/nf-wingdi-getboundsrect) 函式來取出周框，然後使用周框與 [**BitBlt**](/windows/win32/api/wingdi/nf-wingdi-bitblt) 函數，將轉譯的 [DirectWrite](direct-write-portal.md) 文字從記憶體 DC 複製到 GDI 介面，如下列程式碼所示。
+您可以使用 [**GetBoundsRect**](/windows/win32/api/wingdi/nf-wingdi-getboundsrect)函式來取出周框，然後使用周框矩形搭配 [**BitBlt**](/windows/win32/api/wingdi/nf-wingdi-bitblt)函式，將轉譯的 [DirectWrite](direct-write-portal.md)文字從記憶體 DC 複製到 GDI 介面，如下列程式碼所示。
 
 
 ```C++
@@ -86,6 +86,6 @@ BitBlt(
 
 
 
- 
+ 
 
- 
+ 

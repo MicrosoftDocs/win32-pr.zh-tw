@@ -1,19 +1,19 @@
 ---
-description: 當音訊 dession 中斷連線時由音訊捕獲來源傳送，因為使用者登出 Windows 終端機服務 (WTS) 會話。
+description: 當音訊 dession 因為使用者登出 Windows 終端機服務 (WTS) 會話而中斷連線時，由音訊捕獲來源傳送。
 ms.assetid: 88B24E79-FEB8-46AF-9A6C-3FB426089584
 title: 'MECaptureAudioSessionDisconnected 事件 (Mfobjects) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dae45ecded4a2a412525da70133845c2487aa604
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 567df4839776ecacb5e25992f5f8cef4795186cffc53fb8abb433418066f3c40
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113920"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120114168"
 ---
 # <a name="mecaptureaudiosessiondisconnected-event"></a>MECaptureAudioSessionDisconnected 事件
 
-當音訊 dession 中斷連線時由音訊捕獲來源傳送，因為使用者登出 Windows 終端機服務 (WTS) 會話。
+當音訊 dession 因為使用者登出 Windows 終端機服務 (WTS) 會話而中斷連線時，由音訊捕獲來源傳送。
 
 ## <a name="event-values"></a>事件值
 
@@ -21,7 +21,7 @@ ms.locfileid: "104113920"
 
 
 
-| VARTYPE               | Description                           |
+| VARTYPE               | 描述                           |
 |-----------------------|---------------------------------------|
 | VT \_ 空白 <br/> | 沒有事件資料。<br/> <br/> |
 
@@ -39,8 +39,8 @@ ms.locfileid: "104113920"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                                               |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                                     |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                                               |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                                                     |
 | 標頭<br/>                   | <dl> <dt>Mfobjects (包含 Mfidl) </dt> </dl> |
 
 

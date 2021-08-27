@@ -4,12 +4,12 @@ ms.assetid: b6b8961c-169a-4ad6-b7a4-ec9870a4fa83
 title: System. IsDefaultSaveLocation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f51b86b1069645f052a98f0023cf9cb2ebec1efc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f1823ee496556df9e9dc799e642565e53ad5a3497821c986bcae2d9657709674
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103852204"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120058858"
 ---
 # <a name="systemisdefaultsavelocation"></a>System. IsDefaultSaveLocation
 

@@ -4,12 +4,12 @@ description: BITS 會使用 BITSServerNotificationType 屬性來判斷 BITS 如�
 ms.assetid: d5193d0c-3ab4-47ab-a570-fea2904a4371
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f0d35f6f5fec1a1de9ebd5c2c244a55bc1806b06
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a54e859730acaa1456624e9fa5c2302bc36efd9d085daeecdf234aef8f74729c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103931957"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120004938"
 ---
 # <a name="notification-protocol-for-server-applications"></a>伺服器應用程式的通知通訊協定
 

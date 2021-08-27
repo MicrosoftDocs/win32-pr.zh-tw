@@ -1,19 +1,19 @@
 ---
 title: '支援 WPD 裝置端內容 (CoNtextMenu) '
-description: 瞭解如何使用 Windows Shell API 或 WPD API 來取得 WPD 裝置物件的資料，而這些物件無法透過 Windows Vista 中的檔案系統存取。
+description: 瞭解如何使用 Windows Shell api 或 WPD API 來取得 WPD 裝置物件的資料，這些物件無法透過 Windows Vista 中的檔案系統存取。
 ms.assetid: 47fb7f49-9026-43c1-be46-8a520c048862
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 626c92633b1aa215c0e826a4b720de0375aa6048
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 8672793f75df7e1364827e42da4d427013a2dd89bcbb9653d1e74287a63367dd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112404281"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120006178"
 ---
 # <a name="supporting-wpd-device-side-content"></a>支援 WPD 裝置端內容
 
-因為無法透過 Windows Vista 中的檔案系統存取裝置端內容，所以您必須使用 Windows Shell API 或 WPD API 來取得裝置物件的資料。 這是一般內容功能表處理常式和 WPD 內容功能表處理常式之間的主要差異。 下列範例程式碼示範如何使用 Windows Shell API 抓取裝置端內容。
+因為無法透過 Windows Vista 中的檔案系統存取裝置端內容，所以您必須使用 Windows Shell api 或 WPD API 來取得裝置物件的資料。 這是一般內容功能表處理常式和 WPD 內容功能表處理常式之間的主要差異。 下列範例程式碼示範如何使用 Windows Shell API 來抓取裝置端內容。
 
 第一個步驟是專案識別碼清單或 PIDL 的初始化。  (此清單包含指定裝置物件的唯一識別碼。 ) 
 

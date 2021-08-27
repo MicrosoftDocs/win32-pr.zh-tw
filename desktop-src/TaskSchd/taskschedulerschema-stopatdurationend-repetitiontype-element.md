@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: a95f15f3a62d05b9bc28dc9f50b924979e2b748c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 896aa6db4ce5bf2c0dddf666024c143754afc97ec76bfb557e6431f593689857
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106967569"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120010538"
 ---
 # <a name="stopatdurationend-repetitiontype-element"></a>StopAtDurationEnd (repetitionType) 元素
 
@@ -34,7 +34,7 @@ ms.locfileid: "106967569"
 
 ## <a name="parent-element"></a>父元素
 
-| 元素 | 衍生自 | Description |
+| 元素 | 衍生自 | 描述 |
 |-|-|-|
 | [**重複**](taskschedulerschema-repetition-triggerbasetype-element.md) | [**repetitionType**](taskschedulerschema-repetitiontype-complextype.md) | 指定執行工作的頻率，以及啟動工作之後重複模式重複的時間長度。<br/> |
 
@@ -48,8 +48,8 @@ ms.locfileid: "106967569"
 
 | 需求 | 值 |
 |-|-|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/> |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/> |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 ## <a name="see-also"></a>另請參閱
 

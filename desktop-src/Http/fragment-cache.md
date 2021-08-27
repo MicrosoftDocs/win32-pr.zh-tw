@@ -4,12 +4,12 @@ description: HTTP 伺服器 API 提供的功能可讓使用者將資料片段儲
 ms.assetid: 0f9a768e-723c-4c7b-a746-6b817441409c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a3979fb03c4f8898644329fd27eafb7007adbcc9
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6659ead1139bd1b35a466a56c44357dd1f7f30cbac5fad8669445208be0e5136
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103932002"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120047248"
 ---
 # <a name="fragment-cache"></a>片段快取
 
@@ -22,7 +22,7 @@ HTTP 伺服器 API 提供的功能可讓使用者將資料片段儲存在快取�
 > [!Note]  
 > 將片段新增至快取並不保證可供未來傳送回應的呼叫使用。 片段快取專案可能會在任何時間變得無法使用。 使用無法使用之片段的呼叫會失敗。 使用片段快取的應用程式必須準備好處理此失敗。
 
- 
+ 
 
 ## <a name="sending-a-response-with-a-fragment"></a>使用片段傳送回應
 
@@ -36,9 +36,9 @@ HTTP 伺服器 API 提供的功能可讓使用者將資料片段儲存在快取�
 
 片段快取專案也可以在 [**HttpSendResponseEntityBody**](/windows/desktop/api/Http/nf-http-httpsendresponseentitybody) 函數中指定。 這段程式碼會加入至 [**HTTP \_ 資料 \_ 區塊**](/windows/desktop/api/Http/ns-http-http_data_chunk) 結構中的實體主體，如上所述。 同樣地，如果有任何指定的片段快取專案無法使用，則傳送可能會失敗。
 
- 
+ 
 
- 
+ 
 
 
 

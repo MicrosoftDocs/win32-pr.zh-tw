@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: aa808f76beefa440c3fa4a93a2301cf8b40dfcb2
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: abbf8117577067328bc71d519bd5d2a8b30bd264caae7ffe7a81683116e3d95a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106988551"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120035808"
 ---
 # <a name="glvertex3sv-function"></a>glVertex3sv 函式
 
@@ -40,7 +40,7 @@ void WINAPI glVertex3sv(
 
 <dl> <dt>
 
-*V* 
+*v* 
 </dt> <dd>
 
 三個元素的陣列指標。 元素是頂點的 x、y 和 z 座標。

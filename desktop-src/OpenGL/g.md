@@ -12,12 +12,12 @@ keywords:
 - groups
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c369c5c2af949bed221d1afd5fb0c05aebf14849
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 5e10820265218fe41d8510e5ef16a39a09a00c068cb31ab166de7bf489b98fca
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "106999809"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120082308"
 ---
 # <a name="g-opengl"></a>G (OpenGL) 
 

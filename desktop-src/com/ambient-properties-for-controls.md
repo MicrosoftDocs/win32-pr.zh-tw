@@ -4,12 +4,12 @@ description: 控制項的環境屬性
 ms.assetid: 19aa3bc2-1605-43e1-acf4-ab782d012539
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7e166a7186021b53798150968c9998fed243de00
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 421a643873e818d8f5c0e006b4bb9049c1230c5f4e18525cdf7ed2b4175797bf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372311"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119994058"
 ---
 # <a name="ambient-properties-for-controls"></a>控制項的環境屬性
 

@@ -3,7 +3,7 @@ title: 'EM_SETEVENTMASK 訊息 (Richedit .h) '
 description: 設定 rich edit 控制項的事件遮罩。 事件遮罩會指定控制項傳送至其父視窗的通知碼。
 ms.assetid: 139f6e44-fc54-40f2-a3f6-2b7efc819cae
 keywords:
-- EM_SETEVENTMASK message Windows 控制項
+- EM_SETEVENTMASK 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fd4d79d23f7b56a29bc4f5142ed03b23e8081687
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 244274d969473531bae7c1d124af24a88d6b98d9db8bdbe073d054a3a9e36ac1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466541"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120048498"
 ---
 # <a name="em_seteventmask-message"></a>EM \_ SETEVENTMASK 訊息
 
@@ -57,8 +57,8 @@ Rich edit 控制項的新事件遮罩。 如需事件遮罩的清單，請參閱
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Richedit。h</dt> </dl> |
 
 

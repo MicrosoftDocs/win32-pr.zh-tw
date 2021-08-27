@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 89dee7182cc79684dec1fd052f7ad67409ba513f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2f5356757d232570a31f5c8d05e01b695f130a33e34c1c0e98689b1c74feba40
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104509448"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120011718"
 ---
 # <a name="actioncollection-object"></a>Actioncollection 動作物件
 
@@ -42,7 +42,7 @@ ms.locfileid: "104509448"
 
 | 方法                                    | 描述                                                 |
 |:------------------------------------------|:------------------------------------------------------------|
-| [**清楚**](actioncollection-clear.md)   | 清除集合中的所有動作。<br/>      |
+| [**清除**](actioncollection-clear.md)   | 清除集合中的所有動作。<br/>      |
 | [**建立**](actioncollection-create.md) | 建立新的動作，並將其加入至集合。<br/> |
 | [**移除**](actioncollection-remove.md) | 從集合中移除指定的動作。<br/>  |
 
@@ -56,7 +56,7 @@ ms.locfileid: "104509448"
 
 
 
-| 屬性                                               | 存取類型           | Description                                                           |
+| 屬性                                               | 存取類型           | 描述                                                           |
 |:-------------------------------------------------------|:----------------------|:----------------------------------------------------------------------|
 | [**Context**](actioncollection-context.md)<br/> | 讀取/寫入<br/> | 取得或設定工作主體的識別碼。<br/> |
 | [**計數**](actioncollection-count.md)<br/>     | 唯讀<br/>  | 取得集合中的動作數目。<br/>              |
@@ -81,8 +81,8 @@ ms.locfileid: "104509448"
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                          |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                    |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                          |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                    |
 | 類型程式庫<br/>             | <dl> <dt>Taskschd.msc .tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 

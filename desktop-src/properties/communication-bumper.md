@@ -1,17 +1,17 @@
 ---
-description: 通訊
+description: 溝通
 ms.assetid: 591d1ad1-3f3e-4fc2-87fe-8e9bce7e9ec1
-title: 通訊
+title: 溝通
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c362ad9ea3b27e1e5975ee2228f99b3e6fc6d4a8
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: cbdf600f867f5c7136794ff3a838f6469f8e82ff2d23d891187c942aa0550975
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108087556"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120011558"
 ---
-# <a name="communication"></a>通訊
+# <a name="communication"></a>溝通
 
 ## <a name="in-this-section"></a>本節內容
 

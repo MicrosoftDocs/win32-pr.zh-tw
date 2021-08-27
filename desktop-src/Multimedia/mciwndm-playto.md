@@ -3,7 +3,7 @@ title: 'MCIWNDM_PLAYTO 訊息 (Vfw .h) '
 description: MCIWNDM \_ PLAYTO 訊息會從目前位置將 MCI 裝置的內容播放到指定的結束位置，或直到另一個命令停止播放為止。
 ms.assetid: ed940ee7-7b96-47da-99d3-6697f8a2e3d5
 keywords:
-- MCIWNDM_PLAYTO message Windows 多媒體
+- MCIWNDM_PLAYTO 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7cf0104204dc0306615ead91be036459cdf3c11d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 61004706c8dfacb05ad47c6ddf261ac813d58f5076dfdd4e134896b3f8c646e9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105431"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120037938"
 ---
 # <a name="mciwndm_playto-message"></a>MCIWNDM \_ PLAYTO 訊息
 

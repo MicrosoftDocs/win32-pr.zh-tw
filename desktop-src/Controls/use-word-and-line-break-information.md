@@ -4,12 +4,12 @@ description: Rich edit 控制項會呼叫稱為斷詞程式的函式，以找出
 ms.assetid: DDCE9814-0D39-494C-953A-FB6A98100EEA
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: feb90064e455bfeb8ee126e6107d75ef29b3a4f3
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 178770ce4a7206c18f6fbbc197d92e23ff0139ae637bd5f7ceb4159aee3270ca
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "106969939"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120059688"
 ---
 # <a name="how-to-use-word-and-line-break-information"></a>如何使用單字和換行資訊
 
@@ -19,12 +19,12 @@ Rich edit 控制項會呼叫稱為斷詞程式的函式，以找出單字之間�
 
 ### <a name="technologies"></a>技術
 
--   [Windows 控制項](window-controls.md)
+-   [Windows控制](window-controls.md)
 
 ### <a name="prerequisites"></a>必要條件
 
 -   C/C++
--   Windows 消費者介面程式設計
+-   Windows消費者介面程式設計
 
 ## <a name="instructions"></a>指示
 
@@ -46,7 +46,7 @@ Rich edit 控制項的斷詞程式也會將字元分組到字元類別，每個�
 
 
 
- 
+ 
 
 WBF \_ >breakafter 值是用來允許在未標示單字結尾的字元之後換行，例如連字號。
 
@@ -55,7 +55,7 @@ WBF \_ >breakafter 值是用來允許在未標示單字結尾的字元之後換�
 > [!Note]  
 > 由於多語系斷詞的複雜度，因此不建議 Microsoft Rich Edit 2.0 和更新版本使用此取代。
 
- 
+ 
 
 針對 Microsoft Rich Edit 1.0，您可以使用 [**EM \_ SETWORDBREAKPROCEX**](em-setwordbreakprocex.md) 訊息，以 [*EditWordBreakProcEx*](/windows/desktop/api/Richedit/nc-richedit-editwordbreakprocex) 函式取代預設的擴充字組分隔程式。 此函式會提供文字的其他相關資訊，例如字元集。 您可以使用 [**EM \_ GETWORDBREAKPROCEX**](em-getwordbreakprocex.md) 訊息來取出目前擴充的斷詞程式的位址。 請注意，Microsoft Rich Edit 2.0 和更新版本不支援 *EditWordBreakProcEx*、 **Em \_ GETWORDBREAKPROCEX** 和 **EM \_ SETWORDBREAKPROCEX**。
 
@@ -73,6 +73,6 @@ WBF \_ >breakafter 值是用來允許在未標示單字結尾的字元之後換�
 [Windows 通用控制項示範 (CppWindowsCommonControls) ](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
