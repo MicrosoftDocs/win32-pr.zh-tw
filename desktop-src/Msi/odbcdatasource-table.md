@@ -4,12 +4,12 @@ ms.assetid: dea28324-e48d-49e8-a4d2-309f7e7cb4b0
 title: ODBCDataSource 資料表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 819eecc671c75fa11db6e4a2706a511c2758ad00
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 43426ba7f2dd1214dc205213aa632558bbc44d81db5e6e32f7f7d66f82d30641
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973498"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120082718"
 ---
 # <a name="odbcdatasource-table"></a>ODBCDataSource 資料表
 
@@ -23,7 +23,7 @@ ODBCDataSource 資料表具有下列資料行。
 |-------------------|------------------------------|-----|----------|
 | DataSource        | [識別碼](identifier.md) | Y   | N        |
 | 元件\_       | [識別碼](identifier.md) | N   | N        |
-| Description       | [Text](text.md)             | N   | N        |
+| 描述       | [Text](text.md)             | N   | N        |
 | DriverDescription | [Text](text.md)             | N   | N        |
 | 註冊      | [整數](integer.md)       | N   | N        |
 
@@ -52,7 +52,7 @@ ODBCDataSource 資料表具有下列資料行。
 <span id="Description"></span><span id="description"></span><span id="DESCRIPTION"></span>描述
 </dt> <dd>
 
-為此資料來源註冊的描述。 此值無法當地語系化。 ODBC 資料來源描述不能超過 \_ SQL \_ \_ 的 DSN 長度上限。
+為此資料來源註冊的描述。 此值無法當地語系化。 ODBC 資料來源描述不能超過 \_ SQL \_ 的最大 DSN \_ 長度。
 
 </dd> <dt>
 
@@ -70,7 +70,7 @@ ODBCDataSource 資料表具有下列資料行。
 
 
 
-| 常數                                      | 十六進位 | Decimal | Description                            |
+| 常數                                      | 十六進位 | Decimal | 描述                            |
 |-----------------------------------------------|-------------|---------|----------------------------------------|
 | **msidbODBCDataSourceRegistrationPerMachine** | 0x000       | 0       | 每一部電腦都會註冊資料來源。 |
 | **msidbODBCDataSourceRegistrationPerUser**    | 0x001       | 1       | 每位使用者都會註冊資料來源。    |

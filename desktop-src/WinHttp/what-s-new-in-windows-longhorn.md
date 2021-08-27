@@ -1,21 +1,21 @@
 ---
 description: 從 Windows Server 2008 和 Windows Vista 開始，WinHTTP API 已經過增強，可包含下列功能。
 ms.assetid: b47a2e38-67bd-4d43-936c-8781641cb7f6
-title: Windows Server 2008 和 Windows Vista 的新功能
+title: Windows Server 2008 與 Windows Vista 有哪些新功能
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fac0f274b45e1db79fb79340b7f490de96f57e8f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7e474bbfa32d8f82737df4be6f537ca0a6f1bc870e2028d7dcdb1f418adb7120
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104469084"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120071698"
 ---
 # <a name="whats-new-in-windows-server-2008-and-windows-vista"></a>Windows Server 2008 和 Windows Vista 的新功能
 
 從 Windows Server 2008 和 Windows Vista 開始，WinHTTP API 已經過增強，可包含下列功能。
 
-## <a name="greater-than-4-gb-upload"></a>大於 4 GB 的上傳。
+## <a name="greater-than-4-gb-upload"></a>Upload 大於 4 GB。
 
 [**WinHttpSendRequest**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpsendrequest) 只能傳送 4 GB 的資料，因為 DWORD 總長度參數的大小有所限制。 若要讓應用程式傳送超過 4 GB 的資料，則會將內容長度標頭新增至要求，並將資料指定為大型 \_ 整數 (2 ^ 64 位元組) 。 如需詳細資訊，請參閱 **WinHttpSendRequest**。 [**IWinHttpRequest**](iwinhttprequest-interface.md) COM 物件不支援這項功能。
 
@@ -37,7 +37,7 @@ Transfer-Encoding 標頭可讓應用程式將區塊資料傳送至伺服器。 �
 
 ## <a name="additional-ssl-client-authentication-errors"></a>其他 SSL 用戶端驗證錯誤
 
-額外的 SSL 用戶端驗證錯誤會提供 SSL 用戶端憑證的詳細資訊。 **錯誤 \_WINHTTP \_ 用戶端憑證 \_ \_ 沒有 \_ 私密金鑰 \_** 和 **錯誤 \_ WINHTTP \_ 憑證 \_ 沒有 \_ 存取 \_ 私密金鑰 \_** 用戶端憑證錯誤是 windows Server 2008 和 windows Vista 的新錯誤。 [**IWinHttpRequest**](iwinhttprequest-interface.md) COM 物件會以 HRESULT 傳回這些錯誤。
+額外的 SSL 用戶端驗證錯誤會提供 SSL 用戶端憑證的詳細資訊。 **錯誤 \_winHTTP \_ 用戶端憑證 \_ \_ 沒有 \_ 私密金鑰 \_** 和 **錯誤 \_ WINHTTP \_ 憑證 \_ 無 \_ 需 \_ 存取 \_ 私密金鑰** 用戶端憑證錯誤是 Windows Server 2008 和 Windows Vista 的新問題。 [**IWinHttpRequest**](iwinhttprequest-interface.md) COM 物件會以 HRESULT 傳回這些錯誤。
 
  
 

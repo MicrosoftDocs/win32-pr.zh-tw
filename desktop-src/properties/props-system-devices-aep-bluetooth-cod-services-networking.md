@@ -1,17 +1,17 @@
 ---
 description: 裝置服務網路的藍牙類別。
 ms.assetid: 5c440c40-a0af-49d5-a4f8-25bfc62dc869
-title: Aep....。
+title: Aep。藍牙的.. 服務
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6ba7cdbba58a8b2e36ca1d6a912ca2476b7feaa2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e2cd11926e1108a4f61c5efb15601d2fb4b828632be9e5128772d96c2e192576
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193365"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120010888"
 ---
-# <a name="systemdevicesaepbluetoothcodservicesnetworking"></a>Aep....。
+# <a name="systemdevicesaepbluetoothcodservicesnetworking"></a>Aep。藍牙的.. 服務
 
 裝置服務網路的藍牙類別。
 

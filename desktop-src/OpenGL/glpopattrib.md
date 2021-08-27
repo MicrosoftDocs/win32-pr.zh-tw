@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e2258b0f16e6f61e660384931abc394300a29516
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 92034154138ab3747ce190c05716e2df0d82ed3f6b26aba38da780873ce03721
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106968171"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120081448"
 ---
 # <a name="glpopattrib-function"></a>glPopAttrib 函式
 
@@ -48,7 +48,7 @@ void WINAPI glPopAttrib(void);
 
 
 
-| Name                                                                                                  | 意義                                                                                                                               |
+| 名稱                                                                                                  | 意義                                                                                                                               |
 |-------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**GL \_ 堆疊 \_ 下溢**</dt> </dl>   | 當屬性堆疊是空的時，就會呼叫此函式。<br/>                                                               |
 | <dl> <dt>**GL \_ 不正確 \_ 操作**</dt> </dl> | 呼叫 [**glBegin**](glbegin.md) 和對應的 [**glEnd**](glend.md)呼叫之間呼叫了函數。<br/> |

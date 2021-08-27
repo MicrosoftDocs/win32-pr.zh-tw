@@ -18,12 +18,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2b5ac2fd725ec07102c08e93b2bfb39dabe701ba
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0d60f64cf8bc350ca80072b2c7a43ecabf2fbe5d4650188b7d5a5e5c05a4fbc7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934118"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120072198"
 ---
 # <a name="itssbenvironmentname-property"></a>ITsSbEnvironment：： Name 屬性
 
@@ -58,7 +58,7 @@ HRESULT get_Name(
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | 都不支援<br/>                                                            |
 | 最低支援的伺服器<br/> | Windows Server 2012<br/>                                                       |
-| Idl<br/>                      | <dl> <dt>Sbtsv .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>Sbtsv .idl</dt> </dl> |
 
 
 

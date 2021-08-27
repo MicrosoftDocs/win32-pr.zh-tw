@@ -1,19 +1,19 @@
 ---
 title: 正在捕獲網路錯誤
-description: WNet 函式會傳回錯誤碼，以與工作組的視窗相容。 每個 WNet 函數也會設定由 GetLastError 傳回的錯誤碼值。
+description: WNet 函式會傳回錯誤碼，以與工作組 Windows 的相容性。 每個 WNet 函數也會設定由 GetLastError 傳回的錯誤碼值。
 ms.assetid: 8188304a-8ab3-4c43-a6d6-2806043cc195
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 436d63b51d0f57698403d206774710450eee1c8e
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: e92f02a05ab93d50b9c448ae280e5de7ddbed1260cf1df8b8b3e56aa33aaeff4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106969722"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120072018"
 ---
 # <a name="retrieving-network-errors"></a>正在捕獲網路錯誤
 
-WNet 函式會傳回錯誤碼，以與工作組的視窗相容。 每個 WNet 函數也會設定由 [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror)傳回的錯誤碼值。
+WNet 函式會傳回錯誤碼，以與工作組 Windows 的相容性。 每個 WNet 函數也會設定由 [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror)傳回的錯誤碼值。
 
 當其中一個 WNet 函式傳回錯誤 \_ 擴充 \_ 錯誤時，應用程式可以呼叫 [**WNetGetLastError**](/windows/win32/api/winnetwk/nf-winnetwk-wnetgetlasterrora) 函式來取得錯誤的其他相關資訊。 這項資訊通常是網路提供者特有的。
 
@@ -85,6 +85,6 @@ BOOL WINAPI NetErrorHandler(HWND hwnd,
 
 
 
- 
+ 
 
- 
+ 

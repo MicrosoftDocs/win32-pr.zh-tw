@@ -4,18 +4,18 @@ ms.assetid: 2f70a640-7093-49c2-9f2c-99af870ecaf7
 title: LatitudeNumerator
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d974082109cab4d2e9ec18e9eefc410b6a116359
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e638f5196111a44d5f64de81bb60af3b32f8b99545c8a6045998929ed3c92f89
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104195457"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120010408"
 ---
 # <a name="systemgpslatitudenumerator"></a>LatitudeNumerator
 
 PKEY \_ GPS 緯度的分子 \_ 。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

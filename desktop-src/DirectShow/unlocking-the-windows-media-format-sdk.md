@@ -1,19 +1,19 @@
 ---
-description: 解除鎖定 Windows Media Format SDK
+description: 解除鎖定 Windows 媒體格式 SDK
 ms.assetid: 7ede8bda-3b26-452d-8ce9-cd2410ffd9f4
-title: 解除鎖定 Windows Media Format SDK
+title: 解除鎖定 Windows 媒體格式 SDK
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7e9807794dc7e42c563f2f7d45dcb0b1b684aad1
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 6e1f332711e9fd12c9b0ff1f789438d051487b81711f157ae1024a8e47973386
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106988525"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120078658"
 ---
-# <a name="unlocking-the-windows-media-format-sdk"></a>解除鎖定 Windows Media Format SDK
+# <a name="unlocking-the-windows-media-format-sdk"></a>解除鎖定 Windows 媒體格式 SDK
 
-若要存取7或7.1 版的 Windows Media Format SDK，應用程式必須在執行時間提供軟體憑證，也稱為金鑰。 此索引鍵包含在應用程式在組建時連結的靜態程式庫，稱為 wmstub。 只有在建立或讀取受 DRM 保護的檔案時，才需要個別的金鑰。 您可以使用 Windows Media Format SDK 提供的靜態程式庫來建立非 DRM 檔案。 如需取得 DRM 金鑰的詳細資訊，請參閱 Windows Media Format SDK。 當 DirectShow 應用程式新增至篩選圖形時，它會提供其憑證給 WM ASF 寫入器。 應用程式必須使用 COM **IServiceProvider** 和 **IObjectWithSite** 介面註冊為金鑰提供者。 使用這項技術時，應用程式會實作為衍生自 **IServiceProvider** 的金鑰提供者類別。 這個類別會執行三個標準 COM 方法（**AddRef**、 **QueryInterface** 和 **Release**）以及一個額外的 **QueryService** 方法（由篩選圖形管理員呼叫）。 **QueryService** 會呼叫 Windows MEDIA Format SDK 方法 [**WMCreateCertificate**](/previous-versions/windows/desktop/legacy/dd757745(v=vs.85)) ，並將指標移至篩選圖形管理員，以指向所建立的憑證。 如果憑證有效，則篩選圖形管理員可讓圖形建立程式繼續進行。
+若要存取 Windows 媒體格式 SDK 的7或7.1 版本，應用程式必須在執行時間提供軟體憑證，也稱為金鑰。 此索引鍵包含在應用程式在組建時連結的靜態程式庫，稱為 wmstub。 只有在建立或讀取受 DRM 保護的檔案時，才需要個別的金鑰。 您可以使用 Windows 媒體格式 SDK 提供的靜態程式庫來建立非 DRM 檔案。 如需取得 DRM 金鑰的詳細資訊，請參閱 Windows 媒體格式 SDK。 DirectShow 的應用程式會在將其憑證新增至篩選圖形時，提供其憑證給 WM ASF 寫入器。 應用程式必須使用 COM **IServiceProvider** 和 **IObjectWithSite** 介面註冊為金鑰提供者。 使用這項技術時，應用程式會實作為衍生自 **IServiceProvider** 的金鑰提供者類別。 這個類別會執行三個標準 COM 方法（**AddRef**、 **QueryInterface** 和 **Release**）以及一個額外的 **QueryService** 方法（由篩選圖形管理員呼叫）。 **QueryService** 會呼叫 Windows 媒體格式 SDK 方法 [**WMCreateCertificate**](/previous-versions/windows/desktop/legacy/dd757745(v=vs.85)) ，並傳回至篩選圖形管理員所建立之憑證的指標。 如果憑證有效，則篩選圖形管理員可讓圖形建立程式繼續進行。
 
 > [!Note]  
 > 若要建立應用程式，請針對 [**WMCreateCertificate**](/previous-versions/windows/desktop/legacy/dd757745(v=vs.85))的原型包含 Wmsdkidl，並連結至 Wmstub .lib 程式庫。

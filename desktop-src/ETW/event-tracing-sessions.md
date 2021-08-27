@@ -4,12 +4,12 @@ ms.assetid: 6e446ee3-47a3-4fe1-9eb7-3dd74cad4e56
 title: 事件追蹤會話
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ce49453881d9106119dab15b64ac0698e9a493f3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2edfe4bdfaf621575d8f2f8ab7d81a09aae8bfbddcb3f63890c4083378bb905b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103850312"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120083238"
 ---
 # <a name="event-tracing-sessions"></a>事件追蹤會話
 

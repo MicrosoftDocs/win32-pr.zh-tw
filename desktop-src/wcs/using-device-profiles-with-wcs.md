@@ -3,13 +3,13 @@ title: 使用裝置設定檔搭配 WCS
 description: 裝置設定檔是用來管理色彩的基本工具。
 ms.assetid: 9ea420ad-dcf1-4ba9-b739-308be7a56a6c
 keywords:
-- Windows Color System (WCS) 、裝置設定檔
+- Windows色彩系統 (WCS) 、裝置設定檔
 - WCS (Windows 色彩系統) 、裝置設定檔
 - 影像色彩管理、裝置設定檔
 - 色彩管理，裝置設定檔
 - 色彩、裝置設定檔
-- Windows Color System (WCS) ，設定檔
-- WCS (Windows 色彩系統) ，設定檔
+- Windows色彩系統 (WCS) ，設定檔
+- WCS (Windows 色彩系統) 、設定檔
 - 影像色彩管理，設定檔
 - 色彩管理，設定檔
 - 色彩，設定檔
@@ -19,12 +19,12 @@ keywords:
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2cf58b46cbee67d437e7d6fe343c7f3a0fab451b
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 1c8211ff883f8e30e7b67b0168e6da980744b252cbb1b89412fc834ac6370cca
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106991405"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120090068"
 ---
 # <a name="using-device-profiles-with-wcs"></a>使用裝置設定檔搭配 WCS
 
@@ -58,7 +58,7 @@ ms.locfileid: "106991405"
 
 
 
-| 設定檔類型        | Description                                                                                                                   |
+| 設定檔類型        | 描述                                                                                                                   |
 |---------------------|-------------------------------------------------------------------------------------------------------------------------------|
 | 抽象設定檔    | 已調整為符合使用者特殊喜好設定的設定檔。                                                     |
 | 色彩空間設定檔 | 描述與裝置無關之色彩空間的設定檔。                                                                    |

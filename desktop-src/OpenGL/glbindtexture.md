@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e76009a486e3903ad8230891af8b7593ab8aaa47
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6f7f108a0ce4fbc60aba6dc0430227eab15218fe17f80800678fc16b54bbc39f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384829"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120082218"
 ---
 # <a name="glbindtexture-function"></a>glBindTexture 函式
 
@@ -65,7 +65,7 @@ void WINAPI glBindTexture(
 
 
 
-| Name                                                                                                  | 意義                                                                                                                                                                                                            |
+| 名稱                                                                                                  | 意義                                                                                                                                                                                                            |
 |-------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**GL \_ 無效 \_ 列舉**</dt> </dl>      | 參數 *目標* 不是可接受的值。<br/>                                                                                                                                                       |
 | <dl> <dt>**GL \_ 不正確 \_ 操作**</dt> </dl> | 參數 *材質* 沒有與 *目標* 相同的維度，或呼叫 [**glBegin**](glbegin.md) 和對應的 [**glEnd**](glend.md)呼叫之間呼叫了函數。<br/> |

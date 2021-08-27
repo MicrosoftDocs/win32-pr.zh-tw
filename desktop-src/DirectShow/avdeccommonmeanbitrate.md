@@ -4,12 +4,12 @@ ms.assetid: 11f6b5cb-10c6-470b-870d-b89983dba74e
 title: 'AVDecCommonMeanBitRate 屬性 (Codecapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: aa5cef2b854a3e35d2e1d97596b3da642b8d5cec
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: e09969d09bf788d6dc33b6b796cd9c05934819de9eaebe9d13081bc21c2c382e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103846552"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120079478"
 ---
 # <a name="avdeccommonmeanbitrate-property"></a>AVDecCommonMeanBitRate 屬性
 
@@ -31,8 +31,8 @@ ms.locfileid: "103846552"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 2000 專業版傳統型 \[ 應用程式 \| UWP 應用程式\]<br/>                     |
-| 最低支援的伺服器<br/> | Windows 2000 Server \[ desktop 應用程式 \| UWP 應用程式\]<br/>                           |
+| 最低支援的用戶端<br/> | Windows 2000 Professional \[ 桌面應用程式 \| UWP 應用程式\]<br/>                     |
+| 最低支援的伺服器<br/> | Windows 2000 Server \[ desktop apps \| UWP 應用程式\]<br/>                           |
 | 標頭<br/>                   | <dl> <dt>Codecapi。h</dt> </dl> |
 
 

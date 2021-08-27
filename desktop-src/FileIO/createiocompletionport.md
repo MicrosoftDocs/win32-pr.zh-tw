@@ -18,12 +18,12 @@ api_location:
 - MinKernelBase.dll
 - API-MS-Win-Core-io-l1-1-1.dll
 - api-ms-win-downlevel-kernel32-l1-1-0.dll
-ms.openlocfilehash: b85ec931e740de192655ada091a990cd97180b6f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6612c3087841aa0c13f131581f8a05c29403e4fccf81bd6f0dc338b1dd9e42a6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106979180"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120083158"
 ---
 # <a name="createiocompletionport-function"></a>CreateIoCompletionPort 函式
 
@@ -135,7 +135,7 @@ I/o 完成埠及其控制碼會與建立它的進程相關聯，而且在進程�
 
 I/o 完成通訊埠控制碼，以及與該特定 i/o 完成埠相關聯的每個檔案控制代碼，稱為 *i/o 完成埠的參考*。 當 i/o 完成通訊埠沒有其他參考時，就會釋放它。 因此，所有這些控制碼都必須適當地關閉，才能釋放 i/o 完成埠及其相關聯的系統資源。 滿足這些條件之後，請呼叫 [**CloseHandle**](/windows/desktop/api/handleapi/nf-handleapi-closehandle) 函式來關閉 i/o 完成埠控制碼。
 
-在 Windows 8 和 Windows Server 2012 中，下列技術支援此功能。
+在 Windows 8 和 Windows Server 2012 中，下列技術支援此函數。
 
 
 
@@ -157,9 +157,9 @@ I/o 完成通訊埠控制碼，以及與該特定 i/o 完成埠相關聯的每�
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows XP \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                                                                                                                                                                                                                                       |
-| 最低支援的伺服器<br/> | Windows Server 2003 \[ desktop app \| UWP 應用程式\]<br/>                                                                                                                                                                                                                                              |
-| 標頭<br/>                   | <dl> <dt>IoAPI (包含 Windows .h) ;</dt><dt>Windows server 2008 R2、windows 7、Windows server 2008、Windows Vista、Windows server 2003 和 WINDOWS XP (的 WinBase，包括 windows .h) </dt> </dl> |
+| 最低支援的用戶端<br/> | WindowsXP \[ desktop apps \| UWP 應用程式\]<br/>                                                                                                                                                                                                                                                       |
+| 最低支援的伺服器<br/> | WindowsServer 2003 \[ desktop app \| UWP 應用程式\]<br/>                                                                                                                                                                                                                                              |
+| 標頭<br/>                   | <dl> <dt>IoAPI (包含 Windows .h) ;</dt><dt>Windows server 2008 R2、Windows 7、Windows Server 2008、Windows Vista、Windows Server 2003 和 Windows XP (的 WinBase .h 包含 Windows .h) </dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>Kernel32.lib</dt> </dl>                                                                                                                                                                                                                  |
 | DLL<br/>                      | <dl> <dt>Kernel32.dll</dt> </dl>                                                                                                                                                                                                                  |
 
@@ -181,7 +181,7 @@ I/o 完成通訊埠控制碼，以及與該特定 i/o 完成埠相關聯的每�
 [使用 Windows 標頭](/windows/desktop/WinProg/using-the-windows-headers)
 </dt> <dt>
 
-[Windows 通訊端2](/windows/desktop/WinSock/windows-sockets-start-page-2)
+[Windows通訊端2](/windows/desktop/WinSock/windows-sockets-start-page-2)
 </dt> <dt>
 
 **函數**

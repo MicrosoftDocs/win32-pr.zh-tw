@@ -4,12 +4,12 @@ ms.assetid: 6074619c-6aa0-4b03-9208-10268682e704
 title: 回應在別處起始的會話
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 85e25651b58f8841ac4de9bf14f4d139161c1359
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5c74554b48919f7532561bfdf0bab7a163a58fbeb3734dc15e4a8d7e0869dad2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106992518"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120072848"
 ---
 # <a name="respond-to-session-initiated-elsewhere"></a>回應在別處起始的會話
 

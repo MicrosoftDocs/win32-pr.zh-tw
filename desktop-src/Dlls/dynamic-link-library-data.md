@@ -4,12 +4,12 @@ ms.assetid: b1f6811e-c413-4124-9ccb-ea59b7a8a7ff
 title: Dynamic-Link 程式庫資料
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 83280d3bfc449061c44f9e8bfd9b47833e7eca19
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8902eb6388624d958c7176a14b8893f8e2245ddd9370f6ba2ac71605b2379cf6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106988994"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120048438"
 ---
 # <a name="dynamic-link-library-data"></a>Dynamic-Link 程式庫資料
 
@@ -32,9 +32,9 @@ DLL 可以使用檔案對應來配置可在進程間共用的記憶體。 如需
 
 ## <a name="thread-local-storage"></a>執行緒區域儲存區
 
-執行緒區域儲存 (TLS) 函數可讓 DLL 配置索引，以針對多執行緒進程的每個執行緒儲存和取得不同的值。 例如，每次使用者開啟新的試算表時，試算表應用程式都可以建立相同執行緒的新實例。 提供各種試算表作業之函式的 DLL，可以使用 TLS 來儲存每個試算表目前狀態的相關資訊 (資料列、資料行等等) 。 如需執行緒區域儲存區的一般討論，請參閱 [執行緒區域儲存區](/windows/desktop/ProcThread/thread-local-storage)。 如需使用 [**DllMain**](dllmain.md) 函數設定執行緒區域儲存區的範例，請參閱 [在 Dynamic-Link 程式庫中使用執行緒區域儲存區](using-thread-local-storage-in-a-dynamic-link-library.md)。
+執行緒區域儲存 (TLS) 函數可讓 DLL 配置索引，以針對多執行緒進程的每個執行緒儲存和取得不同的值。 例如，每次使用者開啟新的試算表時，試算表應用程式都可以建立相同執行緒的新實例。 提供各種試算表作業之函式的 DLL，可以使用 TLS 來儲存每個試算表目前狀態的相關資訊 (資料列、資料行等等) 。 如需執行緒區域儲存區的一般討論，請參閱[執行緒區域儲存體](/windows/desktop/ProcThread/thread-local-storage)。 如需使用 [**DllMain**](dllmain.md)函數來設定執行緒區域儲存區的範例，請參閱 [Dynamic-Link 程式庫中的使用執行緒區域儲存體](using-thread-local-storage-in-a-dynamic-link-library.md)。
 
-**Windows Server 2003 和 WINDOWS XP：** Visual C++ 編譯器支援可讓您宣告執行緒區域變數的語法： **\_ declspec (執行緒)**。 如果您在 DLL 中使用此語法，您將無法在 Windows Vista 之前的 Windows 版本上，使用 [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) 或 [**LoadLibraryEx**](/windows/desktop/api/LibLoaderAPI/nf-libloaderapi-loadlibraryexa) 明確地載入 DLL。 如果您的 DLL 將明確載入，您必須使用執行緒區域儲存函式，而不是 **\_ declspec (執行緒)**。
+**Windows Server 2003 和 Windows XP：** Visual C++ 編譯器支援可讓您宣告執行緒區域變數的語法： **\_ declspec (執行緒)**。 如果您在 DLL 中使用此語法，您將無法 Windows 在 Windows Vista 之前，使用 [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya)或 [**LoadLibraryEx**](/windows/desktop/api/LibLoaderAPI/nf-libloaderapi-loadlibraryexa)明確地載入 dll。 如果您的 DLL 將明確載入，您必須使用執行緒區域儲存函式，而不是 **\_ declspec (執行緒)**。
 
  
 

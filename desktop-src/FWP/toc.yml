@@ -15,7 +15,7 @@
               href: object-model.md
             - name: 物件管理
               href: object-management.md
-            - name: WFP Version-Independent 名稱，並以特定的 Windows 版本為目標
+            - name: 以 Windows 的特定版本為目標的 WFP Version-Independent 名稱和目標
               href: wfp-version-independent-names-and-targeting-specific-versions-of-windows.md
         - name: WFP 操作
           href: basic-operation.md
@@ -44,7 +44,7 @@
               href: ale-multicast-broadcast-traffic.md
             - name: ALE 重新授權
               href: ale-re-authorization.md
-            - name: ALE 流程自訂
+            - name: ALE Flow 自訂
               href: ale-flow-customization.md
         - name: IPsec 設定
           href: ipsec-configuration.md
@@ -55,7 +55,7 @@
               href: negotiation-discovery-transport-mode.md
             - name: 界限模式中的協商探索傳輸模式
               href: negotiation-discovery-transport-mode-in-boundary-mode.md
-            - name: 通道模式
+            - name: Tunnel模式
               href: tunnel-mode.md
             - name: 保證加密
               href: guaranteed-encryption.md
@@ -118,13 +118,13 @@
           items:
             - name: 使用傳輸模式
               href: using-transport-mode.md
-            - name: 使用通道模式
+            - name: 使用 Tunnel 模式
               href: using-tunnel-mode.md
             - name: 手動 SA 金鑰
               href: manual-sa-keying.md
         - name: 最佳做法
           href: best-practices.md
-    - name: Windows 篩選平台 API 參考
+    - name: Windows篩選平臺 API 參考
       href: fwp-reference.md
       items:
         - name: WFP 常數

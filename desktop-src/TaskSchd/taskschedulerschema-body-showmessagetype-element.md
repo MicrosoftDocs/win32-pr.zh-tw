@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 3486601153f8e9dd7dac14f83800dae00a79a9f8
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c6b1fbacd450c05b8ff71521dacfa6e95c7efc70fc7d8909ca66f3390bf22295
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465809"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120010868"
 ---
 # <a name="body-showmessagetype-element"></a>ShowMessageType) 元素的內文 (主體
 
@@ -36,7 +36,7 @@ ms.locfileid: "104465809"
 
 
 
-| 元素                                                                                  | 衍生自                                                               | Description                                               |
+| 元素                                                                                  | 衍生自                                                               | 描述                                               |
 |------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|-----------------------------------------------------------|
 | [**ShowMessage (actionGroup)**](taskschedulerschema-showmessage-actiongroup-element.md) | [**showMessageType**](taskschedulerschema-showmessagetype-complextype.md) | 表示顯示訊息方塊的動作。<br/> |
 
@@ -54,8 +54,8 @@ ms.locfileid: "104465809"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

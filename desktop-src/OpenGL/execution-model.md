@@ -11,12 +11,12 @@ keywords:
 - framebuffers，執行模型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 86012912f9bd963da0489b83cc4a5c1e7e1722ff
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e7cb7c3c06baa0a56f4c59b14744b73962fced369d56f00cbf887b9ae6d09e2a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103932475"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120082458"
 ---
 # <a name="execution-model"></a>執行模型
 
@@ -29,9 +29,9 @@ OpenGL 命令的解讀模型是用戶端/伺服器。 應用程式程式碼 (用
 
 因此，沒有可設定畫面格緩衝區或初始化 OpenGL 的 OpenGL 命令。 框架緩衝區設定是在 OpenGL 之外與視窗系統一起完成;當視窗系統組態 OpenGL 轉譯的視窗時，就會發生 OpenGL 初始化。
 
- 
+ 
 
- 
+ 
 
 
 

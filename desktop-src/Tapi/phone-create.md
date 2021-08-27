@@ -4,12 +4,12 @@ ms.assetid: 62895b10-76ce-456e-ad02-e2b7764616a8
 title: 'PHONE_CREATE 訊息 (Tapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c92dfaad5d4007279f18890021f5cb39c22c4da9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 18633ca9f3d45e08c3e2e054d51261dabe6494f42055567a5a68707408f94d5c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106993475"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120072908"
 ---
 # <a name="phone_create-message"></a>電話 \_ 建立訊息
 

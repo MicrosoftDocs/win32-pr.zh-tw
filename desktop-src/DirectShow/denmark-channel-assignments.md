@@ -4,12 +4,12 @@ ms.assetid: 6ef5e1b9-08a0-4f3e-a26f-cf5bdf4ea464
 title: 丹麥通道指派
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 33597d1f6a3d0e32365630362dcd3d7dd83272a8
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: dd54c7161be11375fb899b985ecbf1f00f5d23de31e808fcfd23616b984932f2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103845828"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120079268"
 ---
 # <a name="denmark-channel-assignments"></a>丹麥通道指派
 
@@ -17,7 +17,7 @@ ms.locfileid: "103845828"
 
 如需下列資料表的說明，請參閱 [資料表和指派](tables-and-assignments.md)。
 
-在 Windows 7 中引進了下列通道指派。 先前使用的是 [Unicable Frequency 資料表](unicable-frequency-table.md) 。
+Windows 7 中引進了下列通道指派。 先前使用的是 [Unicable Frequency 資料表](unicable-frequency-table.md) 。
 
 ## <a name="cable-assignments"></a>纜線指派
 

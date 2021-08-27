@@ -4,12 +4,12 @@ ms.assetid: d9c1b860-f75f-4886-95d6-c62e9e5b69eb
 title: 搜尋命令的時間格式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: de8217873a9443c2b56c60523f95a6fe599ee045
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6e585a7dda12b40e7f501e51aff6ffed50d647066f03804c82e5ffa236f8623a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104514212"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120078718"
 ---
 # <a name="time-formats-for-seek-commands"></a>搜尋命令的時間格式
 

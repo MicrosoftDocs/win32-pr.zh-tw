@@ -4,12 +4,12 @@ ms.assetid: de83a9ad-4e88-4477-8c9e-6dd7d5ec9e8f
 title: 訊息副署
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b8dff2920217dd9a79f917f7b625da3919747d7c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4d95f9d082a2814501bdb948d1bfebdc5c2699012446c5189c5c3fc18612c1ef
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103690740"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120080638"
 ---
 # <a name="message-countersignatures"></a>訊息副署
 

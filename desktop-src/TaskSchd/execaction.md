@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cddd1b9b44612b4ce896fb3ceb99a6deeaa5e3a1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 140ff991bd26f779beee7407666572d8649bd9f1a2718b719713770745157656
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105690"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120072658"
 ---
 # <a name="execaction-object"></a>ExecAction 物件
 
@@ -39,7 +39,7 @@ ms.locfileid: "104105690"
 
 
 
-| 屬性                                                            | 存取類型           | Description                                                                                                                       |
+| 屬性                                                            | 存取類型           | 描述                                                                                                                       |
 |:--------------------------------------------------------------------|:----------------------|:----------------------------------------------------------------------------------------------------------------------------------|
 | [**引數**](/windows/desktop/api/taskschd/nf-taskschd-iexecaction-get_arguments)<br/>               | 讀取/寫入<br/> | 取得或設定與命令列操作相關聯的引數。<br/>                                                 |
 | [**Id**](/windows/desktop/api/taskschd/nf-taskschd-iaction-get_id)<br/>                                 | 讀取/寫入<br/> | 繼承自 [**動作**](action.md) 物件。 取得或設定動作的識別碼。<br/>                         |
@@ -69,8 +69,8 @@ ms.locfileid: "104105690"
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                          |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                    |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                          |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                    |
 | 類型程式庫<br/>             | <dl> <dt>Taskschd.msc .tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
