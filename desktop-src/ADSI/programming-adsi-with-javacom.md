@@ -10,12 +10,12 @@ keywords:
 - ADSI ADSI，範例程式碼 JAVA，系結至 ADSI 物件，並在該物件上叫用方法
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e4778d1d1f71920f880fe38a71874283f7cd8628ae0376b3f9ce227305ab184
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: aec873822d27a7b5fcf95aad7c31a8978552eb88
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118178972"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122880293"
 ---
 # <a name="programming-adsi-with-javacom"></a>使用 JAVA/COM 編寫 ADSI 程式設計
 
@@ -65,7 +65,7 @@ Visual c + + 會建立 JAVA 包裝函式類別的 activeds 封裝，並將封裝
 
 若要取得無法 cocreated 的 ADSI 物件，請使用其中一個已公開的 ADSI API 函式，例如 [**ADsGetObject**](/windows/desktop/api/Adshlp/nf-adshlp-adsgetobject) 或 [**ADsOpenObject**](/windows/desktop/api/Adshlp/nf-adshlp-adsopenobject)，這些函式也會封裝在 Activeds.dll 中。 Microsoft J/Direct 提供這些和其他原生 Api 的存取權。 上述程式碼範例的最後兩行說明這一點。
 
-在編譯時，請確定已啟用 Microsoft 語言延伸模組。 若要這樣做，請從 [Visual j + + 專案] 視窗中的 [ **Project** ] 功能表選取 [ **<project> 屬性 ...** ]。 然後，按一下 [ **<project> 屬性**] 對話方塊中的 [**編譯**] 索引標籤。 清除 [ **停用 Microsoft 語言擴充** 功能] 核取方塊。 如果是從命令列編譯，請使用 "/x-" 參數，例如：
+在編譯時，請確定已啟用 Microsoft 語言延伸模組。 若要這樣做，請從 [Visual j + + 專案] 視窗中的 [ **Project** ] 功能表選取 [ **&lt; 專案 &gt; 屬性**]。 然後，在 [ **&lt; 專案 &gt; 屬性**] 對話方塊中，按一下 [**編譯**] 索引標籤。 清除 [ **停用 Microsoft 語言擴充** 功能] 核取方塊。 如果是從命令列編譯，請使用 "/x-" 參數，例如：
 
 **jvc/x-SimpleADSI .java**
 

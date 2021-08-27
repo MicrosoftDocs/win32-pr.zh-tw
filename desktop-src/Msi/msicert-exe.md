@@ -4,12 +4,12 @@ ms.assetid: fc982813-583b-4fcd-88d8-9de227994e7b
 title: Msicert.exe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ede88930cdb6cc616d8c39fb400f0c67c31eecd01d6d1a7d1832421cb394bcc4
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: c1dbe8366093418e74ed4ab1cb8e8c23fb8036eb
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119534540"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122879737"
 ---
 # <a name="msicertexe"></a>Msicert.exe
 
@@ -29,9 +29,9 @@ MsiCert.exe 是一種命令列公用程式，可用來將外部封包檔的數�
 
 | 選項 | 參數        | 描述                                                                                             |
 |--------|------------------|---------------------------------------------------------------------------------------------------------|
-| -d     | <database> | 正在更新的資料庫 (.msi 檔案) 。                                                         |
+| -d     | &lt;database&gt; | 正在更新的資料庫 (.msi 檔案) 。                                                         |
 | -M     | <media Id> | 封包檔記錄中 [媒體資料表](media-table.md) 的 [DiskId] 欄位中的專案。 |
-| -c     | <cabinet>  | 數位簽署的封包檔路徑。                                                          |
+| -c     | &lt;內閣&gt;  | 數位簽署的封包檔路徑。                                                          |
 | -H     |                  | 包含數位簽章的雜湊。 這是選擇性的。                                            |
 
 

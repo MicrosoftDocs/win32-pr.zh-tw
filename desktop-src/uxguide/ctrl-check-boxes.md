@@ -4,12 +4,12 @@ description: 使用核取方塊時，使用者會在兩個明顯相反的選擇�
 ms.assetid: 7c39987d-807b-41c1-9788-65c3d468b976
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 29666991d0a0659f7ff3a95f12953504b70c6dc782049ac8d93d70df73afa5d1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 90d8c342f24c1c34f20a7a8d7ec5f0e9e150fb80
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118040609"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122884322"
 ---
 # <a name="check-boxes"></a>核取方塊
 
@@ -154,9 +154,9 @@ ms.locfileid: "118040609"
     -   顯示其他視窗，例如用來收集更多輸入的對話方塊。
     -   以動態方式顯示與所選取控制項相關的其他控制項 (畫面讀取器無法偵測到這類事件) 。
 
-### <a name="dont-show-this-item-again"></a>不要顯示此 <item> 再次
+### <a name="dont-show-this-ltitemgt-again"></a>不要再顯示此 &lt; 專案 &gt;
 
--   **<item>如果沒有更好的替代方案，請考慮使用 [不要再顯示這個選項] 選項，讓使用者隱藏週期性對話方塊。** 如果使用者真的需要此對話方塊，請嘗試事先判斷：如果有，請一律顯示對話方塊，如果沒有，則刪除對話方塊。
+-   **&lt;如果沒有更好的替代方案，請考慮使用 [不要再顯示這個專案 &gt; ] 選項來允許使用者隱藏週期性對話方塊。** 如果使用者真的需要此對話方塊，請嘗試事先判斷：如果有，請一律顯示對話方塊，如果沒有，則刪除對話方塊。
 
 如需詳細的指導方針和範例，請參閱 [對話方塊](win-dialog-box.md)。
 
@@ -230,7 +230,7 @@ ms.locfileid: "118040609"
 -   針對一組核取方塊，請將標籤文字放在選項之間的差異。 如果所有選項都有相同的簡介文字，請將該文字移至群組標籤。
 -   使用正片語。 請勿將標籤加上標籤，以便選取核取方塊，表示不執行動作。
 
-    -   **例外狀況：不要 <item> 再顯示** 核取方塊。
+    -   **例外狀況：不要 &lt; &gt; 再顯示此專案** 核取方塊。
 
     **不正確：**
 

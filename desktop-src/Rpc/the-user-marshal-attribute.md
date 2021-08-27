@@ -7,12 +7,12 @@ keywords:
 - user_marshal
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5d0501cfd3199d41a49da7f54919c86f9332ce976f33963f23c63a7938338da0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b769e6a7e176d5aeba68afd322cdd6f24d76c6b5
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118923528"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122883745"
 ---
 # <a name="the-user_marshal-attribute"></a>使用者 \_ 封送處理屬性
 
@@ -20,16 +20,16 @@ ms.locfileid: "118923528"
 
 您的應用程式特定類型可以是簡單、複合或指標類型。 主要限制是型別實例必須有固定且妥善定義的記憶體大小。 如果您的型別實例大小需要變更，請使用指標欄位，而不是符合標準的陣列。 或者，您也可以定義可變更型別的指標。
 
-如同 [ **\[ 有線 \_ 封送 \]** 處理] 屬性，您可以提供用於調整大小、封送處理、封送處理和釋放行程的常式。 下表描述四個使用者提供的常式名稱。 <type>是在 **\[ 使用者 \_ 封送 \]** 處理類型定義中指定的 userm *類型*。
+如同 [ **\[ 有線 \_ 封送 \]** 處理] 屬性，您可以提供用於調整大小、封送處理、封送處理和釋放行程的常式。 下表描述四個使用者提供的常式名稱。 此 &lt; 類型 &gt; 是 **\[ 使用者 \_ 封送 \]** 處理類型定義中指定的 userm *類型*。
 
 
 
-| 常式傳回的值                                                            | 描述                                                               |
+| 常式傳回的值                                                            | 說明                                                               |
 |--------------------------------------------------------------------|---------------------------------------------------------------------------|
-| [<type>\_UserSize](the-type-usersize-function.md)           | 在用戶端或伺服器端上進行封送處理之前，先調整 RPC 資料緩衝區的大小。 |
-| [<type>\_UserMarshal](the-type-usermarshal-function.md)     | 將用戶端或伺服器端上的資料封送處理。                           |
-| [<type>\_UserUnmarshal](the-type-userunmarshal-function.md) | 拆收用戶端或伺服器端上的資料。                         |
-| [<type>\_UserFree](the-type-userfree-function.md)           | 釋放伺服器端的資料。                                        |
+| [&lt;輸入 &gt; \_ UserSize](the-type-usersize-function.md)           | 在用戶端或伺服器端上進行封送處理之前，先調整 RPC 資料緩衝區的大小。 |
+| [&lt;輸入 &gt; \_ UserMarshal](the-type-usermarshal-function.md)     | 將用戶端或伺服器端上的資料封送處理。                           |
+| [&lt;輸入 &gt; \_ UserUnmarshal](the-type-userunmarshal-function.md) | 拆收用戶端或伺服器端上的資料。                         |
+| [&lt;輸入 &gt; \_ UserFree](the-type-userfree-function.md)           | 釋放伺服器端的資料。                                        |
 
 
 
@@ -37,9 +37,9 @@ ms.locfileid: "118923528"
 
 這些使用者提供的常式是由用戶端或伺服器應用程式，以方向屬性為基礎來提供。
 
-如果參數為 \[ [](/windows/desktop/Midl/in) \] ，則用戶端會傳送至伺服器。 用戶端需要 **<type> \_ UserSize** 和 **<type> \_ UserMarshal** 函數。 伺服器需要 **<type> \_ UserUnmarshal** 和 **<type> \_ UserFree** 函數。
+如果參數為 \[ [](/windows/desktop/Midl/in) \] ，則用戶端會傳送至伺服器。 用戶端需要 **&lt; 類型 &gt; \_ UserSize** 和 **&lt; 類型 &gt; \_ UserMarshal** 函數。 伺服器需要 **&lt; 類型 &gt; \_ UserUnmarshal** 和 **&lt; 類型 &gt; \_ UserFree** 函數。
 
-針對 \[ [out](/windows/desktop/Midl/out-idl) \] 參數，伺服器會傳送至用戶端。 當用戶端需要 **<type> \_ UserMarshal** 函式時，伺服器需要 **<type> \_ UserSize** 和 **<type> \_ UserMarshal** 函數。
+針對 \[ [out](/windows/desktop/Midl/out-idl) \] 參數，伺服器會傳送至用戶端。 當用戶端需要 **&lt; 型別 &gt; \_ UserMarshal** 函式時，伺服器需要 **&lt; 類型 &gt; \_ UserSize** 和 **&lt; 類型 &gt; \_ UserMarshal** 函數。
 
 ## <a name="related-topics"></a>相關主題
 

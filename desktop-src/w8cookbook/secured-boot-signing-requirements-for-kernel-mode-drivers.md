@@ -4,12 +4,12 @@ description: 核心模式驅動程式的安全開機功能簽署需求
 ms.assetid: 7FF64BA2-89E3-4E6F-B542-7BC7BF7F4FB2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 05146645e01406fed0129c4f31660509e04581ce889213c7addf01731e45e87f
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 8f6593df6707dc26b36fceca796c436ed45f3f0c
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119932168"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122885066"
 ---
 # <a name="secure-boot-feature-signing-requirements-for-kernel-mode-drivers"></a>核心模式驅動程式的安全開機功能簽署需求
 
@@ -19,13 +19,13 @@ ms.locfileid: "119932168"
 **伺服器**– Windows Server 2012  
 
 
-## <a name="description"></a>描述
+## <a name="description"></a>說明
 
 在 Windows 8 和 Windows Server 2012 （包括 WinPE）中，核心已鎖定，以防止開機或根套件所引進的惡意程式碼規避已簽署驅動程式的 Windows 作業系統安全性需求。
 
 此變更會影響支援整合可延伸韌體介面之裝置的所有核心模式驅動程式 (UEFI) 安全開機;Windows 8 用戶端電腦的認證，以及伺服器的選擇性選項，都需要 UEFI 安全開機。 它不會影響使用者模式驅動程式。
 
-核心模式驅動程式的標準開發牽涉到使用核心模式的偵錯工具或開機設定資料 (BCD) <testsigning> 設定。 開啟安全開機時，這兩個都是停用的。
+核心模式驅動程式的標準開發牽涉到使用核心模式的偵錯工具或開機設定資料 (BCD) &lt; testsigning &gt; 設定。 開啟安全開機時，這兩個都是停用的。
 
 ## <a name="manifestation"></a>表現
 

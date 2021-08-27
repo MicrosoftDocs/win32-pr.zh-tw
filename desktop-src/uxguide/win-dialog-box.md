@@ -4,12 +4,12 @@ description: 對話方塊是一種次要視窗，可讓使用者執行命令、�
 ms.assetid: 2ded9f30-d45f-4027-a85d-4e7d0e412793
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 6cb076b7e6d23c9ca03a71d6c32b1096cde59ac0
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.openlocfilehash: dbcf7887a90c7407224bbfbb0c9b316ccb426f76
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 08/26/2021
-ms.locfileid: "122986601"
+ms.locfileid: "122880016"
 ---
 # <a name="dialog-boxes-design-basics"></a> (設計基本概念的對話方塊) 
 
@@ -458,14 +458,7 @@ hh 小時、mm 分鐘、ss 秒
 -   **根據設計模式選擇認可按鈕：**
 
     
-| 標籤 | 值 |
-|--------|-------|
-| <strong>模式</strong><br /> | <strong>認可按鈕</strong><br /> | 
-| <strong>使用按鈕) 的問題對話方塊 (</strong><br /> | 下列其中一組精簡的命令： Yes/No、Yes/No/Cancel、[Do it]/Cancel、[do it]/[do do]、[Do it do]/[no do it]/Cancel。<br /> | 
-| <strong>問題對話方塊 (使用連結) </strong><br /> | 取消。<br /> | 
-| <strong>選擇對話方塊</strong><br /> | <ul><li>強制回應對話方塊：確定/取消或 [執行]/Cancel</li><li>非強制回應對話方塊：對話方塊和標題列上的關閉按鈕</li><li>工作窗格：標題列上的 [關閉] 按鈕</li></ul> | 
-| <strong>進度對話方塊</strong><br /> | 如果將環境傳回至先前的狀態，請使用 [取消]， (不會有副作用) ;否則，請使用 Stop。<br /> | 
-| <strong>資訊對話方塊</strong><br /> | 很接近了。<br /> | 
+| | | <strong>模式</strong><br /> | <strong>認可按鈕</strong><br /> | | <strong>使用按鈕) 的問題對話方塊 (</strong><br /> |下列其中一組精簡的命令： Yes/No、Yes/No/Cancel、[Do it]/Cancel、[do it]/[do do]、[Do it do]/[no do it]/Cancel。<br /> | | <strong>問題對話方塊 (使用連結) </strong><br /> |取消。<br /> | | <strong>選擇對話方塊</strong><br /> | <ul><li>強制回應對話方塊：確定/取消或 [執行]/Cancel</li><li>非強制回應對話方塊：對話方塊和標題列上的關閉按鈕</li><li>工作窗格：標題列上的 [關閉] 按鈕</li></ul> | | <strong>進度對話方塊</strong><br /> |如果將環境傳回至先前的狀態，請使用 [取消]， (不會有副作用) ;否則，請使用 Stop。<br /> | | <strong>資訊對話方塊</strong><br /> |關閉。<br /> | 
 
 
     

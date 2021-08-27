@@ -3,7 +3,7 @@ title: ApplicationMenu 元素
 description: 表示應用程式功能表。 |ApplicationMenu 元素
 ms.assetid: 815e0462-ea45-44b1-81bf-f5797b22e920
 keywords:
-- ApplicationMenu 元素視窗功能區
+- ApplicationMenu 元素 Windows 功能區
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: e535fbcc09a404ad7dd5a4019438f4513f5c77c6
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 7fcf64d3fa3b618a4e66777b8fd4c0d831a33126
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111443049"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122626124"
 ---
 # <a name="applicationmenu-element"></a>ApplicationMenu 元素
 
@@ -40,10 +40,10 @@ ms.locfileid: "111443049"
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col  />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">

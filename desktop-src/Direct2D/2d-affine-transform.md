@@ -6,12 +6,12 @@ keywords:
 - 2D 仿射轉換效果
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8b341213dcea6ea37f5dc6b95508ad48f8dfd95243e0b216a4b4522e324150d3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 337168db7a422a8a22785316d2af1960e3a78b2f
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118161138"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122478094"
 ---
 # <a name="2d-affine-transform-effect"></a>2D 仿射轉換效果
 
@@ -69,41 +69,14 @@ m_d2dContext->EndDraw();
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>顯示名稱和索引列舉</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>InterpolationMode<br/> D2D1_2DAFFINETRANSFORM_PROP_INTERPOLATION_MODE<br/></td>
-<td>用來調整影像的插補模式。 有6個調整模式的品質和速度範圍。<br/> 類型為 D2D1_2DAFFINETRANSFORM_INTERPOLATION_MODE。<br/> 預設值為 D2D1_2DAFFINETRANSFORM_INTERPOLATION_MODE_LINEAR。<br/></td>
-</tr>
-<tr class="even">
-<td>BorderMode<br/> D2D1_2DAFFINETRANSFORM_PROP_BORDER_MODE<br/></td>
-<td>用來計算影像（軟或硬）框線的模式。 如需詳細資訊，請參閱 <a href="https://www.bing.com/search?q=Border+modes">框線模式</a> 。 <br/> 類型為 D2D1_BORDER_MODE。<br/> 預設值為 D2D1_BORDER_MODE_SOFT。<br/></td>
-</tr>
-<tr class="odd">
-<td>TransformMatrix<br/> D2D1_2DAFFINETRANSFORM_PROP_TRANSFORM_MATRIX<br/></td>
-<td>使用 Direct2D 矩陣 <a href="direct2d-transforms-overview.md">轉換</a>來轉換影像的3x2 矩陣。 <br/> 類型為 D2D1_MATRIX_3X2_F。<br/> 預設值為 Matrix3x2F：： Identity () 。<br/></td>
-</tr>
-<tr class="even">
-<td>清晰度<br/> D2D1_2DAFFINETRANSFORM_PROP_SHARPNESS<br/></td>
-<td>在高品質的三重插補點模式中，調整篩選的清晰度層級是介於0和1之間的浮點數。 這些值沒有用。 您可以使用清晰度來調整影像縮放時的影像品質。<br/> 清晰度因素會影響核心的圖形。 最高的清晰度因數越小，核心就越小。 <br/>
-<blockquote>
-[!Note]<br />
-這個屬性只會影響高品質的三次插補模式。
-</blockquote>
-<br/> 類型為 FLOAT。<br/> 預設值為 1.0 f。<br/></td>
-</tr>
-</tbody>
-</table>
+
+| 顯示名稱和索引列舉 | Description | 
+|------------------------------------|-------------|
+| InterpolationMode<br /> D2D1_2DAFFINETRANSFORM_PROP_INTERPOLATION_MODE<br /> | 用來調整影像的插補模式。 有6個調整模式的品質和速度範圍。<br /> 類型為 D2D1_2DAFFINETRANSFORM_INTERPOLATION_MODE。<br /> 預設值為 D2D1_2DAFFINETRANSFORM_INTERPOLATION_MODE_LINEAR。<br /> | 
+| BorderMode<br /> D2D1_2DAFFINETRANSFORM_PROP_BORDER_MODE<br /> | 用來計算影像（軟或硬）框線的模式。 如需詳細資訊，請參閱 <a href="https://www.bing.com/search?q=Border+modes">框線模式</a> 。 <br /> 類型為 D2D1_BORDER_MODE。<br /> 預設值為 D2D1_BORDER_MODE_SOFT。<br /> | 
+| TransformMatrix<br /> D2D1_2DAFFINETRANSFORM_PROP_TRANSFORM_MATRIX<br /> | 使用 Direct2D 矩陣 <a href="direct2d-transforms-overview.md">轉換</a>來轉換影像的3x2 矩陣。 <br /> 類型為 D2D1_MATRIX_3X2_F。<br /> 預設值為 Matrix3x2F：： Identity () 。<br /> | 
+| 清晰度<br /> D2D1_2DAFFINETRANSFORM_PROP_SHARPNESS<br /> | 在高品質的三重插補點模式中，調整篩選的清晰度層級是介於0和1之間的浮點數。 這些值沒有用。 您可以使用清晰度來調整影像縮放時的影像品質。<br /> 清晰度因素會影響核心的圖形。 最高的清晰度因數越小，核心就越小。 <br /><blockquote>[!Note]<br />這個屬性只會影響高品質的三次插補模式。</blockquote><br /> 類型為 FLOAT。<br /> 預設值為 1.0 f。<br /> | 
+
 
 
 
