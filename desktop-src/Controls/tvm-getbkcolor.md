@@ -3,7 +3,7 @@ title: 'TVM_GETBKCOLOR 訊息 (Commctrl .h) '
 description: 抓取控制項目前的背景色彩。 您可以使用 TreeView GetBkColor 宏明確地傳送此訊息 \_ 。
 ms.assetid: 1b9eea90-54cd-47b9-befa-ec0128a0230f
 keywords:
-- TVM_GETBKCOLOR message Windows 控制項
+- TVM_GETBKCOLOR 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8077bc9655c088aceefe239ed019cc45874d38ff
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8a5a6530b1aada1fab06c0b353d7ead666e61f0f796b890d1f5c56fe0be094b5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106966140"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120088448"
 ---
 # <a name="tvm_getbkcolor-message"></a>TVM \_ GETBKCOLOR 訊息
 
@@ -45,8 +45,8 @@ ms.locfileid: "106966140"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

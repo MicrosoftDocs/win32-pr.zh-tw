@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4af131ca3a126cd6f1fd54160418bfbe70cc9cce
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: 8527853bf88b073f3505f4b4170ff6165f7f9aa7
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113119083"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122477484"
 ---
 # <a name="switch-statement"></a>switch 陳述式
 
@@ -43,51 +43,14 @@ ms.locfileid: "113119083"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>屬性</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>扁平化</td>
-<td>將語句編譯為一系列的 <strong>if</strong> 語句，每個語句都有壓 <strong>平</strong> 合併屬性。</td>
-</tr>
-<tr class="even">
-<td>分支</td>
-<td>將語句編譯為一系列的 <strong>if</strong> 語句，其中每個語句都有 <strong>分支</strong> 屬性。
-<blockquote>
-[!Note]<br />
-當您使用 <a href="dx-graphics-hlsl-sm2.md">著色器模型</a> 2.X 或 <a href="dx-graphics-hlsl-sm3.md">著色器模型 3.0</a>時，每次使用動態分支都會耗用資源。 因此，如果您在以這些設定檔為目標時，過度使用動態分支，您可能會收到編譯錯誤。
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td>forcecase</td>
-<td>在硬體中強制執行 switch 語句。
-<blockquote>
-[!Note]<br />
-需要 <a href="/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-intro">功能層級</a> 10_0 或更新版本的硬體。
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td>call</td>
-<td>交換器中個別案例的內文將會移至硬體副程式，而參數將會是一連串的副程式呼叫。
-<blockquote>
-[!Note]<br />
-需要 <a href="/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-intro">功能層級</a> 10_0 或更新版本的硬體。
-</blockquote>
-<br/></td>
-</tr>
-</tbody>
-</table>
+
+| 屬性 | 描述 | 
+|-----------|-------------|
+| 扁平化 | 將語句編譯為一系列的 <strong>if</strong> 語句，每個語句都有壓 <strong>平</strong> 合併屬性。 | 
+| 分支 | 將語句編譯為一系列的 <strong>if</strong> 語句，其中每個語句都有 <strong>分支</strong> 屬性。<blockquote>[!Note]<br />當您使用 <a href="dx-graphics-hlsl-sm2.md">著色器模型</a> 2.X 或 <a href="dx-graphics-hlsl-sm3.md">著色器模型 3.0</a>時，每次使用動態分支都會耗用資源。 因此，如果您在以這些設定檔為目標時，過度使用動態分支，您可能會收到編譯錯誤。</blockquote><br /> | 
+| forcecase | 在硬體中強制執行 switch 語句。<blockquote>[!Note]<br />需要 <a href="/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-intro">功能層級</a> 10_0 或更新版本的硬體。</blockquote><br /> | 
+| call | 交換器中個別案例的內文將會移至硬體副程式，而參數將會是一連串的副程式呼叫。<blockquote>[!Note]<br />需要 <a href="/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-intro">功能層級</a> 10_0 或更新版本的硬體。</blockquote><br /> | 
+
 
 
 
@@ -189,7 +152,7 @@ else
 
 <dl> <dt>
 
-[流程式控制制](dx-graphics-hlsl-flow-control.md)
+[Flow控制](dx-graphics-hlsl-flow-control.md)
 </dt> </dl>
 
  

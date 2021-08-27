@@ -4,12 +4,12 @@ ms.assetid: 03325f5e-4d4a-405b-b644-3d8c03435e17
 title: 使用 WSPJoinLeaf
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ef4426c0d22657b26dcc2217d856865d9ebe98db
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 057be0e2c1f2c3ffec21d64f3e95f6ad0ee584698e66f57cf4489ff6be887dc5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191327"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120121008"
 ---
 # <a name="using-wspjoinleaf"></a>使用 WSPJoinLeaf
 

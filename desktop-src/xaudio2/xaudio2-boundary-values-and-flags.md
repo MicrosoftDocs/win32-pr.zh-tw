@@ -4,12 +4,12 @@ ms.assetid: 074ac40e-a17e-7366-1954-6699407b82f7
 title: 'XAudio2 界限值和旗標 (Xaudio2 .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 198fae838e8c990f3d1aaebf58bb79fb6e75e79623b6b44ff6b05231d10676c9
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 11293b55a44b0aefdeacf95b9e36e90a626de2c1
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119545458"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122470704"
 ---
 # <a name="xaudio2-boundary-values-and-flags"></a>XAudio2 界限值和旗標
 
@@ -58,70 +58,20 @@ XAudio2 常數，可指定預設參數、最大值和旗標。
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">常數</th>
-<th style="text-align: left;">描述</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><span id="XAUDIO2_DEBUG_ENGINE"></span><span id="xaudio2_debug_engine"></span><dl> <dt><strong>XAUDIO2_DEBUG_ENGINE</strong></dt> </dl></td>
-<td style="text-align: left;">指定應使用音訊引擎的 debug/checked 版本，而不是發行版本。 請參閱 <a href="/windows/desktop/api/xaudio2/nf-xaudio2-xaudio2create"><strong>XAudio2Create</strong></a>。<br/>
-<blockquote>
-[!Note]<br />
-Windows 8 或 Windows 10 不支援此旗標。
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><span id="XAUDIO2_VOICE_NOPITCH"></span><span id="xaudio2_voice_nopitch"></span><dl> <dt><strong>XAUDIO2_VOICE_NOPITCH</strong></dt> </dl></td>
-<td style="text-align: left;">指定來源語音不會使用移動音調，請參閱 <a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-createsourcevoice"><strong>IXAudio2：： CreateSourceVoice</strong></a>。<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><span id="XAUDIO2_VOICE_NOSRC"></span><span id="xaudio2_voice_nosrc"></span><dl> <dt><strong>XAUDIO2_VOICE_NOSRC</strong></dt> </dl></td>
-<td style="text-align: left;">指定來源語音上沒有可用的取樣率轉換，語音的輸出必須具有相同的取樣率。 請參閱 <a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-createsourcevoice"><strong>IXAudio2：： CreateSourceVoice</strong></a>。<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><span id="XAUDIO2_VOICE_USEFILTER"></span><span id="xaudio2_voice_usefilter"></span><dl> <dt><strong>XAUDIO2_VOICE_USEFILTER</strong></dt> </dl></td>
-<td style="text-align: left;">指定要在語音上使用篩選效果。 請參閱 <a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-createsourcevoice"><strong>IXAudio2：： CreateSourceVoice</strong></a> 和 <a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-createsubmixvoice"><strong>IXAudio2：： CreateSubmixVoice</strong></a>。<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><span id="XAUDIO2_PLAY_TAILS"></span><span id="xaudio2_play_tails"></span><dl> <dt><strong>XAUDIO2_PLAY_TAILS</strong></dt> </dl></td>
-<td style="text-align: left;">指定語音在停止之後，應繼續發出效果輸出。 請參閱 <a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2sourcevoice-stop"><strong>IXAudio2SourceVoice：： Stop</strong></a>。<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><span id="XAUDIO2_END_OF_STREAM"></span><span id="xaudio2_end_of_stream"></span><dl> <dt><strong>XAUDIO2_END_OF_STREAM</strong></dt> </dl></td>
-<td style="text-align: left;">表示資料流程中的最後一個緩衝區。 請參閱 <a href="/windows/desktop/api/xaudio2/ns-xaudio2-xaudio2_buffer"><strong>XAUDIO2_BUFFER</strong></a>。<strong>旗標</strong>。<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><span id="XAUDIO2_STOP_ENGINE_WHEN_IDLE"></span><span id="xaudio2_stop_engine_when_idle"></span><dl> <dt><strong>XAUDIO2_STOP_ENGINE_WHEN_IDLE</strong></dt> </dl></td>
-<td style="text-align: left;">指定當語音啟動時，音訊引擎應該停止，並在啟動時啟動。 請參閱 <a href="/windows/desktop/api/xaudio2/nf-xaudio2-xaudio2create"><strong>XAudio2Create</strong></a>。<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><span id="XAUDIO2_SEND_USEFILTER"></span><span id="xaudio2_send_usefilter"></span><dl> <dt><strong>XAUDIO2_SEND_USEFILTER</strong></dt> </dl></td>
-<td style="text-align: left;">表示篩選準則應該用於語音傳送。 請參閱 <a href="/windows/desktop/api/xaudio2/ns-xaudio2-xaudio2_send_descriptor"><strong>XAUDIO2_SEND_DESCRIPTOR</strong></a>。<strong>旗標</strong>。<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><span id="XAUDIO2_1024_QUANTUM"></span><span id="xaudio2_1024_quantum"></span><dl> <dt><strong>XAUDIO2_1024_QUANTUM</strong></dt> </dl></td>
-<td style="text-align: left;">在 48KHz) 指定非預設的處理量子 21.33 ms (1024 範例。 請參閱 <a href="/windows/desktop/api/xaudio2/nf-xaudio2-xaudio2create"><strong>XAudio2Create</strong></a>。<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><span id="XAUDIO2_NO_VIRTUAL_AUDIO_CLIENT"></span><span id="xaudio2_no_virtual_audio_client"></span><dl> <dt><strong>XAUDIO2_NO_VIRTUAL_AUDIO_CLIENT</strong></dt> </dl></td>
-<td style="text-align: left;">指定不應使用虛擬音訊用戶端。 請參閱 <a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-createmasteringvoice"><strong>IXAudio2：： CreateMasteringVoice</strong></a>。<br/>
-<blockquote>
-[!Note]<br />
-在行動裝置家族中的裝置上，一律會使用虛擬音訊用戶端，不論是否使用此旗標。
-</blockquote>
-<br/></td>
-</tr>
-</tbody>
-</table>
+
+| 常數 | 描述 | 
+|----------|-------------|
+| <span id="XAUDIO2_DEBUG_ENGINE"></span><span id="xaudio2_debug_engine"></span><dl><dt><strong>XAUDIO2_DEBUG_ENGINE</strong></dt></dl> | 指定應使用音訊引擎的 debug/checked 版本，而不是發行版本。 請參閱 <a href="/windows/desktop/api/xaudio2/nf-xaudio2-xaudio2create"><strong>XAudio2Create</strong></a>。<br /><blockquote>[!Note]<br />Windows 8 或 Windows 10 不支援此旗標。</blockquote><br /> | 
+| <span id="XAUDIO2_VOICE_NOPITCH"></span><span id="xaudio2_voice_nopitch"></span><dl><dt><strong>XAUDIO2_VOICE_NOPITCH</strong></dt></dl> | 指定來源語音不會使用移動音調，請參閱 <a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-createsourcevoice"><strong>IXAudio2：： CreateSourceVoice</strong></a>。<br /> | 
+| <span id="XAUDIO2_VOICE_NOSRC"></span><span id="xaudio2_voice_nosrc"></span><dl><dt><strong>XAUDIO2_VOICE_NOSRC</strong></dt></dl> | 指定來源語音上沒有可用的取樣率轉換，語音的輸出必須具有相同的取樣率。 請參閱 <a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-createsourcevoice"><strong>IXAudio2：： CreateSourceVoice</strong></a>。<br /> | 
+| <span id="XAUDIO2_VOICE_USEFILTER"></span><span id="xaudio2_voice_usefilter"></span><dl><dt><strong>XAUDIO2_VOICE_USEFILTER</strong></dt></dl> | 指定要在語音上使用篩選效果。 請參閱 <a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-createsourcevoice"><strong>IXAudio2：： CreateSourceVoice</strong></a> 和 <a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-createsubmixvoice"><strong>IXAudio2：： CreateSubmixVoice</strong></a>。<br /> | 
+| <span id="XAUDIO2_PLAY_TAILS"></span><span id="xaudio2_play_tails"></span><dl><dt><strong>XAUDIO2_PLAY_TAILS</strong></dt></dl> | 指定語音在停止之後，應繼續發出效果輸出。 請參閱 <a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2sourcevoice-stop"><strong>IXAudio2SourceVoice：： Stop</strong></a>。<br /> | 
+| <span id="XAUDIO2_END_OF_STREAM"></span><span id="xaudio2_end_of_stream"></span><dl><dt><strong>XAUDIO2_END_OF_STREAM</strong></dt></dl> | 表示資料流程中的最後一個緩衝區。 請參閱 <a href="/windows/desktop/api/xaudio2/ns-xaudio2-xaudio2_buffer"><strong>XAUDIO2_BUFFER</strong></a>。<strong>旗標</strong>。<br /> | 
+| <span id="XAUDIO2_STOP_ENGINE_WHEN_IDLE"></span><span id="xaudio2_stop_engine_when_idle"></span><dl><dt><strong>XAUDIO2_STOP_ENGINE_WHEN_IDLE</strong></dt></dl> | 指定當語音啟動時，音訊引擎應該停止，並在啟動時啟動。 請參閱 <a href="/windows/desktop/api/xaudio2/nf-xaudio2-xaudio2create"><strong>XAudio2Create</strong></a>。<br /> | 
+| <span id="XAUDIO2_SEND_USEFILTER"></span><span id="xaudio2_send_usefilter"></span><dl><dt><strong>XAUDIO2_SEND_USEFILTER</strong></dt></dl> | 表示篩選準則應該用於語音傳送。 請參閱 <a href="/windows/desktop/api/xaudio2/ns-xaudio2-xaudio2_send_descriptor"><strong>XAUDIO2_SEND_DESCRIPTOR</strong></a>。<strong>旗標</strong>。<br /> | 
+| <span id="XAUDIO2_1024_QUANTUM"></span><span id="xaudio2_1024_quantum"></span><dl><dt><strong>XAUDIO2_1024_QUANTUM</strong></dt></dl> | 在 48KHz) 指定非預設的處理量子 21.33 ms (1024 範例。 請參閱 <a href="/windows/desktop/api/xaudio2/nf-xaudio2-xaudio2create"><strong>XAudio2Create</strong></a>。<br /> | 
+| <span id="XAUDIO2_NO_VIRTUAL_AUDIO_CLIENT"></span><span id="xaudio2_no_virtual_audio_client"></span><dl><dt><strong>XAUDIO2_NO_VIRTUAL_AUDIO_CLIENT</strong></dt></dl> | 指定不應使用虛擬音訊用戶端。 請參閱 <a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-createmasteringvoice"><strong>IXAudio2：： CreateMasteringVoice</strong></a>。<br /><blockquote>[!Note]<br />在行動裝置家族中的裝置上，一律會使用虛擬音訊用戶端，不論是否使用此旗標。</blockquote><br /> | 
+
 
 
 

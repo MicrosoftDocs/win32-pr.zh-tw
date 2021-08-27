@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 259ff9613756940d5da8a37585dbf39fb2dc0a26
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1f6c45c67bd8863b6cf1169670a4d087f29e4441c48592f850a683af5ef0bc1d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510781"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120111788"
 ---
 # <a name="folderiteminvokeverb-method"></a>FolderItem. InvokeVerb 方法
 
@@ -54,15 +54,15 @@ FolderItem.InvokeVerb(
 
 ## <a name="remarks"></a>備註
 
-動詞命令是用來指定專案所支援之特定動作的字串。 叫用動詞相當於從專案的快捷方式功能表中選取命令。 一般來說，叫用動詞會啟動相關的應用程式。 例如，在 .txt 檔案上叫用 "open" 動詞命令會以文字編輯器（通常是 Microsoft 記事本）開啟檔案。 請參閱 [啟動應用程式](launch.md) ，以進一步討論動詞。
+動詞命令是用來指定專案所支援之特定動作的字串。 叫用動詞相當於從專案的快捷方式功能表中選取命令。 一般來說，叫用動詞會啟動相關的應用程式。 例如，在 .txt 檔案上叫用 "open" 動詞命令會以文字編輯器開啟檔案，通常是 Microsoft 記事本。 請參閱 [啟動應用程式](launch.md) ，以進一步討論動詞。
 
 [**FolderItemVerbs**](folderitemverbs.md)物件表示與專案相關聯的動詞集合。 不同的專案預設動詞命令可能會有所不同，但通常為 "open"。
 
 ## <a name="examples"></a>範例
 
-下列範例會使用 **InvokeVerb** 來叫用預設動詞 ( 「開啟」，在此案例中) 在 Windows 資料夾上。 JScript、VBScript 和 Visual Basic 會顯示適當的使用方式。
+下列範例會使用 **InvokeVerb** 來叫用預設動詞 ( 「開啟」，在此案例中) 在 Windows 資料夾上。 JScript、VBScript 和 Visual Basic 都會顯示適當的使用方式。
 
-Jscript：
+JScript：
 
 
 ```JScript
@@ -167,10 +167,10 @@ End Sub
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 windows 2000 Professional、Windows XP \[ desktop 應用程式\]<br/>                                         |
+| 最低支援的用戶端<br/> | Windows 2000 Professional，僅 Windows XP \[ desktop 應用程式\]<br/>                                         |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                           |
 | 標頭<br/>                   | <dl> <dt>Shldisp。h</dt> </dl>                           |
-| Idl<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl>                         |
+| IDL<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Shell32.dll (4.71 版或更新版本) </dt> </dl> |
 
 

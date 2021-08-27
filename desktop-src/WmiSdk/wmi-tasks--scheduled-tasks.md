@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: ee4fcf193296d5c474987a3a99877b3bfb43868f79527200893303df351920cb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 37a1d44a07feea7beb07984c383620fd2f166cdb
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117738837"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122626154"
 ---
 # <a name="wmi-tasks-scheduled-tasks"></a>WMI 工作：已排程的工作
 
@@ -44,8 +44,8 @@ WMI 排程工作會建立並取得已排程工作的相關資訊。 如需其他
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -59,7 +59,7 @@ WMI 排程工作會建立並取得已排程工作的相關資訊。 如需其他
 <td>使用 <a href="/windows/desktop/CIMWin32Prov/win32-scheduledjob"><strong>Win32_ScheduledJob</strong></a> 類別和 <a href="/windows/desktop/CIMWin32Prov/create-method-in-class-win32-scheduledjob"><strong>Create</strong></a> 方法。 如果您在 Windows 7 或更新版本上執行此工作時遇到困難，請參閱<strong>Win32_ScheduledJob</strong>備註區段;您的設定可能會導致您無法使用類別。<br/> <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -94,7 +94,7 @@ End If</code></pre></td>
 <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">

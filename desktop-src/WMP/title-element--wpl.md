@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 5649553ab51a43bd1fb0aeb78d505d7e922bf80b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1de2679d5f78b48ceef569491ef21998fc13faf7126e61f76ad31959bdc2ac6c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106985771"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120122778"
 ---
 # <a name="title-element-wpl"></a>.WPL) 的 title 元素 (
 
@@ -49,7 +49,7 @@ ms.locfileid: "106985771"
 
 ## <a name="remarks"></a>備註
 
-選擇 Windows Media 播放清單的標題時 (.WPL) ，請考慮播放清單的內容可以是動態的。 一個不錯的方法是以 **引數** 元素的邏輯作為標題，因為這是定義播放清單內容的專案。 這種情況的範例包括「我最愛的1966中的石頭」或「最近未玩過的 Dance 歌曲」。
+選擇 Windows 媒體播放清單的標題 (.wpl) 時，請考慮播放清單的內容可以是動態的。 一個不錯的方法是以 **引數** 元素的邏輯作為標題，因為這是定義播放清單內容的專案。 這種情況的範例包括「我最愛的1966中的石頭」或「最近未玩過的 Dance 歌曲」。
 
 ## <a name="examples"></a>範例
 
@@ -82,7 +82,7 @@ ms.locfileid: "106985771"
 [**head 元素**](head-element.md)
 </dt> <dt>
 
-[**Windows Media 播放清單元素參考**](windows-media-playlist-elements-reference.md)
+[**WindowsMedia 播放清單元素參考**](windows-media-playlist-elements-reference.md)
 </dt> </dl>
 
  

@@ -27,12 +27,12 @@ keywords:
 - 星期幾觸發程式工作排程器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fee1e846e4b2fa8138f675cdd39e926884d2bfae
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 9a0e09b6ecc1ac3c817f374e70c6756fa09afc78ccaac7e549f3f04ad074c8d0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106969724"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120099688"
 ---
 # <a name="trigger-types"></a>觸發程式類型
 
@@ -42,7 +42,7 @@ ms.locfileid: "106969724"
 
 下列觸發程式類型是由 [**TASK \_ trigger \_ TYPE2**](/windows/desktop/api/taskschd/ne-taskschd-task_trigger_type2) 列舉所定義。
 
-| 觸發程序                                                                                                                                                                                                                                                                                                                                                                                                                | Description                                                                                                                                                                                  |
+| 觸發程序                                                                                                                                                                                                                                                                                                                                                                                                                | 描述                                                                                                                                                                                  |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 事件觸發程式 (以事件為基礎的觸發程式) 用於腳本開發，請參閱 [**EventTrigger**](eventtrigger.md)。<br/> 針對 c + + 開發，請參閱 [**IEventTrigger**](/windows/desktop/api/taskschd/nn-taskschd-ieventtrigger)。<br/> 如需 XML 開發，請參閱 [**EventTrigger 元素**](taskschedulerschema-eventtrigger-triggergroup-element.md)。<br/>                                                                                             | 在特定系統事件發生時啟動工作。                                                                                                                                         |
 | 時間觸發程式 (以時間為基礎的觸發程式) 進行腳本開發，請參閱 [**TimeTrigger**](timetrigger.md)。<br/> 針對 c + + 開發，請參閱 [**ITimeTrigger**](/windows/desktop/api/taskschd/nn-taskschd-itimetrigger)。<br/> 如需 XML 開發，請參閱 [**TimeTrigger 元素**](taskschedulerschema-timetrigger-triggergroup-element.md)。<br/>                                                                                                      | 在特定日期和時間啟動工作。                                                                                                                                                 |

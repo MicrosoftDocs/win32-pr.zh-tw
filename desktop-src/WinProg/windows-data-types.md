@@ -6,7 +6,7 @@ keywords:
 - 資料類型
 - 資料類型，Windows
 - Windows 應用程式開發介面
-- Windows API，資料類型
+- WindowsAPI，資料類型
 - APIENTRY
 - ATOM
 - BOOL
@@ -174,7 +174,7 @@ keywords:
 - ULONG64
 - UNICODE_STRING
 - USHORT
-- Usn
+- USN
 - 無效
 - WCHAR
 - WINAPI
@@ -182,12 +182,12 @@ keywords:
 - WPARAM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9bf3a23e816a78f0dcae9c2fbd6e6979b936451c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3002912cafbdf2dd4fe62c19fe3faef302da8c9b
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384525"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122626334"
 ---
 # <a name="windows-data-types"></a>Windows 資料類型
 
@@ -201,8 +201,8 @@ Windows 所支援的資料類型是用來定義函數傳回值、函數和訊息
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -220,7 +220,7 @@ Windows 所支援的資料類型是用來定義函數傳回值、函數和訊息
 <td>Atom。 如需詳細資訊，請參閱 <a href="/windows/desktop/dataxchg/about-atom-tables">關於 Atom 資料表</a>。<br/> 此類型是在 WinDef 中宣告，如下所示：<br/> <code>typedef WORD ATOM;</code><br/></td>
 </tr>
 <tr class="odd">
-<td><span id="BOOL"></span><span id="bool"></span><strong>Bool</strong></td>
+<td><span id="BOOL"></span><span id="bool"></span><strong>BOOL</strong></td>
 <td>布林值變數 (應該是 <strong>TRUE</strong> 或 <strong>FALSE</strong>) 。<br/> 此類型是在 WinDef 中宣告，如下所示：<br/> <code>typedef int BOOL;</code><br/></td>
 </tr>
 <tr class="even">
@@ -233,7 +233,7 @@ Windows 所支援的資料類型是用來定義函數傳回值、函數和訊息
 </tr>
 <tr class="even">
 <td><span id="CALLBACK"></span><span id="callback"></span><strong>回檔</strong></td>
-<td>回呼函數的呼叫慣例。<br/> 此類型是在 WinDef 中宣告，如下所示：<br/> <code>#define CALLBACK __stdcall</code><br/> <strong>回呼</strong>、 <strong>WINAPI</strong>和 <strong>APIENTRY</strong> 全都用來定義具有 __stdcall 呼叫慣例的函式。 Windows API 中的大部分函式都是使用 <strong>WINAPI</strong>來宣告。 您可能會想要針對您所執行的回呼函式使用 <strong>回呼</strong> ，以協助將函式識別為回呼函數。<br/></td>
+<td>回呼函數的呼叫慣例。<br/> 此類型是在 WinDef 中宣告，如下所示：<br/> <code>#define CALLBACK __stdcall</code><br/> <strong>回呼</strong>、 <strong>WINAPI</strong>和 <strong>APIENTRY</strong> 全都用來定義具有 __stdcall 呼叫慣例的函式。 Windows API 中的大部分函式都是使用<strong>WINAPI</strong>來宣告。 您可能會想要針對您所執行的回呼函式使用 <strong>回呼</strong> ，以協助將函式識別為回呼函數。<br/></td>
 </tr>
 <tr class="odd">
 <td><span id="CCHAR"></span><span id="cchar"></span><strong>CCHAR</strong></td>
@@ -252,7 +252,7 @@ Windows 所支援的資料類型是用來定義函數傳回值、函數和訊息
 <td>值在執行期間保持不變的變數。 <br/> 此類型是在 WinDef 中宣告，如下所示：<br/> <code>#define CONST const</code><br/></td>
 </tr>
 <tr class="odd">
-<td><span id="DWORD"></span><span id="dword"></span><strong>Dword</strong></td>
+<td><span id="DWORD"></span><span id="dword"></span><strong>DWORD</strong></td>
 <td>32 位元不帶正負號的整數。 範圍是0到4294967295的十進位數。<br/> 此類型是在 IntSafe 中宣告，如下所示：<br/> <code>typedef unsigned long DWORD;</code><br/></td>
 </tr>
 <tr class="even">
@@ -261,7 +261,7 @@ Windows 所支援的資料類型是用來定義函數傳回值、函數和訊息
 </tr>
 <tr class="odd">
 <td><span id="DWORD_PTR"></span><span id="dword_ptr"></span><strong>DWORD_PTR</strong></td>
-<td>指標有效位數不帶正負號的 long 類型。 在將指標轉換為 long 類型以執行指標算術時使用。  (也常用於已在64位 Windows 中延伸至64位的一般32位參數。 ) <br/> 此類型是在 BaseTsd 中宣告，如下所示：<br/> <code>typedef ULONG_PTR DWORD_PTR;</code><br/></td>
+<td>指標有效位數不帶正負號的 long 類型。 在將指標轉換為 long 類型以執行指標算術時使用。  (也常用於已在64位 Windows 延伸至64位的一般32位參數。 ) <br/> 此類型是在 BaseTsd 中宣告，如下所示：<br/> <code>typedef ULONG_PTR DWORD_PTR;</code><br/></td>
 </tr>
 <tr class="even">
 <td><span id="DWORD32"></span><span id="dword32"></span><strong>DWORD32</strong></td>
@@ -284,7 +284,7 @@ Windows 所支援的資料類型是用來定義函數傳回值、函數和訊息
 <td>指標的一半大小。 在包含指標和兩個小型欄位的結構中使用。<br/> 此類型是在 BaseTsd 中宣告，如下所示：<br/> <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -420,7 +420,7 @@ Windows 所支援的資料類型是用來定義函數傳回值、函數和訊息
 <tr class="even">
 <td><span id="HINSTANCE"></span><span id="hinstance"></span><strong>HINSTANCE</strong></td>
 <td><p>實例的控制碼。 這是記憶體中模組的基底位址。</p>
-<p><strong>HMODULE</strong> 和 <strong>HINSTANCE</strong> 現在是一樣的，但在16位 Windows 中表示不同的事物。</p>
+<p><strong>HMODULE</strong>和<strong>HINSTANCE</strong>現在都相同，但在16位 Windows 中代表不同的事物。</p>
 <p>此類型是在 WinDef 中宣告，如下所示：</p>
 <p><code>typedef HANDLE HINSTANCE;</code></p></td>
 </tr>
@@ -457,7 +457,7 @@ Windows 所支援的資料類型是用來定義函數傳回值、函數和訊息
 <tr class="even">
 <td><span id="HMODULE"></span><span id="hmodule"></span><strong>HMODULE</strong></td>
 <td><p>模組的控制碼。 是記憶體中模組的基底位址。</p>
-<p><strong>HMODULE</strong> 和 <strong>HINSTANCE</strong> 在目前的 windows 版本中是相同的，但在16位 Windows 中表示不同的專案。</p>
+<p><strong>HMODULE</strong>和<strong>HINSTANCE</strong>在 Windows 的最新版本中相同，但在16位 Windows 中表示不同的專案。</p>
 <p>此類型是在 WinDef 中宣告，如下所示：</p>
 <p><code>typedef HINSTANCE HMODULE;</code></p></td>
 </tr>
@@ -516,7 +516,7 @@ Windows 所支援的資料類型是用來定義函數傳回值、函數和訊息
 <p><code>typedef HANDLE HWND;</code></p></td>
 </tr>
 <tr class="even">
-<td><span id="INT"></span><span id="int"></span><strong>Int</strong></td>
+<td><span id="INT"></span><span id="int"></span><strong>INT</strong></td>
 <td><p>32 位元帶正負號的整數。 範圍是-2147483648 到 2147483647 decimal。</p>
 <p>此類型是在 WinDef 中宣告，如下所示：</p>
 <p><code>typedef int INT;</code></p></td>
@@ -529,7 +529,7 @@ Windows 所支援的資料類型是用來定義函數傳回值、函數和訊息
 <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -580,7 +580,7 @@ Windows 所支援的資料類型是用來定義函數傳回值、函數和訊息
 <p><code>typedef WORD LANGID;</code></p></td>
 </tr>
 <tr class="odd">
-<td><span id="LCID"></span><span id="lcid"></span><strong>Lcid</strong></td>
+<td><span id="LCID"></span><span id="lcid"></span><strong>LCID</strong></td>
 <td><p>地區設定識別碼。 如需詳細資訊，請參閱 <a href="/windows/desktop/Intl/locale-identifiers">地區設定識別碼</a>。</p>
 <p>此類型會在 WinNT 中宣告，如下所示：</p>
 <p><code>typedef DWORD LCID;</code></p></td>
@@ -611,7 +611,7 @@ Windows 所支援的資料類型是用來定義函數傳回值、函數和訊息
 <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -639,7 +639,7 @@ Windows 所支援的資料類型是用來定義函數傳回值、函數和訊息
 <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -697,19 +697,19 @@ Windows 所支援的資料類型是用來定義函數傳回值、函數和訊息
 </tr>
 <tr class="odd">
 <td><span id="LPCSTR"></span><span id="lpcstr"></span><strong>LPCSTR</strong></td>
-<td><p>以零結束的8位 Windows (ANSI) 字元之字串的指標。 如需詳細資訊，請參閱 <a href="/windows/desktop/gdi/character-sets-used-by-fonts">字體所使用的字元集</a>。</p>
+<td><p>8位 Windows 的常數 null 結束字串指標， (ANSI) 字元。 如需詳細資訊，請參閱 <a href="/windows/desktop/gdi/character-sets-used-by-fonts">字體所使用的字元集</a>。</p>
 <p>此類型會在 WinNT 中宣告，如下所示：</p>
 <p><code>typedef __nullterminated CONST CHAR *LPCSTR;</code></p></td>
 </tr>
 <tr class="even">
 <td><span id="LPCTSTR"></span><span id="lpctstr"></span><strong>LPCTSTR</strong></td>
-<td><p>如果已定義<strong>UNICODE</strong> ，則為<a href="#lpcwstr"><strong>LPCWSTR</strong></a> ，否則為<a href="#lpcstr"><strong>LPCSTR</strong></a> 。 如需詳細資訊，請參閱 <a href="/windows/desktop/Intl/windows-data-types-for-strings">Windows 資料類型的字串</a>。</p>
+<td><p>如果已定義<strong>UNICODE</strong> ，則為<a href="#lpcwstr"><strong>LPCWSTR</strong></a> ，否則為<a href="#lpcstr"><strong>LPCSTR</strong></a> 。 如需詳細資訊，請參閱<a href="/windows/desktop/Intl/windows-data-types-for-strings">Windows 字串資料類型</a>。</p>
 <p>此類型會在 WinNT 中宣告，如下所示：</p>
 <div class="code">
 <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -767,19 +767,19 @@ Windows 所支援的資料類型是用來定義函數傳回值、函數和訊息
 </tr>
 <tr class="odd">
 <td><span id="LPSTR"></span><span id="lpstr"></span><strong>LPSTR</strong></td>
-<td><p>8位 Windows (ANSI) 字元之以 null 結束的字串指標。 如需詳細資訊，請參閱 <a href="/windows/desktop/gdi/character-sets-used-by-fonts">字體所使用的字元集</a>。</p>
+<td><p>8位 Windows 之以 null 結束的字串指標， (ANSI) 字元。 如需詳細資訊，請參閱 <a href="/windows/desktop/gdi/character-sets-used-by-fonts">字體所使用的字元集</a>。</p>
 <p>此類型會在 WinNT 中宣告，如下所示：</p>
 <p><code>typedef CHAR *LPSTR;</code></p></td>
 </tr>
 <tr class="even">
 <td><span id="LPTSTR"></span><span id="lptstr"></span><strong>LPTSTR</strong></td>
-<td><p>如果已定義<strong>UNICODE</strong> ，則為<a href="#lpwstr"><strong>LPWSTR</strong></a> ，否則為<a href="#lpstr"><strong>LPSTR</strong></a> 。 如需詳細資訊，請參閱 <a href="/windows/desktop/Intl/windows-data-types-for-strings">Windows 資料類型的字串</a>。</p>
+<td><p>如果已定義<strong>UNICODE</strong> ，則為<a href="#lpwstr"><strong>LPWSTR</strong></a> ，否則為<a href="#lpstr"><strong>LPSTR</strong></a> 。 如需詳細資訊，請參閱<a href="/windows/desktop/Intl/windows-data-types-for-strings">Windows 字串資料類型</a>。</p>
 <p>此類型會在 WinNT 中宣告，如下所示：</p>
 <div class="code">
 <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -849,19 +849,19 @@ Windows 所支援的資料類型是用來定義函數傳回值、函數和訊息
 </tr>
 <tr class="odd">
 <td><span id="PCSTR"></span><span id="pcstr"></span><strong>PCSTR</strong></td>
-<td><p>以零結束的8位 Windows (ANSI) 字元之字串的指標。 如需詳細資訊，請參閱 <a href="/windows/desktop/gdi/character-sets-used-by-fonts">字體所使用的字元集</a>。</p>
+<td><p>8位 Windows 的常數 null 結束字串指標， (ANSI) 字元。 如需詳細資訊，請參閱 <a href="/windows/desktop/gdi/character-sets-used-by-fonts">字體所使用的字元集</a>。</p>
 <p>此類型會在 WinNT 中宣告，如下所示：</p>
 <p><code>typedef CONST CHAR *PCSTR;</code></p></td>
 </tr>
 <tr class="even">
 <td><span id="PCTSTR"></span><span id="pctstr"></span><strong>PCTSTR</strong></td>
-<td><p>如果已定義<strong>UNICODE</strong> ，則為<a href="#pcwstr"><strong>PCWSTR</strong></a> ，否則為<a href="#pcstr"><strong>PCSTR</strong></a> 。 如需詳細資訊，請參閱 <a href="/windows/desktop/Intl/windows-data-types-for-strings">Windows 資料類型的字串</a>。</p>
+<td><p>如果已定義<strong>UNICODE</strong> ，則為<a href="#pcwstr"><strong>PCWSTR</strong></a> ，否則為<a href="#pcstr"><strong>PCSTR</strong></a> 。 如需詳細資訊，請參閱<a href="/windows/desktop/Intl/windows-data-types-for-strings">Windows 字串資料類型</a>。</p>
 <p>此類型會在 WinNT 中宣告，如下所示：</p>
 <div class="code">
 <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -931,7 +931,7 @@ Windows 所支援的資料類型是用來定義函數傳回值、函數和訊息
 <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -1043,7 +1043,7 @@ Windows 所支援的資料類型是用來定義函數傳回值、函數和訊息
 <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -1072,7 +1072,7 @@ Windows 所支援的資料類型是用來定義函數傳回值、函數和訊息
 <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -1124,7 +1124,7 @@ Windows 所支援的資料類型是用來定義函數傳回值、函數和訊息
 </tr>
 <tr class="even">
 <td><span id="PSTR"></span><span id="pstr"></span><strong>PSTR</strong></td>
-<td><p>8位 Windows (ANSI) 字元之以 null 結束的字串指標。 如需詳細資訊，請參閱 <a href="/windows/desktop/gdi/character-sets-used-by-fonts">字體所使用的字元集</a>。</p>
+<td><p>8位 Windows 之以 null 結束的字串指標， (ANSI) 字元。 如需詳細資訊，請參閱 <a href="/windows/desktop/gdi/character-sets-used-by-fonts">字體所使用的字元集</a>。</p>
 <p>此類型會在 WinNT 中宣告，如下所示：</p>
 <p><code>typedef CHAR *PSTR;</code></p></td>
 </tr>
@@ -1142,13 +1142,13 @@ Windows 所支援的資料類型是用來定義函數傳回值、函數和訊息
 </tr>
 <tr class="odd">
 <td><span id="PTSTR"></span><span id="ptstr"></span><strong>PTSTR</strong></td>
-<td><p>如果已定義<strong>UNICODE</strong> ，則為<a href="#pwstr"><strong>PWSTR</strong></a> ，否則為<a href="#pstr"><strong>PSTR</strong></a> 。 如需詳細資訊，請參閱 <a href="/windows/desktop/Intl/windows-data-types-for-strings">Windows 資料類型的字串</a>。</p>
+<td><p>如果已定義<strong>UNICODE</strong> ，則為<a href="#pwstr"><strong>PWSTR</strong></a> ，否則為<a href="#pstr"><strong>PSTR</strong></a> 。 如需詳細資訊，請參閱<a href="/windows/desktop/Intl/windows-data-types-for-strings">Windows 字串資料類型</a>。</p>
 <p>此類型會在 WinNT 中宣告，如下所示：</p>
 <div class="code">
 <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -1181,7 +1181,7 @@ Windows 所支援的資料類型是用來定義函數傳回值、函數和訊息
 <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -1347,7 +1347,7 @@ Windows 所支援的資料類型是用來定義函數傳回值、函數和訊息
 <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -1375,7 +1375,7 @@ Windows 所支援的資料類型是用來定義函數傳回值、函數和訊息
 <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -1409,7 +1409,7 @@ Windows 所支援的資料類型是用來定義函數傳回值、函數和訊息
 <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -1443,7 +1443,7 @@ Windows 所支援的資料類型是用來定義函數傳回值、函數和訊息
 <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -1501,7 +1501,7 @@ Windows 所支援的資料類型是用來定義函數傳回值、函數和訊息
 <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -1529,7 +1529,7 @@ Windows 所支援的資料類型是用來定義函數傳回值、函數和訊息
 <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -1569,7 +1569,7 @@ Windows 所支援的資料類型是用來定義函數傳回值、函數和訊息
 <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -1598,7 +1598,7 @@ typedef const UNICODE_STRING *PCUNICODE_STRING;</code></pre></td>
 <p><code>typedef unsigned short USHORT;</code></p></td>
 </tr>
 <tr class="even">
-<td><span id="USN"></span><span id="usn"></span><strong>Usn</strong></td>
+<td><span id="USN"></span><span id="usn"></span><strong>USN</strong></td>
 <td><p> (USN) 的更新序號。</p>
 <p>此類型會在 WinNT 中宣告，如下所示：</p>
 <p><code>typedef LONGLONG USN;</code></p></td>
@@ -1620,7 +1620,7 @@ typedef const UNICODE_STRING *PCUNICODE_STRING;</code></pre></td>
 <td><p>系統函數的呼叫慣例。</p>
 <p>此類型是在 WinDef 中宣告，如下所示：</p>
 <p><code>#define WINAPI __stdcall</code></p>
-<p><strong>回呼</strong>、 <strong>WINAPI</strong>和 <strong>APIENTRY</strong> 全都用來定義具有 __stdcall 呼叫慣例的函式。 Windows API 中的大部分函式都是使用 <strong>WINAPI</strong>來宣告。 您可能會想要針對您所執行的回呼函式使用 <strong>回呼</strong> ，以協助將函式識別為回呼函數。</p></td>
+<p><strong>回呼</strong>、 <strong>WINAPI</strong>和 <strong>APIENTRY</strong> 全都用來定義具有 __stdcall 呼叫慣例的函式。 Windows API 中的大部分函式都是使用<strong>WINAPI</strong>來宣告。 您可能會想要針對您所執行的回呼函式使用 <strong>回呼</strong> ，以協助將函式識別為回呼函數。</p></td>
 </tr>
 <tr class="even">
 <td><span id="WORD"></span><span id="word"></span><strong>詞</strong></td>
@@ -1645,6 +1645,6 @@ typedef const UNICODE_STRING *PCUNICODE_STRING;</code></pre></td>
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                                                                                                                                                         |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                                                                                                                                |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                                                                                                                                                         |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                                                                                                                                |
 | 標頭<br/>                   | <dl> <dt>BaseTsd .h;</dt><dt>WinDef .h;</dt><dt>WinNT .h</dt> </dl> |

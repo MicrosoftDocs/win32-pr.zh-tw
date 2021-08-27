@@ -3,7 +3,7 @@ title: Thumb 影像來源
 description: Thumb 影像來源
 ms.assetid: dca1f54d-ee79-4fd4-9c4e-8226f65c9515
 keywords:
-- Windows Media Player 行動外觀 trackbars
+- Windows Media Player行動外觀、trackbars
 - 外觀，trackbars
 - 外觀的參考，trackbars
 - 外觀中的 trackbars、影像來源
@@ -12,12 +12,12 @@ keywords:
 - thumb、影像來源
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7ac19053b58c7d12543d38c639abe5a43c01ff64
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 550569a2858ba283824f28f6793097caa140c6112bccc41b3423413e17b6d89a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021110"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120122768"
 ---
 # <a name="thumb-image-source"></a>Thumb 影像來源
 
@@ -40,9 +40,9 @@ SeekThumb.bmp
 [**Trackbars**](trackbars.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

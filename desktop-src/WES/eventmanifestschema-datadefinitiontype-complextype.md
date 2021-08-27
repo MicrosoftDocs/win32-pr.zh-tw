@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: fa492acf00740b0df9b761c40797ec05feb5b2e38b84ec0682296dd845cbe613
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a637166d261c4148a81baee3597d4090542b8612
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118589603"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122470924"
 ---
 # <a name="datadefinitiontype-complex-type"></a>DataDefinitionType 複雜類型
 
@@ -69,57 +69,16 @@ ms.locfileid: "118589603"
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>名稱</th>
-<th>類型</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>count</td>
-<td><a href="eventmanifestschema-counttype-simpletype.md"><strong>CountType</strong></a></td>
-<td>如果資料項目是陣列，則為數組中的元素數目。 您可以指定包含計數的其他資料項目的實際計數或名稱。 <br/></td>
-</tr>
-<tr class="even">
-<td>inType</td>
-<td><strong>QName</strong></td>
-<td>這項資料項目的資料類型。 如需預先定義的輸入資料類型清單，請參閱 <a href="eventmanifestschema-inputtype-complextype.md"><strong>InputType</strong></a> 複雜型別。<br/></td>
-</tr>
-<tr class="odd">
-<td>長度</td>
-<td><a href="eventmanifestschema-lengthtype-simpletype.md"><strong>LengthType</strong></a></td>
-<td>變數長度資料項目的長度，例如二進位 blob。 針對二進位資料，指定以位元組為單位的長度，並指定字串資料的長度（以字元為單位）。 您可以指定包含長度的其他資料項目的實際長度或名稱。<br/> 如果您使用 length 屬性來指定固定長度的字串，則必須將字串填補到其固定長度，以允許在結尾使用 null 結束字元字元 (例如，如果長度為5，則字串 &quot; abc &quot; 必須填補為 &quot; abc &quot; 。 字串長度必須包含 null 結束字元字元。<br/></td>
-</tr>
-<tr class="even">
-<td>map</td>
-<td>字串</td>
-<td>用來將整數值對應至字串的名稱/值對應名稱。 資料項目的資料類型必須屬於下列其中一種類型：<br/>
-<ul>
-<li>win:UInt8</li>
-<li>win:UInt16</li>
-<li>win:UInt32</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>NAME</td>
-<td>字串</td>
-<td>資料項目的名稱。 如果您在範本中指定 <a href="eventmanifestschema-userdata-templateitemtype-element.md"><strong>UserData</strong></a> 區段，您可以使用此名稱來參考 XML 片段中的這個資料項目。 如果這個資料項目包含長度或計數值，您也可以在另一個資料項目的長度或計數屬性中參考此名稱。<br/> <strong>Windows Vista：</strong>這個屬性是選擇性的。<br/></td>
-</tr>
-<tr class="even">
-<td>outType</td>
-<td><strong>QName</strong></td>
-<td>轉譯這個資料項目時要使用的資料型別。 如需預先定義之輸出資料類型的清單，請參閱 <a href="eventmanifestschema-outputtype-complextype.md"><strong>OutputType</strong></a> 複雜型別。<br/> <strong>Windows Vista：</strong>輸出類型會被忽略，而服務會根據輸入類型來決定型別。<br/></td>
-</tr>
-</tbody>
-</table>
+
+| 名稱 | 類型 | 描述 | 
+|------|------|-------------|
+| count | <a href="eventmanifestschema-counttype-simpletype.md"><strong>CountType</strong></a> | 如果資料項目是陣列，則為數組中的元素數目。 您可以指定包含計數的其他資料項目的實際計數或名稱。 <br /> | 
+| inType | <strong>QName</strong> | 這項資料項目的資料類型。 如需預先定義的輸入資料類型清單，請參閱 <a href="eventmanifestschema-inputtype-complextype.md"><strong>InputType</strong></a> 複雜型別。<br /> | 
+| 長度 | <a href="eventmanifestschema-lengthtype-simpletype.md"><strong>LengthType</strong></a> | 變數長度資料項目的長度，例如二進位 blob。 針對二進位資料，指定以位元組為單位的長度，並指定字串資料的長度（以字元為單位）。 您可以指定包含長度的其他資料項目的實際長度或名稱。<br /> 如果您使用 length 屬性來指定固定長度的字串，則必須將字串填補到其固定長度，以允許在結尾使用 null 結束字元字元 (例如，如果長度為5，則字串 "abc" 必須填補為 "abc"。 字串長度必須包含 null 結束字元字元。<br /> | 
+| map | string | 用來將整數值對應至字串的名稱/值對應名稱。 資料項目的資料類型必須屬於下列其中一種類型：<br /><ul><li>win:UInt8</li><li>win:UInt16</li><li>win:UInt32</li></ul> | 
+| NAME | 字串 | 資料項目的名稱。 如果您在範本中指定 <a href="eventmanifestschema-userdata-templateitemtype-element.md"><strong>UserData</strong></a> 區段，您可以使用此名稱來參考 XML 片段中的這個資料項目。 如果這個資料項目包含長度或計數值，您也可以在另一個資料項目的長度或計數屬性中參考此名稱。<br /><strong>Windows Vista：</strong>這個屬性是選擇性的。<br /> | 
+| outType | <strong>QName</strong> | 轉譯這個資料項目時要使用的資料型別。 如需預先定義之輸出資料類型的清單，請參閱 <a href="eventmanifestschema-outputtype-complextype.md"><strong>OutputType</strong></a> 複雜型別。<br /><strong>Windows Vista：</strong>輸出類型會被忽略，而服務會根據輸入類型來決定型別。<br /> | 
+
 
 
 

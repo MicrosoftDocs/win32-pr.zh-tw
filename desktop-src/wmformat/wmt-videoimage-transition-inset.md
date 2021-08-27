@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2f815e0bb1fc7e8e1cba277f68b7950af2b20395092b69b2c07ebb7ac51367da
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a47d53de99d3c6f6144755934989ca3958d28a23
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117843787"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122476777"
 ---
 # <a name="wmt_videoimage_transition_inset"></a>WMT \_ VIDEOIMAGE \_ 轉換內 \_ 凹
 
@@ -31,52 +31,14 @@ ms.locfileid: "117843787"
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>參數</th>
-<th>結構成員</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>寬度</td>
-<td><strong>fEffectPara0</strong></td>
-<td>內凹的寬度（以圖元為單位）。</td>
-</tr>
-<tr class="even">
-<td>高度</td>
-<td><strong>fEffectPara1</strong></td>
-<td>內凹的高度（以圖元為單位）。</td>
-</tr>
-<tr class="odd">
-<td>方向</td>
-<td><strong>fEffectPara2</strong></td>
-<td>內凹來源的邊角。設定為下列其中一個值：<br/>
-<ul>
-<li>0-左下角</li>
-<li>1-右下</li>
-<li>2-左上</li>
-<li>3-右上</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>Composition</td>
-<td><strong>fEffectPara3</strong></td>
-<td>設定為下列其中一個值：
-<ul>
-<li>0-指定一般組合，其中上一個影像是背景，而目前影像是前景。</li>
-<li>1-指定反轉組合，其中目前影像是背景影像，而上一個影像是前景</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| 參數 | 結構成員 | Description | 
+|-----------|------------------|-------------|
+| 寬度 | <strong>fEffectPara0</strong> | 內凹的寬度（以圖元為單位）。 | 
+| 高度 | <strong>fEffectPara1</strong> | 內凹的高度（以圖元為單位）。 | 
+| 方向 | <strong>fEffectPara2</strong> | 內凹來源的邊角。設定為下列其中一個值：<br /><ul><li>0-左下角</li><li>1-右下</li><li>2-左上</li><li>3-右上</li></ul> | 
+| Composition | <strong>fEffectPara3</strong> | 設定為下列其中一個值：<ul><li>0-指定一般組合，其中上一個影像是背景，而目前影像是前景。</li><li>1-指定反轉組合，其中目前影像是背景影像，而上一個影像是前景</li></ul> | 
+
 
 
 

@@ -6,12 +6,12 @@ keywords:
 - AriaDataTableWarningId
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6dcd77983092983649d8bcd41357afb4756120e6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 16fb9e8e97336199b5b133dc59ef7c5f0900f7bdeb0c7a8d8098a51707b107f0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021970"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120122388"
 ---
 # <a name="aria-data-table-warning"></a>ARIA 資料表格警告
 
@@ -32,7 +32,7 @@ ms.locfileid: "104021970"
 > [!Note]  
 > 並非所有的資料表都需要有可存取的描述。 如果使用者需要詳細資訊來瞭解資料表結構和內容，您應該定義可存取的描述。
 
- 
+ 
 
 若要解決這個警告，請使用 summary 屬性或 **aria describedby** 屬性定義資料表的可存取描述。
 
@@ -54,9 +54,9 @@ ms.locfileid: "104021970"
 
 
 
- 
+ 
 
- 
+ 
 
 
 

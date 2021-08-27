@@ -3,7 +3,7 @@ title: 'PSM_SETBUTTONTEXT 訊息 (Prsht.idl .h) '
 description: 設定 Aero wizard 中按鈕的文字。 您可以使用 PropSheet SetButtonText 宏明確地傳送此訊息 \_ 。
 ms.assetid: 30b7afd1-5094-430f-9c48-d87832d96050
 keywords:
-- PSM_SETBUTTONTEXT message Windows 控制項
+- PSM_SETBUTTONTEXT 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 41a0b55f73fc7084e89f54c1e741d12000b0f949
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: feac193beef3149140447a38c0be00b7f4fa0c1c1b28e10a5d7de2203ba21cec
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104024988"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120088588"
 ---
 # <a name="psm_setbuttontext-message"></a>PSM \_ SETBUTTONTEXT 訊息
 
@@ -68,8 +68,8 @@ ms.locfileid: "104024988"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                     |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                               |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                     |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                               |
 | 標頭<br/>                   | <dl> <dt>Prsht.idl。h</dt> </dl> |
 | Unicode 與 ANSI 名稱<br/>   | **PSM \_SETBUTTONTEXTW** (Unicode) <br/>                                       |
 

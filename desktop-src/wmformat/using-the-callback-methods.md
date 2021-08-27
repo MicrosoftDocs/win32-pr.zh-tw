@@ -3,23 +3,23 @@ title: 使用回呼方法
 description: 使用回呼方法
 ms.assetid: 098cb90b-8c21-4692-a4f9-bacce042520a
 keywords:
-- Windows Media Format SDK，回呼方法
-- Windows Media Format SDK，以非同步方式呼叫的方法
+- Windows媒體格式 SDK，回呼方法
+- Windows媒體格式 SDK，以非同步方式呼叫的方法
 - 回呼方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d39201c101c9031a7157f79f6c12ec88f07decfc
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 1b1ee2bcf6587e2e9e75e18404a60c3b85fb4bac5e9f14fd0164304bcc3f3338
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "103681388"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120110058"
 ---
 # <a name="using-the-callback-methods"></a>使用回呼方法
 
-Windows Media 格式 SDK 中的數個介面包含以非同步方式呼叫的方法。 這些方法大多使用回呼函式，將資訊傳遞給控制應用程式。
+Windows 媒體格式 SDK 中的數個介面包含以非同步方式呼叫的方法。 這些方法大多使用回呼函式，將資訊傳遞給控制應用程式。
 
-下列各節說明有關使用回呼方法搭配 Windows Media Format SDK 的一些一般問題。
+下列各節說明有關使用回呼方法搭配 Windows 媒體格式 SDK 的一些一般問題。
 
 
 
@@ -31,7 +31,7 @@ Windows Media 格式 SDK 中的數個介面包含以非同步方式呼叫的方�
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -40,9 +40,9 @@ Windows Media 格式 SDK 中的數個介面包含以非同步方式呼叫的方�
 [**程式設計指南**](programming-guide.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

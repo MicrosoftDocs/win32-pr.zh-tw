@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: bba86b4773ac35a6895ae3c7812b9bf74d931370
-ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
+ms.openlocfilehash: 8c09a1d5752fb9c179cc827aedec562b7858cbdf
+ms.sourcegitcommit: 4e94fc75fad7b2a0f3c92a26f97e89924e59b7a9
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "122625744"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "122786154"
 ---
 # <a name="span-idvspixengineiframelistcallbackspaniframelistcallback-interface"></a><span id="vspixengine.iframelistcallback"></span>IFrameListCallback 介面
 
@@ -38,7 +38,7 @@ ms.locfileid: "122625744"
 
 **IFrameListCallback** 介面具有這些方法。
 
-<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th style="text-align: left;">方法</th><th style="text-align: left;">描述</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/iframelistcallback-resultcallback-dword-dword-arr-dword-arr"><strong>ResultCallback</strong></a></td><td style="text-align: left;"><p>回呼函式，用來通知主控制項已被捕獲的框架。</p></td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th >方法</th><th >說明</th></tr></thead><tbody><tr class="odd"><td ><a href="/windows/desktop/direct3dtools/iframelistcallback-resultcallback-dword-dword-arr-dword-arr"><strong>ResultCallback</strong></a></td><td ><p>回呼函式，用來通知主控制項已被捕獲的框架。</p></td></tr></tbody></table>
 
  
 

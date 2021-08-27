@@ -4,12 +4,12 @@ ms.assetid: 0522ccbf-e754-470a-8199-004fcbaa927d
 title: DXGI 總覽
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 324a5be26aade17385a6ab0b7d347015497a2a3f
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 604787a1b3f747b9d33cc04e249128aede7b7a3e
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104467533"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122626134"
 ---
 # <a name="dxgi-overview"></a>DXGI 總覽
 
@@ -104,7 +104,7 @@ DXGI 1.1 新增了 [**IDXGIFactory1**](/windows/win32/api/DXGI/nn-dxgi-idxgifact
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">

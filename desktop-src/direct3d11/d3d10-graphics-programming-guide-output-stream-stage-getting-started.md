@@ -4,12 +4,12 @@ description: 本節說明如何搭配資料流程輸出階段使用幾何著色�
 ms.assetid: 37146486-5922-4833-850c-cc4a51de0957
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ae2e72d25177926c948f43996b6c57d42a7c557b
-ms.sourcegitcommit: 749dea42142dec076d41a8f26cb57ae8db46e848
+ms.openlocfilehash: 5f00b469b28601322358f348de98354f15263483
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "112587875"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122621874"
 ---
 # <a name="getting-started-with-the-stream-output-stage"></a>使用 Stream-Output 階段開始使用
 
@@ -99,12 +99,12 @@ void GS( triangle GSPS_INPUT input[3], inout TriangleStream<GSPS_INPUT> TriStrea
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
-<th>項目</th>
+<th>Item</th>
 <th>描述</th>
 </tr>
 </thead>
@@ -114,7 +114,7 @@ void GS( triangle GSPS_INPUT input[3], inout TriangleStream<GSPS_INPUT> TriStrea
 <td>函式傳回類型會執行其中一項工作，宣告著色器可以輸出的最大頂點數目。 在此情況下， <span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -132,7 +132,7 @@ void GS( triangle GSPS_INPUT input[3], inout TriangleStream<GSPS_INPUT> TriStrea
 <span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">

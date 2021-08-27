@@ -4,16 +4,16 @@ ms.assetid: 452b9725-b0b9-4888-bbb5-a23e0067e840
 title: 關於 WASAPI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f869319f3100b797e58c7b43597869c9767ac037
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 3effb34ec0cde0a53d0eb6f6e9718aa13fc308417b33427f168364afc32086ef
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936330"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120088178"
 ---
 # <a name="about-wasapi"></a>關於 WASAPI
 
-Windows 音訊會話 API (WASAPI) 可讓用戶端應用程式管理應用程式和 [音訊端點裝置](audio-endpoint-devices.md)之間的音訊資料流程程。
+Windows 音訊會話 API (WASAPI) 可讓用戶端應用程式管理應用程式和[音訊端點裝置](audio-endpoint-devices.md)之間的音訊資料流程程。
 
 標頭檔 Audioclient .h 和 Audiopolicy 定義 WASAPI 介面。
 

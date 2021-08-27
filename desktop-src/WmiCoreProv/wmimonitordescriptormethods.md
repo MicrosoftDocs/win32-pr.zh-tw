@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - WmiProv.dll
-ms.openlocfilehash: 578c08c48ada4859b69e00655c5eea8c075515fa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7e8fe02540cd68047e3e74c052a8ea833a67d829228979da31bb12e13e84d9f8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106987287"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120120958"
 ---
 # <a name="wmimonitordescriptormethods-class"></a>WmiMonitorDescriptorMethods 類別
 

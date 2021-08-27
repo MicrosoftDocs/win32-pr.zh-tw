@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 7c7b068246da9b26a4b3547e27abd1a9b60c8fd70de10e4edd2438463a156633
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5b6be1fae596e70f15dbfcd27e4bf15e35e04a93
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118202511"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122625974"
 ---
 # <a name="fontcontrol-element"></a>FontControl 元素
 
@@ -46,10 +46,10 @@ ms.locfileid: "118202511"
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col  />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -63,14 +63,14 @@ ms.locfileid: "118202511"
 <tr class="odd">
 <td><strong>CommandName</strong><br/></td>
 <td>xs： positiveInteger 或 xs： string<br/></td>
-<td>No<br/></td>
+<td>否<br/></td>
 <td>將元素與 <a href="windowsribbon-element-command.md"><strong>命令</strong></a>產生關聯。<br/> <br/>
 <dt><span></span><span></span><strong></strong> (xs： positiveInteger 或 xs： string) <br/> </dt> <dd> 字串、介於2與59999（含）之間的整數值，或介於0x2 與0xea5f （含）之間的十六進位值。 <br/> 值在功能區 XML 檔中必須是唯一的。 <br/> 最大長度：100個字元。 <br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><strong>FontType</strong><br/></td>
 <td>xs:string<br/></td>
-<td>No<br/></td>
+<td>否<br/></td>
 <td>限制為下列其中一個值： <br/> <br/>
 <dt><span></span><span></span><strong></strong> (FontOnly) <br/> </dt> <dd> 預設值。 <br/> <img src="images/markup/screenshot-fonttype-fontonly.png" alt="Screen shot of the FontControl element with the FontOnly attribute set to true." /><br/> 將 <em>FontType</em> 屬性設定為可 <code>FontOnly</code> 啟用下列功能：<br/>
 <ul>
@@ -127,7 +127,7 @@ ms.locfileid: "118202511"
 <tr class="odd">
 <td><strong>IsGrowShrinkButtonGroupVisible</strong><br/></td>
 <td>Boolean<br/></td>
-<td>No<br/></td>
+<td>否<br/></td>
 <td><strong>Windows 8 和更新版本</strong><br/> 限制為下列其中一個值： <br/>
 <blockquote>
 [!Note]<br />
@@ -139,7 +139,7 @@ ms.locfileid: "118202511"
 <tr class="even">
 <td><strong>IsHighlightButtonVisible</strong><br/></td>
 <td>Boolean<br/></td>
-<td>No<br/></td>
+<td>否<br/></td>
 <td>限制為下列其中一個值 (0 和1不是有效的) ： <br/>
 <blockquote>
 [!Note]<br />
@@ -151,42 +151,42 @@ ms.locfileid: "118202511"
 <tr class="odd">
 <td><strong>IsStrikethroughButtonVisible</strong><br/></td>
 <td>Boolean<br/></td>
-<td>No<br/></td>
+<td>否<br/></td>
 <td>限制為下列其中一個值 (0 和1不是有效的) ： <br/> <br/>
 <dt><span></span><span></span><strong></strong> (true) <br/> </dt> <dd> 預設值。 <br/> </dd> <dt><span></span><span></span><strong></strong> (false) <br/> </dt> <dd> 只有當 <em>FontType</em> 的值等於或時才會有效 <code>FontOnly</code> <code>FontWithColor</code> 。 <br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><strong>IsUnderlineButtonVisible</strong><br/></td>
 <td>Boolean<br/></td>
-<td>No<br/></td>
+<td>否<br/></td>
 <td>限制為下列其中一個值 (0 和1不是有效的) ： <br/> <br/>
 <dt><span></span><span></span><strong></strong> (true) <br/> </dt> <dd> 預設值。 <br/> </dd> <dt><span></span><span></span><strong></strong> (false) <br/> </dt> <dd> 只有當 <em>FontType</em> 的值等於或時才會有效 <code>FontOnly</code> <code>FontWithColor</code> 。 <br/> </dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><strong>MaximumFontSize</strong><br/></td>
 <td>xs:positiveInteger<br/></td>
-<td>No<br/></td>
+<td>否<br/></td>
 <td>要顯示的最大點大小。<br/> <br/>
 <dt><span></span><span></span><strong></strong> (xs： positiveInteger) <br/> </dt> <dd> 介於1到9999（含）之間的整數值。<br/> 預設值為 <strong>9999</strong>。<br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><strong>MinimumFontSize</strong><br/></td>
 <td>xs:positiveInteger<br/></td>
-<td>No<br/></td>
+<td>否<br/></td>
 <td>要顯示的最小點大小。<br/> <br/>
 <dt><span></span><span></span><strong></strong> (xs： positiveInteger) <br/> </dt> <dd> 介於1到9999（含）之間的整數值。<br/> 預設值為 <strong>1</strong>。<br/> </dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><strong>ShowTrueTypeOnly</strong><br/></td>
 <td>Boolean<br/></td>
-<td>No<br/></td>
+<td>否<br/></td>
 <td>限制為下列其中一個值 (0 和1不是有效的) ：<br/> <br/>
 <dt><span></span><span></span><strong></strong> (true) <br/> </dt> <dd> 只顯示 TrueType 和 OpenType 字型。 <br/> </dd> <dt><span></span><span></span><strong></strong> (false) <br/> </dt> <dd> 預設值。 所顯示的字型類型沒有任何限制。<br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><strong>ShowVerticalFonts</strong><br/></td>
 <td>Boolean<br/></td>
-<td>No<br/></td>
+<td>否<br/></td>
 <td>限制為下列其中一個值 (0 和1不是有效的) ：<br/>
 <blockquote>
 [!Note]<br />

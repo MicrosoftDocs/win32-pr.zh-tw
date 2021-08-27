@@ -4,12 +4,12 @@ ms.assetid: 7b9abfcc-28ab-4f29-af69-6dc68e3f51b6
 title: 再見訊息
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8276c05314b31782442bfdf6de998dd41241391de9dc94947409041c8f4aa420
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 77d571e8633690f1a2fee5f6f9c09e1379a7a465
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117738650"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122622474"
 ---
 # <a name="bye-message"></a>再見訊息
 
@@ -62,9 +62,9 @@ ms.locfileid: "117738650"
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
