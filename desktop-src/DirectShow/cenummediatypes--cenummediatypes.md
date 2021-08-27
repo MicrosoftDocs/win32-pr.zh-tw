@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: de761e740f6cb75c635cfd463e3d7d4ba22b7612
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: ef221026c0e7a789f3e7509ff8dd9e3b89c696fb8d1505dd9761653f1b23c126
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108099236"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120131318"
 ---
 # <a name="cenummediatypescenummediatypes-destructor"></a>CEnumMediaTypes. ~ CEnumMediaTypes 的函式
 

@@ -6,91 +6,42 @@ keywords:
 - 遠端程序呼叫 RPC、工作、設定埠配置和選擇性系結的登錄
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0ef1749fab1beb8e637d208a7d7af64577066fe6
-ms.sourcegitcommit: ae73f4dd3cf5a3c6a1ea7d191ca32a5b01f6686b
+ms.openlocfilehash: b220e0e3415b7906c847c0f1196fbc815521dee0
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "103933690"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122465475"
 ---
 # <a name="configuring-the-registry-for-port-allocations-and-selective-binding"></a>設定用於埠配置和選擇性系結的登錄
 
 從 Windows 2000 開始，Windows 資源套件中稱為 Rpccfg.exe 的公用程式應該用來設定系結。 如需詳細資訊，請參閱 Windows 資源套件以取得適當的作業系統版本。
 
-在 Windows 2000 之前的 windows 版本中，下表中的登錄機碼會指定動態埠配置的系統預設值，以及在多重主目錄電腦上系結至 Nic 的系統預設值。 您必須先建立這些金鑰，然後指定適當的設定。
+在 Windows 2000 之前的 windows 版本中，下表中的登錄機碼會指定動態埠配置的系統預設值，以及在多重主目錄電腦上系結至 nic 的系統預設值。 您必須先建立這些金鑰，然後指定適當的設定。
 
 使用 [**RpcServerUseProtseqEx**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcserveruseprotseqex) 函數會影響這些設定。 開發人員應該熟悉本節中說明的登錄設定，以及管理埠配置時的 **RpcServerUseProtseqEx** 函式。 如下表所示，其中包含三個假設性應用程式的範例，並說明這些設定和 **RpcServerUseProtseqEx** 函式如何相交互操作。
 
-如果遺失索引鍵或其包含不正確值，則會將整個設定標示為無效，而透過 [**ncacn \_ ip \_ tcp**](/windows/desktop/Midl/ncacn-ip-tcp)或 [**Ncadg \_ ip \_ udp**](/windows/desktop/Midl/ncadg-ip-udp)的所有 **RpcServerUseProtseq \*** 呼叫將會失敗。
+如果遺失索引鍵或其包含不正確值，整個設定會標示為無效，而且所有 **RpcServerUseProtseq \** _ 呼叫超過 [_ *ncacn \_ ip \_ tcp* *](/windows/desktop/Midl/ncacn-ip-tcp)或 [**ncadg \_ ip \_ udp**](/windows/desktop/Midl/ncadg-ip-udp)將會失敗。
 
 > [!Note]  
 > 配置給處理常式的埠會保持配置，直到該進程無法使用為止。 如果所有可用的埠都在使用中，此函式會傳回 RPC \_ \_ \_ 的 \_ 資源不足。
 
- 
+ 
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>埠金鑰</th>
-<th>資料類型</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre data-space="preserve"><code>HKEY_LOCAL_MACHINE
-   Software
-      Microsoft
-         Rpc
-            Internet
-               Ports</code></pre></td>
-<td><strong>REG_MULTI_SZ</strong></td>
-<td>指定一組 IP 埠範圍，其中包括可從網際網路取得的所有埠，或網際網路上所有無法使用的埠。 每個字串都代表一個埠或一組內含的埠 (例如 1000-1050、1984) 。 如果有任何專案超出範圍0至65535，或如果任何字串無法解讀，則 RPC 執行時間會將整個設定視為無效。</td>
-</tr>
-<tr class="even">
-<td><pre data-space="preserve"><code>HKEY_LOCAL_MACHINE
-   Software
-      Microsoft
-         Rpc
-            Internet
-               PortsInternetAvailable</code></pre></td>
-<td><strong>REG_SZ</strong></td>
-<td>Y 或 N (不區分大小寫) 。 如果是 Y，埠機碼中列出的埠就是該電腦上的所有網際網路可用埠。 如果是 N，埠機碼中列出的埠就是所有無法使用網際網路的通訊埠。</td>
-</tr>
-<tr class="odd">
-<td><pre data-space="preserve"><code>HKEY_LOCAL_MACHINE
-   Software
-      Microsoft
-         Rpc
-            Internet
-               UseInternetPorts</code></pre></td>
-<td><strong>REG_SZ</strong></td>
-<td>Y 或 N (不區分大小寫) 。 指定系統預設原則。 如果是 Y，則使用預設值的處理常式會從一組網際網路可用埠指派埠，如上面所定義。 如果是 N，則會從內部網路專用埠集合中指派埠給使用預設的處理常式。</td>
-</tr>
-<tr class="even">
-<td><pre data-space="preserve"><code>HKEY_LOCAL_MACHINE
-   System
-      CurrentControlSet
-         Services
-            Rpc
-               Linkage
-                  Bind</code></pre></td>
-<td><strong>REG_MULTI_SZ</strong></td>
-<td>列出預設要系結之所有 Nic 的裝置名稱 (例如 \Device\AMDPCN1) 。 如果機碼不存在，則伺服器會系結至所有 Nic。 如果機碼存在，除非 NICFlags 欄位設定為 RPC_C_BIND_TO_ALL_NICS，否則伺服器會系結至機碼中指定的 Nic。 如果索引鍵的 () 值為 null，則會將設定 &quot; &quot; 標示為無效，而對<strong>RpcServerUseProtseq *</strong>的所有呼叫會透過<a href="/windows/desktop/Midl/ncacn-ip-tcp"><strong>ncacn_ip_tcp</strong></a>或<a href="/windows/desktop/Midl/ncadg-ip-udp"><strong>ncadg_ip_udp</strong></a>將會失敗。</td>
-</tr>
-</tbody>
-</table>
+
+| 埠金鑰 | 資料類型 | 描述 | 
+|----------|-----------|-------------|
+| <pre data-space="preserve"><code>HKEY_LOCAL_MACHINE   Software      Microsoft         Rpc            Internet               Ports</code></pre> | <strong>REG_MULTI_SZ</strong> | 指定一組 IP 埠範圍，其中包括可從網際網路取得的所有埠，或網際網路上所有無法使用的埠。 每個字串都代表一個埠或一組內含的埠 (例如 1000-1050、1984) 。 如果有任何專案超出範圍0至65535，或如果任何字串無法解讀，則 RPC 執行時間會將整個設定視為無效。 | 
+| <pre data-space="preserve"><code>HKEY_LOCAL_MACHINE   Software      Microsoft         Rpc            Internet               PortsInternetAvailable</code></pre> | <strong>REG_SZ</strong> | Y 或 N (不區分大小寫) 。 如果是 Y，埠機碼中列出的埠就是該電腦上的所有網際網路可用埠。 如果是 N，埠機碼中列出的埠就是所有無法使用網際網路的通訊埠。 | 
+| <pre data-space="preserve"><code>HKEY_LOCAL_MACHINE   Software      Microsoft         Rpc            Internet               UseInternetPorts</code></pre> | <strong>REG_SZ</strong> | Y 或 N (不區分大小寫) 。 指定系統預設原則。 如果是 Y，則使用預設值的處理常式會從一組網際網路可用埠指派埠，如上面所定義。 如果是 N，則會從內部網路專用埠集合中指派埠給使用預設的處理常式。 | 
+| <pre data-space="preserve"><code>HKEY_LOCAL_MACHINE   System      CurrentControlSet         Services            Rpc               Linkage                  Bind</code></pre> | <strong>REG_MULTI_SZ</strong> | 列出預設要系結之所有 Nic 的裝置名稱 (例如 \Device\AMDPCN1) 。 如果機碼不存在，則伺服器會系結至所有 Nic。 如果機碼存在，除非 NICFlags 欄位設定為 RPC_C_BIND_TO_ALL_NICS，否則伺服器會系結至機碼中指定的 Nic。 如果索引鍵的值為 null ( "" ) 值，則設定會標示為無效，而且所有對 <strong>RpcServerUseProtseq *</strong> 的呼叫會透過 <a href="/windows/desktop/Midl/ncacn-ip-tcp"><strong>ncacn_ip_tcp</strong></a> 或 <a href="/windows/desktop/Midl/ncadg-ip-udp"><strong>ncadg_ip_udp</strong></a> 進行失敗。 | 
 
 
 
- 
+
+ 
 
 下表說明三個範例應用程式如何受到上表中定義的設定影響，以及如何使用 [**RpcServerUseProtseqEx**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcserveruseprotseqex) 函數套用的設定也會受到影響。
 
@@ -127,7 +78,7 @@ UIP = UseInternetPorts 索引鍵值
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -157,6 +108,6 @@ UIP = UseInternetPorts 索引鍵值
 [**ncadg \_ ip \_ udp**](/windows/desktop/Midl/ncadg-ip-udp)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ ms.assetid: a9885a77-f04e-4ca5-9202-67c4779d03de
 title: " (Direct3D 9) 視圖轉換"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 60cf933db7424b2c3aeb5aa7c06a37b03782eaa6
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: fb184cb75f84a1d28ed6f03f2e65113ea65292fd6ca1871d517d472614f64a0f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104510138"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120118524"
 ---
 # <a name="view-transform-direct3d-9"></a> (Direct3D 9) 視圖轉換
 

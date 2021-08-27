@@ -4,12 +4,12 @@ ms.assetid: 7ea09742-8dd3-431b-b07f-cf317fe11690
 title: enablefx 屬性
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 02b82b64e079766c93a1fed10b339afdd6285cba
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: b6391006b9dfbf910503240da538c4b27f0884d8499851fccdbb27f953d44e7c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104467712"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120107868"
 ---
 # <a name="enablefx-attribute"></a>enablefx 屬性
 

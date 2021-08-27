@@ -4,12 +4,12 @@ ms.assetid: c6df5462-e20e-4486-8480-8c747193c5d9
 title: 自訂動作類型19
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 695f86db0848bd65884ce5e233b4d9a249275c1d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 20cbbef4ec07d805e41c0de25c371f995782ce3d8df66a89ee93363afa05f55b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106982777"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120075058"
 ---
 # <a name="custom-action-type-19"></a>自訂動作類型19
 

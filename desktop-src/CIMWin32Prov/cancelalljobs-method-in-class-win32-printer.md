@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: d2d816dab837aafd7b6e9c6beff75c4e62b19b2f
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 06aae96cec4e38c7ff9c213cd19dc35e9843a077c262aafcaf0aed43160505a9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847115"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120085838"
 ---
 # <a name="cancelalljobs-method-of-the-win32_printer-class"></a>Win32 Printer 類別的 CancelAllJobs 方法 \_
 

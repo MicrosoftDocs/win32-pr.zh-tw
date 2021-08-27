@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 4303b3226acc6d773ed35e77176e05e3a58c567d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9a8a73dbe85ce806d955329df3362a8b17dd48cc530939ec2f94ffcff2074614
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106983550"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120097138"
 ---
 # <a name="swbemservices-object"></a>SWbemServices 物件
 
@@ -51,7 +51,7 @@ ms.locfileid: "106983550"
 | [**ExecNotificationQueryAsync**](swbemservices-execnotificationqueryasync.md) | 以非同步方式執行查詢以接收事件。<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | [**ExecQuery**](swbemservices-execquery.md)                                   | 執行查詢，以抓取受 WMI 管理之資源的實例集合 (或) 的類別定義。 [**ExecQuery**](swbemservices-execquery.md) 可以用來抓取已篩選的實例集合，這些實例符合您在傳遞至 **ExecQuery** 的查詢中定義的條件。<br/>                                                                                                                                                                                                           |
 | [**ExecQueryAsync**](swbemservices-execqueryasync.md)                         | 以非同步方式執行查詢來取出物件。<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| [**Get**](swbemservices-get.md)                                               | 根據物件路徑，抓取 managed 資源 (或類別定義) 的單一實例。<br/>                                                                                                                                                                                                                                                                                                                                                                                               |
+| [**獲取**](swbemservices-get.md)                                               | 根據物件路徑，抓取 managed 資源 (或類別定義) 的單一實例。<br/>                                                                                                                                                                                                                                                                                                                                                                                               |
 | [**GetAsync**](swbemservices-getasync.md)                                     | 以物件路徑為基礎，以非同步方式抓取物件，也就是類別定義或實例。<br/>                                                                                                                                                                                                                                                                                                                                                                                |
 | [**InstancesOf**](swbemservices-instancesof.md)                               | 根據類別名稱，抓取 managed 資源的所有實例。 根據預設， [**InstancesOf**](swbemservices-instancesof.md) 會執行深度抓取。 也就是說， **InstancesOf** 會抓取傳遞給方法之類別名稱所識別的資源實例，也會抓取所有子類別的所有實例， (在目標類別) 下定義。<br/>                                                                                       |
 | [**InstancesOfAsync**](swbemservices-instancesofasync.md)                     | 根據使用者指定的選取準則，以非同步方式傳回指定之類別的實例。<br/>                                                                                                                                                                                                                                                                                                                                                                                  |
@@ -70,7 +70,7 @@ ms.locfileid: "106983550"
 
 
 
-| 屬性                                                 | 存取類型          | Description                                                                          |
+| 屬性                                                 | 存取類型          | 描述                                                                          |
 |:---------------------------------------------------------|:---------------------|:-------------------------------------------------------------------------------------|
 | [**安全性\_**](swbemservices-security-.md)<br/> | 唯讀<br/> | 用來取得或設定 **SWbemServices** 物件的安全性設定。<br/> |
 
@@ -98,7 +98,7 @@ ms.locfileid: "106983550"
 
 **SWbemServices** 支援三種作業模式：同步、非同步和同步。
 
--   **同步**。 在同步模式中，除非 **SWbemServices** 方法完成，否則腳本會封鎖 (暫停) 。 您的腳本不只會等待，但在 WMI 抓取 managed 資源實例的情況下，WMI 會先在記憶體中建立整個 [**swbemobjectset 搭配使用**](swbemobjectset.md) ，然後再將第一個位元組的資料傳回給呼叫腳本。 這可能會對腳本效能以及執行腳本的電腦造成負面影響。 例如，以同步方式從 Windows 事件記錄檔中取出上千個事件可能需要很長的時間，而且會使用大量的記憶體。 基於這些理由，不建議使用同步作業，除非三個方法 ([**Delete**](swbemservices-delete.md)、 [**ExecMethod**](swbemservices-execmethod.md)和 [**Get**](swbemservices-get.md)) 預設為同步。 這些方法不會傳回大型資料集，因此不需要進行非半運算作業。
+-   **同步**。 在同步模式中，除非 **SWbemServices** 方法完成，否則腳本會封鎖 (暫停) 。 您的腳本不只會等待，但在 WMI 抓取 managed 資源實例的情況下，WMI 會先在記憶體中建立整個 [**swbemobjectset 搭配使用**](swbemobjectset.md) ，然後再將第一個位元組的資料傳回給呼叫腳本。 這可能會對腳本效能以及執行腳本的電腦造成負面影響。 例如，以同步方式從 Windows 事件記錄檔中取得上千個事件可能需要很長的時間，而且會使用大量的記憶體。 基於這些理由，不建議使用同步作業，除非三個方法 ([**Delete**](swbemservices-delete.md)、 [**ExecMethod**](swbemservices-execmethod.md)和 [**Get**](swbemservices-get.md)) 預設為同步。 這些方法不會傳回大型資料集，因此不需要進行非半運算作業。
 -   **非同步**。 在非同步模式中，您的腳本會呼叫其中九個非同步方法的其中一個，並立即傳回。 也就是說，只要呼叫非同步方法，您的腳本就會繼續執行下一行程式碼。 若要使用非同步方法，您的腳本必須先建立 [**SWbemSink**](swbemsink.md) 物件和特殊的副程式，稱為事件處理常式。 WMI 會執行非同步作業，並在作業完成時呼叫事件處理常式副程式來通知腳本。
 -   **半同步**。 半同步模式是同步與非同步之間的折衷。 多工作業提供比同步作業更佳的效能，但不需要額外的知識和腳本步驟來處理非同步作業。 這是大部分 WMI 查詢的預設操作類型。
 
@@ -122,8 +122,8 @@ ms.locfileid: "106983550"
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows Vista<br/>                                                                |
 | 最低支援的伺服器<br/> | Windows Server 2008<br/>                                                          |
-| 標頭<br/>                   | <dl> <dt>>wbemdisp.tlb。h</dt> </dl>   |
-| 類型程式庫<br/>             | <dl> <dt>>wbemdisp.tlb .tlb</dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>>Wbemdisp.tlb。h</dt> </dl>   |
+| 類型程式庫<br/>             | <dl> <dt>>Wbemdisp.tlb .tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
 | CLSID<br/>                    | CLSID \_ SWbemServices<br/>                                                         |
 | IID<br/>                      | IID \_ ISWbemServices<br/>                                                          |

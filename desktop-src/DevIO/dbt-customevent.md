@@ -4,12 +4,12 @@ ms.assetid: 6e66fa93-0cd7-4202-83eb-cddc668525ae
 title: 'DBT_CUSTOMEVENT (Dbt 的事件) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 777049a0a94b16450ed9ee8567f3fc6506e47174
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 75ec02262e4cf49a7b929f738acce94822aaf67a397a37d6237f4faa57ef7f1f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103688859"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120109038"
 ---
 # <a name="dbt_customevent-event"></a>DBT \_ CUSTOMEVENT 事件
 

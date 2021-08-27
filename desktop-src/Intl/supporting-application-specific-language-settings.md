@@ -4,12 +4,12 @@ ms.assetid: cb9f2a5f-3bb8-4287-a542-c71d20b37194
 title: 支援 Application-Specific 語言設定
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d6bddfe94586751d3b0f4757c670c006317e49b7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 96c934ea2f01c37eb2f9e846382447a50ccbedcd9b69fe20069216fa46521b02
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975227"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120130058"
 ---
 # <a name="supporting-application-specific-language-settings"></a>支援 Application-Specific 語言設定
 
@@ -91,7 +91,7 @@ BOOL ConvertMyLangStrToMultiLangStr(WCHAR * langStr, WCHAR * langMultiStr, DWORD
 
 ## <a name="set-the-application-language"></a>設定應用程式語言
 
-在閱讀語言喜好設定資訊之後，應用程式程式碼必須使用抓取的設定來設定應用程式語言。 在 Windows 7 和更新版本中，應用程式可以藉由呼叫 [**SetProcessPreferredUILanguages**](/windows/desktop/api/Winnls/nf-winnls-setprocesspreferreduilanguages) 函式，在進程層級設定語言。
+在閱讀語言喜好設定資訊之後，應用程式程式碼必須使用抓取的設定來設定應用程式語言。 在 Windows 7 和更新版本上，應用程式可以藉由呼叫 [**SetProcessPreferredUILanguages**](/windows/desktop/api/Winnls/nf-winnls-setprocesspreferreduilanguages)函數，在進程層級設定語言。
 
 
 ```C++
@@ -108,7 +108,7 @@ if(!SetProcessPreferredUILanguages(MUI_LANGUAGE_NAME, userLanguagesMultiString, 
 
 
 
-在 Windows Vista 和更新版本上，會藉由呼叫 [**SetThreadPreferredUILanguages**](/windows/desktop/api/Winnls/nf-winnls-setthreadpreferreduilanguages) 函數，線上程層級設定應用程式語言。
+在 Windows Vista 和更新版本上，會藉由呼叫 [**SetThreadPreferredUILanguages**](/windows/desktop/api/Winnls/nf-winnls-setthreadpreferreduilanguages)函數，線上程層級設定應用程式語言。
 
 
 ```C++
@@ -133,10 +133,10 @@ return 1;
 [設定應用程式語言喜好設定](setting-application-language-preferences.md)
 </dt> <dt>
 
-[MUI： (Windows Vista) 的 Application-Specific 設定範例 ](mui-application-specific-settings-sample-vista.md)
+[MUI： Application-Specific 設定範例 (Windows Vista) ](mui-application-specific-settings-sample-vista.md)
 </dt> <dt>
 
-[MUI： (Windows Vista 之前的 Application-Specific 設定範例) ](mui-application-specific-settings-sample-pre-vista.md)
+[MUI： Application-Specific 設定範例 (早 Windows Vista) ](mui-application-specific-settings-sample-pre-vista.md)
 </dt> </dl>
 
  

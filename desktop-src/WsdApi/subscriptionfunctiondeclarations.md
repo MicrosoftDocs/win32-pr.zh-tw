@@ -4,12 +4,12 @@ ms.assetid: 0e5b2232-c9bf-4741-921d-bb3bce4ee293
 title: subscriptionFunctionDeclarations 元素
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fb7389b30ef7da17f9466fa8aefd24fa04f4c99f
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 1326750ece2f8dceff171890d107a7efad5f7432be2c201bf182e4406cb7fe6b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107995455"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120097098"
 ---
 # <a name="subscriptionfunctiondeclarations-element"></a>subscriptionFunctionDeclarations 元素
 

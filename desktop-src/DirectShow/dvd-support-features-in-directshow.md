@@ -4,12 +4,12 @@ ms.assetid: 20dc1067-696e-4f53-9c77-0f2da237c5af
 title: DirectShow 中的 DVD 支援功能
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 035af51bbe44ec8dcc95f199c502b71d37d834f6
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 0f143bab35a8b9a4a0cb12af20c2c2c3b66a0822a24cfc054b1f5d30bd4bc3dd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106970691"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120107898"
 ---
 # <a name="dvd-support-features-in-directshow"></a>DirectShow 中的 DVD 支援功能
 
@@ -36,7 +36,7 @@ DVD 導覽器支援下列功能：
 
 所有應用程式開發人員都應該對 DVD 技術所提供的功能有基本的認識，例如家長管理層級、多個音訊和子圖片串流，以及角度區塊。 [DVD 基本概念](dvd-basics.md) 簡要說明這些功能;協力廠商發行集提供更完整的說明。 除非您想要在附錄 J 命令集以外執行先進的功能，否則不需要參照 DVD 規格。
 
-使用 DirectShow 的 c/c + + 開發人員應該熟悉 COM 用戶端程式設計技術，例如建立 COM 物件以及取得和釋放 COM 介面指標。 您可能也需要篩選圖形作業的一般知識，因為您可能需要直接存取和操作圖形。
+使用 DirectShow 的 c/c + + 開發人員應該熟悉 com 用戶端程式設計技術，例如建立 com 物件以及取得和釋放 com 介面指標。 您可能也需要篩選圖形作業的一般知識，因為您可能需要直接存取和操作圖形。
 
 ## <a name="related-topics"></a>相關主題
 

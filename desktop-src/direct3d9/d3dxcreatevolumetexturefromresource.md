@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: a5f0a0faf97f773c3174ced22ec7259091d6e07e
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: df0d54e4981b9dccf655978df8f08bb9154e41d1ec9918c9a6db0ee65b0be6de
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104514597"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120119228"
 ---
 # <a name="d3dxcreatevolumetexturefromresource-function"></a>D3DXCreateVolumeTextureFromResource 函式
 
@@ -93,7 +93,7 @@ HRESULT D3DXCreateVolumeTextureFromResource(
 
 要載入的資源必須是應用程式定義的資源 (RT \_ RCDATA) 。
 
-此函式支援下列檔案格式： .bmp、dds、.dib、hdr、.jpg、pfm、.png、ppm 和. tga。 請參閱 [**D3DXIMAGE \_ >fileformat**](./d3dximage-fileformat.md)。
+此函數支援下列檔案格式： .bmp、dds、.dib、hdr、.jpg、pfm、.png、ppm 和. tga。 請參閱 [**D3DXIMAGE \_ >fileformat**](./d3dximage-fileformat.md)。
 
 請注意，從 IDirect3DDevice9 物件呼叫時，使用這個函式所建立的資源將會放置在 D3DPOOL MANAGED 所表示的記憶體類別中 \_ 。 從 IDirect3DDevice9Ex 物件呼叫這個方法時，資源會放在 D3DPOOL 預設值所表示的 memory 類別中 \_ 。
 

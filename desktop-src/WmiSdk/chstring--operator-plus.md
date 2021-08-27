@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 'CHString：： operator + (ChString .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d5053a4d3059a66cb2c8e4a89a3bdd531d5f42de
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 69ce52e8740fcd420600aaebb192c23ab7269c4ddf14c068a4980c59df3e7773
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103694120"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120097348"
 ---
 # <a name="chstringoperator"></a>CHString：： operator +
 

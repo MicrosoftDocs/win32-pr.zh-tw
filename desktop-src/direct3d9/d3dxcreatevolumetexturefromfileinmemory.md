@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 380aadd9e26940b2a67c2064b3941a0965a782f0
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: e7cfa39b689033d9675e3615fa1ab5d99291fa6058965cd47bf84c68c2abfe33
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103696651"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120119268"
 ---
 # <a name="d3dxcreatevolumetexturefromfileinmemory-function"></a>D3DXCreateVolumeTextureFromFileInMemory 函式
 
@@ -61,7 +61,7 @@ HRESULT D3DXCreateVolumeTextureFromFileInMemory(
 
 </dd> <dt>
 
-*>srcdata* \[在\]
+*>Srcdata* \[在\]
 </dt> <dd>
 
 類型： **[ **UINT**](../winprog/windows-data-types.md)**
@@ -87,7 +87,7 @@ HRESULT D3DXCreateVolumeTextureFromFileInMemory(
 
 ## <a name="remarks"></a>備註
 
-此函式支援下列檔案格式： .bmp、dds、.dib、hdr、.jpg、pfm、.png、ppm 和. tga。 請參閱 [**D3DXIMAGE \_ >fileformat**](./d3dximage-fileformat.md)。
+此函數支援下列檔案格式： .bmp、dds、.dib、hdr、.jpg、pfm、.png、ppm 和. tga。 請參閱 [**D3DXIMAGE \_ >fileformat**](./d3dximage-fileformat.md)。
 
 函數相當於 D3DXCreateVolumeTextureFromFileInMemoryEx (pDevice、pSrcFile、>srcdata、D3DX \_ default、D3DX \_ DEFAULT、D3DX \_ default、D3DX \_ DEFAULT、0、D3DFMT \_ UNKNOWN、D3DPOOL \_ MANAGED、D3DX \_ Default、D3DX \_ default、0、 **null**、 **null**、ppVolumeTexture) 。
 

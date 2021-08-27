@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101855
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 894bfb4b964cea7fd40bc74f7c6f5e46214bb8c6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4245bb20e6c41eaef4c5d9c9c0d00af337821449b6ab4df52c654db4a5b8c764
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104558138"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120065198"
 ---
 # <a name="esentindextupleskeytoosmallexception-properties"></a>EsentIndexTuplesKeyTooSmallException 屬性
 

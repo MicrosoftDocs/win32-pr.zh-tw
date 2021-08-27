@@ -4,12 +4,12 @@ ms.assetid: 8c422592-ef59-4030-b684-81e4e552c6b0
 title: 'IMC_OPENSTATUSWINDOW 命令 (Imm. h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8cd0b5e19ef6a026459eedb050e9ac9587b5ea24
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 263640a3f104c9abf72a7eb5b33bce6ff3813ca40645c18b179b9b31a95fdda9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848194"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120107288"
 ---
 # <a name="imc_openstatuswindow-command"></a>IMC \_ OPENSTATUSWINDOW 命令
 
@@ -58,7 +58,7 @@ LRESULT IMC_OPENSTATUSWINDOW
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                           |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                 |
-| 標頭<br/>                   | <dl> <dt>Imm (包括 Windows .h) </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Imm (包含 Windows .h) </dt> </dl> |
 
 
 

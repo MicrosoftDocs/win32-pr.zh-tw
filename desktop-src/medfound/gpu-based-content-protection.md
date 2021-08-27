@@ -4,12 +4,12 @@ ms.assetid: FD0625BB-484A-43E6-8931-DB635D4F017F
 title: GPU-Based 內容保護
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6bbc1a0f88cae199b9aab38e5ec429ea5427f44b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7e09829984273c35524fe9c8f3cd19e759e18dbc
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104556185"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122465035"
 ---
 # <a name="gpu-based-content-protection"></a>GPU-Based 內容保護
 
@@ -218,41 +218,14 @@ ExtensionExecute.PrivateOutputDataSize = sizeof(HANDLE);
 
 1.  填寫輸入資料結構。 此資料結構一律是 [**D3DAUTHENTICATEDCHANNEL_CONFIGURE_INPUT**](d3dauthenticatedchannel-configure-input.md) 結構，後面接著其他欄位。 填寫 **D3DAUTHENTICATEDCHANNEL_CONFIGURE_INPUT** 結構，如下表所示。
 
-    <table>
-    <colgroup>
-    <col style="width: 50%" />
-    <col style="width: 50%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th>member</th>
-    <th>描述</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td><strong>omac</strong></td>
-    <td>請立即略過此欄位。</td>
-    </tr>
-    <tr class="even">
-    <td><strong>ConfigureType</strong></td>
-    <td>識別命令的 GUID。 如需命令清單，請參閱 <a href="content-protection-commands.md">內容保護命令</a>。</td>
-    </tr>
-    <tr class="odd">
-    <td><strong>hChannel</strong></td>
-    <td>已驗證通道的控制碼。</td>
-    </tr>
-    <tr class="even">
-    <td><strong>SequenceNumber</strong></td>
-    <td>序號。 第一個序號是藉由傳送 <a href="d3dauthenticatedconfigure-initialize.md"><strong>D3DAUTHENTICATEDCONFIGURE_INITIALIZE</strong></a> 命令來指定。 每次您傳送另一個命令時，就會將此數位遞增1。 此序號會防止重新執行攻擊。
-    <blockquote>
-    [!Note]<br />
-使用兩個不同的序號，一個用於命令，一個用於查詢。
-    </blockquote>
-    <br/> <br/></td>
-    </tr>
-    </tbody>
-    </table>
+    
+| member | 描述 | 
+|--------|-------------|
+| <strong>omac</strong> | 請立即略過此欄位。 | 
+| <strong>ConfigureType</strong> | 識別命令的 GUID。 如需命令清單，請參閱 <a href="content-protection-commands.md">內容保護命令</a>。 | 
+| <strong>hChannel</strong> | 已驗證通道的控制碼。 | 
+| <strong>SequenceNumber</strong> | 序號。 第一個序號是藉由傳送 <a href="d3dauthenticatedconfigure-initialize.md"><strong>D3DAUTHENTICATEDCONFIGURE_INITIALIZE</strong></a> 命令來指定。 每次您傳送另一個命令時，就會將此數位遞增1。 此序號會防止重新執行攻擊。    <blockquote>    [!Note]<br />    使用兩個不同的序號，一個用於命令，一個用於查詢。    </blockquote><br /><br /> | 
+
 
     
 
@@ -273,37 +246,13 @@ ExtensionExecute.PrivateOutputDataSize = sizeof(HANDLE);
 
 1.  填寫輸入資料結構。 此資料結構一律是 [**D3DAUTHENTICATEDCHANNEL_QUERY_INPUT**](d3dauthenticatedchannel-query-input.md) 結構，後面可能接著其他欄位。 填寫 **D3DAUTHENTICATEDCHANNEL_QUERY_INPUT** 結構，如下表所示。
 
-    <table>
-    <colgroup>
-    <col style="width: 50%" />
-    <col style="width: 50%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th>member</th>
-    <th>描述</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td><strong>QueryType</strong></td>
-    <td>識別查詢的 GUID。 如需查詢清單，請參閱 <a href="content-protection-queries.md">內容保護查詢</a>。</td>
-    </tr>
-    <tr class="even">
-    <td><strong>hChannel</strong></td>
-    <td>已驗證通道的控制碼。</td>
-    </tr>
-    <tr class="odd">
-    <td><strong>SequenceNumber</strong></td>
-    <td>序號。 第一個序號是藉由傳送 <a href="d3dauthenticatedconfigure-initialize.md"><strong>D3DAUTHENTICATEDCONFIGURE_INITIALIZE</strong></a> 命令來指定。 每次您傳送另一個查詢時，會將此數位遞增1。 此序號會防止重新執行攻擊。
-    <blockquote>
-    [!Note]<br />
-使用兩個不同的序號，一個用於命令，一個用於查詢。
-    </blockquote>
-    <br/> <br/></td>
-    </tr>
-    </tbody>
-    </table>
+    
+| member | 描述 | 
+|--------|-------------|
+| <strong>QueryType</strong> | 識別查詢的 GUID。 如需查詢清單，請參閱 <a href="content-protection-queries.md">內容保護查詢</a>。 | 
+| <strong>hChannel</strong> | 已驗證通道的控制碼。 | 
+| <strong>SequenceNumber</strong> | 序號。 第一個序號是藉由傳送 <a href="d3dauthenticatedconfigure-initialize.md"><strong>D3DAUTHENTICATEDCONFIGURE_INITIALIZE</strong></a> 命令來指定。 每次您傳送另一個查詢時，會將此數位遞增1。 此序號會防止重新執行攻擊。    <blockquote>    [!Note]<br />    使用兩個不同的序號，一個用於命令，一個用於查詢。    </blockquote><br /><br /> | 
+
 
     
 

@@ -4,16 +4,16 @@ description: 定義常數，指定要當做清單排序準則使用的 DXCore �
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 09/03/2019
-ms.openlocfilehash: 4301bdc1fe0ece8d9594ec3287e2ea8ddcce8f0a
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: a58f2c948751d5217a89e52bc862057ac6a67c85bdf2fabed96c2b5ad68364cc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104376172"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120117728"
 ---
 # <a name="dxcoreadapterpreference-enum"></a>DXCoreAdapterPreference 列舉
 
-## <a name="description"></a>Description
+## <a name="description"></a>描述
 
 定義常數，指定要當做清單排序準則使用的 DXCore 介面卡喜好設定。 您可以藉由將 **DXCoreAdapterPreference** 陣列傳遞至 [IDXCoreAdapterList：： sort](./nf-dxcore_interface-idxcoreadapterlist-sort.md)，來排序 DXCore 介面卡清單。
 

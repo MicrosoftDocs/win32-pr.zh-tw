@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 10210c5e3e068c52c9795cc6c760d2f79faabf1f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5d315b516e4b85e082ab0cc1d34016aa94b022e43c9d59a49b06a146c913d41b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106989567"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120098848"
 ---
 # <a name="axwindowsmediaplayerclosedcaption-property"></a>AxWindowsMediaPlayer. closedCaption 屬性
 

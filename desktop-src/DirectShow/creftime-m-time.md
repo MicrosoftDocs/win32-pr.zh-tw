@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 560373f0f0eca57b17210befc052a0d2c4d9ddbc
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 15c0222bf22937be08d450f5b3f050e458c1bb4234015a895b3939019165a59d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106987016"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120108118"
 ---
 # <a name="creftimem_time-member"></a>CRefTime：： m \_ 時間成員
 

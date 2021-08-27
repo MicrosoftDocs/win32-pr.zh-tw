@@ -4,12 +4,12 @@ description: 本主題說明用戶端如何存取伺服器的 IAccessibleEx 執�
 ms.assetid: e057bbe8-5dd7-41fc-a5d5-bcf4c1c6433d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 77b14b935bd7ed432ea4d378034763635309213f
-ms.sourcegitcommit: 89f99926f946dc6c5ea600fb7c41f6b19ceac516
+ms.openlocfilehash: 4f03bd58ec80a29f13e0428de4655aa7200144122b1a1889259844db078aa9dc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "104383250"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120098098"
 ---
 # <a name="using-iaccessibleex-from-a-client"></a>從用戶端使用 IAccessibleEx
 

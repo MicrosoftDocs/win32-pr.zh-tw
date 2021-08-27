@@ -4,12 +4,12 @@ ms.assetid: 3289737a-77b6-45d1-9c0a-3ed05b3475c2
 title: 安裝和設定功能
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c72bb3ddaedb0b1d97c52d961293c161fe63c7ed
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ba0731eff882c614c19c20d8323d012a7656fc2d8c15072aaafef3d7c91e46e4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191336"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120097858"
 ---
 # <a name="installation-and-configuration-functions"></a>安裝和設定功能
 

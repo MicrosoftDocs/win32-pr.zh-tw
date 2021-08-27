@@ -1,110 +1,35 @@
 ---
 title: WFP API
-description: Windows 篩選平台 (WFP) API 分為下列元件。
+description: Windows 的篩選平臺 (WFP) API 分成下列元件。
 ms.assetid: ff3f0d74-7e0b-4a3e-b66d-eaa61b89038a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4230c82105f85c36e6fb112508a7128758b2ad60
-ms.sourcegitcommit: db89157e3be911fdce2e543e99faa31fb2403bc8
+ms.openlocfilehash: 9eadbb3fb6383999b2bb8ef14c99ecb8beab3f88
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "106966073"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122470145"
 ---
 # <a name="wfp-api"></a>WFP API
 
-Windows 篩選平台 (WFP) API 分為下列元件。
+Windows 的篩選平臺 (WFP) API 分成下列元件。
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>元件</th>
-<th>描述</th>
-<th>標頭檔</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td rowspan="2"><a href="/windows-hardware/drivers/ddi/_netvista/">標注 API</a> (FWPS) $ {REMOVE} $<br />
-</td>
-<td>由標注使用的<a href="/windows-hardware/drivers/ddi/_netvista/">資料類型</a>。<strong>注意</strong> 這些資料類型記載于 Microsoft Windows 驅動程式開發工具組 (DDK) 。<br/></td>
-<td><dl> fwpstypes。h<br />
-fwpstypes .idl<br />
-</dl></td>
-</tr>
-<tr class="even">
-<td>用來執行標注的<a href="/windows-hardware/drivers/ddi/_netvista/">函數</a>和<a href="/windows-hardware/drivers/ddi/_netvista/">列舉類型</a>。<strong>注意</strong> 這些函式和列舉類型記載于 DDK 中。<br/></td>
-<td><dl> fwpsu。h<br />
-fwpsk。h<br />
-</dl></td>
 
-</tr>
-<tr class="odd">
-<td rowspan="2">IKE/AuthIP API (IKEEXT) $ {REMOVE} $<br />
-</td>
-<td>用來管理 IKE 和 AuthIP 主要模式 (MM) 原則和安全性關聯的<a href="fwp-enums.md">列舉類型</a>和<a href="fwp-structs.md">結構</a>。</td>
-<td><dl> iketypes。h<br />
-iketypes .idl<br />
-</dl></td>
-</tr>
-<tr class="even">
-<td><a href="fwp-ike-functions.md">用來</a> 管理 IKE 和 AuthIP MM 原則和安全性關聯的函式。</td>
-<td><dl> fwpmu。h<br />
-fwpmk。h<br />
-</dl></td>
+| 元件 | 描述 | 標頭檔 | 
+|-----------|-------------|--------------|
+| <a href="/windows-hardware/drivers/ddi/_netvista/">標注 API</a> (FWPS) $ {REMOVE} $<br /> | 由標注使用的<a href="/windows-hardware/drivers/ddi/_netvista/">資料類型</a>。<strong>注意</strong> 這些資料類型記載于 Microsoft Windows 驅動程式開發工具組 (DDK) 。<br /> | <dl> fwpstypes。h<br />fwpstypes .idl<br /></dl> | 
+| 用來執行標注的<a href="/windows-hardware/drivers/ddi/_netvista/">函數</a>和<a href="/windows-hardware/drivers/ddi/_netvista/">列舉類型</a>。<strong>注意</strong> 這些函式和列舉類型記載于 DDK 中。<br /> | <dl> fwpsu。h<br />fwpsk。h<br /></dl> | 
+| IKE/AuthIP API (IKEEXT) $ {REMOVE} $<br /> | 用來管理 IKE 和 AuthIP 主要模式 (MM) 原則和安全性關聯的<a href="fwp-enums.md">列舉類型</a>和<a href="fwp-structs.md">結構</a>。 | <dl> iketypes。h<br />iketypes .idl<br /></dl> | 
+| <a href="fwp-ike-functions.md">用來</a> 管理 IKE 和 AuthIP MM 原則和安全性關聯的函式。 | <dl> fwpmu。h<br />fwpmk。h<br /></dl> | 
+| IPsec API (IPSEC) $ {REMOVE} $<br /> | 用來管理 IPsec 原則和安全性關聯的<a href="fwp-enums.md">列舉類型</a>和<a href="fwp-structs.md">結構</a>。 | <dl> ipsectypes。h<br />ipsectypes .idl<br /></dl> | 
+| <a href="fwp-ipsec-functions.md">用來</a> 管理 IPsec 原則和安全性關聯的函式。 | <dl> fwpmu。h<br />fwpmk。h<br /></dl> | 
+| 管理 API (FWPM) $ {REMOVE} $<br /> | 用來管理篩選引擎的<a href="fwp-enums.md">列舉類型</a>和<a href="fwp-structs.md">結構</a>。 | <dl> fwpmtypes。h<br />fwpmtypes .idl<br /></dl> | 
+| 用於管理篩選引擎的<a href="fwp-mgmt-functions.md">函數</a>。 這些函式是用來執行下列工作：<br /><ul><li>設定和查詢篩選、提供者和標注。</li><li>取出 IPsec 統計資料。</li><li>設定 Windows 篩選平台。</li></ul> | <dl> fwpmu。h<br />fwpmk。h<br /></dl> | 
+| 共用 API (.FWP)  | 跨 Windows 篩選平台共用的基本<a href="fwp-enums.md">列舉類型</a>和<a href="fwp-structs.md">結構</a>。 | <dl> fwptypes。h<br />fwptypes .idl<br /></dl> | 
 
-</tr>
-<tr class="odd">
-<td rowspan="2">IPsec API (IPSEC) $ {REMOVE} $<br />
-</td>
-<td>用來管理 IPsec 原則和安全性關聯的<a href="fwp-enums.md">列舉類型</a>和<a href="fwp-structs.md">結構</a>。</td>
-<td><dl> ipsectypes。h<br />
-ipsectypes .idl<br />
-</dl></td>
-</tr>
-<tr class="even">
-<td><a href="fwp-ipsec-functions.md">用來</a> 管理 IPsec 原則和安全性關聯的函式。</td>
-<td><dl> fwpmu。h<br />
-fwpmk。h<br />
-</dl></td>
-
-</tr>
-<tr class="odd">
-<td rowspan="2">管理 API (FWPM) $ {REMOVE} $<br />
-</td>
-<td>用來管理篩選引擎的<a href="fwp-enums.md">列舉類型</a>和<a href="fwp-structs.md">結構</a>。</td>
-<td><dl> fwpmtypes。h<br />
-fwpmtypes .idl<br />
-</dl></td>
-</tr>
-<tr class="even">
-<td>用於管理篩選引擎的<a href="fwp-mgmt-functions.md">函數</a>。 這些函式是用來執行下列工作：<br/>
-<ul>
-<li>設定和查詢篩選、提供者和標注。</li>
-<li>取出 IPsec 統計資料。</li>
-<li>設定 Windows 篩選平台。</li>
-</ul></td>
-<td><dl> fwpmu。h<br />
-fwpmk。h<br />
-</dl></td>
-
-</tr>
-<tr class="odd">
-<td>共用 API (.FWP) </td>
-<td>跨 Windows 篩選平台共用的基本 <a href="fwp-enums.md">列舉類型</a> 和 <a href="fwp-structs.md">結構</a> 。</td>
-<td><dl> fwptypes。h<br />
-fwptypes .idl<br />
-</dl></td>
-</tr>
-</tbody>
-</table>
 
 
 
@@ -114,7 +39,7 @@ fwptypes .idl<br />
 
 函式名稱為混合大小寫和以大小寫分隔。 名稱的開頭一律是識別其元件群組的前置詞，例如 [**FwpmProviderCoNtextAdd0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmprovidercontextadd0)。
 
-大部分資料和函式名稱的結尾都是版本號碼。 Fwpvi .h 標頭檔會將與版本無關的資料和函式名稱對應至適用于指定作業系統的版本。 如需詳細資訊，請參閱 [WFP Version-Independent 名稱，並以特定的 Windows 版本為目標](wfp-version-independent-names-and-targeting-specific-versions-of-windows.md)。
+大部分資料和函式名稱的結尾都是版本號碼。 Fwpvi .h 標頭檔會將與版本無關的資料和函式名稱對應至適用于指定作業系統的版本。 如需詳細資訊，請參閱[WFP Version-Independent 名稱，並以特定版本的 Windows 為目標](wfp-version-independent-names-and-targeting-specific-versions-of-windows.md)。
 
 每個元件都不會獨立。 例如，IKE 主要模式 (MM) 原則會定義在 IKEEXT 元件中，但會儲存在提供者內容中，並與在 FWPM API 元件中找到的篩選準則相關聯。
 
@@ -129,7 +54,7 @@ fwptypes .idl<br />
 | fwpmk。h      | FWPM、IPsec 和 IKEEXT 元件的核心模式函數原型。 僅適用于 DDK。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | fwpmu。h      | FWPM、IPsec 和 IKEEXT 元件的使用者模式函數原型。 僅適用于 Microsoft Windows 軟體開發套件 (SDK) 。                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | fwpsk。h      | FWPS 元件的核心模式函數原型和列舉類型。 僅適用于 DDK。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| fwpsu。h      | FWPS 元件的使用者模式函數原型和列舉類型。 僅適用于 Windows SDK。**注意**  使用者模式 FWPS 列舉類型與核心模式 FWPS 列舉類型相同。 因此，這些類型只記錄在 DDK 中。<br/> **注意**  使用者模式 FWPS 函式原型與核心模式 FWPS 函式原型相同，但傳回碼例外。 使用者模式 FWPS 函式會傳回 **DWORD**，而核心模式的 FWPS 函式會傳回一個 **NTSTATUS**。 因此，這些函式只會記錄在 DDK 中。<br/> |
+| fwpsu。h      | FWPS 元件的使用者模式函數原型和列舉類型。 僅適用于 Windows SDK。**注意** 使用者模式 FWPS 列舉類型與核心模式 FWPS 列舉類型相同。 因此，這些類型只記錄在 DDK 中。<br/> **注意**  使用者模式 FWPS 函式原型與核心模式 FWPS 函式原型相同，但傳回碼例外。 使用者模式 FWPS 函式會傳回 **DWORD**，而核心模式的 FWPS 函式會傳回一個 **NTSTATUS**。 因此，這些函式只會記錄在 DDK 中。<br/> |
 
 
 

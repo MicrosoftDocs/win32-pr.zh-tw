@@ -4,12 +4,12 @@ ms.assetid: 094cac29-c66d-409e-8928-878dc693d393
 title: 建立和開啟檔案
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1430675862b10f9e9221d968242481525dc7632f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e80449942fbceb39c37604bf6d8b5410d171d195
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106979985"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122469925"
 ---
 # <a name="creating-and-opening-files"></a>建立和開啟檔案
 
@@ -29,90 +29,19 @@ ms.locfileid: "106979985"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>第一次呼叫<a href="/windows/desktop/api/FileAPI/nf-fileapi-createfilea"> <strong>CreateFile</strong></a></th>
-<th>CreateFile 的有效第二次呼叫<a href="/windows/desktop/api/FileAPI/nf-fileapi-createfilea"> <strong></strong></a></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>GENERIC_READ</strong>， <strong>FILE_SHARE_READ</strong><br/></td>
-<td><ul>
-<li><strong>GENERIC_READ</strong>， <strong>FILE_SHARE_READ</strong></li>
-<li><strong>GENERIC_READ</strong>， <strong>FILE_SHARE_READ</strong>  |  <strong>FILE_SHARE_WRITE</strong></li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><strong>GENERIC_READ</strong>， <strong>FILE_SHARE_WRITE</strong><br/></td>
-<td><ul>
-<li><strong>GENERIC_WRITE</strong>， <strong>FILE_SHARE_READ</strong></li>
-<li><strong>GENERIC_WRITE</strong>， <strong>FILE_SHARE_READ</strong>  |  <strong>FILE_SHARE_WRITE</strong></li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><strong>GENERIC_READ</strong>， <strong>FILE_SHARE_READ</strong>  |  <strong>FILE_SHARE_WRITE</strong><br/></td>
-<td><ul>
-<li><strong>GENERIC_READ</strong>， <strong>FILE_SHARE_READ</strong></li>
-<li><strong>GENERIC_READ</strong>， <strong>FILE_SHARE_READ</strong>  |  <strong>FILE_SHARE_WRITE</strong></li>
-<li><strong>GENERIC_WRITE</strong>， <strong>FILE_SHARE_READ</strong></li>
-<li><strong>GENERIC_WRITE</strong>， <strong>FILE_SHARE_READ</strong>  |  <strong>FILE_SHARE_WRITE</strong></li>
-<li><strong>GENERIC_READ</strong>  | <strong>GENERIC_WRITE</strong>， <strong>FILE_SHARE_READ</strong></li>
-<li><strong>GENERIC_READ</strong>  | <strong>GENERIC_WRITE</strong>， <strong>FILE_SHARE_READ</strong>  |  <strong>FILE_SHARE_WRITE</strong></li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><strong>GENERIC_WRITE</strong>， <strong>FILE_SHARE_READ</strong><br/></td>
-<td><ul>
-<li><strong>GENERIC_READ</strong>， <strong>FILE_SHARE_WRITE</strong></li>
-<li><strong>GENERIC_READ</strong>， <strong>FILE_SHARE_READ</strong>  |  <strong>FILE_SHARE_WRITE</strong></li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><strong>GENERIC_WRITE</strong>， <strong>FILE_SHARE_WRITE</strong><br/></td>
-<td><ul>
-<li><strong>GENERIC_WRITE</strong>， <strong>FILE_SHARE_WRITE</strong></li>
-<li><strong>GENERIC_WRITE</strong>， <strong>FILE_SHARE_READ</strong>  |  <strong>FILE_SHARE_WRITE</strong></li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><strong>GENERIC_WRITE</strong>， <strong>FILE_SHARE_READ</strong>  |  <strong>FILE_SHARE_WRITE</strong><br/></td>
-<td><ul>
-<li><strong>GENERIC_READ</strong>， <strong>FILE_SHARE_WRITE</strong></li>
-<li><strong>GENERIC_READ</strong>， <strong>FILE_SHARE_READ</strong>  |  <strong>FILE_SHARE_WRITE</strong></li>
-<li><strong>GENERIC_WRITE</strong>， <strong>FILE_SHARE_WRITE</strong></li>
-<li><strong>GENERIC_WRITE</strong>， <strong>FILE_SHARE_READ</strong>  |  <strong>FILE_SHARE_WRITE</strong></li>
-<li><strong>GENERIC_READ</strong>  | <strong>GENERIC_WRITE</strong>， <strong>FILE_SHARE_WRITE</strong></li>
-<li><strong>GENERIC_READ</strong>  | <strong>GENERIC_WRITE</strong>， <strong>FILE_SHARE_READ</strong>  |  <strong>FILE_SHARE_WRITE</strong></li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><strong>GENERIC_READ</strong>  | <strong>GENERIC_WRITE</strong>， <strong>FILE_SHARE_READ</strong><br/></td>
-<td><ul>
-<li><strong>GENERIC_READ</strong>， <strong>FILE_SHARE_READ</strong>  |  <strong>FILE_SHARE_WRITE</strong></li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><strong>GENERIC_READ</strong>  | <strong>GENERIC_WRITE</strong>， <strong>FILE_SHARE_WRITE</strong><br/></td>
-<td><ul>
-<li><strong>GENERIC_WRITE</strong>， <strong>FILE_SHARE_READ</strong>  |  <strong>FILE_SHARE_WRITE</strong></li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><strong>GENERIC_READ</strong>  | <strong>GENERIC_WRITE</strong>， <strong>FILE_SHARE_READ</strong>  |  <strong>FILE_SHARE_WRITE</strong><br/></td>
-<td><ul>
-<li><strong>GENERIC_READ</strong>， <strong>FILE_SHARE_READ</strong>  |  <strong>FILE_SHARE_WRITE</strong></li>
-<li><strong>GENERIC_WRITE</strong>， <strong>FILE_SHARE_READ</strong>  |  <strong>FILE_SHARE_WRITE</strong></li>
-<li><strong>GENERIC_READ</strong>  | <strong>GENERIC_WRITE</strong>， <strong>FILE_SHARE_READ</strong>  |  <strong>FILE_SHARE_WRITE</strong></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| 第一次呼叫<a href="/windows/desktop/api/FileAPI/nf-fileapi-createfilea"> <strong>CreateFile</strong></a> | CreateFile 的有效第二次呼叫<a href="/windows/desktop/api/FileAPI/nf-fileapi-createfilea"> <strong></strong></a> | 
+|-------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
+| <strong>GENERIC_READ</strong>， <strong>FILE_SHARE_READ</strong><br /> | <ul><li><strong>GENERIC_READ</strong>， <strong>FILE_SHARE_READ</strong></li><li><strong>GENERIC_READ</strong>， <strong>FILE_SHARE_READ</strong> | <strong>FILE_SHARE_WRITE</strong></li></ul> | 
+| <strong>GENERIC_READ</strong>， <strong>FILE_SHARE_WRITE</strong><br /> | <ul><li><strong>GENERIC_WRITE</strong>， <strong>FILE_SHARE_READ</strong></li><li><strong>GENERIC_WRITE</strong>， <strong>FILE_SHARE_READ</strong> | <strong>FILE_SHARE_WRITE</strong></li></ul> | 
+| <strong>GENERIC_READ</strong>， <strong>FILE_SHARE_READ</strong> | <strong>FILE_SHARE_WRITE</strong><br /> | <ul><li><strong>GENERIC_READ</strong>， <strong>FILE_SHARE_READ</strong></li><li><strong>GENERIC_READ</strong>， <strong>FILE_SHARE_READ</strong> | <strong>FILE_SHARE_WRITE</strong></li><li><strong>GENERIC_WRITE</strong>， <strong>FILE_SHARE_READ</strong></li><li><strong>GENERIC_WRITE</strong>， <strong>FILE_SHARE_READ</strong> | <strong>FILE_SHARE_WRITE</strong></li><li><strong>GENERIC_READ</strong> | <strong>GENERIC_WRITE</strong>， <strong>FILE_SHARE_READ</strong></li><li><strong>GENERIC_READ</strong> | <strong>GENERIC_WRITE</strong>， <strong>FILE_SHARE_READ</strong> | <strong>FILE_SHARE_WRITE</strong></li></ul> | 
+| <strong>GENERIC_WRITE</strong>， <strong>FILE_SHARE_READ</strong><br /> | <ul><li><strong>GENERIC_READ</strong>， <strong>FILE_SHARE_WRITE</strong></li><li><strong>GENERIC_READ</strong>， <strong>FILE_SHARE_READ</strong> | <strong>FILE_SHARE_WRITE</strong></li></ul> | 
+| <strong>GENERIC_WRITE</strong>， <strong>FILE_SHARE_WRITE</strong><br /> | <ul><li><strong>GENERIC_WRITE</strong>， <strong>FILE_SHARE_WRITE</strong></li><li><strong>GENERIC_WRITE</strong>， <strong>FILE_SHARE_READ</strong> | <strong>FILE_SHARE_WRITE</strong></li></ul> | 
+| <strong>GENERIC_WRITE</strong>， <strong>FILE_SHARE_READ</strong> | <strong>FILE_SHARE_WRITE</strong><br /> | <ul><li><strong>GENERIC_READ</strong>， <strong>FILE_SHARE_WRITE</strong></li><li><strong>GENERIC_READ</strong>， <strong>FILE_SHARE_READ</strong> | <strong>FILE_SHARE_WRITE</strong></li><li><strong>GENERIC_WRITE</strong>， <strong>FILE_SHARE_WRITE</strong></li><li><strong>GENERIC_WRITE</strong>， <strong>FILE_SHARE_READ</strong> | <strong>FILE_SHARE_WRITE</strong></li><li><strong>GENERIC_READ</strong> | <strong>GENERIC_WRITE</strong>， <strong>FILE_SHARE_WRITE</strong></li><li><strong>GENERIC_READ</strong> | <strong>GENERIC_WRITE</strong>， <strong>FILE_SHARE_READ</strong> | <strong>FILE_SHARE_WRITE</strong></li></ul> | 
+| <strong>GENERIC_READ</strong> | <strong>GENERIC_WRITE</strong>， <strong>FILE_SHARE_READ</strong><br /> | <ul><li><strong>GENERIC_READ</strong>， <strong>FILE_SHARE_READ</strong> | <strong>FILE_SHARE_WRITE</strong></li></ul> | 
+| <strong>GENERIC_READ</strong> | <strong>GENERIC_WRITE</strong>， <strong>FILE_SHARE_WRITE</strong><br /> | <ul><li><strong>GENERIC_WRITE</strong>， <strong>FILE_SHARE_READ</strong> | <strong>FILE_SHARE_WRITE</strong></li></ul> | 
+| <strong>GENERIC_READ</strong> | <strong>GENERIC_WRITE</strong>， <strong>FILE_SHARE_READ</strong> | <strong>FILE_SHARE_WRITE</strong><br /> | <ul><li><strong>GENERIC_READ</strong>， <strong>FILE_SHARE_READ</strong> | <strong>FILE_SHARE_WRITE</strong></li><li><strong>GENERIC_WRITE</strong>， <strong>FILE_SHARE_READ</strong> | <strong>FILE_SHARE_WRITE</strong></li><li><strong>GENERIC_READ</strong> | <strong>GENERIC_WRITE</strong>， <strong>FILE_SHARE_READ</strong> | <strong>FILE_SHARE_WRITE</strong></li></ul> | 
+
 
 
 
@@ -138,16 +67,16 @@ ms.locfileid: "106979985"
 
 -   將 *dwFlagsAndAttributes* 指定的檔案屬性和旗標與 **檔 \_ 屬性 \_** 封存合併。
 -   將檔案長度設定為零。
--   如果指定了 *hTemplateFile* 參數，則會將範本檔案提供的擴充屬性複製到新檔案 (這會覆寫先前) 指定的所有 **檔 \_ 屬性 \_ \** _ 旗標。
--   設定 _ *bInheritHandle** 成員所指定的繼承旗標，以及 *LpSecurityAttributes* 參數的 **lpSecurityDescriptor** 成員所指定的安全描述項， ([**安全性 \_ 屬性**](/previous-versions/windows/desktop/legacy/aa379560(v=vs.85))結構) （如果有提供的話）。
+-   如果指定了 *hTemplateFile* 參數，則會將範本檔案提供的擴充屬性複製到新檔案 (這會覆寫先前) 指定的所有 **檔 \_ 屬性 \_ \*** 旗標。
+-   設定 **bInheritHandle** 成員所指定的繼承旗標，以及 *LpSecurityAttributes* 參數的 **lpSecurityDescriptor** 成員所指定的安全描述項， ([**安全性 \_ 屬性**](/previous-versions/windows/desktop/legacy/aa379560(v=vs.85))結構) （如果有提供的話）。
 
 當您建立新檔案時，即使已經有相同名稱的檔案 (*dwCreationDisposition* 設定為 [ **建立 \_ 永遠**) ]， [**CreateFile**](/windows/desktop/api/FileAPI/nf-fileapi-createfilea) 函數會執行下列動作：
 
 -   檢查目前的檔案屬性和安全性設定是否有寫入權限，如果拒絕，則失敗。
 -   結合 *dwFlagsAndAttributes* 指定的檔案屬性和旗標與 **檔 \_ 屬性 \_** 封存和現有的檔案屬性。
 -   將檔案長度設定為零 (也就是說，檔案中的任何資料都無法再使用，且檔案是空的) 。
--   如果指定了 *hTemplateFile* 參數，則會將範本檔案提供的擴充屬性複製到新檔案 (這會覆寫先前) 指定的所有 **檔 \_ 屬性 \_ \** _ 旗標。
--   設定 *lpSecurityAttributes* 參數的 _ *bInheritHandle** 成員所指定的 Inherit 旗標 ([**安全性 \_ 屬性**](/previous-versions/windows/desktop/legacy/aa379560(v=vs.85))結構) （如果有提供的話），但忽略 **安全性 \_ 屬性** 結構的 **lpSecurityDescriptor** 成員。
+-   如果指定了 *hTemplateFile* 參數，則會將範本檔案提供的擴充屬性複製到新檔案 (這會覆寫先前) 指定的所有 **檔 \_ 屬性 \_ \*** 旗標。
+-   設定 *lpSecurityAttributes* 參數的 **bInheritHandle** 成員所指定的繼承旗標 ([**安全性 \_ 屬性**](/previous-versions/windows/desktop/legacy/aa379560(v=vs.85))結構) （如果有提供的話），但忽略 **安全性 \_ 屬性** 結構的 **lpSecurityDescriptor** 成員。
 -   否則，如果 (成功，則 [**CreateFile**](/windows/desktop/api/FileAPI/nf-fileapi-createfilea)會傳回有效的控制碼) ，呼叫 [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror)將會產生程式碼錯誤，即使在這個特定的使用案例中，如果您想要建立 "new" (空白的) 檔案來取代現有的) 檔案，也不會造成 (錯誤。 **\_ \_**
 
 開啟現有的檔案時 (*dwCreationDisposition* 設定為 [ **開啟 \_ 現有** 的]、[ **\_ 永遠開啟**] 或 [ **截斷 \_ 現有** 的) ] 時， [**CreateFile**](/windows/desktop/api/FileAPI/nf-fileapi-createfilea) 函式會執行下列動作：

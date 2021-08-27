@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 55404f2e32f45e5b19e7b0cd4c109a6d5a8bcc13
-ms.sourcegitcommit: 0e611cdff84ff9f897c59e4e1d2b2d134bc4e133
+ms.openlocfilehash: fe1044b14e2bda6595730a80b2d474aae1e692e8647835a44fe86105963da659
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "106993702"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120117978"
 ---
 # <a name="samplebiassamplebiassfloatfloatfloat-function-for-texturecube"></a>SampleBias：： SampleBias (S，float，float，float) function for TextureCube
 

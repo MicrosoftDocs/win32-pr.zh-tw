@@ -1,19 +1,19 @@
 ---
-description: Windows Installer 可以修復、取代和驗證應用程式中包含的檔案。 如果任何與任何功能相關聯的檔案或登錄專案遺失或損毀，可能需要重新安裝部分或完整的應用程式。
+description: Windows安裝程式可以修復、取代和驗證應用程式中包含的檔案。 如果任何與任何功能相關聯的檔案或登錄專案遺失或損毀，可能需要重新安裝部分或完整的應用程式。
 ms.assetid: fab23ab9-f1ab-4743-b883-cffc29b0124b
 title: 重新安裝功能或應用程式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 645f7dbf95204d96202c71a120eafb6e6e054ac6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 803fc3271cb69280ae84ae096e7a411dbf599f0a321bf15baac6dbd5ca8e1512
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104115497"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120085998"
 ---
 # <a name="reinstalling-a-feature-or-application"></a>重新安裝功能或應用程式
 
-Windows Installer 可以修復、取代和驗證應用程式中包含的檔案。 如果任何與任何功能相關聯的檔案或登錄專案遺失或損毀，可能需要重新安裝部分或完整的應用程式。
+Windows安裝程式可以修復、取代和驗證應用程式中包含的檔案。 如果任何與任何功能相關聯的檔案或登錄專案遺失或損毀，可能需要重新安裝部分或完整的應用程式。
 
 重新安裝功能或應用程式時，也會重新安裝屬於功能或應用程式的所有服務、環境變數和自訂動作。 請注意，這表示在原始安裝和重新安裝之間對環境變數所做的任何變更都會遺失。
 

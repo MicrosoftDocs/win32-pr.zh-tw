@@ -15,12 +15,12 @@ keywords:
 - 介面，ITableItemProvider
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bae3e6d5379ec9a662e31ec6181476b112631381
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: babb64114bb761b0b6e93a7cc9c0036cb01bb8946eb813bcd0fc3e821d44a183
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103672384"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120098268"
 ---
 # <a name="tableitem-control-pattern"></a>TableItem 控制項模式
 
@@ -53,7 +53,7 @@ ms.locfileid: "103672384"
 
 
 
- 
+ 
 
 此控制項模式沒有任何相關聯的屬性或事件。
 
@@ -76,9 +76,9 @@ ms.locfileid: "103672384"
 [UI 自動化樹狀目錄概觀](uiauto-treeoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

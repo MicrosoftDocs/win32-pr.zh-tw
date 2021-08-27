@@ -4,12 +4,12 @@ ms.assetid: 93496631-55cc-4dd9-9a51-b748c35fd477
 title: 元件搜尋順序
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dc689ecb14c55f0e8a609c7e7497fce969e88b8e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 983466954d6cb9619d3fb0595c96f81fed7c9b73a29bfbf2f609b3f14203a957
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104026980"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120127538"
 ---
 # <a name="assembly-searching-sequence"></a>元件搜尋順序
 
@@ -38,7 +38,7 @@ ms.locfileid: "104026980"
 4.  \\\\< > \\ appdir <*語言* > \\ 文化 < 特性 > \\ assemblyname <*assemblyname* # C0.DLL
 5.  \\\\< > \\ appdir <*語言* > \\ 文化 < 特性 > \\ assemblyname <*assemblyname*>. 資訊清單
 
-請注意，並存搜尋順序會尋找具有元件名稱的 DLL 檔，並在搜尋具有元件名稱的資訊清單檔之前停止。 處理 DLL 私用元件的建議方式是將元件資訊清單放在 DLL 檔案中做為資源。 資源識別碼必須等於1，而且私用元件的名稱可能與 DLL 的名稱相同。 例如，如果 DLL 的名稱是 MICROSOFT.WINDOWS.MYSAMPLE.DLL，則在元件資訊清單的 **assemblyIdentity** 元素中使用的 name 屬性值也可能是 mysample。 或者，您可以將組件資訊清單放在不同的檔案中，但是元件的名稱及其資訊清單必須和 DLL 的名稱不同。 例如，mysampleAsm、mysampleAsm，以及 MICROSOFT.WINDOWS.MYSAMPLE.DLL 的範例中。
+請注意，並存搜尋順序會尋找具有元件名稱的 DLL 檔，並在搜尋具有元件名稱的資訊清單檔之前停止。 處理 DLL 私用元件的建議方式是將元件資訊清單放在 DLL 檔案中做為資源。 資源識別碼必須等於1，而且私用元件的名稱可能與 DLL 的名稱相同。 例如，如果 DLL 的名稱是 MICROSOFT.WINDOWS.MYSAMPLE.DLL，則在元件資訊清單的 **assemblyIdentity** 元素中使用的 name 屬性值也可能是 Microsoft。Windows. mysample。 或者，您可以將組件資訊清單放在不同的檔案中，但是元件的名稱及其資訊清單必須和 DLL 的名稱不同。 例如，Microsoft。Windows mysampleAsm，Microsoft。Windows mysampleAsm 資訊清單，並 MICROSOFT.WINDOWS.MYSAMPLE.DLL。
 
 例如，如果 myapp 安裝在磁片磁碟機 c：的根目錄，且需要法文-比利時的 myasm，則並存會使用下列順序來搜尋當地語系化的 myasm 實例的最近似。
 
@@ -68,7 +68,7 @@ ms.locfileid: "104026980"
 24. c： \\ myapp \\ myasm \\myasm.dll
 25. c： \\ myapp \\ myasm \\ myasm。資訊清單
 
-如果並存搜尋到達元件的語言中性版本，而且系統上有 [多語系消費者介面 (MUI)](/windows/desktop/Intl/multilingual-user-interface) 版本的 Windows，則會並存嘗試系結至 <*assemblyname*>.。 如果搜尋到達元件的當地語系化版本，並存就不會嘗試系結至 <*assemblyname*>. mui。 非語言相關元件的 [組件資訊清單](assembly-manifests.md) 不會在其 **assemblyIdentity** 元素中具有 language 屬性。 如果並存到達非語言相關元件，並安裝了 MUI，則會使用下列 <*assemblyname*> 的順序來搜尋下列位置： mui。 如果元件是文化特性中立的，則並存會使用相同的搜尋順序，但 <不會搜尋 *任何語言*>。
+如果並存搜尋到達元件的語言中性版本，而且系統上有 [多語系消費者介面 (MUI)](/windows/desktop/Intl/multilingual-user-interface)版本的 Windows，則會並存嘗試系結至 <*assemblyname*> 的 mui。 如果搜尋到達元件的當地語系化版本，並存就不會嘗試系結至 <*assemblyname*>. mui。 非語言相關元件的 [組件資訊清單](assembly-manifests.md) 不會在其 **assemblyIdentity** 元素中具有 language 屬性。 如果並存到達非語言相關元件，並安裝了 MUI，則會使用下列 <*assemblyname*> 的順序來搜尋下列位置： mui。 如果元件是文化特性中立的，則並存會使用相同的搜尋順序，但 <不會搜尋 *任何語言*>。
 
 1.  並存搜尋 WinSxS 資料夾中的 <*assemblyname*> mui。
 2.  \\\\<*使用者的語言-文化特性* > \\ <*assemblyname*> mui

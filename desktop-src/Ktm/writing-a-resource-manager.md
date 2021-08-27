@@ -4,12 +4,12 @@ ms.assetid: 9b62ef58-9897-4573-bda4-8c3ec952b6d2
 title: 撰寫 Resource Manager
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b2c47f9a0704f6edaea02d752fe39f01fce61c0a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 54b1443bef61f56a14779612a6275aacbd65e344d7294325bd87b953795f0f8a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106980814"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120086448"
 ---
 # <a name="writing-a-resource-manager"></a>撰寫 Resource Manager
 

@@ -1,4 +1,4 @@
-- name: Bluetooth
+- name: 藍牙
   href: bluetooth-start-page.md
   items:
     - name: 關於藍牙
@@ -19,16 +19,16 @@
     - name: 使用藍牙
       href: using-bluetooth.md
       items:
-        - name: 使用 Windows 通訊端進行藍牙程式設計
+        - name: 藍牙使用 Windows 通訊端進行程式設計
           href: bluetooth-programming-with-windows-sockets.md
           items:
-            - name: 藍牙和接受
+            - name: 藍牙並接受
               href: bluetooth-and-accept.md
-            - name: 藍牙與系結
+            - name: 藍牙和系結
               href: bluetooth-and-bind.md
             - name: 藍牙和 BLOB
               href: bluetooth-and-blob.md
-            - name: 藍牙和 connect
+            - name: 藍牙並連接
               href: bluetooth-and-connect.md
             - name: 藍牙和 getaddrinfo
               href: bluetooth-and-getaddrinfo.md
@@ -38,7 +38,7 @@
               href: bluetooth-and-getsockname.md
             - name: 藍牙和 getsockopt
               href: bluetooth-and-getsockopt.md
-            - name: 藍牙和接聽、選取和導致 closesocket
+            - name: 藍牙並接聽、選取和導致 closesocket
               href: bluetooth-and-listen-select-and-closesocket.md
             - name: 藍牙和讀取或寫入作業
               href: bluetooth-and-read-or-write-operations.md
@@ -55,9 +55,9 @@
             - name: 藍牙和 WSALookupServiceBegin
               href: bluetooth-and-wsalookupservicebegin.md
               items:
-                - name: 適用于裝置查詢的藍牙和 WSALookupServiceBegin
+                - name: 裝置查詢的藍牙和 WSALookupServiceBegin
                   href: bluetooth-and-wsalookupservicebegin-for-device-inquiry.md
-                - name: 適用于服務探索的藍牙和 WSALookupServiceBegin
+                - name: 服務探索藍牙和 WSALookupServiceBegin
                   href: bluetooth-and-wsalookupservicebegin-for-service-discovery.md
             - name: 藍牙和 WSALookupServiceEnd
               href: bluetooth-and-wsalookupserviceend.md
@@ -66,18 +66,18 @@
             - name: 藍牙和 WSAQUERYSET
               href: bluetooth-and-wsaqueryset.md
               items:
-                - name: 適用于裝置查詢的藍牙和 WSAQUERYSET
+                - name: 裝置查詢的藍牙和 WSAQUERYSET
                   href: bluetooth-and-wsaqueryset-for-device-inquiry.md
-                - name: 用於服務查詢的藍牙和 WSAQUERYSET
+                - name: 服務查詢的藍牙和 WSAQUERYSET
                   href: bluetooth-and-wsaqueryset-for-service-inquiry.md
-                - name: 適用于設定服務的藍牙和 WSAQUERYSET
+                - name: 設定服務的藍牙和 WSAQUERYSET
                   href: bluetooth-and-wsaqueryset-for-set-service.md
             - name: 藍牙和 WSASetService
               href: bluetooth-and-wsasetservice.md
     - name: 藍牙參考
       href: bluetooth-reference.md
       items:
-        - name: 藍牙回呼
+        - name: 藍牙回檔
           href: bluetooth-callbacks.md
           items:
             - name: PFN_AUTHENTICATION_CALLBACK
@@ -88,7 +88,7 @@
               href: /windows/desktop/api/BluetoothAPIs/nc-bluetoothapis-pfn_bluetooth_enum_attributes_callback
             - name: PFN_DEVICE_CALLBACK
               href: /windows/desktop/api/BluetoothAPIs/nc-bluetoothapis-pfn_device_callback
-        - name: 藍牙列舉
+        - name: 藍牙枚舉
           href: bluetooth-enumerations.md
           items:
             - name: BLUETOOTH_AUTHENTICATION_METHOD

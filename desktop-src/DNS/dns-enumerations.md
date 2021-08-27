@@ -4,12 +4,12 @@ description: 網域名稱系統 (DNS) 列舉流覽頁面。
 ms.assetid: 6ab53b19-7838-4e9f-9923-96a9267d2dbb
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 89091ceaee5e9d0f77fbd0cd2f5be1643f70ff3f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a0513296b6092f7e6fb1556f51327cef6b6d74ef8b953957b02288a77595aa60
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021136"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120131840"
 ---
 # <a name="dns-enumerations"></a>DNS 列舉
 
@@ -22,9 +22,9 @@ ms.locfileid: "104021136"
 -   [**DNS \_ PROXY \_ 資訊 \_ 類型**](/windows/desktop/api/Windns/ne-windns-dns_proxy_information_type)
 -   [**DNS \_ 區段**](/windows/win32/api/windns/ne-windns-dns_section)
 
- 
+ 
 
- 
+ 
 
 
 

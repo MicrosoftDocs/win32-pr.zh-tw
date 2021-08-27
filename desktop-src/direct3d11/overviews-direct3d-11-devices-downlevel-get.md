@@ -4,12 +4,12 @@ description: 本主題說明如何取得裝置支援的最高功能層級。
 ms.assetid: 5eb7dd5b-3be3-4b7f-bcc7-20027fdfe6b5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e587ad488a84641a92f0058d201014030e3467e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ac21d00aeef8ae6c82ffd9f55a40415b6af1d0a780cc6878d8c30bf453457eb9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840584"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120119598"
 ---
 # <a name="how-to-get-the-device-feature-level"></a>如何：取得裝置功能等級
 
@@ -30,7 +30,7 @@ ms.locfileid: "103840584"
 > [!Note]  
 > 如果電腦上有 Direct3D 11.1 執行時間，且 *pFeatureLevels* 設定為 **Null**，則此函式不會建立 [**D3D \_ 功能 \_ 等級 \_ 11 \_ 1**](/windows/desktop/api/D3DCommon/ne-d3dcommon-d3d_feature_level) 的裝置。 若要建立 **d3d \_ 功能 \_ 等級 \_ 11 \_ 1** 的裝置，您必須明確提供包含 **d3d \_ 功能等級 \_ \_ 11 \_ 1** 的 **d3d \_ 功能 \_ 等級** 陣列。 如果您在未安裝 Direct3D 11.1 執行時間的電腦上提供包含 **d3d \_ 功能 \_ 等級 \_ 11 \_ 1** 的 **d3d \_ 功能 \_ 層級** 陣列，此函式會立即失敗，並出現 E \_ INVALIDARG。
 
- 
+ 
 
 
 ```C++
@@ -79,9 +79,9 @@ if(FAILED(hr))
 [如何使用 Direct3D 11](how-to-use-direct3d-11.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 800aaa27-e1e6-4d35-8de4-7ac94d646870
 title: '將一或多個串流程式設計 (Direct3D 9) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 43210823911648ed11227faef44d980b60d0a335
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 92440abfb6e343bdd3440f5608d6446c0390b1271e5c4c6686a3a46e578476ab
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106997058"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120118597"
 ---
 # <a name="programming-one-or-more-streams-direct3d-9"></a>將一或多個串流程式設計 (Direct3D 9) 
 

@@ -3,7 +3,7 @@ title: 'LVM_SETGROUPMETRICS 訊息 (Commctrl .h) '
 description: 設定群組顯示的相關資訊。
 ms.assetid: 268b478d-da1f-4efe-9ee9-af3f12e089ee
 keywords:
-- LVM_SETGROUPMETRICS message Windows 控制項
+- LVM_SETGROUPMETRICS 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8215962e6f84aac83a2151b46f489938b575303c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 32f978c763fd1602d06f921a5da38a895fb1d3c76573341d9ca4f2987a0d3c7a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104317116"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120077258"
 ---
 # <a name="lvm_setgroupmetrics-message"></a>LVM \_ SETGROUPMETRICS 訊息
 
@@ -52,8 +52,8 @@ ms.locfileid: "104317116"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

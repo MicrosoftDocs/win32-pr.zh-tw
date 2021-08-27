@@ -4,12 +4,12 @@ description: 當您將電視資料提示 \_ 樣式套用至樹狀檢視控制項
 ms.assetid: 779BEAC1-877E-43DD-AE1C-6D71C3013384
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0f0ef862d68cfd9f6ac5a97e82c80622e9c02121
-ms.sourcegitcommit: 3e70ae762629e244028b437420ed50b5850db4e3
+ms.openlocfilehash: 6ff9273b28b614e7935f6ac507288a5733271fb455a6be1e85b52c5b0ba8bbb3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "106968482"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120132028"
 ---
 # <a name="how-to-use-tree-view-infotips"></a>如何使用 Tree-View 提示
 
@@ -19,12 +19,12 @@ ms.locfileid: "106968482"
 
 ### <a name="technologies"></a>技術
 
--   [Windows 控制項](window-controls.md)
+-   [Windows控制](window-controls.md)
 
 ### <a name="prerequisites"></a>必要條件
 
 -   C/C++
--   Windows 消費者介面程式設計
+-   Windows消費者介面程式設計
 
 ## <a name="instructions"></a>指示
 
@@ -72,9 +72,9 @@ ms.locfileid: "106968482"
 [CustDTv 範例說明 Tree-View 控制項中的自訂繪圖](https://support.microsoft.com/default.aspx?scid=kb;EN-US;q248496)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

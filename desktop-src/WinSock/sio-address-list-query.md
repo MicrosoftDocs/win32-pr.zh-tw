@@ -8,16 +8,16 @@ req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 api_location:
 - mstcpip.h
-ms.openlocfilehash: 7a728293afa51ceb58d61141e7184077478b787c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 57d529ed4ea525b01e294efcacc1aa8dd2b118106177bd46cb64ffdf42a31a58
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106988915"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120097528"
 ---
 # <a name="sio_address_list_query-control-code"></a>SIO_ADDRESS_LIST_QUERY 控制程式代碼
 
-## <a name="description"></a>Description
+## <a name="description"></a>描述
 
 **SIO \_ ADDRESS \_ LIST \_ QUERY** control code 會取得應用程式可系結之通訊端通訊協定系列的本機傳輸地址清單。
 地址清單會根據地址系列而有所不同，而某些位址會從清單中排除。
@@ -141,7 +141,7 @@ int WSPIoctl(
 
 ## <a name="remarks"></a>備註
 
-在 Windows 2000 和更新版本的作業系統上，支援 **SIO \_ 位址 \_ 清單 \_ 查詢** IOCTL。
+Windows 2000 和更新版本的作業系統都支援 **SIO \_ 位址 \_ 清單 \_ 查詢** IOCTL。
 
 **SIO \_ ADDRESS \_ LIST \_ QUERY** control code 會取得應用程式可系結之通訊端通訊協定系列的本機傳輸地址清單。
 地址清單會根據地址系列而有所不同。
@@ -170,7 +170,7 @@ int WSPIoctl(
 
 **SIO \_ 位址 \_ 清單 \_ 查詢** IOCTL 通常會以同步方式呼叫，並將 *lpvOverlapped* 參數設定為 **Null**，因為會立即傳回地址清單。
 
-**注意**  在 Windows 隨插即用環境中，可以動態新增和移除位址。
+**注意** 在 Windows 隨插即用環境中，可以動態新增和移除位址。
 因此，應用程式無法依賴 **SIO \_ 位址 \_ 清單 \_ 查詢** 所傳回的資訊來持續存在。
 應用程式可以透過 **SIO \_ 位址 \_ 清單 \_ 變更** IOCTL 來登入位址變更通知，以透過重迭的 I/o 或 **FD \_ 通訊 \_ 清單 \_ 變更** 事件提供通知。
 下列動作順序可以用來保證應用程式一律具有目前的通訊清單資訊：
@@ -179,7 +179,7 @@ int WSPIoctl(
 * 發出 **SIO \_ 位址 \_ 清單 \_ 查詢** IOCTL
 * 只要 **SIO \_ 位址 \_ 清單 \_ 變更** IOCTL 呼叫，就會通知應用程式地址清單變更 (透過重迭的 I/o 或) 的 **FD \_ 通訊 \_ 清單 \_ 變更** 事件，就應該重複執行一系列的動作。
 
-在 Windows Vista （含）以後版本的 Microsoft Windows 軟體開發套件 (SDK) 上，標頭檔的組織已變更，且 **SIO \_ ADDRESS \_ LIST \_ 查詢** 控制項程式碼定義于 *Ws2def .h* 標頭檔中。
+在 Windows Vista 和更新版本的 Microsoft Windows 軟體開發套件 (SDK) 發行時，標頭檔的組織已變更，且 **SIO \_ ADDRESS \_ LIST \_ 查詢** 控制項程式碼定義于 *Ws2def .h* 標頭檔中。
 請注意， *Ws2def .h* 標頭檔會自動包含在 *Winsock2* 中，而且絕不能直接使用。
 
 ## <a name="see-also"></a>另請參閱

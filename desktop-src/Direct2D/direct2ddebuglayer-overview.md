@@ -4,12 +4,12 @@ description: Direct2D Debug 圖層總覽
 ms.assetid: 7c28e00b-ebb9-4b79-939c-64eade1351ad
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 833174e0d18b11e2384d838930d5508601cfceaf
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 6ad960c50cd125ec8c335d836949457bb05ef65aba4b2edaff1dfbbd3a9cf6d7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108099986"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120087768"
 ---
 # <a name="direct2d-debug-layer-overview"></a>Direct2D Debug 圖層總覽
 

@@ -1,19 +1,19 @@
 ---
 title: 遠端身分識別授權
-description: 遠端身分識別授權 IPsec 原則案例要求輸入連線來自于 Windows 安全描述項中指定的一組特定遠端安全性主體 (SD) 存取控制清單 (ACL) 。
+description: 遠端身分識別授權 IPsec 原則案例要求輸入連線來自一組特定的遠端安全性主體，在 Windows 的安全描述項 (SD) 存取控制清單 (ACL) 中指定。
 ms.assetid: 4d9f83d6-6f56-4416-8c35-d0260f9e888c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 57287a0dd9af4686b1a2dab162677912213559a7
-ms.sourcegitcommit: 78b64f3865e64768b5319d4f010032ee68924a98
+ms.openlocfilehash: c426f0d153d45d3699020bb723b15d75d84df4662fd0bb61d66513c2af24fe31
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "107314831"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120075378"
 ---
 # <a name="remote-identity-authorization"></a>遠端身分識別授權
 
-遠端身分識別授權 IPsec 原則案例要求輸入連線來自于 Windows 安全描述項中指定的一組特定遠端安全性主體 (SD) 存取控制清單 (ACL) 。 如果遠端身分識別 (由 IPsec 所決定) 不符合允許的身分識別集合，則連線將會中斷。 此原則必須與其中一個傳輸模式原則選項一起指定。
+遠端身分識別授權 IPsec 原則案例要求輸入連線來自一組特定的遠端安全性主體，在 Windows 的安全描述項 (SD) 存取控制清單 (ACL) 中指定。 如果遠端身分識別 (由 IPsec 所決定) 不符合允許的身分識別集合，則連線將會中斷。 此原則必須與其中一個傳輸模式原則選項一起指定。
 
 如果已啟用 AuthIP，則可以指定兩個安全描述項，一個對應至 AuthIP 主要模式，另一個對應至 AuthIP 擴充模式。
 

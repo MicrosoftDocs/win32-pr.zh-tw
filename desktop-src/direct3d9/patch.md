@@ -4,12 +4,12 @@ ms.assetid: vs|directx_sdk|~\patch.htm
 title: Patch
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 480457b3dd3800aca8b23210e3fe653b4e713e94
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 7f57ac0cec68a1e8d1651c0e6ad2aabde6f1f6b949b085aa0dc35bd6e02c82a0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103845739"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120118623"
 ---
 # <a name="patch"></a>Patch
 

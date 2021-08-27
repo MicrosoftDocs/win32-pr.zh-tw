@@ -4,12 +4,12 @@ ms.assetid: b356987d-3efe-4a57-a745-91a1b34222e9
 title: LaunchConditions 動作
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7f6bb3eaf2a98c630bb9cacd18ff449083eb9c1d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7a973e6e1de81091039de12e07e8edb890c860e5be54e942f00406e39e62e229
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106966719"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120086028"
 ---
 # <a name="launchconditions-action"></a>LaunchConditions 動作
 

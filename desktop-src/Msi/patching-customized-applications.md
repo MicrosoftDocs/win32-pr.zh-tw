@@ -4,12 +4,12 @@ ms.assetid: 39a58174-fa62-42e3-a0aa-4cc541c2e36b
 title: 修補自訂應用程式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 289685ebc390de750ea9c47ddfae6ef58ec87116
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 469fd2e5f80f19e84fcdc22ed7753374bc9a456cd68946f5f4bd6764e7aa0d11
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104319196"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120074818"
 ---
 # <a name="patching-customized-applications"></a>修補自訂應用程式
 

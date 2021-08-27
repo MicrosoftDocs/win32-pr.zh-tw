@@ -28,12 +28,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 26d453f32a225718f94690f42266fffc7c03cc13
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b9dac8e7dd5f1c028f9590ef6427c73b81181b0d11c2e379d17240abfca4583a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106989808"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120085138"
 ---
 # <a name="list-box-styles"></a>清單方塊樣式
 

@@ -1,19 +1,19 @@
 ---
 title: 適用於 Windows 的遊戲測試案例：Windows XP、Windows Vista、Windows 7 和 Windows 8 上遊戲的最佳作法
-description: 本文提供適用于 Windows 遊戲的測試案例。
+description: 本文提供 Windows 遊戲的測試案例。
 ms.assetid: bbe84d3f-e7ff-f14f-ec25-ae1c980749fe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0b13a4934c539579e49c9b00c60f3603bd64c711
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: e9848131cae57e1f456f2ca7a497f10c8865fad146aa82c7b73f99180dcb75aa
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113120273"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120107578"
 ---
 # <a name="games-for-windows-test-cases-best-practices-for-games-on-windows-xp-windows-vista-windows-7-and-windows-8"></a>Windows 測試案例的遊戲： Windows XP、Windows Vista、Windows 7 和 Windows 8 遊戲的最佳作法
 
-本文提供適用于 Windows 遊戲的測試案例。
+本文提供 Windows 遊戲的測試案例。
 
 ## <a name="how-to-use-this-article"></a>如何使用本文
 
@@ -86,7 +86,7 @@ ms.locfileid: "113120273"
 <tbody>
 <tr class="odd">
 <td>Windows 7<br/> Windows Vista<br/></td>
-<td>遊戲必須在 Windows Vista 和 Windows 7 上的遊戲瀏覽器中顯示。 選取時，遊戲也必須顯示正確的中繼資料。 安裝不能建立快捷方式來啟動桌面、[開始] 功能表或任何其他位置中的遊戲。 不得建立移除的工作和快捷方式。</td>
+<td>您必須在 Windows Vista 和 Windows 7 的 [遊戲] Explorer 中看到該遊戲。 選取時，遊戲也必須顯示正確的中繼資料。 安裝不能建立快捷方式來啟動桌面、[開始] 功能表或任何其他位置中的遊戲。 不得建立移除的工作和快捷方式。</td>
 </tr>
 <tr class="even">
 
@@ -130,7 +130,7 @@ ms.locfileid: "113120273"
 <tr class="even">
 
 <td><ol>
-<li>在 Windows Vista 或 Windows 7 中建立名為 Toby 的標準使用者帳戶。 啟動-> 主控台-> 新增或移除使用者帳戶-> 建立新帳戶</li>
+<li>在 Windows Vista 或 Windows 7 （稱為 Toby）中建立標準使用者帳戶。 啟動-> 主控台-> 新增或移除使用者帳戶-> 建立新帳戶</li>
 <li>和 Jane 一樣，從系統管理員帳戶設定遊戲的家長監護。 開始 > 主控台-> 為任何使用者 > 設定家長監護 Toby
 <ol>
 <li>確認已從 [遊戲瀏覽器] 圖示啟動遊戲。</li>
@@ -174,7 +174,7 @@ ms.locfileid: "113120273"
 
  
 
-### <a name="13-windows-vista-rich-saved-games"></a>1.3 Windows Vista 豐富儲存的遊戲
+### <a name="13-windows-vista-rich-saved-games"></a>1.3 Windows Vista 豐富的儲存遊戲
 
 這項需求已淘汰。
 
@@ -190,16 +190,16 @@ ms.locfileid: "113120273"
 <tbody>
 <tr class="odd">
 <td>Windows 7<br/> Windows Vista<br/> Windows XP<br/></td>
-<td>支援遊戲台控制器的遊戲必須支援使用 XInput API 的適用于 Windows 的 Xbox 360 控制器。 所有對通用控制器觸發程式和按鈕的參考都必須使用 Xbox 360 名稱。</td>
+<td>支援遊戲台控制器的遊戲必須支援使用 XInput API 的 Windows 專用 Xbox 360 控制器。 所有對通用控制器觸發程式和按鈕的參考都必須使用 Xbox 360 名稱。</td>
 </tr>
 <tr class="even">
 
 <td><ol>
 <li>啟動遊戲。</li>
 <li>移至控制器選項。 **</li>
-<li>確認遊戲可將 Windows Xbox 360 控制器辨識為輸入裝置。</li>
-<li>玩遊戲並確認遊戲和功能表系統可控制適用于 Windows 的 Xbox 360 控制器。</li>
-<li>確認適用于 Windows 的 Xbox 360 控制器根據接受的標準行為。  (B 代表上一頁、A for accept、Start for 遊戲功能表/暫停或接受等 ) </li>
+<li>確認遊戲將 Windows 專用 Xbox 360 控制器辨識為輸入裝置。</li>
+<li>播放遊戲並確認遊戲和功能表系統可控制 Windows 專用 Xbox 360 控制器。</li>
+<li>確認 Windows 專用 Xbox 360 控制器根據接受的標準行為。  (B 代表上一頁、A for accept、Start for 遊戲功能表/暫停或接受等 ) </li>
 <li>確認遊戲是使用 Xbox 360 名稱來參考控制器按鈕和觸發程式。</li>
 </ol>
 <br/>
@@ -299,7 +299,7 @@ ms.locfileid: "113120273"
 
 <td><dl> <dt><span id="Manual"></span><span id="manual"></span><span id="MANUAL"></span>手動</dt> <dd>
 <ol>
-<li>將系統設定為 DPI 150%： <br/> Windows Vista：主控台：個人化、調整字型大小 (DPI) 、自訂 DPI。 設定為150%。<br/> Windows 7：主控台：顯示，設定為較大-150%。<br/></li>
+<li>將系統設定為 DPI 150%： <br/> WindowsVista：主控台：個人化、調整字型大小 (DPI) 、自訂 DPI。 設定為150%。<br/> Windows 7：主控台：顯示，設定為較大-150%。<br/></li>
 <li>執行安裝程式和遊戲，確認裁剪的畫面或對話方塊沒有任何問題。</li>
 </ol>
 </dd> <dt><span id="Automated_Test"></span><span id="automated_test"></span><span id="AUTOMATED_TEST"></span>自動化測試</dt> <dd> 確認元素 <dpiAware>true</dpiAware> 包含在內嵌資訊清單中。<br/> 使用工具： Mt.exe <br/> </dd> </dl></td>
@@ -350,7 +350,7 @@ ms.locfileid: "113120273"
 
  
 
-### <a name="22-support-x64-versions-of-windows"></a>2.2 支援 x64 版本的 Windows
+### <a name="22-support-x64-versions-of-windows"></a>2.2 支援 Windows 的 x64 版本
 
 
 
@@ -365,11 +365,11 @@ ms.locfileid: "113120273"
 <td>若要維持與 x64 版 Windows 的相容性： <br/>
 <ul>
 <li>標題和標題安裝程式不得包含任何16位程式碼，或依賴任何16位元件。</li>
-<li>如果遊戲相依于操作的核心模式驅動程式，則必須提供這些驅動程式的 x64 版本。 遊戲安裝程式必須偵測並安裝適用于64位版本 Windows 的適當驅動程式和元件。</li>
+<li>如果遊戲相依于操作的核心模式驅動程式，則必須提供這些驅動程式的 x64 版本。 遊戲安裝程式必須偵測和安裝適用于64位版 Windows 的適當驅動程式和元件。</li>
 </ul>
 <blockquote>
 [!Note]<br />
-64位版 Windows XP Professional 的支援是選擇性的。
+Windows XP Professional 的64位版本支援是選擇性的。
 </blockquote>
 <br/></td>
 </tr>
@@ -377,8 +377,8 @@ ms.locfileid: "113120273"
 
 <td>手動測試<br/>
 <ol>
-<li>在64位版本的 Windows 上執行遊戲。 確認遊戲安裝程式在 Windows Vista 或 Windows 7 的64位版本上正常執行。</li>
-<li>確認遊戲未在64位版本的 Windows Vista 或 Windows 7 上執行16位可執行檔時遇到錯誤。 錯誤會在錯誤視窗中提及16位應用程式。</li>
+<li>在 Windows 的64位版本上執行遊戲。 確認在 Windows Vista 或 Windows 7 的64位版本上，遊戲安裝程式正常執行。</li>
+<li>確認遊戲未在 Windows Vista 或 Windows 7 64 位版本上的16位可執行檔產生錯誤。 錯誤會在錯誤視窗中提及16位應用程式。</li>
 <li>如果遊戲有原生的64位可執行檔，則也請使用它。</li>
 </ol></td>
 </tr>
@@ -467,7 +467,7 @@ ms.locfileid: "113120273"
 
 <td><dl> <dt><span id="Manual"></span><span id="manual"></span><span id="MANUAL"></span>手動</dt> <dd>
 <ol>
-<li>在 windows XP、windows Vista 和 Windows 7 的32位版本，以及在64位版本的 Windows Vista 和 Windows 7 上安裝遊戲。</li>
+<li>在 Windows XP、Windows vista 和 Windows 7 的32位版本上，以及 Windows Vista 和 Windows 7 的64位版本上安裝遊戲。</li>
 <li>確認遊戲安裝程式未遇到關於 OS 版本的錯誤。</li>
 </ol>
 </dd> <dt><span id="Automated_Test"></span><span id="automated_test"></span><span id="AUTOMATED_TEST"></span>自動化測試</dt> <dd> 使用工具：應用程式驗證器<br/>
@@ -499,15 +499,15 @@ ms.locfileid: "113120273"
 <tbody>
 <tr class="odd">
 <td>Windows 7<br/> Windows Vista<br/> Windows XP<br/></td>
-<td>遊戲必須支援標準 Windows 多工案例。</td>
+<td>遊戲必須支援標準的 Windows 多工案例。</td>
 </tr>
 <tr class="even">
 
-<td>在 Windows Vista 或 Windows 7 中建立名為 Toby 的標準使用者帳戶。 啟動-> 主控台-> 新增或移除使用者帳戶-> 建立新帳戶 <br/>
+<td>在 Windows Vista 或 Windows 7 （稱為 Toby）中建立標準使用者帳戶。 啟動-> 主控台-> 新增或移除使用者帳戶-> 建立新帳戶 <br/>
 <ol>
 <li>以使用者 Jane 的形式啟動遊戲。</li>
 <li>ALT + TAB 回到桌面上。</li>
-<li>確認遊戲正確地將 ALT + Tab 切換至 Windows 桌面。</li>
+<li>確認遊戲正確地 ALT + tab 鍵到 Windows desktop。</li>
 <li>按一下 [開始-> [鎖定右邊的箭號]-> 切換使用者]。</li>
 <li>以使用者 Toby 登入。</li>
 <li>確認該遊戲在以使用者 Jane 的方式執行時，以使用者 Toby 的形式啟動。</li>
@@ -772,16 +772,16 @@ ms.locfileid: "113120273"
 <td>針對在 CD、DVD 或其他支援自動執行的卸載式媒體上散佈的遊戲，當光碟第一次插入時，應用程式必須自動執行或提示使用者安裝遊戲。 <br/>
 <blockquote>
 [!Note]<br />
-為了在 windows Vista 之前的 Windows 版本上使用而撰寫的自動執行程式，不應該使用 .NET 執行時間，因為這項技術並不包含在 Windows XP 或舊版的 Windows 中。
+為了在 Windows Vista 之前的 Windows 版本所撰寫的自動執行程式，不應該使用 .net 執行時間，因為這項技術並不包含在 Windows XP 或舊版的 Windows 中。
 </blockquote>
-<br/> 如需進一步指引，請參閱 <a href="/windows/win32/DxTechArts/games-for-windows-technical-requirements-1-1-0006">Windows 技術需求</a> 3.7 的遊戲，支援自動執行時間。 <br/></td>
+<br/> 如需進一步指引，請參閱<a href="/windows/win32/DxTechArts/games-for-windows-technical-requirements-1-1-0006">Windows 技術需求</a>3.7 的遊戲，支援自動運行。 <br/></td>
 </tr>
 <tr class="even">
 
 <td><ol>
 <li>插入遊戲光碟或媒體。</li>
 <li>確認 [安裝/執行] 對話方塊已自動啟動。</li>
-<li>Windows Vista 或 Windows 7：確認遊戲自動執行程式本身不會提示使用者 Jane 透過系統管理員認證來提升許可權。</li>
+<li>WindowsVista 或 Windows 7：確認遊戲自動執行程式本身不會提示使用者 Jane 透過系統管理員認證來提升許可權。</li>
 <li>確認自動執行的可執行檔不需要現成可轉散發元件，例如 .NET 3.5、C Run-Time 程式庫等等。</li>
 <li>請確認在安裝後重新插入磁片磁碟機中的光碟，不會再次自動開始安裝。</li>
 </ol></td>
@@ -896,12 +896,12 @@ ms.locfileid: "113120273"
 <ol>
 <li>在安裝媒體上，以滑鼠右鍵按一下遊戲的可執行檔 (s) ，然後安裝在電腦硬碟上。</li>
 <li>選取 [屬性]。</li>
-<li>Windows XP：按一下 [ <strong>版本</strong> ] 索引標籤。確認已正確填入 [產品名稱]、[公司名稱] 和 [檔案版本] 欄位。</li>
-<li>Windows Vista 或 Windows 7：按一下 [ <strong>詳細資料</strong> ] 索引標籤。確認 [產品名稱] 和 [檔案版本] 欄位已正確填入。 在 Windows Vista 或 Windows 7 的 [屬性] 頁面中看不到公司名稱。</li>
+<li>WindowsXP：按一下 [<strong>版本</strong>] 索引標籤。確認已正確填入 [產品名稱]、[公司名稱] 和 [檔案版本] 欄位。</li>
+<li>WindowsVista 或 Windows 7：按一下 [<strong>詳細資料</strong>] 索引標籤。確認 [產品名稱] 和 [檔案版本] 欄位已正確填入。 在 Windows Vista 或 Windows 7 屬性頁面中看不到公司名稱。</li>
 </ol>
 </dd> <dt><span id="Automated_test_"></span><span id="automated_test_"></span><span id="AUTOMATED_TEST_"></span>自動化測試：</dt> <dd>
 <ul>
-<li>使用 Microsoft 遊戲進行 Windows 測試控管;請參閱 <a href="#64-microsoft-games-for-windows-test-tool">第6.4 節</a>。</li>
+<li>使用 Microsoft 遊戲進行 Windows 測試控管;請參閱<a href="#64-microsoft-games-for-windows-test-tool">第6.4 節</a>。</li>
 </ul>
 </dd> </dl></td>
 </tr>
@@ -943,19 +943,19 @@ ms.locfileid: "113120273"
 
 ### <a name="51-tools"></a>5.1 工具
 
--   Windows Vista SP1 和（或） Windows 7 在 AMD CPU 上的32位版本
+-   AMD CPU 上的 Windows Vista SP1 和（或） Windows 7 的32位版本
 -   Intel CPU 上的 Windows Vista SP1 和（或） Windows 7 的32位版本
--   Windows Vista SP1 和（或） Windows 7 在 AMD CPU 上的64位版本
+-   AMD CPU 上的 Windows Vista SP1 和（或） Windows 7 的64位版本
 -   Intel CPU 上的 Windows Vista SP1 和（或） Windows 7 的64位版本
--   AMD CPU 上的32位 edition Windows XP SP2
--   Intel CPU 上的32位版 Windows XP SP2
+-   在 AMD CPU 上 Windows XP SP2 的32位版本
+-   32位 edition Windows XP SP2 在 Intel CPU 上
 -   支援 1680 1050 的全螢幕監視器
--   適用于 Windows 的 Xbox 360 控制器
+-   Windows 專用 Xbox 360 控制器
 
 ### <a name="52-pre-install"></a>5.2 預先安裝
 
-1.  Windows Vista 和 Windows 7：建立兩位標準使用者： Jane 和 Toby
-2.  Windows Vista 和 Windows 7：確定已啟用使用者帳戶控制
+1.  WindowsVista 和 Windows 7：建立兩個標準使用者： Jane 和 Toby
+2.  WindowsVista 和 Windows 7：確定已啟用使用者帳戶控制
 3.  建立 System32 的預先安裝快照集
 
     1.  建立名為 G4Wtest 的目錄
@@ -963,7 +963,7 @@ ms.locfileid: "113120273"
     3.  流覽至 c： \\ windows \\ system32
     4.  輸入 dir/o：-g/o：-d >> c： \\ G4Wtest \\pregame.txt
 
-4.  Windows Vista 和 Windows 7：設定為 150% DPI \[ 1。8\]
+4.  WindowsVista 和 Windows 7：設定為 150% DPI \[ 1。8\]
 5.  繼續 [安裝](#3-installation)
 
 ### <a name="53-install"></a>5.3 安裝
@@ -991,11 +991,11 @@ ms.locfileid: "113120273"
 
 1.  確認遊戲未在使用者桌面1.1 上放置啟動快捷方式 \[\]
 2.  確認遊戲未在 [開始] 功能表1.1 中放置啟動快捷方式 \[\]
-3.  確認遊戲圖示顯示在 Windows 遊戲瀏覽器 \[ 1.1 中\]
+3.  確認 Windows 遊戲瀏覽器1.1 中顯示遊戲圖示 \[\]
 4.  確認底部的 [發行者]、[開發人員]、[內容類型]、[發行日期]、[版本])  (的中繼資料，以及是否正確 \[ 1。1\]
-5.  確認遊戲圖示顯示 Windows 體驗指數 (Windows 遊戲瀏覽器1.1 中) 資訊的 \[\]
-6.  確認適用于中繼資料的遊戲超連結在 Windows 遊戲瀏覽器1.1 中正確運作 \[\]
-7.  確認該遊戲在 Windows 遊戲瀏覽器1.1 中顯示精確的家長監護控制項分級 \[\]
+5.  確認遊戲圖示顯示 Windows 遊戲瀏覽器1.1 中 Windows 體驗指數 (WEI) 資訊 \[\]
+6.  確認 Windows 遊戲瀏覽器1.1 中，中繼資料的遊戲超連結正常運作 \[\]
+7.  確認遊戲在 Windows 遊戲瀏覽器1.1 中顯示精確的家長監護 \[\]
 8.  建立 System32 的後置安裝快照集
 
     1.  顯示命令視窗 (啟動-> 執行-> cmd) 
@@ -1026,12 +1026,12 @@ ms.locfileid: "113120273"
     3.  確認遊戲不會在啟動1.2 時提示輸入系統管理員認證 \[\]
     4.  繼續執行執行時間3
 
-3.  執行時間3：如果遊戲支援遊戲台，請確認遊戲可將 Windows Xbox 360 控制器辨識為輸入裝置 \[ 1。4\]
+3.  執行時間3：如果遊戲支援遊戲台，請確認遊戲將 Windows 專用 Xbox 360 控制器辨識為輸入裝置 \[ 1。4\]
 
     1.  如有需要，請透過 [選項] 功能表啟用控制器
     2.  使用 Xbox 360 名稱確認遊戲參考控制器按鈕和觸發程式
-    3.  確認遊戲和功能表系統可控制適用于 Windows 的 Xbox 360 控制器
-    4.  確認適用于 Windows 的 Xbox 360 控制器根據接受的標準運作
+    3.  確認遊戲和功能表系統可控制 Windows 專用 Xbox 360 控制器
+    4.  確認 Windows 專用 Xbox 360 控制器根據接受的標準行為
 
 4.  將影片設定為 \[ 1.5 \] ：
 
@@ -1046,7 +1046,7 @@ ms.locfileid: "113120273"
 5.  如果影片設定中有提供，請確認遊戲轉譯選項預設為 Direct3D \[ 1.7 \] ; 否則，請繼續進行 [自動化測試](#58-automated-tests)
 6.  如果出現提示或選項可供使用，請建立使用者設定檔。 確認在使用長檔名時，遊戲不會遇到錯誤 \[ 2。7\]
 7.  開始新的遊戲、建立遊戲儲存，並確認在處理不支援的檔案系統字元時，遊戲不會遇到錯誤 \[ 2。7\]
-8.  確認遊戲正確地將 ALT + Tab 切換至 Windows 桌面 \[ 2。6\]
+8.  確認遊戲已正確地 ALT + tab 鍵到 Windows desktop \[ 2。6\]
 
     1.  按一下 [開始-> 切換使用者]，切換執行遊戲的使用者
     2.  以 Toby 登入
@@ -1112,8 +1112,8 @@ ms.locfileid: "113120273"
 ### <a name="59-other-tests"></a>5.9 其他測試
 
 1.  確認遊戲可執行檔包含數位簽章 \[ 2。3\]
-2.  確認遊戲安裝程式在 Windows Vista 及/或 Windows 7 2.3 的64位版本上正常執行 \[\]
-3.  在 Windows Vista 及/或 Windows 7 2.3 的64位版本上執行16位可執行檔時，請確認該遊戲未遇到錯誤 \[\]
+2.  確認在 Windows Vista 和/或 Windows 7 2.3 的64位版本上，遊戲安裝程式正常執行 \[\]
+3.  確認在 Windows Vista 和/或 Windows 7 2.3 的64位版本上，有16位可執行檔時，遊戲不會發生錯誤 \[\]
 4.  在測試時強制應用程式損毀，並確認遊戲顯示 Windows 錯誤報告正確，並收集損毀資料 \[ 4。3\]
 5.  確定正確的檔案摘要 \[ 4。3\]
 
@@ -1123,7 +1123,7 @@ ms.locfileid: "113120273"
     4.  針對每個檔案：以滑鼠右鍵按一下檔案，然後按一下 [屬性]
 
         -   在 Windows XP 中：按一下 [版本] 索引標籤。確認已正確填入 [產品名稱]、[公司名稱] 和 [檔案版本] 欄位。 \[4.3\]
-        -   在 Windows Vista 和 Windows 7 中：按一下 [詳細資料] 索引標籤。確認 [產品名稱] 和 [檔案版本] 欄位已正確填入。 在 Windows Vista 或 Windows 7 屬性頁面4.3 中看不到公司名稱 \[\]
+        -   在 Windows Vista 和 Windows 7：按一下 [詳細資料] 索引標籤。確認 [產品名稱] 和 [檔案版本] 欄位已正確填入。 在 Windows Vista 或 Windows 7 屬性頁面4.3 中看不到公司名稱 \[\]
 
     5.  針對 .exe 檔案重複此檢查
 
@@ -1140,7 +1140,7 @@ ms.locfileid: "113120273"
 
 -   確認遊戲卸載程式會移除所有已安裝、未轉散發的作業系統元件檔案，並清除所有設定 \[ 3。1\]
 
-    -   在 Windows Vista 或 Windows 7 中確認主控台是移除程式1.1 的唯一方法 \[\]
+    -   確認 Windows Vista 或 Windows 7 主控台是移除程式的唯一方法 \[ 1。1\]
 
 ## <a name="test-tool-notes"></a>測試控管注意事項
 
@@ -1238,9 +1238,9 @@ threadhijacker.exe /process:str
 
 ### <a name="64-microsoft-games-for-windows-test-tool"></a>6.4 Windows 測試控管的 Microsoft 遊戲
 
-此工具位於 DirectX SDK 中。 一旦 SDK 安裝在電腦上，就可以將 Windows 測試控管的安裝程式放置在測試電腦上，然後安裝。
+此工具位於 DirectX SDK 中。 一旦將 SDK 安裝在電腦上，就可以將適用于 Windows 測試控管的遊戲安裝程式放置在測試電腦上，並加以安裝。
 
-在安裝 DirectX SDK 的開發電腦上，找出適用于 Windows Test Tool 安裝程式的 Microsoft 遊戲。 依預設，它位於下列位置：
+在安裝 DirectX SDK 的開發電腦上，找出適用于 Windows 測試控管安裝程式的 Microsoft 遊戲。 依預設，它位於下列位置：
 
 ``` syntax
 %SystemDrive%\Program Files (x86)\Microsoft DirectX SDK (Date)\Utilities\bin\x86\Microsoft Games for Windows Test Tools\
@@ -1248,8 +1248,8 @@ threadhijacker.exe /process:str
 
 1.  將安裝程式 (MicrosoftGFWTestTool.msi/setup.exe) 複製到測試電腦。
 2.  執行安裝程式。
-3.  啟動 Windows 測試控管的 Microsoft 遊戲。
-4.  在 [ **專案清單** ] 欄位中，將 [ **建立新專案** ] 取代為您的標題名稱， **然後按一下 [新建]**。
+3.  啟動適用于 Windows 測試控管的 Microsoft 遊戲。
+4.  在 **Project 清單** 欄位中，以您的標題名稱取代 [**建立新的 Project** ]，然後按一下 [**建立新** 的]。
 
     等候基準完成。
 
@@ -1285,28 +1285,28 @@ threadhijacker.exe /process:str
 
 <dl> <dt>
 
-<span id="Games_for_Windows__Technical_Requirements"></span><span id="games_for_windows__technical_requirements"></span><span id="GAMES_FOR_WINDOWS__TECHNICAL_REQUIREMENTS"></span>適用于 Windows 的遊戲：技術需求
+<span id="Games_for_Windows__Technical_Requirements"></span><span id="games_for_windows__technical_requirements"></span><span id="GAMES_FOR_WINDOWS__TECHNICAL_REQUIREMENTS"></span>Windows 的遊戲：技術需求
 </dt> <dd>
 
 [Windows 技術需求的遊戲： Windows XP、Windows Vista 和 Windows 7 遊戲的最佳作法](./games-for-windows-technical-requirements-1-1-0006.md)
 
 </dd> <dt>
 
-<span id="Windows_SDK"></span><span id="windows_sdk"></span><span id="WINDOWS_SDK"></span>Windows SDK
+<span id="Windows_SDK"></span><span id="windows_sdk"></span><span id="WINDOWS_SDK"></span>WindowsSDK
 </dt> <dd>
 
-[Windows Sdk](https://msdn.microsoft.com/bb980924.aspx)
+[WindowsSdk](https://msdn.microsoft.com/bb980924.aspx)
 
 </dd> <dt>
 
 <span id="User_Account_Control_Guidelines"></span><span id="user_account_control_guidelines"></span><span id="USER_ACCOUNT_CONTROL_GUIDELINES"></span>使用者帳戶控制指導方針
 </dt> <dd>
 
-[使用者帳戶控制相容性的 Windows Vista 應用程式開發需求](/previous-versions/dotnet/articles/bb530410(v=msdn.10))
+[Windows使用者帳戶控制相容性的 Vista 應用程式開發需求](/previous-versions/dotnet/articles/bb530410(v=msdn.10))
 
 </dd> <dt>
 
-<span id="Windows_Installer_Information"></span><span id="windows_installer_information"></span><span id="WINDOWS_INSTALLER_INFORMATION"></span>Windows Installer 資訊
+<span id="Windows_Installer_Information"></span><span id="windows_installer_information"></span><span id="WINDOWS_INSTALLER_INFORMATION"></span>Windows安裝程式資訊
 </dt> <dd>
 
 [Windows Installer](../msi/windows-installer-portal.md)
@@ -1316,7 +1316,7 @@ threadhijacker.exe /process:str
 <span id="WinQual_Developer_Portal__"></span><span id="winqual_developer_portal__"></span><span id="WINQUAL_DEVELOPER_PORTAL__"></span>WinQual 開發人員入口網站 
 </dt> <dd>
 
-[Windows Quality Online Services (Winqual) ](/windows-hardware/drivers/dashboard/winqual-submission-tool--winqualexe-)
+[Windows優質線上服務 (Winqual) ](/windows-hardware/drivers/dashboard/winqual-submission-tool--winqualexe-)
 
 </dd> <dt>
 

@@ -4,12 +4,12 @@ ms.assetid: 61c3c343-3754-40b7-9f85-9a96d3faf4a2
 title: 'EC_STEP_COMPLETE (Dshow) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a436d0cb32161e5e9d5782990146b03e0605b700
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 04920f29570344412fab15f0f94feceef9539e004f9e8b94228a8cab0097d3aa
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106980105"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120107888"
 ---
 # <a name="ec_step_complete"></a>EC \_ 步驟 \_ 完成
 

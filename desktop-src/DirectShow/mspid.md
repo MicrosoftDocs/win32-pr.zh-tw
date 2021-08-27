@@ -4,12 +4,12 @@ ms.assetid: 83a84eb7-a72c-4ca7-b152-8cc81a5bfdaf
 title: 'MSPID (Mmstream) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8464882aa018a373345f15c0a5639107d9beebf9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: dc9d274fc4131c0aa4494d610cbe1145ad79b848b5f6280d4ad6a10b298a8b7f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106984364"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120075748"
 ---
 # <a name="mspid"></a>MSPID
 

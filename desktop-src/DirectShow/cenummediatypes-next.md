@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 6b5eaa75a52f88539438cec58f024919577518e2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f8dd593fe6ca550c55ffc1f769a303dd2d5cbf7a8d8c986be8a39278d7f334ce
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106998886"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120131288"
 ---
 # <a name="cenummediatypesnext-method"></a>CEnumMediaTypes. Next 方法
 
@@ -71,7 +71,7 @@ HRESULT Next(
 
 
 
-| 傳回碼                                                                                                | Description                                                                         |
+| 傳回碼                                                                                                | 描述                                                                         |
 |------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|
 | <dl> <dt>**S \_ FALSE**</dt> </dl>                    | 未依要求抓取任何數量的媒體類型。<br/>                       |
 | <dl> <dt>**S \_ 確定**</dt> </dl>                       | 成功。<br/>                                                                 |

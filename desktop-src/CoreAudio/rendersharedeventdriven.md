@@ -4,12 +4,12 @@ ms.assetid: 92e644be-df8b-415d-ac8e-c0c30c85f844
 title: RenderSharedEventDriven
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9901896b962717ed72fd36d022eef9510d7cb916
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: aafab0e2a9d073a963653ebaf53106ee737327a516df300a810632b0822c26f1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847383"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120109407"
 ---
 # <a name="rendersharedeventdriven"></a>RenderSharedEventDriven
 
@@ -24,7 +24,7 @@ ms.locfileid: "103847383"
 -   [執行範例](#running-the-sample)
 -   [相關主題](#related-topics)
 
-## <a name="description"></a>Description
+## <a name="description"></a>描述
 
 這個範例會示範下列功能。
 
@@ -50,7 +50,7 @@ ms.locfileid: "103847383"
 
 
 
-| Location    | 路徑/URL                                                                                                 |
+| 位置    | 路徑/URL                                                                                                 |
 |-------------|----------------------------------------------------------------------------------------------------------|
 | Windows SDK | \\Program Files \\ Microsoft sdk \\ Windows \\ 7.0 \\ 範例 \\ 多媒體 \\ 音訊 \\ RenderSharedEventDriven \\ .。。 |
 
@@ -64,7 +64,7 @@ ms.locfileid: "103847383"
 
 1.  開啟 Windows SDK 的 CMD shell，並變更為 RenderSharedEventDriven 範例目錄。
 2.  在 RenderSharedEventDriven 目錄中執行命令 `start WASAPIRenderSharedEventDriven.sln` ，以在 Visual Studio 視窗中開啟 WASAPIRenderSharedEventDriven 專案。
-3.  從視窗內選取 [ **Debug** ] 或 [ **發行** ] 方案設定，從功能表列選取 [ **組建** ] 功能表，然後選取 [ **建立** ] 選項。 如果您未從 SDK 的 CMD shell 開啟 Visual Studio，Visual Studio 將無法存取 SDK 組建環境。 在此情況下，除非您明確設定在專案檔 WASAPIRenderSharedEventDriven 中使用的環境變數 MSSdk，否則此範例不會建立。
+3.  從視窗內選取 [ **Debug** ] 或 [ **發行** ] 方案設定，從功能表列選取 [ **組建** ] 功能表，然後選取 [ **建立** ] 選項。 如果您未從 sdk 的 CMD shell 開啟 Visual Studio，Visual Studio 將無法存取 sdk 組建環境。 在此情況下，除非您明確設定在專案檔 WASAPIRenderSharedEventDriven 中使用的環境變數 MSSdk，否則此範例不會建立。
 
 ## <a name="running-the-sample"></a>執行範例
 

@@ -4,12 +4,12 @@ description: 本節說明如何執行與清單方塊相關聯的工作。
 ms.assetid: 641f5dcf-b0c7-42cf-921c-d55795b8573a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0fcbe1dd9487b7d225d8e77bd610f15aa1e7a5f1
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f1a8cba92f0dddf0cb9b9799cf218dc002263de09769256687e2b98668b15931
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104300760"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120132018"
 ---
 # <a name="using-list-boxes"></a>使用清單方塊
 

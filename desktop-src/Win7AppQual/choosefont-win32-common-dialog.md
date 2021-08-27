@@ -4,19 +4,19 @@ ms.assetid: ee1df9f2-585f-4208-ad49-a0f6ba76f53a
 title: ChooseFont () Win32 通用對話方塊
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a4dd8eb6ec226f8dbf5220f5a90dac802cf149dd
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 95edc873d6984b5db312d3a86fc926f72817a5170672ad315d07e209d98c4398
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108088606"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120098528"
 ---
 # <a name="choosefont-win32-common-dialog"></a>ChooseFont () Win32 通用對話方塊
 
 ## <a name="affected-platforms"></a>受影響的平臺
 
 **客戶** 端-Windows 7  
-**伺服器** -Windows Server 2008 R2  
+**伺服器**-Windows Server 2008 R2  
 
 
 
@@ -34,22 +34,22 @@ ms.locfileid: "108088606"
 
 
 
-## <a name="description"></a>Description
+## <a name="description"></a>描述
 
 Windows 7 包含 ChooseFont () Win32 通用對話方塊的數項更新。 這些分為兩種類別：
 
 -   對話方塊的視覺效果重新整理
 -   新顯示/隱藏字體功能的支援
 
-**對話方塊** 重新整理會更新標準範本，讓對話方塊與 Windows 中的其他對話版面配置更具線。 它會將 WYSIWYG 引進字型顯示清單，以協助使用者選擇字型。 它也包含字型 CPL 的連結，可讓希望自訂其字型清單的使用者輕鬆存取。
+**對話方塊** 重新整理會更新標準範本，讓對話方塊與 Windows 中的其他對話版面配置更齊行。 它會將 WYSIWYG 引進字型顯示清單，以協助使用者選擇字型。 它也包含字型 CPL 的連結，可讓希望自訂其字型清單的使用者輕鬆存取。
 
-**顯示/隱藏** 字型是新的 Windows 7 平臺功能，因此字型挑選清單中預設不會顯示不適合目前使用者語言設定的字型 (輸入方法) 。 使用者可以自訂要顯示在字型 CPL 中的字型，也可以停用此功能。
+**顯示/隱藏** 字型是新的 Windows 7 平臺功能，因此字型挑選清單中預設不會顯示適用于目前使用者的語言設定 (輸入方法) 的字型。 使用者可以自訂要顯示在字型 CPL 中的字型，也可以停用此功能。
 
 ## <a name="manifestation-of-impact"></a>影響的表現
 
 **對話方塊視覺效果重新整理**
 
-我們在 Windows 7 中引進了兩個新範本 (一個用於載入 comctl32.dll 6 版或更新版本的應用程式，而另一個則適用于載入舊版) 的應用程式。
+我們在 Windows 7 中引進了兩個新範本 (一個用於載入第6版或更新版本 comctl32.dll 的應用程式，另一個用於載入較早) 版本的應用程式。
 
 -   基於應用程式相容性的理由，這些新範本只會針對未攔截 ChooseFont 訊息佇列的應用程式載入。 連結訊息佇列的應用程式將會繼續看到舊的對話版面配置。
 -   提供自己範本的應用程式將會繼續使用它們。
@@ -62,13 +62,13 @@ Windows 7 包含 ChooseFont () Win32 通用對話方塊的數項更新。 這些
 
 ## <a name="end-user-mitigation"></a>使用者緩和
 
-**顯示/隱藏字型：** 若要停用字型隱藏，使用者應該移至字型 CPL 中的 [字型設定] 頁面，並取消選取 [
+**顯示/隱藏字型：** 若要停用字型隱藏，使用者應該移至字型 CPL 中的字型設定頁面，並取消選取 '
 
 「隱藏以語言設定為基礎的字型」核取方塊
 
 ## <a name="developer-mitigation"></a>開發人員緩和
 
--   **視覺效果** 重新整理：提供專屬範本的應用程式開發人員可能會想要重新整理，使其符合適當的新 Windows 7 範本。 新的範本可在 Font-family 範本檔中使用。
+-   **視覺效果** 重新整理：提供專屬範本的應用程式開發人員可能會想要重新整理，使其符合適當的新 Windows 7 範本的行。 新的範本可在 Font-family 範本檔中使用。
 
     **注意：** 新發佈的範本包含額外的 SysLink 控制項，可提供快捷方式，讓使用者啟動字型 CPL 以顯示更多字型。 連結控制項需要第6版的 Windows 通用控制項程式庫 (comctl32.dll) 。 開發人員應提供資訊清單或指示詞，以指定使用第6版的 DLL （如果有的話）。 當應用程式使用舊版的通用控制項程式庫時，請改為使用「按鈕」控制項類型。
 

@@ -1,6 +1,6 @@
 ---
 title: MDM_EnterpriseModernAppManagement_AppInstallation01_01 類別的 StoreInstallMethod 方法
-description: 從 Windows 市集中執行應用程式和授權安裝的方法。 另請參閱 StoreInstall。
+description: 用來執行應用程式安裝和 Windows 存放區授權的方法。 另請參閱 StoreInstall。
 ms.assetid: 4f8aff47-ad16-4fe5-85be-7ddb55ddff24
 keywords:
 - StoreInstallMethod 方法
@@ -16,18 +16,18 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4c4ae34e8502b7d408a7fb4d96fb9c2c4fadb509
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6a8e60134da45982773c0219ade8e0e0f12f37ec9e6d16cd97f4595ae8b507a8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934773"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120084938"
 ---
 # <a name="storeinstallmethod-method-of-the-mdm_enterprisemodernappmanagement_appinstallation01_01-class"></a>MDM \_ EnterpriseModernAppManagement \_ AppInstallation01 \_ 01 類別的 StoreInstallMethod 方法
 
 \[某些資訊與預先發行的產品有關，在正式發行之前可能會經過大幅修改。 Microsoft 對此處提供的資訊，不做任何明確或隱含的瑕疵擔保。\]
 
-從 Windows 市集中執行應用程式和授權安裝的方法。 另請參閱 [StoreInstall](/windows/client-management/mdm/enterprisemodernappmanagement-csp)。
+用來執行應用程式安裝和 Windows 存放區授權的方法。 另請參閱 [StoreInstall](/windows/client-management/mdm/enterprisemodernappmanagement-csp)。
 
 ## <a name="syntax"></a>語法
 
@@ -53,7 +53,7 @@ uint32 StoreInstallMethod(
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 10 桌面應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | Windows 10 \[僅限桌面應用程式\]<br/>                                                    |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                      |
 | 命名空間<br/>                | 根 \\ cimv2 \\ mdm \\ dmmap<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv mof</dt> </dl> |

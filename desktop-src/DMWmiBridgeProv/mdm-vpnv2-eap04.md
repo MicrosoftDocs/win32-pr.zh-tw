@@ -17,12 +17,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9270bf1cae37c345fe81be674e9d9afc2c533bc9
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e18ed2c8cbfe173ceeb5cedb3299793b6edd28f8d3fc318a33d83b10986e56fa
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103686323"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120109218"
 ---
 # <a name="mdm_vpnv2_eap04-class"></a>MDM \_ >vpnv2 \_ Eap04 類別
 
@@ -100,7 +100,7 @@ class MDM_VPNv2_Eap04
 
 </dd> <dt>
 
-[型別](/windows/client-management/mdm/vpnv2-csp#vpnv2-profilename-apptriggerlist-apptriggerrowid-app-type)
+[類型](/windows/client-management/mdm/vpnv2-csp#vpnv2-profilename-apptriggerlist-apptriggerrowid-app-type)
 </dt> <dd> <dl> <dt>
 
 資料類型： **sint32**
@@ -117,7 +117,7 @@ class MDM_VPNv2_Eap04
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 10 桌面應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | Windows 10 \[僅限桌面應用程式\]<br/>                                                    |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                      |
 | 命名空間<br/>                | 根 \\ cimv2 \\ mdm \\ dmmap<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv mof</dt> </dl> |

@@ -4,12 +4,12 @@ description: 本主題將示範如何從簡單列表框初始化和取出專案�
 ms.assetid: 4A717010-A1D3-4FFB-8E4E-D5C4F9D8D952
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1ca2230b265d61e9a59a8892e14127d25bf2cfd2
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: 83a037bfbdb5232cd30d3e13fbc251c22c18c71a76398a351939602301a745d2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "104024337"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120063170"
 ---
 # <a name="how-to-create-a-simple-list-box"></a>如何建立簡單的清單方塊
 
@@ -23,12 +23,12 @@ ms.locfileid: "104024337"
 
 ### <a name="technologies"></a>技術
 
--   [Windows 控制項](window-controls.md)
+-   [Windows控制](window-controls.md)
 
 ### <a name="prerequisites"></a>必要條件
 
 -   C/C++
--   Windows 消費者介面程式設計
+-   Windows消費者介面程式設計
 
 ## <a name="instructions"></a>指示
 

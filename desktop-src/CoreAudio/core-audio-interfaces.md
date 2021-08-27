@@ -4,12 +4,12 @@ ms.assetid: b18e2094-e974-4c23-b70b-ace5a168132d
 title: 核心音訊介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0eed875bad93bed1625a175bd74b849f139a0140
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 330bb620b48b865db3db2ab5ea5625b7859588bd8e53e1addbcd8fd8ec9bda6a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110017"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120109468"
 ---
 # <a name="core-audio-interfaces"></a>核心音訊介面
 
@@ -17,7 +17,7 @@ ms.locfileid: "104110017"
 
 ## <a name="mmdevice-api"></a>MMDevice API
 
-Windows 多媒體裝置 (MMDevice) API 可讓音訊用戶端探索 [音訊端點裝置](audio-endpoint-devices.md)、判斷其功能，以及為這些裝置建立驅動程式實例。標頭檔 Mmdeviceapi 會定義 MMDevice API 中的介面。 如需詳細資訊，請參閱 [關於 MMDEVICE API](mmdevice-api.md)。
+Windows 多媒體裝置 (MMDevice) API 可讓音訊用戶端探索[音訊端點裝置](audio-endpoint-devices.md)、判斷其功能，以及為這些裝置建立驅動程式實例。標頭檔 Mmdeviceapi 會定義 MMDevice API 中的介面。 如需詳細資訊，請參閱 [關於 MMDEVICE API](mmdevice-api.md)。
 
 下表列出適用于 Windows Vista 的 Core Audio SDK 所提供的 MMDevice 介面。
 
@@ -37,7 +37,7 @@ Windows 多媒體裝置 (MMDevice) API 可讓音訊用戶端探索 [音訊端點
 
 ## <a name="wasapi"></a>WASAPI
 
-Windows 音訊會話 API (WASAPI) 可讓用戶端應用程式管理應用程式和 [音訊端點裝置](audio-endpoint-devices.md)之間的音訊資料流程程。 標頭檔 Audioclient .h 和 Audiopolicy 定義 WASAPI 介面。 如需詳細資訊，請參閱 [關於 WASAPI](wasapi.md)。
+Windows 音訊會話 API (WASAPI) 可讓用戶端應用程式管理應用程式和[音訊端點裝置](audio-endpoint-devices.md)之間的音訊資料流程程。 標頭檔 Audioclient .h 和 Audiopolicy 定義 WASAPI 介面。 如需詳細資訊，請參閱 [關於 WASAPI](wasapi.md)。
 
 下表列出適用于 Windows Vista 和更新版本的 Core Audio SDK 所提供的 WASAPI 介面。
 

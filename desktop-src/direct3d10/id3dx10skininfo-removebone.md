@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 49fd24c5661bbedb7fb839171fa4a835f07e446a
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 8f26a19c0903056c6de62ae72852b19557b0926fe5b2616adfa8d77bd945cba4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106997619"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120119938"
 ---
 # <a name="id3dx10skininforemovebone-method"></a>ID3DX10SkinInfo：： RemoveBone 方法
 
