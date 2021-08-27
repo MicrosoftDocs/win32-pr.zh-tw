@@ -4,12 +4,12 @@ ms.assetid: 6a4b5c82-f74c-4cc8-b824-690f165453bd
 title: 資料加密和解密
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cfa6f9633cabf4a41aec59d9224c2579acb7a983
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ba508eeb67570d1f293ae55e1b6bff5217529663a6682a17d9817a9dc0834803
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112676"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120100908"
 ---
 # <a name="data-encryption-and-decryption"></a>資料加密和解密
 
