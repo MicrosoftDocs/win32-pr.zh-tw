@@ -15,17 +15,17 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: a696d1c52a42cad2b3b67b047984b48d77637a1a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e21353fb780ed7346c1ff82cbc5057469da25a4b
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319775"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122987481"
 ---
 # <a name="jet_indexlist-structure"></a>JET_INDEXLIST 結構
 
 
-_**適用于：** Windows |Windows Server_
+_**適用于：** Windows |Windows伺服器_
 
 ## <a name="jet_indexlist-structure"></a>JET_INDEXLIST 結構
 
@@ -109,35 +109,13 @@ _**適用于：** Windows |Windows Server_
 
 此資料行是 [JET_coltypLong](./jet-coltyp.md)。
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>值</p></th>
-<th><p>意義</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>cIndexInfoCols<br />
-15</p></td>
-<td><p>指定允許15個數據行。</p></td>
-</tr>
-<tr class="even">
-<td><p>cColumnInfoCols<br />
-14</p></td>
-<td><p>指定允許14個數據行。</p></td>
-</tr>
-<tr class="odd">
-<td><p>cObjectInfoCols<br />
-9</p></td>
-<td><p>指定允許9個數據行。</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>值</p> | <p>意義</p> | 
+|--------------|----------------|
+| <p>cIndexInfoCols<br />15</p> | <p>指定允許15個數據行。</p> | 
+| <p>cColumnInfoCols<br />14</p> | <p>指定允許14個數據行。</p> | 
+| <p>cObjectInfoCols<br />9</p> | <p>指定允許9個數據行。</p> | 
+
 
 
 **columnidcolumnid**
@@ -180,28 +158,12 @@ _**適用于：** Windows |Windows Server_
 
 下列選項對此成員有效。
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>值</p></th>
-<th><p>意義</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_bitKeyAscending</p></td>
-<td><p>以遞增順序的索引區段。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitKeyDescending</p></td>
-<td><p>以遞減順序排序的索引區段。</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>值</p> | <p>意義</p> | 
+|--------------|----------------|
+| <p>JET_bitKeyAscending</p> | <p>以遞增順序的索引區段。</p> | 
+| <p>JET_bitKeyDescending</p> | <p>以遞減順序排序的索引區段。</p> | 
+
 
 
 **columnidcolumnname**
@@ -224,60 +186,25 @@ _**適用于：** Windows |Windows Server_
 
 特定索引中的索引鍵數目，會對應至呼叫端可以搜尋並取得完全相符的唯一值數目。 專案數目是索引符合的資料列數目。 如果索引具有唯一性條件約束，則索引鍵的數目等於專案的數目。 例如，如果資料表包含下列資訊，並且在名為 "key" 的資料行上建立索引，則會有三個索引鍵 (100、200和 500) ，但有四個專案 ( "this"、"是"、"a" 和 "example" ) 。
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>答案</p></th>
-<th><p>進入</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>100</p></td>
-<td><p>&quot;this&quot;</p></td>
-</tr>
-<tr class="even">
-<td><p>100</p></td>
-<td><p>&quot;is&quot;</p></td>
-</tr>
-<tr class="odd">
-<td><p>200</p></td>
-<td><p>&quot;以&quot;</p></td>
-</tr>
-<tr class="even">
-<td><p>500</p></td>
-<td><p>&quot;example&quot;</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>答案</p> | <p>進入</p> | 
+|------------|--------------|
+| <p>100</p> | <p>該值</p> | 
+| <p>100</p> | <p>後</p> | 
+| <p>200</p> | <p>以</p> | 
+| <p>500</p> | <p>範例</p> | 
+
 
 
 ### <a name="requirements"></a>規格需求
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>用戶端</strong></p></td>
-<td><p>需要 Windows Vista、Windows XP 或 Windows 2000 Professional。</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>伺服器</strong></p></td>
-<td><p>需要 Windows Server 2008、Windows Server 2003 或 Windows 2000 Server。</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>標頭</strong></p></td>
-<td><p>宣告于 Esent. h 中。</p></td>
-</tr>
-</tbody>
-</table>
+
+| 需求 | 值 |
+|------------|----------|
+| <p><strong>用戶端</strong></p> | <p>需要 Windows Vista、Windows XP 或 Windows 2000 Professional。</p> | 
+| <p><strong>伺服器</strong></p> | <p>需要 Windows server 2008、Windows Server 2003 或 Windows 2000 Server。</p> | 
+| <p><strong>標頭</strong></p> | <p>宣告于 Esent. h 中。</p> | 
+
 
 
 ### <a name="see-also"></a>另請參閱

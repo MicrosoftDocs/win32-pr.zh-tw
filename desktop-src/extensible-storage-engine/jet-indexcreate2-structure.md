@@ -17,12 +17,12 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: fe474bad552ca816ec9f0f5419cac21923b1f10f9d711812ee5aab749a027aba
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: d792bba4641f4fdadd873bac194ff409e15ffef1
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120016918"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122983981"
 ---
 # <a name="jet_indexcreate2-structure"></a>JET_INDEXCREATE2 結構
 
@@ -99,94 +99,26 @@ typedef struct tagJET_INDEXCREATE2 {
 
 包含零或多個值選項的位群組，這些選項列于下表中。
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>值</p></th>
-<th><p>意義</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_bitIndexUnique</p></td>
-<td><p>不允許有重複的索引項目 (索引鍵) 。 呼叫 <a href="gg269288(v=exchg.10).md">JetUpdate</a> 時，不會強制執行這項功能，而不是在呼叫 <a href="gg294137(v=exchg.10).md">JetSetColumn</a> 時強制執行。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitIndexPrimary</p></td>
-<td><p>索引是主要 (叢集) 索引。 每個資料表都必須只有一個主要索引。 如果未在資料表上明確定義主要索引，database engine 將會建立自己的主要索引。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitIndexDisallowNull</p></td>
-<td><p>建立索引的資料行都不能包含 <strong>Null</strong> 值。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitIndexIgnoreNull</p></td>
-<td><p>如果要編制索引的所有資料行都是 <strong>Null</strong>，請勿加入資料列的索引項目。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitIndexIgnoreAnyNull</p></td>
-<td><p>如果要編制索引的任何資料行都是 <strong>Null</strong>，請勿加入資料列的索引項目。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitIndexIgnoreFirstNull</p></td>
-<td><p>如果要編制索引的第一個資料行是 <strong>Null</strong>，請勿加入資料列的索引項目。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitIndexLazyFlush</p></td>
-<td><p>指定將延遲記錄索引作業。</p>
-<p>JET_bitIndexLazyFlush 不會影響資料更新的酷。 如果處理常式終止時，索引作業中斷，軟復原仍能讓資料庫處於一致的狀態，但索引可能不存在。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitIndexEmpty</p></td>
-<td><p>請勿嘗試建立索引，因為所有專案都會評估為 <strong>Null</strong>。 <strong>grbit</strong> 傳遞 JET_bitIndexEmpty 時，也必須指定 JET_bitIgnoreAnyNull。 這是一項效能增強功能。 例如，如果新的資料行加入至資料表，然後在這個新加入的資料行上建立索引，則會掃描資料表中的所有記錄，即使這些記錄未加入至索引也一樣。 指定 JET_bitIndexEmpty 會略過資料表掃描，這可能會花費很長的時間。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitIndexUnversioned</p></td>
-<td><p>JET_bitIndexUnversioned 會導致其他交易看到索引建立。 一般來說，交易中的會話將無法在另一個會話中看到索引建立作業。 如果另一個交易可能建立相同的索引，則此旗標很有用。 第二個索引建立將會失敗，而不是可能導致許多不必要的資料庫作業。 第二筆交易可能無法立即使用索引。 索引建立作業必須先完成，才可供使用。 會話目前不能在交易中建立索引，而不需要版本資訊。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitIndexSortNullsHigh</p></td>
-<td><p>指定此旗標會在索引中的所有資料行資料之後，將 <strong>Null</strong> 值排序。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitIndexUnicode</p></td>
-<td><p>指定此旗標會影響結構中 lcid/pidxunicde 聯集欄位的解釋。 設定位表示 pidxunicode 欄位實際上會指向 <a href="gg294097(v=exchg.10).md">JET_UNICODEINDEX</a> 結構。 不需要 JET_bitIndexUnicode 來編制 Unicode 資料的索引。 只需要自訂 Unicode 資料的正規化。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitIndexTuples</p></td>
-<td><p>指定索引為元組索引。 如需元組索引的描述，請參閱 <a href="gg269207(v=exchg.10).md">JET_TUPLELIMITS</a> 。</p>
-<p>Windows XP 作業系統引進了 JET_bitIndexTuples 的值。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitIndexTupleLimits</p></td>
-<td><p>指定此旗標會影響結構中 <strong>cbVarSegMac/ptuplelimits</strong> 聯集欄位的解釋。 設定此位表示 <strong>ptuplelimits</strong> 欄位實際上會指向 <a href="gg269207(v=exchg.10).md">JET_TUPLELIMITS</a> 結構，以允許自訂元組索引限制 (暗示 JET_bitIndexTuples) 。</p>
-<p><strong>JET_bitIndexTupleLimits</strong>值是在 Windows Server 2003 作業系統中引進。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitIndexCrossProduct<br />
-0x00004000</p></td>
-<td><p>針對具有多值資料行之多個索引鍵資料行的索引指定此旗標，會導致針對這些索引鍵資料行中的所有值交叉乘積的每個結果建立索引項目。 否則，索引在最重要的索引鍵資料行中，每個多重值都只會有一個專案，這是多值資料行，而每個索引項目會使用任何其他索引鍵資料行中的第一個多重值資料行值。</p>
-<p>例如，如果您在資料行 A 上為索引指定了這個旗標，其值為 &quot; 紅色 &quot; 和 &quot; 藍色， &quot; 而資料行 B 的值為 &quot; 1 &quot; 和 &quot; 2 &quot; ，則會建立下列索引項目： &quot; 紅色 &quot; 、 &quot; 1 &quot; ; &quot;紅色 &quot; 、 &quot; 2 &quot; ; &quot;藍色 &quot; 、 &quot; 1 &quot; ; &quot;藍色 &quot; 、 &quot; 2 &quot; 。 否則，將會建立下列索引項目： &quot; 紅色 &quot; 、 &quot; 1 &quot; ; &quot;藍色 &quot; 、 &quot; 1 &quot; 。</p>
-<p>Windows Vista 引進了<strong>JET_bitIndexCrossProduct</strong>的值。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitIndexKeyMost<br />
-0x00008000</p></td>
-<td><p>指定此旗標將會導致索引使用結構中 <strong>cbKeyMost</strong> 欄位指定的最大索引鍵大小。 否則，索引會使用 JET_cbKeyMost (255) 做為其最大索引鍵大小。</p>
-<p>Windows Vista 引進了<strong>JET_bitIndexKeyMost</strong>的值。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitIndexDisallowTruncation<br />
-0x00010000</p></td>
-<td><p>指定此旗標會導致索引的任何更新會導致截斷的金鑰失敗，並產生 JET_errKeyTruncated 的回應碼。 否則，將會以無訊息方式截斷金鑰。 如需有關金鑰截斷的詳細資訊，請參閱 <a href="gg269329(v=exchg.10).md">JetMakeKey</a>。</p>
-<p>Windows Vista 引進了<strong>JET_bitIndexDisallowTruncation</strong>的值。</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>值</p> | <p>意義</p> | 
+|--------------|----------------|
+| <p>JET_bitIndexUnique</p> | <p>不允許有重複的索引項目 (索引鍵) 。 呼叫 <a href="gg269288(v=exchg.10).md">JetUpdate</a> 時，不會強制執行這項功能，而不是在呼叫 <a href="gg294137(v=exchg.10).md">JetSetColumn</a> 時強制執行。</p> | 
+| <p>JET_bitIndexPrimary</p> | <p>索引是主要 (叢集) 索引。 每個資料表都必須只有一個主要索引。 如果未在資料表上明確定義主要索引，database engine 將會建立自己的主要索引。</p> | 
+| <p>JET_bitIndexDisallowNull</p> | <p>建立索引的資料行都不能包含 <strong>Null</strong> 值。</p> | 
+| <p>JET_bitIndexIgnoreNull</p> | <p>如果要編制索引的所有資料行都是 <strong>Null</strong>，請勿加入資料列的索引項目。</p> | 
+| <p>JET_bitIndexIgnoreAnyNull</p> | <p>如果要編制索引的任何資料行都是 <strong>Null</strong>，請勿加入資料列的索引項目。</p> | 
+| <p>JET_bitIndexIgnoreFirstNull</p> | <p>如果要編制索引的第一個資料行是 <strong>Null</strong>，請勿加入資料列的索引項目。</p> | 
+| <p>JET_bitIndexLazyFlush</p> | <p>指定將延遲記錄索引作業。</p><p>JET_bitIndexLazyFlush 不會影響資料更新的酷。 如果處理常式終止時，索引作業中斷，軟復原仍能讓資料庫處於一致的狀態，但索引可能不存在。</p> | 
+| <p>JET_bitIndexEmpty</p> | <p>請勿嘗試建立索引，因為所有專案都會評估為 <strong>Null</strong>。 <strong>grbit</strong> 傳遞 JET_bitIndexEmpty 時，也必須指定 JET_bitIgnoreAnyNull。 這是一項效能增強功能。 例如，如果新的資料行加入至資料表，然後在這個新加入的資料行上建立索引，則會掃描資料表中的所有記錄，即使這些記錄未加入至索引也一樣。 指定 JET_bitIndexEmpty 會略過資料表掃描，這可能會花費很長的時間。</p> | 
+| <p>JET_bitIndexUnversioned</p> | <p>JET_bitIndexUnversioned 會導致其他交易看到索引建立。 一般來說，交易中的會話將無法在另一個會話中看到索引建立作業。 如果另一個交易可能建立相同的索引，則此旗標很有用。 第二個索引建立將會失敗，而不是可能導致許多不必要的資料庫作業。 第二筆交易可能無法立即使用索引。 索引建立作業必須先完成，才可供使用。 會話目前不能在交易中建立索引，而不需要版本資訊。</p> | 
+| <p>JET_bitIndexSortNullsHigh</p> | <p>指定此旗標會在索引中的所有資料行資料之後，將 <strong>Null</strong> 值排序。</p> | 
+| <p>JET_bitIndexUnicode</p> | <p>指定此旗標會影響結構中 lcid/pidxunicde 聯集欄位的解釋。 設定位表示 pidxunicode 欄位實際上會指向 <a href="gg294097(v=exchg.10).md">JET_UNICODEINDEX</a> 結構。 不需要 JET_bitIndexUnicode 來編制 Unicode 資料的索引。 只需要自訂 Unicode 資料的正規化。</p> | 
+| <p>JET_bitIndexTuples</p> | <p>指定索引為元組索引。 如需元組索引的描述，請參閱 <a href="gg269207(v=exchg.10).md">JET_TUPLELIMITS</a> 。</p><p>Windows XP 作業系統引進了 JET_bitIndexTuples 的值。</p> | 
+| <p>JET_bitIndexTupleLimits</p> | <p>指定此旗標會影響結構中 <strong>cbVarSegMac/ptuplelimits</strong> 聯集欄位的解釋。 設定此位表示 <strong>ptuplelimits</strong> 欄位實際上會指向 <a href="gg269207(v=exchg.10).md">JET_TUPLELIMITS</a> 結構，以允許自訂元組索引限制 (暗示 JET_bitIndexTuples) 。</p><p><strong>JET_bitIndexTupleLimits</strong>值是在 Windows Server 2003 作業系統中引進。</p> | 
+| <p>JET_bitIndexCrossProduct<br />0x00004000</p> | <p>針對具有多值資料行之多個索引鍵資料行的索引指定此旗標，會導致針對這些索引鍵資料行中的所有值交叉乘積的每個結果建立索引項目。 否則，索引在最重要的索引鍵資料行中，每個多重值都只會有一個專案，這是多值資料行，而每個索引項目會使用任何其他索引鍵資料行中的第一個多重值資料行值。</p><p>例如，如果您在資料行 A 上針對具有值 "1" 和 "2" 的資料行 A 指定此旗標，則會建立下列索引項目： "red"、"1"、"red"、"2"、"blue"、"1"、"blue"、"2"。 否則，將會建立下列索引項目： "red"、"1"、"blue"、"1"。</p><p>Windows Vista 引進了<strong>JET_bitIndexCrossProduct</strong>的值。</p> | 
+| <p>JET_bitIndexKeyMost<br />0x00008000</p> | <p>指定此旗標將會導致索引使用結構中 <strong>cbKeyMost</strong> 欄位指定的最大索引鍵大小。 否則，索引會使用 JET_cbKeyMost (255) 做為其最大索引鍵大小。</p><p>Windows Vista 引進了<strong>JET_bitIndexKeyMost</strong>的值。</p> | 
+| <p>JET_bitIndexDisallowTruncation<br />0x00010000</p> | <p>指定此旗標會導致索引的任何更新會導致截斷的金鑰失敗，並產生 JET_errKeyTruncated 的回應碼。 否則，將會以無訊息方式截斷金鑰。 如需有關金鑰截斷的詳細資訊，請參閱 <a href="gg269329(v=exchg.10).md">JetMakeKey</a>。</p><p>Windows Vista 引進了<strong>JET_bitIndexDisallowTruncation</strong>的值。</p> | 
+
 
 
 **ulDensity**
@@ -259,43 +191,12 @@ ESE 支援在包含多個值的索引鍵資料行上編制索引。 若要使用
 
 假設資料表中有下列資料列 (資料行 Alpha 不是多重值，而資料行 Beta、Gamma 和 Delta 是多重值) ，而且索引建立為 "+ Alpha \\ 0 + Beta \\ 0 + Gamma \\ 0 + Delta \\ 0 \\ 0"：
 
-<table>
-<colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Alpha</p></th>
-<th><p>Beta</p></th>
-<th><p>色差補正</p></th>
-<th><p>差異</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>1</p></td>
-<td><p>ABC<br />
-GHI<br />
-JKL</p></td>
-<td><p>MNO<br />
-PQR<br />
-斯圖</p></td>
-<td><p>VWX<br />
-YZ</p></td>
-</tr>
-<tr class="even">
-<td><p>2</p></td>
-<td><p>，</p></td>
-<td><p>雨<br />
-西班牙</p></td>
-<td><p>IN<br />
-瀑布</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Alpha</p> | <p>Beta</p> | <p>色差補正</p> | <p>差異</p> | 
+|--------------|-------------|--------------|--------------|
+| <p>1</p> | <p>ABC<br />GHI<br />JKL</p> | <p>MNO<br />PQR<br />斯圖</p> | <p>VWX<br />YZ</p> | 
+| <p>2</p> | <p>，</p> | <p>雨<br />西班牙</p> | <p>IN<br />瀑布</p> | 
+
 
 
 將會儲存下列索引元組：
@@ -311,30 +212,14 @@ YZ</p></td>
 
 ### <a name="requirements"></a>規格需求
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>用戶端</strong></p></td>
-<td><p>需要 Windows Vista、Windows XP 或 Windows 2000 Professional。</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>伺服器</strong></p></td>
-<td><p>需要 Windows server 2008、Windows Server 2003 或 Windows 2000 Server。</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>標頭</strong></p></td>
-<td><p>宣告于 Esent. h 中。</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Unicode</strong></p></td>
-<td><p>實作為 <strong>JET_ INDEXCREATE2_W</strong> (Unicode) 和 <strong>JET_</strong> INDEXCREATE2_A (ANSI) 。</p></td>
-</tr>
-</tbody>
-</table>
+
+| 需求 | 值 |
+|------------|----------|
+| <p><strong>用戶端</strong></p> | <p>需要 Windows Vista、Windows XP 或 Windows 2000 Professional。</p> | 
+| <p><strong>伺服器</strong></p> | <p>需要 Windows server 2008、Windows Server 2003 或 Windows 2000 Server。</p> | 
+| <p><strong>標頭</strong></p> | <p>宣告于 Esent. h 中。</p> | 
+| <p><strong>Unicode</strong></p> | <p>實作為 <strong>JET_ INDEXCREATE2_W</strong> (Unicode) 和 <strong>JET_</strong> INDEXCREATE2_A (ANSI) 。</p> | 
+
 
 
 ### <a name="see-also"></a>另請參閱

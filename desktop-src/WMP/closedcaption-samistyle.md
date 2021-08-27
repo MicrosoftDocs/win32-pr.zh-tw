@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ed4a12671877cf0d4d8abdb77d169b0f13000bc564e6c1dc37e65bf6eccdf005
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6bd45977e3d433239e74aee21def913b640fad12
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118580763"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122882175"
 ---
 # <a name="closedcaptionsamistyle"></a>ClosedCaption.SAMIStyle
 
@@ -35,7 +35,7 @@ player.closedCaption.SAMIStyle
 
 ## <a name="remarks"></a>備註
 
-薩米文檔案可以包含數個格式樣式定義。 薩米文的樣式定義于薩米文檔案的 <STYLE> 和 </STYLE> 標記之間。 樣式的定義是以文字字串前面加上 \# 字元。 例如：
+薩米文檔案可以包含數個格式樣式定義。 薩米文的樣式定義在 &lt; 薩米文的樣式 &gt; 和標記之間 </STYLE> 。 樣式的定義是以文字字串前面加上 \# 字元。 例如：
 
 
 ```

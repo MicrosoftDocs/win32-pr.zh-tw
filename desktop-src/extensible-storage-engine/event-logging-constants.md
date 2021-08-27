@@ -15,70 +15,39 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: e7ada5c71b603bf530c62d9f3af238131e305e42
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fa04ffe87ca25be127919c705ea5c7d6c3411485
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106986988"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122987038"
 ---
 # <a name="event-logging-constants"></a>事件記錄常數
 
 
-_**適用于：** Windows |Windows Server_
+_**適用于：** Windows |Windows伺服器_
 
 ## <a name="event-logging-constants"></a>事件記錄常數
 
 下列常數指出 [JET_ParamEventLoggingLevel](./event-log-parameters.md) 系統參數之事件記錄檔訊息的詳細層級。
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>常數/值</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_EventLoggingDisable<br />
-0</p></td>
-<td><p>停用事件記錄。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_EventLoggingLevelMax<br />
-100</p></td>
-<td><p>設定要用於事件記錄檔的最大層級（目前為100個字元）。</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>常數/值</p> | <p>Description</p> | 
+|-----------------------|--------------------|
+| <p>JET_EventLoggingDisable<br />0</p> | <p>停用事件記錄。</p> | 
+| <p>JET_EventLoggingLevelMax<br />100</p> | <p>設定要用於事件記錄檔的最大層級（目前為100個字元）。</p> | 
+
 
 
 ### <a name="requirements"></a>規格需求
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>用戶端</strong></p></td>
-<td><p>需要 Windows Vista、Windows XP 或 Windows 2000 Professional。</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>伺服器</strong></p></td>
-<td><p>需要 Windows Server 2008、Windows Server 2003 或 Windows 2000 Server。</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>標頭</strong></p></td>
-<td><p>宣告于 Esent. h 中。</p></td>
-</tr>
-</tbody>
-</table>
+
+| 需求 | 值 |
+|------------|----------|
+| <p><strong>用戶端</strong></p> | <p>需要 Windows Vista、Windows XP 或 Windows 2000 Professional。</p> | 
+| <p><strong>伺服器</strong></p> | <p>需要 Windows server 2008、Windows Server 2003 或 Windows 2000 Server。</p> | 
+| <p><strong>標頭</strong></p> | <p>宣告于 Esent. h 中。</p> | 
+
 
 
 ### <a name="see-also"></a>另請參閱

@@ -18,23 +18,23 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 2335f6d6426b321d5db55b4ed005c6220484d509
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a67a26a396f2910dd22fea351cc3d9b8a32a1c49
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975813"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122983361"
 ---
 # <a name="jetopentemporarytable-function"></a>JetOpenTemporaryTable 函式
 
 
-_**適用于：** Windows |Windows Server_
+_**適用于：** Windows |Windows伺服器_
 
 ## <a name="jetopentemporarytable-function"></a>JetOpenTemporaryTable 函式
 
 **JetOpenTemporaryTable** 函式會建立一個具有單一索引的 volatile 資料表，可用來儲存和取出記錄，就像透過 [JetCreateTableColumnIndex](./jetcreatetablecolumnindex-function.md)建立的一般資料表一樣。
 
-**Windows vista：**  **JetOpenTemporaryTable** 是在 windows vista 中引進的。
+**Windows vista：****JetOpenTemporaryTable** 是 Windows vista 引進。  
 
 臨時表比一般資料表快很多，因為它們是暫時性的本質。 當記錄集以純粹順序的方式存取時，它們可以快速排序並執行重複的移除。
 
@@ -57,125 +57,33 @@ _**適用于：** Windows |Windows Server_
 
 ### <a name="return-value"></a>傳回值
 
-此函數會傳回具有下列其中一個傳回碼的 [JET_ERR](./jet-err.md) 資料類型。 如需可能 ESE 錯誤的詳細資訊，請參閱可延伸 [儲存引擎錯誤](./extensible-storage-engine-errors.md) 和 [錯誤處理參數](./error-handling-parameters.md)。
+此函數會傳回具有下列其中一個傳回碼的 [JET_ERR](./jet-err.md) 資料類型。 如需可能 ESE 錯誤的詳細資訊，請參閱可延伸的[儲存體引擎錯誤](./extensible-storage-engine-errors.md)和[錯誤處理參數](./error-handling-parameters.md)。
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>傳回碼</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errSuccess</p></td>
-<td><p>作業已成功完成。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errOutOfMemory</p></td>
-<td><p>作業失敗，因為無法配置足夠的記憶體來完成。</p>
-<p>如果主機進程的位址空間變得太分散， <strong>JetOpenTemporaryTable</strong>可能會傳回 JET_errOutOfMemory。 無論儲存的資料量為何，臨時表管理員都會為每個建立的臨時表配置 1 MB 的位址空間區塊。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errInvalidParameter</p></td>
-<td><p>其中一個提供的參數包含未預期的值，或數個參數值的組合導致非預期的結果。</p>
-<p>在下列情況下， <strong>JetOpenTemporaryTable</strong> 會傳回此錯誤：</p>
-<ul>
-<li><p><a href="gg269206(v=exchg.10).md">JET_OPENTEMPORARYTABLE</a>結構的<strong>cbStruct</strong>成員未對應到該版本的 database engine 所支援的這個結構版本</p></li>
-<li><p><a href="gg269206(v=exchg.10).md">JET_OPENTEMPORARYTABLE</a>結構的<strong>cbKeyMost</strong>成員小於 JET_cbKeyMostMin。</p></li>
-<li><p><a href="gg269206(v=exchg.10).md">JET_OPENTEMPORARYTABLE</a>結構的<strong>cbKeyMost</strong>成員大於實例 (JET_paramDatabasePageSize) 之資料庫頁面大小的最大支援值。 如需詳細資訊，請參閱 <a href="gg269241(v=exchg.10).md">資訊參數</a> 清單中的 JET_paramKeyMost 參數。</p></li>
-<li><p><a href="gg269206(v=exchg.10).md">JET_OPENTEMPORARYTABLE</a>結構的 cbVarSegMac 成員大於<strong>cbKeyMost</strong>成員。</p></li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><p>JET_errNotInitialized</p></td>
-<td><p>無法完成作業，因為與會話相關聯的實例尚未初始化。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errClientRequestToStopJetService</p></td>
-<td><p>無法完成作業，因為與該會話相關聯之實例上的所有活動都已停止，因此呼叫 <a href="gg269240(v=exchg.10).md">JetStopService</a>。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errInstanceUnavailable</p></td>
-<td><p>作業無法完成，因為與會話相關聯的實例發生嚴重錯誤，需要撤銷所有資料的存取權，以保護該資料的完整性。</p>
-<p><strong>WINDOWS XP：</strong>  只有 Windows XP 和更新版本才會傳回此錯誤。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errTermInProgress</p></td>
-<td><p>無法完成作業，因為與會話相關聯的實例正在關閉中。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errRestoreInProgress</p></td>
-<td><p>作業無法完成，因為與會話相關聯的實例正在進行還原作業。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errSessionSharingViolation</p></td>
-<td><p>相同的會話無法同時用於一個以上的執行緒。</p>
-<p><strong>WINDOWS XP：</strong>  只有 Windows XP 和更新版本才會傳回此錯誤。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errInvalidSesid</p></td>
-<td><p>會話控制碼無效或參考已關閉的會話。</p>
-<p><strong>注意</strong>  在所有情況下，都不會傳回此錯誤。 控制碼只會根據最大努力進行驗證。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errOutOfCursors</p></td>
-<td><p>作業失敗，因為引擎無法配置開啟新資料指標所需的資源。 資料指標資源是使用 <a href="gg294044(v=exchg.10).md">JetSetSystemParameter</a> 搭配 <a href="gg269201(v=exchg.10).md">JET_paramMaxCursors</a>進行設定。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errTooManySorts</p></td>
-<td><p>作業失敗，因為引擎無法配置建立臨時表所需的資源。 臨時表資源是使用 <a href="gg294044(v=exchg.10).md">JetSetSystemParameter</a> 搭配 <a href="gg294140(v=exchg.10).md">JET_paramMaxTemporaryTables</a>進行設定。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errCannotMaterializeForwardOnlySort</p></td>
-<td><p><strong>JetOpenTemporaryTable</strong> 失敗，因為指定了 JET_bitTTForwardOnly，而且無法使用順向優化來建立指定的臨時表。</p>
-<p><strong>Windows Server 2003：</strong>  只有 Windows Server 2003 和更新版本才會傳回此錯誤。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errTooManyColumns</p></td>
-<td><p>嘗試將過多的資料行新增至資料表。 資料表不能超過 JET_ccolFixedMost 固定資料行，不能超過 JET_ccolVarMost 的可變長度資料行，且不能超過 JET_ccolTaggedMost 標記的資料行。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errTooManyOpenTables</p></td>
-<td><p>作業失敗，因為引擎無法配置快取資料表架構所需的資源。 若要設定具有可快取之架構的資料表數目，請使用 <a href="gg294044(v=exchg.10).md">JetSetSystemParameter</a> 搭配 <a href="gg269201(v=exchg.10).md">JET_paramMaxOpenTables</a>。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errInvalidCodePage</p></td>
-<td><p><a href="gg294130(v=exchg.10).md">JET_COLUMNDEF</a>結構的<strong>cp</strong>成員未設定為有效的字碼頁。 Text 資料行的唯一有效值是英文 (1252) 和 Unicode (1200) 。 0值表示預設值將使用 (英文、1252) 。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errInvalidColumnType</p></td>
-<td><p><a href="gg294130(v=exchg.10).md">JET_COLUMNDEF</a>的<strong>coltyp</strong>成員未設定為有效的資料行類型。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errInvalidLanguageId</p></td>
-<td><p>無法建立索引，因為嘗試使用不正確地區設定識別碼。 地區設定識別碼可能完全無效，或可能未安裝相關聯的語言套件。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errInvalidLCMapStringFlags</p></td>
-<td><p>無法建立索引，因為嘗試使用一組不正確正規化旗標。</p>
-<p><strong>WINDOWS XP：</strong>  只有 Windows XP 和更新版本才會傳回此錯誤。</p>
-<p><strong>Windows 2000：</strong>  在 Windows 2000 上，不正確正規化旗標會導致 JET_errIndexInvalidDef。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errIndexInvalidDef</p></td>
-<td><p>無法建立索引，因為指定了不正確索引定義。 <strong>JetOpenTemporaryTable</strong> 會在下列情況下傳回此錯誤：</p>
-<ul>
-<li><p>指定了中性語言的地區設定。</p></li>
-<li><p>指定了不正確正規化旗標集合。</p></li>
-</ul>
-<p><strong>Windows 2000：</strong>  此錯誤只會由 Windows 2000 傳回。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errTooManyOpenIndexes</p></td>
-<td><p>作業失敗，因為引擎無法配置快取資料表索引所需的資源。 若要設定具有可快取之架構的索引數目，請使用 <a href="gg294044(v=exchg.10).md">JetSetSystemParameter</a> 搭配 <a href="gg269201(v=exchg.10).md">JET_paramMaxOpenTables</a>。</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>傳回碼</p> | <p>Description</p> | 
+|--------------------|--------------------|
+| <p>JET_errSuccess</p> | <p>作業已成功完成。</p> | 
+| <p>JET_errOutOfMemory</p> | <p>作業失敗，因為無法配置足夠的記憶體來完成。</p><p>如果主機進程的位址空間變得太分散， <strong>JetOpenTemporaryTable</strong>可能會傳回 JET_errOutOfMemory。 無論儲存的資料量為何，臨時表管理員都會為每個建立的臨時表配置 1 MB 的位址空間區塊。</p> | 
+| <p>JET_errInvalidParameter</p> | <p>其中一個提供的參數包含未預期的值，或數個參數值的組合導致非預期的結果。</p><p>在下列情況下， <strong>JetOpenTemporaryTable</strong> 會傳回此錯誤：</p><ul><li><p><a href="gg269206(v=exchg.10).md">JET_OPENTEMPORARYTABLE</a>結構的<strong>cbStruct</strong>成員未對應到該版本的 database engine 所支援的這個結構版本</p></li><li><p><a href="gg269206(v=exchg.10).md">JET_OPENTEMPORARYTABLE</a>結構的<strong>cbKeyMost</strong>成員小於 JET_cbKeyMostMin。</p></li><li><p><a href="gg269206(v=exchg.10).md">JET_OPENTEMPORARYTABLE</a>結構的<strong>cbKeyMost</strong>成員大於實例 (JET_paramDatabasePageSize) 之資料庫頁面大小的最大支援值。 如需詳細資訊，請參閱 <a href="gg269241(v=exchg.10).md">資訊參數</a> 清單中的 JET_paramKeyMost 參數。</p></li><li><p><a href="gg269206(v=exchg.10).md">JET_OPENTEMPORARYTABLE</a>結構的 cbVarSegMac 成員大於<strong>cbKeyMost</strong>成員。</p></li></ul> | 
+| <p>JET_errNotInitialized</p> | <p>無法完成作業，因為與會話相關聯的實例尚未初始化。</p> | 
+| <p>JET_errClientRequestToStopJetService</p> | <p>無法完成作業，因為與該會話相關聯之實例上的所有活動都已停止，因此呼叫 <a href="gg269240(v=exchg.10).md">JetStopService</a>。</p> | 
+| <p>JET_errInstanceUnavailable</p> | <p>作業無法完成，因為與會話相關聯的實例發生嚴重錯誤，需要撤銷所有資料的存取權，以保護該資料的完整性。</p><p><strong>Windows XP：</strong> 只有 Windows XP 和更新版本才會傳回此錯誤。</p> | 
+| <p>JET_errTermInProgress</p> | <p>無法完成作業，因為與會話相關聯的實例正在關閉中。</p> | 
+| <p>JET_errRestoreInProgress</p> | <p>作業無法完成，因為與會話相關聯的實例正在進行還原作業。</p> | 
+| <p>JET_errSessionSharingViolation</p> | <p>相同的會話無法同時用於一個以上的執行緒。</p><p><strong>Windows XP：</strong> 只有 Windows XP 和更新版本才會傳回此錯誤。</p> | 
+| <p>JET_errInvalidSesid</p> | <p>會話控制碼無效或參考已關閉的會話。</p><p><strong>注意</strong>  在所有情況下，都不會傳回此錯誤。 控制碼只會根據最大努力進行驗證。</p> | 
+| <p>JET_errOutOfCursors</p> | <p>作業失敗，因為引擎無法配置開啟新資料指標所需的資源。 資料指標資源是使用 <a href="gg294044(v=exchg.10).md">JetSetSystemParameter</a> 搭配 <a href="gg269201(v=exchg.10).md">JET_paramMaxCursors</a>進行設定。</p> | 
+| <p>JET_errTooManySorts</p> | <p>作業失敗，因為引擎無法配置建立臨時表所需的資源。 臨時表資源是使用 <a href="gg294044(v=exchg.10).md">JetSetSystemParameter</a> 搭配 <a href="gg294140(v=exchg.10).md">JET_paramMaxTemporaryTables</a>進行設定。</p> | 
+| <p>JET_errCannotMaterializeForwardOnlySort</p> | <p><strong>JetOpenTemporaryTable</strong> 失敗，因為指定了 JET_bitTTForwardOnly，而且無法使用順向優化來建立指定的臨時表。</p><p><strong>Windows Server 2003：</strong> 只有 Windows Server 2003 和更新版本才會傳回此錯誤。</p> | 
+| <p>JET_errTooManyColumns</p> | <p>嘗試將過多的資料行新增至資料表。 資料表不能超過 JET_ccolFixedMost 固定資料行，不能超過 JET_ccolVarMost 的可變長度資料行，且不能超過 JET_ccolTaggedMost 標記的資料行。</p> | 
+| <p>JET_errTooManyOpenTables</p> | <p>作業失敗，因為引擎無法配置快取資料表架構所需的資源。 若要設定具有可快取之架構的資料表數目，請使用 <a href="gg294044(v=exchg.10).md">JetSetSystemParameter</a> 搭配 <a href="gg269201(v=exchg.10).md">JET_paramMaxOpenTables</a>。</p> | 
+| <p>JET_errInvalidCodePage</p> | <p><a href="gg294130(v=exchg.10).md">JET_COLUMNDEF</a>結構的<strong>cp</strong>成員未設定為有效的字碼頁。 Text 資料行的唯一有效值是英文 (1252) 和 Unicode (1200) 。 0值表示預設值將使用 (英文、1252) 。</p> | 
+| <p>JET_errInvalidColumnType</p> | <p><a href="gg294130(v=exchg.10).md">JET_COLUMNDEF</a>的<strong>coltyp</strong>成員未設定為有效的資料行類型。</p> | 
+| <p>JET_errInvalidLanguageId</p> | <p>無法建立索引，因為嘗試使用不正確地區設定識別碼。 地區設定識別碼可能完全無效，或可能未安裝相關聯的語言套件。</p> | 
+| <p>JET_errInvalidLCMapStringFlags</p> | <p>無法建立索引，因為嘗試使用一組不正確正規化旗標。</p><p><strong>Windows XP：</strong> 只有 Windows XP 和更新版本才會傳回此錯誤。</p><p><strong>Windows 2000：</strong> 在 Windows 2000 上，不正確正規化旗標將會導致 JET_errIndexInvalidDef。</p> | 
+| <p>JET_errIndexInvalidDef</p> | <p>無法建立索引，因為指定了不正確索引定義。 <strong>JetOpenTemporaryTable</strong> 會在下列情況下傳回此錯誤：</p><ul><li><p>指定了中性語言的地區設定。</p></li><li><p>指定了不正確正規化旗標集合。</p></li></ul><p><strong>Windows 2000：</strong> 只有 Windows 2000 才會傳回此錯誤。</p> | 
+| <p>JET_errTooManyOpenIndexes</p> | <p>作業失敗，因為引擎無法配置快取資料表索引所需的資源。 若要設定具有可快取之架構的索引數目，請使用 <a href="gg294044(v=exchg.10).md">JetSetSystemParameter</a> 搭配 <a href="gg269201(v=exchg.10).md">JET_paramMaxOpenTables</a>。</p> | 
+
 
 
 成功時，會傳回在新建立的臨時表上開啟的資料指標。 暫存資料庫的狀態將準備好包含新的臨時表。 資料庫引擎所使用之任何一般資料庫的狀態將保持不變。
@@ -316,34 +224,15 @@ _**適用于：** Windows |Windows Server_
 
 #### <a name="requirements"></a>規格需求
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>用戶端</strong></p></td>
-<td><p>需要 Windows Vista。</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>伺服器</strong></p></td>
-<td><p>需要 Windows Server 2008。</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>標頭</strong></p></td>
-<td><p>宣告于 Esent. h 中。</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>程式庫</strong></p></td>
-<td><p>使用 ESENT。</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>DLL</strong></p></td>
-<td><p>需要 ESENT.dll。</p></td>
-</tr>
-</tbody>
-</table>
+
+| 需求 | 值 |
+|------------|----------|
+| <p><strong>用戶端</strong></p> | <p>需要 Windows Vista。</p> | 
+| <p><strong>伺服器</strong></p> | <p>需要 Windows Server 2008。</p> | 
+| <p><strong>標頭</strong></p> | <p>宣告于 Esent. h 中。</p> | 
+| <p><strong>程式庫</strong></p> | <p>使用 ESENT。</p> | 
+| <p><strong>DLL</strong></p> | <p>需要 ESENT.dll。</p> | 
+
 
 
 #### <a name="see-also"></a>另請參閱

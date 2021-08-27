@@ -4,12 +4,12 @@ ms.assetid: 53a9538d-7a79-40bb-9468-d710eb238925
 title: WAVE 剖析器篩選
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8bb30465a25ab3a6eef190b5fbecd4a4878c2744
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d91508500b02743f7cac8b4ed5cff718d12e3b03
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106986405"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122987851"
 ---
 # <a name="wave-parser-filter"></a>WAVE 剖析器篩選
 
@@ -17,59 +17,20 @@ WAVE 剖析器篩選器會剖析 wav、澳大利亞或. aif 檔案中的 WAV 格
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>篩選介面</td>
-<td><a href="/previous-versions/windows/desktop/api/Qnetwork/nn-qnetwork-iammediacontent"><strong>IAMMediaContent</strong></a>、 <a href="/windows/desktop/api/Strmif/nn-strmif-ibasefilter"><strong>IBaseFilter</strong></a>、 <a href="/windows/desktop/api/Strmif/nn-strmif-ipersistmediapropertybag"><strong>IPersistMediaPropertyBag</strong></a></td>
-</tr>
-<tr class="even">
-<td>輸入 Pin 媒體類型</td>
-<td>主要類型： MEDIATYPE_StreamThe 下列子類型有效：<br/>
-<ul>
-<li>MEDIASUBTYPE_AIFF</li>
-<li>MEDIASUBTYPE_AU</li>
-<li>MEDIASUBTYPE_WAVE</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>輸入 Pin 介面</td>
-<td><a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPin</strong></a>、 <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"> <strong>IQualityControl</strong></a></td>
-</tr>
-<tr class="even">
-<td>輸出 Pin 媒體類型</td>
-<td>主要類型： MEDIATYPE_AudioSubtype： MEDIASUBTYPE_PCM 或其他壓縮類型。  (查看 <a href="audio-subtypes.md"><strong>音訊子類型</strong></a>。 ) <br/> 格式類型： FORMAT_WaveFormatEx<br/></td>
-</tr>
-<tr class="odd">
-<td>輸出 Pin 介面</td>
-<td><a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPin</strong></a>、 <a href="/windows/desktop/api/Strmif/nn-strmif-imediaseeking"> <strong>IMediaSeeking</strong></a></td>
-</tr>
-<tr class="even">
-<td>篩選 CLSID</td>
-<td>{D51BD5A1-7548-11cf-A520-0080C77EF58A}</td>
-</tr>
-<tr class="odd">
-<td>屬性頁 CLSID</td>
-<td>沒有屬性頁。</td>
-</tr>
-<tr class="even">
-<td>可執行檔</td>
-<td>quartz.dll</td>
-</tr>
-<tr class="odd">
-<td><a href="merit.md">優點</a></td>
-<td>MERIT_UNLIKELY</td>
-</tr>
-<tr class="even">
-<td><a href="filter-categories.md">篩選準則分類</a></td>
-<td>CLSID_LegacyAmFilterCategory</td>
-</tr>
-</tbody>
-</table>
+
+| 標籤 | 值 |
+|--------|-------|
+| 篩選介面 | <a href="/previous-versions/windows/desktop/api/Qnetwork/nn-qnetwork-iammediacontent"><strong>IAMMediaContent</strong></a>、 <a href="/windows/desktop/api/Strmif/nn-strmif-ibasefilter"><strong>IBaseFilter</strong></a>、 <a href="/windows/desktop/api/Strmif/nn-strmif-ipersistmediapropertybag"><strong>IPersistMediaPropertyBag</strong></a> | 
+| 輸入 Pin 媒體類型 | 主要類型： MEDIATYPE_StreamThe 下列子類型有效：<br /><ul><li>MEDIASUBTYPE_AIFF</li><li>MEDIASUBTYPE_AU</li><li>MEDIASUBTYPE_WAVE</li></ul> | 
+| 輸入 Pin 介面 | <a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPin</strong></a>、 <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"> <strong>IQualityControl</strong></a> | 
+| 輸出 Pin 媒體類型 | 主要類型： MEDIATYPE_AudioSubtype： MEDIASUBTYPE_PCM 或其他壓縮類型。  (查看 <a href="audio-subtypes.md"><strong>音訊子類型</strong></a>。 ) <br /> 格式類型： FORMAT_WaveFormatEx<br /> | 
+| 輸出 Pin 介面 | <a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPin</strong></a>、 <a href="/windows/desktop/api/Strmif/nn-strmif-imediaseeking"> <strong>IMediaSeeking</strong></a> | 
+| 篩選 CLSID | {D51BD5A1-7548-11cf-A520-0080C77EF58A} | 
+| 屬性頁 CLSID | 沒有屬性頁。 | 
+| 可執行檔 | quartz.dll | 
+| <a href="merit.md">優點</a> | MERIT_UNLIKELY | 
+| <a href="filter-categories.md">篩選準則分類</a> | CLSID_LegacyAmFilterCategory | 
+
 
 
 
@@ -92,7 +53,7 @@ WAVE 剖析器篩選器會剖析 wav、澳大利亞或. aif 檔案中的 WAV 格
 
 <dl> <dt>
 
-[DirectShow 篩選](directshow-filters.md)
+[DirectShow過濾 器](directshow-filters.md)
 </dt> </dl>
 
  

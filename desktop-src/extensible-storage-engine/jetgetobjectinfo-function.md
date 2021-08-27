@@ -20,17 +20,17 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: cf4c3c9806d4dcf898d6daeb903eb6fc4322fee7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9e6317280c5e794e9809c15f47f01d55ffd48eeb
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980892"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122982421"
 ---
 # <a name="jetgetobjectinfo-function"></a>JetGetObjectInfo 函式
 
 
-_**適用于：** Windows |Windows Server_
+_**適用于：** Windows |Windows伺服器_
 
 ## <a name="jetgetobjectinfo-function"></a>JetGetObjectInfo 函式
 
@@ -91,96 +91,33 @@ _**適用于：** Windows |Windows Server_
 
 您可以針對此參數設定下列選項。
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>值</p></th>
-<th><p>意義</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_ObjInfo</p></td>
-<td><p><em>pvResult</em> 會被視為 <a href="gg269353(v=exchg.10).md">JET_OBJECTINFO</a> 結構。</p>
-<p><a href="gg269353(v=exchg.10).md">JET_OBJECTINFO</a>結構會填入<em>szObjectName</em>中所命名物件的相關資訊。</p>
-<p>如果呼叫者不想知道物件的記錄和頁面數目，請考慮使用 JET_ObjInfoNoStats 資訊層級，因為不包含統計資料，所以可能更快。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_ObjInfoList</p></td>
-<td><p><em>pvResult</em> 會被視為 <a href="gg269348(v=exchg.10).md">JET_OBJECTLIST</a> 結構。 會抓取所有物件的相關資訊。 系統將會建立臨時表，並在 <a href="gg269348(v=exchg.10).md">JET_OBJECTLIST</a> 結構中描述遍歷臨時表所需的資訊。 如需詳細資訊，請參閱 <a href="gg269348(v=exchg.10).md">JET_OBJECTLIST</a>。 如果呼叫者不想知道物件的記錄和頁面數目，請考慮使用 JET_ObjInfoListNoStats，這樣可能會更快。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_ObjInfoListACM</p></td>
-<td><p>已淘汰，目前不支援。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_ObjInfoListNoStats</p></td>
-<td><p><em>pvResult</em> 會被視為 <a href="gg269348(v=exchg.10).md">JET_OBJECTLIST</a> 結構。 會抓取所有物件的相關資訊。 系統將會建立臨時表，並在 <a href="gg269348(v=exchg.10).md">JET_OBJECTLIST</a> 結構中描述遍歷臨時表所需的資訊。 如需詳細資訊，請參閱 <a href="gg269348(v=exchg.10).md">JET_OBJECTLIST</a>。 JET_ObjInfoListNoStats 與 JET_ObjInfoList 相同，不同之處在于報告記錄數目 (<em>columnidcRecord</em>) 和頁面 (<em>columnidcPage</em>) 的資料行將不會更新。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_ObjInfoMax</p></td>
-<td><p><em>pvResult</em> 會被解釋為 <a href="gg269353(v=exchg.10).md">JET_OBJECTINFO</a>。 物件的大小上限為頁面。 目前只會傳回資料表。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_ObjInfoNoStats</p></td>
-<td><p><em>pvResult</em> 會被解釋為 <a href="gg269353(v=exchg.10).md">JET_OBJECTINFO</a>。 只會抓取 <em>szObjectName</em> 中指定之物件的相關資訊。</p>
-<p><a href="gg269353(v=exchg.10).md">JET_OBJECTINFO</a>結構將會填入與<em>szObjectName</em>中所命名物件相關的資訊。</p>
-<p>JET_ObjInfoNoStats 與 JET_ObjInfo 相同，不同之處在于報告記錄和頁面數目的欄位會設定為零。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_ObjInfoRulesLoaded</p></td>
-<td><p>已淘汰，目前不支援。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_ObjInfoSysTabCursor</p></td>
-<td><p>已淘汰，目前不支援。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_ObjInfoSysTabReadOnly</p></td>
-<td><p>已淘汰，目前不支援。</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>值</p> | <p>意義</p> | 
+|--------------|----------------|
+| <p>JET_ObjInfo</p> | <p><em>pvResult</em> 會被視為 <a href="gg269353(v=exchg.10).md">JET_OBJECTINFO</a> 結構。</p><p><a href="gg269353(v=exchg.10).md">JET_OBJECTINFO</a>結構會填入<em>szObjectName</em>中所命名物件的相關資訊。</p><p>如果呼叫者不想知道物件的記錄和頁面數目，請考慮使用 JET_ObjInfoNoStats 資訊層級，因為不包含統計資料，所以可能更快。</p> | 
+| <p>JET_ObjInfoList</p> | <p><em>pvResult</em> 會被視為 <a href="gg269348(v=exchg.10).md">JET_OBJECTLIST</a> 結構。 會抓取所有物件的相關資訊。 系統將會建立臨時表，並在 <a href="gg269348(v=exchg.10).md">JET_OBJECTLIST</a> 結構中描述遍歷臨時表所需的資訊。 如需詳細資訊，請參閱 <a href="gg269348(v=exchg.10).md">JET_OBJECTLIST</a>。 如果呼叫者不想知道物件的記錄和頁面數目，請考慮使用 JET_ObjInfoListNoStats，這樣可能會更快。</p> | 
+| <p>JET_ObjInfoListACM</p> | <p>已淘汰，目前不支援。</p> | 
+| <p>JET_ObjInfoListNoStats</p> | <p><em>pvResult</em> 會被視為 <a href="gg269348(v=exchg.10).md">JET_OBJECTLIST</a> 結構。 會抓取所有物件的相關資訊。 系統將會建立臨時表，並在 <a href="gg269348(v=exchg.10).md">JET_OBJECTLIST</a> 結構中描述遍歷臨時表所需的資訊。 如需詳細資訊，請參閱 <a href="gg269348(v=exchg.10).md">JET_OBJECTLIST</a>。 JET_ObjInfoListNoStats 與 JET_ObjInfoList 相同，不同之處在于報告記錄數目 (<em>columnidcRecord</em>) 和頁面 (<em>columnidcPage</em>) 的資料行將不會更新。</p> | 
+| <p>JET_ObjInfoMax</p> | <p><em>pvResult</em> 會被解釋為 <a href="gg269353(v=exchg.10).md">JET_OBJECTINFO</a>。 物件的大小上限為頁面。 目前只會傳回資料表。</p> | 
+| <p>JET_ObjInfoNoStats</p> | <p><em>pvResult</em> 會被解釋為 <a href="gg269353(v=exchg.10).md">JET_OBJECTINFO</a>。 只會抓取 <em>szObjectName</em> 中指定之物件的相關資訊。</p><p><a href="gg269353(v=exchg.10).md">JET_OBJECTINFO</a>結構將會填入與<em>szObjectName</em>中所命名物件相關的資訊。</p><p>JET_ObjInfoNoStats 與 JET_ObjInfo 相同，不同之處在于報告記錄和頁面數目的欄位會設定為零。</p> | 
+| <p>JET_ObjInfoRulesLoaded</p> | <p>已淘汰，目前不支援。</p> | 
+| <p>JET_ObjInfoSysTabCursor</p> | <p>已淘汰，目前不支援。</p> | 
+| <p>JET_ObjInfoSysTabReadOnly</p> | <p>已淘汰，目前不支援。</p> | 
+
 
 
 ### <a name="return-value"></a>傳回值
 
-此函數會傳回具有下列其中一個傳回碼的 [JET_ERR](./jet-err.md) 資料類型。 如需可能 ESE 錯誤的詳細資訊，請參閱可延伸 [儲存引擎錯誤](./extensible-storage-engine-errors.md) 和 [錯誤處理參數](./error-handling-parameters.md)。
+此函數會傳回具有下列其中一個傳回碼的 [JET_ERR](./jet-err.md) 資料類型。 如需可能 ESE 錯誤的詳細資訊，請參閱可延伸的[儲存體引擎錯誤](./extensible-storage-engine-errors.md)和[錯誤處理參數](./error-handling-parameters.md)。
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>傳回碼</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errSuccess</p></td>
-<td><p>作業已成功完成。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errBufferTooSmall</p></td>
-<td><p><em>CbMax</em>中提供的緩衝區大小太小，無法容納所需的資訊。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errInvalidName</p></td>
-<td><p><em>SzObjectName</em>或<em>szContainerName</em>中提供了不正確名稱。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errInvalidParameter</p></td>
-<td><p>指定了不正確的參數。 可能會有不正確的層級傳遞至 <em>InfoLevel</em>。</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>傳回碼</p> | <p>Description</p> | 
+|--------------------|--------------------|
+| <p>JET_errSuccess</p> | <p>作業已成功完成。</p> | 
+| <p>JET_errBufferTooSmall</p> | <p><em>CbMax</em>中提供的緩衝區大小太小，無法容納所需的資訊。</p> | 
+| <p>JET_errInvalidName</p> | <p><em>SzObjectName</em>或<em>szContainerName</em>中提供了不正確名稱。</p> | 
+| <p>JET_errInvalidParameter</p> | <p>指定了不正確的參數。 可能會有不正確的層級傳遞至 <em>InfoLevel</em>。</p> | 
+
 
 
 #### <a name="remarks"></a>備註
@@ -191,38 +128,16 @@ _**適用于：** Windows |Windows Server_
 
 #### <a name="requirements"></a>規格需求
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>用戶端</strong></p></td>
-<td><p>需要 Windows Vista、Windows XP 或 Windows 2000 Professional。</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>伺服器</strong></p></td>
-<td><p>需要 Windows Server 2008、Windows Server 2003 或 Windows 2000 Server。</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>標頭</strong></p></td>
-<td><p>宣告于 Esent. h 中。</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>程式庫</strong></p></td>
-<td><p>使用 ESENT。</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>DLL</strong></p></td>
-<td><p>需要 ESENT.dll。</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Unicode</strong></p></td>
-<td><p>實作為 <strong>JetGetObjectInfoW</strong> (Unicode) 和 <strong>JetGetObjectInfoA</strong> (ANSI) 。</p></td>
-</tr>
-</tbody>
-</table>
+
+| 需求 | 值 |
+|------------|----------|
+| <p><strong>用戶端</strong></p> | <p>需要 Windows Vista、Windows XP 或 Windows 2000 Professional。</p> | 
+| <p><strong>伺服器</strong></p> | <p>需要 Windows server 2008、Windows Server 2003 或 Windows 2000 Server。</p> | 
+| <p><strong>標頭</strong></p> | <p>宣告于 Esent. h 中。</p> | 
+| <p><strong>程式庫</strong></p> | <p>使用 ESENT。</p> | 
+| <p><strong>DLL</strong></p> | <p>需要 ESENT.dll。</p> | 
+| <p><strong>Unicode</strong></p> | <p>實作為 <strong>JetGetObjectInfoW</strong> (Unicode) 和 <strong>JetGetObjectInfoA</strong> (ANSI) 。</p> | 
+
 
 
 #### <a name="see-also"></a>另請參閱

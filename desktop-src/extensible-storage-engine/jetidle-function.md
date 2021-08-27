@@ -18,12 +18,12 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 7f6ca72e2a03b2b845e088c1654629bee5d8b5abb1b6e33e5935cf4155d015a1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: babe3077c01b6b2a9c1f2f55b48921582d6343bd
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118072341"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122984541"
 ---
 # <a name="jetidle-function"></a>JetIdle 函式
 
@@ -51,60 +51,25 @@ _**適用于：** Windows |Windows伺服器_
 
 位群組，其中包含要用於此呼叫的選項，其中包含零或多個下列位：
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>值</p></th>
-<th><p>意義</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_bitIdleCompact</p></td>
-<td><p>觸發版本存放區的清除。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitIdleFlushBuffers</p></td>
-<td><p>保留供未來使用。 如果指定此旗標，則 API 會傳回 JET_errInvalidgrbit。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitIdleStatus</p></td>
-<td><p>如果版本存放區已滿一半，則會傳回 JET_wrnIdleFull。</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>值</p> | <p>意義</p> | 
+|--------------|----------------|
+| <p>JET_bitIdleCompact</p> | <p>觸發版本存放區的清除。</p> | 
+| <p>JET_bitIdleFlushBuffers</p> | <p>保留供未來使用。 如果指定此旗標，則 API 會傳回 JET_errInvalidgrbit。</p> | 
+| <p>JET_bitIdleStatus</p> | <p>如果版本存放區已滿一半，則會傳回 JET_wrnIdleFull。</p> | 
+
 
 
 ### <a name="return-value"></a>傳回值
 
 此函數會傳回具有下列其中一個傳回碼的 [JET_ERR](./jet-err.md) 資料類型。 如需可能 ESE 錯誤的詳細資訊，請參閱可延伸的[儲存體引擎錯誤](./extensible-storage-engine-errors.md)和[錯誤處理參數](./error-handling-parameters.md)。
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>傳回碼</p></th>
-<th><p>描述</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errSuccess</p></td>
-<td><p>作業已成功完成。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errInvalidParameter</p></td>
-<td><p>提供給 API 的 <em>grbit</em> 參數無效。</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>傳回碼</p> | <p>Description</p> | 
+|--------------------|--------------------|
+| <p>JET_errSuccess</p> | <p>作業已成功完成。</p> | 
+| <p>JET_errInvalidParameter</p> | <p>提供給 API 的 <em>grbit</em> 參數無效。</p> | 
+
 
 
 如果此函式成功，則會觸發適當的作業，或使用錯誤碼指出版本存放區根據提供的 *grbit* 的填滿程度。
@@ -117,34 +82,15 @@ _**適用于：** Windows |Windows伺服器_
 
 #### <a name="requirements"></a>規格需求
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>用戶端</strong></p></td>
-<td><p>需要 Windows Vista、Windows XP 或 Windows 2000 Professional。</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>伺服器</strong></p></td>
-<td><p>需要 Windows server 2008、Windows Server 2003 或 Windows 2000 Server。</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>標頭</strong></p></td>
-<td><p>宣告于 Esent. h 中。</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>程式庫</strong></p></td>
-<td><p>使用 ESENT。</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>DLL</strong></p></td>
-<td><p>需要 ESENT.dll。</p></td>
-</tr>
-</tbody>
-</table>
+
+| 需求 | 值 |
+|------------|----------|
+| <p><strong>用戶端</strong></p> | <p>需要 Windows Vista、Windows XP 或 Windows 2000 Professional。</p> | 
+| <p><strong>伺服器</strong></p> | <p>需要 Windows server 2008、Windows Server 2003 或 Windows 2000 Server。</p> | 
+| <p><strong>標頭</strong></p> | <p>宣告于 Esent. h 中。</p> | 
+| <p><strong>程式庫</strong></p> | <p>使用 ESENT。</p> | 
+| <p><strong>DLL</strong></p> | <p>需要 ESENT.dll。</p> | 
+
 
 
 #### <a name="see-also"></a>另請參閱

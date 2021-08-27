@@ -20,12 +20,12 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 63e913e68a3aea8f220c713b07becdeecb785a619b73a833bb6a0e9c3c1d37a4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e3940c07cc641d8c8d077c420f8c492ab5122b3f
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118979018"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122984731"
 ---
 # <a name="jetgettablecolumninfo-function"></a>JetGetTableColumnInfo 函式
 
@@ -79,120 +79,36 @@ JET_ERR JET_API JetGetTableColumnInfo(
 
 您可以為此參數設定下列選項：
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>值</p></th>
-<th><p>意義</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_ColInfo</p></td>
-<td><p><em>pvResult</em> 會被視為 <a href="gg294130(v=exchg.10).md">JET_COLUMNDEF</a>，而 <a href="gg294130(v=exchg.10).md">JET_COLUMNDEF</a> 結構的欄位會適當地填入。 JET_ColInfo 和 JET_ColInfoByColid 都會取得相同的資訊。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_ColInfoBase</p></td>
-<td><p><em>pvResult</em> 會被視為 <a href="gg269194(v=exchg.10).md">JET_COLUMNBASE</a> 結構。 這類似于 <a href="gg294130(v=exchg.10).md">JET_COLUMNDEF</a> 結構。 如果此函式成功，則會以適當的值填入結構。 如果此函式失敗，結構會包含未定義的資料。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_ColInfoByColid</p></td>
-<td><p><em>pvResult</em> 會被解釋為 <a href="gg294130(v=exchg.10).md">JET_COLUMNDEF</a>，但此 <em>InfoLevel</em> 表示所要求的資料行 (<em>szColumName</em>) 不是字串資料行名稱，而是指向 <a href="gg294104(v=exchg.10).md">JET_COLUMNID</a>的指標。 JET_ColInfo 和 JET_ColInfoByColid 都會取得相同的資訊。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_ColInfoList</p></td>
-<td><p><em>pvResult</em> 會被視為 <a href="gg269228(v=exchg.10).md">JET_COLUMNLIST</a> 結構。 如果此函式成功，則會以適當的值填入結構。 臨時表會開啟，並由<a href="gg269228(v=exchg.10).md">JET_COLUMNLIST</a>的<em>tableid</em>成員識別。 資料表必須以 <a href="gg294087(v=exchg.10).md">JetCloseTable</a>關閉。 如果此函式失敗，結構會包含未定義的資料。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_ColInfoListCompact</p></td>
-<td><p><em>pvResult</em> 會被視為 <a href="gg269228(v=exchg.10).md">JET_COLUMNLIST</a> 結構。 如果此函式成功，則會以適當的值填入結構。 臨時表會開啟，並由<a href="gg269228(v=exchg.10).md">JET_COLUMNLIST</a>的<em>tableid</em>成員識別。 資料表必須以 <a href="gg294087(v=exchg.10).md">JetCloseTable</a>關閉。 如果此函式失敗，結構會包含未定義的資料。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_ColInfoListSortColumnid</p></td>
-<td><p>相同于 JET_ColInfoList，但產生的資料表會依 <em>columnid</em>排序，而不是資料行名稱。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_ColInfoSysTabCursor</p></td>
-<td><p>JET_ColInfoSysTabCursor 已被取代，而且使用它將會傳回 JET_errFeatureNotAvailable。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_ColInfoBaseByColId</p></td>
-<td><p>如同 JET_ColInfoBase， <em>pvResult</em> 會被視為 <a href="gg269194(v=exchg.10).md">JET_COLUMNBASE</a>，但此 <em>InfoLevel</em> 表示要求的資料行 (<em>szColumName</em>) 不是字串資料行名稱，而是指向 <a href="gg294104(v=exchg.10).md">JET_COLUMNID</a>的指標。</p>
-<p><strong>Windows Vista：</strong>這可在 Windows Vista 和更新版本中使用。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_ColInfoGrbitNonDerivedColumnsOnly</p></td>
-<td><p>只有當資料表衍生自範本) 時，才會傳回非衍生的資料行 (。</p>
-<p>當基底<em>InfoLevel</em> JET_ColInfoList 時，此值可以邏輯或進入<em>InfoLevel</em>。</p>
-<p><strong>Windows Vista：</strong>此值會在 Windows Vista 中引進。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_ColInfoGrbitMinimalInfo</p></td>
-<td><p>只傳回資料行名稱和每個資料行的 columnid。</p>
-<p>當基底<em>InfoLevel</em> JET_ColInfoList 時，此值可以邏輯或進入<em>InfoLevel</em>。</p>
-<p><strong>Windows Vista：</strong>此值會在 Windows Vista 中引進。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_ColInfoGrbitSortByColumnid</p></td>
-<td><p>依 columnid 排序傳回的資料行清單 (預設為依資料行名稱排序清單) 。</p>
-<p>當基底<em>InfoLevel</em> JET_ColInfoList 時，此值可以邏輯或進入<em>InfoLevel</em>。</p>
-<p><strong>Windows Vista：</strong>此值會在 Windows Vista 中引進。</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>值</p> | <p>意義</p> | 
+|--------------|----------------|
+| <p>JET_ColInfo</p> | <p><em>pvResult</em> 會被視為 <a href="gg294130(v=exchg.10).md">JET_COLUMNDEF</a>，而 <a href="gg294130(v=exchg.10).md">JET_COLUMNDEF</a> 結構的欄位會適當地填入。 JET_ColInfo 和 JET_ColInfoByColid 都會取得相同的資訊。</p> | 
+| <p>JET_ColInfoBase</p> | <p><em>pvResult</em> 會被視為 <a href="gg269194(v=exchg.10).md">JET_COLUMNBASE</a> 結構。 這類似于 <a href="gg294130(v=exchg.10).md">JET_COLUMNDEF</a> 結構。 如果此函式成功，則會以適當的值填入結構。 如果此函式失敗，結構會包含未定義的資料。</p> | 
+| <p>JET_ColInfoByColid</p> | <p><em>pvResult</em> 會被解釋為 <a href="gg294130(v=exchg.10).md">JET_COLUMNDEF</a>，但此 <em>InfoLevel</em> 表示所要求的資料行 (<em>szColumName</em>) 不是字串資料行名稱，而是指向 <a href="gg294104(v=exchg.10).md">JET_COLUMNID</a>的指標。 JET_ColInfo 和 JET_ColInfoByColid 都會取得相同的資訊。</p> | 
+| <p>JET_ColInfoList</p> | <p><em>pvResult</em> 會被視為 <a href="gg269228(v=exchg.10).md">JET_COLUMNLIST</a> 結構。 如果此函式成功，則會以適當的值填入結構。 臨時表會開啟，並由<a href="gg269228(v=exchg.10).md">JET_COLUMNLIST</a>的<em>tableid</em>成員識別。 資料表必須以 <a href="gg294087(v=exchg.10).md">JetCloseTable</a>關閉。 如果此函式失敗，結構會包含未定義的資料。</p> | 
+| <p>JET_ColInfoListCompact</p> | <p><em>pvResult</em> 會被視為 <a href="gg269228(v=exchg.10).md">JET_COLUMNLIST</a> 結構。 如果此函式成功，則會以適當的值填入結構。 臨時表會開啟，並由<a href="gg269228(v=exchg.10).md">JET_COLUMNLIST</a>的<em>tableid</em>成員識別。 資料表必須以 <a href="gg294087(v=exchg.10).md">JetCloseTable</a>關閉。 如果此函式失敗，結構會包含未定義的資料。</p> | 
+| <p>JET_ColInfoListSortColumnid</p> | <p>相同于 JET_ColInfoList，但產生的資料表會依 <em>columnid</em>排序，而不是資料行名稱。</p> | 
+| <p>JET_ColInfoSysTabCursor</p> | <p>JET_ColInfoSysTabCursor 已被取代，而且使用它將會傳回 JET_errFeatureNotAvailable。</p> | 
+| <p>JET_ColInfoBaseByColId</p> | <p>如同 JET_ColInfoBase， <em>pvResult</em> 會被視為 <a href="gg269194(v=exchg.10).md">JET_COLUMNBASE</a>，但此 <em>InfoLevel</em> 表示要求的資料行 (<em>szColumName</em>) 不是字串資料行名稱，而是指向 <a href="gg294104(v=exchg.10).md">JET_COLUMNID</a>的指標。</p><p><strong>Windows Vista：</strong>這可在 Windows Vista 和更新版本中使用。</p> | 
+| <p>JET_ColInfoGrbitNonDerivedColumnsOnly</p> | <p>只有當資料表衍生自範本) 時，才會傳回非衍生的資料行 (。</p><p>當基底<em>InfoLevel</em> JET_ColInfoList 時，此值可以邏輯或進入<em>InfoLevel</em>。</p><p><strong>Windows Vista：</strong>此值會在 Windows Vista 中引進。</p> | 
+| <p>JET_ColInfoGrbitMinimalInfo</p> | <p>只傳回資料行名稱和每個資料行的 columnid。</p><p>當基底<em>InfoLevel</em> JET_ColInfoList 時，此值可以邏輯或進入<em>InfoLevel</em>。</p><p><strong>Windows Vista：</strong>此值會在 Windows Vista 中引進。</p> | 
+| <p>JET_ColInfoGrbitSortByColumnid</p> | <p>依 columnid 排序傳回的資料行清單 (預設為依資料行名稱排序清單) 。</p><p>當基底<em>InfoLevel</em> JET_ColInfoList 時，此值可以邏輯或進入<em>InfoLevel</em>。</p><p><strong>Windows Vista：</strong>此值會在 Windows Vista 中引進。</p> | 
+
 
 
 ### <a name="return-value"></a>傳回值
 
 此函數會傳回具有下列其中一個傳回碼的 [JET_ERR](./jet-err.md) 資料類型。 如需可能 ESE 錯誤的詳細資訊，請參閱可延伸的[儲存體引擎錯誤](./extensible-storage-engine-errors.md)和[錯誤處理參數](./error-handling-parameters.md)。
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>傳回碼</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errSuccess</p></td>
-<td><p>作業已成功完成。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errColumnNotFound</p></td>
-<td><p>在資料表中找不到名為 <em>szColumnName</em> 的資料行。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errFeatureNotAvailable</p></td>
-<td><p>指定了不正確的 <em>InfoLevel</em> 。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errInvalidName</p></td>
-<td><p>下列情況可能會傳回此錯誤：</p>
-<ul>
-<li><p>指定了 <em>szTableName</em> 的錯誤名稱。</p></li>
-<li><p>指定了 <em>szColumnName</em> 的錯誤名稱。</p></li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errInvalidParameter</p></td>
-<td><p>下列情況可能會傳回此錯誤：</p>
-<ul>
-<li><p>指定了不正確的 <em>InfoLevel</em> 。</p></li>
-<li><p>傳入的是 Null <em>szTableName</em> 。</p></li>
-<li><p>緩衝區太小。</p></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| <p>傳回碼</p> | <p>Description</p> | 
+|--------------------|--------------------|
+| <p>JET_errSuccess</p> | <p>作業已成功完成。</p> | 
+| <p>JET_errColumnNotFound</p> | <p>在資料表中找不到名為 <em>szColumnName</em> 的資料行。</p> | 
+| <p>JET_errFeatureNotAvailable</p> | <p>指定了不正確的 <em>InfoLevel</em> 。</p> | 
+| <p>JET_errInvalidName</p> | <p>下列情況可能會傳回此錯誤：</p><ul><li><p>指定了 <em>szTableName</em> 的錯誤名稱。</p></li><li><p>指定了 <em>szColumnName</em> 的錯誤名稱。</p></li></ul> | 
+| <p>JET_errInvalidParameter</p> | <p>下列情況可能會傳回此錯誤：</p><ul><li><p>指定了不正確的 <em>InfoLevel</em> 。</p></li><li><p>傳入的是 Null <em>szTableName</em> 。</p></li><li><p>緩衝區太小。</p></li></ul> | 
+
 
 
 #### <a name="remarks"></a>備註
@@ -207,38 +123,16 @@ JET_ERR JET_API JetGetTableColumnInfo(
 
 #### <a name="requirements"></a>規格需求
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>用戶端</strong></p></td>
-<td><p>需要 Windows Vista、Windows XP 或 Windows 2000 Professional。</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>伺服器</strong></p></td>
-<td><p>需要 Windows server 2008、Windows Server 2003 或 Windows 2000 Server。</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>標頭</strong></p></td>
-<td><p>宣告于 Esent. h 中。</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>程式庫</strong></p></td>
-<td><p>使用 ESENT。</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>DLL</strong></p></td>
-<td><p>需要 ESENT.dll。</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Unicode</strong></p></td>
-<td><p>實作為 <strong>JetGetTableColumnInfoW</strong> (Unicode) 和 <strong>JetGetTableColumnInfoA</strong> (ANSI) 。</p></td>
-</tr>
-</tbody>
-</table>
+
+| 需求 | 值 |
+|------------|----------|
+| <p><strong>用戶端</strong></p> | <p>需要 Windows Vista、Windows XP 或 Windows 2000 Professional。</p> | 
+| <p><strong>伺服器</strong></p> | <p>需要 Windows server 2008、Windows Server 2003 或 Windows 2000 Server。</p> | 
+| <p><strong>標頭</strong></p> | <p>宣告于 Esent. h 中。</p> | 
+| <p><strong>程式庫</strong></p> | <p>使用 ESENT。</p> | 
+| <p><strong>DLL</strong></p> | <p>需要 ESENT.dll。</p> | 
+| <p><strong>Unicode</strong></p> | <p>實作為 <strong>JetGetTableColumnInfoW</strong> (Unicode) 和 <strong>JetGetTableColumnInfoA</strong> (ANSI) 。</p> | 
+
 
 
 #### <a name="see-also"></a>另請參閱

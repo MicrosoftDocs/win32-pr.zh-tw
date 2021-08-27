@@ -4,12 +4,12 @@ ms.assetid: bd72effe-898f-40a6-973c-a26e7fe2478f
 title: 流覽 COM + 集合階層
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 06fc4cde6c56bc08b0326e892409067759e91be6
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: aef6f23cd9f584b6cbe496fe7122abfa9978cd25cb28d81a5c89782b718138be
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973162"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120070448"
 ---
 # <a name="navigating-the-com-collection-hierarchy"></a>流覽 COM + 集合階層
 

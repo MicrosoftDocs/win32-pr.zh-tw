@@ -4,12 +4,12 @@ description: 警告訊息是強制回應對話方塊、就地訊息、通知或�
 ms.assetid: 4a2c3be9-9dc6-4d62-bd3d-72a2e5b621f4
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: e11beeb81b215182de22132dc37b04fac13a0d7033ebe2ec71f20f84415b244d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d12962cb8e984ffcb9f7f91875be7c6a724cea95
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119029933"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122982101"
 ---
 # <a name="warning-messages"></a>警告訊息
 
@@ -168,46 +168,14 @@ Overwarning 讓您的程式感覺危險，並看起來像是由律師所設計�
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><strong>注意</strong><br/> 讓使用者知道狀況或潛在的問題，但使用者可能不需要立即執行任何動作。 <br/></td>
-<td><img src="images/mess-warn-image13.png" alt="Screen shot of warning of network problems " /><br/> <img src="images/mess-warn-image14.png" alt="Screen shot of low-battery warning " /><br/> <img src="images/mess-warn-image15.png" alt="Screen shot of &#39;caps-lock-is-on&#39; warning " /><br/> <img src="images/mess-warn-image16.png" alt="Screen shot of &#39;TPM-not-found&#39; warning " /><br/> 認知警告的範例。<br/> 認知警告有下列展示： <br/>
-<ul>
-<li><strong>主要指示：</strong> 描述條件或潛在問題。</li>
-<li><strong>補充指示：</strong> 解釋隱含意義，以及其重要性。</li>
-<li><strong>認可按鈕：</strong> 關閉。</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><strong>錯誤預防</strong><br/> 讓使用者知道可能會妨礙問題的資訊，特別是在進行選擇時。 <br/></td>
-<td>錯誤防護警告最適合使用就地警告圖示和解說文字來呈現。 <br/> <img src="images/mess-warn-image17.png" alt="Screen shot of Not-enough-free-space warning " /><br/> <img src="images/mess-warn-image18.png" alt="Screen shot of Use-installation-CD warning " /><br/> 錯誤預防警告的範例。<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>即將發生問題</strong><br/> 使用者現在需要進行一些動作，以防止發生問題。 <br/></td>
-<td><img src="images/mess-warn-image19.png" alt="Screen shot of Close-programs warning " /><br/> 即將發生的問題警告範例。<br/> 即將發生的問題警告有下列展示： <br/>
-<ul>
-<li><strong>主要指示：</strong> 描述使用者現在需要做什麼。</li>
-<li><strong>補充指示：</strong> 說明條件以及其重要性。</li>
-<li><strong>認可按鈕：</strong> 每個選項的命令按鈕或命令連結，如果動作發生在對話方塊外，則為 [確定]。</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><strong>有風險的動作確認</strong><br/> 確認使用者想要繼續進行有一些風險且無法輕易復原的動作。 <br/></td>
-<td><img src="images/mess-warn-image20.png" alt="Screen shot of Formatting-will-erase-data warning " /><br/> 具風險動作確認的範例。<br/> 具風險的動作確認有下列展示： <br/>
-<ul>
-<li><strong>主要指示：</strong> 詢問問題，以判斷使用者是否想要繼續進行。</li>
-<li><strong>補充指示：</strong> 說明使用者可能不想繼續的任何非明顯原因。</li>
-<li><strong>認可按鈕：</strong> 是，否。</li>
-</ul>
-如需此模式的指導方針，請參閱 <a href="mess-confirm.md">確認</a>。 <br/></td>
-</tr>
-</tbody>
-</table>
+
+| 標籤 | 值 |
+|--------|-------|
+| <strong>注意</strong><br /> 讓使用者知道狀況或潛在的問題，但使用者可能不需要立即執行任何動作。 <br /> | <img src="images/mess-warn-image13.png" alt="Screen shot of warning of network problems " /><br /><img src="images/mess-warn-image14.png" alt="Screen shot of low-battery warning " /><br /><img src="images/mess-warn-image15.png" alt="Screen shot of 'caps-lock-is-on' warning " /><br /><img src="images/mess-warn-image16.png" alt="Screen shot of 'TPM-not-found' warning " /><br /> 認知警告的範例。<br /> 認知警告有下列展示： <br /><ul><li><strong>主要指示：</strong> 描述條件或潛在問題。</li><li><strong>補充指示：</strong> 解釋隱含意義，以及其重要性。</li><li><strong>認可按鈕：</strong> 關閉。</li></ul> | 
+| <strong>錯誤預防</strong><br /> 讓使用者知道可能會妨礙問題的資訊，特別是在進行選擇時。 <br /> | 錯誤防護警告最適合使用就地警告圖示和解說文字來呈現。 <br /><img src="images/mess-warn-image17.png" alt="Screen shot of Not-enough-free-space warning " /><br /><img src="images/mess-warn-image18.png" alt="Screen shot of Use-installation-CD warning " /><br /> 錯誤預防警告的範例。<br /> | 
+| <strong>即將發生問題</strong><br /> 使用者現在需要進行一些動作，以防止發生問題。 <br /> | <img src="images/mess-warn-image19.png" alt="Screen shot of Close-programs warning " /><br /> 即將發生的問題警告範例。<br /> 即將發生的問題警告有下列展示： <br /><ul><li><strong>主要指示：</strong> 描述使用者現在需要做什麼。</li><li><strong>補充指示：</strong> 說明條件以及其重要性。</li><li><strong>認可按鈕：</strong> 每個選項的命令按鈕或命令連結，如果動作發生在對話方塊外，則為 [確定]。</li></ul> | 
+| <strong>有風險的動作確認</strong><br /> 確認使用者想要繼續進行有一些風險且無法輕易復原的動作。 <br /> | <img src="images/mess-warn-image20.png" alt="Screen shot of Formatting-will-erase-data warning " /><br /> 具風險動作確認的範例。<br /> 具風險的動作確認有下列展示： <br /><ul><li><strong>主要指示：</strong> 詢問問題，以判斷使用者是否想要繼續進行。</li><li><strong>補充指示：</strong> 說明使用者可能不想繼續的任何非明顯原因。</li><li><strong>認可按鈕：</strong> 是，否。</li></ul>如需此模式的指導方針，請參閱 <a href="mess-confirm.md">確認</a>。 <br /> | 
+
 
 
 

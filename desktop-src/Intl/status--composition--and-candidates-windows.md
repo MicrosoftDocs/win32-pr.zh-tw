@@ -1,17 +1,17 @@
 ---
 description: 狀態、撰寫和候選視窗會形成 IME 的使用者介面。
 ms.assetid: a0e52743-f9be-4934-9469-71d3cb5a768a
-title: 狀態、撰寫和候選視窗
+title: 狀態、撰寫和候選 Windows
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6b800def67299a464fd232a08a2bbff0a2a60a2a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 83f5c385c14cd265630de77352e12e4c63bce806837462f3c9ab3c204940e66c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104195287"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120130108"
 ---
-# <a name="status-composition-and-candidates-windows"></a>狀態、撰寫和候選視窗
+# <a name="status-composition-and-candidates-windows"></a>狀態、撰寫和候選 Windows
 
 狀態、撰寫和候選視窗會形成 IME 的使用者介面。 狀態視窗指出 IME 已開啟，並提供使用者設定轉換模式的方法。 當使用者輸入文字時會出現組合視窗，而且根據轉換模式，會將文字顯示為輸入或顯示轉換的文字。 候選視窗會與撰寫視窗一起出現。 它包含在組合視窗中選取的字元) 的「候選」 (替代字元」清單。 使用者可以在候選清單中移動，然後選取所需的字元，再回到撰寫視窗。 使用者可以用這種方式撰寫所要的文字，直到組合字元串完成並關閉視窗為止。
 

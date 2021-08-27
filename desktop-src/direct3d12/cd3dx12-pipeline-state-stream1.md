@@ -1,6 +1,6 @@
 ---
 title: 'CD3DX12_PIPELINE_STATE_STREAM1 結構 (D3dx12 .h) '
-description: '協助程式結構，可透過合併介面建立及處理圖形和計算管線狀態。 請參閱 D3D12 \_ 圖形 \_ 管線 \_ 狀態 \_ desc 和 D3D12 \_ 計算 \_ 管線 \_ 狀態 \_ desc。 |CD3DX12_PIPELINE_STATE_STREAM1 結構 (D3dx12 .h) '
+description: 協助程式結構，可透過合併介面建立及處理圖形和計算管線狀態。 請參閱 [D3D12_GRAPHICS_PIPELINE_STATE_DESC](/windows/win32/api/d3d12/ns-d3d12-d3d12_graphics_pipeline_state_desc) 和 [D3D12_COMPUTE_PIPELINE_STATE_DESC](/windows/win32/api/d3d12/ns-d3d12-d3d12_compute_pipeline_state_desc)。
 ms.assetid: 4D3E4D99-E820-4220-92F3-4924791E780F
 keywords:
 - CD3DX12_PIPELINE_STATE_STREAM1 結構
@@ -15,18 +15,20 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cdd04f58f4f123850c60b67ff9358f6f1f934373
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 219b198ae5c2da6d6e74db933d4c26771aa63975
+ms.sourcegitcommit: 0dec0044816af3f2b2e6403659e1cf11138c90cd
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106982862"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "121812533"
 ---
-# <a name="cd3dx12_pipeline_state_stream1-structure"></a>CD3DX12 \_ 管線 \_ 狀態 \_ STREAM1 結構
+# <a name="cd3dx12_pipeline_state_stream1-structure"></a>CD3DX12_PIPELINE_STATE_STREAM1 結構
 
-協助程式結構，可透過合併介面建立及處理圖形和計算管線狀態。 請參閱 [**D3D12 \_ 圖形 \_ 管線 \_ 狀態 \_ desc**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_graphics_pipeline_state_desc) 和 [**D3D12 \_ 計算 \_ 管線 \_ 狀態 \_ desc**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_compute_pipeline_state_desc)。
+協助程式結構，可透過合併介面建立及處理圖形和計算管線狀態。 請參閱 [D3D12_GRAPHICS_PIPELINE_STATE_DESC](/windows/win32/api/d3d12/ns-d3d12-d3d12_graphics_pipeline_state_desc) 和 [D3D12_COMPUTE_PIPELINE_STATE_DESC](/windows/win32/api/d3d12/ns-d3d12-d3d12_compute_pipeline_state_desc)。
 
-CD3DX12 \_ 管線 \_ 狀態 \_ STREAM1 支援 Windows 10 Fall Creators Update 的新功能，例如 view 實例。
+CD3DX12_PIPELINE_STATE_STREAM1 支援 Windows 10 Fall Creators Update 的新功能，例如 view 實例。
+
+請參閱 [CD3DX12_PIPELINE_STATE_STREAM2](cd3dx12-pipeline-state-stream2.md) 以取得作業系統組建19041的支援 + (，其中有) 的網格著色器管線。
 
 ## <a name="syntax"></a>語法
 
@@ -68,38 +70,38 @@ struct CD3DX12_PIPELINE_STATE_STREAM1 {
 
 <dl> <dt>
 
-**CD3DX12 \_ 管線 \_ 狀態 \_ STREAM1 ()**
+**CD3DX12_PIPELINE_STATE_STREAM1 ()**
 </dt> <dd>
 
-建立新的、未初始化的 CD3DX12 \_ 管線 \_ 狀態 STREAM1 實例 \_ 。
+建立新的、未初始化的 CD3DX12_PIPELINE_STATE_STREAM1 實例。
 
 </dd> <dt>
 
-**CD3DX12 \_ 管線 \_ 狀態 \_ STREAM1 (const D3D12 \_ 圖形 \_ 管線 \_ 狀態 \_ desc& desc)**
+**CD3DX12_PIPELINE_STATE_STREAM1 (const D3D12_GRAPHICS_PIPELINE_STATE_DESC& Desc)**
 </dt> <dd>
 
-建立 CD3DX12 \_ 管線狀態 STREAM1 的新實例 \_ \_ ，並以從 **CD3DX12 \_ 管線 \_ 狀態 \_ STREAM1** 結構複製而來的值進行初始化。
+建立 CD3DX12_PIPELINE_STATE_STREAM1 的新實例，並初始化為從 **CD3DX12_PIPELINE_STATE_STREAM1** 結構複製的值。
 
 </dd> <dt>
 
-**CD3DX12 \_ 管線 \_ 狀態 \_ STREAM1 (const D3D12 \_ 計算 \_ 管線 \_ 狀態 \_ desc& DESC)**
+**CD3DX12_PIPELINE_STATE_STREAM1 (const D3D12_COMPUTE_PIPELINE_STATE_DESC& Desc)**
 </dt> <dd>
 
-建立 CD3DX12 \_ 管線狀態 STREAM1 的新實例 \_ \_ ，並以從 **CD3DX12 \_ 管線 \_ 狀態 \_ STREAM1** 結構複製而來的值進行初始化。
+建立 CD3DX12_PIPELINE_STATE_STREAM1 的新實例，並初始化為從 **CD3DX12_PIPELINE_STATE_STREAM1** 結構複製的值。
 
 </dd> <dt>
 
 **GraphicsDescV0 ()**
 </dt> <dd>
 
-以傳值方式將 CD3DX12 \_ 管線 \_ 狀態 \_ STREAM1 物件的內容傳回為 D3D12 \_ 圖形 \_ 管線 \_ 狀態 \_ DESC 結構。 請注意，D3D12 \_ 圖形 \_ 管線 \_ 狀態 \_ DESC 不包含 **CS** 成員，因此此值會在轉換時遺失。
+以傳值方式將 CD3DX12_PIPELINE_STATE_STREAM1 物件的內容傳回為 D3D12_GRAPHICS_PIPELINE_STATE_DESC 結構。 請注意，D3D12_GRAPHICS_PIPELINE_STATE_DESC 不包含 **CS** 成員，所以此值會在轉換時遺失。
 
 </dd> <dt>
 
 **ComputeDescV0 ()**
 </dt> <dd>
 
-以傳值方式將 CD3DX12 \_ 管線 \_ 狀態 \_ STREAM1 物件的內容傳回為 D3D12 \_ 計算 \_ 管線 \_ 狀態 \_ DESC 結構。 請注意， \_ D3D12 \_ 計算 \_ 管線狀態 \_ DESC 不包含 **InputLayout**、 **IBStripCutValue**、 **PrimitiveTopologyType**、 **VS**、 **GS**、 **>streamoutput**、 **HS**、 **DS**、 **PS**、 **BlendState**、 **DepthStencilState**、 **DSVFormat**、 **RasterizerState**、 **NumRootSignature**、 **RTVFormats**、SampleDesc 或 **SampleMask** 成員，因此這些值會在轉換時遺失。
+以傳值方式將 CD3DX12_PIPELINE_STATE_STREAM1 物件的內容傳回為 D3D12_COMPUTE_PIPELINE_STATE_DESC 結構。 請注意，D3D12_COMPUTE_PIPELINE_STATE_DESC 不包含 **InputLayout**、 **IBStripCutValue**、 **PrimitiveTopologyType**、 **VS**、 **GS**、 **>streamoutput**、 **HS**、 **DS**、 **PS**、 **BlendState**、 **DepthStencilState**、 **DSVFormat**、 **RasterizerState**、 **NumRootSignature**、 **RTVFormats**、SampleDesc **或** **SampleMask** 成員，因此這些值會在轉換時遺失。
 
 </dd> <dt>
 
@@ -173,14 +175,14 @@ struct CD3DX12_PIPELINE_STATE_STREAM1 {
 
 </dd> <dt>
 
-**Ds**
+**DS**
 </dt> <dd>
 
 描述網域著色器。
 
 </dd> <dt>
 
-**Ps**
+**PS**
 </dt> <dd>
 
 描述圖元著色器。
@@ -252,45 +254,19 @@ struct CD3DX12_PIPELINE_STATE_STREAM1 {
 
 ## <a name="remarks"></a>備註
 
-[**CD3DX12 \_管線 \_ 狀態 \_ 資料流程**](https://www.bing.com/search?q=**CD3DX12\_PIPELINE\_STATE\_STREAM**) 支援 Windows 10 Fall Creators Update，但不支援在 Windows 10 秋季建立者更新（例如針對 view 實例）中加入的子物件類型。 若要支援新的子物件類型，請改用 CD3DX12 \_ 管線 \_ 狀態 \_ STREAM1。
+[CD3DX12_PIPELINE_STATE_STREAM](cd3dx12-pipeline-state-stream.md)支援 Windows 10 Fall Creators Update，但不支援在 Windows 10 秋季建立者更新中新增的子物件類型，例如針對 view 實例。 若要支援新的子物件類型，請改用 **CD3DX12_PIPELINE_STATE_STREAM1** 。
 
-此結構的可存取成員變數是 CD3DX12 \_ 管線 \_ 狀態 \_ 資料流程子物件範本的 typedef，它會將 \_ 子物件類型標記和子物件資料結合成適合資料流程描述的單一物件。
-
-這些 typedef 包括：
-
-<dl> </dl>
+這個結構的可存取成員變數是 [**CD3DX12_PIPELINE_STATE_STREAM_SUBOBJECT**](/windows/win32/direct3d12/cd3dx12-pipeline-state-stream-subobject) 範本的 typedef，它會將子物件類型標記和子物件資料結合成適合資料流程描述的單一物件。
 
 ## <a name="requirements"></a>規格需求
 
-
-
 | 需求 | 值 |
 |-------------------|-------------------------------------------------------------------------------------|
-| 標頭<br/> | <dl> <dt>D3dx12。h</dt> </dl> |
-
-
+| 標頭 | [D3dx12。h](https://github.com/microsoft/DirectX-Headers/blob/main/include/directx/d3dx12.h) |
 
 ## <a name="see-also"></a>另請參閱
 
-<dl> <dt>
-
-[D3D12 的 Helper 結構](helper-structures-for-d3d12.md)
-</dt> <dt>
-
-[**CD3DX12 \_ 管線 \_ 狀態 \_ 資料流程**](cd3dx12-pipeline-state-stream.md)
-</dt> <dt>
-
-[**D3D12 \_ 圖形 \_ 管線 \_ 狀態 \_ DESC**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_graphics_pipeline_state_desc)
-</dt> <dt>
-
-[**D3D12 \_ 計算 \_ 管線 \_ 狀態 \_ DESC**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_compute_pipeline_state_desc)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
-
+* [D3D12 的 Helper 結構](helper-structures-for-d3d12.md)
+* [**CD3DX12_PIPELINE_STATE_STREAM**](cd3dx12-pipeline-state-stream.md)
+* [**D3D12_GRAPHICS_PIPELINE_STATE_DESC**](/windows/win32/api/d3d12/ns-d3d12-d3d12_graphics_pipeline_state_desc)
+* [**D3D12_COMPUTE_PIPELINE_STATE_DESC**](/windows/win32/api/d3d12/ns-d3d12-d3d12_compute_pipeline_state_desc)

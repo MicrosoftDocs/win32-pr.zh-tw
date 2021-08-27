@@ -20,17 +20,17 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 7a3ffe9490b75606910c5867d3e8b59d9a8c520d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7a288e3e1a625106c72f57125eea8a4219555f86
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103689531"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122988481"
 ---
 # <a name="jetopentable-function"></a>JetOpenTable 函式
 
 
-_**適用于：** Windows |Windows Server_
+_**適用于：** Windows |Windows伺服器_
 
 ## <a name="jetopentable-function"></a>JetOpenTable 函式
 
@@ -74,52 +74,18 @@ _**適用于：** Windows |Windows Server_
 
 指定零或多個下列選項的位群組。
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>值</p></th>
-<th><p>意義</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_bitTableDenyRead</p></td>
-<td><p>資料表無法由另一個資料庫會話開啟以供讀取存取。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitTableDenyWrite</p></td>
-<td><p>資料表無法由另一個資料庫會話開啟以供寫入存取。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitTableNoCache</p></td>
-<td><p>不要快取此資料表的頁面。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitTablePermitDDL</p></td>
-<td><p>允許對標示為 FixedDDL 的資料表進行 DDL 修改。 此選項必須與 JET_bitTableDenyRead 選項搭配使用。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitTablePreread</p></td>
-<td><p>提供資料表可能不在緩衝區快取中的提示，而且預先讀取可能會對效能有所説明。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitTableReadOnly</p></td>
-<td><p>要求資料表的唯讀存取權。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitTableSequential</p></td>
-<td><p>因為應用程式會依序掃描，所以資料表應該非常積極地從磁片中預先提取。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitTableUpdatable</p></td>
-<td><p>要求資料表的寫入存取權。</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>值</p> | <p>意義</p> | 
+|--------------|----------------|
+| <p>JET_bitTableDenyRead</p> | <p>資料表無法由另一個資料庫會話開啟以供讀取存取。</p> | 
+| <p>JET_bitTableDenyWrite</p> | <p>資料表無法由另一個資料庫會話開啟以供寫入存取。</p> | 
+| <p>JET_bitTableNoCache</p> | <p>不要快取此資料表的頁面。</p> | 
+| <p>JET_bitTablePermitDDL</p> | <p>允許對標示為 FixedDDL 的資料表進行 DDL 修改。 此選項必須與 JET_bitTableDenyRead 選項搭配使用。</p> | 
+| <p>JET_bitTablePreread</p> | <p>提供資料表可能不在緩衝區快取中的提示，而且預先讀取可能會對效能有所説明。</p> | 
+| <p>JET_bitTableReadOnly</p> | <p>要求資料表的唯讀存取權。</p> | 
+| <p>JET_bitTableSequential</p> | <p>因為應用程式會依序掃描，所以資料表應該非常積極地從磁片中預先提取。</p> | 
+| <p>JET_bitTableUpdatable</p> | <p>要求資料表的寫入存取權。</p> | 
+
 
 
 *ptableid*
@@ -128,63 +94,22 @@ _**適用于：** Windows |Windows Server_
 
 ### <a name="return-value"></a>傳回值
 
-此函數會傳回具有下列其中一個傳回碼的 [JET_ERR](./jet-err.md) 資料類型。 如需可能 ESE 錯誤的詳細資訊，請參閱可延伸 [儲存引擎錯誤](./extensible-storage-engine-errors.md) 和 [錯誤處理參數](./error-handling-parameters.md)。
+此函數會傳回具有下列其中一個傳回碼的 [JET_ERR](./jet-err.md) 資料類型。 如需可能 ESE 錯誤的詳細資訊，請參閱可延伸的[儲存體引擎錯誤](./extensible-storage-engine-errors.md)和[錯誤處理參數](./error-handling-parameters.md)。
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>傳回碼</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errSuccess</p></td>
-<td><p>作業已成功完成。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errInvalidDatabaseId</p></td>
-<td><p><em>dbid</em> 不是有效的資料庫識別碼。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errInvalidgrbit</p></td>
-<td><p>傳入了不正確的 <em>grbit</em> 組合。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errInvalidName</p></td>
-<td><p><em>SzTableName</em>中提供的名稱無效。</p>
-<p>如需有效資料表名稱的詳細資訊，請參閱<a href="gg269210(v=exchg.10).md">JetCreateTable</a>中的<em>szTableName</em>參數。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errObjectNotFound</p></td>
-<td><p>嘗試開啟不存在於資料庫中的資料表。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errOutOfCursors</p></td>
-<td><p>作業失敗，因為引擎無法配置開啟新資料指標所需的資源。 請參閱＜備註＞一節。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errTableInUse</p></td>
-<td><p>資料表正由另一個資料庫作業使用中。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_wrnTableInUseBySystem</p></td>
-<td><p>非嚴重警告，指出系統正在使用該資料表。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errTableLocked</p></td>
-<td><p>資料表已由另一個資料庫操作鎖定。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errTooManyOpenTables</p></td>
-<td><p>嘗試一次開啟太多唯一資料表。 請參閱＜備註＞一節。</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>傳回碼</p> | <p>Description</p> | 
+|--------------------|--------------------|
+| <p>JET_errSuccess</p> | <p>作業已成功完成。</p> | 
+| <p>JET_errInvalidDatabaseId</p> | <p><em>dbid</em> 不是有效的資料庫識別碼。</p> | 
+| <p>JET_errInvalidgrbit</p> | <p>傳入了不正確的 <em>grbit</em> 組合。</p> | 
+| <p>JET_errInvalidName</p> | <p><em>SzTableName</em>中提供的名稱無效。</p><p>如需有效資料表名稱的詳細資訊，請參閱<a href="gg269210(v=exchg.10).md">JetCreateTable</a>中的<em>szTableName</em>參數。</p> | 
+| <p>JET_errObjectNotFound</p> | <p>嘗試開啟不存在於資料庫中的資料表。</p> | 
+| <p>JET_errOutOfCursors</p> | <p>作業失敗，因為引擎無法配置開啟新資料指標所需的資源。 請參閱＜備註＞一節。</p> | 
+| <p>JET_errTableInUse</p> | <p>資料表正由另一個資料庫作業使用中。</p> | 
+| <p>JET_wrnTableInUseBySystem</p> | <p>非嚴重警告，指出系統正在使用該資料表。</p> | 
+| <p>JET_errTableLocked</p> | <p>資料表已由另一個資料庫操作鎖定。</p> | 
+| <p>JET_errTooManyOpenTables</p> | <p>嘗試一次開啟太多唯一資料表。 請參閱＜備註＞一節。</p> | 
+
 
 
 #### <a name="remarks"></a>備註
@@ -195,38 +120,16 @@ _**適用于：** Windows |Windows Server_
 
 #### <a name="requirements"></a>規格需求
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>用戶端</strong></p></td>
-<td><p>需要 Windows Vista、Windows XP 或 Windows 2000 Professional。</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>伺服器</strong></p></td>
-<td><p>需要 Windows Server 2008、Windows Server 2003 或 Windows 2000 Server。</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>標頭</strong></p></td>
-<td><p>宣告于 Esent. h 中。</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>程式庫</strong></p></td>
-<td><p>使用 ESENT。</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>DLL</strong></p></td>
-<td><p>需要 ESENT.dll。</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Unicode</strong></p></td>
-<td><p>實作為 <strong>JetOpenTableW</strong> (Unicode) 和 <strong>JetOpenTableA</strong> (ANSI) 。</p></td>
-</tr>
-</tbody>
-</table>
+
+| 需求 | 值 |
+|------------|----------|
+| <p><strong>用戶端</strong></p> | <p>需要 Windows Vista、Windows XP 或 Windows 2000 Professional。</p> | 
+| <p><strong>伺服器</strong></p> | <p>需要 Windows server 2008、Windows Server 2003 或 Windows 2000 Server。</p> | 
+| <p><strong>標頭</strong></p> | <p>宣告于 Esent. h 中。</p> | 
+| <p><strong>程式庫</strong></p> | <p>使用 ESENT。</p> | 
+| <p><strong>DLL</strong></p> | <p>需要 ESENT.dll。</p> | 
+| <p><strong>Unicode</strong></p> | <p>實作為 <strong>JetOpenTableW</strong> (Unicode) 和 <strong>JetOpenTableA</strong> (ANSI) 。</p> | 
+
 
 
 #### <a name="see-also"></a>另請參閱

@@ -31,12 +31,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e2ff06e60f125590154a17cb7467deae3611a617b684e9068439c9e15609d8fe
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 21afd8d2349bfef37dcc39b684c3f5b837728f79
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118351248"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122988271"
 ---
 # <a name="itssbtargetipaddresses-property"></a>ITsSbTarget：： IpAddresses 屬性
 
@@ -77,34 +77,14 @@ HRESULT get_IpAddresses(
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>最低支援的用戶端<br/></td>
-<td>都不支援<br/></td>
-</tr>
-<tr class="even">
-<td>最低支援的伺服器<br/></td>
-<td>Windows Server 2012<br/></td>
-</tr>
-<tr class="odd">
-<td>IDL<br/></td>
-<td><dl> <dt>Sbtsv .idl</dt> </dl></td>
-</tr>
-<tr class="even">
-<td>IID<br/></td>
-<td>IID_ITsSbTarget 定義為：
-<ul>
-<li>16616ECC-272D-411D-B324-126893033856</li>
-<li>e85e10ea-db0b-4752-b456-5fd5840901c0 on Windows Server 2008 R2</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| 需求 | 值 |
+|--------|-------|
+| 最低支援的用戶端<br /> | 都不支援<br /> | 
+| 最低支援的伺服器<br /> | Windows Server 2012<br /> | 
+| IDL<br /> | <dl><dt>Sbtsv .idl</dt></dl> | 
+| IID<br /> | IID_ITsSbTarget 定義為：<ul><li>16616ECC-272D-411D-B324-126893033856</li><li>e85e10ea-db0b-4752-b456-5fd5840901c0 on Windows Server 2008 R2</li></ul> | 
+
 
 
 

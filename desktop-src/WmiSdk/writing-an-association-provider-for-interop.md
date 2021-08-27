@@ -5,18 +5,18 @@ ms.tgt_platform: multiple
 title: 撰寫 Interop 的關聯提供者
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b2d45ceebf9f3465bf9485f4105d9ea2e4438a25c9d169193a8b68c19669b51b
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 57ef4e73c35c942e56b2636b7fced4c7e468e120
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119794268"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122887436"
 ---
 # <a name="writing-an-association-provider-for-interop"></a>撰寫 Interop 的關聯提供者
 
 關聯提供者會提供一種機制來註冊設定檔，並將其與在不同命名空間中執行的設定檔產生關聯。
 
-關聯提供者可用來公開標準設定檔，例如電源設定檔。 這是藉由在根/interop 命名空間中撰寫關聯提供者來完成，此命名空間會衍生自 [**CIM \_ RegisteredProfile**](/previous-versions//ee309375(v=vs.85))的類別，以公開關聯實例。 必須在根/interop 和根/命名空間中註冊提供者 <implemented> ，才能支援跨命名空間的遍歷。
+關聯提供者可用來公開標準設定檔，例如電源設定檔。 這是藉由在根/interop 命名空間中撰寫關聯提供者來完成，此命名空間會衍生自 [**CIM \_ RegisteredProfile**](/previous-versions//ee309375(v=vs.85))的類別，以公開關聯實例。 提供者必須在根/interop 和根/實命名空間中註冊 &lt; &gt; ，才能支援跨命名空間的遍歷。
 
 Windows每當在根/interop 命名空間中執行關聯查詢時，Management Instrumentation (WMI) 就會載入關聯提供者。
 
@@ -55,7 +55,7 @@ Windows每當在根/interop 命名空間中執行關聯查詢時，Management In
 
 2.  建立可傳回 [**CIM \_ ElementConformsToProfile**](/previous-versions/windows/desktop/iscsitarg/cim-elementconformstoprofile)關聯實例的提供者。 這項處理序有兩個步驟。
 
-    1.  建立衍生自 interop 和執行命名空間中 [**CIM \_ ElementConformsToProfile**](/previous-versions/windows/desktop/iscsitarg/cim-elementconformstoprofile) 的類別。 因為相同的設定檔可以由不同的廠商來執行，所以類別的名稱應該是唯一的。 建議的命名慣例為 " <Organization> \_ <ProductName> \_ <ClassName> \_ <Version> "。 **ConformantStandard** 或 **ManagedElement** 屬性必須指定包含這個類別所屬之命名空間的 **MSFT \_ TargetNamespace** 限定詞。
+    1.  建立衍生自 interop 和執行命名空間中 [**CIM \_ ElementConformsToProfile**](/previous-versions/windows/desktop/iscsitarg/cim-elementconformstoprofile) 的類別。 因為相同的設定檔可以由不同的廠商來執行，所以類別的名稱應該是唯一的。 建議的命名慣例為 " &lt; Organization &gt; \_ &lt; ProductName &gt; \_ &lt; ClassName &gt; \_ &lt; Version &gt; "。 **ConformantStandard** 或 **ManagedElement** 屬性必須指定包含這個類別所屬之命名空間的 **MSFT \_ TargetNamespace** 限定詞。
 
         下列程式碼範例說明 \_ \_ \_ 從根 interop 命名空間中的 [**CIM \_ ElementConformsToProfile**](/previous-versions/windows/desktop/iscsitarg/cim-elementconformstoprofile) 衍生 Microsoft Process ElementConformsToProfile v1 類別的語法 \\ 。 在此範例中，Win32 \_ 進程 managed 元素會 \\ 使用 **MSFT \_ TargetNamespace** 辨識符號來參考根 cimv2 命名空間。
 
@@ -83,13 +83,13 @@ Windows每當在根/interop 命名空間中執行關聯查詢時，Management In
 
         如果未在參考已實命名空間的屬性上指定 **MSFT \_ TargetNamespace** 限定詞，則 "associators of of" 語句的 **ResultClass** 篩選器將無法運作。 例如，如果未指定 **MSFT \_ TargetNamespace** 辨識符號，下列 Windows PowerShell 命令列將不會傳回物件： **>get-wmiobject-query "associators of of {ProcessProfile. InstanceID = ' Process '} where resultclass = ' Win32 \_ Process '"**。
 
-        **MSFT \_ TargetNamespace** 辨識符號無法指向遠端電腦上的命名空間。 例如，不支援下列命名空間： MSFT \_ TargetNamespace (\\ \\ \\ \\ <RemoteMachine> \\ \\ 根 \\ \\ interop) 。
+        **MSFT \_ TargetNamespace** 辨識符號無法指向遠端電腦上的命名空間。 例如，不支援下列命名空間： MSFT \_ TargetNamespace (\\ \\ \\ \\ &lt; RemoteMachine &gt; \\ \\ 根 \\ \\ interop) 。
 
     2.  撰寫提供者，以傳回所建立之衍生類別的實例。 如需詳細資訊，請參閱 [撰寫執行個體提供者](writing-an-instance-provider.md)。 當您存取跨命名空間實例時，可能需要存取用戶端的安全性層級。 如需詳細資訊，請參閱模擬 [用戶端](impersonating-a-client.md)。
 
-        關聯提供者應該同時執行 [**iwbemservices. CreateInstanceEnumAsync**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-createinstanceenumasync) 和 [**iwbemservices. GetObjectAsync**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-getobjectasync) 方法。 執行 [**IWbemServices.ExecQueryAsync**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-execqueryasync) 方法是選擇性的。 因為此提供者可以從根 \\ interop 和根命名空間進行存取 \\ <implemented> ，所以不應該對提供者內的命名空間有明確的相依性。
+        關聯提供者應該同時執行 [**iwbemservices. CreateInstanceEnumAsync**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-createinstanceenumasync) 和 [**iwbemservices. GetObjectAsync**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-getobjectasync) 方法。 執行 [**IWbemServices.ExecQueryAsync**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-execqueryasync) 方法是選擇性的。 因為此提供者可以從根 \\ interop 和根實 \\ &lt; 命名空間進行存取 &gt; ，所以不應該對提供者內的命名空間有明確的相依性。
 
-3.  在根 \\ interop 和根 \\ 命名空間中註冊關聯提供者 <implemented> 。 如需詳細資訊，請參閱 [註冊執行個體提供者](registering-an-instance-provider.md)。
+3.  在根 \\ interop 和根 \\ &lt; 執行的 &gt; 命名空間中註冊關聯提供者。 如需詳細資訊，請參閱 [註冊執行個體提供者](registering-an-instance-provider.md)。
 
     下列程式碼範例說明在根 interop 命名空間中註冊關聯提供者的語法 \\ 。
 

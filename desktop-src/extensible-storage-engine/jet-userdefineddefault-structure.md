@@ -15,23 +15,23 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: e5f588588a1a6769e997264321f8911a86e169c9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e8c34c7677a100488dfbc533aed3ca07f5b3af4c
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "107000183"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122988091"
 ---
 # <a name="jet_userdefineddefault-structure"></a>JET_USERDEFINEDDEFAULT 結構
 
 
-_**適用于：** Windows |Windows Server_
+_**適用于：** Windows |Windows伺服器_
 
 ## <a name="jet_userdefineddefault-structure"></a>JET_USERDEFINEDDEFAULT 結構
 
 **JET_USERDEFINEDDEFAULT** 結構會與 JET_bitColumnUserDefinedDefault 一起指定，以提供新的資料行使用回呼決定的預設值。 這項技術可以用來執行計算的資料行。
 
-**WINDOWS XP：** 在 Windows XP 中引進 **JET_USERDEFINEDDEFAULT** 結構。
+**Windows XP：** Windows XP 引進 **JET_USERDEFINEDDEFAULT** 結構。
 
 ```cpp
     typedef struct tag_JET_USERDEFINEDDEFAULT {
@@ -80,30 +80,14 @@ _**適用于：** Windows |Windows Server_
 
 ### <a name="requirements"></a>規格需求
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>用戶端</strong></p></td>
-<td><p>需要 Windows Vista、Windows XP 或 Windows 2000 Professional。</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>伺服器</strong></p></td>
-<td><p>需要 Windows Server 2008、Windows Server 2003 或 Windows 2000 Server。</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>標頭</strong></p></td>
-<td><p>宣告于 Esent. h 中。</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Unicode</strong></p></td>
-<td><p>實作為 <strong>JET_ USERDEFINEDDEFAULT_W</strong> (Unicode) 和 <strong>JET_</strong> USERDEFINEDDEFAULT_A (ANSI) 。</p></td>
-</tr>
-</tbody>
-</table>
+
+| 需求 | 值 |
+|------------|----------|
+| <p><strong>用戶端</strong></p> | <p>需要 Windows Vista、Windows XP 或 Windows 2000 Professional。</p> | 
+| <p><strong>伺服器</strong></p> | <p>需要 Windows server 2008、Windows Server 2003 或 Windows 2000 Server。</p> | 
+| <p><strong>標頭</strong></p> | <p>宣告于 Esent. h 中。</p> | 
+| <p><strong>Unicode</strong></p> | <p>實作為 <strong>JET_ USERDEFINEDDEFAULT_W</strong> (Unicode) 和 <strong>JET_</strong> USERDEFINEDDEFAULT_A (ANSI) 。</p> | 
+
 
 
 ### <a name="see-also"></a>另請參閱

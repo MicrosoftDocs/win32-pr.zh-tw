@@ -4,12 +4,12 @@ ms.assetid: d59fdf76-50e7-4a59-b1bd-a12cdb0026f6
 title: 'IMN_CLOSESTATUSWINDOW 通知碼 (Imm) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5c0347fb4b0d83a9e3891b9aea59d82ab81e2183
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a56093e5dac9c5b9b236c6819a627c1d8c1fc05aa8350824577f29f64c007e71
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106971825"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120107158"
 ---
 # <a name="imn_closestatuswindow-notification-code"></a>IMN \_ CLOSESTATUSWINDOW 通知碼
 
@@ -58,7 +58,7 @@ IMN_CLOSESTATUSWINDOW
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                           |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                 |
-| 標頭<br/>                   | <dl> <dt>Imm (包括 Windows .h) </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Imm (包含 Windows .h) </dt> </dl> |
 
 
 

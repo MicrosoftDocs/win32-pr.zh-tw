@@ -18,17 +18,17 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 308c012bc5eb144e0ac0d608c64d63ccf39aeca1
-ms.sourcegitcommit: 168d11879cb9fd89d26f826482725c0a626be00f
+ms.openlocfilehash: d074e07dec88bf0b33ec56b1391986758fbd388c
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "104323463"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122984531"
 ---
 # <a name="jetinit-function"></a>JetInit 函式
 
 
-_**適用于：** Windows |Windows Server_
+_**適用于：** Windows |Windows伺服器_
 
 ## <a name="jetinit-function"></a>JetInit 函式
 
@@ -46,9 +46,9 @@ JET_ERR JET_API JetInit(
 
 此呼叫所要使用的實例。
 
-若為 Windows 2000，則會忽略此參數，且應一律為 Null。
+針對 Windows 2000，此參數會被忽略，且應該一律為 Null。
 
-若為 Windows XP 和更新版本，則使用這個參數取決於引擎的操作模式。 如果引擎是在舊版模式下運作 (Windows 2000 相容性模式) 只支援一個實例，此參數可以是 Null，也可以設定為有效的輸出緩衝區，它會傳回做為初始化的副作用而建立的全域實例控制碼。 此輸出緩衝區必須設定為 Null 或 JET_instanceNil。 然後，這個實例控制碼可以傳遞給任何其他使用實例的函數。 如果引擎是在多重實例模式中作業，則這個參數必須設定為有效的輸入緩衝區，其中包含正在初始化的 [JetCreateInstance](./jetcreateinstance-function.md) 函式實例所傳回的實例控制碼。
+針對 Windows XP 和更新版本，此參數的使用取決於引擎的作業模式。 如果引擎是在舊版模式下運作 (Windows 2000 相容性模式) 只支援一個實例，此參數可以是 Null，也可以設定為有效的輸出緩衝區，它會傳回做為初始化的副作用而建立的全域實例控制碼。 此輸出緩衝區必須設定為 Null 或 JET_instanceNil。 然後，這個實例控制碼可以傳遞給任何其他使用實例的函數。 如果引擎是在多重實例模式中作業，則這個參數必須設定為有效的輸入緩衝區，其中包含正在初始化的 [JetCreateInstance](./jetcreateinstance-function.md) 函式實例所傳回的實例控制碼。
 
 
 #### <a name="remarks"></a>備註
@@ -81,49 +81,30 @@ JET_ERR JET_API JetInit(
 
 如果復原是在一組記錄檔上執行，而且並非所有資料庫都存在 (這會在正常) 情況下傳回錯誤 JET_errAttachedDatabaseMismatch，而且用戶端想要復原以 JET_ 繼續進行可用的資料庫的復原。 這些錯誤是由應用程式所 preventable。 應用程式必須小心保護這些檔案的存放庫，使其不受使用者或其他應用程式這類外部強制操作的影響。 如果應用程式想要完全終結實例，則必須刪除與該實例相關聯的所有檔案。 這些包括檢查點檔案、交易記錄檔，以及附加至實例的任何資料庫檔案。
 
-在 Windows 2000 和更新版本之間， **JetInit** 函式的行為與附加至實例的資料庫檔案有不同的行為。
+**JetInit** 函式的行為與附加至實例的資料庫檔案（Windows 2000 和更新版本之間）有不同的行為。
 
-**Windows 2000：**  在 Windows 2000 中，在先前化身實例期間附加至實例的任何資料庫，在 **JetInit** 順利完成之後仍會附加至實例。 在 **JetInit** 之後不需要呼叫 [JetAttachDatabase](./jetattachdatabase-function.md) ，以確保日後的資料庫存取。 如果在 **JetInit** 函數之後呼叫 [JetAttachDatabase](./jetattachdatabase-function.md)函數，則會傳回 JET_wrnDatabaseAttached 警告。 此警告表示已保留資料庫附件，而且可以忽略。
+**Windows 2000：** 在 Windows 2000 中，在先前化身實例期間附加至實例的任何資料庫，在 **JetInit** 順利完成之後仍會附加至實例。 在 **JetInit** 之後不需要呼叫 [JetAttachDatabase](./jetattachdatabase-function.md) ，以確保日後的資料庫存取。 如果在 **JetInit** 函數之後呼叫 [JetAttachDatabase](./jetattachdatabase-function.md)函數，則會傳回 JET_wrnDatabaseAttached 警告。 此警告表示已保留資料庫附件，而且可以忽略。
 
-**WINDOWS XP：**  在 Windows XP 和更新版本中， **JetInit** 會自動將所有資料庫從實例卸離。 這表示在這種情況下，必須一律在 **JetInit** 之後呼叫 [JetAttachDatabase](./jetattachdatabase-function.md) 。
+**Windows XP：** 在 Windows XP 和更新版本中， **JetInit** 會自動卸離實例的所有資料庫。 這表示在這種情況下，必須一律在 **JetInit** 之後呼叫 [JetAttachDatabase](./jetattachdatabase-function.md) 。
 
-任何撰寫為在 Windows 2000 和更新版本上執行的應用程式，在 **JetInit** 之後都必須一律呼叫 [JetAttachDatabase](./jetattachdatabase-function.md) 。 如果應用程式在 Windows 2000 上執行，則在某些情況下，它必須預期會有 JET_wrnDatabaseAttached。 如需詳細資訊，請參閱 [JetAttachDatabase](./jetattachdatabase-function.md) 。
+任何撰寫為在 Windows 2000 和更新版本上執行的應用程式，在 **JetInit** 之後都必須一律呼叫 [JetAttachDatabase](./jetattachdatabase-function.md) 。 如果應用程式在 Windows 2000 上執行，則在某些情況下，它必須預期會看到 JET_wrnDatabaseAttached。 如需詳細資訊，請參閱 [JetAttachDatabase](./jetattachdatabase-function.md) 。
 
 #### <a name="requirements"></a>規格需求
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>用戶端</strong></p></td>
-<td><p>需要 Windows Vista、Windows XP 或 Windows 2000 Professional。</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>伺服器</strong></p></td>
-<td><p>需要 Windows Server 2008、Windows Server 2003 或 Windows 2000 Server。</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>標頭</strong></p></td>
-<td><p>宣告于 Esent. h 中。</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>程式庫</strong></p></td>
-<td><p>使用 ESENT。</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>DLL</strong></p></td>
-<td><p>需要 ESENT.dll。</p></td>
-</tr>
-</tbody>
-</table>
+
+| 需求 | 值 |
+|------------|----------|
+| <p><strong>用戶端</strong></p> | <p>需要 Windows Vista、Windows XP 或 Windows 2000 Professional。</p> | 
+| <p><strong>伺服器</strong></p> | <p>需要 Windows server 2008、Windows Server 2003 或 Windows 2000 Server。</p> | 
+| <p><strong>標頭</strong></p> | <p>宣告于 Esent. h 中。</p> | 
+| <p><strong>程式庫</strong></p> | <p>使用 ESENT。</p> | 
+| <p><strong>DLL</strong></p> | <p>需要 ESENT.dll。</p> | 
+
 
 
 #### <a name="see-also"></a>另請參閱
 
-[可擴充儲存引擎檔案](./extensible-storage-engine-files.md)  
+[可擴充的儲存體引擎檔案](./extensible-storage-engine-files.md)  
 [JET_ERR](./jet-err.md)  
 [JET_GRBIT](./jet-grbit.md)  
 [JET_INSTANCE](./jet-instance.md)  

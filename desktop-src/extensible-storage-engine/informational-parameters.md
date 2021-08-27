@@ -15,17 +15,17 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: a8923b544726e474775684f54fed47d8b4ba281e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cd932f64956e1a00aae5925b97dbf6c35ecc2661
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103691336"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122987601"
 ---
 # <a name="informational-parameters"></a>資訊參數
 
 
-_**適用于：** Windows |Windows Server_
+_**適用于：** Windows |Windows伺服器_
 
 ## <a name="informational-parameters"></a>資訊參數
 
@@ -36,58 +36,21 @@ _**適用于：** Windows |Windows Server_
 
 這個唯讀參數表示可針對目前資料庫頁面大小選取的最大可允許索引鍵長度， (如 JET_paramDatabasePageSize) 所設定。
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>預設值：3</p></td>
-<td><p>JET_cbKeyMost4KBytePage</p></td>
-</tr>
-<tr class="even">
-<td><p>輸入：</p></td>
-<td><p>整數</p></td>
-</tr>
-<tr class="odd">
-<td><p>有效範圍：</p></td>
-<td><p>255–65535</p></td>
-</tr>
-<tr class="even">
-<td><p>範圍：</p></td>
-<td><p>全球</p></td>
-</tr>
-<tr class="odd">
-<td><p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p></td>
-<td><p>N/A</p></td>
-</tr>
-<tr class="even">
-<td><p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p></td>
-<td><p>N/A</p></td>
-</tr>
-<tr class="odd">
-<td><p>會影響實體版面配置：</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>會影響可靠性：</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>影響效能：</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>會影響資源：</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>可用性：</p></td>
-<td><p>從 Windows Server 2008 和 Windows Vista 開始</p></td>
-</tr>
-</tbody>
-</table>
+
+| 標籤 | 值 |
+|--------|-------|
+| <p>預設值：3</p> | <p>JET_cbKeyMost4KBytePage</p> | 
+| <p>輸入：</p> | <p>整數</p> | 
+| <p>有效範圍：</p> | <p>255–65535</p> | 
+| <p>範圍：</p> | <p>全球</p> | 
+| <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p>N/A</p> | 
+| <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p>N/A</p> | 
+| <p>會影響實體版面配置：</p> | <p>No</p> | 
+| <p>會影響可靠性：</p> | <p>No</p> | 
+| <p>影響效能：</p> | <p>No</p> | 
+| <p>會影響資源：</p> | <p>No</p> | 
+| <p>可用性：</p> | <p>從 Windows Server 2008 和 Windows Vista 開始</p> | 
+
 
 
 *JET_paramMaxColtyp*  
@@ -95,58 +58,21 @@ _**適用于：** Windows |Windows Server_
 
 這個唯讀參數會傳回該版本資料庫引擎的最大 [JET_COLTYP](./jet-coltyp.md) (JET_coltypMax) 。 這個值可以用來測試特定 [JET_COLTYP](./jet-coltyp.md)的支援。 如果給定的 [JET_COLTYP](./jet-coltyp.md) 小於這個參數的值，database engine 就會支援它。
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>預設值：3</p></td>
-<td><p>JET_coltypUnsignedShort + 1</p></td>
-</tr>
-<tr class="even">
-<td><p>輸入：</p></td>
-<td><p>整數</p></td>
-</tr>
-<tr class="odd">
-<td><p>有效範圍：</p></td>
-<td><p>0-255</p></td>
-</tr>
-<tr class="even">
-<td><p>範圍：</p></td>
-<td><p>全球</p></td>
-</tr>
-<tr class="odd">
-<td><p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p></td>
-<td><p>N/A</p></td>
-</tr>
-<tr class="even">
-<td><p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p></td>
-<td><p>N/A</p></td>
-</tr>
-<tr class="odd">
-<td><p>會影響實體版面配置：</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>會影響可靠性：</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>影響效能：</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>會影響資源：</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="odd">
-<td><p>可用性：</p></td>
-<td><p>從 Windows Server 2008 和 Windows Vista 開始</p></td>
-</tr>
-</tbody>
-</table>
+
+| 標籤 | 值 |
+|--------|-------|
+| <p>預設值：3</p> | <p>JET_coltypUnsignedShort + 1</p> | 
+| <p>輸入：</p> | <p>整數</p> | 
+| <p>有效範圍：</p> | <p>0-255</p> | 
+| <p>範圍：</p> | <p>全球</p> | 
+| <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p>N/A</p> | 
+| <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p>N/A</p> | 
+| <p>會影響實體版面配置：</p> | <p>No</p> | 
+| <p>會影響可靠性：</p> | <p>No</p> | 
+| <p>影響效能：</p> | <p>No</p> | 
+| <p>會影響資源：</p> | <p>No</p> | 
+| <p>可用性：</p> | <p>從 Windows Server 2008 和 Windows Vista 開始</p> | 
+
 
 
 *JET_paramLVChunkSizeMost*  
@@ -154,86 +80,32 @@ _**適用于：** Windows |Windows Server_
 
 唯讀參數，會根據設定的頁面大小傳回長值的區塊大小。 如果要使用多個 Jet {Set，抓取} 資料行呼叫來讀取或寫入較長的值，則使用大小是區塊大小倍數的緩衝區會更有效率。
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>預設值：3</p></td>
-<td><p>2kb 頁面 = 1966 位元組<br />
-4 kb 頁面 = 4014 個位元組<br />
-8kb 頁面 = 8110 位元組<br />
-16kb 頁面 = 4050 位元組<br />
-32kb 頁面 = 8150 位元組</p></td>
-</tr>
-<tr class="even">
-<td><p>輸入：</p></td>
-<td><p>整數</p></td>
-</tr>
-<tr class="odd">
-<td><p>有效範圍：</p></td>
-<td><p>0-10000</p></td>
-</tr>
-<tr class="even">
-<td><p>範圍：</p></td>
-<td><p></p></td>
-</tr>
-<tr class="odd">
-<td><p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p></td>
-<td><p></p></td>
-</tr>
-<tr class="even">
-<td><p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p></td>
-<td><p></p></td>
-</tr>
-<tr class="odd">
-<td><p>會影響實體版面配置：</p></td>
-<td><p></p></td>
-</tr>
-<tr class="even">
-<td><p>會影響可靠性：</p></td>
-<td><p></p></td>
-</tr>
-<tr class="odd">
-<td><p>影響效能：</p></td>
-<td><p></p></td>
-</tr>
-<tr class="even">
-<td><p>會影響資源：</p></td>
-<td><p></p></td>
-</tr>
-<tr class="odd">
-<td><p>可用性：</p></td>
-<td><p></p></td>
-</tr>
-</tbody>
-</table>
+
+| 標籤 | 值 |
+|--------|-------|
+| <p>預設值：3</p> | <p>2kb 頁面 = 1966 位元組<br />4 kb 頁面 = 4014 個位元組<br />8kb 頁面 = 8110 位元組<br />16kb 頁面 = 4050 位元組<br />32kb 頁面 = 8150 位元組</p> | 
+| <p>輸入：</p> | <p>整數</p> | 
+| <p>有效範圍：</p> | <p>0-10000</p> | 
+| <p>範圍：</p> | <p></p> | 
+| <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p></p> | 
+| <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p></p> | 
+| <p>會影響實體版面配置：</p> | <p></p> | 
+| <p>會影響可靠性：</p> | <p></p> | 
+| <p>影響效能：</p> | <p></p> | 
+| <p>會影響資源：</p> | <p></p> | 
+| <p>可用性：</p> | <p></p> | 
+
 
 
 ### <a name="requirements"></a>規格需求
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>用戶端</strong></p></td>
-<td><p>需要 Windows Vista。</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>伺服器</strong></p></td>
-<td><p>需要 Windows Server 2008。</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>標頭</strong></p></td>
-<td><p>宣告于 Esent. h 中。</p></td>
-</tr>
-</tbody>
-</table>
+
+| 需求 | 值 |
+|------------|----------|
+| <p><strong>用戶端</strong></p> | <p>需要 Windows Vista。</p> | 
+| <p><strong>伺服器</strong></p> | <p>需要 Windows Server 2008。</p> | 
+| <p><strong>標頭</strong></p> | <p>宣告于 Esent. h 中。</p> | 
+
 
 
 ### <a name="see-also"></a>另請參閱

@@ -4,18 +4,18 @@ ms.assetid: bf380ddf-8171-4ef4-be47-94c7a6aabf0a
 title: 使用 SIO_ADDRESS_LIST_SORT
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6452023b69ccf72c78b393c5059fee497997af51
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2f0bce27088052bfc029047d5f498ad90962567b50015a5331b26016e455d770
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194723"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120121140"
 ---
 # <a name="using-sio_address_list_sort"></a>使用 SIO \_ 通訊 \_ 清單 \_ 排序
 
 **SIO \_ 位址 \_ 清單 \_ 排序** IOCTL 可讓應用程式開發人員排序 IPv6 和 IPv4 目的地位址的清單，以判斷建立連接的最佳可用位址。 Windows XP 和更新版本支援 **SIO \_ 位址 \_ 清單 \_ 排序** 的 IOCTL。
 
-在 Windows Vista 和更新版本上， [**CreateSortedAddressPairs**](/windows/win32/api/netioapi/nf-netioapi-createsortedaddresspairs) 函式會採用提供的潛在 IP 目的地地址清單、將目的地位址與主機電腦的本機 IP 位址配對，並根據最適合兩個對等互連的位址組來排序配對。 **CreateSortedAddressPairs** 函式應該用在 Windows Vista 和更新版本上，而不是 **SIO \_ 通訊 \_ 清單 \_ 排序** 的 IOCTL。
+在 Windows Vista 和更新版本上， [**CreateSortedAddressPairs**](/windows/win32/api/netioapi/nf-netioapi-createsortedaddresspairs)函式會採用提供的潛在 IP 目的地地址清單、將目的地位址與主機電腦的本機 IP 位址配對，並根據最適合兩個對等互連的位址組來排序配對。 在 Windows Vista 和更新版本上，您應該使用 **CreateSortedAddressPairs** 函式，而不是 **SIO \_ 通訊 \_ 清單 \_ 排序** 的 IOCTL。
 
 下列各節說明 **SIO \_ 通訊 \_ 清單 \_ 排序** 的使用考慮。
 
@@ -55,7 +55,7 @@ netsh interface ipv6 show prefixpolicy
 
 **SIO \_ 位址 \_ 清單 \_ 排序** IOCTL 會忽略系結至通訊端的來源位址，而且只會依據作為參數傳遞的目的地地址清單來排序。
 
-[**CreateSortedAddressPairs**](/windows/win32/api/netioapi/nf-netioapi-createsortedaddresspairs)函式應該用在 Windows Vista 和更新版本上，而不是 **SIO \_ 通訊 \_ 清單 \_ 排序** 的 IOCTL。 **CreateSortedAddressPairs** 函式會傳回位址組清單，其中包含本機來源位址和目的地位址。 這會提供應用程式正確的來源位址，以用於每個目的地位址。 應用程式也可以藉由尋找特定的來源位址來篩選結果。 。
+在 Windows Vista 和更新版本上，您應該使用 [**CreateSortedAddressPairs**](/windows/win32/api/netioapi/nf-netioapi-createsortedaddresspairs)函式，而不是 **SIO \_ 通訊 \_ 清單 \_ 排序** 的 IOCTL。 **CreateSortedAddressPairs** 函式會傳回位址組清單，其中包含本機來源位址和目的地位址。 這會提供應用程式正確的來源位址，以用於每個目的地位址。 應用程式也可以藉由尋找特定的來源位址來篩選結果。 。
 
 ## <a name="requirements"></a>規格需求
 

@@ -3,15 +3,15 @@ title: 外掛程式結構
 description: Windows 生物特徵辨識架構 API 開發用戶端應用程式的結構。
 ms.assetid: 64fb908c-72c2-4639-a2f6-77ede080512c
 keywords:
-- Windows 生物特徵辨識架構 API Windows 生物特徵辨識架構 API、外掛程式結構
+- Windows生物特徵辨識架構 api Windows 生物特徵辨識架構 API、外掛程式結構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 193b5a99f30c76e8e6e2ab7ebf0242cf56905816
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e150dd043a8c95e91d0f9095e23584544f43a503a709ae54c9180e06aa40bdaf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104301715"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120101238"
 ---
 # <a name="plug-in-structures"></a>外掛程式結構
 

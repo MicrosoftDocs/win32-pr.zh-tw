@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 6c7684fe69cff252d75ea2cceb0872044e8a011b39e88375d6eb576cb1b5360e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7d7861e558bbf6a1938d252a52e7bb781068a331
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118486331"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122476864"
 ---
 # <a name="jet_dbinfomisc-structure"></a>JET_DBINFOMISC 結構
 
@@ -67,72 +67,23 @@ _**適用于：** Windows |Windows伺服器_
 
 追蹤可回溯相容的累加式資料庫格式更新。
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>ulVersion、ulUpdate =</p></th>
-<th><p>意義</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>0x620，0</p></td>
-<td><p>原始作業系統 Beta 格式 (4/22/97) 。</p></td>
-</tr>
-<tr class="even">
-<td><p>0x620，1</p></td>
-<td><p>在目錄中新增條件式索引編制和舊的 (5/29/97) 的資料行。</p></td>
-</tr>
-<tr class="odd">
-<td><p>0x620，2</p></td>
-<td><p>在 fLocalizedText 中新增旗標 (6/5/97) 。</p></td>
-</tr>
-<tr class="even">
-<td><p>0x620、3</p></td>
-<td><p>將 SPLIT_BUFFER 新增至空間樹狀結構的根頁面 (10/30/97) 。</p></td>
-</tr>
-<tr class="odd">
-<td><p>0x620，2</p></td>
-<td><p>還原修訂以使 ESE97 維持 (1/28/98) 的向前相容性。</p></td>
-</tr>
-<tr class="even">
-<td><p>0x620、3</p></td>
-<td><p>將新的標記資料行新增至目錄， (&quot; CallbackData &quot; 和 &quot; CallbackDependencies &quot;) 。</p></td>
-</tr>
-<tr class="odd">
-<td><p>0x620，4</p></td>
-<td><p>SLV 支援： signSLV、db 標頭中的 fSLVExists (5/5/98) 。</p></td>
-</tr>
-<tr class="even">
-<td><p>0x620，5</p></td>
-<td><p>新的 SLV 空間樹狀結構 (5/29/98) 。</p></td>
-</tr>
-<tr class="odd">
-<td><p>0x620、6</p></td>
-<td><p>SLV space map (10/12/98) 。</p></td>
-</tr>
-<tr class="even">
-<td><p>0x620，7</p></td>
-<td><p>4位元組 IDXSEG (12/10/98) 。</p></td>
-</tr>
-<tr class="odd">
-<td><p>0x620、8</p></td>
-<td><p> (1/25/99) 的新範本資料行格式。</p></td>
-</tr>
-<tr class="even">
-<td><p>0x620、9</p></td>
-<td><p>已排序的範本資料行 (6/24/99) 。</p></td>
-</tr>
-<tr class="odd">
-<td><p>0x623，0</p></td>
-<td><p>新的空間管理員 (5/15/99) 。</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>ulVersion、ulUpdate =</p> | <p>意義</p> | 
+|------------------------------|----------------|
+| <p>0x620，0</p> | <p>原始作業系統 Beta 格式 (4/22/97) 。</p> | 
+| <p>0x620，1</p> | <p>在目錄中新增條件式索引編制和舊的 (5/29/97) 的資料行。</p> | 
+| <p>0x620，2</p> | <p>在 fLocalizedText 中新增旗標 (6/5/97) 。</p> | 
+| <p>0x620、3</p> | <p>將 SPLIT_BUFFER 新增至空間樹狀結構的根頁面 (10/30/97) 。</p> | 
+| <p>0x620，2</p> | <p>還原修訂以使 ESE97 維持 (1/28/98) 的向前相容性。</p> | 
+| <p>0x620、3</p> | <p>將新的標記資料行新增至 catalog ( "CallbackData" 和 "CallbackDependencies" ) 。</p> | 
+| <p>0x620，4</p> | <p>SLV 支援： signSLV、db 標頭中的 fSLVExists (5/5/98) 。</p> | 
+| <p>0x620，5</p> | <p>新的 SLV 空間樹狀結構 (5/29/98) 。</p> | 
+| <p>0x620、6</p> | <p>SLV space map (10/12/98) 。</p> | 
+| <p>0x620，7</p> | <p>4位元組 IDXSEG (12/10/98) 。</p> | 
+| <p>0x620、8</p> | <p> (1/25/99) 的新範本資料行格式。</p> | 
+| <p>0x620、9</p> | <p>已排序的範本資料行 (6/24/99) 。</p> | 
+| <p>0x623，0</p> | <p>新的空間管理員 (5/15/99) 。</p> | 
+
 
 
 **signDb**
@@ -145,45 +96,15 @@ _**適用于：** Windows |Windows伺服器_
 
 此成員可以使用下列選項。
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>值</p></th>
-<th><p>意義</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_dbstateJustCreated<br />
-1</p></td>
-<td><p>剛建立資料庫。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_dbstateDirtyShutdown<br />
-2</p></td>
-<td><p>資料庫需要執行硬或軟復原才能成為可用或可移動的。 其中一個不應嘗試移動處於此狀態的資料庫。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_dbstateCleanShutdown<br />
-3</p></td>
-<td><p>資料庫處於乾淨狀態。 您可以在沒有任何記錄檔的情況下附加資料庫。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_dbstateBeingConverted<br />
-4</p></td>
-<td><p>正在升級資料庫。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_dbstateForceDetach<br />
-5</p></td>
-<td><p>內部。</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>值</p> | <p>意義</p> | 
+|--------------|----------------|
+| <p>JET_dbstateJustCreated<br />1</p> | <p>剛建立資料庫。</p> | 
+| <p>JET_dbstateDirtyShutdown<br />2</p> | <p>資料庫需要執行硬或軟復原才能成為可用或可移動的。 其中一個不應嘗試移動處於此狀態的資料庫。</p> | 
+| <p>JET_dbstateCleanShutdown<br />3</p> | <p>資料庫處於乾淨狀態。 您可以在沒有任何記錄檔的情況下附加資料庫。</p> | 
+| <p>JET_dbstateBeingConverted<br />4</p> | <p>正在升級資料庫。</p> | 
+| <p>JET_dbstateForceDetach<br />5</p> | <p>內部。</p> | 
+
 
 
 **lgposConsistent**
@@ -258,26 +179,9 @@ _**適用于：** Windows |Windows伺服器_
 
 ### <a name="requirements"></a>規格需求
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>用戶端</strong></p></td>
-<td><p>需要 Windows Vista、Windows XP 或 Windows 2000 Professional。</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>伺服器</strong></p></td>
-<td><p>需要 Windows server 2008、Windows Server 2003 或 Windows 2000 Server。</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>標頭</strong></p></td>
-<td><p>宣告于 Esent. h 中。</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p><strong>用戶端</strong></p> | <p>需要 Windows Vista、Windows XP 或 Windows 2000 Professional。</p> | | <p><strong>伺服器</strong></p> | <p>需要 Windows server 2008、Windows Server 2003 或 Windows 2000 Server。</p> | | <p><strong>標頭</strong></p> | <p>宣告于 Esent. h 中。</p> | 
+
 
 
 ### <a name="see-also"></a>另請參閱
