@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 2aa2a34ac3c5a75407c14b1888ea4125e4e2aaed
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: aa41aa7906051180340c62217fab070710bcf57fa4166063d86749e9dfc13008
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465808"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120125778"
 ---
 # <a name="name-headerfieldtype-element"></a>HeaderFieldType) 專案的名稱 (
 
@@ -36,7 +36,7 @@ ms.locfileid: "104465808"
 
 
 
-| 元素                                                                         | 衍生自                                                               | Description                                                    |
+| 元素                                                                         | 衍生自                                                               | 描述                                                    |
 |---------------------------------------------------------------------------------|----------------------------------------------------------------------------|----------------------------------------------------------------|
 | [**HeaderField**](taskschedulerschema-headerfield-headerfieldstype-element.md) | [**headerFieldType**](taskschedulerschema-headerfieldtype-complextype.md) | 在電子郵件訊息中包含標頭的欄位。 <br/> |
 
@@ -48,8 +48,8 @@ ms.locfileid: "104465808"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: a1ef1ce1-42f6-4627-ab64-e7f41fa23e94
 title: 交易式 NTFS 的程式設計考慮
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e79dc7eba4de1258c294d3e41f8042f3cb01dc87
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fd3150746b1cb34495178cc8318805587f3d08f17e04cb8227e95a9c52ddce3f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106979963"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120047938"
 ---
 # <a name="programming-considerations-for-transactional-ntfs"></a>交易式 NTFS 的程式設計考慮
 
@@ -51,7 +51,7 @@ ms.locfileid: "106979963"
 藉由呼叫 [**DeleteFileTransacted**](/windows/desktop/api/WinBase/nf-winbase-deletefiletransacteda) 函式所刪除的檔案或目錄，將會對所有外部讀取器保持可見。
 
 > [!Note]  
-> 在交易結束之前，必須先關閉檔案的所有交易控制碼。 如果控制碼未正確關閉，就不會進行刪除。 必須先關閉檔案的所有開啟的控制碼，才能執行刪除作業的認可，以將其視為交易的一部分。 這是因為系統不會實際刪除檔案，直到其最後一個控制碼關閉為止，即使作業不是交易式，也是 Windows 檔案 i/o 子系統的一部分。
+> 在交易結束之前，必須先關閉檔案的所有交易控制碼。 如果控制碼未正確關閉，就不會進行刪除。 必須先關閉檔案的所有開啟的控制碼，才能執行刪除作業的認可，以將其視為交易的一部分。 這是因為系統不會實際刪除檔案，直到它的最後一個控制碼關閉為止，即使作業不是交易式，也是 Windows 檔案 i/o 子系統的一部分。
 
  
 

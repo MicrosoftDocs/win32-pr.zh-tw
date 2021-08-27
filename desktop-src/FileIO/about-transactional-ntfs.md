@@ -4,12 +4,12 @@ ms.assetid: 52341315-0412-4a87-aca0-9adea7aae62f
 title: 關於交易式 NTFS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2dcf8cd99dfb1ff18ef7da88d3b3c7b0a647417e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 404dc966673eac9d61229ab127877941fe82354ddffcfd021ba76b9931c8e097
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318432"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120102108"
 ---
 # <a name="about-transactional-ntfs"></a>關於交易式 NTFS
 
@@ -33,7 +33,7 @@ TxF 可以參與 [分散式交易協調器 (DTC) ](/previous-versions/windows/de
 | [如何使用交易式 NTFS](how-to-use-transactional-ntfs.md)<br/>                                         | 管理交易式 NTFS 中的交易式檔案控制代碼。<br/>                                                                   |
 | [基本 TxF 概念](txf-basic-concepts.md)<br/>                                                               | 描述交易式 NTFS 中的讀取認可一致性、讀取認可隔離和交易鎖定概念。<br/> |
 | [交易式 NTFS 的程式設計考慮](programming-considerations-for-transacted-fileio-.md)<br/> | 描述交易式 NTFS 的各種程式設計考慮。<br/>                                                      |
-| [交易式 NTFS 的效能考慮](performance-considerations-for-transactional-ntfs.md)<br/> | 最佳檔案系統交易的建議。<br/>                                                                     |
+| [交易式 NTFS 的效能考慮](performance-considerations-for-transactional-ntfs.md)<br/> | 適用于最佳檔案系統交易的建議。<br/>                                                                     |
 
 
 

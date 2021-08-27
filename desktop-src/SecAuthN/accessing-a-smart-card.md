@@ -4,12 +4,12 @@ ms.assetid: 27f8f25f-1883-4070-94a4-0d3c51032378
 title: 存取智慧卡
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b155d467c9de28b1e02dea01511ea1e71d574eb1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0ae7a7954d9a48191884c8ed0fd7ee65ad3bb007aae18b00efc6581e5f2e6221
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106987575"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120101468"
 ---
 # <a name="accessing-a-smart-card"></a>存取智慧卡
 

@@ -3,7 +3,7 @@ title: 'MCIWNDM_SENDSTRING 訊息 (Vfw .h) '
 description: MCIWNDM \_ SENDSTRING 訊息會以字串形式將 MCI 命令傳送給與 MCIWnd 視窗相關聯的裝置。 您可以使用 MCIWndSendString 宏明確地傳送此訊息。
 ms.assetid: 0e999a0e-588d-4f06-a1bc-fd3f245d8980
 keywords:
-- MCIWNDM_SENDSTRING message Windows 多媒體
+- MCIWNDM_SENDSTRING 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d36a034a3459803b1652bafed4eb389866add211
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b98ee008346821c2d489b19d01bb372c37cd3d541380fd8dae3b72bf613051f7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103686154"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120037928"
 ---
 # <a name="mciwndm_sendstring-message"></a>MCIWNDM \_ SENDSTRING 訊息
 

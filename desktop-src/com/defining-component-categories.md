@@ -4,12 +4,12 @@ description: 定義元件類別
 ms.assetid: 2d67a998-5200-4285-bd99-48cf59683569
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4609654827789949705a2f32803c154152d3f9c9
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 840c785f4b263f0288793f62542cc6d93637b719ff37c9cf29454f43dfaa1914
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104184184"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120071008"
 ---
 # <a name="defining-component-categories"></a>定義元件類別
 
@@ -36,9 +36,9 @@ ms.locfileid: "104184184"
 [元件類別管理員](the-component-categories-manager.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

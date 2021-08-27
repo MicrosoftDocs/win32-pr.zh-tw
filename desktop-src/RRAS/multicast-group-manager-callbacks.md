@@ -4,12 +4,12 @@ description: 多播群組管理員會使用下列回呼來通知用戶端 (通�
 ms.assetid: ebabdfaf-8f5f-45be-9f01-f1dbc01a376c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c5ba18f874005e23aef6daca6071362362312e8e
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 037281a2cb636b337c5133c2c3a261e2c435a136a30d0ccfdcf0407a9b62509b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103842511"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120036648"
 ---
 # <a name="multicast-group-manager-callbacks"></a>多播群組管理員回呼
 
@@ -35,6 +35,6 @@ ms.locfileid: "103842511"
 
 [**PMGM \_ 啟用 \_ IGMP \_ 回呼**](/windows/desktop/api/Mgm/nc-mgm-pmgm_enable_igmp_callback)
 
- 
+ 
 
- 
+ 

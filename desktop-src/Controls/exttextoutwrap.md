@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a173fedb7d8534dbd926a8a147e833435a7710b1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 934a8d203cf232a339db46e97783e87c075e5bb949ec5d23e20a7b1874ea6ef2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104093927"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120047268"
 ---
 # <a name="exttextoutwrap-function"></a>ExtTextOutWrap 函式
 
@@ -88,9 +88,9 @@ BOOL ExtTextOutWrap(
 *lprc* \[在\]
 </dt> <dd>
 
-類型： **Const [**RECT**](/previous-versions//dd162897(v=vs.85)) \** _
+Type： **Const [**RECT**](/previous-versions//dd162897(v=vs.85)) \***
 
-選擇性 [_ *RECT* *](/previous-versions//dd162897(v=vs.85))結構的指標，此結構會指定用於裁剪、不透明度或兩者之矩形的維度（以邏輯座標表示）。
+選擇性 [**RECT**](/previous-versions//dd162897(v=vs.85)) 結構的指標，此結構會指定用於裁剪、不透明度或兩者之矩形的維度（以邏輯座標表示）。
 
 </dd> <dt>
 
@@ -115,9 +115,9 @@ BOOL ExtTextOutWrap(
 *lpDx* \[在\]
 </dt> <dd>
 
-類型： **Const [**INT**](/windows/desktop/WinProg/windows-data-types) \** _
+類型： **Const [**INT**](/windows/desktop/WinProg/windows-data-types) \***
 
-值的選擇性陣列指標，表示相鄰字元資料格來源之間的距離。 例如，_lpDx * \[ x \] 邏輯單元分隔字元資料格 x 和字元資料格的來源 (x + 1) 。
+值的選擇性陣列指標，表示相鄰字元資料格來源之間的距離。 例如， *lpDx* \[ x \] 邏輯單元分隔字元資料格 x 和字元資料格的來源 (x + 1) 。
 
 </dd> </dl>
 
@@ -143,8 +143,8 @@ BOOL ExtTextOutWrap(
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                                 |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                           |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                                 |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                           |
 | DLL<br/>                      | <dl> <dt>Comctl32.dll (6.0 版或更新版本) </dt> </dl> |
 
 

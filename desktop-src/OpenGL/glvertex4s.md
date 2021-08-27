@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: efcf64b6864d27e8df77056db14e9132cfbaaf5e
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 53eb5f3270630946c05201c64da5789a79163015dbf3441168f0404411f3782a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106981983"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120035498"
 ---
 # <a name="glvertex4s-function"></a>glVertex4s 函式
 
@@ -57,7 +57,7 @@ void WINAPI glVertex4s(
 
 </dd> <dt>
 
-*Z* 
+*z* 
 </dt> <dd>
 
 指定頂點的 z 座標。

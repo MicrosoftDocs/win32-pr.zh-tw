@@ -4,12 +4,12 @@ ms.assetid: 9cd19137-792d-4fde-92d2-7d96942448d6
 title: ICE59
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5631b723a158bb371fff3211654a70d694b6cb5c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2e1a8d6318a9b4525941edd3873c9fc35bd11f488e42c8a82da71c4b2c0b9b5b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106975048"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120044018"
 ---
 # <a name="ice59"></a>ICE59
 
@@ -53,7 +53,7 @@ The shortcut ShortcutB activates component ComponentB and advertises feature Fea
 
 
 
-| 功能\_ | 元件\_ |
+| 特徵\_ | 元件\_ |
 |-----------|-------------|
 | FeatureA  | ComponentA  |
 

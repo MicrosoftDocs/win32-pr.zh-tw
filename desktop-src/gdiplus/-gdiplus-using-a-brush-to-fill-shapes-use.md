@@ -1,19 +1,19 @@
 ---
-description: Windows GDI + 筆刷物件用來填滿封閉形狀的內部。 GDI + 定義數個填滿樣式：單色、影線圖樣、影像材質和色彩漸層。
+description: Windows GDI + 筆刷物件用來填滿封閉形狀的內部。 GDI+ 定義數個填滿樣式：單色、影線圖樣、圖像材質和色彩漸層。
 ms.assetid: 8ccf2c4a-6f99-465f-8adf-0f7fcd002f79
 title: 使用筆刷填滿形狀
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b07e07ccf16b1bc728c190e5d1a7894899e35fa7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6d1b700a8099ca5c5e4bf6506a6401f3cd3125d72de9fddf6e525e0afd37d6b7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511372"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120114898"
 ---
 # <a name="using-a-brush-to-fill-shapes"></a>使用筆刷填滿形狀
 
-Windows GDI +[**筆刷**](/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-brush) 物件用來填滿封閉形狀的內部。 GDI + 定義數個填滿樣式：單色、影線圖樣、影像材質和色彩漸層。
+Windows GDI+[**筆刷**](/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-brush)物件用來填滿封閉形狀的內部。 GDI+ 定義數個填滿樣式：單色、影線圖樣、圖像材質和色彩漸層。
 
 下列主題涵蓋更詳細地使用筆刷：
 

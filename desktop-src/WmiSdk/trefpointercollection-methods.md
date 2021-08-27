@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: TRefPointerCollection 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b575c84de03e899308adab516e2021a97b0e224b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3f9c0d6160cbbd5d45b364cc1779527ecbe6b8645af6d61df4fa299ea7a3f00a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106978051"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120071448"
 ---
 # <a name="trefpointercollection-methods"></a>TRefPointerCollection 方法
 

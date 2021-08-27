@@ -4,12 +4,12 @@ description: RAS 系統管理 DLL 必須執行並匯出下列所有功能
 ms.assetid: bf2bd4d4-6da2-471e-843c-c0f0563d3795
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a02c8dc9212f3cfd173c9a236f81fcf766658424
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 1d4ed327cf3114ec4bf7844518f3c1500845450021f80bbd59ddd642de9eeac1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103682807"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120036388"
 ---
 # <a name="ras-administration-dll-functions"></a>RAS 系統管理 DLL 函式
 
@@ -21,7 +21,7 @@ RAS 系統管理 DLL 必須執行並匯出下列所有功能：
 -   [**MprAdminLinkHangupNotification**](/windows/desktop/api/Mprapi/nf-mprapi-mpradminlinkhangupnotification)
 -   [**MprAdminTerminateDll**](/windows/desktop/api/Mprapi/nf-mprapi-mpradminterminatedll)
 
-**Windows 2000/NT：** RAS 管理 DLL 也必須執行和匯出下列成對的函式： [**MprAdminGetIpAddressForUser**](/windows/desktop/api/Mprapi/nf-mprapi-mpradmingetipaddressforuser) 和 [**MprAdminReleaseIpAddress**](/windows/desktop/api/Mprapi/nf-mprapi-mpradminreleaseipaddress)
+**Windows 2000/NT：** RAS 管理 DLL 也必須執行和匯出下列成對的函式： [**MprAdminGetIpAddressForUser**](/windows/desktop/api/Mprapi/nf-mprapi-mpradmingetipaddressforuser)和 [**MprAdminReleaseIpAddress**](/windows/desktop/api/Mprapi/nf-mprapi-mpradminreleaseipaddress)
 
 此外，「RAS 管理」 DLL 必須執行並匯出下列其中一組函數：
 
@@ -41,6 +41,6 @@ RAS 系統管理 DLL 必須執行並匯出下列所有功能：
 
 如需有關 RAS 管理 Dll 的詳細資訊，請參閱「 [Ras 管理 dll](ras-administration-dll.md)」的「總覽」主題。
 
- 
+ 
 
- 
+ 

@@ -4,16 +4,16 @@ description: 基於許多原因，可能無法接受 RPC 和 COM 的版本控制
 ms.assetid: 7dec4b67-3d50-453f-b0ef-290d091186fd
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 314daecc6b55aaf4a348411010eb578149f86921
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 8fbe06be3106b4c599baed2d625eefa1f9c7d035c70ef89ac325406bb8c2037d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103682983"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120022958"
 ---
 # <a name="changing-interfaces-in-a-backward-compatible-manner"></a>以回溯相容的方式變更介面
 
-基於許多原因，可能無法接受 [RPC 和 COM 的版本控制理論](the-versioning-theory-for-rpc-and-com.md) 中所述的方法。 根據規則變更介面版本，基本上需要新的用戶端無法與舊的伺服器通訊。 這通常無法在現場部署商務軟體。 Windows 有時引進了變更的 Guid 或版本不存在的介面變更。 這是因為新用戶端需要與舊版伺服器通訊的結果，而且因為新用戶端支援舊的和新介面的解決方案被視為不必要。
+基於許多原因，可能無法接受 [RPC 和 COM 的版本控制理論](the-versioning-theory-for-rpc-and-com.md) 中所述的方法。 根據規則變更介面版本，基本上需要新的用戶端無法與舊的伺服器通訊。 這通常無法在現場部署商務軟體。 有時候，Windows 引進了變更的 guid 或版本不存在的介面變更。 這是因為新用戶端需要與舊版伺服器通訊的結果，而且因為新用戶端支援舊的和新介面的解決方案被視為不必要。
 
 ## <a name="best-practice"></a>最佳做法
 
@@ -71,6 +71,6 @@ ms.locfileid: "103682983"
 
 由於 NDR64 網路通訊協定的內部標記法的緣故，在本節稍早所提供的新增 arm 的建議必須符合下列條件：新增的 arm 無法變更等位的對齊方式，尤其是不應變更 arm 的最大對齊。 這通常不是問題，因為 arm 中的指標會強制調整為8。 每個 arm 都是 arm 類型指標的設計，是滿足需求的一種全新方式。
 
- 
+ 
 
- 
+ 

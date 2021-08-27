@@ -4,16 +4,16 @@ description: 背景屬性
 ms.assetid: a82c23bc-b280-4a52-9272-68879557cac7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3332fcc6a9081b52300dbee4c69c77602e84a62e
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: f799e8b9e00a97770cd004e29df75da8345a6cc01531fce53079ea550402c68d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103685446"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120114808"
 ---
 # <a name="backcolor-property-legacy-windows-environment-features"></a>背景屬性 (舊版 Windows 環境功能) 
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 <dl> <dt>
 

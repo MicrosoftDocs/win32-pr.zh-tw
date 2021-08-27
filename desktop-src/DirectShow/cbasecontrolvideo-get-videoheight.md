@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 4e738636cecd8031962ae31ebf54ac258d868013
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 31a7ca4b87a9196a8b59ec00cdc0e458855fa1db4e1e8f7b5bfd233924475519
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106993494"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120057078"
 ---
 # <a name="cbasecontrolvideoget_videoheight-method"></a>CBaseControlVideo. 取得 \_ VideoHeight 方法
 

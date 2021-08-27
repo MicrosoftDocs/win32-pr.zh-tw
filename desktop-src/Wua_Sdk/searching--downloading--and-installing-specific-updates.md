@@ -4,12 +4,12 @@ ms.assetid: 4a5bb920-fc51-48a0-8f66-bb2fcc72589f
 title: 搜尋、下載及安裝特定更新
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aadd7903303356c3937f41e44aa7a47e71192409
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 70c2da9569ed6fe34b18264ee59e91965877d63e422ae20e25fc27fbc025e812
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318499"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120071280"
 ---
 # <a name="searching-downloading-and-installing-specific-updates"></a>搜尋、下載及安裝特定更新
 
@@ -17,7 +17,7 @@ ms.locfileid: "104318499"
 
 此範例會搜尋特定的軟體更新、下載更新，然後安裝更新。 例如，使用者可以使用這個方法來判斷電腦上是否已安裝重大安全性更新。 如果未安裝更新，使用者可以確保下載並安裝更新。 使用者也可以確保他們會收到安裝狀態的通知。
 
-範例更新是以 [**IUpdate 的 Title 屬性**](/windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_title)中的更新標題來識別。 此範例中所建議的更新標題為「Windows 的更新 Rights Management 用戶端1.0」。
+範例更新是以 [**IUpdate 的 Title 屬性**](/windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_title)中的更新標題來識別。 此範例中所建議的更新標題為「Windows Rights Management 用戶端1.0 的更新」。
 
 > [!Note]  
 > 如需有關如何搜尋、下載及安裝適用于特定應用程式之所有更新的資訊，請參閱 [搜尋、下載及安裝更新](searching--downloading--and-installing-updates.md)。
@@ -29,13 +29,13 @@ ms.locfileid: "104318499"
 -   電腦上必須安裝 WUA。 如需如何判斷已安裝之 WUA 版本的詳細資訊，請參閱 [判斷 wua 的目前版本](determining-the-current-version-of-wua.md)。
 -   此範例不會提供自己的使用者介面。 如果更新需要重新開機，WUA 會提示使用者重新開機電腦。
 -   此範例只能從 WUA 下載更新。 它無法從軟體更新服務 (SUS) 1.0 伺服器下載更新。
--   執行此範例需要 Windows Script Host (WSH) 。 如需有關 WSH 的詳細資訊，請參閱平臺軟體發展工具組 (SDK) 的 WSH 區段。 如果將範例複製到名為 WUASpecificUpdate.vbs 的檔案 \_ ，您可以藉由開啟命令提示字元視窗並輸入下列命令來執行它： **cscript WUA \_SpecificUpdate.vbs**  
+-   執行此範例需要 Windows 腳本主機 (WSH) 。 如需有關 WSH 的詳細資訊，請參閱平臺軟體發展工具組 (SDK) 的 WSH 區段。 如果將範例複製到名為 WUASpecificUpdate.vbs 的檔案 \_ ，您可以藉由開啟命令提示字元視窗並輸入下列命令來執行它： **cscript WUA \_SpecificUpdate.vbs**  
     
 
 ## <a name="example"></a>範例
 
 > [!IMPORTANT]
-> 此腳本旨在示範如何使用 Windows Update 代理程式 Api，並提供開發人員如何使用這些 Api 來解決問題的範例。 此腳本並不是用來作為生產程式碼，而且 Microsoft (不支援腳本本身，不過) 支援基礎 Windows Update 代理程式 Api。
+> 此腳本旨在示範如何使用 Windows Update 代理程式 api，並提供開發人員如何使用這些 api 來解決問題的範例。 此腳本並不是用來作為生產程式碼，而且 Microsoft (不支援腳本本身，不過) 支援基礎 Windows Update 代理程式 api。
 
  
 

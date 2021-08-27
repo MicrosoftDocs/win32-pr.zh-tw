@@ -4,12 +4,12 @@ ms.assetid: a0d8b54b-7a05-4307-a756-a34bb22f1afd
 title: 'MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE_AUDCAP_ENDPOINT_ID 屬性 (Mfidl) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8a1448dc753a8e3b8221fa040309d3f5b60c4879
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6baafd2aa1bdfc3f4959b877963faff5df9aabe57c672555edb98f4cded8b1ae
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106989522"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120113948"
 ---
 # <a name="mf_devsource_attribute_source_type_audcap_endpoint_id-attribute"></a>MF \_ DEVSOURCE \_ 屬性 \_ 來源 \_ 類型 \_ AUDCAP \_ 端點 \_ 識別碼屬性
 

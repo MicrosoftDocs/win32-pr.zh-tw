@@ -4,12 +4,12 @@ ms.assetid: 7778abb3-7a1c-4963-8793-ff9d326226d9
 title: PeopleNames
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a5fcdb3b8c85ac70719b486d4ddd5b303ebd6447
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4a890bfc64eedac50e47a0edbeb3810dee93fb989df0d9ae33145a35ea23e131
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971759"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120010298"
 ---
 # <a name="systemphotopeoplenames"></a>PeopleNames
 

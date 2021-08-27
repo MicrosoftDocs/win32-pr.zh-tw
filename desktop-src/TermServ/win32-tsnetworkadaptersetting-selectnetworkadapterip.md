@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9590bab26b3cda2e20a3dc74c5e201a2f7f86f94
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: bb4a88c4820e4537d9c0fb1833b67eb2660a7fb5618189023dfe2217f222efa1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106969578"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120008368"
 ---
 # <a name="selectnetworkadapterip-method-of-the-win32_tsnetworkadaptersetting-class"></a>Win32 TSNetworkAdapterSetting 類別的 SelectNetworkAdapterIP 方法 \_
 

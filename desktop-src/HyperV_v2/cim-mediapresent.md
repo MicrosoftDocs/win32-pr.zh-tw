@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 0e26c36231edaf3ca4b8accf844a3c58b3d70bc7
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 6694c945594f0ea5008f6b5f574b84accd338f89a45819a8fb02793bc619ea1f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106997313"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120046798"
 ---
 # <a name="cim_mediapresent-class-hyper-v-management"></a>CIM_MediaPresent 類別 (Hyper-v 管理) 
 

@@ -4,12 +4,12 @@ ms.assetid: 8ca51f5f-b6cf-4f2c-98f4-69c992679320
 title: 'ABM_WINDOWPOSCHANGED 訊息 (Shellapi .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 29c8ea6fab6960678ad030a0c1817ad5f8aaae29
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d770d50629342095308376856b98e6250adc1f9a1f2559da8509d685995428ac
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104468784"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120057808"
 ---
 # <a name="abm_windowposchanged-message"></a>ABM \_ WINDOWPOSCHANGED 訊息
 
@@ -47,7 +47,7 @@ SHAppBarMessage(ABM_WINDOWPOSCHANGED, pabd);
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                           |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                           |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Shellapi。h</dt> </dl> |
 

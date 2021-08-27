@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: e57a5beda7b147e952ecbb26c96df5f7e372e6d7
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3a637e0f5ab5c97494dc072458a29920110363a3e4f07ba8bb7313947996bdad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990182"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120057048"
 ---
 # <a name="cbasecontrolvideogetsourcerect-method"></a>CBaseControlVideo. GetSourceRect 方法
 

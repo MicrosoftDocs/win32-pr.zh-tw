@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: a5fa56c05036380b5dba42089979b43d776a4b57
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: eabba7b5cf234d48b2839074ec1ad07380a7ed14858f6bd43b07f7d2eaa033b3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106997850"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120037188"
 ---
 # <a name="istatsdisconnect-method"></a>IStats：:D isconnect 方法
 
@@ -46,11 +46,11 @@ HRESULT STDMETHODCALLTYPE Disconnect();
 
 
 
-| 傳回碼                                                                                            | Description                                                                                                                 |
+| 傳回碼                                                                                            | 描述                                                                                                                 |
 |--------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**NMERR \_ 捕獲**</dt> </dl>        | NPP 目前正在捕獲資料。 當資料捕捉正在進行中時，您無法中斷與網路的連線。<br/> |
 | <dl> <dt>**NMERR \_ 未 \_ 連接**</dt> </dl>   | NPP 未連接到網路。<br/>                                                                         |
-| <dl> <dt>**NMERR \_ 不是 \_ 統計資料 \_**</dt> </dl> | NPP 已連接到網路，但不是使用 [**IStats：： Connect**](istats-connect.md) 方法。<br/>          |
+| <dl> <dt>**NMERR \_ 不是 \_ 統計資料 \_**</dt> </dl> | NPP 會連接到網路，但不會使用 [**IStats：：連線**](istats-connect.md)方法。<br/>          |
 
 
 
@@ -80,7 +80,7 @@ HRESULT STDMETHODCALLTYPE Disconnect();
 [**IStats**](istats.md)
 </dt> <dt>
 
-[**IStats：： Connect**](istats-connect.md)
+[**IStats：：連線**](istats-connect.md)
 </dt> <dt>
 
 [**IStats：： Stop**](istats-stop.md)

@@ -1,19 +1,19 @@
 ---
-description: 本節說明在每個版本中新增至 Windows 事件追蹤的新功能。
+description: 本節說明每個版本中 Windows 新增至事件追蹤的新功能。
 ms.assetid: 5d94a6d2-2280-4a97-aa5a-c9ca2c016c84
 title: 事件追蹤的新功能
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 613433834e5a11f2886b6ee314fdb60114f66976
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2da1c6f1b54ae8bc4b91bd511bface8569bcf43b2893329b1b0462b46c001724
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103691192"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120102018"
 ---
 # <a name="whats-new-in-event-tracing"></a>事件追蹤的新功能
 
-本節說明在每個版本中新增至 Windows 事件追蹤的新功能。
+本節說明每個版本中 Windows 新增至事件追蹤的新功能。
 
 ## <a name="windows-10-version-1709"></a>Windows 10 (版本 1709)
 
@@ -87,7 +87,7 @@ ETW 現在可以根據事件名稱篩選事件。 您也可以決定哪些事件
 
 此版本已新增下列功能：
 
--   提供者在資訊清單中定義篩選的能力。 在 Windows Vista 中，控制器可以將篩選資料傳遞給提供者。 但是，資訊清單中未定義篩選資料的配置，因此提供者必須使用其他方法將篩選定義提供給控制器。 在此版本中，提供者可以在資訊清單中定義篩選定義， (查看 [**ProviderType**](../wes/eventmanifestschema-providertype-complextype.md)複雜類型) 的 [**篩選**] 屬性。 然後，控制器可以使用 [**TdhEnumerateProviderFilters**](/windows/desktop/api/Tdh/nf-tdh-tdhenumerateproviderfilters) 函數來判斷篩選定義。 使用篩選準則的提供者應該使用 [**EventWriteEx**](/windows/desktop/api/Evntprov/nf-evntprov-eventwriteex) 函式來寫入事件。
+-   提供者在資訊清單中定義篩選的能力。 在 Windows Vista 中，控制器可將篩選資料傳遞給提供者。 但是，資訊清單中未定義篩選資料的配置，因此提供者必須使用其他方法將篩選定義提供給控制器。 在此版本中，提供者可以在資訊清單中定義篩選定義， (查看 [**ProviderType**](../wes/eventmanifestschema-providertype-complextype.md)複雜類型) 的 [**篩選**] 屬性。 然後，控制器可以使用 [**TdhEnumerateProviderFilters**](/windows/desktop/api/Tdh/nf-tdh-tdhenumerateproviderfilters) 函數來判斷篩選定義。 使用篩選準則的提供者應該使用 [**EventWriteEx**](/windows/desktop/api/Evntprov/nf-evntprov-eventwriteex) 函式來寫入事件。
 -   能夠使用單一緩衝區來收集多個處理器上所產生的事件。 使用單一緩衝區可避免在多處理器電腦上出現順序不會出現的事件。 如需詳細資訊，請參閱 [**事件 \_ 追蹤 \_ \_ 每個 \_ 處理器的 \_ 緩衝**](logging-mode-constants.md) 記錄模式。 根據預設，ETW 會使用每個處理器的緩衝區。
 -   捕獲事件堆疊追蹤的能力。 若要啟用核心事件的堆疊追蹤，請參閱 [**TraceSetInformation**](/windows/win32/api/evntrace/nf-evntrace-tracesetinformation) 函數。 若要啟用使用者事件的堆疊追蹤，請參閱 [**啟用 \_ 追蹤 \_ 參數**](/windows/win32/api/evntrace/ns-evntrace-enable_trace_parameters)之 **EnableProperty** 成員的 **事件 \_ 啟用 \_ 屬性 \_ 堆疊 \_ 追蹤** 旗標。
 -   使用 **事件 \_ 追蹤 \_ 私用 \_ 記錄器 \_ 模式** 記錄模式來指定 **事件 \_ 追蹤 \_ 緩衝 \_ 模式** 或 **事件追蹤檔案模式的 [ \_ \_ \_ \_ NEWFILE** 記錄] 模式 (查看 [記錄模式常數](logging-mode-constants.md)) 。

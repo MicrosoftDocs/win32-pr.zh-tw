@@ -4,12 +4,12 @@ ms.assetid: 75af7ce6-9b74-4d61-b7f2-5d07538f91cf
 title: RemoteBeginRegisterPlatformWorkQueueWithMMCSSEx
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a9d519d13f1e23927f1d34a18d5c5f860e007881
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ee1174e4edb8271aa9240857d8082ade87d1a8e6551ac788f98f217c41eb1d9d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194865"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120114288"
 ---
 # <a name="remotebeginregisterplatformworkqueuewithmmcssex"></a>RemoteBeginRegisterPlatformWorkQueueWithMMCSSEx
 
@@ -36,8 +36,8 @@ HRESULT RemoteBeginRegisterPlatformWorkQueueWithMMCSSEx(
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                 |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                           |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                                 |
 | 標頭<br/>                   | <dl> <dt>Mfidl .idl</dt> </dl> |
 
 

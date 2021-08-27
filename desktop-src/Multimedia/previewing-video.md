@@ -1,20 +1,20 @@
 ---
-title: " (Windows 多媒體) 預覽影片"
-description: 此 Windows 多媒體範例中的範例會使用 capPreviewRate 來設定預覽模式與 capPreview 的畫面顯示速率，以將 [捕捉] 視窗置於預覽模式。
+title: 預覽 Windows 多媒體) 的影片 (
+description: Windows 多媒體中的這個範例會使用 capPreviewRate 來設定預覽模式與 capPreview 的畫面顯示速率，以將 [捕捉] 視窗置於預覽模式。
 ms.assetid: 33ae7d07-5fea-47d7-b60d-4ee412e91dec
 keywords:
 - capPreview 宏
 - capPreviewRate 宏
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bdc3aaeb9a8ff0f040218fca4822af93ab8bfe29
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 0e70d0520af3bb71906c6b0ea4d1c0a61464559eedfd2385753b228841fa6af4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112405541"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120037908"
 ---
-# <a name="previewing-video-windows-multimedia"></a> (Windows 多媒體) 預覽影片
+# <a name="previewing-video-windows-multimedia"></a>預覽 Windows 多媒體) 的影片 (
 
 下列範例會使用 [**capPreviewRate**](/windows/desktop/api/Vfw/nf-vfw-cappreviewrate) 宏將預覽模式的畫面格顯示速率設定為每個畫面的66毫秒，然後使用 [**capPreview**](/windows/desktop/api/Vfw/nf-vfw-cappreview) 宏將 [capture] 視窗置於預覽模式。
 

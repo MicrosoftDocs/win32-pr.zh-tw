@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 302011a3e4bf10eb3a81db4a163f94f4322dea98
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ee25352925681ef548310d9e009808499ce0a36f80472e50ee2a0daa71ed8dd3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464833"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120038198"
 ---
 # <a name="mci_vcr_seek_parms-structure"></a>MCI \_ VCR \_ 搜尋 \_ PARMS 結構
 
@@ -93,7 +93,7 @@ typedef struct tagMCI_VCR_SEEK_PARMS {
 
 <dl> <dt>
 
-[**Mci**](mci.md)
+[**MCI**](mci.md)
 </dt> <dt>
 
 [**MCI 結構**](mci-structures.md)

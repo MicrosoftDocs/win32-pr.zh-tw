@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: b3a0ce4f230236e276fede528a5e778ecafd51fb
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: e6b4d76b3035e156da1f1d4decf7a5c59b28bf0ca13bc2bdaa33e319422509af
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108113526"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120037548"
 ---
 # <a name="idelaydcgettotalstatistics-method"></a>IDelaydC：： GetTotalStatistics 方法
 
@@ -63,10 +63,10 @@ HRESULT STDMETHODCALLTYPE GetTotalStatistics(
 
 
 
-| 傳回碼                                                                                          | Description                                                                                                                   |
+| 傳回碼                                                                                          | 描述                                                                                                                   |
 |------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
-| <dl> <dt>**NMERR \_ 未 \_ 連接**</dt> </dl> | NPP 未連接到網路。 呼叫 [IDelaydC：： connect](idelaydc-connect.md) 以連接到網路。<br/> |
-| <dl> <dt>**NMERR \_ 未 \_ 延遲**</dt> </dl>   | NPP 已連接到網路，但不是使用 [IDelaydC：： Connect](idelaydc-connect.md) 方法。<br/>             |
+| <dl> <dt>**NMERR \_ 未 \_ 連接**</dt> </dl> | NPP 未連接到網路。 呼叫[IDelaydC：：連線](idelaydc-connect.md)連接到網路。<br/> |
+| <dl> <dt>**NMERR \_ 未 \_ 延遲**</dt> </dl>   | NPP 是連接到網路，但不是使用[IDelaydC：：連線](idelaydc-connect.md)方法。<br/>             |
 | <dl> <dt>**NMERR \_ 未 \_ 捕獲**</dt> </dl> | NPP 不會捕捉資料。 呼叫 [IDelaydC：： start](idelaydc-start.md) 以開始捕獲資料。<br/>                 |
 
 
@@ -99,7 +99,7 @@ HRESULT STDMETHODCALLTYPE GetTotalStatistics(
 [IDelaydC](idelaydc.md)
 </dt> <dt>
 
-[IDelaydC：： Connect](idelaydc-connect.md)
+[IDelaydC：：連線](idelaydc-connect.md)
 </dt> <dt>
 
 [IDelaydC::GetConversationStatistics](idelaydc-getconversationstatistics.md)

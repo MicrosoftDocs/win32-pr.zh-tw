@@ -1,19 +1,19 @@
 ---
 title: " (Microsoft Agent Control) 存取語音服務"
-description: 瞭解如何使用 Microsoft Agent Control 存取語音服務。 Microsoft Agent 已于 Windows 7 淘汰。
+description: 瞭解如何使用 Microsoft Agent Control 存取語音服務。 Microsoft 代理程式已于 Windows 7 淘汰。
 ms.assetid: c6c10f2a-a433-4a8e-a069-48e3c2032fb8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 035bde03d18b77ce43c47375f2075bba02416c39
-ms.sourcegitcommit: d0eb44d0a95f5e5efbfec3d3e9c143f5cba25bc3
+ms.openlocfilehash: 617da522912e2fbae361fb3addf569d5164894fc2b98a901686b2458d4d0a8e4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "112262710"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120114938"
 ---
 # <a name="accessing-speech-services-microsoft-agent-control"></a> (Microsoft Agent Control) 存取語音服務
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 雖然 Microsoft 代理程式的服務包括對語音輸入的支援，但必須安裝相容的命令和控制語音辨識引擎，才能存取代理程式的語音輸入服務。 同樣地，如果您想要使用 Microsoft Agent 的語音服務來支援合成字元的合成語音輸出，您必須為您的字元安裝相容的文字轉換語音 (TTS) 語音引擎。
 

@@ -4,12 +4,12 @@ description: 下列程式概述用來列舉 RTMv2 API 所使用之任何實體�
 ms.assetid: 78a50e4a-f3c7-4a0d-a528-18d35b66369d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6c927665cab8d4db492d3a2c5f8e9363fc1fe7be
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c5f8707c7cf78f274fedaca3fb4882ae36dbd569ab5fa1260ec3b6cb663aced3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103673760"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120101848"
 ---
 # <a name="enumerate-all-routes"></a>列舉所有路由
 
@@ -25,7 +25,7 @@ ms.locfileid: "103673760"
 > [!Note]  
 > 只有在用戶端使用 RTM 視圖遮罩的所有視圖要求資料時，才會列舉處於保留狀態的 \_ 路由 \_ \_ 。
 
- 
+ 
 
 下列範例程式碼顯示如何列舉路由表中的所有路由。
 
@@ -88,9 +88,9 @@ if (Status == NO_ERROR)
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Fhcfg.idl
-ms.openlocfilehash: 083ce344e44035b5872d91ad14465659defc8229
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 700e96b72e3b23fa83a384a68bd2723ae244d69b0b10ed47db10843793166f40
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847270"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120058968"
 ---
 # <a name="fhconfigmgr-class"></a>FhConfigMgr 類別
 
@@ -34,10 +34,10 @@ ms.locfileid: "103847270"
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                 |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                           |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                                 |
 | 標頭<br/>                   | <dl> <dt>Fhcfg。h</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>Fhcfg .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>Fhcfg .idl</dt> </dl> |
 
 
 

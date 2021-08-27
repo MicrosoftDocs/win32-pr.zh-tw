@@ -1,7 +1,7 @@
 - name: 路由及遠端存取服務
   href: portal.md
   items:
-    - name: 路由及遠端存取服務架構
+    - name: 路由和遠端 Access Services 架構
       href: routing-and-remote-access-services-architecture.md
     - name: 路由及遠端存取登錄版面配置
       href: routing-and-remote-access-registry-layout.md
@@ -1009,7 +1009,7 @@
                       href: multicast-group.md
                     - name: ' (s、g) 、 (*、g) 和 (*、* ) 配對'
                       href: '-s-g-g-and-pairs.md'
-                    - name: Destination
+                    - name: 目的地
                       href: destination.md
                     - name: 下一個躍點
                       href: next-hop.md

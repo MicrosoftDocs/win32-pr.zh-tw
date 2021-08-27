@@ -4,12 +4,12 @@ ms.assetid: e27888e5-d01a-4fdd-8c7d-9849c0f90eb5
 title: 驗證列舉
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c5640151967867f610aa8b18c81940c684d23c18
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cc42553074b79726c9d1b70bfc6292f4acf44df225fa1f86c7f7a28289ec8ab7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103690144"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120101318"
 ---
 # <a name="authentication-enumerations"></a>驗證列舉
 

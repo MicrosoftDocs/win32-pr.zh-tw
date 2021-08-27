@@ -4,12 +4,12 @@ description: 處理連接中斷
 ms.assetid: a90fcb5a-773e-4c21-bf6c-c3519ec13a09
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: de8e7a8088cfe09a4c4026c16cc3dc5ea36b3430
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 4eac02c4440cb2e31a29e810d78dfd51764be3ba0ed5a6dc32f8c3e10824bd70
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103682749"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120101678"
 ---
 # <a name="dealing-with-loss-of-connectivity"></a>處理連接中斷
 
@@ -51,8 +51,8 @@ ms.locfileid: "103682749"
 > [!Note]  
 > 如果伺服器是叢集，且叢集的不同節點執行不同版本的伺服器軟體，則 RPC 重試可能會在容錯移轉的情況下，于叢集的不同節點上進行呼叫，而且可能會在不同版本的伺服器上進行呼叫。 在這類部署案例中，請確定用戶端不依賴特定版本的伺服器軟體來執行指定的呼叫。 如果有的話，用戶端應該在偵測和處理這類情況的 RPC 之上建立機制。
 
- 
+ 
 
- 
+ 
 
- 
+ 

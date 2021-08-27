@@ -1,19 +1,19 @@
 ---
-description: Windows GDI + 提供可讓您用來在繪圖物件中暫時取代或增強部分狀態的容器。
+description: Windows GDI+ 提供可讓您用來在繪圖物件中暫時取代或增強部分狀態的容器。
 ms.assetid: f3fce8ef-903a-4b9d-b76c-562739d02eb3
 title: 巢狀圖形容器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 29f9d9feac3494b423d844cb1e3da359af33eaec
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d88b3a768e5b156eb5d28410ad69d58227e9660618764ca4b084b5e35662b839
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943946"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120114978"
 ---
 # <a name="nested-graphics-containers"></a>巢狀圖形容器
 
-Windows GDI + 提供可讓您用來在 [**圖形**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) 物件中暫時取代或增強部分狀態的容器。 您可以藉由呼叫 **graphics** 物件的 [**Graphics：： BeginContainer**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-begincontainer(inconstrectf__inconstrectf__inunit))方法來建立容器。 您可以重複呼叫 **Graphics：： BeginContainer** 來形成嵌套的容器。
+Windows GDI+ 提供可讓您用來在 [**圖形**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics)物件中暫時取代或增強部分狀態的容器。 您可以藉由呼叫 **graphics** 物件的 [**Graphics：： BeginContainer**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-begincontainer(inconstrectf__inconstrectf__inunit))方法來建立容器。 您可以重複呼叫 **Graphics：： BeginContainer** 來形成嵌套的容器。
 
 ## <a name="transformations-in-nested-containers"></a>嵌套容器中的轉換
 

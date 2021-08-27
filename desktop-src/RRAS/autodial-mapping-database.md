@@ -4,12 +4,12 @@ description: 自動撥號對應資料庫會將網路位址對應到 RAS 電話�
 ms.assetid: 4589d1e5-eec3-46ac-a10f-f20ae9f7b543
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 511f15f98848559a892e8c20e766d47a07780fbc
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 4e89bd065a136492281adb3424636a8820c76c76bf6867e70db75aecfa0f345d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103842372"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120036718"
 ---
 # <a name="autodial-mapping-database"></a>自動撥號對應資料庫
 
@@ -27,6 +27,6 @@ ms.locfileid: "103842372"
 
 您可以使用 [**RasSetAutodialAddress**](/windows/desktop/api/Ras/nf-ras-rassetautodialaddressa) 函數將位址新增至自動撥號對應資料庫、從資料庫中刪除位址，或變更與資料庫中現有位址相關聯的自動撥號專案。 您可以使用 [**RasGetAutodialAddress**](/windows/desktop/api/Ras/nf-ras-rasgetautodialaddressa) 函式，在自動撥號對應資料庫中取出與指定的網路位址相關聯的自動撥號專案。 [**RasEnumAutodialAddresses**](/windows/desktop/api/Ras/nf-ras-rasenumautodialaddressesa)函數會傳回自動撥號對應資料庫中的所有地址清單。
 
- 
+ 
 
- 
+ 

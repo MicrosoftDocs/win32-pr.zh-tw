@@ -3,7 +3,7 @@ title: 資料流程緩衝區
 description: 資料流程緩衝區
 ms.assetid: d73209a3-4b9d-4405-9e62-8ecfb94c0bd5
 keywords:
-- Windows 多媒體，資料流程緩衝區
+- Windows 多媒體、串流緩衝區
 - 多媒體、串流緩衝區
 - 多媒體音訊、串流緩衝區
 - 音訊、串流緩衝區
@@ -14,12 +14,12 @@ keywords:
 - MIDIEVENT 結構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d4a01862a8a8e6b7846cbe445737bd13422cf0f
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: ac10d024089a856880097c5d87ae501d62655f858030535ff4128f1fd9d31447
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103681870"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120037068"
 ---
 # <a name="stream-buffers"></a>資料流程緩衝區
 
@@ -30,6 +30,6 @@ ms.locfileid: "103681870"
 -   [MIDI 事件種類](midi-event-types.md)
 -   [MIDI 串流](midi-streams.md)
 
- 
+ 
 
- 
+ 

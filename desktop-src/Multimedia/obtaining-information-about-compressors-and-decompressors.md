@@ -8,12 +8,12 @@ keywords:
 - ICGetInfo 函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 874793233ef0aec4de5b372573fb8dcd79f5d875
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b023a8f82fa92aa78a2a2dcf47a8f6c9447f943ac0f68440c6d7aff3123fc84e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104371971"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120038438"
 ---
 # <a name="obtaining-information-about-compressors-and-decompressors"></a>取得壓縮機和 Decompressors 的相關資訊
 
@@ -52,9 +52,9 @@ if ( ICQueryAbout(hIC)) ICAbout(hIC, hwndApp);
 
 
 
- 
+ 
 
- 
+ 
 
 
 

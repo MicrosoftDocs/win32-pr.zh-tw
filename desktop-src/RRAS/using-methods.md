@@ -4,12 +4,12 @@ description: 當用戶端向路由表管理員註冊時，它可以匯出一組�
 ms.assetid: 6d984a02-d005-43ad-81c4-968ae9c1a105
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 33bd895fbb3f8f54224522786b5794c5c6c57a9e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 150edb6435e0021c13e129f7c1e7a3016dc0974283fcdd138189f7d1c4a3184a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103932295"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120025098"
 ---
 # <a name="using-methods"></a>使用方法
 
@@ -22,7 +22,7 @@ ms.locfileid: "103932295"
 > [!Note]  
 > 對應到 **MethodType** 成員下半部所設定之位的方法識別碼值 (較低的16位) 是由 Microsoft 所保留。
 
- 
+ 
 
 若要叫用第二個用戶端的方法，用戶端會呼叫 [**RtmInvokeMethod**](/windows/desktop/api/Rtmv2/nf-rtmv2-rtminvokemethod) 函數。 路由表管理員會仲裁所有呼叫用戶端方法的要求。 路由表管理員在用戶端之間仲裁時，會執行兩個函式：
 
@@ -35,9 +35,9 @@ ms.locfileid: "103932295"
 
 如需示範如何使用這些函數的範例程式碼，請參閱 [取得和呼叫用戶端的匯出方法](obtain-and-call-the-exported-methods-for-a-client.md)。
 
- 
+ 
 
- 
+ 
 
 
 

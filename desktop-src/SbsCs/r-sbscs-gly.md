@@ -5,12 +5,12 @@ ms.assetid: 771277DF-D50A-4701-93D9-951D7EF8E7E1
 title: 'R (隔離的應用程式和並存元件) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1052ce7388375fccbec23e7e6b42dc5b32ef6435
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 54022cee203ece2a3fa12290554d7d742265b07c80d9b29c3d7a0575a8eb7a3c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103851771"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120101628"
 ---
 # <a name="r-isolated-applications-and-side-by-side-assemblies"></a>R (隔離的應用程式和並存元件) 
 

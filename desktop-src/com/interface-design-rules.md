@@ -4,12 +4,12 @@ description: 本節提供介面設計規則和指導方針的簡短摘要。
 ms.assetid: c43fc385-bcd6-45fc-91b2-ad9827fdb15c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5c1cde73527ac79a2e4442910e3053ed96748337
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 58d11d55a1e24c02208ebeecddd5a4f90b8b01fa4a53444e6554cfcff37165f4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104093343"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120070808"
 ---
 # <a name="interface-design-rules"></a>介面設計規則
 
@@ -21,12 +21,12 @@ ms.locfileid: "104093343"
 -   它們必須是不可變的。 一旦建立併發布之後，其定義的任何部分都不會變更。
 -   所有介面方法都必須傳回 **HRESULT** 值，讓處理遠端處理的系統部分可以回報 RPC 錯誤。
 -   介面方法中的所有字串參數都必須是 Unicode。
--   您的資料類型必須可以遠端處理。 如果您無法將資料類型轉換成可遠端處理的型別，就必須建立自己的封送處理和封送處理常式。 此外， **LPVOID** 或 **void \*** 在遠端電腦上沒有任何意義。 如有必要，請使用 [**IUnknown**](/windows/desktop/api/Unknwn/nn-unknwn-iunknown)的指標。
+-   您的資料類型必須可以遠端處理。 如果您無法將資料類型轉換成可遠端處理的型別，就必須建立自己的封送處理和封送處理常式。 此外， **LPVOID** 或 **void \** _ 在遠端電腦上沒有任何意義。 如有必要，請使用 [_ *IUnknown* *](/windows/desktop/api/Unknwn/nn-unknwn-iunknown)的指標。
 
 > [!Note]  
 > MIDL 的目前執行不會處理函數多載或多重繼承。
 
- 
+ 
 
 ## <a name="other-interface-design-considerations"></a>其他介面設計考慮
 
@@ -52,6 +52,6 @@ ms.locfileid: "104093343"
 [介面定義和型別程式庫](/windows/desktop/Midl/interface-definitions-and-type-libraries)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

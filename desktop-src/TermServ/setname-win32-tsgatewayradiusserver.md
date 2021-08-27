@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bc4b563c59ce1546b4cf471653407e3390676625
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a4a2e24c9ba9bbdb5648da92640fe5b81361e1760deefc4c626ef7e029a40f15
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103685903"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120009040"
 ---
 # <a name="setname-method-of-the-win32_tsgatewayradiusserver-class"></a>Win32 TSGatewayRADIUSServer 類別的 SetName 方法 \_
 

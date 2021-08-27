@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 2bf96527b1ef2c3d8a88d749db22102953eddfc8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d51b6a2a731406bb5e9d79458b918f696778f04296b3af8ce10113286bef027e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106992017"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119995700"
 ---
 # <a name="scripting-api-object-model"></a>腳本 API 物件模型
 

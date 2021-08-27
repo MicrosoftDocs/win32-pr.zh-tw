@@ -6,12 +6,12 @@ keywords:
 - mciSendCommand 函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 31754bd5f66b455abc76d363c5ff3e5e286e8040
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: b9e0c490a61bbd53dd62a8223a3ded1aa047ce071d1d2544a2b26d1a9152450b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104314701"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120038011"
 ---
 # <a name="playing-the-avi-file"></a>播放 AVI 檔案
 
@@ -44,6 +44,6 @@ DWORD PlayMovie(WORD wDevID, DWORD dwFrom, DWORD dwTo)
 
 
 
- 
+ 
 
- 
+ 

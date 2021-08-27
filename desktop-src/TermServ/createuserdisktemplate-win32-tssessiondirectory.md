@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e7c142834b4501639499cd0bcf102dadcc1b07d9
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: cdc16d293f901efb6fc684d03ec7b47aa7496120c462a32414c747d15c02810a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104094047"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120010228"
 ---
 # <a name="createuserdisktemplate-method-of-the-win32_tssessiondirectory-class"></a>Win32 TSSessionDirectory 類別的 CreateUserDiskTemplate 方法 \_
 

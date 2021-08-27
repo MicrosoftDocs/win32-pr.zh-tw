@@ -3,15 +3,15 @@ title: 排程分鏡腳本
 description: 建立分鏡腳本之後，動畫管理員會進行排程。
 ms.assetid: f3c8fe34-8bca-4421-a390-9e0ba9af27b4
 keywords:
-- 分鏡腳本視窗動畫，排程
+- 分鏡腳本 Windows 動畫、排程
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3feae253804d20711c9bbd8ed50895f43272a3f4
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 013adc114fd09f518c34bc15ca2e7799381b6cee3dfeeedaf3b26fcae6d506e6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104020889"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120008168"
 ---
 # <a name="schedule-a-storyboard"></a>排程分鏡腳本
 
@@ -25,7 +25,7 @@ ms.locfileid: "104020889"
 
 ## <a name="example-code"></a>範例程式碼
 
-下列範例程式碼取自 Windows 動畫中的 MainWindow，範例 [應用程式驅動的動畫](application-driven-animation-sample.md) 和 [計時器驅動動畫](timer-driven-animation-sample.md)。 它會使用 [**IUIAnimationStoryboard：： schedule**](/windows/desktop/api/UIAnimation/nf-uianimation-iuianimationstoryboard-schedule) 方法來排程分鏡腳本。 這個方法需要目前的時間做為參數。
+下列範例程式碼取自 Windows 動畫中的 MainWindow，範例[應用程式驅動的動畫](application-driven-animation-sample.md)和[計時器驅動動畫](timer-driven-animation-sample.md)。 它會使用 [**IUIAnimationStoryboard：： schedule**](/windows/desktop/api/UIAnimation/nf-uianimation-iuianimationstoryboard-schedule) 方法來排程分鏡腳本。 這個方法需要目前的時間做為參數。
 
 
 ```
@@ -62,9 +62,9 @@ if (SUCCEEDED(hr))
 [分鏡腳本總覽](storyboard-construction.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

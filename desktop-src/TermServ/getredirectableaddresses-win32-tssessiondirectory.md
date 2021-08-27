@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bd5348c11b5f2aba442f7f13ef06488c6d849be3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7ff3e5dda8459361855c6ff2b287b71cbe02136b906e7defc816d4e7df727a08
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104024614"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120010100"
 ---
 # <a name="getredirectableaddresses-method-of-the-win32_tssessiondirectory-class"></a>Win32 TSSessionDirectory 類別的 GetRedirectableAddresses 方法 \_
 

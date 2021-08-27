@@ -59,12 +59,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c588784d9b06bd2e8e1605a96c8aa9fd157c10eb
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d954fc039ec8edf4a43b391df29e79fe3a064cbbc856f0b14a011acc517e3d75
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934578"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120125488"
 ---
 # <a name="imstscadvancedsettingscompress-property"></a>IMsTscAdvancedSettings：：壓縮屬性
 

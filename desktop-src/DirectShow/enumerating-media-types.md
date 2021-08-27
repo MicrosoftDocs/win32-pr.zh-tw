@@ -4,18 +4,18 @@ ms.assetid: 7878885f-c285-4744-8eab-445678dcfd49
 title: 列舉媒體類型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3909c25e9ae5f90a3084eebb531431cc93ef46cd
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: a4e2f063fc243d081b930a1bf47f85904dfbc2fc7eef00fb595d5f0fb3a451ec
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104321532"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120102798"
 ---
 # <a name="enumerating-media-types"></a>列舉媒體類型
 
 Pin 支援 [**IPin：： EnumMediaTypes**](/windows/desktop/api/Strmif/nf-strmif-ipin-enummediatypes) 方法，其會列舉釘選的慣用媒體類型。 它會傳回 [**IEnumMediaTypes**](/windows/desktop/api/Strmif/nn-strmif-ienummediatypes) 介面的指標。 [**IEnumMediaTypes：： Next**](/windows/desktop/api/Strmif/nf-strmif-ienummediatypes-next)方法會取出描述媒體類型的 [**\_ 媒體 \_ 類型**](/windows/win32/api/strmif/ns-strmif-am_media_type)結構指標。
 
-媒體類型列舉值主要是用來協助篩選圖形管理員進行智慧型連接，而您的應用程式可能不會使用它。 Pin 不一定會傳回任何慣用的媒體類型。 此外，它所傳回的媒體類型可能取決於篩選器的線上狀態。 例如，篩選的輸出圖釘可能會傳回一組不同的媒體類型，取決於針對篩選器輸入 pin 所設定的媒體類型。
+媒體類型列舉值主要是用來協助篩選 Graph 管理員進行智慧型連接，而您的應用程式可能不會使用它。 Pin 不一定會傳回任何慣用的媒體類型。 此外，它所傳回的媒體類型可能取決於篩選器的線上狀態。 例如，篩選的輸出圖釘可能會傳回一組不同的媒體類型，取決於針對篩選器輸入 pin 所設定的媒體類型。
 
 下列範例會尋找符合指定之主要類型、子類型或格式類型的慣用媒體類型。
 
@@ -104,7 +104,7 @@ HRESULT GetPinMediaType(
 
 <dl> <dt>
 
-[列舉篩選圖形中的物件](enumerating-objects-in-a-filter-graph.md)
+[列舉篩選 Graph 中的物件](enumerating-objects-in-a-filter-graph.md)
 </dt> <dt>
 
 [**IEnumMediaTypes**](/windows/desktop/api/Strmif/nn-strmif-ienummediatypes)

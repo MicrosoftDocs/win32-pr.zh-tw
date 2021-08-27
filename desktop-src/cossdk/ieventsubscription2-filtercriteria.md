@@ -14,12 +14,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 1443a89433cff91a298e8c390fce8f1f64b99f1b
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 3d973066ef637882d3477cb9992d01afad72ae3bd314b1a413d628e5c561c007
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111292"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120070658"
 ---
 # <a name="ieventsubscription2filtercriteria-property"></a>IEventSubscription2：： >filtercriteria 屬性
 

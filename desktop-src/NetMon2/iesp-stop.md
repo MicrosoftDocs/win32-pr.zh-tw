@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: ac262d8da5ab218db7300ea38da59d5c738421c0
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: d22333bcaad688fa9ebb805857db3673f48e70591e1d8953274598acef2b368b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108103766"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120037508"
 ---
 # <a name="iespstop-method"></a>IESP：： Stop 方法
 
@@ -55,11 +55,11 @@ HRESULT STDMETHODCALLTYPE Stop(
 
 
 
-| 傳回碼                                                                                          | Description                                                                                                                   |
+| 傳回碼                                                                                          | 描述                                                                                                                   |
 |------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
-| <dl> <dt>**NMERR \_ 未 \_ 連接**</dt> </dl> | NPP 未連接到網路。 呼叫 [IESP：： connect](iesp-connect.md) 以將 NPP 連接到網路。<br/> |
+| <dl> <dt>**NMERR \_ 未 \_ 連接**</dt> </dl> | NPP 未連接到網路。 呼叫[IESP：：連線](iesp-connect.md)將 NPP 連接到網路。<br/> |
 | <dl> <dt>**NMERR \_ 未 \_ 捕獲**</dt> </dl> | NPP 不會捕捉資料。 呼叫 [IESP：： start](iesp-start.md) 以開始捕獲。<br/>                            |
-| <dl> <dt>**NMERR \_ 非 \_ ESP**</dt> </dl>       | NPP 已連接到網路，但不是使用 [IESP：： Connect](iesp-connect.md) 方法。<br/>                     |
+| <dl> <dt>**NMERR \_ 非 \_ ESP**</dt> </dl>       | NPP 是連接到網路，但不是使用[IESP：：連線](iesp-connect.md)方法。<br/>                     |
 
 
 
@@ -91,7 +91,7 @@ HRESULT STDMETHODCALLTYPE Stop(
 [IESP](iesp.md)
 </dt> <dt>
 
-[IESP：： Connect](iesp-connect.md)
+[IESP：：連線](iesp-connect.md)
 </dt> <dt>
 
 [IESP：： Start](iesp-start.md)

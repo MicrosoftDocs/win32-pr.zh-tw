@@ -4,18 +4,18 @@ ms.assetid: 70779e4b-3564-4df8-8861-3276ba90276c
 title: CompressedBitsPerPixelDenominator
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 961e0cf442986ad8024c11c1d5f76500159b1282
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7fd96b560a5863c29aeaf265835aeff027ab420e5e87652358833e64fe656cdf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974251"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120058888"
 ---
 # <a name="systemimagecompressedbitsperpixeldenominator"></a>CompressedBitsPerPixelDenominator
 
 PKEY \_ 影像 CompressedBitsPerPixel 的分母 \_ 。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

@@ -6,12 +6,12 @@ keywords:
 - UrlPrefix 字串 HTTP 伺服器 API
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bddc484f26bc1b3de5d20196dadec9201d3ea272
-ms.sourcegitcommit: 73417d55867c804274a55abe5ca71bcba7006119
+ms.openlocfilehash: f3fad89bf7abd52ee3681beaa8069a7f5e4ee25b482cd065f880263852690fce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "103684217"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120047038"
 ---
 # <a name="urlprefix-strings"></a>UrlPrefix 字串
 
@@ -151,9 +151,9 @@ IP 系結弱式-萬用字元主機規範適用于根據傳入要求所採用的�
 
 HTTP 伺服器 API 會將的要求路由傳送 `https://www.adatum.com:80/default.htm` 至 Queue1，並將要求傳送 `https://www.adatum.com:80/dir/sna/snadefault.htm` 至 Queue2。 它會將要求路由傳送 `https://www.adatum.com:80/dir/app.htm` 至 Queue1，因為最長的完整相符項是使用 `https://www.adatum.com:80/` UrlPrefix，而不是 `https://www.adatum.com:80/dir/sna` UrlPrefix。
 
- 
+ 
 
- 
+ 
 
 
 

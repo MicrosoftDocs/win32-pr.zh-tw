@@ -4,12 +4,12 @@ ms.assetid: 14d4ea1f-776b-40e4-b55d-1cb8a71c6a99
 title: IsSpherical
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c8dc50f85c64d5e4c7c1f9b54953b4b79536841d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 79a8e21a43a7f1f0e495c4b031fd86ac419b238f9a03563cfcf2cdbf8db439ae
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026654"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120058268"
 ---
 # <a name="systemvideoisspherical"></a>IsSpherical
 

@@ -4,12 +4,12 @@ ms.assetid: 09dc7165-22b1-4eca-9591-d83e85556f3f
 title: 在預設內容中強制啟用
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 41599f71dc37c37c1a9a574d274ca2858835e2df
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: d188fb50521e09c88a9c61136e33928176faa1f70a94680b31cf0cc1e75cb8eb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510752"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120070758"
 ---
 # <a name="enforcing-activation-in-the-default-context"></a>在預設內容中強制啟用
 
@@ -35,7 +35,7 @@ ms.locfileid: "104510752"
 
 3.  選取 [ **必須在預設內容中啟用**] 核取方塊。
 
-4.  按一下 [確定]  。
+4.  按一下 [確定]。
 
 > [!Note]  
 > 當您在預設內容中執行已設定的元件時，COM + 不會針對該元件啟動任何已設定的服務。 當您取消核取 [ **必須在預設內容中啟用**] 核取方塊，然後在其本身的內容中執行設定的元件時，就可以再次使用這些服務。

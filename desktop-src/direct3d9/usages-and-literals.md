@@ -4,12 +4,12 @@ ms.assetid: 9ba10dba-626f-4cb8-8dc2-1419329b199e
 title: " (Direct3D 9) 的使用方式和常值"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 62dc1d7b40e66aaa6499dd2aa00c37d4564df2ab
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 3b8c9fa8eb30726e783ce763ec8700f715dbd5d2b85ff3bf98340cf604e8e2f8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107998535"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120026008"
 ---
 # <a name="usages-and-literals-direct3d-9"></a> (Direct3D 9) 的使用方式和常值
 

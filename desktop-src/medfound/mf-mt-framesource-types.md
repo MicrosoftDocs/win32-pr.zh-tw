@@ -4,12 +4,12 @@ ms.assetid: F327B9E9-C01C-4F5B-9A26-6404ECD7F27F
 title: 'MF_MT_FRAMESOURCE_TYPES 屬性 (Mfapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d4475d66aea245ac9295a7996da2c37cabdb9627
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ad3cddc28db050ec3fdb55e47ca2ceb1bd24fb2813bdf90fce439843957a7ae5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106983395"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120113768"
 ---
 # <a name="mf_mt_framesource_types-attribute"></a>MF \_ MT \_ FRAMESOURCE \_ 類型屬性
 
@@ -32,7 +32,7 @@ ms.locfileid: "106983395"
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 10， \[ 僅限1709版桌面應用程式\]<br/>                          |
-| 最低支援的伺服器<br/> | 僅限 Windows Server，版本 1709 \[ 桌面應用程式\]<br/>                      |
+| 最低支援的伺服器<br/> | WindowsServer， \[ 僅限1709版桌面應用程式\]<br/>                      |
 | 標頭<br/>                   | <dl> <dt>Mfapi。h</dt> </dl> |
 
 

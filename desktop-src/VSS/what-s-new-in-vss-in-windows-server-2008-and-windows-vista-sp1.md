@@ -4,19 +4,19 @@ ms.assetid: 2f7b62f8-ba1e-42d2-8872-38d4475e4a2a
 title: Windows Server 2008 和 Windows Vista SP1 中 VSS 的新功能
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2f053e327a7a54a9597bc06836b37c00effc62f9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 83ee109eec31c084dc43fb9e0cc6341f443a16e6aa06ac989a7f328d9bb3011f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113161"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120006118"
 ---
 # <a name="whats-new-in-vss-in-windows-server-2008-and-windows-vista-sp1"></a>Windows Server 2008 和 Windows Vista SP1 中 VSS 的新功能
 
-Windows Server 2008 和 Windows Vista （含 Service Pack 1） (SP1) 引進磁碟區陰影複製服務的下列變更。
+WindowsServer 2008 和 Windows Vista （含 Service Pack 1） (SP1) 對磁碟區陰影複製服務引進下列變更。
 
 > [!Note]  
-> Windows Vista 的所有變更適用于 Windows Server 2008 和 Windows Vista SP1。 如需這些變更的詳細資訊，請參閱 [Windows Vista 中 VSS 的新功能](what-s-new-in-vss-in-windows-vista.md)。
+> Windows Vista 的所有變更適用于 Windows Server 2008 和 Windows Vista SP1。 如需這些變更的詳細資訊，請參閱[Windows Vista 中 VSS 的新功能](what-s-new-in-vss-in-windows-vista.md)。
 
  
 
@@ -101,7 +101,7 @@ VSS \_ VOLSNAP \_ ATTR \_ TXF \_ 復原
 
 ## <a name="new-vss-writers"></a>新的 VSS 寫入器
 
-Windows Server 2008 和 Windows Vista SP1 引進下列 VSS 寫入器：
+WindowsServer 2008 和 Windows Vista SP1 引進下列 VSS 寫入器：
 
 -   IIS 設定寫入器
 -   IIS 元資料庫寫入器

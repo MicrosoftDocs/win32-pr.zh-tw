@@ -4,12 +4,12 @@ ms.assetid: 5bfd747d-af65-f619-e549-be8130748261
 title: XAudio2 操作集
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 90955fc0557f3f84840436c121f768caff4af81b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 68a7f16edfa461d9944691bc4535debc05f820150dadf746caece85cb68c9f97
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104195297"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120089408"
 ---
 # <a name="xaudio2-operation-sets"></a>XAudio2 操作集
 

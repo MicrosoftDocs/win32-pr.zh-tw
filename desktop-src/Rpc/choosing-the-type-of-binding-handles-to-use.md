@@ -4,12 +4,12 @@ description: 選擇要使用的系結控制碼類型
 ms.assetid: b0c2c71d-c6c9-4a58-83f9-10ac9b6b214b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2dd07716b3618766b3ea8aa07fb766f154285207
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: afd35286a5bb88be3094238e0e4c43b701826bca0a7e5ad02d35c5f87f0cbdaa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021162"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120022918"
 ---
 # <a name="choosing-the-type-of-binding-handles-to-use"></a>選擇要使用的系結控制碼類型
 
@@ -19,11 +19,11 @@ ms.locfileid: "104021162"
 
 明確控制碼非常有效率，而且許多吸引人的功能只適用于明確的控制碼。 例如，如果有多個 RPC 呼叫將會進入相同的伺服器，您可以建立系結控制碼一次，並使用它來進行所有呼叫。 這種方法比其他方法更有效率。 如果呼叫將移至的伺服器不明，請為每個呼叫建立明確的系結控制碼，或使用泛型系結控制碼。
 
-在 Microsoft™ Windows XP 中，RPC 執行時間在重複使用和快取呼叫上相當有效率，因此，如果 *n*+ 1 呼叫最後會在與第 *n* 次呼叫相同的伺服器上，則 rpc 會重新使用配置給第 *n* 次呼叫的資源，而不需要快取系結控制碼來改善效能。
+在 Microsoft™ Windows XP 中，rpc 執行時間在重複使用和快取呼叫上相當有效率，因此，如果 *n*+ 1 呼叫最後會在與第 *n* 次呼叫相同的伺服器上，則 rpc 會重新使用配置給第 *n* 次呼叫的資源，而不需要快取系結控制碼來改善效能。
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,19 +1,19 @@
 ---
-description: 應用程式可以藉由呼叫下列其中一種 IWiaDevMgr 或 IWiaDevMgr2 介面方法，註冊以收到 Windows 映像取得 (WIA) 硬體裝置事件的通知： IWiaDevMgr：： RegisterEventCallbackCLSID 或 IWiaDevMgr2：： RegisterEventCallbackCLSIDIWiaDevMgr：： RegisterEventCallbackInterface 或 IWiaDevMgr2：： RegisterEventCallbackInterfaceIWiaDevMgr：： RegisterEventCallbackProgram 或 IWiaDevMgr2：： RegisterEventCallbackProgram
+description: 應用程式可以藉由呼叫下列其中一種 IWiaDevMgr 或 IWiaDevMgr2 介面方法，註冊 Windows 影像取得 (WIA) 硬體裝置事件的通知： IWiaDevMgr：： RegisterEventCallbackCLSID 或 IWiaDevMgr2：： RegisterEventCallbackCLSIDIWiaDevMgr：： RegisterEventCallbackInterface 或 IWiaDevMgr2：： RegisterEventCallbackInterfaceIWiaDevMgr：： RegisterEventCallbackProgram 或 IWiaDevMgr2：： RegisterEventCallbackProgram
 ms.assetid: 0c142083-835f-4bbd-ab32-eb6130f99c59
 title: 註冊 WIA 事件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aa9fc36540a64211428579bc13b84902490ea103
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 18e5f6409c8ac6af6f7bd82e43c34bef683a966fbd38d3ed35959ee9a4bc9c73
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943460"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120057028"
 ---
 # <a name="registering-wia-events"></a>註冊 WIA 事件
 
-應用程式可以藉由呼叫下列其中一種 [**IWiaDevMgr**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiadevmgr) 或 [**IWiaDevMgr2**](-wia-iwiadevmgr2.md) 介面方法，註冊以收到 WINDOWS 映射取得 (WIA) 硬體裝置事件的通知：
+應用程式可以藉由呼叫下列其中一種 [**IWiaDevMgr**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiadevmgr)或 [**IWiaDevMgr2**](-wia-iwiadevmgr2.md)介面方法，註冊以取得 Windows 映像取得 (WIA) 硬體裝置事件的通知：
 
 -   [**IWiaDevMgr：： RegisterEventCallbackCLSID**](/windows/desktop/api/wia_xp/nf-wia_xp-iwiadevmgr-registereventcallbackclsid)或 [ **IWiaDevMgr2：： RegisterEventCallbackCLSID**](-wia-iwiadevmgr2-registereventcallbackclsid.md)
 -   [**IWiaDevMgr：： RegisterEventCallbackInterface**](/windows/desktop/api/wia_xp/nf-wia_xp-iwiadevmgr-registereventcallbackinterface)或 [ **IWiaDevMgr2：： RegisterEventCallbackInterface**](-wia-iwiadevmgr2-registereventcallbackinterface.md)

@@ -14,12 +14,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 451c03123634dd98a1f4a49292db0a807009f6f5
-ms.sourcegitcommit: 168d11879cb9fd89d26f826482725c0a626be00f
+ms.openlocfilehash: 80ae1dc749d1c31ee11809b530fe1b04a59ce3e4e4dc76e84323b7dc078ec44a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "106985919"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119978288"
 ---
 # <a name="baseeapparameters-complex-type---user-properties"></a>BaseEapParameters 複雜類型-使用者屬性
 
@@ -47,7 +47,7 @@ ms.locfileid: "106985919"
 
 
 
-| 元素                                                                      | 類型    | Description                                                                                               |
+| 元素                                                                      | 類型    | 描述                                                                                               |
 |------------------------------------------------------------------------------|---------|-----------------------------------------------------------------------------------------------------------|
 | [**類型**](baseeapuserpropertiesv1schema-type-baseeapparameters-element.md) | 整數 | 定義所選方法類型的預留位置元素，以及方法特定的認證。 <br/> |
 
@@ -59,8 +59,8 @@ ms.locfileid: "106985919"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

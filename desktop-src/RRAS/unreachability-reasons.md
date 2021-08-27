@@ -4,12 +4,12 @@ description: 下表列出表示無法連接介面之原因的常數值。
 ms.assetid: 55c0519e-02c8-4a04-bed9-9fe94327a4b6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f8b99d36ba895394a417130ab3ae45d1a47c7ed6
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 64cb833409d9d2ba31adedbc2942d39399c0a5763ad4d65dc7cdcaf234f97efb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104023826"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120025408"
 ---
 # <a name="unreachability-reasons"></a>無法撥號的原因
 
@@ -29,7 +29,7 @@ ms.locfileid: "104023826"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -47,6 +47,6 @@ ms.locfileid: "104023826"
 [**MIB \_ IFSTATUS**](/windows/desktop/api/iprtrmib/ns-iprtrmib-mib_ifstatus)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -1,19 +1,19 @@
 ---
-description: 應用程式會將 Windows 映像取得 (WIA) 裝置視為 IWiaItem 或 IWiaItem2 物件的階層式樹狀結構，其中根專案代表裝置本身。
+description: 應用程式會以 IWiaItem 或 IWiaItem2 物件的階層式樹狀結構來查看 Windows 映像取得 (WIA) 裝置，並以代表裝置本身的根項目表示。
 ms.assetid: ae4ded93-09be-4caa-ad6e-1a9071fdb4b6
 title: WIA 迷你驅動程式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f5aadaf55cfe2e8102d4e0e02cf9787b9696e327
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 37e8d3c520106c345bd02df5b686bb1abf34f9ff1aa0b338e645b178cabbb874
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511601"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120056918"
 ---
 # <a name="wia-minidriver"></a>WIA 迷你驅動程式
 
-應用程式會將 Windows 映像取得 (WIA) 裝置視為 [**IWiaItem**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem) 或 [**IWiaItem2**](-wia-iwiaitem2.md) 物件的階層式樹狀結構，其中根專案代表裝置本身。 WIA 裝置可同時由一個以上的應用程式使用。 因此，每個應用程式的 **IWiaItem** 或 **IWiaItem2** 物件檢視都必須與另一個應用程式的視圖無關。 這可透過兩個不同的專案物件來完成。 驅動程式會使用 WIA 驅動程式服務方法來建立 [IWiaDrvItem 介面](https://msdn.microsoft.com/library/ms793976.aspx) 物件的驅動程式專案樹狀結構，也稱為驅動程式專案。 這些是驅動程式用來表示每個驅動程式內部專案的全域物件。 當應用程式建立 **IWiaItem** 或 **IWiaItem2** 物件 (也稱為應用程式專案) 時，此物件會連結至驅動程式專案樹狀結構中驅動程式的對應 [IWiaDrvItem 介面](https://msdn.microsoft.com/library/ms793976.aspx) 。 參考計數會在 [IWiaDrvItem 介面](https://msdn.microsoft.com/library/ms793976.aspx) 物件上保留，且受限於下列規則：
+應用程式會以 [**IWiaItem**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem)或 [**IWiaItem2**](-wia-iwiaitem2.md)物件的階層式樹狀結構來查看 Windows 映像取得 (WIA) 裝置，並以代表裝置本身的根項目表示。 WIA 裝置可同時由一個以上的應用程式使用。 因此，每個應用程式的 **IWiaItem** 或 **IWiaItem2** 物件檢視都必須與另一個應用程式的視圖無關。 這可透過兩個不同的專案物件來完成。 驅動程式會使用 WIA 驅動程式服務方法來建立 [IWiaDrvItem 介面](https://msdn.microsoft.com/library/ms793976.aspx) 物件的驅動程式專案樹狀結構，也稱為驅動程式專案。 這些是驅動程式用來表示每個驅動程式內部專案的全域物件。 當應用程式建立 **IWiaItem** 或 **IWiaItem2** 物件 (也稱為應用程式專案) 時，此物件會連結至驅動程式專案樹狀結構中驅動程式的對應 [IWiaDrvItem 介面](https://msdn.microsoft.com/library/ms793976.aspx) 。 參考計數會在 [IWiaDrvItem 介面](https://msdn.microsoft.com/library/ms793976.aspx) 物件上保留，且受限於下列規則：
 
 -   當驅動程式將 [IWiaDrvItem 介面](https://msdn.microsoft.com/library/ms793976.aspx) 物件加入至驅動程式專案樹狀結構時， [IWiaDrvItem 介面](https://msdn.microsoft.com/library/ms793976.aspx) 物件的參考計數會遞增。 這通常會在 IWiaMiniDrv 期間發生 [：:D rvinitializewia](https://msdn.microsoft.com/library/ms794097.aspx) 或處理 WIA \_ CMD \_ SYNCHRONIZE 命令時。
 -   當驅動程式從驅動程式專案樹狀結構中移除 [IWiaDrvItem 介面](https://msdn.microsoft.com/library/ms793976.aspx) 物件時， [IWiaDrvItem 介面](https://msdn.microsoft.com/library/ms793976.aspx) 物件的參考計數會減少，並標示 [IWiaDrvItem 介面](https://msdn.microsoft.com/library/ms793976.aspx) 物件，使其無法再次存取裝置。 當裝置中斷連線或刪除專案時，通常會發生這種情況。 即使已從驅動程式專案樹狀結構中移除對應的 [IWiaDrvItem 介面](https://msdn.microsoft.com/library/ms793976.aspx)物件，應用程式仍能從 [**IWiaItem**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem)或 [**IWiaItem2**](-wia-iwiaitem2.md)物件讀取屬性。

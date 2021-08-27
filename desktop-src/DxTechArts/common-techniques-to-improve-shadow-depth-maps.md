@@ -4,12 +4,12 @@ description: 本技術檔概述一些常見的陰影深度對應演算法和常�
 ms.assetid: bf994838-a261-0379-9301-eb9b250d216c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c8b25507d7f6b8608d4dacf5fab620bc8a3294c7
-ms.sourcegitcommit: 218b1ff779402c3ebe1786679e1aa80a5c0d6c95
+ms.openlocfilehash: aafff1b537830ae0ee681ed32932cca2b6274a4d9da3e0471ef498e0bef2d483
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "103683210"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120102468"
 ---
 # <a name="common-techniques-to-improve-shadow-depth-maps"></a>改善陰影深度圖的常見技術
 
@@ -23,7 +23,7 @@ ms.locfileid: "103683210"
 
 ![具有重大成品的陰影 (在執行本文中所述的技巧之後，將) 和陰影 (正確) ](images/shadows-before-and-after.jpg)
 
-## <a name="shadow-depth-maps-review"></a>陰影深度對應評論
+## <a name="shadow-depth-maps-review"></a>地圖評論的陰影深度
 
 陰影深度對應演算法是雙通路演算法。 第一個階段會在光線空間中產生深度對應。 在第二個階段中，這個對應會用來比較光線空間中的每個圖元深度與光源間距深度地圖中的對應深度。
 
@@ -51,7 +51,7 @@ ms.locfileid: "103683210"
 
 ![基本陰影對應的第二次傳遞](images/second-pass-of-basic-shadow-mapping.png)
 
-## <a name="shadow-map-artifacts"></a>陰影對應成品
+## <a name="shadow-map-artifacts"></a>陰影地圖 Artifacts
 
 陰影深度對應演算法是最廣泛使用的即時遮蔽演算法，但仍會產生數個需要緩和的構件。 接下來會摘要說明可能發生的構件類型。
 
@@ -77,7 +77,7 @@ ms.locfileid: "103683210"
 
 透視圖陰影地圖 (PSMs) 和淺色空間透視圖陰影地圖 (LSPSMs) 嘗試透過扭曲光源的投射矩陣來處理透視別名，以將更多材質置於接近需求的地方。 可惜的是，這兩種技術都無法解決觀點的別名。 將眼睛間距圖元對應到陰影地圖中材質所需的轉換參數化，無法由線性誤差來系結。 需要對數參數化。 PSMs 會將太多詳細資料放在眼睛附近，導致遠處陰影的品質低或甚至消失。 LSPSMs 可讓您更妥善地找出不斷增加解析度的中間，並留下足夠的物件詳細資料。 這兩種技術都是在某些場景設定中退化為正向陰影。 您可以針對視圖的每個臉部呈現不同的陰影地圖來 counteracted 這個 degeneration，不過這很昂貴。 對數透視圖 (LogPSMs) 也會針對視圖的每個臉部呈現不同的地圖。 這項技術使用非線性柵格化來放置更多材質。 D3D10 和 D3D11 類別的硬體不支援非線性柵格化。 如需這些技術和演算法的詳細資訊，請參閱參考一節。
 
-串聯陰影地圖 (網，) 是處理觀點別名的最受歡迎技術。 雖然網 PSMs 與 LSPSMs 可以合併，但這是不必要的。 使用網達器修正透視混淆錯誤的相關文章、 [串聯陰影地圖](/windows/desktop/DxTechArts/cascaded-shadow-maps)。
+串聯陰影地圖 (網，) 是處理觀點別名的最受歡迎技術。 雖然網 PSMs 與 LSPSMs 可以合併，但這是不必要的。 協助工具文章、[串聯陰影地圖](/windows/desktop/DxTechArts/cascaded-shadow-maps)中，使用網達器修正透視圖的問題。
 
 ### <a name="projective-aliasing"></a>Projective 別名
 
@@ -113,7 +113,7 @@ Projective 別名比透視圖別名更難顯示。 [圖 7] 中反白顯示的 di
 
 移除 surface acne 的其中一項技術是將某個值加入至亮空間的圖元位置;這稱為新增深度位移。 當使用的深度位移太大時，Peter 移動結果。 在此情況下，深度位移會導致深度測試錯誤地傳遞。 如同陰影 acne，當深度緩衝區中的有效位數沒有足夠時，Peter 移動就會而不耐煩。 計算緊密接近的平面和目前的平面，也有助於避免 Peter 的移動。
 
-## <a name="techniques-to-improve-shadow-maps"></a>改善陰影對應的技巧
+## <a name="techniques-to-improve-shadow-maps"></a>改進影子地圖的技巧
 
 將遮蔽新增至標題是一種處理常式。 第一個步驟是讓基本的影子地圖運作。 第二個是確保所有基本計算都能以最佳方式執行： frusta 盡可能緊密地調整、接近/遠的平面緊密地調整、使用斜率調整偏差等。 當基本的陰影已啟用，而且看起來越好，開發人員就可以更清楚地瞭解需要哪些演算法才能讓陰影獲得足夠的精確度。 本節會提供基本的提示，讓基本的影子地圖能以最理想的方式查看。
 
@@ -155,7 +155,7 @@ Direct3D 10 硬體可以根據視圖方向來偏差多邊形的斜率。 這項�
 
 計算接近平面和目前平面的簡單簡單方式，就是將場景的周框磁片區轉換成輕量空間。 最小的 Z 座標值是近平面，最大的 Z 座標值是最大的平面。 針對場景和燈光的許多設定，此方法就已足夠。 但是最糟的情況可能會導致深度緩衝區的精確度大幅遺失;[圖 13] 顯示這類案例。 在這裡，最遠的平面範圍會比所需的四倍長。
 
-[圖 13] 中的 [視圖] 會刻意選擇較小。 小型視圖的截量圖會顯示在非常大的場景中，其中包含從 view 相機擴充的支柱。 對近和遠的平面使用場景 AABB 不是最佳的。 在 [串聯陰影地圖](/windows/desktop/DxTechArts/cascaded-shadow-maps) 技術檔中所述的 CSM 演算法，必須針對非常小的 frustums，計算近遠的平面。
+[圖 13] 中的 [視圖] 會刻意選擇較小。 小型視圖的截量圖會顯示在非常大的場景中，其中包含從 view 相機擴充的支柱。 對近和遠的平面使用場景 AABB 不是最佳的。 在[串聯陰影地圖](/windows/desktop/DxTechArts/cascaded-shadow-maps)技術檔中所述的 CSM 演算法，必須針對非常小的 frustums，計算接近或遠的平面。
 
 **[圖 13]根據場景 AABB 的近和遠平面**
 
@@ -264,18 +264,18 @@ VWorldUnitsPerTexel 值的計算方式是取得 view 分割區的界限，並除
 
 也請務必確定幾何的面向方向是正確的;也就是，物件的外部應該會向外，而且物件內的內部應該是正面的。 這對於使用恢復臉部剔除進行轉譯，以及對抗深度偏差的效果而言很重要。
 
-## <a name="summary"></a>總結
+## <a name="summary"></a>摘要
 
-本文所述的技巧可用於提高標準陰影對應的品質。 下一步是查看可搭配標準陰影對應使用的技術。 我們建議使用網達網，作為對抗觀點別名的絕佳技術。 接近篩選或變異數陰影對應的百分比可用於將陰影邊緣柔化。 See the [Cascaded Shadow Maps](/windows/desktop/DxTechArts/cascaded-shadow-maps) technical article for more information.
+本文所述的技巧可用於提高標準陰影對應的品質。 下一步是查看可搭配標準陰影對應使用的技術。 我們建議使用網達網，作為對抗觀點別名的絕佳技術。 接近篩選或變異數陰影對應的百分比可用於將陰影邊緣柔化。 如需詳細資訊，請參閱[串聯陰影地圖](/windows/desktop/DxTechArts/cascaded-shadow-maps)技術文章。
 
-Donnelly、W 和 Lauritzen，A. 變異 [陰影對應](https://portal.acm.org/citation.cfm?doid=1111411.1111440)。 互動式3d 圖形上的 Symposium，以及互動式3D 圖形和遊戲的 2006 Symposium 的訴訟。 2006、pp. 161-165。
+Donnelly、W 和 Lauritzen，A.[差異陰影地圖](https://portal.acm.org/citation.cfm?doid=1111411.1111440)。 互動式3d 圖形上的 Symposium，以及互動式3D 圖形和遊戲的 2006 Symposium 的訴訟。 2006、pp. 161-165。
 
 Engel，Woflgang f. 第4節。 串聯陰影地圖。 ShaderX5， *Advanced 轉譯技巧*，Wolfgang Engel，Ed。 麻塞諸塞州波士頓 Charles 河媒體。 2006。 pp. 197 –206。
 
 Stamminger、Marc 和 Drettakis、George。 [透視圖陰影地圖](https://portal.acm.org/citation.cfm?id=566616)。 電腦圖形和互動式技術的國際會議， *在電腦圖形和互動式技術上有29年的研討會*。 2002、pp 557 –562個。
 
-Wimmer、M.、Scherzer、D. 和 Purgathofer、W. [淺空間透視圖陰影地圖](https://www.cg.tuwien.ac.at/research/vr/lispsm/shadows_egsr2004_revised.pdf)。 轉譯時的 Eurographics Symposium。 2004。 2005年6月10日修訂。 [技術 Universität Wien](https://www.cg.tuwien.ac.at/research/vr/lispsm/)。
+Wimmer、M.、Scherzer、d. 和 Purgathofer、W.[淺空間透視圖陰影地圖](https://www.cg.tuwien.ac.at/research/vr/lispsm/shadows_egsr2004_revised.pdf)。 轉譯時的 Eurographics Symposium。 2004。 2005年6月10日修訂。 [技術 Universität Wien](https://www.cg.tuwien.ac.at/research/vr/lispsm/)。
 
- 
+ 
 
- 
+ 
