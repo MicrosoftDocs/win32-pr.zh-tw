@@ -4,12 +4,12 @@ ms.assetid: b44b24b7-7fc4-4c3c-9d10-7e2f3c43cf36
 title: 摘要屬性描述
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 41addb58571b6d18e1cccc4a34c3026f3d0544cf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bb93e5881a25b6b79eef0fb0711acc1fec1b6666
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980042"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122629541"
 ---
 # <a name="summary-property-descriptions"></a>摘要屬性描述
 
@@ -21,8 +21,8 @@ ms.locfileid: "106980042"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -48,7 +48,7 @@ ms.locfileid: "106980042"
 <td>檔案瀏覽器可以用來對檔案進行關鍵字搜尋的關鍵字清單。 關鍵字應該包含 &quot; 安裝程式以及 &quot; 產品特定關鍵字。</td>
 </tr>
 <tr class="odd">
-<td><a href="comments-summary.md"><strong>註解</strong></a></td>
+<td><a href="comments-summary.md"><strong>評論</strong></a></td>
 <td>包含片語： &quot; 此安裝程式資料庫包含安裝 <<em>產品名稱</em>所需的邏輯和資料 > 。&quot;</td>
 </tr>
 <tr class="even">
@@ -80,13 +80,13 @@ ms.locfileid: "106980042"
 <td>包含用來識別此安裝套件所需之最小安裝程式版本的值。 例如，如果封裝至少需要2.0 版的安裝程式，則此屬性應該設定為200的整數。
 <blockquote>
 [!Note]<br />
-這個屬性的值必須是200或更高的 <a href="64-bit-windows-installer-packages.md">64 位 Windows Installer 套件</a>。
+這個屬性的值必須是200或更高的<a href="64-bit-windows-installer-packages.md">64 位 Windows Installer 套件</a>。
 </blockquote>
 <br/></td>
 </tr>
 <tr class="odd">
 <td>需要 (<a href="word-count-summary.md"><strong>字數統計</strong></a>) </td>
-<td>來源檔案映射的類型。 儲存以取代標準計數屬性。 這個屬性是位欄位。 請參閱 [ <a href="word-count-summary.md"><strong>字數統計</strong></a> ] 主題以取得值。<br/> 從 Windows Vista 上的 Windows Installer 4.0 版開始，這個屬性會包含用來指定是否需要提升許可權的位。<br/></td>
+<td>來源檔案映射的類型。 儲存以取代標準計數屬性。 這個屬性是位欄位。 請參閱 [ <a href="word-count-summary.md"><strong>字數統計</strong></a> ] 主題以取得值。<br/> 從 Windows Vista 上的 Windows Installer 4.0 版開始，這個屬性會包含用來指定是否需要提高許可權的位。<br/></td>
 </tr>
 <tr class="even">
 <td><a href="character-count-summary.md"><strong>字元計數</strong></a></td>
@@ -121,7 +121,7 @@ ms.locfileid: "106980042"
 | [**主體**](subject-summary.md)                            | 原始安裝套件所安裝的產品名稱。 這應該與原始安裝套件中的 [主旨 [**摘要**](subject-summary.md) ] 屬性值相同。                                                                                            |
 | [**作者**](author-summary.md)                              | 此轉換的製造商名稱。                                                                                                                                                                                                                                                   |
 | [**關鍵字**](keywords-summary.md)                          | 檔案瀏覽器可以用來對檔案進行關鍵字搜尋的關鍵字清單。 關鍵字應該包含「安裝程式」，以及產品特定的關鍵字。                                                                                                                             |
-| [**註解**](comments-summary.md)                          | 包含片語：「此轉換包含安裝 <*產品名稱*> 所需的邏輯和資料。」                                                                                                                                                                                     |
+| [**評論**](comments-summary.md)                          | 包含片語：「此轉換包含安裝 <*產品名稱*> 所需的邏輯和資料。」                                                                                                                                                                                     |
 | [**範本**](template-summary.md) (必要)                | 與此轉換相容的平臺和語言版本。 如果沒有任何限制，此值可以保留空白。 只能為轉換指定一種語言。 如需語法的詳細資訊，請參閱 [**範本**](template-summary.md)。                                |
 | [**上次儲存者**](last-saved-by-summary.md)                | 在資料庫轉換之後， (s 的平臺和語言識別項) 。 新資料庫中的 [ [**範本摘要**](template-summary.md) ] 屬性應該設定為相同的值。                                                                                              |
 |  (必要的 [**修訂編號**](revision-number-summary.md))  | 新的和原始產品的產品代碼 Guid 和版本清單，以及升級程式碼 GUID。 清單會以分號分隔，如下所示。 *原始產品-程式碼原始-版本*;*新產品程式碼新產品-版本*; *升級-程式碼*<br/>                       |
@@ -145,8 +145,8 @@ ms.locfileid: "106980042"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -172,7 +172,7 @@ ms.locfileid: "106980042"
 <td>以分號分隔的修補程式來源清單。</td>
 </tr>
 <tr class="odd">
-<td><a href="comments-summary.md"><strong>註解</strong></a></td>
+<td><a href="comments-summary.md"><strong>評論</strong></a></td>
 <td>包含片語： &quot; 此修補套裝程式含安裝 <<em>產品名稱</em>所需的邏輯和資料 > 。&quot;</td>
 </tr>
 <tr class="even">

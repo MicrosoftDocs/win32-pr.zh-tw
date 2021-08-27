@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4bd59b03fe9cb23309d53773289291c8a791935a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5e93ebf7c85e4015539cbbcc15723cdfed9c7d181741925c1a97c93ccc4326eb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103686128"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120124898"
 ---
 # <a name="iremotedesktopclienteventsondisconnected-method"></a>IRemoteDesktopClientEvents：： OnDisconnected 方法
 

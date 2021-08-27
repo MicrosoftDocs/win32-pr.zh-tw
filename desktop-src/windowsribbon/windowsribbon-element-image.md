@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: aad95d62be63434653908d54a290c3213fd22bf644150b70fa995e86bf5e39af
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: b05f7c93ea1597d2dde4724ff0b24b53769cd9ea
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119931448"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122631676"
 ---
 # <a name="image-element"></a>Image 項目
 
@@ -42,10 +42,10 @@ ms.locfileid: "119931448"
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col  />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -59,26 +59,26 @@ ms.locfileid: "119931448"
 <tr class="odd">
 <td><strong>識別碼</strong><br/></td>
 <td>xs： positiveInteger union xs： string<br/></td>
-<td>No<br/></td>
+<td>否<br/></td>
 <td>唯一的資源識別碼。 <br/> <br/>
 <dt><span></span><span></span><strong></strong> (xs： positiveInteger 和 xs： string 的聯集) <br/> </dt> <dd> 介於2和59999（含）之間的整數值，或以十六進位（含）表示的0xea5f。 <br/> 最大長度為10個字元，包括選擇性前置零。 <br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><strong>MinDPI</strong><br/></td>
 <td>xs:positiveInteger<br/></td>
-<td>No<br/></td>
+<td>否<br/></td>
 <td><dt><span></span><span></span><strong></strong> (xs： positiveInteger) <br/> </dt> <dd> 最小值為96的任何數位序列。 <br/> 如果省略 MinDPI，預設值為96。 <br/> </dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><strong>來源</strong><br/></td>
 <td>xs:anyURI<br/></td>
-<td>No<br/></td>
+<td>否<br/></td>
 <td><dt><span></span><span></span><strong></strong> (xs： anyURI) <br/> </dt> <dd> 表示 URI 的任何字元序列。 URI 值是功能區標記檔案的絕對或相對 (，) 類型為 BMP 之影像資源的路徑。 <br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><strong>符號</strong><br/></td>
 <td>xs:string<br/></td>
-<td>No<br/></td>
+<td>否<br/></td>
 <td>影像的資源符號。<br/> <br/>
 <dt><span></span><span></span><strong></strong> (xs： string) <br/> </dt> <dd> 由字母或底線組成的字串，後面接著字母、數位或底線的任意序列，最多100個字元。 <br/> </dd> </dl></td>
 </tr>

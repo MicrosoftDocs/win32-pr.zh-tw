@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 256e4e51cb13136dc09f7e86b6805b7e0efd42a7
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 678e1048e5299446e75cfe16ff09a8f499aec4f0e1e768c80cf23d1ebb6cad3a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107001931"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120123598"
 ---
 # <a name="eventshiftkey"></a>shiftKey
 

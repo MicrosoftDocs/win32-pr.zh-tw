@@ -4,12 +4,12 @@ ms.assetid: 7de8cb64-122a-475f-990c-c19590a9d9d8
 title: 'MEStreamThinMode 事件 (Mfobjects) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 371c628498356f64918d42ffe6af94aef95af34005250ba3a4a891b6b76f6dc6
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f13a9cc5b625a8b366bece1debc2017fce51e35d
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120013558"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122479514"
 ---
 # <a name="mestreamthinmode-event"></a>MEStreamThinMode 事件
 
@@ -23,29 +23,11 @@ ms.locfileid: "120013558"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VARTYPE</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>VT_BOOL<br/></td>
-<td>指出 thinning 是否已啟動或停止。<br/>
-<ul>
-<li>VARIANT_TRUE： thinned 此事件之後傳遞的範例。</li>
-<li>VARIANT_FALSE：未 thinned 此事件之後傳遞的範例。</li>
-</ul>
-<br/></td>
-</tr>
-</tbody>
-</table>
+
+| VARTYPE | Description | 
+|---------|-------------|
+| VT_BOOL<br /> | 指出 thinning 是否已啟動或停止。<br /><ul><li>VARIANT_TRUE： thinned 此事件之後傳遞的範例。</li><li>VARIANT_FALSE：未 thinned 此事件之後傳遞的範例。</li></ul><br /> | 
+
 
 
 

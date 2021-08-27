@@ -21,12 +21,12 @@ keywords:
 - 控制項類型，ProgressBar
 ms.topic: article
 ms.date: 12/04/2019
-ms.openlocfilehash: 98be22a4a3d3b99e113d3c0d1402f2c45ee25550
-ms.sourcegitcommit: 6f7576b297d54c0b8f9c79e02c912b83041aa4fb
+ms.openlocfilehash: 5dc5dd22abcaca70ae9ce86717db6055642a21ce
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "104092487"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122472295"
 ---
 # <a name="progressbar-control-type"></a>ProgressBar 控制項類型
 
@@ -48,28 +48,11 @@ ms.locfileid: "104092487"
 
 下表描述與進度列控制項相關之消費者介面自動化樹狀結構的一般控制項和內容視圖，並說明每個視圖中可包含的內容。 如需消費者介面自動化樹狀結構的詳細資訊，請參閱 [消費者介面自動化樹狀結構總覽](uiauto-treeoverview.md)。
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>控制項檢視</th>
-<th>內容檢視</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>ProgressBar</li>
-</ul></td>
-<td><ul>
-<li>ProgressBar</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| 控制項檢視 | 內容檢視 | 
+|--------------|--------------|
+| <ul><li>ProgressBar</li></ul> | <ul><li>ProgressBar</li></ul> | 
+
 
 進度列控制項在消費者介面自動化樹狀結構的控制項或內容視圖中沒有任何子系。
 
@@ -82,7 +65,7 @@ ms.locfileid: "104092487"
 | [**UIA \_ AutomationIdPropertyId**](uiauto-automation-element-propids.md)                 | 請參閱備註。      | 這個屬性的值在消費者介面自動化樹狀結構的原始視圖中的所有對等元素之間必須是唯一的。                                                                                         |
 | [**UIA \_ BoundingRectanglePropertyId**](uiauto-automation-element-propids.md)       | 請參閱備註。      | 包含整個控制項的最外層矩形。                                                                                                                                             |
 | [**UIA \_ ClickablePointPropertyId**](uiauto-automation-element-propids.md)             | 請參閱備註。      | 如果有週框即受支援。 如果無法按下周框中的每個點，而且專案會執行特製化的點擊測試，請覆寫並提供可按一下的點。 |
-| [**UIA \_ ControlTypePropertyId**](uiauto-automation-element-propids.md)                   | **進度列** |                                                                                                                                                                                                      |
+| [**UIA \_ ControlTypePropertyId**](uiauto-automation-element-propids.md)                   | **ProgressBar** |                                                                                                                                                                                                      |
 | [**UIA \_ IsContentElementPropertyId**](uiauto-automation-element-propids.md)         | **TRUE**        | 進度列控制項一律包含在消費者介面自動化樹狀結構的內容視圖中。                                                                                                           |
 | [**UIA \_ IsControlElementPropertyId**](uiauto-automation-element-propids.md)         | **TRUE**        | 進度列控制項一律包含在消費者介面自動化樹狀結構的控制項視圖中。                                                                                                           |
 | [**UIA \_ IsKeyboardFocusablePropertyId**](uiauto-automation-element-propids.md)   | 請參閱備註。      | 如果控制項可接收鍵盤焦點，就必定支援此屬性。                                                                                                                            |
@@ -92,7 +75,7 @@ ms.locfileid: "104092487"
 
 
 
- 
+ 
 
 ## <a name="required-control-patterns"></a>必要的控制項模式
 
@@ -104,7 +87,7 @@ ms.locfileid: "104092487"
 |---------------------------------------------------------------|---------------|--------------------------------------------------------------------------------------------------------------------------------------------|
 | [**IRangeValueProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-irangevalueprovider)     | 相依       | 使用數值範圍的進度列控制項必須執行 [RangeValue](uiauto-implementingrangevalue.md) 控制項模式。        |
 | [**最小值**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-irangevalueprovider-get_minimum)         | 相依           | 這個屬性的值是控制項可以設定的最小值。 此值應小於 [**最大**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-irangevalueprovider-get_maximum)值。                                                      |
-| [**最大**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-irangevalueprovider-get_maximum)         | 相依         | 這個屬性的值是控制項可以設定的最大值。 此值應大於 [**最小**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-irangevalueprovider-get_minimum)值。                                                        |
+| [**最大值**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-irangevalueprovider-get_maximum)         | 相依         | 這個屬性的值是控制項可以設定的最大值。 此值應大於 [**最小**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-irangevalueprovider-get_minimum)值。                                                        |
 | [**SmallChange**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-irangevalueprovider-get_smallchange) | **NaN**       | 這個屬性不是必要項，因為進度列控制項是唯讀的。                                                                 |
 | [**LargeChange**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-irangevalueprovider-get_largechange) | **NaN**       | 這個屬性不是必要項，因為進度列控制項是唯讀的。                                                                 |
 | [**IValueProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-ivalueprovider)               | 相依       | 提供進度文字指示的進度列控制項必須執行實 [值](uiauto-implementingvalue.md) 控制項模式。 |
@@ -113,7 +96,7 @@ ms.locfileid: "104092487"
 
 
 
- 
+ 
 
 ## <a name="required-events"></a>必要的事件
 
@@ -134,7 +117,7 @@ ms.locfileid: "104092487"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -149,9 +132,9 @@ ms.locfileid: "104092487"
 [UI 自動化概觀](uiauto-uiautomationoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

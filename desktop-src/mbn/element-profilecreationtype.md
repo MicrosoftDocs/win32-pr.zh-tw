@@ -7,12 +7,12 @@ MSHAttr:
 title: 'MBNProfileExt 中的 ProfileCreationType () '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 29892e6a9dd0f32bb571103668d3a2d7dea32311
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: 652d406689219c8a535e0a75ae7123180c7530a6
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122473944"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122885409"
 ---
 # <a name="span-idwwan_profile_v4element_profilecreationtypespanprofilecreationtype-in-mbnprofileext"></a><span id="WWAN_profile_v4.element_ProfileCreationType"></span>MBNProfileExt 中的 ProfileCreationType () 
 
@@ -22,8 +22,8 @@ ms.locfileid: "122473944"
 
 ## <a name="element-hierarchy"></a>元素階層
 
-[<MBNProfileExt>](element-mbnprofileext.md)  
-**<ProfileCreationType>**
+[&lt;MBNProfileExt&gt;](element-mbnprofileext.md)  
+**&lt;ProfileCreationType&gt;**
 
 ## <a name="syntax"></a>Syntax
 
@@ -48,7 +48,7 @@ ms.locfileid: "122473944"
 ### <a name="span-idparent_elementsspanspan-idparent_elementsspanparent-elements"></a><span id="parent_elements"></span><span id="PARENT_ELEMENTS"></span>父元素
 
 
-| Parent 項目 | Description | 
+| Parent 項目 | 說明 | 
 |----------------|-------------|
 | <a href="element-mbnprofileext.md">MBNProfileExt</a> | <p><strong>MBNProfileExt</strong>元素是先前 MBNProfile 專案的延伸模組。 它會以比 MBNProfile 元素更豐富的選項組來識別行動寬頻設定檔。</p><p>設定檔中可以有一個以上的 MbnProfileExt 元素，描述一組特定作業條件的設定檔設定。 使用<strong>MBNProfileExt</strong>的<a href="element-profileconditionedon.md"><strong>ProfileConditionedOn</strong></a>子項目，以指定哪些作業條件會將特定的設定檔設為使用中的設定檔。</p> | 
 

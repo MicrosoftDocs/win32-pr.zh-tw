@@ -4,12 +4,12 @@ ms.assetid: 09a06de4-0713-4e92-ab29-f34f6c94b677
 title: 'PatchMetadata 資料表 (PATCHWIZ.DLL) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5845bc279094a4a0280aa1e5e46d161c2d82b4e4037903f502230f6c6d54dca9
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: af760fbe286cf37cdb3aefe389ee8d09d7a759d3
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119926148"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122475444"
 ---
 # <a name="patchmetadata-table-patchwizdll"></a>PatchMetadata 資料表 (PATCHWIZ.DLL) 
 
@@ -49,65 +49,20 @@ PatchMetadata 資料表具有下列資料行。
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>屬性</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>AllowRemoval</td>
-<td>整數值，指出修補程式是否為 <a href="uninstallable-patches.md">可卸載修補程式</a>。 如果 [值] 欄位包含 0 (零) ，就無法移除修補程式。 如果 [值] 欄位包含1個 (一個) ，則修補程式是可卸載修補程式。 此為必要屬性。這個屬性已註冊，而且可以使用 <a href="/windows/desktop/api/Msi/nf-msi-msigetpatchinfoexa"><strong>MsiGetPatchInfoEx</strong></a> 函數來取得其值。<br/></td>
-</tr>
-<tr class="even">
-<td>ManufacturerName</td>
-<td>字串值，其中包含應用程式的製造商名稱。 這是必要屬性。</td>
-</tr>
-<tr class="odd">
-<td>MinorUpdateTargetRTM</td>
-<td>表示修補程式以產品的 RTM 版本或最新的主要升級修補程式為目標。 在包含順序資訊的次要升級修補程式中撰寫此選用屬性，以指出修補程式會移除產品 RTM 版本的所有修補程式，或最新的主要升級修補程式。 從 Windows Installer 3.1 開始，可以使用這個屬性。
-<blockquote>
-[!Note]<br />
-若要要求安裝 Windows Installer 3.1 以套用修補程式，請在 pcp 檔案的<a href="properties-table-patchwiz-dll-.md">Properties 資料表</a>中，將 MinimumRequiredMsiVersion 屬性設定為310。
-</blockquote>
-<br/> <br/></td>
-</tr>
-<tr class="even">
-<td>TargetProductName</td>
-<td>包含應用程式或目標應用程式套件名稱的字串值。 這是必要屬性。</td>
-</tr>
-<tr class="odd">
-<td>MoreInfoURL</td>
-<td>字串值，包含指向此修補程式資訊的 URL。 這個必要屬性已註冊，而且可以使用 <a href="/windows/desktop/api/Msi/nf-msi-msigetpatchinfoexa"><strong>MsiGetPatchInfoEx</strong></a> 函數來取得其值。 從 Windows XP Service Pack 2 (SP2) 開始，此值可以是 [新增/移除程式] 中顯示之修補程式的支援連結。<br/></td>
-</tr>
-<tr class="even">
-<td>CreationTimeUTC</td>
-<td>字串值，包含 .msp 檔的建立時間，格式為 mm-dd-yy HH： MM (月-日-年小時：分鐘) 。 這是選用屬性。</td>
-</tr>
-<tr class="odd">
-<td>DisplayName</td>
-<td>字串值，包含適用于公開顯示之修補程式的標題。 這是必要屬性。 這個屬性已註冊，而且可以使用 <a href="/windows/desktop/api/Msi/nf-msi-msigetpatchinfoexa"><strong>MsiGetPatchInfoEx</strong></a> 函數來取得其值。 從 Windows XP SP2 開始，此值是在 Windows XP sp2 開頭的 [新增/移除程式] 中顯示的修補程式名稱。<br/></td>
-</tr>
-<tr class="even">
-<td>Description</td>
-<td>包含修補程式簡短描述的字串值。 這是必要屬性。</td>
-</tr>
-<tr class="odd">
-<td>分類</td>
-<td>字串值，包含由 patch 作者定義的任意更新分類。 例如，修補程式作者可以指定將每個修補程式分類為一個修正程式、安全性匯總、重大更新、更新、Service Pack 或更新彙總套件。 這是必要屬性。</td>
-</tr>
-<tr class="even">
-<td>OptimizedInstallMode</td>
-<td>如果這個屬性設定為 1 (要在交易中套用的所有修補程式中的一個) ，則會盡可能將修補程式的應用程式優化。 如需詳細資訊，請參閱 <a href="patch-optimization.md">修補程式優化</a>。 從 Windows Installer 3.1 開始提供。</td>
-</tr>
-</tbody>
-</table>
+
+| 屬性 | 描述 | 
+|----------|-------------|
+| AllowRemoval | 整數值，指出修補程式是否為 <a href="uninstallable-patches.md">可卸載修補程式</a>。 如果 [值] 欄位包含 0 (零) ，就無法移除修補程式。 如果 [值] 欄位包含1個 (一個) ，則修補程式是可卸載修補程式。 此為必要屬性。這個屬性已註冊，而且可以使用 <a href="/windows/desktop/api/Msi/nf-msi-msigetpatchinfoexa"><strong>MsiGetPatchInfoEx</strong></a> 函數來取得其值。<br /> | 
+| ManufacturerName | 字串值，其中包含應用程式的製造商名稱。 這是必要屬性。 | 
+| MinorUpdateTargetRTM | 表示修補程式以產品的 RTM 版本或最新的主要升級修補程式為目標。 在包含順序資訊的次要升級修補程式中撰寫此選用屬性，以指出修補程式會移除產品 RTM 版本的所有修補程式，或最新的主要升級修補程式。 從 Windows Installer 3.1 開始，可以使用這個屬性。<blockquote>[!Note]<br />若要要求安裝 Windows Installer 3.1 以套用修補程式，請在 pcp 檔案的<a href="properties-table-patchwiz-dll-.md">Properties 資料表</a>中，將 MinimumRequiredMsiVersion 屬性設定為310。</blockquote><br /><br /> | 
+| TargetProductName | 包含應用程式或目標應用程式套件名稱的字串值。 這是必要屬性。 | 
+| MoreInfoURL | 字串值，包含指向此修補程式資訊的 URL。 這個必要屬性已註冊，而且可以使用 <a href="/windows/desktop/api/Msi/nf-msi-msigetpatchinfoexa"><strong>MsiGetPatchInfoEx</strong></a> 函數來取得其值。 從 Windows XP Service Pack 2 (SP2) 開始，此值可以是 [新增/移除程式] 中顯示之修補程式的支援連結。<br /> | 
+| CreationTimeUTC | 字串值，包含 .msp 檔的建立時間，格式為 mm-dd-yy HH： MM (月-日-年小時：分鐘) 。 這是選用屬性。 | 
+| DisplayName | 字串值，包含適用于公開顯示之修補程式的標題。 這是必要屬性。 這個屬性已註冊，而且可以使用 <a href="/windows/desktop/api/Msi/nf-msi-msigetpatchinfoexa"><strong>MsiGetPatchInfoEx</strong></a> 函數來取得其值。 從 Windows XP SP2 開始，此值是在 Windows XP sp2 開頭的 [新增/移除程式] 中顯示的修補程式名稱。<br /> | 
+| Description | 包含修補程式簡短描述的字串值。 這是必要屬性。 | 
+| 分類 | 字串值，包含由 patch 作者定義的任意更新分類。 例如，修補程式作者可以指定將每個修補程式分類為一個修正程式、安全性匯總、重大更新、更新、Service Pack 或更新彙總套件。 這是必要屬性。 | 
+| OptimizedInstallMode | 如果這個屬性設定為 1 (要在交易中套用的所有修補程式中的一個) ，則會盡可能將修補程式的應用程式優化。 如需詳細資訊，請參閱 <a href="patch-optimization.md">修補程式優化</a>。 從 Windows Installer 3.1 開始提供。 | 
+
 
 
 

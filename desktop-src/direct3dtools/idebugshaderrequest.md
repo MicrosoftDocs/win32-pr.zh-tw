@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 742f80582a8c2e026fce5d895e1f53efc7c45011
-ms.sourcegitcommit: 4e94fc75fad7b2a0f3c92a26f97e89924e59b7a9
+ms.openlocfilehash: f524ebe312be3be6cfbf0b9b1f3a1d99f55f63ef
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "122786494"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122624374"
 ---
 # <a name="span-idvspixengineidebugshaderrequestspanidebugshaderrequest-interface"></a><span id="vspixengine.idebugshaderrequest"></span>IDebugShaderRequest 介面
 
@@ -38,7 +38,7 @@ ms.locfileid: "122786494"
 
 **IDebugShaderRequest** 介面具有這些方法。
 
-<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th >方法</th><th >說明</th></tr></thead><tbody><tr class="odd"><td ><a href="/windows/desktop/direct3dtools/idebugshaderrequest-begindebugshader-ipixerrorcallback-ptr-eventid-dword-dword-point2d-pipelinestages-pixelhistoryoperation-ptr-dword-ptr"><strong>BeginDebugShader</strong></a></td><td ><p>針對指定的管線階段、圖元/頂點（如果適用、事件和框架）啟動著色器偵測會話的要求。</p></td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th style="text-align: left;">方法</th><th style="text-align: left;">描述</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/idebugshaderrequest-begindebugshader-ipixerrorcallback-ptr-eventid-dword-dword-point2d-pipelinestages-pixelhistoryoperation-ptr-dword-ptr"><strong>BeginDebugShader</strong></a></td><td style="text-align: left;"><p>針對指定的管線階段、圖元/頂點（如果適用、事件和框架）啟動著色器偵測會話的要求。</p></td></tr></tbody></table>
 
  
 

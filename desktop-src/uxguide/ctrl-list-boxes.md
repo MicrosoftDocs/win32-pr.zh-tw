@@ -4,12 +4,12 @@ description: 使用清單方塊時，使用者可以從一律可見清單中顯�
 ms.assetid: 620e9ff9-b367-446b-9e97-9c9d6d14f4bb
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 8d4f30394e9704ba01832c60e7b41e3453a5c7abe1715678ca84405e73724c7c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0476b53590cc6e8dcc691faf95be1a851889936e
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118218102"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122481744"
 ---
 # <a name="list-boxes"></a>清單方塊
 
@@ -84,48 +84,9 @@ ms.locfileid: "118218102"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><strong>單一選取清單</strong> 允許使用者一次選取一個專案。 <br/></td>
-<td><img src="images/ctrl-list-boxes-image4.png" alt="Screen shot of list box with one item selected " /><br/> 在此範例中，使用者只能選取一個顯示專案。<br/></td>
-</tr>
-<tr class="even">
-<td><strong>標準多重選取清單</strong> 允許使用者選取任意數目的專案，包括 [無]。<br/></td>
-<td>標準多重選取清單的外觀與單一選取清單完全相同，因此沒有清單方塊支援多重選取的視覺線索。 由於使用者必須探索這項功能，因此這份清單模式最適合用於多個選取專案並不重要的工作，而且很少使用。 <br/> 有兩種不同的多重選取模式： <a href="glossary.md">多個</a> 和 <a href="glossary.md">延伸</a>。 <strong>擴充選取模式</strong> 是最常見的，也就是藉由拖曳或使用 Shift + Click 和 Ctrl + 按一下來分別選取連續和非相鄰值的群組，來擴充選取範圍。 在 <strong>多重選取模式</strong>中，不論 Shift 和 Ctrl 鍵為何，按一下任何專案都會切換其選取狀態。 由於這種不尋常的行為，多重選取模式已被取代，因此您應該改為使用核取方塊清單。<br/> <img src="images/ctrl-list-boxes-image5.png" alt="Screen shot of list box with several items selected " /><br/> 在此範例中，使用者可以使用多重選取模式來選取任意數目的專案。<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>核取方塊清單</strong> 如同標準的多重選取清單方塊，核取方塊清單可讓使用者選取任意數目的專案，包括 [無]。<br/></td>
-<td>不同于標準的多重選取清單，核取方塊會清楚指出可能會有多個選取專案。 針對需要多重選取的工作，請使用此清單模式。 <br/> <img src="images/ctrl-list-boxes-image6.png" alt="Screen shot of Toolbars check-box list " /><br/> 在此範例中，使用者通常會選取一個以上的專案，因此會使用核取方塊清單。<br/> 假設有多個選取專案，您可能會假設核取方塊清單最好是標準的多重選取清單。 在實務上，少數工作需要多個選取或大量使用;在這種情況下，使用核取方塊清單會將太多注意力放在選取範圍內。 因此， <strong>標準的多重選取清單更為普遍。</strong><br/></td>
-</tr>
-<tr class="even">
-<td><strong>預覽清單</strong> 可以是單一或多個選取專案，但是會顯示選取範圍（而不只是文字）的預覽效果。<br/></td>
-<td><img src="images/ctrl-list-boxes-image7.png" alt="Screen shot of Window Color options preview " /><br/> 在此範例中，每個選項的預覽清楚地顯示選項的效果，這比單獨使用文字更有效率。<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>清單</strong> 產生器允許使用者一次新增一個專案，並選擇性地設定清單順序，以建立選項的清單。<br/></td>
-<td>清單產生器是由兩個單一選取清單所組成：左邊的清單是一組固定的選項，右側的清單是所建立的清單。 清單之間有兩個命令按鈕： <br/>
-<ul>
-<li>[ <strong>加入</strong> ] 按鈕，會將目前選取的選項移至所要建立的清單，然後插入選取的專案之前。  (按兩下選項專案的效果相同。 ) </li>
-<li>從建立的清單中移除選取的專案，並將其傳回選項清單的 [ <strong>移除</strong> ] 按鈕。  (按兩下內建清單中的專案具有相同的效果。 ) 建立清單可能會選擇性地使用 [ <strong>上移</strong> <strong>] 和 [下移]</strong> 命令來排列清單專案的順序。</li>
-</ul>
-<img src="images/ctrl-list-boxes-image8.png" alt="Screen shot of Toolbar buttons list builder " /><br/> 在此範例中，清單產生器是用來建立工具列，方法是從一組可用選項中選取專案，並設定其順序。<br/></td>
-</tr>
-<tr class="even">
-<td><strong>新增/移除清單</strong> 允許使用者一次新增一個或多個專案，並選擇性地設定清單 (（例如清單產生器) ）來建立選項的清單。<br/></td>
-<td>不同于清單產生器，按一下 [ <strong>新增</strong> ] 會顯示一個對話方塊，以選取要加入至清單的專案。 使用個別的對話方塊可讓您在選擇專案時有很大的彈性，您可以使用特殊的物件選擇器或甚至一般的對話方塊。 相較于清單產生器，此變化較精簡，但需要稍微多一點的時間來加入專案。 <br/> <img src="images/ctrl-list-boxes-image9.png" alt="Screen shot of Menu contents list " /><br/> 在此範例中，使用者可以從功能表新增或移除工具，以及設定順序。<br/> 雖然 [清單產生器] 和 [新增/移除] 清單模式明顯比其他多重選取清單更大，但它們提供兩個獨特的優點：<br/>
-<ul>
-<li>在建立清單和之後，使用者都可以掌控清單順序。</li>
-<li>使用者可以查看所選項目的摘要，如果選擇的數目很大，這可能會有很大的好處。</li>
-</ul>
-缺點是它們需要更多的螢幕空間，而且可能很難在從頭建立大型專案清單時使用。 因此，最適合用來建立簡短的清單，或修改已經存在的清單。<br/></td>
-</tr>
-</tbody>
-</table>
+
+| | | <strong>單一選取清單</strong> 允許使用者一次選取一個專案。 <br /> | <img src="images/ctrl-list-boxes-image4.png" alt="Screen shot of list box with one item selected " /><br /> 在此範例中，使用者只能選取一個顯示專案。<br /> | | <strong>標準多重選取清單</strong> 允許使用者選取任意數目的專案，包括 [無]。<br /> |標準多重選取清單的外觀與單一選取清單完全相同，因此沒有清單方塊支援多重選取的視覺線索。 由於使用者必須探索這項功能，因此這份清單模式最適合用於多個選取專案並不重要的工作，而且很少使用。 <br /> 有兩種不同的多重選取模式： <a href="glossary.md">多個</a> 和 <a href="glossary.md">延伸</a>。 <strong>擴充選取模式</strong> 是最常見的，也就是藉由拖曳或使用 Shift + Click 和 Ctrl + 按一下來分別選取連續和非相鄰值的群組，來擴充選取範圍。 在 <strong>多重選取模式</strong>中，不論 Shift 和 Ctrl 鍵為何，按一下任何專案都會切換其選取狀態。 由於這種不尋常的行為，多重選取模式已被取代，因此您應該改為使用核取方塊清單。<br /><img src="images/ctrl-list-boxes-image5.png" alt="Screen shot of list box with several items selected " /><br /> 在此範例中，使用者可以使用多重選取模式來選取任意數目的專案。<br /> | | <strong>核取方塊清單</strong> 如同標準的多重選取清單方塊，核取方塊清單可讓使用者選取任意數目的專案，包括 [無]。<br /> |不同于標準的多重選取清單，核取方塊會清楚指出可能會有多個選取專案。 針對需要多重選取的工作，請使用此清單模式。 <br /><img src="images/ctrl-list-boxes-image6.png" alt="Screen shot of Toolbars check-box list " /><br /> 在此範例中，使用者通常會選取一個以上的專案，因此會使用核取方塊清單。<br /> 假設有多個選取專案，您可能會假設核取方塊清單最好是標準的多重選取清單。 在實務上，少數工作需要多個選取或大量使用;在這種情況下，使用核取方塊清單會將太多注意力放在選取範圍內。 因此， <strong>標準的多重選取清單更為普遍。</strong><br /> | | <strong>預覽清單</strong> 可以是單一或多個選取專案，但是會顯示選取範圍（而不只是文字）的預覽效果。<br /> | <img src="images/ctrl-list-boxes-image7.png" alt="Screen shot of Window Color options preview " /><br /> 在此範例中，每個選項的預覽清楚地顯示選項的效果，這比單獨使用文字更有效率。<br /> | | <strong>清單</strong> 產生器允許使用者一次新增一個專案，並選擇性地設定清單順序，以建立選項的清單。<br /> |清單產生器是由兩個單一選取清單所組成：左邊的清單是一組固定的選項，右側的清單是所建立的清單。 清單之間有兩個命令按鈕： <br /><ul><li>[ <strong>加入</strong> ] 按鈕，會將目前選取的選項移至所要建立的清單，然後插入選取的專案之前。  (按兩下選項專案的效果相同。 ) </li><li>從建立的清單中移除選取的專案，並將其傳回選項清單的 [ <strong>移除</strong> ] 按鈕。  (按兩下內建清單中的專案具有相同的效果。 ) 建立清單可能會選擇性地使用 [ <strong>上移</strong> <strong>] 和 [下移]</strong> 命令來排列清單專案的順序。</li></ul><img src="images/ctrl-list-boxes-image8.png" alt="Screen shot of Toolbar buttons list builder " /><br /> 在此範例中，清單產生器是用來建立工具列，方法是從一組可用選項中選取專案，並設定其順序。<br /> | | <strong>新增/移除清單</strong> 允許使用者一次新增一個或多個專案，並選擇性地設定清單 (（例如清單產生器) ）來建立選項的清單。<br /> |不同于清單產生器，按一下 [ <strong>新增</strong> ] 會顯示一個對話方塊，以選取要加入至清單的專案。 使用個別的對話方塊可讓您在選擇專案時有很大的彈性，您可以使用特殊的物件選擇器或甚至一般的對話方塊。 相較于清單產生器，此變化較精簡，但需要稍微多一點的時間來加入專案。 <br /><img src="images/ctrl-list-boxes-image9.png" alt="Screen shot of Menu contents list " /><br /> 在此範例中，使用者可以從功能表新增或移除工具，以及設定順序。<br /> 雖然 [清單產生器] 和 [新增/移除] 清單模式明顯比其他多重選取清單更大，但它們提供兩個獨特的優點：<br /><ul><li>在建立清單和之後，使用者都可以掌控清單順序。</li><li>使用者可以查看所選項目的摘要，如果選擇的數目很大，這可能會有很大的好處。</li></ul>缺點是它們需要更多的螢幕空間，而且可能很難在從頭建立大型專案清單時使用。 因此，最適合用來建立簡短的清單，或修改已經存在的清單。<br /> | 
+
 
 
 

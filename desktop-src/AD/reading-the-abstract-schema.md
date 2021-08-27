@@ -7,12 +7,12 @@ keywords:
 - 架構 Active Directory，讀取抽象架構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 02d7fadba33bcc5e93bf2b9e89934e8b440d559b
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: b7095dc4fb5ffe5f11f64781ecd423a60b3d434d
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103842031"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122881304"
 ---
 # <a name="reading-the-abstract-schema"></a>讀取抽象架構
 
@@ -40,7 +40,7 @@ Set adschema = GetObject("LDAP://schema")
 
 
 
-使用類似的系結字串 "LDAP://schema/ <object> "，直接系結至抽象架構中的類別或屬性專案。 在此字串中，" &lt; object &gt; " 是類別或屬性的 **lDAPDisplayName** 。 針對類別系結至 [**得到 iadsclass**](/windows/desktop/api/iads/nn-iads-iadsclass) 介面;針對屬性，系結至 [**IADsProperty**](/windows/desktop/api/iads/nn-iads-iadsproperty) 介面。
+使用類似的系結字串（「LDAP://schema/ &lt; 物件」 &gt; ）直接系結至抽象架構中的類別或屬性專案。 在此字串中，" &lt; object &gt; " 是類別或屬性的 **lDAPDisplayName** 。 針對類別系結至 [**得到 iadsclass**](/windows/desktop/api/iads/nn-iads-iadsclass) 介面;針對屬性，系結至 [**IADsProperty**](/windows/desktop/api/iads/nn-iads-iadsproperty) 介面。
 
 
 ```C++
@@ -82,10 +82,10 @@ Set userclass = GetObject("LDAP://schema/user")
 
 
 
- 
+ 
 
 抽象架構會儲存在架構容器的 **ubschema** 物件中。 若要取得 **ubschema** 物件的辨別名稱，請系結至 rootDSE 並讀取 **subSchemaSubEntry** 屬性，如 [無伺服器系結和 rootDSE](serverless-binding-and-rootdse.md)中所述。 請注意，藉由系結至 "LDAP://schema"，而不是直接系結至 **ubschema** 物件，來讀取抽象架構會更有效率。
 
- 
+ 
 
- 
+ 

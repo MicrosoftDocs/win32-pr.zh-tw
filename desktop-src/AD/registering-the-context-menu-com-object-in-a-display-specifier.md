@@ -8,16 +8,16 @@ keywords:
 - 內容功能表 COM 物件廣告，註冊
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 62ae30c1a60a1a0bc5a8ec388a3578ab13829c95
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 9c5650d5864093293728e5c4f1157980c76bffa0
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104023223"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122881242"
 ---
 # <a name="registering-the-context-menu-com-object-in-a-display-specifier"></a>在顯示規範中註冊內容功能表 COM 物件
 
-當您使用 COM 建立 Active Directory Directory 服務的內容功能表延伸 DLL 時，必須向 Windows 登錄註冊擴充功能，並 Active Directory Domain Services，以通知 Active Directory 的系統管理 MMC 嵌入式管理單元和 Windows shell 的延伸模組。
+當您使用 COM 建立 Active Directory 目錄服務的內容功能表延伸 DLL 時，必須向 Windows 登錄註冊擴充功能，並 Active Directory Domain Services 以通知 Active Directory 系統管理 MMC 嵌入式管理單元和延伸模組的 Windows shell。
 
 ## <a name="registering-in-the-windows-registry"></a>在 Windows 登錄中註冊
 
@@ -25,11 +25,11 @@ ms.locfileid: "104023223"
 
 ```
 HKEY_CLASSES_ROOT
-   CLSID
-      <clsid>
+   CLSID
+      <clsid>
 ```
 
-*<clsid>* 這是 [**StringFromCLSID**](/windows/win32/api/combaseapi/nf-combaseapi-stringfromclsid) 函數所產生之 CLSID 的字串表示。 在機 *<clsid>* 碼下，有一個 **InProcServer32** 機碼會將物件識別為32位的內部進程伺服器。 在 **InProcServer32** 索引鍵下，DLL 的位置會指定為預設值，而執行緒模型則是在 **>threadingmodel** 值中指定。 所有內容功能表延伸都必須使用「單元」執行緒模型。
+*&lt; Clsid &gt;* 是 [**STRINGFROMCLSID**](/windows/win32/api/combaseapi/nf-combaseapi-stringfromclsid)函數所產生之 clsid 的字串表示。 在 *&lt; &gt; clsid* 機碼下，有一個 **InProcServer32** 機碼會將物件識別為32位的內部進程伺服器。 在 **InProcServer32** 索引鍵下，DLL 的位置會指定為預設值，而執行緒模型則是在 **>threadingmodel** 值中指定。 所有內容功能表延伸都必須使用「單元」執行緒模型。
 
 ## <a name="registering-with-active-directory-domain-services"></a>向 Active Directory Domain Services 註冊
 
@@ -39,7 +39,7 @@ HKEY_CLASSES_ROOT
 
 [**AdminCoNtextMenu**](/windows/desktop/ADSchema/a-admincontextmenu)屬性會識別要在 Active Directory 系統管理嵌入式管理單元中顯示的系統管理內容功能表。當使用者在其中一個 Active Directory 系統管理 MMC 嵌入式管理單元中顯示適當類別的物件內容功能表時，就會顯示內容功能表。
 
-[**ShellCoNtextMenu**](/windows/desktop/ADSchema/a-shellcontextmenu)屬性會識別要在 Windows shell 中顯示的使用者內容功能表。 當使用者在 Windows 檔案總管中，流覽適當類別的物件內容功能表時，就會顯示內容功能表。 從 Windows Server 2003 開始，Windows shell 不再顯示 Active Directory Domain Services 的物件。
+[**shellCoNtextMenu**](/windows/desktop/ADSchema/a-shellcontextmenu)屬性會識別要在 Windows shell 中顯示的使用者內容功能表。 當使用者在 Windows 檔案總管中，流覽適當類別的物件內容功能表時，就會顯示內容功能表。 從 Windows Server 2003 開始，Windows shell 不會再顯示 Active Directory Domain Services 的物件。
 
 所有這些屬性都是多重值。
 
@@ -61,10 +61,10 @@ HKEY_CLASSES_ROOT
 > [!IMPORTANT]
 > 針對 Windows shell，會在使用者登入時抓取顯示規範資訊，並針對使用者的會話進行快取。 針對系統管理嵌入式管理單元，在載入嵌入式管理單元時，會抓取顯示規範資料，而且會在進程期間進行快取。 針對 Windows shell，這表示在使用者登出後重新登入後，顯示規範的變更會生效。 系統管理嵌入式管理單元的變更會在嵌入式管理單元或主控台檔案重載時生效，也就是當您啟動新的主控台檔案實例或新的 Mmc.exe 實例並新增嵌入式管理單元時，會抓取最新的顯示規範資料。
 
- 
+ 
 
 如需詳細資訊，以及如何執行內容功能表延伸模組的程式碼範例，請參閱 [執行內容功能表 COM 物件的範例程式碼](example-code-for-implementation-of-the-context-menu-com-object.md)。
 
- 
+ 
 
- 
+ 

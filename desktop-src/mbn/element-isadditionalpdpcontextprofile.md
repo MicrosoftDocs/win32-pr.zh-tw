@@ -7,12 +7,12 @@ MSHAttr:
 title: IsAdditionalPdpCoNtextProfile
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a075916144971196433d1a490a9076c4d40ddb86b363d2904d1affce63a5995
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c0d4547bd97645ec5f3e378ac53df0f9e1ed78e7
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118745120"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122988711"
 ---
 # <a name="span-idwwan_profile_v3element_isadditionalpdpcontextprofilespanisadditionalpdpcontextprofile"></a><span id="WWAN_profile_v3.element_IsAdditionalPdpContextProfile"></span>IsAdditionalPdpCoNtextProfile
 
@@ -27,7 +27,7 @@ ms.locfileid: "118745120"
 
 ## <a name="element-hierarchy"></a>元素階層
 
-**<IsAdditionalPdpContextProfile>**
+**&lt;IsAdditionalPdpCoNtextProfile&gt;**
 
 ## <a name="syntax"></a>Syntax
 
@@ -55,18 +55,11 @@ ms.locfileid: "118745120"
 
 ## <a name="requirements"></a>規格需求
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>命名空間</p></td>
-<td><p>https://www.microsoft.com/networking/WWAN/profile/v3</p></td>
-</tr>
-</tbody>
-</table>
+
+| 需求 | 值 |
+|------------|----------|
+| <p>命名空間</p> | <p>https://www.microsoft.com/networking/WWAN/profile/v3</p> | 
+
 
  
 

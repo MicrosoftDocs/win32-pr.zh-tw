@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 01e2f8cbdec9defb2e277f20d186937120ff4f50a85110793833fa33a65b4112
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7a0556d97a0dda0182ee4fe229599030f523accd
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119365418"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122474824"
 ---
 # <a name="error-handling-parameters"></a>錯誤處理參數
 
@@ -37,141 +37,24 @@ _**適用于：** Windows |Windows伺服器_
 
 **注意**  此參數是唯讀的。
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>預設值：3</p></td>
-<td><p>特殊</p></td>
-</tr>
-<tr class="even">
-<td><p>輸入：</p></td>
-<td><p>特殊</p></td>
-</tr>
-<tr class="odd">
-<td><p>有效範圍：</p></td>
-<td><p>特殊</p></td>
-</tr>
-<tr class="even">
-<td><p>範圍：</p></td>
-<td><p>全球</p></td>
-</tr>
-<tr class="odd">
-<td><p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p></td>
-<td><p>否</p></td>
-</tr>
-<tr class="even">
-<td><p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p></td>
-<td><p>否</p></td>
-</tr>
-<tr class="odd">
-<td><p>會影響實體版面配置：</p></td>
-<td><p>否</p></td>
-</tr>
-<tr class="even">
-<td><p>會影響可靠性：</p></td>
-<td><p>否</p></td>
-</tr>
-<tr class="odd">
-<td><p>影響效能：</p></td>
-<td><p>否</p></td>
-</tr>
-<tr class="even">
-<td><p>會影響資源：</p></td>
-<td><p>否</p></td>
-</tr>
-<tr class="odd">
-<td><p>可用性：</p></td>
-<td><p>全部</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p>預設值：3</p> | <p>特殊</p> | | <p>輸入：</p> | <p>特殊</p> | | <p>有效範圍：</p> | <p>特殊</p> | | <p>範圍：</p> | <p>全球</p> | | <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p>否</p> | | <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p>否</p> | | <p>會影響實體版面配置：</p> | <p>否</p> | | <p>會影響可靠性：</p> | <p>否</p> | | <p>影響效能：</p> | <p>否</p> | | <p>會影響資源：</p> | <p>否</p> | | <p>可用性：</p> | <p>全部</p> | 
+
 
 *JET_paramExceptionAction*  
 98  
 
 此參數會控制資料庫引擎擲回例外狀況時所發生的狀況，或資料庫引擎所呼叫的程式碼。 當設定為 JET_ExceptionMsgBox 時，會擲回任何例外狀況至 Windows 未處理的例外狀況篩選準則。 這會導致應用程式失敗時處理例外狀況。 其目的是要避免應用程式程式碼錯誤地嘗試攔截並忽略 database engine 所產生的例外狀況。 因為可能發生資料庫損毀，所以無法允許這種情況。 如果應用程式希望適當地處理這些例外狀況，則可以將此參數設定為 JET_ExceptionNone 來停用保護。
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>預設值：3</p></td>
-<td><p>JET_ExceptionMsgBox</p></td>
-</tr>
-<tr class="even">
-<td><p>輸入：</p></td>
-<td><p>整數</p></td>
-</tr>
-<tr class="odd">
-<td><p>有效範圍：</p></td>
-<td><p>JET_ExceptionMsgBox，JET_ExceptionNone</p></td>
-</tr>
-<tr class="even">
-<td><p>範圍：</p></td>
-<td><p>全球</p></td>
-</tr>
-<tr class="odd">
-<td><p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p></td>
-<td><p><strong>Windows 2000、Windows XP 和 Windows Server 2003：</strong> 不</p>
-<p><strong>Windows Vista：</strong> 是的</p></td>
-</tr>
-<tr class="even">
-<td><p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p></td>
-<td><p><strong>Windows 2000、Windows XP 和 Windows Server 2003：</strong> 不</p>
-<p><strong>Windows Vista：</strong> 是的</p></td>
-</tr>
-<tr class="odd">
-<td><p>會影響實體版面配置：</p></td>
-<td><p>否</p></td>
-</tr>
-<tr class="even">
-<td><p>會影響可靠性：</p></td>
-<td><p>是</p></td>
-</tr>
-<tr class="odd">
-<td><p>影響效能：</p></td>
-<td><p>否</p></td>
-</tr>
-<tr class="even">
-<td><p>會影響資源：</p></td>
-<td><p>否</p></td>
-</tr>
-<tr class="odd">
-<td><p>可用性：</p></td>
-<td><p>全部</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p>預設值：3</p> | <p>JET_ExceptionMsgBox</p> | | <p>輸入：</p> | <p>整數</p> | | <p>有效範圍：</p> | <p>JET_ExceptionMsgBox，JET_ExceptionNone</p> | | <p>範圍：</p> | <p>全球</p> | | <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p><strong>Windows 2000、Windows XP 和 Windows Server 2003：</strong> 不</p><p><strong>Windows Vista：</strong> 是的</p> | | <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p><strong>Windows 2000、Windows XP 和 Windows Server 2003：</strong> 不</p><p><strong>Windows Vista：</strong> 是的</p> | | <p>會影響實體版面配置：</p> | <p>否</p> | | <p>會影響可靠性：</p> | <p>是</p> | | <p>影響效能：</p> | <p>否</p> | | <p>會影響資源：</p> | <p>否</p> | | <p>可用性：</p> | <p>全部</p> | 
+
 
 ### <a name="requirements"></a>規格需求
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>用戶端</strong></p></td>
-<td><p>需要 Windows Vista、Windows XP 或 Windows 2000 Professional。</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>伺服器</strong></p></td>
-<td><p>需要 Windows server 2008、Windows Server 2003 或 Windows 2000 Server。</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>標頭</strong></p></td>
-<td><p>宣告于 Esent. h 中。</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p><strong>用戶端</strong></p> | <p>需要 Windows Vista、Windows XP 或 Windows 2000 Professional。</p> | | <p><strong>伺服器</strong></p> | <p>需要 Windows server 2008、Windows Server 2003 或 Windows 2000 Server。</p> | | <p><strong>標頭</strong></p> | <p>宣告于 Esent. h 中。</p> | 
+
 
 ### <a name="see-also"></a>另請參閱
 

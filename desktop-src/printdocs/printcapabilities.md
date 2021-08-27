@@ -4,12 +4,12 @@ ms.assetid: f503b62f-02e1-4621-8799-a8b6ad12f489
 title: PrintCapabilities
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2158fd651849df2e4ea24c640065f1041569741a
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 8ef035015e8024954b32d17dd87bab929221ac78
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112407021"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122883922"
 ---
 # <a name="printcapabilities"></a>PrintCapabilities
 
@@ -19,7 +19,7 @@ PrintCapabilities 元素代表 PrintCapabilities 檔的根目錄。 PrintCapabil
 
 ## <a name="element-tag"></a>元素標記
 
-<PrintCapabilities>
+&lt;PrintCapabilities&gt;
 
 ## <a name="xml-attributes"></a>XML 屬性
 

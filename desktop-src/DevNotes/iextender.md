@@ -46,12 +46,12 @@ api_type:
 api_location:
 - Ole2disp.dll
 - Oleaut32.dll
-ms.openlocfilehash: 75abc6caf0abab25d98152cf9f905fa10fdd0597b7afda2680639bd8dc9c10b2
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: a341f5d8a0ec554f008232f44156486df83d0fd8
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120002038"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122625108"
 ---
 # <a name="iextender-interface"></a>IExtender 介面
 
@@ -86,22 +86,22 @@ ms.locfileid: "120002038"
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
-<th style="text-align: left;">屬性</th>
-<th style="text-align: left;">存取類型</th>
-<th style="text-align: left;">描述</th>
+<th >屬性</th>
+<th >存取類型</th>
+<th >描述</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">對齊<br/></td>
-<td style="text-align: left;">讀取/寫入<br/></td>
-<td style="text-align: left;">傳回或設定值，這個值會決定物件在表單上的任何位置，或是顯示在表單的頂端、底部、左方或右方時，會自動調整大小以符合表單的寬度。<br/> 
+<td >對齊<br/></td>
+<td >讀取/寫入<br/></td>
+<td >傳回或設定值，這個值會決定物件在表單上的任何位置，或是顯示在表單的頂端、底部、左方或右方時，會自動調整大小以符合表單的寬度。<br/> 
 <table>
 <thead>
 <tr class="header">
@@ -136,59 +136,59 @@ ms.locfileid: "120002038"
 <p> </p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><p>容器</p></td>
-<td style="text-align: left;"><p>唯讀</p></td>
-<td style="text-align: left;"><p>傳回表單上控制項的容器。</p></td>
+<td ><p>容器</p></td>
+<td ><p>唯讀</p></td>
+<td ><p>傳回表單上控制項的容器。</p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><p>啟用</p></td>
-<td style="text-align: left;"><p>讀取/寫入</p></td>
-<td style="text-align: left;"><p>傳回或設定值，這個值會決定表單或控制項是否可以回應使用者產生的事件。</p></td>
+<td ><p>啟用</p></td>
+<td ><p>讀取/寫入</p></td>
+<td ><p>傳回或設定值，這個值會決定表單或控制項是否可以回應使用者產生的事件。</p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><p>高度</p></td>
-<td style="text-align: left;"><p>讀取/寫入</p></td>
-<td style="text-align: left;"><p>傳回或設定物件的高度。</p></td>
+<td ><p>高度</p></td>
+<td ><p>讀取/寫入</p></td>
+<td ><p>傳回或設定物件的高度。</p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><p>Hwnd</p></td>
-<td style="text-align: left;"><p>唯讀</p></td>
-<td style="text-align: left;"><p>傳回表單或控制項的控制碼。</p></td>
+<td ><p>Hwnd</p></td>
+<td ><p>唯讀</p></td>
+<td ><p>傳回表單或控制項的控制碼。</p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><p>Left</p></td>
-<td style="text-align: left;"><p>讀取/寫入</p></td>
-<td style="text-align: left;"><p>傳回或設定物件的內部左邊緣和其容器左邊緣之間的距離。</p></td>
+<td ><p>Left</p></td>
+<td ><p>讀取/寫入</p></td>
+<td ><p>傳回或設定物件的內部左邊緣和其容器左邊緣之間的距離。</p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><p>名稱</p></td>
-<td style="text-align: left;"><p>唯讀</p></td>
-<td style="text-align: left;"><p>傳回程序代碼中用來識別表單、控制項或資料存取物件的名稱。</p></td>
+<td ><p>名稱</p></td>
+<td ><p>唯讀</p></td>
+<td ><p>傳回程序代碼中用來識別表單、控制項或資料存取物件的名稱。</p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><p>父代</p></td>
-<td style="text-align: left;"><p>唯讀</p></td>
-<td style="text-align: left;"><p>傳回包含控制項或另一個物件或集合的表單、物件或集合。</p></td>
+<td ><p>父代</p></td>
+<td ><p>唯讀</p></td>
+<td ><p>傳回包含控制項或另一個物件或集合的表單、物件或集合。</p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><p>TabStop</p></td>
-<td style="text-align: left;"><p>讀取/寫入</p></td>
-<td style="text-align: left;"><p>傳回或設定值，這個值表示使用者是否可以使用 <strong>Tab</strong> 鍵將焦點提供給物件。</p></td>
+<td ><p>TabStop</p></td>
+<td ><p>讀取/寫入</p></td>
+<td ><p>傳回或設定值，這個值表示使用者是否可以使用 <strong>Tab</strong> 鍵將焦點提供給物件。</p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><p>頁首</p></td>
-<td style="text-align: left;"><p>讀取/寫入</p></td>
-<td style="text-align: left;"><p>傳回或設定物件的內部上邊緣和其容器的上邊緣之間的距離。</p></td>
+<td ><p>頁首</p></td>
+<td ><p>讀取/寫入</p></td>
+<td ><p>傳回或設定物件的內部上邊緣和其容器的上邊緣之間的距離。</p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><p>可見</p></td>
-<td style="text-align: left;"><p>讀取/寫入</p></td>
-<td style="text-align: left;"><p>傳回或設定值，這個值表示物件是否為可見或隱藏。</p></td>
+<td ><p>可見</p></td>
+<td ><p>讀取/寫入</p></td>
+<td ><p>傳回或設定值，這個值表示物件是否為可見或隱藏。</p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><p>寬度</p></td>
-<td style="text-align: left;"><p>讀取/寫入</p></td>
-<td style="text-align: left;"><p>傳回或設定物件的寬度。</p></td>
+<td ><p>寬度</p></td>
+<td ><p>讀取/寫入</p></td>
+<td ><p>傳回或設定物件的寬度。</p></td>
 </tr>
 </tbody>
 </table>

@@ -4,12 +4,12 @@ ms.assetid: 7b9abfcc-28ab-4f29-af69-6dc68e3f51b6
 title: 再見訊息
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 77d571e8633690f1a2fee5f6f9c09e1379a7a465
-ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
+ms.openlocfilehash: eb512694833de013ab116561a2e01d0f7b0f9463
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "122622474"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122887187"
 ---
 # <a name="bye-message"></a>再見訊息
 
@@ -70,15 +70,15 @@ ms.locfileid: "122622474"
 <tr class="header">
 <th>對焦點</th>
 <th>XML</th>
-<th>描述</th>
+<th>說明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>再見</td>
-<td><pre class="syntax" data-space="preserve"><code><wsa:Action>
+<td><pre class="syntax" data-space="preserve"><code>&lt;wsa:Action&gt;
     https://schemas.xmlsoap.org/ws/2005/04/discovery/Bye
-</wsa:Action></code></pre></td>
+&lt;/wsa:Action&gt;</code></pre></td>
 <td>再見的 SOAP 動作會將訊息識別為再見訊息。</td>
 </tr>
 <tr class="even">
@@ -86,14 +86,14 @@ ms.locfileid: "122622474"
 <td><pre class="syntax" data-space="preserve"><code><wsd:AppSequence InstanceId=&quot;2&quot;
     SequenceId=&quot;urn:uuid:369a7d7b-5f87-48a4-aa9a-189edf2a8772&quot;
     MessageNumber=&quot;21&quot;>
-</wsd:AppSequence></code></pre></td>
+&lt;/wsd:AppSequence&gt;</code></pre></td>
 <td>包含應用程式順序資訊，這有助於維護訊息的順序，即使是依序接收訊息也是如此。 AppSequence 會依照 <a href="appsequence-validation-rules.md">AppSequence 驗證規則</a>中的說明進行驗證。</td>
 </tr>
 <tr class="odd">
 <td>位址</td>
-<td><pre class="syntax" data-space="preserve"><code><wsa:Address>
+<td><pre class="syntax" data-space="preserve"><code>&lt;wsa:Address&gt;
     urn:uuid:37f86d35-e6ac-4241-964f-1d9ae46fb366
-</wsa:Address></code></pre></td>
+&lt;/wsa:Address&gt;</code></pre></td>
 <td>包含要離線的端點位址。</td>
 </tr>
 </tbody>

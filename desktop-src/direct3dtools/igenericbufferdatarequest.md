@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 790b34f212b57a2f0a1c6e846af2c2d1e5b755f6
-ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
+ms.openlocfilehash: c10be9f61434e6d72d5c6a1a7450b08d64ef064a
+ms.sourcegitcommit: 4e94fc75fad7b2a0f3c92a26f97e89924e59b7a9
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "122626144"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "122787384"
 ---
 # <a name="span-idvspixengineigenericbufferdatarequestspanigenericbufferdatarequest-interface"></a><span id="vspixengine.igenericbufferdatarequest"></span>IGenericBufferDataRequest 介面
 
@@ -38,7 +38,7 @@ ms.locfileid: "122626144"
 
 **IGenericBufferDataRequest** 介面具有這些方法。
 
-<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th style="text-align: left;">方法</th><th style="text-align: left;">描述</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/igenericbufferdatarequest-requestasync-dumpertype-eventid-dword-igenericbufferdatacallback-ptr-dword-dword"><strong>RequestAsync</strong></a></td><td style="text-align: left;"><p>要求傳回泛型物件資料，此資料會針對指定的事件和指定的格式來描述 vsglog 檔中的物件。</p></td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th >方法</th><th >說明</th></tr></thead><tbody><tr class="odd"><td ><a href="/windows/desktop/direct3dtools/igenericbufferdatarequest-requestasync-dumpertype-eventid-dword-igenericbufferdatacallback-ptr-dword-dword"><strong>RequestAsync</strong></a></td><td ><p>要求傳回泛型物件資料，此資料會針對指定的事件和指定的格式來描述 vsglog 檔中的物件。</p></td></tr></tbody></table>
 
  
 

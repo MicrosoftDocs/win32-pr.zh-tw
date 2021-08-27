@@ -7,12 +7,12 @@ keywords:
 - 設定 adsi 開發 adsi 的 Visual Basic
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e8ed2e0f4cd0b56ee0167deda2e998314bb313d1a98cd0c43a9f06b495a4324f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 83cadc9f74410dcb654a880920a83c20e6af9db1
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117838678"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122885210"
 ---
 # <a name="setting-up-visual-basic-60-for-adsi-development"></a>設定 ADSI 開發的 Visual Basic 6。0
 
@@ -54,7 +54,7 @@ ms.locfileid: "117838678"
 
     
 
-3.  按下 **<F5>** 以執行程式。
+3.  按 **&lt; F5 &gt;** 以執行程式。
 4.  若要確認變更，請使用 Active Directory 消費者和電腦管理工具。 如需使用 ADSI 和 Visual Basic 的詳細資訊，請參閱[使用 Visual Basic 存取 Active Directory](accessing-active-directory-using-visual-basic.md)。
 
  

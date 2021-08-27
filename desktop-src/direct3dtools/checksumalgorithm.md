@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: ebf2a80bd121743ab63f6a0adad0f42c6b25618d
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 102b2819f496c6091c799b777f5601550dad876d
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104109272"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122627284"
 ---
 # <a name="span-idvspixenginechecksumalgorithmspanchecksumalgorithm-enumeration"></a><span id="vspixengine.checksumalgorithm"></span>CHECKSUMALGORITHM 列舉
 
@@ -48,7 +48,7 @@ ms.locfileid: "104109272"
 
 ## <a name="requirements"></a>規格需求
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>標頭</p></td><td>Vspixengine。h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>標頭</p></td><td>Vspixengine。h</td></tr></tbody></table>
 
  
 

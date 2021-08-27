@@ -4,12 +4,12 @@ ms.assetid: cb8f25b3-a0f0-48fa-843f-88a5a5d17019
 title: 篩選器對應程式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3eb106312f24e3267e9e62631c6475ac4ae1b4c6
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.openlocfilehash: ea3e94fb4220066207f64b0c484e49c1e75c939b
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122986831"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122476314"
 ---
 # <a name="filter-mapper"></a>篩選器對應程式
 
@@ -18,10 +18,7 @@ ms.locfileid: "122986831"
 
 
 
-| 標籤 | 值 |
-|--------|-------|
-| 類別識別碼 | CLSID_FilterMapper2 | 
-| 介面 | <ul><li><a href="/windows/desktop/api/Strmif/nn-strmif-ifiltermapper2"><strong>IFilterMapper2</strong></a></li><li><a href="iamfilterdata.md"><strong>IAMFilterData</strong></a> (已淘汰) </li><li><a href="/windows/desktop/api/Strmif/nn-strmif-ifiltermapper3"><strong>IFilterMapper3</strong></a> (已淘汰) </li></ul> | 
+| | |類別識別碼 |CLSID_FilterMapper2 | |介面 | <ul><li><a href="/windows/desktop/api/Strmif/nn-strmif-ifiltermapper2"><strong>IFilterMapper2</strong></a></li><li><a href="iamfilterdata.md"><strong>IAMFilterData</strong></a> (已淘汰) </li><li><a href="/windows/desktop/api/Strmif/nn-strmif-ifiltermapper3"><strong>IFilterMapper3</strong></a> (已淘汰) </li></ul> | 
 
 
 

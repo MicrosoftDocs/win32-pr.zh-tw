@@ -8,12 +8,12 @@ keywords:
 - 服務主體名稱 AD、名稱格式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ce939d642180192500790253158eaa03dc41c8d173aed2d96d5175f07e39c101
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8b041f88bc025c604ec5f0ad9a6bf5ba7f4cdabc
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119025716"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122472333"
 ---
 # <a name="name-formats-for-unique-spns"></a>唯一 Spn 的名稱格式
 
@@ -28,41 +28,14 @@ SPN 在註冊的樹系中必須是唯一的。 如果不是唯一的，驗證將
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>元素</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>&quot;&lt;服務類別&gt;&quot;</td>
-<td>識別服務之一般類別的字串。例如， &quot; SqlServer &quot; 。 有已知的服務類別名稱，例如 &quot; web 服務的 www &quot; 或 &quot; &quot; 目錄服務的 ldap。 一般而言，這可以是服務類別唯一的任何字串。 請注意，SPN 語法會使用正斜線 (/) 來分隔元素，因此此字元不能出現在服務類別名稱中。</td>
-</tr>
-<tr class="even">
-<td>&quot;&lt;主機&gt;&quot;</td>
-<td>正在執行服務的電腦名稱稱。 這可以是完整的 DNS 名稱或 NetBIOS 名稱。 請注意，樹系中可能會有重複的 NetBIOS 名稱，如此包含 NetBIOS 名稱的 SPN 也可能不是唯一的 SPN。</td>
-</tr>
-<tr class="odd">
-<td>&quot;&lt;連接埠&gt;&quot;</td>
-<td>選擇性的埠號碼，可區別單一主機電腦上相同服務類別的多個實例。 如果服務針對其服務類別使用預設通訊埠，請省略此元件。</td>
-</tr>
-<tr class="even">
-<td>&quot;&lt;服務名稱&gt;&quot;</td>
-<td>可複製服務的 Spn 中使用的選擇性名稱，用來識別服務或服務所服務之網域所提供的資料或服務。 此元件可以具有下列其中一種格式：
-<ul>
-<li>Active Directory Domain Services 中物件的辨別名稱或 objectGUID，例如服務連接點 (SCP) 。</li>
-<li>服務之網域的 DNS 名稱，可為整個網域提供指定的服務。</li>
-<li>SRV 或 MX 記錄的 DNS 名稱。</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| 元素 | 描述 | 
+|---------|-------------|
+| "<service class>" | 識別服務之一般類別的字串。例如，"SqlServer"。 有已知的服務類別名稱，例如 web 服務的 "www" 或目錄服務的 "ldap"。 一般而言，這可以是服務類別唯一的任何字串。 請注意，SPN 語法會使用正斜線 (/) 來分隔元素，因此此字元不能出現在服務類別名稱中。 | 
+| "<host>" | 正在執行服務的電腦名稱稱。 這可以是完整的 DNS 名稱或 NetBIOS 名稱。 請注意，樹系中可能會有重複的 NetBIOS 名稱，如此包含 NetBIOS 名稱的 SPN 也可能不是唯一的 SPN。 | 
+| "<port>" | 選擇性的埠號碼，可區別單一主機電腦上相同服務類別的多個實例。 如果服務針對其服務類別使用預設通訊埠，請省略此元件。 | 
+| "<service name>" | 可複製服務的 Spn 中使用的選擇性名稱，用來識別服務或服務所服務之網域所提供的資料或服務。 此元件可以具有下列其中一種格式：<ul><li>Active Directory Domain Services 中物件的辨別名稱或 objectGUID，例如服務連接點 (SCP) 。</li><li>服務之網域的 DNS 名稱，可為整個網域提供指定的服務。</li><li>SRV 或 MX 記錄的 DNS 名稱。</li></ul> | 
+
 
 
 

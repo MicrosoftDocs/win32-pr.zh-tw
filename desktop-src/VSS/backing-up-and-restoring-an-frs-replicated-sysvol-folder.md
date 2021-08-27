@@ -4,12 +4,12 @@ ms.assetid: 32d8a5bd-eeb4-4db6-8129-b5cd3508a7e5
 title: 備份和還原 FRS-Replicated SYSVOL 資料夾
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ea83ccbc156182a4a3b84c758cb22153f4f7110f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6d841f64bab62114824847f91876ba8bbffbb0166db942c0f3cb9d010b72f106
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319867"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120124598"
 ---
 # <a name="backing-up-and-restoring-an-frs-replicated-sysvol-folder"></a>備份和還原 FRS-Replicated SYSVOL 資料夾
 
@@ -38,17 +38,17 @@ FRS 可將 SYSVOL 內容複寫到網域內的其他網域控制站。 FRS 會監
 
 | 如果網域控制站正在執行                                                                                                                  | SYSVOL 的複寫方式 |
 |------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------|
-| Windows server 2008 + Windows Server 2008 + [SYSVOL 遷移](https://blogs.technet.com/filecab/archive/2008/02/08/sysvol-migration-series-part-1-introduction-to-the-sysvol-migration-process.aspx) 的網域功能等級已完成 | DFSR                    |
-| Windows server 2008 + 網域功能等級低於 Windows Server 2008                                                                              | Frs                     |
-| Windows Server 2003                                                                                                                                  | Frs                     |
+| Windows伺服器 2008 + Windows server 2008 + [SYSVOL 遷移](https://blogs.technet.com/filecab/archive/2008/02/08/sysvol-migration-series-part-1-introduction-to-the-sysvol-migration-process.aspx)的網域功能等級已完成 | DFSR                    |
+| Windows伺服器 2008 + 網域功能等級低於 Windows server 2008                                                                              | FRS                     |
+| Windows Server 2003                                                                                                                                  | FRS                     |
 
 
 
  
 
-如果網域的 [功能等級](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc754918(v=ws.10)) 為 Windows Server 2008 且網域已通過 [SYSVOL 遷移](https://blogs.technet.com/filecab/archive/2008/02/08/sysvol-migration-series-part-1-introduction-to-the-sysvol-migration-process.aspx)，則會使用 [DFSR](/windows-server/storage/dfs-replication/migrate-sysvol-to-dfsr) 來複寫 sysvol 資料夾。 如果網域中的第一個網域控制站直接升級為 Windows Server 2008 [功能等級](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc754918(v=ws.10))，則會自動使用 DFSR 進行 SYSVOL 複寫。 在這種情況下，不需要將 SYSVOL 複寫從 FRS 遷移至 DFSR。 如果網域已升級為 Windows Server 2008 [功能等級](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc754918(v=ws.10))，則會使用 FRS 進行 SYSVOL 複寫，直到從 FRS 到 DFSR 的 [遷移](https://blogs.technet.com/filecab/archive/2008/02/08/sysvol-migration-series-part-1-introduction-to-the-sysvol-migration-process.aspx) 程式完成為止。
+如果網域的[功能等級](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc754918(v=ws.10))Windows 伺服器2008，而網域已進行[sysvol 遷移](https://blogs.technet.com/filecab/archive/2008/02/08/sysvol-migration-series-part-1-introduction-to-the-sysvol-migration-process.aspx)，則會使用[DFSR](/windows-server/storage/dfs-replication/migrate-sysvol-to-dfsr)來複寫 sysvol 資料夾。 如果網域中的第一個網域控制站直接升級為 Windows Server 2008[功能等級](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc754918(v=ws.10))，則會自動使用 DFSR 進行 SYSVOL 複寫。 在這種情況下，不需要將 SYSVOL 複寫從 FRS 遷移至 DFSR。 如果網域已升級為 Windows Server 2008[功能等級](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc754918(v=ws.10))，則會使用 frs 進行 SYSVOL 複寫，直到從 FRS 到 DFSR 的[遷移](https://blogs.technet.com/filecab/archive/2008/02/08/sysvol-migration-series-part-1-introduction-to-the-sysvol-migration-process.aspx)程式完成為止。
 
-若要判斷是否正在執行 Windows Server 2008 的網域控制站上使用 DFSR 或 FRS，請檢查 [ **HKEY \_ LOCAL \_ MACHINE** \\ **System** \\ **CurrentControlSet** \\ **Services** \\ **DFSR** 參數] 的值 SysVols 是否正在 \\  \\  \\ **遷移 SysVols** \\ **LocalState** 登錄子機碼。 如果此登錄子機碼存在，且其值設為 3 (會消除) ，則會使用 [DFSR](/windows-server/storage/dfs-replication/migrate-sysvol-to-dfsr) 。 如果子機碼不存在，或其具有不同的值，則會使用 FRS。
+若要判斷是否正在執行 Windows Server 2008 的網域控制站上使用 DFSR 或 FRS，請檢查 **HKEY \_ LOCAL \_ MACHINE** \\ **System** \\ **CurrentControlSet** \\ **Services** \\ **DFSR** \\ **Parameters** \\ **SysVols** \\ **遷移 SysVols** \\ **LocalState** 登錄子機碼的值。 如果此登錄子機碼存在，且其值設為 3 (會消除) ，則會使用 [DFSR](/windows-server/storage/dfs-replication/migrate-sysvol-to-dfsr) 。 如果子機碼不存在，或其具有不同的值，則會使用 FRS。
 
 ## <a name="backing-up-a-dfsr-replicated-sysvol-folder"></a>備份 DFSR-Replicated SYSVOL 資料夾
 
@@ -56,13 +56,13 @@ FRS 可將 SYSVOL 內容複寫到網域內的其他網域控制站。 FRS 會監
 
 ## <a name="backing-up-an-frs-replicated-sysvol-folder-on-a-windows-server-2008-or-windows-server-2003-domain"></a>備份 Windows Server 2008 或 Windows Server 2003 網域上的 FRS-Replicated SYSVOL 資料夾
 
-在執行 Windows Server 2008 或 Windows Server 2003 的網域控制站上，會有 VSS 基礎結構，因此 FRS VSS 寫入器可以用來備份 SYSVOL 資料夾和 FRS 元件。
+在執行 Windows Server 2008 或 Windows server 2003 的網域控制站上，會有 VSS 基礎結構，因此 frs vss 寫入器可以用來備份 SYSVOL 資料夾和 frs 元件。
 
 FRS VSS 寫入器的寫入器元資料檔案提供 SYSVOL 資料夾的位置和寫入器排除清單的相關資訊。 根據此資訊， (要求者) 的 VSS 備份應用程式可以使用定期以 VSS 為基礎的備份技術來備份 SYSVOL 資料夾。
 
 寫入器元資料檔案包含寫入器的相關資訊、寫入器擁有的資料，以及如何還原該資料。 這是唯讀檔案，可以在進行備份之前，由備份應用程式取出。 [DiskShadow](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/cc772172(v=ws.11))工具可以用來查看 FRS VSS 寫入器的寫入器元資料檔案。 [DiskShadow 清單寫入](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/cc772172(v=ws.11))器命令會提供有關系統上的寫入器的資訊。 這份清單包含有關網域控制站上使用 FRS 進行 SYSVOL 複寫的網域控制站上的 FRS 寫入器的資訊，或是使用 FRS 複寫 [DFS 連結目標](/previous-versions/windows/it-pro/windows-server-2003/cc782417(v=ws.10))的檔案伺服器的相關資訊。
 
-下列範例 FRS 寫入器元資料檔案章節針對在 D： Windows sysvol 上具有 SYSVOL 資料夾的網域控制站，顯示範例 FRS 寫入器元資料檔案 \\ \\ 。 [排除的檔案] 區段中顯示的路徑將與查詢 Netlogon 服務的 **SysVol** 登錄機碼時所取得的路徑相同：
+下列範例 frs 寫入器元資料檔案章節會針對在 D： Windows sysvol 上有 sysvol 資料夾的網域控制站，顯示範例 frs 寫入器元資料檔案 \\ \\ 。 [排除的檔案] 區段中顯示的路徑將與查詢 Netlogon 服務的 **SysVol** 登錄機碼時所取得的路徑相同：
 
 **HKEY \_本機 \_ 電腦** \\ **System** \\ **CurrentControlSet** \\ **Services** \\ **NetLogon** \\ **參數** \\ **SysVol**
 
@@ -71,7 +71,7 @@ FRS VSS 寫入器的寫入器元資料檔案提供 SYSVOL 資料夾的位置和�
 FRS VSS 寫入器需要自訂的還原方法。 這表示在還原由 FRS 複寫的檔案時，必須執行特定的自訂步驟。 如需詳細資訊，請參閱執行 FRS-Replicated SYSVOL 資料夾的非系統授權還原。
 
 > [!Note]  
-> Windows 網域控制站的系統狀態備份不包含 FRS 資料庫，此資料庫會維護與 SYSVOL 資料夾內的檔案相關之 FRS 服務的狀態資訊，以及其他內容集。 系統狀態備份會排除 FRS 資料庫、調試記錄、暫存區域檔案，以及 [預先存在之資料檔案夾](/previous-versions/windows/it-pro/windows-server-2003/cc758169(v=ws.10)) 中的檔案。 下列範例 FRS 寫入器規格包含 [排除的檔案] 區段中的排除清單。
+> Windows 網域控制站的系統狀態備份不包含 frs 資料庫，此資料庫會維護與 SYSVOL 資料夾內的檔案相關之 frs 服務的狀態資訊，以及其他內容集。 系統狀態備份會排除 FRS 資料庫、調試記錄、暫存區域檔案，以及 [預先存在之資料檔案夾](/previous-versions/windows/it-pro/windows-server-2003/cc758169(v=ws.10)) 中的檔案。 下列範例 FRS 寫入器規格包含 [排除的檔案] 區段中的排除清單。
 
  
 

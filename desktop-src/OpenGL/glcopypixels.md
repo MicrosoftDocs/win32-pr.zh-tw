@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4a7ba0833534d21e48c251da6491fee2996c3ed9
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 43c399b4ce63f84c41bcb2d65140356ac20a6ddd
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934510"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122479444"
 ---
 # <a name="glcopypixels-function"></a>glCopyPixels 函式
 
@@ -79,46 +79,13 @@ void WINAPI glCopyPixels(
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>值</th>
-<th>意義</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><span id="GL_COLOR"></span><span id="gl_color"></span><dl> <dt><strong>GL_COLOR</strong></dt> </dl></td>
-<td><strong>GlCopyPixels</strong>函式會從目前指定為讀取來源緩衝區的緩衝區讀取索引或 RGBA 色彩 (查看<a href="glreadbuffer.md"><strong>glReadBuffer</strong></a>) 。 <br/> 如果 OpenGL 處於色彩索引模式：<br/>
-<ol>
-<li>從這個緩衝區讀取的每個索引都會轉換成指向二進位點右邊未指定位數的固定點格式。</li>
-<li>每個索引都會 GL_INDEX_SHIFT 位左移，並新增至 GL_INDEX_OFFSET。如果 GL_INDEX_SHIFT 為負數，則向右移位。 無論是哪一種情況，在結果中都不會以零位填滿指定的位位置。<br/></li>
-<li>如果 GL_MAP_COLOR 為 true，就會將索引取代為它在查閱資料表 GL_PIXEL_MAP_I_TO_I 中所參考的值。</li>
-<li>如果索引的查閱取代是否已完成，索引的整數部分就是， <strong>而</strong>ed 的整數部分是 2<em><sup>b</sup></em> 1，其中 <em>b</em> 是色彩索引緩衝區中的位數。</li>
-</ol>
-如果 OpenGL 處於 RGBA 模式：<br/>
-<ol>
-<li>每個讀取之圖元的紅色、綠色、藍色和 Alpha 元件都會轉換成具有未指定精確度的內部浮點格式。</li>
-<li>轉換會將最大可表示的元件值對應至1.0，並將元件值0對應至0.0。</li>
-<li>產生的浮點色彩值接著會乘以 GL_c_SCALE 並新增至 GL_c_BIAS，其中 <em>c</em> 是紅色、綠色、藍色和 ALPHA，適用于個別的色彩元件。</li>
-<li>結果會壓制到 [0，1] 範圍內。</li>
-<li>如果 GL_MAP_COLOR 為 true，則每個色彩元件都會依查閱資料表的大小進行調整 GL_PIXEL_MAP_c_TO_c，然後以它在該資料表中參考的值取代; <em>c</em> 分別為 R、G、B 或 A。 接著，會將目前的點陣位置<em>z</em>座標和材質座標附加至每個圖元，然後指派視窗座標 (<em>x</em><sub>r</sub> + i、 <em>y</em><sub>r</sub> + <em>j</em>) ，其中 (<em>x</em><sub>r</sub> 、 <em>y</em><sub>r</sub> ) 是目前的點陣位置，而圖元是在<em>j</em>資料列中<em>i</em>位置的圖元，則會將結果的索引或 RGBA 色彩轉換成片段。 然後，這些圖元片段的處理方式就像是將點、線條或多邊形所產生的片段一樣。 材質對應、霧化和所有片段作業都是在片段寫入至畫面格緩衝區之前套用。<br/></li>
-</ol></td>
-</tr>
-<tr class="even">
-<td><span id="GL_DEPTH"></span><span id="gl_depth"></span><dl> <dt><strong>GL_DEPTH</strong></dt> </dl></td>
-<td>深度的值會從深度緩衝區讀取，並直接轉換成具有未指定精確度的內部浮點格式。 產生的浮點數深度值接著會乘以 GL_DEPTH_SCALE，並新增至 GL_DEPTH_BIAS。 結果會壓制至範圍 [0，1]。 <br/> 然後，會將目前的點陣位置色彩或色彩索引和材質座標附加至每個圖元，然後指派視窗座標 (<em>x</em><sub>r</sub> + i、 <em>y</em><sub>r</sub> + <em>j</em>) ，其中 (<em>x</em><sub>r</sub> 、 <em>y</em><sub>r</sub> ) 是目前的點陣位置，而圖元是在<em>j</em>資料列中<em>i</em>位置的圖元，則會轉換成片段。 然後，這些圖元片段的處理方式就像是將點、線條或多邊形所產生的片段一樣。 材質對應、霧化和所有片段作業都是在片段寫入至畫面格緩衝區之前套用。<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="GL_STENCIL"></span><span id="gl_stencil"></span><dl> <dt><strong>GL_STENCIL</strong></dt> </dl></td>
-<td>樣板索引會從樣板緩衝區中讀取，並轉換為內部的固定點格式，並在二進位點右邊有未指定的位數。 然後，每個固定點索引會依 GL_INDEX_SHIFT 位向左移，並新增至 GL_INDEX_OFFSET。 如果 GL_INDEX_SHIFT 為負數，則向右移位。 無論是哪一種情況，在結果中都不會以零位填滿指定的位位置。 如果 GL_MAP_STENCIL 為 true，就會將索引取代為它在查閱資料表 GL_PIXEL_MAP_S_TO_S 中所參考的值。 如果索引的查閱取代是否已完成，索引的整數部分就是， <strong>而</strong>ed 的整數部分則是 2<sup>b</sup> - 1，其中 <em>b</em> 是樣板緩衝區中的位數。 接著會將產生的樣板索引寫入至樣板緩衝區，以便從<em>j</em>資料列的<em>i</em>位置讀取的索引會寫入位置 (<em>x</em><sub>r</sub> + <em>i</em>， <em>y</em><sub>r</sub> + <em>j</em>) ，其中 (<em>x</em><sub>r</sub> ， <em>y</em><sub>r</sub> ) 是目前的點陣位置。 只有圖元擁有權的測試、剪下測試和樣板 writemask 會影響這些寫入。<br/></td>
-</tr>
-</tbody>
-</table>
+
+| 值 | 意義 | 
+|-------|---------|
+| <span id="GL_COLOR"></span><span id="gl_color"></span><dl><dt><strong>GL_COLOR</strong></dt></dl> | <strong>GlCopyPixels</strong>函式會從目前指定為讀取來源緩衝區的緩衝區讀取索引或 RGBA 色彩 (查看<a href="glreadbuffer.md"><strong>glReadBuffer</strong></a>) 。 <br /> 如果 OpenGL 處於色彩索引模式：<br /><ol><li>從這個緩衝區讀取的每個索引都會轉換成指向二進位點右邊未指定位數的固定點格式。</li><li>每個索引都會 GL_INDEX_SHIFT 位左移，並新增至 GL_INDEX_OFFSET。如果 GL_INDEX_SHIFT 為負數，則向右移位。 無論是哪一種情況，在結果中都不會以零位填滿指定的位位置。<br /></li><li>如果 GL_MAP_COLOR 為 true，就會將索引取代為它在查閱資料表 GL_PIXEL_MAP_I_TO_I 中所參考的值。</li><li>如果索引的查閱取代是否已完成，索引的整數部分就是， <strong>而</strong>ed 的整數部分是 2<em><sup>b</sup></em> 1，其中 <em>b</em> 是色彩索引緩衝區中的位數。</li></ol>如果 OpenGL 處於 RGBA 模式：<br /><ol><li>每個讀取之圖元的紅色、綠色、藍色和 Alpha 元件都會轉換成具有未指定精確度的內部浮點格式。</li><li>轉換會將最大可表示的元件值對應至1.0，並將元件值0對應至0.0。</li><li>產生的浮點色彩值接著會乘以 GL_c_SCALE 並新增至 GL_c_BIAS，其中 <em>c</em> 是紅色、綠色、藍色和 ALPHA，適用于個別的色彩元件。</li><li>結果會壓制到 [0，1] 範圍內。</li><li>如果 GL_MAP_COLOR 為 true，則每個色彩元件都會依查閱資料表的大小進行調整 GL_PIXEL_MAP_c_TO_c，然後以它在該資料表中參考的值取代; <em>c</em> 分別為 R、G、B 或 A。 接著，會將目前的點陣位置<em>z</em>座標和材質座標附加至每個圖元，然後指派視窗座標 (<em>x</em><sub>r</sub> + i， <em>y</em><sub>r</sub>  +  <em>j</em>) ，其中 (<em>x</em><sub>r</sub> 、 <em>y</em><sub>r</sub> ) 是目前的點陣位置，而圖元是在<em>j</em>資料列的<em>i</em>位置中的圖元，則會將目前的索引或 RGBA 色彩轉換成片段。 然後，這些圖元片段的處理方式就像是將點、線條或多邊形所產生的片段一樣。 材質對應、霧化和所有片段作業都是在片段寫入至畫面格緩衝區之前套用。<br /></li></ol> | 
+| <span id="GL_DEPTH"></span><span id="gl_depth"></span><dl><dt><strong>GL_DEPTH</strong></dt></dl> | 深度的值會從深度緩衝區讀取，並直接轉換成具有未指定精確度的內部浮點格式。 產生的浮點數深度值接著會乘以 GL_DEPTH_SCALE，並新增至 GL_DEPTH_BIAS。 結果會壓制至範圍 [0，1]。 <br /> 然後，會將目前的點陣位置色彩或色彩索引和材質座標附加至每個圖元，然後指派視窗座標 (<em>x</em><sub>r</sub> + i， <em>y</em><sub>r</sub>  +  <em>j</em>) ，其中 (<em>x</em><sub>r</sub> 、 <em>y</em><sub>r</sub> ) 是目前的點陣位置，而圖元是在<em>j</em>資料列中<em>i</em>位置的圖元，則會轉換成片段。 然後，這些圖元片段的處理方式就像是將點、線條或多邊形所產生的片段一樣。 材質對應、霧化和所有片段作業都是在片段寫入至畫面格緩衝區之前套用。<br /> | 
+| <span id="GL_STENCIL"></span><span id="gl_stencil"></span><dl><dt><strong>GL_STENCIL</strong></dt></dl> | 樣板索引會從樣板緩衝區中讀取，並轉換為內部的固定點格式，並在二進位點右邊有未指定的位數。 然後，每個固定點索引會依 GL_INDEX_SHIFT 位向左移，並新增至 GL_INDEX_OFFSET。 如果 GL_INDEX_SHIFT 為負數，則向右移位。 無論是哪一種情況，在結果中都不會以零位填滿指定的位位置。 如果 GL_MAP_STENCIL 為 true，就會將索引取代為它在查閱資料表 GL_PIXEL_MAP_S_TO_S 中所參考的值。 無論索引的查閱取代是否已完成，索引的整數部分都會是， <strong>而 Ed 和</strong>2<sup>b</sup> -1，其中 <em>b</em> 是樣板緩衝區中的位數。 接著會將產生的樣板索引寫入至樣板緩衝區，以便從<em>j</em>資料列的<em>i</em>位置讀取的索引會寫入位置 (<em>x</em><sub>r</sub>  +  <em>i</em>， <em>y</em><sub>r</sub>  +  <em>j</em>) ，其中 (<em>x</em><sub>r</sub> ， <em>y</em><sub>r</sub> ) 是目前的點陣位置。 只有圖元擁有權的測試、剪下測試和樣板 writemask 會影響這些寫入。<br /> | 
+
 
 
 

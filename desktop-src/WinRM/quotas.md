@@ -5,16 +5,16 @@ ms.assetid: 6651a500-a95a-45a1-b46a-27b2e9b36a1c
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a1310efd37b913ae0bf8394015f6df792711ac6b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1f8cfa177d6f09552238471ff29d81d0ac0b7351
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104301759"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122883217"
 ---
 # <a name="quota-management-for-remote-shells"></a>遠端 Shell 的配額管理
 
-配額管理可讓使用者更有效率地管理系統資源。 Windows 遠端管理 (WinRM) 已新增一組特定的配額，以提供更好的服務品質、協助防止阻絕服務問題，以及將伺服器資源配置給並行使用者。 WinRM 配額的設定是以針對 Internet Information Services (IIS) 服務所執行的配額基礎結構為基礎。
+配額管理可讓使用者更有效率地管理系統資源。 Windows遠端系統管理 (WinRM) 已新增一組特定的配額，以提供更好的服務品質、協助防止阻絕服務問題，以及將伺服器資源配置給並行使用者。 WinRM 配額的設定是以針對 Internet Information Services (IIS) 服務所執行的配額基礎結構為基礎。
 
 藉由執行下列動作，執行配額有助於防止效能降低和拒絕服務問題：
 
@@ -25,7 +25,7 @@ ms.locfileid: "104301759"
 
 ## <a name="quota-settings"></a>配額設定
 
-下列配額需要針對遠端 shell 管理強制執行。 您可以透過 winrm 公用程式或群組原則設定來設定這些配額。 群組原則設定的設定會取代 winrm 公用程式所設定的配額。 如需設定 WinRM 群組原則的詳細資訊，請參閱 [Windows 遠端管理的安裝和](installation-and-configuration-for-windows-remote-management.md)設定。
+下列配額需要針對遠端 shell 管理強制執行。 您可以透過 winrm 公用程式或群組原則設定來設定這些配額。 由群組原則設定的設定會取代 winrm 公用程式所設定的配額。 如需設定 WinRM 群組原則的詳細資訊，請參閱[Windows 遠端管理的安裝和](installation-and-configuration-for-windows-remote-management.md)設定。
 
 <dl> <dt>
 
@@ -51,7 +51,7 @@ ms.locfileid: "104301759"
 > [!Note]  
 > 如果將 MaxMemoryPerShellMB 設定為小於預設值，則不支援此行為。
 
- 
+ 
 
 </dd> <dt>
 
@@ -101,25 +101,25 @@ Config
 
 ## <a name="configuring-shell-quotas"></a>設定 Shell 配額
 
-您可以透過群組原則設定或手動設定配額。 如需特定設定的詳細資訊，請參閱 [Windows 遠端管理的安裝和](installation-and-configuration-for-windows-remote-management.md)設定。
+您可以透過群組原則設定或手動設定配額。 如需特定設定的詳細資訊，請參閱[Windows 遠端管理的安裝和](installation-and-configuration-for-windows-remote-management.md)設定。
 
 **使用群組原則設定配額**
 
 1.  以系統管理員身分開啟 [命令提示字元] 視窗。
 2.  在命令提示字元中，輸入 **gpedit.msc**。 **群組原則物件編輯器**] 視窗隨即開啟。
-3.  在 [電腦設定] **\\ 系統管理範本 [ \\ windows 元件**] 下的 [電腦設定] 底下，尋找 **Windows 遠端管理** 和 **WINDOWS 遠端 Shell** 群組原則物件 () GPO
+3.  在 [電腦設定] **\\) \\ 系統管理範本元件** 下，尋找 **Windows 遠端管理**，並 **Windows 遠端 Shell** 群組原則物件 (GPO Windows。
 4.  在 [ **擴充** ] 索引標籤上，選取設定以查看描述。 按兩下設定以進行編輯。
 
 **手動設定配額**
 
 1.  以系統管理員身分開啟 [命令提示字元] 視窗。
-2.  在命令提示字元中，輸入 **winrm set winrm/config/winrs ' @ { ***<Quota>*** = " ***<Value>*** "} '**
+2.  在命令提示字元中，輸入 **winrm set winrm/config/winrs ' @ {** _&lt; &gt; Quota_*_= "_* _&lt; Value &gt;_ *_"} '_*
 
 例如，若要將每位使用者的最大 shell 數目從5增加到7，請輸入 **winrm set winrm/config/winrs ' @ {MaxShellsPerUser = "7"} '**。
 
- 
+ 
 
- 
+ 
 
 
 

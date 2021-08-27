@@ -4,12 +4,12 @@ ms.assetid: 0a380854-f3a9-4077-a481-dda67737d4c8
 title: 執行 IAMErrorLog
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 446e193a6a28fc1cbd5515414b9914f2653e8bc27bb9b5a57e69d05dfc947d62
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8de0ab694b2e2b8868717b6b4c11b2124ecc4042
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118398078"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122982201"
 ---
 # <a name="implementing-iamerrorlog"></a>執行 IAMErrorLog
 
@@ -65,18 +65,15 @@ if( pExtraInfo )    // Report extra information, if any.
 > [!Note]  
 > 請勿釋出所指向的變異
 >
-> <span codelanguage=""></span>
+> 
 >
-> <table>
-> <colgroup>
-> <col style="width: 100%" />
-> </colgroup>
-> <tbody>
-> <tr class="odd">
-> <td><pre><code>pExtraInfo</code></pre></td>
-> </tr>
-> </tbody>
-> </table> 
+> 
+| 標籤 | 值 |
+|--------|-------|
+| <pre><code>pExtraInfo</code></pre> | 
+
+>
+> 
 >
 > . 此外，此變數會在方法傳回之後變成無效，因此請勿稍後再參考。
 

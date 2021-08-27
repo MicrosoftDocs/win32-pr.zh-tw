@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 8feace72eeb51ed0904ad748892ca3c1b3adea9c8ca6c97ac7a76ea11890dd08
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2f5772429fa0cd7f2f45009ff1867141a845088b
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117922426"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122885488"
 ---
 # <a name="swbemobjectexgettext_-method"></a>SWbemObjectEx. GetText \_ 方法
 
@@ -113,12 +113,12 @@ strObj = .GetText_( _
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
-<th>名稱</th>
+<th>Name</th>
 <th>值</th>
 </tr>
 </thead>
@@ -135,7 +135,7 @@ strObj = .GetText_( _
 <td>PathLevel</td>
 <td><strong>VT-I4</strong><br/> 預設值為 0 (零) 。 可能的值包括：<br/>
 <ul>
-<li>0： <CLASS> <INSTANCE> 根據物件是否為類別或實例，建立或專案。</li>
+<li>0： &lt; &gt; <INSTANCE> 根據物件是否為類別或實例，建立類別或專案。</li>
 <li>1： <VALUE.NAMEDOBJECT> 產生元素。</li>
 <li>2： <VALUE.OBJECTWITHLOCALPATH> 產生元素。</li>
 <li>3： <VALUE.OBJECTWITHPATH> 產生元素。</li>

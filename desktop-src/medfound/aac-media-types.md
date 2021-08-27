@@ -4,12 +4,12 @@ ms.assetid: 82218bc5-6660-4253-b50c-b6d9f30be3d5
 title: AAC 媒體類型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ab95423b26a0e2a327b599011e88a05ab2ab58c5
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: ae70661478ad0d2267c951c80fc4a63d98c15267
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "103945593"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122479884"
 ---
 # <a name="aac-media-types"></a>AAC 媒體類型
 
@@ -52,64 +52,20 @@ ms.locfileid: "103945593"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>屬性</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="mf-mt-major-type-attribute.md"><strong>MF_MT_MAJOR_TYPE</strong></a></td>
-<td>主要類型。 必須是 <strong>MFMediaType_Audio</strong>。</td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-subtype-attribute.md"><strong>MF_MT_SUBTYPE</strong></a></td>
-<td>音訊子類型。 如需詳細資料，請參閱先前的描述。</td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-aac-audio-profile-level-indication.md">MF_MT_AAC_AUDIO_PROFILE_LEVEL_INDICATION</a></td>
-<td>音訊設定檔和層級。 <br/> 這個屬性的值是 <strong>audioProfileLevelIndication</strong> 欄位，如 ISO/IEC 14496-3 所定義。<br/> 如果不明，請將設定為零或 0xFE (&quot; 未指定任何音訊設定檔 &quot;) 。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-audio-avg-bytes-per-second-attribute.md"><strong>MF_MT_AUDIO_AVG_BYTES_PER_SECOND</strong></a></td>
-<td>編碼 AAC 資料流程的位元速率（以每秒位元組數為單位）。</td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-aac-payload-type.md">MF_MT_AAC_PAYLOAD_TYPE</a></td>
-<td>裝載類型。<br/> 只適用于 <strong>MFAudioFormat_AAC</strong>。<br/> <a href="mf-mt-aac-payload-type.md">MF_MT_AAC_PAYLOAD_TYPE</a> 是選擇性的。 如果未指定此屬性，則會使用預設值0，此值會指定資料流程只包含 raw_data_block 元素。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-audio-bits-per-sample-attribute.md"><strong>MF_MT_AUDIO_BITS_PER_SAMPLE</strong></a></td>
-<td>已解碼 PCM 音訊的位深度。</td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-audio-channel-mask-attribute.md"><strong>MF_MT_AUDIO_CHANNEL_MASK</strong></a></td>
-<td>將音訊頻道指派給喇叭位置。</td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-audio-num-channels-attribute.md"><strong>MF_MT_AUDIO_NUM_CHANNELS</strong></a></td>
-<td>通道的數目，包括低頻率 (LFE) 通道（如果有的話）。<br/> 此值的解讀取決於媒體子類型，如先前所述。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-audio-samples-per-second-attribute.md"><strong>MF_MT_AUDIO_SAMPLES_PER_SECOND</strong></a></td>
-<td>取樣率（以每秒樣本數為單位）。<br/> 此值的解讀取決於媒體子類型，如先前所述。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-user-data-attribute.md"><strong>MF_MT_USER_DATA</strong></a></td>
-<td>這個屬性的值取決於子類型：<br/>
-<ul>
-<li><strong>MFAudioFormat_AAC</strong>：包含在<strong>WAVEFORMATEX</strong>結構後面出現的部分<a href="/windows/desktop/api/mmreg/ns-mmreg-heaacwaveinfo"><strong>HEAACWAVEINFO</strong></a>結構， (也就是<strong>wfx</strong>成員) 之後。 後面接著 AudioSpecificConfig () 資料，如 ISO/IEC 14496-3 所定義。</li>
-<li><strong>MEDIASUBTYPE_RAW_AAC1</strong>：包含 AudioSpecificConfig () 資料。</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| 屬性 | 描述 | 
+|-----------|-------------|
+| <a href="mf-mt-major-type-attribute.md"><strong>MF_MT_MAJOR_TYPE</strong></a> | 主要類型。 必須是 <strong>MFMediaType_Audio</strong>。 | 
+| <a href="mf-mt-subtype-attribute.md"><strong>MF_MT_SUBTYPE</strong></a> | 音訊子類型。 如需詳細資料，請參閱先前的描述。 | 
+| <a href="mf-mt-aac-audio-profile-level-indication.md">MF_MT_AAC_AUDIO_PROFILE_LEVEL_INDICATION</a> | 音訊設定檔和層級。 <br /> 這個屬性的值是 <strong>audioProfileLevelIndication</strong> 欄位，如 ISO/IEC 14496-3 所定義。<br /> 如果不明，請將設定為零或 0xFE ( 「未指定音訊設定檔」 ) 。<br /> | 
+| <a href="mf-mt-audio-avg-bytes-per-second-attribute.md"><strong>MF_MT_AUDIO_AVG_BYTES_PER_SECOND</strong></a> | 編碼 AAC 資料流程的位元速率（以每秒位元組數為單位）。 | 
+| <a href="mf-mt-aac-payload-type.md">MF_MT_AAC_PAYLOAD_TYPE</a> | 裝載類型。<br /> 只適用于 <strong>MFAudioFormat_AAC</strong>。<br /><a href="mf-mt-aac-payload-type.md">MF_MT_AAC_PAYLOAD_TYPE</a> 是選擇性的。 如果未指定此屬性，則會使用預設值0，此值會指定資料流程只包含 raw_data_block 元素。<br /> | 
+| <a href="mf-mt-audio-bits-per-sample-attribute.md"><strong>MF_MT_AUDIO_BITS_PER_SAMPLE</strong></a> | 已解碼 PCM 音訊的位深度。 | 
+| <a href="mf-mt-audio-channel-mask-attribute.md"><strong>MF_MT_AUDIO_CHANNEL_MASK</strong></a> | 將音訊頻道指派給喇叭位置。 | 
+| <a href="mf-mt-audio-num-channels-attribute.md"><strong>MF_MT_AUDIO_NUM_CHANNELS</strong></a> | 通道的數目，包括低頻率 (LFE) 通道（如果有的話）。<br /> 此值的解讀取決於媒體子類型，如先前所述。<br /> | 
+| <a href="mf-mt-audio-samples-per-second-attribute.md"><strong>MF_MT_AUDIO_SAMPLES_PER_SECOND</strong></a> | 取樣率（以每秒樣本數為單位）。<br /> 此值的解讀取決於媒體子類型，如先前所述。<br /> | 
+| <a href="mf-mt-user-data-attribute.md"><strong>MF_MT_USER_DATA</strong></a> | 這個屬性的值取決於子類型：<br /><ul><li><strong>MFAudioFormat_AAC</strong>：包含在<strong>WAVEFORMATEX</strong>結構後面出現的部分<a href="/windows/desktop/api/mmreg/ns-mmreg-heaacwaveinfo"><strong>HEAACWAVEINFO</strong></a>結構， (也就是<strong>wfx</strong>成員) 之後。 後面接著 AudioSpecificConfig () 資料，如 ISO/IEC 14496-3 所定義。</li><li><strong>MEDIASUBTYPE_RAW_AAC1</strong>：包含 AudioSpecificConfig () 資料。</li></ul> | 
+
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: f7973019-0a80-498e-adf1-c66267c813f4
 title: 組件資訊清單
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d5d7c6739bc83e56a42a926ca6aecb739fc41bbf39225cc531afc7afc6706ccc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 94310ce3fdbb05706f889ea9755f7a47320ada56
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119142511"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122884889"
 ---
 # <a name="assembly-manifests"></a>組件資訊清單
 
@@ -23,56 +23,56 @@ ms.locfileid: "119142511"
 
 | 項目                           | 屬性                | 必要 |
 |-----------------------------------|---------------------------|----------|
-| **裝配**                      |                           | Yes      |
-|                                   | **manifestVersion**       | Yes      |
-| **noInheritable**                 |                           | No       |
-| **assemblyIdentity**              |                           | Yes      |
-|                                   | **type**                  | Yes      |
-|                                   | **name**                  | Yes      |
-|                                   | **language**              | No       |
-|                                   | **processorArchitecture** | No       |
-|                                   | **version**               | Yes      |
-|                                   | **publicKeyToken**        | No       |
-| **依賴**                    |                           | No       |
-| **y**             |                           | No       |
-| **file**                          |                           | No       |
-|                                   | **name**                  | Yes      |
-|                                   | **hashalg**               | No       |
-|                                   | **hash**                  | No       |
-| **Comclass.zip**                      |                           | No       |
-|                                   | **description**           | No       |
-|                                   | **Clsid**                 | Yes      |
-|                                   | **>threadingmodel**        | No       |
-|                                   | **tlbid**                 | No       |
-|                                   | **progid**                | No       |
-|                                   | **miscStatus**            | No       |
-|                                   | **miscStatusIcon**        | No       |
-|                                   | **miscStatusContent**     | No       |
-|                                   | **miscStatusDocPrint**    | No       |
-|                                   | **miscStatusDocPrint**    | No       |
-| **類型**                       |                           | No       |
-|                                   | **tlbid**                 | Yes      |
-|                                   | **version**               | Yes      |
-|                                   | **helpdir**               | Yes      |
-|                                   | **id**            | No       |
-|                                   | **flags**                 | No       |
-| **comInterfaceExternalProxyStub** |                           | No       |
-|                                   | **Iid**                   | Yes      |
-|                                   | **Typeinterface**         | No       |
-|                                   | **numMethods**            | No       |
-|                                   | **name**                  | No       |
-|                                   | **tlbid**                 | No       |
-|                                   | **proxyStubClsid32**      | No       |
-| **comInterfaceProxyStub**         |                           | No       |
-|                                   | **Iid**                   | Yes      |
-|                                   | **name**                  | Yes      |
-|                                   | **tlbid**                 | No       |
-|                                   | **Typeinterface**         | No       |
-|                                   | **numMethods**            | No       |
-|                                   | **proxyStubClsid32**      | No       |
-|                                   | **>threadingmodel**        | No       |
-| **windowClass**                   |                           | No       |
-|                                   | **版本**             | No       |
+| **裝配**                      |                           | 是      |
+|                                   | **manifestVersion**       | 是      |
+| **noInheritable**                 |                           | 否       |
+| **assemblyIdentity**              |                           | 是      |
+|                                   | **type**                  | 是      |
+|                                   | **name**                  | 是      |
+|                                   | **language**              | 否       |
+|                                   | **processorArchitecture** | 否       |
+|                                   | **version**               | 是      |
+|                                   | **publicKeyToken**        | 否       |
+| **依賴**                    |                           | 否       |
+| **y**             |                           | 否       |
+| **file**                          |                           | 否       |
+|                                   | **name**                  | 是      |
+|                                   | **hashalg**               | 否       |
+|                                   | **hash**                  | 否       |
+| **Comclass.zip**                      |                           | 否       |
+|                                   | **description**           | 否       |
+|                                   | **Clsid**                 | 是      |
+|                                   | **>threadingmodel**        | 否       |
+|                                   | **tlbid**                 | 否       |
+|                                   | **progid**                | 否       |
+|                                   | **miscStatus**            | 否       |
+|                                   | **miscStatusIcon**        | 否       |
+|                                   | **miscStatusContent**     | 否       |
+|                                   | **miscStatusDocPrint**    | 否       |
+|                                   | **miscStatusDocPrint**    | 否       |
+| **類型**                       |                           | 否       |
+|                                   | **tlbid**                 | 是      |
+|                                   | **version**               | 是      |
+|                                   | **helpdir**               | 是      |
+|                                   | **id**            | 否       |
+|                                   | **flags**                 | 否       |
+| **comInterfaceExternalProxyStub** |                           | 否       |
+|                                   | **Iid**                   | 是      |
+|                                   | **Typeinterface**         | 否       |
+|                                   | **numMethods**            | 否       |
+|                                   | **name**                  | 否       |
+|                                   | **tlbid**                 | 否       |
+|                                   | **proxyStubClsid32**      | 否       |
+| **comInterfaceProxyStub**         |                           | 否       |
+|                                   | **Iid**                   | 是      |
+|                                   | **name**                  | 是      |
+|                                   | **tlbid**                 | 否       |
+|                                   | **Typeinterface**         | 否       |
+|                                   | **numMethods**            | 否       |
+|                                   | **proxyStubClsid32**      | 否       |
+|                                   | **>threadingmodel**        | 否       |
+| **windowClass**                   |                           | 否       |
+|                                   | **版本**             | 否       |
 
 
 
@@ -223,7 +223,7 @@ Assembly 元素必須在命名空間 "urn：架構-microsoft-com： asm" 中。 
 
  
 
-**Comclass.zip** 元素可以將 <progid>...</progid>元素做為子系，以列出相依于 progid 的版本。
+**Comclass.zip** 元素可以將 &lt; progid &gt; ... 元素做 </progid> 為子系，以列出相依于 progid 的版本。
 
 下列範例會顯示包含在 **file** 元素中的 **comclass.zip** 元素。
 
@@ -283,7 +283,7 @@ Assembly 元素必須在命名空間 "urn：架構-microsoft-com： asm" 中。 
 
 
 
-| 屬性      | 描述                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| 屬性      | 說明                                                                                                                                                                                                                                                                                                                                                                                                                     |
 |----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **tlbid**      | 類型程式庫的唯一 ID。 必要。                                                                                                                                                                                                                                                                                                                                                                                    |
 | **version**    | 類型程式庫的兩部分版本號碼。 如果只增加次要版本號碼，則會以相容的方式支援先前類型程式庫的所有功能。 如果主要版本號碼變更，則必須重新編譯針對類型程式庫編譯的程式碼。 類型程式庫的版本號碼可能與應用程式的版本號碼不同。 必要。                                      |
@@ -351,7 +351,7 @@ Assembly 元素必須在命名空間 "urn：架構-microsoft-com： asm" 中。 
 
 
 
-| 屬性            | 描述                                                                                                                                                                                                                                                                                                 |
+| 屬性            | 說明                                                                                                                                                                                                                                                                                                 |
 |----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Iid**              | ，.宣告 proxy 之介面的 IID。 必要。 值的格式應為： "{iid}"。                                                                                                                                                                                        |
 | **name**             | 出現在程式碼中的介面名稱。 例如，"IViewObject"。 這不能是描述性字串。 此屬性是選擇性的。 值的格式應為： "name"。                                                                                                                 |

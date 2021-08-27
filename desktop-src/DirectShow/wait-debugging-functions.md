@@ -4,12 +4,12 @@ ms.assetid: 784ef76e-3c17-45e0-9a0b-656c11c71322
 title: 等候調試函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4f8f1de3d19ce7408625a5ab42f230d23ce401728e9fa7cf060edae62e19fcfd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3f2aabec60a14ff36d74298a21d31c91b4bc6d94
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120049198"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122884028"
 ---
 # <a name="wait-debugging-functions"></a>等候調試函式
 
@@ -19,9 +19,9 @@ Microsoft DirectShow 提供數個函式來偵測無限期等候。
 
 在 debug 組建中，這些函數會使用全域超時值。 如果超時時間過期，函式就會觸發判斷提示。 下列登錄機碼會指定超時時間值（以毫秒為單位）：
 
-**HKEY \_ 本機 \_ 電腦 \\ <DebugRoot> \\ <Module Name> \\ 超時**
+**HKEY \_ 本機 \_ 電腦 \\ &lt; DebugRoot &gt; \\ <Module Name> \\ TIMEOUT**
 
-其中 *<DebugRoot>* 是 [Debug Output 函數](debug-output-functions.md)主題所描述的登錄路徑。
+其中 *&lt; DebugRoot &gt;* 是 [Debug Output](debug-output-functions.md)函式主題中所述的登錄路徑。
 
 如果機碼不存在，超時值會預設為無限。 您可以使用 [**DbgSetWaitTimeout**](dbgsetwaittimeout.md) 函數來覆寫登錄專案。
 

@@ -7,12 +7,12 @@ MSHAttr:
 title: ModemDMConfigProfile
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 58ea408fb35fef5b9b2f89255e6ecb28f59b2370
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.openlocfilehash: 80684cdf2d47d203318afbfd7b5e6bc02de1d3dc
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 08/26/2021
-ms.locfileid: "122882900"
+ms.locfileid: "122982741"
 ---
 # <a name="span-idwwan_profile_v4element_modemdmconfigprofilespanmodemdmconfigprofile"></a><span id="WWAN_profile_v4.element_ModemDMConfigProfile"></span>ModemDMConfigProfile
 
@@ -57,7 +57,7 @@ ms.locfileid: "122882900"
 ### <a name="span-idchild_elementsspanspan-idchild_elementsspanspan-idchild_elementsspanchild-elements"></a><span id="Child_Elements"></span><span id="child_elements"></span><span id="CHILD_ELEMENTS"></span>子項目
 
 
-| 子元素 | 說明 | 
+| 子元素 | Description | 
 |---------------|-------------|
 | <a href="element-1-adminenable.md">AdminEnable</a> | <p>指定是否以系統管理員的方式啟用設定檔。這是 v4 的新元素。</p> | 
 | <a href="element-1-adminroamcontrol.md">AdminRoamControl</a> | <p>指定設定檔是否為系統管理漫遊控制。 此元素是 v4 的新專案。 這個元素的值是 <a href="simpletype-roamcontroltype.md"><strong>roamControlType</strong></a> 值。 這是選擇性元素;如果未指定任何值，則 <strong>AllRoamAllowed</strong> 為預設值。</p> | 
@@ -79,7 +79,9 @@ ms.locfileid: "122882900"
 ## <a name="requirements"></a>規格需求
 
 
-| | | <p>命名空間</p> | <p>https://www.microsoft.com/networking/WWAN/profile/v4</p> | 
+| 需求 | 值 |
+|------------|----------|
+| <p>命名空間</p> | <p>https://www.microsoft.com/networking/WWAN/profile/v4</p> | 
 
 
  

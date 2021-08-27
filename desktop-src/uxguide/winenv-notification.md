@@ -4,17 +4,17 @@ description: 通知區域會提供通知和狀態。 設計完善的程式會適
 ms.assetid: d30e293f-b424-4fe3-8191-1692c081245d
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 0293038dd155f12b96b22dd1c273a50f1c030ffa
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: c580d80bd95684cc80dc24e59273553f4a08e11f
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "103945578"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122985451"
 ---
 # <a name="notification-area"></a>通知區域
 
 > [!NOTE]
-> 此設計指南是針對 Windows 7 所建立，而且尚未針對較新版本的 Windows 更新。 大部分的指引仍然適用于準則，但展示和範例不會反映我們目前的 [設計指引](/windows/uwp/design/)。
+> 此設計指南是針對 Windows 7 所建立，而且尚未針對較新的 Windows 版本進行更新。 大部分的指引仍然適用于準則，但展示和範例不會反映我們目前的 [設計指引](/windows/uwp/design/)。
 
 通知區域會提供通知和狀態。 設計完善的程式會適當地使用通知區域，而不會干擾或困擾。
 
@@ -51,16 +51,16 @@ ms.locfileid: "103945578"
 
     -   **狀態是否危急？是否需要立即採取動作？** 如果是的話，請以需要注意的方式來顯示資訊，而且無法輕易地忽略，例如 [對話方塊](win-dialog-box.md)。
 
-    針對 Windows 7 設計的程式可以使用程式工作列按鈕上的重迭圖示來顯示狀態的變更，以及工作列按鈕的進度列，以顯示長時間執行之工作的進度。
+    針對 Windows 7 設計的程式可以在程式的工作列按鈕上使用重迭圖示來顯示狀態的變更，以及工作列按鈕的進度列，以顯示長時間執行之工作的進度。
 
--   **功能是否已經有「桌上型電腦目前狀態」？** 也就是說，執行時，功能是否會出現在桌面的視窗中 (可能會最小化) ？ 如果是的話，請在程式的 [狀態列](ctrl-status-bars.md)、其他狀態區域，或是直接在工作列按鈕上，顯示 Windows 7 的狀態。 如果功能沒有桌上型電腦存在，您可以使用圖示進行程式存取，並顯示狀態。
+-   **功能是否已經有「桌上型電腦目前狀態」？** 也就是說，執行時，功能是否會出現在桌面的視窗中 (可能會最小化) ？ 如果是的話，請在程式的[狀態列](ctrl-status-bars.md)、其他狀態區域，或是直接在工作列按鈕上，顯示 Windows 7 的狀態。 如果功能沒有桌上型電腦存在，您可以使用圖示進行程式存取，並顯示狀態。
 -   **圖示主要是用來快速啟動程式或存取其功能或設定？** 若是如此，請改用 [開始] 功能表來啟動程式。 通知區域不適用於快速程式或命令存取。
 
     ![[快速啟動] 工具列的螢幕擷取畫面 ](images/winenv-notification-image4.png)
 
-    在此範例中，Windows Vista 會使用快速啟動來快速啟動 Windows 檔案總管和 Windows Internet Explorer。
+    在此範例中，Windows Vista 中，快速啟動可用來快速啟動 Windows 檔案總管和 Windows Internet Explorer。
 
-    針對 Windows 7 的設計程式，使用者可以釘選工作列按鈕以進行快速程式存取。 程式可以使用捷徑清單或縮圖工具列，直接從程式的工具列按鈕存取常用的命令。 在 Windows 7 中，預設不會顯示快速啟動區域。
+    針對 Windows 7 的設計程式，使用者可以釘選工作列按鈕來快速存取程式。 程式可以使用捷徑清單或縮圖工具列，直接從程式的工具列按鈕存取常用的命令。 預設不會在 Windows 7 中顯示快速啟動區域。
 
     ![具有圖示的工作列和跳躍清單螢幕擷取畫面 ](images/winenv-notification-image5.png)
 
@@ -70,10 +70,10 @@ ms.locfileid: "103945578"
 
 ### <a name="the-windows-desktop"></a>Windows 桌面
 
-Windows 桌面具有下列程式存取點：
+Windows desktop 具有下列程式存取點：
 
 -   **工作區。** 使用者可以執行其工作的螢幕區域，以及儲存程式、檔和其快捷方式。 雖然在技術上，桌面包含工作列，但在大部分的情況下，它只會參考工作區域。
--   **[開始] 按鈕。** 所有程式和特殊 Windows 的存取點都將 (檔、圖片、音樂、遊戲、電腦主控台) 、使用「最近使用的」清單來快速存取最近使用的程式和檔。
+-   **[開始] 按鈕。** 所有程式和特殊 Windows 的存取點會將 (檔、圖片、音樂、遊戲、電腦主控台) ，以及「最近使用的」清單，以快速存取最近使用的程式和檔。
 -   **快速啟動。** 使用者選取之程式的直接存取點。 快速啟動已從 Windows 7 移除。
 -   **任務。** 執行具有桌上型電腦狀態之程式的存取點。 雖然在技術上，工作列橫跨 [開始] 按鈕到通知區域的整個橫條，但是在大部分的內容中，工作列都指的是介於中間的區域，其中包含工作列按鈕。 此區域有時稱為 taskband。
 -   **Deskbands.不建議使用。**
@@ -83,36 +83,36 @@ Windows 桌面具有下列程式存取點：
 
 Windows 桌面存取點包含 [開始] 按鈕、工作列和通知區域。 請注意工作列按鈕的縮圖功能。
 
-**桌面是受限的共用資源，是使用者進入 Windows 的進入點。** 讓使用者保持控制。 您應以預期的方式使用桌面區域，否則應該將任何其他用途視為濫用。 例如，絕對不要將桌面區域視為推廣程式或其 [品牌](exper-branding.md)的方式。
+**桌面是受限制的共用資源，也就是使用者進入指向 Windows 的進入點。** 讓使用者保持控制。 您應以預期的方式使用桌面區域，否則應該將任何其他用途視為濫用。 例如，絕對不要將桌面區域視為推廣程式或其 [品牌](exper-branding.md)的方式。
 
 ### <a name="using-the-notification-area-appropriately"></a>適當地使用通知區域
 
 通知區域最初是作為通知和狀態的暫時來源。 它的效率與便利性鼓勵開發人員提供其他用途，例如啟動程式和執行命令。 可惜的是，這些新增專案讓通知區域變得太大和雜訊，並與其他桌面存取點混淆。
 
-Windows XP 藉由使區域可折迭並隱藏未使用的圖示，來解決調整問題。 Windows Vista 藉由移除不必要、討厭的通知來解決干擾。 Windows 7 更進一步的原因是，將通知的原始目的放在通知來源。 **在 Windows 7 中，大部分的圖示都是隱藏的，但使用者可以手動升級至通知區域。為了讓使用者能夠掌控其桌面，您的程式無法自動執行這項升級。** Windows 仍會暫時加以升級，以顯示隱藏圖示的通知。
+WindowsXP 藉由使區域可折迭並隱藏未使用的圖示，來解決調整問題。 WindowsVista 藉由移除不必要、討厭的通知，來解決雜訊問題。 Windows 7 已進一步將通知的原始目的放在通知來源。 **大部分的圖示預設會在 Windows 7 中隱藏，但可由使用者手動升級為通知區域。為了讓使用者能夠掌控其桌面，您的程式無法自動執行這項升級。** Windows 仍會暫時加以升級，以顯示隱藏圖示的通知。
 
 ![通知區域和溢位的螢幕擷取畫面 ](images/winenv-notification-image7.png)
 
 在 Windows 7 中，預設會隱藏大部分的通知區域圖示。
 
-此外，Windows 7 也直接在工作列按鈕中支援許多功能。 具體而言，您可以使用：
+此外，Windows 7 也可直接在工作列按鈕中支援許多功能。 具體而言，您可以使用：
 
 -   跳躍清單和縮圖工具列可快速存取常用的命令。
 -   覆迭圖示，以顯示執行中程式的狀態。
 -   用來顯示長時間執行之工作進度的工作列按鈕進度列。
 
-簡單地說，如果您的程式有桌上型電腦存在，請充分利用 Windows 7 工作列按鈕功能來進行這些工作。 **讓通知區域圖示專注于顯示通知和狀態。**
+簡單地說，如果您的程式有桌上型電腦存在，請充分利用 Windows 7 工作列按鈕功能。 **讓通知區域圖示專注于顯示通知和狀態。**
 
 ### <a name="keeping-users-in-control"></a>讓使用者保持掌控
 
 讓控制項保持在外，不會正確地使用通知區域。 視圖標的本質而定，您可能會想要讓使用者執行下列動作：
 
--   **移除圖示。** 您的圖示可能會提供相關的有用狀態，但使用者可能不會想要看到它。 Windows 允許使用者隱藏圖示，但這項功能不容易找到。 若要讓使用者保持控制，請在圖示內容功能表上的 [ **通知區域] 選項中提供顯示圖示** 。 請注意，移除圖示不需要影響基礎程式、功能或流程。
+-   **移除圖示。** 您的圖示可能會提供相關的有用狀態，但使用者可能不會想要看到它。 Windows 可讓使用者隱藏圖示，但這項功能不容易找到。 若要讓使用者保持控制，請在圖示內容功能表上的 [ **通知區域] 選項中提供顯示圖示** 。 請注意，移除圖示不需要影響基礎程式、功能或流程。
 -   **選取要顯示的通知類型。** 您的通知必須有用且相關，但可能會有使用者不想看到的通知。 這特別適用于僅供參考 [通知](mess-notif.md)。 讓使用者選擇啟用較不重要的專案。
 -   **暫止選用功能。** 圖示可用來顯示功能的狀態，而不會顯示桌面。 這類功能通常會是長時間執行的選擇性背景工作，例如列印、編制索引、掃描或同步處理。 使用者可能會想要暫停這類功能，以提高系統效能、降低耗電量，或是因為它們已離線。
 -   **結束程式。** 提供更適合的選項：
     -   **暫時退出程式。** 重新開機 Windows 時，會停止並重新啟動程式。 這種方法適用于重要的系統公用程式，例如安全性程式。
-    -   **永久終止程式。** 重新開機 Windows 時，程式會停止且不會重新開機 (除非使用者選擇稍後重新開機) 。 使用者不想再執行程式，或想要視需要執行程式，也許可以改善系統效能。
+    -   **永久終止程式。** 重新開機 Windows 時，程式會停止，而且不會重新開機 (除非使用者選擇稍後重新開機) 。 使用者不想再執行程式，或想要視需要執行程式，也許可以改善系統效能。
 
 雖然最好在圖示的內容功能表上提供大部分的設定，但程式的預設體驗應該適用于大部分的使用者。 預設不會開啟任何專案，而且會預期使用者關閉功能。 相反地，根據預設，將重要功能開啟，讓使用者能夠視需要啟用其他功能。
 
@@ -129,42 +129,15 @@ Windows XP 藉由使區域可折迭並隱藏未使用的圖示，來解決調整
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><strong>系統狀態和存取</strong><br/> 持續顯示，以顯示重要但非重大的系統狀態，以及提供對相關功能和設定的存取權。 <br/></td>
-<td>需要通知區域圖示的系統功能不會有持續性的桌面存在。 也可以當做通知來源使用。 <br/> <img src="images/winenv-notification-image8.png" alt="Screenshot that shows a notification area and icons for system status." /><br/> 在此範例中，電池、網路和磁片區圖示會在適用時持續顯示。<br/></td>
-</tr>
-<tr class="even">
-<td><strong>背景工作狀態和存取權</strong><br/> 在背景工作執行時顯示，以顯示狀態並提供功能和設定的存取權。 <br/></td>
-<td>背景進程如果沒有桌上型電腦，則需要通知區域圖示。 也可以當做通知來源使用。 <br/> <img src="images/winenv-notification-image9.png" alt="Screenshot that shows notification area and icon for background task status." /><br/> 在此範例中，[動作中心] 圖示可讓使用者檢查其狀態（即使沒有桌上型電腦）。<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>暫存事件狀態</strong><br/> 具有桌上型電腦狀態的程式可以暫時顯示圖示，以顯示狀態的重要事件或變更。 <br/></td>
-<td><img src="images/winenv-notification-image10.png" alt="Screenshot that shows notification area and icons for a temporary event status." /><br/> 在此範例中，會暫時顯示用於列印和安裝更新的圖示，以顯示狀態中的重要事件或變更。<br/></td>
-</tr>
-<tr class="even">
-<td><strong>暫時通知來源</strong><br/> 暫時顯示以顯示通知。 在超時之後，或當基礎問題已解決或工作執行時移除。 <br/></td>
-<td>單純的通知來源偏好暫存圖示。 請勿顯示不提供實用、相關、動態狀態的圖示，因為功能可能需要在未來顯示通知。 <br/> <img src="images/winenv-notification-image11.png" alt="Screen shot of notification area install message " /><br/> 在此範例中，會顯示「隨插即用」圖示，並顯示新的硬體偵測到通知。<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>最小化單一實例應用程式</strong><br/> 為了減少工作列雜亂，單一實例、長時間執行的應用程式可以改為最小化到通知區域的圖示。 <br/></td>
-<td><img src="images/winenv-notification-image12.png" alt="Screen shot of notification area and icons " /><br/> 在此範例中，從 Windows Vista 開始，Outlook 和 Windows Live Messenger 是單一實例的應用程式，最小化到通知區域圖示。<br/> 只有在下列所有情況都適用時，才考慮使用此模式： <br/>
-<ul>
-<li>應用程式只能有單一實例。</li>
-<li>應用程式會執行一段很長的時間。</li>
-<li>圖示會顯示狀態。</li>
-<li>圖示可以是通知來源。</li>
-<li>這麼做是選擇性的，使用者必須 <a href="glossary.md">加入宣告</a>。</li>
-</ul>
-如果所有條件都適用，則將圖示降至最低會在需要只有一個時，才會有兩個存取點。 <br/> <strong>注意：</strong> Windows 7 不再建議使用此圖示模式。 如果您的程式有桌上型電腦存在，請改用一般工作列按鈕。<br/> <img src="images/winenv-notification-image13.png" alt="Screen shot of Outlook and Messenger taskbar icons " /><br/> 在此範例中，Windows 7 的一般工作列按鈕幾乎沒有空間，而是從 Windows 7 工作列按鈕功能獲益，包括跳躍清單、重迭圖示，以及豐富的縮圖。<br/></td>
-</tr>
-</tbody>
-</table>
+
+| 標籤 | 值 |
+|--------|-------|
+| <strong>系統狀態和存取</strong><br /> 持續顯示，以顯示重要但非重大的系統狀態，以及提供對相關功能和設定的存取權。 <br /> | 需要通知區域圖示的系統功能不會有持續性的桌面存在。 也可以當做通知來源使用。 <br /><img src="images/winenv-notification-image8.png" alt="Screenshot that shows a notification area and icons for system status." /><br /> 在此範例中，電池、網路和磁片區圖示會在適用時持續顯示。<br /> | 
+| <strong>背景工作狀態和存取權</strong><br /> 在背景工作執行時顯示，以顯示狀態並提供功能和設定的存取權。 <br /> | 背景進程如果沒有桌上型電腦，則需要通知區域圖示。 也可以當做通知來源使用。 <br /><img src="images/winenv-notification-image9.png" alt="Screenshot that shows notification area and icon for background task status." /><br /> 在此範例中，[動作中心] 圖示可讓使用者檢查其狀態（即使沒有桌上型電腦）。<br /> | 
+| <strong>暫存事件狀態</strong><br /> 具有桌上型電腦狀態的程式可以暫時顯示圖示，以顯示狀態的重要事件或變更。 <br /> | <img src="images/winenv-notification-image10.png" alt="Screenshot that shows notification area and icons for a temporary event status." /><br /> 在此範例中，會暫時顯示用於列印和安裝更新的圖示，以顯示狀態中的重要事件或變更。<br /> | 
+| <strong>暫時通知來源</strong><br /> 暫時顯示以顯示通知。 在超時之後，或當基礎問題已解決或工作執行時移除。 <br /> | 單純的通知來源偏好暫存圖示。 請勿顯示不提供實用、相關、動態狀態的圖示，因為功能可能需要在未來顯示通知。 <br /><img src="images/winenv-notification-image11.png" alt="Screen shot of notification area install message " /><br /> 在此範例中，會顯示「隨插即用」圖示，並顯示新的硬體偵測到通知。<br /> | 
+| <strong>最小化單一實例應用程式</strong><br /> 為了減少工作列雜亂，單一實例、長時間執行的應用程式可以改為最小化到通知區域的圖示。 <br /> | <img src="images/winenv-notification-image12.png" alt="Screen shot of notification area and icons " /><br /> 在此範例中，Windows Vista 中，Outlook 和 Windows Live Messenger 是最小化至通知區域圖示的單一實例應用程式。<br /> 只有在下列所有情況都適用時，才考慮使用此模式： <br /><ul><li>應用程式只能有單一實例。</li><li>應用程式會執行一段很長的時間。</li><li>圖示會顯示狀態。</li><li>圖示可以是通知來源。</li><li>這麼做是選擇性的，使用者必須 <a href="glossary.md">加入宣告</a>。</li></ul>如果所有條件都適用，則將圖示降至最低會在需要只有一個時，才會有兩個存取點。 <br /><strong>注意：</strong>Windows 7 不再建議使用這個圖示模式。 如果您的程式有桌上型電腦存在，請改用一般工作列按鈕。<br /><img src="images/winenv-notification-image13.png" alt="Screen shot of Outlook and Messenger taskbar icons " /><br /> 在此範例中，從 Windows 7 開始，一般工作列按鈕的空間幾乎很少，但 Windows 7 工作列按鈕功能的優點，包括跳躍清單、重迭圖示，以及豐富的縮圖。<br /> | 
+
 
 
 
@@ -198,7 +171,7 @@ Windows XP 藉由使區域可折迭並隱藏未使用的圖示，來解決調整
  
 
 -   **針對暫存事件狀態模式，在事件發生時顯示圖示。**
--   若為所有其他模式，請在 **程式、功能或進程正在執行時顯示圖示** ，除非使用者已 **在 [通知區域** ] 選項中清除其顯示圖示，否則會顯示圖示 (如需詳細資訊，請參閱 [內容功能表](#context-menus)) 。 在 Windows 7 中，大部分的圖示都是隱藏的，但可以由使用者升級至通知區域。
+-   若為所有其他模式，請在 **程式、功能或進程正在執行時顯示圖示** ，除非使用者已 **在 [通知區域** ] 選項中清除其顯示圖示，否則會顯示圖示 (如需詳細資訊，請參閱 [內容功能表](#context-menus)) 。 大部分的圖示預設會在 Windows 7 中隱藏，但可由使用者升級至通知區域。
 -   **不要顯示系統管理員對標準使用者的圖示。** 記錄 Windows 事件記錄檔中的資訊。
 
 ### <a name="where-to-show"></a>顯示位置
@@ -227,7 +200,7 @@ Windows XP 藉由使區域可折迭並隱藏未使用的圖示，來解決調整
 
     ![通知區域和 outlook 圖示的螢幕擷取畫面 ](images/winenv-notification-image15.png)
 
-    在此範例中，Outlook 會使用電子郵件功能圖示作為暫時通知來源，並使用其應用程式圖示來提供最小化的應用程式。
+    在此範例中，Outlook 使用電子郵件功能圖示作為暫時通知來源，並使用其應用程式圖示來提供最小化的應用程式。
 
 -   **選擇容易辨識的圖示設計。** 偏好在正方形或矩形圖示上具有唯一輪廓的圖示。 讓設計簡單易用的符號超過實際影像。 也套用其他 [Aero 樣式的圖示指導方針](vis-icons.md) 。
 -   **使用圖示變化或覆迭來指出狀態或狀態變更。** 使用圖示變化顯示數量或強度的變更。 針對其他類型的狀態，請使用下列標準重迭。 只使用單一重迭，並在右下角找出一致性。 
@@ -447,7 +420,7 @@ Windows XP 藉由使區域可折迭並隱藏未使用的圖示，來解決調整
         -   選取此選項可讓使用者還原圖示，當然無法從圖示本身完成。
 -   停用很少使用或可能令人討厭或混亂的功能。 讓使用者 [加入宣告](glossary.md) 這類功能。
 
-如需一般選項對話方塊的指導方針和範例，請參閱 [屬性視窗](win-property-win.md)。
+如需一般選項對話方塊的指導方針和範例，請參閱[屬性 Windows](win-property-win.md)。
 
 ### <a name="minimizing-programs-to-the-notification-area"></a>將程式降至最低通知區域
 

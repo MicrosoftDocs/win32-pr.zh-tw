@@ -4,12 +4,12 @@ description: 本章節包含有關捲軸所使用之程式設計項目的資訊�
 ms.assetid: vs|controls|~\controls\scrollbars\scrollbars.htm
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cca1aa4dc1b676cd5ce4f98c23035e462b9f4f87f8c20265848a8f0bcde80964
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: cc4f3a737d64f81079e1a73cf97cb6275e94fec5
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119636988"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122474724"
 ---
 # <a name="scroll-bar"></a>Scroll Bar
 
@@ -32,93 +32,22 @@ ms.locfileid: "119636988"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>主題</th>
-<th>目錄</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Winuser/nf-winuser-enablescrollbar"><strong>EnableScrollBar</strong></a></td>
-<td><a href="/windows/desktop/api/Winuser/nf-winuser-enablescrollbar"><strong>EnableScrollBar</strong></a>函式會啟用或停用一或兩個捲軸箭號。 <br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Winuser/nf-winuser-getscrollbarinfo"><strong>GetScrollBarInfo</strong></a></td>
-<td><a href="/windows/desktop/api/Winuser/nf-winuser-getscrollbarinfo"><strong>GetScrollBarInfo</strong></a>函式會捕獲指定捲軸的相關資訊。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Winuser/nf-winuser-getscrollinfo"><strong>GetScrollInfo</strong></a></td>
-<td><a href="/windows/desktop/api/Winuser/nf-winuser-getscrollinfo"><strong>GetScrollInfo</strong></a>函式會抓取捲軸的參數，包括最小和最大滾動位置、頁面大小，以及捲動方塊 (thumb) 的位置。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Winuser/nf-winuser-getscrollpos"><strong>GetScrollPos</strong></a></td>
-<td><a href="/windows/desktop/api/Winuser/nf-winuser-getscrollpos"><strong>GetScrollPos</strong></a>函式會在指定的捲軸中， (thumb) 來抓取捲動方塊的目前位置。 目前的位置是相依于目前滾動範圍的相對值。 例如，如果滾動的範圍是0到100，而且捲動方塊位於橫條的中間，則目前的位置是50。
-<blockquote>
-[!Note]<br />
-<a href="/windows/desktop/api/Winuser/nf-winuser-getscrollpos"><strong>GetScrollPos</strong></a>函式是為了與舊版相容而提供。 新的應用程式應該使用 <a href="/windows/desktop/api/Winuser/nf-winuser-getscrollinfo"><strong>GetScrollInfo</strong></a> 函數。
-</blockquote>
-<br/> <br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Winuser/nf-winuser-getscrollrange"><strong>GetScrollRange</strong></a></td>
-<td><a href="/windows/desktop/api/Winuser/nf-winuser-getscrollrange"><strong>GetScrollRange</strong></a>函式會抓取指定捲軸的目前最小和最大捲動方塊 (thumb) 位置。
-<blockquote>
-[!Note]<br />
-<a href="/windows/desktop/api/Winuser/nf-winuser-getscrollrange"><strong>GetScrollRange</strong></a>函式僅提供相容性。 新的應用程式應該使用 <a href="/windows/desktop/api/Winuser/nf-winuser-getscrollinfo"><strong>GetScrollInfo</strong></a> 函數。
-</blockquote>
-<br/> <br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Winuser/nf-winuser-scrolldc"><strong>ScrollDC</strong></a></td>
-<td><a href="/windows/desktop/api/Winuser/nf-winuser-scrolldc"><strong>ScrollDC</strong></a>函式會水準且垂直地滾動位數的矩形。 <br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Winuser/nf-winuser-scrollwindow"><strong>ScrollWindow</strong></a></td>
-<td><a href="/windows/desktop/api/Winuser/nf-winuser-scrollwindow"><strong>ScrollWindow</strong></a>函式會滾動指定之視窗工作區的內容。
-<blockquote>
-[!Note]<br />
-<a href="/windows/desktop/api/Winuser/nf-winuser-scrollwindow"><strong>ScrollWindow</strong></a>函式是為了與舊版相容而提供。 新的應用程式應該使用 <a href="/windows/desktop/api/Winuser/nf-winuser-scrollwindowex"><strong>ScrollWindowEx</strong></a> 函數。
-</blockquote>
-<br/> <br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Winuser/nf-winuser-scrollwindowex"><strong>ScrollWindowEx</strong></a></td>
-<td><a href="/windows/desktop/api/Winuser/nf-winuser-scrollwindowex"><strong>ScrollWindowEx</strong></a>函式會滾動指定之視窗工作區的內容。 <br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Winuser/nf-winuser-setscrollinfo"><strong>SetScrollInfo</strong></a></td>
-<td><a href="/windows/desktop/api/Winuser/nf-winuser-setscrollinfo"><strong>SetScrollInfo</strong></a>函式會設定捲軸的參數，包括最小和最大滾動位置、頁面大小，以及捲動方塊 (thumb) 的位置。 如果有要求，函式也會重新繪製捲軸。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Winuser/nf-winuser-setscrollpos"><strong>SetScrollPos</strong></a></td>
-<td><a href="/windows/desktop/api/Winuser/nf-winuser-setscrollpos"><strong>SetScrollPos</strong></a>函式會在指定的捲軸中設定捲動方塊 (thumb) 的位置，並在要求時，重新繪製捲軸以反映捲動方塊的新位置。
-<blockquote>
-[!Note]<br />
-<a href="/windows/desktop/api/Winuser/nf-winuser-setscrollpos"><strong>SetScrollPos</strong></a>函式是為了與舊版相容而提供。 新的應用程式應該使用 <a href="/windows/desktop/api/Winuser/nf-winuser-setscrollinfo"><strong>SetScrollInfo</strong></a> 函數。
-</blockquote>
-<br/> <br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Winuser/nf-winuser-setscrollrange"><strong>SetScrollRange</strong></a></td>
-<td><a href="/windows/desktop/api/Winuser/nf-winuser-setscrollrange"><strong>SetScrollRange</strong></a>函式會設定指定捲軸的最小和最大捲動方塊位置。
-<blockquote>
-[!Note]<br />
-<a href="/windows/desktop/api/Winuser/nf-winuser-setscrollrange"><strong>SetScrollRange</strong></a>函式是為了與舊版相容而提供。 新的應用程式應該使用 <a href="/windows/desktop/api/Winuser/nf-winuser-setscrollinfo"><strong>SetScrollInfo</strong></a> 函數。
-</blockquote>
-<br/> <br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Winuser/nf-winuser-showscrollbar"><strong>ShowScrollBar</strong></a></td>
-<td><a href="/windows/desktop/api/Winuser/nf-winuser-showscrollbar"><strong>ShowScrollBar</strong></a>函式會顯示或隱藏指定的捲軸。 <br/></td>
-</tr>
-</tbody>
-</table>
+
+| 主題 | 目錄 | 
+|-------|----------|
+| <a href="/windows/desktop/api/Winuser/nf-winuser-enablescrollbar"><strong>EnableScrollBar</strong></a> | <a href="/windows/desktop/api/Winuser/nf-winuser-enablescrollbar"><strong>EnableScrollBar</strong></a>函式會啟用或停用一或兩個捲軸箭號。 <br /> | 
+| <a href="/windows/desktop/api/Winuser/nf-winuser-getscrollbarinfo"><strong>GetScrollBarInfo</strong></a> | <a href="/windows/desktop/api/Winuser/nf-winuser-getscrollbarinfo"><strong>GetScrollBarInfo</strong></a>函式會捕獲指定捲軸的相關資訊。<br /> | 
+| <a href="/windows/desktop/api/Winuser/nf-winuser-getscrollinfo"><strong>GetScrollInfo</strong></a> | <a href="/windows/desktop/api/Winuser/nf-winuser-getscrollinfo"><strong>GetScrollInfo</strong></a>函式會抓取捲軸的參數，包括最小和最大滾動位置、頁面大小，以及捲動方塊 (thumb) 的位置。<br /> | 
+| <a href="/windows/desktop/api/Winuser/nf-winuser-getscrollpos"><strong>GetScrollPos</strong></a> | <a href="/windows/desktop/api/Winuser/nf-winuser-getscrollpos"><strong>GetScrollPos</strong></a>函式會在指定的捲軸中， (thumb) 來抓取捲動方塊的目前位置。 目前的位置是相依于目前滾動範圍的相對值。 例如，如果滾動的範圍是0到100，而且捲動方塊位於橫條的中間，則目前的位置是50。<blockquote>[!Note]<br /><a href="/windows/desktop/api/Winuser/nf-winuser-getscrollpos"><strong>GetScrollPos</strong></a>函式是為了與舊版相容而提供。 新的應用程式應該使用 <a href="/windows/desktop/api/Winuser/nf-winuser-getscrollinfo"><strong>GetScrollInfo</strong></a> 函數。</blockquote><br /><br /> | 
+| <a href="/windows/desktop/api/Winuser/nf-winuser-getscrollrange"><strong>GetScrollRange</strong></a> | <a href="/windows/desktop/api/Winuser/nf-winuser-getscrollrange"><strong>GetScrollRange</strong></a>函式會抓取指定捲軸的目前最小和最大捲動方塊 (thumb) 位置。<blockquote>[!Note]<br /><a href="/windows/desktop/api/Winuser/nf-winuser-getscrollrange"><strong>GetScrollRange</strong></a>函式僅提供相容性。 新的應用程式應該使用 <a href="/windows/desktop/api/Winuser/nf-winuser-getscrollinfo"><strong>GetScrollInfo</strong></a> 函數。</blockquote><br /><br /> | 
+| <a href="/windows/desktop/api/Winuser/nf-winuser-scrolldc"><strong>ScrollDC</strong></a> | <a href="/windows/desktop/api/Winuser/nf-winuser-scrolldc"><strong>ScrollDC</strong></a>函式會水準且垂直地滾動位數的矩形。 <br /> | 
+| <a href="/windows/desktop/api/Winuser/nf-winuser-scrollwindow"><strong>ScrollWindow</strong></a> | <a href="/windows/desktop/api/Winuser/nf-winuser-scrollwindow"><strong>ScrollWindow</strong></a>函式會滾動指定之視窗工作區的內容。<blockquote>[!Note]<br /><a href="/windows/desktop/api/Winuser/nf-winuser-scrollwindow"><strong>ScrollWindow</strong></a>函式是為了與舊版相容而提供。 新的應用程式應該使用 <a href="/windows/desktop/api/Winuser/nf-winuser-scrollwindowex"><strong>ScrollWindowEx</strong></a> 函數。</blockquote><br /><br /> | 
+| <a href="/windows/desktop/api/Winuser/nf-winuser-scrollwindowex"><strong>ScrollWindowEx</strong></a> | <a href="/windows/desktop/api/Winuser/nf-winuser-scrollwindowex"><strong>ScrollWindowEx</strong></a>函式會滾動指定之視窗工作區的內容。 <br /> | 
+| <a href="/windows/desktop/api/Winuser/nf-winuser-setscrollinfo"><strong>SetScrollInfo</strong></a> | <a href="/windows/desktop/api/Winuser/nf-winuser-setscrollinfo"><strong>SetScrollInfo</strong></a>函式會設定捲軸的參數，包括最小和最大滾動位置、頁面大小，以及捲動方塊 (thumb) 的位置。 如果有要求，函式也會重新繪製捲軸。<br /> | 
+| <a href="/windows/desktop/api/Winuser/nf-winuser-setscrollpos"><strong>SetScrollPos</strong></a> | <a href="/windows/desktop/api/Winuser/nf-winuser-setscrollpos"><strong>SetScrollPos</strong></a>函式會在指定的捲軸中設定捲動方塊 (thumb) 的位置，並在要求時，重新繪製捲軸以反映捲動方塊的新位置。<blockquote>[!Note]<br /><a href="/windows/desktop/api/Winuser/nf-winuser-setscrollpos"><strong>SetScrollPos</strong></a>函式是為了與舊版相容而提供。 新的應用程式應該使用 <a href="/windows/desktop/api/Winuser/nf-winuser-setscrollinfo"><strong>SetScrollInfo</strong></a> 函數。</blockquote><br /><br /> | 
+| <a href="/windows/desktop/api/Winuser/nf-winuser-setscrollrange"><strong>SetScrollRange</strong></a> | <a href="/windows/desktop/api/Winuser/nf-winuser-setscrollrange"><strong>SetScrollRange</strong></a>函式會設定指定捲軸的最小和最大捲動方塊位置。<blockquote>[!Note]<br /><a href="/windows/desktop/api/Winuser/nf-winuser-setscrollrange"><strong>SetScrollRange</strong></a>函式是為了與舊版相容而提供。 新的應用程式應該使用 <a href="/windows/desktop/api/Winuser/nf-winuser-setscrollinfo"><strong>SetScrollInfo</strong></a> 函數。</blockquote><br /><br /> | 
+| <a href="/windows/desktop/api/Winuser/nf-winuser-showscrollbar"><strong>ShowScrollBar</strong></a> | <a href="/windows/desktop/api/Winuser/nf-winuser-showscrollbar"><strong>ShowScrollBar</strong></a>函式會顯示或隱藏指定的捲軸。 <br /> | 
+
 
 
 

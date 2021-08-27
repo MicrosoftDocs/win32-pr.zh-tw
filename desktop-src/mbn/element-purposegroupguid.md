@@ -7,12 +7,12 @@ MSHAttr:
 title: PurposeGroupGuid
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 29ead67e44ac4735d17d97580b6bce5f187422994c9854bac19febf7a988bcbf
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: a704d035371d6d7febc2f2d86e4d67736ab02ad2
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119358830"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122985410"
 ---
 # <a name="span-idwwan_profile_v4element_purposegroupguidspanpurposegroupguid"></a><span id="WWAN_profile_v4.element_PurposeGroupGuid"></span>PurposeGroupGuid
 
@@ -33,9 +33,9 @@ ms.locfileid: "119358830"
 
 ## <a name="element-hierarchy"></a>元素階層
 
-[<MBNProfileExt>](element-mbnprofileext.md)  
-[<PurposeGroups>](element-purposegroups.md)  
-**<PurposeGroupGuid>**
+[&lt;MBNProfileExt&gt;](element-mbnprofileext.md)  
+[&lt;PurposeGroups&gt;](element-purposegroups.md)  
+**&lt;PurposeGroupGuid&gt;**
 
 ## <a name="syntax"></a>Syntax
 
@@ -59,43 +59,21 @@ ms.locfileid: "119358830"
 
 ### <a name="span-idparent_elementsspanspan-idparent_elementsspanparent-elements"></a><span id="parent_elements"></span><span id="PARENT_ELEMENTS"></span>父元素
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Parent 項目</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="element-purposegroups.md">PurposeGroups</a></td>
-<td><p>選用的設定檔群組清單，其中每個群組都包含用於一般用途的設定檔。</p>
-<p>此元素是架構 v4 的新專案。</p>
-<p>一個設定檔可以列在多個群組中。</p></td>
-</tr>
-</tbody>
-</table>
+
+| Parent 項目 | Description | 
+|----------------|-------------|
+| <a href="element-purposegroups.md">PurposeGroups</a> | <p>選用的設定檔群組清單，其中每個群組都包含用於一般用途的設定檔。</p><p>此元素是架構 v4 的新專案。</p><p>一個設定檔可以列在多個群組中。</p> | 
+
 
  
 
 ## <a name="requirements"></a>規格需求
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>命名空間</p></td>
-<td><p>https://www.microsoft.com/networking/WWAN/profile/v4</p></td>
-</tr>
-</tbody>
-</table>
+
+| 需求 | 值 |
+|------------|----------|
+| <p>命名空間</p> | <p>https://www.microsoft.com/networking/WWAN/profile/v4</p> | 
+
 
  
 

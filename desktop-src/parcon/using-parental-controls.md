@@ -4,12 +4,12 @@ ms.assetid: b9568fbc-721e-4d3b-8c80-b04e62e3bfdd
 title: 使用家長監護
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3f3f5d9c007a8a41c67f813dde99a899e519dd73
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 48055e307f0f93ac6cec2b9ab5a471bd5d9bc0f543fc8b81b0c9fcd84e44ebee
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106992039"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120112758"
 ---
 # <a name="using-parental-controls"></a>使用家長監護
 

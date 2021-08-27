@@ -4,12 +4,12 @@ ms.assetid: 7e5c8444-b3ee-4e9c-984f-13d54f2bbfc0
 title: 使用泛型主機和用戶端來取得 HTTP 中繼資料 Exchange
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d6623b39989b613e725fb2103165c825425f20b53a4375d6791aa92cd3b99187
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 10040f4834df1a77115a361d23d82ec3dfcc6c57
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120030078"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122883172"
 ---
 # <a name="using-a-generic-host-and-client-for-http-metadata-exchange"></a>使用泛型主機和用戶端來取得 HTTP 中繼資料 Exchange
 
@@ -38,7 +38,7 @@ ms.locfileid: "120030078"
     Host metadata>
     ```
 
-3.  執行下列命令： **WSDDebug \_client.exe/mode metadata/hello off/resolve** *<id>* 。 取代 *<id>* 為在步驟2中識別的裝置識別碼。
+3.  執行下列命令： **WSDDebug \_client.exe/mode metadata/hello off/resolve** *&lt; id &gt;*。 將 *&lt; 識別碼 &gt;* 取代為步驟2中識別的裝置識別碼。
     > [!Note]  
     > 可能會出現 **Windows 安全性警示**] 對話方塊。 如果是，請按一下 [ **解除封鎖** ]，以允許 WSD Debug 用戶端執行。
 
@@ -98,7 +98,7 @@ End of metadata
 Client metadata>
 ```
 
-WSD Debug 用戶端可能會在具有許多 DPWS 裝置的網路上產生大量的輸出。 輸出可以重新導向至檔案，以方便分析。 在 WSD Debug Client 提示字元中輸入 **log t** *<filename>* ，以將輸出重新導向至檔案。 在 WSD Debug 用戶端提示字元中輸入 **log t stop** ，即可停止輸出重新導向。
+WSD Debug 用戶端可能會在具有許多 DPWS 裝置的網路上產生大量的輸出。 輸出可以重新導向至檔案，以方便分析。 在 WSD Debug Client 提示字元中輸入 **log t** *&lt; 檔案名 &gt;* ，以將輸出重新導向至檔案。 在 WSD Debug 用戶端提示字元中輸入 **log t stop** ，即可停止輸出重新導向。
 
 請記下 (EPR) 位址的端點參考。 此 EPR 位址應符合上述步驟2中識別的裝置識別碼。 此外，請確認 WSD 偵錯工具用戶端已完全列印裝置的中繼資料。 裝置中繼資料的開頭 `Metadata for host` 和結尾是 `End of metadata` 。
 

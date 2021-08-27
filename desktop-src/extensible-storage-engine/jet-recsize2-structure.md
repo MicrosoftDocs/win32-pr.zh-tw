@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 0b99f5aa60f90a753a9c5d095e7a63417485b1fd
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: c187d57149b7f0589d56439bfacbf7129ab4fe4a
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122469835"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122987831"
 ---
 # <a name="jet_recsize2-structure"></a>JET_RECSIZE2 結構
 
@@ -112,7 +112,11 @@ _**適用于：** Windows |Windows伺服器_
 ### <a name="requirements"></a>規格需求
 
 
-| | | <p><strong>用戶端</strong></p> | <p>需要 Windows Vista 作業系統。</p> | | <p><strong>伺服器</strong></p> | <p>需要 Windows Server 2008 作業系統。</p> | | <p><strong>標頭</strong></p> | <p>宣告于 Esent. h 中。</p> | 
+| 需求 | 值 |
+|------------|----------|
+| <p><strong>用戶端</strong></p> | <p>需要 Windows Vista 作業系統。</p> | 
+| <p><strong>伺服器</strong></p> | <p>需要 Windows Server 2008 作業系統。</p> | 
+| <p><strong>標頭</strong></p> | <p>宣告于 Esent. h 中。</p> | 
 
 
 

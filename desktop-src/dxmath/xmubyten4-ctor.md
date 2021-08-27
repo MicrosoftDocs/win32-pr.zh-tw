@@ -11,12 +11,12 @@ api_name: ''
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: d9c2951809241ed4a53ebbdf56006e6bc25703fb0962102e43d176efdf819e28
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7939bb633f75f10d0e7fa8c38b4f44b24fa09b1c
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119117979"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122474154"
 ---
 # <a name="xmubyten4-constructors"></a>XMUBYTEN4 函式
 
@@ -33,74 +33,16 @@ ms.locfileid: "119117979"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">建構函式</th>
-<th style="text-align: left;">描述</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmubyten4-xmubyten4(constfloat)"><strong>XMUBYTEN4 () </strong></a></td>
-<td style="text-align: left;">的預設函數 <code>XMUBYTEN4</code><br/> XMUBYTEN4 的預設函式<a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmubyten4"> <strong></strong></a><br/>
-<blockquote>
-[!Note]<br />
-這個函式僅適用于 c + +。
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmubyten4-xmubyten4(uint32_t)"><strong>XMUBYTEN4 (uint32_t) </strong></a></td>
-<td style="text-align: left;"><code>XMUBYTEN4</code>從 <code>uint32_t</code> 包含封裝格式之元件資料的變數，初始化的新實例。 <br/> 這個函式會從包含封裝格式之元件資料的變數，初始化 <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmubyten4"><strong>XMUBYTEN4</strong></a> 的新實例 <code>uint32_t</code> 。 <br/>
-<blockquote>
-[!Note]<br />
-這個函式僅適用于 c + +。
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmubyten4-xmubyten4(constfloat)"><strong>XMUBYTEN4 (const float * ) </strong></a></td>
-<td style="text-align: left;"><code>XMUBYTEN4</code>從四個元素陣列引數，初始化的新實例 <code>float</code> 。 <br/> 這個函式會從四個元素陣列引數，初始化 <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmubyten4"><strong>XMUBYTEN4</strong></a> 的新實例 <code>float</code> 。 <br/>
-<blockquote>
-[!Note]<br />
-這個函式僅適用于 c + +。
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmubyten4-xmubyten4(constuint8_t)"><strong>XMUBYTEN4 (const uint8_t * ) </strong></a></td>
-<td style="text-align: left;"><code>XMUBYTE4</code>從四個元素陣列引數，初始化的新實例 <code>uint8_t</code> 。<br/> 這個函式會從四個元素陣列引數，初始化 <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmubyten4"><strong>XMUBYTEN4</strong></a> 的新實例 <code>uint8_t</code> 。<br/>
-<blockquote>
-[!Note]<br />
-這個函式僅適用于 c + +。
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmubyten4-xmubyten4(float_float_float_float)"><strong>XMUBYTEN4 (float、float、float、float) </strong></a></td>
-<td style="text-align: left;"><code>XMUBYTEN4</code>從四個引數初始化的新實例 <code>float</code> 。 <br/> 這個函式會從四個引數初始化 <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmubyten4"><strong>XMUBYTEN4</strong></a> 的新實例 <code>float</code> 。 <br/>
-<blockquote>
-[!Note]<br />
-這個函式僅適用于 c + +。
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmubyten4-xmubyten4(uint8_t_uint8_t_uint8_t_uint8_t)"><strong>XMUBYTEN4 (uint8_t、uint8_t、uint8_t uint8_t) </strong></a></td>
-<td style="text-align: left;"><code>XMUBYTEN4</code>從四個引數初始化的新實例 <code>uint8_t</code> 。 <br/> 這個函式會從四個引數初始化 <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmubyten4"><strong>XMUBYTEN4</strong></a> 的新實例 <code>uint8_t</code> 。 <br/>
-<blockquote>
-[!Note]<br />
-這個函式僅適用于 c + +。
-</blockquote>
-<br/></td>
-</tr>
-</tbody>
-</table>
+
+| 建構函式 | 描述 | 
+|-------------|-------------|
+| <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmubyten4-xmubyten4(constfloat)"><strong>XMUBYTEN4 () </strong></a> | 的預設函數 <code>XMUBYTEN4</code><br /> XMUBYTEN4 的預設函式<a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmubyten4"> <strong></strong></a><br /><blockquote>[!Note]<br />這個函式僅適用于 c + +。</blockquote><br /> | 
+| <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmubyten4-xmubyten4(uint32_t)"><strong>XMUBYTEN4 (uint32_t) </strong></a> | <code>XMUBYTEN4</code>從 <code>uint32_t</code> 包含封裝格式之元件資料的變數，初始化的新實例。 <br /> 這個函式會從包含封裝格式之元件資料的變數，初始化 <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmubyten4"><strong>XMUBYTEN4</strong></a> 的新實例 <code>uint32_t</code> 。 <br /><blockquote>[!Note]<br />這個函式僅適用于 c + +。</blockquote><br /> | 
+| <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmubyten4-xmubyten4(constfloat)"><strong>XMUBYTEN4 (const float * ) </strong></a> | <code>XMUBYTEN4</code>從四個元素陣列引數，初始化的新實例 <code>float</code> 。 <br /> 這個函式會從四個元素陣列引數，初始化 <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmubyten4"><strong>XMUBYTEN4</strong></a> 的新實例 <code>float</code> 。 <br /><blockquote>[!Note]<br />這個函式僅適用于 c + +。</blockquote><br /> | 
+| <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmubyten4-xmubyten4(constuint8_t)"><strong>XMUBYTEN4 (const uint8_t * ) </strong></a> | <code>XMUBYTE4</code>從四個元素陣列引數，初始化的新實例 <code>uint8_t</code> 。<br /> 這個函式會從四個元素陣列引數，初始化 <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmubyten4"><strong>XMUBYTEN4</strong></a> 的新實例 <code>uint8_t</code> 。<br /><blockquote>[!Note]<br />這個函式僅適用于 c + +。</blockquote><br /> | 
+| <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmubyten4-xmubyten4(float_float_float_float)"><strong>XMUBYTEN4 (float、float、float、float) </strong></a> | <code>XMUBYTEN4</code>從四個引數初始化的新實例 <code>float</code> 。 <br /> 這個函式會從四個引數初始化 <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmubyten4"><strong>XMUBYTEN4</strong></a> 的新實例 <code>float</code> 。 <br /><blockquote>[!Note]<br />這個函式僅適用于 c + +。</blockquote><br /> | 
+| <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmubyten4-xmubyten4(uint8_t_uint8_t_uint8_t_uint8_t)"><strong>XMUBYTEN4 (uint8_t、uint8_t、uint8_t uint8_t) </strong></a> | <code>XMUBYTEN4</code>從四個引數初始化的新實例 <code>uint8_t</code> 。 <br /> 這個函式會從四個引數初始化 <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmubyten4"><strong>XMUBYTEN4</strong></a> 的新實例 <code>uint8_t</code> 。 <br /><blockquote>[!Note]<br />這個函式僅適用于 c + +。</blockquote><br /> | 
+
 
 
 

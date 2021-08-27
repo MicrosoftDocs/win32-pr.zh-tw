@@ -4,12 +4,12 @@ ms.assetid: 827ac817-e0e6-4750-9d48-b939ccd5e679
 title: 外掛程式資料和 RealTimeStylus 類別
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 372b3d297edbad6d339285f45e92118184fa2cfc
-ms.sourcegitcommit: ee06501cc29132927ade9813e0888aaa4decc487
+ms.openlocfilehash: dac0540d90f291acfef27a09df08ffff645c280d
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "104550743"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122480964"
 ---
 # <a name="plug-in-data-and-the-realtimestylus-class"></a>外掛程式資料和 RealTimeStylus 類別
 
@@ -93,80 +93,19 @@ ms.locfileid: "104550743"
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><a href="/previous-versions/ms827134(v=msdn.10)">SystemGesture</a></th>
-<th><a href="/previous-versions/ms824019(v=msdn.10)">SystemGestureData</a>物件之前的物件</th>
-<th>位於 <a href="/previous-versions/ms824019(v=msdn.10)">SystemGestureData</a> 物件之後的物件</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>點選</strong></td>
-<td><a href="/previous-versions/ms824107(v=msdn.10)">StylusDownData</a>物件。<br/></td>
-<td>[StylusUpData](/previous-versions/ms824057(v=msdn.10))物件。<br/></td>
-</tr>
-<tr class="even">
-<td><strong>DoubleTap</strong></td>
-<td><a href="/previous-versions/ms824107(v=msdn.10)">StylusDownData</a>物件，用來點<strong>一下系統手勢</strong>和[StylusUpData](/previous-versions/ms824057(v=msdn.10))物件的<a href="/previous-versions/ms824019(v=msdn.10)">SystemGestureData</a>物件。<br/></td>
-<td>第二個 <a href="/previous-versions/ms824107(v=msdn.10)">StylusDownData</a> 物件。<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>RightTap</strong></td>
-<td><a href="/previous-versions/ms827134(v=msdn.10)">SystemGesure</a>列舉之<strong>HoldEnter</strong>成員的<a href="/previous-versions/ms824107(v=msdn.10)">StylusDownData</a>物件和<a href="/previous-versions/ms824019(v=msdn.10)">SystemGestureData</a>物件。<br/></td>
-<td>[StylusUpData](/previous-versions/ms824057(v=msdn.10))物件。<br/></td>
-</tr>
-<tr class="even">
-<td><strong>拖曳</strong></td>
-<td><a href="/previous-versions/ms824107(v=msdn.10)">StylusDownData</a>物件。<br/></td>
-<td>[StylusUpData](/previous-versions/ms824057(v=msdn.10))物件。<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>RightDrag</strong></td>
-<td><a href="/previous-versions/ms824107(v=msdn.10)">StylusDownData</a>物件。<br/></td>
-<td>[StylusUpData](/previous-versions/ms824057(v=msdn.10))物件。<br/></td>
-</tr>
-<tr class="even">
-<td><strong>HoldEnter</strong></td>
-<td><a href="/previous-versions/ms824107(v=msdn.10)">StylusDownData</a>物件。<br/></td>
-<td>[StylusUpData](/previous-versions/ms824057(v=msdn.10))物件。<br/>
-<blockquote>
-[!Note]<br />
-如果使用者開始 <strong>拖曳</strong> 或 <strong>RightDrag</strong> 系統手勢，則無法辨識此系統手勢。
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>HoldLeave</strong></td>
-<td>未實作。<br/></td>
-<td>未實作。<br/></td>
-</tr>
-<tr class="even">
-<td><strong>HoverEnter</strong></td>
-<td>數個低平均速度的 <a href="/previous-versions/ms824592(v=msdn.10)">InAirPacketsData</a> 物件。<br/></td>
-<td><blockquote>
-[!Note]<br />
-在接收 <strong>HoverEnter</strong> 系統手勢之前，可能會有明顯的延遲。 如果已將<strong>realtimestylus</strong>物件附加至視窗或控制項，而該視窗或控制項在系統手勢時直接位於畫筆下，則<a href="realtimestylus-class.md"><strong>realtimestylus</strong></a>物件只會收到此資料。
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>HoverLeave</strong></td>
-<td>適用于<strong>HoverEnter</strong>系統手勢的<a href="/previous-versions/ms824019(v=msdn.10)">SystemGestureData</a>物件，以及數個具有足夠平均速度的<a href="/previous-versions/ms824592(v=msdn.10)">InAirPacketsData</a>物件。<br/></td>
-<td><blockquote>
-[!Note]<br />
-在接收 <strong>HoverLeave</strong> 系統手勢之前，可能會有明顯的延遲。 如果已將<strong>realtimestylus</strong>物件附加至視窗或控制項，而該視窗或控制項在系統手勢時直接位於畫筆下，則<a href="realtimestylus-class.md"><strong>realtimestylus</strong></a>物件只會收到此資料。
-</blockquote>
-<br/></td>
-</tr>
-</tbody>
-</table>
+
+| <a href="/previous-versions/ms827134(v=msdn.10)">SystemGesture</a> | <a href="/previous-versions/ms824019(v=msdn.10)">SystemGestureData</a>物件之前的物件 | 位於 <a href="/previous-versions/ms824019(v=msdn.10)">SystemGestureData</a> 物件之後的物件 | 
+|--------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|
+| <strong>點選</strong> | <a href="/previous-versions/ms824107(v=msdn.10)">StylusDownData</a>物件。<br /> | [StylusUpData](/previous-versions/ms824057(v=msdn.10))物件。<br /> | 
+| <strong>DoubleTap</strong> | <a href="/previous-versions/ms824107(v=msdn.10)">StylusDownData</a>物件，用來點<strong>一下系統手勢</strong>和[StylusUpData](/previous-versions/ms824057(v=msdn.10))物件的<a href="/previous-versions/ms824019(v=msdn.10)">SystemGestureData</a>物件。<br /> | 第二個 <a href="/previous-versions/ms824107(v=msdn.10)">StylusDownData</a> 物件。<br /> | 
+| <strong>RightTap</strong> | <a href="/previous-versions/ms827134(v=msdn.10)">SystemGesure</a>列舉之<strong>HoldEnter</strong>成員的<a href="/previous-versions/ms824107(v=msdn.10)">StylusDownData</a>物件和<a href="/previous-versions/ms824019(v=msdn.10)">SystemGestureData</a>物件。<br /> | [StylusUpData](/previous-versions/ms824057(v=msdn.10))物件。<br /> | 
+| <strong>拖曳</strong> | <a href="/previous-versions/ms824107(v=msdn.10)">StylusDownData</a>物件。<br /> | [StylusUpData](/previous-versions/ms824057(v=msdn.10))物件。<br /> | 
+| <strong>RightDrag</strong> | <a href="/previous-versions/ms824107(v=msdn.10)">StylusDownData</a>物件。<br /> | [StylusUpData](/previous-versions/ms824057(v=msdn.10))物件。<br /> | 
+| <strong>HoldEnter</strong> | <a href="/previous-versions/ms824107(v=msdn.10)">StylusDownData</a>物件。<br /> | [StylusUpData](/previous-versions/ms824057(v=msdn.10))物件。<br /><blockquote>[!Note]<br />如果使用者開始 <strong>拖曳</strong> 或 <strong>RightDrag</strong> 系統手勢，則無法辨識此系統手勢。</blockquote><br /> | 
+| <strong>HoldLeave</strong> | 未實作。<br /> | 未實作。<br /> | 
+| <strong>HoverEnter</strong> | 數個低平均速度的 <a href="/previous-versions/ms824592(v=msdn.10)">InAirPacketsData</a> 物件。<br /> | <blockquote>[!Note]<br />在接收 <strong>HoverEnter</strong> 系統手勢之前，可能會有明顯的延遲。 如果已將<strong>realtimestylus</strong>物件附加至視窗或控制項，而該視窗或控制項在系統手勢時直接位於畫筆下，則<a href="realtimestylus-class.md"><strong>realtimestylus</strong></a>物件只會收到此資料。</blockquote><br /> | 
+| <strong>HoverLeave</strong> | 適用于<strong>HoverEnter</strong>系統手勢的<a href="/previous-versions/ms824019(v=msdn.10)">SystemGestureData</a>物件，以及數個具有足夠平均速度的<a href="/previous-versions/ms824592(v=msdn.10)">InAirPacketsData</a>物件。<br /> | <blockquote>[!Note]<br />在接收 <strong>HoverLeave</strong> 系統手勢之前，可能會有明顯的延遲。 如果已將<strong>realtimestylus</strong>物件附加至視窗或控制項，而該視窗或控制項在系統手勢時直接位於畫筆下，則<a href="realtimestylus-class.md"><strong>realtimestylus</strong></a>物件只會收到此資料。</blockquote><br /> | 
+
 
 
 

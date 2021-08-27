@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2fa08d1eb3cbb8086149192e6ecd5fa3880f01e6cfa1800468d2825c243b211e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c2f2cc1014b081ac13183144fca34c2087539de0
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119803307"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122885710"
 ---
 # <a name="ms-frs-hub-member-attribute"></a>ms-FRS-Hub 成員屬性
 
@@ -57,7 +57,7 @@ ms.locfileid: "119803307"
 | 連結識別碼                | 1046                                                      |
 | MAPI-Id                | \-                                                        |
 | System-Only            | 否                                                     |
-| 是-單一值       | 是                                                      |
+| 是-單一值       | 對                                                      |
 | 已編制索引             | 否                                                     |
 | 在通用類別目錄中      | 否                                                     |
 | NT-Security-描述元 | O:BAG：不正確： S：                                              |
@@ -78,7 +78,7 @@ ms.locfileid: "119803307"
 | 連結識別碼                | 1046                                                      |
 | MAPI-Id                | \-                                                        |
 | System-Only            | 否                                                     |
-| 是-單一值       | 是                                                      |
+| 是-單一值       | 對                                                      |
 | 已編制索引             | 否                                                     |
 | 在通用類別目錄中      | 否                                                     |
 | NT-Security-描述元 | O:BAG：不正確： S：                                              |
@@ -99,7 +99,7 @@ ms.locfileid: "119803307"
 | 連結識別碼                | 1046                                                      |
 | MAPI-Id                | \-                                                        |
 | System-Only            | 否                                                     |
-| 是-單一值       | 是                                                      |
+| 是-單一值       | 對                                                      |
 | 已編制索引             | 否                                                     |
 | 在通用類別目錄中      | 否                                                     |
 | NT-Security-描述元 | O:BAG：不正確： S：                                              |
@@ -120,7 +120,7 @@ ms.locfileid: "119803307"
 | 連結識別碼                | 1046                                                      |
 | MAPI-Id                | \-                                                        |
 | System-Only            | 否                                                     |
-| 是-單一值       | 是                                                      |
+| 是-單一值       | 對                                                      |
 | 已編制索引             | 否                                                     |
 | 在通用類別目錄中      | 否                                                     |
 | NT-Security-描述元 | O:BAG：不正確： S：                                              |
@@ -141,7 +141,7 @@ ms.locfileid: "119803307"
 | 連結識別碼                | 1046                                                      |
 | MAPI-Id                | \-                                                        |
 | System-Only            | 否                                                     |
-| 是-單一值       | 是                                                      |
+| 是-單一值       | 對                                                      |
 | 已編制索引             | 否                                                     |
 | 在通用類別目錄中      | 否                                                     |
 | NT-Security-描述元 | O:BAG：不正確： S：                                              |
@@ -155,7 +155,7 @@ ms.locfileid: "119803307"
 
 ## <a name="remarks"></a>備註
 
-這是 [**NTFRS 成員**](c-ntfrsmember.md) 物件的完整分辨名稱。 辨別名稱的格式為 "CN = *<computerGuid>* ，cn = *<Dfs Link Name>* ，cn = *<Dfs Root name>* ，Cn = DFS 磁片區，Cn = File REPLICATION Service，cn = System，DC = ..."
+這是 [**NTFRS 成員**](c-ntfrsmember.md) 物件的完整分辨名稱。 辨別名稱的格式為 "CN =*&lt; computerGuid &gt;*，cn = *<Dfs Link Name>* ，CN = *<Dfs Root name>* ，CN = DFS 磁片區，CN = File Replication SERVICE，cn = System，DC = ..."
 
  
 

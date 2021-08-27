@@ -4,19 +4,19 @@ description: 本主題說明 VML，這是 Windows Internet Explorer 9 淘汰的�
 ms.assetid: 68a84c68-3aac-4971-9611-45f52e057708
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c387935119babc73442e9b8f307672925bdf71d3
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 092190bc12a4c2cc8c15817529a16524f17bdef1
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111444819"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122624304"
 ---
 # <a name="vml-object-model-reference"></a>VML 物件模型參考
 
 本主題說明 VML，這是 Windows Internet Explorer 9 淘汰的功能。 依賴 VML 的網頁和應用程式應該遷移至 SVG 或其他廣泛支援的標準。
 
 > [!Note]  
-> 從2011年12月起，本主題已封存。 因此，它不會再主動維護。 如需詳細資訊，請參閱封存的 [內容](/previous-versions/windows/internet-explorer/ie-developer/)。 如需目前 Windows Internet Explorer 版本的相關資訊、建議和指引，請參閱 [Internet Explorer 開發人員中心](https://msdn.microsoft.com/ie/)。
+> 從2011年12月起，本主題已封存。 因此，它不會再主動維護。 如需詳細資訊，請參閱封存的 [內容](/previous-versions/windows/internet-explorer/ie-developer/)。 如需有關 Windows Internet Explorer 目前版本的資訊、建議和指引，請參閱[Internet Explorer 開發人員中心](https://msdn.microsoft.com/ie/)。
 
  
 
@@ -139,7 +139,7 @@ R.FillColor = "red"
 
 
 
-請注意，在 Beta 版中，必須要有 ActiveX 物件標記和不同的行為樣式。
+請注意，在 Beta 版中，需要 ActiveX 的物件標記和不同的行為樣式。
 
 ## <a name="vml-om-reference"></a>VML OM 參考
 
@@ -166,7 +166,7 @@ VML 提供預先定義的圖形：
 |--------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 形容詞          | [IVgAdjustments](msdn-online-vml-ivgadjustments-data-type.md)。 以逗號分隔的數位清單，這些是用來定義圖形路徑之指南公式的參數。 可能會省略值以允許使用預設值。 最多可以有8個調整值。                                                                                                   |
 | Alt          | 字串。 與圖形相關聯的替代文字。 用於非圖形化流覽。                                                                                                                                                                                                                                                                                                 |
-| 按鈕       | [VgTriState](msdn-online-vml-vgtristate.md)。 按一下時，會顯示按鈕的行為。                                                                                                                                                                                                                                                                                                 |
+| Button       | [VgTriState](msdn-online-vml-vgtristate.md)。 按一下時，會顯示按鈕的行為。                                                                                                                                                                                                                                                                                                 |
 | BWMode       | [VgBlackWhiteMode](msdn-online-vml-vgblackwhitemode.md)。 決定在應用程式中，或列印到黑白印表機時，圖形會以黑白方式呈現。 值包括： **Color**、 **Auto**、 **灰階**、 **LightGrayScale**、 **InverseGray**、 **GrayOutline**、 **BlackTextAndLines**、 **systeminformation.highcontrast**、 **黑色**、 **白色**、 **Undrawn**。 預設值： **Auto**。 |
 | BWNormal     | VgBlackWhiteMode. 當 BWMode 為 Auto 時，會參考此屬性以瞭解如何以一般黑色和白色呈現圖形。 值包括： **Color**、 **Auto**、 **灰階**、 **LightGrayScale**、 **InverseGray**、 **GrayOutline**、 **BlackTextAndLines**、 **systeminformation.highcontrast**、 **黑色**、 **白色**、 **Undrawn**。 預設值： **Auto**。                                                |
 | BWPure       | VgBlackWhiteMode. 當 BWMode 為 Auto 時，會參考此屬性以瞭解如何以純 B/W 呈現圖形。 值包括： **Color**、 **Auto**、 **灰階**、 **LightGrayScale**、 **InverseGray**、 **GrayOutline**、 **BlackTextAndLines**、 **systeminformation.highcontrast**、 **黑色**、 **白色**、 **Undrawn**。 預設值： **Auto**。                                                              |
@@ -251,8 +251,8 @@ VML 提供預先定義的圖形：
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -347,8 +347,8 @@ VML 提供預先定義的圖形：
 <td>飛機</td>
 <td>Vg3DExtrudePlane. 允許從平面與螢幕平面垂直的拉伸。 需要以繪圖單位（而非 emus）指定 ForeDepth 和 BackDepth。 值為：
 <ul>
-<li>Xy</li>
-<li>Zx</li>
+<li>XY</li>
+<li>ZX</li>
 <li>YZ</li>
 </ul></td>
 </tr>
@@ -418,8 +418,8 @@ VML 提供預先定義的圖形：
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -486,7 +486,7 @@ VML 提供預先定義的圖形：
 <td>方法</td>
 <td>VgSigmaType. 數值包括：
 <ul>
-<li>None</li>
+<li>無</li>
 <li>線性</li>
 <li>Sigma</li>
 <li>任意</li>
@@ -593,8 +593,8 @@ VML 提供預先定義的圖形：
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -716,8 +716,8 @@ VML 提供預先定義的圖形：
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -800,8 +800,8 @@ VML 提供預先定義的圖形：
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -1104,7 +1104,7 @@ VML 物件模型會使用下列資料類型。
 | 屬性 | 描述                                                                                                                                                                                                                                                                                                                                                                    |
 |------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Exists     | [IVgTriState](msdn-online-vml-vgtristate.md)。 判斷指定的調整是否存在。 請注意，必須使用索引;也就是說， ( 專案 ) 必須用來取出專案的存在。                                                                                                                                                                   |
-| 項目       | [Long](#data-types-used-in-the-vml-object-model)。 從0到7的索引調整陣列。 請注意，可能會 sparcely 指定調整;也就是說，中繼陣列值可能不一定會填滿。 例如，專案1、3和5的值可能是3，而專案 (0) 、專案 (2) 和專案 (4) 指定。 若要查看專案是否存在，請使用 Exists 屬性。 |
+| Item       | [Long](#data-types-used-in-the-vml-object-model)。 從0到7的索引調整陣列。 請注意，可能會 sparcely 指定調整;也就是說，中繼陣列值可能不一定會填滿。 例如，專案1、3和5的值可能是3，而專案 (0) 、專案 (2) 和專案 (4) 指定。 若要查看專案是否存在，請使用 Exists 屬性。 |
 | 長度     | [Integer](#data-types-used-in-the-vml-object-model) (整數)。 調整的數目。 不能大於8。                                                                                                                                                                                                                                                                          |
 | 值      | [字串](#data-types-used-in-the-vml-object-model)。 數值的文字標記法，每個數位之間都有逗號。                                                                                                                                                                                                                                                    |
 
@@ -1120,8 +1120,8 @@ VML 物件模型會使用下列資料類型。
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -1193,8 +1193,8 @@ VML 物件模型會使用下列資料類型。
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -1368,7 +1368,7 @@ VML 物件模型會使用下列資料類型。
 |------------|-------------------------------------------------------------------------------------------------------------|
 | 值      | [字串](#data-types-used-in-the-vml-object-model)。 陣列的文字標記法。                           |
 | 長度     | [Integer](#data-types-used-in-the-vml-object-model) (整數)。 此陣列中的矩形數目。                    |
-| 項目       | [IVgFixedRectangle](#data-types-used-in-the-vml-object-model)。 位於指定索引處的矩形物件。 |
+| Item       | [IVgFixedRectangle](#data-types-used-in-the-vml-object-model)。 位於指定索引處的矩形物件。 |
 
 
 
@@ -1397,7 +1397,7 @@ VML 物件模型會使用下列資料類型。
 | 屬性 | 描述                                                                                                                                  |
 |------------|----------------------------------------------------------------------------------------------------------------------------------------------|
 | 長度     | [Integer](#data-types-used-in-the-vml-object-model) (整數)。 集合中的公式物件數目。                                                |
-| 項目       | [IVgFormula](#data-types-used-in-the-vml-object-model)。 特定的公式。 請注意，公式陣列可能會繼承從圖形類型。 |
+| Item       | [IVgFormula](#data-types-used-in-the-vml-object-model)。 特定的公式。 請注意，公式陣列可能會繼承從圖形類型。 |
 
 
 
@@ -1439,7 +1439,7 @@ VML 物件模型會使用下列資料類型。
 |------------|---------------------------------------------------------------------------------------------|
 | 值      | [字串](#data-types-used-in-the-vml-object-model)。 陣列的文字標記法。           |
 | 長度     | [Integer](#data-types-used-in-the-vml-object-model) (整數)。 此陣列中的點數目。        |
-| 項目       | [IVgVector2D](msdn-online-vml-ivgvector2d-data-type.md)。 指定之索引處的點。 |
+| Item       | [IVgVector2D](msdn-online-vml-ivgvector2d-data-type.md)。 指定之索引處的點。 |
 
 
 
@@ -1472,8 +1472,8 @@ VML 物件模型會使用下列資料類型。
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -1533,8 +1533,8 @@ VML 物件模型會使用下列資料類型。
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -1581,8 +1581,8 @@ VML 物件模型會使用下列資料類型。
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">

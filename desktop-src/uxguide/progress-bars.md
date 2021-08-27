@@ -4,12 +4,12 @@ description: 使用進度列時，使用者可以追蹤長時間操作的進度�
 ms.assetid: 067961fa-2fb1-4cd1-99a4-cbe2244c3913
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: b62240da0df0b284e8a5f7175131eaa9db18fc1743f9f8701019cc2efb390464
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a87ddece61276e5ac651f0610f34409477e18f53
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117853730"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122983941"
 ---
 # <a name="progress-bars"></a>進度列
 
@@ -69,39 +69,15 @@ ms.locfileid: "117853730"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><strong>強制回應確定進度列</strong><br/> 藉由從左至右填滿來指出作業的進度，並在作業完成時完整填滿。 <br/></td>
-<td>因為這是強制 <a href="glossary.md">回應的意見</a>反應，所以使用者無法在視窗 (或其父代中執行其他工作（如果在模式) 對話方塊中顯示），直到作業完成為止。 <br/> <img src="images/progress-bars-image3.png" alt="Screen shot of progress bar in modal window " /><br/> 在此範例中，進度列會在設定期間提供意見反應。 <br/></td>
-</tr>
-<tr class="even">
-<td><strong>具有 [取消] 或 [停止] 按鈕的強制回應確定進度列</strong><br/> 允許使用者停止作業，可能是因為作業花費的時間太長，或不值得等候。<br/></td>
-<td><img src="images/progress-bars-image4.png" alt="Screen shot of progress bar with Stop button " /><br/> 在此範例中，使用者可以按一下 [停止] 以停止作業，並讓環境維持目前的狀態。<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>具有 [取消] 或 [停止] 按鈕和動畫的強制回應確定進度列</strong><br/> 允許使用者停止作業，並包含可協助使用者視覺化作業效果的動畫。<br/></td>
-<td><img src="images/progress-bars-image5.png" alt="Screen shot of progress bar with animation " /><br/> 在此範例中，使用者可以按一下 [停止] 以停止作業，並讓環境維持目前的狀態。<br/></td>
-</tr>
-<tr class="even">
-<td><strong>強制回應確定雙重進度列</strong><br/> 藉由在第一個進度列中顯示目前步驟的進度，以及第二列的整體進度，來指出多步驟作業的進度。<br/></td>
-<td>因為第一個進度列提供一些額外的資訊，而且可能很大的混淆，所以不建議使用此模式。 相反地，請讓作業中的所有步驟共用進度的一部分，並讓單一進度列移至完成一次。 <br/> <img src="images/progress-bars-image6.png" alt="Screen shot of current and overall progress bars " /><br/> 在此範例中，第一個進度列會顯示目前步驟的進度，而第二個進度列會顯示整體進度。<br/>
-<blockquote>
-[!Note]<br />
-這種模式通常是不必要的，因此應予以避免。
-</blockquote>
-<br/> <br/></td>
-</tr>
-<tr class="odd">
-<td><strong>無模式確定進度列</strong><br/> 藉由從左至右填滿來指出作業的進度，並在作業完成時完整填滿。<br/></td>
-<td>不同于模式進度列，使用者可以在作業進行時執行其他工作。 這些進度列可以顯示在內容中，也可以顯示在狀態列上。 <br/> <img src="images/progress-bars-image7.png" alt="Screen shot of progress bar on status bar " /><br/> 在此範例中，Windows Internet ExplorerWindows Internet Explorer 會顯示其在狀態列上載入網頁的進度。 使用者可以在頁面載入時執行其他工作。<br/></td>
-</tr>
-</tbody>
-</table>
+
+| 標籤 | 值 |
+|--------|-------|
+| <strong>強制回應確定進度列</strong><br /> 藉由從左至右填滿來指出作業的進度，並在作業完成時完整填滿。 <br /> | 因為這是強制 <a href="glossary.md">回應的意見</a>反應，所以使用者無法在視窗 (或其父代中執行其他工作（如果在模式) 對話方塊中顯示），直到作業完成為止。 <br /><img src="images/progress-bars-image3.png" alt="Screen shot of progress bar in modal window " /><br /> 在此範例中，進度列會在設定期間提供意見反應。 <br /> | 
+| <strong>具有 [取消] 或 [停止] 按鈕的強制回應確定進度列</strong><br /> 允許使用者停止作業，可能是因為作業花費的時間太長，或不值得等候。<br /> | <img src="images/progress-bars-image4.png" alt="Screen shot of progress bar with Stop button " /><br /> 在此範例中，使用者可以按一下 [停止] 以停止作業，並讓環境維持目前的狀態。<br /> | 
+| <strong>具有 [取消] 或 [停止] 按鈕和動畫的強制回應確定進度列</strong><br /> 允許使用者停止作業，並包含可協助使用者視覺化作業效果的動畫。<br /> | <img src="images/progress-bars-image5.png" alt="Screen shot of progress bar with animation " /><br /> 在此範例中，使用者可以按一下 [停止] 以停止作業，並讓環境維持目前的狀態。<br /> | 
+| <strong>強制回應確定雙重進度列</strong><br /> 藉由在第一個進度列中顯示目前步驟的進度，以及第二列的整體進度，來指出多步驟作業的進度。<br /> | 因為第一個進度列提供一些額外的資訊，而且可能很大的混淆，所以不建議使用此模式。 相反地，請讓作業中的所有步驟共用進度的一部分，並讓單一進度列移至完成一次。 <br /><img src="images/progress-bars-image6.png" alt="Screen shot of current and overall progress bars " /><br /> 在此範例中，第一個進度列會顯示目前步驟的進度，而第二個進度列會顯示整體進度。<br /><blockquote>[!Note]<br />這種模式通常是不必要的，因此應予以避免。</blockquote><br /><br /> | 
+| <strong>無模式確定進度列</strong><br /> 藉由從左至右填滿來指出作業的進度，並在作業完成時完整填滿。<br /> | 不同于模式進度列，使用者可以在作業進行時執行其他工作。 這些進度列可以顯示在內容中，也可以顯示在狀態列上。 <br /><img src="images/progress-bars-image7.png" alt="Screen shot of progress bar on status bar " /><br /> 在此範例中，Windows Internet ExplorerWindows Internet Explorer 會顯示其在狀態列上載入網頁的進度。 使用者可以在頁面載入時執行其他工作。<br /> | 
+
 
 
 
@@ -111,7 +87,7 @@ ms.locfileid: "117853730"
 
 
 
-|   進度列類型  | 描述             |
+|   進度列類型  | Description             |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **強制不定的進度列**<br/> 藉由顯示從左至右連續迴圈的動畫，表示作業正在進行中。 <br/>   | 僅供無法判斷整體進度的作業使用，因此沒有完整性的概念。 確定進度列較適合，因為它們表示已完成之作業的大約百分比，並且可協助使用者判斷作業是否值得繼續等候。 它們的視覺效果也比較少。 <br/> ![模式、不定進度列的螢幕擷取畫面](images/progress-bars-image8.png)<br/> 在此範例中，Windows Update 會使用強制回應不定進度列來指出進度，同時尋找更新。<br/> |
 | **無狀態不定進度列**<br/> 藉由顯示從左至右連續迴圈的動畫，表示作業正在進行中。<br/> | 不同于強制回應的進度列，使用者可以在進行處理時執行其他工作。 這些進度列可以顯示在內容中，也可以顯示在狀態列上。 <br/> ![outlook 視窗中精簡進度列的螢幕擷取畫面 ](images/progress-bars-image9.png)<br/> 在此範例中，Microsoft Outlook 會在填入 contact 屬性時使用非模式不定進度列。 當此工作正在進行時，使用者可以繼續使用屬性視窗。<br/>                                                                                                                    |
@@ -124,7 +100,7 @@ ms.locfileid: "117853730"
 
 
 
-|   類型                                                                                       |   描述                                                                                                                                                                                                                                                                                                                                                                 |
+|   類型                                                                                       |   Description                                                                                                                                                                                                                                                                                                                                                                 |
 |------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **米**<br/> 指出與進度無關的百分比。 <br/> | 這種模式不是進度列，但會使用進度列控制項來執行。 計量表具有不同的外觀，可區別它們與真正的進度列。 <br/> ![顯示可用磁碟空間的計量螢幕擷取畫面 ](images/progress-bars-image10.png)<br/> 在此範例中，計量會顯示所使用的磁片磁碟機空間百分比。<br/> |
 

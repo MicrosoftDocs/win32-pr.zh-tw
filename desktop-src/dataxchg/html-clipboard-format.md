@@ -3,7 +3,7 @@ title: HTML 剪貼簿格式
 description: 本節討論 HTML 剪貼簿格式。
 ms.assetid: e891393f-234f-4c94-b581-c4e5f885d2ab
 keywords:
-- Windows 消費者介面，剪貼簿
+- Windows消費者介面，剪貼簿
 - 剪貼簿，資料剪下
 - 剪貼簿，複製資料
 - 剪貼簿，貼上資料
@@ -15,12 +15,12 @@ keywords:
 - 剪貼簿，CF_HTML 格式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 75cdcd9c2fc982a7cbde38bba4b7dec6738f1793
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 18d73b5101d26fc55002d55e0c15144646b80445
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021621"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122884979"
 ---
 # <a name="html-clipboard-format"></a>HTML 剪貼簿格式
 
@@ -33,7 +33,7 @@ CF \_ html 剪貼簿格式允許原始 HTML 文字和其內容的片段以 ASCII
 -   [說明](#description)
 -   [案例](#scenarios)
 
-## <a name="description"></a>Description
+## <a name="description"></a>說明
 
 CF \_ html 完全是文字格式 (是在 HTML 精神中的其他專案，而且會使用 utf-8) 並在內容中包含 `description` 、選擇性和 `context` `fragment` 。
 
@@ -111,15 +111,15 @@ StartSelection 和 EndSelection 關鍵字是選擇性的，如果您不想讓應
 1.  HTML 的簡單片段。
     -   -   HTML 文字：
 
-            <BODY>這是正常的，這是<B>粗體</B> <I><B>斜體</B>，這是斜體</I></BODY>
+            &lt;本文是正常的，這是粗體，這 &gt; <B></B> <I> <B></B>是斜體</I> &lt; /BODY&gt;
 
         -   顯示為：
 
-            這是正常的，這是 **粗體**，此為    *    斜體 *
+            這是正常的，這是 **粗體**  **_斜體_*  ，這是斜體*
 
         -   選取的文字 \* \* 並複製到剪貼簿：
 
-            這 **是正常的，這** 是粗體，這是 \* \*     * **粗體**   的 * \* \* *是斜體*
+            這 **是正常的，這** 是 \* \* **粗體****_斜體_*，這* \* \* *是斜體*   
 
         -   這是剪貼簿 (注意這是 IE4/MSHTML 的解讀) ：
 
@@ -139,7 +139,7 @@ StartSelection 和 EndSelection 關鍵字是選擇性的，如果您不想讓應
 
             <!DOCTYPE ...>
 
-            <BODY>
+            &lt;身體&gt;
 
             <!-- StartFragment -->>
 
@@ -147,24 +147,24 @@ StartSelection 和 EndSelection 關鍵字是選擇性的，如果您不想讓應
 
             <!-- EndFragment -->
 
-            </BODY>
+            &lt;/BODY&gt;
 
-            </HTML>
+            &lt;/HTML&gt;
 
         -   在此案例中，只有內文標記和 HTML 標籤會出現在內容中，如同選取的片段之前。 請注意，開始標記和結束標記會包含在內容中。 選取範圍（以 StartSelection 和 EndSelection 分隔）會以粗體顯示。
 
 2.  HTML 中資料表的片段。
     -   -   HTML 文字：
 
-            <BODY><TABLE BORDER><TR><TH ROWSPAN=2>Head1</TH><TD>項目 1</TD><TD>項目 2</TD><TD>項目 3</TD><TD>專案4</TD></TR><TR><TD>專案5</TD><TD>專案6</TD><TD>專案7</TD><TD>專案8</TD></TR><TR><TH>Head2</TH><TD>專案9</TD><TD>項目 10</TD><TD>專案11</TD><TD>專案12</TD></TR></TABLE></BODY>
+            &lt;身體&gt;<TABLE BORDER><TR><TH ROWSPAN=2>Head1</TH><TD>項目 1</TD><TD>項目 2</TD><TD>項目 3</TD><TD>專案4</TD></TR><TR><TD>專案5</TD><TD>專案6</TD><TD>專案7</TD><TD>專案8</TD></TR><TR><TH>Head2</TH><TD>專案9</TD><TD>項目 10</TD><TD>專案11</TD><TD>專案12</TD></TR></TABLE>&lt;/BODY&gt;
 
-        -   顯示為： ><TABLE BORDER><TR><TH ROWSPAN=2>Head1</TH><TD>項目 1</TD><TD>項目 2</TD><TD>項目 3</TD><TD>專案4</TD></TR><TR><TD>專案5</TD><TD>專案6</TD><TD>專案7</TD><TD>專案8</TD></TR><TR><TH>Head2</TH><TD>專案9</TD><TD>項目 10</TD><TD>專案11</TD><TD>專案12</TD></TR></TABLE><！ \[Cdata\[\]\]>
+        -   顯示為： ><TABLE BORDER><TR><TH ROWSPAN=2>Head1</TH><TD>項目 1</TD><TD>項目 2</TD><TD>項目 3</TD><TD>專案4</TD></TR><TR><TD>專案5</TD><TD>專案6</TD><TD>專案7</TD><TD>專案8</TD></TR><TR><TH>Head2</TH><TD>專案9</TD><TD>項目 10</TD><TD>專案11</TD><TD>專案12</TD></TR></TABLE><！ \[CDATA\[\]\]>
         -   系統會選取資料表的專案6、Tuple.item7、專案10和專案11元素做為區塊，然後複製到剪貼簿。
         -   這是剪貼簿 (注意這是 IE4/MSHTML 的解讀) ：
 
             <!DOCTYPE ...>
 
-            <HTML><BODY><TABLE BORDER>
+            &lt;HTML &gt; &lt; 主體&gt;<TABLE BORDER>
 
             <!--StartFragment-->
 
@@ -174,12 +174,12 @@ StartSelection 和 EndSelection 關鍵字是選擇性的，如果您不想讓應
 
             </TABLE>
 
-            </BODY></HTML>The selection, as delimited by StartSelection and EndSelection, is shown in bold.
+            &lt;/BODY &gt; &lt; /HTML &gt; 選取範圍（以 StartSelection 和 EndSelection 分隔）會以粗體顯示。
 
 3.  將已排序清單的片段貼入純文字中。
     -   -   HTML 文字：
 
-            <BODY><OL TYPE = a><LI>項目 1<LI>項目 2<LI>項目 3<LI>專案4<LI>專案5<LI>專案6</OL></BODY>
+            &lt;身體&gt;<OL TYPE = a><LI>項目 1<LI>項目 2<LI>項目 3<LI>專案4<LI>專案5<LI>專案6</OL>&lt;/BODY&gt;
 
         -   顯示為：
             1.  項目 1
@@ -190,7 +190,7 @@ StartSelection 和 EndSelection 關鍵字是選擇性的，如果您不想讓應
             6.  專案6
         -   使用者選取並將專案3到5複製到剪貼簿。 下列 HTML 位於剪貼簿中：
 
-            <DOCTYPE ... ><HTML><BODY><OL TYPE = a>
+            <DOCTYPE ... >&lt; HTML &gt; &lt; 主體&gt;<OL TYPE = a>
 
             <!-- StartFragment-->
 
@@ -198,13 +198,13 @@ StartSelection 和 EndSelection 關鍵字是選擇性的，如果您不想讓應
 
             <!-- EndFragment-->
 
-            </OL></BODY></HTML>
+            </OL>&lt;/BODY&gt;&lt;/HTML&gt;
 
             選取範圍（以 StartSelection 和 EndSelection 分隔）會以粗體顯示。
 
         -   如果此片段現在貼入空白檔，將會建立下列 HTML：
 
-            <BODY><OL TYPE = a><LI>項目 3<LI>專案4<LI>專案5</OL></BODY>
+            &lt;身體&gt;<OL TYPE = a><LI>項目 3<LI>專案4<LI>專案5</OL>&lt;/BODY&gt;
 
         -   顯示為：
             1.  項目 3
@@ -223,7 +223,7 @@ StartSelection 和 EndSelection 關鍵字是選擇性的，如果您不想讓應
 
         -   使用者從 "WYSIWYG" 開始選取，直到 "Cop" 為止。下列 HTML 位於剪貼簿中：
 
-            <DOCTYPE ... ><HTML><BODY>
+            <DOCTYPE ... >&lt; HTML &gt; &lt; 主體&gt;
 
             <!-- StartFragment-->
 
@@ -237,14 +237,14 @@ StartSelection 和 EndSelection 關鍵字是選擇性的，如果您不想讓應
 
             <!-- EndFragment-->
 
-            </BODY></HTML>The selection, as delimited by StartSelection and EndSelection, is shown in bold.
+            &lt;/BODY &gt; &lt; /HTML &gt; 選取範圍（以 StartSelection 和 EndSelection 分隔）會以粗體顯示。
 
-     
+     
     -   -   使用者選取 "複製"，直到「絕佳」。
 
             下列 HTML 位於剪貼簿中：
 
-            <DOCTYPE ... ><HTML><BODY>
+            <DOCTYPE ... >&lt; HTML &gt; &lt; 主體&gt;
 
             <!-- StartFragment-->
 
@@ -256,13 +256,13 @@ StartSelection 和 EndSelection 關鍵字是選擇性的，如果您不想讓應
 
             <!-- EndFragment-->
 
-            </BODY></HTML>
+            &lt;/BODY &gt; &lt; /HTML&gt;
 
             選取範圍（以 StartSelection 和 EndSelection 分隔）會以粗體顯示。
 
- 
+ 
 
- 
+ 
 
 
 

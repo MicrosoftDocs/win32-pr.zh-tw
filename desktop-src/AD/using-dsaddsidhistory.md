@@ -9,12 +9,12 @@ keywords:
 - DsAddSidHistory Active Directory，使用
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: afb37e09d5c7b337717f27b0e68ad17331ee27270da9e7b79a0d6bba791d2e5a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c6e987a55f7fe39a8e4705f6aca9e44189e0f7a2
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118182522"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122881833"
 ---
 # <a name="using-dsaddsidhistory"></a>使用 DsAddSidHistory
 
@@ -45,7 +45,7 @@ ms.locfileid: "118182522"
 
 
 
-| 案例                                                                             | 描述                                                                                                                                                                                                                                                                 |
+| 案例                                                                             | 說明                                                                                                                                                                                                                                                                 |
 |----------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 來源網域是 Windows 2000。<br/>                                    | 來源 **sIDHistory** 屬性（僅適用于 Windows 2000 來源網域）可能會使用 LDAP 唯讀，這需要此信任以進行完整性保護。<br/>                                                                                             |
 | 來源網域是 Windows NT 4.0，而 *SrcDomainCreds* 為 **Null**。<br/> | 使用呼叫端認證支援來源網域作業所需的模擬，取決於此信任。 模擬也需要目的地網域控制站預設在網域控制站上啟用「受信任的委派」。<br/> |
@@ -78,16 +78,16 @@ HKEY_LOCAL_MACHINE
 
 設定此值會啟用 TCP 傳輸上的 RPC 呼叫。 這是必要的，因為根據預設，SAMRPC 介面只能在具名管道上進行遠端處理。 使用具名管道會導致認證管理系統適用于進行網路呼叫的互動式登入使用者，但對於使用使用者提供的認證進行網路呼叫的系統程式來說，並不具彈性。 RPC over TCP 更適合該用途。 設定這個值並不會降低系統安全性。 如果已建立或變更此值，則必須重新開機來源網域控制站，這項設定才會生效。
 
-<SrcDomainName>為了進行審核，必須在來源網域中建立新的本機群組 "$ $ $"。
+&lt; &gt; 為了進行審核，必須在來源網域中建立新的本機群組 "SrcDomainName $ $ $"。
 
 ## <a name="auditing"></a>稽核
 
 系統會審核 [**DsAddSidHistory**](/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsaddsidhistorya)作業，以確保來源和目的地網域系統管理員都能夠偵測此函式的執行時間。 來源和目的地網域都必須進行審核。 **DsAddSidHistory** 會確認每個網域中的 Audit 模式都是 on，且「成功/失敗」事件的帳戶管理審核是開啟的。 在目的地網域中，會針對每個成功或失敗的 **DsAddSidHistory** 作業產生唯一的「新增 Sid 歷程記錄」 audit 事件。
 
-在 Windows NT 4.0 系統上無法使用唯一的「新增 Sid 歷程記錄」審核事件。 若要產生明確反映對來源網域使用 [**DsAddSidHistory**](/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsaddsidhistorya) 的 audit 事件，它會針對名稱為 audit 記錄檔中唯一識別碼的特殊群組執行作業。 本機群組 " <SrcDomainName> $ $ $" 的名稱是由附加三個貨幣符號 ($)  (ASCII 碼 = 0x24 和 Unicode = U + 0024) 的來源網域 NetBIOS 名稱所組成，必須在呼叫 **DsAddSidHistory** 之前于來源網域控制站上建立。 這項作業的目標每個來源使用者和全域群組都會加入至此群組的成員資格，然後從這個群組中移除。 這會產生來源網域中的「新增成員」和「刪除」成員審核事件，藉由搜尋參考組名的事件來監視。
+在 Windows NT 4.0 系統上無法使用唯一的「新增 Sid 歷程記錄」審核事件。 若要產生明確反映對來源網域使用 [**DsAddSidHistory**](/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsaddsidhistorya) 的 audit 事件，它會針對名稱為 audit 記錄檔中唯一識別碼的特殊群組執行作業。 本機群組 " &lt; SrcDomainName &gt; $ $ $" 的名稱是由附加了三個貨幣符號 ($)  (ASCII 碼 = 0X24 和 Unicode = U + 0024) 的來源網域 NetBIOS 名稱所組成，必須在呼叫 **DsAddSidHistory** 之前于來源網域控制站上建立。 這項作業的目標每個來源使用者和全域群組都會加入至此群組的成員資格，然後從這個群組中移除。 這會產生來源網域中的「新增成員」和「刪除」成員審核事件，藉由搜尋參考組名的事件來監視。
 
 > [!Note]  
-> 無法審核 Windows NT 4.0 或 Windows 2000 混合模式來源網域中本機群組的 [**DsAddSidHistory**](/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsaddsidhistorya)作業，因為無法將本機群組設為另一個本機群組的成員，因此無法新增至特殊的 " <SrcDomainName> $ $ $" 本機群組。 這項缺少的審核並不會對來源網域提出安全性問題，因為此作業不會影響來源網域資源的存取。 將來源本機群組的 SID 新增至目的地本機群組，並不會將存取權授與任何其他使用者的來源資源（受該本機群組保護）。 將成員新增至目的地本機群組不會授與他們存取來源資源的許可權。 新增的成員只會被授與從來源網域遷移之目的地網域中的伺服器存取權，這可能會有受來源本機群組 SID 保護的資源。
+> 無法審核 Windows NT 4.0 或 Windows 2000 混合模式來源網域中本機群組的 [**DsAddSidHistory**](/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsaddsidhistorya)作業，因為無法將本機群組設為另一個本機群組的成員，因此無法新增至特殊的 " &lt; SrcDomainName &gt; $ $ $" 本機群組。 這項缺少的審核並不會對來源網域提出安全性問題，因為此作業不會影響來源網域資源的存取。 將來源本機群組的 SID 新增至目的地本機群組，並不會將存取權授與任何其他使用者的來源資源（受該本機群組保護）。 將成員新增至目的地本機群組不會授與他們存取來源資源的許可權。 新增的成員只會被授與從來源網域遷移之目的地網域中的伺服器存取權，這可能會有受來源本機群組 SID 保護的資源。
 
  
 
@@ -104,56 +104,16 @@ HKEY_LOCAL_MACHINE
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>潛在威脅</th>
-<th>安全性措施</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>攔截式攻擊<br/> 未經授權的使用者會攔截來源物件傳回呼叫的 <em>查閱 SID</em> ，將來源物件 SID 取代為要插入至目標物件 SIDhistory 的任意 SID。<br/></td>
-<td><em>來源物件的查閱 SID</em>是經過驗證的 RPC，使用呼叫端的系統管理員認證與封包完整性訊息保護。 這可確保無法在沒有偵測的情況下修改傳回呼叫。 目的地網域控制站會建立唯一的 [ &quot; 新增 sid 歷程記錄] &quot; audit 事件，以反映新增至目的地帳戶 <strong>sIDHistory</strong>的 sid。<br/></td>
-</tr>
-<tr class="even">
-<td>特洛伊來源網域<br/> 未經授權的使用者 &quot; &quot; 在私人網路上建立特洛伊木馬來源網域，而該網域的網域 SID 和與合法來源網域的帳戶 sid 相同。 未經授權的使用者接著會嘗試在目的地網域中執行 <a href="/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsaddsidhistorya"><strong>DsAddSidHistory</strong></a> ，以取得來源帳戶的 SID。 這樣做不需要真正的來源網域系統管理員認證，也不需要離開實際來源網域中的審核記錄。 未經授權的使用者建立特洛伊程式檔來源網域的方法，可能是下列其中一項：
-<ul>
-<li>取得來源網域 SAM 的複本 (BDC 備份) 。</li>
-<li>建立新的網域，改變磁片上的網域 SID 以符合合法的來源網域 SID，然後建立足夠的使用者以具現化具有所需 SID 的帳戶。</li>
-<li>建立 BDC 複本。 這需要來源網域系統管理員認證。 然後，未經授權的使用者會將複本帶到私人網路以執行攻擊。</li>
-</ul>
-<br/></td>
-<td>雖然有許多方法可讓未經授權的使用者取得或建立所需的來源物件 SID，但未經授權的使用者無法使用它來更新帳戶的 <strong>sIDHistory</strong> ，而不是目的地網域系統管理員群組的成員。 因為網域系統管理員成員資格的檢查是以硬式編碼的方式在目標 DC 上進行，所以沒有任何方法可進行磁片修改來變更保護此功能的存取控制資料。 在目的地網域中，會審核嘗試複製特洛伊程式的來源帳戶。 只要針對高度信任的個人保留網域系統管理員群組的成員資格，就可以減輕這種攻擊。<br/></td>
-</tr>
-<tr class="odd">
-<td>SID 歷程記錄的磁片修改<br/> 具有網域系統管理員認證的複雜未授權使用者，以及對目的地網域中之 DC 的實體存取權，可以修改磁片上的帳戶 <strong>sIDHistory</strong> 值。<br/></td>
-<td>使用 <a href="/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsaddsidhistorya"><strong>DsAddSidHistory</strong></a>不會啟用這項嘗試。 這項攻擊的解決方式是防止實體存取所有高度信任的系統管理員以外的網域控制站。<br/></td>
-</tr>
-<tr class="even">
-<td>用來移除保護的惡意程式碼<br/> 未經授權的使用者或 rogue 系統管理員若具有目錄服務程式碼的實體存取權，就可以建立以下的惡意程式碼：
-<ol>
-<li>移除程式碼中 Domain Administrators 群組的成員資格檢查。</li>
-<li>變更來源網域控制站上的呼叫，將 SID 指向未進行審核的 LookupSidFromName。</li>
-<li>移除 audit log 呼叫。</li>
-</ol>
-<br/></td>
-<td>具有 DS 程式碼實體存取權的人員，以及足以建立 rogue 程式碼的知識，都具有任意修改帳戶 <strong>sIDHistory</strong> 屬性的能力。 <a href="/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsaddsidhistorya"><strong>DsAddSidHistory</strong></a> API 不會增加此安全性風險。<br/></td>
-</tr>
-<tr class="odd">
-<td>易受遭竊 Sid 的資源<br/> 如果未經授權的使用者使用這裡所述的其中一種方法來修改帳戶 <strong>sIDHistory</strong>，且感興趣的資源網域信任未經授權的使用者帳戶網域，則未經授權的使用者可能會未經授權存取遭竊的 sid 資源，而不會在 SID 遭竊的帳戶網域中留下審核記錄。<br/></td>
-<td>資源網域系統管理員只會設定從安全性觀點來合理的信任關係，以保護其資源。 在受信任的目標網域中，使用 <a href="/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsaddsidhistorya"><strong>DsAddSidHistory</strong></a> 受限於網域系統管理員群組的成員，這些成員在其職責範圍內已經有廣泛的許可權。<br/></td>
-</tr>
-<tr class="even">
-<td>Rogue 目標網域<br/> 未經授權的使用者會使用其<strong>sIDHistory</strong>包含已從來源網域遭竊之 SID 的帳戶，建立 Windows 2000 網域。 未經授權的使用者會使用此帳戶來取得資源的未經授權存取權。<br/></td>
-<td>未經授權的使用者需要來源網域的系統管理員認證，才能使用 <a href="/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsaddsidhistorya"><strong>DsAddSidHistory</strong></a>，並在來源網域控制站上保留審核記錄。 Rogue 目標網域只會在信任 rogue 網域的其他網域中取得未經授權的存取權，這需要這些資源網域中的系統管理員許可權。<br/></td>
-</tr>
-</tbody>
-</table>
+
+| 潛在威脅 | 安全性措施 | 
+|------------------|------------------|
+| 攔截式攻擊<br /> 未經授權的使用者會攔截來源物件傳回呼叫的 <em>查閱 SID</em> ，將來源物件 SID 取代為要插入至目標物件 SIDhistory 的任意 SID。<br /> | <em>來源物件的查閱 SID</em>是經過驗證的 RPC，使用呼叫端的系統管理員認證與封包完整性訊息保護。 這可確保無法在沒有偵測的情況下修改傳回呼叫。 目的地網域控制站會建立唯一的「新增 SID 歷程記錄」 audit 事件，以反映新增至目的地帳戶 <strong>sIDHistory</strong>的 sid。<br /> | 
+| 特洛伊來源網域<br /> 未經授權的使用者在私人網路上建立「特洛伊木馬程式」來源網域，此網域具有與合法來源網域相同的網域 SID 和部分相同的帳戶 Sid。 未經授權的使用者接著會嘗試在目的地網域中執行 <a href="/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsaddsidhistorya"><strong>DsAddSidHistory</strong></a> ，以取得來源帳戶的 SID。 這樣做不需要真正的來源網域系統管理員認證，也不需要離開實際來源網域中的審核記錄。 未經授權的使用者建立特洛伊程式檔來源網域的方法，可能是下列其中一項：<ul><li>取得來源網域 SAM 的複本 (BDC 備份) 。</li><li>建立新的網域，改變磁片上的網域 SID 以符合合法的來源網域 SID，然後建立足夠的使用者以具現化具有所需 SID 的帳戶。</li><li>建立 BDC 複本。 這需要來源網域系統管理員認證。 然後，未經授權的使用者會將複本帶到私人網路以執行攻擊。</li></ul><br /> | 雖然有許多方法可讓未經授權的使用者取得或建立所需的來源物件 SID，但未經授權的使用者無法使用它來更新帳戶的 <strong>sIDHistory</strong> ，而不是目的地網域系統管理員群組的成員。 因為網域系統管理員成員資格的檢查是以硬式編碼的方式在目標 DC 上進行，所以沒有任何方法可進行磁片修改來變更保護此功能的存取控制資料。 在目的地網域中，會審核嘗試複製特洛伊程式的來源帳戶。 只要針對高度信任的個人保留網域系統管理員群組的成員資格，就可以減輕這種攻擊。<br /> | 
+| SID 歷程記錄的磁片修改<br /> 具有網域系統管理員認證的複雜未授權使用者，以及對目的地網域中之 DC 的實體存取權，可以修改磁片上的帳戶 <strong>sIDHistory</strong> 值。<br /> | 使用 <a href="/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsaddsidhistorya"><strong>DsAddSidHistory</strong></a>不會啟用這項嘗試。 這項攻擊的解決方式是防止實體存取所有高度信任的系統管理員以外的網域控制站。<br /> | 
+| 用來移除保護的惡意程式碼<br /> 未經授權的使用者或 rogue 系統管理員若具有目錄服務程式碼的實體存取權，就可以建立以下的惡意程式碼：<ol><li>移除程式碼中 Domain Administrators 群組的成員資格檢查。</li><li>變更來源網域控制站上的呼叫，將 SID 指向未進行審核的 LookupSidFromName。</li><li>移除 audit log 呼叫。</li></ol><br /> | 具有 DS 程式碼實體存取權的人員，以及足以建立 rogue 程式碼的知識，都具有任意修改帳戶 <strong>sIDHistory</strong> 屬性的能力。 <a href="/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsaddsidhistorya"><strong>DsAddSidHistory</strong></a> API 不會增加此安全性風險。<br /> | 
+| 易受遭竊 Sid 的資源<br /> 如果未經授權的使用者使用這裡所述的其中一種方法來修改帳戶 <strong>sIDHistory</strong>，且感興趣的資源網域信任未經授權的使用者帳戶網域，則未經授權的使用者可能會未經授權存取遭竊的 sid 資源，而不會在 SID 遭竊的帳戶網域中留下審核記錄。<br /> | 資源網域系統管理員只會設定從安全性觀點來合理的信任關係，以保護其資源。 在受信任的目標網域中，使用 <a href="/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsaddsidhistorya"><strong>DsAddSidHistory</strong></a> 受限於網域系統管理員群組的成員，這些成員在其職責範圍內已經有廣泛的許可權。<br /> | 
+| Rogue 目標網域<br /> 未經授權的使用者會使用其<strong>sIDHistory</strong>包含已從來源網域遭竊之 SID 的帳戶，建立 Windows 2000 網域。 未經授權的使用者會使用此帳戶來取得資源的未經授權存取權。<br /> | 未經授權的使用者需要來源網域的系統管理員認證，才能使用 <a href="/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsaddsidhistorya"><strong>DsAddSidHistory</strong></a>，並在來源網域控制站上保留審核記錄。 Rogue 目標網域只會在信任 rogue 網域的其他網域中取得未經授權的存取權，這需要這些資源網域中的系統管理員許可權。<br /> | 
+
 
 
 
@@ -172,7 +132,7 @@ HKEY_LOCAL_MACHINE
 
 *SrcPrincipal* 和 *DstPrincipal* 必須是下列其中一種類型：
 
--   使用者
+-   User
 -   啟用安全性的群組，包括：
 
     <dl> 本機群組  

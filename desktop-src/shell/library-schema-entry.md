@@ -4,12 +4,12 @@ ms.assetid: 12F6E6AE-2776-408c-B9AC-E885BE93C27F
 title: 程式庫描述架構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1d5881ad7e97612c93e88708e21a10eeed35e3e443a442ddbb49df7c6f5abe7d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2bfbaa8401468a6bab79cf4bccc5d7d4cd0ff7bb
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118049264"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122879644"
 ---
 # <a name="library-description-schema"></a>程式庫描述架構
 
@@ -46,7 +46,7 @@ Windows 7 中的程式庫檔案會儲存在已知的資料夾 FOLDERID 連結 \_
 
 程式庫描述檔案格式 (程式庫 \* -ms) 的版本是藉由變更命名空間來追蹤。 針對 Windows 7，檔案格式具有下列預設命名空間： https://schemas.microsoft.com/windows/2009/library 。
 
-不過，您可以使用特定程式庫描述檔案中的專案來追蹤文件庫內容的版本 [<version>](schema-library-version.md) 。
+不過，您可以使用特定程式庫描述檔案中的[ &lt; 版本 &gt; ](schema-library-version.md)專案來追蹤文件庫內容的版本。
 
 ## <a name="example-of-a-library-description-file"></a>程式庫描述檔案的範例
 

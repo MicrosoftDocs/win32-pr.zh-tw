@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 一般資訊訊息
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0997fad497299c7598fc1130edace49c20d7bb76
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 680bcf7c2b9cbea5e60d13a7dd2aa6be93d9fad0
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318940"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122882722"
 ---
 # <a name="general-information-messages"></a>一般資訊訊息
 
@@ -146,7 +146,7 @@ ms.locfileid: "104318940"
 
 </dd> <dt>
 
-<span id="smi2smir__Processed__number__files_successfully"></span><span id="smi2smir__processed__number__files_successfully"></span><span id="SMI2SMIR__PROCESSED__NUMBER__FILES_SUCCESSFULLY"></span>**smi2smir：已成功處理的檔案 <number>**
+<span id="smi2smir__Processed__number__files_successfully"></span><span id="smi2smir__processed__number__files_successfully"></span><span id="SMI2SMIR__PROCESSED__NUMBER__FILES_SUCCESSFULLY"></span>**smi2smir： &lt; 已成功處理數位檔案 &gt;**
 </dt> <dd>
 
 這會指定使用 **/r** 或 **/auto** 參數時，已成功剖析的檔案數目。

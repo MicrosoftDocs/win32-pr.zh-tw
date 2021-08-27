@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 0d53f74db0ff4b744077c4e208be52dd749c2f4f150d867c3cfc7214c0e66ae2
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 20e5a2aa10bccfbd91b003f1db120691b6c61bb4
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120120768"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122881177"
 ---
 # <a name="using-the-wmi-scripting-type-library"></a>使用 WMI 腳本型別程式庫
 
@@ -68,7 +68,7 @@ ms.locfileid: "120120768"
 
     
 
--   使用 <reference> WSH 2.0 XML 檔案格式的標記參考 WMI 類型程式庫。 如果您使用 <reference> 標記，標記必須有一個 **uuid** 屬性，其值為 WMI 類型程式庫的 **GUID** ，或 (建議) 物件屬性，其值是您可以建立的任何 WMI 腳本物件的 **PROGID** 。
+-   使用 &lt; &gt; WSH 2.0 XML 檔案格式的參考標記來參考 WMI 類型程式庫。 如果您使用 &lt; 參考 &gt; 標記，標記必須有一個 **uuid** 屬性，其值為 WMI 類型程式庫的 **GUID** ，或 (建議) 物件屬性，其值是您可以建立的任何 WMI 腳本物件的 **PROGID** 。
 
     下列 VBScript 程式碼範例會使用 "WbemScripting" 的 PROGID。 若要執行腳本，請將文字儲存在副檔名為 w2kmiguser.wsf 的檔案中。
 

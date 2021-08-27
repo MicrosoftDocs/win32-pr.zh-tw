@@ -1,5 +1,5 @@
 ---
-description: SafeWia 物件是一種 &\# 0034; 可安全的腳本&\# 0034; 所有 Windows 映像取得 (WIA 的進入點) 腳本功能。
+description: SafeWia 物件是一種 &\# 0034; 可安全的腳本&\# 0034; 所有 Windows 影像取得 (WIA) 腳本功能的進入點。
 ms.assetid: 6b10bb8e-8500-4f2c-ae18-5db78ef75f74
 title: SafeWia 物件
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Wiascr.dll
-ms.openlocfilehash: 1f227180b7420f5c70ef64d7d1d3feb0f13ae164
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ef324934abee38e2581b6e05c0fdac92145e4f43
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970821"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122473844"
 ---
 # <a name="safewia-object"></a>SafeWia 物件
 
-**SafeWia** 物件是所有 Windows 映像取得 (WIA) 腳本功能的「安全的腳本」進入點。 使用 WIA 腳本模型的任何應用程式都必須建立 **SafeWia** 或 [**WIA**](-wia-wia.md) 物件。 您可以使用該物件來列舉和建立裝置，並接收硬體事件的通知。
+**SafeWia** 物件是所有 Windows 影像取得 (WIA) 腳本功能的「安全的腳本」進入點。 使用 WIA 腳本模型的任何應用程式都必須建立 **SafeWia** 或 [**WIA**](-wia-wia.md) 物件。 您可以使用該物件來列舉和建立裝置，並接收硬體事件的通知。
 
 ## <a name="members"></a>成員
 
@@ -39,7 +39,7 @@ ms.locfileid: "106970821"
 
 | 方法                             | 描述                                                                                                                                                                                                                |
 |:-----------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**創建**](-wia-iwia-create.md) | [**Wia**](-wia-wia.md)物件的 [**Create**](-wia-iwia-create.md)方法會連接到指定的 Wia 裝置，並傳回代表該裝置的 [**專案**](-wia-item.md)物件。<br/> |
+| [**建立**](-wia-iwia-create.md) | [**Wia**](-wia-wia.md)物件的 [**Create**](-wia-iwia-create.md)方法會連接到指定的 Wia 裝置，並傳回代表該裝置的 [**專案**](-wia-item.md)物件。<br/> |
 
 
 
@@ -51,32 +51,11 @@ ms.locfileid: "106970821"
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">屬性</th>
-<th style="text-align: left;">存取類型</th>
-<th style="text-align: left;">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><a href="-wia-iwia-devices.md"><strong>設備</strong></a><br/></td>
-<td style="text-align: left;">唯讀<br/></td>
-<td style="text-align: left;"><a href="-wia-deviceinfo.md"><strong>DeviceInfo</strong></a>物件的集合，代表安裝在電腦上的所有裝置。 唯讀。 <br/>
-<blockquote>
-[!Note]<br />
-這個集合是以0為基礎。
-</blockquote>
-<br/></td>
-</tr>
-</tbody>
-</table>
+
+| 屬性 | 存取類型 | Description | 
+|----------|-------------|-------------|
+| <a href="-wia-iwia-devices.md"><strong>裝置</strong></a><br /> | 唯讀<br /> | <a href="-wia-deviceinfo.md"><strong>DeviceInfo</strong></a>物件的集合，代表安裝在電腦上的所有裝置。 唯讀。 <br /><blockquote>[!Note]<br />這個集合是以0為基礎。</blockquote><br /> | 
+
 
 
 
@@ -88,8 +67,8 @@ ms.locfileid: "106970821"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 windows 2000 Professional、Windows XP \[ desktop 應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                          |
+| 最低支援的用戶端<br/> | Windows 2000 Professional，僅 Windows XP \[ desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                          |
 | DLL<br/>                      | <dl> <dt>Wiascr.dll (4.90 版或更新版本) </dt> </dl> |
 | IID<br/>                      | CLSID \_ SafeWia<br/>                                                                                     |
 

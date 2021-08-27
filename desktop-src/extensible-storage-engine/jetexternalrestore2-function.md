@@ -20,12 +20,12 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 6d2cbd4a13555d754cdbc1f9c02011b5891d6d6fcfae3fea822ddf6ad9953b78
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ad8cad0cfc31c77b3cc8e960153bda14b4f431e5
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119719188"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122475814"
 ---
 # <a name="jetexternalrestore2-function"></a>JetExternalRestore2 函式
 
@@ -99,64 +99,21 @@ _**適用于：** Windows |Windows伺服器_
 
 此函數會傳回具有下列其中一個傳回碼的 [JET_ERR](./jet-err.md) 資料類型。 如需可能 ESE 錯誤的詳細資訊，請參閱可延伸的[儲存體引擎錯誤](./extensible-storage-engine-errors.md)和[錯誤處理參數](./error-handling-parameters.md)。
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>傳回碼</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errSuccess</p></td>
-<td><p>作業已成功完成。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errBadRestoreTargetInstance</p></td>
-<td><p>指定的 <em>szTargetInstanceLogPath</em> 不屬於初始化的實例。 此錯誤只會在 Windows XP 及更新版本中傳回。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errDatabaseCorrupted</p></td>
-<td><p>這表示資料庫已損毀或無法辨識的檔案。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errEndingRestoreLogTooLow</p></td>
-<td><p>如果 <em>szBackupLogPath</em>中的記錄檔有一個以上的記錄檔產生，則會傳回此錯誤，該錯誤會在 <em>GenHigh</em> 或 <em>pLogInfo ulGenHigh</em>中指定。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errFileNotFound</p></td>
-<td><p>作業失敗，因為它無法開啟要求的檔案，因為在指定的路徑中找不到該檔案。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errInvalidParameter</p></td>
-<td><p>提供的其中一個參數包含未預期的值，或包含的值在與另一個參數的值結合時並沒有意義。 <a href="gg294088(v=exchg.10).md">JetExternalRestore</a>可能會發生這種情況，因此當<em>szTargetCheckpointPath</em>和<em>szTargetInstanceLogPath</em>都未指定，或未指定兩者皆未指定時。 也就是說，它們必須相符，而且兩者都指定或都未指定。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errInvalidPath</p></td>
-<td><p>因為找不到指定的路徑，所以操作失敗。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errOutOfMemory</p></td>
-<td><p>作業失敗，因為無法配置足夠的記憶體來完成。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errRestoreOfNonBackupDatabase</p></td>
-<td><p>如果還原期間指定的資料庫檔案不是使用外部備份進行備份的資料庫，就會傳回此錯誤。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errRunningInOneInstanceMode</p></td>
-<td><p>資料庫引擎無法在單一實例模式中執行外部還原或硬復原。 此錯誤只會在 Windows XP 及更新版本中傳回。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errStartingRestoreLogTooHigh</p></td>
-<td><p>如果 <em>szBackupLogPath</em>中的其中一個記錄檔產生低於 <em>genLow</em> 或 <em>pLogInfo</em>所指定的記錄檔，就會傳回此錯誤。</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>傳回碼</p> | <p>Description</p> | 
+|--------------------|--------------------|
+| <p>JET_errSuccess</p> | <p>作業已成功完成。</p> | 
+| <p>JET_errBadRestoreTargetInstance</p> | <p>指定的 <em>szTargetInstanceLogPath</em> 不屬於初始化的實例。 此錯誤只會在 Windows XP 及更新版本中傳回。</p> | 
+| <p>JET_errDatabaseCorrupted</p> | <p>這表示資料庫已損毀或無法辨識的檔案。</p> | 
+| <p>JET_errEndingRestoreLogTooLow</p> | <p>如果 <em>szBackupLogPath</em>中的記錄檔有一個以上的記錄檔產生，則會傳回此錯誤，該錯誤會在 <em>GenHigh</em> 或 <em>pLogInfo ulGenHigh</em>中指定。</p> | 
+| <p>JET_errFileNotFound</p> | <p>作業失敗，因為它無法開啟要求的檔案，因為在指定的路徑中找不到該檔案。</p> | 
+| <p>JET_errInvalidParameter</p> | <p>提供的其中一個參數包含未預期的值，或包含的值在與另一個參數的值結合時並沒有意義。 <a href="gg294088(v=exchg.10).md">JetExternalRestore</a>可能會發生這種情況，因此當<em>szTargetCheckpointPath</em>和<em>szTargetInstanceLogPath</em>都未指定，或未指定兩者皆未指定時。 也就是說，它們必須相符，而且兩者都指定或都未指定。</p> | 
+| <p>JET_errInvalidPath</p> | <p>因為找不到指定的路徑，所以操作失敗。</p> | 
+| <p>JET_errOutOfMemory</p> | <p>作業失敗，因為無法配置足夠的記憶體來完成。</p> | 
+| <p>JET_errRestoreOfNonBackupDatabase</p> | <p>如果還原期間指定的資料庫檔案不是使用外部備份進行備份的資料庫，就會傳回此錯誤。</p> | 
+| <p>JET_errRunningInOneInstanceMode</p> | <p>資料庫引擎無法在單一實例模式中執行外部還原或硬復原。 此錯誤只會在 Windows XP 及更新版本中傳回。</p> | 
+| <p>JET_errStartingRestoreLogTooHigh</p> | <p>如果 <em>szBackupLogPath</em>中的其中一個記錄檔產生低於 <em>genLow</em> 或 <em>pLogInfo</em>所指定的記錄檔，就會傳回此錯誤。</p> | 
+
 
 
 成功時， *rgrstmap* 中的所有資料庫都會完全復原並處於乾淨或一致狀態。 此時，可以將資料庫重新掛接至現有的實例。
@@ -169,38 +126,9 @@ _**適用于：** Windows |Windows伺服器_
 
 #### <a name="requirements"></a>規格需求
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>用戶端</strong></p></td>
-<td><p>需要 Windows Vista 或 Windows XP。</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>伺服器</strong></p></td>
-<td><p>需要 Windows server 2008 或 Windows server 2003。</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>標頭</strong></p></td>
-<td><p>宣告于 Esent. h 中。</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>程式庫</strong></p></td>
-<td><p>使用 ESENT。</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>DLL</strong></p></td>
-<td><p>需要 ESENT.dll。</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Unicode</strong></p></td>
-<td><p>實作為 <strong>JetExternalRestore2W</strong> (Unicode) 和 <strong>JetExternalRestore2A</strong> (ANSI) 。</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p><strong>用戶端</strong></p> | <p>需要 Windows Vista 或 Windows XP。</p> | | <p><strong>伺服器</strong></p> | <p>需要 Windows server 2008 或 Windows server 2003。</p> | | <p><strong>標頭</strong></p> | <p>宣告于 Esent. h 中。</p> | | <p><strong>程式庫</strong></p> | <p>使用 ESENT。</p> | | <p><strong>DLL</strong></p> | <p>需要 ESENT.dll。</p> | | <p><strong>Unicode</strong></p> | <p>實作為 <strong>JetExternalRestore2W</strong> (Unicode) 和 <strong>JetExternalRestore2A</strong> (ANSI) 。</p> | 
+
 
 
 #### <a name="see-also"></a>另請參閱

@@ -4,12 +4,12 @@ ms.assetid: e82ce911-b2a7-4a57-a2f0-9aca6b74478f
 title: 使用泛型主機和用戶端進行 UDP WS-Discovery
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ae6af77529116e21848e22812e04322273e08f1f0cf4d107787b4039b2442b19
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3a7b9f42cd76e54c3ee04a3299e9f23eecbfdd73
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118991488"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122883075"
 ---
 # <a name="using-a-generic-host-and-client-for-udp-ws-discovery"></a>使用泛型主機和用戶端進行 UDP WS-Discovery
 
@@ -36,7 +36,7 @@ ms.locfileid: "118991488"
     Host metadata>
     ```
 
-3.  執行下列命令： **WSDDebug \_client.exe/mode metadata/hello off/resolve** *<id>* 。 取代 *<id>* 為在步驟2中識別的裝置識別碼。
+3.  執行下列命令： **WSDDebug \_client.exe/mode metadata/hello off/resolve** *&lt; id &gt;*。 將 *&lt; 識別碼 &gt;* 取代為步驟2中識別的裝置識別碼。
     > [!Note]  
     > 可能會出現 **Windows 安全性警示**] 對話方塊。 如果是，請按一下 [ **解除封鎖** ]，以允許 WSD Debug 用戶端執行。
 
@@ -67,7 +67,7 @@ Add at 02/28/07 15:16:51
 Client metadata>
 ```
 
-WSD Debug 用戶端可能會在具有許多 DPWS 裝置的網路上產生大量的輸出。 輸出可以重新導向至檔案，以方便分析。 在 WSD Debug Client 提示字元中輸入 **log t** *<filename>* ，以將輸出重新導向至檔案。 在 WSD Debug 用戶端提示字元中輸入 **log t stop** ，即可停止輸出重新導向。
+WSD Debug 用戶端可能會在具有許多 DPWS 裝置的網路上產生大量的輸出。 輸出可以重新導向至檔案，以方便分析。 在 WSD Debug Client 提示字元中輸入 **log t** *&lt; 檔案名 &gt;* ，以將輸出重新導向至檔案。 在 WSD Debug 用戶端提示字元中輸入 **log t stop** ，即可停止輸出重新導向。
 
 請記下 (EPR) 位址的端點參考。 此 EPR 位址應符合上述步驟2中識別的裝置識別碼。 如果是這種情況，則應用程式失敗可能與作業系統或網路環境無關。 以自訂主機和用戶端取代一般主機和用戶端，並遵循 [使用 WSD Debug 用戶端驗證多播流量](using-wsddebug-client-to-verify-multicast-traffic.md)的程式，繼續進行疑難排解。
 

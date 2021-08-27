@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: bb7881f233016026c06b48da05bfd368c229d594
-ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
+ms.openlocfilehash: 6016488816b132b1fc133ab1e207cf14cbc5b66d
+ms.sourcegitcommit: 4e94fc75fad7b2a0f3c92a26f97e89924e59b7a9
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "122623704"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "122786524"
 ---
 # <a name="span-idvspixengineipipelinestagesrequest3spanipipelinestagesrequest3-interface"></a><span id="vspixengine.ipipelinestagesrequest3"></span>IPipeLineStagesRequest3 介面
 
@@ -38,7 +38,7 @@ ms.locfileid: "122623704"
 
 **IPipeLineStagesRequest3** 介面具有這些方法。
 
-<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th style="text-align: left;">方法</th><th style="text-align: left;">描述</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/ipipelinestagesrequest3-requestmeshasync-eventid-bstr-ipipelinestagescallback3-ptr-dword-dword"><strong>RequestMeshAsync</strong></a></td><td style="text-align: left;"><p>從指定的事件取得網格資料的非同步要求。</p></td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th >方法</th><th >說明</th></tr></thead><tbody><tr class="odd"><td ><a href="/windows/desktop/direct3dtools/ipipelinestagesrequest3-requestmeshasync-eventid-bstr-ipipelinestagescallback3-ptr-dword-dword"><strong>RequestMeshAsync</strong></a></td><td ><p>從指定的事件取得網格資料的非同步要求。</p></td></tr></tbody></table>
 
  
 

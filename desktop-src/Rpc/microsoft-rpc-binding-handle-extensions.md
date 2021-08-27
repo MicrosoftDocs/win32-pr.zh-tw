@@ -4,12 +4,12 @@ description: IDL 語言的 Microsoft 擴充功能支援多個控制碼參數，�
 ms.assetid: 084b0d8e-0c8a-43b9-b3ae-4f69cab3a2c2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a947c10465cb24012be9c3f845fbd874f9de0567
-ms.sourcegitcommit: ae73f4dd3cf5a3c6a1ea7d191ca32a5b01f6686b
+ms.openlocfilehash: 8c93b68b20628bf6f7f65cee026412846e0b497d
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "104024239"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122475364"
 ---
 # <a name="microsoft-rpc-binding-handle-extensions"></a>Microsoft RPC Binding-Handle 擴充功能
 
@@ -44,63 +44,21 @@ IDL 的 Microsoft 擴充功能允許系結控制碼位於第一個參數以外�
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>範例</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre class="syntax" data-space="preserve"><code>void proc1( void );</code></pre></td>
-<td>未指定明確的控制碼。 使用 [ <a href="/windows/desktop/Midl/implicit-handle">implicit_handle</a>] 或 [ <a href="/windows/desktop/Midl/auto-handle">auto_handle</a>] 所指定的隱含系結控制碼。 如果沒有 ACF 存在，則會使用自動控制碼。</td>
-</tr>
-<tr class="even">
-<td><pre class="syntax" data-space="preserve"><code>void proc2([in] handle_t H,
-           [in] short s );</code></pre></td>
-<td>已指定 handle_t 類型的明確控制碼。 參數 <em>H</em> 是程式的系結控制碼。</td>
-</tr>
-<tr class="odd">
-<td><pre class="syntax" data-space="preserve"><code>void proc3([in] short s,
-           [in] handle_t H );</code></pre></td>
-<td>第一個參數不是控制碼。 在預設模式中，最左邊的控制碼參數 <em>H</em>為系結控制碼。 在/osf 模式中，會使用隱含系結。 系統會報告錯誤，因為第二個參數應為 transmissible，而且 handle_t 無法傳輸。</td>
-</tr>
-<tr class="even">
-<td><pre class="syntax" data-space="preserve"><code>typedef [handle] short * MY_HDL;
 
-void proc1([in] short s,
-           [in] MY_HDL H );</code></pre></td>
-<td>第一個參數不是控制碼。 在預設模式中，最左邊的控制碼參數 <em>H</em>為系結控制碼。 存根會呼叫使用者提供的常式 MY_HDL_bind 和 MY_HDL_unbind。 在/憑證模式中，會使用隱含系結。 程式設計師定義的控制碼參數 <em>H</em> 會視為 transmissible 資料。</td>
-</tr>
-<tr class="odd">
-<td><pre class="syntax" data-space="preserve"><code>Typedef [handle] short * MY_HDL;
-
-void proc1([in] MY_HDL H, 
-           [in] MY_HDL p );</code></pre></td>
-<td>第一個參數是系結控制碼。 參數 <em>H</em> 是系結控制碼參數。 第二個程式設計師定義的控制碼參數會被視為 transmissible 資料。</td>
-</tr>
-<tr class="even">
-<td><pre class="syntax" data-space="preserve"><code>Typedef [context_handle] 
-void * CTXT_HDL;
-
-void proc1([in] short s,
-           [in] long l,
-           [in] CTXT_HDL H ,
-           [in] char c);</code></pre></td>
-<td>系結控制碼是一個內容控制碼。 參數 <em>H</em> 是系結控制碼。</td>
-</tr>
-</tbody>
-</table>
+| 範例 | 描述 | 
+|---------|-------------|
+| <pre class="syntax" data-space="preserve"><code>void proc1( void );</code></pre> | 未指定明確的控制碼。 使用 [ <a href="/windows/desktop/Midl/implicit-handle">implicit_handle</a>] 或 [ <a href="/windows/desktop/Midl/auto-handle">auto_handle</a>] 所指定的隱含系結控制碼。 如果沒有 ACF 存在，則會使用自動控制碼。 | 
+| <pre class="syntax" data-space="preserve"><code>void proc2([in] handle_t H,           [in] short s );</code></pre> | 已指定 handle_t 類型的明確控制碼。 參數 <em>H</em> 是程式的系結控制碼。 | 
+| <pre class="syntax" data-space="preserve"><code>void proc3([in] short s,           [in] handle_t H );</code></pre> | 第一個參數不是控制碼。 在預設模式中，最左邊的控制碼參數 <em>H</em>為系結控制碼。 在/osf 模式中，會使用隱含系結。 系統會報告錯誤，因為第二個參數應為 transmissible，而且 handle_t 無法傳輸。 | 
+| <pre class="syntax" data-space="preserve"><code>typedef [handle] short * MY_HDL;void proc1([in] short s,           [in] MY_HDL H );</code></pre> | 第一個參數不是控制碼。 在預設模式中，最左邊的控制碼參數 <em>H</em>為系結控制碼。 存根會呼叫使用者提供的常式 MY_HDL_bind 和 MY_HDL_unbind。 在/憑證模式中，會使用隱含系結。 程式設計師定義的控制碼參數 <em>H</em> 會視為 transmissible 資料。 | 
+| <pre class="syntax" data-space="preserve"><code>Typedef [handle] short * MY_HDL;void proc1([in] MY_HDL H,            [in] MY_HDL p );</code></pre> | 第一個參數是系結控制碼。 參數 <em>H</em> 是系結控制碼參數。 第二個程式設計師定義的控制碼參數會被視為 transmissible 資料。 | 
+| <pre class="syntax" data-space="preserve"><code>Typedef [context_handle] void * CTXT_HDL;void proc1([in] short s,           [in] long l,           [in] CTXT_HDL H ,           [in] char c);</code></pre> | 系結控制碼是一個內容控制碼。 參數 <em>H</em> 是系結控制碼。 | 
 
 
 
- 
 
- 
+ 
 
- 
+ 
+
+ 

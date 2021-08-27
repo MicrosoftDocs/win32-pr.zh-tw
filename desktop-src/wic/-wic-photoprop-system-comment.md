@@ -4,12 +4,12 @@ ms.assetid: 02a6ac18-ad69-4880-a267-8330d648c0d9
 title: System. 批註相片中繼資料原則
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 45b3511e0a459a2b652b29828060be6f0a92a36639aef63d4fa087e54ec9d80b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2aa1a62fd5afa131a714c365ed2fda2c307bc955
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118205627"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122883909"
 ---
 # <a name="systemcomment-photo-metadata-policy"></a>System. 批註相片中繼資料原則
 
@@ -25,7 +25,7 @@ JPEG、TIFF
 
 ### <a name="read-only"></a>唯讀
 
-No
+否
 
 ### <a name="output-propvariant-type"></a>輸出 PROPVARIANT 類型
 
@@ -49,7 +49,7 @@ VT \_ LPWSTR 或 vt \_ LPSTR
 |-------|-------------------------------------|----------------|
 | 1     | /app1/ifd/{ushort = 40092}            | unicode \_ 位元組 |
 | 2     | /app1/ifd/{ushort = 37510}            | Unicode        |
-| 3     | /xmp/ <xmpalt> exif： UserComment | Unicode        |
+| 3     | /xmp/ &lt; xmpalt &gt; Exif： UserComment | Unicode        |
 
 
 
@@ -91,7 +91,7 @@ VT \_ LPWSTR 或 vt \_ LPSTR
 |-------|-----------------------------------------|----------------|
 | 1     | /ifd/{ushort = 40092}                     | unicode \_ 位元組 |
 | 2     | /ifd/{ushort = 37510}                     | Unicode        |
-| 3     | /ifd/xmp/ <xmpalt> exif： UserComment | Unicode        |
+| 3     | /ifd/xmp/ &lt; xmpalt &gt; Exif： UserComment | Unicode        |
 
 
 

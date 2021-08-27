@@ -6,12 +6,12 @@ keywords:
 - turbulence 效果
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2c4eb8f57f98c8e69591b7772d710d6deb7a78c801f3ca027175c55460c2d529
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: a2f2aa58be48c759956fe3522812d7ad6c3e9989
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119824486"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122468595"
 ---
 # <a name="turbulence-effect"></a>Turbulence 效果
 
@@ -53,59 +53,17 @@ Turbulence 效果會計算一或多個 Perlin 雜訊函數 octaves 的總和。 
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>顯示名稱和索引列舉</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Offset<br/> D2D1_TURBULENCE_PROP_OFFSET<br/></td>
-<td>產生 turbulence 輸出的座標。<br/> 用來產生 Perlin 雜訊的演算法與位置相依，因此不同的位移會導致不同的輸出。 這個屬性未系結，而且單位是在 Dip 中指定 <br/>
-<blockquote>
-[!Note]<br />
-位移與轉譯沒有相同的效果，因為雜訊函式輸出是無限的，且函式會在磚周圍換行。
-</blockquote>
-<br/> 此類型為 D2D1_VECTOR_2F。<br/> 預設值為 {0.0 f，0.0 f}。<br/></td>
-</tr>
-<tr class="even">
-<td>大小<br/> D2D1_TURBULENCE_PROP_SIZE<br/></td>
-<td>Turbulence 輸出的大小。<br/> 這個屬性未系結，而且單位是在 Dip 中指定 <br/>
-<br/> 此類型為 D2D1_VECTOR_2F。<br/> 預設值為 {0.0 f，0.0 f}。<br/></td>
-</tr>
-<tr class="odd">
-<td>BaseFrequency<br/> D2D1_TURBULENCE_PROP_BASE_FREQUENCY<br/></td>
-<td>X 和 Y 方向的基底頻率。 這個屬性是浮點數，而且必須大於0。 單位會以 1/下降來指定。 <br/> 針對基底頻率，1 (1/Dip) 的值會導致 Perlin 雜訊完成兩個圖元之間的整個迴圈。 這些圖元的簡化插補會產生完全隨機的圖元，因為圖元之間沒有相互關聯。<br/> 針對基底頻率，值為 0.1 (1/Dip) ，Perlin 雜訊函式每10次都會重複一次。 這會導致圖元之間的相互關聯，而且可以看見一般的 turbulence 效果。<br/> 此類型為 D2D1_VECTOR_2F。<br/> 預設值為 {0.01 f，0.01 f}。<br/></td>
-</tr>
-<tr class="even">
-<td>NumOctaves<br/> D2D1_TURBULENCE_PROP_NUM_OCTAVES<br/></td>
-<td>雜訊函數的 octaves 數目。 這個屬性是 UINT32，而且必須大於0。<br/> 此類型為 UINT32。<br/> 預設值為 1。<br/></td>
-</tr>
-<tr class="odd">
-<td>Seed<br/> D2D1_TURBULENCE_PROP_SEED<br/></td>
-<td>虛擬隨機產生器的種子。 這個屬性未系結。<br/> 此類型為 UINT32。<br/> 預設值為 0。<br/></td>
-</tr>
-<tr class="even">
-<td>雜訊<br/> D2D1_TURBULENCE_PROP_NOISE<br/></td>
-<td>Turbulence 雜訊模式。 這個屬性可以是 <em>碎形 sum</em> 或 <em>turbulence</em>。 指出是否要根據碎形雜訊或 Turbulence 函數來產生點陣圖。 如需詳細資訊，請參閱 <a href="#noise-modes">雜訊模式</a> 。 <br/> 此類型為 D2D1_TURBULENCE_NOISE。<br/> 預設值為 D2D1_TURBULENCE_NOISE_FRACTAL_SUM。<br/></td>
-</tr>
-<tr class="odd">
-<td>Stitchable<br/> D2D1_TURBULENCE_PROP_STITCHABLE<br/></td>
-<td>開啟或關閉裝訂。 基礎頻率會經過調整，以便拼接輸出點陣圖。 如果您想要並排顯示 turbulence 效果輸出的多個複本，這會很有用。
-<ul>
-<li>您可以使用圖格效果) 來將輸出點陣圖 (並排顯示，而不會顯示接縫的外觀。 基礎頻率會經過調整，以便拼接輸出點陣圖。</li>
-<li>False：基底頻率未調整，所以如果點陣圖已並排顯示，則圖格之間可能會出現接縫。</li>
-</ul>
-<br/> 此類型為 BOOL。<br/> 預設值為 FALSE。<br/></td>
-</tr>
-</tbody>
-</table>
+
+| 顯示名稱和索引列舉 | Description | 
+|------------------------------------|-------------|
+| Offset<br /> D2D1_TURBULENCE_PROP_OFFSET<br /> | 產生 turbulence 輸出的座標。<br /> 用來產生 Perlin 雜訊的演算法與位置相依，因此不同的位移會導致不同的輸出。 這個屬性未系結，而且單位是在 Dip 中指定 <br /><blockquote>[!Note]<br />位移與轉譯沒有相同的效果，因為雜訊函式輸出是無限的，且函式會在磚周圍換行。</blockquote><br /> 此類型為 D2D1_VECTOR_2F。<br /> 預設值為 {0.0 f，0.0 f}。<br /> | 
+| 大小<br /> D2D1_TURBULENCE_PROP_SIZE<br /> | Turbulence 輸出的大小。<br /> 這個屬性未系結，而且單位是在 Dip 中指定 <br /><br /> 此類型為 D2D1_VECTOR_2F。<br /> 預設值為 {0.0 f，0.0 f}。<br /> | 
+| BaseFrequency<br /> D2D1_TURBULENCE_PROP_BASE_FREQUENCY<br /> | X 和 Y 方向的基底頻率。 這個屬性是浮點數，而且必須大於0。 單位會以 1/下降來指定。 <br /> 針對基底頻率，1 (1/Dip) 的值會導致 Perlin 雜訊完成兩個圖元之間的整個迴圈。 這些圖元的簡化插補會產生完全隨機的圖元，因為圖元之間沒有相互關聯。<br /> 針對基底頻率，值為 0.1 (1/Dip) ，Perlin 雜訊函式每10次都會重複一次。 這會導致圖元之間的相互關聯，而且可以看見一般的 turbulence 效果。<br /> 此類型為 D2D1_VECTOR_2F。<br /> 預設值為 {0.01 f，0.01 f}。<br /> | 
+| NumOctaves<br /> D2D1_TURBULENCE_PROP_NUM_OCTAVES<br /> | 雜訊函數的 octaves 數目。 這個屬性是 UINT32，而且必須大於0。<br /> 此類型為 UINT32。<br /> 預設值為 1。<br /> | 
+| Seed<br /> D2D1_TURBULENCE_PROP_SEED<br /> | 虛擬隨機產生器的種子。 這個屬性未系結。<br /> 此類型為 UINT32。<br /> 預設值為 0。<br /> | 
+| 雜訊<br /> D2D1_TURBULENCE_PROP_NOISE<br /> | Turbulence 雜訊模式。 這個屬性可以是 <em>碎形 sum</em> 或 <em>turbulence</em>。 指出是否要根據碎形雜訊或 Turbulence 函數來產生點陣圖。 如需詳細資訊，請參閱 <a href="#noise-modes">雜訊模式</a> 。 <br /> 此類型為 D2D1_TURBULENCE_NOISE。<br /> 預設值為 D2D1_TURBULENCE_NOISE_FRACTAL_SUM。<br /> | 
+| Stitchable<br /> D2D1_TURBULENCE_PROP_STITCHABLE<br /> | 開啟或關閉裝訂。 基礎頻率會經過調整，以便拼接輸出點陣圖。 如果您想要並排顯示 turbulence 效果輸出的多個複本，這會很有用。<ul><li>您可以使用圖格效果) 來將輸出點陣圖 (並排顯示，而不會顯示接縫的外觀。 基礎頻率會經過調整，以便拼接輸出點陣圖。</li><li>False：基底頻率未調整，所以如果點陣圖已並排顯示，則圖格之間可能會出現接縫。</li></ul><br /> 此類型為 BOOL。<br /> 預設值為 FALSE。<br /> | 
+
 
 
 

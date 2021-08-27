@@ -7,12 +7,12 @@ MSHAttr:
 title: MBNProfileExt
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c47dd7c8b8064d7c9bed24763dfe3ec8fda0ac12
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: 1cf6b821d36fc69c06fd42fad58efc4102e64f6a
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122472124"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122987911"
 ---
 # <a name="span-idwwan_profile_v4element_mbnprofileextspanmbnprofileext"></a><span id="WWAN_profile_v4.element_MBNProfileExt"></span>MBNProfileExt
 
@@ -22,7 +22,7 @@ ms.locfileid: "122472124"
 
 ## <a name="element-hierarchy"></a>元素階層
 
-**<MBNProfileExt>**
+**&lt;MBNProfileExt&gt;**
 
 ## <a name="syntax"></a>Syntax
 
@@ -105,7 +105,9 @@ ms.locfileid: "122472124"
 ## <a name="requirements"></a>規格需求
 
 
-| | | <p>命名空間</p> | <p>https://www.microsoft.com/networking/WWAN/profile/v4</p> | 
+| 需求 | 值 |
+|------------|----------|
+| <p>命名空間</p> | <p>https://www.microsoft.com/networking/WWAN/profile/v4</p> | 
 
 
  

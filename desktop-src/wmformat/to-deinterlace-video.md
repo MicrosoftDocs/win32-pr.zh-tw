@@ -3,9 +3,9 @@ title: 若要逐行掃描影片
 description: 若要逐行掃描影片
 ms.assetid: 60e6af09-fde1-4e4a-b54c-4923c0549b6b
 keywords:
-- Windows Media Format SDK，deinterlaced 影片
-- Windows Media Format SDK，反向電視
-- Windows Media Format SDK，電影
+- Windows媒體格式 SDK，deinterlaced 影片
+- Windows媒體格式 SDK，反向電視
+- Windows媒體格式 SDK，電影
 - Advanced Systems Format (ASF) 、deinterlaced 影片
 - ASF (Advanced Systems Format) 、deinterlaced video
 - Advanced Systems Format (ASF) ，反向電視
@@ -17,12 +17,12 @@ keywords:
 - 電影、關於
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 580b8425e5807fefdfa889fcd08deedb4143cf39
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 1ef1d1a6fcee3bf43d2fb4451d4ef129e595471e
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104023056"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122475764"
 ---
 # <a name="to-deinterlace-video"></a>若要逐行掃描影片
 
@@ -34,63 +34,16 @@ ms.locfileid: "104023056"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>值</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>WM_DM_NOTINTERLACED</td>
-<td>輸入是漸進式的。 當您先前已將去交錯模式設定為另一個值時，請使用此設定來停止去交錯。</td>
-</tr>
-<tr class="even">
-<td>WM_DM_DEINTERLACE_NORMAL</td>
-<td>選取此模式以混合交錯框架的偶數和奇數位段， (使用運動補償機制) 。好處：<br/>
-<ul>
-<li>漸進顯示的交錯構件大幅減少。</li>
-<li>Windows Media 視訊編解碼器會產生較高品質的壓縮影片。</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>WM_DM_DEINTERLACE_HALFSIZE</td>
-<td>當輸出解析度為輸入解析度的一半或更少時，請選取此模式。 例如，當輸入影片解析度為 640 x 480 圖元，且輸出視頻解析度為 320 x 240 圖元時，請使用此模式。好處：<br/>
-<ul>
-<li>漸進顯示的交錯構件大幅減少。</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>WM_DM_DEINTERLACE_HALFSIZEDOUBLERATE</td>
-<td>當輸出解析度為輸入解析度的一半或更少時，請選取此模式，而且輸出 <a href="wmformat-glossary.md"><em>畫面播放速率</em></a> 會是高兩倍。 例如，當輸入影片解析度是 640 x 480 圖元（每秒30個交錯的框架/秒），且輸出影片解析度為 320 x 240 圖元（每秒的60畫面格）時，請使用此模式。好處：<br/>
-<ul>
-<li>這會產生高品質的漸進式框架，因為每個欄位都會轉換成框架，因此不需要 blend 任何資訊。</li>
-<li>會捕獲交錯式欄位的完整動作。</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>WM_DM_DEINTERLACE_INVERSETELECINE</td>
-<td>選取此模式可將 telecined 30 個畫面/秒的影片轉換成原始電影的每秒24個畫面格。好處：<br/>
-<ul>
-<li>壓縮品質大幅改善，因為只需要編碼24個框架/秒，而不是每秒30個畫面格。</li>
-<li>由於結果是漸進式的，因此會實現去交錯的相同壓縮和顯示優勢。</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>WM_DM_DEINTERLACE_VERTICALHALFSIZEDOUBLERATE</td>
-<td>當垂直輸出解析度是輸入垂直解析度的一半或更少時，請選取此模式，而且輸出 <a href="wmformat-glossary.md"><em>畫面播放速率</em></a> 會是高兩倍。 例如，輸入垂直影片解析度是 640 x 480 圖元，每秒30個交錯的畫面格，輸出垂直影片解析度是 320 x 240 圖元，每秒畫面60。好處：<br/>
-<ul>
-<li>這會產生高品質的漸進式框架，因為每個欄位都會轉換成框架，因此不需要 blend 任何資訊。</li>
-<li>會捕獲交錯式欄位的完整動作。</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| 值 | 描述 | 
+|-------|-------------|
+| WM_DM_NOTINTERLACED | 輸入是漸進式的。 當您先前已將去交錯模式設定為另一個值時，請使用此設定來停止去交錯。 | 
+| WM_DM_DEINTERLACE_NORMAL | 選取此模式以混合交錯框架的偶數和奇數位段， (使用運動補償機制) 。好處：<br /><ul><li>漸進顯示的交錯構件大幅減少。</li><li>Windows Media 視訊編解碼器會產生較高品質的壓縮影片。</li></ul> | 
+| WM_DM_DEINTERLACE_HALFSIZE | 當輸出解析度為輸入解析度的一半或更少時，請選取此模式。 例如，當輸入影片解析度為 640 x 480 圖元，且輸出視頻解析度為 320 x 240 圖元時，請使用此模式。好處：<br /><ul><li>漸進顯示的交錯構件大幅減少。</li></ul> | 
+| WM_DM_DEINTERLACE_HALFSIZEDOUBLERATE | 當輸出解析度為輸入解析度的一半或更少時，請選取此模式，而且輸出 <a href="wmformat-glossary.md"><em>畫面播放速率</em></a> 會是高兩倍。 例如，當輸入影片解析度是 640 x 480 圖元（每秒30個交錯的框架/秒），且輸出影片解析度為 320 x 240 圖元（每秒的60畫面格）時，請使用此模式。好處：<br /><ul><li>這會產生高品質的漸進式框架，因為每個欄位都會轉換成框架，因此不需要 blend 任何資訊。</li><li>會捕獲交錯式欄位的完整動作。</li></ul> | 
+| WM_DM_DEINTERLACE_INVERSETELECINE | 選取此模式可將 telecined 30 個畫面/秒的影片轉換成原始電影的每秒24個畫面格。好處：<br /><ul><li>壓縮品質大幅改善，因為只需要編碼24個框架/秒，而不是每秒30個畫面格。</li><li>由於結果是漸進式的，因此會實現去交錯的相同壓縮和顯示優勢。</li></ul> | 
+| WM_DM_DEINTERLACE_VERTICALHALFSIZEDOUBLERATE | 當垂直輸出解析度是輸入垂直解析度的一半或更少時，請選取此模式，而且輸出 <a href="wmformat-glossary.md"><em>畫面播放速率</em></a> 會是高兩倍。 例如，輸入垂直影片解析度是 640 x 480 圖元，每秒30個交錯的畫面格，輸出垂直影片解析度是 320 x 240 圖元，每秒畫面60。好處：<br /><ul><li>這會產生高品質的漸進式框架，因為每個欄位都會轉換成框架，因此不需要 blend 任何資訊。</li><li>會捕獲交錯式欄位的完整動作。</li></ul> | 
+
 
 
 
@@ -98,7 +51,7 @@ ms.locfileid: "104023056"
 
 針對混合內容，請在傳遞新類型的範例之前，視需要設定去交錯模式。 例如，若要以漸進式輸入開始編碼，您不需要設定任何去交錯模式。 如果某些範例接著需要一般去交錯，您必須將去交錯模式設定為 WM \_ DM 可進行 \_ 一般的交錯 \_ 。 若要處理其他漸進式範例，您必須將去交錯模式設定為 WM \_ DM \_ NOTINTERLACED。
 
-## <a name="inverse-telecine-settings"></a>反向電影設定
+## <a name="inverse-telecine-settings"></a>反向電視電視設定
 
 如需反向電視電影的說明，請參閱 [使用反向電視電影](to-use-inverse-telecine.md)。
 

@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 223f498f42e33dda09206b1e21a44138fda54e261ec957efb62e55148a014d6e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 31e1d42e4660e0e73830876cfdeb0a5c8a5957cd
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117677835"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122471884"
 ---
 # <a name="explorer-data-provider-sample"></a>Explorer 資料提供者範例
 
@@ -64,19 +64,11 @@ ms.locfileid: "117677835"
 >
 > <span codelanguage=""></span>
 >
-> <table>
-> <colgroup>
-> <col style="width: 100%" />
-> </colgroup>
-> <tbody>
-> <tr class="odd">
-> <td><pre><code>LinkIncremental=&quot;1&quot;
-> AdditionalLibraryDirectories=&quot;&quot;c:\Program Files\Microsoft SDKs\Windows\v6.0\Lib\x64&quot;&quot;
-> ModuleDefinitionFile=&quot;ExplorerDataProvider.def&quot;
-> GenerateDebugInformation=&quot;true&quot;</code></pre></td>
-> </tr>
-> </tbody>
-> </table> 
+> 
+| | | <pre><code>LinkIncremental="1"&gt; AdditionalLibraryDirectories=""c:\Program Files\Microsoft SDKs\Windows\v6.0\Lib\x64""&gt; ModuleDefinitionFile="ExplorerDataProvider.def"&gt; GenerateDebugInformation="true"</code></pre> | 
+
+>
+> 
 >
 > 此範例從程式碼庫下載的版本已針對此問題更正，而不需要在您的部分進行任何額外的動作。
 >
