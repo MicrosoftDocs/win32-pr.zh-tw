@@ -4,12 +4,12 @@ ms.assetid: 3cf9fba7-6895-4dfb-9aef-571c512b7955
 title: 'AVEncDDPreferredStereoDownMixMode 屬性 (Codecapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: aea695491175c8cb7d769673fcb09dd6ad2ae9f6
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 0f28df64ba42cec96f7b1d18a6bb32ec08bd2b93176adbaa0233364c35b4ab6b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103846660"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120087618"
 ---
 # <a name="avencddpreferredstereodownmixmode-property"></a>AVEncDDPreferredStereoDownMixMode 屬性
 
@@ -39,8 +39,8 @@ ms.locfileid: "103846660"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 2000 專業版傳統型 \[ 應用程式 \| UWP 應用程式\]<br/>                     |
-| 最低支援的伺服器<br/> | Windows 2000 Server \[ desktop 應用程式 \| UWP 應用程式\]<br/>                           |
+| 最低支援的用戶端<br/> | Windows 2000 Professional \[ 桌面應用程式 \| UWP 應用程式\]<br/>                     |
+| 最低支援的伺服器<br/> | Windows 2000 Server \[ desktop apps \| UWP 應用程式\]<br/>                           |
 | 標頭<br/>                   | <dl> <dt>Codecapi。h</dt> </dl> |
 
 

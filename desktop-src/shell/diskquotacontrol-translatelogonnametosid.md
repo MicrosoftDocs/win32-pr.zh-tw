@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 3b6b0d03-e9ef-4575-bb67-f7b7b39d2a16
-ms.openlocfilehash: 5f0a2591b0f5df6bc0f50994fcbf101b7bfbb36d
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: 6bcaa5ac4f7dff4be80763b0aa411b7f104ff786b21e422044bdc7198697d54c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109841559"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120111818"
 ---
 # <a name="diskquotacontroltranslatelogonnametosid-method"></a>DiskQuotaControl. TranslateLogonNameToSID 方法
 
@@ -58,7 +58,7 @@ DiskQuotaControl.TranslateLogonNameToSID(
 
 傳回的 SID 字串可以傳遞至 [**FindUser**](diskquotacontrol-finduser.md) 方法，以取代登入名稱。
 
-[**FindUser**](diskquotacontrol-finduser.md) ( *logonname*) 方法的呼叫失敗時，可能是因為表單 (（例如，安全性帳戶管理員 \[ SAM 相容） \] 和使用者主體名稱 \[ UPN \]) 所提供的登入名稱和儲存在 SID 名稱快取中的表單不符。 在這種情況下，登入名稱可以轉換為 SID，並重複呼叫 **FindUser** 。 **FindUser** 會辨識 sid 字串，且會略過 sid 名稱快取查閱。 下列 Microsoft Visual Basic Scripting Edition (VBScript) 程式碼說明這項技巧。
+[**FindUser**](diskquotacontrol-finduser.md) ( *logonname*) 方法的呼叫失敗時，可能是因為表單 (（例如，安全性帳戶管理員 \[ SAM 相容） \] 和使用者主體名稱 \[ UPN \]) 所提供的登入名稱和儲存在 SID 名稱快取中的表單不符。 在這種情況下，登入名稱可以轉換為 SID，並重複呼叫 **FindUser** 。 **FindUser** 會辨識 sid 字串，且會略過 sid 名稱快取查閱。 下列 Microsoft Visual Basic 腳本撰寫版 (VBScript) 程式碼說明這項技巧。
 
 
 ```
@@ -84,8 +84,8 @@ End Function
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 windows 2000 Professional、Windows XP \[ desktop 應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                          |
+| 最低支援的用戶端<br/> | Windows 2000 Professional，僅 Windows XP \[ desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                          |
 | DLL<br/>                      | <dl> <dt>Shell32.dll (5.0 版或更新版本) </dt> </dl> |
 
 

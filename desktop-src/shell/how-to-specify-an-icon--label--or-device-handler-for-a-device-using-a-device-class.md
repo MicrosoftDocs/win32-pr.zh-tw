@@ -4,12 +4,12 @@ ms.assetid: E32C1BA6-B520-4809-A9E9-48813C7EBAA4
 title: 如何使用裝置類別指定裝置的圖示、標籤或裝置處理常式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 46f81ee6fa469a6bec13abbc1d8a088f5fb334ea
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: 26ef06228d9b533f2793384c0053017f06aca72d05bd64c5333aa2aadca48dcf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104991550"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120111768"
 ---
 # <a name="how-to-specify-an-icon-label-or-device-handler-for-a-device-using-a-device-class"></a>如何使用裝置類別指定裝置的圖示、標籤或裝置處理常式
 

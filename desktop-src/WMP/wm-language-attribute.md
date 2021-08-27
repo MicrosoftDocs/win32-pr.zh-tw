@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 172cc8498bf5360e29822a484bcc2ddacd70b8b7
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8902d36ebe9e8227d22f55273e8351d7ed09c592953b44a31e45c06b838f9871
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107000390"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120122648"
 ---
 # <a name="wmlanguage-attribute"></a>WM/Language 屬性
 
@@ -26,7 +26,7 @@ ms.locfileid: "107000390"
 ## <a name="applies-to"></a>套用至
 
 -   [音訊專案](audio-item-attributes.md)
--   [常用的 Windows Media 檔案屬性](commonly-used-windows-media-file-attributes.md)
+-   [常用 Windows 媒體檔案屬性](commonly-used-windows-media-file-attributes.md)
 -   [單選項目](radio-item-attributes.md)
 -   [影片專案](video-item-attributes.md)
 
@@ -38,7 +38,7 @@ ms.locfileid: "107000390"
 
 **Language** 是這個屬性的別名。
 
-這個屬性的 Windows Media Format SDK 常數是 g \_ wszWMLanguage。
+這個屬性的 Windows 媒體格式 SDK 常數是 g \_ wszWMLanguage。
 
 若要判斷是否可以變更這個屬性的值，請使用 [isReadOnlyItem](media-isreadonlyitem.md) 方法。
 

@@ -4,36 +4,36 @@ ms.assetid: 8318c22f-85a2-490e-8233-ee1e234890d9
 title: 視窗功能
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 228c6b4ab59102cae38a248935fbbad32198f2e0
-ms.sourcegitcommit: 8755905962e156f29203705d09d6df8b7d0e2fca
+ms.openlocfilehash: 9437ab95d12ccc56cdf5e87af2127f4c34ad6def7f07f4e79246a2ad591a5ae8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "106995113"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120110678"
 ---
 # <a name="window-features"></a>視窗功能
 
 本總覽討論視窗的功能，例如視窗類型、狀態、大小和位置。
 
 -   [視窗類型](#window-types)
-    -   [重迭視窗](#overlapped-windows)
-    -   [快顯視窗](#pop-up-windows)
-    -   [子視窗](#child-windows)
+    -   [重迭 Windows](#overlapped-windows)
+    -   [彈出 Windows](#pop-up-windows)
+    -   [子 Windows](#child-windows)
         -   [定位](#positioning)
         -   [裁剪](#clipping)
         -   [父視窗的關聯性](#relationship-to-parent-window)
         -   [訊息](#size-and-position-messages)
-    -   [分層視窗](#layered-windows)
-    -   [僅限訊息的視窗](#message-only-windows)
+    -   [分層 Windows](#layered-windows)
+    -   [僅限訊息 Windows](#message-only-windows)
 -   [視窗關聯性](#window-relationships)
-    -   [前景和背景視窗](#foreground-and-background-windows)
-    -   [擁有的視窗](#owned-windows)
+    -   [前景和背景 Windows](#foreground-and-background-windows)
+    -   [擁有的 Windows](#owned-windows)
     -   [Z 順序](#z-order)
 -   [視窗顯示狀態](#window-show-state)
     -   [使用中視窗](#active-window)
-    -   [停用的視窗](#disabled-windows)
+    -   [停用的 Windows](#disabled-windows)
     -   [視窗可見度](#window-visibility)
-    -   [最小化、最大化和還原的視窗](#minimized-maximized-and-restored-windows)
+    -   [最小化、最大化和還原 Windows](#minimized-maximized-and-restored-windows)
 -   [視窗大小和位置](#window-size-and-position)
     -   [預設大小和位置](#default-size-and-position)
     -   [追蹤大小](#tracking-size)
@@ -50,25 +50,25 @@ ms.locfileid: "106995113"
 
 本節包含描述視窗類型的下列主題。
 
--   [重迭視窗](#overlapped-windows)
--   [快顯視窗](#pop-up-windows)
--   [子視窗](#child-windows)
--   [分層視窗](#layered-windows)
--   [僅限訊息的視窗](#message-only-windows)
+-   [重迭 Windows](#overlapped-windows)
+-   [彈出 Windows](#pop-up-windows)
+-   [子 Windows](#child-windows)
+-   [分層 Windows](#layered-windows)
+-   [僅限訊息 Windows](#message-only-windows)
 
-### <a name="overlapped-windows"></a>重迭視窗
+### <a name="overlapped-windows"></a>重迭 Windows
 
 重迭 *視窗* 是最上層視窗， (具有標題列、框線和工作區的非子視窗) ;它是作為應用程式的主視窗。 它也可以有視窗功能表、最小化和最大化按鈕，以及捲軸。 當做主視窗使用的重迭視窗通常包含所有這些元件。
 
 藉由在 [**CreateWindowEx**](/windows/win32/api/winuser/nf-winuser-createwindowexa)函式中指定 ws 重迭或 **ws \_ OVERLAPPEDWINDOW** 樣式，應用程式會建立一個重迭的視窗。 [**\_**](window-styles.md) 如果您使用 **WS 重 \_** 迭樣式，則視窗具有標題列和框線。 如果您使用 **WS \_ OVERLAPPEDWINDOW** 樣式，則視窗具有標題列、調整大小框線、視窗功能表，以及最小化和最大化按鈕。
 
-### <a name="pop-up-windows"></a>快顯視窗
+### <a name="pop-up-windows"></a>彈出 Windows
 
 *快顯視窗* 是一種特殊類型的重迭視窗，用於對話方塊、訊息方塊，以及顯示在應用程式主視窗外部的其他暫存視窗。 標題列是快顯視窗的選擇性專案;否則，快顯視窗與 WS 重迭樣式的重迭視窗相同 [**。 \_**](window-styles.md)
 
 您可以藉由在 [**CreateWindowEx**](/windows/win32/api/winuser/nf-winuser-createwindowexa)中指定 [**WS \_ 彈出**](window-styles.md)視窗樣式來建立快顯視窗。 若要包含標題列，請指定 **WS \_ 標題** 樣式。 使用 **WS \_ POPUPWINDOW** 樣式，建立具有框線和視窗功能表的快顯視窗。 **Ws \_ 標題** 樣式必須與 **ws \_ POPUPWINDOW** 樣式結合，才能讓視窗功能表顯示。
 
-### <a name="child-windows"></a>子視窗
+### <a name="child-windows"></a>子 Windows
 
 *子視窗* 具有 [**WS \_ 子**](window-styles.md)樣式，且受限於其父視窗的工作區。 應用程式通常會使用子視窗將父視窗的工作區分割成功能區域。 您可以藉由在 [**CreateWindowEx**](/windows/win32/api/winuser/nf-winuser-createwindowexa)函式中指定 **WS \_ 子** 系樣式來建立子視窗。
 
@@ -124,14 +124,14 @@ ms.locfileid: "106995113"
 
 子視窗可以有唯一的整數識別碼。 使用控制項視窗時，子視窗識別碼相當重要。 應用程式會藉由傳送訊息來導向控制項的活動。 應用程式會使用控制項的子視窗識別碼，將訊息導向至控制項。 此外，控制項會將通知訊息傳送至其父視窗。 通知訊息會包含控制項的子視窗識別碼，父系會使用此識別碼來識別傳送訊息的控制項。 應用程式會藉由將 [**CreateWindowEx**](/windows/win32/api/winuser/nf-winuser-createwindowexa)函式的 *hMenu* 參數設定為值而非功能表控制碼，來指定其他類型之子視窗的子視窗識別碼。
 
-### <a name="layered-windows"></a>分層視窗
+### <a name="layered-windows"></a>分層 Windows
 
 使用分層視窗可大幅改善具有複雜圖形、動畫圖形或希望使用 Alpha 混色效果之視窗的效能和視覺效果。 系統會自動撰寫和重新繪製分層視窗和基礎應用程式的視窗。 如此一來，就能順暢地轉譯分層視窗，而不會有複雜視窗區域的閃爍。 此外，分層視窗也可以部分半透明，也就是以 Alpha 混合的方式。
 
 若要建立多層式視窗，請在呼叫 [**CreateWindowEx**](/windows/win32/api/winuser/nf-winuser-createwindowexa)函式時指定 **ws \_ ex \_ 分層** 擴充視窗樣式，或呼叫 [**SetWindowLong**](/windows/win32/api/winuser/nf-winuser-setwindowlonga)函式，以在建立視窗之後設定 **ws \_ ex \_ 分層**。 在 **CreateWindowEx** 呼叫之後，在此視窗中呼叫 [**SetLayeredWindowAttributes**](/windows/win32/api/winuser/nf-winuser-setlayeredwindowattributes) 或 [**UpdateLayeredWindow**](/windows/win32/api/winuser/nf-winuser-updatelayeredwindow) 函式之前，不會顯示多層式視窗。
 
 > [!Note]  
-> 從 Windows 8 開始， **WS \_ EX \_ 分層** 可以搭配子視窗和最上層視窗使用。 先前的 Windows 版本僅支援最上層視窗的 **WS 範例 \_ \_ 層** 級。
+> 從 Windows 8 開始， **WS \_ EX \_ 分層** 可以搭配子視窗和最上層視窗使用。 先前的 Windows 版本僅支援最上層 Windows 的 **WS 範例 \_ \_ 層** 級。
 
  
 
@@ -153,11 +153,11 @@ ms.locfileid: "106995113"
 
 有許多方式可讓視窗與使用者或另一個視窗相關聯。 視窗可以是擁有的視窗、前景視窗或背景視窗。 視窗也有相對於其他視窗的 z 順序。 如需詳細資訊，請參閱下列主題：
 
--   [前景和背景視窗](#foreground-and-background-windows)
--   [擁有的視窗](#owned-windows)
+-   [前景和背景 Windows](#foreground-and-background-windows)
+-   [擁有的 Windows](#owned-windows)
 -   [Z 順序](#z-order)
 
-### <a name="foreground-and-background-windows"></a>前景和背景視窗
+### <a name="foreground-and-background-windows"></a>前景和背景 Windows
 
 每個進程都可以有多個執行緒，而且每個執行緒都可以建立視窗。 建立使用者目前正在工作之視窗的執行緒稱為「前景執行緒」，而視窗則稱為「 *前景視窗*」。 所有其他執行緒都是背景執行緒，而背景執行緒所建立的視窗稱為 *背景視窗*。
 
@@ -170,7 +170,7 @@ ms.locfileid: "106995113"
 系統會限制哪些進程可以設定前景視窗。 只有在下列情況時，進程才能設定前景視窗：
 
 - 下列所有條件都成立：
-  - 呼叫 **SetForegroundWindow** 的程式屬於桌面應用程式，而不是針對 Windows 8 或8.1 所設計的 UWP 應用程式或 Windows Store 應用程式。
+  - 呼叫 **SetForegroundWindow** 的程式屬於桌面應用程式，而非 UWP 應用程式或針對 Windows 8 或8.1 設計的 Windows 存放區應用程式。
   - 前景進程尚未針對 [**LockSetForegroundWindow**](/windows/win32/api/winuser/nf-winuser-locksetforegroundwindow)函式的先前呼叫停用對 **SetForegroundWindow** 的呼叫。
   - 前景鎖定超時已過期 (請參閱 SystemParametersInfo) [中的 **SPI_GETFOREGROUNDLOCKTIMEOUT**](/windows/win32/api/winuser/nf-winuser-systemparametersinfoa#SPI_GETFOREGROUNDLOCKTIMEOUT) 。
   - 沒有作用中的功能表。
@@ -185,7 +185,7 @@ ms.locfileid: "106995113"
 
 可以設定前景視窗的進程，可以藉由呼叫 [**AllowSetForegroundWindow**](/windows/win32/api/winuser/nf-winuser-allowsetforegroundwindow) 函式或呼叫 [**BroadcastSystemMessage**](/windows/win32/api/winuser/nf-winuser-broadcastsystemmessage) 函式與 **BSF \_ ALLOWSFW** 旗標，讓另一個進程設定前景視窗。 前景進程可以藉由呼叫 [**LockSetForegroundWindow**](/windows/win32/api/winuser/nf-winuser-locksetforegroundwindow)函數來停用對 [**SetForegroundWindow**](/windows/win32/api/winuser/nf-winuser-setforegroundwindow)的呼叫。
 
-### <a name="owned-windows"></a>擁有的視窗
+### <a name="owned-windows"></a>擁有的 Windows
 
 重迭或快顯視窗可以由另一個重迭或快顯視窗所擁有。 所擁有的會將數個條件約束放在視窗上。
 
@@ -214,9 +214,9 @@ ms.locfileid: "106995113"
 在任何指定的時間，視窗可能會處於作用中或非作用中;隱藏或可見;以及最小化、最大化或還原。 這些品質統稱為 *視窗顯示狀態*。 下列主題討論視窗顯示狀態：
 
 -   [使用中視窗](#active-window)
--   [停用的視窗](#disabled-windows)
+-   [停用的 Windows](#disabled-windows)
 -   [視窗可見度](#window-visibility)
--   [最小化、最大化和還原的視窗](#minimized-maximized-and-restored-windows)
+-   [最小化、最大化和還原 Windows](#minimized-maximized-and-restored-windows)
 
 ### <a name="active-window"></a>使用中視窗
 
@@ -226,7 +226,7 @@ ms.locfileid: "106995113"
 
 當啟用從某個應用程式的最上層視窗變更為另一個應用程式的最上層視窗時，系統會將 [**WM \_ ACTI加值稅EAPP**](wm-activateapp.md) 訊息傳送給這兩個應用程式，以通知變更。 當啟用變更至相同應用程式中不同的最上層視窗時，系統會傳送 [**WM \_ 啟動**](../inputdev/wm-activate.md) 訊息給這兩個視窗。
 
-### <a name="disabled-windows"></a>停用的視窗
+### <a name="disabled-windows"></a>停用的 Windows
 
 您可以停用視窗。 *停用的視窗* 不會收到使用者的鍵盤或滑鼠輸入，但可以從其他視窗、從其他應用程式和系統接收訊息。 應用程式通常會停用視窗，以防止使用者使用視窗。 例如，應用程式可能會停用對話方塊中的 [推播] 按鈕，以防止使用者選擇它。 應用程式可以隨時啟用停用的視窗;啟用視窗會還原一般輸入。
 
@@ -250,7 +250,7 @@ ms.locfileid: "106995113"
 
 即使視窗具有 [**WS \_ 可見**](window-styles.md) 樣式，使用者可能還是看不到畫面上的視窗; 其他視窗可能會完全重迭，或移到螢幕邊緣之外。 此外，可見的子視窗會受其父子式關聯性所建立的裁剪規則所規範。 如果看不到視窗的父視窗，也不會顯示它。 如果父視窗移動超過螢幕邊緣，子視窗也會移動，因為相對於父代的左上角繪製了子視窗。 例如，使用者可以將包含子視窗的父視窗，從畫面的邊緣移到足夠的範圍，讓使用者看不到子視窗，即使子視窗及其父視窗都具有 **WS \_ 可見** 樣式也一樣。
 
-### <a name="minimized-maximized-and-restored-windows"></a>最小化、最大化和還原的視窗
+### <a name="minimized-maximized-and-restored-windows"></a>最小化、最大化和還原 Windows
 
 *最大化的視窗* 是具有 [**WS \_ 最大化**](window-styles.md)樣式的視窗。 根據預設值，系統會將最大化視窗放大到佔滿畫面，如果是子視窗，則是放大到佔滿父視窗的工作區 (Client Area)。 雖然視窗的大小可以設定為最大化視窗的大小，但是最大化的視窗會稍有不同。 系統會自動將視窗的標題列移到螢幕頂端，或移至父視窗工作區的頂端。 此外，系統會停用視窗的大小調整框線以及標題列 (的視窗定位功能，讓使用者無法藉由拖曳標題列) 來移動視窗。
 
@@ -341,7 +341,7 @@ ms.locfileid: "106995113"
 
 ## <a name="window-layout-and-mirroring"></a>視窗版面配置和鏡像
 
-視窗配置會定義文字和 Windows 圖形裝置介面 (GDI) 物件在視窗或裝置內容 (DC) 中的配置方式。 某些語言（例如英文、法文和德文）需要由左至右 (LTR) 版面配置。 其他語言（例如阿拉伯文和希伯來文）需要由右至左的 (RTL) 版面配置。 視窗配置會套用至文字，但也會影響視窗的其他 GDI 元素，包括點陣圖、圖示、原點位置、按鈕、階層式樹狀結構控制項，以及水準座標是否隨著您往左或右增加。 例如，在應用程式設定了 RTL 版面配置之後，原點位於視窗或裝置的右邊緣，而代表水準座標的數位會隨著您左移而增加。 但是，並非所有物件都會受到視窗版面配置的影響。 例如，您必須個別處理對話方塊的配置、訊息方塊，以及未與視窗相關聯的裝置內容，例如中繼檔和印表機 Dc。 本主題稍後將說明這些細節的詳細資訊。
+視窗配置會定義如何在視窗或裝置內容 (DC) 中配置文字和 Windows 圖形裝置介面 (GDI) 物件。 某些語言（例如英文、法文和德文）需要由左至右 (LTR) 版面配置。 其他語言（例如阿拉伯文和希伯來文）需要由右至左的 (RTL) 版面配置。 視窗配置會套用至文字，但也會影響視窗的其他 GDI 元素，包括點陣圖、圖示、原點位置、按鈕、階層式樹狀結構控制項，以及水準座標是否隨著您往左或右增加。 例如，在應用程式設定了 RTL 版面配置之後，原點位於視窗或裝置的右邊緣，而代表水準座標的數位會隨著您左移而增加。 但是，並非所有物件都會受到視窗版面配置的影響。 例如，您必須個別處理對話方塊的配置、訊息方塊，以及未與視窗相關聯的裝置內容，例如中繼檔和印表機 Dc。 本主題稍後將說明這些細節的詳細資訊。
 
 視窗函式可讓您在阿拉伯文和希伯來文版本的 Windows 中，指定或變更視窗版面配置。 請注意，變更為 RTL 版面配置的 (也稱為鏡像) ，其樣式為 [CS \_ OWNDC](about-window-classes.md) 或具有 GM \_ ADVANCED 圖形模式的 DC 則不支援。
 

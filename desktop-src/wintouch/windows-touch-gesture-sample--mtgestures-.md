@@ -1,29 +1,29 @@
 ---
-title: 'Windows Touch 手勢範例 (MTGestures) '
+title: 'Windows觸控手勢範例 (MTGestures) '
 description: 本節說明 Windows Touch 手勢範例。
 ms.assetid: 04166c9c-5de7-409e-9d5e-dd210a3a3f11
 keywords:
-- Windows Touch，程式碼範例
-- Windows Touch，範例程式碼
-- Windows Touch，手勢
-- Windows Touch、手勢範例
+- Windows觸控、程式碼範例
+- Windows觸控，範例程式碼
+- Windows觸控、手勢
+- Windows觸控、手勢範例
 - 手勢範例
 - 手勢，範例程式碼
 - 手勢，程式碼範例
 ms.topic: article
 ms.date: 02/18/2020
-ms.openlocfilehash: 0e01d97e844af37caeb5c33f3cb780601da4629d
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 656b269eae779cd999680e165ba071d983d18526c2e9b873c5a916d61ccdb9f1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "103681395"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120110580"
 ---
-# <a name="windows-touch-gesture-sample-mtgestures"></a>Windows Touch 手勢範例 (MTGestures) 
+# <a name="windows-touch-gesture-sample-mtgestures"></a>Windows觸控手勢範例 (MTGestures) 
 
 本節說明 Windows Touch 手勢範例。
 
-Windows Touch 手勢範例示範如何使用筆勢訊息來轉譯、旋轉和調整由圖形裝置介面 (GDI) 轉譯的方塊，方法是處理 [**WM_GESTURE**](wm-gesture.md) 訊息。 下列螢幕擷取畫面顯示範例在執行時的外觀。
+Windows Touch 手勢範例示範如何使用筆勢訊息來轉譯、旋轉和調整由圖形裝置介面 (GDI) 轉譯的方塊，方法是處理 [**WM_GESTURE**](wm-gesture.md)訊息。 下列螢幕擷取畫面顯示範例在執行時的外觀。
 
 ![螢幕擷取畫面，顯示正在執行的 windows 觸控手勢範例，並在螢幕上使用旋轉的黑色空心矩形](images/mtgestures.png)
 
@@ -73,4 +73,4 @@ void ToggleDrawDiagonals(void){_bDrawDiagonals = !_bDrawDiagonals;}
 
 ## <a name="related-topics"></a>相關主題
 
-[多點觸控手勢應用程式 (c # ) ](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTGestures/CS)、 [多點觸控手勢應用程式 (c + +) ](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTGestures/cpp)、 [Windows Touch 範例](windows-touch-samples.md)
+[多點觸控手勢應用程式 (c # ) ](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTGestures/CS)、[多點觸控手勢應用程式 (c + +) ](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTGestures/cpp)、 [Windows Touch 範例](windows-touch-samples.md)

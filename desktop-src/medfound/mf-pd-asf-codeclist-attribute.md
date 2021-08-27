@@ -4,12 +4,12 @@ ms.assetid: 6dde30d3-dbdc-469c-ad7e-5e670b7e0a64
 title: 'MF_PD_ASF_CODECLIST 屬性 (Wmcontainer) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 402c53c082ae57fed444168c559f99718322f8a9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c512dee499dbd2d006fb695c89d59add449e64fb
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106971538"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122471304"
 ---
 # <a name="mf_pd_asf_codeclist-attribute"></a>MF \_ PD \_ ASF \_ CODECLIST 屬性
 
@@ -31,7 +31,7 @@ ms.locfileid: "106971538"
 
 | 編解碼器清單物件欄位 | 資料類型    | 大小    | Description                           |
 |-------------------------|--------------|---------|---------------------------------------|
-| 編解碼器專案計數     | **Dword**    | 4 個位元組 | 編解碼器數目                      |
+| 編解碼器專案計數     | **DWORD**    | 4 個位元組 | 編解碼器數目                      |
 | 編解碼器專案           | **位元組**\[\] | 不定  | 編解碼器資訊結構的陣列 |
 
 
@@ -42,71 +42,17 @@ ms.locfileid: "106971538"
 
 
 
-<table>
-<colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>編解碼器清單物件欄位</th>
-<th>資料類型</th>
-<th>大小</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>類型</td>
-<td><strong>Dword</strong></td>
-<td>4 個位元組</td>
-<td>編解碼器類型。 這個值可以是下列其中一個值：<br/>
-<ul>
-<li>0x0001：音訊編解碼器</li>
-<li>0x0002：影片編解碼器</li>
-<li>0xFFFF：未知</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>編解碼器名稱長度</td>
-<td><strong>Dword</strong></td>
-<td>4 個位元組</td>
-<td>編解碼器名稱字串的大小（以位元組為單位），包括 <strong>Null</strong> 字元。</td>
-</tr>
-<tr class="odd">
-<td>編解碼器名稱</td>
-<td><strong>WCHAR</strong>[]</td>
-<td>不定</td>
-<td>以 Null 終止的 Unicode 字串，其中包含編解碼器的名稱，例如 &quot; Windows Media 視訊 9 &quot; 。</td>
-</tr>
-<tr class="even">
-<td>編解碼器描述長度</td>
-<td><strong>Dword</strong></td>
-<td>4 個位元組</td>
-<td>編解碼器描述字串的大小（以位元組為單位），包括 <strong>Null</strong> 字元。</td>
-</tr>
-<tr class="odd">
-<td>編解碼器描述</td>
-<td><strong>WCHAR</strong>[]</td>
-<td>不定</td>
-<td>以 null 終止的 Unicode 字串，其中包含編解碼器的描述。</td>
-</tr>
-<tr class="even">
-<td>編解碼器資訊長度</td>
-<td><strong>Dword</strong></td>
-<td>4 個位元組</td>
-<td>編解碼器資訊欄位的大小（以位元組為單位）。</td>
-</tr>
-<tr class="odd">
-<td>編解碼器資訊</td>
-<td><strong>BYTE</strong>[]</td>
-<td>不定</td>
-<td>編解碼器資料。 這項資料的意義取決於編解碼器。 一般而言，此資料會指出格式。</td>
-</tr>
-</tbody>
-</table>
+
+| 編解碼器清單物件欄位 | 資料類型 | 大小 | 描述 | 
+|-------------------------|-----------|------|-------------|
+| 類型 | <strong>DWORD</strong> | 4 個位元組 | 編解碼器類型。 這個值可以是下列其中一個值：<br /><ul><li>0x0001：音訊編解碼器</li><li>0x0002：影片編解碼器</li><li>0xFFFF：未知</li></ul> | 
+| 編解碼器名稱長度 | <strong>DWORD</strong> | 4 個位元組 | 編解碼器名稱字串的大小（以位元組為單位），包括 <strong>Null</strong> 字元。 | 
+| 編解碼器名稱 | <strong>WCHAR</strong>[] | 不定 | 以 Null 終止的 Unicode 字串，其中包含編解碼器的名稱，例如 "Windows Media 視訊 9"。 | 
+| 編解碼器描述長度 | <strong>DWORD</strong> | 4 個位元組 | 編解碼器描述字串的大小（以位元組為單位），包括 <strong>Null</strong> 字元。 | 
+| 編解碼器描述 | <strong>WCHAR</strong>[] | 不定 | 以 null 終止的 Unicode 字串，其中包含編解碼器的描述。 | 
+| 編解碼器資訊長度 | <strong>DWORD</strong> | 4 個位元組 | 編解碼器資訊欄位的大小（以位元組為單位）。 | 
+| 編解碼器資訊 | <strong>BYTE</strong>[] | 不定 | 編解碼器資料。 這項資料的意義取決於編解碼器。 一般而言，此資料會指出格式。 | 
+
 
 
 
@@ -123,8 +69,8 @@ ms.locfileid: "106971538"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                     |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                     |
 | 標頭<br/>                   | <dl> <dt>Wmcontainer。h</dt> </dl> |
 
 

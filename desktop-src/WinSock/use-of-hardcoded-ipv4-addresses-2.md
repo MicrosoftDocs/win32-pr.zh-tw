@@ -4,12 +4,12 @@ ms.assetid: adb39f27-c219-43cd-9e86-b2d3b663c79c
 title: 使用硬式編碼的 IPv4 位址
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8205840b1c79afcaf375b81f3223a1c780cc03d5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8f0506f200776402464c4b2904435157c435ece7fc2c6d9e0b10bfd1c1d66491
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318359"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120121198"
 ---
 # <a name="use-of-hardcoded-ipv4-addresses"></a>使用硬式編碼的 IPv4 位址
 
@@ -25,7 +25,7 @@ IPv4 的壽命導致硬式編碼許多知名的 IPv4 位址，例如 (127. x. x.
 
 **從 IPv4 將現有的程式碼基底修改為 IPv4 和 IPv6 互通性**
 
-1.  取得 *Checkv4.exe* 公用程式。 *Checkv4.exe* 公用程式會安裝為 Windows Vista 和更新版本的 Microsoft WINDOWS 軟體開發套件 (SDK) 所發行的一部分。 Windows SDK 可透過 MSDN 訂閱取得，也可以從 Microsoft 網站 (下載 https://msdn.microsoft.com) 。
+1.  取得 *Checkv4.exe* 公用程式。 *Checkv4.exe* 公用程式會安裝為適用于 Windows Vista 和更新版本的 Microsoft Windows 軟體開發套件 (SDK) 發行的一部分。 Windows SDK 可透過 MSDN 訂閱取得，也可以從 Microsoft 網站 (下載 https://msdn.microsoft.com) 。
 2.  針對您的程式碼執行 *Checkv4.exe* 公用程式。 瞭解如何在 [使用 Checkv4.exe 公用程式](using-the-checkv4-exe-utility-2.md)一節中，針對您的檔案執行 *Checkv4.exe* 公用程式。
 3.  *Checkv4.exe* 公用程式會警示您是否有 IPv4 位址的通用定義，例如 INADDR \_ 回送。 修改任何使用常值字串的程式碼，以及與通訊協定版本無關的程式碼。
 4.  視需要在您的程式碼基底中搜尋其他可能的常值字串。
@@ -36,7 +36,7 @@ IPv4 的壽命導致硬式編碼許多知名的 IPv4 位址，例如 (127. x. x.
 
 <dl> <dt>
 
-[適用于 Windows 通訊端應用程式的 IPv6 指南](ipv6-guide-for-windows-sockets-applications-2.md)
+[Windows 通訊端應用程式的 IPv6 指南](ipv6-guide-for-windows-sockets-applications-2.md)
 </dt> <dt>
 
 [變更 IPv6 Winsock Html5 應用程式的資料結構](changing-data-structures-2.md)

@@ -3,20 +3,20 @@ title: 色彩轉換和色彩比對
 description: 將色彩從某個色彩空間轉換成另一個色彩的程式稱為色彩轉換。
 ms.assetid: 52f68779-d4d6-4f1e-88a4-f872e9e90054
 keywords:
-- Windows Color System (WCS) ，色彩轉換
-- WCS (Windows 色彩系統) ，色彩轉換
+- Windows色彩系統 (WCS) 、色彩轉換
+- WCS (Windows 色彩系統) 、色彩轉換
 - 影像色彩管理、色彩轉換
 - 色彩管理、色彩轉換
 - 色彩，色彩轉換
 - 色彩轉換
-- Windows Color System (WCS) ，色彩比對
-- WCS (Windows 色彩系統) ，色彩比對
+- Windows色彩系統 (WCS) ，色彩比對
+- WCS (Windows 色彩系統) 、色彩比對
 - 影像色彩管理、色彩比對
 - 色彩管理、色彩比對
 - 色彩、色彩比對
 - 配色
-- Windows Color System (WCS) 、色彩對應
-- WCS (Windows 色彩系統) ，色彩對應
+- Windows色彩系統 (WCS) 、色彩對應
+- WCS (Windows 色彩系統) 、色彩對應
 - 影像色彩管理、色彩對應
 - 色彩管理、色彩對應
 - 色彩、色彩對應
@@ -28,12 +28,12 @@ keywords:
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b74de95238472f58d49c5033a601c6d5458773c8
-ms.sourcegitcommit: 38954f8f0d70f44bff4a943784f468ebd7ef691a
+ms.openlocfilehash: 0071e15c2d572c134d61aee7a018b41c8d09507e87963eeeed1488909cdafeba
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "106985510"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120110798"
 ---
 # <a name="color-conversion-and-color-matching"></a>色彩轉換和色彩比對
 

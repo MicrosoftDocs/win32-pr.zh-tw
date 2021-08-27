@@ -4,12 +4,12 @@ description: 本文旨在解決一些有關 DirectX 執行時間的常見問題�
 ms.assetid: 2ab439be-8d99-bcf8-89af-d4274e044c88
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bcd694243adad852d68e5db5fc342f9259ace7ebbc71923bf56a60bbc1b511b1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0509084232f1dcfe63a7d956516aa723f8cd724b
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119070538"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122477284"
 ---
 # <a name="directx-installation-for-game-developers"></a>適用于遊戲開發人員的 DirectX 安裝
 
@@ -63,42 +63,15 @@ DirectX 版本號碼（例如 9.0 c）只會參考核心元件的版本，例如
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>詞彙</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><span id="Install_the_redistributable_components_every_time.__"></span><span id="install_the_redistributable_components_every_time.__"></span><span id="INSTALL_THE_REDISTRIBUTABLE_COMPONENTS_EVERY_TIME.__"></span>每次都安裝可轉散發元件。 <br/></td>
-<td>遊戲的安裝程式應在每次單一安裝期間安裝 DirectX 可轉散發元件，而不允許使用者退出宣告。 如果您允許退出宣告，某些使用者將會猜不到它，如果他們真的這麼做，就不會執行遊戲。 <br/></td>
-</tr>
-<tr class="even">
-<td><span id="Let_the_DirectX_installer_check_for_optional_components.__"></span><span id="let_the_directx_installer_check_for_optional_components.__"></span><span id="LET_THE_DIRECTX_INSTALLER_CHECK_FOR_OPTIONAL_COMPONENTS.__"></span>讓 DirectX 安裝程式檢查是否有選用的元件。 <br/></td>
-<td>請勿假設系統上已安裝最新的選用元件，因為 Windows Update 和 Service pack 未提供任何 DirectX 的選擇性元件。 您必須直接執行 dxsetup.exe 或呼叫 DirectSetup，以安裝 DirectX 執行時間。 <br/></td>
-</tr>
-<tr class="odd">
-<td><span id="Set_up_silently.__"></span><span id="set_up_silently.__"></span><span id="SET_UP_SILENTLY.__"></span>以無訊息方式設定。 <br/></td>
-<td>以無訊息模式啟動安裝程式，讓使用者不會意外略過更新 DirectX 執行時間。 若要這麼做，您可以使用下列命令來啟動 dxsetup.exe： <br/>
-<pre class="syntax" data-space="preserve"><code>   path-to-redistributable\dxsetup.exe /silent</code></pre>
-或藉由呼叫 DirectSetup，而不顯示任何 UI。 <br/></td>
-</tr>
-<tr class="even">
-<td><span id="Combine_EULA_acceptances.__"></span><span id="combine_eula_acceptances.__"></span><span id="COMBINE_EULA_ACCEPTANCES.__"></span>結合 EULA 接受。 <br/></td>
-<td>如果您提示使用者接受授權合約，請在以無訊息模式安裝時，將其與提示接受 DirectX EULA 的提示結合，如此一來，就只會出現一次 Eula 的提示。 在您安裝任何動作之前，應該先進行提示，如此一來，如果使用者不接受，則最後不會出現失敗的部分安裝。 <br/></td>
-</tr>
-<tr class="odd">
-<td><span id="Just_run_dxsetup_or_call_DirectSetup.__"></span><span id="just_run_dxsetup_or_call_directsetup.__"></span><span id="JUST_RUN_DXSETUP_OR_CALL_DIRECTSETUP.__"></span>只需執行 dxsetup 或呼叫 DirectSetup。 <br/></td>
-<td>因為 DirectX 版本號碼未參考核心 DirectX 元件，所以在執行 dxsetup.exe 或呼叫 DirectSetup 之前，請勿檢查已安裝的版本。 此外，請勿檢查檔案是否存在，以測試是否已安裝選用元件，因為這通常不會正確判斷元件存在但需要更新的時間。 不過，DirectX 安裝套件將會快速地判斷這一點，並執行正確的動作。 <br/></td>
-</tr>
-</tbody>
-</table>
+
+| 詞彙 | 描述 | 
+|------|-------------|
+| <span id="Install_the_redistributable_components_every_time.__"></span><span id="install_the_redistributable_components_every_time.__"></span><span id="INSTALL_THE_REDISTRIBUTABLE_COMPONENTS_EVERY_TIME.__"></span>每次都安裝可轉散發元件。 <br /> | 遊戲的安裝程式應在每次單一安裝期間安裝 DirectX 可轉散發元件，而不允許使用者退出宣告。 如果您允許退出宣告，某些使用者將會猜不到它，如果他們真的這麼做，就不會執行遊戲。 <br /> | 
+| <span id="Let_the_DirectX_installer_check_for_optional_components.__"></span><span id="let_the_directx_installer_check_for_optional_components.__"></span><span id="LET_THE_DIRECTX_INSTALLER_CHECK_FOR_OPTIONAL_COMPONENTS.__"></span>讓 DirectX 安裝程式檢查是否有選用的元件。 <br /> | 請勿假設系統上已安裝最新的選用元件，因為 Windows Update 和 Service pack 未提供任何 DirectX 的選擇性元件。 您必須直接執行 dxsetup.exe 或呼叫 DirectSetup，以安裝 DirectX 執行時間。 <br /> | 
+| <span id="Set_up_silently.__"></span><span id="set_up_silently.__"></span><span id="SET_UP_SILENTLY.__"></span>以無訊息方式設定。 <br /> | 以無訊息模式啟動安裝程式，讓使用者不會意外略過更新 DirectX 執行時間。 若要這麼做，您可以使用下列命令來啟動 dxsetup.exe： <br /><pre class="syntax" data-space="preserve"><code>   path-to-redistributable\dxsetup.exe /silent</code></pre>或藉由呼叫 DirectSetup，而不顯示任何 UI。 <br /> | 
+| <span id="Combine_EULA_acceptances.__"></span><span id="combine_eula_acceptances.__"></span><span id="COMBINE_EULA_ACCEPTANCES.__"></span>結合 EULA 接受。 <br /> | 如果您提示使用者接受授權合約，請在以無訊息模式安裝時，將其與提示接受 DirectX EULA 的提示結合，如此一來，就只會出現一次 Eula 的提示。 在您安裝任何動作之前，應該先進行提示，如此一來，如果使用者不接受，則最後不會出現失敗的部分安裝。 <br /> | 
+| <span id="Just_run_dxsetup_or_call_DirectSetup.__"></span><span id="just_run_dxsetup_or_call_directsetup.__"></span><span id="JUST_RUN_DXSETUP_OR_CALL_DIRECTSETUP.__"></span>只需執行 dxsetup 或呼叫 DirectSetup。 <br /> | 因為 DirectX 版本號碼未參考核心 DirectX 元件，所以在執行 dxsetup.exe 或呼叫 DirectSetup 之前，請勿檢查已安裝的版本。 此外，請勿檢查檔案是否存在，以測試是否已安裝選用元件，因為這通常不會正確判斷元件存在但需要更新的時間。 不過，DirectX 安裝套件將會快速地判斷這一點，並執行正確的動作。 <br /> | 
+
 
 
 

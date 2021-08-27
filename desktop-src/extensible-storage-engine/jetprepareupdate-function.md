@@ -18,17 +18,17 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 16362463194d945d7b451f784bc0942bda2d03e1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 98b14688b42c3e29bbbbab5b96466ad6c97f98e3
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106997990"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122477544"
 ---
 # <a name="jetprepareupdate-function"></a>JetPrepareUpdate 函式
 
 
-_**適用于：** Windows |Windows Server_
+_**適用于：** Windows |Windows伺服器_
 
 ## <a name="jetprepareupdate-function"></a>JetPrepareUpdate 函式
 
@@ -58,112 +58,38 @@ _**適用于：** Windows |Windows Server_
 
 可以用來準備更新的選項，包括下列各項。
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>值</p></th>
-<th><p>意義</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_prepCancel</p></td>
-<td><p>此旗標會使 <strong>JetPrepareUpdate</strong> 取消此資料指標的更新。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_prepInsert</p></td>
-<td><p>此旗標會讓資料指標準備插入新的記錄。 所有資料都會初始化為記錄的預設狀態。 如果資料表具有自動遞增資料行，就會將新的值指派給此記錄，而不論更新最終成功、失敗或已取消。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_prepInsertCopy</p></td>
-<td><p>此旗標會讓資料指標準備插入現有記錄的複本。 如果使用此選項，則必須要有目前的記錄。 新記錄的初始狀態會從目前記錄複製。 幾乎會複製儲存在登出的 Long 值。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_prepInsertCopyDeleteOriginal</p></td>
-<td><p>此旗標會讓資料指標準備插入相同的記錄，以及刪除或原始記錄。 當主要金鑰已變更時，就會使用它。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_prepReplace</p></td>
-<td><p>此旗標會讓資料指標準備取代目前的記錄。 如果資料表有版本資料行，則 [版本] 欄會設定為其序列中的下一個值。 如果此更新未完成，則記錄中的版本值不會受到影響。 記錄上會執行更新鎖定，以防止其他會話在此會話完成之前更新此記錄。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_prepReplaceNoLock</p></td>
-<td><p>此旗標類似于 JET_prepReplace，但不會採取任何鎖定來防止其他會話更新此記錄。 相反地，此會話可能會在呼叫 <a href="gg269288(v=exchg.10).md">JetUpdate</a> 來完成更新時收到 JET_errWriteConflict。</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>值</p> | <p>意義</p> | 
+|--------------|----------------|
+| <p>JET_prepCancel</p> | <p>此旗標會使 <strong>JetPrepareUpdate</strong> 取消此資料指標的更新。</p> | 
+| <p>JET_prepInsert</p> | <p>此旗標會讓資料指標準備插入新的記錄。 所有資料都會初始化為記錄的預設狀態。 如果資料表具有自動遞增資料行，就會將新的值指派給此記錄，而不論更新最終成功、失敗或已取消。</p> | 
+| <p>JET_prepInsertCopy</p> | <p>此旗標會讓資料指標準備插入現有記錄的複本。 如果使用此選項，則必須要有目前的記錄。 新記錄的初始狀態會從目前記錄複製。 幾乎會複製儲存在登出的 Long 值。</p> | 
+| <p>JET_prepInsertCopyDeleteOriginal</p> | <p>此旗標會讓資料指標準備插入相同的記錄，以及刪除或原始記錄。 當主要金鑰已變更時，就會使用它。</p> | 
+| <p>JET_prepReplace</p> | <p>此旗標會讓資料指標準備取代目前的記錄。 如果資料表有版本資料行，則 [版本] 欄會設定為其序列中的下一個值。 如果此更新未完成，則記錄中的版本值不會受到影響。 記錄上會執行更新鎖定，以防止其他會話在此會話完成之前更新此記錄。</p> | 
+| <p>JET_prepReplaceNoLock</p> | <p>此旗標類似于 JET_prepReplace，但不會採取任何鎖定來防止其他會話更新此記錄。 相反地，此會話可能會在呼叫 <a href="gg269288(v=exchg.10).md">JetUpdate</a> 來完成更新時收到 JET_errWriteConflict。</p> | 
+
 
 
 ### <a name="return-value"></a>傳回值
 
-此函數會傳回具有下列其中一個傳回碼的 [JET_ERR](./jet-err.md) 資料類型。 如需可能 ESE 錯誤的詳細資訊，請參閱可延伸 [儲存引擎錯誤](./extensible-storage-engine-errors.md) 和 [錯誤處理參數](./error-handling-parameters.md)。
+此函數會傳回具有下列其中一個傳回碼的 [JET_ERR](./jet-err.md) 資料類型。 如需可能 ESE 錯誤的詳細資訊，請參閱可延伸的[儲存體引擎錯誤](./extensible-storage-engine-errors.md)和[錯誤處理參數](./error-handling-parameters.md)。
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>傳回碼</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errSuccess</p></td>
-<td><p>作業已成功完成。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errAlreadyPrepared</p></td>
-<td><p>已使用有效的準備旗標呼叫<strong>JetPrepareUpdate</strong> ，但未 JET_prepCancel，且資料指標已處於備妥狀態。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errClientRequestToStopJetService</p></td>
-<td><p>無法完成作業，因為與該會話相關聯之實例上的所有活動都不是呼叫 <a href="gg269240(v=exchg.10).md">JetStopService</a>的結果。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errInstanceUnavailable</p></td>
-<td><p>無法完成作業，因為與會話相關聯的實例發生嚴重錯誤，需要撤銷所有資料的存取權，以保護該資料的完整性。 只有 Windows XP 和更新版本才會傳回此錯誤。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errInvalidParameter</p></td>
-<td><p>指定的準備旗標不是有效的旗標。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errNotInitialized</p></td>
-<td><p>無法完成作業，因為與會話相關聯的實例尚未初始化。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errNotInTransaction</p></td>
-<td><p>呼叫<strong>JetPrepareUpdate</strong>來取代具有 SLV 資料行的記錄。 SLV 資料行。 請注意，SLV 資料行是不適合一般使用的功能。 這項功能是用來支援 Microsoft Exchange 基礎結構，而且不適合在您的應用程式中使用。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errRestoreInProgress</p></td>
-<td><p>無法完成作業，因為與會話相關聯的實例正在進行還原作業。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errRollbackError</p></td>
-<td><p>使用 JET_prepCancel 呼叫<strong>JetPrepareUpdate</strong> ，但無法復原 JET_coltypLongBinary 類型 JET_coltypLongText 和/或資料行的資料行所做的所有變更。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errSessionSharingViolation</p></td>
-<td><p>此旗標不能同時與多個執行緒中的相同會話一起使用。 只有 Windows XP 和更新版本才會傳回此錯誤。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errTermInProgress</p></td>
-<td><p>無法完成作業，因為與會話相關聯的實例正在關閉。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errUpdateNotPrepared</p></td>
-<td><p>使用 JET_prepCancel 呼叫<strong>JetPrepareUpdate</strong> ，但資料指標不是處於已備妥的狀態。</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>傳回碼</p> | <p>Description</p> | 
+|--------------------|--------------------|
+| <p>JET_errSuccess</p> | <p>作業已成功完成。</p> | 
+| <p>JET_errAlreadyPrepared</p> | <p>已使用有效的準備旗標呼叫<strong>JetPrepareUpdate</strong> ，但未 JET_prepCancel，且資料指標已處於備妥狀態。</p> | 
+| <p>JET_errClientRequestToStopJetService</p> | <p>無法完成作業，因為與該會話相關聯之實例上的所有活動都不是呼叫 <a href="gg269240(v=exchg.10).md">JetStopService</a>的結果。</p> | 
+| <p>JET_errInstanceUnavailable</p> | <p>無法完成作業，因為與會話相關聯的實例發生嚴重錯誤，需要撤銷所有資料的存取權，以保護該資料的完整性。 只有 Windows XP 和更新版本才會傳回此錯誤。</p> | 
+| <p>JET_errInvalidParameter</p> | <p>指定的準備旗標不是有效的旗標。</p> | 
+| <p>JET_errNotInitialized</p> | <p>無法完成作業，因為與會話相關聯的實例尚未初始化。</p> | 
+| <p>JET_errNotInTransaction</p> | <p>呼叫<strong>JetPrepareUpdate</strong>來取代具有 SLV 資料行的記錄。 SLV 資料行。 請注意，SLV 資料行是不適合一般使用的功能。 這項功能是用來支援 Microsoft Exchange 基礎結構，而且不適合在您的應用程式中使用。</p> | 
+| <p>JET_errRestoreInProgress</p> | <p>無法完成作業，因為與會話相關聯的實例正在進行還原作業。</p> | 
+| <p>JET_errRollbackError</p> | <p>使用 JET_prepCancel 呼叫<strong>JetPrepareUpdate</strong> ，但無法復原 JET_coltypLongBinary 類型 JET_coltypLongText 和/或資料行的資料行所做的所有變更。</p> | 
+| <p>JET_errSessionSharingViolation</p> | <p>此旗標不能同時與多個執行緒中的相同會話一起使用。 只有 Windows XP 和更新版本才會傳回此錯誤。</p> | 
+| <p>JET_errTermInProgress</p> | <p>無法完成作業，因為與會話相關聯的實例正在關閉。</p> | 
+| <p>JET_errUpdateNotPrepared</p> | <p>使用 JET_prepCancel 呼叫<strong>JetPrepareUpdate</strong> ，但資料指標不是處於已備妥的狀態。</p> | 
+
 
 
 成功時，資料指標會針對所需的更新目的變更為備妥狀態，或者，如果是 JET_prepCancel，則會將資料指標還原為未備妥狀態，並捨棄任何變更。
@@ -178,34 +104,9 @@ _**適用于：** Windows |Windows Server_
 
 #### <a name="requirements"></a>規格需求
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>用戶端</strong></p></td>
-<td><p>需要 Windows Vista、Windows XP 或 Windows 2000 Professional。</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>伺服器</strong></p></td>
-<td><p>需要 Windows Server 2008、Windows Server 2003 或 Windows 2000 Server。</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>標頭</strong></p></td>
-<td><p>宣告于 Esent. h 中。</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>程式庫</strong></p></td>
-<td><p>使用 ESENT。</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>DLL</strong></p></td>
-<td><p>需要 ESENT.dll。</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p><strong>用戶端</strong></p> | <p>需要 Windows Vista、Windows XP 或 Windows 2000 Professional。</p> | | <p><strong>伺服器</strong></p> | <p>需要 Windows server 2008、Windows Server 2003 或 Windows 2000 Server。</p> | | <p><strong>標頭</strong></p> | <p>宣告于 Esent. h 中。</p> | | <p><strong>程式庫</strong></p> | <p>使用 ESENT。</p> | | <p><strong>DLL</strong></p> | <p>需要 ESENT.dll。</p> | 
+
 
 
 #### <a name="see-also"></a>另請參閱

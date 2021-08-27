@@ -4,12 +4,12 @@ ms.assetid: f6478e72-0fe9-4c3b-b08a-f71c9c943910
 title: 方法傳回值
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f3871cf00bd48c7fbe1432ec86b503fba7795592
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 073df1d306fb991d7e1347ff90a21d578bf42583c642a694de3160b405963a28
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972658"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120100758"
 ---
 # <a name="method-return-values"></a>方法傳回值
 

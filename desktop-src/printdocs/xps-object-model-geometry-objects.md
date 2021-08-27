@@ -4,12 +4,12 @@ ms.assetid: 2663c6fc-301e-4765-b37c-b5e29a714ce8
 title: XPS OM 幾何物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cca767de311d2f2d49b0b194c372c0e69eaa637c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: db68127535b37e216d28423a034083e979f58c714cbbbee875bc3f1621974bfe
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106996667"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120112088"
 ---
 # <a name="xps-om-geometry-objects"></a>XPS OM 幾何物件
 

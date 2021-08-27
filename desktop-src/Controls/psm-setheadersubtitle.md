@@ -3,7 +3,7 @@ title: 'PSM_SETHEADERSUBTITLE 訊息 (Prsht.idl .h) '
 description: 設定 wizard 內部頁面標頭的子標題文字。 您可以明確地傳送此訊息，或使用 PropSheet \_ SetHeaderSubTitle 宏。
 ms.assetid: 6ef3017b-8a20-4d62-a604-135410d8bdf7
 keywords:
-- PSM_SETHEADERSUBTITLE message Windows 控制項
+- PSM_SETHEADERSUBTITLE 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d73376b5ed35f20b43c743b31a4a78d3a4fa809
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 20e030b75a933ba7f647f8b3dffa5e45637999d45f3299f8280fd1db3afb9857
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934315"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120088498"
 ---
 # <a name="psm_setheadersubtitle-message"></a>PSM \_ SETHEADERSUBTITLE 訊息
 
@@ -64,8 +64,8 @@ ms.locfileid: "103934315"
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                          |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                    |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                          |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                    |
 | 標頭<br/>                   | <dl> <dt>Prsht.idl。h</dt> </dl>      |
 | Unicode 與 ANSI 名稱<br/>   | **PSM \_SETHEADERSUBTITLEW** (Unicode) 和 **PSM \_ SETHEADERSUBTITLEA** (ANSI) <br/> |
 

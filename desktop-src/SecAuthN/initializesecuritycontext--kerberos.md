@@ -4,12 +4,12 @@ ms.assetid: b5c968dc-9343-44ed-acbc-a89c58c14e4a
 title: 'InitializeSecurityCoNtext (Kerberos) 函數 (Sspi. h) '
 ms.topic: reference
 ms.date: 07/25/2019
-ms.openlocfilehash: f2a88fd930e58be418afa9d508adf9cda73912a8c0c5ea6731c06af5ec41a997
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 8c558174c168b17b67c9c08b1aee92e6dc10161f
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119482598"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122470533"
 ---
 # <a name="initializesecuritycontext-kerberos-function"></a>InitializeSecurityCoNtext (Kerberos) 函數
 
@@ -73,8 +73,22 @@ SECURITY_STATUS SEC_Entry InitializeSecurityContext(
 
 
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th>值</th><th>意義</th></tr></thead><tbody><tr class="odd"><td><span id="ISC_REQ_ALLOCATE_MEMORY"></span><span id="isc_req_allocate_memory"></span><dl> <dt><strong>ISC_REQ_ALLOCATE_MEMORY</strong></dt> </dl></td><td>[*安全性套件*](../secgloss/s-gly.md)會為您配置輸出緩衝區。 當您完成使用輸出緩衝區時，請呼叫 [<strong>FreeCoNtextBuffer</strong>] (/windows/win32/api/sspi/nf-sspi-freecoNtextbuffer) 函式釋放它們。<br/></td></tr><tr class="even"><td><span id="ISC_REQ_CONFIDENTIALITY"></span><span id="isc_req_confidentiality"></span><dl> <dt><strong>ISC_REQ_CONFIDENTIALITY</strong></dt> </dl></td><td>使用 [<strong>EncryptMessage</strong>] (encryptmessage--general.md) 函數來加密訊息。<br/></td></tr><tr class="odd"><td><span id="ISC_REQ_CONNECTION"></span><span id="isc_req_connection"></span><dl> <dt><strong>ISC_REQ_CONNECTION</strong></dt> </dl></td><td>[*安全性內容*](../secgloss/s-gly.md)將不會處理格式化訊息。 此值為預設值。<br/></td></tr><tr class="even"><td><span id="ISC_REQ_DELEGATE"></span><span id="isc_req_delegate"></span><dl> <dt><strong>ISC_REQ_DELEGATE</strong></dt> </dl></td><td>伺服器可以使用內容，以用戶端的身分向其他伺服器進行驗證。 必須設定 ISC_REQ_MUTUAL_AUTH 旗標，此旗標才能運作。 適用于 Kerberos。 請忽略此旗標以進行 [*限制委派*](../secgloss/c-gly.md)。<br/></td></tr><tr class="odd"><td><span id="ISC_REQ_EXTENDED_ERROR"></span><span id="isc_req_extended_error"></span><dl> <dt><strong>ISC_REQ_EXTENDED_ERROR</strong></dt> </dl></td><td>發生錯誤時，將會通知遠端方。<br/></td></tr><tr class="even"><td><span id="ISC_REQ_INTEGRITY"></span><span id="isc_req_integrity"></span><dl> <dt><strong>ISC_REQ_INTEGRITY</strong></dt> </dl></td><td>使用 [<strong>EncryptMessage</strong>] (encryptmessage--general.md) 和 [<strong>MakeSignature</strong>] (makesignature.md) 函數來簽署訊息和驗證簽章。<br/></td></tr><tr class="odd"><td><span id="ISC_REQ_MUTUAL_AUTH"></span><span id="isc_req_mutual_auth"></span><dl> <dt><strong>ISC_REQ_MUTUAL_AUTH</strong></dt> </dl></td><td>將會滿足服務的相互驗證原則。<br/><blockquote>[!Caution]<br />
-這並不代表會執行相互驗證，只會滿足服務的驗證原則。 若要確保執行相互驗證，請呼叫 [<strong>QueryCoNtextAttributes (Kerberos) </strong>] (querycoNtextattributes--kerberos.md) 函式。</blockquote><br/></td></tr><tr class="even"><td><span id="ISC_REQ_NO_INTEGRITY"></span><span id="isc_req_no_integrity"></span><dl> <dt><strong>ISC_REQ_NO_INTEGRITY</strong></dt> </dl></td><td>如果設定此旗標，則會忽略 <strong>ISC_REQ_INTEGRITY</strong> 旗標。<br/></td></tr><tr class="odd"><td><span id="ISC_REQ_REPLAY_DETECT"></span><span id="isc_req_replay_detect"></span><dl> <dt><strong>ISC_REQ_REPLAY_DETECT</strong></dt> </dl></td><td>偵測已使用 [<strong>EncryptMessage</strong>] (encryptmessage--general.md) 或 [<strong>MakeSignature</strong>] (makesignature.md) 函數編碼的重新執行訊息。<br/></td></tr><tr class="even"><td><span id="ISC_REQ_SEQUENCE_DETECT"></span><span id="isc_req_sequence_detect"></span><dl> <dt><strong>ISC_REQ_SEQUENCE_DETECT</strong></dt> </dl></td><td>偵測順序中所接收的訊息。<br/></td></tr><tr class="odd"><td><span id="ISC_REQ_STREAM"></span><span id="isc_req_stream"></span><dl> <dt><strong>ISC_REQ_STREAM</strong></dt> </dl></td><td>支援資料流程導向連接。<br/></td></tr><tr class="even"><td><span id="ISC_REQ_USE_SESSION_KEY"></span><span id="isc_req_use_session_key"></span><dl> <dt><strong>ISC_REQ_USE_SESSION_KEY</strong></dt> </dl></td><td>必須協商新的 [*工作階段金鑰*](../secgloss/s-gly.md) 。<br/></td></tr></tbody></table>
+
+| 值 | 意義 | 
+|-------|---------|
+| <span id="ISC_REQ_ALLOCATE_MEMORY"></span><span id="isc_req_allocate_memory"></span><dl><dt><strong>ISC_REQ_ALLOCATE_MEMORY</strong></dt></dl> | [*安全性套件*](../secgloss/s-gly.md)會為您配置輸出緩衝區。 當您完成使用輸出緩衝區時，請呼叫 [<strong>FreeCoNtextBuffer</strong>](/windows/win32/api/sspi/nf-sspi-freecontextbuffer) 函式釋放它們。<br /> | 
+| <span id="ISC_REQ_CONFIDENTIALITY"></span><span id="isc_req_confidentiality"></span><dl><dt><strong>ISC_REQ_CONFIDENTIALITY</strong></dt></dl> | 使用 [<strong>EncryptMessage</strong>](encryptmessage--general.md) 函數來加密訊息。<br /> | 
+| <span id="ISC_REQ_CONNECTION"></span><span id="isc_req_connection"></span><dl><dt><strong>ISC_REQ_CONNECTION</strong></dt></dl> | [*安全性內容*](../secgloss/s-gly.md)將不會處理格式化訊息。 此值為預設值。<br /> | 
+| <span id="ISC_REQ_DELEGATE"></span><span id="isc_req_delegate"></span><dl><dt><strong>ISC_REQ_DELEGATE</strong></dt></dl> | 伺服器可以使用內容，以用戶端的身分向其他伺服器進行驗證。 必須設定 ISC_REQ_MUTUAL_AUTH 旗標，此旗標才能運作。 適用于 Kerberos。 請忽略此旗標以進行 [*限制委派*](../secgloss/c-gly.md)。<br /> | 
+| <span id="ISC_REQ_EXTENDED_ERROR"></span><span id="isc_req_extended_error"></span><dl><dt><strong>ISC_REQ_EXTENDED_ERROR</strong></dt></dl> | 發生錯誤時，將會通知遠端方。<br /> | 
+| <span id="ISC_REQ_INTEGRITY"></span><span id="isc_req_integrity"></span><dl><dt><strong>ISC_REQ_INTEGRITY</strong></dt></dl> | 使用 [<strong>EncryptMessage</strong>](encryptmessage--general.md) 和 [<strong>MakeSignature</strong>](makesignature.md) 函數來簽署訊息和驗證簽章。<br /> | 
+| <span id="ISC_REQ_MUTUAL_AUTH"></span><span id="isc_req_mutual_auth"></span><dl><dt><strong>ISC_REQ_MUTUAL_AUTH</strong></dt></dl> | 將會滿足服務的相互驗證原則。<br /><blockquote>[!Caution]<br />這並不代表會執行相互驗證，只會滿足服務的驗證原則。 為確保執行相互驗證，請呼叫 [<strong>QueryCoNtextAttributes (Kerberos) </strong>](querycontextattributes--kerberos.md) 函式。</blockquote><br /> | 
+| <span id="ISC_REQ_NO_INTEGRITY"></span><span id="isc_req_no_integrity"></span><dl><dt><strong>ISC_REQ_NO_INTEGRITY</strong></dt></dl> | 如果設定此旗標，則會忽略 <strong>ISC_REQ_INTEGRITY</strong> 旗標。<br /> | 
+| <span id="ISC_REQ_REPLAY_DETECT"></span><span id="isc_req_replay_detect"></span><dl><dt><strong>ISC_REQ_REPLAY_DETECT</strong></dt></dl> | 偵測使用 [<strong>EncryptMessage</strong>](encryptmessage--general.md) 或 [<strong>MakeSignature</strong>](makesignature.md) 函數編碼的重新執行訊息。<br /> | 
+| <span id="ISC_REQ_SEQUENCE_DETECT"></span><span id="isc_req_sequence_detect"></span><dl><dt><strong>ISC_REQ_SEQUENCE_DETECT</strong></dt></dl> | 偵測順序中所接收的訊息。<br /> | 
+| <span id="ISC_REQ_STREAM"></span><span id="isc_req_stream"></span><dl><dt><strong>ISC_REQ_STREAM</strong></dt></dl> | 支援資料流程導向連接。<br /> | 
+| <span id="ISC_REQ_USE_SESSION_KEY"></span><span id="isc_req_use_session_key"></span><dl><dt><strong>ISC_REQ_USE_SESSION_KEY</strong></dt></dl> | 必須協商新的 [*工作階段金鑰*](../secgloss/s-gly.md) 。<br /> | 
+
 
 
 
@@ -157,7 +171,7 @@ SECURITY_STATUS SEC_Entry InitializeSecurityContext(
 
 
 
-| 傳回碼                                                                                                    | 描述                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| 傳回碼                                                                                                    | Description                                                                                                                                                                                                                                                                                                                                                                                                                 |
 |----------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**秒 \_ E \_ 確定**</dt> </dl>                      | 已成功初始化 [*安全性內容*](../secgloss/s-gly.md) 。 [**(Kerberos)**](initializesecuritycontext--kerberos.md)呼叫不需要其他 InitializeSecurityCoNtext。 如果函式傳回輸出 token，也就是，如果 \_ *pOutput* 中的之 secbuffer token 的長度是非零，則該 token 必須傳送至伺服器。<br/> |
 | <dl> <dt>**秒 \_ \_ 完成 \_ 並 \_ 繼續**</dt> </dl> | 用戶端必須呼叫 [**CompleteAuthToken**](/windows/win32/api/sspi/nf-sspi-completeauthtoken) ，然後將輸出傳遞至伺服器。 然後，用戶端會等候傳回的權杖，並在另一個呼叫中傳遞它，以 [**InitializeSecurityCoNtext (Kerberos)**](initializesecuritycontext--kerberos.md)。<br/>                                                                                                                                  |
@@ -173,7 +187,7 @@ SECURITY_STATUS SEC_Entry InitializeSecurityContext(
 
 
 
-| 傳回碼                                                                                                          | 描述                                                                                                                                                                                                                                                                                         |
+| 傳回碼                                                                                                          | Description                                                                                                                                                                                                                                                                                         |
 |----------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**每 \_ 秒 \_ 沒有足夠的 \_ 記憶體**</dt> </dl>          | 沒有足夠的記憶體可完成要求的動作。<br/>                                                                                                                                                                                                                   |
 | <dl> <dt>**SEC \_ E \_ 內部 \_ 錯誤**</dt> </dl>               | 發生未對應到 SSPI 錯誤碼的錯誤。<br/>                                                                                                                                                                                                                                |

@@ -1,29 +1,29 @@
 ---
-description: 建立音訊捕獲圖形
+description: 建立音訊捕獲 Graph
 ms.assetid: 2302bb40-a5db-473a-afeb-71905ac41f47
-title: 建立音訊捕獲圖形
+title: 建立音訊捕獲 Graph
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6bd3c731a7dc498fcb7180bc56ae6a7f94dbec6d
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: f8ff89cff8662bb5da81860053221596b18e89ab2300134cf2ff8826ae99b787
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106973362"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120108218"
 ---
-# <a name="creating-an-audio-capture-graph"></a>建立音訊捕獲圖形
+# <a name="creating-an-audio-capture-graph"></a>建立音訊捕獲 Graph
 
 音訊捕獲應用程式的第一個步驟是建立篩選圖形。 圖形的設定取決於您想要建立的檔案類型。
 
 -   僅限音訊的 AVI 檔：將音訊捕獲篩選至 [Avi mux](avi-mux-filter.md) 篩選，並將 Avi mux 篩選至檔案 [寫入](file-writer-filter.md) 器篩選器。
 -   WAV 檔：音訊捕獲篩選器可將 [篩選範例 WavDest](wavdest-filter-sample.md) 至檔案寫入器篩選
--   Windows Media 音訊 ( .wma) 檔：將音訊捕獲篩選器篩選至 [WM ASF 寫入](wm-asf-writer-filter.md) 器篩選器。
+-   WindowsMedia Audio ( .wma) 檔案：音訊捕獲篩選至[WM ASF 寫入](wm-asf-writer-filter.md)器篩選器。
 
 WavDest 篩選器會以 SDK 範例的形式提供。 若要使用它，您必須建立並註冊篩選準則。
 
-若要使用 ASF 寫入器篩選器，您必須安裝 Windows Media SDK 並取得軟體金鑰以解除鎖定篩選。 如需詳細資訊，請參閱 [在 DirectShow 中使用 Windows Media](using-windows-media-in-directshow.md)。
+若要使用 ASF 寫入器篩選器，您必須安裝 Windows 媒體 SDK，並取得軟體金鑰以解除鎖定篩選。 如需詳細資訊，請參閱[在 DirectShow 中使用 Windows 媒體](using-windows-media-in-directshow.md)。
 
-您可以使用 [ [Capture Graph Builder]](capture-graph-builder.md) 物件來建立篩選圖形，也可以「手動」建立圖形;也就是，讓應用程式以程式設計方式新增並連接每個篩選準則。 本文描述手動方法。 如需使用 [Capture Graph Builder] 的詳細資訊，請參閱 [影片捕獲](video-capture.md)。 本文中大部分的資訊都適用于僅限音訊的圖形。
+您可以使用[Capture Graph Builder](capture-graph-builder.md)物件來建立篩選圖形，也可以「手動」建立圖形;也就是，讓應用程式以程式設計方式新增並連接每個篩選準則。 本文描述手動方法。 如需使用 Capture Graph Builder 的詳細資訊，請參閱[影片捕獲](video-capture.md)。 本文中大部分的資訊都適用于僅限音訊的圖形。
 
 新增音訊捕獲裝置
 
@@ -33,7 +33,7 @@ WavDest 篩選器會以 SDK 範例的形式提供。 若要使用它，您必須
 
 如需詳細資訊，請參閱 [使用系統裝置枚舉器](using-the-system-device-enumerator.md)。
 
-若要指定要從中取得的輸入，請從音訊捕獲篩選器取得 [**IAMAudioInputMixer**](/windows/desktop/api/Strmif/nn-strmif-iamaudioinputmixer) 介面，然後呼叫 **put \_ Enable** 方法來指定輸入。 不過，此方法的一項限制是，不同的硬體裝置可能會使用不同的字串來識別其輸入。 例如，一張卡片可能會使用「麥克風」來識別麥克風輸入，而另一張卡片可能會使用「Mic」。 若要判斷指定輸入的字串識別碼，請使用 Windows 多媒體功能 [**waveOutOpen**](/previous-versions//dd743866(v=vs.85))、 [**mixerOpen**](/previous-versions//dd757308(v=vs.85))和 [**mixerGetLineInfo**](/previous-versions//dd757303(v=vs.85))。 如需詳細資訊，請參閱 MSDN 主題 [混音器裝置查詢](/windows/desktop/Multimedia/mixer-device-queries) 。
+若要指定要從中取得的輸入，請從音訊捕獲篩選器取得 [**IAMAudioInputMixer**](/windows/desktop/api/Strmif/nn-strmif-iamaudioinputmixer) 介面，然後呼叫 **put \_ Enable** 方法來指定輸入。 不過，此方法的一項限制是，不同的硬體裝置可能會使用不同的字串來識別其輸入。 例如，一張卡片可能會使用「麥克風」來識別麥克風輸入，而另一張卡片可能會使用「Mic」。 若要判斷指定輸入的字串識別碼，請使用 Windows 多媒體函數 [**waveOutOpen**](/previous-versions//dd743866(v=vs.85))、 [**mixerOpen**](/previous-versions//dd757308(v=vs.85))和 [**mixerGetLineInfo**](/previous-versions//dd757303(v=vs.85))。 如需詳細資訊，請參閱 MSDN 主題[Mixer 裝置查詢](/windows/desktop/Multimedia/mixer-device-queries)。
 
 新增多工器和檔案寫入器
 
@@ -89,7 +89,7 @@ hr = ConnectFilters(pGraph, pWaveDest, pWriter);
 
 
 
-這個範例會使用 `AddFilterByCLSID` 在 [ [加入篩選依據 CLSID](add-a-filter-by-clsid.md)] 中所述的函式，以及 [ `ConnectFilters` [連接兩個篩選器]](connect-two-filters.md)中所述的函數。 這兩種都不是 DirectShow API。
+這個範例會使用 `AddFilterByCLSID` 在 [[加入篩選依據 CLSID](add-a-filter-by-clsid.md)] 中所述的函式，以及 `ConnectFilters` [連線兩個篩選器](connect-two-filters.md)中所述的函數。 這些都不是 DirectShow API。
 
 ## <a name="related-topics"></a>相關主題
 

@@ -3,7 +3,7 @@ title: 'UDM_GETBUDDY 訊息 (Commctrl .h) '
 description: 抓取目前好友視窗的控制碼。
 ms.assetid: 684b224d-5565-4bf4-9c18-c5e4cd01ee00
 keywords:
-- UDM_GETBUDDY message Windows 控制項
+- UDM_GETBUDDY 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cd6f38ea58250ef3367ef260625dea7dc7b94783
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 50a02da2143ea4a5b167f6485993c5623b79643db861876483e5e0dfd8e34b53
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103686576"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120132168"
 ---
 # <a name="udm_getbuddy-message"></a>UDM \_ GETBUDDY 訊息
 
@@ -45,8 +45,8 @@ ms.locfileid: "103686576"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

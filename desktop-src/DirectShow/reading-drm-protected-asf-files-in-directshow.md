@@ -1,23 +1,23 @@
 ---
-description: 本主題說明如何使用 DirectShow 播放以 Windows Media 數位 Rights Management (DRM) 保護的媒體檔案。
+description: 本主題說明如何使用 DirectShow 來播放以 Windows 媒體數位 Rights Management (DRM) 保護的媒體檔案。
 ms.assetid: a014942a-01e5-49d4-8a25-4604cd40f374
 title: 在 DirectShow 中讀取 DRM-Protected 的 ASF 檔案
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ff3a90b61982d6c7c444ddcf53948c225b6fc685
-ms.sourcegitcommit: b7a1da2711221fa99072079bf52399cbdfc6bd9d
+ms.openlocfilehash: 46eaafe96b00019e7c4e69741c251bc0079c459d
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106997319"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122466575"
 ---
 # <a name="reading-drm-protected-asf-files-in-directshow"></a>在 DirectShow 中讀取 DRM-Protected 的 ASF 檔案
 
-本主題說明如何使用 DirectShow 播放以 Windows Media 數位 Rights Management (DRM) 保護的媒體檔案。
+本主題說明如何使用 DirectShow 來播放以 Windows 媒體數位 Rights Management (DRM) 保護的媒體檔案。
 
 ## <a name="drm-concepts"></a>DRM 概念
 
-使用 Windows Media DRM 保護媒體檔案牽涉到兩個不同的步驟：
+使用 Windows 媒體 DRM 保護媒體檔案牽涉到兩個不同的步驟：
 
 -   內容提供者會封裝檔案，也就是加密檔案並將授權資訊附加至 ASF 檔案標頭。 授權資訊包括用戶端可以取得授權的 URL。
 -   用戶端應用程式會取得內容的授權。
@@ -26,9 +26,9 @@ ms.locfileid: "106997319"
 
 ### <a name="drm-versions"></a>DRM 版本
 
-有數種版本的 Windows Media DRM 存在。 從用戶端應用程式的觀點來看，它們可以分為兩類： DRM 第1版，以及 DRM 7 版或更新版本。  (第二個類別包含 DRM 9 和10版，以及第7版。 ) 以這種方式分類 DRM 版本的原因，是因為第1版的授權處理方式與7版或更新版本的授權稍有不同。 在此檔中， *第7版授權* 表示第7版或更新版本。
+有數種版本的 Windows 媒體 DRM 存在。 從用戶端應用程式的觀點來看，它們可以分為兩類： DRM 第1版，以及 DRM 7 版或更新版本。  (第二個類別包含 DRM 9 和10版，以及第7版。 ) 以這種方式分類 DRM 版本的原因，是因為第1版的授權處理方式與7版或更新版本的授權稍有不同。 在此檔中， *第7版授權* 表示第7版或更新版本。
 
-區分 drm 封裝與 DRM 授權也很重要。 如果是使用 Windows Media Rights Manager 7 版或更新版本來封裝檔案，DRM 標頭除了第7版授權 URL 之外，還可以包含第1版授權 URL。 第1版授權 URL 可讓不支援第7版的舊版播放程式取得內容的授權。 不過，反向並不是正確的，因此第1版封裝的檔案不能有第7版授權 URL。
+區分 drm 封裝與 DRM 授權也很重要。 如果是使用 Windows Media Rights Manager 7 版或更新版本來封裝檔案，DRM 標頭除了第7版授權 url 之外，還可以包含第1版授權 url。 第1版授權 URL 可讓不支援第7版的舊版播放程式取得內容的授權。 不過，反向並不是正確的，因此第1版封裝的檔案不能有第7版授權 URL。
 
 ### <a name="application-security-level"></a>應用程式安全性層級
 
@@ -44,15 +44,15 @@ ms.locfileid: "106997319"
 
 ## <a name="provide-the-software-certificate"></a>提供軟體憑證
 
-若要讓應用程式使用 DRM 授權，應用程式必須提供軟體憑證或 *金鑰* 給篩選圖形管理員。 此索引鍵包含在為應用程式個人化的靜態程式庫中。 如需取得個別程式庫的詳細資訊，請參閱 Windows Media Format SDK 檔中的 [取得必要的 DRM 程式庫](../wmformat/obtaining-the-required-drm-library.md) 。
+若要讓應用程式使用 DRM 授權，應用程式必須提供軟體憑證或 *金鑰* 給篩選 Graph 管理員。 此索引鍵包含在為應用程式個人化的靜態程式庫中。 如需取得個別程式庫的詳細資訊，請參閱 Windows 媒體格式 SDK 檔中的[取得所需的 DRM 程式庫](../wmformat/obtaining-the-required-drm-library.md)。
 
 若要提供軟體金鑰，請執行下列步驟：
 
 1.  靜態程式庫的連結。
 2.  執行 **IServiceProvider** 介面。
-3.  查詢 [**IObjectWithSite**](/windows/win32/api/ocidl/nn-ocidl-iobjectwithsite) 介面的篩選圖形管理員。
+3.  查詢 [**IObjectWithSite**](/windows/win32/api/ocidl/nn-ocidl-iobjectwithsite)介面的篩選 Graph 管理員。
 4.  使用 **IServiceProvider 的** 指標來呼叫 [**IObjectWithSite：： SetSite**](/windows/win32/api/ocidl/nf-ocidl-iobjectwithsite-setsite) 。
-5.  篩選圖形管理員會呼叫 **IServiceProvider：： QueryService**，並為服務識別碼指定 **IID \_ IWMReader** 。
+5.  篩選 Graph 管理員會呼叫 **IServiceProvider：： QueryService**，並為服務識別碼指定 **IID \_ IWMReader** 。
 6.  在 **QueryService** 的執行中，呼叫 [**WMCreateCertificate**](/previous-versions/windows/desktop/legacy/dd757745(v=vs.85)) 以建立軟體金鑰。
 
 下列程式碼顯示如何執行 **QueryService** 方法：
@@ -85,7 +85,7 @@ STDMETHODIMP Player::QueryService(REFIID siid, REFIID riid, void **ppv)
 
 
 
-下列程式碼顯示如何在篩選圖形管理員上呼叫 [**SetSite**](/windows/win32/api/ocidl/nf-ocidl-iobjectwithsite-setsite) ：
+下列程式碼顯示如何在篩選 Graph 管理員上呼叫 [**SetSite**](/windows/win32/api/ocidl/nf-ocidl-iobjectwithsite-setsite) ：
 
 
 ```C++
@@ -119,11 +119,11 @@ done:
 
 
 
-## <a name="building-the-playback-graph"></a>建立播放圖表
+## <a name="building-the-playback-graph"></a>建立播放 Graph
 
 若要播放受 DRM 保護的 ASF 檔案，請執行下列步驟：
 
-1.  建立 [篩選圖形管理員](filter-graph-manager.md) ，並使用 [**IMediaEventEx**](/windows/desktop/api/Control/nn-control-imediaeventex) 介面註冊圖形事件。
+1.  建立 [篩選 Graph 管理員](filter-graph-manager.md)，並使用 [**IMediaEventEx**](/windows/desktop/api/Control/nn-control-imediaeventex)介面註冊圖形事件。
 2.  呼叫 [**CoCreateInstance**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance) 以建立 [WM ASF 讀取](wm-asf-reader-filter.md) 器篩選器的新實例。
 3.  呼叫 [**IFilterGraph：： AddFilter**](/windows/desktop/api/Strmif/nf-strmif-ifiltergraph-addfilter) 將篩選準則加入至篩選圖形。
 4.  查詢 [**IFileSourceFilter**](/windows/desktop/api/Strmif/nn-strmif-ifilesourcefilter) 介面的篩選準則。
@@ -197,35 +197,11 @@ HRESULT Player::LoadMediaFile(PCWSTR pwszFile)
 
 <span codelanguage="ManagedCPlusPlus"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>C++</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>            if (FAILED(hr))
-            {
-                goto done;
-            }
-            hr = RenderOutputPins(pGraph, m_pReader);
-    }
-    else
-    {
-        // Not a Windows Media file, so just render the standard way.
-        hr = pGraph->RenderFile(pwszFile, NULL);
-    }
 
-done:
-    return hr;
-}</code></pre></td>
-</tr>
-</tbody>
-</table>
+| C++ | 
+|-----|
+| <pre><code>            if (FAILED(hr))            {                goto done;            }            hr = RenderOutputPins(pGraph, m_pReader);    }    else    {        // Not a Windows Media file, so just render the standard way.        hr = pGraph-&gt;RenderFile(pwszFile, NULL);    }done:    return hr;}</code></pre> | 
+
 
 
 

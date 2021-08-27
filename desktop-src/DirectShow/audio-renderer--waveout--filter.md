@@ -4,16 +4,16 @@ ms.assetid: a3f2776b-974b-4886-82a3-38e00b607a07
 title: 音訊轉譯器 (WaveOut) 篩選
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d5f47018d22bcbbdcf884f5eb4356d1d0b3fe60d
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: eef79acb21221c1a0b91efc2da67773534fe54ca
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106971942"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122470155"
 ---
 # <a name="audio-renderer-waveout-filter"></a>音訊轉譯器 (WaveOut) 篩選
 
-此篩選器會使用 waveOut \* API 來呈現波形音訊。 不過， [DirectSound 轉譯器篩選器](directsound-renderer-filter.md) 會使用 DirectSound 來提供相同的功能。 依預設，篩選圖形管理員會使用 DirectSound 轉譯器，而不是此篩選器。 音訊混合在 waveOut 音訊轉譯器中已停用，因此，如果您需要在播放期間混合多個音訊串流，請使用 DirectSound 轉譯器。
+此篩選器會使用 waveOut \* API 來呈現波形音訊。 不過， [DirectSound 轉譯器篩選器](directsound-renderer-filter.md) 會使用 DirectSound 來提供相同的功能。 根據預設，篩選 Graph 管理員會使用 DirectSound 轉譯器，而不是此篩選器。 音訊混合在 waveOut 音訊轉譯器中已停用，因此，如果您需要在播放期間混合多個音訊串流，請使用 DirectSound 轉譯器。
 
 此篩選準則不會檢查音訊資料流程的子類型。 以格式傳遞的 [**WAVEFORMAT**](/windows/win32/api/mmreg/ns-mmreg-waveformat) 或 [**WAVEFORMATEX**](/previous-versions/dd757713(v=vs.85)) 結構包含連接所需的資訊。
 
@@ -21,71 +21,9 @@ ms.locfileid: "106971942"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>篩選介面</td>
-<td><ul>
-<li><a href="/windows/desktop/api/Strmif/nn-strmif-iamaudiorendererstats"><strong>IAMAudioRendererStats</strong></a></li>
-<li><a href="/windows/desktop/api/Strmif/nn-strmif-iamclockslave"><strong>IAMClockSlave</strong></a></li>
-<li><a href="/previous-versions/windows/desktop/api/Amaudio/nn-amaudio-iamdirectsound"><strong>IAMDirectSound</strong></a></li>
-<li><a href="/windows/desktop/api/Strmif/nn-strmif-iamresourcecontrol"><strong>IAMResourceControl</strong></a></li>
-<li><a href="/windows/desktop/api/Strmif/nn-strmif-ibasefilter"><strong>IBaseFilter</strong></a></li>
-<li><a href="/windows/desktop/api/Control/nn-control-ibasicaudio"><strong>IBasicAudio</strong></a></li>
-<li><a href="/windows/desktop/api/Control/nn-control-imediaposition"><strong>IMediaPosition</strong></a></li>
-<li><a href="/windows/desktop/api/Strmif/nn-strmif-imediaseeking"><strong>IMediaSeeking</strong></a></li>
-<li>IPersistPropertyBag</li>
-<li>IPersistStream</li>
-<li><a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>IQualityControl</strong></a></li>
-<li><a href="/windows/desktop/api/Strmif/nn-strmif-ireferenceclock"><strong>IReferenceClock</strong></a></li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>輸入 Pin 媒體類型</td>
-<td><strong>MEDIATYPE_Audio</strong></td>
-</tr>
-<tr class="odd">
-<td>輸入 Pin 介面</td>
-<td><ul>
-<li><a href="/windows/desktop/api/Strmif/nn-strmif-imeminputpin"><strong>IMemInputPin</strong></a></li>
-<li><a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPin</strong></a></li>
-<li><a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>IQualityControl</strong></a></li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>輸出 Pin 媒體類型</td>
-<td>不適用。</td>
-</tr>
-<tr class="odd">
-<td>輸出 Pin 介面</td>
-<td>不適用。</td>
-</tr>
-<tr class="even">
-<td>篩選 CLSID</td>
-<td><strong>CLSID_AudioRender</strong></td>
-</tr>
-<tr class="odd">
-<td>屬性頁 CLSID</td>
-<td><strong>CLSID_AudioProperties</strong>， <strong>CLSID_AudioRendererAdvancedProperties</strong></td>
-</tr>
-<tr class="even">
-<td>可執行檔</td>
-<td>quartz.dll</td>
-</tr>
-<tr class="odd">
-<td><a href="merit.md">優點</a></td>
-<td><strong>MERIT_DO_NOT_USE</strong></td>
-</tr>
-<tr class="even">
-<td><a href="filter-categories.md">篩選準則分類</a></td>
-<td><strong>CLSID_AudioRendererCategory</strong></td>
-</tr>
-</tbody>
-</table>
+
+| | |篩選介面 | <ul><li><a href="/windows/desktop/api/Strmif/nn-strmif-iamaudiorendererstats"><strong>IAMAudioRendererStats</strong></a></li><li><a href="/windows/desktop/api/Strmif/nn-strmif-iamclockslave"><strong>IAMClockSlave</strong></a></li><li><a href="/previous-versions/windows/desktop/api/Amaudio/nn-amaudio-iamdirectsound"><strong>IAMDirectSound</strong></a></li><li><a href="/windows/desktop/api/Strmif/nn-strmif-iamresourcecontrol"><strong>IAMResourceControl</strong></a></li><li><a href="/windows/desktop/api/Strmif/nn-strmif-ibasefilter"><strong>IBaseFilter</strong></a></li><li><a href="/windows/desktop/api/Control/nn-control-ibasicaudio"><strong>IBasicAudio</strong></a></li><li><a href="/windows/desktop/api/Control/nn-control-imediaposition"><strong>IMediaPosition</strong></a></li><li><a href="/windows/desktop/api/Strmif/nn-strmif-imediaseeking"><strong>IMediaSeeking</strong></a></li><li>IPersistPropertyBag</li><li>IPersistStream</li><li><a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>IQualityControl</strong></a></li><li><a href="/windows/desktop/api/Strmif/nn-strmif-ireferenceclock"><strong>IReferenceClock</strong></a></li></ul> | |輸入 Pin 媒體類型 | <strong>MEDIATYPE_Audio</strong> | |輸入 Pin 介面 | <ul><li><a href="/windows/desktop/api/Strmif/nn-strmif-imeminputpin"><strong>IMemInputPin</strong></a></li><li><a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPin</strong></a></li><li><a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>IQualityControl</strong></a></li></ul> | |輸出釘選媒體類型 |不適用。 | |輸出 Pin 介面 |不適用。 | |篩選 CLSID |<strong>CLSID_AudioRender</strong> | |屬性頁 CLSID |<strong>CLSID_AudioProperties</strong>， <strong>CLSID_AudioRendererAdvancedProperties</strong> | |可執行檔 |quartz.dll | |<a href="merit.md">業績</a>  | <strong>MERIT_DO_NOT_USE</strong> | |<a href="filter-categories.md">篩選準則分類</a>  | <strong>CLSID_AudioRendererCategory</strong> | 
+
 
 
 
@@ -95,7 +33,7 @@ ms.locfileid: "106971942"
 
 <dl> <dt>
 
-[DirectShow 篩選](directshow-filters.md)
+[DirectShow過濾 器](directshow-filters.md)
 </dt> </dl>
 
  

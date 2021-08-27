@@ -1,18 +1,18 @@
 ---
-description: 在 Windows 7 （含）以後版本中，您可以使用本主題中提供的程式，在登錄中使用子命令專案來建立串聯功能表。
+description: 在 Windows 7 和更新版本中，您可以使用此主題中提供的程式，在登錄中使用子命令專案來建立串聯功能表。
 title: 使用子命令登錄專案建立串聯功能表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e8b1168daae5ea927f079c66eb436c099f8b3d96
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1f12eb473d45a3d3aef1b7cf8e7f6cc51a0d97aa5b9e60ee39681c80af459988
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104991570"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120111798"
 ---
 # <a name="how-to-create-cascading-menus-with-the-subcommands-registry-entry"></a>如何使用子命令登錄專案建立串聯功能表
 
-在 Windows 7 （含）以後版本中，您可以使用本主題中提供的程式，在登錄中使用子命令專案來建立串聯功能表。
+在 Windows 7 和更新版本中，您可以使用此主題中提供的程式，在登錄中使用子命令專案來建立串聯功能表。
 
 ## <a name="instructions"></a>指示
 

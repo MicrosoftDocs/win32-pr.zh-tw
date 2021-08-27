@@ -4,12 +4,12 @@ description: 本主題說明如何建立群組的實例，並將它加入至清�
 ms.assetid: 8486B9A2-C519-4912-9E88-3BAFCC4D51CF
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ec47d73c3e8b808eaf1909bdafb015c7eebc37de
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: edaad657d9ea6b71bac1d06a34a0aa29b99c26e204629e503a9e55531da162b7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "103842899"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120132118"
 ---
 # <a name="how-to-use-groups-in-a-list-view"></a>如何在 List-View 中使用群組
 
@@ -19,12 +19,12 @@ ms.locfileid: "103842899"
 
 ### <a name="technologies"></a>技術
 
--   [Windows 控制項](window-controls.md)
+-   [Windows控制](window-controls.md)
 
 ### <a name="prerequisites"></a>必要條件
 
 -   C/C++
--   Windows 消費者介面程式設計
+-   Windows消費者介面程式設計
 
 ## <a name="instructions"></a>指示
 

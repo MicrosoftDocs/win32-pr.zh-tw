@@ -4,12 +4,12 @@ ms.assetid: e67d0282-9090-43e6-aedf-bb1fc0443221
 title: ASSOCF 列舉
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d52de3ce181033358fc20ca3e4f8759b61f72ed
-ms.sourcegitcommit: 4e94fc75fad7b2a0f3c92a26f97e89924e59b7a9
+ms.openlocfilehash: b6920ef874833471d88c4d42a074661337469b11
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "122786694"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122477934"
 ---
 # <a name="assocf-enumeration"></a>ASSOCF 列舉
 
@@ -17,7 +17,7 @@ ms.locfileid: "122786694"
 
 ## <a name="syntax"></a>Syntax
 
-
+<span codelanguage="ManagedCPlusPlus"></span>
 
 
 | C++ | 

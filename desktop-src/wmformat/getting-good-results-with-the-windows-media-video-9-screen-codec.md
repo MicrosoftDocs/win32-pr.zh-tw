@@ -3,19 +3,19 @@ title: 使用 Windows Media 視訊9螢幕編解碼器取得良好的結果
 description: 使用 Windows Media 視訊9螢幕編解碼器取得良好的結果
 ms.assetid: c5b080d3-2934-4af7-8f01-9ab0829db05d
 keywords:
-- Windows Media 格式 SDK，Windows Media 視訊9螢幕編解碼器
+- Windows媒體格式 SDK，Windows Media 視訊9螢幕編解碼器
 - Advanced Systems Format (ASF) ，Windows Media 視訊9螢幕編解碼器
 - ASF (Advanced Systems Format) ，Windows Media 視訊9螢幕編解碼器
 - 編解碼器，Windows Media 視訊9螢幕
-- Windows Media 視訊9螢幕編解碼器，結果
+- WindowsMedia Video 9 螢幕編解碼器，結果
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7a297638c7c50a6380fd4c43ea1d4b9971d44db5
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 657cde745f6bfbabe00fe123b493e2eae2afb20ddf40206f781822770a4386f8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "103932948"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120110428"
 ---
 # <a name="getting-good-results-with-the-windows-media-video-9-screen-codec"></a>使用 Windows Media 視訊9螢幕編解碼器取得良好的結果
 
@@ -26,7 +26,7 @@ Windows Media 視訊9畫面編解碼器的設計目的是要為螢幕擷取畫�
 如果您發現您想要的品質需要比您用於傳遞案例更高的位元速率，您可以嘗試下列技術，以從編解碼器獲得更高的效率。
 
 -   針對螢幕擷取畫面使用較小的解析度。 若要取得比您所需更大的螢幕解析度，也可以藉由呈現比所需更多的資訊，來為檢視器建立混淆。
--   在螢幕擷取畫面中使用較少的圖形。 Windows Media 視訊9畫面編解碼器經過優化，可將 Windows 基本專案和高品質的文字編碼。 通常是因為點陣圖圖形所造成的問題，這些圖形通常包含數以千計的個人色彩。 當您捕捉時，螢幕上的點陣圖越少，結果就越好。 如果您無法從螢幕擷取畫面中排除圖形，有幾種方式可以將點陣圖對影像品質的影響降至最低：
+-   在螢幕擷取畫面中使用較少的圖形。 Windows Media 視訊9畫面編解碼器經過優化，可針對具有高品質的 Windows 基本和文字進行編碼。 通常是因為點陣圖圖形所造成的問題，這些圖形通常包含數以千計的個人色彩。 當您捕捉時，螢幕上的點陣圖越少，結果就越好。 如果您無法從螢幕擷取畫面中排除圖形，有幾種方式可以將點陣圖對影像品質的影響降至最低：
     -   縮小圖形的大小。
     -   減少同時出現在螢幕上的個別圖形數目。
     -   減少圖形的移動量。 例如，如果圖形是在視窗中，請盡可能讓視窗保持固定。
@@ -46,9 +46,9 @@ Windows Media 視訊9畫面編解碼器的設計目的是要為螢幕擷取畫�
 [**設定資料流程**](configuring-streams.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

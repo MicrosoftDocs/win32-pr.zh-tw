@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 使用 MOF 建立實例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e5078c5fcddaab4e8437a33e8cb3210d515360fd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 05290fd02de80a905e74eeddeb1a04f316901209a97e0e298d038ac2f8888552
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106975032"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120097318"
 ---
 # <a name="creating-an-instance-using-mof"></a>使用 MOF 建立實例
 

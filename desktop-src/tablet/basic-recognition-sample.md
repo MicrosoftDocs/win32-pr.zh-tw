@@ -4,12 +4,12 @@ ms.assetid: 6dc94293-cdf7-4b90-a5e8-559f376add26
 title: 基本識別範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 19679a6d1642a94ed813ba0428654b6e03009ea6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bcf45aa7695866e1cf413ea42b7c377b07ea84984ecf2cc3f44da93ff868072d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103851623"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120111138"
 ---
 # <a name="basic-recognition-sample"></a>基本識別範例
 

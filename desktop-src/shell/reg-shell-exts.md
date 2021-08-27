@@ -4,12 +4,12 @@ ms.assetid: e4b98c18-746b-4909-8821-f25de9d15373
 title: 註冊 Shell 延伸模組處理常式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8ca50bfaff984884b74ecc8572d4af9d96c55d0c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: ec883f6e843bdfbf663108c0acda123d786262916f4a347d9433e7fd5f77baca
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973473"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120111208"
 ---
 # <a name="registering-shell-extension-handlers"></a>註冊 Shell 延伸模組處理常式
 
@@ -17,7 +17,7 @@ ms.locfileid: "104973473"
 
 每當您建立或變更 Shell 延伸模組處理常式時，請務必通知系統您已進行變更。 若要這麼做，請呼叫 [**SHChangeNotify**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shchangenotify)，並指定 **SHCNE \_ ASSOCCHANGED** 事件。 如果您未呼叫 **SHChangeNotify**，在系統重新開機之前，可能無法辨識變更。
 
-還有一些適用于 Windows 2000 系統的其他因素。 如需詳細資訊，請參閱在 [Windows 2000 系統上註冊 Shell 擴充處理常式](#registering-shell-extension-handlers) 一節。
+有一些其他因素適用于 Windows 2000 系統。 如需詳細資訊，請參閱[Windows 2000 系統上的註冊 Shell 擴充處理常式](#registering-shell-extension-handlers)一節。
 
 如同所有元件物件模型 (COM) 物件，您必須使用 Windows 軟體開發套件 (SDK) 提供的工具（例如 Guidgen.exe）來建立處理常式的 GUID。 在 **HKEY \_ 類別 \_ 根目錄** CLSID 下建立子機碼， \\ 其名稱是該 GUID 的字串形式。 由於 Shell 擴充處理常式是同進程伺服器，因此您也必須在該 GUID 子機碼底下建立 **InprocServer32** 子機碼，並將 (預設) 值設定為處理常式 DLL 的路徑。 使用單元執行緒模型。 以下顯示一個範例：
 
@@ -108,14 +108,14 @@ HKEY_CLASSES_ROOT
 
 
 
-| 子機碼                    | Description                                                          | 可能的處理常式                                |
+| 子機碼                    | 描述                                                          | 可能的處理常式                                |
 |---------------------------|----------------------------------------------------------------------|--------------------------------------------------|
-| **\** _                    | 所有檔案                                                            | 快速鍵功能表、屬性工作表、動詞 (請參閱以下)  |
-| _ *AllFileSystemObjects**  | 所有檔案和檔案資料夾                                           | 快速鍵功能表、屬性工作表、動詞             |
+| **\***                    | 所有檔案                                                            | 快速鍵功能表、屬性工作表、動詞 (請參閱以下)  |
+| **AllFileSystemObjects**  | 所有檔案和檔案資料夾                                           | 快速鍵功能表、屬性工作表、動詞             |
 | **資料夾**                | 全部資料夾                                                          | 快速鍵功能表、屬性工作表、動詞             |
 | **目錄**             | 資料夾                                                         | 快速鍵功能表、屬性工作表、動詞             |
 | **目錄 \\ 背景** | 檔案資料夾背景                                               | 僅快捷方式功能表                               |
-| **DesktopBackground**     | 桌面背景 (Windows 7 及更新版本)                             | 快捷方式功能表，動詞                             |
+| **DesktopBackground**     | 桌面背景 (Windows 7 和更新版本)                             | 快捷方式功能表，動詞                             |
 | **磁碟機**                 | MyComputer 中的所有磁片磁碟機，例如 "C： \\ "                             | 快速鍵功能表、屬性工作表、動詞             |
 | **Network**               | 網路下的整個網路 ()                              | 快速鍵功能表、屬性工作表、動詞             |
 | **網路 \\ 類型\\\#**     |  (類型的所有物件 \# 如下所示)                                    | 快速鍵功能表、屬性工作表、動詞             |
@@ -124,7 +124,7 @@ HKEY_CLASSES_ROOT
 | *網路 \_ 提供者 \_ 名稱* | 網路提供者「*網路 \_ 提供者 \_ 名稱*」提供的所有物件 | 快速鍵功能表、屬性工作表、動詞             |
 | **印表機**              | 所有印表機                                                         | 快速鍵功能表，屬性工作表                    |
 | **AudioCD**               | CD 光碟機中的音訊 CD                                                 | 僅限動詞                                       |
-| **Dvd**                   | DVD 光碟機 (Windows 2000)                                              | 快速鍵功能表、屬性工作表、動詞             |
+| **DVD**                   | DVD 光碟機 (Windows 2000)                                              | 快速鍵功能表、屬性工作表、動詞             |
 
 
 
@@ -135,7 +135,7 @@ HKEY_CLASSES_ROOT
 -   您可以用滑鼠右鍵按一下檔案資料夾，而不是在資料夾的任何內容中，來存取檔案資料夾背景快捷方式功能表。
 -   「動詞」是在 **HKEY \_ 類別 \_ 根** 子機碼 \\  \\ **Shell** \\ **動詞** 命令下註冊的特殊命令。
 -   針對 **網路** \\ **類型** \\ **\#** ，" \# " 是十進位中的網路提供者類型代碼。 網路提供者類型代碼是網路類型的最高文字。 網路類型清單是在 Winnetwk 中提供的， (WNNC \_ NET \_ \* values) 。 例如，WNNC \_ NET \_ SHIVA 是0x00330000，因此對應的型別子機碼會是 **HKEY 類別的 \_ \_ ROOT** \\ **Network** \\ **type** \\ **51**。
--   「*網路 \_ 提供者 \_ 名稱*」是 [**WNetGetProviderName**](/windows/win32/api/winnetwk/nf-winnetwk-wnetgetprovidernamea)所指定的網路提供者名稱，並已將空格轉換成底線。 例如，如果已安裝 Microsoft 網路網路提供者，其提供者名稱為「Microsoft Windows 網路」，而對應的 *網路 \_ 提供者 \_ 名稱* 為 **Microsoft \_ windows \_ network**。
+-   「*網路 \_ 提供者 \_ 名稱*」是 [**WNetGetProviderName**](/windows/win32/api/winnetwk/nf-winnetwk-wnetgetprovidernamea)所指定的網路提供者名稱，並已將空格轉換成底線。 例如，如果已安裝 Microsoft 網路網路提供者，其提供者名稱為 "microsoft Windows network"，而對應的 *網路 \_ 提供者 \_ 名稱* 為 **Microsoft \_ Windows \_ network**。
 
 ## <a name="example-of-an-extension-handler-registration"></a>擴充處理常式註冊的範例
 
@@ -169,7 +169,7 @@ HKEY_CLASSES_ROOT
 
 ### <a name="registering-shell-extension-handlers"></a>註冊 Shell 延伸模組處理常式
 
-本章節中討論的註冊程式必須遵循所有的 Windows 系統。 不過，在稍後的系統中，可能需要額外的步驟。 因為這些較新的 Windows 版本是設計用來在受控環境中使用，所以登錄的存取權可能會受到系統管理員限制，需要的安裝方式與上一節所述的安裝方式稍有不同。
+本章節中討論的註冊程式必須遵循所有 Windows 系統。 不過，在稍後的系統中，可能需要額外的步驟。 因為這些較新版本的 Windows 是設計用來在受控環境中使用，所以對登錄的存取權可能會受到系統管理限制，而不需要像上一節所述安裝稍微不同的方法。
 
 > [!Note]  
 > 安裝程式通常不應該直接寫入登錄中。 相反地，您應該使用 Windows Installer 套件來完成安裝程式。 這些工具可確保軟體正常執行，並提供對每個使用者類別註冊等功能的存取。

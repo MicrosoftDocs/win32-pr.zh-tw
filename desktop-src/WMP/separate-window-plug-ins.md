@@ -10,12 +10,12 @@ keywords:
 - 分隔視窗外掛程式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 15433bb58daead913cec4a39bb2951516552260f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0141f97c421f793b2b6916ccd6224e34890576116badd7cd25b67ea40b8ebe8a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103932346"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120123208"
 ---
 # <a name="separate-window-plug-ins"></a>分隔視窗外掛程式
 
@@ -30,9 +30,9 @@ ms.locfileid: "103932346"
 [**UI 外掛程式總覽**](ui-plug-in-overview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

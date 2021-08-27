@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: c9db182498791fee344061c91ea570ed770f3a2a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e85595de3e7dab60be7741f95598f5d4e4d53276d5eff62f499874dea79bb99e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104469472"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120111188"
 ---
 # <a name="shell-library-command-line-sample"></a>Shell 程式庫命令列範例
 
@@ -44,7 +44,7 @@ ms.locfileid: "104469472"
 
 ## <a name="downloading-the-sample"></a>下載範例
 
-| Location      | 路徑 URL                                                                                             |
+| 位置      | 路徑 URL                                                                                             |
 |---------------|------------------------------------------------------------------------------------------------------|
 | GitHub  | [ShellLibraryCommandLine 範例](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/shell/appplatform/ShellLibraryCommandLine) |
 

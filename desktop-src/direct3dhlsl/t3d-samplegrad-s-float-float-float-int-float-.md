@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 6d0bd1c47a82784b2b96a93a7f43ecd158e4782a
-ms.sourcegitcommit: 168d11879cb9fd89d26f826482725c0a626be00f
+ms.openlocfilehash: ba85c752223e3bccd9898a48b884a7149c8203ad7b7542ba22e30fadcdc33773
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "104974751"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120118038"
 ---
 # <a name="samplegradsamplegradsfloatfloatfloatintfloat-function-for-texture3d"></a>Texture3D 的 SampleGrad：： SampleGrad (S、float、float、float、int、float) 函數
 

@@ -3,7 +3,7 @@ title: 'CB_SETDROPPEDWIDTH 訊息 (Winuser .h) '
 description: 應用程式會傳送 CB \_ SETDROPPEDWIDTH 訊息，以使用 cbs \_ 下拉式清單或 cbs DROPDOWNLIST 樣式來設定下拉式方塊清單方塊的最小允許寬度（以圖元為單位） \_ 。
 ms.assetid: 89f44733-aebe-44ea-b62d-8bd988f1bd6f
 keywords:
-- CB_SETDROPPEDWIDTH message Windows 控制項
+- CB_SETDROPPEDWIDTH 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c4c4f5ce64bfb1b48e9e811027792a11e4358edc
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 05d59aee89c4be18ba8e5013fa1a1e685a56b727d293c833c7f99140b683efeb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843560"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120089048"
 ---
 # <a name="cb_setdroppedwidth-message"></a>CB \_ SETDROPPEDWIDTH 訊息
 
@@ -59,9 +59,9 @@ ms.locfileid: "103843560"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                     |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 

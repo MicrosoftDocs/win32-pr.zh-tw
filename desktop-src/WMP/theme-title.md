@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 84608ce794c3172f3cbbf3103c5ccedd89a77e3f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f88f572c57b2dba768655248335f1c32e03abbb69bfed94d2b7ed1bc1a983d71
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106983052"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120122828"
 ---
 # <a name="themetitle"></a>主題。標題
 

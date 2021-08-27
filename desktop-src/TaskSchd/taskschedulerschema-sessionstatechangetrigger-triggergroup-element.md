@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: d21847a929e79e2da53b1e66a23aec0c2f1c630f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d22b2f47584f437c01575ffecfb6d5c25e312b9584ba46abc9d6997e14187eaf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103686221"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120099818"
 ---
 # <a name="sessionstatechangetrigger-triggergroup-element"></a>SessionStateChangeTrigger (triggerGroup) 元素
 
@@ -36,7 +36,7 @@ ms.locfileid: "103686221"
 
 
 
-| 元素                                                           | 衍生自                                                         | Description                                            |
+| 元素                                                           | 衍生自                                                         | 描述                                            |
 |-------------------------------------------------------------------|----------------------------------------------------------------------|--------------------------------------------------------|
 | [**觸發程序**](taskschedulerschema-triggers-tasktype-element.md) | [**triggersType**](taskschedulerschema-triggerstype-complextype.md) | 指定啟動工作的觸發程式。<br/> |
 
@@ -46,7 +46,7 @@ ms.locfileid: "103686221"
 
 
 
-| 元素                                                                                      | 類型                                                                                    | Description                                                                                                                                           |
+| 元素                                                                                      | 類型                                                                                    | 描述                                                                                                                                           |
 |----------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**延遲**](taskschedulerschema-delay-sessionstatechangetriggertype-element.md)             | duration                                                                                | 指定值，這個值表示在偵測到終端機伺服器會話狀態變更時，工作開始之前的延遲時間長度。<br/> |
 | [**StateChange**](taskschedulerschema-statechange-sessionstatechangetriggertype-element.md) | [**sessionStateChangeType**](taskschedulerschema-sessionstatechangetype-simpletype.md) | 指定會觸發工作啟動的終端機伺服器會話變更類型。<br/>                                                     |
@@ -66,8 +66,8 @@ ms.locfileid: "103686221"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

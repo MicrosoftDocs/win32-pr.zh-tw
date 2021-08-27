@@ -4,12 +4,12 @@ description: VML IVgColor
 ms.assetid: 6121c5bf-1969-4402-9f45-8891a1538fea
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 97093d9e9315db1389c71db7e8e21fdbf640353c95c5cf11f607c708e1679166
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d8c1bccc370f5311de687e22b0f562d75cbbdc41
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118599513"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122470944"
 ---
 # <a name="vml-ivgcolor"></a>VML IVgColor
 
@@ -24,68 +24,16 @@ ms.locfileid: "118599513"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>屬性</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>String</td>
-<td>字串。 色彩的文字標記法。 以下是支援的命名色彩類型：
-<ul>
-<li>黑色 (#000000) </li>
-<li>銀級 (#C0C0C0) </li>
-<li>灰色 (#808080) </li>
-<li>白色 (#FFFFFF) </li>
-<li> (#800000) 的暗紫紅色</li>
-<li>紅色 (#FF0000) </li>
-<li>紫色 (#800080) </li>
-<li>Fuchsia (#FF00FF) </li>
-<li>綠色 (#008000) </li>
-<li> (#00FF00) 的橙色</li>
-<li>) 的橄欖綠 (#808000</li>
-<li>黃色 (#FFFF00) </li>
-<li>Navy (#000080) </li>
-<li>藍色 (#0000FF) </li>
-<li>青色 (#008080) </li>
-<li>綠色 (#00FFFF) </li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>類型</td>
-<td>VgColorType. 色彩的類型。 下列其中一種類型：
-<ul>
-<li>Mixed</li>
-<li>RGB</li>
-<li>配置</li>
-<li>已命名</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>RGB</td>
-<td>VgRGBType. RGB 值 (色彩的 <strong>長</strong>) 。 只有當類型為 RGB 時才有效 &quot; <strong></strong> &quot; 。</td>
-</tr>
-<tr class="even">
-<td>R</td>
-<td><strong>Integer</strong> (整數)。 色彩的紅色元件。 的範圍可以介於0到255之間。</td>
-</tr>
-<tr class="odd">
-<td>G</td>
-<td><strong>Integer</strong> (整數)。 色彩的綠色元件。 的範圍可以介於0到255之間。</td>
-</tr>
-<tr class="even">
-<td>B</td>
-<td><strong>Integer</strong> (整數)。 色彩的藍色元件。 的範圍可以介於0到255之間。</td>
-</tr>
-</tbody>
-</table>
+
+| 屬性 | 描述 | 
+|------------|-------------|
+| String | 字串。 色彩的文字標記法。 以下是支援的命名色彩類型：<ul><li>黑色 (#000000) </li><li>銀級 (#C0C0C0) </li><li>灰色 (#808080) </li><li>白色 (#FFFFFF) </li><li> (#800000) 的暗紫紅色</li><li>紅色 (#FF0000) </li><li>紫色 (#800080) </li><li>Fuchsia (#FF00FF) </li><li>綠色 (#008000) </li><li> (#00FF00) 的橙色</li><li>) 的橄欖綠 (#808000</li><li>黃色 (#FFFF00) </li><li>Navy (#000080) </li><li>藍色 (#0000FF) </li><li>青色 (#008080) </li><li>綠色 (#00FFFF) </li></ul> | 
+| 類型 | VgColorType. 色彩的類型。 下列其中一種類型：<ul><li>Mixed</li><li>RGB</li><li>配置</li><li>已命名</li></ul> | 
+| RGB | VgRGBType. RGB 值 (色彩的 <strong>長</strong>) 。 只有在類型為 "<strong>RGB</strong>" 時才有效。 | 
+| R | <strong>Integer</strong> (整數)。 色彩的紅色元件。 的範圍可以介於0到255之間。 | 
+| G | <strong>Integer</strong> (整數)。 色彩的綠色元件。 的範圍可以介於0到255之間。 | 
+| B | <strong>Integer</strong> (整數)。 色彩的藍色元件。 的範圍可以介於0到255之間。 | 
+
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 3f0a129b-5b67-4334-a0aa-cd80ee7018b9
 title: 修訂三：壓縮的區區塊轉送
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 657579406ed31fce08239c518a6910f525219fdf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4bba84010a09755c5b978665cbd8aa1b29068ec42294ab7b1e499c631fc6b472
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106982359"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120121278"
 ---
 # <a name="revision-three-compressed-block-send"></a>修訂三：壓縮的區區塊轉送
 

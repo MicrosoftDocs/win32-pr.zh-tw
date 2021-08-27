@@ -4,18 +4,18 @@ ms.assetid: 0b819984-c048-4512-962a-e2320e1585b2
 title: ExposureBias
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cc539b0b709d871b987ed10f9509fe14e9f53f52
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0f134ded74622d4ea0877c59bea6515b1ca1b2ac9700b7b7e8d32cc8ab03a8ee
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104319060"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120112068"
 ---
 # <a name="systemphotoexposurebias"></a>ExposureBias
 
 相片中使用的曝光偏差量（從相機讀取）。 這個屬性是從 [ExposureBiasNumerator](./props-system-photo-exposurebiasnumerator.md) 和 [ExposureBiasDenominator](./props-system-photo-exposurebiasdenominator.md)計算而來。 此單位為頂點值。 通常範圍是從-99.99 到99.99。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

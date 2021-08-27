@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 6be960c9cfdff67eaf7671c2d3679b20ffbcd5d3
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c572981ea35ff190b5fe949101a24d568a1fe6fe098592ea82138392a072496a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995338"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120117998"
 ---
 # <a name="idcompositiontabletransfereffectsetredtablevalue-methods"></a>IDCompositionTableTransferEffect：： SetRedTableValue 方法
 

@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 549b75b6fbc422c417f16819d0ebeec20b0774b2
-ms.sourcegitcommit: 4e94fc75fad7b2a0f3c92a26f97e89924e59b7a9
+ms.openlocfilehash: 6013de4bb32a9cc54aa6ddfed6a2670f745e280a
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "122786743"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122622874"
 ---
 # <a name="span-idvspixengineiframebufferrequestspaniframebufferrequest-interface"></a><span id="vspixengine.iframebufferrequest"></span>IFrameBufferRequest 介面
 
@@ -38,7 +38,7 @@ ms.locfileid: "122786743"
 
 **IFrameBufferRequest** 介面具有這些方法。
 
-<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th >方法</th><th >說明</th></tr></thead><tbody><tr class="odd"><td ><a href="/windows/desktop/direct3dtools/iframebufferrequest-requestasync-dword-eventid-dword-iframebuffercallback-ptr-dword-dword"><strong>RequestAsync</strong></a></td><td ><p>要求指定之轉譯目標、事件和框架的畫面格緩衝區輸出。</p></td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th style="text-align: left;">方法</th><th style="text-align: left;">描述</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/iframebufferrequest-requestasync-dword-eventid-dword-iframebuffercallback-ptr-dword-dword"><strong>RequestAsync</strong></a></td><td style="text-align: left;"><p>要求指定之轉譯目標、事件和框架的畫面格緩衝區輸出。</p></td></tr></tbody></table>
 
  
 

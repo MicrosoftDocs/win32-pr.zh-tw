@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3ea35c0a66ad8bf5d291062eafb7be3ceae4ac58
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0ebfadf28cf6dc389ac615554e704f90a2b6b86533ce58018bdec5623f2637af
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106965504"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120099438"
 ---
 # <a name="imsrdpdevicecollection2-interface"></a>IMsRdpDeviceCollection2 介面
 

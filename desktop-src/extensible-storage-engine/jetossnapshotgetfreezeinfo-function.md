@@ -20,23 +20,23 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 2fbfd3fb31567ea73b8266b5aeba506d62be7714
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e737d6fe31dde43eeba7526e740ec096db20abc9
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106987282"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122466205"
 ---
 # <a name="jetossnapshotgetfreezeinfo-function"></a>JetOSSnapshotGetFreezeInfo 函式
 
 
-_**適用于：** Windows |Windows Server_
+_**適用于：** Windows |Windows伺服器_
 
 ## <a name="jetossnapshotgetfreezeinfo-function"></a>JetOSSnapshotGetFreezeInfo 函式
 
 **JetOSSnapshotGetFreezeInfo** 函式會在任何指定的時間，取得屬於快照會話一部分的實例和資料庫清單。
 
-**Windows vista：**  **JetOSSnapshotGetFreezeInfo** 是在 windows vista 中引進的。
+**Windows vista：****JetOSSnapshotGetFreezeInfo** 是 Windows vista 引進。  
 
 ```cpp
     JET_ERR JET_API JetOSSnapshotGetFreezeInfo(
@@ -67,42 +67,17 @@ _**適用于：** Windows |Windows Server_
 
 ### <a name="return-value"></a>傳回值
 
-此函數會傳回具有下列其中一個傳回碼的 [JET_ERR](./jet-err.md) 資料類型。 如需可能 ESE 錯誤的詳細資訊，請參閱可延伸 [儲存引擎錯誤](./extensible-storage-engine-errors.md) 和 [錯誤處理參數](./error-handling-parameters.md)。
+此函數會傳回具有下列其中一個傳回碼的 [JET_ERR](./jet-err.md) 資料類型。 如需可能 ESE 錯誤的詳細資訊，請參閱可延伸的[儲存體引擎錯誤](./extensible-storage-engine-errors.md)和[錯誤處理參數](./error-handling-parameters.md)。
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>傳回碼</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errSuccess</p></td>
-<td><p>作業已成功完成。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errOutOfMemory</p></td>
-<td><p>因為記憶體不足，所以函數失敗。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errInvalidParameter</p></td>
-<td><p><em>pcInstanceInfo</em> 或 <em>paInstanceInfo</em> 為 <strong>Null</strong>。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errOSSnapshotInvalidSnapId</p></td>
-<td><p>快照集會話的識別碼無效。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errOSSnapshotInvalidSequence</p></td>
-<td><p>快照集會話不在進行中。</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>傳回碼</p> | <p>Description</p> | 
+|--------------------|--------------------|
+| <p>JET_errSuccess</p> | <p>作業已成功完成。</p> | 
+| <p>JET_errOutOfMemory</p> | <p>因為記憶體不足，所以函數失敗。</p> | 
+| <p>JET_errInvalidParameter</p> | <p><em>pcInstanceInfo</em> 或 <em>paInstanceInfo</em> 為 <strong>Null</strong>。</p> | 
+| <p>JET_errOSSnapshotInvalidSnapId</p> | <p>快照集會話的識別碼無效。</p> | 
+| <p>JET_errOSSnapshotInvalidSequence</p> | <p>快照集會話不在進行中。</p> | 
+
 
 
 如果此函式成功，則會正確填滿實例資訊，而且必須在稍後使用傳回的實例資訊陣列的指標呼叫 [JetFreeBuffer](./jetfreebuffer-function.md) 來釋放。
@@ -111,44 +86,15 @@ _**適用于：** Windows |Windows Server_
 
 #### <a name="requirements"></a>規格需求
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>用戶端</strong></p></td>
-<td><p>需要 Windows Vista。</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>伺服器</strong></p></td>
-<td><p>需要 Windows Server 2008。</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>標頭</strong></p></td>
-<td><p>宣告于 Esent. h 中。</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>程式庫</strong></p></td>
-<td><p>使用 ESENT。</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>DLL</strong></p></td>
-<td><p>需要 ESENT.dll。</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Unicode</strong></p></td>
-<td><p>實作為 <strong>JetOSSnapshotGetFreezeInfoW</strong> (Unicode) 和 <strong>JetOSSnapshotGetFreezeInfoA</strong> (ANSI) 。</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p><strong>用戶端</strong></p> | <p>需要 Windows Vista。</p> | | <p><strong>伺服器</strong></p> | <p>需要 Windows Server 2008。</p> | | <p><strong>標頭</strong></p> | <p>宣告于 Esent. h 中。</p> | | <p><strong>程式庫</strong></p> | <p>使用 ESENT。</p> | | <p><strong>DLL</strong></p> | <p>需要 ESENT.dll。</p> | | <p><strong>Unicode</strong></p> | <p>實作為 <strong>JetOSSnapshotGetFreezeInfoW</strong> (Unicode) 和 <strong>JetOSSnapshotGetFreezeInfoA</strong> (ANSI) 。</p> | 
+
 
 
 #### <a name="see-also"></a>另請參閱
 
 [錯誤處理參數](./error-handling-parameters.md)  
-[可擴充儲存引擎錯誤](./extensible-storage-engine-errors.md)  
+[可擴充的儲存體引擎錯誤](./extensible-storage-engine-errors.md)  
 [JET_ERR](./jet-err.md)  
 [JetFreeBuffer](./jetfreebuffer-function.md)  
 [JetOSSnapshotAbort](./jetossnapshotabort-function.md)  

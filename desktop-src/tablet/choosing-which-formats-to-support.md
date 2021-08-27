@@ -4,12 +4,12 @@ ms.assetid: bd0a4382-f014-4f03-990d-d2f96aa76ab8
 title: 選擇要支援的格式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 891fa1c21dd3178e925deab27525afa7fa70fa22
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f8b8b2197c37db603388a4191e08114800aaba37ee8e89803c7ddfb08be18d3e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104195123"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120110998"
 ---
 # <a name="choosing-which-formats-to-support"></a>選擇要支援的格式
 
@@ -25,7 +25,7 @@ ms.locfileid: "104195123"
 
 ## <a name="rtf"></a>RTF
 
-如果需要與 Microsoft Word 2002 或其他繼承應用程式之間的互通性，應用程式應該能夠產生 Rtf)  (rtf 格式。
+如果需要與 Microsoft Word 2002 或其他繼承應用程式之間的互通性，應用程式應該能夠產生豐富的文字格式 (rtf) 。
 
 ## <a name="mime-support"></a>MIME 支援
 

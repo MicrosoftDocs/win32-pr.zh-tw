@@ -3,7 +3,7 @@ title: 'UDM_GETACCEL 訊息 (Commctrl .h) '
 description: 抓取上下按鈕控制項的加速資訊。
 ms.assetid: 794538d6-ca01-4f05-82d1-ce7bc0f76f64
 keywords:
-- UDM_GETACCEL message Windows 控制項
+- UDM_GETACCEL 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b86a9740e59631b737453763a10ccb9820056d95
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3603f364a6caa4f4726460e4b5b71e0d79564fbe9178414576fbed2ce5f5777d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464653"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120132188"
 ---
 # <a name="udm_getaccel-message"></a>UDM \_ GETACCEL 訊息
 
@@ -53,8 +53,8 @@ ms.locfileid: "104464653"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

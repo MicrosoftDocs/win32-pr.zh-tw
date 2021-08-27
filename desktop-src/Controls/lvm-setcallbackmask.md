@@ -3,7 +3,7 @@ title: 'LVM_SETCALLBACKMASK 訊息 (Commctrl .h) '
 description: 變更清單視圖控制項的回呼遮罩。 您可以明確地傳送此訊息，或使用 ListView \_ SetCallbackMask 宏來傳送。
 ms.assetid: d7828bab-9897-408c-99ca-fad42b431be8
 keywords:
-- LVM_SETCALLBACKMASK message Windows 控制項
+- LVM_SETCALLBACKMASK 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ef6dd46228c4e4aeada30f469a77f9e67aff3a37
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 79e33b106eb0c59f83e40b9f170dd017fcdda412072ed51a26572fcf368f5215
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104094312"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120088848"
 ---
 # <a name="lvm_setcallbackmask-message"></a>LVM \_ SETCALLBACKMASK 訊息
 
@@ -72,8 +72,8 @@ ms.locfileid: "104094312"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 
