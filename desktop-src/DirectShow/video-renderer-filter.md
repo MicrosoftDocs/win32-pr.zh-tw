@@ -4,26 +4,26 @@ ms.assetid: 7719ed9d-e3b9-4c84-b587-4e120b5cabf8
 title: 影片轉譯器篩選
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5ca3becb4fbdbb52a9968481aade07d14d963828
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: 96df49305b357cf4a889d283c64839c13c38e2b8f89b8d4eda35d06260f18c58
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107908416"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120083498"
 ---
 # <a name="video-renderer-filter"></a>影片轉譯器篩選
 
 影片轉譯器篩選器是一種強大的全用途影片轉譯器。
 
 > [!Note]  
-> 在 Windows XP 和更新版本上，預設的影片轉譯 [器是影片混合轉譯器篩選器 7](video-mixing-renderer-filter-7.md) (VMR-7) 。 VMR-7 和影片轉譯器都具有易記名稱「影片轉譯器」。 在舊版平臺上，影片轉譯器是預設轉譯器。 請參閱 [選擇正確的](choosing-the-right-renderer.md)轉譯器。
+> 在 Windows XP 和更新版本上，預設的影片轉譯[器是混合轉譯器篩選器 7](video-mixing-renderer-filter-7.md) (VMR-7) 的影片。 VMR-7 和影片轉譯器都具有易記名稱「影片轉譯器」。 在舊版平臺上，影片轉譯器是預設轉譯器。 請參閱 [選擇正確的](choosing-the-right-renderer.md)轉譯器。
 
  
 
-影片轉譯器會使用 DirectDraw 和重迭表面（如果視訊卡支援的話）。 篩選圖形管理員會公開 [**IVideoWindow**](/windows/desktop/api/Control/nn-control-ivideowindow) 介面，此介面可讓應用程式設定和取出影片轉譯器上的屬性。 使用較新的視訊卡時，影片轉譯器支援全螢幕呈現。 否則，篩選圖形管理員會自動切換為全螢幕模式的 [全螢幕](full-screen-renderer-filter.md) 轉譯器篩選。 如需詳細資訊，請參閱 [**IVideoWindow：:p 的 \_ FullScreenMode**](/windows/desktop/api/Control/nf-control-ivideowindow-put_fullscreenmode) 。
+影片轉譯器會使用 DirectDraw 和重迭表面（如果視訊卡支援的話）。 篩選 Graph 管理員會公開 [**IVideoWindow**](/windows/desktop/api/Control/nn-control-ivideowindow)介面，此介面可讓應用程式設定和取出影片轉譯器上的屬性。 使用較新的視訊卡時，影片轉譯器支援全螢幕呈現。 否則，篩選 Graph 管理員會自動切換至全螢幕模式的[全螢幕](full-screen-renderer-filter.md)轉譯器篩選。 如需詳細資訊，請參閱 [**IVideoWindow：:p 的 \_ FullScreenMode**](/windows/desktop/api/Control/nf-control-ivideowindow-put_fullscreenmode) 。
 
 -   \[!重要\]  
-    > 一般來說，此篩選器的影片視窗會處理篩選圖形管理員所建立之工作者執行緒上的訊息。 但是，如果應用程式使用 **CoCreateInstance** 直接建立篩選器，則影片視窗會處理應用程式執行緒上的訊息。 在此情況下，應用程式執行緒必須有訊息迴圈，才能將訊息分派至影片視窗。 此外，在對影片轉譯器的最終 **發行** 呼叫（當篩選圖形管理員關閉時，就會發生這種情況），執行緒就不能結束。 否則，應用程式可能會鎖死。
+    > 一般來說，此篩選器的影片視窗會處理篩選 Graph 管理員所建立之工作者執行緒上的訊息。 但是，如果應用程式使用 **CoCreateInstance** 直接建立篩選器，則影片視窗會處理應用程式執行緒上的訊息。 在此情況下，應用程式執行緒必須有訊息迴圈，才能將訊息分派至影片視窗。 此外，在對影片轉譯器的最終 **版本** 呼叫（當篩選 Graph 管理員關閉時，就會發生這種情況），執行緒就不能結束。 否則，應用程式可能會鎖死。
 
      
 
@@ -39,7 +39,7 @@ ms.locfileid: "107908416"
 | 篩選 CLSID                             | CLSID \_ VideoRenderer                                                                                                                                                                                                                                                                                                                                                                                     |
 | 屬性頁 CLSID                      | 沒有屬性頁。                                                                                                                                                                                                                                                                                                                                                                                        |
 | 可執行檔                               | quartz.dll                                                                                                                                                                                                                                                                                                                                                                                               |
-| [優點](merit.md)                       | Windows XP 和更新版本：不 **\_ 太可能**                                                                                                                                                                                                                                                                                                                                                                |
+| [優點](merit.md)                       | WindowsXP 和更新版本：不 **\_ 太可能**                                                                                                                                                                                                                                                                                                                                                                |
 | [篩選準則分類](filter-categories.md) | **CLSID \_ LegacyAmFilterCategory**                                                                                                                                                                                                                                                                                                                                                                        |
 
 
@@ -69,7 +69,7 @@ ms.locfileid: "107908416"
 
 <dl> <dt>
 
-[DirectShow 篩選](directshow-filters.md)
+[DirectShow過濾 器](directshow-filters.md)
 </dt> </dl>
 
  

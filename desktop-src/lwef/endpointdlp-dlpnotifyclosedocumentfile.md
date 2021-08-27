@@ -12,12 +12,12 @@ api_type:
 - DllExport
 api_location:
 - EndpointDlp.dll
-ms.openlocfilehash: 2438829cde84e9029a86d74e4ed704e1e8d33511
-ms.sourcegitcommit: 91110c16e4713ed82d7fb80562d3ddf40b5d76b2
+ms.openlocfilehash: fc4aff982ebfa8e16f4a7d2c0cd42a847825b422af761416d4a410a03df66446
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "107495514"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120062138"
 ---
 # <a name="dlpnotifyclosedocumentfile-function"></a>DlpNotifyCloseDocumentFile 函式
 

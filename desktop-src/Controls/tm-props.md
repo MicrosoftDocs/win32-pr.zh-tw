@@ -12,12 +12,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 0d487e700e8cd3a03efdc78108e4b107084402f7
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: bcc67802b28be9bdff8b50e8e652dfa9bb3cb671aadeb39add5be7cd912680d6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108096806"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120060558"
 ---
 # <a name="tm_props-enumeration"></a>TM \_ .props 列舉
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: e368efcf29d836cc23fa60ed34dae1a172978f77
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4d1c0b355b0eedee29dafb92debbabac5c7b3e574d2f161827626bc73f72c035
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106993541"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120083868"
 ---
 # <a name="iamtimelinesrcisnormalrate-method"></a>IAMTimelineSrc：： IsNormalRate 方法
 
@@ -67,7 +67,7 @@ Playback rate = (Media Stop <entity type="mdash"/> Media Start) / (Timeline Stop
 
 
 
-如果此比率等於1，則剪輯會以撰寫的速度播放。 否則，它的播放速度會更快或更慢。 如需詳細資訊，請參閱 [DirectShow 編輯服務中的時間](time-in-directshow-editing-services.md)。
+如果此比率等於1，則剪輯會以撰寫的速度播放。 否則，它的播放速度會更快或更慢。 如需詳細資訊，請參閱[DirectShow 編輯服務中的時間](time-in-directshow-editing-services.md)。
 
 > [!Note]  
 > 標頭檔 Qedit 與版本7以後的 Direct3D 標頭不相容。
@@ -75,7 +75,7 @@ Playback rate = (Media Stop <entity type="mdash"/> Media Start) / (Timeline Stop
  
 
 > [!Note]  
-> 若要取得 Qedit，請下載 [適用于 Windows Vista 和 .NET Framework 3.0 的 Microsoft Windows SDK 更新](https://msdn.microsoft.com/windowsvista/bb980924.aspx)。 在 Windows 7 和 .NET Framework 3.5 Service Pack 1 的 Microsoft Windows SDK 中無法使用 Qedit。
+> 若要取得 Qedit，請下載[Windows Vista 和 .NET Framework 3.0 的 Microsoft Windows SDK 更新](https://msdn.microsoft.com/windowsvista/bb980924.aspx)。 Windows 7 和 .NET Framework 3.5 Service Pack 1 的 Microsoft Windows SDK 中無法使用 Qedit。
 
  
 

@@ -3,7 +3,7 @@ title: 'TCM_GETCURFOCUS 訊息 (Commctrl .h) '
 description: 傳回在索引標籤控制項中具有焦點之專案的索引。 您可以使用 TabCtrl GetCurFocus 宏明確地傳送此訊息 \_ 。
 ms.assetid: ae6ee159-c769-41d6-b0bb-2a9ade4c0e71
 keywords:
-- TCM_GETCURFOCUS message Windows 控制項
+- TCM_GETCURFOCUS 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b0b0d0f3d2bbd4a7cf0ab2a63c5a988f60768eec
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 694fb64b033d279292a687c39959925a68999c0b232c847bdf6ec6b476c725e8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934948"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120104938"
 ---
 # <a name="tcm_getcurfocus-message"></a>TCM \_ GETCURFOCUS 訊息
 
@@ -49,8 +49,8 @@ ms.locfileid: "103934948"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

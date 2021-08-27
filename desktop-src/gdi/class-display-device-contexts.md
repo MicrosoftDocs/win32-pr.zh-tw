@@ -4,12 +4,12 @@ ms.assetid: fc76abbf-68da-47f2-8145-4fad806297b4
 title: 類別顯示裝置內容
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e5a4cc0268d948e1a6f95050409698217e3f13e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: 6b8e4ca7f7d51f3dd50f50a07ab44496d56e4a78effb78f33e9eed6f5ffc3745
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972764"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120062478"
 ---
 # <a name="class-display-device-contexts"></a>類別顯示裝置內容
 

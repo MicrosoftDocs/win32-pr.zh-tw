@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0dd3e4349c6a1bf274fc4e441f36fb133316027d
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: ee738dc94fef1088f57257a6ca3f3b03e825e416bbebc0c6d7e703b70154e3b3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104385478"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120049708"
 ---
 # <a name="dhcp-subnets-attribute"></a>dhcp-子網屬性
 

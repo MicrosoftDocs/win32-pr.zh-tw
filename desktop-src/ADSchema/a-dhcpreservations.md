@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9606638008d7e9d7e98dcc4e406dcda637199516
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: d841307e5b36d52848dad634856a28bd10ab8b65ca93d974b60480f14fc8b4ce
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104108228"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120049948"
 ---
 # <a name="dhcp-reservations-attribute"></a>dhcp-保留屬性
 

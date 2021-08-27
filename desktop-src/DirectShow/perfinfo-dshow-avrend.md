@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Perfstruct.h
-ms.openlocfilehash: ee2d944d086f9c1a4ea7944f023321dfbc06d547
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 49cc76f4db1a5fae76678ee2d81f3e2fff0a6c5ca3d5c5532adebaec23f48215
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106999687"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120050708"
 ---
 # <a name="perfinfo_dshow_avrend-structure"></a>PERFINFO \_ DSHOW \_ AVREND 結構
 
@@ -66,9 +66,9 @@ typedef struct PERFINFO_DSHOW_AVREND {
 
 ## <a name="remarks"></a>備註
 
-若要啟用此事件，您必須在 \_ 呼叫 **EnableTrace** 時，在 *ENABLEFLAG* 參數中設定 DXMPERF VIDEOREND 旗標。 此旗標定義于 Dxmperf 標頭檔中，並包含在 DirectShow 基類中。
+若要啟用此事件，您必須在 \_ 呼叫 **EnableTrace** 時，在 *ENABLEFLAG* 參數中設定 DXMPERF VIDEOREND 旗標。 此旗標定義于標頭檔 Dxmperf 中，包含在 DirectShow 的基類中。
 
-若要從 DirectShow 篩選記錄此事件，請使用 **PERFLOG \_ VIDEOREND** 宏（定義于 Dxmperf 中）。
+若要從 DirectShow 篩選記錄此事件，請使用 Dxmperf 中所定義的 **PERFLOG \_ VIDEOREND** 宏。
 
 ## <a name="requirements"></a>規格需求
 
@@ -84,7 +84,7 @@ typedef struct PERFINFO_DSHOW_AVREND {
 
 <dl> <dt>
 
-[DirectShow 結構](directshow-structures.md)
+[DirectShow結構](directshow-structures.md)
 </dt> <dt>
 
 [DirectShow 中的事件追蹤](event-tracing-in-directshow.md)

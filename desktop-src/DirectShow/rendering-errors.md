@@ -4,12 +4,12 @@ ms.assetid: 8901eb78-bb7f-4dfe-bc01-0a267af5140f
 title: 轉譯錯誤
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e106a55363bf50e49a4966600662e26b03b53307
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 7e5af72ccf7ca76b2d4899178757282f1879c06052d2db2f3e1d929ddeef0f53
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104467820"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120050608"
 ---
 # <a name="rendering-errors"></a>轉譯錯誤
 
@@ -18,7 +18,7 @@ ms.locfileid: "104467820"
 
  
 
-Microsoft® DirectShow®編輯服務 (DES) 定義各種用來記錄轉譯錯誤的錯誤代碼。 如果專案未正確轉譯，轉譯引擎會呼叫 [**IAMErrorLog：： LogError**](iamerrorlog-logerror.md) 方法。 下表摘要說明 **LogError** 提供的參數：
+Microsoft® DirectShow®編輯服務 (DES) 會定義用來記錄轉譯錯誤的各種錯誤碼。 如果專案未正確轉譯，轉譯引擎會呼叫 [**IAMErrorLog：： LogError**](iamerrorlog-logerror.md) 方法。 下表摘要說明 **LogError** 提供的參數：
 
 -   錯誤碼包含在 *ErrorCode* 參數中。
 -   描述包含在 ErrorString 參數中。
@@ -74,7 +74,7 @@ Microsoft® DirectShow®編輯服務 (DES) 定義各種用來記錄轉譯錯誤�
 </tr>
 <tr class="odd">
 <td>DEX_IDS_INSTALL_PROBLEM</td>
-<td>非預期的錯誤。 某些 DirectShow 元件未正確安裝。</td>
+<td>非預期的錯誤。 部分 DirectShow 元件未正確安裝。</td>
 <td>無</td>
 <td>不適用</td>
 </tr>

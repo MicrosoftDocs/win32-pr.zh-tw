@@ -4,12 +4,12 @@ ms.assetid: a9958c59-dc89-4d59-8ad3-6651ea4a1e56
 title: 憑證擴充屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f29853736433cb143a201ca352fceff0141cc96f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8c37eaf192d4c236a4f12898ece2bded86d467404c5eceedd98f1deb976b8857
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114936"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120127088"
 ---
 # <a name="certificate-extended-properties"></a>憑證擴充屬性
 

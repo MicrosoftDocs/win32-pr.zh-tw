@@ -14,12 +14,12 @@ api_type:
 api_location:
 - plotui.dll
 - winspool.drv
-ms.openlocfilehash: e7e2c8586c06b2cb64a0e499bd05a6b6016de0a6
-ms.sourcegitcommit: c77ed4d933c9f30af0ca0e095a75ad2bdd4d8bf8
+ms.openlocfilehash: 1b180685154328ad29b9418e1f8d10707067f633d646571ec5ff5fb1dd03a45a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "106976305"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120091728"
 ---
 # <a name="printerproperties-function"></a>PrinterProperties 函式
 
@@ -76,7 +76,7 @@ BOOL PrinterProperties(
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                                |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                      |
-| 標頭<br/>                   | <dl> <dt>Winspool.drv (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>winspool.drv (包含 Windows .h) </dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>Winspool.drv .lib</dt> </dl>                   |
 | DLL<br/>                      | <dl> <dt>winspool.drv. winspool.drv</dt> </dl>                     |
 

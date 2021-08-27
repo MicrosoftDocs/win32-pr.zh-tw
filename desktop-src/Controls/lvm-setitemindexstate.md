@@ -3,7 +3,7 @@ title: 'LVM_SETITEMINDEXSTATE 訊息 (Commctrl .h) '
 description: 設定清單視圖專案的狀態。 明確地傳送此訊息，或使用 ListView \_ SetItemIndexState 宏。
 ms.assetid: 9fea6420-320a-4d2a-84b5-7923fbb14655
 keywords:
-- LVM_SETITEMINDEXSTATE message Windows 控制項
+- LVM_SETITEMINDEXSTATE 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 01ce8f6847c733127053e2162dd785d52fb77cfa
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 18094986f5a57713e842b51b31c74ccfe4987d1c1fe62380ea8a986762e20c7a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104024855"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120062208"
 ---
 # <a name="lvm_setitemindexstate-message"></a>LVM \_ SETITEMINDEXSTATE 訊息
 
@@ -49,7 +49,7 @@ ms.locfileid: "104024855"
 
 
 
-| 傳回碼                                                                                  | Description                                                       |
+| 傳回碼                                                                                  | 描述                                                       |
 |----------------------------------------------------------------------------------------------|-------------------------------------------------------------------|
 | <dl> <dt>**E \_ 失敗**</dt> </dl>       | 無法設定狀態。<br/>                            |
 | <dl> <dt>**E 未 \_ 預期**</dt> </dl> | 清單視圖控制項尚未準備好進行操作。<br/> |
@@ -65,8 +65,8 @@ ms.locfileid: "104024855"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

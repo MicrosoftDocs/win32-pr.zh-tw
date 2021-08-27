@@ -1,17 +1,17 @@
 ---
-description: DirectShow 編輯服務中的時間
+description: DirectShow 編輯服務的時間
 ms.assetid: 4e8cc766-97f3-45d5-9c4a-5cd6e9ad9c09
-title: DirectShow 編輯服務中的時間
+title: DirectShow 編輯服務的時間
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 421831742a2805f58d61c2258dad89d339131f58
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: afc99ff2391ea7975daed7b4152e869741f9990561417131942c4d86e904fca8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106992602"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120083614"
 ---
-# <a name="time-in-directshow-editing-services"></a>DirectShow 編輯服務中的時間
+# <a name="time-in-directshow-editing-services"></a>DirectShow 編輯服務的時間
 
 \[此 API 不受支援，而且可能會在未來變更或無法使用。\]
 
@@ -21,7 +21,7 @@ ms.locfileid: "106992602"
 -   剪輯、轉換和效果都會出現在專案的特定時間。
 -   影片具有畫面播放速率，以每秒的畫面格 (fps) 來表示。
 
- (DES) 的[DirectShow 編輯服務](directshow-editing-services.md)提供各種可設定或抓取時間和畫面播放速率的方法。 這些值的意義取決於內容。
+[DirectShow 編輯服務](directshow-editing-services.md) (DES) 提供設定或抓取時間和畫面播放速率的各種方法。 這些值的意義取決於內容。
 
 **時間值**
 

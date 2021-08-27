@@ -4,12 +4,12 @@ ms.assetid: 79aa4ad5-87ee-4f5d-9c8e-4e788f4c7182
 title: 變更服務設定
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ed7afffcb896e7732536ad308ccd54f0ae1f0a05
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 88cb7fe3739e1ff6cc47a548f5a40111c2383c27f2da34496e3038acbe835a4a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319587"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120126458"
 ---
 # <a name="changing-a-services-configuration"></a>變更服務的設定
 
@@ -217,7 +217,7 @@ VOID __stdcall DoUpdateSvcDesc()
 
 <dl> <dt>
 
-[服務設定](service-configuration.md)
+[服務組態](service-configuration.md)
 </dt> <dt>
 
 [完整的服務範例](the-complete-service-sample.md)
