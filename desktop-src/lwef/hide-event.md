@@ -4,16 +4,16 @@ description: 隱藏事件
 ms.assetid: vs|msagent|~\pacontrol_9yuk.htm
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 87d396fb0985cd4c3c2e9647dfe0e7c9126ad9c5
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 02974d1d66a22eab24c93fc5c9d29b9c2d0e604082fef9f4f0583ebcf7354576
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840112"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120062058"
 ---
 # <a name="hide-event"></a>隱藏事件
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 <dl> <dt>
 

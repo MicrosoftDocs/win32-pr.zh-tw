@@ -3,7 +3,7 @@ title: 'TBM_SETRANGE 訊息 (Commctrl .h) '
 description: 設定捲軸中滑杆的最小和最大邏輯位置的範圍。
 ms.assetid: 9c225742-8e5e-4f47-af8c-8243b6c90c1d
 keywords:
-- TBM_SETRANGE message Windows 控制項
+- TBM_SETRANGE 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c9d870df628b06031374260c679f792f0b7218a5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: dfcd4bf71cfcbc36e098bc83568bdf519209ec82cc9889b6b5ec3934d349f737
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104024847"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120061138"
 ---
 # <a name="tbm_setrange-message"></a>TBM \_ SETRANGE 訊息
 
@@ -59,8 +59,8 @@ ms.locfileid: "104024847"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

@@ -10,33 +10,33 @@ keywords:
 - 共用登錄機碼64位 Windows 程式設計
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 48278bfd42656b05d0e1f2be4402496a873022d1
-ms.sourcegitcommit: 35bb565804eaeed7ac5503595753f59d120076dd
+ms.openlocfilehash: a5193d4aa64848d132aca446c6d1e4a50777614725b69cae637da65aebfe94c0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "106988086"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120071608"
 ---
-# <a name="registry-keys-affected-by-windows-installations-that-include-windows-on-windows-wow-support-for-multiple-processor-architectures"></a>受 Windows 安裝影響的登錄機碼，其中包含 windows on Windows (WOW) 支援多處理器架構
+# <a name="registry-keys-affected-by-windows-installations-that-include-windows-on-windows-wow-support-for-multiple-processor-architectures"></a>受 Windows 安裝影響的登錄機碼，其中 Windows 包含 Windows (WOW) 支援多處理器架構
 
-從 Windows XP 和 Windows Server 2003 開始的64位 Windows 安裝，以及在32位 ARM 處理器架構 Windows 安裝中，從 Windows RT 開始 (Windows 8) *(會將* 某些登錄機碼視為 **受影響的 Windows 安裝**。
+在64位 Windows 從 Windows XP 和 Windows Server 2003 開始的安裝，以及在32位 ARM 處理器 Windows 架構中，從 Windows RT (Windows 8)  (Windows) 的安裝將會重新 *導向***特定的** 登錄機碼。
 
-在受影響的 Windows 安裝中，當處理器架構與作業系統處理器架構不同的處理常式 (將其稱為 **WOW 應用程式**) 會對重新導向的金鑰進行登錄呼叫，登錄重新導向程式會攔截呼叫，並將其對應至金鑰的對應實體登錄位置。 例如， \[  \] 在 **AMD64** /Intel x86-x64 Windows 安裝上執行的32位 Intel IA-32 x86 應用程式，將會受到重新導向的登錄機碼影響; 當此 x86 應用程式呼叫重新導向的按鍵時，登錄重新導向程式會攔截應用程式的呼叫，並將其重新導向至金鑰的對應實體登錄位置。 如需詳細資訊，請參閱登錄 [重定向](registry-redirector.md)程式。
+在受影響的 Windows 安裝中，當處理器架構與作業系統的處理器架構不同時 (將其稱為 **WOW 應用程式**) 對重新導向的金鑰進行登錄呼叫，登錄重新導向器會攔截呼叫，並將其對應至金鑰的對應實體登錄位置。 例如， \[  \] 在 **AMD64** /Intel x86-x64 Windows 安裝上執行的32位 Intel IA-32 x86 應用程式會受到重新導向的登錄機碼影響; 當此 x86 應用程式呼叫重新導向的按鍵時，登錄重新導向程式會攔截應用程式的呼叫，並將其重新導向至金鑰的對應實體登錄位置。 如需詳細資訊，請參閱登錄 [重定向](registry-redirector.md)程式。
 
-其他的登錄機碼是由受影響之 Windows 安裝上不同處理器架構的應用程式所 *共用* 。 對共用金鑰的 WOW 應用程式登錄呼叫不會重新導向。 相反地，會將金鑰的一個實體複本對應到登錄的每個邏輯視圖。
+其他的登錄機碼是在受影響的 Windows 安裝上，由不同處理器架構的應用程式所 *共用*。 對共用金鑰的 WOW 應用程式登錄呼叫不會重新導向。 相反地，會將金鑰的一個實體複本對應到登錄的每個邏輯視圖。
 
-**Windows server 2008、Windows Vista、Windows server 2003 和 WINDOWS XP：** 此外也會 *反映* 重新導向的登錄機碼子集，以保持登錄的32位和64位之間的索引鍵和值的同步。 從 Windows 7 和 Windows Server 2008 R2 開始，已移除登錄反映。 如需詳細資訊，請參閱登錄 [反映](registry-reflection.md)。
+**Windows server 2008、Windows Vista Windows server 2003 和 Windows XP：** 此外也會 *反映* 重新導向的登錄機碼子集，以保持登錄的32位和64位之間的索引鍵和值的同步。 從 Windows 7 和 Windows Server 2008 R2 開始，已移除登錄反映。 如需詳細資訊，請參閱登錄 [反映](registry-reflection.md)。
 
-本主題列出重新導向、共用或重新導向的登錄機碼，並反映在 WOW 之下。 它也會列出可為現有應用程式提供相容性的符號連結，這些應用程式可能使用硬式編碼的登錄機碼路徑（包含 **Wow6432Node**），也就是在 AMD64 Windows 安裝上執行之 x86 進程 如需詳細資訊，請參閱下列：
+本主題列出重新導向、共用或重新導向的登錄機碼，並反映在 WOW 之下。 它也會列出可為現有應用程式提供相容性的符號連結，而這些應用程式可能會使用包含 **Wow6432Node** 的硬式編碼登錄機碼路徑、在 Windows AMD64 上執行之 x86 進程的重新導向登錄位置 如需詳細資訊，請參閱下列：
 
 - [在 WOW 下重新導向、共用和反映的索引鍵](#redirected-shared-and-reflected-keys-under-wow)
 - [Windows on Windows 64 (WOW64) 符號連結](#windows-on-windows-64-wow64-symbolic-links)
 
 ## <a name="redirected-shared-and-reflected-keys-under-wow"></a>在 WOW 下重新導向、共用和反映的索引鍵
 
-針對受影響之 Windows 安裝上的 WOW 應用程式，下表列出重新導向、共用或重新導向並反映的登錄機碼。 除非另有指定，否則此資料表中的索引鍵子機碼會繼承父索引鍵的行為。 如果索引鍵沒有列在此資料表中，則會共用金鑰。
+針對受影響的 Windows 安裝上的 WOW 應用程式，下表列出重新導向、共用或重新導向並反映的登錄機碼。 除非另有指定，否則此資料表中的索引鍵子機碼會繼承父索引鍵的行為。 如果索引鍵沒有列在此資料表中，則會共用金鑰。
 
-| 答案 | Windows Server 2008 R2、Windows 7 和更新版本 | Windows Server 2008、Windows Vista、Windows Server 2003 和 Windows XP |
+| 答案 | WindowsServer 2008 R2、Windows 7 和更新版本 | Windowsserver 2008、Windows Vista、Windows server 2003 和 Windows XP |
 |-|-|-|
 | **HKEY \_ 本機 \_ 電腦** | 共用 | 共用 |
 | **HKEY \_ 本機 \_ MACHINE\SOFTWARE** | 已重新導向 | 已重新導向 |
@@ -95,7 +95,7 @@ ms.locfileid: "106988086"
 | **HKEY \_本機 \_ 電腦** \\ **軟體** \\ **Microsoft** \\ **Windows NT** \\ **CurrentVersion** \\ **ProfileList** | 共用 | 共用 |
 | **HKEY \_本機 \_ 電腦** \\ **軟體** \\ **Microsoft** \\ **Windows NT** \\ **CurrentVersion** 的 \\ **時區** | 共用 | 共用 |
 | **HKEY \_本機 \_ 電腦** \\ **軟體** \\ **原則** | 共用 | 共用 |
-| **HKEY \_本機 \_ 電腦** \\ **軟體** \\ **RegisteredApplications** | 共用 | 分享 **Windows Server 2003 和 WINDOWS XP：** 這是 Windows Vista 中新增的金鑰。 |
+| **HKEY \_本機 \_ 電腦** \\ **軟體** \\ **RegisteredApplications** | 共用 | 分享 **Windows Server 2003 和 Windows XP：** 這是 Windows Vista 中新增的金鑰。 |
 | **HKEY \_ 目前的 \_ 使用者** | 共用 | 共用 |
 | **HKEY \_目前的 \_ 使用者** \\ **軟體** | 共用 | 共用 |
 | **HKEY \_目前的 \_ 使用者** \\ **軟體** \\ **類別** | 共用 | 重新導向並反映 |
@@ -119,4 +119,4 @@ WOW64 只會定義下列符號連結，以便與可能使用硬式編碼登錄�
 - **HKEY \_本機 \_ 電腦 \\ 軟體 \\ 類別 \\ Wow6432Node \\ 通訊協定** 已連結至 **HKEY \_ 本機 \_ 電腦 \\ 軟體 \\ 類別 \\ 通訊協定**
 - **HKEY \_本機 \_ 電腦 \\ 軟體 \\ 類別 \\ Wow6432Node \\ typelib** 已連結至 **HKEY \_ 本機 \_ 電腦 \\ 軟體 \\ 類別 \\ Typelib**
 
-**Windows server 2008、Windows Vista、Windows server 2003 和 WINDOWS XP： HKEY \_本機 \_ 電腦 \\ 軟體 \\ Wow6432Node \\ 類別** 會連結至 **HKEY \_ 本機 \_ 電腦 \\ 軟體 \\ 類別 \\ Wow6432Node**。 其他符號連結已新增至 Windows 7 和 Windows Server 2008 R2。
+**Windows server 2008、Windows Vista、Windows Server 2003 和 Windows XP： HKEY \_本機 \_ 電腦 \\ 軟體 \\ Wow6432Node \\ 類別** 會連結至 **HKEY \_ 本機 \_ 電腦 \\ 軟體 \\ 類別 \\ Wow6432Node**。 其他符號連結已新增至 Windows 7 和 Windows Server 2008 R2。

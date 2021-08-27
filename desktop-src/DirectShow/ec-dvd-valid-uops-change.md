@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - dvdevcode.h
-ms.openlocfilehash: 26ab0674b504fac3fe374247f47ca20496b22ddf
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: fafdbb5443a32a8029ad73d92a2b23c5f05c96d5dfc32375fd05e6d4502484a1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106992872"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120051808"
 ---
 # <a name="ec_dvd_valid_uops_change"></a>EC \_ DVD \_ 有效 \_ UOPS \_ 變更
 

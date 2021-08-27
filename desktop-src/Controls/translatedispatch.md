@@ -14,12 +14,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 1230ed1e65f8d739f9a0a05e4788eb919c45c4cd
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 08f726c3f56579260e96a882f1123d035df37cb3f7f71fd0ecbc47d41672359c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934265"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120060528"
 ---
 # <a name="translatedispatch-callback-function"></a>TranslateDispatch 回呼函式
 
@@ -45,9 +45,9 @@ BOOL CALLBACK TranslateDispatch(
 *lpmsg* \[在\]
 </dt> <dd>
 
-類型： **Const [**MSG**](/windows/win32/api/winuser/ns-winuser-msg) \** _
+Type： **Const [**MSG**](/windows/win32/api/winuser/ns-winuser-msg) \***
 
-_ 訊息結構的指標，其中包含攔截的訊息。 [ *  ](/windows/win32/api/winuser/ns-winuser-msg)
+訊息 [**結構的**](/windows/win32/api/winuser/ns-winuser-msg) 指標，其中包含攔截的訊息。
 
 </dd> </dl>
 
@@ -87,8 +87,8 @@ TranslateDispatchCallback(LPMSG lpmsg)
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows Vista、Windows Vista \[ 桌面應用程式\]<br/> |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>          |
+| 最低支援的用戶端<br/> | Windowsvista，僅 Windows vista \[ 桌面應用程式\]<br/> |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>          |
 
 
 

@@ -6,12 +6,12 @@ keywords:
 - 多播回呼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 62374f303a469deee7e0ad5c09b100db1c98c7e5
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2653224abbd512fe79cbc745fba440261e4d760e362169595473bbd20ccc1bc2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021984"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120074008"
 ---
 # <a name="overview-of-mgm-callbacks"></a>MGM 回呼的總覽
 
@@ -22,9 +22,9 @@ MGM API 中有兩種類型的回呼：
 
 這些回呼結合了 MGM Api，可讓路由通訊協定、IGMP 和多播群組管理員之間進行通訊。
 
- 
+ 
 
- 
+ 
 
 
 

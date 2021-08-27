@@ -3,7 +3,7 @@ title: 'TB_GETUNICODEFORMAT 訊息 (Commctrl .h) '
 description: TB_GETUNICODEFORMAT 訊息-抓取控制項的 Unicode 字元格式旗標。
 ms.assetid: aadce646-daf1-4f1e-9171-2aeac12d3484
 keywords:
-- TB_GETUNICODEFORMAT message Windows 控制項
+- TB_GETUNICODEFORMAT 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4beb5a5ff0b71dd76c85db2788d9dc91aa9f4957
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: aa59269813dde63f15980abc919e50cfaf4dcf5a3c86da311f2aa5206618e88e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108106786"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120061367"
 ---
 # <a name="tb_getunicodeformat-message"></a>TB \_ GETUNICODEFORMAT 訊息
 
@@ -49,8 +49,8 @@ ms.locfileid: "108106786"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

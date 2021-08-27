@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: acabb6deeb6577fa04479fc4014e210d4a5654d5
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a3aed2c887bc7a452cda978e96cd369a71cad4fab60a72e0c914ebe9d9790a41
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106984330"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120052208"
 ---
 # <a name="cbasevideorendererjoinfiltergraph-method"></a>CBaseVideoRenderer. JoinFilterGraph 方法
 

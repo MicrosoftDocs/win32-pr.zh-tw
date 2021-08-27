@@ -4,12 +4,12 @@ ms.assetid: ddc28add-ebf5-4a68-bdf4-dc5f33ab74da
 title: 如何設定 Proxy 定位器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a6b383dda9ac78b2c62aa8481a09cc5c0d7b3ae
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 51dcade0909159856c4286d9c2cd5d4851d10b6d2c5e56054545bdac312e21b1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971681"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120061538"
 ---
 # <a name="how-to-configure-the-proxy-locator"></a>如何設定 Proxy 定位器
 
@@ -20,7 +20,7 @@ ms.locfileid: "106971681"
 1.  執行 [**IMFNetProxyLocatorFactory**](/windows/desktop/api/mfidl/nn-mfidl-imfnetproxylocatorfactory) 介面。
 2.  在 [**IMFNetProxyLocatorFactory：： CreateProxyLocator**](/windows/desktop/api/mfidl/nf-mfidl-imfnetproxylocatorfactory-createproxylocator) 方法中，執行下列動作：
     1.  建立屬性存放區。
-    2.  設定 proxy 定位器的設定。 如需這些設定的詳細資訊，請參閱 [Proxy 定位器設定](proxy-locator-configuration-settings.md)。
+    2.  設定 proxy 定位器的設定。 如需這些設定的詳細資訊，請參閱[Proxy 定位器設定設定](proxy-locator-configuration-settings.md)。
     3.  呼叫 [**MFCreateProxyLocator**](/windows/desktop/api/mfidl/nf-mfidl-mfcreateproxylocator) 函數。 傳入屬性存放區和通訊協定。 此通訊協定是在 [**CreateProxyLocator**](/windows/desktop/api/mfidl/nf-mfidl-imfnetproxylocatorfactory-createproxylocator)的 *pszProtocol* 參數中指定。
 3.  建立 proxy 定位器 factory 類別的實例，並取得其 [**IMFNetProxyLocatorFactory**](/windows/desktop/api/mfidl/nn-mfidl-imfnetproxylocatorfactory) 介面的指標。
 4.  建立另一個屬性存放區，並將 [**MFNETSOURCE \_ PROXYLOCATORFACTORY**](mfnetsource-proxylocatorfactory-property.md) 屬性的值設定為等於步驟3的 [**IMFNetProxyLocatorFactory**](/windows/desktop/api/mfidl/nn-mfidl-imfnetproxylocatorfactory) 指標。

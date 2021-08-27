@@ -4,12 +4,12 @@ description: MissingItemInTabOrder
 ms.assetid: 49DE892E-1B15-4F46-B316-217CC76AA1A9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9841ab71e9f5d40cf25454e737b9790ce27a04de
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 1dc8e413c12b93ebcb3fcbb9d38e56041bedf4e0b8abb98581d77fae4c275f15
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103682412"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120071808"
 ---
 # <a name="missingitemintaborder"></a>MissingItemInTabOrder
 
@@ -41,6 +41,6 @@ ms.locfileid: "103682412"
 [鍵盤使用者介面設計指導方針](/previous-versions/windows/desktop/dnacc/guidelines-for-keyboard-user-interface-design)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -4,17 +4,17 @@ ms.assetid: 6f67335e-51c7-4b81-8ab3-86a3d70ac871
 title: Step 方法
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 29b9c3f20e41c52bfa32c2cf0138c9e286c98e13
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: be5738e8704b24d64a429d8d38f1b9eac2f9b8ff7e22a7e9d1d2a29fb9df4f03
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106984656"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120050308"
 ---
 # <a name="step-method"></a>Step 方法
 
 > [!Note]  
-> 此元件可用於 Microsoft Windows 2000、Windows XP 及 Windows Server 2003 作業系統。 它在後續版本中可能會變更或無法使用。
+> 此元件可在 Microsoft Windows 2000、Windows XP 和 Windows Server 2003 作業系統中使用。 它在後續版本中可能會變更或無法使用。
 
  
 

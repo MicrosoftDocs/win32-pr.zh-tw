@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: b61e5715c96c9233d5d8d25d14b62de093e87bea
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6b8fca6274cd12d601dd205d657a34118c579dc65715e9f52e072edf20101436
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994787"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120103168"
 ---
 # <a name="cbaserendererm_signaltime-member"></a>CBaseRenderer：： m \_ SignalTime 成員
 

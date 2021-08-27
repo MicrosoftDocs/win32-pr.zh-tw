@@ -4,12 +4,12 @@ description: 本主題討論一般控制項，這是由通用控制項程式庫�
 ms.assetid: c0d3eff4-c5b5-4b59-b980-96e0e4d6a595
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ec57117aa125da853f710ddcc48705eb7400a669ae8555568c8b023ad8a4c8ee
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9aba62053eb7e2812e8f8e07bb2f694590fdcff2
+ms.sourcegitcommit: 0dec0044816af3f2b2e6403659e1cf11138c90cd
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119698808"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "121812708"
 ---
 # <a name="about-common-controls"></a>關於通用控制項
 
@@ -20,8 +20,8 @@ ms.locfileid: "119698808"
 -   [通用控制項版本](common-control-versions.md)
 -   [建立通用控制項](creating-common-controls.md)
 -   [通用控制項的 Unicode 支援](unicode-support.md)
--   [通用控制項的當地語系化支援](cc-faq-localization.md)
--   [通用控制項常見問題](cc-faq.md)
+-   [通用控制項的當地語系化支援](cc-faq-localization.yml)
+-   [通用控制項常見問題](cc-faq.yml)
 
 ## <a name="related-topics"></a>相關主題
 

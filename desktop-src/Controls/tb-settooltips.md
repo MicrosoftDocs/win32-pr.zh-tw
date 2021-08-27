@@ -3,7 +3,7 @@ title: 'TB_SETTOOLTIPS 訊息 (Commctrl .h) '
 description: 將工具提示控制項與工具列產生關聯。
 ms.assetid: a645f1f2-9333-4e25-985a-107cffb9b97f
 keywords:
-- TB_SETTOOLTIPS message Windows 控制項
+- TB_SETTOOLTIPS 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 781565658d2c362ca32e36736d6e2d80c3641514
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a75827df49eeaf8b6175cd14180ebb26ddbb642588ee77d625c701eee457baaf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104024850"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120061228"
 ---
 # <a name="tb_settooltips-message"></a>TB \_ SETTOOLTIPS 訊息
 
@@ -53,8 +53,8 @@ ms.locfileid: "104024850"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

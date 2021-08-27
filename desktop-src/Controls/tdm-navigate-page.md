@@ -3,7 +3,7 @@ title: 'TDM_NAVIGATE_PAGE 訊息 (Commctrl .h) '
 description: 以新的內容重新建立工作對話方塊，模擬多頁 wizard 的功能。
 ms.assetid: e0eefd08-e279-47db-97e9-7ca86b41e22f
 keywords:
-- TDM_NAVIGATE_PAGE message Windows 控制項
+- TDM_NAVIGATE_PAGE 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 56fc86e0e4fe457a43e035ed5d568e91303c7fcd
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4c7894bdc5831af2c1fe2e779679aaab38eab94f976cf9c586dfe64d26a051b8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103935005"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120104628"
 ---
 # <a name="tdm_navigate_page-message"></a>TDM \_ 導覽 \_ 頁面訊息
 
@@ -59,8 +59,8 @@ ms.locfileid: "103935005"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

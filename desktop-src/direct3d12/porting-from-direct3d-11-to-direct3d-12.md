@@ -5,12 +5,12 @@ ms.assetid: 9EB4AC6B-AFDD-4673-8EB3-54272C151784
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 14b5bc6784d6f96c3c1599a601a57bf68b0d612d
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: f8ccf4a0bd10032d94ecaf4a88cc442f3a7ad516
+ms.sourcegitcommit: 0dec0044816af3f2b2e6403659e1cf11138c90cd
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104548438"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "121812561"
 ---
 # <a name="porting-from-direct3d-11-to-direct3d-12"></a>從 Direct3D 11 移植到 Direct3D 12
 
@@ -32,18 +32,18 @@ ms.locfileid: "104548438"
 
 ## <a name="device-creation"></a>裝置建立
 
-Direct3D 11 和 Direct3D 12 都共用會裝置建立模式。 現有的 Direct3D 12 驅動程式全都 **D3D_FEATURE_LEVEL_11_0** 或更好，因此您可以忽略較舊的功能層級和相關聯的 lmitations。
+Direct3D 11 和 Direct3D 12 都共用類似的裝置建立模式。 現有的 Direct3D 12 驅動程式全都 **D3D_FEATURE_LEVEL_11_0** 或更好，因此您可以忽略較舊的功能層級和相關聯的限制。
 
 也請記住，使用 Direct3D 12 時，您應該使用 DXGI 介面明確地列舉裝置資訊。 在 Direct3D 11 中，您可以從 Direct3D 裝置 *串連回* DXGI 裝置，但不支援 direct3d 12。
 
-您可以藉由提供從 **IDXGIFcatory4：： EnumWarpAdapter** 取得的明確介面卡，來建立 Direct3D 12 上的變形 software 裝置。 Direct3D 12 的變形裝置只適用于已啟用 [ **圖形工具** ] 選用功能的系統。
+您可以藉由提供從 **IDXGIFactory4：： EnumWarpAdapter** 取得的明確介面卡，來建立 Direct3D 12 上的變形 software 裝置。 Direct3D 12 的變形裝置只適用于已啟用 [ **圖形工具** ] 選用功能的系統。
 
 > [!NOTE]
 > 沒有對等的 **D3D11CreateDeviceAndSwapChain**。 即使使用 Direct3D 11，我們也不鼓勵使用此函式，因為通常最好是在不同的步驟中建立裝置和 swapchain。
 
 ## <a name="committed-resources"></a>認可的資源
 
-使用 Direct3D 11 中的下列介面所建立的物件，會轉譯為 Direct3D 12 中所謂的「認可的資源」。 認可的資源是具有虛擬位址空間和相關聯之實體頁面的資源。 這是以 Direct3D 12 為基礎之 Microsoft Windows Device Driver 2 (WDD2) 記憶體模型的概念。
+使用 Direct3D 11 中的下列介面所建立的物件，會轉譯為 Direct3D 12 中所謂的「認可的資源」。 認可的資源是具有虛擬位址空間和相關聯之實體頁面的資源。 這是以 Direct3D 12 為基礎之 Microsoft Windows 設備磁碟機 2 (WDD2) 記憶體模型的概念。
 
 Direct3D 11 資源：
 
@@ -127,7 +127,7 @@ Direct3D 11 資源：
 
 在 Direct3D 12 中，應用程式必須明確地管理兩個時間軸 (CPU 和 GPU) 。 這需要由應用程式維護資訊、GPU 需要哪些資源，以及有多長的時間。 這也表示應用程式必須負責確保資源 (認可資源、堆積、命令配置器等資源的內容，例如) 不會變更，直到 GPU 完成使用為止。
 
-用於同步處理時間軸的主要物件是 [**ID3D12Fence**](/windows/win32/api/d3d12/nn-d3d12-id3d12fence) 物件。 Failry 的作業很簡單，可讓 GPU 在完成工作時發出信號。 GPU 和 CPU 都可以是信號，也可以等候圍牆。
+用於同步處理時間軸的主要物件是 [**ID3D12Fence**](/windows/win32/api/d3d12/nn-d3d12-id3d12fence) 物件。 使用 GPU 的作業相當簡單，它們可讓 GPU 在完成工作時發出信號。 GPU 和 CPU 都可以是信號，也可以等候圍牆。
 
 這種方法通常是在提交命令清單以執行時，GPU 會在完成 (完成讀取資料) 時傳輸，讓 CPU 可以重複使用或終結資源。
 
@@ -161,7 +161,7 @@ Direct3D 12 的新功能是，應用程式可以控制哪些描述元在哪些�
 
 
 
- 
+ 
 
 ## <a name="resource-state"></a>資源狀態
 
@@ -208,7 +208,7 @@ DXGI 交換鏈是 Direct3D 11 和12中交換鏈的基礎。 在 Direct3D 11 中�
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 

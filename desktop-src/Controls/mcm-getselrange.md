@@ -3,7 +3,7 @@ title: 'MCM_GETSELRANGE 訊息 (Commctrl .h) '
 description: 抓取代表使用者目前所選取日期範圍上限和下限的日期資訊。 您可以使用 MonthCal GetSelRange 宏明確地傳送此訊息 \_ 。
 ms.assetid: a0d0a0d5-a519-4495-a87a-2438c4590e4c
 keywords:
-- MCM_GETSELRANGE message Windows 控制項
+- MCM_GETSELRANGE 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b0d2f922b013a3eab525228bda4f5b99f33e70d8
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7e7c446c98a43714a8cd839704050d2aedd1b7eab83b9199700ba24dd4e2be98
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934199"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120061948"
 ---
 # <a name="mcm_getselrange-message"></a>MCM \_ GETSELRANGE 訊息
 
@@ -49,8 +49,8 @@ ms.locfileid: "103934199"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

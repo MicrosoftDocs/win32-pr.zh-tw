@@ -4,19 +4,19 @@ description: 下拉式方塊是與靜態控制項結合的清單方塊，或是�
 ms.assetid: 3fb2c0b0-507f-4520-845b-b3fbfd9e7b60
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7ce42bb3b0316b0fb2668fed23564b8f904fc793
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ea3a8d26fa5b8cb264c06e7aa64c672e0a80e8ada7e90a152b3b941ea207cade
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103673599"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120071838"
 ---
 # <a name="combo-box-msaa-ui-element-reference"></a>下拉式方塊 (MSAA UI 元素參考) 
 
 > [!Note]  
 > 本主題描述用於 MSAA UI 專案參考之 **下拉式列示方塊** 物件的用途。 此處未說明如何在各種 UI 架構中建立 **下拉式列示方塊** 物件。 請參閱您所使用之 UI 架構的 API 參考檔。
 
- 
+ 
 
 下拉式方塊是與靜態控制項結合的清單方塊，或是在下拉式方塊的清單方塊部分中顯示目前選取項目的編輯控制項。 控制項的清單方塊部分會隨時顯示，或只有在使用者選取下拉式箭號時，才會顯示下拉式箭號 (也就是控制項旁邊) 的 [按下] 按鈕。 如果選取欄位是編輯控制項，則使用者可以輸入不在清單中的資訊;否則，使用者只能選取清單中的專案。
 
@@ -57,7 +57,7 @@ ms.locfileid: "103673599"
 
     
 
-     
+     
 
 -   [**取得 \_ accDefaultAction**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accdefaultaction)-下表顯示下拉式方塊中不同部分的 **DefaultAction** 屬性。 
 
@@ -71,7 +71,7 @@ ms.locfileid: "103673599"
 
     
 
-     
+     
 
 -   [**取得 \_ accDescription**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accdescription)
 -   [**取得 \_ accFocus**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accfocus)
@@ -89,13 +89,13 @@ ms.locfileid: "103673599"
 
     
 
-     
+     
 
     下拉式方塊的存取金鑰是標示下拉式方塊之相關聯靜態文字控制項文字中的加底線字元。 例如，在開啟檔案的標準開啟對話方塊（例如 Microsoft WordPad）中，標示為 "Files of type：" 的下拉式方塊具有 **KeyboardShortcut** "Alt + t"。
 
 -   [**取得 \_ accName**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accname)-下表顯示下拉式方塊中不同部分的 **名稱** 屬性。 
 
-    | 下拉式方塊元件   | Name                                                           |
+    | 下拉式方塊元件   | 名稱                                                           |
     |------------------|----------------------------------------------------------------|
     | 下拉式方塊視窗 | 當做標籤使用的靜態文字控制項                            |
     | 編輯控制項     | 當做標籤使用的靜態文字控制項                            |
@@ -105,7 +105,7 @@ ms.locfileid: "103673599"
 
     
 
-     
+     
 
     下拉式方塊的 [ **名稱** ] 屬性、其子編輯控制項，以及其子清單方塊，都是關聯的靜態文字控制項中標示下拉式方塊的文字。 例如，在開啟檔案的標準開啟對話方塊中（例如在 WordPad 中），兩個下拉式方塊的 **名稱** 屬性是「查詢：」和「檔案類型：」。
 
@@ -122,7 +122,7 @@ ms.locfileid: "103673599"
 
     
 
-     
+     
 
 -   [**取得 \_ accRole**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accrole)-下表顯示下拉式方塊中不同部分的 **角色** 屬性。 
 
@@ -136,7 +136,7 @@ ms.locfileid: "103673599"
 
     
 
-     
+     
 
 -   [**取得 \_ accState**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accstate)-下表顯示下拉式方塊的不同部分的 **狀態** 屬性。 
 
@@ -150,7 +150,7 @@ ms.locfileid: "103673599"
 
     
 
-     
+     
 
 -   [**取得 \_ accValue**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accvalue)-下表顯示下拉式方塊中不同部分的 [ **值** ] 屬性。 
 
@@ -164,7 +164,7 @@ ms.locfileid: "103673599"
 
     
 
-     
+     
 
 ## <a name="notes"></a>備註
 
@@ -177,9 +177,9 @@ ms.locfileid: "103673599"
 [IAccessible 介面](/windows/desktop/api/oleacc/nn-oleacc-iaccessible)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

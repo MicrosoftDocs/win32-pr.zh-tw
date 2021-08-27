@@ -4,12 +4,12 @@ ms.assetid: be96be6d-47de-4d2b-81fc-13079de33888
 title: 'RemoteCreateObjectByCLSID (Mfobjects) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e57307ece851484675d01a699037647efad771d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2274eb66c2dcd3452e6c3fbad1ab300ba705333a78e8eaa761eab70c54104ca0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974542"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120061188"
 ---
 # <a name="remotecreateobjectbyclsid"></a>RemoteCreateObjectByCLSID
 
@@ -36,8 +36,8 @@ HRESULT RemoteCreateObjectByCLSID(
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                                     |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                                     |
 | 標頭<br/>                   | <dl> <dt>Mfobjects (包含 Mfidl) </dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>Mfuuid .lib</dt> </dl>                    |
 

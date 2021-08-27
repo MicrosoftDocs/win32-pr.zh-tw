@@ -4,12 +4,12 @@ ms.assetid: b58ab70a-2071-4264-9d20-c0b0aaf8dc5c
 title: Windows GDI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 41f5fc6ba9f4eb99786b21daeff2e1c48b9ce09d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: e0bbdd515379c5c3d1f2c17ff0b991141b3a40a8cb42594be95e391da6dabb28
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104973052"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120092538"
 ---
 # <a name="windows-gdi"></a>Windows GDI
 
@@ -19,11 +19,11 @@ Microsoft Windows 圖形裝置介面 (GDI) 可讓應用程式在影片顯示器�
 
 ## <a name="where-applicable"></a>適用時
 
-GDI 可以在所有 Windows 應用程式中使用。
+GDI 可用於所有 Windows 架構的應用程式。
 
 ## <a name="developer-audience"></a>開發人員對象
 
-此 API 是設計來供 C/c + + 程式設計人員使用。 需要熟悉 Windows [訊息驅動架構](../learnwin32/window-messages.md) 。
+此 API 是設計來供 C/c + + 程式設計人員使用。 需要熟悉 Windows[訊息驅動架構](../learnwin32/window-messages.md)。
 
 ## <a name="run-time-requirements"></a>執行階段需求求
 
@@ -62,7 +62,7 @@ GDI 可以在所有 Windows 應用程式中使用。
 [Opengl](../opengl/opengl.md)
 </dt> <dt>
 
-[Windows 映像取得](../wia/-wia-startpage.md)
+[Windows映射取得](../wia/-wia-startpage.md)
 </dt> </dl>
 
  

@@ -4,12 +4,12 @@ ms.assetid: 548acfe5-c9e1-4227-ba20-674e071f121f
 title: 檔案和目錄連結
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a70bcb905b73f7635ba5bdc4afcc44280023c7a8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5066ff09efd239ad44efd6511264e81f4cd4dc41d10061b49754841544ebf0f2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103945148"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120050888"
 ---
 # <a name="file-and-directory-linking"></a>檔案和目錄連結
 

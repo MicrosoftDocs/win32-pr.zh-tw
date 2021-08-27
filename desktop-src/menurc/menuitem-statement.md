@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: da2051b326b2f2f37c9e24e03bcb5e5116cf290a
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 45bca50025e1c9136c22166d6d3f758c5c9b5819a9328d33d375195285f1d4f7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "106967653"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120092188"
 ---
 # <a name="menuitem-statement"></a>MENUITEM 語句
 
@@ -53,7 +53,7 @@ MENUITEM SEPARATOR
 
 
 
-| 選項           | Description                                                                                                                                                           |
+| 選項           | 描述                                                                                                                                                           |
 |------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **檢查**      | 功能表項目旁邊有核取記號。                                                                                                                                |
 | **灰色**       | 功能表項目一開始為非使用中，並顯示在功能表中的灰色或功能表文字色彩的淺色陰影。 此選項不能與 **非** 使用中的選項搭配使用。 |
@@ -64,7 +64,7 @@ MENUITEM SEPARATOR
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -95,9 +95,9 @@ MENUITEM "&Blackletter", 301
 [**彈出**](popup-resource.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

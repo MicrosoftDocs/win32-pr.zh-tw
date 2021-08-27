@@ -4,12 +4,12 @@ ms.assetid: d4dbba0d-8225-48d7-a66b-b189fdae70a8
 title: 'LINE_REQUEST 訊息 (Tapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 23987e370d5ae9c8eeb579780c5659f8075ac865
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ce3cd49b14aafabfdd4d7ab37c5f2beec1487a08a53385ae8a1439b7443d49cd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106989552"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120126228"
 ---
 # <a name="line_request-message"></a>行 \_ 要求訊息
 

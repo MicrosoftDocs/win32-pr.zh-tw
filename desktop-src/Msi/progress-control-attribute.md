@@ -4,12 +4,12 @@ ms.assetid: d2b64cdf-e0b4-4c92-9cce-7f50753b875f
 title: 進度控制項屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ff8854106ebacc8af2bdc0acfb58c5afc5d700df
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a867772ff1452087ab22da76d3c1f93aea32e5ad50bd23ffe8ace62889086781
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106979398"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120074628"
 ---
 # <a name="progress-control-attribute"></a>進度控制項屬性
 
@@ -19,7 +19,7 @@ ms.locfileid: "106979398"
 
 ## <a name="valid-controls"></a>有效的控制項
 
-[進度列](progressbar-control.md)
+[ProgressBar](progressbar-control.md)
 
 ## <a name="associated-bit-flags"></a>相關聯的位旗標
 

@@ -4,12 +4,12 @@ ms.assetid: b03da8c9-ee6d-4045-8d90-8beceb09ead5
 title: 矩形函數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6a5c72812363185217e5cf30ae88447f82edc42b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cf3761451668b6bd7a30c025816db1ad61f30e88a2a579c196d6a08cc0a2b908
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191920"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120092778"
 ---
 # <a name="rectangle-functions"></a>矩形函數
 

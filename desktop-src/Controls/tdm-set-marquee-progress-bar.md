@@ -3,7 +3,7 @@ title: 'TDM_SET_MARQUEE_PROGRESS_BAR 訊息 (Commctrl .h) '
 description: 指出工作對話方塊的裝載進度列是否應顯示在捲軸模式中。
 ms.assetid: 28b9b519-6b96-4130-936c-b8fe8df86d25
 keywords:
-- TDM_SET_MARQUEE_PROGRESS_BAR message Windows 控制項
+- TDM_SET_MARQUEE_PROGRESS_BAR 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 45a9384826b89d07c6564dc511d4909058871ca3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 13262339f7d87ea68755a38a49cc8c327706939d6b18025f350334dfdbe3dd4a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105971"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120104608"
 ---
 # <a name="tdm_set_marquee_progress_bar-message"></a>TDM \_ SET \_ 天棚 \_ 進度列 \_ 訊息
 
@@ -57,8 +57,8 @@ ms.locfileid: "104105971"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

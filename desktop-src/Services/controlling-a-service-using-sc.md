@@ -4,12 +4,12 @@ ms.assetid: 7c3e5c39-ec0f-4174-9ecf-239927de3d39
 title: 使用 SC 控制服務
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c1aa991395ba2aa55bf05d63176fba59d96dce8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2481e0d13f19760c042d39efe4ec6094a3ef270312aeb31d2228d401d914bc1f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106990393"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120126448"
 ---
 # <a name="controlling-a-service-using-sc"></a>使用 SC 控制服務
 

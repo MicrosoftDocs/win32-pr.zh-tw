@@ -3,7 +3,7 @@ title: 'TTM_HITTEST 訊息 (Commctrl .h) '
 description: 測試點以判斷它是否在指定之工具的周框矩形內，如果是，則會抓取工具的相關資訊。
 ms.assetid: d4dcc29b-c64c-41b8-a153-300df68ecdf5
 keywords:
-- TTM_HITTEST message Windows 控制項
+- TTM_HITTEST 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f7b515ccb5c283b66760f24c02749368e424e6fe
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 105edd555a1da1ba037f7dda114e1d9f9ef53048c02a7cb11e1df1ff0c01ad2e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465352"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120060518"
 ---
 # <a name="ttm_hittest-message"></a>TTM \_ system.windows.media.visualtreehelper.hittest 訊息
 
@@ -55,8 +55,8 @@ ms.locfileid: "104465352"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 | Unicode 與 ANSI 名稱<br/>   | **TTM \_HITTESTW** (Unicode) 和 **TTM \_ HITTESTA** (ANSI) <br/>                   |
 

@@ -4,12 +4,12 @@ ms.assetid: 3a2caf11-808b-4910-b83c-a272a026f0d3
 title: 建立和設定索引子
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 21e97bb558866fda021245b1597ead2a073c659c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8e0a341e3074ca44aa4403a3f2f518b4fb9082d4c6eadee1f4ca94a69e17bd98
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193779"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120061198"
 ---
 # <a name="indexer-creation-and-configuration"></a>建立和設定索引子
 

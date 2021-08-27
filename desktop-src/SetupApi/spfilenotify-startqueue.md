@@ -4,12 +4,12 @@ ms.assetid: 682c2ce0-0c82-402c-a487-db5f2c377f3f
 title: 'SPFILENOTIFY_STARTQUEUE 訊息 (Setupapi.log .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 090e3f97dceb1843d75934dd99cca500e6f93086
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a40d4fedde850d975edd697423339c686fe697911b9bef2fdc252baffda0158f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980452"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120073208"
 ---
 # <a name="spfilenotify_startqueue-message"></a>SPFILENOTIFY \_ STARTQUEUE 訊息
 
@@ -55,8 +55,8 @@ SPFILENOTIFY_STARTQUEUE
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Setupapi.log。h</dt> </dl> |
 
 

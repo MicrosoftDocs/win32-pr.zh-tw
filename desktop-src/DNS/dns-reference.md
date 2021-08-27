@@ -6,12 +6,12 @@ keywords:
 - 網域名稱系統，參考
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5da8c40e9da097dcdeb313388a133079363c866e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: dcaef447e9ff0a31fe42041a828ac702d7f02f59c7d04ebd24d701ddef19ea98
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021634"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120104068"
 ---
 # <a name="dns-reference"></a>DNS 參考
 
@@ -24,9 +24,9 @@ ms.locfileid: "104021634"
 -   [DNS 函式](dns-functions.md)
 -   [DNS 結構](dns-structures.md)
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 1bda3472-abda-4672-9b82-311163e56fe0
 title: stop 屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d6deb3f2a422cb8100da32c0427caf6436e72fbc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 15f8ccae1ff4a9a067ccf8ee90438cfb87e3260d41a7fac009afb4b4153e4ddf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106985037"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120050169"
 ---
 # <a name="stop-attribute"></a>stop 屬性
 

@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: dda87fbaa17b0329c3f1c377ba272ecf94c24abb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fc18b415ef168d982f5b00b272a665842f7eb77d9c37d1803906250bdf9fa82b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106984687"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120115848"
 ---
 # <a name="jet_tablecreategrbit-property"></a>JET_TABLECREATE grbit 屬性
 

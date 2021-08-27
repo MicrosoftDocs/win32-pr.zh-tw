@@ -4,12 +4,12 @@ ms.assetid: 7d10e5b4-bae7-4564-84eb-75c6a2eeef8f
 title: 正在抓取和設定感應器屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 78f64bf0e253f47ae2d8cd1f4945f3b87aa3406b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 71b13af3ee6cfc1a181f0a7f7a87adf7f0145f01e804562895d817abd993ac25
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106979915"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120126578"
 ---
 # <a name="retrieving-and-setting-sensor-properties"></a>正在抓取和設定感應器屬性
 

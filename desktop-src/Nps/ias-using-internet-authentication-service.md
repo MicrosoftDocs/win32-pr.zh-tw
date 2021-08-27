@@ -8,12 +8,12 @@ keywords:
 - 網際網路驗證服務 IAS，使用
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 06f422c005d6810a4035450e24de1324b28361f1
-ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
+ms.openlocfilehash: 4db3590ed10ec77e57c86bfad3e0e0b1160e70a2d6fcc08abc911a14614543f9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "111989066"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120074298"
 ---
 # <a name="using-nps-extensions"></a>使用 NPS 擴充功能
 
@@ -34,11 +34,11 @@ ms.locfileid: "111989066"
 
  
 
-您可以在下列清單中找到 MapName 和撥入範例應用程式的原始程式碼。 *位置*，% 安裝路徑%，指定 x64 電腦的基底安裝目錄。 另請參閱 [Windows 軟體開發套件 (sdk) 以取得 Windows 8](https://developer.microsoft.com/windows/downloads/windows-8-sdk)、Microsoft WINDOWS 軟體開發套件 (sdk) ，以及 [適用于 Windows Store 應用程式開發的下載](https://msdn.microsoft.com/windows/apps/br229516)。
+您可以在下列清單中找到 MapName 和撥入範例應用程式的原始程式碼。 *位置*，% 安裝路徑%，指定 x64 電腦的基底安裝目錄。 另請參閱[Windows 軟體開發套件 (sdk) 以取得 Windows 8](https://developer.microsoft.com/windows/downloads/windows-8-sdk)、Microsoft Windows 軟體開發套件 (sdk) ，以及[Windows Store 應用程式開發的下載](https://msdn.microsoft.com/windows/apps/br229516)。
 
 <dl> <dt>
 
-Windows 8 的 Windows SDK
+Windows適用于 Windows 8 的 SDK
 </dt> <dd>
 
 Windows Server 2012
@@ -64,7 +64,7 @@ MapName：是
 
 撥入：否
 
-位置：% 安裝路徑% \\ Microsoft sdk \\ Windows \\ 7.1 \\ 範例 \\ netds \\ ias
+位置：% 安裝路徑% \\ Microsoft sdk \\ Windows \\ app-v 7.1 \\ 範例 \\ netds \\ ias
 
 </dd> <dt>
 
@@ -90,7 +90,7 @@ MapName：是
 [適用于開發人員的下載](https://msdn.microsoft.com/windows/apps/br229516)
 </dt> <dt>
 
-[Windows 8 的 Windows SDK](https://developer.microsoft.com/windows/downloads/windows-8-sdk)
+[Windows適用于 Windows 8 的 SDK](https://developer.microsoft.com/windows/downloads/windows-8-sdk)
 </dt> </dl>
 
  
