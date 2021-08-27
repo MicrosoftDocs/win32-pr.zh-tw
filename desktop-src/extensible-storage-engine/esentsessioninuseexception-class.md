@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: b956d88e1a8c59f23bedc25fadcacd234841572b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1638809e7231bfe1f6ac1030ce46c5f2e5d5591783960115d7942c5afe1b5e75
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106981585"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120116948"
 ---
 # <a name="esentsessioninuseexception-class"></a>EsentSessionInUseException 類別
 

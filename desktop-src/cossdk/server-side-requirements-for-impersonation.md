@@ -4,12 +4,12 @@ ms.assetid: f6128688-dfd8-40ff-83ec-99d740b9152c
 title: 模擬的 Server-Side 需求
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e30edbebd37035ab7a7f4ca09e1cff73c2afbabe
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 18e43016428f2ff083fc5a783d05c3c79e241dcf299f3af9ca226cb4f6a2cf1b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971315"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120096798"
 ---
 # <a name="server-side-requirements-for-impersonation"></a>模擬的 Server-Side 需求
 

@@ -3,7 +3,7 @@ title: 'LVM_SETHOVERTIME 訊息 (Commctrl .h) '
 description: 設定在選取專案之前，滑鼠游標必須停留在專案上的時間量。 您可以明確地傳送此訊息，或使用 ListView \_ SetHoverTime 宏。
 ms.assetid: 454fbc38-f7fd-4dea-b223-56003b88528f
 keywords:
-- LVM_SETHOVERTIME message Windows 控制項
+- LVM_SETHOVERTIME 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f3aecd3c0d48cddc2cbaae49e7e888f91a985575
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8f93edf917dc50384f3a09f7eadf013561715735a995c63a695cb8f9ad91dbce
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104093835"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120077228"
 ---
 # <a name="lvm_sethovertime-message"></a>LVM \_ SETHOVERTIME 訊息
 
@@ -53,8 +53,8 @@ ms.locfileid: "104093835"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

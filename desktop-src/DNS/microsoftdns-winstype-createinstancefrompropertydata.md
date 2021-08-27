@@ -1,6 +1,6 @@
 ---
 title: MicrosoftDNS_WINSType 類別的 CreateInstanceFromPropertyData 方法
-description: CreateInstanceFromPropertyData 方法會具現化 Windows 網際網路名稱服務 (WINS) 資源記錄。
+description: CreateInstanceFromPropertyData 方法會將 Windows 的網際網路名稱服務具現化 (WINS) 資源記錄。
 ms.assetid: 0b41a6a5-0bb1-467b-9089-2c721d521887
 keywords:
 - CreateInstanceFromPropertyData 方法 DNS
@@ -16,16 +16,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bf584bd34f59391a49fd5f7ec13cb49e18ef68fb
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 92f39b360c29ca859c0d0fd0188f0b065dec58293207c27e0a0267572472aabe
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103686094"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120077048"
 ---
 # <a name="createinstancefrompropertydata-method-of-the-microsoftdns_winstype-class"></a>MicrosoftDNS WINSType 類別的 CreateInstanceFromPropertyData 方法 \_
 
-**CreateInstanceFromPropertyData** 方法會具現化 Windows 網際網路名稱服務 (WINS) 資源記錄。
+**CreateInstanceFromPropertyData** 方法會將 Windows 的網際網路名稱服務具現化 (WINS) 資源記錄。
 
 ## <a name="syntax"></a>語法
 

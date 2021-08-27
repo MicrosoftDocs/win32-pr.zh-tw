@@ -3,7 +3,7 @@ title: 'CB_SETMINVISIBLE 訊息 (Commctrl .h) '
 description: 應用程式會傳送 CB \_ SETMINVISIBLE 訊息，在下拉式方塊的下拉式清單中設定可見專案的最小數目。
 ms.assetid: 3cf9e488-50ce-4825-acf0-4e665d074f9e
 keywords:
-- CB_SETMINVISIBLE message Windows 控制項
+- CB_SETMINVISIBLE 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ac88155424c0b1ecf6c91f398e7a9a2d437eff90
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7a9790c43141ef836c1dec86304f260b0490854b593b7005b594d2a718332296
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104093935"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120063318"
 ---
 # <a name="cb_setminvisible-message"></a>CB \_ SETMINVISIBLE 訊息
 
@@ -61,8 +61,8 @@ ms.locfileid: "104093935"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

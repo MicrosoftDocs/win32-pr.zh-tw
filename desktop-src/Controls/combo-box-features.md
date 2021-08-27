@@ -4,12 +4,12 @@ description: 本檔討論下拉式方塊的功能。
 ms.assetid: 7102beff-7f67-4e4e-a32b-9ccae1522ebd
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 735daf708785c8d7c18027ae13a9a9cdcf843dd6
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: ef25e15b254c3eae048a0c938d23eed33884043aa2414f03a5ca9916cea35997
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104024174"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120063270"
 ---
 # <a name="combo-box-features"></a>下拉式列示方塊功能
 
@@ -68,7 +68,7 @@ ms.locfileid: "104024174"
 
 
 
-| 通知碼                         | Description                                                                                                                                                            |
+| 通知碼                         | 描述                                                                                                                                                            |
 |-------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [CBN \_ 特寫](cbn-closeup.md)           | 表示下拉式清單方塊或下拉式清單方塊中的清單即將關閉。                                                                                   |
 | [CBN \_ DBLCLK](cbn-dblclk.md)             | 指出使用者已在簡單下拉式方塊中按兩下清單專案。                                                                                               |
@@ -84,7 +84,7 @@ ms.locfileid: "104024174"
 
 
 
- 
+ 
 
 ## <a name="default-combo-box-behavior"></a>預設下拉式方塊行為
 
@@ -166,10 +166,10 @@ ms.locfileid: "104024174"
 
 
 
- 
+ 
 
 所有其他訊息都會傳遞至 [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) 函式以進行預設處理。
 
- 
+ 
 
- 
+ 

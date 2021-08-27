@@ -4,12 +4,12 @@ ms.assetid: a26951d6-67fb-43fb-849f-331416e9d7c2
 title: 'AVEncCodecType 屬性 (Codecapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8643c0624b7d82381e2008f2adbd6804e9af9881
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 3727ff8cc2a59208d63874de173e3e44e89e3e6f2ebc37201218f9656aa09cd4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104317775"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120084608"
 ---
 # <a name="avenccodectype-property"></a>AVEncCodecType 屬性
 
@@ -31,7 +31,7 @@ ms.locfileid: "104317775"
 
 
 
-| GUID                                      | Description                                        |
+| GUID                                      | 描述                                        |
 |-------------------------------------------|----------------------------------------------------|
 | CODECAPI \_ GUID \_ AVEncDolbyDigitalConsumer | 杜比數位消費者音訊                       |
 | CODECAPI \_ GUID \_ AVEncDolbyDigitalPlus     | 杜比數位加號音訊                           |
@@ -47,10 +47,10 @@ ms.locfileid: "104317775"
 | CODECAPI \_ GUID \_ AVEncMPEG2Video           | MPEG-2 影片                                       |
 | CODECAPI \_ GUID \_ AVEncPCM                  | PCM 音訊                                          |
 | CODECAPI \_ GUID \_ AVEncSDDS                 | 索尼動態數位音效 (SDD) 音訊            |
-| CODECAPI \_ GUID \_ AVEncWMALossless          | Windows Media 音訊9無失真音訊               |
-| CODECAPI \_ GUID \_ AVEncWMAPro               | Windows Media 音訊 9 Professional (WMA Pro) 音訊 |
-| CODECAPI \_ GUID \_ AVEncWMAVoice             | Windows Media 音訊9語音音訊                  |
-| CODECAPI \_ GUID \_ AVEncWMV                  | Windows Media 視訊                                |
+| CODECAPI \_ GUID \_ AVEncWMALossless          | WindowsMedia Audio 9 無失真音訊               |
+| CODECAPI \_ GUID \_ AVEncWMAPro               | WindowsMedia Audio 9 Professional (WMA Pro) 音訊 |
+| CODECAPI \_ GUID \_ AVEncWMAVoice             | WindowsMedia Audio 9 語音音訊                  |
+| CODECAPI \_ GUID \_ AVEncWMV                  | Windows媒體影片                                |
 | CODECAPI \_ GUID \_ AVEndMPEG4Video           | MPEG 4 影片                                       |
 
 
@@ -67,8 +67,8 @@ ms.locfileid: "104317775"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 2000 專業版傳統型 \[ 應用程式 \| UWP 應用程式\]<br/>                     |
-| 最低支援的伺服器<br/> | Windows 2000 Server \[ desktop 應用程式 \| UWP 應用程式\]<br/>                           |
+| 最低支援的用戶端<br/> | Windows 2000 Professional \[ 桌面應用程式 \| UWP 應用程式\]<br/>                     |
+| 最低支援的伺服器<br/> | Windows 2000 Server \[ desktop apps \| UWP 應用程式\]<br/>                           |
 | 標頭<br/>                   | <dl> <dt>Codecapi。h</dt> </dl> |
 
 

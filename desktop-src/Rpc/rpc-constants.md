@@ -6,12 +6,12 @@ keywords:
 - 遠端程序呼叫 RPC、參考、常數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bc0d92d9939ce31565796741b584cfa37e4a2690
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 8782fa94352e578e0b6e7d32645c0dda0dd997bf51c46869ecbc5e9642957f31
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021919"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120127788"
 ---
 # <a name="rpc-constants"></a>RPC 常數
 
@@ -27,9 +27,9 @@ ms.locfileid: "104021919"
 -   [保護層級常數](protection-level-constants.md)
 -   [通訊協定順序常數](protocol-sequence-constants.md)
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: fbf319bb-4e24-46e3-81bc-d407b26220fb
 title: 選取網路介面卡
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8315a97cc8457d86614fc25c87c39b1b9794c7fb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d1f93341bb169f2672579ac6764186925b7190f1ac52c698e2426e1c20d3e854
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104115076"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120074488"
 ---
 # <a name="selecting-a-network-interface-card"></a>選取網路介面卡
 

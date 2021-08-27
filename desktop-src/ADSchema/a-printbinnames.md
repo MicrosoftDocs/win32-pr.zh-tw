@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d8f1f071162c39ad7191d7bfbae102dd7321cbdb
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 646f4bb717a5ca54c300b9c2610e156b0c326d74addb10a3ad1574f46092a21d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106965546"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120065728"
 ---
 # <a name="print-bin-names-attribute"></a>Print-Bin-Names 屬性
 

@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 045caf6ec922183893df252488946546602d2459
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: d5c362e81af22b46cd443ade7cd4b466112ba9a4d98bd5852ee3d92a285936aa
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104316393"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120117848"
 ---
 # <a name="texldp---ps"></a>texldp-ps
 
@@ -29,7 +29,7 @@ ms.locfileid: "104316393"
 
 
 
- 
+ 
 
 其中
 
@@ -59,7 +59,7 @@ Src0 執行材質範例所需的座標數目取決於 src1 的宣告方式，以
 
 
 
- 
+ 
 
 下列版本支援此指令：
 
@@ -71,7 +71,7 @@ Src0 執行材質範例所需的座標數目取決於 src1 的宣告方式，以
 
 
 
- 
+ 
 
 ### <a name="ps_2_0-and-ps_2_x"></a>ps \_ 2 \_ 0 和 ps \_ 2 \_ x
 
@@ -99,6 +99,6 @@ src1 必須是 [ (Direct3D 9 asm-ps) ](dx9-graphics-reference-asm-ps-registers-s
 [圖元著色器指示](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

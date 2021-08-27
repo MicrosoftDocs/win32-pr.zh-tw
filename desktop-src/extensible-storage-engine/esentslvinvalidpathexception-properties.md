@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102783
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: ac28dcf27e7acf4b4beffe499ab102f4e42bca38
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0175a9fb790b74c9b17fcb89a0b1caee929efef0446b2e155ec84520de586e11
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104551103"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120116768"
 ---
 # <a name="esentslvinvalidpathexception-properties"></a>EsentSLVInvalidPathException 屬性
 

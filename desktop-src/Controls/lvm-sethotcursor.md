@@ -3,7 +3,7 @@ title: 'LVM_SETHOTCURSOR 訊息 (Commctrl .h) '
 description: 設定當啟用熱追蹤時，清單視圖控制項所使用的 HCURSOR 值。
 ms.assetid: e3ff8608-9389-4167-839b-ecc2be01bb64
 keywords:
-- LVM_SETHOTCURSOR message Windows 控制項
+- LVM_SETHOTCURSOR 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0e743f74eda3b59f04f6f4793b47d76da3bab881
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3407c5d8b53483d3a639fc40959768b3fa8eea0e7b439ab8871d36346b7079d0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103685519"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120077248"
 ---
 # <a name="lvm_sethotcursor-message"></a>LVM \_ SETHOTCURSOR 訊息
 
@@ -53,8 +53,8 @@ ms.locfileid: "103685519"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

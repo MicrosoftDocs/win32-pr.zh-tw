@@ -9,12 +9,12 @@ keywords:
 - 功能等級，DirectX
 ms.topic: article
 ms.date: 09/01/2020
-ms.openlocfilehash: 9c4717d743e50e91376e57e5d13acbe2cfae41d8
-ms.sourcegitcommit: 0b93de98c4afc79a6801a113bc91adbc89e835b9
+ms.openlocfilehash: e1ca80faa816ff7601f0a33893a708fafa7f2d3f
+ms.sourcegitcommit: 0dec0044816af3f2b2e6403659e1cf11138c90cd
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "113282467"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "121812044"
 ---
 # <a name="direct3d-feature-levels"></a>Direct3D 功能層級
 
@@ -75,11 +75,11 @@ Direct3D 版本、著色器模型和功能層級有三種格式。
 | [BC4/BC5 壓縮](../direct3d10/d3d10-graphics-programming-guide-resources-block-compression.md) | 是 | 是 | 是 | 是 | 是 | 是 | 是 | 否 |
 | [BC6H/BC7 壓縮](texture-block-compression-in-direct3d-11.md) | 是 | 是 | 是 | 是 | 是 | 否 | 否 | 否 |
 | [Alpha 到涵蓋範圍](./d3d10-graphics-programming-guide-blend-state.md) | 是 | 是 | 是 | 是 | 是 | 是 | 是 | 否 |
-| [擴充格式 (BGRA 等等) ](overviews-direct3d-11-devices-downlevel-exceptions.md) | 是 | 是 | 是 | 是 | 是 | 選用 | 選用 | 是 |
+| [擴充格式 (BGRA 等等) ](overviews-direct3d-11-devices-downlevel-exceptions.md) | 是 | 是 | 是 | 是 | 是 | 選用 | 選用 | Yes |
 | [10 位元 XR 高彩格式](overviews-direct3d-11-devices-downlevel-exceptions.md) | 是 | 是 | 是 | 是 | 是 | 選用 | 選用 | N/A |
-| [ (輸出合併的邏輯作業) ](/windows/win32/api/D3D11/ns-d3d11-d3d11_feature_data_d3d11_options) | 是 | 是 | 是 | 是 | 選用<sup>1</sup> | 選用<sup>1</sup> | 選用<sup>1</sup> | 否 |
+| [ (輸出合併的邏輯作業) ](/windows/win32/api/D3D11/ns-d3d11-d3d11_feature_data_d3d11_options) | 是 | 是 | 是 | 是 | 選用<sup>1</sup> | 選用<sup>1</sup> | 選用<sup>1</sup> | No |
 | 目標獨立的點陣化 | 是 | 是 | 是 | 是 | 否 | 否 | 否 | 否 |
-| [多重轉譯目標 (MRT.LOG) 與 ForcedSampleCount 1](/windows/win32/api/D3D11/ns-d3d11-d3d11_feature_data_d3d11_options) | 是 | 是 | 是 | 是 | 選用<sup>1</sup> | 選用<sup>1</sup> | 選用<sup>1</sup> | 否 |
+| [多重轉譯目標 (MRT.LOG) 與 ForcedSampleCount 1](/windows/win32/api/D3D11/ns-d3d11-d3d11_feature_data_d3d11_options) | 是 | 是 | 是 | 是 | 選用<sup>1</sup> | 選用<sup>1</sup> | 選用<sup>1</sup> | No |
 | UAV 插槽 | 分層<sup>9</sup> | 64 | 64 | 64 | 8 | 1 | 1 | N/A |
 | <b>功能 \\ 功能等級</b> | <b>12 \_ 2<sup>8</sup></b> | <b>12 \_ 1<sup>0</sup></b> | <b>12 \_ 0<sup>0</sup></b> | <b>11 \_ 1<sup>1</sup></b> | <b>11 \_ 0</b> | <b>10 \_ 1</b> | <b>10 \_ 0</b> | <b>9 \_ 3<sup>7</sup></b> |
 | 每個階段的 UAVs | 是 | 是 | 是 | 是 | 否 | 否 | 否 | N/A |
@@ -179,7 +179,7 @@ Direct3D 版本、著色器模型和功能層級有三種格式。
 
 <sup>8</sup> 需要 Direct3D 12 執行時間。
 
-在 Direct3D 12 API 中有<sup>9</sup>個 CBV/SRV/UAV 堆積中的描述項數目有所限制。 如需詳細資訊，請參閱 [硬體層](/windows/win32/direct3d12/hardware-support) 。 在所有階段（以 [資源系結層](https://microsoft.github.io/DirectX-Specs/d3d/ResourceBinding.html#levels-of-hardware-support)為基礎）中，所有描述項資料表中的 UAVs 數目會分別受到限制。
+在 Direct3D 12 API 中有<sup>9</sup>個 CBV/SRV/UAV 堆積中的描述項數目有所限制。 如需詳細資訊，請參閱 [硬體層](../direct3d12/hardware-support.md) 。 在所有階段（以 [資源系結層](https://microsoft.github.io/DirectX-Specs/d3d/ResourceBinding.html#levels-of-hardware-support)為基礎）中，所有描述項資料表中的 UAVs 數目會分別受到限制。
 
 如需不同硬體功能層級的格式支援詳細資訊，請參閱：
 

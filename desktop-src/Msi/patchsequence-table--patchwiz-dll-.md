@@ -4,16 +4,16 @@ ms.assetid: bdeccb3b-57c0-4424-9602-348b8048fd46
 title: 'PatchSequence 資料表 (PATCHWIZ.DLL) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 382e940d3c0cb6c7be2c8360ab98f2afaf13c799
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e0281f9882a674b268466259c534eefaa468bacf0fa891dc3a385e4d580a1e8a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103852731"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120129178"
 ---
 # <a name="patchsequence-table-patchwizdll"></a>PatchSequence 資料表 (PATCHWIZ.DLL) 
 
-PatchSequence 資料表是用來產生修補程式中的 [MsiPatchSequence 資料表](msipatchsequence-table.md) 。 資料表需要 Windows Installer 3.0 提供的 [PATCHWIZ.DLL](patchwiz-dll.md) 版本。
+PatchSequence 資料表是用來產生修補程式中的 [MsiPatchSequence 資料表](msipatchsequence-table.md) 。 資料表需要 Windows Installer 3.0 提供的[PATCHWIZ.DLL](patchwiz-dll.md)版本。
 
 下表識別 PatchSequence 資料表的資料行。
 

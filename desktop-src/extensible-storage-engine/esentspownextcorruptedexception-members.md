@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102985
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 843d7d5e08b3de016903ceea33e3736f20e2a529
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0ae0b248a9acd1e8e9d9d6a152bc280d35f6afe1909604dbabf947ff65f6bf31
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104571255"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120116758"
 ---
 # <a name="esentspownextcorruptedexception-members"></a>EsentSPOwnExtCorruptedException 成員
 

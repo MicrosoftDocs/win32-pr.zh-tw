@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 9fea0b79fd1542e0bb798de7fcdb8858face5089
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8a2cc42d8350ff01e85bed57c4a93bd4823ee6073773d67ba80ca1b4e1b0e61d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113473"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120094038"
 ---
 # <a name="esentdatabaseincompleteincrementalreseedexception-constructor"></a>EsentDatabaseIncompleteIncrementalReseedException 函式
 

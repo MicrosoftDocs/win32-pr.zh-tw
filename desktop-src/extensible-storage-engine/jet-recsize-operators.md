@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Hh557600(v=EXCHG.10)
 ms:contentKeyID: 39512132
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 57717504ed794fc9e722aaaea9e518f99a380023
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6c3bfaf54bba1d115efa19a8a578c4b9a51e6b8d890272678ce08f53983b0773
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104195336"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120063188"
 ---
 # <a name="jet_recsize-operators"></a>JET_RECSIZE 運算子
 
@@ -27,14 +27,14 @@ ms.locfileid: "104195336"
 <thead>
 <tr class="header">
 <th> </th>
-<th>Name</th>
+<th>名稱</th>
 <th>描述</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><img src="../images/dn350944.puboperator(exchg.10).gif" title="公用運算子" alt="Public operator" /><img src="../images/dn292146.static(exchg.10).gif" title="靜態成員" alt="Static member" /></td>
-<td><a href="hh578675(v=exchg.10).md">除了</a></td>
+<td><a href="hh578675(v=exchg.10).md">加法</a></td>
 <td>將大小新增至兩個 JET_RECSIZE 結構。</td>
 </tr>
 <tr class="even">
@@ -49,7 +49,7 @@ ms.locfileid: "104195336"
 </tr>
 <tr class="even">
 <td><img src="../images/dn350944.puboperator(exchg.10).gif" title="公用運算子" alt="Public operator" /><img src="../images/dn292146.static(exchg.10).gif" title="靜態成員" alt="Static member" /></td>
-<td><a href="hh596696(v=exchg.10).md">減法</a></td>
+<td><a href="hh596696(v=exchg.10).md">減</a></td>
 <td>計算兩個 JET_RECSIZE 結構之間的大小差異。</td>
 </tr>
 </tbody>

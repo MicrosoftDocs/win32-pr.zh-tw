@@ -4,12 +4,12 @@ ms.assetid: d7e32d00-2e2d-4ab5-aa62-708d45f5b431
 title: LOCALE_SSHORTTIME
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dad27a42ccbf655aec2dd286ef61c26e89f4be80
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 03aacdade4ebf59a18bfb83e940318854fe9dfd2764e6245aaa9124c5eb830b6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943677"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120105817"
 ---
 # <a name="locale_sshorttime"></a>地區設定 \_ SSHORTTIME
 

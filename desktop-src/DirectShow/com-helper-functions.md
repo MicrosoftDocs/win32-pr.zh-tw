@@ -1,5 +1,5 @@
 ---
-description: 這些函式提供在 DirectShow 中執行 IUnknown 介面的支援。
+description: 這些函數可支援在 DirectShow 中執行 IUnknown 介面。
 ms.assetid: 991e4c69-7d30-4ecf-9ccf-4920452c21d6
 title: 'COM Helper 函數 (Combase .h) '
 ms.topic: reference
@@ -16,16 +16,16 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 9522469ee1aa4f4efa63b4cff6ad73204973a622
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: fa8558cd0d04258adf89cbacdd99952cf00c6d0aa5f24ee38cca2dceb4e5478f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106996505"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120084338"
 ---
 # <a name="com-helper-functions"></a>COM Helper 函數
 
-這些函式提供在 DirectShow 中執行 **IUnknown** 介面的支援。
+這些函數可支援在 DirectShow 中執行 **IUnknown** 介面。
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 8d2b758b-cc2a-43ad-bf26-51674d4b5129
 title: 著色器列舉 (Direct3D 10 圖形)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5b5e06654c90a702c6d2612a27be5e51152cfe7d
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 38086165d7205d70cbefbefed205dbe55b9120eed5a666ba54ed5c9148e684b3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104468465"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120096688"
 ---
 # <a name="shader-enumerations-direct3d-10-graphics"></a>著色器列舉 (Direct3D 10 圖形)
 

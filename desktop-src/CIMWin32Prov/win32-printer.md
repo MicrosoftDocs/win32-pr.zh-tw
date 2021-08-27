@@ -102,16 +102,16 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 48fc170cb3e85d44dc3e01140fe2c881a7ec975b
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 5f1a91ac90560343a38e546590005e8b984d13843eba8195381daa204e2d22cb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104187731"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120077308"
 ---
 # <a name="win32_printer-class"></a>Win32 \_ 印表機類別
 
-**Win32 \_ 印表機** [WMI 類別](../wmisdk/retrieving-a-class.md)代表連接到在 Microsoft Windows 作業系統上執行之電腦的裝置，可在紙張或其他媒體上產生列印的影像或文字。
+**Win32 \_ 印表機** [WMI 類別](../wmisdk/retrieving-a-class.md)代表連接到在 Microsoft Windows 作業系統上執行之電腦的裝置，該電腦可在紙張或其他媒體上產生列印的影像或文字。
 
 下列語法已經過受管理物件格式 (MOF) 程式碼簡化，並包含所有已繼承的屬性。
 
@@ -255,7 +255,7 @@ class Win32_Printer : CIM_Printer
 存取類型：唯讀
 </dt> </dl>
 
-以 Windows 為基礎之列印裝置的屬性點陣圖。
+以 Windows 為基礎的列印裝置的屬性點陣圖。
 
 <dt>
 
@@ -4642,7 +4642,7 @@ JIS B10
 限定詞： [**架構**](../wmisdk/standard-qualifiers.md) ( "Win32" ) 
 </dt> </dl>
 
-Windows 隨插即用邏輯裝置的裝置識別碼。
+Windows隨插即用邏輯裝置的裝置識別碼。
 
 這個屬性繼承自 [**CIM \_ LogicalDevice**](cim-logicaldevice.md)。
 
@@ -5076,7 +5076,7 @@ Processing
 存取類型：讀取/寫入
 </dt> </dl>
 
-等候 Windows 列印裝置之列印工作的資料類型。
+等候以 Windows 為基礎的列印裝置之列印工作的資料類型。
 
 </dd> <dt>
 
@@ -5490,7 +5490,7 @@ Processing
 
 **Win32 \_ 印表機** 類別衍生自 [**CIM \_ 印表機**](cim-printer.md)。 針對 **Win32 \_ 印表機** 實例呼叫 [**SWbemObject \_ . Put**](../wmisdk/swbemobject-put-.md)或 [**IWbemServices：:P utinstance**](/windows/win32/api/wbemcli/nf-wbemcli-iwbemservices-putinstance)之前，必須啟用 Visual Basic 和) LoadDriver 的 **SeLoadDriverPrivilege** 許可權 (**wbemPrivilegeLoadDriver** 。 如需詳細資訊，請參閱 [**許可權常數**](../wmisdk/privilege-constants.md) 和 [執行特殊許可權作業](../wmisdk/executing-privileged-operations.md)。 下列 VBScript 程式碼範例顯示如何在腳本中啟用 **SetLoadDriverPrivilege** 許可權。
 
-如需使用 MSCS 印表機叢集，請使用 prnadmin.dll 元件，或 .NET Framework 的 [System. 列印](/dotnet/api/system.printing) 命名空間。
+如需使用 MSCS 印表機叢集，請使用 prnadmin.dll 元件，或 .NET Framework 的[System. 列印](/dotnet/api/system.printing)命名空間。
 
 
 ```VB
@@ -5499,9 +5499,9 @@ Set objPrinter = GetObject("winmgmts:{impersonationLevel=Impersonate,(LoadDriver
 
 
 
-Windows 使用執行腳本之使用者的認證來判斷可用的印表機。 因此，如果您是從遠端執行腳本，您只能存取該遠端系統上您的使用者帳戶所能使用的任何印表機。
+Windows 使用執行腳本之使用者的認證來判斷可用的印表機是什麼。 因此，如果您是從遠端執行腳本，您只能存取該遠端系統上您的使用者帳戶所能使用的任何印表機。
 
-您無法針對 MSCS 列印叢集上的印表機使用 **Win32 \_ 印表機** 類別。 相反地，您可能需要使用 PrinterAdmin 工具 (PrnAdmin.dll) 或 .NET Framework [System. 列印](/dotnet/api/system.printing) 命名空間。
+您無法針對 MSCS 列印叢集上的印表機使用 **Win32 \_ 印表機** 類別。 相反地，您可能需要使用 PrinterAdmin 工具 (PrnAdmin.dll) 或 .NET Framework [System. 列印](/dotnet/api/system.printing)命名空間。
 
 > [!Note]  
 > 如果您要抓取 **PrinterStatus** = 3 或 **PrinterState** = 0，印表機驅動程式可能無法將正確的資訊饋送至 WMI。 WMI 會從 spoolsv.exe 進程抓取印表機資訊。 印表機驅動程式可能不會將其狀態報表給多工緩衝處理器。 在此情況下， **Win32 \_ 印表機** 會將印表機報告為 **閒置**。
@@ -5510,7 +5510,7 @@ Windows 使用執行腳本之使用者的認證來判斷可用的印表機。 �
 
 ## <a name="examples"></a>範例
 
-PS 在 TechNet 資源庫上 [使用 visio PowerShell 範例建立電腦設定繪圖](https://Gallery.TechNet.Microsoft.Com/84e2c31a-e644-4f79-83cd-e2b1a0ef8557) 使用 **Win32 \_ 印表機** 與 visio automation 模型互動，以建立 visio 繪圖。
+PS 使用 TechNet 資源庫上的 Visio PowerShell 範例來 [建立電腦設定繪圖](https://Gallery.TechNet.Microsoft.Com/84e2c31a-e644-4f79-83cd-e2b1a0ef8557)使用 **Win32 \_ 印表機** 與 Visio automation 模型互動，以建立 Visio 繪圖。
 
 [Powershell 遠端電腦資訊腳本](https://Gallery.TechNet.Microsoft.Com/2a8a008c-ee30-4b50-a81a-1b7545ef3436)會使用許多類別（包括 **Win32 \_ 印表機**）來取得遠端電腦的相關資訊。
 

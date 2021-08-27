@@ -4,12 +4,12 @@ description: 查詢指定輸入資源的維度。
 ms.assetid: 5D549AC6-E0CB-4395-953C-5E5ECEEE234D
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9a252195a4b59ed791f6ac625fe1d95bbd9925f1
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
-ms.translationtype: HT
+ms.openlocfilehash: bb23a6790c113702e59fc53f85a4d838907fe5ff658c29d83e37e3f620a9dc79
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104373766"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120095318"
 ---
 # <a name="resinfo-sm4---asm"></a>resinfo (sm4-asm) 
 
@@ -101,9 +101,9 @@ ms.locfileid: "104373766"
 | [著色器模型5](d3d11-graphics-reference-sm5.md)        | 是       |
 | [著色器模型4。1](dx-graphics-hlsl-sm4.md)              | 是       |
 | [著色器模型4](dx-graphics-hlsl-sm4.md)                | 是       |
-| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 不可以        |
-| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 不可以        |
-| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 不可以        |
+| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 否        |
+| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 否        |
+| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 否        |
 
 
 

@@ -5,19 +5,19 @@ ms.assetid: 6b8be050-9763-48c8-9ffa-dcb76e60e8c6
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d3c3faf19d64abde16ed21344803b50cfcb928a6
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 140af3afa7d1a1aeeb8aee4d5042c58ccf2ca80ea341e42556e6f65676b6b2ba
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106965856"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120128548"
 ---
 # <a name="sdo-supported-attributes"></a>SDO 支援的屬性
 
 > [!Note]  
-> 從 Windows Server 2008 開始， (IAS) 的網際網路驗證服務已重新命名為網路原則伺服器 (NPS) 。
+> 網際網路驗證服務 (IAS) 已重新命名網路原則伺服器 (NPS) 從 Windows Server 2008 開始。
 
- 
+ 
 
 NPS 伺服器資料物件具有 [**設定檔**](/windows/desktop/api/sdoias/ne-sdoias-profileproperties) 屬性，可提供屬性集合的存取權。 支援的屬性如下所示。
 
@@ -43,6 +43,6 @@ NPS 伺服器資料物件具有 [**設定檔**](/windows/desktop/api/sdoias/ne-s
 [SDO 物件模型階層](/windows/desktop/Nps/sdo-object-model-hierarchy)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: 0a1d93ba6a9a4dc0304daba11c5868b77ece43b9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4fad74e1647413b66ebc6910e739750699f4e641c961eff59ecaacbf1e7a41f7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994148"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120074988"
 ---
 # <a name="databasemerge-method"></a>Database. Merge 方法
 
@@ -60,7 +60,7 @@ Database.Merge(
 
 ## <a name="remarks"></a>備註
 
-[**MsiDatabaseMerge**](/windows/desktop/api/Msiquery/nf-msiquery-msidatabasemergea)函式和 [**資料庫**](database-object.md)物件的 **merge** 方法不能用來合併安裝封裝內所含的模組。 它們不應該用來將 [合併模組](merge-modules.md) 合併成 Windows Installer 套件。 若要在安裝套件中包含合併模組，安裝套件的作者應遵循套用 [合併模組](applying-merge-modules.md) 主題中所述的指導方針。
+[**MsiDatabaseMerge**](/windows/desktop/api/Msiquery/nf-msiquery-msidatabasemergea)函式和 [**資料庫**](database-object.md)物件的 **merge** 方法不能用來合併安裝封裝內所含的模組。 它們不應該用來將[合併模組](merge-modules.md)合併成 Windows Installer 套件。 若要在安裝套件中包含合併模組，安裝套件的作者應遵循套用 [合併模組](applying-merge-modules.md) 主題中所述的指導方針。
 
 **Merge** 方法不會將內嵌的封 [包](cabinet-files.md)檔或 [內嵌的轉換](embedded-transforms.md)從參考資料庫複製到目標資料庫。 [二進位資料表](binary-table.md)或[圖示資料表](icon-table.md)中所列的內嵌資料串流，會從參考資料庫複製到目標資料庫。 內嵌于參考資料庫中的儲存體不會複製到目標資料庫。
 
@@ -78,7 +78,7 @@ Database.Merge(
 
 | 需求 | 值 |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 版本<br/> | Windows Server 2012、Windows 8、Windows Server 2008 R2 或 Windows 7 上的 Windows Installer 5.0。 Windows Server 2008 或 Windows Vista 上的 Windows Installer 4.0 或 Windows Installer 4.5。 Windows Server 2003 或 Windows XP 上的 Windows Installer<br/> |
+| 版本<br/> | WindowsWindows Server 2012、Windows 8 Windows Server 2008 R2 或 Windows 7 上的安裝程式5.0。 WindowsWindows Server 2008 或 Windows Vista 上的安裝程式4.0 或 Windows Installer 4.5。 WindowsWindows Server 2003 或 Windows XP 上的安裝程式<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                      |
 | IID<br/>     | IID \_ IDatabase 定義為 000C109D-0000-0000-C000-000000000046<br/>                                                                                                                                                                            |
 

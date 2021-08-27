@@ -14,12 +14,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 02ad636f9894f96b9d6e9b2d27952117c7581e69
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: aee5841de491b72481cccd07fd6f4f65ee9cfc6dbd0620dc4558ed6ca3c2b130
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104382885"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120094378"
 ---
 # <a name="tlsextensions-v2-schema"></a>TLSExtensions (v2 架構) 
 
@@ -41,8 +41,8 @@ ms.locfileid: "104382885"
 
 | 角色 | 最低支援作業系統版本 |
 |------|------------------------------|
-| 用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>              |
-| 伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/> |
+| 用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>              |
+| 伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/> |
 
 
 

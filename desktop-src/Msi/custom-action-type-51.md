@@ -4,12 +4,12 @@ ms.assetid: cdad16ad-426c-4e04-8003-b32c67be7329
 title: 自訂動作類型51
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ef3224add3a425131ee3308bc4f610b086cd99a2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e780c1a38b60c855f4bfe665f5f68a3f6a037a078f4a2875d1a2ea57c5e7e8dc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944847"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120075048"
 ---
 # <a name="custom-action-type-51"></a>自訂動作類型51
 

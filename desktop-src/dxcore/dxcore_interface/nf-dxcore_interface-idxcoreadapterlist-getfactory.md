@@ -4,12 +4,12 @@ description: 抓取 DXCore 介面卡 factory 物件的 [IDXCoreAdapterFactory](.
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 06/20/2019
-ms.openlocfilehash: 08dc93f5c7e086e33d15f666a2c5b94fd7dd7e58
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 97ae5ef0ba321dafaabf1813d943b738f5af4c586050b91712bf9ad93005cb35
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106993813"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120094578"
 ---
 # <a name="idxcoreadapterlistgetfactory-method"></a>IDXCoreAdapterList：： GetFactory 方法
 

@@ -40,12 +40,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 844f897456ee21dfa93dfaa5b16b4f218ba5efb0
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c88c31d77b666e377cbd1911cde8b5df63d8f5c2fc750cd03a701b03af5b60ab
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103685994"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120094398"
 ---
 # <a name="eap-method-properties"></a>EAP 方法屬性
 
@@ -65,7 +65,7 @@ ms.locfileid: "103685994"
 
 
 
-方法可讓加密套件基於資料加密目的進行協商。 Windows Server 2008 支援下列 3DES [加密套件](/windows/desktop/SecAuthN/tls-cipher-suites)：
+方法可讓加密套件基於資料加密目的進行協商。 WindowsServer 2008 支援下列 3DES[加密套件](/windows/desktop/SecAuthN/tls-cipher-suites)：
 
 -   TLS \_ RSA \_ 與 \_ 3des \_ EDE \_ CBC \_ SHA (tls & SSL 3) 
 -   \_ \_ \_ 具有 \_ 3des \_ EDE \_ CBC \_ SHA (tls & SSL 3) 的 tls DHE DSS
@@ -383,7 +383,7 @@ Windows 7 或更新版本：方法可用來使用電腦認證來驗證網路上�
 
 
 
-Windows 7 或更新版本：方法可以用來利用使用者認證，對網路上的使用者進行驗證。
+Windows 7 或更新版本：方法可以用來使用使用者認證來驗證網路上的使用者。
 
 
 </dt> </dl> </dd> <dt>
@@ -422,7 +422,7 @@ Windows 7 或更新版本：方法是 tunnelled 方法，並且支援通道內�
 
 
 
-Windows 7 或更新版本：方法支援 [RFC 4017](https://go.microsoft.com/fwlink/p/?linkid=90455)中定義的共用狀態等價。
+Windows 7 或更新版本：此方法支援[RFC 4017](https://go.microsoft.com/fwlink/p/?linkid=90455)中定義的共用狀態等價。
 
 
 </dt> </dl> </dd> <dt>
@@ -446,8 +446,8 @@ Windows 7 或更新版本：方法支援 [RFC 4017](https://go.microsoft.com/fwl
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Eaptypes。h</dt> </dl> |
 
 

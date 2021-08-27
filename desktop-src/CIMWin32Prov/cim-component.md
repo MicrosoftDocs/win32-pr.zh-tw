@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 8b516118bc0cd6f12285933b1c15e7f2801ad40d
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 7b47aa88c7cf1238f74a9cb359ddb5f499c2a77b34de0f89023c83bd67420722
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847400"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120065178"
 ---
 # <a name="cim_component-class-cimwin32-wmi-providers"></a>CIM_Component 類別 (CIMWin32 WMI 提供者) 
 

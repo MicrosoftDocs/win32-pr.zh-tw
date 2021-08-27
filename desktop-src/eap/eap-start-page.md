@@ -9,12 +9,12 @@ keywords:
 - EAP，請參閱可延伸的驗證通訊協定
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c79b9585363d74eb50190d0fd6355830a7087aa4
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 5cd54a380323fdf5a04add7f28fe18378be8ed375e936c70d2045f2e139ff852
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103681767"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120094428"
 ---
 # <a name="extensible-authentication-protocol"></a>可延伸的驗證通訊協定
 
@@ -34,7 +34,7 @@ EAP API 是設計來供 C/c + + 程式設計人員使用。 程式設計人員�
 
 ## <a name="run-time-requirements"></a>執行階段需求求
 
-在 Windows 2000 和更新版本上執行的用戶端和伺服器電腦都支援 EAP。 在 Windows 2000 Server 和更新版本上執行的電腦上也支援 EAP，如果它們正在 (IAS) 執行網際網路驗證服務。 如需有關支援之作業系統的詳細資訊，請參閱檔中的需求一節。
+在 Windows 2000 和更新版本上執行的用戶端和伺服器電腦都支援 EAP。 在 Windows 2000 伺服器和更新版本上執行的電腦也支援 EAP （如果它們是 (IAS) 執行網際網路驗證服務）。 如需有關支援之作業系統的詳細資訊，請參閱檔中的需求一節。
 
 ## <a name="related-topics"></a>相關主題
 
@@ -64,6 +64,6 @@ EAP API 是設計來供 C/c + + 程式設計人員使用。 程式設計人員�
 [可延伸的驗證通訊協定參考](extensible-authentication-protocol-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: CThreadBase 列舉
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b3844892d400df9861cd81c8a39e3c9461f9832d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4f0721d44c0b2c68e93af445898a4443eb2b0e37dcf49a4d46d6dd5c35ae26ba
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104514184"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120097298"
 ---
 # <a name="cthreadbase-enumerations"></a>CThreadBase 列舉
 

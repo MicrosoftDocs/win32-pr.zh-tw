@@ -4,12 +4,12 @@ ms.assetid: b563e306-6d10-4298-9a71-9e749224ccd2
 title: 加入儲存在屬性中的文字
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1d43910b946db737d2b306d7c75f6683401eee0a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 965a90c5e0701c54959bb4eae26b26c07ad7b4cbae8aefa6bdf346542b6a5cf4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104386201"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120105448"
 ---
 # <a name="adding-text-stored-in-a-property"></a>加入儲存在屬性中的文字
 

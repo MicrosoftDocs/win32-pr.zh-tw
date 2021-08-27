@@ -18,17 +18,17 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 61fb49d50ee7c529174fe4c5546efd7de1727892
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e9f037b8c26829d7b1f3a10b05e1d4bd83bd186a
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106978306"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122469795"
 ---
 # <a name="jetescrowupdate-function"></a>JetEscrowUpdate 函式
 
 
-_**適用于：** Windows |Windows Server_
+_**適用于：** Windows |Windows伺服器_
 
 ## <a name="jetescrowupdate-function"></a>JetEscrowUpdate 函式
 
@@ -86,104 +86,36 @@ _**適用于：** Windows |Windows Server_
 
 指定零或多個下列選項的位群組。
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>值</p></th>
-<th><p>意義</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_bitEscrowNoRollback</p></td>
-<td><p>即使執行保管更新的會話具有其交易回復，但這種更新將不會復原。 請注意，因為記錄檔記錄可能不會排清到磁片，所以使用此旗標完成的最新的證書處理更新可能會在發生損毀時遺失。</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>值</p> | <p>意義</p> | 
+|--------------|----------------|
+| <p>JET_bitEscrowNoRollback</p> | <p>即使執行保管更新的會話具有其交易回復，但這種更新將不會復原。 請注意，因為記錄檔記錄可能不會排清到磁片，所以使用此旗標完成的最新的證書處理更新可能會在發生損毀時遺失。</p> | 
+
 
 
 ### <a name="return-value"></a>傳回值
 
-此函數會傳回具有下列其中一個傳回碼的 [JET_ERR](./jet-err.md) 資料類型。 如需可能 ESE 錯誤的詳細資訊，請參閱可延伸 [儲存引擎錯誤](./extensible-storage-engine-errors.md) 和 [錯誤處理參數](./error-handling-parameters.md)。
+此函數會傳回具有下列其中一個傳回碼的 [JET_ERR](./jet-err.md) 資料類型。 如需可能 ESE 錯誤的詳細資訊，請參閱可延伸的[儲存體引擎錯誤](./extensible-storage-engine-errors.md)和[錯誤處理參數](./error-handling-parameters.md)。
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>傳回碼</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errSuccess</p></td>
-<td><p>作業已成功完成。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errAlreadyPrepared</p></td>
-<td><p>資料指標具有以 <a href="gg269339(v=exchg.10).md">JetPrepareUpdate</a>準備的更新。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errClientRequestToStopJetService</p></td>
-<td><p>無法完成作業，因為與該會話相關聯之實例上的所有活動都不是呼叫 <a href="gg269240(v=exchg.10).md">JetStopService</a>的結果。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errInstanceUnavailable</p></td>
-<td><p>無法完成作業，因為與會話相關聯的實例發生嚴重錯誤，需要撤銷所有資料的存取權，以保護該資料的完整性。 只有 Windows XP 和更新版本才會傳回此錯誤。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errInvalidBufferSize</p></td>
-<td><p>傳入了不正確緩衝區大小。 目前只支援 JET_coltypLong，因此緩衝區必須是4個位元組。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errInvalidOperation</p></td>
-<td><p>指定了不正確資料行。 必須使用指定的 JET_bitColumnEscrowUpdate 來建立資料行。 只有 JET_coltypLong 的固定資料行可以指定為可更新的可更新資料行。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errNoCurrentRecord</p></td>
-<td><p>資料指標必須在記錄上，才能更新資料行。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errNotInTransaction</p></td>
-<td><p>交易更新只能由交易中的會話執行。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errNotInitialized</p></td>
-<td><p>無法完成作業，因為與會話相關聯的實例尚未初始化。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errPermissionDenied</p></td>
-<td><p>資料指標不能是唯讀的，而是更新記錄。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errRestoreInProgress</p></td>
-<td><p>無法完成作業，因為與會話相關聯的實例正在進行還原作業。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errSessionSharingViolation</p></td>
-<td><p>相同的會話無法同時從一個以上的執行緒使用。 只有 Windows XP 和更新版本才會傳回此錯誤。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errTermInProgress</p></td>
-<td><p>無法完成作業，因為與會話相關聯的實例正在關閉。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errTransReadOnly</p></td>
-<td><p>會話必須有寫入權限，才能更新記錄。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errWriteConflict</p></td>
-<td><p>要求衝突更新時傳回的錯誤。</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>傳回碼</p> | <p>Description</p> | 
+|--------------------|--------------------|
+| <p>JET_errSuccess</p> | <p>作業已成功完成。</p> | 
+| <p>JET_errAlreadyPrepared</p> | <p>資料指標具有以 <a href="gg269339(v=exchg.10).md">JetPrepareUpdate</a>準備的更新。</p> | 
+| <p>JET_errClientRequestToStopJetService</p> | <p>無法完成作業，因為與該會話相關聯之實例上的所有活動都不是呼叫 <a href="gg269240(v=exchg.10).md">JetStopService</a>的結果。</p> | 
+| <p>JET_errInstanceUnavailable</p> | <p>無法完成作業，因為與會話相關聯的實例發生嚴重錯誤，需要撤銷所有資料的存取權，以保護該資料的完整性。 只有 Windows XP 和更新版本才會傳回此錯誤。</p> | 
+| <p>JET_errInvalidBufferSize</p> | <p>傳入了不正確緩衝區大小。 目前只支援 JET_coltypLong，因此緩衝區必須是4個位元組。</p> | 
+| <p>JET_errInvalidOperation</p> | <p>指定了不正確資料行。 必須使用指定的 JET_bitColumnEscrowUpdate 來建立資料行。 只有 JET_coltypLong 的固定資料行可以指定為可更新的可更新資料行。</p> | 
+| <p>JET_errNoCurrentRecord</p> | <p>資料指標必須在記錄上，才能更新資料行。</p> | 
+| <p>JET_errNotInTransaction</p> | <p>交易更新只能由交易中的會話執行。</p> | 
+| <p>JET_errNotInitialized</p> | <p>無法完成作業，因為與會話相關聯的實例尚未初始化。</p> | 
+| <p>JET_errPermissionDenied</p> | <p>資料指標不能是唯讀的，而是更新記錄。</p> | 
+| <p>JET_errRestoreInProgress</p> | <p>無法完成作業，因為與會話相關聯的實例正在進行還原作業。</p> | 
+| <p>JET_errSessionSharingViolation</p> | <p>相同的會話無法同時從一個以上的執行緒使用。 只有 Windows XP 和更新版本才會傳回此錯誤。</p> | 
+| <p>JET_errTermInProgress</p> | <p>無法完成作業，因為與會話相關聯的實例正在關閉。</p> | 
+| <p>JET_errTransReadOnly</p> | <p>會話必須有寫入權限，才能更新記錄。</p> | 
+| <p>JET_errWriteConflict</p> | <p>要求衝突更新時傳回的錯誤。</p> | 
+
 
 
 #### <a name="remarks"></a>備註
@@ -194,156 +126,37 @@ _**適用于：** Windows |Windows Server_
 
 只有 **JetEscrowUpdate** 作業會彼此相容。 如果有兩個不同的會話嘗試準備更新或刪除相同的記錄，則會產生寫入衝突。
 
-<table>
-<colgroup>
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p></p></th>
-<th><p></p></th>
-<th><p>會話 B<br />
-<strong>JetEscrowUpdate</strong></p></th>
-<th><p><a href="gg269339(v=exchg.10).md">JetPrepareUpdate</a></p></th>
-<th><p><a href="gg269315(v=exchg.10).md">JetDelete</a></p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p></p></td>
-<td><p><strong>JetEscrowUpdate</strong></p></td>
-<td><p>JET_errSuccess</p></td>
-<td><p>JET_errWriteConflict</p></td>
-<td><p>JET_errWriteConflict</p></td>
-</tr>
-<tr class="even">
-<td><p></p></td>
-<td><p><a href="gg269288(v=exchg.10).md">JetUpdate</a></p></td>
-<td><p>JET_errWriteConflict</p></td>
-<td><p>JET_errWriteConflict</p></td>
-<td><p>JET_errWriteConflict</p></td>
-</tr>
-<tr class="odd">
-<td><p>會話 A</p></td>
-<td><p><a href="gg269315(v=exchg.10).md">JetDelete</a></p></td>
-<td><p>JET_errWriteConflict</p></td>
-<td><p>JET_errWriteConflict</p></td>
-<td><p>JET_errWriteConflict</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p></p> | <p></p> | <p>會話 B<br /><strong>JetEscrowUpdate</strong></p> | <p><a href="gg269339(v=exchg.10).md">JetPrepareUpdate</a></p> | <p><a href="gg269315(v=exchg.10).md">JetDelete</a></p> | 
+|---------|---------|--------------------------------------------------------|---------------------------------------------------------------|--------------------------------------------------------|
+| <p></p> | <p><strong>JetEscrowUpdate</strong></p> | <p>JET_errSuccess</p> | <p>JET_errWriteConflict</p> | <p>JET_errWriteConflict</p> | 
+| <p></p> | <p><a href="gg269288(v=exchg.10).md">JetUpdate</a></p> | <p>JET_errWriteConflict</p> | <p>JET_errWriteConflict</p> | <p>JET_errWriteConflict</p> | 
+| <p>會話 A</p> | <p><a href="gg269315(v=exchg.10).md">JetDelete</a></p> | <p>JET_errWriteConflict</p> | <p>JET_errWriteConflict</p> | <p>JET_errWriteConflict</p> | 
+
 
 
 除非 JET_bitEscrowNoRollback 是) 指定的，否則會使用 [JetRollback](./jetrollback-function.md) (來建立版本的託管作業。 **JetEscrowUpdate** 會傳回儲存在資料庫中之資料行的原始值，因為應用程式可能會想要在叫用 sentinel 值時執行特殊動作。 [JetRetrieveColumn](./jetretrievecolumn-function.md) 會傳回正確設定資料行版本的視圖，並忽略並行會話所做的更新。
 
 假設有兩個會話在相同記錄的相同資料行上運作，我們可以查看其運作方式。 假設資料行的開頭值為0。
 
-<table>
-<colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>工作階段</p></th>
-<th><p>作業</p></th>
-<th><p>儲存的值</p></th>
-<th><p>傳回值</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>A</p></td>
-<td><p><a href="gg294083(v=exchg.10).md">JetBeginTransation</a></p></td>
-<td><p></p></td>
-<td><p></p></td>
-</tr>
-<tr class="even">
-<td><p>A</p></td>
-<td><p><a href="gg294083(v=exchg.10).md">JetBeginTransation</a></p></td>
-<td><p></p></td>
-<td><p>0</p></td>
-</tr>
-<tr class="odd">
-<td><p>A</p></td>
-<td><p><strong>JetEscrowUpdate</strong> (4) </p></td>
-<td><p>4</p></td>
-<td><p>0</p></td>
-</tr>
-<tr class="even">
-<td><p>A</p></td>
-<td><p><a href="gg269198(v=exchg.10).md">JetRetrieveColumn</a></p></td>
-<td><p></p></td>
-<td><p>4</p></td>
-</tr>
-<tr class="odd">
-<td><p>B</p></td>
-<td><p><a href="gg294083(v=exchg.10).md">JetBeginTransaction</a></p></td>
-<td><p></p></td>
-<td><p></p></td>
-</tr>
-<tr class="even">
-<td><p>B</p></td>
-<td><p><a href="gg269198(v=exchg.10).md">JetRetrieveColumn</a></p></td>
-<td><p></p></td>
-<td><p>0</p></td>
-</tr>
-<tr class="odd">
-<td><p>B</p></td>
-<td><p><strong>JetEscrowUpdate</strong> (3) </p></td>
-<td><p>7</p></td>
-<td><p>4</p></td>
-</tr>
-<tr class="even">
-<td><p>B</p></td>
-<td><p><a href="gg269198(v=exchg.10).md">JetRetrieveColumn</a></p></td>
-<td><p></p></td>
-<td><p>3</p></td>
-</tr>
-<tr class="odd">
-<td><p>A</p></td>
-<td><p><strong>JetEscrowUpdate</strong> (2) </p></td>
-<td><p>9</p></td>
-<td><p>7</p></td>
-</tr>
-<tr class="even">
-<td><p>A</p></td>
-<td><p><strong>JetEscrowUpdate</strong> (-7) </p></td>
-<td><p>2</p></td>
-<td><p>9</p></td>
-</tr>
-<tr class="odd">
-<td><p>B</p></td>
-<td><p><a href="gg269198(v=exchg.10).md">JetRetrieveColumn</a></p></td>
-<td><p></p></td>
-<td><p>3</p></td>
-</tr>
-<tr class="even">
-<td><p>A</p></td>
-<td><p><a href="gg269198(v=exchg.10).md">JetRetrieveColumn</a></p></td>
-<td><p></p></td>
-<td><p>-1</p></td>
-</tr>
-<tr class="odd">
-<td><p>B</p></td>
-<td><p><a href="gg269273(v=exchg.10).md">JetRollback</a></p></td>
-<td><p>-1</p></td>
-<td><p></p></td>
-</tr>
-<tr class="even">
-<td><p>A</p></td>
-<td><p><a href="gg269198(v=exchg.10).md">JetRetrieveColumn</a></p></td>
-<td><p></p></td>
-<td><p>-1</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>工作階段</p> | <p>作業</p> | <p>儲存的值</p> | <p>傳回值</p> | 
+|----------------|------------------|---------------------|-----------------------|
+| <p>A</p> | <p><a href="gg294083(v=exchg.10).md">JetBeginTransation</a></p> | <p></p> | <p></p> | 
+| <p>A</p> | <p><a href="gg294083(v=exchg.10).md">JetBeginTransation</a></p> | <p></p> | <p>0</p> | 
+| <p>A</p> | <p><strong>JetEscrowUpdate</strong> (4) </p> | <p>4</p> | <p>0</p> | 
+| <p>A</p> | <p><a href="gg269198(v=exchg.10).md">JetRetrieveColumn</a></p> | <p></p> | <p>4</p> | 
+| <p>B</p> | <p><a href="gg294083(v=exchg.10).md">JetBeginTransaction</a></p> | <p></p> | <p></p> | 
+| <p>B</p> | <p><a href="gg269198(v=exchg.10).md">JetRetrieveColumn</a></p> | <p></p> | <p>0</p> | 
+| <p>B</p> | <p><strong>JetEscrowUpdate</strong> (3) </p> | <p>7</p> | <p>4</p> | 
+| <p>B</p> | <p><a href="gg269198(v=exchg.10).md">JetRetrieveColumn</a></p> | <p></p> | <p>3</p> | 
+| <p>A</p> | <p><strong>JetEscrowUpdate</strong> (2) </p> | <p>9</p> | <p>7</p> | 
+| <p>A</p> | <p><strong>JetEscrowUpdate</strong> (-7) </p> | <p>2</p> | <p>9</p> | 
+| <p>B</p> | <p><a href="gg269198(v=exchg.10).md">JetRetrieveColumn</a></p> | <p></p> | <p>3</p> | 
+| <p>A</p> | <p><a href="gg269198(v=exchg.10).md">JetRetrieveColumn</a></p> | <p></p> | <p>-1</p> | 
+| <p>B</p> | <p><a href="gg269273(v=exchg.10).md">JetRollback</a></p> | <p>-1</p> | <p></p> | 
+| <p>A</p> | <p><a href="gg269198(v=exchg.10).md">JetRetrieveColumn</a></p> | <p></p> | <p>-1</p> | 
+
 
 
 不建議將執行交易更新的相同交易中的記錄取代為記錄。 尤其是，如果記錄上的更新是以一個 [JET_TABLEID](./jet-tableid.md) 準備，而另一個 [JET_TABLEID](./jet-tableid.md) 用來將更新記錄，則在呼叫 [JetUpdate](./jetupdate-function.md) 時，將會遺失已更新的保管。 即使在更新期間未設定「託管」資料行，也會發生這種情況。
@@ -352,34 +165,9 @@ _**適用于：** Windows |Windows Server_
 
 #### <a name="requirements"></a>規格需求
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>用戶端</strong></p></td>
-<td><p>需要 Windows Vista、Windows XP 或 Windows 2000 Professional。</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>伺服器</strong></p></td>
-<td><p>需要 Windows Server 2008、Windows Server 2003 或 Windows 2000 Server。</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>標頭</strong></p></td>
-<td><p>宣告于 Esent. h 中。</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>程式庫</strong></p></td>
-<td><p>使用 ESENT。</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>DLL</strong></p></td>
-<td><p>需要 ESENT.dll。</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p><strong>用戶端</strong></p> | <p>需要 Windows Vista、Windows XP 或 Windows 2000 Professional。</p> | | <p><strong>伺服器</strong></p> | <p>需要 Windows server 2008、Windows Server 2003 或 Windows 2000 Server。</p> | | <p><strong>標頭</strong></p> | <p>宣告于 Esent. h 中。</p> | | <p><strong>程式庫</strong></p> | <p>使用 ESENT。</p> | | <p><strong>DLL</strong></p> | <p>需要 ESENT.dll。</p> | 
+
 
 
 #### <a name="see-also"></a>另請參閱

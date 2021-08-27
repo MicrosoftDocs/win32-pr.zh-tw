@@ -4,12 +4,12 @@ ms.assetid: cf9076b1-5674-4ba8-9890-e981221d7b03
 title: 使用實例轉換安裝多個實例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9bae8d73ad60567e1557257c1207558290ba29db
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8a25b2cba8fd91316d62692d278345e0f7d9751f018e1c33239412988bfe118a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026379"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120074898"
 ---
 # <a name="installing-multiple-instances-with-instance-transforms"></a>使用實例轉換安裝多個實例
 

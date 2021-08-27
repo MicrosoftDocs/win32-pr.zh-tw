@@ -1,6 +1,6 @@
 ---
-title: D3D12 的 Helper 介面
-description: 這些協助程式介面特別有助於處理子資源，而且會在 d3dx12 中宣告。
+title: Direct3D 12 的 Helper 介面
+description: 這些 helper 介面特別有助於處理子資源，而且會在中宣告 `d3dx12.h` 。
 ms.assetid: 03310CC9-E84D-4BC2-8B06-D3445807E357
 keywords:
 - Helper 介面
@@ -8,44 +8,26 @@ keywords:
 ms.localizationpriority: low
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d0231486afdd14f7f67e43192932ac156ad43e4a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 242735bc8f7af186239cf202c01fa317c6d01983
+ms.sourcegitcommit: 0dec0044816af3f2b2e6403659e1cf11138c90cd
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106996557"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "121813269"
 ---
-# <a name="helper-interfaces-for-d3d12"></a>D3D12 的 Helper 介面
+# <a name="helper-interfaces-for-direct3d-12"></a>Direct3D 12 的 Helper 介面
 
-這些協助程式介面特別有助於處理子資源，而且會在 **d3dx12** 中宣告。
+這些 helper 介面特別有助於處理子資源，而且會在中宣告 `d3dx12.h` 。
+
+`d3dx12.h` 可以與 Direct3D 12 標頭分開使用。 您可以 `d3dx12.h` 從 [D3D12 Helper 程式庫](https://github.com/microsoft/DirectX-Headers/blob/main/include/directx/d3dx12.h)進行下載。
 
 ## <a name="in-this-section"></a>本節內容
 
-
-
-| 主題                                                                               | 描述                                                                                                                                                                    |
-|-------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**ID3DX12PipelineParserCallbacks**](id3dx12pipelineparsercallbacks.md)<br/> | 表示 [**D3DX12parsePipelineStream**](d3dx12parsepipelinestream.md) helper 函式所使用之剖析器和錯誤回呼集合的介面。<br/> |
-
-
-
- 
+| 主題 | 描述 |
+|-|-|
+| [**ID3DX12PipelineParserCallbacks**](id3dx12pipelineparsercallbacks.md) | 表示 [**D3DX12parsePipelineStream**](d3dx12parsepipelinestream.md) helper 函式所使用之剖析器和錯誤回呼集合的介面。 |
 
 ## <a name="related-topics"></a>相關主題
 
-<dl> <dt>
-
-[Direct3D 12 參考](direct3d-12-reference.md)
-</dt> <dt>
-
-[D3D12 的 Helper 結構和函式](helper-structures-and-functions-for-d3d12.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
-
+* [Direct3D 12 參考](direct3d-12-reference.md)
+* [D3D12 的 Helper 結構和函式](helper-structures-and-functions-for-d3d12.md)

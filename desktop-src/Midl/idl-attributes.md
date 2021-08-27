@@ -8,12 +8,12 @@ keywords:
 - Microsoft 介面定義語言 MIDL、描述、IDL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: def08676ddfdf207ac4cc7056befec80537b9326
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: e3a4e024497b42d94db227d60f5b5e2fa94e23d659857229c1d421f105069307
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103681822"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120075188"
 ---
 # <a name="idl-attributes"></a>IDL 屬性
 
@@ -32,6 +32,6 @@ ms.locfileid: "103681822"
 -   [Structure 和 Union 屬性](structure-and-union-attributes.md)
 -   [類型程式庫屬性](type-library-attributes.md)
 
- 
+ 
 
- 
+ 

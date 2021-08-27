@@ -4,12 +4,12 @@ ms.assetid: 339aab84-e5ad-4071-8b67-2b04cb17e450
 title: MPEG 範例屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8c20df4b9285a77d00bd98bc6f21558f0d6b3c60
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: c78872b41c579f6af594280b064bfbefc65ef13e8b9d4abf8c21ba9b19613bcf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106966616"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120075788"
 ---
 # <a name="mpeg-sample-properties"></a>MPEG 範例屬性
 

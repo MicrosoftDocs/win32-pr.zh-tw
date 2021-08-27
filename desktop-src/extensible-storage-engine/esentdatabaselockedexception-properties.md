@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101530
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: b4a2b5921752393f28f0db396de1bc1bec1064b3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6d4d5c391afb2b513fb65d42d03ec1002b34c08ee3d222eb7f45f762384c91c9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104562971"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120094052"
 ---
 # <a name="esentdatabaselockedexception-properties"></a>EsentDatabaseLockedException 屬性
 

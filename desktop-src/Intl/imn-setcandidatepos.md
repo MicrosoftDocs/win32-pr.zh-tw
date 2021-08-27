@@ -4,12 +4,12 @@ ms.assetid: 64252d88-130b-44c3-854a-78b01def7a13
 title: 'IMN_SETCANDIDATEPOS 通知碼 (Imm) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 03171a76ce94572d2425f8e75f1cbe45b7efe4b0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 689dfe0c38f5508c853af94e271bb1f333bfbad0df18b3fab09450d73497e7fc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106971824"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120107058"
 ---
 # <a name="imn_setcandidatepos-notification-code"></a>IMN \_ SETCANDIDATEPOS 通知碼
 
@@ -58,7 +58,7 @@ IMN_SETCANDIDATEPOS
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                           |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                 |
-| 標頭<br/>                   | <dl> <dt>Imm (包括 Windows .h) </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Imm (包含 Windows .h) </dt> </dl> |
 
 
 

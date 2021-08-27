@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101917
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 6930a85457d867bb45132b1f65a0e9a6b2894435
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1c50cb897215805f48ac5a51d1bb24cc7c6e0b198110cb3017dae02034f5105e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104556446"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120064910"
 ---
 # <a name="esentinvalidbookmarkexception-methods"></a>EsentInvalidBookmarkException 方法
 

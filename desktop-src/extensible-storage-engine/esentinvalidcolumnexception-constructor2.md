@@ -14,12 +14,12 @@ dev_langs:
 - JScript
 - VB
 - other
-ms.openlocfilehash: c0336c8dbb38ef27a73f43206b78fc8f4207cfa9
-ms.sourcegitcommit: 4d4a6e9ad5de37e467cd3164276771b71e1f113f
+ms.openlocfilehash: 52ffe68de6294038e24332d15761cf8a63458077f6b04976841a69b06b4ff185
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "107001059"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120064911"
 ---
 # <a name="esentinvalidcolumnexception-constructor-overload-list"></a>EsentInvalidColumnException 函式多載清單
 
@@ -32,7 +32,7 @@ ms.locfileid: "107001059"
 <thead>
 <tr class="header">
 <th> </th>
-<th>Name</th>
+<th>名稱</th>
 <th>描述</th>
 </tr>
 </thead>

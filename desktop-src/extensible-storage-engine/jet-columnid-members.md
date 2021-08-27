@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.jet_
 ms:contentKeyID: 39514892
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 91a8cb3a0c0706dc7e4982a5ce3d93f503964403
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 090799f423b33bb19b73e9e4b03a5b24843399a282582991c03f698a1d21990c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848331"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120116398"
 ---
 # <a name="jet_columnid-members"></a>JET_COLUMNID 成員
 
@@ -113,7 +113,7 @@ JET_COLUMNID 識別資料表內的資料行。
 <thead>
 <tr class="header">
 <th> </th>
-<th>Name</th>
+<th>名稱</th>
 <th>描述</th>
 </tr>
 </thead>

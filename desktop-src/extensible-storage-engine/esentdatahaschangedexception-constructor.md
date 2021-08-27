@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: f2dec198503ae52074dcea8f1941af2597fcdc24
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5aea48dff6c767769b5e21e8b3276833d612a15cb1337c3da2c5b4841616f728
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974594"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120117271"
 ---
 # <a name="esentdatahaschangedexception-constructor"></a>EsentDataHasChangedException 函式
 

@@ -4,18 +4,18 @@ ms.assetid: 2f841eb6-9a6c-4c9b-b057-a3da6cd6b0b0
 title: 隔離應用程式和並存組件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 59abfbd5392040856c66ef9eb786b66d2a84500f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9af477178aa3fd68563ee53017d80c00e103b4cb97a6fd16062d307375b29574
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112705"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120127488"
 ---
 # <a name="isolated-applications-and-side-by-side-assemblies"></a>隔離應用程式和並存組件
 
 ## <a name="purpose"></a>目的
 
-隔離應用程式和並存元件是 Microsoft Windows 解決方案，可減少 Windows 用戶端應用程式中的版本控制衝突。 在 Windows 中，應用程式開發人員可以建立隔離的應用程式，這些應用程式是由登錄、其他應用程式或系統上執行之其他版本元件的變更，完全自我描述且不受影響。 應用程式作者和系統管理員可以使用資訊清單，在部署于全球或每個應用程式之後，管理並存元件的共用。 客戶可受益于更穩定且更可靠地更新的隔離應用程式。
+隔離應用程式和並存元件是 Microsoft Windows 解決方案，可減少 Windows 用戶端應用程式中的版本設定衝突。 透過 Windows，應用程式開發人員可以建立完全自我描述且不受系統上執行的其他元件版本變更所影響的獨立應用程式。 應用程式作者和系統管理員可以使用資訊清單，在部署于全球或每個應用程式之後，管理並存元件的共用。 客戶可受益于更穩定且更可靠地更新的隔離應用程式。
 
 ## <a name="where-applicable"></a>適用時
 
@@ -37,7 +37,7 @@ ms.locfileid: "104112705"
 
 ## <a name="run-time-requirements"></a>執行階段需求求
 
-需要 windows Server 2003 和更新版本或 Windows XP 及更新版本，才能使用並存元件和資訊清單來隔離應用程式，並使用啟用內容 API。
+Windows伺服器2003和更新版本或 Windows XP 及更新版本必須使用並存元件和資訊清單來隔離應用程式，並使用啟用內容 API。
 
 ## <a name="in-this-section"></a>本節內容
 
