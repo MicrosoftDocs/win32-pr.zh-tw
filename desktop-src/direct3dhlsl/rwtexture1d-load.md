@@ -12,12 +12,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
 api_location: ''
-ms.openlocfilehash: 7c5804dd2549dccce4b157c61da591b1919e589d
-ms.sourcegitcommit: 476861130ea63675206d1f06e517059705b930ed
+ms.openlocfilehash: 73a15f19c6abf340675961aeb7be8c030b6acb2c4c0f333fa99e3374c82391ad
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "104971509"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120118288"
 ---
 # <a name="rwtexture1dload-methods"></a>RWTexture1D：： Load 方法
 

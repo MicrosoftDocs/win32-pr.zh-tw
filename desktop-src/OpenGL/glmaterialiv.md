@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 95f12a5d34357a3436ffd6725ad2f1d56901e700
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 922fd0cd90b848f0d5c324451f502faa8fa6b961686b209cb881c752b992a6df
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384466"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120128208"
 ---
 # <a name="glmaterialiv-function"></a>glMaterialiv 函式
 
@@ -89,7 +89,7 @@ void WINAPI glMaterialfv(
 
 
 
-| Name                                                                                              | 意義                                                                       |
+| 名稱                                                                                              | 意義                                                                       |
 |---------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
 | <dl> <dt>**GL \_ 無效 \_ 列舉**</dt> </dl>  | *臉部* 或 *pname* 都不是可接受的值。<br/>                |
 | <dl> <dt>**GL \_ 無效 \_ 值**</dt> </dl> | \[已指定0、128範圍以外的反射指數 \] 。<br/> |

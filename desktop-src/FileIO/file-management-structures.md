@@ -4,12 +4,12 @@ ms.assetid: 406d5c0f-b49a-4075-ac3e-c5b55a0c3fe9
 title: 檔案管理結構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 044780e5fe9f719e699f1c0a1f929d08ba3200f6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b4636a1dafa16a698a5b3ab1ddaff7de5c54d5b7d81da337c1c3d9707be79158
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114964"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120107478"
 ---
 # <a name="file-management-structures"></a>檔案管理結構
 
@@ -19,7 +19,7 @@ ms.locfileid: "104114964"
 
 
 
-| 結構                                                                                         | Description                                                                                                                                                                                                                          |
+| 結構                                                                                         | 描述                                                                                                                                                                                                                          |
 |---------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**藉由 \_ 處理檔案 \_ \_ 資訊**](/windows/desktop/api/FileAPI/ns-fileapi-by_handle_file_information)<br/>                | 包含 [**GetFileInformationByHandle**](/windows/desktop/api/FileAPI/nf-fileapi-getfileinformationbyhandle) 函數所抓取的資訊。<br/>                                                                                                        |
 | [**COPYFILE2 \_ 擴充 \_ 參數**](/windows/desktop/api/WinBase/ns-winbase-copyfile2_extended_parameters)<br/>               | 包含 [**CopyFile2**](/windows/desktop/api/WinBase/nf-winbase-copyfile2) 函數的擴充參數。<br/>                                                                                                                                             |

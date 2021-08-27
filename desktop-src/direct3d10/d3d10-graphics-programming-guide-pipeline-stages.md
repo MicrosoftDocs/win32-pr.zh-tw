@@ -4,12 +4,12 @@ ms.assetid: 3ead6c7c-c7cc-48f1-81d5-b4b67326d610
 title: " (Direct3D 10) 的管線階段"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: db78bf6e904051fcac255a5bf1b99ca0f7d43ca3
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 942e2594f1f2eeb83f92b3ee517804a68b6074d85bf5c9205828a08e024112df
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110540"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120119971"
 ---
 # <a name="pipeline-stages-direct3d-10"></a> (Direct3D 10) 的管線階段
 

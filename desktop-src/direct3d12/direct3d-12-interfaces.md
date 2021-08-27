@@ -6,12 +6,12 @@ ms.localizationpriority: low
 ms.topic: article
 ms.date: 04/19/2019
 ms.custom: 19H1
-ms.openlocfilehash: a51e35fff74ab1d0251d64578de665ad4134a843
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 0cc8fcecec2e2a0966ed34e23eb65ed9acd37e76
+ms.sourcegitcommit: 0dec0044816af3f2b2e6403659e1cf11138c90cd
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106965432"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "121812883"
 ---
 # <a name="core-interfaces"></a>核心介面
 
@@ -33,6 +33,9 @@ ms.locfileid: "106965432"
 | [**ID3D12Device4**](/windows/win32/api/d3d12/nn-d3d12-id3d12device4) | 代表虛擬配接器。 這個介面會擴充 [ID3D12Device3](/windows/win32/api/d3d12/nn-d3d12-id3d12device3)。 |
 | [**ID3D12Device5**](/windows/win32/api/d3d12/nn-d3d12-id3d12device5) | 代表虛擬配接器。 這個介面會擴充 [ID3D12Device4](/windows/win32/api/d3d12/nn-d3d12-id3d12device4)。 |
 | [**ID3D12Device6**](/windows/win32/api/d3d12/nn-d3d12-id3d12device6) | 代表虛擬配接器。 這個介面會擴充 [ID3D12Device5](/windows/win32/api/d3d12/nn-d3d12-id3d12device5)。 |
+| [**ID3D12Device7**](/windows/win32/api/d3d12/nn-d3d12-id3d12device7) | 代表虛擬配接器。 這個介面會擴充 [ID3D12Device6](/windows/win32/api/d3d12/nn-d3d12-id3d12device6)。 |
+| [**ID3D12Device8**](/windows/win32/api/d3d12/nn-d3d12-id3d12device8) | 代表虛擬配接器。 這個介面會擴充 [ID3D12Device7](/windows/win32/api/d3d12/nn-d3d12-id3d12device7)。 |
+| [**ID3D12Device9**](/windows/win32/api/d3d12/nn-d3d12-id3d12device9) | 代表虛擬配接器。 這個介面會擴充 [ID3D12Device8](/windows/win32/api/d3d12/nn-d3d12-id3d12device8) ，以新增方法來管理著色器快取。 |
 | [**ID3D12DeviceChild**](/windows/win32/api/d3d12/nn-d3d12-id3d12devicechild) | 其他核心介面繼承自的介面，包括 [**ID3D12PipelineLibrary**](/windows/win32/api/d3d12/nn-d3d12-id3d12pipelinelibrary)、 [**ID3D12CommandList**](/windows/win32/api/d3d12/nn-d3d12-id3d12commandlist)、 [**ID3D12Pageable**](/windows/win32/api/d3d12/nn-d3d12-id3d12pageable)和 [**ID3D12RootSignature**](/windows/win32/api/d3d12/nn-d3d12-id3d12rootsignature)。 它會提供方法，讓您回到所建立的裝置物件。 |
 | [**ID3D12DeviceRemovedExtendedData**](/windows/win32/api/d3d12/nn-d3d12-id3d12deviceremovedextendeddata) | 提供裝置的執行時間存取， (DR) 資料來移除擴充的資料。 |
 | [**ID3D12DeviceRemovedExtendedDataSettings**](/windows/win32/api/d3d12/nn-d3d12-id3d12deviceremovedextendeddatasettings) | 此介面控制裝置已移除擴充的資料 (DR) 設定。 |
@@ -56,6 +59,7 @@ ms.locfileid: "106965432"
 | [**ID3D12Resource**](/windows/win32/api/d3d12/nn-d3d12-id3d12resource) | 封裝 CPU 和 GPU 讀取和寫入實體記憶體或堆積的一般化功能。 它包含用來組織和操作簡單資料陣列的抽象概念，以及針對著色器取樣優化的多維度資料。 |
 | [**ID3D12RootSignature**](/windows/win32/api/d3d12/nn-d3d12-id3d12rootsignature) | 根簽章會定義哪些資源系結至圖形管線。 根簽章是由應用程式設定，並將命令清單連結至著色器所需的資源。 目前每個應用程式都有一個圖形和一個計算根簽章。 |
 | [**ID3D12RootSignatureDeserializer**](/windows/win32/api/d3d12/nn-d3d12-id3d12rootsignaturedeserializer) | 包含方法，可傳回已還原序列化之根簽章版本1.0 的 [**D3D12 根目錄簽章-DESC**](/windows/win32/api/d3d12/ns-d3d12-d3d12_root_signature_desc) 資料結構。  |
+| [**ID3D12ShaderCacheSession**](/windows/win32/api/d3d12/nn-d3d12-id3d12shadercachesession) | 表示著色器快取會話。 |
 | [**ID3D12StateObject**](/windows/win32/api/d3d12/nn-d3d12-id3d12stateobject) | 表示應用程式會以單一單位的形式來管理的設定狀態數量，包括著色器，並以不可部分完成的方式提供給驅動程式，例如編譯或優化。  |
 | [**ID3D12StateObjectProperties**](/windows/win32/api/d3d12/nn-d3d12-id3d12stateobjectproperties) | 提供取得和設定 [**ID3D12StateObject**](/windows/win32/api/d3d12/nn-d3d12-id3d12stateobject)屬性的方法。  |
 | [**ID3D12Tools**](/windows/win32/api/d3d12/nn-d3d12-id3d12tools) | 此介面是用來設定工具（例如 PIX）的執行時間。 不適用於任何其他案例，或不支援。 |

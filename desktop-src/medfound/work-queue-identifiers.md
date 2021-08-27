@@ -4,12 +4,12 @@ ms.assetid: c769f876-83ca-4b04-a054-22fa7146310e
 title: '工作佇列識別碼 (Mfobjects .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5ecff594bad2a4595862f0bc6457644f86949d42
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 70d454e8b2a199a9c132bf6ea287f31d7d3e5102
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106977947"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122470225"
 ---
 # <a name="work-queue-identifiers"></a>工作佇列識別碼
 
@@ -19,49 +19,16 @@ ms.locfileid: "106977947"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">常數/值</th>
-<th style="text-align: left;">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><span id="MFASYNC_CALLBACK_QUEUE_STANDARD"></span><span id="mfasync_callback_queue_standard"></span><dl> <dt><strong>MFASYNC_CALLBACK_QUEUE_STANDARD</strong></dt> <dt>0x00000001</dt> </dl></td>
-<td style="text-align: left;">在大多數情況下，應用程式應該使用 <strong>MFASYNC_CALLBACK_QUEUE_MULTITHREADED</strong>。<br/> 此工作佇列用於同步作業。 使用標準工作佇列可能會造成死結的風險。 應用程式可以使用 <a href="/windows/desktop/api/mfapi/nf-mfapi-mfallocateserialworkqueue"><strong>MFAllocateSerialWorkQueue</strong></a>，在多執行緒佇列之上建立私用同步佇列。<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><span id="MFASYNC_CALLBACK_QUEUE_RT"></span><span id="mfasync_callback_queue_rt"></span><dl> <dt><strong>MFASYNC_CALLBACK_QUEUE_RT</strong></dt> <dt>0x00000002</dt> </dl></td>
-<td style="text-align: left;">不適用於一般應用程式的使用。<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><span id="MFASYNC_CALLBACK_QUEUE_IO"></span><span id="mfasync_callback_queue_io"></span><dl> <dt><strong>MFASYNC_CALLBACK_QUEUE_IO</strong></dt> <dt>0x00000003</dt> </dl></td>
-<td style="text-align: left;">不適用於一般應用程式的使用。<br/> 此工作佇列會在內部使用，以進行 i/o 作業，例如讀取檔案並從網路讀取。<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><span id="MFASYNC_CALLBACK_QUEUE_TIMER"></span><span id="mfasync_callback_queue_timer"></span><dl> <dt><strong>MFASYNC_CALLBACK_QUEUE_TIMER</strong></dt> <dt>0x00000004</dt> </dl></td>
-<td style="text-align: left;">不適用於一般應用程式的使用。<br/> 此工作佇列用於定期回呼和已排程的工作專案。 下列函式會在此佇列中放置工作專案：<br/>
-<ul>
-<li><a href="/windows/desktop/api/mfapi/nf-mfapi-mfaddperiodiccallback"><strong>MFAddPeriodicCallback</strong></a></li>
-<li><a href="/windows/desktop/api/mfapi/nf-mfapi-mfscheduleworkitem"><strong>MFScheduleWorkItem</strong></a></li>
-<li><a href="/windows/desktop/api/mfapi/nf-mfapi-mfscheduleworkitemex"><strong>MFScheduleWorkItemEx</strong></a></li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><span id="MFASYNC_CALLBACK_QUEUE_MULTITHREADED"></span><span id="mfasync_callback_queue_multithreaded"></span><dl> <dt><strong>MFASYNC_CALLBACK_QUEUE_MULTITHREADED</strong></dt> <dt>0x00000005</dt> </dl></td>
-<td style="text-align: left;">在大部分情況下，都應該使用此多執行緒工作佇列。 <br/> 此工作佇列用於媒體基礎中的非同步作業。<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><span id="MFASYNC_CALLBACK_QUEUE_LONG_FUNCTION"></span><span id="mfasync_callback_queue_long_function"></span><dl> <dt><strong>MFASYNC_CALLBACK_QUEUE_LONG_FUNCTION</strong></dt> <dt>0x00000007</dt> </dl></td>
-<td style="text-align: left;">不適用於一般應用程式的使用。 應用程式應該改為使用 <strong>MFASYNC_CALLBACK_QUEUE_MULTITHREADED</strong>。<br/></td>
-</tr>
-</tbody>
-</table>
+
+| 常數/值 | Description | 
+|----------------|-------------|
+| <span id="MFASYNC_CALLBACK_QUEUE_STANDARD"></span><span id="mfasync_callback_queue_standard"></span><dl><dt><strong>MFASYNC_CALLBACK_QUEUE_STANDARD</strong></dt><dt>0x00000001</dt></dl> | 在大多數情況下，應用程式應該使用 <strong>MFASYNC_CALLBACK_QUEUE_MULTITHREADED</strong>。<br /> 此工作佇列用於同步作業。 使用標準工作佇列可能會造成死結的風險。 應用程式可以使用 <a href="/windows/desktop/api/mfapi/nf-mfapi-mfallocateserialworkqueue"><strong>MFAllocateSerialWorkQueue</strong></a>，在多執行緒佇列之上建立私用同步佇列。<br /> | 
+| <span id="MFASYNC_CALLBACK_QUEUE_RT"></span><span id="mfasync_callback_queue_rt"></span><dl><dt><strong>MFASYNC_CALLBACK_QUEUE_RT</strong></dt><dt>0x00000002</dt></dl> | 不適用於一般應用程式的使用。<br /> | 
+| <span id="MFASYNC_CALLBACK_QUEUE_IO"></span><span id="mfasync_callback_queue_io"></span><dl><dt><strong>MFASYNC_CALLBACK_QUEUE_IO</strong></dt><dt>0x00000003</dt></dl> | 不適用於一般應用程式的使用。<br /> 此工作佇列會在內部使用，以進行 i/o 作業，例如讀取檔案並從網路讀取。<br /> | 
+| <span id="MFASYNC_CALLBACK_QUEUE_TIMER"></span><span id="mfasync_callback_queue_timer"></span><dl><dt><strong>MFASYNC_CALLBACK_QUEUE_TIMER</strong></dt><dt>0x00000004</dt></dl> | 不適用於一般應用程式的使用。<br /> 此工作佇列用於定期回呼和已排程的工作專案。 下列函式會在此佇列中放置工作專案：<br /><ul><li><a href="/windows/desktop/api/mfapi/nf-mfapi-mfaddperiodiccallback"><strong>MFAddPeriodicCallback</strong></a></li><li><a href="/windows/desktop/api/mfapi/nf-mfapi-mfscheduleworkitem"><strong>MFScheduleWorkItem</strong></a></li><li><a href="/windows/desktop/api/mfapi/nf-mfapi-mfscheduleworkitemex"><strong>MFScheduleWorkItemEx</strong></a></li></ul> | 
+| <span id="MFASYNC_CALLBACK_QUEUE_MULTITHREADED"></span><span id="mfasync_callback_queue_multithreaded"></span><dl><dt><strong>MFASYNC_CALLBACK_QUEUE_MULTITHREADED</strong></dt><dt>0x00000005</dt></dl> | 在大部分情況下，都應該使用此多執行緒工作佇列。 <br /> 此工作佇列用於媒體基礎中的非同步作業。<br /> | 
+| <span id="MFASYNC_CALLBACK_QUEUE_LONG_FUNCTION"></span><span id="mfasync_callback_queue_long_function"></span><dl><dt><strong>MFASYNC_CALLBACK_QUEUE_LONG_FUNCTION</strong></dt><dt>0x00000007</dt></dl> | 不適用於一般應用程式的使用。 應用程式應該改為使用 <strong>MFASYNC_CALLBACK_QUEUE_MULTITHREADED</strong>。<br /> | 
+
 
 
 
@@ -83,8 +50,8 @@ ms.locfileid: "106977947"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                                     |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                                     |
 | 標頭<br/>                   | <dl> <dt>Mfobjects (包含 Mfidl) </dt> </dl> |
 
 

@@ -11,12 +11,12 @@ keywords:
 - COM 處理常式動作工作排程器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 71003e2cea5febfab61617451f3b6ebef4a244a3
-ms.sourcegitcommit: 927b9c371f75f52b8011483edf3a4ba37d11ebe4
+ms.openlocfilehash: 54a7cc4a0e3ecbd4d55e4731379287f2cf4fd660
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "103680907"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122470493"
 ---
 # <a name="task-actions"></a>工作動作
 
@@ -29,7 +29,7 @@ ms.locfileid: "103680907"
 | 動作類型      | Description                                                             |
 |---------------------|-------------------------------------------------------------------------|
 | ComHandler 動作   | 此動作會引發 COM 處理常式。                                        |
-| Exec 動作         | 此動作會執行命令列操作，例如啟動 [記事本]。 |
+| Exec 動作         | 此動作會執行命令列操作，例如啟動記事本。 |
 | 電子郵件動作       | 當觸發工作時，此動作會傳送電子郵件。                    |
 | 顯示訊息動作 | 這個動作會顯示含有指定訊息和標題的訊息方塊。     |
 
@@ -97,88 +97,14 @@ ms.locfileid: "103680907"
 
 **BSTR** 類型的某些動作屬性可包含 $ (Arg0) ，$ (Arg1) ，...，$ (Arg32 在其字串值中) 變數。 這些變數會取代為 [**IRegisteredTask：： Run**](/windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-run)和 [**IRegisteredTask：： RunEx**](/windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-runex)方法的 *params* 參數中所指定的值，或包含在工作的事件觸發程式中。 下表列出可在其字串值中使用變數的動作屬性。
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>動作</th>
-<th>屬性</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>COM 處理常式動作</td>
-<td>C++：
-<ul>
-<li><a href="/windows/desktop/api/taskschd/nf-taskschd-icomhandleraction-get_classid"><strong>IComHandlerAction 的 ClassId 屬性</strong></a></li>
-<li><a href="/windows/desktop/api/taskschd/nf-taskschd-icomhandleraction-get_data"><strong>IComHandlerAction 的資料屬性</strong></a></li>
-</ul>
-<br/> 指令碼：
-<ul>
-<li><a href="comhandleraction-classid.md"><strong>ComHandlerAction</strong></a></li>
-<li><a href="comhandleraction-data.md"><strong>ComHandlerAction 資料</strong></a></li>
-</ul>
-<br/></td>
-</tr>
-<tr class="even">
-<td>電子郵件動作</td>
-<td>C++：
-<ul>
-<li><a href="/windows/desktop/api/taskschd/nf-taskschd-iemailaction-get_body"><strong>IEmailAction 的 Body 屬性</strong></a></li>
-<li><a href="/windows/desktop/api/taskschd/nf-taskschd-iemailaction-get_server"><strong>IEmailAction 的伺服器屬性</strong></a></li>
-<li><a href="/windows/desktop/api/taskschd/nf-taskschd-iemailaction-get_subject"><strong>IEmailAction 的 Subject 屬性</strong></a></li>
-<li><a href="/windows/desktop/api/taskschd/nf-taskschd-iemailaction-get_to"><strong>IEmailAction 的屬性</strong></a></li>
-<li><a href="/windows/desktop/api/taskschd/nf-taskschd-iemailaction-get_cc"><strong>IEmailAction 的 Cc 屬性</strong></a></li>
-<li><a href="/windows/desktop/api/taskschd/nf-taskschd-iemailaction-get_bcc"><strong>IEmailAction 的密件副本屬性</strong></a></li>
-<li><a href="/windows/desktop/api/taskschd/nf-taskschd-iemailaction-get_replyto"><strong>IEmailAction 的 ReplyTo 屬性</strong></a></li>
-<li><a href="/windows/desktop/api/taskschd/nf-taskschd-iemailaction-get_from"><strong>From IEmailAction 的屬性</strong></a></li>
-</ul>
-<br/> 指令碼：
-<ul>
-<li><a href="emailaction-body.md"><strong>EmailAction</strong></a></li>
-<li><a href="emailaction-server.md"><strong>EmailAction 伺服器</strong></a></li>
-<li><a href="emailaction-subject.md"><strong>EmailAction 主題</strong></a></li>
-<li><a href="emailaction-to.md"><strong>EmailAction.To</strong></a></li>
-<li><a href="emailaction-cc.md"><strong>EmailAction.Cc</strong></a></li>
-<li><a href="emailaction-bcc.md"><strong>EmailAction 密件副本</strong></a></li>
-<li><a href="emailaction-replyto.md"><strong>EmailAction ReplyTo</strong></a></li>
-<li><a href="emailaction-from.md"><strong>EmailAction</strong></a></li>
-</ul>
-<br/></td>
-</tr>
-<tr class="odd">
-<td>Exec 動作</td>
-<td>C++：
-<ul>
-<li><a href="/windows/desktop/api/taskschd/nf-taskschd-iexecaction-get_arguments"><strong>IExecAction 的 Arguments 屬性</strong></a></li>
-<li><a href="/windows/desktop/api/taskschd/nf-taskschd-iexecaction-get_workingdirectory"><strong>IExecAction 的 WorkingDirectory 屬性</strong></a></li>
-</ul>
-<br/> 指令碼：
-<ul>
-<li><a href="execaction-arguments.md"><strong>ExecAction. 引數</strong></a></li>
-<li><a href="execaction-workingdirectory.md"><strong>ExecAction. WorkingDirectory</strong></a></li>
-</ul>
-<br/></td>
-</tr>
-<tr class="even">
-<td>顯示訊息動作</td>
-<td>C++：
-<ul>
-<li><a href="/windows/desktop/api/taskschd/nf-taskschd-ishowmessageaction-get_title"><strong>IShowMessageAction 的 Title 屬性</strong></a></li>
-<li><a href="/windows/desktop/api/taskschd/nf-taskschd-ishowmessageaction-get_messagebody"><strong>IShowMessageAction 的 MessageBody 屬性</strong></a></li>
-</ul>
-<br/> 指令碼：
-<ul>
-<li><a href="showmessageaction-title.md"><strong>ShowMessageAction 標題</strong></a></li>
-<li><a href="showmessageaction-messagebody.md"><strong>ShowMessageAction. MessageBody</strong></a></li>
-</ul>
-<br/></td>
-</tr>
-</tbody>
-</table>
+
+| 動作 | 屬性 | 
+|--------|------------|
+| COM 處理常式動作 | C++：<ul><li><a href="/windows/desktop/api/taskschd/nf-taskschd-icomhandleraction-get_classid"><strong>IComHandlerAction 的 ClassId 屬性</strong></a></li><li><a href="/windows/desktop/api/taskschd/nf-taskschd-icomhandleraction-get_data"><strong>IComHandlerAction 的資料屬性</strong></a></li></ul><br /> 指令碼：<ul><li><a href="comhandleraction-classid.md"><strong>ComHandlerAction</strong></a></li><li><a href="comhandleraction-data.md"><strong>ComHandlerAction 資料</strong></a></li></ul><br /> | 
+| 電子郵件動作 | C++：<ul><li><a href="/windows/desktop/api/taskschd/nf-taskschd-iemailaction-get_body"><strong>IEmailAction 的 Body 屬性</strong></a></li><li><a href="/windows/desktop/api/taskschd/nf-taskschd-iemailaction-get_server"><strong>IEmailAction 的伺服器屬性</strong></a></li><li><a href="/windows/desktop/api/taskschd/nf-taskschd-iemailaction-get_subject"><strong>IEmailAction 的 Subject 屬性</strong></a></li><li><a href="/windows/desktop/api/taskschd/nf-taskschd-iemailaction-get_to"><strong>IEmailAction 的屬性</strong></a></li><li><a href="/windows/desktop/api/taskschd/nf-taskschd-iemailaction-get_cc"><strong>IEmailAction 的 Cc 屬性</strong></a></li><li><a href="/windows/desktop/api/taskschd/nf-taskschd-iemailaction-get_bcc"><strong>IEmailAction 的密件副本屬性</strong></a></li><li><a href="/windows/desktop/api/taskschd/nf-taskschd-iemailaction-get_replyto"><strong>IEmailAction 的 ReplyTo 屬性</strong></a></li><li><a href="/windows/desktop/api/taskschd/nf-taskschd-iemailaction-get_from"><strong>From IEmailAction 的屬性</strong></a></li></ul><br /> 指令碼：<ul><li><a href="emailaction-body.md"><strong>EmailAction</strong></a></li><li><a href="emailaction-server.md"><strong>EmailAction 伺服器</strong></a></li><li><a href="emailaction-subject.md"><strong>EmailAction 主題</strong></a></li><li><a href="emailaction-to.md"><strong>EmailAction.To</strong></a></li><li><a href="emailaction-cc.md"><strong>EmailAction.Cc</strong></a></li><li><a href="emailaction-bcc.md"><strong>EmailAction 密件副本</strong></a></li><li><a href="emailaction-replyto.md"><strong>EmailAction ReplyTo</strong></a></li><li><a href="emailaction-from.md"><strong>EmailAction</strong></a></li></ul><br /> | 
+| Exec 動作 | C++：<ul><li><a href="/windows/desktop/api/taskschd/nf-taskschd-iexecaction-get_arguments"><strong>IExecAction 的 Arguments 屬性</strong></a></li><li><a href="/windows/desktop/api/taskschd/nf-taskschd-iexecaction-get_workingdirectory"><strong>IExecAction 的 WorkingDirectory 屬性</strong></a></li></ul><br /> 指令碼：<ul><li><a href="execaction-arguments.md"><strong>ExecAction. 引數</strong></a></li><li><a href="execaction-workingdirectory.md"><strong>ExecAction. WorkingDirectory</strong></a></li></ul><br /> | 
+| 顯示訊息動作 | C++：<ul><li><a href="/windows/desktop/api/taskschd/nf-taskschd-ishowmessageaction-get_title"><strong>IShowMessageAction 的 Title 屬性</strong></a></li><li><a href="/windows/desktop/api/taskschd/nf-taskschd-ishowmessageaction-get_messagebody"><strong>IShowMessageAction 的 MessageBody 屬性</strong></a></li></ul><br /> 指令碼：<ul><li><a href="showmessageaction-title.md"><strong>ShowMessageAction 標題</strong></a></li><li><a href="showmessageaction-messagebody.md"><strong>ShowMessageAction. MessageBody</strong></a></li></ul><br /> | 
+
 
 
 

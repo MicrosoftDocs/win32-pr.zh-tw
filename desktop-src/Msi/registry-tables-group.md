@@ -4,12 +4,12 @@ ms.assetid: 31a75c20-79e4-4bcf-bcc1-34a7d191fa90
 title: 登錄資料表群組
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e8ba14bdc2bc5668ce2de3ec66172c75c176ab41
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5f7ab4d3447ec727271d53fabe44fee11bf96663170c89a2210d80bb02bd8c7b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103849150"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120128971"
 ---
 # <a name="registry-tables-group"></a>登錄資料表群組
 
@@ -31,7 +31,7 @@ ms.locfileid: "103849150"
 -   [類別資料表](class-table.md)是用來註冊 COM 物件的類別識別碼和其他資訊。 此資料表包含必須在產品公告中產生的 COM 伺服器相關資訊。
 -   [ProgId 資料表](progid-table.md)會將程式識別碼與類別識別碼產生關聯。
 -   [AppId 資料表](appid-table.md)可用於註冊 DCOM 物件的一般安全性和設定。
--   環境 [資料表](environment-table.md) 是用來設定環境變數的值，而在 Windows 2000 中，環境資料表也會寫入至登錄。
+-   環境[資料表](environment-table.md)是用來設定環境變數的值，而在 Windows 2000 中，環境資料表也會寫入至登錄。
 -   登錄 [資料表](registry-table.md) 會保存應用程式必須放入系統登錄中的任何其他資訊。 這會包含上述資料表不支援的預設設定、使用者資訊或資料，或 COM 註冊。
 -   [RemoveRegistry 資料表](removeregistry-table.md)包含應用程式在安裝時需要從系統登錄刪除的登錄資訊。
 

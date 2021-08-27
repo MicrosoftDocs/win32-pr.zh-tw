@@ -4,12 +4,12 @@ ms.assetid: 43841d2f-5a4c-493d-9531-21941311ffbc
 title: 控制事件追蹤會話
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b03f1917354679e7a68f9dbd001fc3aa10f09db0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5970eb160812991677aac775af60d08458c269152edca4aa2e30cdf30c111d96
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972232"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120130658"
 ---
 # <a name="controlling-event-tracing-sessions"></a>控制事件追蹤會話
 
@@ -28,7 +28,7 @@ ms.locfileid: "104972232"
 
 只有以較高的系統管理許可權執行的使用者、Performance Log Users 群組中的使用者，以及以 LocalSystem、LocalService 或 NetworkService 身分執行的應用程式，才能控制事件追蹤會話。 若要授與受限制的使用者控制追蹤會話的能力，請將它們新增至 Performance Log Users 群組。
 
-**WINDOWS XP 和 windows 2000：** 任何人都可以控制追蹤會話。
+**Windows XP 和 Windows 2000：** 任何人都可以控制追蹤會話。
 
  
 

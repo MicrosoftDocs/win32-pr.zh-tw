@@ -4,12 +4,12 @@ description: 描述提供者如何以非同步方式服務回呼。
 ms.assetid: <GUID-GOES-HERE>
 ms.date: 10/12/2018
 ms.topic: article
-ms.openlocfilehash: 8ec23f5ea6e8ec55be2eaa2811d9dee8b1870edc
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: f2262e803d1ee3d071538dc6e520517c6fd7b800c4d7fdc4a7404748b9f9f0dc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106996370"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120127948"
 ---
 # <a name="asynchronous-callback-handling"></a>非同步回呼處理
 

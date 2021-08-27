@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 0357a91d893120ec1bb72a7c1d54ad4a5e9a0acf
-ms.sourcegitcommit: 168d11879cb9fd89d26f826482725c0a626be00f
+ms.openlocfilehash: 9d4bd8b99374cb8e8367470eb6c7e7d750ad077d
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "106985921"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122625404"
 ---
 # <a name="wmi-tasks-disks-and-file-systems"></a>WMI 工作：磁碟和檔案系統
 
@@ -28,7 +28,7 @@ ms.locfileid: "106985921"
 
 **執行指令碼**
 
-1.  複製程式碼，並將它儲存在副檔名為 .vbs 的檔案中，例如 *filename.vbs*。 確定您的文字編輯器不會將 .txt 副檔名新增至檔案。
+1.  複製程式碼，並將它儲存在副檔名為 .vbs 的檔案中，例如 *filename.vbs*。 確定您的文字編輯器不會在檔案中加入 .txt 延伸模組。
 2.  開啟 [命令提示字元] 視窗，並流覽至您儲存檔案的目錄。
 3.  在命令提示字元中，輸入 **cscript filename.vbs** 。
 4.  如果您無法存取事件記錄檔，請檢查是否從提高許可權的命令提示字元執行。 某些事件記錄檔，例如安全性事件記錄檔，可能會受到使用者存取控制 (UAC) 的保護。
@@ -44,8 +44,8 @@ ms.locfileid: "106985921"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -59,7 +59,7 @@ ms.locfileid: "106985921"
 <td>如果您使用的是磁片配額，請使用 <a href="/previous-versions/windows/desktop/wmipdskq/win32-diskquota"><strong>Win32_DiskQuota</strong></a> 類別，並取出 <strong>使用者</strong> 和 <strong>DiskSpaceUsed</strong> 屬性的值。<br/> <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -82,7 +82,7 @@ Next</code></pre></td>
 <span data-codelanguage="PowerShell"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -111,7 +111,7 @@ foreach ($objQuota in $colItems)
 <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -142,7 +142,7 @@ Loop</code></pre></td>
 <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -164,7 +164,7 @@ Next</code></pre></td>
 <span data-codelanguage="PowerShell"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -193,7 +193,7 @@ foreach ($objItem in $colItems)
 <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -220,7 +220,7 @@ Next</code></pre></td>
 <span data-codelanguage="PowerShell"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -252,7 +252,7 @@ foreach ($objItem in $colItems)
 <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -293,7 +293,7 @@ Next</code></pre></td>
 <span data-codelanguage="PowerShell"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -332,7 +332,7 @@ foreach ($objDisk in $colDisks)
 <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -361,7 +361,7 @@ Next</code></pre></td>
 <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -390,7 +390,7 @@ Next</code></pre></td>
 <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -419,7 +419,7 @@ Next</code></pre></td>
 <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -450,7 +450,7 @@ Next</code></pre></td>
 <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -482,7 +482,7 @@ Next</code></pre></td>
 <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">

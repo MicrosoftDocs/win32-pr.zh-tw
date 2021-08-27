@@ -17,12 +17,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d4447d1403903c9633523466504817338db969f
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: ff62d5a2280a28292289e6e6a1374615f066a66463eef9a8c0e3db58383874ee
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104321936"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120084808"
 ---
 # <a name="mdm_vpnv2_apnbinding02-class"></a>MDM \_ >vpnv2 \_ APNBinding02 類別
 
@@ -165,7 +165,7 @@ class MDM_VPNv2_APNBinding02
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 10 桌面應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | Windows 10 \[僅限桌面應用程式\]<br/>                                                    |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                      |
 | 命名空間<br/>                | 根 \\ cimv2 \\ mdm \\ dmmap<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv mof</dt> </dl> |

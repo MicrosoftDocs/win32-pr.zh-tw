@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f0ac5bb8d445c3ba6418be4ee5c0c5e7a96f507d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 501aacb7b9a56fd9780aba75a15aa9f717640ebff7619df020bad432cdffd459
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106997437"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120123388"
 ---
 # <a name="mediaisreadonlyitem-method"></a>IsReadOnlyItem 方法
 
@@ -45,7 +45,7 @@ bRetVal = Media.isReadOnlyItem(
 *屬性* \[在\]
 </dt> <dd>
 
-表示要測試之屬性名稱的 **字串**。 如需 Windows Media Player 所支援之屬性的詳細資訊，請參閱 Windows Media Player [屬性參考](attribute-reference.md)。
+表示要測試之屬性名稱的 **字串**。 如需 Windows Media Player 所支援之屬性的詳細資訊，請參閱 Windows Media Player[屬性參考](attribute-reference.md)。
 
 </dd> </dl>
 

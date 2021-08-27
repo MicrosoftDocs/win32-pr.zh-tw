@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 3f5a051cea555975fd8606c3693d4b7d63cb9ce4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 31784a008a2074156c69abf868739ec27c459dabdba1437397780086d28f9847
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106996399"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120084458"
 ---
 # <a name="coareftimeoperator-method-ctlutilh"></a>COARefTime： operator = 方法 (Ctlutil .h) 
 

@@ -18,12 +18,12 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 35b76b8b5aa46d107129f5b5033bf958a59488abd402bfb68c8a1d4d3b555a6a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: da5c999f9fcec38878f339cfb2a927c2be2e5b70
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119728128"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122479024"
 ---
 # <a name="jetossnapshottruncateloginstance-function"></a>JetOSSnapshotTruncateLogInstance 函式
 
@@ -60,64 +60,25 @@ _**適用于：** Windows |Windows伺服器_
 
 *grbit* 可以是下列其中一個值：
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>值</p></th>
-<th><p>意義</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_bitAllDatabasesSnapshot</p></td>
-<td><p>附加所有資料庫，讓儲存引擎可以計算並進行記錄截斷。</p></td>
-</tr>
-<tr class="even">
-<td><p>0 (零)</p></td>
-<td><p>不會發生截斷。</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>值</p> | <p>意義</p> | 
+|--------------|----------------|
+| <p>JET_bitAllDatabasesSnapshot</p> | <p>附加所有資料庫，讓儲存引擎可以計算並進行記錄截斷。</p> | 
+| <p>0 (零)</p> | <p>不會發生截斷。</p> | 
+
 
 
 ### <a name="return-value"></a>傳回值
 
 此函數會傳回具有下列其中一個傳回碼的 [JET_ERR](./jet-err.md) 資料類型。 如需可能 ESE 錯誤的詳細資訊，請參閱可延伸的[儲存體引擎錯誤](./extensible-storage-engine-errors.md)和[錯誤處理參數](./error-handling-parameters.md)。
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>傳回碼</p></th>
-<th><p>描述</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errSuccess</p></td>
-<td><p>作業已成功完成。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errInvalidGrbit</p></td>
-<td><p><em>Grbit</em>參數無效。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errOSSnapshotInvalidSequence</p></td>
-<td><p>快照會話不是處於截斷可能發生的狀態。 可能的原因包括：</p>
-<ul>
-<li><p>呼叫會在快照集會話超時之後完成。</p></li>
-<li><p>此會話已指定為複製快照集。</p></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| <p>傳回碼</p> | <p>Description</p> | 
+|--------------------|--------------------|
+| <p>JET_errSuccess</p> | <p>作業已成功完成。</p> | 
+| <p>JET_errInvalidGrbit</p> | <p><em>Grbit</em>參數無效。</p> | 
+| <p>JET_errOSSnapshotInvalidSequence</p> | <p>快照會話不是處於截斷可能發生的狀態。 可能的原因包括：</p><ul><li><p>呼叫會在快照集會話超時之後完成。</p></li><li><p>此會話已指定為複製快照集。</p></li></ul> | 
+
 
 
 如果此函式成功，則會截斷屬於快照會話一部分的一個或所有實例的記錄檔（如果可能的話）。
@@ -128,34 +89,9 @@ _**適用于：** Windows |Windows伺服器_
 
 #### <a name="requirements"></a>規格需求
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>用戶端</strong></p></td>
-<td><p>需要 Windows Vista。</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>伺服器</strong></p></td>
-<td><p>需要 Windows Server 2008。</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>標頭</strong></p></td>
-<td><p>宣告于 Esent. h 中。</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>程式庫</strong></p></td>
-<td><p>使用 ESENT。</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>DLL</strong></p></td>
-<td><p>需要 ESENT.dll。</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p><strong>用戶端</strong></p> | <p>需要 Windows Vista。</p> | | <p><strong>伺服器</strong></p> | <p>需要 Windows Server 2008。</p> | | <p><strong>標頭</strong></p> | <p>宣告于 Esent. h 中。</p> | | <p><strong>程式庫</strong></p> | <p>使用 ESENT。</p> | | <p><strong>DLL</strong></p> | <p>需要 ESENT.dll。</p> | 
+
 
 
 #### <a name="see-also"></a>另請參閱

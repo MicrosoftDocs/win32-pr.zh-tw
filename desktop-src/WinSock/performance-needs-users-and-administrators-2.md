@@ -4,12 +4,12 @@ ms.assetid: 6c4365c6-a406-497b-a313-1faeb3e3b7f5
 title: 效能需求：使用者和系統管理員
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 009a8178cf1d7516e9c16493916f8cf911752b9b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 93c74f4ec6f0a545a98a890f0bc8ff954fe43a3f79fc04fd2c2d92e68ea9f646
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026210"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120097668"
 ---
 # <a name="performance-needs-users-and-administrators"></a>效能需求：使用者和系統管理員
 
@@ -32,7 +32,7 @@ ms.locfileid: "104026210"
 
 ## <a name="best-practices-for-performance-needs"></a>效能需求的最佳作法
 
-開發 Windows 通訊端應用程式時，這些效能需求會轉譯成有用的規則。
+在開發 Windows 通訊端應用程式時，這些效能需求會轉譯成有用的規則。
 
 -   讓網路應用程式快速初始化。
 
@@ -52,7 +52,7 @@ ms.locfileid: "104026210"
 
 -   應用程式應該定義它自己合理的時間。
 
-    例如，Windows 通訊端 connect () 要求可能會在某些情況下封鎖21秒。 應用程式可能需要將自己的時間引入適合其使用者的時間。
+    例如，在某些情況下，Windows 通訊端連接 () 要求可能會在21秒內封鎖。 應用程式可能需要將自己的時間引入適合其使用者的時間。
 
 -   將通訊協定額外負荷降到最低。
 
@@ -68,7 +68,7 @@ ms.locfileid: "104026210"
 
 <dl> <dt>
 
-[高效能的 Windows 通訊端應用程式](high-performance-windows-sockets-applications-2.md)
+[高效能 Windows 通訊端應用程式](high-performance-windows-sockets-applications-2.md)
 </dt> <dt>
 
 [效能維度](performance-dimensions-2.md)

@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102881
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 271f12eae752ce57aaae8820d1ad7fe186f711e3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9afe9818894a45de62dd4a46e5621f04a7705c8cbd95d5e75e78c93c7249d7eb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104567949"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120116958"
 ---
 # <a name="esentslvownermappagenotfoundexception-members"></a>EsentSLVOwnerMapPageNotFoundException 成員
 

@@ -20,23 +20,23 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 35e19eb7ac7b133bb690b268426fec9822efefea
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 87e9506048094b77674e85f76f6c1718def44cae
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106981890"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122467165"
 ---
 # <a name="jetdeletecolumn2-function"></a>JetDeleteColumn2 函式
 
 
-_**適用于：** Windows |Windows Server_
+_**適用于：** Windows |Windows伺服器_
 
 ## <a name="jetdeletecolumn2-function"></a>JetDeleteColumn2 函式
 
 **JetDeleteColumn2** 函式會從 ESE 資料庫資料表中刪除資料行，並啟用 *grbit* 選項的設定。
 
-**Windows xp： JetDeleteColumn2** 是在 windows xp 中引進的。
+**Windows xp： JetDeleteColumn2** 是在 Windows xp 引進。
 
 ```cpp
     JET_ERR JET_API JetDeleteColumn2(
@@ -65,72 +65,28 @@ _**適用于：** Windows |Windows Server_
 
 指定零或多個下列選項的位群組。
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>值</p></th>
-<th><p>意義</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_bitDeleteColumnIgnoreTemplateColumns</p></td>
-<td><p>設定 JET_bitDeleteColumIgnoreTemplateColumns 將導致 API 只會嘗試刪除衍生資料表中的資料行。 如果基表中有該名稱的資料行，則會忽略該名稱的資料行。</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>值</p> | <p>意義</p> | 
+|--------------|----------------|
+| <p>JET_bitDeleteColumnIgnoreTemplateColumns</p> | <p>設定 JET_bitDeleteColumIgnoreTemplateColumns 將導致 API 只會嘗試刪除衍生資料表中的資料行。 如果基表中有該名稱的資料行，則會忽略該名稱的資料行。</p> | 
+
 
 
 ### <a name="return-value"></a>傳回值
 
-此函數會傳回具有下列其中一個傳回碼的 [JET_ERR](./jet-err.md) 資料類型。 如需可能 ESE 錯誤的詳細資訊，請參閱可延伸 [儲存引擎錯誤](./extensible-storage-engine-errors.md) 和 [錯誤處理參數](./error-handling-parameters.md)。
+此函數會傳回具有下列其中一個傳回碼的 [JET_ERR](./jet-err.md) 資料類型。 如需可能 ESE 錯誤的詳細資訊，請參閱可延伸的[儲存體引擎錯誤](./extensible-storage-engine-errors.md)和[錯誤處理參數](./error-handling-parameters.md)。
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>傳回碼</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errSuccess</p></td>
-<td><p>作業已成功完成。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errColumnInUse</p></td>
-<td><p>資料行目前正在使用中。 索引目前可能會使用它。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errFixedDDL</p></td>
-<td><p>嘗試修改固定的 DDL。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errFixedInheritedDDL</p></td>
-<td><p>在 <em>szColumnName</em> 中名為的資料行存在於樣板資料表中，且無法修改範本資料表的 DDL。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errInvalidName</p></td>
-<td><p>如果指定了 <em>szColumnName</em> 的錯誤名稱，則可能會傳回此錯誤。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errPermissionDenied</p></td>
-<td><p>資料表無法寫入。 如果資料庫是以唯讀模式開啟，可能會傳回此情況。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errTransReadOnly</p></td>
-<td><p>交易是唯讀交易。</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>傳回碼</p> | <p>Description</p> | 
+|--------------------|--------------------|
+| <p>JET_errSuccess</p> | <p>作業已成功完成。</p> | 
+| <p>JET_errColumnInUse</p> | <p>資料行目前正在使用中。 索引目前可能會使用它。</p> | 
+| <p>JET_errFixedDDL</p> | <p>嘗試修改固定的 DDL。</p> | 
+| <p>JET_errFixedInheritedDDL</p> | <p>在 <em>szColumnName</em> 中名為的資料行存在於樣板資料表中，且無法修改範本資料表的 DDL。</p> | 
+| <p>JET_errInvalidName</p> | <p>如果指定了 <em>szColumnName</em> 的錯誤名稱，則可能會傳回此錯誤。</p> | 
+| <p>JET_errPermissionDenied</p> | <p>資料表無法寫入。 如果資料庫是以唯讀模式開啟，可能會傳回此情況。</p> | 
+| <p>JET_errTransReadOnly</p> | <p>交易是唯讀交易。</p> | 
+
 
 
 #### <a name="remarks"></a>備註
@@ -139,38 +95,9 @@ _**適用于：** Windows |Windows Server_
 
 #### <a name="requirements"></a>規格需求
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>用戶端</strong></p></td>
-<td><p>需要 Windows Vista 或 Windows XP。</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>伺服器</strong></p></td>
-<td><p>需要 Windows Server 2008 或 Windows Server 2003。</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>標頭</strong></p></td>
-<td><p>宣告于 Esent. h 中。</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>程式庫</strong></p></td>
-<td><p>使用 ESENT。</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>DLL</strong></p></td>
-<td><p>需要 ESENT.dll。</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Unicode</strong></p></td>
-<td><p>實作為 <strong>JetDeleteColumn2W</strong> (Unicode) 和 <strong>JetDeleteColumn2A</strong> (ANSI) 。</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p><strong>用戶端</strong></p> | <p>需要 Windows Vista 或 Windows XP。</p> | | <p><strong>伺服器</strong></p> | <p>需要 Windows server 2008 或 Windows server 2003。</p> | | <p><strong>標頭</strong></p> | <p>宣告于 Esent. h 中。</p> | | <p><strong>程式庫</strong></p> | <p>使用 ESENT。</p> | | <p><strong>DLL</strong></p> | <p>需要 ESENT.dll。</p> | | <p><strong>Unicode</strong></p> | <p>實作為 <strong>JetDeleteColumn2W</strong> (Unicode) 和 <strong>JetDeleteColumn2A</strong> (ANSI) 。</p> | 
+
 
 
 #### <a name="see-also"></a>另請參閱

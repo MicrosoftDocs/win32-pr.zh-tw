@@ -16,12 +16,12 @@ api_location: ''
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: d0453a7fdf5bb7253b1d2abd063b98a7964c4c8e
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.openlocfilehash: 7171d30cfe02509619a56d7d986487adab5b5cae
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122880241"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122478204"
 ---
 # <a name="description-mobile-broadband"></a> (Mobile 寬頻) 的描述
 
@@ -29,8 +29,8 @@ ms.locfileid: "122880241"
 
 ## <a name="element-hierarchy"></a>元素階層
 
-[&lt;MBNProfileExt&gt;](element-mbnprofileext.md)  
-**&lt;描述&gt;**
+[<MBNProfileExt>](element-mbnprofileext.md)  
+**<Description>**
 
 ## <a name="syntax"></a>Syntax
 
@@ -55,7 +55,7 @@ ms.locfileid: "122880241"
 ### <a name="span-idparent_elementsspanspan-idparent_elementsspanparent-elements"></a><span id="parent_elements"></span><span id="PARENT_ELEMENTS"></span>父元素
 
 
-| Parent 項目 | 說明 | 
+| Parent 項目 | Description | 
 |----------------|-------------|
 | <a href="element-mbnprofileext.md">MBNProfileExt</a> | <p><strong>MBNProfileExt</strong>元素是先前 MBNProfile 專案的延伸模組。 它會以比 MBNProfile 元素更豐富的選項組來識別行動寬頻設定檔。</p><p>設定檔中可以有一個以上的 MbnProfileExt 元素，描述一組特定作業條件的設定檔設定。 使用<strong>MBNProfileExt</strong>的<a href="element-profileconditionedon.md"><strong>ProfileConditionedOn</strong></a>子項目，以指定哪些作業條件會將特定的設定檔設為使用中的設定檔。</p> | 
 

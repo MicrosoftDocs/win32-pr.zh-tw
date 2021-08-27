@@ -4,26 +4,26 @@ description: WMP SDK 介面
 ms.assetid: 68a0bdaf-ae1b-4ba1-817b-a31c68b9fddd
 keywords:
 - Windows Media Player，介面
-- Windows Media Player 行動裝置、介面
+- Windows Media Player行動裝置，介面
 - Windows Media Player 物件模型，介面
 - 物件模型，介面
 - ActiveX 控制項，介面
-- Windows Media Player ActiveX 控制項，介面
-- Windows Media Player 的行動 ActiveX 控制項、介面
+- Windows Media Player ActiveX 控制項、介面
+- Windows Media PlayerMobile ActiveX 控制項、介面
 - 物件模型、介面的參考
 - 介面物件模型參考
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ffff5a4c609d13d84972989ac32dae1600f5f02d
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 7db8e5ebe29e38da9f92370f60a622fad70f36395b271eb7bd86ef49f49a3d49
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104383558"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120123498"
 ---
 # <a name="wmp-sdk-interfaces"></a>WMP SDK 介面
 
-本節記載 Windows Media Player 的 ActiveX 控制項和 Windows Media Player 的行動 ActiveX 控制項所公開的 COM 介面。
+本節記載由 Windows Media Player ActiveX 控制項和 Windows Media Player Mobile ActiveX 控制項公開的 COM 介面。
 
 **IWMPCore** 或 **IWMPPlayer** 介面的存取子方法是用來取出特定介面。 這些介面接著可能具有存取子方法，可供您抓取進一步的介面。 只有當您取得介面的基底版本，而且想要在較新版本的相同介面上呼叫方法時，才需要呼叫其中一個介面上的 **QueryInterface** 。
 

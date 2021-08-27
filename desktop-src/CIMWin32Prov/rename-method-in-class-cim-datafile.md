@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: aea061990a6d3bd52a98dc9101102059767ecf9a
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: fd0b6bd67c4814b8729eaa2b44e0f521923133d33b101b3d1c99aa74aaa4744e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111260"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120064506"
 ---
 # <a name="rename-method-of-the-cim_datafile-class"></a>CIM 資料檔案類別的重新命名方法 \_
 
@@ -107,7 +107,7 @@ uint32 Rename(
 **12**
 </dt> <dd>
 
-平臺不是 Windows。
+平臺未 Windows。
 
 </dd> <dt>
 

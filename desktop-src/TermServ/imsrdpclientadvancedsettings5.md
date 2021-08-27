@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 14e37eb28c1fb7a272291c44661c52ec3548708b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 49ad2b26697cd3985cc0e39a8ed7345bc4bbe941
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106966502"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122622344"
 ---
 # <a name="imsrdpclientadvancedsettings5-interface"></a>IMsRdpClientAdvancedSettings5 介面
 
@@ -43,53 +43,53 @@ ms.locfileid: "106966502"
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
-<th style="text-align: left;">屬性</th>
-<th style="text-align: left;">存取類型</th>
-<th style="text-align: left;">Description</th>
+<th >屬性</th>
+<th >存取類型</th>
+<th >描述</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclientadvancedsettings5-audioredirectionmode.md"><strong>AudioRedirectionMode</strong></a><br/></td>
-<td style="text-align: left;">讀取/寫入<br/></td>
-<td style="text-align: left;">音訊重新導向模式。 <a href="imsrdpclientadvancedsettings5-audioredirectionmode.md"><strong>AudioRedirectionMode</strong></a>屬性具有下列可能的值。<br/>
-<dt><span id="AUDIO_MODE_REDIRECT___0"></span><span id="audio_mode_redirect___0"></span><strong>AUDIO_MODE_REDIRECT 0</strong> (已啟用音訊重新導向，而重新導向的選項會 &quot; 帶至此電腦 &quot; 。 這是預設模式。 ) <br/> </dt> <dd></dd> <dt><span id="AUDIO_MODE_PLAY_ON_SERVER_1"></span><span id="audio_mode_play_on_server_1"></span><strong>AUDIO_MODE_PLAY_ON_SERVER 1</strong> (已啟用音訊重新導向，且 [遠端電腦] 選項為 [ &quot; 離開] &quot; 。 &quot; &quot; 只有在遠端連線到執行 Windows Vista 的主機電腦時，才支援 [離開遠端電腦] 選項。 如果連接到執行 Windows Server 2008 的主機電腦，則 [ &quot; 遠端電腦離開] 選項 &quot; 會變更為 [ &quot; 不播放] &quot; 。 ) <br/> </dt> <dd></dd> <dt><span id="AUDIO_MODE_NONE_2"></span><span id="audio_mode_none_2"></span><strong>AUDIO_MODE_NONE 2</strong> (已啟用音訊重新導向，且 &quot; 不播放模式 &quot; 。 ) <br/> </dt> <dd></dd> </dl></td>
+<td ><a href="imsrdpclientadvancedsettings5-audioredirectionmode.md"><strong>AudioRedirectionMode</strong></a><br/></td>
+<td >讀取/寫入<br/></td>
+<td >音訊重新導向模式。 <a href="imsrdpclientadvancedsettings5-audioredirectionmode.md"><strong>AudioRedirectionMode</strong></a>屬性具有下列可能的值。<br/>
+<dt><span id="AUDIO_MODE_REDIRECT___0"></span><span id="audio_mode_redirect___0"></span><strong>AUDIO_MODE_REDIRECT 0</strong> (已啟用音訊重新導向，而重新導向的選項會 &quot; 帶至此電腦 &quot; 。 這是預設模式。 ) <br/> </dt> <dd></dd> <dt><span id="AUDIO_MODE_PLAY_ON_SERVER_1"></span><span id="audio_mode_play_on_server_1"></span><strong>AUDIO_MODE_PLAY_ON_SERVER 1</strong> (已啟用音訊重新導向，且 [遠端電腦] 選項為 [ &quot; 離開] &quot; 。 &quot; &quot; 只有從遠端連線到執行 Windows Vista 的主機電腦時，才支援 [離開遠端電腦] 選項。 如果連接到執行 Windows Server 2008 的主機電腦，則 [ &quot; 遠端電腦保留] 選項 &quot; 會變更為 [ &quot; 不播放] &quot; 。 ) <br/> </dt> <dd></dd> <dt><span id="AUDIO_MODE_NONE_2"></span><span id="audio_mode_none_2"></span><strong>AUDIO_MODE_NONE 2</strong> (已啟用音訊重新導向，且 &quot; 不播放模式 &quot; 。 ) <br/> </dt> <dd></dd> </dl></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><a href="imsrdpclientadvancedsettings5-bitmapvirtualcache32bppsize.md"><strong>BitmapVirtualCache32BppSize</strong></a><br/></td>
-<td style="text-align: left;">讀取/寫入<br/></td>
-<td style="text-align: left;">指定每圖元32位的虛擬快取檔案大小 (bpp) 點陣圖。 最大值為 48 mb (MB) 。<br/></td>
+<td ><a href="imsrdpclientadvancedsettings5-bitmapvirtualcache32bppsize.md"><strong>BitmapVirtualCache32BppSize</strong></a><br/></td>
+<td >讀取/寫入<br/></td>
+<td >指定每圖元32位的虛擬快取檔案大小 (bpp) 點陣圖。 最大值為 48 mb (MB) 。<br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclientadvancedsettings5-connectionbarshowpinbutton.md"><strong>ConnectionBarShowPinButton</strong></a><br/></td>
-<td style="text-align: left;">讀取/寫入<br/></td>
-<td style="text-align: left;">指定是否應該在連接列上顯示 [釘選] 按鈕。 依預設，此值為 <strong>TRUE</strong>。<br/></td>
+<td ><a href="imsrdpclientadvancedsettings5-connectionbarshowpinbutton.md"><strong>ConnectionBarShowPinButton</strong></a><br/></td>
+<td >讀取/寫入<br/></td>
+<td >指定是否應該在連接列上顯示 [釘選] 按鈕。 依預設，此值為 <strong>TRUE</strong>。<br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><a href="imsrdpclientadvancedsettings5-publicmode.md"><strong>PublicMode</strong></a><br/></td>
-<td style="text-align: left;">讀取/寫入<br/></td>
-<td style="text-align: left;">指定是否應啟用或停用公用模式。 Public 模式預設會設定為 <strong>FALSE</strong>。<br/></td>
+<td ><a href="imsrdpclientadvancedsettings5-publicmode.md"><strong>PublicMode</strong></a><br/></td>
+<td >讀取/寫入<br/></td>
+<td >指定是否應啟用或停用公用模式。 Public 模式預設會設定為 <strong>FALSE</strong>。<br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclientadvancedsettings5-redirectclipboard.md"><strong>RedirectClipboard</strong></a><br/></td>
-<td style="text-align: left;">讀取/寫入<br/></td>
-<td style="text-align: left;">指定是否應啟用或停用剪貼簿重新導向。 根據預設，剪貼簿重新導向模式會設定為 <strong>TRUE</strong> (已啟用) 。<br/></td>
+<td ><a href="imsrdpclientadvancedsettings5-redirectclipboard.md"><strong>RedirectClipboard</strong></a><br/></td>
+<td >讀取/寫入<br/></td>
+<td >指定是否應啟用或停用剪貼簿重新導向。 根據預設，剪貼簿重新導向模式會設定為 <strong>TRUE</strong> (已啟用) 。<br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><a href="imsrdpclientadvancedsettings5-redirectdevices.md"><strong>RedirectDevices</strong></a><br/></td>
-<td style="text-align: left;">讀取/寫入<br/></td>
-<td style="text-align: left;">指定是否應啟用或停用重新導向的裝置。 根據預設，重新導向的裝置模式會設定為 <strong>FALSE</strong>。<br/></td>
+<td ><a href="imsrdpclientadvancedsettings5-redirectdevices.md"><strong>RedirectDevices</strong></a><br/></td>
+<td >讀取/寫入<br/></td>
+<td >指定是否應啟用或停用重新導向的裝置。 根據預設，重新導向的裝置模式會設定為 <strong>FALSE</strong>。<br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclientadvancedsettings5-redirectposdevices.md"><strong>RedirectPOSDevices</strong></a><br/></td>
-<td style="text-align: left;">讀取/寫入<br/></td>
-<td style="text-align: left;">指定是否應啟用或停用服務重新導向裝置的點。 依預設，[服務重新導向裝置的時間點] 模式會設定為 [ <strong>FALSE</strong>]。<br/></td>
+<td ><a href="imsrdpclientadvancedsettings5-redirectposdevices.md"><strong>RedirectPOSDevices</strong></a><br/></td>
+<td >讀取/寫入<br/></td>
+<td >指定是否應啟用或停用服務重新導向裝置的點。 依預設，[服務重新導向裝置的時間點] 模式會設定為 [ <strong>FALSE</strong>]。<br/></td>
 </tr>
 </tbody>
 </table>

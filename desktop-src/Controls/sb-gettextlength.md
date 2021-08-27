@@ -3,7 +3,7 @@ title: 'SB_GETTEXTLENGTH 訊息 (Commctrl .h) '
 description: 從狀態視窗的指定部分抓取文字長度（以字元為單位）。
 ms.assetid: 2cd43106-dd43-499e-b595-760e9ededab5
 keywords:
-- SB_GETTEXTLENGTH message Windows 控制項
+- SB_GETTEXTLENGTH 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8b08dd3b870c3c59e5aafbeb9d53baef3816a726
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9b2c203862b2a17352924f3df07560034c9f52784c84676d924d78524b05be1c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934796"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120084958"
 ---
 # <a name="sb_gettextlength-message"></a>SB \_ GETTEXTLENGTH 訊息
 
@@ -47,7 +47,7 @@ ms.locfileid: "103934796"
 
 
 
-| 傳回碼                                                                                    | Description                                                                                       |
+| 傳回碼                                                                                    | 描述                                                                                       |
 |------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
 | <dl> <dt>**0**</dt> </dl>               | 文字會以框線繪製，並顯示為低於視窗的平面。<br/>          |
 | <dl> <dt>**SBT \_ NOBORDERS**</dt> </dl>  | 不以框線繪製文字。<br/>                                                     |
@@ -61,7 +61,7 @@ ms.locfileid: "103934796"
 
 ## <a name="remarks"></a>備註
 
-一般視窗會將文字從左至右顯示 (LTR) 。 Windows 可以進行 *鏡像* ，以顯示如希伯來文或阿拉伯文等語言，由右至左 (RTL) 。 如果 \_ 已設定 [SBT RTLREADING]，則會從父視窗中的文字，以相反的方向讀取指定的狀態視窗文字。
+一般視窗會將文字從左至右顯示 (LTR) 。 Windows 可以進行 *鏡像*，以顯示如希伯來文或阿拉伯文等語言，由右至左 (RTL) 。 如果 \_ 已設定 [SBT RTLREADING]，則會從父視窗中的文字，以相反的方向讀取指定的狀態視窗文字。
 
 此訊息會傳回65535個字元的字串長度上限。 如果實際文字字串的長度超過該字串，則 [**SB \_ GETTEXT**](sb-gettext.md) 訊息會將它截斷。
 
@@ -71,8 +71,8 @@ ms.locfileid: "103934796"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 | Unicode 與 ANSI 名稱<br/>   | **SB \_GETTEXTLENGTHW** (Unicode) 和 **SB \_ GETTEXTLENGTHA** (ANSI) <br/>         |
 

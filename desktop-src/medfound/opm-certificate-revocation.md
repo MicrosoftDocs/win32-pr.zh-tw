@@ -4,12 +4,12 @@ ms.assetid: 21faf809-1335-4d93-be06-628c5a05a4c8
 title: OPM 憑證撤銷
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f87fd398dda654cff23d295a5554edee1e7116b6014c1eb2d1fa0320cedbf3fd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 36b4caeace94f852394081620555c0b5b04918bf
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119722258"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122478904"
 ---
 # <a name="opm-certificate-revocation"></a>OPM 憑證撤銷
 
@@ -17,57 +17,16 @@ OPM) 憑證的輸出保護管理員 (可由 Microsoft 撤銷。 撤銷的憑證�
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>區段</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>標頭</td>
-<td><a href="grl-header.md"><strong>GRL_HEADER</strong></a>結構。</td>
-</tr>
-<tr class="even">
-<td>核心</td>
-<td>包含下列撤銷清單：
-<ul>
-<li>核心二進位檔撤銷</li>
-<li>使用者模式二進位撤銷</li>
-<li>憑證撤銷</li>
-<li>受信任的根 (保留) </li>
-</ul>
-受信任的根目錄清單目前未使用，並保留供日後使用。</td>
-</tr>
-<tr class="odd">
-<td>可擴充專案</td>
-<td>包含其他元件所使用的資訊。 本節與 OPM 無關。</td>
-</tr>
-<tr class="even">
-<td>更新：</td>
-<td>包含定義 Windows Update 識別碼的 guid。 本節包含下列清單的識別碼：
-<ul>
-<li>核心二進位檔撤銷</li>
-<li>使用者模式二進位撤銷</li>
-<li>憑證撤銷</li>
-</ul>
-應用程式可以使用這些識別碼來要求已撤銷之二進位檔的更新版本（如果有的話）。</td>
-</tr>
-<tr class="odd">
-<td>簽名：核心區段</td>
-<td>簽署標頭和核心區段。</td>
-</tr>
-<tr class="even">
-<td>簽名：可擴充區段</td>
-<td>簽署標頭和可擴充區段。</td>
-</tr>
-</tbody>
-</table>
+
+| 區段 | 描述 | 
+|---------|-------------|
+| 標頭 | <a href="grl-header.md"><strong>GRL_HEADER</strong></a>結構。 | 
+| 核心 | 包含下列撤銷清單：<ul><li>核心二進位檔撤銷</li><li>使用者模式二進位撤銷</li><li>憑證撤銷</li><li>受信任的根 (保留) </li></ul>受信任的根目錄清單目前未使用，並保留供日後使用。 | 
+| 可擴充專案 | 包含其他元件所使用的資訊。 本節與 OPM 無關。 | 
+| 更新： | 包含定義 Windows Update 識別碼的 guid。 本節包含下列清單的識別碼：<ul><li>核心二進位檔撤銷</li><li>使用者模式二進位撤銷</li><li>憑證撤銷</li></ul>應用程式可以使用這些識別碼來要求已撤銷之二進位檔的更新版本（如果有的話）。 | 
+| 簽名：核心區段 | 簽署標頭和核心區段。 | 
+| 簽名：可擴充區段 | 簽署標頭和可擴充區段。 | 
+
 
 
 

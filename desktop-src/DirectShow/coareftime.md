@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 851495d69a1e34bd1723c20f88dc4bb86b7a8025
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 569da24d4487a1c7259c71ac0e2cda3ae7f31a88b69a74575186bdeb3b21445b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106989254"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120087268"
 ---
 # <a name="coareftime-class"></a>COARefTime 類別
 
@@ -40,11 +40,11 @@ typedef double    REFTIME;
 
 
 
-| 公用方法                                          | Description                                                           |
+| 公用方法                                          | 描述                                                           |
 |---------------------------------------------------------|-----------------------------------------------------------------------|
 | [**COARefTime**](coareftime-coareftime.md)             | 函式方法。                                                   |
 | 運算子                                               | 說明                                                           |
-| [**double**](coareftime-double.md)                     | 將參考時間轉換為 **雙精度** 值。                    |
+| [**雙**](coareftime-double.md)                     | 將參考時間轉換為 **雙精度** 值。                    |
 | [**參考 \_ 時間**](coareftime-reference-time.md)    | 將物件轉換為 **參考 \_ 時間** 值。                      |
 | [**運算子 =**](coareftime-operator-assign.md)        | 指派新的參考時間。                                         |
 | [**operator = =**](coareftime-operator-eq.md)           | 測試兩個參考時間是否相等。                       |

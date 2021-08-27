@@ -4,12 +4,12 @@ ms.assetid: 1cf0547d-54ac-410a-acbe-7b3b3ebb310b
 title: 檔案管理功能
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 67204ec15168a2caf6ccfac60a0609db580cf615
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2571e242b65e027c28e5a332a99e4843e7d9cbf462638f7be811a3c50fc54ceb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106983411"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120107518"
 ---
 # <a name="file-management-functions"></a>檔案管理功能
 
@@ -64,7 +64,7 @@ ms.locfileid: "106983411"
 | [**FindNextStreamW**](/windows/desktop/api/fileapi/nf-fileapi-findnextstreamw)<br/>                                            | 繼續先前呼叫 [**FindFirstStreamW**](/windows/desktop/api/fileapi/nf-fileapi-findfirststreamw) 函式所開始的資料流程搜尋。<br/>                                                                                                                                                                                                                                                                                                                             |
 | [**FlushFileBuffers**](/windows/desktop/api/FileAPI/nf-fileapi-flushfilebuffers)<br/>                                          | 清除指定檔案的緩衝區，並讓所有緩衝資料寫入檔案。<br/>                                                                                                                                                                                                                                                                                                                                                  |
 | [**FreeEncryptionCertificateHashList**](/windows/desktop/api/Winefs/nf-winefs-freeencryptioncertificatehashlist)<br/>        | 釋出憑證雜湊清單。<br/>                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| [**GetBinaryType**](/windows/desktop/api/WinBase/nf-winbase-getbinarytypea)<br/>                                                | 判斷檔案是否為可執行檔 ( .exe) 檔案，如果是，則哪個子系統會執行可執行檔。<br/>                                                                                                                                                                                                                                                                                                                                   |
+| [**GetBinaryType**](/windows/desktop/api/WinBase/nf-winbase-getbinarytypea)<br/>                                                | 判斷檔案是否為可執行檔 (.exe) 檔，如果是，則會執行可執行檔的子系統。<br/>                                                                                                                                                                                                                                                                                                                                   |
 | [**GetCompressedFileSize**](/windows/desktop/api/fileapi/nf-fileapi-getcompressedfilesizea)<br/>                                | 抓取用來儲存指定檔案之磁片儲存體的實際位元組數目。<br/>                                                                                                                                                                                                                                                                                                                                                           |
 | [**GetCompressedFileSizeTransacted**](/windows/desktop/api/WinBase/nf-winbase-getcompressedfilesizetransacteda)<br/>            | 抓取用來將指定檔案儲存為交易作業之磁片儲存體的實際位元組數目。<br/>                                                                                                                                                                                                                                                                                                                                 |
 | [**GetExpandedName**](/windows/desktop/api/LzExpand/nf-lzexpand-getexpandednamea)<br/>                                            | 抓取壓縮檔案的原始名稱（如果是由 Lempel-Ziv 演算法壓縮檔案）。<br/>                                                                                                                                                                                                                                                                                                                                      |

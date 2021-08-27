@@ -6,12 +6,12 @@ keywords:
 - 列舉，Direct3D 11 核心
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 67454f6137dd9305cdab16b5136a01964d638ec8b5e4d4b0b9adb2f51d0f975f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f0daf03ca2114f67935e1eb89f34b31306e31fc0
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119633658"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122623114"
 ---
 # <a name="direct3d-11-core-enumerations"></a>Direct3D 11 核心列舉
 
@@ -21,8 +21,8 @@ ms.locfileid: "119633658"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">

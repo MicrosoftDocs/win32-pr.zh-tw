@@ -20,23 +20,23 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: c96171920b7538e71e822eaf0879e476fb2fd31e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0a0c73343550768a9ccd061c702fae89d562d095
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104321144"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122477904"
 ---
 # <a name="jetinit3-function"></a>JetInit3 函式
 
 
-_**適用于：** Windows |Windows Server_
+_**適用于：** Windows |Windows伺服器_
 
 ## <a name="jetinit3-function"></a>JetInit3 函式
 
 **JetInit3** 函式會將資料庫引擎置於可支援資料庫檔案應用程式使用的狀態。 引擎必須已正確設定初始化，您可以使用 [JetSetSystemParameter](./jetsetsystemparameter-function.md) 函數完成此操作。 請注意，資料庫損毀復原會在初始化過程中自動進行。
 
-**Windows vista：**  **JetInit3** 是在 windows vista 中引進的。
+**Windows vista：****JetInit3** 是 Windows vista 引進。  
 
 ```cpp
     JET_ERR JET_API JetInit3(
@@ -60,54 +60,22 @@ _**適用于：** Windows |Windows Server_
 
 一組位，指定下表所列和定義的零或多個選項。
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>值</p></th>
-<th><p>意義</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_bitReplayReplicatedLogFiles</p></td>
-<td><p>這個值已保留供未來使用</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitCreateSFSVolumeIfNotExist</p></td>
-<td><p>這個值已保留供未來使用</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitReplayIgnoreMissingDB</p></td>
-<td><p>此值可讓使用者在一組記錄檔上執行復原，即使在某個時間點沒有附加至記錄檔的資料庫也一樣。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitRecoveryWithoutUndo</p></td>
-<td><p>此值可讓使用者執行復原，但最多隻能 (且不包括) 的復原階段。 使用這個值，可以在中複製及套用其他交易記錄。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitTruncateLogsAfterRecovery</p></td>
-<td><p>此值會在成功的軟復原期間，讓記錄檔被截斷。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitReplayMissingMapEntryDB</p></td>
-<td><p>此值會導致遺失的資料庫對應專案預設為相同的位置。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitReplayIgnoreLostLogs</p></td>
-<td><p>此值會導致復原期間遺失記錄資料流程結尾的記錄檔。</p>
-<p><strong>Windows 7： JET_bitReplayIgnoreLostLogs</strong> 是在 windows 7 中引進的。</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>值</p> | <p>意義</p> | 
+|--------------|----------------|
+| <p>JET_bitReplayReplicatedLogFiles</p> | <p>這個值已保留供未來使用</p> | 
+| <p>JET_bitCreateSFSVolumeIfNotExist</p> | <p>這個值已保留供未來使用</p> | 
+| <p>JET_bitReplayIgnoreMissingDB</p> | <p>此值可讓使用者在一組記錄檔上執行復原，即使在某個時間點沒有附加至記錄檔的資料庫也一樣。</p> | 
+| <p>JET_bitRecoveryWithoutUndo</p> | <p>此值可讓使用者執行復原，但最多隻能 (且不包括) 的復原階段。 使用這個值，可以在中複製及套用其他交易記錄。</p> | 
+| <p>JET_bitTruncateLogsAfterRecovery</p> | <p>此值會在成功的軟復原期間，讓記錄檔被截斷。</p> | 
+| <p>JET_bitReplayMissingMapEntryDB</p> | <p>此值會導致遺失的資料庫對應專案預設為相同的位置。</p> | 
+| <p>JET_bitReplayIgnoreLostLogs</p> | <p>此值會導致復原期間遺失記錄資料流程結尾的記錄檔。</p><p><strong>Windows 7： JET_bitReplayIgnoreLostLogs</strong>是 Windows 7 中引進的。</p> | 
+
 
 
 ### <a name="return-value"></a>傳回值
 
-此函數會傳回具有下列其中一個傳回碼的 [JET_ERR](./jet-err.md) 資料類型。 如需可能的可延伸儲存引擎 (ESE) 錯誤的詳細資訊，請參閱可延伸 [儲存引擎錯誤](./extensible-storage-engine-errors.md) 和 [錯誤處理參數](./error-handling-parameters.md)。
+此函數會傳回具有下列其中一個傳回碼的 [JET_ERR](./jet-err.md) 資料類型。 如需可能的可延伸儲存體引擎 (ESE) 錯誤的詳細資訊，請參閱[可擴展的儲存體引擎錯誤](./extensible-storage-engine-errors.md)和[錯誤處理參數](./error-handling-parameters.md)。
 
 
 #### <a name="remarks"></a>備註
@@ -126,43 +94,14 @@ _**適用于：** Windows |Windows Server_
 
 #### <a name="requirements"></a>規格需求
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>用戶端</p></td>
-<td><p>需要 Windows Vista。</p></td>
-</tr>
-<tr class="even">
-<td><p>伺服器</p></td>
-<td><p>需要 Windows Server 2008。</p></td>
-</tr>
-<tr class="odd">
-<td><p>標頭</p></td>
-<td><p>宣告于 Esent. h 中。</p></td>
-</tr>
-<tr class="even">
-<td><p>程式庫</p></td>
-<td><p>使用 ESENT。</p></td>
-</tr>
-<tr class="odd">
-<td><p>DLL</p></td>
-<td><p>需要 ESENT.dll。</p></td>
-</tr>
-<tr class="even">
-<td><p>Unicode</p></td>
-<td><p>實作為 <strong>JetInit3W</strong> (Unicode) 和 <strong>JetInit3A</strong> (ANSI) 。</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p>用戶端</p> | <p>需要 Windows Vista。</p> | | <p>伺服器</p> | <p>需要 Windows Server 2008。</p> | | <p>標頭</p> | <p>宣告于 Esent. h 中。</p> | | <p>程式庫</p> | <p>使用 ESENT。</p> | | <p>DLL</p> | <p>需要 ESENT.dll。</p> | | <p>Unicode</p> | <p>實作為 <strong>JetInit3W</strong> (Unicode) 和 <strong>JetInit3A</strong> (ANSI) 。</p> | 
+
 
 
 #### <a name="see-also"></a>另請參閱
 
-[可擴充儲存引擎檔案](./extensible-storage-engine-files.md)  
+[可擴充的儲存體引擎檔案](./extensible-storage-engine-files.md)  
 [JET_ERR](./jet-err.md)  
 [JET_GRBIT](./jet-grbit.md)  
 [JET_INSTANCE](./jet-instance.md)  

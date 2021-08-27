@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: aa8fd3a6b082d4bba54fdc3d43848d6a6cbe5ff6deacb4e041dba5cb4c0e3b09
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 9e4db4db1940da3f8df26eb0151344eef99e0de2
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119931458"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122623104"
 ---
 # <a name="contextmap-element"></a>CoNtextMap 元素
 
@@ -39,10 +39,10 @@ ms.locfileid: "119931458"
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col  />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -56,21 +56,21 @@ ms.locfileid: "119931458"
 <tr class="odd">
 <td><strong>CommandName</strong><br/></td>
 <td>xs： positiveInteger 或 xs： string<br/></td>
-<td>No<br/></td>
+<td>否<br/></td>
 <td>將元素與 <a href="windowsribbon-element-command.md"><strong>命令</strong></a>產生關聯。<br/> <br/>
 <dt><span></span><span></span><strong></strong> (xs： positiveInteger 或 xs： string) <br/> </dt> <dd> 字串、介於2與59999（含）之間的整數值，或介於0x2 與0xea5f （含）之間的十六進位值。 <br/> 值在功能區 XML 檔中必須是唯一的。 <br/> 最大長度：100個字元。 <br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><strong>ContextMenu</strong><br/></td>
 <td>xs:string<br/></td>
-<td>No<br/></td>
+<td>否<br/></td>
 <td>必須對應至現有的 <a href="windowsribbon-element-contextmenu.md"><strong>CoNtextMenu</strong></a> <em>名稱</em>。<br/> <br/>
 <dt><span></span><span></span><strong></strong> (xs： string) <br/> </dt> <dd> 由任何字元序列組成的字串，包括空白字元和分行符號字元。<br/> </dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><strong>浮動工具列</strong><br/></td>
 <td>xs:string<br/></td>
-<td>No<br/></td>
+<td>否<br/></td>
 <td>必須對應至現有的<a href="windowsribbon-element-minitoolbar.md"><strong>浮動工具列</strong></a><em>名稱</em>。<br/> <br/>
 <dt><span></span><span></span><strong></strong> (xs： string) <br/> </dt> <dd> 由任何字元序列組成的字串，包括空白字元和分行符號字元。<br/> </dd> </dl></td>
 </tr>

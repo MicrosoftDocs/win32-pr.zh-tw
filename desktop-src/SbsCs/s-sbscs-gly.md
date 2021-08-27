@@ -5,12 +5,12 @@ ms.assetid: 5591218A-3212-46D0-A40F-C0788B459545
 title: " (隔離應用程式和並存元件) "
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9727db4c2db522b0bbb88eccf89481a61a75d8ed
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 10cc3f4efb5d43ab61de2b057f7501bed1c3fe7a79126a18f101e03ab9e21086
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103694668"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120127438"
 ---
 # <a name="s-isolated-applications-and-side-by-side-assemblies"></a> (隔離應用程式和並存元件) 
 

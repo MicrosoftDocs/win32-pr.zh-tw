@@ -3,18 +3,18 @@ title: 相互排除類型
 description: 相互排除類型
 ms.assetid: bfe6cfe6-3df4-49c4-8015-fe4479b693c1
 keywords:
-- Windows Media Format SDK，相互排除
+- Windows媒體格式 SDK，相互排除
 - Advanced Systems Format (ASF) ，相互排除
 - ASF (Advanced Systems Format) ，相互排除
 - 相互排除，類型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c425e69c2aa3eac012874837a6970dbc26d1a51
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: da546c753696144c68348c61d01473c7d6414290b5971c220ac8c983317b3b15
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104023002"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120110268"
 ---
 # <a name="mutual-exclusion-types"></a>相互排除類型
 
@@ -33,7 +33,7 @@ ms.locfileid: "104023002"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -42,9 +42,9 @@ ms.locfileid: "104023002"
 [**GUID 值**](guid-values.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

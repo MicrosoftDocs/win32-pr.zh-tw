@@ -4,12 +4,12 @@ description: 持續性介面
 ms.assetid: a93582b3-bdbf-430d-b4a6-c0df7bc35dc0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c2e1acbd1074fd5fa4e87e571a1e21ab48d5d075
-ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
+ms.openlocfilehash: d4894ccb1cc5d17747739e78918da9a5b48e2cca13a9f36078d752fceeaef011
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "110550503"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120120418"
 ---
 # <a name="persistence-interfaces"></a>持續性介面
 
@@ -34,7 +34,7 @@ ms.locfileid: "110550503"
 
  
 
-雖然 [**IPersistPropertyBag**](/windows/win32/api/ocidl/nn-ocidl-ipersistpropertybag) 的支援是選擇性的，但強烈建議使用「儲存為文字」功能的容器做為優化，例如 Visual Basic。
+雖然 [**IPersistPropertyBag**](/windows/win32/api/ocidl/nn-ocidl-ipersistpropertybag)的支援是選擇性的，但強烈建議使用「儲存為文字」功能的容器做為優化，例如 Visual Basic。
 
 除了 [**IPersistStream：： GetSizeMax**](/windows/desktop/api/ObjIdl/nf-objidl-ipersiststream-getsizemax)、 [**IPersistStreamInit：： GetSizeMax**](/windows/desktop/api/OCIdl/nf-ocidl-ipersiststreaminit-getsizemax)和 [**IPersistMemory：： GetSizeMax**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768208(v=vs.85))之外，每個介面的所有方法都必須完全實作為。
 

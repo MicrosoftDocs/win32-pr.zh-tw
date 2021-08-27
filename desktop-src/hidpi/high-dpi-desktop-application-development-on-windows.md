@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: c6389553ce2265752e3552fdaaf848e3ac70eede8df3b4fd9e560861bf15f33d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 01958791dccd7c836babedbe726233797eddb646
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119036248"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122471324"
 ---
 # <a name="high-dpi-desktop-application-development-on-windows"></a>Windows 上的高 DPI 桌面應用程式開發
 
@@ -69,61 +69,14 @@ DPI 感知應用程式會以固定的 DPI 值 96 (100% ) 轉譯。 當這些應�
 
 下表顯示應用程式如何在不同的情況下呈現：
 
-<table>
-<colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>DPI 感知模式</th>
-<th>Windows引進的版本</th>
-<th>應用程式的 DPI 視圖</th>
-<th>DPI 變更的行為</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>知道</td>
-<td>N/A</td>
-<td>所有顯示器都是 96 DPI</td>
-<td>點陣圖延展 (模糊) </td>
-</tr>
-<tr class="even">
-<td>系統</td>
-<td>Vista</td>
-<td>所有顯示器都有相同的 DPI (在目前的使用者會話開始時主顯示器的 DPI) </td>
-<td>點陣圖延展 (模糊) </td>
-</tr>
-<tr class="odd">
-<td>Per-Monitor</td>
-<td>8.1</td>
-<td>應用程式視窗主要所在的顯示器 DPI</td>
-<td><ul>
-<li>最上層 HWND 會收到 DPI 變更的通知</li>
-<li>沒有任何 UI 元素的 DPI 縮放比例。</li>
-</ul>
-<br/></td>
-</tr>
-<tr class="even">
-<td>Per-Monitor V2</td>
-<td>Windows 10 Creators Update (1703) </td>
-<td>應用程式視窗主要所在的顯示器 DPI</td>
-<td><ul>
-<li>最上層 <span class="underline">和</span> 子系 hwnd 會收到 DPI 變更的通知</li>
-</ul>
-<br/> <span class="underline">自動調整 DPI 規模：</span>
-<ul>
-<li>非工作區</li>
-<li>主題- (comctl32.dll V6) 的通用控制項中繪製的點陣圖</li>
-<li>對話方塊 (<a href="/windows/desktop/api/winuser/nf-winuser-createdialogw">CreateDialog</a>) </li>
-</ul>
-<br/></td>
-</tr>
-</tbody>
-</table>
+
+| DPI 感知模式 | Windows引進的版本 | 應用程式的 DPI 視圖 | DPI 變更的行為 | 
+|--------------------|----------------------------|---------------------------|------------------------|
+| 知道 | N/A | 所有顯示器都是 96 DPI | 點陣圖延展 (模糊)  | 
+| 系統 | Vista | 所有顯示器都有相同的 DPI (在目前的使用者會話開始時主顯示器的 DPI)  | 點陣圖延展 (模糊)  | 
+| Per-Monitor | 8.1 | 應用程式視窗主要所在的顯示器 DPI | <ul><li>最上層 HWND 會收到 DPI 變更的通知</li><li>沒有任何 UI 元素的 DPI 縮放比例。</li></ul><br /> | 
+| Per-Monitor V2 | Windows 10 Creators Update (1703)  | 應用程式視窗主要所在的顯示器 DPI | <ul><li>最上層 <span class="underline">和</span> 子系 hwnd 會收到 DPI 變更的通知</li></ul><br /><span class="underline">自動調整 DPI 規模：</span><ul><li>非工作區</li><li>主題- (comctl32.dll V6) 的通用控制項中繪製的點陣圖</li><li>對話方塊 (<a href="/windows/desktop/api/winuser/nf-winuser-createdialogw">CreateDialog</a>) </li></ul><br /> | 
+
 
 ### <a name="per-monitor-v1-dpi-awareness"></a>每台監視器 (V1) DPI 感知
 
@@ -141,79 +94,17 @@ Per-Monitor V1 DPI 感知模式 (PMv1) 是 Windows 8.1 引進的。 此 DPI 感�
 
 下表顯示從 Windows 10 1703 的各種 Windows UI 架構所提供的每個監視器 DPI 感知支援層級：
 
-<table>
-<colgroup>
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>架構/技術</th>
-<th>支援</th>
-<th>作業系統版本</th>
-<th>處理的 DPI 縮放比例</th>
-<th>深入閱讀</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>通用 Windows 平台 (UWP)</td>
-<td>完整</td>
-<td>1607</td>
-<td>UI 架構</td>
-<td><a href="/windows/uwp/get-started/whats-a-uwp">通用 Windows 平台 (UWP)</a></td>
-</tr>
-<tr class="even">
-<td>原始 Win32/通用控制項 V6 (comctl32.dll) </td>
-<td><ul>
-<li>傳送至所有 Hwnd 的 DPI 變更通知訊息</li>
-<li>主題-繪製的資產會在通用控制項中正確呈現</li>
-<li>自動調整對話方塊的 DPI</li>
-</ul></td>
-<td>1703</td>
-<td>應用程式</td>
-<td><a href="https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/DPIAwarenessPerWindow">GitHub樣品</a></td>
-</tr>
-<tr class="odd">
-<td>Windows Forms</td>
-<td>某些控制項的每個監視器的自動 DPI 縮放比例有限</td>
-<td>1703</td>
-<td>UI 架構</td>
-<td><a href="/dotnet/framework/winforms/high-dpi-support-in-windows-forms">Windows Forms 中的高 DPI 支援</a></td>
-</tr>
-<tr class="even">
-<td>Windows Presentation Framework (WPF)</td>
-<td>原生 WPF 應用程式將會以 DPI 比例調整裝載于其他架構中的 WPF，而 WPF 中裝載的其他架構則不會自動調整</td>
-<td>1607</td>
-<td>UI 架構</td>
-<td><a href="https://github.com/Microsoft/WPF-Samples/tree/master/PerMonitorDPI">GitHub樣品</a></td>
-</tr>
-<tr class="odd">
-<td>GDI</td>
-<td>無</td>
-<td>N/A</td>
-<td>應用程式</td>
-<td>查看 <a href="https://blogs.windows.com/buildingapps/2017/05/19/improving-high-dpi-experience-gdi-based-desktop-apps/">GDI 高 DPI 縮放比例</a></td>
-</tr>
-<tr class="even">
-<td>GDI+</td>
-<td>無</td>
-<td>N/A</td>
-<td>應用程式</td>
-<td>查看 <a href="https://blogs.windows.com/buildingapps/2017/05/19/improving-high-dpi-experience-gdi-based-desktop-apps/">GDI 高 DPI 縮放比例</a></td>
-</tr>
-<tr class="odd">
-<td>MFC</td>
-<td>無</td>
-<td>N/A</td>
-<td>應用程式</td>
-<td>N/A</td>
-</tr>
-</tbody>
-</table>
+
+| 架構/技術 | 支援 | 作業系統版本 | 處理的 DPI 縮放比例 | 深入閱讀 | 
+|------------------------|---------|------------|------------------------|-----------------|
+| 通用 Windows 平台 (UWP) | 完整 | 1607 | UI 架構 | <a href="/windows/uwp/get-started/whats-a-uwp">通用 Windows 平台 (UWP)</a> | 
+| 原始 Win32/通用控制項 V6 (comctl32.dll)  | <ul><li>傳送至所有 Hwnd 的 DPI 變更通知訊息</li><li>主題-繪製的資產會在通用控制項中正確呈現</li><li>自動調整對話方塊的 DPI</li></ul> | 1703 | 應用程式 | <a href="https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/DPIAwarenessPerWindow">GitHub樣品</a> | 
+| Windows Forms | 某些控制項的每個監視器的自動 DPI 縮放比例有限 | 1703 | UI 架構 | <a href="/dotnet/framework/winforms/high-dpi-support-in-windows-forms">Windows Forms 中的高 DPI 支援</a> | 
+| Windows Presentation Framework (WPF) | 原生 WPF 應用程式將會以 DPI 比例調整裝載于其他架構中的 WPF，而 WPF 中裝載的其他架構則不會自動調整 | 1607 | UI 架構 | <a href="https://github.com/Microsoft/WPF-Samples/tree/master/PerMonitorDPI">GitHub樣品</a> | 
+| GDI | 無 | N/A | 應用程式 | 查看 <a href="https://blogs.windows.com/buildingapps/2017/05/19/improving-high-dpi-experience-gdi-based-desktop-apps/">GDI 高 DPI 縮放比例</a> | 
+| GDI+ | 無 | N/A | 應用程式 | 查看 <a href="https://blogs.windows.com/buildingapps/2017/05/19/improving-high-dpi-experience-gdi-based-desktop-apps/">GDI 高 DPI 縮放比例</a> | 
+| MFC | 無 | N/A | 應用程式 | N/A | 
+
 
 
 

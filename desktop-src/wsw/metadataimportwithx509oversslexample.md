@@ -8,12 +8,12 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3ff6ca4c24b05a3c5757d1d82788e7acc8175e9b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d7b342b3de02a4cbe098276fc20776bb7ed15baa2cb5c1684a1a6c7e8d30cfb0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103672163"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120109868"
 ---
 # <a name="metadataimportwithx509oversslexample"></a>MetadataImportWithX509OverSslExample
 
@@ -593,9 +593,9 @@ Exit:
 [**WS \_ SSL \_ 傳輸 \_ 安全性 \_ 系結**](/windows/desktop/api/WebServices/ns-webservices-ws_ssl_transport_security_binding)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

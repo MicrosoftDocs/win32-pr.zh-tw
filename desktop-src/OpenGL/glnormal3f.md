@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 72e83b874b1588ad8bd91da9e5c9f831062de9cc
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 2de6edaab0f83c9b05a561eb8f857086fea76f41a84a4869d5d9f99149482df1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106982840"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120128148"
 ---
 # <a name="glnormal3f-function"></a>glNormal3f 函式
 

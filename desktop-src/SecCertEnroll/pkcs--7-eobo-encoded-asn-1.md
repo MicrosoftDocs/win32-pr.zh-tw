@@ -4,12 +4,12 @@ ms.assetid: b6945071-8019-40bb-9f71-13ae3bd57948
 title: PKCS \# 7 EOBO 編碼的 ASN. 1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 165c0ac9f1924a8cde0298ae1d21c3d8cd330cda
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b95d2d8901b1ca1eff5a7e88fa776dab1815627d970bb83a8d1e231fe5ab010a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975244"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120127202"
 ---
 # <a name="pkcs-7-eobo-encoded-asn1"></a>PKCS \# 7 EOBO 編碼的 ASN. 1
 

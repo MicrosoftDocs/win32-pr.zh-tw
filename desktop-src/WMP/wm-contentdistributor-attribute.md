@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 420e3e05a68f89d8e37b8ef95dd1247802442700
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ba79ab07b8579961db70038ef80f79da974ba5dff6d3ac88781be5d4f046f088
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995270"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120122707"
 ---
 # <a name="wmcontentdistributor-attribute"></a>WM/ContentDistributor 屬性
 
@@ -26,7 +26,7 @@ ms.locfileid: "106995270"
 ## <a name="applies-to"></a>套用至
 
 -   [音訊專案](audio-item-attributes.md)
--   [常用的 Windows Media 檔案屬性](commonly-used-windows-media-file-attributes.md)
+-   [常用 Windows 媒體檔案屬性](commonly-used-windows-media-file-attributes.md)
 -   [播放清單](playlist-attributes-ref.md)
 -   [影片專案](video-item-attributes.md)
 
@@ -36,7 +36,7 @@ ms.locfileid: "106995270"
 
 **ContentDistributor** 是此屬性的別名。
 
-這個屬性的 Windows Media Format SDK 常數是 g \_ wszWMContentDistributor。
+這個屬性的 Windows 媒體格式 SDK 常數是 g \_ wszWMContentDistributor。
 
 若要判斷是否可以變更這個屬性的值，請使用 [isReadOnlyItem](media-isreadonlyitem.md) 方法。
 

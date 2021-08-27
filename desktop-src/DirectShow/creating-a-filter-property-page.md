@@ -4,16 +4,16 @@ ms.assetid: 028e2c4e-0241-4057-8514-d3e9b456ab6e
 title: 建立篩選屬性頁
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6cc19bf918ba47c53a04e34f5e5292bfdc716eca
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: a46d891c42a6cdb2f1c636278a8270fb13a69580697a31fe78f2f3687246f20b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106976998"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120108258"
 ---
 # <a name="creating-a-filter-property-page"></a>建立篩選屬性頁
 
-本節說明如何使用 [**CBasePropertyPage**](cbasepropertypage.md) 類別，建立自訂 DirectShow 篩選的屬性頁。 本節中的範例程式碼會顯示建立屬性頁所需的所有步驟。 此範例會顯示可支援飽和度屬性之假設性影片效果篩選的屬性頁。 屬性頁有一個滑杆，可讓使用者移動以調整篩選的飽和度層級。
+本節說明如何使用 [**CBasePropertyPage**](cbasepropertypage.md)類別，建立自訂 DirectShow 篩選的屬性頁。 本節中的範例程式碼會顯示建立屬性頁所需的所有步驟。 此範例會顯示可支援飽和度屬性之假設性影片效果篩選的屬性頁。 屬性頁有一個滑杆，可讓使用者移動以調整篩選的飽和度層級。
 
 本節包含下列主題：
 
@@ -32,7 +32,7 @@ ms.locfileid: "106976998"
 
 <dl> <dt>
 
-[撰寫 DirectShow 篩選器](writing-directshow-filters.md)
+[撰寫 DirectShow 篩選](writing-directshow-filters.md)
 </dt> </dl>
 
  

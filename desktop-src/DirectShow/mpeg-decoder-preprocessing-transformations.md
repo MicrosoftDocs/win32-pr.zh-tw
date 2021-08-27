@@ -4,12 +4,12 @@ ms.assetid: c7ae0137-0d02-46da-9532-738d805e327d
 title: MPEG 解碼器前置處理轉換
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 82d7bcf8eeda8062606ce0046a55e34d3c2d90fe
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: d0c05ecf25bedb2a90af239715a3becb9a0adc198ed315d2b2c4deea4b380711
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107908896"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120075808"
 ---
 # <a name="mpeg-decoder-preprocessing-transformations"></a>MPEG 解碼器前置處理轉換
 

@@ -6,12 +6,12 @@ keywords:
 - 網域名稱系統、參考、WMI 提供者
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 07c61b1808d7f020cb7c943dd4b53e7e3451bd91
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a213f640f40f0d2ca2e06440d690351a7d4f162a6670106aa4a5e4c414fbd09e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106968221"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120109158"
 ---
 # <a name="dns-wmi-provider-reference"></a>DNS WMI 提供者參考
 
@@ -25,11 +25,11 @@ DNS WMI 提供者是在 Dnsprov 中定義，其中包含在 Windows Server CD �
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

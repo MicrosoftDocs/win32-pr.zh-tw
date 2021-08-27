@@ -17,12 +17,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 132351f17b6f242e39d6e6d6680aa756d5f7b5f8
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c22ecbb67499462825e1353d3d8bb8c3b08cedd93c79b1467f40f7c79ebf1f2b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104094279"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120084928"
 ---
 # <a name="mdm_passportforwork_biometrics01-class"></a>MDM \_ PassportForWork \_ Biometrics01 類別
 
@@ -117,7 +117,7 @@ class MDM_PassportForWork_Biometrics01
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 10 桌面應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | Windows 10 \[僅限桌面應用程式\]<br/>                                                    |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                      |
 | 命名空間<br/>                | 根 \\ cimv2 \\ mdm \\ dmmap<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv mof</dt> </dl> |

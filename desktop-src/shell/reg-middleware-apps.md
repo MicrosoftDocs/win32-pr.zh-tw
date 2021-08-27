@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 71dd4e3192dc75821fd0a3e8c0d4742e1a8d571a
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: c9c2d9a4589b684580250c487a6f83c3c9e79dbc
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "103853511"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122470416"
 ---
 # <a name="registering-programs-with-client-types"></a>使用用戶端類型註冊程式
 
@@ -25,12 +25,12 @@ ms.locfileid: "103853511"
 > 
 > -   Windows 2000 Service Pack 3 (SP3) 
 > -   Windows 2000 Service Pack 4 (SP4) 
-> -   Windows XP Service Pack 1 (SP1) 
-> -   Windows XP Service Pack 2 (SP2) 
-> -   Windows XP Service Pack 3 (SP3) 
+> -   WindowsXP Service Pack 1 (SP1) 
+> -   WindowsXP Service Pack 2 (SP2) 
+> -   WindowsXP Service Pack 3 (SP3) 
 > -   Windows Server 2003
 > -   Windows Vista
-> -   Windows Vista Service Pack 1 (SP1) 
+> -   WindowsVista Service Pack 1 (SP1) 
 > -   Windows 8
 
  
@@ -103,9 +103,9 @@ HKEY_LOCAL_MACHINE
 以下是標準名稱的一些範例。
 
 -   Iexplore.exe (瀏覽器) 
--   Windows Mail (電子郵件) 
+-   Windows郵件 (電子郵件) 
 -   Windows Media Player (媒體) 
--   Windows Messenger (立即訊息) 
+-   WindowsMessenger (立即訊息) 
 
 建立子機碼以註冊正式名稱，如下所示。 子機碼的名稱是標準名稱。 與該程式註冊相關的所有資訊都會存在於此子機碼底下。
 
@@ -122,7 +122,7 @@ HKEY_LOCAL_MACHINE
 註冊的下一步是指定程式的顯示名稱。 它會以標準名稱索引鍵的形式提供值，如下所示。 請再次注意， *CanonicalName* 和 *ClientTypeName* 不是索引鍵的實際名稱，而是只有真正名稱的預留位置，例如 *亮視圖*。
 
 > [!Note]  
-> 從 Windows 8，用來註冊 [設定程式存取和電腦預設值的名稱 (SPAD) ](cpl-setprogramaccess.md) 和 [預設程式](default-programs.md) 應該相符，才能讓 SPAD 變更觸發預設程式註冊。
+> 從 Windows 8，用來註冊[設定程式存取和電腦預設值的名稱 (SPAD) ](cpl-setprogramaccess.md)和[預設程式](default-programs.md)應該相符，才能讓 SPAD 變更觸發預設程式註冊。
 
  
 
@@ -135,7 +135,7 @@ HKEY_LOCAL_MACHINE
                LocalizedString = @FilePath,-StringID
 ```
 
-**>localizedstring** 值是 REG \_ SZ 字串，其中包含 "at" 符號 ( @ ) 、.dll 或 .exe 檔案的完整路徑、逗號、減號和十進位整數。 十進位整數是字串資源的識別碼（包含在 .dll 或 .exe 檔案中），其值會以此用戶端的名稱顯示給使用者。 請注意，即使檔案路徑包含空格，也不需要加上引號。
+**>Localizedstring** 值是 REG \_ SZ 字串，其中包含 "at" 符號 ( @ ) 、.dll 或 .exe 檔案的完整路徑、逗號、減號和十進位整數。 十進位整數是字串資源的識別碼（包含在 .dll 或 .exe 檔案中），其值會以此用戶端的名稱顯示給使用者。 請注意，即使檔案路徑包含空格，也不需要加上引號。
 
 以這種方式註冊顯示名稱字串，可讓相同的註冊用於多種語言。 每個語言安裝都會提供不同的資源檔，並以相同的資源識別碼儲存顯示名稱。
 
@@ -156,13 +156,13 @@ HKEY_LOCAL_MACHINE
 ### <a name="registering-a-programs-icon"></a>註冊程式的圖示
 
 > [!Note]  
-> 本節不適用 Windows 2000。
+> 本節不適用於 Windows 2000。
 
  
 
-依預設，Windows XP 和 Windows Vista [ **開始** ] 功能表的上方區段包含 [ **網際網路** ] 和 [ **電子郵件** ] 圖示。 這些圖示不會出現在 Windows 7 和更新版本中。 針對瀏覽器和電子郵件客戶程式，將程式指派為其用戶端類型的預設值時，會針對這些 [ **開始** ] 功能表項目顯示該程式的註冊圖示。
+依預設，Windows XP 和 Windows Vista [**開始**] 功能表的上方區段包含 **網際網路** 和 **電子郵件** 圖示。 Windows 7 和更新版本中不會有這些圖示。 針對瀏覽器和電子郵件客戶程式，將程式指派為其用戶端類型的預設值時，會針對這些 [ **開始** ] 功能表項目顯示該程式的註冊圖示。
 
-瀏覽器和電子郵件客戶程式都必須註冊程式的圖示。 註冊媒體播放、即時消息或適用于 JAVA 用戶端類型的虛擬機器的圖示是選擇性的，而這些用戶端類型的註冊圖示目前不是由 Windows 使用，且不會顯示在 Windows XP 或 Windows Vista [ **開始** ] 功能表的上方區段中。
+瀏覽器和電子郵件客戶程式都必須註冊程式的圖示。 註冊適用于 JAVA 用戶端類型的媒體播放、立即訊息或虛擬機器的圖示是選擇性的，而這些用戶端類型的註冊圖示目前未由 Windows 使用，且不會顯示在 Windows XP 或 Windows Vista [**開始**] 功能表的上半部區段中。
 
 若要註冊用戶端程式的圖示，請新增具有預設值的 **DefaultIcon** 子機碼，如下所示。
 
@@ -178,7 +178,7 @@ HKEY_LOCAL_MACHINE
 
 **FilePath** 值是包含圖示之檔案的完整路徑。 即使此路徑包含空格，也不需要引號。
 
-**>iconindex** 值的解釋如下：
+**>Iconindex** 值的解釋如下：
 
 -   如果 **>iconindex** 是正數，則會使用數位作為儲存在檔案中之以 *零為基* 底之圖示陣列的索引。 例如，如果 **>iconindex** 是1，則會從檔案載入第二個圖示。
 -   如果 **>iconindex** 為負數，則會使用 **>iconindex** 的絕對值作為資源識別碼 (而不是圖示的索引) 。 例如，如果 **>iconindex** 為-3，則會從檔案載入其資源識別碼為3的圖示。
@@ -198,11 +198,11 @@ HKEY_LOCAL_MACHINE
 ### <a name="registering-an-open-verb"></a>註冊開啟的動詞
 
 > [!Note]  
-> 本節不適用 Windows 2000。 下列步驟僅適用于瀏覽器和電子郵件客戶程式。
+> 本節不適用於 Windows 2000。 下列步驟僅適用于瀏覽器和電子郵件客戶程式。
 
  
 
-假設使用者已選取您的程式做為預設網際網路或電子郵件程式。 該使用者按一下 Windows XP 或 Windows Vista [**開始**] 功能表中的 [**網際網路**] 或 [**電子郵件**] 圖示，以開啟程式。 此時會執行已註冊的命令列，如下所示。
+假設使用者已選取您的程式做為預設網際網路或電子郵件程式。 該使用者在 Windows XP 或 Windows Vista [**開始**] 功能表中按一下 [**網際網路**] 或 [**電子郵件**] 圖示，以開啟程式。 此時會執行已註冊的命令列，如下所示。
 
 ```
 HKEY_LOCAL_MACHINE
@@ -237,7 +237,7 @@ HKEY_LOCAL_MACHINE
 ### <a name="registering-installation-information"></a>註冊安裝資訊
 
 > [!Note]  
-> 本節不適用 Windows Server 2003。
+> 本節不適用於 Windows Server 2003。
 
  
 
@@ -247,57 +247,18 @@ HKEY_LOCAL_MACHINE
 -   [組程式設定](#group-program-configuration)
 -   [瀏覽器註冊範例](#browser-registration-example)
 
-使用者選取個別電腦預設程式的功能，如下表所示進行命名和存取。  (Windows Vista 引進了一項新功能，就是 **設定您的預設程式，讓** 使用者可以設定依使用者的預設值。 ) 
+使用者選取個別電腦預設程式的功能，如下表所示進行命名和存取。  (Windows Vista 引進了一項新功能，請 **設定您的預設程式，讓** 使用者可以設定每位使用者的預設值。 ) 
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>作業系統</th>
-<th>標題</th>
-<th>存取位置</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Windows 7</td>
-<td>設定程式存取和電腦預設值</td>
-<td><ul>
-<li><strong>開始</strong> 功能表 <strong>預設程式</strong> 選項</li>
-<li><strong>預設程式</strong> 主控台專案</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>Windows Vista</td>
-<td>設定程式存取和電腦預設值</td>
-<td><ul>
-<li><strong>開始</strong> 功能表 <strong>預設程式</strong> 選項</li>
-<li><strong>預設程式</strong> 主控台專案</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>Windows XP SP2</td>
-<td>設定程式存取和預設值</td>
-<td><ul>
-<li><strong>開始</strong> 功能表</li>
-<li><strong>新增或移除程式</strong> 主控台專案</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>Windows XP SP1</td>
-<td>設定程式</td>
-<td><ul>
-<li><strong>新增或移除程式</strong> 主控台專案</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| 作業系統 | 標題 | 存取位置 | 
+|------------------|-------|-----------------|
+| Windows 7 | 設定程式存取和電腦預設值 | <ul><li><strong>開始</strong> 功能表 <strong>預設程式</strong> 選項</li><li><strong>預設程式</strong> 主控台專案</li></ul> | 
+| Windows Vista | 設定程式存取和電腦預設值 | <ul><li><strong>開始</strong> 功能表 <strong>預設程式</strong> 選項</li><li><strong>預設程式</strong> 主控台專案</li></ul> | 
+| Windows XP SP2 | 設定程式存取和預設值 | <ul><li><strong>開始</strong> 功能表</li><li><strong>新增或移除程式</strong> 主控台專案</li></ul> | 
+| Windows XP SP1 | 設定程式 | <ul><li><strong>新增或移除程式</strong> 主控台專案</li></ul> | 
+
 
 
 
@@ -306,7 +267,7 @@ HKEY_LOCAL_MACHINE
 為了簡單起見，本主題使用功能的 Windows 7 標題。 所有版本的功能也就一般稱為 SPAD。
 
 > [!Note]  
-> 如果您執行的是 Windows 2000 或 Windows XP，則必須至少安裝 Windows 2000 SP3 或 Windows XP SP1，才能看到 [ **設定程式存取和預設值** ] 頁面。 在 Windows Vista 和更新版本中，存取 [ **設定程式存取和電腦預設值** ] 頁面需要系統管理員許可權。 基於這個理由，我們鼓勵開發人員註冊您的 [預設程式](default-programs.md) 主控台專案，讓任何使用者都能管理應用程式預設值。
+> 如果您正在執行 Windows 2000 或 Windows xp，則必須至少安裝 Windows 2000 SP3 或 Windows XP SP1，才能看到 [**設定程式存取和預設值**] 頁面。 在 Windows Vista 和更新版本中，存取 [**設定程式存取和電腦預設值**] 頁面需要系統管理員許可權。 基於這個理由，我們鼓勵開發人員註冊您的 [預設程式](default-programs.md) 主控台專案，讓任何使用者都能管理應用程式預設值。
 
  
 
@@ -329,7 +290,7 @@ HKEY_LOCAL_MACHINE
 
 ### <a name="the-reinstall-command"></a>重新安裝命令
 
-當使用者使用 [ **設定程式存取和電腦預設值** ] 頁面來選取您的程式做為其用戶端類型的預設值時，會執行 ReinstallCommand 值中宣告的重新安裝命令列。 在 Windows Vista 和更新版本中，存取此頁面需要系統管理員許可權層級。 在 Windows 8 中，如果您已針對 [ **設定程式存取] 和 [電腦預設值** ] 和 [ **預設程式**] 使用相同的名稱來註冊應用程式，則會對目前的使用者套用該應用程式的 **預設程式** 中指定的預設值，以及執行重新安裝命令。
+當使用者使用 [ **設定程式存取和電腦預設值** ] 頁面來選取您的程式做為其用戶端類型的預設值時，會執行 ReinstallCommand 值中宣告的重新安裝命令列。 在 Windows Vista 和更新版本中，存取此頁面需要系統管理員許可權層級。 在 Windows 8 中，如果您已針對 [**設定程式存取] 和 [電腦預設值**] 和 [**預設程式**] 使用相同的名稱來註冊應用程式，則會對目前的使用者套用該應用程式的 **預設程式** 中指定的預設值，以及執行重新安裝命令。
 
 重新安裝命令列所啟動的程式必須將應用程式與應用程式可處理[的一組完整檔案和](fa-intro.md)[通訊協定](/previous-versions//aa767743(v=vs.85))類型產生關聯。 所有應用程式都必須在重新安裝命令中建立處理常式功能。 應用程式可以使用重新安裝命令來註冊功能，並選擇性地建立預設狀態。 當應用程式選擇在重新安裝命令中同時執行功能和預設處理常式狀態時，它也應該恢復任何所需的可見連結或快捷方式。 大部分應用程式選擇的可見進入點會列在 [隱藏圖示命令](#the-hide-icons-command)中。
 
@@ -341,7 +302,7 @@ HKEY_LOCAL_MACHINE
 重新安裝程式完成後，重新安裝命令列所啟動的程式應該會結束。 它不應該啟動對應的程式;它應該只會註冊預設值。 例如，瀏覽器的重新安裝命令不應開啟使用者的首頁。
 
 > [!Note]  
-> 針對 Windows XP 和 Windows Vista 中的瀏覽器和電子郵件客戶程式，在重新安裝命令中選擇建立處理功能和預設狀態的應用程式，應該在 [開始] 功能表的頂端註冊對應的圖示。 如需其他資訊，請參閱 [開始功能表註冊](#start-menu-registration) 。
+> 針對 Windows XP 和 Windows Vista 中的瀏覽器和電子郵件客戶程式，在重新安裝命令中選擇建立處理功能和預設狀態的應用程式，應該在 [開始] 功能表頂端註冊對應的圖示。 如需其他資訊，請參閱 [開始功能表註冊](#start-menu-registration) 。
 
  
 
@@ -390,11 +351,11 @@ IconsVisible 專案的類型為 **REG \_ DWORD**。
     ![關於隱藏程式存取權的對話方塊](images/hideaccessvista.png)
 
 -   當使用者選取 **[確定]** 時，主控台專案的 [ **程式和功能** ] 隨即啟動，讓使用者可以卸載應用程式。
--   Windows XP 使用者應該會看到這個對話方塊。
+-   WindowsXP 使用者應該會看到此對話方塊。
 
     ![對等的 windows xp 對話方塊](images/hideaccessxp.png)
 
--   當 Windows XP 使用者選取 **[確定]** 時，會啟動 [ **新增或移除程式** ] 主控台專案，讓使用者可以卸載應用程式。
+-   當 Windows XP 使用者選取 **[確定]** 時，會啟動 [**新增或移除程式**] 主控台專案，讓使用者可以卸載應用程式。
 
 下列程式碼會為隱藏存取功能提供可重複使用的執行方式，如上面所述。 它可用於 Windows XP、Windows Vista 和 Windows 7。
 
@@ -490,7 +451,7 @@ HKEY_LOCAL_MACHINE
 ### <a name="group-program-configuration"></a>組程式設定
 
 > [!Note]  
-> 本節不適用 Windows 2000。
+> 本節不適用於 Windows 2000。
 
  
 
@@ -515,8 +476,8 @@ HKEY_LOCAL_MACHINE
 
 除了將電腦重設為 OEM 所建立之預設設定的選項之外，使用者還有其他三個設定選項：
 
--   將其電腦設定為 Microsoft Windows 設定。 在此情況下，[ **設定程式存取和電腦預設值** ] 頁面可讓您存取在相關產品類別中註冊之電腦上的所有 microsoft 和非 microsoft 軟體。 系統會選取 Microsoft Windows 程式做為每個類別的預設選項。
--   將其電腦設定為非 Microsoft 設定。 此設定會隱藏存取點 (例如 [ **開始** ] 功能表) 至 windows Internet Explorer、Windows Media Player、windows Messenger 和 Microsoft Outlook Express。 它可讓您存取電腦上的非 Microsoft 軟體。 此外，如果類別中有非 Microsoft 程式，則會設定為該類別的預設值。 如果類別中有一個以上的非 Microsoft 程式，系統會要求使用者選擇應使用哪一個非 Microsoft 程式做為預設。
+-   將電腦設定為 Microsoft Windows 設定。 在此情況下，[ **設定程式存取和電腦預設值** ] 頁面可讓您存取在相關產品類別中註冊之電腦上的所有 microsoft 和非 microsoft 軟體。 系統會將 Microsoft Windows 程式選取為每個類別的預設選項。
+-   將其電腦設定為非 Microsoft 設定。 此設定會隱藏存取點 (例如 [**開始**] 功能表) ，以 Windows Internet Explorer、Windows Media Player、Windows Messenger 和 Microsoft Outlook Express。 它可讓您存取電腦上的非 Microsoft 軟體。 此外，如果類別中有非 Microsoft 程式，則會設定為該類別的預設值。 如果類別中有一個以上的非 Microsoft 程式，系統會要求使用者選擇應使用哪一個非 Microsoft 程式做為預設。
 -   建立自訂設定。 使用者可以自行選擇是否要啟用或移除存取權，並在適當的情況下混用 Microsoft 與非 Microsoft 程式。 使用者會依類別目錄來建立預設選項。
 
 使用者隨時都可以隨時變更這些選項。
@@ -549,14 +510,14 @@ HKEY_LOCAL_MACHINE
 
 ### <a name="start-menu-registration"></a>開始功能表註冊
 
-在 Windows XP 中，應用程式通常會在整部電腦的 (**HKEY \_ 本機 \_ 電腦** 上註冊預設值) 而不是使用者 (**HKEY 目前的 \_ \_ 使用者**) 領域。 隨著 Windows Vista 的使用者帳戶控制 (UAC) ，在 [**開始**] 功能表中宣告 **網際網路** 和 **電子郵件** 位置的應用程式，必須在正確的執行內容中執行重新安裝命令。
+在 Windows XP 中，應用程式通常會在全電腦 (**HKEY \_ 本機 \_ 電腦** 上註冊預設值，) 而不是使用者 (**HKEY \_ 目前 \_ 使用者**) 範圍。 有了 Windows Vista 的使用者帳戶控制 (UAC) ，在 [**開始**] 功能表中宣告 **網際網路** 和 **電子郵件** 位置的應用程式，必須在正確的執行內容中執行重新安裝命令。
 
 > [!Note]  
 > 從 Windows 7 起，已移除 [開始] 功能表的 **電子郵件** 連結。 不過，本節所討論的註冊仍應執行，因為它會指派預設的 MAPI 用戶端。
 
  
 
-Windows XP、Windows Vista 或 Windows 7 上的受限使用者無法存取 SPAD。 基於這個理由，我們鼓勵開發人員註冊您的 **預設程式** 主控台專案，讓任何使用者都可以管理每個使用者的應用程式預設值。
+Windows XP、Windows Vista 或 Windows 7 的受限使用者無法存取 SPAD。 基於這個理由，我們鼓勵開發人員註冊您的 **預設程式** 主控台專案，讓任何使用者都可以管理每個使用者的應用程式預設值。
 
 在 SPAD 中所做的選擇只會影響個別電腦的設定。
 
@@ -772,7 +733,7 @@ HKEY_LOCAL_MACHINE
 [預設程式](default-programs.md)
 </dt> <dt>
 
-[如何使用 Windows [開始] 功能表註冊網際網路瀏覽器或電子郵件客戶程式](start-menu-reg.md)
+[如何使用 Windows 開始功能表註冊網際網路瀏覽器或電子郵件客戶程式](start-menu-reg.md)
 </dt> <dt>
 
 [Internet Explorer 用戶端登錄配置 (請參閱「用戶端登錄機碼定義」一節) ](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa753633(v=vs.85))

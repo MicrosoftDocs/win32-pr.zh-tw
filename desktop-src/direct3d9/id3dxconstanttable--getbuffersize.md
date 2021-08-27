@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 68731f86db5aeae14bda4b0f2107c3f9d2f6d357
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: b43bbc6064ab8d52fd961294b57a6faea0c2b83861e30c3e965b0bb9c7bd25cb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106991473"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120096018"
 ---
 # <a name="id3dxconstanttablegetbuffersize-method"></a>ID3DXConstantTable：： GetBufferSize 方法
 

@@ -4,12 +4,12 @@ ms.assetid: e36d20ec-cd7b-494f-b517-c07b40d2a338
 title: ControlCondition 資料表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 671dcdee6e2ed1067c51a04084693c276b8db2d1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 637d9470af21ad1f8a15c2697ba34a6c9866c822c21c6f3a85241bac1309f76b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944653"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120105248"
 ---
 # <a name="controlcondition-table"></a>ControlCondition 資料表
 

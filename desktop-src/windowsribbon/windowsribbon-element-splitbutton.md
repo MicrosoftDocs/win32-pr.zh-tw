@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 53445bc3f57f8a861800f9edcd95d8af2ecfbd54f4055cf8787695dab1f25cb0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 07bc97a3c75a16c1a11783a13514a8ab5b3478c6
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117850770"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122622734"
 ---
 # <a name="splitbutton-element"></a>SplitButton 元素
 
@@ -40,10 +40,10 @@ ms.locfileid: "117850770"
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col  />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -57,14 +57,14 @@ ms.locfileid: "117850770"
 <tr class="odd">
 <td><strong>ApplicationModes</strong><br/></td>
 <td>xs:string<br/></td>
-<td>No<br/></td>
+<td>否<br/></td>
 <td>只有在 <a href="windowsribbon-element-menugroup.md"><strong>MenuGroup</strong></a> 是父元素時才有效。<br/> <br/>
 <dt><span></span><span></span><strong></strong> (xs： string) <br/> </dt> <dd> 字串，其中包含0到31之間的整數清單（以逗號分隔）。<br/> 空白字元是有效的，而且會被忽略。<br/> 最大長度：250個字元。 <br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><strong>CommandName</strong><br/></td>
 <td>xs： positiveInteger 或 xs： string<br/></td>
-<td>No<br/></td>
+<td>否<br/></td>
 <td>將元素與 <a href="windowsribbon-element-command.md"><strong>命令</strong></a>產生關聯。<br/> <br/>
 <dt><span></span><span></span><strong></strong> (xs： positiveInteger 或 xs： string) <br/> </dt> <dd> 字串、介於2與59999（含）之間的整數值，或介於0x2 與0xea5f （含）之間的十六進位值。 <br/> 值在功能區 XML 檔中必須是唯一的。 <br/> 最大長度：100個字元。 <br/> </dd> </dl></td>
 </tr>

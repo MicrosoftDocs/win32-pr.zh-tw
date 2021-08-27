@@ -11,12 +11,12 @@ api_name: ''
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: c200bf97ad11d50899bb887ac350ad7079659c3cf540c23f5c45c610ca145459
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a50e6059d36f7081aef1fd0250f726ce7dc7ea69
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118984678"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122477674"
 ---
 # <a name="xmbyte2-constructors"></a>XMBYTE2 函式
 
@@ -33,65 +33,15 @@ ms.locfileid: "118984678"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">建構函式</th>
-<th style="text-align: left;">描述</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmbyte2-xmbyte2(constfloat)"><strong>XMBYTE2 () </strong></a></td>
-<td style="text-align: left;">的預設函數 <code>XMBYTE2</code> 。<br/> <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmbyte2"><strong>XMBYTE2</strong></a>的預設的函式。<br/>
-<blockquote>
-[!Note]<br />
-這個函式僅適用于 c + +。
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmbyte2-xmbyte2(float_float)"><strong>XMBYTE2 (float，float) </strong></a></td>
-<td style="text-align: left;"><code>XMBYTE2</code>從兩個引數初始化的新實例 <code>float</code> 。<br/> 這個函式會從兩個引數初始化 <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmbyte2"><strong>XMBYTE2</strong></a> 的新實例 <code>float</code> 。<br/>
-<blockquote>
-[!Note]<br />
-這個函式僅適用于 c + +。
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmbyte2-xmbyte2(constfloat)"><strong>XMBYTE2 (const float * ) </strong></a></td>
-<td style="text-align: left;"><code>XMBYTE2</code>從兩個元素的陣列引數，初始化的新實例 <code>float</code> 。<br/> 這個函式會從兩個元素的陣列引數，初始化 <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmbyte2"><strong>XMBYTE2</strong></a> 的新實例 <code>float</code> 。<br/>
-<blockquote>
-[!Note]<br />
-這個函式僅適用于 c + +。
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmbyte2-xmbyte2(int8_t_int8_t)"><strong>XMBYTE2 (int8_t int8_t) </strong></a></td>
-<td style="text-align: left;"><code>XMBYTE2</code>從 XMBYTE2 引數初始化的新實例 <code>int8_t</code> 。<br/> 這個函式會從 XMBYTE2 引數初始化 <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmbyte2"><strong>XMBYTE2</strong></a> 的新實例 <code>int8_t</code> 。<br/>
-<blockquote>
-[!Note]<br />
-這個函式僅適用于 c + +。
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmbyte2-xmbyte2(constfloat)"><strong>XMBYTE2 (const int8_t * ) </strong></a></td>
-<td style="text-align: left;"><code>XMBYTE2</code>從兩個元素的陣列引數，初始化的新實例 <code>int8_t</code> 。<br/> 這個函式會從兩個元素的陣列引數，初始化 <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmbyte2"><strong>XMBYTE2</strong></a> 的新實例 <code>int8_t</code> 。<br/>
-<blockquote>
-[!Note]<br />
-這個函式僅適用于 c + +。
-</blockquote>
-<br/></td>
-</tr>
-</tbody>
-</table>
+
+| 建構函式 | 描述 | 
+|-------------|-------------|
+| <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmbyte2-xmbyte2(constfloat)"><strong>XMBYTE2 () </strong></a> | 的預設函數 <code>XMBYTE2</code> 。<br /> <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmbyte2"><strong>XMBYTE2</strong></a>的預設的函式。<br /><blockquote>[!Note]<br />這個函式僅適用于 c + +。</blockquote><br /> | 
+| <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmbyte2-xmbyte2(float_float)"><strong>XMBYTE2 (float，float) </strong></a> | <code>XMBYTE2</code>從兩個引數初始化的新實例 <code>float</code> 。<br /> 這個函式會從兩個引數初始化 <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmbyte2"><strong>XMBYTE2</strong></a> 的新實例 <code>float</code> 。<br /><blockquote>[!Note]<br />這個函式僅適用于 c + +。</blockquote><br /> | 
+| <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmbyte2-xmbyte2(constfloat)"><strong>XMBYTE2 (const float * ) </strong></a> | <code>XMBYTE2</code>從兩個元素的陣列引數，初始化的新實例 <code>float</code> 。<br /> 這個函式會從兩個元素的陣列引數，初始化 <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmbyte2"><strong>XMBYTE2</strong></a> 的新實例 <code>float</code> 。<br /><blockquote>[!Note]<br />這個函式僅適用于 c + +。</blockquote><br /> | 
+| <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmbyte2-xmbyte2(int8_t_int8_t)"><strong>XMBYTE2 (int8_t int8_t) </strong></a> | <code>XMBYTE2</code>從 XMBYTE2 引數初始化的新實例 <code>int8_t</code> 。<br /> 這個函式會從 XMBYTE2 引數初始化 <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmbyte2"><strong>XMBYTE2</strong></a> 的新實例 <code>int8_t</code> 。<br /><blockquote>[!Note]<br />這個函式僅適用于 c + +。</blockquote><br /> | 
+| <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmbyte2-xmbyte2(constfloat)"><strong>XMBYTE2 (const int8_t * ) </strong></a> | <code>XMBYTE2</code>從兩個元素的陣列引數，初始化的新實例 <code>int8_t</code> 。<br /> 這個函式會從兩個元素的陣列引數，初始化 <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmbyte2"><strong>XMBYTE2</strong></a> 的新實例 <code>int8_t</code> 。<br /><blockquote>[!Note]<br />這個函式僅適用于 c + +。</blockquote><br /> | 
+
 
 
 

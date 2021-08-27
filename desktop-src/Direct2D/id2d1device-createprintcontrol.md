@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: ec8705d73f40fc967b3247aaf81caebcade47b02
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a585e72c28487d0b2c54209ab9c2bd9da20c07479724a51f837efc398fde2135
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106985984"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120108838"
 ---
 # <a name="id2d1devicecreateprintcontrol-methods"></a>ID2D1Device：： CreatePrintControl 方法
 

@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 6e731582364df23bdef800ab5d2cf15dd5c882ae
-ms.sourcegitcommit: b3a9abea47dea7374eac0f9a95a652ac6977fb2e
+ms.openlocfilehash: 2362a5d6ec1a6a9d0d876ef0673f4775e2db3ade0a83696ad2b993e31e02a9ab
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "107734183"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120099988"
 ---
 # <a name="interval-restarttype-element"></a>間隔 (restartType) 元素
 
@@ -47,7 +47,7 @@ ms.locfileid: "107734183"
 
 
 
-| 元素                                                                               | 衍生自                                                       | Description                                                                                                     |
+| 元素                                                                               | 衍生自                                                       | 描述                                                                                                     |
 |---------------------------------------------------------------------------------------|--------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
 | [**RestartOnFailure**](taskschedulerschema-restartonfailure-settingstype-element.md) | [**restartType**](taskschedulerschema-restarttype-complextype.md) | 指定當工作因為任何原因而失敗時，工作排程器將嘗試重新開機工作。<br/> |
 
@@ -67,8 +67,8 @@ ms.locfileid: "107734183"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

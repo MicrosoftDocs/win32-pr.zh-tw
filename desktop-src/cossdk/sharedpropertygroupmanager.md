@@ -11,12 +11,12 @@ api_name:
 - SharedPropertyGroupManager
 api_type:
 - COM
-ms.openlocfilehash: 680c5caef996d329e18192193f30841f61f02f27
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: ac05dcc813192a9ea1bf1f1f4e5ad63ed72eca6874de855ac3f4582af51680f6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847220"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120120358"
 ---
 # <a name="sharedpropertygroupmanager-class"></a>SharedPropertyGroupManager 類別
 
@@ -48,7 +48,7 @@ ms.locfileid: "103847220"
 
 若要建立這個物件，請呼叫 [**IObjectCoNtext：： CreateInstance**](/windows/desktop/api/ComSvcs/nf-comsvcs-iobjectcontext-createinstance)。
 
-若要從 Microsoft Visual Basic 使用這個類別，請新增 COM + 服務類型程式庫的參考。 您可以使用 "COMSVCSLib. SharedPropertyGroupManager" 將 SharedPropertyGroupManager 物件宣告為類別名稱。
+若要從 Microsoft Visual Basic 使用這個類別，請新增 com + 服務類型程式庫的參考。 您可以使用 "COMSVCSLib. SharedPropertyGroupManager" 將 SharedPropertyGroupManager 物件宣告為類別名稱。
 
 ## <a name="requirements"></a>規格需求
 

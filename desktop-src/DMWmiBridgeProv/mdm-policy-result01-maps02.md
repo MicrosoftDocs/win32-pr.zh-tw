@@ -17,12 +17,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b7bc3676a8c2900cba6afcbeff20839153ec3320
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d4d0927149650b4da948983646e73772e1d19af4237ada01d1654f160629de75
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465009"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120109318"
 ---
 # <a name="mdm_policy_result01_maps02-class"></a>MDM \_ 原則 \_ Result01 \_ Maps02 類別
 
@@ -91,7 +91,7 @@ class MDM_Policy_Result01_Maps02
 限定詞：索引 [**鍵**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
-識別父節點的名稱。 此類別的字串為 "Map"。
+識別父節點的名稱。 此類別的字串為 "地圖"。
 
 </dd> <dt>
 
@@ -117,7 +117,7 @@ class MDM_Policy_Result01_Maps02
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 10 桌面應用程式\]<br/>                                                          |
+| 最低支援的用戶端<br/> | Windows 10 \[僅限桌面應用程式\]<br/>                                                          |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                            |
 | 命名空間<br/>                | 根 \\ cimv2 \\ mdm \\ dmmap<br/>                                                                   |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv mof</dt> </dl>       |

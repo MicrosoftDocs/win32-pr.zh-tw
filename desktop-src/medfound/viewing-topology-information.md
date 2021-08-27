@@ -4,12 +4,12 @@ ms.assetid: d687ecd3-9ad6-46d5-b927-d9b99af2002f
 title: 查看拓撲資訊
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 78fd1d7d28de3d7fa5420241abf793295323532dca29d3d68d1271545aa460dd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9bf29f28ac419da7df14d90efb50919634d7409b
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118237370"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122468005"
 ---
 # <a name="viewing-topology-information"></a>查看拓撲資訊
 
@@ -19,41 +19,13 @@ ms.locfileid: "118237370"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>拓撲專案</th>
-<th>屬性</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>拓撲節點</td>
-<td><ul>
-<li>所有節點的<a href="topology-node-attributes.md">拓撲節點屬性</a>。<br/></li>
-<li>僅適用于來源節點的<a href="presentation-descriptor-attributes.md">呈現描述項屬性</a>。<br/></li>
-<li>轉換和輸出節點的輸入和輸出信任授權單位資訊。<br/></li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>節點輸入</td>
-<td><ul>
-<li>所有節點的<a href="media-type-attributes.md">媒體類型屬性</a>。</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>節點輸出</td>
-<td><ul>
-<li>僅適用于來源節點的<a href="stream-descriptor-attributes.md">串流描述項屬性</a>。<br/></li>
-<li>所有節點的<a href="media-type-attributes.md">媒體類型屬性</a>。<br/></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| 拓撲專案 | 屬性 | 
+|---------------|------------|
+| 拓撲節點 | <ul><li>所有節點的<a href="topology-node-attributes.md">拓撲節點屬性</a>。<br /></li><li>僅適用于來源節點的<a href="presentation-descriptor-attributes.md">呈現描述項屬性</a>。<br /></li><li>轉換和輸出節點的輸入和輸出信任授權單位資訊。<br /></li></ul> | 
+| 節點輸入 | <ul><li>所有節點的<a href="media-type-attributes.md">媒體類型屬性</a>。</li></ul> | 
+| 節點輸出 | <ul><li>僅適用于來源節點的<a href="stream-descriptor-attributes.md">串流描述項屬性</a>。<br /></li><li>所有節點的<a href="media-type-attributes.md">媒體類型屬性</a>。<br /></li></ul> | 
+
 
 
 

@@ -4,17 +4,17 @@ description: 通知會通知使用者與目前使用者活動不相關的事件�
 ms.assetid: dcac2fb7-e503-4ea3-a2c5-e3cb660c040a
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: be783ac6aac25e818d4ddf3612c726e55efa5fa5
-ms.sourcegitcommit: 8ebcf6cd36f67f8bcf78e76ae8923d65b8995c8a
+ms.openlocfilehash: 48b32da195663d42024a9febed5451e2fd3f0840
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "111524512"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122471614"
 ---
 # <a name="notifications-design-basics"></a> (設計基本概念) 的通知
 
 > [!NOTE]
-> 此設計指南是針對 Windows 7 所建立，而且尚未針對較新版本的 Windows 更新。 大部分的指引仍然適用于準則，但展示和範例不會反映我們目前的 [設計指引](/windows/uwp/design/)。
+> 此設計指南是針對 Windows 7 所建立，而且尚未針對較新的 Windows 版本進行更新。 大部分的指引仍然適用于準則，但展示和範例不會反映我們目前的 [設計指引](/windows/uwp/design/)。
 
 通知會通知使用者與目前使用者活動不相關的事件，方法是在通知區域中的圖示上短暫顯示批註。 通知可能是由使用者動作或重要的系統事件所造成，或可能提供 Microsoft Windows 或應用程式可能有用的資訊。
 
@@ -24,7 +24,7 @@ ms.locfileid: "111524512"
 
 一般通知。
 
-在 Windows Vista （含）以後版本中，系統會在9秒的固定期間內顯示通知。 當使用者處於非使用中狀態或螢幕保護裝置程式正在執行時，不會立即顯示通知。 Windows 會在這段時間內自動將通知排入佇列，並在使用者繼續進行一般活動時顯示佇列的通知。 因此，您不需要採取任何動作來處理這些特殊情況。
+在 Windows Vista 和更新版本中，會顯示9秒固定期間的通知。 當使用者處於非使用中狀態或螢幕保護裝置程式正在執行時，不會立即顯示通知。 Windows 在這段時間內自動將通知排入佇列，並在使用者繼續進行一般活動時顯示佇列的通知。 因此，您不需要採取任何動作來處理這些特殊情況。
 
 **開發人員：** 您可以使用 SHQueryUserNotificationState API 來判斷使用者何時處於作用中狀態。
 
@@ -38,7 +38,7 @@ ms.locfileid: "111524512"
 
 ![windows 安全性警示的螢幕擷取畫面 ](images/mess-notif-image2.png)
 
-在此範例中，[Windows 防火牆例外狀況] 對話方塊會顯示為使用者互動的直接結果。 在這裡不適合使用通知。
+在此範例中，Windows 防火牆例外狀況] 對話方塊會顯示為使用者互動的直接結果。 在這裡不適合使用通知。
 
 -   **只有當使用者主動使用您的應用程式時，才會有相關資訊？** 如果是的話，請在您應用程式的 [狀態列](ctrl-status-bars.md) 或其他狀態區域中顯示資訊。
 
@@ -55,7 +55,7 @@ ms.locfileid: "111524512"
 
 提升良好使用者體驗的有效通知如下：
 
--   **非同步。** 此事件不是使用者目前與 Microsoft Windows 或您的應用程式互動的直接結果。
+-   **非同步。** 此事件不是直接的結果，使用者目前與 Microsoft Windows 或您的應用程式互動。
 -   **有用。** 使用者有機會執行工作，或將其行為變更為通知的結果。
 -   **相關。** 通知會顯示使用者在意且不知道的有用資訊。
 -   **不重要。** 通知不是強制回應，而且不需要使用者互動，因此使用者可以自由地忽略它們。
@@ -77,7 +77,7 @@ ms.locfileid: "111524512"
 
 **在理想的情況下，可以沉浸工作的使用者不會看到您的通知。相反地，只有在流程已中斷時，他們才會看到您的通知。**
 
-在 Flow 中：最佳體驗的心理學，Mihaly Csikszentmihalyi 指出當使用者完全吸收活動時，使用者進入流程狀態，在這段期間內，他們會失去其時間的意義，並感受到絕佳的滿意度。
+在 Flow 中，最佳體驗的心理學 Mihaly Csikszentmihalyi 指出，當使用者完全吸收活動時，使用者會進入流程狀態，而在這段時間內，他們會失去其時間的意義，並感受到絕佳的滿意度。
 
 **有效的通知可協助使用者藉由呈現有用的相關資訊，輕鬆地加以忽略，以協助使用者維護流程。** 通知會以低金鑰的周邊方式呈現，而不需要互動。
 
@@ -105,23 +105,23 @@ ms.locfileid: "111524512"
 
 如果通知是用於使用者可以在一開始就安全地略過的事件，但必須最後解決此事件，則當情況變得很重要時，應使用替代的 UI。 這項技術稱為漸進式擴大。
 
-例如，Windows 電源管理系統一開始會透過變更其通知區域圖示來指出電力偏低。
+例如，Windows 電源管理系統一開始會指出電力偏低，只要變更其通知區域圖示即可。
 
 ![顯示電池狀態的六個圖示螢幕擷取畫面 ](images/mess-notif-image7.png)
 
 在這些範例中，Windows 電源管理會使用通知區域圖標來通知使用者，電池電力會逐漸降低。
 
-當電池電力變低時，Windows 會使用通知向使用者發出電力不足的警告。
+當電池電力變得較低時，Windows 會使用通知來警告使用者電池電力電力變差。
 
 ![電力偏低電源通知的螢幕擷取畫面](images/mess-notif-image8.png)
 
 在此範例中，Windows 電源管理會使用通知來告訴使用者其電池電力是否弱。
 
-當使用者仍有數個選項時，就會顯示此通知。 使用者可以插入、變更其電源選項、包裝其工作並關閉電腦，或忽略通知並繼續工作。 當電池電力繼續清空時，通知的文字和圖示會反映額外的緊急情況。 不過，一旦電池電力變得較低，使用者就必須立即採取行動，Windows 電源管理會使用強制 [回應訊息框](glossary.md) 來通知使用者。
+當使用者仍有數個選項時，就會顯示此通知。 使用者可以插入、變更其電源選項、包裝其工作並關閉電腦，或忽略通知並繼續工作。 當電池電力繼續清空時，通知的文字和圖示會反映額外的緊急情況。 不過，一旦電池電力變得較低，使用者就必須立即採取行動，Windows 電源管理會使用強制[回應訊息框](glossary.md)來通知使用者。
 
 ![嚴重電力偏低警告的螢幕擷取畫面](images/mess-notif-image9.png)
 
-在此範例中，Windows 電源管理會使用強制回應訊息框來通知使用者電力偏低的情況。
+在此範例中，Windows 電源管理會使用強制回應訊息框來通知使用者電力偏低。
 
 **如果您只進行三件事 .。。**
 
@@ -135,43 +135,9 @@ ms.locfileid: "111524512"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><strong>動作成功</strong><br/> 當非同步使用者起始的動作順利完成時，通知使用者。 <br/></td>
-<td><strong>正確：</strong><br/> <img src="images/mess-notif-image10.png" alt="Screen shot of balloon showing successful updates " /><br/> 在此範例中，Windows Update 會在電腦已成功更新時通知使用者。<br/> <strong>不正確：</strong><br/> <img src="images/mess-notif-image11.png" alt="Screen shot of balloon showing file check complete " /><br/> 在此範例中，當資料檔案檢查完成時，Microsoft Outlook 會通知使用者。 使用者現在應該怎麼做？ 為什麼要警告使用者成功完成？<br/> <strong>顯示時機：</strong> 非同步工作完成時。 只有在使用者可能等候完成或最近失敗之後，才通知使用者成功的動作。<br/> <strong>示範如何：</strong> 使用即時選項，在使用者執行全螢幕應用程式或未主動使用其電腦時，不會將這些通知排入佇列。<br/> <strong>顯示頻率：</strong> 一旦。<br/> <strong>干擾因素：</strong> 如果因為最近的失敗而不預期成功，則會在發生重大或高度異常的失敗之後成功，讓使用者需要額外的意見反應，或使用者等候完成;如果沒有，則為 high。<br/> <strong>替代方案：</strong> 在 &quot; &quot; 執行作業時，在通知區域中顯示圖示 (或變更現有的圖示) 來提供意見反應; 移除圖示 (或還原先前的圖示) 作業完成時。 <br/></td>
-</tr>
-<tr class="even">
-<td><strong>動作失敗</strong><br/> 在非同步、使用者起始的動作失敗時通知使用者。 <br/></td>
-<td><strong>正確：</strong><br/> <img src="images/mess-notif-image12.png" alt="Screen shot of notification of failure to install " /><br/> 在此範例中，Windows 啟用會通知使用者失敗。<br/> <strong>不正確：</strong><br/> <img src="images/mess-notif-image13.png" alt="Screen shot of notification of failure to update " /><br/> 在此範例中，Microsoft Outlook 用來通知使用者，他們不太可能在意這些錯誤。<br/> <strong>顯示時機：</strong> 非同步工作失敗時。<br/> <strong>顯示頻率：</strong> 一旦。<br/> <strong>干擾因素：</strong> 如果有用且相關，則為 Low;如果問題會立即自行解決或使用者不在意，則為高。<br/> <strong>替代方案：</strong> 如果使用者必須立即處理失敗，請使用強制回應對話方塊。 <br/></td>
-</tr>
-<tr class="odd">
-<td><strong>非重大系統事件</strong><br/> 通知使用者很重要的系統事件或狀態，而且可以安全地忽略（至少暫時）。 <br/></td>
-<td><img src="images/mess-notif-image8.png" alt="Screen shot of notification of low battery power " /><br/> 在此範例中，Windows 會警告使用者電池電力偏低，但仍有足夠的時間來採取行動。<br/> <strong>顯示時機：</strong> 當事件發生且使用者為作用中狀態，或條件持續存在時。 如果發生問題，請在問題解決後立即移除目前顯示的通知。 如同動作通知，只有在使用者可能等候事件或最近失敗之後，才通知使用者系統事件是否成功。<br/> <strong>顯示頻率：</strong> 第一次發生事件時。 如果這是由使用者需要解決的問題所產生，請一天重新顯示一次。<br/> <strong>干擾因素：</strong> 低，只要通知未顯示太頻繁。<br/> <strong>替代方案：</strong> 如果使用者最終必須解決問題，請在解析變成強制性時，使用漸進式擴大以最後顯示模式對話方塊。 <br/></td>
-</tr>
-<tr class="even">
-<td><strong>選用的使用者工作</strong><br/> 通知使用者其應該執行的非同步工作。 無論是選擇性或必要，工作都可以安全地延後。 <br/></td>
-<td><img src="images/mess-notif-image14.png" alt="Screen shot of notification of available updates " /><br/> 在此範例中，Windows Update 會通知使用者有新的安全性更新。<br/> <strong>顯示時機：</strong> 當您決定執行工作的需求，且使用者為作用中狀態時。<br/> <strong>顯示頻率：</strong> 一天一次，最多三次。<br/> <strong>干擾因素：</strong> 低，只要使用者將工作視為重要，且通知未顯示太頻繁。<br/> <strong>替代方案：</strong> 如果使用者最終必須執行此工作，請在工作變成強制執行時，使用漸進式擴大以最後顯示模式對話方塊。 <br/></td>
-</tr>
-<tr class="odd">
-<td><strong>僅供參考</strong><br/> 通知使用者可能有用的相關資訊。 如果使用者是選擇性的，且使用者加入宣告，您可以通知使用者有關臨界相關性的資訊。 <br/></td>
-<td><strong>正確：</strong><br/> <img src="images/mess-notif-image15.png" alt="Screen shot of notification of new e-mail message " /><br/> 在此範例中，當收到新的電子郵件訊息時，就會通知使用者。<br/> <strong>正確：</strong><br/> <img src="images/mess-notif-image16.png" alt="Screen shot of notification of contact signed in " /><br/> 在此範例中，當連絡人上線，而且他們選擇接收此選擇性資訊時，會通知使用者。<br/> <strong>不正確：</strong><br/> <img src="images/mess-notif-image17.png" alt="Screen shot of notification for faster performance " /><br/> 在此範例中，只有當使用者已安裝高速 USB 埠時，此資訊才會很有用。 否則，使用者不太可能做任何不同的結果。<br/> <strong>顯示時機：</strong> 當觸發事件發生時。<br/> <strong>示範如何：</strong> 使用即時選項，在使用者執行全螢幕應用程式或未主動使用其電腦時，不會將這些通知排入佇列。<br/> <strong>顯示頻率：</strong> 一旦。<br/> <strong>干擾因素：</strong> 中至高，視使用者對實用性和相關性的認知而定。 如果使用者感興趣的機率很低，則不建議使用。<br/> <strong>替代方案：</strong> 不要通知使用者。 <br/></td>
-</tr>
-<tr class="even">
-<td><strong>功能公告</strong><br/> 通知使用者新安裝、未使用的系統或應用程式功能。<br/></td>
-<td><strong>請勿使用功能公告的通知！</strong> 相反地，請使用另一種方式來讓功能可供探索，例如： <br/>
-<ul>
-<li>設計在需要時更容易在內容中探索的功能。</li>
-<li>請勿做任何特殊的動作，讓使用者自行探索功能。</li>
-</ul>
-<strong>不正確：</strong><br/> <img src="images/mess-notif-image4.png" alt="Screen shot of notification of new features " /><br/> 請勿使用功能公告的通知。<br/></td>
-</tr>
-</tbody>
-</table>
+
+| | | <strong>動作成功</strong><br /> 當非同步使用者起始的動作順利完成時，通知使用者。 <br /> | <strong>正確：</strong><br /><img src="images/mess-notif-image10.png" alt="Screen shot of balloon showing successful updates " /><br /> 在此範例中，Windows Update 會在電腦已成功更新時通知使用者。<br /><strong>不正確：</strong><br /><img src="images/mess-notif-image11.png" alt="Screen shot of balloon showing file check complete " /><br /> 在此範例中，Microsoft Outlook 在資料檔案檢查完成時通知使用者。 使用者現在應該怎麼做？ 為什麼要警告使用者成功完成？<br /><strong>顯示時機：</strong> 非同步工作完成時。 只有在使用者可能等候完成或最近失敗之後，才通知使用者成功的動作。<br /><strong>示範如何：</strong> 使用即時選項，在使用者執行全螢幕應用程式或未主動使用其電腦時，不會將這些通知排入佇列。<br /><strong>顯示頻率：</strong> 一旦。<br /><strong>干擾因素：</strong> 如果因為最近的失敗而不預期成功，則會在發生重大或高度異常的失敗之後成功，讓使用者需要額外的意見反應，或使用者等候完成;如果沒有，則為 high。<br /><strong>替代方案：</strong> 在執行作業時，在通知區域中顯示圖示 (或變更現有的圖示) 來提供意見反應。當作業完成時，請移除圖示 (或還原先前的圖示) 。 <br /> | | <strong>動作失敗</strong><br /> 在非同步、使用者起始的動作失敗時通知使用者。 <br /> | <strong>正確：</strong><br /><img src="images/mess-notif-image12.png" alt="Screen shot of notification of failure to install " /><br /> 在此範例中，Windows 啟用會通知使用者失敗。<br /><strong>不正確：</strong><br /><img src="images/mess-notif-image13.png" alt="Screen shot of notification of failure to update " /><br /> 在此範例中，Microsoft Outlook 用來通知使用者不太可能關心的失敗。<br /><strong>顯示時機：</strong> 非同步工作失敗時。<br /><strong>顯示頻率：</strong> 一旦。<br /><strong>干擾因素：</strong> 如果有用且相關，則為 Low;如果問題會立即自行解決或使用者不在意，則為高。<br /><strong>替代方案：</strong> 如果使用者必須立即處理失敗，請使用強制回應對話方塊。 <br /> | | <strong>非重大系統事件</strong><br /> 通知使用者很重要的系統事件或狀態，而且可以安全地忽略（至少暫時）。 <br /> | <img src="images/mess-notif-image8.png" alt="Screen shot of notification of low battery power " /><br /> 在此範例中，Windows 會對電力偏低的使用者發出警告，但仍有足夠的時間來採取行動。<br /><strong>顯示時機：</strong> 當事件發生且使用者為作用中狀態，或條件持續存在時。 如果發生問題，請在問題解決後立即移除目前顯示的通知。 如同動作通知，只有在使用者可能等候事件或最近失敗之後，才通知使用者系統事件是否成功。<br /><strong>顯示頻率：</strong> 第一次發生事件時。 如果這是由使用者需要解決的問題所產生，請一天重新顯示一次。<br /><strong>干擾因素：</strong> 低，只要通知未顯示太頻繁。<br /><strong>替代方案：</strong> 如果使用者最終必須解決問題，請在解析變成強制性時，使用漸進式擴大以最後顯示模式對話方塊。 <br /> | |<strong>選用的使用者</strong>工作<br /> 通知使用者其應該執行的非同步工作。 無論是選擇性或必要，工作都可以安全地延後。 <br /> | <img src="images/mess-notif-image14.png" alt="Screen shot of notification of available updates " /><br /> 在此範例中，Windows Update 會通知使用者有新的安全性更新。<br /><strong>顯示時機：</strong> 當您決定執行工作的需求，且使用者為作用中狀態時。<br /><strong>顯示頻率：</strong> 一天一次，最多三次。<br /><strong>干擾因素：</strong> 低，只要使用者將工作視為重要，且通知未顯示太頻繁。<br /><strong>替代方案：</strong> 如果使用者最終必須執行此工作，請在工作變成強制執行時，使用漸進式擴大以最後顯示模式對話方塊。 <br /> | | <strong>僅供參考</strong><br /> 通知使用者可能有用的相關資訊。 如果使用者是選擇性的，且使用者加入宣告，您可以通知使用者有關臨界相關性的資訊。 <br /> | <strong>正確：</strong><br /><img src="images/mess-notif-image15.png" alt="Screen shot of notification of new e-mail message " /><br /> 在此範例中，當收到新的電子郵件訊息時，就會通知使用者。<br /><strong>正確：</strong><br /><img src="images/mess-notif-image16.png" alt="Screen shot of notification of contact signed in " /><br /> 在此範例中，當連絡人上線，而且他們選擇接收此選擇性資訊時，會通知使用者。<br /><strong>不正確：</strong><br /><img src="images/mess-notif-image17.png" alt="Screen shot of notification for faster performance " /><br /> 在此範例中，只有當使用者已安裝高速 USB 埠時，此資訊才會很有用。 否則，使用者不太可能做任何不同的結果。<br /><strong>顯示時機：</strong> 當觸發事件發生時。<br /><strong>示範如何：</strong> 使用即時選項，在使用者執行全螢幕應用程式或未主動使用其電腦時，不會將這些通知排入佇列。<br /><strong>顯示頻率：</strong> 一旦。<br /><strong>干擾因素：</strong> 中至高，視使用者對實用性和相關性的認知而定。 如果使用者感興趣的機率很低，則不建議使用。<br /><strong>替代方案：</strong> 不要通知使用者。 <br /> | | <strong>功能公告</strong><br /> 通知使用者新安裝、未使用的系統或應用程式功能。<br /> | <strong>請勿使用功能公告的通知！</strong> 相反地，請使用另一種方式來讓功能可供探索，例如： <br /><ul><li>設計在需要時更容易在內容中探索的功能。</li><li>請勿做任何特殊的動作，讓使用者自行探索功能。</li></ul><strong>不正確：</strong><br /><img src="images/mess-notif-image4.png" alt="Screen shot of notification of new features " /><br /> 請勿使用功能公告的通知。<br /> | 
+
 
 
 
@@ -182,7 +148,7 @@ ms.locfileid: "111524512"
 ### <a name="general"></a>一般
 
 -   **選取以其使用方式為基礎的通知模式。** 如需每個使用模式的說明，請參閱上一個表格。
--   **請勿在初始 Windows 體驗期間使用任何通知。** 為了改善它的第一個經驗，Windows 7 會隱藏在前幾小時的使用量中顯示的所有通知。 設計您的程式，假設使用者不會看到任何這類通知。
+-   **在初始 Windows 體驗期間，請不要使用任何通知。** 為了改善其第一個經驗，Windows 7 會隱藏在前幾個小時的使用量中顯示的所有通知。 設計您的程式，假設使用者不會看到任何這類通知。
 
 ### <a name="what-to-notify"></a>要通知的內容
 
@@ -213,7 +179,7 @@ ms.locfileid: "111524512"
 
     ![「找到新硬體」通知的螢幕擷取畫面 ](images/mess-notif-image18.png)
 
-    這些範例只會顯示 Windows XP 在使用者連接特定 USB 鍵盤時所顯示的八個通知中的四個，每個通知都會以累加方式呈現詳細資訊。
+    這些範例只會顯示當使用者連接特定的 USB 鍵盤時，Windows XP 所顯示的八個通知中的四個，每個通知都會以累加方式呈現詳細資訊。
 
     **正確：**
 
@@ -249,14 +215,14 @@ ms.locfileid: "111524512"
 
 ![連接成功通知的螢幕擷取畫面 ](images/mess-notif-image21.png)
 
-在此範例中，在 Windows Vista 中，沒有無線連線的通知會提早出現，因為它通常會緊接在正常連線的通知中。
+在此範例中，在 Windows Vista 中，沒有任何無線連線的通知會提早出現，因為它通常會緊接在連線良好的通知之後。
 
 -   針對「動作成功」和「僅供參考」模式，使用即時選項，讓當使用者執行全螢幕應用程式或未主動使用其電腦時 **，過時通知不會排入佇列** 。
 -   針對非關鍵性的系統事件模式， **不會產生通知風暴的可能性，方法是將事件系結至已知事件（例如使用者登入）。** 相反地，請將事件系結至事件之後的某個時間週期。 例如，您可以在使用者登入後，提醒使用者註冊您的產品五分鐘。
 
 ### <a name="how-long-to-notify"></a>通知的時間長度
 
-在 Windows Vista （含）以後版本中，系統會在9秒的固定期間內顯示通知。
+在 Windows Vista 和更新版本中，會顯示9秒固定期間的通知。
 
 ### <a name="how-often-to-notify"></a>通知的頻率
 

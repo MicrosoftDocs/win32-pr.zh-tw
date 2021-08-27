@@ -12,18 +12,18 @@ keywords:
 - 控制項類型，AppBar
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 151aecc0f5f97878e10b59b091c4c59ec98cb26d
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 3fc8cf562b125267e9b35239e8490f11ed6ae830
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104463516"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122472884"
 ---
 # <a name="appbar-control-type"></a>AppBar 控制項類型
 
 本主題提供 **AppBar** 控制項類型之 Microsoft 消費者介面自動化支援的相關資訊。
 
-應用程式行是 UI 元素，可向使用者呈現導覽、命令和工具。 針對 Windows Store 應用程式，您可以按下 Windows 鍵 + Z 來顯示應用程式的應用程式列。
+應用程式行是 UI 元素，可向使用者呈現導覽、命令和工具。 針對 Windows Store 應用程式，可以按 Windows 鍵 + Z 來顯示應用程式的應用程式列。
 
 下列章節會定義 **AppBar** 控制項類型所需的消費者介面自動化樹狀結構、屬性、控制項模式和事件。
 
@@ -41,40 +41,15 @@ ms.locfileid: "104463516"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>控制項檢視</th>
-<th>內容檢視</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>AppBar
-<ul>
-<li>按鈕 (0 個以上)</li>
-<li>其他控制項 (0 個以上)</li>
-</ul></li>
-</ul></td>
-<td><ul>
-<li>不適用
-<ul>
-<li>按鈕 (0 個以上)</li>
-<li>其他控制項 (0 個以上)</li>
-</ul></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| 控制項檢視 | 內容檢視 | 
+|--------------|--------------|
+| <ul><li>AppBar<ul><li>按鈕 (0 個以上)</li><li>其他控制項 (0 個以上)</li></ul></li></ul> | <ul><li>不適用<ul><li>按鈕 (0 個以上)</li><li>其他控制項 (0 個以上)</li></ul></li></ul> | 
 
 
 
- 
+
+ 
 
 ## <a name="relevant-properties"></a>相關屬性
 
@@ -97,7 +72,7 @@ ms.locfileid: "104463516"
 
 
 
- 
+ 
 
 ## <a name="required-events"></a>必要的事件
 
@@ -115,7 +90,7 @@ ms.locfileid: "104463516"
 
 
 
- 
+ 
 
 ## <a name="relevant-events"></a>相關事件
 
@@ -131,7 +106,7 @@ ms.locfileid: "104463516"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -155,6 +130,6 @@ ms.locfileid: "104463516"
 [**WinJS. AppBar 物件**](/previous-versions/windows/apps/br229670(v=win.10))
 </dt> </dl>
 
- 
+ 
 
- 
+ 

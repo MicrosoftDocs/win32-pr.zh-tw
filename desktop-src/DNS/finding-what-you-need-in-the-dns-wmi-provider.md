@@ -6,12 +6,12 @@ keywords:
 - 網域名稱系統、WMI 提供者、藍圖
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8acabb853b84f6f42b7451ea57db10ca5ae3106f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3c99dd7742622eafbde5fbb1ae7499c40fb86746dd6992ba6f3619644f302b5b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106967406"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120131818"
 ---
 # <a name="finding-what-you-need-in-the-dns-wmi-provider"></a>在 DNS WMI 提供者中尋找您需要的內容
 
@@ -28,11 +28,11 @@ ms.locfileid: "106967406"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

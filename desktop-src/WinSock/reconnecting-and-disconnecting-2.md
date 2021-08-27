@@ -4,12 +4,12 @@ ms.assetid: b5f5ab97-03bd-4f5c-8808-d14ad5a56a5a
 title: 重新連線和中斷連接
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7babefe03be44f942ee60a840aa210ee3c0e25da
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 61a4c50872b6690c42d97c3696bcfcb2586b9b5b510c17aafc5dcc159b17ed56
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848753"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120121358"
 ---
 # <a name="reconnecting-and-disconnecting"></a>重新連線和中斷連接
 

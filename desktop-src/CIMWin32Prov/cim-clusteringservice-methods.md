@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: CIM_ClusteringService 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d92bc90cd49a1ab490e4090408e56c71ee8b1971
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: ee6a6dc5c78f071899595c28d2a12d43b6387f5508996ce6fa917644767d66b6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510616"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120065189"
 ---
 # <a name="cim_clusteringservice-methods"></a>CIM \_ ClusteringService 方法
 

@@ -12,12 +12,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
 api_location: ''
-ms.openlocfilehash: b80929c634a5cbdd168ec27f5d7cdf778d581ccd
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: f33ab5d96d3db7cb4fb2dbeb4573c469d5872df6dbc00e6cf57dffda9b02fa7f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103682441"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120108828"
 ---
 # <a name="id2d1devicecontextcreateimagebrush-methods"></a>ID2D1DeviceCoNtext：： CreateImageBrush 方法
 

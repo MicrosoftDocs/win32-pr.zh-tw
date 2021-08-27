@@ -1,5 +1,5 @@
 ---
-description: 表示機器檢查架構 (MCA) 記憶體錯誤事件。 此類別僅適用于64位的 Windows 系統。
+description: 表示機器檢查架構 (MCA) 記憶體錯誤事件。 此類別僅適用于64位 Windows 系統。
 ms.assetid: 0db1d526-e2c3-4e48-90c8-cbcd9121040e
 title: MSMCAEvent_MemoryError 類別
 ms.topic: reference
@@ -39,16 +39,16 @@ api_type:
 - DllExport
 api_location:
 - Wmiprov.dll
-ms.openlocfilehash: 8dce82b8fa7a87676c34a9c6f26f43e4db10e227
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f93ac9ddda978a56ceb0e258766c2e60703acc94e92c551e673a9294e2cb984c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106988365"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120120978"
 ---
 # <a name="msmcaevent_memoryerror-class"></a>MSMCAEvent \_ MemoryError 類別
 
-**MSMCAEvent \_ MemoryError** 類別代表 (MCA) 記憶體錯誤事件的機器檢查架構。 此類別僅適用于64位的 Windows 系統。
+**MSMCAEvent \_ MemoryError** 類別代表 (MCA) 記憶體錯誤事件的機器檢查架構。 此類別僅適用于64位 Windows 系統。
 
 下列語法已從受控物件格式的 (MOF) 程式碼簡化，並包含其所有繼承的屬性。 屬性和方法是以字母順序排列，而不是 MOF 順序。
 
@@ -369,7 +369,7 @@ OEM 特定、與匯流排相關的資料。
 存取類型：唯讀
 </dt> </dl>
 
-位元組陣列，其中包含系統抽象層 (SAL) 呈現給 Windows 的原始錯誤記錄。 陣列中的元素數目是由 **Size** 屬性指定。
+位元組陣列，其中包含系統抽象層 Windows (SAL) 所顯示的原始錯誤記錄。 陣列中的元素數目是由 **Size** 屬性指定。
 
 </dd> <dt>
 
@@ -446,7 +446,7 @@ OEM 特定、與匯流排相關的資料。
 
 </dd> <dt>
 
-**型別**
+**類型**
 </dt> <dd> <dl> <dt>
 
 資料類型： **uint32**
@@ -455,7 +455,7 @@ OEM 特定、與匯流排相關的資料。
 存取類型：唯讀
 </dt> </dl>
 
-事件記錄檔訊息的類型。 這些訊息會對應到事件記錄檔訊息程式碼，當 Windows 事件記錄取用者提供者收到其中一個事件時，該訊息會用來插入事件記錄檔訊息。
+事件記錄檔訊息的類型。 這些訊息會對應到事件記錄檔訊息程式碼，而這些訊息是用來在接收到其中一個事件時，由 Windows 事件記錄取用者提供者插入事件記錄檔訊息。
 
 </dd> <dt>
 
