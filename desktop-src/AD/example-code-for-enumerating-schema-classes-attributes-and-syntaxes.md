@@ -7,12 +7,12 @@ keywords:
 - Active Directory 範例 Active Directory、列舉架構類別、屬性和語法
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ceaea652c2e66b07a12b31096fb06bfe8839f6ee
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 282aeea3274e3e7eb8f7b4c71134bd1cbf95aefff58e5fe9c03e459b27671f1a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104020851"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118693814"
 ---
 # <a name="example-code-for-enumerating-schema-classes-attributes-and-syntaxes"></a>列舉架構類別、屬性和語法的範例程式碼
 
@@ -204,9 +204,9 @@ Next aProp
 
 
 
- 
+ 
 
- 
+ 
 
 
 

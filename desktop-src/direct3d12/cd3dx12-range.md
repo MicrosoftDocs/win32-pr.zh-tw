@@ -15,12 +15,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 66b6b92cd24a981d48252f5ad457f7ac0320e2d7
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 371df1fb6c1b6ce9984fbed5bb388d7026ddd193d0ab2d434710df3618da7ca8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106999307"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118808511"
 ---
 # <a name="cd3dx12_range-structure"></a>CD3DX12 \_ 範圍結構
 

@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d5c4c89a231d429fc0a1f8fecbcbb4d06db35cb5
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: e9daff97a1980c7f1e5647c0e436d5e774a7a7b575b3100f1164af8b97010dea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104974621"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118535084"
 ---
 # <a name="id3dx11effectmatrixvariable-interface"></a>ID3DX11EffectMatrixVariable 介面
 

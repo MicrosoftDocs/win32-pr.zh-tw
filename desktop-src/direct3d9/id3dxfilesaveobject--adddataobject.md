@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: d1586035a0d8a81c2210009bad903aac5197bcf7
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 8a1bdea820b90ae68c819ae2755f2abecd892cfd362116f6da37cb643a254048
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106981826"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118802413"
 ---
 # <a name="id3dxfilesaveobjectadddataobject-method"></a>ID3DXFileSaveObject：： AddDataObject 方法
 

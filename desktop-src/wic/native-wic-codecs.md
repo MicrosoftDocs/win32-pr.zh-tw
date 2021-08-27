@@ -4,12 +4,12 @@ ms.assetid: 8D3E4B3A-FA39-475C-B177-61FC81E5FFCC
 title: 原生 WIC 編解碼器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cdac03bf1171659c7cad255c64dcdf77890289a9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3d33f82b2f044249431805c35ea569b58439e13e61a06403b1ea922eb6ee0c76
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106996897"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118709350"
 ---
 # <a name="native-wic-codecs"></a>原生 WIC 編解碼器
 

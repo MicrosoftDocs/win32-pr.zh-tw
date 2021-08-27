@@ -21,7 +21,7 @@ ms.locfileid: "118638802"
 
 | Column | 類型                         | 答案 | Nullable |
 |--------|------------------------------|-----|----------|
-| 名稱   | [識別碼](identifier.md) | Y   | N        |
+| Name   | [識別碼](identifier.md) | Y   | N        |
 | 資料   | [二進位](binary.md)         | N   | N        |
 
 

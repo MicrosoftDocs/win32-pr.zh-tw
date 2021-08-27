@@ -36,12 +36,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 7ec0881a7d217cfdcbc3680eaa3054dbb4fb62a3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d910e1417ea7c05e86f7e9d6c2a69c8c0e47c212a7956f1d309e895576d4ee96
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980915"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118768031"
 ---
 # <a name="eventlogginglevels-enumeration"></a>EventLoggingLevels 列舉
 

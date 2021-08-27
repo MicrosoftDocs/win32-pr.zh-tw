@@ -1,22 +1,22 @@
 ---
 title: 列舉網域控制站
-description: 在舊版的 Windows 中，應用程式只能透過呼叫 DsGetDcName 取得網域中的單一網域控制站。
+description: 在舊版 Windows 中，應用程式只能透過呼叫 DsGetDcName 取得網域中的單一網域控制站。
 ms.assetid: bfc92777-6944-406a-8b93-949a1cf3e2c3
 ms.tgt_platform: multiple
 keywords:
 - 列舉網域控制站 Active Directory 範例 Active Directory Active Directory
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 94384bb8c62edb7b0d45328dabe7765a43e4e610
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 54234301ad843708fd4e9b20e38f2b4fd8391e1134a78cea8b0d45a001d701d4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671331"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118695146"
 ---
 # <a name="enumerating-domain-controllers"></a>列舉網域控制站
 
-在舊版的 Windows 中，應用程式只能透過呼叫 [**DsGetDcName**](/windows/desktop/api/DsGetDC/nf-dsgetdc-dsgetdcnamea)取得網域中的單一網域控制站。 沒有任何方法可以預測要抓取的網域控制站，或取得網域控制站的清單。 Windows 可讓應用程式使用 [**DsGetDcOpen**](/windows/desktop/api/Dsgetdc/nf-dsgetdc-dsgetdcopena)、 [**DsGetDcNext**](/windows/desktop/api/Dsgetdc/nf-dsgetdc-dsgetdcnexta)和 [**DsGetDcClose**](/windows/desktop/api/Dsgetdc/nf-dsgetdc-dsgetdcclosew) 函數來列舉網域中的網域控制站。
+在舊版 Windows 中，應用程式只能透過呼叫 [**DsGetDcName**](/windows/desktop/api/DsGetDC/nf-dsgetdc-dsgetdcnamea)取得網域中的單一網域控制站。 沒有任何方法可以預測要抓取的網域控制站，或取得網域控制站的清單。 Windows 可讓應用程式使用 [**DsGetDcOpen**](/windows/desktop/api/Dsgetdc/nf-dsgetdc-dsgetdcopena)、 [**DsGetDcNext**](/windows/desktop/api/Dsgetdc/nf-dsgetdc-dsgetdcnexta)和 [**DsGetDcClose**](/windows/desktop/api/Dsgetdc/nf-dsgetdc-dsgetdcclosew)函數來列舉網域中的網域控制站。
 
 若要列舉網域控制站，請呼叫 [**DsGetDcOpen**](/windows/desktop/api/Dsgetdc/nf-dsgetdc-dsgetdcopena)。 此函式會使用定義要列舉之網域的參數和其他列舉選項。 **DsGetDcOpen** 會提供網域列舉內容控制碼，用來識別呼叫 [**DsGetDcNext**](/windows/desktop/api/Dsgetdc/nf-dsgetdc-dsgetdcnexta) 和 [**DsGetDcClose**](/windows/desktop/api/Dsgetdc/nf-dsgetdc-dsgetdcclosew) 時的列舉運算。
 
@@ -117,9 +117,9 @@ if(ERROR_SUCCESS == dwRet)
 
 
 
- 
+ 
 
- 
+ 
 
 
 

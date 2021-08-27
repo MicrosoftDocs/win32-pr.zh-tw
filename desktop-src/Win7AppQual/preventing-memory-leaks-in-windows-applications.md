@@ -1,28 +1,28 @@
 ---
-description: 瞭解如何在 windows 7 和 Windows Server 2008 R2 平臺的 Windows 應用程式中避免記憶體流失。
+description: 瞭解如何在 Windows 7 和 Windows Server 2008 R2 平臺 Windows 的應用程式中避免記憶體流失。
 ms.assetid: c5dedcab-3e6f-433f-95de-d741321c683e
 title: 防止 Windows 應用程式中的記憶體流失
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e973da19d075ac94824df340d1741fd9cefb3486
-ms.sourcegitcommit: af9983bab40fe0b042f177ce7ca79f2eb0f9d0e8
+ms.openlocfilehash: ef336c52ff4869ae9947b898e8a42c480be58054315de0180ec6a18f8c917f51
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "104555028"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118994791"
 ---
 # <a name="preventing-memory-leaks-in-windows-applications"></a>防止 Windows 應用程式中的記憶體流失
 
 ## <a name="affected-platforms"></a>受影響的平臺
 
 **客戶** 端-Windows 7  
-**伺服器** -Windows Server 2008 R2  
+**伺服器**-Windows Server 2008 R2  
 
-## <a name="description"></a>Description
+## <a name="description"></a>描述
 
 記憶體流失是指應用程式無法在不再需要時釋放記憶體的錯誤類別。 經過一段時間後，記憶體流失會影響特定應用程式和作業系統的效能。 由於過度分頁，大量流失可能會導致無法接受的回應時間。 最後，應用程式和作業系統的其他部分將會發生失敗。
 
-Windows 將會在進程終止時釋出應用程式所配置的所有記憶體，因此短時間執行的應用程式不會大幅影響整體系統效能。 不過，長時間執行的進程（例如服務或甚至是 Explorer 外掛程式）可能會大幅影響系統的可靠性，並且可能會強制使用者重新開機 Windows，以便讓系統再次可供使用。
+Windows 將會在進程終止時釋出應用程式所配置的所有記憶體，因此簡短執行的應用程式不會大幅影響整體系統效能。 不過，長時間執行的進程（例如服務或甚至是 Explorer 外掛程式）可能會大幅影響系統的可靠性，並且可能會強制使用者重新開機 Windows，以便讓系統再次可供使用。
 
 應用程式可以使用多個方法來代表其配置記憶體。 如果未在使用後釋出，每種配置類型可能會導致流失。 以下是一些常見配置模式的範例：
 
@@ -39,9 +39,9 @@ Windows 將會在進程終止時釋出應用程式所配置的所有記憶體，
 
 下列 Microsoft 工具提供更詳細的資訊，可協助偵測及診斷應用程式中各種配置類型的流失：
 
--   效能監視器和資源監視器是 Windows 7 的一部分，而且可以監視和繪製一段時間的資源使用方式
--   最新版本的應用程式驗證器可以在 Windows 7 上診斷堆積流失
--   UMDH 是適用于 Windows 的偵錯工具的一部分，會分析指定進程的堆積記憶體配置，並有助於找出遺漏和其他不尋常的使用模式
+-   效能監視器和資源監視器是 Windows 7 的一部分，而且可以在一段時間內監視和繪製資源使用方式
+-   最新版本的應用程式驗證器可以診斷 Windows 7 上的堆積流失
+-   UMDH 是 Windows 的偵錯工具之一部分，會分析指定進程的堆積記憶體配置，並有助於找出遺漏和其他不尋常的使用模式
 -   Xperf 是精密的效能分析工具，可支援堆積配置追蹤
 -   CRT Debug 堆積會追蹤堆積配置，並可協助建立您自己的堆積偵錯工具功能
 
@@ -50,7 +50,7 @@ Windows 將會在進程終止時釋出應用程式所配置的所有記憶體，
 -   在 c + + 程式碼中，同時針對堆積配置以及 Win32 資源（例如核心 **控制碼** s）使用智慧型指標。 C + + 標準程式庫提供堆積配置的 **自動 \_ ptr** 類別。 針對其他配置類型，您將需要撰寫自己的類別。 ATL 程式庫提供一組豐富的類別來自動管理堆積物件和核心控制碼的資源
 -   使用編譯器內建功能（例如 **\_ com \_ ptr \_ t** ）將您的 com 介面指標封裝到「智慧型指標」中，並協助參考計數。 其他 COM 資料類型有類似的類別： **\_ bstr \_ t** 和 **\_ variant \_ t**
 -   監視您的 .NET 程式碼不尋常的記憶體使用量。 Managed 程式碼不會受到記憶體流失的漏洞。 請參閱如何尋找 GC 流失的「 [追蹤受控記憶體](/archive/blogs/ricom/) 流失」
--   請留意 web 用戶端程式代碼中的遺漏模式。 COM 物件和 JScript 之類的腳本引擎之間的迴圈參考，可能會造成 web 應用程式的大量洩漏。 「[瞭解和解決 Internet Explorer 流失模式](/previous-versions/ms976398(v=msdn.10))」有關于這類流失的詳細資訊。 您可以使用 JavaScript 記憶體流失偵測器來偵測程式碼中的記憶體流失。 雖然 Windows Internet Explorer 8 （隨附于 Windows 7 的 Windows 7）可減少這些問題，但較舊的瀏覽器仍會受到這些錯誤的影響。
+-   請留意 web 用戶端程式代碼中的遺漏模式。 COM 物件與腳本引擎（例如 JScript）之間的迴圈參考，可能會造成 web 應用程式的大量流失。 「[瞭解和解決 Internet Explorer 流失模式](/previous-versions/ms976398(v=msdn.10))」有關于這類流失的詳細資訊。 您可以使用 JavaScript 記憶體流失偵測器來偵測程式碼中的記憶體流失。 雖然 Windows Internet Explorer 8 （隨 Windows 7 一起傳送）可減少這些問題，但較舊的瀏覽器仍會受到這些錯誤的影響。
 -   避免使用來自函式的多個結束路徑。 在函式範圍中指派給變數的配置應該在函式結尾的一個特定區塊中釋放
 -   請勿在您的程式碼中使用例外狀況，而不需要釋放函式中的所有區域變數。 如果您使用原生例外狀況，請釋放 finally 區塊內的所有配置 \_ \_ 。 如果您使用 c + + 例外狀況，則所有堆積和處理配置都必須包裝在智慧型指標中
 -   請勿捨棄或重新初始化 [**PROPVARIANT**](/windows/win32/api/propidlbase/ns-propidlbase-propvariant) 物件，而不呼叫 [**PropVariantClear**](/windows/win32/api/combaseapi/nf-combaseapi-propvariantclear) 函數

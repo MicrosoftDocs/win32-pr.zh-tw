@@ -8,18 +8,18 @@ keywords:
 - 物件模型，CD 燒錄
 - Windows Media Player ActiveX 控制項、CD 燒錄
 - ActiveX 控制項，CD 燒錄
-- Windows Media Player 的行動 ActiveX 控制項、CD 燒錄
-- Windows Media Player Mobile、CD 燒錄
+- Windows Media PlayerMobile ActiveX control、CD 燒錄
+- Windows Media Player行動電話、CD 燒錄
 - CD 燒錄，關於
 - 燒錄 Cd，關於
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 007b7808ff375ab0673592d0d016f8e713321d1a
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 82c7cfee7468b2cd376b7b25d4cff4a04e0d057dcc7a792ac7471843de2b74a7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104092548"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118840767"
 ---
 # <a name="burning-a-cd"></a>燒錄 CD
 
@@ -80,9 +80,9 @@ CComPtr<IWMPPlaylist>           m_spPlaylist;
 [**播放機控制指南**](player-control-guide.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

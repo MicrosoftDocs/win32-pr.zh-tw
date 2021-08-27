@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: bb52be18054b0d9da723ca15073868a6baff6b12
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a101cd38eb80598f907068d8fd27d2217ad73db1476dc41d42b2a6caaae3e6ed
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975430"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118766896"
 ---
 # <a name="jet_commit_idcompareto-method"></a>JET_COMMIT_ID CompareTo 方法
 

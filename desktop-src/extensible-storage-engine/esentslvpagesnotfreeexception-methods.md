@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102890
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: e3b7a7b1a24d2af3afd4b78a615af28869905618
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 16656407a6f5a95e896977958bdc47f6e2c5d34e2c71f69c14741d85953c1d15
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319367"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118772025"
 ---
 # <a name="esentslvpagesnotfreeexception-methods"></a>EsentSLVPagesNotFreeException 方法
 

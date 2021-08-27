@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e5cc29234fe3bb1b92e68e728423931da965391f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 61fb64c55a0b361ec4f3ca8528247f3884684b3321251c81594c3161c83a8c7b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103685634"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118130713"
 ---
 # <a name="getint32property-method-of-the-win32_rdshcollection-class"></a>Win32 RDSHCollection 類別的 GetInt32Property 方法 \_
 

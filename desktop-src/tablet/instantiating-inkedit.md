@@ -4,20 +4,20 @@ ms.assetid: 3ab0f10e-1a0d-4d0b-b5b2-69dc96570b33
 title: 具現化 InkEdit
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bde7e94566b076a4d9d6f6928fc08199ee71fa19
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 53df76fea92077e2d1dbfaea57213ad95cdccf91a4b40267cec02e28b887b984
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104469184"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119032016"
 ---
 # <a name="instantiating-inkedit"></a>具現化 InkEdit
 
 本主題說明可具現化 [InkEdit](inkedit-control.md) 控制項的各種方式。
 
-## <a name="visual-basic-net-and-c"></a>Visual Basic .NET 和 C\#
+## <a name="visual-basic-net-and-c"></a>Visual Basic .net 和 C\#
 
-如果您正在使用 Microsoft Visual Basic .NET 或 C \# ，請從 Visual Studio 的工具箱將 [InkEdit](./inkedit-control.md) 控制項拖曳至您想要顯示控制項的表單或頁面。
+如果您正在使用 Microsoft Visual Basic .net 或 C \# ，請從 Visual Studio 的工具箱將[InkEdit](./inkedit-control.md)控制項拖曳至您想要顯示控制項的表單或頁面。
 
 ## <a name="win32c"></a>Win32/c + +
 
@@ -70,7 +70,7 @@ m_hWnd, NULL, hInst, NULL);
 
 <dl> <dt>
 
-[將筆墨控制項新增至專案](adding-ink-controls-to-a-project.md)
+[將筆墨控制項新增至 Project](adding-ink-controls-to-a-project.md)
 </dt> </dl>
 
  

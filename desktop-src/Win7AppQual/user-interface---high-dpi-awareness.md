@@ -4,27 +4,27 @@ ms.assetid: 5b753340-366c-44b3-87e9-19c580f1c5d5
 title: 使用者介面 - 高 DPI 感知
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 118b566d35f753a77f6cfd9706c2e69819f3fbaa
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 52c2bb42ad2c54fc1d23e44edf54e4bc88f8ab40a3f3a04f9dbc57b484b55173
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108116066"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118994578"
 ---
 # <a name="user-interface---high-dpi-awareness"></a>使用者介面 - 高 DPI 感知
 
 ## <a name="affected-platforms"></a>受影響的平臺
 
- **客戶** 端-windows XP \| windows Vista \| windows 7  
+ **客戶** 端-Windows XP \| Windows Vista \| Windows 7  
 
 ## <a name="feature-impact"></a>功能影響
 
 **嚴重性** -中  
 **頻率** -中型  
 
-## <a name="description"></a>Description
+## <a name="description"></a>描述
 
-目標是鼓勵終端使用者將其顯示器設為原生解析度，並使用 DPI 而非螢幕解析度來變更顯示文字和影像的大小。 在 Oem 設定的電腦上，Windows 7 可以自動偵測並設定全新的 DPI，以使用 DPI 設定。 您可以使用一些工具來協助設計高度 DPI 感知的應用程式，以確保最容易閱讀的結果。
+目標是鼓勵終端使用者將其顯示器設為原生解析度，並使用 DPI 而非螢幕解析度來變更顯示文字和影像的大小。 Windows 7 可以自動偵測，並在其 oem 設定的電腦上，使用 DPI 設定自動偵測和設定預設的 DPI。 您可以使用一些工具來協助設計高度 DPI 感知的應用程式，以確保最容易閱讀的結果。
 
 我們已將兩個新的高 DPI 功能新增至 Windows 7：
 
@@ -42,7 +42,7 @@ ms.locfileid: "108116066"
 -   中斷的拖放或其他輸入
 -   全螢幕的 DX 應用程式呈現部分關閉畫面
 
-## <a name="solution"></a>解決方法
+## <a name="solution"></a>解決方案
 
 將您的應用程式設為 DPI 感知：
 

@@ -1,25 +1,25 @@
 ---
 title: 分析 DirectX 應用程式
-description: 說明如何使用 Windows 效能工具組隨附的 XPerf 和 GPUView 工具，測量 DirectX 應用程式的一些最重要效能時間測量。
+description: 示範如何使用隨附于 Windows 效能工具組一部分的 XPerf 和 GPUView 工具，測量 DirectX 應用程式的一些最重要效能時間度量。
 ms.assetid: 4B2F7273-C9B0-4DD3-B559-6220CDE62129
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0280389d4f8f2161e5e07f8906df7ea0484ad458
-ms.sourcegitcommit: 37f276b5d887a3aad04b1ba86e390dea9d87e591
+ms.openlocfilehash: c923f2917dbb8695bcd624f4d998043e7218cf2f976b19b24ab4cff2bc65f398
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "104568735"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118665363"
 ---
 # <a name="profiling-directx-apps"></a>分析 DirectX 應用程式
 
-這會示範如何使用隨附于 Windows 效能工具組中的 **XPerf** 和 **GPUView** 工具，測量 [DirectX](/previous-versions/windows/apps/jj262109(v=win.10))應用程式的一些最重要效能時間測量。 這不是瞭解工具的完整指南，而是用來分析 DirectX 應用程式效能的特定適用性。 雖然這裡討論的大部分技巧都與所有 DirectX 應用程式有關，但它最適用于使用交換鏈的應用程式，而不是使用 SIS/VSI 和 XAML 動畫的 XAML 上建的 DirectX 應用程式。 我們會逐步引導您進行關鍵效能時間測量、如何取得及安裝工具，以及採取效能測量追蹤，然後加以分析以瞭解應用程式的瓶頸。
+這會示範如何使用隨附于 Windows 效能工具組一部分的 **XPerf** 和 **GPUView** 工具，測量 [DirectX](/previous-versions/windows/apps/jj262109(v=win.10))應用程式的一些最重要效能時間度量。 這不是瞭解工具的完整指南，而是用來分析 DirectX 應用程式效能的特定適用性。 雖然這裡討論的大部分技巧都與所有 DirectX 應用程式有關，但它最適用于使用交換鏈的應用程式，而不是使用 SIS/VSI 和 XAML 動畫的 XAML 上建的 DirectX 應用程式。 我們會逐步引導您進行關鍵效能時間測量、如何取得及安裝工具，以及採取效能測量追蹤，然後加以分析以瞭解應用程式的瓶頸。
 
 ## <a name="about-the-tools"></a>關於工具
 
 ### <a name="xperf"></a>**XPerf**
 
-**XPerf** 是一組以 Windows 事件追蹤為基礎所建立的效能分析工具， (ETW) 設計來測量和分析詳細的系統和應用程式效能和資源使用量。 從 Windows 8 開始，此命令列工具具有圖形化使用者介面，稱為 Windows Performance Recorder (WPR) 和 Windows Performance Analyzer (WPA) 。 如需這些工具的詳細資訊，請參閱 [Windows 效能](/previous-versions/windows/it-pro/windows-8.1-and-8/hh162945(v=win.10)) 工具組的網頁 (WPT) ： [windows 效能工具](/previous-versions/windows/it-pro/windows-8.1-and-8/hh162945(v=win.10))組。
+**XPerf** 是一組以 Windows (ETW) 為基礎的效能分析工具，其設計目的是用來測量和分析詳細的系統和應用程式效能和資源使用量。 從 Windows 8 開始，此命令列工具具有圖形化使用者介面，稱為 Windows Performance Recorder (WPR) 和 Windows Performance Analyzer (WPA) 。 如需這些工具的詳細資訊，請參閱[Windows 效能](/previous-versions/windows/it-pro/windows-8.1-and-8/hh162945(v=win.10))工具組的網頁 (WPT) ： [Windows 效能工具](/previous-versions/windows/it-pro/windows-8.1-and-8/hh162945(v=win.10))組。
 
 ETW 會收集要求的核心事件，並將它們儲存到稱為事件追蹤記錄檔的檔案中， (ETL) 檔。 這些核心事件可在執行應用程式時提供有關應用程式和系統特性的廣泛資訊。 資料的收集方式是啟用追蹤捕捉，執行需要分析的所需應用程式案例，並停止將資料儲存在 ETL 檔案中的捕捉。 然後，您可以使用命令列工具 **xperf.exe** 或視覺化追蹤分析工具 **xperfview.exe**，在相同或不同的電腦上分析檔案。
 
@@ -35,15 +35,15 @@ ETW 會收集要求的核心事件，並將它們儲存到稱為事件追蹤記�
 
 ## <a name="installing-the-tools"></a>安裝工具
 
-**XPerf** 和 **GPUView** 都包含在 Windows 效能工具組 (WPT) 。
+**XPerf** 和 **GPUView** 都包含在 Windows 效能工具組中 (WPT) 。
 
-**XPerf** 隨附于 Windows 的 WINDOWS 軟體開發套件 (SDK) 的一部分。 [下載 Windows SDK](https://dev.windows.com/downloads)。
+**XPerf** 隨附于 Windows Windows 軟體開發套件 (SDK) 的一部分。 [下載 Windows SDK](https://dev.windows.com/downloads)。
 
-**GPUView** 可在 windows ADK)  (windows 評定及部署套件中取得。 [下載 WINDOWS ADK](/windows-hardware/get-started/adk-install)。
+**GPUView** 可在 Windows 評定及部署套件中取得 (Windows ADK) 。 [下載 Windows ADK](/windows-hardware/get-started/adk-install)。
 
 安裝之後，您必須將包含 **XPerf** 和 **GPUView** 的目錄新增至系統 "Path" 變數。
 
-按一下 [[開始] 按鈕]，然後輸入「系統變數」。 系統屬性視窗隨即開啟。 按一下 [編輯系統內容變數]。 從 [系統屬性] 對話方塊中選取 [環境變數]。 "Path" 變數位於「系統變數」下。 將包含 **xperf.exe** 和 **GPUView.exe** 的目錄附加至路徑。 您可以在「windows 套件」內的「Windows 效能工具組」目錄中找到這些可執行檔。 預設位置是： **C： \\ Program Files (x86) \\ windows 套件 \\ 10 \\ windows 效能工具** 組。
+按一下 [[開始] 按鈕]，然後輸入「系統變數」。 系統屬性視窗隨即開啟。 按一下 [編輯系統內容變數]。 從 [系統屬性] 對話方塊中選取 [環境變數]。 "Path" 變數位於「系統變數」下。 將包含 **xperf.exe** 和 **GPUView.exe** 的目錄附加至路徑。 這些可執行檔可在「Windows 套件」內的「Windows 效能工具組」目錄中找到。 預設位置是： **C： \\ Program Files (x86) \\ Windows 套件 \\ 10 \\ Windows 效能工具** 組。
 
 ## <a name="performance-time-measurements"></a>效能時間度量
 
@@ -170,7 +170,7 @@ GPU 主動處理一個畫面格的應用程式工作負載的時間。 當處理
 
 2.  為了分析花費時間的時間，請在 **XPerf** 中開啟追蹤。 若要分析 **XPerf** 中的啟動時間，請先找出 **GPUView** 中的時間間隔。 將滑鼠移到間隔左邊和右邊，並記下 [ **GPUView** ] 視窗底部所顯示的絕對時間。 然後，在 **XPerf** 中開啟相同的 .etl 檔案，並向下滾動至 [cpu 取樣（依 cpu）] 圖形，以滑鼠右鍵按一下並選取 [選取間隔 ...]這可讓您輸入感興趣的間隔，也就是查看 GPU 追蹤所發現的。
 
-    ![螢幕擷取畫面，顯示 [Windows 效能分析] 中的 [c p U 依 C P U 取樣]。](images/profile11.png)
+    ![螢幕擷取畫面，顯示「Windows 效能分析」中的「c p u 依 c p u 取樣」。](images/profile11.png)
 
 3.  移至追蹤功能表，並確認已核取 [載入符號]。 此外，請移至追蹤 > 設定符號路徑，然後輸入應用程式符號路徑。 符號檔包含有關個別資料庫中已編譯之可執行檔的偵錯工具 ( .pdb) 。 這個檔案通常稱為 PDB。 您可以在這裡找到符號檔的詳細資訊： [符號](/windows/desktop/Debug/symbol-files)檔。 您可以在應用程式目錄的 "Debug" 資料夾中找到這個檔案。
 
@@ -194,7 +194,7 @@ GPU 主動處理一個畫面格的應用程式工作負載的時間。 當處理
 
 ![gpuview 螢幕擷取畫面。](images/profile14.png)
 
-## <a name="summary"></a>總結
+## <a name="summary"></a>摘要
 
 **GPUView** 和 **XPerf** ，以及用來分析 [DirectX](/previous-versions/windows/apps/jj262109(v=win.10))應用程式效能的強大工具。 本文是使用這些工具，以及瞭解基本效能度量和應用程式特性的入門。 除了瞭解工具的使用方式，您必須先瞭解正在分析的應用程式。 開始找出問題的答案，例如應用程式嘗試達成什麼目標？ 系統中的哪些執行緒最重要？ 您願意做出哪些取捨？ 分析效能追蹤時，請先查看明顯有問題的地方。 應用程式 CPU 或 GPU 是否受限制？ 應用程式是否能夠呈現每個畫面格？ 工具以及對應用程式的瞭解，可以提供非常實用的資訊來瞭解、尋找並最後解決效能問題。
 

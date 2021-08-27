@@ -4,16 +4,16 @@ description: 球形球形物件
 ms.assetid: d5b52310-0b4e-4fe3-a481-53687be4a89c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: de0c94803e9efadde1ae4a8410273ed49437291a
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 2afc2ad1256b040588121dcb92fc8f66fea540b3051b92a6fe5273eb2f81107b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104185635"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118745970"
 ---
 # <a name="the-balloon-object"></a>球形球形物件
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 Microsoft Agent 支援使用卡通文字氣球的 [**語音**](speak-method.md) 方法文字字幕。 「 [**思考**](think-method.md) 」方法可讓您在「想像」的文字氣球中顯示沒有音訊輸出的文字。
 
@@ -37,6 +37,6 @@ Microsoft Agent 支援使用卡通文字氣球的 [**語音**](speak-method.md) 
 -   [**風格**](style-property.md)
 -   [**可見**](visible-property-bal.md)
 
- 
+ 
 
- 
+ 

@@ -1,19 +1,19 @@
 ---
-description: 若要將元件加入至 COM + 應用程式的 [元件] 資料夾，您可以使用 [COM + 元件安裝精靈] 或從 Windows 檔案總管中包含元件的 .dll 檔案，並將它們放在應用程式中。
+description: 若要將元件加入至 com + 應用程式的 [元件] 資料夾，您可以使用 [com + 元件安裝精靈]，或從 Windows 檔案總管拖曳包含元件的 .dll 檔案，然後將它們放在應用程式中。
 ms.assetid: 3cb0c24d-cd52-42ac-8b07-d8774698b90c
 title: 安裝新元件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 434bdb59c0a0e9c786bb3460a0cb1cbb6a1f50dd
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: af51bf28ce93e2d68dd1a07609c48c506911310781e8c5a0573017d43e022353
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104025956"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118813588"
 ---
 # <a name="installing-new-components"></a>安裝新元件
 
-若要將元件加入至 COM + 應用程式的 [ **元件** ] 資料夾，您可以使用 [Com + 元件安裝精靈] 或從 Windows 檔案總管中包含元件的 .dll 檔案，並將它們放在應用程式中。
+若要將元件加入至 com + 應用程式的 [**元件**] 資料夾，您可以使用 [com + 元件安裝精靈]，或從 Windows 檔案總管拖曳包含元件的 .dll 檔案，然後將它們放在應用程式中。
 
 如果您使用 COM + 元件安裝精靈，您可以安裝新的元件，以在電腦上註冊元件，或匯入已註冊的元件。 元件可以新增至空的應用程式或現有的應用程式。
 

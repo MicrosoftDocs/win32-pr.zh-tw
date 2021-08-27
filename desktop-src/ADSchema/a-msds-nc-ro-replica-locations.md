@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 590661cb3dc096caa714066762f7b556e69c5145
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 0a5fcbfe1b47eda3480cf18288a97dfbe5c21e7c66100954da4a7693222190cc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106986208"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118684354"
 ---
 # <a name="ms-ds-nc-ro-replica-locations-attribute"></a>ms DS-NC-RO-Replica-位置屬性
 

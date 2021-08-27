@@ -81,7 +81,7 @@ WIA 2.0 執行時間系統會將每個 WIA 2.0 硬體裝置表示為 [**IWiaItem
 | 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                     |
 | 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                               |
 | 標頭<br/>                   | <dl> <dt>Wia</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>Wia .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>Wia .idl</dt> </dl> |
 
 
 

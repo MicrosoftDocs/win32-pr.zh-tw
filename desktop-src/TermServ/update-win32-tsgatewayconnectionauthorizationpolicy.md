@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 87b982030170e954342dc5ff99754dcb89afd0e3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2ec7c3d1802f4faa3da8e382d00aa14fc8b3e091baef9659ad45322ec2a909c2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104025170"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118850877"
 ---
 # <a name="update-method-of-the-win32_tsgatewayconnectionauthorizationpolicy-class"></a>Win32 TSGatewayConnectionAuthorizationPolicy 類別的 Update 方法 \_
 

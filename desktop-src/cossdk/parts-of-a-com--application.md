@@ -4,12 +4,12 @@ ms.assetid: e7ed2844-276e-4726-952d-e4d3be2eb6e8
 title: COM + 應用程式的元件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f75aba454689e25e8706d4a7e3f059d498891f9e
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 9f08e9e73146f2d15e70be1cb72f847003f54ac510834f86501a7f1964ad14ed
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104468101"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118812886"
 ---
 # <a name="parts-of-a-com-application"></a>COM + 應用程式的元件
 

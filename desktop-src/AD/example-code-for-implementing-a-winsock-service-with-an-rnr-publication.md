@@ -4,16 +4,16 @@ description: 下列程式碼範例會使用 RnR 發行集來執行範例 Winsock
 ms.assetid: 8800ba76-f24c-4aa7-ba31-97eaf884130c
 ms.tgt_platform: multiple
 keywords:
-- Windows 通訊端註冊和解析廣告，範例程式碼，使用 RnR 發行集來執行 Winsock 服務
+- Windows通訊端註冊和解析 AD，範例程式碼，使用 RnR 發行集來執行 Winsock 服務
 - 使用 RnR 發行集廣告來執行 Winsock 服務，範例程式碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 18f03c7f1920d1f05ee5f5fd157bd3e37abd987c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 669d09350acad0a597421f1f4299e71f4da506b148ed1cf3e6f2a385bb8f7043
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671299"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118693652"
 ---
 # <a name="example-code-for-implementing-a-winsock-service-with-an-rnr-publication"></a>使用 RnR 發行集來執行 Winsock 服務的範例程式碼
 
@@ -270,9 +270,9 @@ INT serverRegister(SOCKADDR * sa,
 
 
 
- 
+ 
 
- 
+ 
 
 
 

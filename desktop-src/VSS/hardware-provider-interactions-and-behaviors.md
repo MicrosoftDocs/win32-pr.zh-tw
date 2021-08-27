@@ -4,12 +4,12 @@ ms.assetid: 059968cf-43e5-4442-b757-80afdd66799f
 title: 硬體提供者互動和行為
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5aa30add6b34a7f3a0c45c88346c32c43e99398e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b7c8029b32ee3387b86519da8630d995820bf3dab5da79769ca26f618ef32660
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192291"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118122057"
 ---
 # <a name="hardware-provider-interactions-and-behaviors"></a>硬體提供者互動和行為
 

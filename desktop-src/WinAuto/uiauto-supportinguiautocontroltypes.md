@@ -10,12 +10,12 @@ keywords:
 - 控制項類型，關於
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 26ac6f857da87691428c747cfe5dbff5102218f6
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: b929e246891a9addf2e3d56a2cfd8beae3c749f5aa9b74476eadb6ce769a6a20
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382478"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118825775"
 ---
 # <a name="supporting-ui-automation-control-types"></a>支援消費者介面自動化控制項類型
 
@@ -71,6 +71,6 @@ ms.locfileid: "104382478"
 [消費者介面自動化提供者程式設計人員指南](uiauto-providerportal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

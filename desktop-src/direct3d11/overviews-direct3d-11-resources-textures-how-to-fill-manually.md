@@ -4,12 +4,12 @@ description: 本主題包含數個範例，示範如何初始化使用不同類�
 ms.assetid: 65e8ae82-50aa-4303-853e-3457da18f44f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5584885b885f6026ee32a3e4c52a24aad78c3c08
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 07b7d34e7e85fd647a6f45c93d61b3330825261f59d87b9c13a95547e742e365
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840308"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118530560"
 ---
 # <a name="how-to-initialize-a-texture-programmatically"></a>如何：以程式設計方式初始化材質
 
@@ -58,9 +58,9 @@ ms.locfileid: "103840308"
 [紋理](overviews-direct3d-11-resources-textures.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

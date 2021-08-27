@@ -12,12 +12,12 @@ keywords:
 - 共用圖示資源
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 03202c250502794d5f845bcc8c2ae263d919ea62
-ms.sourcegitcommit: dc2f43e0f23f4a4ce239118cf9a5180f3ff0dd1d
+ms.openlocfilehash: 40db7a5828c80dc27780ac54e4110e37a80f44938c9475904ce32089be50d84f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "108327113"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118472596"
 ---
 # <a name="using-icons"></a>使用圖示
 
@@ -206,7 +206,7 @@ SetClassLongPtr(hwnd,          // window handle
 
 下列程式碼會使用 [**CreateIconFromResourceEx**](/windows/desktop/api/Winuser/nf-winuser-createiconfromresourceex)、 [**DrawIcon**](/windows/desktop/api/Winuser/nf-winuser-drawicon)和 [**LookupIconIdFromDirectoryEx**](/windows/desktop/api/Winuser/nf-winuser-lookupiconidfromdirectoryex)等函式，以及數個資源函式，根據另一個可執行檔中的圖示資料建立圖示控制碼。 然後，它會在視窗中顯示圖示。
 
-**安全性警告：** 不當使用 [**LoadLibrary**](/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya) 可能會載入錯誤的 DLL，進而危及應用程式的安全性。 請參閱 **LoadLibrary** 檔，以取得如何使用不同版本的 Windows 正確載入 dll 的相關資訊。
+**安全性警告：** 不當使用 [**LoadLibrary**](/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya) 可能會載入錯誤的 DLL，進而危及應用程式的安全性。 如需如何正確載入具有不同 Windows 版本之 Dll 的相關資訊，請參閱 **LoadLibrary** 檔。
 
 
 ```

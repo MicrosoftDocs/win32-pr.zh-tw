@@ -5,7 +5,7 @@ ms.assetid: 3b250818-1876-40b2-9a85-91f2bf6f52ec
 keywords:
 - AddScope (淘汰的) 方法舊版 Windows 環境功能
 - AddScope (淘汰的) 方法舊版 Windows 環境功能，IGatherNotify 介面
-- IGatherNotify 介面舊版 Windows 環境功能，AddScope (已淘汰的) 方法
+- IGatherNotify 介面舊版 Windows 環境功能，AddScope (已淘汰) 方法
 topic_type:
 - apiref
 api_name:
@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 967dc4f30acee2f8d8adbcfec04f0508e53bba15
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: a49c0cf652b0cfde59167fa98498a978d3c2c41d3a886ee092b8f4a28d35f61b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104322180"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118755589"
 ---
 # <a name="igathernotifyaddscope-deprecated-method"></a>IGatherNotify：： AddScope (已淘汰的) 方法
 

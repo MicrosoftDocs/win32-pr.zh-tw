@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 建立 InParameters 物件和剖析 OutParameters 物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a291d4fd44e69e87572684856bba587685e1f07b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: edda8255fa40baa44792e0dc2c719431cdf62c0c5a75bb9aa90221dc84e48f03
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944717"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118819460"
 ---
 # <a name="constructing-inparameters-objects-and-parsing-outparameters-objects"></a>建立 InParameters 物件和剖析 OutParameters 物件
 

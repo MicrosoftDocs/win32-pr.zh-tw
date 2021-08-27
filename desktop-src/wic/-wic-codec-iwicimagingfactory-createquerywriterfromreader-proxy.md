@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Windowscodecs.dll
 - Wincodec.lib
-ms.openlocfilehash: 4fb0d9c2346fe854cf23acee288ee1086828a76e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ee6e03da055b5e48e21c044ce1708a8a8871c30fabeb860e486cde398650c23f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103945078"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118711450"
 ---
 # <a name="iwicimagingfactory_createquerywriterfromreader_proxy-function"></a>IWICImagingFactory \_ CreateQueryWriterFromReader \_ Proxy 函式
 
@@ -46,29 +46,29 @@ HRESULT IWICImagingFactory_CreateQueryWriterFromReader_Proxy(
 *pFactory* \[在\]
 </dt> <dd>
 
-類型： **[**IWICImagingFactory**](/windows/desktop/api/Wincodec/nn-wincodec-iwicimagingfactory) \** _
+類型： **[ **IWICImagingFactory**](/windows/desktop/api/Wincodec/nn-wincodec-iwicimagingfactory)\***
 
 </dd> <dt>
 
-_pIQueryReader * \[ in\]
+*pIQueryReader* \[在\]
 </dt> <dd>
 
-類型： **[**IWICMetadataQueryReader**](/windows/desktop/api/Wincodec/nn-wincodec-iwicmetadataqueryreader) \** _
+類型： **[ **IWICMetadataQueryReader**](/windows/desktop/api/Wincodec/nn-wincodec-iwicmetadataqueryreader)\***
 
 中繼資料查詢讀取器，用來建立中繼資料寫入器。
 
 </dd> <dt>
 
-_pguidVendor * \[ in\]
+*pguidVendor* \[在\]
 </dt> <dd>
 
-類型： **CONST GUID \** _
+類型： **CONST GUID \***
 
 中繼資料查詢寫入器的廠商 GUID。
 
 </dd> <dt>
 
-_ppIQueryWriter * \[ out\]
+*ppIQueryWriter* \[擴展\]
 </dt> <dd>
 
 類型： **[ **IWICMetadataQueryWriter**](/windows/desktop/api/Wincodec/nn-wincodec-iwicmetadataquerywriter)\*\***
@@ -91,8 +91,8 @@ _ppIQueryWriter * \[ out\]
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows XP （含 SP2）、 \[ 僅限 Windows Vista 桌面應用程式\]<br/>                                                                                              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                                                                                             |
+| 最低支援的用戶端<br/> | WindowsXP SP2，僅 Windows Vista \[ 桌面應用程式\]<br/>                                                                                              |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                                                                                             |
 | DLL<br/>                      | <dl> <dt>Windowscodecs.dll;</dt><dt>Wincodec .lib</dt> </dl> |
 
 

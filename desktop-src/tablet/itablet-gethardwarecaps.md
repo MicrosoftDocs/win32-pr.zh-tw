@@ -14,12 +14,12 @@ api_type:
 api_location:
 - wisptis.exe
 - wisptis.exe.dll
-ms.openlocfilehash: 5ada3ad58699952bac5458ddd079abaf84f63bf2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6faa286a95c27556427ed62dfebd6b16496b22b2e55263661f529709d546656b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103851607"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119031906"
 ---
 # <a name="itabletgethardwarecaps-method"></a>ITablet：： GetHardwareCaps 方法
 
@@ -53,7 +53,7 @@ HRESULT GetHardwareCaps(
 
 
 
-| 傳回碼                                                                            | Description                               |
+| 傳回碼                                                                            | 描述                               |
 |----------------------------------------------------------------------------------------|-------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>   | 成功。<br/>                       |
 | <dl> <dt>**E \_ 失敗**</dt> </dl> | 發生未指定的錯誤。<br/> |
@@ -85,7 +85,7 @@ HRESULT GetHardwareCaps(
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 Windows XP Tablet PC Edition \[ 桌面應用程式\]<br/>                          |
+| 最低支援的用戶端<br/> | Windows僅限 XP Tablet PC Edition \[ 桌面應用程式\]<br/>                          |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                              |
 | 程式庫<br/>                  | <dl> <dt>Wisptis.exe</dt> </dl> |
 

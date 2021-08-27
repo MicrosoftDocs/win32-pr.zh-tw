@@ -4,12 +4,12 @@ ms.assetid: d5917421-fbd4-477c-b29b-9f983c93cfdb
 title: 發出 SetDevicePropValue 命令
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b8949cbf4fe22662de32c4c07de689fec2e6dbad
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f30190fc7de07c4ae84bbb53f4b3ddd23fcb438c1f08d497d901bd3185db8e95
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106998338"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118696662"
 ---
 # <a name="issuing-the-setdevicepropvalue-command"></a>發出 SetDevicePropValue 命令
 

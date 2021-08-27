@@ -4,16 +4,16 @@ ms.assetid: 2faf2f3f-f459-4e41-9c8e-042c7b72281b
 title: 熱備份
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2a4d007e9219ea79ae3bda31be595c33b537661a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 61b8df9bc27e303277c869901872a9b879cb2d7df32764589501b9d33a51c3fa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106979418"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118125948"
 ---
 # <a name="hot-sparing"></a>熱備份
 
-\[從 Windows 8 和 Windows Server 2012 開始， [虛擬磁碟服務](virtual-disk-service-portal.md) COM 介面會被 [Windows 儲存體管理 API](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal)取代。\]
+\[從 Windows 8 和 Windows Server 2012 開始， [Windows 儲存體管理 API](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal)會取代[虛擬磁碟服務](virtual-disk-service-portal.md)COM 介面。\]
 
 熱備份是磁片或磁片磁碟機故障或磁片磁碟機故障或磁片磁碟機的替代磁片磁碟機。  (硬體提供者對磁片磁碟機採取行動;軟體提供者可在磁片上運作。 ) 您可以在子系統中的所有 Lun 之間共用熱備用磁片磁碟機，或將其與特定 LUN 建立關聯。 同樣地，您可以將熱備用磁片與單一磁片區、套件和軟體提供者建立關聯，或在 SAN 上的所有主機之間共用。
 

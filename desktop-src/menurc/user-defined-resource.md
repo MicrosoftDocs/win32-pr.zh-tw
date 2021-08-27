@@ -6,12 +6,12 @@ keywords:
 - 使用者定義的資源
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 909352c7f0643ed67b1d199fafba1ac8f15d2a9d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2b383b7c4d1f9acfc4ce6c9db24efa77f3bfed943c1f299186d42a1facee2b43
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104183439"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118472615"
 ---
 # <a name="user-defined-resource"></a>User-Defined 資源
 
@@ -83,9 +83,9 @@ array   MYRES   data.res
 }
 ```
 
- 
+ 
 
- 
+ 
 
 
 

@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4db787c0360eff64c726ec680c9fd2a18da1e8d1
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: c2f64ad1158724aa6e58fb30ae01770786396a8b6fd23a5aecd8f8cce0e7fa87
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106973333"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118683255"
 ---
 # <a name="ms-ds-top-quota-usage-attribute"></a>ms DS-最上層配額-使用方式屬性
 

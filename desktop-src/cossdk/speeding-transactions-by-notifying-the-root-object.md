@@ -4,12 +4,12 @@ ms.assetid: 5737324a-65e5-4a39-b325-762768e171a1
 title: 藉由通知根物件來加速交易
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 21f3865382434ee070db753a0f9113577531558d
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 7fd84a041a43ef0aa4a9dc9d5dd034017925c2a42834eb383efcd256d962bd5f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104187686"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118812562"
 ---
 # <a name="speeding-transactions-by-notifying-the-root-object"></a>藉由通知根物件來加速交易
 

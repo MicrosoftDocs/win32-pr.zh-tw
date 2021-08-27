@@ -1,11 +1,11 @@
 ---
-title: MS-CHAP-關鍵字屬性
+title: MS SQL 關鍵字屬性
 description: 未使用。 預設值設定為 Key 1、Key 2、Key 3、Key 4 和 Key 5。
 ms.assetid: c6833a83-8801-4438-8402-ddfff103a62d
 ms.tgt_platform: multiple
 keywords:
-- MS-CHAP-關鍵字屬性 AD 架構
-- Ms-chap-關鍵字屬性 AD 架構
+- MS SQL 關鍵字屬性 AD 架構
+- mS SQL 關鍵字屬性 AD 架構
 topic_type:
 - apiref
 api_name:
@@ -14,14 +14,14 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dbbdc6390dcfe637965adeb325f20b87aa401a11
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: b2fb5d4c4743cc6162fc35017f5ea4bd93ba326f75d4b2f8995b4211c041d985
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104108201"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118686700"
 ---
-# <a name="ms-sql-keywords-attribute"></a>MS-CHAP-關鍵字屬性
+# <a name="ms-sql-keywords-attribute"></a>MS SQL 關鍵字屬性
 
 未使用。 預設值設定為 Key 1、Key 2、Key 3、Key 4 和 Key 5。
 
@@ -29,8 +29,8 @@ ms.locfileid: "104108201"
 
 | 進入 | 值 |
 |-------------------|---------------------------------------------|
-| CN                | MS-CHAP-關鍵字                             |
-| Ldap-顯示名稱 | Ms-chap-關鍵字                             |
+| CN                | ms-chap-SQL 關鍵字                             |
+| Ldap-顯示名稱 | ms-chap-SQL 關鍵字                             |
 | 大小              | \-                                          |
 | 更新許可權  | \-                                          |
 | 更新頻率  | 在系統設定時。                            |
@@ -66,7 +66,7 @@ ms.locfileid: "104108201"
 | Range-Upper            | \-                                                                                                                                                                                                                                                                                                          |
 | Search-Flags           | 0x00000000                                                                                                                                                                                                                                                                                                  |
 | System-Flags           | 0x00000010                                                                                                                                                                                                                                                                                                  |
-| 中使用的類別        | [**MS-CHAP-SQLServer**](c-ms-sql-sqlserver.md)<br/> [**Olapserver.server**](c-ms-sql-olapserver.md)<br/> [**SQLDatabase**](c-ms-sql-sqldatabase.md)<br/> [**OLAPDatabase**](c-ms-sql-olapdatabase.md)<br/> [**OLAPCube**](c-ms-sql-olapcube.md)<br/> |
+| 中使用的類別        | [**毫秒-SQL-SQLServer**](c-ms-sql-sqlserver.md)<br/> [**毫秒-SQL-olapserver.server**](c-ms-sql-olapserver.md)<br/> [**毫秒-SQL-SQLDatabase**](c-ms-sql-sqldatabase.md)<br/> [**毫秒-SQL-OLAPDatabase**](c-ms-sql-olapdatabase.md)<br/> [**毫秒-SQL-OLAPCube**](c-ms-sql-olapcube.md)<br/> |
 
 
 
@@ -87,7 +87,7 @@ ms.locfileid: "104108201"
 | Range-Upper            | \-                                                                                                                                                                                                                                                                                                          |
 | Search-Flags           | 0x00000000                                                                                                                                                                                                                                                                                                  |
 | System-Flags           | 0x00000010                                                                                                                                                                                                                                                                                                  |
-| 中使用的類別        | [**MS-CHAP-SQLServer**](c-ms-sql-sqlserver.md)<br/> [**Olapserver.server**](c-ms-sql-olapserver.md)<br/> [**SQLDatabase**](c-ms-sql-sqldatabase.md)<br/> [**OLAPDatabase**](c-ms-sql-olapdatabase.md)<br/> [**OLAPCube**](c-ms-sql-olapcube.md)<br/> |
+| 中使用的類別        | [**毫秒-SQL-SQLServer**](c-ms-sql-sqlserver.md)<br/> [**毫秒-SQL-olapserver.server**](c-ms-sql-olapserver.md)<br/> [**毫秒-SQL-SQLDatabase**](c-ms-sql-sqldatabase.md)<br/> [**毫秒-SQL-OLAPDatabase**](c-ms-sql-olapdatabase.md)<br/> [**毫秒-SQL-OLAPCube**](c-ms-sql-olapcube.md)<br/> |
 
 
 
@@ -108,7 +108,7 @@ ms.locfileid: "104108201"
 | Range-Upper            | \-                                                                                                                                                                                                                                                                                                          |
 | Search-Flags           | 0x00000000                                                                                                                                                                                                                                                                                                  |
 | System-Flags           | 0x00000010                                                                                                                                                                                                                                                                                                  |
-| 中使用的類別        | [**MS-CHAP-SQLServer**](c-ms-sql-sqlserver.md)<br/> [**Olapserver.server**](c-ms-sql-olapserver.md)<br/> [**SQLDatabase**](c-ms-sql-sqldatabase.md)<br/> [**OLAPDatabase**](c-ms-sql-olapdatabase.md)<br/> [**OLAPCube**](c-ms-sql-olapcube.md)<br/> |
+| 中使用的類別        | [**毫秒-SQL-SQLServer**](c-ms-sql-sqlserver.md)<br/> [**毫秒-SQL-olapserver.server**](c-ms-sql-olapserver.md)<br/> [**毫秒-SQL-SQLDatabase**](c-ms-sql-sqldatabase.md)<br/> [**毫秒-SQL-OLAPDatabase**](c-ms-sql-olapdatabase.md)<br/> [**毫秒-SQL-OLAPCube**](c-ms-sql-olapcube.md)<br/> |
 
 
 
@@ -129,7 +129,7 @@ ms.locfileid: "104108201"
 | Range-Upper            | \-                                                                                                                                                                                                                                                                                                          |
 | Search-Flags           | 0x00000000                                                                                                                                                                                                                                                                                                  |
 | System-Flags           | 0x00000010                                                                                                                                                                                                                                                                                                  |
-| 中使用的類別        | [**MS-CHAP-SQLServer**](c-ms-sql-sqlserver.md)<br/> [**Olapserver.server**](c-ms-sql-olapserver.md)<br/> [**SQLDatabase**](c-ms-sql-sqldatabase.md)<br/> [**OLAPDatabase**](c-ms-sql-olapdatabase.md)<br/> [**OLAPCube**](c-ms-sql-olapcube.md)<br/> |
+| 中使用的類別        | [**毫秒-SQL-SQLServer**](c-ms-sql-sqlserver.md)<br/> [**毫秒-SQL-olapserver.server**](c-ms-sql-olapserver.md)<br/> [**毫秒-SQL-SQLDatabase**](c-ms-sql-sqldatabase.md)<br/> [**毫秒-SQL-OLAPDatabase**](c-ms-sql-olapdatabase.md)<br/> [**毫秒-SQL-OLAPCube**](c-ms-sql-olapcube.md)<br/> |
 
 
 
@@ -150,7 +150,7 @@ ms.locfileid: "104108201"
 | Range-Upper            | \-                                                                                                                                                                                                                                                                                                          |
 | Search-Flags           | 0x00000000                                                                                                                                                                                                                                                                                                  |
 | System-Flags           | 0x00000010                                                                                                                                                                                                                                                                                                  |
-| 中使用的類別        | [**MS-CHAP-SQLServer**](c-ms-sql-sqlserver.md)<br/> [**Olapserver.server**](c-ms-sql-olapserver.md)<br/> [**SQLDatabase**](c-ms-sql-sqldatabase.md)<br/> [**OLAPDatabase**](c-ms-sql-olapdatabase.md)<br/> [**OLAPCube**](c-ms-sql-olapcube.md)<br/> |
+| 中使用的類別        | [**毫秒-SQL-SQLServer**](c-ms-sql-sqlserver.md)<br/> [**毫秒-SQL-olapserver.server**](c-ms-sql-olapserver.md)<br/> [**毫秒-SQL-SQLDatabase**](c-ms-sql-sqldatabase.md)<br/> [**毫秒-SQL-OLAPDatabase**](c-ms-sql-olapdatabase.md)<br/> [**毫秒-SQL-OLAPCube**](c-ms-sql-olapcube.md)<br/> |
 
 
 
@@ -171,7 +171,7 @@ ms.locfileid: "104108201"
 | Range-Upper            | \-                                                                                                                                                                                                                                                                                                          |
 | Search-Flags           | 0x00000000                                                                                                                                                                                                                                                                                                  |
 | System-Flags           | 0x00000010                                                                                                                                                                                                                                                                                                  |
-| 中使用的類別        | [**MS-CHAP-SQLServer**](c-ms-sql-sqlserver.md)<br/> [**Olapserver.server**](c-ms-sql-olapserver.md)<br/> [**SQLDatabase**](c-ms-sql-sqldatabase.md)<br/> [**OLAPDatabase**](c-ms-sql-olapdatabase.md)<br/> [**OLAPCube**](c-ms-sql-olapcube.md)<br/> |
+| 中使用的類別        | [**毫秒-SQL-SQLServer**](c-ms-sql-sqlserver.md)<br/> [**毫秒-SQL-olapserver.server**](c-ms-sql-olapserver.md)<br/> [**毫秒-SQL-SQLDatabase**](c-ms-sql-sqldatabase.md)<br/> [**毫秒-SQL-OLAPDatabase**](c-ms-sql-olapdatabase.md)<br/> [**毫秒-SQL-OLAPCube**](c-ms-sql-olapcube.md)<br/> |
 
 
 

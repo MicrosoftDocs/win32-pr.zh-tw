@@ -4,12 +4,12 @@ ms.assetid: 34ad82f2-542c-4342-af02-a767d6d4c96c
 title: 'D3DX 中的線條繪圖支援 (Direct3D 9) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c4cf15eae461d0dbe719e99cfac605a6c8b8d272
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 7c9cf107615410da6dcfba02d6f708129429e31586360183277fb8f669653d75
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112407531"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118799679"
 ---
 # <a name="line-drawing-support-in-d3dx-direct3d-9"></a>D3DX 中的線條繪圖支援 (Direct3D 9) 
 

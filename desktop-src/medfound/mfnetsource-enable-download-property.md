@@ -4,12 +4,12 @@ ms.assetid: c178693f-44ea-481e-b7f2-2ec94eea1994
 title: 'MFNETSOURCE_ENABLE_DOWNLOAD 屬性 (Mfidl) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1d1b57d8ab984f7c198d1c1b43455f2d0d5dda68
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fe7749dcdf15c099284a73cf6c55c1d753825230126e77a972e906b280a0b09a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026339"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118738977"
 ---
 # <a name="mfnetsource_enable_download-property"></a>MFNETSOURCE \_ 啟用 \_ 下載屬性
 
@@ -43,8 +43,8 @@ VT \_ I4
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                     |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                               |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                     |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                               |
 | 標頭<br/>                   | <dl> <dt>Mfidl。h</dt> </dl> |
 
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msident.dll
-ms.openlocfilehash: 9f2644570bb7ccc2ae5bee8a37d4471ffb65861a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 20357dde27214177a454eb585dcd51182228c247da5aeae5ef887089b73ed85d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972324"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118720604"
 ---
 # <a name="iuseridentitygetidentityfolder-method"></a>IUserIdentity：： GetIdentityFolder 方法
 
@@ -77,13 +77,13 @@ HRESULT GetIdentityFolder(
 *pszPath* \[在\]
 </dt> <dd>
 
-類型： **WCHAR \** _
+類型： **WCHAR \***
 
 接收資料夾路徑的寬字元字串指標。
 
 </dd> <dt>
 
-_ulBuffSize * \[ in\]
+*ulBuffSize* \[在\]
 </dt> <dd>
 
 類型： **ULONG**
@@ -109,7 +109,7 @@ _ulBuffSize * \[ in\]
 | 用戶端支援結束<br/>    | Windows 2000 Professional<br/>                                                   |
 | 伺服器支援結束<br/>    | Windows 2000 Server<br/>                                                         |
 | 標頭<br/>                   | <dl> <dt>Msident。h</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>Msident .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>Msident .idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Msident.dll</dt> </dl> |
 
 

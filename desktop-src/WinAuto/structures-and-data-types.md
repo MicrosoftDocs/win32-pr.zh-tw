@@ -4,12 +4,12 @@ description: 結構和資料類型
 ms.assetid: 62c00f7f-a005-40d2-8a5f-f7e8f68a25da
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9db4ba285514407a258f7d059c3573d07af29902
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: b23b312a5d323815af07f347c793f5b0609cb088fe0600d906933e02e1b7d5fa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104024036"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118827770"
 ---
 # <a name="structures-and-data-types"></a>結構和資料類型
 

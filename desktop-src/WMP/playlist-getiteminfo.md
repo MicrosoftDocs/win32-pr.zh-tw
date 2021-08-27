@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6b1151528d6cf4e36aaed1cb4dc48a70f4083c4e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b48a9106a4aba6a5080724faccc856a1515e7a7398a1c75df2fa1e99bf86f342
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106976558"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118834875"
 ---
 # <a name="playlistgetiteminfo-method"></a>GetItemInfo 方法
 
@@ -45,7 +45,7 @@ strRetVal = Playlist.getItemInfo(
 *名稱* \[在\]
 </dt> <dd>
 
-包含要抓取的屬性名稱的 **字串**。 如需 Windows Media Player 所支援之屬性的詳細資訊，請參閱 Windows Media Player [屬性參考](attribute-reference.md)。
+包含要抓取的屬性名稱的 **字串**。 如需 Windows Media Player 所支援之屬性的詳細資訊，請參閱 Windows Media Player[屬性參考](attribute-reference.md)。
 
 </dd> </dl>
 

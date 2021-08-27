@@ -30,12 +30,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 49b466b298a78d7bfd6822904aed977e7117b927
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 83bf60be88aa1db7bac30c96c0c438d453c6fc24279b18502205ce96e60b9f14
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103694699"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118978368"
 ---
 # <a name="termgrbit-enumeration"></a>TermGrbit 列舉
 

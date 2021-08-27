@@ -3,17 +3,17 @@ title: 每一行的規則
 description: 每一行的規則
 ms.assetid: 9bc7ed16-6e94-4cda-81da-f71dcb81580d
 keywords:
-- Windows Media Player 行動外觀、文字行的規則
+- Windows Media Player行動外觀、文字行的規則
 - 外觀，文字行的規則
 - 外觀定義檔、文字行的規則
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1b2adaf52156a2feed7893976099cacb82a19fcc
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: bc95bc262f43e27d0f132bac306a5efe4c5b106dc33238e9f49208469738a8a4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021694"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118833598"
 ---
 # <a name="rules-for-each-line"></a>每一行的規則
 
@@ -34,9 +34,9 @@ ms.locfileid: "104021694"
 [**外觀定義檔**](skin-definition-file-mobile.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 
