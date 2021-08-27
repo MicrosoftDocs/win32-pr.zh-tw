@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 226477d5727ac7beb51bc422e04c5dda83b4a351
-ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
+ms.openlocfilehash: f42baae5c6bdaa1ca9aecfced98a04a431ba7416
+ms.sourcegitcommit: 4e94fc75fad7b2a0f3c92a26f97e89924e59b7a9
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "122623074"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "122786914"
 ---
 # <a name="span-idvspixengineisourcefileinfocallbackspanisourcefileinfocallback-interface"></a><span id="vspixengine.isourcefileinfocallback"></span>ISourceFileInfoCallback 介面
 
@@ -38,7 +38,7 @@ ms.locfileid: "122623074"
 
 **ISourceFileInfoCallback** 介面具有這些方法。
 
-<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th style="text-align: left;">方法</th><th style="text-align: left;">描述</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/isourcefileinfocallback-resultcallback-dword-sourcefileinfo-arr"><strong>ResultCallback</strong></a></td><td style="text-align: left;"><p>回呼函式，用來通知主機與呼叫堆疊相關聯之來源檔案的相關資訊。</p></td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th >方法</th><th >說明</th></tr></thead><tbody><tr class="odd"><td ><a href="/windows/desktop/direct3dtools/isourcefileinfocallback-resultcallback-dword-sourcefileinfo-arr"><strong>ResultCallback</strong></a></td><td ><p>回呼函式，用來通知主機與呼叫堆疊相關聯之來源檔案的相關資訊。</p></td></tr></tbody></table>
 
  
 

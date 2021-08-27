@@ -4,12 +4,12 @@ ms.assetid: b5f607b2-9cca-4eef-9c63-d2015bd10469
 title: Composition
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e030e02ab77ec54e1e340d72db7210665d649bfb
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 1f5973b478f442187645fbd73e8fca88ebfe71f247aea0e9065356583b6748ac
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106972922"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120084278"
 ---
 # <a name="composition"></a>Composition
 

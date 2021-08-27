@@ -4,12 +4,12 @@ description: Help 屬性提供的資訊會告訴使用者物件的功能。
 ms.assetid: 3df0cc01-cc99-42a1-9d56-591e6e00e53d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3b240475d4583826e08fd6ee43b5839bdfb451d4
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 5e6f8b226c483e3a3d68f878fccb940fc1a9f69f18b6fde62eed4b5a7a8ea9b5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104300740"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120122188"
 ---
 # <a name="help-property"></a>Help 屬性
 
@@ -25,9 +25,9 @@ ms.locfileid: "104300740"
 
 如果其他屬性提供物件用途的足夠資訊，以及物件執行的動作，則伺服器不支援 [說明 **] 屬性。** 公開系統提供之控制項的可存取物件不支援 **Help** 屬性。
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ description: 動態注釋執行時間不會傳送 WinEvents;必要時，annotato
 ms.assetid: 657a540b-8838-4d2e-ade6-c4fa1ad08e21
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c2aedd09a22371f91a92eca891c77f6c424583b5
-ms.sourcegitcommit: 85688bbfbe5b121bc05ddf112d54c23a469dfbc0
+ms.openlocfilehash: df1789a152ab37161e1f217639e4ad40d597b0689529da3a5f65bf669b986e14
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "106965001"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120098458"
 ---
 # <a name="interaction-with-winevents"></a>與 WinEvents 互動
 
@@ -19,9 +19,9 @@ ms.locfileid: "106965001"
 
 但是，如果您使用 [**IAccPropServices：： SetPropValue**](/windows/desktop/api/Oleacc/nf-oleacc-iaccpropservices-setpropvalue) 來設定滑杆的 ValueMap，則不需要任何事件，因為設定 ValueMap 不會變更滑杆的值。
 
- 
+ 
 
- 
+ 
 
 
 

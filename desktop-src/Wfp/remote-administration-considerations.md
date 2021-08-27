@@ -4,12 +4,12 @@ ms.assetid: bfdf121e-9b4e-4323-82ec-9bd32531caad
 title: WFP 遠端系統管理考慮
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 57bb40776f6b727abb49d7e0685bb12b087ed2bc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 99b3106a02aa4098d2814a955e6582d6e8f1c79f7f161a6875891e13a0db71a7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106997867"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120098588"
 ---
 # <a name="wfp-remote-administration-considerations"></a>WFP 遠端系統管理考慮
 

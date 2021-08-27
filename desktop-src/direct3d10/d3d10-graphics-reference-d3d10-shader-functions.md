@@ -4,12 +4,12 @@ ms.assetid: c8b33c08-7b3f-4b33-9b3c-4aa2b45b8f32
 title: " (Direct3D 10 圖形) 的著色器函式"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e5ac0136eee8648512287eb146bbae02256fb223
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: fef8c39bf47761c3e1b47bd55fedfd4cc90b57b66b42e2d98df6d89dd425da13
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104317908"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120119958"
 ---
 # <a name="shader-functions-direct3d-10-graphics"></a> (Direct3D 10 圖形) 的著色器函式
 

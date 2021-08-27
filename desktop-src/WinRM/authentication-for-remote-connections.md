@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 0622f3d80e923f7d910740c71ee99f0e9a0bc446cea259b292e2d645e3b5a973
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b9c9c0e98d884e09b9bbd52ef4f0e1cb53e782ea
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119858871"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122886995"
 ---
 # <a name="authentication-for-remote-connections"></a>遠端連線的驗證
 
@@ -23,7 +23,7 @@ Windows遠端系統管理可支援數種標準的驗證方法和訊息加密，�
 
 ## <a name="default-group-access"></a>預設群組存取
 
-在安裝期間，WinRM 會建立本地 **組 \_ \_ WinRMRemoteWMIUsers**。 WinRM 接著會限制遠端存取不屬於本機系統管理群組或 **WinRMRemoteWMIUsers \_ \_** 群組成員的任何使用者。 您可以在命令提示字元中輸入 **net localgroup WinRMRemoteWMIUsers \_ \_ /add <domain> \\ <username>** ，將本機使用者、網域使用者或網域群組新增至 **WinRMRemoteWMIUsers \_ \_** 。 （選擇性）您可以使用群組原則將使用者新增至群組。
+在安裝期間，WinRM 會建立本地 **組 \_ \_ WinRMRemoteWMIUsers**。 WinRM 接著會限制遠端存取不屬於本機系統管理群組或 **WinRMRemoteWMIUsers \_ \_** 群組成員的任何使用者。 您可以在命令提示字元中輸入 **net localgroup WinRMRemoteWMIUsers \_ \_ /add &lt; domain &gt; \\ &lt; username &gt;** ，以將本機使用者、網域使用者或網域群組新增至 **WinRMRemoteWMIUsers \_ \_** 。 （選擇性）您可以使用群組原則將使用者新增至群組。
 
 ## <a name="default-authentication-settings"></a>預設驗證設定
 

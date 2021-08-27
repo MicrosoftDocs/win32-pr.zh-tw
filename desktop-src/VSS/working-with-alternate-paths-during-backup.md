@@ -4,12 +4,12 @@ ms.assetid: b9e96827-a678-45ca-8ede-4508a406f071
 title: 在備份期間使用替代路徑
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a98e93af4d12b804032a64841542e731ff77e048
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 62bc969c96d943b73a8a9d9609f004b4a0f738c46802af20a7dff22e34ebac56
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973470"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120124448"
 ---
 # <a name="working-with-alternate-paths-during-backup"></a>在備份期間使用替代路徑
 

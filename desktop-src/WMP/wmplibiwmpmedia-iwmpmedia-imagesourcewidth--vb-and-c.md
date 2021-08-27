@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 441c4fb4a05f610aee5a2c923353fb9688bffcc2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2c24d9cb6d6c8cdec29984fa66b6cb12e254413ca518ed12a3089627aeeb08e8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107000968"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120098787"
 ---
 # <a name="iwmpmediaimagesourcewidth-property"></a>IWMPMedia：： imageSourceWidth 屬性
 

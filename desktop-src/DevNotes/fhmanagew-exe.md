@@ -4,12 +4,12 @@ ms.assetid: 31A6E1AC-492A-4080-9095-3180FD60A575
 title: FhManagew.exe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bbcf8480117dd9d10bf001682bd2c789290e2cebb0369d72afe9624ea1aefd48
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 2570da9b2b874b723b28917028fab3c58ecdf772
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119538738"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122481514"
 ---
 # <a name="fhmanagewexe"></a>FhManagew.exe
 
@@ -23,29 +23,11 @@ FhManagew.exe 程式會從目前指派的檔案歷程記錄目標裝置刪除超
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>參數</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><span id="age"></span><span id="AGE"></span><em>年齡</em><br/></td>
-<td>此參數會指定可刪除之檔案版本的最小存留期（以天為單位）。 如果下列兩個條件都成立，則會刪除檔案版本：<br/>
-<ul>
-<li>檔案版本比指定的存留期還舊。</li>
-<li>檔案已不再包含于保護範圍內，或目標裝置上有較新版本的相同檔案。</li>
-</ul>
-如果 <em>age</em> 參數設定為零，則會刪除所有檔案版本，但目前存在於保護範圍內的每個檔案的最新版本除外。<br/></td>
-</tr>
-</tbody>
-</table>
+
+| 參數 | Description | 
+|-----------|-------------|
+| <span id="age"></span><span id="AGE"></span><em>年齡</em><br /> | 此參數會指定可刪除之檔案版本的最小存留期（以天為單位）。 如果下列兩個條件都成立，則會刪除檔案版本：<br /><ul><li>檔案版本比指定的存留期還舊。</li><li>檔案已不再包含于保護範圍內，或目標裝置上有較新版本的相同檔案。</li></ul>如果 <em>age</em> 參數設定為零，則會刪除所有檔案版本，但目前存在於保護範圍內的每個檔案的最新版本除外。<br /> | 
+
 
 
 

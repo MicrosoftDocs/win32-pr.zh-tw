@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 14ab184ddaca16d0ea96b86a6b062f1e66e2eee2
-ms.sourcegitcommit: 8276af9231bdbf5a7334299f0d13fc8ff069a065
+ms.openlocfilehash: bd209ed04e51671ce7d9c8a7ae88a79073836c2e
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "106997289"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122626113"
 ---
 # <a name="status-command"></a>status 命令
 
@@ -59,8 +59,8 @@ MCI 裝置的識別碼。 開啟裝置時，會指派此識別碼或別名。
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -306,8 +306,8 @@ MCI 裝置的識別碼。 開啟裝置時，會指派此識別碼或別名。
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -847,7 +847,7 @@ status mysound mode
 
 <dl> <dt>
 
-[Mci](mci.md)
+[MCI](mci.md)
 </dt> <dt>
 
 [MCI 命令字串](mci-command-strings.md)

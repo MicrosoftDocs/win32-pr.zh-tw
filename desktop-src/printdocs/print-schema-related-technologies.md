@@ -4,12 +4,12 @@ ms.assetid: 360325dc-51b5-44d5-981b-b69f7d6c82fd
 title: 列印 Schema-Related 技術
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7c39d002b956fdd012a2b74a94ae0a4c58f568d8
-ms.sourcegitcommit: 998d50f6def8a25850fc113fc8a2df903c829c5e
+ms.openlocfilehash: eb2948108b8bd6f581608471c9646fe135f83cb91561dc3c4cca97ac4df10560
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "113548785"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120112268"
 ---
 # <a name="print-schema-related-technologies"></a>列印 Schema-Related 技術
 

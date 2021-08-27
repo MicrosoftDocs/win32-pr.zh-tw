@@ -4,12 +4,12 @@ ms.assetid: cda632cf-6c92-48fb-aef1-25b320affd3e
 title: 使用 MRU 來源清單
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1dbecb9e32a554d1818661b1fd7f6e782744c16e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ada1fa55a1c0defea2f344200eb331b8031dedfa66336510fb55b6fb77213a24
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943920"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120100628"
 ---
 # <a name="using-the-mru-source-list"></a>使用 MRU 來源清單
 

@@ -4,12 +4,12 @@ ms.assetid: e2d7fd41-297a-400b-ae59-5d67db2be6f6
 title: IPv6 Winsock 應用程式的消費者介面問題
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 03305073687cdd77e17c529d70ffe5959df40960
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ae982504798789c928691bbf4932d5e6abdfabf1ba12077122bb6dab28eb47de
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106971546"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120121181"
 ---
 # <a name="user-interface-issues-for-ipv6-winsock-applications"></a>IPv6 Winsock 應用程式的消費者介面問題
 
@@ -77,7 +77,7 @@ IPv6 位址不是可預測的，因為 IPv6 位址慣例可讓您使用雙冒號
 
 <dl> <dt>
 
-[適用于 Windows 通訊端應用程式的 IPv6 指南](ipv6-guide-for-windows-sockets-applications-2.md)
+[Windows 通訊端應用程式的 IPv6 指南](ipv6-guide-for-windows-sockets-applications-2.md)
 </dt> <dt>
 
 [變更 IPv6 Winsock Html5 應用程式的資料結構](changing-data-structures-2.md)

@@ -6,12 +6,12 @@ keywords:
 - Windows Media Player線上商店
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 08e618f1eddca3389801d2b6c2d5de1e7a6ee67f7aef593478f4999f69bbd148
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fcff5aeed04ff2e60b03e7b546de23f1d0d747b9
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119390878"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122477204"
 ---
 # <a name="getting-an-online-music-store-on-board"></a>取得面板上的線上音樂商店
 
@@ -19,33 +19,12 @@ ms.locfileid: "119390878"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>階段</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Pending</td>
-<td><ul>
-<li>您會將必要的連絡人資訊、啟動資訊和驗證帳戶傳送給 Microsoft。</li>
-<li>Microsoft 會將測試金鑰和生產金鑰傳送給您。</li>
-<li>您可以使用 Windows Media Player 來測試您的線上商店。</li>
-<li>您將簽署的合約和合約提交給 Microsoft。</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>驗證</td>
-<td>Microsoft 會驗證您的線上商店。</td>
-</tr>
-</tbody>
-</table>
+
+| 階段 | Description | 
+|-------|-------------|
+| Pending | <ul><li>您會將必要的連絡人資訊、啟動資訊和驗證帳戶傳送給 Microsoft。</li><li>Microsoft 會將測試金鑰和生產金鑰傳送給您。</li><li>您可以使用 Windows Media Player 來測試您的線上商店。</li><li>您將簽署的合約和合約提交給 Microsoft。</li></ul> | 
+| 驗證 | Microsoft 會驗證您的線上商店。 | 
+
 
 
 
@@ -76,7 +55,7 @@ ms.locfileid: "119390878"
 
 
 
-| Item                     | 描述                                                                               |
+| 項目                     | 描述                                                                               |
 |--------------------------|-------------------------------------------------------------------------------------------|
 | 商店名稱               | 您存放區的品牌名稱                                                            |
 | Provider Name            | 提供者/白卷標公司的名稱 (如果不同)                                |
@@ -110,7 +89,7 @@ ms.locfileid: "119390878"
 
 
 
-| Item                                                                                                     | 描述                                                                                                                                                                                                                                   |
+| 項目                                                                                                     | 描述                                                                                                                                                                                                                                   |
 |----------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 服務資訊 XML URL (2048-字元限制)                                                               | Windows Media Player 取得[ServiceInfo XML 檔](serviceinfo-document.md)的 URL。                                                                                                                                         |
 | 服務金鑰 (唯一識別碼)                                                                                   | 可唯一識別您的線上商店的字串。 您應該建立一個用於生產環境，另一個用於測試 (例如，"MyStore" 和 "MyStoreTest" ) 。 請注意，服務金鑰與測試金鑰的內容不同。                        |

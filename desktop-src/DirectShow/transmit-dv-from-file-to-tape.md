@@ -4,12 +4,12 @@ ms.assetid: f6dd8c4b-0535-42b9-a969-89e7b9e6ee0f
 title: 從檔案傳輸 DV 到磁帶
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 415a12f0876d3bd8e2a46de58b15f96f3eba3e2f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 56bcd7bf716466cda2fc23a03968da4a51c005070f885183390f944d14994ec2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106984654"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120086788"
 ---
 # <a name="transmit-dv-from-file-to-tape"></a>從檔案傳輸 DV 到磁帶
 
@@ -17,7 +17,7 @@ ms.locfileid: "106984654"
 
 1.  建立 [MSDV 驅動程式](msdv-driver.md) 篩選器的實例。 如需詳細資訊，請參閱 [選取擷取裝置](selecting-a-capture-device.md)。
 2.  請確定裝置處於 VTR 模式。 否則，您無法傳輸至磁帶。請參閱 [裝置模式](device-mode.md)。
-3.  如 [關於 Capture graph](about-the-capture-graph-builder.md)產生器中所述，初始化 Capture graph builder。
+3.  如[《 capture Graph builder](about-the-capture-graph-builder.md)》中所述，初始化 capture Graph builder。
 4.  建立圖形。 圖形設定取決於 DV 檔案類型：
     -   [從類型1檔案傳輸](transmit-from-type-1-file.md)
     -   [從類型2檔案傳輸](transmit-from-type-2-file.md)

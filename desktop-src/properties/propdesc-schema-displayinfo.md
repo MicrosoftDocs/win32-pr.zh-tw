@@ -4,12 +4,12 @@ ms.assetid: 27c03ced-a5fa-4ab4-b88e-5b78701da878
 title: displayInfo
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fff0bb441b4535c0b6c6f3183671fbe8ade09183
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9b0bbc3cf0f17d24672e30a110d95341c1cb902d
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106983656"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122622084"
 ---
 # <a name="displayinfo"></a>displayInfo
 
@@ -274,7 +274,7 @@ ms.locfileid: "106983656"
 |                                                                  | [drawControl](./propdesc-schema-drawcontrol.md)                                                               |
 |                                                                  | [editControl](./propdesc-schema-editcontrol.md)                                                               |
 |                                                                  | [filterControl](./propdesc-schema-filtercontrol.md)                                                           |
-|                                                                  | [queryControl](./propdesc-schema-querycontrol.md) (的 Windows Vista。 在 Windows 7 及更新版本中不支援。 )  |
+|                                                                  | [queryControl](./propdesc-schema-querycontrol.md) (Windows Vista。 Windows 7 和更新版本不支援。 )  |
 
 
 
@@ -286,8 +286,8 @@ ms.locfileid: "106983656"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -316,7 +316,7 @@ ms.locfileid: "106983656"
 <td>預設值。 值會顯示為字串。 使用 &quot; stringFormat &quot; 來格式化。 方法會傳回 PDDT_STRING。</td>
 </tr>
 <tr class="even">
-<td>Number</td>
+<td>數字</td>
 <td>數值屬性的預設值。 值會顯示為數字。 使用 &quot; >cultureinfo.numberformat &quot; 來格式化。 方法會傳回 PDDT_NUMBER。</td>
 </tr>
 <tr class="odd">
@@ -380,7 +380,7 @@ ms.locfileid: "106983656"
 <td>預設值。 使用 &quot; 不同 &quot;  /  &quot; &quot;  /  &quot; 的不同 &quot; 。</td>
 </tr>
 <tr class="even">
-<td>Date</td>
+<td>日期</td>
 <td>預設值 <typeInfo type=&quot;DateTime&quot;> 。 稍後會使用較 &quot; &quot;  /  &quot; &quot;  /  &quot; &quot; 舊的版本，或使用 &quot; 較舊的舊版本 &quot;  /  &quot; &quot;  /  &quot; &quot; ，或 &quot; 稍後使用 &quot;  /  &quot; &quot;  /  &quot; &quot; 較舊的版本。</td>
 </tr>
 <tr class="odd">

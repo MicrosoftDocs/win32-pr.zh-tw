@@ -4,12 +4,12 @@ ms.assetid: 1378bbe6-be94-4be1-b428-5ec58dabd1fa
 title: 設定媒體來源
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 69e6737d643db2ee473214586cd7ded4f9596133dac5f4fb177df4d7b6b19757
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 809d215cf282dba1e65c21316fafda47684a2151
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117880589"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122481704"
 ---
 # <a name="configuring-a-media-source"></a>設定媒體來源
 
@@ -19,33 +19,12 @@ ms.locfileid: "117880589"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>媒體來源</th>
-<th>屬性</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>網路來源</td>
-<td>請參閱 <a href="network-source-features.md">網路來源功能</a>。</td>
-</tr>
-<tr class="even">
-<td>ASF 媒體來源</td>
-<td><ul>
-<li><a href="mfpkey-asfmediasource-approxseek-property.md"><strong>MFPKEY_ASFMediaSource_ApproxSeek</strong></a></li>
-<li><a href="mfpkey-asfmediasource-iterativeseekifnoindex.md">MFPKEY_ASFMediaSource_IterativeSeekIfNoIndex</a></li>
-<li><a href="mfpkey-asfmediasource-iterativeseek-max-count.md">MFPKEY_ASFMediaSource_IterativeSeek_Max_Count</a></li>
-<li><a href="mfpkey-asfmediasource-iterativeseek-tolerance-in-millisecond.md">MFPKEY_ASFMediaSource_IterativeSeek_Tolerance_In_MilliSecond</a></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| 媒體來源 | 屬性 | 
+|--------------|------------|
+| 網路來源 | 請參閱 <a href="network-source-features.md">網路來源功能</a>。 | 
+| ASF 媒體來源 | <ul><li><a href="mfpkey-asfmediasource-approxseek-property.md"><strong>MFPKEY_ASFMediaSource_ApproxSeek</strong></a></li><li><a href="mfpkey-asfmediasource-iterativeseekifnoindex.md">MFPKEY_ASFMediaSource_IterativeSeekIfNoIndex</a></li><li><a href="mfpkey-asfmediasource-iterativeseek-max-count.md">MFPKEY_ASFMediaSource_IterativeSeek_Max_Count</a></li><li><a href="mfpkey-asfmediasource-iterativeseek-tolerance-in-millisecond.md">MFPKEY_ASFMediaSource_IterativeSeek_Tolerance_In_MilliSecond</a></li></ul> | 
+
 
 
 

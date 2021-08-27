@@ -4,12 +4,12 @@ ms.assetid: 62030f5c-a7cc-4ba7-86ca-c0bdfc2cfb4b
 title: 建立應用程式摘要屬性
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b4ca218a02dee9a68b67b8ac82c44c4b47e7a164
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: fbdf54ca4703a40be8976c8ed1e635fda32fc236c8b421e3ffccaf611b0cd455
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106980149"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120129658"
 ---
 # <a name="creating-application-summary-property"></a>建立應用程式摘要屬性
 
@@ -21,7 +21,7 @@ ms.locfileid: "106980149"
 
 | 需求 | 值 |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 版本<br/> | Windows Server 2012、Windows 8、Windows Server 2008 R2 或 Windows 7 上的 Windows Installer 5.0。 Windows Server 2008 或 Windows Vista 上的 Windows Installer 4.0 或 Windows Installer 4.5。 Windows Server 2003 或 Windows XP 上的 Windows Installer<br/> |
+| 版本<br/> | WindowsWindows Server 2012、Windows 8 Windows Server 2008 R2 或 Windows 7 上的安裝程式5.0。 WindowsWindows Server 2008 或 Windows Vista 上的安裝程式4.0 或 Windows Installer 4.5。 WindowsWindows Server 2003 或 Windows XP 上的安裝程式<br/> |
 
 
 

@@ -3,7 +3,7 @@ title: 'LVM_GETITEMCOUNT 訊息 (Commctrl .h) '
 description: 抓取清單視圖控制項中的專案數。 您可以明確地傳送此訊息，或使用 ListView \_ GetItemCount 宏來傳送。
 ms.assetid: 7c639d69-e42c-41b5-9fdd-4943166752a2
 keywords:
-- LVM_GETITEMCOUNT message Windows 控制項
+- LVM_GETITEMCOUNT 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ff2791440c7285d054eca0d2945086d06e3c35a3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f1561e893930e4e3eca8de628c1df555e63794c3463edf81af798c53d873c8a4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103686280"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120109618"
 ---
 # <a name="lvm_getitemcount-message"></a>LVM \_ GETITEMCOUNT 訊息
 
@@ -45,8 +45,8 @@ ms.locfileid: "103686280"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

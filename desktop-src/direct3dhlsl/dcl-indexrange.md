@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: a652d200a211eb5528f6e7ecdedf2cc20579817d1f0148d59855d1e864de55de
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6fe587c3a5cfeae21b5da09a2dd79b67b82bc0c2
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117727188"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122472064"
 ---
 # <a name="dcl_indexrange-sm4---asm"></a>dcl \_ indexRange (sm4-asm) 
 
@@ -31,32 +31,12 @@ ms.locfileid: "117727188"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>項目</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><span id="minRegisterM"></span><span id="minregisterm"></span><span id="MINREGISTERM"></span><em>minRegisterM</em><br/></td>
-<td>在要依索引存取的第一個註冊。 <br/>
-<ul>
-<li>針對頂點或圖元著色器輸入暫存器， <em>minRegister</em>是<strong>v</strong> ，或頂點著色器輸出暫存器的<strong>o</strong> 。</li>
-<li><em>M</em> 是表示註冊編號的整數。</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><span id="maxRegisterN"></span><span id="maxregistern"></span><span id="MAXREGISTERN"></span><em>maxRegisterN</em><br/></td>
-<td>在要依索引存取的最後一個暫存器。 與 <em>minRegister</em> 相同的表單，但 <em>N</em> 是註冊編號。<br/></td>
-</tr>
-</tbody>
-</table>
+
+| 項目 | 描述 | 
+|------|-------------|
+| <span id="minRegisterM"></span><span id="minregisterm"></span><span id="MINREGISTERM"></span><em>minRegisterM</em><br /> | 在要依索引存取的第一個註冊。 <br /><ul><li>針對頂點或圖元著色器輸入暫存器， <em>minRegister</em>是<strong>v</strong> ，或頂點著色器輸出暫存器的<strong>o</strong> 。</li><li><em>M</em> 是表示註冊編號的整數。</li></ul> | 
+| <span id="maxRegisterN"></span><span id="maxregistern"></span><span id="MAXREGISTERN"></span><em>maxRegisterN</em><br /> | 在要依索引存取的最後一個暫存器。 與 <em>minRegister</em> 相同的表單，但 <em>N</em> 是註冊編號。<br /> | 
+
 
 
 

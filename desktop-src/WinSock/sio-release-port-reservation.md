@@ -8,16 +8,16 @@ req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 api_location:
 - mstcpip.h
-ms.openlocfilehash: 57f96d0396d661eba12f9e64238c492f38e97b2a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8d949e325292210ec7126da5ddf65c6ff30c5aa151cfaf85331fb7ebf3e5b346
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106976814"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120097488"
 ---
 # <a name="sio_release_port_reservation-control-code"></a>SIO_RELEASE_PORT_RESER加值稅ION 控制程式代碼
 
-## <a name="description"></a>Description
+## <a name="description"></a>描述
 
 **SIO \_ RELEASE \_ PORT \_ 保留** 控制項程式碼會釋放 TCP 或 UDP 埠區塊的執行時間保留。
 使用 [**SIO_ACQUIRE_PORT_RESER加值稅ION**](sio-acquire-port-reservation.md) IOCTL 時，必須從發行程式取得要發行的執行時間保留。

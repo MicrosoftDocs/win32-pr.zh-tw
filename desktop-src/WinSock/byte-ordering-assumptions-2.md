@@ -4,12 +4,12 @@ ms.assetid: 792353eb-dc51-4c6d-b137-2d81083dc192
 title: 位元組順序假設
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bfe6abf9ed46302bd037d1eb130b18c5568518cf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a21c1e680b0fe658994723b0a1d87c2a7d6adbf0a00a5452b185401b03099089
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973272"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120097908"
 ---
 # <a name="byte-ordering-assumptions"></a>位元組順序假設
 

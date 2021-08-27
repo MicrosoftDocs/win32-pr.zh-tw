@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - spellcheckprovider.h
-ms.openlocfilehash: d999a90166e0d54d537abc84c30f6c4e0ee3768c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ee1b07eb2f459aca3955b0a1c5ad2e2e2139cc196f618430b3039b1eba1e3971
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106977105"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120086598"
 ---
 # <a name="icomprehensivespellcheckprovidercomprehensivecheck-method"></a>IComprehensiveSpellCheckProvider：： ComprehensiveCheck 方法
 

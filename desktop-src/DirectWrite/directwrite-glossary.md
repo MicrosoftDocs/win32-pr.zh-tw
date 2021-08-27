@@ -1,18 +1,18 @@
 ---
-title: DirectWrite 詞彙
+title: DirectWrite詞彙
 description: 詞彙頁面
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: bf50f374-440b-44f3-a365-47588eaa071f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 26fe7e1bb19bea1d1d6c256d2d5a76613a5b0123
-ms.sourcegitcommit: fdd00b445ee88366e9cdd1eed0cb3e42e2a73eca
+ms.openlocfilehash: 1fd85d824c30f79c00bf7ade6c50b04bc60c404b3fdac6f4e22c0116de7bf36a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "104374114"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120086638"
 ---
-# <a name="directwrite-glossary"></a>DirectWrite 詞彙
+# <a name="directwrite-glossary"></a>DirectWrite詞彙
 
 <dl> <dt>
 
@@ -33,7 +33,7 @@ ms.locfileid: "104374114"
 <span id="directwrite.directwrite_glossary_direct2d"></span><span id="DIRECTWRITE.DIRECTWRITE_GLOSSARY_DIRECT2D"></span>**Direct2D**
 </dt> <dd>
 
-硬體加速、即時模式、2D 圖形 API，可為2D 幾何、點陣圖和文字提供高效能和高品質的呈現。 Direct2D API 是設計來與使用 GDI、GDI + 或 Direct3D 的現有程式碼交互操作。
+硬體加速、即時模式、2D 圖形 API，可為2D 幾何、點陣圖和文字提供高效能和高品質的呈現。 Direct2D API 是設計來與使用 GDI、GDI+ 或 Direct3D 的現有程式碼交互操作。
 
 </dd> <dt>
 
@@ -51,10 +51,10 @@ Microsoft Windows 作業系統的延伸模組。 DirectX 技術可協助遊戲�
 
 </dd> <dt>
 
-<span id="directwrite.directwrite_glossary_gdi"></span><span id="DIRECTWRITE.DIRECTWRITE_GLOSSARY_GDI"></span>**Gdi**
+<span id="directwrite.directwrite_glossary_gdi"></span><span id="DIRECTWRITE.DIRECTWRITE_GLOSSARY_GDI"></span>**GDI**
 </dt> <dd>
 
-可執行程式，可從 Windows 應用程式處理圖形化函數呼叫，並將這些呼叫傳遞給適當的設備磁碟機，以執行產生輸出的硬體特定功能。 藉由在應用程式與輸出裝置之間做為緩衝區，GDI 會針對應用程式呈現與裝置無關的觀點，同時以裝置相依的格式與裝置互動。
+一種可執行程式，可從 Windows 應用程式處理圖形化函數呼叫，並將這些呼叫傳遞給適當的設備磁碟機，以執行產生輸出的硬體特定功能。 藉由在應用程式與輸出裝置之間做為緩衝區，GDI 會針對應用程式呈現與裝置無關的觀點，同時以裝置相依的格式與裝置互動。
 
 </dd> <dt>
 
@@ -145,13 +145,13 @@ Unicode 協會所開發的字元編碼標準，幾乎可表示世界上所有的
 <span id="directwrite.directwrite_glossary_windows_presentation_foundation__wpf_"></span><span id="DIRECTWRITE.DIRECTWRITE_GLOSSARY_WINDOWS_PRESENTATION_FOUNDATION__WPF_"></span>**Windows Presentation Foundation (WPF)**
 </dt> <dd>
 
-.NET 微架構3.0、Windows Vista 和 Microsoft Silverlight 所使用的 GUI 架構。 .NET 微型 Framework GUI 類別是以 WPF 為基礎的鬆散。
+.net 微架構3.0、Windows Vista 和 Microsoft Silverlight 所使用的 GUI 架構。 .NET 微型 Framework GUI 類別是以 WPF 為基礎的鬆散。
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

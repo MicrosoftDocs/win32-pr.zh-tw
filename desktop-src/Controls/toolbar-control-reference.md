@@ -4,12 +4,12 @@ description: 本章節包含與工具列控制項搭配使用之程式設計項�
 ms.assetid: vs|controls|~\controls\toolbar\reflist.htm
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a22fd1b51ea1fab45061125654029951f4557472fab62847773e559647e12272
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8dd70f4e13d569930956a8b84e1010d99c1be434
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118166496"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122480934"
 ---
 # <a name="toolbar"></a>工具列
 
@@ -32,33 +32,12 @@ ms.locfileid: "118166496"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>主題</th>
-<th>目錄</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Commctrl/nf-commctrl-createmappedbitmap"><strong>CreateMappedBitmap</strong></a></td>
-<td>建立要在工具列中使用的點陣圖。 <br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Commctrl/nf-commctrl-createtoolbarex"><strong>CreateToolbarEx</strong></a></td>
-<td>建立工具列視窗，並將指定的按鈕加入至工具列。
-<blockquote>
-[!Note]<br />
-此函式已被取代，因為它不支援工具列的所有功能。 請改用 <a href="/windows/desktop/api/winuser/nf-winuser-createwindowexa"><strong>CreateWindowEx</strong></a> 。 如需範例，請參閱 <a href="using-toolbar-controls.md">使用工具列控制項</a>。
-</blockquote>
-<br/> <br/></td>
-</tr>
-</tbody>
-</table>
+
+| 主題 | 目錄 | 
+|-------|----------|
+| <a href="/windows/desktop/api/Commctrl/nf-commctrl-createmappedbitmap"><strong>CreateMappedBitmap</strong></a> | 建立要在工具列中使用的點陣圖。 <br /> | 
+| <a href="/windows/desktop/api/Commctrl/nf-commctrl-createtoolbarex"><strong>CreateToolbarEx</strong></a> | 建立工具列視窗，並將指定的按鈕加入至工具列。<blockquote>[!Note]<br />此函式已被取代，因為它不支援工具列的所有功能。 請改用 <a href="/windows/desktop/api/winuser/nf-winuser-createwindowexa"><strong>CreateWindowEx</strong></a> 。 如需範例，請參閱 <a href="using-toolbar-controls.md">使用工具列控制項</a>。</blockquote><br /><br /> | 
+
 
 
 
@@ -245,41 +224,14 @@ ms.locfileid: "118166496"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>主題</th>
-<th>目錄</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="toolbar-button-states.md">工具列按鈕狀態</a></td>
-<td>此區段會列出工具列按鈕可以有的狀態。 <br/></td>
-</tr>
-<tr class="even">
-<td><a href="toolbar-control-and-button-styles.md">Toolbar 控制項和按鈕樣式</a></td>
-<td>下列視窗樣式是工具列特有的樣式。 當建立工具列時，它們會與其他視窗樣式合併。<br/> <strong>注意</strong> 針對通用控制項 <a href="common-control-versions.md">版本 6.00</a>，如果 <a href="themes-overview.md">視覺效果樣式</a> 與工具列搭配使用，不論樣式設定為何，按鈕一律是透明的。 否則，透明行為是正常的，如使用 <a href="toolbar-control-and-button-styles.md"><strong>TBSTYLE_FLAT</strong></a> 或 <a href="toolbar-control-and-button-styles.md"><strong>TBSTYLE_TRANSPARENT</strong></a> 樣式所表示。
-<blockquote>
-[!Note]<br />
-Comctl32.dll 第6版不是可轉散發套件，但包含在 Windows 或更新版本中。 若要使用 Comctl32.dll 第6版，請在資訊清單中指定它。 如需資訊清單的詳細資訊，請參閱 <a href="cookbook-overview.md">啟用視覺化樣式</a>。
-</blockquote>
-<br/> <br/></td>
-</tr>
-<tr class="odd">
-<td><a href="toolbar-extended-styles.md">工具列擴充樣式</a></td>
-<td>本節列出工具列控制項支援的延伸樣式。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="toolbar-standard-button-image-index-values.md">工具列標準按鈕影像索引值</a></td>
-<td>此區段會指定標準點陣圖內影像的索引值。<br/></td>
-</tr>
-</tbody>
-</table>
+
+| 主題 | 目錄 | 
+|-------|----------|
+| <a href="toolbar-button-states.md">工具列按鈕狀態</a> | 此區段會列出工具列按鈕可以有的狀態。 <br /> | 
+| <a href="toolbar-control-and-button-styles.md">Toolbar 控制項和按鈕樣式</a> | 下列視窗樣式是工具列特有的樣式。 當建立工具列時，它們會與其他視窗樣式合併。<br /><strong>注意</strong> 針對通用控制項 <a href="common-control-versions.md">版本 6.00</a>，如果 <a href="themes-overview.md">視覺效果樣式</a> 與工具列搭配使用，不論樣式設定為何，按鈕一律是透明的。 否則，透明行為是正常的，如使用 <a href="toolbar-control-and-button-styles.md"><strong>TBSTYLE_FLAT</strong></a> 或 <a href="toolbar-control-and-button-styles.md"><strong>TBSTYLE_TRANSPARENT</strong></a> 樣式所表示。<blockquote>[!Note]<br />Comctl32.dll 第6版不是可轉散發套件，但包含在 Windows 或更新版本中。 若要使用 Comctl32.dll 第6版，請在資訊清單中指定它。 如需資訊清單的詳細資訊，請參閱 <a href="cookbook-overview.md">啟用視覺化樣式</a>。</blockquote><br /><br /> | 
+| <a href="toolbar-extended-styles.md">工具列擴充樣式</a> | 本節列出工具列控制項支援的延伸樣式。<br /> | 
+| <a href="toolbar-standard-button-image-index-values.md">工具列標準按鈕影像索引值</a> | 此區段會指定標準點陣圖內影像的索引值。<br /> | 
+
 
 
 

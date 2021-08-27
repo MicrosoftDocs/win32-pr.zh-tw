@@ -21,12 +21,12 @@ keywords:
 - 控制項類型，按鈕
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: def18e7094e297303a70fc0980bfdd0cb4413c0c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c080018e0fcaf8cd196204f80c61041d03fc1589
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104184186"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122478034"
 ---
 # <a name="button-control-type"></a>Button 控制項類型
 
@@ -50,36 +50,15 @@ ms.locfileid: "104184186"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>控制項檢視</th>
-<th>內容檢視</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>按鈕
-<ul>
-<li>影像 (0 個以上)</li>
-<li>文字 (0 個以上)</li>
-</ul></li>
-</ul></td>
-<td><ul>
-<li>按鈕</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| 控制項檢視 | 內容檢視 | 
+|--------------|--------------|
+| <ul><li>Button<ul><li>影像 (0 個以上)</li><li>文字 (0 個以上)</li></ul></li></ul> | <ul><li>Button</li></ul> | 
 
 
 
- 
+
+ 
 
 ## <a name="relevant-properties"></a>相關屬性
 
@@ -104,7 +83,7 @@ ms.locfileid: "104184186"
 
 
 
- 
+ 
 
 ## <a name="required-control-patterns"></a>必要的控制項模式
 
@@ -120,7 +99,7 @@ ms.locfileid: "104184186"
 
 
 
- 
+ 
 
 ## <a name="required-events"></a>必要的事件
 
@@ -141,7 +120,7 @@ ms.locfileid: "104184186"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -156,9 +135,9 @@ ms.locfileid: "104184186"
 [UI 自動化概觀](uiauto-uiautomationoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

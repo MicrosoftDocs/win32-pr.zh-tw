@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: c41a9ad4b1fde0a741a022eb6cfd20823643eeef
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 3d444c39796f741cd800fb393527e5adca6e50cef05de0c55c1def2bb40142a1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106976661"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120124378"
 ---
 # <a name="keywordtype-complex-type"></a>KeywordType 複雜類型
 
@@ -61,7 +61,7 @@ ms.locfileid: "106976661"
 
 
 
-| 名稱    | 類型                                                              | Description                                                                                                                                                                                                                                                                                                            |
+| 名稱    | 類型                                                              | 描述                                                                                                                                                                                                                                                                                                            |
 |---------|-------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 遮罩    | [**HexInt64Type**](eventmanifestschema-hex64type-simpletype.md)  | 位元遮罩，必須只有一個位集。 位代表事件的類別 (例如，讀取事件或寫入事件) 。 您可以從0x0000000000000001 到0x0000800000000000 的範圍中指定位值， (位0到 47) 。<br/>                                                         |
 | message | [**strTableRef**](eventmanifestschema-strtableref-simpletype.md) | 關鍵字的當地語系化顯示名稱。 訊息字串會參考資訊清單之 [**stringTable**](eventmanifestschema-stringtable-resources-element.md) 區段中的當地語系化字串。<br/>                                                                                                       |
@@ -80,8 +80,8 @@ ms.locfileid: "106976661"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

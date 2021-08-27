@@ -3,7 +3,7 @@ title: 'PSM_REBOOTSYSTEM 訊息 (Prsht.idl .h) '
 description: 指出需要重新開機系統，變更才會生效。 您可以 \_ 明確地傳送 PSM REBOOTSYSTEM 訊息或使用 PropSheet \_ REBOOTSYSTEM 宏。
 ms.assetid: 461fce3c-183a-4b9b-8eab-ed2838d9f866
 keywords:
-- PSM_REBOOTSYSTEM message Windows 控制項
+- PSM_REBOOTSYSTEM 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 14f5018dc3845d699561740ccd9cbb0a9c793f15
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: dfcfebc931d1dbf01ab053fa2723bdcf361c4be5ef1443b9131115e2300770cc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464869"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120088628"
 ---
 # <a name="psm_rebootsystem-message"></a>PSM \_ REBOOTSYSTEM 訊息
 
@@ -66,8 +66,8 @@ ms.locfileid: "104464869"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                     |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                               |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                     |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                               |
 | 標頭<br/>                   | <dl> <dt>Prsht.idl。h</dt> </dl> |
 
 

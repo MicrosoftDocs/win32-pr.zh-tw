@@ -14,12 +14,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 90960f81d252b0b0a8d1de3ab5cc1465003467a8
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 548ffec6bf5982aac407905d944d029b222b741c0c03fe66645f68e771c87342
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106979686"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120099968"
 ---
 # <a name="registrationtrigger-triggergroup-element"></a>RegistrationTrigger (triggerGroup) 元素
 
@@ -37,7 +37,7 @@ ms.locfileid: "106979686"
 
 
 
-| 元素                                                           | 衍生自                                                         | Description                                            |
+| 元素                                                           | 衍生自                                                         | 描述                                            |
 |-------------------------------------------------------------------|----------------------------------------------------------------------|--------------------------------------------------------|
 | [**觸發程序**](taskschedulerschema-triggers-tasktype-element.md) | [**triggersType**](taskschedulerschema-triggerstype-complextype.md) | 指定啟動工作的觸發程式。<br/> |
 
@@ -47,7 +47,7 @@ ms.locfileid: "106979686"
 
 
 
-| 元素                                                                                                        | 類型                                                                     | Description                                                                                                                        |
+| 元素                                                                                                        | 類型                                                                     | 描述                                                                                                                        |
 |----------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------|
 | [**延遲 (registrationTriggerType)**](taskschedulerschema-delay-boottriggertype-element.md)                   | duration                                                                 | 指定在註冊工作與啟動工作之間的時間長度。<br/>                          |
 | [**已啟用 (triggerBaseType)**](taskschedulerschema-enabled-triggerbasetype-element.md)                       | boolean                                                                  | 指定啟用觸發程序。<br/>                                                                                  |
@@ -62,7 +62,7 @@ ms.locfileid: "106979686"
 
 
 
-| 名稱 | 類型 | Description                           |
+| 名稱 | 類型 | 描述                           |
 |------|------|---------------------------------------|
 | 識別碼   | 識別碼   | 觸發程式的識別碼。<br/> |
 
@@ -93,8 +93,8 @@ ms.locfileid: "106979686"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

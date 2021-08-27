@@ -10,12 +10,12 @@ keywords:
 - 元素、子視圖
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0f6ed8088d2e79677e542785b4bab1c3c90dcdcf
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: aef4f7860d1db04991a35ffeff2903e7a16a5d7bd84929313c296006f6f1c092
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104301808"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120122908"
 ---
 # <a name="subview-element"></a>子視圖元素
 
@@ -37,7 +37,7 @@ ms.locfileid: "104301808"
 
 
 
- 
+ 
 
 除非有注明，否則 [子 **視圖** ] 元素支援環境屬性。 如需詳細資訊，請參閱 [環境屬性](ambient-attributes.md)。
 
@@ -53,9 +53,9 @@ ms.locfileid: "104301808"
 [**VIEW 元素**](view-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

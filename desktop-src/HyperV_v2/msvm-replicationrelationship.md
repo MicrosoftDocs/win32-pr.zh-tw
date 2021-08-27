@@ -21,12 +21,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: c8ff905475863df11c6fb6529f030f73a4f1b785792be4c5fe8c7ce1142096c3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 763e14d0ebd0aab33aef252b883009567df727cd
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119068478"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122887147"
 ---
 # <a name="msvm_replicationrelationship-class"></a>Msvm \_ ReplicationRelationship 類別
 
@@ -122,7 +122,7 @@ class Msvm_ReplicationRelationship : CIM_ManagedSystemElement
 
 這個屬性的格式如下：
 
-**Microsoft： <vmid> \\ HVR \\<0/1>**
+**Microsoft： &lt; vmid &gt; \\ HVR \\<0/1>**
 
 0表示主要和1表示 [擴充](#extended-replication)複寫。
 

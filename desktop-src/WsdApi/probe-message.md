@@ -4,12 +4,12 @@ ms.assetid: a0ede1d9-2e13-4d5e-8ccd-9e0c0217cac7
 title: 探查訊息
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: abaf4b397abec699dd0a116fe5cddd97578543f917a7994287f5000e17079def
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 58f186de4f68faceca096ddaa231b57d1112bc1e
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119130630"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122879851"
 ---
 # <a name="probe-message"></a>探查訊息
 
@@ -62,35 +62,35 @@ DPWS 用戶端會傳送探查訊息。 下列清單會顯示 WSDAPI 傳送探查
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
 <th>對焦點</th>
 <th>XML</th>
-<th>描述</th>
+<th>說明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>探查</td>
-<td><pre class="syntax" data-space="preserve"><code><wsa:Action>
+<td><pre class="syntax" data-space="preserve"><code>&lt;wsa:Action&gt;
     https://schemas.xmlsoap.org/ws/2005/04/discovery/Probe
-</wsa:Action></code></pre></td>
+&lt;/wsa:Action&gt;</code></pre></td>
 <td>探查 SOAP 動作會將訊息識別為探查訊息。</td>
 </tr>
 <tr class="even">
 <td>MessageID</td>
-<td><pre class="syntax" data-space="preserve"><code><wsa:MessageID>
+<td><pre class="syntax" data-space="preserve"><code>&lt;wsa:MessageID&gt;
     urn:uuid:29cf10da-5c41-4d55-b184-5ee15e38ce23
-</wsa:MessageID></code></pre></td>
+&lt;/wsa:MessageID&gt;</code></pre></td>
 <td>包含 <a href="probematches-message.md">ProbeMatches</a> 訊息中的 RelatesTo 元素所參考的訊息識別碼。</td>
 </tr>
 <tr class="odd">
 <td>類型</td>
-<td><pre class="syntax" data-space="preserve"><code><wsd:Types>wsdp:Device</wsd:Types></code></pre></td>
+<td><pre class="syntax" data-space="preserve"><code>&lt;wsd:Types&gt;wsdp:Device</wsd:Types></code></pre></td>
 <td>包含用戶端搜尋的 WS-Discovery 類型。 這個元素不能是空的。</td>
 </tr>
 </tbody>

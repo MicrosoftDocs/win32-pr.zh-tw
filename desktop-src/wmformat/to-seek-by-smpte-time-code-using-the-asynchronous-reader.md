@@ -15,12 +15,12 @@ keywords:
 - SMPTE 時間代碼，非同步讀取器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 42bb90e899db9820ccbd14e42b9699a5f99c7434
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: e01ad42170c2458a4dc23a23cfa8102b406f45b6a624cacac28ce31a905ad299
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104374382"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120110118"
 ---
 # <a name="to-seek-by-smpte-time-code-using-the-asynchronous-reader"></a>使用非同步讀取器依 SMPTE 時間程式碼進行搜尋
 
@@ -47,9 +47,9 @@ SMPTE 時間代碼是由範圍和該範圍內的時間代碼所定義。 範圍�
 [**SMPTE 時間代碼支援**](smpte-time-code-support.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

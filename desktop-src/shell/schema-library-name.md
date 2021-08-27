@@ -1,19 +1,19 @@
 ---
-description: <name>元素指定此程式庫的名稱。 此為必要專案，而且沒有任何屬性或子項目。
+description: '&lt;Name &gt; 元素會指定這個程式庫的名稱。 此為必要專案，而且沒有任何屬性或子項目。'
 ms.assetid: 1F433405-5943-4579-BDAD-423C4E1A6E76
 title: " (程式庫架構的 name 元素) "
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 179d8b4a1f4358ccb441cc38c6c0765a6dc4d9ade8b3c32a1504be2151cfedaa
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 6d32b6d929a58f19cc2b87a79af846d22fc0ebda
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119883938"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122880854"
 ---
 # <a name="name-element-library-schema"></a> (程式庫架構的 name 元素) 
 
-<name>元素指定此程式庫的名稱。 此為必要專案，而且沒有任何屬性或子項目。
+&lt;Name &gt; 元素會指定這個程式庫的名稱。 此為必要專案，而且沒有任何屬性或子項目。
 
 ## <a name="syntax"></a>Syntax
 
@@ -41,7 +41,7 @@ ms.locfileid: "119883938"
 
 ## <a name="remarks"></a>備註
 
-名稱是顯示在 Windows 檔案總管中的易記程式庫名稱。 您可以使用格式來指定名稱 <dllname> ， <index> 如下列範例所示。
+名稱是顯示在 Windows 檔案總管中的易記程式庫名稱。 您可以使用 &lt; dllname &gt; （ &lt; 索引格式）指定名稱， &gt; 如下列範例所示。
 
 
 ```

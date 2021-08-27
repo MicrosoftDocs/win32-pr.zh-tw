@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: e6296683235a3cf051d0b9f4ee56ce51a3516f66
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ab067e9041a937c37e0df2bf9998dd1ecb7a6d1d434a4f10e1b2e1e1b50e6f75
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106999332"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120087488"
 ---
 # <a name="cbasecontrolvideosetdefaultsourceposition-method"></a>CBaseControlVideo. SetDefaultSourcePosition 方法
 
@@ -46,7 +46,7 @@ HRESULT SetDefaultSourcePosition();
 
 
 
-| 傳回碼                                                                                           | Description                                                                      |
+| 傳回碼                                                                                           | 描述                                                                      |
 |-------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------|
 | <dl> <dt>**E \_ 失敗**</dt> </dl>                | 失敗。<br/>                                                              |
 | <dl> <dt>**NOERROR**</dt> </dl>                | 成功。<br/>                                                              |

@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Wmistr.h
-ms.openlocfilehash: e8ad8bd5e1fd4917fa031e7553ed0e7e460244b8ab7c7da347a62d7430036cc0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 93cecb900b0c62084a3b5ea4e4a7789575c20c27
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119015236"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122480684"
 ---
 # <a name="wnode_header-structure"></a>WNODE \_ 標頭結構
 
@@ -137,37 +137,13 @@ typedef struct _WNODE_HEADER {
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>值</th>
-<th>意義</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><dl> <dt>1</dt> </dl></td>
-<td> (QPC) 的 Query 效能計數器。 QPC 計數器會提供高解析度的時間戳記，而不會受到系統時鐘的調整影響。 事件中儲存的時間戳記相當於從 QueryPerformanceCounter API 傳回的值。 如需此時間戳記特性的詳細資訊，請參閱取得 <a href="/windows/win32/sysinfo/acquiring-high-resolution-time-stamps">高解析度的時間戳記</a>。<br/> 如果您有高事件率，或取用者合併來自不同緩衝區的事件，則應該使用此解析。 在這些情況下，QPC 時間戳記的精確度和穩定性可讓您更精確地從不同的緩衝區排序事件。 不過，QPC 時間戳記並不會反映系統時鐘的更新，例如，如果系統時鐘因為與 NTP 伺服器同步處理而在追蹤進行中進行同步處理，則追蹤中的 QPC 時間戳記會繼續反映時間，就像未發生任何更新一樣。<br/> 若要判斷解決方式，請在取用事件時使用<a href="/windows/win32/api/evntrace/ns-evntrace-trace_logfile_header"><strong>TRACE_LOGFILE_HEADER</strong></a>的<strong>PerfFreq</strong>成員。<br/> 若要將事件的時間戳記轉換為 100-ns 單位，請使用下列轉換公式： <br/> scaledTimestamp = eventRecord. EventHeader. QuadPart * 10000000.0/logfileHeader. PerfFreq<br/> 請注意，在較舊的電腦上，時間戳記可能不准確，因為由於硬體錯誤，計數器有時會向前跳過。<br/></td>
-</tr>
-<tr class="even">
-<td><dl> <dt>2</dt> </dl></td>
-<td>系統時間。 系統時間會提供時間戳記來追蹤系統時鐘的變更，例如，如果系統時鐘因為與 NTP 伺服器同步處理而在追蹤進行中進行同步處理，則追蹤中的系統時間戳記也會向前跳到符合系統時鐘的新設定。 <br/>
-<ul>
-<li>在 Windows 10 之前的系統上，儲存在事件中的時間戳記相當於 GetSystemTimeAsFileTime API 所傳回的值。</li>
-<li>在 Windows 10 或更新版本上，儲存在事件中的時間戳記相當於 GetSystemTimePreciseAsFileTime API 所傳回的值。</li>
-</ul>
-在 Windows 10 之前，此時間戳記的解決方式是系統時鐘滴答的解析度，如 TRACE_LOGFILE_HEADER 的 TimerResolution 成員所表示。 從 Windows 10 開始，這個時間戳記的解決方法是效能計數器解析度，如 TRACE_LOGFILE_HEADER 的 PerfFreq 成員所示。<br/> 若要將事件的時間戳記轉換為 100-ns 單位，請使用下列轉換公式： <br/> scaledTimestamp = eventRecord. EventHeader. QuadPart<br/> 請注意，在 Windows 10 之前，在執行作業系統的系統上捕捉到事件時，如果事件的數量很高，則系統時間的解析可能不夠好，無法判斷事件的順序。 在此情況下，一組事件將會有相同的時間戳記，但 ETW 傳遞事件的順序可能不正確。 從 Windows 10 開始，系統會以額外的精確度來捕捉時間戳記，但在捕捉追蹤時，系統時鐘已調整的情況下，可能仍會發生某些不穩定的情況。<br/></td>
-</tr>
-<tr class="odd">
-<td><dl> <dt>3</dt> </dl></td>
-<td>CPU 週期計數器。 CPU 計數器提供最高的解析時間戳記，而且是要抓取的最不耗用資源。 不過，CPU 計數器不可靠，不應該用於生產環境。 例如，在某些電腦上，計時器將會因為溫度和電源變更而變更頻率，除了在某些狀態下停止。<br/> 若要判斷解決方式，請在取用事件時使用<a href="/windows/win32/api/evntrace/ns-evntrace-trace_logfile_header"><strong>TRACE_LOGFILE_HEADER</strong></a>的<strong>CpuSpeedInMHz</strong>成員。<br/> 如果您的硬體不支援此時鐘類型，ETW 會使用系統時間。<br/> <strong>Windows Server 2003、Windows XP SP1 和 Windows xp：</strong>此值不受支援，它是在 Windows Server 2003 SP1 和 Windows XP SP2 中引進。<br/></td>
-</tr>
-</tbody>
-</table>
+
+| 值 | 意義 | 
+|-------|---------|
+| <dl><dt>1</dt></dl> |  (QPC) 的 Query 效能計數器。 QPC 計數器會提供高解析度的時間戳記，而不會受到系統時鐘的調整影響。 事件中儲存的時間戳記相當於從 QueryPerformanceCounter API 傳回的值。 如需此時間戳記特性的詳細資訊，請參閱取得 <a href="/windows/win32/sysinfo/acquiring-high-resolution-time-stamps">高解析度的時間戳記</a>。<br /> 如果您有高事件率，或取用者合併來自不同緩衝區的事件，則應該使用此解析。 在這些情況下，QPC 時間戳記的精確度和穩定性可讓您更精確地從不同的緩衝區排序事件。 不過，QPC 時間戳記並不會反映系統時鐘的更新，例如，如果系統時鐘因為與 NTP 伺服器同步處理而在追蹤進行中進行同步處理，則追蹤中的 QPC 時間戳記會繼續反映時間，就像未發生任何更新一樣。<br /> 若要判斷解決方式，請在取用事件時使用<a href="/windows/win32/api/evntrace/ns-evntrace-trace_logfile_header"><strong>TRACE_LOGFILE_HEADER</strong></a>的<strong>PerfFreq</strong>成員。<br /> 若要將事件的時間戳記轉換為 100-ns 單位，請使用下列轉換公式： <br /> scaledTimestamp = eventRecord. EventHeader. QuadPart * 10000000.0/logfileHeader. PerfFreq<br /> 請注意，在較舊的電腦上，時間戳記可能不准確，因為由於硬體錯誤，計數器有時會向前跳過。<br /> | 
+| <dl><dt>2</dt></dl> | 系統時間。 系統時間會提供時間戳記來追蹤系統時鐘的變更，例如，如果系統時鐘因為與 NTP 伺服器同步處理而在追蹤進行中進行同步處理，則追蹤中的系統時間戳記也會向前跳到符合系統時鐘的新設定。 <br /><ul><li>在 Windows 10 之前的系統上，儲存在事件中的時間戳記相當於 GetSystemTimeAsFileTime API 所傳回的值。</li><li>在 Windows 10 或更新版本上，儲存在事件中的時間戳記相當於 GetSystemTimePreciseAsFileTime API 所傳回的值。</li></ul>在 Windows 10 之前，此時間戳記的解決方式是系統時鐘滴答的解析度，如 TRACE_LOGFILE_HEADER 的 TimerResolution 成員所表示。 從 Windows 10 開始，這個時間戳記的解決方法是效能計數器解析度，如 TRACE_LOGFILE_HEADER 的 PerfFreq 成員所示。<br /> 若要將事件的時間戳記轉換為 100-ns 單位，請使用下列轉換公式： <br /> scaledTimestamp = eventRecord. EventHeader. QuadPart<br /> 請注意，在 Windows 10 之前，在執行作業系統的系統上捕捉到事件時，如果事件的數量很高，則系統時間的解析可能不夠好，無法判斷事件的順序。 在此情況下，一組事件將會有相同的時間戳記，但 ETW 傳遞事件的順序可能不正確。 從 Windows 10 開始，系統會以額外的精確度來捕捉時間戳記，但在捕捉追蹤時，系統時鐘已調整的情況下，可能仍會發生某些不穩定的情況。<br /> | 
+| <dl><dt>3</dt></dl> | CPU 週期計數器。 CPU 計數器提供最高的解析時間戳記，而且是要抓取的最不耗用資源。 不過，CPU 計數器不可靠，不應該用於生產環境。 例如，在某些電腦上，計時器將會因為溫度和電源變更而變更頻率，除了在某些狀態下停止。<br /> 若要判斷解決方式，請在取用事件時使用<a href="/windows/win32/api/evntrace/ns-evntrace-trace_logfile_header"><strong>TRACE_LOGFILE_HEADER</strong></a>的<strong>CpuSpeedInMHz</strong>成員。<br /> 如果您的硬體不支援此時鐘類型，ETW 會使用系統時間。<br /><strong>Windows Server 2003、Windows XP SP1 和 Windows xp：</strong>此值不受支援，它是在 Windows Server 2003 SP1 和 Windows XP SP2 中引進。<br /> | 
+
 
 
 

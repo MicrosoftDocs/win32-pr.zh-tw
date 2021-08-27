@@ -3,7 +3,7 @@ title: 'CB_GETITEMHEIGHT 訊息 (Winuser .h) '
 description: 決定下拉式方塊中清單專案的高度或選取欄位。
 ms.assetid: 72fba6ca-0a51-4801-bd45-5f5a7d5ebee2
 keywords:
-- CB_GETITEMHEIGHT message Windows 控制項
+- CB_GETITEMHEIGHT 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c4aac9d8f9a430c056f8b91a9306d77c182f4c96
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a6e3ad9636c32e40bfa95f1f3b2c209eab42023205e0a967cc91804ec314a103
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843572"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120089188"
 ---
 # <a name="cb_getitemheight-message"></a>CB \_ GETITEMHEIGHT 訊息
 
@@ -53,9 +53,9 @@ ms.locfileid: "103843572"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                     |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 

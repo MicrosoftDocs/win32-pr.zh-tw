@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: ebcb4b89eee51b475869cfc62676feda10e53084
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 9953bc1119d7e203936ca7e78048a4083a996ec2
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104468389"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122881042"
 ---
 # <a name="errorinfo-collection"></a>ErrorInfo 集合
 
@@ -49,7 +49,7 @@ ms.locfileid: "104468389"
 -   [ErrorCode](#errorcode)
 -   [MajorRef](#majorref)
 -   [MinorRef](#minorref)
--   [名稱](#name)
+-   名稱
 
 ### <a name="errorcode"></a>ErrorCode
 
@@ -57,7 +57,7 @@ ms.locfileid: "104468389"
 
 | 進入 | 值 |
 |----------------|----------------------------------------|
-| 描述    | 物件或檔案的錯誤碼。 |
+| 說明    | 物件或檔案的錯誤碼。 |
 | Access         | ReadOnly                               |
 | 類型           | String                                 |
 | 預設        | None                                   |
@@ -73,7 +73,7 @@ ms.locfileid: "104468389"
 
 | 進入 | 值 |
 |----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 描述    | 發生錯誤之物件的索引 [**鍵**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_key) 屬性值。 例如，如果集合中的特定物件上的 [**SaveChanges**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogcollection-savechanges) 呼叫失敗，則會將該物件的索引 **鍵** 屬性值報告為 MajorRef 值。 您可以使用這個屬性來查看無法更新的專案，或找出無法安裝的元件或 DLL。 |
+| 說明    | 發生錯誤之物件的索引 [**鍵**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_key) 屬性值。 例如，如果集合中的特定物件上的 [**SaveChanges**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogcollection-savechanges) 呼叫失敗，則會將該物件的索引 **鍵** 屬性值報告為 MajorRef 值。 您可以使用這個屬性來查看無法更新的專案，或找出無法安裝的元件或 DLL。 |
 | Access         | ReadOnly                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | 類型           | String                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | 預設        | None                                                                                                                                                                                                                                                                                                                                                                                                                                 |
@@ -89,7 +89,7 @@ ms.locfileid: "104468389"
 
 | 進入 | 值 |
 |----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 描述    | 具有錯誤之專案的精確規格，例如屬性名稱。 如果發生多個錯誤，或在不適用的內容中，MinorRef 為 <Invalid> 。 |
+| 說明    | 具有錯誤之專案的精確規格，例如屬性名稱。 如果發生多個錯誤，或在不適用的內容中，MinorRef &lt; 無效 &gt; 。 |
 | Access         | ReadOnly                                                                                                                                                                          |
 | 類型           | String                                                                                                                                                                            |
 | 預設        | None                                                                                                                                                                              |
@@ -105,7 +105,7 @@ ms.locfileid: "104468389"
 
 | 進入 | 值 |
 |----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 描述    | 有錯誤的物件或檔案名。 當在此集合的物件上呼叫索引 [**鍵**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_key) 或 [**名稱**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_name) 屬性方法時，就會傳回這個屬性。 |
+| 說明    | 有錯誤的物件或檔案名。 當在此集合的物件上呼叫索引 [**鍵**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_key) 或 [**名稱**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_name) 屬性方法時，就會傳回這個屬性。 |
 | Access         | ReadOnly                                                                                                                                                                                                                 |
 | 類型           | String                                                                                                                                                                                                                   |
 | 預設        | None                                                                                                                                                                                                                     |

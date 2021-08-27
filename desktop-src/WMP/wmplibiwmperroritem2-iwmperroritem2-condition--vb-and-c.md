@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: be53e7467f741371867b2c0d1dd66c3f68d22ec8
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6f964a94ed4e1b3b3c86fc1498ce6b8e950b8b7b571be91d297b32247fb3c391
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106983196"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120122608"
 ---
 # <a name="iwmperroritem2condition-property"></a>IWMPErrorItem2：： condition 屬性
 

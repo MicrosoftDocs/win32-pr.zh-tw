@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 75f70c782ff887076a8ddc6a16a6d9cbdadba16e
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 236b197f87360d6ca4dbc4c68970a17d858fb2c200fa5c7b3f8431cb65067f9e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108111486"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120130398"
 ---
 # <a name="stopservice-method-of-the-msvm_replicationservice-class"></a>Msvm ReplicationService 類別的 StopService 方法 \_
 
