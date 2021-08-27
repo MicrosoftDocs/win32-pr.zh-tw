@@ -4,12 +4,12 @@ ms.assetid: b8912842-87d6-4d97-83ce-53d18cbedc74
 title: " (Windows GDI) 的筆刷"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2c659b99c538f28a0467be6c7dedb7795928ba70
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d1c47ec1682341d6f00213a1ac02299932fb42a60326c6100d8a25fb8209850d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114721"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120115398"
 ---
 # <a name="brushes-windows-gdi"></a> (Windows GDI) 的筆刷
 

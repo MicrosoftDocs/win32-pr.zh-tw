@@ -3,7 +3,7 @@ title: 'TDM_SET_PROGRESS_BAR_MARQUEE 訊息 (Commctrl .h) '
 description: 在 [工作] 對話方塊中啟動和停止捲軸顯示進度列，並設定字幕的速度。
 ms.assetid: df947171-a916-4db9-abe0-57a3bf11037f
 keywords:
-- TDM_SET_PROGRESS_BAR_MARQUEE message Windows 控制項
+- TDM_SET_PROGRESS_BAR_MARQUEE 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2f73d3d4308d2e3f963c015b6e36f385902bea6a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5b92816b70e683b9f58e0de2247b2710da38bee891caa39d9026fc342168c6be
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104025432"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120060648"
 ---
 # <a name="tdm_set_progress_bar_marquee-message"></a>TDM \_ 設定 \_ 進度 \_ 列 \_ 捲軸訊息
 
@@ -57,8 +57,8 @@ ms.locfileid: "104025432"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

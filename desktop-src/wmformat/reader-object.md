@@ -3,19 +3,19 @@ title: 讀取器物件
 description: 讀取器物件
 ms.assetid: b5edbf8b-820f-4e09-a482-8efc2283360e
 keywords:
-- Windows Media 格式 SDK，讀取器物件
+- Windows媒體格式 SDK，讀取器物件
 - Advanced Systems Format (ASF) 、reader 物件
 - ASF (Advanced Systems Format) 、reader 物件
 - 物件、讀取器物件
 - 讀者物件，關於
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7958689fa7744286c92c294219fb2c963e55c860
-ms.sourcegitcommit: c2a1c4314550ea9bd202d28adfcc7bfe6180932f
+ms.openlocfilehash: bc1c01b824bbe278991f1512e963a6dde1727c00e73b3c17f5ab4c5556534b98
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "104374888"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120089707"
 ---
 # <a name="reader-object"></a>讀取器物件
 
@@ -56,7 +56,7 @@ ms.locfileid: "104374888"
 
 
 
- 
+ 
 
 您可以在應用程式中執行下列回呼介面，以追蹤讀取器物件的進度。
 
@@ -72,7 +72,7 @@ ms.locfileid: "104374888"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -87,9 +87,9 @@ ms.locfileid: "104374888"
 [**同步讀取器物件**](synchronous-reader-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

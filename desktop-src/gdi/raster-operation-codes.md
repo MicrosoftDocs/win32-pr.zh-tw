@@ -4,12 +4,12 @@ ms.assetid: 7f8272b8-85c4-4bda-99cb-4ec281e8197e
 title: 點陣操作代碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fed2a574cca18725e15fa5bf2b2687b46f635f4b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 549eef1e33f9147fb22b6194010cf719812dc6c3acfe8916fb4c3f07eb309e70
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104991175"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120092838"
 ---
 # <a name="raster-operation-codes"></a>點陣操作代碼
 

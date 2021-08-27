@@ -9,16 +9,16 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: b04523d0ae22eac7bef68f37a6d22ac94b21e303
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c45fc01709c50fd309c285cb486474cab2f1d8ac0b20c56bb7e21578cb8138f0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104973245"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120090618"
 ---
 # <a name="transferring-shell-objects-with-drag-and-drop-and-the-clipboard"></a>使用拖放和剪貼簿傳送 Shell 物件
 
-許多應用程式可讓使用者透過滑鼠拖放資料，或使用剪貼簿來將資料傳送至另一個應用程式。 可以傳送的許多資料類型都是 Shell 物件（例如檔案或資料夾）。 Shell 資料傳輸可以在兩個應用程式之間進行，但是使用者也可以在桌面或 Windows 檔案總管之間傳送 Shell 資料。
+許多應用程式可讓使用者透過滑鼠拖放資料，或使用剪貼簿來將資料傳送至另一個應用程式。 可以傳送的許多資料類型都是 Shell 物件（例如檔案或資料夾）。 Shell 資料傳輸可以在兩個應用程式之間進行，但是使用者也可以在桌面或 Windows 檔案總管之間傳送 shell 資料。
 
 雖然檔案是最常傳送的 Shell 物件，但 Shell 資料傳輸可能牽涉到在 [Shell 命名空間](namespace-intro.md)中找到的各種物件。 比方說，您的應用程式可能需要將檔案傳送到虛擬資料夾，例如資源回收筒，或接受來自非 Microsoft 命名空間延伸模組的物件。 如果您正在執行命名空間延伸，它必須能夠正確地做為卸載來源和目標。
 
@@ -38,7 +38,7 @@ ms.locfileid: "104973245"
 
 如需如何處理這些和其他案例的詳細討論，請參閱 [處理 Shell 資料傳輸案例](datascenarios.md)。 本檔著重于 Shell 資料傳輸背後的一般原則。
 
-Windows 提供兩種可讓應用程式傳輸 Shell 資料的標準方式：
+Windows 提供兩種標準方式來讓應用程式傳輸 Shell 資料：
 
 -   使用者將 Shell 資料（例如一或多個檔案）剪下或複製到剪貼簿。 另一個應用程式會從剪貼簿抓取資料。
 -   使用者將代表來源應用程式之資料的圖示拖曳至目標，並將該圖示放置在目標所擁有的視窗。

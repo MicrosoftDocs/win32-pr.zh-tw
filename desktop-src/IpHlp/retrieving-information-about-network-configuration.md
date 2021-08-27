@@ -4,12 +4,12 @@ ms.assetid: 6135dca5-00c8-4ed4-bb89-7c99abeb7c7c
 title: 正在抓取網路設定的相關資訊
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 64a6860b329ba7c69575be1dfeaaa2e19c57558f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 767bdf0ec8c316bc4998e50e06e6f1a88f92742adff88f11745fbbd80c0b26ab
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103945141"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120050318"
 ---
 # <a name="retrieving-information-about-network-configuration"></a>正在抓取網路設定的相關資訊
 

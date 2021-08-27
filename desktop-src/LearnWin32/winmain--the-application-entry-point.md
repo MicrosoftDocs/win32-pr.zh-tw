@@ -50,7 +50,7 @@ INT WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance,
 
 ## <a name="next"></a>下一個
 
-[模組1。您的第一個 Windows 程式](your-first-windows-program.md)。
+[模組1。您的第一個 Windows 計畫](your-first-windows-program.md)。
 
  
 

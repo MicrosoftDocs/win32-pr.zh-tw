@@ -4,12 +4,12 @@ ms.assetid: a4e37069-2b3a-4b6d-9cfd-eb1700ab3bc6
 title: 使用重新導向的輸入和輸出來建立子程序
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: af3a8e922c37baf20dae2d3a26b8cd0705e4c1a5
-ms.sourcegitcommit: 005593a756bad634e35a57e4fea9167566d4a550
+ms.openlocfilehash: 5ec7c7761bd73386285a4e911be13ff3ab46a479cb78442b1d8b14ac9e1b1368
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/01/2021
-ms.locfileid: "104195639"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120081438"
 ---
 # <a name="creating-a-child-process-with-redirected-input-and-output"></a>使用重新導向的輸入和輸出來建立子程序
 

@@ -3,7 +3,7 @@ title: 'TDM_SET_ELEMENT_TEXT 訊息 (Commctrl .h) '
 description: TDM_SET_ELEMENT_TEXT 訊息-更新工作對話方塊中的文字專案。
 ms.assetid: e3f15805-5d48-4549-9959-69ec01345e57
 keywords:
-- TDM_SET_ELEMENT_TEXT message Windows 控制項
+- TDM_SET_ELEMENT_TEXT 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c6d0c8830a6d8a1057ab283a9e096434a6184151
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 7bb0f81867bcff4fd5f7d533c156c8af17d0f4a761b6f8560aa584a85c62b7c8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108104026"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120060768"
 ---
 # <a name="tdm_set_element_text-message"></a>TDM \_ 設定 \_ 元素 \_ 文字訊息
 
@@ -81,8 +81,8 @@ SendMessage(hwnd, TDM_SET_ELEMENT_TEXT, (WPARAM)TDE_FOOTER, (LPARAM)L"New footer
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

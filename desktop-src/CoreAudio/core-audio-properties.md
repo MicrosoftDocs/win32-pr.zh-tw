@@ -4,12 +4,12 @@ ms.assetid: db7d68c3-5642-4238-a212-88d3479ce73d
 title: 核心音訊屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 41528e66977f1f3b9282cf78ba76e4bae32c5bd6
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: ad2d6513798a03cbcd9092e24b37900b5eb686d5fd0c434480a933af50c02fd0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510384"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120058998"
 ---
 # <a name="core-audio-properties"></a>核心音訊屬性
 
@@ -19,7 +19,7 @@ ms.locfileid: "104510384"
 
 Core Audio SDK 包含數個 [音訊端點裝置](audio-endpoint-devices.md)屬性。 如需詳細資訊，請參閱 [音訊端點屬性](audio-endpoint-properties.md)。
 
-以下是在 Windows Vista 和更新版本的 Mmdeviceapi 中定義的屬性。
+下列屬性是在 Windows Vista 和更新版本的 Mmdeviceapi 中定義。
 
 
 

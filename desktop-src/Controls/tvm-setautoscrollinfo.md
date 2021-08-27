@@ -3,7 +3,7 @@ title: 'TVM_SETAUTOSCROLLINFO 訊息 (Commctrl .h) '
 description: 設定用來判斷自動滾動特性的資訊。 您可以使用 TreeView SetAutoScrollInfo 宏明確地傳送此訊息 \_ 。
 ms.assetid: de55933f-1caa-4193-84de-0486c41e8f1f
 keywords:
-- TVM_SETAUTOSCROLLINFO message Windows 控制項
+- TVM_SETAUTOSCROLLINFO 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: faa1f7920d2ec8c443b2ec5f1ff9189c22c5f21e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d8840045900fdbd63930219d199889cde018406779426cd767b49ab41a399efc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106967329"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120060158"
 ---
 # <a name="tvm_setautoscrollinfo-message"></a>TVM \_ SETAUTOSCROLLINFO 訊息
 
@@ -57,8 +57,8 @@ Autoscroll 資訊可用來將看不見專案滾動到視野中。 控制項必�
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

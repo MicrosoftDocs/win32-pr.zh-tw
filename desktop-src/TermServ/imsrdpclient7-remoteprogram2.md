@@ -30,12 +30,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1572aada1384a7edfe88b198826050927ae3cff5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a88e0ee2aff2a2804468e3ceba589f20221fe5ca75fea0bbcc37a423edb23959
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934063"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120080038"
 ---
 # <a name="imsrdpclient7remoteprogram2-property"></a>IMsRdpClient7：： RemoteProgram2 屬性
 

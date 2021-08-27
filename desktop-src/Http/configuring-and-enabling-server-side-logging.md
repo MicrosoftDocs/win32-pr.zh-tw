@@ -4,12 +4,12 @@ description: 設定和啟用伺服器端記錄
 ms.assetid: d67d8f9a-6d8a-43f2-a1ef-75f69c04b1ac
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 61e56247ee306d5a8804663e00162224df1d3f3e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c95856cf72379de44211f05bb78fb4c6839f77b2fd6c42b91b26068bc9c5d0d7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372166"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120050808"
 ---
 # <a name="configuring-and-enabling-server-side-logging"></a>設定和啟用伺服器端記錄
 
@@ -26,9 +26,9 @@ ms.locfileid: "104372166"
 2.  [**HTTP \_ 記錄 \_ 欄位 \_ 資料**](/windows/desktop/api/Http/ns-http-http_log_fields_data)結構的 **基底. 類型** 成員應初始化為 **HttpLogDataTypeFields**。 **Base. Type** 欄位可確保結構和 API 未來的擴充性。
 3.  應用程式會使用 *pLogData* 參數中 [**HTTP \_ 記錄 \_ 欄位 \_ 資料**](/windows/desktop/api/Http/ns-http-http_log_fields_data)結構的指標，呼叫 [**HttpSendHttpResponse**](/windows/desktop/api/Http/nf-http-httpsendhttpresponse)或 [**HttpSendResponseEntityBody**](/windows/desktop/api/Http/nf-http-httpsendresponseentitybody) 。 應用程式應該輸入轉換 [**PHTTP \_ 記錄 \_ 資料**](/windows/desktop/api/Http/ns-http-http_log_data)的指標。
 
- 
+ 
 
- 
+ 
 
 
 

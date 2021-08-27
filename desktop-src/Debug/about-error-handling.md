@@ -4,12 +4,12 @@ ms.assetid: faff149b-254e-44da-a59c-1b738acb6941
 title: 關於錯誤處理
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3975277671bc61d3599cee9edf0cdbf0262418c3
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 99f80b5ae00c06d4b44f5be3aed4604987cedad45fcaa3c0ac09f73ff2c0af2f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110329"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120103958"
 ---
 # <a name="about-error-handling"></a>關於錯誤處理
 

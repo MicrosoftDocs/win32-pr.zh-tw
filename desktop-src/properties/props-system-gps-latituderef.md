@@ -4,12 +4,12 @@ ms.assetid: f12bc04b-13bf-4dbd-8feb-4901c12bd7d2
 title: LatitudeRef
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 43619f2260b31c5c74f0a2cbfef4c0606e2ef72a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 69dd4469b59bc81ef3ff220571c22fee9fc0e0ae62ec197d2f43663f0d1a0c97
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106977026"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120091178"
 ---
 # <a name="systemgpslatituderef"></a>LatitudeRef
 
@@ -30,7 +30,7 @@ propertyDescription
       type = String
 ```
 
-## <a name="windows-7-windows-vista"></a>Windows 7、Windows Vista
+## <a name="windows-7-windows-vista"></a>Windows 7，Windows Vista
 
 ```
 propertyDescription

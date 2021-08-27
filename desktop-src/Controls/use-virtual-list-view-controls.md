@@ -4,12 +4,12 @@ description: 本主題將示範如何使用虛擬清單視圖控制項。
 ms.assetid: DA32D7B3-5FDB-4D73-9A72-0D4EEB2A0C4F
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d3baf5e37d0d4f6da0cdf596dd8ba3c71e852a99
-ms.sourcegitcommit: e584514ced7396dde55e58501c8c8a872229acc4
+ms.openlocfilehash: f6ed847d7cb8a41e4cb1c255290ff660eb278bcd99126605a2874c52b279e694
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "106998968"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120059697"
 ---
 # <a name="how-to-use-virtual-list-view-controls"></a>如何使用虛擬 List-View 控制項
 
@@ -45,12 +45,12 @@ struct RndItem
 
 ### <a name="technologies"></a>技術
 
--   [Windows 控制項](window-controls.md)
+-   [Windows控制](window-controls.md)
 
 ### <a name="prerequisites"></a>必要條件
 
 -   C/C++
--   Windows 消費者介面程式設計
+-   Windows消費者介面程式設計
 
 ## <a name="instructions"></a>指示
 

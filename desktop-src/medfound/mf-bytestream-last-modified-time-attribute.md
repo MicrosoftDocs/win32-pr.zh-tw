@@ -4,12 +4,12 @@ ms.assetid: dceff922-44eb-478f-842a-8ac0e73a02ee
 title: 'MF_BYTESTREAM_LAST_MODIFIED_TIME 屬性 (Mfobjects) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 11a5069f8c3f826db9f2ec031d5674013839d97f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9b476a78dba2bf757ed37b6029d67d5084804d1360dbc61e7c8861005b74a3bf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103691819"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120113968"
 ---
 # <a name="mf_bytestream_last_modified_time-attribute"></a>MF \_ BYTESTREAM \_ 上次 \_ 修改 \_ 時間屬性
 
@@ -31,8 +31,8 @@ ms.locfileid: "103691819"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows Vista \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                                    |
-| 最低支援的伺服器<br/> | Windows Server 2008 \[ desktop app \| UWP 應用程式\]<br/>                                              |
+| 最低支援的用戶端<br/> | WindowsVista \[ desktop apps \| UWP 應用程式\]<br/>                                                    |
+| 最低支援的伺服器<br/> | WindowsServer 2008 \[ desktop app \| UWP 應用程式\]<br/>                                              |
 | 標頭<br/>                   | <dl> <dt>Mfobjects (包含 Mfidl) </dt> </dl> |
 
 

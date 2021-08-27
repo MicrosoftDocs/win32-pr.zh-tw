@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 更新整個實例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ae81b334d1d89a7e936e2c9d80aebfbeecb430bd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 41cac29805eeff1f8c659c0bee6832eb65e9e6b5bdee8cd15bd0a052247a70e7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193859"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119995537"
 ---
 # <a name="updating-an-entire-instance"></a>更新整個實例
 

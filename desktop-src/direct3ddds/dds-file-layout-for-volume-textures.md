@@ -4,12 +4,12 @@ description: 若為磁片區材質，請使用 DDSCAPS \_ COMPLEX、DDSCAPS2 \_ 
 ms.assetid: c1675a6d-129a-4e95-993f-e1be905781cc
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 03d82faa8041f2b5c99ef57ee2386ff5de84d787
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 79501ea3ffa6f4a660f4ab3b248fedbdc7df17bf8af94520cad5808c3c611fd2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106968639"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120025738"
 ---
 # <a name="dds-volume-texture-example"></a>DDS 磁片區材質範例
 
@@ -38,7 +38,7 @@ ms.locfileid: "106968639"
 
 
 
- 
+ 
 
 請注意，最小的 mipmap 層級只有3個位元組，因為 bitcount 是24，而且此層級沒有額外的壓縮。
 
@@ -51,9 +51,9 @@ ms.locfileid: "106968639"
 [DDS 程式設計指南](dx-graphics-dds-pguide.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

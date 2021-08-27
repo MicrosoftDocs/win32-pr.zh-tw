@@ -3,7 +3,7 @@ title: 'PGM_SETBUTTONSIZE 訊息 (Commctrl .h) '
 description: 設定呼機控制項目前的按鈕大小。 您可以明確地傳送此訊息，或使用呼叫器 \_ SetButtonSize 宏。
 ms.assetid: b31960f8-87c2-4209-8213-df75ac883e11
 keywords:
-- PGM_SETBUTTONSIZE message Windows 控制項
+- PGM_SETBUTTONSIZE 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ecf8c164ed960675c1a68be36acfe0eff40f972f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3b120ed4bd6b7090621e09dd24b9e6a23b037fb5aed83e7ac6fc43254393330e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104508487"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120046788"
 ---
 # <a name="pgm_setbuttonsize-message"></a>PGM \_ SETBUTTONSIZE 訊息
 
@@ -55,8 +55,8 @@ ms.locfileid: "104508487"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

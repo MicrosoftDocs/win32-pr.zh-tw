@@ -4,12 +4,12 @@ ms.assetid: 560A3EA8-AB78-4326-893B-A28DCBC0A7E0
 title: 媒體來源和接收
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 668e2c609987f50911b2074035def9aad22e6432
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 363ab0e3ba0f76b74589cc4f1db7eba435af81adb0d60ac65f078afc020ab025
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "107000514"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120061038"
 ---
 # <a name="media-sources-and-sinks"></a>媒體來源和接收
 

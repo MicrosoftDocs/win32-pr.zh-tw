@@ -4,12 +4,12 @@ ms.assetid: c9b8c284-7c31-4fb0-8cc4-ff09c9c4f228
 title: 應用程式手勢和字元和符號之間的衝突
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a92755990235d494cd3e0dc07218de8a1e47d578
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5819bfd7013bc39ecb622b09a1ae42816bb969ec63bf062d19597575bb958279
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971992"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120009018"
 ---
 # <a name="conflicts-between-application-gestures-and-characters-and-symbols"></a>應用程式手勢和字元和符號之間的衝突
 

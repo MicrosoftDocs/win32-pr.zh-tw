@@ -4,12 +4,12 @@ description: 用戶端通常必須儲存其他用戶端特定的目的地相關�
 ms.assetid: e96805b0-680f-411c-a02c-2c3fda7276ae
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9893b3a8b8e8a69ab78f33156efbe872b86d83ca
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 16d24524f64fca7062ffb35ed6f4d5e6a2bc935ef7fee0c7fa141cb2e823e70f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840416"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120025068"
 ---
 # <a name="using-opaque-pointers"></a>使用不透明的指標
 
@@ -19,9 +19,9 @@ ms.locfileid: "103840416"
 
 不透明指標的數目有限;這些指標會先以先服務的基礎來配置給用戶端。 路由器系統管理員必須在路由器設定期間配置正確的指標數目;因此，路由通訊協定和其他用戶端必須記錄其使用不透明指標。
 
- 
+ 
 
- 
+ 
 
 
 

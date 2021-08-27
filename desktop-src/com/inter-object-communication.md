@@ -4,12 +4,12 @@ description: COM 的設計目的是為了讓用戶端能夠以透明的方式與
 ms.assetid: dd4adafb-a7e4-44ba-ae4a-80585875ecb6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9356ba2bcb9dd3a6a56ac16c354f3abcb752d717
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: d49d3d584ba6aa25a721276559a65ca2f9f9deded76616b93ff9953affce3553
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104093344"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120070828"
 ---
 # <a name="inter-object-communication"></a>Inter-Object 通訊
 
@@ -57,6 +57,6 @@ Proxy 物件會封裝某些資料封包中的函式參數，並產生本機或�
 [介面封送處理](interface-marshaling.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

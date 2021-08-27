@@ -4,12 +4,12 @@ description: 隨著分散式元件物件模型的出現，即使您只想要在�
 ms.assetid: 2ee4d950-dfd5-4965-bd77-a600e878be59
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3502604d62e6a5129ca3e3538761722909c0198f
-ms.sourcegitcommit: 85688bbfbe5b121bc05ddf112d54c23a469dfbc0
+ms.openlocfilehash: 52df6deb3f83f253fc46436ba992dc3fc10f74d84e43c6027fd4426b3171a838
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "103841839"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120070998"
 ---
 # <a name="designing-remotable-interfaces"></a>設計可遠端處理的介面
 
@@ -21,9 +21,9 @@ MIDL 不只是產生介面標頭檔的方法。 它是遠端的程式設計語�
 
 最後，作為介面設計工具，您需要考慮用戶端應用程式將如何使用您的介面。 另外還有兩件事，就是判斷介面在進程和電腦界限之間是否有效：跨介面界限的方法呼叫頻率，以及在指定的方法呼叫中要傳輸的資料量。 雖然 COM 讓程式得以透明地跨進程和跨網路呼叫，但是無法讓高頻率和高頻寬呼叫在位址空間之間有效率。 在某些情況下，設計介面較適合通常只會實作為同進程伺服器，而其他介面更適合遠端使用的介面。
 
- 
+ 
 
- 
+ 
 
 
 

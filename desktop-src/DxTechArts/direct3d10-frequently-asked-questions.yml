@@ -5,12 +5,12 @@ metadata:
   ms.assetid: da3022ca-b120-d0d7-6747-65b946dbc73c
   ms.topic: article
   ms.date: 05/31/2018
-  ms.openlocfilehash: e4d83f20d5dac1c067144e715dee7331cabe2ce7
-  ms.sourcegitcommit: adba238660d8a5f4fe98fc6f5d105d56aac3a400
+  ms.openlocfilehash: 28a2fd6bb4065c420048837dffd238999502c0a9fa88b75d80ca86a7c3e4c758
+  ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
   ms.translationtype: MT
   ms.contentlocale: zh-TW
-  ms.lasthandoff: 06/09/2021
-  ms.locfileid: "111852702"
+  ms.lasthandoff: 08/11/2021
+  ms.locfileid: "120051128"
 title: Direct3D 10 常見問題集
 summary: >
   本文包含有關 Direct3D 10 的一些常見問題，從 Direct3D 9 (D3D9) 移植現有的應用程式，到 Direct3D 10 (D3D10) 。
@@ -103,7 +103,7 @@ sections:
   questions:
   - question: 我的 Direct3D 9 著色器可以編譯為著色器模型4.0，但是當我將它們系結至管線時，會出現在偵錯工具中使用偵錯工具執行時間顯示的連結錯誤。
     answer: >
-      著色器連結在 D3D10 中更嚴格。 後續階段中的元素必須以其從上一個階段輸出的順序來讀取。 例如︰
+      著色器連結在 D3D10 中更嚴格。 後續階段中的元素必須以其從上一個階段輸出的順序來讀取。 例如：
 
 
       頂點著色器輸出：
@@ -230,7 +230,7 @@ sections:
   questions:
   - question: 我應該使用幾何著色器來 tessellate 我的 (在此處插入任何內容) ？
     answer: >
-      否。 幾何著色器不應該用於鑲嵌式。
+      不會。 幾何著色器不應該用於鑲嵌式。
   - question: 我可以使用幾何著色器來建立幾何嗎？
     answer: >
       是，在極少數的案例中。 目前 D3D10 中的幾何著色器 (2008) 元件並沒有處理許多擴充的能力。 未來可能會變更。 由於現有的點 sprite 硬體，視訊卡廠商可能會有一到四個擴充的特殊路徑。 任何其他擴充都必須非常有限。 ParticlesGS 和 PipesGS 範例只會執行有限的擴充，以達到高框架速率。 每個畫面格只會展開一些點。
@@ -279,7 +279,7 @@ sections:
     answer: "D3D10 中的 register 關鍵字現在適用于特定資源系結至的位置。 在此情況下，資源可以是緩衝區 (常數或) 、材質或取樣器。\n\n-   針對常數緩衝區，請使用語法： register (bN) ，其中 N 是輸入位置 (0-15) \n-   針對材質，請使用語法： register (tN) ，其中 N 是輸入位置 (0-127) \n-   針對取樣器，請使用語法： register (sN) ，其中 N 是輸入位置 (0-127) \n"
   - question: 如果 register 只是用來指定要系結整個緩衝區的位置，如何? 在常數緩衝區內放置變數呢？
     answer: >-
-      使用 packoffset 關鍵字。 Packoffset 的引數是 c 0-4095 的形式 \[ \] 。 \[x、y、z、w \] 。 例如︰
+      使用 packoffset 關鍵字。 Packoffset 的引數是 c 0-4095 的形式 \[ \] 。 \[x、y、z、w \] 。 例如：
 
 
       ``` syntax

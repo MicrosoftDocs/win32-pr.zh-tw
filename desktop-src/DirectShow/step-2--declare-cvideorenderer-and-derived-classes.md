@@ -1,21 +1,21 @@
 ---
-description: 本主題是在 DirectShow 中進行音訊/影片播放教學課程的步驟2。
+description: 本主題是 DirectShow 中音訊/影片播放教學課程的步驟2。
 ms.assetid: 61106781-d10c-41a8-993e-121e0a1e4c4d
 title: 步驟2：宣告 CVideoRenderer 和衍生類別
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 11474c57e70d8632a53ac0b858d61d2bddf1e86b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fae4c9c391a13acd0ede06b9a74c3b09bd264a6b74c42d7f6c7ca5e9dbb17051
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975383"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120050358"
 ---
 # <a name="step-2-declare-cvideorenderer-and-derived-classes"></a>步驟2：宣告 CVideoRenderer 和衍生類別
 
-本主題是 [在 DirectShow 中進行音訊/影片播放](audio-video-playback-in-directshow.md)教學課程的步驟2。 完整的程式碼會顯示在「 [DirectShow 播放」範例](directshow-playback-example.md)中。
+本主題是[DirectShow 中音訊/影片播放](audio-video-playback-in-directshow.md)教學課程的步驟2。 完整的程式碼會顯示在[DirectShow 播放範例](directshow-playback-example.md)的主題中。
 
-DirectShow 提供數種可轉譯影片的不同篩選：
+DirectShow 提供數個會轉譯影片的不同篩選：
 
 -   [**增強的影片轉譯器篩選器**](enhanced-video-renderer-filter.md) (EVR) 
 -   [影片混合轉譯器篩選器 9](video-mixing-renderer-filter-9.md) (VMR-9) 
@@ -137,13 +137,13 @@ public:
 
 
 
-下一 [步：步驟3：建立篩選圖形](step-3--build-the-filter-graph.md)。
+下一[步：步驟3： Graph 建立篩選](step-3--build-the-filter-graph.md)。
 
 ## <a name="related-topics"></a>相關主題
 
 <dl> <dt>
 
-[在 DirectShow 播放音訊/影片](audio-video-playback-in-directshow.md)
+[DirectShow 中的音訊/影片播放](audio-video-playback-in-directshow.md)
 </dt> <dt>
 
 [使用影片混合轉譯器](using-the-video-mixing-renderer.md)

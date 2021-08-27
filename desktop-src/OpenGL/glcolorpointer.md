@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9abced52f0d0664e998ad8380e33d43d4af36bcc
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b8e08f046cc1bd41293a076f36389506320e85025e415b264bed1ed0de14f9a3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464728"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120081708"
 ---
 # <a name="glcolorpointer-function"></a>glColorPointer 函式
 
@@ -81,7 +81,7 @@ void WINAPI glColorPointer(
 
 
 
-| Name                                                                                              | 意義                                      |
+| 名稱                                                                                              | 意義                                      |
 |---------------------------------------------------------------------------------------------------|----------------------------------------------|
 | <dl> <dt>**GL \_ 無效 \_ 值**</dt> </dl> | *大小* 不是3或4。<br/>            |
 | <dl> <dt>**GL \_ 無效 \_ 列舉**</dt> </dl>  | *類型* 不是可接受的值。<br/> |

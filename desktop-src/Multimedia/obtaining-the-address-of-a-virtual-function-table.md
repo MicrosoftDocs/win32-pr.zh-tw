@@ -4,12 +4,12 @@ description: 取得虛擬函式資料表的位址
 ms.assetid: c9e9e2df-75e6-4684-a465-6905e76b10a2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7c0d618e75d2c3a4fcc2550fca7cb90bd2a51d2f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 39a0fbf941114cfff2b930ed329f7a35962b9ef07158fd5fda16a19a73c0f692
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104507208"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120038428"
 ---
 # <a name="obtaining-the-address-of-a-virtual-function-table"></a>取得虛擬函式資料表的位址
 
@@ -31,9 +31,9 @@ PAVISTREAM WINAPI NewBall(VOID)
 
 
 
- 
+ 
 
- 
+ 
 
 
 

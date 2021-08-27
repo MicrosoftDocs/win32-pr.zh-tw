@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 452c42c37e8dcb9f2b37b660b1f8899e587b5579
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: e8cce3f7f190ded1b86fef5ea5b43016d5f8b08ebc9c1e5483280a2b4305200a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108103636"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119995594"
 ---
 # <a name="swbemservicesexecmethod-method"></a>SWbemServices.ExecMethod 方法
 
@@ -167,7 +167,7 @@ WbemServices.ExecMethod oPath, "StartService"
 
 ## <a name="examples"></a>範例
 
-下列範例顯示 **ExecMethod** 方法。 腳本會建立 [**Win32 \_ 處理**](/windows/desktop/CIMWin32Prov/win32-process) 物件，該物件代表正在執行 [記事本] 的進程。 它會顯示 [**InParameters**](swbemmethod-inparameters.md) 物件的設定，以及如何從 [**OutParameters**](swbemmethod-outparameters.md) 物件取得結果。 如需顯示以非同步方式執行相同作業的腳本，請參閱 [**SWbemServices.ExecMethodAsync**](swbemservices-execmethodasync.md)。 如需使用直接存取的範例，請參閱 [在 Class Win32 \_ 進程中建立方法](/windows/desktop/CIMWin32Prov/create-method-in-class-win32-process)。 如需使用 [**SWbemObject**](swbemobject.md)進行相同操作的範例，請參閱 [**SWbemObject.ExecMethod**](swbemobject-execmethod-.md)。
+下列範例顯示 **ExecMethod** 方法。 腳本會建立 [**Win32 \_ 處理**](/windows/desktop/CIMWin32Prov/win32-process)物件，該物件代表正在執行記事本的進程。 它會顯示 [**InParameters**](swbemmethod-inparameters.md) 物件的設定，以及如何從 [**OutParameters**](swbemmethod-outparameters.md) 物件取得結果。 如需顯示以非同步方式執行相同作業的腳本，請參閱 [**SWbemServices.ExecMethodAsync**](swbemservices-execmethodasync.md)。 如需使用直接存取的範例，請參閱 [在 Class Win32 \_ 進程中建立方法](/windows/desktop/CIMWin32Prov/create-method-in-class-win32-process)。 如需使用 [**SWbemObject**](swbemobject.md)進行相同操作的範例，請參閱 [**SWbemObject.ExecMethod**](swbemobject-execmethod-.md)。
 
 
 ```VB

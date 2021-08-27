@@ -3,7 +3,7 @@ title: 'EM_GETIMECOMPTEXT 訊息 (Richedit .h) '
 description: 抓取輸入方法編輯器 (IME) 組合文字。
 ms.assetid: 1516305c-5f87-4ae0-97db-8709c71abacc
 keywords:
-- EM_GETIMECOMPTEXT message Windows 控制項
+- EM_GETIMECOMPTEXT 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 834c55d6b5e40de7dcacfeb3e2d0c2e0878a0f3a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5dd915f037275d428df37ca02a206b936a63bfd2f6ac8fbb605d1573b9535789
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934733"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120049068"
 ---
 # <a name="em_getimecomptext-message"></a>EM \_ GETIMECOMPTEXT 訊息
 
@@ -59,8 +59,8 @@ ms.locfileid: "103934733"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 Windows XP （含 SP1） \[ 桌面應用程式\]<br/>                                  |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows僅限 XP （含 SP1） \[ 桌面應用程式\]<br/>                                  |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Richedit。h</dt> </dl> |
 
 

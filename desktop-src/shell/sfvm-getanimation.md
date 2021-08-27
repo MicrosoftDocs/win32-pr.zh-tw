@@ -4,12 +4,12 @@ ms.assetid: 6f8b3894-f08f-4ebf-a645-87869e7d1b20
 title: 'SFVM_GETANIMATION 訊息 (Shlobj.h .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 60e4281689556e8315da7a9550fd69acc1a327a1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 746d8bc9bc4a6d4e15d9cd5190d7cfcb7d1362daba8ec5478b333458f62787da
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104115833"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120008988"
 ---
 # <a name="sfvm_getanimation-message"></a>SFVM \_ GETANIMATION 訊息
 

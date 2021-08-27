@@ -4,12 +4,12 @@ ms.assetid: b66d322a-a971-4219-bb5b-dc69b10b2581
 title: TxF 控制項碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8ef99a111a32aa5d2a7fd5997a855ce08e595ad6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fe432444c7abcc9e31c00a68847f92b177de22a6fbb33dc1b02ad22a732a14ed
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106991712"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120047858"
 ---
 # <a name="txf-control-codes"></a>TxF 控制項碼
 
@@ -21,7 +21,7 @@ ms.locfileid: "106991712"
 
 
 
-| 控制程式代碼                                                                                                 | Description                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| 控制程式代碼                                                                                                 | 描述                                                                                                                                                                                                                                                                                                                                                                                                                             |
 |--------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**FSCTL \_ TXFS \_ 建立 \_ 迷你**](/windows/win32/api/winioctl/ni-winioctl-fsctl_txfs_create_miniversion)<br/>                         | 為指定的檔案建立新的 [迷你版本](glossary.md) 。 <br/> Miniversions 可讓您在交易期間參考檔案的快照集。 認可或回復交易時，將會捨棄 Miniversions。<br/>                                                                                                                                                                      |
 | [**FSCTL \_ TXFS \_ 取得 \_ 中繼資料 \_ 資訊**](/windows/win32/api/winioctl/ni-winioctl-fsctl_txfs_get_metadata_info)<br/>                          | 抓取交易的 NTFS (TxF) 檔案的中繼資料，以及已鎖定所指定檔案之交易的 **GUID** (如果檔案已鎖定) 。 <br/>                                                                                                                                                                                                                                                                         |

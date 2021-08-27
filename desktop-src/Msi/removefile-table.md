@@ -4,12 +4,12 @@ ms.assetid: 8b3cb0e3-ccc0-4030-8f57-aa124c3b5588
 title: RemoveFile 資料表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 723e42582821d79842686678c5b310e95cd1e944
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 12cf63e9b7616eb033a696da2ad29cb4310e6dc0dc56279ef465c3c549cb5437
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103850599"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120082598"
 ---
 # <a name="removefile-table"></a>RemoveFile 資料表
 
@@ -70,7 +70,7 @@ RemoveFile 資料表具有下列資料行。
 
 
 
-| 常數                                | 十六進位 | Decimal | Description                                                                                                   |
+| 常數                                | 十六進位 | Decimal | 描述                                                                                                   |
 |-----------------------------------------|-------------|---------|---------------------------------------------------------------------------------------------------------------|
 | **msidbRemoveFileInstallModeOnInstall** | 0x001       | 1       | 只有在 (msiInstallStateLocal 或 msiInstallStateSource) 安裝相關聯的元件時，才移除。 |
 | **msidbRemoveFileInstallModeOnRemove**  | 0x002       | 2       | 只有在 (msiInstallStateAbsent) 移除相關聯的元件時，才移除。                           |

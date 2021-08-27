@@ -7,17 +7,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Gg269225(v=EXCHG.10)
 ms:contentKeyID: 32765527
 ms.date: 04/11/2016
 ms.topic: article
-ms.openlocfilehash: 21448d50e17881517086c1b258dcce02e84286a6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 21dbe18be8be26af9fe32d9b80cbd5744c172793e27701d46438df4d63dcf395
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106996759"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120115578"
 ---
 # <a name="multi-valued-sparse-columns"></a>多重值的稀疏資料行
 
 
-_**適用于：** Windows |Windows Server_
+_**適用于：** Windows |Windows伺服器_
 
 ## <a name="multi-valued-sparse-columns"></a>多重值的稀疏資料行
 

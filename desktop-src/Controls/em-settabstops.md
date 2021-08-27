@@ -3,7 +3,7 @@ title: 'EM_SETTABSTOPS 訊息 (Winuser .h) '
 description: EM \_ SETTABSTOPS 訊息會設定多行編輯控制項中的定位停駐點。
 ms.assetid: d6fe2828-4ae9-4652-ace0-2f71e146f777
 keywords:
-- EM_SETTABSTOPS message Windows 控制項
+- EM_SETTABSTOPS 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 48d076dea415f169eff46101fd7cfe632d73d976
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c2bf8285bbc8830f784b6cf2cf6671634bf4339a418c163bc3962150d6cb6674
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104213"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120048078"
 ---
 # <a name="em_settabstops-message"></a>EM \_ SETTABSTOPS 訊息
 
@@ -65,9 +65,9 @@ ms.locfileid: "104104213"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                     |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 

@@ -4,12 +4,12 @@ description: 使用視圖旗標來控制路由表的流覽。
 ms.assetid: 836e3400-0dca-4a21-9a5c-7da357ed72ea
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5192bf3e1acaa91412d8ae7e06d035e54af1ece6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 73ae9763587cf7972aab3ca9880d5ad26350c3161955c17940484cc1cbd801bc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "107001269"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120024948"
 ---
 # <a name="view-flags"></a>視圖旗標
 
@@ -32,11 +32,11 @@ ms.locfileid: "107001269"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

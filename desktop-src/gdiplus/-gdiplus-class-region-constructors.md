@@ -11,12 +11,12 @@ api_name: ''
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 98663587fab3722d689c9d34578d60daad922a2c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: af5b5daf50a2e9487ddbf18450735a525f771717a94dc37ab20222c6c6fbe288
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104115249"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120115248"
 ---
 # <a name="regionregion-constructors"></a>Region 函數
 

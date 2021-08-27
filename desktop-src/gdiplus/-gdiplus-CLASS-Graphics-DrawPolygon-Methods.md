@@ -4,12 +4,12 @@ ms.assetid: 5cc34d59-d8f7-4df6-afc1-df729337d62f
 title: 'DrawPolygon 方法 (Gdiplusgraphics .h) '
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: b7fb6cbf0e60c4c5769eb9e5d9168de54f6857e5
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4adbf0422024db44a5622319ad76b4867661e917ba767ed19f52f10f4cd50c23
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "104974896"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120092498"
 ---
 # <a name="graphicsdrawpolygon-methods"></a>DrawPolygon 方法
 

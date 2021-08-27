@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2637cb5db663ea36b15eb382a16b02b166e98f88
-ms.sourcegitcommit: 476861130ea63675206d1f06e517059705b930ed
+ms.openlocfilehash: c66a136acf65022ccc3ba8b05d070e4855a64f7abdf9b0519f7c1628d292aa0e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "104373506"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120047598"
 ---
 # <a name="add-timeout"></a>add timeout
 
@@ -41,7 +41,7 @@ add timeout [timeouttype=]{idleconnectiontimeout|headerwaittimeout}
 
 </dd> <dt>
 
-<span id="_value__u-short"></span><span id="_VALUE__U-SHORT"></span>**\[值 = \] * * * u-短*
+<span id="_value__u-short"></span><span id="_VALUE__U-SHORT"></span>**\[ 值 = \]** _u-短_
 </dt> <dd>
 
 指定 timeout (的值，以秒為單位) 。 如果值為十六進位，則加入前置詞0x。
@@ -54,9 +54,9 @@ add timeout [timeouttype=]{idleconnectiontimeout|headerwaittimeout}
 
 **add timeout timeouttype=headerwaittimeout value=0x40**
 
- 
+ 
 
- 
+ 
 
 
 

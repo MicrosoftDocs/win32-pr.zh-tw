@@ -3,7 +3,7 @@ title: 'TVM_HITTEST 訊息 (Commctrl .h) '
 description: 判斷指定點相對於樹狀檢視控制項工作區的位置。 您可以使用 TreeView System.windows.media.visualtreehelper.hittest 宏明確地傳送此訊息 \_ 。
 ms.assetid: 18ea3737-f429-4c10-9133-3b5729aa36fa
 keywords:
-- TVM_HITTEST message Windows 控制項
+- TVM_HITTEST 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 50b91a11892a2bb904d2cd7d82b5b08cea18331b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e564b6d82c04c0d007784aac39284db13b3776267d524d2f615353ede50eb945
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104024836"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120060148"
 ---
 # <a name="tvm_hittest-message"></a>TVM \_ system.windows.media.visualtreehelper.hittest 訊息
 
@@ -49,8 +49,8 @@ ms.locfileid: "104024836"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

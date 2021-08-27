@@ -4,12 +4,12 @@ ms.assetid: 08357ff5-4606-4bfc-8dd6-907aca4b5f07
 title: DVD 基本概念
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 94d0b2af8bc16fa0890c0103a063e750364cece0
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 2a61299c4c0d3e83235a741c262efae685aa74ffa525aa08f9cf9a2e58b957e0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106972745"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120102938"
 ---
 # <a name="dvd-basics"></a>DVD 基本概念
 

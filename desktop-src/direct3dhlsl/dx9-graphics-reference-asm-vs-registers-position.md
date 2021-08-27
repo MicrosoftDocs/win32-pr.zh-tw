@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 89470bb920db7c612b21cefb2c44c2c89d48ce28
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: cda82431990ed3ea545adfcc5e6eb2801be0607d8bac45aa1bcd8c0e121f3d68
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103673591"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120023898"
 ---
 # <a name="position-register"></a>位置註冊
 
@@ -28,7 +28,7 @@ ms.locfileid: "103673591"
 
 
 
- 
+ 
 
 暫存器包含的屬性會決定每個註冊的行為。
 
@@ -36,13 +36,13 @@ ms.locfileid: "103673591"
 
 | 屬性        | 描述 |
 |-----------------|-------------|
-| Name            | oPos        |
-| Count           | 1個向量    |
+| 名稱            | oPos        |
+| 計數           | 1個向量    |
 | I/o 許可權 | 唯寫。 |
 
 
 
- 
+ 
 
 值是同質剪切空間中的位置。 這個值必須由頂點著色器撰寫。
 
@@ -69,9 +69,9 @@ ms.locfileid: "103673591"
 [頂點著色器暫存器](dx9-graphics-reference-asm-vs-registers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

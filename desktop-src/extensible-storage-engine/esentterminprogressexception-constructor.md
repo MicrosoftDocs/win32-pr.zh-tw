@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 5bdb07b79b052045158c260fd0a476933e19f1f4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 54138169cd9be398b7466f681f055128235567274bd103c16d343149addae8b9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106976949"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120093868"
 ---
 # <a name="esentterminprogressexception-constructor"></a>EsentTermInProgressException 函式
 

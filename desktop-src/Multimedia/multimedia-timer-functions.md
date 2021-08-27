@@ -12,12 +12,12 @@ keywords:
 - 計時器參考，函數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e03546531702c101cca9cab137432951fa00c38d
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 3c35825753483b5664e9c328b37c95ff07c2229950868407a98cec7b9ea07a14
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104023359"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120038648"
 ---
 # <a name="multimedia-timer-functions"></a>多媒體計時器函數
 
@@ -39,6 +39,6 @@ ms.locfileid: "104023359"
 [多媒體計時器參考](multimedia-timer-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

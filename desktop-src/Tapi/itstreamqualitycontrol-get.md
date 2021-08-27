@@ -4,16 +4,16 @@ ms.assetid: a8b5b8c7-47c9-4561-be96-af8416d854dc
 title: 'ITStreamQualityControl：： Get 方法 (Ipmsp .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6758678dfacc8e0fe169189beaa8e890e801c907
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c1a82a448320115664ab0664c2f7d8cde9f8049c7ee2cb86ccf7e46f856ceafe
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995322"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120080498"
 ---
 # <a name="itstreamqualitycontrolget-method"></a>ITStreamQualityControl：： Get 方法
 
-\[ 在 Windows Vista、Windows Server 2008 和後續的作業系統版本中，無法使用這個方法。 RTC 用戶端 API 提供類似的功能。\]
+\[此方法無法在 Windows Vista、Windows Server 2008 和後續版本的作業系統中使用。 RTC 用戶端 API 提供類似的功能。\]
 
 **Get** 方法會抓取指定之 [**資料流程品質屬性**](streamqualityproperty.md)的值。
 
@@ -61,7 +61,7 @@ HRESULT Get(
 
 
 
-| 傳回碼                                                                                   | Description                                                     |
+| 傳回碼                                                                                   | 描述                                                     |
 |-----------------------------------------------------------------------------------------------|-----------------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>          | 方法成功。<br/>                                    |
 | <dl> <dt>**E \_ OUTOFMEMORY**</dt> </dl> | 記憶體不足，無法執行操作。<br/> |
