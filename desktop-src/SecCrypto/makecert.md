@@ -4,12 +4,12 @@ ms.assetid: a28e77dd-72c9-42a3-a72d-1b3eaf59d9cf
 title: MakeCert
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: acd9f15f942fb6dd7c4c831cb33552b6f59ec2cd6cf9cac9654386d6adc27649
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 2ff9fb79b5db5a6a71eee981166742b4e1680184
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119425738"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122471924"
 ---
 # <a name="makecert"></a>MakeCert
 
@@ -40,122 +40,34 @@ MakeCert 的選項也可以分為三個功能群組：
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>基本選項</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>-a</strong> <strong></strong><em>演算法</em></td>
-<td><a href="/windows/desktop/SecGloss/h-gly"><em>雜湊</em></a> 演算法。 必須設定為 <strong>sha-1</strong> 或 <strong>MD5</strong> (預設) 。 如需 MD5 的詳細資訊，請參閱 <a href="/windows/desktop/SecGloss/m-gly"><em>md5</em></a>。</td>
-</tr>
-<tr class="even">
-<td><strong>-b</strong> <strong></strong><em>DateStart</em></td>
-<td>憑證首次生效的日期。 預設值為建立憑證的時間。 <em>DateStart</em>的格式為 mm/dd/yyyy。</td>
-</tr>
-<tr class="odd">
-<td><strong>-cy</strong> <strong></strong><em>CertificateTypes</em></td>
-<td>憑證類型。 <em>CertificateTypes</em> <strong>可用於終端</strong>實體或<a href="/windows/desktop/SecGloss/c-gly"><em>憑證授權單位</em></a>單位的<strong>授權</strong>單位。</td>
-</tr>
-<tr class="even">
-<td><strong>-e</strong> <strong></strong><em>DateEnd</em></td>
-<td>有效期間結束的日期。 預設值為2039年。</td>
-</tr>
-<tr class="odd">
-<td><strong>-eku</strong> <strong></strong><em>OID1</em><strong>、</strong> <em>OID2</em> .。。</td>
-<td>將一或多個以逗號分隔、 <a href="/windows/desktop/SecGloss/e-gly"><em>增強金鑰使用</em></a>方法 <a href="/windows/desktop/SecGloss/o-gly"><em>物件識別碼</em></a> 的清單插入憑證 (oid) 。 例如， <strong>-eku 1.3.6.1.5.5.7.3.2</strong> 會插入用戶端驗證 OID。 如需允許 Oid 的定義，請參閱 CryptoAPI 2.0 中的 Wincrypt .h 檔案。</td>
-</tr>
-<tr class="even">
-<td><strong>-h</strong> <strong></strong><em>NumChildren</em></td>
-<td>此憑證下的樹狀結構最大高度。</td>
-</tr>
-<tr class="odd">
-<td><strong>-l</strong> <strong></strong><em>PolicyLink</em></td>
-<td>與 SPC 機構原則資訊的連結 (例如，URL) 。</td>
-</tr>
-<tr class="even">
-<td><strong>-m</strong> <strong></strong><em>nMonths</em></td>
-<td>有效期間的持續時間。</td>
-</tr>
-<tr class="odd">
-<td><strong>-n</strong> <strong>&quot;</strong><em>名稱</em><strong>&quot;</strong></td>
-<td>發行者憑證的名稱。 這個名稱必須符合 <a href="/windows/desktop/SecGloss/x-gly"><em>X. 500</em></a> 標準。 最簡單的方法是使用 &quot; CN =<em>MyName</em> &quot; 格式。 例如： <strong>-n &quot; CN = Test &quot; </strong>。</td>
-</tr>
-<tr class="even">
-<td><strong>-nscp</strong></td>
-<td>應包含 Netscape 用戶端驗證延伸模組。</td>
-</tr>
-<tr class="odd">
-<td><strong>-pe</strong></td>
-<td>將私密金鑰標記為可匯出。</td>
-</tr>
-<tr class="even">
-<td><strong>-r</strong></td>
-<td>建立自我簽署憑證。</td>
-</tr>
-<tr class="odd">
-<td><strong>-sc</strong> <strong></strong><em>SubjectCertFile</em></td>
-<td>包含要使用之現有主體公開金鑰的憑證檔案名。</td>
-</tr>
-<tr class="even">
-<td><strong>-sk</strong> <strong></strong><em>SubjectKey</em></td>
-<td>保存 <a href="/windows/desktop/SecGloss/p-gly"><em>私密金鑰</em></a>之主體金鑰容器的位置。 如果金鑰容器不存在，便會建立一個。 如果不使用 <strong>-sk</strong> 或 <strong>-sv</strong> 選項，預設會建立預設的金鑰容器並使用。</td>
-</tr>
-<tr class="odd">
-<td><strong>-天空</strong> <strong></strong><em>SubjectKeySpec</em></td>
-<td>主體的金鑰規格。 <em>SubjectKeySpec</em> 必須是三個可能值的其中一個：<br/>
-<ul>
-<li>簽章 (AT_SIGNATURE 機<strong>碼</strong>規格) </li>
-<li><strong>Exchange</strong> (AT_KEYEXCHANGE 金鑰規格) </li>
-<li>整數，例如<strong>3</strong> 。</li>
-</ul>
-如需詳細資訊，請參閱此表格後面的附注。<br/></td>
-</tr>
-<tr class="even">
-<td><strong>-sp</strong> <strong></strong><em>SubjectProviderName</em></td>
-<td>Subject 的 CryptoAPI 提供者。 預設值是使用者的提供者。 如需 CryptoAPI 提供者的詳細資訊，請參閱 CryptoAPI 2.0 檔。</td>
-</tr>
-<tr class="odd">
-<td><strong>-sr</strong> <strong></strong><em>SubjectCertStoreLocation</em></td>
-<td>主體憑證存放區的登錄位置。 <em>SubjectCertStoreLocation</em> 必須是 <strong>LocalMachine</strong> (登錄機碼 HKEY_LOCAL_MACHINE) 或 <strong>CurrentUser</strong> (登錄機碼 HKEY_CURRENT_USER) 。 預設值為<strong>CurrentUser</strong> 。</td>
-</tr>
-<tr class="even">
-<td><strong>-ss</strong> <strong></strong><em>SubjectCertStoreName</em></td>
-<td>將儲存所產生之憑證的主體憑證存放區名稱。</td>
-</tr>
-<tr class="odd">
-<td><strong>-sv</strong> <strong></strong><em>SubjectKeyFile</em></td>
-<td>主體 pvk 檔案的名稱。 如果不使用 <strong>-sk</strong> 或 <strong>-sv</strong> 選項，預設會建立預設的金鑰容器並使用。</td>
-</tr>
-<tr class="even">
-<td><strong>-sy</strong> <strong></strong><em>nSubjectProviderType</em></td>
-<td>Subject 的 CryptoAPI 提供者類型。 預設值為 <a href="/windows/desktop/SecGloss/p-gly"><em>PROV_RSA_FULL</em></a>。 如需 CryptoAPI 提供者類型的詳細資訊，請參閱 CryptoAPI 2.0 檔。</td>
-</tr>
-<tr class="odd">
-<td><strong>-#</strong><strong></strong> <em>SerialNumber</em></td>
-<td>憑證的序號。 最大值為 2 ^ 31。 預設值是工具所產生的值，這個值保證是唯一的。</td>
-</tr>
-<tr class="even">
-<td><strong>-$</strong><strong></strong> <em>CertificateAuthority</em></td>
-<td><a href="/windows/desktop/SecGloss/c-gly"><em>憑證授權單位</em></a>單位的類型。 <em>CertificateAuthority</em> 必須設定為 <strong>商業 (，才能讓商務軟體</strong> 發行者) 或個別軟體發行者) 使用憑證的 <strong>個別</strong> (。</td>
-</tr>
-<tr class="odd">
-<td><strong>-?</strong></td>
-<td>顯示基本選項。</td>
-</tr>
-<tr class="even">
-<td><strong>-!</strong></td>
-<td>顯示擴充的選項。</td>
-</tr>
-</tbody>
-</table>
+
+| 基本選項 | Description | 
+|--------------|-------------|
+| <strong>-a</strong> <strong></strong><em>演算法</em> | <a href="/windows/desktop/SecGloss/h-gly"><em>雜湊</em></a> 演算法。 必須設定為 <strong>sha-1</strong> 或 <strong>MD5</strong> (預設) 。 如需 MD5 的詳細資訊，請參閱 <a href="/windows/desktop/SecGloss/m-gly"><em>md5</em></a>。 | 
+| <strong>-b</strong> <strong></strong><em>DateStart</em> | 憑證首次生效的日期。 預設值為建立憑證的時間。 <em>DateStart</em>的格式為 mm/dd/yyyy。 | 
+| <strong>-cy</strong> <strong></strong><em>CertificateTypes</em> | 憑證類型。 <em>CertificateTypes</em> <strong>可用於終端</strong>實體或<a href="/windows/desktop/SecGloss/c-gly"><em>憑證授權單位</em></a>單位的<strong>授權</strong>單位。 | 
+| <strong>-e</strong> <strong></strong><em>DateEnd</em> | 有效期間結束的日期。 預設值為2039年。 | 
+| <strong>-eku</strong> <strong></strong><em>OID1</em><strong>、</strong><em>OID2</em> .。。 | 將一或多個以逗號分隔、<a href="/windows/desktop/SecGloss/e-gly"><em>增強金鑰使用</em></a>方法<a href="/windows/desktop/SecGloss/o-gly"><em>物件識別碼</em></a>的清單插入憑證 (oid) 。 例如， <strong>-eku 1.3.6.1.5.5.7.3.2</strong> 會插入用戶端驗證 OID。 如需允許 Oid 的定義，請參閱 CryptoAPI 2.0 中的 Wincrypt .h 檔案。 | 
+| <strong>-h</strong> <strong></strong><em>NumChildren</em> | 此憑證下的樹狀結構最大高度。 | 
+| <strong>-l</strong> <strong></strong><em>PolicyLink</em> | 與 SPC 機構原則資訊的連結 (例如，URL) 。 | 
+| <strong>-m</strong> <strong></strong><em>nMonths</em> | 有效期間的持續時間。 | 
+| <strong>-n</strong><strong>"</strong><em>Name</em><strong>"</strong> | 發行者憑證的名稱。 這個名稱必須符合 <a href="/windows/desktop/SecGloss/x-gly"><em>X. 500</em></a> 標準。 最簡單的方法是使用 "CN =<em>MyName</em>" 格式。 例如： <strong>-n "CN = Test"</strong>。 | 
+| <strong>-nscp</strong> | 應包含 Netscape 用戶端驗證延伸模組。 | 
+| <strong>-pe</strong> | 將私密金鑰標記為可匯出。 | 
+| <strong>-r</strong> | 建立自我簽署憑證。 | 
+| <strong>-sc</strong> <strong></strong><em>SubjectCertFile</em> | 包含要使用之現有主體公開金鑰的憑證檔案名。 | 
+| <strong>-sk</strong> <strong></strong><em>SubjectKey</em> | 保存 <a href="/windows/desktop/SecGloss/p-gly"><em>私密金鑰</em></a>之主體金鑰容器的位置。 如果金鑰容器不存在，便會建立一個。 如果不使用 <strong>-sk</strong> 或 <strong>-sv</strong> 選項，預設會建立預設的金鑰容器並使用。 | 
+| <strong>-天空</strong> <strong></strong><em>SubjectKeySpec</em> | 主體的金鑰規格。 <em>SubjectKeySpec</em> 必須是三個可能值的其中一個：<br /><ul><li>簽章 (AT_SIGNATURE 機<strong>碼</strong>規格) </li><li><strong>Exchange</strong> (AT_KEYEXCHANGE 金鑰規格) </li><li>整數，例如<strong>3</strong> 。</li></ul>如需詳細資訊，請參閱此表格後面的附注。<br /> | 
+| <strong>-sp</strong> <strong></strong><em>SubjectProviderName</em> | Subject 的 CryptoAPI 提供者。 預設值是使用者的提供者。 如需 CryptoAPI 提供者的詳細資訊，請參閱 CryptoAPI 2.0 檔。 | 
+| <strong>-sr</strong> <strong></strong><em>SubjectCertStoreLocation</em> | 主體憑證存放區的登錄位置。 <em>SubjectCertStoreLocation</em> 必須是 <strong>LocalMachine</strong> (登錄機碼 HKEY_LOCAL_MACHINE) 或 <strong>CurrentUser</strong> (登錄機碼 HKEY_CURRENT_USER) 。 預設值為<strong>CurrentUser</strong> 。 | 
+| <strong>-ss</strong> <strong></strong><em>SubjectCertStoreName</em> | 將儲存所產生之憑證的主體憑證存放區名稱。 | 
+| <strong>-sv</strong> <strong></strong><em>SubjectKeyFile</em> | 主體 pvk 檔案的名稱。 如果不使用 <strong>-sk</strong> 或 <strong>-sv</strong> 選項，預設會建立預設的金鑰容器並使用。 | 
+| <strong>-sy</strong> <strong></strong><em>nSubjectProviderType</em> | Subject 的 CryptoAPI 提供者類型。 預設值為 <a href="/windows/desktop/SecGloss/p-gly"><em>PROV_RSA_FULL</em></a>。 如需 CryptoAPI 提供者類型的詳細資訊，請參閱 CryptoAPI 2.0 檔。 | 
+| <strong>-#</strong><strong></strong><em>SerialNumber</em> | 憑證的序號。 最大值為 2 ^ 31。 預設值是工具所產生的值，這個值保證是唯一的。 | 
+| <strong>-$</strong><strong></strong><em>CertificateAuthority</em> | <a href="/windows/desktop/SecGloss/c-gly"><em>憑證授權單位</em></a>單位的類型。 <em>CertificateAuthority</em> 必須設定為 <strong>商業 (，才能讓商務軟體</strong> 發行者) 或個別軟體發行者) 使用憑證的 <strong>個別</strong> (。 | 
+| <strong>-?</strong> | 顯示基本選項。 | 
+| <strong>-!</strong> | 顯示擴充的選項。 | 
+
 
 
 
@@ -170,50 +82,16 @@ MakeCert 的選項也可以分為三個功能群組：
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>SPC 和私用金鑰選項</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>-ic</strong> <strong></strong><em>IssuerCertFile</em></td>
-<td>簽發者憑證的位置。</td>
-</tr>
-<tr class="even">
-<td><strong>-ik</strong> <strong></strong><em>IssuerKey</em></td>
-<td>簽發者金鑰容器的位置。 預設值為測試根目錄金鑰。</td>
-</tr>
-<tr class="odd">
-<td><strong>-iky</strong> <strong></strong><em>IssuerKeySpec</em></td>
-<td>簽發者的金鑰規格，其必須是三個可能值的其中一個：<br/>
-<ul>
-<li>簽章 (AT_SIGNATURE 機<strong>碼</strong>規格) </li>
-<li><strong>Exchange</strong> (AT_KEYEXCHANGE 金鑰規格) </li>
-<li>整數，例如<strong>3</strong> 。</li>
-</ul>
-如需詳細資訊，請參閱此表格後面的附注。<br/></td>
-</tr>
-<tr class="even">
-<td><strong>-ip</strong> <strong></strong><em>IssuerProviderName</em></td>
-<td>簽發者的 CryptoAPI 提供者。 預設值是使用者的提供者。 如需 CryptoAPI 提供者的詳細資訊，請參閱 CryptoAPI 2.0 檔。</td>
-</tr>
-<tr class="odd">
-<td><strong>-iv</strong> <strong></strong><em>IssuerKeyFile</em></td>
-<td>簽發者的私密金鑰檔案。 預設值是測試根目錄。</td>
-</tr>
-<tr class="even">
-<td><strong>-iy</strong> <strong></strong><em>nIssuerProviderType</em></td>
-<td>簽發者的 CryptoAPI 提供者類型。 預設值為 <a href="/windows/desktop/SecGloss/p-gly"><em>PROV_RSA_FULL</em></a>。 如需 CryptoAPI 提供者類型的詳細資訊，請參閱 CryptoAPI 2.0 檔。</td>
-</tr>
-</tbody>
-</table>
+
+| SPC 和私用金鑰選項 | Description | 
+|----------------------------|-------------|
+| <strong>-ic</strong> <strong></strong><em>IssuerCertFile</em> | 簽發者憑證的位置。 | 
+| <strong>-ik</strong> <strong></strong><em>IssuerKey</em> | 簽發者金鑰容器的位置。 預設值為測試根目錄金鑰。 | 
+| <strong>-iky</strong> <strong></strong><em>IssuerKeySpec</em> | 簽發者的金鑰規格，其必須是三個可能值的其中一個：<br /><ul><li>簽章 (AT_SIGNATURE 機<strong>碼</strong>規格) </li><li><strong>Exchange</strong> (AT_KEYEXCHANGE 金鑰規格) </li><li>整數，例如<strong>3</strong> 。</li></ul>如需詳細資訊，請參閱此表格後面的附注。<br /> | 
+| <strong>-ip</strong> <strong></strong><em>IssuerProviderName</em> | 簽發者的 CryptoAPI 提供者。 預設值是使用者的提供者。 如需 CryptoAPI 提供者的詳細資訊，請參閱 CryptoAPI 2.0 檔。 | 
+| <strong>-iv</strong> <strong></strong><em>IssuerKeyFile</em> | 簽發者的私密金鑰檔案。 預設值是測試根目錄。 | 
+| <strong>-iy</strong> <strong></strong><em>nIssuerProviderType</em> | 簽發者的 CryptoAPI 提供者類型。 預設值為 <a href="/windows/desktop/SecGloss/p-gly"><em>PROV_RSA_FULL</em></a>。 如需 CryptoAPI 提供者類型的詳細資訊，請參閱 CryptoAPI 2.0 檔。 | 
+
 
 
 
@@ -228,7 +106,7 @@ MakeCert 的選項也可以分為三個功能群組：
 
 
 
-| 憑證存放區選項          | 描述                                                                                                                                                                                                                                                                                                                              |
+| 憑證存放區選項          | Description                                                                                                                                                                                                                                                                                                                              |
 |-----------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **-ic** *IssuerCertFile*          | 包含簽發者憑證的檔案。 MakeCert 會在憑證存放區中搜尋完全相符的憑證。                                                                                                                                                                                                        |
 | **-in** *IssuerNameString*        | 簽發者憑證的一般名稱。 MakeCert 會在憑證存放區中搜尋一般名稱包含 *IssuerNameString* 的憑證。                                                                                                                                                                                  |

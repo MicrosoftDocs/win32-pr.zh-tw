@@ -4,12 +4,12 @@ ms.assetid: 21adbcfb-fadd-4818-9dc5-23bfd526b525
 title: 密碼編譯工具
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8003bb002bd8d203547779c96bc15491a5418169
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9547ba1d3a13958859c2f0504c60a1a1bbe4a67403c9709bb57900b73ad3a50d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106966699"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120100978"
 ---
 # <a name="cryptography-tools"></a>密碼編譯工具
 
@@ -38,13 +38,13 @@ ms.locfileid: "106966699"
 
 | 副檔名                             | 目錄                                                                                                                                                                                                                              |
 |-------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| .appx<br/>                                | Windows Store 裝置應用程式的安裝程式檔案。<br/>                                                                                                                                                                            |
+| .appx<br/>                                | Windows 存放區裝置應用程式的安裝程式檔案。<br/>                                                                                                                                                                            |
 | .cab<br/>                                 | 獨立檔案，用於應用程式安裝和設定。 在封包檔中，會將多個檔案壓縮成一個檔案。 它們通常位於 Microsoft 軟體散發磁片上。<br/>                        |
 | .cat<br/>                                 | 檔案，其中包含數個檔案的數位 [*指紋*](../secgloss/t-gly.md) 。 .Cat 檔案可以用來確保其包含其指紋的檔案完整性。<br/> |
 | .dll<br/>                                 | 包含可執行檔的檔案。<br/>                                                                                                                                                                                   |
 | .exe<br/>                                 | 包含可執行程式的檔案。<br/>                                                                                                                                                                                    |
-| .js<br/> .vbs<br/> .wsf<br/>  | JScript 或 Microsoft Visual Basic Scripting Edition (VBScript) 的 Windows shell 檔案。<br/>                                                                                                                                    |
-| .msi<br/> .msp<br/> .mst<br/> | Windows installer 檔案。<br/>                                                                                                                                                                                                   |
+| .js<br/> .vbs<br/> .wsf<br/>  | 適用于 JScript 的 Windows shell 檔案或 Microsoft Visual Basic 腳本版本 (VBScript) 。<br/>                                                                                                                                    |
+| .msi<br/> .msp<br/> .mst<br/> | Windows 安裝程式檔案。<br/>                                                                                                                                                                                                   |
 | .ocx<br/>                                 | 包含 Microsoft ActiveX 控制項的檔案。<br/>                                                                                                                                                                             |
 | .ps1<br/>                                 | 包含 PowerShell 腳本的檔案。<br/>                                                                                                                                                                                     |
 | stl<br/>                                 | 包含 [*憑證信任清單*](../secgloss/c-gly.md) (CTL) 的檔案。<br/>                                                                           |
@@ -74,11 +74,11 @@ ms.locfileid: "106966699"
 
 | 檔案名稱                    | 備註                                                                                                                                                                                             |
 |------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Cert2SPC.exe](cert2spc.md) | 只針對測試目的，建立 (SPC) 的 [*軟體發行者憑證*](../secgloss/s-gly.md) 。<br/> |
+| [Cert2SPC.exe](cert2spc.md) | 建立 [*軟體 Publisher 憑證*](../secgloss/s-gly.md) (SPC) 僅供測試用途。<br/> |
 | [CertMgr.exe](certmgr.md)   | )  (Crl 來管理憑證、Ctl 和 [*憑證撤銷清單*](../secgloss/c-gly.md) 。<br/>             |
 | [MakeCat.exe](makecat.md)   | 建立未簽署的類別目錄檔案，其中包含一組檔案的雜湊以及每個檔案的相關屬性。<br/>                                                               |
 | [MakeCert.exe](makecert.md) | 建立僅供測試用途的 [*x.509*](../secgloss/x-gly.md) 憑證。<br/>                                                                      |
-| Pvk2pfx.exe                  | 將軟體發行者憑證檔案 ( .spc) 或私密金鑰檔案 (. pvk) 轉換成個人資訊交換 (PFX) 檔案格式。<br/>                                                   |
+| Pvk2pfx.exe                  | 將軟體發行者憑證檔案 ( .spc) 或私密金鑰檔案 (. pvk) 轉換成個人資訊 Exchange (PFX) 檔案格式。<br/>                                                   |
 | [SetReg.exe](setreg.md)     | 設定控制憑證驗證的登錄機碼。<br/>                                                                                                                                |
 | [SignTool.exe](signtool.md) | 簽署檔案並為其加上時間戳記。 此外，也會檢查檔案的簽章。<br/>                                                                                                              |
 

@@ -4,12 +4,12 @@ ms.assetid: 287b7b9a-ac04-4a74-83c1-2cdd4a571ac1
 title: 備份元件檔生命週期
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a4bcb0263f46466d7be2bc19f3c8809167b2da08
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4804625f979e0d5621d96a2230c1419354d0dbeb4c368312dbd3943e0ac0c4bc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106989992"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120124528"
 ---
 # <a name="backup-components-document-life-cycle"></a>備份元件檔生命週期
 
@@ -47,7 +47,7 @@ ms.locfileid: "106989992"
 
 從 [**IVSSWriterComponents**](/windows/desktop/api/VsWriter/nl-vswriter-ivsswritercomponents) 介面，寫入器可以取出 [**>ivsscomponent**](/windows/desktop/api/VsWriter/nl-vswriter-ivsscomponent) 介面的實例，讓它能夠存取所有明確加入至備份元件檔的元件，以及改變其狀態。 如需詳細資訊，請參閱在 vss 中 [處理備份的總覽](overview-of-processing-a-backup-under-vss.md) 和 [在 Vss 下處理還原的總覽](overview-of-processing-a-restore-under-vss.md)。
 
-[**>ivssbackupcomponents**](/windows/desktop/api/VsBackup/nl-vsbackup-ivssbackupcomponents)介面釋放時，會從記憶體中移除備份元件檔，而且必須使用 [**>ivssbackupcomponents：： SaveAsXML**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-saveasxml)來儲存，否則將會遺失其所有資訊。
+[**>Ivssbackupcomponents**](/windows/desktop/api/VsBackup/nl-vsbackup-ivssbackupcomponents)介面釋放時，會從記憶體中移除備份元件檔，而且必須使用 [**>ivssbackupcomponents：： SaveAsXML**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-saveasxml)來儲存，否則將會遺失其所有資訊。
 
 此外，當 [**>ivssbackupcomponents**](/windows/desktop/api/VsBackup/nl-vsbackup-ivssbackupcomponents) 檔已正確釋出時，會產生 [**BackupShutdown**](/windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-onbackupshutdown) 事件並刪除 [*自動發行陰影複製*](vssgloss-a.md) 。
 

@@ -4,12 +4,12 @@ description: 抓取介面卡上所指定專案的目前狀態。
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 06/20/2019
-ms.openlocfilehash: 61fc5c601904011de8f343777a95385a16ec3d7e
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 2e5c585c249141c1491ddf36ee798d8b11148425026e9011bd0653169f998fb9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106966469"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120117718"
 ---
 # <a name="idxcoreadapterquerystate-method"></a>IDXCoreAdapter：： QueryState 方法
 

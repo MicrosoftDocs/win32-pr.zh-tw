@@ -4,12 +4,12 @@ ms.assetid: c1ac0382-1701-40e4-967a-d400ada96533
 title: 處理 (Direct3D 9) 的頂點資料
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 15d350dee4c8de361d02d0d0844968298534ee47
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 4656aadee8f39c61be438f85ae0829f0b10dac42c7e5c9014b6ba8c164b3257b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103846591"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120118608"
 ---
 # <a name="processing-vertex-data-direct3d-9"></a>處理 (Direct3D 9) 的頂點資料
 

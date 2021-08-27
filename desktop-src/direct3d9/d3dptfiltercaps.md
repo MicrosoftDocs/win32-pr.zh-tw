@@ -4,12 +4,12 @@ ms.assetid: 4434e456-670e-46a9-ba78-affdc195fe1c
 title: D3DPTFILTERCAPS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e86645ca1d0f8c1904307b80c27c2b8ce8d635229d3bb15b0f8178d6a9d70dcc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 06624f4f8779a866d440212c205baa9b4a84839a
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118804666"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122624544"
 ---
 # <a name="d3dptfiltercaps"></a>D3DPTFILTERCAPS
 
@@ -19,13 +19,13 @@ ms.locfileid: "118804666"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
 <td>#定義</td>
-<td>Description</td>
+<td>描述</td>
 </tr>
 <tr class="even">
 <td>D3DPTFILTERCAPS_CONVOLUTIONMONO</td>

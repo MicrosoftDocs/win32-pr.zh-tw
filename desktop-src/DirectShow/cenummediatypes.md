@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: ad5e1de9eb2edbdb63eb6f476391ae8387c8d01e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1729407f1022c2781fc97f8638ea8748323c151e9bd67c5ad31b30ae05fdff0f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990065"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120131270"
 ---
 # <a name="cenummediatypes-class"></a>CEnumMediaTypes 類別
 
@@ -38,12 +38,12 @@ ms.locfileid: "106990065"
 
 
 
-| 公用方法                                               | Description                                                     |
+| 公用方法                                               | 描述                                                     |
 |--------------------------------------------------------------|-----------------------------------------------------------------|
 | [**CEnumMediaTypes**](cenummediatypes-cenummediatypes.md)   | 函式方法。                                             |
 | [**~ CEnumMediaTypes**](cenummediatypes--cenummediatypes.md) | 函式方法。 虛擬。                                     |
-| IEnumMediaTypes 方法                                      | Description                                                     |
-| [**克隆**](cenummediatypes-clone.md)                       | 使用相同的列舉狀態建立列舉值的複本。 |
+| IEnumMediaTypes 方法                                      | 描述                                                     |
+| [**複製**](cenummediatypes-clone.md)                       | 使用相同的列舉狀態建立列舉值的複本。 |
 | [**下一步**](cenummediatypes-next.md)                         | 抓取指定的媒體類型數目。                    |
 | [**重設**](cenummediatypes-reset.md)                       | 將列舉序列重設為開頭。               |
 | [**跳過**](cenummediatypes-skip.md)                         | 略過指定數目的媒體類型。                   |

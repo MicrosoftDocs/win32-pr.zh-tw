@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 26e045fdb269e3b0f852265e621c991561a9ad3b
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 05cca9d8d61f8d90b6daf77b2ac8c34be432f8a1
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106980924"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122627874"
 ---
 # <a name="span-idvspixengineisymbolsettingsspanisymbolsettings-interface"></a><span id="vspixengine.isymbolsettings"></span>ISymbolSettings 介面
 
@@ -38,13 +38,13 @@ ms.locfileid: "106980924"
 
 **ISymbolSettings** 介面具有這些方法。
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">方法</th><th style="text-align: left;">描述</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/isymbolsettings-updatesymbolsettings-symbolserverinfo"><strong>UpdateSymbolSettings</strong></a></td><td style="text-align: left;"><p>將 debug 符號路徑傳送至本機 (非遠端) 引擎的要求。</p></td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th style="text-align: left;">方法</th><th style="text-align: left;">描述</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/isymbolsettings-updatesymbolsettings-symbolserverinfo"><strong>UpdateSymbolSettings</strong></a></td><td style="text-align: left;"><p>將 debug 符號路徑傳送至本機 (非遠端) 引擎的要求。</p></td></tr></tbody></table>
 
  
 
 ## <a name="requirements"></a>規格需求
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>標頭</p></td><td>Vspixengine。h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>標頭</p></td><td>Vspixengine。h</td></tr></tbody></table>
 
  
 

@@ -3,7 +3,7 @@ title: 'IPM_SETFOCUS 訊息 (Commctrl .h) '
 description: 將鍵盤焦點設定為 IP 位址控制項中的指定欄位。 將會選取該欄位中的所有文字。
 ms.assetid: 4b975eb2-85e1-4e33-a803-99b48d2ff5e8
 keywords:
-- IPM_SETFOCUS message Windows 控制項
+- IPM_SETFOCUS 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5d713e0a8b7eb838a2db5c4738c801d4fb76b782
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2a74d98aa4d4259d11d7fef6e0bfdad2bfe741447ddffab27fa41545e7eda515
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104460"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120085568"
 ---
 # <a name="ipm_setfocus-message"></a>IPM \_ SETFOCUS 訊息
 
@@ -49,8 +49,8 @@ ms.locfileid: "104104460"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

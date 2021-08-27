@@ -4,12 +4,12 @@ ms.assetid: 28ea95a2-e602-4f71-9488-48525e995814
 title: PageBlackGenerationProcessingGrayComponentReplacementStart
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f2e7e5a7e22c20b15dc373a2cce2bfe19e3417d4
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 3323f3aa910673b5e35d660cf59b9f30fb0380711d053db314167a9f93c3dd3b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112408461"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120112318"
 ---
 # <a name="pageblackgenerationprocessinggraycomponentreplacementstart"></a>PageBlackGenerationProcessingGrayComponentReplacementStart
 
@@ -24,7 +24,7 @@ ms.locfileid: "112408461"
 
 
 
-| Name | 值 |
+| 名稱 | 值 |
 |----------------------------|------------------------------------------------------------|
 | 項目類型 <br/>   | ParameterDef<br/>                                    |
 | 範圍前置詞 <br/> | 頁面<br/>                                            |
@@ -77,8 +77,8 @@ ms.locfileid: "112408461"
 | MaxValue<br/>     | 整數<br/> | 100<br/>             |
 | MinValue<br/>     | 整數<br/> | 0<br/>               |
 | 多個<br/>     | 整數<br/> | 1<br/>               |
-| 強制性<br/>    | string<br/>  | psk：條件式<br/> |
-| Unittype.pixel 表示<br/>     | string<br/>  | percent<br/>         |
+| 強制性<br/>    | 字串<br/>  | psk：條件式<br/> |
+| Unittype.pixel 表示<br/>     | 字串<br/>  | percent<br/>         |
 
 
 

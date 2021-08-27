@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 8ed0a5e0f2e91a2e647af461ee6679a5542d28b7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: ab485d7055ed6412698d06e9d95628074c85f3cc1e7ac52e7513dd8975529826
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104991759"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120111118"
 ---
 # <a name="shell-path-handling-functions"></a>Shell 路徑處理函式
 

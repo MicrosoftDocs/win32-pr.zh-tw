@@ -4,12 +4,12 @@ ms.assetid: 79c4d2c9-953e-4e68-98b7-6a0dd9a04e0b
 title: 電話語音應用程式設計介面版本3。1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b529c8d566d2c99dc851f99886eb6a132d434a2c56027ba7abcd2e07b5f144b6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6b2a9d99a9e4319a1450ccbc72d3db32f6ec3d92
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119139881"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122625634"
 ---
 # <a name="telephony-application-programming-interface-version-31"></a>電話語音應用程式設計介面版本3。1
 
@@ -41,7 +41,7 @@ TAPI 3.1 版可讓您開發 Windows Server 2003 作業系統、Windows XP 和 Wi
 
 
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th>主題</th><th>描述</th></tr></thead><tbody><tr class="odd"><td><a href="tapi-3-1-overview.md">概觀</a><br/></td><td>有關 TAPI 架構和元件的一般資訊。<br/></td></tr><tr class="even"><td>參考<br/></td><td>檔：<br/><ul><li><a href="call-and-media-controls-reference.md">呼叫和媒體控制項參考</a></li><li><a href="call-center-controls-reference.md">撥置控制參考</a></li><li><a href="rendezvous-ip-telephony-conferencing-reference.md">會合參考</a></li></ul></td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th>主題</th><th>描述</th></tr></thead><tbody><tr class="odd"><td><a href="tapi-3-1-overview.md">概觀</a><br/></td><td>有關 TAPI 架構和元件的一般資訊。<br/></td></tr><tr class="even"><td>參考<br/></td><td>檔：<br/><ul><li><a href="call-and-media-controls-reference.md">呼叫和媒體控制項參考</a></li><li><a href="call-center-controls-reference.md">撥置控制參考</a></li><li><a href="rendezvous-ip-telephony-conferencing-reference.md">會合參考</a></li></ul></td></tr></tbody></table>
 
 
 

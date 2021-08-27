@@ -17,12 +17,12 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: d792bba4641f4fdadd873bac194ff409e15ffef1
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.openlocfilehash: 00d5a788113b7427fb96a4f270478c1dd7572d54
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122983981"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122473204"
 ---
 # <a name="jet_indexcreate2-structure"></a>JET_INDEXCREATE2 結構
 
@@ -213,12 +213,7 @@ ESE 支援在包含多個值的索引鍵資料行上編制索引。 若要使用
 ### <a name="requirements"></a>規格需求
 
 
-| 需求 | 值 |
-|------------|----------|
-| <p><strong>用戶端</strong></p> | <p>需要 Windows Vista、Windows XP 或 Windows 2000 Professional。</p> | 
-| <p><strong>伺服器</strong></p> | <p>需要 Windows server 2008、Windows Server 2003 或 Windows 2000 Server。</p> | 
-| <p><strong>標頭</strong></p> | <p>宣告于 Esent. h 中。</p> | 
-| <p><strong>Unicode</strong></p> | <p>實作為 <strong>JET_ INDEXCREATE2_W</strong> (Unicode) 和 <strong>JET_</strong> INDEXCREATE2_A (ANSI) 。</p> | 
+| | | <p><strong>用戶端</strong></p> | <p>需要 Windows Vista、Windows XP 或 Windows 2000 Professional。</p> | | <p><strong>伺服器</strong></p> | <p>需要 Windows server 2008、Windows Server 2003 或 Windows 2000 Server。</p> | | <p><strong>標頭</strong></p> | <p>宣告于 Esent. h 中。</p> | | <p><strong>Unicode</strong></p> | <p>實作為 <strong>JET_ INDEXCREATE2_W</strong> (Unicode) 和 <strong>JET_</strong> INDEXCREATE2_A (ANSI) 。</p> | 
 
 
 

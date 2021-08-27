@@ -4,12 +4,12 @@ ms.assetid: d15c501a-b77b-4446-bee6-6dbbd714b4e0
 title: LOCALE_SSCRIPTS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2bb79f78626e7afb54229d8e0619e26d94250f86
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: aede4d6d1843fd32bdd17ae3a275a364c3a2d4f0bd282302f49d7b4a3b0dd1ed
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970841"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120105848"
 ---
 # <a name="locale_sscripts"></a>地區設定 \_ SSCRIPTS
 

@@ -4,12 +4,12 @@ ms.assetid: b7ed177c-f8a5-4d6b-916b-299b859b3c46
 title: LOCALE_SENGLISH * 常數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b3eded8fb35a3abdccf0e73161496d3ba3a03a7a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 26eb9612daf1a0f1c40bc167290e888fcf478f7abc84dcd7978042ab0b3abdcc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106982117"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120106228"
 ---
 # <a name="locale_senglish-constants"></a>地區設定 \_ SENGLISH \* 常數
 

@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 91302b0d6c6e13f86f275d755c5f4b6150de6a59dd400e47ed877d01f3fe876e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ff50e0a4656caf33289b534307043694dbe2cdce
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118312054"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122623914"
 ---
 # <a name="wmi-tasks-performance-monitoring"></a>WMI 工作：效能監視
 
@@ -44,8 +44,8 @@ ms.locfileid: "118312054"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -63,7 +63,7 @@ ms.locfileid: "118312054"
 <td>使用 <a href="/windows/desktop/WmiSdk/retrieving-raw-and-formatted-performance-data"><strong>Win32_PerfFormattedData_PerfProc_Process</strong></a> 或適當的格式化 <a href="/windows/desktop/CIMWin32Prov/performance-counter-classes">效能計數器類別</a> 和 <a href="swbemobjectex-refresh-.md"><strong>SWbemObjectEx.Refresh_</strong></a> 方法。 如需詳細資訊，請參閱 <a href="scripting-with-swbemobject.md">使用 SWbemObject 編寫腳本</a>。<br/> 在 c + + 中，請使用 <a href="/windows/desktop/api/Wbemcli/nf-wbemcli-iwbemconfigurerefresher-addobjectbypath"><strong>IWbemConfigureRefresher：： AddObjectByPath</strong></a> 和 <a href="/windows/desktop/api/Wbemcli/nf-wbemcli-iwbemrefresher-refresh"><strong>IWbemRefresher：： Refresh</strong></a>。 如需詳細資訊，請參閱 <a href="monitoring-performance-data.md">監視效能資料</a>。<br/> 下列腳本會在電腦重新開機、WMI 已停止或腳本停止之前執行。 若要手動停止腳本，請使用工作管理員停止進程。 若要以程式設計方式停止它，請使用<a href="/windows/desktop/CIMWin32Prov/win32-process"><strong>Win32_Process</strong></a>類別中的<a href="/windows/desktop/CIMWin32Prov/terminate-method-in-class-win32-process"><strong>Terminate</strong></a>方法。<br/> <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -97,7 +97,7 @@ Wend</code></pre></td>
 <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -138,7 +138,7 @@ Wend</code></pre></td>
 <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">

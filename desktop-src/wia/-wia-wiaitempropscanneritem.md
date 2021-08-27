@@ -1,5 +1,5 @@
 ---
-description: 下列常數指定一組有效的 Windows 映像取得 (WIA) 掃描器專案屬性。
+description: 下列常數會指定一組有效的 Windows 映像取得 (WIA) 掃描器專案屬性。
 ms.assetid: c7c5b10b-81e8-4a30-b20a-ea187724ddd4
 title: '掃描器 WIA 專案屬性常數 (Wiadef. h) '
 ms.topic: reference
@@ -57,16 +57,16 @@ api_type:
 - HeaderDef
 api_location:
 - wiadef.h
-ms.openlocfilehash: aa3b1cc4ae14a9460a24f652a9599035cacca2c0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3202a4ae6bec7808d2d71fe890f248e6b4d3c397
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971004"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122624764"
 ---
 # <a name="scanner-wia-item-property-constants"></a>掃描器 WIA 專案屬性常數
 
-下列常數指定一組有效的 Windows 映像取得 (WIA) 掃描器專案屬性。
+下列常數會指定一組有效的 Windows 映像取得 (WIA) 掃描器專案屬性。
 
 前置詞 "WIA \_ ip \_ " 表示掃描器裝置的專案屬性，而且是 C/c + + 中使用的命名慣例。 針對腳本用途，這些常數會使用前置詞 "ScannerPicture"，而且是 [WiaItemPropertyId](-wia-wiaitempropertyid.md) 列舉型別的一部分。 來自該腳本列舉的對應成員名稱，會出現在下列清單中 C/c + + 常數名稱旁邊的括弧中。
 
@@ -74,19 +74,19 @@ ms.locfileid: "106971004"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
-<th style="text-align: left;">常數/值</th>
-<th style="text-align: left;">Description</th>
+<th >常數/值</th>
+<th >描述</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_IPS_AUTO_DESKEW"></span><span id="wia_ips_auto_deskew"></span><dl> <dt><strong>WIA_IPS_AUTO_DESKEW</strong></dt> <dt>ScannerPictureAutoDeskew</dt> </dl></td>
-<td style="text-align: left;"><blockquote>
+<td ><span id="WIA_IPS_AUTO_DESKEW"></span><span id="wia_ips_auto_deskew"></span><dl> <dt><strong>WIA_IPS_AUTO_DESKEW</strong></dt> <dt>ScannerPictureAutoDeskew</dt> </dl></td>
+<td ><blockquote>
 [!Note]<br />
 只有 Windows Vista 和更新版本才支援此屬性。
 </blockquote>
@@ -113,23 +113,23 @@ ms.locfileid: "106971004"
 <p> </p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_IPS_BRIGHTNESS"></span><span id="wia_ips_brightness"></span><dl> <dt><strong>WIA_IPS_BRIGHTNESS</strong></dt> <dt>ScannerPictureBrightness</dt> </dl></td>
-<td style="text-align: left;"><p>掃描器內可用的影像亮度值。</p>
+<td ><span id="WIA_IPS_BRIGHTNESS"></span><span id="wia_ips_brightness"></span><dl> <dt><strong>WIA_IPS_BRIGHTNESS</strong></dt> <dt>ScannerPictureBrightness</dt> </dl></td>
+<td ><p>掃描器內可用的影像亮度值。</p>
 <p>包含裝置目前的硬體亮度設定。 應用程式會將此屬性設定為硬體的亮度值。 迷你驅動程式會建立並維護此屬性。</p>
 <p>值的對應範圍介於-1000 到1000之間，其中1000對應到最大亮度、0對應于標準亮度，而-1000 對應至最小亮度。</p>
 <p>類別中所有專案的必要專案： WIA_CATEGORY_FLATBED、WIA_CATEGORY_FEEDER、WIA_CATEGORY_FEEDER_FRONT、WIA_CATEGORY_FEEDER_BACK 和 WIA_CATEGORY_FILM。 選擇性，但建議用於支援預覽的 WIA_CATEGORY_FINISHED_FILE 專案。</p>
 <p>Type： <strong>VT_I4</strong>、Access： Read/Write、Valid 值： <a href="-wia-property-attributes.md">WIA_PROP_RANGE</a></p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_IPS_CONTRAST"></span><span id="wia_ips_contrast"></span><dl> <dt><strong>WIA_IPS_CONTRAST</strong></dt> <dt>ScannerPictureContrast</dt> </dl></td>
-<td style="text-align: left;"><p>包含裝置目前的硬體對比設定。 應用程式會將此屬性設定為硬體的對比值。 迷你驅動程式會建立並維護此屬性。</p>
+<td ><span id="WIA_IPS_CONTRAST"></span><span id="wia_ips_contrast"></span><dl> <dt><strong>WIA_IPS_CONTRAST</strong></dt> <dt>ScannerPictureContrast</dt> </dl></td>
+<td ><p>包含裝置目前的硬體對比設定。 應用程式會將此屬性設定為硬體的對比值。 迷你驅動程式會建立並維護此屬性。</p>
 <p>值的對應範圍介於-1000 到1000之間，其中-1000 對應至最小對比度、0對應至正常對比，而1000對應到最大對比度。</p>
 <p>類別中所有專案的必要專案： WIA_CATEGORY_FLATBED、WIA_CATEGORY_FEEDER、WIA_CATEGORY_FEEDER_FRONT、WIA_CATEGORY_FEEDER_BACK 和 WIA_CATEGORY_FILM。 選擇性，但建議用於支援預覽的 WIA_CATEGORY_FINISHED_FILE 專案。</p>
 <p>Type： <strong>VT_I4</strong>、Access： Read/Write、Valid 值： <a href="-wia-property-attributes.md">WIA_PROP_RANGE</a></p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_IPS_CUR_INTENT"></span><span id="wia_ips_cur_intent"></span><dl> <dt><strong>WIA_IPS_CUR_INTENT</strong></dt> <dt>ScannerPictureCurIntent</dt> </dl></td>
-<td style="text-align: left;"><p>包含目前的意圖設定。 迷你驅動程式會建立並維護此屬性。</p>
+<td ><span id="WIA_IPS_CUR_INTENT"></span><span id="wia_ips_cur_intent"></span><dl> <dt><strong>WIA_IPS_CUR_INTENT</strong></dt> <dt>ScannerPictureCurIntent</dt> </dl></td>
+<td ><p>包含目前的意圖設定。 迷你驅動程式會建立並維護此屬性。</p>
 <p>所有已啟用專案的必要專案;也就是說，類別中的專案： WIA_CATEGORY_FLATBED、WIA_CATEGORY_FEEDER、WIA_CATEGORY_FEEDER_FRONT、WIA_CATEGORY_FEEDER_BACK 和 WIA_CATEGORY_FILM。 WIA_CATEGORY_FINISHED_FILE 或 WIA_CATEGORY_FOLDER 專案不支援此功能。</p>
 <p>類型： <strong>VT_I4</strong> 存取：讀取/寫入、有效的值： <a href="-wia-property-attributes.md">WIA_PROP_FLAGS</a></p>
 <p>驅動程式會根據應用程式的預期用途，使用這些專案來設定專案屬性。 例如，這可能包括最高品質、最小大小等等。</p>
@@ -151,7 +151,7 @@ ms.locfileid: "106971004"
 <thead>
 <tr class="header">
 <th>預定的影像類型旗標</th>
-<th>Description</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -185,7 +185,7 @@ ms.locfileid: "106971004"
 <thead>
 <tr class="header">
 <th>預定的影像大小/品質旗標</th>
-<th>Description</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -211,8 +211,8 @@ ms.locfileid: "106971004"
 <p> </p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_IPS_DESKEW_X"></span><span id="wia_ips_deskew_x"></span><dl> <dt><strong>WIA_IPS_DESKEW_X</strong></dt> <dt>ScannerPictureDeskewX</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_IPS_DESKEW_X"></span><span id="wia_ips_deskew_x"></span><dl> <dt><strong>WIA_IPS_DESKEW_X</strong></dt> <dt>ScannerPictureDeskewX</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
 只有 Windows Vista 和更新版本才支援此屬性。
@@ -227,8 +227,8 @@ ms.locfileid: "106971004"
 <p>Type： <strong>VT_I4</strong>、Access： Read/Write、Valid 值： WIA_PROP_RANGE</p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_IPS_DESKEW_Y"></span><span id="wia_ips_deskew_y"></span><dl> <dt><strong>WIA_IPS_DESKEW_Y</strong></dt> <dt>ScannerPictureDeskewY</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_IPS_DESKEW_Y"></span><span id="wia_ips_deskew_y"></span><dl> <dt><strong>WIA_IPS_DESKEW_Y</strong></dt> <dt>ScannerPictureDeskewY</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
 只有 Windows Vista 和更新版本才支援此屬性。
@@ -243,8 +243,8 @@ ms.locfileid: "106971004"
 <p>Type： <strong>VT_I4</strong>、Access： Read/Write、Valid 值： WIA_PROP_RANGE</p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_IPS_DOCUMENT_HANDLING_SELECT"></span><span id="wia_ips_document_handling_select"></span><dl> <dt><strong>WIA_IPS_DOCUMENT_HANDLING_SELECT</strong></dt> <dt>ScannerPictureDocumentHandlingSelect</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_IPS_DOCUMENT_HANDLING_SELECT"></span><span id="wia_ips_document_handling_select"></span><dl> <dt><strong>WIA_IPS_DOCUMENT_HANDLING_SELECT</strong></dt> <dt>ScannerPictureDocumentHandlingSelect</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
 只有 Windows Vista 和更新版本才支援此屬性。
@@ -261,7 +261,7 @@ ms.locfileid: "106971004"
 <thead>
 <tr class="header">
 <th>Flags</th>
-<th>Description</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -295,8 +295,8 @@ ms.locfileid: "106971004"
 <p> </p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_IPS_FILM_NODE_NAME"></span><span id="wia_ips_film_node_name"></span><dl> <dt><strong>WIA_IPS_FILM_NODE_NAME</strong></dt> <dt>ScannerPictureFilmNodeName</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_IPS_FILM_NODE_NAME"></span><span id="wia_ips_film_node_name"></span><dl> <dt><strong>WIA_IPS_FILM_NODE_NAME</strong></dt> <dt>ScannerPictureFilmNodeName</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
 只有 Windows Vista 和更新版本才支援此屬性。
@@ -311,8 +311,8 @@ ms.locfileid: "106971004"
 <p>允許的值： BSTR 的格式應為 @ResourceBinary ， <ResourceID> 以允許當地語系化，因為此字串會透過膠捲掃描 UI 向使用者公開。</p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_IPS_FILM_SCAN_MODE"></span><span id="wia_ips_film_scan_mode"></span><dl> <dt><strong>WIA_IPS_FILM_SCAN_MODE</strong></dt> <dt>ScannerPictureFilmScanMode</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_IPS_FILM_SCAN_MODE"></span><span id="wia_ips_film_scan_mode"></span><dl> <dt><strong>WIA_IPS_FILM_SCAN_MODE</strong></dt> <dt>ScannerPictureFilmScanMode</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
 只有 Windows Vista 和更新版本才支援此屬性。
@@ -351,13 +351,13 @@ ms.locfileid: "106971004"
 <p> </p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_IPS_INVERT"></span><span id="wia_ips_invert"></span><dl> <dt><strong>WIA_IPS_INVERT</strong></dt> <dt>ScannerPictureInvert</dt> </dl></td>
-<td style="text-align: left;"><p>保留供未來使用，並不會在此時間執行。</p>
+<td ><span id="WIA_IPS_INVERT"></span><span id="wia_ips_invert"></span><dl> <dt><strong>WIA_IPS_INVERT</strong></dt> <dt>ScannerPictureInvert</dt> </dl></td>
+<td ><p>保留供未來使用，並不會在此時間執行。</p>
 <p>類型： <strong>VT_I4</strong>、存取：唯讀、有效的值： <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_IPA_ITEMS_STORED"></span><span id="wia_ipa_items_stored"></span><dl> <dt><strong>WIA_IPA_ITEMS_STORED</strong></dt> <dt>ScannerPictureInvert</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_IPA_ITEMS_STORED"></span><span id="wia_ipa_items_stored"></span><dl> <dt><strong>WIA_IPA_ITEMS_STORED</strong></dt> <dt>ScannerPictureInvert</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
 只有 Windows Vista 和更新版本才支援此屬性。
@@ -370,8 +370,8 @@ ms.locfileid: "106971004"
 <p>類型： <strong>VT_I4</strong>、存取：唯讀、有效的值： <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_IPS_LAMP"></span><span id="wia_ips_lamp"></span><dl> <dt><strong>WIA_IPS_LAMP</strong></dt> <dt>ScannerPictureLamp</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_IPS_LAMP"></span><span id="wia_ips_lamp"></span><dl> <dt><strong>WIA_IPS_LAMP</strong></dt> <dt>ScannerPictureLamp</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
 只有 Windows Vista 和更新版本才支援此屬性。
@@ -406,8 +406,8 @@ ms.locfileid: "106971004"
 <p> </p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_IPS_LAMP_AUTO_OFF"></span><span id="wia_ips_lamp_auto_off"></span><dl> <dt><strong>WIA_IPS_LAMP_AUTO_OFF</strong></dt> <dt>ScannerPictureLampAutoOff</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_IPS_LAMP_AUTO_OFF"></span><span id="wia_ips_lamp_auto_off"></span><dl> <dt><strong>WIA_IPS_LAMP_AUTO_OFF</strong></dt> <dt>ScannerPictureLampAutoOff</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
 只有 Windows Vista 和更新版本才支援此屬性。
@@ -421,8 +421,8 @@ ms.locfileid: "106971004"
 <p>類型： <strong>VT_UI4</strong>、存取：讀取/寫入、有效的值： 0-0xFFF 秒</p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_IPS_MAX_HORIZONTAL_SIZE"></span><span id="wia_ips_max_horizontal_size"></span><dl> <dt><strong>WIA_IPS_MAX_HORIZONTAL_SIZE</strong></dt> <dt>ScannerPictureMaxHorizontalSize</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_IPS_MAX_HORIZONTAL_SIZE"></span><span id="wia_ips_max_horizontal_size"></span><dl> <dt><strong>WIA_IPS_MAX_HORIZONTAL_SIZE</strong></dt> <dt>ScannerPictureMaxHorizontalSize</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
 只有 Windows Vista 和更新版本才支援此屬性。
@@ -435,8 +435,8 @@ ms.locfileid: "106971004"
 <p>類型： <strong>VT_I4</strong>、存取：唯讀、有效的值： <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_IPS_MAX_VERTICAL_SIZE"></span><span id="wia_ips_max_vertical_size"></span><dl> <dt><strong>WIA_IPS_MAX_VERTICAL_SIZE</strong></dt> <dt>ScannerPictureMaxVerticalSize</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_IPS_MAX_VERTICAL_SIZE"></span><span id="wia_ips_max_vertical_size"></span><dl> <dt><strong>WIA_IPS_MAX_VERTICAL_SIZE</strong></dt> <dt>ScannerPictureMaxVerticalSize</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
 只有 Windows Vista 和更新版本才支援此屬性。
@@ -449,8 +449,8 @@ ms.locfileid: "106971004"
 <p>類型： <strong>VT_I4</strong>、存取：唯讀、有效的值： <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_IPS_MIN_HORIZONTAL_SIZE"></span><span id="wia_ips_min_horizontal_size"></span><dl> <dt><strong>WIA_IPS_MIN_HORIZONTAL_SIZE</strong></dt> <dt>ScannerPictureMinHorizontalSize</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_IPS_MIN_HORIZONTAL_SIZE"></span><span id="wia_ips_min_horizontal_size"></span><dl> <dt><strong>WIA_IPS_MIN_HORIZONTAL_SIZE</strong></dt> <dt>ScannerPictureMinHorizontalSize</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
 只有 Windows Vista 和更新版本才支援此屬性。
@@ -463,8 +463,8 @@ ms.locfileid: "106971004"
 <p>類型： <strong>VT_I4</strong>、存取：唯讀、有效的值： <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_IPS_MIN_VERTICAL_SIZE"></span><span id="wia_ips_min_vertical_size"></span><dl> <dt><strong>WIA_IPS_MIN_VERTICAL_SIZE</strong></dt> <dt>ScannerPictureMinVerticalSize</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_IPS_MIN_VERTICAL_SIZE"></span><span id="wia_ips_min_vertical_size"></span><dl> <dt><strong>WIA_IPS_MIN_VERTICAL_SIZE</strong></dt> <dt>ScannerPictureMinVerticalSize</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
 只有 Windows Vista 和更新版本才支援此屬性。
@@ -477,13 +477,13 @@ ms.locfileid: "106971004"
 <p>類型： <strong>VT_I4</strong>、存取：唯讀、有效的值： <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_IPS_MIRROR"></span><span id="wia_ips_mirror"></span><dl> <dt><strong>WIA_IPS_MIRROR</strong></dt> <dt>ScannerPictureMirror</dt> </dl></td>
-<td style="text-align: left;"><p>保留供未來使用，並不會在此時間執行。</p>
+<td ><span id="WIA_IPS_MIRROR"></span><span id="wia_ips_mirror"></span><dl> <dt><strong>WIA_IPS_MIRROR</strong></dt> <dt>ScannerPictureMirror</dt> </dl></td>
+<td ><p>保留供未來使用，並不會在此時間執行。</p>
 <p>類型： <strong>VT_I4</strong>、存取：唯讀、有效的值： <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_IPS_OPTICAL_XRES"></span><span id="wia_ips_optical_xres"></span><dl> <dt><strong>WIA_IPS_OPTICAL_XRES</strong></dt> <dt>ScannerPictureOpticalXres</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_IPS_OPTICAL_XRES"></span><span id="wia_ips_optical_xres"></span><dl> <dt><strong>WIA_IPS_OPTICAL_XRES</strong></dt> <dt>ScannerPictureOpticalXres</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
 只有 Windows Vista 和更新版本才支援此屬性。
@@ -496,8 +496,8 @@ ms.locfileid: "106971004"
 <p>類型： <strong>VT_I4</strong>、存取：唯讀、有效的值： <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_IPS_OPTICAL_YRES"></span><span id="wia_ips_optical_yres"></span><dl> <dt><strong>WIA_IPS_OPTICAL_YRES</strong></dt> <dt>ScannerPictureOpticalYres</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_IPS_OPTICAL_YRES"></span><span id="wia_ips_optical_yres"></span><dl> <dt><strong>WIA_IPS_OPTICAL_YRES</strong></dt> <dt>ScannerPictureOpticalYres</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
 只有 Windows Vista 和更新版本才支援此屬性。
@@ -510,8 +510,8 @@ ms.locfileid: "106971004"
 <p>類型： <strong>VT_I4</strong>、存取：唯讀、有效的值： <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_IPS_ORIENTATION"></span><span id="wia_ips_orientation"></span><dl> <dt><strong>WIA_IPS_ORIENTATION</strong></dt> <dt>ScannerPictureOrientation</dt> </dl></td>
-<td style="text-align: left;"><p>指定要掃描之檔的目前方向。 迷你驅動程式會建立並維護此屬性。</p>
+<td ><span id="WIA_IPS_ORIENTATION"></span><span id="wia_ips_orientation"></span><dl> <dt><strong>WIA_IPS_ORIENTATION</strong></dt> <dt>ScannerPictureOrientation</dt> </dl></td>
+<td ><p>指定要掃描之檔的目前方向。 迷你驅動程式會建立並維護此屬性。</p>
 <p>應用程式會設定此屬性，以定義要取得之頁面或影像的原始方向。 如需如何使用 WIA_IPS_ORIENTATION 的詳細資訊，請參閱 <strong>WIA_IPS_PAGE_SIZE</strong>。</p>
 <div class="alert">
 <blockquote>
@@ -555,8 +555,8 @@ WIA_IPS_ORIENTATION 指的是要在掃描器床或輸送器上掃描的檔位置
 <p> </p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_IPS_PAGE_SIZE"></span><span id="wia_ips_page_size"></span><dl> <dt><strong>WIA_IPS_PAGE_SIZE</strong></dt> <dt>ScannerPicturePageSize</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_IPS_PAGE_SIZE"></span><span id="wia_ips_page_size"></span><dl> <dt><strong>WIA_IPS_PAGE_SIZE</strong></dt> <dt>ScannerPicturePageSize</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
 只有 Windows Vista 和更新版本才支援此屬性。
@@ -629,7 +629,7 @@ WIA_PROP_LIST 類型的有效值取決於 <strong>WIA_IPS_ORIENTATION</strong> �
 <span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -653,7 +653,7 @@ WIA_IPS_YRES = 100</code></pre></td>
 <span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -678,7 +678,7 @@ WIA_IPS_YRES = 100</code></pre></td>
 <span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -703,7 +703,7 @@ WIA_IPS_YRES = 100</code></pre></td>
 <span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -724,8 +724,8 @@ WIA_IPS_YRES = 100</code></pre></td>
 </div></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_IPS_PAGE_HEIGHT"></span><span id="wia_ips_page_height"></span><dl> <dt><strong>WIA_IPS_PAGE_HEIGHT</strong></dt> <dt>ScannerPicturePageHeight</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_IPS_PAGE_HEIGHT"></span><span id="wia_ips_page_height"></span><dl> <dt><strong>WIA_IPS_PAGE_HEIGHT</strong></dt> <dt>ScannerPicturePageHeight</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
 只有 Windows Vista 和更新版本才支援此屬性。
@@ -739,8 +739,8 @@ WIA_IPS_YRES = 100</code></pre></td>
 <p>類型： <strong>VT_I4</strong>、存取：唯讀、有效的值： <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_IPS_PAGE_WIDTH"></span><span id="wia_ips_page_width"></span><dl> <dt><strong>WIA_IPS_PAGE_WIDTH</strong></dt> <dt>ScannerPicturePageWidth</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_IPS_PAGE_WIDTH"></span><span id="wia_ips_page_width"></span><dl> <dt><strong>WIA_IPS_PAGE_WIDTH</strong></dt> <dt>ScannerPicturePageWidth</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
 只有 Windows Vista 和更新版本才支援此屬性。
@@ -754,8 +754,8 @@ WIA_IPS_YRES = 100</code></pre></td>
 <p>類型： <strong>VT_I4</strong>、存取：唯讀、有效的值： <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_IPS_PAGES"></span><span id="wia_ips_pages"></span><dl> <dt><strong>WIA_IPS_PAGES</strong></dt> <dt>ScannerPicturePages</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_IPS_PAGES"></span><span id="wia_ips_pages"></span><dl> <dt><strong>WIA_IPS_PAGES</strong></dt> <dt>ScannerPicturePages</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
 只有 Windows Vista 和更新版本才支援此屬性。
@@ -780,8 +780,8 @@ WIA_IPS_YRES = 100</code></pre></td>
 <p>將 <strong>WIA_IPS_PAGES</strong> 設定為1，會導致掃描器處理頁面的一側。 如果掃描器無法在雙工模式下掃描頁面的一端，則建議您將 WIA_PROPERTY_INFO 結構之範圍成員的 Inc 成員 <strong>WIA_IPS_PAGES</strong> 值變更為2。 此值會通知應用程式，它必須以兩個的倍數要求頁面。 值為 ALL_PAGES (= 0) 表示要掃描目前載入檔送紙器中的 <em>所有</em> 頁面。</p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_IPS_PHOTOMETRIC_INTERP"></span><span id="wia_ips_photometric_interp"></span><dl> <dt><strong>WIA_IPS_PHOTOMETRIC_INTERP</strong></dt> <dt>ScannerPicturePhotometricInterp</dt> </dl></td>
-<td style="text-align: left;"><p>包含白色和黑色圖元的目前設定。 迷你驅動程式會建立並維護此屬性。</p>
+<td ><span id="WIA_IPS_PHOTOMETRIC_INTERP"></span><span id="wia_ips_photometric_interp"></span><dl> <dt><strong>WIA_IPS_PHOTOMETRIC_INTERP</strong></dt> <dt>ScannerPicturePhotometricInterp</dt> </dl></td>
+<td ><p>包含白色和黑色圖元的目前設定。 迷你驅動程式會建立並維護此屬性。</p>
 <p>應用程式會讀取此值，以根據應用程式的執行) 來判斷白色或黑色 (的值。</p>
 <p>所有已啟用或已儲存的專案都需要。也就是說，類別中的專案： WIA_CATEGORY_FLATBED、WIA_CATEGORY_FEEDER、WIA_CATEGORY_FEEDER_FRONT、WIA_CATEGORY_FEEDER_BACK、WIA_CATEGORY_FINISHED_FILE 和 WIA_CATEGORY_FILM。 WIA_CATEGORY_FOLDER 專案不支援此功能。</p>
 <p>類型： <strong>VT_I4</strong>;存取：讀取/寫入;有效的值： <a href="-wia-property-attributes.md">WIA_PROP_LIST</a>。 如果裝置只能設定為單一值，請建立 WIA_PROP_LIST 類型，並在其中放置有效的值。</p>
@@ -809,8 +809,8 @@ WIA_IPS_YRES = 100</code></pre></td>
 <p> </p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_IPS_PREVIEW"></span><span id="wia_ips_preview"></span><dl> <dt><strong>WIA_IPS_PREVIEW</strong></dt> <dt>ScannerPicturePreview</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_IPS_PREVIEW"></span><span id="wia_ips_preview"></span><dl> <dt><strong>WIA_IPS_PREVIEW</strong></dt> <dt>ScannerPicturePreview</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
 只有 Windows Vista 和更新版本才支援此屬性。
@@ -845,8 +845,8 @@ WIA_IPS_YRES = 100</code></pre></td>
 <p> </p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_IPS_PREVIEW_TYPE"></span><span id="wia_ips_preview_type"></span><dl> <dt><strong>WIA_IPS_PREVIEW_TYPE</strong></dt> <dt>ScannerPicturePreviewType</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_IPS_PREVIEW_TYPE"></span><span id="wia_ips_preview_type"></span><dl> <dt><strong>WIA_IPS_PREVIEW_TYPE</strong></dt> <dt>ScannerPicturePreviewType</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
 只有 Windows Vista 和更新版本才支援此屬性。
@@ -881,8 +881,8 @@ WIA_IPS_YRES = 100</code></pre></td>
 <p> </p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_IPS_ROTATION"></span><span id="wia_ips_rotation"></span><dl> <dt><strong>WIA_IPS_ROTATION</strong></dt> <dt>ScannerPictureRotation</dt> </dl></td>
-<td style="text-align: left;"><p>包含目前的旋轉設定（如果已執行）。 迷你驅動程式會建立並維護此屬性。</p>
+<td ><span id="WIA_IPS_ROTATION"></span><span id="wia_ips_rotation"></span><dl> <dt><strong>WIA_IPS_ROTATION</strong></dt> <dt>ScannerPictureRotation</dt> </dl></td>
+<td ><p>包含目前的旋轉設定（如果已執行）。 迷你驅動程式會建立並維護此屬性。</p>
 <p>應用程式會設定此屬性，以通知驅動程式 (如果所有) 在驅動程式將映射傳回給應用程式之前，都要旋轉映射。</p>
 <div class="alert">
 <blockquote>
@@ -930,8 +930,8 @@ WIA_IPS_ORIENTATION 指的是要在掃描器床或輸送器上掃描的檔位置
 <p> </p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_IPS_SEGMENTATION"></span><span id="wia_ips_segmentation"></span><dl> <dt><strong>WIA_IPS_SEGMENTATION</strong></dt> <dt>ScannerPictureSegmentation</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_IPS_SEGMENTATION"></span><span id="wia_ips_segmentation"></span><dl> <dt><strong>WIA_IPS_SEGMENTATION</strong></dt> <dt>ScannerPictureSegmentation</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
 只有 Windows Vista 和更新版本才支援此屬性。
@@ -975,8 +975,8 @@ WIA_IPS_ORIENTATION 指的是要在掃描器床或輸送器上掃描的檔位置
 </div></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_IPS_SHEET_FEEDER_REGISTRATION"></span><span id="wia_ips_sheet_feeder_registration"></span><dl> <dt><strong>WIA_IPS_SHEET_FEEDER_REGISTRATION</strong></dt> <dt>ScannerPictureSheetFeederRegistration</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_IPS_SHEET_FEEDER_REGISTRATION"></span><span id="wia_ips_sheet_feeder_registration"></span><dl> <dt><strong>WIA_IPS_SHEET_FEEDER_REGISTRATION</strong></dt> <dt>ScannerPictureSheetFeederRegistration</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
 只有 Windows Vista 和更新版本才支援此屬性。
@@ -1016,8 +1016,8 @@ WIA_IPS_ORIENTATION 指的是要在掃描器床或輸送器上掃描的檔位置
 <p> </p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_IPS_SHOW_PREVIEW_CONTROL"></span><span id="wia_ips_show_preview_control"></span><dl> <dt><strong>WIA_IPS_SHOW_PREVIEW_CONTROL</strong></dt> <dt>ScannerPictureShowPreviewControl</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_IPS_SHOW_PREVIEW_CONTROL"></span><span id="wia_ips_show_preview_control"></span><dl> <dt><strong>WIA_IPS_SHOW_PREVIEW_CONTROL</strong></dt> <dt>ScannerPictureShowPreviewControl</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
 只有 Windows Vista 和更新版本才支援此屬性。
@@ -1052,8 +1052,8 @@ WIA_IPS_ORIENTATION 指的是要在掃描器床或輸送器上掃描的檔位置
 <p> </p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_IPS_SUPPORTS_CHILD_ITEM_CREATION"></span><span id="wia_ips_supports_child_item_creation"></span><dl> <dt><strong>WIA_IPS_SUPPORTS_CHILD_ITEM_CREATION</strong></dt> <dt>ScannerPictureSupportsChildItemCreation</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_IPS_SUPPORTS_CHILD_ITEM_CREATION"></span><span id="wia_ips_supports_child_item_creation"></span><dl> <dt><strong>WIA_IPS_SUPPORTS_CHILD_ITEM_CREATION</strong></dt> <dt>ScannerPictureSupportsChildItemCreation</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
 只有 Windows Vista 和更新版本才支援此屬性。
@@ -1068,8 +1068,8 @@ WIA_IPS_ORIENTATION 指的是要在掃描器床或輸送器上掃描的檔位置
 <p>類型： <strong>VT_I4</strong>、存取：唯讀、有效的值： <strong>TRUE</strong> 和 <strong>FALSE</strong></p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_IPS_THRESHOLD"></span><span id="wia_ips_threshold"></span><dl> <dt><strong>WIA_IPS_THRESHOLD</strong></dt> <dt>ScannerPictureThreshold</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_IPS_THRESHOLD"></span><span id="wia_ips_threshold"></span><dl> <dt><strong>WIA_IPS_THRESHOLD</strong></dt> <dt>ScannerPictureThreshold</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
 只有 Windows Vista 和更新版本才支援此屬性。
@@ -1083,8 +1083,8 @@ WIA_IPS_ORIENTATION 指的是要在掃描器床或輸送器上掃描的檔位置
 <p>Type： <strong>VT_I4</strong>、Access： Read/Write、Valid 值： <a href="-wia-property-attributes.md">WIA_PROP_RANGE</a></p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_IPS_TRANSFER_CAPABILITIES"></span><span id="wia_ips_transfer_capabilities"></span><dl> <dt><strong>WIA_IPS_TRANSFER_CAPABILITIES</strong></dt> <dt>ScannerPictureTransferCapabilities</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_IPS_TRANSFER_CAPABILITIES"></span><span id="wia_ips_transfer_capabilities"></span><dl> <dt><strong>WIA_IPS_TRANSFER_CAPABILITIES</strong></dt> <dt>ScannerPictureTransferCapabilities</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
 只有 Windows Vista 和更新版本才支援此屬性。
@@ -1098,8 +1098,8 @@ WIA_IPS_ORIENTATION 指的是要在掃描器床或輸送器上掃描的檔位置
 <p>這個屬性的唯一可能值是 WIA_TRANSFER_CHILDREN_SINGLE_SCAN。 如果設定此旗標，則驅動程式能夠在單一傳送呼叫中傳輸多個子專案。 如果未設定旗標，則 WIA 服務會以遞迴方式逐一查看子專案，然後傳送每一個專案。</p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_IPA_UPLOAD_ITEM_SIZE"></span><span id="wia_ipa_upload_item_size"></span><dl> <dt><strong>WIA_IPA_UPLOAD_ITEM_SIZE</strong></dt> <dt>ScannerPictureInvert</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_IPA_UPLOAD_ITEM_SIZE"></span><span id="wia_ipa_upload_item_size"></span><dl> <dt><strong>WIA_IPA_UPLOAD_ITEM_SIZE</strong></dt> <dt>ScannerPictureInvert</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
 只有 Windows Vista 和更新版本才支援此屬性。
@@ -1112,34 +1112,34 @@ WIA_IPS_ORIENTATION 指的是要在掃描器床或輸送器上掃描的檔位置
 <p>Type： <strong>VT_I4</strong>、Access： Read/Write、Valid 值： <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_IPS_WARM_UP_TIME"></span><span id="wia_ips_warm_up_time"></span><dl> <dt><strong>WIA_IPS_WARM_UP_TIME</strong></dt> <dt>ScannerPictureWarmUpTime</dt> </dl></td>
-<td style="text-align: left;"><p>在開始掃描工作之前，指定裝置所需的最大準備時間（以毫秒為單位）。 迷你驅動程式會建立並維護此屬性。</p>
+<td ><span id="WIA_IPS_WARM_UP_TIME"></span><span id="wia_ips_warm_up_time"></span><dl> <dt><strong>WIA_IPS_WARM_UP_TIME</strong></dt> <dt>ScannerPictureWarmUpTime</dt> </dl></td>
+<td ><p>在開始掃描工作之前，指定裝置所需的最大準備時間（以毫秒為單位）。 迷你驅動程式會建立並維護此屬性。</p>
 <p>應用程式可以讀取此屬性，以判斷此裝置的最大準備時間。 然後，它會顯示 &quot; [正在等待裝置準備 &quot; ] 對話方塊，讓使用者知道等待或暫停可能會在發生任何情況之前發生。</p>
 <p>所有取得的已啟用專案都需要這個屬性;也就是說，類別中的專案： WIA_CATEGORY_FLATBED、WIA_CATEGORY_FEEDER、WIA_CATEGORY_FEEDER_FRONT、WIA_CATEGORY_FEEDER_BACK 和 WIA_CATEGORY_FILM。</p>
 <p>類型： <strong>VT_I4</strong>、存取：唯讀、有效的值： <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_IPS_XEXTENT"></span><span id="wia_ips_xextent"></span><dl> <dt><strong>WIA_IPS_XEXTENT</strong></dt> <dt>ScannerPictureXextent</dt> </dl></td>
-<td style="text-align: left;"><p>包含要取得之所選影像的目前寬度（以圖元為單位）。 應用程式會設定這個屬性，將選取區域的寬度標示為取得。 這個屬性必須與 <a href="-wia-wiaitempropcommonitem.md"><strong>WIA_IPA_PIXELS_PER_LINE</strong></a> 屬性一致。 迷你驅動程式會建立並維護此屬性。</p>
+<td ><span id="WIA_IPS_XEXTENT"></span><span id="wia_ips_xextent"></span><dl> <dt><strong>WIA_IPS_XEXTENT</strong></dt> <dt>ScannerPictureXextent</dt> </dl></td>
+<td ><p>包含要取得之所選影像的目前寬度（以圖元為單位）。 應用程式會設定這個屬性，將選取區域的寬度標示為取得。 這個屬性必須與 <a href="-wia-wiaitempropcommonitem.md"><strong>WIA_IPA_PIXELS_PER_LINE</strong></a> 屬性一致。 迷你驅動程式會建立並維護此屬性。</p>
 <p>所有已啟用專案的必要專案;也就是說，類別中的專案： WIA_CATEGORY_FLATBED、WIA_CATEGORY_FEEDER、WIA_CATEGORY_FEEDER_FRONT、WIA_CATEGORY_FEEDER_BACK 和 WIA_CATEGORY_FILM。</p>
 <p>Type： <strong>VT_I4</strong>、Access： Read/Write、Valid 值： <a href="-wia-property-attributes.md">WIA_PROP_RANGE</a></p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_IPS_XPOS"></span><span id="wia_ips_xpos"></span><dl> <dt><strong>WIA_IPS_XPOS</strong></dt> <dt>ScannerPictureXpos</dt> </dl></td>
-<td style="text-align: left;"><p>包含所選影像左上角的 x 座標（以圖元為單位）。 應用程式會將這個屬性設定為標示選取區域的左上角。 迷你驅動程式會建立並維護此屬性。</p>
+<td ><span id="WIA_IPS_XPOS"></span><span id="wia_ips_xpos"></span><dl> <dt><strong>WIA_IPS_XPOS</strong></dt> <dt>ScannerPictureXpos</dt> </dl></td>
+<td ><p>包含所選影像左上角的 x 座標（以圖元為單位）。 應用程式會將這個屬性設定為標示選取區域的左上角。 迷你驅動程式會建立並維護此屬性。</p>
 <p>所有已啟用專案的必要專案;也就是說，類別中的專案： WIA_CATEGORY_FLATBED、WIA_CATEGORY_FEEDER、WIA_CATEGORY_FEEDER_FRONT、WIA_CATEGORY_FEEDER_BACK、WIA_CATEGORY_FINISHED_FILE 和 WIA_CATEGORY_FILM。 WIA_CATEGORY_FOLDER 專案不支援此功能。</p>
 <p>Type： <strong>VT_I4</strong>、Access： Read/Write、Valid 值： <a href="-wia-property-attributes.md">WIA_PROP_RANGE</a></p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_IPS_XRES"></span><span id="wia_ips_xres"></span><dl> <dt><strong>WIA_IPS_XRES</strong></dt> <dt>ScannerPictureXres</dt> </dl></td>
-<td style="text-align: left;"><p>包含裝置目前的水準解析度（以圖元為單位）。 應用程式會設定這個屬性來設定水準解析度。 迷你驅動程式會建立並維護此屬性。</p>
+<td ><span id="WIA_IPS_XRES"></span><span id="wia_ips_xres"></span><dl> <dt><strong>WIA_IPS_XRES</strong></dt> <dt>ScannerPictureXres</dt> </dl></td>
+<td ><p>包含裝置目前的水準解析度（以圖元為單位）。 應用程式會設定這個屬性來設定水準解析度。 迷你驅動程式會建立並維護此屬性。</p>
 <p>如果裝置只能設定為單一值，請建立 <a href="-wia-property-attributes.md">WIA_PROP_LIST</a> 類型，並在其中放置有效的值。 這也是一個解決方式設定相依于另一個解決方法的情況。  (垂直解析度可能取決於水準解析度。 ) </p>
 <p>所有已啟用專案的必要專案;也就是說，類別中的專案： WIA_CATEGORY_FLATBED、WIA_CATEGORY_FEEDER、WIA_CATEGORY_FEEDER_FRONT、WIA_CATEGORY_FEEDER_BACK、WIA_CATEGORY_FINISHED_FILE 和 WIA_CATEGORY_FILM。 WIA_CATEGORY_FOLDER 專案不支援此功能。</p>
 <p>類型： <strong>VT_I4</strong>、存取：讀取/寫入或唯讀、有效的值： <a href="-wia-property-attributes.md">WIA_PROP_RANGE</a> 或 WIA_PROP_LIST</p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_IPS_XSCALING"></span><span id="wia_ips_xscaling"></span><dl> <dt><strong>WIA_IPS_XSCALING</strong></dt> <dt>ScannerPictureXscaling</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_IPS_XSCALING"></span><span id="wia_ips_xscaling"></span><dl> <dt><strong>WIA_IPS_XSCALING</strong></dt> <dt>ScannerPictureXscaling</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
 只有 Windows Vista 和更新版本才支援此屬性。
@@ -1154,27 +1154,27 @@ WIA_IPS_ORIENTATION 指的是要在掃描器床或輸送器上掃描的檔位置
 <p>值可以是1到最大 VT_I4 (0xFFFF) 。 例如，100表示無縮放比例，050表示相應減少為原始大小的50%，而200表示相應減少為原始大小的200%。</p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_IPS_YEXTENT"></span><span id="wia_ips_yextent"></span><dl> <dt><strong>WIA_IPS_YEXTENT</strong></dt> <dt>ScannerPictureYextent</dt> </dl></td>
-<td style="text-align: left;"><p>包含要取得之所選影像的目前高度（以圖元為單位）。 應用程式會將這個屬性設定為標示選取區域的高度。 這個屬性必須與 <a href="-wia-wiaitempropcommonitem.md"><strong>WIA_IPA_PIXELS_PER_LINE</strong></a> 屬性的值一致。 迷你驅動程式會建立並維護此屬性。</p>
+<td ><span id="WIA_IPS_YEXTENT"></span><span id="wia_ips_yextent"></span><dl> <dt><strong>WIA_IPS_YEXTENT</strong></dt> <dt>ScannerPictureYextent</dt> </dl></td>
+<td ><p>包含要取得之所選影像的目前高度（以圖元為單位）。 應用程式會將這個屬性設定為標示選取區域的高度。 這個屬性必須與 <a href="-wia-wiaitempropcommonitem.md"><strong>WIA_IPA_PIXELS_PER_LINE</strong></a> 屬性的值一致。 迷你驅動程式會建立並維護此屬性。</p>
 <p>所有已啟用專案的必要專案;也就是說，類別中的專案： WIA_CATEGORY_FLATBED、WIA_CATEGORY_FEEDER、WIA_CATEGORY_FEEDER_FRONT、WIA_CATEGORY_FEEDER_BACK 和 WIA_CATEGORY_FILM。</p>
 <p>Type： <strong>VT_I4</strong>、Access： Read/Write、Valid 值： <a href="-wia-property-attributes.md">WIA_PROP_RANGE</a></p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_IPS_YPOS"></span><span id="wia_ips_ypos"></span><dl> <dt><strong>WIA_IPS_YPOS</strong></dt> <dt>ScannerPictureYpos</dt> </dl></td>
-<td style="text-align: left;"><p>所選影像左上角的目前 y 座標（以圖元為單位）。 應用程式會將這個屬性設定為標示選取區域的左上角。 迷你驅動程式會建立並維護此屬性。</p>
+<td ><span id="WIA_IPS_YPOS"></span><span id="wia_ips_ypos"></span><dl> <dt><strong>WIA_IPS_YPOS</strong></dt> <dt>ScannerPictureYpos</dt> </dl></td>
+<td ><p>所選影像左上角的目前 y 座標（以圖元為單位）。 應用程式會將這個屬性設定為標示選取區域的左上角。 迷你驅動程式會建立並維護此屬性。</p>
 <p>所有已啟用專案的必要專案;也就是說，類別中的專案： WIA_CATEGORY_FLATBED、WIA_CATEGORY_FEEDER、WIA_CATEGORY_FEEDER_FRONT、WIA_CATEGORY_FEEDER_BACK、WIA_CATEGORY_FINISHED_FILE 和 WIA_CATEGORY_FILM。 WIA_CATEGORY_FOLDER 專案不支援此功能。</p>
 <p>Type： <strong>VT_I4</strong>、Access： Read/Write、Valid 值： <a href="-wia-property-attributes.md">WIA_PROP_RANGE</a></p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_IPS_YRES"></span><span id="wia_ips_yres"></span><dl> <dt><strong>WIA_IPS_YRES</strong></dt> <dt>ScannerPictureYres</dt> </dl></td>
-<td style="text-align: left;"><p>包含裝置目前的垂直解析度（以圖元為單位）。 應用程式會設定這個屬性來設定垂直解析度。 迷你驅動程式會建立並維護此屬性。</p>
+<td ><span id="WIA_IPS_YRES"></span><span id="wia_ips_yres"></span><dl> <dt><strong>WIA_IPS_YRES</strong></dt> <dt>ScannerPictureYres</dt> </dl></td>
+<td ><p>包含裝置目前的垂直解析度（以圖元為單位）。 應用程式會設定這個屬性來設定垂直解析度。 迷你驅動程式會建立並維護此屬性。</p>
 <p>如果裝置只能設定為單一值，請建立 <a href="-wia-property-attributes.md">WIA_PROP_LIST</a> 類型，並在其中放置有效的值。 這也是一個解決方式設定相依于另一個解決方法的情況。  (水準解析度可能取決於垂直解析度。 ) </p>
 <p>所有已啟用專案的必要專案;也就是說，類別中的專案： WIA_CATEGORY_FLATBED、WIA_CATEGORY_FEEDER、WIA_CATEGORY_FEEDER_FRONT、WIA_CATEGORY_FEEDER_BACK、WIA_CATEGORY_FINISHED_FILE 和 WIA_CATEGORY_FILM。 WIA_CATEGORY_FOLDER 專案不支援此功能。</p>
 <p>類型： <strong>VT_I4</strong>、存取：讀取/寫入或唯讀、有效的值： <a href="-wia-property-attributes.md">WIA_PROP_RANGE</a> 或 WIA_PROP_LIST</p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_IPS_YSCALING"></span><span id="wia_ips_yscaling"></span><dl> <dt><strong>WIA_IPS_YSCALING</strong></dt> <dt>ScannerPictureYscaling</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_IPS_YSCALING"></span><span id="wia_ips_yscaling"></span><dl> <dt><strong>WIA_IPS_YSCALING</strong></dt> <dt>ScannerPictureYscaling</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
 只有 Windows Vista 和更新版本才支援此屬性。
@@ -1199,8 +1199,8 @@ WIA_IPS_ORIENTATION 指的是要在掃描器床或輸送器上掃描的檔位置
 
 | 需求 | 值 |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 windows 2000 Professional、Windows XP \[ desktop 應用程式\]<br/>              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                |
+| 最低支援的用戶端<br/> | Windows 2000 Professional，僅 Windows XP \[ desktop 應用程式\]<br/>              |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                |
 | 標頭<br/>                   | <dl> <dt>Wiadef。h</dt> </dl> |
 
 

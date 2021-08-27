@@ -13,12 +13,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: b1a3618be793f4728dc6184b50b7a4e0e57c3ffd2c4d2cd8acde17372aa031f4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1ced01e3f8186a82e99f408f91546ebcbb117ed9
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118225227"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122466385"
 ---
 # <a name="abm_getstate-message"></a>ABM \_ >getstate 訊息
 
@@ -48,33 +48,12 @@ uState = (UINT) SHAppBarMessage(ABM_GETSTATE, pabd);
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>傳回碼</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><dl> <dt><strong>ABS_ALWAYSONTOP</strong></dt> </dl></td>
-<td>工作列處於 always on 最上層狀態。 <br/>
-<blockquote>
-[!Note]<br />
-從 Windows 7，因為工作列一律處於該狀態，所以不會再傳回 ABS_ALWAYSONTOP。 您應該更新較舊的程式碼，以忽略此值不存在的情況下，不假設該傳回值表示工作列不是處於最新狀態。
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td><dl> <dt><strong>ABS_AUTOHIDE</strong></dt> </dl></td>
-<td>工作列處於 [自動隱藏] 狀態。<br/></td>
-</tr>
-</tbody>
-</table>
+
+| 傳回碼 | Description | 
+|-------------|-------------|
+| <dl><dt><strong>ABS_ALWAYSONTOP</strong></dt></dl> | 工作列處於 always on 最上層狀態。 <br /><blockquote>[!Note]<br />從 Windows 7，因為工作列一律處於該狀態，所以不會再傳回 ABS_ALWAYSONTOP。 您應該更新較舊的程式碼，以忽略此值不存在的情況下，不假設該傳回值表示工作列不是處於最新狀態。</blockquote><br /> | 
+| <dl><dt><strong>ABS_AUTOHIDE</strong></dt></dl> | 工作列處於 [自動隱藏] 狀態。<br /> | 
+
 
 
 

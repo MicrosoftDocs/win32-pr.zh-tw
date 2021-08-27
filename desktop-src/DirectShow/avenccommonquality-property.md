@@ -4,12 +4,12 @@ ms.assetid: 2c7f3836-2392-47c6-9a56-d5a9b52560ff
 title: 'AVEncCommonQuality 屬性 (Codecapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a0e69d797f2e26e830158c969c8fcf4ec0b242a
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 99202391e919fa1da9028a15a57154834feddd3039160b9b0562a713fe59ddaa
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104467889"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120087668"
 ---
 # <a name="avenccommonquality-property"></a>AVEncCommonQuality 屬性
 

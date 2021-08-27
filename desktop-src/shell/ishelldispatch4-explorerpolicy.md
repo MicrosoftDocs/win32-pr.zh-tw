@@ -1,5 +1,5 @@
 ---
-description: IShellDispatch4. ExplorerPolicy 方法-取得指定之 Windows Internet Explorer 原則的值。
+description: IShellDispatch4. ExplorerPolicy 方法-取得指定 Windows Internet Explorer 原則的值。
 ms.assetid: 490c3e18-b606-456a-9016-dc4f7bad2bc3
 title: 'IShellDispatch4. ExplorerPolicy 方法 (Shldisp .h) '
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 4a03d61905bdb1f2b16de11cc604625d8e71a7ea
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 16187fedde4a454ffaa5415ade08e61f5d0abca145caa7b5c8e29fa9f3b00cdd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108116826"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120111498"
 ---
 # <a name="ishelldispatch4explorerpolicy-method"></a>IShellDispatch4. ExplorerPolicy 方法
 
-取得指定之 Windows Internet Explorer 原則的值。
+取得指定 Windows Internet Explorer 原則的值。
 
 ## <a name="syntax"></a>語法
 
@@ -82,7 +82,7 @@ IShellDispatch4.ExplorerPolicy( _
 
 下列範例示範如何適當地使用 JScript、VBScript 和 Visual Basic 的 **ExplorerPolicy** 。
 
-Jscript：
+JScript：
 
 
 ```JScript
@@ -142,10 +142,10 @@ End Sub
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                                                   |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                          |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                                                   |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                          |
 | 標頭<br/>                   | <dl> <dt>Shldisp。h</dt> </dl>                          |
-| Idl<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl>                        |
+| IDL<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl>                        |
 | DLL<br/>                      | <dl> <dt>Shell32.dll (6.0 版或更新版本) </dt> </dl> |
 
 

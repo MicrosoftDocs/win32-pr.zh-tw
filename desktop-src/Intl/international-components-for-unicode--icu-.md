@@ -4,12 +4,12 @@ ms.assetid: 4AEBE391-4121-44B2-B15B-0032645D7053
 title: Unicode 的國際元件 (ICU)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 560a2f344a3024685e17df0f434f8ffa040b5c8b
-ms.sourcegitcommit: d5f16b9d3d5d2e2080ba7b6837eb37250fa67a30
+ms.openlocfilehash: 5c7fec661b24e352c24abddf687e6b119752e39ce80c12dc409000afa179f1f7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "111349987"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120107020"
 ---
 # <a name="international-components-for-unicode-icu"></a>Unicode 的國際元件 (ICU)
 
@@ -29,10 +29,10 @@ Unicode (ICU) 的國際元件是一組成熟、廣泛使用的開放原始碼全
 
 ## <a name="overview"></a>概觀
 
-在 Windows 10 Creators Update 中，ICU 已整合至 Windows，讓 C Api 和資料可供公開存取。
+在 Windows 10 Creators Update 中，ICU 已整合至 Windows，讓 C api 和資料可公開存取。
 
 > [!IMPORTANT]
-> Windows 中的 ICU 版本只會公開 C Api。 它不會公開任何 c + + Api。 可惜的是，因為 c + + 缺乏穩定的 ABI，所以無法公開 c + + Api。
+> Windows 中的 ICU 版本只會公開 C api。 它不會公開任何 c + + Api。 可惜的是，因為 c + + 缺乏穩定的 ABI，所以無法公開 c + + Api。
 
 如需有關 ICU C Api 的檔，請參閱這裡的官方 ICU 檔頁面： <http://icu-project.org/apiref/icu4c/index.html#Module>
 
@@ -94,7 +94,7 @@ Unicode (ICU) 的國際元件是一組成熟、廣泛使用的開放原始碼全
 然後，您可以從您想要的這些程式庫呼叫任何 ICU C API。  (不會公開任何 c + + Api。 ) 
 
 > [!IMPORTANT]
-> 如果您使用舊版的匯入程式庫（icuuc .lib 和 icuin），請確定它們列在 [其他相依性連結器] 設定中的 [] 程式庫之前（例如 onecoreuap .lib 或 >windowsapp）， (查看下圖) 。 否則，連結器會連結至 icu，這會導致在執行時間嘗試載入 icu.dll。 只有從1903版開始才會出現該 DLL。 因此，如果使用者在1903版的 Windows 電腦上升級 Windows 10 SDK，應用程式將無法載入並執行。 如需 Windows 中 ICU 文件庫的歷程記錄，請參閱 [windows 中 icu 文件庫的變更歷程記錄](#history-of-changes-to-the-icu-library-in-windows)。
+> 如果您使用舊版的匯入程式庫（icuuc .lib 和 icuin），請確定它們列在 [其他相依性連結器] 設定中的 [] 程式庫之前（例如 onecoreuap .lib 或 >windowsapp）， (查看下圖) 。 否則，連結器會連結至 icu，這會導致在執行時間嘗試載入 icu.dll。 只有從1903版開始才會出現該 DLL。 因此，如果使用者在1903版的 Windows 版電腦上升級 Windows 10 SDK，應用程式將無法載入並執行。 如需 Windows 中 icu 程式庫的歷程記錄，請參閱[Windows 中 icu 文件庫的變更歷程記錄](#history-of-changes-to-the-icu-library-in-windows)。
 
 ![icu 範例](images/icu-example.png)
 
@@ -102,7 +102,7 @@ Unicode (ICU) 的國際元件是一組成熟、廣泛使用的開放原始碼全
 >
 > - 這是 [所有平臺] 的設定。
 > - 針對要使用 ICU 的 Win32 應用程式，他們必須先呼叫 [CoInitializeEx](/windows/win32/api/combaseapi/nf-combaseapi-coinitializeex) 。 在 Windows 10 1903 版和更新版本上，可以使用合併的 ICU 程式庫 (icu.dll/icu.lib) ，您可以使用合併的程式庫省略 CoInitializeEx 呼叫。
-> - 並非 ICU Api 所傳回的所有資料都會與 Windows 作業系統一致，因為此對齊工作仍在進行中。 
+> - 並非 ICU api 所傳回的所有資料都會與 Windows 作業系統一致，因為此對齊工作仍在進行中。 
 
 ## <a name="icu-example-app"></a>ICU 範例應用程式
 

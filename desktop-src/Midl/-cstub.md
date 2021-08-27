@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 878f6eee47deaac3887c3f9936c18b0185cc807a
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 47b4f635b6d09c85b345eea6dcb7320294e226ad6f2540f01af1e9b3e8098671
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104312957"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120105657"
 ---
 # <a name="cstub-switch"></a>/cstub 參數
 
@@ -68,9 +68,9 @@ midl /cstub stub_file_name
 [**/sstub**](-sstub.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

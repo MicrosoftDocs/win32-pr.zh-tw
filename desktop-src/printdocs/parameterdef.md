@@ -4,12 +4,12 @@ ms.assetid: cb00edc9-2c8a-446d-989b-a4429ee8f544
 title: ParameterDef
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2682e3da11f471401e95e3f6515de5e18b6be895
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: c5eddca78b76751c6083d1c5b5bac8c1040155e6
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112407291"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122477844"
 ---
 # <a name="parameterdef"></a>ParameterDef
 
@@ -43,41 +43,13 @@ ParameterDef 元素會定義參數輸入的有效特性。 藉由 ParameterInit 
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>類別</th>
-<th>詳細資料</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>父元素<br/></td>
-<td>PrintCapabilities <br/></td>
-</tr>
-<tr class="even">
-<td>子元素<br/></td>
-<td>屬性 (一個或多個)<br/> 下列標準屬性元素必須顯示為 ParameterDef 元素的內容。 <br/>
-<ul>
-<li>DataType <br/></li>
-<li>DefaultValue <br/></li>
-<li>強制性 <br/></li>
-<li>MaxLength 或 Timespan.maxvalue<br/></li>
-<li>MinLength 或 MinValue<br/></li>
-<li>名 <br/></li>
-<li>Unittype.pixel 表示 <br/></li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>這個元素<br/></td>
-<td>不允許任何字元資料。<br/> 不允許重複的子同級。<br/></td>
-</tr>
-</tbody>
-</table>
+
+| 類別 | 詳細資料 | 
+|----------|---------|
+| 父元素<br /> | PrintCapabilities <br /> | 
+| 子元素<br /> | 屬性 (一個或多個)<br /> 下列標準屬性元素必須顯示為 ParameterDef 元素的內容。 <br /><ul><li>DataType <br /></li><li>DefaultValue <br /></li><li>強制性 <br /></li><li>MaxLength 或 Timespan.maxvalue<br /></li><li>MinLength 或 MinValue<br /></li><li>名 <br /></li><li>Unittype.pixel 表示 <br /></li></ul> | 
+| 這個元素<br /> | 不允許任何字元資料。<br /> 不允許重複的子同級。<br /> | 
+
 
 
 

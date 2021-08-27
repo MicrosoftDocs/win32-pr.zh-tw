@@ -4,12 +4,12 @@ description: 多行工具提示允許文字顯示在一行以上。
 ms.assetid: 62B10B44-C1C2-4C86-8648-AE6B606BACBB
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f0d6f32d638b2d33ea6270aa5f8ce2c09f0f4174
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3cd0d9f4172b256d2e6b72fb59ace4dc377fa3a0061e3ee0e6c0f234a74aad06
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671975"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120085621"
 ---
 # <a name="how-to-implement-multiline-tooltips"></a>如何執行多行工具提示
 
@@ -24,18 +24,18 @@ ms.locfileid: "103671975"
 > [!Note]  
 > [**NMTTDISPINFO**](/windows/win32/api/commctrl/ns-commctrl-nmttdispinfoa)結構的 **szText** 成員所指定的文字緩衝區只能容納80個字元。 如果您需要使用較長的字串，請將 **NMTTDISPINFO** 的 **lpszText** 成員指向包含所需文字的緩衝區。
 
- 
+ 
 
 ## <a name="what-you-need-to-know"></a>您必須知道的事項
 
 ### <a name="technologies"></a>技術
 
--   [Windows 控制項](window-controls.md)
+-   [Windows控制](window-controls.md)
 
 ### <a name="prerequisites"></a>必要條件
 
 -   C/C++
--   Windows 消費者介面程式設計
+-   Windows消費者介面程式設計
 
 ## <a name="instructions"></a>指示
 
@@ -70,9 +70,9 @@ ms.locfileid: "103671975"
 [使用工具提示控制項](using-tooltip-contro.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

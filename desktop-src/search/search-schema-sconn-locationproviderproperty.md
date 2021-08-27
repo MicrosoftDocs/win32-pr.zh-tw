@@ -4,12 +4,12 @@ ms.assetid: c1120dea-cb0b-4746-a5c1-4c83cda6dd7c
 title: locationProvider (搜尋連接器架構) 的 property 元素
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 71081b8b04ec999daa90958a29708b8efc64bee0
-ms.sourcegitcommit: 6515eef99ca0d1bbe3e27d4575e9986f5255f277
+ms.openlocfilehash: 623d54ef98986c603acc709bcd39ca1ac5504b89
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "106975645"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122471554"
 ---
 # <a name="property-element-of-locationprovider-search-connector-schema"></a>locationProvider (搜尋連接器架構) 的 property 元素
 
@@ -53,52 +53,12 @@ ms.locfileid: "106975645"
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>屬性</th>
-<th>描述</th>
-<th>值</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>NAME</td>
-<td>必要。 屬性的顯示名稱。</td>
-<td> </td>
-</tr>
-<tr class="even">
-<td>類型</td>
-<td>必要。 屬性的類型。</td>
-<td>任何：預設值。 此值將不會被屬性子系統強制轉型。 GetPropertyType 會傳回 VT_Null。
-<ul>
-<li>Null：沒有這個屬性的值。 GetPropertyType 會傳回 VT_Null。</li>
-<li>字串：值必須是 VT_LPWSTR。</li>
-<li>布林值：此值必須是 VT_BOOL。</li>
-<li>Byte：此值必須是 VT_UI1。</li>
-<li>緩衝區：此值必須是 VT_UI1 |VT_VECTOR 位元組緩衝區。</li>
-<li>Int16：此值必須是 VT_I2。</li>
-<li>UInt16：此值必須是 VT_UI2。</li>
-<li>Int32：此值必須是 VT_I4。</li>
-<li>UInt32：此值必須是 VT_UI4。</li>
-<li>Int64：此值必須是 VT_I8。</li>
-<li>UInt64：此值必須是 VT_UI8</li>
-<li>Double：此值必須是 VT_R8。</li>
-<li>DateTime：此值必須是 VT_FILETIME。</li>
-<li>Guid：此值必須是 VT_CLSID。</li>
-<li>Blob：此值必須是 VT_BLOB。</li>
-<li>物件：此值必須是 VT_UNKNOWN。</li>
-<li>Stream：此值必須是 VT_STREAM。</li>
-<li>剪貼簿：此值必須是 VT_CF。</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| 屬性 | 描述 | 值 | 
+|-----------|-------------|--------|
+| NAME | 必要。 屬性的顯示名稱。 |   | 
+| 類型 | 必要。 屬性的類型。 | 任何：預設值。 此值將不會被屬性子系統強制轉型。 GetPropertyType 會傳回 VT_Null。<ul><li>Null：沒有這個屬性的值。 GetPropertyType 會傳回 VT_Null。</li><li>字串：值必須是 VT_LPWSTR。</li><li>布林值：此值必須是 VT_BOOL。</li><li>Byte：此值必須是 VT_UI1。</li><li>緩衝區：此值必須是 VT_UI1 | VT_VECTOR 位元組緩衝區。</li><li>Int16：此值必須是 VT_I2。</li><li>UInt16：此值必須是 VT_UI2。</li><li>Int32：此值必須是 VT_I4。</li><li>UInt32：此值必須是 VT_UI4。</li><li>Int64：此值必須是 VT_I8。</li><li>UInt64：此值必須是 VT_UI8</li><li>Double：此值必須是 VT_R8。</li><li>DateTime：此值必須是 VT_FILETIME。</li><li>Guid：此值必須是 VT_CLSID。</li><li>Blob：此值必須是 VT_BLOB。</li><li>物件：此值必須是 VT_UNKNOWN。</li><li>Stream：此值必須是 VT_STREAM。</li><li>剪貼簿：此值必須是 VT_CF。</li></ul> | 
+
 
 
 
@@ -106,10 +66,10 @@ ms.locfileid: "106975645"
 
 ## <a name="remarks"></a>備註
 
-若為 [OpenSearch 提供者]，則會使用下列屬性：
+針對 OpenSearch 提供者，會使用下列屬性：
 
 -   OpenSearchShortName：搜尋服務的簡短名稱
--   OpenSearchQueryTemplate：在查詢服務中依照 OpenSearch 範本慣例格式化的範本
+-   OpenSearchQueryTemplate：以查詢服務的 OpenSearch 樣板慣例格式化的範本
 -   MaximumResultCount： (number) 搜尋服務所傳回的結果數目上限
 -   LinkIsFilePath： (布林值) 如果為 true，則提供者會嘗試將傳回的專案解讀為檔案，並使用其擴充功能在視圖中建立適當的 ShellItem。 如果為 false，則會將專案視為 URL 快捷方式。
 

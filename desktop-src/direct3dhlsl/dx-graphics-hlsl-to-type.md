@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d1881ba4a88e97e978e2646c92d276bb9763ffd
-ms.sourcegitcommit: adba238660d8a5f4fe98fc6f5d105d56aac3a400
+ms.openlocfilehash: 14ac22ba8c9da7d69784d977e2b78b8f0b52a6a3
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "111825768"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122628114"
 ---
 # <a name="texture-object"></a>材質物件
 
@@ -60,12 +60,12 @@ Direct3D9 和 Direct3D10 之間的差異：
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
-<th>項目</th>
+<th>Item</th>
 <th>描述</th>
 </tr>
 </thead>

@@ -3,7 +3,7 @@ title: 'RB_GETTEXTCOLOR 訊息 (Commctrl .h) '
 description: 抓取 Rebar 控制項的預設文字色彩。
 ms.assetid: fc9c731d-c606-4845-a119-737267301b29
 keywords:
-- RB_GETTEXTCOLOR message Windows 控制項
+- RB_GETTEXTCOLOR 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 082079808aa553aaada5322cff16742dafa0b994
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2dd3ce4471e14453fb18376924e8384b76232ccde9c66792eeec86e721c99fc8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465856"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120085008"
 ---
 # <a name="rb_gettextcolor-message"></a>RB \_ GETTEXTCOLOR 訊息
 
@@ -45,8 +45,8 @@ ms.locfileid: "104465856"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

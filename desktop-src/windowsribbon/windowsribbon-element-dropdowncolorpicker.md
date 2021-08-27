@@ -3,7 +3,7 @@ title: DropDownColorPicker 元素
 description: 表示按一下以顯示色板的 Drop-Down 色彩 Pickercontrol。
 ms.assetid: fc4df978-9c52-43d5-8a5e-e015aa7058cd
 keywords:
-- DropDownColorPicker 元素視窗功能區
+- DropDownColorPicker 元素 Windows 功能區
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: ce2fd1d9ff12b56d87955304fad24af23209ff91
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 31525ee1b7233f0bf49668856d917ef14bc034b6
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111442899"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122622884"
 ---
 # <a name="dropdowncolorpicker-element"></a>DropDownColorPicker 元素
 
@@ -45,10 +45,10 @@ ms.locfileid: "111442899"
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col  />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -75,7 +75,7 @@ ms.locfileid: "111442899"
 <ul>
 <li>SplitButton 錨點。</li>
 <li>預設會顯示 [<strong>自動</strong>色彩] 按鈕。</li>
-<li>Windows <strong>主題色彩</strong> 色板方格。</li>
+<li>Windows<strong>主題色彩</strong>] 色板方格。</li>
 <li><strong>標準色彩</strong> 樣本方格。</li>
 <li>[<strong>最近使用的色彩</strong>] 樣本方格是選擇性的。</li>
 <li>[<strong>其他色彩</strong>] 對話方塊啟動器。</li>
@@ -164,7 +164,7 @@ ms.locfileid: "111442899"
 | [**ControlGroup**](windowsribbon-element-controlgroup.md)<br/>             |
 | [**DropDownButton**](windowsribbon-element-dropdownbutton.md)<br/>         |
 | [**DropDownGallery**](windowsribbon-element-dropdowngallery.md)<br/>       |
-| [**群組**](windowsribbon-element-group.md)<br/>                           |
+| [**Group**](windowsribbon-element-group.md)<br/>                           |
 | [**MenuGroup**](windowsribbon-element-menugroup.md)<br/>                   |
 | [**SplitButton**](windowsribbon-element-splitbutton.md)<br/>               |
 | [**SplitButtonGallery**](windowsribbon-element-splitbuttongallery.md)<br/> |

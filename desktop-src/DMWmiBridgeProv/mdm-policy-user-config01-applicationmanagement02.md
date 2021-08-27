@@ -17,12 +17,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 88226122eefb3335ef1b19680268ea5acf1d5388
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4044e73c2a466fed3bc69d877fe3bf0a6ebc3679450ddfd435aa8d22b5b3be5a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104093915"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120109248"
 ---
 # <a name="mdm_policy_user_config01_applicationmanagement02-class"></a>MDM \_ 原則 \_ 使用者 \_ Config01 \_ ApplicationManagement02 類別
 
@@ -105,7 +105,7 @@ class MDM_Policy_User_Config01_ApplicationManagement02
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 10 桌面應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | Windows 10 \[僅限桌面應用程式\]<br/>                                                    |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                      |
 | 命名空間<br/>                | 根 \\ cimv2 \\ mdm \\ dmmap<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv mof</dt> </dl> |

@@ -4,12 +4,12 @@ ms.assetid: 91387a2d-3927-4285-a09b-9ce247e6bfdd
 title: D3DCREATE
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b525c24529c725b8b7c7f71c53718d56ceb50603
-ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
+ms.openlocfilehash: 09cfd220e3fae2af079ba4eceba8f820a9267b4d
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "112011281"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122630226"
 ---
 # <a name="d3dcreate"></a>D3DCREATE
 
@@ -19,13 +19,13 @@ ms.locfileid: "112011281"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
 <td>#定義</td>
-<td>Description</td>
+<td>描述</td>
 </tr>
 <tr class="even">
 <td>D3DCREATE_ADAPTERGROUP_DEVICE</td>
@@ -58,7 +58,7 @@ ms.locfileid: "112011281"
 <table>
 <tbody>
 <tr class="odd">
-<td>Windows XP 與 Windows Vista 之間的差異：<br/> 此旗標適用于 Windows Vista、Windows Server 2008 和 Windows 7。<br/></td>
+<td>Windows XP 與 Windows Vista 之間的差異：<br/> 此旗標可在 Windows Vista、Windows Server 2008 和 Windows 7 上取得。<br/></td>
 </tr>
 </tbody>
 </table>

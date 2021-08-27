@@ -4,12 +4,12 @@ ms.assetid: ea271d0c-9167-41c5-8919-09611206fc71
 title: 'DecryptMessage (一般) 函數 (Sspi. h) '
 ms.topic: reference
 ms.date: 07/25/2019
-ms.openlocfilehash: a05906c721d9046920c465fdfdf6b1c790b06640
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9dfbde6c0b4a8c46920428af3d7f700268f11690
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191566"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122476914"
 ---
 # <a name="decryptmessage-general-function"></a>DecryptMessage (一般) 函數
 
@@ -98,8 +98,12 @@ SECURITY_STATUS SEC_Entry DecryptMessage(
 
 
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th>值</th><th>意義</th></tr></thead><tbody><tr class="odd"><td><span id="SECQOP_WRAP_NO_ENCRYPT"></span><span id="secqop_wrap_no_encrypt"></span><dl> <dt><strong>SECQOP_WRAP_NO_ENCRYPT</strong></dt> </dl></td><td>訊息未加密，但產生的是標頭或結尾。<br/><blockquote>[!Note]<br />
-KERB_WRAP_NO_ENCRYPT 具有相同的值和相同的意義。</blockquote><br/></td></tr><tr class="even"><td><span id="SIGN_ONLY_"></span><span id="sign_only_"></span><dl> <dt><strong>SIGN_ONLY</strong></dt> </dl></td><td>使用摘要 SSP 時，當 [*安全性內容*](../secgloss/s-gly.md) 設定 [*為僅驗證*](../secgloss/s-gly.md) 簽章時，請使用此旗標。 如需詳細資訊，請參閱 [保護品質](quality-of-protection.md)。<br/></td></tr></tbody></table>
+
+| 值 | 意義 | 
+|-------|---------|
+| <span id="SECQOP_WRAP_NO_ENCRYPT"></span><span id="secqop_wrap_no_encrypt"></span><dl><dt><strong>SECQOP_WRAP_NO_ENCRYPT</strong></dt></dl> | 訊息未加密，但產生的是標頭或結尾。<br /><blockquote>[!Note]<br />KERB_WRAP_NO_ENCRYPT 具有相同的值和相同的意義。</blockquote><br /> | 
+| <span id="SIGN_ONLY_"></span><span id="sign_only_"></span><dl><dt><strong>SIGN_ONLY</strong></dt></dl> | 使用摘要 SSP 時，當 [*安全性內容*](../secgloss/s-gly.md) 設定 [*為僅驗證*](../secgloss/s-gly.md) 簽章時，請使用此旗標。 如需詳細資訊，請參閱 [保護品質](quality-of-protection.md)。<br /> | 
+
 
 
 
@@ -146,8 +150,8 @@ KERB_WRAP_NO_ENCRYPT 具有相同的值和相同的意義。</blockquote><br/></
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                                            |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                   |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                                            |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                   |
 | 標頭<br/>                   | <dl> <dt>Sspi (包含 Security .h) </dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>Secur32 .lib</dt> </dl>                 |
 | DLL<br/>                      | <dl> <dt>Secur32.dll</dt> </dl>                 |

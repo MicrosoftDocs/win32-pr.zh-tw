@@ -21,12 +21,12 @@ keywords:
 - 控制項類型，工具列
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4327c187a86ace6f02b93082675c345eae4d4edf
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1194c9aabaa684370b99d23d91c979ff3410305b
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372569"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122471154"
 ---
 # <a name="toolbar-control-type"></a>ToolBar 控制項類型
 
@@ -48,38 +48,15 @@ ms.locfileid: "104372569"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>控制項檢視</th>
-<th>內容檢視</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>ToolBar
-<ul>
-<li>不同控制項 (0 或更多)</li>
-</ul></li>
-</ul></td>
-<td><ul>
-<li>ToolBar
-<ul>
-<li>不同控制項 (0 或更多)</li>
-</ul></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| 控制項檢視 | 內容檢視 | 
+|--------------|--------------|
+| <ul><li>ToolBar<ul><li>不同控制項 (0 或更多)</li></ul></li></ul> | <ul><li>ToolBar<ul><li>不同控制項 (0 或更多)</li></ul></li></ul> | 
 
 
 
- 
+
+ 
 
 工具列控制項可以在其子樹內包含任何類型的控制項。 通常包含按鈕、下拉式方塊與分割按鈕。
 
@@ -104,7 +81,7 @@ ms.locfileid: "104372569"
 
 
 
- 
+ 
 
 ## <a name="required-control-patterns"></a>必要的控制項模式
 
@@ -120,7 +97,7 @@ ms.locfileid: "104372569"
 
 
 
- 
+ 
 
 ## <a name="required-events"></a>必要的事件
 
@@ -139,7 +116,7 @@ ms.locfileid: "104372569"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -154,9 +131,9 @@ ms.locfileid: "104372569"
 [UI 自動化概觀](uiauto-uiautomationoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

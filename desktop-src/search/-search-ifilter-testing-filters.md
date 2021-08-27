@@ -4,12 +4,12 @@ ms.assetid: 5ee02af1-1dc9-4d21-868f-4c439970b1ba
 title: 測試篩選處理常式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 62b77fe098c2413e4f582ebfd98985dd09bf0ab9b5fc2def85fc7e954804dc1b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bf58f14f0f8de4458dd887bf52b32fb68f869d64
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118463090"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122621944"
 ---
 # <a name="testing-filter-handlers"></a>測試篩選處理常式
 
@@ -63,13 +63,13 @@ ifilttst /i test.htm /l /d /v 1
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
 <th>切換和可能的變數</th>
-<th>Description</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -158,7 +158,7 @@ Filtreg.exe 會針對延伸模組列印副檔名和 [**IFilter**](/windows/win32
 > [!NOTE]  
 > *PdwFlags* 參數沒有資料表專案，因為它是輸出參數。在呼叫 [**IFilter：： Init**](/windows/win32/api/filter/nf-filter-ifilter-init)方法之前，不需要有任何特殊值。
 
- | 進入         | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+ | 進入         | 描述                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 |---------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Flags         | 要由 OR 運算子聯結的 [**ifilter \_ INIT**](/previous-versions/windows/desktop/legacy/bb266511(v=vs.85))旗標名稱，以形成 [**ifilter：： INIT**](/windows/win32/api/filter/nf-filter-ifilter-init)方法的 *grfFlags* 參數。 旗標名稱必須全部都是大寫，並且在同一行上。                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | *cAttributes* | 表示 *cAttributes* 參數值的十進位整數。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |

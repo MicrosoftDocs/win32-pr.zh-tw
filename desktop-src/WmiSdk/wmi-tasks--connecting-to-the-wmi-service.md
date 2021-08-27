@@ -10,18 +10,18 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 751c6c0802c30e113f4a2b7ddc646cdf5646b7dd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4da816b45709f6140efb7e6e0460e27d9f9ed00f
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106987472"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122627714"
 ---
 # <a name="wmi-tasks-connecting-to-the-wmi-service"></a>WMI 工作：連接至 WMI 服務
 
 若要從本機電腦或從遠端電腦取得 WMI 的資料，您必須連接到特定的 [*命名空間*](gloss-n.md)，以連線至 wmi 服務。 在大部分情況下，請使用速記的 [標記](creating-a-wmi-script.md) 連接或 [**定位器**](swbemlocator-connectserver.md) 連接。 如需其他範例，請參閱 TechNet ScriptCenter，網址為 [https://www.microsoft.com/technet](https://technet.microsoft.com/default.aspx) 。
 
-遠端連線需要適用于 Windows 防火牆和 DCOM 的適當設定。 如需詳細資訊，請參閱 [連接到遠端電腦上的 WMI](connecting-to-wmi-on-a-remote-computer.md) 並 [透過 Windows 防火牆連接](/windows/desktop/WmiSdk/connecting-to-wmi-remotely-starting-with-vista)。 從 Windows Vista 開始， (UAC) 的「使用者帳戶控制」可能會影響 WMI 存取。 如需詳細資訊，請參閱 [使用者帳戶控制和 WMI](user-account-control-and-wmi.md)。
+遠端連線需要 Windows 防火牆和 DCOM 的適當設定。 如需詳細資訊，請參閱[連接到遠端電腦上的 WMI](connecting-to-wmi-on-a-remote-computer.md) ，並[透過 Windows 防火牆](/windows/desktop/WmiSdk/connecting-to-wmi-remotely-starting-with-vista)連線。 從 Windows Vista 開始， (UAC) 的使用者帳戶控制可能會影響 WMI 存取。 如需詳細資訊，請參閱 [使用者帳戶控制和 WMI](user-account-control-and-wmi.md)。
 
 本主題所顯示的腳本範例只會從本機電腦取得資料。 如需如何使用腳本從遠端電腦取得資料的詳細資訊，請參閱 [連接到遠端電腦上的 WMI](connecting-to-wmi-on-a-remote-computer.md)。
 
@@ -30,7 +30,7 @@ ms.locfileid: "106987472"
 
 **執行指令碼**
 
-1.  複製程式碼，並將它儲存在副檔名為 .vbs 的檔案中，例如 *filename.vbs*。 確定您的文字編輯器不會將 .txt 副檔名新增至檔案。
+1.  複製程式碼，並將它儲存在副檔名為 .vbs 的檔案中，例如 *filename.vbs*。 確定您的文字編輯器不會在檔案中加入 .txt 延伸模組。
 2.  開啟 [命令提示字元] 視窗，並流覽至您儲存檔案的目錄。
 3.  在命令提示字元中，輸入 **cscript filename.vbs** 。
 4.  如果您無法存取事件記錄檔，請檢查是否從提高許可權的命令提示字元執行。 某些事件記錄檔，例如安全性事件記錄檔，可能會受到使用者存取控制 (UAC) 的保護。
@@ -46,8 +46,8 @@ ms.locfileid: "106987472"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -63,12 +63,12 @@ ms.locfileid: "106987472"
 <li>NetBIOS 電腦名稱稱，例如 &quot; atl-dc-01&quot;</li>
 <li>完整的功能變數名稱，例如 &quot; atl-dc-01.fabrikam.com&quot;</li>
 <li>IPv4 位址，例如 &quot; 192.168.1。1&quot;</li>
-<li>從 Windows Vista 開始，如果目的電腦和您要進行連線的電腦都執行 IPv6，您就可以指定 IPv6 位址。<br/></li>
+<li>從 Windows Vista 開始，如果目的電腦和您要進行連線的電腦都執行 ipv6，您就可以指定 ipv6 位址。<br/></li>
 </ul>
 如需詳細資訊，請參閱連線 <a href="connecting-to-wmi-on-a-remote-computer.md">到遠端電腦上的 wmi</a> ，以及 <a href="ipv6-and-ipv4-support-in-wmi.md">WMI 中的 IPv6 和 IPv4 支援</a>。<br/> <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -89,7 +89,7 @@ Next</code></pre></td>
 <span data-codelanguage="PowerShell"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -112,7 +112,7 @@ Get-WmiObject -Class Win32_Process -ComputerName $strComputer -Namespace &quot;r
 <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -134,7 +134,7 @@ Next</code></pre></td>
 <span data-codelanguage="PowerShell"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">

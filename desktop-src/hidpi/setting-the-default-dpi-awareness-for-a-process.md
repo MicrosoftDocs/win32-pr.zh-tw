@@ -8,12 +8,12 @@ ms:contentKeyID: 74520139
 ms.date: 03/30/2018
 ms.topic: article
 mtps_version: v=VS.85
-ms.openlocfilehash: 216952ac05811226c403739d389f8de9f636c3b8
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.openlocfilehash: 52ef4f10ed2f4253c796ae10a57a71d8a7bc4f0d
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122880531"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122465675"
 ---
 # <a name="setting-the-default-dpi-awareness-for-a-process"></a>設定進程的預設 DPI 感知
 
@@ -34,12 +34,12 @@ Windows 上的桌面應用程式可以在不同的 DPI 感知模式下執行。 
 下表說明如何使用兩個資訊清單設定來指定不同的進程預設 DPI 感知模式：
 
 
-| 處理預設的 DPI 感知模式 | &lt;DPIAware &gt; 設定 | &lt;DPIAwareness &gt; 設定 (Windows 10，1607版和更新版本)  | 
+| 處理預設的 DPI 感知模式 | <dpiAware> 設定 | <dpiAwareness>設定 (Windows 10 1607 版和更新版本)  | 
 |------------------------------------|--------------------|--------------------------------------------------------------|
-| 知道 | <p>N/A (資訊清單) 中沒有任何 DPIAware 設定</p><p>或</p><p>&lt;DPIAware &gt; false &lt; /DPIAware&gt;</p> | &lt;DPIAwareness 不 &gt; 知道 &lt; /DPIAwareness&gt; | 
-| 系統感知 | &lt;DPIAware &gt; true &lt; /DPIAware&gt; | &lt;DPIAwareness &gt; 系統 &lt; /DPIAwareness&gt; | 
-| 每個監視器 | &lt;DPIAware &gt; true/pm &lt; DPIAware&gt; | &lt;DPIAwareness &gt; PerMonitor &lt; /DPIAwareness&gt; | 
-| 每個監視器 V2 | 不支援 | &lt;DPIAwareness &gt; PerMonitorV2 &lt; /DPIAwareness&gt; | 
+| 知道 | <p>N/A (資訊清單) 中沒有任何 DPIAware 設定</p><p>或</p><p>&lt;DPIAware &gt; false &lt; /DPIAware&gt;</p> | <dpiAwareness>知道</dpiAwareness> | 
+| 系統感知 | <dpiAware>true</dpiAware> | <dpiAwareness>系統</dpiAwareness> | 
+| 每個監視器 | <dpiAware>true/pm<dpiAware> | <dpiAwareness>PerMonitor</dpiAwareness> | 
+| 每個監視器 V2 | 不支援 | <dpiAwareness>PerMonitorV2</dpiAwareness> | 
 
 
  
