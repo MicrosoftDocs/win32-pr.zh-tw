@@ -3,11 +3,11 @@ title: 對話管理
 description: 本主題討論用戶端與伺服器之間的交談。
 ms.assetid: 4e5ff1a1-d46a-4e2a-a37c-8df951f2a1ee
 keywords:
-- 'Windows 消費者介面，動態資料交換 (DDE) '
+- 'Windows消費者介面，動態資料交換 (DDE) '
 - 動態資料交換 (DDE) 、交談
 - DDE (動態資料交換) 、交談
 - '資料交換、動態資料交換 (DDE) '
-- 'Windows 消費者介面、動態資料交換管理程式庫 (DDEML) '
+- 'Windows消費者介面，動態資料交換管理程式庫 (DDEML) '
 - 動態資料交換管理程式庫 (DDEML) 、交談
 - DDEML (動態資料交換管理程式庫) ，交談
 - '資料交換、動態資料交換管理程式庫 (DDEML) '
@@ -17,12 +17,12 @@ keywords:
 - DDEML (動態資料交換管理程式庫) 、多重對話
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ca1a0a8e02bceb6b2f69051d89df289871fdd42
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1a3531cc396a3b4d0eca5d7c11e3677aec9ea2ee35dcdac110455daee252f798
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106967224"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118991328"
 ---
 # <a name="conversation-management"></a>對話管理
 
@@ -35,7 +35,7 @@ ms.locfileid: "106967224"
 
 ## <a name="single-conversations"></a>單一對話
 
-用戶端應用程式會藉由呼叫 [**DdeConnect**](/windows/desktop/api/Ddeml/nf-ddeml-ddeconnect) 函式並指定字串控制碼來識別包含伺服器應用程式服務名稱的字串，以及交談的主題名稱，要求與伺服器的單一交談。 DDEML 會將 [**XTYP \_ CONNECT**](xtyp-connect.md) 交易傳送至每個伺服器應用程式的動態資料交換 (DDE) 回呼函式，該函式已註冊符合 **DdeConnect** 中指定的服務名稱，或藉由呼叫 [**DdeNameService**](/windows/desktop/api/Ddeml/nf-ddeml-ddenameservice)來關閉服務名稱篩選功能。 伺服器也可以藉由 **在 \_** \_ \_ [**DdeInitialize**](/windows/desktop/api/Ddeml/nf-ddeml-ddeinitializea) 函數中指定 CBF FAIL CONNECTIONS 篩選旗標，來篩選 XTYP CONNECT 交易。 在 **XTYP \_ CONNECT** 交易期間，DDEML 會將服務名稱和主題名稱傳遞至伺服器。 伺服器必須檢查名稱，如果它支援服務名稱和主題名稱組，則傳回 **TRUE** ，否則傳回 **FALSE** 。
+用戶端應用程式會藉由呼叫 [**DdeConnect**](/windows/desktop/api/Ddeml/nf-ddeml-ddeconnect) 函式並指定字串控制碼來識別包含伺服器應用程式服務名稱的字串，以及交談的主題名稱，要求與伺服器的單一交談。 DDEML 會將 [**XTYP \_ CONNECT**](xtyp-connect.md)交易傳送至每個伺服器應用程式的動態資料交換 (DDE) 回呼函式，該函式已註冊符合 **DdeConnect** 中指定的服務名稱，或藉由呼叫 [**DdeNameService**](/windows/desktop/api/Ddeml/nf-ddeml-ddenameservice)來關閉服務名稱篩選功能。 伺服器也可以藉由 **在 \_** \_ \_ [**DdeInitialize**](/windows/desktop/api/Ddeml/nf-ddeml-ddeinitializea) 函數中指定 CBF FAIL CONNECTIONS 篩選旗標，來篩選 XTYP CONNECT 交易。 在 **XTYP \_ CONNECT** 交易期間，DDEML 會將服務名稱和主題名稱傳遞至伺服器。 伺服器必須檢查名稱，如果它支援服務名稱和主題名稱組，則傳回 **TRUE** ，否則傳回 **FALSE** 。
 
 如果沒有伺服器回應用戶端的連線要求，用戶端會從 [**DdeConnect**](/windows/desktop/api/Ddeml/nf-ddeml-ddeconnect)接收 **Null** ，且不會建立任何交談。 如果伺服器傳回 **TRUE**，就會建立交談，且用戶端會收到交談控制碼，此為識別交談的 **DWORD** 值。 用戶端會使用後續 DDEML 呼叫中的控制碼，從伺服器取得資料。 伺服器會接收 [**XTYP \_ CONNECT \_ CONFIRM**](xtyp-connect-confirm.md) 交易 (除非伺服器指定 CBF \_ SKIP \_ connect \_ 確認篩選旗標) 。 此交易會將交談控制碼傳遞至伺服器。
 
@@ -212,9 +212,9 @@ DdeDisconnectList(hconvList);
 
 如果有重複的交談存在， [**DdeConnectList**](/windows/desktop/api/Ddeml/nf-ddeml-ddeconnectlist) 會嘗試避免交談清單中重複的對話控制碼。 重複的對話是與相同服務名稱和主題名稱上相同伺服器的第二個交談。 這兩種交談會有不同的控制碼，但它們會識別相同的交談。
 
- 
+ 
 
- 
+ 
 
 
 

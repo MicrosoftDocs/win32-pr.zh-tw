@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 24cab33d732bd8e148a0cdf9cd281db7a39182f4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f2a9ce067c2c53245184dcb8ed3cfa7b90b05546a27e5e0b91727599f446b958
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990544"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118996698"
 ---
 # <a name="effectscurrentpreset"></a>效果。 currentPreset
 

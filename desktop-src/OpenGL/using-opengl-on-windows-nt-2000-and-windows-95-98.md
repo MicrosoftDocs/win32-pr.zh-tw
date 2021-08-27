@@ -6,16 +6,16 @@ keywords:
 - Windows 上的 OpenGL，關於
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 817f1866c4000ec359f55360cc6369d8cfc8e1ce
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6883ebc03b1354d775f744e8afae5cff353f60fb7a9819573843c98c96de5599
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106991082"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119011906"
 ---
 # <a name="using-opengl-on-windows"></a>在 Windows 上使用 OpenGL
 
-下列主題說明如何使用 Windows 特定的數個功能：
+下列主題說明如何使用 Windows 特有的數個功能：
 
 -   [標頭檔](header-files.md)
 -   [像素格式工作](pixel-format-tasks.md)
@@ -27,11 +27,11 @@ ms.locfileid: "106991082"
 -   [多執行緒 OpenGL 繪圖策略](multithread-opengl-drawing-strategies.md)
 -   [使用輔助資源庫](using-the-auxiliary-library.md)
 
-如需在 Windows 上執行之 OpenGL ES 的詳細資訊，請參閱 [MSOPENTECH 角度](https://github.com/MSOpenTech/angle/wiki)。
+如需在 Windows 上執行之 OpenGL ES 的詳細資訊，請參閱[MSOpenTech 角度](https://github.com/MSOpenTech/angle/wiki)。
 
- 
+ 
 
- 
+ 
 
 
 

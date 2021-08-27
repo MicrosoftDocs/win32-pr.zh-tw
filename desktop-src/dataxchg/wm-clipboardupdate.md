@@ -3,7 +3,7 @@ title: 'WM_CLIPBOARDUPDATE 訊息 (Winuser .h) '
 description: 當剪貼簿的內容變更時傳送。
 ms.assetid: 1508aa22-9cf0-40a2-8cb0-ce7c8671df2c
 keywords:
-- WM_CLIPBOARDUPDATE 訊息資料交換
+- WM_CLIPBOARDUPDATE 訊息資料 Exchange
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 303110f0d094cfed336a9f92006b3720a0ccc83b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d0483ba43b6b0c660daee74637fd9f9ac8d377a16097b5cfd60632c1b691ead7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104087"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118991218"
 ---
 # <a name="wm_clipboardupdate-message"></a>WM \_ CLIPBOARDUPDATE 訊息
 
@@ -64,9 +64,9 @@ ms.locfileid: "104104087"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                                     |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 

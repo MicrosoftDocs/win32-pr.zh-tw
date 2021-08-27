@@ -4,12 +4,12 @@ ms.assetid: 80ccbadc-cc19-48fd-a6a4-301cc214dd99
 title: XPS OM 頁面介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1981ccdd8260973ee76b7323687072140f0eb011
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fcf719f12dbd483fac339da1cacf256593def61e2862e3a73588a14d457c52ad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971728"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118971117"
 ---
 # <a name="xps-om-page-interfaces"></a>XPS OM 頁面介面
 
@@ -19,7 +19,7 @@ ms.locfileid: "106971728"
 
 
 
-| 介面名稱                                                                      | 邏輯子介面                                                                                                                                                                                                                                                                                                                                                                                                                                    | Description                                                                                                                                                                                                                                         |
+| 介面名稱                                                                      | 邏輯子介面                                                                                                                                                                                                                                                                                                                                                                                                                                    | 描述                                                                                                                                                                                                                                         |
 |-------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**IXpsOMPage**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompage)<br/>                                         | [**IXpsOMCanvas**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomcanvas)<br/> [**IXpsOMGlyphs**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomglyphs)<br/> [**IXpsOMPath**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompath)<br/>                                                                                                                                                                                                                                                                                                                 | 頁面內容的根物件。<br/> 此物件代表檔元件。<br/>                                                                                                                                                  |
 | [**IXpsOMVisual**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomvisual)<br/>                                     | [**IXpsOMCanvas**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomcanvas)<br/> [**IXpsOMGlyphs**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomglyphs)<br/> [**IXpsOMPath**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompath)<br/>                                                                                                                                                                                                                                                                                                                 | 介面的基類，定義視覺物件，例如文字和圖形。<br/> 您可以在 [**IXpsOMVisualCollection**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomvisualcollection) 介面中收集視覺物件。<br/>                              |

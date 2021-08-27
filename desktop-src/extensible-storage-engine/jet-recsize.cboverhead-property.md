@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 2e7318428ef4b50a08a05f5021d293ad1d8d78cf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f2f964956741c814fe0a54831f89b43d7a8ca4c521e179028c447f4c0f8843d6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106984160"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118979618"
 ---
 # <a name="jet_recsizecboverhead-property"></a>JET_RECSIZE cbOverhead 屬性
 

@@ -1,30 +1,30 @@
 ---
-title: Windows Media 格式 SDK 的媒體類型
-description: 瞭解 Windows Media Format SDK 可以使用的媒體類型。 媒體類型是指派給 SDK 中常數的 GUID 值。
+title: Windows 媒體格式 SDK 的媒體類型
+description: 瞭解 Windows 媒體格式 SDK 可以使用的媒體類型。 媒體類型是指派給 SDK 中常數的 GUID 值。
 ms.assetid: 00dcbb20-09ed-44c5-992c-20f3d17ad47c
 keywords:
-- Windows Media Format SDK，媒體類型
+- Windows媒體格式 SDK，媒體類型
 - Advanced Systems Format (ASF) 、媒體類型
 - ASF (Advanced 系統格式) 、媒體類型
 - 媒體類型，關於
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1d6d15255ab311c67562a6c9dde83650240b0803
-ms.sourcegitcommit: 0e611cdff84ff9f897c59e4e1d2b2d134bc4e133
+ms.openlocfilehash: 84974391a7e044367fd298598181d43447cfac4bec1829b9e5ddb0b90ae27ea4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "106978549"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119027486"
 ---
-# <a name="media-types-for-windows-media-format-sdk"></a>Windows Media 格式 SDK 的媒體類型
+# <a name="media-types-for-windows-media-format-sdk"></a>Windows 媒體格式 SDK 的媒體類型
 
-媒體類型可識別 Windows Media Format SDK 可以使用的不同類型媒體。 所有媒體類型都是已指派給 SDK 中常數的 GUID 值。 本章節所列的常數所代表的 GUID 值，會列在此參考的 [ [媒體類型識別碼](media-type-identifiers.md) ] 區段中。
+媒體類型會識別 Windows 媒體格式 SDK 可以使用的不同類型媒體。 所有媒體類型都是已指派給 SDK 中常數的 GUID 值。 本章節所列的常數所代表的 GUID 值，會列在此參考的 [ [媒體類型識別碼](media-type-identifiers.md) ] 區段中。
 
-下表列出主要的媒體類型。 這些常數會定義 Windows Media 格式 SDK 所支援之數位媒體的高階分類。
+下表列出主要的媒體類型。 這些常數會定義 Windows 媒體格式 SDK 所支援之數位媒體的高層級分類。
 
 
 
-| 主要類型                | Description                                                                                             |
+| 主要類型                | 描述                                                                                             |
 |---------------------------|---------------------------------------------------------------------------------------------------------|
 | WMMEDIATYPE \_ 影片        | 影片串流。                                                                                         |
 | WMMEDIATYPE \_ 音訊        | 音訊串流。                                                                                        |

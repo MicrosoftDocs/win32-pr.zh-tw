@@ -4,12 +4,12 @@ ms.assetid: 5ad9a171-5f69-4035-aac5-ae8d27d0abfb
 title: Schannel 和 CryptoAPI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0684cd690911444b77ba27d2876e578fd71c73a2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f79a351e1f27a94f5974988b78542401ddda8058804d2ef845cdf0c0da2d85dc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104386073"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118918817"
 ---
 # <a name="schannel-and-cryptoapi"></a>Schannel 和 CryptoAPI
 

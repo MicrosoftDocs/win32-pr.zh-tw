@@ -7,12 +7,12 @@ keywords:
 - Active Directory 範例 Active Directory，移動物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7019904d0de42492b98ddd297ab007a6f4e52f6a
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 1158bfc3fb85712b2ab52b6b69d86c7af52675d210b75b0c9974fc2da6359ae4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104023233"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119025856"
 ---
 # <a name="moving-objects"></a>移動物件
 
@@ -29,6 +29,6 @@ ms.locfileid: "104023233"
 
 如需顯示如何移動物件的詳細資訊和程式碼範例，請參閱 [移動物件的範例程式碼](example-code-for-moving-an-object.md)。
 
- 
+ 
 
- 
+ 

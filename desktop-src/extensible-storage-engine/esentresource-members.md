@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55107302
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: af0f0a4baa76cc702c6f4048e42e9ec78463e5a2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f8ad16ef0fa5a6aac0521a27a1b2817cbd2c3cfd0e25d378265dd1a6032223ef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104559906"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118982028"
 ---
 # <a name="esentresource-members"></a>EsentResource 成員
 

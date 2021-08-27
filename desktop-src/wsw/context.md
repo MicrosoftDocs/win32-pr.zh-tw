@@ -1,21 +1,21 @@
 ---
-title: 'Windows Web 服務的內容 () '
+title: 'Web 服務的內容 (Windows) '
 description: 內容會在服務模型服務作業和回呼中用來將相關的狀態資料傳遞至服務作業或回呼（當叫用時）。
 ms.assetid: 44283854-96df-4e6b-8464-3df685896f07
 keywords:
-- 適用于 Windows 的內容 Web 服務
+- Windows 的內容 Web 服務
 - WWSAPI
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8f7edd1f8c93bbf4fd4b4d5feea5b2219bc522ea
-ms.sourcegitcommit: cba7f424a292fd7f3a8518947b9466439b455419
+ms.openlocfilehash: fd7863f22193dd1496134afff991ff54efbee5026f2a11e52359b2b016c878c0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "103932833"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119026626"
 ---
-# <a name="context-windows-web-services"></a>Windows Web 服務的內容 () 
+# <a name="context-windows-web-services"></a>Web 服務的內容 (Windows) 
 
 內容會在服務模型 [服務作業](service-operation.md) 和回呼中用來將相關的狀態資料傳遞至服務作業或回呼（當叫用時）。 內容是由 [WS \_ 操作 \_ 內容](ws-operation-context.md) 結構所參考。 您可以使用 [**WsGetOperationCoNtextProperty**](/windows/desktop/api/WebServices/nf-webservices-wsgetoperationcontextproperty) 函數來抓取內容的屬性，如下列程式碼所示。
 
@@ -45,9 +45,9 @@ HRESULT hr = WsGetOperationContextProperty (
 
 -   [WS \_ 操作 \_ 內容](ws-operation-context.md)
 
- 
+ 
 
- 
+ 
 
 
 

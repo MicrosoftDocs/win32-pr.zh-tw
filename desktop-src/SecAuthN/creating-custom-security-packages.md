@@ -4,12 +4,12 @@ ms.assetid: af8b9796-77e7-43c1-8f8e-acee01a62bf9
 title: 建立自訂安全性套件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d2136775d18e9d33f59d1b1f44fd817b3f3271ad
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 88093ba7faed1ac2287c2a54391015984e83d4ad3878a60453978a9924706f2b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103849900"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119008846"
 ---
 # <a name="creating-custom-security-packages"></a>建立自訂安全性套件
 

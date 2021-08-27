@@ -1,6 +1,6 @@
 ---
 title: " (Fwpmu) 存取右邊識別碼"
-description: Windows 篩選平台 (WFP) 使用標準的 Win32 存取權限，以及一組在篩選平臺內建的 WFP 特定存取權限。
+description: Windows篩選 Platform (WFP) 使用標準的 Win32 存取權限，以及一組在篩選平臺內建的 WFP 特定存取權限。
 ms.assetid: 77f0a1ac-3e99-4cba-a7c6-b8747f35cd0c
 topic_type:
 - apiref
@@ -26,16 +26,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8af182a087ade590e278bd3dd1d2bb1a64b5c598
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6deee82b792f525814ac4c841da8a848e4f7b978720755c82f93a9569ba21ca7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103935047"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118951376"
 ---
 # <a name="access-right-identifiers"></a>存取正確的識別碼
 
-Windows 篩選平台 (WFP) 使用 [標準的 Win32 存取權限](/windows/desktop/SecAuthZ/standard-access-rights) ，以及一組在篩選平臺內建的 WFP 特定存取權限。 只有在使用者模式下，才會使用這些存取權限來保護物件的安全。 核心模式呼叫端略過所有存取檢查。
+Windows篩選 Platform (WFP) 使用[標準的 Win32 存取權限](/windows/desktop/SecAuthZ/standard-access-rights)，以及一組在篩選平臺內建的 WFP 特定存取權限。 只有在使用者模式下，才會使用這些存取權限來保護物件的安全。 核心模式呼叫端略過所有存取檢查。
 
 WFP 特定的存取權限識別碼如下所示。
 
@@ -197,8 +197,8 @@ WFP 特定的存取權限識別碼如下所示。
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                     |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                               |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                     |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                               |
 | 標頭<br/>                   | <dl> <dt>Fwpmu。h</dt> </dl> |
 
 
@@ -207,7 +207,7 @@ WFP 特定的存取權限識別碼如下所示。
 
 <dl> <dt>
 
-[Windows 篩選平台存取控制模型](access-control.md)
+[Windows篩選平臺存取控制模型](access-control.md)
 </dt> <dt>
 
 [標準存取權限](/windows/desktop/SecAuthZ/standard-access-rights)

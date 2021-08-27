@@ -4,12 +4,12 @@ description: IDL 介面標頭會指定整個介面的相關資訊。 不同于 A
 ms.assetid: 667e5228-3ea7-4910-90b9-999e6fd705e9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8abce6204fdc09ed74a63a85e9366125dbef8e35
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 33c176078c370819331405b070ffa832384584a944b65fae771b9a2044a178e0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104093240"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118924267"
 ---
 # <a name="the-idl-interface-header"></a>IDL 介面標頭
 
@@ -34,6 +34,6 @@ interface INTERFACENAME
 
 如需 IDL 標頭屬性的完整討論，請參閱 [MIDL 語言參考](/windows/desktop/Midl/midl-language-reference)。
 
- 
+ 
 
- 
+ 

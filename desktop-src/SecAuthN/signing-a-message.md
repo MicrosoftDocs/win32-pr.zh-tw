@@ -4,12 +4,12 @@ ms.assetid: a65054bd-31cb-4842-af59-82cfe799fb70
 title: 簽署訊息
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 36f8151a66120575bfcaeda62955a7f6aa47e8e5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b605ccaaa4adfe37dc2bbe5f5c0ed809f0656896e5e85478b0b63740bf6f63e8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106988936"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118918047"
 ---
 # <a name="signing-a-message"></a>簽署訊息
 
@@ -17,7 +17,7 @@ ms.locfileid: "106988936"
 
 下列範例顯示用戶端產生簽署的訊息，以傳送至伺服器。 在呼叫 [**MakeSignature**](/windows/desktop/api/Sspi/nf-sspi-makesignature)之前，用戶端會使用 [**SecPkgCoNtext \_ 大小**](/windows/desktop/api/Sspi/ns-sspi-secpkgcontext_sizes)結構來呼叫 [**QueryCoNtextAttributes (一般)**](/windows/win32/api/sspi/nf-sspi-querycontextattributesa) ，以決定保存訊息簽章所需的緩衝區長度。 如果 **cbMaxSignature** 成員為零，則 [*安全性封裝*](../secgloss/s-gly.md) 不支援簽章訊息。 否則，此成員會指出要配置以接收簽章的緩衝區大小。
 
-此範例假設名為 *phCoNtext* 的 **SecHandle** 變數和名為 *s* 的 **通訊端** 結構已初始化。 如需這些變數的宣告和連線，請參閱搭配 [使用 sspi 與 Windows 通訊端用戶端](using-sspi-with-a-windows-sockets-client.md) ，以及搭配 [Windows 通訊端伺服器使用 sspi](using-sspi-with-a-windows-sockets-server.md)。 此範例包含 Secur32 中的函式呼叫，這些函數必須包含在程式庫中。
+此範例假設名為 *phCoNtext* 的 **SecHandle** 變數和名為 *s* 的 **通訊端** 結構已初始化。 如需這些變數的宣告和連線，請參閱搭配使用[sspi 與 Windows 通訊端用戶端](using-sspi-with-a-windows-sockets-client.md)，以及搭配[Windows 通訊端伺服器使用 sspi](using-sspi-with-a-windows-sockets-server.md)。 此範例包含 Secur32 中的函式呼叫，這些函數必須包含在程式庫中。
 
 
 ```C++

@@ -4,12 +4,12 @@ ms.assetid: a6d3a884-f181-46a5-b655-226c68792e08
 title: 登錄元素大小限制
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 262609a64e60536dcfc41f29e5d94ea499158861
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5c76a11abc80f80a13e0643d7745d211168ecba8bcf06446af9ac842f8351567
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106974717"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118885231"
 ---
 # <a name="registry-element-size-limits"></a>登錄元素大小限制
 
@@ -20,7 +20,7 @@ ms.locfileid: "106974717"
 | Registry 元素 | 大小限制                                                                                                                                            |
 |------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 索引鍵名稱         | 255個字元。 索引鍵名稱包含登錄中金鑰的絕對路徑，一律是從基本金鑰開始，例如 HKEY \_ 本機 \_ 電腦。 |
-| 值名稱       | 16383字元 **Windows 2000：** 260 ANSI 字元或 16383 Unicode 字元。<br/>                                                       |
+| 值名稱       | 16383個字元 **Windows 2000：** 260 ANSI 字元或 16383 Unicode 字元。<br/>                                                       |
 | 值            |  (最新格式的可用記憶體) 1 MB (標準格式) <br/>                                                                                     |
 | 樹狀結構             | 登錄樹狀目錄可以是深512層級。 您可以透過單一登入 API 呼叫，一次最多建立32個層級。                                  |
 

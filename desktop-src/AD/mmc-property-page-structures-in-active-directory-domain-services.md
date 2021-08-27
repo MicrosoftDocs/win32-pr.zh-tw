@@ -7,12 +7,12 @@ keywords:
 - Active Directory MMC 屬性頁面結構 Active Directory
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f8356bb01c2ba317fc25a6cf283da1f16d38d5a5
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: bb39624dfe36eeae90319e9a0a28ed0f150bde6899a670c26ece90078f1acf4f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671267"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119025906"
 ---
 # <a name="mmc-property-page-structures-in-active-directory-domain-services"></a>Active Directory Domain Services 中的 MMC 屬性頁面結構
 
@@ -21,9 +21,9 @@ Active Directory 管理員 MMC 嵌入式管理單元會使用屬性工作表，�
 -   [**ADSPROPERROR**](/windows/desktop/api/Adsprop/ns-adsprop-adsproperror)
 -   [**ADSPROPINITPARAMS**](/windows/desktop/api/Adsprop/ns-adsprop-adspropinitparams)
 
- 
+ 
 
- 
+ 
 
 
 

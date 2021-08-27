@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.inst
 ms:contentKeyID: 55103292
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 2828d4ec20ce74fd86cc325c459e69aa1eec1506
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0e663ffb93c37aac026c11f0c9eb540f3932abe534f46235237ad30dc74ad9dc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193845"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118980578"
 ---
 # <a name="instance-methods"></a>執行個體方法
 

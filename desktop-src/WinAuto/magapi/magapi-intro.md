@@ -12,12 +12,12 @@ keywords:
 - 選擇性放大
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 16d66595cc2f5fdd8402ecd9d525e6deb1d07078
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 9bb908623d6d6419925801119369f4f660110e680dd2499a1d61caa4c0c05de4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106966042"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119052588"
 ---
 # <a name="magnification-api-overview"></a>放大 API 總覽
 
@@ -44,7 +44,7 @@ ms.locfileid: "106966042"
 
 ## <a name="getting-started"></a>開始使用
 
-Windows Vista 和更新版本的作業系統支援放大 API 的原始版本。 在 Windows 8 和更新版本上，API 支援其他功能，包括全螢幕縮放比例，以及設定放大的系統游標可見度。
+Windows Vista 和更新版本的作業系統上，支援放大 API 的原始版本。 在 Windows 8 和更新版本上，API 支援其他功能，包括全螢幕縮放比例，以及設定放大的系統游標可見度。
 
 放大 API 的支援是由 Magnification.dll 提供。 若要編譯您的應用程式，請包含放大和連結至放大程式庫。
 
@@ -68,7 +68,7 @@ Windows Vista 和更新版本的作業系統支援放大 API 的原始版本。 
 此 API 支援兩種類型的放大鏡，也就是 *全螢幕放大鏡* 和 *放大鏡控制項*。 全螢幕放大鏡會放大整個畫面的內容，而放大鏡控制項會放大螢幕上特定區域的內容，並在視窗中顯示內容。 針對這兩種放大鏡，影像和文字都會放大，而且兩者都可讓您控制縮放量。 您也可以將色彩效果套用至放大的螢幕內容，以便更輕鬆地查看具有色彩缺陷的人員，或需要色彩有更多或更少對比的人員。
 
 > [!Important]  
-> 放大鏡控制項 API 適用于 Windows Vista 和更新版本的作業系統，而全螢幕放大鏡 API 僅適用于 Windows 8 和更新版本的作業系統。
+> 放大鏡控制項 api 適用于 Windows Vista 和更新版本的作業系統，而全螢幕放大鏡 api 僅適用于 Windows 8 和更新版本的作業系統。
 
 ### <a name="magnification-factor"></a>放大因數
 
@@ -76,7 +76,7 @@ Windows Vista 和更新版本的作業系統支援放大 API 的原始版本。 
 
 ### <a name="color-effects"></a>色彩效果
 
-色彩效果的達成方式是將5到5的色彩轉換矩陣套用至放大螢幕內容的色彩。 矩陣會決定內容之紅色、藍色、綠色和 Alpha 元件的濃度。 如需詳細資訊，請參閱在 Windows GDI + 檔中 [使用色彩矩陣轉換單一色彩](../../gdiplus/-gdiplus-using-a-color-matrix-to-transform-a-single-color-use.md) 。
+色彩效果的達成方式是將5到5的色彩轉換矩陣套用至放大螢幕內容的色彩。 矩陣會決定內容之紅色、藍色、綠色和 Alpha 元件的濃度。 如需詳細資訊，請參閱 Windows GDI+ 檔中的[使用色彩矩陣轉換單一色彩](../../gdiplus/-gdiplus-using-a-color-matrix-to-transform-a-single-color-use.md)。
 
 ### <a name="source-rectangle"></a>來源矩形
 
@@ -381,7 +381,7 @@ BOOL ConvertToGrayscale(HWND hwndMag, BOOL fConvert)
 }
 ```
 
-如需色彩轉換如何運作的詳細資訊，請參閱在 GDI + 檔中 [使用色彩矩陣轉換單一色彩](../../gdiplus/-gdiplus-using-a-color-matrix-to-transform-a-single-color-use.md) 。
+如需色彩轉換如何運作的詳細資訊，請參閱 GDI+ 檔中的[使用色彩矩陣轉換單一色彩](../../gdiplus/-gdiplus-using-a-color-matrix-to-transform-a-single-color-use.md)。
 
 ### <a name="selective-magnification"></a>選擇性放大
 

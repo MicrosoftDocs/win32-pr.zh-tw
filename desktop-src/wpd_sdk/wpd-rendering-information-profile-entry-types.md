@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - PortableDevice.h
-ms.openlocfilehash: 09cbc47db44fb948c46a4917b1eda989a5791439
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5c6fbee28670f63240bd1cb5273a4c97d855bdd0154576793b5d1865a1fcfbab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106982550"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119026736"
 ---
 # <a name="wpd_rendering_information_profile_entry_types-enumeration"></a>WPD \_ 轉譯 \_ 資訊 \_ 設定檔 \_ 專案 \_ 類型列舉
 

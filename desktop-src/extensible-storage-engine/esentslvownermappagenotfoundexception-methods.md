@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102793
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: bf3f15583e624cc42dfd5b54547831a653dbd8e4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d84f88bace28ea29d89eefee6128ac6993ba9fdfdb428cad2fecfa529b2f5a49
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319368"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118981230"
 ---
 # <a name="esentslvownermappagenotfoundexception-methods"></a>EsentSLVOwnerMapPageNotFoundException 方法
 

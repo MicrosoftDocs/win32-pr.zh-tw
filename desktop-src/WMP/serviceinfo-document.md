@@ -10,12 +10,12 @@ keywords:
 - ServiceInfo 檔
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 539c4e1a58e5dbf88e1fc79909791a7dab767ef1
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 88863bb75cd0a7b85bead1c20759b77710c2db483b4d9e48ed1f53741dd0840d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021097"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118995418"
 ---
 # <a name="serviceinfo-document"></a>ServiceInfo 檔
 
@@ -35,13 +35,13 @@ Windows Media Player 線上商店支援下列元素及其屬性。
 | [AlbumInfo](albuminfo-element.md)           | 指定當使用者選擇要查看特定媒體專案的詳細資訊時，Windows Media Player 顯示之網頁的 URL。類型1：選擇性<br/> 類型2音樂：必要<br/> 類型2商務：已忽略<br/>                                |
 | [ButtonText](buttontext-element.md)         | 指定 Windows Media Player 針對工作窗格按鈕顯示的文字字串。類型1：必要<br/> 類型2音樂：必要<br/> 類型2商務：必要<br/>                                                                                             |
 | [ButtonTip](buttontip-element.md)           | 指定當使用者指向工作窗格按鈕時所顯示的工具提示。類型1：選擇性<br/> 類型2音樂：選擇性<br/> 類型2商務：選擇性<br/>                                                                                         |
-| [BuyCD](buycd-element.md)                   | 指定當使用者選擇進行購買時，Windows Media Player 顯示的網頁 Url。類型1：必要<br/> 類型2音樂：必要<br/> 類型2商務：已忽略<br/>                                                                      |
+| [BuyCD](buycd-element.md)                   | 指定當使用者選擇進行購買時，Windows Media Player 顯示的網頁 url。類型1：必要<br/> 類型2音樂：必要<br/> 類型2商務：已忽略<br/>                                                                      |
 | [色彩](color-element.md)                   | 指定線上商店導覽按鈕的背景色彩。類型1：選擇性<br/> 類型2音樂：選擇性<br/> 類型2商務：選擇性<br/>                                                                                                             |
 | [說明](description-element.md)       | 指定在安裝 Windows Media Player 的第一次體驗期間顯示的線上商店描述。 需要 Windows Media Player 11。類型1：必要<br/> 類型2音樂：選擇性<br/> 類型2商務：選擇性<br/> |
 | [DownloadStatus](downloadstatus-element.md) | 指定 Windows Media Player 顯示為連結的 URL，讓使用者能夠查看下載狀態。類型1：已忽略<br/> 類型2音樂：選擇性<br/> 類型2商務：選擇性<br/>                                                                         |
 | [FriendlyName](friendlyname-element.md)     | 指定 Windows Media Player 顯示給使用者以識別線上商店的文字字串。類型1：必要<br/> 類型2音樂：必要<br/> 類型2商務：必要<br/>                                                                           |
 | [HTMLView](htmlview-element.md)             | 指定 HTMLView 網頁的基底 URL。類型1：選擇性<br/> 類型2音樂：選擇性<br/> 類型2商務：選擇性<br/>                                                                                                                                   |
-| [影像](image-element.md)                   | 指定 Windows Media Player 顯示給使用者以代表線上商店的影像。類型1：必要<br/> 類型2音樂：選擇性<br/> 類型2商務：選擇性<br/>                                                                               |
+| [映像](image-element.md)                   | 指定 Windows Media Player 顯示給使用者以代表線上商店的影像。類型1：必要<br/> 類型2音樂：選擇性<br/> 類型2商務：選擇性<br/>                                                                               |
 | [資訊中心](infocenter-element.md)         | 指定當線上商店為使用中狀態時，Windows Media Player 顯示在 [資訊中心] 視圖功能 **中的網頁** URL。類型1：必要<br/> 類型2音樂：必要<br/> 類型2商務：已忽略<br/>                           |
 | [安裝](install-element.md)               | 指定 Windows Media Player 安裝程式用來安裝預設線上存放區的值。類型1：必要<br/> 類型2音樂：選擇性<br/> 類型2商務：已忽略<br/>                                                                                          |
 | [導航](navigate-element.md)             | 指定呼叫 **外部. NavigateTaskPaneURL** 所使用的基底 URL。類型1：選擇性<br/> 類型2音樂：選擇性<br/> 類型2商務：選擇性<br/>                                                                                                          |

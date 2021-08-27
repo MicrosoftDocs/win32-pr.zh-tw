@@ -1,17 +1,17 @@
 ---
 description: 雖然應用程式可以儲存在登錄中的資料類型和大小有幾種技術限制，但是有一些實用的方針可以提升系統效率。
 ms.assetid: fa85ff87-3d72-4f71-856a-f43df7d19aa8
-title: 登錄儲存空間
+title: 登錄儲存體空間
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 90b776498528d6c7deaacd92f9e010758b5d57c0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d00414edbd34452fd6943a4d73a2ebe85af5d38884ddd0ca77f1d8fb41ae6e0c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106993186"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118885076"
 ---
-# <a name="registry-storage-space"></a>登錄儲存空間
+# <a name="registry-storage-space"></a>登錄儲存體空間
 
 雖然應用程式可以儲存在登錄中的資料類型和大小有幾種技術限制，但是有一些實用的方針可以提升系統效率。 應用程式應該將設定和初始化資料儲存在登錄中，並將其他類型的資料儲存在其他位置。
 
@@ -21,19 +21,19 @@ ms.locfileid: "106993186"
 
 登錄檔的視圖會在分頁集區記憶體中對應。
 
-適用于32位的 **Windows Server 2008、Windows vista （含 SP1），適用于32位、Windows vista、Windows Server 2003、WINDOWS XP：** 登錄檔的視圖會對應到電腦快取位址空間中。 因此，無論登錄資料的大小為何，都不會向 (MB) 收取超過 4 mb 的費用。
+**Windows server 2008 （適用于32位）、Windows vista （含 SP1），適用于32位、Windows vista、Windows Server 2003、Windows XP：** 登錄檔的視圖會對應到電腦快取位址空間中。 因此，無論登錄資料的大小為何，都不會向 (MB) 收取超過 4 mb 的費用。
 
 登錄 hive 的大小上限為 2 GB，但系統 hive 除外。
 
-**Windows server 2003 （含 SP1）、Windows server 2003 和 WINDOWS XP：** 分頁集區記憶體和磁碟空間中的 hive 可能會耗用的總空間量沒有明確的限制，不過系統配額可能會影響實際的大小上限。 從 Windows Server 2003 （含 Service Pack 2） (SP2) 開始，登錄區的大小上限限制為 2 GB。
+**Windows server 2003 SP1、Windows Server 2003 和 Windows XP：** 分頁集區記憶體和磁碟空間中的 hive 可能會耗用的總空間量沒有明確的限制，不過系統配額可能會影響實際的大小上限。 從 Windows Server 2003 Service Pack 2 (SP2) 開始，登錄區的大小上限限制為 2 GB。
 
 系統 hive 的大小上限會受到實體記憶體的限制，如下表所示。 
 
 | 系統                      | 系統 hive 的大小上限                                                                                                                                                                                                            |
 |-----------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| x86 系統           | 50% 的實體記憶體，最高 400 MB。**Windows server 2003 SP2、Windows server 2003 SP1、Windows server 2003 和 WINDOWS XP：** 25% 的實體記憶體，最多可達 200 MB。<br/>                                    |
-| x64 型系統           | 50% 的實體記憶體，最高 1.5 GB。**Windows Server 2003 SP2：** 系統記憶體的25%，最多 200 MB。<br/> **Windows server 2003 （含 SP1）、Windows server 2003 和 WINDOWS XP 64-Bit Edition：** 32 MB。<br/> |
-| Intel Itanium 型系統 | 50% 的實體記憶體，最多 1 GB。**Windows server 2008、Windows Vista、Windows server 2003 SP2、Windows server 2003 SP1、Windows server 2003 和 WINDOWS XP 64-Bit Edition：** 32 MB。<br/>                         |
+| x86 系統           | 50% 的實體記憶體，最高 400 MB。**Windows server 2003 SP2、Windows Server 2003 SP1、Windows server 2003 和 Windows XP：** 25% 的實體記憶體，最高達 200 MB。<br/>                                    |
+| x64 型系統           | 50% 的實體記憶體，最高 1.5 GB。**Windows Server 2003 SP2：** 系統記憶體的25%，最多 200 MB。<br/> **Windows server 2003 （含 SP1）、Windows Server 2003 和 Windows XP 64-Bit Edition：** 32 MB。<br/> |
+| Intel Itanium 型系統 | 50% 的實體記憶體，最多 1 GB。**Windows server 2008、Windows Vista、Windows server 2003 SP2、Windows server 2003 SP1、Windows server 2003 和 Windows XP 64-Bit Edition：** 32 MB。<br/>                         |
 
 
 

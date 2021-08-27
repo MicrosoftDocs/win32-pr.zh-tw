@@ -4,12 +4,12 @@ description: 此區段包含 WinINet 函式所使用的控制碼和其運作階�
 ms.assetid: 8a9788ed-eb25-42cb-b912-8dffa3df1850
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ba70d2fadbd0d8393685fec2075ebf0dc4aa11c2
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 7477558887ac484ec0c3645d568bc3d91d29926af887ebadc51cf7e9523da787
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104463560"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119051900"
 ---
 # <a name="hinternet-handles"></a>HINTERNET 控制碼
 
@@ -30,7 +30,7 @@ WinINet 函數所建立和使用的控制碼為 **HINTERNET** 類型。 WinINet 
 
 **HINTERNET** 控制碼會在樹狀結構階層中進行維護。 [**InternetOpen**](/windows/desktop/api/Wininet/nf-wininet-internetopena)函式所傳回的控制碼是根節點。 [**InternetConnect**](/windows/desktop/api/Wininet/nf-wininet-internetconnecta)函式所傳回的控制碼佔用了下一個層級。 [**FtpOpenFile**](/windows/desktop/api/Wininet/nf-wininet-ftpopenfilea)、 [**FtpFindFirstFile**](/windows/desktop/api/Wininet/nf-wininet-ftpfindfirstfilea)和 [**HttpOpenRequest**](/windows/desktop/api/Wininet/nf-wininet-httpopenrequesta)函數所傳回的控制碼是分葉節點。
 
-**WINDOWS XP 和 Windows Server 2003 R2 和更早版本：** 、 [**GopherOpenFile**](/windows/desktop/api/Wininet/nf-wininet-gopheropenfilea)和 [**GopherFindFirstFile**](/windows/desktop/api/Wininet/nf-wininet-gopherfindfirstfilea) 所傳回的控制碼也是分葉節點。
+**Windows XP 和 Windows Server 2003 R2 和更早版本：**、 [**GopherOpenFile**](/windows/desktop/api/Wininet/nf-wininet-gopheropenfilea)和 [**GopherFindFirstFile**](/windows/desktop/api/Wininet/nf-wininet-gopherfindfirstfilea)所傳回的控制碼也是分葉節點。
 
 下圖說明 **HINTERNET** 控制碼的階層架構。 圖中的每個方塊都代表會傳回 **HINTERNET** 控制碼的函式。
 
@@ -77,10 +77,10 @@ WinINet 函數所建立和使用的控制碼為 **HINTERNET** 類型。 WinINet 
 在 [**HttpSendRequestEx**](/windows/desktop/api/Wininet/nf-wininet-httpsendrequestexa) 使用 [**HttpOpenRequest**](/windows/desktop/api/Wininet/nf-wininet-httpopenrequesta)所傳回的控制碼之後， [**HttpEndRequest**](/windows/desktop/api/Wininet/nf-wininet-httpendrequesta)、 [**InternetReadFileEx**](/windows/desktop/api/Wininet/nf-wininet-internetreadfileexa)和 [**InternetWriteFile**](/windows/desktop/api/Wininet/nf-wininet-internetwritefile)可以使用此控制碼。 呼叫 [**HttpEndRequest**](/windows/desktop/api/Wininet/nf-wininet-httpendrequesta) 之後， [**InternetReadFile**](/windows/desktop/api/Wininet/nf-wininet-internetreadfile)、 [**InternetSetFilePointer**](/windows/desktop/api/Wininet/nf-wininet-internetsetfilepointer)和 [**InternetQueryDataAvailable**](/windows/desktop/api/Wininet/nf-wininet-internetquerydataavailable)可以使用此控制碼。
 
 > [!Note]  
-> WinINet 不支援伺服器實施。 此外，它不應該從服務使用。 針對伺服器執行或服務，請使用 [Microsoft WINDOWS HTTP services (WinHTTP) ](/windows/desktop/WinHttp/winhttp-start-page)。
+> WinINet 不支援伺服器實施。 此外，它不應該從服務使用。 若為伺服器執行或服務，請使用[Microsoft Windows HTTP 服務 (WinHTTP) ](/windows/desktop/WinHttp/winhttp-start-page)。
 
- 
+ 
 
- 
+ 
 
- 
+ 

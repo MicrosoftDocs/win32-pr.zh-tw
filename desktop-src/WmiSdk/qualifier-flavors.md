@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 限定詞類別
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ec8ddf6c2daea59931e533174c532e3d07b147a4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a48c5ed3c7b695b19c182bcf05a9ce55b31b0bb94081570c58c8d55f7e48994c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106991931"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119050476"
 ---
 # <a name="qualifier-flavors"></a>限定詞類別
 

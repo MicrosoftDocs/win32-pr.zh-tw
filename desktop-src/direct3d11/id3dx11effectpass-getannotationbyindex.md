@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: afd43a52758e82434a0e0a4161484ea0d4dcc611
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 50cb2f1df512f8726874896b7cb7c2948b6dd33b672a66f7670b75d5520cb6af
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104974669"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119046036"
 ---
 # <a name="id3dx11effectpassgetannotationbyindex-method"></a>ID3DX11EffectPass：： GetAnnotationByIndex 方法
 

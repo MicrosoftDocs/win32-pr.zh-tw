@@ -3,7 +3,7 @@ title: 'LVM_DELETEALLITEMS 訊息 (Commctrl .h) '
 description: 移除清單視圖控制項中的所有專案。 您可以明確地傳送此訊息，或使用 ListView \_ DeleteAllItems 宏來傳送。
 ms.assetid: 816bf565-79e9-4f5d-b5b4-5cdecce8a61c
 keywords:
-- LVM_DELETEALLITEMS message Windows 控制項
+- LVM_DELETEALLITEMS 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6e92344e3cccf7578b8953206a9550022f6c6095
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c81d2911caee047b63c4a637b6996bc90096e56d337f068beb73fe0fb42b4579
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464297"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118958407"
 ---
 # <a name="lvm_deleteallitems-message"></a>LVM \_ DELETEALLITEMS 訊息
 
@@ -49,8 +49,8 @@ ms.locfileid: "104464297"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

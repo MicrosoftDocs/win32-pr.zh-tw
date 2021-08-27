@@ -12,12 +12,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
 api_location: ''
-ms.openlocfilehash: 8c93b55bc2093232b3128c78f05b8bc9cb5611f1
-ms.sourcegitcommit: 476861130ea63675206d1f06e517059705b930ed
+ms.openlocfilehash: f1723b428994a62040939b390fcbd0f205cc38b40c3e0341d3a7bc6966ba6d99
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "104507665"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118791210"
 ---
 # <a name="rwbyteaddressbufferload3-methods"></a>RWByteAddressBuffer：： Load3 方法
 

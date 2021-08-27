@@ -4,12 +4,12 @@ ms.assetid: 1cf7dc38-185a-4cc4-8f4c-44b6af4c5f4a
 title: 將使用者帳戶或群組指派給角色
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d53b37c9f0265e02c7abdf74eeaf81bd0b12e3d8
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: fa0d2883f9aedb5f3a0edf5dc33de54a03767e53a48f2dd8b9b6ea86c3a6211f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972564"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119047666"
 ---
 # <a name="assigning-a-user-account-or-group-to-a-role"></a>將使用者帳戶或群組指派給角色
 

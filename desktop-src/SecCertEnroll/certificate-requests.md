@@ -4,12 +4,12 @@ ms.assetid: 218eafb9-c9c8-49ff-8288-3909ed708ffc
 title: 憑證要求
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9690f3a5117abfa0ae262f0a8fa38f68528abf02
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e39125774584d127e40b16dbb2adca563d8c341b79454235163be30edc865b22
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974080"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118902410"
 ---
 # <a name="certificate-requests"></a>憑證要求
 

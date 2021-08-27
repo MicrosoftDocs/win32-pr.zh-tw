@@ -75,12 +75,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: e93ae76ae3c4880c7ad041e6e90d39f1b22820d3
-ms.sourcegitcommit: 88049609e29f91a42442235885abf56f598b06b3
+ms.openlocfilehash: aab5f52a3e8dbb910227eb91eb34c7d562a26ad7915f0d61b25d46c825c101a1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "110153571"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118958927"
 ---
 # <a name="win32_networkadapterconfiguration-class"></a>Win32 \_ >networkadapterconfiguration 類別
 
@@ -199,8 +199,8 @@ class Win32_NetworkAdapterConfiguration : CIM_Setting
 | [**SetIGMPLevel**](setigmplevel-method-in-class-win32-networkadapterconfiguration.md)                                       | 設定系統支援 IP 多播並參與網際網路群組管理通訊協定的範圍。<br/>                   |
 | [**SetIPConnectionMetric**](setipconnectionmetric-method-in-class-win32-networkadapterconfiguration.md)                     | 設定與此 IP 系結介面卡相關聯的路由度量。<br/>                                                                             |
 | [**SetIPUseZeroBroadcast**](setipusezerobroadcast-method-in-class-win32-networkadapterconfiguration.md)                     | 設定 IP 零廣播使用方式。<br/>                                                                                                              |
-| [**SetIPXFrameTypeNetworkPairs**](win32-networkadapterconfiguration-setipxframetypenetworkpairs.md)                         | 為此網路介面卡) 網路編號/框架組，設定網路封包交換 (。<br/>                                            |
-| [**SetIPXVirtualNetworkNumber**](win32-networkadapterconfiguration-setipxvirtualnetworknumber.md)                           | 設定目的電腦系統上的封包交換 (IPX) 虛擬網路編號。<br/>                                       |
+| [**SetIPXFrameTypeNetworkPairs**](win32-networkadapterconfiguration-setipxframetypenetworkpairs.md)                         | 為此網路介面卡設定網路封包 Exchange (IPX) 網路編號/畫面格配對。<br/>                                            |
+| [**SetIPXVirtualNetworkNumber**](win32-networkadapterconfiguration-setipxvirtualnetworknumber.md)                           | 設定目的電腦系統上的封包 Exchange (IPX) 虛擬網路編號。<br/>                                       |
 | [**SetKeepAliveInterval**](setkeepaliveinterval-method-in-class-win32-networkadapterconfiguration.md)                       | 設定分隔保持運作的間隔，直到收到回應為止。<br/>                                                      |
 | [**SetKeepAliveTime**](setkeepalivetime-method-in-class-win32-networkadapterconfiguration.md)                               | 藉由傳送 Keep-alive 封包，設定 TCP 嘗試驗證閒置連線是否仍可供使用的頻率。<br/>                           |
 | [**SetMTU**](setmtu-method-in-class-win32-networkadapterconfiguration.md)                                                   | 設定網路介面 (MTU) 的預設最大傳輸單位。<br/> 不支援這個方法。<br/>                         |
@@ -213,7 +213,7 @@ class Win32_NetworkAdapterConfiguration : CIM_Setting
 | [**SetTcpNumConnections**](settcpnumconnections-method-in-class-win32-networkadapterconfiguration.md)                       | 設定 TCP 可能同時開啟的最大連接數目。<br/>                                                              |
 | [**SetTcpUseRFC1122UrgentPointer**](settcpuserfc1122urgentpointer-method-in-class-win32-networkadapterconfiguration.md)     | 指定 TCP 是否使用緊急資料的 RFC 1122 規格，或 Berkeley Software Design (BSD) 衍生系統所使用的模式。<br/> |
 | [**SetTcpWindowSize**](settcpwindowsize-method-in-class-win32-networkadapterconfiguration.md)                               | 設定系統提供的 TCP 接收視窗大小上限。<br/>                                                                            |
-| [**SetWINSServer**](setwinsserver-method-in-class-win32-networkadapterconfiguration.md)                                     | 設定此 TCP/IP 系結網路介面卡上 (WINS) 伺服器的主要和次要 Windows 網際網路命名服務。<br/>                        |
+| [**SetWINSServer**](setwinsserver-method-in-class-win32-networkadapterconfiguration.md)                                     | 在此 tcp/ip 系結的網路介面卡上，將主要和次要 Windows 網際網路命名服務 (WINS) 伺服器。<br/>                        |
 
 
 
@@ -287,7 +287,7 @@ class Win32_NetworkAdapterConfiguration : CIM_Setting
 限定詞： [**MappingStrings**](../wmisdk/standard-qualifiers.md) ( "Win32Registry \| SYSTEM \\ \\ CurrentControlSet \\ \\ Services \\ \\ Tcpip \\ \\ Parameters \| DatabasePath" ) 
 </dt> </dl>
 
-)  (主機、LMHOSTS、網路和通訊協定的標準網際網路資料庫檔案的 Windows 檔案路徑有效。 Windows 通訊端介面使用檔案路徑。
+適用于標準網際網路資料庫檔案的有效 Windows 檔案路徑 (主機、LMHOSTS、網路和通訊協定) 。 Windows 通訊端介面使用檔案路徑。
 
 </dd> <dt>
 
@@ -490,7 +490,7 @@ DNS 網域尾碼的陣列，要在名稱解析期間附加至主機名稱的結�
 限定詞： [**MappingStrings**](../wmisdk/standard-qualifiers.md) ( "Win32Registry \| SYSTEM \\ \\ CurrentControlSet \\ \\ Services \\ \\ Tcpip \\ \\ Parameters \| EnableDNS" ) 
 </dt> </dl>
 
-若 **為 TRUE**，則會啟用透過 Windows 網際網路進行名稱解析的網域名稱系統 (DNS) 命名服務 (WINS) 解決方案。 如果無法使用 DNS 來解析名稱，則會將名稱要求轉送至 WINS 以進行解析。
+若 **為 TRUE**，則會啟用網域名稱系統 (DNS) 透過 Windows 網際網路命名服務 (WINS) 解析來進行名稱解析。 如果無法使用 DNS 來解析名稱，則會將名稱要求轉送至 WINS 以進行解析。
 
 </dd> <dt>
 
@@ -825,10 +825,10 @@ Windows 網路介面卡設定的索引編號。 當有多個可用的設定時�
 存取類型：唯讀
 </dt> <dt>
 
-限定詞：已 [**淘汰**](../wmisdk/standard-wmi-qualifiers.md)， [**MappingStrings**](../wmisdk/standard-qualifiers.md) ( "Win32API \| Windows 通訊端第2版 \| [**getsockopt**](/windows/win32/api/winsock/nf-winsock-getsockopt) \| IPX \_ ADDRESS" ) 
+限定詞：已 [**淘汰**](../wmisdk/standard-wmi-qualifiers.md)， [**MappingStrings**](../wmisdk/standard-qualifiers.md) ( "Win32API \| Windows 通訊端第2版 \| [**getsockopt**](/windows/win32/api/winsock/nf-winsock-getsockopt) \| IPX \_ 位址" ) 
 </dt> </dl>
 
-網路封包交換 (IPX) 技術已不再支援，而且此屬性不包含有用的資料。
+網路封包 Exchange (IPX) 技術已不再支援，而且此屬性不包含有用的資料。
 
 </dd> <dt>
 
@@ -844,7 +844,7 @@ Windows 網路介面卡設定的索引編號。 當有多個可用的設定時�
 限定詞：已 [**淘汰**](../wmisdk/standard-wmi-qualifiers.md)， [**MAPPINGSTRINGS**](../wmisdk/standard-qualifiers.md) ( "WMI" ) 
 </dt> </dl>
 
-網路封包交換 (IPX) 技術已不再支援，而且此屬性不包含有用的資料。
+網路封包 Exchange (IPX) 技術已不再支援，而且此屬性不包含有用的資料。
 
 </dd> <dt>
 
@@ -860,7 +860,7 @@ Windows 網路介面卡設定的索引編號。 當有多個可用的設定時�
 限定詞：已 [**淘汰**](../wmisdk/standard-wmi-qualifiers.md)， [**MappingStrings**](../wmisdk/standard-qualifiers.md) ( "Win32Registry \| SYSTEM \\ \\ CurrentControlSet \\ \\ Services \\ \\ nwlnkipx \\ \\ Parameters \| PktType" ) 
 </dt> </dl>
 
-網路封包交換 (IPX) 技術已不再支援，而且此屬性不包含有用的資料。
+網路封包 Exchange (IPX) 技術已不再支援，而且此屬性不包含有用的資料。
 
 <dt>
 
@@ -913,7 +913,7 @@ Windows 網路介面卡設定的索引編號。 當有多個可用的設定時�
 限定詞：已 [**淘汰**](../wmisdk/standard-wmi-qualifiers.md)， [**MappingStrings**](../wmisdk/standard-qualifiers.md) ( "Win32Registry \| SYSTEM \\ \\ CurrentControlSet \\ \\ Services \\ \\ nwlnkipx \\ \\ Parameters \| 媒體" ) 
 </dt> </dl>
 
-網路封包交換 (IPX) 技術已不再支援，而且此屬性不包含有用的資料。
+網路封包 Exchange (IPX) 技術已不再支援，而且此屬性不包含有用的資料。
 
 <dt>
 
@@ -959,7 +959,7 @@ Windows 網路介面卡設定的索引編號。 當有多個可用的設定時�
 限定詞：已 [**淘汰**](../wmisdk/standard-wmi-qualifiers.md)， [**MappingStrings**](../wmisdk/standard-qualifiers.md) ( "Win32Registry \| SYSTEM \\ \\ CurrentControlSet \\ \\ Services \\ \\ nwlnkipx \\ \\ Parameters \| NetworkNumber" ) 
 </dt> </dl>
 
-網路封包交換 (IPX) 技術已不再支援，而且此屬性不包含有用的資料。
+網路封包 Exchange (IPX) 技術已不再支援，而且此屬性不包含有用的資料。
 
 </dd> <dt>
 
@@ -975,7 +975,7 @@ Windows 網路介面卡設定的索引編號。 當有多個可用的設定時�
 限定詞：已 [**淘汰**](../wmisdk/standard-wmi-qualifiers.md)， [**MappingStrings**](../wmisdk/standard-qualifiers.md) ( "Win32Registry \| SYSTEM \\ \\ CurrentControlSet \\ \\ Services \\ \\ nwlnkipx \\ \\ Parameters \| VirtualNetworkNumber" ) 
 </dt> </dl>
 
-網路封包交換 (IPX) 技術已不再支援，而且此屬性不包含有用的資料。
+網路封包 Exchange (IPX) 技術已不再支援，而且此屬性不包含有用的資料。
 
 </dd> <dt>
 
@@ -1177,7 +1177,7 @@ NetBIOS over TCP/IP 相關可能設定的點陣圖。 下列清單中會識別�
 限定詞： [**MappingStrings**](../wmisdk/standard-qualifiers.md) ( "Win32Registry \| SYSTEM \\ \\ CurrentControlSet \\ \\ Services \\ \\ Tcpip \\ \\ Parameters \| TcpMaxConnectRetransmissions" ) 
 </dt> </dl>
 
-TCP 在終止連接之前嘗試重新傳輸連接要求的次數。 初始重新傳輸超時時間為3秒。 每次嘗試的重新傳輸超時都會加倍。 預設值：3，有效範圍： 0-0xFFFFFFFF。
+TCP 在終止連接之前嘗試重新傳輸連線要求的次數。 初始重新傳輸超時時間為3秒。 每次嘗試的重新傳輸超時都會加倍。 預設值：3，有效範圍： 0-0xFFFFFFFF。
 
 </dd> <dt>
 
@@ -1244,7 +1244,7 @@ TCP 可以同時開啟的最大連接數目。 預設值：0xFFFFFE，有效範�
 系統提供的 TCP 接收視窗大小上限。 接收視窗會指定傳送者在未收到通知的情況下，可能會傳送的位元組數目。 一般而言，較大的接收視窗會透過高延遲和高頻寬的網路來提升效能。 為了提高效率，接收視窗應該是 (MSS) 的 TCP 最大區段大小的倍數。 預設值： TCP 資料大小上限的四倍，或是最大的 TCP 資料大小的倍數，舍入到最接近的8192倍數。 Ethernet 網路預設為8760。 有效範圍： 0-65535。
 
 > [!Note]  
-> Windows Vista：此屬性會存取 `"CurrentControlSet\\Services\\Tcpip\\Parameters|TcpWindowSize"` 登錄專案，此專案不會用於目前的作業系統執行。
+> WindowsVista：此屬性會存取 `"CurrentControlSet\\Services\\Tcpip\\Parameters|TcpWindowSize"` 登錄專案，此專案不會用於目前的作業系統執行。
 
  
 

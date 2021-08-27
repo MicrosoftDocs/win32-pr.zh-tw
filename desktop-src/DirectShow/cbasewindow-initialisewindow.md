@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 75668846c700c33a26b7bb7ad2af2a3fd6e8eea2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f260f60111f715bfce357e264b65bb4b821c5ca890d39d4d54e7269a191df303
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106989600"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118954657"
 ---
 # <a name="cbasewindowinitialisewindow-method"></a>CBaseWindow.InitialiseWindow 方法
 

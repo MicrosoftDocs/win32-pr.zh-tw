@@ -3,9 +3,9 @@ title: 將設定檔與寫入器搭配使用
 description: 將設定檔與寫入器搭配使用
 ms.assetid: 8805bc57-5f19-4544-bcb8-5af880ba8ea0
 keywords:
-- Windows Media Format SDK，寫入 ASF 檔案
-- Windows Media Format SDK，建立 ASF 檔案
-- 'Windows Media Format SDK、Advanced Systems Format (ASF) '
+- Windows媒體格式 SDK，寫入 ASF 檔案
+- Windows媒體格式 SDK，建立 ASF 檔案
+- 'Windows媒體格式 SDK、Advanced Systems Format (ASF) '
 - Advanced Systems Format (ASF) ，寫入檔案
 - ASF (Advanced Systems Format) ，寫入檔案
 - Advanced Systems Format (ASF) ，建立檔案
@@ -15,12 +15,12 @@ keywords:
 - 設定檔，ASF 檔案建立
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d027e6ea0e669d2a5206901faefab1f5a9583153
-ms.sourcegitcommit: ad672d3a10192c5ccac619ad2524407109266e93
+ms.openlocfilehash: ce0184469215dd109bcc4ca120e2db9cbead8b9bd250cb017456f9d7d08ea46f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2020
-ms.locfileid: "104023161"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119027266"
 ---
 # <a name="to-use-profiles-with-the-writer"></a>將設定檔與寫入器搭配使用
 
@@ -55,7 +55,7 @@ HRESULT SetProfileExample()
 > [!Note]  
 > 沒有使用 Windows Media 音訊和 Video 9 系列編解碼器的預先定義系統設定檔。 如需詳細資訊，請參閱 [重複使用串流](reusing-stream-configurations.md)設定。
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -70,9 +70,9 @@ HRESULT SetProfileExample()
 [**寫入 ASF 檔案**](writing-asf-files.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

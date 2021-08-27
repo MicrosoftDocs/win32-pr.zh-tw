@@ -15,12 +15,12 @@ keywords:
 - Microsoft 消費者介面自動化 for Microsoft WIN32 API
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8ba8147a8dd7f8d03340fad43465c225a174e606
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a1d62627d1e096738abad67d7bb2bcf0e482052c5e5b4e0e913d9c2ea0ee56c8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372406"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119052736"
 ---
 # <a name="ui-automation-fundamentals"></a>UI 自動化基礎觀念
 
@@ -41,7 +41,7 @@ Microsoft 消費者介面自動化可讓輔助技術應用程式和自動化測�
 -   [消費者介面自動化文字內容的支援](uiauto-ui-automation-textpattern-overview.md)
 -   [消費者介面自動化的拖放支援](ui-automation-support-for-drag-and-drop.md)
 -   [輔助技術的安全性考慮](uiauto-securityoverview.md)
--   [使用安全陣列的最佳作法](uiauto-workingwithsafearrays.md)
+-   [使用保管庫陣列的最佳作法](uiauto-workingwithsafearrays.md)
 -   [ 自動化規格和社群承諾](uiauto-specandcommunitypromise.md)
 
 ## <a name="related-topics"></a>相關主題
@@ -51,9 +51,9 @@ Microsoft 消費者介面自動化可讓輔助技術應用程式和自動化測�
 [使用者介面自動化](entry-uiauto-win32.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

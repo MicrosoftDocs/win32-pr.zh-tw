@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 9682c259fc2f7e45409f7ddcaaa95dac2cba1b54
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e4cdaa948e6f0e695b3e77576b0a0726f0b38f3b649f005b42aa8e205c894db8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980310"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119050986"
 ---
 # <a name="changing-access-security-on-securable-objects"></a>變更安全物件的存取安全性
 
@@ -42,15 +42,15 @@ ms.locfileid: "106980310"
 
 -   印表機
 
-    從 Windows Vista 開始，您可以使用 [**GetSecurityDescriptor**](/windows/desktop/CIMWin32Prov/getsecuritydescriptor-method-in-class-win32-printer)和 [**SetSecurityDescriptor**](/windows/desktop/CIMWin32Prov/setsecuritydescriptor-method-in-class-win32-printer)方法來保護對 [**Win32 \_ 印表機**](/windows/desktop/CIMWin32Prov/win32-printer)類別實例的存取。 這些方法會傳回和寫入 [**Win32 \_ SecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor) 物件。
+    從 Windows Vista 開始，您可以使用 [**GetSecurityDescriptor**](/windows/desktop/CIMWin32Prov/getsecuritydescriptor-method-in-class-win32-printer)和 [**SetSecurityDescriptor**](/windows/desktop/CIMWin32Prov/setsecuritydescriptor-method-in-class-win32-printer)方法來保護 [**Win32 \_ 印表機**](/windows/desktop/CIMWin32Prov/win32-printer)類別實例的存取。 這些方法會傳回和寫入 [**Win32 \_ SecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor) 物件。
 
 -   服務
 
-    從 Windows Vista 開始，您可以使用 [**GetSecurityDescriptor**](/windows/desktop/CIMWin32Prov/getsecuritydescriptor-method-in-class-win32-service)和 [**SetSecurityDescriptor**](/windows/desktop/CIMWin32Prov/setsecuritydescriptor-method-in-class-win32-service)方法來保護對 [**Win32 \_ 服務**](/windows/desktop/CIMWin32Prov/win32-service)類別實例的存取。 這些方法會傳回和寫入 [**Win32 \_ SecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor) 物件。
+    從 Windows Vista 開始，您可以使用 [**GetSecurityDescriptor**](/windows/desktop/CIMWin32Prov/getsecuritydescriptor-method-in-class-win32-service)和 [**SetSecurityDescriptor**](/windows/desktop/CIMWin32Prov/setsecuritydescriptor-method-in-class-win32-service)方法來保護 [**Win32 \_ 服務**](/windows/desktop/CIMWin32Prov/win32-service)類別實例的存取。 這些方法會傳回和寫入 [**Win32 \_ SecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor) 物件。
 
 -   DCOM 應用程式
 
-    DCOM 應用程式實例有數個安全描述項。 從 Windows Vista 開始，使用 [**Win32 \_ DCOMApplicationSetting**](/windows/desktop/CIMWin32Prov/win32-dcomapplicationsetting) 類別的方法來取得或變更不同的安全描述項。 系統會以 [**Win32 \_ SecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor) 類別的實例傳回安全描述項。
+    DCOM 應用程式實例有數個安全描述項。 從 Windows Vista 開始，使用 [**Win32 \_ DCOMApplicationSetting**](/windows/desktop/CIMWin32Prov/win32-dcomapplicationsetting)類別的方法來取得或變更不同的安全描述項。 系統會以 [**Win32 \_ SecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor) 類別的實例傳回安全描述項。
 
     若要取得或變更設定許可權，請呼叫 [**GetConfigurationSecurityDescriptor**](/windows/desktop/CIMWin32Prov/getconfigurationsecuritydescriptor-method-in-class-win32-dcomapplicationsetting) 或 [**SetConfigurationSecurityDescriptor**](/windows/desktop/CIMWin32Prov/setconfigurationsecuritydescriptor-method-in-class-win32-dcomapplicationsetting) 方法。
 

@@ -4,12 +4,12 @@ ms.assetid: 2a63e85e-06fd-4b6f-8351-9866099b9d54
 title: TCP/IP 特定問題
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8e9a7334471d3e419830eb054399ff1dcb721cd0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 10e63bf20f545106d6b94ad4628c3fe4fe779136bacd5c8bd1a88ec32da1f233
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106991873"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118993257"
 ---
 # <a name="tcpip-specific-issues"></a>TCP/IP 特定問題
 
@@ -17,11 +17,11 @@ ms.locfileid: "106991873"
 
 下列問題指出 TCP/IP 作業與網路應用程式開發選擇的組合會導致效能不佳的常見案例。
 
--   連接繁重的應用程式。
+-   連線繁重的應用程式。
 
     某些應用程式會為每個交易具現化新的 TCP 連接。 TCP 連線建立需要一些時間、額外的 RTTs，而且會受到緩慢的啟動。 此外，關閉的連線會受時間等候，這會耗用系統資源。
 
-    連接繁重的應用程式大多很常見，因為它們很容易建立;測試和錯誤處理非常簡單。 在持續連線上偵測錯誤可能需要相當多的程式碼和精力，因此有時不會完成。
+    連線繁重的應用程式大多很常見，因為它們很容易建立;測試和錯誤處理非常簡單。 在持續連線上偵測錯誤可能需要相當多的程式碼和精力，因此有時不會完成。
 
     重複使用 TCP 連線來解決這種情況。 這可能會導致透過 TCP 連接進行序列化，除非交易是透過多個連接進行多工處理。 如果採取這種方式，連接數目應限制為兩個，而且需要應用層框架和先進的錯誤處理。
 
@@ -46,7 +46,7 @@ ms.locfileid: "106991873"
 [應用程式行為](application-behavior-2.md)
 </dt> <dt>
 
-[高效能的 Windows 通訊端應用程式](high-performance-windows-sockets-applications-2.md)
+[高效能 Windows 通訊端應用程式](high-performance-windows-sockets-applications-2.md)
 </dt> <dt>
 
 [Nagle 演算法](https://msdn.microsoft.com/library/ms817942.aspx)

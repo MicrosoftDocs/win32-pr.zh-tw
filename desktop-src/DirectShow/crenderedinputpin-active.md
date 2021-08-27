@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: d8c9b06f41454d2cb9a7ac35dd7e8f8b335632f9
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 0f7fce3525feb2c4ff50a93423697f80db6f1285ec354ac01b5f59e7bf9b7ada
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108098926"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118953897"
 ---
 # <a name="crenderedinputpinactive-method"></a>CRenderedInputPin 方法
 

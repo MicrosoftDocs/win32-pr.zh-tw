@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10Math.h
-ms.openlocfilehash: 4e3665709564f578046273facbd3311253d8c2b9
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 4d565d1e9b567ff0c3320d6e0ba6023a6c4917720a2a13f32f98164cb7632123
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108102956"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118990548"
 ---
 # <a name="d3dxvec4catmullrom-function-d3dx10mathh"></a>D3DXVec4CatmullRom 函式 (D3DX10Math) 
 

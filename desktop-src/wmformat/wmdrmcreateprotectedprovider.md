@@ -1,6 +1,6 @@
 ---
 title: 'WMDRMCreateProtectedProvider 函式 (Wmdrmsdk) '
-description: WMDRMCreateProtectedProvider 函式會建立可建立其他 Windows Media DRM 用戶端擴充 Api 物件的 class factory。
+description: WMDRMCreateProtectedProvider 函式會建立可建立 Windows 媒體 DRM 用戶端擴充 api 之其他物件的 class factory。
 ms.assetid: 0882062f-48a2-43bc-8853-a8a3d6bc2f52
 keywords:
 - WMDRMCreateProtectedProvider 函式 windows Media 格式
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f1f046de906c7753fa200de5075cf2064721940b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f4b5d71ff1deed01cc10d7342286b443b9f64b1a1c192af575a599a2fc8d8c9e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995185"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119026926"
 ---
 # <a name="wmdrmcreateprotectedprovider-function"></a>WMDRMCreateProtectedProvider 函式
 
-**WMDRMCreateProtectedProvider** 函式會建立可建立其他 WINDOWS Media DRM 用戶端擴充 api 物件的 class factory。 此函式需要來自 Microsoft 的存根程式庫，並建立支援受保護 DRM 功能的物件。
+**WMDRMCreateProtectedProvider** 函式會建立可建立 Windows 媒體 DRM 用戶端擴充 api 之其他物件的 class factory。 此函式需要來自 Microsoft 的存根程式庫，並建立支援受保護 DRM 功能的物件。
 
 ## <a name="syntax"></a>語法
 
@@ -53,7 +53,7 @@ HRESULT STDMETHODCALLTYPE WMDRMCreateProtectedProvider(
 
 
 
-| 傳回碼                                                                          | Description                      |
+| 傳回碼                                                                          | 描述                      |
 |--------------------------------------------------------------------------------------|----------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl> | 此方法已成功。<br/> |
 

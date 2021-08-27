@@ -4,12 +4,12 @@ ms.assetid: 0930bf12-6d5f-4f2c-914d-53e6e862d3bd
 title: 關於同步處理
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7ad53dc8c309d8ec55f37cef5f78839348071477
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: eb8bca156eec523b30d8f28df8b18a24d9691a33598f5dfe985e4b6b9756ffe3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106983791"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118886402"
 ---
 # <a name="about-synchronization"></a>關於同步處理
 

@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fe42d71886ae93bdaff7ac956554ff9a97fc9f8f
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 654b090b3481a915557569e0801e75b8ad089c66cfca4a893d6f865345088171
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103946166"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119046286"
 ---
 # <a name="id3dx11effectgroupgettechniquebyindex-method"></a>ID3DX11EffectGroup：： GetTechniqueByIndex 方法
 

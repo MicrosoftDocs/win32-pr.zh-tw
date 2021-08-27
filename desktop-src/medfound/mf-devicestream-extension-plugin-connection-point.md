@@ -4,12 +4,12 @@ ms.assetid: AA95639E-8B20-4714-AFD3-1A492F13FF12
 title: 'MF_DEVICESTREAM_EXTENSION_PLUGIN_CONNECTION_POINT 屬性 (Mfidl) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3908a989be65f7502321c112381a14eee1318466
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 476d97bfee67105f8322a9b265d11a012b0173cee5ed110003ca46ec957a7cb7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974366"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118973887"
 ---
 # <a name="mf_devicestream_extension_plugin_connection_point-attribute"></a>MF \_ DEVICESTREAM \_ 延伸模組 \_ 外掛程式 \_ 連接 \_ 點屬性
 
@@ -29,8 +29,8 @@ ms.locfileid: "106974366"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                         |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                               |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                         |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                               |
 | 標頭<br/>                   | <dl> <dt>Mfidl。h</dt> </dl> |
 
 

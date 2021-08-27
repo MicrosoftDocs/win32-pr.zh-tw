@@ -4,17 +4,17 @@ ms.assetid: aff466b2-6e10-4d61-a78d-bad827a470ee
 title: ToolTipMaxWidth 屬性
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a12d1e87265c88ffb6524b68be887c346237b9a3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fcde8f12500eb80364d128a85e8306271ed57e305d6f54f515dc0a3257211cd1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103849675"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118951597"
 ---
 # <a name="tooltipmaxwidth-property"></a>ToolTipMaxWidth 屬性
 
 > [!Note]  
-> 此元件可用於 Microsoft Windows 2000、Windows XP 及 Windows Server 2003 作業系統。 它在後續版本中可能會變更或無法使用。
+> 此元件可在 Microsoft Windows 2000、Windows XP 和 Windows Server 2003 作業系統中使用。 它在後續版本中可能會變更或無法使用。
 
  
 

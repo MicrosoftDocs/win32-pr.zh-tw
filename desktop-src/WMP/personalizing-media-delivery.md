@@ -3,10 +3,10 @@ title: 個人化媒體傳遞
 description: 個人化媒體傳遞
 ms.assetid: ffd62602-8bfc-4ca7-91fd-c610faa330cd
 keywords:
-- Windows Media 中繼檔播放清單，個人化媒體傳遞
+- Windows媒體中繼檔播放清單，個人化媒體傳遞
 - 播放清單、個人化媒體傳遞
 - 中繼檔播放清單，個人化媒體傳遞
-- Windows Media 中繼檔播放清單，媒體傳遞個人化
+- Windows媒體中繼檔播放清單、媒體傳遞個人化
 - 播放清單、媒體傳遞個人化
 - 中繼檔播放清單，媒體傳遞個人化
 - 媒體傳遞個人化
@@ -18,16 +18,16 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: ddb01364e2ea36214b94d01517f1d3d3b802ba63
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9483f4fc7a068c6f6456a5d170b4be73a9ba31ef85294f9a6939181dff00c826
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104183093"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118996008"
 ---
 # <a name="personalizing-media-delivery"></a>個人化媒體傳遞
 
-不同于將相同內容廣播給大量物件的單向通訊，Windows Media 技術可提供您使用人口統計來賦予廣播的工具。 在網際網路上，大規模的雙向通訊可供使用。 這項動態的資訊交換可讓內容提供者知道其物件，並以自訂的簡報回應。
+不同于將相同內容廣播給大量物件的單向通訊，Windows 媒體技術可提供您使用人口統計來賦予廣播的工具。 在網際網路上，大規模的雙向通訊可供使用。 這項動態的資訊交換可讓內容提供者知道其物件，並以自訂的簡報回應。
 
 下列範例（使用虛構公司）說明如何將串流內容的傳遞傳遞給個人化。 本文假設您已熟悉 Active Server Pages (ASP 或 .asp 檔案) 和定義變數。
 
@@ -35,7 +35,7 @@ ms.locfileid: "104183093"
 
 1.  新的使用者前往網站，然後按一下 [ **建立您的個人 Newscast**]。
 2.  喜好設定表單隨即開啟。 在此表單上，使用者會回答有關個人喜好的問題，例如我的最愛新聞故事、最愛的新聞報導、業餘新聞，以及日常接收日常新聞的方法。
-3.  使用者傳送此資訊，而幾秒鐘之後，就會查看完整、15分鐘的個人 newscast，內含程式內容、轉換和電視廣告。 每個媒體元件的選取專案（包括電視廣告）是以使用者設定檔為基礎，而且是透過 Windows Media 技術元件和現成的網際網路工具自動完成。
+3.  使用者傳送此資訊，而幾秒鐘之後，就會查看完整、15分鐘的個人 newscast，內含程式內容、轉換和電視廣告。 每個媒體元件的選取專案（包括電視廣告）是以使用者設定檔為基礎，並且會自動使用 Windows 媒體技術元件和現成的網際網路工具來完成。
 
 下列清單說明各種工具如何互動以建立個人化 newscast。
 
@@ -104,15 +104,15 @@ ms.locfileid: "104183093"
 [**使用中繼檔播放清單**](using-metafile-playlists.md)
 </dt> <dt>
 
-[**Windows Media 中繼檔元素參考**](windows-media-metafile-elements-reference.md)
+[**Windows媒體中繼檔元素參考**](windows-media-metafile-elements-reference.md)
 </dt> <dt>
 
-[**Windows Media 中繼檔指南**](windows-media-metafile-guide.md)
+[**Windows媒體中繼檔指南**](windows-media-metafile-guide.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

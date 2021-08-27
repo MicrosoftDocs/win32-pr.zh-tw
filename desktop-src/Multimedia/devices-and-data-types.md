@@ -28,12 +28,12 @@ keywords:
 - 關閉波形-音訊輸出裝置
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2abe0c2c20c52f4498316fb619885d41f85e41d6
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: 165f740e260c4e1a25fbd40cac9b8efd66ccd401c3e166dd1119b92c7b9999f4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113120243"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118941266"
 ---
 # <a name="devices-and-data-types"></a>裝置和資料類型
 
@@ -47,7 +47,7 @@ ms.locfileid: "113120243"
 
 ## <a name="querying-audio-devices"></a>查詢音訊裝置
 
-Windows 提供下列功能來判斷系統中有多少裝置具有特定類型。
+Windows 提供下列函式來判斷系統中有多少裝置具有特定類型。
 
 
 
@@ -81,7 +81,7 @@ Windows 提供下列功能來判斷系統中有多少裝置具有特定類型。
 
 
 
-|  函式                                              |  結構                                  |
+|  函數                                              |  結構                                  |
 |------------------------------------------------|------------------------------------|
 | [**auxGetDevCaps**](/windows/win32/api/mmeapi/nf-mmeapi-auxgetdevcaps)         | [**AUXCAPS**](/windows/win32/api/mmeapi/ns-mmeapi-auxcaps)         |
 | [**waveInGetDevCaps**](/windows/win32/api/mmeapi/nf-mmeapi-waveingetdevcaps)   | [**WAVEINCAPS**](/windows/win32/api/mmeapi/ns-mmeapi-waveincaps)   |
@@ -133,7 +133,7 @@ Windows 提供下列功能來判斷系統中有多少裝置具有特定類型。
 
 ## <a name="writing-waveform-audio-data"></a>寫入 Waveform-Audio 資料
 
-成功開啟波形音訊輸出設備磁碟機之後，您就可以開始播放音效。 Windows 提供 [**waveOutWrite**](/windows/win32/api/mmeapi/nf-mmeapi-waveoutwrite) 函式，可將資料區區塊轉送到波形音訊輸出裝置。
+成功開啟波形音訊輸出設備磁碟機之後，您就可以開始播放音效。 Windows 提供 [**waveOutWrite**](/windows/win32/api/mmeapi/nf-mmeapi-waveoutwrite)函式，以將資料區區塊轉送到波形音訊輸出裝置。
 
 使用 [**WAVEHDR**](/windows/win32/api/mmeapi/ns-mmeapi-wavehdr) 結構來指定您使用 **waveOutWrite** 傳送的波形音訊資料區塊。 此結構包含鎖定資料區塊的指標、資料區塊的長度，以及某些旗標。 您必須先備妥此資料區塊，才能使用它。如需準備資料區塊的相關資訊，請參閱 [音訊資料區塊](audio-data-blocks.md)。
 

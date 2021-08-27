@@ -12,12 +12,12 @@ keywords:
 - 手寫筆
 ms.topic: article
 ms.date: 02/06/2020
-ms.openlocfilehash: 7f57bf6ac2b5d9bc7f17a43cd84a6e8eb7d828a4
-ms.sourcegitcommit: 6b8d5058d02daacad4d2ed7830da63b63a509586
+ms.openlocfilehash: 5f0769aa5b9b097b23206c0515bd32552a59969404e72bbfcf26973d5d4f3de6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "106995560"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118758334"
 ---
 # <a name="interaction-context-functions"></a>互動內容函數
 

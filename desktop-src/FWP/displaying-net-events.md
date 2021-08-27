@@ -4,12 +4,12 @@ description: 下列範例程式碼示範伺服器應用程式如何找出可能�
 ms.assetid: 24c1cf68-a67f-415a-a45d-0e0eb4aae636
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 582a2ad40d47fa3e999391d49b2f5a3a7dc23d3f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ff774a8a66899979150cb83936e45e200c2f2cb76a9266c01e233041356db93e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106965364"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118951287"
 ---
 # <a name="displaying-net-events"></a>顯示淨活動
 
@@ -18,7 +18,7 @@ ms.locfileid: "106965364"
 > [!Note]  
 > 篩選準則與下層 **IsPortAllowed** API 所支援的條件相同。
 
- 
+ 
 
 
 ```C++
@@ -197,9 +197,9 @@ DWORD wmain(int argc,
 
 
 
- 
+ 
 
- 
+ 
 
 
 

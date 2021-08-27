@@ -4,12 +4,12 @@ description: 本節將討論如何使用 MIDL \ 傳輸 \_ 作為 \ 和 \ 表示�
 ms.assetid: 2e1af786-f507-453f-bb10-74805ef6b1a9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 16760091479a306b9dc9c815c7f3a41b25012ca2
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 4d54c03ce7e467c7c34ad1ef473078006f24012231d1175b3b6b4b9d43bd3874
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103842403"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118923717"
 ---
 # <a name="the-transmit_as-and-represent_as-attributes"></a>傳送 \_ as 和表示 \_ 為屬性
 
@@ -26,6 +26,6 @@ ms.locfileid: "103842403"
 -   [**指名 \_ 型別的 \_ free \_ 區域** 函數](the-named-type-free-local-function.md)
 -   [**指名 \_ 型別 \_ free \_ inst** 函式](the-named-type-free-inst-function.md)
 
- 
+ 
 
- 
+ 

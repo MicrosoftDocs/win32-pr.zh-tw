@@ -4,12 +4,12 @@ ms.assetid: D0AE8FF8-D02D-43D3-80CA-E13EAA894F87
 title: 如何：從 Windows 程式列印
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 84229823944d7f7104da359b953e579f1b21cdca
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2999f112285dfff389583b15f7c7c2913a3e125bc58713e2ba5f18973aa6e1ab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106978389"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118971337"
 ---
 # <a name="how-to-print-from-a-windows-program"></a>如何：從 Windows 程式列印
 
@@ -37,7 +37,7 @@ ms.locfileid: "106978389"
 
     如需進度指示器運作的詳細資訊，請參閱 [如何：顯示列印工作進度](cancel-dialog-box.md)。
 
-    如需有關如何顯示列印工作進度的詳細資訊，請參閱 [Windows 應用程式 UI 開發](/windows/desktop/windows-application-ui-development) 指導方針中的資訊。
+    如需有關如何顯示列印工作進度的詳細資訊，請參閱[Windows 應用程式 UI 開發](/windows/desktop/windows-application-ui-development)指導方針中的資訊。
 
 3.  **啟動列印執行緒。**
 

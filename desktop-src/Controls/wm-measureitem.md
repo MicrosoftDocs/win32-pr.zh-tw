@@ -3,7 +3,7 @@ title: 'WM_MEASUREITEM 訊息 (Winuser .h) '
 description: 當控制項或功能表建立時，傳送至下拉式方塊、清單方塊、清單視圖或功能表項目的擁有者視窗。
 ms.assetid: 6947bcd1-fd40-4238-b8f2-d4e06b90c0dc
 keywords:
-- WM_MEASUREITEM message Windows 控制項
+- WM_MEASUREITEM 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 43e14cc0c39e1d319fb9190f8ad7d51ea25f821c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7eae57fc163f19edcef6dc924072cd3389146b66e614b61d6f121237e82e1344
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843876"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118957507"
 ---
 # <a name="wm_measureitem-message"></a>WM \_ MEASUREITEM 訊息
 
@@ -71,9 +71,9 @@ WM_MEASUREITEM
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                     |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 

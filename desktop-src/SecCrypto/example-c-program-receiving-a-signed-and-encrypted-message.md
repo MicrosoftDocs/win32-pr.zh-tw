@@ -4,12 +4,12 @@ ms.assetid: 65ca30ba-a184-46ef-808c-e2fedcc86079
 title: 範例 C 程式：接收已簽署和加密的訊息
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8a1d97b50eb401568ebf1732f347f800eed0c26f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7b9e468eeb2204534bff13e756c72a0a6c7ca583b5493338864b52fef6f44590
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944633"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119007586"
 ---
 # <a name="example-c-program-receiving-a-signed-and-encrypted-message"></a>範例 C 程式：接收已簽署和加密的訊息
 

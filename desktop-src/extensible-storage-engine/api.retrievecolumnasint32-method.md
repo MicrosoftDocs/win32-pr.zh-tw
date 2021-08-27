@@ -14,12 +14,12 @@ dev_langs:
 - JScript
 - VB
 - other
-ms.openlocfilehash: 21e8fa75d83845f36563c660eb84f44e0e8296e3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c5a0c5314e0fc008036f002ef1cdab70497b9e46c1158c39a6dee96de4bb928c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104568446"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118983014"
 ---
 # <a name="apiretrievecolumnasint32-method"></a>RetrieveColumnAsInt32 方法
 
@@ -32,7 +32,7 @@ ms.locfileid: "104568446"
 <thead>
 <tr class="header">
 <th> </th>
-<th>Name</th>
+<th>名稱</th>
 <th>描述</th>
 </tr>
 </thead>

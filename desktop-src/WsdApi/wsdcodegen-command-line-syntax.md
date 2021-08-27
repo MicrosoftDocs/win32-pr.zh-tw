@@ -4,12 +4,12 @@ ms.assetid: 75f5071c-040b-4e65-a80e-e1fea63535b0
 title: WsdCodeGen 命令列語法
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ff7db3afe9b13286833f8563c0cacb41919d77bd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5fff02fd9bbbcfddd20a68948f139e765d27a86363df12fc0057627717e53cc4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848607"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119049636"
 ---
 # <a name="wsdcodegen-command-line-syntax"></a>WsdCodeGen 命令列語法
 
@@ -134,8 +134,8 @@ WsdCodeGen 有兩個函式：產生設定檔，以及產生 WSDAPI 用戶端和�
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

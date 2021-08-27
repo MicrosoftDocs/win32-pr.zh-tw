@@ -53,12 +53,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d9d23dcf568e5ed25fb5081283a421b1c0dbb07
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ad5ac7a2f96555aa8ccfb305c66061ba4e0ffd468f18a1a93be215c367f034be
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103686608"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118909346"
 ---
 # <a name="winbio_reject_detail-constants"></a>WINBIO \_ 拒絕 \_ 詳細資料常數
 
@@ -72,7 +72,7 @@ ms.locfileid: "103686608"
 | <span id="WINBIO_FP_TOO_LOW"></span><span id="winbio_fp_too_low"></span><dl> <dt>**WINBIO \_ FP \_ 太 \_ 低**</dt> </dl>                                                                     | 手指掃描開始太低。<br/>                                                                                                                                                                                                                                           |
 | <span id="WINBIO_FP_TOO_LEFT"></span><span id="winbio_fp_too_left"></span><dl> <dt>**WINBIO \_ FP \_ 太 \_ 左邊**</dt> </dl>                                                                  | 在掃描期間，手指太久。<br/>                                                                                                                                                                                                                                           |
 | <span id="WINBIO_FP_TOO_RIGHT"></span><span id="winbio_fp_too_right"></span><dl> <dt>**WINBIO \_ FP \_ 太 \_ 右邊**</dt> </dl>                                                               | 在掃描期間，手指太遠。<br/>                                                                                                                                                                                                                                          |
-| <span id="WINBIO_FP_TOO_FAST"></span><span id="winbio_fp_too_fast"></span><dl> <dt>**WINBIO \_ FP \_ 太 \_ 快**</dt> </dl>                                                                  | 感應器上的手指撥動太快。<br/>                                                                                                                                                                                                                                       |
+| <span id="WINBIO_FP_TOO_FAST"></span><span id="winbio_fp_too_fast"></span><dl> <dt>**WINBIO \_ FP \_ 太 \_ FAST**</dt> </dl>                                                                  | 感應器上的手指撥動太快。<br/>                                                                                                                                                                                                                                       |
 | <span id="WINBIO_FP_TOO_SLOW"></span><span id="winbio_fp_too_slow"></span><dl> <dt>**WINBIO \_ FP \_ 太 \_ 慢**</dt> </dl>                                                                  | 感應器上的手指撥動太慢。<br/>                                                                                                                                                                                                                                        |
 | <span id="WINBIO_FP_POOR_QUALITY"></span><span id="winbio_fp_poor_quality"></span><dl> <dt>**WINBIO \_ FP \_ 品質不佳 \_**</dt> </dl>                                                      | 掃描品質太差。<br/>                                                                                                                                                                                                                                                         |
 | <span id="WINBIO_FP_TOO_SKEWED"></span><span id="winbio_fp_too_skewed"></span><dl> <dt>**WINBIO \_ FP \_ 太 \_ 扭曲**</dt> </dl>                                                            | 手指未直接通過感應器。<br/>                                                                                                                                                                                                                                    |
@@ -119,8 +119,8 @@ ms.locfileid: "103686608"
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                                                                                                               |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/>                                                                                                                  |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                                                                                                               |
+| 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/>                                                                                                                  |
 | 標頭<br/>                   | <dl> <dt>Winbio \_ 類型 .h (包含適用于 Winbio 的用戶端應用程式或 Winbio 的 .h \_) </dt> </dl> |
 
 

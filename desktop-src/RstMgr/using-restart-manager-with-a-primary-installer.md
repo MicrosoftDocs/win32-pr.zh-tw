@@ -4,12 +4,12 @@ description: 下列程式說明如何使用重新開機管理員來關閉和重�
 ms.assetid: 8d2b4129-c595-4b11-9771-6dc953f4db40
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 38956ee8d04bc377809e93579080d9b767c3da3a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 764086166fc895d44f1a555f453d2941487c5d999adfa8d38581a12f07c9c45c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103932040"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119010006"
 ---
 # <a name="using-restart-manager-with-a-primary-installer"></a>搭配主要安裝程式使用重新開機管理員
 
@@ -30,9 +30,9 @@ ms.locfileid: "103932040"
 
 如需示範如何使用主要安裝程式來啟動和使用重新開機管理員會話的範例程式碼片段，然後將次要安裝程式加入至現有的會話，請參閱搭配 [次要安裝程式使用重新開機管理員](using-restart-manager-with-a-secondary-installer.md)。
 
- 
+ 
 
- 
+ 
 
 
 

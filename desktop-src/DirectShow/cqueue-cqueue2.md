@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: afdb22dc265989e923ab285a190753fd63c6842d
-ms.sourcegitcommit: 0e611cdff84ff9f897c59e4e1d2b2d134bc4e133
+ms.openlocfilehash: e0364b952897f26eec6d2164ba1300e4abf9e67bc8530ba78c03da8d066aac49
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "106991364"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118953997"
 ---
 # <a name="cqueuecqueue-constructor-wxutilh---no-parameters"></a>CQueue. CQueue (Wxutil. h) -沒有參數
 

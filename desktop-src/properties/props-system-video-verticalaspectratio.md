@@ -4,18 +4,18 @@ ms.assetid: b463b51e-3e00-4f80-a7b9-f5ff5432b7ef
 title: VerticalAspectRatio
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2f6c5f762b9a196b0f13fd89d846c3034db32724
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 41d61a617aee2afd6939ac4d39ee96e662f8dd6e4ade95d47c3ab9f9c9ca1964
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511111"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119033166"
 ---
 # <a name="systemvideoverticalaspectratio"></a>VerticalAspectRatio
 
 表示圖元外觀比例的水準部分。 XX： YY 的 Y 部分。 例如，11是10:11 的 Y 部分。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

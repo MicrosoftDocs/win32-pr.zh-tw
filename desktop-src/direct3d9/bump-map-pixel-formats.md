@@ -4,12 +4,12 @@ ms.assetid: 7f405cb9-9512-44da-8a85-4b7d22017284
 title: " (Direct3D 9) 的凹凸地圖像素格式"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 21bbe4a9999d875e43d33389f86b35d22c81b3bd
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 9f627ce95151207c25e2365d2e467fb94b93cfb5c1bf54ce0c3df401891fcafc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104025985"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118805723"
 ---
 # <a name="bump-map-pixel-formats-direct3d-9"></a> (Direct3D 9) 的凹凸地圖像素格式
 

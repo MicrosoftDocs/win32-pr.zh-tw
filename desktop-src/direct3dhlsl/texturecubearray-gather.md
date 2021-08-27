@@ -12,12 +12,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
 api_location: ''
-ms.openlocfilehash: 59a7dfd9170b93e1c253e7558cea7d8fb9b2f8c3
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 8700205ed1cb7c0356a93d6766efd8d9e3cc2fe63838b25bc5665ea194b2e1ff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "103853819"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118786465"
 ---
 # <a name="texturecubearraygather-methods"></a>TextureCubeArray：：收集方法
 
