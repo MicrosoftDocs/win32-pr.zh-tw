@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: a0a3cf7dbcc900f5b191700de36001090ddd5cbd
-ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
+ms.openlocfilehash: 3696a726dc17afccabb597faf91ed569e4e2b6f5
+ms.sourcegitcommit: 4e94fc75fad7b2a0f3c92a26f97e89924e59b7a9
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "122626494"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "122787444"
 ---
 # <a name="span-idvspixengineidebugshadercancelspanidebugshadercancel-interface"></a><span id="vspixengine.idebugshadercancel"></span>IDebugShaderCancel 介面
 
@@ -38,7 +38,7 @@ ms.locfileid: "122626494"
 
 **IDebugShaderCancel** 介面具有這些方法。
 
-<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th style="text-align: left;">方法</th><th style="text-align: left;">描述</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/idebugshadercancel-cancelgenerate-debugshaderrequestinfo-ptr-pixelhistoryoperation-ptr"><strong>CancelGenerate</strong></a></td><td style="text-align: left;"><p>在 debug 要求中取消產生著色器追蹤指令的要求。</p></td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th >方法</th><th >說明</th></tr></thead><tbody><tr class="odd"><td ><a href="/windows/desktop/direct3dtools/idebugshadercancel-cancelgenerate-debugshaderrequestinfo-ptr-pixelhistoryoperation-ptr"><strong>CancelGenerate</strong></a></td><td ><p>在 debug 要求中取消產生著色器追蹤指令的要求。</p></td></tr></tbody></table>
 
  
 

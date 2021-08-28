@@ -4,12 +4,12 @@ description: 錯誤訊息會警示使用者已發生的問題。
 ms.assetid: b02110e9-985d-4448-9c95-eb958b0059b1
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 50e9d945baf736329d38334a94ede6158621167c
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.openlocfilehash: 0ceffd3d1fecccd8342cb1e634735653bdba9722
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122984101"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122469015"
 ---
 # <a name="error-messages-design-basics"></a> (設計基礎) 的錯誤訊息
 
@@ -405,13 +405,7 @@ Windows 程式中大部分的錯誤訊息都是使用強制回應對話方塊來
 錯誤訊息有數種使用模式：
 
 
-| 標籤 | 值 |
-|--------|-------|
-| <strong>系統問題</strong><br /> 作業系統、硬體裝置、網路或程式失敗，或未處於執行工作所需的狀態。 <br /> | 使用者可以解決許多系統問題： <br /><ul><li>裝置問題可以藉由開啟裝置、重新連接裝置，以及插入媒體來解決。</li><li>您可以藉由檢查實體網路連線，以及執行 <strong>網路診斷和修復</strong>，來解決網路問題。</li><li>您可以藉由變更程式選項或重新開機程式來解決程式問題。</li></ul><img src="images/mess-error-image25.png" alt="Screen shot of message: Can't find a camera " /><br /> 在此範例中，程式找不到可執行使用者工作的相機。<br /><img src="images/mess-error-image26.png" alt="Screen shot of message Network discovery off " /><br /> 在此範例中，必須開啟執行工作所需的功能。<br /> | 
-| <strong>檔案問題</strong><br /> 找不到使用者起始的工作所需的檔案或資料夾、已在使用中，或其格式不正確。 <br /> | <img src="images/mess-error-image27.png" alt="Screen shot of message: Can't delete file " /><br /> 在此範例中，因為找不到檔案或資料夾，所以無法予以刪除。<br /><img src="images/mess-error-image28.png" alt="Screen shot of message: Can't play this file " /><br /> 在此範例中，程式不支援指定的檔案格式。<br /> | 
-| <strong>安全性問題</strong><br /> 使用者無權存取資源，或有足夠的許可權來執行使用者所起始的工作。 <br /> | <img src="images/mess-error-image29.png" alt="Screen shot of message: You don't have permission " /><br /> 在此範例中，使用者沒有存取資源的許可權。<br /><img src="images/mess-error-image30.png" alt="Screen shot of message: You don't have privilege " /><br /> 在此範例中，使用者沒有執行工作的許可權。<br /> | 
-| <strong>工作問題</strong><br /> 執行使用者所起始的工作 (不是系統、找不到檔案、檔案格式或安全性問題) 的特定問題。 <br /> | <img src="images/mess-error-image31.png" alt="Screen shot of message: Data can't be pasted " /><br /> 在此範例中，剪貼簿資料無法貼入小畫家中。<br /><img src="images/mess-error-image32.png" alt="Screen shot of message: Upgrade can't be installed " /><br /> 在此範例中，使用者無法安裝軟體升級。<br /> | 
-| <strong>使用者輸入問題</strong><br /> 使用者輸入的值與其他使用者輸入不正確或不一致。 <br /> | <img src="images/mess-error-image33.png" alt="Screen shot of message: Incorrect time value " /><br /> 在此範例中，使用者輸入的時間值不正確。<br /><img src="images/mess-error-image34.png" alt="Screen shot of message: Incorrect input format " /><br /> 在此範例中，使用者輸入的格式不正確。<br /> | 
+| | | <strong>系統問題</strong><br /> 作業系統、硬體裝置、網路或程式失敗，或未處於執行工作所需的狀態。 <br /> |使用者可以解決許多系統問題： <br /><ul><li>裝置問題可以藉由開啟裝置、重新連接裝置，以及插入媒體來解決。</li><li>您可以藉由檢查實體網路連線，以及執行 <strong>網路診斷和修復</strong>，來解決網路問題。</li><li>您可以藉由變更程式選項或重新開機程式來解決程式問題。</li></ul><img src="images/mess-error-image25.png" alt="Screen shot of message: Can't find a camera " /><br /> 在此範例中，程式找不到可執行使用者工作的相機。<br /><img src="images/mess-error-image26.png" alt="Screen shot of message Network discovery off " /><br /> 在此範例中，必須開啟執行工作所需的功能。<br /> | |檔案 <strong>問題</strong><br /> 找不到使用者起始的工作所需的檔案或資料夾、已在使用中，或其格式不正確。 <br /> | <img src="images/mess-error-image27.png" alt="Screen shot of message: Can't delete file " /><br /> 在此範例中，因為找不到檔案或資料夾，所以無法予以刪除。<br /><img src="images/mess-error-image28.png" alt="Screen shot of message: Can't play this file " /><br /> 在此範例中，程式不支援指定的檔案格式。<br /> | | <strong>安全性問題</strong><br /> 使用者無權存取資源，或有足夠的許可權來執行使用者所起始的工作。 <br /> | <img src="images/mess-error-image29.png" alt="Screen shot of message: You don't have permission " /><br /> 在此範例中，使用者沒有存取資源的許可權。<br /><img src="images/mess-error-image30.png" alt="Screen shot of message: You don't have privilege " /><br /> 在此範例中，使用者沒有執行工作的許可權。<br /> | |工作 <strong>問題</strong><br /> 執行使用者所起始的工作 (不是系統、找不到檔案、檔案格式或安全性問題) 的特定問題。 <br /> | <img src="images/mess-error-image31.png" alt="Screen shot of message: Data can't be pasted " /><br /> 在此範例中，剪貼簿資料無法貼入小畫家中。<br /><img src="images/mess-error-image32.png" alt="Screen shot of message: Upgrade can't be installed " /><br /> 在此範例中，使用者無法安裝軟體升級。<br /> | | <strong>使用者輸入問題</strong><br /> 使用者輸入的值與其他使用者輸入不正確或不一致。 <br /> | <img src="images/mess-error-image33.png" alt="Screen shot of message: Incorrect time value " /><br /> 在此範例中，使用者輸入的時間值不正確。<br /><img src="images/mess-error-image34.png" alt="Screen shot of message: Incorrect input format " /><br /> 在此範例中，使用者輸入的格式不正確。<br /> | 
 
 
 ## <a name="guidelines"></a>指導方針
