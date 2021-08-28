@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 315f5e5e9edd218b26da6ff73ccb5b4e6a4fc8d1
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: e14071f133b42c94b20684d26889051b0dd489fc195a2ad7484bd0002622d787
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103935538"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119544658"
 ---
 # <a name="ms-ds-service-account-attribute"></a>ms DS-服務-帳戶屬性
 
@@ -52,7 +52,7 @@ ms.locfileid: "103935538"
 |------------------------|------------------------------------------|
 | 連結識別碼                | 2040                                     |
 | MAPI-Id                | \-                                       |
-| System-Only            | 對                                     |
+| System-Only            | 是                                     |
 | 是-單一值       | 否                                    |
 | 已編制索引             | 否                                    |
 | 在通用類別目錄中      | 否                                    |

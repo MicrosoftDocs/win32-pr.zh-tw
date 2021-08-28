@@ -4,12 +4,12 @@ ms.assetid: d635de18-5b7d-4fd3-9bf0-042d840ffc88
 title: '其他影片子類型 (Dshow .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0926ac99aa82dbdb9c0191ea6bd346461ce00676
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a8ddcaa0e96801951c31e0f6200b862faf7e8acb4eb2dde4005e1e99eef21b30
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106977695"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119684948"
 ---
 # <a name="miscellaneous-video-subtypes"></a>其他影片子類型
 
@@ -17,7 +17,7 @@ ms.locfileid: "106977695"
 
 
 
-| GUID                                                                                                                                                                                                                      | Description                                                                     |
+| GUID                                                                                                                                                                                                                      | 描述                                                                     |
 |:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------|
 | <span id="MEDIASUBTYPE_CFCC"></span><span id="mediasubtype_cfcc"></span><dl> <dt>**MEDIASUBTYPE \_ CFCC**</dt> </dl>                                                 | 某些卡片所產生的 MJPG 格式。  (FOURCC ' CFCC ' ) <br/>                  |
 | <span id="MEDIASUBTYPE_CLJR"></span><span id="mediasubtype_cljr"></span><dl> <dt>**MEDIASUBTYPE \_ CLJR**</dt> </dl>                                                 | Cirrus 邏輯 CLJR 格式。  (FOURCC ' CLJR ' ) <br/>                            |

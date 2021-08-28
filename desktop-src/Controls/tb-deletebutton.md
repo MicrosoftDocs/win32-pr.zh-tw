@@ -3,7 +3,7 @@ title: 'TB_DELETEBUTTON 訊息 (Commctrl .h) '
 description: 從工具列中刪除按鈕。
 ms.assetid: 6ba569f0-c400-4c0d-bc9f-3a82bcef0360
 keywords:
-- TB_DELETEBUTTON message Windows 控制項
+- TB_DELETEBUTTON 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c1d9bbbca143351f70005990b5ac97fa4fa35cad
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 527bac884c36d8bcbf1ddee245156557e392cf1b4591b03c8af7cfc9cc3c8f77
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103935159"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118957897"
 ---
 # <a name="tb_deletebutton-message"></a>TB \_ DELETEBUTTON 訊息
 
@@ -49,8 +49,8 @@ ms.locfileid: "103935159"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

@@ -4,12 +4,12 @@ description: 使用 System-Supplied 代理
 ms.assetid: 6709e5e2-50e0-470f-b618-3d3043f6e180
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 444cb94c5564a78ec5580ae8e7f781e91a8a9c15
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e0faec7c57f0e2010d0e817a4e44b81d65ad207371b591296bea2354307c7b80
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104311390"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119243428"
 ---
 # <a name="using-the-system-supplied-surrogate"></a>使用 System-Supplied 代理
 
@@ -28,9 +28,9 @@ ms.locfileid: "104311390"
 [DLL 代理](dll-surrogates.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

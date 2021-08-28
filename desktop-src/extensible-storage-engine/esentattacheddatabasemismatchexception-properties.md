@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101023
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: f6eb00b6a568ca10c12889e2a91fb967c6fe53cc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5425f0d6ff5f0aa0a4c885a898746a1b2acb5ed50c56b98177fb50e96b7738f4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111901"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119042176"
 ---
 # <a name="esentattacheddatabasemismatchexception-properties"></a>EsentAttachedDatabaseMismatchException 屬性
 

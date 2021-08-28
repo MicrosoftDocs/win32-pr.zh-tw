@@ -4,12 +4,12 @@ ms.assetid: 7cb8cbe4-eec8-4dda-9cb7-8d37abcee6f4
 title: '管道 (處理序間通訊) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1e84d3cb9354aca2cbab1e077c228070e62d6783
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 12af1a3381d369f0399c68543a2ae9c28cf99257ba5483d7214130999cfad2ea
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106984984"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119665888"
 ---
 # <a name="pipes-interprocess-communications"></a>管道 (處理序間通訊) 
 

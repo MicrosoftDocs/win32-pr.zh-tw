@@ -4,18 +4,18 @@ ms.assetid: f8bce153-cc5d-4087-896f-3f60afc80bc8
 title: RealTimeStylus 筆墨集合範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 24fe67ed59ea1a69f5d0d9a2656169f2df88a450
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 11065a40118c83be2451f9b2ac2431e5d7edb6cf31808030861d9f059774bf78
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975385"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119708385"
 ---
 # <a name="realtimestylus-ink-collection-sample"></a>RealTimeStylus 筆墨集合範例
 
 使用 [**RealTimeStylus**](realtimestylus-class.md) 類別時，此應用程式會示範筆墨收集和轉譯。
 
-## <a name="the-inkcollection-project"></a>InkCollection 專案
+## <a name="the-inkcollection-project"></a>InkCollection Project
 
 此範例包含單一方案，其中包含一個專案 InkCollection。 應用程式會定義 `InkCollection` 包含單一類別（也稱為）的命名空間 `InkCollection` 。 類別繼承自 [Form](/dotnet/api/system.windows.forms.form?view=netcore-3.1) 類別，並會執行 [**IStylusAsyncPlugin**](/windows/win32/api/rtscom/nn-rtscom-istylusasyncplugin) 介面。
 
@@ -113,7 +113,7 @@ private void InkCollection_Load(object sender, System.EventArgs e)
 
 
 
-除了連結功能表處理常式來變更筆墨色彩和大小之外，還需要一個簡單的程式碼區塊，才能執行介面。 範例必須處理表單的 [繪製](/dotnet/api/system.windows.forms.control.paint?view=netcore-3.1) 事件。 在事件處理常式中，應用程式必須重新整理， `myDynamicRenderer` 因為可能會在繪製事件發生時收集 [筆觸](/previous-versions/ms552692(v=vs.100)) 物件。 在此情況下，必須重新繪製已收集之筆劃物件的部分。 [靜態轉譯](/previous-versions/ms828481(v=msdn.10))器用來重新繪製已收集的筆觸物件。 這些筆觸是在 [筆墨](/previous-versions/aa515768(v=msdn.10)) 物件中，因為它們會在繪製時放置於其中，如下一節所示。
+除了連結功能表處理常式來變更筆墨色彩和大小之外，還需要一個簡單的程式碼區塊，才能執行介面。 範例必須處理表單的[小畫家](/dotnet/api/system.windows.forms.control.paint?view=netcore-3.1)事件。 在事件處理常式中，應用程式必須重新整理， `myDynamicRenderer` 因為在發生小畫家事件時，可能會收集[Stroke](/previous-versions/ms552692(v=vs.100))物件。 在此情況下，必須重新繪製已收集之筆劃物件的部分。 [靜態轉譯](/previous-versions/ms828481(v=msdn.10))器用來重新繪製已收集的筆觸物件。 這些筆觸是在 [筆墨](/previous-versions/aa515768(v=msdn.10)) 物件中，因為它們會在繪製時放置於其中，如下一節所示。
 
 
 ```C++

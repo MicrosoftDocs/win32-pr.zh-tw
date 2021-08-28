@@ -25,12 +25,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: db9755c952e346f5c08c0bd74caa9bf8b90fe252
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1d799cd008fa63aae3ba262a9c89c031e9fce9a2591e8636e120b36ab2b37e5c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104513781"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117701764"
 ---
 # <a name="transactionisintransaction-property"></a>IsInTransaction 屬性
 

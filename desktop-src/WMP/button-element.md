@@ -10,12 +10,12 @@ keywords:
 - 元素、按鈕
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c069207e15be62e06b4d2b18f13c052026932dc
-ms.sourcegitcommit: 6f7576b297d54c0b8f9c79e02c912b83041aa4fb
+ms.openlocfilehash: 13ca4e57dafdc01fc194c4cf4bc534e067297a58fcc2527939e3672f2d705628
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/09/2019
-ms.locfileid: "103679271"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119736728"
 ---
 # <a name="button-element"></a>BUTTON 元素
 
@@ -42,7 +42,7 @@ ms.locfileid: "103679271"
 
 
 
- 
+ 
 
 **BUTTON** 元素支援環境屬性，並可執行環境事件處理常式。 如需詳細資訊，請參閱 [環境屬性](ambient-attributes.md) 和 [環境事件處理常式](ambient-event-handlers.md)。
 
@@ -50,7 +50,7 @@ ms.locfileid: "103679271"
 
 
 
-| 預先定義的按鈕                    | Description                                                                        |
+| 預先定義的按鈕                    | 描述                                                                        |
 |--------------------------------------|------------------------------------------------------------------------------------|
 | [CLOSEBUTTON](closebutton.md)       | 用來關閉播放玩家的 **按鈕** 。                                             |
 | [FFWDBUTTON](ffwdbutton.md)         | 具有 **fastForward** 之內建呼叫的 **按鈕**。 |
@@ -62,14 +62,14 @@ ms.locfileid: "103679271"
 | [PLAYBUTTON](playbutton.md)         | 具有對 player 之內建呼叫的 **按鈕** 。按一下時即會 **播放** 。        |
 | [PREVBUTTON](prevbutton.md)         | 具有對 player 之內建呼叫的 **按鈕** 。按一下時為 **先前的控制項** 。    |
 | [REPEATBUTTON](repeatbutton.md)     | 切換重複選項的 **按鈕** 。                                       |
-| [RETURNBUTTON](returnbutton.md)     | 傳回 Media center Windows Media Player 的 **按鈕** 。                |
+| [RETURNBUTTON](returnbutton.md)     | 傳回 Media center Windows Media Player 的 **按鈕**。                |
 | [REWBUTTON](rewbutton.md)           | 具有 **fastReverse** 之內建呼叫的 **按鈕**。 |
 | [SHUFFLEBUTTON](shufflebutton.md)   | 切換隨機選項的 **按鈕** 。                                      |
 | [STOPBUTTON](stopbutton.md)         | 具有對 player 之內建呼叫的 **按鈕** 。按一下時就會 **停止** 。        |
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -78,9 +78,9 @@ ms.locfileid: "103679271"
 [**外觀程式設計參考**](skin-programming-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

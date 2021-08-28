@@ -1,19 +1,19 @@
 ---
-description: 專案 <templateInfo> 是 folderType 專案的容器，可指定資料夾類型，以顯示透過此程式庫查詢的結果。 這個元素是選擇性的，且沒有任何屬性。
+description: '&lt;TemplateInfo &gt; 元素是 folderType 專案的容器，可指定用來顯示此程式庫查詢結果的資料夾類型。 這個元素是選擇性的，且沒有任何屬性。'
 ms.assetid: C555097A-E7B8-45ef-8CFA-19CFBC5E9D5A
 title: 'templateInfo 元素 (程式庫架構) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eda0c42e71db2e47335371b51d9dc819620e6b28dfac63ee9c0e2a640ccab0b9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f55fec64bf7418eef8e70c4cf8fa1ee47006c5f2
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119942088"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122885524"
 ---
 # <a name="templateinfo-element-library-schema"></a>templateInfo 元素 (程式庫架構) 
 
-專案 <templateInfo> 是 [folderType](schema-library-foldertype.md) 專案的容器，可指定資料夾類型，以顯示透過此程式庫查詢的結果。 這個元素是選擇性的，且沒有任何屬性。
+&lt;TemplateInfo &gt; 元素是[folderType](schema-library-foldertype.md)專案的容器，可指定用來顯示此程式庫查詢結果的資料夾類型。 這個元素是選擇性的，且沒有任何屬性。
 
 ## <a name="syntax"></a>Syntax
 

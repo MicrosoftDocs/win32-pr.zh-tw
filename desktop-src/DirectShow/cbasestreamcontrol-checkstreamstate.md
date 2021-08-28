@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: e469e288e853ca88a0cf15c209882a8114e33509
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 59c74f6933929b54be7e4933220358105f2dbe6d7be5f74db13be7c3092ffe17
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107000742"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119537378"
 ---
 # <a name="cbasestreamcontrolcheckstreamstate-method"></a>CBaseStreamControl. CheckStreamState 方法
 
@@ -55,7 +55,7 @@ enum CheckStreamState(
 
 
 
-| 傳回碼                                                                                       | Description                     |
+| 傳回碼                                                                                       | 描述                     |
 |---------------------------------------------------------------------------------------------------|---------------------------------|
 | <dl> <dt>**資料流程 \_ 捨棄**</dt> </dl> | 捨棄此範例。<br/> |
 | <dl> <dt>**串流 \_ 流動**</dt> </dl>    | 傳遞此範例。<br/> |

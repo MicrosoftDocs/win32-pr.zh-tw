@@ -4,12 +4,12 @@ description: 指示 RPC 不要強制執行相互關聯一致性檢查。
 ms.assetid: 33ba331d-56e5-4965-a844-7780ea81623d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dc55197b5eb680533745a09d4fca4f5827574a7c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: cc88112ac80462daa6c1babdd29799ccf05e33bb4edb52de1ffbbbb00e71352b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104300403"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117807223"
 ---
 # <a name="disable_consistency_check-attribute"></a>停用 \_ 一致性 \_ 檢查屬性
 
@@ -40,9 +40,9 @@ HRESULT PassString( [in] DWORD Length, [in, unique, string,
 
 若要停用整個 MIDL 編譯 (的一致性檢查，並在所有情況下停用強制檢查) ，可以使用 MIDL 命令列參數 [/backward \_ 相容性 maybenull \_ sizeis](-backward-compat.md) 。 這需要 MIDL 編譯的目標至少為 "target NT60"。
 
- 
+ 
 
- 
+ 
 
 
 

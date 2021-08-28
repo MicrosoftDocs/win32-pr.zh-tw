@@ -4,12 +4,12 @@ ms.assetid: 75c0d63c-3ff1-4ba1-9323-55f4ae06fe0f
 title: 'AVEncVideoHeaderMinutes 屬性 (Codecapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 19a59c24095e3455b469805659e8fbfd0af233e7
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: e6ca0b35d581acc34e56633a39756c4ef59f8bf48c361c18f00ddac79763e5a1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106967002"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119275578"
 ---
 # <a name="avencvideoheaderminutes-property"></a>AVEncVideoHeaderMinutes 屬性
 
@@ -35,8 +35,8 @@ ms.locfileid: "106967002"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 2000 專業版傳統型 \[ 應用程式 \| UWP 應用程式\]<br/>                     |
-| 最低支援的伺服器<br/> | Windows 2000 Server \[ desktop 應用程式 \| UWP 應用程式\]<br/>                           |
+| 最低支援的用戶端<br/> | Windows 2000 Professional \[ 桌面應用程式 \| UWP 應用程式\]<br/>                     |
+| 最低支援的伺服器<br/> | Windows 2000 Server \[ desktop apps \| UWP 應用程式\]<br/>                           |
 | 標頭<br/>                   | <dl> <dt>Codecapi。h</dt> </dl> |
 
 

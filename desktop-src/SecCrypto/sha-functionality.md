@@ -4,12 +4,12 @@ ms.assetid: 75128a4f-273a-4195-b206-30fc8bc589e9
 title: SHA 功能
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ad8a06ce5c11dfaa00e2ec7ee3427dfda2f8b3ba
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 728415b746681121593a3e93f62a66168e59ca49b6f7737b6f39565ba00200d9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103689456"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118900328"
 ---
 # <a name="sha-functionality"></a>SHA 功能
 

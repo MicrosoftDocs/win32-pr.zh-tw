@@ -4,12 +4,12 @@ ms.assetid: 747ae5ee-adc1-4aa7-8239-2379f76bfd0f
 title: ICEM09
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6e4d2af38903d2e704d49b48f932818d8dfaeeb1e12588c007d4af05c297642c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 30542ead9a47ab5e92074227b1ae47fa6de0e643
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119894488"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122887401"
 ---
 # <a name="icem09"></a>ICEM09
 
@@ -74,10 +74,10 @@ Many merge tools will generate duplicate actions."
 
 | 元件               | 目錄          |
 |-------------------------|--------------------|
-| Component1.<GUID> | ProgramFilesFolder |
-| Component2.<GUID> | StartMenuFolder    |
-| Component3.<GUID> | AppDataFolder      |
-| Component4.<GUID> | MyPicturesFolder   |
+| Component1。 &lt;GUID&gt; | ProgramFilesFolder |
+| Component2。 &lt;GUID&gt; | StartMenuFolder    |
+| Component3。 &lt;GUID&gt; | AppDataFolder      |
+| Component4。 &lt;GUID&gt; | MyPicturesFolder   |
 
 
 
@@ -89,8 +89,8 @@ Many merge tools will generate duplicate actions."
 
 | CustomAction                 | 類型 | 來源                       | 目標              |
 |------------------------------|------|------------------------------|---------------------|
-| StartMenuFolder.<GUID> | 51   | StartMenuFolder.<GUID> | \[StartMenuFolder\] |
-| MyAppDataFolderAction        | 51   | AppDataFolder.<GUID>   | \[AppDataFolder\]   |
+| StartMenuFolder。 &lt;GUID&gt; | 51   | StartMenuFolder。 &lt;GUID&gt; | \[StartMenuFolder\] |
+| MyAppDataFolderAction        | 51   | AppDataFolder。 &lt;GUID&gt;   | \[AppDataFolder\]   |
 
 
 
@@ -102,7 +102,7 @@ Many merge tools will generate duplicate actions."
 
 | 動作                       | 順序 | BaseAction | After | 條件 |
 |------------------------------|----------|------------|-------|-----------|
-| StartMenuFolder.<GUID> | 100      |            |       |           |
+| StartMenuFolder。 &lt;GUID&gt; | 100      |            |       |           |
 
 
 

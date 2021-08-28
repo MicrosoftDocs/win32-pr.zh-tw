@@ -4,12 +4,12 @@ description: 將 ProgID 與 CLSID 產生關聯。 此索引鍵可用來判斷物
 ms.assetid: fb43c8d0-d923-487f-afdf-14fc29a71e0b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 88dec371f87ff3aba98bd642537e4de893df20682cc9bd84eda8829f24d241b9
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ad09f9d86c2f34d93757e940c5262cd294485ad5
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119567968"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122883146"
 ---
 # <a name="version-independent-progid-key"></a>與版本無關的 ProgID 金鑰
 
@@ -58,7 +58,7 @@ HKEY_CLASSES_ROOT\CLSID\{00000402-0000-0000-C000-000000000046}
 [**ProgIDFromCLSID**](/windows/desktop/api/combaseapi/nf-combaseapi-progidfromclsid)
 </dt> <dt>
 
-[<ProgID> 關鍵](-progid--key.md)
+[&lt;ProgID 索引 &gt; 鍵](-progid--key.md)
 </dt> </dl>
 
  

@@ -4,12 +4,12 @@ ms.assetid: 36307589-de0e-4eaf-b439-e7ba3cd96fb3
 title: ICE 訊息指導方針
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0951f8573fce1b9dbe81b107fba2f2beb674ed063fae53182a7d2694ded35abb
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: d603175dbecc12b0b9524db1a02d9ca677f61c87
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119821668"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122887445"
 ---
 # <a name="ice-message-guidelines"></a>ICE 訊息指導方針
 
@@ -17,7 +17,7 @@ ICE 自訂動作會藉由呼叫 [**MsiProcessMessage**](/windows/desktop/api/Msi
 
 撰寫 ICE 自訂動作的訊息字串時，請將字串格式化，如下所示。
 
-*ICE* <tab> 的名稱 *訊息類型* <tab>*描述* <tab>說明 *URL 或位置* <tab>*資料表名稱* <tab>資料 *行名稱* <tab>*主要金鑰* <tab>*主要金鑰* <tab>*主鍵*。 . .  (視需要針對多個主要金鑰重複執行) 
+*ICE* &lt; 的名稱索引標籤訊息類型索引標籤描述索引標籤 &gt;  &lt; &gt; *說明* &lt; &gt; *URL 或位置* 索引標籤的 &lt; &gt; *資料表名稱* &lt; &gt;  &lt; &gt;  &lt; &gt;  &lt; &gt; 索引標籤主鍵索引標籤主要索引標籤主要索引鍵 . .  (視需要針對多個主要金鑰重複執行) 
 
 每個訊息中都需要字串的前三個欄位。
 

@@ -20,17 +20,17 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: c432f8e09ad706b6632e4e5ca49a89a263a84dbb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2cdac49d766835a0d26a3b9d474b8759a552ed1d
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975555"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122984901"
 ---
 # <a name="jetdeletetable-function"></a>JetDeleteTable 函式
 
 
-_**適用于：** Windows |Windows Server_
+_**適用于：** Windows |Windows伺服器_
 
 ## <a name="jetdeletetable-function"></a>JetDeleteTable 函式
 
@@ -60,74 +60,30 @@ _**適用于：** Windows |Windows Server_
 
 ### <a name="return-value"></a>傳回值
 
-此函數會傳回具有下列其中一個傳回碼的 [JET_ERR](./jet-err.md) 資料類型。 如需可能 ESE 錯誤的詳細資訊，請參閱可延伸 [儲存引擎錯誤](./extensible-storage-engine-errors.md) 和 [錯誤處理參數](./error-handling-parameters.md)。
+此函數會傳回具有下列其中一個傳回碼的 [JET_ERR](./jet-err.md) 資料類型。 如需可能 ESE 錯誤的詳細資訊，請參閱可延伸的[儲存體引擎錯誤](./extensible-storage-engine-errors.md)和[錯誤處理參數](./error-handling-parameters.md)。
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>傳回碼</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errSuccess</p></td>
-<td><p>作業已成功完成。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errTableInUse</p></td>
-<td><p>嘗試刪除資料表，而另一個會話具有開啟的資料表識別碼 (<a href="gg269182(v=exchg.10).md">JET_TABLEID</a>) 具有 <a href="gg294118(v=exchg.10).md">JetOpenTable</a> 或 <a href="gg269193(v=exchg.10).md">JetDupCursor</a>。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errCannotDeletetemporary 資料表</p></td>
-<td><p>嘗試刪除臨時表。 當臨時表以 <a href="gg294087(v=exchg.10).md">JetCloseTable</a>關閉時，就會自動刪除。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errCannotDeleteTemplateTable</p></td>
-<td><p>嘗試刪除範本資料表，也就是可以繼承 DDL 的資料表。</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>傳回碼</p> | <p>Description</p> | 
+|--------------------|--------------------|
+| <p>JET_errSuccess</p> | <p>作業已成功完成。</p> | 
+| <p>JET_errTableInUse</p> | <p>嘗試刪除資料表，而另一個會話具有開啟的資料表識別碼 (<a href="gg269182(v=exchg.10).md">JET_TABLEID</a>) 具有 <a href="gg294118(v=exchg.10).md">JetOpenTable</a> 或 <a href="gg269193(v=exchg.10).md">JetDupCursor</a>。</p> | 
+| <p>JET_errCannotDeletetemporary 資料表</p> | <p>嘗試刪除臨時表。 當臨時表以 <a href="gg294087(v=exchg.10).md">JetCloseTable</a>關閉時，就會自動刪除。</p> | 
+| <p>JET_errCannotDeleteTemplateTable</p> | <p>嘗試刪除範本資料表，也就是可以繼承 DDL 的資料表。</p> | 
+
 
 
 #### <a name="requirements"></a>規格需求
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>用戶端</strong></p></td>
-<td><p>需要 Windows Vista、Windows XP 或 Windows 2000 Professional。</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>伺服器</strong></p></td>
-<td><p>需要 Windows Server 2008、Windows Server 2003 或 Windows 2000 Server。</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>標頭</strong></p></td>
-<td><p>宣告于 Esent. h 中。</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>程式庫</strong></p></td>
-<td><p>使用 ESENT。</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>DLL</strong></p></td>
-<td><p>需要 ESENT.dll。</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Unicode</strong></p></td>
-<td><p>實作為 <strong>JetDeleteTableW</strong> (Unicode) 和 <strong>JetDeleteTableA</strong> (ANSI) 。</p></td>
-</tr>
-</tbody>
-</table>
+
+| 需求 | 值 |
+|------------|----------|
+| <p><strong>用戶端</strong></p> | <p>需要 Windows Vista、Windows XP 或 Windows 2000 Professional。</p> | 
+| <p><strong>伺服器</strong></p> | <p>需要 Windows server 2008、Windows Server 2003 或 Windows 2000 Server。</p> | 
+| <p><strong>標頭</strong></p> | <p>宣告于 Esent. h 中。</p> | 
+| <p><strong>程式庫</strong></p> | <p>使用 ESENT。</p> | 
+| <p><strong>DLL</strong></p> | <p>需要 ESENT.dll。</p> | 
+| <p><strong>Unicode</strong></p> | <p>實作為 <strong>JetDeleteTableW</strong> (Unicode) 和 <strong>JetDeleteTableA</strong> (ANSI) 。</p> | 
+
 
 
 #### <a name="see-also"></a>另請參閱

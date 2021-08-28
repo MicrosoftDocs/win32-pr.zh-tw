@@ -4,12 +4,12 @@ ms.assetid: D75A6D42-D4BB-4168-AD91-E2B8BE847128
 title: LaunchDeviceStageFromExplorer
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1e2219b05af3a2374e9e702da2be143eefe08c80
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: eb7dc1e70775ba2ebe642c2fc35cccdd93299167cb8a75ee9bab18dc78857aa8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103851004"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119711188"
 ---
 # <a name="systemdeviceslaunchdevicestagefromexplorer"></a>LaunchDeviceStageFromExplorer
 

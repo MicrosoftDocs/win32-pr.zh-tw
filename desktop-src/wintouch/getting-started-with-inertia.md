@@ -3,16 +3,16 @@ title: 慣性
 description: 本節說明 Windows Touch 的慣性。
 ms.assetid: c33dda89-c715-4da0-a7af-aa0010dfd88b
 keywords:
-- Windows Touch，慣性
+- Windows觸控、慣性
 - 慣性，關於
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f3b69ad31ec4a61f8723c9e52f87883dc4af3772
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 19ff1fd58d52ba73d758254c1dac1e8952df30b836b68ef12b022a29ceafc694
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104020933"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119709808"
 ---
 # <a name="inertia"></a>慣性
 
@@ -29,7 +29,7 @@ ms.locfileid: "104020933"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -38,9 +38,9 @@ ms.locfileid: "104020933"
 [操作和慣性](manipulation-and-inertia.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

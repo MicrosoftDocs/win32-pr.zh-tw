@@ -4,12 +4,12 @@ ms.assetid: ba2f40cd-b0df-4768-8080-4fd80c50f2c2
 title: 佇列檔
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bc7b5ab9a9be136e50547076c8daf9bd519ade72
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a73a05c9aef71e5707fd7814a4df1fdfa7cce4c1be5bed8a561dd0a0dc6de964
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103849442"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119665428"
 ---
 # <a name="queuing-files"></a>佇列檔
 

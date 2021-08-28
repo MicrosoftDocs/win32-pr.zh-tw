@@ -7,12 +7,12 @@ keywords:
 - 狀態變數，OpenGL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 36dee51ba7726277832d94eaf336d03d3c579189
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a8164cebd065a69f923e908a26bf2ce80357312c73c35f12bc2066c63db91eff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106965370"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118936767"
 ---
 # <a name="opengl-state-variables"></a>OpenGL 狀態變數
 
@@ -39,9 +39,9 @@ ms.locfileid: "106965370"
 
 *OpenGL 參考手冊*。
 
- 
+ 
 
- 
+ 
 
 
 

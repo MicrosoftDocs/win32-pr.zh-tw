@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ba1bc25337bf49a48b54b6b2426673daf8a15bd9
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 07e6dc285e1a19fab8e0363391fbd81429e931cd
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934598"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122630837"
 ---
 # <a name="winbio_biometric_subtype-constants"></a>WINBIO \_ 生物特徵辨識 \_ 子類型常數
 
@@ -26,7 +26,7 @@ ms.locfileid: "103934598"
 
 
 
-| 常數/值                                                                                                                                                                                                                                                            | Description                        |
+| 常數/值                                                                                                                                                                                                                                                            | 描述                        |
 |:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------|
 | <span id="WINBIO_SUBTYPE_NO_INFORMATION"></span><span id="winbio_subtype_no_information"></span><dl> <dt>**WINBIO \_子類型 \_ 沒有 \_ 資訊**</dt> <dt>0x00</dt> </dl> | 沒有子類型資訊。<br/> |
 | <span id="WINBIO_SUBTYPE_ANY"></span><span id="winbio_subtype_any"></span><dl> <dt>**WINBIO \_子類型 \_ 任何**</dt> <dt>0xff</dt> </dl>                                   | 任何子型別。<br/>            |
@@ -41,8 +41,8 @@ ms.locfileid: "103934598"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -106,8 +106,8 @@ ms.locfileid: "103934598"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                                                    |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/>                                                       |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                                                    |
+| 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/>                                                       |
 | 標頭<br/>                   | <dl> <dt>Winbio \_ 類型 .h (包含 Winbio .h) </dt> </dl> |
 
 

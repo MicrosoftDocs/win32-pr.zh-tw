@@ -3,7 +3,7 @@ title: 'EM_FMTLINES 訊息 (Winuser .h) '
 description: 設定旗標，判斷多行編輯控制項是否包含軟換行字元。 軟換行是由兩個換行字元和換行字元所組成，且會插入到因為 wordwrapping 而中斷的行尾。
 ms.assetid: bfc08062-b0a7-4ba7-8858-00cb20895c77
 keywords:
-- EM_FMTLINES message Windows 控制項
+- EM_FMTLINES 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7c12a22ee8c30ffa74705f670a16caa3651e9b44
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6e0c0c410f13a33f0e387098178b42faaf3269c36d11f75e765eb753fa9d0844
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465576"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119545098"
 ---
 # <a name="em_fmtlines-message"></a>EM \_ FMTLINES 訊息
 
@@ -66,9 +66,9 @@ ms.locfileid: "104465576"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                     |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 

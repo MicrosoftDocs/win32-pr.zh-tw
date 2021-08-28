@@ -4,12 +4,12 @@ description: 本節包含數個 Direct3D 11 轉譯技術的相關資訊。
 ms.assetid: 43772cb4-731f-4f0f-b549-cd1660aece03
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3a0046a65474218ebb2822df27bc780c82111fb6
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 60ef82b48b4dc5d1e0acca915a8fc9bd69e9214b9367ab5d295361bbee6bc64c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104024390"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119608528"
 ---
 # <a name="rendering-direct3d-11-graphics"></a>轉譯 (Direct3D 11 圖形) 
 

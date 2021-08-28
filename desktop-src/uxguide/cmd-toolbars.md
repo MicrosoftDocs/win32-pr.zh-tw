@@ -4,12 +4,12 @@ description: 工具列是一種將命令分組以進行有效率存取的方式�
 ms.assetid: 8f36307c-54fc-493d-a2ff-57db29e3508d
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 8015e1dec17ad524645b474b21d42af9269ffbc8d24279c56612620f0e4bb615
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 461b9045716ed6cc894a88079e4626107f954a99
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118449939"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122884426"
 ---
 # <a name="toolbars"></a>工具列
 
@@ -356,46 +356,60 @@ ms.locfileid: "118449939"
 
 <dl> 檔案 <dl> NewCtrl + N  
 打開。。。Ctrl + O  
-關閉 <separator>  
+關閉  
+&lt;separator&gt;  
 SaveCtrl + S  
-另存新檔 .。。 <separator>  
-傳送至 <separator>  
+另存新檔 .。。  
+&lt;separator&gt;  
+傳送到  
+&lt;separator&gt;  
 列印。。。Ctrl + P  
 預覽列印  
-頁面設定 <separator>  
+版面設定  
+&lt;separator&gt;  
 通常不會提供 ExitAlt + F4 (快速鍵) 
 </dl> </dd> Edit(menu button) <dl> UndoCtrl + Z  
-RedoCtrl + Y <separator>  
+RedoCtrl + Y  
+&lt;separator&gt;  
 CutCtrl + X  
 CopyCtrl + C  
-PasteCtrl + V <separator>  
-選取 allCtrl + A <separator>  
+PasteCtrl + V  
+&lt;separator&gt;  
+選取 allCtrl + A  
+&lt;separator&gt;  
 通常不會提供 DeleteDel (的快捷方式)   
-重 命名。。。 <separator>  
+重新命名...  
+&lt;separator&gt;  
 找到。。。Ctrl + F  
 尋找 nextF3 (命令通常未提供)   
 取代。。。Ctrl + H  
 轉到 (G) 。。。Ctrl + G
 </dl> </dd> <dd>列印 (分割按鈕)  <dl> 列印。。。Ctrl + P  
-預覽列印 <separator>  
+預覽列印  
+&lt;separator&gt;  
 版面設定
 </dl> </dd> 查看 (功能表按鈕)  <dl> 功能表列 (檢查是否可見)   
 詳細資料窗格 (檢查是否可見)   
 預覽窗格 (檢查是否可見)   
-狀態列 (檢查是否可見) <separator>  
+狀態列 (檢查是否可見)   
+&lt;separator&gt;  
 Zoom  
 Zoom inCtrl + +  
-Zoom outCtrl +- <separator>  
+Zoom outCtrl +-  
+&lt;separator&gt;  
 文字大小 (選取的設定具有專案符號)  <dl> 最大  
 大  
 中  
 小  
 最小
-</dl> </dd> <separator> 完整 screenF11  
-RefreshF5
-</dl> </dd> Tools(menu button) <dl> ... <separator>  
+</dl> </dd> &lt;separator&gt;  
+Full screenF11  
+RefreshF5  
+</dl> </dd> Tools(menu button) <dl> ...  
+&lt;separator&gt;  
 選項
-</dl>> </dd> Help(split button, use the Help icon) <dl> <program name> helpF1 <separator>  
+</dl>> </dd> Help(split button, use the Help icon) <dl> <program name> helpF1  
+&lt;separator&gt;  
 詢問 <program name>  
 </dl> </dd> </dl>
 

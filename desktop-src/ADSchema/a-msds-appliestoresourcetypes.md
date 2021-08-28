@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1df924371276e13dc9d8cdb96fc685ce8ee6aae2
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: fb06d78264475123b225bf27d0bb7bec53794db2ef1a9f668a9e13973bcbe60a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106970861"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118960927"
 ---
 # <a name="ms-ds-applies-to-resource-types-attribute"></a>ms-DS-適用于資源類型的屬性
 

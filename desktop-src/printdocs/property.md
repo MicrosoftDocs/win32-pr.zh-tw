@@ -4,12 +4,12 @@ ms.assetid: 14631336-adfc-4edf-81ef-63e426d41c87
 title: '屬性 (檔和列印) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dedeb635ec0f16fe4caee48d8e5db7fbcc8bfe6651e3bdc4de2166dbbc053286
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 911d89913daa9f828fddd4f9fb8dee8bd6a53e01
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119886318"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122883457"
 ---
 # <a name="property-documents-and-printing"></a>屬性 (檔和列印) 
 
@@ -21,7 +21,7 @@ ms.locfileid: "119886318"
 
 ## <a name="element-tag"></a>元素標記
 
-<Property>
+&lt;屬性&gt;
 
 ## <a name="xml-attributes"></a>XML 屬性
 
@@ -63,7 +63,7 @@ ms.locfileid: "119886318"
 
 除了出現在功能和選項專案中之外，屬性專案也可以出現在個別基礎技術的根層級上。 列印架構會定義一組屬性元素，可用來以可移植的方式描述裝置。 但是，如果這些屬性不符合您的需求做為 PrintCapabilities 提供者 (通常是因為支援的裝置具有列印架構) 不預期的新穎層面，您可能會引進自己的私用屬性元素。 您可以藉由將一或多個私用子屬性新增為公用屬性的元素內容，來增強或詳細地增強或詳細說明公用屬性所提供的資訊。
 
-您可以使用 XML 專案標記來定義屬性元素 <Property> 。 每個屬性都會透過其 name 屬性來指派名稱。 名稱必須是 XML QName，而且必須符合命名空間慣例。 如需詳細資訊，請參閱 [XML 屬性](xml-attributes.md)。 屬性名稱屬性及其在父屬性專案階層中的位置 (如果它是子屬性) 可唯一識別 PrintCapabilities 檔內的屬性或 PrintTicket。
+屬性元素是使用 XML 專案標記、屬性來定義 &lt; &gt; 。 每個屬性都會透過其 name 屬性來指派名稱。 名稱必須是 XML QName，而且必須符合命名空間慣例。 如需詳細資訊，請參閱 [XML 屬性](xml-attributes.md)。 屬性名稱屬性及其在父屬性專案階層中的位置 (如果它是子屬性) 可唯一識別 PrintCapabilities 檔內的屬性或 PrintTicket。
 
 屬性可包含一或多個值元素，或是一或多個子屬性元素 (稱為子屬性) ，或兩者的組合。 當屬性本身由多個元件組成時，子屬性會很有用。 例如，"ConsumableColor" 屬性可能具有 "C"、"M" 和 "Y" 元件。
 

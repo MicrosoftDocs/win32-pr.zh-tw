@@ -13,16 +13,16 @@ api_type:
 - DllExport
 api_location:
 - Setupapi.dll
-ms.openlocfilehash: 625e84e9ee88edb1ede310ec4459e89ef2e44be6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e5b4ceedc81af400d670a586df6aa0b8fcbb830e816c32e37113ab18d99028f6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107000887"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119690878"
 ---
 # <a name="psetupgetglobalflags-function"></a>pSetupGetGlobalFlags 函式
 
-\[在 Windows Vista 或 Windows Server 2008 中無法使用此功能。\]
+\[Windows Vista 或 Windows Server 2008 中無法使用此功能。\]
 
 **PSetupGetGlobalFlags** 函式是不受支援的公用程式。
 

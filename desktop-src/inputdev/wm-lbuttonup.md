@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7fe921ffe68359efe15aa0782c5c8543fd0870fa
-ms.sourcegitcommit: ca37395fd832e798375e81142b97cffcffabf184
+ms.openlocfilehash: 61d7d1b8c83322b011af3da0e2df5ed6eb772781f7e1d5f30d7a9bd3013710ee
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "110335392"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119666368"
 ---
 # <a name="wm_lbuttonup-message"></a>WM \_ LBUTTONUP 訊息
 

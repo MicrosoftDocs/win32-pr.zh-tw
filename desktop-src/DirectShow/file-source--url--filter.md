@@ -4,12 +4,12 @@ ms.assetid: 405fd6ea-aa17-4d11-8f07-067468cb090b
 title: 檔案來源 (URL) 篩選
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a0ddfa7282adbf5117bd2c52465c6eb30efbd69e
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: a096d25e5e04246385ece9662ed93e209115756491b1a3581cbb01de38225e66
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107909236"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119685618"
 ---
 # <a name="file-source-url-filter"></a>檔案來源 (URL) 篩選
 
@@ -42,7 +42,7 @@ URL 檔案來源篩選器是一般的非同步來源篩選，可搭配可透過�
 
 <dl> <dt>
 
-[DirectShow 篩選](directshow-filters.md)
+[DirectShow過濾 器](directshow-filters.md)
 </dt> </dl>
 
  

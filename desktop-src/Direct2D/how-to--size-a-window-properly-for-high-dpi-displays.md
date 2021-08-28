@@ -4,12 +4,12 @@ description: 描述為應用程式建立可在高 DPI 顯示器上正確顯示�
 ms.assetid: 72a4b076-1cf0-4dc9-bd75-43b5173fc2a0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1dd45b4b654556fc251575410cc11f9b66961263
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 45d8ebc6a7621623307d9b2cfd953a5fa3f3387fbacb3faeb345375d925044cf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112406151"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119259958"
 ---
 # <a name="displaying-properly-on-a-high-dpi-display"></a>在高 DPI 顯示器上適當顯示
 
@@ -64,13 +64,13 @@ ms.locfileid: "112406151"
 
 > [!Note]
 >
-> 從 Windows 8 開始，您可以使用 [**Windows：： Graphics：:D isplay：:D isplayproperties**](/uwp/api/Windows.Graphics.Display.DisplayProperties) 類別來取得系統 DPI。
+> 從 Windows 8 開始，您可以使用 [**Windows：： Graphics：:D isplay：:D isplayproperties**](/uwp/api/Windows.Graphics.Display.DisplayProperties)類別來取得系統 DPI。
 
  
 
 ## <a name="step-2-declare-that-the-application-is-dpi-aware"></a>步驟2：宣告應用程式是 DPI-Aware
 
-當應用程式宣告本身為 DPI 感知時，它會指定應用程式在 DPI 設定上的運作方式，最高可達 200 DPI。 在 Windows Vista 和 Windows 7 中，啟用 DPI 虛擬化時，不會調整非 DPI 感知的應用程式，而應用程式會從系統 Api （例如 [**GetSystemMetric**](/windows/desktop/api/winuser/nf-winuser-getsystemmetrics) 函式）接收虛擬化資料。 若要宣告您的應用程式為 DPI 感知，請完成下列步驟。
+當應用程式宣告本身為 DPI 感知時，它會指定應用程式在 DPI 設定上的運作方式，最高可達 200 DPI。 在 Windows Vista 和 Windows 7 中，啟用 DPI 虛擬化時，不會調整非 DPI 感知的應用程式，而應用程式會從系統 api （例如 [**GetSystemMetric**](/windows/desktop/api/winuser/nf-winuser-getsystemmetrics)函式）接收虛擬化資料。 若要宣告您的應用程式為 DPI 感知，請完成下列步驟。
 
 1.  建立名為 DeclareDPIAware 的檔案。
 2.  將下列 xml 複製到檔案中，並加以儲存：

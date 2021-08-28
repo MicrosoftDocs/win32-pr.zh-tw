@@ -1,19 +1,19 @@
 ---
-description: Windows 安全性模型可讓您控制服務控制管理員 (SCM) 和服務物件的存取權。
+description: Windows 的安全性模型可讓您控制服務控制管理員 (SCM) 和服務物件的存取權。
 ms.assetid: 23d1c382-6ba4-49e2-8039-c2a91471076c
 title: 服務安全性與存取權限
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e7677b8a9f7a5e1fadf8231999d266a9474fb731
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c1674ae1170066daca7f4998fb6fd777ffc2dbec856ff1177fefd860daadb5e9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106978139"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118888707"
 ---
 # <a name="service-security-and-access-rights"></a>服務安全性與存取權限
 
-Windows 安全性模型可讓您控制服務控制管理員 (SCM) 和服務物件的存取權。 下列各節提供詳細資訊：
+Windows 的安全性模型可讓您控制服務控制管理員 (SCM) 和服務物件的存取權。 下列各節提供詳細資訊：
 
 -   [服務控制管理員的存取權限](#access-rights-for-the-service-control-manager)
 -   [服務的存取權限](#access-rights-for-a-service)
@@ -87,7 +87,7 @@ Windows 安全性模型可讓您控制服務控制管理員 (SCM) 和服務物�
 
 系統會建立 SCM 的安全描述項。 若要取得或設定 SCM 的安全描述項，請使用 [**QueryServiceObjectSecurity**](/windows/desktop/api/winsvc/nf-winsvc-queryserviceobjectsecurity) 和 [**SetServiceObjectSecurity**](/windows/desktop/api/winsvc/nf-winsvc-setserviceobjectsecurity) 函數搭配 SCManager 物件的控制碼。
 
-**Windows Server 2003 和 WINDOWS XP：** 與大部分其他安全物件不同的是，無法修改 SCM 的安全描述項。 此行為已從 Windows Server 2003 Service Pack 1 (SP1) 變更。
+**Windows Server 2003 和 Windows XP：** 與大部分其他安全物件不同的是，無法修改 SCM 的安全描述項。 此行為已從 Windows Server 2003 Service Pack 1 (SP1) 變更。
 
 系統會授與下列存取權限。
 
@@ -137,7 +137,7 @@ Windows 安全性模型可讓您控制服務控制管理員 (SCM) 和服務物�
 
 請注意，透過網路驗證的遠端使用者（而不是以互動方式登入）可以連接到 SCM，但無法執行需要其他存取權限的作業。 若要執行這些作業，使用者必須以互動方式登入，或服務必須使用其中一個服務帳戶。
 
-**Windows Server 2003 和 WINDOWS XP：** 遠端驗證的使用者會被授與 **sc \_ manager \_ CONNECT**、 **sc \_ manager \_ 列舉 \_ 服務**、 **sc \_ manager \_ 查詢 \_ 鎖定 \_ 狀態**，以及 **標準 \_ 許可權 \_ 讀取** 存取權限。 從 Windows Server 2003 （含 SP1）開始，這些存取權限受限於上表所述
+**Windows Server 2003 和 Windows XP：** 遠端驗證的使用者會被授與 **sc \_ manager \_ CONNECT**、 **sc \_ manager \_ 列舉 \_ 服務**、 **sc \_ manager \_ 查詢 \_ 鎖定 \_ 狀態**，以及 **標準 \_ 許可權 \_ 讀取** 存取權限。 從 Windows Server 2003 SP1 開始的上表所述，這些存取權限受到限制
 
 當進程使用 [**OpenSCManager**](/windows/desktop/api/Winsvc/nf-winsvc-openscmanagera) 函式來開啟已安裝服務之資料庫的控制碼時，它可以要求存取權限。 在授與所要求的存取權限之前，系統會針對 SCM 的安全描述項執行安全性檢查。
 
@@ -170,7 +170,7 @@ Windows 安全性模型可讓您控制服務控制管理員 (SCM) 和服務物�
 
 | 存取權限                 | Description                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 |------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **存取 \_ 系統 \_ 安全性** | 呼叫 [**QueryServiceObjectSecurity**](/windows/desktop/api/winsvc/nf-winsvc-queryserviceobjectsecurity) 或 [**SetServiceObjectSecurity**](/windows/desktop/api/winsvc/nf-winsvc-setserviceobjectsecurity) 函式以存取 SACL 的必要參數。 取得此存取權的正確方式是在呼叫端的目前存取權杖中啟用「 **SE \_ 安全性 \_ 名稱**」[**許可權**](/windows/desktop/SecAuthZ/privileges)、開啟 **存取 \_ 系統 \_ 安全性** 存取的控制碼，然後停用該許可權。 |
+| **存取 \_ 系統 \_ 安全性** | 呼叫 [**QueryServiceObjectSecurity**](/windows/desktop/api/winsvc/nf-winsvc-queryserviceobjectsecurity) 或 [**SetServiceObjectSecurity**](/windows/desktop/api/winsvc/nf-winsvc-setserviceobjectsecurity) 函式以存取 SACL 的必要參數。 取得此存取權的正確方式是在呼叫端的目前存取權杖中啟用 **SE \_ 安全性 \_ 名稱**[**許可權**](/windows/desktop/SecAuthZ/privileges)、開啟 **存取 \_ 系統 \_ 安全性** 存取的控制碼，然後停用許可權。 |
 | **刪除**   (0x10000)        | 呼叫 [**DeleteService**](/windows/desktop/api/Winsvc/nf-winsvc-deleteservice) 函數來刪除服務的必要參數。                                                                                                                                                                                                                                                                                                                                                  |
 | **讀取 \_控制**  (0x20000)     | 呼叫 [**QueryServiceObjectSecurity**](/windows/desktop/api/winsvc/nf-winsvc-queryserviceobjectsecurity) 函數來查詢服務物件的安全描述項時，需要此項。                                                                                                                                                                                                                                                                                  |
 | **寫入 \_DAC**  (0x40000)     | 需要呼叫 [**SetServiceObjectSecurity**](/windows/desktop/api/winsvc/nf-winsvc-setserviceobjectsecurity) 函式，才能修改服務物件安全描述項的 **Dacl** 成員。                                                                                                                                                                                                                                                                   |
@@ -237,7 +237,7 @@ Windows 安全性模型可讓您控制服務控制管理員 (SCM) 和服務物�
 <tbody>
 <tr class="odd">
 <td>遠端驗證的使用者</td>
-<td>預設不會授與。<strong>Windows Server 2003 SP1： SERVICE_USER_DEFINED_CONTROL</strong><br/> <strong>Windows Server 2003 和 WINDOWS XP：</strong> 遠端驗證使用者的存取權限與本機驗證使用者的存取權限相同。<br/></td>
+<td>預設不會授與。<strong>Windows Server 2003 SP1： SERVICE_USER_DEFINED_CONTROL</strong><br/> <strong>Windows Server 2003 和 Windows XP：</strong>遠端驗證使用者的存取權限與本機驗證使用者的存取權限相同。<br/></td>
 </tr>
 <tr class="even">
 <td>本機驗證的使用者 (包括 LocalService 和 NetworkService) </td>

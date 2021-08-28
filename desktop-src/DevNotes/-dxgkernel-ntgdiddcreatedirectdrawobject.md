@@ -16,12 +16,12 @@ api_location:
 - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
 - GDI32.dll
 - GDI32Full.dll
-ms.openlocfilehash: 16dd140c7b205c92b34cb9bd397a4b8d2d3e1a60
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 6925932a6a400565ad942abbf845db591a9cb39dcad2559f1e3e8cb3951e51e4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110129"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118956687"
 ---
 # <a name="ntgdiddcreatedirectdrawobject-function"></a>NtGdiDdCreateDirectDrawObject 函式
 

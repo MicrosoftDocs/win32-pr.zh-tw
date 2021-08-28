@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0f6d2738ced6781c56a678af56c372352e839a9a
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 7f1b95c56c87da6564f18d7956878e4cdd901d704c33e070e44a908d6a307ed5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104035260"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119519898"
 ---
 # <a name="glrasterpos3fv-function"></a>glRasterPos3fv 函式
 
@@ -40,7 +40,7 @@ void WINAPI glRasterPos3fv(
 
 <dl> <dt>
 
-*V* 
+*v* 
 </dt> <dd>
 
 指標，指向三個元素的陣列，指定目前點陣位置的 x、y 和 z 座標。

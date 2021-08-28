@@ -4,12 +4,12 @@ ms.assetid: 7eabceb5-976e-4ebc-9042-9c203044634c
 title: 'MFPKEY_BAVG 屬性 (Wmcodecdsp) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9f2cc9984b803fc37c84fee032f95098c52a9b47
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c3edd9c08803a6173fd688d3eb7160dca0980560ea22c4c6b21b9483df7e66c5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106983606"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117873812"
 ---
 # <a name="mfpkey_bavg-property"></a>MFPKEY \_ BAVG 屬性
 
@@ -37,8 +37,8 @@ VT \_ I4
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                             |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                    |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                             |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                    |
 | 標頭<br/>                   | <dl> <dt>Wmcodecdsp。h</dt> </dl> |
 
 

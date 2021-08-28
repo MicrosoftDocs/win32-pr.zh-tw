@@ -9,12 +9,12 @@ keywords:
 - Active Directory 服務介面 ADSI，使用
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8e500044ec755c393f8c8287528fee7f935751fe
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 15495f9fa21f436570381ea8f0b2a7c7fff5f4efed645a5f3465a3b5d2929776
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839119"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119648848"
 ---
 # <a name="using-active-directory-service-interfaces"></a>使用 Active Directory 服務介面
 
@@ -22,7 +22,7 @@ ms.locfileid: "103839119"
 
 Active Directory 服務介面符合元件物件模型 (COM) 並支援標準 COM 功能。
 
-ADSI 提供的介面符合與名稱系結控制器（例如 JAVA、Microsoft Visual Basic 開發系統和 Visual Basic Scripting Edition (VBScript) ）的自動化。 ADSI 也可以提供介面，以將不符合自動化規範的介面效能優化，以與 C 和 c + + 等語言環境搭配使用。
+ADSI 提供的介面符合與名稱系結控制器（例如 JAVA、Microsoft Visual Basic 開發系統，以及 Visual Basic 腳本撰寫版 (VBScript) ）的自動化。 ADSI 也可以提供介面，以將不符合自動化規範的介面效能優化，以與 C 和 c + + 等語言環境搭配使用。
 
 ADSI 也提供非自動化介面 [**IDirectoryObject**](/windows/desktop/api/Iads/nn-iads-idirectoryobject) 和 [**>idirectorysearch**](/windows/desktop/api/Iads/nn-iads-idirectorysearch)，以支援目錄物件管理和查詢。
 
@@ -43,13 +43,13 @@ ADSI 用戶端可以用程式設計方式探索網站上的所有 ADSI 提供者
 -   [搜尋 Active Directory](searching-active-directory.md)
 -   [ADSI 安全性模型](adsi-security-model.md)
 -   [ADSI 擴充功能](adsi-extensions.md)
--   [搭配 Exchange 使用 ADSI](using-adsi-with-exchange.md)
+-   [使用 ADSI 搭配 Exchange](using-adsi-with-exchange.md)
 -   [ADSI 公用程式介面](adsi-utility-interfaces.md)
 -   [使用 JAVA/COM 編寫 ADSI 程式設計](programming-adsi-with-javacom.md)
 
- 
+ 
 
- 
+ 
 
 
 

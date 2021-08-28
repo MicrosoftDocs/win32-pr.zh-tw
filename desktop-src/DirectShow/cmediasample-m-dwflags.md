@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 8fa926a11b8b836487612c28e0135496bb4e91b2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1d14f2e85085886ff36edec0091da13aaa85a50a55bbaa6b998a977a3390403e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106988666"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118954547"
 ---
 # <a name="cmediasamplem_dwflags-member"></a>CMediaSample：： m \_ dwFlags 成員
 

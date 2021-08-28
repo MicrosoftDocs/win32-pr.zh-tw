@@ -3,7 +3,7 @@ title: 'WM_NOTIFY 訊息 (Winuser .h) '
 description: 當事件發生時，由通用控制項傳送至其父視窗，或控制項需要一些資訊。
 ms.assetid: vs|controls|~\controls\common\messages\wm_notify.htm
 keywords:
-- WM_NOTIFY message Windows 控制項
+- WM_NOTIFY 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f1905954e7fb164f8436216fa918cc6f243f4b17
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9139f2dab6410eeb2bacbde93b5e163c0591f350626046861426ddc53beab389
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934619"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119539708"
 ---
 # <a name="wm_notify-message"></a>WM \_ 通知訊息
 
@@ -98,7 +98,7 @@ INT_PTR CALLBACK DlgProc(HWND hDlg, UINT message, WPARAM wParam, LPARAM lParam)
 
 如果訊息處理常式是在對話方塊程式中，您必須使用 [**SetWindowLong**](/windows/desktop/api/winuser/nf-winuser-setwindowlonga) 函數搭配 DWL \_ MSGRESULT 來設定傳回值。
 
-若為 Windows Vista 和更新版本的系統，則無法在進程間傳送 **WM \_ 通知** 訊息。
+針對 Windows Vista 和更新版本的系統，無法在進程間傳送 **WM \_ 通知** 訊息。
 
 許多通知都有提供 ANSI 和 Unicode 格式。 傳送 **wm \_ 通知** 訊息的視窗會使用 [**WM \_ NOTIFYFORMAT**](wm-notifyformat.md) 訊息來判斷應該使用哪一種格式。 如需進一步討論，請參閱 **WM \_ NOTIFYFORMAT** 。
 
@@ -108,8 +108,8 @@ INT_PTR CALLBACK DlgProc(HWND hDlg, UINT message, WPARAM wParam, LPARAM lParam)
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                 |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                 |
 | 標頭<br/>                   | <dl> <dt>Winuser。h</dt> </dl> |
 
 

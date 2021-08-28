@@ -11,12 +11,12 @@ api_name: ''
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 10efc539cbb372e49b173803ab343e474257e1db
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fcd05c3da2fe6af29aeb214002b1e8a73dbd9d5f
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106996639"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122631042"
 ---
 # <a name="xmfloat3se-operator--operators"></a>XMFLOAT3SE 運算子 = 運算子
 
@@ -30,19 +30,19 @@ ms.locfileid: "106996639"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
-<th style="text-align: left;">運算子</th>
-<th style="text-align: left;">描述</th>
+<th >運算子</th>
+<th >描述</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmfloat3se-operator-assign(uint32_t)"><strong>XMFLOAT3SE：： operator = (const uint32_t) </strong></a></td>
-<td style="text-align: left;">將實例中封裝的向量元件資料指派 <code>uint32_t</code> 給目前的實例 <code>XMFLOAT3SE</code> 。 <br/> 這個運算子會將實例中封裝的向量元件資料指派 <code>uint64_t</code> 給目前的 <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmfloat3se"><strong>XMFLOAT3SE</strong></a>實例。 <br/>
+<td ><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmfloat3se-operator-assign(uint32_t)"><strong>XMFLOAT3SE：： operator = (const uint32_t) </strong></a></td>
+<td >將實例中封裝的向量元件資料指派 <code>uint32_t</code> 給目前的實例 <code>XMFLOAT3SE</code> 。 <br/> 這個運算子會將實例中封裝的向量元件資料指派 <code>uint64_t</code> 給目前的 <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmfloat3se"><strong>XMFLOAT3SE</strong></a>實例。 <br/>
 <blockquote>
 [!Note]<br />
 此運算子僅適用于 c + +。
@@ -50,8 +50,8 @@ ms.locfileid: "106996639"
 <br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmfloat3pk-xmfloat3pk(xmfloat3pk__)"><strong>XMFLOAT3SE：： operator = (const XMFLOAT3SE&) </strong></a></td>
-<td style="text-align: left;">將一個實例的向量元件資料指派 <code>XMFLOAT3SE</code> 給目前的實例 <code>XMFLOAT3SE</code> 。 <br/> 這個運算子會將一個 <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmfloat3se"><strong>XMFLOAT3SE</strong></a> 實例的向量元件資料指派給目前的實例 <code>XMFLOAT3SE</code> 。 <br/>
+<td ><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmfloat3pk-xmfloat3pk(xmfloat3pk__)"><strong>XMFLOAT3SE：： operator = (const XMFLOAT3SE&) </strong></a></td>
+<td >將一個實例的向量元件資料指派 <code>XMFLOAT3SE</code> 給目前的實例 <code>XMFLOAT3SE</code> 。 <br/> 這個運算子會將一個 <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmfloat3se"><strong>XMFLOAT3SE</strong></a> 實例的向量元件資料指派給目前的實例 <code>XMFLOAT3SE</code> 。 <br/>
 <blockquote>
 [!Note]<br />
 此運算子僅適用于 c + +。

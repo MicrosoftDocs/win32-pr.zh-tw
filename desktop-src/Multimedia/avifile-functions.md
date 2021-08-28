@@ -4,12 +4,12 @@ description: AVIFile 函式
 ms.assetid: 89abf60a-1714-4836-93ae-a8a6bf2c24b6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dd1d424e12507a2ebf0d929f614c717de961e68f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 20e71c6a7d01865162733df3de247ca7bb41f2d065c592060724a8e211922540
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104462489"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117989456"
 ---
 # <a name="avifile-functions"></a>AVIFile 函式
 
@@ -73,9 +73,9 @@ ms.locfileid: "104462489"
 [AVIFile 參考](avifile-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

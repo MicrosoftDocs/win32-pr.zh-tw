@@ -4,12 +4,12 @@ ms.assetid: ee72f60b-1e5b-4b69-bda0-2ae80734c144
 title: 如何使用群組
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f7bebf958d0c3fdee6ad0dc400d495c54ec2e6fe
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0bce7280afe226fea20cde633a3971f62f606e1814ad4ab62bcc09025a125e72
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104513412"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119519388"
 ---
 # <a name="how-to-work-with-groups"></a>如何使用群組
 

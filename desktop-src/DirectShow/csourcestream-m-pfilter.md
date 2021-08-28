@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 4d26738811f012e1c7dafcec5881a4265be78651
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: fab4735d583187495bd5a580b0750f22cd65ee588b0f3834686c2c5b2a3c6849
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106984408"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119538709"
 ---
 # <a name="csourcestreamm_pfilter-member"></a>CSourceStream：： m \_ pFilter 成員
 

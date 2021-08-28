@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: dc877fb1301e01b05184625ba2e92a2c680cfa9f
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: a90f96a3689e86c4e7d0cee28e9d1138f64d89fde78ab7f7392edd445ccf817b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106997390"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118096016"
 ---
 # <a name="d3dxintersect-function"></a>D3DXIntersect 函式
 

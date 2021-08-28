@@ -1,5 +1,5 @@
 ---
-description: <iconReference>元素指定此程式庫的自訂圖示。 這個元素是選擇性的，且沒有任何屬性或子項目。
+description: '&lt;IconReference &gt; 元素會指定這個程式庫的自訂圖示。 這個元素是選擇性的，且沒有任何屬性或子項目。'
 title: 'iconReference 元素 (程式庫架構) '
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,16 +9,16 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 84e200fa4969dc376661bd32851296d80c74120939afc995754cb2937ea04be3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: db34a387200f3078da08747191242ae7414be410
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119820228"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122884264"
 ---
 # <a name="iconreference-element-library-schema"></a>iconReference 元素 (程式庫架構) 
 
-<iconReference>元素指定此程式庫的自訂圖示。 這個元素是選擇性的，且沒有任何屬性或子項目。
+&lt;IconReference &gt; 元素會指定這個程式庫的自訂圖示。 這個元素是選擇性的，且沒有任何屬性或子項目。
 
 ## <a name="syntax"></a>Syntax
 

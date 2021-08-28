@@ -40,12 +40,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: f80a1f14f7a5bd388aec747f19ef84ecf0a32b1a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 99d55d27003834b0caeccb0297a0693f978bc5ca857cb3fbc0a8cb5fadb61cea
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848671"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119525028"
 ---
 # <a name="msvm_emulatedethernetportsettingdata-class"></a>Msvm \_ EmulatedEthernetPortSettingData 類別
 
@@ -235,7 +235,7 @@ class Msvm_EmulatedEthernetPortSettingData : CIM_EthernetPortAllocationSettingDa
 存取類型：唯讀
 </dt> </dl>
 
-對物件的描述。 這個屬性會繼承自 [**CIM \_ ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)，而且一律會設定為「Microsoft 模擬 Ethernet 埠的設定」。
+對物件的描述。 這個屬性是從 [**CIM \_ ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)繼承而來的，而且一律會設定為「適用于 Microsoft 模擬乙太網路埠的設定」。
 
 </dd> <dt>
 
@@ -478,8 +478,8 @@ VLAN 端點所需的設定模式。 這個屬性是用來設定與目標 Etherne
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                                              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                                              |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                                                    |
 | 命名空間<br/>                | 根 \\ 虛擬化 \\ V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization。</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

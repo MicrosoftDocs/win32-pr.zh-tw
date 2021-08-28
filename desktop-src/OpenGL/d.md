@@ -11,12 +11,12 @@ keywords:
 - 雙重緩衝
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 97cb068f06135c6ba29e8a61f472d98907090a78
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 5ebc4d797371a966020fbdaff3d62d845ecbbfdc5f21f6e37393e01b2defad5d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103685407"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119554618"
 ---
 # <a name="d-opengl"></a>D (OpenGL) 
 

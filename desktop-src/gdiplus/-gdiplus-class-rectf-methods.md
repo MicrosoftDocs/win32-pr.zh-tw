@@ -4,18 +4,18 @@ ms.assetid: f14f1693-b0f3-4e68-8245-846aef1ed299
 title: RectF 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 849d8a00f1bc7edfb605f97fc0b063b52cc0288d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fbe274b1c284e69ac8b24b1a829aa4ec36118af60bc1ddb16820dc3e50556093
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972945"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119037006"
 ---
 # <a name="rectf-methods"></a>RectF 方法
 
 本主題列出 [**RectF**](/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rectf) 類別的方法。 如需完整的類別清單，請參閱 **RectF 類別**。
 
--   [**克隆**](/windows/desktop/api/Gdiplustypes/nf-gdiplustypes-rectf-clone)
+-   [**複製**](/windows/desktop/api/Gdiplustypes/nf-gdiplustypes-rectf-clone)
 -   [**包含 (RectF&)**](/windows/win32/api/gdiplustypes/nf-gdiplustypes-rectf-contains(inconstrectf_))
 -   [**包含 (PointF&)**](/windows/win32/api/gdiplustypes/nf-gdiplustypes-rectf-contains(inconstpointf_))
 -   [**包含 (REAL、REAL)**](/previous-versions//ms534956(v=vs.85))

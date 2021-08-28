@@ -20,12 +20,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: f439edeb0dad09f4c7f1bdd9521bb2410ca68be6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c042708140a5492e79aaa994226b10d9d2fc78ffddeaf82ce76e0532eabf0a22
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103945481"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119723948"
 ---
 # <a name="esentinvalidcolumnexception-constructor-serializationinfo-streamingcontext"></a>EsentInvalidColumnException 函式 (SerializationInfo、StreamingCoNtext) 
 

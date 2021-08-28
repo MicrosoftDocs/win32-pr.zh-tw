@@ -4,12 +4,12 @@ ms.assetid: 6c10b355-9bdd-4dba-8446-91034d4fe9b8
 title: 應用程式部署
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bcb2d7605a2c6a39629749c00d175be4df8a3c66d8b0dc6c870926ec665d9ce6
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: a85f297767c2b22fb8a3096f0df8ed21468ab710
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120041608"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122883520"
 ---
 # <a name="application-deployment"></a>應用程式部署
 
@@ -27,21 +27,21 @@ ms.locfileid: "120041608"
 
 ### <a name="place-the-ln-file"></a>放置 LN 檔案
 
-MUI 應用程式的一般 LN 檔是 .exe 檔案或 .dll 檔案，例如 BakerDelta.dll。 您應該將這個檔案放在您的應用程式安裝所在的根資料夾中，例如 X： \\ \\ <somepath> \\BakerDelta.dll。
+MUI 應用程式的一般 LN 檔是 .exe 檔案或 .dll 檔案，例如 BakerDelta.dll。 您應該將這個檔案放在您的應用程式安裝所在的根資料夾中，例如 X： \\ \\ &lt; somepath &gt; \\BakerDelta.dll。
 
 ### <a name="place-language-specific-resource-files"></a>放置 Language-Specific 資源檔
 
 特定語言的資源檔必須具有可預測的名稱，方法是將 "mui" 附加到 LN 檔案的完整名稱，例如 BakerDelta.dll mui。 這些檔案必須放在以適當 [語言名稱](language-names.md)命名的子資料夾中。 下列範例會顯示 BakerDelta.dll LN 檔案的資源位置，以及英文的語言專屬資源檔 (英國) 、英文 (美國) 、中性英文、西班牙文 (西班牙) 、西班牙文 (墨西哥) 和中性西班牙文：
 
--   X： \\ \\ <somepath> \\BakerDelta.dll
--   X： \\ \\ <somepath> \\ en-us \\BakerDelta.dll mui
--   X： \\ \\ <somepath> \\ en-us \\BakerDelta.dll mui
--   X： \\ \\ <somepath> \\ en \\BakerDelta.dll mui
--   X： \\ \\ <somepath> \\ es \\BakerDelta.dll mui
--   X： \\ \\ <somepath> \\ es-MX \\BakerDelta.dll mui
--   X： \\ \\ <somepath> \\ es \\BakerDelta.dll mui
+-   X： \\ \\ &lt; somepath &gt; \\BakerDelta.dll
+-   X： \\ \\ &lt; somepath &gt; \\BakerDelta.dll 的半 GB \\ mui
+-   X： \\ \\ &lt; somepath &gt; \\ en-us \\BakerDelta.dll mui
+-   X： \\ \\ &lt; somepath &gt; \\ en \\BakerDelta.dll mui
+-   X： \\ \\ &lt; somepath &gt; \\ es-es \\BakerDelta.dll mui
+-   X： \\ \\ &lt; somepath &gt; \\ es-MX \\BakerDelta.dll mui
+-   X： \\ \\ &lt; somepath &gt; \\ es \\BakerDelta.dll mui
 
-資源檔必須放在安裝 MUI 應用程式或語言套件期間的正確位置。 請務必將每個檔案放在正確的資料夾中，否則資源載入器無法正常運作。 使用上述範例，資源載入器會檢查 X： \\ <somepath> \\ en-us \\BakerDelta.dll 的英文 (美國) 資源。 如果載入器會查看該檔案，而且只會遇到西班牙文語言的資源，則會失敗。
+資源檔必須放在安裝 MUI 應用程式或語言套件期間的正確位置。 請務必將每個檔案放在正確的資料夾中，否則資源載入器無法正常運作。 使用上述範例，資源載入器會檢查 X： \\ &lt; somepath &gt; \\ En-us \\BakerDelta.dll mui for 英文 (美國) 資源。 如果載入器會查看該檔案，而且只會遇到西班牙文語言的資源，則會失敗。
 
 ## <a name="file-placement-on-a-pre-windows-vista-operating-system"></a>檔案放置在預先 Windows 的 Vista 作業系統上
 
@@ -49,16 +49,16 @@ MUI 應用程式的一般 LN 檔是 .exe 檔案或 .dll 檔案，例如 BakerDel
 
 例如，假設有一個名為 BakerDelta.dll 的 LN 檔案，其中包含英文 (英國) 的語言特定資源檔、英文 (美國) 、中性英文、西班牙文 (西班牙) 、西班牙文 (墨西哥) 和中性西班牙文。 在預先 Windows Vista 作業系統上安裝可能會將這些檔案放在下面，如下所示：
 
--   X： \\ \\ <somepath> \\BakerDelta.dll
--   X： \\ \\ <somepath> \\BakerDelta.dll mui (選用的 mui 檔案，其中包含作業系統語言的資源，作為最終的回溯) 
--   X： \\ \\ <somepath> \\ mui \\ 0809 \\BakerDelta.dll mui
--   X： \\ \\ <somepath> \\ mui \\ 0409 \\BakerDelta.dll mui
--   X： \\ \\ <somepath> \\ mui \\ 0209 \\BakerDelta.dll mui
--   X： \\ \\ <somepath> \\ mui \\ 040a \\BakerDelta.dll mui
--   X： \\ \\ <somepath> \\ mui \\ 080a \\BakerDelta.dll mui
--   X： \\ \\ <somepath> \\ mui \\ 0209 \\BakerDelta.dll mui
+-   X： \\ \\ &lt; somepath &gt; \\BakerDelta.dll
+-   X： \\ \\ &lt; somepath &gt; \\BakerDelta.dll mui (選用的 mui 檔案，其中包含作業系統語言的資源，作為最終的回溯) 
+-   X： \\ \\ &lt; somepath &gt; \\ mui \\ 0809 \\BakerDelta.dll mui
+-   X： \\ \\ &lt; somepath &gt; \\ mui \\ 0409 \\BakerDelta.dll mui
+-   X： \\ \\ &lt; somepath &gt; \\ mui \\ 0209 \\BakerDelta.dll mui
+-   X： \\ \\ &lt; somepath &gt; \\ mui \\ 040a \\BakerDelta.dll mui
+-   X： \\ \\ &lt; somepath &gt; \\ mui \\ 080a \\BakerDelta.dll mui
+-   X： \\ \\ &lt; somepath &gt; \\ mui \\ 0209 \\BakerDelta.dll mui
 
-除了這些檔案之外，應用程式也可以設定絕佳的回溯語言專屬資源檔，與應用程式本身位於相同的資料夾中。 在上述範例中，這個檔案是 X： \\ <somepath> \\BakerDelta.dll 的 mui。
+除了這些檔案之外，應用程式也可以設定絕佳的回溯語言專屬資源檔，與應用程式本身位於相同的資料夾中。 在上述範例中，這個檔案是 X： \\ &lt; somepath &gt; \\BakerDelta.dll mui。
 
 ## <a name="installation"></a>安裝
 

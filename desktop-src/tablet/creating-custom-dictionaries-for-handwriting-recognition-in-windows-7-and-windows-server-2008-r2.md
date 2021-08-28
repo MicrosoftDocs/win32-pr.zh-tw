@@ -4,12 +4,12 @@ ms.assetid: 83abf534-740c-44a3-bbd4-babb54f2930e
 title: 在 Windows 7 和 Windows Server 2008 R2 中建立手寫辨識的自訂字典
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 80b9b7b5a1d9dfadddd83825aea7d6f676439999
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8fe391125b21bfe35a9e1a69be6258e1643b424e
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106986290"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122883890"
 ---
 # <a name="creating-custom-dictionaries-for-handwriting-recognition-in-windows-7-and-windows-server-2008-r2"></a>在 Windows 7 和 Windows Server 2008 R2 中建立手寫辨識的自訂字典
 
@@ -49,23 +49,23 @@ Usage: hwrcomp       [-lang <localename>] [-type <type>]
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
 <th>參數</th>
-<th>Description</th>
+<th>說明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>-lang <localename></td>
-<td>指派給已編譯自訂字典檔案的指定地區設定名稱。 引數 <localename> 的格式為 LANGUAGE REGION。 其中一個範例是 en-us，表示美國地區的英文語言。 如需此表單的範例，請參閱 [語言識別項常數和字串](/windows/desktop/Intl/language-identifier-constants-and-strings)。 這項功能支援下列語言的 Windows 7 和 Windows Server 2008 R2： en-us、en-us、en-us、en-us、de、de、de、fr、es、es-MX、es-AR，以及。它（IT）、nl NL、nl-a、pt-BR、pt、da-深色、sv-SE、nb-NO、nn-NO、fi、pl、CZ、ru、、ro、sr-iov、-CS、sr-iov-、CA 和 hr-HR。<br/></td>
+<td>-lang &lt; >localename&gt;</td>
+<td>指派給已編譯自訂字典檔案的指定地區設定名稱。 引數 &lt; >localename &gt; 具有 language 區域格式。 其中一個範例是 en-us，表示美國地區的英文語言。 如需此表單的範例，請參閱 [語言識別項常數和字串](/windows/desktop/Intl/language-identifier-constants-and-strings)。 這項功能支援下列語言的 Windows 7 和 Windows Server 2008 R2： en-us、en-us、en-us、en-us、de、de、de、fr、es、es-MX、es-AR，以及。它（it）、nl nl、nl-a、pt-BR、pt、da-深色、sv-SE、nb-no、nn-no、fi、pl-pl、cs CZ、ru-ru、ro-Latn-cs、CA es 和 hr-hr。<br/></td>
 </tr>
 <tr class="even">
-<td>-類型 <type></td>
-<td>選項引數 <type> 是將資源作為主要單字清單的單一字串串連 (主要) 或作為主要單字清單的補充 (次要) 後面接著套用資源的實際單字清單名稱 (例如字典或姓氏) 。 以下是可能的值：
+<td>-類型 &lt; 類型&gt;</td>
+<td>選項引數 &lt; 類型 &gt; 是將資源作為主要單字清單的單一字串串連， (主要) 或作為主要單字清單的補充 (次要) 後面接著套用資源的實際單字清單名稱 (例如字典或姓氏) 。 以下是可能的值：
 <ul>
 <li>主要-CITYNAME-清單</li>
 <li>主要-COUNTRYNAME-清單</li>
@@ -151,10 +151,10 @@ Usage: hwrreg        [-check]
 
 
 
-| 參數                | Description                                                                                                                                                                                                                                                                                                                                                                        |
+| 參數                | 說明                                                                                                                                                                                                                                                                                                                                                                        |
 |--------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | -檢查                   | 字典檔會在未安裝的情況下進行驗證。 檢查選項會顯示檔案的批註，以及用來安裝檔案的註冊資訊。 此選項適用于在執行安裝之前確認註冊資訊。 <br/> 如果遺漏此選項，HwrReg.exe 會安裝自訂字典。<br/>  |
-|  lang <localename> | 字典檔會在未安裝的情況下進行驗證。 檢查選項會顯示檔案的批註，以及用來安裝檔案的註冊資訊。 此選項適用于在執行安裝之前確認註冊資訊。 <br/> 如果遺漏此選項，HwrReg.exe 會安裝自訂字典。 <br/> |
+|  lang &lt; >localename&gt; | 字典檔會在未安裝的情況下進行驗證。 檢查選項會顯示檔案的批註，以及用來安裝檔案的註冊資訊。 此選項適用于在執行安裝之前確認註冊資訊。 <br/> 如果遺漏此選項，HwrReg.exe 會安裝自訂字典。 <br/> |
 |  範圍 {所有 \| me}         | 針對所有使用者安裝自訂字典 ( 範圍所有) 或僅限目前使用者 ( 範圍我) 。 使用範圍安裝都需要在提高許可權的命令提示字元中執行命令。否則，將會傳回錯誤碼。 <br/> 如果缺少這個選項，則安裝的範圍僅限於目前的使用者。<br/>                          |
 |  noprompt                | HwrReg.exe 不會提示您進行確認。 從腳本執行 hwrReg.exe 時，這會很有用。 <br/>                                                                                                                                                                                                                                                                 |
 
@@ -183,11 +183,11 @@ Usage: hwrreg        [-lang <localename>]
 
 
 
-| 參數                | Description                                                                                                                                                                                                                                                                                                                                                                    |
+| 參數                | 說明                                                                                                                                                                                                                                                                                                                                                                    |
 |--------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|  lang <localename> | 只會列出或移除為此地區設定名稱註冊的字典。 引數 <localename> 具有表單語言區域。 如需此表單的範例，請參閱 [語言識別項常數和字串](/windows/desktop/Intl/language-identifier-constants-and-strings)。 <br/> 如果遺漏這個選項，則會列出或移除所有語言的字典。<br/> |
+|  lang &lt; >localename&gt; | 只會列出或移除為此地區設定名稱註冊的字典。 引數 &lt; >localename &gt; 具有表單語言區域。 如需此表單的範例，請參閱 [語言識別項常數和字串](/windows/desktop/Intl/language-identifier-constants-and-strings)。 <br/> 如果遺漏這個選項，則會列出或移除所有語言的字典。<br/> |
 |  範圍 {所有 \| me}         | 針對所有使用者安裝自訂字典 ( 範圍所有) 或僅限目前使用者 ( 範圍我) 。 使用範圍安裝都需要在提高許可權的命令提示字元中執行命令。否則，將會傳回錯誤碼。 <br/> 如果缺少這個選項，則安裝的範圍僅限於目前的使用者。<br/>                      |
-|  類型 <type>       | 只列出或移除以指定類型註冊的字典。<br/> 如果遺漏這個選項，則會列出或移除所有的字典類型。 安裝或移除另一種類型的自訂字典 (例如主要 COUNTRYNAME 清單) 可能會影響其他內容中的手寫辨識。 <br/>                                              |
+|  類型 &lt; 類型&gt;       | 只列出或移除以指定類型註冊的字典。<br/> 如果遺漏這個選項，則會列出或移除所有的字典類型。 安裝或移除另一種類型的自訂字典 (例如主要 COUNTRYNAME 清單) 可能會影響其他內容中的手寫辨識。 <br/>                                              |
 |  list                    | 列出所有符合其他選項的已安裝字典。<br/> 如果遺漏這個選項，則必須指定 [移除] 選項。<br/>                                                                                                                                                                                                                          |
 |  remove                  | 提示移除任何符合其他選項的字典。<br/> 如果遺漏這個選項，則必須指定選項清單。<br/>                                                                                                                                                                                                                     |
 

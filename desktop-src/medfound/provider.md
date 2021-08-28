@@ -4,12 +4,12 @@ ms.assetid: 692cce3b-ebf5-4a49-8c37-48c8ef6caee7
 title: provider 項目
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1d96b3015dddbcff74c09f77a1b6245d052fe034
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: 4213e4d56f8dc2ed73802650e3c7558736cedea8f69fe2148b638fbb92433474
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113118443"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119034966"
 ---
 # <a name="provider-element"></a>provider 項目
 
@@ -31,8 +31,8 @@ ms.locfileid: "113118443"
 
 | 屬性            | 類型             | 必要       | 描述                                              |
 |----------------------|------------------|----------------|----------------------------------------------------------|
-| **識別碼**<br/>    | CDATA<br/> | 是<br/> | 提供者的名稱或 GUID。<br/> <br/> |
-| **level**<br/> | CDATA<br/> | 是<br/> | 追蹤層級。<br/> <br/>                  |
+| **識別碼**<br/>    | CDATA<br/> | Yes<br/> | 提供者的名稱或 GUID。<br/> <br/> |
+| **level**<br/> | CDATA<br/> | Yes<br/> | 追蹤層級。<br/> <br/>                  |
 
 
 

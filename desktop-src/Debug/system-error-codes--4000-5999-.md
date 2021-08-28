@@ -4,17 +4,17 @@ ms.assetid: 1d2f7160-6322-4c75-abbc-4a882bbdf7ce
 title: '系統錯誤碼 (4000-5999)  (Winerror.h. h) '
 ms.topic: reference
 ms.date: 07/18/2019
-ms.openlocfilehash: bfd39042489f2a92ff2eb13df92a22e392c5405e
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: ada3f091671fd865f76faa830b89393ecc80176021a4990a71d4715886a3ffea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110776"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118956927"
 ---
 # <a name="system-error-codes-4000-5999"></a>系統錯誤碼 (4000-5999) 
 
 > [!NOTE]
-> 這項資訊適用于程式設計人員偵測系統錯誤。 針對其他錯誤（例如 Windows Update 的問題），[ [錯誤碼](system-error-codes.md) ] 頁面上有資源清單。
+> 這項資訊適用于程式設計人員偵測系統錯誤。 針對其他錯誤（例如 Windows Update 的問題），[[錯誤碼](system-error-codes.md)] 頁面上有資源清單。
 
 下列清單描述錯誤4000到5999的 [系統錯誤碼](system-error-codes.md) 。 當有許多函式失敗時， [**GetLastError**](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror) 函式會傳回這些函數。 若要在您的應用程式中取得錯誤的描述文字，請使用 [**FormatMessage**](/windows/desktop/api/WinBase/nf-winbase-formatmessage) 函式，並搭配系統旗標的 **格式 \_ 訊息 \_ \_** 。
 
@@ -2732,7 +2732,7 @@ DFS 根目錄已經存在於此叢集節點中。
 
 
 
-因為這部電腦未安裝正確的 Windows 版本，所以無法成為叢集的成員。
+無法將這部電腦設為叢集的成員，因為它沒有安裝正確版本的 Windows。
 
 
 </dt> </dl> </dd> <dt>
@@ -2797,7 +2797,7 @@ DFS 根目錄已經存在於此叢集節點中。
 
 
 
-叢集中有一或多個節點正在執行的 Windows 版本不支援此作業。
+叢集中有一或多個節點正在執行不支援這項作業的 Windows 版本。
 
 
 </dt> </dl> </dd> <dt>
@@ -3096,7 +3096,7 @@ DFS 根目錄已經存在於此叢集節點中。
 
 
 
-叢集網路對 IPv6 通道資源而言是不正確。 檢查 IPv6 通道資源相依的 IP 位址資源設定。
+叢集網路對 IPv6 Tunnel 資源而言是不正確。 檢查 IPv6 Tunnel 資源相依的 IP 位址資源設定。
 
 
 </dt> </dl> </dd> <dt>
@@ -3109,7 +3109,7 @@ DFS 根目錄已經存在於此叢集節點中。
 
 
 
-仲裁資源不能位於可用的儲存群組中。
+仲裁資源不可位於可用的儲存體群組中。
 
 
 </dt> </dl> </dd> <dt>
@@ -3592,7 +3592,7 @@ RHS 進程無法初始化。
 
 
 
-資源必須是可用儲存群組的一部分，才能完成此動作。
+資源必須是可用儲存體群組的一部分，才能完成此動作。
 
 
 </dt> </dl> </dd> <dt>
@@ -3695,8 +3695,8 @@ CSVFS 失敗的作業，因為磁片區不在重新導向模式中。
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Winerror.h。h</dt> </dl> |
 
 

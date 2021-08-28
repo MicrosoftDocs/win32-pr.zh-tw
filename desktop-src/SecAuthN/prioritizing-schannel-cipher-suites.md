@@ -4,12 +4,12 @@ ms.assetid: e919be5c-ac2c-446c-a422-971805b1f672
 title: 排列 Schannel 加密套件的優先順序
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f885c4d51006233be252a02c7cc3bebd26a4e6c3
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 4436d2f72ebaa1f8d551d935ea9f16d2c03cd7c75fc7d40a73f1a27c7406ad6c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "104195815"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118920767"
 ---
 # <a name="prioritizing-schannel-cipher-suites"></a>排列 Schannel 加密套件的優先順序
 
@@ -21,8 +21,8 @@ ms.locfileid: "104195815"
 > **設定 **SSL 密碼套件順序** 的群組原則設定**
 > 
 > 1.  在命令提示字元中，輸入 **gpedit.msc**。 **群組原則物件編輯器** 隨即出現。
-> 2.  展開 [ **電腦** 設定]、[ **系統管理範本**]、[ **網路**]，然後按一下 [ **SSL 設定**]。
-> 3.  在 [ **Ssl 設定**] 下，按一下 [ **Ssl 密碼套件順序** ] 設定。
+> 2.  展開 [**電腦** 設定]、[**系統管理範本**]、[**網路**]，然後按一下 [ **SSL 設定設定**。
+> 3.  在 [ **ssl 設定設定**] 下，按一下 [ **ssl 密碼套件順序**] 設定。
 > 4.  在 [ **SSL 密碼套件順序** ] 窗格中，滾動至窗格的底部。
 > 5.  遵循標示 **如何修改此設定** 的指示。
 > 

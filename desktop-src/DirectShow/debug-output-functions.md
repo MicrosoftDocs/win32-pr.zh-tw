@@ -4,12 +4,12 @@ ms.assetid: dfe44c8c-43ec-461f-952f-b87256b82ee6
 title: Debug Output 函數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 252e1020ca99bd5b4f2f46d7f2169fa6835dea83a25d599dba142f370bb794f9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6ee1bdbc9cce98ce1704b62a8354b81951df33c4
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119537738"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122884237"
 ---
 # <a name="debug-output-functions"></a>Debug Output 函數
 
@@ -17,7 +17,7 @@ ms.locfileid: "119537738"
 
 
 
-| 函式                                               | 描述                                                                                          |
+| 函式                                               | 說明                                                                                          |
 |--------------------------------------------------------|------------------------------------------------------------------------------------------------------|
 | [**DbgCheckModuleLevel**](dbgcheckmodulelevel.md)     | 檢查是否已針對指定的訊息類型和層級啟用記錄。                             |
 | [**DbgDumpObjectRegister**](dbgdumpobjectregister.md) | 顯示作用中物件的相關資訊。                                                           |
@@ -51,7 +51,7 @@ DirectShow 中的 debug output 函數會使用一組登錄機碼。 這些登錄
 
 若為協力廠商篩選，位置取決於用來建立篩選的[DirectShow 基類](directshow-base-classes.md)版本。 Windows Vista 的 Windows SDK 中包含的版本會使用較新的路徑。 先前的版本會使用較舊的路徑。
 
-在接下來的備註中，標籤 *<DebugRoot>* 是用來表示這兩個路徑。 根據 Windows 版本或基類版本，取代正確的路徑。
+在接下來的備註中，標籤 *&lt; DebugRoot &gt;* 可用來指出這兩個路徑。 根據 Windows 版本或基類版本，取代正確的路徑。
 
 **Debug 記錄**
 
@@ -82,7 +82,7 @@ DbgLog((LOG_TRACE, 3, TEXT("This is a debug message")));
 
 每個模組都可以針對每個訊息類型設定自己的調試層級。  (*模組* 是可使用 **LoadLibrary** 函式載入的 DLL 或可執行檔。 ) 模組的調試層級會出現在登錄的下列機碼底下：
 
-**HKEY \_ 本機 \_ 電腦**\\**<DebugRoot>**\\**<ModuleName>**\\**<MessageType>**
+**HKEY \_本機 \_ 電腦** \\ **&lt; DebugRoot &gt;** \\ **&lt; ModuleName &gt;** \\ **&lt; MessageType &gt;**
 
 其中 *<Message Type>* 是訊息類型減去初始 "LOG \_ "; 例如， **鎖定** 記錄 \_ 鎖定訊息。 載入模組時，debug 程式庫會在登錄中尋找模組的記錄層級。 如果登錄機碼不存在，則偵錯工具程式庫會建立它們。
 
@@ -103,7 +103,7 @@ Debug 程式庫會使用較大的層級，也就是全域層級或模組層級�
 
 偵錯工具輸出位置取決於另一個登錄機碼：
 
-**HKEY \_本機 \_ 電腦** \\ **<DebugRoot>** \\ **<Modile Name>** \\ **LogToFile**
+**HKEY \_本機 \_ 電腦** \\ **&lt; DebugRoot &gt;** \\ **<Modile Name>** \\ **LogToFile**
 
 如果此索引鍵的值為 `Console` ，則輸出會移至主控台視窗。 如果值為 `Deb` 、 `Debug` 、 `Debugger` 或空字串，則輸出會移至偵錯工具視窗。 否則，輸出會寫入登錄機碼所指定的檔案。
 

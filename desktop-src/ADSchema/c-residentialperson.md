@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2f6292832757a303e4fc7a184ce256b7e791300a
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 3684c2b8b28a4868f349fa5a74a4856cb9d7f45fc94d83c33211abb4529631cf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104106746"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118959667"
 ---
 # <a name="residential-person-class"></a>Residential-Person 類別
 
@@ -60,7 +60,7 @@ ms.locfileid: "104106746"
 | Governs-Id                  | 2.5.6.10                                                                                     |
 | 預設值-隱藏-值        | 1                                                                                            |
 | Rdn-Att-Id                  | [**一般名稱**](a-cn.md)<br/>                                                       |
-| 的子類別                 | [**個人**](c-person.md)<br/>                                                        |
+| 的子類別                 | [**人**](c-person.md)<br/>                                                        |
 | 可能的 Superiors          | [**容器**](c-container.md)                                                             |
 | 輔助類別           | \-                                                                                           |
 | NT-Security-描述元      | O:BAG：不正確： S：                                                                                 |
@@ -86,7 +86,7 @@ ms.locfileid: "104106746"
 | [**橋頭-伺服器-清單-BL**](a-bridgeheadserverlistbl.md)             | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**商務-類別**](a-businesscategory.md)                           | 否     | **居住人**                                                |
 | [**標準名稱**](a-canonicalname.md)                                 | 否     | [**返回頁首**](c-top.md)<br/>                                       |
-| [**一般名稱**](a-cn.md)                                               | 對      | [**個人**](c-person.md)<br/> [**返回頁首**](c-top.md)<br/> |
+| [**一般名稱**](a-cn.md)                                               | 是      | [**人**](c-person.md)<br/> [**返回頁首**](c-top.md)<br/> |
 | [**建立時間戳記**](a-createtimestamp.md)                            | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**描述**](a-description.md)                                      | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**目的地-指標**](a-destinationindicator.md)                   | 否     | **居住人**                                                |
@@ -101,7 +101,7 @@ ms.locfileid: "104106746"
 | [**Frs-電腦-參考-BL**](a-frscomputerreferencebl.md)             | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**FRS-成員參考-BL**](a-frsmemberreferencebl.md)                 | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**FSMO 角色-擁有者**](a-fsmoroleowner.md)                                | 否     | [**返回頁首**](c-top.md)<br/>                                       |
-| [**實例類型**](a-instancetype.md)                                   | 對      | [**返回頁首**](c-top.md)<br/>                                       |
+| [**實例類型**](a-instancetype.md)                                   | 是      | [**返回頁首**](c-top.md)<br/>                                       |
 | [**國際 ISDN 號碼**](a-internationalisdnnumber.md)            | 否     | **居住人**                                                |
 | [**為關鍵-系統物件**](a-iscriticalsystemobject.md)             | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**已刪除**](a-isdeleted.md)                                         | 否     | [**返回頁首**](c-top.md)<br/>                                       |
@@ -116,21 +116,21 @@ ms.locfileid: "104106746"
 | [**MS-DS-Consistency-Guid**](a-ms-ds-consistencyguid.md)                 | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**netboot-SCP-BL**](a-netbootscpbl.md)                                  | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**非安全性成員-BL**](a-nonsecuritymemberbl.md)                   | 否     | [**返回頁首**](c-top.md)<br/>                                       |
-| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                  | 對      | [**返回頁首**](c-top.md)<br/>                                       |
+| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                  | 是      | [**返回頁首**](c-top.md)<br/>                                       |
 | [**Obj-Dist 名稱**](a-distinguishedname.md)                              | 否     | [**返回頁首**](c-top.md)<br/>                                       |
-| [**物件-類別**](a-objectcategory.md)                               | 對      | [**返回頁首**](c-top.md)<br/>                                       |
-| [**物件類別**](a-objectclass.md)                                     | 對      | [**返回頁首**](c-top.md)<br/>                                       |
+| [**物件-類別**](a-objectcategory.md)                               | 是      | [**返回頁首**](c-top.md)<br/>                                       |
+| [**物件類別**](a-objectclass.md)                                     | 是      | [**返回頁首**](c-top.md)<br/>                                       |
 | [**物件-Guid**](a-objectguid.md)                                       | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**物件版本**](a-objectversion.md)                                 | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**組織單位-名稱**](a-ou.md)                                  | 否     | **居住人**                                                |
 | [**其他知名物件**](a-otherwellknownobjects.md)               | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**部分屬性-刪除-清單**](a-partialattributedeletionlist.md) | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**部分屬性集**](a-partialattributeset.md)                    | 否     | [**返回頁首**](c-top.md)<br/>                                       |
-| [**實體傳遞-辦公室-名稱**](a-physicaldeliveryofficename.md)     | 否     | **居住人**                                                |
+| [**實體傳遞-Office-名稱**](a-physicaldeliveryofficename.md)     | 否     | **居住人**                                                |
 | [**可能-Inferiors**](a-possibleinferiors.md)                         | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**郵件標籤**](a-postaladdress.md)                                 | 否     | **居住人**                                                |
 | [**郵遞區號**](a-postalcode.md)                                       | 否     | **居住人**                                                |
-| [**郵局-Box**](a-postofficebox.md)                                | 否     | **居住人**                                                |
+| [**後續 Office-Box**](a-postofficebox.md)                                | 否     | **居住人**                                                |
 | [**慣用傳遞方法**](a-preferreddeliverymethod.md)            | 否     | **居住人**                                                |
 | [**Proxy-物件名稱**](a-proxiedobjectname.md)                        | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**Proxy 位址**](a-proxyaddresses.md)                               | 否     | [**返回頁首**](c-top.md)<br/>                                       |
@@ -144,7 +144,7 @@ ms.locfileid: "104106746"
 | [**代表**](a-repsto.md)                                               | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**修訂**](a-revision.md)                                            | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**SD-Rights-有效**](a-sdrightseffective.md)                        | 否     | [**返回頁首**](c-top.md)<br/>                                       |
-| [**請參閱-也**](a-seealso.md)                                             | 否     | [**個人**](c-person.md)<br/>                                 |
+| [**請參閱-也**](a-seealso.md)                                             | 否     | [**人**](c-person.md)<br/>                                 |
 | [**伺服器參考-BL**](a-serverreferencebl.md)                        | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**顯示-內建-僅限視圖**](a-showinadvancedviewonly.md)            | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**網站-物件-BL**](a-siteobjectbl.md)                                  | 否     | [**返回頁首**](c-top.md)<br/>                                       |
@@ -152,13 +152,13 @@ ms.locfileid: "104106746"
 | [**街道位址**](a-street.md)                                        | 否     | **居住人**                                                |
 | [**子 Refs**](a-subrefs.md)                                             | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**SubSchemaSubEntry**](a-subschemasubentry.md)                          | 否     | [**返回頁首**](c-top.md)<br/>                                       |
-| [**Surname**](a-sn.md)                                                   | 否     | [**個人**](c-person.md)<br/>                                 |
+| [**姓**](a-sn.md)                                                   | 否     | [**人**](c-person.md)<br/>                                 |
 | [**系統旗標**](a-systemflags.md)                                     | 否     | [**返回頁首**](c-top.md)<br/>                                       |
-| [**電話號碼**](a-telephonenumber.md)                             | 否     | [**個人**](c-person.md)<br/>                                 |
+| [**電話號碼**](a-telephonenumber.md)                             | 否     | [**人**](c-person.md)<br/>                                 |
 | [**Teletex-終端機-識別碼**](a-teletexterminalidentifier.md)        | 否     | **居住人**                                                |
 | [**電傳號碼**](a-telexnumber.md)                                     | 否     | **居住人**                                                |
 | [**標題**](a-title.md)                                                  | 否     | **居住人**                                                |
-| [**使用者-密碼**](a-userpassword.md)                                   | 否     | [**個人**](c-person.md)<br/>                                 |
+| [**使用者-密碼**](a-userpassword.md)                                   | 否     | [**人**](c-person.md)<br/>                                 |
 | [**USN-已變更**](a-usnchanged.md)                                       | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**USN-已建立**](a-usncreated.md)                                       | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**USN-已移除-最後-Obj**](a-usndsalastobjremoved.md)                | 否     | [**返回頁首**](c-top.md)<br/>                                       |
@@ -189,7 +189,7 @@ ms.locfileid: "104106746"
 | Governs-Id                  | 2.5.6.10                                                                                     |
 | 預設值-隱藏-值        | 1                                                                                            |
 | Rdn-Att-Id                  | [**一般名稱**](a-cn.md)<br/>                                                       |
-| 的子類別                 | [**個人**](c-person.md)<br/>                                                        |
+| 的子類別                 | [**人**](c-person.md)<br/>                                                        |
 | 可能的 Superiors          | [**容器**](c-container.md)[**位置**](c-locality.md)                               |
 | 輔助類別           | \-                                                                                           |
 | NT-Security-描述元      | O:BAG：不正確： S：                                                                                 |
@@ -198,7 +198,7 @@ ms.locfileid: "104106746"
 
 
 
-## <a name="windows-server-2003-attributes"></a>Windows Server 2003 屬性
+## <a name="windows-server-2003-attributes"></a>Windows伺服器2003屬性
 
 此類別包含 Windows Server 2003 的下列屬性：
 
@@ -212,11 +212,11 @@ ms.locfileid: "104106746"
 | [**允許-屬性-有效**](a-allowedattributeseffective.md)        | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**允許-子類別**](a-allowedchildclasses.md)                      | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**允許-子類別-有效**](a-allowedchildclasseseffective.md)   | 否     | [**返回頁首**](c-top.md)<br/>                                       |
-| [**attributeCertificateAttribute**](a-attributecertificateattribute.md)    | 否     | [**個人**](c-person.md)<br/>                                 |
+| [**attributeCertificateAttribute**](a-attributecertificateattribute.md)    | 否     | [**人**](c-person.md)<br/>                                 |
 | [**橋頭-伺服器-清單-BL**](a-bridgeheadserverlistbl.md)               | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**商務-類別**](a-businesscategory.md)                             | 否     | **居住人**                                                |
 | [**標準名稱**](a-canonicalname.md)                                   | 否     | [**返回頁首**](c-top.md)<br/>                                       |
-| [**一般名稱**](a-cn.md)                                                 | 對      | [**個人**](c-person.md)<br/> [**返回頁首**](c-top.md)<br/> |
+| [**一般名稱**](a-cn.md)                                                 | 是      | [**人**](c-person.md)<br/> [**返回頁首**](c-top.md)<br/> |
 | [**建立時間戳記**](a-createtimestamp.md)                              | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**描述**](a-description.md)                                        | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**目的地-指標**](a-destinationindicator.md)                     | 否     | **居住人**                                                |
@@ -231,7 +231,7 @@ ms.locfileid: "104106746"
 | [**Frs-電腦-參考-BL**](a-frscomputerreferencebl.md)               | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**FRS-成員參考-BL**](a-frsmemberreferencebl.md)                   | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**FSMO 角色-擁有者**](a-fsmoroleowner.md)                                  | 否     | [**返回頁首**](c-top.md)<br/>                                       |
-| [**實例類型**](a-instancetype.md)                                     | 對      | [**返回頁首**](c-top.md)<br/>                                       |
+| [**實例類型**](a-instancetype.md)                                     | 是      | [**返回頁首**](c-top.md)<br/>                                       |
 | [**國際 ISDN 號碼**](a-internationalisdnnumber.md)              | 否     | **居住人**                                                |
 | [**為關鍵-系統物件**](a-iscriticalsystemobject.md)               | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**已刪除**](a-isdeleted.md)                                           | 否     | [**返回頁首**](c-top.md)<br/>                                       |
@@ -263,21 +263,21 @@ ms.locfileid: "104106746"
 | [**Ms-exch-assistant-name-擁有者-BL**](a-ownerbl.md)                                       | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**netboot-SCP-BL**](a-netbootscpbl.md)                                    | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**非安全性成員-BL**](a-nonsecuritymemberbl.md)                     | 否     | [**返回頁首**](c-top.md)<br/>                                       |
-| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                    | 對      | [**返回頁首**](c-top.md)<br/>                                       |
+| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                    | 是      | [**返回頁首**](c-top.md)<br/>                                       |
 | [**Obj-Dist 名稱**](a-distinguishedname.md)                                | 否     | [**返回頁首**](c-top.md)<br/>                                       |
-| [**物件-類別**](a-objectcategory.md)                                 | 對      | [**返回頁首**](c-top.md)<br/>                                       |
-| [**物件類別**](a-objectclass.md)                                       | 對      | [**返回頁首**](c-top.md)<br/>                                       |
+| [**物件-類別**](a-objectcategory.md)                                 | 是      | [**返回頁首**](c-top.md)<br/>                                       |
+| [**物件類別**](a-objectclass.md)                                       | 是      | [**返回頁首**](c-top.md)<br/>                                       |
 | [**物件-Guid**](a-objectguid.md)                                         | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**物件版本**](a-objectversion.md)                                   | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**組織單位-名稱**](a-ou.md)                                    | 否     | **居住人**                                                |
 | [**其他知名物件**](a-otherwellknownobjects.md)                 | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**部分屬性-刪除-清單**](a-partialattributedeletionlist.md)   | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**部分屬性集**](a-partialattributeset.md)                      | 否     | [**返回頁首**](c-top.md)<br/>                                       |
-| [**實體傳遞-辦公室-名稱**](a-physicaldeliveryofficename.md)       | 否     | **居住人**                                                |
+| [**實體傳遞-Office-名稱**](a-physicaldeliveryofficename.md)       | 否     | **居住人**                                                |
 | [**可能-Inferiors**](a-possibleinferiors.md)                           | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**郵件標籤**](a-postaladdress.md)                                   | 否     | **居住人**                                                |
 | [**郵遞區號**](a-postalcode.md)                                         | 否     | **居住人**                                                |
-| [**郵局-Box**](a-postofficebox.md)                                  | 否     | **居住人**                                                |
+| [**後續 Office-Box**](a-postofficebox.md)                                  | 否     | **居住人**                                                |
 | [**慣用傳遞方法**](a-preferreddeliverymethod.md)              | 否     | **居住人**                                                |
 | [**Proxy-物件名稱**](a-proxiedobjectname.md)                          | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**Proxy 位址**](a-proxyaddresses.md)                                 | 否     | [**返回頁首**](c-top.md)<br/>                                       |
@@ -291,8 +291,8 @@ ms.locfileid: "104106746"
 | [**代表**](a-repsto.md)                                                 | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**修訂**](a-revision.md)                                              | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**SD-Rights-有效**](a-sdrightseffective.md)                          | 否     | [**返回頁首**](c-top.md)<br/>                                       |
-| [**請參閱-也**](a-seealso.md)                                               | 否     | [**個人**](c-person.md)<br/>                                 |
-| [**序號**](a-serialnumber.md)                                     | 否     | [**個人**](c-person.md)<br/>                                 |
+| [**請參閱-也**](a-seealso.md)                                               | 否     | [**人**](c-person.md)<br/>                                 |
+| [**序號**](a-serialnumber.md)                                     | 否     | [**人**](c-person.md)<br/>                                 |
 | [**伺服器參考-BL**](a-serverreferencebl.md)                          | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**顯示-內建-僅限視圖**](a-showinadvancedviewonly.md)              | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**網站-物件-BL**](a-siteobjectbl.md)                                    | 否     | [**返回頁首**](c-top.md)<br/>                                       |
@@ -301,13 +301,13 @@ ms.locfileid: "104106746"
 | [**結構物件類別**](a-structuralobjectclass.md)                  | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**子 Refs**](a-subrefs.md)                                               | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**SubSchemaSubEntry**](a-subschemasubentry.md)                            | 否     | [**返回頁首**](c-top.md)<br/>                                       |
-| [**Surname**](a-sn.md)                                                     | 否     | [**個人**](c-person.md)<br/>                                 |
+| [**姓**](a-sn.md)                                                     | 否     | [**人**](c-person.md)<br/>                                 |
 | [**系統旗標**](a-systemflags.md)                                       | 否     | [**返回頁首**](c-top.md)<br/>                                       |
-| [**電話號碼**](a-telephonenumber.md)                               | 否     | [**個人**](c-person.md)<br/>                                 |
+| [**電話號碼**](a-telephonenumber.md)                               | 否     | [**人**](c-person.md)<br/>                                 |
 | [**Teletex-終端機-識別碼**](a-teletexterminalidentifier.md)          | 否     | **居住人**                                                |
 | [**電傳號碼**](a-telexnumber.md)                                       | 否     | **居住人**                                                |
 | [**標題**](a-title.md)                                                    | 否     | **居住人**                                                |
-| [**使用者-密碼**](a-userpassword.md)                                     | 否     | [**個人**](c-person.md)<br/>                                 |
+| [**使用者-密碼**](a-userpassword.md)                                     | 否     | [**人**](c-person.md)<br/>                                 |
 | [**USN-已變更**](a-usnchanged.md)                                         | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**USN-已建立**](a-usncreated.md)                                         | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**USN-已移除-最後-Obj**](a-usndsalastobjremoved.md)                  | 否     | [**返回頁首**](c-top.md)<br/>                                       |
@@ -338,7 +338,7 @@ ms.locfileid: "104106746"
 | Governs-Id                  | 2.5.6.10                                                                                     |
 | 預設值-隱藏-值        | 1                                                                                            |
 | Rdn-Att-Id                  | [**一般名稱**](a-cn.md)<br/>                                                       |
-| 的子類別                 | [**個人**](c-person.md)<br/>                                                        |
+| 的子類別                 | [**人**](c-person.md)<br/>                                                        |
 | 可能的 Superiors          | [**容器**](c-container.md)[**位置**](c-locality.md)                               |
 | 輔助類別           | \-                                                                                           |
 | NT-Security-描述元      | O:BAG：不正確： S：                                                                                 |
@@ -347,7 +347,7 @@ ms.locfileid: "104106746"
 
 
 
-## <a name="windows-server-2003-r2-attributes"></a>Windows Server 2003 R2 屬性
+## <a name="windows-server-2003-r2-attributes"></a>WindowsServer 2003 R2 屬性
 
 此類別包含 Windows Server 2003 R2 的下列屬性：
 
@@ -361,11 +361,11 @@ ms.locfileid: "104106746"
 | [**允許-屬性-有效**](a-allowedattributeseffective.md)        | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**允許-子類別**](a-allowedchildclasses.md)                      | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**允許-子類別-有效**](a-allowedchildclasseseffective.md)   | 否     | [**返回頁首**](c-top.md)<br/>                                       |
-| [**attributeCertificateAttribute**](a-attributecertificateattribute.md)    | 否     | [**個人**](c-person.md)<br/>                                 |
+| [**attributeCertificateAttribute**](a-attributecertificateattribute.md)    | 否     | [**人**](c-person.md)<br/>                                 |
 | [**橋頭-伺服器-清單-BL**](a-bridgeheadserverlistbl.md)               | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**商務-類別**](a-businesscategory.md)                             | 否     | **居住人**                                                |
 | [**標準名稱**](a-canonicalname.md)                                   | 否     | [**返回頁首**](c-top.md)<br/>                                       |
-| [**一般名稱**](a-cn.md)                                                 | 對      | [**個人**](c-person.md)<br/> [**返回頁首**](c-top.md)<br/> |
+| [**一般名稱**](a-cn.md)                                                 | 是      | [**人**](c-person.md)<br/> [**返回頁首**](c-top.md)<br/> |
 | [**建立時間戳記**](a-createtimestamp.md)                              | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**描述**](a-description.md)                                        | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**目的地-指標**](a-destinationindicator.md)                     | 否     | **居住人**                                                |
@@ -380,7 +380,7 @@ ms.locfileid: "104106746"
 | [**Frs-電腦-參考-BL**](a-frscomputerreferencebl.md)               | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**FRS-成員參考-BL**](a-frsmemberreferencebl.md)                   | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**FSMO 角色-擁有者**](a-fsmoroleowner.md)                                  | 否     | [**返回頁首**](c-top.md)<br/>                                       |
-| [**實例類型**](a-instancetype.md)                                     | 對      | [**返回頁首**](c-top.md)<br/>                                       |
+| [**實例類型**](a-instancetype.md)                                     | 是      | [**返回頁首**](c-top.md)<br/>                                       |
 | [**國際 ISDN 號碼**](a-internationalisdnnumber.md)              | 否     | **居住人**                                                |
 | [**為關鍵-系統物件**](a-iscriticalsystemobject.md)               | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**已刪除**](a-isdeleted.md)                                           | 否     | [**返回頁首**](c-top.md)<br/>                                       |
@@ -415,21 +415,21 @@ ms.locfileid: "104106746"
 | [**msSFU-30-Posix-成員**](a-mssfu30posixmemberof.md)                  | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**netboot-SCP-BL**](a-netbootscpbl.md)                                    | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**非安全性成員-BL**](a-nonsecuritymemberbl.md)                     | 否     | [**返回頁首**](c-top.md)<br/>                                       |
-| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                    | 對      | [**返回頁首**](c-top.md)<br/>                                       |
+| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                    | 是      | [**返回頁首**](c-top.md)<br/>                                       |
 | [**Obj-Dist 名稱**](a-distinguishedname.md)                                | 否     | [**返回頁首**](c-top.md)<br/>                                       |
-| [**物件-類別**](a-objectcategory.md)                                 | 對      | [**返回頁首**](c-top.md)<br/>                                       |
-| [**物件類別**](a-objectclass.md)                                       | 對      | [**返回頁首**](c-top.md)<br/>                                       |
+| [**物件-類別**](a-objectcategory.md)                                 | 是      | [**返回頁首**](c-top.md)<br/>                                       |
+| [**物件類別**](a-objectclass.md)                                       | 是      | [**返回頁首**](c-top.md)<br/>                                       |
 | [**物件-Guid**](a-objectguid.md)                                         | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**物件版本**](a-objectversion.md)                                   | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**組織單位-名稱**](a-ou.md)                                    | 否     | **居住人**                                                |
 | [**其他知名物件**](a-otherwellknownobjects.md)                 | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**部分屬性-刪除-清單**](a-partialattributedeletionlist.md)   | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**部分屬性集**](a-partialattributeset.md)                      | 否     | [**返回頁首**](c-top.md)<br/>                                       |
-| [**實體傳遞-辦公室-名稱**](a-physicaldeliveryofficename.md)       | 否     | **居住人**                                                |
+| [**實體傳遞-Office-名稱**](a-physicaldeliveryofficename.md)       | 否     | **居住人**                                                |
 | [**可能-Inferiors**](a-possibleinferiors.md)                           | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**郵件標籤**](a-postaladdress.md)                                   | 否     | **居住人**                                                |
 | [**郵遞區號**](a-postalcode.md)                                         | 否     | **居住人**                                                |
-| [**郵局-Box**](a-postofficebox.md)                                  | 否     | **居住人**                                                |
+| [**後續 Office-Box**](a-postofficebox.md)                                  | 否     | **居住人**                                                |
 | [**慣用傳遞方法**](a-preferreddeliverymethod.md)              | 否     | **居住人**                                                |
 | [**Proxy-物件名稱**](a-proxiedobjectname.md)                          | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**Proxy 位址**](a-proxyaddresses.md)                                 | 否     | [**返回頁首**](c-top.md)<br/>                                       |
@@ -443,8 +443,8 @@ ms.locfileid: "104106746"
 | [**代表**](a-repsto.md)                                                 | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**修訂**](a-revision.md)                                              | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**SD-Rights-有效**](a-sdrightseffective.md)                          | 否     | [**返回頁首**](c-top.md)<br/>                                       |
-| [**請參閱-也**](a-seealso.md)                                               | 否     | [**個人**](c-person.md)<br/>                                 |
-| [**序號**](a-serialnumber.md)                                     | 否     | [**個人**](c-person.md)<br/>                                 |
+| [**請參閱-也**](a-seealso.md)                                               | 否     | [**人**](c-person.md)<br/>                                 |
+| [**序號**](a-serialnumber.md)                                     | 否     | [**人**](c-person.md)<br/>                                 |
 | [**伺服器參考-BL**](a-serverreferencebl.md)                          | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**顯示-內建-僅限視圖**](a-showinadvancedviewonly.md)              | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**網站-物件-BL**](a-siteobjectbl.md)                                    | 否     | [**返回頁首**](c-top.md)<br/>                                       |
@@ -453,13 +453,13 @@ ms.locfileid: "104106746"
 | [**結構物件類別**](a-structuralobjectclass.md)                  | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**子 Refs**](a-subrefs.md)                                               | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**SubSchemaSubEntry**](a-subschemasubentry.md)                            | 否     | [**返回頁首**](c-top.md)<br/>                                       |
-| [**Surname**](a-sn.md)                                                     | 否     | [**個人**](c-person.md)<br/>                                 |
+| [**姓**](a-sn.md)                                                     | 否     | [**人**](c-person.md)<br/>                                 |
 | [**系統旗標**](a-systemflags.md)                                       | 否     | [**返回頁首**](c-top.md)<br/>                                       |
-| [**電話號碼**](a-telephonenumber.md)                               | 否     | [**個人**](c-person.md)<br/>                                 |
+| [**電話號碼**](a-telephonenumber.md)                               | 否     | [**人**](c-person.md)<br/>                                 |
 | [**Teletex-終端機-識別碼**](a-teletexterminalidentifier.md)          | 否     | **居住人**                                                |
 | [**電傳號碼**](a-telexnumber.md)                                       | 否     | **居住人**                                                |
 | [**標題**](a-title.md)                                                    | 否     | **居住人**                                                |
-| [**使用者-密碼**](a-userpassword.md)                                     | 否     | [**個人**](c-person.md)<br/>                                 |
+| [**使用者-密碼**](a-userpassword.md)                                     | 否     | [**人**](c-person.md)<br/>                                 |
 | [**USN-已變更**](a-usnchanged.md)                                         | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**USN-已建立**](a-usncreated.md)                                         | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**USN-已移除-最後-Obj**](a-usndsalastobjremoved.md)                  | 否     | [**返回頁首**](c-top.md)<br/>                                       |
@@ -490,7 +490,7 @@ ms.locfileid: "104106746"
 | Governs-Id                  | 2.5.6.10                                                                                     |
 | 預設值-隱藏-值        | 1                                                                                            |
 | Rdn-Att-Id                  | [**一般名稱**](a-cn.md)<br/>                                                       |
-| 的子類別                 | [**個人**](c-person.md)<br/>                                                        |
+| 的子類別                 | [**人**](c-person.md)<br/>                                                        |
 | 可能的 Superiors          | [**容器**](c-container.md)[**位置**](c-locality.md)                               |
 | 輔助類別           | \-                                                                                           |
 | NT-Security-描述元      | O:BAG：不正確： S：                                                                                 |
@@ -499,7 +499,7 @@ ms.locfileid: "104106746"
 
 
 
-## <a name="windows-server-2008-attributes"></a>Windows Server 2008 屬性
+## <a name="windows-server-2008-attributes"></a>Windows伺服器2008屬性
 
 此類別包含 Windows Server 2008 的下列屬性：
 
@@ -513,11 +513,11 @@ ms.locfileid: "104106746"
 | [**允許-屬性-有效**](a-allowedattributeseffective.md)           | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**允許-子類別**](a-allowedchildclasses.md)                         | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**允許-子類別-有效**](a-allowedchildclasseseffective.md)      | 否     | [**返回頁首**](c-top.md)<br/>                                       |
-| [**attributeCertificateAttribute**](a-attributecertificateattribute.md)       | 否     | [**個人**](c-person.md)<br/>                                 |
+| [**attributeCertificateAttribute**](a-attributecertificateattribute.md)       | 否     | [**人**](c-person.md)<br/>                                 |
 | [**橋頭-伺服器-清單-BL**](a-bridgeheadserverlistbl.md)                  | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**商務-類別**](a-businesscategory.md)                                | 否     | **居住人**                                                |
 | [**標準名稱**](a-canonicalname.md)                                      | 否     | [**返回頁首**](c-top.md)<br/>                                       |
-| [**一般名稱**](a-cn.md)                                                    | 對      | [**個人**](c-person.md)<br/> [**返回頁首**](c-top.md)<br/> |
+| [**一般名稱**](a-cn.md)                                                    | 是      | [**人**](c-person.md)<br/> [**返回頁首**](c-top.md)<br/> |
 | [**建立時間戳記**](a-createtimestamp.md)                                 | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**描述**](a-description.md)                                           | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**目的地-指標**](a-destinationindicator.md)                        | 否     | **居住人**                                                |
@@ -532,7 +532,7 @@ ms.locfileid: "104106746"
 | [**Frs-電腦-參考-BL**](a-frscomputerreferencebl.md)                  | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**FRS-成員參考-BL**](a-frsmemberreferencebl.md)                      | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**FSMO 角色-擁有者**](a-fsmoroleowner.md)                                     | 否     | [**返回頁首**](c-top.md)<br/>                                       |
-| [**實例類型**](a-instancetype.md)                                        | 對      | [**返回頁首**](c-top.md)<br/>                                       |
+| [**實例類型**](a-instancetype.md)                                        | 是      | [**返回頁首**](c-top.md)<br/>                                       |
 | [**國際 ISDN 號碼**](a-internationalisdnnumber.md)                 | 否     | **居住人**                                                |
 | [**為關鍵-系統物件**](a-iscriticalsystemobject.md)                  | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**已刪除**](a-isdeleted.md)                                              | 否     | [**返回頁首**](c-top.md)<br/>                                       |
@@ -578,21 +578,21 @@ ms.locfileid: "104106746"
 | [**msSFU-30-Posix-成員**](a-mssfu30posixmemberof.md)                     | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**netboot-SCP-BL**](a-netbootscpbl.md)                                       | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**非安全性成員-BL**](a-nonsecuritymemberbl.md)                        | 否     | [**返回頁首**](c-top.md)<br/>                                       |
-| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                       | 對      | [**返回頁首**](c-top.md)<br/>                                       |
+| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                       | 是      | [**返回頁首**](c-top.md)<br/>                                       |
 | [**Obj-Dist 名稱**](a-distinguishedname.md)                                   | 否     | [**返回頁首**](c-top.md)<br/>                                       |
-| [**物件-類別**](a-objectcategory.md)                                    | 對      | [**返回頁首**](c-top.md)<br/>                                       |
-| [**物件類別**](a-objectclass.md)                                          | 對      | [**返回頁首**](c-top.md)<br/>                                       |
+| [**物件-類別**](a-objectcategory.md)                                    | 是      | [**返回頁首**](c-top.md)<br/>                                       |
+| [**物件類別**](a-objectclass.md)                                          | 是      | [**返回頁首**](c-top.md)<br/>                                       |
 | [**物件-Guid**](a-objectguid.md)                                            | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**物件版本**](a-objectversion.md)                                      | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**組織單位-名稱**](a-ou.md)                                       | 否     | **居住人**                                                |
 | [**其他知名物件**](a-otherwellknownobjects.md)                    | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**部分屬性-刪除-清單**](a-partialattributedeletionlist.md)      | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**部分屬性集**](a-partialattributeset.md)                         | 否     | [**返回頁首**](c-top.md)<br/>                                       |
-| [**實體傳遞-辦公室-名稱**](a-physicaldeliveryofficename.md)          | 否     | **居住人**                                                |
+| [**實體傳遞-Office-名稱**](a-physicaldeliveryofficename.md)          | 否     | **居住人**                                                |
 | [**可能-Inferiors**](a-possibleinferiors.md)                              | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**郵件標籤**](a-postaladdress.md)                                      | 否     | **居住人**                                                |
 | [**郵遞區號**](a-postalcode.md)                                            | 否     | **居住人**                                                |
-| [**郵局-Box**](a-postofficebox.md)                                     | 否     | **居住人**                                                |
+| [**後續 Office-Box**](a-postofficebox.md)                                     | 否     | **居住人**                                                |
 | [**慣用傳遞方法**](a-preferreddeliverymethod.md)                 | 否     | **居住人**                                                |
 | [**Proxy-物件名稱**](a-proxiedobjectname.md)                             | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**Proxy 位址**](a-proxyaddresses.md)                                    | 否     | [**返回頁首**](c-top.md)<br/>                                       |
@@ -606,8 +606,8 @@ ms.locfileid: "104106746"
 | [**代表**](a-repsto.md)                                                    | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**修訂**](a-revision.md)                                                 | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**SD-Rights-有效**](a-sdrightseffective.md)                             | 否     | [**返回頁首**](c-top.md)<br/>                                       |
-| [**請參閱-也**](a-seealso.md)                                                  | 否     | [**個人**](c-person.md)<br/>                                 |
-| [**序號**](a-serialnumber.md)                                        | 否     | [**個人**](c-person.md)<br/>                                 |
+| [**請參閱-也**](a-seealso.md)                                                  | 否     | [**人**](c-person.md)<br/>                                 |
+| [**序號**](a-serialnumber.md)                                        | 否     | [**人**](c-person.md)<br/>                                 |
 | [**伺服器參考-BL**](a-serverreferencebl.md)                             | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**顯示-內建-僅限視圖**](a-showinadvancedviewonly.md)                 | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**網站-物件-BL**](a-siteobjectbl.md)                                       | 否     | [**返回頁首**](c-top.md)<br/>                                       |
@@ -616,13 +616,13 @@ ms.locfileid: "104106746"
 | [**結構物件類別**](a-structuralobjectclass.md)                     | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**子 Refs**](a-subrefs.md)                                                  | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**SubSchemaSubEntry**](a-subschemasubentry.md)                               | 否     | [**返回頁首**](c-top.md)<br/>                                       |
-| [**Surname**](a-sn.md)                                                        | 否     | [**個人**](c-person.md)<br/>                                 |
+| [**姓**](a-sn.md)                                                        | 否     | [**人**](c-person.md)<br/>                                 |
 | [**系統旗標**](a-systemflags.md)                                          | 否     | [**返回頁首**](c-top.md)<br/>                                       |
-| [**電話號碼**](a-telephonenumber.md)                                  | 否     | [**個人**](c-person.md)<br/>                                 |
+| [**電話號碼**](a-telephonenumber.md)                                  | 否     | [**人**](c-person.md)<br/>                                 |
 | [**Teletex-終端機-識別碼**](a-teletexterminalidentifier.md)             | 否     | **居住人**                                                |
 | [**電傳號碼**](a-telexnumber.md)                                          | 否     | **居住人**                                                |
 | [**標題**](a-title.md)                                                       | 否     | **居住人**                                                |
-| [**使用者-密碼**](a-userpassword.md)                                        | 否     | [**個人**](c-person.md)<br/>                                 |
+| [**使用者-密碼**](a-userpassword.md)                                        | 否     | [**人**](c-person.md)<br/>                                 |
 | [**USN-已變更**](a-usnchanged.md)                                            | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**USN-已建立**](a-usncreated.md)                                            | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**USN-已移除-最後-Obj**](a-usndsalastobjremoved.md)                     | 否     | [**返回頁首**](c-top.md)<br/>                                       |
@@ -653,7 +653,7 @@ ms.locfileid: "104106746"
 | Governs-Id                  | 2.5.6.10                                                                                     |
 | 預設值-隱藏-值        | 1                                                                                            |
 | Rdn-Att-Id                  | [**一般名稱**](a-cn.md)<br/>                                                       |
-| 的子類別                 | [**個人**](c-person.md)<br/>                                                        |
+| 的子類別                 | [**人**](c-person.md)<br/>                                                        |
 | 可能的 Superiors          | [**容器**](c-container.md)[**位置**](c-locality.md)                               |
 | 輔助類別           | \-                                                                                           |
 | NT-Security-描述元      | O:BAG：不正確： S：                                                                                 |
@@ -662,7 +662,7 @@ ms.locfileid: "104106746"
 
 
 
-## <a name="windows-server-2008-r2-attributes"></a>Windows Server 2008 R2 屬性
+## <a name="windows-server-2008-r2-attributes"></a>WindowsServer 2008 R2 屬性
 
 此類別包含 Windows Server 2008 R2 的下列屬性：
 
@@ -676,11 +676,11 @@ ms.locfileid: "104106746"
 | [**允許-屬性-有效**](a-allowedattributeseffective.md)             | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**允許-子類別**](a-allowedchildclasses.md)                           | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**允許-子類別-有效**](a-allowedchildclasseseffective.md)        | 否     | [**返回頁首**](c-top.md)<br/>                                       |
-| [**attributeCertificateAttribute**](a-attributecertificateattribute.md)         | 否     | [**個人**](c-person.md)<br/>                                 |
+| [**attributeCertificateAttribute**](a-attributecertificateattribute.md)         | 否     | [**人**](c-person.md)<br/>                                 |
 | [**橋頭-伺服器-清單-BL**](a-bridgeheadserverlistbl.md)                    | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**商務-類別**](a-businesscategory.md)                                  | 否     | **居住人**                                                |
 | [**標準名稱**](a-canonicalname.md)                                        | 否     | [**返回頁首**](c-top.md)<br/>                                       |
-| [**一般名稱**](a-cn.md)                                                      | 對      | [**個人**](c-person.md)<br/> [**返回頁首**](c-top.md)<br/> |
+| [**一般名稱**](a-cn.md)                                                      | 是      | [**人**](c-person.md)<br/> [**返回頁首**](c-top.md)<br/> |
 | [**建立時間戳記**](a-createtimestamp.md)                                   | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**描述**](a-description.md)                                             | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**目的地-指標**](a-destinationindicator.md)                          | 否     | **居住人**                                                |
@@ -695,7 +695,7 @@ ms.locfileid: "104106746"
 | [**Frs-電腦-參考-BL**](a-frscomputerreferencebl.md)                    | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**FRS-成員參考-BL**](a-frsmemberreferencebl.md)                        | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**FSMO 角色-擁有者**](a-fsmoroleowner.md)                                       | 否     | [**返回頁首**](c-top.md)<br/>                                       |
-| [**實例類型**](a-instancetype.md)                                          | 對      | [**返回頁首**](c-top.md)<br/>                                       |
+| [**實例類型**](a-instancetype.md)                                          | 是      | [**返回頁首**](c-top.md)<br/>                                       |
 | [**國際 ISDN 號碼**](a-internationalisdnnumber.md)                   | 否     | **居住人**                                                |
 | [**為關鍵-系統物件**](a-iscriticalsystemobject.md)                    | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**已刪除**](a-isdeleted.md)                                                | 否     | [**返回頁首**](c-top.md)<br/>                                       |
@@ -748,21 +748,21 @@ ms.locfileid: "104106746"
 | [**msSFU-30-Posix-成員**](a-mssfu30posixmemberof.md)                       | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**netboot-SCP-BL**](a-netbootscpbl.md)                                         | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**非安全性成員-BL**](a-nonsecuritymemberbl.md)                          | 否     | [**返回頁首**](c-top.md)<br/>                                       |
-| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                         | 對      | [**返回頁首**](c-top.md)<br/>                                       |
+| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                         | 是      | [**返回頁首**](c-top.md)<br/>                                       |
 | [**Obj-Dist 名稱**](a-distinguishedname.md)                                     | 否     | [**返回頁首**](c-top.md)<br/>                                       |
-| [**物件-類別**](a-objectcategory.md)                                      | 對      | [**返回頁首**](c-top.md)<br/>                                       |
-| [**物件類別**](a-objectclass.md)                                            | 對      | [**返回頁首**](c-top.md)<br/>                                       |
+| [**物件-類別**](a-objectcategory.md)                                      | 是      | [**返回頁首**](c-top.md)<br/>                                       |
+| [**物件類別**](a-objectclass.md)                                            | 是      | [**返回頁首**](c-top.md)<br/>                                       |
 | [**物件-Guid**](a-objectguid.md)                                              | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**物件版本**](a-objectversion.md)                                        | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**組織單位-名稱**](a-ou.md)                                         | 否     | **居住人**                                                |
 | [**其他知名物件**](a-otherwellknownobjects.md)                      | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**部分屬性-刪除-清單**](a-partialattributedeletionlist.md)        | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**部分屬性集**](a-partialattributeset.md)                           | 否     | [**返回頁首**](c-top.md)<br/>                                       |
-| [**實體傳遞-辦公室-名稱**](a-physicaldeliveryofficename.md)            | 否     | **居住人**                                                |
+| [**實體傳遞-Office-名稱**](a-physicaldeliveryofficename.md)            | 否     | **居住人**                                                |
 | [**可能-Inferiors**](a-possibleinferiors.md)                                | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**郵件標籤**](a-postaladdress.md)                                        | 否     | **居住人**                                                |
 | [**郵遞區號**](a-postalcode.md)                                              | 否     | **居住人**                                                |
-| [**郵局-Box**](a-postofficebox.md)                                       | 否     | **居住人**                                                |
+| [**後續 Office-Box**](a-postofficebox.md)                                       | 否     | **居住人**                                                |
 | [**慣用傳遞方法**](a-preferreddeliverymethod.md)                   | 否     | **居住人**                                                |
 | [**Proxy-物件名稱**](a-proxiedobjectname.md)                               | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**Proxy 位址**](a-proxyaddresses.md)                                      | 否     | [**返回頁首**](c-top.md)<br/>                                       |
@@ -776,8 +776,8 @@ ms.locfileid: "104106746"
 | [**代表**](a-repsto.md)                                                      | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**修訂**](a-revision.md)                                                   | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**SD-Rights-有效**](a-sdrightseffective.md)                               | 否     | [**返回頁首**](c-top.md)<br/>                                       |
-| [**請參閱-也**](a-seealso.md)                                                    | 否     | [**個人**](c-person.md)<br/>                                 |
-| [**序號**](a-serialnumber.md)                                          | 否     | [**個人**](c-person.md)<br/>                                 |
+| [**請參閱-也**](a-seealso.md)                                                    | 否     | [**人**](c-person.md)<br/>                                 |
+| [**序號**](a-serialnumber.md)                                          | 否     | [**人**](c-person.md)<br/>                                 |
 | [**伺服器參考-BL**](a-serverreferencebl.md)                               | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**顯示-內建-僅限視圖**](a-showinadvancedviewonly.md)                   | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**網站-物件-BL**](a-siteobjectbl.md)                                         | 否     | [**返回頁首**](c-top.md)<br/>                                       |
@@ -786,13 +786,13 @@ ms.locfileid: "104106746"
 | [**結構物件類別**](a-structuralobjectclass.md)                       | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**子 Refs**](a-subrefs.md)                                                    | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**SubSchemaSubEntry**](a-subschemasubentry.md)                                 | 否     | [**返回頁首**](c-top.md)<br/>                                       |
-| [**Surname**](a-sn.md)                                                          | 否     | [**個人**](c-person.md)<br/>                                 |
+| [**姓**](a-sn.md)                                                          | 否     | [**人**](c-person.md)<br/>                                 |
 | [**系統旗標**](a-systemflags.md)                                            | 否     | [**返回頁首**](c-top.md)<br/>                                       |
-| [**電話號碼**](a-telephonenumber.md)                                    | 否     | [**個人**](c-person.md)<br/>                                 |
+| [**電話號碼**](a-telephonenumber.md)                                    | 否     | [**人**](c-person.md)<br/>                                 |
 | [**Teletex-終端機-識別碼**](a-teletexterminalidentifier.md)               | 否     | **居住人**                                                |
 | [**電傳號碼**](a-telexnumber.md)                                            | 否     | **居住人**                                                |
 | [**標題**](a-title.md)                                                         | 否     | **居住人**                                                |
-| [**使用者-密碼**](a-userpassword.md)                                          | 否     | [**個人**](c-person.md)<br/>                                 |
+| [**使用者-密碼**](a-userpassword.md)                                          | 否     | [**人**](c-person.md)<br/>                                 |
 | [**USN-已變更**](a-usnchanged.md)                                              | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**USN-已建立**](a-usncreated.md)                                              | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**USN-已移除-最後-Obj**](a-usndsalastobjremoved.md)                       | 否     | [**返回頁首**](c-top.md)<br/>                                       |
@@ -823,7 +823,7 @@ ms.locfileid: "104106746"
 | Governs-Id                  | 2.5.6.10                                                                                     |
 | 預設值-隱藏-值        | 1                                                                                            |
 | Rdn-Att-Id                  | [**一般名稱**](a-cn.md)<br/>                                                       |
-| 的子類別                 | [**個人**](c-person.md)<br/>                                                        |
+| 的子類別                 | [**人**](c-person.md)<br/>                                                        |
 | 可能的 Superiors          | [**容器**](c-container.md)[**位置**](c-locality.md)                               |
 | 輔助類別           | \-                                                                                           |
 | NT-Security-描述元      | O:BAG：不正確： S：                                                                                 |
@@ -832,9 +832,9 @@ ms.locfileid: "104106746"
 
 
 
-## <a name="windows-server-2012-attributes"></a>Windows Server 2012 屬性
+## <a name="windows-server-2012-attributes"></a>Windows Server 2012屬性
 
-此類別包含 Windows Server 2012 的下列屬性：
+這個類別包含 Windows Server 2012 的下列屬性：
 
 
 
@@ -846,11 +846,11 @@ ms.locfileid: "104106746"
 | [**允許-屬性-有效**](a-allowedattributeseffective.md)                         | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**允許-子類別**](a-allowedchildclasses.md)                                       | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**允許-子類別-有效**](a-allowedchildclasseseffective.md)                    | 否     | [**返回頁首**](c-top.md)<br/>                                       |
-| [**attributeCertificateAttribute**](a-attributecertificateattribute.md)                     | 否     | [**個人**](c-person.md)<br/>                                 |
+| [**attributeCertificateAttribute**](a-attributecertificateattribute.md)                     | 否     | [**人**](c-person.md)<br/>                                 |
 | [**橋頭-伺服器-清單-BL**](a-bridgeheadserverlistbl.md)                                | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**商務-類別**](a-businesscategory.md)                                              | 否     | **居住人**                                                |
 | [**標準名稱**](a-canonicalname.md)                                                    | 否     | [**返回頁首**](c-top.md)<br/>                                       |
-| [**一般名稱**](a-cn.md)                                                                  | 對      | [**個人**](c-person.md)<br/> [**返回頁首**](c-top.md)<br/> |
+| [**一般名稱**](a-cn.md)                                                                  | 是      | [**人**](c-person.md)<br/> [**返回頁首**](c-top.md)<br/> |
 | [**建立時間戳記**](a-createtimestamp.md)                                               | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**描述**](a-description.md)                                                         | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**目的地-指標**](a-destinationindicator.md)                                      | 否     | **居住人**                                                |
@@ -865,7 +865,7 @@ ms.locfileid: "104106746"
 | [**Frs-電腦-參考-BL**](a-frscomputerreferencebl.md)                                | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**FRS-成員參考-BL**](a-frsmemberreferencebl.md)                                    | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**FSMO 角色-擁有者**](a-fsmoroleowner.md)                                                   | 否     | [**返回頁首**](c-top.md)<br/>                                       |
-| [**實例類型**](a-instancetype.md)                                                      | 對      | [**返回頁首**](c-top.md)<br/>                                       |
+| [**實例類型**](a-instancetype.md)                                                      | 是      | [**返回頁首**](c-top.md)<br/>                                       |
 | [**國際 ISDN 號碼**](a-internationalisdnnumber.md)                               | 否     | **居住人**                                                |
 | [**為關鍵-系統物件**](a-iscriticalsystemobject.md)                                | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**已刪除**](a-isdeleted.md)                                                            | 否     | [**返回頁首**](c-top.md)<br/>                                       |
@@ -917,28 +917,28 @@ ms.locfileid: "104106746"
 | [**ms-DS-Revealed-List-BL**](a-msds-revealedlistbl.md)                                      | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**ms-chap---------BL**](a-msds-tasksforazrolebl.md)                                | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**ms DS-工作--Az-Task-BL**](a-msds-tasksforaztaskbl.md)                                | 否     | [**返回頁首**](c-top.md)<br/>                                       |
-| [**ms DS-TDO-出口-BL**](a-msds-tdoegressbl.md)                                            | 否     | [**返回頁首**](c-top.md)<br/>                                       |
+| [**ms-chap-Egress-BL**](a-msds-tdoegressbl.md)                                            | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**ms-DS-TDO-輸入-BL**](a-msds-tdoingressbl.md)                                          | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**ms-chap-------Reference-BL**](a-msds-valuetypereferencebl.md)                         | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**Ms-exch-assistant-name-擁有者-BL**](a-ownerbl.md)                                                        | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**msSFU-30-Posix-成員**](a-mssfu30posixmemberof.md)                                   | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**netboot-SCP-BL**](a-netbootscpbl.md)                                                     | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**非安全性成員-BL**](a-nonsecuritymemberbl.md)                                      | 否     | [**返回頁首**](c-top.md)<br/>                                       |
-| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                                     | 對      | [**返回頁首**](c-top.md)<br/>                                       |
+| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                                     | 是      | [**返回頁首**](c-top.md)<br/>                                       |
 | [**Obj-Dist 名稱**](a-distinguishedname.md)                                                 | 否     | [**返回頁首**](c-top.md)<br/>                                       |
-| [**物件-類別**](a-objectcategory.md)                                                  | 對      | [**返回頁首**](c-top.md)<br/>                                       |
-| [**物件類別**](a-objectclass.md)                                                        | 對      | [**返回頁首**](c-top.md)<br/>                                       |
+| [**物件-類別**](a-objectcategory.md)                                                  | 是      | [**返回頁首**](c-top.md)<br/>                                       |
+| [**物件類別**](a-objectclass.md)                                                        | 是      | [**返回頁首**](c-top.md)<br/>                                       |
 | [**物件-Guid**](a-objectguid.md)                                                          | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**物件版本**](a-objectversion.md)                                                    | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**組織單位-名稱**](a-ou.md)                                                     | 否     | **居住人**                                                |
 | [**其他知名物件**](a-otherwellknownobjects.md)                                  | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**部分屬性-刪除-清單**](a-partialattributedeletionlist.md)                    | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**部分屬性集**](a-partialattributeset.md)                                       | 否     | [**返回頁首**](c-top.md)<br/>                                       |
-| [**實體傳遞-辦公室-名稱**](a-physicaldeliveryofficename.md)                        | 否     | **居住人**                                                |
+| [**實體傳遞-Office-名稱**](a-physicaldeliveryofficename.md)                        | 否     | **居住人**                                                |
 | [**可能-Inferiors**](a-possibleinferiors.md)                                            | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**郵件標籤**](a-postaladdress.md)                                                    | 否     | **居住人**                                                |
 | [**郵遞區號**](a-postalcode.md)                                                          | 否     | **居住人**                                                |
-| [**郵局-Box**](a-postofficebox.md)                                                   | 否     | **居住人**                                                |
+| [**後續 Office-Box**](a-postofficebox.md)                                                   | 否     | **居住人**                                                |
 | [**慣用傳遞方法**](a-preferreddeliverymethod.md)                               | 否     | **居住人**                                                |
 | [**Proxy-物件名稱**](a-proxiedobjectname.md)                                           | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**Proxy 位址**](a-proxyaddresses.md)                                                  | 否     | [**返回頁首**](c-top.md)<br/>                                       |
@@ -952,8 +952,8 @@ ms.locfileid: "104106746"
 | [**代表**](a-repsto.md)                                                                  | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**修訂**](a-revision.md)                                                               | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**SD-Rights-有效**](a-sdrightseffective.md)                                           | 否     | [**返回頁首**](c-top.md)<br/>                                       |
-| [**請參閱-也**](a-seealso.md)                                                                | 否     | [**個人**](c-person.md)<br/>                                 |
-| [**序號**](a-serialnumber.md)                                                      | 否     | [**個人**](c-person.md)<br/>                                 |
+| [**請參閱-也**](a-seealso.md)                                                                | 否     | [**人**](c-person.md)<br/>                                 |
+| [**序號**](a-serialnumber.md)                                                      | 否     | [**人**](c-person.md)<br/>                                 |
 | [**伺服器參考-BL**](a-serverreferencebl.md)                                           | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**顯示-內建-僅限視圖**](a-showinadvancedviewonly.md)                               | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**網站-物件-BL**](a-siteobjectbl.md)                                                     | 否     | [**返回頁首**](c-top.md)<br/>                                       |
@@ -962,13 +962,13 @@ ms.locfileid: "104106746"
 | [**結構物件類別**](a-structuralobjectclass.md)                                   | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**子 Refs**](a-subrefs.md)                                                                | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**SubSchemaSubEntry**](a-subschemasubentry.md)                                             | 否     | [**返回頁首**](c-top.md)<br/>                                       |
-| [**Surname**](a-sn.md)                                                                      | 否     | [**個人**](c-person.md)<br/>                                 |
+| [**姓**](a-sn.md)                                                                      | 否     | [**人**](c-person.md)<br/>                                 |
 | [**系統旗標**](a-systemflags.md)                                                        | 否     | [**返回頁首**](c-top.md)<br/>                                       |
-| [**電話號碼**](a-telephonenumber.md)                                                | 否     | [**個人**](c-person.md)<br/>                                 |
+| [**電話號碼**](a-telephonenumber.md)                                                | 否     | [**人**](c-person.md)<br/>                                 |
 | [**Teletex-終端機-識別碼**](a-teletexterminalidentifier.md)                           | 否     | **居住人**                                                |
 | [**電傳號碼**](a-telexnumber.md)                                                        | 否     | **居住人**                                                |
 | [**標題**](a-title.md)                                                                     | 否     | **居住人**                                                |
-| [**使用者-密碼**](a-userpassword.md)                                                      | 否     | [**個人**](c-person.md)<br/>                                 |
+| [**使用者-密碼**](a-userpassword.md)                                                      | 否     | [**人**](c-person.md)<br/>                                 |
 | [**USN-已變更**](a-usnchanged.md)                                                          | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**USN-已建立**](a-usncreated.md)                                                          | 否     | [**返回頁首**](c-top.md)<br/>                                       |
 | [**USN-已移除-最後-Obj**](a-usndsalastobjremoved.md)                                   | 否     | [**返回頁首**](c-top.md)<br/>                                       |

@@ -10,12 +10,12 @@ keywords:
 - 外來事件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dfa09a01b709f0da51d09fc2bec70cba0a1b07d0
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ac91232447e37bc3970ea8dd0ec727fb9b5daae65e647809b129df3e0347c496
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106965815"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119649188"
 ---
 # <a name="external-events"></a>外來事件
 
@@ -60,9 +60,9 @@ onclick = "JScript: player.URL = 'https://proseware.com/laure.wma' ; "
 [**處理事件**](handling-events.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

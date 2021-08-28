@@ -4,12 +4,12 @@ ms.assetid: be9a8382-c892-44ae-8b59-c665b5cca2d2
 title: CostInitialize 動作
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 251bb0ae7508c87cd0af7ab81196c5d739e923a0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 959e9e250292a44050c1f4b9feb3fb29f7530fe2a1f53aa77a62bf3680ea9eeb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106971872"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118948365"
 ---
 # <a name="costinitialize-action"></a>CostInitialize 動作
 

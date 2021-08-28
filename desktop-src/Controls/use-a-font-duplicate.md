@@ -4,12 +4,12 @@ description: 本節說明如何使用字型重複來對文字範圍套用一些�
 ms.assetid: CF0123E5-313F-4583-872F-6FE954F1C9E8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 52dce0481b59fe9955b93a00b2c0d703c5c695ef
-ms.sourcegitcommit: f0ca63c18dc52c357d3398af7be766d2bdd40be7
+ms.openlocfilehash: 4c5558d4866c888e33ba31ad1a65f6b32a1c675ebe759bc5f24d2904c1ebce0e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "103933030"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119695998"
 ---
 # <a name="how-to-use-a-font-duplicate"></a>如何使用字型重複
 
@@ -19,12 +19,12 @@ ms.locfileid: "103933030"
 
 ### <a name="technologies"></a>技術
 
--   [Windows 控制項](window-controls.md)
+-   [Windows控制](window-controls.md)
 
 ### <a name="prerequisites"></a>必要條件
 
 -   C/C++
--   Windows 消費者介面程式設計
+-   Windows消費者介面程式設計
 
 ## <a name="instructions"></a>指示
 
@@ -87,9 +87,9 @@ void ChangeFontNameSizeBold(ITextSelection *pSel)
 [Windows 通用控制項示範 (CppWindowsCommonControls) ](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

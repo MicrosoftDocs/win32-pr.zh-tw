@@ -4,12 +4,12 @@ ms.assetid: 9922fc0a-0106-c83d-7658-1001bb93845b
 title: DirectXMath 程式庫範本函數
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e3cf7a13dc42185983184d7ead70c1eeb69a5cc7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 09f310844527d57ac7ba396f0da807a028b4f8336f6d4a1f78aa6a6202531fbc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318772"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119740158"
 ---
 # <a name="directxmath-library-template-functions"></a>DirectXMath 程式庫範本函數
 

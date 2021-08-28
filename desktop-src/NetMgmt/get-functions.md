@@ -4,12 +4,12 @@ description: 網路管理取得函式會取出網域的相關資訊。 您也可
 ms.assetid: 9c97420d-bc8a-42c9-b7ea-3d2ebc0034b3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f8da830e1b86d3de3359d3ed3627a8d392737569
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 27d48b05382a2c6bb856e31aec2793bece65400a36ce10108ebb2d7e1d50312f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104507292"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117983888"
 ---
 # <a name="get-functions"></a>取得函式
 
@@ -28,7 +28,7 @@ ms.locfileid: "104507292"
 
 
 
- 
+ 
 
 [**NetQueryDisplayInformation**](/windows/desktop/api/Lmaccess/nf-lmaccess-netquerydisplayinformation)函數所傳回的資訊可在下列層級取得：
 
@@ -36,9 +36,9 @@ ms.locfileid: "104507292"
 -   [**淨 \_ 顯示器 \_ 電腦**](/windows/desktop/api/Lmaccess/ns-lmaccess-net_display_machine)
 -   [**NET \_ DISPLAY \_ 使用者**](/windows/desktop/api/Lmaccess/ns-lmaccess-net_display_user)
 
- 
+ 
 
- 
+ 
 
 
 

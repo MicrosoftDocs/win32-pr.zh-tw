@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: cb9261884b8940b571876502741fcc52e1c40a33
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: de8630d4189ccbbf0d90b402ebeda6b785192c098aaa1e6d29c8c2a2dac2a3d3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107001138"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119688318"
 ---
 # <a name="cimageallocatornotifymediatype-method"></a>CImageAllocator. NotifyMediaType 方法
 

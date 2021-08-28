@@ -3,7 +3,7 @@ title: 'WM_HSCROLL 訊息 (Winuser .h) '
 description: '\_當捲軸事件發生在視窗的標準水準捲軸時，會將 WM HSCROLL 訊息傳送至視窗。'
 ms.assetid: 197e522f-defd-4356-8521-5b5dfda596da
 keywords:
-- WM_HSCROLL message Windows 控制項
+- WM_HSCROLL 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f26eec697e91ee8862912c0f93bcd6e8c4e5c56e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 965ac6841149934142fc4624ad14e327d4b524288c78e9f22fbf1e935c0a1e77
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104423"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118957497"
 ---
 # <a name="wm_hscroll-message"></a>WM \_ HSCROLL 訊息
 
@@ -95,9 +95,9 @@ WM_HSCROLL
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                     |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 

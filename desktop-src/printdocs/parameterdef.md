@@ -4,12 +4,12 @@ ms.assetid: cb00edc9-2c8a-446d-989b-a4429ee8f544
 title: ParameterDef
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c5eddca78b76751c6083d1c5b5bac8c1040155e6
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: 7a657350c11f56dca032df6aff6b530f304aaa3a
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122477844"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122883697"
 ---
 # <a name="parameterdef"></a>ParameterDef
 
@@ -19,7 +19,7 @@ ParameterDef 元素會定義參數輸入的有效特性。 藉由 ParameterInit 
 
 ## <a name="element-tag"></a>元素標記
 
-<ParameterDef>
+&lt;ParameterDef&gt;
 
 ## <a name="xml-attributes"></a>XML 屬性
 

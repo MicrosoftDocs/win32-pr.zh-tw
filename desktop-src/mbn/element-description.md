@@ -16,12 +16,12 @@ api_location: ''
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 7171d30cfe02509619a56d7d986487adab5b5cae
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: e57e8127a4de492ba4644505237cf6d8975b89db
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122478204"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122986291"
 ---
 # <a name="description-mobile-broadband"></a> (Mobile 寬頻) 的描述
 
@@ -29,8 +29,8 @@ ms.locfileid: "122478204"
 
 ## <a name="element-hierarchy"></a>元素階層
 
-[<MBNProfileExt>](element-mbnprofileext.md)  
-**<Description>**
+[&lt;MBNProfileExt&gt;](element-mbnprofileext.md)  
+**&lt;描述&gt;**
 
 ## <a name="syntax"></a>Syntax
 
@@ -65,7 +65,9 @@ ms.locfileid: "122478204"
 ## <a name="requirements"></a>規格需求
 
 
-| | | <p>命名空間</p> | <p>https://www.microsoft.com/networking/WWAN/profile/v4</p> | 
+| 需求 | 值 |
+|------------|----------|
+| <p>命名空間</p> | <p>https://www.microsoft.com/networking/WWAN/profile/v4</p> | 
 
 
  

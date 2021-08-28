@@ -4,12 +4,12 @@ ms.assetid: 6be08c49-be68-4b75-b740-fc1d5a2ff592
 title: 範例時間提供者
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 20a5f04f7515d73f8851b764ad5758c47848b07b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ac1ff8a636e079902cc8d8d276e4efaa4a6d08e66fc6ceda68ece62ebfbad21d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104513749"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118884921"
 ---
 # <a name="sample-time-provider"></a>範例時間提供者
 

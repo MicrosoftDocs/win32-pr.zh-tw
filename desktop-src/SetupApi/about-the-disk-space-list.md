@@ -4,12 +4,12 @@ ms.assetid: 6514cbdd-2f23-4ab8-9e34-86d3837503dc
 title: 關於 Disk-Space 清單
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2b092d73c00f426fe5c0ab298e4b6a53c19131c3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6595d3087ac8ac7913d4ce79acdc7607355eaa232342c5a7e2ef597e4fa5f013
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973040"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118887924"
 ---
 # <a name="about-the-disk-space-list"></a>關於 Disk-Space 清單
 

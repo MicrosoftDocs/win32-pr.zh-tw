@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: ac1a6aba2eda729c3e705cf5acdda837c2670564
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: a2575f6b6cbdd49380422cb955ad64e246bf6ccf
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122472444"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122984211"
 ---
 # <a name="resource-parameters"></a>資源參數
 
@@ -39,7 +39,19 @@ _**適用于：** Windows |Windows伺服器_
 此參數的大型值會導致資料庫引擎使用更多記憶體，但會增加應用程式隨機開啟大量資料表的速度。 對於具有極大量資料表之架構的應用程式而言，這非常有用。
 
 
-| | | <p>預設值：3</p> | <p>64</p> | | <p>輸入：</p> | <p>整數</p> | | <p>有效範圍：</p> | <p>1–2147483647</p> | | <p>範圍：</p> | <p>執行個體</p> | | <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p>是</p> | | <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p>否</p> | | <p>會影響實體版面配置：</p> | <p>否</p> | | <p>會影響可靠性：</p> | <p>否</p> | | <p>影響效能：</p> | <p>是</p> | | <p>會影響資源：</p> | <p>是</p> | | <p>可用性：</p> | <p>WindowsVista 和更新版本</p> | 
+| 標籤 | 值 |
+|--------|-------|
+| <p>預設值：3</p> | <p>64</p> | 
+| <p>輸入：</p> | <p>整數</p> | 
+| <p>有效範圍：</p> | <p>1–2147483647</p> | 
+| <p>範圍：</p> | <p>執行個體</p> | 
+| <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p>Yes</p> | 
+| <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p>No</p> | 
+| <p>會影響實體版面配置：</p> | <p>No</p> | 
+| <p>會影響可靠性：</p> | <p>No</p> | 
+| <p>影響效能：</p> | <p>Yes</p> | 
+| <p>會影響資源：</p> | <p>Yes</p> | 
+| <p>可用性：</p> | <p>WindowsVista 和更新版本</p> | 
 
 
 
@@ -49,7 +61,19 @@ _**適用于：** Windows |Windows伺服器_
 您可以使用這個參數來防止資料庫引擎將其效能的相關資料發佈至 Windows。 這樣做可以減少資料庫引擎的服務執行緒活動。
 
 
-| | | <p>預設值：3</p> | <p>否</p> | | <p>輸入：</p> | <p>Boolean</p> | | <p>有效範圍：</p> | <p>False, True</p> | | <p>範圍：</p> | <p>全球</p> | | <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p>否</p> | | <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p>否</p> | | <p>會影響實體版面配置：</p> | <p>否</p> | | <p>會影響可靠性：</p> | <p>否</p> | | <p>影響效能：</p> | <p>否</p> | | <p>會影響資源：</p> | <p>是</p> | | <p>可用性：</p> | <p>WindowsVista 和更新版本</p> | 
+| 標籤 | 值 |
+|--------|-------|
+| <p>預設值：3</p> | <p>否</p> | 
+| <p>輸入：</p> | <p>Boolean</p> | 
+| <p>有效範圍：</p> | <p>False, True</p> | 
+| <p>範圍：</p> | <p>全球</p> | 
+| <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p>No</p> | 
+| <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p>No</p> | 
+| <p>會影響實體版面配置：</p> | <p>No</p> | 
+| <p>會影響可靠性：</p> | <p>No</p> | 
+| <p>影響效能：</p> | <p>No</p> | 
+| <p>會影響資源：</p> | <p>Yes</p> | 
+| <p>可用性：</p> | <p>WindowsVista 和更新版本</p> | 
 
 
 
@@ -63,7 +87,19 @@ _**適用于：** Windows |Windows伺服器_
 **Windows XP：** 從 Windows XP，在單一實例模式中，這仍然是 true。 不過，在多重實例模式中時，會以動態方式配置版本頁面記憶體。
 
 
-| | | <p>預設值：3</p> | <p>64</p> | | <p>輸入：</p> | <p>整數</p> | | <p>有效範圍：</p> | <p>1–2147483647</p> | | <p>範圍：</p> | <p>全球</p> | | <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p>否</p> | | <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p>否</p> | | <p>會影響實體版面配置：</p> | <p>否</p> | | <p>會影響可靠性：</p> | <p>是</p> | | <p>影響效能：</p> | <p>否</p> | | <p>會影響資源：</p> | <p>是</p> | | <p>可用性：</p> | <p>WindowsXP 和更新版本</p> | 
+| 標籤 | 值 |
+|--------|-------|
+| <p>預設值：3</p> | <p>64</p> | 
+| <p>輸入：</p> | <p>整數</p> | 
+| <p>有效範圍：</p> | <p>1–2147483647</p> | 
+| <p>範圍：</p> | <p>全球</p> | 
+| <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p>No</p> | 
+| <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p>No</p> | 
+| <p>會影響實體版面配置：</p> | <p>No</p> | 
+| <p>會影響可靠性：</p> | <p>Yes</p> | 
+| <p>影響效能：</p> | <p>No</p> | 
+| <p>會影響資源：</p> | <p>Yes</p> | 
+| <p>可用性：</p> | <p>WindowsXP 和更新版本</p> | 
 
 
 
@@ -75,7 +111,19 @@ _**適用于：** Windows |Windows伺服器_
 **Windows 2000、Windows XP 和 Windows Server 2003：** 此參數的大數值會耗用位址空間，而且可能會增加記憶體使用量。
 
 
-| | | <p>預設值：3</p> | <p>1024</p> | | <p>輸入：</p> | <p>整數</p> | | <p>有效範圍：</p> | <p>0-2147483647</p> | | <p>範圍：</p> | <p>執行個體</p> | | <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p>是</p> | | <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p>否</p> | | <p>會影響實體版面配置：</p> | <p>否</p> | | <p>會影響可靠性：</p> | <p>否</p> | | <p>影響效能：</p> | <p>否</p> | | <p>會影響資源：</p> | <p>是</p> | | <p>可用性：</p> | <p>全部</p> | 
+| 標籤 | 值 |
+|--------|-------|
+| <p>預設值：3</p> | <p>1024</p> | 
+| <p>輸入：</p> | <p>整數</p> | 
+| <p>有效範圍：</p> | <p>0-2147483647</p> | 
+| <p>範圍：</p> | <p>執行個體</p> | 
+| <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p>Yes</p> | 
+| <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p>No</p> | 
+| <p>會影響實體版面配置：</p> | <p>No</p> | 
+| <p>會影響可靠性：</p> | <p>No</p> | 
+| <p>影響效能：</p> | <p>No</p> | 
+| <p>會影響資源：</p> | <p>Yes</p> | 
+| <p>可用性：</p> | <p>全部</p> | 
 
 
 
@@ -85,7 +133,19 @@ _**適用于：** Windows |Windows伺服器_
 此參數會控制可在單一進程中建立的實例數目上限。
 
 
-| | | <p>預設值：3</p> | <p>16</p> | | <p>輸入：</p> | <p>整數</p> | | <p>有效範圍：</p> | <p>1-1024</p> | | <p>範圍：</p> | <p>全球</p> | | <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p>否</p> | | <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p>否</p> | | <p>會影響實體版面配置：</p> | <p>否</p> | | <p>會影響可靠性：</p> | <p>否</p> | | <p>影響效能：</p> | <p>是</p> | | <p>會影響資源：</p> | <p>是</p> | | <p>可用性：</p> | <p>WindowsXP 和更新版本</p> | 
+| 標籤 | 值 |
+|--------|-------|
+| <p>預設值：3</p> | <p>16</p> | 
+| <p>輸入：</p> | <p>整數</p> | 
+| <p>有效範圍：</p> | <p>1-1024</p> | 
+| <p>範圍：</p> | <p>全球</p> | 
+| <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p>No</p> | 
+| <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p>No</p> | 
+| <p>會影響實體版面配置：</p> | <p>No</p> | 
+| <p>會影響可靠性：</p> | <p>No</p> | 
+| <p>影響效能：</p> | <p>Yes</p> | 
+| <p>會影響資源：</p> | <p>Yes</p> | 
+| <p>可用性：</p> | <p>WindowsXP 和更新版本</p> | 
 
 
 
@@ -99,7 +159,19 @@ _**適用于：** Windows |Windows伺服器_
 **Windows 2000、Windows XP 和 Windows Server 2003：** 此參數的大數值會耗用位址空間，而且可能會增加記憶體使用量。
 
 
-| | | <p>預設值：3</p> | <p>300</p> | | <p>輸入：</p> | <p>整數</p> | | <p>有效範圍：</p> | <p>0-2147483647</p> | | <p>範圍：</p> | <p>執行個體</p> | | <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p>是</p> | | <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p>否</p> | | <p>會影響實體版面配置：</p> | <p>否</p> | | <p>會影響可靠性：</p> | <p>否</p> | | <p>影響效能：</p> | <p>否</p> | | <p>會影響資源：</p> | <p>是</p> | | <p>可用性：</p> | <p>全部</p> | 
+| 標籤 | 值 |
+|--------|-------|
+| <p>預設值：3</p> | <p>300</p> | 
+| <p>輸入：</p> | <p>整數</p> | 
+| <p>有效範圍：</p> | <p>0-2147483647</p> | 
+| <p>範圍：</p> | <p>執行個體</p> | 
+| <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p>Yes</p> | 
+| <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p>No</p> | 
+| <p>會影響實體版面配置：</p> | <p>No</p> | 
+| <p>會影響可靠性：</p> | <p>No</p> | 
+| <p>影響效能：</p> | <p>No</p> | 
+| <p>會影響資源：</p> | <p>Yes</p> | 
+| <p>可用性：</p> | <p>全部</p> | 
 
 
 
@@ -111,7 +183,19 @@ _**適用于：** Windows |Windows伺服器_
 **Windows 2000、Windows XP 和 Windows Server 2003：** 此參數的大數值會耗用位址空間，而且可能會增加記憶體使用量。
 
 
-| | | <p>預設值：3</p> | <p>16</p> | | <p>輸入：</p> | <p>整數</p> | | <p>有效範圍：</p> | <p>0-30000</p> | | <p>範圍：</p> | <p>執行個體</p> | | <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p>是</p> | | <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p>否</p> | | <p>會影響實體版面配置：</p> | <p>否</p> | | <p>會影響可靠性：</p> | <p>否</p> | | <p>影響效能：</p> | <p>否</p> | | <p>會影響資源：</p> | <p>是</p> | | <p>可用性：</p> | <p>全部</p> | 
+| 標籤 | 值 |
+|--------|-------|
+| <p>預設值：3</p> | <p>16</p> | 
+| <p>輸入：</p> | <p>整數</p> | 
+| <p>有效範圍：</p> | <p>0-30000</p> | 
+| <p>範圍：</p> | <p>執行個體</p> | 
+| <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p>Yes</p> | 
+| <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p>No</p> | 
+| <p>會影響實體版面配置：</p> | <p>No</p> | 
+| <p>會影響可靠性：</p> | <p>No</p> | 
+| <p>影響效能：</p> | <p>No</p> | 
+| <p>會影響資源：</p> | <p>Yes</p> | 
+| <p>可用性：</p> | <p>全部</p> | 
 
 
 
@@ -127,7 +211,19 @@ _**適用于：** Windows |Windows伺服器_
 **注意**  使用臨時表也需要資料指標資源。
 
 
-| | | <p>預設值：3</p> | <p>20</p> | | <p>輸入：</p> | <p>整數</p> | | <p>有效範圍：</p> | <p>0-2147483647</p> | | <p>範圍：</p> | <p>執行個體</p> | | <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p>是</p> | | <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p>否</p> | | <p>會影響實體版面配置：</p> | <p>是</p> | | <p>會影響可靠性：</p> | <p>否</p> | | <p>影響效能：</p> | <p>否</p> | | <p>會影響資源：</p> | <p>是</p> | | <p>可用性：</p> | <p>全部</p> | 
+| 標籤 | 值 |
+|--------|-------|
+| <p>預設值：3</p> | <p>20</p> | 
+| <p>輸入：</p> | <p>整數</p> | 
+| <p>有效範圍：</p> | <p>0-2147483647</p> | 
+| <p>範圍：</p> | <p>執行個體</p> | 
+| <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p>Yes</p> | 
+| <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p>No</p> | 
+| <p>會影響實體版面配置：</p> | <p>Yes</p> | 
+| <p>會影響可靠性：</p> | <p>No</p> | 
+| <p>影響效能：</p> | <p>No</p> | 
+| <p>會影響資源：</p> | <p>Yes</p> | 
+| <p>可用性：</p> | <p>全部</p> | 
 
 
 
@@ -145,7 +241,19 @@ _**適用于：** Windows |Windows伺服器_
 **注意**  這是最常用於資料庫引擎的資源。 請注意，必須將系統參數的設定以及應用程式的交易式負載的設定付費，以避免在正常操作下耗盡此資源。 當此資源耗盡時，資料庫的更新將會遭到拒絕，並 JET_errVersionStoreOutOfMemory。 若要釋放其中一些資源，最舊的未完成交易必須中止。
 
 
-| | | <p>預設值：3</p> | <p>64</p> | | <p>輸入：</p> | <p>整數</p> | | <p>有效範圍：</p> | <p>1–2147483647</p> | | <p>範圍：</p> | <p>執行個體</p> | | <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p>是</p> | | <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p>否</p> | | <p>會影響實體版面配置：</p> | <p>否</p> | | <p>會影響可靠性：</p> | <p>是</p> | | <p>影響效能：</p> | <p>否</p> | | <p>會影響資源：</p> | <p>是</p> | | <p>可用性：</p> | <p>全部</p> | 
+| 標籤 | 值 |
+|--------|-------|
+| <p>預設值：3</p> | <p>64</p> | 
+| <p>輸入：</p> | <p>整數</p> | 
+| <p>有效範圍：</p> | <p>1–2147483647</p> | 
+| <p>範圍：</p> | <p>執行個體</p> | 
+| <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p>Yes</p> | 
+| <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p>No</p> | 
+| <p>會影響實體版面配置：</p> | <p>No</p> | 
+| <p>會影響可靠性：</p> | <p>Yes</p> | 
+| <p>影響效能：</p> | <p>No</p> | 
+| <p>會影響資源：</p> | <p>Yes</p> | 
+| <p>可用性：</p> | <p>全部</p> | 
 
 
 
@@ -155,7 +263,19 @@ _**適用于：** Windows |Windows伺服器_
 此參數會控制特殊快取的大小，用來加速查閱資料庫頁面快取中 B + 樹狀目錄的子頁面指標。 快取的大小是以位元組為單位。
 
 
-| | | <p>預設值：3</p> | <p>262144</p> | | <p>輸入：</p> | <p>整數</p> | | <p>有效範圍：</p> | <p>0-2147483647</p> | | <p>範圍：</p> | <p>全球</p> | | <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p>是</p> | | <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p>是</p> | | <p>會影響實體版面配置：</p> | <p>否</p> | | <p>會影響可靠性：</p> | <p>否</p> | | <p>影響效能：</p> | <p>是</p> | | <p>會影響資源：</p> | <p>是</p> | | <p>可用性：</p> | <p>WindowsXP 和更新版本</p> | 
+| 標籤 | 值 |
+|--------|-------|
+| <p>預設值：3</p> | <p>262144</p> | 
+| <p>輸入：</p> | <p>整數</p> | 
+| <p>有效範圍：</p> | <p>0-2147483647</p> | 
+| <p>範圍：</p> | <p>全球</p> | 
+| <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p>Yes</p> | 
+| <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p>Yes</p> | 
+| <p>會影響實體版面配置：</p> | <p>No</p> | 
+| <p>會影響可靠性：</p> | <p>No</p> | 
+| <p>影響效能：</p> | <p>Yes</p> | 
+| <p>會影響資源：</p> | <p>Yes</p> | 
+| <p>可用性：</p> | <p>WindowsXP 和更新版本</p> | 
 
 
 
@@ -169,7 +289,19 @@ _**適用于：** Windows |Windows伺服器_
 **Windows Vista 和更新版本：** 此參數已過時，且不會影響資料庫引擎的操作。 應用程式應該改用 JET_paramMaxCachedClosedTables。
 
 
-| | | <p>預設值：3</p> | <p>0 (100% 的 <strong>JET_paramMaxOpenTables</strong>) </p> | | <p>輸入：</p> | <p>整數</p> | | <p>有效範圍：</p> | <p>0-2147483647</p> | | <p>範圍：</p> | <p>執行個體</p> | | <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p>是</p> | | <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p>否</p> | | <p>會影響實體版面配置：</p> | <p>否</p> | | <p>會影響可靠性：</p> | <p>否</p> | | <p>影響效能：</p> | <p>是</p> | | <p>會影響資源：</p> | <p>是</p> | | <p>可用性：</p> | <p>全部</p> | 
+| 標籤 | 值 |
+|--------|-------|
+| <p>預設值：3</p> | <p>0 (100% 的 <strong>JET_paramMaxOpenTables</strong>) </p> | 
+| <p>輸入：</p> | <p>整數</p> | 
+| <p>有效範圍：</p> | <p>0-2147483647</p> | 
+| <p>範圍：</p> | <p>執行個體</p> | 
+| <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p>Yes</p> | 
+| <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p>No</p> | 
+| <p>會影響實體版面配置：</p> | <p>No</p> | 
+| <p>會影響可靠性：</p> | <p>No</p> | 
+| <p>影響效能：</p> | <p>Yes</p> | 
+| <p>會影響資源：</p> | <p>Yes</p> | 
+| <p>可用性：</p> | <p>全部</p> | 
 
 
 
@@ -189,7 +321,19 @@ _**適用于：** Windows |Windows伺服器_
 **注意**  如果資料庫引擎太過頻繁地操作此閾值，則資料庫可能會降低效能。 發生這種情況的原因是，清除資料庫的背景進程無法正常運作，而不需要在此案例中擲回的選擇性資訊。 線上或離線磁碟重組將會阻礙此效果。
 
 
-| | | <p>預設值：3</p> | <p><strong>Windows 2000、Windows XP 和 Windows Server 2003：</strong> 0 (90% 的 JET_paramMaxVerPages) </p><p><strong>Windows Vista：</strong> 58</p> | | <p>輸入：</p> | <p>整數</p> | | <p>有效範圍：</p> | <p>1–2147483647</p> | | <p>範圍：</p> | <p>執行個體</p> | | <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p>是</p> | | <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p>是</p> | | <p>會影響實體版面配置：</p> | <p>否</p> | | <p>會影響可靠性：</p> | <p>是</p> | | <p>影響效能：</p> | <p>是</p> | | <p>會影響資源：</p> | <p>是</p> | | <p>可用性：</p> | <p>全部</p> | 
+| 標籤 | 值 |
+|--------|-------|
+| <p>預設值：3</p> | <p><strong>Windows 2000、Windows XP 和 Windows Server 2003：</strong> 0 (90% 的 JET_paramMaxVerPages) </p><p><strong>Windows Vista：</strong> 58</p> | 
+| <p>輸入：</p> | <p>整數</p> | 
+| <p>有效範圍：</p> | <p>1–2147483647</p> | 
+| <p>範圍：</p> | <p>執行個體</p> | 
+| <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p>Yes</p> | 
+| <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p>Yes</p> | 
+| <p>會影響實體版面配置：</p> | <p>No</p> | 
+| <p>會影響可靠性：</p> | <p>Yes</p> | 
+| <p>影響效能：</p> | <p>Yes</p> | 
+| <p>會影響資源：</p> | <p>Yes</p> | 
+| <p>可用性：</p> | <p>全部</p> | 
 
 
 
@@ -201,7 +345,19 @@ _**適用于：** Windows |Windows伺服器_
 資料庫引擎可能會選擇使用比要求更大的版本存放區頁面大小。
 
 
-| | | <p>預設值：3</p> | <p>16384</p> | | <p>輸入：</p> | <p>整數</p> | | <p>有效範圍：</p> | <p>1024、2048、4096、8192、16384、32768、65536</p> | | <p>範圍：</p> | <p>全球</p> | | <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p>否</p> | | <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p>否</p> | | <p>會影響實體版面配置：</p> | <p>否</p> | | <p>會影響可靠性：</p> | <p>否</p> | | <p>影響效能：</p> | <p>否</p> | | <p>會影響資源：</p> | <p>是</p> | | <p>可用性：</p> | <p>WindowsVista 和更新版本</p> | 
+| 標籤 | 值 |
+|--------|-------|
+| <p>預設值：3</p> | <p>16384</p> | 
+| <p>輸入：</p> | <p>整數</p> | 
+| <p>有效範圍：</p> | <p>1024、2048、4096、8192、16384、32768、65536</p> | 
+| <p>範圍：</p> | <p>全球</p> | 
+| <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p>No</p> | 
+| <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p>No</p> | 
+| <p>會影響實體版面配置：</p> | <p>No</p> | 
+| <p>會影響可靠性：</p> | <p>No</p> | 
+| <p>影響效能：</p> | <p>No</p> | 
+| <p>會影響資源：</p> | <p>Yes</p> | 
+| <p>可用性：</p> | <p>WindowsVista 和更新版本</p> | 
 
 
 
@@ -211,14 +367,30 @@ _**適用于：** Windows |Windows伺服器_
 此參數會控制可以在任何時間佇列至 database engine 執行緒集區的背景清除工作專案數目。
 
 
-| | | <p>預設值：3</p> | <p>32</p> | | <p>輸入：</p> | <p>整數</p> | | <p>有效範圍：</p> | <p><strong>Windows XP 和 Windows Server 2003：</strong> 1 –63</p><p><strong>Windows Vista：</strong> 1-127</p> | | <p>範圍：</p> | <p>執行個體</p> | | <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p>是</p> | | <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p><strong>Windows XP 和 Windows Server 2003：</strong> 不</p><p><strong>Windows Vista：</strong> 是的</p> | | <p>會影響實體版面配置：</p> | <p>否</p> | | <p>會影響可靠性：</p> | <p>否</p> | | <p>影響效能：</p> | <p>是</p> | | <p>會影響資源：</p> | <p>是</p> | | <p>可用性：</p> | <p>WindowsXP 和更新版本</p> | 
+| 標籤 | 值 |
+|--------|-------|
+| <p>預設值：3</p> | <p>32</p> | 
+| <p>輸入：</p> | <p>整數</p> | 
+| <p>有效範圍：</p> | <p><strong>Windows XP 和 Windows Server 2003：</strong> 1 –63</p><p><strong>Windows Vista：</strong> 1-127</p> | 
+| <p>範圍：</p> | <p>執行個體</p> | 
+| <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p>Yes</p> | 
+| <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p><strong>Windows XP 和 Windows Server 2003：</strong> 不</p><p><strong>Windows Vista：</strong> 是的</p> | 
+| <p>會影響實體版面配置：</p> | <p>No</p> | 
+| <p>會影響可靠性：</p> | <p>No</p> | 
+| <p>影響效能：</p> | <p>Yes</p> | 
+| <p>會影響資源：</p> | <p>Yes</p> | 
+| <p>可用性：</p> | <p>WindowsXP 和更新版本</p> | 
 
 
 
 ### <a name="requirements"></a>規格需求
 
 
-| | | <p><strong>用戶端</strong></p> | <p>需要 Windows Vista、Windows XP 或 Windows 2000 Professional。</p> | | <p><strong>伺服器</strong></p> | <p>需要 Windows server 2008、Windows Server 2003 或 Windows 2000 Server。</p> | | <p><strong>標頭</strong></p> | <p>宣告于 Esent. h 中。</p> | 
+| 需求 | 值 |
+|------------|----------|
+| <p><strong>用戶端</strong></p> | <p>需要 Windows Vista、Windows XP 或 Windows 2000 Professional。</p> | 
+| <p><strong>伺服器</strong></p> | <p>需要 Windows server 2008、Windows Server 2003 或 Windows 2000 Server。</p> | 
+| <p><strong>標頭</strong></p> | <p>宣告于 Esent. h 中。</p> | 
 
 
 

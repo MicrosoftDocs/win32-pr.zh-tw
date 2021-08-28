@@ -1,6 +1,6 @@
 ---
 title: External. play 方法
-description: 請注意，本主題將說明針對線上商店使用而設計的功能。 不支援在線上商店的內容之外使用這項功能。 Play 方法會指示 Windows Media Player 播放一組媒體專案。
+description: 請注意，本主題將說明針對線上商店使用而設計的功能。 不支援在線上商店的內容之外使用這項功能。 play 方法會指示 Windows Media Player 播放一組媒體專案。
 ms.assetid: 3e1f45db-9e7f-4a1b-aaa2-513a19c46f70
 keywords:
 - play 方法 Windows Media Player
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 94cfa40d96bbc67c7d41eb1a1a0188be68ec154e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 90644b357e56f40bfbdb576908b99aa6941f8153dc339daa996152f63d77372c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106992787"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119648628"
 ---
 # <a name="externalplay-method"></a>External. play 方法
 
@@ -30,7 +30,7 @@ ms.locfileid: "106992787"
 
  
 
-**Play** 方法會指示 Windows Media Player 播放一組媒體專案。
+**play** 方法會指示 Windows Media Player 播放一組媒體專案。
 
 ## <a name="syntax"></a>語法
 

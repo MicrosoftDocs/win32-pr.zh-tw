@@ -21,12 +21,12 @@ keywords:
 - 控制項類型，[類型]
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c7fc7df30fc9aeebbabd5a5fdb9572c9f4b81bda4507eac751f283841a14054a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3cf7275212d44b795f354cb895c2d64727e375ea
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118825550"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122483194"
 ---
 # <a name="listitem-control-type"></a>[類型] 控制項類型
 
@@ -51,33 +51,11 @@ ms.locfileid: "118825550"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>控制項檢視</th>
-<th>內容檢視</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>ListItem
-<ul>
-<li>影像 (0 個以上)</li>
-<li>文字 (0 個以上)</li>
-<li>編輯 (0 個以上)</li>
-</ul></li>
-</ul></td>
-<td><ul>
-<li>ListItem</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| 控制項檢視 | 內容檢視 | 
+|--------------|--------------|
+| <ul><li>ListItem<ul><li>影像 (0 個以上)</li><li>文字 (0 個以上)</li><li>編輯 (0 個以上)</li></ul></li></ul> | <ul><li>ListItem</li></ul> | 
+
 
 
 

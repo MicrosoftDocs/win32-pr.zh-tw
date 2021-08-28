@@ -4,12 +4,12 @@ ms.assetid: e26462bb-e67f-4522-bec2-88378c4ff442
 title: 檔案資料流程轉譯器篩選
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3da8651d61559a9b22b722f91563426cb067f7a3
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: d438d77b4f402cefed2e80f2c32d061d1652710f
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122470563"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122987861"
 ---
 # <a name="file-stream-renderer-filter"></a>檔案資料流程轉譯器篩選
 
@@ -20,7 +20,17 @@ ms.locfileid: "122470563"
 
 
 
-| | |篩選介面 | <a href="/windows/desktop/api/Strmif/nn-strmif-ibasefilter"><strong>IBaseFilter</strong></a> | |輸入 pin 媒體類型 | <ul><li>主要類型： MEDIATYPE_File</li><li>子類型： GUID_Null</li><li>格式類型： MEDIATYPE_File</li></ul> | |輸入 pin 介面 | <a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPin</strong></a>、 <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>IQualityControl</strong></a> | |輸出釘選媒體類型 |無 | |輸出 pin 介面 | <a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPin</strong></a>、 <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>IQualityControl</strong></a>、 <a href="/windows/desktop/api/Strmif/nn-strmif-istreambuilder"><strong>IStreamBuilder</strong></a> | |篩選 CLSID |CLSID_FileRend | |可執行檔 |Quartz.dll | | <a href="merit.md">業績</a> |MERIT_UNLIKELY | | <a href="filter-categories.md">篩選準則類別</a> |CLSID_LegacyAmFilterCategory | 
+| 標籤 | 值 |
+|--------|-------|
+| 篩選介面 | <a href="/windows/desktop/api/Strmif/nn-strmif-ibasefilter"><strong>IBaseFilter</strong></a> | 
+| 輸入 pin 媒體類型 | <ul><li>主要類型： MEDIATYPE_File</li><li>子類型： GUID_Null</li><li>格式類型： MEDIATYPE_File</li></ul> | 
+| 輸入 pin 介面 | <a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPin</strong></a>、 <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"> <strong>IQualityControl</strong></a> | 
+| 輸出 pin 媒體類型 | 無 | 
+| 輸出 pin 介面 | <a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPin</strong></a>、 <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>IQualityControl</strong></a>、 <a href="/windows/desktop/api/Strmif/nn-strmif-istreambuilder"><strong>IStreamBuilder</strong></a> | 
+| 篩選 CLSID | CLSID_FileRend | 
+| 可執行檔 | Quartz.dll | 
+| <a href="merit.md">優點</a> | MERIT_UNLIKELY | 
+| <a href="filter-categories.md">篩選準則分類</a> | CLSID_LegacyAmFilterCategory | 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: fb1ef0ba-5183-4708-a47d-26c83584df6c
 title: FixedSize 控制項屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b4ee044860b79e56998da68dc6ddf4926e9115ac
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 40094001115dc6e196e66075abe7ace7c93c8e715818ad34235f80caf8306a06
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103690248"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119649698"
 ---
 # <a name="fixedsize-control-attribute"></a>FixedSize 控制項屬性
 

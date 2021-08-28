@@ -1,20 +1,20 @@
 ---
-description: 為了增強 Windows Management Instrumentation 的 (WMI) 共用的提供者主機進程 (wmiprvse.exe) 的安全性，已對 Windows 平臺進行變更，以服務安全識別碼 (SID) 保護提供者主機進程。
+description: 為了增強 Windows Management Instrumentation (WMI) 共用的提供者主機進程 (wmiprvse.exe) 的安全性，已對 Windows 平臺進行了變更，以使用服務安全識別碼 (SID) 來保護提供者主機進程。
 ms.assetid: f93ac155-512c-4efa-8168-ca2d56fe6f01
 ms.tgt_platform: multiple
 title: 用來控制提供者安全性的登錄機碼和值
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a2c7dd990c1a9ebbc1242af5ce4601ce6eb22a1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 916a5910a6ad21e9f9dfdcfc0992de10ae30da82
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106997970"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122884352"
 ---
 # <a name="registry-keys-and-values-for-controlling-provider-security"></a>用來控制提供者安全性的登錄機碼和值
 
-為了增強 Windows Management Instrumentation 的 (WMI) 共用的提供者主機進程 (wmiprvse.exe) 的安全性，已對 Windows 平臺進行變更，以 [*服務安全識別碼 (SID)*](gloss-s.md)保護提供者主機進程。 這些變更引進下列 WMI 共用主機的執行模式：安全且相容。
+為了增強 Windows Management Instrumentation (WMI) 共用的提供者主機進程 (wmiprvse.exe) 的安全性，已對 Windows 平臺進行了變更，以使用 [*服務安全識別碼 (SID)*](gloss-s.md)來保護提供者主機進程。 這些變更引進下列 WMI 共用主機的執行模式：安全且相容。
 
 本主題包含下列章節：
 
@@ -55,7 +55,7 @@ WMI 共用提供者主機進程不會受到 [*服務 SID*](gloss-s.md)的保護�
 <span id="SecuredHostProviders"></span><span id="securedhostproviders"></span><span id="SECUREDHOSTPROVIDERS"></span>**SecuredHostProviders**
 </dt> <dd>
 
-此索引鍵控制個別提供者的行為。 此機碼中列出的所有提供者一律會在安全模式中執行。 Windows 隨附的所有收件匣提供者都會列在此機碼底下，並且預設會在安全模式下執行。
+此索引鍵控制個別提供者的行為。 此機碼中列出的所有提供者一律會在安全模式中執行。 隨附于 Windows 的所有收件匣提供者都會列在此機碼底下，並且預設會在安全模式下執行。
 
 此索引鍵優先于 **CompatibleHostProviders** 索引鍵中所列的提供者。
 
@@ -107,7 +107,7 @@ WMI 共用提供者主機進程不會受到 [*服務 SID*](gloss-s.md)的保護�
 
 
 
-| 列在 SecuredHostProviders 底下 | 列在 CompatibleHostProviders 底下 | DefaultSecuredHost 設定 | 模式       |
+| 列在 SecuredHostProviders 底下 | 列在 CompatibleHostProviders 底下 | DefaultSecuredHost 設定 | [模式]       |
 |-----------------------------------|--------------------------------------|----------------------------|------------|
 | 否                                | 否                                   | 0                          | 相容 |
 | 否                                | 是                                  | 0                          | 相容 |
@@ -133,7 +133,7 @@ WMI 共用提供者主機進程不會受到 [*服務 SID*](gloss-s.md)的保護�
 1.  開啟 GPMC。
 2.   (GPO) 建立群組原則物件。
 3.  編輯 GPO。
-4.  流覽至 [喜好設定]/[Windows 設定]/[登錄]。
+4.  流覽至喜好設定/Windows 設定/Registry。
 5.  以滑鼠右鍵按一下並選取 [新增]。 登錄。 此動作會顯示使用者介面，您可以在其中輸入登錄資訊。
 6.  選取 [ **建立** ] 命令。
 7.  選取下列登錄機碼路徑：
@@ -142,7 +142,7 @@ WMI 共用提供者主機進程不會受到 [*服務 SID*](gloss-s.md)的保護�
 
     **相容模式： HKEY \_本機 \_ 電腦** \\ **軟體** \\ **Microsoft** \\ **WBEM** \\ **CIMOM** \\ **CompatibleHostProviders**
 
-8.  在 [ **名稱** ] 欄位中，輸入您要新增至此金鑰的提供者名稱。 提供者名稱的格式必須如下： <namespace> ： <\_ \_ RELPATH>。 例如，根 \\ cimv2： \_ \_ win32provider. Name = "MyProvider"。
+8.  在 [ **名稱** ] 欄位中，輸入您要新增至此金鑰的提供者名稱。 提供者名稱的格式必須如下： &lt; 命名空間 &gt; ： <\_ \_ RELPATH>。 例如，根 \\ cimv2： \_ \_ win32provider. Name = "MyProvider"。
 9.  在 [ **資料** ] 欄位中，輸入0。
 10. 按一下 [確定]。
 
@@ -151,7 +151,7 @@ WMI 共用提供者主機進程不會受到 [*服務 SID*](gloss-s.md)的保護�
 1.  開啟 GPMC。
 2.  建立 GPO。
 3.  編輯 GPO。
-4.  流覽至 [喜好設定]/[Windows 設定]/[登錄]。
+4.  流覽至喜好設定/Windows 設定/Registry。
 5.  以滑鼠右鍵按一下並選取 [新增]。 登錄。 此動作會顯示使用者介面，您可以在其中輸入登錄資訊。
 6.  選取 [ **移除** ] 命令。
 7.  選取下列登錄機碼路徑：
@@ -171,7 +171,7 @@ WMI 共用提供者主機進程不會受到 [*服務 SID*](gloss-s.md)的保護�
 1.  開啟 GPMC。
 2.  建立 GPO。
 3.  編輯 GPO。
-4.  流覽至 [喜好設定]/[Windows 設定]/[登錄]。
+4.  流覽至喜好設定/Windows 設定/Registry。
 5.  以滑鼠右鍵按一下並選取 [新增]。 登錄。 此動作會顯示使用者介面，您可以在其中輸入登錄資訊。
 6.  選取 [ **更新** ] 命令。
 7.  選取下列登錄機碼路徑： **HKEY \_ LOCAL \_ MACHINE** \\ **SOFTWARE** \\ **Microsoft** \\ **WBEM** \\ **CIMOM**。

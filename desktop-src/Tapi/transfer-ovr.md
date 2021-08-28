@@ -4,12 +4,12 @@ ms.assetid: b1027f09-74e1-4da8-b718-bb55a56dda1d
 title: 傳送
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 724b9ade43e41ab95a5baa6dfe7d3269f4e4a174
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 87bb527ad8e0a26ba5e4da341eb15509e8af05e7950d82de92be839e70370c79
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104026795"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119514538"
 ---
 # <a name="transfer"></a>傳送
 

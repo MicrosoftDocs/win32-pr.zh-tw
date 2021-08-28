@@ -5,12 +5,12 @@ ms.assetid: e6be8932-015e-4058-b249-1671b3fea521
 title: 'O (安全性詞彙) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c850de91a97d5863475f67b73e27f1362c9bd534
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: eb05d5961cccb7651a56686211da789707312c493e77e46d01b6dd8c9bd700b0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106988290"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118895358"
 ---
 # <a name="o-security-glossary"></a>O (安全性詞彙) 
 

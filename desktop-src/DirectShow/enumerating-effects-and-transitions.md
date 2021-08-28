@@ -4,20 +4,20 @@ ms.assetid: 364b7bfb-5d6e-4ca6-b0c8-7a0180c3f61a
 title: 列舉效果和轉換
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e533f36501ac8da6015cc31eea6c2c111bf6a208
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: bd94dee9ff6774e9608d6b599986c0b943b60d335df2ab9b27e8c2eb64d7fe42
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106971929"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119685808"
 ---
 # <a name="enumerating-effects-and-transitions"></a>列舉效果和轉換
 
 \[此 API 不受支援，而且可能會在未來變更或無法使用。\]
 
-DirectShow 提供用來列舉裝置的 [系統裝置列舉](system-device-enumerator.md) 值物件。 您可以使用它來抓取在使用者系統上安裝之效果或轉換的名字標記。
+DirectShow 提供用來列舉裝置的[系統裝置列舉](system-device-enumerator.md)值物件。 您可以使用它來抓取在使用者系統上安裝之效果或轉換的名字標記。
 
-系統裝置列舉值會公開 [**ICreateDevEnum**](/windows/desktop/api/Strmif/nn-strmif-icreatedevenum) 介面。 它會傳回指定裝置類別的類別列舉值。 類別列舉值接著會公開 [**IEnumMoniker**](/windows/desktop/api/objidl/nn-objidl-ienummoniker) 介面，並傳回類別中每個裝置的名字。 如需使用 **ICreateDevEnum** 的詳細討論，請參閱 [列舉裝置和篩選器](enumerating-devices-and-filters.md)。 以下是有關 DirectShow 編輯服務的簡短摘要。
+系統裝置列舉值會公開 [**ICreateDevEnum**](/windows/desktop/api/Strmif/nn-strmif-icreatedevenum) 介面。 它會傳回指定裝置類別的類別列舉值。 類別列舉值接著會公開 [**IEnumMoniker**](/windows/desktop/api/objidl/nn-objidl-ienummoniker) 介面，並傳回類別中每個裝置的名字。 如需使用 **ICreateDevEnum** 的詳細討論，請參閱 [列舉裝置和篩選器](enumerating-devices-and-filters.md)。 以下是 DirectShow 編輯服務特有的簡短摘要。
 
 若要列舉效果或轉換，請執行下列步驟。
 

@@ -4,12 +4,12 @@ ms.assetid: 23aae815-ff1a-435d-b14d-3c62a3355a1b
 title: 佇列承諾的順序
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e5f261b1e42631e35146dc3d11f848ff543c999c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9a7ff3cc211b2a2d253dd307ca83113b536a3d9eaf21b7b2cec5bc977f585026
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103849600"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119665537"
 ---
 # <a name="order-of-queue-commitment"></a>佇列承諾的順序
 

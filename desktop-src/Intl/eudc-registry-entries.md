@@ -4,12 +4,12 @@ ms.assetid: da41aa73-6ad6-4c78-a289-d3c9b0166d5a
 title: EUDC 登錄專案
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 75e535a1e0319536eec1a37e2037a86039df1d16
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: caa0a6d116122ad5e41df65c665eba377f34d106875b53df24410c9a0744be27
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103851808"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119638768"
 ---
 # <a name="eudc-registry-entries"></a>EUDC 登錄專案
 

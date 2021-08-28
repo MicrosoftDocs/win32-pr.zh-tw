@@ -4,12 +4,12 @@ ms.assetid: f8420dde-55a2-40a0-b10d-140c28c0e9e4
 title: 執行 SceSvcAttachmentAnalyze
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b7f8501be2caac84c3dc96363eb85a8bc787d2be
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ef1561449c88c31dd33eb1d16d2cb0ece854c5db0ea7d76503d872c8d4bbf797
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193893"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118894629"
 ---
 # <a name="implementing-scesvcattachmentanalyze"></a>執行 SceSvcAttachmentAnalyze
 

@@ -4,12 +4,12 @@ ms.assetid: 6449e116-1671-4120-a012-278ab9ae9925
 title: 從 Active Directory 中取出已發行的憑證
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7ab580400de564715508bd2345250f5c69dee443
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 969d9930d24cafee9b7bfdd6532ecdf5b830970a87cb2ae43dcbcbc1b16517cb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "107001379"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118900563"
 ---
 # <a name="retrieving-an-issued-certificate-from-active-directory"></a>從 Active Directory 中取出已發行的憑證
 

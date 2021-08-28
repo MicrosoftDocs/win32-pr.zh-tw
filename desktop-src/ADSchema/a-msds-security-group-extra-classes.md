@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3860cc80c669eaad30262cce63aff6dca3a2a8f3
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 15c64746abd1114ebb3e4a97cf912a35ac730d6062721e8a11d67103d1fe82b1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104108121"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119544728"
 ---
 # <a name="ms-ds-security-group-extra-classes-attribute"></a>ms-DS-安全性群組-額外類別屬性
 
@@ -158,7 +158,7 @@ ms.locfileid: "104108121"
 下列清單會識別可透過 Active Directory 消費者和電腦嵌入式管理單元新增至群組的標準類別。
 
 -   [**Group**](c-group.md)
--   [**User**](c-user.md)
+-   [**使用者**](c-user.md)
 -   [**inetOrgPerson**](c-inetorgperson.md)
 -   [**Contact**](c-contact.md)
 -   [**電腦**](c-computer.md)

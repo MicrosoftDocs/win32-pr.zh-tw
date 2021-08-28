@@ -4,12 +4,12 @@ ms.assetid: 0732929e-ca03-438f-80d9-48a3da0095f7
 title: PNRP 和 WSALookupServiceEnd
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1db499c9a736e26d630b623a29baa4c18dcfceeb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: df9d91dea87b5a8c41cb5f689d89464bf7fd7e0179b1cad71943c14d107842b9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106985470"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119553378"
 ---
 # <a name="pnrp-and-wsalookupserviceend"></a>PNRP 和 WSALookupServiceEnd
 

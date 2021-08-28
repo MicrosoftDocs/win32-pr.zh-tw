@@ -4,12 +4,12 @@ ms.assetid: f640f42d-a703-4e2e-a6d3-09cbe989cd11
 title: 命名磁片區
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6435b6b5c7283cf2fb9a98951698f79646dfdffa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3dc0af7575f2fd6ad2f45fc5763666151c08e10f414e1b6e6610e163c4c811cb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103851199"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119533338"
 ---
 # <a name="naming-a-volume"></a>命名磁片區
 

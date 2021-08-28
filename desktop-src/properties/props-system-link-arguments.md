@@ -4,12 +4,12 @@ ms.assetid: e6786836-5e18-4b8c-9e7d-229abb7473e7
 title: System.string
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 868a8d49a672d28e2da3320f8700e4e3ed1be00c
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 004cf96ea497251e797b794608899a7ac7eec81a842f0fcce2585b7c3aa52233
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108092506"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119553728"
 ---
 # <a name="systemlinkarguments"></a>System.string
 

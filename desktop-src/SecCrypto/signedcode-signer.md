@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 053bb6c98c5b8776da2ca890de24359f41be1389
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 099acf6647252ce8db0d6719d7871e43ec3cc4d25d0806dbecec7378bcbda73a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106978795"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118899391"
 ---
 # <a name="signedcodesigner-property"></a>SignedCode。簽署者屬性
 

@@ -8,12 +8,12 @@ keywords:
 - ADSI ADSI、about、schema
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dfd8c06d10e05c11b2cc7c578814bb4ded2d897d3b7913b9b3d341a8a6c49086
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4893151c81eefa0a17420e18d5d87da232641571
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119023746"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122883875"
 ---
 # <a name="adsi-schema-model"></a>ADSI 架構模型
 
@@ -39,7 +39,7 @@ ADSI 初次系結至 LDAP 伺服器時，會使用 [**subSchemaSubEntry**](/wind
 ADSI 接著會嘗試處理架構資料並讀取 [**modifyTimeStamp**](/windows/desktop/ADSchema/a-modifytimestamp) 屬性。 如果 **modifyTimeStamp** 屬性存在且 adsi 成功處理架構，adsi 會將 ubschema 寫入磁片，並在機碼底下建立兩個下列登錄值。 如果 ubschema 資料存在，但無法處理，則不會建立這些登錄值：
 
 -   **時間** 值，包含 [**modifyTimeStamp**](/windows/desktop/ADSchema/a-modifytimestamp)屬性。 這個值是用來確保架構資料是最新的，並防止架構資料的常數重載。
--   檔案 **值，** 包含 ADSI 將架構資料儲存在檔案系統中的路徑。 根據預設，ADSI 會將 ubschema 快取在 <systemroot> \\ SchCache 目錄中，並以對應至 LDAP 伺服器名稱的檔案名來快取。
+-   檔案 **值，** 包含 ADSI 將架構資料儲存在檔案系統中的路徑。 根據預設，ADSI 會將 ubschema 快取在 &lt; systemroot &gt; \\ SchCache 目錄中，並以對應至 LDAP 伺服器名稱的檔案名來快取。
 
 如果可處理 ubschema 資料，但未公開 [**modifyTimeStamp**](/windows/desktop/ADSchema/a-modifytimestamp) 屬性，則會將架構資料快取在記憶體中，但不會寫入磁片。 如果已透過本機電腦上的 ADSI 連接到 LDAP v3 伺服器，而且快取的 ubschema 不存在，最有可能是下列其中一個原因：
 

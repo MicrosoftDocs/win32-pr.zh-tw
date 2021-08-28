@@ -8,12 +8,12 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b91db8d21b9be3f9e243b6a985ace1688e399ac9
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 5202a43c1d3e49d171055fbbece6656c519ccfa9c699b491ec9fe59b2ee6205a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840340"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118963117"
 ---
 # <a name="httprawclientexample"></a>HttpRawClientExample
 
@@ -250,9 +250,9 @@ Exit:
 
 
 
- 
+ 
 
- 
+ 
 
 
 

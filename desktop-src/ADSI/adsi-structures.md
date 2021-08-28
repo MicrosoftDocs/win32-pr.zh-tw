@@ -8,12 +8,12 @@ keywords:
 - 結構 ADSI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3f35ba74f0334e8b66329d8f526266c315056af9
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b4c8c954f55ef53cc1607957a9251ec960908a981ce33e2166f45eef42251abb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104092201"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118962177"
 ---
 # <a name="adsi-structures"></a>ADSI 結構
 

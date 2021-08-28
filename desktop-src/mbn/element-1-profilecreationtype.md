@@ -7,12 +7,12 @@ MSHAttr:
 title: 'ModemDMConfigProfile 中的 ProfileCreationType () '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dbd0a4a3a634a892f81f4be54093f51638d6c4ca
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.openlocfilehash: 4650465244fca041efcdaa53b737074f70536edc
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 08/26/2021
-ms.locfileid: "122885098"
+ms.locfileid: "122986431"
 ---
 # <a name="span-idwwan_profile_v4element_1_profilecreationtypespanprofilecreationtype-in-modemdmconfigprofile"></a><span id="WWAN_profile_v4.element_1_ProfileCreationType"></span>ModemDMConfigProfile 中的 ProfileCreationType () 
 
@@ -48,7 +48,7 @@ ms.locfileid: "122885098"
 ### <a name="span-idparent_elementsspanspan-idparent_elementsspanparent-elements"></a><span id="parent_elements"></span><span id="PARENT_ELEMENTS"></span>父元素
 
 
-| Parent 項目 | 說明 | 
+| Parent 項目 | Description | 
 |----------------|-------------|
 | <a href="element-modemdmconfigprofile.md">ModemDMConfigProfile</a> | <p>數據機 DM 設定檔。</p> | 
 
@@ -64,7 +64,9 @@ ms.locfileid: "122885098"
 ## <a name="requirements"></a>規格需求
 
 
-| | | <p>命名空間</p> | <p>https://www.microsoft.com/networking/WWAN/profile/v4</p> | 
+| 需求 | 值 |
+|------------|----------|
+| <p>命名空間</p> | <p>https://www.microsoft.com/networking/WWAN/profile/v4</p> | 
 
 
  

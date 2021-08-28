@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 3452f2b8e61fb72b1fd5f99a073b48afb26dafb0
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: dc780ec299c3249006085d348d983f8dab5b76a462c991a2d3665fed7d18f123
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103933291"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119733798"
 ---
 # <a name="winrm-best-practices"></a>WinRM 最佳作法
 
@@ -27,10 +27,10 @@ ms.locfileid: "103933291"
 
 ## <a name="event-subscriptions"></a>事件訂閱
 
-使用收集器起始的訂用帳戶時，請將遠端電腦的數目限制為500，並將 [Windows 事件收集器](/windows/desktop/WEC/windows-event-collector) 服務 (wecsvc) 隔離在個別的主機進程中。
+使用收集器起始的訂用帳戶時，請將遠端電腦的數目限制為500，並在個別的主機進程中找出[Windows 的事件收集器](/windows/desktop/WEC/windows-event-collector)服務 (wecsvc) 。
 
 連接錯誤會保留執行緒，直到超時為止。大量的同時連線錯誤可能會導致執行緒集區耗盡，而導致伺服器沒有回應。
 
- 
+ 
 
- 
+ 
