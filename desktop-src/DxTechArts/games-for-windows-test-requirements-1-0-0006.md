@@ -4,12 +4,12 @@ description: 本文提供 Windows 遊戲的測試案例。
 ms.assetid: bbe84d3f-e7ff-f14f-ec25-ae1c980749fe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e9848131cae57e1f456f2ca7a497f10c8865fad146aa82c7b73f99180dcb75aa
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 5aeda677a32d73ccb305eb350b9c4c1231bb0bf4
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120107578"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122886422"
 ---
 # <a name="games-for-windows-test-cases-best-practices-for-games-on-windows-xp-windows-vista-windows-7-and-windows-8"></a>Windows 測試案例的遊戲： Windows XP、Windows Vista、Windows 7 和 Windows 8 遊戲的最佳作法
 
@@ -80,8 +80,8 @@ ms.locfileid: "120107578"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -119,8 +119,8 @@ ms.locfileid: "120107578"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -184,8 +184,8 @@ ms.locfileid: "120107578"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -222,8 +222,8 @@ ms.locfileid: "120107578"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -287,8 +287,8 @@ ms.locfileid: "120107578"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -302,7 +302,7 @@ ms.locfileid: "120107578"
 <li>將系統設定為 DPI 150%： <br/> WindowsVista：主控台：個人化、調整字型大小 (DPI) 、自訂 DPI。 設定為150%。<br/> Windows 7：主控台：顯示，設定為較大-150%。<br/></li>
 <li>執行安裝程式和遊戲，確認裁剪的畫面或對話方塊沒有任何問題。</li>
 </ol>
-</dd> <dt><span id="Automated_Test"></span><span id="automated_test"></span><span id="AUTOMATED_TEST"></span>自動化測試</dt> <dd> 確認元素 <dpiAware>true</dpiAware> 包含在內嵌資訊清單中。<br/> 使用工具： Mt.exe <br/> </dd> </dl></td>
+</dd> <dt><span id="Automated_Test"></span><span id="automated_test"></span><span id="AUTOMATED_TEST"></span>自動化測試</dt> <dd> 確認元素 &lt; DPIAware &gt; true </dpiAware> 包含在內嵌資訊清單中。<br/> 使用工具： Mt.exe <br/> </dd> </dl></td>
 </tr>
 </tbody>
 </table>
@@ -319,8 +319,8 @@ ms.locfileid: "120107578"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -356,8 +356,8 @@ ms.locfileid: "120107578"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -395,8 +395,8 @@ Windows XP Professional 的64位版本支援是選擇性的。
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -426,8 +426,8 @@ Windows XP Professional 的64位版本支援是選擇性的。
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -455,8 +455,8 @@ Windows XP Professional 的64位版本支援是選擇性的。
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -493,8 +493,8 @@ Windows XP Professional 的64位版本支援是選擇性的。
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -529,8 +529,8 @@ Windows XP Professional 的64位版本支援是選擇性的。
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -564,8 +564,8 @@ Windows XP Professional 的64位版本支援是選擇性的。
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -598,8 +598,8 @@ Windows XP Professional 的64位版本支援是選擇性的。
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -630,8 +630,8 @@ Windows XP Professional 的64位版本支援是選擇性的。
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -663,8 +663,8 @@ Windows XP Professional 的64位版本支援是選擇性的。
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -690,8 +690,8 @@ Windows XP Professional 的64位版本支援是選擇性的。
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -723,8 +723,8 @@ Windows XP Professional 的64位版本支援是選擇性的。
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -763,8 +763,8 @@ Windows XP Professional 的64位版本支援是選擇性的。
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -813,8 +813,8 @@ Windows XP Professional 的64位版本支援是選擇性的。
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -856,8 +856,8 @@ Windows XP Professional 的64位版本支援是選擇性的。
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -882,8 +882,8 @@ Windows XP Professional 的64位版本支援是選擇性的。
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -916,8 +916,8 @@ Windows XP Professional 的64位版本支援是選擇性的。
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">

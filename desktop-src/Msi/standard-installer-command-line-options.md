@@ -1,5 +1,5 @@
 ---
-描述： Msiexec.exe 解釋封裝和安裝產品的可執行程式。注意 Msiexec 也會在傳回時會設定對應至系統錯誤碼的錯誤層級。 下表識別此程式的標準命令列選項。 命令列選項不區分大小寫。Windows Installer 2.0：從 Windows Installer 3.0 開始，可以使用本主題中所識別的命令列選項。 Windows Installer Command-Line 選項適用于 Windows Installer&\# 160、3.0 及更早版本。
+描述： Msiexec.exe 解釋封裝和安裝產品的可執行程式。注意 Msiexec 也會在傳回時會設定對應至系統錯誤碼的錯誤層級。 下表識別此程式的標準命令列選項。 命令列選項不區分大小寫。Windows安裝程式2.0：從 Windows Installer 3.0 開始，可以使用本主題中所識別的命令列選項。 Windows Installer Command-Line 選項適用于 Windows Installer&\# 160、3.0 及更早版本。
 assetid： b1707c88-1cca-45ab-bb23-6002bfd5204e title：標準安裝程式 Command-Line 選項 ms. 主題：文章 ms. 日期：05/31/2018
 ---
 
@@ -14,15 +14,15 @@ assetid： b1707c88-1cca-45ab-bb23-6002bfd5204e title：標準安裝程式 Comma
 
 下表識別此程式的標準命令列選項。 命令列選項不區分大小寫。
 
-**Windows Installer 2.0：** 從 Windows Installer 3.0 開始，可以使用本主題中所識別的命令列選項。 Windows Installer 的 [命令列選項](command-line-options.md) 可用於 Windows Installer 3.0 及更早版本。
+**Windows Installer 2.0：** 從 Windows Installer 3.0 開始，可以使用本主題中所識別的命令列選項。 Windows Installer 的[命令列選項](command-line-options.md)可用於 Windows Installer 3.0 及更早版本。
 
 
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -38,7 +38,7 @@ assetid： b1707c88-1cca-45ab-bb23-6002bfd5204e title：標準安裝程式 Comma
 <td>說明和快速參考選項。 顯示安裝命令的正確用法，包括所有參數和行為的清單。 使用方式的描述可顯示在使用者介面中。 不當使用任何選項時，會叫用這個說明選項。<br/> 範例： <strong>msiexec/help</strong><br/>
 <blockquote>
 [!Note]<br />
-對等的 Windows Installer <a href="command-line-options.md">命令列選項</a> 為 <strong>/？</strong>。
+對等的 Windows Installer<a href="command-line-options.md">命令列選項</a>為<strong>/？</strong>。
 </blockquote>
 <br/></td>
 </tr>
@@ -48,7 +48,7 @@ assetid： b1707c88-1cca-45ab-bb23-6002bfd5204e title：標準安裝程式 Comma
 <td>無訊息顯示選項。 安裝程式會執行安裝，而不顯示使用者介面。 使用者不會看到任何提示、訊息或對話方塊。 使用者無法取消安裝。 使用 <strong>/norestart</strong> 或 <strong>/forcerestart</strong> 標準命令列選項來控制重新開機。 如果未指定任何重新開機選項，安裝程式會在必要時重新開機電腦，而不會向使用者顯示任何提示或警告。<br/> 範例： <br/> <strong>msiexec/package Application.msi/quiet</strong><br/> <strong>Msiexec/uninstall Application.msi/quiet</strong><br/> <strong>Msiexec/update msipatch .msp/quiet</strong><br/> <strong>Msiexec/uninstall msipatch .msp/package Application.msi/quiet</strong><br/>
 <blockquote>
 [!Note]<br />
-對等的 Windows Installer <a href="command-line-options.md">命令列選項</a> 為 <strong>/qn</strong>。
+對等的 Windows Installer<a href="command-line-options.md">命令列選項</a>為<strong>/qn</strong>。
 </blockquote>
 <br/></td>
 </tr>
@@ -58,7 +58,7 @@ assetid： b1707c88-1cca-45ab-bb23-6002bfd5204e title：標準安裝程式 Comma
 <td>被動式顯示選項。 安裝程式會向使用者顯示進度列，指出正在進行安裝，但不會向使用者顯示任何提示或錯誤訊息。 使用者無法取消安裝。 使用 <strong>/norestart</strong> 或 <strong>/forcerestart</strong> 標準命令列選項來控制重新開機。 如果未指定任何重新開機選項，安裝程式會在必要時重新開機電腦，而不會向使用者顯示任何提示或警告。 <br/> 範例： <strong>msiexec/package Application.msi/passive</strong> <br/>
 <blockquote>
 [!Note]<br />
-對等的 Windows Installer <a href="command-line-options.md">命令列選項</a> 為 <strong>/qb！-</strong> 在命令列上設定 <a href="rebootprompt.md"><strong>REBOOTPROMPT</strong></a>= S。
+對等的 Windows Installer<a href="command-line-options.md">命令列選項</a>為<strong>/qb！-</strong>在命令列上設定<a href="rebootprompt.md"><strong>REBOOTPROMPT</strong></a>= S。
 </blockquote>
 <br/></td>
 </tr>
@@ -68,7 +68,7 @@ assetid： b1707c88-1cca-45ab-bb23-6002bfd5204e title：標準安裝程式 Comma
 <td>永不重新開機選項。 安裝程式在安裝後永遠不會重新開機電腦。<br/> 範例： msiexec/package Application.msi <strong>/norestart</strong><br/>
 <blockquote>
 [!Note]<br />
-對等的 Windows Installer 命令列具有在命令列上設定的 <a href="reboot.md"><strong>重新開機</strong></a>= ReallySuppress。
+對等的 Windows Installer 命令列具有在命令列上設定的<a href="reboot.md"><strong>重新開機</strong></a>= ReallySuppress。
 </blockquote>
 <br/></td>
 </tr>
@@ -78,7 +78,7 @@ assetid： b1707c88-1cca-45ab-bb23-6002bfd5204e title：標準安裝程式 Comma
 <td>一律重新開機選項。 安裝程式一律會在每次安裝之後重新開機電腦。<br/> 範例： msiexec/package Application.msi <strong>/forcerestart</strong><br/>
 <blockquote>
 [!Note]<br />
-對等的 Windows Installer 命令列具有 <a href="reboot.md"><strong>重新開機</strong></a>= 強制設定在命令列上。
+對等的 Windows Installer 命令列具有<a href="reboot.md"><strong>重新開機</strong></a>= 強制設定在命令列上。
 </blockquote>
 <br/></td>
 </tr>
@@ -98,7 +98,7 @@ assetid： b1707c88-1cca-45ab-bb23-6002bfd5204e title：標準安裝程式 Comma
 <td>卸載產品選項。 卸載產品。<br/>
 <blockquote>
 [!Note]<br />
-對等的 Windows Installer <a href="command-line-options.md">命令列選項</a> 是 <strong>/x</strong>。
+對等的 Windows Installer<a href="command-line-options.md">命令列選項</a>是<strong>/x</strong>。
 </blockquote>
 <br/></td>
 </tr>
@@ -108,7 +108,7 @@ assetid： b1707c88-1cca-45ab-bb23-6002bfd5204e title：標準安裝程式 Comma
 <td>卸載更新選項。 卸載更新修補程式。<br/>
 <blockquote>
 [!Note]<br />
-對等的 Windows Installer <a href="command-line-options.md">命令列選項</a> 是 <strong>/i</strong> with <a href="msipatchremove.md"><strong>MSIPATCHREMOVE</strong></a>= Update1 .msp |PatchGUID1[;Update2 .msp |PatchGUID2]，在命令列上設定。
+對等的 Windows Installer<a href="command-line-options.md">命令列選項</a>是<strong>/i</strong> with <a href="msipatchremove.md"><strong>MSIPATCHREMOVE</strong></a>= Update1 .msp |PatchGUID1[;Update2 .msp |PatchGUID2]，在命令列上設定。
 </blockquote>
 <br/></td>
 </tr>
@@ -130,7 +130,7 @@ assetid： b1707c88-1cca-45ab-bb23-6002bfd5204e title：標準安裝程式 Comma
 </ul>
 <blockquote>
 [!Note]<br />
-對等的 Windows Installer <a href="command-line-options.md">命令列選項</a> 為 <strong>/l *</strong>。
+對等的 Windows Installer<a href="command-line-options.md">命令列選項</a>為<strong>/l *</strong>。
 </blockquote>
 <br/>
 <blockquote>
@@ -145,7 +145,7 @@ assetid： b1707c88-1cca-45ab-bb23-6002bfd5204e title：標準安裝程式 Comma
 <td>安裝產品選項。 安裝或設定產品。<br/>
 <blockquote>
 [!Note]<br />
-對等的 Windows Installer <a href="command-line-options.md">命令列選項</a> 是 <strong>/i</strong>。
+對等的 Windows Installer<a href="command-line-options.md">命令列選項</a>是<strong>/i</strong>。
 </blockquote>
 <br/></td>
 </tr>
@@ -155,7 +155,7 @@ assetid： b1707c88-1cca-45ab-bb23-6002bfd5204e title：標準安裝程式 Comma
 <td>安裝修補程式選項。 安裝一或多個修補程式。 <br/>
 <blockquote>
 [!Note]<br />
-對等的 Windows Installer 命令列具有 <a href="patch.md"><strong>PATCH</strong></a> = [msipatch .msp] <;PatchGuid2> 在命令列上設定。
+對等的 Windows Installer 命令列具有<a href="patch.md"><strong>PATCH</strong></a> = [msipatch .msp] <;PatchGuid2> 在命令列上設定。
 </blockquote>
 <br/></td>
 </tr>

@@ -15,23 +15,23 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 2786435822fefb56b09c3bb434612dc1fbf13f99
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9ed32b23f99ad9e19d5384bfab1f81ff5ee6a181
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104195341"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122478464"
 ---
 # <a name="jet_pcstr"></a>JET_PCSTR
 
 
-_**適用于：** Windows |Windows Server_
+_**適用于：** Windows |Windows伺服器_
 
 ## <a name="jet_pcstr"></a>JET_PCSTR
 
 **JET_PCSTR** 資料類型包含以 null 終止的常數 **ASCII** 字串 (char \*) 。
 
-**Windows vista： JET_PCSTR** 是在 windows vista 中引進。
+**Windows vista： JET_PCSTR** 是在 Windows vista 中引進。
 
 ```cpp
     typedef __nullterminated const char *  JET_PCSTR;
@@ -45,24 +45,7 @@ JET_PCSTR
 
 ### <a name="requirements"></a>規格需求
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>用戶端</strong></p></td>
-<td><p>需要 Windows Vista。</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>伺服器</strong></p></td>
-<td><p>需要 Windows Server 2008。</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>標頭</strong></p></td>
-<td><p>宣告于 Esent. h 中。</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p><strong>用戶端</strong></p> | <p>需要 Windows Vista。</p> | | <p><strong>伺服器</strong></p> | <p>需要 Windows Server 2008。</p> | | <p><strong>標頭</strong></p> | <p>宣告于 Esent. h 中。</p> | 
+
 

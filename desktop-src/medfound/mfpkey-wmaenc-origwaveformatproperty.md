@@ -4,12 +4,12 @@ ms.assetid: d424f243-5ad6-46f2-b99b-9bb780715e8a
 title: 'MFPKEY_WMAENC_ORIGWAVEFORMAT 屬性 (Wmcodecdsp) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3475e5578124b8f0a762beddf713f701a5695110
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: df477daa61e39eb6b2a86aa26c27de4088e943d41f40ac9b708a0201698088c2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192165"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120113138"
 ---
 # <a name="mfpkey_wmaenc_origwaveformat-property"></a>MFPKEY \_ WMAENC \_ ORIGWAVEFORMAT 屬性
 
@@ -25,7 +25,7 @@ VT \_ array \| vt \_ UI1 ([**WAVEFORMATEX**](/previous-versions/dd757713(v=vs.85
 
 ## <a name="remarks"></a>備註
 
-將以 Windows Media 音訊為基礎的內容轉換成較低的位元速率時，您可以將內容的 [**WAVEFORMATEX**](/previous-versions/dd757713(v=vs.85)) 結構傳遞給編解碼器，讓編解碼器能夠優化其演算法。 這項功能稱為 smart recompression，可提供比解壓縮內容更好的結果，然後透過編解碼器將重新產生的 PCM 範例饋送回來。
+將以 Windows Media 音訊為基礎的內容轉換成較低的位元速率時，您可以將內容的 [**WAVEFORMATEX**](/previous-versions/dd757713(v=vs.85))結構傳遞給編解碼器，讓編解碼器能夠優化其演算法。 這項功能稱為 smart recompression，可提供比解壓縮內容更好的結果，然後透過編解碼器將重新產生的 PCM 範例饋送回來。
 
 傳遞 [**WAVEFORMATEX**](/previous-versions/dd757713(v=vs.85)) 結構時，請在 **WAVEFORMATEX cbSize** 所指定之結構的結尾包含任何額外的位元組。
 
@@ -37,8 +37,8 @@ VT \_ array \| vt \_ UI1 ([**WAVEFORMATEX**](/previous-versions/dd757713(v=vs.85
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                             |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                    |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                             |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                    |
 | 標頭<br/>                   | <dl> <dt>Wmcodecdsp。h</dt> </dl> |
 
 

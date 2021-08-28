@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 23bd87e86ba9e30ce443616920326bf37aba6d2c
-ms.sourcegitcommit: 9a614d8ce23dcca88873148683d9ec7d38be57b9
+ms.openlocfilehash: 9c5599c08471f29758276bf70ebbecc5d60fa28e
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "104383393"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122473334"
 ---
 # <a name="shell-interfaces"></a>命令介面
 
@@ -24,1375 +24,344 @@ ms.locfileid: "104383393"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>主題</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-iaccessibleobject"><strong>IAccessibleObject</strong></a><br/></td>
-<td>公開可供協助工具應用程式使用的方法。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/previous-versions/windows/desktop/legacy/hh448546(v=vs.85)"><strong>IAccessibilityDockingService</strong></a><br/></td>
-<td>將單一協助工具應用程式視窗停駐在螢幕底部。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/previous-versions/windows/desktop/legacy/hh448547(v=vs.85)"><strong>IAccessibilityDockingServiceCallback</strong></a><br/></td>
-<td>通知協助工具應用程式其視窗已取消停駐。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="iaclcustommru.md"><strong>IACLCustomMRU</strong></a><br/></td>
-<td>公開方法，這些方法可用來初始化自動完成物件的最近使用 (MRU) 清單。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-iaclist"><strong>IACList</strong></a><br/></td>
-<td>公開在階層中組織候選字串時，改善 <a href="/windows/desktop/api/Shldisp/nn-shldisp-iautocomplete"><strong>自動完成效率的方法</strong></a> 。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-iaclist2"><strong>IACList2</strong></a><br/></td>
-<td>擴充 <a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-iaclist"><strong>IACList</strong></a> 介面，以啟用自動完成物件的用戶端，以抓取和設定選項旗標。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iactionprogress"><strong>IActionProgress</strong></a><br/></td>
-<td>表示可從中繼承進度驅動作業的抽象基類。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iactionprogressdialog"><strong>IActionProgressDialog</strong></a><br/></td>
-<td>公開初始化和停止進度對話方塊的方法。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationactivationmanager"><strong>IApplicationActivationManager</strong></a><br/></td>
-<td>提供可針對啟動、檔案和通訊協定 <a href="/previous-versions/windows/apps/hh464906(v=win.10)">延伸</a>模組啟用 Windows Store 應用程式的方法。 您通常會在偵錯工具和設計工具中使用此介面。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationassociationregistration"><strong>IApplicationAssociationRegistration</strong></a><br/></td>
-<td>公開方法，以查詢及設定特定檔案 <a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-associationtype"><strong>關聯類型</strong></a>的預設應用程式，以及特定 <a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-associationlevel"><strong>關聯層級</strong></a>的通訊協定。 <br/>
-<blockquote>
-[!Note]<br />
-從 Windows 8，此介面唯一支援的功能是 <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationassociationregistration-querycurrentdefault"><strong>QueryCurrentDefault</strong></a>。
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-iapplicationassociationregistrationui"><strong>IApplicationAssociationRegistrationUI</strong></a><br/></td>
-<td>公開一個方法，此方法會啟動 [高級關聯] 對話方塊，讓使用者可以自訂其關聯。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationdesignmodesettings"><strong>IApplicationDesignModeSettings</strong></a><br/></td>
-<td>讓開發工具應用程式能動態地詐騙系統和使用者狀態，例如原生顯示器解析度、裝置縮放比例和應用程式檢視狀態，以測試在設計模式中執行的 Windows Store 應用程式是否有各式各樣的外型規格，而不需要實際硬體。 也可讓您測試一般使用者控制狀態的變更，以便在各種案例下測試 Windows Store 應用程式。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationdesignmodesettings2"><strong>IApplicationDesignModeSettings2</strong></a><br/></td>
-<td>可讓開發工具應用程式以動態方式控制系統和使用者狀態，例如原生顯示器解析度、裝置縮放因素和應用程式視圖配置，回報給 Windows Store 應用程式，以測試在設計模式下針對各種外型規格執行的 Windows Store 應用程式，而不需要實際硬體。 也可讓您測試一般使用者控制狀態的變更，以便在各種案例下測試 Windows Store 應用程式。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationdestinations"><strong>IApplicationDestinations</strong></a><br/></td>
-<td>公開方法，以允許應用程式從捷徑清單中 <strong>最新</strong> 或 <strong>經常</strong> 的類別中移除一個或多個目的地。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationdocumentlists"><strong>IApplicationDocumentLists</strong></a><br/></td>
-<td>公開方法，以允許應用程式抓取捷徑清單中 <strong>最新</strong> 或 <strong>頻繁</strong> 類別目錄的內容。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Shappmgr/nn-shappmgr-iapppublisher"><strong>IAppPublisher</strong></a><br/></td>
-<td>公開透過主控台中的 [ <strong>新增/移除程式</strong> ] 來發佈應用程式的方法。 這是針對此用途所執行的主要介面。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iappvisibility"><strong>IAppVisibility</strong></a><br/></td>
-<td>提供用來判斷顯示是否顯示 Windows Store 應用程式的功能。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iappvisibilityevents"><strong>IAppVisibilityEvents</strong></a><br/></td>
-<td>可讓應用程式在開始畫面可見度的顯示和變更中，接收狀態變更的通知。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iassochandler"><strong>IAssocHandler</strong></a><br/></td>
-<td>使用檔案關聯對話方塊或功能表公開作業的方法。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iassochandlerinvoker"><strong>IAssocHandlerInvoker</strong></a><br/></td>
-<td>公開方法，以叫用相關聯的應用程式處理常式。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iattachmentexecute"><strong>IAttachmentExecute</strong></a><br/></td>
-<td>公開可與用戶端應用程式搭配使用的方法，以呈現可透過電子郵件和郵件附件安全地下載和交換檔案的使用者環境。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Shldisp/nn-shldisp-iautocomplete"><strong>IAutoComplete</strong></a><br/></td>
-<td>由自動完成物件公開 (CLSID_AutoComplete) 。 這個介面可讓應用程式初始化、啟用和停用物件。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Shldisp/nn-shldisp-iautocomplete2"><strong>IAutoComplete2</strong></a><br/></td>
-<td>擴充 <a href="/windows/desktop/api/Shldisp/nn-shldisp-iautocomplete"><strong>IAutoComplete</strong></a>。 這個介面可讓自動完成物件的用戶端抓取和設定許多選項，以控制自動完成的運作方式。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-iautocompletedropdown"><strong>IAutoCompleteDropDown</strong></a><br/></td>
-<td>公開方法，讓用戶端可以重設或查詢 [自動完成] 下拉式清單的顯示狀態，其中包含使用者在編輯控制項中輸入之字串的可能完成。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-ibandhost"><strong>IBandHost</strong></a><br/></td>
-<td>公開建立和終結群組並指定其可用性的方法。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ibandsite"><strong>IBandSite</strong></a><br/></td>
-<td>公開控制頻外物件的方法。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Shobjidl_core/nn-shobjidl_core-ibrowserframeoptions"><strong>IBrowserFrameOptions</strong></a><br/></td>
-<td>允許瀏覽器或主機要求 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview"><strong>IShellView</strong></a> 支援何種視圖行為。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icategorizer"><strong>ICategorizer</strong></a><br/></td>
-<td>公開用來取得專案識別碼清單相關資訊的方法。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icategoryprovider"><strong>ICategoryProvider</strong></a><br/></td>
-<td>公開在 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder"><strong>IShellFolder</strong></a>上註冊的 categorizers 清單。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-icdburn"><strong>ICDBurn</strong></a><br/></td>
-<td>公開的方法可判斷系統是否有硬體可寫入 CD、CD 寫入器裝置的磁碟機號，以及以程式設計方式起始 CD 寫入會話。 <br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icolumnmanager"><strong>IColumnManager</strong></a><br/></td>
-<td>公開方法，以啟用 Windows 檔案總管詳細資料檢視中的資料行檢查和操作。 每個資料行都是由命名屬性的 <a href="/windows/desktop/api/wtypes/ns-wtypes-propertykey"><strong>PROPERTYKEY</strong></a> 結構所參考。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icommdlgbrowser"><strong>ICommDlgBrowser</strong></a><br/></td>
-<td>由一般檔案對話方塊公開，以供它們在裝載 Shell 瀏覽器時使用。 如果支援， <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icommdlgbrowser"><strong>ICommDlgBrowser</strong></a> 會公開方法，以允許 Shell 視圖處理在對話方塊中需要不同行為的幾個案例，而不是在一般 Shell 視圖中。 您可以藉由在<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellbrowser"><strong>IShellBrowser</strong></a>物件上呼叫<a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)"><strong>QueryInterface</strong></a>來取得<strong>ICommDlgBrowser</strong>介面指標。 <br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icommdlgbrowser2"><strong>ICommDlgBrowser2</strong></a><br/></td>
-<td>擴充 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icommdlgbrowser"><strong>ICommDlgBrowser</strong></a>的功能。 這些介面是在裝載 Shell 瀏覽器時，由一般檔案對話方塊所公開。 您可以藉由在<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellbrowser"><strong>IShellBrowser</strong></a>物件上呼叫<a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)"><strong>QueryInterface</strong></a>來取得<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icommdlgbrowser2"><strong>ICommDlgBrowser2</strong></a>的指標。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-icommdlgbrowser3"><strong>ICommDlgBrowser3</strong></a><br/></td>
-<td>擴充 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icommdlgbrowser2"><strong>ICommDlgBrowser2</strong></a>的功能，並在裝載 Shell 瀏覽器時由一般檔案對話方塊使用。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl/nn-shobjidl-icomputerinfochangenotify"><strong>IComputerInfoChangeNotify</strong></a><br/></td>
-<td>這個介面可能在較新版本的 Windows 中不存在。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Credentialprovider/nn-credentialprovider-iconnectablecredentialprovidercredential"><strong>IConnectableCredentialProviderCredential</strong></a><br/></td>
-<td>公開連接和中斷連接 <a href="/windows/desktop/api/Credentialprovider/nn-credentialprovider-iconnectablecredentialprovidercredential"><strong>IConnectableCredentialProviderCredential</strong></a> 物件的方法。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Shobjidl_core/nn-shobjidl_core-icontactmanagerinterop"><strong>IContactManagerInterop</strong></a><br/></td>
-<td>可存取管理多個視窗的應用程式中的 <a href="/windows/desktop/api/Shobjidl_core/nn-shobjidl_core-icontactmanagerinterop"><strong>ContactManager</strong></a> 方法。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenu"><strong>ICoNtextMenu</strong></a><br/></td>
-<td>公開方法，以建立或合併與 Shell 物件相關聯的快捷方式功能表。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenu2"><strong>ICoNtextMenu2</strong></a><br/></td>
-<td>公開方法，以建立或合併與 Shell 物件相關聯的快捷方式 (內容) 功能表。 藉由新增方法來擴充 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenu"><strong>ICoNtextMenu</strong></a> ，以允許用戶端物件處理與主控描繪功能表項目相關聯的訊息。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenu3"><strong>ICoNtextMenu3</strong></a><br/></td>
-<td>公開方法，以建立或合併與 Shell 物件相關聯的快捷方式功能表。 允許用戶端物件處理與主控描繪功能表項目相關聯的訊息，並接受來自該訊息處理的傳回值來擴充 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenu2"><strong>ICoNtextMenu2</strong></a> 。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenucb"><strong>ICoNtextMenuCB</strong></a><br/></td>
-<td>公開啟用內容功能表回呼的方法。 例如，在需要提高許可權的 <strong>menuItem</strong> 中加入盾牌圖示。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/previous-versions/windows/desktop/legacy/bb776063(v=vs.85)"><strong>IControlMarkup</strong></a><br/></td>
 
-</tr>
-<tr class="odd">
-<td><a href="/previous-versions/windows/desktop/legacy/bb776049(v=vs.85)"><strong>ICopyHook</strong></a><br/></td>
-<td>公開建立 <em>複製勾點處理常式</em>的方法。 複製勾點處理常式是一個 Shell 延伸模組，可決定是否可以移動、複製、重新命名或刪除 Shell 資料夾或印表機物件。 Shell 會在執行這些作業的其中一項之前呼叫 <a href="/previous-versions/windows/desktop/legacy/bb776048(v=vs.85)"><strong>ICopyHook：： CopyCallback</strong></a> 方法。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Propsys/nn-propsys-icreateobject"><strong>ICreateObject</strong></a><br/></td>
-<td>公開建立指定類別之物件的方法。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icreatingprocess"><strong>ICreatingProcess</strong></a><br/></td>
-<td>由 <a href="/windows/desktop/api/Shellapi/nf-shellapi-shellexecuteexa"><strong>ShellExecuteEx</strong></a> 和 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenu"><strong>ICoNtextMenu</strong></a> 使用，可讓呼叫者改變正在建立之進程的某些參數。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icreateprocessinputs"><strong>ICreateProcessInputs</strong></a><br/></td>
-<td>供 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icreatingprocess"><strong>ICreatingProcess</strong></a> 介面用來改變正在建立之進程的某些參數。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Credentialprovider/nn-credentialprovider-icredentialprovider"><strong>ICredentialProvider</strong></a><br/></td>
-<td>公開用於設定和操作認證提供者的方法。 所有認證提供者都必須執行這個介面。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Credentialprovider/nn-credentialprovider-icredentialprovidercredential"><strong>ICredentialProviderCredential</strong></a><br/></td>
-<td>公開可讓您處理認證的方法。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/CredentialProvider/nn-credentialprovider-icredentialprovidercredential2"><strong>ICredentialProviderCredential2</strong></a><br/></td>
-<td>藉由新增方法來擴充 <a href="/windows/desktop/api/Credentialprovider/nn-credentialprovider-icredentialprovidercredential"><strong>ICredentialProviderCredential</strong></a> 介面，以抓取使用者的安全識別碼 (SID) 。 認證會與該使用者相關聯，並可在使用者的磚下分組。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Credentialprovider/nn-credentialprovider-icredentialprovidercredentialevents"><strong>ICredentialProviderCredentialEvents</strong></a><br/></td>
-<td>提供一種非同步回呼機制，可讓認證用來通知其登入 UI 或認證 UI 中的狀態或文字變更事件。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/CredentialProvider/nn-credentialprovider-icredentialprovidercredentialevents2"><strong>ICredentialProviderCredentialEvents2</strong></a><br/></td>
-<td>藉由新增可在 theLogon UI 或認證 UI 中啟用欄位批次更新的方法，擴充 <a href="/windows/desktop/api/Credentialprovider/nn-credentialprovider-icredentialprovidercredentialevents"><strong>ICredentialProviderCredentialEvents</strong></a> 介面。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/CredentialProvider/nn-credentialprovider-icredentialprovidercredentialwithfieldoptions"><strong>ICredentialProviderCredentialWithFieldOptions</strong></a><br/></td>
-<td>提供一種方法，可讓認證提供者架構判斷您是否已在登入或認證 UI 中對欄位的選項進行自訂。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Credentialprovider/nn-credentialprovider-icredentialproviderevents"><strong>ICredentialProviderEvents</strong></a><br/></td>
-<td>提供由認證提供者使用的非同步回呼機制，以通知其認證清單或其欄位的變更。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Credentialprovider/nn-credentialprovider-icredentialproviderfilter"><strong>ICredentialProviderFilter</strong></a><br/></td>
-<td>用來根據執行時間可用的資訊，動態篩選認證提供者。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/CredentialProvider/nn-credentialprovider-icredentialprovidersetuserarray"><strong>ICredentialProviderSetUserArray</strong></a><br/></td>
-<td>提供一種方法，可讓認證提供者接收將在登入或認證 UI 中顯示的使用者集合。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/CredentialProvider/nn-credentialprovider-icredentialprovideruser"><strong>ICredentialProviderUser</strong></a><br/></td>
-<td>提供方法，用來抓取登入或認證 UI 中所包含之個別使用者的特定屬性。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/CredentialProvider/nn-credentialprovider-icredentialprovideruserarray"><strong>ICredentialProviderUserArray</strong></a><br/></td>
-<td>代表將出現在登入或認證 UI 中的使用者集合。 這項資訊可讓認證提供者列舉集合，以抓取每個使用者的相關屬性資訊，以填入欄位或篩選集合。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icurrentitem"><strong>ICurrentItem</strong></a><br/></td>
-<td>藉由呼叫專案的 <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-bindtoobject"><strong>IShellFolder：： BindToObject</strong></a> 來取得。 如果專案在先前的時間代表專案的快照集，這個介面會取得專案的目前版本。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shlobj/nn-shlobj-icurrentworkingdirectory"><strong>ICurrentWorkingDirectory</strong></a><br/></td>
-<td>公開方法，讓用戶端可以取得或設定物件的目前工作目錄。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icustomdestinationlist"><strong>ICustomDestinationList</strong></a><br/></td>
-<td>公開方法，以允許應用程式提供可在工作列中顯示的自訂捷徑清單（包括目的地和工作）。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Shldisp/nn-shldisp-idataobjectasynccapability"><strong>IDataObjectAsyncCapability</strong></a><br/></td>
-<td>啟用通常同步以非同步方式運作的介面。 <br/>
-<blockquote>
-[!Note]<br />
-此介面是目前的重新命名 <a href="/previous-versions//bb776309(v=vs.85)"><strong>iasyncoperation<tresult>HTTP</strong></a>版本。
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idataobjectprovider"><strong>IDataObjectProvider</strong></a><br/></td>
-<td>提供可讓您設定或抓取 <a href="/uwp/api/Windows.ApplicationModel.DataTransfer.DataPackage?view=winrt-19041">DataPackage</a> 物件之 <a href="/windows/desktop/api/objidl/nn-objidl-idataobject"><strong>IDataObject 介面</strong></a>的方法，DataPackage 會使用此介面來支援互通性。 應用程式會使用 DataPackage 物件來提供資料給另一個應用程式。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idatatransfermanagerinterop"><strong>IDataTransferManagerInterop</strong></a><br/></td>
-<td>可在管理多個視窗的 Windows Store 應用程式中，存取 <a href="/uwp/api/Windows.ApplicationModel.DataTransfer.DataTransferManager"><strong>DataTransferManager</strong></a> 方法。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idefaultextracticoninit"><strong>IDefaultExtractIconInit</strong></a><br/></td>
-<td>公開方法，以設定與物件相關聯的預設圖示。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idefaultfoldermenuinitialize"><strong>IDefaultFolderMenuInitialize</strong></a><br/></td>
-<td>提供用來取得及設定快捷方式功能表資訊的方法。 這項資訊與透過<a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-defcontextmenu"><strong>DEFCONTEXTMENU</strong></a>結構提供給<a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shcreatedefaultcontextmenu"><strong>SHCreateDefaultCoNtextMenu</strong></a>的資訊相同。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Propsys/nn-propsys-idelayedpropertystorefactory"><strong>IDelayedPropertyStoreFactory</strong></a><br/></td>
-<td>公開方法，以在屬性存取可能很慢的情況下，建立指定的 <a href="/windows/desktop/api/propsys/nn-propsys-ipropertystore"><strong>IPropertyStore</strong></a> 物件。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idelegatefolder"><strong>IDelegateFolder</strong></a><br/></td>
-<td>公開方法，透過這個方法，會為委派資料夾提供配置和釋放專案識別碼所需的 <a href="/windows/desktop/api/objidl/nn-objidl-imalloc"><strong>IMalloc</strong></a> 介面。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idelegateitem"><strong>IDelegateItem</strong></a><br/></td>
-<td>用來取得專案路徑的立即基礎標記法。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-idesktopgadget"><strong>IDesktopGadget</strong></a><br/></td>
-<td>公開一種方法，可讓您以程式設計方式將已安裝的小工具加入使用者的桌面。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idesktopwallpaper"><strong>IDesktopWallpaper</strong></a><br/></td>
+| 主題 | 描述 | 
+|-------|-------------|
+| <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-iaccessibleobject"><strong>IAccessibleObject</strong></a><br /> | 公開可供協助工具應用程式使用的方法。<br /> | 
+| <a href="/previous-versions/windows/desktop/legacy/hh448546(v=vs.85)"><strong>IAccessibilityDockingService</strong></a><br /> | 將單一協助工具應用程式視窗停駐在螢幕底部。<br /> | 
+| <a href="/previous-versions/windows/desktop/legacy/hh448547(v=vs.85)"><strong>IAccessibilityDockingServiceCallback</strong></a><br /> | 通知協助工具應用程式其視窗已取消停駐。<br /> | 
+| <a href="iaclcustommru.md"><strong>IACLCustomMRU</strong></a><br /> | 公開方法，這些方法可用來初始化自動完成物件的最近使用 (MRU) 清單。<br /> | 
+| <a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-iaclist"><strong>IACList</strong></a><br /> | 公開在階層中組織候選字串時，改善 <a href="/windows/desktop/api/Shldisp/nn-shldisp-iautocomplete"><strong>自動完成效率的方法</strong></a> 。<br /> | 
+| <a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-iaclist2"><strong>IACList2</strong></a><br /> | 擴充 <a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-iaclist"><strong>IACList</strong></a> 介面，以啟用自動完成物件的用戶端，以抓取和設定選項旗標。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iactionprogress"><strong>IActionProgress</strong></a><br /> | 表示可從中繼承進度驅動作業的抽象基類。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iactionprogressdialog"><strong>IActionProgressDialog</strong></a><br /> | 公開初始化和停止進度對話方塊的方法。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationactivationmanager"><strong>IApplicationActivationManager</strong></a><br /> | 提供可啟用 Windows 儲存啟動、檔案和通訊協定<a href="/previous-versions/windows/apps/hh464906(v=win.10)">延伸</a>模組之應用程式的方法。 您通常會在偵錯工具和設計工具中使用此介面。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationassociationregistration"><strong>IApplicationAssociationRegistration</strong></a><br /> | 公開方法，以查詢及設定特定檔案 <a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-associationtype"><strong>關聯類型</strong></a>的預設應用程式，以及特定 <a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-associationlevel"><strong>關聯層級</strong></a>的通訊協定。 <br /><blockquote>[!Note]<br />從 Windows 8，此介面唯一支援的功能是<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationassociationregistration-querycurrentdefault"><strong>QueryCurrentDefault</strong></a>。</blockquote><br /> | 
+| <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-iapplicationassociationregistrationui"><strong>IApplicationAssociationRegistrationUI</strong></a><br /> | 公開一個方法，此方法會啟動 [高級關聯] 對話方塊，讓使用者可以自訂其關聯。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationdesignmodesettings"><strong>IApplicationDesignModeSettings</strong></a><br /> | 讓開發工具應用程式能動態地偽造系統和使用者狀態，例如原生顯示器解析度、裝置縮放比例，以及應用程式檢視狀態，以測試 Windows 將在設計模式中執行的應用程式儲存為各式各樣的外型規格，而不需要實際硬體。 也可讓您測試一般使用者控制狀態的變更，以便在各種案例下測試 Windows 儲存應用程式。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationdesignmodesettings2"><strong>IApplicationDesignModeSettings2</strong></a><br /> | 可讓開發工具應用程式以動態方式控制系統和使用者狀態，例如原生顯示器解析度、裝置縮放因數，以及應用程式視圖配置，Windows 儲存應用程式以進行測試 Windows 將在設計模式中執行的應用程式儲存至各式各樣的外型規格，而不需要實際硬體。 也可讓您測試一般使用者控制狀態的變更，以便在各種案例下測試 Windows 儲存應用程式。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationdestinations"><strong>IApplicationDestinations</strong></a><br /> | 公開方法，以允許應用程式從捷徑清單中 <strong>最新</strong> 或 <strong>經常</strong> 的類別中移除一個或多個目的地。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationdocumentlists"><strong>IApplicationDocumentLists</strong></a><br /> | 公開方法，以允許應用程式抓取捷徑清單中 <strong>最新</strong> 或 <strong>頻繁</strong> 類別目錄的內容。<br /> | 
+| <a href="/windows/desktop/api/Shappmgr/nn-shappmgr-iapppublisher"><strong>IAppPublisher</strong></a><br /> | 公開透過主控台中的 [ <strong>新增/移除程式</strong> ] 來發佈應用程式的方法。 這是針對此用途所執行的主要介面。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iappvisibility"><strong>IAppVisibility</strong></a><br /> | 提供可判斷顯示是否顯示 Windows Store 應用程式的功能。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iappvisibilityevents"><strong>IAppVisibilityEvents</strong></a><br /> | 可讓應用程式在開始畫面可見度的顯示和變更中，接收狀態變更的通知。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iassochandler"><strong>IAssocHandler</strong></a><br /> | 使用檔案關聯對話方塊或功能表公開作業的方法。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iassochandlerinvoker"><strong>IAssocHandlerInvoker</strong></a><br /> | 公開方法，以叫用相關聯的應用程式處理常式。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iattachmentexecute"><strong>IAttachmentExecute</strong></a><br /> | 公開可與用戶端應用程式搭配使用的方法，以呈現可透過電子郵件和郵件附件安全地下載和交換檔案的使用者環境。<br /> | 
+| <a href="/windows/desktop/api/Shldisp/nn-shldisp-iautocomplete"><strong>IAutoComplete</strong></a><br /> | 由自動完成物件公開 (CLSID_AutoComplete) 。 這個介面可讓應用程式初始化、啟用和停用物件。<br /> | 
+| <a href="/windows/desktop/api/Shldisp/nn-shldisp-iautocomplete2"><strong>IAutoComplete2</strong></a><br /> | 擴充 <a href="/windows/desktop/api/Shldisp/nn-shldisp-iautocomplete"><strong>IAutoComplete</strong></a>。 這個介面可讓自動完成物件的用戶端抓取和設定許多選項，以控制自動完成的運作方式。<br /> | 
+| <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-iautocompletedropdown"><strong>IAutoCompleteDropDown</strong></a><br /> | 公開方法，讓用戶端可以重設或查詢 [自動完成] 下拉式清單的顯示狀態，其中包含使用者在編輯控制項中輸入之字串的可能完成。<br /> | 
+| <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-ibandhost"><strong>IBandHost</strong></a><br /> | 公開建立和終結群組並指定其可用性的方法。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ibandsite"><strong>IBandSite</strong></a><br /> | 公開控制頻外物件的方法。<br /> | 
+| <a href="/windows/desktop/api/Shobjidl_core/nn-shobjidl_core-ibrowserframeoptions"><strong>IBrowserFrameOptions</strong></a><br /> | 允許瀏覽器或主機要求 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview"><strong>IShellView</strong></a> 支援何種視圖行為。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icategorizer"><strong>ICategorizer</strong></a><br /> | 公開用來取得專案識別碼清單相關資訊的方法。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icategoryprovider"><strong>ICategoryProvider</strong></a><br /> | 公開在 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder"><strong>IShellFolder</strong></a>上註冊的 categorizers 清單。<br /> | 
+| <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-icdburn"><strong>ICDBurn</strong></a><br /> | 公開的方法可判斷系統是否有硬體可寫入 CD、CD 寫入器裝置的磁碟機號，以及以程式設計方式起始 CD 寫入會話。 <br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icolumnmanager"><strong>IColumnManager</strong></a><br /> | 公開方法，以啟用 Windows 檔案總管詳細資料檢視中的資料行檢查和操作。 每個資料行都是由命名屬性的 <a href="/windows/desktop/api/wtypes/ns-wtypes-propertykey"><strong>PROPERTYKEY</strong></a> 結構所參考。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icommdlgbrowser"><strong>ICommDlgBrowser</strong></a><br /> | 由一般檔案對話方塊公開，以供它們在裝載 Shell 瀏覽器時使用。 如果支援， <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icommdlgbrowser"><strong>ICommDlgBrowser</strong></a> 會公開方法，以允許 Shell 視圖處理在對話方塊中需要不同行為的幾個案例，而不是在一般 Shell 視圖中。 您可以藉由在<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellbrowser"><strong>IShellBrowser</strong></a>物件上呼叫<a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)"><strong>QueryInterface</strong></a>來取得<strong>ICommDlgBrowser</strong>介面指標。 <br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icommdlgbrowser2"><strong>ICommDlgBrowser2</strong></a><br /> | 擴充 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icommdlgbrowser"><strong>ICommDlgBrowser</strong></a>的功能。 這些介面是在裝載 Shell 瀏覽器時，由一般檔案對話方塊所公開。 您可以藉由在<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellbrowser"><strong>IShellBrowser</strong></a>物件上呼叫<a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)"><strong>QueryInterface</strong></a>來取得<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icommdlgbrowser2"><strong>ICommDlgBrowser2</strong></a>的指標。<br /> | 
+| <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-icommdlgbrowser3"><strong>ICommDlgBrowser3</strong></a><br /> | 擴充 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icommdlgbrowser2"><strong>ICommDlgBrowser2</strong></a>的功能，並在裝載 Shell 瀏覽器時由一般檔案對話方塊使用。<br /> | 
+| <a href="/windows/desktop/api/shobjidl/nn-shobjidl-icomputerinfochangenotify"><strong>IComputerInfoChangeNotify</strong></a><br /> | Windows 的較新版本中可能沒有這個介面。<br /> | 
+| <a href="/windows/desktop/api/Credentialprovider/nn-credentialprovider-iconnectablecredentialprovidercredential"><strong>IConnectableCredentialProviderCredential</strong></a><br /> | 公開連接和中斷連接 <a href="/windows/desktop/api/Credentialprovider/nn-credentialprovider-iconnectablecredentialprovidercredential"><strong>IConnectableCredentialProviderCredential</strong></a> 物件的方法。<br /> | 
+| <a href="/windows/desktop/api/Shobjidl_core/nn-shobjidl_core-icontactmanagerinterop"><strong>IContactManagerInterop</strong></a><br /> | 可存取管理多個視窗的應用程式中的 <a href="/windows/desktop/api/Shobjidl_core/nn-shobjidl_core-icontactmanagerinterop"><strong>ContactManager</strong></a> 方法。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenu"><strong>ICoNtextMenu</strong></a><br /> | 公開方法，以建立或合併與 Shell 物件相關聯的快捷方式功能表。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenu2"><strong>ICoNtextMenu2</strong></a><br /> | 公開方法，以建立或合併與 Shell 物件相關聯的快捷方式 (內容) 功能表。 藉由新增方法來擴充 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenu"><strong>ICoNtextMenu</strong></a> ，以允許用戶端物件處理與主控描繪功能表項目相關聯的訊息。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenu3"><strong>ICoNtextMenu3</strong></a><br /> | 公開方法，以建立或合併與 Shell 物件相關聯的快捷方式功能表。 允許用戶端物件處理與主控描繪功能表項目相關聯的訊息，並接受來自該訊息處理的傳回值來擴充 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenu2"><strong>ICoNtextMenu2</strong></a> 。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenucb"><strong>ICoNtextMenuCB</strong></a><br /> | 公開啟用內容功能表回呼的方法。 例如，在需要提高許可權的 <strong>menuItem</strong> 中加入盾牌圖示。<br /> | 
+| <a href="/previous-versions/windows/desktop/legacy/bb776063(v=vs.85)"><strong>IControlMarkup</strong></a><br /> | 
+| <a href="/previous-versions/windows/desktop/legacy/bb776049(v=vs.85)"><strong>ICopyHook</strong></a><br /> | 公開建立 <em>複製勾點處理常式</em>的方法。 複製勾點處理常式是一個 Shell 延伸模組，可決定是否可以移動、複製、重新命名或刪除 Shell 資料夾或印表機物件。 Shell 會在執行這些作業的其中一項之前呼叫 <a href="/previous-versions/windows/desktop/legacy/bb776048(v=vs.85)"><strong>ICopyHook：： CopyCallback</strong></a> 方法。<br /> | 
+| <a href="/windows/desktop/api/Propsys/nn-propsys-icreateobject"><strong>ICreateObject</strong></a><br /> | 公開建立指定類別之物件的方法。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icreatingprocess"><strong>ICreatingProcess</strong></a><br /> | 由 <a href="/windows/desktop/api/Shellapi/nf-shellapi-shellexecuteexa"><strong>ShellExecuteEx</strong></a> 和 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenu"><strong>ICoNtextMenu</strong></a> 使用，可讓呼叫者改變正在建立之進程的某些參數。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icreateprocessinputs"><strong>ICreateProcessInputs</strong></a><br /> | 供 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icreatingprocess"><strong>ICreatingProcess</strong></a> 介面用來改變正在建立之進程的某些參數。<br /> | 
+| <a href="/windows/desktop/api/Credentialprovider/nn-credentialprovider-icredentialprovider"><strong>ICredentialProvider</strong></a><br /> | 公開用於設定和操作認證提供者的方法。 所有認證提供者都必須執行這個介面。<br /> | 
+| <a href="/windows/desktop/api/Credentialprovider/nn-credentialprovider-icredentialprovidercredential"><strong>ICredentialProviderCredential</strong></a><br /> | 公開可讓您處理認證的方法。<br /> | 
+| <a href="/windows/desktop/api/CredentialProvider/nn-credentialprovider-icredentialprovidercredential2"><strong>ICredentialProviderCredential2</strong></a><br /> | 藉由新增方法來擴充 <a href="/windows/desktop/api/Credentialprovider/nn-credentialprovider-icredentialprovidercredential"><strong>ICredentialProviderCredential</strong></a> 介面，以抓取使用者的安全識別碼 (SID) 。 認證會與該使用者相關聯，並可在使用者的磚下分組。<br /> | 
+| <a href="/windows/desktop/api/Credentialprovider/nn-credentialprovider-icredentialprovidercredentialevents"><strong>ICredentialProviderCredentialEvents</strong></a><br /> | 提供一種非同步回呼機制，可讓認證用來通知其登入 UI 或認證 UI 中的狀態或文字變更事件。<br /> | 
+| <a href="/windows/desktop/api/CredentialProvider/nn-credentialprovider-icredentialprovidercredentialevents2"><strong>ICredentialProviderCredentialEvents2</strong></a><br /> | 藉由新增可在 theLogon UI 或認證 UI 中啟用欄位批次更新的方法，擴充 <a href="/windows/desktop/api/Credentialprovider/nn-credentialprovider-icredentialprovidercredentialevents"><strong>ICredentialProviderCredentialEvents</strong></a> 介面。<br /> | 
+| <a href="/windows/desktop/api/CredentialProvider/nn-credentialprovider-icredentialprovidercredentialwithfieldoptions"><strong>ICredentialProviderCredentialWithFieldOptions</strong></a><br /> | 提供一種方法，可讓認證提供者架構判斷您是否已在登入或認證 UI 中對欄位的選項進行自訂。<br /> | 
+| <a href="/windows/desktop/api/Credentialprovider/nn-credentialprovider-icredentialproviderevents"><strong>ICredentialProviderEvents</strong></a><br /> | 提供由認證提供者使用的非同步回呼機制，以通知其認證清單或其欄位的變更。<br /> | 
+| <a href="/windows/desktop/api/Credentialprovider/nn-credentialprovider-icredentialproviderfilter"><strong>ICredentialProviderFilter</strong></a><br /> | 用來根據執行時間可用的資訊，動態篩選認證提供者。<br /> | 
+| <a href="/windows/desktop/api/CredentialProvider/nn-credentialprovider-icredentialprovidersetuserarray"><strong>ICredentialProviderSetUserArray</strong></a><br /> | 提供一種方法，可讓認證提供者接收將在登入或認證 UI 中顯示的使用者集合。<br /> | 
+| <a href="/windows/desktop/api/CredentialProvider/nn-credentialprovider-icredentialprovideruser"><strong>ICredentialProviderUser</strong></a><br /> | 提供方法，用來抓取登入或認證 UI 中所包含之個別使用者的特定屬性。<br /> | 
+| <a href="/windows/desktop/api/CredentialProvider/nn-credentialprovider-icredentialprovideruserarray"><strong>ICredentialProviderUserArray</strong></a><br /> | 代表將出現在登入或認證 UI 中的使用者集合。 這項資訊可讓認證提供者列舉集合，以抓取每個使用者的相關屬性資訊，以填入欄位或篩選集合。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icurrentitem"><strong>ICurrentItem</strong></a><br /> | 藉由呼叫專案的 <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-bindtoobject"><strong>IShellFolder：： BindToObject</strong></a> 來取得。 如果專案在先前的時間代表專案的快照集，這個介面會取得專案的目前版本。<br /> | 
+| <a href="/windows/desktop/api/shlobj/nn-shlobj-icurrentworkingdirectory"><strong>ICurrentWorkingDirectory</strong></a><br /> | 公開方法，讓用戶端可以取得或設定物件的目前工作目錄。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icustomdestinationlist"><strong>ICustomDestinationList</strong></a><br /> | 公開方法，以允許應用程式提供可在工作列中顯示的自訂捷徑清單（包括目的地和工作）。<br /> | 
+| <a href="/windows/desktop/api/Shldisp/nn-shldisp-idataobjectasynccapability"><strong>IDataObjectAsyncCapability</strong></a><br /> | 啟用通常同步以非同步方式運作的介面。 <br /><blockquote>[!Note]<br />此介面是目前的重新命名 <a href="/previous-versions//bb776309(v=vs.85)"><strong>iasyncoperation<tresult>HTTP</strong></a>版本。</blockquote><br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idataobjectprovider"><strong>IDataObjectProvider</strong></a><br /> | 提供可讓您設定或抓取 <a href="/uwp/api/Windows.ApplicationModel.DataTransfer.DataPackage?view=winrt-19041">DataPackage</a> 物件之 <a href="/windows/desktop/api/objidl/nn-objidl-idataobject"><strong>IDataObject 介面</strong></a>的方法，DataPackage 會使用此介面來支援互通性。 應用程式會使用 DataPackage 物件來提供資料給另一個應用程式。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idatatransfermanagerinterop"><strong>IDataTransferManagerInterop</strong></a><br /> | 可存取管理多個視窗的 Windows 存放區應用程式中的<a href="/uwp/api/Windows.ApplicationModel.DataTransfer.DataTransferManager"><strong>DataTransferManager</strong></a>方法。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idefaultextracticoninit"><strong>IDefaultExtractIconInit</strong></a><br /> | 公開方法，以設定與物件相關聯的預設圖示。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idefaultfoldermenuinitialize"><strong>IDefaultFolderMenuInitialize</strong></a><br /> | 提供用來取得及設定快捷方式功能表資訊的方法。 這項資訊與透過<a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-defcontextmenu"><strong>DEFCONTEXTMENU</strong></a>結構提供給<a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shcreatedefaultcontextmenu"><strong>SHCreateDefaultCoNtextMenu</strong></a>的資訊相同。<br /> | 
+| <a href="/windows/desktop/api/Propsys/nn-propsys-idelayedpropertystorefactory"><strong>IDelayedPropertyStoreFactory</strong></a><br /> | 公開方法，以在屬性存取可能很慢的情況下，建立指定的 <a href="/windows/desktop/api/propsys/nn-propsys-ipropertystore"><strong>IPropertyStore</strong></a> 物件。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idelegatefolder"><strong>IDelegateFolder</strong></a><br /> | 公開方法，透過這個方法，會為委派資料夾提供配置和釋放專案識別碼所需的 <a href="/windows/desktop/api/objidl/nn-objidl-imalloc"><strong>IMalloc</strong></a> 介面。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idelegateitem"><strong>IDelegateItem</strong></a><br /> | 用來取得專案路徑的立即基礎標記法。<br /> | 
+| <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-idesktopgadget"><strong>IDesktopGadget</strong></a><br /> | 公開一種方法，可讓您以程式設計方式將已安裝的小工具加入使用者的桌面。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idesktopwallpaper"><strong>IDesktopWallpaper</strong></a><br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idestinationstreamfactory"><strong>IDestinationStreamFactory</strong></a><br /> | 公開在將變更套用至屬性之前，手動複製資料流程或檔案的方法。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idisplayitem"><strong>IDisplayItem</strong></a><br /> | 公開方法，這些方法會尋找要用來取得顯示內容（例如專案名稱）的目前專案版本，此專案會顯示在 UI 中。 供複製引擎對話方塊用來提供 UI，以顯示適當的專案。 如果找不到其他版本，會使用目前的專案。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idockingwindow"><strong>IDockingWindow</strong></a><br /> | 公開通知停駐視窗物件變更的方法，包括顯示、隱藏和即將移除。 這個介面是由視窗物件所執行，這些物件可以停駐在 Windows 檔案總管視窗的框線空間內。<br /> | 
+| <a href="/windows/desktop/api/shlobj/nn-shlobj-idockingwindowframe"><strong>IDockingWindowFrame</strong></a><br /> | 公開支援將 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idockingwindow"><strong>IDockingWindow</strong></a> 物件新增至框架的方法。 由瀏覽器所執行。<br /> | 
+| <a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-idockingwindowsite"><strong>IDockingWindowSite</strong></a><br /> | 公開管理一或多個 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idockingwindow"><strong>IDockingWindow</strong></a> 物件之框線空間的方法。 此介面是由瀏覽器所執行，類似于 <a href="/windows/desktop/api/oleidl/nn-oleidl-ioleinplaceuiwindow"><strong>IOleInPlaceUIWindow</strong></a> 介面。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idragsourcehelper"><strong>IDragSourceHelper</strong></a><br /> | 由 Shell 公開，以允許應用程式指定將在 Shell 拖放作業期間顯示的影像。<br /> | 
+| <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-idragsourcehelper2"><strong>IDragSourceHelper2</strong></a><br /> | 公開將功能新增至 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idragsourcehelper"><strong>IDragSourceHelper</strong></a>的方法。 這個方法會設定 <strong>IDragSourceHelper</strong> 物件上拖放作業的特性。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idroptargethelper"><strong>IDropTargetHelper</strong></a><br /> | 公開方法，以在影像在目標視窗上時，讓卸載目標顯示拖曳影像。<br /> | 
+| <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-idynamichwhandler"><strong>IDynamicHWHandler</strong></a><br /> | 由自動播放所呼叫。 公開方法，這些方法會在向使用者顯示已註冊的處理常式之前，取得相關動態資訊。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ienumassochandlers"><strong>IEnumAssocHandlers</strong></a><br /> | 公開方法，這個方法允許列舉與特定副檔名相關聯的處理常式集合。<br /> | 
+| <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-ienumerableview"><strong>IEnumerableView</strong></a><br /> | 公開列舉視圖內容的方法，並在列舉完成時接收回呼的通知。 此介面可讓視圖的用戶端嘗試共用資料夾內容的視圖清單。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ienumexplorercommand"><strong>IEnumExplorerCommand</strong></a><br /> | 由 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommandprovider"><strong>IExplorerCommandProvider</strong></a>所提供。 此介面包含要放入命令列的命令列舉。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ienumextrasearch"><strong>IEnumExtraSearch</strong></a><br /> | 用戶端用來判斷資料夾之可用搜尋物件的標準 OLE 列舉值。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ienumfullidlist"><strong>IEnumFullIDList</strong></a><br /> | 公開一組標準的方法，這些方法會列舉 Shell 資料夾中專案 (Pidl) 專案識別碼清單的指標。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ienumidlist"><strong>IEnumIDList</strong></a><br /> | 公開一組標準的方法，這些方法可用來列舉 Shell 資料夾中專案的 Pidl。 當呼叫資料夾的 <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-enumobjects"><strong>IShellFolder：： EnumObjects</strong></a> 方法時，它會建立列舉物件，並將物件的 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ienumidlist"><strong>IEnumIDList</strong></a> 介面指標傳回給呼叫的應用程式。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ienumobjects"><strong>IEnumObjects</strong></a><br /> | 公開方法以列舉未知的物件。<br /> | 
+| <a href="/windows/desktop/api/Shappmgr/nn-shappmgr-ienumpublishedapps"><strong>IEnumPublishedApps</strong></a><br /> | 公開列舉已發佈應用程式以在主控台中新增/移除程式的方法。 公開此介面的物件是透過 <a href="/windows/desktop/api/Shappmgr/nf-shappmgr-iapppublisher-enumapps"><strong>IAppPublisher：： EnumApps</strong></a>要求。 <br /> | 
+| <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-ienumreadycallback"><strong>IEnumReadyCallback</strong></a><br /> | 公開方法，這種方法可讓您在列舉完成時，通知實施者。 此視圖會呼叫這個方法，告訴實施者可以透過 <a href="/windows/desktop/api/Shobjidl/nf-shobjidl-ienumerableview-createenumidlistfromcontents"><strong>IEnumerableView：： CreateEnumIDListFromContents</strong></a>抓取列舉。 回呼可讓實施者共用 views 列舉。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ienumresources"><strong>IEnumResources</strong></a><br /> | 公開資源列舉方法。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ienumshellitems"><strong>IEnumShellItems</strong></a><br /> | 公開 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem"><strong>IShellItem</strong></a> 介面的列舉。 這個介面通常是藉由呼叫 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ienumshellitems"><strong>IEnumShellItems</strong></a> 方法來取得。<br /> | 
+| <a href="/windows/desktop/api/Syncmgr/nn-syncmgr-ienumsyncmgrconflict"><strong>IEnumSyncMgrConflict</strong></a><br /> | 公開衝突列舉方法。<br /> | 
+| <a href="/windows/desktop/api/Syncmgr/nn-syncmgr-ienumsyncmgrevents"><strong>IEnumSyncMgrEvents</strong></a><br /> | 公開同步事件列舉方法。<br /> | 
+| <a href="/windows/desktop/api/Syncmgr/nn-syncmgr-ienumsyncmgrsyncitems"><strong>IEnumSyncMgrSyncItems</strong></a><br /> | 公開列舉處理常式所管理之同步處理專案物件的方法。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexecutecommand"><strong>IExecuteCommand</strong></a><br /> | 公開方法，以設定與命令動詞相關的指定狀態或參數，以及叫用該動詞命令的方法。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexecutecommandapplicationhostenvironment"><strong>IExecuteCommandApplicationHostEnvironment</strong></a><br /> | 提供單一方法，可讓應用程式判斷其主機是否為桌面或沉浸式模式。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexecutecommandhost"><strong>IExecuteCommandHost</strong></a><br /> | 提供方法，可讓以 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommand"><strong>IExplorerCommand</strong></a>為基礎的 Shell 動詞命令處理常式查詢叫用應用程式的主控制群組件的 UI 模式。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorerbrowser"><strong>IExplorerBrowser</strong></a><br /> | <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorerbrowser"><strong>IExplorerBrowser</strong></a> 是瀏覽器物件，可以導覽或可裝載資料物件的視圖。 它是功能完整的瀏覽器物件，它也支援自動移動記錄檔。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorerbrowserevents"><strong>IExplorerBrowserEvents</strong></a><br /> | 公開 Explorer 瀏覽器流覽和觀看建立事件的通知方法。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommand"><strong>IExplorerCommand</strong></a><br /> | 公開取得命令外觀、列舉子命令或叫用命令的方法。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommandprovider"><strong>IExplorerCommandProvider</strong></a><br /> | 公開方法來建立瀏覽器命令和命令列舉值。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommandstate"><strong>IExplorerCommandState</strong></a><br /> | 公開允許抓取命令狀態的單一方法。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorerpanevisibility"><strong>IExplorerPaneVisibility</strong></a><br /> | 用於<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder"><strong>IShellFolder</strong></a>的執行 Windows 檔案總管，以提供有關可見窗格的建議。 此外， <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorerbrowser"><strong>IExplorerBrowser</strong></a> 主控制項可以使用這個介面來提供有關窗格可見度的資訊。 主機應該使用<strong>SID_ExplorerPaneVisibility</strong>作為服務識別碼來執行<a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/cc678966(v=vs.85)"><strong>QueryService</strong></a> 。 主機必須在網站鏈中。 <br /> 從 Shell 資料夾抓取 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorerpanevisibility"><strong>IExplorerPaneVisibility</strong></a> 的執行。 然後，Shell 資料夾會從 view 中取出。 命名空間延伸可以選擇提供自訂視圖 (<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview"><strong>IShellView</strong></a>) ，而不是使用系統資料夾 view 物件 (DefView) 。 在這種情況下， <strong>IShellView</strong> 的執行必須包含 <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderview-getfolder"><strong>IFolderView：： GetFolder</strong></a> 的執行，以傳回 <strong>IExplorerPaneVisibility</strong> 物件。<br /> 命名空間延伸模組可以藉由實 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview"><strong>IShellView</strong></a> 本身來提供自訂視圖，而不是使用系統資料夾 view 物件 (DefView) 。 在此情況下， <strong>IShellView</strong> 的執行必須包含 <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderview-getfolder"><strong>IFolderView：： GetFolder</strong></a> 的實作為使用 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorerpanevisibility"><strong>IExplorerPaneVisibility</strong></a> 。<br /> | 
+| <a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-iextracticona"><strong>IExtractIcon</strong></a><br /> | 公開方法，以允許用戶端取得與資料夾中其中一個物件相關聯的圖示。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iextractimage"><strong>IExtractImage</strong></a><br /> | 公開從 Shell 資料夾要求縮圖影像的方法。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iextractimage2"><strong>IExtractImage2</strong></a><br /> | 擴充 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iextractimage"><strong>IExtractImage</strong></a>的功能。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifiledialog"><strong>IFileDialog</strong></a><br /> | 公開從 [一般檔案] 對話方塊初始化、顯示和取得結果的方法。<br /> | 
+| <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-ifiledialog2"><strong>IFileDialog2</strong></a><br /> | 藉由提供方法，讓呼叫端命名可在 [一般檔案] 對話方塊中流覽的特定、受限位置，以及指定要在 [<strong>取消</strong>] 按鈕上顯示為標籤的替代文字，來擴充<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifiledialog"><strong>IFileDialog</strong></a>介面。<br /> | 
+| <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-ifiledialogcontrolevents"><strong>IFileDialogControlEvents</strong></a><br /> | 公開方法，這些方法可讓應用程式收到事件的通知，這些事件與應用程式已新增至一般檔案對話方塊的控制項相關。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifiledialogcustomize"><strong>IFileDialogCustomize</strong></a><br /> | 公開可讓應用程式將控制項加入至一般檔案對話方塊的方法。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifiledialogevents"><strong>IFileDialogEvents</strong></a><br /> | 公開允許一般檔案對話方塊內的事件通知的方法。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifileisinuse"><strong>IFileIsInUse</strong></a><br /> | 公開可呼叫的方法，以取得或關閉另一個應用程式正在使用的檔案的資訊。 當應用程式嘗試存取檔案，並找到已在使用中的檔案時，可以使用這個介面的方法，在對話方塊中收集要呈現給使用者的資訊。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifileopendialog"><strong>IFileOpenDialog</strong></a><br /> | 藉由新增 [開啟] 對話方塊專屬的方法來擴充 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifiledialog"><strong>IFileDialog</strong></a> 介面。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifileoperation"><strong>IFileOperation</strong></a><br /> | 公開方法來複製、移動、重新命名、建立及刪除 Shell 專案以及提供進度和錯誤對話方塊的方法。 這個介面會取代 <a href="/windows/desktop/api/Shellapi/nf-shellapi-shfileoperationa"><strong>SHFileOperation</strong></a> 函式。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifileoperationprogresssink"><strong>IFileOperationProgressSink</strong></a><br /> | 公開方法，以提供 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifileoperation"><strong>IFileOperation</strong></a> 呼叫端所使用的豐富通知系統，來監視透過該介面所執行之作業的詳細資料。<br /> | 
+| <a href="/windows/desktop/api/Shobjidl_core/nn-shobjidl_core-ifilesavedialog"><strong>IFileSaveDialog</strong></a><br /> | 藉由新增 [儲存] 對話方塊專屬的方法來擴充 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifiledialog"><strong>IFileDialog</strong></a> 介面，其中包括支援要與檔案保存之元資料集合的支援。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifilesyncmergehandler"><strong>IFileSyncMergeHandler</strong></a><br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifilesystembinddata"><strong>IFileSystemBindData</strong></a><br /> | 公開儲存檔案系統資訊的方法，以優化對 <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-parsedisplayname"><strong>IShellFolder 的呼叫：:P arsedisplayname</strong></a>。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifilesystembinddata2"><strong>IFileSystemBindData2</strong></a><br /> | 擴充 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifilesystembinddata"><strong>IFileSystemBindData</strong></a>，它會儲存檔案系統資訊，以優化對 IShellFolder 的呼叫 <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-parsedisplayname"><strong>：:P arsedisplayname</strong></a>。 這個介面會將設定的功能，或取得檔案識別碼或連接類別識別碼 (CLSID) 。<br /> | 
+| <a href="/windows/desktop/shell/schema-library-iconreference"><strong>IFileViewer</strong></a><br /> | 公開方法，這些方法會指定介面，讓註冊的檔案檢視器必須顯示或列印檔案時，才會收到通知。<br /> | 
+| <a href="/windows/desktop/api/shlobj/nn-shlobj-ifileviewersite"><strong>IFileViewerSite</strong></a><br /> | 公開方法，以指定允許檔案檢視器抓取目前釘選視窗控制碼的介面，或設定新的固定視窗。 固定的視窗是目前檔案檢視器顯示檔案的視窗。 當使用者選取要查看的新檔案時，命令介面會指示檔案檢視器在釘選的視窗中顯示新檔案，而不是建立新的視窗。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifolderfilter"><strong>IFolderFilter</strong></a><br /> | 由用戶端公開，以指定如何透過伺服器應用程式篩選 Shell 資料夾的列舉。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifolderfiltersite"><strong>IFolderFilterSite</strong></a><br /> | 由主機匯出，以允許用戶端指定如何篩選 Shell 資料夾列舉。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifolderview"><strong>IFolderView</strong></a><br /> | 公開方法，以取得資料夾顯示選項的相關資訊、選取該資料夾中的指定專案，以及設定資料夾的視圖模式。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifolderview2"><strong>IFolderView2</strong></a><br /> | 公開方法，以取得資料夾顯示選項的相關資訊、選取該資料夾中的指定專案，以及設定資料夾的視圖模式。<br /> | 
+| <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-ifolderviewhost"><strong>IFolderViewHost</strong></a><br /> | 公開在視窗中裝載 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifolderview"><strong>IFolderView</strong></a> 物件的方法。<br /> | 
+| <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-ifolderviewoptions"><strong>IFolderViewOptions</strong></a><br /> | 公開方法，這些方法可讓您控制 Windows 7 和更新版本的視圖特有的資料夾檢視選項。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifolderviewsettings"><strong>IFolderViewSettings</strong></a><br /> | 公開取得資料夾檢視設定的方法。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iframeworkinputpane"><strong>IFrameworkInputPane</strong></a><br /> | 提供的方法可讓應用程式知道狀態變更和輸入窗格的位置。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iframeworkinputpanehandler"><strong>IFrameworkInputPaneHandler</strong></a><br /> | 可讓應用程式在顯示或隱藏 [螢幕小鍵盤] 或 [手寫面板]) 的輸入窗格 (時收到通知。 這可讓應用程式視窗調整其顯示，如此一來，輸入窗格就不會 (例如文字方塊) 的輸入區域。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ihandleractivationhost"><strong>IHandlerActivationHost</strong></a><br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ihandlerinfo"><strong>IHandlerInfo</strong></a><br /> | 提供方法，提供 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ihandleractivationhost"><strong>IHandlerActivationHost</strong></a> 介面方法的處理常式相關資訊。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ihomegroup"><strong>IHomeGroup</strong></a><br /> | 公開決定電腦的家用電腦成員資格狀態，並顯示共用嚮導的方法。<br /> | 
+| <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-ihweventhandler"><strong>IHWEventHandler</strong></a><br /> | 由自動播放呼叫以執行已註冊媒體類型的處理。<br /> | 
+| <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-ihweventhandler2"><strong>IHWEventHandler2</strong></a><br /> | 擴充 <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-ihweventhandler"><strong>IHWEventHandler</strong></a> 介面，以處理使用者帳戶控制 (UAC) 提高裝置處理常式的許可權。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iidentityname"><strong>IIdentityName</strong></a><br /> | 公開方法來比較兩個專案，看看它們是否相同。<br /> | 
+| <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-iimagerecompress"><strong>IImageRecompress</strong></a><br /> | 公開重新壓縮影像的方法。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iinitializecommand"><strong>IInitializeCommand</strong></a><br /> | 公開用來初始化物件的單一方法，該物件會使用應用程式指定的命令名稱及其註冊的屬性來執行 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommandstate"><strong>IExplorerCommandState</strong></a>、 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexecutecommand"><strong>IExecuteCommand</strong></a> 或 <a href="/windows/desktop/api/oleidl/nn-oleidl-idroptarget"><strong>IDropTarget</strong></a> 。<br /> | 
+| <a href="/windows/win32/api/shobjidl/nn-shobjidl-iinitializenetworkfolder"><strong>IInitializeNetworkFolder</strong></a><br /> | 公開初始化網路資料來源 CLSID_NetworkPlaces （如指定）的方法。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iinitializewithbindctx"><strong>IInitializeWithBindCtx</strong></a><br /> | 公開使用系結內容初始化處理常式的方法，例如屬性處理常式、縮圖處理常式或預覽處理常式。<br /> | 
+| <a href="/windows/desktop/api/Propsys/nn-propsys-iinitializewithfile"><strong>IInitializeWithFile</strong></a><br /> | 公開方法，以使用檔案路徑初始化處理常式，例如屬性處理常式、縮圖處理常式或預覽處理常式。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iinitializewithitem"><strong>IInitializeWithItem</strong></a><br /> | 使用 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem"><strong>IShellItem</strong></a>公開用來初始化處理常式的方法，例如屬性處理常式、縮圖處理常式或預覽處理常式。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iinitializewithpropertystore"><strong>IInitializeWithPropertyStore</strong></a><br /> | 公開以屬性存放區初始化處理常式的方法，例如屬性處理常式、縮圖處理常式或預覽處理常式。<br /> | 
+| <a href="/windows/desktop/api/Propsys/nn-propsys-iinitializewithstream"><strong>IInitializeWithStream</strong></a><br /> | 公開使用資料流程初始化處理常式的方法，例如屬性處理常式、縮圖處理常式或預覽處理常式。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iinitializewithwindow"><strong>IInitializeWithWindow</strong></a><br /> | 公開一種方法，用戶端可以透過此方法將擁有者視窗提供給桌面應用程式中所使用的 Windows 執行階段物件。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iinputobject"><strong>IInputObject</strong></a><br /> | 公開方法，以變更 Shell 中所含使用者輸入物件的 UI 啟用和流程加速器。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iinputobject2"><strong>IInputObject2</strong></a><br /> | 公開透過處理全域快速鍵來擴充 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iinputobject"><strong>IInputObject</strong></a> 的方法。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iinputobjectsite"><strong>IInputObjectSite</strong></a><br /> | 公開方法，這個方法用來針對 Shell 中包含的使用者輸入物件傳達焦點變更。<br /> | 
+| <a href="/windows/desktop/api/inputpanelconfiguration/nn-inputpanelconfiguration-iinputpanelconfiguration"><strong>IInputPanelConfiguration</strong></a><br /> | 提供適用于桌面應用程式的功能，以加入宣告 Windows Store 應用程式中使用的焦點追蹤機制。<br /> | 
+| <a href="/windows/desktop/api/inputpanelconfiguration/nn-inputpanelconfiguration-iinputpanelinvocationconfiguration"><strong>IInputPanelInvocationConfiguration</strong></a><br /> | 可讓 Windows Store 應用程式退出宣告自動調用行為。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iiocancelinformation"><strong>IIOCancelInformation</strong></a><br /> | 公開從進度對話方塊將取消視窗訊息張貼至進程執行緒的方法。 <br /> 此介面可讓進度對話方塊透過 <a href="/windows/desktop/api/winuser/nf-winuser-postthreadmessagea"><strong>PostThreadMessage</strong></a> 將執行緒訊息張貼至背景工作執行緒，以取消其作業。 背景工作執行緒必須透過 <a href="/windows/desktop/api/winuser/nf-winuser-getmessage"><strong>GetMessage</strong></a>、 <a href="/windows/desktop/api/winuser/nf-winuser-peekmessagea"><strong>PeekMessage</strong></a> 或 <a href="/windows/desktop/api/winuser/nf-winuser-msgwaitformultipleobjectsex"><strong>MsgWaitForMultipleObjectsEx</strong></a>定期檢查訊息佇列。<br /> <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iiocancelinformation-setcancelinformation"><strong>IIOCancelInformation：： SetCancelInformation</strong></a>方法會告知進度對話方塊，在使用者按一下 [<strong>取消</strong>] 時，執行緒識別碼和要<a href="/windows/desktop/api/winuser/nf-winuser-postthreadmessagea"><strong>PostThreadMessage</strong></a>的訊息。 執行緒識別碼 "zero" 會停用取消訊息的傳送作業。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iitemnamelimits"><strong>IItemNameLimits</strong></a><br /> | 抓取命名空間中有效和不正確字元清單，或名稱的最大長度。 使用這個介面進行驗證剖析和轉譯。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iknownfolder"><strong>IKnownFolder</strong></a><br /> | 公開方法，讓應用程式取得已知資料夾的類別、類型、GUID、PIDL 值、重新導向功能和定義的相關資訊。 它提供擷取已知資料夾 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem"><strong>IShellItem</strong></a> 物件的方法。 它也提供方法來取得或設定已知資料夾的路徑。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iknownfoldermanager"><strong>IKnownFolderManager</strong></a><br /> | 公開方法，以建立、列舉或管理現有的已知資料夾。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ilaunchsourceappusermodelid"><strong>ILaunchSourceAppUserModelId</strong></a><br /> | 提供用來取得 <a href="appids.md">AppUserModelId</a>的方法。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ilaunchsourceviewsizepreference"><strong>ILaunchSourceViewSizePreference</strong></a><br /> | 提供用來取得來源應用程式相關資訊的方法。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ilaunchtargetmonitor"><strong>ILaunchTargetMonitor</strong></a><br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ilaunchtargetviewsizepreference"><strong>ILaunchTargetViewSizePreference</strong></a><br /> | 提供方法來為新的應用程式視窗抓取慣用的視圖大小。<br /> | 
+| <a href="/windows/desktop/shell/shell-extensibility-bumper"><strong>IMarkupCallback</strong></a><br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-imenupopup"><strong>IMenuPopup</strong></a><br /> | <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-imenupopup"><strong>IMenuPopup</strong></a> 可能已變更或無法使用。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-imodalwindow"><strong>IModalWindow</strong></a><br /> | 公開表示強制回應視窗的方法。 Windows XP Passport Wizard 中使用此介面。<br /> | 
+| <a href="imultimonitordockingsite.md"><strong>IMultiMonitorDockingSite</strong></a><br /> | 由瀏覽器所執行。 公開方法，以管理哪些監視包含多個監視器系統上 Windows 的工作列。 <br /> | 
+| <a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-inamedpropertybag"><strong>INamedPropertyBag</strong></a><br /> | 公開方法，這些方法會提供具有指定屬性包的物件，而物件可以在其中儲存其屬性。<br /> | 
+| <a href="/windows/desktop/api/Propsys/nn-propsys-inamedpropertystore"><strong>INamedPropertyStore</strong></a><br /> | 公開取得和設定命名屬性的方法。<br /> | 
+| <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-inamespacetreeaccessible"><strong>INameSpaceTreeAccessible</strong></a><br /> | 公開方法，以從命名空間樹狀目錄控制項執行 Shell 專案的協助工具動作。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacetreecontrol"><strong>INameSpaceTreeControl</strong></a><br /> | 公開用來在 Shell 專案樹狀結構中，用來查看和操作節點的方法。<br /> | 
+| <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-inamespacetreecontrol2"><strong>INameSpaceTreeControl2</strong></a><br /> | 藉由提供取得和設定 treeview 控制項顯示樣式的方法來擴充 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacetreecontrol"><strong>INameSpaceTreeControl</strong></a> 介面，以搭配 Shell 命名空間專案使用。<br /> | 
+| <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-inamespacetreecontrolcustomdraw"><strong>INameSpaceTreeControlCustomDraw</strong></a><br /> | 公開方法，讓使用者能夠繪製自訂命名空間樹狀結構控制項和其專案。<br /> | 
+| <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-inamespacetreecontroldrophandler"><strong>INameSpaceTreeControlDropHandler</strong></a><br /> | 公開拖放的處理常式方法。 由命名空間樹狀目錄控制項用來通知用戶端在控制項中發生的任何拖放作業。 提供一種方式，讓用戶端攔截卸載作業並執行自己的動作，或傳回所需的卸載效果。<br /> | 
+| <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-inamespacetreecontrolevents"><strong>INameSpaceTreeControlEvents</strong></a><br /> | 公開處理 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacetreecontrol"><strong>INameSpaceTreeControl</strong></a> 事件的方法。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacetreecontrolfoldercapabilities"><strong>INameSpaceTreeControlFolderCapabilities</strong></a><br /> | 公開單一方法，以抓取資料夾系統的狀態 <a href="/windows/desktop/properties/props-system-ispinnedtonamespacetree">。 IsPinnedToNameSpaceTree</a> 篩選支援。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacewalk"><strong>INamespaceWalk</strong></a><br /> | 公開方法，以從指定的根節點引導命名空間。 系統會指定此逐步解說的深度，並傳回包含所有已行走節點之識別碼的選擇性陣列。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacewalkcb"><strong>INamespaceWalkCB</strong></a><br /> | 回呼介面，此介面會公開與 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacewalk"><strong>INamespaceWalk</strong></a>搭配使用的方法。 使用 <strong>INamespaceWalk</strong>執行「逐步解說」之後，代表已執行之節點的 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder"><strong>IShellFolder</strong></a> 物件會傳遞至 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacewalkcb"><strong>INamespaceWalkCB</strong></a> 方法。 這些方法對資訊有何用途取決於正在執行的物件。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacewalkcb2"><strong>INamespaceWalkCB2</strong></a><br /> | 使用需要的方法來擴充 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacewalkcb"><strong>INamespaceWalkCB</strong></a> ，才能完成命名空間的逐步解說。 這個方法會移除在此逐步解說中所收集的資料。 <br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inewmenuclient"><strong>INewMenuClient</strong></a><br /> | 公開允許操作 Windows 7 功能表中專案的方法。<br /> | 
+| <a href="/windows/desktop/api/shlobj/nn-shlobj-inewshortcuthooka"><strong>INewShortcutHook</strong></a><br /> | 公開方法以建立新的網際網路快捷方式。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inewwindowmanager"><strong>INewWindowManager</strong></a><br /> | 公開方法，這個方法會判斷是否應顯示或封鎖由另一個視窗啟動的視窗，以允許控制項快顯視窗。<br /> | 
+| <a href="/windows/desktop/api/reconcil/nn-reconcil-inotifyreplica"><strong>INotifyReplica</strong></a><br /> | 公開方法，該方法會提供物件的建立者，其方法為通知物件可能會受到後續的對帳。 公事包調整器負責執行這個介面。<br /> | 
+| <a href="/windows/desktop/api/Objectarray/nn-objectarray-iobjectarray"><strong>IObjectArray</strong></a><br /> | 公開方法，這些方法可讓用戶端存取支援 <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown"><strong>IUnknown</strong></a>的物件集合中的專案。<br /> | 
+| <a href="/windows/desktop/api/objectarray/nn-objectarray-iobjectcollection"><strong>IObjectCollection</strong></a><br /> | 藉由提供可讓用戶端加入和移除集合中支援<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown"><strong>IUnknown</strong></a>之物件的方法，來擴充<a href="/windows/desktop/api/Objectarray/nn-objectarray-iobjectarray"><strong>IObjectArray</strong></a>介面。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iobjectprovider"><strong>IObjectProvider</strong></a><br /> | 公開方法，以探索以另一個物件的 <strong>GUID</strong> 命名的物件。 不同于 <a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/cc678966(v=vs.85)"><strong>QueryService</strong></a> ，此介面不會將其功能委派給其他物件。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iobjectwithappusermodelid"><strong>IObjectWithAppUserModelID</strong></a><br /> | 公開方法，以允許自訂 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iassochandler"><strong>IAssocHandler</strong></a> 物件的實作者提供其明確應用程式使用者模型識別碼的存取 (AppUserModelID) 。 這項資訊是用來判斷特定檔案類型是否可以加入至應用程式的捷徑清單。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iobjectwithbackreferences"><strong>IObjectWithBackReferences</strong></a><br /> | 提供與物件所持有之反向參考互動的方法。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iobjectwithcancelevent"><strong>IObjectWithCancelEvent</strong></a><br /> | 提供具有事件的呼叫端，該事件將由被呼叫的物件發出信號以表示取消工作。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iobjectwithfolderenummode"><strong>IObjectWithFolderEnumMode</strong></a><br /> | 公開方法，以取得和設定剖析專案的列舉模式。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iobjectwithprogid"><strong>IObjectWithProgID</strong></a><br /> | 公開方法，以提供與物件相關聯之 ProgID 的存取權。<br /> | 
+| <a href="/windows/desktop/api/Propsys/nn-propsys-iobjectwithpropertykey"><strong>IObjectWithPropertyKey</strong></a><br /> | 公開取得和設定屬性索引鍵的方法。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iobjectwithselection"><strong>IObjectWithSelection</strong></a><br /> | 公開方法，以取得或設定由 Shell 專案陣列所表示的選取專案。<br /> | 
+| <a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-iobjmgr"><strong>IObjMgr</strong></a><br /> | 公開方法，以允許用戶端從伺服器物件所管理的物件集合中附加或移除物件。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iopencontrolpanel"><strong>IOpenControlPanel</strong></a><br /> | 公開方法，以取得主控台的檢視狀態、個別主控台專案的路徑，以及開啟主控台本身或個別的主控台專案。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iopensearchsource"><strong>IOpenSearchSource</strong></a><br /> | 公開方法，從自訂用戶端 OpenSearch 資料來源取得搜尋結果。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ioperationsprogressdialog"><strong>IOperationsProgressDialog</strong></a><br /> | 公開方法以取得、設定和查詢進度對話方塊。<br /> | 
+| <a href="/windows/desktop/api/Shobjidl_core/nn-shobjidl_core-ipackagedebugsettings"><strong>IPackageDebugSettings</strong></a><br /> | 可讓偵錯工具開發人員控制 Windows 存放區應用程式的生命週期，例如暫停或繼續。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipackageexecutionstatechangenotification"><strong>IPackageExecutionStateChangeNotification</strong></a><br /> | 在 Windows 存放區應用程式偵錯工具期間啟用接收封裝狀態變更通知。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iparentanditem"><strong>IParentAndItem</strong></a><br /> | 公開取得和設定父系和父系之子系識別碼的方法。 雖然 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iparentanditem"><strong>IParentAndItem</strong></a> 通常是在 IShellItems 上執行，但它並不是特定的 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem"><strong>IShellItem</strong></a>。 <br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iparseandcreateitem"><strong>IParseAndCreateItem</strong></a><br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipersistfolder"><strong>IPersistFolder</strong></a><br /> | 公開初始化 Shell 資料夾物件的方法。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipersistfolder2"><strong>IPersistFolder2</strong></a><br /> | 公開從 Shell 資料夾物件取得資訊的方法。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipersistfolder3"><strong>IPersistFolder3</strong></a><br /> | 藉由允許資料夾物件執行資料夾快捷方式的非預設處理，擴充 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipersistfolder"><strong>IPersistFolder</strong></a> 和 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipersistfolder2"><strong>IPersistFolder2</strong></a> 介面。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipersistidlist"><strong>IPersistIDList</strong></a><br /> | 公開用來保存專案識別碼清單的方法。<br /> | 
+| <a href="/windows/desktop/api/Propsys/nn-propsys-ipersistserializedpropstorage"><strong>IPersistSerializedPropStorage</strong></a><br /> | 公開方法以保存序列化屬性儲存體資料以供稍後使用，以及將保存的資料還原至新的屬性存放區實例。<br /> | 
+| <a href="/windows/desktop/api/Propsys/nn-propsys-ipersistserializedpropstorage2"><strong>IPersistSerializedPropStorage2</strong></a><br /> | 公開方法以保存序列化屬性儲存體資料以供稍後使用，以及將保存的資料還原至新的屬性存放區實例。<br /> | 
+| <a href="/previous-versions/windows/desktop/legacy/hh707033(v=vs.85)"><strong>IPlaybackManager</strong></a><br /> | 提供可讓媒體應用程式與 Windows 播放管理員進行通訊的方法。<br /> | 
+| <a href="/previous-versions/windows/desktop/legacy/hh707034(v=vs.85)"><strong>IPlaybackManagerEvents</strong></a><br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipreviewhandler"><strong>IPreviewHandler</strong></a><br /> | 公開顯示豐富預覽的方法。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipreviewhandlerframe"><strong>IPreviewHandlerFrame</strong></a><br /> | 啟用預覽處理常式，以將鍵盤快速鍵傳遞給主機。 這個介面會抓取鍵盤快速鍵的清單，並引導主機處理鍵盤快速鍵。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipreviewhandlervisuals"><strong>IPreviewHandlerVisuals</strong></a><br /> | 公開將色彩和字型資訊套用至預覽處理常式的方法。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipreviewitem"><strong>IPreviewItem</strong></a><br /> | 識別將在預覽窗格中顯示的專案。<br /> | 
+| <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-ipreviousversionsinfo"><strong>IPreviousVersionsInfo</strong></a><br /> | 公開一種方法，該方法會檢查先前版本的伺服器檔案或資料夾，這些檔案或資料夾是由 Windows server 2003 提供的<em>陰影複製</em>技術所儲存的回復。<br /> | 
+| <a href="iprivateidentitymanager.md"><strong>IPrivateIdentityManager</strong></a><br /> | 
+| <a href="iprivateidentitymanager2.md"><strong>IPrivateIdentityManager2</strong></a><br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iprofferservice"><strong>IProfferService</strong></a><br /> | 公開物件的一般機制，以提供服務給相同主機上的其他物件。<br /> | 
+| <a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-iprogressdialog"><strong>IProgressDialog</strong></a><br /> | 公開提供應用程式選項以顯示進度對話方塊的方法。 此介面是由進度對話方塊物件所匯出 (CLSID_ProgressDialog) 。 此物件是向使用者顯示操作進度的一般方式。 在刪除、上傳、複製、移動或下載大量檔案時，通常會使用此值。<br /> | 
+| <a href="/windows/desktop/api/Shappmgr/nn-shappmgr-ipublishedapp"><strong>IPublishedApp</strong></a><br /> | 公開方法，這些方法代表在主控台中新增/移除程式的應用程式。 <br /> | 
+| <a href="/windows/desktop/api/Shappmgr/nn-shappmgr-ipublishedapp2"><strong>IPublishedApp2</strong></a><br /> | 藉由提供額外的安裝方法來擴充 <a href="/windows/desktop/api/Shappmgr/nn-shappmgr-ipublishedapp"><strong>IPublishedApp</strong></a> 介面。<br /> | 
+| <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-ipublishingwizard"><strong>IPublishingWizard</strong></a><br /> | 公開使用線上列印嚮導、Web 發佈嚮導和「新增網路位置嚮導」的方法。 在 Windows Vista 中， <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-ipublishingwizard"><strong>IPublishingWizard</strong></a>不再支援 Web 發佈嚮導或線上列印嚮導。<br /> | 
+| <a href="/windows/desktop/api/shlwapi/nn-shlwapi-iqueryassociations"><strong>IQueryAssociations</strong></a><br /> | 公開方法，以簡化與定義檔案類型或通訊協定並將其與應用程式產生關聯之登錄中儲存的資訊的處理常式。<br /> | 
+| <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-iquerycancelautoplay"><strong>IQueryCancelAutoPlay</strong></a><br /> | 公開以程式設計方式覆寫 <a href="autorun2k-intro.md">自動播放</a> 或 <a href="autoplay.md">自動</a>播放的方法。 這可讓您自訂插入媒體時所啟動的位置和內容類型。<br /> | 
+| <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-iquerycodepage"><strong>IQueryCodePage</strong></a><br /> | 取得和設定 ANSI 字碼頁 (字碼頁識別碼) 的數值。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iquerycontinue"><strong>IQueryContinue</strong></a><br /> | 公開方法，這個方法會為物件提供簡單的標準機制，以查詢用戶端以取得繼續作業的許可權。 例如， <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iusernotification"><strong>IUserNotification</strong></a>的用戶端必須將 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iquerycontinue"><strong>IQueryContinue</strong></a> 的執行傳遞至 <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iusernotification-show"><strong>IUserNotification：： Show</strong></a> 方法。<br /> | 
+| <a href="/windows/desktop/api/Credentialprovider/nn-credentialprovider-iquerycontinuewithstatus"><strong>IQueryContinueWithStatus</strong></a><br /> | 公開方法，這些方法會提供標準機制，讓認證提供者在嘗試連接到網路時呼叫 <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iquerycontinue-querycontinue"><strong>QueryContinue</strong></a> ，以判斷是否應該繼續進行這些嘗試。 認證提供者也可以使用此介面，在嘗試建立網路連線時向使用者顯示訊息。<br /> | 
+| <a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-iqueryinfo"><strong>IQueryInfo</strong></a><br /> | 公開方法，以供 Shell 用來取得位於 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder"><strong>IShellFolder</strong></a> 執行中之專案的旗標和資訊提示資訊。 資訊提示通常會顯示在 <a href="/windows/desktop/Controls/tooltip-controls">工具提示</a> 控制項內。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-irelateditem"><strong>IRelatedItem</strong></a><br /> | 公開衍生具有特定關聯性之相關專案的方法。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iremotecomputer"><strong>IRemoteComputer</strong></a><br /> | 公開方法，該方法會在遠端物件上叫用時，列舉或初始化命名空間延伸模組。 例如，會使用此介面來初始化遠端印表機虛擬資料夾。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iresolveshelllink"><strong>IResolveShellLink</strong></a><br /> | 公開方法，這個方法可讓應用程式要求 Shell 資料夾物件解析其其中一個專案的連結。<br /> | 
+| <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-iresultsfolder"><strong>IResultsFolder</strong></a><br /> | 公開保存資料物件中專案的方法。<br /> <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-iresultsfolder"><strong>IResultsFolder</strong></a>是一個資料夾，可保存所有命名空間的專案，並將其代表單一資料夾中的使用者。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-irunnabletask"><strong>IRunnableTask</strong></a><br /> | 可由物件公開的自由執行緒介面，可讓您在背景執行緒上執行作業。 例如，如果 <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iextractimage-getlocation"><strong>IExtractImage：： GetLocation</strong></a> 方法傳回 E_PENDING，則會允許呼叫的應用程式在背景執行緒上解壓縮影像。<br /> | 
+| <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-isearchboxinfo"><strong>ISearchBoxInfo</strong></a><br /> | 公開方法，可讓呼叫者取出輸入至搜尋方塊中的資訊。<br /> | 
+| <a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-isearchcontext"><strong>ISearchCoNtext</strong></a><br /> | 公開將自訂資訊通道至搜尋攔截的方法。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-isearchfolderitemfactory"><strong>ISearchFolderItemFactory</strong></a><br /> | 公開建立和修改搜尋資料夾的方法。 系統會先呼叫 Set 方法，以設定搜尋的參數。 若未呼叫，則會改用預設值。 <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-isearchfolderitemfactory-getidlist"><strong>ISearchFolderItemFactory：： GetIDList</strong></a> 和 <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-isearchfolderitemfactory-getshellitem"><strong>ISearchFolderItemFactory：： GetShellItem</strong></a> 會傳回這些參數所指定的兩個搜尋形式。 <br /> | 
+| <a href="/windows/desktop/api/Thumbcache/nn-thumbcache-isharedbitmap"><strong>ISharedBitmap</strong></a><br /> | 公開記憶體有效率的方法來存取點陣圖。 此介面是用來做為 HBITMAP 物件周圍的精簡型包裝函式，可讓這些物件的參考計數和保護，使其基礎資料變更。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-isharingconfigurationmanager"><strong>ISharingConfigurationManager</strong></a><br /> | 公開方法，以針對 <strong>使用者</strong> (<code>C:\Users</code>) 或 <strong>公用</strong> () 資料夾，設定和抓取電腦預設共用設定的相關資訊 <code>C:\Users\Public</code> 。 也會公開一組允許控制印表機共用的方法。<br /> | 
+| <a href="/windows/desktop/api/Shappmgr/nn-shappmgr-ishellapp"><strong>IShellApp</strong></a><br /> | 公開方法，以將應用程式的一般資訊提供給「新增/移除程式」應用程式。 您無法在 [新增/移除程式] 應用程式之外使用它。 此介面所提供的資訊包括支援的管理動作清單，以及應用程式目前是否已安裝。 <br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellbrowser"><strong>IShellBrowser</strong></a><br /> | 由 Shell 視圖的主機所執行， (可執行 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview"><strong>IShellView</strong></a>) 的物件。 公開方法，這些方法會為其所裝載的視圖提供服務，以及在 Explorer 視窗的內容中執行的其他物件。 <br /> | 
+| <a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-ishellchangenotify"><strong>IShellChangeNotify</strong></a><br /> | 公開方法，這個方法會在專案的識別碼變更時通知 Shell 命名空間延伸。<br /> | 
+| <a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-ishelldetails"><strong>IShellDetails</strong></a><br /> | 由 Shell 資料夾公開，以提供資料夾中專案的詳細資訊。 當資料夾的視圖設定為 [詳細資料] 時，Windows 檔案總管所顯示的相同資訊。 針對 Windows 2000 和更新版本的系統， <a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-ishelldetails"><strong>IShellDetails</strong></a>會被<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder2"><strong>IShellFolder2</strong></a>取代。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellextinit"><strong>IShellExtInit</strong></a><br /> | 公開方法，這個方法會初始化屬性工作表、快捷方式功能表和拖放處理常式的 Shell 延伸模組， (在非預設拖放作業期間將專案新增至快捷方式功能表的延伸模組) 。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder"><strong>IShellFolder</strong></a><br /> | 由所有 Shell 命名空間資料夾物件公開，其方法是用來管理資料夾。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder2"><strong>IShellFolder2</strong></a><br /> | 擴充 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder"><strong>IShellFolder</strong></a>的功能。 其方法提供 Shell 資料夾內容的各種相關資訊。<br /> | 
+| <a href="ishellfoldersearchable.md"><strong>IShellFolderSearchable</strong></a><br /> | 公開允許 Shell 延伸模組提供可搜尋的命名空間的方法。<br /> | 
+| <a href="ishellfoldersearchablecallback.md"><strong>IShellFolderSearchableCallback</strong></a><br /> | 公開回呼常式來監視搜尋處理常式。<br /> | 
+| <a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-ishellfolderviewcb"><strong>IShellFolderViewCB</strong></a><br /> | 公開一種方法，這個方法可讓 Windows 檔案總管和使用系統資料夾 view 物件所執行的資料夾檢視， (透過) <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shcreateshellfolderview"><strong>SHCreateShellFolderView</strong></a>所傳回的<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview"><strong>IShellView</strong></a>物件，讓資料夾檢視可以收到事件的通知，並據以修改其觀點。<br /> | 
+| <a href="/windows/desktop/api/Shldisp/nn-shldisp-ishellfolderviewdual"><strong>IShellFolderViewDual</strong></a><br /> | 公開修改視圖並選取目前資料夾中專案的方法。 <br /> | 
+| <a href="/windows/desktop/api/Shldisp/nn-shldisp-ishellfolderviewdual2"><strong>IShellFolderViewDual2</strong></a><br /> | 公開修改視圖並選取目前資料夾中專案的方法。<br /> | 
+| <a href="/windows/desktop/api/Shldisp/nn-shldisp-ishellfolderviewdual3"><strong>IShellFolderViewDual3</strong></a><br /> | 公開修改目前資料夾檢視的方法。<br /> | 
+| <a href="ishellfolderviewtype.md"><strong>IShellFolderViewType</strong></a><br /> | 公開方法，讓 Shell 資料夾可在其內容上支援不同的視圖， (其資料) 的不同階層式版面配置。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellicon"><strong>IShellIcon</strong></a><br /> | 公開方法，以取得 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder"><strong>IShellFolder</strong></a> 物件的圖示索引。 <br /> | 
+| <a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-ishelliconoverlay"><strong>IShellIconOverlay</strong></a><br /> | 公開命名空間延伸模組所使用的方法，以指定其包含之物件的圖示重迭。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelliconoverlayidentifier"><strong>IShellIconOverlayIdentifier</strong></a><br /> | 公開處理圖示重迭處理常式和 Shell 之間所有通訊的方法。<br /> | 
+| <a href="/windows/desktop/api/Shimgdata/nn-shimgdata-ishellimagedataabort"><strong>IShellImageDataAbort</strong></a><br /> | 公開用來中止 <a href="/windows/desktop/api/Shimgdata/nn-shimgdata-ishellimagedata"><strong>IShellImageData</strong></a> 進程的單一方法。<br /> | 
+| <a href="/windows/desktop/api/Shimgdata/nn-shimgdata-ishellimagedatafactory"><strong>IShellImageDataFactory</strong></a><br /> | 公開方法，以根據各種影像來源來建立 <a href="/windows/desktop/api/Shimgdata/nn-shimgdata-ishellimagedata"><strong>IShellImageData</strong></a> 實例。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem"><strong>IShellItem</strong></a><br /> | 公開取得 Shell 專案相關資訊的方法。 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem"><strong>IShellItem</strong></a> 和 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem2"><strong>IShellItem2</strong></a> 是任何新程式碼中專案的慣用標記法。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem2"><strong>IShellItem2</strong></a><br /> | 使用可取得專案之各種屬性值的方法來擴充 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem"><strong>IShellItem</strong></a> 。 <strong>IShellItem</strong> 和 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem2"><strong>IShellItem2</strong></a> 是任何新程式碼中專案的慣用標記法。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitemarray"><strong>IShellItemArray</strong></a><br /> | 公開建立和操作 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem"><strong>Shell 專案</strong></a> 陣列的方法。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitemfilter"><strong>IShellItemFilter</strong></a><br /> | 由用戶端公開，以指定如何透過伺服器應用程式篩選 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem"><strong>Shell 專案</strong></a> 的列舉。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitemimagefactory"><strong>IShellItemImageFactory</strong></a><br /> | 公開方法，以傳回 Shell 專案的圖示或縮圖。 如果要求的專案沒有可用的縮圖或圖示，則可以從 Shell 提供個別類別的圖示。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitemresources"><strong>IShellItemResources</strong></a><br /> | 公開操作和查詢 Shell 專案資源的方法。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllibrary"><strong>IShellLibrary</strong></a><br /> | 公開用來建立和管理程式庫的方法。<br /> | 
+| <a href="/windows/desktop/api/Shobjidl_core/nn-shobjidl_core-ishelllinka"><strong>IShellLink</strong></a><br /> | 公開建立、修改和解析 Shell 連結的方法。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinkdatalist"><strong>IShellLinkDataList</strong></a><br /> | 公開可讓應用程式將額外的資料區塊附加至 <a href="/windows/desktop/shell/links">Shell 連結</a>的方法。 這些方法會新增、複製或移除資料區塊。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellmenu"><strong>IShellMenu</strong></a><br /> | 公開與 Shell 功能表互動的方法，例如 [ <strong>開始</strong> ] 功能表和 [我的最愛 <strong>]</strong> 功能表。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellmenucallback"><strong>IShellMenuCallback</strong></a><br /> | 回呼介面，這個介面會公開從功能表區中接收訊息的方法。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellpropsheetext"><strong>IShellPropSheetExt</strong></a><br /> | 公開方法，這些方法可讓屬性工作表處理常式新增或取代針對檔案物件所顯示之屬性工作表中的頁面。<br /> | 
+| <a href="/windows/desktop/api/shobjidl/nn-shobjidl-ishellrundll"><strong>IShellRunDll</strong></a><br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview"><strong>IShellView</strong></a><br /> | 公開在 Windows 檔案總管或資料夾視窗中顯示視圖的方法。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview2"><strong>IShellView2</strong></a><br /> | 擴充 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview"><strong>IShellView</strong></a>的功能。<br /> | 
+| <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-ishellview3"><strong>IShellView3</strong></a><br /> | 藉由提供取代<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellview2-createviewwindow2"><strong>IShellView2：： CreateViewWindow2</strong></a>的方法，擴充<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview2"><strong>IShellView2</strong></a>的功能。<br /> | 
+| <a href="/windows/desktop/api/Exdisp/nn-exdisp-ishellwindows"><strong>IShellWindows</strong></a><br /> | 提供開啟 Shell 視窗集合的存取權。<br /> | 
+| <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-istartmenupinnedlist"><strong>IStartMenuPinnedList</strong></a><br /> | 公開從 [ <strong>開始</strong> ] 功能表或工作列取消固定應用程式快捷方式的方法。<br /> | 
+| <a href="nn-shobjidl-istorageprovidercopyhook.md"><strong>IStorageProviderCopyHook</strong></a><br /> | 公開方法，這個方法會判斷是否允許 Shell 移動、複製、刪除或重新命名雲端提供者的同步根中的資料夾。<br /> | 
+| <a href="/windows/desktop/api/storageprovider/nn-storageprovider-istorageproviderhandler"><strong>IStorageProviderHandler</strong></a><br /> | 捕獲與特定檔案或資料夾相關聯的 <a href="/windows/desktop/api/storageprovider/nn-storageprovider-istorageproviderpropertyhandler"><strong>IStorageProviderPropertyHandler</strong></a> 。<br /> | 
+| <a href="/windows/desktop/api/storageprovider/nn-storageprovider-istorageproviderpropertyhandler"><strong>IStorageProviderPropertyHandler</strong></a><br /> | 提供與檔案或資料夾相關聯的屬性集合。<br /> | 
+| <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-istreamasync"><strong>IStreamAsync</strong></a><br /> | 公開方法，以管理非同步資料流程) 的輸入/輸出 (i/o。 <br /> | 
+| <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-istreamunbufferedinfo"><strong>IStreamUnbufferedInfo</strong></a><br /> | 公開方法，以將磁區大小判斷為位元組對齊的輔助。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-isuspensiondependencymanager"><strong>ISuspensionDependencyManager</strong></a><br /> | 
+| <a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrconflict"><strong>ISyncMgrConflict</strong></a><br /> | 公開方法，以提供從衝突存放區抓取之衝突的相關資訊，並允許解決衝突。<br /> | 
+| <a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrconflictfolder"><strong>ISyncMgrConflictFolder</strong></a><br /> | 公開方法，以取得衝突物件的衝突 ID 清單。<br /> | 
+| <a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrconflictitems"><strong>ISyncMgrConflictItems</strong></a><br /> | 公開取得衝突專案資料和專案計數的方法。<br /> | 
+| <a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrconflictpresenter"><strong>ISyncMgrConflictPresenter</strong></a><br /> | 公開向使用者呈現衝突的方法。<br /> | 
+| <a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrconflictresolutionitems"><strong>ISyncMgrConflictResolutionItems</strong></a><br /> | 公開取得專案資訊和專案計數的方法。<br /> | 
+| <a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrconflictresolveinfo"><strong>ISyncMgrConflictResolveInfo</strong></a><br /> | 公開取得和設定同步管理員衝突解決相關資訊的方法。<br /> | 
+| <a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrconflictstore"><strong>ISyncMgrConflictStore</strong></a><br /> | 公開方法，讓處理常式能夠提供出現在衝突資料夾中的衝突。<br /> | 
+| <a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrcontrol"><strong>ISyncMgrControl</strong></a><br /> | 公開方法，以允許應用程式或處理常式啟動或停止同步處理、通知同步中心一組處理常式或專案的變更，或通知屬性值的變更。<br /> | 
+| <a href="/windows/desktop/api/mobsync/nn-mobsync-isyncmgrenumitems"><strong>ISyncMgrEnumItems</strong></a><br /> | 公開列舉 <a href="/windows/win32/api/mobsync/ns-mobsync-syncmgritem"><strong>SYNCMGRITEM</strong></a> 結構陣列的方法。 上述每一個結構都會提供可同步處理之專案的相關資訊。 <a href="/windows/desktop/api/mobsync/nn-mobsync-isyncmgrenumitems"><strong>ISyncMgrEnumItems</strong></a> 具有與所有標準列舉值介面相同的方法：下一步、略過、重設和複製。<br /> | 
+| <a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrevent"><strong>ISyncMgrEvent</strong></a><br /> | 公開從事件存放區取出資料的方法。 事件存放區可讓同步中心取得存放區中所有事件的列舉值，以及取得個別事件。<br /> | 
+| <a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgreventlinkuioperation"><strong>ISyncMgrEventLinkUIOperation</strong></a><br /> | 提供當按一下 [同步結果] 資料夾中的事件連結時，所呼叫的方法。<br /> | 
+| <a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgreventstore"><strong>ISyncMgrEventStore</strong></a><br /> | 公開的方法可讓處理常式提供自己的事件存放區，並管理它自己的同步事件，而不是使用預設的同步中心事件存放區。 這些事件會顯示在 [同步處理結果] 資料夾中。<br /> | 
+| <a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrhandler"><strong>ISyncMgrHandler</strong></a><br /> | 公開組成同步處理處理常式所執行之主要介面的方法。 同步中心透過這個介面建立一個處理常式的實例，以取得屬性、列舉同步專案，以及修改狀態。 同步中心會在個別的執行緒上建立個別處理常式的實例，以執行同步處理或 UI 操作。<br /> | 
+| <a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrhandlercollection"><strong>ISyncMgrHandlerCollection</strong></a><br /> | 公開提供同步處理處理常式識別碼列舉值的方法，並將這些同步處理處理常式具現化。<br /> | 
+| <a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrhandlerinfo"><strong>ISyncMgrHandlerInfo</strong></a><br /> | 公開可讓處理常式將屬性和狀態資訊提供給同步中心的方法。<br /> | 
+| <a href="/windows/desktop/api/Mobsync/nn-mobsync-isyncmgrregister"><strong>ISyncMgrRegister</strong></a><br /> | 公開方法，讓應用程式可以向同步處理管理員註冊。 這可以透過 <a href="/windows/desktop/api/Mobsync/nn-mobsync-isyncmgrregister"><strong>ISyncMgrRegister</strong></a> 介面或直接在登錄中註冊來達成。<br /> | 
+| <a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrresolutionhandler"><strong>ISyncMgrResolutionHandler</strong></a><br /> | 公開管理同步處理衝突的方法。 執行此介面來建立同步衝突處理常式。 衝突解決使用者介面 (UI) 會呼叫這個介面，以解決呈現給使用者的衝突。 <br /> | 
+| <a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrschedulewizarduioperation"><strong>ISyncMgrScheduleWizardUIOperation</strong></a><br /> | 公開方法，這個方法可讓處理常式顯示處理常式的同步排程 wizard。<br /> | 
+| <a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrsessioncreator"><strong>ISyncMgrSessionCreator</strong></a><br /> | 公開單一方法，處理常式或外部應用程式可以透過此方法通知同步中心同步處理已開始，以及報告進度和事件。<br /> | 
+| <a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrsynccallback"><strong>ISyncMgrSyncCallback</strong></a><br /> | 公開方法，以允許同步處理常式將進度和事件回報給同步中心，或查詢是否已取消處理常式。<br /> | 
+| <a href="/windows/desktop/api/Mobsync/nn-mobsync-isyncmgrsynchronize"><strong>ISyncMgrSynchronize</strong></a><br /> | 公開方法，讓已註冊的應用程式或服務接收來自同步處理管理員的通知。<br /> | 
+| <a href="/windows/desktop/api/mobsync/nn-mobsync-isyncmgrsynchronizecallback"><strong>ISyncMgrSynchronizeCallback</strong></a><br /> | 公開管理同步處理常式的方法。<br /> | 
+| <a href="/windows/desktop/api/Mobsync/nn-mobsync-isyncmgrsynchronizeinvoke"><strong>ISyncMgrSynchronizeInvoke</strong></a><br /> | 公開方法，讓已註冊的應用程式叫用同步處理管理員來更新專案。<br /> | 
+| <a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrsyncitem"><strong>ISyncMgrSyncItem</strong></a><br /> | 公開在單一同步處理專案中處理和取得資訊的方法，讓處理常式能夠將同步處理專案當做獨立物件來管理。<br /> | 
+| <a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrsyncitemcontainer"><strong>ISyncMgrSyncItemContainer</strong></a><br /> | 公開方法，以提供有關其所包含專案之處理常式的資訊。<br /> | 
+| <a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrsynciteminfo"><strong>ISyncMgrSyncItemInfo</strong></a><br /> | 公開提供單一同步處理專案之屬性和狀態資訊的方法。<br /> | 
+| <a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrsyncresult"><strong>ISyncMgrSyncResult</strong></a><br /> | 公開呼叫 <a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrcontrol"><strong>ISyncMgrControl</strong></a> 的應用程式可以使用的方法，以取得 <a href="/windows/desktop/api/Syncmgr/nf-syncmgr-isyncmgrcontrol-starthandlersync"><strong>ISyncMgrControl：： StartHandlerSync</strong></a> 或 <a href="/windows/desktop/api/Syncmgr/nf-syncmgr-isyncmgrcontrol-startitemsync"><strong>ISyncMgrControl：： StartItemSync</strong></a> 呼叫的結果。<br /> | 
+| <a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgruioperation"><strong>ISyncMgrUIOperation</strong></a><br /> | 公開方法，讓同步處理處理常式或同步處理專案可以在同步中心要求時，顯示 UI 物件。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist"><strong>ITaskbarList</strong></a><br /> | 公開控制工作列的方法。 它可讓您以動態方式加入、移除和啟動工作列上的專案。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist2"><strong>ITaskbarList2</strong></a><br /> | 藉由公開方法將視窗標示為全螢幕顯示，來擴充 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist"><strong>ITaskbarList</strong></a> 介面。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist3"><strong>ITaskbarList3</strong></a><br /> | 藉由公開支援 Windows 7 中所加入之統一啟動和切換工作列按鈕功能的方法，來擴充<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist2"><strong>ITaskbarList2</strong></a> 。 這項功能包含以索引標籤式應用程式中的個別索引標籤、縮圖工具列、通知和狀態重迭和進度指標為基礎的縮圖表示和切換目標。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist4"><strong>ITaskbarList4</strong></a><br /> | 藉由提供可讓呼叫者控制索引標籤縮圖和預覽功能的兩個屬性值的方法，來擴充 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist3"><strong>ITaskbarList3</strong></a> 。<br /> | 
+| <a href="/windows/desktop/api/Thumbcache/nn-thumbcache-ithumbnailcache"><strong>IThumbnailCache</strong></a><br /> | 公開跨應用程式共用之系統縮圖快取的方法。<br /> | 
+| <a href="/windows/desktop/api/thumbcache/nn-thumbcache-ithumbnailcacheprimer"><strong>IThumbnailCachePrimer</strong></a><br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ithumbnailhandlerfactory"><strong>IThumbnailHandlerFactory</strong></a><br /> | 公開用來抓取專案縮圖處理常式的方法。 如果您想要指定子 Idlist.txt 所使用的解壓縮程式，請執行這個介面。<br /> | 
+| <a href="/windows/desktop/api/Thumbcache/nn-thumbcache-ithumbnailprovider"><strong>IThumbnailProvider</strong></a><br /> | 公開取得縮圖影像的方法，並將其設計為縮圖處理常式。 執行這個介面的物件也必須執行 <a href="/windows/desktop/api/Propsys/nn-propsys-iinitializewithstream"><strong>IInitializeWithStream</strong></a>。 <br /> | 
+| <a href="/windows/desktop/api/Thumbcache/nn-thumbcache-ithumbnailsettings"><strong>IThumbnailSettings</strong></a><br /> | 提供方法，讓縮圖提供者判斷縮圖要求的使用者內容。<br /> | 
+| <a href="/windows/desktop/api/thumbnailstreamcache/nn-thumbnailstreamcache-ithumbnailstreamcache"><strong>IThumbnailStreamCache</strong></a><br /> | 取得或設定縮圖資料流程。 這個介面僅供內部使用，而且只能由相片應用程式呼叫。<br /> | 
+| <a href="/windows/desktop/api/Shdeprecated/nn-shdeprecated-itrackshellmenu"><strong>ITrackShellMenu</strong></a><br /> | 公開擴充 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellmenu"><strong>IShellMenu</strong></a> 介面的方法，方法是提供可協調工具列按鈕和功能表，以及顯示快顯功能表的功能。<br /> | 
+| <a href="/windows/desktop/api/Imagetranscode/nn-imagetranscode-itranscodeimage"><strong>ITranscodeImage</strong></a><br /> | 公開方法，以允許從 Windows 支援的任何影像類型轉換成 JPEG 或點陣圖 (BMP) 影像格式。 <br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itransferadvisesink"><strong>ITransferAdviseSink</strong></a><br /> | 公開支援狀態收集和失敗資訊的方法。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itransferdestination"><strong>ITransferDestination</strong></a><br /> | 公開方法，以建立複製或移動作業的目的地 Shell 專案。 提供此介面可提供 <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itransferdestination-advise"><strong>ITransferDestination：： Advise</strong></a> 方法，讓您更充分掌控檔案作業。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itransfermediumitem"><strong>ITransferMediumItem</strong></a><br /> | 供複製引擎用來取得要呼叫 <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)"><strong>QueryInterface</strong></a> 的專案，以傳回介面 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itransferdestination"><strong>ITransferDestination</strong></a> 或介面 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itransfersource"><strong>ITransferSource</strong></a>的指標。 您可以查詢和列舉這些介面，以進行複製、移動或刪除作業。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itransfersource"><strong>ITransferSource</strong></a><br /> | 公開方法來操作 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem"><strong>IShellItem</strong></a>，包括複製、移動、回收和其他。 提供此介面可提供 <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itransfersource-advise"><strong>ITransferSource：： Advise</strong></a> 方法來更充分掌控檔案作業。<br /> | 
+| <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-itraydeskband"><strong>ITrayDeskBand</strong></a><br /> | 公開顯示、隱藏和查詢 deskbands 的方法。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iupdateidlist"><strong>IUpdateIDList</strong></a><br /> | 提供方法來更新資料夾物件之子系的 <a href="/windows/desktop/api/Shtypes/ns-shtypes-itemidlist"><strong>ITEMIDLIST</strong></a> 。<br /> | 
+| <a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-iurlsearchhook"><strong>IURLSearchHook</strong></a><br /> | 公開瀏覽器用來轉譯未知 URL 通訊協定位址的方法。<br /> | 
+| <a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-iurlsearchhook2"><strong>IURLSearchHook2</strong></a><br /> | 公開一種方法，讓瀏覽器使用搜尋內容物件來轉譯未知 URL 通訊協定的位址。<br /> | 
+| <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-iuseraccountchangecallback"><strong>IUserAccountChangeCallback</strong></a><br /> | 公開方法，這個方法會在代表使用者帳戶的圖片變更時呼叫。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iusernotification"><strong>IUserNotification</strong></a><br /> | 公開設定通知資訊的方法，然後在與工作列的通知區域一起出現的氣球中，向使用者顯示該通知。 <br /><blockquote>[!Note]<br /><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-iusernotification2"><strong>IUserNotification2</strong></a> 與 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iusernotification"><strong>IUserNotification</strong></a> 的不同之處在于它的 <a href="/windows/desktop/api/Shobjidl/nf-shobjidl-iusernotification2-show"><strong>Show</strong></a> 方法，它會針對回呼介面加入額外的參數，以與通知進行通訊。 否則，表單和函式中的兩個介面都相同。 CLSID_UserNotification 會將這兩個版本的 <strong>顯示</strong> 為多載。</blockquote><br /> | 
+| <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-iusernotification2"><strong>IUserNotification2</strong></a><br /> | 公開設定通知資訊的方法，然後在與工作列的通知區域一起出現的氣球中，向使用者顯示該通知。 <br /><blockquote>[!Note]<br /><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-iusernotification2"><strong>IUserNotification2</strong></a> 不會繼承自 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iusernotification"><strong>IUserNotification</strong></a>。 <strong>IUserNotification2</strong> 與 <strong>IUserNotification</strong> 的不同之處在于它的 <a href="/windows/desktop/api/Shobjidl/nf-shobjidl-iusernotification2-show"><strong>Show</strong></a> 方法，它會針對回呼介面加入額外的參數，以與通知進行通訊。 否則，表單和函式中的兩個介面都相同。 CLSID_UserNotification 會將這兩個版本的 <strong>顯示</strong> 為多載。</blockquote><br /> | 
+| <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-iusernotificationcallback"><strong>IUserNotificationCallback</strong></a><br /> | 公開在通知氣球中處理滑鼠按一下或快捷方式功能表存取的方法。 搭配 <a href="/windows/desktop/api/Shobjidl/nf-shobjidl-iusernotification2-show"><strong>IUserNotification2：： Show</strong></a>使用。<br /> | 
+| <a href="/windows/desktop/api/shobjidl/nn-shobjidl-iusetobrowseitem"><strong>IUseToBrowseItem</strong></a><br /> | 尋找流覽至此專案時應該使用的專案。<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iviewstateidentityitem"><strong>IViewStateIdentityItem</strong></a><br /> | 提供標準的持續性專案，將會記住其 view 自訂專案。<br /> | 
+| <a href="/windows/win32/api/shobjidl_core/nn-shobjidl_core-ivirtualdesktopmanager"><strong>IVirtualDesktopManager</strong></a><br /> | 公開方法，讓應用程式與構成虛擬工作區的視窗群組進行互動。<br /> | 
+| <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-ivisualproperties"><strong>IVisualProperties</strong></a><br /> | 公開設定和取得視覺屬性的方法。<br /> | 
+| <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-iwebwizardextension"><strong>IWebWizardExtension</strong></a><br /> | 藉由公開方法來擴充 <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-iwizardextension"><strong>IWizardExtension</strong></a> 介面，以設定 wizard 擴充功能的初始 URL，以及在發生錯誤時使用特定的 url。<br /> | 
+| <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-iwizardextension"><strong>IWizardExtension</strong></a><br /> | 由 Web 發佈嚮導和裝載伺服器端內容頁面的 [線上列印順序] Wizard 等的嚮導使用。 這個介面會公開方法，以指定支援的延伸模組頁面，以及流覽和移出這些頁面。<br /> | 
+| <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-iwizardsite"><strong>IWizardSite</strong></a><br /> | 公開 wizard 擴充功能所使用的方法，以導覽其本身和嚮導其餘部分之間的框線。<br /> | 
+| <a href="taskcompletionclient.md"><strong>TaskCompletionClient</strong></a><br /> | 啟用工作完成。 <br /> | 
 
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idestinationstreamfactory"><strong>IDestinationStreamFactory</strong></a><br/></td>
-<td>公開在將變更套用至屬性之前，手動複製資料流程或檔案的方法。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idisplayitem"><strong>IDisplayItem</strong></a><br/></td>
-<td>公開方法，這些方法會尋找要用來取得顯示內容（例如專案名稱）的目前專案版本，此專案會顯示在 UI 中。 供複製引擎對話方塊用來提供 UI，以顯示適當的專案。 如果找不到其他版本，會使用目前的專案。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idockingwindow"><strong>IDockingWindow</strong></a><br/></td>
-<td>公開通知停駐視窗物件變更的方法，包括顯示、隱藏和即將移除。 這個介面是由視窗物件所執行，這些物件可以停駐在 Windows 檔案總管視窗的框線空間內。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shlobj/nn-shlobj-idockingwindowframe"><strong>IDockingWindowFrame</strong></a><br/></td>
-<td>公開支援將 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idockingwindow"><strong>IDockingWindow</strong></a> 物件新增至框架的方法。 由瀏覽器所執行。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-idockingwindowsite"><strong>IDockingWindowSite</strong></a><br/></td>
-<td>公開管理一或多個 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idockingwindow"><strong>IDockingWindow</strong></a> 物件之框線空間的方法。 此介面是由瀏覽器所執行，類似于 <a href="/windows/desktop/api/oleidl/nn-oleidl-ioleinplaceuiwindow"><strong>IOleInPlaceUIWindow</strong></a> 介面。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idragsourcehelper"><strong>IDragSourceHelper</strong></a><br/></td>
-<td>由 Shell 公開，以允許應用程式指定將在 Shell 拖放作業期間顯示的影像。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-idragsourcehelper2"><strong>IDragSourceHelper2</strong></a><br/></td>
-<td>公開將功能新增至 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idragsourcehelper"><strong>IDragSourceHelper</strong></a>的方法。 這個方法會設定 <strong>IDragSourceHelper</strong> 物件上拖放作業的特性。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idroptargethelper"><strong>IDropTargetHelper</strong></a><br/></td>
-<td>公開方法，以在影像在目標視窗上時，讓卸載目標顯示拖曳影像。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-idynamichwhandler"><strong>IDynamicHWHandler</strong></a><br/></td>
-<td>由自動播放所呼叫。 公開方法，這些方法會在向使用者顯示已註冊的處理常式之前，取得相關動態資訊。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ienumassochandlers"><strong>IEnumAssocHandlers</strong></a><br/></td>
-<td>公開方法，這個方法允許列舉與特定副檔名相關聯的處理常式集合。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-ienumerableview"><strong>IEnumerableView</strong></a><br/></td>
-<td>公開列舉視圖內容的方法，並在列舉完成時接收回呼的通知。 此介面可讓視圖的用戶端嘗試共用資料夾內容的視圖清單。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ienumexplorercommand"><strong>IEnumExplorerCommand</strong></a><br/></td>
-<td>由 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommandprovider"><strong>IExplorerCommandProvider</strong></a>所提供。 此介面包含要放入命令列的命令列舉。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ienumextrasearch"><strong>IEnumExtraSearch</strong></a><br/></td>
-<td>用戶端用來判斷資料夾之可用搜尋物件的標準 OLE 列舉值。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ienumfullidlist"><strong>IEnumFullIDList</strong></a><br/></td>
-<td>公開一組標準的方法，這些方法會列舉 Shell 資料夾中專案 (Pidl) 專案識別碼清單的指標。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ienumidlist"><strong>IEnumIDList</strong></a><br/></td>
-<td>公開一組標準的方法，這些方法可用來列舉 Shell 資料夾中專案的 Pidl。 當呼叫資料夾的 <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-enumobjects"><strong>IShellFolder：： EnumObjects</strong></a> 方法時，它會建立列舉物件，並將物件的 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ienumidlist"><strong>IEnumIDList</strong></a> 介面指標傳回給呼叫的應用程式。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ienumobjects"><strong>IEnumObjects</strong></a><br/></td>
-<td>公開方法以列舉未知的物件。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Shappmgr/nn-shappmgr-ienumpublishedapps"><strong>IEnumPublishedApps</strong></a><br/></td>
-<td>公開列舉已發佈應用程式以在主控台中新增/移除程式的方法。 公開此介面的物件是透過 <a href="/windows/desktop/api/Shappmgr/nf-shappmgr-iapppublisher-enumapps"><strong>IAppPublisher：： EnumApps</strong></a>要求。 <br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-ienumreadycallback"><strong>IEnumReadyCallback</strong></a><br/></td>
-<td>公開方法，這種方法可讓您在列舉完成時，通知實施者。 此視圖會呼叫這個方法，告訴實施者可以透過 <a href="/windows/desktop/api/Shobjidl/nf-shobjidl-ienumerableview-createenumidlistfromcontents"><strong>IEnumerableView：： CreateEnumIDListFromContents</strong></a>抓取列舉。 回呼可讓實施者共用 views 列舉。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ienumresources"><strong>IEnumResources</strong></a><br/></td>
-<td>公開資源列舉方法。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ienumshellitems"><strong>IEnumShellItems</strong></a><br/></td>
-<td>公開 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem"><strong>IShellItem</strong></a> 介面的列舉。 這個介面通常是藉由呼叫 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ienumshellitems"><strong>IEnumShellItems</strong></a> 方法來取得。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Syncmgr/nn-syncmgr-ienumsyncmgrconflict"><strong>IEnumSyncMgrConflict</strong></a><br/></td>
-<td>公開衝突列舉方法。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Syncmgr/nn-syncmgr-ienumsyncmgrevents"><strong>IEnumSyncMgrEvents</strong></a><br/></td>
-<td>公開同步事件列舉方法。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Syncmgr/nn-syncmgr-ienumsyncmgrsyncitems"><strong>IEnumSyncMgrSyncItems</strong></a><br/></td>
-<td>公開列舉處理常式所管理之同步處理專案物件的方法。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexecutecommand"><strong>IExecuteCommand</strong></a><br/></td>
-<td>公開方法，以設定與命令動詞相關的指定狀態或參數，以及叫用該動詞命令的方法。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexecutecommandapplicationhostenvironment"><strong>IExecuteCommandApplicationHostEnvironment</strong></a><br/></td>
-<td>提供單一方法，可讓應用程式判斷其主機是否為桌面或沉浸式模式。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexecutecommandhost"><strong>IExecuteCommandHost</strong></a><br/></td>
-<td>提供方法，可讓以 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommand"><strong>IExplorerCommand</strong></a>為基礎的 Shell 動詞命令處理常式查詢叫用應用程式的主控制群組件的 UI 模式。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorerbrowser"><strong>IExplorerBrowser</strong></a><br/></td>
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorerbrowser"><strong>IExplorerBrowser</strong></a> 是瀏覽器物件，可以導覽或可裝載資料物件的視圖。 它是功能完整的瀏覽器物件，它也支援自動移動記錄檔。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorerbrowserevents"><strong>IExplorerBrowserEvents</strong></a><br/></td>
-<td>公開 Explorer 瀏覽器流覽和觀看建立事件的通知方法。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommand"><strong>IExplorerCommand</strong></a><br/></td>
-<td>公開取得命令外觀、列舉子命令或叫用命令的方法。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommandprovider"><strong>IExplorerCommandProvider</strong></a><br/></td>
-<td>公開方法來建立瀏覽器命令和命令列舉值。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommandstate"><strong>IExplorerCommandState</strong></a><br/></td>
-<td>公開允許抓取命令狀態的單一方法。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorerpanevisibility"><strong>IExplorerPaneVisibility</strong></a><br/></td>
-<td>用於 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder"><strong>IShellFolder</strong></a> 的執行 Windows 檔案總管，以提供有關可見窗格的建議。 此外， <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorerbrowser"><strong>IExplorerBrowser</strong></a> 主控制項可以使用這個介面來提供有關窗格可見度的資訊。 主機應該使用<strong>SID_ExplorerPaneVisibility</strong>作為服務識別碼來執行<a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/cc678966(v=vs.85)"><strong>QueryService</strong></a> 。 主機必須在網站鏈中。 <br/> 從 Shell 資料夾抓取 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorerpanevisibility"><strong>IExplorerPaneVisibility</strong></a> 的執行。 然後，Shell 資料夾會從 view 中取出。 命名空間延伸可以選擇提供自訂視圖 (<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview"><strong>IShellView</strong></a>) ，而不是使用系統資料夾 view 物件 (DefView) 。 在這種情況下， <strong>IShellView</strong> 的執行必須包含 <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderview-getfolder"><strong>IFolderView：： GetFolder</strong></a> 的執行，以傳回 <strong>IExplorerPaneVisibility</strong> 物件。<br/> 命名空間延伸模組可以藉由實 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview"><strong>IShellView</strong></a> 本身來提供自訂視圖，而不是使用系統資料夾 view 物件 (DefView) 。 在此情況下， <strong>IShellView</strong> 的執行必須包含 <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderview-getfolder"><strong>IFolderView：： GetFolder</strong></a> 的實作為使用 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorerpanevisibility"><strong>IExplorerPaneVisibility</strong></a> 。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-iextracticona"><strong>IExtractIcon</strong></a><br/></td>
-<td>公開方法，以允許用戶端取得與資料夾中其中一個物件相關聯的圖示。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iextractimage"><strong>IExtractImage</strong></a><br/></td>
-<td>公開從 Shell 資料夾要求縮圖影像的方法。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iextractimage2"><strong>IExtractImage2</strong></a><br/></td>
-<td>擴充 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iextractimage"><strong>IExtractImage</strong></a>的功能。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifiledialog"><strong>IFileDialog</strong></a><br/></td>
-<td>公開從 [一般檔案] 對話方塊初始化、顯示和取得結果的方法。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-ifiledialog2"><strong>IFileDialog2</strong></a><br/></td>
-<td>藉由提供方法，讓呼叫端命名可在 [一般檔案] 對話方塊中流覽的特定、受限位置，以及指定要在 [<strong>取消</strong>] 按鈕上顯示為標籤的替代文字，來擴充<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifiledialog"><strong>IFileDialog</strong></a>介面。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-ifiledialogcontrolevents"><strong>IFileDialogControlEvents</strong></a><br/></td>
-<td>公開方法，這些方法可讓應用程式收到事件的通知，這些事件與應用程式已新增至一般檔案對話方塊的控制項相關。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifiledialogcustomize"><strong>IFileDialogCustomize</strong></a><br/></td>
-<td>公開可讓應用程式將控制項加入至一般檔案對話方塊的方法。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifiledialogevents"><strong>IFileDialogEvents</strong></a><br/></td>
-<td>公開允許一般檔案對話方塊內的事件通知的方法。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifileisinuse"><strong>IFileIsInUse</strong></a><br/></td>
-<td>公開可呼叫的方法，以取得或關閉另一個應用程式正在使用的檔案的資訊。 當應用程式嘗試存取檔案，並找到已在使用中的檔案時，可以使用這個介面的方法，在對話方塊中收集要呈現給使用者的資訊。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifileopendialog"><strong>IFileOpenDialog</strong></a><br/></td>
-<td>藉由新增 [開啟] 對話方塊專屬的方法來擴充 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifiledialog"><strong>IFileDialog</strong></a> 介面。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifileoperation"><strong>IFileOperation</strong></a><br/></td>
-<td>公開方法來複製、移動、重新命名、建立及刪除 Shell 專案以及提供進度和錯誤對話方塊的方法。 這個介面會取代 <a href="/windows/desktop/api/Shellapi/nf-shellapi-shfileoperationa"><strong>SHFileOperation</strong></a> 函式。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifileoperationprogresssink"><strong>IFileOperationProgressSink</strong></a><br/></td>
-<td>公開方法，以提供 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifileoperation"><strong>IFileOperation</strong></a> 呼叫端所使用的豐富通知系統，來監視透過該介面所執行之作業的詳細資料。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Shobjidl_core/nn-shobjidl_core-ifilesavedialog"><strong>IFileSaveDialog</strong></a><br/></td>
-<td>藉由新增 [儲存] 對話方塊專屬的方法來擴充 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifiledialog"><strong>IFileDialog</strong></a> 介面，其中包括支援要與檔案保存之元資料集合的支援。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifilesyncmergehandler"><strong>IFileSyncMergeHandler</strong></a><br/></td>
-
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifilesystembinddata"><strong>IFileSystemBindData</strong></a><br/></td>
-<td>公開儲存檔案系統資訊的方法，以優化對 <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-parsedisplayname"><strong>IShellFolder 的呼叫：:P arsedisplayname</strong></a>。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifilesystembinddata2"><strong>IFileSystemBindData2</strong></a><br/></td>
-<td>擴充 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifilesystembinddata"><strong>IFileSystemBindData</strong></a>，它會儲存檔案系統資訊，以優化對 IShellFolder 的呼叫 <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-parsedisplayname"><strong>：:P arsedisplayname</strong></a>。 這個介面會將設定的功能，或取得檔案識別碼或連接類別識別碼 (CLSID) 。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/shell/schema-library-iconreference"><strong>IFileViewer</strong></a><br/></td>
-<td>公開方法，這些方法會指定介面，讓註冊的檔案檢視器必須顯示或列印檔案時，才會收到通知。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shlobj/nn-shlobj-ifileviewersite"><strong>IFileViewerSite</strong></a><br/></td>
-<td>公開方法，以指定允許檔案檢視器抓取目前釘選視窗控制碼的介面，或設定新的固定視窗。 固定的視窗是目前檔案檢視器顯示檔案的視窗。 當使用者選取要查看的新檔案時，命令介面會指示檔案檢視器在釘選的視窗中顯示新檔案，而不是建立新的視窗。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifolderfilter"><strong>IFolderFilter</strong></a><br/></td>
-<td>由用戶端公開，以指定如何透過伺服器應用程式篩選 Shell 資料夾的列舉。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifolderfiltersite"><strong>IFolderFilterSite</strong></a><br/></td>
-<td>由主機匯出，以允許用戶端指定如何篩選 Shell 資料夾列舉。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifolderview"><strong>IFolderView</strong></a><br/></td>
-<td>公開方法，以取得資料夾顯示選項的相關資訊、選取該資料夾中的指定專案，以及設定資料夾的視圖模式。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifolderview2"><strong>IFolderView2</strong></a><br/></td>
-<td>公開方法，以取得資料夾顯示選項的相關資訊、選取該資料夾中的指定專案，以及設定資料夾的視圖模式。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-ifolderviewhost"><strong>IFolderViewHost</strong></a><br/></td>
-<td>公開在視窗中裝載 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifolderview"><strong>IFolderView</strong></a> 物件的方法。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-ifolderviewoptions"><strong>IFolderViewOptions</strong></a><br/></td>
-<td>公開方法，以允許控制 Windows 7 和更新版本的特定資料夾檢視選項。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifolderviewsettings"><strong>IFolderViewSettings</strong></a><br/></td>
-<td>公開取得資料夾檢視設定的方法。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iframeworkinputpane"><strong>IFrameworkInputPane</strong></a><br/></td>
-<td>提供的方法可讓應用程式知道狀態變更和輸入窗格的位置。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iframeworkinputpanehandler"><strong>IFrameworkInputPaneHandler</strong></a><br/></td>
-<td>可讓應用程式在顯示或隱藏 [螢幕小鍵盤] 或 [手寫面板]) 的輸入窗格 (時收到通知。 這可讓應用程式視窗調整其顯示，如此一來，輸入窗格就不會 (例如文字方塊) 的輸入區域。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ihandleractivationhost"><strong>IHandlerActivationHost</strong></a><br/></td>
-
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ihandlerinfo"><strong>IHandlerInfo</strong></a><br/></td>
-<td>提供方法，提供 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ihandleractivationhost"><strong>IHandlerActivationHost</strong></a> 介面方法的處理常式相關資訊。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ihomegroup"><strong>IHomeGroup</strong></a><br/></td>
-<td>公開決定電腦的家用電腦成員資格狀態，並顯示共用嚮導的方法。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-ihweventhandler"><strong>IHWEventHandler</strong></a><br/></td>
-<td>由自動播放呼叫以執行已註冊媒體類型的處理。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-ihweventhandler2"><strong>IHWEventHandler2</strong></a><br/></td>
-<td>擴充 <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-ihweventhandler"><strong>IHWEventHandler</strong></a> 介面，以處理使用者帳戶控制 (UAC) 提高裝置處理常式的許可權。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iidentityname"><strong>IIdentityName</strong></a><br/></td>
-<td>公開方法來比較兩個專案，看看它們是否相同。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-iimagerecompress"><strong>IImageRecompress</strong></a><br/></td>
-<td>公開重新壓縮影像的方法。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iinitializecommand"><strong>IInitializeCommand</strong></a><br/></td>
-<td>公開用來初始化物件的單一方法，該物件會使用應用程式指定的命令名稱及其註冊的屬性來執行 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommandstate"><strong>IExplorerCommandState</strong></a>、 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexecutecommand"><strong>IExecuteCommand</strong></a> 或 <a href="/windows/desktop/api/oleidl/nn-oleidl-idroptarget"><strong>IDropTarget</strong></a> 。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/win32/api/shobjidl/nn-shobjidl-iinitializenetworkfolder"><strong>IInitializeNetworkFolder</strong></a><br/></td>
-<td>公開初始化網路資料來源 CLSID_NetworkPlaces （如指定）的方法。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iinitializewithbindctx"><strong>IInitializeWithBindCtx</strong></a><br/></td>
-<td>公開使用系結內容初始化處理常式的方法，例如屬性處理常式、縮圖處理常式或預覽處理常式。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Propsys/nn-propsys-iinitializewithfile"><strong>IInitializeWithFile</strong></a><br/></td>
-<td>公開方法，以使用檔案路徑初始化處理常式，例如屬性處理常式、縮圖處理常式或預覽處理常式。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iinitializewithitem"><strong>IInitializeWithItem</strong></a><br/></td>
-<td>使用 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem"><strong>IShellItem</strong></a>公開用來初始化處理常式的方法，例如屬性處理常式、縮圖處理常式或預覽處理常式。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iinitializewithpropertystore"><strong>IInitializeWithPropertyStore</strong></a><br/></td>
-<td>公開以屬性存放區初始化處理常式的方法，例如屬性處理常式、縮圖處理常式或預覽處理常式。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Propsys/nn-propsys-iinitializewithstream"><strong>IInitializeWithStream</strong></a><br/></td>
-<td>公開使用資料流程初始化處理常式的方法，例如屬性處理常式、縮圖處理常式或預覽處理常式。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iinitializewithwindow"><strong>IInitializeWithWindow</strong></a><br/></td>
-<td>公開一種方法，用戶端可以透過此方法將擁有者視窗提供給桌面應用程式中所使用的 Windows 執行階段物件。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iinputobject"><strong>IInputObject</strong></a><br/></td>
-<td>公開方法，以變更 Shell 中所含使用者輸入物件的 UI 啟用和流程加速器。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iinputobject2"><strong>IInputObject2</strong></a><br/></td>
-<td>公開透過處理全域快速鍵來擴充 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iinputobject"><strong>IInputObject</strong></a> 的方法。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iinputobjectsite"><strong>IInputObjectSite</strong></a><br/></td>
-<td>公開方法，這個方法用來針對 Shell 中包含的使用者輸入物件傳達焦點變更。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/inputpanelconfiguration/nn-inputpanelconfiguration-iinputpanelconfiguration"><strong>IInputPanelConfiguration</strong></a><br/></td>
-<td>提供適用于桌面應用程式的功能，以加入宣告 Windows Store 應用程式中使用的焦點追蹤機制。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/inputpanelconfiguration/nn-inputpanelconfiguration-iinputpanelinvocationconfiguration"><strong>IInputPanelInvocationConfiguration</strong></a><br/></td>
-<td>讓 Windows Store 應用程式退出自動調用行為。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iiocancelinformation"><strong>IIOCancelInformation</strong></a><br/></td>
-<td>公開從進度對話方塊將取消視窗訊息張貼至進程執行緒的方法。 <br/> 此介面可讓進度對話方塊透過 <a href="/windows/desktop/api/winuser/nf-winuser-postthreadmessagea"><strong>PostThreadMessage</strong></a> 將執行緒訊息張貼至背景工作執行緒，以取消其作業。 背景工作執行緒必須透過 <a href="/windows/desktop/api/winuser/nf-winuser-getmessage"><strong>GetMessage</strong></a>、 <a href="/windows/desktop/api/winuser/nf-winuser-peekmessagea"><strong>PeekMessage</strong></a> 或 <a href="/windows/desktop/api/winuser/nf-winuser-msgwaitformultipleobjectsex"><strong>MsgWaitForMultipleObjectsEx</strong></a>定期檢查訊息佇列。<br/> <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iiocancelinformation-setcancelinformation"><strong>IIOCancelInformation：： SetCancelInformation</strong></a>方法會告知進度對話方塊，在使用者按一下 [<strong>取消</strong>] 時，執行緒識別碼和要<a href="/windows/desktop/api/winuser/nf-winuser-postthreadmessagea"><strong>PostThreadMessage</strong></a>的訊息。 執行緒識別碼為 &quot; 零會 &quot; 停用取消訊息的傳送作業。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iitemnamelimits"><strong>IItemNameLimits</strong></a><br/></td>
-<td>抓取命名空間中有效和不正確字元清單，或名稱的最大長度。 使用這個介面進行驗證剖析和轉譯。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iknownfolder"><strong>IKnownFolder</strong></a><br/></td>
-<td>公開方法，讓應用程式取得已知資料夾的類別、類型、GUID、PIDL 值、重新導向功能和定義的相關資訊。 它提供擷取已知資料夾 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem"><strong>IShellItem</strong></a> 物件的方法。 它也提供方法來取得或設定已知資料夾的路徑。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iknownfoldermanager"><strong>IKnownFolderManager</strong></a><br/></td>
-<td>公開方法，以建立、列舉或管理現有的已知資料夾。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ilaunchsourceappusermodelid"><strong>ILaunchSourceAppUserModelId</strong></a><br/></td>
-<td>提供用來取得 <a href="appids.md">AppUserModelId</a>的方法。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ilaunchsourceviewsizepreference"><strong>ILaunchSourceViewSizePreference</strong></a><br/></td>
-<td>提供用來取得來源應用程式相關資訊的方法。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ilaunchtargetmonitor"><strong>ILaunchTargetMonitor</strong></a><br/></td>
-
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ilaunchtargetviewsizepreference"><strong>ILaunchTargetViewSizePreference</strong></a><br/></td>
-<td>提供方法來為新的應用程式視窗抓取慣用的視圖大小。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/shell/shell-extensibility-bumper"><strong>IMarkupCallback</strong></a><br/></td>
-
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-imenupopup"><strong>IMenuPopup</strong></a><br/></td>
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-imenupopup"><strong>IMenuPopup</strong></a> 可能已變更或無法使用。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-imodalwindow"><strong>IModalWindow</strong></a><br/></td>
-<td>公開表示強制回應視窗的方法。 此介面是在 Windows XP Passport Wizard 中使用。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="imultimonitordockingsite.md"><strong>IMultiMonitorDockingSite</strong></a><br/></td>
-<td>由瀏覽器所執行。 公開管理哪些監視在多個監視器系統上包含 Windows 工作列的方法。 <br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-inamedpropertybag"><strong>INamedPropertyBag</strong></a><br/></td>
-<td>公開方法，這些方法會提供具有指定屬性包的物件，而物件可以在其中儲存其屬性。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Propsys/nn-propsys-inamedpropertystore"><strong>INamedPropertyStore</strong></a><br/></td>
-<td>公開取得和設定命名屬性的方法。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-inamespacetreeaccessible"><strong>INameSpaceTreeAccessible</strong></a><br/></td>
-<td>公開方法，以從命名空間樹狀目錄控制項執行 Shell 專案的協助工具動作。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacetreecontrol"><strong>INameSpaceTreeControl</strong></a><br/></td>
-<td>公開用來在 Shell 專案樹狀結構中，用來查看和操作節點的方法。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-inamespacetreecontrol2"><strong>INameSpaceTreeControl2</strong></a><br/></td>
-<td>藉由提供取得和設定 treeview 控制項顯示樣式的方法來擴充 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacetreecontrol"><strong>INameSpaceTreeControl</strong></a> 介面，以搭配 Shell 命名空間專案使用。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-inamespacetreecontrolcustomdraw"><strong>INameSpaceTreeControlCustomDraw</strong></a><br/></td>
-<td>公開方法，讓使用者能夠繪製自訂命名空間樹狀結構控制項和其專案。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-inamespacetreecontroldrophandler"><strong>INameSpaceTreeControlDropHandler</strong></a><br/></td>
-<td>公開拖放的處理常式方法。 由命名空間樹狀目錄控制項用來通知用戶端在控制項中發生的任何拖放作業。 提供一種方式，讓用戶端攔截卸載作業並執行自己的動作，或傳回所需的卸載效果。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-inamespacetreecontrolevents"><strong>INameSpaceTreeControlEvents</strong></a><br/></td>
-<td>公開處理 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacetreecontrol"><strong>INameSpaceTreeControl</strong></a> 事件的方法。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacetreecontrolfoldercapabilities"><strong>INameSpaceTreeControlFolderCapabilities</strong></a><br/></td>
-<td>公開單一方法，以抓取資料夾系統的狀態 <a href="/windows/desktop/properties/props-system-ispinnedtonamespacetree">。 IsPinnedToNameSpaceTree</a> 篩選支援。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacewalk"><strong>INamespaceWalk</strong></a><br/></td>
-<td>公開方法，以從指定的根節點引導命名空間。 系統會指定此逐步解說的深度，並傳回包含所有已行走節點之識別碼的選擇性陣列。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacewalkcb"><strong>INamespaceWalkCB</strong></a><br/></td>
-<td>回呼介面，此介面會公開與 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacewalk"><strong>INamespaceWalk</strong></a>搭配使用的方法。 使用 <strong>INamespaceWalk</strong>執行「逐步解說」之後，代表已執行之節點的 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder"><strong>IShellFolder</strong></a> 物件會傳遞至 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacewalkcb"><strong>INamespaceWalkCB</strong></a> 方法。 這些方法對資訊有何用途取決於正在執行的物件。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacewalkcb2"><strong>INamespaceWalkCB2</strong></a><br/></td>
-<td>使用需要的方法來擴充 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacewalkcb"><strong>INamespaceWalkCB</strong></a> ，才能完成命名空間的逐步解說。 這個方法會移除在此逐步解說中所收集的資料。 <br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inewmenuclient"><strong>INewMenuClient</strong></a><br/></td>
-<td>公開允許操作 Windows 7 功能表中專案的方法。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shlobj/nn-shlobj-inewshortcuthooka"><strong>INewShortcutHook</strong></a><br/></td>
-<td>公開方法以建立新的網際網路快捷方式。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inewwindowmanager"><strong>INewWindowManager</strong></a><br/></td>
-<td>公開方法，這個方法會判斷是否應顯示或封鎖由另一個視窗啟動的視窗，以允許控制項快顯視窗。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/reconcil/nn-reconcil-inotifyreplica"><strong>INotifyReplica</strong></a><br/></td>
-<td>公開方法，該方法會提供物件的建立者，其方法為通知物件可能會受到後續的對帳。 公事包調整器負責執行這個介面。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Objectarray/nn-objectarray-iobjectarray"><strong>IObjectArray</strong></a><br/></td>
-<td>公開方法，這些方法可讓用戶端存取支援 <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown"><strong>IUnknown</strong></a>的物件集合中的專案。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/objectarray/nn-objectarray-iobjectcollection"><strong>IObjectCollection</strong></a><br/></td>
-<td>藉由提供可讓用戶端加入和移除集合中支援<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown"><strong>IUnknown</strong></a>之物件的方法，來擴充<a href="/windows/desktop/api/Objectarray/nn-objectarray-iobjectarray"><strong>IObjectArray</strong></a>介面。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iobjectprovider"><strong>IObjectProvider</strong></a><br/></td>
-<td>公開方法，以探索以另一個物件的 <strong>GUID</strong> 命名的物件。 不同于 <a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/cc678966(v=vs.85)"><strong>QueryService</strong></a> ，此介面不會將其功能委派給其他物件。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iobjectwithappusermodelid"><strong>IObjectWithAppUserModelID</strong></a><br/></td>
-<td>公開方法，以允許自訂 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iassochandler"><strong>IAssocHandler</strong></a> 物件的實作者提供其明確應用程式使用者模型識別碼的存取 (AppUserModelID) 。 這項資訊是用來判斷特定檔案類型是否可以加入至應用程式的捷徑清單。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iobjectwithbackreferences"><strong>IObjectWithBackReferences</strong></a><br/></td>
-<td>提供與物件所持有之反向參考互動的方法。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iobjectwithcancelevent"><strong>IObjectWithCancelEvent</strong></a><br/></td>
-<td>提供具有事件的呼叫端，該事件將由被呼叫的物件發出信號以表示取消工作。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iobjectwithfolderenummode"><strong>IObjectWithFolderEnumMode</strong></a><br/></td>
-<td>公開方法，以取得和設定剖析專案的列舉模式。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iobjectwithprogid"><strong>IObjectWithProgID</strong></a><br/></td>
-<td>公開方法，以提供與物件相關聯之 ProgID 的存取權。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Propsys/nn-propsys-iobjectwithpropertykey"><strong>IObjectWithPropertyKey</strong></a><br/></td>
-<td>公開取得和設定屬性索引鍵的方法。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iobjectwithselection"><strong>IObjectWithSelection</strong></a><br/></td>
-<td>公開方法，以取得或設定由 Shell 專案陣列所表示的選取專案。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-iobjmgr"><strong>IObjMgr</strong></a><br/></td>
-<td>公開方法，以允許用戶端從伺服器物件所管理的物件集合中附加或移除物件。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iopencontrolpanel"><strong>IOpenControlPanel</strong></a><br/></td>
-<td>公開方法，以取得主控台的檢視狀態、個別主控台專案的路徑，以及開啟主控台本身或個別的主控台專案。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iopensearchsource"><strong>IOpenSearchSource</strong></a><br/></td>
-<td>公開方法，以從自訂用戶端的 OpenSearch 資料來源取得搜尋結果。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ioperationsprogressdialog"><strong>IOperationsProgressDialog</strong></a><br/></td>
-<td>公開方法以取得、設定和查詢進度對話方塊。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Shobjidl_core/nn-shobjidl_core-ipackagedebugsettings"><strong>IPackageDebugSettings</strong></a><br/></td>
-<td>可讓偵錯工具開發人員控制 Windows Store 應用程式的生命週期，例如暫停或繼續。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipackageexecutionstatechangenotification"><strong>IPackageExecutionStateChangeNotification</strong></a><br/></td>
-<td>啟用在 Windows Store 應用程式偵錯工具期間接收封裝狀態變更通知。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iparentanditem"><strong>IParentAndItem</strong></a><br/></td>
-<td>公開取得和設定父系和父系之子系識別碼的方法。 雖然 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iparentanditem"><strong>IParentAndItem</strong></a> 通常是在 IShellItems 上執行，但它並不是特定的 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem"><strong>IShellItem</strong></a>。 <br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iparseandcreateitem"><strong>IParseAndCreateItem</strong></a><br/></td>
-
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipersistfolder"><strong>IPersistFolder</strong></a><br/></td>
-<td>公開初始化 Shell 資料夾物件的方法。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipersistfolder2"><strong>IPersistFolder2</strong></a><br/></td>
-<td>公開從 Shell 資料夾物件取得資訊的方法。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipersistfolder3"><strong>IPersistFolder3</strong></a><br/></td>
-<td>藉由允許資料夾物件執行資料夾快捷方式的非預設處理，擴充 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipersistfolder"><strong>IPersistFolder</strong></a> 和 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipersistfolder2"><strong>IPersistFolder2</strong></a> 介面。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipersistidlist"><strong>IPersistIDList</strong></a><br/></td>
-<td>公開用來保存專案識別碼清單的方法。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Propsys/nn-propsys-ipersistserializedpropstorage"><strong>IPersistSerializedPropStorage</strong></a><br/></td>
-<td>公開方法以保存序列化屬性儲存體資料以供稍後使用，以及將保存的資料還原至新的屬性存放區實例。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Propsys/nn-propsys-ipersistserializedpropstorage2"><strong>IPersistSerializedPropStorage2</strong></a><br/></td>
-<td>公開方法以保存序列化屬性儲存體資料以供稍後使用，以及將保存的資料還原至新的屬性存放區實例。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/previous-versions/windows/desktop/legacy/hh707033(v=vs.85)"><strong>IPlaybackManager</strong></a><br/></td>
-<td>提供可讓媒體應用程式與 Windows 播放管理員進行通訊的方法。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/previous-versions/windows/desktop/legacy/hh707034(v=vs.85)"><strong>IPlaybackManagerEvents</strong></a><br/></td>
-
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipreviewhandler"><strong>IPreviewHandler</strong></a><br/></td>
-<td>公開顯示豐富預覽的方法。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipreviewhandlerframe"><strong>IPreviewHandlerFrame</strong></a><br/></td>
-<td>啟用預覽處理常式，以將鍵盤快速鍵傳遞給主機。 這個介面會抓取鍵盤快速鍵的清單，並引導主機處理鍵盤快速鍵。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipreviewhandlervisuals"><strong>IPreviewHandlerVisuals</strong></a><br/></td>
-<td>公開將色彩和字型資訊套用至預覽處理常式的方法。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipreviewitem"><strong>IPreviewItem</strong></a><br/></td>
-<td>識別將在預覽窗格中顯示的專案。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-ipreviousversionsinfo"><strong>IPreviousVersionsInfo</strong></a><br/></td>
-<td>公開一種方法，該方法會檢查先前版本的伺服器檔案或資料夾，這些檔案或資料夾是由 Windows Server 2003 提供的 <em>陰影複製</em> 技術所儲存的回復用途。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="iprivateidentitymanager.md"><strong>IPrivateIdentityManager</strong></a><br/></td>
-
-</tr>
-<tr class="even">
-<td><a href="iprivateidentitymanager2.md"><strong>IPrivateIdentityManager2</strong></a><br/></td>
-
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iprofferservice"><strong>IProfferService</strong></a><br/></td>
-<td>公開物件的一般機制，以提供服務給相同主機上的其他物件。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-iprogressdialog"><strong>IProgressDialog</strong></a><br/></td>
-<td>公開提供應用程式選項以顯示進度對話方塊的方法。 此介面是由進度對話方塊物件所匯出 (CLSID_ProgressDialog) 。 此物件是向使用者顯示操作進度的一般方式。 在刪除、上傳、複製、移動或下載大量檔案時，通常會使用此值。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Shappmgr/nn-shappmgr-ipublishedapp"><strong>IPublishedApp</strong></a><br/></td>
-<td>公開方法，這些方法代表在主控台中新增/移除程式的應用程式。 <br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Shappmgr/nn-shappmgr-ipublishedapp2"><strong>IPublishedApp2</strong></a><br/></td>
-<td>藉由提供額外的安裝方法來擴充 <a href="/windows/desktop/api/Shappmgr/nn-shappmgr-ipublishedapp"><strong>IPublishedApp</strong></a> 介面。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-ipublishingwizard"><strong>IPublishingWizard</strong></a><br/></td>
-<td>公開使用線上列印嚮導、Web 發佈嚮導和「新增網路位置嚮導」的方法。 在 Windows Vista 中， <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-ipublishingwizard"><strong>IPublishingWizard</strong></a> 不再支援 Web 發佈嚮導或線上列印嚮導。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shlwapi/nn-shlwapi-iqueryassociations"><strong>IQueryAssociations</strong></a><br/></td>
-<td>公開方法，以簡化與定義檔案類型或通訊協定並將其與應用程式產生關聯之登錄中儲存的資訊的處理常式。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-iquerycancelautoplay"><strong>IQueryCancelAutoPlay</strong></a><br/></td>
-<td>公開以程式設計方式覆寫 <a href="autorun2k-intro.md">自動播放</a> 或 <a href="autoplay.md">自動</a>播放的方法。 這可讓您自訂插入媒體時所啟動的位置和內容類型。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-iquerycodepage"><strong>IQueryCodePage</strong></a><br/></td>
-<td>取得和設定 ANSI 字碼頁 (字碼頁識別碼) 的數值。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iquerycontinue"><strong>IQueryContinue</strong></a><br/></td>
-<td>公開方法，這個方法會為物件提供簡單的標準機制，以查詢用戶端以取得繼續作業的許可權。 例如， <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iusernotification"><strong>IUserNotification</strong></a>的用戶端必須將 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iquerycontinue"><strong>IQueryContinue</strong></a> 的執行傳遞至 <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iusernotification-show"><strong>IUserNotification：： Show</strong></a> 方法。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Credentialprovider/nn-credentialprovider-iquerycontinuewithstatus"><strong>IQueryContinueWithStatus</strong></a><br/></td>
-<td>公開方法，這些方法會提供標準機制，讓認證提供者在嘗試連接到網路時呼叫 <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iquerycontinue-querycontinue"><strong>QueryContinue</strong></a> ，以判斷是否應該繼續進行這些嘗試。 認證提供者也可以使用此介面，在嘗試建立網路連線時向使用者顯示訊息。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-iqueryinfo"><strong>IQueryInfo</strong></a><br/></td>
-<td>公開方法，以供 Shell 用來取得位於 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder"><strong>IShellFolder</strong></a> 執行中之專案的旗標和資訊提示資訊。 資訊提示通常會顯示在 <a href="/windows/desktop/Controls/tooltip-controls">工具提示</a> 控制項內。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-irelateditem"><strong>IRelatedItem</strong></a><br/></td>
-<td>公開衍生具有特定關聯性之相關專案的方法。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iremotecomputer"><strong>IRemoteComputer</strong></a><br/></td>
-<td>公開方法，該方法會在遠端物件上叫用時，列舉或初始化命名空間延伸模組。 例如，會使用此介面來初始化遠端印表機虛擬資料夾。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iresolveshelllink"><strong>IResolveShellLink</strong></a><br/></td>
-<td>公開方法，這個方法可讓應用程式要求 Shell 資料夾物件解析其其中一個專案的連結。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-iresultsfolder"><strong>IResultsFolder</strong></a><br/></td>
-<td>公開保存資料物件中專案的方法。<br/> <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-iresultsfolder"><strong>IResultsFolder</strong></a>是一個資料夾，可保存所有命名空間的專案，並將其代表單一資料夾中的使用者。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-irunnabletask"><strong>IRunnableTask</strong></a><br/></td>
-<td>可由物件公開的自由執行緒介面，可讓您在背景執行緒上執行作業。 例如，如果 <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iextractimage-getlocation"><strong>IExtractImage：： GetLocation</strong></a> 方法傳回 E_PENDING，則會允許呼叫的應用程式在背景執行緒上解壓縮影像。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-isearchboxinfo"><strong>ISearchBoxInfo</strong></a><br/></td>
-<td>公開方法，可讓呼叫者取出輸入至搜尋方塊中的資訊。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-isearchcontext"><strong>ISearchCoNtext</strong></a><br/></td>
-<td>公開將自訂資訊通道至搜尋攔截的方法。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-isearchfolderitemfactory"><strong>ISearchFolderItemFactory</strong></a><br/></td>
-<td>公開建立和修改搜尋資料夾的方法。 系統會先呼叫 Set 方法，以設定搜尋的參數。 若未呼叫，則會改用預設值。 <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-isearchfolderitemfactory-getidlist"><strong>ISearchFolderItemFactory：： GetIDList</strong></a> 和 <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-isearchfolderitemfactory-getshellitem"><strong>ISearchFolderItemFactory：： GetShellItem</strong></a> 會傳回這些參數所指定的兩個搜尋形式。 <br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Thumbcache/nn-thumbcache-isharedbitmap"><strong>ISharedBitmap</strong></a><br/></td>
-<td>公開記憶體有效率的方法來存取點陣圖。 此介面是用來做為 HBITMAP 物件周圍的精簡型包裝函式，可讓這些物件的參考計數和保護，使其基礎資料變更。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-isharingconfigurationmanager"><strong>ISharingConfigurationManager</strong></a><br/></td>
-<td>公開方法，以針對 <strong>使用者</strong> (<code>C:\Users</code>) 或 <strong>公用</strong> () 資料夾，設定和抓取電腦預設共用設定的相關資訊 <code>C:\Users\Public</code> 。 也會公開一組允許控制印表機共用的方法。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Shappmgr/nn-shappmgr-ishellapp"><strong>IShellApp</strong></a><br/></td>
-<td>公開方法，以將應用程式的一般資訊提供給「新增/移除程式」應用程式。 您無法在 [新增/移除程式] 應用程式之外使用它。 此介面所提供的資訊包括支援的管理動作清單，以及應用程式目前是否已安裝。 <br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellbrowser"><strong>IShellBrowser</strong></a><br/></td>
-<td>由 Shell 視圖的主機所執行， (可執行 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview"><strong>IShellView</strong></a>) 的物件。 公開方法，這些方法會為其所裝載的視圖提供服務，以及在 Explorer 視窗的內容中執行的其他物件。 <br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-ishellchangenotify"><strong>IShellChangeNotify</strong></a><br/></td>
-<td>公開方法，這個方法會在專案的識別碼變更時通知 Shell 命名空間延伸。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-ishelldetails"><strong>IShellDetails</strong></a><br/></td>
-<td>由 Shell 資料夾公開，以提供資料夾中專案的詳細資訊。 當資料夾的視圖設定為 [詳細資料] 時，Windows 檔案總管所顯示的相同資訊。 若為 Windows 2000 和更新版本的系統， <a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-ishelldetails"><strong>IShellDetails</strong></a> 會被 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder2"><strong>IShellFolder2</strong></a>取代。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellextinit"><strong>IShellExtInit</strong></a><br/></td>
-<td>公開方法，這個方法會初始化屬性工作表、快捷方式功能表和拖放處理常式的 Shell 延伸模組， (在非預設拖放作業期間將專案新增至快捷方式功能表的延伸模組) 。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder"><strong>IShellFolder</strong></a><br/></td>
-<td>由所有 Shell 命名空間資料夾物件公開，其方法是用來管理資料夾。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder2"><strong>IShellFolder2</strong></a><br/></td>
-<td>擴充 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder"><strong>IShellFolder</strong></a>的功能。 其方法提供 Shell 資料夾內容的各種相關資訊。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="ishellfoldersearchable.md"><strong>IShellFolderSearchable</strong></a><br/></td>
-<td>公開允許 Shell 延伸模組提供可搜尋的命名空間的方法。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="ishellfoldersearchablecallback.md"><strong>IShellFolderSearchableCallback</strong></a><br/></td>
-<td>公開回呼常式來監視搜尋處理常式。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-ishellfolderviewcb"><strong>IShellFolderViewCB</strong></a><br/></td>
-<td>公開一種方法，這個方法可讓 Windows 檔案總管和使用系統資料夾 view 物件所執行的資料夾檢視， (透過) <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shcreateshellfolderview"><strong>SHCreateShellFolderView</strong></a>所傳回的<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview"><strong>IShellView</strong></a>物件，讓資料夾檢視可以收到事件的通知，並據以修改其觀點。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Shldisp/nn-shldisp-ishellfolderviewdual"><strong>IShellFolderViewDual</strong></a><br/></td>
-<td>公開修改視圖並選取目前資料夾中專案的方法。 <br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Shldisp/nn-shldisp-ishellfolderviewdual2"><strong>IShellFolderViewDual2</strong></a><br/></td>
-<td>公開修改視圖並選取目前資料夾中專案的方法。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Shldisp/nn-shldisp-ishellfolderviewdual3"><strong>IShellFolderViewDual3</strong></a><br/></td>
-<td>公開修改目前資料夾檢視的方法。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="ishellfolderviewtype.md"><strong>IShellFolderViewType</strong></a><br/></td>
-<td>公開方法，讓 Shell 資料夾可在其內容上支援不同的視圖， (其資料) 的不同階層式版面配置。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellicon"><strong>IShellIcon</strong></a><br/></td>
-<td>公開方法，以取得 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder"><strong>IShellFolder</strong></a> 物件的圖示索引。 <br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-ishelliconoverlay"><strong>IShellIconOverlay</strong></a><br/></td>
-<td>公開命名空間延伸模組所使用的方法，以指定其包含之物件的圖示重迭。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelliconoverlayidentifier"><strong>IShellIconOverlayIdentifier</strong></a><br/></td>
-<td>公開處理圖示重迭處理常式和 Shell 之間所有通訊的方法。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Shimgdata/nn-shimgdata-ishellimagedataabort"><strong>IShellImageDataAbort</strong></a><br/></td>
-<td>公開用來中止 <a href="/windows/desktop/api/Shimgdata/nn-shimgdata-ishellimagedata"><strong>IShellImageData</strong></a> 進程的單一方法。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Shimgdata/nn-shimgdata-ishellimagedatafactory"><strong>IShellImageDataFactory</strong></a><br/></td>
-<td>公開方法，以根據各種影像來源來建立 <a href="/windows/desktop/api/Shimgdata/nn-shimgdata-ishellimagedata"><strong>IShellImageData</strong></a> 實例。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem"><strong>IShellItem</strong></a><br/></td>
-<td>公開取得 Shell 專案相關資訊的方法。 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem"><strong>IShellItem</strong></a> 和 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem2"><strong>IShellItem2</strong></a> 是任何新程式碼中專案的慣用標記法。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem2"><strong>IShellItem2</strong></a><br/></td>
-<td>使用可取得專案之各種屬性值的方法來擴充 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem"><strong>IShellItem</strong></a> 。 <strong>IShellItem</strong> 和 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem2"><strong>IShellItem2</strong></a> 是任何新程式碼中專案的慣用標記法。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitemarray"><strong>IShellItemArray</strong></a><br/></td>
-<td>公開建立和操作 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem"><strong>Shell 專案</strong></a> 陣列的方法。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitemfilter"><strong>IShellItemFilter</strong></a><br/></td>
-<td>由用戶端公開，以指定如何透過伺服器應用程式篩選 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem"><strong>Shell 專案</strong></a> 的列舉。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitemimagefactory"><strong>IShellItemImageFactory</strong></a><br/></td>
-<td>公開方法，以傳回 Shell 專案的圖示或縮圖。 如果要求的專案沒有可用的縮圖或圖示，則可以從 Shell 提供個別類別的圖示。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitemresources"><strong>IShellItemResources</strong></a><br/></td>
-<td>公開操作和查詢 Shell 專案資源的方法。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllibrary"><strong>IShellLibrary</strong></a><br/></td>
-<td>公開用來建立和管理程式庫的方法。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Shobjidl_core/nn-shobjidl_core-ishelllinka"><strong>IShellLink</strong></a><br/></td>
-<td>公開建立、修改和解析 Shell 連結的方法。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinkdatalist"><strong>IShellLinkDataList</strong></a><br/></td>
-<td>公開可讓應用程式將額外的資料區塊附加至 <a href="/windows/desktop/shell/links">Shell 連結</a>的方法。 這些方法會新增、複製或移除資料區塊。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellmenu"><strong>IShellMenu</strong></a><br/></td>
-<td>公開與 Shell 功能表互動的方法，例如 [ <strong>開始</strong> ] 功能表和 [我的最愛 <strong>]</strong> 功能表。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellmenucallback"><strong>IShellMenuCallback</strong></a><br/></td>
-<td>回呼介面，這個介面會公開從功能表區中接收訊息的方法。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellpropsheetext"><strong>IShellPropSheetExt</strong></a><br/></td>
-<td>公開方法，這些方法可讓屬性工作表處理常式新增或取代針對檔案物件所顯示之屬性工作表中的頁面。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl/nn-shobjidl-ishellrundll"><strong>IShellRunDll</strong></a><br/></td>
-
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview"><strong>IShellView</strong></a><br/></td>
-<td>公開在 Windows 檔案總管或資料夾視窗中顯示視圖的方法。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview2"><strong>IShellView2</strong></a><br/></td>
-<td>擴充 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview"><strong>IShellView</strong></a>的功能。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-ishellview3"><strong>IShellView3</strong></a><br/></td>
-<td>藉由提供取代<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellview2-createviewwindow2"><strong>IShellView2：： CreateViewWindow2</strong></a>的方法，擴充<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview2"><strong>IShellView2</strong></a>的功能。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Exdisp/nn-exdisp-ishellwindows"><strong>IShellWindows</strong></a><br/></td>
-<td>提供開啟 Shell 視窗集合的存取權。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-istartmenupinnedlist"><strong>IStartMenuPinnedList</strong></a><br/></td>
-<td>公開從 [ <strong>開始</strong> ] 功能表或工作列取消固定應用程式快捷方式的方法。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="nn-shobjidl-istorageprovidercopyhook.md"><strong>IStorageProviderCopyHook</strong></a><br/></td>
-<td>公開方法，這個方法會判斷是否允許 Shell 移動、複製、刪除或重新命名雲端提供者的同步根中的資料夾。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/storageprovider/nn-storageprovider-istorageproviderhandler"><strong>IStorageProviderHandler</strong></a><br/></td>
-<td>捕獲與特定檔案或資料夾相關聯的 <a href="/windows/desktop/api/storageprovider/nn-storageprovider-istorageproviderpropertyhandler"><strong>IStorageProviderPropertyHandler</strong></a> 。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/storageprovider/nn-storageprovider-istorageproviderpropertyhandler"><strong>IStorageProviderPropertyHandler</strong></a><br/></td>
-<td>提供與檔案或資料夾相關聯的屬性集合。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-istreamasync"><strong>IStreamAsync</strong></a><br/></td>
-<td>公開方法，以管理非同步資料流程) 的輸入/輸出 (i/o。 <br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-istreamunbufferedinfo"><strong>IStreamUnbufferedInfo</strong></a><br/></td>
-<td>公開方法，以將磁區大小判斷為位元組對齊的輔助。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-isuspensiondependencymanager"><strong>ISuspensionDependencyManager</strong></a><br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrconflict"><strong>ISyncMgrConflict</strong></a><br/></td>
-<td>公開方法，以提供從衝突存放區抓取之衝突的相關資訊，並允許解決衝突。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrconflictfolder"><strong>ISyncMgrConflictFolder</strong></a><br/></td>
-<td>公開方法，以取得衝突物件的衝突 ID 清單。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrconflictitems"><strong>ISyncMgrConflictItems</strong></a><br/></td>
-<td>公開取得衝突專案資料和專案計數的方法。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrconflictpresenter"><strong>ISyncMgrConflictPresenter</strong></a><br/></td>
-<td>公開向使用者呈現衝突的方法。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrconflictresolutionitems"><strong>ISyncMgrConflictResolutionItems</strong></a><br/></td>
-<td>公開取得專案資訊和專案計數的方法。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrconflictresolveinfo"><strong>ISyncMgrConflictResolveInfo</strong></a><br/></td>
-<td>公開取得和設定同步管理員衝突解決相關資訊的方法。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrconflictstore"><strong>ISyncMgrConflictStore</strong></a><br/></td>
-<td>公開方法，讓處理常式能夠提供出現在衝突資料夾中的衝突。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrcontrol"><strong>ISyncMgrControl</strong></a><br/></td>
-<td>公開方法，以允許應用程式或處理常式啟動或停止同步處理、通知同步中心一組處理常式或專案的變更，或通知屬性值的變更。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/mobsync/nn-mobsync-isyncmgrenumitems"><strong>ISyncMgrEnumItems</strong></a><br/></td>
-<td>公開列舉 <a href="/windows/win32/api/mobsync/ns-mobsync-syncmgritem"><strong>SYNCMGRITEM</strong></a> 結構陣列的方法。 上述每一個結構都會提供可同步處理之專案的相關資訊。 <a href="/windows/desktop/api/mobsync/nn-mobsync-isyncmgrenumitems"><strong>ISyncMgrEnumItems</strong></a> 具有與所有標準列舉值介面相同的方法：下一步、略過、重設和複製。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrevent"><strong>ISyncMgrEvent</strong></a><br/></td>
-<td>公開從事件存放區取出資料的方法。 事件存放區可讓同步中心取得存放區中所有事件的列舉值，以及取得個別事件。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgreventlinkuioperation"><strong>ISyncMgrEventLinkUIOperation</strong></a><br/></td>
-<td>提供當按一下 [同步結果] 資料夾中的事件連結時，所呼叫的方法。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgreventstore"><strong>ISyncMgrEventStore</strong></a><br/></td>
-<td>公開的方法可讓處理常式提供自己的事件存放區，並管理它自己的同步事件，而不是使用預設的同步中心事件存放區。 這些事件會顯示在 [同步處理結果] 資料夾中。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrhandler"><strong>ISyncMgrHandler</strong></a><br/></td>
-<td>公開組成同步處理處理常式所執行之主要介面的方法。 同步中心透過這個介面建立一個處理常式的實例，以取得屬性、列舉同步專案，以及修改狀態。 同步中心會在個別的執行緒上建立個別處理常式的實例，以執行同步處理或 UI 操作。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrhandlercollection"><strong>ISyncMgrHandlerCollection</strong></a><br/></td>
-<td>公開提供同步處理處理常式識別碼列舉值的方法，並將這些同步處理處理常式具現化。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrhandlerinfo"><strong>ISyncMgrHandlerInfo</strong></a><br/></td>
-<td>公開可讓處理常式將屬性和狀態資訊提供給同步中心的方法。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Mobsync/nn-mobsync-isyncmgrregister"><strong>ISyncMgrRegister</strong></a><br/></td>
-<td>公開方法，讓應用程式可以向同步處理管理員註冊。 這可以透過 <a href="/windows/desktop/api/Mobsync/nn-mobsync-isyncmgrregister"><strong>ISyncMgrRegister</strong></a> 介面或直接在登錄中註冊來達成。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrresolutionhandler"><strong>ISyncMgrResolutionHandler</strong></a><br/></td>
-<td>公開管理同步處理衝突的方法。 執行此介面來建立同步衝突處理常式。 衝突解決使用者介面 (UI) 會呼叫這個介面，以解決呈現給使用者的衝突。 <br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrschedulewizarduioperation"><strong>ISyncMgrScheduleWizardUIOperation</strong></a><br/></td>
-<td>公開方法，這個方法可讓處理常式顯示處理常式的同步排程 wizard。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrsessioncreator"><strong>ISyncMgrSessionCreator</strong></a><br/></td>
-<td>公開單一方法，處理常式或外部應用程式可以透過此方法通知同步中心同步處理已開始，以及報告進度和事件。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrsynccallback"><strong>ISyncMgrSyncCallback</strong></a><br/></td>
-<td>公開方法，以允許同步處理常式將進度和事件回報給同步中心，或查詢是否已取消處理常式。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Mobsync/nn-mobsync-isyncmgrsynchronize"><strong>ISyncMgrSynchronize</strong></a><br/></td>
-<td>公開方法，讓已註冊的應用程式或服務接收來自同步處理管理員的通知。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/mobsync/nn-mobsync-isyncmgrsynchronizecallback"><strong>ISyncMgrSynchronizeCallback</strong></a><br/></td>
-<td>公開管理同步處理常式的方法。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Mobsync/nn-mobsync-isyncmgrsynchronizeinvoke"><strong>ISyncMgrSynchronizeInvoke</strong></a><br/></td>
-<td>公開方法，讓已註冊的應用程式叫用同步處理管理員來更新專案。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrsyncitem"><strong>ISyncMgrSyncItem</strong></a><br/></td>
-<td>公開在單一同步處理專案中處理和取得資訊的方法，讓處理常式能夠將同步處理專案當做獨立物件來管理。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrsyncitemcontainer"><strong>ISyncMgrSyncItemContainer</strong></a><br/></td>
-<td>公開方法，以提供有關其所包含專案之處理常式的資訊。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrsynciteminfo"><strong>ISyncMgrSyncItemInfo</strong></a><br/></td>
-<td>公開提供單一同步處理專案之屬性和狀態資訊的方法。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrsyncresult"><strong>ISyncMgrSyncResult</strong></a><br/></td>
-<td>公開呼叫 <a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrcontrol"><strong>ISyncMgrControl</strong></a> 的應用程式可以使用的方法，以取得 <a href="/windows/desktop/api/Syncmgr/nf-syncmgr-isyncmgrcontrol-starthandlersync"><strong>ISyncMgrControl：： StartHandlerSync</strong></a> 或 <a href="/windows/desktop/api/Syncmgr/nf-syncmgr-isyncmgrcontrol-startitemsync"><strong>ISyncMgrControl：： StartItemSync</strong></a> 呼叫的結果。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgruioperation"><strong>ISyncMgrUIOperation</strong></a><br/></td>
-<td>公開方法，讓同步處理處理常式或同步處理專案可以在同步中心要求時，顯示 UI 物件。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist"><strong>ITaskbarList</strong></a><br/></td>
-<td>公開控制工作列的方法。 它可讓您以動態方式加入、移除和啟動工作列上的專案。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist2"><strong>ITaskbarList2</strong></a><br/></td>
-<td>藉由公開方法將視窗標示為全螢幕顯示，來擴充 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist"><strong>ITaskbarList</strong></a> 介面。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist3"><strong>ITaskbarList3</strong></a><br/></td>
-<td>藉由公開支援 Windows 7 中所新增之統一啟動和切換工作列按鈕功能的方法，擴充 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist2"><strong>ITaskbarList2</strong></a> 。 這項功能包含以索引標籤式應用程式中的個別索引標籤、縮圖工具列、通知和狀態重迭和進度指標為基礎的縮圖表示和切換目標。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist4"><strong>ITaskbarList4</strong></a><br/></td>
-<td>藉由提供可讓呼叫者控制索引標籤縮圖和預覽功能的兩個屬性值的方法，來擴充 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist3"><strong>ITaskbarList3</strong></a> 。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Thumbcache/nn-thumbcache-ithumbnailcache"><strong>IThumbnailCache</strong></a><br/></td>
-<td>公開跨應用程式共用之系統縮圖快取的方法。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/thumbcache/nn-thumbcache-ithumbnailcacheprimer"><strong>IThumbnailCachePrimer</strong></a><br/></td>
-
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ithumbnailhandlerfactory"><strong>IThumbnailHandlerFactory</strong></a><br/></td>
-<td>公開用來抓取專案縮圖處理常式的方法。 如果您想要指定子 Idlist.txt 所使用的解壓縮程式，請執行這個介面。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Thumbcache/nn-thumbcache-ithumbnailprovider"><strong>IThumbnailProvider</strong></a><br/></td>
-<td>公開取得縮圖影像的方法，並將其設計為縮圖處理常式。 執行這個介面的物件也必須執行 <a href="/windows/desktop/api/Propsys/nn-propsys-iinitializewithstream"><strong>IInitializeWithStream</strong></a>。 <br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Thumbcache/nn-thumbcache-ithumbnailsettings"><strong>IThumbnailSettings</strong></a><br/></td>
-<td>提供方法，讓縮圖提供者判斷縮圖要求的使用者內容。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/thumbnailstreamcache/nn-thumbnailstreamcache-ithumbnailstreamcache"><strong>IThumbnailStreamCache</strong></a><br/></td>
-<td>取得或設定縮圖資料流程。 這個介面僅供內部使用，而且只能由相片應用程式呼叫。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Shdeprecated/nn-shdeprecated-itrackshellmenu"><strong>ITrackShellMenu</strong></a><br/></td>
-<td>公開擴充 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellmenu"><strong>IShellMenu</strong></a> 介面的方法，方法是提供可協調工具列按鈕和功能表，以及顯示快顯功能表的功能。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Imagetranscode/nn-imagetranscode-itranscodeimage"><strong>ITranscodeImage</strong></a><br/></td>
-<td>公開方法，這個方法可讓您從 Windows 支援的任何影像類型轉換成 JPEG 或點陣圖 (BMP) 影像格式。 <br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itransferadvisesink"><strong>ITransferAdviseSink</strong></a><br/></td>
-<td>公開支援狀態收集和失敗資訊的方法。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itransferdestination"><strong>ITransferDestination</strong></a><br/></td>
-<td>公開方法，以建立複製或移動作業的目的地 Shell 專案。 提供此介面可提供 <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itransferdestination-advise"><strong>ITransferDestination：： Advise</strong></a> 方法，讓您更充分掌控檔案作業。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itransfermediumitem"><strong>ITransferMediumItem</strong></a><br/></td>
-<td>供複製引擎用來取得要呼叫 <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)"><strong>QueryInterface</strong></a> 的專案，以傳回介面 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itransferdestination"><strong>ITransferDestination</strong></a> 或介面 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itransfersource"><strong>ITransferSource</strong></a>的指標。 您可以查詢和列舉這些介面，以進行複製、移動或刪除作業。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itransfersource"><strong>ITransferSource</strong></a><br/></td>
-<td>公開方法來操作 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem"><strong>IShellItem</strong></a>，包括複製、移動、回收和其他。 提供此介面可提供 <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itransfersource-advise"><strong>ITransferSource：： Advise</strong></a> 方法來更充分掌控檔案作業。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-itraydeskband"><strong>ITrayDeskBand</strong></a><br/></td>
-<td>公開顯示、隱藏和查詢 deskbands 的方法。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iupdateidlist"><strong>IUpdateIDList</strong></a><br/></td>
-<td>提供方法來更新資料夾物件之子系的 <a href="/windows/desktop/api/Shtypes/ns-shtypes-itemidlist"><strong>ITEMIDLIST</strong></a> 。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-iurlsearchhook"><strong>IURLSearchHook</strong></a><br/></td>
-<td>公開瀏覽器用來轉譯未知 URL 通訊協定位址的方法。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-iurlsearchhook2"><strong>IURLSearchHook2</strong></a><br/></td>
-<td>公開一種方法，讓瀏覽器使用搜尋內容物件來轉譯未知 URL 通訊協定的位址。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-iuseraccountchangecallback"><strong>IUserAccountChangeCallback</strong></a><br/></td>
-<td>公開方法，這個方法會在代表使用者帳戶的圖片變更時呼叫。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iusernotification"><strong>IUserNotification</strong></a><br/></td>
-<td>公開設定通知資訊的方法，然後在與工作列的通知區域一起出現的氣球中，向使用者顯示該通知。 <br/>
-<blockquote>
-[!Note]<br />
-<a href="/windows/desktop/api/Shobjidl/nn-shobjidl-iusernotification2"><strong>IUserNotification2</strong></a> 與 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iusernotification"><strong>IUserNotification</strong></a> 的不同之處在于它的 <a href="/windows/desktop/api/Shobjidl/nf-shobjidl-iusernotification2-show"><strong>Show</strong></a> 方法，它會針對回呼介面加入額外的參數，以與通知進行通訊。 否則，表單和函式中的兩個介面都相同。 CLSID_UserNotification 會將這兩個版本的 <strong>顯示</strong> 為多載。
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-iusernotification2"><strong>IUserNotification2</strong></a><br/></td>
-<td>公開設定通知資訊的方法，然後在與工作列的通知區域一起出現的氣球中，向使用者顯示該通知。 <br/>
-<blockquote>
-[!Note]<br />
-<a href="/windows/desktop/api/Shobjidl/nn-shobjidl-iusernotification2"><strong>IUserNotification2</strong></a> 不會繼承自 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iusernotification"><strong>IUserNotification</strong></a>。 <strong>IUserNotification2</strong> 與 <strong>IUserNotification</strong> 的不同之處在于它的 <a href="/windows/desktop/api/Shobjidl/nf-shobjidl-iusernotification2-show"><strong>Show</strong></a> 方法，它會針對回呼介面加入額外的參數，以與通知進行通訊。 否則，表單和函式中的兩個介面都相同。 CLSID_UserNotification 會將這兩個版本的 <strong>顯示</strong> 為多載。
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-iusernotificationcallback"><strong>IUserNotificationCallback</strong></a><br/></td>
-<td>公開在通知氣球中處理滑鼠按一下或快捷方式功能表存取的方法。 搭配 <a href="/windows/desktop/api/Shobjidl/nf-shobjidl-iusernotification2-show"><strong>IUserNotification2：： Show</strong></a>使用。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl/nn-shobjidl-iusetobrowseitem"><strong>IUseToBrowseItem</strong></a><br/></td>
-<td>尋找流覽至此專案時應該使用的專案。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iviewstateidentityitem"><strong>IViewStateIdentityItem</strong></a><br/></td>
-<td>提供標準的持續性專案，將會記住其 view 自訂專案。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/win32/api/shobjidl_core/nn-shobjidl_core-ivirtualdesktopmanager"><strong>IVirtualDesktopManager</strong></a><br/></td>
-<td>公開方法，讓應用程式與構成虛擬工作區的視窗群組進行互動。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-ivisualproperties"><strong>IVisualProperties</strong></a><br/></td>
-<td>公開設定和取得視覺屬性的方法。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-iwebwizardextension"><strong>IWebWizardExtension</strong></a><br/></td>
-<td>藉由公開方法來擴充 <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-iwizardextension"><strong>IWizardExtension</strong></a> 介面，以設定 wizard 擴充功能的初始 URL，以及在發生錯誤時使用特定的 url。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-iwizardextension"><strong>IWizardExtension</strong></a><br/></td>
-<td>由 Web 發佈嚮導和裝載伺服器端內容頁面的 [線上列印順序] Wizard 等的嚮導使用。 這個介面會公開方法，以指定支援的延伸模組頁面，以及流覽和移出這些頁面。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-iwizardsite"><strong>IWizardSite</strong></a><br/></td>
-<td>公開 wizard 擴充功能所使用的方法，以導覽其本身和嚮導其餘部分之間的框線。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="taskcompletionclient.md"><strong>TaskCompletionClient</strong></a><br/></td>
-<td>啟用工作完成。 <br/></td>
-</tr>
-</tbody>
-</table>
 
 
 

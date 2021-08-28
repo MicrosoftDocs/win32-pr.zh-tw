@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: a22ca88937b1c285c88edcc2fa1e9edaf1498a5473c8459f744f752cd1fbc7df
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 1e315cfc32b10274eee47258360e85543f15311a
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119562868"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122624094"
 ---
 # <a name="samplegrad-directx-hlsl-texture-object"></a>SampleGrad (DirectX HLSL 材質物件) 
 
@@ -32,12 +32,12 @@ ms.locfileid: "119562868"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
-<th>項目</th>
+<th>Item</th>
 <th>描述</th>
 </tr>
 </thead>

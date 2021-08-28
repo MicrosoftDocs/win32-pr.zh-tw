@@ -4,12 +4,12 @@ ms.assetid: cebd64ea-b20f-4ccc-805f-0deab3096bc3
 title: 'MF_TRANSFORM_CATEGORY_Attribute 屬性 (Mftransform) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bd3c64fd5e19bba10646957e7c247294b6d82a97
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 66adac9b1b9f07b3053ff871a12d17163ae2b5f1a2ef644885b54cb8ed281437
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191621"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120113688"
 ---
 # <a name="mf_transform_category_attribute-attribute"></a>MF \_ 轉換 \_ 類別目錄 \_ 屬性屬性
 
@@ -38,7 +38,7 @@ ms.locfileid: "104191621"
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 7 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | Windows Server 2008 R2 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                           |
+| 最低支援的伺服器<br/> | WindowsServer 2008 R2 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                           |
 | 標頭<br/>                   | <dl> <dt>Mftransform。h</dt> </dl> |
 
 

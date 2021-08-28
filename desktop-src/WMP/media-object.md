@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 88eff6ee0a97e63df6a0c073ef18425cbb576e85
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 3c1dbcb3dc662a431f279e03697620b80c242c99eb32e3bbcdc26d71796f7e50
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "106969081"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120123308"
 ---
 # <a name="media-object"></a>媒體物件
 
@@ -42,7 +42,7 @@ ms.locfileid: "106969081"
 
 
 
- 
+ 
 
 **媒體** 物件支援下列方法。
 
@@ -64,7 +64,7 @@ ms.locfileid: "106969081"
 
 
 
- 
+ 
 
 **媒體** 物件可透過下列屬性和方法來存取。
 
@@ -78,7 +78,7 @@ ms.locfileid: "106969081"
 
 
 
- 
+ 
 
 因為這是最常見的存取方式，也就是 *播放機*。**currentMedia** 是用於參考語法區段中的說明用途。
 
@@ -89,9 +89,9 @@ ms.locfileid: "106969081"
 [**腳本的物件模型參考**](object-model-reference-for-scripting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

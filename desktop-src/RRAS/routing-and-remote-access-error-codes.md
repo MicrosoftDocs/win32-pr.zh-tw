@@ -11,12 +11,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 5750e7f30293328fbdd8318b9f2fdd5a99b77b1bee8ad485df98db17e4bc12d1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7bd68c31ef2b92cce75059d5d86ee68dc65d1151
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119672778"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122624324"
 ---
 # <a name="routing-and-remote-access-error-codes"></a>路由和遠端存取錯誤代碼
 
@@ -26,8 +26,8 @@ ms.locfileid: "119672778"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -1593,8 +1593,8 @@ Windows Vista 和更新版本的 Windows 支援。
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">

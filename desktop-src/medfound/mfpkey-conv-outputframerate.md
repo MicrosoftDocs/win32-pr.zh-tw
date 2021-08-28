@@ -4,12 +4,12 @@ ms.assetid: a825f3a5-f9b5-49c3-853c-87d1dcb3c4ca
 title: 'MFPKEY_CONV_OUTPUTFRAMERATE 屬性 (Wmcodecdsp) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1f58c834a7a0c423171a35ee974bc83fed957d2b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 57b13f9b82697a878d1fb73ff8a28493e584d269fc5ace5893448e404c76fd4b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192268"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120113348"
 ---
 # <a name="mfpkey_conv_outputframerate-property"></a>MFPKEY \_ 約定 \_ OUTPUTFRAMERATE 屬性
 
@@ -37,8 +37,8 @@ VT \_ UI8
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                             |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                    |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                             |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                    |
 | 標頭<br/>                   | <dl> <dt>Wmcodecdsp。h</dt> </dl> |
 
 

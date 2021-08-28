@@ -4,12 +4,12 @@ ms.assetid: 6f1657f9-063b-4d57-ad76-95e3dbe25786
 title: 條件陳述式語法
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f0548a71756faff654bfe2b49e14c0581a6248a5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f131cf9513d4bf19bb84c5777d1fed1411a682ce
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848936"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122886440"
 ---
 # <a name="conditional-statement-syntax"></a>條件陳述式語法
 
@@ -23,7 +23,7 @@ ms.locfileid: "103848936"
 
 | 項目                | Syntax                                                                                                          |
 |---------------------|-----------------------------------------------------------------------------------------------------------------|
-| value               | 符號 \| 常值 \| 整數                                                                                    |
+| 值               | 符號 \| 常值 \| 整數                                                                                    |
 | 比較-運算子 | < \| > \| <= \| >= \| = \| <>                                                                 |
 | 詞彙                | 值 \| 比較-運算子值 \| ( 運算式 ) \|                                                    |
 | 布林值因數      | 詞彙 \| **不** 是詞彙                                                                                            |
@@ -45,7 +45,7 @@ ms.locfileid: "103848936"
 
 -   不存在的屬性值會被視為空字串。
 -   不支援浮點數值。
--   運算子和優先順序與基本和 SQL 語言中的相同。
+-   運算子和優先順序與基本和 SQL 語言相同。
 -   不支援算術運算子。
 -   括弧可以用來覆寫運算子優先順序。
 -   運算子不區分大小寫。
@@ -147,7 +147,7 @@ ms.locfileid: "103848936"
 
 
 
-| 運算元 <state> | 此語法有效的位置                                                                                                                                         |
+| 操作員 &lt; 狀態&gt; | 此語法有效的位置                                                                                                                                         |
 |------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | $component-動作      | 在 [條件](condition-table.md) 資料表中，以及在 [順序](using-a-sequence-table.md) 資料表中，于 [CostFinalize](costfinalize-action.md) 動作之後。 |
 | &功能-動作        | 在 [條件](condition-table.md) 資料表中，以及在 [順序](using-a-sequence-table.md) 資料表中，于 [CostFinalize](costfinalize-action.md) 動作之後。 |
@@ -178,7 +178,7 @@ ms.locfileid: "103848936"
 
 請注意，您不應該相依于 $Component 1 = 3 的條件，以檢查 Component1 是否在本機安裝在電腦上。 如果有多個產品安裝 Component1，這可能會失敗。 由 Product1 在本機安裝 Component1 之後，安裝程式會在安裝 Product2 時，將條件 $Component 1 = 3 評估為 False。 這是因為安裝程式會使用元件的金鑰路徑來判斷元件的版本，並在其版本大於或等於已安裝的元件時，將元件標記為安裝。
 
-請注意，安裝程式將不會直接比較準則語句中的 [版本](version.md) 資料類型。 例如，您無法在條件陳述式中使用比較運算子來比較版本，例如 "01.10" 和 "1.010"。 相反地，請使用有效的方法來搜尋版本，例如搜尋 [現有的應用程式、檔案、登錄專案或 .ini 檔專案](searching-for-existing-applications-files-registry-entries-or--ini-file-entries.md)中所述，然後設定屬性。
+請注意，安裝程式將不會直接比較準則語句中的 [版本](version.md) 資料類型。 例如，您無法在條件陳述式中使用比較運算子來比較版本，例如 "01.10" 和 "1.010"。 相反地，請使用有效的方法來搜尋版本，例如搜尋 [現有的應用程式、檔案、登錄專案或 .ini 檔專案](searching-for-existing-applications-files-registry-entries-or--ini-file-entries.md)，然後設定屬性。
 
 ## <a name="related-topics"></a>相關主題
 

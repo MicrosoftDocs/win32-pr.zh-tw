@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Sxsoa.dll
-ms.openlocfilehash: a102fdae74232fa9a67c4b9455050bcdba32a219d8a66180ae8bc6ce6cb96c8c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b6c47c00f50cdeaa97fd0fafcd8aefa3c4863bc1
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119885278"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122886608"
 ---
 # <a name="actctxgetobject-method"></a>ActCtx 的 GetObject 方法
 
@@ -42,7 +42,7 @@ ActCtx.GetObject(
 *bstrName* 
 </dt> <dd>
 
-表示物件的必要字串。 此名稱必須位於 **HKEY \_ LOCAL \_ MACHINE** \\ **Microsoft** \\ **Visual Studio** \\ **6.0** \\ **<package>** \\ **Automation** 下的登錄中。
+表示物件的必要字串。 此名稱必須位於 **HKEY \_ LOCAL \_ MACHINE** \\ **Microsoft** \\ **Visual Studio** \\ **6.0** \\ **&lt; package &gt;** \\ **Automation** 下的登錄中。
 
 </dd> </dl>
 

@@ -4,12 +4,12 @@ ms.assetid: 35727810-3c4c-4c11-a4a2-3ae2cf3b8142
 title: WIC 中繼資料總覽
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1f00e3a77eb74a3fb4a00db05ef9e00028f02ecf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 44f5031759dd73861a97aace623b35f229b75952
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104563345"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122472024"
 ---
 # <a name="wic-metadata-overview"></a>WIC 中繼資料總覽
 
@@ -30,11 +30,11 @@ ms.locfileid: "104563345"
 
 ## <a name="prerequisites"></a>必要條件
 
-若要瞭解本主題，您應該熟悉 WIC 編碼器和解碼器介面，以及其相關元件物件模型 (COM) 元件，如 [Windows 影像處理元件總覽](-wic-about-windows-imaging-codec.md)所述。 它也有助於讓您大致熟悉目前使用的一些影像處理元資料格式。
+若要瞭解本主題，您應該熟悉 WIC 編碼器和解碼器介面，以及其相關元件物件模型 (COM) 元件，如[Windows 影像處理元件總覽](-wic-about-windows-imaging-codec.md)所述。 它也有助於讓您大致熟悉目前使用的一些影像處理元資料格式。
 
 ## <a name="introduction"></a>簡介
 
-中繼資料提供有關影像的延伸資訊。 這項資訊可以用數種方式來使用。 影像可能包含中繼資料，例如描述、評等、類別標記和著作權資訊。 存取中繼資料可讓您更輕鬆地執行工作，例如資產管理、檔案位置或決定著作權資訊。 例如，Windows Vista 中的 Windows 影像中心可讓您將描述和類別標記新增至影像。 這可讓您更有效率地探索映射，並提供方便的方式來分類影像。 使用 WIC Api 和通用元資料格式，應用程式可以輕鬆地將這類的中繼資料寫入或讀取至影像。
+中繼資料提供有關影像的延伸資訊。 這項資訊可以用數種方式來使用。 影像可能包含中繼資料，例如描述、評等、類別標記和著作權資訊。 存取中繼資料可讓您更輕鬆地執行工作，例如資產管理、檔案位置或決定著作權資訊。 例如，Windows Vista 中的 Windows 影像中心可讓您將描述和分類標記新增至影像。 這可讓您更有效率地探索映射，並提供方便的方式來分類影像。 使用 WIC Api 和通用元資料格式，應用程式可以輕鬆地將這類的中繼資料寫入或讀取至影像。
 
 下圖說明 JPEG 檔案的內容，其中包含內嵌的中繼資料區塊和中繼資料專案。
 
@@ -165,16 +165,16 @@ WIC 提供數種常見元資料格式的支援。 下表列出支援的元資料
 
 | 支援的元資料格式 | 中繼資料規格版本 | 影像格式支援 | 支援快速中繼資料編碼 |
 |----------------------------|--------------------------------|----------------------|---------------------------------|
-| App0                       | JFIF 1.02                      | JPEG                 | No                              |
-| App1                       | JFIF 1.02                      | JPEG、TIFF           | No                              |
-| App13                      | Unknown                        | JPEG、TIFF           | No                              |
-| IFD                        | TIFF 6。0                       | JPEG、TIFF           | Yes                             |
-| Irb                        | Unknown                        | JPEG、TIFF           | No                              |
-| Exif                       | Exif 2。2                       | JPEG、TIFF           | Yes                             |
-| XMP                        | XMP 1.0 (9 月 2005)             | JPEG、TIFF           | Yes                             |
-| GPS                        | Exif 2。2                       | JPEG、TIFF           | Yes                             |
-| IPTC                       | IPTC 4。0                       | JPEG、TIFF           | Yes                             |
-| 文本                       | PNG 1。2                        | PNG                  | No                              |
+| App0                       | JFIF 1.02                      | JPEG                 | 否                              |
+| App1                       | JFIF 1.02                      | JPEG、TIFF           | 否                              |
+| App13                      | Unknown                        | JPEG、TIFF           | 否                              |
+| IFD                        | TIFF 6。0                       | JPEG、TIFF           | 是                             |
+| IRB                        | Unknown                        | JPEG、TIFF           | 否                              |
+| Exif                       | Exif 2。2                       | JPEG、TIFF           | 是                             |
+| XMP                        | XMP 1.0 (9 月 2005)             | JPEG、TIFF           | 是                             |
+| GPS                        | Exif 2。2                       | JPEG、TIFF           | 是                             |
+| IPTC                       | IPTC 4。0                       | JPEG、TIFF           | 是                             |
+| 文本                       | PNG 1。2                        | PNG                  | 否                              |
 
 
 
@@ -187,54 +187,16 @@ WIC 提供數種常見元資料格式的支援。 下表列出支援的元資料
 
 ## <a name="metadata-component-summary"></a>中繼資料元件摘要
 
-下表描述支援中繼資料的 WIC 介面，以及其對應的元件。 這些元件提供映射中繼資料的存取權。 如需這些元件的詳細資訊，請參閱 [Windows 影像處理元件總覽](-wic-about-windows-imaging-codec.md)。 
+下表描述支援中繼資料的 WIC 介面，以及其對應的元件。 這些元件提供映射中繼資料的存取權。 如需這些元件的詳細資訊，請參閱[Windows 影像處理元件總覽](-wic-about-windows-imaging-codec.md)。 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>元件</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>點陣圖解碼 (<a href="/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapdecoder"><strong>IWICBitmapDecoder</strong></a>) </td>
-<td><ul>
-<li>讀取影像資料流程並產生可用的點陣圖來源。 與容器格式相關聯，例如標記的影像檔案格式 (TIFF) 或 (JPEG) 的聯合攝影專家群組。</li>
-<li>執行 <a href="/windows/desktop/api/Wincodecsdk/nn-wincodecsdk-iwicmetadatablockreader"><strong>IWICMetadataBlockReader</strong></a> 介面，以列舉不在框架內的解碼器資料流程中的所有中繼資料區塊。</li>
-<li>公開查詢讀取器，以讀取與不在框架內的影像相關聯的中繼資料。</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>點陣圖框架解碼 (<a href="/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframedecode"><strong>IWICBitmapFrameDecode</strong></a>) </td>
-<td><ul>
-<li>從解碼器所持有的影像串流存取個別的畫面格。</li>
-<li>實 <a href="/windows/desktop/api/Wincodecsdk/nn-wincodecsdk-iwicmetadatablockreader"><strong>IWICMetadataBlockReader</strong></a> 介面，以列舉框架資料流程中的所有中繼資料區塊。</li>
-<li>使用查詢運算式來公開查詢讀取器，以讀取與框架相關聯的中繼資料。</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>點陣圖編碼器 (<a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapencoder"><strong>IWICBitmapEncoder</strong></a>) </td>
-<td><ul>
-<li>將點陣圖來源寫入影像資料流程。 與容器格式相關聯，例如 TIFF 或 JPEG。</li>
-<li>執行 <a href="/windows/desktop/api/Wincodecsdk/nn-wincodecsdk-iwicmetadatablockwriter"><strong>IWICMetadataBlockWriter</strong></a> 介面，以建立要寫入編碼器資料流程的中繼資料區塊清單。</li>
-<li>使用查詢運算式，公開查詢寫入器來寫入與影像相關聯的中繼資料。</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>Bitma 框架編碼 (<a href="/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframeencode"><strong>IWICBitmapFrameEncode</strong></a>) </td>
-<td><ul>
-<li>建立將編碼為編碼器所持有之資料流程的框架。</li>
-<li>實 <a href="/windows/desktop/api/Wincodecsdk/nn-wincodecsdk-iwicmetadatablockwriter"><strong>IWICMetadataBlockWriter</strong></a> 介面，以建立要寫入框架資料流程的中繼資料區塊清單。</li>
-<li>使用查詢運算式，公開查詢寫入器來寫入與框架相關聯的中繼資料。</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| 元件 | 描述 | 
+|-----------|-------------|
+| 點陣圖解碼 (<a href="/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapdecoder"><strong>IWICBitmapDecoder</strong></a>)  | <ul><li>讀取影像資料流程並產生可用的點陣圖來源。 與容器格式相關聯，例如標記的影像檔案格式 (TIFF) 或 (JPEG) 的聯合攝影專家群組。</li><li>執行 <a href="/windows/desktop/api/Wincodecsdk/nn-wincodecsdk-iwicmetadatablockreader"><strong>IWICMetadataBlockReader</strong></a> 介面，以列舉不在框架內的解碼器資料流程中的所有中繼資料區塊。</li><li>公開查詢讀取器，以讀取與不在框架內的影像相關聯的中繼資料。</li></ul> | 
+| 點陣圖框架解碼 (<a href="/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframedecode"><strong>IWICBitmapFrameDecode</strong></a>)  | <ul><li>從解碼器所持有的影像串流存取個別的畫面格。</li><li>實 <a href="/windows/desktop/api/Wincodecsdk/nn-wincodecsdk-iwicmetadatablockreader"><strong>IWICMetadataBlockReader</strong></a> 介面，以列舉框架資料流程中的所有中繼資料區塊。</li><li>使用查詢運算式來公開查詢讀取器，以讀取與框架相關聯的中繼資料。</li></ul> | 
+| 點陣圖編碼器 (<a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapencoder"><strong>IWICBitmapEncoder</strong></a>)  | <ul><li>將點陣圖來源寫入影像資料流程。 與容器格式相關聯，例如 TIFF 或 JPEG。</li><li>執行 <a href="/windows/desktop/api/Wincodecsdk/nn-wincodecsdk-iwicmetadatablockwriter"><strong>IWICMetadataBlockWriter</strong></a> 介面，以建立要寫入編碼器資料流程的中繼資料區塊清單。</li><li>使用查詢運算式，公開查詢寫入器來寫入與影像相關聯的中繼資料。</li></ul> | 
+| Bitma 框架編碼 (<a href="/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframeencode"><strong>IWICBitmapFrameEncode</strong></a>)  | <ul><li>建立將編碼為編碼器所持有之資料流程的框架。</li><li>實 <a href="/windows/desktop/api/Wincodecsdk/nn-wincodecsdk-iwicmetadatablockwriter"><strong>IWICMetadataBlockWriter</strong></a> 介面，以建立要寫入框架資料流程的中繼資料區塊清單。</li><li>使用查詢運算式，公開查詢寫入器來寫入與框架相關聯的中繼資料。</li></ul> | 
+
 
 
 
@@ -242,69 +204,17 @@ WIC 提供數種常見元資料格式的支援。 下表列出支援的元資料
 
 下表描述 WIC 中繼資料元件。 這些元件可讓您在上表所列的元件所公開的影像中讀取和寫入中繼資料。 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>元件</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>中繼資料查詢讀取器 (<a href="/windows/desktop/api/Wincodec/nn-wincodec-iwicmetadataqueryreader"><strong>IWICMetadataQueryReader</strong></a>) </td>
-<td><ul>
-<li>接受查詢字串，並流覽基礎中繼資料階層以取得中繼資料。</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>中繼資料查詢寫入器 (<a href="/windows/desktop/api/Wincodec/nn-wincodec-iwicmetadataquerywriter"><strong>IWICMetadataQueryWriter</strong></a>) </td>
-<td><ul>
-<li>接受查詢字串，並流覽基礎中繼資料階層以取得、設定和移除中繼資料。</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>中繼資料區塊讀取器 (<a href="/windows/desktop/api/Wincodecsdk/nn-wincodecsdk-iwicmetadatablockreader"><strong>IWICMetadataBlockReader</strong></a>) </td>
-<td><ul>
-<li>管理位於中繼資料階層最上方之 <a href="/windows/desktop/api/Wincodecsdk/nn-wincodecsdk-iwicmetadatareader"><strong>IWICMetadataReader</strong></a> 物件的唯讀集合，並啟用所有中繼資料區塊的列舉。</li>
-<li>由點陣圖解碼器和解碼點陣圖框架所執行。</li>
-<li>由協力廠商元件開發人員為自訂編解碼器所執行。</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>中繼資料區塊寫入器 (<a href="/windows/desktop/api/Wincodecsdk/nn-wincodecsdk-iwicmetadatablockwriter"><strong>IWICMetadataBlockWriter</strong></a>) </td>
-<td><ul>
-<li>管理中繼資料階層頂端 <a href="/windows/desktop/api/Wincodecsdk/nn-wincodecsdk-iwicmetadatawriter"><strong>IWICMetadataWriter</strong></a> 物件的讀取和寫入集合。</li>
-<li>由點陣圖編碼器和點陣圖框架編碼所執行。</li>
-<li>由協力廠商元件開發人員為自訂編解碼器所執行。</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>中繼資料讀取器 (<a href="/windows/desktop/api/Wincodecsdk/nn-wincodecsdk-iwicmetadatareader"><strong>IWICMetadataReader</strong></a>) </td>
-<td><ul>
-<li>剖析中繼資料的資料流程，並管理中繼資料專案的唯讀集合。 與元資料格式（如 EXIF、IFD 和 XMP）相關聯。</li>
-<li>作為字典，並在給定格式和識別碼時傳回值。</li>
-<li>由自訂元資料類型的協力廠商元件開發人員所執行。</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>中繼資料寫入器 (<a href="/windows/desktop/api/Wincodecsdk/nn-wincodecsdk-iwicmetadatawriter"><strong>IWICMetadataWriter</strong></a>) </td>
-<td><ul>
-<li>剖析和序列化中繼資料的資料流程，並管理中繼資料專案的讀取/寫入集合。</li>
-<li>由自訂元資料類型的協力廠商元件開發人員所執行。</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>快速中繼資料編碼器<a href="/windows/desktop/api/Wincodec/nn-wincodec-iwicfastmetadataencoder"><strong>IWICFastMetadataEncoder</strong></a></td>
-<td><ul>
-<li>公開寫入中繼資料階層的語義，這些中繼資料會就地更新中繼資料，而不需要重新編碼影像。</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| 元件 | 描述 | 
+|-----------|-------------|
+| 中繼資料查詢讀取器 (<a href="/windows/desktop/api/Wincodec/nn-wincodec-iwicmetadataqueryreader"><strong>IWICMetadataQueryReader</strong></a>)  | <ul><li>接受查詢字串，並流覽基礎中繼資料階層以取得中繼資料。</li></ul> | 
+| 中繼資料查詢寫入器 (<a href="/windows/desktop/api/Wincodec/nn-wincodec-iwicmetadataquerywriter"><strong>IWICMetadataQueryWriter</strong></a>)  | <ul><li>接受查詢字串，並流覽基礎中繼資料階層以取得、設定和移除中繼資料。</li></ul> | 
+| 中繼資料區塊讀取器 (<a href="/windows/desktop/api/Wincodecsdk/nn-wincodecsdk-iwicmetadatablockreader"><strong>IWICMetadataBlockReader</strong></a>)  | <ul><li>管理位於中繼資料階層最上方之 <a href="/windows/desktop/api/Wincodecsdk/nn-wincodecsdk-iwicmetadatareader"><strong>IWICMetadataReader</strong></a> 物件的唯讀集合，並啟用所有中繼資料區塊的列舉。</li><li>由點陣圖解碼器和解碼點陣圖框架所執行。</li><li>由協力廠商元件開發人員為自訂編解碼器所執行。</li></ul> | 
+| 中繼資料區塊寫入器 (<a href="/windows/desktop/api/Wincodecsdk/nn-wincodecsdk-iwicmetadatablockwriter"><strong>IWICMetadataBlockWriter</strong></a>)  | <ul><li>管理中繼資料階層頂端 <a href="/windows/desktop/api/Wincodecsdk/nn-wincodecsdk-iwicmetadatawriter"><strong>IWICMetadataWriter</strong></a> 物件的讀取和寫入集合。</li><li>由點陣圖編碼器和點陣圖框架編碼所執行。</li><li>由協力廠商元件開發人員為自訂編解碼器所執行。</li></ul> | 
+| 中繼資料讀取器 (<a href="/windows/desktop/api/Wincodecsdk/nn-wincodecsdk-iwicmetadatareader"><strong>IWICMetadataReader</strong></a>)  | <ul><li>剖析中繼資料的資料流程，並管理中繼資料專案的唯讀集合。 與元資料格式（如 EXIF、IFD 和 XMP）相關聯。</li><li>作為字典，並在給定格式和識別碼時傳回值。</li><li>由自訂元資料類型的協力廠商元件開發人員所執行。</li></ul> | 
+| 中繼資料寫入器 (<a href="/windows/desktop/api/Wincodecsdk/nn-wincodecsdk-iwicmetadatawriter"><strong>IWICMetadataWriter</strong></a>)  | <ul><li>剖析和序列化中繼資料的資料流程，並管理中繼資料專案的讀取/寫入集合。</li><li>由自訂元資料類型的協力廠商元件開發人員所執行。</li></ul> | 
+| 快速中繼資料編碼器<a href="/windows/desktop/api/Wincodec/nn-wincodec-iwicfastmetadataencoder"><strong>IWICFastMetadataEncoder</strong></a> | <ul><li>公開寫入中繼資料階層的語義，這些中繼資料會就地更新中繼資料，而不需要重新編碼影像。</li></ul> | 
+
 
 
 
@@ -317,7 +227,7 @@ WIC 提供數種常見元資料格式的支援。 下表列出支援的元資料
 **概念**
 </dt> <dt>
 
-[Windows 影像處理元件總覽](-wic-about-windows-imaging-codec.md)
+[Windows映射處理元件總覽](-wic-about-windows-imaging-codec.md)
 </dt> <dt>
 
 [中繼資料查詢語言總覽](-wic-codec-metadataquerylanguage.md)

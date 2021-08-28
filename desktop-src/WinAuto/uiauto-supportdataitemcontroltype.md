@@ -24,12 +24,12 @@ keywords:
 - 控制項類型，DataItem
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f5ec4612b43855578256d52bf6647b105ea666882cfe2f72dcdbf355559a7e5e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 49840dbe2aeed9200ebf02b80e270cd8fa3e0747
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118826311"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122468185"
 ---
 # <a name="dataitem-control-type"></a>DataItem 控制項類型
 
@@ -55,34 +55,11 @@ ms.locfileid: "118826311"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>控制項檢視</th>
-<th>內容檢視</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>DataItem
-<ul>
-<li>視情況而定 (0 個以上；可以結構化為階層)</li>
-</ul></li>
-</ul></td>
-<td><ul>
-<li>DataItem
-<ul>
-<li>視情況而定 (0 個以上；可以結構化為階層)</li>
-</ul></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| 控制項檢視 | 內容檢視 | 
+|--------------|--------------|
+| <ul><li>DataItem<ul><li>視情況而定 (0 個以上；可以結構化為階層)</li></ul></li></ul> | <ul><li>DataItem<ul><li>視情況而定 (0 個以上；可以結構化為階層)</li></ul></li></ul> | 
+
 
 
 
@@ -178,54 +155,11 @@ ms.locfileid: "118826311"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>消費者介面自動化樹狀結構控制項視圖</th>
-<th>消費者介面自動化樹狀結構-內容視圖</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>群組 &quot; Contoso &quot; (資料表、方格) 
-<ul>
-<li>DataItem &quot; 帳戶 Receivable.doc&quot; (TableItem、GridItem、SelectionItem、Invoke) 
-<ul>
-<li>映射 &quot; 帳戶 Receivable.doc&quot;</li>
-<li>編輯 &quot; 名稱 &quot; (TableItem、GridItem、值 &quot; 帳戶 Receivable.doc&quot;) </li>
-<li>修改的編輯 &quot; 日期 &quot; (TableItem、GridItem、VALUE &quot; 8/25/2006 3:29 PM &quot;) </li>
-<li>編輯 &quot; 大小 &quot; (GridItem、TableItem、VALUE &quot; 11.0 KB &quot;) </li>
-</ul></li>
-<li>DataItem &quot; 帳戶 Payable.doc&quot; (TableItem、GridItem、SelectionItem、Invoke) 
-<ul>
-<li>...</li>
-</ul></li>
-</ul></li>
-</ul></td>
-<td><ul>
-<li>群組 &quot; Contoso &quot; (資料表、方格) 
-<ul>
-<li>DataItem &quot; 帳戶 Receivable.doc&quot; (TableItem、GridItem、SelectionItem、Invoke) 
-<ul>
-<li>映射 &quot; 帳戶 Receivable.doc&quot;</li>
-<li>編輯 &quot; 名稱 &quot; (TableItem、GridItem、值 &quot; 帳戶 Receivable.doc&quot;) </li>
-<li>修改的編輯 &quot; 日期 &quot; (TableItem、GridItem、VALUE &quot; 8/25/2006 3:29 PM &quot;) </li>
-<li>編輯 &quot; 大小 &quot; (GridItem、TableItem、VALUE &quot; 11.0 KB &quot;) </li>
-</ul></li>
-<li>DataItem &quot; 帳戶 Payable.doc&quot; (TableItem、GridItem、SelectionItem、Invoke) 
-<ul>
-<li>...</li>
-</ul></li>
-</ul></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| 消費者介面自動化樹狀結構控制項視圖 | 消費者介面自動化樹狀結構-內容視圖 | 
+|-----------------------------------|-----------------------------------|
+| <ul><li>Group "Contoso" (Table, Grid)<ul><li>DataItem "Accounts Receivable.doc" (TableItem, GridItem, SelectionItem, Invoke)<ul><li>Image "Accounts Receivable.doc"</li><li>Edit "Name" (TableItem, GridItem, Value "Accounts Receivable.doc")</li><li>Edit "Date modified" (TableItem, GridItem, Value "8/25/2006 3:29 PM")</li><li>編輯 "Size" (GridItem，TableItem，Value "11.0 KB" ) </li></ul></li><li>DataItem "Accounts Payable.doc" (TableItem, GridItem, SelectionItem, Invoke)<ul><li>...</li></ul></li></ul></li></ul> | <ul><li>Group "Contoso" (Table, Grid)<ul><li>DataItem "Accounts Receivable.doc" (TableItem, GridItem, SelectionItem, Invoke)<ul><li>Image "Accounts Receivable.doc"</li><li>Edit "Name" (TableItem, GridItem, Value "Accounts Receivable.doc")</li><li>Edit "Date modified" (TableItem, GridItem, Value "8/25/2006 3:29 PM")</li><li>編輯 "Size" (GridItem，TableItem，Value "11.0 KB" ) </li></ul></li><li>DataItem "Accounts Payable.doc" (TableItem, GridItem, SelectionItem, Invoke)<ul><li>...</li></ul></li></ul></li></ul> | 
+
 
 
 

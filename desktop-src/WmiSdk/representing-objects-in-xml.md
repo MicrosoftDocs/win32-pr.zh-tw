@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 以 XML 表示物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9698c54eeff61517a1389ceea14bc2415727f085
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 68bcbc47a0e5466b69775b4ff9a6c09ce20bae6f
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106986842"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122879660"
 ---
 # <a name="representing-objects-in-xml"></a>以 XML 表示物件
 
@@ -68,7 +68,7 @@ WMI 中的 XML 編碼器元件會產生物件的 XML 標記法。
     </tr>
     <tr class="even">
     <td>&quot;PathLevel &quot; <strong>VT_I4</strong></td>
-    <td><dl> 0 = <CLASS> 產生或 <INSTANCE> 元素。<br />
+    <td><dl> 0 = &lt; 產生類別 &gt; 或 <INSTANCE> 元素。<br />
 1 = <VALUE.NAMEDOBJECT> 產生元素。<br />
 2 = <VALUE.OBJECTWITHLOCALPATH> 產生元素。<br />
 3 = <VALUE.OBJECTWITHPATH> 產生。<br />

@@ -6,12 +6,12 @@ keywords:
 - blend 效果
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a66810de4bda3910f4fc0c1946dcf29ae2adb8cc29850b3ee7ca8487dbb6305
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 853043123c6eea9a87656a7450b1295236ed5d6a
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119653757"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122478194"
 ---
 # <a name="blend-effect"></a>混合效果
 
@@ -102,129 +102,36 @@ Alpha： O<sub>a</sub> = F<sub>a</sub> \* (1-B<sub>a</sub>) + B<sub>a</sub>
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>列舉型別</th>
-<th>方程</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D2D1_BLEND_MODE_DARKEN</td>
-<td>僅適用于 Alpha 的基本 blend 公式。 <img src="images/blend-mode-darken-1.png" alt="mathematical formula for a darken effect." /></td>
-</tr>
-<tr class="even">
-<td>D2D1_BLEND_MODE_MULTIPLY</td>
-<td>僅適用于 Alpha 的基本 blend 公式。 <img src="images/blend-mode-multiply-1.png" alt="Mathematical formula for a mutiply effect." /></td>
-</tr>
-<tr class="odd">
-<td>D2D1_BLEND_MODE_COLOR_BURN</td>
-<td>使用 <em>f</em> (f<sub>Rgb</sub>、B<sub>rgb</sub>) = 的基本 blend 公式 <img src="images/blend-mode-colorburn-1.png" alt="Mathematical formula for a coor burn effect." /></td>
-</tr>
-<tr class="even">
-<td>D2D1_BLEND_MODE_LINEAR_BURN</td>
-<td>使用 <em>f</em> (f<sub>Rgb</sub>、B<sub>rgb</sub>) = 的基本 blend 公式 <img src="images/blend-mode-linearburn-1.png" alt="Mathematical formula for a linear burn effect." /></td>
-</tr>
-<tr class="odd">
-<td>D2D1_BLEND_MODE_DARKER_COLOR</td>
-<td>僅適用于 Alpha 的基本 blend 公式。 <img src="images/blend-mode-darkencolor-1.png" alt="Mathematical formla for a darken color effect." /></td>
-</tr>
-<tr class="even">
-<td>D2D1_BLEND_MODE_LIGHTEN</td>
-<td>僅適用于 Alpha 的基本 blend 公式。 <img src="images/blend-mode-lighten-1.png" alt="Mathematical formula for a lighten effect." /></td>
-</tr>
-<tr class="odd">
-<td>D2D1_BLEND_MODE_SCREEN</td>
-<td>僅適用于 Alpha 的基本 blend 公式。 <img src="images/blend-mode-screen-1.png" alt="Mathematical formula for a screen effect." /></td>
-</tr>
-<tr class="even">
-<td>D2D1_BLEND_MODE_COLOR_DODGE</td>
-<td>使用 <em>f</em> (f<sub>Rgb</sub>、B<sub>rgb</sub>) = 的基本 blend 公式 <img src="images/blend-mode-colordodge-1.png" alt="Mathematical formula for a color dodge effect." /></td>
-</tr>
-<tr class="odd">
-<td>D2D1_BLEND_MODE_LINEAR_DODGE</td>
-<td>使用 <em>f</em> (f<sub>Rgb</sub>、B<sub>rgb</sub>) = 的基本 blend 公式 <img src="images/blend-mode-lineardodge-1.png" alt="Mathematical formula for a linear dodge effect." /></td>
-</tr>
-<tr class="even">
-<td>D2D1_BLEND_MODE_LIGHTER_COLOR</td>
-<td>僅適用于 Alpha 的基本 blend 公式。 <img src="images/blend-mode-lightercolor-1.png" alt="Mathematical formula for a lighter color effect." /></td>
-</tr>
-<tr class="odd">
-<td>D2D1_BLEND_MODE_OVERLAY</td>
-<td>使用 <em>f</em> (f<sub>Rgb</sub>、B<sub>rgb</sub>) = 的基本 blend 公式 <img src="images/blend-mode-overlay-1.png" alt="Mathematical formula for an overlay effect." /></td>
-</tr>
-<tr class="even">
-<td>D2D1_BLEND_MODE_SOFT_LIGHT</td>
-<td>使用 <em>f</em> (f<sub>Rgb</sub>、B<sub>rgb</sub>) = 的基本 blend 公式 <img src="images/blend-mode-softlight-1.png" alt="Mathematical formula for a soft light effect." /></td>
-</tr>
-<tr class="odd">
-<td>D2D1_BLEND_MODE_HARD_LIGHT</td>
-<td>使用 <em>f</em> (f<sub>Rgb</sub>、B<sub>rgb</sub>) = 的基本 blend 公式 <img src="images/blend-mode-hardlight-1.png" alt="Mathematical formula for a hard light effect." /></td>
-</tr>
-<tr class="even">
-<td>D2D1_BLEND_MODE_VIVID_LIGHT</td>
-<td>使用 <em>f</em> (f<sub>Rgb</sub>、B<sub>rgb</sub>) = 的基本 blend 公式 <img src="images/blend-mode-vividlight-1.png" alt="Mathematical formula for a vivid light effect." /></td>
-</tr>
-<tr class="odd">
-<td>D2D1_BLEND_MODE_LINEAR_LIGHT</td>
-<td>使用 <em>f</em> (f<sub>Rgb</sub>、B<sub>rgb</sub>) = 的基本 blend 公式 <img src="images/blend-mode-linearlight-1.png" alt="Mathematical formula for a linear light effect." /></td>
-</tr>
-<tr class="even">
-<td>D2D1_BLEND_MODE_PIN_LIGHT</td>
-<td>使用 <em>f</em> (f<sub>Rgb</sub>、B<sub>rgb</sub>) = 的基本 blend 公式 <img src="images/blend-mode-pinlight-1.png" alt="Mathematical formula for a pin light effect." /></td>
-</tr>
-<tr class="odd">
-<td>D2D1_BLEND_MODE_HARD_MIX</td>
-<td>使用 <em>f</em> (f<sub>Rgb</sub>、B<sub>rgb</sub>) = 的基本 blend 公式 <img src="images/blend-mode-hardmix-1.png" alt="Mathematical formula for a hard mix effect." /></td>
-</tr>
-<tr class="even">
-<td>D2D1_BLEND_MODE_DIFFERENCE</td>
-<td>使用 <em>f</em> 的基本 blend 公式 (f<sub>Rgb</sub>、B<sub>RGB</sub>) = abs (f<sub>rgb</sub> - B<sub>rgb</sub>) </td>
-</tr>
-<tr class="odd">
-<td>D2D1_BLEND_MODE_EXCLUSION</td>
-<td>使用<em>f</em> (f<sub>Rgb</sub>、B<sub>rgb</sub>) = F<sub>rgb</sub> + b<sub>rgb</sub> 2 * f<sub>rgb</sub> * b<sub>rgb</sub>的基本 blend 公式</td>
-</tr>
-<tr class="even">
-<td>D2D1_BLEND_MODE_HUE</td>
-<td>僅適用于 Alpha 的基本 blend 公式。 <img src="images/blend-mode-hue-1.png" alt="Mathematical formula for a hue blend effect." /></td>
-</tr>
-<tr class="odd">
-<td>D2D1_BLEND_MODE_SATURATION</td>
-<td>僅適用于 Alpha 的基本 blend 公式。 <img src="images/blend-mode-saturation-1.png" alt="Mathematical formula for a sturation blend effect." /></td>
-</tr>
-<tr class="even">
-<td>D2D1_BLEND_MODE_COLOR</td>
-<td>僅適用于 Alpha 的基本 blend 公式。 <img src="images/blend-mode-color-1.png" alt="Mathematical formula for a color blend effect." /></td>
-</tr>
-<tr class="odd">
-<td>D2D1_BLEND_MODE_LUMINOSITY</td>
-<td>僅適用于 Alpha 的基本 blend 公式。 <img src="images/blend-mode-luminosity-1.png" alt="Mathematical formula for a luminosity blend effect." /></td>
-</tr>
-<tr class="even">
-<td>D2D1_BLEND_MODE_DISSOLVE</td>
-<td>假設︰
-<ul>
-<li>目前圖元的場景座標 XY</li>
-<li>具決定性的虛擬亂數產生器 rand (XY) 以種子座標 XY 為基礎，具有 [0，1] 值的非偏誤分佈</li>
-</ul>
-<br/> <img src="images/blend-mode-dissolve-1.png" alt="Mathematical formula for a dissolve blend effect." /><br/></td>
-</tr>
-<tr class="odd">
-<td>D2D1_BLEND_MODE_SUBTRACT</td>
-<td>僅適用于 Alpha 的基本 blend 公式。 <img src="images/blend-mode-subtract-1.png" alt="Mathematical formula for a subtract blend effect." /></td>
-</tr>
-<tr class="even">
-<td>D2D1_BLEND_MODE_DIVISION</td>
-<td>僅適用于 Alpha 的基本 blend 公式。 <img src="images/blend-mode-division-1.png" alt="Mathematical formula for a division blend effect." /></td>
-</tr>
-</tbody>
-</table>
+
+| 列舉型別 | 方程 | 
+|-------------|----------|
+| D2D1_BLEND_MODE_DARKEN | 僅適用于 Alpha 的基本 blend 公式。 <img src="images/blend-mode-darken-1.png" alt="mathematical formula for a darken effect." /> | 
+| D2D1_BLEND_MODE_MULTIPLY | 僅適用于 Alpha 的基本 blend 公式。 <img src="images/blend-mode-multiply-1.png" alt="Mathematical formula for a mutiply effect." /> | 
+| D2D1_BLEND_MODE_COLOR_BURN | 使用 <em>f</em> (f<sub>Rgb</sub>、B<sub>rgb</sub>) = 的基本 blend 公式 <img src="images/blend-mode-colorburn-1.png" alt="Mathematical formula for a coor burn effect." /> | 
+| D2D1_BLEND_MODE_LINEAR_BURN | 使用 <em>f</em> (f<sub>Rgb</sub>、B<sub>rgb</sub>) = 的基本 blend 公式 <img src="images/blend-mode-linearburn-1.png" alt="Mathematical formula for a linear burn effect." /> | 
+| D2D1_BLEND_MODE_DARKER_COLOR | 僅適用于 Alpha 的基本 blend 公式。 <img src="images/blend-mode-darkencolor-1.png" alt="Mathematical formla for a darken color effect." /> | 
+| D2D1_BLEND_MODE_LIGHTEN | 僅適用于 Alpha 的基本 blend 公式。 <img src="images/blend-mode-lighten-1.png" alt="Mathematical formula for a lighten effect." /> | 
+| D2D1_BLEND_MODE_SCREEN | 僅適用于 Alpha 的基本 blend 公式。 <img src="images/blend-mode-screen-1.png" alt="Mathematical formula for a screen effect." /> | 
+| D2D1_BLEND_MODE_COLOR_DODGE | 使用 <em>f</em> (f<sub>Rgb</sub>、B<sub>rgb</sub>) = 的基本 blend 公式 <img src="images/blend-mode-colordodge-1.png" alt="Mathematical formula for a color dodge effect." /> | 
+| D2D1_BLEND_MODE_LINEAR_DODGE | 使用 <em>f</em> (f<sub>Rgb</sub>、B<sub>rgb</sub>) = 的基本 blend 公式 <img src="images/blend-mode-lineardodge-1.png" alt="Mathematical formula for a linear dodge effect." /> | 
+| D2D1_BLEND_MODE_LIGHTER_COLOR | 僅適用于 Alpha 的基本 blend 公式。 <img src="images/blend-mode-lightercolor-1.png" alt="Mathematical formula for a lighter color effect." /> | 
+| D2D1_BLEND_MODE_OVERLAY | 使用 <em>f</em> (f<sub>Rgb</sub>、B<sub>rgb</sub>) = 的基本 blend 公式 <img src="images/blend-mode-overlay-1.png" alt="Mathematical formula for an overlay effect." /> | 
+| D2D1_BLEND_MODE_SOFT_LIGHT | 使用 <em>f</em> (f<sub>Rgb</sub>、B<sub>rgb</sub>) = 的基本 blend 公式 <img src="images/blend-mode-softlight-1.png" alt="Mathematical formula for a soft light effect." /> | 
+| D2D1_BLEND_MODE_HARD_LIGHT | 使用 <em>f</em> (f<sub>Rgb</sub>、B<sub>rgb</sub>) = 的基本 blend 公式 <img src="images/blend-mode-hardlight-1.png" alt="Mathematical formula for a hard light effect." /> | 
+| D2D1_BLEND_MODE_VIVID_LIGHT | 使用 <em>f</em> (f<sub>Rgb</sub>、B<sub>rgb</sub>) = 的基本 blend 公式 <img src="images/blend-mode-vividlight-1.png" alt="Mathematical formula for a vivid light effect." /> | 
+| D2D1_BLEND_MODE_LINEAR_LIGHT | 使用 <em>f</em> (f<sub>Rgb</sub>、B<sub>rgb</sub>) = 的基本 blend 公式 <img src="images/blend-mode-linearlight-1.png" alt="Mathematical formula for a linear light effect." /> | 
+| D2D1_BLEND_MODE_PIN_LIGHT | 使用 <em>f</em> (f<sub>Rgb</sub>、B<sub>rgb</sub>) = 的基本 blend 公式 <img src="images/blend-mode-pinlight-1.png" alt="Mathematical formula for a pin light effect." /> | 
+| D2D1_BLEND_MODE_HARD_MIX | 使用 <em>f</em> (f<sub>Rgb</sub>、B<sub>rgb</sub>) = 的基本 blend 公式 <img src="images/blend-mode-hardmix-1.png" alt="Mathematical formula for a hard mix effect." /> | 
+| D2D1_BLEND_MODE_DIFFERENCE | 使用 <em>f</em> 的基本 blend 公式 (f<sub>Rgb</sub>、B<sub>Rgb</sub>) = Abs (f<sub>rgb</sub> -b<sub>rgb</sub>)  | 
+| D2D1_BLEND_MODE_EXCLUSION | 使用<em>f</em> (f<sub>Rgb</sub>、b<sub>rgb</sub>) = f<sub>Rgb</sub> + b<sub>rgb</sub> 2 * f<sub>rgb</sub> * b<sub>rgb</sub>的基本 blend 公式 | 
+| D2D1_BLEND_MODE_HUE | 僅適用于 Alpha 的基本 blend 公式。 <img src="images/blend-mode-hue-1.png" alt="Mathematical formula for a hue blend effect." /> | 
+| D2D1_BLEND_MODE_SATURATION | 僅適用于 Alpha 的基本 blend 公式。 <img src="images/blend-mode-saturation-1.png" alt="Mathematical formula for a sturation blend effect." /> | 
+| D2D1_BLEND_MODE_COLOR | 僅適用于 Alpha 的基本 blend 公式。 <img src="images/blend-mode-color-1.png" alt="Mathematical formula for a color blend effect." /> | 
+| D2D1_BLEND_MODE_LUMINOSITY | 僅適用于 Alpha 的基本 blend 公式。 <img src="images/blend-mode-luminosity-1.png" alt="Mathematical formula for a luminosity blend effect." /> | 
+| D2D1_BLEND_MODE_DISSOLVE | 假設︰<ul><li>目前圖元的場景座標 XY</li><li>具決定性的虛擬亂數產生器 rand (XY) 以種子座標 XY 為基礎，具有 [0，1] 值的非偏誤分佈</li></ul><br /><img src="images/blend-mode-dissolve-1.png" alt="Mathematical formula for a dissolve blend effect." /><br /> | 
+| D2D1_BLEND_MODE_SUBTRACT | 僅適用于 Alpha 的基本 blend 公式。 <img src="images/blend-mode-subtract-1.png" alt="Mathematical formula for a subtract blend effect." /> | 
+| D2D1_BLEND_MODE_DIVISION | 僅適用于 Alpha 的基本 blend 公式。 <img src="images/blend-mode-division-1.png" alt="Mathematical formula for a division blend effect." /> | 
+
 
 
 

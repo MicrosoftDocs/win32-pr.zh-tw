@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 32b91557d812888d9bb6e970be37703537bb3d7645c8a0422df19d5d5fe37a5f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 46584659fbd14bc26981e220798a91c03e960e1f
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119401962"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122886419"
 ---
 # <a name="startboundary-triggerbasetype-element"></a>StartBoundary (triggerBaseType) 元素
 
@@ -36,7 +36,7 @@ ms.locfileid: "119401962"
 
 
 
-| 元素                                                                                     | 衍生自                                                                               | 描述                                                                                  |
+| 元素                                                                                     | 衍生自                                                                               | 說明                                                                                  |
 |---------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
 | [**BootTrigger**](taskschedulerschema-boottrigger-triggergroup-element.md)                 | [**bootTriggerType**](taskschedulerschema-boottriggertype-complextype.md)                 | 指定啟動系統時啟動工作的觸發程式。<br/>                 |
 | [**CalendarTrigger**](taskschedulerschema-calendartrigger-triggergroup-element.md)         | [**calendarTriggerType**](taskschedulerschema-calendartriggertype-complextype.md)         | 指定每日、每週、每月或每週 (DOW) 觸發程式。<br/>   |
@@ -50,7 +50,7 @@ ms.locfileid: "119401962"
 
 ## <a name="remarks"></a>備註
 
-專案 **<StartBoundary>** 是時間和行事曆觸發程式 (和) 的必要元素 [**<TimeTrigger>**](taskschedulerschema-timetrigger-triggergroup-element.md) [**<CalendarTrigger>**](taskschedulerschema-calendartrigger-triggergroup-element.md) 。
+**&lt; StartBoundary &gt;** 元素是時間和行事曆觸發程式的必要元素， ([**&lt; TimeTrigger &gt;**](taskschedulerschema-timetrigger-triggergroup-element.md)和 [**&lt; CalendarTrigger &gt;**](taskschedulerschema-calendartrigger-triggergroup-element.md)) 。
 
 針對開發腳本，會使用所有觸發程式物件所繼承的 [**StartBoundary**](trigger-startboundary.md) 屬性來指定結束界限。
 

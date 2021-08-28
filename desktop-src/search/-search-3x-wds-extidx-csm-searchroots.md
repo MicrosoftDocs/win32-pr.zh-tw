@@ -4,12 +4,12 @@ ms.assetid: 0f1ff41f-7c4c-4516-bb55-bf09a8f2f3bc
 title: 管理搜尋根目錄
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 758d3c10a4c69f336202274cd1fb40528848b0ddb431fd58646cf700d2b2d736
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9cbe5fe6184681e6c37cb0b6a7f9a35c677fec53
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119095285"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122880197"
 ---
 # <a name="managing-search-roots"></a>管理搜尋根目錄
 
@@ -40,7 +40,7 @@ or
 
 
 
-<protocol>區段後面必須接著兩個 (2) 正斜線 ( '/' ) ，除非它是 file： protocol， (file:///) 需要三個斜線。 <site or SID>如果搜尋根目錄必須是使用者特定的，則區段代表內容存放區或使用者安全識別碼。 <path>區段是一組容器，例如目錄或資料夾，而且可以包含萬用字元 ' \* '。 The <item> 區段是選擇性的，也可以包含萬用字元 ' \* '。 如果您未包含專案，請務必使用斜線完成路徑區段，否則索引子會假設最後一個 subcontainer 是專案。
+&lt;通訊協定 &gt; 區段後面必須接著兩個 (2) 正斜線 ( '/' ) ，除非它是 file： protocol，這需要三個斜線 (file:///) 。 <site or SID>如果搜尋根目錄必須是使用者特定的，則區段代表內容存放區或使用者安全識別碼。 &lt;路徑 &gt; 區段是一組容器，例如目錄或資料夾，而且可以包含萬用字元 ' \* '。 &lt;專案 &gt; 區段是選擇性的，也可以包含萬用字元 ' \* '。 如果您未包含專案，請務必使用斜線完成路徑區段，否則索引子會假設最後一個 subcontainer 是專案。
 
 例如，假設您已執行通訊協定處理常式 (myPH) 來處理 \* 自訂應用程式的 myext 檔案。 所有這些檔案都位於 \\ 本機電腦上的 WorkteamA ProjectFiles 資料夾中。 的搜尋根可能看起來像這樣：
 
@@ -91,7 +91,7 @@ or
 
 
 
-| 方法                     | 描述                                                                                                                                                                                         |
+| 方法                     | 說明                                                                                                                                                                                         |
 |----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | put \_ ProvidesNotifications | 如果通訊協定處理常式或其他應用程式將會通知搜尋引擎有關搜尋根目錄下的 Url 變更，則設定為 **TRUE** 。 通知會指出 Url 需要重新編制索引。 |
 | put \_ RootURL               | 設定目前搜尋的根 URL。 URL 會採用稍早所述的搜尋根表單。                                                                                                      |

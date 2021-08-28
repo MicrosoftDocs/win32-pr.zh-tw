@@ -7,12 +7,12 @@ keywords:
 - 系統管理通知處理常式廣告
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0ebe2e92edd9a2630963d7dda6d84e6c323743ef5d37687927502c62b32ec592
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 08d89627cdb15cc7ea15f4b56e3a6ec90eafbe6a
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118024658"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122879883"
 ---
 # <a name="administrative-notification-handlers"></a>系統管理通知處理常式
 
@@ -45,7 +45,7 @@ HKEY_CLASSES_ROOT - CLSID - <CLSID>
 
 
 
-**<CLSID>** 這是 [**StringFromCLSID**](/windows/win32/api/combaseapi/nf-combaseapi-stringfromclsid) 函數所產生之 CLSID 的字串表示。 在機 **<CLSID>** 碼下，有一個 **InProcServer32** 機碼會將物件識別為32位的內部進程伺服器。 在 **InProcServer32** 索引鍵下，DLL 的位置會指定為預設值，而執行緒模型則是在 **>threadingmodel** 值中指定。 所有通知處理常式都必須使用 **單元** 執行緒模型。
+**&lt; Clsid &gt;** 是 [**STRINGFROMCLSID**](/windows/win32/api/combaseapi/nf-combaseapi-stringfromclsid)函數所產生之 clsid 的字串表示。 在 **&lt; &gt; CLSID** 機碼下，有一個 **InProcServer32** 機碼會將物件識別為32位的內部進程伺服器。 在 **InProcServer32** 索引鍵下，DLL 的位置會指定為預設值，而執行緒模型則是在 **>threadingmodel** 值中指定。 所有通知處理常式都必須使用 **單元** 執行緒模型。
 
 ## <a name="registering-a-notification-handler-with-an-active-directory-server"></a>向 Active Directory 伺服器註冊通知處理常式
 

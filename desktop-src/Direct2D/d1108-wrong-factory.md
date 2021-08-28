@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.custom: seodec18
-ms.openlocfilehash: 20021472467d7861aa2b9cabd5602b5a167f20ab
-ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
+ms.openlocfilehash: 463909abeda1410804fa4b842dbdc829c3a74271
+ms.sourcegitcommit: 4e94fc75fad7b2a0f3c92a26f97e89924e59b7a9
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "122622154"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "122786724"
 ---
 # <a name="d1108-wrong-factory"></a>D1108：錯誤的 Factory
 
@@ -96,7 +96,7 @@ ms.locfileid: "122622154"
 
 
 
-<span codelanguage="ManagedCPlusPlus"></span>
+
 
 <table>
 <colgroup>
@@ -119,7 +119,7 @@ ms.locfileid: "122622154"
 </tbody>
 </table>
 
-<span codelanguage="ManagedCPlusPlus"></span>
+
 
 <table>
 <colgroup>
@@ -143,7 +143,7 @@ ms.locfileid: "122622154"
 </tbody>
 </table>
 
-<span codelanguage="ManagedCPlusPlus"></span>
+
 
 <table>
 <colgroup>

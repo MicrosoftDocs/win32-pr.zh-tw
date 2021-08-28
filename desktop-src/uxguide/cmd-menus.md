@@ -4,12 +4,12 @@ description: 功能表是命令的階層式清單，或可供使用者在目前�
 ms.assetid: 3772ff8e-8057-476d-b62b-efbd5e07907f
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: e9b2c3559163ff77e8e3f08354b017c1b7cb53c95fd51802ae2565efdf71abcd
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ba8c67716e6b30fcc32651c8932363310926e6bf
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119350115"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122880372"
 ---
 # <a name="menus-design-basics"></a>功能表 (設計基本概念) 
 
@@ -233,15 +233,18 @@ ms.locfileid: "119350115"
 <dl> 主要 (最常使用的) 命令<dl> 開啟  
 執行  
 播放  
-列印 <separator>  
-</dl> </dd> <dd>物件所支援的次要命令<dl> <separator>  
+列印  
+&lt;separator&gt;  
+</dl> </dd> <dd>物件所支援的次要命令<dl> &lt;separator&gt;  
 </dl> </dd> 傳輸命令<dl> 剪下  
 複製  
-粘貼 <separator>  
-</dl> </dd> <dd>物件設定<dl> <separator>  
+貼上  
+&lt;separator&gt;  
+</dl> </dd> <dd>物件設定<dl> &lt;separator&gt;  
 </dl> </dd> 物件命令<dl> 刪除  
-重 命名 <separator>  
-屬性
+重新命名  
+&lt;separator&gt;  
+屬性  
 </dl> </dd> </dl>
 
 **展示**
@@ -332,35 +335,48 @@ ms.locfileid: "119350115"
 
 <dl> 檔案<dl> 新 Ctrl + N  
 打開。。。Ctrl + O  
-關閉 <separator>  
+關閉  
+&lt;separator&gt;  
 儲存 Ctrl + S  
-另存新檔 .。。 <separator>  
-傳送至 <separator>  
+另存新檔 .。。  
+&lt;separator&gt;  
+傳送到  
+&lt;separator&gt;  
 列印。。。Ctrl + P  
 預覽列印  
-頁面設定 <separator>  
-1 <filename> 2 <filename> 3 <filename> .。。 <separator>  
+版面設定  
+&lt;separator&gt;  
+1 <filename> 2 <filename> 3 <filename> .。。  
+&lt;separator&gt;  
 結束 Alt + F4 (的快捷方式通常不提供) 
 </dl> </dd> Edit<dl> 復原 Ctrl + Z  
-重做 Ctrl + Y <separator>  
+重做 Ctrl + Y  
+&lt;separator&gt;  
 剪下 Ctrl + X  
 複製 Ctrl + C  
-貼上 Ctrl + V <separator>  
-全選 Ctrl + A <separator>  
-通常不會將 Del (的快捷方式刪除) <separator>  
+貼上 Ctrl + V  
+&lt;separator&gt;  
+全選 Ctrl + A  
+&lt;separator&gt;  
+通常不會將 Del (的快捷方式刪除)   
+&lt;separator&gt;  
 找到。。。Ctrl + F  
 尋找下一個 F3 (命令通常不會指定)   
 取代。。。Ctrl + H  
 轉到 (G) 。。。Ctrl + G
 </dl> </dd> View<dl> 工具列  
-狀態列 <separator>  
+狀態列  
+&lt;separator&gt;
 </dl> </dd> Zoom<dl> 放大 Ctrl + +  
-縮小 Ctrl +- <separator>  
+縮小 Ctrl +-  
+&lt;separator&gt;  
 全螢幕 F11  
 重新整理 F5
-</dl> </dd> <dd>工具<dl> ... <separator>  
+</dl> </dd> <dd>工具<dl> ...  
+&lt;separator&gt;  
 選項
-</dl> </dd> 說明<dl> <program name> 說明 F1 <separator>  
+</dl> </dd> 說明<dl> <program name> 說明 F1  
+&lt;separator&gt;  
 詢問 <program name>  
 </dl> </dd> </dl>
 
@@ -369,23 +385,31 @@ ms.locfileid: "119350115"
 標準工具列功能表按鈕如下所示。 此清單會顯示功能表分類和專案標籤、其順序的分隔符號、其快速鍵和省略號。
 
 <dl> 工具<dl> 完整 screenF11 (重新指派存取金鑰（如果也使用了 Find）。 )   
-工具列 (請注意，功能表列命令會出現在這裡。 ) <separator>  
+工具列 (請注意，功能表列命令會出現在這裡。 )   
+&lt;separator&gt;  
 列印...  
-找到。。。 <separator>  
+尋找...  
+&lt;separator&gt;  
 Zoom  
-文字大小 <separator>  
-選項
-</dl> </dd> Organize<dl> New folderCtrl + N <separator>  
+文字大小  
+&lt;separator&gt;  
+選項  
+</dl> </dd> Organize<dl> New folderCtrl + N  
+&lt;separator&gt;  
 CutCtrl + X  
 CopyCtrl + C  
-PasteCtrl + V <separator>  
-選取 allCtrl + A <separator>  
+PasteCtrl + V  
+&lt;separator&gt;  
+選取 allCtrl + A  
+&lt;separator&gt;  
 通常不會提供 DeleteDel (的快捷方式)   
-重 命名 <separator>  
-選項
-</dl> </dd> Page<dl> New windowCtrl + N <separator>  
+重新命名  
+&lt;separator&gt;  
+選項  
+</dl> </dd> Page<dl> New windowCtrl + N  
+&lt;separator&gt;  
 Zoom  
-文字大小
+文字大小  
 </dl> </dd> </dl>
 
 **標準內容功能表**
@@ -396,12 +420,15 @@ Zoom
 執行  
 播放  
 編輯  
-列印。。。 <separator>  
+列印...  
+&lt;separator&gt;  
 剪下  
 複製  
-粘貼 <separator>  
+貼上  
+&lt;separator&gt;  
 刪除  
-重 命名 <separator>  
+重新命名  
+&lt;separator&gt;  
 鎖定 <object name> (核取記號)   
 屬性
 </dl>

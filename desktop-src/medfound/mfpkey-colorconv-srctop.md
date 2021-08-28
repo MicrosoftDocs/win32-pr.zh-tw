@@ -4,12 +4,12 @@ ms.assetid: 1dfd5557-3f3b-4d59-9df6-e73cb1157619
 title: 'MFPKEY_COLORCONV_SRCTOP 屬性 (Wmcodecdsp) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1f4b0eca375fa0f28f26f5b19ad31596678fbfab
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 1ab32b1ae9093c72ef9c5d7fb19505881f6afa78b8bc45e4a86a72d87ee72184
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108087596"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120113478"
 ---
 # <a name="mfpkey_colorconv_srctop-property"></a>MFPKEY \_ COLORCONV \_ SRCTOP 屬性
 
@@ -33,8 +33,8 @@ VT \_ I4
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                             |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                    |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                             |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                    |
 | 標頭<br/>                   | <dl> <dt>Wmcodecdsp。h</dt> </dl> |
 
 

@@ -6,20 +6,20 @@ keywords:
 - Windows Media Player，物件模型
 - Windows Media Player 物件模型，版本差異
 - 物件模型，版本差異
-- Windows Media Player ActiveX 控制項，版本差異
+- Windows Media Player ActiveX 控制，版本差異
 - ActiveX 控制項，版本差異
-- Windows Media Player 的行動 ActiveX 控制項，版本差異
-- Windows Media Player 行動裝置，物件模型
+- Windows Media PlayerMobile ActiveX 控制項，版本差異
+- Windows Media Player行動裝置，物件模型
 - 遷移指南，版本差異
 - Windows Media Player 的版本，物件模型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 086607a9d367f42479e155e3273c30d88425a457
-ms.sourcegitcommit: 927b9c371f75f52b8011483edf3a4ba37d11ebe4
+ms.openlocfilehash: 9b5fb048042fcbaa064fd3a322b90b3ce90a676e
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "104022987"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122623534"
 ---
 # <a name="detailed-object-model-comparison"></a>詳細的物件模型比較
 
@@ -29,8 +29,8 @@ ms.locfileid: "104022987"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -73,11 +73,11 @@ ms.locfileid: "104022987"
 </tr>
 <tr class="odd">
 <td><em>Player6</em>。<strong>自動啟動</strong></td>
-<td>使用 [ <em>設定</em>]。<strong>自動啟動</strong>。</td>
+<td>使用<em>設定</em>。<strong>自動啟動</strong>。</td>
 </tr>
 <tr class="even">
 <td><em>Player6</em>。<strong>餘額</strong></td>
-<td>使用 [ <em>設定</em>]。<strong>餘額</strong>。</td>
+<td>使用<em>設定</em>。<strong>餘額</strong>。</td>
 </tr>
 <tr class="odd">
 <td><em>Player6</em>。<strong>頻寬</strong></td>
@@ -85,7 +85,7 @@ ms.locfileid: "104022987"
 </tr>
 <tr class="even">
 <td><em>Player6</em>。<strong>BaseURL</strong></td>
-<td>使用 [ <em>設定</em>]。<strong>baseURL</strong>。</td>
+<td>使用<em>設定</em>。<strong>baseURL</strong>。</td>
 </tr>
 <tr class="odd">
 <td><em>Player6</em>。<strong>BufferingCount</strong></td>
@@ -125,7 +125,7 @@ ms.locfileid: "104022987"
 </tr>
 <tr class="even">
 <td><em>Player6</em>。<strong>CCActive</strong></td>
-<td>不適用。 如需如何在 Windows Media Player 中變更隱藏式字幕的詳細資訊，請參閱 <a href="closed-captioning.md">隱藏式字幕</a> 。</td>
+<td>不適用。 如需如何在 Windows Media Player 中變更隱藏式字幕的詳細資訊，請參閱<a href="closed-captioning.md">隱藏式字幕</a>。</td>
 </tr>
 <tr class="odd">
 <td><em>Player6</em>。<strong>ChannelDescription</strong></td>
@@ -145,14 +145,14 @@ ms.locfileid: "104022987"
 </tr>
 <tr class="odd">
 <td><em>Player6</em>。<strong>ClientID</strong></td>
-<td>無法使用。Windows Media Player 9 系列或更新版本可讓使用者選取是否要將唯一的播放程式識別碼傳送給內容提供者。<br/> 如果使用者選取這個選項，則播放會將唯一識別碼傳送至 Windows Media 伺服器。 識別碼會記錄在伺服器的記錄檔中，位於中。預設為<em>system32\logfiles</em> 資料夾。 記錄功能變數名稱為 &quot; c-playerid &quot; 。 在 Windows Media Services 中，預設不會啟用伺服器記錄。<br/> 如果使用者未選取此選項，伺服器會產生隨機會話識別碼，這對指定會話的每個用戶端而言是唯一的。<br/> 如需詳細資訊，請參閱 Windows Media Services 9 系列檔。<br/></td>
+<td>無法使用。Windows Media Player 9 系列或更新版本可讓使用者選取是否要將唯一的播放程式識別碼傳送給內容提供者。<br/> 如果使用者選取這個選項，播放者會將唯一的識別碼傳送至 Windows 媒體伺服器。 識別碼會記錄在伺服器的記錄檔中，位於中。預設為<em>system32\logfiles</em> 資料夾。 記錄功能變數名稱為 &quot; c-playerid &quot; 。 在 Windows Media Services 中，預設不會啟用伺服器記錄。<br/> 如果使用者未選取此選項，伺服器會產生隨機會話識別碼，這對指定會話的每個用戶端而言是唯一的。<br/> 如需詳細資訊，請參閱 Windows Media Services 9 系列檔。<br/></td>
 </tr>
 <tr class="even">
 <td><em>Player6</em>。<strong>CodecCount</strong></td>
 <td>不適用。</td>
 </tr>
 <tr class="odd">
-<td><em>Player6</em>。<strong>>colorkey</strong></td>
+<td><em>Player6</em>。<strong>>Colorkey</strong></td>
 <td>不適用。</td>
 </tr>
 <tr class="even">
@@ -233,7 +233,7 @@ ms.locfileid: "104022987"
 </tr>
 <tr class="odd">
 <td><em>Player6</em>。<strong>DefaultFrame</strong></td>
-<td>使用 [ <em>設定</em>]。<strong>defaultFrame</strong>，或使用 <PARAM> 元素中的屬性 <OBJECT> ： <pre data-space="preserve"><code><PARAM NAME=&quot;defaultFrame&quot; VALUE=&quot;right&quot;></code></pre></td>
+<td>使用<em>設定</em>。<strong>defaultFrame</strong>，或使用 <PARAM> 元素中的屬性 <OBJECT> ： <pre data-space="preserve"><code><PARAM NAME=&quot;defaultFrame&quot; VALUE=&quot;right&quot;></code></pre></td>
 </tr>
 <tr class="even">
 <td><em>Player6</em>。<strong>DisplayBackColor</strong></td>
@@ -244,7 +244,7 @@ ms.locfileid: "104022987"
 <td>不適用。</td>
 </tr>
 <tr class="even">
-<td><em>Player6</em>。<strong>>displaymode</strong></td>
+<td><em>Player6</em>。<strong>>Displaymode</strong></td>
 <td>您可以使用<em>控制項</em><strong>以秒</strong>為單位，從開頭開始抓取目前的位置。<strong>currentPosition</strong>，格式為 HH： MM： SS (時、分、秒) 使用<em>控制項</em>的<strong>字串</strong>。使用<em>控制項</em>的<strong>currentPositionString</strong>或時間碼格式。<strong>currentPositionTimeCode</strong>。</td>
 </tr>
 <tr class="odd">
@@ -321,7 +321,7 @@ ms.locfileid: "104022987"
 </tr>
 <tr class="odd">
 <td><em>Player6</em>。<strong>InvokeURLs</strong></td>
-<td>使用 [ <em>設定</em>]。<strong>invokeURLs</strong>。</td>
+<td>使用<em>設定</em>。<strong>invokeURLs</strong>。</td>
 </tr>
 <tr class="even">
 <td><em>Player6</em>。<strong>IsBroadcast</strong></td>
@@ -345,7 +345,7 @@ ms.locfileid: "104022987"
 </tr>
 <tr class="odd">
 <td><em>Player6</em>。<strong>靜音</strong></td>
-<td>使用 [ <em>設定</em>]。<strong>靜音</strong>。</td>
+<td>使用<em>設定</em>。<strong>靜音</strong>。</td>
 </tr>
 <tr class="even">
 <td><em>Player6</em>。<strong>OpenState</strong></td>
@@ -353,7 +353,7 @@ ms.locfileid: "104022987"
 </tr>
 <tr class="odd">
 <td><em>Player6</em>。<strong>PlayCount</strong></td>
-<td>使用 [ <em>設定</em>]。<strong>playCount</strong>。</td>
+<td>使用<em>設定</em>。<strong>playCount</strong>。</td>
 </tr>
 <tr class="even">
 <td><em>Player6</em>。<strong>PlayState</strong></td>
@@ -365,7 +365,7 @@ ms.locfileid: "104022987"
 </tr>
 <tr class="even">
 <td><em>Player6</em>。<strong>費率</strong></td>
-<td>使用 [ <em>設定</em>]。<strong>費率</strong>。</td>
+<td>使用<em>設定</em>。<strong>費率</strong>。</td>
 </tr>
 <tr class="odd">
 <td><em>Player6</em>。<strong>ReadyState</strong></td>
@@ -517,7 +517,7 @@ ms.locfileid: "104022987"
 </tr>
 <tr class="even">
 <td><em>Player6</em>。<strong>磁片</strong>區</td>
-<td>使用 [ <em>設定</em>]。<strong>磁片</strong>區。</td>
+<td>使用<em>設定</em>。<strong>磁片</strong>區。</td>
 </tr>
 <tr class="odd">
 <td><em>Player6</em>。<strong>VolumesAvailable</strong></td>
@@ -536,8 +536,8 @@ ms.locfileid: "104022987"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -548,11 +548,11 @@ ms.locfileid: "104022987"
 <tbody>
 <tr class="odd">
 <td><em>Player6</em>。<strong>AboutBox</strong></td>
-<td>使用 <em>Player</em>。<strong>versionInfo</strong> ，以取得 Windows Media Player 的版本。</td>
+<td>使用<em>Player</em>。<strong>versionInfo</strong> ，以取得 Windows Media Player 的版本。</td>
 </tr>
 <tr class="even">
 <td><em>Player6</em>。<strong>BackwardScan</strong></td>
-<td>使用 [ <em>設定</em>]。<strong>費率</strong>。</td>
+<td>使用<em>設定</em>。<strong>費率</strong>。</td>
 </tr>
 <tr class="odd">
 <td><em>Player6</em>。<strong>ButtonActivate</strong></td>
@@ -592,7 +592,7 @@ ms.locfileid: "104022987"
 </tr>
 <tr class="odd">
 <td><em>Player6</em>。<strong>ForwardScan</strong></td>
-<td>使用 [ <em>設定</em>]。<strong>費率</strong>。</td>
+<td>使用<em>設定</em>。<strong>費率</strong>。</td>
 </tr>
 <tr class="even">
 <td><em>Player6</em>。<strong>GetAllGPRMs</strong></td>

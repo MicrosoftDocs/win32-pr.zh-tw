@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: f8564917be9565e862043e370840f8ac7280f174
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 37aefd8b7cdcab05515bda6f81fa6c679751dc95
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104020921"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122473394"
 ---
 # <a name="how-to-index-multiple-output-streams"></a>如何：編制多個輸出資料流程的索引
 
@@ -65,27 +65,9 @@ ms.locfileid: "104020921"
 
 
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>著色器模型4和著色器模型5之間的差異：<br/> 著色器模型4：<br/>
-<ul>
-<li>資料流程輸出的純量最大數目是64。</li>
-<li>每個元件的暫存器遮罩必須在索引範圍內相符。</li>
-</ul>
-著色器模型5：<br/>
-<ul>
-<li>資料流程輸出的純量最大數目是128。</li>
-<li>每個元件的暫存器遮罩不需要在索引範圍內相符。</li>
-<li>輸出的動態索引在所有串流之間必須是合法的。</li>
-<li>插補模式不需要與資料流程相符。</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| | |著色器模型4和著色器模型5之間的差異：<br /> 著色器模型4：<br /><ul><li>資料流程輸出的純量最大數目是64。</li><li>每個元件的暫存器遮罩必須在索引範圍內相符。</li></ul>著色器模型5：<br /><ul><li>資料流程輸出的純量最大數目是128。</li><li>每個元件的暫存器遮罩不需要在索引範圍內相符。</li><li>輸出的動態索引在所有串流之間必須是合法的。</li><li>插補模式不需要與資料流程相符。</li></ul> | 
+
 
 
 

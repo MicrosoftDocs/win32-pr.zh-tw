@@ -4,12 +4,12 @@ ms.assetid: e1cb7e46-3078-46bf-a8c8-e10f6b9dd222
 title: DocumentImpositionColor
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b747487c19160d29778f306a91b62cf43d245f65
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: 834f5ec9ac613fcd683c22fe77252b99223e320b9fbde43bb3bad5a1bed8958c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113120003"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120112518"
 ---
 # <a name="documentimpositioncolor"></a>DocumentImpositionColor
 
@@ -24,7 +24,7 @@ ms.locfileid: "113120003"
 
 
 
-| Name | 值 |
+| 名稱 | 值 |
 |----------------------------|-------------------------|
 | 項目類型 <br/>   | ParameterDef<br/> |
 | 範圍前置詞 <br/> | 文件<br/>     |
@@ -73,8 +73,8 @@ ms.locfileid: "113120003"
 | DefaultValue<br/> | 字串<br/>  | 未定義<br/>       |
 | MaxLength<br/>    | 整數<br/> | 未定義<br/>       |
 | MinLength<br/>    | 整數<br/> | 1<br/>               |
-| 強制性<br/>    | string<br/>  | psk：條件式<br/> |
-| Unittype.pixel 表示<br/>     | string<br/>  | 字元<br/>      |
+| 強制性<br/>    | 字串<br/>  | psk：條件式<br/> |
+| Unittype.pixel 表示<br/>     | 字串<br/>  | 字元<br/>      |
 
 
 

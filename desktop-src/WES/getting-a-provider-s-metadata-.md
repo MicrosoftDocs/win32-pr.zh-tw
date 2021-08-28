@@ -4,12 +4,12 @@ description: 提供者會使用檢測資訊清單來識別本身、定義它所�
 ms.assetid: c9442dc1-3599-4e81-a144-943c2843a2f7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1b7c78c4e8b96a8d7b0c7002b54e96eec473811f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 757796bcc80f9130e20c79c2ed05b98cd2fa0866485cb7df1ca17133d5074b6c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839839"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120124208"
 ---
 # <a name="getting-a-providers-metadata"></a>取得提供者的中繼資料
 
@@ -1485,9 +1485,9 @@ LPWSTR GetMessageString(EVT_HANDLE hMetadata, DWORD dwMessageId)
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -10,12 +10,12 @@ keywords:
 - 元素、文字
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: acdad737fda44cc0e090eb13fb20c765b447ccbd
-ms.sourcegitcommit: 40a1246849dba8ececf54c716b2794b99c96ad50
+ms.openlocfilehash: 333c0d30393ef4fdeb62061ee58b0c7bd2f3f58bd685945e62c0e8062f22d881
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "104313599"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120122848"
 ---
 # <a name="text-element"></a>TEXT 元素
 
@@ -52,7 +52,7 @@ ms.locfileid: "104313599"
 
 
 
- 
+ 
 
 **TEXT** 元素支援環境屬性，並可執行環境事件處理常式。 如需詳細資訊，請參閱 [環境屬性](ambient-attributes.md) 和 [環境事件處理常式](ambient-event-handlers.md)。
 
@@ -60,7 +60,7 @@ ms.locfileid: "104313599"
 
 
 
-| 預先定義的文字                                | Description                                                                                |
+| 預先定義的文字                                | 描述                                                                                |
 |------------------------------------------------|--------------------------------------------------------------------------------------------|
 | [CURRENTPOSITIONTEXT](currentpositiontext.md) | 具有 **currentPositionString** 之內建接聽程式的 **文字** 專案。 |
 | [DURATIONTEXT](durationtext.md)               | 具有 **CurrentMedia DurationString** 之內建接聽程式的 **文字** 專案。    |
@@ -69,7 +69,7 @@ ms.locfileid: "104313599"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -78,9 +78,9 @@ ms.locfileid: "104313599"
 [**外觀程式設計參考**](skin-programming-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

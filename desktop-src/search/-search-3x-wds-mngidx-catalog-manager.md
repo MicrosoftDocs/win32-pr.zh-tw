@@ -4,12 +4,12 @@ ms.assetid: 8dad7012-d610-4398-8e86-cd319db8c360
 title: 使用目錄管理員
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1295cc9cc76fb334b4687b876fa1959a22e33235
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: deffc748c504b056e9d3f92dc8dcb127b835bec6
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971182"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122472324"
 ---
 # <a name="using-the-catalog-manager"></a>使用目錄管理員
 
@@ -36,7 +36,7 @@ Windows Search 平臺中的某些實用介面需要目錄管理員的實例，�
 | 方法                                                                                               | 描述                                                                                                                                                                                                                                                                                                                                                                        |
 |------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**GetQueryHelper**](/windows/desktop/api/Searchapi/nf-searchapi-isearchcatalogmanager-getqueryhelper)                               | 取得目前目錄之 [**ISearchQueryHelper**](/windows/desktop/api/Searchapi/nn-searchapi-isearchqueryhelper) 介面的實例，可讓您輕鬆地建立查詢。                                                                                                                                                                                                                         |
-| [**GetCrawlScopeManager**](/windows/desktop/api/Searchapi/nf-searchapi-isearchcatalogmanager-getcrawlscopemanager)                   | 取得此搜尋目錄的 [**ISearchCrawlScopeManager**](/windows/desktop/api/Searchapi/nn-searchapi-isearchcrawlscopemanager) 實例，以讓開發人員修改 Windows Search 索引子的編目範圍。                                                                                                                                                                                    |
+| [**GetCrawlScopeManager**](/windows/desktop/api/Searchapi/nf-searchapi-isearchcatalogmanager-getcrawlscopemanager)                   | 取得此搜尋目錄的 [**ISearchCrawlScopeManager**](/windows/desktop/api/Searchapi/nn-searchapi-isearchcrawlscopemanager)實例，以讓開發人員修改 Windows Search 索引子的編目範圍。                                                                                                                                                                                    |
 | [**GetItemsChangedSink**](/windows/desktop/api/Searchapi/nf-searchapi-isearchcatalogmanager-getitemschangedsink)                     | 取得 [**ISearchItemsChangedSink**](/windows/desktop/api/Searchapi/nn-searchapi-isearchitemschangedsink) 介面的實例，用戶端應用程式會在用戶端想要建立專案的索引狀態資訊以支援提供者管理的通知時，用來通知索引子的變更。 如需詳細資訊，請參閱 [通知索引的變更](-search-3x-wds-notifyingofchanges.md) 。 |
 | [**GetPersistentItemsChangedSink**](/windows/desktop/api/Searchapi/nf-searchapi-isearchcatalogmanager-getpersistentitemschangedsink) | 取得 [**ISearchPersistentItemsChangedSink**](/windows/desktop/api/Searchapi/nn-searchapi-isearchpersistentitemschangedsink)的實例，用戶端應用程式會在用戶端不想編制索引狀態資訊 (索引子管理的通知) 時，使用此實例來通知索引子的變更。 如需詳細資訊，請參閱 [通知索引的變更](-search-3x-wds-notifyingofchanges.md) 。            |
 
@@ -44,7 +44,7 @@ Windows Search 平臺中的某些實用介面需要目錄管理員的實例，�
 
 有兩個主要工作牽涉到管理目錄：在索引子的編目範圍中重新編制所有或部分 Url 的索引，以及重設整個基礎目錄。 當您重新建立 Url 的索引時，舊資料會保留在目錄中，直到或取代為新資料。 當您重設類別目錄時，會重建整個目錄，並重新編制編目範圍中的所有 Url。 此程式可能需要花費很多時間，而且只能做為解決問題（例如可能損毀的索引）的最後手段。
 
-當您安裝新的應用程式、通訊協定處理常式或篩選器時，安裝應用程式應該將其目錄或根目錄新增至編目範圍，以確保索引子包含該應用程式資料的位置。 如果在索引子將編目範圍編目之後，資料未出現在目錄中，您應該先確定資料的位置包含在編目範圍中。 您可以使用 Windows Search 選項或 [編目範圍管理員](-search-3x-wds-extidx-csm.md)的使用者介面來加入它。 如果位置似乎在編目範圍內，您可以使用 [**ISearchCatalogManager**](/windows/desktop/api/Searchapi/nn-searchapi-isearchcatalogmanager) 介面的下列方法，以手動方式在索引子的編目範圍或子集內手動強制重新編制所有 url 的索引。
+當您安裝新的應用程式、通訊協定處理常式或篩選器時，安裝應用程式應該將其目錄或根目錄新增至編目範圍，以確保索引子包含該應用程式資料的位置。 如果在索引子將編目範圍編目之後，資料未出現在目錄中，您應該先確定資料的位置包含在編目範圍中。 您可以使用 Windows Search 選項或[編目範圍管理員](-search-3x-wds-extidx-csm.md)的使用者介面來加入它。 如果位置似乎在編目範圍內，您可以使用 [**ISearchCatalogManager**](/windows/desktop/api/Searchapi/nn-searchapi-isearchcatalogmanager) 介面的下列方法，以手動方式在索引子的編目範圍或子集內手動強制重新編制所有 url 的索引。
 
 | 重新編制索引方法                                                                                                                                                                                                                | Description                                                                                                                                                                                                                                                          |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -65,54 +65,15 @@ Windows Search 平臺中的某些實用介面需要目錄管理員的實例，�
 
 下表說明用來管理目錄狀態的 ISearchCatalogManager 方法。
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>方法</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Searchapi/nf-searchapi-isearchcatalogmanager-urlbeingindexed"><strong>URLBeingIndexed</strong></a></td>
-<td>取得目前正在編制索引的 URL。 如果您嘗試識別索引子是否 &quot; 卡 &quot; 在某個專案上，這個方法會很有用。</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Searchapi/nf-searchapi-isearchcatalogmanager-numberofitems"><strong>NumberOfItems</strong></a></td>
-<td>取得目錄中的專案數。</td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Searchapi/nf-searchapi-isearchcatalogmanager-numberofitemstoindex"><strong>NumberOfItemsToIndex</strong></a></td>
-<td>抓取下列有關要編制索引之專案的資訊：
-<ul>
-<li>plIncrementalCount-要在下一個增量索引中編制索引的專案數</li>
-<li>plNotificationQueue-通知佇列中的專案數。 這項資訊對於需要檢查索引子是否接收應用程式傳送通知的通知應用程式很有用。</li>
-<li>plHighPriorityQueue-高優先順序佇列中的專案數。 系統會先編制 plHighPriorityQueue 中的專案的索引。</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Searchapi/nf-searchapi-isearchcatalogmanager-getcatalogstatus"><strong>GetCatalogStatus</strong></a></td>
-<td>取得目錄的狀態，並傳回可提供目前狀態的列舉值。 以下是可能的目錄狀態：
-<ul>
-<li>閒置：不需要任何索引。</li>
-<li>已暫停：索引會因電池電力偏低或高 CPU 使用量而暫停 (，例如) 。</li>
-<li>正在復原：正在復原索引。</li>
-<li>完整編目：索引子正在執行爬網範圍的完整編目。</li>
-<li>增量編目：索引子正在執行增量編目。</li>
-<li>處理通知：索引子正在處理通知。</li>
-<li>正在關閉：索引子正在關閉。</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Searchapi/nf-searchapi-isearchcatalogmanager-get_name"><strong>get_Name</strong></a></td>
-<td>取得 <a href="/windows/desktop/api/Searchapi/nf-searchapi-isearchmanager-getcatalog"><strong>ISearchManager：： GetCatalog</strong></a> 方法中指定的目前目錄名稱。 目前唯一支援的目錄是 SystemIndex。</td>
-</tr>
-</tbody>
-</table>
+
+| 方法 | 描述 | 
+|--------|-------------|
+| <a href="/windows/desktop/api/Searchapi/nf-searchapi-isearchcatalogmanager-urlbeingindexed"><strong>URLBeingIndexed</strong></a> | 取得目前正在編制索引的 URL。 如果您嘗試識別索引子是否「停滯」在某個專案上，這個方法會很有用。 | 
+| <a href="/windows/desktop/api/Searchapi/nf-searchapi-isearchcatalogmanager-numberofitems"><strong>NumberOfItems</strong></a> | 取得目錄中的專案數。 | 
+| <a href="/windows/desktop/api/Searchapi/nf-searchapi-isearchcatalogmanager-numberofitemstoindex"><strong>NumberOfItemsToIndex</strong></a> | 抓取下列有關要編制索引之專案的資訊：<ul><li>plIncrementalCount-要在下一個增量索引中編制索引的專案數</li><li>plNotificationQueue-通知佇列中的專案數。 這項資訊對於需要檢查索引子是否接收應用程式傳送通知的通知應用程式很有用。</li><li>plHighPriorityQueue-高優先順序佇列中的專案數。 系統會先編制 plHighPriorityQueue 中的專案的索引。</li></ul> | 
+| <a href="/windows/desktop/api/Searchapi/nf-searchapi-isearchcatalogmanager-getcatalogstatus"><strong>GetCatalogStatus</strong></a> | 取得目錄的狀態，並傳回可提供目前狀態的列舉值。 以下是可能的目錄狀態：<ul><li>閒置：不需要任何索引。</li><li>已暫停：索引會因電池電力偏低或高 CPU 使用量而暫停 (，例如) 。</li><li>正在復原：正在復原索引。</li><li>完整編目：索引子正在執行爬網範圍的完整編目。</li><li>增量編目：索引子正在執行增量編目。</li><li>處理通知：索引子正在處理通知。</li><li>正在關閉：索引子正在關閉。</li></ul> | 
+| <a href="/windows/desktop/api/Searchapi/nf-searchapi-isearchcatalogmanager-get_name"><strong>get_Name</strong></a> | 取得 <a href="/windows/desktop/api/Searchapi/nf-searchapi-isearchmanager-getcatalog"><strong>ISearchManager：： GetCatalog</strong></a> 方法中指定的目前目錄名稱。 目前唯一支援的目錄是 SystemIndex。 | 
+
 
 ## <a name="managing-catalog-properties"></a>管理目錄屬性
 

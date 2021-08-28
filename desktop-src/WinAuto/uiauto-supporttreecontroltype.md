@@ -21,12 +21,12 @@ keywords:
 - 控制項類型，樹狀結構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c4679af32f974cd1611cbd31c71e66db62631391
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: ea7ac6330428c2e79fca1e9a51d4ca0f7c63e8a7
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104023914"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122472844"
 ---
 # <a name="tree-control-type"></a>樹狀目錄控制項類型
 
@@ -50,53 +50,15 @@ ms.locfileid: "104023914"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>控制項檢視</th>
-<th>內容檢視</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>樹狀結構
-<ul>
-<li>DataItem (0 個以上)</li>
-<li>TreeItem (0 個以上)
-<ul>
-<li>TreeItem (0 個以上)
-<ul>
-<li>...</li>
-</ul></li>
-</ul></li>
-<li>捲軸 (0、1、2 個)</li>
-</ul></li>
-</ul></td>
-<td><ul>
-<li>樹狀結構
-<ul>
-<li>DataItem (0 個以上)</li>
-<li>TreeItem (0 個以上)
-<ul>
-<li>TreeItem (0 個以上)
-<ul>
-<li>...</li>
-</ul></li>
-</ul></li>
-</ul></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| 控制項檢視 | 內容檢視 | 
+|--------------|--------------|
+| <ul><li>樹狀結構<ul><li>DataItem (0 個以上)</li><li>TreeItem (0 個以上)<ul><li>TreeItem (0 個以上)<ul><li>...</li></ul></li></ul></li><li>捲軸 (0、1、2 個)</li></ul></li></ul> | <ul><li>樹狀結構<ul><li>DataItem (0 個以上)</li><li>TreeItem (0 個以上)<ul><li>TreeItem (0 個以上)<ul><li>...</li></ul></li></ul></li></ul></li></ul> | 
 
 
 
- 
+
+ 
 
 消費者介面自動化樹狀結構的控制視圖包含：
 
@@ -126,7 +88,7 @@ ms.locfileid: "104023914"
 
 
 
- 
+ 
 
 ## <a name="required-control-patterns"></a>必要的控制項模式
 
@@ -143,7 +105,7 @@ ms.locfileid: "104023914"
 
 
 
- 
+ 
 
 ## <a name="required-events"></a>必要的事件
 
@@ -168,7 +130,7 @@ ms.locfileid: "104023914"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -183,6 +145,6 @@ ms.locfileid: "104023914"
 [UI 自動化概觀](uiauto-uiautomationoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
