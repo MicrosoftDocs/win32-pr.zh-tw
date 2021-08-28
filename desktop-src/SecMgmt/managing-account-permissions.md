@@ -4,12 +4,12 @@ ms.assetid: c28c03f0-4638-42ed-8dad-1e934cf99273
 title: 管理帳戶許可權
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d4dc22a4088986abbdaa98d8cdde43415af84905
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0f5424d43424b067bc4771bd687c287e05e195f3e807a2db64bebaed4ece049d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104468880"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118894067"
 ---
 # <a name="managing-account-permissions"></a>管理帳戶許可權
 

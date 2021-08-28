@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 4e7202c1293d32d55e12e88671ed9960d376f63e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1a171aaaf8f3faa45f967f29bf0f9d742aa0fe0221b46ae4ba4f8527d9cf9715
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943265"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119455888"
 ---
 # <a name="diskquotacontrolinvalidatesidnamecache-method"></a>DiskQuotaControl. InvalidateSidNameCache 方法
 

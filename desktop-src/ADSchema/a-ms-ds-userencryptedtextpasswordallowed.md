@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d99ae61566ceec94336fd58951214dfc3255d2e
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 7e8fc10b3facce4bef7cc5ff73abe9e901f67171dc2615b79c62355ac61a7c10
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104467200"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118686999"
 ---
 # <a name="ms-ds-user-encrypted-text-password-allowed-attribute"></a>ms DS-使用者加密-文字-允許的屬性
 
@@ -58,7 +58,7 @@ ms.locfileid: "104467200"
 | 連結識別碼                | \-                                                                |
 | MAPI-Id                | \-                                                                |
 | System-Only            | 否                                                             |
-| 是-單一值       | 對                                                              |
+| 是-單一值       | 是                                                              |
 | 已編制索引             | 否                                                             |
 | 在通用類別目錄中      | 否                                                             |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                      |

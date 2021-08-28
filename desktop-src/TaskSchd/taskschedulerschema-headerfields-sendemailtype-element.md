@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 9d108f1c31b8253046ccdbf09312df4f54c7335d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2af801385c74fa26221556b713faf8db915037ef4cf7439d71a2e2d4004193d8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104508851"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120100028"
 ---
 # <a name="headerfields-sendemailtype-element"></a>HeaderFields (sendEmailType) 元素
 
@@ -36,7 +36,7 @@ ms.locfileid: "104508851"
 
 
 
-| 元素                                                                              | 衍生自                                                           | Description                                                  |
+| 元素                                                                              | 衍生自                                                           | 描述                                                  |
 |--------------------------------------------------------------------------------------|------------------------------------------------------------------------|--------------------------------------------------------------|
 | [**SendEmail (actionGroup)**](taskschedulerschema-sendemail-actiongroup-element.md) | [**sendEMailType**](taskschedulerschema-sendemailtype-complextype.md) | 表示傳送電子郵件訊息的動作。<br/> |
 
@@ -46,7 +46,7 @@ ms.locfileid: "104508851"
 
 
 
-| 元素                                                                         | 類型                                                                       | Description                                                    |
+| 元素                                                                         | 類型                                                                       | 描述                                                    |
 |---------------------------------------------------------------------------------|----------------------------------------------------------------------------|----------------------------------------------------------------|
 | [**HeaderField**](taskschedulerschema-headerfield-headerfieldstype-element.md) | [**headerFieldType**](taskschedulerschema-headerfieldtype-complextype.md) | 在電子郵件訊息中包含標頭的欄位。 <br/> |
 
@@ -64,8 +64,8 @@ ms.locfileid: "104508851"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

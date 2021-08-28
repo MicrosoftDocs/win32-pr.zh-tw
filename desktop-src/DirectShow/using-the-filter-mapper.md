@@ -4,16 +4,16 @@ ms.assetid: 3f774350-4508-437f-98d1-cca91220f339
 title: 使用篩選器對應程式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2c2d7acf85a7b415fc161cd21e17d069b46c3f40
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 48758c40b97477200b4fab1215eaccac53823771add86d6a8b915370776495a0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103850336"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120049609"
 ---
 # <a name="using-the-filter-mapper"></a>使用篩選器對應程式
 
-[篩選器](filter-mapper.md)對應程式是一種 COM 物件，可根據各種搜尋準則來列舉 DirectShow 篩選。 篩選對應程式可能比系統裝置列舉值低，因此，如果您需要特定類別的篩選，則應該使用系統裝置枚舉器。 但是，如果您需要尋找支援特定媒體類型組合的篩選器，但不屬於清除的類別，您可能需要使用篩選器對應程式。  (範例是轉譯器篩選器或解碼篩選器。 ) 
+[篩選器](filter-mapper.md)對應程式是一種 COM 物件，可根據各種搜尋準則來列舉 DirectShow 的篩選準則。 篩選對應程式可能比系統裝置列舉值低，因此，如果您需要特定類別的篩選，則應該使用系統裝置枚舉器。 但是，如果您需要尋找支援特定媒體類型組合的篩選器，但不屬於清除的類別，您可能需要使用篩選器對應程式。  (範例是轉譯器篩選器或解碼篩選器。 ) 
 
 篩選器對應程式會公開 [**IFilterMapper2**](/windows/desktop/api/Strmif/nn-strmif-ifiltermapper2) 介面。 若要搜尋篩選準則，請呼叫 [**IFilterMapper2：： EnumMatchingFilters**](/windows/desktop/api/Strmif/nf-strmif-ifiltermapper2-enummatchingfilters) 方法。 這個方法會採用數個定義搜尋準則的參數，並傳回相符篩選準則的枚舉器。 列舉值支援 [**IEnumMoniker**](/windows/win32/api/objidl/nn-objidl-ienummoniker) 介面，並為每個相符的篩選器提供唯一的標記。
 
@@ -106,7 +106,7 @@ pEnum->Release();
 [列舉裝置和篩選器](enumerating-devices-and-filters.md)
 </dt> <dt>
 
-[智慧型連接](intelligent-connect.md)
+[智慧型連線](intelligent-connect.md)
 </dt> </dl>
 
  

@@ -4,12 +4,12 @@ ms.assetid: 02434cb9-390c-4cf0-9941-b833ace55685
 title: VSS 測試編寫器工具
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b93f0b81bd5e27db9fdfb70ca52e6f43bbb1e853af87bc12e1d76f01d7966ef3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 35c8ff5461c263754aa5771cc9db230dec795a98
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118344231"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122482094"
 ---
 # <a name="vss-test-writer-tool"></a>VSS 測試編寫器工具
 
@@ -98,49 +98,16 @@ TestWriter 根項目包含的屬性，可決定寫入器的各種行為。 以�
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>屬性</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><span id="verbosity"></span><span id="VERBOSITY"></span>冗長<br/></td>
-<td>寫入器會將狀態列印到主控台，因為它會接收事件並進行處理。 所顯示的詳細程度層級是由詳細資訊屬性所指定。 有三個詳細等級可供選擇：<br/> <dl> <dt><span id="low"></span><span id="LOW"></span>低</dt> <dd> 只會列印寫入器中的失敗或要求者的不正確行為。<br/> </dd> <dt><span id="medium"></span><span id="MEDIUM"></span>中</dt> <dd> 除了額外的狀態資訊（例如接收事件時），也會列印低詳細資訊層級的所有專案。 這是預設層級。<br/> </dd> <dt><span id="high"></span><span id="HIGH"></span>高</dt> <dd> 報告寫入器操作的詳細狀態資訊。<br/> </dd> </dl></td>
-</tr>
-<tr class="even">
-<td><span id="deleteFiles"></span><span id="deletefiles"></span><span id="DELETEFILES"></span>deleteFiles<br/></td>
-<td>若要執行額外的驗證，請將此屬性設定為 &quot; [是]， &quot; 讓寫入器在建立磁片區陰影複製後立即刪除其所有檔案。 接著，要求者必須複製陰影複製中的檔案，因為它們已不存在於原始磁片區上。 <br/>
-<blockquote>
-[!Note]<br />
-在算寫入器的情況下，會在算之後，但在建立陰影複製之前，從原始位置刪除檔案。 建立陰影複製之後，就會從算目錄中刪除這些檔案。
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="deletePartialFiles"></span><span id="deletepartialfiles"></span><span id="DELETEPARTIALFILES"></span>deletePartialFiles<br/></td>
-<td>若要刪除部分檔案，請將此屬性設定為 &quot; [是] &quot; 。<br/></td>
-</tr>
-<tr class="even">
-<td><span id="deleteDifferencedFiles"></span><span id="deletedifferencedfiles"></span><span id="DELETEDIFFERENCEDFILES"></span>deleteDifferencedFiles<br/></td>
-<td>若要刪除差異的檔案，請將此屬性設定為 &quot; [是] &quot; 。<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="checkIncludes"></span><span id="checkincludes"></span><span id="CHECKINCLUDES"></span>checkIncludes<br/></td>
-<td>將此屬性設定為 &quot; [是]， &quot; 讓寫入器檢查已備份的每個檔案都已還原到適當的位置，而且檔案未損毀。 部分檔案和差異檔案也會正確處理。<br/></td>
-</tr>
-<tr class="even">
-<td><span id="checkExcludes"></span><span id="checkexcludes"></span><span id="CHECKEXCLUDES"></span>checkExcludes<br/></td>
-<td>將此屬性設定為 &quot; [是] &quot; ，會導致寫入器檢查是否有符合排除清單中檔案規格的檔案不會還原。 為了讓此功能正常運作，必須先清空還原目錄，再進行還原。<br/></td>
-</tr>
-</tbody>
-</table>
+
+| 屬性 | 描述 | 
+|-----------|-------------|
+| <span id="verbosity"></span><span id="VERBOSITY"></span>冗長<br /> | 寫入器會將狀態列印到主控台，因為它會接收事件並進行處理。 所顯示的詳細程度層級是由詳細資訊屬性所指定。 有三個詳細等級可供選擇：<br /><dl><dt><span id="low"></span><span id="LOW"></span>低</dt><dd> 只會列印寫入器中的失敗或要求者的不正確行為。<br /></dd><dt><span id="medium"></span><span id="MEDIUM"></span>中</dt><dd> 除了額外的狀態資訊（例如接收事件時），也會列印低詳細資訊層級的所有專案。 這是預設層級。<br /></dd><dt><span id="high"></span><span id="HIGH"></span>高</dt><dd> 報告寫入器操作的詳細狀態資訊。<br /></dd></dl> | 
+| <span id="deleteFiles"></span><span id="deletefiles"></span><span id="DELETEFILES"></span>deleteFiles<br /> | 若要執行額外的驗證，請將此屬性設定為 [是]，讓寫入器在建立磁片區陰影複製後立即刪除其所有檔案。 接著，要求者必須複製陰影複製中的檔案，因為它們已不存在於原始磁片區上。 <br /><blockquote>[!Note]<br />在算寫入器的情況下，會在算之後，但在建立陰影複製之前，從原始位置刪除檔案。 建立陰影複製之後，就會從算目錄中刪除這些檔案。</blockquote><br /> | 
+| <span id="deletePartialFiles"></span><span id="deletepartialfiles"></span><span id="DELETEPARTIALFILES"></span>deletePartialFiles<br /> | 若要刪除部分檔案，請將此屬性設定為 [是]。<br /> | 
+| <span id="deleteDifferencedFiles"></span><span id="deletedifferencedfiles"></span><span id="DELETEDIFFERENCEDFILES"></span>deleteDifferencedFiles<br /> | 若要刪除差異的檔案，請將此屬性設定為 [是]。<br /> | 
+| <span id="checkIncludes"></span><span id="checkincludes"></span><span id="CHECKINCLUDES"></span>checkIncludes<br /> | 將此屬性設定為 [是]，讓寫入器檢查已備份的每個檔案都已還原到適當的位置，而且檔案未損毀。 部分檔案和差異檔案也會正確處理。<br /> | 
+| <span id="checkExcludes"></span><span id="checkexcludes"></span><span id="CHECKEXCLUDES"></span>checkExcludes<br /> | 將此屬性設定為 [是]，以使寫入器確認不會還原符合排除清單中檔案規格的檔案。 為了讓此功能正常運作，必須先清空還原目錄，再進行還原。<br /> | 
+
 
 
 

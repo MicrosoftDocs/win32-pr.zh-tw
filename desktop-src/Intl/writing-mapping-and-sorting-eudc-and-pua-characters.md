@@ -4,12 +4,12 @@ ms.assetid: c975c70d-4231-4a69-bec2-d51d6993fdd4
 title: 撰寫、對應和排序 EUDC 和 PUA 字元
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a6c34264d956bb6a87407e249f68b2bc03fb2c99
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e7ab43eb54055b97fe1823ad99467a4cd0b12a0a5fb971d52d225631cfd37ffe
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191378"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120102078"
 ---
 # <a name="writing-mapping-and-sorting-eudc-and-pua-characters"></a>撰寫、對應和排序 EUDC 和 PUA 字元
 

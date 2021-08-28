@@ -4,12 +4,12 @@ description: 群組會在索引標籤中組織相關的命令和控制項。
 ms.assetid: 5d098d3f-a4ee-4f76-8c81-832d0c49cb80
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 903bd422d11fea81ed03a48bf8e9437f9caab699
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: c153f8cd9d1fc0d2d2bdbaabab0b2e15e099e50d
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104383757"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122467415"
 ---
 # <a name="group-windows-ribbon-framework"></a>群組 (Windows 功能區架構) 
 
@@ -42,57 +42,18 @@ ms.locfileid: "104383757"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>屬性索引鍵</th>
-<th>備註</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="windowsribbon-reference-properties-uipkey-keytip.md">UI_PKEY_Keytip</a></td>
-<td>只能透過失效進行更新。
-<blockquote>
-[!Note]<br />
-架構要求群組控制項的 <a href="windowsribbon-reference-properties-uipkey-keytip.md">UI_PKEY_Keytip</a> 值的開頭必須是大寫字母 Z。如果 <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuicommandhandler-updateproperty"><strong>IUICommandHandler：： UpdateProperty</strong></a> 回呼方法中的應用程式所提供的值不是以字母 Z 開頭，則會忽略此值，而值會由架構產生。 Framework 值是字母 Z，後面接著以1開始的數值，並視需要順序遞增，以供後續的群組控制項 (Z1、Z2、...、Zx) 。
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td><a href="windowsribbon-reference-properties-uipkey-label.md">UI_PKEY_Label</a></td>
-<td>只能透過失效進行更新。</td>
-</tr>
-<tr class="odd">
-<td><a href="windowsribbon-reference-properties-uipkey-largehighcontrastimage.md">UI_PKEY_LargeHighContrastImage</a></td>
-<td>只能透過失效進行更新。</td>
-</tr>
-<tr class="even">
-<td><a href="windowsribbon-reference-properties-uipkey-largeimage.md">UI_PKEY_LargeImage</a></td>
-<td>只能透過失效進行更新。</td>
-</tr>
-<tr class="odd">
-<td><a href="windowsribbon-reference-properties-uipkey-smallhighcontrastimage.md">UI_PKEY_SmallHighContrastImage</a></td>
-<td>只能透過失效進行更新。</td>
-</tr>
-<tr class="even">
-<td><a href="windowsribbon-reference-properties-uipkey-smallimage.md">UI_PKEY_SmallImage</a></td>
-<td>只能透過失效進行更新。</td>
-</tr>
-<tr class="odd">
-<td><a href="windowsribbon-reference-properties-uipkey-tooltipdescription.md">UI_PKEY_TooltipDescription</a></td>
-<td>只能透過失效進行更新。</td>
-</tr>
-<tr class="even">
-<td><a href="windowsribbon-reference-properties-uipkey-tooltiptitle.md">UI_PKEY_TooltipTitle</a></td>
-<td>只能透過失效進行更新。</td>
-</tr>
-</tbody>
-</table>
+
+| 屬性索引鍵 | 備註 | 
+|--------------|-------|
+| <a href="windowsribbon-reference-properties-uipkey-keytip.md">UI_PKEY_Keytip</a> | 只能透過失效進行更新。<blockquote>[!Note]<br />架構要求群組控制項的 <a href="windowsribbon-reference-properties-uipkey-keytip.md">UI_PKEY_Keytip</a> 值的開頭必須是大寫字母 Z。如果 <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuicommandhandler-updateproperty"><strong>IUICommandHandler：： UpdateProperty</strong></a> 回呼方法中的應用程式所提供的值不是以字母 Z 開頭，則會忽略此值，而值會由架構產生。 Framework 值是字母 Z，後面接著以1開始的數值，並視需要順序遞增，以供後續的群組控制項 (Z1、Z2、...、Zx) 。</blockquote><br /> | 
+| <a href="windowsribbon-reference-properties-uipkey-label.md">UI_PKEY_Label</a> | 只能透過失效進行更新。 | 
+| <a href="windowsribbon-reference-properties-uipkey-largehighcontrastimage.md">UI_PKEY_LargeHighContrastImage</a> | 只能透過失效進行更新。 | 
+| <a href="windowsribbon-reference-properties-uipkey-largeimage.md">UI_PKEY_LargeImage</a> | 只能透過失效進行更新。 | 
+| <a href="windowsribbon-reference-properties-uipkey-smallhighcontrastimage.md">UI_PKEY_SmallHighContrastImage</a> | 只能透過失效進行更新。 | 
+| <a href="windowsribbon-reference-properties-uipkey-smallimage.md">UI_PKEY_SmallImage</a> | 只能透過失效進行更新。 | 
+| <a href="windowsribbon-reference-properties-uipkey-tooltipdescription.md">UI_PKEY_TooltipDescription</a> | 只能透過失效進行更新。 | 
+| <a href="windowsribbon-reference-properties-uipkey-tooltiptitle.md">UI_PKEY_TooltipTitle</a> | 只能透過失效進行更新。 | 
+
 
 
 
@@ -102,7 +63,7 @@ ms.locfileid: "104383757"
 
 <dl> <dt>
 
-[Windows 功能區架構控制項程式庫](windowsribbon-controls-entry.md)
+[Windows功能區架構控制項程式庫](windowsribbon-controls-entry.md)
 </dt> <dt>
 
 [**Group 元素**](windowsribbon-element-group.md)

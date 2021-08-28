@@ -4,12 +4,12 @@ ms.assetid: d9c491c9-d341-4189-9a41-45c4d78322fa
 title: '受管理的程式庫和控制項 (Tablet PC) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d031a97226d200b99a6d36b42e3e4c43862f5b6ac52203ee4ca08d1e5714f2c7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 81b4096ba54d3cd882b3ee50469d94792b4a46ce
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119031726"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122884275"
 ---
 # <a name="managed-library-and-controls-tablet-pc"></a>受管理的程式庫和控制項 (Tablet PC) 
 
@@ -19,8 +19,8 @@ ms.locfileid: "119031726"
 
 在 Windows Vista 中，Tablet PC managed 程式庫元件預設會安裝在兩個目錄中：
 
--   <systemdrive>： \\ Program files \\ 一般檔案 \\ Microsoft 共用 \\ 筆墨目錄
--   <systemdrive>： \\ Program Files \\ Microsoft sdk \\ Windows \\ v 6.0 \\ Bin
+-   &lt;systemdrive &gt; ： \\ Program files \\ 一般檔案 \\ Microsoft 共用 \\ 筆墨目錄
+-   &lt;systemdrive &gt; ： \\ Program Files \\ Microsoft sdk \\ Windows \\ v 6.0 \\ Bin
 
 若要在 Microsoft Visual Studio .net 中新增 Tablet PC 平臺受控程式庫的參考：
 

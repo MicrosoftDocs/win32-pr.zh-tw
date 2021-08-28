@@ -1,21 +1,21 @@
 ---
-title: 藍牙回呼
-description: 本節中的藍牙回呼函式會與能夠管理藍牙裝置和服務的函式搭配使用。
+title: 藍牙回檔
+description: 本節中的藍牙回呼函數會與可管理藍牙裝置和服務的函式搭配使用。
 ms.assetid: a66f88e2-46f7-4e23-9b61-7ee35abec207
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a1afe99dc3fe1bee8f133cddae0e319e6354077e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: aad822a0c7af4b0bbc5d649919bda638776014dfe7e8195ed1f45bb99032c6d7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671608"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119588358"
 ---
-# <a name="bluetooth-callbacks"></a>藍牙回呼
+# <a name="bluetooth-callbacks"></a>藍牙回檔
 
-本節中的藍牙回呼函式會與能夠管理藍牙裝置和服務的函式搭配使用。
+本節中的藍牙回呼函數會與可管理藍牙裝置和服務的函式搭配使用。
 
-您也可以使用 Windows 通訊端程式設計介面來支援藍牙。 如需使用 Windows 通訊端介面進行藍牙程式設計的詳細資訊，請參閱 [適用于藍牙的 Windows 通訊端支援](windows-sockets-support-for-bluetooth.md)。
+使用 Windows 通訊端程式設計介面也支援藍牙。 如需使用 Windows 通訊端介面進行程式設計藍牙的詳細資訊，請參閱[藍牙 Windows 通訊端支援](windows-sockets-support-for-bluetooth.md)。
 
 
 
@@ -28,11 +28,11 @@ ms.locfileid: "103671608"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -6,12 +6,12 @@ keywords:
 - RPC_BINDING_HANDLE
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 45e37d14bc5186f05815c10f538b0c90bdddd353
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0218f1a7331a070340b7740c83f8464b2286de2698daf67ac1092aa5c057db03
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103686572"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120018582"
 ---
 # <a name="rpc_binding_handle"></a>RPC 系結 \_ \_ 控制碼
 
@@ -32,11 +32,11 @@ typedef I_RPC_HANDLE RPC_BINDING_HANDLE;
 
 用戶端系結控制碼不能用來進行遠端程序呼叫。 RPC 執行時間程式庫會建立並提供用戶端系結控制碼給被呼叫的伺服器程式， (也稱為伺服器管理員常式) 做為 RPC 系結 \_ \_ 控制碼參數。 用戶端系結控制碼包含呼叫用戶端的相關資訊。
 
-*\** _*\**_ \_ \_ \_ \_ \_ 當應用程式提供錯誤的系結控制碼類型時，* RpcBinding _ 和 RpcNsBinding 函式會傳回狀態碼 RPC S 錯誤的系結類型。
+**\*  \*** \_ \_ \_ \_ \_ 當應用程式提供錯誤的系結控制碼類型時，RPCBINDING _ 和 _ RpcNsBinding 函式會傳回狀態碼 RPC S 錯誤的系結類型。
 
 應用程式可以跨多個執行執行緒共用單一系結控制碼。 RPC 執行時間程式庫會管理使用單一系結控制碼的並行遠端程序呼叫。 但是，應用程式負責系結控制碼並行控制，以進行修改系結控制碼的作業。 這些作業包括下列常式：
 
--   [_ *RpcBindingFree**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindingfree)
+-   [**RpcBindingFree**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindingfree)
 -   [**RpcBindingReset**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindingreset)
 -   [**RpcBindingSetAuthInfo**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindingsetauthinfo)
 -   [**RpcBindingSetObject**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindingsetobject)

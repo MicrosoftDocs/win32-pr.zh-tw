@@ -4,12 +4,12 @@ ms.assetid: e319a5c6-a045-42b1-a83e-3a978172b52c
 title: 翻譯
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 699ec4c75ebb79e440fbc9b01231fe83feb942dd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 115af82d1e5b80fa4c50d081e6d042d2f2c9c8950f3b4b8f6ed09108df4c52bd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104987817"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119613338"
 ---
 # <a name="translation"></a>翻譯
 

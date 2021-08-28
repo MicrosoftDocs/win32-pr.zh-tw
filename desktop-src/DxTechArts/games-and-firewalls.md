@@ -4,12 +4,12 @@ description: 本文說明 Windows 防火牆、其存在的原因，以及其運�
 ms.assetid: 2ee9f769-03dc-3661-5d5b-6a4ecd151fd5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c948cf23e8f42847e77f192669d64a58b03c3fcd00136bdec28312fe506c777d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 49e7fc00631ef69f878c54de90c2577221e5bc9a
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117815783"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122882678"
 ---
 # <a name="windows-firewall-for-game-developers"></a>Windows適用于遊戲開發人員的防火牆
 
@@ -102,7 +102,7 @@ Windows XP SP2 和 Windows Server 2003 Service Pack 1 (SP1) 都有提供新的 W
 |             | 檔案                                                                             |
 |-------------|------------------------------------------------------------------------------|
 | **來源：**     |  (SDK 根) \\ 範例 \\ c + + \\ 其他 \\ FirewallInstallHelper                        |
-| **可執行：** |  (SDK 根) \\ 範例 \\ c + + \\ 其他 \\ Bin \\ <arch> \\FirewallInstallHelper.dll |
+| **可執行：** |  (SDK 根) \\ 範例 \\ c + + \\ 其他 \\ Bin 架構 \\ &lt; &gt; \\FirewallInstallHelper.dll |
 
 
 
@@ -273,7 +273,7 @@ Windows XP SP2 和 Windows Server 2003 Service Pack 1 (SP1) 都有提供新的 W
 
     
 
-    | 名稱     | 資料                                                                                                                                                                          |
+    | Name     | 資料                                                                                                                                                                          |
     |----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
     | 防火牆 | 將它指向 FirewallInstallHelper.dll。 此檔案將內嵌在 MSI 套件中，因此每次重新編譯 FirewallInstallHelper.dll 時，您都必須執行此步驟。 |
 

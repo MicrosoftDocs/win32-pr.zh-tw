@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 81c70a1435f96091070b2aee4ed7f079e5a6529a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ed441bcc14ff3bbd32ac4fd46f3aa86f931f9c6887c1a3c1fc48abe89e778440
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466481"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119344008"
 ---
 # <a name="ageallrecords-method-of-the-microsoftdns_zone-class"></a>MicrosoftDNS 區域類別的 AgeAllRecords 方法 \_
 

@@ -19,12 +19,12 @@ api_type:
 - Schema
 api_location:
 - All
-ms.openlocfilehash: 058b03b8a3311aad805f47a04d20e9f1fa8c2477
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6fd31df9f84883c8b677ea4fef0431ed762b4cec2155cb3d600893a40e3e1d9f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106994504"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119612628"
 ---
 # <a name="__eventqueueoverflowevent-class"></a>\_\_EventQueueOverflowEvent 類別
 

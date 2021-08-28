@@ -1,19 +1,19 @@
 ---
-description: 選擇性 <iconReference> 元素會指定這個位置的自訂圖示。 此元素沒有屬性和子項目。
+description: 選擇性的 &lt; iconReference &gt; 元素會指定這個位置的自訂圖示。 此元素沒有屬性和子項目。
 ms.assetid: c2fa5e99-a7fd-423e-9952-5233e8c83619
 title: 'iconReference 元素 (搜尋連接器架構) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 76391eb7079414abe13c4e45696ee3eacb3b968eb93b342b1b9e67825fac85c7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 47ff41d6dfd37e5e3fe780171701886b08b195ac
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117862580"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122882420"
 ---
 # <a name="iconreference-element-search-connector-schema"></a>iconReference 元素 (搜尋連接器架構) 
 
-選擇性 <iconReference> 元素會指定這個位置的自訂圖示。 此元素沒有屬性和子項目。
+選擇性的 &lt; iconReference &gt; 元素會指定這個位置的自訂圖示。 此元素沒有屬性和子項目。
 
 ## <a name="syntax"></a>Syntax
 

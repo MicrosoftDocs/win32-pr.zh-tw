@@ -16,12 +16,12 @@ api_location: ''
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 77a4bb56e73e1f43c957cac2f8553597dda07e18fd5cee43f8ca8503a680a67f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 270ef6c61bcbb0aad6800177537a8efd4dedf75c
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118745276"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122481724"
 ---
 # <a name="span-idwwan_profile_v4element_1_userlogoncredspanmodemdmconfigprofileuserlogoncred-v4"></a><span id="WWAN_profile_v4.element_1_UserLogonCred"></span>ModemDMConfigProfile \/ ... \/UserLogonCred (v4) 
 
@@ -64,76 +64,31 @@ ms.locfileid: "118745276"
 
 ### <a name="span-idchild_elementsspanspan-idchild_elementsspanspan-idchild_elementsspanchild-elements"></a><span id="Child_Elements"></span><span id="child_elements"></span><span id="CHILD_ELEMENTS"></span>子項目
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>子元素</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="element-1-ignorepassword.md">IgnorePassword</a></td>
-<td><p>指定升級設定檔時密碼的處理方式。</p>
-<p>如果設定為 <strong>TRUE</strong> 且在更新作業時存在具有相同名稱的設定檔，則會採用該設定檔中的密碼，並將其儲存在新的設定檔中。</p>
-<p>如需詳細資訊，請參閱 v1 <a href="../mbn/schema-ignorepassword-userlogoncred-element.md"><strong>IgnorePassword</strong></a> 元素的檔。</p></td>
-</tr>
-<tr class="even">
-<td><a href="element-1-password.md">密碼</a></td>
-<td><p>指定用來驗證使用者的密碼。</p>
-<p>如需詳細資訊，請參閱 v1 <a href="../mbn/schema-password-userlogoncred-element.md"><strong>密碼</strong></a> 元素的檔。</p></td>
-</tr>
-<tr class="odd">
-<td><a href="element-1-username.md">使用者名稱</a></td>
-<td><p>用於登入的使用者名稱。</p>
-<p>如需詳細資訊，請參閱 v1 使用者 <a href="../mbn/schema-username-userlogoncred-element.md"><strong>名稱</strong></a> 元素的檔。</p></td>
-</tr>
-</tbody>
-</table>
+
+| 子元素 | Description | 
+|---------------|-------------|
+| <a href="element-1-ignorepassword.md">IgnorePassword</a> | <p>指定升級設定檔時密碼的處理方式。</p><p>如果設定為 <strong>TRUE</strong> 且在更新作業時存在具有相同名稱的設定檔，則會採用該設定檔中的密碼，並將其儲存在新的設定檔中。</p><p>如需詳細資訊，請參閱 v1 <a href="../mbn/schema-ignorepassword-userlogoncred-element.md"><strong>IgnorePassword</strong></a> 元素的檔。</p> | 
+| <a href="element-1-password.md">密碼</a> | <p>指定用來驗證使用者的密碼。</p><p>如需詳細資訊，請參閱 v1 <a href="../mbn/schema-password-userlogoncred-element.md"><strong>密碼</strong></a> 元素的檔。</p> | 
+| <a href="element-1-username.md">使用者名稱</a> | <p>用於登入的使用者名稱。</p><p>如需詳細資訊，請參閱 v1 使用者 <a href="../mbn/schema-username-userlogoncred-element.md"><strong>名稱</strong></a> 元素的檔。</p> | 
+
 
  
 
 ### <a name="span-idparent_elementsspanspan-idparent_elementsspanparent-elements"></a><span id="parent_elements"></span><span id="PARENT_ELEMENTS"></span>父元素
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Parent 項目</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="element-1-context.md">內容</a></td>
-<td><p>指定建立資料連線所需的參數。</p></td>
-</tr>
-</tbody>
-</table>
+
+| Parent 項目 | 描述 | 
+|----------------|-------------|
+| <a href="element-1-context.md">內容</a> | <p>指定建立資料連線所需的參數。</p> | 
+
 
  
 
 ## <a name="requirements"></a>規格需求
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>命名空間</p></td>
-<td><p>https://www.microsoft.com/networking/WWAN/profile/v4</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p>命名空間</p> | <p>https://www.microsoft.com/networking/WWAN/profile/v4</p> | 
+
 
  
 

@@ -3,7 +3,7 @@
   items:
     - name: 使用 DirectX 進行開發的必要條件
       href: pre-requisites-for-developing-a-tailored-c---with-directx-app.md
-    - name: 開始使用適用于 Windows 的 DirectX
+    - name: Windows 的 DirectX 入門
       href: getting-started-with-a-directx-game.md
       items:
         - name: 使用 DirectX 裝置資源

@@ -4,22 +4,22 @@ ms.assetid: 26358bc5-71e9-40f0-9243-9bddd961a0e5
 title: 直接操作
 ms.topic: article
 ms.date: 02/03/2020
-ms.openlocfilehash: 6db2a50893914dfb25050768f88cb289a1ecf3ea
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: f449079a1772fd6dd43b51a2e5af3920ab3e173e1dc8590567ed4555b6deaf31
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104109045"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120022581"
 ---
 # <a name="direct-manipulation"></a>直接操作
 
 直接操作 Api 可讓您建立絕佳的平移、縮放和拖曳使用者體驗。 若要這樣做，它會在區域或物件上處理觸控輸入、產生輸出轉換，然後將轉換套用至 UI 元素。 您可以使用直接操作，透過執行緒輸入處理、選擇性的非執行緒輸入點擊測試，以及輸入/輸出預測，來將回應優化並降低延遲。
 
-任何使用直接操作來處理觸控互動的應用程式，都會顯示符合 [一般使用者互動方針](/windows/uwp/design/input/)的流暢 Windows 8 動畫與互動意見反應行為。
+任何使用直接操作來處理觸控互動的應用程式，都會顯示符合[一般使用者互動方針](/windows/uwp/design/input/)的流暢 Windows 8 動畫與互動意見反應行為。
 
 ## <a name="developer-audience"></a>開發人員讀者
 
-直接操作 API 適用于熟悉 C/c + + 的有經驗的開發人員，對於 [元件物件模型 (的 COM) ](../com/component-object-model--com--portal.md)有充分的瞭解，而且熟悉 Windows 程式設計概念。
+直接操作 API 適用于熟悉 C/c + + 的有經驗的開發人員，對於[元件物件模型 (的 COM) ](../com/component-object-model--com--portal.md)有充分的瞭解，並熟悉 Windows 程式設計概念。
 
 ## <a name="run-time-requirements"></a>執行階段需求求
 

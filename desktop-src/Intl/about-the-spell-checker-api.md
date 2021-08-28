@@ -4,20 +4,20 @@ ms.assetid: ED569D4F-568B-4381-91C3-8EAEDA4DD47C
 title: 關於拼寫檢查 API
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2f0d356823e665781052e2a2d5ea98b358155038
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0e3c15594be003b67a6e0c9df62e234e8076cd4ea213bc08468f3bb72698f51f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103850259"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119754938"
 ---
 # <a name="about-the-spell-checking-api"></a>關於拼寫檢查 API
 
 針對全球使用者，文字輸入是新式運算體驗的一部分，適用于博客、批註、tweet、立即訊息，或任何其他類型的文字類型。 在 Windows 8 中，已內建編輯控制項的拼寫檢查。
 
-開發人員可以在其應用程式中使用拼寫檢查 API，以使用可用的拼寫檢查服務。 開發人員也可以建立可成為提供者的拼寫檢查，並整合到 Windows 拼寫檢查架構中。
+開發人員可以在其應用程式中使用拼寫檢查 API，以使用可用的拼寫檢查服務。 開發人員也可以建立會成為提供者的拼寫檢查，並整合到 Windows 的拼寫檢查架構中。
 
-拼寫檢查 API 的設計目的是要讓 Windows 元件物件模型的專業 C/c + + 開發人員使用 (COM) 應用程式。 在 Windows 或 ASP.NET 服務中不支援使用拼寫檢查 API。
+拼寫檢查 API 的設計目的，是為了讓 Windows 元件物件模型 (COM) 應用程式的專業 C/c + + 開發人員使用。 不支援在 Windows 或 ASP.NET 服務中使用拼寫檢查 API。
 
 ## <a name="versioning"></a>版本控制
 

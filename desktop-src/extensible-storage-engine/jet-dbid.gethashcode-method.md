@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 81f9c03896787907021805e06b21967bfbd57140
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2f29755550e1532178e14ca27e5cb0f10d3148d76c5070220200b62e4398540f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848002"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120017358"
 ---
 # <a name="jet_dbidgethashcode-method"></a>JET_DBID。GetHashCode 方法
 

@@ -4,12 +4,12 @@ description: 在遠端程序呼叫中指定已知和動態的端點， (RPC) 。
 ms.assetid: fc39b527-11e6-45a7-b3b5-8bcf469633d8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 373fb2818dd14670f5a939aa524c81fcdb05e20b
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 0ff73f13f752e42917353a217f5a2fcfa8d1fcfa9dc60edf585c42d72b0d306e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106968297"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120017608"
 ---
 # <a name="specifying-endpoints"></a>指定端點
 
@@ -42,6 +42,6 @@ ms.locfileid: "106968297"
 
 當伺服器進程停止執行時，系統會自動從端點對應程式資料庫清除動態端點。 您可以先從端點對應程式資料庫移除端點，然後再使用 [**RpcEpUnregister**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcepunregister) 函式結束伺服器程式，或者您可以允許自動清除來管理端點的移除作業。
 
- 
+ 
 
- 
+ 

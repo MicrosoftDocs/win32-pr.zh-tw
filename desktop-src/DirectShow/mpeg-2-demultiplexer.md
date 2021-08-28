@@ -4,12 +4,12 @@ ms.assetid: 99bfc55d-6519-4e85-98ce-cad27bd71ffb
 title: MPEG-2 信號信號
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d4648a456e8f7fa43274486111973fa2255ab29e4e674bc249e1c2a3c64a7b43
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f21898cb4fa3c16b07508dc3370c519d3edfbced
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118152977"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122983951"
 ---
 # <a name="mpeg-2-demultiplexer"></a>MPEG-2 信號信號
 
@@ -22,71 +22,20 @@ ms.locfileid: "118152977"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>篩選介面</td>
-<td>所有模式：<br/>
-<ul>
-<li><a href="/windows/desktop/api/Strmif/nn-strmif-ibasefilter"><strong>IBaseFilter</strong></a></li>
-<li><strong>ISpecifyPropertyPages</strong></li>
-</ul>
-僅限推送模式：<br/>
-<ul>
-<li><a href="/windows/desktop/api/Strmif/nn-strmif-iamfiltermiscflags"><strong>IAMFilterMiscFlags</strong></a></li>
-<li><a href="/windows/desktop/api/Strmif/nn-strmif-impeg2demultiplexer"><strong>IMpeg2Demultiplexer</strong></a></li>
-<li><a href="/windows/desktop/api/Strmif/nn-strmif-ireferenceclock"><strong>IReferenceClock</strong></a></li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>輸入 Pin 媒體類型</td>
-<td>主要類型： MEDIATYPE_STREAM<br/> 亞：<br/>
-<ul>
-<li>KSDATAFORMAT_SUBTYPE_BDA_MPEG2_TRANSPORT</li>
-<li>MEDIASUBTYPE_MPEG2_PROGRAM</li>
-<li>MEDIASUBTYPE_MPEG2_TRANSPORT</li>
-<li>MEDIASUBTYPE_MPEG2_TRANSPORT_STRIDE</li>
-</ul>
-如需詳細資訊，請參閱 <a href="mpeg-2-demultiplexer-media-types.md"><strong>Mpeg-2 信號的媒體類型</strong></a>。<br/></td>
-</tr>
-<tr class="odd">
-<td>輸入 Pin 介面</td>
-<td><a href="/windows/desktop/api/Strmif/nn-strmif-imeminputpin"><strong>IMemInputPin</strong></a>、 <a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPin</strong></a>、 <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>IQualityControl</strong></a></td>
-</tr>
-<tr class="even">
-<td>輸出 Pin 媒體類型</td>
-<td>音訊和影片的基本資料流程必須有主要類型的 MEDIATYPE_Audio 或 MEDIATYPE_Video。<br/> 如需詳細資訊，請參閱 <a href="mpeg-2-demultiplexer-media-types.md"><strong>Mpeg-2 信號的媒體類型</strong></a>。<br/></td>
-</tr>
-<tr class="odd">
-<td>輸出 Pin 介面</td>
-<td><a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPin</strong></a>，僅限 <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>IQualityControl</strong></a>Push 模式： <a href="/windows/desktop/api/Strmif/nn-strmif-iampushsource"><strong>IAMPushSource</strong></a>、 <a href="/previous-versions/windows/desktop/api/Bdaiface/nn-bdaiface-impeg2pidmap"><strong>IMPEG2PIDMap</strong></a>、 <a href="/windows/desktop/api/Strmif/nn-strmif-impeg2streamidmap"><strong>IMPEG2StreamIdMap</strong></a><br/> 僅提取模式： <a href="/windows/desktop/api/Strmif/nn-strmif-imediaseeking"> <strong>IMediaSeeking</strong></a><br/></td>
-</tr>
-<tr class="even">
-<td>篩選 CLSID</td>
-<td>CLSID_MPEG2Demultiplexer</td>
-</tr>
-<tr class="odd">
-<td>屬性頁 CLSID</td>
-<td>僅供測試之用。 使用 <strong>ISpecifyPropertyPages</strong> 介面存取屬性頁</td>
-</tr>
-<tr class="even">
-<td>可執行檔</td>
-<td>mpg2splt.ax</td>
-</tr>
-<tr class="odd">
-<td><a href="merit.md">優點</a></td>
-<td>MERIT_NORMAL</td>
-</tr>
-<tr class="even">
-<td><a href="filter-categories.md">篩選準則分類</a></td>
-<td>CLSID_LegacyAmFilterCategory</td>
-</tr>
-</tbody>
-</table>
+
+| 標籤 | 值 |
+|--------|-------|
+| 篩選介面 | 所有模式：<br /><ul><li><a href="/windows/desktop/api/Strmif/nn-strmif-ibasefilter"><strong>IBaseFilter</strong></a></li><li><strong>ISpecifyPropertyPages</strong></li></ul>僅限推送模式：<br /><ul><li><a href="/windows/desktop/api/Strmif/nn-strmif-iamfiltermiscflags"><strong>IAMFilterMiscFlags</strong></a></li><li><a href="/windows/desktop/api/Strmif/nn-strmif-impeg2demultiplexer"><strong>IMpeg2Demultiplexer</strong></a></li><li><a href="/windows/desktop/api/Strmif/nn-strmif-ireferenceclock"><strong>IReferenceClock</strong></a></li></ul> | 
+| 輸入 Pin 媒體類型 | 主要類型： MEDIATYPE_STREAM<br /> 亞：<br /><ul><li>KSDATAFORMAT_SUBTYPE_BDA_MPEG2_TRANSPORT</li><li>MEDIASUBTYPE_MPEG2_PROGRAM</li><li>MEDIASUBTYPE_MPEG2_TRANSPORT</li><li>MEDIASUBTYPE_MPEG2_TRANSPORT_STRIDE</li></ul>如需詳細資訊，請參閱 <a href="mpeg-2-demultiplexer-media-types.md"><strong>Mpeg-2 信號的媒體類型</strong></a>。<br /> | 
+| 輸入 Pin 介面 | <a href="/windows/desktop/api/Strmif/nn-strmif-imeminputpin"><strong>IMemInputPin</strong></a>、 <a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPin</strong></a>、 <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>IQualityControl</strong></a> | 
+| 輸出 Pin 媒體類型 | 音訊和影片的基本資料流程必須有主要類型的 MEDIATYPE_Audio 或 MEDIATYPE_Video。<br /> 如需詳細資訊，請參閱 <a href="mpeg-2-demultiplexer-media-types.md"><strong>Mpeg-2 信號的媒體類型</strong></a>。<br /> | 
+| 輸出 Pin 介面 | <a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPin</strong></a>，僅限 <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>IQualityControl</strong></a>Push 模式： <a href="/windows/desktop/api/Strmif/nn-strmif-iampushsource"><strong>IAMPushSource</strong></a>、 <a href="/previous-versions/windows/desktop/api/Bdaiface/nn-bdaiface-impeg2pidmap"><strong>IMPEG2PIDMap</strong></a>、 <a href="/windows/desktop/api/Strmif/nn-strmif-impeg2streamidmap"><strong>IMPEG2StreamIdMap</strong></a><br /> 僅提取模式： <a href="/windows/desktop/api/Strmif/nn-strmif-imediaseeking"> <strong>IMediaSeeking</strong></a><br /> | 
+| 篩選 CLSID | CLSID_MPEG2Demultiplexer | 
+| 屬性頁 CLSID | 僅供測試之用。 使用 <strong>ISpecifyPropertyPages</strong> 介面存取屬性頁 | 
+| 可執行檔 | mpg2splt.ax | 
+| <a href="merit.md">優點</a> | MERIT_NORMAL | 
+| <a href="filter-categories.md">篩選準則分類</a> | CLSID_LegacyAmFilterCategory | 
+
 
 
 

@@ -6,12 +6,12 @@ keywords:
 - 遠端程序呼叫 RPC、工作、解讀系結
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 423564a844bfbf959de8a2fcf4dfff5ae86b8b6b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 5578683b06ac75b99e2865d55512449ad2217984234a9bf9d3cf7e8360c053e8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104462453"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120020378"
 ---
 # <a name="interpreting-binding-information"></a>解讀系結資訊
 
@@ -66,9 +66,9 @@ status = RpcStringFree(&NetworkOptions);
 
 上述範例程式碼會呼叫 [**RpcBindingToStringBinding**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindingtostringbinding) 和 [**RpcStringBindingParse**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcstringbindingparse) 函式，以在有效的系結控制碼中取得和剖析資訊。 請注意， **Null** 值已做為第二個參數傳遞至 **RpcStringBindingParse**。 這會導致該函式略過剖析物件 UUID。 因為它不會剖析 UUID，所以 **RpcStringBindingParse** 不會為其配置字串。 這項技術可讓您的應用程式只針對您想要剖析和分析的資訊配置記憶體。
 
- 
+ 
 
- 
+ 
 
 
 

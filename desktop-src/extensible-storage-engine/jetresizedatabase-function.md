@@ -19,12 +19,12 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 3dd7faf1a28d6cafe7b33e4df49f32c631bb699e
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: f12fc06b915f5462c9209416cf54436ef3d7239b
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122477524"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122985681"
 ---
 # <a name="jetresizedatabase-function"></a>JetResizeDatabase 函式
 
@@ -98,7 +98,13 @@ JET_ERR JET_API JetResizeDatabase(
 #### <a name="requirements"></a>規格需求
 
 
-| | | <p><strong>用戶端</strong></p> | <p>需要 Windows 8。</p> | | <p><strong>伺服器</strong></p> | <p>需要 Windows Server 2012。</p> | | <p><strong>標頭</strong></p> | <p>宣告于 Esent. h 中。</p> | | <p><strong>程式庫</strong></p> | <p>使用 ESENT。</p> | | <p><strong>DLL</strong></p> | <p>需要 ESENT.dll。</p> | 
+| 需求 | 值 |
+|------------|----------|
+| <p><strong>用戶端</strong></p> | <p>需要 Windows 8。</p> | 
+| <p><strong>伺服器</strong></p> | <p>需要 Windows Server 2012。</p> | 
+| <p><strong>標頭</strong></p> | <p>宣告于 Esent. h 中。</p> | 
+| <p><strong>程式庫</strong></p> | <p>使用 ESENT。</p> | 
+| <p><strong>DLL</strong></p> | <p>需要 ESENT.dll。</p> | 
 
 
 

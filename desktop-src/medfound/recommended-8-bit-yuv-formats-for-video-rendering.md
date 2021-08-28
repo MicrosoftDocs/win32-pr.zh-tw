@@ -4,12 +4,12 @@ ms.assetid: 675d4c60-4c58-4f15-9bae-ffb0c389c608
 title: 適用于影片轉譯的建議8位 YUV 格式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4505eb17f833040e0148ac98912f16af860b55b7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cc6e30f33c59bedf9a2e842d2d33328bd97d8078d21bda90ae84af9af00ec113
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103691623"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119722079"
 ---
 # <a name="recommended-8-bit-yuv-formats-for-video-rendering"></a>適用于影片轉譯的建議8位 YUV 格式
 
@@ -19,11 +19,11 @@ Microsoft Corporation
 
 2002年4月，更新的2008年11月
 
-本主題說明在 Windows 作業系統中，建議用於影片轉譯的8位 YUV 色彩格式。 本文提供在 YUV 和 RGB 格式之間進行轉換的技巧，也提供 upsampling YUV 格式的技巧。 本文適用于在 Windows 中使用 YUV 影片解碼或轉譯的任何人。
+本主題說明在 Windows 作業系統中針對影片轉譯所建議的8位 YUV 色彩格式。 本文提供在 YUV 和 RGB 格式之間進行轉換的技巧，也提供 upsampling YUV 格式的技巧。 本文適用于在 Windows 中使用 YUV 影片解碼或轉譯的任何人。
 
 ## <a name="introduction"></a>簡介
 
-整個影片產業都有定義許多的 YUV 格式。 本文說明在 Windows 中針對影片轉譯所建議的8位 YUV 格式。 建議您將「解碼器廠商」和「顯示廠商」支援本文中所述的格式。 本文不會解決其他使用的 YUV 色彩，例如靜止攝影。
+整個影片產業都有定義許多的 YUV 格式。 本文識別 Windows 中的影片轉譯所建議的8位 YUV 格式。 建議您將「解碼器廠商」和「顯示廠商」支援本文中所述的格式。 本文不會解決其他使用的 YUV 色彩，例如靜止攝影。
 
 本文中所述的格式，全都使用8個位的每圖元位置來編碼 Y 通道 (也稱為 luma 通道) ，並使用每個樣本8個位來編碼每個 U 或 V 色度範例。 不過，大部分的 YUV 格式平均都會使用小於24位的每個圖元，因為它們包含的樣本數較少，而 V 小於 Y。本文未涵蓋具有10位或更高 Y 通道的 YUV 格式。
 
@@ -52,9 +52,9 @@ Microsoft Corporation
 
 ![圖1。 色度取樣](images/yuv-sampling-grids.png)
 
-4:2:2 取樣的主要形式定義于 ITU-R 建議 BT. 601。 4:2:0 取樣有兩種常見的變化。 其中一種用於 MPEG-2 影片，而另一種則用於 MPEG-2 和 ITU-T 建議261和 .H。
+4:2:2 取樣的主要形式定義于 ITU-R 建議 BT. 601。 4:2:0 取樣有兩種常見的變化。 其中一種用於 MPEG-2 影片，而另一種則用於 MPEG-2 和 ITU-T 建議261和 .H 中的。
 
-相較于 MPEG-2 配置，在 MPEG-2 配置和針對4:2:2 和4:4:4 格式定義的取樣方格之間進行轉換比較容易。 基於這個理由，在 Windows 中偏好採用 MPEG-2 配置，且應視為4:2:0 格式的預設轉譯。
+相較于 MPEG-2 配置，在 MPEG-2 配置和針對4:2:2 和4:4:4 格式定義的取樣方格之間進行轉換比較容易。 基於這個理由，Windows 中偏好 mpeg-2 配置，且應視為4:2:0 格式的預設轉譯。
 
 ## <a name="surface-definitions"></a>介面定義
 
@@ -193,7 +193,7 @@ BYTE* pU = pY + (((((Height * 3) / 2) + 15) & ~15) * Stride);
 -   電腦 RGB 針對紅色、綠色和藍色的每個樣本使用8個位。 黑色由 R = G = B = 0 表示，白色則以 R = G = B = 255 表示。
 -   Studio video RGB 會針對紅色、綠色和藍色的每個樣本使用一些位數 N，其中 N 是8個以上的值。 Studio video RGB 使用與電腦 RGB 不同的縮放比例，且具有位移。 黑色是由 R = G = B = 16 \* 2 ^ (n-1) ，而白色則由 r = g = b = 235 \* 2 ^ (N-8) 表示。 不過，實際值可能落在此範圍之外。
 
-Studio video RGB 是 Windows 中適用于影片的慣用 RGB 定義，而電腦 RGB 則是適用于非影片應用程式的慣用 RGB 定義。 無論是哪一種形式的 RGB，chromaticity 座標都如同在 [RGB 色彩主要複本] 的定義中，709中所指定。 R、G 和 B 的 (x，y) 座標分別是 (0.64、0.33) 、 (0.30、0.60) 和 (0.15、0.06) 。 參考白色是以座標 (0.3127、0.3290) D65。 名義 gamma 是 1/0.45 (大約 2.2) ，其中包含在 ITU-R BT. 709 中詳細定義精確的 gamma。
+Studio video rgb 是 Windows 中適用于影片的慣用 rgb 定義，而電腦 rgb 是適用于非影片應用程式的慣用 rgb 定義。 無論是哪一種形式的 RGB，chromaticity 座標都如同在 [RGB 色彩主要複本] 的定義中，709中所指定。 R、G 和 B 的 (x，y) 座標分別是 (0.64、0.33) 、 (0.30、0.60) 和 (0.15、0.06) 。 參考白色是以座標 (0.3127、0.3290) D65。 名義 gamma 是 1/0.45 (大約 2.2) ，其中包含在 ITU-R BT. 709 中詳細定義精確的 gamma。
 
 **RGB 和 4:4:4 YUV 之間的轉換**
 
@@ -384,7 +384,7 @@ DWORD fccYUY2 = FCC('YUY2');
 DWORD fccYUY2 = '2YUY';  // Declares the FOURCC 'YUY2'
 ```
 
-需要反轉順序是必要的，因為 Windows 作業系統使用的是位元組由大到小的架構。 ' Y ' = 0x59，' U ' = 0x55，' 2 ' = 0x32，因此 ' 2YUY ' 為0x32595559。
+必須反轉順序是必要的，因為 Windows 作業系統使用位元組由大到小的架構。 ' Y ' = 0x59，' U ' = 0x55，' 2 ' = 0x32，因此 ' 2YUY ' 為0x32595559。
 
 在媒體基礎中，格式是以主要類型 GUID 和子類型 GUID 來識別。 電腦影片格式的主要類型一律為 MFMediaType \_ video。 您可以將 FOURCC 程式碼對應至 GUID 來建立子類型，如下所示：
 

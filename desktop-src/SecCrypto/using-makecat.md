@@ -4,12 +4,12 @@ ms.assetid: 0a6ce2cd-db1f-4b47-990c-36fa87c28a60
 title: 使用 MakeCat
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e36c83531df38b95bde03edd719d98be325dbeac
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: abfc2da9bbff53af48cb21a6f60c2373885ba271f8965705dc991b78f4b4d25b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974958"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118896782"
 ---
 # <a name="using-makecat"></a>使用 MakeCat
 

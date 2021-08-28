@@ -3,7 +3,7 @@ title: 'TVM_GETEDITCONTROL 訊息 (Commctrl .h) '
 description: 抓取編輯控制項的控制碼，這個控制項是用來編輯樹狀檢視專案的文字。 您可以使用 TreeView GetEditControl 宏明確地傳送此訊息 \_ 。
 ms.assetid: c89e57e8-e113-47a1-85e6-bb68990f9c1a
 keywords:
-- TVM_GETEDITCONTROL message Windows 控制項
+- TVM_GETEDITCONTROL 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 79b4ce0beb125218e65c2c342caf59b57473088e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a591104085de793d8ea479656eb9100424ba5194a173fd93d10444c43e2cbfc5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105960"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120104428"
 ---
 # <a name="tvm_geteditcontrol-message"></a>TVM \_ GETEDITCONTROL 訊息
 
@@ -51,8 +51,8 @@ ms.locfileid: "104105960"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

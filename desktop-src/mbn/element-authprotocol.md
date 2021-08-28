@@ -16,12 +16,12 @@ api_location: ''
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 819e29bb3c131a14b5eda59cddda674aa86875e9d2e06d4e982575c13da5d59e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 487c58bda5e3b891b0e14614fa6c91830bc7512e
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118745266"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122482734"
 ---
 # <a name="span-idwwan_profile_v4element_authprotocolspanmbnprofileextauthprotocol-v4"></a><span id="WWAN_profile_v4.element_AuthProtocol"></span>MBNProfileExt \/ ... \/AuthProtocol (v4) 
 
@@ -63,41 +63,19 @@ ms.locfileid: "118745266"
 
 ### <a name="span-idparent_elementsspanspan-idparent_elementsspanparent-elements"></a><span id="parent_elements"></span><span id="PARENT_ELEMENTS"></span>父元素
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Parent 項目</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="element-context.md">內容</a></td>
-<td><p>指定建立資料連線所需的參數。</p></td>
-</tr>
-</tbody>
-</table>
+
+| Parent 項目 | 描述 | 
+|----------------|-------------|
+| <a href="element-context.md">內容</a> | <p>指定建立資料連線所需的參數。</p> | 
+
 
  
 
 ## <a name="requirements"></a>規格需求
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>命名空間</p></td>
-<td><p>https://www.microsoft.com/networking/WWAN/profile/v4</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p>命名空間</p> | <p>https://www.microsoft.com/networking/WWAN/profile/v4</p> | 
+
 
  
 

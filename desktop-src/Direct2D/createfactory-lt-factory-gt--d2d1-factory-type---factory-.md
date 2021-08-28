@@ -14,14 +14,14 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: af5635a6f996ea6cd3af2c3b3022efa054cd27605430c8230143980e00b9abbd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f36a5fd244f0dc814de2414b5642fc4f57ca744a
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117826467"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122883260"
 ---
-# <a name="d2d1createfactoryfactoryd2d1_factory_typefactory-function"></a>D2D1CreateFactory <Factory> (D2D1 \_ factory \_ 類型，factory \* \*) 函數
+# <a name="d2d1createfactoryltfactorygtd2d1_factory_typefactory-function"></a>D2D1CreateFactory &lt; factory &gt; (D2D1 \_ Factory \_ 類型，factory \* \*) 函數
 
 建立可用於建立 Direct2D 資源的 factory 物件。
 
@@ -37,7 +37,7 @@ HRESULT D2D1CreateFactory(
 
 
 
-| 參數 | 描述                                                 |
+| 參數 | 說明                                                 |
 |-----------|-------------------------------------------------------------|
 | *廠* | 要建立之 [**ID2D1Factory**](/windows/win32/api/d2d1/nn-d2d1-id2d1factory) 的類型。 |
 
@@ -49,7 +49,7 @@ HRESULT D2D1CreateFactory(
 
 
 
-| 參數     | 描述                                                                     |
+| 參數     | 說明                                                                     |
 |---------------|---------------------------------------------------------------------------------|
 | *factoryType* | Factory 的執行緒模型和它所建立的資源。                |
 | *工廠*     | 當此方法傳回時，會包含指向新 factory 之指標的位址。 |

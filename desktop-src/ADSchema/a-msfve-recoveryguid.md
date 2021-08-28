@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2630f3d7c729073051ae2a1bd363a8c36387e8fb
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 808c3538591af9fb13553c66d75a0a7765174d647ae6c280ee22e8ff3b4a94a9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106966589"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118682730"
 ---
 # <a name="ms-fve-recoveryguid-attribute"></a>FVE-Ms-fve-recoveryguid 屬性
 
@@ -55,9 +55,9 @@ ms.locfileid: "106966589"
 | 連結識別碼                | \-                                                                           |
 | MAPI-Id                | \-                                                                           |
 | System-Only            | 否                                                                        |
-| 是-單一值       | 對                                                                         |
-| 已編制索引             | 對                                                                         |
-| 在通用類別目錄中      | 對                                                                         |
+| 是-單一值       | 是                                                                         |
+| 已編制索引             | 是                                                                         |
+| 在通用類別目錄中      | 是                                                                         |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                 |
 | Range-Lower            | \-                                                                           |
 | Range-Upper            | \-                                                                           |
@@ -76,9 +76,9 @@ ms.locfileid: "106966589"
 | 連結識別碼                | \-                                                                           |
 | MAPI-Id                | \-                                                                           |
 | System-Only            | 否                                                                        |
-| 是-單一值       | 對                                                                         |
-| 已編制索引             | 對                                                                         |
-| 在通用類別目錄中      | 對                                                                         |
+| 是-單一值       | 是                                                                         |
+| 已編制索引             | 是                                                                         |
+| 在通用類別目錄中      | 是                                                                         |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                 |
 | Range-Lower            | \-                                                                           |
 | Range-Upper            | \-                                                                           |
@@ -97,9 +97,9 @@ ms.locfileid: "106966589"
 | 連結識別碼                | \-                                                                           |
 | MAPI-Id                | \-                                                                           |
 | System-Only            | 否                                                                        |
-| 是-單一值       | 對                                                                         |
-| 已編制索引             | 對                                                                         |
-| 在通用類別目錄中      | 對                                                                         |
+| 是-單一值       | 是                                                                         |
+| 已編制索引             | 是                                                                         |
+| 在通用類別目錄中      | 是                                                                         |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                 |
 | Range-Lower            | \-                                                                           |
 | Range-Upper            | \-                                                                           |

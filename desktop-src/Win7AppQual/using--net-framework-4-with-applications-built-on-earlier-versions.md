@@ -4,12 +4,12 @@ ms.assetid: 287E25AD-A560-40DA-A4E6-C46A3123914E
 title: 搭配使用 .NET Framework 4 與舊版的應用程式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c400f38efe93d2fc77d5de1f700b550f455f3e29db8ba96ef778771d82158c76
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a12eb34b00cfe14a18e83e7726f1ffa962ba03f8
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118994568"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122884745"
 ---
 # <a name="using-net-framework-4-with-applications-built-on-earlier-versions"></a>搭配使用 .NET Framework 4 與舊版的應用程式
 
@@ -29,7 +29,7 @@ ms.locfileid: "118994568"
 
 
 
-## <a name="description"></a>描述
+## <a name="description"></a>說明
 
 .NET Framework 4 與使用先前的 .NET Framework 版本所建立的應用程式具有高度相容性。 .NET Framework 4 的主要變更是改善安全性、標準合規性、正確性、可靠性和效能。
 
@@ -43,7 +43,7 @@ ms.locfileid: "118994568"
 
 ## <a name="solution"></a>解決方案
 
-若要執行使用 .NET Framework 4 .NET Framework 版本所建立的應用程式，您必須將應用程式編譯為以 .NET Framework 4 版本為目標，方法是在 Microsoft Visual Studio 的專案屬性中指定該應用程式，或者您可以在應用程式佈建檔的 [**<supportedRuntime> 元素**](/previous-versions/dotnet/netframework-1.1/w4atty68(v=vs.71))中指定 .NET Framework 4。
+若要執行使用 .NET Framework 4 .NET Framework 版本所建立的應用程式，您必須將應用程式編譯為以 .NET Framework 4 版本為目標，方法是在 Microsoft Visual Studio 的專案屬性中指定該應用程式，或者您可以在應用程式佈建檔中的 [**&lt; supportedRuntime &gt; 元素**](/previous-versions/dotnet/netframework-1.1/w4atty68(v=vs.71))指定 .NET Framework 4。
 
 如需如何遷移至 .NET Framework 4 的詳細資訊，請參閱 .NET Framework 中 .NET Framework 4 和[版本相容性](/previous-versions/dotnet/netframework-4.0/ff602939(v=vs.100))的[遷移指南](/previous-versions/dotnet/netframework-4.0/ff657133(v=vs.100))。
 
@@ -55,7 +55,7 @@ ms.locfileid: "118994568"
 
 ## <a name="links-to-other-resources"></a>其他資源的連結
 
--   [**<supportedRuntime> 元素**](/previous-versions/dotnet/netframework-1.1/w4atty68(v=vs.71))
+-   [**&lt;supportedRuntime &gt; 元素**](/previous-versions/dotnet/netframework-1.1/w4atty68(v=vs.71))
 -   [.NET Framework 4 移轉手冊](/previous-versions/dotnet/netframework-4.0/ff657133(v=vs.100))
 -   [.NET Framework 的版本相容性](/previous-versions/dotnet/netframework-4.0/ff602939(v=vs.100))
 -   **.NET Framework 4 RTM 應用程式相容性逐步解說：**<https://msdn.microsoft.com/library/dd889541.aspx>

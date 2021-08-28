@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 93b9a7baf8ba1c8248676ad58b321cd77b38798a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f6768a4b869ed1a79ea531f444860fafe2a8b450ddbd12d33865e37bfabd9b12
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995045"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119425258"
 ---
 # <a name="noticenumberscount-property"></a>NoticeNumbers Count 屬性
 

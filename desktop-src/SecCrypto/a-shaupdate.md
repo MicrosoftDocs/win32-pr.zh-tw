@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - ntdll.dll
-ms.openlocfilehash: a0f8ac49d8221538a168ade536e55766e209d3d4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 103438e3ef0747aa6170848398621b0246bd15366be4d1171ce5735942011007
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995913"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120101068"
 ---
 # <a name="a_shaupdate-function"></a>SHAUpdate 函式 \_
 
@@ -70,7 +70,7 @@ SHA 內容。
 
 您可以多次呼叫此函數，以計算長資料流程或不連續資料流程的雜湊。 在抓取雜湊值之前，必須先呼叫 [**\_ SHAFinal**](a-shafinal.md) 函數。
 
-此函式與 SHAUpdate 非常類似，但會直接從程式庫呼叫，而不是透過密碼編譯基礎結構來路由傳送。 如需詳細資訊，請參閱 [Windows NTCryptographic 提供者](/previous-versions/tn-archive/cc723484(v=technet.10))。
+此函式與 SHAUpdate 非常類似，但會直接從程式庫呼叫，而不是透過密碼編譯基礎結構來路由傳送。 如需詳細資訊，請參閱[Windows NTCryptographic 提供者](/previous-versions/tn-archive/cc723484(v=technet.10))。
 
 ## <a name="requirements"></a>規格需求
 

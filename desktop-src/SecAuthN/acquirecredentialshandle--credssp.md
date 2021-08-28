@@ -4,12 +4,12 @@ ms.assetid: 3b73decf-75d4-4bc4-b7ca-5f16aaadff29
 title: AcquireCredentialsHandle (CredSSP) 函式
 ms.topic: reference
 ms.date: 07/25/2019
-ms.openlocfilehash: 0dbece18bc7a7de8ec35764c9879380e29292e92
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 22ab5b4f9696e266e6d07b3085cafe10384e8b6b266c9e20672021fa04e97998
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106969398"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120101478"
 ---
 # <a name="acquirecredentialshandle-credssp-function"></a>AcquireCredentialsHandle (CredSSP) 函式
 
@@ -86,7 +86,7 @@ SECURITY_STATUS SEC_ENTRY AcquireCredentialsHandle(
 
 如果函式失敗，則會傳回下列其中一個錯誤碼。
 
-| 傳回碼                      | Description                                                              |
+| 傳回碼                      | 描述                                                              |
 |----------------------------------|--------------------------------------------------------------------------|
 | **每 \_ 秒 \_ 沒有足夠的 \_ 記憶體** | 可用的記憶體不足，無法完成要求的動作。 |
 | **SEC \_ E \_ 內部 \_ 錯誤**      | 發生未對應到 SSPI 錯誤碼的錯誤。                |
@@ -99,7 +99,7 @@ SECURITY_STATUS SEC_ENTRY AcquireCredentialsHandle(
 
 **AcquireCredentialsHandle (CredSSP)** 函數會傳回主體的控制碼，例如使用者或用戶端，以供特定的安全性套件使用。 函數可將控制碼傳回預先存在的認證或新建立的認證，並將其傳回。 這個控制碼可用於對 [**AcceptSecurityCoNtext (credssp)**](acceptsecuritycontext--credssp.md) 的後續呼叫，以及 [**InitializeSecurityCoNtext (CredSSP)**](initializesecuritycontext--credssp.md) 函數。
 
-一般而言， **AcquireCredentialsHandle (CredSSP)** 不會提供其他登入同一部電腦的使用者認證。 不過，具有 SE \_ TCB 名稱許可權的呼叫端 \_ 可以藉由指定該會話 (LUID) 的登入 [*識別碼*](../secgloss/l-gly.md#_security_logon_identifier_gly)，來取得現有登入會話的認證。 [](../secgloss/p-gly.md#_security_privilege_gly) 一般來說，這是由必須代表已登入使用者的核心模式模組所使用。
+一般而言， **AcquireCredentialsHandle (CredSSP)** 不會提供其他登入同一部電腦的使用者認證。 不過，具有 SE TCB 名稱許可權的呼叫端， \_ \_ 可以藉由指定該會話 (LUID) 的 [*登入識別碼*](../secgloss/l-gly.md#_security_logon_identifier_gly)，來取得現有登入會話的認證。 [](../secgloss/p-gly.md#_security_privilege_gly) 一般來說，這是由必須代表已登入使用者的核心模式模組所使用。
 
 封裝可能會在 RPC 執行時間傳輸所提供的 *pGetKeyFn* 中呼叫函數。 如果傳輸不支援回呼的概念來取得認證，此參數必須是 **Null**。
 
@@ -114,8 +114,8 @@ SECURITY_STATUS SEC_ENTRY AcquireCredentialsHandle(
 
 | 需求 | 值 |
 |--------------------------|----------------------------------------------------------------------------------|
-| 最低支援的用戶端 | \[僅限 Windows Vista 桌面應用程式\]                                              |
-| 最低支援的伺服器 | 僅限 Windows Server 2008 \[ desktop 應用程式\]                                        |
+| 最低支援的用戶端 | Windows\[僅限 Vista desktop 應用程式\]                                              |
+| 最低支援的伺服器 | Windows\[僅限 Server 2008 desktop 應用程式\]                                        |
 | 標頭                   | Sspi (包含 Security .h)                                                       |
 | 程式庫                  | Secur32 .lib                                                                      |
 | DLL                      | Secur32.dll                                                                      |

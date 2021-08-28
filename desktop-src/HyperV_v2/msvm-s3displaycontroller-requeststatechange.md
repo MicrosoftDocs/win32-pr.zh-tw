@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 6d8583407c617413f9015516dff13498473b11de
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 2155d7a02867fbece991af7adfa0f4253a38709e4c581a6ff5150922a1f6d666
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108111496"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120102088"
 ---
 # <a name="requeststatechange-method-of-the-msvm_s3displaycontroller-class"></a>Msvm S3DisplayController 類別的 RequestStateChange 方法 \_
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 2a1de0beb41cbe87ca86b443c5cc2145c2058073
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 695bde72274f9fe1e6df6e77eed1f956052a46201ae4be10e0848e8285cfa3b9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106999634"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118897403"
 ---
 # <a name="templateminorversion-property"></a>MinorVersion 屬性
 

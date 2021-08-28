@@ -4,12 +4,12 @@ ms.assetid: 5b8fd559-b1be-4552-a7be-19ad107855af
 title: 自動播放 .inf 專案
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 56d93244f177d107bddc720fab1d0c774fd94735
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 221e0a99e6352b5cfe50f3c3c0c2939933ff6c6f862e1a03b54127968b9c1838
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191186"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119937158"
 ---
 # <a name="autoruninf-entries"></a>自動播放 .inf 專案
 
@@ -81,7 +81,7 @@ action=@[filepath\]filename,-resourceID
 
 ### <a name="remarks"></a>備註
 
-**動作** 金鑰僅適用于 Windows XP Service Pack 2 (SP2) 或更新版本。 只有磁片磁碟機的磁片磁碟機卸載式 \_ 和磁片磁碟機 \_ 固定支援。 在卸載磁片磁碟機的情況下 \_ ，需要 **動作** 金鑰。 音訊 CD 或電影 DVD 的執行中 .inf 檔案中的 **動作** 命令會被忽略，而這些媒體會在 Windows XP Service Pack 1 (SP1) 和更早版本中繼續運作。
+**動作** 金鑰只在 Windows XP Service Pack 2 (SP2) 或更新版本中使用。 只有磁片磁碟機的磁片磁碟機卸載式 \_ 和磁片磁碟機 \_ 固定支援。 在卸載磁片磁碟機的情況下 \_ ，需要 **動作** 金鑰。 音訊 CD 或電影 DVD 的 [執行中] 檔案中的 [**動作**] 命令會被忽略，而這些媒體會繼續以 Windows XP Service Pack 1 (SP1) 及更早版本的方式運作。
 
 在 [自動播放] 對話方塊中顯示的字串，是藉由將 **動作** 專案中指定的文字與提供者的硬式編碼文字（由 Shell 所提供）結合在一起。 圖示旁邊會顯示 [圖示](#parameters) 。 此專案一律會顯示為 [自動播放] 對話方塊中的第一個選項，而且預設為選取。 如果使用者接受選項，則會啟動媒體的自動運行時檔案中的 [open](#parameters) 或 [shellexecute](#shellexecute) 專案所指定的應用程式。 在此情況下，[ **永遠執行選取的動作** ] 選項無法使用。
 
@@ -123,7 +123,7 @@ CustomEvent=MyContentOnArrival
 
 ### <a name="icon"></a>icon
 
-**圖示** 專案會指定代表 Windows 使用者介面中啟用自動啟用磁片磁碟機的圖示。
+**圖示** 專案會指定圖示，代表 Windows 使用者介面中啟用自動啟動的磁片磁碟機。
 
 
 ```
@@ -140,7 +140,7 @@ icon=iconfilename[,index]
 
 ### <a name="remarks"></a>備註
 
-圖示（連同標籤）表示 Windows 使用者介面中啟用自動啟動的磁片磁碟機。 例如，在 Windows 檔案總管中，磁片磁碟機是以這個圖示而非標準磁片磁碟機圖示來表示。 圖示的檔案必須與 [open](#parameters) 命令所指定的檔案位於相同的目錄中。
+圖示連同標籤，代表 Windows 使用者介面中啟用自動啟動的磁片磁碟機。 例如，在 Windows 檔案總管中，磁片磁碟機是以這個圖示而非標準磁片磁碟機圖示來表示。 圖示的檔案必須與 [open](#parameters) 命令所指定的檔案位於相同的目錄中。
 
 下列範例會指定 MyProg.exe 檔中的第二個圖示。
 
@@ -153,7 +153,7 @@ icon=MyProg.exe,1
 
 ### <a name="label"></a>label
 
-**標籤** 專案會指定文字標籤，表示 Windows 使用者介面中啟用自動啟用的磁片磁碟機。
+**標籤** 專案會指定文字標籤，表示 Windows 使用者介面中啟用自動啟動的磁片磁碟機。
 
 
 ```
@@ -205,15 +205,15 @@ open=[exepath\]exefile [param1 [param2] ...]
 
 ### <a name="useautoplay"></a>UseAutoPlay
 
-在 Windows XP 上， **UseAutoPlay** 專案指定應該使用自動播放，而不是自動播放。
+在 Windows XP 上， **UseAutoPlay** 專案會指定應使用自動播放，而不是自動播放。
 
-在 Windows Vista （含）以後版本中，此專案會使用 [ **開啟** ] 或 [ **shellexecute** 專案]) ，從 [自動播放] 對話方塊中隱藏，導致任何針對自動執行 (指定的動作。 此專案對 Windows XP 之前的 Windows 版本沒有任何影響。
+在 Windows Vista （含）以後版本中，此專案會使用 [**開啟**] 或 [ **shellexecute** ] 專案（) 要從 [自動播放] 對話方塊中隱藏），來為自動執行 (指定的任何動作。 此專案不會影響早于 Windows XP 的 Windows 版本。
 
 在 Windows 8 和更新版本上，指定值0將會停用此裝置的自動播放。
 
 ### <a name="parameters"></a>參數
 
-若要使用此選項，請將 **UseAutoPlay** 的專案新增至執行 .inf 檔案，並將專案設定為等於1。 在 Windows 8 之前的 Windows 版本上，不支援其他的值。
+若要使用此選項，請將 **UseAutoPlay** 的專案新增至執行 .inf 檔案，並將專案設定為等於1。 在 Windows 8 之前的 Windows 版本上，不支援其他值。
 
 在 Windows 8 和更新版本上，指定0的值以停用此裝置的自動播放。
 
@@ -226,15 +226,15 @@ UseAutoPlay=1
 
 ### <a name="remarks"></a>備註
 
-目前， **UseAutoPlay** 僅適用于 Windows XP 或更新版本，且僅適用于 [**GetDriveType**](/windows/win32/api/fileapi/nf-fileapi-getdrivetypea) 判斷為 **磁片磁碟機 \_ 光碟** 磁片磁碟機的磁片磁碟機。
+目前， **UseAutoPlay** 僅適用于 Windows XP 或更新版本，且僅適用于 [**GetDriveType**](/windows/win32/api/fileapi/nf-fileapi-getdrivetypea)判斷為磁片磁碟機類型的 **磁片 \_** 磁碟機。
 
-使用 **UseAutoPlay** 時，windows XP 上的 **open** 或 **shellexecute** 專案所指定的任何動作都會被忽略，並在 Windows Vista 上的 [自動播放] 對話方塊中省略。
+使用 **UseAutoPlay** 時，在 Windows XP 中， **open** 或 **shellexecute** 專案所指定的任何動作都會被忽略，並在 Windows Vista 的 [自動播放] 對話方塊中省略。
 
 自動執行通常用來自動執行或載入插入的媒體上所含的某個內容，而 [自動播放] 則會顯示一個對話方塊，其中包含可能採取的相關動作清單，並可讓使用者選擇要採取的動作。 如需有關自動安裝和自動播放之間差異的詳細資訊，請參閱 [建立啟用自動啟動的 Cd-rom 應用程式](autoplay.md) ，並分別 [使用和設定自動播放](autoplay2k-using.md)。
 
 ### <a name="usage-example"></a>使用範例
 
-CD 包含三個檔案：自動執行 .inf、Readme.txt 和 .wma。 視使用中的 Windows 版本和在 [自動執行] 中指定的選項而定，在插入光碟時，可以透過自動執行或自動播放來處理 CD (假設已為 CD 插入) 的磁片磁碟機啟用 [自動播放/自動播放]。
+CD 包含三個檔案：自動執行 .inf、Readme.txt 和 .wma。 根據所使用的 Windows 版本和在 [自動執行] 中指定的選項而定，光碟可能會在插入時由自動執行或自動播放處理， (假設已為 cd 插入) 的磁片磁碟機啟用 [自動播放/自動播放]。
 
 首先，請考慮具有下列內容的執行中 .inf 檔案，請注意未指定 **UseAutoPlay = 1** ：
 
@@ -248,10 +248,10 @@ shellexecute="Readme.txt"
 
 插入此 CD 時，Shell 所採取的動作取決於使用中的 Windows 版本：
 
--   在 Windows XP 或更早版本上，此 CD 會在插入時由自動播放處理。 在此情況下，會讀取 **shellexecute** 專案，而且 Shell 會叫用與 .txt 檔案相關聯的檔案處理常式;這通常會在 [記事本] 中開啟 Readme.txt。
+-   在 Windows XP 或更早版本上，此 CD 會在插入時由自動播放處理。 在此情況下，會讀取 **shellexecute** 專案，而且 Shell 會叫用與 .txt 檔案相關聯的檔案處理常式;一般來說，這會在記事本中開啟 Readme.txt。
 -   在 Windows Vista 中，具有 **shellexecute** 專案的自動播放 .inf 檔案，會將媒體識別為自動播放類型「軟體和遊戲」。 在此情況下，使用者會看到 [自動播放] 對話方塊，其中包含 **shellexecute** 專案所指定的動作 (在對話方塊中顯示為 [載入 Readme.txt]) ，以及與 [軟體和遊戲] 類型的媒體相關聯的預設動作。
 
-若要指出應該使用 [自動播放]，而不是在 Windows XP 上執行，而且應該在 Windows Vista 上的 [自動播放] 對話方塊中隱藏 [自動執行 shellexecute] 專案指定的動作，請將 **UseAutoPlay** 插入至 [自動執行 .inf] 檔案，如下所示：
+若要指出應該使用 [自動播放]，而不是在 Windows XP 上執行，而且應該從 Windows Vista 的 [自動播放] 對話方塊中隱藏 [自動執行] shellexecute 專案所指定的動作，請將 **UseAutoPlay** 插入至 [自動執行 .inf] 檔案，如下所示：
 
 
 ```
@@ -262,10 +262,10 @@ UseAutoPlay=1
 
 
 
-同樣地，當插入此 CD 時，Shell 所採取的動作會視使用中的 Windows 版本而定。
+同樣地，在插入此光碟時，Shell 所採取的動作會取決於使用中的 Windows 版本。
 
--   在 Windows XP 之前的 Windows 版本中，仍會使用自動執行，並執行 **shellexecute** 所指定的動作（如先前所述）。  (請注意，windows XP 之前的 Windows 版本只會提供自動執行時間。 ) 
--   在 Windows XP 上， **UseAutoPlay** 專案會導致自動播放用來取代自動播放。 在此情況下，自動播放會判斷媒體包含 Windows Media 音訊 ( .wma) 檔案，並將內容分類為「音樂檔案」。 使用者會看到 [自動播放] 對話方塊，其中包含「音樂檔案」自動播放媒體類型的已註冊處理常式。自動運行 shellexecute 專案會被忽略。
+-   在 Windows XP 之前的 Windows 版本中，仍會使用自動執行，並執行 **shellexecute** 所指定的動作（如先前所述）。  (請注意，只有在 Windows XP 之前的 Windows 版本上才可使用自動運行。 ) 
+-   在 Windows XP 上， **UseAutoPlay** 專案會導致自動播放用來取代自動運行。 在此情況下，自動播放會判斷媒體包含 Windows Media 音訊 ( .wma) 檔案，並將內容分類為「音樂檔案」。 使用者會看到 [自動播放] 對話方塊，其中包含「音樂檔案」自動播放媒體類型的已註冊處理常式。自動運行 shellexecute 專案會被忽略。
 
 ### <a name="shellexecute"></a>shellexecute
 
@@ -309,7 +309,7 @@ shell=verb
 
 ### <a name="parameters"></a>參數
 
--   *動詞命令*
+-   *動詞*
 
     對應至功能表命令的動詞命令。 動詞和其相關聯的功能表命令必須在具有 [shell \\ 動詞](#shellverb) 專案的 [自動播放] 檔案中定義。
 
@@ -333,7 +333,7 @@ shell\verb=MenuText
 
 ### <a name="parameters"></a>參數
 
--   *動詞命令*
+-   *動詞*
 
     功能表命令的動詞。 **Shell \\**_動詞_*_\\ 命令_* 專案會將動詞與可執行檔產生關聯。 動詞不能包含內嵌的空格。 依預設， *動詞* 是顯示在快捷方式功能表中的文字。
 
@@ -353,7 +353,7 @@ shell\verb=MenuText
 
 若要指定預設的快捷方式功能表命令，請使用 **shell \\ 動詞** 來定義動詞，並使其成為具有 [shell](#autoruninf-entries) 專案的預設命令。
 
-下列範例自動執行 .inf 片段會將 *readit* 動詞與命令字串 "Notepad abc \\readme.txt" 產生關聯。 功能表文字是「自述我」，而「」是定義為專案的快速鍵。 當使用者選取此命令時， \\ 會使用 Microsoft 記事本開啟磁片磁碟機的 abcreadme.txt 檔。
+下列範例自動執行 .inf 片段會將 *readit* 動詞與命令字串 "記事本 abc \\readme.txt" 產生關聯。 功能表文字是「自述我」，而「」是定義為專案的快速鍵。 當使用者選取此命令時，會開啟磁片磁碟機的 abc \\readme.txt 檔案與 Microsoft 記事本。
 
 
 ```
@@ -373,7 +373,7 @@ shell\readit=Read &Me
 
 使用本節的目的是要讓內容作者能夠將內容意圖傳達給自動播放。 比方說，CD 可以歸類為只包含音樂內容，即使它也有圖片和影片，也會被視為具有混合的內容。
 
-只有在 Windows Vista 和更新版本中才支援 [ **\[ 內容 \]** ] 區段。
+只有 Windows Vista 和更新版本才支援 **\[ Content \]** 區段。
 
 
 ```
@@ -403,7 +403,7 @@ music2
 
 
 
-只有在 Windows Vista 和更新版本下才支援 **\[ ExclusiveContentPaths \]** 區段。
+只有 Windows Vista 和更新版本才支援 **\[ ExclusiveContentPaths \]** 區段。
 
 ## <a name="ignorecontentpaths-keys"></a>\[IgnoreContentPaths 索引 \] 鍵
 
@@ -425,13 +425,13 @@ music2
 
 
 
-只有在 Windows Vista 和更新版本下才支援 **\[ IgnoreContentPaths \]** 區段。
+只有 Windows Vista 和更新版本才支援 **\[ IgnoreContentPaths \]** 區段。
 
 ## <a name="deviceinstall-keys"></a>\[DeviceInstall 索引 \] 鍵
 
 ### <a name="driverpath"></a>DriverPath
 
-**DriverPath** 專案會指定要以遞迴方式搜尋驅動程式檔案的目錄。 此命令是在驅動程式安裝期間使用，不是自動執行操作的一部分。 只有在 Windows XP 下才支援 **\[ DeviceInstall \]** 區段。
+**DriverPath** 專案會指定要以遞迴方式搜尋驅動程式檔案的目錄。 此命令是在驅動程式安裝期間使用，不是自動執行操作的一部分。 只有 Windows XP 下才支援 **\[ DeviceInstall \]** 區段。
 
 
 ```
@@ -445,7 +445,7 @@ DriverPath=directorypath
 
 -   *directorypath*
 
-    Windows 搜尋驅動程式檔案的目錄路徑，以及其所有子目錄。
+    Windows 搜尋驅動程式檔案的目錄，以及其所有子目錄的路徑。
 
 ### <a name="remarks"></a>備註
 

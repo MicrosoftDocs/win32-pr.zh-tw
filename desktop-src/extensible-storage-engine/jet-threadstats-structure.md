@@ -15,23 +15,23 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 2b84de9a4f64db5dda261b8ee177787f62fd01ba
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7f94c9911fb7ab974f87cfed41e92b53ac0a66cb
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106979975"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122983561"
 ---
 # <a name="jet_threadstats-structure"></a>JET_THREADSTATS 結構
 
 
-_**適用于：** Windows |Windows Server_
+_**適用于：** Windows |Windows伺服器_
 
 ## <a name="jet_threadstats-structure"></a>JET_THREADSTATS 結構
 
 **JET_THREADSTATS** 結構包含目前線程上資料庫引擎所執行之工作的累計統計資料。 這項資訊會透過 [JetGetThreadStats](./jetgetthreadstats-function.md)傳回。
 
-**Windows Vista：**  在 Windows Vista 中引進 **JET_THREADSTATS** 結構。
+**Windows Vista：** Windows Vista 引進了 **JET_THREADSTATS** 結構。
 
 ```cpp
     typedef struct {
@@ -84,26 +84,13 @@ _**適用于：** Windows |Windows Server_
 
 ### <a name="requirements"></a>規格需求
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>用戶端</strong></p></td>
-<td><p>需要 Windows Vista。</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>伺服器</strong></p></td>
-<td><p>需要 Windows Server 2008。</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>標頭</strong></p></td>
-<td><p>宣告于 Esent. h 中。</p></td>
-</tr>
-</tbody>
-</table>
+
+| 需求 | 值 |
+|------------|----------|
+| <p><strong>用戶端</strong></p> | <p>需要 Windows Vista。</p> | 
+| <p><strong>伺服器</strong></p> | <p>需要 Windows Server 2008。</p> | 
+| <p><strong>標頭</strong></p> | <p>宣告于 Esent. h 中。</p> | 
+
 
 
 ### <a name="see-also"></a>另請參閱

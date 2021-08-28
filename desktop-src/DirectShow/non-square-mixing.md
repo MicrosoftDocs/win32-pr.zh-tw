@@ -4,12 +4,12 @@ ms.assetid: 8d27a921-5638-43ac-807d-e3bd7b9b2de8
 title: 非正方形混合
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 79d23f423f0dbe19f1ff0ba35c44f8fd2f8732bc
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 4674891b7b9d44cb35522b6040723bc71436d677b10a4326d9f00a269ce3aff2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104510174"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120102404"
 ---
 # <a name="non-square-mixing"></a>非正方形混合
 

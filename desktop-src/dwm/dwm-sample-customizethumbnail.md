@@ -5,18 +5,18 @@ ms.assetid: 43fe71e7-4e5c-46fb-876b-e26996071665
 ms.topic: article
 ms.date: 05/31/2018
 ms.custom: project-verbatim
-ms.openlocfilehash: 8fceb94727257b51a2e6235cbfcc44b155635343
-ms.sourcegitcommit: af120ad5c30da2fc5eb717ca2a1c4c45878efd71
+ms.openlocfilehash: 94fa65fd4cd80f837867a6a5d225ec43050cf0018c8116e8beae099ed1067025
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/20/2021
-ms.locfileid: "106993928"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120022160"
 ---
 # <a name="customize-an-iconic-thumbnail-and-a-live-preview-bitmap"></a>自訂圖示縮圖和即時預覽點陣圖
 
-## <a name="description"></a>Description
+## <a name="description"></a>描述
 
-您可以使用 Windows 7 桌面視窗管理員 (DWM) Api 中引進的函式和訊息，自訂 iconic 縮圖和 *即時預覽* (或 *查看預覽*) 點陣圖。
+您可以使用 Windows 7 桌面視窗管理員 (DWM) api 中引進的函式和訊息，自訂 iconic 縮圖和 *即時預覽* (或 *查看預覽*) 點陣圖。
 
 具體而言，您會使用 [**DwmSetIconicThumbnail**](/windows/win32/api/Dwmapi/nf-dwmapi-dwmseticonicthumbnail) 函數和 [**WM \_ SENDICONICTHUMBNAILBITMAP**](wm-dwmsendiconicthumbnail.md) 訊息來自訂 iconic 縮圖。 您也可以使用 [**DwmSetIconicLivePreviewBitmap**](/windows/win32/api/Dwmapi/nf-dwmapi-dwmseticoniclivepreviewbitmap) 函式和 [**WM \_ SENDICONICLIVEPREVIEWBITMAP**](wm-dwmsendiconiclivepreviewbitmap.md) 訊息來設定 iconic live preview 點陣圖。
 
@@ -30,9 +30,9 @@ ms.locfileid: "106993928"
 
 | 需求 | 值 |
 |--------------------------|---------------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端 | Windows 7 或 Windows Vista Service Pack 2 (SP2) 和 Windows Vista 的平臺更新                          |
-| 最低支援的伺服器 | Windows Server 2008 R2 或 Windows Server 2008 Service Pack 2 (SP2) 和 Windows Server 2008 的平臺更新 |
-| 最小 Windows SDK      | [適用于 Windows 7 的 Windows 軟體開發套件 (SDK) ](https://msdn.microsoft.com/windows/bb980924.aspx)             |
+| 最低支援的用戶端 | Windows 7 或 Windows vista （含 Service Pack 2） (SP2) 和 Windows vista 的平臺更新                          |
+| 最低支援的伺服器 | Windowsserver 2008 R2 或 Windows server 2008 Service Pack 2 (SP2) 和 Windows Server 2008 的平臺更新 |
+| 最小 Windows SDK      | [Windows適用于 Windows 7 的軟體發展工具組 (SDK) ](https://msdn.microsoft.com/windows/bb980924.aspx)             |
 
 ## <a name="building-the-tabthumbnails-sample"></a>建立 TabThumbnails 範例
 

@@ -4,12 +4,12 @@ description: Rebar 控制項作為子視窗的容器。
 ms.assetid: vs|controls|~\controls\rebar\rebar.htm
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 56bc68629db7387f4ba408a769f7d87a64256000
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 55d34f76ca745f0807b849bd7c42c81944f11e4429fe2dc9670fa318cbd575ef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104024199"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119434820"
 ---
 # <a name="about-rebar-controls"></a>關於 Rebar 控制項
 
@@ -22,9 +22,9 @@ ms.locfileid: "104024199"
 > [!Note]  
 > Rebar 控制項是在 Comctl32.dll 4.70 版和更新版本中執行。
 
- 
+ 
 
-## <a name="rebar-bands-and-child-windows"></a>Rebar 區格和子視窗
+## <a name="rebar-bands-and-child-windows"></a>Rebar 區段和子 Windows
 
 應用程式會使用 [**rb \_ INSERTBAND**](rb-insertband.md) 和 [**rb \_ SETBANDINFO**](rb-setbandinfo.md) 訊息來定義 Rebar 帶的特性。 這些訊息接受 [**REBARBANDINFO**](/windows/win32/api/commctrl/ns-commctrl-rebarbandinfoa) 結構的位址做為 *lParam* 參數。 **REBARBANDINFO** 結構成員會定義指定之頻外的特性。 若要設定寬線的特性，請設定 **cbsize** 成員以表示結構的大小（以位元組為單位）。 然後設定 **fMask** 成員，以指出您的應用程式所要填入的結構成員。
 
@@ -44,6 +44,6 @@ ms.locfileid: "104024199"
 
 Rebar 控制項會將所有的 [**WM \_ 通知**](wm-notify.md) 視窗訊息轉寄至其父視窗。 此外，Rebar 控制項會將任何傳送給它的訊息，從指派給其群組的 windows 轉送，例如 [**wm \_ CHARTOITEM**](wm-chartoitem.md)、 [**wm \_ 命令**](/windows/desktop/menurc/wm-command)和其他訊息。
 
- 
+ 
 
- 
+ 
