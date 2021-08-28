@@ -4,12 +4,12 @@ ms.assetid: 800aa01b-6064-45df-a40e-6537819df4d7
 title: DateTaken 相片中繼資料原則
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cc1d3fb50a9a94e4bb13b35a0a5726572d78429f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 691476c704d3fdbc4ff5e01467031f2b41884ccb16be537904484a9d01c8fa18
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106978183"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119087074"
 ---
 # <a name="systemphotodatetaken-photo-metadata-policy"></a>DateTaken 相片中繼資料原則
 

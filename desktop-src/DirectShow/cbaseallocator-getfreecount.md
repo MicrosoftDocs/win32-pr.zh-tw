@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: a0538229053b5d47ca1bdc8f30b38a0937e36cb5
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c4552829482a604b368a6710c62d0fc0b26a94aa3bb33b67ef386f2785d6c90e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106993533"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120057508"
 ---
 # <a name="cbaseallocatorgetfreecount-method"></a>CBaseAllocator. GetFreeCount 方法
 

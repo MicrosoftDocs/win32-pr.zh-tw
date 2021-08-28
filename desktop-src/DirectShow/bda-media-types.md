@@ -4,12 +4,12 @@ ms.assetid: 875df611-a6ae-4a73-b00b-799249a39ff3
 title: BDA 媒體類型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e746b8ddfdbaf638a4d239a549b058471cfdaa6b
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: 670c9d82ac673c46f4c391b1f2b941f4b3bb49e15af2195d9fc7adbd51309622
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107908846"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120103358"
 ---
 # <a name="bda-media-types"></a>BDA 媒體類型
 

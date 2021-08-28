@@ -5,12 +5,12 @@ metadata:
   title: " (Tablet PC 的常見問題) "
   ms.topic: article
   ms.date: 05/31/2018
-  ms.openlocfilehash: cac130aaa0f04a7b17fb520476d4ed450edf257d
-  ms.sourcegitcommit: 4be05a12840be3d2e7c71fe57401b2edee72e354
+  ms.openlocfilehash: 8241efbe2207dbeb6d225001f0b8fdf55f03e20f
+  ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
   ms.translationtype: MT
   ms.contentlocale: zh-TW
-  ms.lasthandoff: 06/22/2021
-  ms.locfileid: "112451590"
+  ms.lasthandoff: 08/26/2021
+  ms.locfileid: "122884708"
 title: 針對 Tablet PC 平臺進行開發的常見問題
 summary: 以下是有關針對 Windows Vista SDK 所安裝的 Tablet PC 平臺元件進行開發的常見問題 (常見問題) 。
 sections:
@@ -26,32 +26,32 @@ sections:
   - question: >
       是否需要 Tablet PC 才能開發 Tablet PC 應用程式？
     answer: >
-      否，Windows SDK 安裝的 Tablet PC 平臺元件包含在桌上型電腦或膝上型電腦上開發 Tablet PC 軟體所需的擴充功能與公用程式。 您可以使用滑鼠或外部平板電腦進行手寫筆和手寫輸入。
+      否，Windows SDK 安裝的 tablet pc 平臺元件包含在桌上型電腦或膝上型電腦上開發 Tablet pc 軟體所需的擴充功能與公用程式。 您可以使用滑鼠或外部平板電腦進行手寫筆和手寫輸入。
 
 
       Windows SDK 安裝的 Tablet PC 平臺元件可以安裝在 Windows XP Professional 或 Windows Server 2003 上，但您的應用程式可使用較少的功能。 在這些平臺上，您的應用程式可以使用 [**InkCollector**](inkcollector-class.md) 和 [**InkOverlay**](inkoverlay-class.md) 物件來收集筆墨，並且可以進行測試和調試。
 
 
-      此外，只有當 Tablet PC 平臺元件是從 Windows SDK (或舊版 Tablet PC 開發工具組) ）安裝時， [InkEdit](inkedit-control-reference.md) 和 [InkPicture](inkpicture-control-reference.md) 控制項才能在這些作業系統上收集筆跡。這些應用程式不會在未安裝平臺元件的情況下，將應用程式中的筆墨收集至非 Tablet 電腦。
+      此外，只有當 tablet pc 平臺元件是從 Windows SDK (或舊版 tablet pc 開發工具組) ）安裝時， [InkEdit](inkedit-control-reference.md)和[InkPicture](inkpicture-control-reference.md)控制項才能在這些作業系統上收集筆跡。這些應用程式不會在未安裝平臺元件的情況下，將應用程式中的筆墨收集至非 Tablet 電腦。
   - question: >
-      我是否需要執行特殊版本的 Windows 以執行手寫辨識？
+      我是否需要執行特殊版本的 Windows 來進行手寫辨識？
     answer: >
-      否。 雖然只有 Windows XP Tablet PC Edition 和特定版本的 Windows Vista 包含手寫辨識器，但您可以下載 [WINDOWS Xp TABLET Pc edition 2005 辨識器套件]( https://www.microsoft.com/downloads/details.aspx?FamilyId=080184DD-5E92-4464-B907-10762E9F918B&amp;displaylang=en) ，並將它安裝在 Windows xp Professional 或 windows Server 2003 上，以供開發之用。 您不得將辨識器與您的應用程式一起轉散發。
+      不會。 雖然只有 Windows XP tablet pc edition 和特定版本的 Windows Vista 包含手寫辨識器，但您可以下載[Windows xp tablet pc edition 2005 辨識器套件]( https://www.microsoft.com/downloads/details.aspx?FamilyId=080184DD-5E92-4464-B907-10762E9F918B&amp;displaylang=en)，並將它安裝在 Windows XP Professional 或 Windows Server 2003 以供開發之用。 您不得將辨識器與您的應用程式一起轉散發。
   - question: >
       Windows Vista 和 Tablet PC 技術之間有何差異？
     answer: >
-      Tablet Pc 會執行 Windows Vista 作業系統，並採用 Windows Vista 的所有功能，再加上 Tablet PC 特有的其他功能。 這些 Tablet PC 技術功能可讓使用者使用畫筆、標注檔，以及使用數位筆跡建立手寫檔，來執行 Windows 和 Windows 應用程式。 Tablet PC 技術適用于大部分的 Windows Vista 版本，如果電腦上有可用的 Tablet PC 硬體，功能就會正常運作。
+      tablet pc 執行 Windows vista 作業系統，其中包括 Windows Vista 的所有功能，以及 Tablet PC 專屬的額外功能。 這些 Tablet PC 技術功能可讓使用者使用畫筆、標注檔，以及使用數位筆跡建立手寫檔，以執行 Windows 和 Windows 應用程式。 tablet pc 技術適用于大部分的 Windows Vista 版本，如果電腦上有可用的 tablet pc 硬體，功能就會正常運作。
 
 
-      對於舊版不支援筆墨的 Windows 作業系統，您可以轉散發並使用 Tablet PC 筆墨控制項來查看在 Tablet PC 上繪製的筆墨。
+      若為舊版 Windows 不是原生支援筆墨的作業系統，您可以重新發佈並使用 tablet pc 筆墨控制項來查看在 tablet pc 上繪製的筆墨。
   - question: >
-      Windows XP Tablet PC Edition 和 Windows XP Tablet PC Edition 2005 之間有何差異？
+      Windows xp tablet pc edition 和 Windows XP tablet pc edition 2005 之間有何差異？
     answer: >
-      Windows XP Tablet PC Edition 2005 是 Windows XP Tablet PC Edition 的更新版本。
+      Windowsxp tablet pc edition 2005 是 Windows XP tablet pc edition 的更新版本。
   - question: >
       如何? 修改我的應用程式以在 Tablet PC 上執行嗎？
     answer: >
-      在 Windows XP 桌上型電腦或具有可比較硬體的膝上型電腦上執行的 Microsoft Windows 應用程式，可以在 Tablet PC 上執行而不需要修改。
+      在 Windows XP 桌上型電腦上執行的應用程式，或在具有可比較硬體的膝上型電腦上執行的應用程式，可以在 Tablet PC 上執行而不需要 Windows
   - question: >
       我瞭解我不需要對我的應用程式進行任何變更，但很難使用畫筆和語音。 我可以如何針對 Tablet PC 優化我的應用程式？
     answer: >
@@ -59,14 +59,14 @@ sections:
   - question: >
       Tablet 支援哪些程式設計語言？
     answer: >
-      Windows Vista 中的 Tablet PC 技術支援 COM (c + +) 和 managed 程式庫 () 的 Visual Studio .NET 語言套件。
+      Windows Vista 中的 Tablet PC 技術支援 COM (c + +) 和 managed 程式庫， (Visual Studio) .net 語言套件。
 
 
       Tablet PC 技術也支援 Windows Presentation Foundation (WPF) 。
   - question: >
       我有示範平板電腦平臺功能的範例程式碼嗎？
     answer: >
-      是的，COM 的範例程式碼和選取的受控語言都包含在 Windows Platform SDK 所安裝的 Tablet PC 平臺元件中。
+      是的，COM 的範例程式碼和選取的受控語言都包含在 Windows platform SDK 所安裝的 Tablet PC 平臺元件中。
 
 
       如需可用的範例應用程式，請參閱：
@@ -76,15 +76,15 @@ sections:
 
       - [數位筆跡範例、Windows Presentation Foundation (WPF) ](/previous-versions/dotnet/netframework-3.0/aa972145(v=vs.85))
 
-      - <systemdrive>： \\ Program Files \\ Microsoft sdk \\ Windows \\ v 6.0 \\ 範例 \\ 平板版
+      - &lt;systemdrive &gt; ： \\ Program Files \\ Microsoft sdk \\ Windows \\ v 6.0 \\ 範例 \\ 平板版
   - question: >
       我應開發的平板電腦硬體基本層級為何？
     answer: >
-      一般情況下，您應該針對 Windows Vista 相容、舊版的系統設計。
+      一般來說，您應該針對 Windows Vista 相容的舊版系統進行設計。
   - question: >
       您可以為 Tablet 應用程式提供哪些使用者介面指導方針？
     answer: >
-      從下拉式功能表方向到螢幕/數位板視差的問題，請參閱 Windows SDK 的行動電腦上的 [開發人員行動電腦使用者經驗指導方針](/previous-versions//dd356056(v=vs.85)) 一節中所述。
+      從下拉式功能表方向到螢幕/數位板視差的問題，請參閱 Windows SDK 的行動電腦上的[開發人員行動電腦使用者經驗指導方針](/previous-versions//dd356056(v=vs.85))一節中所述。
   - question: >
       您是否包含常用按鍵的系統層級手寫手勢？ 我可以建立自己的手勢，以在應用程式執行或焦點時使用嗎？
     answer: >
@@ -98,10 +98,10 @@ sections:
       針對 web 程式開發，您應該讀取使用者 \_ 代理 \_ 字串環境變數。 您可以存取此 ServerVariables 集合。
 
 
-      如需如何在執行 Windows Vista 或 Windows XP Tablet PC Edition 的平板電腦上使用 GetSystemMetrics 的詳細資訊，請參閱 [判斷電腦是否為 TABLET pc](determining-whether-a-pc-is-a-tablet-pc.md)。
+      如需如何在執行 Windows Vista 或 Windows XP Tablet pc Edition 的平板電腦上使用 GetSystemMetrics 的詳細資訊，請參閱[判斷電腦是否為 tablet pc](determining-whether-a-pc-is-a-tablet-pc.md)。
   - question: >
       如何判斷是否可以使用 Tablet platform 元件？
-    answer: "Tablet PC 平臺的某些部分可能安裝在非平板電腦版本的 Windows XP Professional、Windows Server 2003 和 Windows 2000 作業系統上。\n\n若要判斷是否已安裝 API 的元件，正確的方式是嘗試建立物件或控制項的實例，並檢查它是否存在，然後再嘗試使用它。\n\n例如，若要判斷 [**InkCollector**](inkcollector-class.md) 物件是否可供使用，請嘗試使用 [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance)來建立它。\n\n```C++\nIInkCollector* pIInkCollector = NULL;\nHRESULT hr = CoCreateInstance(CLSID_InkCollector,\n NULL, CLSCTX_INPROC_SERVER, \n IID_IInkCollector,\n (void **)&pIInkCollector);\nif (SUCCEEDED(hr)) \n{ \n  /* InkCollector is usable. */ \n} else \n{\n  /* InkCollector unavailable. */\n}\n```\n"
+    answer: "tablet PC 平臺的某些部分可能安裝在 Windows XP Professional、Windows Server 2003 和 Windows 2000 作業系統的非平板電腦版本上。\n\n若要判斷是否已安裝 API 的元件，正確的方式是嘗試建立物件或控制項的實例，並檢查它是否存在，然後再嘗試使用它。\n\n例如，若要判斷 [**InkCollector**](inkcollector-class.md) 物件是否可供使用，請嘗試使用 [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance)來建立它。\n\n```C++\nIInkCollector* pIInkCollector = NULL;\nHRESULT hr = CoCreateInstance(CLSID_InkCollector,\n NULL, CLSCTX_INPROC_SERVER, \n IID_IInkCollector,\n (void **)&pIInkCollector);\nif (SUCCEEDED(hr)) \n{ \n  /* InkCollector is usable. */ \n} else \n{\n  /* InkCollector unavailable. */\n}\n```\n"
   - question: >
       如何? 在伺服器 Sku 上執行平板電腦輸入服務？
     answer: >

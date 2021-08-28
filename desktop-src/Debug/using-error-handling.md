@@ -4,12 +4,12 @@ ms.assetid: e313180b-fd3f-4a72-a8ef-29a28ff7125b
 title: 使用錯誤處理
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ad101746dd026c153541a6e8ef5bb62e4129ca5
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 8ac362c3147d0f730548cd8252c75678f0c94b1cfb0f4760b6b97acc39d8f01e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847298"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119655018"
 ---
 # <a name="using-error-handling"></a>使用錯誤處理
 

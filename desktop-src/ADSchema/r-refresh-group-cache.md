@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ddb576b5ef2310bceedb632a3b1ab8453b4d435e
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 2b3a65ef0b8b9dde4735d8b2eacffb3aa381e55c2330b9b5776a3dc22c3a7570
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103844620"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119531378"
 ---
 # <a name="refresh-group-cache-extended-right"></a>重新整理-群組-快取擴充許可權
 

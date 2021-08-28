@@ -1,19 +1,19 @@
 ---
 title: 如何將内嵌物件加入至文字版面配置
-description: 提供簡短的教學課程，說明如何在 DirectWrite 應用程式中加入内嵌物件，以使用 IDWriteTextLayout 介面來顯示文字。
+description: 提供簡短的教學課程，說明如何在使用 IDWriteTextLayout 介面顯示文字的 DirectWrite 應用程式中加入内嵌物件。
 ms.assetid: 6aa9d17c-ee30-497f-9c73-ec2fa079222b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a1d9ef34e38ec9b84afd887e565e76efb9618b88
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: ca4969ded311bbaa4e87e5b70f1df1379c4ca549d2db06c8d1186ba548c77a0e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104557161"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119902890"
 ---
 # <a name="how-to-add-inline-objects-to-a-text-layout"></a>如何將内嵌物件加入至文字版面配置
 
-提供簡短的教學課程，說明如何在 [DirectWrite](direct-write-portal.md) 應用程式中加入内嵌物件，以使用 [**IDWriteTextLayout**](/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout) 介面來顯示文字。
+提供簡短的教學課程，說明如何在使用 [**IDWriteTextLayout**](/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout)介面顯示文字的 [DirectWrite](direct-write-portal.md)應用程式中加入内嵌物件。
 
 本教學課程的最終產品是應用程式，它會顯示內嵌內嵌影像的文字，如下列螢幕擷取畫面所示。
 
@@ -255,6 +255,6 @@ SafeRelease(&pInlineImage_);
 
 
 
- 
+ 
 
- 
+ 

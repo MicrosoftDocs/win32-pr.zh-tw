@@ -3,20 +3,20 @@ title: 從網路來源播放檔案
 description: 從網路來源播放檔案
 ms.assetid: 72f2d685-56fc-4da2-8372-3774cc65f59d
 keywords:
-- Windows Media Format SDK，讀取 ASF 資料
-- Windows Media Format SDK，從網路來源播放檔案
+- Windows媒體格式 SDK，讀取 ASF 資料
+- Windows媒體格式 SDK，從網路來源播放檔案
 - Advanced Systems Format (ASF) ，讀取資料
 - ASF (Advanced Systems Format) ，讀取資料
 - Advanced Systems Format (ASF) ，從網路來源播放檔案
 - ASF (Advanced Systems Format) ，播放來自網路來源的檔案
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8f1e4e41ddf94498ddeddf90e64439c1b11b7ba8
-ms.sourcegitcommit: ad672d3a10192c5ccac619ad2524407109266e93
+ms.openlocfilehash: 8473a2feb4edd567c15d640dfd20e65c2893fe12de6c25a957cc5f730fde0baf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2020
-ms.locfileid: "106995149"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119027376"
 ---
 # <a name="playing-files-from-a-network-source"></a>從網路來源播放檔案
 
@@ -42,9 +42,9 @@ ms.locfileid: "106995149"
 [**讀取 ASF 檔案**](reading-asf-files.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: a9b1e21133b4fa561c743fefc6282c777b444e6f
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 294b9758aa79ab033c1e3cf8932056ca10e7bf2424de97a1cf9f3b509f1906bf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108120116"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120076678"
 ---
 # <a name="cbasedispatchgettypeinfo-method"></a>CBaseDispatch. GetTypeInfo 方法
 
@@ -79,7 +79,7 @@ HRESULT GetTypeInfo(
 
 
 
-| 傳回碼                                                                                             | Description                                    |
+| 傳回碼                                                                                             | 描述                                    |
 |---------------------------------------------------------------------------------------------------------|------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>                    | 成功。<br/>                            |
 | <dl> <dt>**E \_ 指標**</dt> </dl>               | **Null** 指標引數。<br/>          |

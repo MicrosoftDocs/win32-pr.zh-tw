@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 821aceda734aceb7a80774db05465f31213eec47
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1af9dae5e49240ef0095f499cf8abe34d6931caf7c36cf0ec7fc6908c9821a44
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106986597"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120031858"
 ---
 # <a name="iwmdrmdevicesetsecureclockresponse-method"></a>IWMDRMDevice：： SetSecureClockResponse 方法
 
@@ -64,7 +64,7 @@ HRESULT SetSecureClockResponse(
 
 
 
-| 傳回碼                                                                          | Description                      |
+| 傳回碼                                                                          | 描述                      |
 |--------------------------------------------------------------------------------------|----------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl> | 此方法已成功。<br/> |
 

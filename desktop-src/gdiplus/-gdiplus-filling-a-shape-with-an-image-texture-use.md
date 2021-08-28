@@ -4,12 +4,12 @@ ms.assetid: 12e1e132-a93f-4438-8a1d-9036a43a8fd8
 title: 使用影像材質填滿形狀
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1b3f1bf6ba04311310ab1985de1d1aaccd45db43
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 323accd1d9ac7e844566808b9c53586921fa83d33e9453dd50db20c3b15f2519
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104115225"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118067194"
 ---
 # <a name="filling-a-shape-with-an-image-texture"></a>使用影像材質填滿形狀
 

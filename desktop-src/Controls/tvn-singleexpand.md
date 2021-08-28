@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 976c0e8acfee1f024e4ee7f88d9f745e4029ec82
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 61cd83dedbe16bad81c340f35a176b18804de6b7db6847fb65bc847160a2ff8a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464660"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120132198"
 ---
 # <a name="tvn_singleexpand-notification-code"></a>IZDEBSKI \_ SINGLEEXPAND 通知碼
 
@@ -51,7 +51,7 @@ TVN_SINGLEEXPAND
 
 
 
-| 傳回碼                                                                                    | Description                                                      |
+| 傳回碼                                                                                    | 描述                                                      |
 |------------------------------------------------------------------------------------------------|------------------------------------------------------------------|
 | <dl> <dt>**TVNRET \_ SKIPOLD**</dt> </dl> | 略過未選取專案的預設處理。<br/> |
 | <dl> <dt>**TVNRET \_ SKIPNEW**</dt> </dl> | 略過選取專案的預設處理。<br/>   |
@@ -72,8 +72,8 @@ TVN_SINGLEEXPAND
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

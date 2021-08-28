@@ -4,12 +4,12 @@ ms.assetid: d037cd8d-9c88-4851-a9da-b2179f53cee6
 title: 使用內嵌 UI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f187e50461cfe88adc9c2cabbf8dd8b88ca97a5a
-ms.sourcegitcommit: 7b8f6151ebe247536304866459b2973276271d4d
+ms.openlocfilehash: 3153e0cb3ba79bd9c5cb6f1ee9b801c12ae828bb7d4dd332d04832bcd5200ea4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "104035239"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119527298"
 ---
 # <a name="using-an-embedded-ui"></a>使用內嵌 UI
 

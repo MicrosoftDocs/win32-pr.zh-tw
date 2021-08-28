@@ -8,12 +8,12 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 723a729b87dc26849dbd1f84038805c5e47a0ea4
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7ae6e1b666f6b83915595f9fb138cc6ba2d81a434bbedd9871f27ba8fd6c6bbd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104301127"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119026726"
 ---
 # <a name="channel-binding"></a>通道繫結
 
@@ -23,9 +23,9 @@ ms.locfileid: "104301127"
 -   [**WS \_ 安全性 \_ 描述**](/windows/desktop/api/WebServices/ns-webservices-ws_security_description)，指定如何保護通道的安全。
 -   設定的 [**WS \_ 通道 \_ 屬性**](/windows/desktop/api/WebServices/ns-webservices-ws_channel_property)s，指定其他選擇性設定 (另請參閱 [**WS \_ 通道 \_ 屬性 \_ 識別碼**](/windows/desktop/api/WebServices/ne-webservices-ws_channel_property_id)) 。
 
- 
+ 
 
- 
+ 
 
 
 

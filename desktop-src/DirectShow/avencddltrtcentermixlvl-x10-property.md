@@ -4,12 +4,12 @@ ms.assetid: 976e170d-2941-473b-b48d-3c53ff5251b2
 title: 'AVEncDDLtRtCenterMixLvl_x10 屬性 (Codecapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cbeb950e77ada2111c395412b43f687bf8ac1c30
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: c18f166ed22942acf5211712ca25708c20e61e88474e565aac3e47021f457a71
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106991794"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120103478"
 ---
 # <a name="avencddltrtcentermixlvl_x10-property"></a>AVEncDDLtRtCenterMixLvl \_ x10 屬性
 
@@ -39,8 +39,8 @@ ms.locfileid: "106991794"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 2000 專業版傳統型 \[ 應用程式 \| UWP 應用程式\]<br/>                     |
-| 最低支援的伺服器<br/> | Windows 2000 Server \[ desktop 應用程式 \| UWP 應用程式\]<br/>                           |
+| 最低支援的用戶端<br/> | Windows 2000 Professional \[ 桌面應用程式 \| UWP 應用程式\]<br/>                     |
+| 最低支援的伺服器<br/> | Windows 2000 Server \[ desktop apps \| UWP 應用程式\]<br/>                           |
 | 標頭<br/>                   | <dl> <dt>Codecapi。h</dt> </dl> |
 
 

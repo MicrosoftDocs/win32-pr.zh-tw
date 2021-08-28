@@ -4,18 +4,18 @@ ms.assetid: c3d62f1b-8455-414c-b4a6-261cf7db787e
 title: PagerTelephone
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2c033d2f17b250a5887fd894da9ba3434c541082
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 561c959cd51c30bb889c1d0670e91a10c9f3537ed6e1540752f959330c1c7963
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104115477"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119098247"
 ---
 # <a name="systemcontactpagertelephone"></a>PagerTelephone
 
 連絡人的呼機電話號碼。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

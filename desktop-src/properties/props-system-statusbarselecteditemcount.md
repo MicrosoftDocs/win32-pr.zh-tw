@@ -4,12 +4,12 @@ ms.assetid: 3BCB901D-7DAA-4DF2-A920-C77E9A2639A2
 title: System. StatusBarSelectedItemCount
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 263db8f0940b7e2bab399c919ed16799404014ad
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 66415040fbcef0098cc94ca50a1831fc18697c49b2fa76264cc00a778ddd2b4f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103849728"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119095790"
 ---
 # <a name="systemstatusbarselecteditemcount"></a>System. StatusBarSelectedItemCount
 

@@ -33,12 +33,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 0c2b36ff17931133d0dc4529e34f31ac24e00653
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: f1edce18d0dc8283a134972e8f0e2f79ce0ff98148bf6333d4048adbc14f2d88
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847485"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120077338"
 ---
 # <a name="win32_dmachannel-class"></a>Win32 \_ DMAChannel 類別
 

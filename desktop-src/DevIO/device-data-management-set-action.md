@@ -4,12 +4,12 @@ ms.assetid: ff688c9a-8669-4699-aab9-1e2e3a5c7fca
 title: 'DEVICE_DATA_MANAGEMENT_SET_ACTION (WinIoCtl) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 524d1dbd2ecf09dbcfa66fa766089dde7cf04a0d
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 602243e31645e1cc4706e3a3a2b954bb68fc2cbda58a0f0b6c9076ae6b0797f3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847284"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119654918"
 ---
 # <a name="device_data_management_set_action"></a>裝置 \_ 資料 \_ 管理 \_ 設定 \_ 動作
 
@@ -66,7 +66,7 @@ ms.locfileid: "103847284"
 
 執行卸載讀取動作。 參數位於 [**裝置 \_ DSM 卸載 \_ \_ 讀取 \_ 參數**](/windows/desktop/api/WinIoCtl/ns-winioctl-device_dsm_offload_read_parameters) 結構中。 輸出位於 [**儲存體卸載 \_ \_ 讀取 \_ 輸出**](/windows/desktop/api/WinIoCtl/ns-winioctl-storage_offload_read_output) 結構中。 **DeviceDsmActionFlag 非 \_ 破壞** 性 (0x80000000) 是一個位旗標，用來向驅動程式堆疊指出這項作業是不具破壞性的。
 
-**Windows 7 和 Windows Server 2008 R2：** 在 Windows 8 和 Windows Server 2012 之前，不支援這個值。
+**Windows 7 和 Windows Server 2008 R2：** Windows 8 和 Windows Server 2012 之前，不支援這個值。
 
 
 </dt> </dl> </dd> <dt>
@@ -81,7 +81,7 @@ ms.locfileid: "103847284"
 
 執行卸載寫入動作。 參數位於 [**裝置 \_ DSM 卸載 \_ \_ 寫入 \_ 參數**](/windows/desktop/api/WinIoCtl/ns-winioctl-device_dsm_offload_write_parameters) 結構中。 輸出位於 [**儲存體卸載 \_ \_ 寫入 \_ 輸出**](/windows/desktop/api/WinIoCtl/ns-winioctl-storage_offload_write_output) 結構中。
 
-**Windows 7 和 Windows Server 2008 R2：** 在 Windows 8 和 Windows Server 2012 之前，不支援這個值。
+**Windows 7 和 Windows Server 2008 R2：** Windows 8 和 Windows Server 2012 之前，不支援這個值。
 
 
 </dt> </dl> </dd> <dt>
@@ -96,7 +96,7 @@ ms.locfileid: "103847284"
 
 傳入的第一個資料集範圍會傳回配置點陣圖。 輸出為 [**裝置 \_ 資料 \_ 集 LB 布建 \_ \_ \_ 狀態**](/windows/desktop/api/WinIoCtl/ns-winioctl-device_data_set_lb_provisioning_state) 結構。 **DeviceDsmActionFlag 非 \_ 破壞** 性 (0x80000000) 是一個位旗標，用來向驅動程式堆疊指出這項作業是不具破壞性的。
 
-**Windows 7 和 Windows Server 2008 R2：** 在 Windows 8 和 Windows Server 2012 之前，不支援這個值。
+**Windows 7 和 Windows Server 2008 R2：** Windows 8 和 Windows Server 2012 之前，不支援這個值。
 
 
 </dt> </dl> </dd> <dt>
@@ -111,7 +111,7 @@ ms.locfileid: "103847284"
 
 執行修復動作。 **DeviceDsmActionFlag 非 \_ 破壞** 性 (0x80000000) 是一個位旗標，用來向驅動程式堆疊指出這項作業是不具破壞性的。
 
-**Windows 7 和 Windows Server 2008 R2：** 在 Windows 8 和 Windows Server 2012 之前，不支援這個值。
+**Windows 7 和 Windows Server 2008 R2：** Windows 8 和 Windows Server 2012 之前，不支援這個值。
 
 
 </dt> </dl> </dd> <dt>
@@ -126,7 +126,7 @@ ms.locfileid: "103847284"
 
 執行清除動作。 **DeviceDsmActionFlag 非 \_ 破壞** 性 (0x80000000) 是一個位旗標，用來向驅動程式堆疊指出這項作業是不具破壞性的。
 
-**Windows 7 和 Windows Server 2008 R2：** 在 Windows 8 和 Windows Server 2012 之前，不支援這個值。
+**Windows 7 和 Windows Server 2008 R2：** Windows 8 和 Windows Server 2012 之前，不支援這個值。
 
 
 </dt> </dl> </dd> <dt>
@@ -141,7 +141,7 @@ ms.locfileid: "103847284"
 
 執行復原動作。 **DeviceDsmActionFlag 非 \_ 破壞** 性 (0x80000000) 是一個位旗標，用來向驅動程式堆疊指出這項作業是不具破壞性的。
 
-**Windows 7 和 Windows Server 2008 R2：** 在 Windows 8 和 Windows Server 2012 之前，不支援這個值。
+**Windows 7 和 Windows Server 2008 R2：** Windows 8 和 Windows Server 2012 之前，不支援這個值。
 
 
 </dt> </dl> </dd> </dl>
@@ -154,7 +154,7 @@ ms.locfileid: "103847284"
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 7<br/>                                                                                      |
 | 最低支援的伺服器<br/> | Windows Server 2008 R2<br/>                                                                         |
-| 標頭<br/>                   | <dl> <dt>WinIoCtl (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>WinIoCtl (包含 Windows .h) </dt> </dl> |
 
 
 

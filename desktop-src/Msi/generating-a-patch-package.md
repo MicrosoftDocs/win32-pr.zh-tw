@@ -4,12 +4,12 @@ ms.assetid: 7fa661aa-d52c-4b08-961f-90ec778f02ff
 title: 產生 Patch 封裝
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0ef64ac66cd0201ae99080ec86e32230bc88407b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0577c678bbb378da425ff438a0e165dcba95d6e1fc1eecc1d9c311fe2c78bca2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944545"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119581428"
 ---
 # <a name="generating-a-patch-package"></a>產生 Patch 封裝
 

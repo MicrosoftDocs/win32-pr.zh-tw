@@ -4,12 +4,12 @@ ms.assetid: 0019b1b7-65f2-4009-8d0f-5a99cf32a410
 title: " (Direct3D 9) 的陰影狀態"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3ebac826704fee0e1903c1aa2a2348bff4a089c2
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 9f28514fefbf39e75bd84a0ae56324fd859f0fd85fa4a25449e349ce592ab3b5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106991599"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119727598"
 ---
 # <a name="shading-state-direct3d-9"></a> (Direct3D 9) 的陰影狀態
 

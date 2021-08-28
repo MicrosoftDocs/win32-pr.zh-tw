@@ -4,12 +4,12 @@ ms.assetid: f91b48ae-3989-4c1d-929c-8ab28d7c8177
 title: '用戶端記錄 (Microsoft 媒體基礎) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d994531ff16466054ca0645a35082a4845e4aa4
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 3874c413f61b3495dc7e67f082a83e789a7a1357
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112409931"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122483084"
 ---
 # <a name="client-logging-microsoft-media-foundation"></a>用戶端記錄 (Microsoft 媒體基礎) 
 
@@ -23,7 +23,7 @@ ms.locfileid: "112409931"
 
 用戶端會將串流記錄資料傳送到伺服器，以指出用戶端如何接收內容，但不會呈現其轉譯方式。 用戶端可以在用戶端完成轉譯內容之前，傳送串流記錄的時間長度。
 
-本主題不提供所有記錄欄位的相關資訊。 如需完整的參考，請參閱 [Windows Media 記錄資料結構](/openspecs/windows_protocols/ms-wmlog/42c620eb-0d77-4350-b070-bcd1e182fe84)。
+本主題不提供所有記錄欄位的相關資訊。 如需完整的參考，請參閱[Windows 媒體記錄資料結構](/openspecs/windows_protocols/ms-wmlog/42c620eb-0d77-4350-b070-bcd1e182fe84)。
 
 ## <a name="configuring-log-fields"></a>設定記錄欄位
 
@@ -33,48 +33,16 @@ ms.locfileid: "112409931"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>記錄欄位</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>c-playerid</td>
-<td>播放程式的唯一識別。 這項資訊會在連接開始時傳送。 一般來說，這是用戶端的 GUID。 用戶端可以將此資訊傳送到 <a href="mfnetsource-playerid-property.md"><strong>MFNETSOURCE_PLAYERID</strong></a> 屬性中的伺服器。<br/> 用戶端會在連線開始時將此資訊傳送至伺服器。<br/> 範例值： &quot; {c579d042-cecc-11d1-bb31-00a0c9603954}&quot;<br/></td>
-</tr>
-<tr class="even">
-<td>c-playerversion</td>
-<td>在連接開始時傳送的播放程式版本號碼。 用戶端可以將此資訊傳送到 <a href="mfnetsource-playerversion-property.md"><strong>MFNETSOURCE_PLAYERVERSION</strong></a> 屬性中的伺服器。<br/> 用戶端會在連線開始時將此資訊傳送至伺服器。<br/></td>
-</tr>
-<tr class="odd">
-<td>cs (使用者代理程式) </td>
-<td>當播放程式內嵌在瀏覽器中時，所使用的瀏覽器類型。 用戶端可以在 <a href="mfnetsource-browseruseragent-property.md"><strong>MFNETSOURCE_BROWSERUSERAGENT</strong></a> 屬性中設定這個值。<br/> 如果播放程式未內嵌，此欄位會參考產生記錄之用戶端的使用者代理程式。 在此情況下，用戶端必須設定 <a href="mfnetsource-playeruseragent-property.md"><strong>MFNETSOURCE_PLAYERUSERAGENT</strong></a> 屬性。<br/> 用戶端會在連線開始時將此資訊傳送至伺服器。<br/> 範例值： &quot; Mozilla/4.0 _ (相容; _MSIE_4 01; _Windows_98) &quot;<br/></td>
-</tr>
-<tr class="even">
-<td>cs (推薦者) </td>
-<td>內嵌播放程式之網頁的 URL (如果內嵌) 。 用戶端可以將此資訊傳送到 <a href="mfnetsource-browserwebpage-property.md"><strong>MFNETSOURCE_BROWSERWEBPAGE</strong></a> 屬性中的伺服器。<br/> 用戶端會在連接結束時將此資訊傳送至伺服器。<br/> 範例值： &quot; https://www.example.microsoft.com&quot ;<br/></td>
-</tr>
-<tr class="odd">
-<td>c-hostexe</td>
-<td>若為播放程式記錄檔專案，則為執行的主機程式 (.exe) 。 例如，瀏覽器中的網頁、Microsoft Visual Basic 小程式或獨立播放機。 用戶端可以將此資訊傳送到 <a href="mfnetsource-hostexe-property.md"><strong>MFNETSOURCE_HOSTEXE</strong></a> 屬性中的伺服器。<br/> 用戶端會在連接結束時將此資訊傳送至伺服器。<br/> 範例值：<br/>
-<ul>
-<li>&quot;iexplore.exe&quot;</li>
-<li>&quot;myplayer.exe&quot;</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>c-hostexever</td>
-<td>主機程式 (.exe) 版本號碼。 用戶端可以將此資訊傳送到 <a href="mfnetsource-hostversion-property.md"><strong>MFNETSOURCE_HOSTVERSION</strong></a> 屬性中的伺服器。<br/> 用戶端會在連接結束時將此資訊傳送至伺服器。<br/></td>
-</tr>
-</tbody>
-</table>
+
+| 記錄欄位 | Description | 
+|---------------|-------------|
+| c-playerid | 播放程式的唯一識別。 這項資訊會在連接開始時傳送。 一般來說，這是用戶端的 GUID。 用戶端可以將此資訊傳送到 <a href="mfnetsource-playerid-property.md"><strong>MFNETSOURCE_PLAYERID</strong></a> 屬性中的伺服器。<br /> 用戶端會在連線開始時將此資訊傳送至伺服器。<br /> 範例值： "{c579d042-cecc-11d1-bb31-00a0c9603954}"<br /> | 
+| c-playerversion | 在連接開始時傳送的播放程式版本號碼。 用戶端可以將此資訊傳送到 <a href="mfnetsource-playerversion-property.md"><strong>MFNETSOURCE_PLAYERVERSION</strong></a> 屬性中的伺服器。<br /> 用戶端會在連線開始時將此資訊傳送至伺服器。<br /> | 
+| cs (使用者代理程式)  | 當播放程式內嵌在瀏覽器中時，所使用的瀏覽器類型。 用戶端可以在 <a href="mfnetsource-browseruseragent-property.md"><strong>MFNETSOURCE_BROWSERUSERAGENT</strong></a> 屬性中設定這個值。<br /> 如果播放程式未內嵌，此欄位會參考產生記錄之用戶端的使用者代理程式。 在此情況下，用戶端必須設定 <a href="mfnetsource-playeruseragent-property.md"><strong>MFNETSOURCE_PLAYERUSERAGENT</strong></a> 屬性。<br /> 用戶端會在連線開始時將此資訊傳送至伺服器。<br /> 範例值：「Mozilla/4.0 _ (相容; _MSIE_4 01; _Windows_98) 」<br /> | 
+| cs (推薦者)  | 內嵌播放程式之網頁的 URL (如果內嵌) 。 用戶端可以將此資訊傳送到 <a href="mfnetsource-browserwebpage-property.md"><strong>MFNETSOURCE_BROWSERWEBPAGE</strong></a> 屬性中的伺服器。<br /> 用戶端會在連接結束時將此資訊傳送至伺服器。<br /> 範例值： " https://www.example.microsoft.com "<br /> | 
+| c-hostexe | 若為播放程式記錄檔專案，則為執行的主機程式 (.exe) 。 例如，瀏覽器中的網頁、Microsoft Visual Basic 小程式或獨立播放機。 用戶端可以將此資訊傳送到 <a href="mfnetsource-hostexe-property.md"><strong>MFNETSOURCE_HOSTEXE</strong></a> 屬性中的伺服器。<br /> 用戶端會在連接結束時將此資訊傳送至伺服器。<br /> 範例值：<br /><ul><li>"iexplore.exe"</li><li>"myplayer.exe"</li></ul> | 
+| c-hostexever | 主機程式 (.exe) 版本號碼。 用戶端可以將此資訊傳送到 <a href="mfnetsource-hostversion-property.md"><strong>MFNETSOURCE_HOSTVERSION</strong></a> 屬性中的伺服器。<br /> 用戶端會在連接結束時將此資訊傳送至伺服器。<br /> | 
+
 
 
 
@@ -175,7 +143,7 @@ HRESULT GetPacketsReceived(IMFMediaSession *pSession, DWORD *pcPackets)
 
 
 
-| 網路統計資料識別碼              | 描述                                                                                                                                                                                                                |
+| 網路統計資料識別碼              | Description                                                                                                                                                                                                                |
 |--------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **MFNETSOURCE \_ AVGBANDWIDTHBPS \_ 識別碼**       | 用戶端連接到伺服器的平均每秒頻寬 (單位) 。 此值會在連接的整個持續時間內計算。                                                              |
 | **MFNETSOURCE \_ BUFFERINGCOUNT \_ 識別碼**        | 用戶端播放資料流程時緩衝處理的次數。                                                                                                                                                              |

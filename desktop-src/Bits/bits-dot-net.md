@@ -4,23 +4,23 @@ description: 下列範例示範如何從 .NET 程式呼叫 BITS COM 介面
 ms.assetid: 1058970C-CE81-47D6-950E-3B6289E956B6
 ms.topic: article
 ms.date: 11/13/2018
-ms.openlocfilehash: c359bafe4f1937d49a6ec21896af32606a2ae894
-ms.sourcegitcommit: 00e0a8e56d28c4c720b97f0cf424c29f547460d7
+ms.openlocfilehash: 00f7d6287d86dd1816d7e4b0a7c6e18c9ae4916c5c85b01d0280758cf9d00b5b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "103679255"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119529148"
 ---
 # <a name="calling-into-bits-from-net-and-c-using-reference-dlls"></a>使用參考 Dll 從 .NET 和 c # 呼叫 BITS
 
-從 .NET 程式呼叫 BITS COM 類別的其中一種方式，就是使用[MIDL](/windows/desktop/Midl/using-the-midl-compiler-2)和[tlbimp.exe](/dotnet/framework/tools/tlbimp-exe-type-library-importer)工具，從 Windows SDK 中的位[IDL](/windows/desktop/Midl/midl-start-page) (介面定義語言) 檔案建立參考 DLL 檔案。 參考 DLL 是 BITS COM 類別的一組類別包裝函式;然後，您可以直接從 .NET 使用包裝函式類別。
+從 .net 程式呼叫 bits COM 類別的其中一種方式，就是使用[MIDL](/windows/desktop/Midl/using-the-midl-compiler-2)和[tlbimp.exe](/dotnet/framework/tools/tlbimp-exe-type-library-importer)工具，從 Windows SDK 中的位[IDL](/windows/desktop/Midl/midl-start-page) (介面定義語言) 檔案建立參考 DLL 檔案。 參考 DLL 是 BITS COM 類別的一組類別包裝函式;然後，您可以直接從 .NET 使用包裝函式類別。
 
-使用自動建立之參考 Dll 的替代方法是使用來自 [GitHub](https://github.com/) 和 [NuGet](https://www.nuget.org/)的協力廠商 .net 位包裝函式。 這些包裝函式通常有更自然的 .NET 程式設計樣式，但它們可能會落後 BITS 介面中的變更和更新。
+使用自動建立之參考 dll 的替代方法是使用[GitHub](https://github.com/)和[NuGet](https://www.nuget.org/)的協力廠商 .net 位包裝函式。 這些包裝函式通常有更自然的 .NET 程式設計樣式，但它們可能會落後 BITS 介面中的變更和更新。
 
 ## <a name="creating-the-reference-dlls"></a>建立參考 Dll
 ### <a name="bits-idl-files"></a>BITS IDL 檔案
 
-您將從一組 BITS IDL 檔案開始。 這些是完整定義 BITS COM 介面的檔案。 這些檔案位於 **Windows 套件** 目錄中，並命名為 bits *版本*.idl (例如，bits10_2 .idl) 除了版本1.0 檔案，也就是僅限 bits .idl。 建立新版本的 BITS 時，也會建立新的 BITS IDL 檔案。
+您將從一組 BITS IDL 檔案開始。 這些是完整定義 BITS COM 介面的檔案。 這些檔案位於 **Windows 套件** 目錄中，而且名為 [bits *版本*] (例如，bits10_2 .idl) 除了版本1.0 檔以外的副檔名。 建立新版本的 BITS 時，也會建立新的 BITS IDL 檔案。
 
 您也可能想要修改一份 SDK 位 IDL 檔案，以使用未自動轉換成 .NET 對等專案的 BITS 功能。 稍後會討論可能的 IDL 檔案變更。
 
@@ -93,7 +93,7 @@ POPD
 
 BITS 參考 Dll 現在已加入至您的專案。
 
-參考 DLL 檔案中的資訊將內嵌至您的最終程式。 您不需要與您的程式一起寄送參照 DLL 檔案。您只需要寄送。Exe。 
+參考 DLL 檔案中的資訊將內嵌至您的最終程式。 您不需要與您的程式一起寄送參照 DLL 檔案。您只需要寄送 .EXE。 
 
 您可以變更參考 Dll 是否內嵌至最終 EXE。 您可以使用 [ [內嵌 Interop 類型](/dotnet/framework/interop/how-to-add-references-to-type-libraries) ] 屬性來設定是否將內嵌參考 dll。 這可以根據每個參考來完成。 預設值為 True，以內嵌 Dll。
 

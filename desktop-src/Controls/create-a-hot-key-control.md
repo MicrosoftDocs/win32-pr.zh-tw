@@ -4,12 +4,12 @@ description: 本主題將示範如何建立快速鍵控制項。 您可以使用
 ms.assetid: A6723D4E-B8F6-4365-8FCD-99B73D2C0470
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 498005efcdfbbf001283551bbeea4906ebc854cf
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: 081db39f07e8d80fcbb5a437bc8cbe83473b4299282c8b2437d95acda02b2db9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "103842912"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119577039"
 ---
 # <a name="how-to-create-a-hot-key-control"></a>如何建立快速鍵控制項
 
@@ -19,12 +19,12 @@ ms.locfileid: "103842912"
 
 ### <a name="technologies"></a>技術
 
--   [Windows 控制項](window-controls.md)
+-   [Windows控制](window-controls.md)
 
 ### <a name="prerequisites"></a>必要條件
 
 -   C/C++
--   Windows 消費者介面程式設計
+-   Windows消費者介面程式設計
 
 ## <a name="instructions"></a>指示
 

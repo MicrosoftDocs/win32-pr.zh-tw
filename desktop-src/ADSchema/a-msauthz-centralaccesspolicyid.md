@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7bda6a6d8b28ac43f984034c63a259e74d49712e
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 379f10146ea7fb1deff0745618a407269e65c06d20615dce5b483510f73e6d04
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104108189"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119583088"
 ---
 # <a name="ms-authz-central-access-policy-id-attribute"></a>ms-Authz------------ID 屬性
 
@@ -53,7 +53,7 @@ ms.locfileid: "104108189"
 | 連結識別碼                | \-                                                                                 |
 | MAPI-Id                | \-                                                                                 |
 | System-Only            | 否                                                                              |
-| 是-單一值       | 對                                                                               |
+| 是-單一值       | 是                                                                               |
 | 已編制索引             | 否                                                                              |
 | 在通用類別目錄中      | 否                                                                              |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                       |

@@ -4,12 +4,12 @@ description: 本主題將示範如何處理 ComboBoxEx 通知訊息。
 ms.assetid: 375634BC-CDD6-4D72-A41E-FCBFCBFE7F03
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7a9787e22aa01d51478ca55f0dde5d7ac944decb
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: a4ec73c31020283afe5876567a57fc1fbd8a23cee123e9dc417c14c57a86709a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "103933760"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119575488"
 ---
 # <a name="how-to-process-comboboxex-notifications"></a>如何處理 ComboBoxEx 通知
 
@@ -19,12 +19,12 @@ ms.locfileid: "103933760"
 
 ### <a name="technologies"></a>技術
 
--   [Windows 控制項](window-controls.md)
+-   [Windows控制](window-controls.md)
 
 ### <a name="prerequisites"></a>必要條件
 
 -   C/C++
--   Windows 消費者介面程式設計
+-   Windows消費者介面程式設計
 
 ## <a name="instructions"></a>指示
 

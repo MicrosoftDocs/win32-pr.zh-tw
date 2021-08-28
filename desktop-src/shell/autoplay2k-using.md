@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 04a4f6dd09e03f26b13649e860beb7f2621ce952
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 35de48ee77cde7c598088b3f3877083efc2151f5
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103689828"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122481484"
 ---
 # <a name="using-and-configuring-autoplay"></a>使用和設定自動播放
 
@@ -26,7 +26,7 @@ ms.locfileid: "103689828"
 -   顯示檔案的標準資料夾查看。
 -   如果之前使用者選擇的內容類型 **不採取任何動作** ，而且指定的 **一律執行選取的動作**，就不會執行任何動作。
 
-如果內容不符合自動播放的準則，則會將事件傳遞至 Windows 映像取得 (WIA) 。
+如果內容不符合自動播放的準則，則會將事件傳遞至 Windows 的影像取得 (WIA) 。
 
 下列主題討論自動播放的設定和使用。
 
@@ -34,8 +34,8 @@ ms.locfileid: "103689828"
 -   [自動播放如何搜尋媒體](#how-autoplay-searches-media)
 -   [定義單一和混合內容類型](#defining-single-and-mixed-content-types)
 -   [範例案例](#sample-scenarios)
-    -   [使用圖片媒體自動播放存放裝置](#autoplay-for-storage-devices-with-picture-media)
-    -   [自動播放音樂檔案播放裝置，以及包含音樂媒體的儲存裝置](#autoplay-for-music-file-playback-devices-and-storage-devices-containing-music-media)
+    -   [使用圖片媒體進行儲存體裝置的自動播放](#autoplay-for-storage-devices-with-picture-media)
+    -   [自動播放音樂檔案播放裝置，以及包含音樂媒體的儲存體裝置](#autoplay-for-music-file-playback-devices-and-storage-devices-containing-music-media)
     -   [初次簡報時播放影片播放](#autoplay-for-video-playback-on-first-presentation)
 -   [指派預設處理常式應用程式](#assigning-default-handler-applications)
 -   [處理包含混合內容類型的媒體](#handling-media-containing-mixed-content-types)
@@ -70,7 +70,7 @@ ms.locfileid: "103689828"
 -   音樂
 -   影片
 
-如果媒體上的所有檔案只屬於這三種類別的其中一種，則會將媒體視為包含單一內容類型。 請注意，這並不表示檔案必須是相同的 *檔* 類型，.jpg、.gif 和 .bmp 都是不同的檔案類型，但 (圖片) 一個內容類型。
+如果媒體上的所有檔案只屬於這三種類別的其中一種，則會將媒體視為包含單一內容類型。 請注意，這並不表示檔案必須是相同的 *檔* 類型;.jpg、.gif 和 .bmp 是不同的檔案類型，但有一種內容類型 (圖片) 。
 
 如果媒體上有支援的內容類型，但沒有單一內容類型可考慮總計的100%，則會將媒體視為包含混合的內容類型，並據以處理。 如需詳細資訊，請參閱 [處理包含混合內容類型的媒體](#handling-media-containing-mixed-content-types)。
 
@@ -78,21 +78,21 @@ ms.locfileid: "103689828"
 
 下列案例可讓您對預期的自動播放功能有基本的瞭解。
 
-### <a name="autoplay-for-storage-devices-with-picture-media"></a>使用圖片媒體自動播放存放裝置
+### <a name="autoplay-for-storage-devices-with-picture-media"></a>使用圖片媒體進行儲存體裝置的自動播放
 
-1.  使用者會將已經插入媒體的 USB SanDisk CompactFlash reader 裝置，以 .jpg 檔案的形式附加到包含 100% picture 內容類型的媒體。
+1.  使用者會將已插入媒體的 USB SanDisk CompactFlash reader 裝置，以 .jpg 檔案的形式附加到包含 100% picture 內容類型的媒體。
 2.  通知會顯示 **找到新的硬體 SanDisk ImageMate**。
 3.  自動播放會啟動適當的映射應用程式。
 
 同樣地，當讀取器已附加到系統時，當使用者將該相同的 CompactFlash 媒體插入讀取器時，media insert 事件也會導致自動播放啟動影像投影片放映應用程式。 使用者可以選擇前往 SanDisk 媒體裝置的 [內容] 頁面，將預設值變更為另一個已註冊的自動播放應用程式，例如掃描器和攝影機的 [播放程式] 或圖片！。
 
-### <a name="autoplay-for-music-file-playback-devices-and-storage-devices-containing-music-media"></a>自動播放音樂檔案播放裝置，以及包含音樂媒體的儲存裝置
+### <a name="autoplay-for-music-file-playback-devices-and-storage-devices-containing-music-media"></a>自動播放音樂檔案播放裝置，以及包含音樂媒體的儲存體裝置
 
 1.  使用者連接 USB 鑽石 Rio MP3 播放機。
 2.  通知會顯示 **找到新的硬體鑽石 RIO MP3 播放機**。
 3.  自動播放會使用其註冊的預設處理常式（例如 Windows Media Player）來播放這些檔案。
 
-同樣地，如果使用者插入包含 mp3 檔案的任何媒體 (例如，CompactFlash、SmartMedia、記憶杆或 CD-ROM) 將總支援內容的100% 儲存到儲存裝置，media insert 事件也會導致自動播放使用 Windows Media Player 播放檔案。 使用者可以存取儲存裝置的屬性工作表，並將預設動作變更為另一個已註冊的自動播放應用程式，例如說明或 Real Player。
+同樣地，如果使用者將包含 (.mp3 檔案的任何媒體（例如，CompactFlash、SmartMedia、記憶杆或) CD-ROM）插入，而將所有支援內容總計100% 的內容放入儲存裝置中，則 media insert 事件也會導致自動播放使用 Windows Media Player 播放檔案。 使用者可以存取儲存裝置的屬性工作表，並將預設動作變更為另一個已註冊的自動播放應用程式，例如說明或 Real Player。
 
 ### <a name="autoplay-for-video-playback-on-first-presentation"></a>初次簡報時播放影片播放
 
@@ -101,47 +101,17 @@ ms.locfileid: "103689828"
 
 ## <a name="assigning-default-handler-applications"></a>指派預設處理常式應用程式
 
-全新安裝的 Windows 會使用一組已註冊的處理常式應用程式來尋找 [自動播放]。 依預設，在 Windows 安裝期間註冊的應用程式如下所示。
+全新安裝的 Windows 會使用一組已註冊的處理常式應用程式來尋找自動播放。 依預設，在 Windows 安裝期間註冊的應用程式如下所示。
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>媒體類型</th>
-<th>應用程式</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>圖片</td>
-<td><ul>
-<li>投影片放映 (預設) </li>
-<li>相機和掃描器的 Wizard</li>
-<li>列印嚮導</li>
-<li>開啟資料夾</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>音樂</td>
-<td><ul>
-<li>Windows Media Player (預設) </li>
-<li>開啟資料夾</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>影片</td>
-<td><ul>
-<li>Windows Media Player (預設) </li>
-<li>開啟資料夾</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| 媒體類型 | 應用程式 | 
+|------------|--------------|
+| 圖片 | <ul><li>投影片放映 (預設) </li><li>相機和掃描器的 Wizard</li><li>列印嚮導</li><li>開啟資料夾</li></ul> | 
+| 音樂 | <ul><li>Windows Media Player (預設) </li><li>開啟資料夾</li></ul> | 
+| 影片 | <ul><li>Windows Media Player (預設) </li><li>開啟資料夾</li></ul> | 
+
 
 
 
@@ -188,7 +158,7 @@ ms.locfileid: "103689828"
 
 使用者也可以按一下 [ **永遠執行選取的動作** ] 方塊，將選擇儲存為此媒體的預設動作。 完成此選擇之後，對話方塊就不會再次顯示。 不過，在 Windows XP Service Pack 1 (SP1) 中，如果可處理特定媒體類型的新應用程式已新增至電腦，則會再次向使用者顯示對話方塊，讓他們有機會選取新的應用程式做為預設的 [自動播放] 動作。 應用程式安裝時，也可以將自己設定為預設選項。
 
-Windows XP SP1 也加入了一項功能，可保留使用者選擇的 [自動播放] 動作（如果沒有按一下 [ **永遠執行選取的動作** ] 方塊）。 如果使用者選擇單一實例的 [自動播放] 動作，則下次顯示該媒體類型的對話方塊時，相同的動作就是預設選項。
+WindowsXP SP1 也加入了一項功能，可保留使用者選擇的 [自動播放] 動作（如果沒有按一下 [**永遠執行選取的動作**] 方塊）。 如果使用者選擇單一實例的 [自動播放] 動作，則下次顯示該媒體類型的對話方塊時，相同的動作就是預設選項。
 
 若要將應用程式包含在可能的動作清單中，則必須使用 [自動播放] 來註冊該應用程式。 如需詳細資訊，請參閱 [準備搭配自動播放使用的硬體和軟體](#preparing-hardware-and-software-for-use-with-autoplay)。
 

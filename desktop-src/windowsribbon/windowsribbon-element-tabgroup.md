@@ -3,7 +3,7 @@ title: TabGroup 元素
 description: 代表一組內容相關的索引標籤控制項。
 ms.assetid: f131efe1-b8c4-416e-997a-5e2d3bcc03ea
 keywords:
-- TabGroup 元素視窗功能區
+- TabGroup 元素 Windows 功能區
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 6a4c18db72d6b0161842bfde9d5a836d14189c6a
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 55e2801ae8726fe10933b45e592e6f633f6455ea
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111444059"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122622094"
 ---
 # <a name="tabgroup-element"></a>TabGroup 元素
 
@@ -39,10 +39,10 @@ ms.locfileid: "111444059"
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col  />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -71,7 +71,7 @@ ms.locfileid: "111444059"
 
 | 元素                                             | 描述                                     |
 |-----------------------------------------------------|-------------------------------------------------|
-| [**索引標籤**](windowsribbon-element-tab.md)<br/> | 至少必須發生一次<br/> <br/> |
+| [**Tab**](windowsribbon-element-tab.md)<br/> | 至少必須發生一次<br/> <br/> |
 
 
 

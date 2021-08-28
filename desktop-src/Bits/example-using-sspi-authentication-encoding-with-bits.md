@@ -4,12 +4,12 @@ description: 您可以使用安全性支援提供者介面 (SSPI) 驗證和背�
 ms.assetid: 5c8a6df7-0056-463e-8d73-1695dc75e023
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7b86248c4782789010a817755d9bc27b3e5373b0
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: db13abe9b0bb6d8d4252575f70738f7b2f1a5c42b4cae1a4f042725c7bae15ad
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103683073"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119528798"
 ---
 # <a name="example-using-sspi-authentication-encoding-with-bits"></a>範例：搭配 BITS 使用 SSPI 驗證編碼
 
@@ -259,6 +259,6 @@ void _cdecl _tmain(int argc, LPWSTR* argv)
 [範例：通用類別](common-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

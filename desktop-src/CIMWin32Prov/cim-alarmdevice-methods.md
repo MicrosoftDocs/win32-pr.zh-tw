@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: CIM_AlarmDevice 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6932c28c193aac99141bc3c53ec0a710db430e0b
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 2e1d5a2d7871f33ad5db603d198225de6a75d70df111293cf548b7a7c23e3cc6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104190980"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119322788"
 ---
 # <a name="cim_alarmdevice-methods"></a>CIM \_ AlarmDevice 方法
 

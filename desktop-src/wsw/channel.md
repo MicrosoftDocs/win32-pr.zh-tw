@@ -1,21 +1,21 @@
 ---
-title: 'Channel (Windows Web 服務) '
+title: '通道 (Windows Web 服務) '
 description: 通道會在兩個或多個合作物件之間封裝通訊內容，用來傳送和接收訊息。
 ms.assetid: 5a04580d-c89f-4505-a4b7-0724ffb788fd
 keywords:
-- 適用于 Windows 的通道 Web 服務
+- Windows 的通道 Web 服務
 - WWSAPI
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b93819057f2de4ecf82b2def9cdc4fe14dd1b0ee
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 0ff11601f372416527f1d521f8fb9880c98821f9421b633f9eed059cc5b4f672
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103933844"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119026646"
 ---
-# <a name="channel-windows-web-services"></a>Channel (Windows Web 服務) 
+# <a name="channel-windows-web-services"></a>通道 (Windows Web 服務) 
 
 通道會在兩個或多個合作物件之間封裝通訊內容，用來傳送和接收訊息。
 
@@ -37,7 +37,7 @@ ms.locfileid: "103933844"
 
 下列 API 元素會與通道搭配使用。
 
-| 回呼                                                                                  | Description                                                                                                                                           |
+| 回呼                                                                                  | 描述                                                                                                                                           |
 |-------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**WS \_ 放棄 \_ 訊息 \_ 回呼**](/windows/desktop/api/WebServices/nc-webservices-ws_abandon_message_callback)                     | 使用自訂通道系結處理通道的 [**WsAbandonMessage**](/windows/desktop/api/WebServices/nf-webservices-wsabandonmessage) 呼叫。                                              |
 | [**WS \_ 中止 \_ 通道 \_ 回呼**](/windows/desktop/api/WebServices/nc-webservices-ws_abort_channel_callback)                         | 使用自訂通道系結處理通道的 [**WsAbortChannel**](/windows/desktop/api/WebServices/nf-webservices-wsabortchannel) 呼叫。                                                  |
@@ -117,7 +117,7 @@ ms.locfileid: "103933844"
 
 
 
-| Handle                        | Description                                 |
+| Handle                        | 描述                                 |
 |-------------------------------|---------------------------------------------|
 | [WS \_ 通道](ws-channel.md) | 用來參考通道的不透明類型。 |
 
@@ -127,7 +127,7 @@ ms.locfileid: "103933844"
 
 
 
-| 結構                                                                          | Description                                                                                                                                                                                      |
+| 結構                                                                          | 描述                                                                                                                                                                                      |
 |------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**WS \_ 通道 \_ 解碼**](/windows/desktop/api/WebServices/ns-webservices-ws_channel_decoder)                                 | 一組回呼，可轉換所接收訊息的內容類型和編碼的位元組。                                                                                                      |
 | [**WS \_ 通道 \_ 編碼器**](/windows/desktop/api/WebServices/ns-webservices-ws_channel_encoder)                                 | 一組回呼，可轉換所傳送訊息的內容類型和編碼位元組。                                                                                                      |

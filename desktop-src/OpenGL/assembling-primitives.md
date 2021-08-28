@@ -7,20 +7,20 @@ keywords:
 - 組合頂點 OpenGL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 882db69bfeb09ee88308ef11db1e9764c12407aa
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 795e5bbbd485db89315b23fc73831b4e3c2a8f386e0508df13bb5213abd4f938
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103673152"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119580188"
 ---
 # <a name="assembling-primitives"></a>組合基本專案
 
 執行所有必要的計算之後，頂點會組合成 [基本](primitives.md) 點、線段或多邊形，以及每個頂點的相關邊緣旗標、色彩和材質資訊。
 
- 
+ 
 
- 
+ 
 
 
 

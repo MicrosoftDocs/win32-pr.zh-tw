@@ -4,12 +4,12 @@ ms.assetid: 483ab73a-3ff7-4111-a6b5-eac990d85bd7
 title: 具有特殊許可權的屬性
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f5d28a7079e7ab12b9832447172f1b3b2c8650a8
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0bfe61f17e5ef3453021c98bac8eb383171a678adfb204886ecdaa840e0df832
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106991224"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120129128"
 ---
 # <a name="privileged-property"></a>具有特殊許可權的屬性
 
@@ -23,7 +23,7 @@ ms.locfileid: "106991224"
 
 安裝程式套件的開發人員可以使用 [特殊 **許可權** ] 屬性，根據系統原則、使用者是系統管理員或系統管理員指派來進行安裝。
 
-在 Windows Vista 上執行時，特殊 **許可權** 和 [**AdminUser**](adminuser.md) 相同。
+在 Windows Vista 上執行時，特殊 **許可權** 和 [**AdminUser**](adminuser.md)相同。
 
 ## <a name="requirements"></a>規格需求
 
@@ -31,7 +31,7 @@ ms.locfileid: "106991224"
 
 | 需求 | 值 |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 版本<br/> | Windows Server 2012、Windows 8、Windows Server 2008 R2 或 Windows 7 上的 Windows Installer 5.0。 Windows Server 2008 或 Windows Vista 上的 Windows Installer 4.0 或 Windows Installer 4.5。 Windows Server 2003 或 Windows XP 上的 Windows Installer。 如需 Windows Installer 版本所需的最小 Windows service pack 相關資訊，請參閱 [Windows Installer Run-Time 需求](windows-installer-portal.md) 。<br/> |
+| 版本<br/> | WindowsWindows Server 2012、Windows 8 Windows Server 2008 R2 或 Windows 7 上的安裝程式5.0。 WindowsWindows Server 2008 或 Windows Vista 上的安裝程式4.0 或 Windows Installer 4.5。 WindowsWindows Server 2003 或 Windows XP 上的安裝程式。 如需 Windows Installer 版本所需的最低 Windows service pack 相關資訊，請參閱[Windows Installer Run-Time 需求](windows-installer-portal.md)。<br/> |
 
 
 

@@ -4,12 +4,12 @@ description: 連接屬性
 ms.assetid: 61b7f550-d8d6-4719-a0d4-0bf3a8cf096c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6af3a44e97236060733adc55ec6e44eddd0b1d8879250b2a28b54c0bca384cac
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d19326f7770bbd4a42f6ff66a4517cd6151f3c54
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119726088"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122884927"
 ---
 # <a name="connected-property"></a>連接屬性
 
@@ -43,7 +43,7 @@ ms.locfileid: "119726088"
 
 ## <a name="remarks"></a>備註
 
-在許多情況下，指定控制項會自動建立與 Microsoft 代理程式伺服器之間的連接。 例如，在網頁的標籤中指定 Microsoft Agent 控制項的 CLSID 時， <OBJECT> 會自動開啟伺服器連接，而結束頁面則會關閉連接。 同樣地，對於可讓您將控制項放在表單上的 Visual Basic 或其他語言，執行程式會自動開啟連接，而結束程式則會關閉連接。 如果伺服器目前不在執行中，則會自動啟動。
+在許多情況下，指定控制項會自動建立與 Microsoft 代理程式伺服器之間的連接。 例如，在網頁的物件標記中指定 Microsoft Agent 控制項的 CLSID 時， &lt; &gt; 會自動開啟伺服器連接，而結束頁面則會關閉連接。 同樣地，對於可讓您將控制項放在表單上的 Visual Basic 或其他語言，執行程式會自動開啟連接，而結束程式則會關閉連接。 如果伺服器目前不在執行中，則會自動啟動。
 
 但是，如果您想要在執行時間建立 Agent 控制項，您可能也需要使用 **連接** 的屬性來明確開啟伺服器的新連接。 例如，在 Visual Basic 您可以在執行時間使用 Set 語句搭配 **New** 關鍵字 (或 CreateObject 函數) 來建立 ActiveX 物件。 雖然這會建立物件，但它可能不會建立與伺服器的連接。 您可以在呼叫 Microsoft 代理程式的程式設計介面的任何程式碼之前使用 **連接** 的屬性，如下列範例所示：
 
@@ -120,7 +120,7 @@ ms.locfileid: "119726088"
 
 
 > [!Note]  
-> 您無法藉由釋放已加入元件的參考，關閉與伺服器的連接。 例如，您無法在使用標記來宣告控制項的網頁上， <OBJECT> 或是在您將控制項放在表單上的 Visual Basic 應用程式中，關閉與伺服器的連接。 釋放所有的代理程式參考時，將會降低代理程式的工作集，而在您流覽至下一個頁面或結束應用程式之前，連接都會保持不變。
+> 您無法藉由釋放已加入元件的參考，關閉與伺服器的連接。 例如，您無法在使用物件標記來宣告控制項的網頁上， &lt; &gt; 或是在您將控制項放在表單上的 Visual Basic 應用程式中，關閉與伺服器的連接。 釋放所有的代理程式參考時，將會降低代理程式的工作集，而在您流覽至下一個頁面或結束應用程式之前，連接都會保持不變。
 
  
 

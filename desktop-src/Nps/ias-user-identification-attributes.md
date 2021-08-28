@@ -7,19 +7,19 @@ keywords:
 - 屬性、使用者識別
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 527bdffad376ce92fa2fd7c5d5330fb752fea6aa
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: ff099b46844f2259ad127346bb1ee2bfafccf4b116f3dba86dff3e175d11c28c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106968915"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120128758"
 ---
 # <a name="user-identification-attributes"></a>使用者識別屬性
 
 > [!Note]  
-> 從 Windows Server 2008 開始， (IAS) 的網際網路驗證服務已重新命名為網路原則伺服器 (NPS) 。 本主題的內容適用于 IAS 和 NPS。 在整個文字中，NPS 是用來參考服務的所有版本，包括原本稱為 IAS 的版本。
+> 網際網路驗證服務 (IAS) 已重新命名網路原則伺服器 (NPS) 從 Windows Server 2008 開始。 本主題的內容適用于 IAS 和 NPS。 在整個文字中，NPS 是用來參考服務的所有版本，包括原本稱為 IAS 的版本。
 
- 
+ 
 
 要求驗證的使用者身分識別會以數個不同的屬性提供給 NPS 擴充 Dll。
 
@@ -32,7 +32,7 @@ ms.locfileid: "106968915"
 > [!Note]  
 > 當 User-Password 屬性（ **ratUserPassword**）傳送至擴充 DLL 時，已經解密，而且可以在該表單中使用。
 
- 
+ 
 
 ## <a name="ratusername"></a>ratUserName
 
@@ -48,7 +48,7 @@ ms.locfileid: "106968915"
 
 這個屬性可能存在於驗證延伸模組 DLL 外掛程式點、授權延伸模組 DLL 外掛程式點，或兩者。 這個屬性的格式保證如下：
 
-*網域使用者 ***\\*** 名稱*
+* 網域 * 使用者 **\\** _名稱_
 
 其中 *網域* 是 NetBIOS 功能變數名稱。
 
@@ -58,13 +58,13 @@ ms.locfileid: "106968915"
 
 這個屬性可能存在於驗證延伸模組 DLL 外掛程式點、授權延伸模組 DLL 外掛程式點或兩者中。 不過，這兩個外掛程式點之間的屬性格式可能不同。 在驗證延伸模組 DLL 外掛程式點上，這個屬性一律會採用下列格式：
 
-*網域使用者 ***\\*** 名稱*
+* 網域 * 使用者 **\\** _名稱_
 
 在授權延伸模組 DLL 外掛程式點的 **ratFQUserName** 屬性格式，取決於使用者是否為 Active Directory 的使用者。
 
 -   如果使用者是本機使用者 **ratFQUserName** 與驗證延伸模組 DLL 外掛程式點的格式相同：
 
-    *網域使用者 ***\\*** 名稱*
+    * 網域 * 使用者 **\\** _名稱_
 
     .
 
@@ -80,6 +80,6 @@ ms.locfileid: "106968915"
 [叫用擴充 Dll](/windows/desktop/Nps/ias-authentication-and-authorization-process)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

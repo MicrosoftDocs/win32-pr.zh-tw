@@ -4,12 +4,12 @@ ms.assetid: f00b44b4-e8ec-46d2-b329-00728a83275b
 title: 準備 Windows Installer 套件以進行當地語系化
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fa46af5259b880398aa84dc817eb201bd63456eb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a4e9a1ce06e74197dc8844622861a1f42252deae8b96d3ce57ea852673818de3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972160"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120129158"
 ---
 # <a name="preparing-a-windows-installer-package-for-localization"></a>準備 Windows Installer 套件以進行當地語系化
 

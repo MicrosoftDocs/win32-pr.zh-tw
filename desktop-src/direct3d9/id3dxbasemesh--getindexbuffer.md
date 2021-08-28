@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 40e57193a2bf9a47ed0c57e6d13644441fbc42ce
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: d47f13a60a681df83df788d91a69c9981746e18df4c65062a9191d2e18de2006
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108115426"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119848488"
 ---
 # <a name="id3dxbasemeshgetindexbuffer-method"></a>ID3DXBaseMesh：： GetIndexBuffer 方法
 

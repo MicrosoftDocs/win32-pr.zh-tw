@@ -1,21 +1,21 @@
 ---
 title: 藍牙和通訊端選項
-description: 適用于 Windows 的 Bluetooth 支援下列通訊端選項。
+description: Windows 的藍牙支援下列通訊端選項。
 ms.assetid: e2e305c2-e749-4566-8e24-c07a7a29c612
 keywords:
 - 藍牙和通訊端選項藍牙
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 84040a98c3dae1fec292e4f0a7086f11d1ee546c
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 631eb2b041fcc320723155d4a5df1742e6c0dc79cb579815de141334906708e9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103933328"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119588428"
 ---
 # <a name="bluetooth-and-socket-options"></a>藍牙和通訊端選項
 
-適用于 Windows 的 Bluetooth 支援下列通訊端選項。 您可以分別使用 [**setsockopt**](/windows/desktop/api/winsock/nf-winsock-setsockopt) 和 [**getsockopt**](/windows/desktop/api/winsock/nf-winsock-getsockopt) 函數來設定和查詢通訊端選項。 下列所有選項都可以搭配 **setsockopt** 函式使用，但只有 **SO \_ BTH \_ MTU** 選項可以搭配 **getsockopt** 函式使用。
+Windows 的藍牙支援下列通訊端選項。 您可以分別使用 [**setsockopt**](/windows/desktop/api/winsock/nf-winsock-setsockopt) 和 [**getsockopt**](/windows/desktop/api/winsock/nf-winsock-getsockopt) 函數來設定和查詢通訊端選項。 下列所有選項都可以搭配 **setsockopt** 函式使用，但只有 **SO \_ BTH \_ MTU** 選項可以搭配 **getsockopt** 函式使用。
 
 使用藍牙通訊端選項時需要下列設定：
 
@@ -24,23 +24,23 @@ ms.locfileid: "103933328"
 
 ## <a name="so_bth_authenticate"></a>\_BTH \_ 驗證
 
-針對已中斷連線的通訊端， **\_ BTH \_** authentication 會指定需要驗證才能讓 [**connect**](/windows/desktop/api/winsock2/nf-winsock2-connect) 或 [**accept**](/windows/desktop/api/winsock2/nf-winsock2-accept) 作業順利完成。 如果兩部 Bluetooth 裝置先前未經過驗證，則設定此通訊端選項會主動在連線建立期間起始驗證。 金鑰交換的使用者介面（如有必要）是由應用程式內容外的作業系統提供。
+針對已中斷連線的通訊端， **\_ BTH \_** authentication 會指定需要驗證才能讓 [**connect**](/windows/desktop/api/winsock2/nf-winsock2-connect) 或 [**accept**](/windows/desktop/api/winsock2/nf-winsock2-accept) 作業順利完成。 如果兩個藍牙裝置先前未經過驗證，則設定此通訊端選項會主動在連線建立期間起始驗證。 金鑰交換的使用者介面（如有必要）是由應用程式內容外的作業系統提供。
 
-針對需要驗證的傳出連接，如果驗證失敗， [**連接**](/windows/desktop/api/winsock2/nf-winsock2-connect) 作業會失敗並出現 **WSAEACCES** 。 在回應中，應用程式可能會提示使用者在連線前先驗證兩部藍牙裝置。
+針對需要驗證的傳出連接，如果驗證失敗， [**連接**](/windows/desktop/api/winsock2/nf-winsock2-connect) 作業會失敗並出現 **WSAEACCES** 。 在回應中，應用程式可能會提示使用者先驗證兩個藍牙裝置，再進行連接。
 
-針對連入連線，如果無法建立驗證並傳回 **WSAEHOSTDOWN** 錯誤，則會拒絕連線。 如需有關驗證 Bluetooth 裝置的詳細資訊，請參閱 [**BluetoothAuthenticateDevice**](/windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothauthenticatedevice)。
+針對連入連線，如果無法建立驗證並傳回 **WSAEHOSTDOWN** 錯誤，則會拒絕連線。 如需有關驗證藍牙裝置的詳細資訊，請參閱 [**BluetoothAuthenticateDevice**](/windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothauthenticatedevice)。
 
 針對 **\_ BTH \_ 驗證** 通訊端選項， *optval* 是指向 ULONG bAuthenticate 的指標，且必須為 **TRUE**。 *optlen* 相當於 "SIZEOF (ULONG) "。
 
-**WINDOWS XP SP2： \_BTH \_** authentication 會開始驗證連接的通訊端，並在連線的通訊端連接時強制執行驗證。 若為連入連接，如果無法執行驗證，則會拒絕連線。
+**Windows XP SP2： \_BTH \_** authentication 會開始驗證連接的通訊端，並在連線的通訊端連接時強制執行驗證。 若為連入連接，如果無法執行驗證，則會拒絕連線。
 
 ## <a name="so_bth_encrypt"></a>\_BTH \_ 加密
 
-在未連線的通訊端上， **\_ BTH \_ ENCRYPT** 通訊端選項會強制加密以建立連線。 加密僅適用于已驗證的連接。 針對連入連線，無法建立加密的連線會自動被拒絕，並傳回 **WSAEHOSTDOWN** 做為錯誤。 若為傳出連接，如果無法建立加密， [**connect**](/windows/desktop/api/winsock2/nf-winsock2-connect) 函式會失敗並出現 **WSAEACCES** 。 在回應中，應用程式可能會提示使用者在連線前先驗證兩部藍牙裝置。 如需有關驗證 Bluetooth 裝置的詳細資訊，請參閱 [**BluetoothAuthenticateDevice**](/windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothauthenticatedevice)。
+在未連線的通訊端上， **\_ BTH \_ ENCRYPT** 通訊端選項會強制加密以建立連線。 加密僅適用于已驗證的連接。 針對連入連線，無法建立加密的連線會自動被拒絕，並傳回 **WSAEHOSTDOWN** 做為錯誤。 若為傳出連接，如果無法建立加密， [**connect**](/windows/desktop/api/winsock2/nf-winsock2-connect) 函式會失敗並出現 **WSAEACCES** 。 在回應中，應用程式可能會提示使用者先驗證兩個藍牙裝置，再進行連接。 如需有關驗證藍牙裝置的詳細資訊，請參閱 [**BluetoothAuthenticateDevice**](/windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothauthenticatedevice)。
 
 針對 \_ BTH \_ ENCRYPT 通訊端選項， *OPTVAL* 是指向 ULONG **bEncrypt** 的指標，且必須為 **TRUE**; *optlen* 相當於 SIZEOF (ULONG) 。
 
-**WINDOWS XP SP2：** 針對已連線和已驗證的通訊端 **， \_ BTH \_** encryption 會開始加密。
+**Windows XP SP2：** 針對已連線和已驗證的通訊端 **， \_ BTH \_** encryption 會開始加密。
 
 ## <a name="so_bth_mtu"></a>\_BTH \_ MTU
 
@@ -50,7 +50,7 @@ ms.locfileid: "103933328"
 
 您可以在已連線的通訊端上執行 **SO \_ BTH \_ MTU** 通訊端選項，但如果協商已完成，就不會有任何作用。 在接聽的 (server) 通訊端上進行設定不會有任何作用。
 
-應用程式可以在單一通訊端呼叫中傳送或接收的資料量不會受到 MTU 的影響;MTU 只會影響基礎 Windows 通訊端服務提供者如何分割傳輸的封包。 建議的 MTU 和最終協商的 MTU 都必須介於 **RFCOMM \_ MIN \_ mtu** 與 **RFCOMM \_ MAX \_ mtu** 之間，如 Ws2bth .h 標頭檔中所定義。
+應用程式可以在單一通訊端呼叫中傳送或接收的資料量不會受到 MTU 的影響;MTU 只會影響基礎 Windows 通訊端服務提供者如何分割封包以進行傳輸。 建議的 MTU 和最終協商的 MTU 都必須介於 **RFCOMM \_ MIN \_ mtu** 與 **RFCOMM \_ MAX \_ mtu** 之間，如 Ws2bth .h 標頭檔中所定義。
 
 針對 **SO \_ BTH \_ mtu** 通訊端選項， *optval* 是指向 ULONG MTU 的指標; *optlen* 相當於 "SIZEOF (ULONG) "。
 
@@ -90,6 +90,6 @@ ms.locfileid: "103933328"
 [**接受**](/windows/desktop/api/winsock2/nf-winsock2-accept)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

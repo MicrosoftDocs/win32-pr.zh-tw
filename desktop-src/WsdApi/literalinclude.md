@@ -4,12 +4,12 @@ ms.assetid: 7a7ffd54-09e9-412d-a637-5dc27597b46e
 title: literalInclude 元素
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f1bda6586de7c1bc253a9dd1f348ba644b4f29b7f928335bb0cdd148c0fd1536
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bcfbd72300607dd2c6f3f21e4be3666083b559cb
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119757168"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122625314"
 ---
 # <a name="literalinclude-element"></a>literalInclude 元素
 
@@ -29,10 +29,10 @@ ms.locfileid: "119757168"
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col  />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -46,14 +46,14 @@ ms.locfileid: "119757168"
 <tr class="odd">
 <td><strong>語言</strong><br/></td>
 <td>語言字串<br/></td>
-<td>No<br/></td>
+<td>否<br/></td>
 <td>要包含的頭檔案類型。 <br/> <br/>
 <dt><strong>C</strong></dt> <dd> 包含 C 標頭檔。<br/> </dd> <dt><strong>IDL</strong></dt> <dd> 包含 IDL 檔案。<br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><strong>本機</strong><br/></td>
 <td>Boolean<br/></td>
-<td>No<br/></td>
+<td>否<br/></td>
 <td>只有當 <strong>語言</strong> 設定為 C 時，才會使用這個屬性 &quot; &quot; 。<br/> <br/>
 <dt><strong>真</strong></dt> <dd> 搜尋系統目錄之前，先在目前的目錄中搜尋指名的標頭。<br/> </dd> <dt><strong>假</strong></dt> <dd> 僅搜尋已命名標頭的系統目錄。<br/> </dd> </dl></td>
 </tr>

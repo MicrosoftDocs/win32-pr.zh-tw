@@ -4,12 +4,12 @@ ms.assetid: 0879898b-b661-48b3-af94-9ba24811503f
 title: 使用檔案管理
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 88838ee99dde16c5c2288c00e2e2f3b35747dae5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4546142fe36064921dedb04f1ce30cd5fdc8454a0c9ffb73c91728faba0a1c30
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104027332"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120130698"
 ---
 # <a name="using-file-management"></a>使用檔案管理
 

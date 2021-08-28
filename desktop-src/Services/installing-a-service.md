@@ -4,12 +4,12 @@ ms.assetid: b94bf94e-1b07-4686-be5c-306e7cf13f39
 title: 安裝服務
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 79e72953b2d3fc3ce549f614a035c9614c4d895a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 955875511688f9c3f2437d60fd615617e964c8f2f60333a7410143c7d451494b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972614"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117968016"
 ---
 # <a name="installing-a-service"></a>安裝服務
 

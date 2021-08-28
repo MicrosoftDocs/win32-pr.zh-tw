@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7b68afe7d967b1967635b0e49bd84878fa02e008
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 39831dd82addf51687ac13f2e3af077c1f1c656da2ae0c202bca79969aaf75ab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "103945847"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119579948"
 ---
 # <a name="stringutc-time-syntax"></a>字串 (UTC 時間) 語法
 

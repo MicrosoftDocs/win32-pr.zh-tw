@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 953b4ea4e81033d7f4ce889bf7fd593c91f8bb2b
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 316adde6a5ab9c13b3a5464f02c3cfb9230b1785e2f1efc5615feb42e9c8e294
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106991324"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119552698"
 ---
 # <a name="ms-ds-claim-is-value-space-restricted-attribute"></a>ms-chap----------值-受限制的屬性
 
@@ -52,8 +52,8 @@ ms.locfileid: "106991324"
 |------------------------|-----------------------------------------------------------------------------------------------------------------|
 | 連結識別碼                | \-                                                                                                              |
 | MAPI-Id                | \-                                                                                                              |
-| System-Only            | 對                                                                                                            |
-| 是-單一值       | 對                                                                                                            |
+| System-Only            | 是                                                                                                            |
+| 是-單一值       | 是                                                                                                            |
 | 已編制索引             | 否                                                                                                           |
 | 在通用類別目錄中      | 否                                                                                                           |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                                    |

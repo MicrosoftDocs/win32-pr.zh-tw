@@ -4,17 +4,17 @@ ms.assetid: 9efaae3f-1fb8-41ab-b7a9-889cc3cc39c3
 title: CurrentAudioStream 屬性
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2b8b67d81eeec21aec164f3ca865ee3f2de4cd3f
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: fd814d5b560ed55ea312fbebb8678c67b1422b0cf3d47917fbf772f56a0d3afd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106973746"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120075968"
 ---
 # <a name="currentaudiostream-property"></a>CurrentAudioStream 屬性
 
 > [!Note]  
-> 此元件可用於 Microsoft Windows 2000、Windows XP 及 Windows Server 2003 作業系統。 它在後續版本中可能會變更或無法使用。
+> 此元件可在 Microsoft Windows 2000、Windows XP 和 Windows Server 2003 作業系統中使用。 它在後續版本中可能會變更或無法使用。
 
  
 

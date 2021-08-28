@@ -4,18 +4,18 @@ ms.assetid: 7b1577c4-ec92-4c14-9bea-2c7d92819ff7
 title: FNumberDenominator
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b5a7182a89719a7a24e6d384a9c15b9c4969bf8a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cf477f7fa63275251aa25b160dbca3b41693328fd971c44535695fd627eb71fe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104513265"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119095940"
 ---
 # <a name="systemphotofnumberdenominator"></a>FNumberDenominator
 
 PKEY \_ 相片 FNumber 的分母 \_ 。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

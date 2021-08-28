@@ -4,12 +4,12 @@ description: 由上而下的控制項是一組箭號按鈕，使用者可以按�
 ms.assetid: ae2c0283-9cad-40d1-b8a6-a90484a95f56
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2cc8dad15a8254b138cae4175cc16b1ef3111745
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 749014a4b9959b8afd6e769919a0dc9df19e99ce4edeabca774e535f26f4cf8d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103683178"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120132151"
 ---
 # <a name="about-up-down-controls"></a>關於 Up-Down 控制項
 
@@ -55,7 +55,7 @@ ms.locfileid: "103683178"
 
 ## <a name="default-up-down-controls-message-processing"></a>預設 Up-Down 控制訊息處理
 
-本章節描述由上而下控制項所處理的標準 Windows 訊息。
+本節說明由上而下控制項所處理的標準 Windows 訊息。
 
 
 
@@ -73,8 +73,8 @@ ms.locfileid: "103683178"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

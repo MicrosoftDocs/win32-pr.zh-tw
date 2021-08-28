@@ -4,12 +4,12 @@ description: 本主題將示範如何提供回呼專案的支援。
 ms.assetid: BD32666F-9445-4871-AE21-5DC9F5FC9C1B
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 056f64c086aeda94ccf928d93ae2c5db5e2187a4
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: df078b8be8cd02f56592a74de4242b515974a740df01d3cd4bd36074d5f8e022
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "103933726"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119968218"
 ---
 # <a name="how-to-support-callback-items"></a>如何支援回呼專案
 
@@ -19,12 +19,12 @@ ms.locfileid: "103933726"
 
 ### <a name="technologies"></a>技術
 
--   [Windows 控制項](window-controls.md)
+-   [Windows控制](window-controls.md)
 
 ### <a name="prerequisites"></a>必要條件
 
 -   C/C++
--   Windows 消費者介面程式設計
+-   Windows消費者介面程式設計
 
 ## <a name="instructions"></a>指示
 

@@ -4,12 +4,12 @@ ms.assetid: 16cd98d2-adc5-4a14-ad39-a0c5b4cc00cc
 title: 同步處理的新功能
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4702ba10126d9c0eeeb85462195680b074918584
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2e998e4c925fdfc702e0a54ec9fce53ab24577c97f563670fc1710dd1308a21e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104192931"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117959056"
 ---
 # <a name="whats-new-in-synchronization"></a>同步處理的新功能
 

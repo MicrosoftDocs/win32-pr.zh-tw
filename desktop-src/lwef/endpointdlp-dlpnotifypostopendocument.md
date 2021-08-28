@@ -12,12 +12,12 @@ api_type:
 - DllExport
 api_location:
 - EndpointDlp.dll
-ms.openlocfilehash: 10121e69ddbdc41516e56ec07e87a2f6dd8148cd
-ms.sourcegitcommit: 91110c16e4713ed82d7fb80562d3ddf40b5d76b2
+ms.openlocfilehash: cc131f6e5778c3c333266eb748cbc50de8381effa731dadfc7f5576fbf056037
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "107495505"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119725808"
 ---
 # <a name="dlpnotifypostopendocument-function"></a>DlpNotifyPostOpenDocument 函式
 

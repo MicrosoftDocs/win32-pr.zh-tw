@@ -1,19 +1,19 @@
 ---
-description: 控制捕捉圖形
+description: 控制 Capture Graph
 ms.assetid: e7afafca-e993-4096-bad4-399ee6c67fe9
-title: 控制捕捉圖形
+title: 控制 Capture Graph
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a00573256c1c010e23dfc598ceca5ac62d772711
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: d678e00452fbf90591fbc187039ddbbc37cc4fde446e2e285c77fcaab415e815
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113119473"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119652138"
 ---
-# <a name="controlling-a-capture-graph"></a>控制捕捉圖形
+# <a name="controlling-a-capture-graph"></a>控制 Capture Graph
 
-篩選圖形管理員的 [**IMediaControl**](/windows/desktop/api/Control/nn-control-imediacontrol) 介面具有執行、停止和暫停整個圖形的方法。 但是，如果篩選圖形具有 capture 和 preview 資料流程，您可能會想要獨立控制兩個數據流。 例如，您可能想要預覽影片而不加以捕捉。 您可以透過 [**ICaptureGraphBuilder2：： ControlStream**](/windows/desktop/api/Strmif/nf-strmif-icapturegraphbuilder2-controlstream) 方法來執行此動作。
+篩選 Graph 管理員的 [**IMediaControl**](/windows/desktop/api/Control/nn-control-imediacontrol)介面具有執行、停止和暫停整個圖形的方法。 但是，如果篩選圖形具有 capture 和 preview 資料流程，您可能會想要獨立控制兩個數據流。 例如，您可能想要預覽影片而不加以捕捉。 您可以透過 [**ICaptureGraphBuilder2：： ControlStream**](/windows/desktop/api/Strmif/nf-strmif-icapturegraphbuilder2-controlstream) 方法來執行此動作。
 
 > [!Note]  
 > 當捕捉到 Advanced 系統格式 (ASF) 檔案時，此方法無法運作。

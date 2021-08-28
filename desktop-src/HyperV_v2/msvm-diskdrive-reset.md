@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 6ea910314996e6854d9d9425c55d08ba195b8434
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: c49c3e5ba0f71868e26ad18e8b0afe2f8602f2e5aa4abaec3ade43a67269c81e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108119196"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120130508"
 ---
 # <a name="reset-method-of-the-msvm_diskdrive-class"></a>Msvm DiskDrive 類別的 Reset 方法 \_
 

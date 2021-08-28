@@ -14,12 +14,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 14a7c555200e2eac99def75a1ad8c1d5dc1223fc
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 63baeeb46baa877ccc294d1136351ec123d6c4661ee73d548b62d8cb4db05734
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104312482"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119027546"
 ---
 # <a name="iwmdrmlicensemanagement-interface"></a>IWMDRMLicenseManagement 介面
 

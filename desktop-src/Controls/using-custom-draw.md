@@ -4,12 +4,12 @@ description: 本節包含示範如何執行自訂繪製的範例。
 ms.assetid: ab2a8930-1ee1-4b9f-bd3e-4b34df84957b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1f0b8a2585103aa27a27f0138a49885cc726d3b1
-ms.sourcegitcommit: 3e70ae762629e244028b437420ed50b5850db4e3
+ms.openlocfilehash: e90cff5fd4d692d31b69c85980f872f3aca4504cad81a3439d0c4d31a4c73d90
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "104023100"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119655868"
 ---
 # <a name="using-custom-draw"></a>使用自訂繪圖
 
@@ -102,9 +102,9 @@ subitem and return CDRF_NEWFONT.*/
 [範例： CustDTv 說明 TreeView 中的自訂繪製 (Q248496) ](https://support.microsoft.com/default.aspx?scid=kb;EN-US;q248496)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

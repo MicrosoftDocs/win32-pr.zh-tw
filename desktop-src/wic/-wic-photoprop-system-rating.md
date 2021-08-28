@@ -4,12 +4,12 @@ ms.assetid: e4d2c12e-617a-431e-9062-62acf6ef21c8
 title: System. 評分相片中繼資料原則
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 47c4f7d89b1ff1ea8326c2d26fba0d331db1eab1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 25278ad7d881a0acadc5199fd07227bb650aaae4da2b6342070a64d69fd75240
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319847"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119086981"
 ---
 # <a name="systemrating-photo-metadata-policy"></a>System. 評分相片中繼資料原則
 

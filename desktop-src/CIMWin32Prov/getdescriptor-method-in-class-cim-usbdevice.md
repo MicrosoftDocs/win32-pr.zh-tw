@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 35ce9a83efb580d6e5e44f55a01182e7390c120e
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 1288ab1c00ec51c61d3a5e2f7c013ca1e3728fc88087092868421f8e11b7f0e4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973157"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120077538"
 ---
 # <a name="getdescriptor-method-of-the-cim_usbdevice-class-wmcodecdsph"></a>CIM_USBDevice 類別的 GetDescriptor 方法 (Wmcodecdsp) 
 

@@ -4,18 +4,18 @@ ms.assetid: f8bb0667-5f42-47ef-bd8a-90974f388225
 title: System.object
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cf6888681c514a012fe487c971b7b9033d2934e2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 11b5b475dccba4ea5fa4a5584074e5980705a9cb241bced217ba8254a1f472e7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106996757"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119098413"
 ---
 # <a name="systemcontactfirstname"></a>System.object
 
 指出連絡人的名字。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

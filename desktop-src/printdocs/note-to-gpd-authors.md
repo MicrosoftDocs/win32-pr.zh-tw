@@ -4,12 +4,12 @@ ms.assetid: f1b94241-5376-423f-b10a-336dc47f3d59
 title: GPD 作者注意事項
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 52fe9d0c4ce36cf603d492688f4faa426e3050b9
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: ce16d78d5b9ed088b0d33616eca781dec9e83c89e94e35477f34e7e96579ba84
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113119813"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119098962"
 ---
 # <a name="note-to-gpd-authors"></a>GPD 作者注意事項
 

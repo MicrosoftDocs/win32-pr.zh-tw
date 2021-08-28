@@ -4,12 +4,12 @@ description: StoServe 是主要用於 COM 伺服器的 DLL。
 ms.assetid: 32cb284a-de78-4953-9d8e-5bb87d6d5a97
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d46dfd4070e9951223e0a498184b8db814c7a43
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 7e3a220f03e17892b02a94c1e76bafc4a869c0922973c7277589627d233175a3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106969922"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120034748"
 ---
 # <a name="using-stoserve"></a>使用 StoServe
 
@@ -31,6 +31,6 @@ ms.locfileid: "106969922"
 
 **StoServe** 會使用 APPUTIL 所提供的許多公用程式類別和服務。 如需更多有關 APPUTIL 的詳細資訊，請研究 APPUTIL 程式庫在同輩 APPUTIL 目錄中的原始程式碼，並 APPUTIL.HTM 在主要教學課程目錄中。
 
- 
+ 
 
- 
+ 

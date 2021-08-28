@@ -4,12 +4,12 @@ ms.assetid: ae1f8835-ef6c-42bb-b44f-ad374337a012
 title: typeInfo
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a70c6eeaee63bcb99ee19217ccff5d3ff7086a2
-ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
+ms.openlocfilehash: c0c7fd75de0e469ce516546555a3ec772692ab3d2b25e2c1c4b76db0f696af23
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "122632166"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119098565"
 ---
 # <a name="typeinfo"></a>typeInfo
 
@@ -132,8 +132,8 @@ ms.locfileid: "122632166"
 
 <table>
 <colgroup>
-<col  />
-<col  />
+<col style="width: 50%" />
+<col style="width: 50%" />
 </colgroup>
 <thead>
 <tr class="header">

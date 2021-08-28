@@ -4,12 +4,12 @@ ms.assetid: 0793E46B-8464-425E-8C5B-77C14DA90004
 title: 虛擬機器世代識別碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7df6ecbb600dbc7ae2efe14d36cb17cc75816444
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d810a1a65e95f4dde0ccf9779b1e955f2630623e362ffbf94ab8ca36d51d116e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106971572"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119899008"
 ---
 # <a name="virtual-machine-generation-identifier"></a>虛擬機器世代識別碼
 
@@ -31,7 +31,7 @@ Windows 8 和 Windows Server 2012 引進在虛擬機器上執行之軟體的功�
     -   Windows Server 2012
     -   
 
-    如果已安裝 Windows 8 或 Windows Server 2012 中的 Hyper-v integration services，則可以使用下列操作作為客體作業系統。
+    如果已安裝 Windows 8 或 Windows Server 2012 的 hyper-v integration services，則可以使用下列操作作為客體作業系統。
 
     -   Windows Server 2008 R2 包含 Service Pack 1 (SP1))
     -   Windows 7 含 Service Pack 1 (SP1)
@@ -93,7 +93,7 @@ Windows 8 和 Windows Server 2012 引進在虛擬機器上執行之軟體的功�
 
     在這兩種模式中，輸出緩衝區的格式和長度都是由 [**VM \_ GENCOUNTER**](/windows/desktop/api/Vmgenerationcounter/ns-vmgenerationcounter-vm_gencounter) 結構所決定。
 
-    上面所列的所有客體作業系統都支援輪詢模式。 只有在 Windows Vista SP2、Windows Server 2008 SP2 和更新版本的作業系統上才支援事件驅動模式。 在舊版作業系統上，IOCTL 會失敗，並在事件驅動模式下發出錯誤代碼 **錯誤 \_ \_** 。
+    上面所列的所有客體作業系統都支援輪詢模式。 只有 Windows Vista sp2、Windows Server 2008 sp2 和更新版本的作業系統才支援事件驅動模式。 在舊版作業系統上，IOCTL 會失敗，並在事件驅動模式下發出錯誤代碼 **錯誤 \_ \_** 。
 
     產生識別碼有可能在驅動程式抓取時間與完成 IOCTL 的時間之間變更的時間。 這可能會導致用戶端應用程式接收到過時的資料。 為了避免這種情況，用戶端應用程式可以使用事件驅動模式，以確保最終會瞭解世代識別碼的任何更新。 藉由將用戶端應用程式的目前識別碼做為輸入，事件驅動模式可避免可能導致呼叫者遺漏通知的潛在競爭情形。
 
