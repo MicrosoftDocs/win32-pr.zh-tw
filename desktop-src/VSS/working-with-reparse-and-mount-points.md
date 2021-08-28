@@ -4,12 +4,12 @@ ms.assetid: d0e08598-a8a2-489b-9cb2-e989bed1ce53
 title: 使用裝載的資料夾和重新分析點
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 397a7aa88f39361f788f9aac882b4f9d337fd6f8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c1162d1d7da5869f588ae61d9235ec3d5827265c5eb9deaa23c38b8b9e85db68
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106966715"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119905058"
 ---
 # <a name="working-with-mounted-folders-and-reparse-points"></a>使用裝載的資料夾和重新分析點
 

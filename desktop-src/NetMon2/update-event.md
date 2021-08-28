@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Netmon.h
-ms.openlocfilehash: 3da45020a68114182a71b25ff9bba380d3f89eee
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 51fda96f988a6420acd772182c3259a3de09a10b8a9c2ac8678025e26f5fa15a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106978916"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119962808"
 ---
 # <a name="update_event-structure"></a>更新 \_ 事件結構
 

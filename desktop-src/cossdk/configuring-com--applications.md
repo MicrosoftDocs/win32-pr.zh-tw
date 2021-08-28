@@ -4,12 +4,12 @@ ms.assetid: 50039b30-1c91-4e93-9f23-873accb651cf
 title: 設定 COM + 應用程式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 16319baf7e34348751e9cafd0efcbd99906d0985
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 79d6c8caa8dc4ca949a71d9a6b56fd6eae95d415
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973378"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122465995"
 ---
 # <a name="configuring-com-applications"></a>設定 COM + 應用程式
 
@@ -35,7 +35,7 @@ COM + 應用程式基本上是一種宣告式的結構，可讓您設定任何�
 
 | 屬性                                                                                        | 描述                                                                                                                                                                                         |
 |--------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [啟用](context-activation.md)<br/>                                                  | 指定應用程式類型： [伺服器應用程式] 或 [程式庫應用程式]。<br/>                                                                                                            |
+| [啟動](context-activation.md)<br/>                                                  | 指定應用程式類型： [伺服器應用程式] 或 [程式庫應用程式]。<br/>                                                                                                            |
 | [啟用存取檢查](enabling-access-checks-for-an-application.md)<br/>               | 開啟和關閉安全性檢查。<br/>                                                                                                                                                      |
 | [安全性層級](setting-a-security-level-for-access-checks.md)<br/>                      | 指定將在進程層級執行存取檢查， (從角色) 或同時在進程和元件層級產生的存取檢查層級 (完整的角色型安全性) 。<br/> |
 | [驗證等級](setting-an-authentication-level-for-a-server-application.md)<br/>  | 設定用於呼叫應用程式的驗證層級。<br/>                                                                                                                        |
@@ -61,69 +61,21 @@ COM + 應用程式基本上是一種宣告式的結構，可讓您設定任何�
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>屬性</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="configuring-transactions.md">交易</a><br/></td>
-<td>設定停用、不支援、支援、必要或需要新的自動交易需求。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="setting-the-synchronization-attribute.md">同步處理</a><br/></td>
-<td>設定停用、不支援、支援、必要或需要新的同步處理需求。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="enabling-jit-activation-for-a-component.md">JIT 啟用</a><br/></td>
-<td>啟用即時啟用。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="configuring-a-component-to-be-pooled.md">物件集區</a><br/></td>
-<td>啟用物件共用。 最小和最大集區大小和物件超時值都是可設定的。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="specifying-an-object-constructor-string-for-a-component.md">物件結構</a><br/></td>
-<td>使用系統管理指定的函式字串來啟用參數化物件結構。 <br/>
-<blockquote>
-[!Note]<br />
-不應使用此函式字串來儲存安全性機密資訊。
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td><a href="enabling-access-checks-at-the-component-level.md">元件層級存取檢查</a><br/></td>
-<td>開啟或關閉元件層級以角色為基礎的安全性檢查。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="assigning-roles-to-components--interfaces--or-methods.md">宣告式角色指派</a><br/></td>
-<td>啟用將角色明確指派給元件。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="persistent-client-side-failures.md">佇列例外狀況類別</a><br/></td>
-<td>表示處理用戶端失敗的例外狀況類別。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="com--instrumentation-concepts.md">檢測事件和統計資料</a><br/></td>
-<td>啟用詳細的系統事件和物件統計資料包告。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="context-activation.md">啟用內容</a><br/></td>
-<td>啟用在呼叫端的內容或預設內容中強制啟用物件。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="what-s-new-in-com--1-5.md">建立私用元件</a><br/></td>
-<td>將元件標示為私用應用程式。 私用元件只能由相同應用程式中的其他元件來查看和啟用。<br/></td>
-</tr>
-</tbody>
-</table>
+
+| 屬性 | 描述 | 
+|-----------|-------------|
+| <a href="configuring-transactions.md">交易</a><br /> | 設定停用、不支援、支援、必要或需要新的自動交易需求。<br /> | 
+| <a href="setting-the-synchronization-attribute.md">同步處理</a><br /> | 設定停用、不支援、支援、必要或需要新的同步處理需求。<br /> | 
+| <a href="enabling-jit-activation-for-a-component.md">JIT 啟用</a><br /> | 啟用即時啟用。<br /> | 
+| <a href="configuring-a-component-to-be-pooled.md">物件集區</a><br /> | 啟用物件共用。 最小和最大集區大小和物件超時值都是可設定的。<br /> | 
+| <a href="specifying-an-object-constructor-string-for-a-component.md">物件結構</a><br /> | 使用系統管理指定的函式字串來啟用參數化物件結構。 <br /><blockquote>[!Note]<br />不應使用此函式字串來儲存安全性機密資訊。</blockquote><br /> | 
+| <a href="enabling-access-checks-at-the-component-level.md">元件層級存取檢查</a><br /> | 開啟或關閉元件層級以角色為基礎的安全性檢查。<br /> | 
+| <a href="assigning-roles-to-components--interfaces--or-methods.md">宣告式角色指派</a><br /> | 啟用將角色明確指派給元件。<br /> | 
+| <a href="persistent-client-side-failures.md">佇列例外狀況類別</a><br /> | 表示處理用戶端失敗的例外狀況類別。<br /> | 
+| <a href="com--instrumentation-concepts.md">檢測事件和統計資料</a><br /> | 啟用詳細的系統事件和物件統計資料包告。<br /> | 
+| <a href="context-activation.md">啟用內容</a><br /> | 啟用在呼叫端的內容或預設內容中強制啟用物件。<br /> | 
+| <a href="what-s-new-in-com--1-5.md">建立私用元件</a><br /> | 將元件標示為私用應用程式。 私用元件只能由相同應用程式中的其他元件來查看和啟用。<br /> | 
+
 
 
 

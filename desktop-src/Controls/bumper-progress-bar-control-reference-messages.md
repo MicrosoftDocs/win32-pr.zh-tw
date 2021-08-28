@@ -4,12 +4,12 @@ description: 進度列訊息
 ms.assetid: 69ee0958-5913-4e3b-a5d4-f590aee3797b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ee0d3808cb26da6949355d7c4063f8bc0c6f7992
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 5ca27fa60dd9282d245bd379e08057ca9a6a03360819358d9384898b4ddfbd87
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104322352"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119970721"
 ---
 # <a name="progress-bar-messages"></a>進度列訊息
 

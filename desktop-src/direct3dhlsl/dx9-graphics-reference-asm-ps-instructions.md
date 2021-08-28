@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 782cea8fbd59b0f7bb629a602a5f9d207c837c18
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 5a0d41f9d02f72b98a5abf16e96771ffe0164c6b648f70fd188767aedf91b1c2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104971461"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119950088"
 ---
 # <a name="pixel-shader-instructions"></a>圖元著色器指示
 
@@ -26,7 +26,7 @@ ms.locfileid: "104971461"
 <!-- -->
 
 -   [Ps \_ 1 X 的修飾詞 \_](dx9-graphics-reference-asm-ps-instructions-modifiers-ps-1-x.md)
--   [流程式控制制限制](dx9-graphics-reference-asm-ps-instructions-flow-control.md)
+-   [Flow控制項限制](dx9-graphics-reference-asm-ps-instructions-flow-control.md)
 
 ## <a name="related-topics"></a>相關主題
 
@@ -35,9 +35,9 @@ ms.locfileid: "104971461"
 [圖元著色器](dx9-graphics-reference-asm-ps.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

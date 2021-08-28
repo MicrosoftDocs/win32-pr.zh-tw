@@ -3,7 +3,7 @@ title: 'MCIWNDM_GETVOLUME 訊息 (Vfw .h) '
 description: MCIWNDM \_ GETVOLUME 訊息會抓取 MCI 裝置目前的磁片區設定。 您可以使用 MCIWndGetVolume 宏明確地傳送此訊息。
 ms.assetid: 3f1de023-4da8-4899-accc-409701d6e921
 keywords:
-- MCIWNDM_GETVOLUME message Windows 多媒體
+- MCIWNDM_GETVOLUME 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4aa11fb13a56dda7cb83e3d6c98b4b66083e91b9
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: cd514edbf0e49f49bc807f69a2bd5322d6f281475e3ed3c94fa483772580f131
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104385194"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119783298"
 ---
 # <a name="mciwndm_getvolume-message"></a>MCIWNDM \_ GETVOLUME 訊息
 

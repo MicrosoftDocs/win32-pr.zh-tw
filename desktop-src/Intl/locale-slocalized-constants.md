@@ -4,12 +4,12 @@ ms.assetid: 1f91461a-ece3-4c71-b399-3d22eec368a9
 title: LOCALE_SLOCALIZED * 常數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 45a3a11db4415c989fc8601cb1cc93aee7132c41
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 132584ab4c2601c2a2612145eb826028112253cc626300c4ce37575cfbc92456
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103850935"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120106088"
 ---
 # <a name="locale_slocalized-constants"></a>地區設定 \_ SLOCALIZED \* 常數
 

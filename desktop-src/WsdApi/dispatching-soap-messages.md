@@ -4,12 +4,12 @@ ms.assetid: 988dc505-5d1f-46df-9340-107483bb9581
 title: 分派 SOAP 訊息
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b4a60e896557a64b840ec890ddc5c5d2e2cf8295
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 579c01d03a76fcadc1ee82a270c8e222cbf68aa739d10bed0749bb82bcda80ec
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104513581"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120030248"
 ---
 # <a name="dispatching-soap-messages"></a>分派 SOAP 訊息
 

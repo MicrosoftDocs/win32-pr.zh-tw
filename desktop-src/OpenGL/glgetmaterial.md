@@ -4,12 +4,12 @@ description: 這些函數會傳回材質參數。
 ms.assetid: 79409f4e-1e39-4fca-adc8-d48253853ce3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a591acc07cdffcc9d6f3811b82c0af17856aef65
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d8384e10ba3b2f0a47a01231c308b2eff3c525029912c34a72ed177d360a2e78
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103673835"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119741358"
 ---
 # <a name="glgetmaterial-functions"></a>glGetMaterial 函式
 
@@ -18,9 +18,9 @@ ms.locfileid: "103673835"
 -   [**glGetMaterialfv**](glgetmaterialfv.md)
 -   [**glGetMaterialiv**](glgetmaterialiv.md)
 
- 
+ 
 
- 
+ 
 
 
 

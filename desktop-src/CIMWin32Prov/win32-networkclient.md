@@ -1,5 +1,5 @@
 ---
-description: Win32 \_ NETWORKCLIENT WMI 類別代表 Windows 系統上的網路用戶端。 網路上具有與系統之間的用戶端關係的任何電腦系統，都是此類別 (或成員) 的子系。
+description: Win32 \_ NetworkClient WMI 類別代表 Windows 系統上的網路用戶端。 網路上具有與系統之間的用戶端關係的任何電腦系統，都是此類別 (或成員) 的子系。
 ms.assetid: f0cc2cef-be23-42f4-a592-2c292aa5085f
 ms.tgt_platform: multiple
 title: Win32_NetworkClient 類別
@@ -20,12 +20,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 54579073b3974a6c4954ef95b1da3fe2e9fd8348
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 14abd69af85118068681971299f26f9692b1d9ae6b7e18816e3bdba12cee890c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936452"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119972618"
 ---
 # <a name="win32_networkclient-class"></a>Win32 \_ NetworkClient 類別
 
@@ -144,9 +144,9 @@ class Win32_NetworkClient : CIM_LogicalElement
 限定詞： [**key**](../wmisdk/key-qualifier.md)、 [**Override**](../wmisdk/standard-qualifiers.md) ( "Name" ) 、 [**MappingStrings**](../wmisdk/standard-qualifiers.md) ( "Win32Registry \| SYSTEM \\ \\ CurrentControlSet \\ \\ Services \\ \\ LanmanWorkstation \\ \\ NetworkProvider \| Name" ) 
 </dt> </dl>
 
-在執行 Windows 的電腦系統上執行之網路用戶端的網路名稱。
+執行 Windows 的電腦系統上執行之網路用戶端的網路名稱。
 
-範例：「Microsoft Windows 網路」
+範例： "Microsoft Windows Network"
 
 </dd> <dt>
 

@@ -3,7 +3,7 @@ title: 'UDM_GETBASE 訊息 (Commctrl .h) '
 description: 抓取目前的基本基底基底 (也就是上下按鈕控制項的基底10或 16) 。
 ms.assetid: df755b11-9a11-44f1-bdef-1bb7244c7979
 keywords:
-- UDM_GETBASE message Windows 控制項
+- UDM_GETBASE 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 86f5ac7cb5cff9b4b0325c03c86d8a69c5e5529d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8b8a42c9983b2685179e93ef2a289ff9d358669e5a8564abbbe99bd64811ff71
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934041"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120059808"
 ---
 # <a name="udm_getbase-message"></a>UDM \_ GETBASE 訊息
 
@@ -45,8 +45,8 @@ ms.locfileid: "103934041"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

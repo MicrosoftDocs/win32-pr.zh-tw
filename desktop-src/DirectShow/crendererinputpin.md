@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 7ec48b31170b2233f211e7e72de81d8792ae9160
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c2cfeb61d075804d61ba515d86641e56bf3cd9e1ab6aa6de826a8bb7206be4fd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107000994"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119908241"
 ---
 # <a name="crendererinputpin-class"></a>CRendererInputPin 類別
 
@@ -31,10 +31,10 @@ ms.locfileid: "107000994"
 
 
 
-| 受保護的成員變數                                       | Description                                                                            |
+| 受保護的成員變數                                       | 描述                                                                            |
 |------------------------------------------------------------------|----------------------------------------------------------------------------------------|
 | [**m \_ pRenderer**](crendererinputpin-m-prenderer.md)            | 篩選準則的指標。                                                                 |
-| 公用方法                                                   | Description                                                                            |
+| 公用方法                                                   | 描述                                                                            |
 | [**CRendererInputPin**](crendererinputpin-crendererinputpin.md) | 函式方法。                                                                    |
 | [**BreakConnect**](crendererinputpin-breakconnect.md)           | 在中斷連接時新增自訂程式碼。                                       |
 | [**CompleteConnect**](crendererinputpin-completeconnect.md)     | 完成連接。                                                              |
@@ -43,12 +43,12 @@ ms.locfileid: "107000994"
 | [**非使用中**](crendererinputpin-inactive.md)                   | 將釘選切換為非使用中狀態，並釋放配置器的記憶體。        |
 | [**SetMediaType**](crendererinputpin-setmediatype.md)           | 設定釘選的媒體類型。                                                        |
 | [**分配器**](crendererinputpin-allocator.md)                 | 捕獲預設記憶體配置器的指標。                                   |
-| IPin 方法                                                     | Description                                                                            |
+| IPin 方法                                                     | 描述                                                                            |
 | [**QueryId**](crendererinputpin-queryid.md)                     | 抓取 pin 的識別碼。                                                   |
 | [**EndOfStream**](crendererinputpin-endofstream.md)             | 通知 pin，在發出新的執行命令之前，不需要額外的資料。 |
 | [**BeginFlush**](crendererinputpin-beginflush.md)               | 通知 pin 開始進行清除作業。                                            |
 | [**EndFlush**](crendererinputpin-endflush.md)                   | 通知 pin 結束清除作業。                                              |
-| IMemInputPin 方法                                             | Description                                                                            |
+| IMemInputPin 方法                                             | 描述                                                                            |
 | [**收到**](crendererinputpin-receive.md)                     | 從資料流程抓取下一個資料區塊。                                      |
 
 

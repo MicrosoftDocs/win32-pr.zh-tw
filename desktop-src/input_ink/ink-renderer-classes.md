@@ -4,12 +4,12 @@ ms.assetid: 5F093A11-C553-4779-B07D-374DA0FBC383
 title: 筆墨轉譯器類別
 ms.topic: article
 ms.date: 02/03/2020
-ms.openlocfilehash: 9c0b1410b7e5a3ed7680ad5f663ebd6ede800cf6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f804a031f5afebecf322ce97e45373d983a1eb9d8bc450bebf83839fcecdc89b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106976838"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120092378"
 ---
 # <a name="ink-renderer-classes"></a>筆墨轉譯器類別
 

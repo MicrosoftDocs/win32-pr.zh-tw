@@ -4,12 +4,12 @@ ms.assetid: 6eb9e19c-df28-4cf9-a434-c27478ba1fa5
 title: 'GraphicsPathIterator. NextMarker 方法 (Gdipluspath .h) '
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 056423dec66efd3c86ab0d5ab7dba7fd4d80c52d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b3cd64e629cb54f53d54eac12c22be84b0359dab77d217080735dae6e0bc3320
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "104992539"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119964418"
 ---
 # <a name="graphicspathiteratornextmarker-methods"></a>GraphicsPathIterator. NextMarker 方法
 

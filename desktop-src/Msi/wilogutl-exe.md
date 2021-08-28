@@ -4,12 +4,12 @@ ms.assetid: 09aa03ba-992f-47ab-999b-ebdfe85c1ea7
 title: Wilogutl.exe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d9958b91513dccc32f3bfc82ff781f65f166c208
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.openlocfilehash: 6734b22afa6aa5d464f3d6b01555e54f240e006b
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122883858"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122476024"
 ---
 # <a name="wilogutlexe"></a>Wilogutl.exe
 
@@ -21,7 +21,7 @@ Wilogutl.exe 有助於分析 Windows Installer 安裝中的記錄檔，並顯示
 
 ## <a name="syntax"></a>Syntax
 
-**wilogutl.exe** *\[ &lt; 選項 &gt; \] \[ <source file> \] \[ &lt; 選項 &gt; \] \[ <report file directory> \]*
+**wilogutl.exe***\[<options>\]\[<source file>\]\[<options>\]\[<report file directory>\]*
 
 您可以使用下列命令列以安靜模式執行。
 
@@ -35,7 +35,7 @@ Wilogutl.exe 使用下列不區分大小寫的命令列選項。 虛線分隔符
 
 
 
-| 選項 | 說明                                                                                                                                                                                     |
+| 選項 | Description                                                                                                                                                                                     |
 |--------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 無   | 在 UI 模式中執行，不需要命令列選項。                                                                                                                                                   |
 | /q     | 指定無訊息模式。 Wilogutl.exe 會產生報表檔案，而且不會顯示使用者介面。                                                                                            |

@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102480
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 84ac10d8d93acd02d54c7ce5ba7b31a66a0e27e9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3ccbe206ea94f39d1dfcf0a7c288ff645f2baa5599bcccd59eda8df1d55d34f7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104027003"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119782448"
 ---
 # <a name="esentpagenotinitializedexception-methods"></a>EsentPageNotInitializedException 方法
 

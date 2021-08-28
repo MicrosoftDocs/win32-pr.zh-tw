@@ -13,16 +13,16 @@ api_type:
 api_location:
 - Winshfhc.dll
 ms.assetid: 33a5589a-201b-4d94-afbf-5965a39e2748
-ms.openlocfilehash: 2def6cb5bc2ed59a98e9e513aba1b5b578cd8681
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: 8cf7514be0d784085acd74536036c159c9f8e9217287e86bea2f75defbb94801
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109841429"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120090608"
 ---
 # <a name="estimatefilerisklevel-function"></a>EstimateFileRiskLevel 函式
 
-\[這項功能可在 Windows XP Service Pack 2 (SP2) 到 Windows Vista 中使用。 它可能會在後續版本的 Windows 中改變或無法使用。 用戶端應用程式應該改用 [**IAttachmentExecute**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iattachmentexecute) 來呈現可透過電子郵件和郵件附件安全地下載和交換檔案的使用者環境。\]
+\[這項功能可在 Windows XP Service Pack 2 (SP2) 到 Windows Vista 中使用。 它可能會在 Windows 的後續版本中變更或無法使用。 用戶端應用程式應該改用 [**IAttachmentExecute**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iattachmentexecute) 來呈現可透過電子郵件和郵件附件安全地下載和交換檔案的使用者環境。\]
 
 估計在指定檔案上呼叫處理常式時，執行未知程式碼的風險。 此風險是以瞭解處理常式和檔案的程式碼內容為基礎。
 
@@ -151,8 +151,8 @@ HRESULT EstimateFileRiskLevel(
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 Windows XP （含 SP2） \[ 桌面應用程式\]<br/>                                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                           |
+| 最低支援的用戶端<br/> | Windows只有 XP （含 SP2） \[ 桌面應用程式\]<br/>                                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                           |
 | DLL<br/>                      | <dl> <dt>Winshfhc.dll (5.1 版或更新版本) </dt> </dl> |
 
 

@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 9e36eb63496a79cb018f446ac77de8036744d75a
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: f5b4dc8f41adc76cec0b76fe830ae98acf30af18b4cd340a369dfa2f8a796ca1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104375301"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119100840"
 ---
 # <a name="basicdeviceuniquedevicename-property"></a>BasicDevice. UniqueDeviceName 屬性
 
@@ -33,7 +33,7 @@ ms.locfileid: "104375301"
 
 ```C++
 HRESULT get_UniqueDeviceName(
-  [out] HSTRING *value
+  [out] HSTRING *value
 );
 ```
 
@@ -50,6 +50,6 @@ HRESULT get_UniqueDeviceName(
 [**BasicDevice**](/previous-versions/windows/desktop/legacy/hh828813(v=vs.85))
 </dt> </dl>
 
- 
+ 
 
- 
+ 

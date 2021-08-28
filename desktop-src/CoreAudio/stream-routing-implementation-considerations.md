@@ -4,16 +4,16 @@ ms.assetid: ecda0b5b-6583-43b4-a9b4-f12a95f09452
 title: 串流路由的執行考慮
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 62bd753fe027c92ffac9f5a41cea589b600d7f26
-ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
+ms.openlocfilehash: e440fed0035838eff18c3a93bca7271fcc484a8ce37a11ad4afd3931f357f76a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "112068034"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120088241"
 ---
 # <a name="stream-routing-implementation-considerations"></a>串流路由的執行考慮
 
-在 Windows 7 中，使用核心音訊 Api 的高階平臺 Api （例如媒體基礎、DirectSound 和 Wave Api）會藉由處理從現有裝置切換至新的預設音訊端點來執行串流路由功能。 使用這些 Api 的媒體應用程式會使用串流路由行為，而不會對來源進行任何修改。 Direct WASAPI 用戶端可以使用核心音訊元件所傳送的通知，並執行串流路由功能。
+在 Windows 7 中，使用核心音訊 api 的高階平臺 api （例如媒體基礎、DirectSound 和 Wave api）會處理從現有裝置切換至新的預設音訊端點的串流，以執行串流路由功能。 使用這些 Api 的媒體應用程式會使用串流路由行為，而不會對來源進行任何修改。 Direct WASAPI 用戶端可以使用核心音訊元件所傳送的通知，並執行串流路由功能。
 
 直接 WASAPI 用戶端 (直接使用 WASAPI 的媒體應用程式) 接收核心音訊元件所傳送的新裝置和音訊會話通知。 資料流程路由功能的行為是由應用程式處理這些通知的方式定義。
 

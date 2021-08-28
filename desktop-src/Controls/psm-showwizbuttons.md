@@ -3,7 +3,7 @@ title: 'PSM_SHOWWIZBUTTONS 訊息 (Prsht.idl .h) '
 description: 顯示或隱藏嚮導中的按鈕。 您可以使用 PropSheet ShowWizButtons 宏明確地傳送此訊息 \_ 。
 ms.assetid: 669c4e51-cac1-40e1-8f23-afae0e41fc9b
 keywords:
-- PSM_SHOWWIZBUTTONS message Windows 控制項
+- PSM_SHOWWIZBUTTONS 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 22e8d1fc54d556240ef3fa6d6b6185a669978b84
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 86bbad4d6f0ce8a084709c04110d093e4d79b806226bdc1fa651278b4054fa8d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106967721"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120088478"
 ---
 # <a name="psm_showwizbuttons-message"></a>PSM \_ SHOWWIZBUTTONS 訊息
 
@@ -79,8 +79,8 @@ ms.locfileid: "106967721"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                     |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                               |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                     |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                               |
 | 標頭<br/>                   | <dl> <dt>Prsht.idl。h</dt> </dl> |
 
 

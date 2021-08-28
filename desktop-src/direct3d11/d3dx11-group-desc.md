@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 431daf0a14a465ee3533f1497278ddcd85b08a79
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: a189417b997647fd9c48a55010e96b32053c64031a03a8ac845e48c9a8e870a6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104035434"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120096308"
 ---
 # <a name="d3dx11_group_desc-structure"></a>D3DX11 \_ 群組 \_ DESC 結構
 

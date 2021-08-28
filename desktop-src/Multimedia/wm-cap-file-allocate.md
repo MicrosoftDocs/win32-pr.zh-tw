@@ -3,7 +3,7 @@ title: 'WM_CAP_FILE_ALLOCATE 訊息 (Vfw .h) '
 description: WM \_ CAP 檔案 \_ \_ 配置訊息會建立 (會預先配置) 指定大小的捕捉檔。 您可以使用 capFileAlloc 宏明確地傳送此訊息。
 ms.assetid: 31ebe824-4a30-4212-9479-a5cbd8fc1e1d
 keywords:
-- WM_CAP_FILE_ALLOCATE message Windows 多媒體
+- WM_CAP_FILE_ALLOCATE 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1d36cec54e5775641118679b24b0d4b3b1767693
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e76f0e88642d7d28771090b0690191eb4e4e72f5749dc74a9e42d90bfea87812
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464733"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119781398"
 ---
 # <a name="wm_cap_file_allocate-message"></a>WM \_ CAP \_ FILE \_ 配置訊息
 

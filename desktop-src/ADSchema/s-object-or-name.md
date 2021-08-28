@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6eb45331cd7ced59c0dfd1a1bc70835a8eb82f95
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: efa9dfe47c618169d2d8a809f07c6f22908536769d0219fb1170d454dce289f6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104106962"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119702518"
 ---
 # <a name="objector-name-syntax"></a>物件 (或-Name) 語法
 

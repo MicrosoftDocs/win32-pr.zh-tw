@@ -3,7 +3,7 @@ title: 'PSM_PRESSBUTTON 訊息 (Prsht.idl .h) '
 description: 模擬屬性工作表按鈕的選取專案。 您可以使用 PropSheet PressButton 宏明確地傳送此訊息 \_ 。
 ms.assetid: 82a55a29-d916-47ee-b0a0-f685a3a386d9
 keywords:
-- PSM_PRESSBUTTON message Windows 控制項
+- PSM_PRESSBUTTON 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b54b04dcc7b1263019f49ff8c1de0d2c21a12a7
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 182a51e6017a6ffcfbba74229e95a9848bede371e7e7e0faa04abed0a60c210e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104467104"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120088668"
 ---
 # <a name="psm_pressbutton-message"></a>PSM \_ PRESSBUTTON 訊息
 
@@ -69,8 +69,8 @@ ms.locfileid: "104467104"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                     |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                               |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                     |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                               |
 | 標頭<br/>                   | <dl> <dt>Prsht.idl。h</dt> </dl> |
 
 

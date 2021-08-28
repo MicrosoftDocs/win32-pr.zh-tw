@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 6a4d0a66a93485ba6e5ff70540182ef07588d3aa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 64e7ef46137bc655f89f827078a32b7bf92dc58194072bfe32335f67a0e057b9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104026846"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120063038"
 ---
 # <a name="jet_retrievecolumnerr-property"></a>JET_RETRIEVECOLUMN err 屬性
 

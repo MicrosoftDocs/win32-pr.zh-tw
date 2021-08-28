@@ -1,6 +1,6 @@
 ---
 title: /target 參數
-description: /Target 參數可讓 MIDL 編譯器只啟用最新 Windows 版本的優化功能。 /Target 參數會自動啟用額外的參數。
+description: /Target 參數可讓 MIDL 編譯器只啟用最新版本 Windows 的優化功能。 /Target 參數會自動啟用額外的參數。
 ms.assetid: 8c5aa319-e6a6-4803-99f3-ed8751d565d5
 keywords:
 - /target 參數 MIDL
@@ -12,16 +12,16 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 02/05/2021
-ms.openlocfilehash: 43c17c6bb06eca94a1738ddc71255cd7cd441c5c
-ms.sourcegitcommit: af9983bab40fe0b042f177ce7ca79f2eb0f9d0e8
+ms.openlocfilehash: b1c4292ed3b1fba2d3f3d9bd350c06cee89d2ba569103db1b677bc690be4af15
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "104027620"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119895778"
 ---
 # <a name="target-switch"></a>/target 參數
 
-**/Target** 參數可讓 MIDL 編譯器只啟用最新 Windows 版本的優化功能。 **/Target** 參數會自動啟用額外的參數。
+**/Target** 參數可讓 MIDL 編譯器只啟用最新版本 Windows 的優化功能。 **/Target** 參數會自動啟用額外的參數。
 
 ``` syntax
 midl /target level
@@ -54,7 +54,7 @@ midl /target level
 | Windows 10       | NT100         | /Oicf/error all/robust/protocol all |
  
 
-為了確保在 **/target** 參數所指定的系統上執行存根，MIDL 會在有較新版本的 Windows 上提供的功能存在時發出錯誤。 下表指定啟用此功能所需的最小 **/target** 層級。 較高的目標層級包含來自較低目標層級的所有功能。
+為了確保在 **/target** 參數所指定的系統上執行存根，MIDL 會在有較新版本的 Windows 的可用功能時發出錯誤。 下表指定啟用此功能所需的最小 **/target** 層級。 較高的目標層級包含來自較低目標層級的所有功能。
 
 
 

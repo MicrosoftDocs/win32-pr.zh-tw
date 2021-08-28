@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 7e88127e4027767d23a2ab576e94802019068dc3
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: fc07605d0b570ce9647a8091d9eef7f7a6ad4ecaaeee96ce2d04aaaa3d8bcdd4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104971453"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120024168"
 ---
 # <a name="source-register-scale-x-2"></a>來源註冊級別 x 2
 
@@ -59,9 +59,9 @@ mul r0, r0, r1_x2;
 [圖元著色器來源登錄修飾詞](dx9-graphics-reference-asm-ps-registers-modifiers-source.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

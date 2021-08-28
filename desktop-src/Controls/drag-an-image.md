@@ -4,12 +4,12 @@ description: 本主題示範如何在螢幕上拖曳影像。 拖曳函式平滑
 ms.assetid: 84AFA770-F495-4312-9631-3335BA8CC799
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: da495ef9ee0895c04a856f456fcda3e3125f2957
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 9fdcbc5af1ad148dafc77a775e7ee901ce8c4d07221ab1e55fca251e51241fef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103683199"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120062938"
 ---
 # <a name="how-to-drag-an-image"></a>如何拖曳影像
 
@@ -19,12 +19,12 @@ ms.locfileid: "103683199"
 
 ### <a name="technologies"></a>技術
 
--   [Windows 控制項](window-controls.md)
+-   [Windows控制](window-controls.md)
 
 ### <a name="prerequisites"></a>必要條件
 
 -   C/C++
--   Windows 消費者介面程式設計
+-   Windows消費者介面程式設計
 
 ## <a name="instructions"></a>指示
 
@@ -164,6 +164,6 @@ BOOL StopDragging(HWND hwnd, HIMAGELIST himl, POINT ptCur)
 [使用影像清單](using-image-lists.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

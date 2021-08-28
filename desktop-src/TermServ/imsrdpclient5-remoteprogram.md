@@ -38,12 +38,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 267e367af090a7fd70e9482406104fd0403d63f0
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 03da8fba499a45ded2d28a5d40cc391c4a137e987eda0c32edd442861d67abc3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464689"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120099478"
 ---
 # <a name="imsrdpclient5remoteprogram-property"></a>IMsRdpClient5：： RemoteProgram 屬性
 

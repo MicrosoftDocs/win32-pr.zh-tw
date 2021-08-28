@@ -1,21 +1,21 @@
 ---
 title: 關於遠端存取服務
-description: 遠端存取服務 (RAS) 為執行 Windows 的電腦上的用戶端應用程式提供遠端存取功能。
+description: 遠端存取服務 (RAS) 在執行 Windows 的電腦上提供遠端存取功能給用戶端應用程式。
 ms.assetid: 5016fa0b-72eb-484e-b8d7-af9de2e25689
 keywords:
 - 遠端存取服務 RAS，描述
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a86b173f4ff9f23fffa2ff532e4f67a0ff5a7402
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0263e5168bf1aac990f94850f26b7be7abd71c4730bea691d18b11c00373f48e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106969044"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120030838"
 ---
 # <a name="about-remote-access-service"></a>關於遠端存取服務
 
-遠端存取服務 (RAS) 為執行 Windows 的電腦上的用戶端應用程式提供遠端存取功能。
+遠端存取服務 (RAS) 在執行 Windows 的電腦上提供遠端存取功能給用戶端應用程式。
 
 RAS 應用程式可以執行下列工作：
 
@@ -25,7 +25,7 @@ RAS 應用程式可以執行下列工作：
 -   使用 RAS 自動撥號對應資料庫中的專案。 此資料庫會將網路位址對應到可建立位址連線的電話簿專案。
 -   取得 RAS 資訊，包括現有 RAS 連線的相關資訊、在本機電腦上設定且支援 RAS 之裝置的相關資訊，以及 RAS 連接開始或結束時的通知。
 
-Windows NT 4.0 也支援 RAS 伺服器系統管理和協力廠商延伸模組，以供 RAS 伺服器安全性和連接管理之用。 Windows 95 不提供 RAS 伺服器支援。
+Windows NT 4.0 也支援 ras 伺服器系統管理和協力廠商延伸模組，以供 ras 伺服器安全性和連接管理之用。 Windows 95 不提供 RAS 伺服器支援。
 
 本節將說明下列主題：
 
@@ -37,9 +37,9 @@ Windows NT 4.0 也支援 RAS 伺服器系統管理和協力廠商延伸模組，
 -   [RAS 伺服器管理](ras-server-administration.md)
 -   [RAS 安全性主機支援](ras-security-host-support.md)
 
- 
+ 
 
- 
+ 
 
 
 

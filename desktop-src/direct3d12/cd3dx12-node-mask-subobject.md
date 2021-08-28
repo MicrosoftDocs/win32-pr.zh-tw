@@ -14,12 +14,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 08/04/2021
-ms.openlocfilehash: c71a2aa97e376a03b3f77f38a3101c26930e788403f1cef9b26e2c77d4598be0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bfa1c5ce1facb946b060bf7501c09c6c13cfca13
+ms.sourcegitcommit: 0dec0044816af3f2b2e6403659e1cf11138c90cd
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119752228"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "121812908"
 ---
 # <a name="cd3dx12_node_mask_subobject-class"></a>CD3DX12_NODE_MASK_SUBOBJECT 類別
 

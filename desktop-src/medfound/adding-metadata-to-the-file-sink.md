@@ -4,12 +4,12 @@ ms.assetid: ecfddf4e-71b4-42c4-8b54-9868cec6ed9b
 title: 將中繼資料新增至 File 接收器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 16ea86a09ff9e3d2a25bbf8d00d46691fd803365
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 65e25ddc12b406987de4ec95d3183309e8453696d1bb5b2816054407f1ced4b8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112409961"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119606718"
 ---
 # <a name="adding-metadata-to-the-file-sink"></a>將中繼資料新增至 File 接收器
 

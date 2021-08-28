@@ -12,12 +12,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
 api_location: ''
-ms.openlocfilehash: 6c32bede85a49b9f2247fad8dcc48f6f604129d7
-ms.sourcegitcommit: 476861130ea63675206d1f06e517059705b930ed
+ms.openlocfilehash: 07e02994557010b273e1ca4a977f14a174914b9240c2b9d8d86c328e5aff2feb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "104990687"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120022988"
 ---
 # <a name="texture2dsamplegrad-methods"></a>Texture2D：： SampleGrad 方法
 

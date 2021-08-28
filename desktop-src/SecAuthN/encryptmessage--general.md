@@ -4,12 +4,12 @@ ms.assetid: 2e09f262-9c3e-4db2-9285-017f5e1810c7
 title: 'EncryptMessage (一般) 函數 (Sspi. h) '
 ms.topic: reference
 ms.date: 07/25/2019
-ms.openlocfilehash: 3c661f5f529700db19683966783c1aa0793e376b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6645d58b753503853dae7998982a32221d1f0d14
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971169"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122476284"
 ---
 # <a name="encryptmessage-general-function"></a>EncryptMessage (一般) 函數
 
@@ -56,8 +56,12 @@ SECURITY_STATUS SEC_Entry EncryptMessage(
 
 此參數可以是下列其中一個旗標。
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th>值</th><th>意義</th></tr></thead><tbody><tr class="odd"><td><span id="SECQOP_WRAP_NO_ENCRYPT"></span><span id="secqop_wrap_no_encrypt"></span><dl> <dt><strong>SECQOP_WRAP_NO_ENCRYPT</strong></dt> </dl></td><td>產生標頭或結尾，但不加密訊息。<br/><blockquote>[!Note]<br />
-KERB_WRAP_NO_ENCRYPT 具有相同的值和相同的意義。</blockquote><br/></td></tr><tr class="even"><td><span id="SECQOP_WRAP_OOB_DATA"></span><span id="secqop_wrap_oob_data"></span><dl> <dt><strong>SECQOP_WRAP_OOB_DATA</strong></dt> </dl></td><td>傳送 Schannel 警示訊息。 在此情況下， <em>pMessage</em> 參數必須包含標準的雙位元組 SSL/TLS 事件程式碼。 只有 Schannel SSP 才支援這個值。<br/></td></tr></tbody></table>
+
+| 值 | 意義 | 
+|-------|---------|
+| <span id="SECQOP_WRAP_NO_ENCRYPT"></span><span id="secqop_wrap_no_encrypt"></span><dl><dt><strong>SECQOP_WRAP_NO_ENCRYPT</strong></dt></dl> | 產生標頭或結尾，但不加密訊息。<br /><blockquote>[!Note]<br />KERB_WRAP_NO_ENCRYPT 具有相同的值和相同的意義。</blockquote><br /> | 
+| <span id="SECQOP_WRAP_OOB_DATA"></span><span id="secqop_wrap_oob_data"></span><dl><dt><strong>SECQOP_WRAP_OOB_DATA</strong></dt></dl> | 傳送 Schannel 警示訊息。 在此情況下， <em>pMessage</em> 參數必須包含標準的雙位元組 SSL/TLS 事件程式碼。 只有 Schannel SSP 才支援這個值。<br /> | 
+
 
 *pMessage* \[in、out\]
 
@@ -121,14 +125,14 @@ KERB_WRAP_NO_ENCRYPT 具有相同的值和相同的意義。</blockquote><br/></
 
 為了達到最佳效能，應該從連續的記憶體配置 *pMessage* 結構。
 
-**WINDOWS XP/2000：** 此函數也稱為 **SealMessage**。 應用程式現在應該只使用 **EncryptMessage (一般)** 。
+**Windows XP/2000：** 此函數也稱為 **SealMessage**。 應用程式現在應該只使用 **EncryptMessage (一般)** 。
 
 ## <a name="requirements"></a>規格需求
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端 | \[僅限 WINDOWS XP desktop 應用程式\]                                                            |
-| 最低支援的伺服器 | 僅限 Windows Server 2003 \[ desktop 應用程式\]                                                   |
+| 最低支援的用戶端 | Windows\[僅限 XP desktop 應用程式\]                                                            |
+| 最低支援的伺服器 | Windows\[僅限 Server 2003 desktop 應用程式\]                                                   |
 | 標頭                   | <dl> <dt>Sspi (包含 Security .h) </dt> </dl> |
 | 程式庫                  | <dl> <dt>Secur32 .lib</dt> </dl>                 |
 | DLL                      | <dl> <dt>Secur32.dll</dt> </dl>                 |

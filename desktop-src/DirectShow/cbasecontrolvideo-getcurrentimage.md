@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: d44e6930d0d7e179162939c13a54f2953c5ab965
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 782f540959b134f7ca00c2bc674a64ce60ccb4f6ddf166c79f2597e582ca9fc4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106997804"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120087568"
 ---
 # <a name="cbasecontrolvideogetcurrentimage-method"></a>CBaseControlVideo. GetCurrentImage 方法
 
@@ -63,7 +63,7 @@ HRESULT GetCurrentImage(
 
 
 
-| 傳回碼                                                                                        | Description                                                                       |
+| 傳回碼                                                                                        | 描述                                                                       |
 |----------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | <dl> <dt>**E \_ 失敗**</dt> </dl>             | 失敗。<br/>                                                               |
 | <dl> <dt>**E \_ INVALIDARG**</dt> </dl>       | 無效引數。<br/>                                                      |

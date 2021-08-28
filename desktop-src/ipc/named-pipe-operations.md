@@ -4,12 +4,12 @@ ms.assetid: ae06455e-33bc-433d-be8f-aeb8eeb99b1d
 title: 具名管道作業
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 703189a129fc44b956ab65c2f70bbf88bfd22700
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a21bc389071a2861754b5d71659ec3cb836204c631a75de67565933f28e8632c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112024"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119602149"
 ---
 # <a name="named-pipe-operations"></a>具名管道作業
 

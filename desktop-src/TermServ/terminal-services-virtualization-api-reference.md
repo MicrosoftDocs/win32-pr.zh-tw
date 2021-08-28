@@ -7,12 +7,12 @@ keywords:
 - 遠端桌面服務遠端桌面服務，虛擬化 API 參考
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f5814d634ae84a5f1eb6b427635f95f166fa735f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d7f4bfc6fbbb77ebb5fa4bb906694f390f668156f2437d8b91a7823581756690
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104301491"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119987058"
 ---
 # <a name="remote-desktop-virtualization-api-reference"></a>遠端桌面虛擬化 API 參考
 
@@ -31,9 +31,9 @@ ms.locfileid: "104301491"
 [擴充 Terminal Services Session Broker](extending-ts-session-broker.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

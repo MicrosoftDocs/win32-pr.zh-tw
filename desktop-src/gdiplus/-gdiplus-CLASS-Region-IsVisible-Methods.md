@@ -4,12 +4,12 @@ ms.assetid: 08773daa-0778-4525-a6e9-d18bcd4b76bf
 title: IsVisible 方法
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 0901cf24b8a199ad138969c886a486414a3f52c0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a1f5c901793907d49875d43f9476a3b312a60e6b2245df320b45486cac664d71
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104115273"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119612928"
 ---
 # <a name="regionisvisible-methods"></a>IsVisible 方法
 

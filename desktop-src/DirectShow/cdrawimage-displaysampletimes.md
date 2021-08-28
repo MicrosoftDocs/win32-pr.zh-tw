@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 9988aaedf9a1c01c83412cdbe9e00533556c9b15
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b81f8cd1f7e894319b3cd2e48332c9544c6c986f04c2ed87f9014ab331922b41
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995520"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119909958"
 ---
 # <a name="cdrawimagedisplaysampletimes-method"></a>CDrawImage. DisplaySampleTimes 方法
 

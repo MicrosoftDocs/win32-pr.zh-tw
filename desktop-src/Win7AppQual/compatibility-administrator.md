@@ -4,19 +4,19 @@ ms.assetid: 72a77e83-ab18-438c-af11-fa6d55bf0180
 title: 相容性系統管理員
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c735154115fb649d6c6d6b710709ce77c9e0b4e
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 504378dd4998118e0189a40d978b5649a0bc0215e88ff660d7cdafa6edf7602c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111443939"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120098538"
 ---
 # <a name="compatibility-administrator"></a>相容性系統管理員
 
 ## <a name="affected-platforms"></a>受影響的平臺
 
  **用戶端：** Windows 2000、Windows XP、Windows Vista、Windows 7  
-**伺服器：** Windows Server 2003、Windows Server 2008、Windows Server 2008 R2  
+**伺服器：** Windows server 2003、Windows server 2008、Windows Server 2008 R2  
 
 
 ## <a name="description"></a>描述

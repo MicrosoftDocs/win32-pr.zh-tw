@@ -4,12 +4,12 @@ ms.assetid: 2eda6b4a-dc73-4999-9070-29cf78e13cde
 title: COM + 事件工作
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f95d016c8c79422a53969780cbb8d1ab85a4d12a
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 6fe199076b1ee3b7442ec40848ef9c1189da8f452ee24f51c8e6a20d3bd20b5d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111681"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120029537"
 ---
 # <a name="com-events-tasks"></a>COM + 事件工作
 
@@ -23,7 +23,7 @@ ms.locfileid: "104111681"
 | [註冊訂用帳戶](registering-a-subscription.md)                     | 描述如何在 COM + 目錄中註冊持續性訂用帳戶。 |
 | [註冊暫時性訂用帳戶](registering-a-transient-subscription.md) | 說明如何註冊暫時性訂用帳戶。                      |
 | [發佈事件](publishing-an-event.md)                                   | 說明如何發佈事件。                                       |
-| [建立發行者篩選](creating-a-publisher-filter.md)                   | 描述如何建立發行者篩選準則。                              |
+| [建立 Publisher 篩選](creating-a-publisher-filter.md)                   | 描述如何建立發行者篩選準則。                              |
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 102dc056-7f65-47d4-8bcd-3b11608bdb9c
 title: MXDC Escape 程式碼結構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5b35c393d00dab227a91cbbb55eeca62039b41ad
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7b87ef962be9f8fffa1ae0b2d126cecfda4cc157118f4defd21360b030dc9d30
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106983894"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119948388"
 ---
 # <a name="mxdc-escape-code-structures"></a>MXDC Escape 程式碼結構
 
@@ -19,7 +19,7 @@ ms.locfileid: "106983894"
 
 
 
-| 結構                                                                              | Description                                                                                                                                                                                                                                                                          |
+| 結構                                                                              | 描述                                                                                                                                                                                                                                                                          |
 |----------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**MXDC \_ ESCAPE \_ HEADER \_ T**](mxdcescapeheader.md)<br/>                         | [**MXDC \_ escape \_ HEADER \_ T**](/windows/desktop/printdocs/mxdcescapeheader)結構會保存使用 [**MXDC \_ ESCAPE**](mxdc-escape.md)作為 *nEscape* 參數之 [**ExtEscape**](/windows/desktop/api/Wingdi/nf-wingdi-extescape)呼叫的作業程式碼。 它也會提供輸入和輸出緩衝區的大小。<br/>  |
 | [**MXDC \_ 取得 \_ 檔案名 \_ 資料 \_ T**](mxdcgetfilenamedata.md)<br/>                 | [**MXDC \_ 取得 \_ 檔案名 \_ 資料 \_ T**](/windows/desktop/printdocs/mxdcgetfilenamedata)結構會保存 Microsoft XPS 檔轉換器的完整路徑和檔案名， (MXDC) 輸出檔。<br/>                                                                                                     |

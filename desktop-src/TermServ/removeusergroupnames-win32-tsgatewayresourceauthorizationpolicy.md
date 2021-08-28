@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8e6746eaa9d6a7c3cfd82512a4b9f632c873bc9f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c7c20051451d95b4c93b3ca23120acec9302aa5bc2bf1362cad818c993d1105d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106967735"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120009208"
 ---
 # <a name="removeusergroupnames-method-of-the-win32_tsgatewayresourceauthorizationpolicy-class"></a>Win32 TSGatewayResourceAuthorizationPolicy 類別的 RemoveUserGroupNames 方法 \_
 

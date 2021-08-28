@@ -3,7 +3,7 @@ title: 'LVM_SETIMAGELIST 訊息 (Commctrl .h) '
 description: 將影像清單指派給清單視圖控制項。 您可以明確地傳送此訊息，或使用 ListView \_ SetImageList 宏來傳送。
 ms.assetid: 5241065b-85e4-412e-9868-fd5b15ff7c17
 keywords:
-- LVM_SETIMAGELIST message Windows 控制項
+- LVM_SETIMAGELIST 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 779d31fd781a72dbdfbc4738e091482ca4a08528
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4151f7d6e3736e6fe28faa28bc258fb4f85bfb57622b1ec77c02ed83ea187941
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103933918"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119919958"
 ---
 # <a name="lvm_setimagelist-message"></a>LVM \_ SETIMAGELIST 訊息
 
@@ -70,8 +70,8 @@ ms.locfileid: "103933918"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

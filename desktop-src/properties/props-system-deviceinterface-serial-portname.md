@@ -4,12 +4,12 @@ ms.assetid: 22bdef67-dc40-4ba9-80f1-8c4477580f1a
 title: DeviceInterface. PortName
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 547409929543b3ec95de6f101babf7ed5bf464d0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 70233fd1fbc036725c8d6924aec772cbcf251f3ed74f50dcab789252a24c3823
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980421"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120010978"
 ---
 # <a name="systemdeviceinterfaceserialportname"></a>DeviceInterface. PortName
 

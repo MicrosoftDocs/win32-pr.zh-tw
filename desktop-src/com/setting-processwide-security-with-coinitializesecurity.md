@@ -4,12 +4,12 @@ description: CoInitializeSecurity 函式可讓您以程式設計方式設定應�
 ms.assetid: 20b66868-fb9a-489f-97a2-59a8a825c8d9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 567a6dfaf47dbd278fc248558cd25969c733b24a
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 88c3e601897e9f2313682a3474c1760bc211285d8fa81a82f67d114681a7a57f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104382982"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119610888"
 ---
 # <a name="setting-process-wide-security-with-coinitializesecurity"></a>使用 CoInitializeSecurity 設定 Process-Wide 安全性
 
@@ -38,6 +38,6 @@ ms.locfileid: "104382982"
 [設定 Process-Wide 安全性](setting-processwide-security.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

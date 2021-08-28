@@ -13,12 +13,12 @@ api_type:
 - IDLDef
 api_location:
 - VmApplicationHealthMonitor.idl
-ms.openlocfilehash: 4b7e288f41c863dc3f0365db3c6aae867605e5c9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5f873e7a30a4cff6dc4cc89eaea225201a367f7c24ead11ad95da04c2ff1ab32
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106982432"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119914158"
 ---
 # <a name="application_state-enumeration"></a>應用程式 \_ 狀態列舉
 
@@ -64,10 +64,10 @@ typedef enum _APPLICATION_STATE {
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                                                |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                                      |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                                                |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                                                      |
 | 版本<br/>                  | Windows 8 的整合元件<br/>                                                           |
-| Idl<br/>                      | <dl> <dt>VmApplicationHealthMonitor .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>VmApplicationHealthMonitor .idl</dt> </dl> |
 
 
 

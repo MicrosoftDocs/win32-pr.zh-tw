@@ -4,12 +4,12 @@ ms.assetid: 46452909-ac0e-4c06-8542-0b94d00e6556
 title: 'WM_POWERBROADCAST 訊息 (WinUser .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b205a146b731bdf8cf9adc1563621232c24c10b4
-ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
+ms.openlocfilehash: 38b57a6c21aeae03a8b42deb8af10d5ce88e96f92a33b632d71285fa4c0c986a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112396503"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119143161"
 ---
 # <a name="wm_powerbroadcast-message"></a>WM \_ POWERBROADCAST 訊息
 
@@ -91,9 +91,9 @@ LRESULT CALLBACK WindowProc(
 
 當系統繼續時，系統一律會傳送 [PBT \_ APMRESUMEAUTOMATIC](pbt-apmresumeautomatic.md) 訊息。 如果系統繼續回應使用者輸入，例如按下按鍵，則系統也會在傳送 PBT APMRESUMEAUTOMATIC 之後傳送 **PBT \_ APMRESUMESUSPEND** 訊息 \_ 。
 
-**WM \_POWERBROADCAST** 訊息不會區分不同的低電源狀態。 應用程式只能判斷系統是否進入或已從低電源狀態繼續;它無法判斷特定的電源狀態。 系統會記錄有關 Windows 系統事件記錄檔中電源狀態轉換的詳細資料。
+**WM \_POWERBROADCAST** 訊息不會區分不同的低電源狀態。 應用程式只能判斷系統是否進入或已從低電源狀態繼續;它無法判斷特定的電源狀態。 系統會在 Windows 系統事件記錄檔中記錄有關電源狀態轉換的詳細資料。
 
-為了防止系統轉換成 Windows Vista 的低電源狀態，應用程式必須呼叫 [**SetThreadExecutionState**](/windows/desktop/api/Winbase/nf-winbase-setthreadexecutionstate) 來通知系統它正在使用中。
+為了防止系統在 Windows Vista 中轉換為低電源狀態，應用程式必須呼叫 [**SetThreadExecutionState**](/windows/desktop/api/Winbase/nf-winbase-setthreadexecutionstate)來通知系統它正在使用中。
 
 在 [需求] 區段中指定的任何作業系統上，不支援下列訊息：
 
@@ -108,9 +108,9 @@ LRESULT CALLBACK WindowProc(
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                                              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>WinUser (包含) 的 Windows。h </dt> </dl> |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                                              |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                     |
+| 標頭<br/>                   | <dl> <dt>WinUser (包含 Windows .h) </dt> </dl> |
 
 
 

@@ -4,18 +4,18 @@ description: 使用元件物件模型建立的元件 (COM) 可以在以任何支
 ms.assetid: 89e74768-b7bd-4ab6-9129-9e677a9c14ca
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f622b83b998402e82d6cf20975331645362c55e8
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 371bb761a42d092f880ec131612e6c4629a9fe992b6f43c04d79f2972517d46f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104371864"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119896488"
 ---
 # <a name="com-language-translations"></a>COM 語言翻譯
 
 使用元件物件模型建立的元件 (COM) 可以在以任何支援 COM 的程式設計語言所撰寫的應用程式中重複使用。 這是因為 COM 是二進位標準，因此與語言無關。
 
-COM 物件會以最相關的程式設計語言或語言記載。 例如，在網頁中建立以供使用的物件通常會記載于 Microsoft Visual Basic 開發系統中，而系統層級物件通常會記載于 c + + 中。 不過，因為 COM 是語言中立的，所以您不一定要使用撰寫或記錄的相同語言的物件。 例如，您可以在 JScript 中撰寫應用程式，以使用在 c + + 中建立並記載于 Visual Basic 中的控制項。
+COM 物件會以最相關的程式設計語言或語言記載。 例如，在網頁中建立以供使用的物件通常會記載于 Microsoft Visual Basic 開發系統中，而系統層級物件通常會記載于 c + + 中。 不過，因為 COM 是語言中立的，所以您不一定要使用撰寫或記錄的相同語言的物件。 例如，您可以在 JScript 中撰寫應用程式，以使用在 c + + 中建立並記載于 Visual Basic 的控制項。
 
 下列主題討論程式語言之間的差異，並說明如何將 COM 物件語法從某種語言轉譯成另一種語言。 其他主題描述如何在各種指令碼語言和環境中使用 COM 物件。
 
@@ -34,9 +34,9 @@ COM 物件會以最相關的程式設計語言或語言記載。 例如，在網
 [元件物件模型 (COM)](component-object-model--com--portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

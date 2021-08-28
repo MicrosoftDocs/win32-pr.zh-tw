@@ -21,12 +21,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7cc5de721fd4cc44867fca0dbe1b35dcaf58c6dd
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b8c522a45fadd7673afa44d940e59a7c0c085cf40bd81586b5a1af731847f542
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106992579"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119078482"
 ---
 # <a name="scroll-bar-control-styles"></a>捲軸控制項樣式
 

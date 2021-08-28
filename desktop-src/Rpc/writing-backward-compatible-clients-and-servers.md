@@ -6,12 +6,12 @@ keywords:
 - 遠端程序呼叫 RPC、最佳作法、回溯相容性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eac5ae011c8a9c346bc0f89fb73e26265d487721
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a55cc3731e75893fa1ab1390769131c3d1ad7263c15b08daebd9049f49f87c0f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104092245"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119010336"
 ---
 # <a name="writing-backward-compatible-clients-and-servers"></a>撰寫回溯相容的用戶端和伺服器
 
@@ -23,9 +23,9 @@ ms.locfileid: "104092245"
 -   [以回溯相容的方式變更介面](changing-interfaces-in-a-backward-compatible-manner.md)
 -   [不相容變更的範例](examples-of-incompatible-changes.md)
 
- 
+ 
 
- 
+ 
 
 
 

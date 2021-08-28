@@ -4,12 +4,12 @@ description: 通訊協定序列是網路作業系統用來透過網路與其他�
 ms.assetid: 9c788b9b-82c5-4a4b-86c6-e9a9df699da3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3ac6b79f5f7a0829eea88eba77f2d022e8de2ca8
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f3470c303737f44e7e2d0aa52393fa893efa4634b4a2a4aa5c1bba47a832ae6b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021900"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120127748"
 ---
 # <a name="selecting-a-protocol-sequence"></a>選取通訊協定順序
 
@@ -33,9 +33,9 @@ RPC 應用程式可以使用 NCALRPC 通訊協定來叫用在執行用戶端程�
 
 當您的用戶端程式具有有效的通訊協定順序字串之後，就可以將該資訊傳遞給 [**RpcStringBindingCompose**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcstringbindingcompose) 和 [**RpcBindingFromStringBinding**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindingfromstringbinding) 函式，以建立系結控制碼。
 
- 
+ 
 
- 
+ 
 
 
 

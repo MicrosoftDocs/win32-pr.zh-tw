@@ -4,12 +4,12 @@ ms.assetid: 247a1f7d-8205-4e4d-9cfc-daad9bd2191f
 title: " (Msinkaut 的) 的模擬模擬常數"
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: aa748c84f8bd39f18f83e1ec72474bcfbe3017f2
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.openlocfilehash: c84b2d24135d8461c8b70db043ed8b2c7940cb61
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122883677"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122471114"
 ---
 # <a name="factoid-constants"></a>模擬常數
 
@@ -18,7 +18,7 @@ ms.locfileid: "122883677"
 
 
 
-| Name | 說明 | 
+| Name | 描述 | 
 |------|-------------|
 | <span id="FACTOID_NONE"></span><span id="factoid_none"></span><dl><dt><strong>FACTOID_NONE</strong></dt></dl> | 停用所有其他 factoids 和字典。<br /> | 
 | <span id="___________FACTOID_DEFAULT_________"></span><span id="___________factoid_default_________"></span><dl><dt><strong>FACTOID_DEFAULT</strong></dt></dl> | 西方語言的 factoids 預設設定包括系統字典、使用者字典、各種標點符號，以及 Web 和數位的模擬。 東亞語言的 factoids 預設設定包含辨識器支援的所有字元。 <br /> | 
@@ -58,7 +58,7 @@ ms.locfileid: "122883677"
 
 ## <a name="remarks"></a>備註
 
-在 c + + 中，您可以在 Msinkaut .h 標頭檔中存取這些常數， &lt; &gt; \\ 如果您將 SDK 安裝在預設位置，該檔案位於 Systemdrive： Program FILES \\ MICROSOFT Tablet PC Platform SDK \\ Include 目錄。
+在 c + + 中，您可以在 Msinkaut .h 標頭檔中存取這些常數， <systemdrive> \\ 如果您將 SDK 安裝在預設位置，該檔案位於： Program Files \\ Microsoft TABLET PC Platform SDK \\ Include 目錄。
 
 > [!Note]  
 > 這些常數都是 WCHARs，而不是 Bstr。 必須先將它們轉換成 Bstr，才能做為物件方法的參數使用。 如需 BSTR 資料類型的詳細資訊，請參閱 [使用 COM 程式庫](using-the-com-library.md)。

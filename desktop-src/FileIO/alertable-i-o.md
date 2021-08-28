@@ -4,12 +4,12 @@ ms.assetid: d996f1cc-eeab-456b-818b-5307a79effd9
 title: 可提供警示 i/o
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8fb830dfadb97051c47b2472eb3e7a3c2d6a0bd0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5b76df0a59726d6fb0eea0bd99ff960e9b18ba80f7c17bf0ae7e4338953895e1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971686"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119766238"
 ---
 # <a name="alertable-io"></a>可提供警示 i/o
 

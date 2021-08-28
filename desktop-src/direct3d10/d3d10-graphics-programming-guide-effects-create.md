@@ -4,12 +4,12 @@ ms.assetid: b0a12620-4f8f-44d9-bc73-2c3ab30f80af
 title: " (Direct3D 10 建立效果) "
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0b630bae35b8e1390a4be77e5cb5e4aaa3f41d9c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 75014688c62e6f8f0463c430b0b17aafd28e0ad3764d00b8a357a6613565d87d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106984149"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119567058"
 ---
 # <a name="create-an-effect-direct3d-10"></a> (Direct3D 10 建立效果) 
 

@@ -44,12 +44,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: ccf986957d73dd93837b0ab7a1e10b50aec5e8f9
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 1c4f0c108c397668dce915f5d5993881e66c3524025ef0545c40e00ed2563d78
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510734"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119986388"
 ---
 # <a name="win32_desktopmonitor-class"></a>Win32 \_ DesktopMonitor 類別
 
@@ -786,7 +786,7 @@ Windows 仍在設定裝置。
 存取類型：唯讀
 </dt> <dt>
 
-限定詞： [**Key**](/windows/desktop/WmiSdk/key-qualifier)、 [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ( "DeviceId" ) 、 [**MAPPINGSTRINGS**](/windows/desktop/WmiSdk/standard-qualifiers) ( "Win32API \| Windows GDI \| HMONITOR" ) 
+限定詞： [**Key**](/windows/desktop/WmiSdk/key-qualifier)、 [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ( "DeviceId" ) 、 [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ( "Win32API \| Windows GDI \| HMONITOR" ) 
 </dt> </dl>
 
 桌面監視器的唯一識別碼。
@@ -1030,7 +1030,7 @@ Windows 仍在設定裝置。
 限定詞： [**架構**](/windows/desktop/WmiSdk/standard-qualifiers) ( "Win32" ) 
 </dt> </dl>
 
-Windows 隨插即用邏輯裝置的裝置識別碼。
+Windows隨插即用邏輯裝置的裝置識別碼。
 
 這個屬性繼承自 [**CIM \_ LogicalDevice**](cim-logicaldevice.md)。
 
@@ -1383,7 +1383,7 @@ Windows 隨插即用邏輯裝置的裝置識別碼。
 
 ## <a name="examples"></a>範例
 
-PS 在 TechNet 資源庫上 [使用 visio PowerShell 範例建立電腦設定繪圖](https://Gallery.TechNet.Microsoft.Com/84e2c31a-e644-4f79-83cd-e2b1a0ef8557) 使用 **Win32 \_ DesktopMonitor** 與 visio automation 模型互動，以建立 visio 繪圖。
+PS 使用 TechNet 資源庫上的 Visio PowerShell 範例來 [建立電腦設定繪圖](https://Gallery.TechNet.Microsoft.Com/84e2c31a-e644-4f79-83cd-e2b1a0ef8557)使用 **Win32 \_ DesktopMonitor** 與 Visio automation 模型互動，以建立 Visio 繪圖。
 
 ## <a name="requirements"></a>規格需求
 

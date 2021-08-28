@@ -8,12 +8,12 @@ keywords:
 - 應用程式目錄分割 AD，安全性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 80da4ce1b8d4e3604b8e546d79003f4d3719223d
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 20da5f0c869329637ae6182224cf67e2feb5684491c34534ac80a67f72b795c2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103933090"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118024398"
 ---
 # <a name="application-directory-partition-security"></a>應用程式目錄分割安全性
 
@@ -31,6 +31,6 @@ ms.locfileid: "103933090"
 
 如果在應用程式目錄分割中的物件 ACL 中指定了本機群組，就會發生類似的問題。 在此情況下， [**SDReferenceDomain**](/windows/desktop/ADSchema/a-msds-sdreferencedomain) 屬性不能用來解讀本機群組的參考網域。 若要避免這個問題，請不要在應用程式目錄分割物件的 Acl 中使用本機群組。
 
- 
+ 
 
- 
+ 

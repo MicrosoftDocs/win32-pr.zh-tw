@@ -18,12 +18,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 47a13a8ee706a1e6d2f512a9f6dca98928e3d8d9
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 372d30ad6dc906b421a6f4a125d3f6fddb88addead17ea27f43369ceee758465
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106969135"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120099388"
 ---
 # <a name="imsrdpdevicev2cmclassguid-property"></a>IMsRdpDeviceV2：： CmClassGuid 屬性
 

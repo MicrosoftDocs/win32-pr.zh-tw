@@ -13,18 +13,18 @@ api_type:
 - DllExport
 api_location:
 - Ntdll.dll
-ms.openlocfilehash: be1a73c6451012dfd97d7d4c55c23f0842cf1551
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 57eacec05ec56fe3b174ee58569adca4c0f644e698aae3b603c7db5ab8f25f57
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510455"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119984168"
 ---
 # <a name="ntreadfile-function"></a>NtReadFile 函式
 
 從開啟的檔案讀取資料。
 
-此函式是使用者模式，相當於 Windows 驅動程式套件 (WDK) 中記載的 [**ZwReadFile**](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntreadfile) 函式。
+此函式是使用者模式，相當於 Windows 驅動程式套件 (WDK) 中記載的 [**ZwReadFile**](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntreadfile)函式。
 
 ## <a name="syntax"></a>語法
 

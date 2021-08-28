@@ -4,12 +4,12 @@ ms.assetid: ad7d20bc-5eab-4390-a48b-5ea8e97ead7d
 title: MFT_Grayscale 範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 273c562eb5985d0a329c434a8e4aa44119744496
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ff29705476869b25aeb42157ebe4878131397988cc56eccc842fcb81134fb8db
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114393"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119102168"
 ---
 # <a name="mft_grayscale-sample"></a>MFT \_ 灰階範例
 
@@ -41,7 +41,7 @@ MFT \_ 灰階範例會建立一個 DLL，它是 MFT 的 COM 伺服器。 使用 
 
 ## <a name="downloading-the-sample"></a>下載範例
 
-此範例可在 [Windows 傳統範例 github 存放庫](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/multimedia/mediafoundation/mft_grayscale)中取得。
+此範例可在[Windows 傳統範例 github 存放庫](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/multimedia/mediafoundation/mft_grayscale)中取得。
 
 ## <a name="related-topics"></a>相關主題
 

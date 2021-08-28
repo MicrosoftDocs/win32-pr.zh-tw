@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fe0d3a73d8734d79d5ed0862f66bf9ba5c030e46
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5df829d09ffbb414bdf145495389d8d14db129d1c0eec2929ac0f7e1f97816f9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104509307"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119606348"
 ---
 # <a name="findmsgstring-message"></a>FINDMSGSTRING 訊息
 
@@ -99,7 +99,7 @@ ms.locfileid: "104509307"
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                               |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Commdlg (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Commdlg (包含 Windows .h) </dt> </dl> |
 | Unicode 與 ANSI 名稱<br/>   | **FINDMSGSTRINGW** (Unicode) 和 **FINDMSGSTRINGA** (ANSI) <br/>                                    |
 
 

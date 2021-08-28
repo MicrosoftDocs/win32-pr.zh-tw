@@ -3,7 +3,7 @@ title: ScalingPolicy 項目
 description: 表示用於調整規格的容器。
 ms.assetid: 133e7994-9901-43e8-82b0-3d910cf8758e
 keywords:
-- ScalingPolicy 元素視窗功能區
+- ScalingPolicy 元素 Windows 功能區
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 812256b0ff329073eb516c6ab2eb7501db8de40d
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 202112a24a74c9b20d429910fd0ee9447002ce7f2cb95133165fb968eaaf4f69
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111444989"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120007468"
 ---
 # <a name="scalingpolicy-element"></a>ScalingPolicy 項目
 

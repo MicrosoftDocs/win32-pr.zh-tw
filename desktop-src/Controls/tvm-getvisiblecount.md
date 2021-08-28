@@ -3,7 +3,7 @@ title: 'TVM_GETVISIBLECOUNT 訊息 (Commctrl .h) '
 description: 取得可在樹狀檢視控制項的用戶端視窗中完整顯示的專案數。 您可以使用 TreeView GetVisibleCount 宏明確地傳送此訊息 \_ 。
 ms.assetid: c3519543-3fb2-4ecf-ac01-905d0946cb1b
 keywords:
-- TVM_GETVISIBLECOUNT message Windows 控制項
+- TVM_GETVISIBLECOUNT 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1927d21741b109c5f00aa964b058dc0c34732529
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 07604eed3d3ece140d33bb9c612a2f898f6de02785f2c9916332de60358693fe
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934087"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119698656"
 ---
 # <a name="tvm_getvisiblecount-message"></a>TVM \_ GETVISIBLECOUNT 訊息
 
@@ -51,8 +51,8 @@ ms.locfileid: "103934087"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

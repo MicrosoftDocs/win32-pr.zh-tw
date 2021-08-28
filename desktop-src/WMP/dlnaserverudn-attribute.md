@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: caa121df7a4f312e3cb00519d2ac4f519f844d41
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ec7e88b29f53acf06553b5ff1126d438f67d775f3f7a5341a00b9c19f0199b6b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107001906"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118997218"
 ---
 # <a name="dlnaserverudn-attribute"></a>DLNAServerUDN 屬性
 

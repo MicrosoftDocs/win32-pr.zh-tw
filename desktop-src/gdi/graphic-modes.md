@@ -4,12 +4,12 @@ ms.assetid: 061af47e-fd49-4eb4-9b1b-03eb9c841622
 title: 圖形模式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 823c7e25024eafb3b111b96b97907bc9b772006a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1c36461935c8279e38e09afe9f7802e2f758d1cf45380beaa16d1911f4ed965f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104512889"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119558768"
 ---
 # <a name="graphic-modes"></a>圖形模式
 
@@ -17,7 +17,7 @@ Windows 支援五種圖形模式，可讓應用程式指定色彩的混合方式
 
 
 
-| 圖形模式 | Description                                                                                                                |
+| 圖形模式 | 描述                                                                                                                |
 |---------------|----------------------------------------------------------------------------------------------------------------------------|
 | 背景    | 定義背景色彩如何與點陣圖和文字作業的現有視窗或螢幕色彩混合。              |
 | 繪圖       | 定義如何使用畫筆、筆刷、點陣圖和文字作業的現有視窗或螢幕色彩來混合前景色彩。 |
@@ -33,7 +33,7 @@ Windows 支援五種圖形模式，可讓應用程式指定色彩的混合方式
 
 
 
-| 圖形模式 | 函式                                       |
+| 圖形模式 | 函數                                       |
 |---------------|------------------------------------------------|
 | 背景    | [**GetBkMode**](/windows/desktop/api/Wingdi/nf-wingdi-getbkmode)                 |
 | 繪圖       | [**GetROP2**](/windows/desktop/api/Wingdi/nf-wingdi-getrop2)                     |
@@ -49,7 +49,7 @@ Windows 支援五種圖形模式，可讓應用程式指定色彩的混合方式
 
 
 
-| 圖形模式 | 函式                                       |
+| 圖形模式 | 函數                                       |
 |---------------|------------------------------------------------|
 | 背景    | [**SetBkMode**](/windows/desktop/api/Wingdi/nf-wingdi-setbkmode)                 |
 | 繪圖       | [**SetROP2**](/windows/desktop/api/Wingdi/nf-wingdi-setrop2)                     |

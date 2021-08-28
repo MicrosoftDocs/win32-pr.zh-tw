@@ -7,12 +7,12 @@ keywords:
 - 管理資訊基礎 RRAS，工作
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9b7d3ae16b8a94070a94d2961d47b5a10361e6d9
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 34242b28d24ab1ca63e2cea1026c38ac47b656eb017163f5bfc6884b8564a0ca
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103672267"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120024988"
 ---
 # <a name="using-the-router-management-mib-api"></a>使用路由器管理 MIB API
 
@@ -20,9 +20,9 @@ ms.locfileid: "103672267"
 
 -   [取得 MIB II 介面資料表](obtaining-the-mib-ii-interfaces-table.md)
 
- 
+ 
 
- 
+ 
 
 
 

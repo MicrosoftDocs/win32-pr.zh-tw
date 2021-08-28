@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 3053221089c68463db1e3f6268b8aa0dc03902a7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 25491afd74b0ccfd20d90a72bdefd7b0cfd844a7f3f4eb1e7136452897e7d2a3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194607"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119110079"
 ---
 # <a name="jet_index_rangeendcolumns-property"></a>JET_INDEX_RANGE endColumns 屬性
 

@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 23bfb1a2c67ecfa3ba7cced6f0ccb564bb387b52
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e128d8c7e0cf49d3feaae723a7fb5a51740cda47e5016df6290b4852c20ec27b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106992378"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119902618"
 ---
 # <a name="axwindowsmediaplayerfullscreen-property"></a>AxWindowsMediaPlayer-全螢幕屬性
 
@@ -54,7 +54,7 @@ Public Property fullScreen As System.Boolean
 
 如果 **uiMode** 設為「隱藏」，則將這個屬性設定為 true 會引發錯誤，而且不會影響控制項的行為。
 
-在全螢幕播放期間，Windows Media Player 會在 [enableCoNtextMenu](axwmplib-axwindowsmediaplayer-enablecontextmenu--vb-and-c.md) 等於 False 且 **uiMode** 等於 "none" 時隱藏滑鼠游標。
+在全螢幕播放期間，Windows Media Player 會在 [enableCoNtextMenu](axwmplib-axwindowsmediaplayer-enablecontextmenu--vb-and-c.md)等於 false 且 **uiMode** 等於 "none" 時隱藏滑鼠游標。
 
 如果 **uiMode** 設為「完整」或「迷你」，Windows Media Player 在滑鼠游標移動時，以全螢幕模式顯示傳輸控制項。 在不移動滑鼠的短暫間隔之後，就會隱藏傳輸控制項。 如果 **uiMode** 設為 "none"，就不會在全螢幕模式中顯示任何控制項。
 

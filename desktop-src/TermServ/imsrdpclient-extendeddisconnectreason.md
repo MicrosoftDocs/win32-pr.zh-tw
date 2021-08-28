@@ -54,12 +54,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b94c2612b231e24aaec855b6ebd1f9a0498b63c3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7b9fd1b19f977dd0ea2249462461e6e80a06a056ba031fd8c04192dd617544ef
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104509283"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120080058"
 ---
 # <a name="imsrdpclientextendeddisconnectreason-property"></a>IMsRdpClient：： ExtendedDisconnectReason 屬性
 

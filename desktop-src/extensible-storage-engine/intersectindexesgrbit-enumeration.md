@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 7d7577837ed1e4fa448fa50f9b3bc8c67e0c05f2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dc58fe3ed6020a49bc02115558ac7d01acb92a58d26c5afc3c40d0124122a1d9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193191"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119476058"
 ---
 # <a name="intersectindexesgrbit-enumeration"></a>IntersectIndexesGrbit 列舉
 

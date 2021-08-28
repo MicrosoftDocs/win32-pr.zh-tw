@@ -3,7 +3,7 @@ title: 'PSM_GETCURRENTPAGEHWND 訊息 (Prsht.idl .h) '
 description: 抓取屬性工作表目前頁面的視窗控制碼。 您可以使用 PropSheet GetCurrentPageHwnd 宏明確地傳送此訊息 \_ 。
 ms.assetid: 1f2d0af9-5853-48e7-b827-483be032b6ca
 keywords:
-- PSM_GETCURRENTPAGEHWND message Windows 控制項
+- PSM_GETCURRENTPAGEHWND 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ae9ac89e6bc60317f2caf31ea92754d10983e11a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a0f12c7ed444cf2135fac8d873c1076c04d49f4c9eab8fdb54a962b3885a8cae
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106965926"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119985858"
 ---
 # <a name="psm_getcurrentpagehwnd-message"></a>PSM \_ GETCURRENTPAGEHWND 訊息
 
@@ -62,8 +62,8 @@ ms.locfileid: "106965926"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                     |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                               |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                     |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                               |
 | 標頭<br/>                   | <dl> <dt>Prsht.idl。h</dt> </dl> |
 
 

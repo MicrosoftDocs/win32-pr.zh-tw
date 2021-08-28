@@ -4,12 +4,12 @@ ms.assetid: c0d7f703-d4aa-4c26-ae81-a4c888383c1e
 title: COM 程式庫和 ActiveX 控制項
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5b9304880380ea95bc698c52d200931b77f64480
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 78bc76f9caa2bcb72fe26ed2e01e251c977f87ce01c12794aad78608d2f5887f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971159"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120009088"
 ---
 # <a name="com-library-and-activex-controls"></a>COM 程式庫和 ActiveX 控制項
 
@@ -17,7 +17,7 @@ ms.locfileid: "106971159"
 
 ## <a name="microsoft-visual-c"></a>Microsoft Visual C++
 
-若要在 Visual C++ 中建立 Tablet PC 應用程式，您必須更新系統內容變數、設定 Visual Studio 的目錄選項，以及存取專案中的 Tablet PC 介面。
+若要在 Visual C++ 中建立 tablet pc 應用程式，您必須更新系統內容變數、設定 Visual Studio 的目錄選項，以及存取專案中的 tablet pc 介面。
 
 若要更新環境變數，請依照 Windows SDK 所提供的指示，將環境變數新增至 Visual Studio。
 
@@ -105,7 +105,7 @@ ms.locfileid: "106971159"
 
 
 > [!Note]  
-> 在 Windows Vista 中，PenInputPanel Api 已由新的文字輸入面板介面取代。
+> PenInputPanel api 已由新的文字輸入面板介面取代 Windows Vista 中。
 
  
 

@@ -7,12 +7,12 @@ keywords:
 - 功能區、事件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f9519553a40cd613085949d4650c2689e817f387e47e9ab4380b629464e90d2b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: dcf28052aa741437a7f96f90ddb1b4a773ae4c4a
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118202968"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122473034"
 ---
 # <a name="listening-for-ribbon-events"></a>接聽功能區事件
 
@@ -31,98 +31,21 @@ Windows 功能區架構會使用[Windows (ETW) ](../etw/event-tracing-portal.md)
 
 下表說明對功能區應用程式公開的事件。 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>事件</th>
-<th>附隨報告</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>索引標籤已啟用</td>
-<td>命令 ID<br/> 命令名稱<br/> 事件動詞<br/></td>
-</tr>
-<tr class="even">
-<td>已啟用內容索引標籤</td>
-<td>命令 ID<br/> 命令名稱<br/> 事件動詞<br/></td>
-</tr>
-<tr class="odd">
-<td>開啟的應用程式功能表</td>
-<td>事件動詞<br/></td>
-</tr>
-<tr class="even">
-<td>應用程式功能表已關閉</td>
-<td>事件動詞<br/></td>
-</tr>
-<tr class="odd">
-<td>功能表 (一般或圖庫) 開啟</td>
-<td>命令 ID<br/> 命令名稱<br/> 事件動詞<br/>
-<blockquote>
-[!Note]<br />
-QAT 功能表事件不會公開。
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td> (一般或圖庫) 關閉的功能表</td>
-<td>命令 ID<br/> 命令名稱<br/> 事件動詞<br/>
-<blockquote>
-[!Note]<br />
-QAT 功能表事件不會公開。
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td>命令</td>
-<td>命令 ID<br/> 命令名稱<br/> 事件動詞<br/> 下列其中一個事件位置：
-<ul>
-<li>絲帶</li>
-<li>QUICKACCESSTOOLBAR</li>
-<li>APPLICATIONMENU</li>
-<li>CONTEXTPOPUP</li>
-</ul>
-<br/> 父命令識別碼<br/> 父命令名稱<br/> 下列其中一種調用方法：
-<ul>
-<li>點擊</li>
-<li>KEYTIP</li>
-<li>鍵盤</li>
-<li>觸摸</li>
-</ul>
-<br/>
-<blockquote>
-[!Note]<br />
-專案資源庫和下拉式方塊包括選取的專案索引，但不包含字串和整數值。 Spinners 不包含整數值。
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td>功能區最小化</td>
-<td>事件動詞<br/></td>
-</tr>
-<tr class="odd">
-<td>功能區展開 (展開按鈕，或按一下釘選的) </td>
-<td>事件動詞<br/></td>
-</tr>
-<tr class="even">
-<td>應用程式模式切換</td>
-<td>事件動詞<br/> 透過 <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setmodes"><strong>SetModes</strong></a>) 設定的模式識別碼 (值<br/>
-<blockquote>
-[!Note]<br />
-應用程式會負責將此整數解壓縮，以判斷已設定的模式。
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td>顯示工具提示</td>
-<td>事件動詞<br/> 父命令識別碼<br/> 父命令名稱<br/></td>
-</tr>
-</tbody>
-</table>
+
+| 事件 | 附隨報告 | 
+|-------|--------------|
+| 索引標籤已啟用 | 命令 ID<br /> 命令名稱<br /> 事件動詞<br /> | 
+| 已啟用內容索引標籤 | 命令 ID<br /> 命令名稱<br /> 事件動詞<br /> | 
+| 開啟的應用程式功能表 | 事件動詞<br /> | 
+| 應用程式功能表已關閉 | 事件動詞<br /> | 
+| 功能表 (一般或圖庫) 開啟 | 命令 ID<br /> 命令名稱<br /> 事件動詞<br /><blockquote>[!Note]<br />QAT 功能表事件不會公開。</blockquote><br /> | 
+|  (一般或圖庫) 關閉的功能表 | 命令 ID<br /> 命令名稱<br /> 事件動詞<br /><blockquote>[!Note]<br />QAT 功能表事件不會公開。</blockquote><br /> | 
+| 命令 | 命令 ID<br /> 命令名稱<br /> 事件動詞<br /> 下列其中一個事件位置：<ul><li>絲帶</li><li>QUICKACCESSTOOLBAR</li><li>APPLICATIONMENU</li><li>CONTEXTPOPUP</li></ul><br /> 父命令識別碼<br /> 父命令名稱<br /> 下列其中一種調用方法：<ul><li>點擊</li><li>KEYTIP</li><li>鍵盤</li><li>觸摸</li></ul><br /><blockquote>[!Note]<br />專案資源庫和下拉式方塊包括選取的專案索引，但不包含字串和整數值。 Spinners 不包含整數值。</blockquote><br /> | 
+| 功能區最小化 | 事件動詞<br /> | 
+| 功能區展開 (展開按鈕，或按一下釘選的)  | 事件動詞<br /> | 
+| 應用程式模式切換 | 事件動詞<br /> 透過 <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setmodes"><strong>SetModes</strong></a>) 設定的模式識別碼 (值<br /><blockquote>[!Note]<br />應用程式會負責將此整數解壓縮，以判斷已設定的模式。</blockquote><br /> | 
+| 顯示工具提示 | 事件動詞<br /> 父命令識別碼<br /> 父命令名稱<br /> | 
+
 
 
 

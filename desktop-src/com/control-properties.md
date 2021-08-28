@@ -4,12 +4,12 @@ description: 控制項屬性
 ms.assetid: 29c2cca3-9460-45d1-9591-026e8c18f26f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4749a7a7e408f6cd58951a72207ed801e4104d65
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3e5dcc0dc0b546228c20b07a7a176d33972c306e6c1f38c6355ad99087551333
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840784"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119048456"
 ---
 # <a name="control-properties"></a>控制項屬性
 
@@ -44,9 +44,9 @@ ms.locfileid: "103840784"
 [控制項方法](control-methods.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

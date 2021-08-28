@@ -18,12 +18,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 114e5624b2cbc8af0b86a29daff2c1761f6fee39
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 03c27fa63a437c3c8a93c3d2e5e1f1983e341d5709e986c83459a3f505b46c6f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104509208"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120080918"
 ---
 # <a name="authentication-level-constants"></a>驗證層級常數
 

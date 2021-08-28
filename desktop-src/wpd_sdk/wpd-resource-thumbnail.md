@@ -4,12 +4,12 @@ ms.assetid: ad1eac9d-b182-49b2-bd2c-2d76e2026d80
 title: WPD_RESOURCE_THUMBNAIL
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4fc26af624f756f55ccb10ccf3f8c7bf3e6a6035
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5497b2c8dccd8c1181cb049e0a0a445809b041ba8ee954d9115b00b4d8e2e130
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112829"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119770938"
 ---
 # <a name="wpd_resource_thumbnail"></a>WPD \_ 資源 \_ 縮圖
 

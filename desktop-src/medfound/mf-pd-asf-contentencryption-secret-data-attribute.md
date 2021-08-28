@@ -4,12 +4,12 @@ ms.assetid: e6ce71d6-59cd-42da-906a-ab71f2bef16f
 title: 'MF_PD_ASF_CONTENTENCRYPTION_SECRET_DATA 屬性 (Wmcontainer) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 28c960131e61e539fa417e1068b45974a24c42a3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e628bf52aa08074473f14a84ee1d1fe39fe91c130aa9848be687601b864393a2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511328"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119104364"
 ---
 # <a name="mf_pd_asf_contentencryption_secret_data-attribute"></a>MF \_ PD \_ ASF \_ CONTENTENCRYPTION \_ SECRET \_ DATA 屬性
 
@@ -31,8 +31,8 @@ ms.locfileid: "104511328"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                     |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                     |
 | 標頭<br/>                   | <dl> <dt>Wmcontainer。h</dt> </dl> |
 
 

@@ -4,12 +4,12 @@ ms.assetid: 8dad7012-d610-4398-8e86-cd319db8c360
 title: 使用目錄管理員
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: deffc748c504b056e9d3f92dc8dcb127b835bec6
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: ccc114941f3b9a622012f978e1062d835b5f46eb329be73ae2652b032e5fcfa5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122472324"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119937978"
 ---
 # <a name="using-the-catalog-manager"></a>使用目錄管理員
 
@@ -46,7 +46,7 @@ Windows Search 平臺中的某些實用介面需要目錄管理員的實例，�
 
 當您安裝新的應用程式、通訊協定處理常式或篩選器時，安裝應用程式應該將其目錄或根目錄新增至編目範圍，以確保索引子包含該應用程式資料的位置。 如果在索引子將編目範圍編目之後，資料未出現在目錄中，您應該先確定資料的位置包含在編目範圍中。 您可以使用 Windows Search 選項或[編目範圍管理員](-search-3x-wds-extidx-csm.md)的使用者介面來加入它。 如果位置似乎在編目範圍內，您可以使用 [**ISearchCatalogManager**](/windows/desktop/api/Searchapi/nn-searchapi-isearchcatalogmanager) 介面的下列方法，以手動方式在索引子的編目範圍或子集內手動強制重新編制所有 url 的索引。
 
-| 重新編制索引方法                                                                                                                                                                                                                | Description                                                                                                                                                                                                                                                          |
+| 重新編制索引方法                                                                                                                                                                                                                | 描述                                                                                                                                                                                                                                                          |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**ISearchCatalogManager：：重新索引**](/windows/desktop/api/Searchapi/nf-searchapi-isearchcatalogmanager-reindex)                                                                                                                                                   | 重新索引目錄中的所有 Url。 舊的資訊會一直保留到以新資訊取代。                                                                                                                                                         |
 | [**ISearchCatalogManager::ReindexMatchingURLs**](/windows/desktop/api/Searchapi/nf-searchapi-isearchcatalogmanager-reindexmatchingurls)<br/> [**ISearchCatalogManager::ReindexSearchRoot**](/windows/desktop/api/Searchapi/nf-searchapi-isearchcatalogmanager-reindexsearchroot)<br/> | 重新編制符合模式的 Url，或從特定的根目錄開始 (例如，file:///C： \\ 資料夾 \\ Subfoldername \\) 。 這適用于 recrawling 特定目錄中的所有專案，或具有特定副檔名的所有專案，就像安裝應用程式時一樣。 |
@@ -65,15 +65,54 @@ Windows Search 平臺中的某些實用介面需要目錄管理員的實例，�
 
 下表說明用來管理目錄狀態的 ISearchCatalogManager 方法。
 
-
-| 方法 | 描述 | 
-|--------|-------------|
-| <a href="/windows/desktop/api/Searchapi/nf-searchapi-isearchcatalogmanager-urlbeingindexed"><strong>URLBeingIndexed</strong></a> | 取得目前正在編制索引的 URL。 如果您嘗試識別索引子是否「停滯」在某個專案上，這個方法會很有用。 | 
-| <a href="/windows/desktop/api/Searchapi/nf-searchapi-isearchcatalogmanager-numberofitems"><strong>NumberOfItems</strong></a> | 取得目錄中的專案數。 | 
-| <a href="/windows/desktop/api/Searchapi/nf-searchapi-isearchcatalogmanager-numberofitemstoindex"><strong>NumberOfItemsToIndex</strong></a> | 抓取下列有關要編制索引之專案的資訊：<ul><li>plIncrementalCount-要在下一個增量索引中編制索引的專案數</li><li>plNotificationQueue-通知佇列中的專案數。 這項資訊對於需要檢查索引子是否接收應用程式傳送通知的通知應用程式很有用。</li><li>plHighPriorityQueue-高優先順序佇列中的專案數。 系統會先編制 plHighPriorityQueue 中的專案的索引。</li></ul> | 
-| <a href="/windows/desktop/api/Searchapi/nf-searchapi-isearchcatalogmanager-getcatalogstatus"><strong>GetCatalogStatus</strong></a> | 取得目錄的狀態，並傳回可提供目前狀態的列舉值。 以下是可能的目錄狀態：<ul><li>閒置：不需要任何索引。</li><li>已暫停：索引會因電池電力偏低或高 CPU 使用量而暫停 (，例如) 。</li><li>正在復原：正在復原索引。</li><li>完整編目：索引子正在執行爬網範圍的完整編目。</li><li>增量編目：索引子正在執行增量編目。</li><li>處理通知：索引子正在處理通知。</li><li>正在關閉：索引子正在關閉。</li></ul> | 
-| <a href="/windows/desktop/api/Searchapi/nf-searchapi-isearchcatalogmanager-get_name"><strong>get_Name</strong></a> | 取得 <a href="/windows/desktop/api/Searchapi/nf-searchapi-isearchmanager-getcatalog"><strong>ISearchManager：： GetCatalog</strong></a> 方法中指定的目前目錄名稱。 目前唯一支援的目錄是 SystemIndex。 | 
-
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>方法</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><a href="/windows/desktop/api/Searchapi/nf-searchapi-isearchcatalogmanager-urlbeingindexed"><strong>URLBeingIndexed</strong></a></td>
+<td>取得目前正在編制索引的 URL。 如果您嘗試識別索引子是否 &quot; 卡 &quot; 在某個專案上，這個方法會很有用。</td>
+</tr>
+<tr class="even">
+<td><a href="/windows/desktop/api/Searchapi/nf-searchapi-isearchcatalogmanager-numberofitems"><strong>NumberOfItems</strong></a></td>
+<td>取得目錄中的專案數。</td>
+</tr>
+<tr class="odd">
+<td><a href="/windows/desktop/api/Searchapi/nf-searchapi-isearchcatalogmanager-numberofitemstoindex"><strong>NumberOfItemsToIndex</strong></a></td>
+<td>抓取下列有關要編制索引之專案的資訊：
+<ul>
+<li>plIncrementalCount-要在下一個增量索引中編制索引的專案數</li>
+<li>plNotificationQueue-通知佇列中的專案數。 這項資訊對於需要檢查索引子是否接收應用程式傳送通知的通知應用程式很有用。</li>
+<li>plHighPriorityQueue-高優先順序佇列中的專案數。 系統會先編制 plHighPriorityQueue 中的專案的索引。</li>
+</ul></td>
+</tr>
+<tr class="even">
+<td><a href="/windows/desktop/api/Searchapi/nf-searchapi-isearchcatalogmanager-getcatalogstatus"><strong>GetCatalogStatus</strong></a></td>
+<td>取得目錄的狀態，並傳回可提供目前狀態的列舉值。 以下是可能的目錄狀態：
+<ul>
+<li>閒置：不需要任何索引。</li>
+<li>已暫停：索引會因電池電力偏低或高 CPU 使用量而暫停 (，例如) 。</li>
+<li>正在復原：正在復原索引。</li>
+<li>完整編目：索引子正在執行爬網範圍的完整編目。</li>
+<li>增量編目：索引子正在執行增量編目。</li>
+<li>處理通知：索引子正在處理通知。</li>
+<li>正在關閉：索引子正在關閉。</li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td><a href="/windows/desktop/api/Searchapi/nf-searchapi-isearchcatalogmanager-get_name"><strong>get_Name</strong></a></td>
+<td>取得 <a href="/windows/desktop/api/Searchapi/nf-searchapi-isearchmanager-getcatalog"><strong>ISearchManager：： GetCatalog</strong></a> 方法中指定的目前目錄名稱。 目前唯一支援的目錄是 SystemIndex。</td>
+</tr>
+</tbody>
+</table>
 
 ## <a name="managing-catalog-properties"></a>管理目錄屬性
 

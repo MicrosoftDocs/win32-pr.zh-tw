@@ -4,12 +4,12 @@ ms.assetid: 72bf9164-96c6-4543-b858-19480b032fdb
 title: 使用 IKsControl 介面存取音訊屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a67639a0e51334da80b7bff88293414a58bb204c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: b763b874730981907d61ed7d4d2f46f4a9b053705b2747064c2505b9c5e90b14
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104187773"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120088220"
 ---
 # <a name="using-the-ikscontrol-interface-to-access-audio-properties"></a>使用 IKsControl 介面存取音訊屬性
 
@@ -17,7 +17,7 @@ ms.locfileid: "104187773"
 
 [**IKsControl**](/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-ikscontrol)介面主要是供撰寫控制台應用程式來管理其音訊硬體的硬體供應商使用。 針對未系結至特定硬體裝置的一般用途音訊應用程式， **IKsControl** 較不實用。 原因是硬體廠商經常採用專屬機制來存取裝置的音訊內容。 相較于 DeviceTopology API，它會隱藏硬體特定的驅動程式，並提供相當一致的介面來存取音訊屬性，而應用程式會使用 **IKsControl** 直接與驅動程式通訊。 如需 **IKsControl** 的詳細資訊，請參閱 Windows DDK 檔。
 
-如同在 [裝置拓撲](device-topologies.md)中所討論的，介面卡裝置拓撲中的子單位可能會支援下表左邊資料行中所顯示的一或多個函式特定的控制介面。 資料表右邊資料行中的每個專案都是對應至左側控制項介面的 KS 屬性。 控制項介面可方便您存取屬性。 大部分的音訊驅動程式都會使用 KS 屬性來代表次單元連接的函式特定處理功能 (也稱為「KS 節點」（) 在其音訊介面卡的拓撲中）。 如需有關 KS 屬性和 KS 節點的詳細資訊，請參閱 Windows DDK 檔。
+如同在 [裝置拓撲](device-topologies.md)中所討論的，介面卡裝置拓撲中的子單位可能會支援下表左邊資料行中所顯示的一或多個函式特定的控制介面。 資料表右邊資料行中的每個專案都是對應至左側控制項介面的 KS 屬性。 控制項介面可方便您存取屬性。 大部分的音訊驅動程式都會使用 KS 屬性來代表次單元連接的函式特定處理功能 (也稱為「KS 節點」（) 在其音訊介面卡的拓撲中）。 如需有關 ks 屬性和 ks 節點的詳細資訊，請參閱 Windows DDK 檔。
 
 
 

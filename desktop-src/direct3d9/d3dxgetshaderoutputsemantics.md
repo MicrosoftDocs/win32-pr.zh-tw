@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 264db967d2959c2f6e5096e0362e9db576ba9f94
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 8fda2c2ac5e331874448e251b14654ba06df33bea6557f75957f8955387b2591
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104514593"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119986788"
 ---
 # <a name="d3dxgetshaderoutputsemantics-function"></a>D3DXGetShaderOutputSemantics 函式
 

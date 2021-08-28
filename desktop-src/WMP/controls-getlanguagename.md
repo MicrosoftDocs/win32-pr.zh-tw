@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 798a6b22f344953df716e4df4ed8a9a0daff2a7b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e747860c60313a66eecf8b7d6bd289ffb47f282c8c8d7633716e5c4e60ca7674
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106983151"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118997478"
 ---
 # <a name="controlsgetlanguagename-method"></a>GetLanguageName 方法
 
@@ -57,7 +57,7 @@ strRetVal = Controls.getLanguageName(
 
 LCID 可唯一識別特定語言方言，稱為地區設定。
 
-針對 Windows Media 內容，與語言選取相關的屬性和方法只支援單一輸出。
+針對 Windows 媒體型內容，與語言選取相關的屬性和方法只支援單一輸出。
 
 ## <a name="requirements"></a>規格需求
 

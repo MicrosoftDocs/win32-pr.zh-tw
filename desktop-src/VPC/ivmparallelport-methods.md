@@ -4,16 +4,16 @@ description: IVMParallelPort 介面會公開下列方法。
 ms.assetid: A30D5C8E-09CC-4455-AB22-F2B30DBBA9A7
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2ad175c8c5e708b0257626b37cba597a7629bf93
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 14626059be8434eb3240d09702b788f5cde99660f0a5a7701e30ffd812a46c9d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103682647"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119973928"
 ---
 # <a name="ivmparallelport-methods"></a>IVMParallelPort 方法
 
-\[Windows 8 不能再使用 Windows Virtual PC。 請改為使用 [HYPER-V WMI 提供者 (V2) ](/windows/desktop/HyperV_v2/windows-virtualization-portal)。\]
+\[WindowsVirtual PC 不再適用于 Windows 8。 請改為使用 [HYPER-V WMI 提供者 (V2) ](/windows/desktop/HyperV_v2/windows-virtualization-portal)。\]
 
 [**IVMParallelPort**](ivmparallelport.md)介面會公開下列方法。
 
@@ -21,6 +21,6 @@ ms.locfileid: "103682647"
 
 -   [**\_ID 方法**](ivmparallelport--id.md)
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ ms.assetid: CB562E67-63CA-447c-9616-140B687B80D6
 title: 影像編碼範例
 ms.topic: article
 ms.date: 03/19/2021
-ms.openlocfilehash: c6045917ab69668b6e01ad9e5d31f25caff124dc
-ms.sourcegitcommit: af120ad5c30da2fc5eb717ca2a1c4c45878efd71
+ms.openlocfilehash: d9163a9af26499f5408138f98dc9f418e84673c1d2d94e07db28c8daaa36a2d8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/20/2021
-ms.locfileid: "106992358"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117667058"
 ---
 # <a name="image-encoding-samples"></a>影像編碼範例
 

@@ -4,12 +4,12 @@ description: 本節將列出每個10Level9 功能等級和 D3D \_ 功能 \_ 等�
 ms.assetid: c3bc32a9-8d97-430b-be6a-b4935d7ac56c
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 400c7f321981f13b3e184a25139782c8a9d9a2ba
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: f467e47d7ba623f1c28111cf3bf7cc6a07da8317
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104376197"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122475784"
 ---
 # <a name="10level9-id3d11device-methods"></a>10Level9 ID3D11Device 方法
 
@@ -47,29 +47,13 @@ ms.locfileid: "104376197"
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>功能層級</th>
-<th>行為差異</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="3">選擇性地支援裝置相依的計數器。 使用 <a href="/windows/desktop/api/D3D11/nf-d3d11-id3d11device-checkcounterinfo"><strong>ID3D11Device：： CheckCounterInfo</strong></a> 來判斷支援。 $ {REMOVE} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| 功能層級 | 行為差異 | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | 選擇性地支援裝置相依的計數器。 使用 <a href="/windows/desktop/api/D3D11/nf-d3d11-id3d11device-checkcounterinfo"><strong>ID3D11Device：： CheckCounterInfo</strong></a> 來判斷支援。 $ {REMOVE} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
 
-</tr>
-</tbody>
-</table>
 
 
 
@@ -79,29 +63,13 @@ ms.locfileid: "104376197"
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>功能層級</th>
-<th>行為差異</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="3">請參閱依 <a href="overviews-direct3d-11-devices-downlevel-intro.md">功能等級</a>的格式支援 $ {REMOVE} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| 功能層級 | 行為差異 | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | 請參閱依 <a href="overviews-direct3d-11-devices-downlevel-intro.md">功能等級</a>的格式支援 $ {REMOVE} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
 
-</tr>
-</tbody>
-</table>
 
 
 
@@ -111,29 +79,13 @@ ms.locfileid: "104376197"
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>功能層級</th>
-<th>行為差異</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="3">功能層級對 MSAA 支援沒有任何保證。 $ {REMOVE} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| 功能層級 | 行為差異 | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | 功能層級對 MSAA 支援沒有任何保證。 $ {REMOVE} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
 
-</tr>
-</tbody>
-</table>
 
 
 
@@ -173,29 +125,13 @@ ms.locfileid: "104376197"
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>功能層級</th>
-<th>行為差異</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td>緩衝區不能有呈現目標視圖。<br/> 緩衝區必須剛好有其中一個 D3D11_BIND_VERTEX_BUFFER、D3D11_BIND_INDEX_BUFFER 或 D3D11_BIND_CONSTANT_BUFFER。<br/> 只允許具有 DXGI_FORMAT_R16_UINT 格式的索引緩衝區。 <br/></td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
-<td rowspan="2"> 緩衝區不能有呈現目標視圖。<br/> 緩衝區必須剛好有其中一個 D3D11_BIND_VERTEX_BUFFER、D3D11_BIND_INDEX_BUFFER 或 D3D11_BIND_CONSTANT_BUFFER。<br/> 允許具有 DXGI_FORMAT_R16_UINT 的索引緩衝區，以及 D3D_FEATURE_LEVEL_10_0 和更高版本的 DXGI_FORMAT_R32_UINT 格式。 <br/> $ {REMOVE} $<br />
-</td>
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
 
-</tr>
-</tbody>
-</table>
+| 功能層級 | 行為差異 | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | 緩衝區不能有呈現目標視圖。<br /> 緩衝區必須剛好有其中一個 D3D11_BIND_VERTEX_BUFFER、D3D11_BIND_INDEX_BUFFER 或 D3D11_BIND_CONSTANT_BUFFER。<br /> 只允許具有 DXGI_FORMAT_R16_UINT 格式的索引緩衝區。 <br /> | 
+| D3D_FEATURE_LEVEL_9_2 |  緩衝區不能有呈現目標視圖。<br /> 緩衝區必須剛好有其中一個 D3D11_BIND_VERTEX_BUFFER、D3D11_BIND_INDEX_BUFFER 或 D3D11_BIND_CONSTANT_BUFFER。<br /> 允許具有 DXGI_FORMAT_R16_UINT 的索引緩衝區，以及 D3D_FEATURE_LEVEL_10_0 和更高版本的 DXGI_FORMAT_R32_UINT 格式。 <br /> $ {REMOVE} $<br /> | 
+| D3D_FEATURE_LEVEL_9_3 | 
+
 
 
 
@@ -205,29 +141,13 @@ ms.locfileid: "104376197"
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>功能層級</th>
-<th>行為差異</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="3">不支援任何 9. * 功能等級。 $ {REMOVE} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| 功能層級 | 行為差異 | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | 不支援任何 9. * 功能等級。 $ {REMOVE} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
 
-</tr>
-</tbody>
-</table>
 
 
 
@@ -237,29 +157,13 @@ ms.locfileid: "104376197"
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>功能層級</th>
-<th>行為差異</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="3">不支援雙面樣板。 $ {REMOVE} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| 功能層級 | 行為差異 | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | 不支援雙面樣板。 $ {REMOVE} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
 
-</tr>
-</tbody>
-</table>
 
 
 
@@ -269,37 +173,15 @@ ms.locfileid: "104376197"
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>功能層級</th>
-<th>行為差異</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="5">不支援任何 9. * 或 10. * 功能等級。 $ {REMOVE} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| 功能層級 | 行為差異 | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | 不支援任何 9. * 或 10. * 功能等級。 $ {REMOVE} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
+| D3D_FEATURE_LEVEL_10_0 | 
+| D3D_FEATURE_LEVEL_10_1 | 
 
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_10_0</td>
-
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_10_1</td>
-
-</tr>
-</tbody>
-</table>
 
 
 
@@ -309,29 +191,13 @@ ms.locfileid: "104376197"
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>功能層級</th>
-<th>行為差異</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="3">不支援任何 9. * 功能等級。 $ {REMOVE} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| 功能層級 | 行為差異 | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | 不支援任何 9. * 功能等級。 $ {REMOVE} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
 
-</tr>
-</tbody>
-</table>
 
 
 
@@ -341,29 +207,13 @@ ms.locfileid: "104376197"
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>功能層級</th>
-<th>行為差異</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="3">不支援任何 9. * 功能等級。 $ {REMOVE} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| 功能層級 | 行為差異 | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | 不支援任何 9. * 功能等級。 $ {REMOVE} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
 
-</tr>
-</tbody>
-</table>
 
 
 
@@ -373,37 +223,15 @@ ms.locfileid: "104376197"
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>功能層級</th>
-<th>行為差異</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="5">不支援任何 9. * 或 10. * 功能等級。 $ {REMOVE} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| 功能層級 | 行為差異 | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | 不支援任何 9. * 或 10. * 功能等級。 $ {REMOVE} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
+| D3D_FEATURE_LEVEL_10_0 | 
+| D3D_FEATURE_LEVEL_10_1 | 
 
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_10_0</td>
-
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_10_1</td>
-
-</tr>
-</tbody>
-</table>
 
 
 
@@ -443,29 +271,13 @@ ms.locfileid: "104376197"
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>功能層級</th>
-<th>行為差異</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="3">不支援任何 9. * 功能等級。 $ {REMOVE} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| 功能層級 | 行為差異 | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | 不支援任何 9. * 功能等級。 $ {REMOVE} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
 
-</tr>
-</tbody>
-</table>
 
 
 
@@ -489,29 +301,13 @@ ms.locfileid: "104376197"
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>功能層級</th>
-<th>行為差異</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="3">DepthClipEnable 必須是 <strong>TRUE</strong>。 DepthBiasClamp 必須設定為 0. $ {REMOVE} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| 功能層級 | 行為差異 | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | DepthClipEnable 必須是 <strong>TRUE</strong>。 DepthBiasClamp 必須設定為 0. $ {REMOVE} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
 
-</tr>
-</tbody>
-</table>
 
 
 
@@ -521,29 +317,13 @@ ms.locfileid: "104376197"
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>功能層級</th>
-<th>行為差異</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="3">只能支援 Texture2D 物件的呈現目標視圖。 $ {REMOVE} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| 功能層級 | 行為差異 | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | 只能支援 Texture2D 物件的呈現目標視圖。 $ {REMOVE} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
 
-</tr>
-</tbody>
-</table>
 
 
 
@@ -553,29 +333,13 @@ ms.locfileid: "104376197"
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>功能層級</th>
-<th>行為差異</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td>不支援比較篩選。<br/> 框線色彩必須在 [0，1] 內<br/> 最小」 LOD 不可為小數<br/> 」 LOD 上限必須是 FLT_MAX<br/> 最大 anisotropy 為2。<br/> 不支援 D3D11_TEXTURE_ADDRESS_MIRRORONCE。<br/></td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
-<td rowspan="2"> 不支援比較篩選。<br/> 框線色彩必須在 [0，1] 內<br/> 最小」 LOD 不可為小數<br/> 」 LOD 上限必須是 FLT_MAX<br/> 最大 anisotropy 為16。<br/> $ {REMOVE} $<br />
-</td>
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
 
-</tr>
-</tbody>
-</table>
+| 功能層級 | 行為差異 | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | 不支援比較篩選。<br /> 框線色彩必須在 [0，1] 內<br /> 最小」 LOD 不可為小數<br /> 」 LOD 上限必須是 FLT_MAX<br /> 最大 anisotropy 為2。<br /> 不支援 D3D11_TEXTURE_ADDRESS_MIRRORONCE。<br /> | 
+| D3D_FEATURE_LEVEL_9_2 |  不支援比較篩選。<br /> 框線色彩必須在 [0，1] 內<br /> 最小」 LOD 不可為小數<br /> 」 LOD 上限必須是 FLT_MAX<br /> 最大 anisotropy 為16。<br /> $ {REMOVE} $<br /> | 
+| D3D_FEATURE_LEVEL_9_3 | 
+
 
 
 
@@ -587,7 +351,7 @@ ms.locfileid: "104376197"
 
 | 功能層級             | MostDetailedMip plus MipLevels 必須包含最低的」 LOD (最小 subresource | View 必須包含所有資源陣列元素 |
 |---------------------------|------------------------------------------------------------------------------|-----------------------------------------------|
-| D3D \_ 功能 \_ 層級 \_ 9 \_ 1 | Yes                                                                          | 是                                           |
+| D3D \_ 功能 \_ 層級 \_ 9 \_ 1 | 是                                                                          | 是                                           |
 | D3D \_ 功能 \_ 層級 \_ 9 \_ 2 | 是                                                                          | 是                                           |
 | D3D \_ 功能 \_ 層級 \_ 9 \_ 3 | 是                                                                          | 是                                           |
 
@@ -599,29 +363,13 @@ ms.locfileid: "104376197"
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>功能層級</th>
-<th>行為差異</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="3">不支援任何 9. * 功能等級。 $ {REMOVE} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| 功能層級 | 行為差異 | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | 不支援任何 9. * 功能等級。 $ {REMOVE} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
 
-</tr>
-</tbody>
-</table>
 
 
 
@@ -635,9 +383,9 @@ Texture2D 資源的寬度和高度會有不同于各 [功能層級](overviews-di
 
 | 功能層級             | 如果 MipCount > 1，維度必須是兩個的整數乘冪 | 支援的最小材質維度 | Cube 紋理維度必須是2的乘冪 | 如果設定了其他 \_ TEXTURECUBE，則 ArraySize 為： | 如果 \_ 未設定其他 TEXTURECUBE，則 ArraySize 為。 |
 |---------------------------|--------------------------------------------------------------|-------------------------------------|-----------------------------------------------|------------------------------------------------|----------------------------------------------------|
-| D3D \_ 功能 \_ 層級 \_ 9 \_ 1 | Yes                                                          | 2048                                | Yes                                           | 6                                              | 1                                                  |
-| D3D \_ 功能 \_ 層級 \_ 9 \_ 2 | Yes                                                          | 2048                                | Yes                                           | 6                                              | 1                                                  |
-| D3D \_ 功能 \_ 層級 \_ 9 \_ 3 | Yes                                                          | 4096                                | Yes                                           | 6                                              | 1                                                  |
+| D3D \_ 功能 \_ 層級 \_ 9 \_ 1 | 是                                                          | 2048                                | 是                                           | 6                                              | 1                                                  |
+| D3D \_ 功能 \_ 層級 \_ 9 \_ 2 | 是                                                          | 2048                                | 是                                           | 6                                              | 1                                                  |
+| D3D \_ 功能 \_ 層級 \_ 9 \_ 3 | 是                                                          | 4096                                | 是                                           | 6                                              | 1                                                  |
 
 
 
@@ -659,9 +407,9 @@ Texture2D 資源的寬度和高度會有不同于各 [功能層級](overviews-di
 
 | 功能層級             | 任何軸) 的最大維度 ( | 維度必須是2的乘冪 |
 |---------------------------|------------------------------|---------------------------------|
-| D3D \_ 功能 \_ 層級 \_ 9 \_ 1 | 256                          | Yes                             |
-| D3D \_ 功能 \_ 層級 \_ 9 \_ 2 | 512                          | Yes                             |
-| D3D \_ 功能 \_ 層級 \_ 9 \_ 3 | 512                          | Yes                             |
+| D3D \_ 功能 \_ 層級 \_ 9 \_ 1 | 256                          | 是                             |
+| D3D \_ 功能 \_ 層級 \_ 9 \_ 2 | 512                          | 是                             |
+| D3D \_ 功能 \_ 層級 \_ 9 \_ 3 | 512                          | 是                             |
 
 
 
@@ -673,29 +421,13 @@ Texture2D 資源的寬度和高度會有不同于各 [功能層級](overviews-di
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>功能層級</th>
-<th>行為差異</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="3">不支援任何 9. * 功能等級。 $ {REMOVE} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| 功能層級 | 行為差異 | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | 不支援任何 9. * 功能等級。 $ {REMOVE} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
 
-</tr>
-</tbody>
-</table>
 
 
 
@@ -719,38 +451,13 @@ Texture2D 資源的寬度和高度會有不同于各 [功能層級](overviews-di
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>功能層級</th>
-<th>行為差異</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="3"> 使用 <a href="/windows/desktop/api/D3D11/nf-d3d11-id3d11device-checkfeaturesupport"><strong>ID3D11Device：： CheckFeatureSupport</strong></a> 搭配 <a href="/windows/desktop/api/D3D11/ne-d3d11-d3d11_feature"><strong>D3D11_FEATURE_FORMAT_SUPPORT2</strong></a> 值和 <a href="/windows/desktop/api/D3D11/ns-d3d11-d3d11_feature_data_format_support2"><strong>D3D11_FEATURE_DATA_FORMAT_SUPPORT2</strong></a> 結構，以判斷是否可以共用格式。 如果可以共用格式， <strong>CheckFeatureSupport</strong> 會傳回 <a href="/windows/desktop/api/D3D11/ne-d3d11-d3d11_format_support2"><strong>D3D11_FORMAT_SUPPORT2_SHAREABLE</strong></a> 旗標。<br/>
-<blockquote>
-[!Note]<br />
-使用功能層級9時，[<strong>DXGI_FORMAT_R8G8B8A8_UNORM</strong>] (/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) 和 <strong>DXGI_FORMAT_R8G8B8A8_UNORM_SRGB</strong> 不可共用，即使裝置指出適用于 <strong>D3D11_FORMAT_SUPPORT_SHAREABLE</strong>的選擇性功能支援。 除非10_0 或更高的功能等級，否則嘗試以 DXGI 格式建立共用資源 <strong>DXGI_FORMAT_R8G8B8A8_UNORM</strong> 和 <strong>DXGI_FORMAT_R8G8B8A8_UNORM_SRGB</strong> 一律會失敗。
-</blockquote>
-<br/> $ {REMOVE} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| 功能層級 | 行為差異 | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 |  使用 <a href="/windows/desktop/api/D3D11/nf-d3d11-id3d11device-checkfeaturesupport"><strong>ID3D11Device：： CheckFeatureSupport</strong></a> 搭配 <a href="/windows/desktop/api/D3D11/ne-d3d11-d3d11_feature"><strong>D3D11_FEATURE_FORMAT_SUPPORT2</strong></a> 值和 <a href="/windows/desktop/api/D3D11/ns-d3d11-d3d11_feature_data_format_support2"><strong>D3D11_FEATURE_DATA_FORMAT_SUPPORT2</strong></a> 結構，以判斷是否可以共用格式。 如果可以共用格式， <strong>CheckFeatureSupport</strong> 會傳回 <a href="/windows/desktop/api/D3D11/ne-d3d11-d3d11_format_support2"><strong>D3D11_FORMAT_SUPPORT2_SHAREABLE</strong></a> 旗標。<br /><blockquote>[!Note]<br />使用功能層級9時， [<strong>DXGI_FORMAT_R8G8B8A8_UNORM</strong>](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format)和<strong>DXGI_FORMAT_R8G8B8A8_UNORM_SRGB</strong>永遠無法共用，即使裝置指出<strong>D3D11_FORMAT_SUPPORT_SHAREABLE</strong>的選擇性功能支援。 除非10_0 或更高的功能等級，否則嘗試以 DXGI 格式建立共用資源 <strong>DXGI_FORMAT_R8G8B8A8_UNORM</strong> 和 <strong>DXGI_FORMAT_R8G8B8A8_UNORM_SRGB</strong> 一律會失敗。</blockquote><br /> $ {REMOVE} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
 
-</tr>
-</tbody>
-</table>
 
 
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 74a42eb0ae2d72a820874b8127176133fecdcf9e
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 11ea6b363e493a659a97ac3dd0c1ef518a667564e6681188f648e2e1c206ffb4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108118886"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119521808"
 ---
 # <a name="requeststatechange-method-of-the-msvm_logicaldisk-class"></a>Msvm LogicalDisk 類別的 RequestStateChange 方法 \_
 

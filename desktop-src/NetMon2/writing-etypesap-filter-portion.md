@@ -4,12 +4,12 @@ ms.assetid: 57dcf1cd-f27f-4bd3-a5a8-9e978a2d213e
 title: 撰寫 Etype/SAP 篩選部分
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1b072d123ca18d3aa2b3f2c91db4a8461473a854
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: da18b8e2d7d5fc081ea941070644379e6e988a5c697b7ee09ee76a8fdd0c083e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944837"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120036788"
 ---
 # <a name="writing-etypesap-filter-portion"></a>撰寫 Etype/SAP 篩選部分
 
@@ -36,7 +36,7 @@ Capture 篩選器的 Etype/SAP 部分會通知網路監視器驅動程式，接�
 
  
 
-## <a name="etypesap-capture-filter-settings"></a>Etype/SAP Capture 篩選器設定
+## <a name="etypesap-capture-filter-settings"></a>Etype/SAP Capture 濾波器設定
 
 您可以使用下列資訊來設定 [**CAPTUREFILTER**](capturefilter.md)結構的 **lpSapTable** 和 **lpEtypeTable** 成員。
 

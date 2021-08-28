@@ -4,12 +4,12 @@ ms.assetid: f313588f-6257-4a0d-b95a-aabc0bc64b53
 title: 關於系統事件通知服務
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2cb132273420c1504b51b004f770abbe0e04c912
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3b4492676353b43c3ccecca170c2870abd4efafc98e27e9ccebdd5ecc41b697d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104027318"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118890745"
 ---
 # <a name="about-system-event-notification-service"></a>關於系統事件通知服務
 

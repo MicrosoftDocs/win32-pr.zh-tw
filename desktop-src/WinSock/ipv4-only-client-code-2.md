@@ -1,19 +1,19 @@
 ---
-description: 下列程式碼是 Simplec .c 檔案，其為僅限 IPv4 的 Windows 通訊端用戶端 (Simplec 的 IPv6 啟用版本可在附錄 B) 中找到。
+description: 下列程式碼是 Simplec .c 檔案，其為僅限 IPv4 的 Windows 通訊端用戶端 (Simplec .c 檔案的 IPv6 已啟用版本可在附錄 B) 中找到。
 ms.assetid: 32a11b37-c2e9-455b-8359-92186d3801d1
 title: 僅限 IPv4 的用戶端程式代碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5b337ab8c56898c8fdef0de93a55868c27557b0b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c51db140d6ebe47c365bdeb646877836ddfd5205da8e77fae7ab19830279e5d4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113068"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120097728"
 ---
 # <a name="ipv4-only-client-code"></a>僅限 IPv4 的用戶端程式代碼
 
-下列程式碼是 Simplec .c 檔案，其為僅限 IPv4 的 Windows 通訊端用戶端 (Simplec 的 IPv6 啟用版本可在附錄 B) 中找到。 這段程式碼僅供比較之用，請使用附錄 B 來瞭解如何撰寫具備 IPv6 功能的用戶端。
+下列程式碼是 Simplec .c 檔案，其為僅限 IPv4 的 Windows 通訊端用戶端 (Simplec .c 檔案的 IPv6 已啟用版本可在附錄 B) 中找到。 這段程式碼僅供比較之用，請使用附錄 B 來瞭解如何撰寫具備 IPv6 功能的用戶端。
 
 
 ```C++

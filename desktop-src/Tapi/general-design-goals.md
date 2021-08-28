@@ -4,12 +4,12 @@ ms.assetid: 286b96c1-047b-4cb9-a189-af2818cfec58
 title: 一般設計目標
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 052bbf607e71986678acca29d17d587bfa5bccf5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 984f897e5ad701e89c6ebf489ebd10828bf207e4f19ca186ca41e780b2e03cba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972451"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119140571"
 ---
 # <a name="general-design-goals"></a>一般設計目標
 

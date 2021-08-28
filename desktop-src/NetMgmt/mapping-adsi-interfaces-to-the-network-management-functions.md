@@ -4,12 +4,12 @@ description: Active Directory 服務介面 (ADSI) 是一組 COM 介面，可用�
 ms.assetid: dfa81c58-3ce4-40ee-8bfc-a19a13781992
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 49ec1a1055d3d016bf8b7b1bd3f357810b7ddd86
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: e5ed9411989d5db754326a7a89130deada129fa6a58322ddef7e118772960d71
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104316432"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119912047"
 ---
 # <a name="mapping-adsi-interfaces-to-the-network-management-functions"></a>將 ADSI 介面對應到網路管理功能
 
@@ -34,10 +34,10 @@ Active Directory 服務介面 (ADSI) 是一組 COM 介面，可用來從不同�
 
 
 
- 
+ 
 
 如需有關目錄服務和使用 ADSI 進行程式設計的詳細資訊，請參閱 [Active Directory 服務介面](/windows/desktop/ADSI/active-directory-service-interfaces-adsi)。 如需 WinNT 提供者可供使用者類別使用之自訂屬性的相關資訊，以及 WinNT 提供者不支援之 [**IADsUser**](/windows/desktop/api/iads/nn-iads-iadsuser) 介面的屬性方法，請參閱 [ADSI WinNT 提供者](/windows/desktop/ADSI/adsi-winnt-provider)。
 
- 
+ 
 
- 
+ 

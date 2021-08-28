@@ -9,12 +9,12 @@ keywords:
 - 查詢 ADSI、搜尋 Active Directory
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1881872be6092312015f22eba477599ed9394df7
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 02d3ec83268556ebcacd89efeca425db87e2c0cc06e69a1e6eea810bcd6a21de
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104300056"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120005468"
 ---
 # <a name="searching-active-directory"></a>搜尋 Active Directory
 
@@ -25,7 +25,7 @@ Active Directory 的一項重要功能，就是解析人員的資料查詢，以
 -   效能和處理大型結果集：用戶端應該如何有效地處理大型結果集的可能性？
 -   判斷最佳查詢：何種類型的查詢能提供最有效率的結果？ 開發人員應避免何種查詢？
 -   瞭解查詢語法： ADSI 支援 RFC 2254 中所述的 LDAP 語法，以及 SQL 的子集。
--   選擇的介面： ADSI 同時提供 OLE DB 支援以及 C/c + + 介面（稱為 [**>idirectorysearch**](/windows/desktop/api/Iads/nn-iads-idirectorysearch)）。 因為 ADSI 適用于多個命名空間，所以您可以使用這些介面來查詢其他命名空間（例如 Exchange）以及 Active Directory。 因為 (ADO) 的 ActiveX 資料物件是簡單的可編寫腳本資料存取物件模型，在 OLE DB 上，OLE DB 介面適用于 Visual Basic 程式設計人員和網頁腳本寫入器。 利用 ADO 和 OLE DB 的 Visual Studio 和 Office 應用程式內的新資料存取功能，現在可以用與從其他 OLE DB 提供者（例如 SQL Server）存取資料的相同方式來存取 Active Directory 資料。 但是，如果 C/c + + 開發人員必須執行簡單的目錄搜尋，則 **>idirectorysearch** 介面可能比 OLE DB 介面更適合。
+-   選擇的介面： ADSI 同時提供 OLE DB 支援以及 C/c + + 介面（稱為 [**>idirectorysearch**](/windows/desktop/api/Iads/nn-iads-idirectorysearch)）。 因為 ADSI 適用于多個命名空間，所以您可以使用這些介面來查詢其他命名空間（例如 Exchange）以及 Active Directory。 由於 ActiveX 資料物件 (ADO) 是在 OLE DB 之上的簡單可編寫腳本的資料存取物件模型，因此 OLE DB 程式設計人員和網頁腳本撰寫者都能順利運作。 Visual Studio 與 Office 應用程式中利用 ADO 和 OLE DB 的新資料存取功能，現在可以用與從其他 OLE DB 提供者（例如 SQL Server）存取資料的相同方式來存取 Active Directory 資料。 但是，如果 C/c + + 開發人員必須執行簡單的目錄搜尋，則 **>idirectorysearch** 介面可能比 OLE DB 介面更適合。
 
 下列主題說明如何搜尋 Active Directory，以確保您的應用程式會根據用戶端的需求，發出最有效率的查詢：
 
@@ -36,9 +36,9 @@ Active Directory 的一項重要功能，就是解析人員的資料查詢，以
 -   [搜尋二進位資料](searching-binary-data.md)
 -   [Distributed Query](distributed-query.md)
 
- 
+ 
 
- 
+ 
 
 
 

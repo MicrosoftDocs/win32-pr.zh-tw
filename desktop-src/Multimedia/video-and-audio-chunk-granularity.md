@@ -11,12 +11,12 @@ keywords:
 - capCaptureSetSetup 宏
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9f2245b133fbf14bfd6403fa2f3d7e02ed328de6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c8e8e03eb774e4173b86812c7cc4e9fb35d0ab2557d1ab9022bce3848ec7d13a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103932329"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119892238"
 ---
 # <a name="video-and-audio-chunk-granularity"></a>影片和音訊區塊細微性
 
@@ -24,9 +24,9 @@ ms.locfileid: "103932329"
 
 您可以使用 [ [**WM \_ CAP \_ GET \_ SEQUENCE \_ 設定**](wm-cap-get-sequence-setup.md) 訊息 (] 或 [ [**capCaptureGetSetup**](/windows/desktop/api/Vfw/nf-vfw-capcapturegetsetup) 宏) ，來取得目前的區塊細微性設定。 目前的區塊資料細微性會儲存在 [**CAPTUREPARMS**](/windows/win32/api/vfw/ns-vfw-captureparms)結構的 **wChunkGranularity** 成員中。 您可以指定新的區塊資料細微性作為 **wChunkGranularity** 的值，然後使用 [ [**WM \_ CAP \_ SET \_ SEQUENCE \_ 設定**](wm-cap-set-sequence-setup.md)訊息 (] 或 [ [**capCaptureSetSetup**](/windows/desktop/api/Vfw/nf-vfw-capcapturesetsetup)宏) ，將更新的 **CAPTUREPARMS** 結構傳送至 [捕獲] 視窗。 您也可以為此成員指定零，將區塊細微性設定為磁片的磁區大小。
 
- 
+ 
 
- 
+ 
 
 
 

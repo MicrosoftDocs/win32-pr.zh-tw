@@ -4,12 +4,12 @@ description: 為了在需要文字處理和文字編輯功能的應用程式中�
 ms.assetid: 6052f2e3-2c9e-432e-9ed6-c1e3a50843d9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e2c80ce84e17573925b8bf64637df1330c7447b6bebe501de1f20ebc4b1ac79d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 106163c03c506e438ffcffa261ebd7e3a2115e2a
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119710655"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122470724"
 ---
 # <a name="font-control"></a>字型控制項
 
@@ -421,77 +421,23 @@ ms.locfileid: "119710655"
 
 下表列出由架構所定義的按鍵提示。 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>子控制項</th>
-<th>Keytip</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>字型家族</td>
-<td>F</td>
-</tr>
-<tr class="even">
-<td>字型樣式</td>
-<td>T</td>
-</tr>
-<tr class="odd">
-<td>字型大小</td>
-<td>S</td>
-</tr>
-<tr class="even">
-<td>成長字型</td>
-<td>G</td>
-</tr>
-<tr class="odd">
-<td>壓縮字型</td>
-<td>K</td>
-</tr>
-<tr class="even">
-<td>粗體</td>
-<td>B</td>
-</tr>
-<tr class="odd">
-<td>斜體</td>
-<td>I</td>
-</tr>
-<tr class="even">
-<td>Underline</td>
-<td>U</td>
-</tr>
-<tr class="odd">
-<td>刪除線</td>
-<td>X</td>
-</tr>
-<tr class="even">
-<td>標</td>
-<td>Y 或 Z
-<blockquote>
-[!Note]<br />
-如果 [ <em>快速鍵</em> ] 屬性未在標記中宣告，則預設的快速鍵提示為 Y;否則，預設的快速鍵提示會是 <em>keytip</em> + Z。
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td>標</td>
-<td>A</td>
-</tr>
-<tr class="even">
-<td>字型色彩</td>
-<td>C</td>
-</tr>
-<tr class="odd">
-<td>字型醒目提示</td>
-<td>H</td>
-</tr>
-</tbody>
-</table>
+
+| 子控制項 | Keytip | 
+|-------------|--------|
+| 字型家族 | F | 
+| 字型樣式 | T | 
+| 字型大小 | S | 
+| 成長字型 | G | 
+| 壓縮字型 | K | 
+| 粗體 | B | 
+| 斜體 | I | 
+| Underline | U | 
+| 刪除線 | X | 
+| 標 | Y 或 Z<blockquote>[!Note]<br />如果 [ <em>快速鍵</em> ] 屬性未在標記中宣告，則預設的快速鍵提示為 Y;否則，預設的快速鍵提示為 <em>快速鍵</em> + Z。</blockquote><br /> | 
+| 標 | A | 
+| 字型色彩 | C | 
+| 字型醒目提示 | H | 
+
 
 
 

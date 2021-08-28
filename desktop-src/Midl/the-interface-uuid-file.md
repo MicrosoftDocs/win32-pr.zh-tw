@@ -7,12 +7,12 @@ keywords:
 - 介面 UUID 檔案 MIDL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d9ff6e8a115f51aaff001749d29e1206716abc8
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 5d12986ee265fa50f440dd07812d222bb4e7549a6c32c93938803255480871f3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103675171"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119146201"
 ---
 # <a name="the-interface-uuid-file"></a>介面 UUID 檔案
 
@@ -20,9 +20,9 @@ ms.locfileid: "103675171"
 
 從檔案產生之介面 IID 檔案的預設名稱。 .idl 為 File \_ i.c。 [**/Iid**](-iid.md) MIDL 編譯器參數會覆寫介面 UUID 檔案的預設名稱。
 
- 
+ 
 
- 
+ 
 
 
 

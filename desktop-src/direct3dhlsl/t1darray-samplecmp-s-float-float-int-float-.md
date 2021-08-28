@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 3c703c971bfddcda5dbd28978f5743e07b2e6be7
-ms.sourcegitcommit: 168d11879cb9fd89d26f826482725c0a626be00f
+ms.openlocfilehash: 0fca7d3ceee3f6eb6e4c7156d7c645429bc88f968bb69cb46abe667708819995
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "104992406"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118789042"
 ---
 # <a name="samplecmpsamplecmpsfloatfloatintfloat-function-for-texture1darray"></a>Texture1DArray 的 SampleCmp：： SampleCmp (S、float、float、int、float) 函數
 

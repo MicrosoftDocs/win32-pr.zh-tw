@@ -4,12 +4,12 @@ ms.assetid: 4e50180f-8d53-4033-a619-a98890c6cb37
 title: Region 和 Intersect 方法
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 651de6f133f610d27d09075465d7e95ffd9a3c3f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1f1b23250b20432ca0ec6cb6e99518c2c7e6aa6812dd36e27ca7b3d67bd75653
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972992"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119602598"
 ---
 # <a name="regionintersect-methods"></a>Region 和 Intersect 方法
 

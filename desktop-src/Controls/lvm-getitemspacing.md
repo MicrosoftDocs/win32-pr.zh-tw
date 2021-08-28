@@ -3,7 +3,7 @@ title: 'LVM_GETITEMSPACING 訊息 (Commctrl .h) '
 description: 決定清單視圖控制項中專案之間的間距。 您可以明確地傳送此訊息，或使用 ListView \_ GetItemSpacing 宏來傳送。
 ms.assetid: 4e43fb43-468c-4b8a-9e3b-1694e90ffef8
 keywords:
-- LVM_GETITEMSPACING message Windows 控制項
+- LVM_GETITEMSPACING 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5ea08a7fc1004ffb46d710da6d1c2a8b0fb18e57
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 687a1aa75d71b96cebe855bb97ea57f0a9c628ed49b1ef7a51a7557b23b5ce41
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934898"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120088888"
 ---
 # <a name="lvm_getitemspacing-message"></a>LVM \_ GETITEMSPACING 訊息
 
@@ -49,8 +49,8 @@ ms.locfileid: "103934898"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

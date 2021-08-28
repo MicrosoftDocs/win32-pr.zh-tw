@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2dca590dcca3b11e7b6763272a51b86a62e100b2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d66c75de2479ce6426546fa58e51afa39d34cf72978e7812680682803d797651
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106999420"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119135070"
 ---
 # <a name="mediacollectioncreatequery-method"></a>MediaCollection. createQuery 方法
 

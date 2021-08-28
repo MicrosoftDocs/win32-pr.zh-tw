@@ -3,7 +3,7 @@ title: 'NM_CUSTOMDRAW (按鈕) 通知碼 (Commctrl) '
 description: 通知按鈕控制項的父視窗，有關按鈕上的自訂繪製作業。 按鈕控制項會以 WM 通知訊息的形式傳送此通知碼 \_ 。
 ms.assetid: cabe5515-ba64-4c53-8746-7a0559df8989
 keywords:
-- NM_CUSTOMDRAW (按鈕) 通知碼 Windows 控制項
+- NM_CUSTOMDRAW (按鈕) 通知程式碼 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ab3cc4eb73c3a0185131bb6ef2198458888ec89d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f5930dd9023bac636fb645b7309c17cb4d70902b88a2b4f8a8ba857984a54ac1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104467113"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120061738"
 ---
 # <a name="nm_customdraw-button-notification-code"></a>NM \_ CUSTOMDRAW (按鈕) 通知碼
 
@@ -53,7 +53,7 @@ NM_CUSTOMDRAW
 
 
 
-| 傳回碼                                                                                          | Description                                                                                                                                                           |
+| 傳回碼                                                                                          | 描述                                                                                                                                                           |
 |------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**CDRF \_ NOTIFYPOSTERASE**</dt> </dl> | 控制項將會在清除專案之後通知父代。 只有在 **dwDrawStage** 等於 CDDS PREERASE 時，才可以使用此 \_ 。<br/>                                  |
 | <dl> <dt>**CDRF \_ NOTIFYPOSTPAINT**</dt> </dl> | 控制項將會在繪製專案之後通知父系。 只有在 **dwDrawStage** 等於 CDDS PREPAINT 時，才可以使用此 \_ 。<br/>                                 |
@@ -80,9 +80,9 @@ NM_CUSTOMDRAW
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                            |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                      |
-| 標頭<br/>                   | <dl> <dt>Commctrl (包含) 的 Windows。h </dt> </dl> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                            |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                      |
+| 標頭<br/>                   | <dl> <dt>Commctrl (包含 Windows .h) </dt> </dl> |
 
 
 

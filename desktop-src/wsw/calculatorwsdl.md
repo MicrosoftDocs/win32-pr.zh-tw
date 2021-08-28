@@ -3,17 +3,17 @@ title: CalculatorWsdl
 description: 這是計算機服務範例的 wsdl/schema 範例。
 ms.assetid: 6dbea7dc-2d5c-4e6d-9941-9a93943e1914
 keywords:
-- 適用于 Windows 的 CalculatorWsdl Web 服務
+- Windows 的 CalculatorWsdl Web 服務
 - WWSAPI
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5f60dc25615134bf3f28428d310c58855781993d
-ms.sourcegitcommit: 40dd8501397fc79a643deb528c6c57ac2e9726ce
+ms.openlocfilehash: b43de4acbd6568a3ecd35d9a8075218fbda3779845cb3743bfb85a514f0cc891
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/24/2020
-ms.locfileid: "103679511"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119703628"
 ---
 # <a name="calculatorwsdl"></a>CalculatorWsdl
 
@@ -122,9 +122,9 @@ ms.locfileid: "103679511"
 </wsdl:definitions>
 ```
 
- 
+ 
 
- 
+ 
 
 
 

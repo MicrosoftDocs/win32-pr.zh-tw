@@ -4,12 +4,12 @@ ms.assetid: 0c930348-8669-42cc-9d74-df9ef475bdc8
 title: 'MF_MT_VIDEO_CHROMA_SITING 屬性 (Mfapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fa634cf9a9ca7f5c292eb0cf06c6a1a14c788d43
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d5954f6d1649c366056bf9362a4226314d79ad78708fd4140f355506f7ee637d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106996789"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118741524"
 ---
 # <a name="mf_mt_video_chroma_siting-attribute"></a>MF \_ MT \_ 視頻 \_ 色度 \_ 地點屬性
 
@@ -31,8 +31,8 @@ ms.locfileid: "106996789"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows Vista \[ 桌面應用程式 \| UWP 應用程式\]<br/>                              |
-| 最低支援的伺服器<br/> | Windows Server 2008 \[ desktop app \| UWP 應用程式\]<br/>                        |
+| 最低支援的用戶端<br/> | WindowsVista \[ desktop apps \| UWP 應用程式\]<br/>                              |
+| 最低支援的伺服器<br/> | WindowsServer 2008 \[ desktop app \| UWP 應用程式\]<br/>                        |
 | 標頭<br/>                   | <dl> <dt>Mfapi。h</dt> </dl> |
 
 

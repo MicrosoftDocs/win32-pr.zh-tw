@@ -4,12 +4,12 @@ ms.assetid: EBEFED1F-D0B8-4C7E-B1FB-CDE3BDFD99AA
 title: MPEG-2 音訊編碼器
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 935b6438c79e9bf78a230f707f8930f859c3fa491dab0326208d5cf79b53f474
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9c75956f55dfa22034b27465082ced0888fbe03b
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118240007"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122475534"
 ---
 # <a name="mpeg-2-audio-encoder"></a>MPEG-2 音訊編碼器
 
@@ -27,69 +27,16 @@ MEPG-2 音訊編碼器 (CLSID) 的類別識別碼為 **clsid \_ CMPEG2AudioEncod
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>屬性</th>
-<th>描述</th>
-<th>備註</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="mf-mt-major-type-attribute.md">MF_MT_MAJOR_TYPE</a></td>
-<td>主要類型。</td>
-<td>必要。 必須是 <strong>MFMediaType_Audio</strong>。</td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-subtype-attribute.md">MF_MT_SUBTYPE</a></td>
-<td>音訊子類型。</td>
-<td>必要。 必須是 <strong>MFAudioFormat_MPEG</strong>。 這個子類型可用於 MPEG-2 和 MPEG-2 音訊。</td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-audio-samples-per-second-attribute.md">MF_MT_AUDIO_SAMPLES_PER_SECOND</a></td>
-<td>每秒樣本數。</td>
-<td>必要。 MPEG-2 和 MPEG-2 都支援下列值：
-<ul>
-<li>32000</li>
-<li>44100</li>
-<li>48000</li>
-</ul>
-此外，MPEG-2 LSF 支援下列值： <br/>
-<ul>
-<li>16000</li>
-<li>22050</li>
-<li>24000</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-audio-num-channels-attribute.md">MF_MT_AUDIO_NUM_CHANNELS</a></td>
-<td>通道數目。</td>
-<td>必要。 必須是 1 (mono) 或 2 (身歷聲) 。</td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-audio-channel-mask-attribute.md">MF_MT_AUDIO_CHANNEL_MASK</a></td>
-<td>指定喇叭位置的音訊通道指派。</td>
-<td>選擇性。 如果設定，則值必須是 0x3 (front 左方和右聲道) 或 0x4 (front center 頻道) 。</td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-audio-avg-bytes-per-second-attribute.md">MF_MT_AUDIO_AVG_BYTES_PER_SECOND</a></td>
-<td>編碼 MPEG 資料流程的位元速率（以每秒位元組數為單位）。</td>
-<td>選擇性。<br/> ISO/IEC 11172-3 和 ISO/IEC 13818-3 (LSF) 規格會根據取樣率、通道數目和音訊層 (1 或 2) ，定義數位費率。 <br/> 編碼器預設為第2層音訊。 如果未設定 <a href="mf-mt-audio-avg-bytes-per-second-attribute.md">MF_MT_AUDIO_AVG_BYTES_PER_SECOND</a> 屬性，則編碼器會使用下列預設的位元速率：<br/>
-<ul>
-<li>MPEG-1 身歷聲：每秒224000位 (bps) = 每秒28000位元組。</li>
-<li>MPEG-2 mono： 192000 bps = 每秒24000位元組。</li>
-<li>MPEG-2 LSF、mono 或身歷聲： 160000 bps = 每秒20000位元組。</li>
-</ul>
-這個屬性可以設定為其他值。 如果根據 MPEG 規格，此值無效，則 MFT 會拒絕媒體類型。<br/> 您也可以使用 <a href="/windows/desktop/api/strmif/nn-strmif-icodecapi"><strong>ICodecAPI</strong></a> 介面來設定位元速率。 如需詳細資訊，請參閱「備註」。<br/></td>
-</tr>
-</tbody>
-</table>
+
+| 屬性 | 描述 | 備註 | 
+|-----------|-------------|---------|
+| <a href="mf-mt-major-type-attribute.md">MF_MT_MAJOR_TYPE</a> | 主要類型。 | 必要。 必須是 <strong>MFMediaType_Audio</strong>。 | 
+| <a href="mf-mt-subtype-attribute.md">MF_MT_SUBTYPE</a> | 音訊子類型。 | 必要。 必須是 <strong>MFAudioFormat_MPEG</strong>。 這個子類型可用於 MPEG-2 和 MPEG-2 音訊。 | 
+| <a href="mf-mt-audio-samples-per-second-attribute.md">MF_MT_AUDIO_SAMPLES_PER_SECOND</a> | 每秒樣本數。 | 必要。 MPEG-2 和 MPEG-2 都支援下列值：<ul><li>32000</li><li>44100</li><li>48000</li></ul>此外，MPEG-2 LSF 支援下列值： <br /><ul><li>16000</li><li>22050</li><li>24000</li></ul> | 
+| <a href="mf-mt-audio-num-channels-attribute.md">MF_MT_AUDIO_NUM_CHANNELS</a> | 通道數目。 | 必要。 必須是 1 (mono) 或 2 (身歷聲) 。 | 
+| <a href="mf-mt-audio-channel-mask-attribute.md">MF_MT_AUDIO_CHANNEL_MASK</a> | 指定喇叭位置的音訊通道指派。 | 選擇性。 如果設定，則值必須是 0x3 (front 左方和右聲道) 或 0x4 (front center 頻道) 。 | 
+| <a href="mf-mt-audio-avg-bytes-per-second-attribute.md">MF_MT_AUDIO_AVG_BYTES_PER_SECOND</a> | 編碼 MPEG 資料流程的位元速率（以每秒位元組數為單位）。 | 選擇性。<br /> ISO/IEC 11172-3 和 ISO/IEC 13818-3 (LSF) 規格會根據取樣率、通道數目和音訊層 (1 或 2) ，定義數位費率。 <br /> 編碼器預設為第2層音訊。 如果未設定 <a href="mf-mt-audio-avg-bytes-per-second-attribute.md">MF_MT_AUDIO_AVG_BYTES_PER_SECOND</a> 屬性，則編碼器會使用下列預設的位元速率：<br /><ul><li>MPEG-1 身歷聲：每秒224000位 (bps) = 每秒28000位元組。</li><li>MPEG-2 mono： 192000 bps = 每秒24000位元組。</li><li>MPEG-2 LSF、mono 或身歷聲： 160000 bps = 每秒20000位元組。</li></ul>這個屬性可以設定為其他值。 如果根據 MPEG 規格，此值無效，則 MFT 會拒絕媒體類型。<br /> 您也可以使用 <a href="/windows/desktop/api/strmif/nn-strmif-icodecapi"><strong>ICodecAPI</strong></a> 介面來設定位元速率。 如需詳細資訊，請參閱「備註」。<br /> | 
+
 
 
 
@@ -103,71 +50,19 @@ MEPG-2 音訊編碼器 (CLSID) 的類別識別碼為 **clsid \_ CMPEG2AudioEncod
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>屬性</th>
-<th>描述</th>
-<th>備註</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="mf-mt-major-type-attribute.md">MF_MT_MAJOR_TYPE</a></td>
-<td>主要類型。</td>
-<td>必要。 必須是 <strong>MFMediaType_Audio</strong>。</td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-subtype-attribute.md">MF_MT_SUBTYPE</a></td>
-<td>音訊子類型。</td>
-<td>必要。 必須是 <strong>MFAudioFormat_PCM</strong> 或 <strong>MFAudioFormat_Float</strong>。</td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-audio-bits-per-sample-attribute.md">MF_MT_AUDIO_BITS_PER_SAMPLE</a></td>
-<td>每個音訊樣本的位數數目。</td>
-<td>必要。 如果子類型為 <strong>MFAudioFormat_PCM</strong>，則值必須是16，如果是 <strong>MFAudioFormat_Float</strong>子類型，則為32。</td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-audio-samples-per-second-attribute.md">MF_MT_AUDIO_SAMPLES_PER_SECOND</a></td>
-<td>每秒樣本數。</td>
-<td>必要。 必須符合輸出類型。</td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-audio-num-channels-attribute.md">MF_MT_AUDIO_NUM_CHANNELS</a></td>
-<td>通道數目。</td>
-<td>必要。 必須符合輸出類型。</td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-audio-block-alignment-attribute.md">MF_MT_AUDIO_BLOCK_ALIGNMENT</a></td>
-<td>區塊對齊（以位元組為單位）。</td>
-<td>必要。 計算值，如下所示：
-<ul>
-<li><strong>MFAudioFormat_PCM</strong>：通道數目×2。</li>
-<li><strong>MFAudioFormat_Float</strong>：通道數目×4。</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-audio-avg-bytes-per-second-attribute.md">MF_MT_AUDIO_AVG_BYTES_PER_SECOND</a></td>
-<td>編碼 AC3 資料流程的位元速率（以每秒位元組數為單位）。</td>
-<td>必要。 每秒必須等於區塊對齊×樣本。</td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-audio-channel-mask-attribute.md">MF_MT_AUDIO_CHANNEL_MASK</a></td>
-<td>指定喇叭位置的音訊通道指派。</td>
-<td>選擇性。 如果設定，則值必須符合輸出類型。</td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-audio-valid-bits-per-sample-attribute.md">MF_MT_AUDIO_VALID_BITS_PER_SAMPLE</a></td>
-<td>每個音訊樣本中音訊資料的有效位數。</td>
-<td>選擇性。 如果設定，此值必須等同于 <a href="mf-mt-audio-bits-per-sample-attribute.md">MF_MT_AUDIO_BITS_PER_SAMPLE</a>。</td>
-</tr>
-</tbody>
-</table>
+
+| 屬性 | 描述 | 備註 | 
+|-----------|-------------|---------|
+| <a href="mf-mt-major-type-attribute.md">MF_MT_MAJOR_TYPE</a> | 主要類型。 | 必要。 必須是 <strong>MFMediaType_Audio</strong>。 | 
+| <a href="mf-mt-subtype-attribute.md">MF_MT_SUBTYPE</a> | 音訊子類型。 | 必要。 必須是 <strong>MFAudioFormat_PCM</strong> 或 <strong>MFAudioFormat_Float</strong>。 | 
+| <a href="mf-mt-audio-bits-per-sample-attribute.md">MF_MT_AUDIO_BITS_PER_SAMPLE</a> | 每個音訊樣本的位數數目。 | 必要。 如果子類型為 <strong>MFAudioFormat_PCM</strong>，則值必須是16，如果是 <strong>MFAudioFormat_Float</strong>子類型，則為32。 | 
+| <a href="mf-mt-audio-samples-per-second-attribute.md">MF_MT_AUDIO_SAMPLES_PER_SECOND</a> | 每秒樣本數。 | 必要。 必須符合輸出類型。 | 
+| <a href="mf-mt-audio-num-channels-attribute.md">MF_MT_AUDIO_NUM_CHANNELS</a> | 通道數目。 | 必要。 必須符合輸出類型。 | 
+| <a href="mf-mt-audio-block-alignment-attribute.md">MF_MT_AUDIO_BLOCK_ALIGNMENT</a> | 區塊對齊（以位元組為單位）。 | 必要。 計算值，如下所示：<ul><li><strong>MFAudioFormat_PCM</strong>：通道數目×2。</li><li><strong>MFAudioFormat_Float</strong>：通道數目×4。</li></ul> | 
+| <a href="mf-mt-audio-avg-bytes-per-second-attribute.md">MF_MT_AUDIO_AVG_BYTES_PER_SECOND</a> | 編碼 AC3 資料流程的位元速率（以每秒位元組數為單位）。 | 必要。 每秒必須等於區塊對齊×樣本。 | 
+| <a href="mf-mt-audio-channel-mask-attribute.md">MF_MT_AUDIO_CHANNEL_MASK</a> | 指定喇叭位置的音訊通道指派。 | 選擇性。 如果設定，則值必須符合輸出類型。 | 
+| <a href="mf-mt-audio-valid-bits-per-sample-attribute.md">MF_MT_AUDIO_VALID_BITS_PER_SAMPLE</a> | 每個音訊樣本中音訊資料的有效位數。 | 選擇性。 如果設定，此值必須等同于 <a href="mf-mt-audio-bits-per-sample-attribute.md">MF_MT_AUDIO_BITS_PER_SAMPLE</a>。 | 
+
 
 
 

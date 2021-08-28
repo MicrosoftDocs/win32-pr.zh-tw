@@ -13,12 +13,12 @@ keywords:
 - 傳送 MIDI 訊息
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9dbe2a2854abf9dd1ba67a93954c0823ac387b86
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 35ab8fd8d09295cc40a3ea9b5d8070603a4e7813030b4f04f92a51f7f8709f5b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103681872"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119892728"
 ---
 # <a name="sending-midi-messages-with-stream-buffers"></a>使用資料流程緩衝區傳送 MIDI 訊息
 
@@ -26,6 +26,6 @@ ms.locfileid: "103681872"
 
 使用 **midiStreamOut** 傳送資料的資料流程緩衝區之後，您必須等到設備磁碟機完成後再釋放資料區塊。 如果您要傳送多個資料區塊，您必須監視每個資料區塊的完成，讓您知道何時傳送其他區塊。 如需有關監視資料區塊完成的不同技術的詳細資訊，請參閱 [管理 MIDI 資料區塊](managing-midi-data-blocks.md)。
 
- 
+ 
 
- 
+ 

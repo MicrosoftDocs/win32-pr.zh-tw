@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 api_location:
 - Winspool.h
-ms.openlocfilehash: 08197a6a72da7e38a349014e08d2d2c2c946f6e4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6a0abcd2d9d09b65e8b4d5dd27e01532859a8060eda7847f0c1b7888a3c9714f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194972"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119950758"
 ---
 # <a name="addjob_info_1-structure"></a>SYSTEM.PRINTING.PRINTQUEUE.ADDJOB \_ INFO \_ 1 結構
 
@@ -64,7 +64,7 @@ typedef struct _ADDJOB_INFO_1 {
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                                |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                      |
-| 標頭<br/>                   | <dl> <dt>Winspool.drv (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>winspool.drv (包含 Windows .h) </dt> </dl> |
 | Unicode 與 ANSI 名稱<br/>   | **\_ System.printing.printqueue.addjob \_ Info \_ 1W** (Unicode) 和 **\_ system.printing.printqueue.addjob \_ info \_ 1a** (ANSI) <br/>                             |
 
 

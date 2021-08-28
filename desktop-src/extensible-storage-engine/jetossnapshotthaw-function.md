@@ -18,12 +18,12 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 445fa1d2370f13ae39615d4228b245899173ad8d
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.openlocfilehash: 26c9a29d2d8beb3db3287515995be10820b8a8262d124444939258cd4a410a1b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122986681"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120115738"
 ---
 # <a name="jetossnapshotthaw-function"></a>JetOSSnapshotThaw 函式
 
@@ -57,14 +57,36 @@ _**適用于：** Windows |Windows伺服器_
 
 此函數會傳回具有下列其中一個傳回碼的 [JET_ERR](./jet-err.md) 資料類型。 如需可能 ESE 錯誤的詳細資訊，請參閱可延伸的[儲存體引擎錯誤](./extensible-storage-engine-errors.md)和[錯誤處理參數](./error-handling-parameters.md)。
 
-
-| <p>傳回碼</p> | <p>Description</p> | 
-|--------------------|--------------------|
-| <p>JET_errSuccess</p> | <p>作業已成功完成。</p> | 
-| <p>JET_errInvalidParameter</p> | <p>快照集會話無效，或 <em>grbit</em> 參數無效。</p> | 
-| <p>JET_errOSSnapshotTimeOut</p> | <p>快照會話發生此呼叫之前的內部超時時間。 因此，在進行此呼叫之前，IO 作業會恢復正常。</p> | 
-| <p>JET_errOSSnapshotInvalidSnapId</p> | <p>快照集會話的識別碼無效。</p> | 
-
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>傳回碼</p></th>
+<th><p>描述</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>JET_errSuccess</p></td>
+<td><p>作業已成功完成。</p></td>
+</tr>
+<tr class="even">
+<td><p>JET_errInvalidParameter</p></td>
+<td><p>快照集會話無效，或 <em>grbit</em> 參數無效。</p></td>
+</tr>
+<tr class="odd">
+<td><p>JET_errOSSnapshotTimeOut</p></td>
+<td><p>快照會話發生此呼叫之前的內部超時時間。 因此，在進行此呼叫之前，IO 作業會恢復正常。</p></td>
+</tr>
+<tr class="even">
+<td><p>JET_errOSSnapshotInvalidSnapId</p></td>
+<td><p>快照集會話的識別碼無效。</p></td>
+</tr>
+</tbody>
+</table>
 
 
 如果此函式成功，快照集會話就會結束，而且會繼續正常的引擎行為。 新的快照集會話稍後可以啟動。
@@ -77,15 +99,34 @@ _**適用于：** Windows |Windows伺服器_
 
 #### <a name="requirements"></a>規格需求
 
-
-| 需求 | 值 |
-|------------|----------|
-| <p><strong>用戶端</strong></p> | <p>需要 Windows Vista 或 Windows XP。</p> | 
-| <p><strong>伺服器</strong></p> | <p>需要 Windows server 2008 或 Windows server 2003。</p> | 
-| <p><strong>標頭</strong></p> | <p>宣告于 Esent. h 中。</p> | 
-| <p><strong>程式庫</strong></p> | <p>使用 ESENT。</p> | 
-| <p><strong>DLL</strong></p> | <p>需要 ESENT.dll。</p> | 
-
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><p><strong>用戶端</strong></p></td>
+<td><p>需要 Windows Vista 或 Windows XP。</p></td>
+</tr>
+<tr class="even">
+<td><p><strong>伺服器</strong></p></td>
+<td><p>需要 Windows server 2008 或 Windows server 2003。</p></td>
+</tr>
+<tr class="odd">
+<td><p><strong>標頭</strong></p></td>
+<td><p>宣告于 Esent. h 中。</p></td>
+</tr>
+<tr class="even">
+<td><p><strong>程式庫</strong></p></td>
+<td><p>使用 ESENT。</p></td>
+</tr>
+<tr class="odd">
+<td><p><strong>DLL</strong></p></td>
+<td><p>需要 ESENT.dll。</p></td>
+</tr>
+</tbody>
+</table>
 
 
 #### <a name="see-also"></a>另請參閱

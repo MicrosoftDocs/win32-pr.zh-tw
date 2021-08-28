@@ -4,12 +4,12 @@ ms.assetid: 2e238d31-98b2-4c79-96b0-9e6949010a73
 title: 'MFPKEY_DECODERCOMPLEXITYPROFILE 屬性 (Wmcodecdsp) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f39544830a0a05e21779a637da61d3bcb310fcd8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ca206357a3f3a396ac6d07ea16a1b72bc245c641095a5523e46139dfd6af7f76
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848819"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119604218"
 ---
 # <a name="mfpkey_decodercomplexityprofile-property"></a>MFPKEY \_ DECODERCOMPLEXITYPROFILE 屬性
 
@@ -36,11 +36,11 @@ g \_ wszWMVCDecoderComplexityProfile
 | L1  | 取樣率為 44.1 KHz 且最大位元速率為 161 Kbps 的標準編碼。         |
 | L2  | 使用取樣率的標準編碼，最高可達 48 KHz，最大位元速率為 161 Kbps。         |
 | L3  | 使用取樣率的標準編碼，最高可達 48 KHz，最大位元速率為 385 Kbps。         |
-| "M0a" | 使用取樣率的專業編碼，最高可達48到 192 Kbps 之間的 48 KHz 和位元速率。  |
-| "M0b" | 具有最高 48 KHz 和最大位元速率為 192 Kbps 之取樣率的專業編碼。      |
-| M1  | 具有最高 48 KHz 和最大位元速率為 384 Kbps 之取樣率的專業編碼。      |
-| M2  | 具有最高 96 KHz 和最大位元速率為 768 Kbps 之取樣率的專業編碼。      |
-| M3  | 具有最高 96 KHz 和最大位元速率為 1.5 Mbps 之取樣率的專業編碼。      |
+| "M0a" | 使用取樣率的 Professional 編碼，最高可達48到 192 Kbps 之間的 48 KHz 和位元速率。  |
+| "M0b" | 使用取樣率的 Professional 編碼，最高可達 48 KHz，最大位元速率為 192 Kbps。      |
+| M1  | 使用取樣率的 Professional 編碼，最高可達 48 KHz，最大位元速率為 384 Kbps。      |
+| M2  | 使用取樣率的 Professional 編碼，最高可達 96 KHz，最大位元速率為 768 Kbps。      |
+| M3  | 使用取樣率的 Professional 編碼，最高可達 96 KHz，最大位元速率為 1.5 Mbps。      |
 | N1  | 使用取樣率的無失真編碼，最高可達 48 KHz，最多2個通道。                |
 | N2  | 使用取樣率高達 96 KHz 的無失真編碼，以及最多6個通道 (5.1 環繞) 。 |
 | N3  | 使用取樣率高達 96 KHz 的無失真編碼，以及最多8個通道 (7.1 環繞) 。 |
@@ -55,7 +55,7 @@ g \_ wszWMVCDecoderComplexityProfile
 
 | 值 | 描述                                                                       |
 |-------|-----------------------------------------------------------------------------------|
-| AP  | advanced profile (僅適用于 Windows Media 視訊 9 Advanced Profile 編解碼器)  |
+| AP  | advanced profile (僅適用于 Windows Media 視訊 9 advanced profile 編解碼器)  |
 | CP  | 不再支援                                                               |
 | 多功能  | 主要設定檔                                                                      |
 | SP-1  | 簡單設定檔                                                                    |
@@ -72,8 +72,8 @@ g \_ wszWMVCDecoderComplexityProfile
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                             |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                    |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                             |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                    |
 | 標頭<br/>                   | <dl> <dt>Wmcodecdsp。h</dt> </dl> |
 
 

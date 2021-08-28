@@ -4,12 +4,12 @@ ms.assetid: b8e8da1a-94a9-4540-a4eb-fe0c0cd383f9
 title: WPD_CONTENT_TYPE_TELEVISION
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e9e5141be847c0701f8828af0de8df41b8be21e5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: df7affe9058cf80c05d876becb2446186494161c085a383b0ee1b31b57452e61
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319928"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119703858"
 ---
 # <a name="wpd_content_type_television"></a>WPD \_ 內容 \_ 類型 \_ 電視
 

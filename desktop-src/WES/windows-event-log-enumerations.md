@@ -1,19 +1,19 @@
 ---
-title: Windows 事件記錄檔列舉
-description: Windows 事件記錄檔會定義下列列舉。
+title: Windows事件記錄檔列舉
+description: Windows事件記錄檔會定義下列列舉。
 ms.assetid: 2dd0e9ef-057b-4d0a-8b21-e7f14e5ae6e3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c019a090d1a12e30948e5ed1f5672853caed848c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: cd4fa05f1d9115c7888b3b796a90dd6a07019ad5158764bd91c80f20d96c71e3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106966204"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119904028"
 ---
-# <a name="windows-event-log-enumerations"></a>Windows 事件記錄檔列舉
+# <a name="windows-event-log-enumerations"></a>Windows事件記錄檔列舉
 
-Windows 事件記錄檔會定義下列列舉。
+Windows事件記錄檔會定義下列列舉。
 
 
 
@@ -46,11 +46,11 @@ Windows 事件記錄檔會定義下列列舉。
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

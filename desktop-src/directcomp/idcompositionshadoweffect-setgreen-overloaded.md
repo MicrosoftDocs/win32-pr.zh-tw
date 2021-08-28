@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 24f3da34cfdff3ab845079a4993f02c36e2620e1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 93f03d283715784a22a4a5aed4bd01ccf6b65c567896347aec65e531cb8ffb34
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990086"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120067468"
 ---
 # <a name="idcompositionshadoweffectsetgreen-methods"></a>IDCompositionShadowEffect：： SetGreen 方法
 

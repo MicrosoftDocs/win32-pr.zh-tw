@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d1bd8e0bcfe5de174b0725d7081df641841068f
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 56a45460631ed42729de12870ff2843a885a9afd0a9338ba09c0536965873bd0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104108245"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119702798"
 ---
 # <a name="ds-query-self-quota-extended-right"></a>DS-查詢-自我配額擴充許可權
 

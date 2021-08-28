@@ -6,7 +6,7 @@
     - name: 關於電源管理
       href: about-power-management.md
       items:
-        - name: Windows 電源管理
+        - name: Windows電源管理
           href: windows-power-management.md
         - name: 系統電源狀態
           href: system-power-status.md

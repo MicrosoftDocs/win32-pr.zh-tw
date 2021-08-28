@@ -4,12 +4,12 @@ ms.assetid: 1c2f932d-11f4-406f-8874-2f247b53d70f
 title: 驗證資料類型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 38873b3385817187469466bf67f350a7f0701d2b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b57f5023ede2624041e87bb81279ad768fdb4fd2161924d6c876b364ac91154e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319903"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119141481"
 ---
 # <a name="authentication-data-types"></a>驗證資料類型
 
@@ -33,7 +33,7 @@ ms.locfileid: "104319903"
 
 
 
-| 資料類型或值                         | Description                                                                      |
+| 資料類型或值                         | 描述                                                                      |
 |--------------------------------------------|----------------------------------------------------------------------------------|
 | [SSPI 控制碼](sspi-handles.md)           | SSPI 會處理這些控制碼的類型和指標。<br/>                      |
 | [SSPI 狀態碼](sspi-status-codes.md) | 在 SSPI 應用程式中傳回的狀態碼。<br/>                           |

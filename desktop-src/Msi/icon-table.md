@@ -4,12 +4,12 @@ ms.assetid: a59c552a-21c0-4dd4-9146-88a5f9a22962
 title: 圖示表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1e8e8e38575dc6f6e6bda10b2c1047f3940f7559
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c00205ede9accf4ae6394a6f00bc6ae6ad54a19c5540159f57498ac5066984ff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192445"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119894188"
 ---
 # <a name="icon-table"></a>圖示表
 
@@ -21,7 +21,7 @@ ms.locfileid: "104192445"
 
 | Column | 類型                         | 答案 | Nullable |
 |--------|------------------------------|-----|----------|
-| Name   | [識別碼](identifier.md) | Y   | N        |
+| 名稱   | [識別碼](identifier.md) | Y   | N        |
 | 資料   | [二進位](binary.md)         | N   | N        |
 
 
@@ -42,7 +42,7 @@ ms.locfileid: "104192445"
 <span id="Data"></span><span id="data"></span><span id="DATA"></span>資料
 </dt> <dd>
 
-PE 中的二進位圖示資料 ( .dll 或 .exe) 或圖示 ( .ico) 格式。
+PE 中的二進位圖示資料 (.dll 或 .exe) 或圖示 ( .ico) 格式。
 
 </dd> </dl>
 

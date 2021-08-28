@@ -1,5 +1,5 @@
 ---
-title: 流程式控制制限制
+title: Flow控制項限制
 description: 圖元著色器流程式控制制指令有限制，會影響指令中可包含的嵌套層級數目。 此外，使用漸層指示來執行每個圖元的流量控制也有一些限制。
 ms.assetid: 17a902cd-16a4-4065-9249-01f9b1f40506
 ms.topic: article
@@ -9,24 +9,24 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 34891e29a1bb27aead629db2cc7473c7d4329af5
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b261cff11a95236e9bc6653c59c16ca0ac221ca719ade7497dbfffa2198da207
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840844"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119982938"
 ---
-# <a name="flow-control-limitations"></a>流程式控制制限制
+# <a name="flow-control-limitations"></a>Flow控制項限制
 
 圖元著色器流程式控制制指令有限制，會影響指令中可包含的嵌套層級數目。 此外，使用漸層指示來執行每個圖元的流量控制也有一些限制。
 
 > [!Note]  
 > 當您使用 \* \_ 4 個 \_ \_ 層級 \_ 9 \_ x HLSL 著色器設定檔時，會隱含地使用[著色器模型](dx-graphics-hlsl-sm2.md)2.x 設定檔來支援具有 Direct3D 9 功能的硬體。 著色器模型2.x 設定檔支援的流程式控制制行為比 [著色器模型](dx-graphics-hlsl-sm4.md) 4.x 和更新版本設定檔更受限。
 
- 
+ 
 
 -   [圖元著色器指令深度計數](#pixel-shader-instruction-depth-counts)
--   [Per-Pixel 流量控制與螢幕漸層的互動](#interaction-of-per-pixel-flow-control-with-screen-gradients)
+-   [Per-Pixel Flow 控制項與螢幕漸層的互動](#interaction-of-per-pixel-flow-control-with-screen-gradients)
 
 ## <a name="pixel-shader-instruction-depth-counts"></a>圖元著色器指令深度計數
 
@@ -58,7 +58,7 @@ ps \_ 2 \_ 0 不支援流量控制。 其他圖元著色器版本的限制如下
 
 
 
- 
+ 
 
 ### <a name="nesting-depth"></a>嵌套深度
 
@@ -75,7 +75,7 @@ ps \_ 2 \_ 0 不支援流量控制。 其他圖元著色器版本的限制如下
 
 
 
- 
+ 
 
 ### <a name="instruction-depth-count-for-ps_2_sw"></a>Ps \_ 2 sw 的指令深度 \_ 計數
 
@@ -105,7 +105,7 @@ ps \_ 2 \_ 0 不支援流量控制。 其他圖元著色器版本的限制如下
 
 
 
- 
+ 
 
 ### <a name="nesting-depth"></a>嵌套深度
 
@@ -122,7 +122,7 @@ ps \_ 2 \_ 0 不支援流量控制。 其他圖元著色器版本的限制如下
 
 
 
- 
+ 
 
 ### <a name="instruction-depth-count-for-ps_3_0"></a>Ps \_ 3 0 的指令深度 \_ 計數
 
@@ -152,7 +152,7 @@ ps \_ 2 \_ 0 不支援流量控制。 其他圖元著色器版本的限制如下
 
 
 
- 
+ 
 
 ### <a name="nesting-depth"></a>嵌套深度
 
@@ -169,7 +169,7 @@ ps \_ 2 \_ 0 不支援流量控制。 其他圖元著色器版本的限制如下
 
 
 
- 
+ 
 
 ### <a name="instruction-depth-count-for-ps_3_sw"></a>Ps \_ 3 sw 的指令深度 \_ 計數
 
@@ -199,7 +199,7 @@ ps \_ 2 \_ 0 不支援流量控制。 其他圖元著色器版本的限制如下
 
 
 
- 
+ 
 
 ### <a name="nesting-depth"></a>嵌套深度
 
@@ -216,9 +216,9 @@ ps \_ 2 \_ 0 不支援流量控制。 其他圖元著色器版本的限制如下
 
 
 
- 
+ 
 
-## <a name="interaction-of-per-pixel-flow-control-with-screen-gradients"></a>Per-Pixel 流量控制與螢幕漸層的互動
+## <a name="interaction-of-per-pixel-flow-control-with-screen-gradients"></a>Per-Pixel Flow 控制項與螢幕漸層的互動
 
 圖元著色器指令集包含數個指令，可產生或使用與螢幕空間 x 和 y 相關的數量漸層。 漸層最常見的用法是計算紋理取樣的詳細層級計算，而在非等向篩選的情況下，選取沿著 anisotropy 軸的範例。 通常，硬體執行會同時在多個圖元上執行圖元著色器 (例如2x2 格線) ，如此一來，在著色器中計算之數量的漸層可以合理地近似在相同的執行點上，以連續的圖元作為值的差異。
 
@@ -228,14 +228,14 @@ ps \_ 2 \_ 0 不支援流量控制。 其他圖元著色器版本的限制如下
 
 -   案例 A：不允許在流量控制內的作業，可能會在基本的圖元之間變化。 這些包括下表列出的作業。 
 
-    | 指令                                                                                                      | 在下列情況中，流量控制允許：                       |
+    | 指令                                                                                                      | 在下列情況中，Flow 控制允許：                       |
     |------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------|
     | [texld-ps \_ 2 \_ 0 和 up](texld---ps-2-0.md)、 [texldb-ps](texldb---ps.md) 和 [texldp-ps](texldp---ps.md) | 紋理座標會使用暫存登錄。 |
     | [dsx-ps](dsx---ps.md) 和 [dsy-ps](dsy---ps.md)                                                            | 用於運算元的臨時暫存器。            |
 
     
 
-     
+     
 
 -   案例 B：可在任何地方使用的作業。 這些包括下表列出的作業。 
 
@@ -248,7 +248,7 @@ ps \_ 2 \_ 0 不支援流量控制。 其他圖元著色器版本的限制如下
 
     
 
-     
+     
 
 這些限制會嚴格地在著色器驗證中強制執行。 如果條件運算式中的運算元是圖元著色器計算的數量，則具有像它這樣的分支條件的案例會在基本的情況下維持一致的狀態，但仍會落在案例 A 中，但不允許。 同樣地，在某些著色器計算數量 x 的情況下，從動態流量控制中要求漸層的情況，但在這種情況下，x 不會在任何分支上修改，但仍會進入案例 A，但不允許。
 
@@ -265,9 +265,9 @@ Predication 已包含在流量控制的這些限制中，因此，您可以使�
 [圖元著色器指示](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

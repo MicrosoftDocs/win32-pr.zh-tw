@@ -1,27 +1,27 @@
 ---
 title: 使用 MSAA 讓無視窗的 ActiveX 控制項可供存取
-description: 說明如何使用 Microsoft Active Accessibility \ 32;API，以確保在) 用戶端應用程式上，輔助技術 (可以存取無視窗的 Microsoft ActiveX 控制項。
+description: 說明如何使用 Microsoft Active Accessibility \ 32;API，以確保可在) 用戶端應用程式 (的輔助技術可存取無視窗的 Microsoft ActiveX 控制項。
 ms.assetid: 30F874F9-EA45-4365-8798-FEA011C62DA9
 keywords:
-- ActiveX 控制項，協助工具
+- ActiveX控制，協助工具
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a3a76aa72fadef502a6a4319284ab34fdd5214d
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 6bac5c4d2a27e5f069f2242999438eebe85e2ea7df1a6bc94890aec142db246c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106968106"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120098108"
 ---
 # <a name="use-msaa-to-make-a-windowless-activex-control-accessible"></a>使用 MSAA 讓無視窗的 ActiveX 控制項可供存取
 
-說明如何使用 Microsoft Active Accessibility API，以確保可在) 用戶端應用程式 (輔助技術時，可存取無視窗的 Microsoft ActiveX 控制項。
+說明如何使用 Microsoft Active Accessibility API，以確保在) 用戶端應用程式中，輔助技術 (可以存取無視窗的 Microsoft ActiveX 控制項。
 
 ## <a name="what-you-need-to-know"></a>您必須知道的事項
 
 ### <a name="technologies"></a>技術
 
--   [ActiveX 控制項](/windows/desktop/com/activex-controls)
+-   [ActiveX控制](/windows/desktop/com/activex-controls)
 -   [Microsoft Active Accessibility](microsoft-active-accessibility.md)
 
 ### <a name="prerequisites"></a>必要條件
@@ -35,7 +35,7 @@ ms.locfileid: "106968106"
 
 ### <a name="step-1-implement-the-iaccessible-interface"></a>步驟1：執行 IAccessible 介面。
 
-若要使無視窗的 ActiveX 控制項可供存取，您必須執行 Microsoft Active Accessibility [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) 介面，就像您對以視窗為基礎的控制項一樣，除了下列步驟中所述。 如需有關執行 **IAccessible** 的詳細資訊，請參閱 [Active Accessibility 伺服器的開發人員指南](developer-s-guide-for-active-accessibility-servers.md)。
+若要讓您的無視窗 ActiveX 控制項可供存取，您必須執行 Microsoft Active Accessibility [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible)介面，如同以視窗為基礎的控制項一樣，除了下列步驟中所述。 如需有關執行 **IAccessible** 的詳細資訊，請參閱 [Active Accessibility 伺服器的開發人員指南](developer-s-guide-for-active-accessibility-servers.md)。
 
 ### <a name="step-2-implement-the-iserviceprovider-interface"></a>步驟2：執行 IServiceProvider 介面。
 
@@ -104,7 +104,7 @@ HRESULT CMyAccessibleMSAAControl::get_accParent(IDispatch **ppdispParent)
 
 ### <a name="step-4-acquire-a-range-of-object-ids-to-assign-to-the-event-sources-in-your-windowless-control"></a>步驟4：取得物件識別碼的範圍，以指派給無視窗控制項中的事件來源。
 
-就像以視窗為基礎的控制項一樣，無視窗的 ActiveX 控制項會呼叫 [**NotifyWinEvent**](/windows/desktop/api/Winuser/nf-winuser-notifywinevent) 函式來通知用戶端有重要的事件。 函數參數包含引發事件之專案的物件識別碼。 無視窗控制項必須使用透過呼叫控制網站的 [**IAccessibleWindowlessSite：： AcquireObjectIdRange**](/windows/desktop/api/oleacc/nf-oleacc-iaccessiblewindowlesssite-acquireobjectidrange) 方法取得的範圍中的值，來指派物件識別碼。
+就像以視窗為基礎的控制項一樣，無視窗的 ActiveX 控制項會呼叫 [**NotifyWinEvent**](/windows/desktop/api/Winuser/nf-winuser-notifywinevent)函式來通知用戶端有重要的事件。 函數參數包含引發事件之專案的物件識別碼。 無視窗控制項必須使用透過呼叫控制網站的 [**IAccessibleWindowlessSite：： AcquireObjectIdRange**](/windows/desktop/api/oleacc/nf-oleacc-iaccessiblewindowlesssite-acquireobjectidrange) 方法取得的範圍中的值，來指派物件識別碼。
 
 此範例顯示如何從控制項容器取得物件識別碼值的範圍。
 
@@ -137,12 +137,12 @@ SafeRelease(&pWindowlessSite);
 
 <dl> <dt>
 
-[使用消費者介面自動化使無視窗的 ActiveX 控制項可供存取](use-ui-automation-to-make-an-windowless-activex-control-accessible.md)
+[使用消費者介面自動化使無視窗 ActiveX 控制項可供存取](use-ui-automation-to-make-an-windowless-activex-control-accessible.md)
 </dt> <dt>
 
-[無視窗的 ActiveX 控制項協助工具](windowless-activex-control-accessibility.md)
+[無視窗 ActiveX 控制項協助工具](windowless-activex-control-accessibility.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

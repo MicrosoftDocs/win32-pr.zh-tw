@@ -12,12 +12,12 @@ keywords:
 - waveOutOpen 函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7c3e7541a00b43b5fb2267a17d4de8bb017823c3
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: adf386c517d900fc4b0450f169060c6be6365df57ab0fcb3e6953337f4f67fbc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106969704"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119892428"
 ---
 # <a name="using-a-callback-function-to-process-driver-messages"></a>使用回呼函式來處理驅動程式訊息
 
@@ -32,6 +32,6 @@ ms.locfileid: "106969704"
 
 如果您需要超過32個位的實例資料，請將指標傳遞至包含其他資訊的結構。
 
- 
+ 
 
- 
+ 

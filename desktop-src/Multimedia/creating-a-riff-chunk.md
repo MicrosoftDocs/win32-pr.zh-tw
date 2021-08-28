@@ -15,12 +15,12 @@ keywords:
 - RIFF 區塊
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: adca2cca96b45ecf0313f811b5df4e966be8fc0f
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: d01130a34759d8445913704a37406d93a1bbce0b8ad714f4467783e4b3a63b63
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103842195"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119144731"
 ---
 # <a name="creating-a-riff-chunk"></a>建立 RIFF 區塊
 
@@ -45,6 +45,6 @@ mmioCreateChunk(hmmio, &mmckinfo, MMIO_CREATERIFF);
 
 使用 [**mmioCreateChunk**](/windows/win32/api/mmiscapi/nf-mmiscapi-mmiocreatechunk) 函式建立區塊之後，檔案位置會設定為區塊的資料欄位， (從區塊開頭算起的8個位元組) 。 如果區塊是 "RIFF" 或 "LIST" 區塊，則檔案位置會設定為表單類型或清單類型後面的位置， (從區塊開頭的12個位元組開始) 。
 
- 
+ 
 
- 
+ 

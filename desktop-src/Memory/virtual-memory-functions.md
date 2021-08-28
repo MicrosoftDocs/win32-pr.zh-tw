@@ -4,12 +4,12 @@ ms.assetid: 9488a854-1ef0-488f-b3d1-57c1acb82a88
 title: 虛擬記憶體函數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5c76866fd10dac01315622e8a4faef7bea436a61
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bee6839a00c573a3724cd22b3d304fef4276db29507c89802b42602120180bd5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970232"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120105708"
 ---
 # <a name="virtual-memory-functions"></a>虛擬記憶體函數
 

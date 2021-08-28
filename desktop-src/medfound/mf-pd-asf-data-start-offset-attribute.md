@@ -4,12 +4,12 @@ ms.assetid: 5145d952-19d9-4bf8-9046-0b5d28f5e641
 title: 'MF_PD_ASF_DATA_START_OFFSET 屬性 (Wmcontainer) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 125ae1263467afe7e0aa9017e8049b13796538fd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4b848d83d32be7abc8c30cd41bf51959c25e4e784c1f5beab645a6ee5b0db381
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103851424"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118741088"
 ---
 # <a name="mf_pd_asf_data_start_offset-attribute"></a>MF \_ PD \_ ASF \_ 資料 \_ 起始 \_ 位移屬性
 
@@ -31,8 +31,8 @@ ms.locfileid: "103851424"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                     |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                     |
 | 標頭<br/>                   | <dl> <dt>Wmcontainer。h</dt> </dl> |
 
 

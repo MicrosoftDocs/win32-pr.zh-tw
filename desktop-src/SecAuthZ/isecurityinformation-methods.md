@@ -4,12 +4,12 @@ ms.assetid: B0C99969-D062-4D94-92D4-90BC33CC72F0
 title: ISecurityInformation 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 99988c4e9030679a1d589012af0ce396dc3b4ca6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0625d778ed3ced8b3604c397767c6493c8ffeea2561d79800c97460e9683c010
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104027349"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119907988"
 ---
 # <a name="isecurityinformation-methods"></a>ISecurityInformation 方法
 

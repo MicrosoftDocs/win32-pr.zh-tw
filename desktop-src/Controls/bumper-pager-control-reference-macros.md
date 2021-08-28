@@ -4,12 +4,12 @@ description: 呼機控制項宏
 ms.assetid: eb0fa59b-e938-47d0-bf0c-429c9cf58095
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 16cd68fe10d08c130b6e8965326fd53ac96914bb
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 2a7e8e033036d62e41fa72586a994f648614d056b7b577124967f2d4274c66c7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "103945796"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119971018"
 ---
 # <a name="pager-control-macros"></a>呼機控制項宏
 

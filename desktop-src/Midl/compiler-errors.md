@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 04bfb8f3465849215711ff70b9d9d67e40817f4e
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.openlocfilehash: 1f4f20e248ae714e4ebd948e9b600be2152c3197
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122884607"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122626604"
 ---
 # <a name="compiler-errors"></a>編譯器錯誤
 
@@ -34,7 +34,7 @@ ms.locfileid: "122884607"
 <thead>
 <tr class="header">
 <th>傳回碼</th>
-<th>說明</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -668,7 +668,7 @@ ms.locfileid: "122884607"
 </tr>
 <tr class="even">
 <td><span id="MIDL2155"></span><span id="midl2155"></span><dl> <dt><strong>MIDL2155</strong></dt> </dl></td>
-<td><dl> <dt><span id="declaration_must_be_of_the_form__const__type__declarator_____initializing_expression_"></span><span id="DECLARATION_MUST_BE_OF_THE_FORM__CONST__TYPE__DECLARATOR_____INITIALIZING_EXPRESSION_"></span>宣告的格式必須是： const &lt; 類型&gt;<declarator> = <initializing expression></dt> <dd> 宣告與 DCE RPC 語法不相容。 使用 <a href="-ms-ext.md"><strong>/ms_ext</strong></a> 或 <a href="-c-ext.md"><strong>/c_ext</strong></a> MIDL 編譯器模式參數。<br/> </dd> </dl></td>
+<td><dl> <dt><span id="declaration_must_be_of_the_form__const__type__declarator_____initializing_expression_"></span><span id="DECLARATION_MUST_BE_OF_THE_FORM__CONST__TYPE__DECLARATOR_____INITIALIZING_EXPRESSION_"></span>宣告的格式必須為： const <type><declarator> = <initializing expression></dt> <dd> 宣告與 DCE RPC 語法不相容。 使用 <a href="-ms-ext.md"><strong>/ms_ext</strong></a> 或 <a href="-c-ext.md"><strong>/c_ext</strong></a> MIDL 編譯器模式參數。<br/> </dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><span id="MIDL2156"></span><span id="midl2156"></span><dl> <dt><strong>MIDL2156</strong></dt> </dl></td>

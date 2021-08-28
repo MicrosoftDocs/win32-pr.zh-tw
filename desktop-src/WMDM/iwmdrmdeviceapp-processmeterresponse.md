@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b57312dc2f401207e41f38f5bf75cddf69a13b1e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 20e20338482533293559f135a221b90220f1e371137b3bc1d62502cb3f2e779b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106998809"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119766448"
 ---
 # <a name="iwmdrmdeviceappprocessmeterresponse-method"></a>IWMDRMDeviceApp：:P rocessMeterResponse 方法
 
@@ -91,13 +91,13 @@ HRESULT ProcessMeterResponse(
 
 
 
-| 傳回碼                                                                                                      | Description                                                                   |
+| 傳回碼                                                                                                      | 描述                                                                   |
 |------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>                             | 此方法已成功。<br/>                                              |
 | <dl> <dt>**DRM \_ E \_ INVALIDARG**</dt> </dl>                | 一或多個引數無效。<br/>                               |
 | <dl> <dt>**裝置的錯誤**</dt> </dl>            | 有許多裝置錯誤。<br/>                                  |
 | <dl> <dt>**DRM 用戶端的錯誤**</dt> </dl>        | 許多內部 DRM 用戶端錯誤。<br/>                     |
-| <dl> <dt>**NS \_ E \_ 裝置 \_ 不是 \_ WMDRM \_ 裝置**</dt> </dl> | 指定的裝置不是 Windows Media DRM 相容裝置。<br/> |
+| <dl> <dt>**NS \_ E \_ 裝置 \_ 不是 \_ WMDRM \_ 裝置**</dt> </dl> | 指定的裝置不是 Windows 媒體 DRM 相容裝置。<br/> |
 
 
 
@@ -105,7 +105,7 @@ HRESULT ProcessMeterResponse(
 
 ## <a name="remarks"></a>備註
 
-如需有關計量的詳細資訊（包括程式碼範例），請參閱 MSDN 網站上的 [使用 Windows MEDIA DRM 10 的數位媒體內容的計量](/previous-versions//bb614723(v=vs.85)) 技術白皮書。
+More information on metering, including code examples, can be found in the whitepaper [Metering the Use of Digital Media Content with Windows Media DRM 10](/previous-versions//bb614723(v=vs.85)) on the MSDN Web site.
 
 ## <a name="requirements"></a>規格需求
 

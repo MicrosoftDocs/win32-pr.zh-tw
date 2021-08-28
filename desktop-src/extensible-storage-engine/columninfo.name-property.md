@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 68572d1bf14e079c79ccee109c714fe2fcfbb053
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 77f6abfddf0a16611033fd9396909e6f2e94f1ca0c6744bba1bb354eb24872f8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191672"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120066958"
 ---
 # <a name="columninfoname-property"></a>ColumnInfo.Name 屬性
 

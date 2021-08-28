@@ -3,13 +3,13 @@ title: 互斥
 description: 互斥
 ms.assetid: 3a3f6763-a241-4bbd-a6e8-62041b05622d
 keywords:
-- Windows Media Format SDK，相互排除
+- Windows媒體格式 SDK，相互排除
 - Advanced Systems Format (ASF) ，相互排除
 - ASF (Advanced Systems Format) ，相互排除
-- Windows Media Format SDK，MBR 相互排除
+- Windows媒體格式 SDK，MBR 相互排除
 - Advanced Systems Format (ASF) 、MBR 相互排除
 - ASF (Advanced Systems Format) ，MBR 相互排除
-- Windows Media 格式 SDK， (MBR) 多位元率
+- Windows媒體格式 SDK， (MBR) 多位元率
 - 'Advanced Systems Format (ASF) 、多位元率 (MBR) '
 - 'ASF (Advanced Systems Format) 、多重位元速率 (MBR) '
 - 相互排除，關於
@@ -23,22 +23,22 @@ keywords:
 - 相互排除，先進的功能
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cd00bf5bcb544d2541a6bc5465171fe9bacc1b9c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: be220873965b10a0da8d22529fa735175bb8366ebe3088c7b1b385af6012b88a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840772"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119084665"
 ---
 # <a name="mutual-exclusion"></a>互斥
 
 每個 ASF 檔案都包含一或多個資料流程，每個都包含數位媒體資料。 在一般情況下，每個資料流程都會與單一輸出相關聯。 在播放時，讀取器物件會提供每個輸出的範例。 因此，根據預設，ASF 檔案中的每個串流都是由讀取器在播放時傳遞。
 
-在某些情況下，您不希望每個串流傳遞至用戶端。 例如，如果您建立包含五個音訊串流的影片檔案，每五種語言各一個，您只想要一次傳遞其中一個。 相互排除是 Windows Media Format SDK 的一項功能，可讓您指定所有等同于相同輸出的互斥資料流程數目。
+在某些情況下，您不希望每個串流傳遞至用戶端。 例如，如果您建立包含五個音訊串流的影片檔案，每五種語言各一個，您只想要一次傳遞其中一個。 相互排除是 Windows 媒體格式 SDK 的一項功能，可讓您指定所有等同于相同輸出的互斥資料流程數目。
 
 相互排除定義在用來建立檔案的設定檔中。 您可以使用相互排除物件，在設定檔中設定相互排除。 您可以一次將一個資料流程新增至相互排除物件、設定類型，並在設定檔中包含物件。
 
-Windows Media Format SDK 會辨識四種相互排除類型：
+Windows 媒體格式 SDK 會辨識四種相互排除的類型：
 
 -   位元速率
 -   語言
@@ -49,7 +49,7 @@ Windows Media Format SDK 會辨識四種相互排除類型：
 
 位元速率互斥是一種特殊的互斥，較常見的方式是使用 (MBR) 互斥的多重位元速率。 MBR 相互排除包含許多資料流程，這些資料流程全都源自相同的輸入，但以不同的位元速率編碼。 使用 MBR 播放檔案時，讀取器會根據可用的頻寬來決定要使用的最佳串流。
 
-Windows Media Format SDK 支援適用于音訊和影片串流的 MBR。 SDK 也支援一種特殊類型的 MBR 影片，稱為多個影片大小 MBR。 這就像一般的 MBR 影片，不同之處在于個別的串流可以有不同的框架大小。 例如，您可能會有一些串流處於預設的 320 x 240 影片大小，有些則具有較高的位元速率和 640 x 480 的影片大小。
+Windows 媒體格式 SDK 支援適用于音訊和影片串流的 MBR。 SDK 也支援一種特殊類型的 MBR 影片，稱為多個影片大小 MBR。 這就像一般的 MBR 影片，不同之處在于個別的串流可以有不同的框架大小。 例如，您可能會有一些串流處於預設的 320 x 240 影片大小，有些則具有較高的位元速率和 640 x 480 的影片大小。
 
 ## <a name="mutual-exclusion-by-language"></a>依語言的相互排除
 
@@ -85,9 +85,9 @@ Windows Media Format SDK 支援適用于音訊和影片串流的 MBR。 SDK 也�
 [**使用相互排除**](using-mutual-exclusion.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

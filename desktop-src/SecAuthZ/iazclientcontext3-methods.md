@@ -4,12 +4,12 @@ ms.assetid: 37BF4FE2-0E4C-4913-B083-4F07D1A39F3F
 title: IAzClientCoNtext3 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cd6af0c9984e556d99580a456ea4ee65695c00e6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6f58b641e2af16261d7f694687b4c3c36a6bfa684c61a6feba7f8b13c12b0c94
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194935"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119908938"
 ---
 # <a name="iazclientcontext3-methods"></a>IAzClientCoNtext3 方法
 

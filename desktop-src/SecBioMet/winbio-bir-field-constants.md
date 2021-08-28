@@ -27,12 +27,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 104710f1686f13227fbe65782c2baf9c13149650
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a354f3119fcef6da3ff204f833616eeb2ac9570cdad0712a87686904ad528958
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104317268"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120035088"
 ---
 # <a name="winbio_bir_field-constants"></a>WINBIO \_ BIR \_ 欄位常數
 
@@ -40,9 +40,9 @@ ms.locfileid: "104317268"
 
 
 
-| 常數/值                                                                                                                                                                                                                                                                                           | Description                                                                                                                                   |
+| 常數/值                                                                                                                                                                                                                                                                                           | 描述                                                                                                                                   |
 |:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------|
-| <span id="WINBIO_BIR_FIELD_SUBHEAD_COUNT"></span><span id="winbio_bir_field_subhead_count"></span><dl> <dt>**WINBIO \_BIR \_ FIELD \_ .subhead \_ COUNT**</dt> <dt>0x0001</dt> </dl>                          | 為了符合 NISTIR 6529-A，常見的生物特徵辨識 Exchange 格式架構 (CBEFF) Patron 格式 A，但不會使用。<br/> |
+| <span id="WINBIO_BIR_FIELD_SUBHEAD_COUNT"></span><span id="winbio_bir_field_subhead_count"></span><dl> <dt>**WINBIO \_BIR \_ FIELD \_ .subhead \_ COUNT**</dt> <dt>0x0001</dt> </dl>                          | 為了符合 NISTIR 6529-A，常見的生物特徵辨識 Exchange 格式 Framework (CBEFF) Patron 格式 A，但不會使用。<br/> |
 | <span id="WINBIO_BIR_FIELD_PRODUCT_ID"></span><span id="winbio_bir_field_product_id"></span><dl> <dt>**WINBIO \_BIR \_ 欄位 \_ 產品 \_ 識別碼**</dt> <dt>0x0002</dt> </dl>                                   | **ProductId** 成員有效。<br/>                                                                                                 |
 | <span id="WINBIO_BIR_FIELD_PATRON_ID"></span><span id="winbio_bir_field_patron_id"></span><dl> <dt>**WINBIO \_BIR \_ 欄位 \_ PATRON \_ 識別碼**</dt> <dt>0x0004</dt> </dl>                                      | 為了符合 NISTIR 6529-A、CBEFF Patron 格式，但未使用。<br/>                                                   |
 | <span id="WINBIO_BIR_FIELD_INDEX"></span><span id="winbio_bir_field_index"></span><dl> <dt>**WINBIO \_BIR \_ 欄位 \_ 索引**</dt> <dt>0x0008</dt> </dl>                                                   | 為了符合 NISTIR 6529-A、CBEFF Patron 格式，但未使用。<br/>                                                   |
@@ -67,8 +67,8 @@ ms.locfileid: "104317268"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                                                    |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/>                                                       |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                                                    |
+| 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/>                                                       |
 | 標頭<br/>                   | <dl> <dt>Winbio \_ 類型 .h (包含 Winbio .h) </dt> </dl> |
 
 

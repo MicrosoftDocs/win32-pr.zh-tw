@@ -4,12 +4,12 @@ description: 本節將討論如何選取按鈕來變更其狀態，以及應用�
 ms.assetid: 7302f0f3-f29d-43d7-8e25-4f36d5ef6a86
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 96865191ac64b14dd35ff1d22631c6bf11763aff
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: d12ac8f0998af2580615e7ab72de6350747aa32dc8e8008eb80caff180b9186b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104463809"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120063648"
 ---
 # <a name="button-states"></a>按鈕狀態
 
@@ -67,6 +67,6 @@ ms.locfileid: "104463809"
 
 應用程式可以將 [**BM \_ GETCHECK**](bm-getcheck.md) 或 [**BM \_ >getstate**](bm-getstate.md) 訊息傳送給它，藉以判斷按鈕的狀態; 應用程式可以將 [**BM \_ SETCHECK**](bm-setcheck.md) 或 [**BM \_ SETSTATE**](bm-setstate.md) 訊息傳送給它，藉以設定按鈕的狀態。
 
- 
+ 
 
- 
+ 

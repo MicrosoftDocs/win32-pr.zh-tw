@@ -3,7 +3,7 @@ title: 'SBM_ENABLE_ARROWS 訊息 (Winuser .h) '
 description: 應用程式會傳送 SBM \_ 啟用 \_ 箭號訊息，以啟用或停用捲軸控制項的一個或兩個箭號。
 ms.assetid: 9646826a-3a7c-490b-822d-7511e4ef2262
 keywords:
-- SBM_ENABLE_ARROWS message Windows 控制項
+- SBM_ENABLE_ARROWS 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 78895b43ec7908172a6164917b33ac8549088db4
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 85e7f3ef8728befe72ec4f2c4afe39caeb10bc0b58984612a5db2445963dc549
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934791"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119770018"
 ---
 # <a name="sbm_enable_arrows-message"></a>SBM \_ 啟用 \_ 箭號訊息
 
@@ -69,9 +69,9 @@ ms.locfileid: "103934791"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                     |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 

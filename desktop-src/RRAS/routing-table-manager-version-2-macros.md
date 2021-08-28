@@ -7,12 +7,12 @@ keywords:
 - 路由表管理員第2版 RRAS、宏
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f5a52ec6c2d161d8e2825c35e9e87eccb03df931
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f71c815e178499234fedf4256cbc1801ffb4668aeba4a84120df591756f4c24c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106968433"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120026858"
 ---
 # <a name="routing-table-manager-version-2-macros"></a>路由表管理員第2版宏
 
@@ -40,9 +40,9 @@ RTMv2 使用下列宏。
 
 [**RTM \_ IPV4 \_ 設定 \_ 位址 \_ 和 \_ 遮罩**](/windows/desktop/api/Rtmv2/nf-rtmv2-rtm_ipv4_set_addr_and_mask)
 
- 
+ 
 
- 
+ 
 
 
 

@@ -7,12 +7,12 @@ keywords:
 - 通訊協定資料單位 SNMP，使用
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c2e40f36fa28f7ff17974d79f4f8ac29b8b6130b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b61fff4aed06d548718df130801c5c64674ff0b10feaf52b8bfad208d441d4fb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021767"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119142761"
 ---
 # <a name="working-with-protocol-data-units"></a>使用通訊協定資料單位
 
@@ -34,13 +34,13 @@ PDU 的結構受限於 Microsoft 的 WinSNMP 實行。 WinSNMP 應用程式可�
 
 
 
- 
+ 
 
 如需詳細資訊，請參閱 [使用變數](working-with-variable-binding-lists.md) 系結清單和 [資源控制碼物件](resource-handle-objects.md)。
 
- 
+ 
 
- 
+ 
 
 
 

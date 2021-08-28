@@ -4,12 +4,12 @@ ms.assetid: e636c2eb-3c11-45bf-ab0b-a14ec878742c
 title: '資料 (X 檔案格式) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: efdf799b9f7f155c8d2a0e883c8d5e79f8091156
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 28a520d05571f592243e71799ad21a7da3a8d8bea6a3f5819508a194eaca90ec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104108412"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119985998"
 ---
 # <a name="data-x-file-format-binary-encoding"></a>資料 (X 檔案格式，二進位編碼) 
 

@@ -1,19 +1,19 @@
 ---
-description: Microsoft 媒體基礎是在 Windows Vista 中引進，作為 DirectShow 的取代。 當然，Windows 7 仍支援 DirectShow，但鼓勵開發人員在新的數位媒體應用程式中使用媒體基礎。
+description: Microsoft 媒體基礎是在 Windows Vista 中引進，以取代 DirectShow。 當然，Windows 7 仍支援 DirectShow，但鼓勵開發人員在新的數位媒體應用程式中使用媒體基礎。
 ms.assetid: c345c0d9-5325-4f73-b9ec-1673ad10e3e4
 title: 媒體基礎的新新
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e0270c28e5aca2a1f0fdad893743a1e8fb630fa5
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 2fd2cd2b70ce23968ba9a302e4ab4e825914931ebffff651b534ee0974d75cee
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104321523"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120012058"
 ---
 # <a name="whats-new-for-media-foundation"></a>媒體基礎的新功能
 
-Microsoft 媒體基礎是在 Windows Vista 中引進，作為 DirectShow 的取代。 當然，Windows 7 仍支援 DirectShow，但鼓勵開發人員在新的數位媒體應用程式中使用媒體基礎。
+Microsoft 媒體基礎是在 Windows Vista 中引進，以取代 DirectShow。 當然，Windows 7 仍支援 DirectShow，但鼓勵開發人員在新的數位媒體應用程式中使用媒體基礎。
 
 媒體基礎的改進可摘要如下：
 
@@ -24,7 +24,7 @@ Microsoft 媒體基礎是在 Windows Vista 中引進，作為 DirectShow 的取�
 
 ## <a name="better-format-support"></a>更好的格式支援
 
-媒體基礎的音訊/影片管線是在 Windows Vista 中執行，但它支援一組有限的格式和檔案容器，這表示某些應用程式需要在較舊的技術（例如 DirectShow）上切換。 在 Windows 7 中，媒體基礎包含下列新的編解碼器、媒體來源和媒體接收器：
+媒體基礎音訊/影片管線是在 Windows Vista 中執行，但它支援一組有限的格式和檔案容器，這表示某些應用程式需要回復舊版技術（例如 DirectShow）。 在 Windows 7 中，媒體基礎包含下列新的編解碼器、媒體來源和媒體接收器：
 
 -   AAC 解碼器
 -   AAC 編碼器
@@ -59,7 +59,7 @@ Microsoft 媒體基礎是在 Windows Vista 中引進，作為 DirectShow 的取�
 
 ## <a name="simplified-programming-model"></a>簡化的程式設計模型
 
-在 Windows Vista 中，媒體基礎公開一組相對較低層級的 Api。 這些 Api 很有彈性，但對簡單的工作來說太複雜。 Windows 7 新增了高階 Api，可讓您更輕鬆地以 c + + 撰寫媒體應用程式。 這些新的高層級 Api 包括下列各項。
+在 Windows Vista 中，媒體基礎公開一組相對低層級的 api。 這些 Api 很有彈性，但對簡單的工作來說太複雜。 Windows 7 加入了新的高階 api，可讓您更輕鬆地以 c + + 撰寫媒體應用程式。 這些新的高層級 Api 包括下列各項。
 
 
 
@@ -77,7 +77,7 @@ Microsoft 媒體基礎是在 Windows Vista 中引進，作為 DirectShow 的取�
 
 ## <a name="platform-improvements"></a>平臺改善
 
-Windows 7 包含了許多基礎媒體基礎平臺 Api 的增強功能。 Advanced applications 可以直接使用這些 Api;其他應用程式可以間接取得權益。 其改善項目包括︰
+Windows 7 包含了許多基礎媒體基礎平臺 api 的增強功能。 Advanced applications 可以直接使用這些 Api;其他應用程式可以間接取得權益。 其改善項目包括︰
 
 -   影片管線中的變更，可減少耗電量和視訊記憶體使用量。
 -   [DXVA-hd](dxva-hd.md)： Microsoft DirectX Video 加速 High DEFINITION (DXVA-hd) 是硬體加速影片處理的新 API。 DXVA-HD 提供比先前的 DXVA 影片處理 API 更具彈性的組合模型，而且更適合用於高定義的影片格式。
@@ -114,11 +114,11 @@ Windows 7 包含了許多基礎媒體基礎平臺 Api 的增強功能。 Advance
     -   [**IMFSourceReaderEx**](/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsourcereaderex)
     -   [**IMFVideoSampleAllocatorEx**](/windows/desktop/api/mfidl/nn-mfidl-imfvideosampleallocatorex)
     -   [**IMFWorkQueueServicesEx**](/windows/desktop/api/mfidl/nn-mfidl-imfworkqueueservicesex)
--   [Direct3D 11 VIDEO API](direct3d-11-video-apis.md) 是 Windows 8 的新。 Windows 8 桌面應用程式仍然可以使用 [direct3d 9 VIDEO api](direct3d-video-apis.md)，但 Windows Store 應用程式必須使用新的 Direct3d 11 video api。 如需有關 Microsoft Direct3D 11 Video 的詳細資訊，請參閱 [媒體基礎中的支援 Direct3D 11 影片解碼](supporting-direct3d-11-video-decoding-in-media-foundation.md)。
+-   [Direct3D 11 VIDEO API](direct3d-11-video-apis.md)是 Windows 8 的新。 Windows 8桌面應用程式仍然可以使用[direct3d 9 video api](direct3d-video-apis.md)，但 Windows Store 應用程式必須使用新的 direct3d 11 video api。 如需有關 Microsoft Direct3D 11 Video 的詳細資訊，請參閱 [媒體基礎中的支援 Direct3D 11 影片解碼](supporting-direct3d-11-video-decoding-in-media-foundation.md)。
 -   媒體基礎工作佇列已有更新和改進。 如需詳細資訊，請參閱 [工作佇列和執行緒改善](media-foundation-work-queue-and-threading-improvements.md) 。
 -   H.264 [UVC 1.5 攝影機編碼器](camera-encoder-h264-uvc-1-5.md)。
--   如需可搭配 Windows Store 應用程式使用媒體基礎 API 的清單，請參閱 [適用于 Windows store 應用程式的 Win32 和 COM (多媒體) ](media-foundation-headers-and-libraries.md)。
--   媒體基礎不包含在 Windows 8 的 N 和 KN 版本中。 如需詳細資訊，請參閱 [Microsoft Windows Media Feature Pack 的 N 和 KN 版本的所有 Windows 8 版本](https://support.microsoft.com/kb/2703761)。
+-   如需可與 Windows Store 應用程式搭配使用媒體基礎 API 的清單，請參閱[Windows Store 應用程式 (多媒體) 的 Win32 和 COM ](media-foundation-headers-and-libraries.md)。
+-   媒體基礎不包含在 Windows 8 的 N 和 KN 版本中。 如需詳細資訊，請參閱[Microsoft Windows Media Feature Pack 的所有 Windows 8 版本的 N 和 KN 版本](https://support.microsoft.com/kb/2703761)。
 
 ## <a name="related-topics"></a>相關主題
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - PortableDeviceGUIDs.lib
 - PortableDeviceGUIDs.dll
-ms.openlocfilehash: 26a5d01ec69203c39008de394e3693acc833d262
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 71e5354c730671a4be5f344bb2503683f497003ddccecbd250490304f607e9ad
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106989558"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119704728"
 ---
 # <a name="iportabledevicevaluessetsignedintegervalue-method"></a>IPortableDeviceValues：： SetSignedIntegerValue 方法
 
@@ -61,7 +61,7 @@ HRESULT SetSignedIntegerValue(
 
 
 
-| 傳回碼                                                                          | Description                      |
+| 傳回碼                                                                          | 描述                      |
 |--------------------------------------------------------------------------------------|----------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl> | 此方法已成功。<br/> |
 

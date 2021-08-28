@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 3eb6d31a50095affdf38d44b69040304674ec6fe
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f4c89bb14377cf46e5395fc106807133d53cd090c0ba9e0eae8e103b438d69fd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107001930"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119910599"
 ---
 # <a name="cbaseoutputpindelivernewsegment-method"></a>CBaseOutputPin. DeliverNewSegment 方法
 
@@ -71,7 +71,7 @@ virtual HRESULT DeliverNewSegment(
 
 
 
-| 傳回碼                                                                                           | Description                      |
+| 傳回碼                                                                                           | 描述                      |
 |-------------------------------------------------------------------------------------------------------|----------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>                  | 成功。<br/>              |
 | <dl> <dt>**VFW \_ E \_ 未 \_ 連線**</dt> </dl> | Pin 未連接。<br/> |

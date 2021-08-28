@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: b0e9b933dc477011c1835da5b95fc6ed11902827
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d7428afc9e12063417a259fc201c23f87138bd9ccfc3ac808dc51842419ae4ca
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106990461"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119604338"
 ---
 # <a name="instanceparametersnoinformationevent-property"></a>InstanceParameters. NoInformationEvent 屬性
 

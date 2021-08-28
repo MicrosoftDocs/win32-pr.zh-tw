@@ -4,12 +4,12 @@ ms.assetid: e36bba94-1fa7-4514-9f8a-bcd690b04d73
 title: 支援的功能
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 00d10fd9ac787483b8dfa6e15046a733992adb97
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 32f0a37664a578bd091ce9972c1979dc7d22f4db33ab2f8eb803bc2c83642f47
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191368"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120080508"
 ---
 # <a name="features-supported"></a>支援的功能
 
@@ -23,7 +23,7 @@ ms.locfileid: "104191368"
 -   支援針對每個資料流程使用篩選圖形的呼叫。
 -   實行圖形事件的處理。
 -   會搭配本身的背景工作執行緒使用執行緒共用 Api 來處理事件。
--   使用原本針對路由) 專案開發的 Windows 2000 (追蹤 Api，以及額外的邏輯來提供有彈性的一般記錄機制，可同時登入下列任何組合：使用者或核心模式的偵錯工具;以元件分隔記錄訊息的個別主控台視窗;記錄檔。
+-   使用 Windows 2000 的追蹤 api，這是原本為路由專案開發的 () 以及額外的邏輯，以提供有彈性的一般記錄機制，可同時登入下列任何組合：使用者或核心模式的偵錯工具;以元件分隔記錄訊息的個別主控台視窗;記錄檔。
 -   執行無限制執行緒。
 
  

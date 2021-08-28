@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 84e72cd17ae65fbffc2cef280f15d12ba0ddbdbe
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: e8409e7e9e0bfc01545ac73673f0653c5a4940c65422223233ec5005f5c9fc02
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103682052"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119560278"
 ---
 # <a name="ncacn_vns_spp-attribute"></a>ncacn \_ vns \_ spp 屬性
 
@@ -47,14 +47,14 @@ endpoint("ncacn_vns_spp:server-name[port-address]")
 
 ## <a name="remarks"></a>備註
 
-為了在 Windows 2000 上執行的分散式應用程式中使用 **ncacn \_ vns \_ spp** 傳輸通訊協定，必須安裝適當的 Banyan 企業用戶端軟體。 安裝之後，開啟 **主控台**，選擇 [設定] **和 [新增**]，然後選取 [ **\| Banyan 的服務 Banyan \| RPC 服務**]。 支援16位用戶端需要適當的 Vines 軟體。 如需 Banyan 企業用戶端產品和16位 Vines 軟體的詳細資訊，請洽詢 Banyan。
+為了在 Windows 2000 上執行的分散式應用程式中使用 **ncacn \_ vns \_ spp** 傳輸通訊協定，必須安裝適當的 Banyan Enterprise 用戶端軟體。 安裝之後，開啟 **主控台**，選擇 [設定] **和 [新增**]，然後選取 [ **\| Banyan 的服務 Banyan \| RPC 服務**]。 支援16位用戶端需要適當的 Vines 軟體。 如需 Banyan 的 Enterprise 用戶端產品和16位 Vines 軟體的詳細資訊，請洽詢 Banyan。
 
 Banyan Vines SPP 傳輸埠字串的語法（如同所有的埠字串），會與 IDL 規格分開定義。 編譯器會執行一些語法檢查，但不保證端點規格是正確的。 某些錯誤可能會在執行時間（而不是在編譯時期）回報。
 
 > [!Note]  
 > Windows XP 不支援此通訊協定系列。
 
- 
+ 
 
 ## <a name="examples"></a>範例
 
@@ -116,6 +116,6 @@ interface iface
 [字串系結](/windows/desktop/Rpc/string-binding)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

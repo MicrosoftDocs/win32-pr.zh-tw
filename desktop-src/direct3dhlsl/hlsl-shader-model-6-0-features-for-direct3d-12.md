@@ -4,12 +4,12 @@ description: 描述新增至 HLSL 著色器模型6.0 的 wave 作業內建。
 ms.assetid: BF968CD3-AC67-48DB-B93F-EF54B680106F
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 10f0f06050c4c387b8e50c1c0cfb39dc5689d45d0e31bd7df5a81f45c63815a7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 494dbb4fd3008bbb3b5441fbc4867f5009c8d3df
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118986538"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122886104"
 ---
 # <a name="hlsl-shader-model-60"></a>HLSL 著色器模型6。0
 
@@ -35,7 +35,7 @@ ms.locfileid: "118986538"
 
 大部分的內建函式都會出現在圖元著色器和計算著色器中，但 (針對每個函式) 注明一些例外狀況。 這些函式已新增至在 API 層級12下的 DirectX 功能等級12.0 需求。
 
-這些函式的 *<type>* 參數和傳回值意指運算式的類型，支援的型別是下列清單中 *也* 存在於您應用程式的目標著色器模型中的類型：
+這些函式的 *&lt; &gt; 型* 別參數和傳回值意指運算式的型別，支援的型別是下列清單中 *也* 存在於您應用程式的目標著色器模型中的類型：
 
 - 半、half2、half3、half4
 - float、float2、float3、float4

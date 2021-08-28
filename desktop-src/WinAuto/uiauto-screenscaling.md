@@ -1,6 +1,6 @@
 ---
 title: 瞭解螢幕縮放問題
-description: Windows Vista 和更新版本的作業系統可讓使用者變更每英寸的點 (DPI) 設定，讓螢幕上大部分的 UI 元素顯示較大。
+description: WindowsVista 和更新版本的作業系統可讓使用者變更每英寸的點 (DPI) 設定，讓螢幕上大部分的 UI 元素顯示較大。
 ms.assetid: 27dc49e7-2466-4ea3-a6d9-5ea86d6b4c60
 keywords:
 - 用戶端，消費者介面自動化螢幕縮放比例
@@ -11,16 +11,16 @@ keywords:
 - 螢幕縮放比例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 05d790ee7747f258847cd23aea8bbbe8c25813fe
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: a4dcdc8d586b4320e4da04dfdd7e0264f36074cc59fa53f42333ec5a6c3dd135
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382481"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119614288"
 ---
 # <a name="understanding-screen-scaling-issues"></a>瞭解螢幕縮放問題
 
-Windows Vista 和更新版本的作業系統可讓使用者變更每英寸的點 (DPI) 設定，讓螢幕上大部分的 UI 元素顯示較大。 在舊版的 Windows 中，調整必須由應用程式來執行。 在 Windows Vista （含）以後版本中，桌面視窗管理員 (DWM) 會針對所有不會處理其本身調整的應用程式執行預設調整。 Microsoft 消費者介面自動化用戶端應用程式必須將這項功能納入考慮。
+WindowsVista 和更新版本的作業系統可讓使用者變更每英寸的點 (DPI) 設定，讓螢幕上大部分的 UI 元素顯示較大。 在舊版 Windows 中，必須由應用程式來執行調整。 在 Windows Vista 和更新版本中，桌面視窗管理員 (DWM) 會針對所有不會處理其本身調整的應用程式執行預設調整。 Microsoft 消費者介面自動化用戶端應用程式必須將這項功能納入考慮。
 
 本主題包含下列幾節：
 
@@ -38,7 +38,7 @@ Windows Vista 和更新版本的作業系統可讓使用者變更每英寸的點
 > [!Note]  
 > 根據預設，當使用者將 DPI 設定為120時，DWM 不會執行非 DPI 感知應用程式的縮放比例，但當 DPI 設定為自訂值144或更高時，則會執行調整。 不過，使用者可以覆寫此預設行為。
 
- 
+ 
 
 針對重視畫面座標的應用程式，畫面縮放比例會產生新挑戰。 畫面現在包含兩個座標系統：實體和邏輯。 點的實體座標是來自原點左上角的實際位移（以圖元為單位）。 邏輯座標則是像素本身縮放時，跟著縮放的位移。
 
@@ -65,6 +65,6 @@ Windows Vista 和更新版本的作業系統可讓使用者變更每英寸的點
 
 其次，若要取得資料指標座標，請呼叫 [**GetPhysicalCursorPos**](/windows/desktop/api/winuser/nf-winuser-getphysicalcursorpos) 函數。
 
- 
+ 
 
- 
+ 

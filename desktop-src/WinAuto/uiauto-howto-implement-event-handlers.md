@@ -4,12 +4,12 @@ description: 本主題包含範例程式碼，示範如何執行可讓用戶端�
 ms.assetid: 6b6549b8-795b-45a8-8fef-59842cc990e4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 159e95e739ae73f1c37d99ae065032fd680f0720
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 09448bd9088b8338e9de14079b2ee446bf43f4e2c41e15ce17114eda958ed210
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104301816"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120098378"
 ---
 # <a name="how-to-implement-event-handlers"></a>如何執行事件處理常式
 
@@ -23,7 +23,7 @@ ms.locfileid: "104301816"
 
 ## <a name="handling-general-ui-automation-events"></a>處理一般消費者介面自動化事件
 
-下列程式碼範例是 Microsoft Windows 主控台應用程式，它會執行一般消費者介面自動化事件的消費者介面自動化事件處理常式。 這個範例會處理工具提示和其他視窗的建立和終結事件。
+下列程式碼範例是 Microsoft Windows 主控台應用程式，它會針對一般消費者介面自動化事件來執行消費者介面自動化事件處理常式。 這個範例會處理工具提示和其他視窗的建立和終結事件。
 
 
 ```C++
@@ -192,7 +192,7 @@ cleanup:
 
 ## <a name="handling-focus-changed-events"></a>處理 Focus-Changed 事件
 
-下列程式碼範例是 Windows 主控台應用程式，它會執行焦點變更事件的處理常式。
+下列程式碼範例是一個 Windows 主控台應用程式，它會針對焦點變更的事件，執行處理常式。
 
 
 ```C++
@@ -316,7 +316,7 @@ cleanup:
 
 ## <a name="handling-property-changed-events"></a>處理 Property-Changed 事件
 
-下列程式碼範例是 Windows 主控台應用程式，它會執行屬性變更事件的處理常式。
+下列程式碼範例是一個 Windows 主控台應用程式，它會執行屬性變更事件的處理常式。
 
 
 ```C++
@@ -471,7 +471,7 @@ cleanup:
 
 ## <a name="handling-structure-changed-events"></a>處理 Structure-Changed 事件
 
-下列程式碼範例是 Windows 主控台應用程式，它會針對結構變更的事件，執行處理常式。
+下列程式碼範例是一個 Windows 主控台應用程式，它會針對結構變更的事件來執行處理常式。
 
 
 ```C++
@@ -646,9 +646,9 @@ cleanup:
 [消費者介面自動化用戶端的使用說明主題](uiauto-howto-topics-for-uiautomation-clients.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

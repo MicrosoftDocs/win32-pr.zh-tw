@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 7b128593c30b2ca8f9de634e3ce9c7f9ba894089
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 416e62e06b1f9b03bd2dbe55c67f7047896c4585
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103846208"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122631127"
 ---
 # <a name="span-idvspixenginepixengineint4spanpixengineint4-structure"></a><span id="vspixengine.pixengineint4"></span>PixEngineInt4 結構
 
@@ -51,7 +51,7 @@ W 軸元件的位置。
 
 ## <a name="requirements"></a>規格需求
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>標頭</p></td><td>Vspixengine。h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>標頭</p></td><td>Vspixengine。h</td></tr></tbody></table>
 
  
 

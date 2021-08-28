@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 使用 __TimerInstruction 建立計時器事件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e502678525569dae272edb7b03c0916db25edfd0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 31cb943419a255846fbde4e17e357f8ce199824085d542d8ad300fb7e301fa3d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194708"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120030668"
 ---
 # <a name="creating-a-timer-event-with-__timerinstruction"></a>使用 TimerInstruction 建立計時器事件 \_ \_
 

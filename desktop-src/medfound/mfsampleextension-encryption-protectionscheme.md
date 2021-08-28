@@ -4,12 +4,12 @@ ms.assetid: 04E9F908-C61C-43DC-8CF5-9A629FCDD82C
 title: 'MFSampleExtension_Encryption_ProtectionScheme 屬性 (Mfidl) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: de298eb310e1258274a4ce24d49e9b53def38cde
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8a9db7d00d67b0e9806167ea574d10c3dca5f199293c03f5e055d60430c2dd75
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104115005"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119603178"
 ---
 # <a name="mfsampleextension_encryption_protectionscheme-attribute"></a>MFSampleExtension \_ Encryption \_ ProtectionScheme 屬性
 

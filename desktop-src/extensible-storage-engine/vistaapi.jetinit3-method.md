@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 7c5fa7d1450240a8250e66e2bbe6d8ef0b97c136
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4412a8482af1da3316dda233e520f1ca7780524817a72c01d252d548e28c5860
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974067"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119471258"
 ---
 # <a name="vistaapijetinit3-method"></a>VistaApi. JetInit3 方法
 

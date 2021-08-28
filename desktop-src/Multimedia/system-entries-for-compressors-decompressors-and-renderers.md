@@ -3,16 +3,16 @@ title: 壓縮機、Decompressors 和轉譯器的系統專案
 description: 壓縮機、Decompressors 和轉譯器的系統專案
 ms.assetid: b27bbd5b-a218-49bb-b179-b24ce39869a1
 keywords:
-- Windows (VFW) 的影片、壓縮程式系統專案
-- 適用于 Windows) 的 VFW (影片、壓縮程式系統專案
+- Windows (VFW) 、壓縮程式系統專案的影片
+- 適用于 Windows) 、壓縮程式系統專案的 VFW (影片
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b46d9c6fd8974511698bcb687c580e68be3757ee
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d0afa453603eacffe0db1b3a904709a096e638dc284aa64aa388968a0e555c33
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103675067"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119892558"
 ---
 # <a name="system-entries-for-compressors-decompressors-and-renderers"></a>壓縮機、Decompressors 和轉譯器的系統專案
 
@@ -20,7 +20,7 @@ ms.locfileid: "103675067"
 
 
 
-| 四個字元的程式碼 | Description                               |
+| 四個字元的程式碼 | 描述                               |
 |---------------------|-------------------------------------------|
 | 程式              | 識別壓縮機和 decompressors。 |
 | VIDS              | 識別影片資料流程轉譯器。        |
@@ -29,7 +29,7 @@ ms.locfileid: "103675067"
 
 
 
- 
+ 
 
 自訂轉譯器可以定義自己的四個字元的代碼。
 
@@ -39,9 +39,9 @@ ms.locfileid: "103675067"
 
 搜尋驅動程式時，系統會嘗試比對驅動程式類型和資料處理程式所指定的四個字元碼與驅動程式專案中所指定的代碼。 例如，如果應用程式指定了壓縮程式 MSSQ，系統就會在登錄中搜尋驅動程式專案程式. MSSQ。 如果找不到相符項，則會開啟對應至驅動程式類型的每個驅動程式，並找出可處理您應用程式所指定之資料類型的驅動程式。 在上述範例中，如果系統找不到程式 MSSQ，則會以 "程式" 四個字元的程式碼開啟所有驅動程式，並找出可處理資料的驅動程式。
 
- 
+ 
 
- 
+ 
 
 
 

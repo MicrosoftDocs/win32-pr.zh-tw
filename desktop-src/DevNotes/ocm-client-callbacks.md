@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: cc2c1d95e2b05de1ad7285e065e9742a24e0e5a5
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 453eeaa49a7211793503f39f0b050904bcf7de41a83e2b06dce647fb4177e41e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973373"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120058868"
 ---
 # <a name="ocm_client_callbacks-structure"></a>OCM \_ 用戶端 \_ 回呼結構
 

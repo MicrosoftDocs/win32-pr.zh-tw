@@ -4,16 +4,16 @@ description: 當 WinSNMP 函式失敗之後，SnmpGetLastError 函式可能會�
 ms.assetid: c286750f-a542-4f61-a22c-d77debd45775
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: beee49aef651784b0b8dc05c0114b7bf906be113
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 37550478b37cdc75c2dea427e54b4d9d3d52dcc838273a09cf904cd4479baa4f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104023810"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119142951"
 ---
 # <a name="winsnmp-common-error-codes"></a>WinSNMP 一般錯誤碼
 
-\[SNMP 可用於 [需求] 區段中指定的作業系統。 它在後續版本中可能會變更或無法使用。 相反地，請使用 [Windows 遠端管理](/windows/desktop/WinRM/portal)，也就是 MICROSOFT 對 ws-atomictransaction 的實。\]
+\[SNMP 可用於 [需求] 區段中指定的作業系統。 它在後續版本中可能會變更或無法使用。 相反地，請使用[Windows 遠端管理](/windows/desktop/WinRM/portal)，也就是 Microsoft 對 ws-atomictransaction 的實。\]
 
 當 WinSNMP 函式失敗之後， [**SnmpGetLastError**](/windows/desktop/api/Winsnmp/nf-winsnmp-snmpgetlasterror) 函式可能會傳回一般錯誤碼。 下表列出的是 WinSNMP 一般錯誤碼。
 
@@ -28,10 +28,10 @@ ms.locfileid: "104023810"
 
 
 
- 
+ 
 
 傳遞內容特定資訊的 WinSNMP 錯誤會在每個函式的參考頁面中注明。
 
- 
+ 
 
- 
+ 

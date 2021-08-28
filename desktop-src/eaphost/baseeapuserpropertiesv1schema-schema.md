@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: a8261109117735e00711766c4f187c2dd9256c7e
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 04e0d1abe2a634c582771d04506b24d52e11d237a86ad3b65d8d6eddaba4950c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103683130"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120067338"
 ---
 # <a name="baseeapuserpropertiesv1-schema"></a>baseeapuserpropertiesv1 架構
 
@@ -30,9 +30,9 @@ Baseeapuserpropertiesv1 架構會定義通用的認證架構元素。
 [EAPHost 和舊版架構](eaphost-schemas.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

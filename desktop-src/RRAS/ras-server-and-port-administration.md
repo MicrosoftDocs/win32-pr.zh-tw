@@ -6,12 +6,12 @@ keywords:
 - RAS 系統管理 RRAS、伺服器和埠管理
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4cb9d3cc520efa6bbb492e8d9e967d423548f96a
-ms.sourcegitcommit: cba7f424a292fd7f3a8518947b9466439b455419
+ms.openlocfilehash: 4842048c52460ef4f116d5f62458cd72293e6bef83820e969275667cb2ab2a90
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "104462620"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120028768"
 ---
 # <a name="about-ras-server-and-port-administration"></a>關於 RAS 伺服器和埠管理
 
@@ -34,9 +34,9 @@ RAS 伺服器管理功能會取得指定的 RAS 伺服器與其埠的相關資�
 
 您可以使用 [**MprAdminBufferFree**](/windows/desktop/api/Mprapi/nf-mprapi-mpradminbufferfree) 函式來釋放 [**MprAdminPortEnum**](/windows/desktop/api/Mprapi/nf-mprapi-mpradminportenum) 和 [**MprAdminPortGetInfo**](/windows/desktop/api/Mprapi/nf-mprapi-mpradminportgetinfo) 函式所配置的記憶體。 您可以使用 [**MprAdminGetErrorString**](/windows/desktop/api/Mprapi/nf-mprapi-mpradmingeterrorstring) 函式來取得字串，此字串描述其中一個 ras 伺服器管理 (RasAdmin) 函式所傳回的 ras 錯誤碼。
 
- 
+ 
 
- 
+ 
 
 
 

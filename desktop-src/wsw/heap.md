@@ -3,17 +3,17 @@ title: 堆積
 description: 堆積會追蹤一組以一個單位來釋放的配置。
 ms.assetid: 3a25284a-8f15-42d4-a292-ece28a08fb69
 keywords:
-- 適用于 Windows 的堆積 Web 服務
+- Windows 的堆積 Web 服務
 - WWSAPI
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b5e1651f90b8ad1afca8f85f9dd2e6f10fc7f5c3
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: 7a581d4173ed16423ac55e82d3dde356bad1e310047dd44d8f92fded0c6f458e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "104383349"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120005928"
 ---
 # <a name="heap"></a>堆積
 

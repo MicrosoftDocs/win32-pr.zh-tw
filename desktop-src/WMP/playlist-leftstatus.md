@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ab33d4c3d235a7bba67219378063cb9811601e68
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ed3efe5eb228d378778a817dcdbb8e7e56ee3d5d497fe00c0aa7b2adc645d27b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106984047"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118995658"
 ---
 # <a name="playlistleftstatus"></a>播放清單。 leftStatus
 
@@ -44,7 +44,7 @@ ms.locfileid: "106984047"
 | count                 | 播放清單中的專案數。                                                                                                                                                                             |
 | {1}size{2}                  | 播放清單的總大小。                                                                                                                                                                                  |
 | duration              | 播放清單的總持續時間。                                                                                                                                                                              |
-| *Xxx*                 | 在具有 *XXX* 的播放清單上執行 **getItemInfo** ，這是要接收的專案。                                                                                                                                 |
+| *XXX*                 | 在具有 *XXX* 的播放清單上執行 **getItemInfo** ，這是要接收的專案。                                                                                                                                 |
 | Suitablesize          | 播放清單中所選取專案的總大小。                                                                                                                                                          |
 | Selectedcount 個         | 播放清單中選取的專案總數。                                                                                                                                                            |
 | SelectedDuration      | 播放清單中所選取專案的總持續時間。                                                                                                                                                      |

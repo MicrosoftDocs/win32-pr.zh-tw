@@ -26,12 +26,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: c0303f4696d1baa5129d93cd2e6a7703be611ed9
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 75de4ab4d173b68f02eff73962fb198270770806
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973390"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122882026"
 ---
 # <a name="cim_copyfileaction-class"></a>CIM \_ CopyFileAction 類別
 
@@ -80,7 +80,7 @@ class CIM_CopyFileAction : CIM_FileAction
 
 
 
-| 方法                                                      | 描述                                                                                                                                  |
+| 方法                                                      | 說明                                                                                                                                  |
 |:------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------|
 | [**調用**](invoke-method-in-class-cim-copyfileaction.md) | 採取特定動作。 方法執行動作的詳細資料是實作為特定的。 不是由 WMI 所執行。<br/> |
 
@@ -205,7 +205,7 @@ class CIM_CopyFileAction : CIM_FileAction
 
 </dd> <dt>
 
-**名稱**
+名稱
 </dt> <dd> <dl> <dt>
 
 資料類型： **字串**
@@ -467,7 +467,7 @@ HP-UX
 
 </dt> <dd>
 
-Windows 3。x
+Windows3.x
 
 </dd> <dt>
 
@@ -863,8 +863,8 @@ Mac OS 9
 
 作業的版本應該採用下列其中一種形式：
 
--   <major>.<minor>.<revision>
--   <major>.<minor><letter><revision>
+-   &lt;主要 &gt; 。 &lt;次要 &gt; 。 &lt;修訂&gt;
+-   &lt;主要 &gt; 。 &lt;次要 &gt; &lt; 信件 &gt; &lt; 修訂&gt;
 
 這個屬性繼承自 [**CIM \_ 動作**](cim-action.md)。
 

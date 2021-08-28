@@ -4,12 +4,12 @@ ms.assetid: 3a8e8f4e-910d-4863-a4a7-dd37c2dfa402
 title: 關於視窗程式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f1f63586b9ca4ac6fe8486ba112316174533b44e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a59f1d1c1f157a331f64b5f3a5c18747a1a68c233606318721e6c687ce3c96c5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106997988"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118031418"
 ---
 # <a name="about-window-procedures"></a>關於視窗程式
 

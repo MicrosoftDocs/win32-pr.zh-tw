@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 433f66e4143f3005416f2e9dd119fae77a1191dd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7b2293df80cdf4d5b19407d2719ba2d3252e87c2673f4ac2e011b66067a0dd7a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191797"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119834408"
 ---
 # <a name="instanceparametersdbscanthrottle-property"></a>InstanceParameters. DbScanThrottle 屬性
 

@@ -4,12 +4,12 @@ ms.assetid: 8fe8da80-0879-413a-a7db-617d2f558b28
 title: " (Direct3D 9) 的多元素紋理"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 78a434d1e6c6a892c794551aa0caf34890f3def9
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 4a69c04c54f4be73b71a1ac5f2ead123bb51d649ad5e75369411b6bf0906517c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106970676"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119563538"
 ---
 # <a name="multiple-element-textures-direct3d-9"></a> (Direct3D 9) 的多元素紋理
 

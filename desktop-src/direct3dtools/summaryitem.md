@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: b0ad0c468d2a9ec2c1f4f0c5ec8c7844e80ab2b1d2655781ae0dc6fa11d0ae05
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7cf9d299c40c6afae5539e98758193bbbbb0cd9f
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118985438"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122625984"
 ---
 # <a name="span-idvspixenginesummaryitemspansummaryitem-structure"></a><span id="vspixengine.summaryitem"></span>SummaryItem 結構
 
@@ -51,7 +51,7 @@ COM 字串，其中包含與事件相關的值。
 
 ## <a name="requirements"></a>規格需求
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>標頭</p></td><td>Vspixengine。h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>標頭</p></td><td>Vspixengine。h</td></tr></tbody></table>
 
  
 

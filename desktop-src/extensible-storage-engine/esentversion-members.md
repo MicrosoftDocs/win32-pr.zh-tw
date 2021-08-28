@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55103183
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: d16c54ec9efb7d332a5e4ca56e13a96fd595daeb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b303a0875a609889bc80b239888a857f420a465d55638616a589fd1b0e86bed0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103695683"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119112777"
 ---
 # <a name="esentversion-members"></a>EsentVersion 成員
 
@@ -42,7 +42,7 @@ ms.locfileid: "103695683"
 <tr class="even">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="公用屬性" alt="Public property" /><img src="../images/dn292146.static(exchg.10).gif" title="靜態成員" alt="Static member" /></td>
 <td><a href="dn350871(v=exchg.10).md">SupportsServer2003Features</a></td>
-<td>取得值，這個值表示目前的 ESENT 版本是否支援 Windows Server 2003 版 ESENT 中提供的功能。</td>
+<td>取得值，這個值表示目前的 esent 版本是否支援 Windows Server 2003 版 esent 中可用的功能。</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="公用屬性" alt="Public property" /><img src="../images/dn292146.static(exchg.10).gif" title="靜態成員" alt="Static member" /></td>
@@ -52,17 +52,17 @@ ms.locfileid: "103695683"
 <tr class="even">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="公用屬性" alt="Public property" /><img src="../images/dn292146.static(exchg.10).gif" title="靜態成員" alt="Static member" /></td>
 <td><a href="dn350861(v=exchg.10).md">SupportsVistaFeatures</a></td>
-<td>取得值，這個值表示目前的 ESENT 版本是否支援 Windows Vista 版本的 ESENT 中提供的功能。</td>
+<td>取得值，這個值表示目前的 esent 版本是否支援在 Windows Vista 版本的 esent 中提供的功能。</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="公用屬性" alt="Public property" /><img src="../images/dn292146.static(exchg.10).gif" title="靜態成員" alt="Static member" /></td>
 <td><a href="dn350860(v=exchg.10).md">SupportsWindows7Features</a></td>
-<td>取得值，這個值會指出目前版本的 ESENT 是否支援 Windows 7 版 ESENT 中提供的功能。</td>
+<td>取得值，這個值會指出目前的 esent 版本是否支援 Windows 7 版 ESENT 中提供的功能。</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="公用屬性" alt="Public property" /><img src="../images/dn292146.static(exchg.10).gif" title="靜態成員" alt="Static member" /></td>
 <td><a href="dn350863(v=exchg.10).md">SupportsWindows8Features</a></td>
-<td>取得值，這個值會指出目前的 ESENT 版本是否支援 Windows 8 版 ESENT 中可用的功能。</td>
+<td>取得值，這個值會指出目前的 esent 版本是否支援 Windows 8 版 esent 中可用的功能。</td>
 </tr>
 </tbody>
 </table>

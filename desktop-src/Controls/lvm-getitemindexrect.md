@@ -3,7 +3,7 @@ title: 'LVM_GETITEMINDEXRECT 訊息 (Commctrl .h) '
 description: 在清單視圖控制項的目前視圖中，抓取所有或部分子部分的周框。 明確地傳送此訊息，或使用 ListView \_ GetItemIndexRect 宏。
 ms.assetid: 17704d24-c029-4d41-b198-04d1e78698e0
 keywords:
-- LVM_GETITEMINDEXRECT message Windows 控制項
+- LVM_GETITEMINDEXRECT 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 31ccd114713326c4796ca69f56fc2c38daf145db
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 91aa3e6d0420bfddb974d13f210c84241cefc5d79f0ee5a82920bdc2961879dc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466512"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119770368"
 ---
 # <a name="lvm_getitemindexrect-message"></a>LVM \_ GETITEMINDEXRECT 訊息
 
@@ -65,8 +65,8 @@ ms.locfileid: "104466512"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

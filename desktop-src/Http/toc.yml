@@ -134,7 +134,7 @@
                   href: adding-a-reservation.md
                 - name: 刪除保留
                   href: deleting-a-reservation.md
-        - name: Windows Vista 和 Windows Server 2008 中的 HTTP.sys 管理能力
+        - name: Windows Vista 和 Windows Server 2008 HTTP.sys 管理能力
           href: http-sys-manageability-in-windows-vista-and-windows-server-2008.md
           items:
             - name: HTTP.sys 管理性案例

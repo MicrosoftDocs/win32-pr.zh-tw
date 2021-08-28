@@ -4,12 +4,12 @@ ms.assetid: 2eaffcf7-01b2-44ce-8bc4-fd9fa42c8a8c
 title: 使用可轉移陰影複製的磁片區快速復原
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a588395de36b0e6773eacf7f46a45452a69c13c2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4fb5ddd7604b1463def4ceaa6cd474487255682cf4489b13c5da520128c06811
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106984741"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120006398"
 ---
 # <a name="fast-recovery-using-transportable-shadow-copied-volumes"></a>使用可轉移陰影複製的磁片區快速復原
 

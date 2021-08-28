@@ -4,12 +4,12 @@ description: 將 HSL (色調、飽和度、亮度) 或 HSV (色調、飽和度�
 ms.assetid: 18e92535-9e89-bf8d-b8c3-a49b645fc417
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 82064d01281ab0edf2327f00cf6e852a0bebae53
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3abc45ec09cc77935c332a702648472e6be7edeb06bdf9237e4232f467b1e073
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934306"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118003129"
 ---
 # <a name="hue-to-rgb-effect"></a>色調到 RGB 效果
 
@@ -52,8 +52,8 @@ m_d2dContext->EndDraw();
 
 | 需求 | 值 |
 |--------------------------|---------------------------------------------------|
-| 最低支援的用戶端 | Windows 10 \[ 桌面應用程式 \| Windows Store 應用程式\] |
-| 最低支援的伺服器 | Windows 10 \[ 桌面應用程式 \| Windows Store 應用程式\] |
+| 最低支援的用戶端 | Windows 10 \[桌面應用程式 \| Windows 儲存應用程式\] |
+| 最低支援的伺服器 | Windows 10 \[桌面應用程式 \| Windows 儲存應用程式\] |
 | 標頭                   | d2d1effects \_ 2。h                                  |
 | 程式庫                  | d2d1 .lib，dxguid .lib                              |
 

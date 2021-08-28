@@ -4,12 +4,12 @@ description: 以下是分散式檔案系統 (DFS) 函式的功能。
 ms.assetid: 8f86b717-fe26-4550-8b71-8f7df5ca6022
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 463c085115f6d3e88f9a3be80a890caa0aacb340
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: da3fd41879293f376dfdb3d769d5152b2e747fc6e387f8f9538854d4d3e06e7a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104468469"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120096718"
 ---
 # <a name="distributed-file-system-functions"></a>分散式檔案系統函式
 

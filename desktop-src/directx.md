@@ -4,12 +4,12 @@ ms.assetid: 23693eb7-cc8d-4757-bca7-394114d9a3c9
 title: DirectX 圖形和遊戲
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 85230fc6c2d875cd4849e6b68ec45038bf49791777fb81028b8ce4420537cf2f
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 3329a2f375db273992ae846d0ede34a7369c9424
+ms.sourcegitcommit: 0dec0044816af3f2b2e6403659e1cf11138c90cd
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119787478"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "121813242"
 ---
 # <a name="directx-graphics-and-gaming"></a>DirectX 圖形和遊戲
 

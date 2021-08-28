@@ -4,12 +4,12 @@ ms.assetid: 15df39fa-1eb1-4e96-9e26-14470f391de4
 title: 實際檔案還原的總覽
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6527a10d0880b1e599377abb797449816019ab89
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a2cc1b74f7beae7f5686dc36ce741428cad97ae62c62c8895122ec8a639e46f7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106986871"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118998238"
 ---
 # <a name="overview-of-actual-file-restoration"></a>實際檔案還原的總覽
 
@@ -41,7 +41,7 @@ ms.locfileid: "106986871"
 
 一般而言，VSS 不會指定從儲存體媒體抓取資料的機制、存放裝置媒體的選擇，或如何判斷應該在何處還原的檔案。
 
-不過，對於特定的寫入器，還原檔案可能牽涉到使用記載的自訂介面和程式。 目前需要這類支援的 Windows 系統寫入器記載于 [特殊的 VSS 使用案例](special-vss-usage-cases.md)中。
+不過，對於特定的寫入器，還原檔案可能牽涉到使用記載的自訂介面和程式。 Windows 的系統寫入器（目前需要這類支援）記載于[特殊的 VSS 使用案例](special-vss-usage-cases.md)中。
 
 一般情況下，建議您將每個 [*寫入器實例*](vssgloss-w.md) 的每個元件檔案當作一個單位來處理。 這需要下列各項：
 

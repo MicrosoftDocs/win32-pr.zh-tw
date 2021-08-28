@@ -4,12 +4,12 @@ description: 工作對話方塊訊息
 ms.assetid: fd26f006-1c01-4ee8-b2a0-00bbb7227693
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4f78b526fb08d321082d17926a691143c68b5aa1
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: c8b0c6f7c7305a0d191853c8b90fe82d3522ee901b472ac85f6c0476c6087282
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104195912"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119969118"
 ---
 # <a name="task-dialog-messages"></a>工作對話方塊訊息
 

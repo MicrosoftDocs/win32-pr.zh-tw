@@ -19,12 +19,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a5e35aa4c2cc676935cfb80fdec8729daf64d5f3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 686e94c936855d3b5466071fba7d8b629a492579de11a53a62d8b23345707c53
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934373"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119740447"
 ---
 # <a name="general-constants-winbio_typesh"></a>一般常數 (Winbio \_ 類型 .h) 
 
@@ -32,7 +32,7 @@ ms.locfileid: "103934373"
 
 
 
-| 常數/值                                                                                                                                                                                                                                                                   | Description                                                                                 |
+| 常數/值                                                                                                                                                                                                                                                                   | 描述                                                                                 |
 |:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------|
 | <span id="SECURITY_MAX_SID_SIZE"></span><span id="security_max_sid_size"></span><dl> <dt>**安全性 \_ 最大 \_ SID \_ 大小**</dt> </dl>                                                                                          | 安全識別碼 (SID) 值的最大長度。 目前這是68。<br/>   |
 | <span id="WINBIO_UNIT_ID"></span><span id="winbio_unit_id"></span><dl> <dt>**WINBIO \_ 單位 \_ 識別碼**</dt> </dl>                                                                                                                | 生物識別單位的識別碼。<br/>                                                   |
@@ -51,8 +51,8 @@ ms.locfileid: "103934373"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                                                    |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/>                                                       |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                                                    |
+| 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/>                                                       |
 | 標頭<br/>                   | <dl> <dt>Winbio \_ 類型 .h (包含 Winbio .h) </dt> </dl> |
 
 

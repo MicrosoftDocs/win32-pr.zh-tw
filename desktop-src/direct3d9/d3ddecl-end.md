@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3d9types.h
-ms.openlocfilehash: ad3a0a5085d8cacf11bae049cb21952a1aa73908
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: a8e36f7e9e7103fcbbe4660fd16f89a56716c8142da2d8a390bfc7ef76299e0d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106992702"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118805438"
 ---
 # <a name="d3ddecl_end-macro"></a>D3DDECL \_ END 宏
 

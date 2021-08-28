@@ -9,12 +9,12 @@ keywords:
 - SendDriverMessage 函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1ad0ad16d719152dba0dc0b2ca6224122831a0ce
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 60942b9814abd8e1f6317adb976198a5359df358a994035a15ccf0c59ab18dd0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104023306"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119144931"
 ---
 # <a name="configuring-an-installable-driver"></a>設定可安裝的驅動程式
 
@@ -53,6 +53,6 @@ LONG MyConfigureDriver()
 
 
 
- 
+ 
 
- 
+ 

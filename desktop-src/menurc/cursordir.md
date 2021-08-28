@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 2434bdf90248c2f1d6c5edf9425f0f35d698cd45
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7194d6af764a9f66a2bf1a059f9c387cde13bb05728a7e96ccec470fa3650c81
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104385126"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119602168"
 ---
 # <a name="cursordir-structure"></a>CURSORDIR 結構
 

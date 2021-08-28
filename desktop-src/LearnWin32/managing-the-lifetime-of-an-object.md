@@ -4,12 +4,12 @@ description: 瞭解如何管理 AddRef 和發行方法，以控制物件的存�
 ms.assetid: 0e522ded-8976-4cdd-9a61-eae7834c896b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 495e657863150612e5b8efa21fff0b00c7a936b9
-ms.sourcegitcommit: ee06501cc29132927ade9813e0888aaa4decc487
+ms.openlocfilehash: 776a10ec4e7a873c5e8b86c3d2bfe91fd1531051d599831151d3dbec5ed3d70b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "104566507"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119897424"
 ---
 # <a name="managing-the-lifetime-of-an-object"></a>管理物件的存留期
 
@@ -19,7 +19,7 @@ ms.locfileid: "104566507"
 
 -   [**QueryInterface**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q))
 -   [**AddRef**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref)
--   [**版本**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-release)
+-   [**釋放**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-release)
 
 [**QueryInterface**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q))方法可讓程式在執行時間查詢物件的功能。 在下一個主題中，我們將詳細說明如何 [針對介面提出物件](asking-an-object-for-an-interface.md)。 [**AddRef**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref)和 [**Release**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-release)方法是用來控制物件的存留期。 這是本主題的主題。
 

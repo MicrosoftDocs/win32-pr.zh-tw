@@ -1,19 +1,19 @@
 ---
 title: 使用自訂文字轉譯器呈現
-description: DirectWrite \ 160; 文字版面配置可以由衍生自 IDWriteTextRenderer 的自訂文字轉譯器繪製。
+description: a DirectWrite \ 160; 文字版面配置可以由衍生自 IDWriteTextRenderer 的自訂文字轉譯器繪製。
 ms.assetid: a5b09733-24b2-408e-a1f9-cf7ad20c5c63
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 17cda56fc5cc38a62e48a2f62066edfec2327e9e
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: c6f8e08bb8af3ce7fa0ae4d423103feb597e17cf46ab53b42903fad143c675db
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104375884"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119902870"
 ---
 # <a name="render-using-a-custom-text-renderer"></a>使用自訂文字轉譯器呈現
 
-[DirectWrite](direct-write-portal.md)的  [**文字版面**](/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout)配置可以由衍生自 [**IDWriteTextRenderer**](/windows/win32/api/dwrite/nn-dwrite-idwritetextrenderer)的自訂文字轉譯器繪製。 您必須要有自訂轉譯器，才能利用 DirectWrite 的一些先進功能，例如轉譯成點陣圖或 GDI 介面、内嵌物件和用戶端繪製效果。 本教學課程說明 **IDWriteTextRenderer** 的方法，並提供使用 [Direct2D](../direct2d/direct2d-portal.md) 以點陣圖填滿呈現文字的範例執行。
+[DirectWrite](direct-write-portal.md)的 [**文字版面**](/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout)配置可以由衍生自 [**IDWriteTextRenderer**](/windows/win32/api/dwrite/nn-dwrite-idwritetextrenderer)的自訂文字轉譯器繪製。 您必須要有自訂轉譯器，才能利用 DirectWrite 的一些先進功能，例如轉譯成點陣圖或 GDI 介面、内嵌物件和用戶端繪製效果。 本教學課程說明 **IDWriteTextRenderer** 的方法，並提供使用 [Direct2D](../direct2d/direct2d-portal.md) 以點陣圖填滿呈現文字的範例執行。
 
 本教學課程包含下列部分：
 
@@ -30,7 +30,7 @@ ms.locfileid: "104375884"
 
 除了 [**IDWriteTextRenderer**](/windows/win32/api/dwrite/nn-dwrite-idwritetextrenderer) 參考頁面上所列的方法之外，您的自訂文字轉譯器還必須執行繼承自 IUnknown 的方法。
 
-如需自訂文字轉譯器的完整原始碼，請參閱 [DirectWrite Hello World 範例](/samples/browse/?redirectedfrom=MSDN-samples)的 CustomTextRenderer .Cpp 和 CustomTextRenderer .h 檔案。
+如需自訂文字轉譯器的完整原始碼，請參閱[DirectWrite Hello World 範例](/samples/browse/?redirectedfrom=MSDN-samples)的 CustomTextRenderer .cpp 和 CustomTextRenderer .h 檔案。
 
 ## <a name="the-constructor"></a>函數
 
@@ -40,7 +40,7 @@ ms.locfileid: "104375884"
 
 
 
-| 參數       | Description                                                                                                                                                                                                                                 |
+| 參數       | 描述                                                                                                                                                                                                                                 |
 |-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | *pD2DFactory*   | [**ID2D1Factory**](/windows/win32/api/d2d1/nn-d2d1-id2d1factory)物件的指標，該物件將用來建立所需的任何 Direct2D 資源。                                                                                                        |
 | *Prt*           | [**ID2D1HwndRenderTarget**](/windows/win32/api/d2d1/nn-d2d1-id2d1hwndrendertarget)物件的指標，該物件會轉譯為文字。 |
@@ -49,7 +49,7 @@ ms.locfileid: "104375884"
 
 
 
- 
+ 
 
 這些會由函式儲存，如下列程式碼所示。
 
@@ -361,6 +361,6 @@ hr = pTextLayout_->Draw(
 
 [**IDWriteTextLayout：:D 原始**](/windows/win32/api/dwrite/nf-dwrite-idwritetextlayout-draw)方法會呼叫您提供的自訂轉譯器回呼的方法。 上面所述的 [**DrawGlyphRun**](/windows/win32/api/dwrite/nf-dwrite-idwritetextrenderer-drawglyphrun)、 [**DrawUnderline**](/windows/win32/api/dwrite/nf-dwrite-idwritetextrenderer-drawunderline)、 [**DrawInlineObject**](/windows/win32/api/dwrite/nf-dwrite-idwritetextrenderer-drawinlineobject)和 [**DrawStrikethrough**](/windows/win32/api/dwrite/nf-dwrite-idwritetextrenderer-drawstrikethrough) 方法會執行繪圖函數。
 
- 
+ 
 
- 
+ 

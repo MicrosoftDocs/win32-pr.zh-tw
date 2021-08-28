@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 2f537973ac6c8f084ea42ba915a6293e581debef
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 332e5fc461a39eff7ebfc70aa32a9a4d1a28a6928c15f6222e3804e2a542f6ed
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994209"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120087048"
 ---
 # <a name="csourceseekingcheckcapabilities-method"></a>CSourceSeeking. CheckCapabilities 方法
 
@@ -55,7 +55,7 @@ HRESULT CheckCapabilities(
 
 
 
-| 傳回碼                                                                               | Description                                                            |
+| 傳回碼                                                                               | 描述                                                            |
 |-------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | <dl> <dt>**S \_ FALSE**</dt> </dl>   | 並非 *pCapabilities* 中的所有功能都存在。<br/> |
 | <dl> <dt>**S \_ 確定**</dt> </dl>      | *PCapabilities* 中的所有功能都存在。<br/>            |

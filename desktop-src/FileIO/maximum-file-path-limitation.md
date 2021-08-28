@@ -4,16 +4,16 @@ title: 最大路徑長度限制
 ms.topic: article
 ms.custom: contperf-fy21q1
 ms.date: 09/15/2020
-ms.openlocfilehash: 4bf5050f24827a2033c1e56fd9413c04f4e59500
-ms.sourcegitcommit: ece80b9b7082415b2f894b0696b6b3f0c8544d72
+ms.openlocfilehash: f57aba8d022e3b193289c8abf884e661797a0cf8585b7537fae19c171250eb12
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107899737"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119914758"
 ---
 # <a name="maximum-path-length-limitation"></a>最大路徑長度限制
 
-在 Windows API (中，) 下列段落中所討論的一些例外狀況，路徑的最大長度為 **最大 \_ 路徑**，定義為260個字元。 本機路徑的結構如下：磁碟機號、冒號、反斜線、以反斜線分隔的名稱元件，以及終止的 null 字元。 例如，磁片磁碟機 D 上的最大路徑為 "D： \\ *某些 256-字元路徑字串* &lt; NUL &gt; "，其中 " &lt; NUL &gt; " 代表目前系統字碼頁的不可見結束 null 字元。  (使用 < > 的字元作為視覺效果，且不能是有效路徑字串的一部分。 ) 
+在 Windows API (中，在下列段落中所討論的一些例外狀況) ，路徑的最大長度為 **最大 \_ 路徑**，定義為260個字元。 本機路徑的結構如下：磁碟機號、冒號、反斜線、以反斜線分隔的名稱元件，以及終止的 null 字元。 例如，磁片磁碟機 D 上的最大路徑為 "D： \\ *某些 256-字元路徑字串* &lt; NUL &gt; "，其中 " &lt; NUL &gt; " 代表目前系統字碼頁的不可見結束 null 字元。  (使用 < > 的字元作為視覺效果，且不能是有效路徑字串的一部分。 ) 
 
 例如，如果您要將副檔名很長的 git 存放庫複製到本身具有完整名稱的資料夾中，則可能會達到此限制。
 
@@ -21,14 +21,14 @@ ms.locfileid: "107899737"
 > [!Note]  
 > Windows API 中的檔案 i/o 函式會將 "/" 轉換成 " \\ "，做為將名稱轉換成 NT 樣式名稱的一部分，除非使用 " \\ \\ ？ \\ " 前置詞，如下列各節所述。
 
-Windows API 有許多函數，也有 Unicode 版本可允許長度上限為32767個字元的最大路徑長度的擴充長度路徑。 這種類型的路徑是由以反斜線分隔的元件所組成，每個都是在 [**GetVolumeInformation**](/windows/desktop/api/FileAPI/nf-fileapi-getvolumeinformationa)函數的 *lpMaximumComponentLength* 參數中所傳回的值 (此值通常是255個字元) 。 若要指定延長長度的路徑，請使用 " \\ \\ ？ \\ " 前置詞。 例如，「 \\ \\ ？ \\D： \\ *非常長的路徑*」。
+Windows API 的許多函數也有 Unicode 版本，可允許長度上限為32767個字元的最大路徑長度的擴充長度路徑。 這種類型的路徑是由以反斜線分隔的元件所組成，每個都是在 [**GetVolumeInformation**](/windows/desktop/api/FileAPI/nf-fileapi-getvolumeinformationa)函數的 *lpMaximumComponentLength* 參數中所傳回的值 (此值通常是255個字元) 。 若要指定延長長度的路徑，請使用 " \\ \\ ？ \\ " 前置詞。 例如，「 \\ \\ ？ \\D： \\ *非常長的路徑*」。
 
 > [!Note]  
 > 32767個字元的最大路徑為近似值，因為在 \\ \\ \\ 執行時間，"？" 前置詞可能會擴充為較長的字串，而這項擴充會套用至總長度。
 
 " \\ \\ ？ \\ " 前置詞也可以搭配根據通用命名慣例 (UNC) 所建立的路徑使用。 若要使用 UNC 指定這類路徑，請使用 " \\ \\ ？ \\UNC \\ "前置詞。 例如，「 \\ \\ ？ \\UNC \\ 伺服器 \\ 共用 "，其中" server "是電腦的名稱，而" share "是共用資料夾的名稱。 這些前置詞不會當做路徑本身的一部分使用。 它們表示路徑應以最少量的修改傳遞給系統，這表示您不能使用正斜線來代表路徑分隔符號，也不能使用句點來代表目前的目錄，或以雙點表示父目錄。 因為您無法在 \\ \\ \\ 相對路徑中使用 "？" 前置詞，所以相對路徑一律會限制為 **最大 \_ 路徑** 字元總數。
 
-因為檔案系統會將路徑和檔案名視為不透明的 **WCHAR** 序列，所以不需要在路徑和檔案名字串上執行任何 Unicode 正規化以供 Windows 檔案 i/o API 函數使用。 您的應用程式所需的任何正規化都應該以這種方式執行，也就是對相關 Windows 檔案 i/o API 功能的任何呼叫。
+因為檔案系統會將路徑和檔案名視為 **WCHAR** s 的不透明序列，所以不需要在路徑和檔案名字串上執行任何 Unicode 正規化以供 Windows 的檔案 i/o API 函數使用。 您的應用程式所需的任何正規化，應該在對相關 Windows 檔案 i/o API 函式的任何呼叫之外，以這一點的方式來執行。
 
 使用 API 建立目錄時，指定的路徑不能超過您的長度，因為您無法附加8.3 檔案名 (也就是說，目錄名稱不能超過 **最大 \_ 路徑** 減 12) 。
 

@@ -4,12 +4,12 @@ ms.assetid: fbc06a83-230d-448d-8379-8933dcacd8ee
 title: System. StorageProviderFileRemoteUri
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f938440cc4b2c9ac2b64557d5300dd104e80d4a6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 41dd9c9fb13be55baeffcd2734fc52ade06c9cb38695b9a8a498fb8308605811
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106998553"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119938118"
 ---
 # <a name="systemstorageproviderfileremoteuri"></a>System. StorageProviderFileRemoteUri
 

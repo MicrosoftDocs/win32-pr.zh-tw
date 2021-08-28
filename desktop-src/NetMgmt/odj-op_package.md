@@ -5,12 +5,12 @@ ms.assetid: 065266a6-6db5-4113-bd2b-22ac6063236d
 ms.topic: reference
 ms.date: 10/12/2020
 ms.reviewer: jsimmons
-ms.openlocfilehash: 6220b3815ad6ff360af7255a91fc34d71125f38c
-ms.sourcegitcommit: 1e64562147b11f90de802c2431173582d066fae6
+ms.openlocfilehash: 81fdc237b731489f7ac501a4e053e62d744b0fdef77c5b630cd478dede5aeda5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "106991113"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119911488"
 ---
 # <a name="op_package-structure"></a>OP_PACKAGE 結構
 
@@ -47,7 +47,7 @@ typedef struct _OP_PACKAGE
 
 保留供日後使用，且必須設定為零。
 
-### <a name="extension"></a>分機
+### <a name="extension"></a>延伸模組
 
 保留供日後使用，且必須設定為全部為零。
 

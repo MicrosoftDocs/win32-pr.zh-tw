@@ -4,26 +4,26 @@ ms.assetid: 30e3c10b-1310-4194-8b83-221dfe73b03c
 title: 在 ContentInfo 物件中設定屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e386d5eb33dd1893b195a870425b2336ab9c316f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c17d82a05540512be34ba0d327ce006aa6215774da86a14ebfcf4339c85ab361
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114357"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119101797"
 ---
 # <a name="setting-properties-in-the-contentinfo-object"></a>在 ContentInfo 物件中設定屬性
 
 建立 ASF 檔案時，ContentInfo 物件必須知道媒體內容的特性，才能以正確的值填入不同的標頭物件。
 
 -   [ContentInfo 物件中的內容相關設定](#content-related-settings-in-the-contentinfo-object)
--   [使用編碼器設定來設定 ContentInfo 物件](#configuring-the-contentinfo-object-with-encoder-settings)
+-   [使用編碼器設定設定 ContentInfo 物件](#configuring-the-contentinfo-object-with-encoder-settings)
 -   [相關主題](#related-topics)
 
 ## <a name="content-related-settings-in-the-contentinfo-object"></a>ContentInfo 物件中的內容相關設定
 
 內容設定是包含在設定檔中的串流設定，並指定媒體接收器的串流識別碼、媒體類型和有漏洞 bucket 參數。 藉由呼叫 [**IMFASFContentInfo：： SetProfile**](/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfcontentinfo-setprofile)在 ContentInfo 物件上設定設定檔之後，這些值會反映在產生的 ASF 標頭物件中。 如需這些設定的詳細資訊，請參閱 [建立及設定 ASF 資料流程](creating-and-configuring-asf-streams.md)。
 
-## <a name="configuring-the-contentinfo-object-with-encoder-settings"></a>使用編碼器設定來設定 ContentInfo 物件
+## <a name="configuring-the-contentinfo-object-with-encoder-settings"></a>使用編碼器設定設定 ContentInfo 物件
 
 數位媒體音訊或影片資料很複雜，並佔用海量儲存體。 在大部分的情況下，音訊和影片都會使用編碼器進行壓縮，然後再新增至 ASF 檔案。 在媒體基礎中，會使用一個輸入和一個輸出，將編碼器實作為 [媒體基礎轉換](media-foundation-transforms.md) (MFTs) 。 您必須根據輸入資料流程的媒體類型，以及您選擇用來壓縮資料流程的編碼類型，來選取輸出媒體類型。
 
