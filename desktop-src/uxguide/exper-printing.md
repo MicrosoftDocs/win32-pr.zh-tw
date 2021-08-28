@@ -4,12 +4,12 @@ description: 列印是使用者在紙張上的體驗。 它很容易忽略，但
 ms.assetid: 26f5a8dc-27b2-4c2d-a05a-f942784c3cf9
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 50eb7523b3f816e54bf296632687b4811fac1b1c
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.openlocfilehash: 125c0eab965597c3e359f323f43b8881ff50b754
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122987261"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122482154"
 ---
 # <a name="printing-design-basics"></a>列印 (設計基本概念) 
 
@@ -144,13 +144,7 @@ ms.locfileid: "122987261"
 
 
 
-| 標籤 | 值 |
-|--------|-------|
-| <strong>建立 Advanced document</strong><br /> 用來建立、查看和列印高階檔。 建立高品質輸出的能力，是程式存在的主要原因之一。 以專業使用者為目標。 <br /> | <strong>使用者目標：</strong> 完美的結果會詳細控制列印輸出。<br /><strong>範例：</strong> Microsoft Word<br /><strong>建議的列印體驗：</strong><br /><ul><li>針對 print (WYSIWYG) 進行的輸出優化。</li><li>先進的檔案格式設定功能，以及列印大型物件的選項。</li><li>先進的列印選項，包括頁首和頁尾。 檔相關的列印選項會儲存在檔本身內。</li><li>快速、準確、功能強大的預覽列印。</li></ul> | 
-| <strong>建立中繼檔</strong><br /> 用來建立和查看更複雜的檔。 建立優質列印的能力很重要，但不一定是程式存在的主要原因之一。 以中繼使用者為目標。 <br /> | <strong>使用者目標：</strong> 以極短的努力提供良好的結果。 對列印輸出有一些控制權。<br /><strong>範例：</strong>大部分 Microsoft Office 程式，例如 Outlook 和 Excel。<br /><strong>建議的列印體驗：</strong><br /><ul><li>針對 print (WYSIWYG) 進行的輸出優化。</li><li>某些檔案格式功能，能夠在不截斷的情況下列印大型物件。</li><li>某些自訂列印選項，包括頁首和頁尾。</li><li>精確、容易使用的預覽列印。</li></ul> | 
-| <strong>建立簡單的檔</strong><br /> 用來建立和查看簡單的檔。 以所有使用者為目標。 <br /> | <strong>使用者目標：</strong> 使用標準列印選項的基本列印支援。 使用者預期會有良好的結果，而不需要進行任何調整。<br /><strong>範例：</strong>WordPad，小畫家。<br /><strong>建議的列印體驗：</strong><br /><ul><li>輸出可針對 print (WYSIWYG) 進行優化，但這並非必要。</li><li>某些檔案格式功能，能夠在不截斷的情況下列印大型物件。</li><li>標準列印選項;自訂列印選項是選擇性的。</li><li>簡單或沒有預覽列印。</li></ul> | 
-| <strong>檔檢視器</strong><br /> 用來查看檔。 使用者無法變更檔內容或格式。 <br /> | <strong>使用者目標：</strong> 使用標準列印選項的基本列印支援。 使用者預期會有良好的結果，而不需要進行任何調整。 系統會自動處理列印問題，因為使用者無法修改檔。<br /><strong>範例：</strong> Windows Internet Explorer<br /><strong>建議的列印體驗：</strong><br /><ul><li>輸出可針對 print (WYSIWYG) 進行優化，但這並非必要。</li><li>程式會自動處理分頁符號、消除空白頁面、處理大型物件，以及移除背景和其他設計項目。</li><li>標準列印選項;自訂列印選項是選擇性的。</li><li>簡單或沒有預覽列印。</li></ul> | 
-| <strong>公用程式或企業營運應用程式</strong><br /> 用來執行簡單的特定工作。 以所有使用者為目標。 <br /> | <strong>使用者目標：</strong> 能夠有效率地匯出選取的資料。 使用者預期會有良好的結果，而不需要進行任何調整。 通常對於這類程式而言，使用者會驚喜驚訝地尋找任何列印支援。<br /><strong>建議的列印體驗：</strong><br /><ul><li>根據支援的案例，列印支援是選擇性的。</li><li>輸出可針對 print (WYSIWYG) 進行優化，但這並非必要。</li><li>某些檔案格式功能。 如果已截斷大型物件，則可能是可接受的。</li><li>標準列印選項。</li><li>預覽列印：選擇性。</li></ul> | 
+| | | <strong>建立 Advanced document</strong><br /> 用來建立、查看和列印高階檔。 建立高品質輸出的能力，是程式存在的主要原因之一。 以專業使用者為目標。 <br /> | <strong>使用者目標：</strong> 完美的結果會詳細控制列印輸出。<br /><strong>範例：</strong> Microsoft Word<br /><strong>建議的列印體驗：</strong><br /><ul><li>針對 print (WYSIWYG) 進行的輸出優化。</li><li>先進的檔案格式設定功能，以及列印大型物件的選項。</li><li>先進的列印選項，包括頁首和頁尾。 檔相關的列印選項會儲存在檔本身內。</li><li>快速、準確、功能強大的預覽列印。</li></ul> | | <strong>建立中繼檔</strong><br /> 用來建立和查看更複雜的檔。 建立優質列印的能力很重要，但不一定是程式存在的主要原因之一。 以中繼使用者為目標。 <br /> | <strong>使用者目標：</strong> 以極短的努力提供良好的結果。 對列印輸出有一些控制權。<br /><strong>範例：</strong>大部分 Microsoft Office 程式，例如 Outlook 和 Excel。<br /><strong>建議的列印體驗：</strong><br /><ul><li>針對 print (WYSIWYG) 進行的輸出優化。</li><li>某些檔案格式功能，能夠在不截斷的情況下列印大型物件。</li><li>某些自訂列印選項，包括頁首和頁尾。</li><li>精確、容易使用的預覽列印。</li></ul> | | <strong>建立簡單的檔</strong><br /> 用來建立和查看簡單的檔。 以所有使用者為目標。 <br /> | <strong>使用者目標：</strong> 使用標準列印選項的基本列印支援。 使用者預期會有良好的結果，而不需要進行任何調整。<br /><strong>範例：</strong>WordPad，小畫家。<br /><strong>建議的列印體驗：</strong><br /><ul><li>輸出可針對 print (WYSIWYG) 進行優化，但這並非必要。</li><li>某些檔案格式功能，能夠在不截斷的情況下列印大型物件。</li><li>標準列印選項;自訂列印選項是選擇性的。</li><li>簡單或沒有預覽列印。</li></ul> | |<strong>檔查看</strong>器<br /> 用來查看檔。 使用者無法變更檔內容或格式。 <br /> | <strong>使用者目標：</strong> 使用標準列印選項的基本列印支援。 使用者預期會有良好的結果，而不需要進行任何調整。 系統會自動處理列印問題，因為使用者無法修改檔。<br /><strong>範例：</strong> Windows Internet Explorer<br /><strong>建議的列印體驗：</strong><br /><ul><li>輸出可針對 print (WYSIWYG) 進行優化，但這並非必要。</li><li>程式會自動處理分頁符號、消除空白頁面、處理大型物件，以及移除背景和其他設計項目。</li><li>標準列印選項;自訂列印選項是選擇性的。</li><li>簡單或沒有預覽列印。</li></ul> | | <strong>公用程式或企業營運應用程式</strong><br /> 用來執行簡單的特定工作。 以所有使用者為目標。 <br /> | <strong>使用者目標：</strong> 能夠有效率地匯出選取的資料。 使用者預期會有良好的結果，而不需要進行任何調整。 通常對於這類程式而言，使用者會驚喜驚訝地尋找任何列印支援。<br /><strong>建議的列印體驗：</strong><br /><ul><li>根據支援的案例，列印支援是選擇性的。</li><li>輸出可針對 print (WYSIWYG) 進行優化，但這並非必要。</li><li>某些檔案格式功能。 如果已截斷大型物件，則可能是可接受的。</li><li>標準列印選項。</li><li>預覽列印：選擇性。</li></ul> | 
 
 
 

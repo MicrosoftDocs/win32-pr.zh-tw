@@ -4,12 +4,12 @@ ms.assetid: b2442579-e559-4053-869f-9d96e4db202e
 title: 威脅緩和技巧
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 435ec2b8db3a634ea93ce77d585038909056c7d8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 315a79ec1db48a16de858d655bd1550fa1458720
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103851684"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122482444"
 ---
 # <a name="threat-mitigation-techniques"></a>威脅緩和技巧
 
@@ -22,7 +22,7 @@ ms.locfileid: "103851684"
 | CryptoAPI                       | CryptoAPI 提供一組功能，可協助您將密碼編譯常式套用至目標實體。 CryptoAPI 可以提供雜湊、摘要、加密和解密，以提及其主要功能。 CryptoAPI 也有其他功能。 若要瞭解密碼編譯和 CryptoAPI，請參閱 [密碼編譯基本](/windows/desktop/SecCrypto/cryptography-essentials)資訊。           |
 | 存取控制清單            |  (ACL) 的 [*存取控制清單*](/windows/desktop/SecGloss/a-gly) 是適用于物件的安全性保護清單。 物件可以是檔案、進程、事件，或是具有安全描述項的任何其他專案。 如需 Acl 的詳細資訊，請參閱)  (Acl 的 [存取控制清單](/windows/desktop/SecAuthZ/access-control-lists) 。 |
 | 資料保護 API             |  (DPAPI) 的資料保護 API 提供下列四個函式，用來加密和解密機密資料： [**CryptProtectData**](/windows/desktop/api/dpapi/nf-dpapi-cryptprotectdata)、 [**CryptUnprotectData**](/windows/desktop/api/dpapi/nf-dpapi-cryptunprotectdata)、 [**CryptProtectMemory**](/windows/desktop/api/dpapi/nf-dpapi-cryptprotectmemory)和 [**CryptUnprotectMemory**](/windows/desktop/api/dpapi/nf-dpapi-cryptunprotectmemory)。                  |
-| 儲存的使用者名稱和密碼 | 可處理使用者密碼和其他認證的儲存功能，例如私密金鑰、更簡單、更一致且更安全。 如需此功能的詳細資訊，請參閱 [**CredUIPromptForCredentials**](/windows/desktop/api/wincred/nf-wincred-creduipromptforcredentialsa)。                                                                                                         |
+| 儲存的使用者名稱和密碼 | 儲存體的功能，可處理使用者的密碼和其他認證，例如私密金鑰、更簡單、更一致且更安全。 如需此功能的詳細資訊，請參閱 [**CredUIPromptForCredentials**](/windows/desktop/api/wincred/nf-wincred-creduipromptforcredentialsa)。                                                                                                         |
 
 
 
@@ -30,38 +30,12 @@ ms.locfileid: "103851684"
 
 這些技術在所有作業系統上都無法使用。 因此，安全性可以改善的範圍取決於所涉及的作業系統。 以下是每個作業系統所提供的技術。
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>作業系統</th>
-<th>技術</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Windows Server 2003 和 Windows XP</td>
-<td><ul>
-<li>CryptoAPI</li>
-<li>存取控制清單</li>
-<li>資料保護 API</li>
-<li>儲存的使用者名稱和密碼</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>Windows 2000</td>
-<td><ul>
-<li>CryptoAPI</li>
-<li>存取控制清單</li>
-<li><a href="/windows/desktop/api/dpapi/nf-dpapi-cryptprotectdata"><strong>CryptProtectData</strong></a></li>
-<li><a href="/windows/desktop/api/dpapi/nf-dpapi-cryptunprotectdata"><strong>CryptUnprotectData</strong></a></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| 作業系統 | 技術 | 
+|------------------|------------|
+| Windows Server 2003 和 Windows XP | <ul><li>CryptoAPI</li><li>存取控制清單</li><li>資料保護 API</li><li>儲存的使用者名稱和密碼</li></ul> | 
+| Windows 2000 | <ul><li>CryptoAPI</li><li>存取控制清單</li><li><a href="/windows/desktop/api/dpapi/nf-dpapi-cryptprotectdata"><strong>CryptProtectData</strong></a></li><li><a href="/windows/desktop/api/dpapi/nf-dpapi-cryptunprotectdata"><strong>CryptUnprotectData</strong></a></li></ul> | 
+
 
 
 

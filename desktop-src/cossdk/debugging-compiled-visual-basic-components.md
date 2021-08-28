@@ -4,12 +4,12 @@ ms.assetid: a58c5884-3c2d-4699-8b19-277003912dfd
 title: 已編譯的 Visual Basic 元件的調試
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2eac784808602d3554e4610e70a8d8a22ef2ca1594062599ec6acd43db68b98a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0e2dec15f90d14d534221193020417415d11ddec
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119128780"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122882982"
 ---
 # <a name="debugging-compiled-visual-basic-components"></a>已編譯的 Visual Basic 元件的調試
 
@@ -46,7 +46,7 @@ ms.locfileid: "119128780"
 
 12. 在 [ **Project 設定**] 對話方塊的 [**調試**] 索引標籤上，選取 [**類別目錄**] 方塊中的 **[一般**]。
 
-13. 在 [ **用於偵錯工具的可執行檔** ] 方塊中，輸入 Dllhost.exe 的完整路徑，後面接著一個引數，指定包含元件的 com + 應用程式的處理序識別碼。 您會在 [COM + 應用程式的 **屬性**] 對話方塊的 [**一般**] 索引標籤上找到處理序識別碼。 以下是範例： C： \\ Winnt \\ System32 \\Dllhost.exe/ProcessID： { <processID> }。
+13. 在 [ **用於偵錯工具的可執行檔** ] 方塊中，輸入 Dllhost.exe 的完整路徑，後面接著一個引數，指定包含元件的 com + 應用程式的處理序識別碼。 您會在 [COM + 應用程式的 **屬性**] 對話方塊的 [**一般**] 索引標籤上找到處理序識別碼。 以下是範例： C： \\ Winnt \\ System32 \\Dllhost.exe/ProcessID： { &lt; ProcessID &gt; }。
 
 14. 按一下 [確定]。
 

@@ -20,17 +20,17 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: a5839559751fe45ec18a55de14c565116a0f9a4c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 069339aefbac335bf1c7bb4b35efe4466b526225
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106987370"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122475934"
 ---
 # <a name="jetattachdatabase2-function"></a>JetAttachDatabase2 函式
 
 
-_**適用于：** Windows |Windows Server_
+_**適用于：** Windows |Windows伺服器_
 
 ## <a name="jetattachdatabase2-function"></a>JetAttachDatabase2 函式
 
@@ -65,100 +65,35 @@ _**適用于：** Windows |Windows Server_
 
 位群組，其中包含要用於此呼叫的選項，其中包含零或多個下列各項：
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>值</p></th>
-<th><p>意義</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_bitDbDeleteCorruptIndexes</p></td>
-<td><p>如果已設定 <a href="gg269337(v=exchg.10).md">JET_paramEnableIndexChecking</a> ，將會刪除 Unicode 資料上的所有索引。 如需詳細資訊，請參閱＜備註＞一節。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitDbDeleteUnicodeIndexes</p></td>
-<td><p>無論 <a href="gg269337(v=exchg.10).md">JET_paramEnableIndexChecking</a>的設定為何，都將刪除所有 Unicode 資料的索引。 如需詳細資訊，請參閱＜備註＞一節。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitDbReadOnly</p></td>
-<td><p>防止修改資料庫。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitDbUpgrade</p></td>
-<td><p>保留供未來使用。</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>值</p> | <p>意義</p> | 
+|--------------|----------------|
+| <p>JET_bitDbDeleteCorruptIndexes</p> | <p>如果已設定 <a href="gg269337(v=exchg.10).md">JET_paramEnableIndexChecking</a> ，將會刪除 Unicode 資料上的所有索引。 如需詳細資訊，請參閱＜備註＞一節。</p> | 
+| <p>JET_bitDbDeleteUnicodeIndexes</p> | <p>無論 <a href="gg269337(v=exchg.10).md">JET_paramEnableIndexChecking</a>的設定為何，都將刪除所有 Unicode 資料的索引。 如需詳細資訊，請參閱＜備註＞一節。</p> | 
+| <p>JET_bitDbReadOnly</p> | <p>防止修改資料庫。</p> | 
+| <p>JET_bitDbUpgrade</p> | <p>保留供未來使用。</p> | 
+
 
 
 ### <a name="return-value"></a>傳回值
 
-函數會傳回其中一個 [JET_ERR](./jet-err.md) 錯誤碼。 以下是最常傳回的。  (如需此 API 的完整錯誤清單，請參閱可延伸的 [儲存引擎錯誤碼](./extensible-storage-engine-error-codes.md)。 ) 
+函數會傳回其中一個 [JET_ERR](./jet-err.md) 錯誤碼。 以下是最常傳回的。  (如需此 API 的完整錯誤清單，請參閱[可擴展儲存體引擎錯誤碼](./extensible-storage-engine-error-codes.md)。 ) 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>傳回碼</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errSuccess</p></td>
-<td><p>作業已成功完成。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errBackupInProgress</p></td>
-<td><p>在備份期間，不允許附加資料庫。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errDatabaseFileReadOnly</p></td>
-<td><p><em>SzFilename</em>所指定的資料庫檔案必須是可寫入的。 不能設定 Read-Only 屬性，而且執行中的進程必須有足夠的許可權可寫入檔案。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errDatabaseInUse</p></td>
-<td><p>資料庫檔案已經由另一個進程開啟。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errDatabaseInvalidPath</p></td>
-<td><p><em>SzFilename</em>中提供了不正確路徑。 <em>szFilename</em> 必須為非 Null，並參考有效的路徑。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errDatabaseSharingViolation</p></td>
-<td><p>已由不同的會話附加資料庫檔案。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errFileNotFound</p></td>
-<td><p><em>SzFilename</em>中提供的檔案不存在。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errPrimaryIndexCorrupted</p></td>
-<td><p>主要索引發生錯誤。 這可能是因為物理損毀 (例如磁片或記憶體損毀) 。 當附加資料庫上次修改較舊的作業系統，而且主要索引是在具有 Unicode 資料的資料行上時，也可能會傳回它。 如需 Unicode 資料之索引的詳細資訊，請參閱備註。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errSecondaryIndexCorrupted</p></td>
-<td><p>次要索引發生錯誤。 這可能是因為物理損毀 (例如磁片或記憶體損毀) 。 當附加資料庫上次修改于較舊的作業系統上，而且次要索引是在具有 Unicode 資料的資料行上時，也可能會傳回它。 如需 Unicode 資料之索引的詳細資訊，請參閱備註。 使用下列命令，以離線公用程式重新整理資料庫時，會完整重建次要索引： <strong>esentutl-d</strong>。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errTooManyAttachedDatabases</p></td>
-<td><p>每個實例只能附加有限數量的資料庫。 限制目前為每個實例七個資料庫。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_wrnDatabaseAttached</p></td>
-<td><p>非嚴重警告，指出此會話已附加資料庫檔案。</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>傳回碼</p> | <p>Description</p> | 
+|--------------------|--------------------|
+| <p>JET_errSuccess</p> | <p>作業已成功完成。</p> | 
+| <p>JET_errBackupInProgress</p> | <p>在備份期間，不允許附加資料庫。</p> | 
+| <p>JET_errDatabaseFileReadOnly</p> | <p><em>SzFilename</em>所指定的資料庫檔案必須是可寫入的。 不能設定 Read-Only 屬性，而且執行中的進程必須有足夠的許可權可寫入檔案。</p> | 
+| <p>JET_errDatabaseInUse</p> | <p>資料庫檔案已經由另一個進程開啟。</p> | 
+| <p>JET_errDatabaseInvalidPath</p> | <p><em>SzFilename</em>中提供了不正確路徑。 <em>szFilename</em> 必須為非 Null，並參考有效的路徑。</p> | 
+| <p>JET_errDatabaseSharingViolation</p> | <p>已由不同的會話附加資料庫檔案。</p> | 
+| <p>JET_errFileNotFound</p> | <p><em>SzFilename</em>中提供的檔案不存在。</p> | 
+| <p>JET_errPrimaryIndexCorrupted</p> | <p>主要索引發生錯誤。 這可能是因為物理損毀 (例如磁片或記憶體損毀) 。 當附加資料庫上次修改較舊的作業系統，而且主要索引是在具有 Unicode 資料的資料行上時，也可能會傳回它。 如需 Unicode 資料之索引的詳細資訊，請參閱備註。</p> | 
+| <p>JET_errSecondaryIndexCorrupted</p> | <p>次要索引發生錯誤。 這可能是因為物理損毀 (例如磁片或記憶體損毀) 。 當附加資料庫上次修改于較舊的作業系統上，而且次要索引是在具有 Unicode 資料的資料行上時，也可能會傳回它。 如需 Unicode 資料之索引的詳細資訊，請參閱備註。 使用下列命令，以離線公用程式重新整理資料庫時，會完整重建次要索引： <strong>esentutl-d</strong>。</p> | 
+| <p>JET_errTooManyAttachedDatabases</p> | <p>每個實例只能附加有限數量的資料庫。 限制目前為每個實例七個資料庫。</p> | 
+| <p>JET_wrnDatabaseAttached</p> | <p>非嚴重警告，指出此會話已附加資料庫檔案。</p> | 
+
 
 
 #### <a name="remarks"></a>備註
@@ -169,43 +104,14 @@ _**適用于：** Windows |Windows Server_
 
 #### <a name="requirements"></a>規格需求
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>用戶端</strong></p></td>
-<td><p>需要 Windows Vista、Windows XP 或 Windows 2000 Professional。</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>伺服器</strong></p></td>
-<td><p>需要 Windows Server 2008、Windows Server 2003 或 Windows 2000 Server。</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>標頭</strong></p></td>
-<td><p>宣告于 Esent. h 中。</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>程式庫</strong></p></td>
-<td><p>使用 ESENT。</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>DLL</strong></p></td>
-<td><p>需要 ESENT.dll。</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Unicode</strong></p></td>
-<td><p>實作為 <strong>JetAttachDatabase2W</strong> (Unicode) 和 <strong>JetAttachDatabase2A</strong> (ANSI) 。</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p><strong>用戶端</strong></p> | <p>需要 Windows Vista、Windows XP 或 Windows 2000 Professional。</p> | | <p><strong>伺服器</strong></p> | <p>需要 Windows server 2008、Windows Server 2003 或 Windows 2000 Server。</p> | | <p><strong>標頭</strong></p> | <p>宣告于 Esent. h 中。</p> | | <p><strong>程式庫</strong></p> | <p>使用 ESENT。</p> | | <p><strong>DLL</strong></p> | <p>需要 ESENT.dll。</p> | | <p><strong>Unicode</strong></p> | <p>實作為 <strong>JetAttachDatabase2W</strong> (Unicode) 和 <strong>JetAttachDatabase2A</strong> (ANSI) 。</p> | 
+
 
 
 #### <a name="see-also"></a>另請參閱
 
-[可擴充儲存引擎檔案](./extensible-storage-engine-files.md)  
+[可擴充的儲存體引擎檔案](./extensible-storage-engine-files.md)  
 [JET_ERR](./jet-err.md)  
 [JET_GRBIT](./jet-grbit.md)  
 [JET_SESID](./jet-sesid.md)  

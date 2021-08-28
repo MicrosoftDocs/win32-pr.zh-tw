@@ -1,19 +1,19 @@
 ---
-description: <folderType>元素指定資料夾類型的 GUID。 如果元素存在，則需要這個元素 <templateInfo> 。 它沒有屬性和子項目。
+description: '&lt;FolderType &gt; 元素會指定資料夾類型的 GUID。 如果 &lt; templateInfo 元素存在，則需要這個元素 &gt; 。 它沒有屬性和子項目。'
 ms.assetid: 2361bbf5-adeb-4189-a8ff-5fdd1c9b0ec6
 title: 'folderType 元素 (搜尋連接器架構) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4c6b9d5682a85126a467c051b9f1103a4ac10f2f6936cc24dd4438a5f8c75d44
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b693a1ff7007e6d63e108d16abe77ee421b3821a
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117862597"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122882467"
 ---
 # <a name="foldertype-element-search-connector-schema"></a>folderType 元素 (搜尋連接器架構) 
 
-<folderType>元素指定資料夾類型的 GUID。 如果元素存在，則需要這個元素 <templateInfo> 。 它沒有屬性和子項目。
+&lt;FolderType &gt; 元素會指定資料夾類型的 GUID。 如果 &lt; templateInfo 元素存在，則需要這個元素 &gt; 。 它沒有屬性和子項目。
 
 ## <a name="syntax"></a>Syntax
 

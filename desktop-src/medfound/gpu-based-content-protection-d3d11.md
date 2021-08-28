@@ -4,12 +4,12 @@ ms.assetid: 3FDB4908-C75D-4AE0-B32E-93F840E4F30A
 title: 使用 D3D11 影片 GPU-Based 內容保護
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e3ad4301de238ed19fbb047972a15c4acb9e48be069668882fe339ac3da390b1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 24af51187c400c11afa2ea273e7718c2d38ce429
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117879141"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122481734"
 ---
 # <a name="gpu-based-content-protection-with-d3d11-video"></a>使用 D3D11 影片 GPU-Based 內容保護
 
@@ -186,41 +186,14 @@ Direct3D11 具有128位 AES CTR 的標準支援，但其設計目的是要延伸
 
 1.  填寫輸入資料結構。 此資料結構一律是 [**D3D11_AUTHENTICATED_CONFIGURE_INPUT**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_configure_input) 結構，後面接著其他欄位。 填寫 **D3D11_AUTHENTICATED_CONFIGURE_INPUT** 結構，如下表所示。
 
-    <table>
-    <colgroup>
-    <col style="width: 50%" />
-    <col style="width: 50%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th>member</th>
-    <th>描述</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td><strong>omac</strong></td>
-    <td>請立即略過此欄位。</td>
-    </tr>
-    <tr class="even">
-    <td><strong>ConfigureType</strong></td>
-    <td>識別命令的 GUID。 如需命令清單，請參閱 <a href="content-protection-commands.md">內容保護命令</a>。</td>
-    </tr>
-    <tr class="odd">
-    <td><strong>hChannel</strong></td>
-    <td>已驗證通道的控制碼。</td>
-    </tr>
-    <tr class="even">
-    <td><strong>SequenceNumber</strong></td>
-    <td>序號。 第一個序號是藉由傳送 <a href="/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_configure_initialize_input"><strong>D3D11_AUTHENTICATED_CONFIGURE_INITIALIZE</strong></a> 命令來指定。 每次您傳送另一個命令時，就會將此數位遞增1。 此序號會防止重新執行攻擊。
-    <blockquote>
-    [!Note]<br />
-使用兩個不同的序號，一個用於命令，一個用於查詢。
-    </blockquote>
-    <br/> <br/></td>
-    </tr>
-    </tbody>
-    </table>
+    
+| member | 描述 | 
+|--------|-------------|
+| <strong>omac</strong> | 請立即略過此欄位。 | 
+| <strong>ConfigureType</strong> | 識別命令的 GUID。 如需命令清單，請參閱 <a href="content-protection-commands.md">內容保護命令</a>。 | 
+| <strong>hChannel</strong> | 已驗證通道的控制碼。 | 
+| <strong>SequenceNumber</strong> | 序號。 第一個序號是藉由傳送 <a href="/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_configure_initialize_input"><strong>D3D11_AUTHENTICATED_CONFIGURE_INITIALIZE</strong></a> 命令來指定。 每次您傳送另一個命令時，就會將此數位遞增1。 此序號會防止重新執行攻擊。    <blockquote>    [!Note]<br />    使用兩個不同的序號，一個用於命令，一個用於查詢。    </blockquote><br /><br /> | 
+
 
     
 
@@ -241,37 +214,13 @@ Direct3D11 具有128位 AES CTR 的標準支援，但其設計目的是要延伸
 
 1.  填寫輸入資料結構。 此資料結構一律是 [**D3D11_AUTHENTICATED_QUERY_INPUT**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_query_input) 結構，後面可能接著其他欄位。 填寫 **D3D11_AUTHENTICATED_QUERY_INPUT** 結構，如下表所示。
 
-    <table>
-    <colgroup>
-    <col style="width: 50%" />
-    <col style="width: 50%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th>member</th>
-    <th>描述</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td><strong>QueryType</strong></td>
-    <td>識別查詢的 GUID。 如需查詢清單，請參閱 <a href="content-protection-queries.md">內容保護查詢</a>。</td>
-    </tr>
-    <tr class="even">
-    <td><strong>hChannel</strong></td>
-    <td>已驗證通道的控制碼。</td>
-    </tr>
-    <tr class="odd">
-    <td><strong>SequenceNumber</strong></td>
-    <td>序號。 第一個序號是藉由傳送 <a href="/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_configure_initialize_input"><strong>D3D11_AUTHENTICATED_CONFIGURE_INITIALIZE</strong></a> 命令來指定。 每次您傳送另一個查詢時，會將此數位遞增1。 此序號會防止重新執行攻擊。
-    <blockquote>
-    [!Note]<br />
-使用兩個不同的序號，一個用於命令，一個用於查詢。
-    </blockquote>
-    <br/> <br/></td>
-    </tr>
-    </tbody>
-    </table>
+    
+| member | 描述 | 
+|--------|-------------|
+| <strong>QueryType</strong> | 識別查詢的 GUID。 如需查詢清單，請參閱 <a href="content-protection-queries.md">內容保護查詢</a>。 | 
+| <strong>hChannel</strong> | 已驗證通道的控制碼。 | 
+| <strong>SequenceNumber</strong> | 序號。 第一個序號是藉由傳送 <a href="/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_configure_initialize_input"><strong>D3D11_AUTHENTICATED_CONFIGURE_INITIALIZE</strong></a> 命令來指定。 每次您傳送另一個查詢時，會將此數位遞增1。 此序號會防止重新執行攻擊。    <blockquote>    [!Note]<br />    使用兩個不同的序號，一個用於命令，一個用於查詢。    </blockquote><br /><br /> | 
+
 
     
 

@@ -4,12 +4,12 @@ ms.assetid: 44c63152-507d-4769-9c0c-d275d2b0deac
 title: DecryptMessage (NTLM) 函數
 ms.topic: reference
 ms.date: 07/25/2019
-ms.openlocfilehash: 707f1bcd9ae697de0c3e23529fe2857f58d0e5e7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f73159c1b6e9fbe3d6d9c282ffdb05271e29583b
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106977975"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122481044"
 ---
 # <a name="decryptmessage-ntlm-function"></a>DecryptMessage (NTLM) 函數
 
@@ -49,8 +49,11 @@ SECURITY_STATUS SEC_Entry DecryptMessage(
 
 此參數可以是下列旗標。
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th>值</th><th>意義</th></tr></thead><tbody><tr class="odd"><td><span id="SECQOP_WRAP_NO_ENCRYPT"></span><span id="secqop_wrap_no_encrypt"></span><dl> <dt><strong>SECQOP_WRAP_NO_ENCRYPT</strong></dt> </dl></td><td>訊息未加密，但產生的是標頭或結尾。<br/><blockquote>[!Note]<br />
-KERB_WRAP_NO_ENCRYPT 具有相同的值和相同的意義。</blockquote><br/></td></tr></tbody></table>
+
+| 值 | 意義 | 
+|-------|---------|
+| <span id="SECQOP_WRAP_NO_ENCRYPT"></span><span id="secqop_wrap_no_encrypt"></span><dl><dt><strong>SECQOP_WRAP_NO_ENCRYPT</strong></dt></dl> | 訊息未加密，但產生的是標頭或結尾。<br /><blockquote>[!Note]<br />KERB_WRAP_NO_ENCRYPT 具有相同的值和相同的意義。</blockquote><br /> | 
+
 
 ## <a name="return-value"></a>傳回值
 
@@ -67,14 +70,14 @@ KERB_WRAP_NO_ENCRYPT 具有相同的值和相同的意義。</blockquote><br/></
 
 有時候，應用程式會從遠端方讀取資料、使用 **DecryptMessage (NTLM)** 嘗試將它解密，併發現 **DecryptMessage (NTLM)** 成功，但輸出緩衝區是空的。 這是正常行為，而且應用程式必須能夠處理它。
 
-**WINDOWS XP：** 此函數也稱為 **UnsealMessage**。 應用程式現在應該只使用 **DecryptMessage (NTLM)** 。
+**Windows XP：** 此函數也稱為 **UnsealMessage**。 應用程式現在應該只使用 **DecryptMessage (NTLM)** 。
 
 ## <a name="requirements"></a>規格需求
 
 | 需求 | 值 |
 |--------------------------|-------------------------------------------|
-| 最低支援的用戶端 | \[僅限 WINDOWS XP desktop 應用程式\]          |
-| 最低支援的伺服器 | 僅限 Windows Server 2003 \[ desktop 應用程式\] |
+| 最低支援的用戶端 | Windows\[僅限 XP desktop 應用程式\]          |
+| 最低支援的伺服器 | Windows\[僅限 Server 2003 desktop 應用程式\] |
 | 標頭                   | Sspi (包含 Security .h)                |
 | 程式庫                  | Secur32 .lib                               |
 | DLL                      | Secur32.dll                               |

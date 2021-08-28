@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 455b46465733a906b879dcedc4b5a2f4e6ef1f9e
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: 2f821d3aea8055f6c1344ed9d5107417adbaf604
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122472474"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122985511"
 ---
 # <a name="meta-parameters"></a>中繼參數
 
@@ -87,7 +87,19 @@ Small Configuration 也有其他對資料庫引擎的影響，包括：
   - 將各種維護活動調整回來以避免背景執行緒活動
 
 
-| | | <p>預設值：3</p> | <p>1 (舊版) </p> | | <p>輸入：</p> | <p>整數</p> | | <p>有效範圍：</p> | <p>0-1</p> | | <p>範圍：</p> | <p>執行個體</p> | | <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p>是</p> | | <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p>否</p> | | <p>會影響實體版面配置：</p> | <p>否</p> | | <p>會影響可靠性：</p> | <p>否</p> | | <p>影響效能：</p> | <p>是</p> | | <p>會影響資源：</p> | <p>是</p> | | <p>可用性：</p> | <p>從 Windows Server 2008 和 Windows Vista 開始</p> | 
+| 標籤 | 值 |
+|--------|-------|
+| <p>預設值：3</p> | <p>1 (舊版) </p> | 
+| <p>輸入：</p> | <p>整數</p> | 
+| <p>有效範圍：</p> | <p>0-1</p> | 
+| <p>範圍：</p> | <p>執行個體</p> | 
+| <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p>Yes</p> | 
+| <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p>No</p> | 
+| <p>會影響實體版面配置：</p> | <p>No</p> | 
+| <p>會影響可靠性：</p> | <p>No</p> | 
+| <p>影響效能：</p> | <p>Yes</p> | 
+| <p>會影響資源：</p> | <p>Yes</p> | 
+| <p>可用性：</p> | <p>從 Windows Server 2008 和 Windows Vista 開始</p> | 
 
 
 
@@ -178,14 +190,30 @@ JET_paramEnableAdvanced
   - JET_paramCheckpointIOMax
 
 
-| | | <p>預設值：3</p> | <p>是</p> | | <p>輸入：</p> | <p>Boolean</p> | | <p>有效範圍：</p> | <p>False, True</p> | | <p>範圍：</p> | <p>執行個體</p> | | <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p>是</p> | | <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p>是</p> | | <p>會影響實體版面配置：</p> | <p>否</p> | | <p>會影響可靠性：</p> | <p>否</p> | | <p>影響效能：</p> | <p>否</p> | | <p>會影響資源：</p> | <p>否</p> | | <p>可用性：</p> | <p>從 Windows Server 2008 和 Windows Vista 開始</p> | 
+| 標籤 | 值 |
+|--------|-------|
+| <p>預設值：3</p> | <p>對</p> | 
+| <p>輸入：</p> | <p>Boolean</p> | 
+| <p>有效範圍：</p> | <p>False, True</p> | 
+| <p>範圍：</p> | <p>執行個體</p> | 
+| <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p>Yes</p> | 
+| <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p>Yes</p> | 
+| <p>會影響實體版面配置：</p> | <p>No</p> | 
+| <p>會影響可靠性：</p> | <p>No</p> | 
+| <p>影響效能：</p> | <p>No</p> | 
+| <p>會影響資源：</p> | <p>No</p> | 
+| <p>可用性：</p> | <p>從 Windows Server 2008 和 Windows Vista 開始</p> | 
 
 
 
 ### <a name="requirements"></a>規格需求
 
 
-| | | <p><strong>用戶端</strong></p> | <p>需要 Windows Vista。</p> | | <p><strong>伺服器</strong></p> | <p>需要 Windows Server 2008。</p> | | <p><strong>標頭</strong></p> | <p>宣告于 Esent. h 中。</p> | 
+| 需求 | 值 |
+|------------|----------|
+| <p><strong>用戶端</strong></p> | <p>需要 Windows Vista。</p> | 
+| <p><strong>伺服器</strong></p> | <p>需要 Windows Server 2008。</p> | 
+| <p><strong>標頭</strong></p> | <p>宣告于 Esent. h 中。</p> | 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: f44e234e-b45a-40be-993d-956b8966c321
 title: 語義類型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 01845bd7790f618794816182bb4b11fc0d13baf9216d17bbd15c63a390a52a90
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 234e5dd929991c2ec5fecbc1d2d1bda72f4fbe52
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120040298"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122882642"
 ---
 # <a name="semantic-types"></a>語義類型
 
@@ -19,10 +19,10 @@ ms.locfileid: "120040298"
 
 
 
-| 格式 | 類型       | CoNtextData                                                 | 描述                                                                                                |
+| 格式 | 類型       | CoNtextData                                                 | 說明                                                                                                |
 |--------|------------|-------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|
 | Text   |            |                                                             | 任意文字。 請參閱 [任意文字類型](arbitrary-text-type.md)。                                        |
-| Text   | 列舉       | <A>=<a>;<B>=<b>;<C>=<c> | 從集合中選取的值。 請參閱 [列舉類型](enum-type.md)。                                                 |
+| Text   | 列舉       | <A>=<a>;<B>=<b>;&lt;C &gt; = &lt; c&gt; | 從集合中選取的值。 請參閱 [列舉類型](enum-type.md)。                                                 |
 | Text   | 已格式化  |                                                             | 值符合安裝程式中格式化文字的定義。 請參閱 [格式化型](formatted-type.md)別。 |
 | Text   | RTF        |                                                             | RTF 文字字串。 請參閱 [RTF 類型](rtf-type.md)。                                                          |
 | Text   | 識別碼 |                                                             | 符合 Windows Installer[識別碼](identifier.md)的文字字串。                              |
@@ -35,7 +35,7 @@ ms.locfileid: "120040298"
 
 
 
-| 格式  | 類型 | CoNtextData | 描述                                                                  |
+| 格式  | 類型 | CoNtextData | 說明                                                                  |
 |---------|------|-------------|------------------------------------------------------------------------------|
 | 整數 |      |             | 任何整數值。 請參閱 [任意整數類型](arbitrary-integer-type.md)。 |
 
@@ -73,7 +73,7 @@ ms.locfileid: "120040298"
 
 | 格式   | 類型 | CoNtextData                                  | 描述                                                                                       |
 |----------|------|----------------------------------------------|---------------------------------------------------------------------------------------------------|
-| 字元 |      | <mask>;<A>=<a>;<B>= b | 變更資料行中的位子集。 查看 [任意](arbitrary-bitfield-type.md)位欄位類型。 |
+| 字元 |      | &lt;mask &gt; ; <A> = <a> ; <B>= b | 變更資料行中的位子集。 查看 [任意](arbitrary-bitfield-type.md)位欄位類型。 |
 
 
 

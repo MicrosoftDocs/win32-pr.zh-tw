@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Root\CIMV2\Security\MicrosoftVolumeEncryption
-ms.openlocfilehash: e6e2ed0eea4bb9c70949a3916733bf2777397fcb509ba0ce2f91633bf15a74d0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 968ff7f64a9a98a711210a4cfae64006c5a8f965
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118892466"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122481024"
 ---
 # <a name="encrypt-method-of-the-win32_encryptablevolume-class"></a>Win32 EncryptableVolume 類別的 Encrypt 方法 \_
 
@@ -99,57 +99,17 @@ Windows 10 1511 版或更新版本的預設值為： 6 (XTS \_ AES \_ 128) 。
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>傳回碼/值</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><dl> <dt><strong>S_OK</strong></dt> <dt>0 (0x0) </dt> </dl></td>
-<td>此方法成功。<br/></td>
-</tr>
-<tr class="even">
-<td><dl> <dt><strong>E_INVALIDARG</strong></dt> <dt>2147942487 (0x80070057) </dt> </dl></td>
-<td>已提供 <em>EncryptionMethod</em> 參數，但不在已知範圍內，或不符合目前的群組原則設定。<br/></td>
-</tr>
-<tr class="odd">
-<td><dl> <dt><strong>FVE_E_CANNOT_ENCRYPT_NO_KEY</strong></dt> <dt>2150694958 (0x8031002E) </dt> </dl></td>
-<td>磁片區不存在任何加密金鑰。 使用 <a href="disablekeyprotectors-win32-encryptablevolume.md"><strong>DisableKeyProtectors</strong></a> 方法來停用金鑰保護裝置，或使用下列其中一種方法來指定磁片區的金鑰保護裝置：<br/>
-<ul>
-<li><a href="protectkeywithexternalkey-win32-encryptablevolume.md"><strong>ProtectKeyWithExternalKey</strong></a></li>
-<li><a href="protectkeywithnumericalpassword-win32-encryptablevolume.md"><strong>ProtectKeyWithNumericalPassword</strong></a></li>
-<li><a href="protectkeywithtpm-win32-encryptablevolume.md"><strong>ProtectKeyWithTPM</strong></a></li>
-<li><a href="protectkeywithtpmandpin-win32-encryptablevolume.md"><strong>ProtectKeyWithTPMAndPIN</strong></a></li>
-<li><a href="protectkeywithtpmandpinandstartupkey-win32-encryptablevolume.md"><strong>ProtectKeyWithTPMAndPINAndStartupKey</strong></a></li>
-<li><a href="protectkeywithtpmandstartupkey-win32-encryptablevolume.md"><strong>ProtectKeyWithTPMAndStartupKey</strong></a></li>
-</ul>
-<strong>Windows Vista：</strong>當磁片區不存在任何加密金鑰時，會改為傳回 ERROR_INVALID_OPERATION。 十進位值是4317，而十六進位值為0x10DD。<br/></td>
-</tr>
-<tr class="even">
-<td><dl> <dt><strong>FVE_E_CANNOT_SET_FVEK_ENCRYPTED</strong></dt> <dt>2150694957 (0x8031002D) </dt> </dl></td>
-<td>提供的加密方法與部分或完整加密磁片區的加密方法不相符。 若要繼續加密，請將 <em>EncryptionMethod</em> 參數保留空白或使用零值。<br/></td>
-</tr>
-<tr class="odd">
-<td><dl> <dt><strong>FVE_E_CLUSTERING_NOT_SUPPORTED</strong></dt> <dt>2150694942 (0x8031001E) </dt> </dl></td>
-<td>因為這部電腦已設定為伺服器叢集的一部分，所以無法將磁片區加密。<br/></td>
-</tr>
-<tr class="even">
-<td><dl> <dt><strong>FVE_E_LOCKED_VOLUME</strong></dt> <dt>2150694912 (0x80310000) </dt> </dl></td>
-<td>磁片區已鎖定。<br/></td>
-</tr>
-<tr class="odd">
-<td><dl> <dt><strong>FVE_E_POLICY_PASSWORD_REQUIRED</strong></dt> <dt>2150694956 (0x8031002C) </dt> </dl></td>
-<td>未指定類型數值密碼的金鑰保護裝置 &quot; &quot; 。 群組原則需要將修復資訊備份到 Active Directory Domain Services。 若要加入至少一個該類型的金鑰保護裝置，請使用 <a href="protectkeywithnumericalpassword-win32-encryptablevolume.md"><strong>ProtectKeyWithNumericalPassword</strong></a> 方法。<br/></td>
-</tr>
-</tbody>
-</table>
+
+| 傳回碼/值 | Description | 
+|-------------------|-------------|
+| <dl><dt><strong>S_OK</strong></dt><dt>0 (0x0) </dt></dl> | 此方法成功。<br /> | 
+| <dl><dt><strong>E_INVALIDARG</strong></dt><dt>2147942487 (0x80070057) </dt></dl> | 已提供 <em>EncryptionMethod</em> 參數，但不在已知範圍內，或不符合目前的群組原則設定。<br /> | 
+| <dl><dt><strong>FVE_E_CANNOT_ENCRYPT_NO_KEY</strong></dt><dt>2150694958 (0x8031002E) </dt></dl> | 磁片區不存在任何加密金鑰。 使用 <a href="disablekeyprotectors-win32-encryptablevolume.md"><strong>DisableKeyProtectors</strong></a> 方法來停用金鑰保護裝置，或使用下列其中一種方法來指定磁片區的金鑰保護裝置：<br /><ul><li><a href="protectkeywithexternalkey-win32-encryptablevolume.md"><strong>ProtectKeyWithExternalKey</strong></a></li><li><a href="protectkeywithnumericalpassword-win32-encryptablevolume.md"><strong>ProtectKeyWithNumericalPassword</strong></a></li><li><a href="protectkeywithtpm-win32-encryptablevolume.md"><strong>ProtectKeyWithTPM</strong></a></li><li><a href="protectkeywithtpmandpin-win32-encryptablevolume.md"><strong>ProtectKeyWithTPMAndPIN</strong></a></li><li><a href="protectkeywithtpmandpinandstartupkey-win32-encryptablevolume.md"><strong>ProtectKeyWithTPMAndPINAndStartupKey</strong></a></li><li><a href="protectkeywithtpmandstartupkey-win32-encryptablevolume.md"><strong>ProtectKeyWithTPMAndStartupKey</strong></a></li></ul><strong>Windows Vista：</strong>當磁片區不存在任何加密金鑰時，會改為傳回 ERROR_INVALID_OPERATION。 十進位值是4317，而十六進位值為0x10DD。<br /> | 
+| <dl><dt><strong>FVE_E_CANNOT_SET_FVEK_ENCRYPTED</strong></dt><dt>2150694957 (0x8031002D) </dt></dl> | 提供的加密方法與部分或完整加密磁片區的加密方法不相符。 若要繼續加密，請將 <em>EncryptionMethod</em> 參數保留空白或使用零值。<br /> | 
+| <dl><dt><strong>FVE_E_CLUSTERING_NOT_SUPPORTED</strong></dt><dt>2150694942 (0x8031001E) </dt></dl> | 因為這部電腦已設定為伺服器叢集的一部分，所以無法將磁片區加密。<br /> | 
+| <dl><dt><strong>FVE_E_LOCKED_VOLUME</strong></dt><dt>2150694912 (0x80310000) </dt></dl> | 磁片區已鎖定。<br /> | 
+| <dl><dt><strong>FVE_E_POLICY_PASSWORD_REQUIRED</strong></dt><dt>2150694956 (0x8031002C) </dt></dl> | 未指定類型為「數位密碼」的金鑰保護裝置。 群組原則需要將修復資訊備份到 Active Directory Domain Services。 若要加入至少一個該類型的金鑰保護裝置，請使用 <a href="protectkeywithnumericalpassword-win32-encryptablevolume.md"><strong>ProtectKeyWithNumericalPassword</strong></a> 方法。<br /> | 
+
 
 
 

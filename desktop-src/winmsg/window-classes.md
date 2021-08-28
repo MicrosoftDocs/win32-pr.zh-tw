@@ -4,12 +4,12 @@ ms.assetid: vs|winui|~\winui\windowsuserinterface\windowing\window_89windowclass
 title: '視窗類別 (Windows 和訊息) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f6b570309ce6613f3adfe256faff9c30b66f9dbd5062de5f342b434be32dce89
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a77e96a06433bf6bbcb72fb76a41a29fccee27ad
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117849503"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122482644"
 ---
 # <a name="window-classes-windows-and-messages"></a>視窗類別 (Windows 和訊息) 
 
@@ -59,47 +59,13 @@ ms.locfileid: "117849503"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="/windows/desktop/api/winuser/nf-winuser-getclassinfoa"><strong>GetClassInfo</strong></a></td>
-<td>抓取視窗類別的相關資訊。 <br/>
-<blockquote>
-[!Note]<br />
-<a href="/windows/desktop/api/winuser/nf-winuser-getclassinfoa"><strong>GetClassInfo</strong></a>函式已被<a href="/windows/desktop/api/winuser/nf-winuser-getclassinfoexa"><strong>GetClassInfoEx</strong></a>函數取代。 但是，如果您不需要類別小型圖示的相關資訊，仍然可以使用 <strong>GetClassInfo</strong>。
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/winuser/nf-winuser-getclassword"><strong>GetClassWord</strong></a></td>
-<td>針對指定之視窗所屬的視窗類別，將指定之位移的16位 (<strong>字</strong>) 值移入額外類別記憶體。
-<blockquote>
-[!Note]<br />
-<em>NIndex</em>設定為 GCW_ATOM 以外的任何使用，此函式已被取代。 此函數僅提供給 Windows 之16位版本的相容性。 應用程式應該使用 <a href="/windows/desktop/api/winuser/nf-winuser-getclasslonga"><strong>GetClassLong</strong></a> 函式。
-</blockquote>
-<br/> <br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/winuser/nf-winuser-setclasslonga"><strong>SetClassLong</strong></a></td>
-<td>將指定之位移的指定32位 (<strong>long</strong>) 值取代為指定之視窗所屬類別的額外類別記憶體或 <a href="/windows/win32/api/winuser/ns-winuser-wndclassexa"><strong>WNDCLASSEX</strong></a> 結構。
-<blockquote>
-[!Note]<br />
-此函數已被 <a href="/windows/desktop/api/winuser/nf-winuser-setclasslongptra"><strong>SetClassLongPtr</strong></a> 函數取代。 若要撰寫與32位和64位版本的 Windows 相容的程式碼，請使用<strong>SetClassLongPtr</strong>。
-</blockquote>
-<br/> <br/></td>
-</tr>
-</tbody>
-</table>
+
+| Name | 描述 | 
+|------|-------------|
+| <a href="/windows/desktop/api/winuser/nf-winuser-getclassinfoa"><strong>GetClassInfo</strong></a> | 抓取視窗類別的相關資訊。 <br /><blockquote>[!Note]<br /><a href="/windows/desktop/api/winuser/nf-winuser-getclassinfoa"><strong>GetClassInfo</strong></a>函式已被<a href="/windows/desktop/api/winuser/nf-winuser-getclassinfoexa"><strong>GetClassInfoEx</strong></a>函數取代。 但是，如果您不需要類別小型圖示的相關資訊，仍然可以使用 <strong>GetClassInfo</strong>。</blockquote><br /> | 
+| <a href="/windows/desktop/api/winuser/nf-winuser-getclassword"><strong>GetClassWord</strong></a> | 針對指定之視窗所屬的視窗類別，將指定之位移的16位 (<strong>字</strong>) 值移入額外類別記憶體。<blockquote>[!Note]<br /><em>NIndex</em>設定為 GCW_ATOM 以外的任何使用，此函式已被取代。 此函數僅提供給 Windows 之16位版本的相容性。 應用程式應該使用 <a href="/windows/desktop/api/winuser/nf-winuser-getclasslonga"><strong>GetClassLong</strong></a> 函式。</blockquote><br /><br /> | 
+| <a href="/windows/desktop/api/winuser/nf-winuser-setclasslonga"><strong>SetClassLong</strong></a> | 將指定之位移的指定32位 (<strong>long</strong>) 值取代為指定之視窗所屬類別的額外類別記憶體或 <a href="/windows/win32/api/winuser/ns-winuser-wndclassexa"><strong>WNDCLASSEX</strong></a> 結構。<blockquote>[!Note]<br />此函數已被 <a href="/windows/desktop/api/winuser/nf-winuser-setclasslongptra"><strong>SetClassLongPtr</strong></a> 函數取代。 若要撰寫與32位和64位版本的 Windows 相容的程式碼，請使用<strong>SetClassLongPtr</strong>。</blockquote><br /><br /> | 
+
 
 
 

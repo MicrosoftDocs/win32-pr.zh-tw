@@ -1,19 +1,19 @@
 ---
-description: <url>元素指定此搜尋連接器的位置 URL。
+description: '&lt;Url &gt; 元素會指定此搜尋連接器的位置 url。'
 ms.assetid: fdc9e138-2e98-4f01-ab7b-0c3dfad5a4dd
 title: 'simpleLocation url 元素 (搜尋連接器架構) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fce95943017f4905414f65b75086d4babdf3750505fece0b73255e0e63623e9b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8818eacdaecd33353d4340270770e80b4a63ceee
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118226323"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122883109"
 ---
 # <a name="simplelocation-url-element-search-connector-schema"></a>simpleLocation url 元素 (搜尋連接器架構) 
 
-<url>元素指定此搜尋連接器的位置 URL。 此值可以是一般 file://URL，如 RFC 1738 (檔中所定義， https://www.ietf.org/rfc/rfc1738.txt) 或使用 knownfolders： protocol 的 url。 這個元素沒有任何子項目，而且沒有任何屬性。
+&lt;Url &gt; 元素會指定此搜尋連接器的位置 url。 此值可以是一般 file://URL，如 RFC 1738 (檔中所定義， https://www.ietf.org/rfc/rfc1738.txt) 或使用 knownfolders： protocol 的 url。 這個元素沒有任何子項目，而且沒有任何屬性。
 
 ## <a name="syntax"></a>Syntax
 

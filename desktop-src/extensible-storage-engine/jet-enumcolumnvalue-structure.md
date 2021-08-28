@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 14d89033969c77cd3ec34b44b75817a8d6664fd2c04bd94e3c4d34efa768b079
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 3a4d9500980434c21f9dfa6584db666418605de8
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120116158"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122988611"
 ---
 # <a name="jet_enumcolumnvalue-structure"></a>JET_ENUMCOLUMNVALUE 結構
 
@@ -50,33 +50,13 @@ _**適用于：** Windows |Windows伺服器_
 
 由資料行值列舉所產生的資料行狀態碼。
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>值</p></th>
-<th><p>意義</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_wrnColumnNull</p></td>
-<td><p>要求的資料行值為 Null。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_wrnColumnSkipped</p></td>
-<td><p>在對應于此<strong>JET_ENUMCOLUMNVALUE</strong>結構的<a href="gg294138(v=exchg.10).md">JET_ENUMCOLUMN</a>結構中，于<em>rgtagSequence</em>陣列的元素中指定的<em>itagSequence</em>為零。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_wrnColumnTruncated</p></td>
-<td><p>要求的資料行值在傳回之前已被截斷為指定的大小。</p>
-<p>只有包含大量資料的長文字和長二進位資料行才會發生截斷。</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>值</p> | <p>意義</p> | 
+|--------------|----------------|
+| <p>JET_wrnColumnNull</p> | <p>要求的資料行值為 Null。</p> | 
+| <p>JET_wrnColumnSkipped</p> | <p>在對應于此<strong>JET_ENUMCOLUMNVALUE</strong>結構的<a href="gg294138(v=exchg.10).md">JET_ENUMCOLUMN</a>結構中，于<em>rgtagSequence</em>陣列的元素中指定的<em>itagSequence</em>為零。</p> | 
+| <p>JET_wrnColumnTruncated</p> | <p>要求的資料行值在傳回之前已被截斷為指定的大小。</p><p>只有包含大量資料的長文字和長二進位資料行才會發生截斷。</p> | 
+
 
 
 **cbData**
@@ -93,26 +73,13 @@ _**適用于：** Windows |Windows伺服器_
 
 ### <a name="requirements"></a>規格需求
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>用戶端</strong></p></td>
-<td><p>需要 Windows Vista、Windows XP 或 Windows 2000 Professional。</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>伺服器</strong></p></td>
-<td><p>需要 Windows server 2008、Windows Server 2003 或 Windows 2000 Server。</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>標頭</strong></p></td>
-<td><p>宣告于 Esent. h 中。</p></td>
-</tr>
-</tbody>
-</table>
+
+| 需求 | 值 |
+|------------|----------|
+| <p><strong>用戶端</strong></p> | <p>需要 Windows Vista、Windows XP 或 Windows 2000 Professional。</p> | 
+| <p><strong>伺服器</strong></p> | <p>需要 Windows server 2008、Windows Server 2003 或 Windows 2000 Server。</p> | 
+| <p><strong>標頭</strong></p> | <p>宣告于 Esent. h 中。</p> | 
+
 
 
 ### <a name="see-also"></a>另請參閱

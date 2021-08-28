@@ -4,23 +4,23 @@ ms.assetid: 8ba94001-fc46-41e0-a071-0dc500a20753
 title: 資源公用程式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 550cf283779a57bc5ca35f88d336646b061c3f1c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2d9bb8a8608c97b700beebb53ce95fdf4b85c4d5
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944850"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122481504"
 ---
 # <a name="resource-utilities"></a>資源公用程式
 
-本主題說明用來建立 MUI 應用程式的兩個公用程式。 雖然 MUIRCT 是一種 MUI 專屬的工具，但 MUI 也利用標準的 Windows RC 編譯器公用程式。 [當地語系化資源和建立應用程式](localizing-resources-and-building-the-application.md)時，會提供使用這些公用程式的指示。
+本主題說明用來建立 MUI 應用程式的兩個公用程式。 雖然 MUIRCT 是一種 mui 專屬的工具，但 mui 也利用標準的 Windows RC 編譯器公用程式。 [當地語系化資源和建立應用程式](localizing-resources-and-building-the-application.md)時，會提供使用這些公用程式的指示。
 
 ## <a name="muirct-utility"></a>MUIRCT 公用程式
 
 MUIRCT (Muirct.exe) 是一種命令列公用程式，可將標準可執行檔分割成 LN 檔和特定語言的 (，也就是可當地語系化的) 資源檔。 每個產生的檔案都包含檔案關聯的資源配置資料。 MUIRCT 包含在 Windows Vista 的 Microsoft Windows SDK 中。
 
 > [!Note]  
-> 從 Windows Vista 開始，Win32 資源載入器會更新以從特定語言的檔案和 LN 檔案載入資源。
+> 從 Windows Vista 開始，會更新 Win32 資源載入器，以從特定語言的檔案和 LN 檔案載入資源。
 
  
 
@@ -61,84 +61,9 @@ source_filename [language_neutral_filename] [mui_filename]
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>-h |-？</td>
-<td>顯示說明畫面。</td>
-</tr>
-<tr class="even">
-<td>-c</td>
-<td>指定要從中解壓縮或計算資源總和檢查碼的輸入 checksum_file。 Checksum_file 必須是包含可當地語系化資源的 Win32 二進位檔案。 如果 checksum_file 包含多個語言的資源，則必須使用-b 參數來指定應使用的是哪一個，否則 MUIRCT 會失敗。 <br/></td>
-</tr>
-<tr class="odd">
-<td>-b</td>
-<td>指定當以-c 指定的 checksum_file 包含多種語言的資源時，所要使用的語言。 這個參數只能搭配-c 參數使用。 語言識別項可以是十進位或十六進位格式。 如果 checksum_file 包含多種語言的資源，但未指定-b，或在 checksum_file 中找不到-b 參數所指定的語言，則 MUIRCT 會失敗。 <br/></td>
-</tr>
-<tr class="even">
-<td>-g</td>
-<td>在 LN 檔案的資源設定資料區段中，指定要包含為最終回溯語言的語言識別項。 如果資源載入器無法從執行緒慣用 UI 語言載入要求的 mui 檔，它會使用最終的回溯語言做為最後一次嘗試。 LangID 值可以指定為十進位或十六進位格式。 例如，英文 (美國) 可由-g 0x409 或-g 1033 指定。 <br/></td>
-</tr>
-<tr class="odd">
-<td>-Q</td>
-<td>指定根據 rc_config 檔案配置，將 source_file 分割成 output_LN_file 和 output_MUI_file。 Rc_config 檔案是一種 XML 格式的檔案，可指定要將哪些資源解壓縮至 mui 檔案，而且會保留在 LN 檔案中。 Rc_config 可以指定 output_LN_file 和 output_MUI_file 之間的資源類型和個別命名專案的散發。 Source_file 必須是包含單一語言之資源的 Win32 二進位檔，否則 MUIRCT 會失敗。 如果檔案是中性語言，則 MUIRCT 不會分割該檔案，而是以檔案中的語言識別項值0表示。 Output_LN_file 和 output_mui_file 是要分割 source_file 的中性語言和 mui 檔案的名稱。 這些檔案名是選擇性的。 如果未指定，MUIRCT 會將副檔名 ln 和 mui 附加至 source_file。 一般來說，您應該 &quot; 先移除 ln &quot; 副檔名，再部署檔案。 MUIRCT 會根據 source_file 名稱和檔案版本來計算總和檢查碼，然後將結果插入每個輸出檔案的資源設定區段，以建立 output_LN_file 和 output_MUI_file 的關聯。 與-c 參數搭配使用時，-q 參數優先。 如果以-q 參數提供的 rc_config 檔案包含總和檢查碼 MUIRCT，則會忽略-c 參數，並將值的總和檢查碼值從 rc_config 檔案插入到 LN 和 mui 檔案。 如果在 rc_config 中找不到總和檢查碼值，MUIRCT 會根據-c 參數的行為來計算資源總和檢查碼。 <br/></td>
-</tr>
-<tr class="even">
-<td>-v</td>
-<td>指定記錄的資訊層級。 指定1以列印所有基本錯誤訊息和作業結果。 指定2，也可以包含包含在 mui 檔和 LN 檔案中的資源資訊 (類型、名稱、語言識別項) 。 預設值為-v 1 <br/></td>
-</tr>
-<tr class="odd">
-<td>-X</td>
-<td>指定 MUIRCT 將所有資源類型新增至 mui 檔案的資源區段中的語言識別項。 LangID 值可以指定為十進位或十六進位格式。 例如，英文 (美國) 可由-x 0x409 或-x 1033 指定。 <br/></td>
-</tr>
-<tr class="even">
-<td>-E</td>
-<td>解壓縮隨附于-c 參數的 checksum_file 中的資源總和檢查碼，並將它插入指定的 output_file。 當指定-e 時，MUIRCT 會忽略-c 參數以外的所有參數。 在此情況下，checksum_file 必須是 Win32 二進位檔案，其中包含具有總和檢查碼值的資源設定資料區段。 Output_file 必須是現有的 LN 檔或 mui 檔案。 <br/></td>
-</tr>
-<tr class="odd">
-<td>-Z</td>
-<td>計算並插入指定輸出檔中的資源總和檢查碼資料。 MUIRCT 會對-c 參數所提供的輸入和選擇性的-b 參數進行基礎總和檢查碼計算。 如果您指定不存在之-z 參數的輸出檔，MUIRCT 會結束併發生失敗。<br/> 範例：根據 Notepad.exe 中的可當地語系化資源來計算總和檢查碼，並將總和檢查碼插入輸出檔 Notepad2.exe。<br/> <code>muirct -c notepad.exe -q myprog.rcconfig -z notepad2.exe</code><br/></td>
-</tr>
-<tr class="even">
-<td>-f</td>
-<td>建立具有版本資源的 mui 檔案，此檔案是唯一可當地語系化的資源。 根據預設，MUIRCT 不允許這種情況。<br/></td>
-</tr>
-<tr class="odd">
-<td>-d</td>
-<td>在原始檔中尋找並顯示內嵌資源設定資料。 當您指定這個參數時，MUIRCT 會忽略所有其他的命令列選項。<br/></td>
-</tr>
-<tr class="even">
-<td>-M</td>
-<td>指定計算與 output_LN_file 和 output_MUI_file 相關聯的總和檢查碼時，所要使用的版本號碼。 <br/></td>
-</tr>
-<tr class="odd">
-<td>source_filename</td>
-<td>當地語系化二進位原始程式檔的名稱;無法使用萬用字元。 這個檔案只能包含一種語言的資源。 如果檔案中有多種語言的資源，除非使用-b 參數，否則 MUIRCT 會失敗。 如果檔案包含的資源具有僅具有0值的語言識別項，則 MUIRCT 不會分割檔案，因為語言識別項為0表示中立的語言。<br/> 若是-d 參數，source_filename 是 LN 檔或特定語言的資源檔，MUIRCT 會顯示資源設定資料。 <br/></td>
-</tr>
-<tr class="even">
-<td>language_neutral_filename</td>
-<td>選擇性。 LN 檔案的名稱。 如果您未指定此檔案的名稱，MUIRCT 會將第二個副檔名附加至 &quot; &quot; 來原始檔案名，以做為非語言相關的檔案名。 一般來說，您應該 &quot; 先移除 ln &quot; 副檔名，再部署檔案。
-<blockquote>
-[!Note]<br />
-LN 檔案不能包含字串或功能表。 您應手動移除它們。
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td>mui_filename</td>
-<td>選擇性。 特定語言的資源檔名稱。 如果您未指定名稱，MUIRCT 會將第二個副檔名附加至 &quot; &quot; 來原始檔案名，以作為檔案名。一般來說，MUIRCT 會建立特定語言的資源檔。 但是，如果有下列任何一種情況，則不會建立資源檔：<br/>
-<ul>
-<li>原始二進位檔案中沒有可當地語系化的資源。</li>
-<li>在原始二進位檔案中唯一找到的資來源語言是中立的語言。</li>
-<li>原始的二進位檔案具有多個語言的資源，而不會計算中性語言。 如果二進位檔案包含兩種語言的資源，而其中一個是中性語言，則公用程式會將檔案視為單一語言，並在有可當地語系化的資源時建立特定語言的資源檔。</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| | |-h |-？ |顯示說明畫面。 | |-c |指定要從中解壓縮或計算資源總和檢查碼的輸入 checksum_file。 Checksum_file 必須是包含可當地語系化資源的 Win32 二進位檔案。 如果 checksum_file 包含多個語言的資源，則必須使用-b 參數來指定應使用的是哪一個，否則 MUIRCT 會失敗。 <br /> | |-b |指定當以-c 指定的 checksum_file 包含多種語言的資源時，所要使用的語言。 這個參數只能搭配-c 參數使用。 語言識別項可以是十進位或十六進位格式。 如果 checksum_file 包含多種語言的資源，但未指定-b，或在 checksum_file 中找不到-b 參數所指定的語言，則 MUIRCT 會失敗。 <br /> | |-g |在 LN 檔案的資源設定資料區段中，指定要包含為最終回溯語言的語言識別項。 如果資源載入器無法從執行緒慣用 UI 語言載入要求的 mui 檔，它會使用最終的回溯語言做為最後一次嘗試。 LangID 值可以指定為十進位或十六進位格式。 例如，英文 (美國) 可由-g 0x409 或-g 1033 指定。 <br /> | |-q |指定根據 rc_config 檔案配置，將 source_file 分割成 output_LN_file 和 output_MUI_file。 Rc_config 檔案是一種 XML 格式的檔案，可指定要將哪些資源解壓縮至 mui 檔案，而且會保留在 LN 檔案中。 Rc_config 可以指定 output_LN_file 和 output_MUI_file 之間的資源類型和個別命名專案的散發。 Source_file 必須是包含單一語言之資源的 Win32 二進位檔，否則 MUIRCT 會失敗。 如果檔案是中性語言，則 MUIRCT 不會分割該檔案，而是以檔案中的語言識別項值0表示。 Output_LN_file 和 output_mui_file 是要分割 source_file 的中性語言和 mui 檔案的名稱。 這些檔案名是選擇性的。 如果未指定，MUIRCT 會將副檔名 ln 和 mui 附加至 source_file。 通常您應該先移除 "ln" 延伸模組，然後再部署檔案。 MUIRCT 會根據 source_file 名稱和檔案版本來計算總和檢查碼，然後將結果插入每個輸出檔案的資源設定區段，以建立 output_LN_file 和 output_MUI_file 的關聯。 與-c 參數搭配使用時，-q 參數優先。 如果以-q 參數提供的 rc_config 檔案包含總和檢查碼 MUIRCT，則會忽略-c 參數，並將值的總和檢查碼值從 rc_config 檔案插入到 LN 和 mui 檔案。 如果在 rc_config 中找不到總和檢查碼值，MUIRCT 會根據-c 參數的行為來計算資源總和檢查碼。 <br /> | |-v |指定記錄的資訊層級。 指定1以列印所有基本錯誤訊息和作業結果。 指定2，也可以包含包含在 mui 檔和 LN 檔案中的資源資訊 (類型、名稱、語言識別項) 。 預設值為-v 1 <br /> | |-x |指定 MUIRCT 將所有資源類型新增至 mui 檔案的資源區段中的語言識別項。 LangID 值可以指定為十進位或十六進位格式。 例如，英文 (美國) 可由-x 0x409 或-x 1033 指定。 <br /> | |-e |解壓縮隨附于-c 參數的 checksum_file 中的資源總和檢查碼，並將它插入指定的 output_file。 當指定-e 時，MUIRCT 會忽略-c 參數以外的所有參數。 在此情況下，checksum_file 必須是 Win32 二進位檔案，其中包含具有總和檢查碼值的資源設定資料區段。 Output_file 必須是現有的 LN 檔或 mui 檔案。 <br /> | |-z |計算並插入指定輸出檔中的資源總和檢查碼資料。 MUIRCT 會對-c 參數所提供的輸入和選擇性的-b 參數進行基礎總和檢查碼計算。 如果您指定不存在之-z 參數的輸出檔，MUIRCT 會結束併發生失敗。<br /> 範例：根據 Notepad.exe 中的可當地語系化資源來計算總和檢查碼，並將總和檢查碼插入輸出檔 Notepad2.exe。<br /><code>muirct -c notepad.exe -q myprog.rcconfig -z notepad2.exe</code><br /> | |-f |建立具有版本資源的 mui 檔案，此檔案是唯一可當地語系化的資源。 根據預設，MUIRCT 不允許這種情況。<br /> | |-d |在原始檔中尋找並顯示內嵌資源設定資料。 當您指定這個參數時，MUIRCT 會忽略所有其他的命令列選項。<br /> | |-m |指定計算與 output_LN_file 和 output_MUI_file 相關聯的總和檢查碼時，所要使用的版本號碼。 <br /> | |source_filename |當地語系化二進位原始程式檔的名稱;無法使用萬用字元。 這個檔案只能包含一種語言的資源。 如果檔案中有多種語言的資源，除非使用-b 參數，否則 MUIRCT 會失敗。 如果檔案包含的資源具有僅具有0值的語言識別項，則 MUIRCT 不會分割檔案，因為語言識別項為0表示中立的語言。<br /> 若是-d 參數，source_filename 是 LN 檔或特定語言的資源檔，MUIRCT 會顯示資源設定資料。 <br /> | |language_neutral_filename |選。 LN 檔案的名稱。 如果您未指定此檔案的名稱，MUIRCT 會將第二個副檔名 "ln" 附加至來原始檔案名，以做為非語言相關的檔案名。 通常您應該先移除 "ln" 延伸模組，然後再部署檔案。<blockquote>[!Note]<br />LN 檔案不能包含字串或功能表。 您應手動移除它們。</blockquote><br /> | |mui_filename |選。 特定語言的資源檔名稱。 如果您未指定名稱，MUIRCT 會將第二個副檔名 "mui" 附加至來原始檔案名，以作為檔案名。一般來說，MUIRCT 會建立特定語言的資源檔。 但是，如果有下列任何一種情況，則不會建立資源檔：<br /><ul><li>原始二進位檔案中沒有可當地語系化的資源。</li><li>在原始二進位檔案中唯一找到的資來源語言是中立的語言。</li><li>原始的二進位檔案具有多個語言的資源，而不會計算中性語言。 如果二進位檔案包含兩種語言的資源，而其中一個是中性語言，則公用程式會將檔案視為單一語言，並在有可當地語系化的資源時建立特定語言的資源檔。</li></ul> | 
+
 
 
 
@@ -265,64 +190,9 @@ rc [-h|-?] -fm mui_res_name [-q rc_config_file_name] [-g langid] [-g1 ] [-g2 ver
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>-h |-？</td>
-<td>顯示說明畫面。</td>
-</tr>
-<tr class="even">
-<td>-fm</td>
-<td>針對特定語言的資源使用指定的資源檔。 資源編譯器通常會建立特定語言的資源檔。 但是，如果有下列任何一種情況，則不會建立檔案：<br/>
-<ul>
-<li>.Rc 檔中沒有可當地語系化的資源。</li>
-<li>.Rc 檔中唯一找到的資來源語言是中性語言。</li>
-<li>.Rc 檔案有多個語言的資源，不會計算中性語言。 如果 .rc 檔包含兩種語言的資源，其中一個是中性語言，則編譯器會將檔案視為單一語言。 如果有任何可當地語系化的資源，編譯器會建立特定語言的資源檔。</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>-Q</td>
-<td>使用指定的資源設定檔來取得要放在特定語言資源檔和 LN 檔案中的資源類型。 如需詳細資訊，請參閱 <a href="preparing-a-resource-configuration-file.md">準備資源設定檔</a>。 除了此參數之外，您還可以使用-j 和-k 參數，但最好是使用資源設定檔。 <br/> 藉由搭配使用-q 參數與資源設定檔，您可以執行以專案為基礎的分割，並提供最後會在 LN 和語言特定資源檔中使用二進位資源設定的屬性。 使用-j 和-k 參數無法進行分割。
-<blockquote>
-[!Note]<br />
-如果您將資源和版本資訊儲存在不同的資源設定檔中，RC 編譯器分割進程就無法正常運作。 在此情況下，RC 編譯器不會分割版本資訊。 因此，連結特定語言的資源檔時，會發生連結器錯誤，因為該檔案沒有版本資源。
-</blockquote>
-<br/> <br/></td>
-</tr>
-<tr class="even">
-<td>-g</td>
-<td>指定十六進位的最終回溯 <a href="language-identifiers.md">語言</a> 識別碼。<br/></td>
-</tr>
-<tr class="odd">
-<td>-g1</td>
-<td>即使版本資源是唯一可當地語系化的內容，也會建立 MUI 檔案。 根據預設，如果版本是唯一可當地語系化的資源，RC 編譯器就不會產生 .res 檔。<br/></td>
-</tr>
-<tr class="even">
-<td>-g2</td>
-<td>指定在計算總和檢查碼時要使用的自訂版本號碼。<br/></td>
-</tr>
-<tr class="odd">
-<td>mui_res_name</td>
-<td>特定語言資源的資源檔。<br/></td>
-</tr>
-<tr class="even">
-<td>rc_config_file_name</td>
-<td>資源設定檔案。<br/></td>
-</tr>
-<tr class="odd">
-<td>langid</td>
-<td>語言識別項。<br/></td>
-</tr>
-<tr class="even">
-<td>version</td>
-<td>自訂版本號碼，格式為 &quot; 6.2.0.0 &quot; 。<br/></td>
-</tr>
-</tbody>
-</table>
+
+| | |-h |-？ |顯示說明畫面。 | |-fm |針對特定語言的資源使用指定的資源檔。 資源編譯器通常會建立特定語言的資源檔。 但是，如果有下列任何一種情況，則不會建立檔案：<br /><ul><li>.Rc 檔中沒有可當地語系化的資源。</li><li>.Rc 檔中唯一找到的資來源語言是中性語言。</li><li>.Rc 檔案有多個語言的資源，不會計算中性語言。 如果 .rc 檔包含兩種語言的資源，其中一個是中性語言，則編譯器會將檔案視為單一語言。 如果有任何可當地語系化的資源，編譯器會建立特定語言的資源檔。</li></ul> | |-q |使用指定的資源設定檔來取得要放在特定語言資源檔和 LN 檔案中的資源類型。 如需詳細資訊，請參閱 <a href="preparing-a-resource-configuration-file.md">準備資源設定檔</a>。 除了此參數之外，您還可以使用-j 和-k 參數，但最好是使用資源設定檔。 <br /> 藉由搭配使用-q 參數與資源設定檔，您可以執行以專案為基礎的分割，並提供最後會在 LN 和語言特定資源檔中使用二進位資源設定的屬性。 使用-j 和-k 參數無法進行分割。<blockquote>[!Note]<br />如果您將資源和版本資訊儲存在不同的資源設定檔中，RC 編譯器分割進程就無法正常運作。 在此情況下，RC 編譯器不會分割版本資訊。 因此，連結特定語言的資源檔時，會發生連結器錯誤，因為該檔案沒有版本資源。</blockquote><br /><br /> | |-g |指定十六進位的最終回溯 <a href="language-identifiers.md">語言</a> 識別碼。<br /> | |-g1 |即使版本資源是唯一可當地語系化的內容，也會建立 MUI 檔案。 根據預設，如果版本是唯一可當地語系化的資源，RC 編譯器就不會產生 .res 檔。<br /> | |-g2 |指定在計算總和檢查碼時要使用的自訂版本號碼。<br /> | |mui_res_name |特定語言資源的資源檔。<br /> | |rc_config_file_name |資源設定檔案。<br /> | |langid |語言識別項。<br /> | |版本 |自訂版本號碼，格式如下： "6.2.0.0"。<br /> | 
+
 
 
 

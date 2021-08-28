@@ -94,7 +94,7 @@ assetid： b1707c88-1cca-45ab-bb23-6002bfd5204e title：標準安裝程式 Comma
 </tr>
 <tr class="odd">
 <td><strong>/uninstall</strong></td>
-<td><em><Package.msi|ProductCode></em></td>
+<td><em>&lt;Package.msi|ProductCode></em></td>
 <td>卸載產品選項。 卸載產品。<br/>
 <blockquote>
 [!Note]<br />
@@ -104,7 +104,7 @@ assetid： b1707c88-1cca-45ab-bb23-6002bfd5204e title：標準安裝程式 Comma
 </tr>
 <tr class="even">
 <td><strong>/uninstall</strong></td>
-<td><em>/package <Package.msi | ProductCode> /uninstall <Update1.msp | PatchGUID1> [;Update2 .msp |PatchGUID2]</em></td>
+<td><em>/package &lt;Package.msi |ProductCode>/uninstall <Update1.msp | PatchGUID1> [;Update2 .msp |PatchGUID2]</em></td>
 <td>卸載更新選項。 卸載更新修補程式。<br/>
 <blockquote>
 [!Note]<br />
@@ -141,7 +141,7 @@ assetid： b1707c88-1cca-45ab-bb23-6002bfd5204e title：標準安裝程式 Comma
 </tr>
 <tr class="even">
 <td><strong>/package</strong></td>
-<td><em><Package.msi|ProductCode></em></td>
+<td><em>&lt;Package.msi|ProductCode></em></td>
 <td>安裝產品選項。 安裝或設定產品。<br/>
 <blockquote>
 [!Note]<br />

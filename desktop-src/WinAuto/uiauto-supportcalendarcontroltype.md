@@ -21,12 +21,12 @@ keywords:
 - 控制項類型，行事曆
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ef936848f764c6937bfe36e6ed919f0a88dac78c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3d51271fb2e9526bc293b9c5d36acc0a65b3b639
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104022104"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122482944"
 ---
 # <a name="calendar-control-type"></a>行事曆控制項類型
 
@@ -48,46 +48,15 @@ ms.locfileid: "104022104"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>控制項檢視</th>
-<th>內容檢視</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>Calendar
-<ul>
-<li>DataGrid
-<ul>
-<li>標題 (0 或 1)
-<ul>
-<li>HeaderItem (0 或7，數量取決於資料行中顯示多少天) </li>
-</ul></li>
-<li>ListItem (數量取決於要顯示多少天)</li>
-<li>按鈕 (0 或 2；用於分頁月曆檢視)</li>
-</ul></li>
-</ul></li>
-</ul></td>
-<td><ul>
-<li>Calendar
-<ul>
-<li>ListItem (數量取決於要顯示多少天)</li>
-</ul></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| 控制項檢視 | 內容檢視 | 
+|--------------|--------------|
+| <ul><li>Calendar<ul><li>DataGrid<ul><li>標題 (0 或 1)<ul><li>HeaderItem (0 或7，數量取決於資料行中顯示多少天) </li></ul></li><li>ListItem (數量取決於要顯示多少天)</li><li>按鈕 (0 或 2；用於分頁月曆檢視)</li></ul></li></ul></li></ul> | <ul><li>Calendar<ul><li>ListItem (數量取決於要顯示多少天)</li></ul></li></ul> | 
 
 
 
- 
+
+ 
 
 月曆控制項可以在使用者介面中以許多不同的形式來表示。 唯一保證位於消費者介面自動化樹狀結構之控制項視圖中的控制項是資料格、標頭、標頭專案和清單專案控制項。
 
@@ -112,7 +81,7 @@ ms.locfileid: "104022104"
 
 
 
- 
+ 
 
 ## <a name="required-control-patterns"></a>必要的控制項模式
 
@@ -126,11 +95,11 @@ ms.locfileid: "104022104"
 | [**IScrollProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-iscrollprovider)       | 相依       | 大部分的月曆控制項都支援依頁面翻閱檢視。 建議使用 [滾動](uiauto-implementingscroll.md) 條控制項模式，以便支援分頁導覽。                                                                                                                                                    |
 | [**ISelectionProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-iselectionprovider) | 相依       | 大部分的行事曆控制項都會保留特定的日、月或年做為子項目的選取專案。 某些行事曆可供多重選取，且僅限單一選取。 具有可選取子項目的行事曆控制項應支援 [選取](uiauto-implementingselection.md) 控制項模式。                         |
 | [**ITableProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-itableprovider)         | 必要      | 由於行事曆控制項的子樹中一律會有一個標頭，所以必須支援 [Table](uiauto-implementingtable.md) 控制項模式。                                                                                                                                                     |
-| [**IValueProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-ivalueprovider)         | No            | 因為專案無法直接在控制項上設定值，所以不需要為行事曆控制項設定 [值](uiauto-implementingvalue.md) 控制項模式。 如果特定日期與控制項相關聯，則應該透過 [選取](uiauto-implementingselection.md) 控制項模式來提供資訊。 |
+| [**IValueProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-ivalueprovider)         | 否            | 因為專案無法直接在控制項上設定值，所以不需要為行事曆控制項設定 [值](uiauto-implementingvalue.md) 控制項模式。 如果特定日期與控制項相關聯，則應該透過 [選取](uiauto-implementingselection.md) 控制項模式來提供資訊。 |
 
 
 
- 
+ 
 
 ## <a name="required-events"></a>必要的事件
 
@@ -157,7 +126,7 @@ ms.locfileid: "104022104"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -172,9 +141,9 @@ ms.locfileid: "104022104"
 [UI 自動化概觀](uiauto-uiautomationoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

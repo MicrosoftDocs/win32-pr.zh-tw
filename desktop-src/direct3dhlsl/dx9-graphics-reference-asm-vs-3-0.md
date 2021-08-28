@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 310d64170280053c34766f214969f78d66560ea3
-ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
+ms.openlocfilehash: fd10f6d726118679f395f01714233c7096fd5189
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "112011071"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122476414"
 ---
 # <a name="vs_3_0"></a>vs \_ 3 \_ 0
 
@@ -54,15 +54,15 @@ ms.locfileid: "112011071"
 
 ### <a name="dynamic-flow-control"></a>動態流程式控制制
 
-支援所有動態流程式控制制指令。 允許的最大嵌套深度值為24。  (如需詳細資料，請參閱 [流程式控制制的嵌套限制](dx9-graphics-reference-asm-vs-instructions-flow-control.md) ) 。
+支援所有動態流程式控制制指令。 允許的最大嵌套深度值為24。  (如需詳細資料，請參閱[Flow 控制項的嵌套限制](dx9-graphics-reference-asm-vs-instructions-flow-control.md)。 ) 
 
 ### <a name="temporary-registers"></a>臨時暫存器
 
 支援 (r) 的總計32暫存暫存器 \# 。
 
-### <a name="static-flow-control"></a>靜態流程式控制制
+### <a name="static-flow-control"></a>靜態 Flow 控制項
 
-[迴圈-vs](loop---vs.md)rep 的最大嵌套深度為 / [](rep---vs.md) 4。 [Call-vs](call---vs.md) / [callnz bool-vs](callnz-bool---vs.md) / [callnz pred-vs](callnz-pred---vs.md)的最大嵌套深度為4。 [若為 bool-vs](if-bool---vs.md)，則允許的最大嵌套深度值為24。  (如需詳細資料，請參閱 [流程式控制制的嵌套限制](dx9-graphics-reference-asm-vs-instructions-flow-control.md) ) 。
+[迴圈-vs](loop---vs.md)rep 的最大嵌套深度為 / [](rep---vs.md) 4。 [Call-vs](call---vs.md) / [callnz bool-vs](callnz-bool---vs.md) / [callnz pred-vs](callnz-pred---vs.md)的最大嵌套深度為4。 [若為 bool-vs](if-bool---vs.md)，則允許的最大嵌套深度值為24。  (如需詳細資料，請參閱[Flow 控制項的嵌套限制](dx9-graphics-reference-asm-vs-instructions-flow-control.md)。 ) 
 
 ### <a name="predication"></a>預測
 
@@ -78,71 +78,19 @@ ms.locfileid: "112011071"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>筆蓋</th>
-<th>功能</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>著色器 caps</td>
-<td><ul>
-<li>DynamicFlowControlDepth 是24</li>
-<li>NumTemps 為32</li>
-<li>StaticFlowControlDepth 為4</li>
-<li>支援 Predication。</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>GuardBandLeft, GuardBandTop, GuardBandRight, GuardBandBottom</td>
-<td>8K</td>
-</tr>
-<tr class="odd">
-<td>VertexShaderVersion</td>
-<td>3_0</td>
-</tr>
-<tr class="even">
-<td>MaxVertexShaderConst</td>
-<td>256</td>
-</tr>
-<tr class="odd">
-<td>MaxVertexShader30InstructionSlots</td>
-<td>512</td>
-</tr>
-<tr class="even">
-<td>霧化支援</td>
-<td>D3DPRASTERCAPS_FOGVERTEX</td>
-</tr>
-<tr class="odd">
-<td>VertexTextureFilterCaps</td>
-<td><ul>
-<li><a href="/windows/desktop/direct3d9/d3dptfiltercaps">D3DPTFILTERCAPS_MINFPOINT</a></li>
-<li><a href="/windows/desktop/direct3d9/d3dptfiltercaps">D3DPTFILTERCAPS_MAGFPOINT</a></li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/direct3d9/d3ddevcaps2">D3DDEVCAPS2_VERTEXELEMENTSCANSHARESTREAMOFFSET</a></td>
-<td>頂點宣告中的頂點元素可以共用相同的資料流程位移。</td>
-</tr>
-<tr class="odd">
-<td>頂點格式</td>
-<td><ul>
-<li>D3DDECLTYPE_UBYTE4</li>
-<li>D3DDECLTYPE_UBYTE4N</li>
-<li>D3DDECLTYPE_SHORT2N</li>
-<li>D3DDECLTYPE_SHORT4N</li>
-<li>D3DDECLTYPE_FLOAT16_2</li>
-<li>D3DDECLTYPE_FLOAT16_4</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| 筆蓋 | 功能 | 
+|-----|------------|
+| 著色器 caps | <ul><li>DynamicFlowControlDepth 是24</li><li>NumTemps 為32</li><li>StaticFlowControlDepth 為4</li><li>支援 Predication。</li></ul> | 
+| GuardBandLeft, GuardBandTop, GuardBandRight, GuardBandBottom | 8K | 
+| VertexShaderVersion | 3_0 | 
+| MaxVertexShaderConst | 256 | 
+| MaxVertexShader30InstructionSlots | 512 | 
+| 霧化支援 | D3DPRASTERCAPS_FOGVERTEX | 
+| VertexTextureFilterCaps | <ul><li><a href="/windows/desktop/direct3d9/d3dptfiltercaps">D3DPTFILTERCAPS_MINFPOINT</a></li><li><a href="/windows/desktop/direct3d9/d3dptfiltercaps">D3DPTFILTERCAPS_MAGFPOINT</a></li></ul> | 
+| <a href="/windows/desktop/direct3d9/d3ddevcaps2">D3DDEVCAPS2_VERTEXELEMENTSCANSHARESTREAMOFFSET</a> | 頂點宣告中的頂點元素可以共用相同的資料流程位移。 | 
+| 頂點格式 | <ul><li>D3DDECLTYPE_UBYTE4</li><li>D3DDECLTYPE_UBYTE4N</li><li>D3DDECLTYPE_SHORT2N</li><li>D3DDECLTYPE_SHORT4N</li><li>D3DDECLTYPE_FLOAT16_2</li><li>D3DDECLTYPE_FLOAT16_4</li></ul> | 
+
 
 
 

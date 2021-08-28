@@ -20,12 +20,12 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: c1d72fa8b5cda24435cec0f4ec5f0751862bc14c
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.openlocfilehash: 4da3dc4c0d211039378b5cc1301a84e35f67ab24
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122986541"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122475794"
 ---
 # <a name="jetsetsystemparameter-function"></a>JetSetSystemParameter 函式
 
@@ -114,14 +114,7 @@ _**適用于：** Windows |Windows伺服器_
 #### <a name="requirements"></a>規格需求
 
 
-| 需求 | 值 |
-|------------|----------|
-| <p><strong>用戶端</strong></p> | <p>需要 Windows Vista、Windows XP 或 Windows 2000 Professional。</p> | 
-| <p><strong>伺服器</strong></p> | <p>需要 Windows server 2008、Windows Server 2003 或 Windows 2000 Server。</p> | 
-| <p><strong>標頭</strong></p> | <p>宣告于 Esent. h 中。</p> | 
-| <p><strong>程式庫</strong></p> | <p>使用 ESENT。</p> | 
-| <p><strong>DLL</strong></p> | <p>需要 ESENT.dll。</p> | 
-| <p><strong>Unicode</strong></p> | <p>實作為 <strong>JetSetSystemParameterW</strong> (Unicode) 和 <strong>JetSetSystemParameterA</strong> (ANSI) 。</p> | 
+| | | <p><strong>用戶端</strong></p> | <p>需要 Windows Vista、Windows XP 或 Windows 2000 Professional。</p> | | <p><strong>伺服器</strong></p> | <p>需要 Windows server 2008、Windows Server 2003 或 Windows 2000 Server。</p> | | <p><strong>標頭</strong></p> | <p>宣告于 Esent. h 中。</p> | | <p><strong>程式庫</strong></p> | <p>使用 ESENT。</p> | | <p><strong>DLL</strong></p> | <p>需要 ESENT.dll。</p> | | <p><strong>Unicode</strong></p> | <p>實作為 <strong>JetSetSystemParameterW</strong> (Unicode) 和 <strong>JetSetSystemParameterA</strong> (ANSI) 。</p> | 
 
 
 

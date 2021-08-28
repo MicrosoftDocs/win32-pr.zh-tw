@@ -4,12 +4,12 @@ ms.assetid: 85d9f5b2-8e4a-4f92-a587-eae5b293778c
 title: D3DFVF
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4351e622ec54acae2ebe560813c6bdc2bc1d49e9df3b991591b7fdfd1eeef2c6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 56136b57aa0af7e8a7d4050f9feb6e1e3e92f3b6
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117911129"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122629737"
 ---
 # <a name="d3dfvf"></a>D3DFVF
 
@@ -75,8 +75,8 @@ ms.locfileid: "117911129"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -92,7 +92,7 @@ ms.locfileid: "117911129"
 <td>頂點位置資料中的最後一個搶鮮版（Beta）欄位將會是 UBYTE4 類型。 搶鮮版（Beta）欄位中的資料會搭配矩陣調色板的外觀使用，以指定矩陣索引。 <span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -123,7 +123,7 @@ struct VERTEXPOSITION
 <span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">

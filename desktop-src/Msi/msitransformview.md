@@ -4,22 +4,22 @@ ms.assetid: 2d4a934f-e245-4d0a-b8bf-52457107ac08
 title: MsiTransformView
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 978f27fe68d89abd3ea94a4d13adc815bbc6510564caf949b937d8a4213428b9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8e1b6c46ebfcfb82ee23ce6acec998490f53fe67
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118944246"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122882237"
 ---
 # <a name="msitransformview"></a>MsiTransformView
 
 此臨時表可針對由修補程式新增或更新的自訂動作，啟用 [自訂動作修補程式卸載選項](custom-action-patch-uninstall-option.md) 。
 
-如果修補程式新增或更新具有 **msidbCustomActionTypePatchUninstall** 屬性的自訂動作，Windows Installer 會在卸載修補程式時執行新的或更新的自訂動作。 Windows安裝程式會將修補程式中的更新用於卸載的修補程式卸載自訂動作。 修補程式必須包含 MsiTransformView *<PatchGUID>* 資料表，以提供此資訊給 Windows Installer。 此表格中的資訊可供任何立即的自訂動作使用，並無法用於延後的自訂動作。
+如果修補程式新增或更新具有 **msidbCustomActionTypePatchUninstall** 屬性的自訂動作，Windows Installer 會在卸載修補程式時執行新的或更新的自訂動作。 Windows安裝程式會將修補程式中的更新用於卸載的修補程式卸載自訂動作。 修補程式必須包含 MsiTransformView *&lt; PatchGUID &gt;* 資料表，以提供此資訊給 Windows Installer。 此表格中的資訊可供任何立即的自訂動作使用，並無法用於延後的自訂動作。
 
 **[Windows Installer 4.0 及更早版本](not-supported-in-windows-installer-4-0.md)：** 不支援。 自 Windows Installer 4.5 開始提供[自訂動作修補程式卸載選項](custom-action-patch-uninstall-option.md)。
 
-此資料表應命名為 MsiTransformView *<PatchGUID>* table，其中 *<PatchGUID>* 是可唯一識別修補程式的 GUID。 MsiTransformView *<PatchGUID>* 資料表具有下列資料行。
+此資料表應命名為 MsiTransformView *&lt; PatchGUID &gt;* table，其中 *&lt; PatchGUID &gt;* 是可唯一識別修補程式的 GUID。 MsiTransformView *&lt; PatchGUID &gt;* 資料表有下列資料行。
 
 
 

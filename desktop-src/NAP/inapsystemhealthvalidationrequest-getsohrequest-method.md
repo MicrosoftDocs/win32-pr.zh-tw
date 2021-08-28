@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dc9d9dc3b28aec92b7125dc2cad6bf8b843975945ca89687957d56be0ff562d2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e9c140af202de263e99f0fa8ec72186da6e995ec
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118367726"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122882615"
 ---
 # <a name="inapsystemhealthvalidationrequestgetsohrequest-method"></a>INapSystemHealthValidationRequest：： GetSoHRequest 方法
 
@@ -68,7 +68,7 @@ HRESULT GetSoHRequest(
 
 
 
-| 傳回碼                                                                                     | Description                                                        |
+| 傳回碼                                                                                     | 說明                                                        |
 |-------------------------------------------------------------------------------------------------|--------------------------------------------------------------------|
 | <dl> <dt>**S \_確定**</dt> </dl>           | 作業成功。<br/>                                    |
 | <dl> <dt>**E \_ACCESSDENIED**</dt> </dl> | 許可權錯誤，拒絕存取。<br/>                       |
@@ -84,9 +84,9 @@ HRESULT GetSoHRequest(
 
 如果 *napSystemGenerated* 參數為 **TRUE**，則 *SoHRequest* 的格式如下所示：
 
--   [**sohAttributeTypeSystemHealthId**](sohattributetype-enum.md)= <id>
+-   [](sohattributetype-enum.md) =  sohAttributeTypeSystemHealthId &lt;Id&gt;
 -   [**sohAttributeTypeFailureCategory**](sohattributetype-enum.md) = [ **failureCategoryClientComponent**](/windows/win32/api/naptypes/ne-naptypes-failurecategory)
--   [**sohAttributeTypeErrorCodes**](sohattributetype-enum.md)  = [ **<sha-失敗-錯誤-程式碼>**](nap-error-constants.md)
+-   [**sohAttributeTypeErrorCodes**](sohattributetype-enum.md)  = [ **&lt; sha-失敗-錯誤-代碼 &gt;**](nap-error-constants.md)
 
 ## <a name="requirements"></a>規格需求
 

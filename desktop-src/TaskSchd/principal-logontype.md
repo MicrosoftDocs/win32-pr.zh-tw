@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e7db85573072c54a613009c3afec4873a38db4ff7336e487553437967b4c6e1c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ec67a00b55510aecb980fd8bd8a5b2fa4ad6c73e
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119060076"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122885647"
 ---
 # <a name="principallogontype-property"></a>Principal. LogonType 屬性
 
@@ -60,7 +60,7 @@ Principal.LogonType As Integer
 
 只有當使用者識別碼是由 [**UserId**](principal-userid.md) 屬性指定時，這個屬性才有效。
 
-讀取或寫入工作的 XML 時，登入類型會在 [**<LogonType>**](taskschedulerschema-logontype-principaltype-element.md) 工作排程器架構的元素中指定。
+讀取或寫入工作的 XML 時，登入類型會在工作排程器架構的 [**&lt; LogonType &gt;**](taskschedulerschema-logontype-principaltype-element.md)元素中指定。
 
 對於包含訊息方塊動作的工作，如果工作已啟動且工作具有互動式登入類型，就會顯示訊息方塊。 若要將工作登入類型設定為 interactive，請在工作主體的 **LogonType** 屬性中，或在 [**TaskFolder. RegisterTask**](taskfolder-registertask.md)或 [**TaskFolder**](taskfolder-registertaskdefinition.md)的 *LogonType* 參數中指定 3 (工作登入 **\_ \_ 互動式 \_ 權杖**) 或 4 (工作 **登入 \_ \_ 群組**) 。
 

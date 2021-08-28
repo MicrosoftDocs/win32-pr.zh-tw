@@ -22,12 +22,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ec8224106fad6031a18bf061020a259813db639e
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.openlocfilehash: 03d6d4839f60ef4b4af33498658bd78bf234c14f
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122983921"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122482344"
 ---
 # <a name="itssbtargettargetload-property"></a>ITsSbTarget：： TargetLoad 屬性
 
@@ -61,12 +61,7 @@ HRESULT get_TargetLoad(
 
 
 
-| 需求 | 值 |
-|--------|-------|
-| 最低支援的用戶端<br /> | 都不支援<br /> | 
-| 最低支援的伺服器<br /> | Windows Server 2016<br /> | 
-| IDL<br /> | <dl><dt>Sbtsv .idl</dt></dl> | 
-| IID<br /> | IID_ITsSbTarget 定義為：<ul><li>16616ECC-272D-411D-B324-126893033856</li><li>e85e10ea-db0b-4752-b456-5fd5840901c0 on Windows Server 2008 R2</li></ul> | 
+| | |最低支援用戶端<br /> |無支援<br /> | |最低支援伺服器<br /> |Windows Server 2016<br /> | |IDL<br /> | <dl><dt>Sbtsv .idl</dt></dl> | |IID<br /> |IID_ITsSbTarget 定義為：<ul><li>16616ECC-272D-411D-B324-126893033856</li><li>e85e10ea-db0b-4752-b456-5fd5840901c0 on Windows Server 2008 R2</li></ul> | 
 
 
 
