@@ -11,12 +11,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 7bd68c31ef2b92cce75059d5d86ee68dc65d1151
-ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
+ms.openlocfilehash: 5664bc6a4b6b820d7ce72b0605cea8339aa96b16
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "122624324"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122886023"
 ---
 # <a name="routing-and-remote-access-error-codes"></a>路由和遠端存取錯誤代碼
 
@@ -32,7 +32,7 @@ ms.locfileid: "122624324"
 <thead>
 <tr class="header">
 <th>傳回碼/值</th>
-<th>描述</th>
+<th>說明</th>
 </tr>
 </thead>
 <tbody>
@@ -333,7 +333,7 @@ Windows Vista 和更新版本的 Windows 已淘汰。
 </tr>
 <tr class="even">
 <td><span id="ERROR_MESSAGE_MACRO_NOT_FOUND"></span><span id="error_message_macro_not_found"></span><dl> <dt><strong>ERROR_MESSAGE_MACRO_NOT_FOUND</strong></dt> <dt>655</dt> </dl></td>
-<td>在 <message> 裝置中找不到宏。INF 檔案區段。<br/></td>
+<td>在 &lt; &gt; 裝置中找不到訊息宏。INF 檔案區段。<br/></td>
 </tr>
 <tr class="odd">
 <td><span id="ERROR_DEFAULTOFF_MACRO_NOT_FOUND"></span><span id="error_defaultoff_macro_not_found"></span><dl> <dt><strong>ERROR_DEFAULTOFF_MACRO_NOT_FOUND</strong></dt> <dt>656</dt> </dl></td>
@@ -1599,7 +1599,7 @@ Windows Vista 和更新版本的 Windows 支援。
 <thead>
 <tr class="header">
 <th>傳回碼/值</th>
-<th>描述</th>
+<th>說明</th>
 </tr>
 </thead>
 <tbody>

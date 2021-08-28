@@ -4,12 +4,12 @@ description: Windows 8.1 只允許 HTTPs uri，而非 HTTP uri
 ms.assetid: 06BDD3A3-67B7-4085-83DA-F322F718C876
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c3246cad0fb6114a3a01d781ed990e0c277547e2b9ee489572c8124a23e7e81b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 022485f9fc5dc2657127f7bae49127e0bd3b5954
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119028806"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122886117"
 ---
 # <a name="windows-81-allows-only-https-uris-not-http-uris"></a>Windows 8.1 只允許 HTTPs uri，而非 HTTP uri
 
@@ -19,7 +19,7 @@ ms.locfileid: "119028806"
 伺服器-Windows Server 2012 R2  
 </dl>
 
-## <a name="description"></a>描述
+## <a name="description"></a>說明
 
 針對 Windows 8 所建立的應用程式可以在其應用程式內容 uri 中包含 HTTP 和 HTTPs uri，針對 Windows 8.1 所建立的應用程式可能只包含 HTTPs uri。
 
@@ -37,7 +37,7 @@ Windows 8.1 的新限制是增強式安全性限制的一部分，可進一步�
 
 ## <a name="mitigations"></a>風險降低
 
-我們建議 WWA 開發人員從 [<iframe>](https://msdn.microsoft.com/library/windows/apps/hh465955.aspx)) 的 (<[](/uwp/api/Windows.UI.Xaml.Controls.WebView?view=winrt-19041) x->--- 但是，如果您需要 AppCache、IndexedDB、地理位置或以程式設計方式存取剪貼簿存取的支援，您將需要繼續使用 <iframe> 適用于 Windows 8.1。
+我們建議 WWA 開發人員將 (x----- [<iframe>](https://msdn.microsoft.com/library/windows/apps/hh465955.aspx) web) 切換至 [ [web](/uwp/api/Windows.UI.Xaml.Controls.WebView?view=winrt-19041) 視圖] 控制項 &lt; &gt; 。 但是，如果您需要 AppCache、IndexedDB、地理位置或以程式設計方式存取剪貼簿存取的支援，您將需要繼續使用 <iframe> 適用于 Windows 8.1。
 
 持續使用 <iframe> 針對遠端內容，應用程式的 s 中需要有新專案。 如果 web 內容需要叫用 s，則使用 web 內容的應用程式需要新的專案。請通知產生 [ScriptNotify](/uwp/api/Windows.UI.Xaml.Controls.WebView?view=winrt-19041) 事件。 如果您沒有 Visual Studio，可以藉由新增下列 XML 來更新應用程式資訊清單，包括子域的萬用字元 (例如 HTTPs:// \* . microsoft.com) ：
 

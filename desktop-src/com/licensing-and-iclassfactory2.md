@@ -4,12 +4,12 @@ description: 授權和 IClassFactory2
 ms.assetid: 2bead555-8c62-4f48-a4c6-6f0942ec75f8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9376d5187588ba14da434161309409bf1d189a8f
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: b8248b24d6b629d42e9ca631b1574c5a6719f0f4f626b2ea22792c3196c591e3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104382970"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120096928"
 ---
 # <a name="licensing-and-iclassfactory2"></a>授權和 IClassFactory2
 
@@ -30,7 +30,7 @@ ms.locfileid: "104382970"
 > [!Note]  
 > 在其類型資訊中，元件會使用已授權的屬性來標示支援透過 [**IClassFactory2**](/windows/desktop/api/OCIdl/nn-ocidl-iclassfactory2)授權的 coclass。
 
- 
+ 
 
 首先，您需要個別的開發工具，也就是授權元件的用戶端。 這項工具的目的是要取得執行時間授權金鑰，並將它儲存在您的用戶端應用程式中。 此工具只會在擁有該元件之電腦授權的電腦上執行。 此工具會呼叫 [**GetLicInfo**](/windows/desktop/api/OCIdl/nf-ocidl-iclassfactory2-getlicinfo) 和 [**RequestLicKey**](/windows/desktop/api/OCIdl/nf-ocidl-iclassfactory2-requestlickey) 方法來取得執行時間授權金鑰，然後將授權金鑰儲存在您的用戶端應用程式中。 例如，開發工具可以建立包含 BSTR 授權金鑰 ( .h) 檔案的標頭，然後在用戶端應用程式中包含該 .h 檔案。
 
@@ -47,6 +47,6 @@ ms.locfileid: "104382970"
 [COM 伺服器責任](com-server-responsibilities.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

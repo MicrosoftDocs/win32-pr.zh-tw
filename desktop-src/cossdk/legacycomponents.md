@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 5761950dcb0ceb5c857daf37ba2236733ec30c22
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 0815c9124020ff08e7033f7d1f18f8d9c5b6736763d401a3564bbdd8c6ffdf34
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103688764"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120120398"
 ---
 # <a name="legacycomponents-collection"></a>LegacyComponents 集合
 
@@ -52,7 +52,7 @@ ms.locfileid: "103688764"
 -   [AuthenticationLevel](#authenticationlevel)
 -   [位元](#bitness)
 -   [ClassName](#classname)
--   [Clsid](#clsid)
+-   [CLSID](#clsid)
 -   [DllSurrogate](#dllsurrogate)
 -   [InprocHandler32](#inprochandler32)
 -   [InprocServer32](#inprocserver32)
@@ -258,7 +258,7 @@ ms.locfileid: "103688764"
 | 描述    | 如果 COM + 應用程式或元件已停用，則 IsEnabled 為 False。 如果已啟用 COM + 應用程式或元件，IsEnabled 為 True。 |
 | Access         | 讀寫                                                                                                                                 |
 | 類型           | Bool                                                                                                                                      |
-| 預設        | 對                                                                                                                                      |
+| 預設        | 是                                                                                                                                      |
 | 最小系統 | Windows XP                                                                                                                                |
 
 

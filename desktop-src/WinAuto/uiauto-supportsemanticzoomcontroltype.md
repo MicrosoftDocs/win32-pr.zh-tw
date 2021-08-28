@@ -21,12 +21,12 @@ keywords:
 - 控制項類型，SemanticZoom
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 49609b7bc2b3958b6041bcf3a8c2c6442ce38501f95ff75a6c0f2145d497436f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9673c5e9beb0c78ecc7dfccc10b6716d6d3afa3f
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118825474"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122467755"
 ---
 # <a name="semanticzoom-control-type"></a>SemanticZoom 控制項類型
 
@@ -55,37 +55,11 @@ ms.locfileid: "118825474"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>控制項檢視</th>
-<th>內容檢視</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>List
-<ul>
-<li>[SemanticZoom]
-<ul>
-<li>ListItem (0 個以上)</li>
-</ul></li>
-</ul></li>
-</ul></td>
-<td><ul>
-<li>List
-<ul>
-<li>ListItem (0 個以上)</li>
-</ul></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| 控制項檢視 | 內容檢視 | 
+|--------------|--------------|
+| <ul><li>List<ul><li>[SemanticZoom]<ul><li>ListItem (0 個以上)</li></ul></li></ul></li></ul> | <ul><li>List<ul><li>ListItem (0 個以上)</li></ul></li></ul> | 
+
 
 
 
@@ -95,37 +69,11 @@ ms.locfileid: "118825474"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>控制項檢視</th>
-<th>內容檢視</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>[SemanticZoom]
-<ul>
-<li>List
-<ul>
-<li>ListItem (0 個以上)</li>
-</ul></li>
-</ul></li>
-</ul></td>
-<td><ul>
-<li>List
-<ul>
-<li>ListItem (0 個以上)</li>
-</ul></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| 控制項檢視 | 內容檢視 | 
+|--------------|--------------|
+| <ul><li>[SemanticZoom]<ul><li>List<ul><li>ListItem (0 個以上)</li></ul></li></ul></li></ul> | <ul><li>List<ul><li>ListItem (0 個以上)</li></ul></li></ul> | 
+
 
 
 
@@ -137,77 +85,20 @@ ms.locfileid: "118825474"
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>使用者介面自動化屬性</th>
-<th>值</th>
-<th>注意</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="uiauto-automation-element-propids.md"><strong>UIA_AutomationIdPropertyId</strong></a></td>
-<td>請參閱備註。</td>
-<td>這個屬性的值在消費者介面自動化樹狀結構的原始視圖中的所有對等元素之間必須是唯一的。</td>
-</tr>
-<tr class="even">
-<td><a href="uiauto-automation-element-propids.md"><strong>UIA_BoundingRectanglePropertyId</strong></a></td>
-<td>請參閱備註。</td>
-<td>包含整個控制項的最外層矩形。</td>
-</tr>
-<tr class="odd">
-<td><a href="uiauto-automation-element-propids.md"><strong>UIA_ClickablePointPropertyId</strong></a></td>
-<td>請參閱備註。</td>
-<td>如果清單控制項具有可點按的點 (可按一下以使清單取得焦點) 的點，則必須透過這個屬性公開該點。 如果 <a href="uiauto-automation-element-propids.md"><strong>UIA_IsOffscreenPropertyId</strong></a> 屬性的值為 <strong>TRUE</strong>，則嘗試取得此屬性會導致 <a href="uiauto-error-codes.md"><strong>UIA_E_NOCLICKABLEPOINT</strong></a> 錯誤。</td>
-</tr>
-<tr class="even">
-<td><a href="uiauto-automation-element-propids.md"><strong>UIA_ControlTypePropertyId</strong></a></td>
-<td><strong>SemanticZoom</strong></td>
 
-</tr>
-<tr class="odd">
-<td><a href="uiauto-automation-element-propids.md"><strong>UIA_IsContentElementPropertyId</strong></a></td>
-<td>true</td>
+| 使用者介面自動化屬性 | 值 | 注意 | 
+|------------------------|-------|-------|
+| <a href="uiauto-automation-element-propids.md"><strong>UIA_AutomationIdPropertyId</strong></a> | 請參閱備註。 | 這個屬性的值在消費者介面自動化樹狀結構的原始視圖中的所有對等元素之間必須是唯一的。 | 
+| <a href="uiauto-automation-element-propids.md"><strong>UIA_BoundingRectanglePropertyId</strong></a> | 請參閱備註。 | 包含整個控制項的最外層矩形。 | 
+| <a href="uiauto-automation-element-propids.md"><strong>UIA_ClickablePointPropertyId</strong></a> | 請參閱備註。 | 如果清單控制項具有可點按的點 (可按一下以使清單取得焦點) 的點，則必須透過這個屬性公開該點。 如果 <a href="uiauto-automation-element-propids.md"><strong>UIA_IsOffscreenPropertyId</strong></a> 屬性的值為 <strong>TRUE</strong>，則嘗試取得此屬性會導致 <a href="uiauto-error-codes.md"><strong>UIA_E_NOCLICKABLEPOINT</strong></a> 錯誤。 | 
+| <a href="uiauto-automation-element-propids.md"><strong>UIA_ControlTypePropertyId</strong></a> | <strong>SemanticZoom</strong> | 
+| <a href="uiauto-automation-element-propids.md"><strong>UIA_IsContentElementPropertyId</strong></a> | true | 
+| <a href="uiauto-automation-element-propids.md"><strong>UIA_IsControlElementPropertyId</strong></a> | true | 
+| <a href="uiauto-automation-element-propids.md"><strong>UIA_IsKeyboardFocusablePropertyId</strong></a> | FALSE | 
+| <a href="uiauto-automation-element-propids.md"><strong>UIA_LabeledByPropertyId</strong></a> | 請參閱備註。 | 如果有靜態文字標籤，這個屬性必須公開該控制項的參考。 | 
+| <a href="uiauto-automation-element-propids.md"><strong>UIA_LocalizedControlTypePropertyId</strong></a> | 請參閱備註。 | 對應到 <strong>SemanticZoom</strong> 控制項類型的當地語系化字串。 預設值為 en-us 或英文 (美國) 的「語義縮放」。<blockquote>[!Note]<br />某些 framework 會將此串連為 "semanticzoom"。</blockquote><br /> | 
+| <a href="uiauto-automation-element-propids.md"><strong>UIA_NamePropertyId</strong></a> | 請參閱備註。 | 空字串是可接受的，或是可以提供更有用的名稱，只要它不包含「語義比例」詞彙，這會讓控制項類型和名稱的組合混淆。 | 
 
-</tr>
-<tr class="even">
-<td><a href="uiauto-automation-element-propids.md"><strong>UIA_IsControlElementPropertyId</strong></a></td>
-<td>true</td>
-
-</tr>
-<tr class="odd">
-<td><a href="uiauto-automation-element-propids.md"><strong>UIA_IsKeyboardFocusablePropertyId</strong></a></td>
-<td>FALSE</td>
-
-</tr>
-<tr class="even">
-<td><a href="uiauto-automation-element-propids.md"><strong>UIA_LabeledByPropertyId</strong></a></td>
-<td>請參閱備註。</td>
-<td>如果有靜態文字標籤，這個屬性必須公開該控制項的參考。</td>
-</tr>
-<tr class="odd">
-<td><a href="uiauto-automation-element-propids.md"><strong>UIA_LocalizedControlTypePropertyId</strong></a></td>
-<td>請參閱備註。</td>
-<td>對應到 <strong>SemanticZoom</strong> 控制項類型的當地語系化字串。 預設值為 &quot; &quot; En-us 或英文 (美國) 的語義縮放。
-<blockquote>
-[!Note]<br />
-某些架構將此串連為 &quot; semanticzoom &quot; 。
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td><a href="uiauto-automation-element-propids.md"><strong>UIA_NamePropertyId</strong></a></td>
-<td>請參閱備註。</td>
-<td>空字串是可接受的，或是可以提供更有用的名稱，只要它不包含「語義比例」詞彙，這會讓控制項類型和名稱的組合混淆。</td>
-</tr>
-</tbody>
-</table>
 
 
 

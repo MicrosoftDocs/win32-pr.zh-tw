@@ -18,12 +18,12 @@ keywords:
 - 散佈視覺效果
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bff60a730b5cfb877212ce878e165330c9d601c6
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: c82ebbd6070356f6ec2689aa4d6f97f1a0d9e11eef99477463e4f01ca7ba2a15
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382569"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120122918"
 ---
 # <a name="submitting-your-visualization"></a>提交您的視覺效果
 
@@ -48,6 +48,6 @@ ms.locfileid: "104382569"
 [**關於自訂視覺效果**](about-custom-visualizations.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

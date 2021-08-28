@@ -4,12 +4,12 @@ ms.assetid: 0fb8afc4-d16b-4c2e-80b3-da9935b11bb5
 title: drawControl
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5318fdebc995ff45932f75b4000ceda6e74068e1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 58a330854f19005f7f2863c337451b1dcc56cea3
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026520"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122632046"
 ---
 # <a name="drawcontrol"></a>drawControl
 
@@ -65,8 +65,8 @@ ms.locfileid: "104026520"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -103,7 +103,7 @@ ms.locfileid: "104026520"
 <td>使用百分比 bar 控制項。</td>
 </tr>
 <tr class="odd">
-<td>進度列</td>
+<td>ProgressBar</td>
 <td>使用進度列控制項。</td>
 </tr>
 <tr class="even">

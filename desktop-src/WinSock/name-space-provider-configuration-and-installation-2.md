@@ -4,12 +4,12 @@ ms.assetid: 3dd289fb-eebb-48b2-a887-eeb60322ab09
 title: 命名空間提供者設定和安裝
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1c87de8fee4ccaea0fb6978037e1e41684b56267
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d420e9322d1d39816cdb9b3812b23b1e7e72e945c3d0f2ef95e7edff77f12276
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511421"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120121368"
 ---
 # <a name="namespace-provider-configuration-and-installation"></a>命名空間提供者設定和安裝
 

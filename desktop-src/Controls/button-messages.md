@@ -4,12 +4,12 @@ description: 按鈕可以將訊息傳送至其父視窗，而且父視窗可以�
 ms.assetid: 2d2358fb-b17d-48a9-8def-15ae8bad9162
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1601f269ec1242a10579d2ace812723d3ead7f84
-ms.sourcegitcommit: ae73f4dd3cf5a3c6a1ea7d191ca32a5b01f6686b
+ms.openlocfilehash: 136310a3718f17900f604287bf78186f7c927259
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "103684043"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122625714"
 ---
 # <a name="button-messages"></a>按鈕訊息
 
@@ -52,7 +52,7 @@ ms.locfileid: "103684043"
 
 
 
-| 通知碼                                                        | Description                                            |
+| 通知碼                                                        | 描述                                            |
 |--------------------------------------------------------------------------|--------------------------------------------------------|
 | [BCN \_ HOTITEMCHANGE](bcn-hotitemchange.md)                              | 滑鼠已進入或離開按鈕的工作區。 |
 | [BN \_ 按一下](bn-clicked.md)                                            | 使用者按一下按鈕。                             |
@@ -66,7 +66,7 @@ ms.locfileid: "103684043"
 
 
 
- 
+ 
 
 按鈕只會在具有 [**BN \_ 通知**](button-styles.md)樣式的情況下傳送 [BN \_ DISABLE](bn-disable.md)、 [BN \_ 推送](bn-pushed.md)、 [BN \_ KILLFOCUS](bn-killfocus.md)、 [BN \_ PAINT](bn-paint.md)、 [BN \_ SETFOCUS](bn-setfocus.md)和 [未推送 \_ BS](bn-unpushed.md)通知碼。 [BN \_DBLCLK](bn-dblclk.md) 通知碼會自動傳送給 [**BS \_ USERBUTTON**](button-styles.md)、 [**BS \_ 單選**](button-styles.md)按鈕和 [**BS \_ OWNERDRAW**](button-styles.md) 按鈕。 其他按鈕類型只有在 \_ 有 **BS \_ 通知** 樣式時，才會傳送 BN DBLCLK。 無論按鈕樣式為何，所有按鈕都會傳送 BN 的已按下通知碼。 [ \_ ](bn-clicked.md)
 
@@ -93,7 +93,7 @@ ms.locfileid: "103684043"
 
 
 
- 
+ 
 
 不過，呼叫 [**SetSysColors**](/windows/desktop/api/winuser/nf-winuser-setsyscolors) 會影響所有的應用程式，因此您不應該呼叫此函式來自訂應用程式的按鈕。
 
@@ -107,8 +107,8 @@ ms.locfileid: "103684043"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -203,7 +203,7 @@ ms.locfileid: "103684043"
 </tbody>
 </table>
 
-<p> </p></td>
+<p> </p></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/winmsg/wm-getfont"><strong>WM_GETFONT</strong></a></td>
@@ -270,7 +270,7 @@ ms.locfileid: "103684043"
 
 
 
- 
+ 
 
 預先定義的視窗程式會將所有其他訊息傳遞至 [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) 函式，以進行預設處理。
 
@@ -281,6 +281,6 @@ ms.locfileid: "103684043"
 [控制訊息](control-messages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

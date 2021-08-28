@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: d90444aff674ce876f19f02f21104dd7e42143de5926ba068bbe2c49f427fdde
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c863d952990cd05394244fe662650df59568eeaf
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117725885"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122466965"
 ---
 # <a name="shader-model-4"></a>著色器模型4
 
@@ -22,49 +22,16 @@ ms.locfileid: "117725885"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>功能</th>
-<th>功能</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>指令集</td>
-<td><a href="dx-graphics-hlsl-intrinsic-functions.md"><strong>HLSL 函式</strong></a></td>
-</tr>
-<tr class="even">
-<td>註冊集</td>
-<td>您可以使用 HLSL 語義（例如元件封裝），透過常數和材質緩衝區中的成員來存取暫存器集。
-<ul>
-<li>圖元著色器暫存器 (請參閱暫存器 <a href="dx-graphics-hlsl-sm4-registers-ps-4-0.md">-ps_4_0</a> 和暫存器 <a href="dx-graphics-hlsl-sm4-registers-ps-4-1.md">-ps_4_1</a>) </li>
-<li>頂點著色器暫存器 (請參閱暫存器 <a href="dx-graphics-hlsl-sm4-registers-vs-4-0.md">-vs_4_0</a> 和暫存器 <a href="dx-graphics-hlsl-sm4-registers-vs-4-1.md">-vs_4_1</a>) </li>
-<li>幾何著色器暫存器 (查看暫存器 <a href="dx-graphics-hlsl-sm4-registers-gs-4-0.md">-gs_4_0</a> 和暫存器 <a href="dx-graphics-hlsl-sm4-registers-gs-4-1.md">-gs_4_1</a>) </li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>頂點著色器最大值</td>
-<td>沒有限制</td>
-</tr>
-<tr class="even">
-<td>圖元著色器最大值</td>
-<td>沒有限制</td>
-</tr>
-<tr class="odd">
-<td>新增著色器設定檔</td>
-<td>gs_4_0、ps_4_0、vs_4_0、gs_4_1 *、ps_4_1*、gs_4_1 *</td>
-</tr>
-<tr class="even">
-<td>已新增新的 Effect-Framework 設定檔</td>
-<td>fx_4_0，fx_4_1 *</td>
-</tr>
-</tbody>
-</table>
+
+| 功能 | 功能 | 
+|---------|------------|
+| 指令集 | <a href="dx-graphics-hlsl-intrinsic-functions.md"><strong>HLSL 函式</strong></a> | 
+| 註冊集 | 您可以使用 HLSL 語義（例如元件封裝），透過常數和材質緩衝區中的成員來存取暫存器集。<ul><li>圖元著色器暫存器 (請參閱暫存器 <a href="dx-graphics-hlsl-sm4-registers-ps-4-0.md">-ps_4_0</a> 和暫存器 <a href="dx-graphics-hlsl-sm4-registers-ps-4-1.md">-ps_4_1</a>) </li><li>頂點著色器暫存器 (請參閱暫存器 <a href="dx-graphics-hlsl-sm4-registers-vs-4-0.md">-vs_4_0</a> 和暫存器 <a href="dx-graphics-hlsl-sm4-registers-vs-4-1.md">-vs_4_1</a>) </li><li>幾何著色器暫存器 (查看暫存器 <a href="dx-graphics-hlsl-sm4-registers-gs-4-0.md">-gs_4_0</a> 和暫存器 <a href="dx-graphics-hlsl-sm4-registers-gs-4-1.md">-gs_4_1</a>) </li></ul> | 
+| 頂點著色器最大值 | 沒有限制 | 
+| 圖元著色器最大值 | 沒有限制 | 
+| 新增著色器設定檔 | gs_4_0、ps_4_0、vs_4_0、gs_4_1 *、ps_4_1*、gs_4_1 * | 
+| 已新增新的 Effect-Framework 設定檔 | fx_4_0，fx_4_1 * | 
+
 
 
 

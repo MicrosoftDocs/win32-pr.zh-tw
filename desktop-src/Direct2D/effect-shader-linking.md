@@ -4,12 +4,12 @@ description: Direct2D 會使用稱為效果著色器的優化連結，此連結�
 ms.assetid: 431A5B39-6C84-442D-AC66-0F341E10DF2C
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 608ae0b751840fc32b31e10012eb343c73ec3e0d941a26477a192b576204c247
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e22d9ae245b5bbaa0c13dd7d5296dc419f740404
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119431440"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122881830"
 ---
 # <a name="effect-shader-linking"></a>效果著色器連結
 
@@ -189,11 +189,11 @@ fxc /T <shadermodel> <MyShaderFile>.hlsl /D D2D_FUNCTION /D D2D_ENTRY=<entry> /F
 
 |    旗標                            |    描述                       |
 |--------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 一起 <ShaderModel>         | 設定 <ShaderModel> 為適當的圖元著色器設定檔，如 [fxc.exe 語法](/windows/desktop/direct3dtools/dx-graphics-tools-fxc-syntax)中所定義。 這必須是 [HLSL 著色器連結] 下所列的其中一個設定檔。 |
-| <MyShaderFile>.hlsl      | 設定 <MyShaderFile> 為 HLSL 檔案的名稱。                                                                                                                                                                                                    |
+| /T &lt; ShaderModel&gt;         | 將 &lt; ShaderModel 設定 &gt; 為適當的圖元著色器設定檔，如 [fxc.exe 語法](/windows/desktop/direct3dtools/dx-graphics-tools-fxc-syntax)中所定義。 這必須是 [HLSL 著色器連結] 下所列的其中一個設定檔。 |
+| &lt;MyShaderFile &gt; . hlsl      | 將 &lt; MyShaderFile 設定 &gt; 為 HLSL 檔的名稱。                                                                                                                                                                                                    |
 | /D D2D \_ 函數               | 此定義會指示 FXC.EXE 編譯著色器的匯出函式版本。                                                                                                                                                                       |
-| /D D2D \_ 專案 =<entry>    | 設定 <entry> 為您在 [D2D \_ PS \_ 專案](d2d-ps-entry.md) 宏中定義的 HLSL 進入點名稱。                                                                                                                                    |
-| /Fl <MyShaderFile> . fxlib | 設定 <MyShaderfile> 為您要儲存著色器匯出函式版本的位置。 請注意，fxlib 副檔名只是為了方便識別。                                                                                              |
+| /D D2D \_ 專案 = &lt; 專案&gt;    | 將 &lt; 專案設定 &gt; 為您在 [D2D \_ PS \_ 專案](d2d-ps-entry.md) 宏中定義的 HLSL 進入點名稱。                                                                                                                                    |
+| /Fl &lt; MyShaderFile &gt; . fxlib | 將 &lt; MyShaderfile 設定 &gt; 為您要儲存著色器匯出函式版本的位置。 請注意，fxlib 副檔名只是為了方便識別。                                                                                              |
 
 ### <a name="step-2-compile-the-full-shader-and-embed-the-export-function"></a>步驟2：編譯完整的著色器並內嵌匯出函式
 
@@ -207,14 +207,14 @@ fxc /T ps_<shadermodel> <MyShaderFile>.hlsl /D D2D_FULL_SHADER /D D2D_ENTRY=<ent
 
 |    旗標                                    |    描述                     |
 |----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 一起 <ShaderModel>                 | 設定 <ShaderModel> 為適當的圖元著色器設定檔，如 [fxc.exe 語法](/windows/desktop/direct3dtools/dx-graphics-tools-fxc-syntax)中所定義。 這必須是對應至步驟1中所指定連結設定檔的圖元著色器設定檔。 |
-| <MyShaderFile>.hlsl              | 設定 <MyShaderFile> 為 HLSL 檔案的名稱。                                                                                                                                                                                                                               |
+| /T &lt; ShaderModel&gt;                 | 將 &lt; ShaderModel 設定 &gt; 為適當的圖元著色器設定檔，如 [fxc.exe 語法](/windows/desktop/direct3dtools/dx-graphics-tools-fxc-syntax)中所定義。 這必須是對應至步驟1中所指定連結設定檔的圖元著色器設定檔。 |
+| &lt;MyShaderFile &gt; . hlsl              | 將 &lt; MyShaderFile 設定 &gt; 為 HLSL 檔的名稱。                                                                                                                                                                                                                               |
 | /D D2D \_ 完整 \_ 著色器                   | 此定義會指示 FXC.EXE 編譯完整版的著色器。                                                                                                                                                                                                             |
-| /D D2D \_ 專案 =<entry>            | 設定 <entry> 為您在 D2D \_ PS 專案 () 宏中定義的 HLSL 進入點名稱 \_ 。                                                                                                                                                                                 |
-| /E <entry>                       | 設定 <entry> 為您在 D2D \_ PS 專案 () 宏中定義的 HLSL 進入點名稱 \_ 。                                                                                                                                                                                 |
-| /setprivate <MyShaderFile> . fxlib | 此引數會指示 FXC.EXE 將步驟1中產生的匯出函式著色器內嵌至 D3D \_ BLOB \_ 私用 \_ 資料區域。                                                                                                                                                          |
-| /Fo <MyShader>               | 設定 <MyShader> 為，您要在其中儲存最後一個合併的編譯著色器。                                                                                                                                                                                                 |
-| /Fh <MyShader> 。h                 | 設定 <MyShader> 為您要在其中儲存最後一個合併的標頭。                                                                                                                                                                                                          |
+| /D D2D \_ 專案 = &lt; 專案&gt;            | 將 &lt; 專案設定 &gt; 為您在 D2D \_ PS \_ 專案 () 宏中定義的 HLSL 進入點名稱。                                                                                                                                                                                 |
+| /E &lt; 專案&gt;                       | 將 &lt; 專案設定 &gt; 為您在 D2D \_ PS \_ 專案 () 宏中定義的 HLSL 進入點名稱。                                                                                                                                                                                 |
+| /setprivate &lt; MyShaderFile &gt; . fxlib | 此引數會指示 FXC.EXE 將步驟1中產生的匯出函式著色器內嵌至 D3D \_ BLOB \_ 私用 \_ 資料區域。                                                                                                                                                          |
+| /Fo &lt; MyShader &gt;               | 將 &lt; MyShader 設定 &gt; 為您要儲存最後一個合併編譯著色器的位置。                                                                                                                                                                                                 |
+| /Fh &lt; MyShader &gt; 。h                 | 將 &lt; MyShader 設定 &gt; 為您要在其中儲存最後一個合併的標頭。                                                                                                                                                                                                          |
 
 ## <a name="export-function-specifications"></a>匯出函式規格
 

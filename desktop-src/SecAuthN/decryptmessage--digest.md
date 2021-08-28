@@ -4,12 +4,12 @@ ms.assetid: 46d45f59-33fa-434a-b329-20b6257c9a19
 title: DecryptMessage (Digest) 函數
 ms.topic: reference
 ms.date: 07/25/2019
-ms.openlocfilehash: c9ea0cc2f0ea0cbe10a91ba48fd7d6396532fd1867d9fe84043aa008df507446
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f87828263766643a10cf5400e38cabe9d3096403
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119008626"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122480864"
 ---
 # <a name="decryptmessage-digest-function"></a>DecryptMessage (Digest) 函數
 
@@ -55,8 +55,12 @@ SECURITY_STATUS SEC_ENTRY DecryptMessage(
 
 此參數可以是下列其中一個旗標。
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th>值</th><th>意義</th></tr></thead><tbody><tr class="odd"><td><span id="SECQOP_WRAP_NO_ENCRYPT"></span><span id="secqop_wrap_no_encrypt"></span><dl> <dt><strong>SECQOP_WRAP_NO_ENCRYPT</strong></dt> </dl></td><td>訊息未加密，但產生的是標頭或結尾。<br/><blockquote>[!Note]<br />
-KERB_WRAP_NO_ENCRYPT 具有相同的值和相同的意義。</blockquote><br/></td></tr><tr class="even"><td><span id="SIGN_ONLY_"></span><span id="sign_only_"></span><dl> <dt><strong>SIGN_ONLY</strong></dt> </dl></td><td>使用摘要 SSP 時，當 [*安全性內容*](../secgloss/s-gly.md) 設定 [*為僅驗證*](../secgloss/s-gly.md) 簽章時，請使用此旗標。 如需詳細資訊，請參閱 [保護品質](quality-of-protection.md)。<br/></td></tr></tbody></table>
+
+| 值 | 意義 | 
+|-------|---------|
+| <span id="SECQOP_WRAP_NO_ENCRYPT"></span><span id="secqop_wrap_no_encrypt"></span><dl><dt><strong>SECQOP_WRAP_NO_ENCRYPT</strong></dt></dl> | 訊息未加密，但產生的是標頭或結尾。<br /><blockquote>[!Note]<br />KERB_WRAP_NO_ENCRYPT 具有相同的值和相同的意義。</blockquote><br /> | 
+| <span id="SIGN_ONLY_"></span><span id="sign_only_"></span><dl><dt><strong>SIGN_ONLY</strong></dt></dl> | 使用摘要 SSP 時，當 [*安全性內容*](../secgloss/s-gly.md) 設定 [*為僅驗證*](../secgloss/s-gly.md) 簽章時，請使用此旗標。 如需詳細資訊，請參閱 [保護品質](quality-of-protection.md)。<br /> | 
+
 
 ## <a name="return-value"></a>傳回值
 
@@ -64,7 +68,7 @@ KERB_WRAP_NO_ENCRYPT 具有相同的值和相同的意義。</blockquote><br/></
 
 如果函數無法解密訊息，則會傳回下列其中一個錯誤碼。
 
-| 傳回碼                         | 描述                                                                                                                                                                  |
+| 傳回碼                         | Description                                                                                                                                                                  |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **SEC \_ E \_ 緩衝區 \_ 太 \_ 小**      | 訊息緩衝區太小。 搭配摘要 SSP 使用。                                                                                                                   |
 | **SEC \_ E \_ 加密 \_ 系統 \_ 無效** | 不支援為 [*安全性內容*](../secgloss/s-gly.md)選擇的 [*加密*](../secgloss/c-gly.md)。 搭配摘要 SSP 使用。                                                                                       |

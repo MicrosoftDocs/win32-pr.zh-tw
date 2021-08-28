@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2cede8964636073c393cb34bfa1be22855467f4cb243834bd1e11a4ffc492665
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e147b48ffb80e1114133b59018cef514eefd2ae7
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120031418"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122885869"
 ---
 # <a name="iwmpclosedcaptionsamistyle-property"></a>IWMPClosedCaption：： SAMIStyle 屬性
 
@@ -50,7 +50,7 @@ Public Property SAMIStyle As System.String
 
 ## <a name="remarks"></a>備註
 
-薩米文檔案可以包含數個格式樣式定義。 薩米文的樣式定義于薩米文檔案的 <STYLE> 和 </STYLE> 標記之間。 樣式的定義是以文字字串前面加上 \# 字元。 例如：
+薩米文檔案可以包含數個格式樣式定義。 薩米文的樣式定義在 &lt; 薩米文的樣式 &gt; 和標記之間 </STYLE> 。 樣式的定義是以文字字串前面加上 \# 字元。 例如：
 
 
 ```

@@ -4,12 +4,12 @@ ms.assetid: 763ACE57-EFDD-482E-851E-668D7756C5DF
 title: 'HSTRING (Hstring) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 76b9e73d7627a4bab8f02a95056e5b208569d922
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e4b43c92d439cec10c0d1683efb1e8ceafd8165a35c3c8aa9a1b35150e43a33a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970996"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120121568"
 ---
 # <a name="hstring"></a>HSTRING
 
@@ -51,7 +51,7 @@ JavaScript 和其他語言（例如 C 和 \# Microsoft Visual Basic）都可以�
 
 藉由呼叫 [**WindowsGetStringRawBuffer**](/windows/win32/api/winstring/nf-winstring-windowsgetstringrawbuffer) 函數來存取支援字串記憶體。
 
-**HSTRING** 可以儲存和使用內嵌的 **NUL** 字元。 使用 [**WindowsStringHasEmbeddedNull**](/windows/win32/api/winstring/nf-winstring-windowsstringhasembeddednull) 函式在使用可能產生非預期結果的任何函式之前，先檢查內嵌的 **NUL** 字元。 例如，大部分的 Windows 函式會使用 **LPCWSTR** 做為輸入參數，而且只會計算字串的長度，直到遇到第一個 **NUL** 為止。
+**HSTRING** 可以儲存和使用內嵌的 **NUL** 字元。 使用 [**WindowsStringHasEmbeddedNull**](/windows/win32/api/winstring/nf-winstring-windowsstringhasembeddednull) 函式在使用可能產生非預期結果的任何函式之前，先檢查內嵌的 **NUL** 字元。 例如，大部分的 Windows 函式都會使用 **LPCWSTR** 做為輸入參數，而且只會計算字串的長度，直到遇到第一個 **NUL** 為止。
 
 支援字串必須維持不變且以 null 終止。 當呼叫程式碼使用 [**WindowsCreateStringReference**](/windows/win32/api/winstring/nf-winstring-windowscreatestringreference) 函式來建立字串參考時，包含支援字串表示的記憶體是由呼叫端所擁有。 Windows 執行階段依賴原始字串的內容保持不變。 將字串參考傳遞至 Windows 執行階段時，呼叫端必須負責確保字串的內容不會改變，而且會在呼叫期間以 **NUL** 終止。 當呼叫傳回時，Windows 執行階段會釋放字串參考的所有參考。
 

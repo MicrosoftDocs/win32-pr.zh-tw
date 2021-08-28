@@ -4,12 +4,12 @@ ms.assetid: 9178e61e-05a4-441c-a9f1-e05e23ab48a5
 title: " (Direct3D 10) 的批註語法"
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 303065e9c49c380a5accba6faadbc641ec0f528a
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: ea0c02e250438f25a22f8ba6d059a723299f1ee1fa175b51ce2ffe87b07c5f87
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847615"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120119998"
 ---
 # <a name="annotation-syntax-direct3d-10"></a> (Direct3D 10) 的批註語法
 

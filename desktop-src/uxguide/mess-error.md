@@ -4,17 +4,17 @@ description: 錯誤訊息會警示使用者已發生的問題。
 ms.assetid: b02110e9-985d-4448-9c95-eb958b0059b1
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 0a8ee17093618dc8a192cfad8ce962f7ed04fc76
-ms.sourcegitcommit: 70f39ec77d19d3c32c376ee2831753d2cafae41a
+ms.openlocfilehash: 0ceffd3d1fecccd8342cb1e634735653bdba9722
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104562913"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122469015"
 ---
 # <a name="error-messages-design-basics"></a> (設計基礎) 的錯誤訊息
 
 > [!NOTE]
-> 此設計指南是針對 Windows 7 所建立，而且尚未針對較新版本的 Windows 更新。 大部分的指引仍然適用于準則，但展示和範例不會反映我們目前的 [設計指引](/windows/uwp/design/)。
+> 此設計指南是針對 Windows 7 所建立，而且尚未針對較新的 Windows 版本進行更新。 大部分的指引仍然適用于準則，但展示和範例不會反映我們目前的 [設計指引](/windows/uwp/design/)。
 
 錯誤訊息會警示使用者已發生的問題。 相反地，警告訊息會警示使用者可能會在未來發生問題的狀況。 您可以使用強制回應對話方塊、就地訊息、通知或氣球來顯示錯誤訊息。
 
@@ -55,7 +55,7 @@ ms.locfileid: "104562913"
 
 ![錯誤訊息的螢幕擷取畫面：應用程式失敗 ](images/mess-error-image2.png)
 
-從 Windows XP 的這個範例可能是最糟的錯誤訊息。 這表示程式無法啟動，因為 Windows 本身正在關機。 使用者無法執行這項操作，甚至想要 (使用者選擇在所有) 之後關閉 Windows。 而藉由顯示此錯誤訊息，Windows 會防止自己關機！
+Windows XP 的這個範例可能是最糟的錯誤訊息。 這表示程式無法啟動，因為 Windows 本身正在關機的進程中。 使用者無法執行這項操作，甚至想要 (使用者選擇在所有) 之後，關閉 Windows。 藉由顯示此錯誤訊息，Windows 可防止自己關機！
 
 **問題：** 錯誤訊息本身就是問題所在。 除了關閉錯誤訊息之外，使用者也不需要執行任何動作。
 
@@ -340,15 +340,15 @@ ms.locfileid: "104562913"
 
 根據強調和措辭，某些問題可能會顯示為錯誤、警告或資訊。 例如，假設網頁無法根據目前的 Windows Internet Explorer 設定載入未簽署的 ActiveX 控制項：
 
-- **錯誤。** 「此頁面無法載入未簽署的 ActiveX 控制項。」  (片語做為現有的問題。 ) 
-- **警告。** 「此頁面可能無法如預期般運作，因為 Windows Internet Explorer 未設定為載入未簽署的 ActiveX 控制項。」 或「允許此頁面安裝未簽署的 ActiveX 控制項？ 從不受信任的來源執行此動作可能會危害您的電腦。」  (這兩個片語為可能會導致未來問題的狀況。 ) 
-- **資訊。** 「您已設定 Windows Internet Explorer 封鎖未簽署的 ActiveX 控制項。」  (片語作為事實的陳述。 ) 
+- **錯誤。** 「此頁面無法載入未簽署的 ActiveX 控制項」。  (片語做為現有的問題。 ) 
+- **警告。** 「此頁面可能無法如預期般運作，因為 Windows Internet Explorer 未設定為載入未簽署的 ActiveX 控制項」。 或「允許此頁面安裝不帶正負號的 ActiveX 控制項？ 從不受信任的來源執行此動作可能會危害您的電腦。」  (這兩個片語為可能會導致未來問題的狀況。 ) 
+- **資訊。** 「您已設定 Windows Internet Explorer 封鎖未簽署的 ActiveX 控制項」。  (片語作為事實的陳述。 ) 
 
 **若要判斷適當的訊息類型，請將焦點放在使用者需要知道或採取行動之問題的最重要層面。** 一般來說，如果問題封鎖使用者繼續進行，您應該將它顯示為錯誤;如果使用者可以繼續，請將它顯示為警告。 根據焦點製作 [主要指示](text-ui.md) 或其他對應的文字，然後選擇符合文字的圖示 ([標準](vis-std-icons.md) 或) 。 主要的指令文字和圖示應該一律相符。
 
 **錯誤訊息展示**
 
-Windows 程式中大部分的錯誤訊息都是使用強制回應對話方塊來呈現， (是本文中大部分的範例) ，但是還有其他選項：
+Windows 程式中大部分的錯誤訊息都是使用強制回應對話方塊來呈現， (為本文中的大部分範例) ，但還有其他選項：
 
 - 就地
 - 汽球
@@ -404,46 +404,15 @@ Windows 程式中大部分的錯誤訊息都是使用強制回應對話方塊來
 
 錯誤訊息有數種使用模式：
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><strong>系統問題</strong><br/> 作業系統、硬體裝置、網路或程式失敗，或未處於執行工作所需的狀態。 <br/></td>
-<td>使用者可以解決許多系統問題： <br/>
-<ul>
-<li>裝置問題可以藉由開啟裝置、重新連接裝置，以及插入媒體來解決。</li>
-<li>您可以藉由檢查實體網路連線，以及執行 <strong>網路診斷和修復</strong>，來解決網路問題。</li>
-<li>您可以藉由變更程式選項或重新開機程式來解決程式問題。</li>
-</ul>
-<img src="images/mess-error-image25.png" alt="Screen shot of message: Can&#39;t find a camera " /><br/> 在此範例中，程式找不到可執行使用者工作的相機。<br/> <img src="images/mess-error-image26.png" alt="Screen shot of message Network discovery off " /><br/> 在此範例中，必須開啟執行工作所需的功能。<br/></td>
-</tr>
-<tr class="even">
-<td><strong>檔案問題</strong><br/> 找不到使用者起始的工作所需的檔案或資料夾、已在使用中，或其格式不正確。 <br/></td>
-<td><img src="images/mess-error-image27.png" alt="Screen shot of message: Can&#39;t delete file " /><br/> 在此範例中，因為找不到檔案或資料夾，所以無法予以刪除。<br/> <img src="images/mess-error-image28.png" alt="Screen shot of message: Can&#39;t play this file " /><br/> 在此範例中，程式不支援指定的檔案格式。<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>安全性問題</strong><br/> 使用者無權存取資源，或有足夠的許可權來執行使用者所起始的工作。 <br/></td>
-<td><img src="images/mess-error-image29.png" alt="Screen shot of message: You don&#39;t have permission " /><br/> 在此範例中，使用者沒有存取資源的許可權。<br/> <img src="images/mess-error-image30.png" alt="Screen shot of message: You don&#39;t have privilege " /><br/> 在此範例中，使用者沒有執行工作的許可權。<br/></td>
-</tr>
-<tr class="even">
-<td><strong>工作問題</strong><br/> 執行使用者所起始的工作 (不是系統、找不到檔案、檔案格式或安全性問題) 的特定問題。 <br/></td>
-<td><img src="images/mess-error-image31.png" alt="Screen shot of message: Data can&#39;t be pasted " /><br/> 在此範例中，剪貼簿資料無法貼入繪圖中。<br/> <img src="images/mess-error-image32.png" alt="Screen shot of message: Upgrade can&#39;t be installed " /><br/> 在此範例中，使用者無法安裝軟體升級。<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>使用者輸入問題</strong><br/> 使用者輸入的值與其他使用者輸入不正確或不一致。 <br/></td>
-<td><img src="images/mess-error-image33.png" alt="Screen shot of message: Incorrect time value " /><br/> 在此範例中，使用者輸入的時間值不正確。<br/> <img src="images/mess-error-image34.png" alt="Screen shot of message: Incorrect input format " /><br/> 在此範例中，使用者輸入的格式不正確。<br/></td>
-</tr>
-</tbody>
-</table>
+
+| | | <strong>系統問題</strong><br /> 作業系統、硬體裝置、網路或程式失敗，或未處於執行工作所需的狀態。 <br /> |使用者可以解決許多系統問題： <br /><ul><li>裝置問題可以藉由開啟裝置、重新連接裝置，以及插入媒體來解決。</li><li>您可以藉由檢查實體網路連線，以及執行 <strong>網路診斷和修復</strong>，來解決網路問題。</li><li>您可以藉由變更程式選項或重新開機程式來解決程式問題。</li></ul><img src="images/mess-error-image25.png" alt="Screen shot of message: Can't find a camera " /><br /> 在此範例中，程式找不到可執行使用者工作的相機。<br /><img src="images/mess-error-image26.png" alt="Screen shot of message Network discovery off " /><br /> 在此範例中，必須開啟執行工作所需的功能。<br /> | |檔案 <strong>問題</strong><br /> 找不到使用者起始的工作所需的檔案或資料夾、已在使用中，或其格式不正確。 <br /> | <img src="images/mess-error-image27.png" alt="Screen shot of message: Can't delete file " /><br /> 在此範例中，因為找不到檔案或資料夾，所以無法予以刪除。<br /><img src="images/mess-error-image28.png" alt="Screen shot of message: Can't play this file " /><br /> 在此範例中，程式不支援指定的檔案格式。<br /> | | <strong>安全性問題</strong><br /> 使用者無權存取資源，或有足夠的許可權來執行使用者所起始的工作。 <br /> | <img src="images/mess-error-image29.png" alt="Screen shot of message: You don't have permission " /><br /> 在此範例中，使用者沒有存取資源的許可權。<br /><img src="images/mess-error-image30.png" alt="Screen shot of message: You don't have privilege " /><br /> 在此範例中，使用者沒有執行工作的許可權。<br /> | |工作 <strong>問題</strong><br /> 執行使用者所起始的工作 (不是系統、找不到檔案、檔案格式或安全性問題) 的特定問題。 <br /> | <img src="images/mess-error-image31.png" alt="Screen shot of message: Data can't be pasted " /><br /> 在此範例中，剪貼簿資料無法貼入小畫家中。<br /><img src="images/mess-error-image32.png" alt="Screen shot of message: Upgrade can't be installed " /><br /> 在此範例中，使用者無法安裝軟體升級。<br /> | | <strong>使用者輸入問題</strong><br /> 使用者輸入的值與其他使用者輸入不正確或不一致。 <br /> | <img src="images/mess-error-image33.png" alt="Screen shot of message: Incorrect time value " /><br /> 在此範例中，使用者輸入的時間值不正確。<br /><img src="images/mess-error-image34.png" alt="Screen shot of message: Incorrect input format " /><br /> 在此範例中，使用者輸入的格式不正確。<br /> | 
+
 
 ## <a name="guidelines"></a>指導方針
 
 ### <a name="presentation"></a>簡報
 
-- 在 **適當時使用工作對話方塊**，以達成一致的外觀和配置。 工作對話方塊需要 Windows Vista 或更新版本，因此不適用於舊版 Windows。 如果您必須使用訊息方塊，請使用兩個分行符號分隔出補充指令中的主要指令。
+- 在 **適當時使用工作對話方塊**，以達成一致的外觀和配置。 工作對話方塊需要 Windows Vista 或更新版本，因此不適用於舊版的 Windows。 如果您必須使用訊息方塊，請使用兩個分行符號分隔出補充指令中的主要指令。
 
 ### <a name="user-input-errors"></a>使用者輸入錯誤
 
@@ -537,7 +506,7 @@ Windows 程式中大部分的錯誤訊息都是使用強制回應對話方塊來
 
 - **選取最安全、最不具破壞性或最安全的回應作為預設值。** 如果安全性不是因素，請選取最有可能或方便的命令。
 
-### <a name="help"></a>Help
+### <a name="help"></a>說明
 
 - **設計錯誤訊息，以避免需要協助。** 除非解決方案需要執行幾個步驟，否則使用者通常不需要讀取外部文字來瞭解並解決問題。
 - **請確定說明內容相關且實用。** 它不應該是錯誤訊息的詳細重述，而是應該包含超出錯誤訊息範圍的有用資訊，例如避免未來發生問題的方法。 請不要提供說明連結，因為您可以。
@@ -652,7 +621,7 @@ Windows 程式中大部分的錯誤訊息都是使用強制回應對話方塊來
 
 **正確：**
 
-請稍候，Windows 正在將檔案複製到您的電腦。
+請稍候，Windows 將檔案複製到您的電腦。
 
 - 請 **只在錯誤訊息中使用 "抱歉" 這個字，這會導致使用者的嚴重問題** (例如，資料遺失或無法使用電腦) 。 如果程式正常運作期間發生此問題，請不要深感抱歉 (例如，如果使用者需要等候) 的網路連接。
 
@@ -664,7 +633,7 @@ Windows 程式中大部分的錯誤訊息都是使用強制回應對話方塊來
 
 **不正確：**
 
-![顯示 Microsoft Office Outlook 無法開啟此專案] 訊息的螢幕擷取畫面。 ](images/mess-error-image52.png)
+![顯示 Microsoft Office Outlook 「無法開啟此專案」訊息的螢幕擷取畫面。 ](images/mess-error-image52.png)
 
 **正確：**
 

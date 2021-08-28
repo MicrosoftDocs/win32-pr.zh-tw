@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 0a980e436dacc020a0606e6a9466492fe687ca0e
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: 62cc1183f14e3de113ff5f34eaf6367bc2ff0f9a
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122473534"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122981981"
 ---
 # <a name="io-parameters"></a>I/o 參數
 
@@ -39,7 +39,19 @@ _**適用于：** Windows |Windows伺服器_
 **注意**  由於上述重試邏輯的結果，任何附加至資料庫或使用資料庫引擎所使用之記錄檔的嘗試，都會導致此大小的延遲，然後 API 呼叫才會傳回 (合法) 失敗。 如果這是常見的案例，則可以使用這個參數來關閉該延遲。
 
 
-| | | <p>預設值：3</p> | <p>10000</p> | | <p>輸入：</p> | <p>整數</p> | | <p>有效範圍：</p> | <p>0-4294967295</p> | | <p>範圍：</p> | <p>全球</p> | | <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p>是</p> | | <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p>是</p> | | <p>會影響實體版面配置：</p> | <p>否</p> | | <p>會影響可靠性：</p> | <p>是</p> | | <p>影響效能：</p> | <p>是</p> | | <p>會影響資源：</p> | <p>否</p> | | <p>可用性：</p> | <p>Windows XP 及更新版本</p> | 
+| 標籤 | 值 |
+|--------|-------|
+| <p>預設值：3</p> | <p>10000</p> | 
+| <p>輸入：</p> | <p>整數</p> | 
+| <p>有效範圍：</p> | <p>0-4294967295</p> | 
+| <p>範圍：</p> | <p>全球</p> | 
+| <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p>Yes</p> | 
+| <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p>Yes</p> | 
+| <p>會影響實體版面配置：</p> | <p>No</p> | 
+| <p>會影響可靠性：</p> | <p>Yes</p> | 
+| <p>影響效能：</p> | <p>Yes</p> | 
+| <p>會影響資源：</p> | <p>No</p> | 
+| <p>可用性：</p> | <p>Windows XP 及更新版本</p> | 
 
 
 
@@ -49,7 +61,19 @@ _**適用于：** Windows |Windows伺服器_
 當這個參數設定為 true 時，資料庫引擎所使用之檔案系統路徑中遺失的任何資料夾都會以無訊息模式建立。 否則，使用遺失檔案系統路徑的作業將會失敗，並 JET_errInvalidPath。
 
 
-| | | <p>預設值：3</p> | <p>否</p> | | <p>輸入：</p> | <p>Boolean</p> | | <p>有效範圍：</p> | <p>False, True</p> | | <p>範圍：</p> | <p>執行個體</p> | | <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p>是</p> | | <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p>否</p> | | <p>會影響實體版面配置：</p> | <p>是</p> | | <p>會影響可靠性：</p> | <p>否</p> | | <p>影響效能：</p> | <p>否</p> | | <p>會影響資源：</p> | <p>否</p> | | <p>可用性：</p> | <p>全部</p> | 
+| 標籤 | 值 |
+|--------|-------|
+| <p>預設值：3</p> | <p>否</p> | 
+| <p>輸入：</p> | <p>Boolean</p> | 
+| <p>有效範圍：</p> | <p>False, True</p> | 
+| <p>範圍：</p> | <p>執行個體</p> | 
+| <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p>Yes</p> | 
+| <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p>No</p> | 
+| <p>會影響實體版面配置：</p> | <p>Yes</p> | 
+| <p>會影響可靠性：</p> | <p>No</p> | 
+| <p>影響效能：</p> | <p>No</p> | 
+| <p>會影響資源：</p> | <p>No</p> | 
+| <p>可用性：</p> | <p>全部</p> | 
 
 
 
@@ -61,7 +85,19 @@ _**適用于：** Windows |Windows伺服器_
 請務必注意，使用 Windows 檔案快取會為資料庫檔案新增第二個快取的分層。 資料庫快取仍會使用自己的記憶體來快取資料庫檔案。 這種模式的目的是讓應用程式使用小型專用快取來設定 database engine，並允許 Windows 捐贈備用記憶體，以進一步改善資料庫資料的快取。
 
 
-| | | <p>預設值：3</p> | <p>否</p> | | <p>輸入：</p> | <p>Boolean</p> | | <p>有效範圍：</p> | <p>False, True</p> | | <p>範圍：</p> | <p>全球</p> | | <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p>否</p> | | <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p>否</p> | | <p>會影響實體版面配置：</p> | <p>否</p> | | <p>會影響可靠性：</p> | <p>否</p> | | <p>影響效能：</p> | <p>是</p> | | <p>會影響資源：</p> | <p>是</p> | | <p>可用性：</p> | <p>WindowsVista 和更新版本</p> | 
+| 標籤 | 值 |
+|--------|-------|
+| <p>預設值：3</p> | <p>否</p> | 
+| <p>輸入：</p> | <p>Boolean</p> | 
+| <p>有效範圍：</p> | <p>False, True</p> | 
+| <p>範圍：</p> | <p>全球</p> | 
+| <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p>No</p> | 
+| <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p>No</p> | 
+| <p>會影響實體版面配置：</p> | <p>No</p> | 
+| <p>會影響可靠性：</p> | <p>No</p> | 
+| <p>影響效能：</p> | <p>Yes</p> | 
+| <p>會影響資源：</p> | <p>Yes</p> | 
+| <p>可用性：</p> | <p>WindowsVista 和更新版本</p> | 
 
 
 
@@ -73,7 +109,19 @@ _**適用于：** Windows |Windows伺服器_
 **Windows Vista：** JET_paramIOPriority 是 Windows Vista 引進。
 
 
-| | | <p>預設值：3</p> | <p>0</p> | | <p>輸入：</p> | <p>整數</p> | | <p>有效範圍：</p> | <p>0 - 1</p> | | <p>範圍：</p> | <p>執行個體</p> | | <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p>是</p> | | <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p>是</p> | | <p>會影響實體版面配置：</p> | <p>否</p> | | <p>會影響可靠性：</p> | <p>否</p> | | <p>影響效能：</p> | <p>是</p> | | <p>會影響資源：</p> | <p>否</p> | | <p>可用性：</p> | <p>Windows Vista</p> | 
+| 標籤 | 值 |
+|--------|-------|
+| <p>預設值：3</p> | <p>0</p> | 
+| <p>輸入：</p> | <p>整數</p> | 
+| <p>有效範圍：</p> | <p>0 - 1</p> | 
+| <p>範圍：</p> | <p>執行個體</p> | 
+| <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p>Yes</p> | 
+| <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p>Yes</p> | 
+| <p>會影響實體版面配置：</p> | <p>No</p> | 
+| <p>會影響可靠性：</p> | <p>No</p> | 
+| <p>影響效能：</p> | <p>Yes</p> | 
+| <p>會影響資源：</p> | <p>No</p> | 
+| <p>可用性：</p> | <p>Windows Vista</p> | 
 
 
 
@@ -87,7 +135,19 @@ _**適用于：** Windows |Windows伺服器_
 **Windows XP 和 Windows Server 2003：** Windows XP 和 Windows Server 2003 會忽略此參數，且不會影響資料庫引擎的操作。
 
 
-| | | <p>預設值：3</p> | <p><strong>Windows 2000：</strong> 64</p><p><strong>Windows Vista：</strong> 1024</p> | | <p>輸入：</p> | <p>整數</p> | | <p>有效範圍：</p> | <p><strong>Windows 2000：</strong> 8 –2147483647</p><p><strong>Windows Vista：</strong> 0-65536</p> | | <p>範圍：</p> | <p>全球</p> | | <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p>否</p> | | <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p>否</p> | | <p>會影響實體版面配置：</p> | <p>否</p> | | <p>會影響可靠性：</p> | <p>否</p> | | <p>影響效能：</p> | <p>是</p> | | <p>會影響資源：</p> | <p>是</p> | | <p>可用性：</p> | <p>全部</p> | 
+| 標籤 | 值 |
+|--------|-------|
+| <p>預設值：3</p> | <p><strong>Windows 2000：</strong> 64</p><p><strong>Windows Vista：</strong> 1024</p> | 
+| <p>輸入：</p> | <p>整數</p> | 
+| <p>有效範圍：</p> | <p><strong>Windows 2000：</strong> 8 –2147483647</p><p><strong>Windows Vista：</strong> 0-65536</p> | 
+| <p>範圍：</p> | <p>全球</p> | 
+| <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p>No</p> | 
+| <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p>No</p> | 
+| <p>會影響實體版面配置：</p> | <p>No</p> | 
+| <p>會影響可靠性：</p> | <p>No</p> | 
+| <p>影響效能：</p> | <p>Yes</p> | 
+| <p>會影響資源：</p> | <p>Yes</p> | 
+| <p>可用性：</p> | <p>全部</p> | 
 
 
 
@@ -97,7 +157,19 @@ _**適用于：** Windows |Windows伺服器_
 合併的讀取作業可分組的最大位元組數目。
 
 
-| | | <p>預設值：3</p> | <p>262144</p> | | <p>輸入：</p> | <p>整數</p> | | <p>有效範圍：</p> | <p>0-1073741824</p> | | <p>範圍：</p> | <p>全球</p> | | <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p>是</p> | | <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p>否</p> | | <p>會影響實體版面配置：</p> | <p>否</p> | | <p>會影響可靠性：</p> | <p>否</p> | | <p>影響效能：</p> | <p>是</p> | | <p>會影響資源：</p> | <p>否</p> | | <p>可用性：</p> | <p>Windows 7</p> | 
+| 標籤 | 值 |
+|--------|-------|
+| <p>預設值：3</p> | <p>262144</p> | 
+| <p>輸入：</p> | <p>整數</p> | 
+| <p>有效範圍：</p> | <p>0-1073741824</p> | 
+| <p>範圍：</p> | <p>全球</p> | 
+| <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p>Yes</p> | 
+| <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p>No</p> | 
+| <p>會影響實體版面配置：</p> | <p>No</p> | 
+| <p>會影響可靠性：</p> | <p>No</p> | 
+| <p>影響效能：</p> | <p>Yes</p> | 
+| <p>會影響資源：</p> | <p>No</p> | 
+| <p>可用性：</p> | <p>Windows 7</p> | 
 
 
 
@@ -107,7 +179,19 @@ _**適用于：** Windows |Windows伺服器_
 合併寫入作業可分組的最大位元組數目。
 
 
-| | | <p>預設值：3</p> | <p>393216</p> | | <p>輸入：</p> | <p>整數</p> | | <p>有效範圍：</p> | <p>0-1073741824</p> | | <p>範圍：</p> | <p>全球</p> | | <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p>是</p> | | <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p>否</p> | | <p>會影響實體版面配置：</p> | <p>否</p> | | <p>會影響可靠性：</p> | <p>否</p> | | <p>影響效能：</p> | <p>是</p> | | <p>會影響資源：</p> | <p>否</p> | | <p>可用性：</p> | <p>Windows 7</p> | 
+| 標籤 | 值 |
+|--------|-------|
+| <p>預設值：3</p> | <p>393216</p> | 
+| <p>輸入：</p> | <p>整數</p> | 
+| <p>有效範圍：</p> | <p>0-1073741824</p> | 
+| <p>範圍：</p> | <p>全球</p> | 
+| <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p>Yes</p> | 
+| <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p>No</p> | 
+| <p>會影響實體版面配置：</p> | <p>No</p> | 
+| <p>會影響可靠性：</p> | <p>No</p> | 
+| <p>影響效能：</p> | <p>Yes</p> | 
+| <p>會影響資源：</p> | <p>No</p> | 
+| <p>可用性：</p> | <p>Windows 7</p> | 
 
 
 
@@ -117,7 +201,19 @@ _**適用于：** Windows |Windows伺服器_
 結合的寫入 i/o 作業可能會有空隙的最大位元組數目。
 
 
-| | | <p>預設值：3</p> | <p>262144</p> | | <p>輸入：</p> | <p>整數</p> | | <p>有效範圍：</p> | <p>0-1073741824</p> | | <p>範圍：</p> | <p>全球</p> | | <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p>是</p> | | <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p>否</p> | | <p>會影響實體版面配置：</p> | <p>否</p> | | <p>會影響可靠性：</p> | <p>否</p> | | <p>影響效能：</p> | <p>是</p> | | <p>會影響資源：</p> | <p>否</p> | | <p>可用性：</p> | <p>Windows 7</p> | 
+| 標籤 | 值 |
+|--------|-------|
+| <p>預設值：3</p> | <p>262144</p> | 
+| <p>輸入：</p> | <p>整數</p> | 
+| <p>有效範圍：</p> | <p>0-1073741824</p> | 
+| <p>範圍：</p> | <p>全球</p> | 
+| <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p>Yes</p> | 
+| <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p>No</p> | 
+| <p>會影響實體版面配置：</p> | <p>No</p> | 
+| <p>會影響可靠性：</p> | <p>No</p> | 
+| <p>影響效能：</p> | <p>Yes</p> | 
+| <p>會影響資源：</p> | <p>No</p> | 
+| <p>可用性：</p> | <p>Windows 7</p> | 
 
 
 
@@ -127,14 +223,30 @@ _**適用于：** Windows |Windows伺服器_
 結合的讀取 i/o 作業可能會有空隙的最大位元組數目。
 
 
-| | | <p>預設值：3</p> | <p>393216</p> | | <p>輸入：</p> | <p>整數</p> | | <p>有效範圍：</p> | <p>0-1073741824</p> | | <p>範圍：</p> | <p>全球</p> | | <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p>是</p> | | <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p>否</p> | | <p>會影響實體版面配置：</p> | <p>否</p> | | <p>會影響可靠性：</p> | <p>否</p> | | <p>影響效能：</p> | <p>是</p> | | <p>會影響資源：</p> | <p>否</p> | | <p>可用性：</p> | <p>Windows 7</p> | 
+| 標籤 | 值 |
+|--------|-------|
+| <p>預設值：3</p> | <p>393216</p> | 
+| <p>輸入：</p> | <p>整數</p> | 
+| <p>有效範圍：</p> | <p>0-1073741824</p> | 
+| <p>範圍：</p> | <p>全球</p> | 
+| <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p>Yes</p> | 
+| <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p>No</p> | 
+| <p>會影響實體版面配置：</p> | <p>No</p> | 
+| <p>會影響可靠性：</p> | <p>No</p> | 
+| <p>影響效能：</p> | <p>Yes</p> | 
+| <p>會影響資源：</p> | <p>No</p> | 
+| <p>可用性：</p> | <p>Windows 7</p> | 
 
 
 
 ### <a name="requirements"></a>規格需求
 
 
-| | | <p><strong>用戶端</strong></p> | <p>需要 Windows Vista、Windows XP 或 Windows 2000 Professional。</p> | | <p><strong>伺服器</strong></p> | <p>需要 Windows server 2008、Windows Server 2003 或 Windows 2000 Server。</p> | | <p><strong>標頭</strong></p> | <p>宣告于 Esent. h 中。</p> | 
+| 需求 | 值 |
+|------------|----------|
+| <p><strong>用戶端</strong></p> | <p>需要 Windows Vista、Windows XP 或 Windows 2000 Professional。</p> | 
+| <p><strong>伺服器</strong></p> | <p>需要 Windows server 2008、Windows Server 2003 或 Windows 2000 Server。</p> | 
+| <p><strong>標頭</strong></p> | <p>宣告于 Esent. h 中。</p> | 
 
 
 

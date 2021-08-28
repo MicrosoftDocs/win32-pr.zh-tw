@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9math.h
-ms.openlocfilehash: ad77ea661f4d67318566079aa7c1072fe0f86c91
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 284e59d8bb0a5b6f866286d67aa8c743716e333333d6c865077ce2cfd51778a5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106997618"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120119008"
 ---
 # <a name="d3dxtodegree"></a>D3DXToDegree
 
@@ -32,7 +32,7 @@ ms.locfileid: "106997618"
 
 
 
-| 參數                                                           | Description                                              |
+| 參數                                                           | 描述                                              |
 |---------------------------------------------------------------------|----------------------------------------------------------|
 | <span id="radian"></span><span id="RADIAN"></span>弧度<br/> | 要轉換成度數的值（以弧度為單位）。<br/> |
 

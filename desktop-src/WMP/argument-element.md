@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 1f5a689b74bd18138361d9377358ddee5cf5979f
-ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
+ms.openlocfilehash: 29b0c234d2410d512e2f034f92cbc4a2d6ad7449
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "122630189"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122880264"
 ---
 # <a name="argument-element"></a>引數元素
 
@@ -66,7 +66,7 @@ ms.locfileid: "122630189"
 <thead>
 <tr class="header">
 <th>屬性值</th>
-<th>描述</th>
+<th>說明</th>
 </tr>
 </thead>
 <tbody>
@@ -78,9 +78,9 @@ ms.locfileid: "122630189"
 <td>值</td>
 <td><strong>引數</strong>元素的內容是條件字串的值部分。 例如，在條件字串 &quot; 演出者等於 joe &quot; ，值部分為 &quot; joe &quot; 。例子：<br/>
 <pre data-space="preserve"><code><fragment name = &quot;Artist&quot;>
-  <argument name = &quot;Condition&quot;>Equals</argument>
-  <argument name = &quot;Value&quot;>Joe</argument>
-</fragment></code></pre></td>
+  <argument name = &quot;Condition&quot;>Equals&lt;/argument&gt;
+  <argument name = &quot;Value&quot;>Joe&lt;/argument&gt;
+&lt;/fragment&gt;</code></pre></td>
 </tr>
 </tbody>
 </table>
@@ -113,14 +113,14 @@ ms.locfileid: "122630189"
 <td>數字</td>
 <td><strong>引數</strong>元素的內容是一個數位，可限制播放清單的大小或持續時間。例子：<br/>
 <pre data-space="preserve"><code><fragment name = &quot;Limit Total Size To&quot;>
-  <argument name = &quot;Format&quot;>Megabytes</argument>
-  <argument name = &quot;Number&quot;>5</argument>
-</fragment>
+  <argument name = &quot;Format&quot;>Megabytes&lt;/argument&gt;
+  <argument name = &quot;Number&quot;>5&lt;/argument&gt;
+&lt;/fragment&gt;
 
 <fragment name = &quot;Limit Total Duration To&quot;>
-  <argument name = &quot;Format&quot;>Minutes</argument>
-  <argument name = &quot;Number&quot;>20</argument>
-</fragment></code></pre></td>
+  <argument name = &quot;Format&quot;>Minutes&lt;/argument&gt;
+  <argument name = &quot;Number&quot;>20&lt;/argument&gt;
+&lt;/fragment&gt;</code></pre></td>
 </tr>
 </tbody>
 </table>
@@ -141,7 +141,7 @@ ms.locfileid: "122630189"
 <thead>
 <tr class="header">
 <th>屬性值</th>
-<th>描述</th>
+<th>說明</th>
 </tr>
 </thead>
 <tbody>
@@ -149,8 +149,8 @@ ms.locfileid: "122630189"
 <td>數字</td>
 <td><strong>引數</strong>元素的內容是一個數位，可限制播放清單中的專案數。例子：<br/>
 <pre data-space="preserve"><code><fragment name = &quot;Limit Number of Items&quot;>
-  <argument name = &quot;Number&quot;>15</argument>
-</fragment></code></pre></td>
+  <argument name = &quot;Number&quot;>15&lt;/argument&gt;
+&lt;/fragment&gt;</code></pre></td>
 </tr>
 </tbody>
 </table>

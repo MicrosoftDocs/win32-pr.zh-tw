@@ -4,12 +4,12 @@ description: 覆寫經常變更的屬性時請務必小心，特別是在 New-wi
 ms.assetid: 2505d015-9381-4e1c-a10f-6db3fbb25ca3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 04a8849c66cb0067b63be1c846e9e140ae06f4b6
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 753a17498daf9966ed1c3dfa98dc64fbdb2290011842c4fe9c194f50bf408ee1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104375812"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120098508"
 ---
 # <a name="annotation-properties-that-have-corresponding-winevents"></a>具有對應 WinEvents 的注釋屬性
 
@@ -19,6 +19,6 @@ ms.locfileid: "104375812"
 
 您可以使用 [**SetPropServer**](/windows/desktop/api/Oleacc/nf-oleacc-iaccpropservices-setpropserver))  (的回呼伺服器物件來處理這些類型的屬性;但是，伺服器無法使用在 WM 通知處理常式中更新的任何狀態， \_ 因為尚未呼叫該處理常式。 例如，不使用在 WM 通知處理常式中更新且即將過期的快取目前值變數， \_ [**IAccPropServer：： GetPropValue**](/windows/desktop/api/Oleacc/nf-oleacc-iaccpropserver-getpropvalue) 回呼物件應該會直接將訊息傳送至控制項，以取得其真正的目前值以產生必要的屬性。
 
- 
+ 
 
- 
+ 

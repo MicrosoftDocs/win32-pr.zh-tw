@@ -59,12 +59,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: a8a81d5e1503c868865f1f1fae7238be74f024c1bd1c992f5610ce75b5702ab6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7e35ebd6000dfae5e99c4b589f4c0a62e84f1e1d
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119531780"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122880916"
 ---
 # <a name="msvm_computersystem-class"></a>Msvm 的 it \_ 類別
 
@@ -141,7 +141,7 @@ class Msvm_ComputerSystem : CIM_ComputerSystem
 
 
 
-| 方法                                                                                         | 描述                                                                                                                                                                                                                                                                                                                         |
+| 方法                                                                                         | 說明                                                                                                                                                                                                                                                                                                                         |
 |:-----------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**InjectNonMaskableInterrupt**](injectnonmaskableinterrupt-msvm-computersystem.md)           | 將非遮罩式插斷插入虛擬機器中。 只有代表虛擬機器的 Msvm 同機類別 **\_** 實例才支援這個方法。<br/> **Windows 8.1：** 在 Windows 8.1 和 Windows Server 2012 R2 之前，不支援這個方法。<br/>                                    |
 | [**RequestReplicationStateChange**](msvm-computersystem-requestreplicationstatechange.md)     | 要求將虛擬機器的複寫狀態變更為指定的值。 只有代表虛擬機器的 Msvm 同機類別 **\_** 實例才支援這個方法。<br/>                                                                                                        |
@@ -558,7 +558,7 @@ Hyper-v WMI 提供者會在每次 **Msvm \_** 系統類型的 **EnhancedSessionM
 
 | 屬性名稱  | Windows 8 值               | Windows 8.1 值                          |
 |----------------|-------------------------------|--------------------------------------------|
-| **InstanceID** | Microsoft： <vmguid> \\ HVR | Microsoft： <vmguid> \\ HVR \\<0/1> |
+| **InstanceID** | Microsoft： &lt; vmguid &gt; \\ HVR | Microsoft： &lt; vmguid &gt; \\ HVR \\<0/1> |
 
 
 
@@ -676,7 +676,7 @@ Hyper-v WMI 提供者會在每次 **Msvm \_** 系統類型的 **EnhancedSessionM
 
 </dd> <dt>
 
-**名稱**
+名稱
 </dt> <dd> <dl> <dt>
 
 資料類型： **字串**

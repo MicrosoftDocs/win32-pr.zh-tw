@@ -4,12 +4,12 @@ description: 用戶端電腦上的遠端存取連線管理員服務，會將使�
 ms.assetid: b27bf520-d871-4314-8ed9-3a6a9583ab52
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f0cb95d0e941c47deb398c03277013e0e0a35f9d
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: f347cd9f42106619f2558bdcbc677c961b4fae749912c92dd32ac2c8096f6fd7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103842367"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120127808"
 ---
 # <a name="user-authentication-information"></a>使用者驗證資訊
 
@@ -17,6 +17,6 @@ ms.locfileid: "103842367"
 
 如果遠端伺服器無法以指定的資訊驗證使用者，則可以允許線上作業進入 [暫停狀態](paused-states.md) ，讓 RAS 用戶端向使用者收集不同的驗證資料。
 
- 
+ 
 
- 
+ 

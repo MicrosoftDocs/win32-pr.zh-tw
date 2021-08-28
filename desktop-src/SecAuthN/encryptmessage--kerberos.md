@@ -4,12 +4,12 @@ ms.assetid: b9b6ca95-b986-4de7-bd28-994a5125ad05
 title: EncryptMessage (Kerberos) 函數
 ms.topic: reference
 ms.date: 07/25/2019
-ms.openlocfilehash: 52ca8fd4d0806db717ae29bdd959e472d72f74ca812e93bcaf3929a488dd4fab
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 89c6504fe8518e1c43d155ebce638dec1acfeb80
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119008336"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122476214"
 ---
 # <a name="encryptmessage-kerberos-function"></a>EncryptMessage (Kerberos) 函數
 
@@ -47,8 +47,11 @@ SECURITY_STATUS SEC_Entry EncryptMessage(
 
 此參數可以是下列旗標。
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th>值</th><th>意義</th></tr></thead><tbody><tr class="odd"><td><span id="SECQOP_WRAP_NO_ENCRYPT"></span><span id="secqop_wrap_no_encrypt"></span><dl> <dt><strong>SECQOP_WRAP_NO_ENCRYPT</strong></dt> </dl></td><td>產生標頭或結尾，但不加密訊息。<br/><blockquote>[!Note]<br />
-KERB_WRAP_NO_ENCRYPT 具有相同的值和相同的意義。</blockquote><br/></td></tr></tbody></table>
+
+| 值 | 意義 | 
+|-------|---------|
+| <span id="SECQOP_WRAP_NO_ENCRYPT"></span><span id="secqop_wrap_no_encrypt"></span><dl><dt><strong>SECQOP_WRAP_NO_ENCRYPT</strong></dt></dl> | 產生標頭或結尾，但不加密訊息。<br /><blockquote>[!Note]<br />KERB_WRAP_NO_ENCRYPT 具有相同的值和相同的意義。</blockquote><br /> | 
+
 
 </dd> <dt>
 
@@ -78,7 +81,7 @@ KERB_WRAP_NO_ENCRYPT 具有相同的值和相同的意義。</blockquote><br/></
 
 如果函式失敗，則會傳回下列其中一個錯誤碼。
 
-| 傳回碼                                                                                                    | 描述                                                                                                                                                                                                                                   |
+| 傳回碼                                                                                                    | Description                                                                                                                                                                                                                                   |
 |----------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**SEC \_ E \_ 緩衝區 \_ 太 \_ 小**</dt> </dl>      | 輸出緩衝區太小。 如需詳細資訊，請參閱＜備註＞。                                                                                                                                                                 |
 | <dl> <dt>**SEC \_ E \_ 內容已 \_ 過期**</dt> </dl>        | 應用程式參考的內容已關閉。 正確撰寫的應用程式應該不會收到此錯誤。                                                                                               |
@@ -97,7 +100,7 @@ KERB_WRAP_NO_ENCRYPT 具有相同的值和相同的意義。</blockquote><br/></
 > [!Note]  
 > 您必須依照顯示的順序提供這些緩衝區。
 
-| 緩衝區類型                           | 描述                                                                                                                    |
+| 緩衝區類型                           | Description                                                                                                                    |
 |---------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|
 | 之 SECBUFFER \_ 資料流程 \_ 標頭<  | 內部使用。 不需要初始化。                                                                       |
 | 之 SECBUFFER \_ 資料            | 包含要加密的 [*純文字*](../secgloss/s-gly.md) 訊息。 |

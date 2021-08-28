@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Root\CIMV2\Security\MicrosoftVolumeEncryption
-ms.openlocfilehash: 44fde17ee8e7d4d7bacd5c63743af045f89e16f840c193df8d883a5c80111659
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 66fcbcfc4c5f228fde786a6b9d8913cc69c0d341
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118891870"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122471504"
 ---
 # <a name="getprotectionstatus-method-of-the-win32_encryptablevolume-class"></a>Win32 EncryptableVolume 類別的 GetProtectionStatus 方法 \_
 
@@ -50,44 +50,13 @@ uint32 GetProtectionStatus(
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>值</th>
-<th>意義</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><span id="Unprotected"></span><span id="unprotected"></span><span id="UNPROTECTED"></span><dl> 未<dt><strong>受保護</strong></dt>的<dt>0</dt> </dl></td>
-<td>關閉保護<br/> 針對標準 HDD：<br/> 磁片區未加密、部分加密，或磁片區的加密金鑰在硬碟上是以純文字形式提供。 如果已使用 <a href="disablekeyprotectors-win32-encryptablevolume.md"><strong>DisableKeyProtectors</strong></a> 方法停用金鑰保護裝置，或未使用下列方法指定金鑰保護裝置，則會在硬碟上以純文字方式使用加密金鑰：
-<ul>
-<li><a href="protectkeywithcertificatefile-win32-encryptablevolume.md"><strong>ProtectKeyWithCertificateFile</strong></a></li>
-<li><a href="protectkeywithcertificatethumbprint-win32-encryptablevolume.md"><strong>ProtectKeyWithCertificateThumbprint</strong></a></li>
-<li><a href="protectkeywithexternalkey-win32-encryptablevolume.md"><strong>ProtectKeyWithExternalKey</strong></a></li>
-<li><a href="protectkeywithnumericalpassword-win32-encryptablevolume.md"><strong>ProtectKeyWithNumericalPassword</strong></a></li>
-<li><a href="protectkeywithpassphrase-win32-encryptablevolume.md"><strong>ProtectKeyWithPassphrase</strong></a></li>
-<li><a href="protectkeywithtpm-win32-encryptablevolume.md"><strong>ProtectKeyWithTPM</strong></a></li>
-<li><a href="protectkeywithtpmandpin-win32-encryptablevolume.md"><strong>ProtectKeyWithTPMAndPIN</strong></a></li>
-<li><a href="protectkeywithtpmandpinandstartupkey-win32-encryptablevolume.md"><strong>ProtectKeyWithTPMAndPINAndStartupKey</strong></a></li>
-<li><a href="protectkeywithtpmandstartupkey-win32-encryptablevolume.md"><strong>ProtectKeyWithTPMAndStartupKey</strong></a></li>
-</ul>
-<br/> 針對 EHDD：<br/> 磁片區的頻外永久解除鎖定、沒有金鑰管理員，或由協力廠商金鑰管理員管理。<br/> 這也可能表示該波段是由 BitLocker 管理，但已呼叫 <a href="disablekeyprotectors-win32-encryptablevolume.md"><strong>DisableKeyProtectors</strong></a> 方法，而磁片磁碟機已被擱置。<br/></td>
-</tr>
-<tr class="even">
-<td><span id="Protected"></span><span id="protected"></span><span id="PROTECTED"></span><dl> <dt><strong>受保護</strong></dt>的 <dt>1</dt> </dl></td>
-<td>保護<br/> 針對標準 HDD：<br/> 磁片區已完全加密，而且磁片區的加密金鑰在硬碟上無法使用。<br/> 針對 EHDD：<br/> BitLocker 是此寬線的金鑰管理員。 磁片磁碟機可以鎖定或解除鎖定，但無法永久解除鎖定。<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="Unknown"></span><span id="unknown"></span><span id="UNKNOWN"></span><dl> <dt><strong>未知</strong></dt>的 <dt>2</dt> </dl></td>
-<td>無法判斷磁片區保護狀態。 這可能是因為磁片區處於鎖定狀態。<br/> <strong>Windows vista 旗艦版、Windows vista Enterprise 和 Windows Server 2008：</strong>不支援這個值。 從 Windows 7 和 Windows Server 2008 R2 開始支援此值。<br/></td>
-</tr>
-</tbody>
-</table>
+
+| 值 | 意義 | 
+|-------|---------|
+| <span id="Unprotected"></span><span id="unprotected"></span><span id="UNPROTECTED"></span><dl>未<dt><strong>受保護</strong></dt>的<dt>0</dt></dl> | 關閉保護<br /> 針對標準 HDD：<br /> 磁片區未加密、部分加密，或磁片區的加密金鑰在硬碟上是以純文字形式提供。 如果已使用 <a href="disablekeyprotectors-win32-encryptablevolume.md"><strong>DisableKeyProtectors</strong></a> 方法停用金鑰保護裝置，或未使用下列方法指定金鑰保護裝置，則會在硬碟上以純文字方式使用加密金鑰：<ul><li><a href="protectkeywithcertificatefile-win32-encryptablevolume.md"><strong>ProtectKeyWithCertificateFile</strong></a></li><li><a href="protectkeywithcertificatethumbprint-win32-encryptablevolume.md"><strong>ProtectKeyWithCertificateThumbprint</strong></a></li><li><a href="protectkeywithexternalkey-win32-encryptablevolume.md"><strong>ProtectKeyWithExternalKey</strong></a></li><li><a href="protectkeywithnumericalpassword-win32-encryptablevolume.md"><strong>ProtectKeyWithNumericalPassword</strong></a></li><li><a href="protectkeywithpassphrase-win32-encryptablevolume.md"><strong>ProtectKeyWithPassphrase</strong></a></li><li><a href="protectkeywithtpm-win32-encryptablevolume.md"><strong>ProtectKeyWithTPM</strong></a></li><li><a href="protectkeywithtpmandpin-win32-encryptablevolume.md"><strong>ProtectKeyWithTPMAndPIN</strong></a></li><li><a href="protectkeywithtpmandpinandstartupkey-win32-encryptablevolume.md"><strong>ProtectKeyWithTPMAndPINAndStartupKey</strong></a></li><li><a href="protectkeywithtpmandstartupkey-win32-encryptablevolume.md"><strong>ProtectKeyWithTPMAndStartupKey</strong></a></li></ul><br /> 針對 EHDD：<br /> 磁片區的頻外永久解除鎖定、沒有金鑰管理員，或由協力廠商金鑰管理員管理。<br /> 這也可能表示該波段是由 BitLocker 管理，但已呼叫 <a href="disablekeyprotectors-win32-encryptablevolume.md"><strong>DisableKeyProtectors</strong></a> 方法，而磁片磁碟機已被擱置。<br /> | 
+| <span id="Protected"></span><span id="protected"></span><span id="PROTECTED"></span><dl><dt><strong>受保護</strong></dt>的<dt>1</dt></dl> | 保護<br /> 針對標準 HDD：<br /> 磁片區已完全加密，而且磁片區的加密金鑰在硬碟上無法使用。<br /> 針對 EHDD：<br /> BitLocker 是此寬線的金鑰管理員。 磁片磁碟機可以鎖定或解除鎖定，但無法永久解除鎖定。<br /> | 
+| <span id="Unknown"></span><span id="unknown"></span><span id="UNKNOWN"></span><dl><dt><strong>未知</strong></dt>的<dt>2</dt></dl> | 無法判斷磁片區保護狀態。 這可能是因為磁片區處於鎖定狀態。<br /><strong>Windows vista 旗艦版、Windows vista Enterprise 和 Windows Server 2008：</strong>不支援這個值。 從 Windows 7 和 Windows Server 2008 R2 開始支援此值。<br /> | 
+
 
 
 

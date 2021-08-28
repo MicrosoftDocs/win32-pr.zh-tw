@@ -1,19 +1,19 @@
 ---
-description: 選擇性 <scope> 元素會指定專案的集合 <scopeItem> ，這些專案會定義此特定搜尋連接器的範圍包含與排除專案。
+description: 選擇性 &lt; 範圍 &gt; 元素會指定 scopeItem 專案的 &lt; 集合 &gt; ，這些專案會定義此特定搜尋連接器的範圍包含與排除專案。
 ms.assetid: 9e92e3db-3d5e-4f86-8d67-90eb5469b04b
 title: '範圍元素 (搜尋連接器架構) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3f49041170db80de48d312596249d5c4dca835e8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 80c011eee8def80a7f1d395a7a52a72d30fb4935
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971178"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122886694"
 ---
 # <a name="scope-element-search-connector-schema"></a>範圍元素 (搜尋連接器架構) 
 
-選擇性 <scope> 元素會指定專案的集合 <scopeItem> ，這些專案會定義此特定搜尋連接器的範圍包含與排除專案。 如果 <scope> 存在，則必須包含至少一個 <scopeItem> 元素。 這個元素沒有屬性。
+選擇性 &lt; 範圍 &gt; 元素會指定 scopeItem 專案的 &lt; 集合 &gt; ，這些專案會定義此特定搜尋連接器的範圍包含與排除專案。 如果 &lt; 範圍 &gt; 存在，則必須包含至少一個 &lt; scopeItem &gt; 元素。 這個元素沒有屬性。
 
 ## <a name="syntax"></a>Syntax
 
@@ -55,7 +55,7 @@ ms.locfileid: "106971178"
 
 ## <a name="remarks"></a>備註
 
-您 <scope> 可以使用和專案 <scopeItem> 來識別應該搜尋的位置，以及要從搜尋中排除哪些位置。
+使用 &lt; 範圍 &gt; 和 scopeItem &lt; 專案 &gt; 來識別應該搜尋的位置，以及要從搜尋中排除哪些位置。
 
 ## <a name="example"></a>範例
 

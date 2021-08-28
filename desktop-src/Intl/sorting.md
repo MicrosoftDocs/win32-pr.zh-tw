@@ -4,12 +4,12 @@ ms.assetid: 8ca3af60-1ddb-4bfb-8aa6-8db769b3982d
 title: '排序 (國際化) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f49a5abb8371a00ad9ee63f929b4aaf4b18b11be
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f3dbedf872c953a45ca7064eccd4ba16019a857c35186261695e094be03cd054
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104195289"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120130208"
 ---
 # <a name="sorting"></a>排序
 

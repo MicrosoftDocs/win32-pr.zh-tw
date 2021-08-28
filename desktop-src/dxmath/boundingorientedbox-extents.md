@@ -4,12 +4,12 @@ ms.assetid: ee7d7b7f-9c9c-4da9-8a88-b69dc7e8a004
 title: 'BoundingOrientedBox (DirectXCollision 的範圍) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a901400a09511206717b6df21a638bf0c119d70
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ba62227a7109450b0aec7b00917491290f9d962b06752cad61cd0f767b90d5b2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994648"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120117668"
 ---
 # <a name="boundingorientedboxextents"></a>BoundingOrientedBox 範圍
 
@@ -27,7 +27,7 @@ public:
 
 ### <a name="platform-requirements"></a>平台需求
 
-Microsoft Visual Studio 2010 或 Microsoft Visual Studio 2012 搭配 Windows 8 的 Windows SDK。 Win32 桌面應用程式、Windows Store 應用程式和 Windows Phone 8 應用程式均可支援。
+Microsoft Visual Studio 2010 或 Microsoft Visual Studio 2012 搭配 Windows 8 的 Windows SDK。 支援 Win32 傳統型應用程式、Windows 儲存應用程式，以及 Windows Phone 8 個應用程式。
 
 ## <a name="requirements"></a>規格需求
 

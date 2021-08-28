@@ -4,12 +4,12 @@ description: 下列範例程式碼使用 EnumProcesses 函式來列舉系統中�
 ms.assetid: 0ed81548-4936-40e9-bfc8-baa71492310e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 89798ed3d2d7e44f014d95833302edb5d5be078daf557eed32d3496c863539e9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ea7f0091ee42da39990eae00b135283d288acc4f
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117681005"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122885674"
 ---
 # <a name="enumerating-all-processes"></a>列舉所有進程
 
@@ -94,7 +94,7 @@ int main( void )
 
 
 
-Main 函式會使用 [**EnumProcesses**](/windows/desktop/api/Psapi/nf-psapi-enumprocesses) 函數取得處理常式清單。 Main 會針對每個進程呼叫 **PrintProcessNameAndID** 函式，並將處理序識別碼傳遞給它。 接著， **PrintProcessNameAndID** 會呼叫 [**OpenProcess**](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-openprocess)函式，以取得處理控制碼。 如果 **OpenProcess** 失敗，輸出會將進程名稱顯示為 <unknown> 。 例如，閒置和 CSRSS 程式的 **OpenProcess** 會失敗，因為其存取限制會防止使用者層級的程式碼開啟這些處理常式。 接下來， **PrintProcessNameAndID** 會呼叫 [**EnumProcessModules**](/windows/desktop/api/Psapi/nf-psapi-enumprocessmodules) 函數來取得模組控制碼。 最後， **PrintProcessNameAndID** 會呼叫 [**GetModuleBaseName**](/windows/desktop/api/Psapi/nf-psapi-getmodulebasenamea) 函式以取得可執行檔的名稱，並顯示名稱和處理序識別碼。
+Main 函式會使用 [**EnumProcesses**](/windows/desktop/api/Psapi/nf-psapi-enumprocesses) 函數取得處理常式清單。 Main 會針對每個進程呼叫 **PrintProcessNameAndID** 函式，並將處理序識別碼傳遞給它。 接著， **PrintProcessNameAndID** 會呼叫 [**OpenProcess**](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-openprocess)函式，以取得處理控制碼。 如果 **OpenProcess** 失敗，輸出會將進程名稱顯示為 &lt; 未知 &gt; 。 例如，閒置和 CSRSS 程式的 **OpenProcess** 會失敗，因為其存取限制會防止使用者層級的程式碼開啟這些處理常式。 接下來， **PrintProcessNameAndID** 會呼叫 [**EnumProcessModules**](/windows/desktop/api/Psapi/nf-psapi-enumprocessmodules) 函數來取得模組控制碼。 最後， **PrintProcessNameAndID** 會呼叫 [**GetModuleBaseName**](/windows/desktop/api/Psapi/nf-psapi-getmodulebasenamea) 函式以取得可執行檔的名稱，並顯示名稱和處理序識別碼。
 
  
 

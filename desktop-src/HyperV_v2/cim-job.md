@@ -34,12 +34,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 6b59a162d36ee677ad00c8cc574282f970bc1d80
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8eb8f63ec9d2cdd881a2ba0946f83a40fb8be866
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944772"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122474584"
 ---
 # <a name="cim_job-class-hyper-v-management"></a>CIM_Job 類別 (Hyper-v 管理) 
 
@@ -88,29 +88,11 @@ class CIM_Job : CIM_LogicalElement
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">方法</th>
-<th style="text-align: left;">描述</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><a href="cim-job-killjob.md"><strong>KillJob</strong></a></td>
-<td style="text-align: left;">此方法已被取代。 請改用 <strong>RequestStateChange</strong> 方法。<br/>
-<blockquote>
-[!Note]<br />
-已淘汰的描述：關閉作業。
-</blockquote>
-<br/></td>
-</tr>
-</tbody>
-</table>
+
+| 方法 | 描述 | 
+|--------|-------------|
+| <a href="cim-job-killjob.md"><strong>KillJob</strong></a> | 此方法已被取代。 請改用 <strong>RequestStateChange</strong> 方法。<br /><blockquote>[!Note]<br />已淘汰的描述：關閉作業。</blockquote><br /> | 
+
 
 
 

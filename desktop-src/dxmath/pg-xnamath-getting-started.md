@@ -4,12 +4,12 @@ description: DirectXMath 程式庫會針對單精確度浮點數向量（ (2D、
 ms.assetid: 9972e382-7a0f-88a7-ad44-18521af3520d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 05e599acfc498e28b33acfc5bbbba2bea5669d2a
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 5ad7de99a462dc533d8010c45dfadcb1bcfa1b6f33317a941e91c16f30c3d2c5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "104321384"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120117498"
 ---
 # <a name="getting-started-directxmath"></a>開始 (DirectXMath) 
 
@@ -40,7 +40,7 @@ DirectXMath 程式庫會針對單精確度浮點數向量（ (2D、3D 和 4D) �
 
 ## <a name="download"></a>下載
 
-DirectXMath 程式庫包含在 Windows SDK 中。 或者，您也可以從 [GitHub/Microsoft/DirectXMath](https://github.com/Microsoft/DirectXMath)下載。 此網站也包含相關的範例專案。
+DirectXMath 程式庫包含在 Windows SDK 中。 或者，您也可以從[GitHub/Microsoft/DirectXMath](https://github.com/Microsoft/DirectXMath)下載它。 此網站也包含相關的範例專案。
 
 ## <a name="run-time-system-requirements"></a>Run-Time 系統需求
 
@@ -77,7 +77,7 @@ DirectXMath 使用資料列主要矩陣、資料列向量和預先相乘。 Hand
 
 ## <a name="basic-usage"></a>基本使用方式
 
-若要使用 DirectXMath 程式庫函式，請包含 DirectXMath .h、DirectXPackedVector .h、DirectXColors .h 及/或 DirectXCollision .h 標頭。 您可以在 Windows Store 應用程式的 Windows 軟體開發套件中找到這些標頭。
+若要使用 DirectXMath 程式庫函式，請包含 DirectXMath .h、DirectXPackedVector .h、DirectXColors .h 及/或 DirectXCollision .h 標頭。 這些標頭可在 Windows Store 應用程式的 Windows 軟體開發套件中找到。
 
 ## <a name="type-usage-guidelines"></a>類型使用指導方針
 
@@ -92,7 +92,7 @@ DirectXMath 使用資料列主要矩陣、資料列向量和預先相乘。 Hand
 
  
 
-不過，通常更容易且更精簡，以避免直接在類別或結構中使用 [**XMVECTOR**](xmvector-data-type.md) 或 [**XMMATRIX**](/windows/win32/api/directxmath/ns-directxmath-xmmatrix) 。 相反地，請使用 [**XMFLOAT3**](/windows/win32/api/directxmath/ns-directxmath-xmfloat3)、 [**XMFLOAT4**](/windows/win32/api/directxmath/ns-directxmath-xmfloat4)、 [**XMFLOAT4X3**](/windows/win32/api/directxmath/ns-directxmath-xmfloat4x3)、 [**XMFLOAT4X4**](/windows/win32/api/directxmath/ns-directxmath-xmfloat4x4)等作為結構的成員。 此外，您可以使用 [向量載入](ovw-xnamath-reference-functions-load.md) 和 [向量儲存](ovw-xnamath-reference-functions-storage.md) 函式，將資料有效率地移至 **XMVECTOR** 或 **XMMATRIX** 區域變數，執行計算並儲存結果。 另外還有串流處理函式 ([**XMVector3TransformStream**](/windows/win32/api/directxmath/nf-directxmath-xmvector3transformstream)、 [**XMVector4TransformStream**](/windows/win32/api/directxmath/nf-directxmath-xmvector4transformstream)等，在這些資料類型的陣列上有效率地直接操作的) 。
+不過，通常更容易且更精簡，以避免直接在類別或結構中使用 [**XMVECTOR**](xmvector-data-type.md) 或 [**XMMATRIX**](/windows/win32/api/directxmath/ns-directxmath-xmmatrix) 。 相反地，請使用 [**XMFLOAT3**](/windows/win32/api/directxmath/ns-directxmath-xmfloat3)、 [**XMFLOAT4**](/windows/win32/api/directxmath/ns-directxmath-xmfloat4)、 [**XMFLOAT4X3**](/windows/win32/api/directxmath/ns-directxmath-xmfloat4x3)、 [**XMFLOAT4X4**](/windows/win32/api/directxmath/ns-directxmath-xmfloat4x4)等作為結構的成員。 此外，您可以使用 [向量載入](ovw-xnamath-reference-functions-load.md)和 [向量儲存體](ovw-xnamath-reference-functions-storage.md)函式，將資料有效率地移至 **XMVECTOR** 或 **XMMATRIX** 區域變數，執行計算並儲存結果。 另外還有串流處理函式 ([**XMVector3TransformStream**](/windows/win32/api/directxmath/nf-directxmath-xmvector3transformstream)、 [**XMVector4TransformStream**](/windows/win32/api/directxmath/nf-directxmath-xmvector4transformstream)等，在這些資料類型的陣列上有效率地直接操作的) 。
 
 ## <a name="creating-vectors"></a>建立向量
 

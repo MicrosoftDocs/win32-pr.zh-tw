@@ -1,6 +1,6 @@
 ---
 title: AUTHOR 元素
-description: AUTHOR 元素包含 Windows Media 中繼檔或媒體剪輯的作者名稱。
+description: author 元素包含 Windows 媒體中繼檔或媒體剪輯的作者名稱。
 ms.assetid: d80aad3d-4471-4310-8d43-2733ed83103c
 keywords:
 - AUTHOR 元素 Windows Media Player
@@ -13,16 +13,16 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 9d20498ebd7c8a56edc2e32bc2e76422c9b22242
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 058753d73049debe01e442f49bf12476642111549ad890e931100026badaeb3d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995623"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120098888"
 ---
 # <a name="author-element"></a>AUTHOR 元素
 
-**Author** 元素包含 Windows Media 中繼檔或媒體剪輯的作者名稱。
+**author** 元素包含 Windows 媒體中繼檔或媒體剪輯的作者名稱。
 
 ``` syntax
 <AUTHOR>   
@@ -49,7 +49,7 @@ ms.locfileid: "106995623"
 
 ## <a name="remarks"></a>備註
 
-這個元素包含一個文字字串，代表 Windows Media 中繼檔或媒體剪輯的作者名稱。 您可以使用 **ASX** 元素內的 AUTHOR 元素，以及 **專案專案** 內的 **AUTHOR** 專案。
+這個元素包含代表 Windows 媒體中繼檔或媒體剪輯之作者名稱的文字字串。 您可以使用 **ASX** 元素內的 AUTHOR 元素，以及 **專案專案** 內的 **AUTHOR** 專案。
 
 如果此元素出現在 **ASX** 專案中，則文字會顯示為 [ **顯示** 資訊]。
 
@@ -87,10 +87,10 @@ ms.locfileid: "106995623"
 
 <dl> <dt>
 
-[**Windows Media 中繼檔元素參考**](windows-media-metafile-elements-reference.md)
+[**Windows媒體中繼檔元素參考**](windows-media-metafile-elements-reference.md)
 </dt> <dt>
 
-[**Windows Media 中繼檔參考**](windows-media-metafile-reference.md)
+[**Windows媒體中繼檔參考**](windows-media-metafile-reference.md)
 </dt> </dl>
 
  

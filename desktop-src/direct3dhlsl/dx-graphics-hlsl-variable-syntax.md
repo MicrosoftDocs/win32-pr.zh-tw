@@ -18,12 +18,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 446444e09b0b6aff3e0ba8ca8b12cfbf6dc94128
-ms.sourcegitcommit: adba238660d8a5f4fe98fc6f5d105d56aac3a400
+ms.openlocfilehash: 0ce89287d969683b72eb6db6d352300ce5295852
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "111826066"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122481164"
 ---
 # <a name="variable-syntax"></a>語法變數
 
@@ -39,82 +39,25 @@ ms.locfileid: "111826066"
 
 <dl> <dt>
 
-<span id="Storage_Class_"></span><span id="storage_class_"></span><span id="STORAGE_CLASS_"></span>*儲存 \_ 類別* 
+<span id="Storage_Class_"></span><span id="storage_class_"></span><span id="STORAGE_CLASS_"></span>*儲存體 \_類* 
 </dt> <dd>
 
 選擇性的儲存類別修飾詞，可提供關於變數範圍和存留期的編譯器提示;您可以依任何順序指定修飾詞。
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>值</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>extern</strong></td>
-<td>將全域變數標示為著色器的外部輸入;這是所有全域變數的預設標記。 無法與 <strong>static</strong>合併。</td>
-</tr>
-<tr class="even">
-<td><strong>nointerpolation</strong></td>
-<td>在將端點著色器傳遞給圖元著色器之前，請勿先插補其輸出。</td>
-</tr>
-<tr class="odd">
-<td><strong>精確</strong></td>
-<td>套用至變數的 <strong>精確</strong> 關鍵字會限制任何用來產生以下列方式指派給該變數之值的計算：
 
-*   個別的作業會分開保存。 例如，mul 和 add 作業可能已融合到 mad 作業中， <strong>精確</strong> 地強制操作保持獨立。 相反地，您必須明確地使用 mad 內建函式。
-*   維護作業的順序。 其中的指令順序可能已隨機放置，以改善效能， <strong>精確</strong> 地確保編譯器會保留所寫入的順序。
-*   不受限於 IEEE unsafe 作業。 編譯器可能會使用的快速數學運算不會將其用於 NaN (而不是) ，而 INF (無限) 值的情況下，會 <strong>精確</strong> 地強制遵循與 NAN 和 inf 值有關的 IEEE 需求。 如果沒有 <strong>精確</strong>，則這些優化和數學運算不是 IEEE 安全的。
-*   <strong>精確</strong>地限定變數並不會讓使用變數<strong>精確</strong>的作業。 由於 <strong>精確</strong> 地只會傳播至參與指派給 <strong>精確</strong>變數之值的作業，所以正確地 <strong>精確</strong> 地計算所需的計算可能會很困難，因此我們建議您在宣告著色器時 <strong>，直接將</strong> 著色器輸出標記為明確地，不論是在結構欄位上，或是在輸入函式的傳回型別上。
+| 值 | 描述 | 
+|-------|-------------|
+| <strong>extern</strong> | 將全域變數標示為著色器的外部輸入;這是所有全域變數的預設標記。 無法與 <strong>static</strong>合併。 | 
+| <strong>nointerpolation</strong> | 在將端點著色器傳遞給圖元著色器之前，請勿先插補其輸出。 | 
+| <strong>精確</strong> | 套用至變數的 <strong>精確</strong> 關鍵字會限制任何用來產生以下列方式指派給該變數之值的計算： * 不同的作業會分開保存。 例如，mul 和 add 作業可能已融合到 mad 作業中， <strong>精確</strong> 地強制操作保持獨立。 相反地，您必須明確地使用 mad 內建函式。 * 會維護作業的順序。 其中的指令順序可能已隨機進行，以改善效能， <strong>精確</strong> 地確保編譯器會保留寫入的順序。 * 不限制 IEEE unsafe 作業。 編譯器可能會使用的快速數學運算不會將其用於 NaN (而不是) ，而 INF (無限) 值的情況下，會 <strong>精確</strong> 地強制遵循與 NAN 和 inf 值有關的 IEEE 需求。 如果沒有 <strong>精確</strong>，則這些優化和數學運算並不是 IEEE 安全的。 * 若要 <strong>精確</strong> 地限定變數，則不會產生使用變數 <strong>精確</strong>的作業。 由於 <strong>精確</strong> 地只會傳播至參與指派給 <strong>精確</strong>變數之值的作業，所以正確地 <strong>精確</strong> 地計算所需的計算可能會很困難，因此我們建議您在宣告著色器時 <strong>，直接將</strong> 著色器輸出標記為明確地，不論是在結構欄位上，或是在輸入函式的傳回型別上。以這種方式控制優化的能力，會藉由停用可能會影響最終結果的優化（因為累積的精確度差異差異），來維持已修改之輸出變數的結果 invariance。 當您想要讓鑲嵌式的著色器維持水緊密的 patch 接縫，或比對多個行程的深度值時，它會很有用。[範例程式碼](https://github.com/microsoft/DirectXShaderCompiler/blob/master/tools/clang/test/HLSLFileCheck/hlsl/types/modifiers/precise/precise4.hlsl)： ```HLSLmatrix g_mWorldViewProjection;void main(in float3 InPos : Position, out precise float4 OutPos : SV_Position){  // operation is precise because it contributes to the precise parameter OutPos  OutPos = mul( float4( InPos, 1.0 ), g_mWorldViewProjection );}``` | 
+| <strong>共用</strong> | 標示變數以在效果之間共用;這是編譯器的提示。 | 
+| <strong>groupshared</strong> | 標記執行緒群組的變數-計算著色器的共用記憶體。 在 D3D10 中，所有具有 groupshared 儲存類別之變數的總大小上限為16kb，D3D11 中的大小上限為32kb。 請參閱範例。 | 
+| <strong>static</strong> | 標記本機變數，使其初始化一次，並在函式呼叫之間保存。 如果宣告不包含初始化運算式，則值會設定為零。 應用程式看不到標記為 <strong>static</strong> 的全域變數。 | 
+| <strong>uniform</strong> | 在著色器 (（例如，頂點著色器中的材質色彩）中，標記其資料為常數的變數) ;全域變數預設會被視為 <strong>統一</strong> 。 | 
+| <strong>volatile</strong> | 標記經常變更的變數;這是編譯器的提示。 這個儲存類別修飾詞只適用于本機變數。<br /><blockquote>[!Note]<br />HLSL 編譯器目前會忽略這個儲存類別修飾詞。</blockquote><br /> | 
 
-以這種方式控制優化的能力，會藉由停用可能會影響最終結果的優化（因為累積的精確度差異差異），來維持已修改之輸出變數的結果 invariance。 當您想要讓鑲嵌式的著色器維持水緊密的 patch 接縫，或比對多個行程的深度值時，它會很有用。
-
-[範例程式碼](https://github.com/microsoft/DirectXShaderCompiler/blob/master/tools/clang/test/HLSLFileCheck/hlsl/types/modifiers/precise/precise4.hlsl)： 
-```HLSL
-matrix g_mWorldViewProjection;
-void main(in float3 InPos : Position, out precise float4 OutPos : SV_Position)
-{
-  // operation is precise because it contributes to the precise parameter OutPos
-  OutPos = mul( float4( InPos, 1.0 ), g_mWorldViewProjection );
-}
-```
-</td>
-</tr>
-<tr class="even">
-<td><strong>共用</strong></td>
-<td>標示變數以在效果之間共用;這是編譯器的提示。</td>
-</tr>
-<tr class="odd">
-<td><strong>groupshared</strong></td>
-<td>標記執行緒群組的變數-計算著色器的共用記憶體。 在 D3D10 中，所有具有 groupshared 儲存類別之變數的總大小上限為16kb，D3D11 中的大小上限為32kb。 請參閱範例。</td>
-</tr>
-<tr class="even">
-<td><strong>static</strong></td>
-<td>標記本機變數，使其初始化一次，並在函式呼叫之間保存。 如果宣告不包含初始化運算式，則值會設定為零。 應用程式看不到標記為 <strong>static</strong> 的全域變數。</td>
-</tr>
-<tr class="odd">
-<td><strong>uniform</strong></td>
-<td>在著色器 (（例如，頂點著色器中的材質色彩）中，標記其資料為常數的變數) ;全域變數預設會被視為 <strong>統一</strong> 。</td>
-</tr>
-<tr class="even">
-<td><strong>volatile</strong></td>
-<td>標記經常變更的變數;這是編譯器的提示。 這個儲存類別修飾詞只適用于本機變數。<br/>
-<blockquote>
-[!Note]<br />
-HLSL 編譯器目前會忽略這個儲存類別修飾詞。
-</blockquote>
-<br/></td>
-</tr>
-</tbody>
-</table>
 
 
 

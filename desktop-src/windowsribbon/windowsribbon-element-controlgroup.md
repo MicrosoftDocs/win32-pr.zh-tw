@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: a1777bd469b6bf07530881f9c20888d69fe98117ecbdeba4f3f5557f01ced172
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 33640f8e451f7124efda8c0e5377a3145d221668
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117851024"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122631986"
 ---
 # <a name="controlgroup-element"></a>ControlGroup 元素
 
@@ -39,10 +39,10 @@ ms.locfileid: "117851024"
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col  />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -56,7 +56,7 @@ ms.locfileid: "117851024"
 <tr class="odd">
 <td><strong>SequenceNumber</strong><br/></td>
 <td>xs:positiveInteger<br/></td>
-<td>No<br/></td>
+<td>否<br/></td>
 <td>只有當 <a href="windowsribbon-element-group.md"><strong>群組</strong></a> 是父元素時才有效。<br/> 每個 <em>SequenceNumber</em> 在 <a href="windowsribbon-element-group.md"><strong>Group</strong></a> 元素內都必須是唯一的。 <em>SequenceNumber</em>的值應該會增加每個<strong>群組</strong>元素，但不需要是連續的。 <br/> <br/>
 <dt><span></span><span></span><strong></strong> (xs： positiveInteger) <br/> </dt> <dd> 介於1000和59999之間的任何正整數值（含）。<br/> </dd> </dl></td>
 </tr>
@@ -96,7 +96,7 @@ ms.locfileid: "117851024"
 | **ControlGroup**<br/>                                                         |
 | [**Group**](windowsribbon-element-group.md)<br/>                             |
 | [**GroupSizeDefinition**](windowsribbon-element-groupsizedefinition.md)<br/> |
-| [**行**](windowsribbon-element-row.md)<br/>                                 |
+| [**資料列**](windowsribbon-element-row.md)<br/>                                 |
 
 
 

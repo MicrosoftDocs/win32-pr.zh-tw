@@ -3,19 +3,19 @@ title: 產品識別碼
 description: 產品識別碼
 ms.assetid: 671440bb-0ed7-44fe-873c-fcefda8380bc
 keywords:
-- Windows 多媒體，產品識別碼
+- Windows 多媒體、產品識別碼
 - 多媒體、產品識別碼
 - 產品識別碼
 - 多媒體產品識別碼
 - 多媒體公司
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ed7046ffae1b8cf3031548abbc778955127e27a5
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 15f9117299214aba4658443739f1bc359f7b5ed7
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104311085"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122625324"
 ---
 # <a name="product-identifiers"></a>產品識別碼
 
@@ -23,8 +23,8 @@ ms.locfileid: "104311085"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -521,11 +521,11 @@ ms.locfileid: "104311085"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

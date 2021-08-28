@@ -5,12 +5,12 @@ ms.assetid: bdb01437-08d0-4279-94f2-840cb786cc44
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4bf85f9712e76bbdadcffa3914a86cc56576aecd
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 9217333440235d5adac544e00420f8564513510908a89a1da7494cf7ba2772ac
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104023727"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120128598"
 ---
 # <a name="obtaining-a-machine-sdo"></a>取得電腦 SDO
 
@@ -22,6 +22,6 @@ ms.locfileid: "104023727"
 
 請參閱 [附加至 SDO-Enabled 電腦](/windows/desktop/Nps/sdo-attaching-to-an-sdo-enabled-computer) ，取得示範如何取得電腦 SDO 的範例程式碼。
 
- 
+ 
 
- 
+ 

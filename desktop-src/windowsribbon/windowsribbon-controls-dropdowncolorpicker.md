@@ -4,12 +4,12 @@ description: Windows 功能區架構提供特製化的 Drop-Down 色彩選擇器
 ms.assetid: 65e1fc23-7ac0-4bb3-9359-28ce88acf356
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e8104ba92d0be9d56607083508d7f30728a7f3a141839d74314561d392fb942
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 15c96d14cc192d7a1d9394d2f71b40b9b38c7df1
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118707656"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122467425"
 ---
 # <a name="drop-down-color-picker"></a>Drop-Down 色彩選擇器
 
@@ -32,66 +32,19 @@ Windows 功能區架構提供特製化的 Drop-Down 色彩選擇器控制項，�
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>屬性</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>ColorTemplate</td>
-<td>指定 Drop-Down 色彩選擇器類型的版面配置範本。<br/> 有三個範本，每個範本都會為相關聯的屬性和屬性索引鍵指定控制項配置和預設值。 <br/>
-<ul>
-<li><code>ThemeColors</code></li>
-<li><code>StandardColors</code></li>
-<li><code>HighlightColors</code></li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>ChipSize</td>
-<td>每個色晶片 (或樣本) 的大小。<br/>
-<ul>
-<li><code>Small</code></li>
-<li><code>Medium</code></li>
-<li><code>Large</code></li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>資料行</td>
-<td>色板 (或樣本) 資料行的數目。<br/></td>
-</tr>
-<tr class="even">
-<td>CommandName</td>
-<td>相關命令宣告的名稱。 <br/></td>
-</tr>
-<tr class="odd">
-<td>IsAutomaticColorButtonVisible</td>
-<td>顯示 (或隱藏) [ <strong>自動</strong> ] 按鈕。<br/> 只有當 <em>ColorTemplate</em> 的值為或時，才有效 <code>ThemeColors</code> <code>StandardColors</code> 。<br/></td>
-</tr>
-<tr class="even">
-<td>IsNoColorButtonVisible</td>
-<td>顯示 (或隱藏) [ <strong>無色彩</strong> ] 按鈕。<br/> 對所有 <em>ColorTemplate</em> 值都有效。<br/></td>
-</tr>
-<tr class="odd">
-<td>RecentColorGridRows</td>
-<td>[ <strong>最近使用的色彩</strong> ] 區域中的色晶片 (或樣本) 資料列數目。<br/> 只有當 <em>ColorTemplate</em> 的值是時才有效 <code>ThemeColors</code> 。<br/></td>
-</tr>
-<tr class="even">
-<td>StandardColorGridRows</td>
-<td><strong>標準色彩</strong>區域中的色晶片 (或樣本) 資料列數目。<br/></td>
-</tr>
-<tr class="odd">
-<td>ThemeColorGridRows</td>
-<td><strong>主題色彩</strong>區域中的色晶片 (或樣本) 資料列數目。<br/> 只有當 <em>ColorTemplate</em> 的值是時才有效 <code>ThemeColors</code> 。<br/></td>
-</tr>
-</tbody>
-</table>
+
+| 屬性 | 描述 | 
+|-----------|-------------|
+| ColorTemplate | 指定 Drop-Down 色彩選擇器類型的版面配置範本。<br /> 有三個範本，每個範本都會為相關聯的屬性和屬性索引鍵指定控制項配置和預設值。 <br /><ul><li><code>ThemeColors</code></li><li><code>StandardColors</code></li><li><code>HighlightColors</code></li></ul> | 
+| ChipSize | 每個色晶片 (或樣本) 的大小。<br /><ul><li><code>Small</code></li><li><code>Medium</code></li><li><code>Large</code></li></ul> | 
+| 資料行 | 色板 (或樣本) 資料行的數目。<br /> | 
+| CommandName | 相關命令宣告的名稱。 <br /> | 
+| IsAutomaticColorButtonVisible | 顯示 (或隱藏) [ <strong>自動</strong> ] 按鈕。<br /> 只有當 <em>ColorTemplate</em> 的值為或時，才有效 <code>ThemeColors</code> <code>StandardColors</code> 。<br /> | 
+| IsNoColorButtonVisible | 顯示 (或隱藏) [ <strong>無色彩</strong> ] 按鈕。<br /> 對所有 <em>ColorTemplate</em> 值都有效。<br /> | 
+| RecentColorGridRows | [ <strong>最近使用的色彩</strong> ] 區域中的色晶片 (或樣本) 資料列數目。<br /> 只有當 <em>ColorTemplate</em> 的值是時才有效 <code>ThemeColors</code> 。<br /> | 
+| StandardColorGridRows | <strong>標準色彩</strong>區域中的色晶片 (或樣本) 資料列數目。<br /> | 
+| ThemeColorGridRows | <strong>主題色彩</strong>區域中的色晶片 (或樣本) 資料列數目。<br /> 只有當 <em>ColorTemplate</em> 的值是時才有效 <code>ThemeColors</code> 。<br /> | 
+
 
 
 
@@ -184,147 +137,31 @@ Windows 功能區架構提供特製化的 Drop-Down 色彩選擇器控制項，�
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>屬性索引鍵</th>
-<th>描述</th>
-<th>附註</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="windowsribbon-reference-properties-uipkey-automaticcolorlabel.md">UI_PKEY_AutomaticColorLabel</a></td>
-<td>定義 <strong>自動</strong> 色彩按鈕的標籤。<br/> 只有當 <em>ColorTemplate</em> 的值為或時，才有效 <code>ThemeColors</code> <code>StandardColors</code> 。<br/></td>
-<td>支援 <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty"><strong>IUIFramework：： GetUICommandProperty</strong></a> 和 <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty"><strong>IUIFramework：： SetUICommandProperty</strong></a>。</td>
-</tr>
-<tr class="even">
-<td><a href="windowsribbon-reference-properties-uipkey-color.md">UI_PKEY_Color</a></td>
-<td>將選取的色彩值定義為 <a href="/windows/win32/gdi/colorref">COLORREF</a>。<br/> 只有在 <a href="windowsribbon-reference-properties-uipkey-colortype.md">UI_PKEY_ColorType</a> 的值為時才有效 <code>UI_SWATCHCOLORTYPE_RGB</code> 。<br/></td>
-<td>支援 <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty"><strong>IUIFramework：： GetUICommandProperty</strong></a> 和 <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty"><strong>IUIFramework：： SetUICommandProperty</strong></a>。</td>
-</tr>
-<tr class="odd">
-<td><a href="windowsribbon-reference-properties-uipkey-colortype.md">UI_PKEY_ColorType</a></td>
-<td>定義選取的色彩類型。<br/></td>
-<td>支援 <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty"><strong>IUIFramework：： GetUICommandProperty</strong></a> 和 <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty"><strong>IUIFramework：： SetUICommandProperty</strong></a>。</td>
-</tr>
-<tr class="even">
-<td><a href="windowsribbon-reference-properties-uipkey-enabled.md">UI_PKEY_Enabled</a></td>
-<td>定義控制項回應使用者互動的能力。<br/></td>
-<td>支援 <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty"><strong>IUIFramework：： GetUICommandProperty</strong></a> 和 <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty"><strong>IUIFramework：： SetUICommandProperty</strong></a>。</td>
-</tr>
-<tr class="odd">
-<td><a href="windowsribbon-reference-properties-uipkey-keytip.md">UI_PKEY_Keytip</a></td>
 
-<td>只能透過失效進行更新。</td>
-</tr>
-<tr class="even">
-<td><a href="windowsribbon-reference-properties-uipkey-label.md">UI_PKEY_Label</a></td>
-<td>定義控制項標籤的字元字串。<br/></td>
-<td>只能透過失效進行更新。</td>
-</tr>
-<tr class="odd">
-<td><a href="windowsribbon-reference-properties-uipkey-largehighcontrastimage.md">UI_PKEY_LargeHighContrastImage</a></td>
-<td>定義要為控制項顯示的大型高對比影像。<br/></td>
-<td>只能透過失效進行更新。<br/> 如需影像格式的詳細資訊，請參閱 <a href="windowsribbon-imageformats.md">指定功能區影像資源</a>。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="windowsribbon-reference-properties-uipkey-largeimage.md">UI_PKEY_LargeImage</a></td>
-<td>定義要為控制項顯示的大型影像。<br/></td>
-<td>只能透過失效進行更新。<br/> 如需影像格式的詳細資訊，請參閱 <a href="windowsribbon-imageformats.md">指定功能區影像資源</a>。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="windowsribbon-reference-properties-uipkey-morecolorslabel.md">UI_PKEY_MoreColorsLabel</a></td>
-<td>定義 [ <strong>其他色彩</strong> ] 的標籤 ... 按鈕。<br/> 只有當 <em>ColorTemplate</em> 的值為或時，才有效 <code>ThemeColors</code> <code>StandardColors</code> 。<br/></td>
-<td>支援 <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty"><strong>IUIFramework：： GetUICommandProperty</strong></a> 和 <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty"><strong>IUIFramework：： SetUICommandProperty</strong></a>。</td>
-</tr>
-<tr class="even">
-<td><a href="windowsribbon-reference-properties-uipkey-nocolorlabel.md">UI_PKEY_NoColorLabel</a></td>
-<td>定義 [ <strong>無色彩</strong> ] 按鈕的標籤。<br/> 對所有 <em>ColorTemplate</em> 值都有效。<br/></td>
-<td>支援 <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty"><strong>IUIFramework：： GetUICommandProperty</strong></a> 和 <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty"><strong>IUIFramework：： SetUICommandProperty</strong></a>。</td>
-</tr>
-<tr class="odd">
-<td><a href="windowsribbon-reference-properties-uipkey-recentcolorscategorylabel.md">UI_PKEY_RecentColorsCategoryLabel</a></td>
-<td>定義 [ <strong>最近使用的色彩</strong> ] 分類的標籤。<br/> 只有當 <em>ColorTemplate</em> 的值為時才有效 <code>ThemeColors</code> 。 這是唯一包含標記類別的範本。<br/></td>
-<td>支援 <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty"><strong>IUIFramework：： GetUICommandProperty</strong></a> 和 <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty"><strong>IUIFramework：： SetUICommandProperty</strong></a>。</td>
-</tr>
-<tr class="even">
-<td><a href="windowsribbon-reference-properties-uipkey-smallhighcontrastimage.md">UI_PKEY_SmallHighContrastImage</a></td>
-<td>定義要為控制項顯示的小型高對比影像。<br/></td>
-<td>只能透過失效進行更新。<br/> 如需影像格式的詳細資訊，請參閱 <a href="windowsribbon-imageformats.md">指定功能區影像資源</a>。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="windowsribbon-reference-properties-uipkey-smallimage.md">UI_PKEY_SmallImage</a></td>
-<td>定義要為控制項顯示的小型影像。<br/></td>
-<td>只能透過失效進行更新。<br/> 如需影像格式的詳細資訊，請參閱 <a href="windowsribbon-imageformats.md">指定功能區影像資源</a>。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="windowsribbon-reference-properties-uipkey-standardcolors.md">UI_PKEY_StandardColors</a></td>
-<td>針對 Drop-Down 色彩選擇器的樣本，定義 <a href="/windows/win32/gdi/colorref">COLORREF</a> 值的陣列。<br/> 每個 Drop-Down 色彩選擇器 <em>ColorTemplate</em> 都包含一個 <code>StandardColors</code> 方格。 <br/>
-<blockquote>
-[!Note]<br />
-陣列的初始<em>StandardColorGridRows</em> x 資料<em>行</em>中的<a href="/windows/win32/gdi/colorref">COLORREF</a>值隨即顯示。 如果陣列定義的色彩比標記中宣告的 <code>StandardColors</code> 樣本數目少，則會顯示遺漏晶片的空白空間。
-</blockquote>
-<br/></td>
-<td>支援 <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty"><strong>IUIFramework：： GetUICommandProperty</strong></a> 和 <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty"><strong>IUIFramework：： SetUICommandProperty</strong></a>。</td>
-</tr>
-<tr class="odd">
-<td><a href="windowsribbon-reference-properties-uipkey-standardcolorscategorylabel.md">UI_PKEY_StandardColorsCategoryLabel</a></td>
-<td>定義 <strong>標準色彩</strong> 分類的標籤。<br/> 只有當 <em>ColorTemplate</em> 的值為時才有效 <code>ThemeColors</code> 。 這是唯一包含標記類別的範本。<br/></td>
-<td>支援 <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty"><strong>IUIFramework：： GetUICommandProperty</strong></a> 和 <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty"><strong>IUIFramework：： SetUICommandProperty</strong></a>。</td>
-</tr>
-<tr class="even">
-<td><a href="windowsribbon-reference-properties-uipkey-standardcolorstooltips.md">UI_PKEY_StandardColorsTooltips</a></td>
-<td>為方格定義色彩樣本工具提示的字串陣列 <code>StandardColors</code> 。<br/> 每個 Drop-Down 色彩選擇器 <em>ColorTemplate</em> 都包含一個 <code>StandardColors</code> 方格。 <br/>
-<blockquote>
-[!Note]<br />
-只會使用標示方格中所顯示之色彩色板的工具提示 <code>StandardColors</code> 。 如果提供的標籤數目少於方格中的樣本數目 <code>StandardColors</code> ，就會提供 remainining 樣本的預設值。
-</blockquote>
-<br/></td>
-<td>支援 <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty"><strong>IUIFramework：： GetUICommandProperty</strong></a> 和 <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty"><strong>IUIFramework：： SetUICommandProperty</strong></a>。</td>
-</tr>
-<tr class="odd">
-<td><a href="windowsribbon-reference-properties-uipkey-themecolors.md">UI_PKEY_ThemeColors</a></td>
-<td>針對 Drop-Down 色彩選擇器的樣本，定義 <a href="/windows/win32/gdi/colorref">COLORREF</a> 值的陣列。<br/> 只有當 <em>ColorTemplate</em> 的值為時才有效 <code>ThemeColors</code> 。 <br/>
-<blockquote>
-[!Note]<br />
-陣列的初始<em>ThemeColorGridRows</em> x 資料<em>行</em>中的<a href="/windows/win32/gdi/colorref">COLORREF</a>值隨即顯示。 如果陣列定義的色彩比標記中宣告的 <code>ThemeColors</code> 樣本數目少，則會顯示遺漏晶片的空白空間。
-</blockquote>
-<br/></td>
-<td>支援 <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty"><strong>IUIFramework：： GetUICommandProperty</strong></a> 和 <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty"><strong>IUIFramework：： SetUICommandProperty</strong></a>。</td>
-</tr>
-<tr class="even">
-<td><a href="windowsribbon-reference-properties-uipkey-themecolorstooltips.md">UI_PKEY_ThemeColorsTooltips</a></td>
-<td>為方格定義色彩樣本工具提示的字串陣列 <code>ThemeColors</code> 。<br/> 只有當 <em>ColorTemplate</em> 的值為時才有效 <code>ThemeColors</code> 。 <br/>
-<blockquote>
-[!Note]<br />
-只會使用標示方格中所顯示之色彩色板的工具提示 <code>ThemeColors</code> 。 如果提供的標籤數目少於方格中的樣本數目 <code>ThemeColors</code> ，就會提供 remainining 樣本的預設值。
-</blockquote>
-<br/></td>
-<td>支援 <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty"><strong>IUIFramework：： GetUICommandProperty</strong></a> 和 <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty"><strong>IUIFramework：： SetUICommandProperty</strong></a>。</td>
-</tr>
-<tr class="odd">
-<td><a href="windowsribbon-reference-properties-uipkey-themecolorscategorylabel.md">UI_PKEY_ThemeColorsCategoryLabel</a></td>
-<td>定義 <strong>主題色彩</strong> 分類的標籤。<br/> 只有當 <em>ColorTemplate</em> 的值為時才有效 <code>ThemeColors</code> 。 這是唯一包含標記類別的範本。<br/></td>
-<td>支援 <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty"><strong>IUIFramework：： GetUICommandProperty</strong></a> 和 <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty"><strong>IUIFramework：： SetUICommandProperty</strong></a>。</td>
-</tr>
-<tr class="even">
-<td><a href="windowsribbon-reference-properties-uipkey-tooltipdescription.md">UI_PKEY_TooltipDescription</a></td>
-<td>為與 <a href="windowsribbon-reference-properties-uipkey-tooltiptitle.md">UI_PKEY_TooltipTitle</a>相關聯的工具提示描述定義字元字串。<br/></td>
-<td>只能透過失效進行更新。</td>
-</tr>
-<tr class="odd">
-<td><a href="windowsribbon-reference-properties-uipkey-tooltiptitle.md">UI_PKEY_TooltipTitle</a></td>
-<td>定義命令工具提示的字元字串。<br/></td>
-<td>只能透過失效進行更新。</td>
-</tr>
-</tbody>
-</table>
+| 屬性索引鍵 | 描述 | 注意 | 
+|--------------|-------------|-------|
+| <a href="windowsribbon-reference-properties-uipkey-automaticcolorlabel.md">UI_PKEY_AutomaticColorLabel</a> | 定義 <strong>自動</strong> 色彩按鈕的標籤。<br /> 只有當 <em>ColorTemplate</em> 的值為或時，才有效 <code>ThemeColors</code> <code>StandardColors</code> 。<br /> | 支援 <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty"><strong>IUIFramework：： GetUICommandProperty</strong></a> 和 <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty"><strong>IUIFramework：： SetUICommandProperty</strong></a>。 | 
+| <a href="windowsribbon-reference-properties-uipkey-color.md">UI_PKEY_Color</a> | 將選取的色彩值定義為 <a href="/windows/win32/gdi/colorref">COLORREF</a>。<br /> 只有在 <a href="windowsribbon-reference-properties-uipkey-colortype.md">UI_PKEY_ColorType</a> 的值為時才有效 <code>UI_SWATCHCOLORTYPE_RGB</code> 。<br /> | 支援 <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty"><strong>IUIFramework：： GetUICommandProperty</strong></a> 和 <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty"><strong>IUIFramework：： SetUICommandProperty</strong></a>。 | 
+| <a href="windowsribbon-reference-properties-uipkey-colortype.md">UI_PKEY_ColorType</a> | 定義選取的色彩類型。<br /> | 支援 <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty"><strong>IUIFramework：： GetUICommandProperty</strong></a> 和 <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty"><strong>IUIFramework：： SetUICommandProperty</strong></a>。 | 
+| <a href="windowsribbon-reference-properties-uipkey-enabled.md">UI_PKEY_Enabled</a> | 定義控制項回應使用者互動的能力。<br /> | 支援 <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty"><strong>IUIFramework：： GetUICommandProperty</strong></a> 和 <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty"><strong>IUIFramework：： SetUICommandProperty</strong></a>。 | 
+| <a href="windowsribbon-reference-properties-uipkey-keytip.md">UI_PKEY_Keytip</a> | 只能透過失效進行更新。 | 
+| <a href="windowsribbon-reference-properties-uipkey-label.md">UI_PKEY_Label</a> | 定義控制項標籤的字元字串。<br /> | 只能透過失效進行更新。 | 
+| <a href="windowsribbon-reference-properties-uipkey-largehighcontrastimage.md">UI_PKEY_LargeHighContrastImage</a> | 定義要為控制項顯示的大型高對比影像。<br /> | 只能透過失效進行更新。<br /> 如需影像格式的詳細資訊，請參閱 <a href="windowsribbon-imageformats.md">指定功能區影像資源</a>。<br /> | 
+| <a href="windowsribbon-reference-properties-uipkey-largeimage.md">UI_PKEY_LargeImage</a> | 定義要為控制項顯示的大型影像。<br /> | 只能透過失效進行更新。<br /> 如需影像格式的詳細資訊，請參閱 <a href="windowsribbon-imageformats.md">指定功能區影像資源</a>。<br /> | 
+| <a href="windowsribbon-reference-properties-uipkey-morecolorslabel.md">UI_PKEY_MoreColorsLabel</a> | 定義 [ <strong>其他色彩</strong> ] 的標籤 ... 按鈕。<br /> 只有當 <em>ColorTemplate</em> 的值為或時，才有效 <code>ThemeColors</code> <code>StandardColors</code> 。<br /> | 支援 <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty"><strong>IUIFramework：： GetUICommandProperty</strong></a> 和 <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty"><strong>IUIFramework：： SetUICommandProperty</strong></a>。 | 
+| <a href="windowsribbon-reference-properties-uipkey-nocolorlabel.md">UI_PKEY_NoColorLabel</a> | 定義 [ <strong>無色彩</strong> ] 按鈕的標籤。<br /> 對所有 <em>ColorTemplate</em> 值都有效。<br /> | 支援 <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty"><strong>IUIFramework：： GetUICommandProperty</strong></a> 和 <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty"><strong>IUIFramework：： SetUICommandProperty</strong></a>。 | 
+| <a href="windowsribbon-reference-properties-uipkey-recentcolorscategorylabel.md">UI_PKEY_RecentColorsCategoryLabel</a> | 定義 [ <strong>最近使用的色彩</strong> ] 分類的標籤。<br /> 只有當 <em>ColorTemplate</em> 的值為時才有效 <code>ThemeColors</code> 。 這是唯一包含標記類別的範本。<br /> | 支援 <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty"><strong>IUIFramework：： GetUICommandProperty</strong></a> 和 <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty"><strong>IUIFramework：： SetUICommandProperty</strong></a>。 | 
+| <a href="windowsribbon-reference-properties-uipkey-smallhighcontrastimage.md">UI_PKEY_SmallHighContrastImage</a> | 定義要為控制項顯示的小型高對比影像。<br /> | 只能透過失效進行更新。<br /> 如需影像格式的詳細資訊，請參閱 <a href="windowsribbon-imageformats.md">指定功能區影像資源</a>。<br /> | 
+| <a href="windowsribbon-reference-properties-uipkey-smallimage.md">UI_PKEY_SmallImage</a> | 定義要為控制項顯示的小型影像。<br /> | 只能透過失效進行更新。<br /> 如需影像格式的詳細資訊，請參閱 <a href="windowsribbon-imageformats.md">指定功能區影像資源</a>。<br /> | 
+| <a href="windowsribbon-reference-properties-uipkey-standardcolors.md">UI_PKEY_StandardColors</a> | 針對 Drop-Down 色彩選擇器的樣本，定義 <a href="/windows/win32/gdi/colorref">COLORREF</a> 值的陣列。<br /> 每個 Drop-Down 色彩選擇器 <em>ColorTemplate</em> 都包含一個 <code>StandardColors</code> 方格。 <br /><blockquote>[!Note]<br />陣列的初始<em>StandardColorGridRows</em> x 資料<em>行</em>中的<a href="/windows/win32/gdi/colorref">COLORREF</a>值隨即顯示。 如果陣列定義的色彩比標記中宣告的 <code>StandardColors</code> 樣本數目少，則會顯示遺漏晶片的空白空間。</blockquote><br /> | 支援 <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty"><strong>IUIFramework：： GetUICommandProperty</strong></a> 和 <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty"><strong>IUIFramework：： SetUICommandProperty</strong></a>。 | 
+| <a href="windowsribbon-reference-properties-uipkey-standardcolorscategorylabel.md">UI_PKEY_StandardColorsCategoryLabel</a> | 定義 <strong>標準色彩</strong> 分類的標籤。<br /> 只有當 <em>ColorTemplate</em> 的值為時才有效 <code>ThemeColors</code> 。 這是唯一包含標記類別的範本。<br /> | 支援 <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty"><strong>IUIFramework：： GetUICommandProperty</strong></a> 和 <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty"><strong>IUIFramework：： SetUICommandProperty</strong></a>。 | 
+| <a href="windowsribbon-reference-properties-uipkey-standardcolorstooltips.md">UI_PKEY_StandardColorsTooltips</a> | 為方格定義色彩樣本工具提示的字串陣列 <code>StandardColors</code> 。<br /> 每個 Drop-Down 色彩選擇器 <em>ColorTemplate</em> 都包含一個 <code>StandardColors</code> 方格。 <br /><blockquote>[!Note]<br />只會使用標示方格中所顯示之色彩色板的工具提示 <code>StandardColors</code> 。 如果提供的標籤數目少於方格中的樣本數目 <code>StandardColors</code> ，就會提供 remainining 樣本的預設值。</blockquote><br /> | 支援 <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty"><strong>IUIFramework：： GetUICommandProperty</strong></a> 和 <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty"><strong>IUIFramework：： SetUICommandProperty</strong></a>。 | 
+| <a href="windowsribbon-reference-properties-uipkey-themecolors.md">UI_PKEY_ThemeColors</a> | 針對 Drop-Down 色彩選擇器的樣本，定義 <a href="/windows/win32/gdi/colorref">COLORREF</a> 值的陣列。<br /> 只有當 <em>ColorTemplate</em> 的值為時才有效 <code>ThemeColors</code> 。 <br /><blockquote>[!Note]<br />陣列的初始<em>ThemeColorGridRows</em> x 資料<em>行</em>中的<a href="/windows/win32/gdi/colorref">COLORREF</a>值隨即顯示。 如果陣列定義的色彩比標記中宣告的 <code>ThemeColors</code> 樣本數目少，則會顯示遺漏晶片的空白空間。</blockquote><br /> | 支援 <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty"><strong>IUIFramework：： GetUICommandProperty</strong></a> 和 <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty"><strong>IUIFramework：： SetUICommandProperty</strong></a>。 | 
+| <a href="windowsribbon-reference-properties-uipkey-themecolorstooltips.md">UI_PKEY_ThemeColorsTooltips</a> | 為方格定義色彩樣本工具提示的字串陣列 <code>ThemeColors</code> 。<br /> 只有當 <em>ColorTemplate</em> 的值為時才有效 <code>ThemeColors</code> 。 <br /><blockquote>[!Note]<br />只會使用標示方格中所顯示之色彩色板的工具提示 <code>ThemeColors</code> 。 如果提供的標籤數目少於方格中的樣本數目 <code>ThemeColors</code> ，就會提供 remainining 樣本的預設值。</blockquote><br /> | 支援 <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty"><strong>IUIFramework：： GetUICommandProperty</strong></a> 和 <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty"><strong>IUIFramework：： SetUICommandProperty</strong></a>。 | 
+| <a href="windowsribbon-reference-properties-uipkey-themecolorscategorylabel.md">UI_PKEY_ThemeColorsCategoryLabel</a> | 定義 <strong>主題色彩</strong> 分類的標籤。<br /> 只有當 <em>ColorTemplate</em> 的值為時才有效 <code>ThemeColors</code> 。 這是唯一包含標記類別的範本。<br /> | 支援 <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty"><strong>IUIFramework：： GetUICommandProperty</strong></a> 和 <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty"><strong>IUIFramework：： SetUICommandProperty</strong></a>。 | 
+| <a href="windowsribbon-reference-properties-uipkey-tooltipdescription.md">UI_PKEY_TooltipDescription</a> | 為與 <a href="windowsribbon-reference-properties-uipkey-tooltiptitle.md">UI_PKEY_TooltipTitle</a>相關聯的工具提示描述定義字元字串。<br /> | 只能透過失效進行更新。 | 
+| <a href="windowsribbon-reference-properties-uipkey-tooltiptitle.md">UI_PKEY_TooltipTitle</a> | 定義命令工具提示的字元字串。<br /> | 只能透過失效進行更新。 | 
+
 
 
 

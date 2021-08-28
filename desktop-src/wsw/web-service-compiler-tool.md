@@ -8,12 +8,12 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e92e1195cd9d3a8e8d9fa1b7be94421d68f3cbdf2242be6fa0d05be5cc3c743f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6789b9e2b6e38d89e422adc363326656b8f693e2
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118962837"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122880985"
 ---
 # <a name="web-service-compiler-tool"></a>Web 服務編譯器工具
 
@@ -24,7 +24,7 @@ ms.locfileid: "118962837"
 
 使用方式
 
-**WsUtil.exe \[ 命令列參數 \[ 參數-選項 \] ：\]<filename>**
+**WsUtil.exe \[ 命令列參數 \[ 參數-選項 \] ： \] &lt; filename&gt;**
 
 命令列參數
 
@@ -33,14 +33,14 @@ ms.locfileid: "118962837"
 命令列選項清單
 
 -   @filename 指定應將輸入檔視為回應檔。 這個選項可以在引數清單中的任何位置使用多次。
--   /wsdl： <filename> ： <選擇性 \_ Url> 指定應將輸入檔視為 wsdl 檔。 允許多個 wsdl 輸入，並處理所有指定的 wsdl 檔案。 選擇性 url 會指定從中抓取 \_ 中繼資料的位置。 如果未 \_ 指定選擇性的 url，Wsutil 會在內部產生唯一的 url。 另請參閱 [原則支援](policy-support.md)。
--   /xsd： <filename> 指定應將輸入檔案名視為架構檔。 允許多個 xsd 輸入，並處理所有指定的架構檔案。
--   /wsp： <filename> ： <選擇性 \_ Url> 指定應將輸入檔案名視為原則中繼資料。 允許多個 wsp 輸入，並處理所有指定的原則檔案。 選擇性 url 會指定從中抓取 \_ 中繼資料的位置。 如果未 \_ 指定選擇性的 url，Wsutil 會在內部產生唯一的 url。 如果指定了/nopolicy 旗標，則會忽略原則檔。 另請參閱 [原則支援](policy-support.md)。
+-   /wsdl： &lt; filename &gt; ： <選擇性 \_ url> 指定應將輸入檔視為 wsdl 檔。 允許多個 wsdl 輸入，並處理所有指定的 wsdl 檔案。 選擇性 url 會指定從中抓取 \_ 中繼資料的位置。 如果未 \_ 指定選擇性的 url，Wsutil 會在內部產生唯一的 url。 另請參閱 [原則支援](policy-support.md)。
+-   /xsd： &lt; filename &gt; 指定應將輸入檔案名視為架構檔。 允許多個 xsd 輸入，並處理所有指定的架構檔案。
+-   /wsp： &lt; filename &gt; ： <選擇性 \_ url> 指定應將輸入檔案名視為原則中繼資料。 允許多個 wsp 輸入，並處理所有指定的原則檔案。 選擇性 url 會指定從中抓取 \_ 中繼資料的位置。 如果未 \_ 指定選擇性的 url，Wsutil 會在內部產生唯一的 url。 如果指定了/nopolicy 旗標，則會忽略原則檔。 另請參閱 [原則支援](policy-support.md)。
 -   /nopolicy 停用原則處理。
--   /out： <dirname> 指定輸出檔案的目錄名稱
+-   /out： &lt; dirname &gt; 指定輸出檔案的目錄名稱
 -   /noclient 不會產生用戶端存根。
 -   /noservice 不會產生服務端存根。
--   /prefix： <string> 在所有產生的識別碼前面加上指定的字串。
+-   /prefix： &lt; 字串 &gt; 在指定的字串前面加上所有產生的識別碼。
 -   /fullname 在產生的識別碼前面加上正規化的檔案名。 依預設，只會使用 "name" 屬性中指定的名稱來產生相關描述的識別碼。
 -   /string： <WS \_ 字串>\|<WCHAR \*> 根據預設，wsutil 會產生 \* xsd： string 類型的 WCHAR。 應用程式可以使用此旗標來覆寫該行為，並 \_ 改為產生 xsd： type 的 WS 字串。
 -   /help 顯示說明訊息

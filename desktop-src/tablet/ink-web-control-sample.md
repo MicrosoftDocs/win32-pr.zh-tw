@@ -4,12 +4,12 @@ ms.assetid: 7a9e304c-57ef-41a3-83be-2b2d31435da8
 title: 筆墨 Web 控制項範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d8a2f305f1dcbb412325970510c6eaa5f09732bf10d870c961820ab8d8749eda
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: dfe2035028ab622f896489b304ca850db4e25462
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119032196"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122882051"
 ---
 # <a name="ink-web-control-sample"></a>筆墨 Web 控制項範例
 
@@ -33,7 +33,7 @@ ms.locfileid: "119032196"
 
 ## <a name="referencing-the-control-in-html"></a>以 HTML 參考控制項
 
-解決方案包含 HTML 檔案 default.htm。 此檔案是瀏覽器導覽的頁面，以便載入控制項。 檔案包含 <object> 參考控制項的標記。 它也包含在頁面卸載時所呼叫的腳本，如中的 onload = "" 屬性是否存在。 `OnUnload()` <body> 的相片或視訊。 此函式 `DisposeResources` 會在控制項上呼叫方法，以確保所有資源在關機時都能正確地釋放。
+解決方案包含 HTML 檔案 default.htm。 此檔案是瀏覽器導覽的頁面，以便載入控制項。 檔案包含 &lt; &gt; 參考控制項的物件標記。 它也包含在頁面卸載時所呼叫的腳本，如主體標記中的 onload = " `OnUnload()` " 屬性所表示 &lt; &gt; 。 此函式 `DisposeResources` 會在控制項上呼叫方法，以確保所有資源在關機時都能正確地釋放。
 
 
 ```C++
@@ -59,7 +59,7 @@ ms.locfileid: "119032196"
 
 
 
-請注意標記之 classid 屬性值的格式 <object> 。 它會將元件命名為，後面接著 \# 符號分隔符號，然後是包含控制項的命名空間，然後是控制項的類別名稱。
+請注意物件標記之 classid 屬性值的格式 &lt; &gt; 。 它會將元件命名為，後面接著 \# 符號分隔符號，然後是包含控制項的命名空間，然後是控制項的類別名稱。
 
 實際的使用者控制項可能包含用來保存或傳送在應用程式中收集之資料的其他方法。
 

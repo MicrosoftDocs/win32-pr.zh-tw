@@ -4,12 +4,12 @@ description: 本主題說明組成 AccChecker GUI 的元素。
 ms.assetid: C8C156F6-AB29-4011-9DCD-74261AC17404
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e26d847d1bc198958ca28dd77d67b0e99b9d7745
-ms.sourcegitcommit: d39e82e232f6510f843fdb8d55d25b4e9e02e880
+ms.openlocfilehash: ebf645a3afd35bdd906d1ab26453d16672311cb4
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "104566857"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122473384"
 ---
 # <a name="the-accchecker-graphical-user-interface"></a>AccChecker 圖形消費者介面
 
@@ -87,13 +87,13 @@ MSAA 螢幕讀取器和 [UIA 螢幕讀取器] 索引標籤很類似。 這兩者
 
 您必須在 [**驗證**] 索引標籤中選取 [**一致性**] 下的 [ **ScreenReader** ] 驗證常式，才能顯示 [ **MSAA 螢幕閱讀程式]** 索引標籤 同樣地，您必須選取 [ **UiaScreenReader** ] 驗證常式，才能顯示 [ **UIA 螢幕閱讀** 程式] 索引標籤。
 
-下列螢幕擷取畫面顯示 [UIA 螢幕閱讀程式] 索引標籤，其中包含 [記事本] 的範例驗證。
+下列螢幕擷取畫面顯示 [UIA 螢幕閱讀程式] 索引標籤，其中包含記事本驗證範例。
 
 ![顯示範例驗證結果的 [accchecker 螢幕讀取器] 索引標籤](images/accchecker-screen-reader-tab.png)
 
 ## <a name="msaa-and-uia-tree-tabs"></a>MSAA 和 UIA 樹狀索引標籤
 
-執行任何驗證常式都會使 AccChecker 編譯驗證目標中所有可見的元素，並以階層方式顯示在 [ **MSAA 樹** ] 索引標籤和 [ **UIA 樹** ] 索引標籤上。下列螢幕擷取畫面顯示 [MSAA 樹] 索引標籤與 [記事本] 的元素階層。
+執行任何驗證常式都會使 AccChecker 編譯驗證目標中所有可見的元素，並以階層方式顯示在 [ **MSAA 樹**] 索引標籤和 [ **UIA 樹**] 索引標籤上。下列螢幕擷取畫面顯示 [MSAA 樹] 索引標籤，其中包含記事本的元素階層。
 
 ![accchecker msaa 樹狀結構索引標籤](images/accchecker-tree-tab.png)
 
@@ -101,84 +101,21 @@ MSAA 螢幕讀取器和 [UIA 螢幕讀取器] 索引標籤很類似。 這兩者
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>功能表</th>
-<th>命令</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td rowspan="5"><strong>File</strong>$ {REMOVE} $<br />
-</td>
-<td><strong>開啟</strong></td>
-<td>提供下列選項。<br/>
-<ul>
-<li><strong>驗證 DLL</strong> 開啟驗證 DLL。 原生 AccChecker 驗證會封裝在獨立 DLL (VerificationRoutines.dll) 中。 這項設計可讓測試小組根據所測試的 UI 平臺來建立自己的一組驗證。</li>
-<li><strong>記錄</strong> 檔可讓您選擇要開啟的驗證記錄檔。</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><strong>自動載入可用的驗證</strong></td>
-<td>自動載入所有可用的 AccChecker 驗證。</td>
 
-</tr>
-<tr class="odd">
-<td><strong>儲存記錄檔</strong></td>
-<td>將驗證記錄檔儲存為 XML 或純文字。 純文字較容易閱讀。</td>
+| 功能表 | 命令 | 描述 | 
+|------|---------|-------------|
+| <strong>File</strong>$ {REMOVE} $<br /> | <strong>開啟</strong> | 提供下列選項。<br /><ul><li><strong>驗證 DLL</strong> 開啟驗證 DLL。 原生 AccChecker 驗證會封裝在獨立 DLL (VerificationRoutines.dll) 中。 這項設計可讓測試小組根據所測試的 UI 平臺來建立自己的一組驗證。</li><li><strong>記錄</strong> 檔可讓您選擇要開啟的驗證記錄檔。</li></ul> | 
+| <strong>自動載入可用的驗證</strong> | 自動載入所有可用的 AccChecker 驗證。 | 
+| <strong>儲存記錄檔</strong> | 將驗證記錄檔儲存為 XML 或純文字。 純文字較容易閱讀。 | 
+| <strong>儲存隱藏專案</strong> | 將隱藏專案記錄儲存為 XML。 此檔案會指定要在迴歸測試中忽略的驗證訊息。 | 
+| <strong>結束</strong> | 關閉 AccChecker 工具。 | 
+| <strong>驗證</strong>$ {REMOVE} $<br /> | <strong>立即執行</strong> | 依所選驗證目標執行指定的驗證常式。 | 
+| <strong>全部啟用</strong> | 檢查所有的驗證常式核取方塊。 | 
+| <strong>全部停用</strong> | 取消核取 [所有驗證常式] 核取方塊。 | 
+| <strong>選項</strong> | <strong>Always On Top</strong> | 讓 AccChecker 成為迭置順序的最上層視窗。 | 
+| <strong>Help</strong>$ {REMOVE} $<br /> | <strong>說明</strong> | 顯示說明資訊。 | 
+| <strong>關於</strong> | 顯示 AccChecker 版本和電子郵件地址，以便與 Microsoft 聯絡 AccChecker。 | 
 
-</tr>
-<tr class="even">
-<td><strong>儲存隱藏專案</strong></td>
-<td>將隱藏專案記錄儲存為 XML。 此檔案會指定要在迴歸測試中忽略的驗證訊息。</td>
-
-</tr>
-<tr class="odd">
-<td><strong>結束</strong></td>
-<td>關閉 AccChecker 工具。</td>
-
-</tr>
-<tr class="even">
-<td rowspan="3"><strong>驗證</strong>$ {REMOVE} $<br />
-</td>
-<td><strong>立即執行</strong></td>
-<td>依所選驗證目標執行指定的驗證常式。</td>
-</tr>
-<tr class="odd">
-<td><strong>全部啟用</strong></td>
-<td>檢查所有的驗證常式核取方塊。</td>
-
-</tr>
-<tr class="even">
-<td><strong>全部停用</strong></td>
-<td>取消核取 [所有驗證常式] 核取方塊。</td>
-
-</tr>
-<tr class="odd">
-<td><strong>選項</strong></td>
-<td><strong>Always On Top</strong></td>
-<td>讓 AccChecker 成為迭置順序的最上層視窗。</td>
-</tr>
-<tr class="even">
-<td rowspan="2"><strong>Help</strong>$ {REMOVE} $<br />
-</td>
-<td><strong>說明</strong></td>
-<td>顯示說明資訊。</td>
-</tr>
-<tr class="odd">
-<td><strong>關於</strong></td>
-<td>顯示 AccChecker 版本和電子郵件地址，以便與 Microsoft 聯絡 AccChecker。</td>
-
-</tr>
-</tbody>
-</table>
 
 
 

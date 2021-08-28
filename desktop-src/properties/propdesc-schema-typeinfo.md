@@ -4,16 +4,16 @@ ms.assetid: ae1f8835-ef6c-42bb-b44f-ad374337a012
 title: typeInfo
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aa783a606066163fd8b17f53ef8a0fe2da44e539
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1a70c6eeaee63bcb99ee19217ccff5d3ff7086a2
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106987459"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122632166"
 ---
 # <a name="typeinfo"></a>typeInfo
 
-指定屬性的類型資訊。 每個[propertyDescription](./propdesc-schema-propertydescription.md)只能有一個[typeInfo]()元素。 此元素已針對 Windows 7 變更。
+指定屬性的類型資訊。 每個[propertyDescription](./propdesc-schema-propertydescription.md)只能有一個[typeInfo]()元素。 Windows 7 的這個元素已經變更。
 
 如果有多個元素，則會使用最後一個元素。 如果未提供任何 [typeInfo]() 元素，則會將預設屬性設定套用至屬性描述。
 
@@ -132,8 +132,8 @@ ms.locfileid: "106987459"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -259,7 +259,7 @@ ms.locfileid: "106987459"
 <td>顯示值的靜態大小範圍。</td>
 </tr>
 <tr class="even">
-<td>Date</td>
+<td>日期</td>
 <td>顯示月份/年度群組。 Type = DateTime 之屬性的預設值 &quot; &quot; 。</td>
 </tr>
 <tr class="odd">
@@ -285,7 +285,7 @@ ms.locfileid: "106987459"
 </tr>
 <tr class="even">
 <td>canBePurged</td>
-<td><strong>Windows Vista Service Pack 1 (SP1) 和更新版本</strong>。 公用。 選擇性。 當設為 &quot; true 時 &quot; ，允許刪除固有屬性。 固有屬性（從其他屬性計算而來）是以唯讀方式定義的。 這個屬性的預設值取決於 <em>isInnate</em> 值。
+<td><strong>Windows Vista （含 Service Pack 1 (SP1) 和更新版本</strong>）。 公用。 選擇性。 當設為 &quot; true 時 &quot; ，允許刪除固有屬性。 固有屬性（從其他屬性計算而來）是以唯讀方式定義的。 這個屬性的預設值取決於 <em>isInnate</em> 值。
 
 <table>
 <thead>
@@ -316,7 +316,7 @@ ms.locfileid: "106987459"
 <div>
  
 </div>
-<p>雖然這個屬性是在 Windows Vista Service Pack 1 (SP1) 引進的，但包含這個屬性的 propdesc 檔案與 Windows Vista SP1 之前的 Windows Vista 相容。 在這種情況下，只會忽略 <em>canBePurged</em> 屬性。</p></td>
+<p>雖然這個屬性是在 Windows vista Service Pack 1 (SP1) 引進的，但包含這個屬性的 propdesc 檔案與 Windows vista SP1 之前的 Windows Vista 相容。 在這種情況下，只會忽略 <em>canBePurged</em> 屬性。</p></td>
 </tr>
 <tr class="odd">
 <td>multipleValues</td>
@@ -351,7 +351,7 @@ ms.locfileid: "106987459"
 <td>顯示數值的總和。 適用于如 system.string 或 System. 大小等屬性。 此值與非數數值型別不相容。</td>
 </tr>
 <tr class="even">
-<td>平均</td>
+<td>Average</td>
 <td>顯示數值的平均值。 適用于如 System. 評等的屬性。 此值與非數數值型別不相容。</td>
 </tr>
 <tr class="odd">
@@ -385,7 +385,7 @@ ms.locfileid: "106987459"
 </tr>
 <tr class="even">
 <td>isQueryable</td>
-<td>僅限 Windows Vista。 在 Windows 7 和更新版本中不支援。 公用。 選擇性。 預設值為 &quot;false&quot;。 指定是否要在搜尋查詢產生器 UI 中提供這個屬性。 在 &quot; &quot; 遵守 isQueryable = true 之前，屬性必須有 isViewable = true &quot; &quot; 。 此值會對應到 <a href="/windows/win32/api/propsys/ne-propsys-propdesc_type_flags"><strong>PROPDESC_TYPE_FLAGS</strong></a> 中所定義並在 <a href="/windows/win32/api/propsys/nf-propsys-ipropertydescription-gettypeflags"><strong>IPropertyDescription：： GetTypeFlags</strong></a>中使用的 PDTF_ISQUERYABLE 旗標。</td>
+<td>Windows僅限 Vista。 Windows 7 和更新版本不支援。 公用。 選擇性。 預設值為 &quot;false&quot;。 指定是否要在搜尋查詢產生器 UI 中提供這個屬性。 在 &quot; &quot; 遵守 isQueryable = true 之前，屬性必須有 isViewable = true &quot; &quot; 。 此值會對應到 <a href="/windows/win32/api/propsys/ne-propsys-propdesc_type_flags"><strong>PROPDESC_TYPE_FLAGS</strong></a> 中所定義並在 <a href="/windows/win32/api/propsys/nf-propsys-ipropertydescription-gettypeflags"><strong>IPropertyDescription：： GetTypeFlags</strong></a>中使用的 PDTF_ISQUERYABLE 旗標。</td>
 </tr>
 <tr class="odd">
 <td>searchRawValue</td>
@@ -393,7 +393,7 @@ ms.locfileid: "106987459"
 </tr>
 <tr class="even">
 <td>includeInFullTextQuery</td>
-<td>僅限 Windows Vista。 在 Windows 7 和更新版本中不支援。 公用。 選擇性。 預設值為 &quot;false&quot;。</td>
+<td>Windows僅限 Vista。 Windows 7 和更新版本不支援。 公用。 選擇性。 預設值為 &quot;false&quot;。</td>
 </tr>
 <tr class="odd">
 <td>conditionType</td>
@@ -411,7 +411,7 @@ ms.locfileid: "106987459"
 <td>預設值。 將會使用下列運算子：是，不是，，，，， &quot; &quot; &quot; &quot; &quot; &lt; &quot; &quot; &gt; &quot; &quot; <= &quot; &quot; >= &quot; &quot; 開頭為 &quot; ， &quot; 結尾為 &quot; ， &quot; 包含 &quot; ， &quot; 不包含 &quot; ， &quot; 則類似 &quot; 。</td>
 </tr>
 <tr class="even">
-<td>Number</td>
+<td>數字</td>
 <td>數值屬性的預設值。 將會使用下列運算子： &quot; equals &quot; 、 &quot; 不等於、小於、大於 &quot; &quot; &quot; &quot; &quot; 、 &quot; 小於或等於 &quot; 、 &quot; 大於或等於 &quot; 。</td>
 </tr>
 <tr class="odd">

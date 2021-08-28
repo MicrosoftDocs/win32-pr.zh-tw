@@ -4,12 +4,12 @@ description: 本文描述的指導方針和最佳作法，可讓遊戲開發人�
 ms.assetid: dbac1c07-73dd-f2bc-3c5c-d6160368a88f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 14013a99926301d93a9b7b710af30f33f85b4fa1a48a60a6979c8a6868474e09
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0cb8b6ac31ef13e3ace4d439c82f4708673aeffb
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118396522"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122886068"
 ---
 # <a name="user-account-control-for-game-developers"></a>遊戲開發人員的使用者帳戶控制
 
@@ -197,16 +197,16 @@ Windows 會在顯示 UAC 提示之前，檢查標示為提高許可權之任何�
 
 從 VS2005 開始，先將資訊清單支援新增至 Visual Studio。 根據預設，內建于 Visual Studio 2005 (或更新版本) 的可執行檔，會在建立過程中內嵌自動產生的資訊清單。 自動產生之資訊清單的內容取決於您在 [專案屬性] 對話方塊中指定的特定專案設定。
 
-Visual Studio 2005 自動產生的資訊清單不會包含區塊，因為沒有 <trustInfo> 任何方法可以在專案屬性中設定 UAC 執行層級。 新增這項資訊的慣用方法是讓 VS2005 合併使用者定義的資訊清單，其中包含 <trustInfo> 具有自動產生之資訊清單的區塊。 只要將 \* 資訊清單檔加入至包含上一節所列之 XML 的方案，就可以做到這一點。 當 Visual Studio 在您的方案中遇到資訊清單檔時，它會自動叫用資訊清單工具 (mt.exe) 將資訊清單檔與自動產生的檔案合併。
+Visual Studio 2005 自動產生的資訊清單不會包含 &lt; trustInfo 區塊，因為沒有 &gt; 任何方法可以在專案屬性中設定 UAC 執行層級。 新增這項資訊的慣用方法是讓 VS2005 合併使用者定義的資訊清單，其中包含 &lt; &gt; 具有自動產生資訊清單的 trustInfo 區塊。 只要將 \* 資訊清單檔加入至包含上一節所列之 XML 的方案，就可以做到這一點。 當 Visual Studio 在您的方案中遇到資訊清單檔時，它會自動叫用資訊清單工具 (mt.exe) 將資訊清單檔與自動產生的檔案合併。
 
 > [!Note]  
-> 資訊清單工具中有一個 bug (mt.exe Visual Studio 2005 所提供的) 會導致合併和內嵌的資訊清單，當可執行檔在 SP3 之前的 Windows XP 上執行時，可能會造成問題。 Bug 是工具在區塊宣告時如何重新定義預設命名空間的結果 <trustInfo> 。 幸運的是，只要明確地在區塊中宣告不同的命名空間 <trustInfo> ，並將子節點的範圍設定為新的命名空間，就可以輕鬆地完全略過此問題。 上一節所提供的 XML 會示範此修正。
+> 資訊清單工具中有一個 bug (mt.exe Visual Studio 2005 所提供的) 會導致合併和內嵌的資訊清單，當可執行檔在 SP3 之前的 Windows XP 上執行時，可能會造成問題。 Bug 是工具在 trustInfo 區塊的宣告時，如何重新定義預設命名空間的 &lt; 結果 &gt; 。 幸運的是，藉由在 trustInfo 區塊中明確宣告不同的命名空間 &lt; &gt; ，以及將子節點的範圍設定為新的命名空間，就可以輕鬆地完全略過此問題。 上一節所提供的 XML 會示範此修正。
 
  
 
-使用 Visual Studio 2005 中包含的 mt.exe 工具有一點要注意的是，它會在處理區塊時產生警告， <trustInfo> 因為工具不包含更新的架構來驗證 XML。 若要修正此警告，建議您取代 Visual Studio 2005 安裝目錄下的所有 mt.exe 檔案 () 有多個實例與最新 mt.exe 中提供的 Windows SDK。
+使用 Visual Studio 2005 中包含的 mt.exe 工具有一點要注意的是，它會在處理 trustInfo 區塊時產生警告， &lt; &gt; 因為工具不包含更新的架構來驗證 XML。 若要修正此警告，建議您取代 Visual Studio 2005 安裝目錄下的所有 mt.exe 檔案 () 有多個實例與最新 mt.exe 中提供的 Windows SDK。
 
-從 Visual Studio 2008 開始，您現在可以在 [專案屬性] 對話方塊中指定應用程式的執行層級 ([圖 3]) ，或使用/MANIFESTUAC 連結器旗標。 設定這些選項會導致 Visual Studio 2008 自動產生，並將具有適當區塊的資訊清單內嵌 <trustInfo> 至可執行檔。
+從 Visual Studio 2008 開始，您現在可以在 [專案屬性] 對話方塊中指定應用程式的執行層級 ([圖 3]) ，或使用/MANIFESTUAC 連結器旗標。 設定這些選項會導致 Visual Studio 2008 自動產生，並將具有適當 trustInfo 區塊的資訊清單內嵌 &lt; &gt; 至可執行檔。
 
 **圖3。在 Visual Studio 2008 中設定執行層級**
 

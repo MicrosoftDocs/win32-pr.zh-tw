@@ -148,12 +148,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1641c652ed37c021e790fe44969f347c733dbfb265606982857f7c895364814a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3cdfb542aaf0312d506dbdb7710819d82c2ebdc9
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119501608"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122886216"
 ---
 # <a name="com-error-codes-stg-rpc"></a>COM 錯誤碼 (STG.，RPC) 
 
@@ -163,7 +163,7 @@ ms.locfileid: "119501608"
 
 
 
-| 常數/值                                                                                                                                                                                                                                                                                         | 描述                                                                                                                                                            |
+| 常數/值                                                                                                                                                                                                                                                                                         | 說明                                                                                                                                                            |
 |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="STG_E_INVALIDFUNCTION"></span><span id="stg_e_invalidfunction"></span><dl> <dt>**Stg. \_E \_ INVALIDFUNCTION**</dt> <dt>0x80030001</dt> </dl>                                                 | 無法執行要求的操作。<br/>                                                                                                                      |
 | <span id="STG_E_FILENOTFOUND"></span><span id="stg_e_filenotfound"></span><dl> <dt>**Stg. \_E \_ FILENOTFOUND**</dt> <dt>0x80030002</dt> </dl>                                                          | 找不到 。<br/>                                                                                                                                         |
@@ -281,7 +281,7 @@ ms.locfileid: "119501608"
 | <span id="CO_E_FAILEDTOSETDACL"></span><span id="co_e_failedtosetdacl"></span><dl> <dt>**共 \_E \_ FAILEDTOSETDACL**</dt> <dt>0x80010129</dt> </dl>                                                    | 無法將任意 ACL 設定為安全描述項<br/>                                                                                                |
 | <span id="CO_E_ACCESSCHECKFAILED"></span><span id="co_e_accesscheckfailed"></span><dl> <dt>**共 \_E \_ ACCESSCHECKFAILED**</dt> <dt>0x8001012A</dt> </dl>                                              | 系統函數 AccessCheck 傳回 false<br/>                                                                                                            |
 | <span id="CO_E_NETACCESSAPIFAILED"></span><span id="co_e_netaccessapifailed"></span><dl> <dt>**共 \_E \_ NETACCESSAPIFAILED**</dt> <dt>0x8001012B</dt> </dl>                                           | NetAccessDel 或 NetAccessAdd 都傳回錯誤碼。<br/>                                                                                                 |
-| <span id="CO_E_WRONGTRUSTEENAMESYNTAX"></span><span id="co_e_wrongtrusteenamesyntax"></span><dl> <dt>**共 \_E \_ WRONGTRUSTEENAMESYNTAX**</dt> <dt>0x8001012C</dt> </dl>                               | 使用者提供的其中一個信任字串不符合 <Domain> \\ <Name> 語法，而且不是 " \* " 字串<br/>                   |
+| <span id="CO_E_WRONGTRUSTEENAMESYNTAX"></span><span id="co_e_wrongtrusteenamesyntax"></span><dl> <dt>**共 \_E \_ WRONGTRUSTEENAMESYNTAX**</dt> <dt>0x8001012C</dt> </dl>                               | 使用者提供的其中一個信任字串不符合 &lt; 功能變數名稱 &gt; \\ &lt; &gt; 語法，而且不是 " \* " 字串<br/>                   |
 | <span id="CO_E_INVALIDSID"></span><span id="co_e_invalidsid"></span><dl> <dt>**共 \_E \_ INVALIDSID**</dt> <dt>0x8001012D</dt> </dl>                                                                   | 使用者提供的其中一個安全識別碼無效<br/>                                                                                            |
 | <span id="CO_E_CONVERSIONFAILED"></span><span id="co_e_conversionfailed"></span><dl> <dt>**共 \_E \_ CONVERSIONFAILED**</dt> <dt>0x8001012E</dt> </dl>                                                 | 無法將寬字元信任者字串轉換成多位元組受信任字串<br/>                                                                             |
 | <span id="CO_E_NOMATCHINGSIDFOUND"></span><span id="co_e_nomatchingsidfound"></span><dl> <dt>**共 \_E \_ NOMATCHINGSIDFOUND**</dt> <dt>0x8001012F</dt> </dl>                                           | 找不到對應至使用者所提供之信任字串的安全識別碼<br/>                                                              |

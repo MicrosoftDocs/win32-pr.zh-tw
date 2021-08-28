@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1cdcc5e5b074a07cee13a9af7f7a0f8c0f629de0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8721455c09a263d9c856358d2ca55bb818ac48e5
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106978448"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122467395"
 ---
 # <a name="wmt_videoimage_transition_rectangle"></a>WMT \_ VIDEOIMAGE \_ 轉換 \_ 矩形
 
@@ -31,51 +31,15 @@ ms.locfileid: "106978448"
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>參數</th>
-<th>結構成員</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>中心 X</td>
-<td><strong>fEffectPara0</strong></td>
-<td>矩形中央的相對於影片框架的 X 座標。</td>
-</tr>
-<tr class="even">
-<td>中心 Y</td>
-<td><strong>fEffectPara1</strong></td>
-<td>矩形中央的 Y 座標（相對於影片框架）。</td>
-</tr>
-<tr class="odd">
-<td>寬度</td>
-<td><strong>fEffectPara2</strong></td>
-<td>矩形的寬度（以圖元為單位）。</td>
-</tr>
-<tr class="even">
-<td>高度</td>
-<td><strong>fEffectPara3</strong></td>
-<td>矩形的高度（以圖元為單位）。</td>
-</tr>
-<tr class="odd">
-<td>Composition</td>
-<td><strong>fEffectPara4</strong></td>
-<td>設定為下列其中一個值：
-<ul>
-<li>0-指定一般組合，其中上一個影像是背景，而目前影像是前景。</li>
-<li>1-指定反轉組合，其中目前影像是背景影像，而上一個影像是前景</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| 參數 | 結構成員 | Description | 
+|-----------|------------------|-------------|
+| 中心 X | <strong>fEffectPara0</strong> | 矩形中央的相對於影片框架的 X 座標。 | 
+| 中心 Y | <strong>fEffectPara1</strong> | 矩形中央的 Y 座標（相對於影片框架）。 | 
+| 寬度 | <strong>fEffectPara2</strong> | 矩形的寬度（以圖元為單位）。 | 
+| 高度 | <strong>fEffectPara3</strong> | 矩形的高度（以圖元為單位）。 | 
+| Composition | <strong>fEffectPara4</strong> | 設定為下列其中一個值：<ul><li>0-指定一般組合，其中上一個影像是背景，而目前影像是前景。</li><li>1-指定反轉組合，其中目前影像是背景影像，而上一個影像是前景</li></ul> | 
+
 
 
 

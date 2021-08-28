@@ -21,12 +21,12 @@ keywords:
 - 控制項類型，編輯
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 22a474b2533159fe535ae012f8e621bad7685109f497821a44fbfecc13fe79ee
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f5eea05d463f191483cb53f7cbfceef83058093f
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118826141"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122476131"
 ---
 # <a name="edit-control-type"></a>編輯控制項類型
 
@@ -51,28 +51,11 @@ ms.locfileid: "118826141"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>控制項檢視</th>
-<th>內容檢視</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>編輯</li>
-</ul></td>
-<td><ul>
-<li>編輯</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| 控制項檢視 | 內容檢視 | 
+|--------------|--------------|
+| <ul><li>編輯</li></ul> | <ul><li>編輯</li></ul> | 
+
 
 
 

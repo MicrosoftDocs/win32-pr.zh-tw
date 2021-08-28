@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: a810f8600ff80f683aca2143582feb0f06b21ceae73d3bda6f3ad778a70dbb85
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 13af9f9cb0464ff7f0f9c57f057685b360d09928
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117666815"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122886281"
 ---
 # <a name="archive-certification-requirements-for-windows-desktop-apps-v30"></a>封存： Windows Desktop app v3.0 的認證需求
 
@@ -155,8 +155,8 @@ Authenticode 數位簽章可讓使用者確認軟體是否為正版。 它也可
 -   開始功能表 AllPrograms > 啟動
 
 </dd> 10.3 Your app data, which must be shared among users on the computer, should be stored within ProgramData  
-10.4 Your app s data that is exclusive to a specific user and that is not to be shared with other users of the computer, must be stored in Users\\<username>\\AppData  
-10.5 您的應用程式絕不能直接寫入 "Windows" 目錄和或子目錄 <dl> 使用正確的方法來安裝檔案，例如字型或驅動程式。  
+10.4 Your app s data that is exclusive to a specific user and that is not to be shared with other users of the computer, must be stored in Users\\&lt;username&gt;\\AppData  
+10.5 Your app must never write directly to the "Windows" directory and or subdirectories <dl> 使用正確的方法來安裝檔案，例如字型或驅動程式。  
 </dl> </dd> 10.6 Your app must write user data at first run and not during the installation in  per-machine  installations <dl> 當應用程式安裝完成時，將不會有正確的使用者位置來儲存資料。 在安裝之後，應用程式嘗試修改電腦層級的預設關聯線為將會失敗。 相反地，預設值必須在每個使用者層級宣告，如此可防止多個使用者覆寫彼此的預設值。  
 </dl> </dd> 10.7 Exceptions and Waivers <dl> 寫入全域組件快取 (GAC 的應用程式必須要有棄權) .NET 應用程式應該將元件相依性保留為私用，並將其儲存在應用程式目錄中，除非明確需要共用元件。  
 </dl> </dd> </dl>
@@ -206,7 +206,7 @@ Windows 的使用者應該能夠在不發生衝突或中斷的情況下執行並
 
 
 
-| 需求                                                                     | 描述                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | 其他詳細資訊                                                                                                                                                                                                                                                                                |
+| 需求                                                                     | 說明                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | 其他詳細資訊                                                                                                                                                                                                                                                                                |
 |---------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 相容性與復原能力                                                    | 當機 & 當機時，會導致使用者嚴重中斷，並導致挫折。 應用程式應該具有復原能力和穩定性，消除這類失敗有助於確保軟體的可預測性、可維護性、效能和可信度。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | [WindowsVista、Windows 7 和 Windows 8 作業系統](/previous-versions/windows/it-pro/windows-7/cc722305(v=ws.10))<br/> [應用程式驗證器](/previous-versions/aa480483(v=msdn.10))<br/> [AppInit Dll](https://support.microsoft.com/kb/197571)<br/> |
 | 遵循 Windows 安全性的最佳作法                                       | 使用 Windows 的安全性最佳作法有助於避免暴露于 Windows 攻擊面。 攻擊面是惡意攻擊者利用目標軟體中的弱點來惡意探索作業系統的進入點。 其中一個最糟的安全性弱點是權限提高。                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | [Attack Surface Analyzer](https://technet.microsoft.com/security/gg749821)<br/> [存取控制清單](/windows/desktop/SecAuthZ/access-control-lists)<br/>                                                                                                                                |

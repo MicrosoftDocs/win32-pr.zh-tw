@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: c910407dbd9de9f12853973f9891fe092a0603ca50a03e59183697b0f92b07e0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 22f6a0edd0820127e65915fbc3c67645cf759354
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118968317"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122475544"
 ---
 # <a name="choosing-a-static-or-dynamic-shortcut-menu-method"></a>選擇靜態或動態快捷方式功能表方法
 
@@ -38,43 +38,14 @@ ms.locfileid: "118968317"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>靜態動詞</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>使用命令列參數的<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa"><strong>CreateProcess</strong></a></td>
-<td>這是實作為靜態動詞命令的最簡單且最常見的方法。 處理常式是透過對 <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa"><strong>CreateProcess</strong></a> 函式的呼叫來叫用，並以選取的檔案和任何選擇性參數傳遞做為命令列。 這會開啟檔案或資料夾。<br/> 此方法具有下列限制：
-<ul>
-<li>命令列長度限制為2000個字元，這會限制動詞可以處理的專案數。</li>
-<li>只能搭配檔案系統專案使用。</li>
-<li>不允許重複使用已在執行中的進程。</li>
-<li>需要安裝可執行檔才能處理動詞。</li>
-</ul>
-<br/></td>
-</tr>
-<tr class="even">
-<td><strong>DropTarget</strong> /<a href="/windows/desktop/api/oleidl/nn-oleidl-idroptarget"> <strong>IDropTarget</strong></a></td>
-<td>以 COM 為基礎的動詞啟用表示支援進程內或跨進程啟用。 <strong>DropTarget</strong> /當本機伺服器執行<strong>IDropTarget</strong>介面時， <a href="/windows/desktop/api/oleidl/nn-oleidl-idroptarget"><strong>IDropTarget</strong></a>也支援重複使用已在執行中的處理常式。 它也會透過封送處理的資料物件完全表示專案，並提供叫用網站鏈的參考，讓您可以透過 <a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/cc678966(v=vs.85)"><strong>QueryService</strong></a>與啟動程式互動。</td>
-</tr>
-<tr class="odd">
-<td>Windows 7 和更新版本： <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexecutecommand"> <strong>IExecuteCommand</strong></a></td>
-<td>最直接的實作為方法。 因為這是以 COM 為基礎的叫用方法 (像是 DropTarget) 這個介面支援進程內部和跨進程啟用。 此動詞命令會執行 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexecutecommand"><strong>IExecuteCommand</strong></a> 和 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iobjectwithselection"><strong>IObjectWithSelection</strong></a>，並選擇性地 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iinitializecommand"><strong>IInitializeCommand</strong></a>。 這些專案會直接傳遞為 Shell 專案陣列，而來自啟動程式的更多參數則可用於動詞執行，包括叫用點、鍵盤狀態等等。</td>
-</tr>
-<tr class="even">
-<td>Windows 7 和更新版本：<strong>ExplorerCommand</strong> /  <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommand"><strong>IExplorerCommand</strong></a></td>
-<td>啟用透過 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommandprovider"><strong>IExplorerCommandProvider</strong></a> 提供命令模組命令的資料來源，以使用這些命令做為快捷方式功能表上的動詞命令。 因為這個介面僅支援同進程啟用，所以建議您在命令和快捷方式功能表之間必須共用執行的 Shell 資料來源使用。</td>
-</tr>
-</tbody>
-</table>
+
+| 靜態動詞 | Description | 
+|-------------|-------------|
+| 使用命令列參數的<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa"><strong>CreateProcess</strong></a> | 這是實作為靜態動詞命令的最簡單且最常見的方法。 處理常式是透過對 <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa"><strong>CreateProcess</strong></a> 函式的呼叫來叫用，並以選取的檔案和任何選擇性參數傳遞做為命令列。 這會開啟檔案或資料夾。<br /> 此方法具有下列限制：<ul><li>命令列長度限制為2000個字元，這會限制動詞可以處理的專案數。</li><li>只能搭配檔案系統專案使用。</li><li>不允許重複使用已在執行中的進程。</li><li>需要安裝可執行檔才能處理動詞。</li></ul><br /> | 
+| <strong>DropTarget</strong> /<a href="/windows/desktop/api/oleidl/nn-oleidl-idroptarget"> <strong>IDropTarget</strong></a> | 以 COM 為基礎的動詞啟用表示支援進程內或跨進程啟用。 <strong>DropTarget</strong> /當本機伺服器執行<strong>IDropTarget</strong>介面時， <a href="/windows/desktop/api/oleidl/nn-oleidl-idroptarget"><strong>IDropTarget</strong></a>也支援重複使用已在執行中的處理常式。 它也會透過封送處理的資料物件完全表示專案，並提供叫用網站鏈的參考，讓您可以透過 <a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/cc678966(v=vs.85)"><strong>QueryService</strong></a>與啟動程式互動。 | 
+| Windows 7 和更新版本： <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexecutecommand"> <strong>IExecuteCommand</strong></a> | 最直接的實作為方法。 因為這是以 COM 為基礎的叫用方法 (像是 DropTarget) 這個介面支援進程內部和跨進程啟用。 此動詞命令會執行 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexecutecommand"><strong>IExecuteCommand</strong></a> 和 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iobjectwithselection"><strong>IObjectWithSelection</strong></a>，並選擇性地 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iinitializecommand"><strong>IInitializeCommand</strong></a>。 這些專案會直接傳遞為 Shell 專案陣列，而來自啟動程式的更多參數則可用於動詞執行，包括叫用點、鍵盤狀態等等。 | 
+| Windows 7 和更新版本：<strong>ExplorerCommand</strong> /  <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommand"><strong>IExplorerCommand</strong></a> | 啟用透過 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommandprovider"><strong>IExplorerCommandProvider</strong></a> 提供命令模組命令的資料來源，以使用這些命令做為快捷方式功能表上的動詞命令。 因為這個介面僅支援同進程啟用，所以建議您在命令和快捷方式功能表之間必須共用執行的 Shell 資料來源使用。 | 
+
 
 
 
@@ -93,7 +64,7 @@ ms.locfileid: "118968317"
 
 
 
-| 動詞類型                                                                                 | 描述                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| 動詞類型                                                                                 | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 |-------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 上表中所列的靜態動詞命令 () + Advanced 查詢語法 (AQS)                   | 此選項會取得動態動詞可視性。<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | Windows 7 和更新版本： [ **IExplorerCommand**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommand)                         | 此選項可讓您在 Windows 檔案總管的命令模組中顯示動詞和 explorer 命令的一般執行。                                                                                                                                                                                                                                                                                                                                                                                               |

@@ -3,7 +3,7 @@ title: FlowMenuLayout 元素
 description: 代表包含資源庫中專案之分行符號的水準配置。
 ms.assetid: 40c3a2e1-e58a-4d34-a237-b1bea116c82e
 keywords:
-- FlowMenuLayout 元素視窗功能區
+- FlowMenuLayout 元素 Windows 功能區
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 31a040fb51ad46feb30147fea97c19210cc16094
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 4d3c5ea50ae50edc3d6be16ad771229ea82801f4
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111442879"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122625734"
 ---
 # <a name="flowmenulayout-element"></a>FlowMenuLayout 元素
 
@@ -39,10 +39,10 @@ ms.locfileid: "111442879"
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col  />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">

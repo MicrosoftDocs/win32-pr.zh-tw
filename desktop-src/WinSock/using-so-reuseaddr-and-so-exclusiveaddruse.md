@@ -4,12 +4,12 @@ ms.assetid: b37a3e33-65ee-43b1-bc8b-3280db7ebee4
 title: 使用 SO_REUSEADDR 和 SO_EXCLUSIVEADDRUSE
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aaa4024f031102cbd634c235bb39f4c7860e6c1d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2d58b0249ab19b4c7a1655a1c65130d545d328ef4fba3fd56ae9b05a911cb3fe
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103693307"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120121141"
 ---
 # <a name="using-so_reuseaddr-and-so_exclusiveaddruse"></a>使用 \_ REUSEADDR 等 \_ EXCLUSIVEADDRUSE
 
@@ -19,13 +19,13 @@ ms.locfileid: "103693307"
 
 用戶端應用程式較不可能是這類攻擊的目標，因為它們較不容易受到影響，但因為大部分的用戶端系結至「暫時」本機埠，而不是靜態「服務」埠。 用戶端網路應用程式應該一律系結至暫時埠 (方法是在呼叫系結函式時，于 *name* 參數所 [](/windows/win32/api/winsock/nf-winsock-bind)指向的 [**SOCKADDR**](sockaddr-2.md)結構中指定埠0，) 除非有吸引人的架構原因。 暫時本機埠是由埠49151以上的埠所組成。 專用服務的大部分伺服器應用程式都會系結至小於或等於埠49151的知名保留埠。 因此，在大部分的應用程式中，用戶端與伺服器應用程式之間的系結要求通常不會發生衝突。
 
-本節說明各種 Microsoft Windows 平臺上的預設安全性層級，以及特定通訊端選項 **\_ REUSEADDR** 和 [ \_ EXCLUSIVEADDRUSE](so-exclusiveaddruse.md) 的影響，以及對網路應用程式安全性的影響。 Windows Server 2003 和更新版本上提供另一項稱為增強通訊端安全性的功能。 這些通訊端選項和增強通訊端安全性的可用性會因不同的 Microsoft 作業系統版本而異，如下表所示。
+本節說明各種 Microsoft Windows 平臺上的預設安全性層級，以及特定通訊端選項 **\_ REUSEADDR** 和 [ \_ EXCLUSIVEADDRUSE](so-exclusiveaddruse.md)的影響，以及對網路應用程式安全性的影響。 Windows Server 2003 及更新版本有提供稱為增強通訊端安全性的額外功能。 這些通訊端選項和增強通訊端安全性的可用性會因不同的 Microsoft 作業系統版本而異，如下表所示。
 
 | 平台            | \_REUSEADDR | \_EXCLUSIVEADDRUSE                  | 增強通訊端安全性 |
 |---------------------|---------------|---------------------------------------|--------------------------|
 | Windows 95          | 可用     | 無法使用                         | 無法使用            |
 | Windows 98          | 可用     | 無法使用                         | 無法使用            |
-| Windows Me          | 可用     | 無法使用                         | 無法使用            |
+| Windows我          | 可用     | 無法使用                         | 無法使用            |
 | Windows NT 4.0      | 可用     | 可在 Service Pack 4 和更新版本中使用 | 無法使用            |
 | Windows 2000        | 可用     | 可用                             | 無法使用            |
 | Windows XP          | 可用     | 可用                             | 無法使用            |
@@ -44,13 +44,13 @@ ms.locfileid: "103693307"
 
 ## <a name="using-so_exclusiveaddruse"></a>使用 \_ EXCLUSIVEADDRUSE
 
-在引進 **\_ EXCLUSIVEADDRUSE** 通訊端選項之前，有幾個網路應用程式開發人員可以避免惡意的程式系結到網路應用程式有自己的通訊端系結的埠。 為了解決此安全性問題，Windows 通訊端引進了 **\_ EXCLUSIVEADDRUSE** 通訊端選項，此選項可在 Windows NT 4.0 Service PACK 4 (SP4) 和更新版本中取得。
+在引進 **\_ EXCLUSIVEADDRUSE** 通訊端選項之前，有幾個網路應用程式開發人員可以避免惡意的程式系結到網路應用程式有自己的通訊端系結的埠。 為了解決這個安全性問題，Windows 通訊端引進了 **\_ EXCLUSIVEADDRUSE** 通訊端選項，它在 Windows NT 4.0 Service Pack 4 (SP4) 和更新版本上變成可用。
 
-**\_ EXCLUSIVEADDRUSE** 通訊端選項只可供 Windows XP 及更早版本上的 Administrators 安全性群組成員使用。 本文稍後將討論這項需求在 Windows Server 2003 和更新版本上的變更原因。
+只有 Windows XP 及更早版本的 Administrators 安全性群組成員才能使用 **\_ EXCLUSIVEADDRUSE** 通訊端選項。 本文稍後將討論這項需求在 Windows Server 2003 和更新版本上的變更原因。
 
 **\_ EXCLUSIVEADDRUSE** 選項的設定方式是呼叫 [**setsockopt**](/windows/win32/api/winsock/nf-winsock-setsockopt)函數，並將 *optname* 參數設定為 **\_ EXCLUSIVEADDRUSE** ，並在系結器之前，將 *optval* 參數設定為布林值 **TRUE** 。 設定選項之後，後續系 **結呼叫的** 行為會視每個系 [**結呼叫中**](/windows/win32/api/winsock/nf-winsock-bind)指定的網路位址而有所不同。
 
-下表說明當第二個通訊端嘗試系結至使用特定通訊端選項的第一個通訊端之前所系結的位址時，Windows XP 及更早版本中發生的行為。
+下表說明當第二個通訊端嘗試系結至使用特定通訊端選項的第一個通訊端之前所系結的位址時，在 Windows XP 及更早版本中所發生的行為。
 
 > [!NOTE]  
 > 在下表中，"萬用字元" 代表指定通訊協定 (的萬用字元位址，例如 IPv4 的 "0.0.0.0" 和 IPv6) 的 "：："。 「特定」代表指派了介面的特定 IP 位址。 資料表資料格指出系結是否成功 ( 「成功」 ) ，或針對 [WSAEADDRINUSE](windows-sockets-error-codes-2.md) 錯誤傳回 ( "INUSE" 的錯誤; [WSAEACCES](windows-sockets-error-codes-2.md) 錯誤) 的「存取」。
@@ -148,9 +148,9 @@ ms.locfileid: "103693307"
 
 ## <a name="enhanced-socket-security"></a>增強通訊端安全性
 
-增強通訊端安全性是隨著 Windows Server 2003 的發行而新增的。 在舊版的 Microsoft server 作業系統版本中，預設的通訊端安全性可輕易地讓程式從不受信任的應用程式劫持埠。 在 Windows Server 2003 中，通訊端預設不會處於可共用狀態。 因此，如果應用程式想要允許其他進程重複使用通訊端已系結的埠，則必須特別啟用它。 如果是這種情況，則在埠上呼叫 [**bind**](/windows/win32/api/winsock/nf-winsock-bind) 的第一個通訊端必須在通訊端上設定 **\_ REUSEADDR** 。 這種情況的唯一例外狀況是，當 **第二** 個系結呼叫是由進行原始 **呼叫進行系** 結的相同使用者帳戶執行時。 這個例外狀況僅為了提供回溯相容性而存在。
+增強通訊端安全性已隨 Windows Server 2003 的發行版本一起新增。 在舊版的 Microsoft server 作業系統版本中，預設的通訊端安全性可輕易地讓程式從不受信任的應用程式劫持埠。 在 Windows Server 2003 中，通訊端預設不會處於可共用狀態。 因此，如果應用程式想要允許其他進程重複使用通訊端已系結的埠，則必須特別啟用它。 如果是這種情況，則在埠上呼叫 [**bind**](/windows/win32/api/winsock/nf-winsock-bind) 的第一個通訊端必須在通訊端上設定 **\_ REUSEADDR** 。 這種情況的唯一例外狀況是，當 **第二** 個系結呼叫是由進行原始 **呼叫進行系** 結的相同使用者帳戶執行時。 這個例外狀況僅為了提供回溯相容性而存在。
 
-下表說明當第二個通訊端嘗試系結至使用特定通訊端選項的第一個通訊端之前系結的位址時，在 Windows Server 2003 和更新版本作業系統中發生的行為。
+下表說明當第二個通訊端嘗試系結至使用特定通訊端選項的第一個通訊端之前所系結的位址時，Windows Server 2003 和更新版本作業系統中發生的行為。
 
 > [!NOTE]
 > 在下表中，"萬用字元" 代表指定通訊協定 (的萬用字元位址，例如 IPv4 的 "0.0.0.0" 和 IPv6) 的 "：："。 「特定」代表指派了介面的特定 IP 位址。 資料表資料格指出系結是否成功 ( 「成功」 ) 或針對 [WSAEADDRINUSE](windows-sockets-error-codes-2.md) 錯誤傳回 ( "INUSE" 的錯誤; [WSAEACCES](windows-sockets-error-codes-2.md) 錯誤) 的「存取」。
@@ -319,7 +319,7 @@ ms.locfileid: "103693307"
 
 請注意，當系 [**結呼叫是在不同**](/windows/win32/api/winsock/nf-winsock-bind) 的使用者帳戶下進行時，預設行為會有所不同。 如果第一個呼叫端未在通訊端上設定任何選項，且系結至萬用字元位址，則第二個呼叫端無法設定 **\_ REUSEADDR** 選項，並成功系結至相同的埠。 未設定任何選項的預設行為也會傳回錯誤。
 
-在 Windows Vista 和更新版本上，可以建立可在 IPv6 和 IPv4 上運作的雙重堆疊通訊端。 當雙重堆疊通訊端系結至萬用字元位址時，會將指定的埠保留在 IPv4 和 IPv6 網路堆疊上，以及與 **\_ REUSEADDR** 建立關聯的檢查和 **\_ EXCLUSIVEADDRUSE** (（如果設定) ）。 這兩個網路堆疊上的這些檢查都必須成功。 例如，如果雙堆疊 TCP 通訊端設定為 **\_ EXCLUSIVEADDRUSE** ，然後嘗試系結至埠5000，則其他 TCP 通訊端之前都不能系結至埠 5000 (萬用字元或特定) 。 在此情況下，如果 IPv4 TCP 通訊端之前系結至埠5000上的回送位址，則雙堆疊通訊端的系 [**結呼叫會**](/windows/win32/api/winsock/nf-winsock-bind) 失敗並出現 [WSAEACCES](windows-sockets-error-codes-2.md)。
+在 Windows Vista 和更新版本上，可以建立可透過 IPv6 和 IPv4 運作的雙重堆疊通訊端。 當雙重堆疊通訊端系結至萬用字元位址時，會將指定的埠保留在 IPv4 和 IPv6 網路堆疊上，以及與 **\_ REUSEADDR** 建立關聯的檢查和 **\_ EXCLUSIVEADDRUSE** (（如果設定) ）。 這兩個網路堆疊上的這些檢查都必須成功。 例如，如果雙堆疊 TCP 通訊端設定為 **\_ EXCLUSIVEADDRUSE** ，然後嘗試系結至埠5000，則其他 TCP 通訊端之前都不能系結至埠 5000 (萬用字元或特定) 。 在此情況下，如果 IPv4 TCP 通訊端之前系結至埠5000上的回送位址，則雙堆疊通訊端的系 [**結呼叫會**](/windows/win32/api/winsock/nf-winsock-bind) 失敗並出現 [WSAEACCES](windows-sockets-error-codes-2.md)。
 
 ## <a name="application-strategies"></a>應用程式策略
 
@@ -329,4 +329,4 @@ ms.locfileid: "103693307"
 
 所有伺服器應用程式都必須針對強式通訊端安全性設定 **\_ EXCLUSIVEADDRUSE** 。 它不僅會防止惡意軟體劫持埠，也會指出是否有另一個應用程式系結至要求的埠。 例如，如果另一個進程目前系結至特定介面上的相同埠，則使用 **\_ EXCLUSIVEADDRUSE** 通訊端選項設定的 [**進程在萬用字元位址上系**](/windows/win32/api/winsock/nf-winsock-bind)結的呼叫將會失敗。
 
-最後，即使已在 Windows Server 2003 中改善通訊端安全性，應用程式應該一律設定 **\_ EXCLUSIVEADDRUSE** 通訊端選項，以確保它會系結至進程要求的所有特定介面。 Windows Server 2003 中的通訊端安全性為繼承應用程式增加了更高的安全性層級，但應用程式開發人員仍然必須設計其產品，並牢記安全性的所有層面。
+最後，即使 Windows Server 2003 中已改善通訊端安全性，應用程式還是應該一律設定 **\_ EXCLUSIVEADDRUSE** 通訊端選項，以確保它會系結至進程要求的所有特定介面。 Windows Server 2003 中的通訊端安全性為繼承應用程式增加了更高的安全性層級，但應用程式開發人員仍然必須設計其產品，並牢記安全性的所有層面。

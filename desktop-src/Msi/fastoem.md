@@ -1,15 +1,15 @@
 ---
-description: FASTOEM 屬性的設計目的是要讓 Oem 縮短為特定案例安裝 Windows Installer 應用程式所需的時間。
+description: FASTOEM 屬性的設計目的是要讓 oem 縮短為特定案例安裝 Windows Installer 應用程式所需的時間。
 ms.assetid: 4c0af524-eb2e-4d64-bb25-3dae488d236d
 title: FASTOEM 屬性
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 78993a4affed62baf7e15a2b7787d83cabb9429e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c882ee78645a7f3a0fd8cd2677ca7ddfabade9b4395202cbbf0ab547b12a19eb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106976251"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120129578"
 ---
 # <a name="fastoem-property"></a>FASTOEM 屬性
 
@@ -47,11 +47,11 @@ Timeout 是 **REG \_ DWORD** 型別。
 
 這是 **REG \_ DWORD** 型別，等於應用程式大小（以 kb 為單位）。 安裝程式不會自動寫入此值。
 
-如果傳送給終端使用者的 CD-ROM 將應用程式的安裝套件儲存在 CD-ROM 的根目錄，請使用下列範例命令列。 請注意，.msi 檔案的 [Media 資料表](media-table.md) 中的磁片區標籤必須與 cd-rom 的磁片區標籤相符。
+如果傳送給終端使用者的 CD-ROM 將應用程式的安裝套件儲存在 CD-ROM 的根目錄，請使用下列範例命令列。 請注意，.msi 檔案之 [媒體資料表](media-table.md) 中的磁片區標籤必須符合 cd-rom 的磁片區標籤。
 
 **Msiexec/I C： \\ TempImage \\package.msi/qn/LE logfile.txt ALLUSERS = 1 FASTOEM = 1 DISABLEROLLBACK = 1 ROOTDRIVE = C：\\**
 
-如果安裝套件不是位於傳送給使用者的 CD-ROM 根目錄，請使用下列範例命令列。 在此情況下，您必須將 [**MEDIAPACKAGEPATH**](mediapackagepath.md) 屬性設定為安裝套件的路徑。 .Msi 檔案的 [媒體資料表](media-table.md) 中的磁片區標籤必須符合 cd-rom 的磁片區標籤。 在此情況下，請遵循此範例。
+如果安裝套件不是位於傳送給使用者的 CD-ROM 根目錄，請使用下列範例命令列。 在此情況下，您必須將 [**MEDIAPACKAGEPATH**](mediapackagepath.md) 屬性設定為安裝套件的路徑。 .msi 檔案之 [媒體資料表](media-table.md) 中的磁片區標籤必須符合 cd-rom 的磁片區標籤。 在此情況下，請遵循此範例。
 
 **Msiexec/I C： \\ TempImage \\package.msi/qn/LE logfile.txt ALLUSERS = 1 FASTOEM = 1 DISABLEROLLBACK = 1 MEDIAPACKAGEPATH = C： \\ TempImage \\package.msi ROOTDRIVE = c：\\**
 
@@ -61,7 +61,7 @@ Timeout 是 **REG \_ DWORD** 型別。
 
 | 需求 | 值 |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 版本<br/> | Windows Server 2012、Windows 8、Windows Server 2008 R2 或 Windows 7 上的 Windows Installer 5.0。 Windows Server 2008 或 Windows Vista 上的 Windows Installer 4.0 或 Windows Installer 4.5。 Windows Server 2003 或 Windows XP 上的 Windows Installer。 如需 Windows Installer 版本所需的最小 Windows service pack 相關資訊，請參閱 [Windows Installer Run-Time 需求](windows-installer-portal.md) 。<br/> |
+| 版本<br/> | WindowsWindows Server 2012、Windows 8 Windows Server 2008 R2 或 Windows 7 上的安裝程式5.0。 WindowsWindows Server 2008 或 Windows Vista 上的安裝程式4.0 或 Windows Installer 4.5。 WindowsWindows Server 2003 或 Windows XP 上的安裝程式。 如需 Windows Installer 版本所需的最低 Windows service pack 相關資訊，請參閱[Windows Installer Run-Time 需求](windows-installer-portal.md)。<br/> |
 
 
 

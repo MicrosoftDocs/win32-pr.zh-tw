@@ -4,12 +4,12 @@ description: 以下是認證 dekstop apps 的測試詳細資料。
 ms.assetid: FA160F46-C266-4F89-B77F-166FEA9ED96B
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1b251104418e8eeff88d4d0188e34628b5ec1bf3b54015550084d4a0e9df567e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9e1ec63fee4a9410b261ed29dc44cf8934906984
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119086561"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122885980"
 ---
 # <a name="windows-app-certification-kit-tests"></a>Windows 應用程式認證套件測試
 
@@ -67,7 +67,7 @@ ms.locfileid: "119086561"
     -   **注意：** Windows 提供檔案虛擬化來改善應用程式相容性，並在 Windows 上以標準使用者的形式執行應用程式時排除問題。 您的應用程式不應該依賴虛擬化存在未來版本的 Windows。
 -   使用者特定的應用程式資料檔案夾
     -   在「個別電腦」安裝中，應用程式不能在安裝期間寫入使用者專屬的資料。 只有在使用者第一次啟動應用程式時，才應寫入使用者特定安裝資料。 這是因為沒有正確的使用者位置可在安裝時儲存資料。 在安裝之後，應用程式嘗試修改電腦層級的預設關聯線為將會失敗。 相反地，預設值必須在每個使用者層級宣告，如此可防止多個使用者覆寫彼此的預設值。
-    -   特定使用者專屬的所有應用程式資料，而不是與電腦的其他使用者共用，則必須儲存在使用者 \\ <username> \\ AppData 中。
+    -   特定使用者專屬的所有應用程式資料，而不是與電腦的其他使用者共用，則必須儲存在使用者使用者 \\ &lt; 名稱 &gt; \\ AppData 中。
     -   必須在電腦上的使用者之間共用的所有應用程式資料都應儲存在 ProgramData 中。
 -   其他系統資料夾和登錄機碼
     -   應用程式永遠不應該直接寫入 Windows 目錄和或子目錄。 使用正確的方法，將檔案（例如字型或驅動程式）安裝至這些目錄。

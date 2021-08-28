@@ -8,12 +8,12 @@ keywords:
 - 路徑剖析器 ADSI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 544ab295318ac80ed19df39a7e5837b566615903a8d8bb963b6fdd5435efde8c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 518db6857f9b7018a0dbf3e1e97ac60ed654447d
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119023286"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122880285"
 ---
 # <a name="parsecpp"></a>解析。CPP
 
@@ -25,13 +25,13 @@ ms.locfileid: "119023286"
 
 
 
-| 項目                      | 描述                                                                                                                                                            |
+| 項目                      | 說明                                                                                                                                                            |
 |---------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **ADsObject**             | 剖析傳遞給它的 ADspath。 此函數會遵循下列文法規則： <ADsObject>  ->  <ProviderName><SampleDSObject><br/>     |
-| **SampleDSObject**        | 剖析下列文法規則： <SampleDSObject> -> " \\ \\ " <identifier> " \\ "<Pathname><br/>                                            |
+| **ADsObject**             | 剖析傳遞給它的 ADspath。 此函數會遵循下列文法規則： &lt; ADsObject &gt;  ->  &lt; ProviderName &gt; &lt; SampleDSObject&gt;<br/>     |
+| **SampleDSObject**        | 剖析下列文法規則： &lt; SampleDSObject &gt; -> " \\ \\ " &lt; identifier &gt; " \\ " &lt; 路徑名稱&gt;<br/>                                            |
 | **ProviderName**          | 在語法正確的提供者名稱中加入（如果沒有的話）。                                                                                                          |
-| **PathName**              | 剖析下列文法規則： <Pathname>  ->  <Component> " \\ \\ " <Pathname> 或<br/> <Pathname> -> <Component><br/> |
-| **元件**             | 剖析下列文法規則： <Identifier> 或<br/> <Identifier> "=" <Identifier><br/>                                              |
+| **PathName**              | 剖析下列文法規則： &lt; pathname &gt;  ->  &lt; 元件 &gt; " \\ \\ " &lt; 路徑名稱 &gt; 或<br/> &lt;Pathname &gt;  ->  &lt; 元件&gt;<br/> |
+| **元件**             | 剖析下列文法規則： &lt; 識別碼 &gt; 或<br/> &lt;識別碼 &gt; "=" &lt; 識別碼&gt;<br/>                                              |
 | **CLexer::CLexer**        | 標準的函式。                                                                                                                                                  |
 | **CLexer：： ~ CLexer**       | 標準的函式。                                                                                                                                                   |
 | **CLexer::GetNextToken**  | 權杖化工具。                                                                                                                                                             |

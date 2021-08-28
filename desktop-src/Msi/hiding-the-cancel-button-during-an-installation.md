@@ -4,16 +4,16 @@ ms.assetid: de2bb788-0d19-4818-8038-cae6000b38c4
 title: 在安裝期間隱藏 [取消] 按鈕
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e55658bc69fe81b83b13d6c6ee7da84db77ad466
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d9b838803b65b8923dc45f36e17579e30114c1bc6d86c8fba2e533252e524568
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975160"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120129528"
 ---
 # <a name="hiding-the-cancel-button-during-an-installation"></a>在安裝期間隱藏 [取消] 按鈕
 
-您可以使用命令列選項、Windows Installer API 或自訂動作來隱藏用來取消安裝的 [ **取消** ] 按鈕。 您可以根據所使用的方法，隱藏部分或所有安裝的 [ **取消** ] 按鈕。
+您可以使用命令列選項、Windows Installer API 或自訂動作來隱藏用來取消安裝的 [**取消**] 按鈕。 您可以根據所使用的方法，隱藏部分或所有安裝的 [ **取消** ] 按鈕。
 
 ## <a name="hiding-the-cancel-button-from-the-command-line"></a>從命令列隱藏 [取消] 按鈕
 
@@ -63,7 +63,7 @@ Installer.InstallProduct "example.msi"
 
 ## <a name="hiding-the-cancel-button-for-parts-of-an-installation-using-a-custom-action"></a>使用自訂動作隱藏部分安裝部分的 [取消] 按鈕
 
-安裝過程中，您可以 \_ 使用 DLL 自訂動作或腳本來傳送 INSTALLMESSAGE COMMONDATA 訊息，以隱藏和取消隱藏安裝元件中的 [取消] 按鈕。 如需詳細資訊，請參閱 [動態連結程式庫](dynamic-link-libraries.md)、 [腳本](scripts.md)、 [自訂動作](custom-actions.md)，以及 [使用 MsiProcessMessage 將訊息傳送至 Windows Installer](sending-messages-to-windows-installer-using-msiprocessmessage.md)。
+安裝過程中，您可以 \_ 使用 DLL 自訂動作或腳本來傳送 INSTALLMESSAGE COMMONDATA 訊息，以隱藏和取消隱藏安裝元件中的 [取消] 按鈕。 如需詳細資訊，請參閱[動態連結程式庫](dynamic-link-libraries.md)、[腳本](scripts.md)、[自訂動作](custom-actions.md)，以及[使用 MsiProcessMessage 將訊息傳送至 Windows Installer](sending-messages-to-windows-installer-using-msiprocessmessage.md)。
 
 自訂動作的呼叫必須提供記錄。 此記錄的欄位1必須包含值 2 (兩個) 來指定 [ **取消** ] 按鈕。 欄位2必須包含值0或1。 欄位2中的0值會隱藏按鈕，而欄位2中的值為1會 unhides 按鈕。 請注意，使用 [**MsiCreateRecord**](/windows/desktop/api/Msiquery/nf-msiquery-msicreaterecord) 配置大小2的記錄，會提供欄位0、1和2。
 

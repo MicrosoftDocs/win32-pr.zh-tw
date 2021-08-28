@@ -4,12 +4,12 @@ ms.assetid: d400f222-c50c-4c7b-8f8a-0c3ed3bba3b9
 title: 使用 SymSrv
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 197a627e50c6be3a3e8636378890025a6dde091948954e2709935c7dc84fa30c
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: d1f0abcbd76b710e6a9429baa1ceff6d3a53a0df
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119655028"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122886497"
 ---
 # <a name="using-symsrv"></a>使用 SymSrv
 
@@ -48,13 +48,13 @@ srv \* *SymbolStore1* \* *SymbolStoreN*
 
 下表顯示支援的符號存放區類型範例。
 
-|  符號存放區類型       |  描述 |
+|  符號存放區類型       |  說明 |
 |----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \\\\伺服器 \\ 共用          | 遠端伺服器上共用的完整 UNC 路徑。                                                                                                                                                                                                                                                                                                 |
 | c： \\ LocalCache             | 用戶端電腦上目錄的路徑。                                                                                                                                                                                                                                                                                                             |
 | https://InternetSite        | 裝載符號之網站的 URL。 必須是清單中最右邊的存放區，而且不可以是清單中的唯一存放區。                                                                                                                                                                                                                          |
 | https://SecureInternetSite | 裝載符號之安全網站的 URL。 這可支援密碼、Windows 登入認證、憑證和智慧卡。 必須是清單中最右邊的存放區，而且不可以是清單中的唯一存放區。                                                                                                                              |
-| <blank>              | 如果兩個星號之間沒有文字，這表示預設的 *下游存放區*。 您可以藉由呼叫 [**SymSetHomeDirectory**](/windows/desktop/api/Dbghelp/nf-dbghelp-symsethomedirectory)來設定位置。 預設值是名為 "sym" 的目錄，緊接在呼叫應用程式的程式目錄正下方。 這有時稱為 *預設本機* 快取。 |
+| 空白&lt;&gt;              | 如果兩個星號之間沒有文字，這表示預設的 *下游存放區*。 您可以藉由呼叫 [**SymSetHomeDirectory**](/windows/desktop/api/Dbghelp/nf-dbghelp-symsethomedirectory)來設定位置。 預設值是名為 "sym" 的目錄，緊接在呼叫應用程式的程式目錄正下方。 這有時稱為 *預設本機* 快取。 |
 
 
 

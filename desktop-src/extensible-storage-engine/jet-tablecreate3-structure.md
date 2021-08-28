@@ -17,21 +17,21 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 587649b592f2b0d213a481c3bfbecc723240e486
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1b3e1f3a21b5e5f901ef039b9cff0cdd52d415d5
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106991680"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122983021"
 ---
 # <a name="jet_tablecreate3-structure"></a>JET_TABLECREATE3 結構
 
 
-_**適用于：** Windows |Windows Server_
+_**適用于：** Windows |Windows伺服器_
 
-**JET_TABLECREATE3** 結構包含建立資料表時所需的資訊，此資料表會填入可延伸儲存引擎中的資料行和索引， (ESE) 資料庫，並指定回呼函數。 [JetCreateTableColumnIndex3](./jetcreatetablecolumnindex3-function.md)函數會使用 **JET_TABLECREATE3** 結構。
+**JET_TABLECREATE3** 結構包含建立資料表時所需的資訊，這些資訊會以可延伸的儲存體引擎 (ESE) 資料庫中的資料行和索引來填入，以及指定回呼函數。 [JetCreateTableColumnIndex3](./jetcreatetablecolumnindex3-function.md)函數會使用 **JET_TABLECREATE3** 結構。
 
-在 Windows 7 作業系統中引進了 **JET_TABLECREATE3** 結構。
+Windows 7 作業系統引進了 **JET_TABLECREATE3** 結構。
 
 ``` cpp
 typedef struct tagJET_TABLECREATE3 {
@@ -119,111 +119,52 @@ typedef struct tagJET_TABLECREATE3 {
 
 此位位由下表所列的一或多個位值所組成。
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>值</p></th>
-<th><p>意義</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_cbtypFinalize</p></td>
-<td><p>當可以完成的資料行已消失時，就會呼叫回呼函數。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_cbtypBeforeInsert</p></td>
-<td><p>回呼函式會在插入記錄之前呼叫。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_cbtypAfterInsert</p></td>
-<td><p>在資料庫引擎完成插入記錄之後，將會呼叫回呼函數。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_cbtypBeforeReplace</p></td>
-<td><p>回呼函數將在修改記錄之前呼叫。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_cbtypAfterReplace</p></td>
-<td><p>完成記錄修改之後，將會呼叫回呼函數。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_cbtypBeforeDelete</p></td>
-<td><p>回呼函數將在刪除記錄之前呼叫。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_cbtypAfterDelete</p></td>
-<td><p>刪除記錄之後，將會呼叫回呼函數。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_cbtypUserDefinedDefaultValue</p></td>
-<td><p>系統會呼叫回呼函式來計算使用者定義的預設值。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_cbtypFreeCursorLS</p></td>
-<td><p>當必須釋放與資料指標相關聯的本機儲存體時，就會呼叫回呼函數。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_cbtypFreeTableLS</p></td>
-<td><p>當必須釋放與資料表相關聯的本機儲存體時，就會呼叫回呼函數。</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>值</p> | <p>意義</p> | 
+|--------------|----------------|
+| <p>JET_cbtypFinalize</p> | <p>當可以完成的資料行已消失時，就會呼叫回呼函數。</p> | 
+| <p>JET_cbtypBeforeInsert</p> | <p>回呼函式會在插入記錄之前呼叫。</p> | 
+| <p>JET_cbtypAfterInsert</p> | <p>在資料庫引擎完成插入記錄之後，將會呼叫回呼函數。</p> | 
+| <p>JET_cbtypBeforeReplace</p> | <p>回呼函數將在修改記錄之前呼叫。</p> | 
+| <p>JET_cbtypAfterReplace</p> | <p>完成記錄修改之後，將會呼叫回呼函數。</p> | 
+| <p>JET_cbtypBeforeDelete</p> | <p>回呼函數將在刪除記錄之前呼叫。</p> | 
+| <p>JET_cbtypAfterDelete</p> | <p>刪除記錄之後，將會呼叫回呼函數。</p> | 
+| <p>JET_cbtypUserDefinedDefaultValue</p> | <p>系統會呼叫回呼函式來計算使用者定義的預設值。</p> | 
+| <p>JET_cbtypFreeCursorLS</p> | <p>當必須釋放與資料指標相關聯的本機儲存體時，就會呼叫回呼函數。</p> | 
+| <p>JET_cbtypFreeTableLS</p> | <p>當必須釋放與資料表相關聯的本機儲存體時，就會呼叫回呼函數。</p> | 
+
 
 
 **grbit**
 
 位群組，其中包含下表所列的零或多個呼叫選項值。
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>值</p></th>
-<th><p>意義</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_bitTableCreateFixedDDL</p></td>
-<td><p>防止資料表上的 DDL 作業 (例如新增或移除) 的資料行。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitTableCreateTemplateTable</p></td>
-<td><p>使資料表成為範本資料表。 然後，新的資料表可將此資料表的名稱指定為其範本資料表。 設定 JET_bitTableCreateTemplateTable 意指 JET_bitTableCreateFixedDDL。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitTableCreateNoFixedVarColumnsInDerivedTables</p></td>
-<td><p>必須搭配 JET_bitTableCreateTemplateTable 使用。 已取代。 請勿使用。</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>值</p> | <p>意義</p> | 
+|--------------|----------------|
+| <p>JET_bitTableCreateFixedDDL</p> | <p>防止資料表上的 DDL 作業 (例如新增或移除) 的資料行。</p> | 
+| <p>JET_bitTableCreateTemplateTable</p> | <p>使資料表成為範本資料表。 然後，新的資料表可將此資料表的名稱指定為其範本資料表。 設定 JET_bitTableCreateTemplateTable 意指 JET_bitTableCreateFixedDDL。</p> | 
+| <p>JET_bitTableCreateNoFixedVarColumnsInDerivedTables</p> | <p>必須搭配 JET_bitTableCreateTemplateTable 使用。 已取代。 請勿使用。</p> | 
+
 
 
 **pSeqSpacehints**
 
 預設連續索引的 [JET_SPACEHINTS](./jet-spacehints-structure.md) 結構指標。
 
-**pSeqSpacehints** 是在 Windows 7 中引進的。
+**pSeqSpacehints** 是在 Windows 7 中引進。
 
 **pLVSpacehints**
 
 分隔 Long 值樹狀結構的 [JET_SPACEHINTS](./jet-spacehints-structure.md) 結構指標。
 
-**pLVSpacehints** 是在 Windows 7 中引進的。
+**pLVSpacehints** 是在 Windows 7 中引進。
 
 **cbSeparateLV**
 
 將內建的 LV 與主要記錄分開的大小。 分隔的 LV 樹狀結構的任何 long 值 c 結構。 如需詳細資訊，請參閱 ng- [JET_SPACEHINTS](./jet-spacehints-structure.md)中的值。 如果記錄變得太大，則小於此值的 Long 值資料行可能會分開。
 
-**cbSeparateLV** 是在 Windows 7 中引進的。
+**cbSeparateLV** 是在 Windows 7 中引進。
 
 **tableid**
 
@@ -237,30 +178,14 @@ typedef struct tagJET_TABLECREATE3 {
 
 ### <a name="requirements"></a>規格需求
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>用戶端</strong></p></td>
-<td><p>需要 Windows Vista 或 Windows XP。</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>伺服器</strong></p></td>
-<td><p>需要 Windows Server 2008 或 Windows Server 2003。</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>標頭</strong></p></td>
-<td><p>宣告于 Esent. h 中。</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Unicode</strong></p></td>
-<td><p>實作為 <strong>JET_TABLECREATE3_W</strong> (Unicode) 和 <strong>JET_TABLECREATE3_A</strong> (ANSI) 。</p></td>
-</tr>
-</tbody>
-</table>
+
+| 需求 | 值 |
+|------------|----------|
+| <p><strong>用戶端</strong></p> | <p>需要 Windows Vista 或 Windows XP。</p> | 
+| <p><strong>伺服器</strong></p> | <p>需要 Windows server 2008 或 Windows server 2003。</p> | 
+| <p><strong>標頭</strong></p> | <p>宣告于 Esent. h 中。</p> | 
+| <p><strong>Unicode</strong></p> | <p>實作為 <strong>JET_TABLECREATE3_W</strong> (Unicode) 和 <strong>JET_TABLECREATE3_A</strong> (ANSI) 。</p> | 
+
 
 
 ### <a name="see-also"></a>另請參閱

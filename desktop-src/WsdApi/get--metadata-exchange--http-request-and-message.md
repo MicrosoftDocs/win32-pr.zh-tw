@@ -4,12 +4,12 @@ ms.assetid: 18bf27aa-6ae5-4419-ae68-6df9eda10cd4
 title: 取得 (中繼資料 Exchange) HTTP 要求和訊息
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1c9cf6241b38f7fa81cc5d9a7c21a0f5e1a406aa
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.openlocfilehash: 994e02b990dc87cf8551e215bc7eae94dbcf7852
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122885254"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122632066"
 ---
 # <a name="get-metadata-exchange-http-request-and-message"></a>取得 (中繼資料 Exchange) HTTP 要求和訊息
 
@@ -50,7 +50,7 @@ Get HTTP 要求具有下列焦點點。
 <tr class="header">
 <th>對焦點</th>
 <th>標題列</th>
-<th>說明</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -123,14 +123,14 @@ Get 訊息具有下列焦點點。
 <tbody>
 <tr class="odd">
 <td>收件者</td>
-<td><pre class="syntax" data-space="preserve"><code>&lt;wsa:To&gt;
+<td><pre class="syntax" data-space="preserve"><code><wsa:To>
     urn:uuid:37f86d35-e6ac-4241-964f-1d9ae46fb366
-&lt;/wsa:To&gt;</code></pre></td>
+</wsa:To></code></pre></td>
 <td>要求中繼資料之裝置的識別碼。</td>
 </tr>
 <tr class="even">
 <td>Get</td>
-<td><pre class="syntax" data-space="preserve"><code>&lt;wsa:Action&gt;
+<td><pre class="syntax" data-space="preserve"><code><wsa:Action>
     https://schemas.xmlsoap.org/ws/2004/09/transfer/Get
 </wsa:Action</code></pre></td>
 <td>Get SOAP 動作會將訊息識別為取得訊息。</td>

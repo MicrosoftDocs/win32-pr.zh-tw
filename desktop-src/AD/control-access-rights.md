@@ -7,12 +7,12 @@ keywords:
 - 控制存取權限
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 048c4aa685e0c569ef2ac762dcf17366a2394826
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: c975ac20cac683e754f1b703bd272356c9b8df8f
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104462908"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122881615"
 ---
 # <a name="control-access-rights-ad-ds"></a>控制 (AD DS) 的存取權限
 
@@ -22,7 +22,7 @@ Active Directory Domain Services 中的所有物件都支援 [**ADS \_ 許可權
 
 -   針對擴充許可權，這是標準存取權限集未涵蓋的特殊作業。 例如，使用者類別可以被授與可供 Exchange、Outlook 或任何其他郵件應用程式使用的「傳送為」許可權，以判斷特定使用者是否可以讓其他使用者代表他們傳送郵件。 在 **controlAccessRight** 物件上建立延伸許可權的方式，是將 **validAccesses** 屬性設定為等於 (256) 存取權限的 **ADS \_ 正確 \_ DS \_ 控制 \_ 存取權** 。
 -   若要定義屬性集，可讓您控制對物件屬性子集的存取，而不只是個別的屬性。 使用標準存取權限時，單一 ACE 可以授與或拒絕存取所有物件的屬性或單一屬性。 控制存取權限提供單一 ACE 的方法，以控制一組屬性的存取權。 例如，使用者類別支援包含如街道位址和電話號碼等屬性的 **個人資訊** 屬性集。 在 **controlAccessRight** 物件上建立屬性集許可權的方法是設定 **validAccesses** 屬性，以同時包含 **ACTR \_ ds \_ 讀取 \_** 屬性 (16) 和 **ACTRL \_ DS \_ 寫入 \_** 屬性 (32) 存取權限。
--   針對已驗證的寫入，要求系統在將值寫入 DS 物件的屬性之前，先執行值檢查或驗證（除了架構所需的值）。 這樣可確保針對屬性輸入的值符合所需的語法、位於值的合法範圍內，或進行一些其他特殊檢查，而不會對屬性進行簡單的低層級寫入。 驗證的寫入會與「寫入」許可權不同的特殊許可權相關聯， <attribute> 該許可權會允許將任何值寫入屬性，而不會執行任何值檢查。 驗證的寫入是這三種存取權限的唯一一種，無法建立為應用程式的新控制項存取權限。 這是因為無法以程式設計方式修改現有的系統來強制執行驗證。 如果控制項存取權是在系統中設定為經過驗證的寫入，則 **controlAccessRight** 物件上的 **validAccesses** 屬性將會包含 **ADS \_ right \_ \_ SELF** (8) 存取權限。
+-   針對已驗證的寫入，要求系統在將值寫入 DS 物件的屬性之前，先執行值檢查或驗證（除了架構所需的值）。 這樣可確保針對屬性輸入的值符合所需的語法、位於值的合法範圍內，或進行一些其他特殊檢查，而不會對屬性進行簡單的低層級寫入。 驗證的寫入會與「寫入屬性」許可權不同的特殊許可權相關聯 &lt; ， &gt; 該許可權會允許將任何值寫入屬性，且不會執行任何值檢查。 驗證的寫入是這三種存取權限的唯一一種，無法建立為應用程式的新控制項存取權限。 這是因為無法以程式設計方式修改現有的系統來強制執行驗證。 如果控制項存取權是在系統中設定為經過驗證的寫入，則 **controlAccessRight** 物件上的 **validAccesses** 屬性將會包含 **ADS \_ right \_ \_ SELF** (8) 存取權限。
 
     在 Windows 2000 Active Directory 架構中，只會定義三個已驗證的寫入：
 
@@ -34,7 +34,7 @@ Active Directory Domain Services 中的所有物件都支援 [**ADS \_ 許可權
 
 您可以在 ACL 編輯器中，將所有控制存取權限視為許可權。
 
-如需詳細資訊以及設定 ACE 來控制屬性集之讀取/寫入存取的 c + + 和 Visual Basic 程式碼範例，請參閱 [在目錄物件上設定 ace 的範例程式碼](example-code-for-setting-an-ace-on-a-directory-object.md)。
+如需詳細資訊以及設定 ace 來控制屬性集之讀取/寫入存取的 c + + 和 Visual Basic 程式碼範例，請參閱[在目錄物件上設定 ace 的範例程式碼](example-code-for-setting-an-ace-on-a-directory-object.md)。
 
 如需使用控制存取權限來控制特殊作業存取權的詳細資訊，請參閱：
 
@@ -43,6 +43,6 @@ Active Directory Domain Services 中的所有物件都支援 [**ADS \_ 許可權
 -   [在物件的 ACL 中檢查控制項存取權](checking-a-control-access-right-in-an-objectampaposs-acl.md)
 -   [讀取物件 ACL 中的 Control 存取權限集合](reading-a-control-access-right-set-in-an-objectampaposs-acl.md)
 
- 
+ 
 
- 
+ 

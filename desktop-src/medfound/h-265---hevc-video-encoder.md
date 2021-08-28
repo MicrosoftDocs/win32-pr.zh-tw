@@ -4,12 +4,12 @@ ms.assetid: 790CFB39-6FC0-432D-A434-5262C30EABF4
 title: H. 265/HEVC 影片編碼器
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 015295792a72f3250c47389192586dbc00566858
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0b95eee96d3313df2604919883cf631b0aef999f
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943689"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122467485"
 ---
 # <a name="h265--hevc-video-encoder"></a>H. 265/HEVC 影片編碼器
 
@@ -45,59 +45,19 @@ H. 視頻編碼器會公開下列介面：
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>屬性</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="mf-mt-major-type-attribute.md"><strong>MF_MT_MAJOR_TYPE</strong></a></td>
-<td>主要類型。 必須是 <strong>MFMediaType_Video</strong>。</td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-subtype-attribute.md"><strong>MF_MT_SUBTYPE</strong></a></td>
-<td>影片子類型。 必須是 <strong>MFVideoFormat_HEVC</strong>。</td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-avg-bitrate-attribute.md"><strong>MF_MT_AVG_BITRATE</strong></a></td>
-<td>平均編碼的位速度，以位/秒為單位。 必須大於零。</td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-frame-rate-attribute.md"><strong>MF_MT_FRAME_RATE</strong></a></td>
-<td>畫面播放速率。</td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-frame-size-attribute.md"><strong>MF_MT_FRAME_SIZE</strong></a></td>
-<td>框架大小。</td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-interlace-mode-attribute.md"><strong>MF_MT_INTERLACE_MODE</strong></a></td>
-<td>交錯模式。</td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-video-profile.md">MF_MT_VIDEO_PROFILE</a></td>
-<td>H. 265 編碼設定檔。<br/> 支援的值為： <br/>
-<ul>
-<li><strong>eAVEncH265VProfile_Main_420_8</strong></li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-mpeg2-level-attribute.md"><strong>MF_MT_MPEG2_LEVEL</strong></a></td>
-<td>指定編碼影片的層級。 如需有關設定檔和層級條件約束的詳細資訊，請參閱 ITU-T H. 265 的附錄 A。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-pixel-aspect-ratio-attribute.md"><strong>MF_MT_PIXEL_ASPECT_RATIO</strong></a></td>
-<td>選擇性。 指定圖元外觀比例。 預設值為1:1。</td>
-</tr>
-</tbody>
-</table>
+
+| 屬性 | 描述 | 
+|-----------|-------------|
+| <a href="mf-mt-major-type-attribute.md"><strong>MF_MT_MAJOR_TYPE</strong></a> | 主要類型。 必須是 <strong>MFMediaType_Video</strong>。 | 
+| <a href="mf-mt-subtype-attribute.md"><strong>MF_MT_SUBTYPE</strong></a> | 影片子類型。 必須是 <strong>MFVideoFormat_HEVC</strong>。 | 
+| <a href="mf-mt-avg-bitrate-attribute.md"><strong>MF_MT_AVG_BITRATE</strong></a> | 平均編碼的位速度，以位/秒為單位。 必須大於零。 | 
+| <a href="mf-mt-frame-rate-attribute.md"><strong>MF_MT_FRAME_RATE</strong></a> | 畫面播放速率。 | 
+| <a href="mf-mt-frame-size-attribute.md"><strong>MF_MT_FRAME_SIZE</strong></a> | 框架大小。 | 
+| <a href="mf-mt-interlace-mode-attribute.md"><strong>MF_MT_INTERLACE_MODE</strong></a> | 交錯模式。 | 
+| <a href="mf-mt-video-profile.md">MF_MT_VIDEO_PROFILE</a> | H. 265 編碼設定檔。<br /> 支援的值為： <br /><ul><li><strong>eAVEncH265VProfile_Main_420_8</strong></li></ul> | 
+| <a href="mf-mt-mpeg2-level-attribute.md"><strong>MF_MT_MPEG2_LEVEL</strong></a> | 指定編碼影片的層級。 如需有關設定檔和層級條件約束的詳細資訊，請參閱 ITU-T H. 265 的附錄 A。<br /> | 
+| <a href="mf-mt-pixel-aspect-ratio-attribute.md"><strong>MF_MT_PIXEL_ASPECT_RATIO</strong></a> | 選擇性。 指定圖元外觀比例。 預設值為1:1。 | 
+
 
 
 
@@ -150,83 +110,23 @@ H. 編碼程式會實 [**ICodecAPI**](/windows/win32/api/strmif/nn-strmif-icodec
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>屬性</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="/windows/desktop/DirectShow/avenccommonratecontrolmode-property"><strong>CODECAPI_AVEncCommonRateControlMode</strong></a></td>
-<td>設定速率控制模式。 支援的模式如下：<br/>
-<ul>
-<li><strong>eAVEncCommonRateControlMode_CBR</strong></li>
-<li><strong>eAVEncCommonRateControlMode_Quality</strong></li>
-</ul>
-如果指定了其他模式，則會使用 <strong>eAVEncCommonRateControlMode_CBR</strong> 速率控制。<br/> 這是 VT_UI4 的值。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/DirectShow/avenccommonmeanbitrate-property">CODECAPI_AVEncCommonMeanBitRate</a></td>
-<td>設定編碼位資料流程的平均位元速率，以每秒位數為單位。 <br/> 有效範圍為 [1 .。。2³²-1]。 <br/> 這是 VT_UI4 的值。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/DirectShow/avenccommonbuffersize-property">CODECAPI_AVEncCommonBufferSize</a></td>
-<td>以位元組為單位，設定常數速率的緩衝區大小（以位元組為單位） (CBR) 編碼。<br/> 有效範圍為 [1 .。。2³²-1]。 <br/> 這是 VT_UI4 的值。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/DirectShow/avenccommonmaxbitrate-property">CODECAPI_AVEncCommonMaxBitRate</a></td>
-<td>針對速率控制模式設定允許尖峰位元速率的最大位元速率。 <br/> 有效範圍為 [1 .。。2³²-1]。 <br/> 這是 VT_UI4 的值。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/DirectShow/avencmpvgopsize-property">CODECAPI_AVEncMPVGOPSize</a></td>
-<td>將每個 GOP 標頭的圖片數目設定為下一個，包括前置錨點，但不包括下列各項。 <br/> 有效範圍是 [0 .。。2³²-1]。 如果為零，則編碼器會選取 GOP 大小。 預設值為零。 <br/> 這是 VT_UI4 的值。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="codecapi-avlowlatencymode.md">CODECAPI_AVLowLatencyMode</a></td>
-<td>啟用或停用低延遲模式。 <br/> 這是 VT_BOOL 的值。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/DirectShow/avenccommonqualityvsspeed-property">CODECAPI_AVEncCommonQualityVsSpeed</a></td>
-<td>設定品質/速度的取捨。 此值會影響編碼器執行各種編碼作業（例如動作補償）的方式。 在較高的複雜性層級中，編碼器的執行速度會更慢，但以相同的位元速率產生更高的品質。 <br/> 有效範圍為 0-100。 就內部而言，此值會對應至編碼器所支援的一組較小品質/速度層級。<br/> 這是 VT_UI4 的值。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="codecapi-avencvideoforcekeyframe.md">CODECAPI_AVEncVideoForceKeyFrame</a></td>
-<td>強制編碼器將下一個畫面格編碼為主要畫面格。<br/> 這是 VT_UI4 的值。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="codecapi-avencvideoencodeqp.md">CODECAPI_AVEncVideoEncodeQP</a></td>
-<td>設定此屬性時，會導致編碼器使用指定的 QP 來編碼下一個框架和所有後續的框架，直到指定新的 QP 為止。 <br/> 有效範圍：0–51（含） <br/></td>
-</tr>
-<tr class="even">
-<td><a href="codecapi-avencvideominqp.md">CODECAPI_AVEncVideoMinQP</a></td>
-<td>這個屬性會設定編碼器在 CBR ratecontrol 期間可以使用的最小 QP 的限制。<br/> 這是 VT_UI4 的值。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="codecapi-avencvideomaxqp.md">CODECAPI_AVEncVideoMaxQP</a></td>
-<td>這個屬性會設定在 CBR ratecontrol 期間，編碼器可使用的最大 QP 值的限制。<br/> 這是 VT_UI4 的值。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="codecapi-videoencoderdisplaycontenttype.md">CODECAPI_VideoEncoderDisplayContentType</a></td>
-<td>設定內容是否為全螢幕的影片，而不是可能有較小影片視窗或完全沒有影片的螢幕內容。<br/> 這是 VT_UI4 的值。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="codecapi-avencnumworkerthreads.md">CODECAPI_AVEncNumWorkerThreads</a></td>
-<td>設定用來執行壓縮作業的執行緒數目。 編碼器會將框架分成磚，使執行緒數目等於磚數目。<br/>
-<ul>
-<li>邏輯處理器的數目。 執行緒的數目必須小於或等於邏輯處理器的數目。</li>
-<li>框架的大小。 磚的大小必須大於或等於265x64 圖元。</li>
-<li>同位。 執行緒的數目必須是偶數值。 如果指定的值為奇數，則會使用下一個較低的偶數值。</li>
-</ul>
-這是 VT_UI4 的值。<br/></td>
-</tr>
-</tbody>
-</table>
+
+| 屬性 | 描述 | 
+|----------|-------------|
+| <a href="/windows/desktop/DirectShow/avenccommonratecontrolmode-property"><strong>CODECAPI_AVEncCommonRateControlMode</strong></a> | 設定速率控制模式。 支援的模式如下：<br /><ul><li><strong>eAVEncCommonRateControlMode_CBR</strong></li><li><strong>eAVEncCommonRateControlMode_Quality</strong></li></ul>如果指定了其他模式，則會使用 <strong>eAVEncCommonRateControlMode_CBR</strong> 速率控制。<br /> 這是 VT_UI4 的值。<br /> | 
+| <a href="/windows/desktop/DirectShow/avenccommonmeanbitrate-property">CODECAPI_AVEncCommonMeanBitRate</a> | 設定編碼位資料流程的平均位元速率，以每秒位數為單位。 <br /> 有效範圍為 [1 .。。2³²-1]。 <br /> 這是 VT_UI4 的值。<br /> | 
+| <a href="/windows/desktop/DirectShow/avenccommonbuffersize-property">CODECAPI_AVEncCommonBufferSize</a> | 以位元組為單位，設定常數速率的緩衝區大小（以位元組為單位） (CBR) 編碼。<br /> 有效範圍為 [1 .。。2³²-1]。 <br /> 這是 VT_UI4 的值。<br /> | 
+| <a href="/windows/desktop/DirectShow/avenccommonmaxbitrate-property">CODECAPI_AVEncCommonMaxBitRate</a> | 針對速率控制模式設定允許尖峰位元速率的最大位元速率。 <br /> 有效範圍為 [1 .。。2³²-1]。 <br /> 這是 VT_UI4 的值。<br /> | 
+| <a href="/windows/desktop/DirectShow/avencmpvgopsize-property">CODECAPI_AVEncMPVGOPSize</a> | 將每個 GOP 標頭的圖片數目設定為下一個，包括前置錨點，但不包括下列各項。 <br /> 有效範圍是 [0 .。。2³²-1]。 如果為零，則編碼器會選取 GOP 大小。 預設值為零。 <br /> 這是 VT_UI4 的值。<br /> | 
+| <a href="codecapi-avlowlatencymode.md">CODECAPI_AVLowLatencyMode</a> | 啟用或停用低延遲模式。 <br /> 這是 VT_BOOL 的值。<br /> | 
+| <a href="/windows/desktop/DirectShow/avenccommonqualityvsspeed-property">CODECAPI_AVEncCommonQualityVsSpeed</a> | 設定品質/速度的取捨。 此值會影響編碼器執行各種編碼作業（例如動作補償）的方式。 在較高的複雜性層級中，編碼器的執行速度會更慢，但以相同的位元速率產生更高的品質。 <br /> 有效範圍為 0-100。 就內部而言，此值會對應至編碼器所支援的一組較小品質/速度層級。<br /> 這是 VT_UI4 的值。<br /> | 
+| <a href="codecapi-avencvideoforcekeyframe.md">CODECAPI_AVEncVideoForceKeyFrame</a> | 強制編碼器將下一個畫面格編碼為主要畫面格。<br /> 這是 VT_UI4 的值。<br /> | 
+| <a href="codecapi-avencvideoencodeqp.md">CODECAPI_AVEncVideoEncodeQP</a> | 設定此屬性時，會導致編碼器使用指定的 QP 來編碼下一個框架和所有後續的框架，直到指定新的 QP 為止。 <br /> 有效範圍：0–51（含） <br /> | 
+| <a href="codecapi-avencvideominqp.md">CODECAPI_AVEncVideoMinQP</a> | 這個屬性會設定編碼器在 CBR ratecontrol 期間可以使用的最小 QP 的限制。<br /> 這是 VT_UI4 的值。<br /> | 
+| <a href="codecapi-avencvideomaxqp.md">CODECAPI_AVEncVideoMaxQP</a> | 這個屬性會設定在 CBR ratecontrol 期間，編碼器可使用的最大 QP 值的限制。<br /> 這是 VT_UI4 的值。<br /> | 
+| <a href="codecapi-videoencoderdisplaycontenttype.md">CODECAPI_VideoEncoderDisplayContentType</a> | 設定內容是否為全螢幕的影片，而不是可能有較小影片視窗或完全沒有影片的螢幕內容。<br /> 這是 VT_UI4 的值。<br /> | 
+| <a href="codecapi-avencnumworkerthreads.md">CODECAPI_AVEncNumWorkerThreads</a> | 設定用來執行壓縮作業的執行緒數目。 編碼器會將框架分成磚，使執行緒數目等於磚數目。<br /><ul><li>邏輯處理器的數目。 執行緒的數目必須小於或等於邏輯處理器的數目。</li><li>框架的大小。 磚的大小必須大於或等於265x64 圖元。</li><li>同位。 執行緒的數目必須是偶數值。 如果指定的值為奇數，則會使用下一個較低的偶數值。</li></ul>這是 VT_UI4 的值。<br /> | 
+
 
 
 
@@ -252,7 +152,7 @@ H. 編碼程式會實 [**ICodecAPI**](/windows/win32/api/strmif/nn-strmif-icodec
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 10 桌面應用程式\]<br/>                                              |
+| 最低支援的用戶端<br/> | Windows 10 \[僅限桌面應用程式\]<br/>                                              |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                |
 | DLL<br/>                      | <dl> <dt>Mfh265enc.dll</dt> </dl> |
 

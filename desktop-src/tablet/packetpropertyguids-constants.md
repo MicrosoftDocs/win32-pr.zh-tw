@@ -4,18 +4,18 @@ ms.assetid: 3e8495f6-0860-4ea8-a258-784eaade85c7
 title: 'PacketPropertyGuids 常數 (Msinkaut) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e9eb946b170b1004deea7eb1f2faafeee5bc5dba
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.openlocfilehash: b8b88a59d63bc8b45ea04e133f0d002fa86e35e5
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122884511"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122481074"
 ---
 # <a name="packetpropertyguids-constants"></a>PacketPropertyGuids 常數
 
 定義指定封包屬性的值。 Tablet PCAPI 會使用全域唯一識別碼 (Guid) 來識別封包屬性（在 COM 中是常數位符串）。
 
-在 c + + 中，您可以在 Msinkaut .h 標頭檔中存取這些常數， &lt; &gt; \\ \\ \\ \\ \\ 如果您將 SDK 安裝在預設位置，該檔案位於 systemdrive： Program Files Microsoft sdk Windows 6.0 版 Include 目錄。 在 c + + 中，這些常數是 WCHARs，而不是 Bstr。 使用之前，請先將它們轉換成 Bstr。 如需 BSTR 資料類型的詳細資訊，請參閱 [使用 COM 程式庫](using-the-com-library.md)。
+在 c + + 中，您可以在 Msinkaut .h 標頭檔中存取這些常數， <systemdrive> \\ \\ \\ \\ \\ 如果您將 SDK 安裝在預設位置，則該檔案位於： Program Files Microsoft sdk Windows 6.0 版包含目錄。 在 c + + 中，這些常數是 WCHARs，而不是 Bstr。 使用之前，請先將它們轉換成 Bstr。 如需 BSTR 資料類型的詳細資訊，請參閱 [使用 COM 程式庫](using-the-com-library.md)。
 
 下表列出可用的封包屬性全域唯一識別碼 (GUID) 欄位。 使用這些 Guid 來指定當您建立平板電腦內容時，封包所包含的屬性。 若要判斷屬性的範圍和解析度，請呼叫 [**GetPropertyMetrics**](/windows/desktop/api/msinkaut/nf-msinkaut-iinktablet-getpropertymetrics) 方法。 下表中的常數（以 "STR \_ " 開頭）是在相同表格儲存格中顯示的對應二進位常數的字串表示。
 

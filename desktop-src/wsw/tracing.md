@@ -8,12 +8,12 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: da2bcd5c07c2c5ebf3a28620e39efe3034d3c2bc024ac487caaec38e3c69fca9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ace571c2639ddd1eb55ed1e4afd70bcef7318b44
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119707258"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122882308"
 ---
 # <a name="tracing"></a>追蹤
 
@@ -100,9 +100,9 @@ wstrace.bat 所建立的 CSV 檔案是簡單的逗號分隔變數文字檔。 �
 
 啟用 WWSAPI 的 ETW 追蹤
 
-**logman start wstrace-bs 64-ft 1-rt-p Microsoft-Windows-WebServices \[ flags \[ level \] \] \[ -o <EtlLogFileName> \] -ets**
+**logman start wstrace-bs 64-ft 1-rt-p Microsoft-Windows-WebServices \[ flags \[ level \] \] \[ -o &lt; EtlLogFileName &gt; \] -ets**
 
-建立並啟動 ETW 追蹤會話。 Logman.exe 是可在所有支援的平臺上使用的內建 ETW 工具。 請注意，您必須 \_ \_ 在 XPSP2 和 W2K3 上使用 Microsoft Windows WebServices 作為提供者名稱。 您可以執行 logman 查詢提供者，以查看已註冊之提供者的清單。 除非未註冊，否則應列出 microsoft Windows WebServices (或 microsoft \_ Windows \_ WebServices) 提供者。 提供者通常會在安裝期間註冊。 不過，您也可以手動註冊，方法是 <ManifestFileName> 在 Windows Vista 和更新版本上執行 wevtutil.exe im (，) 或 <MofFileName> 在 XPSP2 和 W2K3 mofcomp.exe 上 () 。
+建立並啟動 ETW 追蹤會話。 Logman.exe 是可在所有支援的平臺上使用的內建 ETW 工具。 請注意，您必須 \_ \_ 在 XPSP2 和 W2K3 上使用 Microsoft Windows WebServices 作為提供者名稱。 您可以執行 logman 查詢提供者，以查看已註冊之提供者的清單。 除非未註冊，否則應列出 microsoft Windows WebServices (或 microsoft \_ Windows \_ WebServices) 提供者。 提供者通常會在安裝期間註冊。 不過，您也可以 &lt; &gt; 在 Windows Vista 和更新) 版本上執行 wevtutil.exe im ManifestFileName (，或 &lt; &gt; 在 XPSP2 和 W2K3 mofcomp.exe 上 (MofFileName) ，以手動方式註冊。
 
 旗標可以用來依類別篩選追蹤。 它可以是或值下列追蹤種類。 如果未提供，則會啟用所有的追蹤類型。
 
@@ -154,7 +154,7 @@ Tracerpt.exe 是用來查看 ETW 事件記錄檔內容的工具，並可在所�
 
 -   執行
 
-    **tracerpt <EtlLogFileName> -o <OutputXMLFileName>**
+    **tracerpt &lt; EtlLogFileName &gt; -o &lt; OutputXMLFileName&gt;**
 
     若要從二進位 ETL 檔案建立 XML 傾印 (tracerpt.exe 預設會建立 XML 格式的輸出檔。 執行 tracerpt-？ 可) 查看其他可用的格式。
 

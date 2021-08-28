@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: WQL (SQL for WMI)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1c9a1a3b0db3f383bd8ba44aeb1e433b5aab02b4e9b4773ea221e1a0254ae037
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 72e2c80473874390851e81a5f2acebcd6d7e1497
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117738817"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122626754"
 ---
 # <a name="wql-sql-for-wmi"></a>WQL (SQL for WMI)
 
@@ -20,8 +20,8 @@ WMI 查詢語言 (WQL) 是美國國家標準局的子集，結構化查詢語言
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">

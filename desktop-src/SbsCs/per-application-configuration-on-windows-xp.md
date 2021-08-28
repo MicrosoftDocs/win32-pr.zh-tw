@@ -1,22 +1,22 @@
 ---
-description: 在 Windows XP 中，每個應用程式設定會以個別應用程式為基礎覆寫預設設定和發行者設定。
+description: 在 Windows XP 上，每個應用程式設定會以個別應用程式為基礎覆寫預設設定和發行者設定。
 ms.assetid: 5b55d12d-8805-4820-91af-5ef583de3463
 title: Windows XP 上的每個應用程式設定
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ea6fa2e14e24e48be84247a23feecddf2784fbc6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c9f07860a42951e073403e8145037074c35e6ec6a267736381f6beab385f3bb2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103851779"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120127458"
 ---
 # <a name="per-application-configuration-on-windows-xp"></a>Windows XP 上的每個應用程式設定
 
-在 Windows XP 中，每個應用程式設定會以個別應用程式為基礎覆寫 [預設](default-configuration.md) 設定和 [發行者](publisher-configuration.md) 設定。 這會將特定應用程式的相依性從並存元件的某個版本重新導向至另一個指定版本的元件。
+在 Windows XP 上，每個應用程式設定會以個別應用程式為基礎覆寫[預設](default-configuration.md)設定和[發行者](publisher-configuration.md)設定。 這會將特定應用程式的相依性從並存元件的某個版本重新導向至另一個指定版本的元件。
 
 > [!Note]  
-> 從 Windows Server 2003 開始，只有在 [應用程式佈建檔](application-configuration-files.md)在 **>publisherpolicy** 中指定 *apply = "No"* ，且應用程式相容性資料庫中有對應的專案時，每個應用程式設定才會覆寫每個應用程式的 [發行者](publisher-configuration.md)設定。 每個應用程式設定一律會覆寫 [預設](default-configuration.md)設定。 如需詳細資訊，請參閱 [每個應用程式](per-application-configuration.md)設定。
+> 從 Windows Server 2003 開始，只有當 [應用程式佈建檔](application-configuration-files.md)在 **>publisherpolicy** 中指定 *apply = "no"* ，且應用程式相容性資料庫中有對應的專案時，每個應用程式設定才會覆寫每個應用程式的 [發行者](publisher-configuration.md)設定。 每個應用程式設定一律會覆寫 [預設](default-configuration.md)設定。 如需詳細資訊，請參閱 [每個應用程式](per-application-configuration.md)設定。
 
  
 
