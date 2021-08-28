@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - dvdevcode.h
-ms.openlocfilehash: 6a30ddcff32140165d5cb6cb648df84b3360a1b3
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: cc018630d7a994c01b81adea4b4cf567666a76625b4b3b13fbf4118b8e8a1fd7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106984378"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119965888"
 ---
 # <a name="ec_dvd_button_auto_activated"></a>\_ \_ \_ 自動啟用 EC DVD \_ 按鈕
 

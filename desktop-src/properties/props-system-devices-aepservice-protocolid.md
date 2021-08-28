@@ -4,12 +4,12 @@ ms.assetid: 5bf421d9-f60e-40c9-b4ee-087e18608f06
 title: System.Devices.AepService.ProtocolId
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f2f0e392004a83efae9d31cf826fcf7f18793c89
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f5e981a80e2a1490e0d3044648efe99dc67a892f871950a2d5b0e5590df45f55
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106987006"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119885578"
 ---
 # <a name="systemdevicesaepserviceprotocolid"></a>System.Devices.AepService.ProtocolId
 

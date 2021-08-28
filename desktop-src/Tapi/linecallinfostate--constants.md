@@ -4,12 +4,12 @@ ms.assetid: c216d9b7-8e2f-4604-ba93-1d9e1a5d23fc
 title: 'LINECALLINFOSTATE_ 的常數 (Tapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9f560cfd6ba65929a9f6cf5c9aa6cd8bc2f48b24
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0c0970433508bdcda2c82ebd8215643ef6ab39de3da98c1ed99b7cfa00e26e85
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106998377"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118863883"
 ---
 # <a name="linecallinfostate_-constants"></a>LINECALLINFOSTATE \_ 常數
 

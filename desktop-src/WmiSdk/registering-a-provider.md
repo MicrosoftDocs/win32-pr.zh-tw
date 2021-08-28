@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 註冊提供者
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 53592ecb452de1b6071cbb8f59cfaaef42b57f1b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 265d3a9f8617c68793fc30c0dc23fd3e9f0106ee98a9e3c757754e2fe589dda8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106974524"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119995918"
 ---
 # <a name="registering-a-provider"></a>註冊提供者
 
@@ -190,7 +190,7 @@ class StdRegProv
 
     
 
-    | 提供者註冊類別                                                        | Description                                                                         |
+    | 提供者註冊類別                                                        | 描述                                                                         |
     |--------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|
     | [**\_\_InstanceProviderRegistration**](--instanceproviderregistration.md)           | 註冊 [執行個體提供者](registering-an-instance-provider.md)。             |
     | [**\_\_EventProviderRegistration**](--eventproviderregistration.md)                 | 註冊 [事件提供者](registering-an-event-provider.md)。                   |
@@ -210,7 +210,7 @@ class StdRegProv
 
     如需詳細資訊，請參閱 [編譯 MOF](compiling-mof-files.md)檔案。
 
-    **Windows 8 和 Windows Server 2012：** 當安裝提供者時， [**mofcomp.exe**](mofcomp.md) 和 [**IMofCompiler**](/windows/desktop/api/Wbemcli/nn-wbemcli-imofcompiler) 介面都會將 \[ 金鑰 \] 和 \[ 靜態 \] 限定詞視為 true （如果存在的話），而不論其實際值為何。 如果有其他限定詞存在但未明確設定為 true，則會將它們視為 false。
+    **Windows 8 和 Windows Server 2012：** 當安裝提供者時， [**mofcomp.exe**](mofcomp.md)和 [**IMofCompiler**](/windows/desktop/api/Wbemcli/nn-wbemcli-imofcompiler)介面都會將 \[ 金鑰 \] 和 \[ 靜態 \] 限定詞視為 true （如果存在的話），而不論其實際值為何。 如果有其他限定詞存在但未明確設定為 true，則會將它們視為 false。
 
 ## <a name="related-topics"></a>相關主題
 

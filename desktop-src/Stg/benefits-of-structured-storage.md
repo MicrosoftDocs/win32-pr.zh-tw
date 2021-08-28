@@ -6,12 +6,12 @@ keywords:
 - 結構化儲存體 Strctd Stg.，優點
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e68b954fda33e18f654ccc0360f58ddb14e5d110
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4a52159f37b3bf443419beaadbcf9f76aa9c5d7209e04b25506eea850c4d3d98
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671672"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119663559"
 ---
 # <a name="benefits-of-structured-storage"></a>結構化儲存體的優點
 
@@ -26,9 +26,9 @@ COM 提供一組統稱為結構化儲存體的服務。 這些服務的優點之
 -   **交易處理**。 使用者可以在交易模式中讀取或寫入 COM 複合檔案，對檔案所做的變更會經過緩衝處理，之後可以認可至檔案或反轉。
 -   **記憶體不足的節省**。 結構化儲存體提供在記憶體不足的情況下儲存檔案的功能。
 
- 
+ 
 
- 
+ 
 
 
 

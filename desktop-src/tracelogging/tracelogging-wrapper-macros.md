@@ -4,12 +4,12 @@ description: 列出 TraceLogging 提供者的包裝函式宏。
 ms.assetid: 806F43F3-D376-4DBD-A4C5-B5F01E5D009D
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9dc28b3a35074089b1f5c613b041534b8b282423
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0bad266f44dbd82c31ceea95eed2978c5634beb8a75830d073465ef11c1be331
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103675635"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118966477"
 ---
 # <a name="tracelogging-wrapper-macros"></a>TraceLogging 包裝函式宏
 
@@ -37,7 +37,7 @@ ms.locfileid: "103675635"
 >
 > -   [**TraceLoggingOptionGroup**](/windows/desktop/api/traceloggingprovider/nf-traceloggingprovider-traceloggingoptiongroup)
 
- 
+ 
 
 以下是個別的包裝函式宏。
 
@@ -245,9 +245,9 @@ TraceLogging API 也會為數組提供數個宏。 這些陣列的長度可以�
 
 -   TraceLoggingHexUInt16Array
 
- 
+ 
 
- 
+ 
 
 
 

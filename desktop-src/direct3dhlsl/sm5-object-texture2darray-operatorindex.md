@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 1b86aad839fbf28a4fc666b3a5fe5c5788b7b3ae
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 752b037cfc5d7c6e7ecc008aec6c45bb05356170b9b7154abca87f01fa146f55
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104035244"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120095038"
 ---
 # <a name="texture2darrayoperator--function"></a>Texture2DArray：： Operator 函數
 
@@ -61,7 +61,7 @@ R Operator[](
 
 
 
-| 頂點 | 船體 | 網域 | 幾何 | 像素 | 計算 |
+| 頂點 | 船體 | 網域 | 幾何形狀 | 像素 | 計算 |
 |--------|------|--------|----------|-------|---------|
 | x      | x    | x      | x        | x     | x       |
 

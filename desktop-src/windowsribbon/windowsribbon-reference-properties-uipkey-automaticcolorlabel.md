@@ -4,12 +4,12 @@ description: 識別 UI \_ PKEY \_ AutomaticColorLabel 屬性。
 ms.assetid: 736259f1-b536-40a5-bce7-98602a0ab041
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c01ed60000c56ede5a7810d40abfb51d1e035f4e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: fd187efb1227c797d6a8db8aa3ac24174b3f95058a5b2cf977d1b334c566ecba
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103672799"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119840648"
 ---
 # <a name="ui_pkey_automaticcolorlabel"></a>UI \_ PKEY \_ AutomaticColorLabel
 
@@ -17,12 +17,12 @@ ms.locfileid: "103672799"
 
 ```
 propertyDescription
-   name = UI_PKEY_AutomaticColorLabel
-   shellPKey = UI_PKEY_AutomaticColorLabel
-   formatID = 00000406-7363-696e-8441798acf5aebb7
-   propID = 406
-   typeInfo
-      type = VT_LPWSTR
+   name = UI_PKEY_AutomaticColorLabel
+   shellPKey = UI_PKEY_AutomaticColorLabel
+   formatID = 00000406-7363-696e-8441798acf5aebb7
+   propID = 406
+   typeInfo
+      type = VT_LPWSTR
 ```
 
 ## <a name="remarks"></a>備註
@@ -38,9 +38,9 @@ UI \_ PKEY \_ AutomaticColorLabel 只適用于 [**DropDownColorPicker**](windows
 [色彩選擇器屬性](windowsribbon-reference-properties-colorpicker.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 6432ee7d-0da2-48be-b14c-d36a83a3bb1d
 title: 在非強制回應對話方塊上顯示公告欄
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e1fd0ca40e47a8d52c16db7adde304177d4dc849
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: badf81e2b6d0131d1224f10b19e8de3c06f173ef91e3b08f3a45f31aef52be11
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114573"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120086168"
 ---
 # <a name="displaying-billboards-on-a-modeless-dialog"></a>在非強制回應對話方塊上顯示公告欄
 

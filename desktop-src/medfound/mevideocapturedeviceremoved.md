@@ -4,12 +4,12 @@ ms.assetid: 107AFF19-B444-4B62-9217-46A99AC3632C
 title: 'MEVideoCaptureDeviceRemoved 事件 (Mfobjects) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8e3276f53f86bdce78825b94828577eab9e40954
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f209dc4be6e8f45639b060de1328cb04c932463f6b76355b7538b5649a69634e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106992486"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120013478"
 ---
 # <a name="mevideocapturedeviceremoved-event"></a>MEVideoCaptureDeviceRemoved 事件
 
@@ -21,7 +21,7 @@ ms.locfileid: "106992486"
 
 
 
-| VARTYPE               | Description                           |
+| VARTYPE               | 描述                           |
 |-----------------------|---------------------------------------|
 | VT \_ 空白 <br/> | 沒有事件資料。<br/> <br/> |
 
@@ -37,8 +37,8 @@ ms.locfileid: "106992486"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                                               |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                                     |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                                               |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                                                     |
 | 標頭<br/>                   | <dl> <dt>Mfobjects (包含 Mfidl) </dt> </dl> |
 
 

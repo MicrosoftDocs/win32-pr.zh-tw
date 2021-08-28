@@ -15,12 +15,12 @@ keywords:
 - 介面，IWindowProvider
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b3c4f0d862a14fee35f8d1982c7870e2be031c61
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c04e3434ff6e14496da58d035fa965c012adaa2c8348a23e1a98e8dac2aa01dc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104311343"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120122048"
 ---
 # <a name="window-control-pattern"></a>視窗控制項模式
 
@@ -66,7 +66,7 @@ ms.locfileid: "104311343"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -84,9 +84,9 @@ ms.locfileid: "104311343"
 [UI 自動化樹狀目錄概觀](uiauto-treeoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

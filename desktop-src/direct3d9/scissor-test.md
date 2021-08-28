@@ -4,12 +4,12 @@ ms.assetid: deff4f54-4a2f-4d9a-98a7-a69d5fc0853d
 title: " (Direct3D 9) 的剪式測試"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 66c4298182ab2bb6302c19111e2970d23cef311d
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: f1d44b7670d67e7944e9d6e2587ed0011a6244eecef509495b90c71ff0753073
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106971119"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119746511"
 ---
 # <a name="scissor-test-direct3d-9"></a> (Direct3D 9) 的剪式測試
 

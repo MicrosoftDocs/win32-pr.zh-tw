@@ -20,12 +20,12 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 2b07312cbfce36b450fe39a39810813adc2d0fd4
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.openlocfilehash: eb68677ad55c137ebb40ffaef1ad0fd686bb4eb7
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122987701"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122466755"
 ---
 # <a name="jetattachdatabase-function"></a>JetAttachDatabase 函式
 
@@ -127,14 +127,7 @@ Windows伺服器2003和更新版本：如果[JET_paramEnableIndexChecking](./dat
 #### <a name="requirements"></a>規格需求
 
 
-| 需求 | 值 |
-|------------|----------|
-| <p><strong>用戶端</strong></p> | <p>需要 Windows Vista、Windows XP 或 Windows 2000 Professional。</p> | 
-| <p><strong>伺服器</strong></p> | <p>需要 Windows server 2008、Windows Server 2003 或 Windows 2000 Server。</p> | 
-| <p><strong>標頭</strong></p> | <p>宣告于 Esent. h 中。</p> | 
-| <p><strong>程式庫</strong></p> | <p>使用 ESENT。</p> | 
-| <p><strong>DLL</strong></p> | <p>需要 ESENT.dll。</p> | 
-| <p><strong>Unicode</strong></p> | <p>實作為 <strong>JetAddColumnW</strong> (Unicode) 和 <strong>JetAddColumnA</strong> (ANSI) 。</p> | 
+| | | <p><strong>用戶端</strong></p> | <p>需要 Windows Vista、Windows XP 或 Windows 2000 Professional。</p> | | <p><strong>伺服器</strong></p> | <p>需要 Windows server 2008、Windows Server 2003 或 Windows 2000 Server。</p> | | <p><strong>標頭</strong></p> | <p>宣告于 Esent. h 中。</p> | | <p><strong>程式庫</strong></p> | <p>使用 ESENT。</p> | | <p><strong>DLL</strong></p> | <p>需要 ESENT.dll。</p> | | <p><strong>Unicode</strong></p> | <p>實作為 <strong>JetAddColumnW</strong> (Unicode) 和 <strong>JetAddColumnA</strong> (ANSI) 。</p> | 
 
 
 

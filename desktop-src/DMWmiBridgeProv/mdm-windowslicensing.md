@@ -17,12 +17,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c2c82b9cb06f7fa141100856bac86aaf6afe1635721a224603b4e78e51fe335f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ca9470b72cb6a50323af9294be4a6506682fc7aa
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118164204"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122480924"
 ---
 # <a name="mdm_windowslicensing-class"></a>MDM \_ WindowsLicensing 類別
 
@@ -59,79 +59,14 @@ class MDM_WindowsLicensing
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">方法</th>
-<th style="text-align: left;">描述</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><a href="mdm-windowslicensing-changeproductkeymethod.md"><strong>ChangeProductKeyMethod</strong></a></td>
-<td style="text-align: left;">安裝 Windows 10 桌面裝置的產品金鑰。 不會重新開機。<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="mdm-windowslicensing-checkapplicabilitymethod.md"><strong>CheckApplicabilityMethod</strong></a></td>
-<td style="text-align: left;">方法，檢查輸入的產品金鑰是否可用於版本升級、啟用或變更桌面裝置 Windows 10 的產品金鑰。<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="mdm-windowslicensing-upgradeeditionwithlicensemethod.md"><strong>UpgradeEditionWithLicenseMethod</strong></a></td>
-<td style="text-align: left;">針對 Windows 10 行動裝置的版本升級提供授權。<br/>
-<blockquote>
-[!Note]<br />
-此升級程式不需要重新開機系統。
-</blockquote>
-<br/> <br/> 日期類型是 XML。<br/> 支援的作業為執行。<br/>
-<blockquote>
-[!Important]<br />
-XML 授權檔案內容必須經過正確的轉義 (也就是說，它不應該只是複製的 XML) ，否則 Windows 10 行動裝置上的版本升級將會失敗。 如需有關 XML 授權檔案正確地轉義的詳細資訊，請參閱 <a href="https://www.w3.org/TR/xml/">W3C XML 規格</a>的2.4 節。XML 授權檔案是從 Microsoft 大量授權服務中心取得的。 您的組織必須具有 Microsoft 的大量授權合約，才能存取入口網站。
-</blockquote>
-<br/> 以下是透過 MDM 或布建套件使用此節點時的有效版本升級路徑：
-<ul>
-<li>Windows 10Mobileto Windows 10 行動裝置企業版<br/></li>
-</ul>
-<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="mdm-windowslicensing-upgradeeditionwithproductkeymethod.md"><strong>UpgradeEditionWithProductKeyMethod</strong></a></td>
-<td style="text-align: left;">觸發裝置以取得產品金鑰，並升級用戶端的版本。
-<blockquote>
-[!Note]<br />
-此升級程式需要重新開機系統。
-</blockquote>
-<br/> <br/> 支援的作業為執行。<br/> 將產品金鑰從 MDM 伺服器推送到使用者的裝置時， <strong>changepk.exe</strong> 使用產品金鑰執行。 完成之後，就會向使用者顯示通知，指出有新版本的 Windows 10 可供使用。 然後，使用者可以手動重新開機其系統，或在兩個小時之後，自動重新開機裝置以完成升級。 使用者會在自動重新開機前10分鐘收到提醒通知。<br/> 裝置重新啟動之後，版本升級程序便完成。 使用者將會收到成功升級的通知。
-<blockquote>
-[!Important]<br />
-如果另一個原則需要在執行 <strong>changepk.exe</strong> 時發生系統重新開機，則版本升級將會失敗。
-</blockquote>
-<br/> <br/> 如果在佈建套件中輸入產品金鑰，而且使用者開始安裝套件，會向使用者顯示通知，告知他們的系統會重新啟動才能完成套件安裝。 明確同意使用者進行時，套件會繼續安裝，並使用產品金鑰 <strong>changepk.exe</strong> 執行。 自動重新開機之前使用者將會收到提醒通知 30 秒。 <br/> 裝置重新啟動之後，版本升級程序便完成。 使用者將會收到成功升級的通知。 <br/> 此節點也可用來在特定版本的 Windows 10 桌面裝置上，藉由輸入產品金鑰來啟用或變更產品金鑰。 啟用或變更產品金鑰不需要重新開機，而且是使用者的無訊息處理常式。<br/>
-<blockquote>
-[!Important]<br />
-輸入的產品金鑰必須是29個字元 (也就是說，它應該包含連字號) ，否則 Windows 10 桌面裝置上的啟用、版本升級或產品金鑰變更將會失敗。 從 Microsoft 大量授權服務中心取得產品金鑰。 您的組織必須具有 Microsoft 的大量授權合約，才能存取入口網站。
-</blockquote>
-<br/> 以下是透過 MDM 使用此節點時的有效版本升級路徑：
-<ul>
-<li>Windows 10 企業版至 Windows 10 教育版</li>
-<li>Windows 10 家用版至 Windows 10 教育版</li>
-<li>Windows 10 專業版至 Windows 10 教育版</li>
-<li>Windows 10 專業版至 Windows 10 企業版</li>
-</ul>
-<br/> 您可以在下列版本上執行啟用或變更產品金鑰：
-<ul>
-<li>Windows 10 Education</li>
-<li>Windows 10 Enterprise</li>
-<li>Windows 10 Home</li>
-<li>Windows 10 Pro</li>
-</ul>
-<br/></td>
-</tr>
-</tbody>
-</table>
+
+| 方法 | 描述 | 
+|--------|-------------|
+| <a href="mdm-windowslicensing-changeproductkeymethod.md"><strong>ChangeProductKeyMethod</strong></a> | 安裝 Windows 10 桌面裝置的產品金鑰。 不會重新開機。<br /> | 
+| <a href="mdm-windowslicensing-checkapplicabilitymethod.md"><strong>CheckApplicabilityMethod</strong></a> | 方法，檢查輸入的產品金鑰是否可用於版本升級、啟用或變更桌面裝置 Windows 10 的產品金鑰。<br /> | 
+| <a href="mdm-windowslicensing-upgradeeditionwithlicensemethod.md"><strong>UpgradeEditionWithLicenseMethod</strong></a> | 針對 Windows 10 行動裝置的版本升級提供授權。<br /><blockquote>[!Note]<br />此升級程式不需要重新開機系統。</blockquote><br /><br /> 日期類型是 XML。<br /> 支援的作業為執行。<br /><blockquote>[!Important]<br />XML 授權檔案內容必須經過正確的轉義 (也就是說，它不應該只是複製的 XML) ，否則 Windows 10 行動裝置上的版本升級將會失敗。 如需有關 XML 授權檔案正確地轉義的詳細資訊，請參閱 <a href="https://www.w3.org/TR/xml/">W3C XML 規格</a>的2.4 節。XML 授權檔案是從 Microsoft 大量授權服務中心取得的。 您的組織必須具有 Microsoft 的大量授權合約，才能存取入口網站。</blockquote><br /> 以下是透過 MDM 或布建套件使用此節點時的有效版本升級路徑：<ul><li>Windows 10Mobileto Windows 10 行動裝置企業版<br /></li></ul><br /> | 
+| <a href="mdm-windowslicensing-upgradeeditionwithproductkeymethod.md"><strong>UpgradeEditionWithProductKeyMethod</strong></a> | 觸發裝置以取得產品金鑰，並升級用戶端的版本。<blockquote>[!Note]<br />此升級程式需要重新開機系統。</blockquote><br /><br /> 支援的作業為執行。<br /> 將產品金鑰從 MDM 伺服器推送到使用者的裝置時， <strong>changepk.exe</strong> 使用產品金鑰執行。 完成之後，就會向使用者顯示通知，指出有新版本的 Windows 10 可供使用。 然後，使用者可以手動重新開機其系統，或在兩個小時之後，自動重新開機裝置以完成升級。 使用者會在自動重新開機前10分鐘收到提醒通知。<br /> 裝置重新啟動之後，版本升級程序便完成。 使用者將會收到成功升級的通知。<blockquote>[!Important]<br />如果另一個原則需要在執行 <strong>changepk.exe</strong> 時發生系統重新開機，則版本升級將會失敗。</blockquote><br /><br /> 如果在佈建套件中輸入產品金鑰，而且使用者開始安裝套件，會向使用者顯示通知，告知他們的系統會重新啟動才能完成套件安裝。 明確同意使用者進行時，套件會繼續安裝，並使用產品金鑰 <strong>changepk.exe</strong> 執行。 自動重新開機之前使用者將會收到提醒通知 30 秒。 <br /> 裝置重新啟動之後，版本升級程序便完成。 使用者將會收到成功升級的通知。 <br /> 此節點也可用來在特定版本的 Windows 10 桌面裝置上，藉由輸入產品金鑰來啟用或變更產品金鑰。 啟用或變更產品金鑰不需要重新開機，而且是使用者的無訊息處理常式。<br /><blockquote>[!Important]<br />輸入的產品金鑰必須是29個字元 (也就是說，它應該包含連字號) ，否則 Windows 10 桌面裝置上的啟用、版本升級或產品金鑰變更將會失敗。 從 Microsoft 大量授權服務中心取得產品金鑰。 您的組織必須具有 Microsoft 的大量授權合約，才能存取入口網站。</blockquote><br /> 以下是透過 MDM 使用此節點時的有效版本升級路徑：<ul><li>Windows 10 企業版至 Windows 10 教育版</li><li>Windows 10 家用版至 Windows 10 教育版</li><li>Windows 10 專業版至 Windows 10 教育版</li><li>Windows 10 專業版至 Windows 10 企業版</li></ul><br /> 您可以在下列版本上執行啟用或變更產品金鑰：<ul><li>Windows 10 Education</li><li>Windows 10 Enterprise</li><li>Windows 10 Home</li><li>Windows 10 Pro</li></ul><br /> | 
+
 
 
 

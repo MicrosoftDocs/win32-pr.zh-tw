@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 執行方法提供者的主要介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 196f87a6520d92bf18362be88f8cc40e5133dabe
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f709fcc698155ad0a9e786636045654b08d1cd2b7dfabd946b2d3ee9e8192485
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106998308"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119244228"
 ---
 # <a name="implementing-the-primary-interface-for-a-method-provider"></a>執行方法提供者的主要介面
 

@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.custom: snippet-project
 ms.date: 05/31/2018
-ms.openlocfilehash: 1826c4668f3be8a2991c914e60320b55de867e33
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 545e4dd2a47216dcf85fc7927692d99df69ea37bd76c3101457bdd68cff02de8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107001600"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119886498"
 ---
 # <a name="wm_command-message"></a>WM \_ 命令訊息
 
@@ -85,7 +85,7 @@ BOOL AboutDlg (
     return bRet;
 }
 ```
-從 GitHub 上的 [Windows 傳統範例](https://github.com/microsoft/Windows-classic-samples) 取得的範例。
+從 GitHub [Windows 傳統範例](https://github.com/microsoft/Windows-classic-samples)取得的範例。
 
 
 ## <a name="remarks"></a>備註
@@ -124,7 +124,7 @@ BOOL AboutDlg (
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                               |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 

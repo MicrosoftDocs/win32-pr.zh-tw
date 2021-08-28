@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 32c39942ab3f97d45ecf71ba841d56b7afd4be62
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2c2e7bdbbc43195222b4054f71ec05ebe3c8a7e15ac8c634d57fba61e45bf319
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106983130"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120084468"
 ---
 # <a name="cmediatypeispartiallyspecified-method"></a>CMediaType. IsPartiallySpecified 方法
 
@@ -46,7 +46,7 @@ BOOL IsPartiallySpecified() const;
 
 ## <a name="remarks"></a>備註
 
-[**IPin：： Connect**](/windows/desktop/api/Strmif/nf-strmif-ipin-connect)方法可以接受部分媒體類型。
+[**IPin：：連線**](/windows/desktop/api/Strmif/nf-strmif-ipin-connect)方法可以接受部分媒體類型。
 
 其實作並不會實際測試子類型。 如果有指定的格式類型，即使子類型為 GUID Null，也不會將媒體類型視為部分 \_ 。
 

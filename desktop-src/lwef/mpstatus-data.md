@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f5da4ea9c8c51d8ee74d3242e5020df23f758228
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 78989b055e6de79c3da733ff8bc498a3fb6717c5dec226db73b80c4e5c9d899c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103686108"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119887908"
 ---
 # <a name="mpstatus_data-structure"></a>MPSTATUS \_ 資料結構
 
@@ -188,7 +188,7 @@ typedef struct tagMPSTATUS_DATA {
 
 </dd> <dt>
 
-**pa**
+**Pa**
 </dt> <dd>
 
 類型： **\_ \_ 未使用的 PMPSTATUS DATAEX**
@@ -216,8 +216,8 @@ typedef struct tagMPSTATUS_DATA {
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                            |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                            |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>MpClient。h</dt> </dl> |
 
 

@@ -4,12 +4,12 @@ ms.assetid: 24DA07DD-A2C1-4a3e-9007-100BE6813A02
 title: DefaultTooltip
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f544c18c8d8430059e29a11a360378c7136ac411
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 09577c4664e9c859fbe9cb5051b16fc9e8ba325209938cdb913088e318e36d8d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106979775"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119885558"
 ---
 # <a name="systemdevicesdefaulttooltip"></a>DefaultTooltip
 

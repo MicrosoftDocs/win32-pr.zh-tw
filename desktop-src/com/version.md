@@ -6,12 +6,12 @@ keywords:
 - 版本登錄機碼 COM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dcfe909113dad3b0d84ac692463661e82750aaa0
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: b16232e4269d513443c1bf018e010d5459710e64b6e750079c8ec1b42f7606f1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103843004"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119991978"
 ---
 # <a name="version-com"></a>COM)  (版本
 

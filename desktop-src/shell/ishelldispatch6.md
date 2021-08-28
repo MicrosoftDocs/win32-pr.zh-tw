@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 540A5CFD-1520-4B61-B461-E893EFA27115
-ms.openlocfilehash: de27322324dc8a25bdc679374e625f94a1d1a2ae
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: 9e1711b9a2d95e29904db5508b958a32249d38563f996cae68f761123b58948c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109843029"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118968997"
 ---
 # <a name="ishelldispatch6-object"></a>IShellDispatch6 物件
 
@@ -55,10 +55,10 @@ ms.locfileid: "109843029"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                             |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                   |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                             |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                                   |
 | 標頭<br/>                   | <dl> <dt>Shldisp。h</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Shell32.dll</dt> </dl> |
 
 

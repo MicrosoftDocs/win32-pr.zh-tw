@@ -24,12 +24,12 @@ api_type:
 - HeaderDef
 api_location:
 - iaguid.h
-ms.openlocfilehash: 8eb1034516c62e2121f835951d1f04db5710d275
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d8e151103c17a7f19a648b39ba4d6dfdae387886e52af287a80530b5c3cf1b98
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847617"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118967727"
 ---
 # <a name="context-node-properties"></a>內容節點屬性
 
@@ -68,7 +68,7 @@ ms.locfileid: "103847617"
 
 | 需求 | 值 |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 Windows XP Tablet PC Edition \[ 桌面應用程式\]<br/>                       |
+| 最低支援的用戶端<br/> | Windows僅限 XP Tablet PC Edition \[ 桌面應用程式\]<br/>                       |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                           |
 | 標頭<br/>                   | <dl> <dt>Iaguid。h</dt> </dl> |
 

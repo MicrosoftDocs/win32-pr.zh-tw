@@ -4,18 +4,18 @@ ms.assetid: 552a01c4-70d8-4e14-b123-c62c379bc52a
 title: FileAsName
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5c2d1acd84f217ffac054abf92a723d0031ad188
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9c69b6bd189705e0dcd21b46984e329b5b6c631d83914ada5af4ed4cbe7a50cc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106981173"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118970617"
 ---
 # <a name="systemcontactfileasname"></a>FileAsName
 
 指出連絡人的檔案名稱。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

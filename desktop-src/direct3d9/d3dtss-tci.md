@@ -4,12 +4,12 @@ ms.assetid: b15509b4-7db1-429a-9468-be7a11dee505
 title: D3DTSS_TCI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 58746f17eb18b679a4dfe4957ac46236baeec35d
-ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
+ms.openlocfilehash: f954020f80a8c980316e71f22f75ad47616e071d460d1c4a6c13e762ab3df462
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "110342973"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119750598"
 ---
 # <a name="d3dtss_tci"></a>D3DTSS \_ TCI
 

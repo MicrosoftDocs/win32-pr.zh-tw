@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 54631d5c4ef752cffd989f8fa02f8cb512c67da3
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 32c8fb5165be78032429dce7957cd0975753515d55969b04415c61be2a7dc5ec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104514472"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119675368"
 ---
 # <a name="gluendsurface-function"></a>gluEndSurface 函式
 

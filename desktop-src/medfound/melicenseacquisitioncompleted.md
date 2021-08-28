@@ -4,12 +4,12 @@ ms.assetid: f577131b-887a-4912-8278-1165a801c2b3
 title: 'MELicenseAcquisitionCompleted 事件 (Mfobjects) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 545fa012f974637f5d268a7d8257daaf9b393f06
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 22ac7d24f99083153223614e7421dd8bd83468991c4d9a63fbb8e5933963f1e5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106984187"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120013608"
 ---
 # <a name="melicenseacquisitioncompleted-event"></a>MELicenseAcquisitionCompleted 事件
 
@@ -21,7 +21,7 @@ ms.locfileid: "106984187"
 
 
 
-| VARTYPE              | Description                           |
+| VARTYPE              | 描述                           |
 |----------------------|---------------------------------------|
 | VT \_ 空白<br/> | 沒有事件資料。<br/> <br/> |
 
@@ -33,8 +33,8 @@ ms.locfileid: "106984187"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                                     |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                                     |
 | 標頭<br/>                   | <dl> <dt>Mfobjects (包含 Mfidl) </dt> </dl> |
 
 

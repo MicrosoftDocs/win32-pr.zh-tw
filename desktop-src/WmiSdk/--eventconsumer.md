@@ -17,12 +17,12 @@ api_type:
 - Schema
 api_location:
 - All
-ms.openlocfilehash: b8478b76aebf293d562129d047330f33e52706b2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ba84549f1120f4f6d2045e9e9c999e56c38dd285e2ab25de5da1e1b12401f345
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103945392"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120120948"
 ---
 # <a name="__eventconsumer-class"></a>\_\_EventConsumer 類別
 

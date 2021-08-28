@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 85390230b0a0852ee479bc8b7e396972f6e69080
-ms.sourcegitcommit: 03fb201e1ea36e353c335ff063ed993fb5993e61
+ms.openlocfilehash: 81b07206205a58ba2f8dc45cbd88caf2248a7937bd62d71b606aeea9538d84ac
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106973342"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119432900"
 ---
 # <a name="forcerefresh-method-of-the-microsoftdns_zone-class"></a>MicrosoftDNS 區域類別的 ForceRefresh 方法 \_
 

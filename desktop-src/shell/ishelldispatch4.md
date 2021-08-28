@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 4fe37e38-ee71-41f0-b620-35fdc18f9dbb
-ms.openlocfilehash: daec9c922a0bac05154c1108f236ddf336a2e380
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: 057ef4082bac8d04c006d951db7d2d251be2f8c62e88af65bc1a69678514af81
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109843059"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118969007"
 ---
 # <a name="ishelldispatch4-object"></a>IShellDispatch4 物件
 
@@ -46,7 +46,7 @@ ms.locfileid: "109843059"
 | [**ExplorerPolicy**](ishelldispatch4-explorerpolicy.md)   | 取得指定 Internet Explorer 原則的值。<br/> |
 | [**GetSetting**](ishelldispatch4-getsetting.md)           | 捕獲全域 Shell 設定。<br/>                        |
 | [**ToggleDesktop**](ishelldispatch4-toggledesktop.md)     | 顯示或隱藏桌面。<br/>                           |
-| [**WindowsSecurity**](ishelldispatch4-windowssecurity.md) | 顯示 [ **Windows 安全性** ] 對話方塊。<br/>            |
+| [**WindowsSecurity**](ishelldispatch4-windowssecurity.md) | 顯示 [ **Windows 安全性**] 對話方塊。<br/>            |
 
 
 
@@ -54,7 +54,7 @@ ms.locfileid: "109843059"
 
 ## <a name="remarks"></a>備註
 
-如需 Windows 服務的討論，請參閱 [服務](../services/services.md) 檔。
+如需 Windows 服務的討論，請參閱[服務](../services/services.md)檔。
 
 ## <a name="requirements"></a>規格需求
 
@@ -62,10 +62,10 @@ ms.locfileid: "109843059"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                                                   |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                          |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                                                   |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                          |
 | 標頭<br/>                   | <dl> <dt>Shldisp。h</dt> </dl>                          |
-| Idl<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl>                        |
+| IDL<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl>                        |
 | DLL<br/>                      | <dl> <dt>Shell32.dll (6.0 版或更新版本) </dt> </dl> |
 
 

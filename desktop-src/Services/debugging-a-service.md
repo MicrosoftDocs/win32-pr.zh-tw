@@ -4,12 +4,12 @@ ms.assetid: 6f4ae117-2120-4c1e-b69f-641ce2e633fa
 title: 對服務進行偵錯
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7ebd99acfc6ad0e436b7f726c96af9e5d1c58442
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7b79217e4c2e9fe9f17457693260e9041e303511d3805b3bd636622fcbabdf29
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103690076"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120126438"
 ---
 # <a name="debugging-a-service"></a>對服務進行偵錯
 
@@ -21,7 +21,7 @@ ms.locfileid: "103690076"
 
     **HKEY \_ 本機 \_ 電腦 \\ 軟體 \\ Microsoft \\ Windows NT \\ CurrentVersion**
 
-    使用與服務相同的名稱建立子機碼 (例如 MYSERV.EXE) 。 若要使用這個子機碼，請新增名為 **[偵錯工具**] 的 **REG \_ SZ** 類型值。 使用偵錯工具的完整路徑做為字串值。 在 [服務控制台] 小程式中，選取您的服務，按一下 [ **啟動** ]，然後核取 [ **允許服務與桌面互動]**。 服務必須是互動式服務，否則偵錯工具無法在預設桌面上執行。 請注意，Windows Vista 不再支援這項技術，因為所有服務都是在專為服務保留的會話中執行，而且不支援顯示使用者介面。
+    使用與服務相同的名稱建立子機碼 (例如 MYSERV.EXE) 。 若要使用這個子機碼，請新增名為 **[偵錯工具**] 的 **REG \_ SZ** 類型值。 使用偵錯工具的完整路徑做為字串值。 在 [服務控制台] 小程式中，選取您的服務，按一下 [ **啟動** ]，然後核取 [ **允許服務與桌面互動]**。 服務必須是互動式服務，否則偵錯工具無法在預設桌面上執行。 請注意，Windows Vista 不再支援此技術，因為所有服務都是在專門用於服務的會話中執行，而且不支援顯示使用者介面。
 
 -   使用 [事件追蹤](/windows/desktop/ETW/event-tracing-portal) 來記錄資訊。
 

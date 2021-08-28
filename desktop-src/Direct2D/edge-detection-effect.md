@@ -4,12 +4,12 @@ description: 篩選出影像的內容，並在影像的對比區段邊緣留下�
 ms.assetid: d22868cf-95fe-690e-66ac-268d7e116aee
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b47239bede77dc5d32582c6e83c8101e5c9bbf2a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f7067243c19ed65bcdc23f1654999ff10ad3b80bafa641d0d3da940719db7bcd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104025497"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119967061"
 ---
 # <a name="edge-detection-effect"></a>邊緣偵測效果
 
@@ -55,8 +55,8 @@ Edge 偵測效果的屬性是由 [**D2D1 \_ EDGEDETECTION \_**](/windows/desktop
 
 | 需求 | 值 |
 |--------------------------|---------------------------------------------------|
-| 最低支援的用戶端 | Windows 10 \[ 桌面應用程式 \| Windows Store 應用程式\] |
-| 最低支援的伺服器 | Windows 10 \[ 桌面應用程式 \| Windows Store 應用程式\] |
+| 最低支援的用戶端 | Windows 10 \[桌面應用程式 \| Windows 儲存應用程式\] |
+| 最低支援的伺服器 | Windows 10 \[桌面應用程式 \| Windows 儲存應用程式\] |
 | 標頭                   | d2d1effects \_ 2。h                                  |
 | 程式庫                  | d2d1 .lib，dxguid .lib                              |
 

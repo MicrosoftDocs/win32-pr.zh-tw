@@ -4,16 +4,16 @@ description: 適用于 Peedy 字元的 Microsoft Agent 動畫
 ms.assetid: 335d915c-9cae-4850-a6bf-66ad78d533ff
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a8e064063b322bc6549d91b5fce35bdbc491a5a3
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 46682d8836fc02a8d19d5b40e8fddef4068a1d14190c2919042ff1087a745acb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103682291"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119888108"
 ---
 # <a name="microsoft-agent-animations-for-peedy-character"></a>適用于 Peedy 字元的 Microsoft Agent 動畫
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 [Microsoft Agent Peedy 字元](https://www.microsoft.com/downloads/details.aspx?FamilyID=bd3c4655-79e4-4791-ab9d-abc7bbd133ef)是 Microsoft Corporation 的受版權保護工作。
 
@@ -29,7 +29,7 @@ Peedy 支援下表所列的動畫。 如需如何呼叫字元動畫的詳細資�
 
 
 
-| 動畫                  | 返回動畫         | 支援說話 | 音效 | 指派至狀態                            | Description                                            |
+| 動畫                  | 返回動畫         | 支援說話 | 音效 | 指派至狀態                            | 描述                                            |
 |----------------------------|--------------------------|-------------------|---------------|----------------------------------------------|--------------------------------------------------------|
 | **承認**            | 無                     | No                | **否**        | 無                                         | 節點 head                                              |
 | **警示**                  | 是，使用結束分支 | Yes               | **否**        | **聽**                                | Straightens 並引發眉毛                        |

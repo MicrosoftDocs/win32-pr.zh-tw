@@ -4,23 +4,23 @@ ms.assetid: 36b72e4f-133d-4d96-a3c9-86a852d3a479
 title: 使用 Checkv4.exe 公用程式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2fc9eca96b2138f9950b157a4b7690dc382f273e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a3377e62e5a874910f91857b6c5dc64df3c3cccddbe405ab6ca199241038a4ff
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104571622"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120121062"
 ---
 # <a name="using-the-checkv4exe-utility"></a>使用 Checkv4.exe 公用程式
 
 > [!IMPORTANT]
-> *Checkv4.exe* 公用程式不會隨附于 Windows 8 的 WINDOWS 軟體開發套件 (SDK) ，也不會隨附于較新版本的 Windows SDK。
+> *Checkv4.exe* 公用程式不會隨附于 Windows 8 的 Windows 軟體開發套件 (SDK) ，也不會隨附于較新版本的 Windows SDK。
 
 *Checkv4.exe* 公用程式是設計來提供程式碼移植夥伴;此公用程式會逐步引導您使用您的程式碼基底、找出潛在的問題，或反白顯示可受益于支援 IPv6 的函式或結構的程式碼，並提出建議。 使用 Checkv4.exe 公用程式，修改現有 IPv4 應用程式以支援 IPv6 的工作會變得更容易。
 
-*Checkv4.exe* 公用程式會安裝為 Windows Vista 和更新版本的 Microsoft WINDOWS 軟體開發套件 (SDK) 的一部分， (Windows 軟體開發套件 (的) Windows 8 SDK) 。
+*Checkv4.exe* 公用程式會安裝為 Windows Vista 和更新版本 sdk) 發行的 Microsoft Windows 軟體開發套件 (sdk， (Windows 軟體開發套件 () SDK Windows 8。
 
-舊版具有更有限功能的 *Checkv4.exe* 公用程式，也可在舊版 Microsoft IPv6 technical Preview for Windows 2000 中取得。
+較舊版本的 *Checkv4.exe* 公用程式具有更有限的功能，也提供為 Windows 2000 的舊版 Microsoft IPv6 技術預覽的一部分。
 
 下列各節說明如何使用 *Checkv4.exe* 公用程式，然後說明修改現有 IPv4 應用程式以支援 IPv6 的建議方法。
 
@@ -32,7 +32,7 @@ ms.locfileid: "104571622"
 
     **Checkv4 simplec c。**
 
-    請注意， *Checkv4.exe* 公用程式所做的某些建議只需要最新版本的 *Ws2tcpip .h* 標頭檔中的結構，例如 **SOCKADDR \_ IN6** 結構。 這些標頭檔包含在 Windows Vista 和更新版本中發行的 Windows SDK。 這些標頭檔也包含在舊版平臺軟體發展工具組中， (SDK) 發行給 Windows Server 2003。 這些標頭檔也會包含在 MSDN 訂用帳戶或下載中。
+    請注意， *Checkv4.exe* 公用程式所做的某些建議只需要最新版本的 *Ws2tcpip .h* 標頭檔中的結構，例如 **SOCKADDR \_ IN6** 結構。 這些標頭檔包含在 Windows Vista 和更新版本中發行的 Windows SDK。 這些標頭檔也包含在舊版平臺軟體發展工具組中， (SDK) 為 Windows Server 2003 發行。 這些標頭檔也會包含在 MSDN 訂用帳戶或下載中。
 
     下列螢幕擷取畫面顯示在附錄 A 中所包含的 Simplec 檔案上使用 *Checkv4.exe* 公用程式的結果：
 
@@ -53,11 +53,11 @@ ms.locfileid: "104571622"
 3.  請參閱原始程式碼，以使用硬式編碼的 IPv4 位址，例如回送位址，或使用其他常值字串。
 4.  執行完整的使用者介面檢查，包括資訊對話方塊。 請考慮它是否適用于已啟用 IPv6 的應用程式，以指定或提供以 IP 位址為基礎的資訊。
 5.  判斷您的應用程式是否依賴基礎通訊協定（例如 RPC），並進行適當的程式設計變更來處理 IPv6 位址。
-6.  在 Windows XP 和更新版本上編譯應用程式時，請使用編譯時間旗標 IPV6STRICT。 此旗標會導致不相容的程式碼編譯失敗，如下所示：
+6.  在 Windows XP 和更新版本上編譯應用程式時，請使用編譯時期旗標 IPV6STRICT。 此旗標會導致不相容的程式碼編譯失敗，如下所示：
 
-    具有不相容程式碼的 Windows 通訊端1.x 應用程式無法進行編譯，並傳回錯誤訊息「需要的 WINSOCK2」。
+    Windows具有不相容程式碼的通訊端1.x 應用程式無法進行編譯，並傳回錯誤訊息「需要的 WINSOCK2」。
 
-    具有不相容程式碼的 Windows 通訊端2.x 應用程式，會導致每個不相容程式碼實例發生編譯時間錯誤。 系統會以下列格式產生錯誤訊息：
+    Windows具有不相容程式碼的 socket 2.x 應用程式會導致每個不相容程式碼實例的編譯時間錯誤。 系統會以下列格式產生錯誤訊息：
 
     `[file name] ([line number]) : [error message] '[symbol]_IPV6INCOMPATIBLE'`
 

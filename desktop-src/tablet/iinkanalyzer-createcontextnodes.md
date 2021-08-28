@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - IACom.dll
-ms.openlocfilehash: 07bdfc9a32fd4aec8e716cdd3c788c211c1adaec
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4663493e6847ac3904916c93220386c6db13f0ef27fc60b36e048852b6cf0b00
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106998070"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118967297"
 ---
 # <a name="iinkanalyzercreatecontextnodes-method"></a>IInkAnalyzer：： CreateCoNtextNodes 方法
 
@@ -65,7 +65,7 @@ HRESULT CreateContextNodes(
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 Windows XP Tablet PC Edition \[ 桌面應用程式\]<br/>                                                 |
+| 最低支援的用戶端<br/> | Windows僅限 XP Tablet PC Edition \[ 桌面應用程式\]<br/>                                                 |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                                     |
 | 標頭<br/>                   | <dl> <dt>IACom (也需要 IACom \_ c) </dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |

@@ -3,12 +3,12 @@ description: 本主題將告訴您如何控制動詞可視性。
 title: 如何隱藏和控制動詞可見度
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a8f689d8b93ce9facb62b654f3f8be62f665e001
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c92455a87b971d50e7a5d48890a0dcf54dbd5b2acc0cf8245e3ee01c99987246
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192682"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119395838"
 ---
 # <a name="how-to-suppress-and-control-verb-visibility"></a>如何隱藏和控制動詞可見度
 

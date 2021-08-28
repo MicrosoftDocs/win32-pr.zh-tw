@@ -4,12 +4,12 @@ description: 顯示如何將多個轉換套用至物件。
 ms.assetid: a3875072-bb73-4698-944e-102ab5539d80
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e031a46545c59513767ed4d260be9dc677b3fb77
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7d63db7899b79dd07a6a4a14a4efbbfaeefc5723ad09c71a3462ba5d2fd0c042
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671775"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119259681"
 ---
 # <a name="how-to-apply-multiple-transforms-to-an-object"></a>如何將多個轉換套用至物件
 
@@ -99,9 +99,9 @@ m_pRenderTarget->DrawRectangle(rectangle, m_pTransformedShapeBrush);
 [Direct2D 轉換總覽](direct2d-transforms-overview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

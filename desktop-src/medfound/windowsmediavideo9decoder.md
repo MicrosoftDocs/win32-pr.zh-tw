@@ -4,12 +4,12 @@ ms.assetid: 08f68d1c-c226-4bf6-abd0-fce0f9ddbc05
 title: 'WindowsMedia Video 9 解碼器 (Wmcodecdsp .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b251b46c94ef88283577dbd8268c3275d8ed6aab9321c98e115a42501e2729ed
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: df973e78f69e1f1ff0e649b2c4f5637380be9f27
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118237260"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122474304"
 ---
 # <a name="windows-media-video-9-decoder"></a>Windows媒體 Video 9 解碼器
 
@@ -96,80 +96,18 @@ Windows Media 視訊的解碼器支援下列屬性。
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>屬性</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="mfpkey-decoder-deinterlacingproperty.md">MFPKEY_DECODER_DEINTERLACING</a></td>
-<td>指定編解碼器是否將經過壓縮資料流程的交錯式影片框架解碼為漸進式框架。<br/> <dl> WindowsXP 和更新版本。<br />
-簡單設定檔、主要設定檔、Advanced Profile。<br />
-讀取/寫入<br />
-</dl></td>
-</tr>
-<tr class="even">
-<td><a href="mfpkey-dxva-enabledproperty.md">MFPKEY_DXVA_ENABLED</a></td>
-<td>指定解碼器是否會使用 DirectX video 加速硬體（如果有的話）。<br/> <dl> WindowsXP 和更新版本。<br />
-簡單設定檔、主要設定檔、Advanced Profile。<br />
-唯寫。<br />
-</dl></td>
-</tr>
-<tr class="odd">
-<td><a href="mfpkey-avdecvideoswpowerlevelproperty.md">MFPKEY_AVDecVideoSWPowerLevel</a></td>
-<td>指定此解碼器的電源等級。<br/> <dl> Windows 7。<br />
-簡單設定檔、主要設定檔、Advanced Profile、Image。<br />
-讀取/寫入<br />
-</dl></td>
-</tr>
-<tr class="even">
-<td><a href="mfpkey-fi-enabledproperty.md">MFPKEY_FI_ENABLED</a></td>
-<td>指定解碼器是否應使用框架插補。<br/> <dl> WindowsXP 和更新版本。<br />
-簡單設定檔、主要設定檔、Advanced Profile、Image。<br />
-唯寫。<br />
-</dl></td>
-</tr>
-<tr class="odd">
-<td><a href="mfpkey-fi-supportedproperty.md">MFPKEY_FI_SUPPORTED</a></td>
-<td>指定此解碼器是否支援框架插補。<br/> <dl> WindowsXP 和更新版本。<br />
-簡單設定檔、主要設定檔、Advanced Profile、Image<br />
-唯讀。<br />
-</dl></td>
-</tr>
-<tr class="even">
-<td><a href="mfpkey-numthreadsdecproperty.md">MFPKEY_NUMTHREADSDEC</a></td>
-<td>指定此解碼器將使用的執行緒數目。<br/> <dl> WindowsVista 和更新版本。<br />
-簡單設定檔、主要設定檔、Advanced Profile、Image。<br />
-讀取/寫入<br />
-</dl></td>
-</tr>
-<tr class="odd">
-<td><a href="mfpkey-postprocessmodeproperty.md">MFPKEY_POSTPROCESSMODE</a></td>
-<td>指定此解碼器的後置處理模式。<br/> <dl> WindowsVista 和更新版本。<br />
-簡單設定檔、主要設定檔、Advanced Profile、Image。<br />
-唯寫。<br />
-</dl></td>
-</tr>
-<tr class="even">
-<td><strong>g_wszWMVCNeedsDrain</strong></td>
-<td>指定是否應清空解碼器。<br/> <dl> Windows 8<br />
-唯讀。<br />
-</dl> Windows 媒體格式執行時間會使用這個屬性。 屬性類型為 <strong>VARIANT_BOOL</strong>。 如果此值為 <strong>VARIANT_TRUE</strong>，則應在不連續的情況下清空此解碼器。 如需有關清空 MFT 的詳細資訊，請參閱 <a href="basic-mft-processing-model.md">基本的 Mft 處理模型</a>。<br/>
-<blockquote>
-[!Note]<br />
-若要查詢這個屬性，請使用 <a href="/windows/desktop/com/ipropertybag-and-ipersistpropertybag"><strong>IPropertyBag</strong></a> 介面。
-</blockquote>
-<br/></td>
-</tr>
-</tbody>
-</table>
+
+| 屬性 | 描述 | 
+|----------|-------------|
+| <a href="mfpkey-decoder-deinterlacingproperty.md">MFPKEY_DECODER_DEINTERLACING</a> | 指定編解碼器是否將經過壓縮資料流程的交錯式影片框架解碼為漸進式框架。<br /><dl> WindowsXP 和更新版本。<br />簡單設定檔、主要設定檔、Advanced Profile。<br />讀取/寫入<br /></dl> | 
+| <a href="mfpkey-dxva-enabledproperty.md">MFPKEY_DXVA_ENABLED</a> | 指定解碼器是否會使用 DirectX video 加速硬體（如果有的話）。<br /><dl> WindowsXP 和更新版本。<br />簡單設定檔、主要設定檔、Advanced Profile。<br />唯寫。<br /></dl> | 
+| <a href="mfpkey-avdecvideoswpowerlevelproperty.md">MFPKEY_AVDecVideoSWPowerLevel</a> | 指定此解碼器的電源等級。<br /><dl> Windows 7。<br />簡單設定檔、主要設定檔、Advanced Profile、Image。<br />讀取/寫入<br /></dl> | 
+| <a href="mfpkey-fi-enabledproperty.md">MFPKEY_FI_ENABLED</a> | 指定解碼器是否應使用框架插補。<br /><dl> WindowsXP 和更新版本。<br />簡單設定檔、主要設定檔、Advanced Profile、Image。<br />唯寫。<br /></dl> | 
+| <a href="mfpkey-fi-supportedproperty.md">MFPKEY_FI_SUPPORTED</a> | 指定此解碼器是否支援框架插補。<br /><dl> WindowsXP 和更新版本。<br />簡單設定檔、主要設定檔、Advanced Profile、Image<br />唯讀。<br /></dl> | 
+| <a href="mfpkey-numthreadsdecproperty.md">MFPKEY_NUMTHREADSDEC</a> | 指定此解碼器將使用的執行緒數目。<br /><dl> WindowsVista 和更新版本。<br />簡單設定檔、主要設定檔、Advanced Profile、Image。<br />讀取/寫入<br /></dl> | 
+| <a href="mfpkey-postprocessmodeproperty.md">MFPKEY_POSTPROCESSMODE</a> | 指定此解碼器的後置處理模式。<br /><dl> WindowsVista 和更新版本。<br />簡單設定檔、主要設定檔、Advanced Profile、Image。<br />唯寫。<br /></dl> | 
+| <strong>g_wszWMVCNeedsDrain</strong> | 指定是否應清空解碼器。<br /><dl> Windows 8<br />唯讀。<br /></dl> Windows 媒體格式執行時間會使用這個屬性。 屬性類型為 <strong>VARIANT_BOOL</strong>。 如果此值為 <strong>VARIANT_TRUE</strong>，則應在不連續的情況下清空此解碼器。 如需有關清空 MFT 的詳細資訊，請參閱 <a href="basic-mft-processing-model.md">基本的 Mft 處理模型</a>。<br /><blockquote>[!Note]<br />若要查詢這個屬性，請使用 <a href="/windows/desktop/com/ipropertybag-and-ipersistpropertybag"><strong>IPropertyBag</strong></a> 介面。</blockquote><br /> | 
+
 
 
 

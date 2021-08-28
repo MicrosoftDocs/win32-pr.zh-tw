@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 453352574a7aec10c56492060ac2de6ceeca030f
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 655557c23475dbc2d7f2e92fb48f5f71a8e818954bff83f5a47bb2470a26ca20
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103935348"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119836188"
 ---
 # <a name="surname-attribute"></a>姓氏屬性
 
@@ -58,15 +58,15 @@ ms.locfileid: "103935348"
 | 連結識別碼                | \-                                    |
 | MAPI-Id                | 0x3A11                                |
 | System-Only            | 否                                 |
-| 是-單一值       | 對                                  |
-| 已編制索引             | 對                                  |
-| 在通用類別目錄中      | 對                                  |
+| 是-單一值       | 是                                  |
+| 已編制索引             | 是                                  |
+| 在通用類別目錄中      | 是                                  |
 | NT-Security-描述元 | O:BAG：不正確： S：                          |
 | Range-Lower            | 1                                     |
 | Range-Upper            | 64                                    |
 | Search-Flags           | 0x00000005                            |
 | System-Flags           | 0x00000010                            |
-| 中使用的類別        | [**個人**](c-person.md)<br/> |
+| 中使用的類別        | [**人**](c-person.md)<br/> |
 
 
 
@@ -79,15 +79,15 @@ ms.locfileid: "103935348"
 | 連結識別碼                | \-                                                                                            |
 | MAPI-Id                | 0x3A11                                                                                        |
 | System-Only            | 否                                                                                         |
-| 是-單一值       | 對                                                                                          |
-| 已編制索引             | 對                                                                                          |
-| 在通用類別目錄中      | 對                                                                                          |
+| 是-單一值       | 是                                                                                          |
+| 已編制索引             | 是                                                                                          |
+| 在通用類別目錄中      | 是                                                                                          |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                  |
 | Range-Lower            | 1                                                                                             |
 | Range-Upper            | 64                                                                                            |
 | Search-Flags           | 0x00000005                                                                                    |
 | System-Flags           | 0x00000010                                                                                    |
-| 中使用的類別        | [**個人**](c-person.md)<br/> [**rFC822LocalPart**](c-rfc822localpart.md)<br/> |
+| 中使用的類別        | [**人**](c-person.md)<br/> [**rFC822LocalPart**](c-rfc822localpart.md)<br/> |
 
 
 
@@ -100,15 +100,15 @@ ms.locfileid: "103935348"
 | 連結識別碼                | \-                                                                                            |
 | MAPI-Id                | 0x3A11                                                                                        |
 | System-Only            | 否                                                                                         |
-| 是-單一值       | 對                                                                                          |
-| 已編制索引             | 對                                                                                          |
-| 在通用類別目錄中      | 對                                                                                          |
+| 是-單一值       | 是                                                                                          |
+| 已編制索引             | 是                                                                                          |
+| 在通用類別目錄中      | 是                                                                                          |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                  |
 | Range-Lower            | 1                                                                                             |
 | Range-Upper            | 64                                                                                            |
 | Search-Flags           | 0x00000005                                                                                    |
 | System-Flags           | 0x00000010                                                                                    |
-| 中使用的類別        | [**個人**](c-person.md)<br/> [**rFC822LocalPart**](c-rfc822localpart.md)<br/> |
+| 中使用的類別        | [**人**](c-person.md)<br/> [**rFC822LocalPart**](c-rfc822localpart.md)<br/> |
 
 
 
@@ -121,15 +121,15 @@ ms.locfileid: "103935348"
 | 連結識別碼                | \-                                                                                            |
 | MAPI-Id                | 0x3A11                                                                                        |
 | System-Only            | 否                                                                                         |
-| 是-單一值       | 對                                                                                          |
-| 已編制索引             | 對                                                                                          |
-| 在通用類別目錄中      | 對                                                                                          |
+| 是-單一值       | 是                                                                                          |
+| 已編制索引             | 是                                                                                          |
+| 在通用類別目錄中      | 是                                                                                          |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                  |
 | Range-Lower            | 1                                                                                             |
 | Range-Upper            | 64                                                                                            |
 | Search-Flags           | 0x00000005                                                                                    |
 | System-Flags           | 0x00000010                                                                                    |
-| 中使用的類別        | [**個人**](c-person.md)<br/> [**rFC822LocalPart**](c-rfc822localpart.md)<br/> |
+| 中使用的類別        | [**人**](c-person.md)<br/> [**rFC822LocalPart**](c-rfc822localpart.md)<br/> |
 
 
 
@@ -142,15 +142,15 @@ ms.locfileid: "103935348"
 | 連結識別碼                | \-                                                                                            |
 | MAPI-Id                | 0x3A11                                                                                        |
 | System-Only            | 否                                                                                         |
-| 是-單一值       | 對                                                                                          |
-| 已編制索引             | 對                                                                                          |
-| 在通用類別目錄中      | 對                                                                                          |
+| 是-單一值       | 是                                                                                          |
+| 已編制索引             | 是                                                                                          |
+| 在通用類別目錄中      | 是                                                                                          |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                  |
 | Range-Lower            | 1                                                                                             |
 | Range-Upper            | 64                                                                                            |
 | Search-Flags           | 0x00000005                                                                                    |
 | System-Flags           | 0x00000010                                                                                    |
-| 中使用的類別        | [**個人**](c-person.md)<br/> [**rFC822LocalPart**](c-rfc822localpart.md)<br/> |
+| 中使用的類別        | [**人**](c-person.md)<br/> [**rFC822LocalPart**](c-rfc822localpart.md)<br/> |
 
 
 
@@ -163,15 +163,15 @@ ms.locfileid: "103935348"
 | 連結識別碼                | \-                                                                                            |
 | MAPI-Id                | 0x3A11                                                                                        |
 | System-Only            | 否                                                                                         |
-| 是-單一值       | 對                                                                                          |
-| 已編制索引             | 對                                                                                          |
-| 在通用類別目錄中      | 對                                                                                          |
+| 是-單一值       | 是                                                                                          |
+| 已編制索引             | 是                                                                                          |
+| 在通用類別目錄中      | 是                                                                                          |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                  |
 | Range-Lower            | 1                                                                                             |
 | Range-Upper            | 64                                                                                            |
 | Search-Flags           | 0x00000005                                                                                    |
 | System-Flags           | 0x00000010                                                                                    |
-| 中使用的類別        | [**個人**](c-person.md)<br/> [**rFC822LocalPart**](c-rfc822localpart.md)<br/> |
+| 中使用的類別        | [**人**](c-person.md)<br/> [**rFC822LocalPart**](c-rfc822localpart.md)<br/> |
 
 
 

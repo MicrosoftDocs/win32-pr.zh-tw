@@ -4,12 +4,12 @@ ms.assetid: caa72465-c146-4bdc-a66f-325cf4487866
 title: XMVECTORU8 運算子
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e42fa97b407714ca88b3ea9a0da769726db7dd6f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ce443ff1aea35d4e2e03c11587848093408a9dc13e05854a566a02fa9c540141
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114497"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119841348"
 ---
 # <a name="xmvectoru8-operators"></a>XMVECTORU8 運算子
 
@@ -26,7 +26,7 @@ ms.locfileid: "104114497"
 
 | 方法                                                              | 描述                                                                                                                                                                                                                                                                                             |
 |----------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**運算子 \_ \_ m128i**](/previous-versions/windows/desktop/legacy/ee421373(v=vs.85))<br/> | 傳回物件，此物件會將目前的 [**XMVECTORU8**](xmvectoru8-data-type.md)實例轉換為僅支援 SSE 的 Windows 系統 [ \_ \_ m128i](/cpp/cpp/m128i)實例 \[ [](/previous-versions/visualstudio/visual-studio-2010/t467de55(v=vs.100))\]<br/> |
+| [**運算子 \_ \_ m128i**](/previous-versions/windows/desktop/legacy/ee421373(v=vs.85))<br/> | 傳回物件，此物件會將目前的 [**XMVECTORU8**](xmvectoru8-data-type.md)實例轉換為僅支援 SSE 的 Windows 系統的 [ \_ \_ m128i](/cpp/cpp/m128i)實例 \[ [](/previous-versions/visualstudio/visual-studio-2010/t467de55(v=vs.100))\]<br/> |
 | [**運算子 XMVECTOR**](/previous-versions/windows/desktop/legacy/ee421374(v=vs.85))<br/> | 傳回 `XMVECTOR` 執行目前實例的實例 `XMVECTORU8` 。<br/>                                                                                                                                                                                                        |
 
 

@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101867
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 8b71d8284cbb2e0e4ef2159005ba6340d510dea5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e1a25c5de23ecd325cbc45baa8c74b6a554cea034aa4d92fcce964d50965fa0b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103692724"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119837980"
 ---
 # <a name="esentindextuplestoomanycolumnsexception-methods"></a>EsentIndexTuplesTooManyColumnsException 方法
 

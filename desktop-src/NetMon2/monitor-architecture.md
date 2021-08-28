@@ -4,12 +4,12 @@ ms.assetid: cbd6116c-1a95-4ac4-bc79-632ebe198197
 title: 監視架構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 38c1a36ef19933d888f27079d8d94ddba16bde79
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d9cd0a099fc1474255b36f1f04d28899b25a527fee19ba1d29434b4692615ab8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104568628"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119677121"
 ---
 # <a name="monitor-architecture"></a>監視架構
 

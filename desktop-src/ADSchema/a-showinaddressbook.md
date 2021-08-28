@@ -14,16 +14,16 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f44632604c539278c67e9dd46537d8e797e2d70d
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 610e310297d3401548cc65adb53c77760893ba3a0c5777a9d440432d12dff77a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104467242"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119836268"
 ---
 # <a name="show-in-address-book-attribute"></a>顯示通訊錄屬性
 
-這個屬性是用來指出物件將出現在哪些 MAPI 通訊錄中。 它通常是由 Exchange 收件者更新服務維護。
+這個屬性是用來指出物件將出現在哪些 MAPI 通訊錄中。 它通常是由 Exchange 收件者更新服務來維護。
 
 
 

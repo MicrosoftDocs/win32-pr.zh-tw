@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: c27e4c6d2cc706b30f2be99030e7bb4a5bccf209
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: f66e4f0d6c36d2de655c8dee5f0cfbee3b5aa03d4750c5e2a8faaea43a24c657
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106982033"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119373148"
 ---
 # <a name="id3dxanimationcontrollergetpriorityblend-method"></a>ID3DXAnimationController：： GetPriorityBlend 方法
 
