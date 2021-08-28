@@ -6,12 +6,12 @@ keywords:
 - Windows 程式設計儲存64位值64位
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 61b23de4fc4c15205e142a7a468d5a1bc5247ee9be23f0ca1bea1a0c28284d28
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ac6be70aba73af9640a69aa60055afcfb03ade7a
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118113493"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122469065"
 ---
 # <a name="storing-a-64-bit-value"></a>儲存64位值
 
@@ -25,26 +25,9 @@ ms.locfileid: "118113493"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>使用 ULONG (僅限32位的方法) </td>
-<td><pre class="syntax" data-space="preserve"><code>ULONG getAnAddress( )
-Int *somePointer
-Return( (ULONG) somePointer );</code></pre></td>
-</tr>
-<tr class="even">
-<td>使用 ULONG_PTR (可移植方法) </td>
-<td><pre class="syntax" data-space="preserve"><code>ULONG_PTR getAnAddress( )
-Int *somePointer
-Return( (ULONG_PTR) somePointer );</code></pre></td>
-</tr>
-</tbody>
-</table>
+
+| | |使用 ULONG (僅限32位的方法) | <pre class="syntax" data-space="preserve"><code>ULONG getAnAddress( )Int *somePointerReturn( (ULONG) somePointer );</code></pre> | |使用 ULONG_PTR (可移植方法) | <pre class="syntax" data-space="preserve"><code>ULONG_PTR getAnAddress( )Int *somePointerReturn( (ULONG_PTR) somePointer );</code></pre> | 
+
 
 
 
@@ -56,26 +39,9 @@ Return( (ULONG_PTR) somePointer );</code></pre></td>
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>使用 ULONG (僅限32位的方法) </td>
-<td><pre class="syntax" data-space="preserve"><code>Int *somePointer;
-Int *someOtherPointer;
-somePointer = (int *)( (ULONG)someOtherPointer + 0x20 );</code></pre></td>
-</tr>
-<tr class="even">
-<td>使用 ULONG_PTR (可移植方法) </td>
-<td><pre class="syntax" data-space="preserve"><code>Int *somePointer;
-Int *someOtherPointer;
-somePointer = (int *)( (ULONG_PTR)someOtherPointer + 0x20 );</code></pre></td>
-</tr>
-</tbody>
-</table>
+
+| | |使用 ULONG (僅限32位的方法) | <pre class="syntax" data-space="preserve"><code>Int *somePointer;Int *someOtherPointer;somePointer = (int *)( (ULONG)someOtherPointer + 0x20 );</code></pre> | |使用 ULONG_PTR (可移植方法) | <pre class="syntax" data-space="preserve"><code>Int *somePointer;Int *someOtherPointer;somePointer = (int *)( (ULONG_PTR)someOtherPointer + 0x20 );</code></pre> | 
+
 
 
 

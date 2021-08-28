@@ -18,17 +18,17 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 3324ad2fe68d106c7f4d2dcdcd1c3dd6ddefd608
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7ce2f5e6072e1c59820121ca652de9237b1c226f
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510917"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122988991"
 ---
 # <a name="jetindexrecordcount-function"></a>JetIndexRecordCount 函式
 
 
-_**適用于：** Windows |Windows Server_
+_**適用于：** Windows |Windows伺服器_
 
 ## <a name="jetindexrecordcount-function"></a>JetIndexRecordCount 函式
 
@@ -63,57 +63,20 @@ _**適用于：** Windows |Windows Server_
 
 ### <a name="return-value"></a>傳回值
 
-此函數會傳回具有下列其中一個傳回碼的 [JET_ERR](./jet-err.md) 資料類型。 如需可能 ESE 錯誤的詳細資訊，請參閱可延伸 [儲存引擎錯誤](./extensible-storage-engine-errors.md) 和 [錯誤處理參數](./error-handling-parameters.md)。
+此函數會傳回具有下列其中一個傳回碼的 [JET_ERR](./jet-err.md) 資料類型。 如需可能 ESE 錯誤的詳細資訊，請參閱可延伸的[儲存體引擎錯誤](./extensible-storage-engine-errors.md)和[錯誤處理參數](./error-handling-parameters.md)。
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>傳回碼</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errSuccess</p></td>
-<td><p>作業已成功完成。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errClientRequestToStopJetService</p></td>
-<td><p>無法完成作業，因為與該會話相關聯之實例上的所有活動都已停止，因此呼叫 <a href="gg269240(v=exchg.10).md">JetStopService</a>。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errInstanceUnavailable</p></td>
-<td><p>作業無法完成，因為與會話相關聯的實例發生嚴重錯誤，需要撤銷所有資料的存取權，以保護該資料的完整性。</p>
-<p><strong>WINDOWS XP：</strong>  這個傳回值是在 Windows XP 中引進的。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errNoCurrentRecord</p></td>
-<td><p>資料指標目前不在記錄上，且資料表不是空的。</p>
-<p><strong>WINDOWS XP、Windows Server 2003、windows 2000 Server 及 windows 2000 Professional：</strong>  如果資料指標位於空的索引或索引範圍上， <strong>JetIndexRecordCount</strong> 會錯誤地傳回 JET_errNoCurrentRecord。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errNotInitialized</p></td>
-<td><p>無法完成作業，因為與會話相關聯的實例尚未初始化。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errRestoreInProgress</p></td>
-<td><p>作業無法完成，因為與會話相關聯的實例正在進行還原作業。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errSessionSharingViolation</p></td>
-<td><p>相同的會話無法同時用於一個以上的執行緒。</p>
-<p><strong>WINDOWS XP：</strong>  這個傳回值是在 Windows XP 中引進的。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errTermInProgress</p></td>
-<td><p>無法完成作業，因為與會話相關聯的實例正在關閉中。</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>傳回碼</p> | <p>Description</p> | 
+|--------------------|--------------------|
+| <p>JET_errSuccess</p> | <p>作業已成功完成。</p> | 
+| <p>JET_errClientRequestToStopJetService</p> | <p>無法完成作業，因為與該會話相關聯之實例上的所有活動都已停止，因此呼叫 <a href="gg269240(v=exchg.10).md">JetStopService</a>。</p> | 
+| <p>JET_errInstanceUnavailable</p> | <p>作業無法完成，因為與會話相關聯的實例發生嚴重錯誤，需要撤銷所有資料的存取權，以保護該資料的完整性。</p><p><strong>Windows XP：</strong> 此傳回值會在 Windows XP 中引進。</p> | 
+| <p>JET_errNoCurrentRecord</p> | <p>資料指標目前不在記錄上，且資料表不是空的。</p><p><strong>Windows XP、Windows Server 2003、Windows 2000 伺服器和 Windows 2000 Professional：</strong> 如果資料指標位於空的索引或索引範圍上， <strong>JetIndexRecordCount</strong>會錯誤地傳回 JET_errNoCurrentRecord。</p> | 
+| <p>JET_errNotInitialized</p> | <p>無法完成作業，因為與會話相關聯的實例尚未初始化。</p> | 
+| <p>JET_errRestoreInProgress</p> | <p>作業無法完成，因為與會話相關聯的實例正在進行還原作業。</p> | 
+| <p>JET_errSessionSharingViolation</p> | <p>相同的會話無法同時用於一個以上的執行緒。</p><p><strong>Windows XP：</strong> 此傳回值會在 Windows XP 中引進。</p> | 
+| <p>JET_errTermInProgress</p> | <p>無法完成作業，因為與會話相關聯的實例正在關閉中。</p> | 
+
 
 
 如果此函式成功，則包含目前位置和最高 *crecMax* (索引項目的確切數目（如果不是 0) ）會以 *pcrec* 所指向的不帶正負號的長整數格式傳回。
@@ -130,38 +93,19 @@ _**適用于：** Windows |Windows Server_
 
 **JetIndexRecordCount** 會存取索引分葉頁面，以便精確地計算專案。 因此，它可以執行大量 i/o，而且可能很慢。 *CrecMax* 限制應該用來防止過度負載。 如果範圍很大，則可能使用 [JetGetRecordPosition](./jetgetrecordposition-function.md)以近似值的方式計算範圍。
 
-**WINDOWS XP、Windows Server 2003、windows 2000 Server 及 windows 2000 Professional：**  如果資料指標位於空的索引或索引範圍上， **JetIndexRecordCount** 會錯誤地傳回 JET_errNoCurrentRecord 而不是傳回零的記錄計數。 在此情況下，應用程式應該查看索引或索引範圍是否為空白。
+**Windows XP、Windows Server 2003、Windows 2000 伺服器和 Windows 2000 Professional：** 如果資料指標位於空的索引或索引範圍上， **JetIndexRecordCount** 會錯誤地傳回 JET_errNoCurrentRecord 而不是傳回零的記錄計數。 在此情況下，應用程式應該查看索引或索引範圍是否為空白。
 
 #### <a name="requirements"></a>規格需求
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>用戶端</strong></p></td>
-<td><p>需要 Windows Vista、Windows XP 或 Windows 2000 Professional。</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>伺服器</strong></p></td>
-<td><p>需要 Windows Server 2008、Windows Server 2003 或 Windows 2000 Server。</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>標頭</strong></p></td>
-<td><p>宣告于 Esent. h 中。</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>程式庫</strong></p></td>
-<td><p>使用 ESENT。</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>DLL</strong></p></td>
-<td><p>需要 ESENT.dll。</p></td>
-</tr>
-</tbody>
-</table>
+
+| 需求 | 值 |
+|------------|----------|
+| <p><strong>用戶端</strong></p> | <p>需要 Windows Vista、Windows XP 或 Windows 2000 Professional。</p> | 
+| <p><strong>伺服器</strong></p> | <p>需要 Windows server 2008、Windows Server 2003 或 Windows 2000 Server。</p> | 
+| <p><strong>標頭</strong></p> | <p>宣告于 Esent. h 中。</p> | 
+| <p><strong>程式庫</strong></p> | <p>使用 ESENT。</p> | 
+| <p><strong>DLL</strong></p> | <p>需要 ESENT.dll。</p> | 
+
 
 
 #### <a name="see-also"></a>另請參閱

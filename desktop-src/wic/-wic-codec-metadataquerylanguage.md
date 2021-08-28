@@ -4,12 +4,12 @@ ms.assetid: 5ffa0a69-b53d-4be3-b802-deaaa743e6bd
 title: 中繼資料查詢語言總覽
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1c69effefd288f13c72239a41c5ace1a518775337cc496a2defa864d179cd6cc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 41e141c543cae90ff99d8c0509a0f5802dba1139
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117668228"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122885215"
 ---
 # <a name="metadata-query-language-overview"></a>中繼資料查詢語言總覽
 
@@ -118,7 +118,7 @@ ms.locfileid: "117668228"
 -   int
 -   uint
 -   longlong
--   FLOAT
+-   float
 -   double
 -   字串
 -   wstr
@@ -210,17 +210,17 @@ Escape 字元是由語言剖析器取用，而後面的下列字元則是直接�
 | \<property path>    | \<metadata item> \| \<property path> '/' \<property path>                                                                                                    |
 | \<metadata item>    | \<index name> \| \<item name> \| \<schema name> ':' \<item name>                                                                                        |
 | \<schema name>      | \<item name>                                                                                                                                                           |
-| \<item name>        | \<metadata item> \| <indexed item><index>                                                                                                                  |
+| \<item name>        | \<metadata item>\| <indexed item>&lt;指數&gt;                                                                                                                  |
 | \<indexed item>     | \<item> \| \<implied metadata>\<item>                                                                                                                        |
 | \<implied metadata> | ' < ' \<name> ' > '                                                                                                                                                    |
-| \<item>             | \<name> \| \<index> \<data> \| \<data>                                                                                                                  |
+| \<item>             | \<name>\| \& lt; &gt; \<data> 索引 \|\<data>                                                                                                                  |
 | \<data>             | '{' \<data type> '=' \<value> '}'                                                                                                                                 |
-| \<index>            | '\[' \<number> \| \<star> '\]'                                                                                                                                    |
+| \&lt; 索引&gt;            | '\[' \<number> \| \<star> '\]'                                                                                                                                    |
 | \<data type>        | ' char ' \| ' uchar ' ' \| short ' ' \| ushort ' ' \| long ' \| ' ulong ' \| ' int ' \| ' uint ' \| ' longlong ' \| ' ulonglong ' \| ' float ' ' \| double ' \| ' str ' \| ' wstr ' \| ' guid ' \| ' bool ' |
 | \<data value>       | \<number> \| \<name> \| \<guid>                                                                                                                              |
 | \<star>             | '\*'                                                                                                                                                                        |
 | \<number>           | number                                                                                                                                                                      |
-| \<name>             | 字串                                                                                                                                                                      |
+| \<name>             | string                                                                                                                                                                      |
 | \<guid>             | guid                                                                                                                                                                        |
 
 

@@ -4,12 +4,12 @@ description: Direct3D 11 物件模型會將資源建立和轉譯功能區分為�
 ms.assetid: b9b45d18-f7b7-40f9-ae4e-576ca7a6eba7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 16b03333c6594f17d85fee28880e46928241e06c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 5f9459574ad7d8732714ac54519294ae232e4d8d
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104971397"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122475704"
 ---
 # <a name="introduction-to-a-device-in-direct3d-11"></a>Direct3D 11 中的裝置簡介
 
@@ -55,23 +55,9 @@ Direct3D 11 物件模型會將資源建立和轉譯功能區分為裝置和一�
 
 
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Direct3D 11 與舊版 Direct3D 之間的差異：<br/> 所有 <a href="/windows/desktop/api/D3D11/nn-d3d11-id3d11device"><strong>ID3D11Device</strong></a> 介面方法都是無限制執行緒，這表示可以安全地讓多個執行緒同時呼叫函數。<br/>
-<ul>
-<li>所有 <a href="/windows/desktop/api/D3D11/nn-d3d11-id3d11devicechild"><strong>ID3D11DeviceChild</strong></a>衍生介面 (<a href="/windows/desktop/api/D3D11/nn-d3d11-id3d11buffer"><strong>ID3D11Buffer</strong></a>、 <a href="/windows/desktop/api/D3D11/nn-d3d11-id3d11query"><strong>ID3D11Query</strong></a>等 ) 都是無限制執行緒。</li>
-<li>Direct3D 11 會將建立和轉譯的資源分割成兩個介面。 Map、取消對應、Begin、End 和 >id3d11devicecoNtext 會在<a href="/windows/desktop/api/D3D11/nn-d3d11-id3d11devicecontext"><strong></strong></a>上執行，因為<a href="/windows/desktop/api/D3D11/nn-d3d11-id3d11device"><strong>ID3D11Device</strong></a>會強定義作業的順序。 <a href="/windows/desktop/api/D3D11/nn-d3d11-id3d11resource"><strong>ID3D11Resource</strong></a> 和 <a href="/windows/desktop/api/D3D11/nn-d3d11-id3d11asynchronous"><strong>ID3D11Asynchronous</strong></a> 介面也會針對自由執行緒作業執行方法。</li>
-<li>除了存在於<a href="/windows/desktop/api/D3D11/nn-d3d11-id3d11devicechild"><strong>ID3D11DeviceChild</strong></a>) 上的<a href="/windows/desktop/api/D3D11/nn-d3d11-id3d11devicecontext"><strong>>id3d11devicecoNtext</strong></a>方法 (不是無限制執行緒，也就是需要單一執行緒。 每次只有一個執行緒可以安全地呼叫其任何方法 (繪製、複製、對應等 ) 。</li>
-<li>一般情況下，無限制執行緒會將使用的同步處理原始物件數目以及其持續時間降到最低。 不過，使用長期同步處理的應用程式可能會直接影響應用程式可預期達到的並行程度。</li>
-</ul>
-ID3D10Device 介面方法並非設計成可自由執行緒。 ID3D10Device 會 (與 Direct3D 9) 中的 ID3D9Device 一樣來實行所有建立和轉譯功能。 對應和取消對應會在衍生於 ID3D10Asynchronous 衍生介面的 ID3D10Resource 衍生介面、Begin、End 和上執行。<br/></td>
-</tr>
-</tbody>
-</table>
+
+| | |Direct3D 11 與舊版 Direct3D 之間的差異：<br /> 所有 <a href="/windows/desktop/api/D3D11/nn-d3d11-id3d11device"><strong>ID3D11Device</strong></a> 介面方法都是無限制執行緒，這表示可以安全地讓多個執行緒同時呼叫函數。<br /><ul><li>所有 <a href="/windows/desktop/api/D3D11/nn-d3d11-id3d11devicechild"><strong>ID3D11DeviceChild</strong></a>衍生介面 (<a href="/windows/desktop/api/D3D11/nn-d3d11-id3d11buffer"><strong>ID3D11Buffer</strong></a>、 <a href="/windows/desktop/api/D3D11/nn-d3d11-id3d11query"><strong>ID3D11Query</strong></a>等 ) 都是無限制執行緒。</li><li>Direct3D 11 會將建立和轉譯的資源分割成兩個介面。 Map、取消對應、Begin、End 和 >id3d11devicecoNtext 會在<a href="/windows/desktop/api/D3D11/nn-d3d11-id3d11devicecontext"><strong></strong></a>上執行，因為<a href="/windows/desktop/api/D3D11/nn-d3d11-id3d11device"><strong>ID3D11Device</strong></a>會強定義作業的順序。 <a href="/windows/desktop/api/D3D11/nn-d3d11-id3d11resource"><strong>ID3D11Resource</strong></a> 和 <a href="/windows/desktop/api/D3D11/nn-d3d11-id3d11asynchronous"><strong>ID3D11Asynchronous</strong></a> 介面也會針對自由執行緒作業執行方法。</li><li>除了存在於<a href="/windows/desktop/api/D3D11/nn-d3d11-id3d11devicechild"><strong>ID3D11DeviceChild</strong></a>) 上的<a href="/windows/desktop/api/D3D11/nn-d3d11-id3d11devicecontext"><strong>>id3d11devicecoNtext</strong></a>方法 (不是無限制執行緒，也就是需要單一執行緒。 每次只有一個執行緒可以安全地呼叫其任何方法 (繪製、複製、對應等 ) 。</li><li>一般情況下，無限制執行緒會將使用的同步處理原始物件數目以及其持續時間降到最低。 不過，使用長期同步處理的應用程式可能會直接影響應用程式可預期達到的並行程度。</li></ul>ID3D10Device 介面方法並非設計成可自由執行緒。 ID3D10Device 會 (與 Direct3D 9) 中的 ID3D9Device 一樣來實行所有建立和轉譯功能。 對應和取消對應會在衍生於 ID3D10Asynchronous 衍生介面的 ID3D10Resource 衍生介面、Begin、End 和上執行。<br /> | 
+
 
 
 

@@ -8,12 +8,12 @@ keywords:
 - 使用者安全性屬性 AD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5dfe23252002f2ffbbba3f8e8a8faf5a2d36ce348bdbd7503c0d99a816a81902
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: dbd5dfdbe84234f15b76ceb1799c69cdc0a5bafb
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119024886"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122881218"
 ---
 # <a name="user-security-attributes"></a>使用者安全性屬性
 
@@ -33,7 +33,7 @@ ms.locfileid: "119024886"
 
 [**AltSecurityIdentities**](/windows/desktop/ADSchema/a-altsecurityidentities)屬性是多重值屬性，其中包含針對驗證目的，x.509 憑證或外部 Kerberos 使用者帳戶到這位使用者的對應。 各種安全性套件（包括公開金鑰驗證套件和 Kerberos）會在使用者出示替代形式的身分識別（例如憑證、UNIX Kerberos 票證等等）時，使用這項資料來驗證使用者。 根據對應的使用者帳戶建立 Windows 2000 權杖，讓他們可以存取系統資源。
 
-針對 x.509 憑證，這些值應為 x.509v3 憑證中的簽發者和主體名稱（由外部公開憑證授權單位單位所簽發），該憑證會對應到用來尋找帳戶以進行驗證的使用者帳戶。 SSL (Schannel) 封裝使用下列語法： X509： <somecertinfotype> somecertinfo。 例如，下列值會以 dn " \<I\> c = us，o = InternetCA，CN = APublicCertificateAuthority"，以及 \<S\> Dn "c = Us，o = FABRIKAM，OU = SALES，CN = Jeff Smith" 的主體 dn ""，來指定簽發者 DN ""。
+針對 x.509 憑證，這些值應為 x.509v3 憑證中的簽發者和主體名稱（由外部公開憑證授權單位單位所簽發），該憑證會對應到用來尋找帳戶以進行驗證的使用者帳戶。 SSL (Schannel) 封裝使用下列語法： X509： &lt; somecertinfotype &gt; somecertinfo。 例如，下列值會以 dn " \<I\> c = us，o = InternetCA，CN = APublicCertificateAuthority"，以及 \<S\> Dn "c = Us，o = FABRIKAM，OU = SALES，CN = Jeff Smith" 的主體 dn ""，來指定簽發者 DN ""。
 
 
 ```C++

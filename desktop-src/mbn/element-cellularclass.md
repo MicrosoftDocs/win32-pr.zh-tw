@@ -7,12 +7,12 @@ MSHAttr:
 title: CellularClass
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d8f0fbbd2ab8548eec9550f83fc15d1461ed56a
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: 850635853a3545fc82707acb48914ca190cefe7c
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122474774"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122883949"
 ---
 # <a name="span-idwwan_profile_v4element_cellularclassspancellularclass"></a><span id="WWAN_profile_v4.element_CellularClass"></span>CellularClass
 
@@ -20,9 +20,9 @@ ms.locfileid: "122474774"
 
 ## <a name="element-hierarchy"></a>元素階層
 
-[<MBNProfileExt>](element-mbnprofileext.md)  
-[<ProfileConditionedOn>](element-profileconditionedon.md)  
-**<CellularClass>**
+[&lt;MBNProfileExt&gt;](element-mbnprofileext.md)  
+[&lt;ProfileConditionedOn&gt;](element-profileconditionedon.md)  
+**&lt;CellularClass&gt;**
 
 ## <a name="syntax"></a>Syntax
 
@@ -47,7 +47,7 @@ ms.locfileid: "122474774"
 ### <a name="span-idparent_elementsspanspan-idparent_elementsspanparent-elements"></a><span id="parent_elements"></span><span id="PARENT_ELEMENTS"></span>父元素
 
 
-| Parent 項目 | Description | 
+| Parent 項目 | 說明 | 
 |----------------|-------------|
 | <a href="element-profileconditionedon.md">ProfileConditionedOn</a> | <p>指定必須滿足的條件，設定檔才適用。</p><p>此元素是 v4 的新專案。 它可讓您指定在不同條件下套用的多個設定檔，並在適用時自動使用適當的設定檔。 這是選擇性的項目。 如果您未指定，則設定檔一律適用于所列出的條件。</p> | 
 

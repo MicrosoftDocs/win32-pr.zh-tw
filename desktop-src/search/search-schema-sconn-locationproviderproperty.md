@@ -1,19 +1,19 @@
 ---
-description: 選擇性 <property> 元素會指定位置提供者所使用的屬性。
+description: 選擇性 &lt; 屬性 &gt; 元素會指定位置提供者所使用的屬性。
 ms.assetid: c1120dea-cb0b-4746-a5c1-4c83cda6dd7c
 title: locationProvider (搜尋連接器架構) 的 property 元素
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 623d54ef98986c603acc709bcd39ca1ac5504b89
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: ad478fd1d1c00ad5c7f866831cdfdf898557546b
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122471554"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122883334"
 ---
 # <a name="property-element-of-locationprovider-search-connector-schema"></a>locationProvider (搜尋連接器架構) 的 property 元素
 
-選擇性 <property> 元素會指定位置提供者所使用的屬性。 這些屬性是此位置提供者特有的屬性，因此沒有預先定義的名稱組可供使用。 <property>此元素有兩個屬性，如本主題中所述。
+選擇性 &lt; 屬性 &gt; 元素會指定位置提供者所使用的屬性。 這些屬性是此位置提供者特有的屬性，因此沒有預先定義的名稱組可供使用。 &lt;Property &gt; 元素有兩個屬性，如本主題中所述。
 
 ## <a name="syntax"></a>Syntax
 
@@ -36,7 +36,7 @@ ms.locfileid: "122471554"
 
 
 
-## <a name="property-element-information"></a><property> 元素資訊
+## <a name="ltpropertygt-element-information"></a>&lt;property &gt; 元素資訊
 
 
 
@@ -49,12 +49,12 @@ ms.locfileid: "122471554"
  
 
 
-## <a name="property-attributes"></a><property> 屬性
+## <a name="ltpropertygt-attributes"></a>&lt;屬性 &gt; 屬性
 
 
 
 
-| 屬性 | 描述 | 值 | 
+| 屬性 | 說明 | 值 | 
 |-----------|-------------|--------|
 | NAME | 必要。 屬性的顯示名稱。 |   | 
 | 類型 | 必要。 屬性的類型。 | 任何：預設值。 此值將不會被屬性子系統強制轉型。 GetPropertyType 會傳回 VT_Null。<ul><li>Null：沒有這個屬性的值。 GetPropertyType 會傳回 VT_Null。</li><li>字串：值必須是 VT_LPWSTR。</li><li>布林值：此值必須是 VT_BOOL。</li><li>Byte：此值必須是 VT_UI1。</li><li>緩衝區：此值必須是 VT_UI1 | VT_VECTOR 位元組緩衝區。</li><li>Int16：此值必須是 VT_I2。</li><li>UInt16：此值必須是 VT_UI2。</li><li>Int32：此值必須是 VT_I4。</li><li>UInt32：此值必須是 VT_UI4。</li><li>Int64：此值必須是 VT_I8。</li><li>UInt64：此值必須是 VT_UI8</li><li>Double：此值必須是 VT_R8。</li><li>DateTime：此值必須是 VT_FILETIME。</li><li>Guid：此值必須是 VT_CLSID。</li><li>Blob：此值必須是 VT_BLOB。</li><li>物件：此值必須是 VT_UNKNOWN。</li><li>Stream：此值必須是 VT_STREAM。</li><li>剪貼簿：此值必須是 VT_CF。</li></ul> | 

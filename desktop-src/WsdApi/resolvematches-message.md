@@ -4,12 +4,12 @@ ms.assetid: 0eaa4348-968e-4b45-9509-8b15476edaa1
 title: ResolveMatches 訊息
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 42f2604859d39530377883179ec104dd078e9b6f
-ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
+ms.openlocfilehash: 140d279a5e66835b7754e3f501732263dff430f2
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "122627754"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122883633"
 ---
 # <a name="resolvematches-message"></a>ResolveMatches 訊息
 
@@ -84,22 +84,22 @@ ResolveMatches 訊息具有下列焦點點。
 <tr class="header">
 <th>對焦點</th>
 <th>XML</th>
-<th>描述</th>
+<th>說明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>ResolveMatches</td>
-<td><pre class="syntax" data-space="preserve"><code><wsa:Action>
+<td><pre class="syntax" data-space="preserve"><code>&lt;wsa:Action&gt;
     https://schemas.xmlsoap.org/ws/2005/04/discovery/ResolveMatches
-</wsa:Action></code></pre></td>
+&lt;/wsa:Action&gt;</code></pre></td>
 <td>ResolveMatches SOAP 動作會將訊息識別為 ResolveMatches 訊息。</td>
 </tr>
 <tr class="even">
 <td>RelatesTo</td>
-<td><pre class="syntax" data-space="preserve"><code><wsa:RelatesTo>
+<td><pre class="syntax" data-space="preserve"><code>&lt;wsa:RelatesTo&gt;
     urn:uuid:38d1c3d9-8d73-4424-8861-6b7ee2af24d3
-</wsa:RelatesTo></code></pre></td>
+&lt;/wsa:RelatesTo&gt;</code></pre></td>
 <td>服務回應之訊息的識別碼。 此標頭符合 <a href="resolve-message.md">解析</a> 訊息中的 MessageId。</td>
 </tr>
 <tr class="odd">
@@ -107,21 +107,21 @@ ResolveMatches 訊息具有下列焦點點。
 <td><pre class="syntax" data-space="preserve"><code><wsd:AppSequence InstanceId=&quot;1&quot;
     SequenceId=&quot;urn:uuid:369a7d7b-5f87-48a4-aa9a-189edf2a8772&quot;
     MessageNumber=&quot;6&quot;>
-</wsd:AppSequence></code></pre></td>
+&lt;/wsd:AppSequence&gt;</code></pre></td>
 <td>包含應用程式順序資訊，這有助於維護訊息的順序，即使是依序接收訊息也是如此。 AppSequence 會依照 <a href="appsequence-validation-rules.md">AppSequence 驗證規則</a>中的說明進行驗證。</td>
 </tr>
 <tr class="even">
 <td>位址</td>
-<td><pre class="syntax" data-space="preserve"><code><wsa:Address>
+<td><pre class="syntax" data-space="preserve"><code>&lt;wsa:Address&gt;
     urn:uuid:37f86d35-e6ac-4241-964f-1d9ae46fb366
-</wsa:Address></code></pre></td>
+&lt;/wsa:Address&gt;</code></pre></td>
 <td>包含正在解析之端點的位址。</td>
 </tr>
 <tr class="odd">
 <td>XAddrs</td>
-<td><pre class="syntax" data-space="preserve"><code><wsd:XAddrs>
+<td><pre class="syntax" data-space="preserve"><code>&lt;wsd:XAddrs&gt;
     https://192.168.0.2:5357/37f86d35-e6ac-4241-964f-1d9ae46fb366
-</wsd:XAddrs></code></pre></td>
+&lt;/wsd:XAddrs&gt;</code></pre></td>
 <td>XAddrs 是可用來在用戶端與服務之間進行通訊的傳輸位址。 Addrs 會依照 <a href="xaddr-validation-rules.md">XAddr 驗證規則</a>中的說明進行驗證。</td>
 </tr>
 </tbody>

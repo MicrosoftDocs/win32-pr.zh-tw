@@ -4,12 +4,12 @@ ms.assetid: 187f26f2-f191-4703-9bde-3357f1ceef0c
 title: 檔的實際備份總覽
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e29c4f2d4c0d43e614fe956b2ca3b3253566f0d05a7c27a4e7337ae3b2cd6784
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2413111467014b666d219a7a1e92efad26302e5c
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119056376"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122475694"
 ---
 # <a name="overview-of-actual-backup-of-files"></a>檔的實際備份總覽
 
@@ -19,57 +19,16 @@ VSS 可讓要求者存取包含要備份之資料的磁片區陰影複製，以�
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>要求者動作</th>
-<th>事件</th>
-<th>寫入器動作</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>存取陰影複製磁片區上的檔案 (參閱 <a href="/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-getsnapshotproperties"><strong>>ivssbackupcomponents：： GetSnapshotProperties</strong></a>、 <a href="/windows/desktop/api/Vss/ns-vss-vss_snapshot_prop"><strong>VSS_SNAPSHOT_PROP</strong></a>) </td>
-<td>無</td>
-<td>無</td>
-</tr>
-<tr class="even">
-<td>產生要備份的檔案清單，並將檔案資料複製到備份媒體。</td>
-<td>無</td>
-<td>無</td>
-</tr>
-<tr class="odd">
-<td>使用 <a href="/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-setbackupsucceeded"><strong>>ivssbackupcomponents：： SetBackupSucceeded</strong></a>指出備份成功或失敗。</td>
-<td>無</td>
-<td>無</td>
-</tr>
-<tr class="even">
-<td>要求者會藉由呼叫 <a href="/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-backupcomplete"><strong>>ivssbackupcomponents：： BackupComplete</strong></a>來指出備份已完成。</td>
-<td><a href="vssgloss-b.md"><em>BackupComplete</em></a></td>
-<td>執行任何備份後清除 (參閱 <a href="/windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-onbackupcomplete"><strong>CVssWriter：： OnBackupComplete</strong></a>、 <a href="/windows/desktop/api/VsWriter/nl-vswriter-ivsswritercomponents"><strong>IVssWriterComponents</strong></a>、 <a href="/windows/desktop/api/VsWriter/nl-vswriter-ivsscomponent"><strong>>ivsscomponent</strong></a>) 。</td>
-</tr>
-<tr class="odd">
-<td>要求者會使用<a href="/windows/desktop/api/Vss/nn-vss-ivssasync"><strong>IVssAsync</strong></a>來等候所有寫入器認可<a href="/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-backupcomplete"><strong>>ivssbackupcomponents：： BackupComplete</strong></a>事件的接收。 它也應該驗證寫入器狀態 (請參閱 <a href="/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-gatherwriterstatus"><strong>>ivssbackupcomponents：： GatherWriterStatus</strong></a>， <a href="/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-getwriterstatus"><strong>>ivssbackupcomponents：： GetWriterStatus</strong></a>) 。 要求者目前必須呼叫 <strong>GatherWriterStatus</strong> ，使寫入器會話設定為已完成狀態。
-<blockquote>
-[!Note]<br />
-只有 Windows Server 2008 （含 Service Pack 2） (SP2) 及更早版本才需要此功能。
-</blockquote>
-<br/></td>
-<td>無</td>
-<td>無</td>
-</tr>
-<tr class="even">
-<td>將備份元件檔和每個寫入器元資料檔案儲存至 XML 檔，這些檔可以寫入至備份媒體 (參閱 <a href="/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-saveasxml"><strong>>ivssbackupcomponents：： SaveAsXML</strong></a> 和 <a href="/windows/desktop/api/VsBackup/nf-vsbackup-ivssexaminewritermetadata-saveasxml"><strong>IVssExamineWriterMetadata：： SaveAsXML</strong></a>) 。</td>
-<td>無</td>
-<td>無</td>
-</tr>
-</tbody>
-</table>
+
+| 要求者動作 | 事件 | 寫入器動作 | 
+|------------------|-------|---------------|
+| 存取陰影複製磁片區上的檔案 (參閱 <a href="/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-getsnapshotproperties"><strong>>ivssbackupcomponents：： GetSnapshotProperties</strong></a>、 <a href="/windows/desktop/api/Vss/ns-vss-vss_snapshot_prop"><strong>VSS_SNAPSHOT_PROP</strong></a>)  | 無 | 無 | 
+| 產生要備份的檔案清單，並將檔案資料複製到備份媒體。 | 無 | 無 | 
+| 使用 <a href="/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-setbackupsucceeded"><strong>>ivssbackupcomponents：： SetBackupSucceeded</strong></a>指出備份成功或失敗。 | 無 | 無 | 
+| 要求者會藉由呼叫 <a href="/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-backupcomplete"><strong>>ivssbackupcomponents：： BackupComplete</strong></a>來指出備份已完成。 | <a href="vssgloss-b.md"><em>BackupComplete</em></a> | 執行任何備份後清除 (參閱 <a href="/windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-onbackupcomplete"><strong>CVssWriter：： OnBackupComplete</strong></a>、 <a href="/windows/desktop/api/VsWriter/nl-vswriter-ivsswritercomponents"><strong>IVssWriterComponents</strong></a>、 <a href="/windows/desktop/api/VsWriter/nl-vswriter-ivsscomponent"><strong>>ivsscomponent</strong></a>) 。 | 
+| 要求者會使用<a href="/windows/desktop/api/Vss/nn-vss-ivssasync"><strong>IVssAsync</strong></a>來等候所有寫入器認可<a href="/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-backupcomplete"><strong>>ivssbackupcomponents：： BackupComplete</strong></a>事件的接收。 它也應該驗證寫入器狀態 (請參閱 <a href="/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-gatherwriterstatus"><strong>>ivssbackupcomponents：： GatherWriterStatus</strong></a>， <a href="/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-getwriterstatus"><strong>>ivssbackupcomponents：： GetWriterStatus</strong></a>) 。 要求者目前必須呼叫 <strong>GatherWriterStatus</strong> ，使寫入器會話設定為已完成狀態。<blockquote>[!Note]<br />只有 Windows Server 2008 （含 Service Pack 2） (SP2) 及更早版本才需要此功能。</blockquote><br /> | 無 | 無 | 
+| 將備份元件檔和每個寫入器元資料檔案儲存至 XML 檔，這些檔可以寫入至備份媒體 (參閱 <a href="/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-saveasxml"><strong>>ivssbackupcomponents：： SaveAsXML</strong></a> 和 <a href="/windows/desktop/api/VsBackup/nf-vsbackup-ivssexaminewritermetadata-saveasxml"><strong>IVssExamineWriterMetadata：： SaveAsXML</strong></a>) 。 | 無 | 無 | 
+
 
 
 

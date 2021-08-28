@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 531e599c66279312f80216f1eb09fc612636821227e76f3572645ab6b4ee5137
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 501f98ec1b360e3eaa10988c140f30b86dcacb5a
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118256445"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122987341"
 ---
 # <a name="extensible-storage-engine-system-parameters"></a>可擴充的儲存體引擎系統參數
 
@@ -65,55 +65,18 @@ JET_paramX
 
 JET_paramX 系統參數的描述。
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>預設值：3</p></td>
-<td><p>參數的預設值。</p></td>
-</tr>
-<tr class="even">
-<td><p>輸入：</p></td>
-<td><p>參數的資料類型。</p></td>
-</tr>
-<tr class="odd">
-<td><p>有效範圍：</p></td>
-<td><p>參數的合法值。</p></td>
-</tr>
-<tr class="even">
-<td><p>範圍：</p></td>
-<td><p>參數是全域或每個實例？</p></td>
-</tr>
-<tr class="odd">
-<td><p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p></td>
-<td><p>如果有任何實例存在，是否可以設定參數？</p></td>
-</tr>
-<tr class="even">
-<td><p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p></td>
-<td><p>是否可以在初始化時設定參數？</p></td>
-</tr>
-<tr class="odd">
-<td><p>會影響實體版面配置：</p></td>
-<td><p>參數是否會影響磁片上的檔案？</p></td>
-</tr>
-<tr class="even">
-<td><p>會影響可靠性：</p></td>
-<td><p>參數是否會影響引擎可靠性？</p></td>
-</tr>
-<tr class="odd">
-<td><p>影響效能：</p></td>
-<td><p>參數是否會影響引擎效能？</p></td>
-</tr>
-<tr class="even">
-<td><p>會影響資源：</p></td>
-<td><p>參數是否會影響引擎資源？</p></td>
-</tr>
-<tr class="odd">
-<td><p>可用性：</p></td>
-<td><p>支援參數的 Windows 版本。</p></td>
-</tr>
-</tbody>
-</table>
+
+| 標籤 | 值 |
+|--------|-------|
+| <p>預設值：3</p> | <p>參數的預設值。</p> | 
+| <p>輸入：</p> | <p>參數的資料類型。</p> | 
+| <p>有效範圍：</p> | <p>參數的合法值。</p> | 
+| <p>範圍：</p> | <p>參數是全域或每個實例？</p> | 
+| <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p>如果有任何實例存在，是否可以設定參數？</p> | 
+| <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p>是否可以在初始化時設定參數？</p> | 
+| <p>會影響實體版面配置：</p> | <p>參數是否會影響磁片上的檔案？</p> | 
+| <p>會影響可靠性：</p> | <p>參數是否會影響引擎可靠性？</p> | 
+| <p>影響效能：</p> | <p>參數是否會影響引擎效能？</p> | 
+| <p>會影響資源：</p> | <p>參數是否會影響引擎資源？</p> | 
+| <p>可用性：</p> | <p>支援參數的 Windows 版本。</p> | 
+

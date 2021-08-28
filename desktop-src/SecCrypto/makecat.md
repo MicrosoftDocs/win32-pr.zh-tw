@@ -4,12 +4,12 @@ ms.assetid: 233b3644-f2a5-4166-bac0-30bf2f54e957
 title: MakeCat
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2e6c2c3cb1d7df5a9f717143465d48d4c066466d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 980c58530c55006d28ecd7589b0313844e9dbe46
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848153"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122886253"
 ---
 # <a name="makecat"></a>MakeCat
 
@@ -68,14 +68,14 @@ CATATTR2={type}:{oid}:{value} (optional)
 
 
 
-| 選項                    | 描述                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| 選項                    | 說明                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 |---------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name<br/>           | 類別目錄檔案的名稱，包括它的副檔名。<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | >\dreplayclient\resultdir<br/>      | 將放置建立之 .cat 檔案的目錄。 如果未指定，則會使用預設的目前的目錄。 如果目錄不存在，則會建立該目錄。<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| PublicVersion<br/>  | 不支援這個選項。 <br/> **Windows server 2008 R2、windows 7、Windows server 2008、Windows Vista、Windows server 2003 和 WINDOWS XP：** 目錄版本。 如果保留空白，則會使用預設值1。<br/> <br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| CatalogVersion<br/> | 目錄版本。 如果版本不存在或設定為1，則會將 "0x100" 傳遞給 [**CryptCATOpen**](/windows/desktop/api/Mscat/nf-mscat-cryptcatopen)函式的 *dwPublicVersion* 參數，並建立第1版的類別目錄檔案。 HashAlgorithms 選項必須空白或包含 SHA1。<br/> 如果版本設定為2，則會將 "0x200" 傳遞給 [**CryptCATOpen**](/windows/desktop/api/Mscat/nf-mscat-cryptcatopen)函式的 *dwPublicVersion* 參數，並建立第2版的類別目錄檔案。 HashAlgorithms 選項必須包含 SHA256。<br/> 如果這個選項存在，但包含1或2以外的任何值，MakeCat 工具將會發生錯誤。<br/> **Windows server 2008 R2、windows 7、Windows server 2008、Windows Vista、Windows server 2003 和 WINDOWS XP：** 不支援此選項。<br/> <br/> |
-| HashAlgorithms<br/> | 使用的雜湊演算法名稱。 如需詳細資訊，請參閱 CatalogVersion 選項。<br/> **Windows server 2008 R2、windows 7、Windows server 2008、Windows Vista、Windows server 2003 和 WINDOWS XP：** 不支援此選項。<br/> <br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| PageHashes<br/>     | 指定是否將 <HASH> \[ CatalogFiles \] 區段中的選項所列的檔案雜湊<br/> **Windows server 2008 R2、windows 7、Windows server 2008、Windows Vista、Windows server 2003 和 WINDOWS XP：** 不支援此選項。<br/> <br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| PublicVersion<br/>  | 不支援這個選項。 <br/> **Windows server 2008 R2、Windows 7、Windows Server 2008、Windows Vista、Windows Server 2003 和 Windows XP：** 目錄版本。 如果保留空白，則會使用預設值1。<br/> <br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| CatalogVersion<br/> | 目錄版本。 如果版本不存在或設定為1，則會將 "0x100" 傳遞給 [**CryptCATOpen**](/windows/desktop/api/Mscat/nf-mscat-cryptcatopen)函式的 *dwPublicVersion* 參數，並建立第1版的類別目錄檔案。 HashAlgorithms 選項必須空白或包含 SHA1。<br/> 如果版本設定為2，則會將 "0x200" 傳遞給 [**CryptCATOpen**](/windows/desktop/api/Mscat/nf-mscat-cryptcatopen)函式的 *dwPublicVersion* 參數，並建立第2版的類別目錄檔案。 HashAlgorithms 選項必須包含 SHA256。<br/> 如果這個選項存在，但包含1或2以外的任何值，MakeCat 工具將會發生錯誤。<br/> **Windows server 2008 R2、Windows 7、Windows Server 2008、Windows Vista、Windows Server 2003 和 Windows XP：** 不支援此選項。<br/> <br/> |
+| HashAlgorithms<br/> | 使用的雜湊演算法名稱。 如需詳細資訊，請參閱 CatalogVersion 選項。<br/> **Windows server 2008 R2、Windows 7、Windows Server 2008、Windows Vista、Windows Server 2003 和 Windows XP：** 不支援此選項。<br/> <br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| PageHashes<br/>     | 指定是否將 &lt; &gt; \[ CatalogFiles 區段中 hash 選項所列的檔案雜湊 \]<br/> **Windows server 2008 R2、Windows 7、Windows Server 2008、Windows Vista、Windows Server 2003 和 Windows XP：** 不支援此選項。<br/> <br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | EncodingType<br/>   | 使用的訊息編碼類型。 如果保留空白，預設 Edi.encodingtype 為 PKCS \_ 7 \_ ASN \_ 編碼 \| X509 \_ ASN \_ 編碼，0x00010001。 <br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 
 
@@ -88,23 +88,23 @@ CATATTR2={type}:{oid}:{value} (optional)
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
 <th>選項</th>
-<th>Description</th>
+<th>說明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>參考標記<br/></td>
-<td>檔案的文字參考。 這可以包含任何 ASCII 文字字元，但等號 (=) 除外。 安裝之後，系統必須能夠重現此標記。 <br/> 用 <HASH> 做檔案名的前置詞。 這會導致標記成為 ASCII 字串格式的檔案雜湊。 <br/></td>
+<td>檔案的文字參考。 這可以包含任何 ASCII 文字字元，但等號 (=) 除外。 安裝之後，系統必須能夠重現此標記。 <br/> 使用 &lt; HASH &gt; 作為檔案名的前置詞。 這會導致標記成為 ASCII 字串格式的檔案雜湊。 <br/></td>
 </tr>
 <tr class="even">
 <td>檔案路徑和名稱<br/></td>
-<td>檔案名，包括要剖析的副檔名和檔案的相對路徑。 可使用 SignTool 簽署的任何檔案類型都可以新增至目錄。 例如，具有下列副檔名的檔案名，也可以加入至類別目錄： .exe、.cab、.cat、.ocx、.dll 和 stl 中。<br/></td>
+<td>檔案名，包括要剖析的副檔名和檔案的相對路徑。 可使用 SignTool 簽署的任何檔案類型都可以新增至目錄。 例如，具有下列副檔名的檔案名（以及其他副檔名）可以新增至目錄： .exe、.cab、.cat、.ocx、.dll 和 stl。<br/></td>
 </tr>
 <tr class="odd">
 <td>ALTSIPID<br/></td>
@@ -137,11 +137,11 @@ CATATTR2={type}:{oid}:{value} (optional)
 <td>屬性參考索引鍵的文字標記法。 它是以點符四標記法的文字字串格式的 OID (例如，b.) 或文字名稱。<br/></td>
 </tr>
 <tr class="even">
-<td>value<br/></td>
+<td>值<br/></td>
 <td>屬性值的文字表示。 使用的文字表示型別取決於 type 選項的值。 EOL 字元會決定長度。<br/></td>
 </tr>
 <tr class="odd">
-<td><HASH><br/></td>
+<td>&lt;散 列&gt;<br/></td>
 <td>雜湊指定的檔案。<br/></td>
 </tr>
 </tbody>

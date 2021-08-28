@@ -15,17 +15,17 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 761afe13638d7905b5d4a639b7100108ce6ec977
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9b3f0d56702da29b4ddd0557c7d8f1f18e8addd8
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191322"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122987285"
 ---
 # <a name="jet_dbinfomisc3-structure"></a>JET_DBINFOMISC3 結構
 
 
-_**適用于：** Windows |Windows Server_
+_**適用于：** Windows |Windows伺服器_
 
 ## <a name="jet_dbinfomisc3-structure"></a>JET_DBINFOMISC3 結構
 
@@ -83,100 +83,30 @@ _**適用于：** Windows |Windows Server_
 
 追蹤可回溯相容的累加式資料庫格式更新。
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>ulVersion、ulUpdate =</p></th>
-<th><p>意義</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>0x620，0</p></td>
-<td><p>原始作業系統 Beta 格式 (4/22/97) 。</p></td>
-</tr>
-<tr class="even">
-<td><p>0x620，1</p></td>
-<td><p>在目錄中新增條件式索引編制和舊的 (5/29/97) 的資料行。</p></td>
-</tr>
-<tr class="odd">
-<td><p>0x620，2</p></td>
-<td><p>在 fLocalizedText 中新增旗標 (6/5/97) 。</p></td>
-</tr>
-<tr class="even">
-<td><p>0x620、3</p></td>
-<td><p>將 SPLIT_BUFFER 新增至空間樹狀結構的根頁面 (10/30/97) 。</p></td>
-</tr>
-<tr class="odd">
-<td><p>0x620，2</p></td>
-<td><p>還原修訂以使 ESE97 維持 (1/28/98) 的向前相容性。</p></td>
-</tr>
-<tr class="even">
-<td><p>0x620、3</p></td>
-<td><p>將新的標記資料行新增至目錄， (&quot; CallbackData &quot; 和 &quot; CallbackDependencies &quot;) 。</p></td>
-</tr>
-<tr class="odd">
-<td><p>0x620，4</p></td>
-<td><p>SLV 支援： signSLV、db 標頭中的 fSLVExists (5/5/98) 。</p></td>
-</tr>
-<tr class="even">
-<td><p>0x620，5</p></td>
-<td><p>新的 SLV 空間樹狀結構 (5/29/98) 。</p></td>
-</tr>
-<tr class="odd">
-<td><p>0x620、6</p></td>
-<td><p>SLV space map (10/12/98) 。</p></td>
-</tr>
-<tr class="even">
-<td><p>0x620，7</p></td>
-<td><p>4位元組 IDXSEG (12/10/98) 。</p></td>
-</tr>
-<tr class="odd">
-<td><p>0x620、8</p></td>
-<td><p> (1/25/99) 的新範本資料行格式。</p></td>
-</tr>
-<tr class="even">
-<td><p>0x620、9</p></td>
-<td><p>已排序的範本資料行 (6/24/99) 。</p></td>
-</tr>
-<tr class="odd">
-<td><p>0x620，A</p></td>
-<td><p>合併的程式碼基底 (3/26/2003) 。</p></td>
-</tr>
-<tr class="even">
-<td><p>0x620，B</p></td>
-<td><p>新的總和檢查碼格式 (1/08/2004) 。</p></td>
-</tr>
-<tr class="odd">
-<td><p>0x620、C</p></td>
-<td><p>將 4/8kb 頁面的最大金鑰長度增加至1000/2000 個位元組， (1/15/2004) 。</p></td>
-</tr>
-<tr class="even">
-<td><p>0x620，D</p></td>
-<td><p>目錄空間提示，space_header v2 (7/15/2007) 。</p></td>
-</tr>
-<tr class="odd">
-<td><p>0x620，E</p></td>
-<td><p>將新的節點/範圍格式新增至空間管理員，將其用於空間的保留集區 (8/9/2007) 。</p></td>
-</tr>
-<tr class="even">
-<td><p>0x620、F</p></td>
-<td><p>將內建的 long 值壓縮 (10/30/2007) 。</p></td>
-</tr>
-<tr class="odd">
-<td><p>0x620，10</p></td>
-<td><p>壓縮 (12/05/2007) 的分隔 long 值。</p></td>
-</tr>
-<tr class="even">
-<td><p>0x620，11</p></td>
-<td><p> (12/29/2007) 的大型頁面新的 LV 區塊大小。</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>ulVersion、ulUpdate =</p> | <p>意義</p> | 
+|------------------------------|----------------|
+| <p>0x620，0</p> | <p>原始作業系統 Beta 格式 (4/22/97) 。</p> | 
+| <p>0x620，1</p> | <p>在目錄中新增條件式索引編制和舊的 (5/29/97) 的資料行。</p> | 
+| <p>0x620，2</p> | <p>在 fLocalizedText 中新增旗標 (6/5/97) 。</p> | 
+| <p>0x620、3</p> | <p>將 SPLIT_BUFFER 新增至空間樹狀結構的根頁面 (10/30/97) 。</p> | 
+| <p>0x620，2</p> | <p>還原修訂以使 ESE97 維持 (1/28/98) 的向前相容性。</p> | 
+| <p>0x620、3</p> | <p>將新的標記資料行新增至 catalog ( "CallbackData" 和 "CallbackDependencies" ) 。</p> | 
+| <p>0x620，4</p> | <p>SLV 支援： signSLV、db 標頭中的 fSLVExists (5/5/98) 。</p> | 
+| <p>0x620，5</p> | <p>新的 SLV 空間樹狀結構 (5/29/98) 。</p> | 
+| <p>0x620、6</p> | <p>SLV space map (10/12/98) 。</p> | 
+| <p>0x620，7</p> | <p>4位元組 IDXSEG (12/10/98) 。</p> | 
+| <p>0x620、8</p> | <p> (1/25/99) 的新範本資料行格式。</p> | 
+| <p>0x620、9</p> | <p>已排序的範本資料行 (6/24/99) 。</p> | 
+| <p>0x620，A</p> | <p>合併的程式碼基底 (3/26/2003) 。</p> | 
+| <p>0x620，B</p> | <p>新的總和檢查碼格式 (1/08/2004) 。</p> | 
+| <p>0x620、C</p> | <p>將 4/8kb 頁面的最大金鑰長度增加至1000/2000 個位元組， (1/15/2004) 。</p> | 
+| <p>0x620，D</p> | <p>目錄空間提示，space_header v2 (7/15/2007) 。</p> | 
+| <p>0x620，E</p> | <p>將新的節點/範圍格式新增至空間管理員，將其用於空間的保留集區 (8/9/2007) 。</p> | 
+| <p>0x620、F</p> | <p>將內建的 long 值壓縮 (10/30/2007) 。</p> | 
+| <p>0x620，10</p> | <p>壓縮 (12/05/2007) 的分隔 long 值。</p> | 
+| <p>0x620，11</p> | <p> (12/29/2007) 的大型頁面新的 LV 區塊大小。</p> | 
+
 
 
 **signDb**
@@ -189,45 +119,15 @@ _**適用于：** Windows |Windows Server_
 
 此成員可以使用下列選項。
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>值</p></th>
-<th><p>意義</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_dbstateJustCreated<br />
-1</p></td>
-<td><p>剛建立資料庫。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_dbstateDirtyShutdown<br />
-2</p></td>
-<td><p>資料庫需要執行硬或軟復原才能成為可用或可移動的。 其中一個不應嘗試移動處於此狀態的資料庫。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_dbstateCleanShutdown<br />
-3</p></td>
-<td><p>資料庫處於乾淨狀態。 您可以在沒有任何記錄檔的情況下附加資料庫。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_dbstateBeingConverted<br />
-4</p></td>
-<td><p>正在升級資料庫。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_dbstateForceDetach<br />
-5</p></td>
-<td><p>內部。</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>值</p> | <p>意義</p> | 
+|--------------|----------------|
+| <p>JET_dbstateJustCreated<br />1</p> | <p>剛建立資料庫。</p> | 
+| <p>JET_dbstateDirtyShutdown<br />2</p> | <p>資料庫需要執行硬或軟復原才能成為可用或可移動的。 其中一個不應嘗試移動處於此狀態的資料庫。</p> | 
+| <p>JET_dbstateCleanShutdown<br />3</p> | <p>資料庫處於乾淨狀態。 您可以在沒有任何記錄檔的情況下附加資料庫。</p> | 
+| <p>JET_dbstateBeingConverted<br />4</p> | <p>正在升級資料庫。</p> | 
+| <p>JET_dbstateForceDetach<br />5</p> | <p>內部。</p> | 
+
 
 
 **lgposConsistent**
@@ -366,26 +266,13 @@ _**適用于：** Windows |Windows Server_
 
 ### <a name="requirements"></a>規格需求
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>用戶端</strong></p></td>
-<td><p>需要 Windows Vista、Windows XP 或 Windows 2000 Professional。</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>伺服器</strong></p></td>
-<td><p>需要 Windows Server 2008、Windows Server 2003 或 Windows 2000 Server。</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>標頭</strong></p></td>
-<td><p>宣告于 Esent. h 中。</p></td>
-</tr>
-</tbody>
-</table>
+
+| 需求 | 值 |
+|------------|----------|
+| <p><strong>用戶端</strong></p> | <p>需要 Windows Vista、Windows XP 或 Windows 2000 Professional。</p> | 
+| <p><strong>伺服器</strong></p> | <p>需要 Windows server 2008、Windows Server 2003 或 Windows 2000 Server。</p> | 
+| <p><strong>標頭</strong></p> | <p>宣告于 Esent. h 中。</p> | 
+
 
 
 ### <a name="see-also"></a>另請參閱

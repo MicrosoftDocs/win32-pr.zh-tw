@@ -13,12 +13,12 @@ keywords:
 - Direct3D、Direct2D 互通性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 951bebc9ea7ca63496a9cdc93fa33ddb74817661e7f5bc072b55d207bfcbdeb7
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 6a1f3be132aba742eb1df4b8a893dad245f851a0
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119918234"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122631560"
 ---
 # <a name="direct2d-and-gdi-interoperability-overview"></a>Direct2D 和 GDI 互通性總覽
 
@@ -32,7 +32,7 @@ ms.locfileid: "119918234"
 -   [將 GDI 內容繪製至 Direct2D GDI-Compatible 呈現目標](#draw-gdi-content-to-a-direct2d-gdi-compatible-render-target)
 -   [相關主題](#related-topics)
 
-## <a name="prerequisites"></a>必要條件
+## <a name="prerequisites"></a>先決條件
 
 本總覽假設您已經熟悉基本的 Direct2D 繪圖作業。 如需教學課程，請參閱 [Direct2D 快速入門](direct2d-quickstart.md)。 它也假設您已熟悉 GDI 繪圖作業。
 
@@ -89,7 +89,7 @@ GetClientRect(m_hwnd, &rc);
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">

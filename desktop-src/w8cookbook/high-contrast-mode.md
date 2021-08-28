@@ -4,32 +4,32 @@ description: 高對比模式
 ms.assetid: 817F2BBD-3744-4D34-927F-EBF9F7894CC0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ae8c53d3e92bb97dd9e2f5fa34bad9f901920cc7
-ms.sourcegitcommit: ea4baf9953a78d2d6bd530b680601e39f3884541
+ms.openlocfilehash: 1a288447dda8d3a76278ad695459d2c15598b328
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "103683218"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122883894"
 ---
 # <a name="high-contrast-mode"></a>高對比模式
 
 ## <a name="platforms"></a>平台
 
  **客戶** 端-Windows 8  
-**伺服器** -Windows Server 2012  
+**伺服器**-Windows Server 2012  
 
 
 
-## <a name="description"></a>Description
+## <a name="description"></a>說明
 
-在舊版的 Windows 作業系統中，高對比模式僅限於在傳統主題下執行的主題，這些主題未以視覺化方式呈現樣式。 在 Windows 8 和 Windows Server 2012 中，傳統模式已移除，並以視覺化樣式的高對比主題來取代。 這項變更的主要優點之一，是移除以傳統模式執行之應用程式的不同程式碼路徑。
+在先前的 Windows 作業系統中，高對比模式僅限於在傳統主題下執行的主題，這些主題未以視覺化方式呈現樣式。 在 Windows 8 和 Windows Server 2012 中，傳統模式已移除，並以視覺化樣式的高對比主題來取代。 這項變更的主要優點之一，是移除以傳統模式執行之應用程式的不同程式碼路徑。
 
 開發人員仍然需要在高對比模式影響其應用程式的方式，以及如何開發真正與樣式無關的應用程式方面獲得教育。 這點很重要，因為當主題色彩不正確的使用或假設可能會導致應用程式在視覺效果樣式（例如 Aero）下正確運作，而這些相同的應用程式在高對比下回應錯誤。 比方說，在 Aero 中，文字一律是黑色，而反白顯示色彩則是淺藍色。 但在高對比的黑色中，反白顯示色彩為黑色。 如果您假設有黑色文字，在 Windows 8 之前的許多內建應用程式中，並使用系統預設值進行醒目提示，則使用者會在黑色背景看到黑色文字。 在這些情況下，您必須瞭解如何正確使用主題和系統計量，讓應用程式在樣式之間看起來正確。
 
 ## <a name="manifestations"></a>表現
 
--   未在 <supportedOS> 其應用程式資訊清單中包含 Windows 8 標記的應用程式工作區中，未啟用主題。 因此，應用程式必須使用在傳統主題的高對比模式下轉譯所需的程式碼路徑，來轉譯工作區。
--   在高對比主題中，應用程式的非用戶端和用戶端區域都不會啟用主題。 它也不會在其應用程式資訊清單中未包含 Windows 8 標記的應用程式中啟用， <supportedOS> 而且會使用 DwnIsCompositionEnabled () API 在視窗的非工作區中繪製。 整個應用程式會以傳統主題的高對比模式呈現。
+-   未在 &lt; &gt; 其應用程式資訊清單中包含 Windows 8 supportedOS 標記的應用程式工作區中，未啟用主題。 因此，應用程式必須使用在傳統主題的高對比模式下轉譯所需的程式碼路徑，來轉譯工作區。
+-   在高對比主題中，應用程式的非用戶端和用戶端區域都不會啟用主題。 它也不會在其應用程式資訊清單中未包含 Windows 8 supportedOS 標記的應用程式中啟用， &lt; &gt; 而且會使用 DwnIsCompositionEnabled () API 在視窗的非工作區中繪製。 整個應用程式會以傳統主題的高對比模式呈現。
 -   在其資訊清單中新增 Windows 8 支援的應用程式，但不使用視覺化樣式進行轉譯，也就是說，它們會在其應用程式中硬式編碼色彩或影像，可能無法在高對比主題中正確呈現。 文字可能難以閱讀，或影像可能不會出現在高對比模式中。
 
 ## <a name="mitigation"></a>降低
@@ -47,13 +47,13 @@ ms.locfileid: "103683218"
 -   非作用中視窗標題前景和背景色彩
 -   按鈕前景和背景色彩
 
-## <a name="solution"></a>解決方法
+## <a name="solution"></a>解決方案
 
 如果在高對比主題的應用程式中看到非預期的行為，這些解決方案中的其中一個可能會有説明：
 
 -   **股潮流應用程式以 Windows 8：**
 
-    在應用程式資訊清單中不包含 Windows 8 標籤的應用程式， <supportedOS> 其用戶端區域會在沒有主題的情況下呈現。 內建應用程式應該會在應用程式資訊清單中包含這個專案。 新增 Windows 8 的 4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38 GUID 值。
+    在應用程式資訊清單中不包含 Windows 8 supportedOS 標籤的應用程式， &lt; &gt; 其用戶端區域會呈現，而不需要主題。 內建應用程式應該會在應用程式資訊清單中包含這個專案。 新增 Windows 8 的 4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38 GUID 值。
 
 -   **使用視覺化樣式搭配主控描繪的 Ui：**
 
@@ -75,17 +75,17 @@ ms.locfileid: "103683218"
     -   將高對比媒體查詢的支援新增至 Internet Explorer 10
     -   WWAs 可以利用 IAccessibilityCapabilities：： get \_ systeminformation.highcontrast () 方法來檢查高對比的狀態
 
-    Windows Store 應用程式與傳統 Windows 應用程式中的主題元件沒有許多相同的問題，但您仍然需要確保高對比的合規性。 根據預設，Internet Explorer 會忽略某些使用者定義樣式，並將其取代為高對比相容的值。 例如，背景影像、背景和色彩 CSS 屬性都會被忽略。
+    WindowsStore 應用程式與傳統 Windows 應用程式中的主題元件沒有許多相同的問題，但您仍然需要確保高對比的合規性。 根據預設，Internet Explorer 會忽略某些使用者定義樣式，並將其取代為高對比相容的值。 例如，背景影像、背景和色彩 CSS 屬性都會被忽略。
 
     如果您不想要 Internet Explorer 忽略任何您設定的屬性，並確定 UI 符合高對比規範，您可以在父元素上設定新的 M3 CSS 屬性– ms-高對比： off。
 
--   **撰寫高對比的 Windows Store 應用程式：**
+-   **撰寫高對比的 Windows 存放區應用程式：**
 
-    Windows Store 應用程式應該使用 [SystemColors](/dotnet/api/system.windows.systemcolors) 類別來判斷適當的 UI 元素著色，請記住，某些系統計量色彩是設計用來搭配使用，例如 SystemColors. WindowColor 和 SystemColors. WindowTextColor。 這有助於提供絕佳的高對比體驗。
+    WindowsStore 應用程式應該使用[SystemColors](/dotnet/api/system.windows.systemcolors)類別來判斷適當的 UI 元素著色，請記住，某些系統計量色彩是設計來搭配使用，例如 SystemColors. WindowColor 和 SystemColors. WindowTextColor。 這有助於提供絕佳的高對比體驗。
 
 -   **在舊版 Windows 中正確偵測高對比：**
 
-    在舊版 Windows 上執行的應用程式無法存取新的高對比主題，即使資訊清單指定與有問題之 Windows 版本的相容性。 因此，可能需要插入額外的程式碼路徑來處理舊版 Windows 中所使用的傳統環境轉譯。 在此情況下，應該透過使用 SPI GETHIGHCONTRAST 旗標呼叫 [SystemParametersInfo](/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa) 函式來檢查高對比的存在 \_ 。 這是檢查高對比是否存在的唯一支援方法。
+    在舊版 Windows 上執行的應用程式無法存取新的高對比主題，即使資訊清單指定與 Windows 問題的版本相容。 因此，可能需要插入額外的程式碼路徑，以處理舊版 Windows 所使用的傳統環境中的呈現。 在此情況下，應該透過使用 SPI GETHIGHCONTRAST 旗標呼叫 [SystemParametersInfo](/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa) 函式來檢查高對比的存在 \_ 。 這是檢查高對比是否存在的唯一支援方法。
 
 ## <a name="tests"></a>測試
 
@@ -102,6 +102,6 @@ ms.locfileid: "103683218"
 -   [SystemParametersInfo 函式](/windows/win32/api/winuser/nf-winuser-systemparametersinfoa)
 -   [Microsoft Accessibility](https://www.microsoft.com/enable/) (Microsoft 協助工具)
 
- 
+ 
 
- 
+ 

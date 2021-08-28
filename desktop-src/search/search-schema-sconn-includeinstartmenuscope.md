@@ -1,19 +1,19 @@
 ---
-description: 選擇性的布林值 <includeInStartMenuScope> 元素會指定是否應將此搜尋連接器包含在 [開始] 功能表搜尋範圍內。
+description: 選擇性的布林值 &lt; includeInStartMenuScope &gt; 元素指定此搜尋連接器是否應包含在 [開始] 功能表搜尋範圍內。
 ms.assetid: 934a3834-9ddc-4c15-b738-68ea74adc24c
 title: 'includeInStartMenuScope 元素 (搜尋連接器架構) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 60941ef06f3f7220c7bbbae652f5e8256c6256660ea8e9ece2ddd330858958b6
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e20696dc6d2bc41b3f693e771a59541204e376e7
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119937948"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122882391"
 ---
 # <a name="includeinstartmenuscope-element-search-connector-schema"></a>includeInStartMenuScope 元素 (搜尋連接器架構) 
 
-選擇性的布林值 <includeInStartMenuScope> 元素會指定是否應將此搜尋連接器包含在 [開始] 功能表搜尋範圍內。 使用檔案系統作為資料來源之搜尋連接器的預設值是 true，而針對屬性處理常式所使用的搜尋連接器，則預設值為 false。 這個元素沒有任何子項目，而且沒有任何屬性。
+選擇性的布林值 &lt; includeInStartMenuScope &gt; 元素指定此搜尋連接器是否應包含在 [開始] 功能表搜尋範圍內。 使用檔案系統作為資料來源之搜尋連接器的預設值是 true，而針對屬性處理常式所使用的搜尋連接器，則預設值為 false。 這個元素沒有任何子項目，而且沒有任何屬性。
 
 ## <a name="syntax"></a>Syntax
 

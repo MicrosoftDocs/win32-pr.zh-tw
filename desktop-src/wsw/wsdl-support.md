@@ -8,12 +8,12 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 203ee1819a596d2d49a7d0b7c789d5f4e1269b6d8d75f78e2db0913b6a97ec78
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 4b273bd97d30aca185f35f31d385e6ab5a0bef4e
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119880738"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122882291"
 ---
 # <a name="wsdl-and-service-contracts"></a>WSDL 和服務合約
 
@@ -154,7 +154,7 @@ typedef struct SimpleMethodResponse
 
 ## <a name="header-for-the-stub"></a>存根的標頭
 
-服務合約中的每個作業都會產生一個名為 " <operationname> callback" 的回呼常式。  (例如，範例服務合約中的「SimpleMethod」作業會有一個名為 "SimpleMethodCallback" 的回撥。 ) 
+針對服務合約中的每個作業，會產生一個名為 " &lt; operationname 回呼" 的回呼常式 &gt; 。  (例如，範例服務合約中的「SimpleMethod」作業會有一個名為 "SimpleMethodCallback" 的回撥。 ) 
 
 ``` syntax
 typedef HRESULT (CALLBACK *SimpleMethodCallback) (

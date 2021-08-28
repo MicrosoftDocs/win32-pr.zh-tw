@@ -7,12 +7,12 @@ keywords:
 - 事件追蹤 ADSI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a59b2db3775c8c578ad361667a2d89c36240caf4b3bbb4bcd5cdd2798011514b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 50ff881a408e2f6d7a6b661e7556c8d39366f726
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119023976"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122469195"
 ---
 # <a name="event-tracing-in-adsi"></a>ADSI 中的事件追蹤
 
@@ -63,71 +63,9 @@ ADSI 會在內部嘗試重複使用 LDAP 連線， (查看 [連接](connection-c
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><strong>DEBUG_SCHEMA</strong><br/></td>
-<td><ul>
-<li>LdapGetSchema</li>
-<li>GetSchemaInfoTime</li>
-<li>LdapReadSchemaInfoFromServer</li>
-<li>ProcessSchemaInfo</li>
-<li>HelperReadLdapSchemaInfo</li>
-<li>ProcessClassInfoArray</li>
-<li>ReadSchemaInfoFromRegistry</li>
-<li>StoreSchemaInfoFromRegistry</li>
-<li>AttributeTypeDescription</li>
-<li>ObjectClassDescription</li>
-<li>DITContentRuleDescription</li>
-<li>DirectoryString</li>
-<li>DirectoryStrings</li>
-<li>DITContentRuleDescription</li>
-</ul>
-<br/></td>
-</tr>
-<tr class="even">
-<td><strong>DEBUG_CHANGEPWD</strong><br/></td>
-<td><ul>
-<li>CADsUser：： ChangePassword</li>
-</ul>
-<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>DEBUG_SETPWD</strong><br/></td>
-<td><ul>
-<li>CADsUser：： SetPassword</li>
-</ul>
-<br/></td>
-</tr>
-<tr class="even">
-<td><strong>DEBUG_BINDCACHE</strong><br/></td>
-<td><ul>
-<li>GetServerBasedObject</li>
-<li>GetServerLessBasedObject</li>
-<li>GetGCDomainName</li>
-<li>GetDefaultDomainName</li>
-<li>GetUserDomainFlatName</li>
-<li>BindCacheLookup</li>
-<li>EquivalentPortNumbers</li>
-<li>CanCredentialsBeReused</li>
-<li>BindCacheAdd</li>
-<li>BindCacheAddRef</li>
-<li>AddReferralLink</li>
-<li>CommonRemoveEntry</li>
-<li>BindCacheDerefHelper</li>
-<li>NotifyNewConnection</li>
-<li>QueryForConnection</li>
-<li>LdapOpenBindWithCredentials</li>
-<li>LdapOpenBindWithDefaultCredentials</li>
-</ul>
-<br/></td>
-</tr>
-</tbody>
-</table>
+
+| | | <strong>DEBUG_SCHEMA</strong><br /> | <ul><li>LdapGetSchema</li><li>GetSchemaInfoTime</li><li>LdapReadSchemaInfoFromServer</li><li>ProcessSchemaInfo</li><li>HelperReadLdapSchemaInfo</li><li>ProcessClassInfoArray</li><li>ReadSchemaInfoFromRegistry</li><li>StoreSchemaInfoFromRegistry</li><li>AttributeTypeDescription</li><li>ObjectClassDescription</li><li>DITContentRuleDescription</li><li>DirectoryString</li><li>DirectoryStrings</li><li>DITContentRuleDescription</li></ul><br /> | | <strong>DEBUG_CHANGEPWD</strong><br /> | <ul><li>CADsUser：： ChangePassword</li></ul><br /> | | <strong>DEBUG_SETPWD</strong><br /> | <ul><li>CADsUser：： SetPassword</li></ul><br /> | | <strong>DEBUG_BINDCACHE</strong><br /> | <ul><li>GetServerBasedObject</li><li>GetServerLessBasedObject</li><li>GetGCDomainName</li><li>GetDefaultDomainName</li><li>GetUserDomainFlatName</li><li>BindCacheLookup</li><li>EquivalentPortNumbers</li><li>CanCredentialsBeReused</li><li>BindCacheAdd</li><li>BindCacheAddRef</li><li>AddReferralLink</li><li>CommonRemoveEntry</li><li>BindCacheDerefHelper</li><li>NotifyNewConnection</li><li>QueryForConnection</li><li>LdapOpenBindWithCredentials</li><li>LdapOpenBindWithDefaultCredentials</li></ul><br /> | 
+
 
 
 

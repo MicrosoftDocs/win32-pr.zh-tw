@@ -22,12 +22,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 5d7237d83c298916045b4bd0443eadc3048c94dc7ad028a1bd7bfa993c4ce764
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 18a85af664a4be8ef96b1882477e2fadec0f0b1a
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119391748"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122882272"
 ---
 # <a name="win32_environment-class"></a>Win32 \_ 環境類別
 
@@ -124,7 +124,7 @@ class Win32_Environment : CIM_SystemResource
 
 </dd> <dt>
 
-**名稱**
+名稱
 </dt> <dd> <dl> <dt>
 
 資料類型： **字串**
@@ -278,7 +278,7 @@ class Win32_Environment : CIM_SystemResource
 限定詞： [**key**](/windows/desktop/WmiSdk/key-qualifier)、 [**MaxLen**](/windows/desktop/WmiSdk/standard-qualifiers) (260) 、 [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ( "Win32Registry \| System \\ \\ CurrentControlSet \\ \\ Control \\ \\ Session Manager \\ \\ 環境" ) 
 </dt> </dl>
 
-環境設定的擁有者名稱。 它會設定為，以 <SYSTEM> 針對 Windows 型系統 (的設定，而不是特定使用者) 和 <DEFAULT> 預設使用者設定的設定。
+環境設定的擁有者名稱。 針對 Windows 型系統所特定的設定，它會設定為 &lt; [系統] &gt; (與特定使用者) 和 &lt; 預設使用者設定的預設值相反 &gt; 。
 
 範例： "JSmith"
 

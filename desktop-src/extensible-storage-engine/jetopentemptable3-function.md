@@ -18,17 +18,17 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 7820f90ef0192c1f700759835bf1572b187cf3be
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d27531b9d70098746f60238a264c4762ff8f2058
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106999844"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122474464"
 ---
 # <a name="jetopentemptable3-function"></a>JetOpenTempTable3 函式
 
 
-_**適用于：** Windows |Windows Server_
+_**適用于：** Windows |Windows伺服器_
 
 ## <a name="jetopentemptable3-function"></a>JetOpenTempTable3 函式
 
@@ -60,29 +60,12 @@ _**適用于：** Windows |Windows Server_
 
 除了一般的資料行定義選項之外，也可以指定零或多個下列選項，這些選項只能與臨時表的內容相關。
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>值</p></th>
-<th><p>意義</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_bitColumnTTDescending</p></td>
-<td><p>此選項指出臨時表之索引鍵資料行的排序次序應該是遞減的，而不是遞增的。 如果指定這個選項但未指定 JET_bitColumnTTKey 則會忽略此選項。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitColumnTTKey</p></td>
-<td><p>此選項表示資料行將會是臨時表的索引鍵資料行。</p>
-<p>在輸入陣列中指定此選項的資料行定義順序，將會決定臨時表的每個索引鍵資料行的優先順序。 使用這個選項組的陣列中的第一個資料行定義將是最重要的索引鍵資料行，依此類推。 如果要求的索引鍵資料行數目超過 database engine 所能支援的數量，則會忽略不受支援索引鍵資料行的這個選項。</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>值</p> | <p>意義</p> | 
+|--------------|----------------|
+| <p>JET_bitColumnTTDescending</p> | <p>此選項指出臨時表之索引鍵資料行的排序次序應該是遞減的，而不是遞增的。 如果指定這個選項但未指定 JET_bitColumnTTKey 則會忽略此選項。</p> | 
+| <p>JET_bitColumnTTKey</p> | <p>此選項表示資料行將會是臨時表的索引鍵資料行。</p><p>在輸入陣列中指定此選項的資料行定義順序，將會決定臨時表的每個索引鍵資料行的優先順序。 使用這個選項組的陣列中的第一個資料行定義將是最重要的索引鍵資料行，依此類推。 如果要求的索引鍵資料行數目超過 database engine 所能支援的數量，則會忽略不受支援索引鍵資料行的這個選項。</p> | 
+
 
 
 *ccolumn*
@@ -101,65 +84,19 @@ _**適用于：** Windows |Windows Server_
 
 位群組，其中包含要用於此呼叫的選項，包括下列零或多個。
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>值</p></th>
-<th><p>意義</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_bitTTErrorOnDuplicateInsertion</p></td>
-<td><p>此選項會要求任何嘗試插入具有與先前所插入記錄相同索引鍵的記錄，但 JET_errKeyDuplicate 會立即失敗。 如果未要求這個選項，則可能會立即偵測到重複的情況，也可能會在稍後根據資料庫引擎根據所要求的功能來執行臨時表所選擇的策略，而失敗或以無訊息方式移除。</p>
-<p>如果這項功能不是必要的，則最好不要要求它。 如果未要求這項功能，則臨時表管理員可能會選擇管理臨時表的策略，而這會導致效能改進。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitTTForceMaterialization</p></td>
-<td><p>此選項會強制臨時表管理員放棄任何嘗試選擇聰明的策略來管理臨時表，以產生增強的效能。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitTTForwardOnly</p></td>
-<td><p>如果臨時表管理員可以使用針對中繼查詢結果優化的執行，此選項會要求只建立臨時表。 如果臨時表的任何特性會防止使用這項優化，則作業會失敗並 JET_errCannotMaterializeForwardOnlySort。</p>
-<p>此選項的副作用是允許臨時表包含具有重複索引鍵的記錄。 如需詳細資訊，請參閱 JET_bitTTUnique。</p>
-<p>此選項僅適用于 Windows Server 2003 和更新版本。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitTTIndexed</p></td>
-<td><p>此選項會要求臨時表具有足夠的彈性，可允許使用 <a href="gg294103(v=exchg.10).md">JetSeek</a> 依據索引鍵來查閱記錄。</p>
-<p>如果這項功能不是必要的，則最好不要要求它。 如果未要求這項功能，則臨時表管理員可能會選擇管理臨時表的策略，而這會導致效能改進。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitTTUnique</p></td>
-<td><p>此選項會要求從臨時表的最後一組記錄中，移除具有重複索引鍵的記錄。</p>
-<p>在 Windows Server 2003 之前，資料庫引擎一律會假設這個選項有作用，因為所有叢集索引也必須是主鍵，因此必須是唯一的。 從 Windows Server 2003 開始，當同時指定 JET_bitTTForwardOnly 選項時，現在可以建立不會移除重複專案的臨時表。</p>
-<p>您無法知道哪些重複專案會獲勝，哪些重複專案會在一般情況下捨棄。 不過，當要求 JET_bitTTErrorOnDuplicateInsertion 選項時，會永遠贏得具有指定索引鍵的第一個記錄插入臨時表中。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitTTUpdatable</p></td>
-<td><p>此選項會要求臨時表具有足夠的彈性，可讓之前插入的記錄之後變更。 如果這項功能不是必要的，則最好不要要求它。</p>
-<p>如果未要求這項功能，則臨時表管理員可能會選擇管理臨時表的策略，而這會導致效能改進。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitTTScrollable</p></td>
-<td><p>此選項會要求臨時表具有足夠的彈性，可讓您以任意順序和使用 <a href="gg294117(v=exchg.10).md">JetMove</a>的方向來掃描記錄。</p>
-<p>如果這項功能不是必要的，則最好不要要求它。 如果未要求這項功能，則臨時表管理員可能會選擇管理臨時表的策略，而這會導致效能改進。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitTTSortNullsHigh</p></td>
-<td><p>此選項會要求 Null 索引鍵資料行值的排序比非 Null 索引鍵資料行值更接近索引的結尾。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitTTIntrinsicLVsOnly</p></td>
-<td><p>要求只允許內建的 long 值。</p>
-<p><strong>Windows 7</strong>： <strong>JET_bitTTIntrinsicLVsOnly</strong> 是在 windows 7 中引進的。</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>值</p> | <p>意義</p> | 
+|--------------|----------------|
+| <p>JET_bitTTErrorOnDuplicateInsertion</p> | <p>此選項會要求任何嘗試插入具有與先前所插入記錄相同索引鍵的記錄，但 JET_errKeyDuplicate 會立即失敗。 如果未要求這個選項，則可能會立即偵測到重複的情況，也可能會在稍後根據資料庫引擎根據所要求的功能來執行臨時表所選擇的策略，而失敗或以無訊息方式移除。</p><p>如果這項功能不是必要的，則最好不要要求它。 如果未要求這項功能，則臨時表管理員可能會選擇管理臨時表的策略，而這會導致效能改進。</p> | 
+| <p>JET_bitTTForceMaterialization</p> | <p>此選項會強制臨時表管理員放棄任何嘗試選擇聰明的策略來管理臨時表，以產生增強的效能。</p> | 
+| <p>JET_bitTTForwardOnly</p> | <p>如果臨時表管理員可以使用針對中繼查詢結果優化的執行，此選項會要求只建立臨時表。 如果臨時表的任何特性會防止使用這項優化，則作業會失敗並 JET_errCannotMaterializeForwardOnlySort。</p><p>此選項的副作用是允許臨時表包含具有重複索引鍵的記錄。 如需詳細資訊，請參閱 JET_bitTTUnique。</p><p>此選項僅適用于 Windows Server 2003 和更新版本。</p> | 
+| <p>JET_bitTTIndexed</p> | <p>此選項會要求臨時表具有足夠的彈性，可允許使用 <a href="gg294103(v=exchg.10).md">JetSeek</a> 依據索引鍵來查閱記錄。</p><p>如果這項功能不是必要的，則最好不要要求它。 如果未要求這項功能，則臨時表管理員可能會選擇管理臨時表的策略，而這會導致效能改進。</p> | 
+| <p>JET_bitTTUnique</p> | <p>此選項會要求從臨時表的最後一組記錄中，移除具有重複索引鍵的記錄。</p><p>在 Windows Server 2003 之前，資料庫引擎一律會假設這個選項有作用，因為所有叢集索引也必須是主鍵，因此必須是唯一的。 從 Windows Server 2003 開始，當也指定了 JET_bitTTForwardOnly 選項時，現在可以建立不會移除重複專案的臨時表。</p><p>您無法知道哪些重複專案會獲勝，哪些重複專案會在一般情況下捨棄。 不過，當要求 JET_bitTTErrorOnDuplicateInsertion 選項時，會永遠贏得具有指定索引鍵的第一個記錄插入臨時表中。</p> | 
+| <p>JET_bitTTUpdatable</p> | <p>此選項會要求臨時表具有足夠的彈性，可讓之前插入的記錄之後變更。 如果這項功能不是必要的，則最好不要要求它。</p><p>如果未要求這項功能，則臨時表管理員可能會選擇管理臨時表的策略，而這會導致效能改進。</p> | 
+| <p>JET_bitTTScrollable</p> | <p>此選項會要求臨時表具有足夠的彈性，可讓您以任意順序和使用 <a href="gg294117(v=exchg.10).md">JetMove</a>的方向來掃描記錄。</p><p>如果這項功能不是必要的，則最好不要要求它。 如果未要求這項功能，則臨時表管理員可能會選擇管理臨時表的策略，而這會導致效能改進。</p> | 
+| <p>JET_bitTTSortNullsHigh</p> | <p>此選項會要求 Null 索引鍵資料行值的排序比非 Null 索引鍵資料行值更接近索引的結尾。</p> | 
+| <p>JET_bitTTIntrinsicLVsOnly</p> | <p>要求只允許內建的 long 值。</p><p><strong>Windows 7</strong>： <strong>JET_bitTTIntrinsicLVsOnly</strong>是 Windows 7 中引進的。</p> | 
+
 
 
 *ptableid*
@@ -174,109 +111,32 @@ _**適用于：** Windows |Windows Server_
 
 ### <a name="return-value"></a>傳回值
 
-此函數會傳回具有下列其中一個傳回碼的 [JET_ERR](./jet-err.md) 資料類型。 如需可能 ESE 錯誤的詳細資訊，請參閱可延伸 [儲存引擎錯誤](./extensible-storage-engine-errors.md) 和 [錯誤處理參數](./error-handling-parameters.md)。
+此函數會傳回具有下列其中一個傳回碼的 [JET_ERR](./jet-err.md) 資料類型。 如需可能 ESE 錯誤的詳細資訊，請參閱可延伸的[儲存體引擎錯誤](./extensible-storage-engine-errors.md)和[錯誤處理參數](./error-handling-parameters.md)。
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>傳回碼</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errSuccess</p></td>
-<td><p>作業已成功完成。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errCannotMaterializeForwardOnlySort</p></td>
-<td><p><strong>JetOpenTempTable3</strong> 失敗，因為指定了 JET_bitTTForwardOnly，而且無法使用順向優化來建立指定的臨時表。 只有 Windows Server 2003 和更新版本才會傳回此錯誤。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errClientRequestToStopJetService</p></td>
-<td><p>無法完成作業，因為與該會話相關聯之實例上的所有活動都不是呼叫 <a href="gg269240(v=exchg.10).md">JetStopService</a>的結果。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errIndexInvalidDef</p></td>
-<td><p>無法建立索引，因為指定了不正確索引定義。 <strong>JetOpenTempTable3</strong> 會在下列情況傳回此錯誤：</p>
-<ul>
-<li><p>指定了中性語言的地區設定。</p></li>
-<li><p>指定了不正確正規化旗標集合。</p></li>
-</ul>
-<p>此錯誤只會由 Windows 2000 傳回。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errInstanceUnavailable</p></td>
-<td><p>無法完成作業，因為與會話相關聯的實例發生嚴重錯誤，需要撤銷所有資料的存取權，以保護該資料的完整性。 只有 Windows XP 和更新版本才會傳回此錯誤。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errInvalidCodePage</p></td>
-<td><p><a href="gg294130(v=exchg.10).md">JET_COLUMNDEF</a>結構的<strong>cp</strong>成員未設定為有效的字碼頁。 Text 資料行的唯一有效值是英文 (1252) 和 Unicode (1200) 。 0值表示預設值將使用 (英文、1252) 。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errInvalidColumnType</p></td>
-<td><p><a href="gg294130(v=exchg.10).md">JET_COLUMNDEF</a>結構的<strong>coltyp</strong>成員未設定為有效的資料行類型。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errInvalidLanguageId</p></td>
-<td><p>無法建立索引，因為嘗試使用不正確地區設定識別碼。 地區設定識別碼可能完全無效，或可能未安裝相關聯的語言套件。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errInvalidLCMapStringFlags</p></td>
-<td><p>無法建立索引，因為嘗試使用一組不正確正規化旗標。 只有 Windows XP 和更新版本才會傳回此錯誤。 在 Windows 2000 上，不正確正規化旗標會改為產生 JET_errIndexInvalidDef。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errInvalidSesid</p></td>
-<td><p>會話控制碼無效或參考已關閉的會話。 在所有情況下，都不會傳回此錯誤。 控制碼只會根據最大努力進行驗證。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errNotInitialized</p></td>
-<td><p>無法完成作業，因為與會話相關聯的實例尚未初始化。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errOutOfCursors</p></td>
-<td><p>作業失敗，因為引擎無法配置開啟新資料指標所需的資源。 資料指標資源是使用 <a href="gg294044(v=exchg.10).md">JetSetSystemParameter</a> 搭配 <a href="gg269201(v=exchg.10).md">JET_paramMaxCursors</a>進行設定。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errOutOfMemory</p></td>
-<td><p>作業失敗，因為無法配置足夠的記憶體來完成。</p>
-<p>如果主機進程的位址空間變得太分散， <strong>JetOpenTempTable3</strong>可能會傳回 JET_errOutOfMemory。 無論要儲存的資料量為何，臨時表管理員一律會為每個建立的臨時表配置1MB 的位址空間區塊。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errRestoreInProgress</p></td>
-<td><p>無法完成作業，因為與會話相關聯的實例正在進行還原作業。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errSessionSharingViolation</p></td>
-<td><p>相同的會話無法同時用於一個以上的執行緒。</p>
-<p>只有 Windows XP 和更新版本才會傳回此錯誤。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errTermInProgress</p></td>
-<td><p>無法完成作業，因為與會話相關聯的實例正在關閉。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errTooManyColumns</p></td>
-<td><p>嘗試將過多的資料行新增至資料表。 資料表不能超過 JET_ccolFixedMost 固定資料行，不能超過 JET_ccolVarMost 的可變長度資料行，且不能超過 JET_ccolTaggedMost 標記的資料行。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errTooManyOpenIndexes</p></td>
-<td><p>作業失敗，因為引擎無法配置快取資料表索引所需的資源。 您可以使用 <a href="gg294044(v=exchg.10).md">JetSetSystemParameter</a> 搭配 <a href="gg269201(v=exchg.10).md">JET_paramMaxOpenTables</a>，設定可以快取架構的索引數目。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errTooManyOpenTables</p></td>
-<td><p>作業失敗，因為引擎無法配置快取資料表架構所需的資源。 您可以使用 <a href="gg294044(v=exchg.10).md">JetSetSystemParameter</a> 搭配 <a href="gg269201(v=exchg.10).md">JET_paramMaxOpenTables</a>，設定可以快取架構的資料表數目。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errTooManySorts</p></td>
-<td><p>作業失敗，因為引擎無法配置建立臨時表所需的資源。 臨時表資源是使用 <a href="gg294044(v=exchg.10).md">JetSetSystemParameter</a> 搭配 <a href="gg294140(v=exchg.10).md">JET_paramMaxTemporaryTables</a>進行設定。</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>傳回碼</p> | <p>Description</p> | 
+|--------------------|--------------------|
+| <p>JET_errSuccess</p> | <p>作業已成功完成。</p> | 
+| <p>JET_errCannotMaterializeForwardOnlySort</p> | <p><strong>JetOpenTempTable3</strong> 失敗，因為指定了 JET_bitTTForwardOnly，而且無法使用順向優化來建立指定的臨時表。 只有 Windows Server 2003 和更新版本才會傳回此錯誤。</p> | 
+| <p>JET_errClientRequestToStopJetService</p> | <p>無法完成作業，因為與該會話相關聯之實例上的所有活動都不是呼叫 <a href="gg269240(v=exchg.10).md">JetStopService</a>的結果。</p> | 
+| <p>JET_errIndexInvalidDef</p> | <p>無法建立索引，因為指定了不正確索引定義。 <strong>JetOpenTempTable3</strong> 會在下列情況傳回此錯誤：</p><ul><li><p>指定了中性語言的地區設定。</p></li><li><p>指定了不正確正規化旗標集合。</p></li></ul><p>只有 Windows 2000 才會傳回此錯誤。</p> | 
+| <p>JET_errInstanceUnavailable</p> | <p>無法完成作業，因為與會話相關聯的實例發生嚴重錯誤，需要撤銷所有資料的存取權，以保護該資料的完整性。 只有 Windows XP 和更新版本才會傳回此錯誤。</p> | 
+| <p>JET_errInvalidCodePage</p> | <p><a href="gg294130(v=exchg.10).md">JET_COLUMNDEF</a>結構的<strong>cp</strong>成員未設定為有效的字碼頁。 Text 資料行的唯一有效值是英文 (1252) 和 Unicode (1200) 。 0值表示預設值將使用 (英文、1252) 。</p> | 
+| <p>JET_errInvalidColumnType</p> | <p><a href="gg294130(v=exchg.10).md">JET_COLUMNDEF</a>結構的<strong>coltyp</strong>成員未設定為有效的資料行類型。</p> | 
+| <p>JET_errInvalidLanguageId</p> | <p>無法建立索引，因為嘗試使用不正確地區設定識別碼。 地區設定識別碼可能完全無效，或可能未安裝相關聯的語言套件。</p> | 
+| <p>JET_errInvalidLCMapStringFlags</p> | <p>無法建立索引，因為嘗試使用一組不正確正規化旗標。 只有 Windows XP 和更新版本才會傳回此錯誤。 在 Windows 2000 上，不正確正規化旗標會改為產生 JET_errIndexInvalidDef。</p> | 
+| <p>JET_errInvalidSesid</p> | <p>會話控制碼無效或參考已關閉的會話。 在所有情況下，都不會傳回此錯誤。 控制碼只會根據最大努力進行驗證。</p> | 
+| <p>JET_errNotInitialized</p> | <p>無法完成作業，因為與會話相關聯的實例尚未初始化。</p> | 
+| <p>JET_errOutOfCursors</p> | <p>作業失敗，因為引擎無法配置開啟新資料指標所需的資源。 資料指標資源是使用 <a href="gg294044(v=exchg.10).md">JetSetSystemParameter</a> 搭配 <a href="gg269201(v=exchg.10).md">JET_paramMaxCursors</a>進行設定。</p> | 
+| <p>JET_errOutOfMemory</p> | <p>作業失敗，因為無法配置足夠的記憶體來完成。</p><p>如果主機進程的位址空間變得太分散， <strong>JetOpenTempTable3</strong>可能會傳回 JET_errOutOfMemory。 無論要儲存的資料量為何，臨時表管理員一律會為每個建立的臨時表配置1MB 的位址空間區塊。</p> | 
+| <p>JET_errRestoreInProgress</p> | <p>無法完成作業，因為與會話相關聯的實例正在進行還原作業。</p> | 
+| <p>JET_errSessionSharingViolation</p> | <p>相同的會話無法同時用於一個以上的執行緒。</p><p>只有 Windows XP 和更新版本才會傳回此錯誤。</p> | 
+| <p>JET_errTermInProgress</p> | <p>無法完成作業，因為與會話相關聯的實例正在關閉。</p> | 
+| <p>JET_errTooManyColumns</p> | <p>嘗試將過多的資料行新增至資料表。 資料表不能超過 JET_ccolFixedMost 固定資料行，不能超過 JET_ccolVarMost 的可變長度資料行，且不能超過 JET_ccolTaggedMost 標記的資料行。</p> | 
+| <p>JET_errTooManyOpenIndexes</p> | <p>作業失敗，因為引擎無法配置快取資料表索引所需的資源。 您可以使用 <a href="gg294044(v=exchg.10).md">JetSetSystemParameter</a> 搭配 <a href="gg269201(v=exchg.10).md">JET_paramMaxOpenTables</a>，設定可以快取架構的索引數目。</p> | 
+| <p>JET_errTooManyOpenTables</p> | <p>作業失敗，因為引擎無法配置快取資料表架構所需的資源。 您可以使用 <a href="gg294044(v=exchg.10).md">JetSetSystemParameter</a> 搭配 <a href="gg269201(v=exchg.10).md">JET_paramMaxOpenTables</a>，設定可以快取架構的資料表數目。</p> | 
+| <p>JET_errTooManySorts</p> | <p>作業失敗，因為引擎無法配置建立臨時表所需的資源。 臨時表資源是使用 <a href="gg294044(v=exchg.10).md">JetSetSystemParameter</a> 搭配 <a href="gg294140(v=exchg.10).md">JET_paramMaxTemporaryTables</a>進行設定。</p> | 
+
 
 
 成功時，會傳回在新建立的臨時表上開啟的資料指標。 暫存資料庫的狀態將準備好包含新的臨時表。 資料庫引擎所使用之任何一般資料庫的狀態將保持不變。
@@ -285,39 +145,14 @@ _**適用于：** Windows |Windows Server_
 
 #### <a name="requirements"></a>規格需求
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>用戶端</strong></p></td>
-<td><p>需要 Windows Vista、Windows XP 或 Windows 2000 Professional。</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>伺服器</strong></p></td>
-<td><p>需要 Windows Server 2008、Windows Server 2003 或 Windows 2000 Server。</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>標頭</strong></p></td>
-<td><p>宣告于 Esent. h 中。</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>程式庫</strong></p></td>
-<td><p>使用 ESENT。</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>DLL</strong></p></td>
-<td><p>需要 ESENT.dll。</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p><strong>用戶端</strong></p> | <p>需要 Windows Vista、Windows XP 或 Windows 2000 Professional。</p> | | <p><strong>伺服器</strong></p> | <p>需要 Windows server 2008、Windows Server 2003 或 Windows 2000 Server。</p> | | <p><strong>標頭</strong></p> | <p>宣告于 Esent. h 中。</p> | | <p><strong>程式庫</strong></p> | <p>使用 ESENT。</p> | | <p><strong>DLL</strong></p> | <p>需要 ESENT.dll。</p> | 
+
 
 
 #### <a name="see-also"></a>另請參閱
 
-[可擴充儲存引擎錯誤](./extensible-storage-engine-errors.md)  
+[可擴充的儲存體引擎錯誤](./extensible-storage-engine-errors.md)  
 [錯誤處理參數](./error-handling-parameters.md)  
 [JET_COLUMNDEF](./jet-columndef-structure.md)  
 [JET_COLUMNID](./jet-columnid.md)  

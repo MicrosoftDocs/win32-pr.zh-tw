@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: b93764f8014a5d9446811ef622f7c5afc20acbc6193d938c98642afaae5392fa
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3309f18cbd5a7e2769b264e516b019d9f3ed3b06
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118452874"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122885434"
 ---
 # <a name="crumb-argument-the-windows-shell"></a>Windows Shell (的連結引數) 
 
@@ -40,7 +40,7 @@ crumb=<column>:<value>[,<label>][,<column>:<value>[,<label>]]&
 
 
 
-<column>部分是屬性系統中的任何屬性，而 <value> 部分是該屬性的有效值。 <label>部分是顯示為使用者介面提示之屬性的選擇性別名。
+資料 &lt; 行 &gt; 部分是屬性系統中的任何屬性，而且 &lt; 值 &gt; 部分是該屬性的有效值。 <label>部分是顯示為使用者介面提示之屬性的選擇性別名。
 
 ### <a name="general-examples"></a>一般範例
 
@@ -63,10 +63,10 @@ crumb=location:c%3a%5cMyVacationPix,Vacation&
 
 
 
-| 參數 | 值                  | 描述                                                                                                                                                                       |
+| 參數 | 值                  | 說明                                                                                                                                                                       |
 |-----------|-------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 包含 | 包含、排除        | 指定查詢是否應包含或排除該路徑的專案。 "Include" 是預設值。 WindowsVista 不支援排除專案（不含）。  (請參閱範例)  |
-| 遞迴 | 遞迴、非遞迴 | 指定搜尋是否應從位置中定義的值開始遞迴所有子資料夾：<value>. 「遞迴」是預設值。                             |
+| 遞迴 | 遞迴、非遞迴 | 指定搜尋是否應從 location： value 中定義的值開始遞迴所有子資料夾 &lt; &gt; 。 「遞迴」是預設值。                             |
 
 
 
@@ -124,7 +124,7 @@ crumb=location:shell%3a<LocationName>&
 
 
 
-| Name                        | 搜尋字串                   | Description                                                                                                                                                                            |
+| Name                        | 搜尋字串                   | 說明                                                                                                                                                                            |
 |-----------------------------|---------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 系統管理工具        | 系統管理% 20TOOLS          | 檔案系統目錄，作為系統管理工具的儲存機制。                                                                                                            |
 | APPDATA                     | APPDATA                         | 檔案系統目錄，做為應用程式特定資料的通用存放庫。 典型的路徑是 C： \\ Documents 和設定使用者 \\ 名稱 \\ 應用程式資料。                      |

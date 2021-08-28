@@ -1,17 +1,17 @@
 ---
 description: 用來要求中繼資料的 WS-Transfer 訊息。
 ms.assetid: 18bf27aa-6ae5-4419-ae68-6df9eda10cd4
-title: 取得 (中繼資料交換) HTTP 要求和訊息
+title: 取得 (中繼資料 Exchange) HTTP 要求和訊息
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d8ad240a51fdbabf4184b8769f4e3cca6daa4244
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1c9cf6241b38f7fa81cc5d9a7c21a0f5e1a406aa
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106986859"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122885254"
 ---
-# <a name="get-metadata-exchange-http-request-and-message"></a>取得 (中繼資料交換) HTTP 要求和訊息
+# <a name="get-metadata-exchange-http-request-and-message"></a>取得 (中繼資料 Exchange) HTTP 要求和訊息
 
 Get 訊息是用來要求中繼資料的 WS-Transfer 訊息。 如需取得訊息的詳細資訊，請參閱 [WS-傳輸規格](https://specs.xmlsoap.org/ws/2004/09/transfer/WS-Transfer.pdf)的3.1 節。 因為中繼資料交換是透過 HTTP 進行，所以 Get 訊息是 HTTP 要求的承載。
 
@@ -42,15 +42,15 @@ Get HTTP 要求具有下列焦點點。
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
 <th>對焦點</th>
 <th>標題列</th>
-<th>Description</th>
+<th>說明</th>
 </tr>
 </thead>
 <tbody>
@@ -109,9 +109,9 @@ Get 訊息具有下列焦點點。
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -123,14 +123,14 @@ Get 訊息具有下列焦點點。
 <tbody>
 <tr class="odd">
 <td>收件者</td>
-<td><pre class="syntax" data-space="preserve"><code><wsa:To>
+<td><pre class="syntax" data-space="preserve"><code>&lt;wsa:To&gt;
     urn:uuid:37f86d35-e6ac-4241-964f-1d9ae46fb366
-</wsa:To></code></pre></td>
+&lt;/wsa:To&gt;</code></pre></td>
 <td>要求中繼資料之裝置的識別碼。</td>
 </tr>
 <tr class="even">
 <td>Get</td>
-<td><pre class="syntax" data-space="preserve"><code><wsa:Action>
+<td><pre class="syntax" data-space="preserve"><code>&lt;wsa:Action&gt;
     https://schemas.xmlsoap.org/ws/2004/09/transfer/Get
 </wsa:Action</code></pre></td>
 <td>Get SOAP 動作會將訊息識別為取得訊息。</td>
@@ -153,7 +153,7 @@ Get 訊息具有下列焦點點。
 
 <dl> <dt>
 
-[探索和中繼資料交換訊息](discovery-and-metadata-exchange-message-patterns.md)
+[探索和中繼資料 Exchange 訊息](discovery-and-metadata-exchange-message-patterns.md)
 </dt> <dt>
 
 [GetResponse 訊息](getresponse--metadata-exchange--message.md)

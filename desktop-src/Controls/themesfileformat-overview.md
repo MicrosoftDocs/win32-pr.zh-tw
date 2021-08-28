@@ -4,12 +4,12 @@ description: 本檔討論主題 ( 的格式。主題) 檔。 主題檔案是一�
 ms.assetid: 0b7b0ff7-f55a-4215-a2fd-6c3ea117d6e8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c67fc2d73e54e4f9c319108c2b29ed62fb58266f
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: 584e6d9785cf7660e017cadfb2a39d6bce6c2a87
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122472302"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122886637"
 ---
 # <a name="theme-file-format"></a>主題檔案格式
 
@@ -669,7 +669,7 @@ Transparency=1
 
 ## <a name="installing-theme-files"></a>安裝主題檔案
 
-當 Windows 初始化時，作業系統會列舉% WinDir% 資源的第一層子目錄， \\ \\ 以找出可用的主題。 系統預設主題檔案位於% WinDir% \\ 資源 \\ 主題。 使用者主題檔案儲存在% WinDir% \\ Users \\ <username> \\ AppData \\ Local \\ Microsoft \\ Windows 主題中 \\ 。
+當 Windows 初始化時，作業系統會列舉% WinDir% 資源的第一層子目錄， \\ \\ 以找出可用的主題。 系統預設主題檔案位於% WinDir% \\ 資源 \\ 主題。 使用者主題檔案儲存在% WinDir% \\ 使用者使用者 \\ &lt; 名稱中 &gt; \\ AppData \\ 本機 \\ Microsoft \\ Windows \\ 主題。
 
 主題檔案具有檔案關聯;因此，主題安裝程式應用程式可以在 ShellExecute 的主題檔案上呼叫 [](/windows/desktop/api/shellapi/nf-shellapi-shellexecutea) ，以在指定的主題主控台中開啟 **個人** 化視窗。
 

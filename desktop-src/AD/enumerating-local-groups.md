@@ -7,12 +7,12 @@ keywords:
 - 列舉本機群組 AD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8f1584cf8650b3fa341e7a314e0b6f94120b28c50226f16230c53206d6e14b80
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6dcecf0f16cb0679e190197f0677cb9b23a96195
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118191328"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122881431"
 ---
 # <a name="enumerating-local-groups"></a>列舉本機群組
 
@@ -28,7 +28,7 @@ ms.locfileid: "118191328"
 
 1.  使用下列規則系結至電腦：
     1.  使用具有足夠許可權的帳戶來存取該電腦。
-    2.  使用 WinNT 提供者、電腦名稱稱和額外的參數來使用下列系結字串格式，以指示 ADSI 系結至電腦： "WinNT://" <computer name> <computer> 。
+    2.  使用 WinNT 提供者、電腦名稱稱和額外的參數來使用下列系結字串格式，以指示 ADSI 系結至電腦： "WinNT:// <computer name> ， &lt; computer &gt; "。
 
         " <computer name> 參數是要存取的電腦群組名。 此參數會指示 ADSI 系結至電腦，並允許 WinNT 提供者的剖析器略過一些不明確的解析查詢，以判斷您要系結到的物件類型。
 

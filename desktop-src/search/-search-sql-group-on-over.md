@@ -4,12 +4,12 @@ ms.assetid: 37f027c1-c2af-4d62-8b5f-918499fc2d7c
 title: 分組依據 .。。OVER .。。聲明
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 94d7087305f0a5a86f0288ed92ec4bda5b8c882c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: df21bb53babd25ae3e407032c6cf9d3774323e85
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112425"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122882019"
 ---
 # <a name="group-on--over--statement"></a>分組依據 .。。OVER .。。聲明
 
@@ -50,7 +50,7 @@ GROUP ON <column> ['['<group ranges>']']]
 
 
 
-群組 <column> 可以是屬性存放區中屬性的一般或分隔的 [識別碼](-search-sql-identifiers.md) 。
+[群組依據] 資料 &lt; 行 &gt; 可以是屬性存放區中屬性的一般或分隔 [識別碼](-search-sql-identifiers.md) 。
 
 選擇性 <group ranges> 是一個或多個值的清單， (數位、日期或字串) 用來將結果分割成群組。 會 <range limit> 識別所傳回結果集中的除法點，並 <label> 識別群組的使用者易記標籤。 您可以將結果集分成多個所需的群組。
 
@@ -66,7 +66,7 @@ GROUP ON <column> ['['<group ranges>']']]
 
 
 
-| 範例 (<column> \[ 群組範圍 \])         | 結果                                                                                                                                                                                                                                                                         |
+|  (資料 &lt; 行 &gt; \[ 群組範圍的範例 \])         | 結果                                                                                                                                                                                                                                                                         |
 |--------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | System. Size \[ 1000、5000\]                       | 結果會分成四個 bucket： **MINVALUE**： Size < 1000<br/> **1000：** 1000 <= Size < 5000<br/> **5000：** 大小 >= 5000<br/> **Null：** 沒有大小的值<br/>                                                                      |
 | System. Author \[ ( ' ) ，在 ( ' r ' ) \]         | 結果會分成四個值區： **MINVALUE：** Author "m" 之前 < 字元<br/> **m：** "m" 之前的字元 <= "r" 之後的作者 < 字元<br/> **r：** "r" 之後的字元 <= Author<br/> **Null：** 沒有作者的值<br/>      |
@@ -114,7 +114,7 @@ GROUP ON System.Size [(MINVALUE/'Small','100')/'Medium','50000'/'Large']
 
 在 Windows 7 或更新版本中，您也可以使用一般的 \[ 其他 \] 標籤來合併多個群組範圍。 所有使用此標籤識別的群組所產生的結果，將會合並成一個具有此標籤的群組。 此結果群組會在所有其他群組之後傳回，但 **Null** 群組除外。 **Null** 群組包含沒有指定屬性值之專案的結果。 在 Windows 7 之前， \[ 其他 \] 標籤的處理方式就像任何其他群組標籤一樣。
 
-下列程式碼是 \[ \] 針對在 Windows 7 或更新版本中建立的群組使用另一個標籤的範例：
+下列程式碼是使用 \[ \] Windows 7 或更新版本中建立之群組的其他標籤的範例：
 
 
 ```

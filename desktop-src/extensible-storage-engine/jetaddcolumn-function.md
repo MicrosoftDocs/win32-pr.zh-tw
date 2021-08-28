@@ -20,12 +20,12 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 2c1c70ab6510d2e63cc1b59e94ae058565937e854968b7ba05e2710ba22aa6af
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c735fb077816fc555b28e4b81b93798898efd92e
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118979048"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122989091"
 ---
 # <a name="jetaddcolumn-function"></a>JetAddColumn 函式
 
@@ -92,170 +92,44 @@ _**適用于：** Windows |Windows伺服器_
 
 此函數會傳回具有下列其中一個傳回碼的 [JET_ERR](./jet-err.md) 資料類型。 如需可能 ESE 錯誤的詳細資訊，請參閱可延伸的[儲存體引擎錯誤](./extensible-storage-engine-errors.md)和[錯誤處理參數](./error-handling-parameters.md)。
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>傳回碼</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errSuccess</p></td>
-<td><p>作業成功。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errFixedDDL</p></td>
-<td><p>嘗試修改固定 DDL 資料表的資料定義。 具有固定 DDL 的資料表範例是範本資料表。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errInvalidParameter</p></td>
-<td><p>傳遞至 API 的參數無效。 以下是無效參數的一些範例：</p>
-<ul>
-<li><p>在其<em>cbStruct</em>成員中傳遞錯誤的<a href="gg294130(v=exchg.10).md">JET_COLUMNDEF</a>結構大小。</p></li>
-<li><p>傳入 JET_bitColumnUserDefinedDefault，但未將 <strong>cbDefault</strong> 設定為 sizeof (<a href="gg269200(v=exchg.10).md">JET_USERDEFINEDDEFAULT</a>) 。</p></li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><p>JET_errInTransaction</p></td>
-<td><p>嘗試加入具有 JET_bitColumnUnversioned 位集的資料行，但該會話目前位於交易中。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errColumnDuplicate</p></td>
-<td><p>資料行已經存在。 嘗試加入沒有版本資訊的資料行，而且該資料行已經存在。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errTableNotEmpty</p></td>
-<td><p>資料表包含資料。 您只能將 [保管更新] 資料行新增至空白資料表。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errRecordTooBig</p></td>
-<td><p>記錄太大。 固定資料行之 <strong>cbMax</strong> 參數的總和不得超過某個值。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errTooManyColumns</p></td>
-<td><p>嘗試將過多的資料行新增至資料表。 資料表不能超過 JET_ccolFixedMost 固定資料行，不能超過 JET_ccolVarMost 的可變長度資料行，且不能超過 JET_ccolTaggedMost 標記的資料行。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errColumnRedundant</p></td>
-<td><p>嘗試加入重複的資料行。 應該不會有一個以上的自動遞增資料行，而且每個資料表不能有一個以上的版本資料行。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errCallbackNotResolved</p></td>
-<td><p>無法解析回呼函數。 可能找不到 DLL，或可能找不到 DLL 中的函數。 如果啟用了足夠的記錄，事件記錄檔將會提供更多詳細資料。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_wrnColumnMaxTruncated</p></td>
-<td><p>指出固定或變數資料行 (<strong>cbMax</strong>) 長度上限大於 JET_cbColumnMost 的警告。 這項限制不適用於 <a href="gg269213(v=exchg.10).md">JET_coltypLongBinary</a> 和 <a href="gg269213(v=exchg.10).md">JET_coltypLongText</a>) 的 Long 值 (。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errInvalidName</p></td>
-<td><p>傳遞的名稱無效，因為 <strong>szColumnName</strong>。 如需有關限制的詳細資訊，請參閱 <strong>szColumnName</strong>的準則。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errInvalidColumnType</p></td>
-<td><p><strong>Coltyp</strong>欄位未設定為有效的資料行類型。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errInvalidCodePage</p></td>
-<td><p><a href="gg294130(v=exchg.10).md">JET_COLUMNDEF</a>結構的<strong>cp</strong>參數未設定為有效的字碼頁。 Text 資料行的唯一有效值是英文 (1252) 和 Unicode (1200) 。 0值表示預設值將使用 (英文、1252) 。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errTaggedNotNull</p></td>
-<td><p>JET_bitColumnNotNull 不能與加上標籤、Long 值或 SLV 資料行一起使用。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errInvalidgrbit</p></td>
-<td><p>指定了不正確 <em>grbits</em> 組合。 此錯誤的部分原因如下：</p>
-<ul>
-<li><p>JET_bitColumnFixed 用於已標記、Long 值或 SLV 資料行。</p></li>
-<li><p>JET_bitColumnEscrowUpdate 用於不是 <a href="gg269213(v=exchg.10).md">JET_coltypLong</a>類型的資料行。</p></li>
-<li><p>JET_bitColumnEscrowUpdate 用於 (JET_bitColumnVersion) 的版本資料行。</p></li>
-<li><p>JET_bitColumnEscrowUpdate 用在 AutoIncrememnt 資料行上 (JET_bitColumnAutoincrement) 。</p></li>
-<li><p>JET_bitColumnEscrowUpdate 在沒有預設值的資料行上使用 (<strong>cbDefault</strong> 等於零) 。</p></li>
-<li><p>JET_bitColumnFinalize 用在非「正在進行」更新資料行的資料行上， (JET_bitColumnEscrowUpdate 未設定) 。</p></li>
-<li><p>JET_bitColumnDeleteOnZero 用在非「正在進行」更新資料行的資料行上， (JET_bitColumnEscrowUpdate 未設定) 。</p></li>
-<li><p>JET_bitColumnAutoincrement 用於未 <a href="gg269213(v=exchg.10).md">JET_coltypLong</a>的資料行。</p>
-<p><strong>Windows 2000：</strong>錯誤碼的這個原因只用于 Windows 2000。</p>
-<p>JET_bitColumnAutoincrement 用於不是 <a href="gg269213(v=exchg.10).md">JET_coltypLong</a> 或 <a href="gg269213(v=exchg.10).md">JET_coltypCurrency</a>的資料行。</p>
-<p><strong>Windows XP：</strong>此錯誤碼的原因是用於 Windows XP 和更新版本的作業系統。</p></li>
-<li><p>JET_bitColumnVersion 用於未 <a href="gg269213(v=exchg.10).md">JET_coltypLong</a>的資料行。</p></li>
-<li><p>自動遞增資料行使用了 JET_bitColumnVersion。</p></li>
-<li><p>JET_bitColumnUserDefinedDefault 與 JET_bitColumnFixed 一起使用。</p></li>
-<li><p>JET_bitColumnUserDefinedDefault 與 JET_bitColumnNotNull 一起使用。</p></li>
-<li><p>JET_bitColumnUserDefinedDefault 與 JET_bitColumnVersion 一起使用。</p></li>
-<li><p>JET_bitColumnUserDefinedDefault 與 JET_bitColumnAutoincrement 一起使用。</p></li>
-<li><p>JET_bitColumnUserDefinedDefault 與 JET_bitColumnUpdatable 一起使用。</p></li>
-<li><p>JET_bitColumnUserDefinedDefault 與 JET_bitColumnEscrowUpdate 一起使用。</p></li>
-<li><p>JET_bitColumnUserDefinedDefault 與 JET_bitColumnFinalize 一起使用。</p></li>
-<li><p>JET_bitColumnUserDefinedDefault 與 JET_bitColumnDeleteOnZero 一起使用。</p></li>
-<li><p>JET_bitColumnUserDefinedDefault 與 JET_bitColumnMaybeNull 一起使用。</p></li>
-<li><p>JET_bitColumnUserDefinedDefault 是用於固定或變數) 的未標記資料行 (。</p></li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errMultiValuedColumnMustBeTagged</p></td>
-<td><p>多值資料行 (JET_bitColumnMultiValued) 只能用在已加上標籤或 Long 值 (<a href="gg269213(v=exchg.10).md">JET_coltypLongBinary</a> 或 <a href="gg269213(v=exchg.10).md">JET_coltypLongText</a>) 資料行中。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errCannotBeTagged</p></td>
-<td><p>嘗試在資料行可能未標記時使用標記的資料行。 禁止標記的資料行的部分條件約束為：</p>
-<ul>
-<li><p> (JET_bitColumnEscrowUpdate) 的「保管更新資料行」不能用在已標記或長的值 (<a href="gg269213(v=exchg.10).md">JET_coltypLongBinary</a> 或 <a href="gg269213(v=exchg.10).md">JET_coltypLongText</a>) 資料行。</p></li>
-<li><p>自動遞增資料行可能未標記。</p></li>
-<li><p>可能未標記版本資料行。</p></li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errExclusiveTableLockRequired</p></td>
-<td><p>此作業需要資料表的獨佔鎖定。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_wrnColumnMaxTruncated</p></td>
-<td><p>指出固定或變數資料行 (<em>cbMax</em>) 長度上限大於 JET_cbColumnMost 的警告。 這項限制不適用於 <a href="gg269213(v=exchg.10).md">JET_coltypLongBinary</a> 和 <a href="gg269213(v=exchg.10).md">JET_coltypLongText</a>) 的 Long 值 (。</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>傳回碼</p> | <p>Description</p> | 
+|--------------------|--------------------|
+| <p>JET_errSuccess</p> | <p>作業成功。</p> | 
+| <p>JET_errFixedDDL</p> | <p>嘗試修改固定 DDL 資料表的資料定義。 具有固定 DDL 的資料表範例是範本資料表。</p> | 
+| <p>JET_errInvalidParameter</p> | <p>傳遞至 API 的參數無效。 以下是無效參數的一些範例：</p><ul><li><p>在其<em>cbStruct</em>成員中傳遞錯誤的<a href="gg294130(v=exchg.10).md">JET_COLUMNDEF</a>結構大小。</p></li><li><p>傳入 JET_bitColumnUserDefinedDefault，但未將 <strong>cbDefault</strong> 設定為 sizeof (<a href="gg269200(v=exchg.10).md">JET_USERDEFINEDDEFAULT</a>) 。</p></li></ul> | 
+| <p>JET_errInTransaction</p> | <p>嘗試加入具有 JET_bitColumnUnversioned 位集的資料行，但該會話目前位於交易中。</p> | 
+| <p>JET_errColumnDuplicate</p> | <p>資料行已經存在。 嘗試加入沒有版本資訊的資料行，而且該資料行已經存在。</p> | 
+| <p>JET_errTableNotEmpty</p> | <p>資料表包含資料。 您只能將 [保管更新] 資料行新增至空白資料表。</p> | 
+| <p>JET_errRecordTooBig</p> | <p>記錄太大。 固定資料行之 <strong>cbMax</strong> 參數的總和不得超過某個值。</p> | 
+| <p>JET_errTooManyColumns</p> | <p>嘗試將過多的資料行新增至資料表。 資料表不能超過 JET_ccolFixedMost 固定資料行，不能超過 JET_ccolVarMost 的可變長度資料行，且不能超過 JET_ccolTaggedMost 標記的資料行。</p> | 
+| <p>JET_errColumnRedundant</p> | <p>嘗試加入重複的資料行。 應該不會有一個以上的自動遞增資料行，而且每個資料表不能有一個以上的版本資料行。</p> | 
+| <p>JET_errCallbackNotResolved</p> | <p>無法解析回呼函數。 可能找不到 DLL，或可能找不到 DLL 中的函數。 如果啟用了足夠的記錄，事件記錄檔將會提供更多詳細資料。</p> | 
+| <p>JET_wrnColumnMaxTruncated</p> | <p>指出固定或變數資料行 (<strong>cbMax</strong>) 長度上限大於 JET_cbColumnMost 的警告。 這項限制不適用於 <a href="gg269213(v=exchg.10).md">JET_coltypLongBinary</a> 和 <a href="gg269213(v=exchg.10).md">JET_coltypLongText</a>) 的 Long 值 (。</p> | 
+| <p>JET_errInvalidName</p> | <p>傳遞的名稱無效，因為 <strong>szColumnName</strong>。 如需有關限制的詳細資訊，請參閱 <strong>szColumnName</strong>的準則。</p> | 
+| <p>JET_errInvalidColumnType</p> | <p><strong>Coltyp</strong>欄位未設定為有效的資料行類型。</p> | 
+| <p>JET_errInvalidCodePage</p> | <p><a href="gg294130(v=exchg.10).md">JET_COLUMNDEF</a>結構的<strong>cp</strong>參數未設定為有效的字碼頁。 Text 資料行的唯一有效值是英文 (1252) 和 Unicode (1200) 。 0值表示預設值將使用 (英文、1252) 。</p> | 
+| <p>JET_errTaggedNotNull</p> | <p>JET_bitColumnNotNull 不能與加上標籤、Long 值或 SLV 資料行一起使用。</p> | 
+| <p>JET_errInvalidgrbit</p> | <p>指定了不正確 <em>grbits</em> 組合。 此錯誤的部分原因如下：</p><ul><li><p>JET_bitColumnFixed 用於已標記、Long 值或 SLV 資料行。</p></li><li><p>JET_bitColumnEscrowUpdate 用於不是 <a href="gg269213(v=exchg.10).md">JET_coltypLong</a>類型的資料行。</p></li><li><p>JET_bitColumnEscrowUpdate 用於 (JET_bitColumnVersion) 的版本資料行。</p></li><li><p>JET_bitColumnEscrowUpdate 用在 AutoIncrememnt 資料行上 (JET_bitColumnAutoincrement) 。</p></li><li><p>JET_bitColumnEscrowUpdate 在沒有預設值的資料行上使用 (<strong>cbDefault</strong> 等於零) 。</p></li><li><p>JET_bitColumnFinalize 用在非「正在進行」更新資料行的資料行上， (JET_bitColumnEscrowUpdate 未設定) 。</p></li><li><p>JET_bitColumnDeleteOnZero 用在非「正在進行」更新資料行的資料行上， (JET_bitColumnEscrowUpdate 未設定) 。</p></li><li><p>JET_bitColumnAutoincrement 用於未 <a href="gg269213(v=exchg.10).md">JET_coltypLong</a>的資料行。</p><p><strong>Windows 2000：</strong>錯誤碼的這個原因只用于 Windows 2000。</p><p>JET_bitColumnAutoincrement 用於不是 <a href="gg269213(v=exchg.10).md">JET_coltypLong</a> 或 <a href="gg269213(v=exchg.10).md">JET_coltypCurrency</a>的資料行。</p><p><strong>Windows XP：</strong>此錯誤碼的原因是用於 Windows XP 和更新版本的作業系統。</p></li><li><p>JET_bitColumnVersion 用於未 <a href="gg269213(v=exchg.10).md">JET_coltypLong</a>的資料行。</p></li><li><p>自動遞增資料行使用了 JET_bitColumnVersion。</p></li><li><p>JET_bitColumnUserDefinedDefault 與 JET_bitColumnFixed 一起使用。</p></li><li><p>JET_bitColumnUserDefinedDefault 與 JET_bitColumnNotNull 一起使用。</p></li><li><p>JET_bitColumnUserDefinedDefault 與 JET_bitColumnVersion 一起使用。</p></li><li><p>JET_bitColumnUserDefinedDefault 與 JET_bitColumnAutoincrement 一起使用。</p></li><li><p>JET_bitColumnUserDefinedDefault 與 JET_bitColumnUpdatable 一起使用。</p></li><li><p>JET_bitColumnUserDefinedDefault 與 JET_bitColumnEscrowUpdate 一起使用。</p></li><li><p>JET_bitColumnUserDefinedDefault 與 JET_bitColumnFinalize 一起使用。</p></li><li><p>JET_bitColumnUserDefinedDefault 與 JET_bitColumnDeleteOnZero 一起使用。</p></li><li><p>JET_bitColumnUserDefinedDefault 與 JET_bitColumnMaybeNull 一起使用。</p></li><li><p>JET_bitColumnUserDefinedDefault 是用於固定或變數) 的未標記資料行 (。</p></li></ul> | 
+| <p>JET_errMultiValuedColumnMustBeTagged</p> | <p>多值資料行 (JET_bitColumnMultiValued) 只能用在已加上標籤或 Long 值 (<a href="gg269213(v=exchg.10).md">JET_coltypLongBinary</a> 或 <a href="gg269213(v=exchg.10).md">JET_coltypLongText</a>) 資料行中。</p> | 
+| <p>JET_errCannotBeTagged</p> | <p>嘗試在資料行可能未標記時使用標記的資料行。 禁止標記的資料行的部分條件約束為：</p><ul><li><p> (JET_bitColumnEscrowUpdate) 的「保管更新資料行」不能用在已標記或長的值 (<a href="gg269213(v=exchg.10).md">JET_coltypLongBinary</a> 或 <a href="gg269213(v=exchg.10).md">JET_coltypLongText</a>) 資料行。</p></li><li><p>自動遞增資料行可能未標記。</p></li><li><p>可能未標記版本資料行。</p></li></ul> | 
+| <p>JET_errExclusiveTableLockRequired</p> | <p>此作業需要資料表的獨佔鎖定。</p> | 
+| <p>JET_wrnColumnMaxTruncated</p> | <p>指出固定或變數資料行 (<em>cbMax</em>) 長度上限大於 JET_cbColumnMost 的警告。 這項限制不適用於 <a href="gg269213(v=exchg.10).md">JET_coltypLongBinary</a> 和 <a href="gg269213(v=exchg.10).md">JET_coltypLongText</a>) 的 Long 值 (。</p> | 
+
 
 
 #### <a name="requirements"></a>規格需求
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>用戶端</strong></p></td>
-<td><p>需要 Windows Vista、Windows XP 或 Windows 2000 Professional。</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>伺服器</strong></p></td>
-<td><p>需要 Windows server 2008、Windows Server 2003 或 Windows 2000 Server。</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>標頭</strong></p></td>
-<td><p>宣告于 Esent. h 中。</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>程式庫</strong></p></td>
-<td><p>使用 ESENT。</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>DLL</strong></p></td>
-<td><p>需要 ESENT.dll。</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Unicode</strong></p></td>
-<td><p>實作為 <strong>JetAddColumnW</strong> (Unicode) 和 <strong>JetAddColumnA</strong> (ANSI) 。</p></td>
-</tr>
-</tbody>
-</table>
+
+| 需求 | 值 |
+|------------|----------|
+| <p><strong>用戶端</strong></p> | <p>需要 Windows Vista、Windows XP 或 Windows 2000 Professional。</p> | 
+| <p><strong>伺服器</strong></p> | <p>需要 Windows server 2008、Windows Server 2003 或 Windows 2000 Server。</p> | 
+| <p><strong>標頭</strong></p> | <p>宣告于 Esent. h 中。</p> | 
+| <p><strong>程式庫</strong></p> | <p>使用 ESENT。</p> | 
+| <p><strong>DLL</strong></p> | <p>需要 ESENT.dll。</p> | 
+| <p><strong>Unicode</strong></p> | <p>實作為 <strong>JetAddColumnW</strong> (Unicode) 和 <strong>JetAddColumnA</strong> (ANSI) 。</p> | 
+
 
 
 #### <a name="see-also"></a>另請參閱

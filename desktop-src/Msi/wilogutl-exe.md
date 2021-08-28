@@ -4,12 +4,12 @@ ms.assetid: 09aa03ba-992f-47ab-999b-ebdfe85c1ea7
 title: Wilogutl.exe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 74ee29553cba4105b5e6ff250f5b388adc964b9477bde5d1f25d073bbf2b1355
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d9958b91513dccc32f3bfc82ff781f65f166c208
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119786590"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122883858"
 ---
 # <a name="wilogutlexe"></a>Wilogutl.exe
 
@@ -21,7 +21,7 @@ Wilogutl.exe 有助於分析 Windows Installer 安裝中的記錄檔，並顯示
 
 ## <a name="syntax"></a>Syntax
 
-**wilogutl.exe***\[<options>\]\[<source file>\]\[<options>\]\[<report file directory>\]*
+**wilogutl.exe** *\[ &lt; 選項 &gt; \] \[ <source file> \] \[ &lt; 選項 &gt; \] \[ <report file directory> \]*
 
 您可以使用下列命令列以安靜模式執行。
 
@@ -35,7 +35,7 @@ Wilogutl.exe 使用下列不區分大小寫的命令列選項。 虛線分隔符
 
 
 
-| 選項 | 描述                                                                                                                                                                                     |
+| 選項 | 說明                                                                                                                                                                                     |
 |--------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 無   | 在 UI 模式中執行，不需要命令列選項。                                                                                                                                                   |
 | /q     | 指定無訊息模式。 Wilogutl.exe 會產生報表檔案，而且不會顯示使用者介面。                                                                                            |
@@ -50,73 +50,15 @@ Wilogutl.exe 使用下列不區分大小寫的命令列選項。 虛線分隔符
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>名稱</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Windows安裝程式詳細資訊記錄分析器</td>
-<td>Windows Installer 詳細資訊記錄分析器] 對話方塊可讓使用者選取要分析的記錄檔：
-<ul>
-<li>[<strong>開啟</strong>] 按鈕會在記事本中開啟檔案。 您可以使用預覽區域來確認已選取正確的記錄檔。</li>
-<li>[ <strong>分析</strong> ] 按鈕會開始記錄檔分析，並顯示詳細的 [記錄檔] 視圖對話方塊。</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>詳細記錄檔視圖</td>
-<td>[詳細記錄檔視圖] 對話方塊會顯示記錄的錯誤資訊。 使用 [<strong>上</strong><strong>一步] 和 [下一步]</strong>按鈕，流覽多個錯誤。 若要顯示非嚴重錯誤，請選取 [ <strong>顯示忽略的調試錯誤</strong> ] 核取方塊。 系統會顯示用來執行記錄安裝之電腦上的安裝程式版本。 如果使用較高的許可權來執行已記錄的安裝，則會選取 [提高許可權的 <strong>安裝</strong> ] 核取方塊，並在 [ <strong>用戶端許可權詳細資料</strong> ] 和 [ <strong>伺服器端許可權詳細資料</strong> ] 文字方塊中提供資訊。 [詳細記錄檔視圖] 對話方塊包含下列按鈕：<br/>
-<ul>
-<li><strong>狀態</strong> - 顯示 [功能和元件狀態] 對話方塊。</li>
-<li><strong>屬性</strong> - 顯示 [屬性] 對話方塊。</li>
-<li><strong>原則</strong> - 顯示 [原則] 對話方塊。</li>
-<li><strong>HTML 批註記錄</strong> - 檔將記錄顯示為批註的 HTML 檔案。</li>
-<li><strong>儲存結果</strong> - 將報表檔案儲存至指定的目錄。</li>
-<li><strong>錯誤訊息</strong> - 說明顯示安裝程式錯誤訊息說明。</li>
-<li><strong></strong>說明 -顯示 Windows Installer 安裝程式記錄分析器的說明。</li>
-<li><strong>如何讀取記錄</strong> - 檔顯示記錄檔說明文件。</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>功能和元件狀態</td>
-<td>[ <strong>功能和元件狀態</strong> ] 對話方塊會顯示功能和元件的狀態：
-<ul>
-<li>[ <strong>功能</strong> ] 欄會顯示安裝套件中的功能名稱。</li>
-<li>[ <strong>元件</strong> ] 欄會顯示安裝套件中的元件名稱。</li>
-<li>[ <strong>已安裝</strong> ] 欄會顯示安裝結束時的功能或元件狀態。</li>
-<li>[ <strong>要求</strong> ] 欄會在安裝功能或元件的狀態時，顯示使用者的選取專案。</li>
-<li>[ <strong>動作</strong> ] 欄會顯示安裝程式針對功能或元件所採取的動作。</li>
-</ul>
-如需詳細資訊，請參閱 <a href="/windows/desktop/api/Msiquery/nf-msiquery-msigetcomponentstatea"><strong>MsiGetComponentState</strong></a> 和 <a href="/windows/desktop/api/Msiquery/nf-msiquery-msigetfeaturestatea"><strong>MsiGetFeatureState</strong></a>。<br/></td>
-</tr>
-<tr class="even">
-<td>屬性</td>
-<td>[屬性] 對話方塊會在安裝結束時顯示 Windows Installer<a href="properties.md">屬性</a>及其值。 您可以依名稱或依值排序屬性：
-<ul>
-<li>[ <strong>客戶</strong> 端] 索引標籤會顯示安裝的用戶端部分的屬性和值。</li>
-<li>[ <strong>伺服器</strong> ] 索引標籤會顯示安裝期間伺服器部分的屬性和值。</li>
-<li>[ <strong>嵌套</strong> ] 索引標籤會顯示任何 <a href="concurrent-installations.md">並行安裝</a>的屬性和值。</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>原則</td>
-<td>[原則] 對話方塊會在安裝後顯示 <a href="system-policy.md">系統原則</a> 集：
-<ul>
-<li>針對原則設定 0 (零) 組值表示原則未啟用。</li>
-<li>值 1 (1) 表示已啟用原則。</li>
-<li>值為？  (問號) 表示原則值不會記錄在記錄檔中。</li>
-</ul>
-如果您需要的原則值不在記錄檔中，請嘗試使用 Regedit.exe 檢查電腦上的登錄機碼是否安裝失敗。<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Name | 描述 | 
+|------|-------------|
+| Windows安裝程式詳細資訊記錄分析器 | Windows Installer 詳細資訊記錄分析器] 對話方塊可讓使用者選取要分析的記錄檔：<ul><li>[<strong>開啟</strong>] 按鈕會在記事本中開啟檔案。 您可以使用預覽區域來確認已選取正確的記錄檔。</li><li>[ <strong>分析</strong> ] 按鈕會開始記錄檔分析，並顯示詳細的 [記錄檔] 視圖對話方塊。</li></ul> | 
+| 詳細記錄檔視圖 | [詳細記錄檔視圖] 對話方塊會顯示記錄的錯誤資訊。 使用 [<strong>上</strong><strong>一步] 和 [下一步]</strong>按鈕，流覽多個錯誤。 若要顯示非嚴重錯誤，請選取 [ <strong>顯示忽略的調試錯誤</strong> ] 核取方塊。 系統會顯示用來執行記錄安裝之電腦上的安裝程式版本。 如果使用較高的許可權來執行已記錄的安裝，則會選取 [提高許可權的 <strong>安裝</strong> ] 核取方塊，並在 [ <strong>用戶端許可權詳細資料</strong> ] 和 [ <strong>伺服器端許可權詳細資料</strong> ] 文字方塊中提供資訊。 [詳細記錄檔視圖] 對話方塊包含下列按鈕：<br /><ul><li><strong>狀態</strong> -顯示 [功能和元件狀態] 對話方塊。</li><li><strong>屬性</strong> -顯示內容對話方塊。</li><li><strong>原則</strong> -顯示原則對話方塊。</li><li><strong>Html 批註記錄</strong> 檔-顯示記錄檔，表示為批註的 html 檔案。</li><li><strong>儲存結果</strong> -將報表檔案儲存至指定的目錄。</li><li><strong>錯誤訊息</strong> 說明-顯示安裝程式錯誤訊息說明。</li><li>說明-顯示 Windows Installer 安裝程式記錄<strong>分析器的說明</strong>。</li><li><strong>如何讀取記錄</strong> 檔-顯示記錄檔說明文件。</li></ul> | 
+| 功能和元件狀態 | [ <strong>功能和元件狀態</strong> ] 對話方塊會顯示功能和元件的狀態：<ul><li>[ <strong>功能</strong> ] 欄會顯示安裝套件中的功能名稱。</li><li>[ <strong>元件</strong> ] 欄會顯示安裝套件中的元件名稱。</li><li>[ <strong>已安裝</strong> ] 欄會顯示安裝結束時的功能或元件狀態。</li><li>[ <strong>要求</strong> ] 欄會在安裝功能或元件的狀態時，顯示使用者的選取專案。</li><li>[ <strong>動作</strong> ] 欄會顯示安裝程式針對功能或元件所採取的動作。</li></ul>如需詳細資訊，請參閱 <a href="/windows/desktop/api/Msiquery/nf-msiquery-msigetcomponentstatea"><strong>MsiGetComponentState</strong></a> 和 <a href="/windows/desktop/api/Msiquery/nf-msiquery-msigetfeaturestatea"><strong>MsiGetFeatureState</strong></a>。<br /> | 
+| 屬性 | [屬性] 對話方塊會在安裝結束時顯示 Windows Installer<a href="properties.md">屬性</a>及其值。 您可以依名稱或依值排序屬性：<ul><li>[ <strong>客戶</strong> 端] 索引標籤會顯示安裝的用戶端部分的屬性和值。</li><li>[ <strong>伺服器</strong> ] 索引標籤會顯示安裝期間伺服器部分的屬性和值。</li><li>[ <strong>嵌套</strong> ] 索引標籤會顯示任何 <a href="concurrent-installations.md">並行安裝</a>的屬性和值。</li></ul> | 
+| 原則 | [原則] 對話方塊會在安裝後顯示 <a href="system-policy.md">系統原則</a> 集：<ul><li>針對原則設定 0 (零) 組值表示原則未啟用。</li><li>值 1 (1) 表示已啟用原則。</li><li>值為？  (問號) 表示原則值不會記錄在記錄檔中。</li></ul>如果您需要的原則值不在記錄檔中，請嘗試使用 Regedit.exe 檢查電腦上的登錄機碼是否安裝失敗。<br /> | 
+
 
 
 
@@ -130,7 +72,7 @@ Wilogutl.exe 使用下列不區分大小寫的命令列選項。 虛線分隔符
 
 
 
-| 名稱                      | 描述                                                                                                                    |
+| Name                      | 描述                                                                                                                    |
 |---------------------------|--------------------------------------------------------------------------------------------------------------------------------|
 | logfilename \_summary.txt  | 摘要說明記錄檔。 列出詳細記錄檔視圖對話方塊和第一個錯誤所顯示的資訊。         |
 | logfilename \_errors.txt   | 識別錯誤的數目、錯誤和建議的解決方案。 此檔案會列出重大和非重大錯誤。 |

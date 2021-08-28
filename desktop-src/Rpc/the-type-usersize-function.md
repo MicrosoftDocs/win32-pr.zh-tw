@@ -6,16 +6,16 @@ keywords:
 - type_UserSize
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a5b7c5d0918489dbc41baaa4e799aa1dbbda67723cf8104e0641ced24b9b5bf6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e2f997d12e11f643eb2faf9990454a8508d15636
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118923538"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122886049"
 ---
 # <a name="the-type_usersize-function"></a>型別 \_ UserSize 函式
 
-**<type> \_ UserSize** 函式是適用于 \[ [有線 \_ 封送](/windows/desktop/Midl/wire-marshal)處理 \] 和 \[ [使用者 \_ 封送](/windows/desktop/Midl/user-marshal)處理屬性的 helper 函數 \] 。 在用戶端或伺服器端將資料封送處理之前，存根會呼叫這個函式來調整使用者資料物件的 RPC 資料緩衝區大小。 函式定義如下：
+**&lt; 型別 &gt; \_ UserSize** 函式是適用于 \[ [有線 \_ 封送](/windows/desktop/Midl/wire-marshal)處理 \] 和 \[ [使用者 \_ 封送](/windows/desktop/Midl/user-marshal)處理屬性的 helper 函數 \] 。 在用戶端或伺服器端將資料封送處理之前，存根會呼叫這個函式來調整使用者資料物件的 RPC 資料緩衝區大小。 函式定義如下：
 
 ``` syntax
 unsigned long __RPC_USER  <type>_UserSize(
@@ -24,7 +24,7 @@ unsigned long __RPC_USER  <type>_UserSize(
     <type>  __RPC_FAR *pMyObj);
 ```
 
-函 <type> 式名稱中的表示 userm 類型，如 **\[ 有線 \_ 封 \] 送** 處理或 **\[ 使用者 \_ 封送 \]** 處理類型定義中所指定。 這種類型在與 **\[ 使用者 \_ 封送 \]** 處理屬性（attribute）搭配使用時，可能是 UNTRANSMITTABLE 或甚至是： MIDL 編譯器的未知。 網路類型名稱 (在網路) 傳輸的類型名稱，不會用在函式原型中。 不過，請注意，網路類型會定義憑證 DCE 所指定之資料的版面配置。 所有資料都必須轉換成 (NDR) 格式的網路資料標記法。
+函 &lt; &gt; 式名稱中的型別代表 userm 類型，如「 **\[ 有線 \_ 封 \] 送** 處理」或「 **\[ 使用者 \_ 封送 \]** 處理」類型定義中所指定。 這種類型在與 **\[ 使用者 \_ 封送 \]** 處理屬性（attribute）搭配使用時，可能是 UNTRANSMITTABLE 或甚至是： MIDL 編譯器的未知。 網路類型名稱 (在網路) 傳輸的類型名稱，不會用在函式原型中。 不過，請注意，網路類型會定義憑證 DCE 所指定之資料的版面配置。 所有資料都必須轉換成 (NDR) 格式的網路資料標記法。
 
 *PFlags* 參數是不 **帶正負** 號的長旗標欄位的指標。 旗標的上半部包含憑證 DCE 針對浮點數、位元組順序和字元標記法所定義的 NDR 格式旗標。 下方的單字包含由 COM 通道所定義的封送處理內容旗標。 下表會顯示欄位內旗標的確切版面配置。
 
@@ -54,9 +54,9 @@ unsigned long __RPC_USER  <type>_UserSize(
 
 傳回值是新的位移或緩衝區位置。 函數應該會傳回累計大小，也就是開始大小加上可能的填補加上資料大小。
 
-**<type> \_ UserSize** 函數可以傳回所需大小的高估值。 傳送緩衝區的實際大小是由資料大小所定義，而不是由緩衝區配置大小所定義。
+**&lt; 型別 &gt; \_ UserSize** 函式可以傳回所需大小的高估值。 傳送緩衝區的實際大小是由資料大小所定義，而不是由緩衝區配置大小所定義。
 
-如果可以在編譯時期計算網路大小，則不會呼叫 **<type> \_ UserSize** 函數。 請注意，對於大部分的等位，即使沒有指標，也只能在執行時間決定網路標記法的實際大小。
+如果可以在編譯時期計算網路大小，則不會呼叫 **&lt; 類型 &gt; \_ UserSize** 函式。 請注意，對於大部分的等位，即使沒有指標，也只能在執行時間決定網路標記法的實際大小。
 
 ## <a name="related-topics"></a>相關主題
 

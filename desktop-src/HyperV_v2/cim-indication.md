@@ -21,12 +21,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 46b8d50f2e90d9a51c8ffa0b93de9ac16c889340
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e859e7834a051bad0a5ea402e8bd6c3685b5ad54
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106982386"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122883527"
 ---
 # <a name="cim_indication-class"></a>CIM \_ 指示類別
 
@@ -91,10 +91,10 @@ class CIM_Indication : __ExtrinsicEvent
 
 處理指示之指示篩選準則的識別碼。 傳送服務會設定這個屬性。 這個屬性會與 **CIM \_ IndicationFilter** 物件的 **Name** 屬性相互關聯。 **IndicationFilterName** 的值應使用下列格式：
 
--   *<OrgID>*:*<LocalID>*
--   *<OrgID>* 必須包含擁有該物件之商務實體所擁有的受著作權、商標或唯一名稱。
--   *<OrgID>* 不得包含冒號 (： ) 
--   *<LocalID>* 擁有物件之商務實體所選擇的唯一識別碼。
+-   *&lt; OrgID &gt;*：*&lt; LocalID &gt;*
+-   *&lt; OrgID &gt;* 必須包含擁有該物件之商務實體所擁有的受著作權、商標或唯一名稱。
+-   *&lt; OrgID &gt;* 不能包含冒號 (： ) 
+-   *&lt; LocalID &gt;* 擁有物件之商務實體所選擇的唯一識別碼。
 
 </dd> <dt>
 
@@ -114,11 +114,11 @@ class CIM_Indication : __ExtrinsicEvent
 
 若要確保 **IndicationIdentifier** 是唯一的，應該使用下列格式：
 
--   *<OrgID>*:*<LocalID>*
--   *<OrgID>* 必須包含擁有該物件之商務實體所擁有的受著作權、商標或唯一名稱。
--   *<OrgID>* 不得包含冒號 (： ) 
--   *<LocalID>* 擁有物件之商務實體所選擇的唯一識別碼。
--   針對 DMTF 定義的實例， *<OrgID>* 應該設為 "CIM"。
+-   *&lt; OrgID &gt;*：*&lt; LocalID &gt;*
+-   *&lt; OrgID &gt;* 必須包含擁有該物件之商務實體所擁有的受著作權、商標或唯一名稱。
+-   *&lt; OrgID &gt;* 不能包含冒號 (： ) 
+-   *&lt; LocalID &gt;* 擁有物件之商務實體所選擇的唯一識別碼。
+-   針對 DMTF 定義的實例， *&lt; OrgID &gt;* 應該設定為 "CIM"。
 
 </dd> <dt>
 

@@ -4,12 +4,12 @@ ms.assetid: 3b5f4360-887a-4a21-8f16-faa84da34328
 title: 'UpgradedFilesToIgnore 資料表 (Patchwiz.dll) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2f51143fcf7db350d5ee8aa1e43d49984914bcf9f05a2f8f5f787834a69b7e1a
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 4b3af0a4a8c3385c2d028cdb66ad276d3f480ca8
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119809548"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122884492"
 ---
 # <a name="upgradedfilestoignore-table-patchwizdll"></a>UpgradedFilesToIgnore 資料表 (Patchwiz.dll) 
 
@@ -42,7 +42,7 @@ UpgradedImages 資料表的升級資料行的外鍵 [ (Patchwiz.dll) ](upgradedi
 <span id="FTK"></span><span id="ftk"></span>FTK
 </dt> <dd>
 
-已升級之影像的檔案 [資料表](file-table.md) 中的外鍵。 格式為 "" 的值 <prefix> \* 會符合檔案資料表中以該前置詞開頭的所有檔案資料表索引鍵。 星號後面不能有任何文字。
+已升級之影像的檔案 [資料表](file-table.md) 中的外鍵。 "Prefix" 形式的值 &lt; &gt; \* 符合檔案資料表中以該前置詞開頭的所有檔案資料表索引鍵。 星號後面不能有任何文字。
 
 </dd> </dl>
 

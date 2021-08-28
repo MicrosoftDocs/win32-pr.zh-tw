@@ -17,12 +17,12 @@ keywords:
 - 元素，主題
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 499444ee2093e743f58174797794a50fbf74555a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 51bcb18a9d56a8780e56d81d6de60ca269036c72
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840711"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122883716"
 ---
 # <a name="start-with-theme-and-view"></a>開始使用主題和視圖
 
@@ -50,9 +50,9 @@ ms.locfileid: "103840711"
 
 使用您想要的任何檔案名來儲存您的檔案，但請確定副檔名為 wms。 例如，一般的檔案名可能是 skinone。
 
-每個面板的開頭都必須是 <THEME> ，並以結尾 </THEME>。 您的面板中只能有一個 **主題** 元素，但您必須有一個。
+每個外觀都必須以 &lt; 主題開頭 &gt; ，並以結尾 </THEME> 。 您的面板中只能有一個 **主題** 元素，但您必須有一個。
 
-您也必須有至少一個 **VIEW** 元素。 您可以有一個以上的 **視圖**，但這個範例只有一個。 您必須有開頭 <VIEW> 和結尾 <VIEW>。請注意，開頭 </VIEW> 標記不會立即關閉標記，但會在右角括弧 (>) 之前包含數個屬性。 下列屬性用於此範例中的 **主題** 元素：
+您也必須有至少一個 **VIEW** 元素。 您可以有一個以上的 **視圖**，但這個範例只有一個。 您必須有開啟的 &lt; 視圖 &gt; 和關閉 &lt; 視圖 &gt; 。 請注意，開頭 &lt; /VIEW &gt; 標記不會立即關閉標記，但會在右角括弧 (>) 之前包含數個屬性。 下列屬性用於此範例中的 **主題** 元素：
 
 **clippingColor**
 
@@ -75,9 +75,9 @@ ms.locfileid: "103840711"
 [**建立外觀定義檔**](creating-the-skin-definition-file.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -5,16 +5,16 @@ ms.tgt_platform: multiple
 title: 建立 WMI 用戶端
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6dd6d89c63218ffd20ef66b2115e581bdb9c4373
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 95123d4462408a25591df2babb8b1ddd83942e5e
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106978896"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122883055"
 ---
 # <a name="creating-wmi-clients"></a>建立 WMI 用戶端
 
-WMI 提供標準化的系統管理基礎結構，可供許多不同的用戶端運用。 這些用戶端的範圍從 wmic.exe 命令列工具到 System Center Operations Manager。 您可以使用 WMI 腳本 API、原生 c + + API，或使用 System. 管理 .NET Framework 類別庫命名空間中的類型，來撰寫自己的 WMI 用戶端。
+WMI 提供標準化的系統管理基礎結構，可供許多不同的用戶端運用。 這些用戶端的範圍從 wmic.exe 命令列工具到 System Center Operations Manager。 您可以使用 wmi 腳本 API、原生 c + + api，或使用 System. 管理 .NET Framework 類別庫命名空間中的類型，來撰寫自己的 wmi 用戶端。
 
 ## <a name="how-to-create-a-wmi-client"></a>如何建立 WMI 用戶端
 
@@ -24,8 +24,8 @@ WMI 的核心功能包括從 WMI 存放庫中取出物件，以及檢查這些�
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -39,7 +39,7 @@ WMI 的核心功能包括從 WMI 存放庫中取出物件，以及檢查這些�
 <td>WMI 和 PowerShell 緊密整合;因此，使用 PowerShell 來抓取 WMI 物件只需要呼叫 Get-WmiObject Cmdlet。 請注意，為了保持一致性，第一個程式碼片段會明確陳述許多預設值;第二個假設預設值是正確的。<br/> <span data-codelanguage="PowerShell"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -67,7 +67,7 @@ Get-WmiObject Win32_ComputerSystem | Format-Table &quot;Name&quot;</code></pre><
 <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -95,7 +95,7 @@ Next</code></pre></td>
 <span data-codelanguage="CSharp"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -107,7 +107,7 @@ Next</code></pre></td>
 <td><pre><code>using Microsoft.Management.Infrastructure;
 ...
 CimSession session = CimSession.Create(&quot;localHost&quot;);
-IEnumerable<CimInstance> queryInstance = session.QueryInstances(@&quot;root\cimv2&quot;, &quot;WQL&quot;, &quot;SELECT * FROM Win32_ComputerSystem&quot;);
+IEnumerable&lt;CimInstance&gt; queryInstance = session.QueryInstances(@&quot;root\cimv2&quot;, &quot;WQL&quot;, &quot;SELECT * FROM Win32_ComputerSystem&quot;);
 
 foreach (CimInstance cimObj in queryInstance)
 {
@@ -126,7 +126,7 @@ foreach (CimInstance cimObj in queryInstance)
 <span data-codelanguage="CSharp"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -138,7 +138,7 @@ foreach (CimInstance cimObj in queryInstance)
 <td><pre><code>using Microsoft.Management.Infrastructure;
 ...
 CimSession session = CimSession.Create(&quot;localHost&quot;);
-IEnumerable<CimInstance> queryInstance = session.QueryInstances(@&quot;root\cimv2&quot;, &quot;WQL&quot;, &quot;SELECT * FROM Win32_ComputerSystem&quot;);
+IEnumerable&lt;CimInstance&gt; queryInstance = session.QueryInstances(@&quot;root\cimv2&quot;, &quot;WQL&quot;, &quot;SELECT * FROM Win32_ComputerSystem&quot;);
 
 foreach (CimInstance cimObj in queryInstance)
 {
@@ -170,7 +170,7 @@ foreach (CimInstance cimObj in queryInstance)
 | [接收 WMI 事件](receiving-a-wmi-event.md)                                                           | 說明如何查看 WMI 事件。                                                                                                                                                              |
 | [監視事件](monitoring-events.md)                                                                   | 描述如何監視 WMI 事件。                                                                                                                                                           |
 | [使用 WQL 查詢](querying-with-wql.md)                                                                   | 介紹 (WQL) 的 WMI 查詢語言。                                                                                                                                                       |
-| [查詢選用功能的狀態](querying-the-status-of-optional-features.md)                     | 在 Windows 7 中，WMI 已實作為 [**Win32 \_ OptionalFeature**](/windows/desktop/CIMWin32Prov/win32-optionalfeature) 類別。 此類別會抓取存在於電腦上之選用功能的狀態。 |
+| [查詢選用功能的狀態](querying-the-status-of-optional-features.md)                     | 在 Windows 7 中，WMI 已實作為 [**Win32 \_ OptionalFeature**](/windows/desktop/CIMWin32Prov/win32-optionalfeature)類別。 此類別會抓取存在於電腦上之選用功能的狀態。 |
 | [描述 WMI 物件的位置](describing-the-location-of-a-wmi-object.md)                       | 著重于描述 WMI 受管理實體位置的語法。                                                                                                                     |
 | [使用 WMI 存取其他作業系統功能](accessing-other-operating-system-features-with-wmi.md) | 說明如何撰寫可存取設備磁碟機、Active Directory 和 SNMP 裝置的 WMI 用戶端。                                                                                             |
 | [存取 Interop 命名空間中的資料](accessing-data-in-the-interop-namespace.md)                       | 關聯提供者可讓 Windows Management Instrumentation (WMI) 用戶端，以從不同的命名空間來進行設定檔和相關聯的類別實例。                      |

@@ -8,17 +8,17 @@ keywords:
 - 套用 DirectComposition 動畫
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d83f01ba00e750b6a06aa13246ef1616635f415a
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: ecba1bde3c430acbb49f640dc7611452f0967746
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104023859"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122474224"
 ---
 # <a name="how-to-apply-animations"></a>如何套用動畫
 
 > [!NOTE]
-> 針對 Windows 10 上的應用程式，我們建議使用 DirectComposition，而不是使用。 如需詳細資訊，請參閱 [使用視覺分層將您的桌面應用程式現代化](/windows/uwp/composition/visual-layer-in-desktop-apps)。
+> 針對 Windows 10 上的應用程式，我們建議使用 Windows 的撰寫 api，而不是 DirectComposition。 如需詳細資訊，請參閱 [使用視覺分層將您的桌面應用程式現代化](/windows/uwp/composition/visual-layer-in-desktop-apps)。
 
 本主題示範如何使用 Microsoft DirectComposition 以動畫顯示視覺效果的屬性。 本主題中的範例會以動畫顯示視覺效果的效果屬性，使得視覺效果的透明度從零 (透明) 變更為一個 (完全不透明的) 在兩秒鐘的期間內。
 
@@ -96,42 +96,19 @@ hr = m_pDevice->CreateEffectGroup(&m_pEffectGroup);
 
 <span codelanguage="ManagedCPlusPlus"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>C++</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>if (SUCCEEDED(hr))
-{
-    hr = m_pEffectGroup->SetOpacity(m_pFadeInAnimation);
-}</code></pre></td>
-</tr>
-</tbody>
-</table>
+
+| C++ | 
+|-----|
+| <pre><code>if (SUCCEEDED(hr)){    hr = m_pEffectGroup-&gt;SetOpacity(m_pFadeInAnimation);}</code></pre> | 
+
 
 <span codelanguage="ManagedCPlusPlus"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>C++</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>hr = m_pVisual->SetEffect(m_pEffectGroup);</code></pre></td>
-</tr>
-</tbody>
-</table>
+
+| C++ | 
+|-----|
+| <pre><code>hr = m_pVisual-&gt;SetEffect(m_pEffectGroup);</code></pre> | 
+
 
 
 
@@ -1011,6 +988,6 @@ HRESULT DemoApp::GetImageFilenames(TCHAR szDir[MAX_PATH])
 [動畫](animation.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

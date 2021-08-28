@@ -4,12 +4,12 @@ description: 本文提供在 Windows 上執行之遊戲的技術需求和最佳�
 ms.assetid: 8b816e9f-de68-cf84-1501-a9c36c6b75d8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a0723c5da09d011111b0064ef689025d7ddcac85
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.openlocfilehash: e9a5c1480f8ef5ef67a2bd2b998e0dcbe28ed397
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122887055"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122482114"
 ---
 # <a name="games-for-windows-technical-requirements-best-practices-for-games-on-windows-xp-windows-vista-windows-7-and-windows-8"></a>Windows 技術需求的遊戲： Windows XP、Windows Vista、Windows 7 和 Windows 8 遊戲的最佳作法
 
@@ -402,7 +402,7 @@ Windows Vista 和 Windows 7 的核心圖形架構是在 Direct3D 周圍設計的
 
 當 (DPI) 縮放時，遊戲和其安裝程式必須正確地執行，而不會發生視覺問題 (以 144 DPI 進行測試，並在 Windows Vista 和 Windows 7 上以 1600 1200) 的顯示解析度150進行縮放。
 
-這通常需要遊戲可執行檔宣告為 DPI 感知。 這是藉由內嵌資訊清單元素來達成： &lt; DPIAware &gt; true &lt; DPIAware &gt; 。
+這通常需要遊戲可執行檔宣告為 DPI 感知。 這是藉由內嵌資訊清單元素來達成： <dpiAware> true <dpiAware> 。
 
 </dd> <dt>
 

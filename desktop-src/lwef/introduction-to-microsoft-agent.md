@@ -6,12 +6,12 @@ keywords:
 - Microsoft 代理程式，簡介
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2532187df7cf894ebc1395038bf3092e3fb04ff2240d2c7a83cab7d7cf0da4be
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 74169ce1e4dbd98e1e0589bca35f93cad0aea1a9
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118749228"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122885184"
 ---
 # <a name="introduction-to-microsoft-agent"></a>Microsoft 代理程式簡介
 
@@ -23,7 +23,7 @@ Microsoft 代理程式可讓軟體發展人員和 Web 作者納入新形式的�
 
 Microsoft 代理程式服務所能促進的對話式介面方法，不會取代 (GUI) 設計的傳統圖形化使用者介面。 相反地，字元互動很容易與傳統介面元件（例如 windows、功能表和控制項）混合使用，以擴充和增強您的應用程式介面。
 
-Microsoft 代理程式的程式設計介面可讓您輕鬆地建立字元的動畫，以回應使用者輸入。 動畫字元會出現在自己的視窗中，提供可在螢幕上顯示的最大彈性。 Microsoft Agent 包含 ActiveX 控制項，可讓支援 ActiveX 的程式設計語言存取其服務，包括 Web 指令碼語言，例如 Visual Basic 腳本撰寫版 (VBScript) 。 這表示即使是使用標記的 HTML 網頁，也可以使用程式設計字元互動 <OBJECT> 。
+Microsoft 代理程式的程式設計介面可讓您輕鬆地建立字元的動畫，以回應使用者輸入。 動畫字元會出現在自己的視窗中，提供可在螢幕上顯示的最大彈性。 Microsoft Agent 包含 ActiveX 控制項，可讓支援 ActiveX 的程式設計語言存取其服務，包括 Web 指令碼語言，例如 Visual Basic 腳本撰寫版 (VBScript) 。 這表示即使是使用物件標記的 HTML 網頁，也可以使用程式設計字元互動 &lt; &gt; 。
 
 在下列連結中尋找適用于 Windows Vista 的 Microsoft 代理程式語音和語音辨識功能的變更。
 
