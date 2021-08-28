@@ -15,12 +15,12 @@ keywords:
 - IWMPContentContainer
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 801816c3e26920f3d0869190fc1101d6017a524e
-ms.sourcegitcommit: b04e152a7f51618fc174ffa872654623fe088db2
+ms.openlocfilehash: c582a04bd37e54a40f952402343c09fb7243fc07377ef7f507cc76f11390357c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "106969093"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120123678"
 ---
 # <a name="content-containers"></a>內容容器
 
@@ -41,9 +41,9 @@ Windows Media Player 使用內容容器來代表訂用帳戶下載或購買交�
 [**IWMPContentContainerList 介面**](/previous-versions/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentcontainerlist)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

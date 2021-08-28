@@ -4,12 +4,12 @@ ms.assetid: 48fa5484-1f8c-4133-b2e1-888cb1834402
 title: 第21行解碼篩選
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9951cd8e6093131d45597d1a89c32c36222eb20a
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.openlocfilehash: 3b0668d4b71b8dcccf4ceacf7f5428fa7a65ad52
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122986461"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122468235"
 ---
 # <a name="line-21-decoder-filter"></a>第21行解碼篩選
 
@@ -41,18 +41,7 @@ ms.locfileid: "122986461"
 
 
 
-| 標籤 | 值 |
-|--------|-------|
-| 篩選介面 | <a href="/previous-versions/windows/desktop/api/il21dec/nn-il21dec-iamline21decoder"><strong>IAMLine21Decoder</strong></a>、 <a href="/windows/desktop/api/Strmif/nn-strmif-ibasefilter"> <strong>IBaseFilter</strong></a> | 
-| 輸入 Pin 媒體類型 | 主要類型： MEDIATYPE_AUXLine21DataSubtype：<br /><ul><li>MEDIASUBTYPE_Line21_BytePair (標準行 21) </li><li>MEDIASUBTYPE_Line21_GOPPacket (DVD 行 21) </li></ul>格式類型： FORMAT_VideoInfo 或 GUID_Null<br /> | 
-| 輸入 Pin 介面 | <a href="/windows/desktop/api/Strmif/nn-strmif-imeminputpin"><strong>IMemInputPin</strong></a>、 <a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPin</strong></a>、 <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>IQualityControl</strong></a> | 
-| 輸出 Pin 媒體類型 | 主要類型： MEDIATYPE_VideoSubtype：<br /><ul><li>MEDIASUBTYPE_RGB8</li><li>MEDIASUBTYPE_RGB555</li><li>MEDIASUBTYPE_RGB565</li><li>MEDIASUBTYPE_RGB24</li><li>MEDIASUBTYPE_RGB32</li></ul>格式類型： FORMAT_VideoInfo<br /> | 
-| 輸出 Pin 介面 | <a href="/windows/desktop/api/Control/nn-control-imediaposition"><strong>IMediaPosition</strong></a>、 <a href="/windows/desktop/api/Strmif/nn-strmif-imediaseeking"><strong>IMediaSeeking</strong></a>、 <a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPin</strong></a>、 <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>IQualityControl</strong></a> | 
-| 篩選 CLSID | 請參閱上表 | 
-| 屬性頁 CLSID | 無 | 
-| 可執行檔 | qdvd.dll | 
-| <a href="merit.md">優點</a> | 第21行： MERIT_NORMALLine 21 的解碼器2： MERIT_NORMAL + 2<br /> | 
-| <a href="filter-categories.md">篩選準則分類</a> | CLSID_LegacyAmFilterCategory | 
+| | |篩選介面 | <a href="/previous-versions/windows/desktop/api/il21dec/nn-il21dec-iamline21decoder"><strong>IAMLine21Decoder</strong></a>、 <a href="/windows/desktop/api/Strmif/nn-strmif-ibasefilter"><strong>IBaseFilter</strong></a> | |輸入 Pin 媒體類型 |主要類型： MEDIATYPE_AUXLine21DataSubtype：<br /><ul><li>MEDIASUBTYPE_Line21_BytePair (標準行 21) </li><li>MEDIASUBTYPE_Line21_GOPPacket (DVD 行 21) </li></ul>格式類型： FORMAT_VideoInfo 或 GUID_Null<br /> | |輸入 Pin 介面 | <a href="/windows/desktop/api/Strmif/nn-strmif-imeminputpin"><strong>IMemInputPin</strong></a>、 <a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPin</strong></a>、 <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>IQualityControl</strong></a> | |輸出釘選媒體類型 |主要類型： MEDIATYPE_VideoSubtype：<br /><ul><li>MEDIASUBTYPE_RGB8</li><li>MEDIASUBTYPE_RGB555</li><li>MEDIASUBTYPE_RGB565</li><li>MEDIASUBTYPE_RGB24</li><li>MEDIASUBTYPE_RGB32</li></ul>格式類型： FORMAT_VideoInfo<br /> | |輸出 Pin 介面 | <a href="/windows/desktop/api/Control/nn-control-imediaposition"><strong>IMediaPosition</strong></a>、 <a href="/windows/desktop/api/Strmif/nn-strmif-imediaseeking"><strong>IMediaSeeking</strong></a>、 <a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPin</strong></a>、 <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>IQualityControl</strong></a> | |篩選 CLSID |請參閱上表 | |屬性頁 CLSID |無 | |可執行檔 |qdvd.dll | | <a href="merit.md">業績</a> |第21行： MERIT_NORMALLine 21 的解碼器2： MERIT_NORMAL + 2<br /> | | <a href="filter-categories.md">篩選準則類別</a> |CLSID_LegacyAmFilterCategory | 
 
 
 

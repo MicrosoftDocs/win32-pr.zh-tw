@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b6affa3e0727972e66e1ab6584c94ec233a11655
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ea028777580f7414a834a0aa3e73e18db607eccd
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106976000"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122471984"
 ---
 # <a name="wmt_videoimage_transition_diagonal"></a>WMT \_ VIDEOIMAGE \_ 轉換 \_ 對角線
 
@@ -31,52 +31,14 @@ ms.locfileid: "106976000"
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>參數</th>
-<th>結構成員</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>寬度</td>
-<td><strong>fEffectPara0</strong></td>
-<td>對角線區段的寬度（以圖元為單位）。</td>
-</tr>
-<tr class="even">
-<td>高度</td>
-<td><strong>fEffectPara1</strong></td>
-<td>對角線區段的高度（以圖元為單位）。</td>
-</tr>
-<tr class="odd">
-<td>方向</td>
-<td><strong>fEffectPara2</strong></td>
-<td>決定轉換來源的邊角。設定為下列其中一項：<br/>
-<ul>
-<li>0-右上</li>
-<li>1-左上</li>
-<li>2-右下</li>
-<li>3-左下角</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>Composition</td>
-<td><strong>fEffectPara3</strong></td>
-<td>設定為下列其中一個值：
-<ul>
-<li>0-指定一般組合，其中上一個影像是背景，而目前影像是前景。</li>
-<li>1-指定反轉組合，其中目前影像是背景影像，而上一個影像是前景。</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| 參數 | 結構成員 | Description | 
+|-----------|------------------|-------------|
+| 寬度 | <strong>fEffectPara0</strong> | 對角線區段的寬度（以圖元為單位）。 | 
+| 高度 | <strong>fEffectPara1</strong> | 對角線區段的高度（以圖元為單位）。 | 
+| 方向 | <strong>fEffectPara2</strong> | 決定轉換來源的邊角。設定為下列其中一項：<br /><ul><li>0-右上</li><li>1-左上</li><li>2-右下</li><li>3-左下角</li></ul> | 
+| Composition | <strong>fEffectPara3</strong> | 設定為下列其中一個值：<ul><li>0-指定一般組合，其中上一個影像是背景，而目前影像是前景。</li><li>1-指定反轉組合，其中目前影像是背景影像，而上一個影像是前景。</li></ul> | 
+
 
 
 

@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 85e1b7d396d125add00824e9b7c94086e0da6be2
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: c71e3c7b45bdd84b2e335c47d46e90a3130c8912
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108090126"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122626714"
 ---
 # <a name="span-idvspixenginecallbackcommandtypespancallbackcommandtype-enumeration"></a><span id="vspixengine.callbackcommandtype"></span>CallbackCommandType 列舉
 
@@ -59,14 +59,14 @@ ms.locfileid: "108090126"
 值，這個值表示當已捕捉新框架並可供顯示時，所要呼叫的回呼。
 
 <span id="BeginCommunicationCallbackLegacy"></span><span id="begincommunicationcallbacklegacy"></span><span id="BEGINCOMMUNICATIONCALLBACKLEGACY"></span>**BeginCommunicationCallbackLegacy**  
-在 Windows 7 和 Windows 8 上使用的舊版 BeginCommunication 結果。
+Windows 7 和 Windows 8 上使用的舊版 BeginCommunication 結果。
 
 <span id="RunExperimentStatusCallback"></span><span id="runexperimentstatuscallback"></span><span id="RUNEXPERIMENTSTATUSCALLBACK"></span>**RunExperimentStatusCallback**  
 來自 RunExperiementProgress 的結果。
 
 ## <a name="requirements"></a>規格需求
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>標頭</p></td><td>Vspixengine。h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>標頭</p></td><td>Vspixengine。h</td></tr></tbody></table>
 
  
 

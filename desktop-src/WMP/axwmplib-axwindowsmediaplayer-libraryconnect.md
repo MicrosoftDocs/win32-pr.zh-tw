@@ -14,12 +14,12 @@ api_type:
 - Assembly
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c33353b8438c61e28a3d52975fe90b06f14f03a4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 940eed16004009e928309ae1a2e5d8f792b9fd0cb36fe8e836abfefb89e3ab95
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106993229"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120123948"
 ---
 # <a name="libraryconnect-event-of-the-axwindowsmediaplayer-object"></a>AxWindowsMediaPlayer 物件的 LibraryConnect 事件
 

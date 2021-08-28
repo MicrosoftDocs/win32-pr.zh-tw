@@ -1,5 +1,5 @@
 ---
-description: <folderType>元素指定資料夾類型的 GUID。 如果專案存在，則需要這個元素 <templateInfo> ，否則它是選擇性的。 此元素沒有屬性和子項目。
+description: '&lt;FolderType &gt; 元素會指定資料夾類型的 GUID。 如果 &lt; templateInfo 元素存在，則需要這個元素 &gt; ，否則它是選擇性的。 此元素沒有屬性和子項目。'
 title: 'folderType 元素 (程式庫架構) '
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,16 +9,16 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 8d35f09a10cc88ae3873a507b6fa7000812503890240ce0b808ffecc84f23fd8
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ba9d0163a00ab525fb0a52267c1226b6a48230a4
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119883948"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122880864"
 ---
 # <a name="foldertype-element-library-schema"></a>folderType 元素 (程式庫架構) 
 
-<folderType>元素指定資料夾類型的 GUID。 如果專案存在，則需要這個元素 <templateInfo> ，否則它是選擇性的。 此元素沒有屬性和子項目。
+&lt;FolderType &gt; 元素會指定資料夾類型的 GUID。 如果 &lt; templateInfo 元素存在，則需要這個元素 &gt; ，否則它是選擇性的。 此元素沒有屬性和子項目。
 
 ## <a name="syntax"></a>Syntax
 

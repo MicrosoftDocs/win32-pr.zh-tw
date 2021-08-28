@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Mssign32.dll
-ms.openlocfilehash: 538b92160ddbbb9ca9515a65575fdea67990de5e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7eb5c19292b451b1a3d0265da4bb178eafcc6f00
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111973"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122468555"
 ---
 # <a name="signertimestampex3-function"></a>SignerTimeStampEx3 函式
 
@@ -60,33 +60,12 @@ HRESULT WINAPI SignerTimeStampEx3(
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>值</th>
-<th>意義</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><span id="SIGNER_TIMESTAMP_AUTHENTICODE"></span><span id="signer_timestamp_authenticode"></span><dl> <dt><strong>SIGNER_TIMESTAMP_AUTHENTICODE</strong></dt> </dl></td>
-<td>指定 Authenticode 時間戳記。<br/>
-<blockquote>
-[!Note]<br />
-Authenticode 不再是慣用的時間戳記類型。 未來可能會移除 Authenticode 時間戳記的支援。 建議您改用 RFC 3161。
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td><span id="SIGNER_TIMESTAMP_RFC3161"></span><span id="signer_timestamp_rfc3161"></span><dl> <dt><strong>SIGNER_TIMESTAMP_RFC3161</strong></dt> </dl></td>
-<td>指定符合 RFC 3161 規範的時間戳記。<br/></td>
-</tr>
-</tbody>
-</table>
+
+| 值 | 意義 | 
+|-------|---------|
+| <span id="SIGNER_TIMESTAMP_AUTHENTICODE"></span><span id="signer_timestamp_authenticode"></span><dl><dt><strong>SIGNER_TIMESTAMP_AUTHENTICODE</strong></dt></dl> | 指定 Authenticode 時間戳記。<br /><blockquote>[!Note]<br />Authenticode 不再是慣用的時間戳記類型。 未來可能會移除 Authenticode 時間戳記的支援。 建議您改用 RFC 3161。</blockquote><br /> | 
+| <span id="SIGNER_TIMESTAMP_RFC3161"></span><span id="signer_timestamp_rfc3161"></span><dl><dt><strong>SIGNER_TIMESTAMP_RFC3161</strong></dt></dl> | 指定符合 RFC 3161 規範的時間戳記。<br /> | 
+
 
 
 
@@ -169,29 +148,11 @@ Authenticode 不再是慣用的時間戳記類型。 未來可能會移除 Authe
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>傳回碼</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><dl> <dt><strong>E_INVALIDARG</strong></dt> </dl></td>
-<td>下列情況可能會傳回此錯誤：<br/>
-<ul>
-<li>您必須設定<em>dwFlags</em>參數的<strong>SIGNER_TIMESTAMP_AUTHENTICODE</strong>或<strong>SIGNER_TIMESTAMP_RFC3161</strong> 。</li>
-<li><em>保留</em>的參數必須是<strong>Null</strong>。</li>
-<li>如果您在<em>dwFlags</em>參數中設定<strong>SIGNER_TIMESTAMP_AUTHENTICODE</strong>旗標，則必須將<em>dwIndex</em>參數設定為零。</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| 傳回碼 | Description | 
+|-------------|-------------|
+| <dl><dt><strong>E_INVALIDARG</strong></dt></dl> | 下列情況可能會傳回此錯誤：<br /><ul><li>您必須設定<em>dwFlags</em>參數的<strong>SIGNER_TIMESTAMP_AUTHENTICODE</strong>或<strong>SIGNER_TIMESTAMP_RFC3161</strong> 。</li><li><em>保留</em>的參數必須是<strong>Null</strong>。</li><li>如果您在<em>dwFlags</em>參數中設定<strong>SIGNER_TIMESTAMP_AUTHENTICODE</strong>旗標，則必須將<em>dwIndex</em>參數設定為零。</li></ul> | 
+
 
 
 
@@ -203,8 +164,8 @@ Authenticode 不再是慣用的時間戳記類型。 未來可能會移除 Authe
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                 |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                              |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                                 |
 | DLL<br/>                      | <dl> <dt>Mssign32.dll</dt> </dl> |
 
 

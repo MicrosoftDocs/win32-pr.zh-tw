@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 24c8665b42aad5c94db18e3a30a2b5ea09974627
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: 1d8f3ed19d01eece0b22e22b4a2a16d8d985751a
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122465075"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122982173"
 ---
 # <a name="transaction-log-parameters"></a>交易記錄檔參數
 
@@ -42,7 +42,19 @@ _**適用于：** Windows |Windows伺服器_
 此參數會設定用於資料庫引擎所使用之許多檔案的三個字母前置詞。 例如，檢查點檔案稱為「EDB」。因為 EDB 是預設的基底名稱，所以預設為使用 .CHK。 基底名稱可以用來輕鬆區分屬於不同實例或不同應用程式的檔案集合。
 
 
-| | | <p>預設值：3</p> | <p>edb.log</p> | | <p>輸入：</p> | <p>字串</p> | | <p>有效範圍：</p> | <p>3個字元</p> | | <p>範圍：</p> | <p>執行個體</p> | | <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p>是</p> | | <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p>否</p> | | <p>會影響實體版面配置：</p> | <p>是</p> | | <p>會影響可靠性：</p> | <p>否</p> | | <p>影響效能：</p> | <p>否</p> | | <p>會影響資源：</p> | <p>否</p> | | <p>可用性：</p> | <p>全部</p> | 
+| 標籤 | 值 |
+|--------|-------|
+| <p>預設值：3</p> | <p>edb.log</p> | 
+| <p>輸入：</p> | <p>String</p> | 
+| <p>有效範圍：</p> | <p>3個字元</p> | 
+| <p>範圍：</p> | <p>執行個體</p> | 
+| <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p>Yes</p> | 
+| <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p>No</p> | 
+| <p>會影響實體版面配置：</p> | <p>Yes</p> | 
+| <p>會影響可靠性：</p> | <p>No</p> | 
+| <p>影響效能：</p> | <p>No</p> | 
+| <p>會影響資源：</p> | <p>No</p> | 
+| <p>可用性：</p> | <p>全部</p> | 
 
 
 
@@ -56,7 +68,19 @@ _**適用于：** Windows |Windows伺服器_
 當迴圈記錄開啟時，只有小於目前檢查點的交易記錄檔會保留在磁片上。 這種模式的好處是，備份不需要淘汰舊的交易記錄檔。 缺點是已不再有零的資料遺失還原。
 
 
-| | | <p>預設值：3</p> | <p>否</p> | | <p>輸入：</p> | <p>Boolean</p> | | <p>有效範圍：</p> | <p>False, True</p> | | <p>範圍：</p> | <p>執行個體</p> | | <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p>是</p> | | <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p>否</p> | | <p>會影響實體版面配置：</p> | <p>是</p> | | <p>會影響可靠性：</p> | <p>是</p> | | <p>影響效能：</p> | <p>否</p> | | <p>會影響資源：</p> | <p>是</p> | | <p>可用性：</p> | <p>全部</p> | 
+| 標籤 | 值 |
+|--------|-------|
+| <p>預設值：3</p> | <p>否</p> | 
+| <p>輸入：</p> | <p>Boolean</p> | 
+| <p>有效範圍：</p> | <p>False, True</p> | 
+| <p>範圍：</p> | <p>執行個體</p> | 
+| <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p>Yes</p> | 
+| <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p>No</p> | 
+| <p>會影響實體版面配置：</p> | <p>Yes</p> | 
+| <p>會影響可靠性：</p> | <p>Yes</p> | 
+| <p>影響效能：</p> | <p>No</p> | 
+| <p>會影響資源：</p> | <p>Yes</p> | 
+| <p>可用性：</p> | <p>全部</p> | 
 
 
 
@@ -68,7 +92,19 @@ _**適用于：** Windows |Windows伺服器_
 此參數會影響交易的可靠性和效能。 如需詳細資訊，請參閱 [JetCommitTransaction](./jetcommittransaction-function.md) 。
 
 
-| | | <p>預設值：3</p> | <p>0</p> | | <p>輸入：</p> | <p>JET_GRBIT (整數) </p> | | <p>有效範圍：</p> | <p>適用于 JetCommitTransaction 的有效選項</p> | | <p>範圍：</p> | <p>實例或會話</p> | | <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p>是</p> | | <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p>是</p> | | <p>會影響實體版面配置：</p> | <p>否</p> | | <p>會影響可靠性：</p> | <p>是</p> | | <p>影響效能：</p> | <p>是</p> | | <p>會影響資源：</p> | <p>否</p> | | <p>可用性：</p> | <p>全部</p> | 
+| 標籤 | 值 |
+|--------|-------|
+| <p>預設值：3</p> | <p>0</p> | 
+| <p>輸入：</p> | <p>JET_GRBIT (整數) </p> | 
+| <p>有效範圍：</p> | <p>適用于 JetCommitTransaction 的有效選項</p> | 
+| <p>範圍：</p> | <p>實例或會話</p> | 
+| <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p>Yes</p> | 
+| <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p>Yes</p> | 
+| <p>會影響實體版面配置：</p> | <p>No</p> | 
+| <p>會影響可靠性：</p> | <p>Yes</p> | 
+| <p>影響效能：</p> | <p>Yes</p> | 
+| <p>會影響資源：</p> | <p>No</p> | 
+| <p>可用性：</p> | <p>全部</p> | 
 
 
 
@@ -80,7 +116,19 @@ _**適用于：** Windows |Windows伺服器_
 **Windows 2000：** 從 Windows NT 將資料庫升級至 Windows 2000 時，必須小心使用此參數。 如果資料庫不是處於一致的狀態，而且舊的記錄檔遭到刪除，則資料庫的內容將會遺失。
 
 
-| | | <p>預設值：3</p> | <p><strong>Windows 2000：</strong> 假</p><p><strong>Windows XP：</strong> 真</p> | | <p>輸入：</p> | <p>Boolean</p> | | <p>有效範圍：</p> | <p>False, True</p> | | <p>範圍：</p> | <p>執行個體</p> | | <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p>是</p> | | <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p>否</p> | | <p>會影響實體版面配置：</p> | <p>是</p> | | <p>會影響可靠性：</p> | <p>是</p> | | <p>影響效能：</p> | <p>否</p> | | <p>會影響資源：</p> | <p>否</p> | | <p>可用性：</p> | <p>全部</p> | 
+| 標籤 | 值 |
+|--------|-------|
+| <p>預設值：3</p> | <p><strong>Windows 2000：</strong> 假</p><p><strong>Windows XP：</strong> 真</p> | 
+| <p>輸入：</p> | <p>Boolean</p> | 
+| <p>有效範圍：</p> | <p>False, True</p> | 
+| <p>範圍：</p> | <p>執行個體</p> | 
+| <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p>Yes</p> | 
+| <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p>No</p> | 
+| <p>會影響實體版面配置：</p> | <p>Yes</p> | 
+| <p>會影響可靠性：</p> | <p>Yes</p> | 
+| <p>影響效能：</p> | <p>No</p> | 
+| <p>會影響資源：</p> | <p>No</p> | 
+| <p>可用性：</p> | <p>全部</p> | 
 
 
 
@@ -92,7 +140,19 @@ _**適用于：** Windows |Windows伺服器_
 **Windows XP：** 從 Windows XP 起，此參數已過時，且不會影響資料庫引擎的操作。
 
 
-| | | <p>預設值：3</p> | <p>否</p> | | <p>輸入：</p> | <p>Boolean</p> | | <p>有效範圍：</p> | <p>False, True</p> | | <p>範圍：</p> | <p>執行個體</p> | | <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p>是</p> | | <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p>否</p> | | <p>會影響實體版面配置：</p> | <p>否</p> | | <p>會影響可靠性：</p> | <p>是</p> | | <p>影響效能：</p> | <p>否</p> | | <p>會影響資源：</p> | <p>否</p> | | <p>可用性：</p> | <p>全部</p> | 
+| 標籤 | 值 |
+|--------|-------|
+| <p>預設值：3</p> | <p>否</p> | 
+| <p>輸入：</p> | <p>Boolean</p> | 
+| <p>有效範圍：</p> | <p>False, True</p> | 
+| <p>範圍：</p> | <p>執行個體</p> | 
+| <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p>Yes</p> | 
+| <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p>No</p> | 
+| <p>會影響實體版面配置：</p> | <p>No</p> | 
+| <p>會影響可靠性：</p> | <p>Yes</p> | 
+| <p>影響效能：</p> | <p>No</p> | 
+| <p>會影響資源：</p> | <p>No</p> | 
+| <p>可用性：</p> | <p>全部</p> | 
 
 
 
@@ -112,7 +172,19 @@ JET_bitESE98FileNames
   - 檢查點檔案將會使用。副檔名的 .CHK
 
 
-| | | <p>預設值：3</p> | <p>JET_bitESE98FileNames</p> | | <p>輸入：</p> | <p>JET_GRBIT (整數) </p> | | <p>有效範圍：</p> | <p>0、JET_bitESE98FileNames</p> | | <p>範圍：</p> | <p>執行個體</p> | | <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p>是</p> | | <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p>否</p> | | <p>會影響實體版面配置：</p> | <p>是</p> | | <p>會影響可靠性：</p> | <p>否</p> | | <p>影響效能：</p> | <p>否</p> | | <p>會影響資源：</p> | <p>否</p> | | <p>可用性：</p> | <p>WindowsVista 和更新版本</p> | 
+| 標籤 | 值 |
+|--------|-------|
+| <p>預設值：3</p> | <p>JET_bitESE98FileNames</p> | 
+| <p>輸入：</p> | <p>JET_GRBIT (整數) </p> | 
+| <p>有效範圍：</p> | <p>0、JET_bitESE98FileNames</p> | 
+| <p>範圍：</p> | <p>執行個體</p> | 
+| <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p>Yes</p> | 
+| <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p>No</p> | 
+| <p>會影響實體版面配置：</p> | <p>Yes</p> | 
+| <p>會影響可靠性：</p> | <p>No</p> | 
+| <p>影響效能：</p> | <p>No</p> | 
+| <p>會影響資源：</p> | <p>No</p> | 
+| <p>可用性：</p> | <p>WindowsVista 和更新版本</p> | 
 
 
 
@@ -126,7 +198,19 @@ JET_bitESE98FileNames
 **Windows XP 和 Windows 2000：** 在 Windows XP 和舊版中，不建議將此參數設定為大於交易記錄檔大小一半的緩衝區數目（以位元組為單位) ） (。
 
 
-| | | <p>預設值：3</p> | <p><strong>Windows 2000、Windows XP 和 Windows Server 2003：</strong> 80</p><p><strong>Windows Vista：</strong> 126</p> | | <p>輸入：</p> | <p>整數</p> | | <p>有效範圍：</p> | <p><strong>Windows 2000、Windows XP 和 Windows Server 2003：</strong> 80 –2147483647</p><p><strong>Windows Vista：</strong> 1-2147483647</p> | | <p>範圍：</p> | <p>執行個體</p> | | <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p>是</p> | | <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p>否</p> | | <p>會影響實體版面配置：</p> | <p>否</p> | | <p>會影響可靠性：</p> | <p>否</p> | | <p>影響效能：</p> | <p>是</p> | | <p>會影響資源：</p> | <p>是</p> | | <p>可用性：</p> | <p>全部</p> | 
+| 標籤 | 值 |
+|--------|-------|
+| <p>預設值：3</p> | <p><strong>Windows 2000、Windows XP 和 Windows Server 2003：</strong> 80</p><p><strong>Windows Vista：</strong> 126</p> | 
+| <p>輸入：</p> | <p>整數</p> | 
+| <p>有效範圍：</p> | <p><strong>Windows 2000、Windows XP 和 Windows Server 2003：</strong> 80 –2147483647</p><p><strong>Windows Vista：</strong> 1-2147483647</p> | 
+| <p>範圍：</p> | <p>執行個體</p> | 
+| <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p>Yes</p> | 
+| <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p>No</p> | 
+| <p>會影響實體版面配置：</p> | <p>No</p> | 
+| <p>會影響可靠性：</p> | <p>No</p> | 
+| <p>影響效能：</p> | <p>Yes</p> | 
+| <p>會影響資源：</p> | <p>Yes</p> | 
+| <p>可用性：</p> | <p>全部</p> | 
 
 
 
@@ -138,7 +222,19 @@ JET_bitESE98FileNames
 **Windows XP：** 從 Windows XP 起，此參數已過時，且不會影響資料庫引擎的操作。
 
 
-| | | <p>預設值：3</p> | <p>1024</p> | | <p>輸入：</p> | <p>整數</p> | | <p>有效範圍：</p> | <p>0-2147483647</p> | | <p>範圍：</p> | <p>執行個體</p> | | <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p>是</p> | | <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p>否</p> | | <p>會影響實體版面配置：</p> | <p>否</p> | | <p>會影響可靠性：</p> | <p>是</p> | | <p>影響效能：</p> | <p>是</p> | | <p>會影響資源：</p> | <p>否</p> | | <p>可用性：</p> | <p>全部</p> | 
+| 標籤 | 值 |
+|--------|-------|
+| <p>預設值：3</p> | <p>1024</p> | 
+| <p>輸入：</p> | <p>整數</p> | 
+| <p>有效範圍：</p> | <p>0-2147483647</p> | 
+| <p>範圍：</p> | <p>執行個體</p> | 
+| <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p>Yes</p> | 
+| <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p>No</p> | 
+| <p>會影響實體版面配置：</p> | <p>No</p> | 
+| <p>會影響可靠性：</p> | <p>Yes</p> | 
+| <p>影響效能：</p> | <p>Yes</p> | 
+| <p>會影響資源：</p> | <p>No</p> | 
+| <p>可用性：</p> | <p>全部</p> | 
 
 
 
@@ -148,7 +244,19 @@ JET_bitESE98FileNames
 當這個參數設定為 true 時，資料庫引擎會建立下一個交易記錄檔，因為目前的交易記錄檔已被取用。 其目的是要將從一個交易記錄檔切換至下一個交易記錄檔所花費的時間降至最低，以大幅更新負載。
 
 
-| | | <p>預設值：3</p> | <p>是</p> | | <p>輸入：</p> | <p>Boolean</p> | | <p>有效範圍：</p> | <p>False, True</p> | | <p>範圍：</p> | <p>執行個體</p> | | <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p>是</p> | | <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p>否</p> | | <p>會影響實體版面配置：</p> | <p>是</p> | | <p>會影響可靠性：</p> | <p>否</p> | | <p>影響效能：</p> | <p>是</p> | | <p>會影響資源：</p> | <p>是</p> | | <p>可用性：</p> | <p>WindowsXP 和更新版本</p> | 
+| 標籤 | 值 |
+|--------|-------|
+| <p>預設值：3</p> | <p>對</p> | 
+| <p>輸入：</p> | <p>Boolean</p> | 
+| <p>有效範圍：</p> | <p>False, True</p> | 
+| <p>範圍：</p> | <p>執行個體</p> | 
+| <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p>Yes</p> | 
+| <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p>No</p> | 
+| <p>會影響實體版面配置：</p> | <p>Yes</p> | 
+| <p>會影響可靠性：</p> | <p>No</p> | 
+| <p>影響效能：</p> | <p>Yes</p> | 
+| <p>會影響資源：</p> | <p>Yes</p> | 
+| <p>可用性：</p> | <p>WindowsXP 和更新版本</p> | 
 
 
 
@@ -164,7 +272,19 @@ JET_bitESE98FileNames
 **注意**  如果指定相對路徑，則會相對於裝載使用資料庫引擎的應用程式之進程的目前工作目錄。
 
 
-| | | <p>預設值：3</p> | <p>".\"</p> | | <p>輸入：</p> | <p>資料夾路徑 (字串) </p> | | <p>有效範圍：</p> | <p>0–246個字元</p> | | <p>範圍：</p> | <p>執行個體</p> | | <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p>是</p> | | <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p>否</p> | | <p>會影響實體版面配置：</p> | <p>是</p> | | <p>會影響可靠性：</p> | <p>是</p> | | <p>影響效能：</p> | <p>是</p> | | <p>會影響資源：</p> | <p>否</p> | | <p>可用性：</p> | <p>全部</p> | 
+| 標籤 | 值 |
+|--------|-------|
+| <p>預設值：3</p> | <p>".\"</p> | 
+| <p>輸入：</p> | <p>資料夾路徑 (字串) </p> | 
+| <p>有效範圍：</p> | <p>0–246個字元</p> | 
+| <p>範圍：</p> | <p>執行個體</p> | 
+| <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p>Yes</p> | 
+| <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p>No</p> | 
+| <p>會影響實體版面配置：</p> | <p>Yes</p> | 
+| <p>會影響可靠性：</p> | <p>Yes</p> | 
+| <p>影響效能：</p> | <p>Yes</p> | 
+| <p>會影響資源：</p> | <p>No</p> | 
+| <p>可用性：</p> | <p>全部</p> | 
 
 
 
@@ -178,7 +298,19 @@ JET_bitESE98FileNames
 此參數會對效能造成影響。 如果設定非常大，則 [JetInit](./jetinit-function.md) 會變慢，因為資料庫引擎在初始化時，至少必須讀取最年輕記錄檔 (的) 。 如果設定非常大，則在記錄檔之間切換時也需要較長的時間。 如果設定非常小，則需要為指定的更新數目建立更多記錄檔，這樣會增加額外負荷。
 
 
-| | | <p>預設值：3</p> | <p>5120</p> | | <p>輸入：</p> | <p>整數</p> | | <p>有效範圍：</p> | <p><strong>Windows 2000、Windows XP 和 Windows Server 2003：</strong> 128 –32768</p><p><strong>Windows Vista：</strong> 64 –32768</p> | | <p>範圍：</p> | <p>執行個體</p> | | <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p>是</p> | | <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p>否</p> | | <p>會影響實體版面配置：</p> | <p>是</p> | | <p>會影響可靠性：</p> | <p>是</p> | | <p>影響效能：</p> | <p>是</p> | | <p>會影響資源：</p> | <p>是</p> | | <p>可用性：</p> | <p>全部</p> | 
+| 標籤 | 值 |
+|--------|-------|
+| <p>預設值：3</p> | <p>5120</p> | 
+| <p>輸入：</p> | <p>整數</p> | 
+| <p>有效範圍：</p> | <p><strong>Windows 2000、Windows XP 和 Windows Server 2003：</strong> 128 –32768</p><p><strong>Windows Vista：</strong> 64 –32768</p> | 
+| <p>範圍：</p> | <p>執行個體</p> | 
+| <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p>Yes</p> | 
+| <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p>No</p> | 
+| <p>會影響實體版面配置：</p> | <p>Yes</p> | 
+| <p>會影響可靠性：</p> | <p>Yes</p> | 
+| <p>影響效能：</p> | <p>Yes</p> | 
+| <p>會影響資源：</p> | <p>Yes</p> | 
+| <p>可用性：</p> | <p>全部</p> | 
 
 
 
@@ -190,7 +322,19 @@ JET_bitESE98FileNames
 **Windows XP：** 從 Windows XP 起，此參數已過時，且不會影響資料庫引擎的操作。
 
 
-| | | <p>預設值：3</p> | <p>3</p> | | <p>輸入：</p> | <p>整數</p> | | <p>有效範圍：</p> | <p>0-2147483647</p> | | <p>範圍：</p> | <p>執行個體</p> | | <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p>是</p> | | <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p>否</p> | | <p>會影響實體版面配置：</p> | <p>否</p> | | <p>會影響可靠性：</p> | <p>否</p> | | <p>影響效能：</p> | <p>是</p> | | <p>會影響資源：</p> | <p>否</p> | | <p>可用性：</p> | <p>全部</p> | 
+| 標籤 | 值 |
+|--------|-------|
+| <p>預設值：3</p> | <p>3</p> | 
+| <p>輸入：</p> | <p>整數</p> | 
+| <p>有效範圍：</p> | <p>0-2147483647</p> | 
+| <p>範圍：</p> | <p>執行個體</p> | 
+| <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p>Yes</p> | 
+| <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p>No</p> | 
+| <p>會影響實體版面配置：</p> | <p>No</p> | 
+| <p>會影響可靠性：</p> | <p>No</p> | 
+| <p>影響效能：</p> | <p>Yes</p> | 
+| <p>會影響資源：</p> | <p>No</p> | 
+| <p>可用性：</p> | <p>全部</p> | 
 
 
 
@@ -202,7 +346,19 @@ JET_bitESE98FileNames
 在特殊情況下，停用復原會很有用，因為在這種情況下，資料庫的內容在發生損毀的情況下不會很有用。 所有其他情況都應啟用復原。
 
 
-| | | <p>預設值：3</p> | <p>個</p> | | <p>輸入：</p> | <p>字串</p> | | <p>有效範圍：</p> | <p>0–259個字元</p> | | <p>範圍：</p> | <p>執行個體</p> | | <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p>是</p> | | <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p>否</p> | | <p>會影響實體版面配置：</p> | <p>是</p> | | <p>會影響可靠性：</p> | <p>是</p> | | <p>影響效能：</p> | <p>是</p> | | <p>會影響資源：</p> | <p>是</p> | | <p>可用性：</p> | <p>全部</p> | 
+| 標籤 | 值 |
+|--------|-------|
+| <p>預設值：3</p> | <p>個</p> | 
+| <p>輸入：</p> | <p>String</p> | 
+| <p>有效範圍：</p> | <p>0–259個字元</p> | 
+| <p>範圍：</p> | <p>執行個體</p> | 
+| <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p>Yes</p> | 
+| <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p>No</p> | 
+| <p>會影響實體版面配置：</p> | <p>Yes</p> | 
+| <p>會影響可靠性：</p> | <p>Yes</p> | 
+| <p>影響效能：</p> | <p>Yes</p> | 
+| <p>會影響資源：</p> | <p>Yes</p> | 
+| <p>可用性：</p> | <p>全部</p> | 
 
 
 
@@ -214,7 +370,19 @@ JET_bitESE98FileNames
 **注意**  如果指定相對路徑，則會相對於裝載使用資料庫引擎的應用程式之進程的目前工作目錄。
 
 
-| | | <p>預設值：3</p> | <p>".\"</p> | | <p>輸入：</p> | <p>資料夾路徑 (字串) </p> | | <p>有效範圍：</p> | <p>0–246個字元</p> | | <p>範圍：</p> | <p>執行個體</p> | | <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p>是</p> | | <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p>否</p> | | <p>會影響實體版面配置：</p> | <p>是</p> | | <p>會影響可靠性：</p> | <p>否</p> | | <p>影響效能：</p> | <p>否</p> | | <p>會影響資源：</p> | <p>否</p> | | <p>可用性：</p> | <p>全部</p> | 
+| 標籤 | 值 |
+|--------|-------|
+| <p>預設值：3</p> | <p>".\"</p> | 
+| <p>輸入：</p> | <p>資料夾路徑 (字串) </p> | 
+| <p>有效範圍：</p> | <p>0–246個字元</p> | 
+| <p>範圍：</p> | <p>執行個體</p> | 
+| <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p>Yes</p> | 
+| <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p>No</p> | 
+| <p>會影響實體版面配置：</p> | <p>Yes</p> | 
+| <p>會影響可靠性：</p> | <p>No</p> | 
+| <p>影響效能：</p> | <p>No</p> | 
+| <p>會影響資源：</p> | <p>No</p> | 
+| <p>可用性：</p> | <p>全部</p> | 
 
 
 
@@ -226,7 +394,19 @@ JET_bitESE98FileNames
 **Windows XP：** 從 Windows XP 起，此參數已過時，且不會影響資料庫引擎的操作。
 
 
-| | | <p>預設值：3</p> | <p>0</p> | | <p>輸入：</p> | <p>整數</p> | | <p>有效範圍：</p> | <p>0-2147483647</p> | | <p>範圍：</p> | <p>實例或會話</p> | | <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p>是</p> | | <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p>是</p> | | <p>會影響實體版面配置：</p> | <p>否</p> | | <p>會影響可靠性：</p> | <p>否</p> | | <p>影響效能：</p> | <p>是</p> | | <p>會影響資源：</p> | <p>否</p> | | <p>可用性：</p> | <p>全部</p> | 
+| 標籤 | 值 |
+|--------|-------|
+| <p>預設值：3</p> | <p>0</p> | 
+| <p>輸入：</p> | <p>整數</p> | 
+| <p>有效範圍：</p> | <p>0-2147483647</p> | 
+| <p>範圍：</p> | <p>實例或會話</p> | 
+| <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p>Yes</p> | 
+| <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p>Yes</p> | 
+| <p>會影響實體版面配置：</p> | <p>No</p> | 
+| <p>會影響可靠性：</p> | <p>No</p> | 
+| <p>影響效能：</p> | <p>Yes</p> | 
+| <p>會影響資源：</p> | <p>No</p> | 
+| <p>可用性：</p> | <p>全部</p> | 
 
 
 
@@ -240,14 +420,30 @@ JET_bitESE98FileNames 可確保用於交易記錄檔和檢查點檔案的副檔�
 **注意**  若要設定位，應先取出值，然後在所需的相容性位中取出 "or"。
 
 
-| | | <p>預設值：3</p> | <p>JET_bitESE98FileNames</p> | | <p>輸入：</p> | <p>JET_GRBIT (整數) </p> | | <p>有效範圍：</p> | <p>JET_bitESE98FileNames</p> | | <p>範圍：</p> | <p>執行個體</p> | | <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p>是</p> | | <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p>否</p> | | <p>會影響實體版面配置：</p> | <p>是</p> | | <p>會影響可靠性：</p> | <p>否</p> | | <p>影響效能：</p> | <p>否</p> | | <p>會影響資源：</p> | <p>否</p> | | <p>可用性：</p> | <p>從 Windows Server 2008 和 Windows Vista 開始</p> | 
+| 標籤 | 值 |
+|--------|-------|
+| <p>預設值：3</p> | <p>JET_bitESE98FileNames</p> | 
+| <p>輸入：</p> | <p>JET_GRBIT (整數) </p> | 
+| <p>有效範圍：</p> | <p>JET_bitESE98FileNames</p> | 
+| <p>範圍：</p> | <p>執行個體</p> | 
+| <p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p> | <p>Yes</p> | 
+| <p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p> | <p>No</p> | 
+| <p>會影響實體版面配置：</p> | <p>Yes</p> | 
+| <p>會影響可靠性：</p> | <p>No</p> | 
+| <p>影響效能：</p> | <p>No</p> | 
+| <p>會影響資源：</p> | <p>No</p> | 
+| <p>可用性：</p> | <p>從 Windows Server 2008 和 Windows Vista 開始</p> | 
 
 
 
 ## <a name="requirements"></a>規格需求
 
 
-| | | <p><strong>用戶端</strong></p> | <p>需要 Windows Vista、Windows XP 或 Windows 2000 Professional。</p> | | <p><strong>伺服器</strong></p> | <p>需要 Windows server 2008、Windows Server 2003 或 Windows 2000 Server。</p> | | <p><strong>標頭</strong></p> | <p>宣告于 Esent. h 中。</p> | 
+| 需求 | 值 |
+|------------|----------|
+| <p><strong>用戶端</strong></p> | <p>需要 Windows Vista、Windows XP 或 Windows 2000 Professional。</p> | 
+| <p><strong>伺服器</strong></p> | <p>需要 Windows server 2008、Windows Server 2003 或 Windows 2000 Server。</p> | 
+| <p><strong>標頭</strong></p> | <p>宣告于 Esent. h 中。</p> | 
 
 
 

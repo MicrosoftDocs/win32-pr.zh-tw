@@ -18,12 +18,12 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: fd5f7fe7096b0562aa9fc4ce8d15f77a4ccf205f
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: cd11857be7096ce30f2fcf06f8ab4f975185da57
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122469695"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122982361"
 ---
 # <a name="jetstopbackup-function"></a>JetStopBackup 函式
 
@@ -69,7 +69,13 @@ JET_ERR JET_API JetStopBackup(void);
 #### <a name="requirements"></a>規格需求
 
 
-| | | <p><strong>用戶端</strong></p> | <p>需要 Windows Vista、Windows XP 或 Windows 2000 Professional。</p> | | <p><strong>伺服器</strong></p> | <p>需要 Windows server 2008、Windows Server 2003 或 Windows 2000 Server。</p> | | <p><strong>標頭</strong></p> | <p>宣告于 Esent. h 中。</p> | | <p><strong>程式庫</strong></p> | <p>使用 ESENT。</p> | | <p><strong>DLL</strong></p> | <p>需要 ESENT.dll。</p> | 
+| 需求 | 值 |
+|------------|----------|
+| <p><strong>用戶端</strong></p> | <p>需要 Windows Vista、Windows XP 或 Windows 2000 Professional。</p> | 
+| <p><strong>伺服器</strong></p> | <p>需要 Windows server 2008、Windows Server 2003 或 Windows 2000 Server。</p> | 
+| <p><strong>標頭</strong></p> | <p>宣告于 Esent. h 中。</p> | 
+| <p><strong>程式庫</strong></p> | <p>使用 ESENT。</p> | 
+| <p><strong>DLL</strong></p> | <p>需要 ESENT.dll。</p> | 
 
 
 

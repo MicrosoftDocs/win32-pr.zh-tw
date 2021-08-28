@@ -4,12 +4,12 @@ ms.assetid: cef6d76f-664a-4808-a224-e82a5adb2d70
 title: editControl
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0bdb47a3866c156ff10dba8eed4584f814793b863e8f615ae5e1a10b8d687ed4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 213d6fba3f03f90e0d5a2702226dd8596462b289
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118055988"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122626806"
 ---
 # <a name="editcontrol"></a>editControl
 
@@ -65,8 +65,8 @@ ms.locfileid: "118055988"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -80,8 +80,8 @@ ms.locfileid: "118055988"
 <td>公用。 選擇性。 預設值為預設值 &quot; &quot; 。 以下是有效的值。 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">

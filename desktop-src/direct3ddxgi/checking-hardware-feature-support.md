@@ -4,12 +4,12 @@ ms.assetid: 0C40C73E-06F3-41FA-AA27-2C0B730B357B
 title: 檢查硬體功能支援
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b14f0de50c4236c4fce46ceda1896ee32721c3bd
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 20ee68a97b30c9828e2a5d27aadb58d668b74858
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103935867"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122624064"
 ---
 # <a name="checking-hardware-feature-support"></a>檢查硬體功能支援
 
@@ -21,9 +21,9 @@ ms.locfileid: "103935867"
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -178,7 +178,7 @@ D3D12 不再具有專用的 mipmap 產生功能。 應用程式必須使用著�
 <td>D3D11_FORMAT_SUPPORT2_UAV_ATOMIC_COMPARE_STORE_OR_COMPARE_EXCHANGE (<a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_format_support2"><strong>D3D11_FORMAT_SUPPORT2</strong></a>) </td>
 </tr>
 <tr class="odd">
-<td>UAV 不可部分完成的交換</td>
+<td>UAV 不可部分完成 Exchange</td>
 <td>D3D12_FORMAT_SUPPORT2_UAV_ATOMIC_EXCHANGE (<a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_format_support2"><strong>D3D12_FORMAT_SUPPORT2</strong></a>) </td>
 <td>D3D11_FORMAT_SUPPORT2_UAV_ATOMIC_EXCHANGE (<a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_format_support2"><strong>D3D11_FORMAT_SUPPORT2</strong></a>) </td>
 </tr>

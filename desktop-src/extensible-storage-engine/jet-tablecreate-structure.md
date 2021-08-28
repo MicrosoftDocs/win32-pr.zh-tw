@@ -15,17 +15,17 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: f96b73daaf446023a7fe3a5729dcb1c90b5f14e0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 92695b9600ef18e716fa02cf58157c3c4781988e
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112068"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122468355"
 ---
 # <a name="jet_tablecreate-structure"></a>JET_TABLECREATE 結構
 
 
-_**適用于：** Windows |Windows Server_
+_**適用于：** Windows |Windows伺服器_
 
 ## <a name="jet_tablecreate-structure"></a>JET_TABLECREATE 結構
 
@@ -106,32 +106,13 @@ _**適用于：** Windows |Windows Server_
 
 包含此呼叫選項的位群組，其中包含零或多個下列值。
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>值</p></th>
-<th><p>意義</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_bitTableCreateFixedDDL</p></td>
-<td><p>設定 JET_bitTableCreateFixedDDL 可防止資料表上的 DDL 作業 (例如) 加入或移除資料行。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitTableCreateTemplateTable</p></td>
-<td><p>設定 JET_bitTableCreateTemplateTable 會使資料表成為範本資料表。 然後，新的資料表可將此資料表的名稱指定為其範本資料表。 設定 JET_bitTableCreateTemplateTable 意指 JET_bitTableCreateFixedDDL。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitTableCreateNoFixedVarColumnsInDerivedTables</p></td>
-<td><p>已取代。 請勿使用。</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>值</p> | <p>意義</p> | 
+|--------------|----------------|
+| <p>JET_bitTableCreateFixedDDL</p> | <p>設定 JET_bitTableCreateFixedDDL 可防止資料表上的 DDL 作業 (例如) 加入或移除資料行。</p> | 
+| <p>JET_bitTableCreateTemplateTable</p> | <p>設定 JET_bitTableCreateTemplateTable 會使資料表成為範本資料表。 然後，新的資料表可將此資料表的名稱指定為其範本資料表。 設定 JET_bitTableCreateTemplateTable 意指 JET_bitTableCreateFixedDDL。</p> | 
+| <p>JET_bitTableCreateNoFixedVarColumnsInDerivedTables</p> | <p>已取代。 請勿使用。</p> | 
+
 
 
 **tableid**
@@ -146,30 +127,9 @@ _**適用于：** Windows |Windows Server_
 
 ### <a name="requirements"></a>規格需求
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>用戶端</strong></p></td>
-<td><p>需要 Windows Vista、Windows XP 或 Windows 2000 Professional。</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>伺服器</strong></p></td>
-<td><p>需要 Windows Server 2008、Windows Server 2003 或 Windows 2000 Server。</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>標頭</strong></p></td>
-<td><p>宣告于 Esent. h 中。</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Unicode</strong></p></td>
-<td><p>實作為 <strong>JET_TABLECREATE_W</strong> (Unicode) 和 <strong>JET_TABLECREATE_A</strong> (ANSI) 。</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p><strong>用戶端</strong></p> | <p>需要 Windows Vista、Windows XP 或 Windows 2000 Professional。</p> | | <p><strong>伺服器</strong></p> | <p>需要 Windows server 2008、Windows Server 2003 或 Windows 2000 Server。</p> | | <p><strong>標頭</strong></p> | <p>宣告于 Esent. h 中。</p> | | <p><strong>Unicode</strong></p> | <p>實作為 <strong>JET_TABLECREATE_W</strong> (Unicode) 和 <strong>JET_TABLECREATE_A</strong> (ANSI) 。</p> | 
+
 
 
 ### <a name="see-also"></a>另請參閱

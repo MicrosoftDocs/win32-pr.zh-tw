@@ -20,21 +20,21 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: c0208a5f0adac4ff5128b506123f3b68589cd0d3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 698f9a050415568c06c8e10819cfed12a4a17181
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106988843"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122478394"
 ---
 # <a name="jetcreateindex-function"></a>JetCreateIndex 函式
 
 
-_**適用于：** Windows |Windows Server_
+_**適用于：** Windows |Windows伺服器_
 
 ## <a name="jetcreateindex-function"></a>JetCreateIndex 函式
 
-**JetCreateIndex** 函式可讓您在可延伸的儲存引擎 (ESE) 資料庫中建立資料的索引，您可以用它來快速找出特定資料。
+**JetCreateIndex** 函式可讓您在可延伸的儲存體引擎中建立資料的索引， (ESE) 資料庫，讓您可以快速地尋找特定資料。
 
 ```cpp
     JET_ERR JET_API JetCreateIndex(
@@ -94,26 +94,13 @@ Null 分隔標記的雙 null 結束字串指標。
 
 ### <a name="return-value"></a>傳回值
 
-此函數會傳回 [JET_ERR](./jet-err.md) 資料類型，其中包含下表所列的其中一個傳回碼。 如需可能 ESE 錯誤的詳細資訊，請參閱可延伸 [儲存引擎錯誤](./extensible-storage-engine-errors.md) 和 [錯誤處理參數](./error-handling-parameters.md)。
+此函數會傳回 [JET_ERR](./jet-err.md) 資料類型，其中包含下表所列的其中一個傳回碼。 如需可能 ESE 錯誤的詳細資訊，請參閱可延伸的[儲存體引擎錯誤](./extensible-storage-engine-errors.md)和[錯誤處理參數](./error-handling-parameters.md)。
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>傳回碼</p></th>
-<th><p>意義</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errSuccess</p></td>
-<td><p>作業已成功完成。</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>傳回碼</p> | <p>意義</p> | 
+|--------------------|----------------|
+| <p>JET_errSuccess</p> | <p>作業已成功完成。</p> | 
+
 
 
 如需 **JetCreateIndex** 函數可傳回的其他錯誤清單，請參閱 [JetCreateIndex2](./jetcreateindex2-function.md)。
@@ -126,38 +113,9 @@ Null 分隔標記的雙 null 結束字串指標。
 
 #### <a name="requirements"></a>規格需求
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>用戶端</p></td>
-<td><p>需要 Windows Vista、Windows XP 或 Windows 2000 Professional。</p></td>
-</tr>
-<tr class="even">
-<td><p>伺服器</p></td>
-<td><p>需要 Windows Server 2008、Windows Server 2003 或 Windows 2000 Server。</p></td>
-</tr>
-<tr class="odd">
-<td><p>標頭</p></td>
-<td><p>宣告于 Esent. h 中。</p></td>
-</tr>
-<tr class="even">
-<td><p>程式庫</p></td>
-<td><p>使用 ESENT。</p></td>
-</tr>
-<tr class="odd">
-<td><p>DLL</p></td>
-<td><p>需要 ESENT.dll。</p></td>
-</tr>
-<tr class="even">
-<td><p>Unicode</p></td>
-<td><p>會實作為 <strong>JetCreateIndexW</strong> (Unicode) 和 <strong>JetCreateIndexA</strong> (ANSI) 。</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p>用戶端</p> | <p>需要 Windows Vista、Windows XP 或 Windows 2000 Professional。</p> | | <p>伺服器</p> | <p>需要 Windows server 2008、Windows Server 2003 或 Windows 2000 Server。</p> | | <p>標頭</p> | <p>宣告于 Esent. h 中。</p> | | <p>程式庫</p> | <p>使用 ESENT。</p> | | <p>DLL</p> | <p>需要 ESENT.dll。</p> | | <p>Unicode</p> | <p>會實作為 <strong>JetCreateIndexW</strong> (Unicode) 和 <strong>JetCreateIndexA</strong> (ANSI) 。</p> | 
+
 
 
 #### <a name="see-also"></a>另請參閱

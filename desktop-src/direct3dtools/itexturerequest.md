@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 68d9d83d15ad8f05a7c842a881efd87e127e9509
-ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
+ms.openlocfilehash: 6cf338ae4d32af409cc8036c126e5c121310dba8
+ms.sourcegitcommit: 4e94fc75fad7b2a0f3c92a26f97e89924e59b7a9
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "122622894"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "122786354"
 ---
 # <a name="span-idvspixengineitexturerequestspanitexturerequest-interface"></a><span id="vspixengine.itexturerequest"></span>ITextureRequest 介面
 
@@ -38,7 +38,7 @@ ms.locfileid: "122622894"
 
 **ITextureRequest** 介面具有這些方法。
 
-<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th style="text-align: left;">方法</th><th style="text-align: left;">描述</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/itexturerequest-requestasync-eventid-dword-bstr-itexturecallback-ptr-dword-dword"><strong>RequestAsync</strong></a></td><td style="text-align: left;"><p>要求將材質的內容取得為。DDS (DirectDraw 介面) 檔。</p></td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th >方法</th><th >說明</th></tr></thead><tbody><tr class="odd"><td ><a href="/windows/desktop/direct3dtools/itexturerequest-requestasync-eventid-dword-bstr-itexturecallback-ptr-dword-dword"><strong>RequestAsync</strong></a></td><td ><p>要求將材質的內容取得為。DDS (DirectDraw 介面) 檔。</p></td></tr></tbody></table>
 
  
 

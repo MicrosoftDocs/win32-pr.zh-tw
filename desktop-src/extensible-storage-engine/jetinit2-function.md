@@ -18,12 +18,12 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 9b5d2a62aa448a84d539d8d2d557d06befacfbba
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.openlocfilehash: 7874c475dc18beb5d7f6849b9f628ea06cbc32a3
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122988951"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122470453"
 ---
 # <a name="jetinit2-function"></a>JetInit2 函式
 
@@ -90,13 +90,7 @@ JET_ERR JET_API JetInit2(
 #### <a name="requirements"></a>規格需求
 
 
-| 需求 | 值 |
-|------------|----------|
-| <p><strong>用戶端</strong></p> | <p>需要 Windows Vista 或 Windows XP。</p> | 
-| <p><strong>伺服器</strong></p> | <p>需要 Windows server 2008 或 Windows server 2003。</p> | 
-| <p><strong>標頭</strong></p> | <p>宣告于 Esent. h 中。</p> | 
-| <p><strong>程式庫</strong></p> | <p>使用 ESENT。</p> | 
-| <p><strong>DLL</strong></p> | <p>需要 ESENT.dll。</p> | 
+| | | <p><strong>用戶端</strong></p> | <p>需要 Windows Vista 或 Windows XP。</p> | | <p><strong>伺服器</strong></p> | <p>需要 Windows server 2008 或 Windows server 2003。</p> | | <p><strong>標頭</strong></p> | <p>宣告于 Esent. h 中。</p> | | <p><strong>程式庫</strong></p> | <p>使用 ESENT。</p> | | <p><strong>DLL</strong></p> | <p>需要 ESENT.dll。</p> | 
 
 
 

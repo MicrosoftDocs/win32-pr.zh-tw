@@ -13,18 +13,18 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 64f5bffb6a81a1efd112c3f52f5d1276f893e9cfb059a5f240a6c8c73b990c3f
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 349004f65713160acc75bdb6f77765ad9f0c3034
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119441638"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122625954"
 ---
 # <a name="tab-element"></a>Tab 項目
 
 代表[核心](windowsribbon-controls-tab.md)[或內容](windowsribbon-controls-tabgroup.md)索引標籤。
 
-## <a name="usage"></a>使用量
+## <a name="usage"></a>使用方式
 
 ``` syntax
 <Tab
@@ -40,10 +40,10 @@ ms.locfileid: "119441638"
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col  />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">

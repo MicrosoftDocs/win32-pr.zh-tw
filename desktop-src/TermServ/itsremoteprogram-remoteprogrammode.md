@@ -29,12 +29,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e8582824e2f6349e37b125ffd974847b602ad6fa
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c36f450e6cbfec3922a56a42bc2f1f61466774eeff46c0987b6fad4ca9dc9731
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106983314"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120124818"
 ---
 # <a name="itsremoteprogramremoteprogrammode-property"></a>ITSRemoteProgram：： RemoteProgramMode 屬性
 

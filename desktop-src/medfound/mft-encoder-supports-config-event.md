@@ -4,12 +4,12 @@ ms.assetid: 8DE04537-641C-4154-9C7F-A7D025CA4C39
 title: 'MFT_ENCODER_SUPPORTS_CONFIG_EVENT 屬性 (Mftransform) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c49c688abc4d372a463115c369e4616babe3bcaa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 25a528da44d59077c8445616f8fe344cba5497ced8b33be75e33be71bf9b5d76
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106976821"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120113038"
 ---
 # <a name="mft_encoder_supports_config_event-attribute"></a>MFT \_ 編碼器 \_ 支援 \_ CONFIG \_ 事件屬性
 
@@ -29,10 +29,10 @@ ms.locfileid: "106976821"
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 8.1 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | Windows Server 2012 R2 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                             |
+| 最低支援的用戶端<br/> | Windows 8.1 \[桌面應用程式 \| UWP 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows Server 2012R2 \[ desktop apps \| UWP 應用程式\]<br/>                             |
 | 標頭<br/>                   | <dl> <dt>Mftransform。h</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>Mftransform .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>Mftransform .idl</dt> </dl> |
 
 
 

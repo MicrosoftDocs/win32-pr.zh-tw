@@ -32,12 +32,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 7ecd096cc6d55aa989b758f7c30364844d160e59e5eba209f8e38c73ae87d0ad
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 6c8280bf4abfbc9eb5818d1aab460a17298db7b0
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119603818"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122477454"
 ---
 # <a name="stopservicegrbit-enumeration"></a>StopServiceGrbit 列舉
 
@@ -65,43 +65,14 @@ public enum StopServiceGrbit
 
 ## <a name="members"></a>成員
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th></th>
-<th>成員名稱</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td></td>
-<td>全部</td>
-<td>停止指定之實例的所有 ESE 服務。</td>
-</tr>
-<tr class="even">
-<td></td>
-<td>BackgroundUserTasks</td>
-<td>停止可重新開機的用戶端指定背景維護工作 (B + 樹重組) 。</td>
-</tr>
-<tr class="odd">
-<td></td>
-<td>QuiesceCaches</td>
-<td>將所有中途快取 Quiesces 至磁片。 非同步： 如果後續呼叫了 Resume 位，則會取消靜止。</td>
-</tr>
-<tr class="even">
-<td></td>
-<td>繼續</td>
-<td>繼續先前發出的 StopService 作業，亦即 &quot; 重新開機服務 &quot; 。 可以與上述 grbits 結合以繼續特定服務，或使用0x0 繼續所有先前已停止的服務。
-<p>警告：這個位只能用來繼續 JET_bitStopServiceBackground，JET_bitStopServiceQuiesceCaches，如果您已 JET_bitStopServiceAll 或 JET_bitStopServiceAPI，嘗試使用 JET_bitStopServiceResume 將會失敗。</p></td>
-</tr>
-</tbody>
-</table>
+
+|  | 成員名稱 | 描述 | 
+|--|-------------|-------------|
+|  | 全部 | 停止指定之實例的所有 ESE 服務。 | 
+|  | BackgroundUserTasks | 停止可重新開機的用戶端指定背景維護工作 (B + 樹重組) 。 | 
+|  | QuiesceCaches | 將所有中途快取 Quiesces 至磁片。 非同步： 如果後續呼叫了 Resume 位，則會取消靜止。 | 
+|  | 繼續 | 繼續先前發出的 StopService 作業，亦即「重新開機服務」。 可以與上述 grbits 結合以繼續特定服務，或使用0x0 繼續所有先前已停止的服務。<p>警告：這個位只能用來繼續 JET_bitStopServiceBackground，JET_bitStopServiceQuiesceCaches，如果您已 JET_bitStopServiceAll 或 JET_bitStopServiceAPI，嘗試使用 JET_bitStopServiceResume 將會失敗。</p> | 
+
 
 
 ## <a name="see-also"></a>另請參閱

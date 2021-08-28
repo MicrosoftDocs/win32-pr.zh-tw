@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 5ffecd81a1bb164e50a9139552c78c1dd520e671
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 62c3d926bb6020931c90ce2abc6ed36c0015c31d
+ms.sourcegitcommit: 4e94fc75fad7b2a0f3c92a26f97e89924e59b7a9
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104109589"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "122787274"
 ---
 # <a name="span-idvspixengineisummarycallbackspanisummarycallback-interface"></a><span id="vspixengine.isummarycallback"></span>ISummaryCallback 介面
 
@@ -38,13 +38,13 @@ ms.locfileid: "104109589"
 
 **ISummaryCallback** 介面具有這些方法。
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">方法</th><th style="text-align: left;">描述</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/isummarycallback-resultcallback-dword-summaryitem-arr"><strong>ResultCallback</strong></a></td><td style="text-align: left;"><p>用來通知主機圖形記錄摘要資訊的回呼函數。</p></td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th >方法</th><th >說明</th></tr></thead><tbody><tr class="odd"><td ><a href="/windows/desktop/direct3dtools/isummarycallback-resultcallback-dword-summaryitem-arr"><strong>ResultCallback</strong></a></td><td ><p>用來通知主機圖形記錄摘要資訊的回呼函數。</p></td></tr></tbody></table>
 
  
 
 ## <a name="requirements"></a>規格需求
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>標頭</p></td><td>Vspixengine。h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>標頭</p></td><td>Vspixengine。h</td></tr></tbody></table>
 
  
 

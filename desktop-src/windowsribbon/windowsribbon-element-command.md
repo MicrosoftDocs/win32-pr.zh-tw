@@ -3,7 +3,7 @@ title: Command 元素
 description: 表示命令定義。
 ms.assetid: f332423d-d258-488d-9233-71687288b462
 keywords:
-- 命令元素視窗功能區
+- 命令元素 Windows 功能區
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 1e1df5b62c7b2d7c55345ba8d6da366d04697054
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 0c29539c9c76342b8b88603ea3dd2926554228ac
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111443479"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122626944"
 ---
 # <a name="command-element"></a>Command 元素
 
@@ -47,10 +47,10 @@ ms.locfileid: "111443479"
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col  />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">

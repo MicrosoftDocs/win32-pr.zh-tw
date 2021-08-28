@@ -47,12 +47,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0162073b8361cc89f7ab2e33f60406c0db935bdb
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 724f9b394d6e70354b39036df90386a823da2e5874f9ecb0fc0b81f130e3571e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103686129"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120125038"
 ---
 # <a name="imstscnonscriptableportablesalt-property"></a>IMsTscNonScriptable：:P ortableSalt 屬性
 

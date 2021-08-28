@@ -8,16 +8,16 @@ keywords:
 - 建立外觀，關於
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4bcfa29a35cc0afc19a4e57f41c03ab155c39334
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b7464512ae7ca26726354e75003e277d8e0a8429bad68fffe796d4fb899b52f2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372046"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120123818"
 ---
 # <a name="building-your-first-skin"></a>建立您的第一個外觀
 
-如更詳細的 [資訊](about-skins.md)，請見面板定義檔中的面板，且需要一或多個支援的美工檔案、Microsoft JScript 檔案和數位媒體檔案。 這個非常簡單的面板教學課程只需要面板定義檔和三個藝術檔案。 您將會經歷下列主題中所述的四個步驟：
+如更詳細的[資訊](about-skins.md)，請見面板定義檔中的面板，且需要一或多個支援的美工檔案、Microsoft JScript 檔案和數位媒體檔案。 這個非常簡單的面板教學課程只需要面板定義檔和三個藝術檔案。 您將會經歷下列主題中所述的四個步驟：
 
 -   [建立主要藝術檔](creating-the-primary-art-file.md)
 -   [建立對應檔](creating-the-mapping-file.md)
@@ -31,9 +31,9 @@ ms.locfileid: "104372046"
 [**外觀建立指南**](skin-creation-guide.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

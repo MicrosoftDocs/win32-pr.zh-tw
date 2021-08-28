@@ -24,12 +24,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7dce949abee4ca00184a2b784ab154dbd75b9de6
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 7da653b581c512e0397bb4c486d7c21d6844d41b
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104022653"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122982591"
 ---
 # <a name="itssbtargettargetname-property"></a>ITsSbTarget：： TargetName 屬性
 
@@ -64,34 +64,14 @@ HRESULT get_TargetName(
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>最低支援的用戶端<br/></td>
-<td>都不支援<br/></td>
-</tr>
-<tr class="even">
-<td>最低支援的伺服器<br/></td>
-<td>Windows Server 2012<br/></td>
-</tr>
-<tr class="odd">
-<td>Idl<br/></td>
-<td><dl> <dt>Sbtsv .idl</dt> </dl></td>
-</tr>
-<tr class="even">
-<td>IID<br/></td>
-<td>IID_ITsSbTarget 定義為：
-<ul>
-<li>16616ECC-272D-411D-B324-126893033856</li>
-<li>e85e10ea-db0b-4752-b456-5fd5840901c0 on Windows Server 2008 R2</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| 需求 | 值 |
+|--------|-------|
+| 最低支援的用戶端<br /> | 都不支援<br /> | 
+| 最低支援的伺服器<br /> | Windows Server 2012<br /> | 
+| IDL<br /> | <dl><dt>Sbtsv .idl</dt></dl> | 
+| IID<br /> | IID_ITsSbTarget 定義為：<ul><li>16616ECC-272D-411D-B324-126893033856</li><li>e85e10ea-db0b-4752-b456-5fd5840901c0 on Windows Server 2008 R2</li></ul> | 
+
 
 
 
