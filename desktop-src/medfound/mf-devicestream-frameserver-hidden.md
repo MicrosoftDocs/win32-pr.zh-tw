@@ -4,12 +4,12 @@ ms.assetid: E1C3A4B6-7D51-4D29-AF06-0A7FBDDB9A9E
 title: 'MF_DEVICESTREAM_FRAMESERVER_HIDDEN 屬性 (Mfidl) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 981df1670bec3cff7bad2e241b1f47d3d340dcdd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ab49a9fcf0876e8708460e9e7cf36d68eb630aea4499b358a542f759cc4dfcd1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191518"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119104974"
 ---
 # <a name="mf_devicestream_frameserver_hidden-attribute"></a>MF \_ DEVICESTREAM \_ FRAMESERVER \_ 隱藏屬性
 

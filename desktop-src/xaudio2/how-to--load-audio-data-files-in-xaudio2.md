@@ -4,17 +4,17 @@ ms.assetid: caeb522e-d4f6-91e2-5e85-ea0af0f61300
 title: 使用方法：在 XAudio2 中載入音訊資料檔
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 659b4d8e106b6f0b2eb942505f99562f56fdada7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0bacf08e8f16e5cd9c42409776b02846990b9d66d685a0186314445742f23341
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113649"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118962657"
 ---
 # <a name="how-to-load-audio-data-files-in-xaudio2"></a>使用方法：在 XAudio2 中載入音訊資料檔
 
 > [!Note]  
-> 此內容僅適用于桌面應用程式，且需要在 Windows Store 應用程式中使用修訂功能。 請參閱 [**CreateFile2**](/windows/win32/api/fileapi/nf-fileapi-createfile2)、 [**CreateEventEx**](/windows/win32/api/synchapi/nf-synchapi-createeventexa)、 [**WaitForSingleObjectEx**](/windows/win32/api/synchapi/nf-synchapi-waitforsingleobjectex)、 [**SetFilePointerEx**](/windows/win32/api/fileapi/nf-fileapi-setfilepointerex)和 [**GetOverlappedResultEx**](/windows/win32/api/ioapiset/nf-ioapiset-getoverlappedresultex)的檔。 請參閱 [Windows SDK 範例庫](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/411c271e537727d737a53fa2cbe99eaecac00cc0/Official%20Windows%20Platform%20Sample/Windows%208%20app%20samples/%5BC%2B%2B%5D-Windows%208%20app%20samples/C%2B%2B/Windows%208%20app%20samples/XAudio2%20audio%20file%20playback%20sample%20(Windows%208))中的 BasicSound Windows 8 範例中的 SoundFileReader .h/.cpp。
+> 此內容僅適用于桌面應用程式，且需要修訂才能在 Windows 存放區應用程式中運作。 請參閱 [**CreateFile2**](/windows/win32/api/fileapi/nf-fileapi-createfile2)、 [**CreateEventEx**](/windows/win32/api/synchapi/nf-synchapi-createeventexa)、 [**WaitForSingleObjectEx**](/windows/win32/api/synchapi/nf-synchapi-waitforsingleobjectex)、 [**SetFilePointerEx**](/windows/win32/api/fileapi/nf-fileapi-setfilepointerex)和 [**GetOverlappedResultEx**](/windows/win32/api/ioapiset/nf-ioapiset-getoverlappedresultex)的檔。 請參閱[Windows SDK 範例庫](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/411c271e537727d737a53fa2cbe99eaecac00cc0/Official%20Windows%20Platform%20Sample/Windows%208%20app%20samples/%5BC%2B%2B%5D-Windows%208%20app%20samples/C%2B%2B/Windows%208%20app%20samples/XAudio2%20audio%20file%20playback%20sample%20(Windows%208))中的 BasicSound Windows 8 範例中的 SoundFileReader .h/.cpp。
 
  
 

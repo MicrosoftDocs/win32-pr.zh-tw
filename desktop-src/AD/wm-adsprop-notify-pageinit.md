@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a2718ee30cdbecec7c4e0954636aa14c75f13027
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: fcad6ed359edf195b2355920b08d6010597f33dbc0f4e3b1e4c2438c3841ca47
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104508456"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119024206"
 ---
 # <a name="wm_adsprop_notify_pageinit-message"></a>WM \_ ADSPROP \_ 通知 \_ PAGEINIT 訊息
 

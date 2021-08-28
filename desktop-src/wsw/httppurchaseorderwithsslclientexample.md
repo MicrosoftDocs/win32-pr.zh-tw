@@ -8,12 +8,12 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c1ef11cc6309213dd9f5548c51496f9dfa560a66
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: cb5ec730c524873688f1a1a4fddb9c38f84767230a3d35bb3a2ad3ef8edfb3f9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106966198"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118963147"
 ---
 # <a name="httppurchaseorderwithsslclientexample"></a>HttpPurchaseOrderWithSslClientExample
 
@@ -456,9 +456,9 @@ clean:
     $(CLEANUP)
 ```
 
- 
+ 
 
- 
+ 
 
 
 

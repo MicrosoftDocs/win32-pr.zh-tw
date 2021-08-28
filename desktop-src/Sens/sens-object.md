@@ -4,12 +4,12 @@ ms.assetid: b494808c-1116-47ac-8713-0d515b312368
 title: SENS 物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e9d0d5cd857063d6ac224de66610d2604db619d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1acdf70b5e2229051d569bd1f607ad8db5d3d567b4c0421464757f02bc6a8e4b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975853"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119003946"
 ---
 # <a name="sens-object"></a>SENS 物件
 

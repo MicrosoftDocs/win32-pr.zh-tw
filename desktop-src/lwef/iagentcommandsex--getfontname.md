@@ -4,16 +4,16 @@ description: IAgentCommandsEx GetFontName
 ms.assetid: cd0d0d93-839e-471c-9cfa-9f47dcce841b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 215f08cbe1e5e97b218f9279baff5e3affd74956
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 757b2d7554f1efcee27a519b9df61b4601a237b557c3aa26b6575864144a2850
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372296"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119105234"
 ---
 # <a name="iagentcommandsexgetfontname"></a>IAgentCommandsEx::GetFontName
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 ``` syntax
 HRESULT GetFontName(
@@ -43,9 +43,9 @@ HRESULT GetFontName(
 [**IAgentCommandsEx：： SetFontName**](iagentcommandsex--setfontname.md)、 [ **IAgentCommandsEx：： SetFontSize**](iagentcommandsex--setfontsize.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

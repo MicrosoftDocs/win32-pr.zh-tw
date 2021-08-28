@@ -5,12 +5,12 @@ ms.assetid: ''
 ms.localizationpriority: low
 ms.topic: language-reference
 ms.date: 05/31/2018
-ms.openlocfilehash: beb6f5e397126223e9c0e6959e16a6cca3145517
-ms.sourcegitcommit: 5b98bf8c68922f8f03c14f793fbe17504900559c
+ms.openlocfilehash: 4728e167fe9fbc353c51accaa92d9b9d4086a0bfff3f098f43b93523cd63a792
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "106986433"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119123616"
 ---
 # <a name="raytracingaccelerationstructure"></a>RaytracingAccelerationStructure
 

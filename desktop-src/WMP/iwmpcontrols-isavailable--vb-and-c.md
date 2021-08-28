@@ -14,12 +14,12 @@ api_type:
 - Assembly
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fe0d5d9ffcd6cad6eefb7cdff25fd2cf34b76ccc
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d73562fb4f96731216c30ada33db8e13d1468b31fb6fcefe7eedef6dd7892348
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106998616"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119054846"
 ---
 # <a name="iwmpcontrolsisavailable-vb-and-c"></a>IWMPControls. isAvailable (VB 和 c # ) 
 
@@ -137,10 +137,10 @@ End If
 [**IWMPControls (VB 和 c # )**](wmplibiwmpcontrols-iwmpcontrols-play--vb-and-c.md)
 </dt> <dt>
 
-[**IWMPControls。停止 (VB 和 c # )**](wmplibiwmpcontrols-iwmpcontrols-stop--vb-and-c.md)
+[**IWMPControls (VB 和 c # )**](wmplibiwmpcontrols-iwmpcontrols-stop--vb-and-c.md)
 </dt> <dt>
 
-[**IWMPControls2 (VB 和 c # )**](wmplibiwmpcontrols2-iwmpcontrols2-step--vb-and-c.md)
+[**IWMPControls2 VB 和 c # ) 的步驟 (**](wmplibiwmpcontrols2-iwmpcontrols2-step--vb-and-c.md)
 </dt> </dl>
 
  

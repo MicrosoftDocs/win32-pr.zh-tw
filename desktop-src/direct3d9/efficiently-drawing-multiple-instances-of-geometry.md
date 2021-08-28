@@ -4,12 +4,12 @@ ms.assetid: d8d9b0c8-b1c4-406d-bf2a-9716d725aec7
 title: '有效率地繪製多個 Geometry 實例 (Direct3D 9) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9981dff913b704fca5e6b211b57e3647fddd28c2
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 70586142b58076e5010083f61aeff360aa245a298e5d010fb487aed8b5843ec8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103845972"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119122362"
 ---
 # <a name="efficiently-drawing-multiple-instances-of-geometry-direct3d-9"></a>有效率地繪製多個 Geometry 實例 (Direct3D 9) 
 

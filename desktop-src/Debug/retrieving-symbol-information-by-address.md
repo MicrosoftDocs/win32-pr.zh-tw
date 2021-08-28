@@ -4,12 +4,12 @@ ms.assetid: 63dfadea-b0c4-4050-add8-d1f3aef7a495
 title: 依位址抓取符號資訊
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 29ad9d2879dbfd5820c4aa6c2e7563a1575ebe1c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 6484327117e66826402dc97abb09f58813e528599c69bd97054528f5cfe89aba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110456"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119076382"
 ---
 # <a name="retrieving-symbol-information-by-address"></a>依位址抓取符號資訊
 

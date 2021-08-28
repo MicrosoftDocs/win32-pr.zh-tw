@@ -1,17 +1,17 @@
 ---
-title: 開始使用適用于 Windows 的 DirectX
+title: Windows 的 DirectX 入門
 description: 建立適用于 Windows 的 Microsoft DirectX 遊戲是新開發人員的挑戰。 在這裡，我們將快速審視相關的概念，以及使用 DirectX 和 c + + 開始開發遊戲時必須採取的步驟。
 ms.assetid: fd460c52-9854-4ffe-b89e-5219be2e11f0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4bac8ca2805fed9ec42faf9deda9ddd51da39685
-ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
+ms.openlocfilehash: a6c93944b29546746f88b3edcacaefeeeacde0784e51f82c74f4cd462bc62025
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "110343583"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118986998"
 ---
-# <a name="get-started-with-directx-for-windows"></a>開始使用適用于 Windows 的 DirectX
+# <a name="get-started-with-directx-for-windows"></a>Windows 的 DirectX 入門
 
 建立適用于 Windows 的 Microsoft DirectX 遊戲是新開發人員的挑戰。 在這裡，我們將快速審視相關的概念，以及使用 DirectX 和 c + + 開始開發遊戲時必須採取的步驟。
 
@@ -19,7 +19,7 @@ ms.locfileid: "110343583"
 
 ## <a name="what-skills-do-you-need"></a>您需要哪些技能？
 
-若要開發適用于 Windows 的 DirectX 遊戲，您必須具備一些基本技巧。 具體來說，您必須能夠：
+若要在 DirectX 中開發 Windows 的遊戲，您必須具備一些基本技巧。 具體來說，您必須能夠：
 
 -   讀寫新式 c + + 程式碼 (c + + 11 提供最) 的功能，並熟悉基本的 c + + 設計原則，以及範本和 factory 模型等模式。 您也必須熟悉通用的 c + + 程式庫，例如標準樣板程式庫，並特別說明轉換運算子、指標類型和標準樣板程式庫資料結構 (例如 std：： vector) 。
 -   瞭解基本幾何、三角函數和線性代數。 您在範例中發現的大部分程式碼都假設您瞭解這些形式的數學和其常見規則。

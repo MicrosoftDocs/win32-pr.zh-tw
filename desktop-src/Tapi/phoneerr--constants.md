@@ -4,12 +4,12 @@ ms.assetid: 763a9dc2-3e70-4169-a66e-3aac78ef8d33
 title: 'PHONEERR_ 的常數 (Tapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6b41ba5d14f4aa12318dd4bc9f2b20e4e9e2e6b4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b66c4dd2078b7de1572137ee1d759e7b186328dc5604c9790e444db428eb774a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106987993"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119060656"
 ---
 # <a name="phoneerr_-constants"></a>PHONEERR \_ 常數
 

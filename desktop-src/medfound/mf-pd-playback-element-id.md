@@ -4,12 +4,12 @@ ms.assetid: 355818cf-1e00-46ad-9ce1-ab3a178164f9
 title: 'MF_PD_PLAYBACK_ELEMENT_ID 屬性 (Mfidl) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 744a1d164c71cbd7eb8bb47ef12be68d47b8351d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 775aca29ab1cea36be9a2b87d64566210c03f6d6771d3493c73d34572975671e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106996975"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119102885"
 ---
 # <a name="mf_pd_playback_element_id-attribute"></a>MF \_ PD \_ 播放 \_ 元素 \_ 識別碼屬性
 
@@ -48,7 +48,7 @@ ms.locfileid: "106996975"
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 7 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                  |
-| 最低支援的伺服器<br/> | Windows Server 2008 R2 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                     |
+| 最低支援的伺服器<br/> | WindowsServer 2008 R2 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                     |
 | 標頭<br/>                   | <dl> <dt>Mfidl。h</dt> </dl> |
 
 

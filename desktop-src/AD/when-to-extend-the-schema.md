@@ -8,12 +8,12 @@ keywords:
 - 架構 AD，何時擴充
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 18c182b346fd1e31bc549325260d9b57d75bbb63
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 042665069b06804dd648798debca6e0cee5628e115f5f512718ea0a51cc765ca
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106967398"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119024326"
 ---
 # <a name="when-to-extend-the-schema"></a>延伸架構的時機
 
@@ -33,9 +33,9 @@ ms.locfileid: "106967398"
 
 無論您是將現有類別的子類別或修改現有的類別，都要擴充 Active Directory 消費者和電腦嵌入式管理單元之類的工具來管理物件的擴充屬性。 如需詳細資訊，請參閱 [擴充目錄物件的消費者介面](extending-the-user-interface-for-directory-objects.md)。
 
- 
+ 
 
- 
+ 
 
 
 

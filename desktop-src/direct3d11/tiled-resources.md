@@ -4,12 +4,12 @@ description: 您可以將已平平的資源視為大型邏輯資源，其使用�
 ms.assetid: 03083460-192b-40cb-8ee1-76df6d95f72b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a7c7e6aaf60f58f55274c9d7a135b9107933f640
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e73835d6603d1d8d7e708cd422e3991bb88ac1f91cebf016ccce36f2466270c1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839432"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119124086"
 ---
 # <a name="tiled-resources"></a>磚資源
 

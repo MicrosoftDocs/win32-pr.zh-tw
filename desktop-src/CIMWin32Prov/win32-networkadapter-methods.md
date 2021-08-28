@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Win32_NetworkAdapter 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 915fa1e5afdaf1fd26cd0c8f7806b435d26ec962
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 8b13463ffa929a035344c58ea95d157f536949b4bce51514f0ce7ba5d167d100
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111357"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119020236"
 ---
 # <a name="win32_networkadapter-methods"></a>Win32 \_ NetworkAdapter 方法
 

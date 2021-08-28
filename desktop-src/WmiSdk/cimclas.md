@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: CIM 類別 (WMI)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: baa0a887ffcac216012296e47838badcd7892d6e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f215d12aaac6acab652a374fa33f51a4c33e1f5aba4053d30c0c6cae364220ae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "107000301"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119131700"
 ---
 # <a name="cim-classes-wmi"></a>CIM 類別 (WMI)
 
@@ -23,7 +23,7 @@ ms.locfileid: "107000301"
 
 
 
-| CIM 類別                                                                                                     | Description                                                                                                                                                                                                                                                                                                                                                                                           |
+| CIM 類別                                                                                                     | 描述                                                                                                                                                                                                                                                                                                                                                                                           |
 |---------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**CIM \_ 動作**](/windows/desktop/CIMWin32Prov/cim-action)<br/>                                                             | 在下一個狀態建立軟體專案，或刪除目前狀態中的 software 元素。<br/>                                                                                                                                                                                                                                                                                      |
 | [**CIM \_ ActionSequence**](/windows/desktop/CIMWin32Prov/cim-actionsequence)<br/>                                             | 定義一系列的作業，這些作業會將 [**CIM \_ SoftwareElementActions**](/windows/desktop/CIMWin32Prov/cim-softwareelementactions) 關聯) 參考的軟體專案 (轉換為下一個狀態，或從其目前的狀態中移除軟體元素。<br/>                                                                                                                                      |
@@ -252,7 +252,7 @@ ms.locfileid: "107000301"
 | [**CIM \_ ProductSupport**](/windows/desktop/CIMWin32Prov/cim-productsupport)<br/>                                             | 表示產品與支援存取之間的關聯，可傳達如何取得產品的支援。<br/>                                                                                                                                                                                                                                                                         |
 | [**CIM \_ ProtectedSpaceExtent**](/windows/desktop/CIMWin32Prov/cim-protectedspaceextent)<br/>                                 | 代表可定址的邏輯區塊位址，這些位址會被視為單一儲存範圍，但位於單一實體範圍。<br/>                                                                                                                                                                                                                                                 |
 | [**CIM \_ ProtocolController**](/previous-versions/windows/desktop/iscsitarg/cim-protocolcontroller)<br/>                                          | 用於群組控制器的超級類別，可用來控制複雜裝置的作業和功能，以具現化通訊協定（例如 SCSI）。 更簡單的匯流排和裝置控制器是使用 [**CIM \_ 控制器**](/windows/desktop/CIMWin32Prov/cim-controller) 類別來建立模型。<br/>                                                                                                                |
-| [**CIM \_ ProtocolControllerForUnit**](/previous-versions//cc150672(v=vs.85))<br/>                            | 此關聯是用來定義 ProtocolController 與公開邏輯單元之間的關聯性 (例如儲存磁片區或 MediaAccessDevice，例如磁帶機) 。<br/>                                                                                                                                                                                                     |
+| [**CIM \_ ProtocolControllerForUnit**](/previous-versions//cc150672(v=vs.85))<br/>                            | 此關聯是用來定義 ProtocolController 與已公開邏輯單元之間的關聯性 (例如儲存體磁片區或 MediaAccessDevice （例如磁帶機) ）。<br/>                                                                                                                                                                                                     |
 | [**CIM \_ ProtocolEndpoint**](/previous-versions/windows/desktop/iscsitarg/cim-protocolendpoint)<br/>                                              | 可從中傳送或接收資料的通訊點。 通訊協定端點將系統或電腦介面連結至邏輯網路。<br/>                                                                                                                                                                                                                                                  |
 | [**CIM \_ PSExtentBasedOnPExtent**](/windows/desktop/CIMWin32Prov/cim-psextentbasedonpextent)<br/>                             | 使以實體範圍為基礎的受保護空間範圍產生關聯。<br/>                                                                                                                                                                                                                                                                                                                    |
 | [**CIM \_ 機架**](/windows/desktop/CIMWin32Prov/cim-rack)<br/>                                                                 | 代表用來儲存底座 (實體框架或主機殼) 的機架。<br/>                                                                                                                                                                                                                                                                                                             |

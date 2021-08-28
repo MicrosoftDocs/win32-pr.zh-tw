@@ -4,16 +4,16 @@ ms.assetid: d5f1e10f-e5ad-45e6-a5ec-024905603012
 title: 'ITMediaCollection：： get_EnumerationIf 方法 (Sdpblb .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 28a7e7d85c1f7a433a31360fabc8b5dac71e68ad
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: dfe14475e216b5143b599aab50d12d1d0c548b5f64dd8e44edd2e6aab249905c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106983115"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119060856"
 ---
 # <a name="itmediacollectionget_enumerationif-method"></a>ITMediaCollection：： get \_ EnumerationIf 方法
 
-\[ 在 Windows Vista、Windows Server 2008 和後續版本的作業系統中，無法使用會合 IP 電話語音會議控制項和介面。 RTC 用戶端 API 提供類似的功能。\]
+\[Windows Vista、Windows Server 2008 及後續版本的作業系統無法使用會合 IP 電話語音會議控制項和介面。 RTC 用戶端 API 提供類似的功能。\]
 
 **Get \_ EnumerationIf** 方法會取得媒體列舉介面的指標。
 

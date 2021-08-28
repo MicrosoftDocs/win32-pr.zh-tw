@@ -3,17 +3,17 @@ title: 服務模型層總覽
 description: WWSAPI 服務模型 API 會將用戶端與服務之間的通訊模型為方法呼叫，而不是資料訊息。
 ms.assetid: a1ed1e3c-94ae-4383-9251-83caf2e3ebf3
 keywords:
-- 適用于 Windows 的服務模型層總覽 Web 服務
+- Windows 的服務模型層級總覽 Web 服務
 - WWSAPI
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c74861f0e2ed13b35e308d1314aec2a33dc28c31
-ms.sourcegitcommit: 5b98bf8c68922f8f03c14f793fbe17504900559c
+ms.openlocfilehash: 0b182678568c7825cbf0b18bbbfd132dd5287d3f05b9ae6a372e6e5c70cd06d8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "104321423"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118962946"
 ---
 # <a name="service-model-layer-overview"></a>服務模型層總覽
 
@@ -87,19 +87,19 @@ targetNamespace="http://Example.org" xmlns:xs="http://www.w3.org/2001/XMLSchema"
 
 [WsUtil.exe](web-service-compiler-tool.md)會產生服務的標頭和來源，以及用戶端的用戶端服務作業。
 
-## <a name="calling-the-calculator-service-from-a-client&quot;></a>從用戶端呼叫計算機服務
+## <a name="calling-the-calculator-service-from-a-client"></a>從用戶端呼叫計算機服務
 
 如同服務的執行，用戶端必須包含產生的標頭或標頭。
 
 ``` syntax
-#include &quot;CalculatorProxyStub.h&quot;
+#include "CalculatorProxyStub.h"
 ```
 
 現在，用戶端應用程式可以建立並開啟服務 proxy，以開始與計算機服務進行通訊。
 
 ``` syntax
 WS_ENDPOINT_ADDRESS address = {0};
-WS_STRING uri= WS_STRING_VALUE(L&quot;http://localhost/example");
+WS_STRING uri= WS_STRING_VALUE(L"http://localhost/example");
 address.uri = uri;
 
 if (FAILED (hr = WsCreateServiceProxy(WS_CHANNEL_TYPE_REQUEST, WS_HTTP_CHANNEL_BINDING, NULL, NULL, 0, &serviceProxy, error)))

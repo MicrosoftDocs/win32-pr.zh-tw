@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: bc602192634fbd49351cde53da2f6360ce9f632f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f18377aece83d810ac5129f47c3476c99f166494ca1e0dc37cba887e87cc3630
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972804"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118983838"
 ---
 # <a name="api-class"></a>Api 類別
 

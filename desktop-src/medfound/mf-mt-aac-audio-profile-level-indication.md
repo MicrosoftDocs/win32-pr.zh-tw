@@ -4,12 +4,12 @@ ms.assetid: 87fa1127-46ca-4b83-a3b5-99253af22ba0
 title: 'MF_MT_AAC_AUDIO_PROFILE_LEVEL_INDICATION 屬性 (Mfapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 116bfc2b41cff3cbd92fc9a60be150ea598e1cc0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 89934c55ff07124c28952c621513ddd4fd8db504c6e9df7cc6094f8ba7b875ed
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106984837"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119104564"
 ---
 # <a name="mf_mt_aac_audio_profile_level_indication-attribute"></a>MF \_ MT \_ AAC \_ 音訊 \_ 設定檔 \_ 層級 \_ 指示屬性
 

@@ -4,12 +4,12 @@ ms.assetid: ae8a0a3e-293c-8193-d252-046d79771cfb
 title: ADPCM 總覽
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7fb918a611cb0840b2f02dfb13b547b795fb3304
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6e1be1155d6d9f5a542b605c497ce28aa34191c0ac129582c18ec4a47b9f510f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106979221"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118962717"
 ---
 # <a name="adpcm-overview"></a>ADPCM 總覽
 
@@ -20,7 +20,7 @@ ms.locfileid: "106979221"
 XAudio2 會使用 Microsoft ADPCM 編解碼器的修改版本，以支援提供自訂範例區塊大小所需的擴充資料格式。 基於這個理由，不支援這個 ADPCM 編解碼器版本的音訊引擎無法播放 XAudio2 音訊資料。
 
 > [!Note]  
-> 目前，ADPCM 壓縮僅適用于 Windows，包括適用于 Windows 部署的 windows 部署版的 windows 部署。
+> 目前，ADPCM 壓縮僅適用于 Windows，包括適用于 Windows 部署的適用遊戲 Studio Express。
 
  
 
@@ -80,7 +80,7 @@ ADPCM 檔案是具有下列區塊類型的標準 RIFF 檔。
 | RIFF          | 標準 RIFF 區塊包含檔案類型，其資料區段的前四個位元組中的值為 WAVE，以及其資料區段其餘部分中檔案的其他區塊。                                                                                                                                                                                                                                                                 |
 | Fmt           | 包含 ADPCM 檔案的格式標頭。 這個區塊中的資料會對應至 **ADPCMWAVEFORMAT** 結構。                                                                                                                                                                                                                                                                                                                             |
 | data          | 包含編碼的 ADPCM 音訊資料。 當您在 XAudio2 中使用 ADPCM 時，您需要將資料區塊的內容讀取至緩衝區，並將其傳遞至來源聲音，作為 [**XAudio2 \_ 緩衝區**](/windows/desktop/api/xaudio2/ns-xaudio2-xaudio2_buffer)結構的 **pAudioData** 成員。 您不需要位元組交換資料區塊的內容。                                                                                                                            |
-| smpl 和 wsmp | 選用的區塊類型，包含 ADPCM 檔案的迴圈資訊。 當您在 XAudio2 中使用 ADPCM 時，smpl 或 wsmp 區塊中包含的值會用來填入 [**LoopBeginLoopLength \_ 緩衝區**](/windows/desktop/api/xaudio2/ns-xaudio2-xaudio2_buffer)結構的 **LoopCount** 和 **XAudio2** 成員。 在 Xbox 360 上，您必須以位元組交換從 smpl 區塊載入的資料，以考慮 Windows 與 Xbox 360 之間的位元組順序差異。 |
+| smpl 和 wsmp | 選用的區塊類型，包含 ADPCM 檔案的迴圈資訊。 當您在 XAudio2 中使用 ADPCM 時，smpl 或 wsmp 區塊中包含的值會用來填入 [**LoopBeginLoopLength \_ 緩衝區**](/windows/desktop/api/xaudio2/ns-xaudio2-xaudio2_buffer)結構的 **LoopCount** 和 **XAudio2** 成員。 在 Xbox 360 上，您必須以位元組交換從 smpl 區塊載入的資料，以考慮 Windows 和 Xbox 360 之間的位元組順序差異。 |
 
 
 

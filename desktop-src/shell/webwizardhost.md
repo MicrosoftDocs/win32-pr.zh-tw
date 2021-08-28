@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shldisp.h
-ms.openlocfilehash: 1fbaf53db11fda577e9e9c5384af5f7c62fe1944
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c5bcf40a77c2f464d5277ac4823ed74a3f3c2bdd6a2114d2431684cc8b319f66
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103944174"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118967746"
 ---
 # <a name="webwizardhost-object"></a>WebWizardHost 物件
 
@@ -55,7 +55,7 @@ ms.locfileid: "103944174"
 
 
 
-| 屬性                                               | 存取類型           | Description                                              |
+| 屬性                                               | 存取類型           | 描述                                              |
 |:-------------------------------------------------------|:----------------------|:---------------------------------------------------------|
 | [**標題**](iwebwizardhost-caption.md)<br/>   | 讀取/寫入<br/> | 未實作。<br/>                              |
 | [**屬性**](iwebwizardhost-property.md)<br/> | 讀取/寫入<br/> | 設定或抓取屬性的目前值。<br/> |
@@ -70,10 +70,10 @@ ms.locfileid: "103944174"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                            |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                   |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                            |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                   |
 | 標頭<br/>                   | <dl> <dt>Shldisp。h</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl> |
 | IID<br/>                      | CLSID \_ WebWizardHost<br/>                                                        |
 
 

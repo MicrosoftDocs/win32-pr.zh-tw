@@ -4,12 +4,12 @@ ms.assetid: 3779f83b-0d87-4f47-949b-9eb39690adfb
 title: 驗證簽章
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e9a416dc2c3f7523af781e68fe78b066accbe6d9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 26b3ea56533a9e04a53d847c80b1172ff155e847b8c9d5cf9b0f2ab3e24c8ba0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114109"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118896241"
 ---
 # <a name="verifying-a-signature"></a>驗證簽章
 

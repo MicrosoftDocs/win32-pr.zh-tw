@@ -9,18 +9,18 @@ keywords:
 - 終端機服務查看遠端桌面服務遠端桌面服務
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f39e176473c98f1e240d58592463df749a95f939
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 525f62433c10c8c4f750a8ae1abbfa9496f2f096139c182a677c9dbf69ce4a17
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "106967706"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118999898"
 ---
 # <a name="remote-desktop-services-remote-desktop-services"></a>遠端桌面服務 (遠端桌面服務) 
 
 ## <a name="purpose"></a>目的
 
-Windows Server 2012 R2、Windows Server 2012、Windows Server 2008 R2 或 Windows Server 2008 （具有遠端桌面服務 (前身為終端機服務）) 讓伺服器同時裝載多個用戶端會話。 遠端桌面使用遠端桌面服務技術，讓單一會話可以從遠端執行。 使用者可以使用 () RDC 遠端桌面連線用戶端軟體，連接到遠端桌面工作階段主機 (RD 工作階段主機) server (先前稱為終端機伺服器) 。 遠端桌面網頁連線將遠端桌面服務的技術延伸至網路。
+Windows Server 2012R2、Windows Server 2012、Windows Server 2008 R2 或 Windows Server 2008 搭配先前稱為終端機服務的遠端桌面服務 (，可讓伺服器同時裝載多個用戶端會話。 遠端桌面使用遠端桌面服務技術，讓單一會話可以從遠端執行。 使用者可以使用 () RDC 遠端桌面連線用戶端軟體，連接到遠端桌面工作階段主機 (RD 工作階段主機) server (先前稱為終端機伺服器) 。 遠端桌面網頁連線將遠端桌面服務的技術延伸至網路。
 
 > [!Note]  
 > 本主題適用于軟體發展人員。 如果您要尋找遠端桌面連線的使用者資訊，請參閱 [遠端桌面連線：常見問題](https://windows.microsoft.com/windows/remote-desktop-connection-faq#1TC=windows-8)。
@@ -29,15 +29,15 @@ Windows Server 2012 R2、Windows Server 2012、Windows Server 2008 R2 或 Window
 
 ## <a name="where-applicable"></a>適用時
 
-遠端桌面連線 (RDC) 用戶端可以存在於各種不同的表單中。 執行內嵌 Windows 作業系統的瘦用戶端硬體裝置可以執行 RDC 用戶端軟體，以連接到 RD 工作階段主機伺服器。 Windows-、Macintosh 或 UNIX 電腦可以執行 RDC 用戶端軟體，以連線到 RD 工作階段主機伺服器以顯示 Windows 應用程式。 這種 RDC 用戶端組合可讓您從幾乎任何作業系統存取以 Windows 為基礎的應用程式。
+遠端桌面連線 (RDC) 用戶端可以存在於各種不同的表單中。 執行內嵌 Windows 型作業系統的瘦用戶端硬體裝置可以執行 RDC 用戶端軟體，以連線到 RD 工作階段主機伺服器。 Windows 的、Macintosh 或 UNIX 型電腦可以執行 RDC 用戶端軟體，以連線到 RD 工作階段主機伺服器以顯示 Windows 型應用程式。 這種 RDC 用戶端組合可讓您從幾乎任何作業系統存取 Windows 應用程式。
 
 ## <a name="developer-audience"></a>開發人員對象
 
-使用遠端桌面服務的開發人員應該熟悉 C 和 c + + 程式設計語言，以及 Windows 架構的程式設計環境。 需要熟悉用戶端/伺服器架構。 遠端桌面網頁連線包含可編寫腳本的介面，可在遠端桌面服務 Web 應用程式中建立和部署可編寫腳本的虛擬通道。
+使用遠端桌面服務的開發人員應該熟悉 C 和 c + + 程式設計語言，以及以 Windows 為基礎的程式設計環境。 需要熟悉用戶端/伺服器架構。 遠端桌面網頁連線包含可編寫腳本的介面，可在遠端桌面服務 Web 應用程式中建立和部署可編寫腳本的虛擬通道。
 
 ## <a name="run-time-requirements"></a>執行階段需求求
 
-使用遠端桌面服務的應用程式需要 Windows Server 2012 R2、Windows 8.1、Windows Server 2012、Windows 8、Windows Server 2008 R2、Windows 7、Windows Server 2008 或 Windows Vista。 若要使用遠端桌面網頁連線的功能，遠端桌面服務用戶端應用程式需要 Internet Explorer 和全球 Web 的連接。 如需特定程式設計專案之執行時間需求的詳細資訊，請參閱該元素之 [參考] 頁面的 [需求] 區段。
+使用遠端桌面服務的應用程式需要 Windows Server 2012 R2、Windows 8.1、Windows Server 2012、Windows 8、Windows server 2008 R2、Windows 7、Windows server 2008 或 Windows Vista。 若要使用遠端桌面網頁連線的功能，遠端桌面服務用戶端應用程式需要 Internet Explorer 和全球 Web 的連接。 如需特定程式設計專案之執行時間需求的詳細資訊，請參閱該元素之 [參考] 頁面的 [需求] 區段。
 
 ## <a name="in-this-section"></a>本節內容
 
@@ -64,10 +64,10 @@ Windows Server 2012 R2、Windows Server 2012、Windows Server 2008 R2 或 Window
 
 </dd> <dt>
 
-[RemoteFX 媒體重新導向 API](remotefx-api.md)
+[RemoteFX媒體重新導向 API](remotefx-api.md)
 </dt> <dd>
 
-在遠端桌面會話中，會使用 RemoteFX 媒體重新導向 API 來識別伺服器的區域，以顯示快速變更內容，例如影片。 然後，此內容可以編碼並以編碼格式傳送至用戶端。
+在遠端桌面會話中使用 RemoteFX 媒體重新導向 API，以識別顯示快速變更內容之伺服器的區域，例如影片。 然後，此內容可以編碼並以編碼格式傳送至用戶端。
 
 </dd> <dt>
 

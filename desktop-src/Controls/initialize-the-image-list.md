@@ -4,12 +4,12 @@ description: 樹狀檢視控制項中的每個專案都可以有兩個相關聯�
 ms.assetid: 3683DB35-D70F-4181-9181-95354599B9FB
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 011d789da4eec39febae9d93436e23c23fa59507
-ms.sourcegitcommit: 3e70ae762629e244028b437420ed50b5850db4e3
+ms.openlocfilehash: d2b8edcff0d07f46aa6eb8612ddbbfa37145c5ab26ab463a7d57e9e6543430e3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "104092554"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119019346"
 ---
 # <a name="how-to-initialize-the-image-list"></a>如何初始化影像清單
 
@@ -19,12 +19,12 @@ ms.locfileid: "104092554"
 
 ### <a name="technologies"></a>技術
 
--   [Windows 控制項](window-controls.md)
+-   [Windows控制](window-controls.md)
 
 ### <a name="prerequisites"></a>必要條件
 
 -   C/C++
--   Windows 消費者介面程式設計
+-   Windows消費者介面程式設計
 
 ## <a name="instructions"></a>指示
 
@@ -95,9 +95,9 @@ BOOL InitTreeViewImageLists(HWND hwndTV)
 [CustDTv 範例說明 Tree-View 控制項中的自訂繪圖](https://support.microsoft.com/default.aspx?scid=kb;EN-US;q248496)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

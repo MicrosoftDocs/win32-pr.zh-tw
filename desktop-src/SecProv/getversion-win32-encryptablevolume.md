@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Root\CIMV2\Security\MicrosoftVolumeEncryption
-ms.openlocfilehash: 25952c29b6db6db045fe839951d76994cc907b91
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0681498a0d075fa22bada520e22c0ae626a4764d1a917f7090b796f05d66b122
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972190"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118891899"
 ---
 # <a name="getversion-method-of-the-win32_encryptablevolume-class"></a>Win32 EncryptableVolume 類別的 GetVersion 方法 \_
 
@@ -51,8 +51,8 @@ uint32 GetVersion(
 | 值                                                                                                                                                                                                                       | 意義                                                                                                                                                                                                                                   |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="Unknown"></span><span id="unknown"></span><span id="UNKNOWN"></span><dl> <dt>**未知**</dt>的 <dt>0</dt> </dl> | 作業系統未知。<br/>                                                                                                                                                                                               |
-| <span id="Vista"></span><span id="vista"></span><span id="VISTA"></span><dl> <dt>**Vista**</dt> <dt>1</dt> </dl>         | Windows Vista 格式，這表示在執行 Windows Vista 的電腦上，磁片區受到 BitLocker 保護。<br/>                                                                                                                |
-| <span id="Win7"></span><span id="win7"></span><span id="WIN7"></span><dl> <dt>**Win7**</dt> <dt>2</dt> </dl>             | Windows 7 格式，表示在執行 Windows 7 的電腦上使用 BitLocker 保護磁片區，或使用 [**UpgradeVolume**](upgradevolume-win32-encryptablevolume.md) 方法升級元資料格式。<br/> |
+| <span id="Vista"></span><span id="vista"></span><span id="VISTA"></span><dl> <dt>**Vista**</dt> <dt>1</dt> </dl>         | Windowsvista 格式，這表示在執行 Windows Vista 的電腦上，磁片區受到 BitLocker 保護。<br/>                                                                                                                |
+| <span id="Win7"></span><span id="win7"></span><span id="WIN7"></span><dl> <dt>**Win7**</dt> <dt>2</dt> </dl>             | Windows 7 格式，這表示在執行 Windows 7 的電腦上使用 BitLocker 保護磁片區，或使用 [**UpgradeVolume**](upgradevolume-win32-encryptablevolume.md)方法升級元資料格式。<br/> |
 
 
 
@@ -90,8 +90,8 @@ uint32 GetVersion(
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 7 企業版，僅限 Windows 7 旗艦版傳統型 \[ 應用程式\]<br/>                               |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/>                                                 |
+| 最低支援的用戶端<br/> | Windows 7 企業版， \[ 僅 Windows 7 旗艦版桌面應用程式\]<br/>                               |
+| 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/>                                                 |
 | 命名空間<br/>                | 根 \\ CIMV2 \\ 安全性 \\ MicrosoftVolumeEncryption<br/>                                             |
 | MOF<br/>                      | <dl> <dt>Win32 \_ encryptablevolume mof</dt> </dl> |
 

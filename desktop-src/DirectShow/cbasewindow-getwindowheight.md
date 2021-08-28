@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 88189fd3d5b881ab6c88063ef9e1d7d0aedbe9ba
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f88cedc63b2132345c57079ea25f64fd4a1829f2bc394d71746567105a950d0c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106977513"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119016626"
 ---
 # <a name="cbasewindowgetwindowheight-method"></a>CBaseWindow. GetWindowHeight 方法
 

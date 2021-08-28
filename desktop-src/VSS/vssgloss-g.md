@@ -5,12 +5,12 @@ ms.assetid: a7c769cf-6f81-45fe-8bea-c16b0da37bfb
 title: 'G (磁碟區陰影複製服務) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 72c9dd4e480cc738ee03b6b2f7c3e2b060b435d9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4e0b38c8346c362ed4795af691e97f35eef5691751db4462cacd06123b994623
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113169"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119056186"
 ---
 # <a name="g-volume-shadow-copy-service"></a>G (磁碟區陰影複製服務) 
 
@@ -18,7 +18,7 @@ ms.locfileid: "104113169"
 
 <dl> <dt>
 
-<span id="base.vssgloss_guid"></span><span id="BASE.VSSGLOSS_GUID"></span>**Guid**
+<span id="base.vssgloss_guid"></span><span id="BASE.VSSGLOSS_GUID"></span>**GUID**
 </dt> <dd>
 
 全域唯一識別碼。 16位元組的資料結構，您可以用來以全域獨特的方式來識別物件。

@@ -4,12 +4,12 @@ ms.assetid: 3d36808b-aa13-4205-ad92-97e951ee827e
 title: 'MF_PD_ASF_FILEPROPERTIES_PLAY_DURATION 屬性 (Wmcontainer) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ac62dfbd86dfcbd001555343309568033787186b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fc0e4609f70fa96a0e08339e496b1d7ed6ac7004108ec56ff870ed6f4e7fcb6c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944689"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119104344"
 ---
 # <a name="mf_pd_asf_fileproperties_play_duration-attribute"></a>MF \_ PD \_ ASF \_ FILEPROPERTIES \_ 播放 \_ 持續時間屬性
 
@@ -57,8 +57,8 @@ HRESULT GetPlayDuration(
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                     |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                     |
 | 標頭<br/>                   | <dl> <dt>Wmcontainer。h</dt> </dl> |
 
 

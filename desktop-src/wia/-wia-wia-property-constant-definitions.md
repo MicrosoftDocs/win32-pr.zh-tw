@@ -9,18 +9,18 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 0fec89e2e10b019b7186482609d3ab4089ede692
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6539e14daf6a1fc124c177713f3056b981fd6c00ac9a41392ed03ae8759319cc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973854"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118965447"
 ---
 # <a name="wia-property-constant-definitions"></a>WIA 屬性常數定義
 
 以下是 Windows 映像取得 (WIA) 屬性易記名稱和數值識別碼的清單。 這些會以 Microsoft Visual Basic 常數定義的形式呈現，以方便包含在應用程式或腳本中。
 
-對於 Visual Basic 應用程式，請新增「Microsoft Windows 映像取得1.01 型別程式庫」的參考，其中會提供這些常數作為列舉類型。
+對於 Visual Basic 應用程式，請新增「Microsoft Windows 影像取得1.01 型別程式庫」的參考，其中會提供這些常數作為列舉類型。
 
 
 ```

@@ -1,25 +1,25 @@
 ---
-title: Windows Media Format SDK 常數
-description: 這些文章說明 Windows Media DRM 用戶端擴充 Api 的物件所使用的常數。
+title: Windows媒體格式 SDK 常數
+description: 這些文章說明 Windows 媒體 DRM 用戶端擴充 api 的物件所使用的常數。
 ms.assetid: 4a481813-c876-4603-85e3-7652e3e20c02
 keywords:
-- Windows Media Format SDK，常數
+- Windows媒體格式 SDK，常數
 - 數位版權管理 (DRM) ，常數
 - DRM (數位版權管理) ，常數
 - DRM 用戶端擴充 Api，常數
 - 用戶端擴充 Api，常數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 79e246665761d8d85afef03641d1f9f0c20b1f69
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 1f18ea308afd33be67fa19d30ee60b629bf12192b6cc53fc26cc6569d52f8dd6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112406211"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118964147"
 ---
-# <a name="windows-media-format-sdk-constants"></a>Windows Media Format SDK 常數
+# <a name="windows-media-format-sdk-constants"></a>Windows媒體格式 SDK 常數
 
-本節說明 Windows Media DRM 用戶端擴充 Api 的物件所使用的常數。 它包含下表所列的主題。
+本節說明 Windows 媒體 DRM 用戶端擴充 api 的物件所使用的常數。 它包含下表所列的主題。
 
 
 

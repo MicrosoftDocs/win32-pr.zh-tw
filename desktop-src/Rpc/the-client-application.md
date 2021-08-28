@@ -4,12 +4,12 @@ description: " (RPC) 範例中，查看遠端程序呼叫的用戶端應用程�
 ms.assetid: 8c33801a-341a-4674-bd41-5bdca7e244fb
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 02e0b798543cd70e61f3ff1161503fa64710e53e
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 570e883d908a12a053052945675e8819c3dbdcc8bb6a30fba787f1f62c49e9e5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112405011"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118924547"
 ---
 # <a name="the-client-application"></a>用戶端應用程式
 

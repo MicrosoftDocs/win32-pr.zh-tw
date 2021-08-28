@@ -4,12 +4,12 @@ ms.assetid: b8d8a0b7-b520-44e4-8691-6eb46202c092
 title: 編譯效果 (Direct3D 10)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ab6183f2f71b07c482fa24efc4f9fed199216d75
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: d6e0c4364fab67b0e0e7c97b7478a023f6394b5515e6f1d16cf2d352172af6c9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104187653"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119128423"
 ---
 # <a name="compile-an-effect-direct3d-10"></a>編譯效果 (Direct3D 10)
 

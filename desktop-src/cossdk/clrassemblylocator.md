@@ -11,12 +11,12 @@ api_name:
 - ClrAssemblyLocator
 api_type:
 - COM
-ms.openlocfilehash: ff5c1d21525a950208c1b919d4dee0e2122d2e50
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 78f041e8bdc614b1ac6007e21ffbf46ea4afe789a501bb1acefdd21263031859
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847171"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119129270"
 ---
 # <a name="clrassemblylocator-class"></a>ClrAssemblyLocator 類別
 
@@ -46,7 +46,7 @@ ms.locfileid: "103847171"
 
 若要建立這個物件，請呼叫 [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance)。
 
-若要從 Microsoft Visual Basic 使用這個類別，請新增 COM + 服務類型程式庫的參考。 您可以使用 "COMSVCSLib. ClrAssemblyLocator" 將 ClrAssemblyLocator 物件宣告為類別名稱。
+若要從 Microsoft Visual Basic 使用這個類別，請新增 com + 服務類型程式庫的參考。 您可以使用 "COMSVCSLib. ClrAssemblyLocator" 將 ClrAssemblyLocator 物件宣告為類別名稱。
 
 ## <a name="requirements"></a>規格需求
 
@@ -54,8 +54,8 @@ ms.locfileid: "103847171"
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 Windows XP （含 SP1） \[ 桌面應用程式\]<br/>                                 |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                 |
+| 最低支援的用戶端<br/> | Windows僅限 XP （含 SP1） \[ 桌面應用程式\]<br/>                                 |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                 |
 | 標頭<br/>                   | <dl> <dt>ComSvcs。h</dt> </dl> |
 
 

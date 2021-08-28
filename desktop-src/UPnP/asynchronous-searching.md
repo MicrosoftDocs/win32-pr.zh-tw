@@ -4,12 +4,12 @@ description: 裝置搜尋工具物件可啟用同步和非同步搜尋。 非同
 ms.assetid: 809cfb65-9d08-427b-90d9-b8a836176341
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a57377eb8ae5a49fc9bafe81f90b9ee7c602ae4f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: fe3482e041798db929d1719e1a404823f161f9bf5b0e499f4eca1694df24b38a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103932491"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119058136"
 ---
 # <a name="asynchronous-searching"></a>非同步搜尋
 
@@ -27,7 +27,7 @@ ms.locfileid: "103932491"
 > [!Note]  
 > 在回呼程式碼中，應用程式無法釋出接收通知的物件，例如新的裝置，也無法取消搜尋。
 
- 
+ 
 
 ## <a name="c-example"></a>C + + 範例
 
@@ -77,9 +77,9 @@ End Sub
 
 
 
- 
+ 
 
- 
+ 
 
 
 

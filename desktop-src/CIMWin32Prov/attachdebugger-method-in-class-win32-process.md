@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 041bdeeab634ebed5c7ec2eccffe01f7cecce709
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 86ec5e31afef484733381d94bfdfa48595401d963443c2ab407ee6166d5d0f4b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847116"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118959167"
 ---
 # <a name="attachdebugger-method-of-the-win32_process-class"></a>Win32 進程類別的 AttachDebugger 方法 \_
 

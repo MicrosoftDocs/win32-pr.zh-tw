@@ -3,7 +3,7 @@ title: 'LVM_GETUNICODEFORMAT 訊息 (Commctrl .h) '
 description: 抓取控制項的 UNICODE 字元格式旗標。 您可以明確地傳送此訊息，或使用 ListView \_ GetUnicodeFormat 宏。
 ms.assetid: b0598b60-4d0e-4c68-b63a-e614c6268129
 keywords:
-- LVM_GETUNICODEFORMAT message Windows 控制項
+- LVM_GETUNICODEFORMAT 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 720a65baab8ec9c1ec3b311e49fe3672c97a0fba
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9b3166d7349bf138fa853523c019a4c1db86e3f1a2d81a6da86c4ef25b5ed405
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103844088"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119019256"
 ---
 # <a name="lvm_getunicodeformat-message"></a>LVM \_ GETUNICODEFORMAT 訊息
 
@@ -49,8 +49,8 @@ ms.locfileid: "103844088"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

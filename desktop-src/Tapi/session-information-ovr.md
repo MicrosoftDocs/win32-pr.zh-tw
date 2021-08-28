@@ -4,12 +4,12 @@ ms.assetid: 0d9ba91d-3455-4237-816f-3f0860dbfe5a
 title: 工作階段資訊
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 569a1e9a60b33c81f4a613a57eab0409f0e66840
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: de718caa3f7c39db63a259c85e7245a6aeba34f35608a8b4d11e08cf5854a74c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106992613"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119060376"
 ---
 # <a name="session-information"></a>工作階段資訊
 

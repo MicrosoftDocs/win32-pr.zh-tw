@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 63fc4ed8c387c7fbe083e64311442b9e12176e5d
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 37aba33168993df0e6e2853ea5bbc5f618863c3f025b28ab8ab98b81025486bf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104092671"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119100900"
 ---
 # <a name="basicdevicecanwakedevices-property"></a>BasicDevice. CanWakeDevices 屬性
 
@@ -33,7 +33,7 @@ ms.locfileid: "104092671"
 
 ```C++
 HRESULT get_CanWakeDevices(
-  [out] boolean *value
+  [out] boolean *value
 );
 ```
 
@@ -50,6 +50,6 @@ HRESULT get_CanWakeDevices(
 [**BasicDevice**](/previous-versions/windows/desktop/legacy/hh828813(v=vs.85))
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -4,18 +4,18 @@ ms.assetid: 71c05393-3f8c-42c0-9060-e0df9b5e2578
 title: 以最終狀態為基礎的多播程式設計
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6abfebfc7efe27f1c5a6d63312c376bd659dce57
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8ad31f0c840228e1fea729582f5e259ec92c4a04381752ed9ee50db2586b3b29
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973845"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119132511"
 ---
 # <a name="final-state-based-multicast-programming"></a>以最終狀態為基礎的多播程式設計
 
 本節說明使用 IOCTLs 而不是通訊端選項的最終狀態式多播程式設計。 如需最終狀態式多播程式設計與以變更為基礎的多播程式設計有何不同的總覽，請參閱 [多播程式設計](multicast-programming.md)。
 
-下表描述用於 Windows 的多播程式設計的 Windows 通訊端 IOCTLs。 
+下表描述用於 Windows 的多播程式設計 Windows 通訊端 IOCTLs。 
 
 | IOCTL                       | 引數類型                                   |
 |-----------------------------|-------------------------------------------------|

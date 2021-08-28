@@ -4,12 +4,12 @@ ms.assetid: ee55364e-8ffe-4a78-a49a-250756561770
 title: 安全性管理傳回值
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fd2c67b79d03896960f7eb9a8631e1cd268284e4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cf20090ed4bbdfbeebb8fd77eafa8b9430df5aa816463ee32adb25116c7c3bd2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106997896"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118894251"
 ---
 # <a name="security-management-return-values"></a>安全性管理傳回值
 
@@ -50,15 +50,15 @@ ms.locfileid: "106997896"
 
 ## <a name="lsa-policy-function-return-values"></a>LSA 原則函數傳回值
 
-大部分的 [*本地安全機構*](/windows/desktop/SecGloss/l-gly) (LSA) 原則函式會傳回可表示成功或失敗的 NTSTATUS 值。 各種的 NTSTATUS 值都是在與 Microsoft Windows 驅動程式開發工具組一起散發 (DDK) 的 Ntstatus 中定義。
+大部分的 [*本地安全機構*](/windows/desktop/SecGloss/l-gly) (LSA) 原則函式會傳回可表示成功或失敗的 NTSTATUS 值。 各種 ntstatus 值都是在與 Microsoft Windows 驅動程式開發工具組 (DDK) 一起散發的 ntstatus 中定義。
 
-若要將 NTSTATUS 傳回值轉換成 Windows 錯誤碼，請使用 [**LsaNtStatusToWinError**](/windows/desktop/api/Ntsecapi/nf-ntsecapi-lsantstatustowinerror) 函數。
+若要將 NTSTATUS 傳回值轉換為 Windows 錯誤碼，請使用 [**LsaNtStatusToWinError**](/windows/desktop/api/Ntsecapi/nf-ntsecapi-lsantstatustowinerror)函數。
 
 下表列出任何 LSA 函數可能傳回的 NTSTATUS 值。  (部分 LSA 函式的傳回值區段會列出函式可能會傳回的其他錯誤碼。 ) 此資料表也會列出對應至每個每個 NTSTATUS 值的 Windows 錯誤碼。
 
 
 
-|  (Windows 錯誤碼的 NTSTATUS 程式碼)                                         | 意義                                                                                                                                 |
+| Windows 錯誤碼 (的 NTSTATUS 程式碼)                                         | 意義                                                                                                                                 |
 |---------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
 | 狀態 \_ 成功 (錯誤 \_ 成功) <br/>                               | 函數成功。                                                                                                            |
 | 拒絕狀態 \_ 存取 \_ (\_ 拒絕存取錯誤 \_) <br/>                 | 呼叫端沒有適當的存取權，無法完成此作業。                                                                  |

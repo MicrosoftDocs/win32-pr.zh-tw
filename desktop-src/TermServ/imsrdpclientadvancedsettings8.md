@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c8fce32baf792563e64d2f8b8e1ad2bd56a31c5b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: fee551748ebe098bdec1950a51988e6a29309e75001e4a25d8277102a3e181a2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384182"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119001296"
 ---
 # <a name="imsrdpclientadvancedsettings8-interface"></a>IMsRdpClientAdvancedSettings8 介面
 
@@ -41,7 +41,7 @@ ms.locfileid: "104384182"
 
 
 
-| 屬性                                                                                  | 存取類型           | Description                                                           |
+| 屬性                                                                                  | 存取類型           | 描述                                                           |
 |:------------------------------------------------------------------------------------------|:----------------------|:----------------------------------------------------------------------|
 | [**BandwidthDetection**](imsrdpclientadvancedsettings8-bandwidthdetection.md)<br/> | 讀取/寫入<br/> | 指定是否自動偵測頻寬變更。<br/> |
 

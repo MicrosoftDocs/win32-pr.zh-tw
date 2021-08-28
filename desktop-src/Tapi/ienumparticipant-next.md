@@ -4,16 +4,16 @@ ms.assetid: bd94f592-ac6f-48b7-8190-352a5e18f224
 title: 'IEnumParticipant：： Next 方法 (Confpriv .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 89586370d01aaac54f05242e0eb3c53eb938c47b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d574f7c34bc48679ea679caf8ba07c881bcd1c692fa3215ae48a9ecf54d7cbfc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106996496"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119003586"
 ---
 # <a name="ienumparticipantnext-method"></a>IEnumParticipant：： Next 方法
 
-\[**接下來** 無法在 windows Vista、windows Server 2008 和後續版本的作業系統中使用。 RTC 用戶端 API 提供類似的功能。\]
+\[**接下來** 無法在 Windows Vista、Windows Server 2008 和後續版本的作業系統中使用。 RTC 用戶端 API 提供類似的功能。\]
 
 **下一個** 方法會取得列舉順序中的下一個指定元素數目。 這種方法在 Visual Basic 和指令碼語言中是隱藏的。
 
@@ -61,7 +61,7 @@ HRESULT Next(
 
 
 
-| 傳回碼                                                                                   | Description                                                     |
+| 傳回碼                                                                                   | 描述                                                     |
 |-----------------------------------------------------------------------------------------------|-----------------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>          | 方法傳回 *celt* 元素數目。<br/>           |
 | <dl> <dt>**S \_ FALSE**</dt> </dl>       | 剩餘的元素數目小於 *celt*。<br/>   |

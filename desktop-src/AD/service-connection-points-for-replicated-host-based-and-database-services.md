@@ -7,12 +7,12 @@ keywords:
 - 複寫、主機型和資料庫服務 AD 的服務連接點
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 63b69491dd84a9367f8fd05e9d23ca771551dfbb
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 8a7658cc60704dbfc37009272e5f14f997d213ea993054fa22c1c5e0c307794b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104023217"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119024896"
 ---
 # <a name="service-connection-points-for-replicated-host-based-and-database-services"></a>複寫、主機和資料庫服務的服務連接點
 
@@ -38,6 +38,6 @@ ms.locfileid: "104023217"
 
 以主機為基礎的服務的每個實例都應該在其主機的電腦物件下建立自己的 SCP。 使用產品 GUID 來搜尋主機服務之 SCP 的用戶端，通常會在整個企業樹系中尋找服務類別的許多實例。 然後，用戶端可以使用 Scp 的 **serviceDNSName** 屬性，在所需的主機電腦上尋找服務實例的 SCP。
 
- 
+ 
 
- 
+ 

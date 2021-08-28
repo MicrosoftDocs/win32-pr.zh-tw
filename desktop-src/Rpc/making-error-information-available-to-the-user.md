@@ -4,12 +4,12 @@ description: 當呼叫端收到錯誤並需要通知使用者發生錯誤時，�
 ms.assetid: 18689280-7124-46e4-9341-ad8d0c1705db
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 18386dbebd443aced4f5680922549c0ecb0eba55
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c334b0d5b5044a13b507945cfa9d8ac97b67eb120f496f83c080d2b79b857f9d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840907"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118928573"
 ---
 # <a name="making-error-information-available-to-the-user"></a>讓使用者可以使用錯誤資訊
 
@@ -165,9 +165,9 @@ if (status)
 
 在此範例中，擴充的錯誤資訊會傾印到主控台，但您的元件可以使用任何其他方式將它提供給使用者。 如果您的元件選擇將資訊儲存在持續性儲存體中，並于稍後顯示，則使用 [**RpcErrorSaveErrorInfo**](/windows/desktop/api/Rpcasync/nf-rpcasync-rpcerrorsaveerrorinfo) 和 [**RpcErrorLoadErrorInfo**](/windows/desktop/api/Rpcasync/nf-rpcasync-rpcerrorloaderrorinfo) 函式呼叫所提供的二進位格式通常會更容易。
 
- 
+ 
 
- 
+ 
 
 
 

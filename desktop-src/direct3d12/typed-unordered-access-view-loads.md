@@ -5,12 +5,12 @@ ms.assetid: 6106D15E-EAF6-4583-B4F2-7CC7EE30DE15
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 96128354132a58e0b8648fba2b4e1e6babb95535
-ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
+ms.openlocfilehash: e3bd45c1b2c14aa85ec9b9ab65cd6d6a9f33cb5e0995ac20b779b84aa7bed640
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112394763"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119123475"
 ---
 # <a name="typed-unordered-access-view-uav-loads"></a>具類型的未排序存取視圖 (UAV) 載入
 

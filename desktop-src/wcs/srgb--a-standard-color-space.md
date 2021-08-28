@@ -3,7 +3,7 @@ title: sRGB 標準色彩空間
 description: 由於網際網路頻寬的考慮，Hewlett-Packard 和 Microsoft 已建議採用標準的預先定義色彩空間，稱為 sRGB (IEC 61966-2-1) ，因此可讓您以極少的資料負擔進行精確的色彩對應。
 ms.assetid: b9017702-7dca-4d79-bed0-936f97cb6109
 keywords:
-- Windows Color System (WCS) 、sRGB 色彩空間
+- Windows色彩系統 (WCS) 、sRGB 色彩空間
 - WCS (Windows 色彩系統) 、sRGB 色彩空間
 - 影像色彩管理、sRGB 色彩空間
 - 色彩管理、sRGB 色彩空間
@@ -13,12 +13,12 @@ keywords:
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aa5d1b2d87cdca5424f8393ae47e592718f33985
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 0779ec79868a6ec6d78e447b7ee3473847b8fdc1ffa165897abd2dcbcb7a0793
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111443639"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118965917"
 ---
 # <a name="srgb-a-standard-color-space"></a>sRGB：標準色彩空間
 
@@ -26,7 +26,7 @@ ms.locfileid: "111443639"
 
 您可以在 WCS 1.0 程式設計人員參考的 [說明] 資料夾中，找到可討論 sRGB （sRGB）技術詳細資料的白皮書說明文件版本 \\ 。
 
-不同的檔案格式可能會使用或新增旗標，以指定影像位於 sRGB 色彩空間中。 在與 Windows 裝置無關的點陣圖中 (DIB) 格式，將 [**BITMAPV5HEADER**](using-structures-in-wcs-1-0.md)結構的 **bV5CSType** 成員設定為 **LCS \_ sRGB** ，會指定 DIB 色彩位於 sRGB 色彩空間中。
+不同的檔案格式可能會使用或新增旗標，以指定影像位於 sRGB 色彩空間中。 在 Windows 與裝置無關的點陣圖中 (DIB) 格式，將 [**BITMAPV5HEADER**](using-structures-in-wcs-1-0.md)結構的 **bV5CSType** 成員設定為 **LCS \_ sRGB** ，可指定 DIB 色彩位於 sRGB 色彩空間中。
 
 WCS 1.0 提供 sRGB 的原生支援。 有兩種方式可以使用 WCS 1.0 來轉譯定義于 sRGB 色彩空間中的影像：
 
@@ -66,7 +66,7 @@ WCS 1.0 提供 sRGB 的原生支援。 有兩種方式可以使用 WCS 1.0 來�
 
 使用 sRGB 色彩空間的影像不需要內嵌色彩設定檔。 因為它們沒有內嵌的設定檔，所以在頻寬有限的資料通道之間，以 sRGB 為基礎的映射較小且更容易轉移。
 
-應用程式應在影像的點陣圖標頭中設定 **LCS \_ sRGB** ，以指出影像使用 sRGB 色彩空間。 如需詳細資訊，請參閱 [Windows 點陣圖標頭結構](using-structures-in-wcs-1-0.md) 和 [**LOGCOLORSPACE**](/windows/desktop/api/Wingdi/ns-wingdi-taglogcolorspacea)。
+應用程式應在影像的點陣圖標頭中設定 **LCS \_ sRGB** ，以指出影像使用 sRGB 色彩空間。 如需詳細資訊，請參閱 [Windows 點陣圖標頭結構](using-structures-in-wcs-1-0.md)和 [**LOGCOLORSPACE**](/windows/desktop/api/Wingdi/ns-wingdi-taglogcolorspacea)。
 
  
 

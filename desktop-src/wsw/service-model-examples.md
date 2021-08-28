@@ -4,12 +4,12 @@ ms.assetid: 019918e1-fff5-40d7-b466-866de8e2e5e5
 description: 深入瞭解：服務模型範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2cf609c8235d4f407dbb47449014c179272c2929
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9f006a846aff11e48426c7a9d673f191af0f6e6dfdc8191e8b1fe59e69a70f0c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104469177"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118962907"
 ---
 # <a name="service-model-examples"></a>服務模型範例
 

@@ -5,12 +5,12 @@ ms.assetid: 7362bc31-2c07-45ff-baf0-a76e68748d93
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 05005e16ee9632a3f1105b64ee347cf460e490fd
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 30549e15504221e4d61f85711da6281f00070395bcc3168fc14d8500741a160a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104020801"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118961937"
 ---
 # <a name="globalscpp"></a>GLOBALS.Cpp
 
@@ -22,15 +22,15 @@ ms.locfileid: "104020801"
 |-----------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | g \_ szProviderName                             | 闡釋                                                                                                                                                                                |
 | KeywordList                                   | 「使用者」、「群組」、「組織單位」                                                                                                                                                  |
-| 從範例 DS 到 ADS 變異的語法對應 | 在 "String" 語法與 VARIANT VT BSTR 之間進行對應 \_ ，並在 "Integer" 和 VT I4 之間進行對應 \_ 。 這代表原生資料格式對應至支援自動化的格式，反之亦然。 |
+| 從範例 DS 到 ADS 變異的語法對應 | 地圖 "String" 語法和 VARIANT VT \_ BSTR 以及 "Integer" 和 VT \_ I4 之間。 這代表原生資料格式對應至支援自動化的格式，反之亦然。 |
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

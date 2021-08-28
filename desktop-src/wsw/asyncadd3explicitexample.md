@@ -3,17 +3,17 @@ title: AsyncAdd3ExplicitExample
 description: 此範例說明如何在不使用 WsAsyncExecute 的情況下，執行複雜的非同步函式。
 ms.assetid: e60a4005-4849-4603-ae25-b88da8628f80
 keywords:
-- 適用于 Windows 的 AsyncAdd3ExplicitExample Web 服務
+- Windows 的 AsyncAdd3ExplicitExample Web 服務
 - WWSAPI
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9f4747823eea2aa3c8bff9ce7b6b6cea5b1a9da4
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2c58dd75c76afd901a961cf7cced35f5aebb1b3036e5c2f82e5068ae159b4613
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372276"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118963417"
 ---
 # <a name="asyncadd3explicitexample"></a>AsyncAdd3ExplicitExample
 
@@ -347,9 +347,9 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
 
 
 
- 
+ 
 
- 
+ 
 
 
 

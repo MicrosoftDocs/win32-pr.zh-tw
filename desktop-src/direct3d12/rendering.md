@@ -5,12 +5,12 @@ ms.assetid: 5BF1440E-E4D8-43C8-BF0E-F02FEFE79C93
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f9ad70a054881e9472ff27a76a62dca62fdf3653
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 2c1abb8e8d1d645149652e5c1cd429fb4e4b2e0b1e079eda13956f5ab8279b3c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104548428"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119123465"
 ---
 # <a name="rendering-direct3d-12-graphics"></a>轉譯 (Direct3D 12 圖形) 
 
@@ -38,9 +38,9 @@ ms.locfileid: "104548428"
 -   [具類型的未排序存取視圖載入](typed-unordered-access-view-loads.md)
 -   [磁片區磚資源](volume-tiled-resources.md)
 
-## <a name="high-dynamic-range-and-wide-color-gamut"></a>高動態範圍和寬色彩範圍
+## <a name="high-dynamic-range-and-wide-color-gamut"></a>高動態範圍和寬色色域
 
-請參閱支援高動態範圍 (增加最亮的 whites 與最深的黑色) 之間的差異，而寬色彩範圍 (10 位，而不是8位，) 在 [DXGI 1.5 改良功能](/windows/desktop/direct3ddxgi/dxgi-1-5-improvements)中說明。
+請參閱高動態範圍的支援 (增加最明亮的 whites 與最深的黑色) 之間的差異，以及寬色彩範圍 (10 位（而不是8位）10位，而不是8位，) 在 [DXGI 1.5 改良功能](/windows/desktop/direct3ddxgi/dxgi-1-5-improvements)中所述。
 
 ## <a name="related-topics"></a>相關主題
 

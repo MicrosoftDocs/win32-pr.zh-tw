@@ -4,12 +4,12 @@ description: 下列主題提供原生和 managed 程式碼的 TraceLogging 快�
 ms.assetid: CEC57517-7A0E-45AA-85F7-F358AE51EF4A
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e331f5ebec3d7eb8ce9c50d3e9d92f747bf76414
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: be48ff03e1efe37b2ed18314557514c81715ea7e36dacfda309f473522dac39a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382705"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118966487"
 ---
 # <a name="using-tracelogging"></a>使用 TraceLogging
 
@@ -17,8 +17,8 @@ ms.locfileid: "104382705"
 
 ## <a name="prerequisites"></a>必要條件
 
--   需要 Windows 10 軟體發展工具組 (SDK) 才能撰寫使用者模式提供者
--   需要 Windows 驅動程式套件 (WDK) 才能撰寫核心模式提供者
+-   Windows 10需要 (SDK) 軟體發展工具組才能撰寫使用者模式提供者
+-   Windows需要 (WDK) 的驅動程式套件才能撰寫核心模式提供者
 
 ## <a name="in-this-section"></a>本節內容
 
@@ -31,7 +31,7 @@ ms.locfileid: "104382705"
 | [記錄和顯示 TraceLogging 事件](tracelogging-record-and-display-tracelogging-events.md)<br/> | 使用 Windows Performance Recorder (WPR 來記錄 TraceLogging 事件) 並使用 Windows Performance Analyzer (WPA) 加以查看。<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | [C/c + + Tracelogging 範例](tracelogging-c-cpp-tracelogging-examples.md)<br/>                       | 本主題包含 C/c + + Tracelogging 範例。<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | [.NET Tracelogging 範例](tracelogging-net-examples.md)<br/>                                       | 本主題包含 managed 程式碼 Tracelogging 範例，說明如何只在會話詳細資訊層級為詳細資訊時記錄事件，以及如何記錄結構化的事件資料。<br/>                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| [通用 Windows 平臺記錄範例](universal-windows-platform-logging-examples.md)<br/>     | 這個範例示範如何使用 LoggingChannel、LoggingActivity、LoggingSession 和 FileLoggingSession 等 Windows Foundation. Diagnostics 命名空間中的記錄 Api。 這些類別是針對 Windows 應用程式內的診斷記錄所設計。 這些 Api 已新增至 Windows 8.1。 <br/> LoggingChannel 和 LoggingActivity Api 已在 Windows 10 中擴充，以支援使用 TraceLogging 事件編碼來撰寫複雜的事件。<br/> 您可以從 [GitHub](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Logging)下載通用 Windows 平臺記錄範例。<br/> |
+| [通用 Windows 平臺記錄範例](universal-windows-platform-logging-examples.md)<br/>     | 此範例示範如何使用 Windows 中的記錄 Api。Foundation. Diagnostics 命名空間，包括 LoggingChannel、LoggingActivity、LoggingSession 和 FileLoggingSession。 這些類別是針對 Windows 應用程式內的診斷記錄所設計。 這些 Api 已新增至 Windows 8.1。 <br/> LoggingChannel 和 LoggingActivity api 已在 Windows 10 中擴充，以支援使用 TraceLogging 事件編碼來撰寫複雜的事件。<br/> 您可以從[GitHub](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Logging)下載通用 Windows 平臺記錄範例。<br/> |
 
 
 

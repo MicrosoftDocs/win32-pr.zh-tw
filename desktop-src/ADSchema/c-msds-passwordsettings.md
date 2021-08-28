@@ -1,5 +1,5 @@
 ---
-title: ms DS-密碼設定類別
+title: ms DS-密碼-設定類別
 description: 帳戶的密碼設定物件。
 ms.assetid: 4e3a5a80-4f55-4c26-b5af-ace9dd853836
 ms.tgt_platform: multiple
@@ -14,19 +14,19 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e19ca0eb7b04b7062c6efca32a31d6e7dcd52c1
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 76459a04701bac5f7c6abad40d9cbc2222c8346c288f67a702958d85f2aa0d64
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103935321"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118959777"
 ---
-# <a name="ms-ds-password-settings-class"></a>ms DS-密碼設定類別
+# <a name="ms-ds-password-settings-class"></a>ms DS-密碼-設定類別
 
 帳戶的密碼設定物件。
 
 > [!Note]  
-> 這個 classSchema 物件會以 systemMustContain Oid 清單來建立。 這是 (PSO) 必須包含的密碼設定物件，或 PSO 建立失敗的屬性清單。
+> 這個 classSchema 物件會以 systemMustContain Oid 清單來建立。 這是一份屬性清單，設定物件 (PSO) 必須包含或 PSO 建立的密碼才會失敗。
 
  
 
@@ -71,7 +71,7 @@ ms.locfileid: "103935321"
 
 
 
-## <a name="windows-server-2008-attributes"></a>Windows Server 2008 屬性
+## <a name="windows-server-2008-attributes"></a>Windows伺服器2008屬性
 
 此類別包含 Windows Server 2008 的下列屬性：
 
@@ -100,7 +100,7 @@ ms.locfileid: "103935321"
 | [**Frs-電腦-參考-BL**](a-frscomputerreferencebl.md)                                      | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**FRS-成員參考-BL**](a-frsmemberreferencebl.md)                                          | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**FSMO 角色-擁有者**](a-fsmoroleowner.md)                                                         | 否     | [**返回頁首**](c-top.md)<br/> |
-| [**實例類型**](a-instancetype.md)                                                            | 對      | [**返回頁首**](c-top.md)<br/> |
+| [**實例類型**](a-instancetype.md)                                                            | 是      | [**返回頁首**](c-top.md)<br/> |
 | [**為關鍵-系統物件**](a-iscriticalsystemobject.md)                                      | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**已刪除**](a-isdeleted.md)                                                                  | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**是-DL 的成員**](a-memberof.md)                                                              | 否     | [**返回頁首**](c-top.md)<br/> |
@@ -121,14 +121,14 @@ ms.locfileid: "103935321"
 | [**ms-DS-Is-Full-Replica-For**](a-msds-isfullreplicafor.md)                                       | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**ms-chap-為部分複本**](a-msds-ispartialreplicafor.md)                                 | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**ms-DS-KrbTgt-連結-BL**](a-msds-krbtgtlinkbl.md)                                                | 否     | [**返回頁首**](c-top.md)<br/> |
-| [**ms DS-鎖定-持續時間**](a-msds-lockoutduration.md)                                           | 對      | **ms-DS-密碼-設定**     |
-| [**ms DS-鎖定-觀察-視窗**](a-msds-lockoutobservationwindow.md)                        | 對      | **ms-DS-密碼-設定**     |
-| [**ms DS-鎖定-閾值**](a-msds-lockoutthreshold.md)                                         | 對      | **ms-DS-密碼-設定**     |
+| [**ms DS-鎖定-持續時間**](a-msds-lockoutduration.md)                                           | 是      | **ms-DS-密碼-設定**     |
+| [**ms DS-鎖定-觀察-視窗**](a-msds-lockoutobservationwindow.md)                        | 是      | **ms-DS-密碼-設定**     |
+| [**ms DS-鎖定-閾值**](a-msds-lockoutthreshold.md)                                         | 是      | **ms-DS-密碼-設定**     |
 | [**ms DS-主要-依據**](a-msds-masteredby.md)                                                     | 否     | [**返回頁首**](c-top.md)<br/> |
-| [**ms DS-最大密碼-使用期限**](a-msds-maximumpasswordage.md)                                    | 對      | **ms-DS-密碼-設定**     |
+| [**ms DS-最大密碼-使用期限**](a-msds-maximumpasswordage.md)                                    | 是      | **ms-DS-密碼-設定**     |
 | [**ms DS-成員--Az-Role-BL**](a-msds-membersforazrolebl.md)                                  | 否     | [**返回頁首**](c-top.md)<br/> |
-| [**ms-chap-最小密碼-使用期限**](a-msds-minimumpasswordage.md)                                    | 對      | **ms-DS-密碼-設定**     |
-| [**ms-DS-密碼長度下限**](a-msds-minimumpasswordlength.md)                              | 對      | **ms-DS-密碼-設定**     |
+| [**ms-chap-最小密碼-使用期限**](a-msds-minimumpasswordage.md)                                    | 是      | **ms-DS-密碼-設定**     |
+| [**ms-DS-密碼長度下限**](a-msds-minimumpasswordlength.md)                              | 是      | **ms-DS-密碼-設定**     |
 | [**ms DS-NC-複寫-資料指標**](a-msds-ncreplcursors.md)                                              | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**ms-DS-NC-複寫-輸入-相鄰**](a-msds-ncreplinboundneighbors.md)                           | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**ms DS-NC-複寫-輸出-相鄰**](a-msds-ncreploutboundneighbors.md)                         | 否     | [**返回頁首**](c-top.md)<br/> |
@@ -138,10 +138,10 @@ ms.locfileid: "103935321"
 | [**BL-------物件參考**](a-msds-objectreferencebl.md)                                      | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**BL-------------------**](a-msds-operationsforazrolebl.md)                            | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**BL-------------工作-**](a-msds-operationsforaztaskbl.md)                            | 否     | [**返回頁首**](c-top.md)<br/> |
-| [**ms DS-密碼-複雜度-已啟用**](a-msds-passwordcomplexityenabled.md)                      | 對      | **ms-DS-密碼-設定**     |
-| [**ms-DS-密碼-歷程記錄-長度**](a-msds-passwordhistorylength.md)                              | 對      | **ms-DS-密碼-設定**     |
-| [**ms DS-密碼可還原-加密-啟用**](a-msds-passwordreversibleencryptionenabled.md) | 對      | **ms-DS-密碼-設定**     |
-| [**ms-DS-密碼-設定-優先順序**](a-msds-passwordsettingsprecedence.md)                    | 對      | **ms-DS-密碼-設定**     |
+| [**ms DS-密碼-複雜度-已啟用**](a-msds-passwordcomplexityenabled.md)                      | 是      | **ms-DS-密碼-設定**     |
+| [**ms-DS-密碼-歷程記錄-長度**](a-msds-passwordhistorylength.md)                              | 是      | **ms-DS-密碼-設定**     |
+| [**ms DS-密碼可還原-加密-啟用**](a-msds-passwordreversibleencryptionenabled.md) | 是      | **ms-DS-密碼-設定**     |
+| [**ms-DS-密碼-設定優先順序**](a-msds-passwordsettingsprecedence.md)                    | 是      | **ms-DS-密碼-設定**     |
 | [**ms-DS-主體-名稱**](a-msds-principalname.md)                                               | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**PSO-已套用**](a-msds-psoapplied.md)                                                     | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**PSO-適用于**](a-msds-psoappliesto.md)                                                | 否     | **ms-DS-密碼-設定**     |
@@ -155,10 +155,10 @@ ms.locfileid: "103935321"
 | [**msSFU-30-Posix-成員**](a-mssfu30posixmemberof.md)                                         | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**netboot-SCP-BL**](a-netbootscpbl.md)                                                           | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**非安全性成員-BL**](a-nonsecuritymemberbl.md)                                            | 否     | [**返回頁首**](c-top.md)<br/> |
-| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                                           | 對      | [**返回頁首**](c-top.md)<br/> |
+| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                                           | 是      | [**返回頁首**](c-top.md)<br/> |
 | [**Obj-Dist 名稱**](a-distinguishedname.md)                                                       | 否     | [**返回頁首**](c-top.md)<br/> |
-| [**物件-類別**](a-objectcategory.md)                                                        | 對      | [**返回頁首**](c-top.md)<br/> |
-| [**物件類別**](a-objectclass.md)                                                              | 對      | [**返回頁首**](c-top.md)<br/> |
+| [**物件-類別**](a-objectcategory.md)                                                        | 是      | [**返回頁首**](c-top.md)<br/> |
+| [**物件類別**](a-objectclass.md)                                                              | 是      | [**返回頁首**](c-top.md)<br/> |
 | [**物件-Guid**](a-objectguid.md)                                                                | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**物件版本**](a-objectversion.md)                                                          | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**其他知名物件**](a-otherwellknownobjects.md)                                        | 否     | [**返回頁首**](c-top.md)<br/> |
@@ -221,7 +221,7 @@ ms.locfileid: "103935321"
 
 
 
-## <a name="windows-server-2008-r2-attributes"></a>Windows Server 2008 R2 屬性
+## <a name="windows-server-2008-r2-attributes"></a>WindowsServer 2008 R2 屬性
 
 此類別包含 Windows Server 2008 R2 的下列屬性：
 
@@ -250,7 +250,7 @@ ms.locfileid: "103935321"
 | [**Frs-電腦-參考-BL**](a-frscomputerreferencebl.md)                                      | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**FRS-成員參考-BL**](a-frsmemberreferencebl.md)                                          | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**FSMO 角色-擁有者**](a-fsmoroleowner.md)                                                         | 否     | [**返回頁首**](c-top.md)<br/> |
-| [**實例類型**](a-instancetype.md)                                                            | 對      | [**返回頁首**](c-top.md)<br/> |
+| [**實例類型**](a-instancetype.md)                                                            | 是      | [**返回頁首**](c-top.md)<br/> |
 | [**為關鍵-系統物件**](a-iscriticalsystemobject.md)                                      | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**已刪除**](a-isdeleted.md)                                                                  | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**是-DL 的成員**](a-memberof.md)                                                              | 否     | [**返回頁首**](c-top.md)<br/> |
@@ -277,14 +277,14 @@ ms.locfileid: "103935321"
 | [**ms-DS-最近-RDN**](a-msds-lastknownrdn.md)                                                | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**ms DS-本機有效-刪除時間**](a-msds-localeffectivedeletiontime.md)                   | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**ms DS-本機有效-回收時間**](a-msds-localeffectiverecycletime.md)                     | 否     | [**返回頁首**](c-top.md)<br/> |
-| [**ms DS-鎖定-持續時間**](a-msds-lockoutduration.md)                                           | 對      | **ms-DS-密碼-設定**     |
-| [**ms DS-鎖定-觀察-視窗**](a-msds-lockoutobservationwindow.md)                        | 對      | **ms-DS-密碼-設定**     |
-| [**ms DS-鎖定-閾值**](a-msds-lockoutthreshold.md)                                         | 對      | **ms-DS-密碼-設定**     |
+| [**ms DS-鎖定-持續時間**](a-msds-lockoutduration.md)                                           | 是      | **ms-DS-密碼-設定**     |
+| [**ms DS-鎖定-觀察-視窗**](a-msds-lockoutobservationwindow.md)                        | 是      | **ms-DS-密碼-設定**     |
+| [**ms DS-鎖定-閾值**](a-msds-lockoutthreshold.md)                                         | 是      | **ms-DS-密碼-設定**     |
 | [**ms DS-主要-依據**](a-msds-masteredby.md)                                                     | 否     | [**返回頁首**](c-top.md)<br/> |
-| [**ms DS-最大密碼-使用期限**](a-msds-maximumpasswordage.md)                                    | 對      | **ms-DS-密碼-設定**     |
+| [**ms DS-最大密碼-使用期限**](a-msds-maximumpasswordage.md)                                    | 是      | **ms-DS-密碼-設定**     |
 | [**ms DS-成員--Az-Role-BL**](a-msds-membersforazrolebl.md)                                  | 否     | [**返回頁首**](c-top.md)<br/> |
-| [**ms-chap-最小密碼-使用期限**](a-msds-minimumpasswordage.md)                                    | 對      | **ms-DS-密碼-設定**     |
-| [**ms-DS-密碼長度下限**](a-msds-minimumpasswordlength.md)                              | 對      | **ms-DS-密碼-設定**     |
+| [**ms-chap-最小密碼-使用期限**](a-msds-minimumpasswordage.md)                                    | 是      | **ms-DS-密碼-設定**     |
+| [**ms-DS-密碼長度下限**](a-msds-minimumpasswordlength.md)                              | 是      | **ms-DS-密碼-設定**     |
 | [**ms DS-NC-複寫-資料指標**](a-msds-ncreplcursors.md)                                              | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**ms-DS-NC-複寫-輸入-相鄰**](a-msds-ncreplinboundneighbors.md)                           | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**ms DS-NC-複寫-輸出-相鄰**](a-msds-ncreploutboundneighbors.md)                         | 否     | [**返回頁首**](c-top.md)<br/> |
@@ -295,10 +295,10 @@ ms.locfileid: "103935321"
 | [**OIDToGroup-連結-BL**](a-msds-oidtogrouplinkbl.md)                                        | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**BL-------------------**](a-msds-operationsforazrolebl.md)                            | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**BL-------------工作-**](a-msds-operationsforaztaskbl.md)                            | 否     | [**返回頁首**](c-top.md)<br/> |
-| [**ms DS-密碼-複雜度-已啟用**](a-msds-passwordcomplexityenabled.md)                      | 對      | **ms-DS-密碼-設定**     |
-| [**ms-DS-密碼-歷程記錄-長度**](a-msds-passwordhistorylength.md)                              | 對      | **ms-DS-密碼-設定**     |
-| [**ms DS-密碼可還原-加密-啟用**](a-msds-passwordreversibleencryptionenabled.md) | 對      | **ms-DS-密碼-設定**     |
-| [**ms-DS-密碼-設定-優先順序**](a-msds-passwordsettingsprecedence.md)                    | 對      | **ms-DS-密碼-設定**     |
+| [**ms DS-密碼-複雜度-已啟用**](a-msds-passwordcomplexityenabled.md)                      | 是      | **ms-DS-密碼-設定**     |
+| [**ms-DS-密碼-歷程記錄-長度**](a-msds-passwordhistorylength.md)                              | 是      | **ms-DS-密碼-設定**     |
+| [**ms DS-密碼可還原-加密-啟用**](a-msds-passwordreversibleencryptionenabled.md) | 是      | **ms-DS-密碼-設定**     |
+| [**ms-DS-密碼-設定優先順序**](a-msds-passwordsettingsprecedence.md)                    | 是      | **ms-DS-密碼-設定**     |
 | [**ms-DS-主體-名稱**](a-msds-principalname.md)                                               | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**PSO-已套用**](a-msds-psoapplied.md)                                                     | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**PSO-適用于**](a-msds-psoappliesto.md)                                                | 否     | **ms-DS-密碼-設定**     |
@@ -312,10 +312,10 @@ ms.locfileid: "103935321"
 | [**msSFU-30-Posix-成員**](a-mssfu30posixmemberof.md)                                         | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**netboot-SCP-BL**](a-netbootscpbl.md)                                                           | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**非安全性成員-BL**](a-nonsecuritymemberbl.md)                                            | 否     | [**返回頁首**](c-top.md)<br/> |
-| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                                           | 對      | [**返回頁首**](c-top.md)<br/> |
+| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                                           | 是      | [**返回頁首**](c-top.md)<br/> |
 | [**Obj-Dist 名稱**](a-distinguishedname.md)                                                       | 否     | [**返回頁首**](c-top.md)<br/> |
-| [**物件-類別**](a-objectcategory.md)                                                        | 對      | [**返回頁首**](c-top.md)<br/> |
-| [**物件類別**](a-objectclass.md)                                                              | 對      | [**返回頁首**](c-top.md)<br/> |
+| [**物件-類別**](a-objectcategory.md)                                                        | 是      | [**返回頁首**](c-top.md)<br/> |
+| [**物件類別**](a-objectclass.md)                                                              | 是      | [**返回頁首**](c-top.md)<br/> |
 | [**物件-Guid**](a-objectguid.md)                                                                | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**物件版本**](a-objectversion.md)                                                          | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**其他知名物件**](a-otherwellknownobjects.md)                                        | 否     | [**返回頁首**](c-top.md)<br/> |
@@ -378,9 +378,9 @@ ms.locfileid: "103935321"
 
 
 
-## <a name="windows-server-2012-attributes"></a>Windows Server 2012 屬性
+## <a name="windows-server-2012-attributes"></a>Windows Server 2012屬性
 
-此類別包含 Windows Server 2012 的下列屬性：
+這個類別包含 Windows Server 2012 的下列屬性：
 
 
 
@@ -407,7 +407,7 @@ ms.locfileid: "103935321"
 | [**Frs-電腦-參考-BL**](a-frscomputerreferencebl.md)                                      | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**FRS-成員參考-BL**](a-frsmemberreferencebl.md)                                          | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**FSMO 角色-擁有者**](a-fsmoroleowner.md)                                                         | 否     | [**返回頁首**](c-top.md)<br/> |
-| [**實例類型**](a-instancetype.md)                                                            | 對      | [**返回頁首**](c-top.md)<br/> |
+| [**實例類型**](a-instancetype.md)                                                            | 是      | [**返回頁首**](c-top.md)<br/> |
 | [**為關鍵-系統物件**](a-iscriticalsystemobject.md)                                      | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**已刪除**](a-isdeleted.md)                                                                  | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**是-DL 的成員**](a-memberof.md)                                                              | 否     | [**返回頁首**](c-top.md)<br/> |
@@ -436,15 +436,15 @@ ms.locfileid: "103935321"
 | [**ms-DS-最近-RDN**](a-msds-lastknownrdn.md)                                                | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**ms DS-本機有效-刪除時間**](a-msds-localeffectivedeletiontime.md)                   | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**ms DS-本機有效-回收時間**](a-msds-localeffectiverecycletime.md)                     | 否     | [**返回頁首**](c-top.md)<br/> |
-| [**ms DS-鎖定-持續時間**](a-msds-lockoutduration.md)                                           | 對      | **ms-DS-密碼-設定**     |
-| [**ms DS-鎖定-觀察-視窗**](a-msds-lockoutobservationwindow.md)                        | 對      | **ms-DS-密碼-設定**     |
-| [**ms DS-鎖定-閾值**](a-msds-lockoutthreshold.md)                                         | 對      | **ms-DS-密碼-設定**     |
+| [**ms DS-鎖定-持續時間**](a-msds-lockoutduration.md)                                           | 是      | **ms-DS-密碼-設定**     |
+| [**ms DS-鎖定-觀察-視窗**](a-msds-lockoutobservationwindow.md)                        | 是      | **ms-DS-密碼-設定**     |
+| [**ms DS-鎖定-閾值**](a-msds-lockoutthreshold.md)                                         | 是      | **ms-DS-密碼-設定**     |
 | [**ms DS-主要-依據**](a-msds-masteredby.md)                                                     | 否     | [**返回頁首**](c-top.md)<br/> |
-| [**ms DS-最大密碼-使用期限**](a-msds-maximumpasswordage.md)                                    | 對      | **ms-DS-密碼-設定**     |
+| [**ms DS-最大密碼-使用期限**](a-msds-maximumpasswordage.md)                                    | 是      | **ms-DS-密碼-設定**     |
 | [**ms DS-成員--Az-Role-BL**](a-msds-membersforazrolebl.md)                                  | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**ms-chap-資源--BL 的成員**](a-msds-membersofresourcepropertylistbl.md)       | 否     | [**返回頁首**](c-top.md)<br/> |
-| [**ms-chap-最小密碼-使用期限**](a-msds-minimumpasswordage.md)                                    | 對      | **ms-DS-密碼-設定**     |
-| [**ms-DS-密碼長度下限**](a-msds-minimumpasswordlength.md)                              | 對      | **ms-DS-密碼-設定**     |
+| [**ms-chap-最小密碼-使用期限**](a-msds-minimumpasswordage.md)                                    | 是      | **ms-DS-密碼-設定**     |
+| [**ms-DS-密碼長度下限**](a-msds-minimumpasswordlength.md)                              | 是      | **ms-DS-密碼-設定**     |
 | [**ms DS-NC-複寫-資料指標**](a-msds-ncreplcursors.md)                                              | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**ms-DS-NC-複寫-輸入-相鄰**](a-msds-ncreplinboundneighbors.md)                           | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**ms DS-NC-複寫-輸出-相鄰**](a-msds-ncreploutboundneighbors.md)                         | 否     | [**返回頁首**](c-top.md)<br/> |
@@ -455,10 +455,10 @@ ms.locfileid: "103935321"
 | [**OIDToGroup-連結-BL**](a-msds-oidtogrouplinkbl.md)                                        | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**BL-------------------**](a-msds-operationsforazrolebl.md)                            | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**BL-------------工作-**](a-msds-operationsforaztaskbl.md)                            | 否     | [**返回頁首**](c-top.md)<br/> |
-| [**ms DS-密碼-複雜度-已啟用**](a-msds-passwordcomplexityenabled.md)                      | 對      | **ms-DS-密碼-設定**     |
-| [**ms-DS-密碼-歷程記錄-長度**](a-msds-passwordhistorylength.md)                              | 對      | **ms-DS-密碼-設定**     |
-| [**ms DS-密碼可還原-加密-啟用**](a-msds-passwordreversibleencryptionenabled.md) | 對      | **ms-DS-密碼-設定**     |
-| [**ms-DS-密碼-設定-優先順序**](a-msds-passwordsettingsprecedence.md)                    | 對      | **ms-DS-密碼-設定**     |
+| [**ms DS-密碼-複雜度-已啟用**](a-msds-passwordcomplexityenabled.md)                      | 是      | **ms-DS-密碼-設定**     |
+| [**ms-DS-密碼-歷程記錄-長度**](a-msds-passwordhistorylength.md)                              | 是      | **ms-DS-密碼-設定**     |
+| [**ms DS-密碼可還原-加密-啟用**](a-msds-passwordreversibleencryptionenabled.md) | 是      | **ms-DS-密碼-設定**     |
+| [**ms-DS-密碼-設定優先順序**](a-msds-passwordsettingsprecedence.md)                    | 是      | **ms-DS-密碼-設定**     |
 | [**ms-DS-主體-名稱**](a-msds-principalname.md)                                               | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**PSO-已套用**](a-msds-psoapplied.md)                                                     | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**PSO-適用于**](a-msds-psoappliesto.md)                                                | 否     | **ms-DS-密碼-設定**     |
@@ -468,17 +468,17 @@ ms.locfileid: "103935321"
 | [**ms-DS-Revealed-List-BL**](a-msds-revealedlistbl.md)                                            | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**ms-chap---------BL**](a-msds-tasksforazrolebl.md)                                      | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**ms DS-工作--Az-Task-BL**](a-msds-tasksforaztaskbl.md)                                      | 否     | [**返回頁首**](c-top.md)<br/> |
-| [**ms DS-TDO-出口-BL**](a-msds-tdoegressbl.md)                                                  | 否     | [**返回頁首**](c-top.md)<br/> |
+| [**ms-chap-Egress-BL**](a-msds-tdoegressbl.md)                                                  | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**ms-DS-TDO-輸入-BL**](a-msds-tdoingressbl.md)                                                | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**ms-chap-------Reference-BL**](a-msds-valuetypereferencebl.md)                               | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**Ms-exch-assistant-name-擁有者-BL**](a-ownerbl.md)                                                              | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**msSFU-30-Posix-成員**](a-mssfu30posixmemberof.md)                                         | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**netboot-SCP-BL**](a-netbootscpbl.md)                                                           | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**非安全性成員-BL**](a-nonsecuritymemberbl.md)                                            | 否     | [**返回頁首**](c-top.md)<br/> |
-| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                                           | 對      | [**返回頁首**](c-top.md)<br/> |
+| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                                           | 是      | [**返回頁首**](c-top.md)<br/> |
 | [**Obj-Dist 名稱**](a-distinguishedname.md)                                                       | 否     | [**返回頁首**](c-top.md)<br/> |
-| [**物件-類別**](a-objectcategory.md)                                                        | 對      | [**返回頁首**](c-top.md)<br/> |
-| [**物件類別**](a-objectclass.md)                                                              | 對      | [**返回頁首**](c-top.md)<br/> |
+| [**物件-類別**](a-objectcategory.md)                                                        | 是      | [**返回頁首**](c-top.md)<br/> |
+| [**物件類別**](a-objectclass.md)                                                              | 是      | [**返回頁首**](c-top.md)<br/> |
 | [**物件-Guid**](a-objectguid.md)                                                                | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**物件版本**](a-objectversion.md)                                                          | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**其他知名物件**](a-otherwellknownobjects.md)                                        | 否     | [**返回頁首**](c-top.md)<br/> |

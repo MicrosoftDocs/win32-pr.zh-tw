@@ -4,12 +4,12 @@ ms.assetid: 501e63bf-26ef-42fb-b181-f1a8b26c122c
 title: '編碼 (Windows 影像處理元件) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d6d15b983b7455d0fe0c406cbad64dbbb77588b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d0b3d6eef499379bbdc668e70d5d0ec4326b390372da910934a6e7c7f547d177
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106985023"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118964647"
 ---
 # <a name="encoding-windows-imaging-component"></a>編碼 (Windows 影像處理元件) 
 
@@ -29,7 +29,7 @@ ms.locfileid: "106985023"
 **概念**
 </dt> <dt>
 
-[Windows 影像處理元件總覽](-wic-about-windows-imaging-codec.md)
+[Windows映射處理元件總覽](-wic-about-windows-imaging-codec.md)
 </dt> <dt>
 
 [相機原始影像格式的 WIC 指導方針](-wic-rawguidelines.md)

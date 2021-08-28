@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 0ba6e1be9babf96d03235c49d9cde0f11cae1b83
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9b5b94e0fa58c95e74fd140c04710e8aaacef9402397fa475983c0e01e586528
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994340"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119017366"
 ---
 # <a name="cbasecontrolwindowgetbordercolour-method"></a>CBaseControlWindow. GetBorderColour 方法
 

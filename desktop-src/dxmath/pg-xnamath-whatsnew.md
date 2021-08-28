@@ -4,12 +4,12 @@ ms.assetid: 105800d3-a191-c78f-316a-bf2daf7b27a6
 title: '新功能 (DirectXMath) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1df1e7f25789ca6f58205ce9f45482e0a49540d1
-ms.sourcegitcommit: adba238660d8a5f4fe98fc6f5d105d56aac3a400
+ms.openlocfilehash: 7e94d4ba2433501fb5389b82dab4f5c3de4b8ed80904ed4629729537bbf264a5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "111827624"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118984708"
 ---
 # <a name="whats-new-directxmath"></a>新功能 (DirectXMath) 
 
@@ -23,34 +23,34 @@ DirectXMath 程式庫是以「操作 [數學 c + + SIMD 程式庫」2.04 版](ht
 
 <table>
  <tr>
-  <td>Windows 10 SDK (20348) 2104 版</td><td>DirectXMath 3.16</td>
+  <td>Windows 10SDK (20348) ，版本2104</td><td>DirectXMath 3.16</td>
  </td>
  <tr>
-  <td>Windows 10 5 月2020更新 SDK</td><td>DirectXMath 3.14</td>
+  <td>Windows 105月2020更新 SDK</td><td>DirectXMath 3.14</td>
  </tr>
  <tr>
-  <td>Windows 10 2018 年10月更新 SDK</td><td>DirectXMath 3.13</td>
+  <td>Windows 10 2018 年 10 月更新SDK</td><td>DirectXMath 3.13</td>
  </tr>
  <tr>
-  <td>Windows 10 2018 年4月更新 SDK<br />Windows 10 Fall Creators Update SDK</td><td>DirectXMath 3.11</td>
+  <td>Windows 102018年4月更新 SDK<br />Windows 10 Fall Creators UpdateSDK</td><td>DirectXMath 3.11</td>
  </tr>
  <tr>
-  <td>Windows 10 Creators Update SDK</td><td>DirectXMath 3.10</td>
+  <td>Windows 10 Creators UpdateSDK</td><td>DirectXMath 3.10</td>
  </tr>
  <tr>
-  <td>Windows 10 周年 SDK</td><td>DirectXMath 3.09</td>
+  <td>Windows 10周年年度 SDK</td><td>DirectXMath 3.09</td>
  </tr>
  <tr>
-  <td>Windows 10 SDK (2015 年11月) </td><td>DirectXMath 3.08</td>
+  <td>Windows 10SDK (2015 年11月) </td><td>DirectXMath 3.08</td>
  </tr>
  <tr>
-  <td>適用于 Windows 8.1 (2015 春季的 Windows SDK) </td><td>DirectXMath 3.07</td>
+  <td>WindowsSDK for Windows 8.1 (春季 2015) </td><td>DirectXMath 3.07</td>
  </tr>
  <tr>
-  <td>Windows 8.1 的 Windows SDK</td><td>DirectXMath 3.06</td>
+  <td>Windows適用于 Windows 8.1 的 SDK</td><td>DirectXMath 3.06</td>
  </tr>
  <tr>
-  <td>Windows 8 的 Windows SDK</td><td>DirectXMath 3.03</td>
+  <td>Windows適用于 Windows 8 的 SDK</td><td>DirectXMath 3.03</td>
  </tr>
 </table>
 

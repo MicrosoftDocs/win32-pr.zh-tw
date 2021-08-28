@@ -1,6 +1,6 @@
 ---
 title: " (腳本) 的每週觸發程式範例"
-description: 此腳本範例示範如何在每週星期一的上午 8 00 建立執行「記事本」的工作。
+description: 此腳本範例示範如何建立在每週星期一上午 8 00 執行記事本的工作。
 ms.assetid: 68ef73b0-3780-480e-90fe-940b6e8a5340
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,24 +9,24 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 4d9cf627591250c341008ba3a5129c4cc10cad6b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6500dae3c0444bc41b982acc06b0e331e63aa4fb821385b416dd0d3e079671d1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372012"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119001766"
 ---
 # <a name="weekly-trigger-example-scripting"></a> (腳本) 的每週觸發程式範例
 
-此腳本範例示範如何在每週星期一的上午8:00 建立執行「記事本」的工作。 此工作包含每日觸發程式，以指定工作執行的時間，以及執行「記事本」的可執行動作。
+此腳本範例示範如何建立在每週星期一上午8:00 執行記事本的工作。 此工作包含每日觸發程式，以指定工作執行的時間，以及記事本執行的可執行動作。
 
 下列程式描述如何排程工作，以在每週星期一的上午8:00 啟動可執行檔。
 
-**將 [記事本] 排定在每週星期一上午8:00 開始**
+**排定在每週星期一上午8:00 開始記事本開始**
 
 1.  建立 [**TaskService**](taskservice.md) 物件。 此物件可讓您在指定的資料夾中建立工作。
 2.  取得工作資料夾並建立工作。 使用 [**TaskService. GetFolder**](taskservice-getfolder.md) 方法取得儲存工作的資料夾，以及使用 [**TaskService. NewTask**](taskservice-newtask.md) 方法來建立代表工作的 [**TaskDefinition**](taskdefinition.md) 物件。
-3.  使用 [**TaskDefinition**](taskdefinition.md) 物件定義工作的相關資訊。 您可以使用 [ [**TaskDefinition**](taskdefinition-settings.md) ] 屬性來定義決定工作排程器服務如何執行工作的設定，以及使用 [**TaskDefinition RegistrationInfo**](taskdefinition-registrationinfo.md) 屬性來定義描述工作的資訊。
+3.  使用 [**TaskDefinition**](taskdefinition.md) 物件定義工作的相關資訊。 您可以使用 [**設定 TaskDefinition**](taskdefinition-settings.md)屬性來定義決定工作排程器服務如何執行工作的設定，以及使用 [**TaskDefinition RegistrationInfo**](taskdefinition-registrationinfo.md)屬性來定義描述工作的資訊。
 4.  使用 [**TaskDefinition**](taskdefinition-triggers.md) 屬性來建立每週觸發程式。 這個屬性會提供用來建立觸發程式之 [**TriggerCollection**](triggercollection.md) 物件的存取權。
 
     使用 [**TriggerCollection**](triggercollection-create.md) 方法 (指定您要建立的觸發程式類型) 建立每週觸發程式。
@@ -40,9 +40,9 @@ ms.locfileid: "104372012"
     設定 [**WeeklyTrigger WeeksInterval**](weeklytrigger-weeksinterval.md)屬性，以指定排程中周之間的間隔。 在此範例中，工作會每週執行一次。
 
 5.  使用 [ [**TaskDefinition**](taskdefinition-actions.md) ] 屬性，建立要執行之工作的動作。 這個屬性會提供用來建立動作之 [**actioncollection 動作**](actioncollection.md) 物件的存取權。 使用 [**actioncollection 動作**](actioncollection-create.md) 方法來指定您要建立的動作類型。 這個範例會使用 [**ExecAction**](execaction.md) 物件，代表執行命令列操作的動作。
-6.  使用 [**TaskFolder. RegisterTaskDefinition**](taskfolder-registertaskdefinition.md) 方法註冊工作。 在此範例中，工作會在每週星期一的上午8:00 啟動「記事本」。
+6.  使用 [**TaskFolder. RegisterTaskDefinition**](taskfolder-registertaskdefinition.md) 方法註冊工作。 在此範例中，工作會在每週星期一的上午8:00 開始記事本。
 
-下列 VBScript 範例示範如何排程工作每天上午8:00 執行 [記事本]。
+下列 VBScript 範例示範如何排程工作，以便每天上午8:00 執行記事本。
 
 
 ```VB
@@ -148,9 +148,9 @@ WScript.Echo "Task submitted."
 [使用工作排程器](using-the-task-scheduler.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

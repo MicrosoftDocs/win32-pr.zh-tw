@@ -4,12 +4,12 @@ ms.assetid: f49cb7da-3b50-47e2-90b4-1a885001b5d7
 title: 'PKEY_AudioEndpoint_FormFactor (Mmdeviceapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a5833470e2a2848f9454f3b5eefbf852f452f033
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: e76b53b91a03cda5e8484878f62c3c7a205e422f53ed647d29cca6435e0f14f4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104468428"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119018336"
 ---
 # <a name="pkey_audioendpoint_formfactor"></a>PKEY \_ AudioEndpoint \_ FormFactor
 
@@ -37,8 +37,8 @@ ms.locfileid: "104468428"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                     |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                     |
 | 標頭<br/>                   | <dl> <dt>Mmdeviceapi。h</dt> </dl> |
 
 

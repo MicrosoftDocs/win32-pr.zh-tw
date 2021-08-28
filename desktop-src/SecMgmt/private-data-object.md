@@ -4,12 +4,12 @@ ms.assetid: 927473d7-b5bc-4b6f-b303-8a0f8680731d
 title: 私用資料物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ccacd1334c9859495acf89075b77a0f10af4cb64
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 481f3641a7195c68a2955cc2cf302e25aa0b5a48a1ef901bec4e056ee536b375
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112661"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118893677"
 ---
 # <a name="private-data-object"></a>私用資料物件
 

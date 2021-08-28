@@ -13,12 +13,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 76f28e4ba3433c168e1d0bf86887ee93df953444
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8d7890effa0e8edd07edbb9506f88a78ceffc65fcb8d19bf6c8bcf67860a677f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194143"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119130970"
 ---
 # <a name="qualifiers-specific-to-the-view-provider"></a>視圖提供者專用的限定詞
 

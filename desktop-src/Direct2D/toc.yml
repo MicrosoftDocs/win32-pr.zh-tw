@@ -3287,7 +3287,7 @@
                   href: d1158.md
                 - name: D1159：不正確 Commandlist 拓撲
                   href: d1159.md
-                - name: D1160：圖形中的迴圈
+                - name: D1160：迴圈 Graph
                   href: d1160.md
                 - name: D1161： CopyFromMemory 需要 CPU 可讀取點陣圖
                   href: d1161.md

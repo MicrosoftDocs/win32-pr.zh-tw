@@ -4,12 +4,12 @@ ms.assetid: 0dbb66e2-811f-4f62-863a-94371dda6344
 title: RestrictedInterface
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ce191bd7ecc0777c717dc3acb2c1185c6cb0ffee
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1bb91ba473dbabe3c2224ac8b4f6cf0f430a74c07b2095875ea45ffd9d510edc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103694064"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119097217"
 ---
 # <a name="systemdevicesrestrictedinterface"></a>RestrictedInterface
 

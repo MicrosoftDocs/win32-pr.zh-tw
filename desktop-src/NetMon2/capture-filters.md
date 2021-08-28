@@ -4,12 +4,12 @@ ms.assetid: 3edc265e-6788-4381-a06e-be833b14acc2
 title: 捕獲篩選
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d15be29356b71dcbda96247443501aca2be4dc00
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 54c44a4d44789ff1a874daedfdf1384cbec3920ca7c2e7187188da5179420b64
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944526"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119064208"
 ---
 # <a name="capture-filters"></a>捕獲篩選
 

@@ -4,12 +4,12 @@ ms.assetid: c84075b2-ae41-4915-a0f6-3a9c017ae0b8
 title: 建立 Light-Aware 使用者介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6a4b6d404e366cb898114fe61729ab1ad722feb3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0bd97bb304c3a8718ae4b32d8b9100a1e7eb7a18240b9089c112272f588ee209
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944749"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118890279"
 ---
 # <a name="creating-light-aware-user-interfaces"></a>建立 Light-Aware 使用者介面
 
@@ -17,11 +17,11 @@ ms.locfileid: "103944749"
 
 環境燈光感應器會公開可用來判斷感應器所在之照明條件各方面的資料。 環境光線感應器可以公開環境的整體亮度 (illuminance) 以及周圍照明的其他層面，例如 chromaticity 或色溫。
 
-當系統回應照明狀況時，電腦可能會有數種方式可發揮效用。 這些功能包括控制電腦顯示器的亮度 (Windows 7) 的全新、完整支援功能、自動調整發亮鍵盤的照明等級，甚至是其他燈光的亮度控制 (例如按鈕照明、活動燈等) 。
+當系統回應照明狀況時，電腦可能會有數種方式可發揮效用。 這些包括控制電腦顯示器的亮度 (Windows 7) 的全新、完整支援功能、自動調整發亮鍵盤的照明等級，甚至是其他燈光的亮度控制 (例如按鈕照明、活動燈等) 。
 
 終端使用者程式也可以從燈光感應器獲益。 程式可以套用適用于特定光源條件的主題，例如特定的室外主題和室內主題。 也許最重要的一點是，「光線感應器」與「程式」整合的最重要層面，就是根據光源的可讀性和可讀性優化。
 
-感應器 API 可讓您建立這類程式。 請考慮下列案例。
+感應器 API 可讓您建立這類程式。 請考慮下列狀況。
 
 ## <a name="scenario-using-your-laptop-to-navigate-to-a-restaurant"></a>案例：使用您的膝上型電腦流覽餐廳
 

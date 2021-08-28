@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 選擇正確的註冊
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e49b66ec0266b5482dcff13a7de05a5bd1414312
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8f3e9a252e9013e828f5dc2c6e4c7228919d0834d0edb3da5f699cbe0306a38d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106977953"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119131800"
 ---
 # <a name="choosing-correct-registration"></a>選擇正確的註冊
 

@@ -4,12 +4,12 @@ ms.assetid: e6633dc9-c9b6-457d-8adc-e751ec9cf71d
 title: 查詢服務設定
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0efddea6ca590aa07b0c523588295d5f87ffefa8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b8eb8abd0792107c4c10757db22d2d96253837623138c9c5d6d000c25d4d39eb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103852280"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118889314"
 ---
 # <a name="querying-a-services-configuration"></a>查詢服務的設定
 
@@ -159,7 +159,7 @@ cleanup:
 
 <dl> <dt>
 
-[服務設定](service-configuration.md)
+[服務組態](service-configuration.md)
 </dt> <dt>
 
 [完整的服務範例](the-complete-service-sample.md)

@@ -1,23 +1,23 @@
 ---
 title: " (c + +) 的每週觸發程式範例"
-description: 這個 c + + 範例會示範如何建立排定每週執行「記事本」的工作。
+description: 這個 c + + 範例顯示如何建立排定每週執行記事本的工作。
 ms.assetid: 7c70b743-aff2-4ef5-b65b-ef0b5fdacade
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7583384a44224b3642f717d00c8792bcbc163e62
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 530ba3226668b8e743fe4ce1701e4b178f27fa5bee03b9518c23c2378ea0b5e2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106965970"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119001876"
 ---
 # <a name="weekly-trigger-example-c"></a> (c + +) 的每週觸發程式範例
 
-這個 c + + 範例會示範如何建立排定每週執行「記事本」的工作。 此工作包含每週的觸發程式，指定開始界限、周間間隔，以及工作開始的星期幾。 此工作也包含指定工作以執行 [記事本] 的動作。
+這個 c + + 範例顯示如何建立排定每週執行記事本的工作。 此工作包含每週的觸發程式，指定開始界限、周間間隔，以及工作開始的星期幾。 此工作也包含指定要執行記事本工作的動作。
 
 下列程式描述如何排程工作以每週為基礎啟動可執行檔。
 
-**排定每週啟動記事本**
+**排定每週開始記事本**
 
 1.  初始化 COM 並設定一般 COM 安全性。
 2.  建立 [**ITaskService**](/windows/desktop/api/taskschd/nn-taskschd-itaskservice) 物件。
@@ -42,7 +42,7 @@ ms.locfileid: "106965970"
 
 7.  使用 [**ITaskFolder：： RegisterTaskDefinition**](/windows/desktop/api/taskschd/nf-taskschd-itaskfolder-registertaskdefinition) 方法註冊工作。
 
-下列 c + + 範例示範如何排程工作，以每週執行「記事本」。
+下列 c + + 範例顯示如何排程工作，以每週執行記事本。
 
 
 ```C++
@@ -406,9 +406,9 @@ void main(void)
 [使用工作排程器](using-the-task-scheduler.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 
