@@ -6,12 +6,12 @@ keywords:
 - 編輯工作專案工作排程器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b0958c361f1c076e8ebed6a7e645bf67694a1d01
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 0121a9e3100922ecdd1d529aa81b498d377724959abb5c3380337df82817e338
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103682529"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120100428"
 ---
 # <a name="editing-a-work-item-using-property-pages"></a>使用屬性頁編輯工作專案
 
@@ -34,7 +34,7 @@ ms.locfileid: "103682529"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -43,6 +43,6 @@ ms.locfileid: "103682529"
 [工作排程器1.0 範例](task-scheduler-1-0-examples.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

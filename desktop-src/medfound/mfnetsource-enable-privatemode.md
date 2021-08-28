@@ -4,12 +4,12 @@ ms.assetid: 679661A7-1D31-43F3-A64E-16ADCB5414B0
 title: 'MFNETSOURCE_ENABLE_PRI加值稅EMODE 屬性 (Mfidl) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 53aa0bde3bf76ded278e0e3ee37465adb717972a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e3e2ff972aa42753bb92be33fd6bf893d0578f28bf0ad29889a1b5986ba1a77c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971453"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120113538"
 ---
 # <a name="mfnetsource_enable_privatemode-property"></a>MFNETSOURCE \_ ENABLE \_ PRI加值稅EMODE 屬性
 
@@ -23,7 +23,7 @@ PROPVARIANT 類型 (vt)
 
 PROPVARIANT 成員
 
-**Bool**
+**BOOL**
 
 VT \_ I4
 
@@ -43,7 +43,7 @@ VT \_ I4
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                         |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                         |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                          |
 | 標頭<br/>                   | <dl> <dt>Mfidl。h</dt> </dl> |
 

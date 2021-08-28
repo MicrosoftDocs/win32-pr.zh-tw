@@ -4,16 +4,16 @@ ms.assetid: 1df50b3a-bd16-4e9b-afca-b025bfe537a4
 title: 'ITQOSApplicationID 介面 (Ipmsp .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 23df8da80798cc52ecd73b4f29288812f3774d9f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7d4067d7a476e2a402c278b22dcee21b6542919396178350e73017d56ba92258
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106993680"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120126278"
 ---
 # <a name="itqosapplicationid-interface"></a>ITQOSApplicationID 介面
 
-\[ 在 Windows Vista、Windows Server 2008 和後續的作業系統版本中，無法使用此介面。 RTC 用戶端 API 提供類似的功能。\]
+\[這個介面無法在 Windows Vista、Windows Server 2008 及後續版本的作業系統中使用。 RTC 用戶端 API 提供類似的功能。\]
 
 **ITQOSApplicationID** 介面會公開方法，讓應用程式取得目前呼叫的 QOS 識別碼。
 

@@ -4,12 +4,12 @@ ms.assetid: 982d6283-673b-41a1-abc7-10ef87ff3c6f
 title: 矩形作業
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3117fda697000e92258c99cf90af470e8815e237
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: 161df56d3534f85cd37701956db0330be59236e3cbbeeed81ef390edd17656bb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318832"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120092758"
 ---
 # <a name="rectangle-operations"></a>矩形作業
 
@@ -19,7 +19,7 @@ ms.locfileid: "104318832"
 
 [**OffsetRect**](/windows/desktop/api/Winuser/nf-winuser-offsetrect)函式會以指定的數量移動矩形。 它會藉由將指定的 x 數量、y 金額或 x 和 y 數量新增至邊角座標來移動矩形。
 
-[**>ptinrect**](/windows/desktop/api/Winuser/nf-winuser-ptinrect)函式會判斷指定的點是否位於指定的矩形內。 如果該點位於左邊或上方，或完全在矩形內，則該點位於矩形內。 如果這個點位於右邊或底部，則不在矩形中。
+[**>Ptinrect**](/windows/desktop/api/Winuser/nf-winuser-ptinrect)函式會判斷指定的點是否位於指定的矩形內。 如果該點位於左邊或上方，或完全在矩形內，則該點位於矩形內。 如果這個點位於右邊或底部，則不在矩形中。
 
 [**IntersectRect**](/windows/desktop/api/Winuser/nf-winuser-intersectrect)函數會建立新的矩形，這是兩個現有矩形的交集，如下圖所示。
 

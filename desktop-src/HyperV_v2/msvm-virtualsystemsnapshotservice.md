@@ -43,12 +43,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: be84d70dd9478012e747626a9a566464d7587789
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6c253cf37d2e9cfaf2dd4d5d9f6867dd22736ad8
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847757"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122471054"
 ---
 # <a name="msvm_virtualsystemsnapshotservice-class"></a>Msvm \_ VirtualSystemSnapshotService 類別
 
@@ -106,66 +106,19 @@ class Msvm_VirtualSystemSnapshotService : CIM_VirtualSystemSnapshotService
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">方法</th>
-<th style="text-align: left;">描述</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><a href="applysnapshot-msvm-virtualsystemsnapshotservice.md"><strong>ApplySnapshot</strong></a></td>
-<td style="text-align: left;">將虛擬機器快照集套用至其建立來源的虛擬機器。<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="clearsnapshotstate-msvm-virtualsystemsnapshotservice.md"><strong>ClearSnapshotState</strong></a></td>
-<td style="text-align: left;">清除現有快照集的儲存狀態。<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="msvm-virtualsystemsnapshotservice-converttoreferencepoint.md"><strong>ConvertToReferencePoint</strong></a></td>
-<td style="text-align: left;">將現有的虛擬系統快照集轉換為參考點。 快照集會被刪除做為副作用。 只有修復快照集可以轉換成參考點。<br/>
-<blockquote>
-[!Note]<br />
-已將此方法的支援新增至 Windows 10。
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="createsnapshot-msvm-virtualsystemsnapshotservice.md"><strong>>icloudblob.createsnapshot</strong></a></td>
-<td style="text-align: left;">建立虛擬機器的快照集。<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="destroysnapshot-msvm-virtualsystemsnapshotservice.md"><strong>DestroySnapshot</strong></a></td>
-<td style="text-align: left;">終結現有的虛擬機器快照集。 這個方法可能會損毀其他相依于受影響快照集的快照集。<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="destroysnapshottree-msvm-virtualsystemsnapshotservice.md"><strong>DestroySnapshotTree</strong></a></td>
-<td style="text-align: left;">移除虛擬機器的現有快照集及其所有子系。<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="msvm-virtualsystemsnapshotservice-requeststatechange.md"><strong>RequestStateChange</strong></a></td>
-<td style="text-align: left;">要求元素的狀態變更。<br/>
-<blockquote>
-[!Note]<br />
-已將此方法的支援新增至 Windows 10。
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>StartService</strong></td>
-<td style="text-align: left;">不支援這個方法。<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><strong>StopService</strong></td>
-<td style="text-align: left;">不支援這個方法。<br/></td>
-</tr>
-</tbody>
-</table>
+
+| 方法 | 描述 | 
+|--------|-------------|
+| <a href="applysnapshot-msvm-virtualsystemsnapshotservice.md"><strong>ApplySnapshot</strong></a> | 將虛擬機器快照集套用至其建立來源的虛擬機器。<br /> | 
+| <a href="clearsnapshotstate-msvm-virtualsystemsnapshotservice.md"><strong>ClearSnapshotState</strong></a> | 清除現有快照集的儲存狀態。<br /> | 
+| <a href="msvm-virtualsystemsnapshotservice-converttoreferencepoint.md"><strong>ConvertToReferencePoint</strong></a> | 將現有的虛擬系統快照集轉換為參考點。 快照集會被刪除做為副作用。 只有修復快照集可以轉換成參考點。<br /><blockquote>[!Note]<br />已將此方法的支援新增至 Windows 10。</blockquote><br /> | 
+| <a href="createsnapshot-msvm-virtualsystemsnapshotservice.md"><strong>>icloudblob.createsnapshot</strong></a> | 建立虛擬機器的快照集。<br /> | 
+| <a href="destroysnapshot-msvm-virtualsystemsnapshotservice.md"><strong>DestroySnapshot</strong></a> | 終結現有的虛擬機器快照集。 這個方法可能會損毀其他相依于受影響快照集的快照集。<br /> | 
+| <a href="destroysnapshottree-msvm-virtualsystemsnapshotservice.md"><strong>DestroySnapshotTree</strong></a> | 移除虛擬機器的現有快照集及其所有子系。<br /> | 
+| <a href="msvm-virtualsystemsnapshotservice-requeststatechange.md"><strong>RequestStateChange</strong></a> | 要求元素的狀態變更。<br /><blockquote>[!Note]<br />已將此方法的支援新增至 Windows 10。</blockquote><br /> | 
+| <strong>StartService</strong> | 不支援這個方法。<br /> | 
+| <strong>StopService</strong> | 不支援這個方法。<br /> | 
+
 
 
 
@@ -369,7 +322,7 @@ class Msvm_VirtualSystemSnapshotService : CIM_VirtualSystemSnapshotService
 
 | 值                                                                        | 意義            |
 |------------------------------------------------------------------------------|--------------------|
-| <dl> <dt>2</dt> </dl> | 已啟用<br/> |
+| <dl> <dt>2</dt> </dl> | 啟用<br/> |
 
 
 
@@ -392,7 +345,7 @@ class Msvm_VirtualSystemSnapshotService : CIM_VirtualSystemSnapshotService
 
 | 值                                                                        | 意義            |
 |------------------------------------------------------------------------------|--------------------|
-| <dl> <dt>2</dt> </dl> | 已啟用<br/> |
+| <dl> <dt>2</dt> </dl> | 啟用<br/> |
 
 
 
@@ -795,8 +748,8 @@ class Msvm_VirtualSystemSnapshotService : CIM_VirtualSystemSnapshotService
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                                              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                                              |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                                                    |
 | 命名空間<br/>                | 根 \\ 虛擬化 \\ V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization。</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

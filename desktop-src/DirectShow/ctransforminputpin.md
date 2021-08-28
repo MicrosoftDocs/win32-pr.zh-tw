@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 6cbfad0a33384249ab474d6376ffc110294bca6b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3df5da0ee6e80dd1da147563ef698a520222531de5cee9656ec52cb14301f66e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106996501"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120087010"
 ---
 # <a name="ctransforminputpin-class"></a>CTransformInputPin 類別
 
@@ -33,10 +33,10 @@ ms.locfileid: "106996501"
 
 
 
-| 受保護的成員變數                                           | Description                                                                            |
+| 受保護的成員變數                                           | 描述                                                                            |
 |----------------------------------------------------------------------|----------------------------------------------------------------------------------------|
 | [**m \_ pTransformFilter**](ctransforminputpin-m-ptransformfilter.md) | 擁有篩選準則的指標。                                                          |
-| 公用方法                                                       | Description                                                                            |
+| 公用方法                                                       | 描述                                                                            |
 | [**CTransformInputPin**](ctransforminputpin-ctransforminputpin.md)  | 函式方法。                                                                    |
 | [**CheckConnect**](ctransforminputpin-checkconnect.md)              | 判斷 pin 連接是否合適。                                       |
 | [**BreakConnect**](ctransforminputpin-breakconnect.md)              | 釋放連接的 pin。                                                    |
@@ -45,13 +45,13 @@ ms.locfileid: "106996501"
 | [**SetMediaType**](ctransforminputpin-setmediatype.md)              | 設定連接的媒體類型。                                                |
 | [**CheckStreaming**](ctransforminputpin-checkstreaming.md)          | 判斷 pin 是否可以接受範例。 虛擬。                                |
 | [**CurrentMediaType**](ctransforminputpin-currentmediatype.md)      | 抓取目前 pin 連接的媒體類型。                               |
-| IPin 方法                                                         | Description                                                                            |
+| IPin 方法                                                         | 描述                                                                            |
 | [**QueryId**](ctransforminputpin-queryid.md)                        | 抓取 pin 的識別碼。                                                   |
 | [**EndOfStream**](ctransforminputpin-endofstream.md)                | 通知 pin，不需要額外的資料。                                  |
 | [**BeginFlush**](ctransforminputpin-beginflush.md)                  | 開始清除作業。                                                              |
 | [**EndFlush**](ctransforminputpin-endflush.md)                      | 結束清除操作。                                                                |
 | [**NewSegment**](ctransforminputpin-newsegment.md)                  | 通知釘選將此呼叫群組為區段之後所收到的媒體範例。 |
-| IMemInputPin 方法                                                 | Description                                                                            |
+| IMemInputPin 方法                                                 | 描述                                                                            |
 | [**收到**](ctransforminputpin-receive.md)                        | 接收資料流程中的下一個媒體範例。                                          |
 
 

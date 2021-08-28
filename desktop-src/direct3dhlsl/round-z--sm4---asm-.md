@@ -4,12 +4,12 @@ description: '浮點數舍入整數浮點數。 |round_z (sm4-asm) '
 ms.assetid: 97C0E0F2-2571-4A94-BB04-B0CDBA0B5C0C
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dc874c6d0a1f26902086af300784c55950b71569
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 08a95d0cb1e8432b0b5bf0ea73bf2619c8a221754775fc0d64c3649d69086295
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107997125"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120095308"
 ---
 # <a name="round_z-sm4---asm"></a>圓形 \_ z (sm4-asm) 
 

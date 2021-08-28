@@ -4,12 +4,12 @@ ms.assetid: 74d2a392-0aaa-4d51-bb5b-2a5278235a03
 title: 符號處理
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ee8e9a07a2e0bb99c13ad80a8d6147483a382038
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 35b65d259608af0a0f84ca1a77c5560ee1b510325286819fc81ac8feba6a8fcb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936203"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120103898"
 ---
 # <a name="symbol-handling"></a>符號處理
 

@@ -4,12 +4,12 @@ ms.assetid: ea98be7f-580d-4986-bd6b-d254a2c075e8
 title: 系統裝置列舉值
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2b80f7157843f11af307e6573abe3c76f30f23e5
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: 4d635e744556769bafb2829f0238ccca0230fb58cbb9d82ee6a78b2f1b51ece4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107908436"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120050098"
 ---
 # <a name="system-device-enumerator"></a>系統裝置列舉值
 
@@ -30,7 +30,7 @@ ms.locfileid: "107908436"
 
 <dl> <dt>
 
-[DirectShow 物件](directshow-objects.md)
+[DirectShow物件](directshow-objects.md)
 </dt> <dt>
 
 [列舉裝置和篩選器](enumerating-devices-and-filters.md)

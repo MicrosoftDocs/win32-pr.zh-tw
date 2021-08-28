@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: df26b392d01d6734c082bab95460c2508d351f58
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 032c2d7a2f3944ae76c25160f7e5e40ef700f89f28c2b822244e0feabcc1b716
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106997207"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120063628"
 ---
 # <a name="jet_columncreatecoltyp-property"></a>JET_COLUMNCREATE coltyp 屬性
 

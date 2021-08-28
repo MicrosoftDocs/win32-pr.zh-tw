@@ -4,12 +4,12 @@ ms.assetid: 1a3bc938-2754-4fa2-bd7f-e9b3e876bf6c
 title: 選取提供者
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 39435f8f34091ccef51a6cce85b2c596f0c687d4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2451f172a569a23ba4799c16f8598ade4e6fb011f051b7ba7d948c7a366f22e0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104115140"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120124498"
 ---
 # <a name="selecting-providers"></a>選取提供者
 

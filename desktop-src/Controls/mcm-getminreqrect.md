@@ -3,7 +3,7 @@ title: 'MCM_GETMINREQRECT 訊息 (Commctrl .h) '
 description: 抓取在月曆控制項中顯示全月所需的最小大小。 您可以使用 MonthCal GetMinReqRect 宏明確地傳送此訊息 \_ 。
 ms.assetid: f0378338-4809-48e9-9387-ed8b79356f95
 keywords:
-- MCM_GETMINREQRECT message Windows 控制項
+- MCM_GETMINREQRECT 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ac6b2e2b16a70841836a277ffe55e030a6d6a241
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 575636837b1485de62dd5e603a0dea38455c4c99926c13f3bd05101fe2a27eca
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464877"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120062048"
 ---
 # <a name="mcm_getminreqrect-message"></a>MCM \_ GETMINREQRECT 訊息
 
@@ -60,8 +60,8 @@ ms.locfileid: "104464877"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

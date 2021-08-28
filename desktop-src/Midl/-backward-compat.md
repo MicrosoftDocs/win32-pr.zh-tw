@@ -4,12 +4,12 @@ description: /Backward \_ 相容性參數會指示 MIDL 編譯器在產生 RPC/C
 ms.assetid: eec0ade7-30a0-44e4-92e9-fb03ff657723
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 69b558d01b33b99f7d1d9279f729b923ff58df0f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: cd412bdabe4255a9a4538503b29ddf5681265ce5e16c81d3d5fc2484eb6c9675
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106968021"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120086388"
 ---
 # <a name="backward_compat-switch"></a>/backward \_ 相容性參數
 
@@ -60,9 +60,9 @@ midl /backward_compat { maybenull_sizeis | zeroout_alignmentgap |
 -   *字串 \_ defaultvalue*：強制 MIDL 編譯器將 [**\[ \] defaultvalue**](defaultvalue.md)屬性中的數值字串強制轉換成 VARIANT。VT \_ I4 型別，請先將值強制轉換成正確的型別。 這可能會導致在某些情況下遺失精確度，因此不建議使用此切換選項。
 -   *帶正負號的 \_ wchar \_ t*：指示 MIDL 將 wchar \_ t 類型視為已簽署，以提供 Visual Basic 的相容性。
 
- 
+ 
 
- 
+ 
 
 
 

@@ -17,12 +17,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 530c301894d957c9a9a2db374f35cf7c1bcb5063
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 034b3b24c6b81bc5afc4ebf9b8fee28b9fccccfbe96e55d29f6f4123882762c2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104025323"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120088158"
 ---
 # <a name="mdm_devicestatus_networkidentifiers01_01-class"></a>MDM \_ DeviceStatus \_ NetworkIdentifiers01 \_ 01 類別
 
@@ -124,7 +124,7 @@ class MDM_DeviceStatus_NetworkIdentifiers01_01
 
 </dd> <dt>
 
-[型別](/windows/client-management/mdm/devicestatus-csp#devicestatus-networkidentifiers-macaddress-type)
+[類型](/windows/client-management/mdm/devicestatus-csp#devicestatus-networkidentifiers-macaddress-type)
 </dt> <dd> <dl> <dt>
 
 資料類型： **sint32**
@@ -141,7 +141,7 @@ class MDM_DeviceStatus_NetworkIdentifiers01_01
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 10 桌面應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | Windows 10 \[僅限桌面應用程式\]<br/>                                                    |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                      |
 | 命名空間<br/>                | 根 \\ cimv2 \\ mdm \\ dmmap<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv mof</dt> </dl> |

@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c5f50fdf5eb1daaea3521d069f59f7f4cd052a2
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 30c63a6a04041287ab20c880e7867f8b9b3e55692bfeaed777b82bbb60bf11c2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106971916"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120049868"
 ---
 # <a name="dhcp-sites-attribute"></a>dhcp 網站屬性
 

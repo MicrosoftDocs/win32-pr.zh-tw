@@ -4,12 +4,12 @@ description: visual 消費者介面自動化確認 (的 visual UIA 確認) 是 W
 ms.assetid: 8AEB083E-785E-4F15-B708-2098A9A41B4E
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1c50fdd123d24c8a6ef4215ae2451cf49b854b60b26c5d741db1921c42f6f7aa
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 22e8c6118914c791e04226dfa11d2c3bd9548368
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118563652"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122466845"
 ---
 # <a name="visual-ui-automation-verify"></a>Visual 消費者介面自動化驗證
 
@@ -36,108 +36,24 @@ Visual UIA Verify 僅支援 UIA Verify XML 記錄器 (WUIALoggerXml.dll) 原生�
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>功能表</th>
-<th>命令</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>檔案</strong></td>
-<td><strong>結束</strong></td>
-<td>Exit Visual UIA Verify。</td>
-</tr>
-<tr class="even">
-<td><strong>檢視</strong></td>
-<td><strong>反白顯示</strong></td>
-<td>在 [ <strong>自動化元素] 樹狀目錄</strong> 窗格中，反白顯示所選取專案的周框。 可用選項如下。
-<ul>
-<li><strong>矩形</strong>—純紅線。</li>
-<li><strong>淡化矩形</strong>—在幾秒鐘後消失的純紅線。</li>
-<li><strong>放射線和矩形</strong>—具有額外藍色醒目提示的純紅線，可從周框矩形的每個角落中放射。</li>
-<li><strong>無</strong>-沒有可見的醒目提示。</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td rowspan="2"><strong>Automation 元素樹狀結構</strong>$ {REMOVE} $<br />
-</td>
-<td><strong>重新整理選取的元素</strong></td>
-<td>重新整理 [ <strong>自動化元素] 樹狀目錄</strong> 窗格中選取之專案的子系。 專案清單是靜態的，而且不會在元素樹狀結構變更時自動重新整理 () 。</td>
-</tr>
-<tr class="even">
-<td><strong>導覽</strong></td>
-<td>在元素樹狀結構中流覽至下列其中一個專案。
-<ul>
-<li><strong>父系</strong>：移至父元素。</li>
-<li><strong>第一個子</strong>系—移至第一個子項目。</li>
-<li><strong>下一個同級</strong>-移至第一個同級元素。</li>
-<li><strong>上一個同級</strong>：移至上一個同級元素。</li>
-<li><strong>最後一個子</strong>系-移至最後一個子項目。</li>
-</ul></td>
 
-</tr>
-<tr class="odd">
-<td rowspan="3"><strong>Mode</strong>$ {REMOVE} $<br />
-</td>
-<td><strong>Always On Top</strong></td>
-<td>[視覺效果 UIA 驗證] 視窗會保持在桌面 z 順序的頂端。</td>
-</tr>
-<tr class="even">
-<td><strong>停留模式 (使用 Ctrl) </strong></td>
-<td>按下 Ctrl 鍵時，會將滑鼠游標下的元素識別為感興趣的元素。 [ <strong>自動化專案] 樹狀結構</strong> 窗格會重新整理，並反白顯示專案清單中的對應專案。</td>
+| 功能表 | 命令 | 描述 | 
+|------|---------|-------------|
+| <strong>檔案</strong> | <strong>結束</strong> | Exit Visual UIA Verify。 | 
+| <strong>檢視</strong> | <strong>反白顯示</strong> | 在 [ <strong>自動化元素] 樹狀目錄</strong> 窗格中，反白顯示所選取專案的周框。 可用選項如下。<ul><li><strong>矩形</strong>—純紅線。</li><li><strong>淡化矩形</strong>—在幾秒鐘後消失的純紅線。</li><li><strong>放射線和矩形</strong>—具有額外藍色醒目提示的純紅線，可從周框矩形的每個角落中放射。</li><li><strong>無</strong>-沒有可見的醒目提示。</li></ul> | 
+| <strong>Automation 元素樹狀結構</strong>$ {REMOVE} $<br /> | <strong>重新整理選取的元素</strong> | 重新整理 [ <strong>自動化元素] 樹狀目錄</strong> 窗格中選取之專案的子系。 專案清單是靜態的，而且不會在元素樹狀結構變更時自動重新整理 () 。 | 
+| <strong>導覽</strong> | 在元素樹狀結構中流覽至下列其中一個專案。<ul><li><strong>父系</strong>：移至父元素。</li><li><strong>第一個子</strong>系—移至第一個子項目。</li><li><strong>下一個同級</strong>-移至第一個同級元素。</li><li><strong>上一個同級</strong>：移至上一個同級元素。</li><li><strong>最後一個子</strong>系-移至最後一個子項目。</li></ul> | 
+| <strong>Mode</strong>$ {REMOVE} $<br /> | <strong>Always On Top</strong> | [視覺效果 UIA 驗證] 視窗會保持在桌面 z 順序的頂端。 | 
+| <strong>停留模式 (使用 Ctrl) </strong> | 按下 Ctrl 鍵時，會將滑鼠游標下的元素識別為感興趣的元素。 [ <strong>自動化專案] 樹狀結構</strong> 窗格會重新整理，並反白顯示專案清單中的對應專案。 | 
+| <strong>焦點追蹤</strong> | 當焦點變更時，會將具有焦點的專案識別為感興趣的元素。 [ <strong>自動化專案] 樹狀結構</strong> 窗格會重新整理，並反白顯示專案清單中的對應專案。 | 
+| <strong>測試</strong>$ {REMOVE} $<br /> | <strong>左移</strong> | 將一個節點移至 [ <strong>測試</strong> ] 樹狀結構中。 | 
+| <strong>向上</strong> | 在 <strong>測試</strong> 樹狀結構中向上移動一個節點。 | 
+| <strong>往下移</strong> | 在 <strong>測試</strong> 樹狀結構中向下移動一個節點。 | 
+| <strong>移至右方</strong> | 在 [ <strong>測試</strong> ] 樹狀結構中，直接移動一個節點。 | 
+| <strong>在選取的元素上執行選取的測試 (s) </strong> | 從選取專案上的 [ <strong>測試</strong> ] 樹狀結構執行選取的測試。 | 
+| <strong>篩選已知問題</strong> | 篩選來自測試結果的已知消費者介面自動化錯誤。 | 
+| <strong>說明</strong> | <strong>關於 Visual 消費者介面自動化驗證</strong> | 顯示 Visual UIA Verify 的軟體版本和著作權資訊。 | 
 
-</tr>
-<tr class="odd">
-<td><strong>焦點追蹤</strong></td>
-<td>當焦點變更時，會將具有焦點的專案識別為感興趣的元素。 [ <strong>自動化專案] 樹狀結構</strong> 窗格會重新整理，並反白顯示專案清單中的對應專案。</td>
-
-</tr>
-<tr class="even">
-<td rowspan="6"><strong>測試</strong>$ {REMOVE} $<br />
-</td>
-<td><strong>左移</strong></td>
-<td>將一個節點移至 [ <strong>測試</strong> ] 樹狀結構中。</td>
-</tr>
-<tr class="odd">
-<td><strong>向上</strong></td>
-<td>在 <strong>測試</strong> 樹狀結構中向上移動一個節點。</td>
-
-</tr>
-<tr class="even">
-<td><strong>往下移</strong></td>
-<td>在 <strong>測試</strong> 樹狀結構中向下移動一個節點。</td>
-
-</tr>
-<tr class="odd">
-<td><strong>移至右方</strong></td>
-<td>在 [ <strong>測試</strong> ] 樹狀結構中，直接移動一個節點。</td>
-
-</tr>
-<tr class="even">
-<td><strong>在選取的元素上執行選取的測試 (s) </strong></td>
-<td>從選取專案上的 [ <strong>測試</strong> ] 樹狀結構執行選取的測試。</td>
-
-</tr>
-<tr class="odd">
-<td><strong>篩選已知問題</strong></td>
-<td>篩選來自測試結果的已知消費者介面自動化錯誤。</td>
-
-</tr>
-<tr class="even">
-<td><strong>說明</strong></td>
-<td><strong>關於 Visual 消費者介面自動化驗證</strong></td>
-<td>顯示 Visual UIA Verify 的軟體版本和著作權資訊。</td>
-</tr>
-</tbody>
-</table>
 
 
 

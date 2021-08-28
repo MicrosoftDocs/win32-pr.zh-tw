@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101324
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: aca5c3d5df7627aa5ad94f437ffdc964be40567f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 28a5e47e327159ca93dcf44f0f048692a16e4d6a17ef5c50196a864faef76f21
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192730"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120094198"
 ---
 # <a name="esentdatabasealreadyupgradedexception-properties"></a>EsentDatabaseAlreadyUpgradedException 屬性
 

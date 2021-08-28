@@ -4,12 +4,12 @@ ms.assetid: 3c0ab7d0-35f2-4966-8eff-f9f0419d8eed
 title: ActionData ControlEvent
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 13bbfe27a59dbe0eda27e7a24e654711d1999188
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2a8c280bbd2c0a184ec281e4401037687893942b4c344824b20a59c410b59fce
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106999883"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120105478"
 ---
 # <a name="actiondata-controlevent"></a>ActionData ControlEvent
 

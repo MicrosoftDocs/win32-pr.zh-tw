@@ -4,12 +4,12 @@ ms.assetid: 1d9c49a2-1f6b-9972-24c1-8534f31709e9
 title: 調試功能
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3f591efaf3b6b3d3ab28ad3912df69efa5433f79
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a7305f00882a0545511d4dbf639edf95e07c7667277d596c162f5d3642d5bf80
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106988280"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120109668"
 ---
 # <a name="debugging-facilities"></a>調試功能
 

@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102844
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: fc22d21b9c7726cb3ae25344a93010cd290b8eb0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ed9886495890104e6ff747c088a2571a9560b2855c9a9c556382fc036ee59b41
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193210"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120116595"
 ---
 # <a name="esentslvstreamingfilenotcreatedexception-methods"></a>EsentSLVStreamingFileNotCreatedException 方法
 

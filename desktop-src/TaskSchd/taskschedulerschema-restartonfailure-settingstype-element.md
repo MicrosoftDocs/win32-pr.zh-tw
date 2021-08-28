@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 4239d21362d589cae84252c728387b2a2b6159e1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: bfe29be7dd329def41e8a6726f141a850eb2daecd05e05d6b5988f543f64864c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104187317"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120072438"
 ---
 # <a name="restartonfailure-settingstype-element"></a>RestartOnFailure (settingsType) 元素
 
@@ -37,7 +37,7 @@ ms.locfileid: "104187317"
 
 
 
-| 元素                                                           | 衍生自                                                         | Description                                                                        |
+| 元素                                                           | 衍生自                                                         | 描述                                                                        |
 |-------------------------------------------------------------------|----------------------------------------------------------------------|------------------------------------------------------------------------------------|
 | [**設定**](taskschedulerschema-settings-tasktype-element.md) | [**settingsType**](taskschedulerschema-settingstype-complextype.md) | 包含工作排程器用來執行工作的設定。<br/> |
 
@@ -47,7 +47,7 @@ ms.locfileid: "104187317"
 
 
 
-| 元素                                                              | 類型         | Description                                                                                        |
+| 元素                                                              | 類型         | 描述                                                                                        |
 |----------------------------------------------------------------------|--------------|----------------------------------------------------------------------------------------------------|
 | [**計數**](taskschedulerschema-count-restarttype-element.md)       | unsignedByte | 指定工作排程器將嘗試重新開機工作的次數。<br/> |
 | [**間隔**](taskschedulerschema-interval-restarttype-element.md) | duration     | 指定工作排程器將嘗試重新開機工作的時間長度。<br/>                 |
@@ -66,8 +66,8 @@ ms.locfileid: "104187317"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

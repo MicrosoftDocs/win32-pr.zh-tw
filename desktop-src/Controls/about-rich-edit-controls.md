@@ -4,12 +4,12 @@ description: 本節介紹 rich edit 控制項。
 ms.assetid: ab9dcdf4-a311-4159-8f37-e67e144f31f6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 742295358be32fa318334ceac7f89607adcbba12
-ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
+ms.openlocfilehash: 314e41747ae0d55ca1010df31dee1522527eadb3
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "110423988"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122470195"
 ---
 # <a name="about-rich-edit-controls"></a>關於 Rich Edit 控制項
 
@@ -146,7 +146,7 @@ Microsoft Rich Edit 2.0 併入了幾項額外的功能，例如支援 Unicode �
 
 -   Microsoft Rich Edit 2.0 引進了下列新結構。 
 
-    | 結構                          | 描述                                      |
+    | 結構                          | Description                                      |
     |------------------------------------|--------------------------------------------------|
     | [**CHARFORMAT2**](/windows/desktop/api/Richedit/ns-richedit-charformat2a) | 包含有關字元格式的資訊。 |
     | [**PARAFORMAT2**](/windows/desktop/api/Richedit/ns-richedit-paraformat2) | 包含段落格式設定的相關資訊。 |
@@ -183,125 +183,9 @@ Microsoft Rich Edit 3.0 是單一、可擴充的全全球 DLL，可在小型封�
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Zoom</td>
-<td>縮放因數是以比例提供。</td>
-</tr>
-<tr class="even">
-<td> (單一層級) 的段落編號</td>
-<td>數值、大寫和小寫字母或羅馬數字。</td>
-</tr>
-<tr class="odd">
-<td>簡單資料表</td>
-<td>您可以刪除和插入資料列，但無法調整大小或在儲存格內換行。 開啟 advanced rtf (請參閱 <a href="em-gettypographyoptions.md"><strong>EM_GETTYPOGRAPHYOPTIONS</strong></a>) 、Microsoft Rich Edit 3.0 可以讓資料行以中央或向右對齊，並包含小數。 資料格是依索引標籤來模擬，因此文字索引標籤和換行字元會以空白取代。</td>
-</tr>
-<tr class="even">
-<td>一般和標題樣式</td>
-<td><a href="em-setparaformat.md"><strong>EM_SETPARAFORMAT</strong></a>和<a href="text-object-model.md">Text 物件模型</a>都支援內建的標準樣式和標題樣式1到9， (TOM) 介面。</td>
-</tr>
-<tr class="odd">
-<td>更多底線類型</td>
-<td>已新增虛線、虛線、虛線、虛線-點、點加底線。</td>
-</tr>
-<tr class="even">
-<td>底線著色</td>
-<td>加底線的文字可以使用15個檔選項的其中一個來標記底線色彩。</td>
-</tr>
-<tr class="odd">
-<td>隱藏文字</td>
-<td>以 CHARFORMAT2 屬性標記。 方便 roundtripping (寫出檔案) 的資訊，通常不應該顯示。</td>
-</tr>
-<tr class="even">
-<td>更多預設快速鍵</td>
-<td>這些快速鍵的運作方式與 Word 中的相同。 例如，歐洲輔色的「無效按鍵」 (美式鍵盤) 。 數位熱鍵 (CTRL + L) 迴圈可用的編號選項，以專案符號開頭。</td>
-</tr>
-<tr class="odd">
-<td>HexToUnicode IME</td>
-<td>允許使用者使用快速鍵在十六進位和 Unicode 之間進行轉換。</td>
-</tr>
-<tr class="even">
-<td>彎引號</td>
-<td>這項功能是由 CTRL + ALT + ' 針對美國鍵盤開啟和關閉。</td>
-</tr>
-<tr class="odd">
-<td>軟連字號</td>
-<td>若為純文字，請使用0xAD。 若為 RTF，請使用 \- 。</td>
-</tr>
-<tr class="even">
-<td>斜體游標</td>
-<td>此外，當您透過 Url 時，滑鼠游標會變更為手。</td>
-</tr>
-<tr class="odd">
-<td>Advanced 印刷樣式選項</td>
-<td>Microsoft Rich Edit 3.0 可以使用先進的印刷樣式選項來換行和顯示 (請參閱 <a href="em-gettypographyoptions.md"><strong>EM_GETTYPOGRAPHYOPTIONS</strong></a>) 。 這個簡潔的選項主要是為了協助處理複雜的腳本 (雙向、印度文和泰文) 。 此外，簡單的腳本也會進行一些改善。 範例包括：
-<ul>
-<li>置中、靠右、十進位索引標籤</li>
-<li>完全對齊的文字</li>
-<li>底線平均，可提供統一的底線，即使連續的文字執行具有不同的字型大小也是如此。</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td> 複雜字集支援</td>
-<td>Microsoft Rich Edit 3.0 支援以阿拉伯文和/或希伯來文混合的雙向 (文字與其他腳本) 、印度文 (印度文的印度文，例如 Devangari) 和泰文文字。 為了支援這些複雜的腳本，會使用 advanced 印刷樣式和 Uniscribe 元件。</td>
-</tr>
-<tr class="odd">
-<td>字型系結</td>
-<td>Microsoft Rich Edit 3.0 會針對清楚不屬於目前字元集戳記的字元，自動選擇適當的字型。 這是藉由將字元集指派給文字執行，並將字型與這些字元集產生關聯來完成。 如需詳細資訊，請參閱 <a href="using-rich-edit-controls.md">字型</a>系結。</td>
-</tr>
-<tr class="even">
-<td>字元集專用的純文字讀取/寫入選項</td>
-<td>這可讓您使用一組字元集來讀取檔案，並使用不同的字元集進行寫入。</td>
-</tr>
-<tr class="odd">
-<td>UTF-8 RTF</td>
-<td>這建議用於剪下、複製和貼上作業。 這種檔案格式比一般 RTF 更精簡、更快速且與 Unicode 相容。</td>
-</tr>
-<tr class="even">
-<td>Microsoft Office 9 IME 支援 (IME98) </td>
-<td>這項功能更強大的 IME 功能已分成獨立的模組。 功能包括：
-<ul>
-<li>在較早的版本中重新封漢字，使用者必須先刪除最後一個字串，然後輸入新字串以取得正確的候選。 這項新功能可讓使用者將最終字串轉換回撰寫模式，進而方便您選擇不同的候選字串。<br/></li>
-<li>檔摘要：這項功能會使用目前段落的文字提供 IME98，協助 IME98 在輸入期間執行更精確的轉換。<br/></li>
-<li>滑鼠操作：這項功能可讓您在輸入期間更妥善地控制候選和 UI 視窗。<br/></li>
-<li>插入號位置這項功能會提供目前的插入號和行資訊，IME98 會使用此資訊來定位 UI 視窗 (例如) 的候選清單。<br/></li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>Active Input Method Manager (IMM) 支援</td>
-<td>使用者可以叫用作用中的 IMM 物件，讓使用者在美國系統上輸入亞洲字元。</td>
-</tr>
-<tr class="even">
-<td>HexToUnicode 支援</td>
-<td>使用者可以使用快速鍵，在十六進位標記法和 Unicode 之間進行轉換。</td>
-</tr>
-<tr class="odd">
-<td>更多 RTF roundtripping</td>
-<td>從檔案讀取的 RTF 文字將會原封不動地寫回。</td>
-</tr>
-<tr class="even">
-<td>改良的1.0 相容性模式</td>
-<td>Microsoft Rich Edit 3.0 可模擬 Microsoft Rich Edit 1.0 行為。 例如，您可以在 MBCS 和 Unicode 字元位置 (cp) 對應之間變更。</td>
-</tr>
-<tr class="odd">
-<td>增加凍結控制項</td>
-<td>您可以透過多個 API 呼叫來凍結顯示，然後解除凍結以顯示更新。</td>
-</tr>
-<tr class="even">
-<td>增強的復原控制項</td>
-<td>復原可以 (IME 需求) 來暫停和繼續。</td>
-</tr>
-<tr class="odd">
-<td>增加/減少字型大小</td>
-<td>將字型大小增加或減少為六個標準值的其中一個 (12、28、36、48、72和80點) 。</td>
-</tr>
-</tbody>
-</table>
+
+| | |Zoom |縮放因數是以比例提供。 | | (單一層級) 的段落編號 |數值、大寫和小寫字母或羅馬數字。 | |簡單資料表 |您可以刪除和插入資料列，但無法調整大小或在儲存格內換行。 開啟 advanced rtf (請參閱 <a href="em-gettypographyoptions.md"><strong>EM_GETTYPOGRAPHYOPTIONS</strong></a>) 、Microsoft Rich Edit 3.0 可以讓資料行以中央或向右對齊，並包含小數。 資料格是依索引標籤來模擬，因此文字索引標籤和換行字元會以空白取代。 | |一般和標題樣式 | <a href="em-setparaformat.md"><strong>EM_SETPARAFORMAT</strong></a> 和 <a href="text-object-model.md">Text 物件模型</a> 都支援內建的標準樣式和標題樣式1到9， (TOM) 介面。 | |更多底線類型 |已新增虛線、虛線、虛線、虛線-點、點加底線。 | |底線著色 |加底線的文字可以使用15個檔選項的其中一個來標記底線色彩。 | |隱藏文字 |以 CHARFORMAT2 屬性標記。 方便 roundtripping (寫出檔案) 的資訊，通常不應該顯示。 | |更多預設快速鍵 |這些快速鍵的運作方式與 Word 中的相同。 例如，歐洲輔色的「無效按鍵」 (美式鍵盤) 。 數位熱鍵 (CTRL + L) 迴圈可用的編號選項，以專案符號開頭。 | |HexToUnicode IME |允許使用者使用快速鍵在十六進位和 Unicode 之間進行轉換。 | |彎引號 |這項功能是由 CTRL + ALT + ' 針對美國鍵盤開啟和關閉。 | |軟連字號 |若為純文字，請使用0xAD。 若為 RTF，請使用 \- 。 | |斜體游標 |此外，當您透過 Url 時，滑鼠游標會變更為手。 | |Advanced 印刷樣式選項 |Microsoft Rich Edit 3.0 可以使用先進的印刷樣式選項來換行和顯示 (請參閱 <a href="em-gettypographyoptions.md"><strong>EM_GETTYPOGRAPHYOPTIONS</strong></a>) 。 這個簡潔的選項主要是為了協助處理複雜的腳本 (雙向、印度文和泰文) 。 此外，簡單的腳本也會進行一些改善。 範例包括：<ul><li>置中、靠右、十進位索引標籤</li><li>完全對齊的文字</li><li>底線平均，可提供統一的底線，即使連續的文字執行具有不同的字型大小也是如此。</li></ul> | |複雜字集支援 |Microsoft Rich Edit 3.0 支援以阿拉伯文和/或希伯來文混合的雙向 (文字與其他腳本) 、印度文 (印度文的印度文，例如 Devangari) 和泰文文字。 為了支援這些複雜的腳本，會使用 advanced 印刷樣式和 Uniscribe 元件。 | |字型系結 |Microsoft Rich Edit 3.0 會針對清楚不屬於目前字元集戳記的字元，自動選擇適當的字型。 這是藉由將字元集指派給文字執行，並將字型與這些字元集產生關聯來完成。 如需詳細資訊，請參閱 <a href="using-rich-edit-controls.md">字型</a>系結。 | |字元集專用的純文字讀取/寫入選項 |這可讓您使用一組字元集來讀取檔案，並使用不同的字元集進行寫入。 | |UTF-8 RTF |這建議用於剪下、複製和貼上作業。 這種檔案格式比一般 RTF 更精簡、更快速且與 Unicode 相容。 | |Microsoft Office 9 IME 支援 (IME98) |這項功能更強大的 IME 功能已分成獨立的模組。 功能包括：<ul><li>在較早的版本中重新封漢字，使用者必須先刪除最後一個字串，然後輸入新字串以取得正確的候選。 這項新功能可讓使用者將最終字串轉換回撰寫模式，進而方便您選擇不同的候選字串。<br /></li><li>檔摘要：這項功能會使用目前段落的文字提供 IME98，協助 IME98 在輸入期間執行更精確的轉換。<br /></li><li>滑鼠操作：這項功能可讓您在輸入期間更妥善地控制候選和 UI 視窗。<br /></li><li>插入號位置這項功能會提供目前的插入號和行資訊，IME98 會使用此資訊來定位 UI 視窗 (例如) 的候選清單。<br /></li></ul> | |Active Input Method Manager (IMM) 支援 |使用者可以叫用作用中的 IMM 物件，讓使用者在美國系統上輸入亞洲字元。 | |HexToUnicode 支援 |使用者可以使用快速鍵，在十六進位標記法和 Unicode 之間進行轉換。 | |更多 RTF roundtripping |從檔案讀取的 RTF 文字將會原封不動地寫回。 | |改良的1.0 相容性模式 |Microsoft Rich Edit 3.0 可模擬 Microsoft Rich Edit 1.0 行為。 例如，您可以在 MBCS 和 Unicode 字元位置 (cp) 對應之間變更。 | |增加凍結控制項 |您可以透過多個 API 呼叫來凍結顯示，然後解除凍結以顯示更新。 | |增強的復原控制項 |復原可以 (IME 需求) 來暫停和繼續。 | |增加/減少字型大小 |將字型大小增加或減少為六個標準值的其中一個 (12、28、36、48、72和80點) 。 | 
+
 
 
 
@@ -315,71 +199,9 @@ Microsoft Rich Edit 4.1 的視窗類別是 MSFTEDIT.DLL \_ 類別。 Microsoft R
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>功能</td>
-<td>您可以透過下列 Api 來支援斷字： <a href="/windows/desktop/api/Richedit/nf-richedit-hyphenateproc"><em>HyphenateProc</em></a>、 <a href="em-sethyphenateinfo.md"><strong>EM_SETHYPHENATEINFO</strong></a>和 <a href="em-gethyphenateinfo.md"><strong>EM_GETHYPHENATEINFO</strong></a>。</td>
-</tr>
-<tr class="even">
-<td>頁面旋轉</td>
-<td>透過 <a href="em-setpagerotate.md"><strong>EM_SETPAGEROTATE</strong></a> 和 <a href="em-getpagerotate.md"><strong>EM_GETPAGEROTATE</strong></a>，可支援從上到下和自下而上的版面配置。</td>
-</tr>
-<tr class="odd">
-<td>文字服務架構支援</td>
-<td><ul>
-<li>若要開啟 TSF 和特定的 TSF 功能，請在 <a href="em-seteditstyle.md"><strong>EM_SETEDITSTYLE</strong></a>中使用下列樣式： SES_USECTF、SES_CTFALLOWEMBED、SES_CTFALLOWPROOFING 和 SES_CTFALLOWSMARTTAG。</li>
-<li>若要設定和取得 TSF 模式偏差，請使用 <a href="em-setctfmodebias.md"><strong>EM_SETCTFMODEBIAS</strong></a> 和 <a href="em-getctfmodebias.md"><strong>EM_GETCTFMODEBIAS</strong></a>。</li>
-<li>若要設定並取得 TSF 鍵盤狀態，請使用 <a href="em-setctfopenstatus.md"><strong>EM_SETCTFOPENSTATUS</strong></a> 和 <a href="em-getctfopenstatus.md"><strong>EM_GETCTFOPENSTATUS</strong></a>。</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>其他輸入法支援</td>
-<td><ul>
-<li>若要設定和取得 IME 模式偏差，請使用 <a href="em-setimemodebias.md"><strong>EM_SETIMEMODEBIAS</strong></a> 和 <a href="em-getimemodebias.md"><strong>EM_GETIMEMODEBIAS</strong></a>。</li>
-<li>若要取得輸入法的屬性和功能，請使用 <a href="em-getimeproperty.md"><strong>EM_GETIMEPROPERTY</strong></a>。</li>
-<li>若要取得 IME 組合文字，請使用 <a href="em-getimecomptext.md"><strong>EM_GETIMECOMPTEXT</strong></a>。</li>
-<li>若要判斷地區設定是否為東亞地區設定，請使用 <a href="em-isime.md"><strong>EM_ISIME</strong></a>。</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>其他 <a href="em-seteditstyle.md"><strong>EM_SETEDITSTYLE</strong></a> 設定</td>
-<td>除了 TSF 設定之外，還有新的設定會排除 Ime、設定雙向文字流程、使用 draftmode 字型等等。</td>
-</tr>
-<tr class="even">
-<td>其他 <a href="em-setcharformat.md"><strong>EM_SETCHARFORMAT</strong></a> 設定</td>
-<td>新的旗標可讓用戶端設定指定之 LCID 或字元集的預設字型和字型大小，以設定控制項的預設字型，以防止鍵盤切換為符合字型等等。</td>
-</tr>
-<tr class="odd">
-<td>將輸入限制為 ANSI 文字</td>
-<td>使用<a href="em-settextmode.md"><strong>EM_SETTEXTMODE</strong></a>中的<a href="/windows/win32/api/richedit/ne-richedit-textmode"><strong>TM_SINGLECODEPAGE</strong></a>可防止 Unicode 輸入輸入 Rich Edit 控制項。</td>
-</tr>
-<tr class="even">
-<td>不支援的 RTF 關鍵字通知</td>
-<td><a href="en-lowfirtf.md">EN_LOWFIRTF</a> 會在有不支援的 RTF 關鍵字時警告應用程式。</td>
-</tr>
-<tr class="odd">
-<td>其他語言支援</td>
-<td>其他語言包括亞美尼亞文、迪維、泰泰和其他語言。</td>
-</tr>
-<tr class="even">
-<td>改良的資料表支援</td>
-<td>功能包括：在儲存格內換行、透過 RTF 改進處理，以及改進的導覽。</td>
-</tr>
-<tr class="odd">
-<td>ES_VERTICAL</td>
-<td>支援 <a href="rich-edit-control-styles.md"><strong>ES_VERTICAL</strong></a> 視窗樣式。</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/inputdev/wm-unichar"><strong>WM_UNICHAR</strong></a> 支援</td>
-<td>若要將 Unicode 字元傳送或張貼至 ANSI 視窗，請使用 <a href="/windows/desktop/inputdev/wm-unichar"><strong>WM_UNICHAR</strong></a>。 它相當於 <a href="/windows/desktop/inputdev/wm-char"><strong>WM_CHAR</strong></a>，但它使用 (utf-16) -32。</td>
-</tr>
-</tbody>
-</table>
+
+| | |斷字 |您可以透過下列 Api 來支援斷字： <a href="/windows/desktop/api/Richedit/nf-richedit-hyphenateproc"><em>HyphenateProc</em></a>、 <a href="em-sethyphenateinfo.md"><strong>EM_SETHYPHENATEINFO</strong></a>和 <a href="em-gethyphenateinfo.md"><strong>EM_GETHYPHENATEINFO</strong></a>。 | |頁面旋轉 |透過 <a href="em-setpagerotate.md"><strong>EM_SETPAGEROTATE</strong></a> 和 <a href="em-getpagerotate.md"><strong>EM_GETPAGEROTATE</strong></a>，可支援從上到下和自下而上的版面配置。 | |文字服務架構支援 | <ul><li>若要開啟 TSF 和特定的 TSF 功能，請在 <a href="em-seteditstyle.md"><strong>EM_SETEDITSTYLE</strong></a>中使用下列樣式： SES_USECTF、SES_CTFALLOWEMBED、SES_CTFALLOWPROOFING 和 SES_CTFALLOWSMARTTAG。</li><li>若要設定和取得 TSF 模式偏差，請使用 <a href="em-setctfmodebias.md"><strong>EM_SETCTFMODEBIAS</strong></a> 和 <a href="em-getctfmodebias.md"><strong>EM_GETCTFMODEBIAS</strong></a>。</li><li>若要設定並取得 TSF 鍵盤狀態，請使用 <a href="em-setctfopenstatus.md"><strong>EM_SETCTFOPENSTATUS</strong></a> 和 <a href="em-getctfopenstatus.md"><strong>EM_GETCTFOPENSTATUS</strong></a>。</li></ul> | |其他 IME 支援 | <ul><li>若要設定和取得 IME 模式偏差，請使用 <a href="em-setimemodebias.md"><strong>EM_SETIMEMODEBIAS</strong></a> 和 <a href="em-getimemodebias.md"><strong>EM_GETIMEMODEBIAS</strong></a>。</li><li>若要取得輸入法的屬性和功能，請使用 <a href="em-getimeproperty.md"><strong>EM_GETIMEPROPERTY</strong></a>。</li><li>若要取得 IME 組合文字，請使用 <a href="em-getimecomptext.md"><strong>EM_GETIMECOMPTEXT</strong></a>。</li><li>若要判斷地區設定是否為東亞地區設定，請使用 <a href="em-isime.md"><strong>EM_ISIME</strong></a>。</li></ul> | |其他 <a href="em-seteditstyle.md"><strong>EM_SETEDITSTYLE</strong></a> 設定 |除了 TSF 設定之外，還有新的設定會排除 Ime、設定雙向文字流程、使用 draftmode 字型等等。 | |其他 <a href="em-setcharformat.md"><strong>EM_SETCHARFORMAT</strong></a> 設定 |新的旗標可讓用戶端設定指定之 LCID 或字元集的預設字型和字型大小，以設定控制項的預設字型，以防止鍵盤切換為符合字型等等。 | |將輸入限制為 ANSI 文字 |使用<a href="em-settextmode.md"><strong>EM_SETTEXTMODE</strong></a>中的<a href="/windows/win32/api/richedit/ne-richedit-textmode"><strong>TM_SINGLECODEPAGE</strong></a>可防止 Unicode 輸入輸入 Rich Edit 控制項。 | |不支援的 RTF 關鍵字通知 | <a href="en-lowfirtf.md">EN_LOWFIRTF</a> 會在有不支援的 RTF 關鍵字時警告應用程式。 | |其他語言支援 |其他語言包括亞美尼亞文、迪維、泰泰和其他語言。 | |改進的資料表支援 |功能包括：在儲存格內換行、透過 RTF 改進處理，以及改進的導覽。 | |ES_VERTICAL |支援 <a href="rich-edit-control-styles.md"><strong>ES_VERTICAL</strong></a> 視窗樣式。 | | <a href="/windows/desktop/inputdev/wm-unichar"><strong>WM_UNICHAR</strong></a> 支援 |若要將 Unicode 字元傳送或張貼至 ANSI 視窗，請使用 <a href="/windows/desktop/inputdev/wm-unichar"><strong>WM_UNICHAR</strong></a>。 它相當於 <a href="/windows/desktop/inputdev/wm-char"><strong>WM_CHAR</strong></a>，但它使用 (utf-16) -32。 | 
+
 
 
 

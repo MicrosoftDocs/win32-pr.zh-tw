@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e7b2588ddb0945ba1fcab8fbb4c5b9b078a1af9a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1d9f85a491da97fe0093d9b02e8ceda59c3562f237d8678323078e2613250f28
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465988"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120125628"
 ---
 # <a name="imsrdpdrivecollection-interface"></a>IMsRdpDriveCollection 介面
 
@@ -54,7 +54,7 @@ ms.locfileid: "104465988"
 
 
 
-| 屬性                                                              | 存取類型          | Description                                                  |
+| 屬性                                                              | 存取類型          | 描述                                                  |
 |:----------------------------------------------------------------------|:---------------------|:-------------------------------------------------------------|
 | [**DriveByIndex**](imsrdpdrivecollection-drivebyindex.md)<br/> | 唯讀<br/> | 抓取位於指定之索引處的磁片磁碟機。<br/>       |
 | [**DriveCount**](imsrdpdrivecollection-drivecount.md)<br/>     | 唯讀<br/> | 抓取集合中的物件計數。<br/> |

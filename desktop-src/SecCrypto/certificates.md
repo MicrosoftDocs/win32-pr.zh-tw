@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 8efb9221f39b8544eabe8f6c00d21f6cfdf20c14
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 4ccd66085f96ac7f3567ca3bf993d7d31c9bc70437199701fe88165adf52d03e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108098386"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120126718"
 ---
 # <a name="certificates-object"></a>憑證物件
 
-\[CAPICOM 是僅限32位的元件，可用於下列作業系統： Windows Server 2008、Windows Vista 和 Windows XP。 請改為使用 [**system.security.cryptography.x509certificates.x509certificate2**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor?view=netcore-3.1)命名空間中的 [**X509Certificate2Collection 類別**](/previous-versions/windows/embedded/hh424013(v=msdn.10))。\]
+\[CAPICOM 是僅限32位的元件，可供下列作業系統使用： Windows Server 2008、Windows Vista 和 Windows XP。 請改為使用 [**system.security.cryptography.x509certificates.x509certificate2**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor?view=netcore-3.1)命名空間中的 [**X509Certificate2Collection 類別**](/previous-versions/windows/embedded/hh424013(v=msdn.10))。\]
 
 **憑證** 物件代表 [**憑證**](certificate.md)物件的集合。 每個 [**憑證**](certificate.md) 物件都代表一個 [*數位憑證*](../secgloss/d-gly.md)。
 
@@ -58,11 +58,11 @@ ms.locfileid: "108098386"
 | 方法                                | 描述                                                                                                                                                           |
 |:--------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**添加**](certificates-add.md)       | 將 [**憑證**](certificate.md) 物件加入至集合。<br/>  (繼承自 **CertificatesICertificates2**)                                         |
-| [**清楚**](certificates-clear.md)   | 從集合中移除所有的 [**憑證**](certificate.md) 物件。<br/>  (繼承自 **CertificatesICertificates2**)                                 |
+| [**清除**](certificates-clear.md)   | 從集合中移除所有的 [**憑證**](certificate.md) 物件。<br/>  (繼承自 **CertificatesICertificates2**)                                 |
 | [**Find**](certificates-find.md)     | 傳回 **憑證** 物件，其中包含符合指定之搜尋準則的所有憑證。<br/>  (繼承自 **CertificatesICertificates2**)  |
 | [**移除**](certificates-remove.md) | 從集合中移除單一 [**憑證**](certificate.md) 物件。<br/>  (繼承自 **CertificatesICertificates2**)                             |
 | [**儲存**](certificates-save.md)     | 將憑證儲存至指定的檔案。<br/>  (繼承自 **CertificatesICertificates2**)                                                                 |
-| [**選取**](certificates-select.md) | 顯示用來選取憑證的對話方塊，並傳回選取的憑證集合。<br/>  (繼承自 **CertificatesICertificates2**)   |
+| [**選擇**](certificates-select.md) | 顯示用來選取憑證的對話方塊，並傳回選取的憑證集合。<br/>  (繼承自 **CertificatesICertificates2**)   |
 
 
 
@@ -74,9 +74,9 @@ ms.locfileid: "108098386"
 
 
 
-| 屬性                                             | 存取類型          | Description                                                                                                                                                                                                                     |
+| 屬性                                             | 存取類型          | 描述                                                                                                                                                                                                                     |
 |:-----------------------------------------------------|:---------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**\_NewEnum**](certificates-newenum.md)<br/> | 唯讀<br/> | 在可以用來列舉集合的物件上，抓取 [**IEnumVARIANT**](/windows/win32/api/oaidl/nn-oaidl-ienumvariant) 介面。 這個屬性會在 Visual Basic Scripting Edition (VBScript) 中隱藏。<br/> |
+| [**\_NewEnum**](certificates-newenum.md)<br/> | 唯讀<br/> | 在可以用來列舉集合的物件上，抓取 [**IEnumVARIANT**](/windows/win32/api/oaidl/nn-oaidl-ienumvariant) 介面。 這個屬性會在 Visual Basic 腳本版本 (VBScript) 中隱藏。<br/> |
 | [**計數**](certificates-count.md)<br/>       | 唯讀<br/> | 抓取集合中的 [**憑證**](certificate.md) 物件數目。<br/>                                                                                                                                |
 | [**項目**](certificates-item.md)<br/>         | 唯讀<br/> | 抓取代表集合之索引憑證的 [**憑證**](certificate.md) 物件。 這是預設屬性。<br/>  (繼承自 **CertificatesICertificates2ICertificates**)           |
 

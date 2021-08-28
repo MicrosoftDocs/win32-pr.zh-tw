@@ -4,12 +4,12 @@ ms.assetid: fcb3b601-9953-474c-9a08-1fa25706f3d7
 title: 驗證服務交換
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c14121ed33ae0ac169c590b03dfb0b395306d11f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8480370dd9fe5d7c5fc10e7979de9d4e7f67f99db3e517e1ec6520a3274ef23c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106987636"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120073288"
 ---
 # <a name="authentication-service-exchange"></a>驗證服務交換
 

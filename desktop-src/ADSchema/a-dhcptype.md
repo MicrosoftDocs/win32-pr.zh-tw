@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7b5a5a331ff7298854f4ca070799a05e2a3497f2
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 8f4cc64a05db9b88d13a1e7dfb3ce0976391b9d2514388ae9045eb11d97a5b2e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103935259"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120049648"
 ---
 # <a name="dhcp-type-attribute"></a>dhcp 類型屬性
 
@@ -63,8 +63,8 @@ DHCP 伺服器的類型。 這個屬性是在 objectClass [**dHCPClass**](c-dhcp
 | 連結識別碼                | \-                                           |
 | MAPI-Id                | \-                                           |
 | System-Only            | 否                                        |
-| 是-單一值       | 對                                         |
-| 已編制索引             | 對                                         |
+| 是-單一值       | 是                                         |
+| 已編制索引             | 是                                         |
 | 在通用類別目錄中      | 否                                        |
 | NT-Security-描述元 | O:BAG：不正確： S：                                 |
 | Range-Lower            | \-                                           |
@@ -84,8 +84,8 @@ DHCP 伺服器的類型。 這個屬性是在 objectClass [**dHCPClass**](c-dhcp
 | 連結識別碼                | \-                                           |
 | MAPI-Id                | \-                                           |
 | System-Only            | 否                                        |
-| 是-單一值       | 對                                         |
-| 已編制索引             | 對                                         |
+| 是-單一值       | 是                                         |
+| 已編制索引             | 是                                         |
 | 在通用類別目錄中      | 否                                        |
 | NT-Security-描述元 | O:BAG：不正確： S：                                 |
 | Range-Lower            | \-                                           |
@@ -105,8 +105,8 @@ DHCP 伺服器的類型。 這個屬性是在 objectClass [**dHCPClass**](c-dhcp
 | 連結識別碼                | \-                                           |
 | MAPI-Id                | \-                                           |
 | System-Only            | 否                                        |
-| 是-單一值       | 對                                         |
-| 已編制索引             | 對                                         |
+| 是-單一值       | 是                                         |
+| 已編制索引             | 是                                         |
 | 在通用類別目錄中      | 否                                        |
 | NT-Security-描述元 | O:BAG：不正確： S：                                 |
 | Range-Lower            | \-                                           |
@@ -126,8 +126,8 @@ DHCP 伺服器的類型。 這個屬性是在 objectClass [**dHCPClass**](c-dhcp
 | 連結識別碼                | \-                                           |
 | MAPI-Id                | \-                                           |
 | System-Only            | 否                                        |
-| 是-單一值       | 對                                         |
-| 已編制索引             | 對                                         |
+| 是-單一值       | 是                                         |
+| 已編制索引             | 是                                         |
 | 在通用類別目錄中      | 否                                        |
 | NT-Security-描述元 | O:BAG：不正確： S：                                 |
 | Range-Lower            | \-                                           |
@@ -147,8 +147,8 @@ DHCP 伺服器的類型。 這個屬性是在 objectClass [**dHCPClass**](c-dhcp
 | 連結識別碼                | \-                                           |
 | MAPI-Id                | \-                                           |
 | System-Only            | 否                                        |
-| 是-單一值       | 對                                         |
-| 已編制索引             | 對                                         |
+| 是-單一值       | 是                                         |
+| 已編制索引             | 是                                         |
 | 在通用類別目錄中      | 否                                        |
 | NT-Security-描述元 | O:BAG：不正確： S：                                 |
 | Range-Lower            | \-                                           |
@@ -168,8 +168,8 @@ DHCP 伺服器的類型。 這個屬性是在 objectClass [**dHCPClass**](c-dhcp
 | 連結識別碼                | \-                                           |
 | MAPI-Id                | \-                                           |
 | System-Only            | 否                                        |
-| 是-單一值       | 對                                         |
-| 已編制索引             | 對                                         |
+| 是-單一值       | 是                                         |
+| 已編制索引             | 是                                         |
 | 在通用類別目錄中      | 否                                        |
 | NT-Security-描述元 | O:BAG：不正確： S：                                 |
 | Range-Lower            | \-                                           |

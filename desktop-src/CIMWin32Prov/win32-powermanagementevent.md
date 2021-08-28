@@ -18,12 +18,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: e0e7dfa68646dbefb6d6b70218fe99830b44a0c1
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 536963be51d665b03af77bb81c7592b44d2a6eb5ddc449bfa82896dd7f7da9b0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110728"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120064418"
 ---
 # <a name="win32_powermanagementevent-class"></a>Win32 \_ PowerManagementEvent 類別
 
@@ -187,7 +187,7 @@ class Win32_PowerManagementEvent : __ExtrinsicEvent
 
 **Win32 \_ PowerManagementEvent** 類別只有兩個屬性： [事件種類]，用來表示發生的電源變更事件種類，以及 OEMEventType，供某些原始設備製造商用來定義其他的電源變更事件。
 
-如需回應 Windows 電源事件的詳細資訊，請參閱「嘿！」上的「 [使用 PowerShell 監視及回應 Windows 電源事件](https://blogs.technet.com/b/heyscriptingguy/archive/2011/08/16/monitor-and-respond-to-windows-power-events-with-powershell.aspx) 」一文。 編寫專家的腳本！ 部落格。
+如需有關回應 Windows 電源事件的詳細資訊，請參閱「嘿！」的[監視器和使用 PowerShell 來回應 Windows 電源事件](https://blogs.technet.com/b/heyscriptingguy/archive/2011/08/16/monitor-and-respond-to-windows-power-events-with-powershell.aspx)一文 編寫專家的腳本！ 部落格。
 
 ## <a name="examples"></a>範例
 

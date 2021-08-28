@@ -4,12 +4,12 @@ ms.assetid: e5cdd066-e25a-4107-9523-5611bd792372
 title: 'MFPKEY_LOOKAHEAD 屬性 (Wmcodecdsp) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e1a024c4d0be6ef7ab16c4bf51f290b01de3282b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: aa5b11abbacc19a4a66dda785d628b1f5d67f636a0f02c7392402ad64a7c3926
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106976831"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120113328"
 ---
 # <a name="mfpkey_lookahead-property"></a>MFPKEY \_ 先行屬性
 
@@ -31,7 +31,7 @@ VT \_ I4
 
 當編解碼器使用先行完成時，它可以更有效率地編碼影片。
 
-Windows Media 格式 SDK 的寫入器物件預期編解碼器會立即編碼每個範例。 如此一來，這項功能在使用 writer 物件 (（包括 Windows Media 編碼器和 Windows Media Player) ）的軟體中無法正常運作。 與影片框架相關聯的任何資料單位延伸模組都會附加至錯誤的輸出框架。 資料單位擴充功能放在其中的框架數目，等於所使用的向前擴展框架數目。
+Windows 媒體格式 SDK 的寫入器物件預期編解碼器可以立即編碼每個範例。 如此一來，這項功能在使用寫入器物件的軟體中無法正常運作 (包括 Windows 媒體編碼器和 Windows Media Player) 。 與影片框架相關聯的任何資料單位延伸模組都會附加至錯誤的輸出框架。 資料單位擴充功能放在其中的框架數目，等於所使用的向前擴展框架數目。
 
 有效的右值範圍從0到16個框架。 建議值為16。
 
@@ -41,8 +41,8 @@ Windows Media 格式 SDK 的寫入器物件預期編解碼器會立即編碼每�
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                             |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                    |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                             |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                    |
 | 標頭<br/>                   | <dl> <dt>Wmcodecdsp。h</dt> </dl> |
 
 

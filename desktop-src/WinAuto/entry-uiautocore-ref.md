@@ -1,15 +1,15 @@
 ---
 title: '參考 (消費者介面自動化) '
-description: 本節提供 Microsoft 消費者介面自動化 \ 32; 的相關參考資訊。Api。
+description: 本節提供 Microsoft 消費者介面自動化 \ 32; 的相關參考資訊。API。
 ms.assetid: d17e6a95-a923-4e27-aad1-4d95d0b0808d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ade82e67e0e69e288bf115f79ac61fbed407db30
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: cf007a188a6719b1318d01c826a82ad52f1fb414318bffa08667f4861fd0f7b5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103685385"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120071818"
 ---
 # <a name="reference-ui-automation"></a>參考 (消費者介面自動化) 
 

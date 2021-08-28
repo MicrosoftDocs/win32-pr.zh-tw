@@ -4,12 +4,12 @@ description: 本章節包含與 [資料段] 控制項搭配使用之程式設計
 ms.assetid: vs|controls|~\controls\trackbar\reflist.htm
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cfe8e58cd8db9c2811f31cac92ee3d1d31c2c02d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2f56c5a483340a8e77ef0df6503481d3cbc50e51a85bd07258cdf283dd563c6a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106969449"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120060538"
 ---
 # <a name="trackbar"></a>跟蹤
 

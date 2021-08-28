@@ -4,12 +4,12 @@ ms.assetid: 037AF841-C2C9-4551-9CCB-F2A2F199083A
 title: 使用 NVMe 磁片磁碟機
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 425516946d1e76e5c01f6ae5d11f104244f85ce0
-ms.sourcegitcommit: 5a78723ad484955ac91a23cf282cf9c176c1eab6
+ms.openlocfilehash: 22a749764aa0874aef618558199ca418582d0d36
+ms.sourcegitcommit: 0dec0044816af3f2b2e6403659e1cf11138c90cd
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "114436273"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "121812868"
 ---
 # <a name="working-with-nvme-drives"></a>使用 NVMe 磁片磁碟機
 
@@ -48,7 +48,7 @@ ms.locfileid: "114436273"
 -   [**儲存體 \_屬性 \_ 查詢**](/windows/desktop/api/WinIoCtl/ns-winioctl-storage_property_query) ：此結構包含 **PropertyId** 和 **AdditionalParameters** 欄位，以指定要查詢的資料。 在 [ **PropertyId** ] 欄位中，使用 [ **儲存體 \_ 屬性 \_ 識別碼** ] 列舉來指定資料類型。 您可以使用 [ **AdditionalParameters** ] 欄位來指定更多詳細資料，視資料類型而定。 針對通訊協定特定的資料，請使用 **AdditionalParameters** 欄位中的 **儲存體 \_ 通訊協定 \_ 特定 \_ 資料** 結構。 針對溫度資料，請使用 **AdditionalParameters** 欄位中的 **儲存體 \_ 溫度 \_ 資訊** 結構。
 -   [**儲存體 \_屬性 \_ 識別碼**](/windows/win32/api/winioctl/ne-winioctl-storage_property_id) ：此列舉包含新的值，可讓 **IOCTL \_ 儲存體 \_ 查詢 \_ 屬性** 取得特定通訊協定和溫度資訊。
 
-    -   **StorageAdapterProtocolSpecificProperty**
+    -   **StorageAdapterProtocolSpecificProperty**：如果 ProtocolType = ProtocolTypeNvme 和 DataType = NVMeDataTypeLogPage，呼叫端應該要求512位元組區塊的資料。
     -   **StorageDeviceProtocolSpecificProperty**
 
     使用這些通訊協定特定的其中一個屬性識別碼搭配 **儲存體 \_ 通訊協定 \_ 特定 \_ 資料** ，以取得 [**儲存體 \_ 通訊協定 \_ 資料 \_ 描述**](/windows/desktop/api/WinIoCtl/ns-winioctl-storage_protocol_data_descriptor) 元結構中的通訊協定特定資料。

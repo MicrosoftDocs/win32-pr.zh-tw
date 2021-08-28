@@ -4,18 +4,18 @@ ms.assetid: efe6e8d7-2465-4374-8c99-a410091f8d46
 title: 建立時間軸：範例程式碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 877bd79b055171dfa5bd12cff0ae257d60e76a16
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 614d6e2dfa676b09bac2cc9c81fd67c795d73f61df2df4b603307943ac0ada71
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106973363"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120108228"
 ---
 # <a name="creating-a-timeline-example-code"></a>建立時間軸：範例程式碼
 
 \[此 API 不受支援，而且可能會在未來變更或無法使用。\]
 
-下列程式碼範例示範如何在 [DirectShow 編輯服務](directshow-editing-services.md)中建立和預覽時間軸。
+下列程式碼範例示範如何在[DirectShow 編輯服務](directshow-editing-services.md)中建立和預覽時間軸。
 
 > [!Note]  
 > 為了簡潔起見，範例程式碼不會執行錯誤檢查。 在實際的應用程式中，您應該檢查方法呼叫的傳回值，以確保沒有任何失敗。

@@ -13,21 +13,21 @@ keywords:
 - Windows Media Player，請輸入2個線上商店
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8210a52e0c531f5043d75ff66a5c7eb46cc3e416
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 91bf8ac5b65507117e98424f80d62aab540c585914033c54d663d10e6becd7c9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104301243"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120123528"
 ---
 # <a name="information-common-to-type-1-and-type-2-online-stores"></a>Type 1 和 Type 2 線上商店的一般資訊
 
 > [!Note]  
 > 本章節描述專為線上商店使用而設計的功能。 不支援在線上商店的內容之外使用這項功能。
 
- 
+ 
 
-Windows Media Player 支援兩種類型的線上商店：類型1和類型2。 Windows Media Player 11 支援類型1存放區。 Windows Media Player 10 和 Windows Media Player 11 都支援類型2存放區。 類型2存放區提供與播放程式使用者介面的基本層級整合，而類型1存放區則提供更深入的整合。 如需類型1和類型2存放區之間差異的詳細資訊，請參閱 [Windows Media Player 線上商店](windows-media-player-online-stores.md)。
+Windows Media Player 支援兩種類型的線上商店：類型1和類型2。 Windows Media Player 11 支援類型1存放區。 Windows Media Player 10 和 Windows Media Player 11 都支援類型2存放區。 類型2存放區提供與播放程式使用者介面的基本層級整合，而類型1存放區則提供更深入的整合。 如需類型1和類型2存放區之間差異的詳細資訊，請參閱[Windows Media Player 線上商店](windows-media-player-online-stores.md)。
 
 下列各節提供適用于 type 1 和 type 2 線上商店的資訊。
 
@@ -53,18 +53,18 @@ Windows Media Player 支援兩種類型的線上商店：類型1和類型2。 Wi
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
 <dl> <dt>
 
-[**Windows Media Player 線上商店**](windows-media-player-online-stores.md)
+[**Windows Media Player線上商店**](windows-media-player-online-stores.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

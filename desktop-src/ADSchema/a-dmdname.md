@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b25684af133748ca73c8ace31b0471a5d1e0a787
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 43650fdf846a605e3751ef16729295574321bacf9e67bc26c5a4c51d2e9a8da7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103935256"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120085968"
 ---
 # <a name="dmd-name-attribute"></a>DMD-Name 屬性
 
@@ -59,7 +59,7 @@ ms.locfileid: "103935256"
 | 連結識別碼                | \-                              |
 | MAPI-Id                | 0x8C56                          |
 | System-Only            | 否                           |
-| 是-單一值       | 對                            |
+| 是-單一值       | 是                            |
 | 已編制索引             | 否                           |
 | 在通用類別目錄中      | 否                           |
 | NT-Security-描述元 | O:BAG：不正確： S：                    |
@@ -67,7 +67,7 @@ ms.locfileid: "103935256"
 | Range-Upper            | 1024                            |
 | Search-Flags           | 0x00000000                      |
 | System-Flags           | 0x00000010                      |
-| 中使用的類別        | [**Dmd**](c-dmd.md)<br/> |
+| 中使用的類別        | [**DMD**](c-dmd.md)<br/> |
 
 
 
@@ -80,7 +80,7 @@ ms.locfileid: "103935256"
 | 連結識別碼                | \-                              |
 | MAPI-Id                | 0x8C56                          |
 | System-Only            | 否                           |
-| 是-單一值       | 對                            |
+| 是-單一值       | 是                            |
 | 已編制索引             | 否                           |
 | 在通用類別目錄中      | 否                           |
 | NT-Security-描述元 | O:BAG：不正確： S：                    |
@@ -88,7 +88,7 @@ ms.locfileid: "103935256"
 | Range-Upper            | 1024                            |
 | Search-Flags           | 0x00000000                      |
 | System-Flags           | 0x00000010                      |
-| 中使用的類別        | [**Dmd**](c-dmd.md)<br/> |
+| 中使用的類別        | [**DMD**](c-dmd.md)<br/> |
 
 
 
@@ -101,7 +101,7 @@ ms.locfileid: "103935256"
 | 連結識別碼                | \-                              |
 | MAPI-Id                | 0x8C56                          |
 | System-Only            | 否                           |
-| 是-單一值       | 對                            |
+| 是-單一值       | 是                            |
 | 已編制索引             | 否                           |
 | 在通用類別目錄中      | 否                           |
 | NT-Security-描述元 | O:BAG：不正確： S：                    |
@@ -109,7 +109,7 @@ ms.locfileid: "103935256"
 | Range-Upper            | 1024                            |
 | Search-Flags           | 0x00000000                      |
 | System-Flags           | 0x00000010                      |
-| 中使用的類別        | [**Dmd**](c-dmd.md)<br/> |
+| 中使用的類別        | [**DMD**](c-dmd.md)<br/> |
 
 
 
@@ -122,7 +122,7 @@ ms.locfileid: "103935256"
 | 連結識別碼                | \-                              |
 | MAPI-Id                | 0x8C56                          |
 | System-Only            | 否                           |
-| 是-單一值       | 對                            |
+| 是-單一值       | 是                            |
 | 已編制索引             | 否                           |
 | 在通用類別目錄中      | 否                           |
 | NT-Security-描述元 | O:BAG：不正確： S：                    |
@@ -130,7 +130,7 @@ ms.locfileid: "103935256"
 | Range-Upper            | 1024                            |
 | Search-Flags           | 0x00000000                      |
 | System-Flags           | 0x00000010                      |
-| 中使用的類別        | [**Dmd**](c-dmd.md)<br/> |
+| 中使用的類別        | [**DMD**](c-dmd.md)<br/> |
 
 
 
@@ -143,7 +143,7 @@ ms.locfileid: "103935256"
 | 連結識別碼                | \-                              |
 | MAPI-Id                | 0x8C56                          |
 | System-Only            | 否                           |
-| 是-單一值       | 對                            |
+| 是-單一值       | 是                            |
 | 已編制索引             | 否                           |
 | 在通用類別目錄中      | 否                           |
 | NT-Security-描述元 | O:BAG：不正確： S：                    |
@@ -151,7 +151,7 @@ ms.locfileid: "103935256"
 | Range-Upper            | 1024                            |
 | Search-Flags           | 0x00000000                      |
 | System-Flags           | 0x00000010                      |
-| 中使用的類別        | [**Dmd**](c-dmd.md)<br/> |
+| 中使用的類別        | [**DMD**](c-dmd.md)<br/> |
 
 
 
@@ -164,7 +164,7 @@ ms.locfileid: "103935256"
 | 連結識別碼                | \-                              |
 | MAPI-Id                | 0x8C56                          |
 | System-Only            | 否                           |
-| 是-單一值       | 對                            |
+| 是-單一值       | 是                            |
 | 已編制索引             | 否                           |
 | 在通用類別目錄中      | 否                           |
 | NT-Security-描述元 | O:BAG：不正確： S：                    |
@@ -172,7 +172,7 @@ ms.locfileid: "103935256"
 | Range-Upper            | 1024                            |
 | Search-Flags           | 0x00000000                      |
 | System-Flags           | 0x00000010                      |
-| 中使用的類別        | [**Dmd**](c-dmd.md)<br/> |
+| 中使用的類別        | [**DMD**](c-dmd.md)<br/> |
 
 
 
@@ -185,7 +185,7 @@ ms.locfileid: "103935256"
 | 連結識別碼                | \-                              |
 | MAPI-Id                | 0x8C56                          |
 | System-Only            | 否                           |
-| 是-單一值       | 對                            |
+| 是-單一值       | 是                            |
 | 已編制索引             | 否                           |
 | 在通用類別目錄中      | 否                           |
 | NT-Security-描述元 | O:BAG：不正確： S：                    |
@@ -193,7 +193,7 @@ ms.locfileid: "103935256"
 | Range-Upper            | 1024                            |
 | Search-Flags           | 0x00000000                      |
 | System-Flags           | 0x00000010                      |
-| 中使用的類別        | [**Dmd**](c-dmd.md)<br/> |
+| 中使用的類別        | [**DMD**](c-dmd.md)<br/> |
 
 
 

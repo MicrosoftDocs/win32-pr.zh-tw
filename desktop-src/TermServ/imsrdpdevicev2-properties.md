@@ -5,12 +5,12 @@ ms.assetid: 763A6D57-5C38-4B8E-AEAB-A0E0390AA751
 ms.tgt_platform: multiple
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c0db1b1e169c49f694ddd8f6ed1ade018e4264c1
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 2da0f377eee4d32aef4a6292cbc589cd21ffbd510aafdf8d6838df9e2da2c964
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "106966426"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120125648"
 ---
 # <a name="imsrdpdevicev2-properties"></a>IMsRdpDeviceV2 屬性
 
@@ -69,9 +69,9 @@ ms.locfileid: "106966426"
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

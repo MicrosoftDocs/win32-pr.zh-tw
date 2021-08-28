@@ -4,12 +4,12 @@ ms.assetid: 82d2bdeb-4ccf-4713-980e-59bddc7d9b6a
 title: 適用于 ASF 標頭物件的媒體基礎屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4db74ccb03536c7766dd7e1564119edbd41d5dbe
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 426f0125373000c370f848239717b00aa2615fc16faa84270236704e124cb3bc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104321616"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120061178"
 ---
 # <a name="media-foundation-attributes-for-asf-header-objects"></a>適用于 ASF 標頭物件的媒體基礎屬性
 
@@ -21,7 +21,7 @@ ms.locfileid: "104321616"
 
 
 
-| 檔案屬性物件欄位 | 展示描述項屬性                                                                            | Description                                                                                    |
+| 檔案屬性物件欄位 | 展示描述項屬性                                                                            | 描述                                                                                    |
 |------------------------------|--------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
 | 檔案識別碼                      | [**MF \_ PD \_ ASF \_ FILEPROPERTIES \_ 檔案 \_ 識別碼**](mf-pd-asf-fileproperties-file-id-attribute.md)                  | 這個檔案的唯一識別碼。                                                               |
 | 檔案大小                    | [**MF \_ PD \_ 檔案 \_ \_ 大小總計**](mf-pd-total-file-size-attribute.md)                                         | 檔案的大小（以位元組為單位）。                                                                    |
@@ -67,7 +67,7 @@ ms.locfileid: "104321616"
 
 
 
-| 內容加密物件欄位 | 展示描述項屬性                                                                         | Description                                                                                        |
+| 內容加密物件欄位 | 展示描述項屬性                                                                         | 描述                                                                                        |
 |---------------------------------|-----------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|
 | 秘密資料                     | [**MF \_ PD \_ ASF \_ CONTENTENCRYPTION \_ 秘密 \_ 資料**](mf-pd-asf-contentencryption-secret-data-attribute.md) | 包含秘密資料的位元組陣列。                                                                 |
 | 保護類型                 | [**MF \_ PD \_ ASF \_ CONTENTENCRYPTION \_ 類型**](mf-pd-asf-contentencryption-type-attribute.md)                | 以 Null 終止的字串，其值為 "DRM"。                                                       |
@@ -80,7 +80,7 @@ ms.locfileid: "104321616"
 
 ## <a name="extended-content-encryption-object"></a>擴充內容加密物件
 
-如果內容提供者使用 Windows Media Rights Manager 7 SDK 來保護內容，則會出現此標頭物件。 [ [**MF \_ PD \_ ASF \_ CONTENTENCRYPTION \_ 授權 \_ URL**](mf-pd-asf-contentencryption-license-url-attribute.md) ] 屬性提供的位元組陣列，會對應至標頭物件的資料欄位。 此為使用內容的必要欄位。
+如果內容提供者已使用 Windows 媒體版權管理員 7 SDK 來保護內容，則會出現此標頭物件。 [ [**MF \_ PD \_ ASF \_ CONTENTENCRYPTION \_ 授權 \_ URL**](mf-pd-asf-contentencryption-license-url-attribute.md) ] 屬性提供的位元組陣列，會對應至標頭物件的資料欄位。 此為使用內容的必要欄位。
 
 ## <a name="extended-stream-properties-object"></a>擴充資料流程屬性物件
 
@@ -90,7 +90,7 @@ ms.locfileid: "104321616"
 
 
 
-| 擴充資料流程屬性欄位 | 資料流程描述元屬性                                                                                | Description                                                                                                              |
+| 擴充資料流程屬性欄位 | 資料流程描述元屬性                                                                                | 描述                                                                                                              |
 |----------------------------------|------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|
 | 資料位元速率                     | [**MF \_ SD \_ ASF \_ EXTSTRMPROP \_ AVG \_ DATA \_ 位元速率**](mf-sd-asf-extstrmprop-avg-data-bitrate-attribute.md)   | 平均資料速率（以每秒位數為單位）。                                                                                   |
 | 緩衝區大小                      | [**MF \_ SD \_ ASF \_ EXTSTRMPROP \_ AVG \_ BUFFERSIZE**](mf-sd-asf-extstrmprop-avg-buffersize-attribute.md)        | 有漏洞 bucket 大小。 值是可在緩衝區中以平均資料速率容納的資料毫秒數。      |

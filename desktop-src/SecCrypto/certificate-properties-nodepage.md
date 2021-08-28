@@ -4,12 +4,12 @@ ms.assetid: 783C243F-829A-40D0-980C-F6DA2E1C8EC7
 title: '憑證屬性 (節點) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 83d5e7b126741d3acd8470e2473347d1f71369b7
-ms.sourcegitcommit: 4d4a6e9ad5de37e467cd3164276771b71e1f113f
+ms.openlocfilehash: 1b2a9817ea6cc58690d38ea3ab63e0c91960bd3895436d9c8722cfdcb79c9620
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "106999568"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120126918"
 ---
 # <a name="certificate-properties-node"></a>憑證屬性 (節點) 
 

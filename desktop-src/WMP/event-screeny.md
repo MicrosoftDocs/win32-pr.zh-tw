@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e7199c60d56b59dc5eed0c8f1d726b8e11525693
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1ce4b93a0caf4dee70e8d0b7025153b28f9ea6ddc1630587fc873550807dc30b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106977655"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120123628"
 ---
 # <a name="eventscreeny"></a>screenY
 

@@ -3,7 +3,7 @@ title: 'EM_GETPARAFORMAT 訊息 (Richedit .h) '
 description: 抓取 rich edit 控制項中目前選取範圍的段落格式。
 ms.assetid: 79a7d34f-5da1-452d-b31f-b2eec913f5cb
 keywords:
-- EM_GETPARAFORMAT message Windows 控制項
+- EM_GETPARAFORMAT 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 49060861a955e85d153fc9041c9b364db109f83a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: eda99d1fefc0e2a13cc989726c86588103b7f94d7042b98393709cf4a2cd5f29
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934913"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120048848"
 ---
 # <a name="em_getparaformat-message"></a>EM \_ GETPARAFORMAT 訊息
 
@@ -57,8 +57,8 @@ Microsoft Rich Edit 2.0 和更新版本：此參數可以是 [**PARAFORMAT2**](/
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Richedit。h</dt> </dl> |
 
 

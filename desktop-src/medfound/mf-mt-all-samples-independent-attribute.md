@@ -4,12 +4,12 @@ ms.assetid: 40434f63-e191-45e1-b788-5f80fe7f49ae
 title: 'MF_MT_ALL_SAMPLES_INDEPENDENT 屬性 (Mfapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f82173e99a30e033b3d90f6cfec0dc2aa8b3af97
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1ada34232ccbc7eb30fc9a5bcb64e96542b0375140de426fae951f5e0317c9e1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106986822"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120060748"
 ---
 # <a name="mf_mt_all_samples_independent-attribute"></a>MF \_ MT \_ 所有 \_ 範例 \_ 獨立屬性
 
@@ -37,8 +37,8 @@ ms.locfileid: "106986822"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows Vista \[ 桌面應用程式 \| UWP 應用程式\]<br/>                              |
-| 最低支援的伺服器<br/> | Windows Server 2008 \[ desktop app \| UWP 應用程式\]<br/>                        |
+| 最低支援的用戶端<br/> | WindowsVista \[ desktop apps \| UWP 應用程式\]<br/>                              |
+| 最低支援的伺服器<br/> | WindowsServer 2008 \[ desktop app \| UWP 應用程式\]<br/>                        |
 | 標頭<br/>                   | <dl> <dt>Mfapi。h</dt> </dl> |
 
 

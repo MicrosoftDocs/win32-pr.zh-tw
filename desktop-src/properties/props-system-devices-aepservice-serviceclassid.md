@@ -4,12 +4,12 @@ ms.assetid: 6ec59fad-45fa-4248-b4c0-db52dd48fb47
 title: System.Devices.AepService.ServiceClassId
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ab1539b3ded3f78b7b65532febd346638c231a91
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e752c656d665c87cc7cecae7a1d961ae0b7acf1846249bfe6b4c05efffb39258
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103849084"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120091358"
 ---
 # <a name="systemdevicesaepserviceserviceclassid"></a>System.Devices.AepService.ServiceClassId
 

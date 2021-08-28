@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 37caa05d164c23484c749730796d6a5f10d67d57
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 689f6f14426d88270136d6cc3687f9e214b72d6e42e2af44f3d189510d61f327
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106985955"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120076688"
 ---
 # <a name="cbasecontrolvideoonvideosizechange-method"></a>CBaseControlVideo. OnVideoSizeChange 方法
 
@@ -46,7 +46,7 @@ virtual HRESULT OnVideoSizeChange();
 
 
 
-| 傳回碼                                                                                   | Description               |
+| 傳回碼                                                                                   | 描述               |
 |-----------------------------------------------------------------------------------------------|---------------------------|
 | <dl> <dt>**E \_ 失敗**</dt> </dl>        | 失敗。<br/>       |
 | <dl> <dt>**E \_ OUTOFMEMORY**</dt> </dl> | 記憶體不足。<br/> |

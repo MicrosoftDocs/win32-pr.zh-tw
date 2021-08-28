@@ -4,12 +4,12 @@ ms.assetid: 24ae9cd6-2057-4345-90ec-943da7620cb0
 title: 將修補套件套用至系統管理安裝
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e9e0645bdd2c472e725a3a5eeef22693aa35b8d3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3c29cbec604ae18745348a62f147d13d2ccbf06c0620b3a5dcca7c6c009045b7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103944032"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120105438"
 ---
 # <a name="applying-a-patch-package-to-an-administrative-installation"></a>將修補套件套用至系統管理安裝
 
@@ -27,7 +27,7 @@ ms.locfileid: "103944032"
 
 **msiexec/I//server/MNP2000.msi 重新安裝 = ALL REINSTALLMODE = vomus reinstall**
 
-若只要重新安裝已更新的協同功能，並在使用者的電腦上快取更新的 .msi 檔案，則使用者可以輸入下列命令。
+若只要重新安裝已更新的協同功能，並快取使用者電腦上更新的 .msi 檔案，則使用者可以輸入下列命令。
 
 **msiexec/I//server/MNP2000.msi 重新安裝 = 協同 REINSTALLMODE = vomus reinstall**
 

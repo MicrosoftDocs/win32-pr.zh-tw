@@ -4,12 +4,12 @@ ms.assetid: a3126930-2802-43c7-9e98-3a73498ac3f5
 title: 基本辨識和筆墨分析
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b9858ceedba245a733d4dc0055dd0747507654f8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8c4bdfa0d93c25e397caf0f116f0f47b303e9571d342825673572011534404de
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104386015"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120111311"
 ---
 # <a name="basic-recognition-and-ink-analysis"></a>基本辨識和筆墨分析
 
@@ -61,7 +61,7 @@ MessageBox.Show(myResults);
 
  
 
-若要使用 [**BackgroundAnalyze**](iinkanalyzer-backgroundanalyze.md) 作業， [**InkCollector**](inkcollector-class.md) 物件 (或類似的物件或控制項（例如 [**RealTimeStylus**](realtimestylus-class.md) (RTS) 、 [**InkOverlay**](inkoverlay-class.md)或 Windows Presentation Foundation 中的 [InkCanvas](/dotnet/api/system.windows.controls.inkcanvas?view=netcore-3.1) ）) 管理筆墨筆劃的集合和轉譯。 如果 **InkCollector** 與筆墨分析 api 配對，應用程式可以通知 [**InkAnalyzer**](inkanalyzer.md) 有關新增至應用程式的每個新筆劃，藉以保留更新的辨識結果。 這可讓 **InkAnalyzer** 在背景執行緒上以累加方式辨識筆劃。
+若要使用 [**BackgroundAnalyze**](iinkanalyzer-backgroundanalyze.md)作業， [**InkCollector**](inkcollector-class.md)物件 (或類似的物件或控制項（例如 [**RealTimeStylus**](realtimestylus-class.md) (RTS) 、 [**InkOverlay**](inkoverlay-class.md)或 Windows Presentation Foundation 中的 [InkCanvas](/dotnet/api/system.windows.controls.inkcanvas?view=netcore-3.1) ）) 管理筆墨筆劃的集合和轉譯。 如果 **InkCollector** 與筆墨分析 api 配對，應用程式可以通知 [**InkAnalyzer**](inkanalyzer.md) 有關新增至應用程式的每個新筆劃，藉以保留更新的辨識結果。 這可讓 **InkAnalyzer** 在背景執行緒上以累加方式辨識筆劃。
 
 若要完成增量背景分析，應用程式必須執行三個步驟， (針對 managed 程式碼) 所示：
 
@@ -165,7 +165,7 @@ private void ia_Results(object sender, ResultsEventArgs e)
 
 若要存取筆墨分析結果，您的應用程式會使用 [**分析**](iinkanalyzer-analyze.md) 或 [**BackgroundAnalyze**](iinkanalyzer-backgroundanalyze.md) 方法，完全如先前的兩個辨識案例所述。 沒有任何變更，因為呼叫這些方法時，已執行筆墨分析和辨識演算法。 但是，存取結果比讀取字串的值更複雜。 例如，下列程式碼範例會藉由在組成分類的筆劃群組周圍呈現矩形，來顯示所有 **InkWord** 區段和 **InkDrawing** 區段的群組和位置。
 
-此範例只會使用表單的 **繪製** 事件，以在單字或繪圖周圍呈現彩色矩形。 [**FindNodesOfType**](iinkanalyzer-findnodesoftype.md)方法會傳回物件的集合，這些物件只有在已執行分析作業且結果包含具有指定 [**CoNtextNode**](icontextnode.md)類型的分類時才存在。 如果檔中不存在所需類型的 **CoNtextNode** ，則會略過繪製矩形的步驟。
+此範例只會使用表單的 **小畫家** 事件，以在單字或繪圖周圍呈現彩色矩形。 [**FindNodesOfType**](iinkanalyzer-findnodesoftype.md)方法會傳回物件的集合，這些物件只有在已執行分析作業且結果包含具有指定 [**CoNtextNode**](icontextnode.md)類型的分類時才存在。 如果檔中不存在所需類型的 **CoNtextNode** ，則會略過繪製矩形的步驟。
 
 從 [**FindNodesOfType**](iinkanalyzer-findnodesoftype.md) 方法傳回的每個物件都會有與這類分類相關的屬性。 例如， **InkWordNode** 會參考組成檔中單一單字的所有筆劃，並參考該單字的可辨識字串。 **InkDrawingNode** 會參考組成檔中單一繪圖的所有筆劃，並參考該繪圖的圖形名稱。
 
@@ -218,7 +218,7 @@ private void Form1_Paint(object sender, PaintEventArgs e)
 
 ![顯示「oval」的影像，來自 inkdrawing 分析器的結果](images/624b6a53-b6b9-4ccf-9bb8-c4c5629b88cf.jpg)
 
-在引發 **油漆** 事件之後，範例程式碼會在每個物件周圍呈現矩形：
+在引發 **小畫家** 事件之後，範例程式碼會在每個物件周圍呈現矩形：
 
 ![在物件和單字周圍呈現矩形的原始繪圖](images/7fd9bcc3-8d7c-4cab-aa36-ba5ed78a25c0.jpg)
 

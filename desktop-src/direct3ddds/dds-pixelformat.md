@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6fd909d62a1be212f9ed4ef9af243a27f28be818
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 08e2c8d4b5e30a3a5a9a039e27f5704019a6300c
+ms.sourcegitcommit: 205567a2a76ad672a493a0203ff9d61271d9df98
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106982197"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "122358904"
 ---
 # <a name="dds_pixelformat-structure"></a>DDS \_ PIXELFORMAT 結構
 
@@ -113,7 +113,7 @@ RGB (中可能包含 Alpha) 格式的位數。 在 **dwFlags** 包含 *DDPF \_ R
 
 </dd> <dd>
 
-用於讀取色彩資料的紅色 (或 lumiannce 或 Y) 遮罩。 例如，假設有 A8R8G8B8 格式，則會0x00ff0000 紅色遮罩。
+用於讀取色彩資料的紅色 (或亮度或 Y) 遮罩。 例如，假設有 A8R8G8B8 格式，則會0x00ff0000 紅色遮罩。
 
 </dd> <dt>
 

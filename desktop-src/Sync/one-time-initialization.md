@@ -4,18 +4,18 @@ ms.assetid: 404c083c-7bee-44c2-b8e7-da1901b6ab2f
 title: One-Time 初始化
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 16f451e3c51716b4ff6f33b55d8d8602b5d5c28f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 51e513c18be3fcce85c8d2cde16bbe11edcf6a1597bb06c37279ecaa8add6598
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106971615"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120073078"
 ---
 # <a name="one-time-initialization"></a>One-Time 初始化
 
 元件的設計通常是在第一次呼叫時執行初始化工作，而不是在載入時執行。 單次初始化函式可確保此初始化只會發生一次，即使有多個執行緒可能會嘗試初始化亦同。
 
-**Windows Server 2003 和 WINDOWS XP：** 應用程式必須使用 [連鎖函數](interlocked-variable-access.md) 或其他同步處理機制，提供自己的同步處理進行單次初始化。 從 Windows Vista 和 Windows Server 2008 開始，可以使用一次性的初始化函數。
+**Windows Server 2003 和 Windows XP：** 應用程式必須使用 [連鎖函數](interlocked-variable-access.md)或其他同步處理機制，提供自己的同步處理進行單次初始化。 從 Windows Vista 和 Windows Server 2008 開始，可以使用一次性的初始化函數。
 
 單次初始化函數可提供顯著的優點，以確保只有一個執行緒執行初始化：
 

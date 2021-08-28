@@ -4,12 +4,12 @@ ms.assetid: 45B5E21D-07EF-4998-B1A9-939DA86B6685
 title: 憑證方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1f8d4b3cb70a7f96a4495a527ee30ad71ee96a07
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5097cb12674dab69e7d45b4ca4745ca0459fb4b5178189101532d3aa5dfa9c3e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848909"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120126778"
 ---
 # <a name="certificates-methods"></a>憑證方法
 

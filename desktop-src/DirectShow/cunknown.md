@@ -1,5 +1,5 @@
 ---
-description: CUnknown 類別會實作為 IUnknown 介面。 大部分的元件物件模型 (DirectShow 中的 COM) 物件衍生自 CUnknown。
+description: CUnknown 類別會實作為 IUnknown 介面。 大部分的元件物件模型 (DirectShow 衍生自 CUnknown 的 COM) 物件。
 ms.assetid: 9711d36b-6987-4fb0-a8df-eba94348dc7b
 title: 'CUnknown 類別 (Combase) '
 ms.topic: reference
@@ -16,18 +16,18 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 4818a088119f7cba25ce8a470f63cab722998c45
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 06b6089f7f1c108a9b99ad4f1b16f4638b84d8d687a3590353c32841ccfff499
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107001846"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120075991"
 ---
 # <a name="cunknown-class"></a>CUnknown 類別
 
 ![cunknown 類別階層](images/cbase01.png)
 
-**CUnknown** 類別會實作為 **IUnknown** 介面。 大部分的元件物件模型 (DirectShow 中的 COM) 物件衍生自 **CUnknown**。
+**CUnknown** 類別會實作為 **IUnknown** 介面。 大部分的元件物件模型 (DirectShow 衍生自 **CUnknown** 的 COM) 物件。
 
 如果您執行的是 COM 物件，您可能會想要從 **CUnknown** 衍生。 衍生自 **CUnknown** 可提供安全線程的執行，並可讓您省下執行 **IUnknown** 的麻煩。
 
@@ -39,14 +39,14 @@ ms.locfileid: "107001846"
 
 
 
-| 受保護的成員變數                                                  | Description                                                        |
+| 受保護的成員變數                                                  | 描述                                                        |
 |-----------------------------------------------------------------------------|--------------------------------------------------------------------|
 | [**m \_ cRef**](cunknown-m-cref.md)                                          | 參考計數。                                                   |
-| 公用方法                                                              | Description                                                        |
+| 公用方法                                                              | 描述                                                        |
 | [**CUnknown**](cunknown-cunknown.md)                                       | 函式方法。                                                |
 | [**~ CUnknown**](cunknown--cunknown.md)                                    | 函式方法。 虛擬。                                        |
 | [**GetOwner**](cunknown-getowner.md)                                       | 取得控制 **IUnknown** 的指標。                    |
-| INonDelegatingUnknown 方法                                               | Description                                                        |
+| INonDelegatingUnknown 方法                                               | 描述                                                        |
 | [**NonDelegatingAddRef**](cunknown-nondelegatingaddref.md)                 | 遞增參考計數。                                    |
 | [**NonDelegatingQueryInterface**](cunknown-nondelegatingqueryinterface.md) | 捕獲介面指標並遞增參考計數。 |
 | [**NonDelegatingRelease**](cunknown-nondelegatingrelease.md)               | 遞減參考計數。                                    |
@@ -70,7 +70,7 @@ ms.locfileid: "107001846"
 
 <dl> <dt>
 
-[DirectShow 基類](directshow-base-classes.md)
+[DirectShow基類](directshow-base-classes.md)
 </dt> </dl>
 
  

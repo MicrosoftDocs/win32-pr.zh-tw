@@ -3,7 +3,7 @@ title: 'EM_GETFILELINE 訊息 (CommCtrl .h) '
 description: 從編輯控制項複製一行文字，與螢幕上顯示線條的方式無關，然後將它放在指定的緩衝區中。
 ms.assetid: ff56d2c6-5013-46c6-90d8-ee2bdc9074b1
 keywords:
-- EM_GETFILELINE message Windows 控制項
+- EM_GETFILELINE 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 10/19/2018
-ms.openlocfilehash: 6b3be3ea4ae883fc808f7ddc8fb60f0d93bcd6ed
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 470c437280b279f56c3dcc8b45de93cf3f792afc5053b7e312b2c19c7ffcec8f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466109"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120049218"
 ---
 # <a name="em_getfileline-message-commctrlh"></a>EM_GETFILELINE 訊息 (CommCtrl .h) 
 
@@ -58,7 +58,7 @@ ms.locfileid: "104466109"
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 10， \[ 僅限 1809 desktop 應用程式\]<br/>                                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2019 \[ desktop 應用程式\]<br/>                                                     |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2019 desktop 應用程式\]<br/>                                                     |
 | 標頭<br/>                   | <dl> <dt>CommCtrl。h</dt> </dl> |
 
 

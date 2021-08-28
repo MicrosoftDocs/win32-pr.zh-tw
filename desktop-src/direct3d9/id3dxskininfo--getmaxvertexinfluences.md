@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 2acae5cc119df25989e6bf22692ec1609ffa9408
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 5cd33155ba5b306fc24e345f535a083c78031da243b291f2c36c5894561e270d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103946040"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120095708"
 ---
 # <a name="id3dxskininfogetmaxvertexinfluences-method"></a>ID3DXSkinInfo：： GetMaxVertexInfluences 方法
 

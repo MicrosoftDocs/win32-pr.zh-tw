@@ -12,12 +12,12 @@ api_type:
 - DllExport
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 9147dbdfe53aa21c5fa77849e3599ded69c8f243
-ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
+ms.openlocfilehash: c5d2b6ad86a63f584254fda20061179558653300a0d883f27477dd2b8ea2c2f7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "110549383"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120076888"
 ---
 # <a name="id2d1rendertargetcreatesolidcolorbrush-methods"></a>ID2D1RenderTarget：： CreateSolidColorBrush 方法
 

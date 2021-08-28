@@ -4,12 +4,12 @@ ms.assetid: 9271bd4b-57b1-4b1b-bfee-d6ae5f49a154
 title: SMPTE 清除轉換
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 47de62c450ff0d75f72e5fac466801991b987834
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 40db8097b61d1b750f8e17067bda08f94a54504c8e990656b7416d84a9a1c089
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104510089"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120050431"
 ---
 # <a name="smpte-wipe-transition"></a>SMPTE 清除轉換
 
@@ -77,7 +77,7 @@ CLSID 變數名稱： CLSID \_ DxtJpeg
 | 43     | 三角形、頂端/底部         | 235    | 放射星形、上到下分割                    |
 | 44     | 三角形、左/右         | 236    | 星形、左右分割                    |
 | 45     | 對角線、SW 到 NE     | 241    | 放射狀左上角                     |
-| 46     | 對角區條紋，NW 至 SE     | 242    | 放射星形（左下角）                  |
+| 46     | 對角線、NW 至 SE     | 242    | 放射星形（左下角）                  |
 | 47     | Cross                         | 243    | 星形、右下角                 |
 | 48     | 鑽石方塊                   | 244    | 星形、右上角                    |
 | 61     | 楔形、top                    | 245    | 放射星形、左上角、右下角              |
@@ -92,7 +92,7 @@ CLSID 變數名稱： CLSID \_ DxtJpeg
 | 72     | 鋸齒、top                 | 264    | 置中星形、左方、右邊                  |
 | 73     | 鋸齒，垂直            | 301    | 矩陣、水準                          |
 | 74     | 鋸齒、水準          | 302    | 矩陣，垂直                            |
-| 101    | Box                           | 303    | 矩陣、對角線、左上角                  |
+| 101    | 方塊                           | 303    | 矩陣、對角線、左上角                  |
 | 102    | 菱形                       | 304    | 矩陣、對角線、右上角                 |
 | 103    | 三角形，向上                  | 305    | 矩陣、對角線、右下角              |
 | 104    | 三角形，right               | 306    | 矩陣、對角線、左下角               |
