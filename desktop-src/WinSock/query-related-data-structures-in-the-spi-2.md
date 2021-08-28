@@ -4,12 +4,12 @@ ms.assetid: 017b5828-bc6e-42b7-aba7-21648b2dd707
 title: SPI 中的 Query-Related 資料結構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 57ce5a7016bd2ad96f464137177036b470c64a95
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: abcbd83ab427a6ec3f09c67f416fe5eb8d7ebaad165bf4e687dfd31dce882cda
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104555024"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119569361"
 ---
 # <a name="query-related-data-structures-in-the-spi"></a>SPI 中的 Query-Related 資料結構
 

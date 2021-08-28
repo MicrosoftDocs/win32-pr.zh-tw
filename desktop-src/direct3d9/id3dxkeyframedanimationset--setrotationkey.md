@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: b03a6818a6a59904c3db5b4819775d9e58d4f8ec
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 2375167b9c848c0ccec10853f04c2f1aa7b59992d3198164df46c0ba7c08b68c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104035420"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119856598"
 ---
 # <a name="id3dxkeyframedanimationsetsetrotationkey-method"></a>ID3DXKeyframedAnimationSet：： SetRotationKey 方法
 

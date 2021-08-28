@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 65e9a5cd041431e1939346fec79dcf94fccd4ae9
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 14ad3a6212e5bebe2df988d2cecd305aa3141a674f83075935b3c411f6c9b329
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108094406"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117914504"
 ---
 # <a name="id3dxmatrixstack-interface"></a>ID3DXMatrixStack 介面
 

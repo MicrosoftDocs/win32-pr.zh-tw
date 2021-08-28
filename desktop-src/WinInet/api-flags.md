@@ -51,12 +51,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a111bf418e6cf599f99c9dfa34ca0f5025a1d779
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 761677a7110e5291171b39618d4315052ea1f86fd95361ce4f51f174b130a012
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106966326"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119386538"
 ---
 # <a name="api-flags"></a>API 旗標
 
@@ -204,7 +204,7 @@ ms.locfileid: "106966326"
 
 如果沒有過期時間，而且在決定是否要從網路重載專案時，不會從伺服器傳回任何 LastModified 時間，則會強制執行重載。 [**FtpFindFirstFile**](/windows/desktop/api/Wininet/nf-wininet-ftpfindfirstfilea)、 [**FtpGetFile**](/windows/desktop/api/Wininet/nf-wininet-ftpgetfilea)、 [**FtpOpenFile**](/windows/desktop/api/Wininet/nf-wininet-ftpopenfilea)、 [**FtpPutFile**](/windows/desktop/api/Wininet/nf-wininet-ftpputfilea)、 [**HttpOpenRequest**](/windows/desktop/api/Wininet/nf-wininet-httpopenrequesta)和 [**InternetOpenUrl**](/windows/desktop/api/Wininet/nf-wininet-internetopenurla)都可使用此旗標。
 
-**WINDOWS XP 和 Windows Server 2003 R2 和更早版本：**[**GopherFindFirstFile**](/windows/desktop/api/Wininet/nf-wininet-gopherfindfirstfilea)和 [**GopherOpenFile**](/windows/desktop/api/Wininet/nf-wininet-gopheropenfilea)也會使用。
+**Windows XP 和 Windows Server 2003 R2 和更早版本：**[**GopherFindFirstFile**](/windows/desktop/api/Wininet/nf-wininet-gopherfindfirstfilea)和 [**GopherOpenFile**](/windows/desktop/api/Wininet/nf-wininet-gopheropenfilea)也會使用。
 
 
 </dt> </dl> </dd> <dt>
@@ -297,7 +297,7 @@ ms.locfileid: "106966326"
 
 與慣用值相同， **網際網路 \_ 旗標 \_ 需要 \_** 檔案。 如果無法快取檔案，則會建立暫存檔案。 [**FtpFindFirstFile**](/windows/desktop/api/Wininet/nf-wininet-ftpfindfirstfilea)、 [**FtpGetFile**](/windows/desktop/api/Wininet/nf-wininet-ftpgetfilea)、 [**FtpOpenFile**](/windows/desktop/api/Wininet/nf-wininet-ftpopenfilea)、 [**FtpPutFile**](/windows/desktop/api/Wininet/nf-wininet-ftpputfilea)、 [**HttpOpenRequest**](/windows/desktop/api/Wininet/nf-wininet-httpopenrequesta)和 [**InternetOpenUrl**](/windows/desktop/api/Wininet/nf-wininet-internetopenurla)都可使用此旗標。
 
-**WINDOWS XP 和 Windows Server 2003 R2 和更早版本：**[**GopherFindFirstFile**](/windows/desktop/api/Wininet/nf-wininet-gopherfindfirstfilea)和 [**GopherOpenFile**](/windows/desktop/api/Wininet/nf-wininet-gopheropenfilea)也會使用。
+**Windows XP 和 Windows Server 2003 R2 和更早版本：**[**GopherFindFirstFile**](/windows/desktop/api/Wininet/nf-wininet-gopherfindfirstfilea)和 [**GopherOpenFile**](/windows/desktop/api/Wininet/nf-wininet-gopheropenfilea)也會使用。
 
 
 </dt> </dl> </dd> <dt>
@@ -312,7 +312,7 @@ ms.locfileid: "106966326"
 
 如果無法快取檔案，則會建立暫存檔案。 [**FtpFindFirstFile**](/windows/desktop/api/Wininet/nf-wininet-ftpfindfirstfilea)、 [**FtpGetFile**](/windows/desktop/api/Wininet/nf-wininet-ftpgetfilea)、 [**FtpOpenFile**](/windows/desktop/api/Wininet/nf-wininet-ftpopenfilea)、 [**FtpPutFile**](/windows/desktop/api/Wininet/nf-wininet-ftpputfilea)、 [**HttpOpenRequest**](/windows/desktop/api/Wininet/nf-wininet-httpopenrequesta)和 [**InternetOpenUrl**](/windows/desktop/api/Wininet/nf-wininet-internetopenurla)都可使用此旗標。
 
-**WINDOWS XP 和 Windows Server 2003 R2 和更早版本：**[**GopherFindFirstFile**](/windows/desktop/api/Wininet/nf-wininet-gopherfindfirstfilea)和 [**GopherOpenFile**](/windows/desktop/api/Wininet/nf-wininet-gopheropenfilea)也會使用。
+**Windows XP 和 Windows Server 2003 R2 和更早版本：**[**GopherFindFirstFile**](/windows/desktop/api/Wininet/nf-wininet-gopherfindfirstfilea)和 [**GopherOpenFile**](/windows/desktop/api/Wininet/nf-wininet-gopheropenfilea)也會使用。
 
 
 </dt> </dl> </dd> <dt>
@@ -353,7 +353,7 @@ ms.locfileid: "106966326"
 
 不會將傳回的實體新增至快取。 、 [**HttpOpenRequest**](/windows/desktop/api/Wininet/nf-wininet-httpopenrequesta)和 [**InternetOpenUrl**](/windows/desktop/api/Wininet/nf-wininet-internetopenurla)會使用這個旗標。
 
-**WINDOWS XP 和 Windows Server 2003 R2 和更早版本：**[**GopherFindFirstFile**](/windows/desktop/api/Wininet/nf-wininet-gopherfindfirstfilea)和 [**GopherOpenFile**](/windows/desktop/api/Wininet/nf-wininet-gopheropenfilea)也會使用。
+**Windows XP 和 Windows Server 2003 R2 和更早版本：**[**GopherFindFirstFile**](/windows/desktop/api/Wininet/nf-wininet-gopherfindfirstfilea)和 [**GopherOpenFile**](/windows/desktop/api/Wininet/nf-wininet-gopheropenfilea)也會使用。
 
 
 </dt> </dl> </dd> <dt>
@@ -433,7 +433,7 @@ ms.locfileid: "106966326"
 
 在抓取 FTP 目錄資訊時，以 [**WIN32 \_ 尋找 \_ 資料**](/windows/desktop/api/minwinbase/ns-minwinbase-win32_find_dataa) 結構的形式傳回資料。 如果未指定此旗標，或透過 CERN proxy 進行呼叫， [**InternetOpenUrl**](/windows/desktop/api/Wininet/nf-wininet-internetopenurla) 會傳回 HTML 版本的目錄。 只有 [**InternetOpenUrl**](/windows/desktop/api/Wininet/nf-wininet-internetopenurla) 函式會使用此旗標。
 
-**WINDOWS XP 和 Windows Server 2003 R2 和更早版本：** 在抓取 Gopher 目錄資訊時，也會傳回 [**gopher \_ 尋找 \_ 資料**](/windows/desktop/api/Wininet/ns-wininet-gopher_find_dataa) 結構。
+**Windows XP 和 Windows Server 2003 R2 和更早版本：** 在抓取 Gopher 目錄資訊時，也會傳回 [**gopher \_ 尋找 \_ 資料**](/windows/desktop/api/Wininet/ns-wininet-gopher_find_dataa)結構。
 
 
 </dt> </dl> </dd> <dt>
@@ -461,7 +461,7 @@ ms.locfileid: "106966326"
 
 強制從源伺服器下載所要求的檔案、物件或目錄清單，而不是從快取。 [**FtpFindFirstFile**](/windows/desktop/api/Wininet/nf-wininet-ftpfindfirstfilea)、 [**FtpGetFile**](/windows/desktop/api/Wininet/nf-wininet-ftpgetfilea)、 [**FtpOpenFile**](/windows/desktop/api/Wininet/nf-wininet-ftpopenfilea)、 [**FtpPutFile**](/windows/desktop/api/Wininet/nf-wininet-ftpputfilea)、 [**HttpOpenRequest**](/windows/desktop/api/Wininet/nf-wininet-httpopenrequesta)和 [**InternetOpenUrl**](/windows/desktop/api/Wininet/nf-wininet-internetopenurla)函數會使用此旗標。
 
-**WINDOWS XP 和 Windows Server 2003 R2 和更早版本：**[**GopherFindFirstFile**](/windows/desktop/api/Wininet/nf-wininet-gopherfindfirstfilea)和 [**GopherOpenFile**](/windows/desktop/api/Wininet/nf-wininet-gopheropenfilea)也會使用。
+**Windows XP 和 Windows Server 2003 R2 和更早版本：**[**GopherFindFirstFile**](/windows/desktop/api/Wininet/nf-wininet-gopherfindfirstfilea)和 [**GopherOpenFile**](/windows/desktop/api/Wininet/nf-wininet-gopheropenfilea)也會使用。
 
 
 </dt> </dl> </dd> <dt>
@@ -489,7 +489,7 @@ ms.locfileid: "106966326"
 
 如果資源自上一次下載以來已經過修改，就會重載 HTTP 資源。 所有 FTP 資源都會重載。 [**FtpFindFirstFile**](/windows/desktop/api/Wininet/nf-wininet-ftpfindfirstfilea)、 [**FtpGetFile**](/windows/desktop/api/Wininet/nf-wininet-ftpgetfilea)、 [**FtpOpenFile**](/windows/desktop/api/Wininet/nf-wininet-ftpopenfilea)、 [**FtpPutFile**](/windows/desktop/api/Wininet/nf-wininet-ftpputfilea)、 [**HttpOpenRequest**](/windows/desktop/api/Wininet/nf-wininet-httpopenrequesta)和 [**InternetOpenUrl**](/windows/desktop/api/Wininet/nf-wininet-internetopenurla)都可使用此旗標。
 
-**WINDOWS XP 和 Windows Server 2003 R2 和更早版本：**[**GopherFindFirstFile**](/windows/desktop/api/Wininet/nf-wininet-gopherfindfirstfilea)和 [**GopherOpenFile**](/windows/desktop/api/Wininet/nf-wininet-gopheropenfilea)也會使用，並重載 Gopher 資源。
+**Windows XP 和 Windows Server 2003 R2 和更早版本：**[**GopherFindFirstFile**](/windows/desktop/api/Wininet/nf-wininet-gopherfindfirstfilea)和 [**GopherOpenFile**](/windows/desktop/api/Wininet/nf-wininet-gopheropenfilea)也會使用，並重載 Gopher 資源。
 
 
 </dt> </dl> </dd> <dt>
@@ -601,7 +601,7 @@ ms.locfileid: "106966326"
 ## <a name="remarks"></a>備註
 
 > [!Note]  
-> WinINet 不支援伺服器實施。 此外，它不應該從服務使用。 針對伺服器執行或服務，請使用 [Microsoft WINDOWS HTTP services (WinHTTP) ](/windows/desktop/WinHttp/winhttp-start-page)。
+> WinINet 不支援伺服器實施。 此外，它不應該從服務使用。 若為伺服器執行或服務，請使用[Microsoft Windows HTTP 服務 (WinHTTP) ](/windows/desktop/WinHttp/winhttp-start-page)。
 
  
 

@@ -3,7 +3,7 @@ title: Trackbars 區段
 description: Trackbars 區段
 ms.assetid: cc6d1286-413b-4c4b-bcbd-6dd12811d24e
 keywords:
-- Windows Media Player 行動外觀 trackbars
+- Windows Media Player行動外觀、trackbars
 - 外觀，trackbars
 - 建立外觀，Trackbars 區段
 - 撰寫適用于外觀的程式碼，Trackbars 區段
@@ -11,12 +11,12 @@ keywords:
 - 外觀定義檔，Trackbars 區段
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5ed10e576e38c3fdc694fd6bef67c513b2983f05
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7ac92278a2c565e3f98e039ca06192ef3f64eb6edddae9bd3b1795330ce5fc1e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106968655"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119507218"
 ---
 # <a name="trackbars-section"></a>Trackbars 區段
 
@@ -43,9 +43,9 @@ Trackbars 區段包含任何您想要包含之 Trackbars 的相關資訊：
 [**撰寫程式碼**](writing-the-code.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

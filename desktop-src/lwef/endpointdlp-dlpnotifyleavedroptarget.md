@@ -12,12 +12,12 @@ api_type:
 - DllExport
 api_location:
 - EndpointDlp.dll
-ms.openlocfilehash: 2f96ea9a825ca930631fe94dd1a3d632019dd9c1
-ms.sourcegitcommit: 91110c16e4713ed82d7fb80562d3ddf40b5d76b2
+ms.openlocfilehash: aac567843a88abb3355ab0b239c9ac0eca66bdfd240f2e6d82b3f8f91586c9a2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "107495513"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118976588"
 ---
 # <a name="dlpnotifyleavedroptarget-function"></a>DlpNotifyLeaveDropTarget 函式
 

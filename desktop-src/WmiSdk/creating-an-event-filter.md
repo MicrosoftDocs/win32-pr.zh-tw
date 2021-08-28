@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 建立事件篩選器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 693e4ef2eee5de14550b8efbf25a9b6720d6a8b2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5f44f49c9a7f38b23353dc8c6343ca1d72194e3b7f121538c93f545e45c31e3e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980081"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119568828"
 ---
 # <a name="creating-an-event-filter"></a>建立事件篩選器
 

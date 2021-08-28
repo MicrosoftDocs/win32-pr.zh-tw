@@ -4,12 +4,12 @@ description: 分散式檔案系統 DFS 控制碼
 ms.assetid: 1d9bebe6-f494-41e5-8a8d-51bf98eaa374
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fe054f87210c40da595dd731b263c485311729a7
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 12d0a429bdb1e203d9b89f77e951d422cf3c0cef05cd5de5de39b537bb405f6c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103933369"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119853528"
 ---
 # <a name="distributed-file-system-control-codes"></a>分散式檔案系統控制代碼
 

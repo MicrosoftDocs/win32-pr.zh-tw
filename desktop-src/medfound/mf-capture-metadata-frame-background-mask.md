@@ -3,12 +3,12 @@ description: 報告背景分割遮罩的中繼資料和遮罩緩衝區，以區�
 title: 'MF_CAPTURE_METADATA_FRAME_BACKGROUND_MASK 屬性 (Mfapi) '
 ms.topic: reference
 ms.date: 06/01/2021
-ms.openlocfilehash: 3dc28d92566b14a44f61fe84bd3f68688c464d4a
-ms.sourcegitcommit: 63c93e0ad0b48d60b11008767196718feb475cb0
+ms.openlocfilehash: 1c9cf48235483f13cfa6f9fc04aace5baaf030cf1eb2597b86e9361176a0b9b9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "113691841"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118973977"
 ---
 # <a name="mf_capture_metadata_frame_background_mask-attribute"></a>MF \_ CAPTURE \_ 中繼資料 \_ 框架 \_ 背景 \_ 遮罩屬性
 
@@ -16,7 +16,7 @@ ms.locfileid: "113691841"
 
 ## <a name="data-type"></a>資料類型
 
-**Blob**
+**BLOB**
 
 ## <a name="remarks"></a>備註
 

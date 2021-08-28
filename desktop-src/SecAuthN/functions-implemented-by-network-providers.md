@@ -4,12 +4,12 @@ ms.assetid: ebdaec3d-6335-4bdf-b150-91e538068f2b
 title: 網路提供者所執行的函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8122d8e06e92f66958f597c8fbe26f8e1c7abdd0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 892bcb5c19f54e5de667eb72119f6b9e5fc9b183b8d5038ce37b7e556ae5d3a1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103945044"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120016318"
 ---
 # <a name="functions-implemented-by-network-providers"></a>網路提供者所執行的函式
 
@@ -17,7 +17,7 @@ ms.locfileid: "103945044"
 
 
 
-| 函數集                                                                                    | Description                                                                                                                                        |
+| 函數集                                                                                    | 描述                                                                                                                                        |
 |-------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
 | [功能功能](capabilities-functions.md)<br/>                                 | 允許呼叫者判斷網路提供者的功能。<br/>                                                                |
 | [使用者名稱函式](user-name-functions.md)<br/>                                       | 提示網路提供者提供與連接相關聯的使用者名稱。<br/>                                                            |

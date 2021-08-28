@@ -4,12 +4,12 @@ ms.assetid: c48f3a88-a007-4f30-ac60-9e5a8c24e1ee
 title: 'MFT_MESSAGE_COMMAND_DRAIN (Mftransform) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 907bfbd888b1eccbe7336c0d8f386d3266fd8e9b
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 6c8faf20ca1169d87370a7dc1b5a128b11c9f17937a514f4aaea37631aee4d83
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108092746"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120012618"
 ---
 # <a name="mft_message_command_drain"></a>MFT \_ 訊息 \_ 命令 \_ 清空
 
@@ -62,8 +62,8 @@ ms.locfileid: "108092746"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                     |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                     |
 | 標頭<br/>                   | <dl> <dt>Mftransform。h</dt> </dl> |
 
 

@@ -14,12 +14,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: d5985123a4679fe9b2524f9338b9181daa11282d
-ms.sourcegitcommit: 0e611cdff84ff9f897c59e4e1d2b2d134bc4e133
+ms.openlocfilehash: 7334039f1dc81307bd32070ea34a94c7a552d3021cfe9d1f22707fff351f8333
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "106981414"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117904136"
 ---
 # <a name="eaptype-element-mschapv2userpropertiesv1schema"></a>EapType 元素 (mschapv2userpropertiesv1schema) 
 
@@ -64,7 +64,7 @@ ms.locfileid: "106981414"
 
 
 
-| 元素                                                                           | 類型   | Description                                                                                                                                                                                                                                                      |
+| 元素                                                                           | 類型   | 描述                                                                                                                                                                                                                                                      |
 |-----------------------------------------------------------------------------------|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**使用者**](mschapv2userpropertiesv1schema-username-element.md)               |        | 識別要驗證的使用者。 如果這個元素不存在，則會從 winlogon 取得使用者名稱。 [**Username**](mschapv2userpropertiesv1schema-username-element.md)元素是選擇性的。<br/>                                        |
 | [**LogonDomain**](mschapv2userpropertiesv1schema-logondomain-eaptype-element.md) | 字串 | 識別要驗證之使用者或電腦的網域。 如果此元素不存在，則會使用 winlogon 的網域。 [**LogonDomain**](mschapv2userpropertiesv1schema-logondomain-eaptype-element.md)元素是選擇性的。<br/>        |
@@ -82,8 +82,8 @@ ms.locfileid: "106981414"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

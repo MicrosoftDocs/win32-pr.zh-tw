@@ -7,17 +7,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Gg269195(v=EXCHG.10)
 ms:contentKeyID: 32765498
 ms.date: 04/11/2016
 ms.topic: article
-ms.openlocfilehash: 67569f8efc164cc7156f346b6754f13b296d3b08
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 47cb3b87b96e8cb51f651bf7c069088df9d13f7502e24ed61d9d5c355bc6d827
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936573"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117903534"
 ---
 # <a name="adding-tables-to-the-database"></a>將資料表加入至資料庫
 
 
-_**適用于：** Windows |Windows Server_
+_**適用于：** Windows |Windows伺服器_
 
 ## <a name="adding-tables-to-the-database"></a>將資料表加入至資料庫
 

@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 範例：透過 WMI 接收事件通知
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bd6380d306783f8b547d0d93df0275fd36e17e2f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 759ed91ed1f7892b622089fa64fe8e8421a8b3bd73bf77ba2f60fa4199d25434
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104469360"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119411878"
 ---
 # <a name="example-receiving-event-notifications-through-wmi"></a>範例：透過 WMI 接收事件通知
 

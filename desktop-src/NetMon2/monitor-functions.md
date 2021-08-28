@@ -4,12 +4,12 @@ ms.assetid: 2c019183-9823-4e34-bb41-cf35f2731b8f
 title: 監視函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9391927104196e282d4438c0b047e233d61f3619
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8f4a46aff05c9d8775edf5bb233cb18f288dc7ba4d65ba0300370ee7ede3a2ab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848159"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119677098"
 ---
 # <a name="monitor-functions"></a>監視函式
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Wiaguid.lib
 - Wiaguid.dll
-ms.openlocfilehash: 30a082502d4c7bc5b789fd1ec19fdb76f63d8fab
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6604dc8dbf0cad5f31449ff3cc30945c1e6059727d513fa98dbf436eb199f70f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974284"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119659748"
 ---
 # <a name="iwiaerrorhandlerreportstatus-method"></a>IWiaErrorHandler：： ReportStatus 方法
 
@@ -56,9 +56,9 @@ HRESULT ReportStatus(
 *punkItem* \[在\]
 </dt> <dd>
 
-類型： **[IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown) \** _
+類型： **[IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown)\***
 
-要傳送之專案的 [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown) 介面指標。 此物件至少會執行 [_ *IWiaItem2* *](-wia-iwiaitem2.md)和 [**IWiaDataTransfer**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiadatatransfer)。
+要傳送之專案的 [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown) 介面指標。 此物件至少會執行 [**IWiaItem2**](-wia-iwiaitem2.md) 和 [**IWiaDataTransfer**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiadatatransfer)。
 
 </dd> <dt>
 
@@ -83,9 +83,9 @@ HRESULT ReportStatus(
 *>pbdata* \[在\]
 </dt> <dd>
 
-類型： **BYTE \** _
+類型：**位元組 \***
 
-[_ *BandedDataCallback* *](/windows/desktop/api/wia_xp/nf-wia_xp-iwiadatacallback-bandeddatacallback)所接收之資料緩衝區的指標。
+[**BandedDataCallback**](/windows/desktop/api/wia_xp/nf-wia_xp-iwiadatacallback-bandeddatacallback)所接收之資料緩衝區的指標。
 
 </dd> </dl>
 
@@ -97,7 +97,7 @@ HRESULT ReportStatus(
 
 
 
-| 傳回碼                                                                             | Description                                                                                      |
+| 傳回碼                                                                             | 描述                                                                                      |
 |-----------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>    | 已採取適當的動作來修正錯誤，而且可以繼續傳送。 <br/> |
 | <dl> <dt>**S \_ FALSE**</dt> </dl> | 未採取任何動作來處理使用者的錯誤或報告狀態。 <br/>                |
@@ -109,7 +109,7 @@ HRESULT ReportStatus(
 
 ## <a name="remarks"></a>備註
 
-Windows 映像取得 (WIA) 2.0 會在驅動程式將 **IT \_ MSG \_ 裝置 \_ 狀態** 消息傳送至 [**BandedDataCallback**](/windows/desktop/api/wia_xp/nf-wia_xp-iwiadatacallback-bandeddatacallback)時呼叫 **IWiaErrorHandler：： ReportStatus** 。 這個方法會處理訊息，並向使用者顯示狀態或錯誤的相關資訊。 如果訊息是關於錯誤，則方法可讓使用者選擇（可能的話），是否嘗試從錯誤中復原並繼續傳送或中止。
+Windows影像取得 (WIA) 2.0 會在驅動程式將 **IT \_ MSG \_ 裝置 \_ 狀態** 消息傳送至 [**BandedDataCallback**](/windows/desktop/api/wia_xp/nf-wia_xp-iwiadatacallback-bandeddatacallback)時呼叫 **IWiaErrorHandler：： ReportStatus** 。 這個方法會處理訊息，並向使用者顯示狀態或錯誤的相關資訊。 如果訊息是關於錯誤，則方法可讓使用者選擇（可能的話），是否嘗試從錯誤中復原並繼續傳送或中止。
 
 *hrStatus* 設定為 WIA \_ 狀態 \_ 傳輸 \_ 開始，以通知處理常式已開始傳送。 當傳送完成時，它會設定為 WIA \_ 狀態 \_ 傳輸 \_ 結束。
 
@@ -121,10 +121,10 @@ Windows 映像取得 (WIA) 2.0 會在驅動程式將 **IT \_ MSG \_ 裝置 \_ �
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                         |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                   |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                         |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                   |
 | 標頭<br/>                   | <dl> <dt>Wia</dt> </dl>       |
-| Idl<br/>                      | <dl> <dt>Wia .idl</dt> </dl>     |
+| IDL<br/>                      | <dl> <dt>Wia .idl</dt> </dl>     |
 | 程式庫<br/>                  | <dl> <dt>Wiaguid .lib</dt> </dl> |
 
 

@@ -4,12 +4,12 @@ ms.assetid: 21cbde27-a2ca-4298-9197-43bcaf05588d
 title: 將資料流程資訊新增至 ASF 檔案接收
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: de8202de8da5cb8e17534c334e3d39dddb3c4f99
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: d0273f6080293803db7fa7451460e8f8d7700c5e405b9ed09d8d35e384abc8ca
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112404353"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118975037"
 ---
 # <a name="adding-stream-information-to-the-asf-file-sink"></a>將資料流程資訊新增至 ASF 檔案接收
 
@@ -32,7 +32,7 @@ ASF 檔案接收是媒體基礎所提供的 [**IMFMediaSink**](/windows/desktop/
 **在 ASF 檔案接收中設定串流資訊**
 
 1.  藉由呼叫 [**MFCreateASFProfile**](/windows/desktop/api/wmcontainer/nf-wmcontainer-mfcreateasfprofile)來建立 ASF 設定檔物件。
-2.  針對輸出檔中的每個資料流程，建立要在檔案接收中加入之目標資料流程的媒體類型。 媒體類型必須與 Windows Media 編碼器支援的輸出類型相容。
+2.  針對輸出檔中的每個資料流程，建立要在檔案接收中加入之目標資料流程的媒體類型。 媒體類型必須與 Windows 媒體編碼器支援的輸出類型相容。
 
     如需將音訊串流新增至設定檔的相關資訊，請參閱建立適用于 ASF 編碼的音訊資料流程。
 

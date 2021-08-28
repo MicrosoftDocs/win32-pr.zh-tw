@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 2a5ce81d96858488395e34f84232ca758ddabc59
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d79b75a4d4bb44aded7367fd4acfd758887815bba6fc6fcfd965f9123ac58c54
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466981"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119658788"
 ---
 # <a name="requiredprivilegestype-complex-type"></a>requiredPrivilegesType 複雜類型
 
@@ -40,7 +40,7 @@ ms.locfileid: "104466981"
 
 
 
-| 元素                                                                           | 類型                                                                  | Description                                                |
+| 元素                                                                           | 類型                                                                  | 描述                                                |
 |-----------------------------------------------------------------------------------|-----------------------------------------------------------------------|------------------------------------------------------------|
 | [**特權**](taskschedulerschema-privilege-requiredprivilegestype-element.md) | [**privilegeType**](taskschedulerschema-privilegetype-simpletype.md) | 指定工作的必要許可權。 <br/> |
 
@@ -52,8 +52,8 @@ ms.locfileid: "104466981"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>              |
+| 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/> |
 
 
 

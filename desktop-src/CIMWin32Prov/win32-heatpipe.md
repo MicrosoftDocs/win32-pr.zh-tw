@@ -36,12 +36,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: f89b8f059a5c80f4d40c70007d8870211e79f93f
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 54830f4849beec37f9e7043e459449d32f32f3dcdc01967a412ba6182347e07d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104025976"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119751288"
 ---
 # <a name="win32_heatpipe-class"></a>Win32 \_ HeatPipe 類別
 
@@ -867,7 +867,7 @@ Windows 仍在設定裝置。
 限定詞： [**架構**](/windows/desktop/WmiSdk/standard-qualifiers) ( "Win32" ) 
 </dt> </dl>
 
-Windows 隨插即用邏輯裝置的裝置識別碼。
+Windows隨插即用邏輯裝置的裝置識別碼。
 
 這個屬性繼承自 [**CIM \_ LogicalDevice**](cim-logicaldevice.md)。
 

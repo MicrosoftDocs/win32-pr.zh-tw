@@ -4,16 +4,16 @@ description: IAgentCommands RemoveAll
 ms.assetid: fab43363-6325-4566-b7bb-599591f67321
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e8bd374b7c5767c416d2c3bb2281e651ba71acd8
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: dcb855a0eb4cd8a968ec5f03a37aa99fb170158cf75eec9f69a13c392ef94cdb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103682292"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118976278"
 ---
 # <a name="iagentcommandsremoveall"></a>IAgentCommands：： RemoveAll
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 ``` syntax
 HRESULT Remove();
@@ -30,6 +30,6 @@ HRESULT Remove();
 [**IAgentCommands：： Add**](iagentcommands--add.md)、 [**IAgentCommands：： Insert**](iagentcommands--insert.md)、 [**IAgentCommands：： Remove**](iagentcommands--remove.md)
 
 
- 
+ 
 
- 
+ 

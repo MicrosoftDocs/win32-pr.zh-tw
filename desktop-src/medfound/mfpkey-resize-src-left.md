@@ -4,12 +4,12 @@ ms.assetid: e7432b80-f3fa-4c2f-89db-87cd130d7447
 title: 'MFPKEY_RESIZE_SRC_LEFT 屬性 (Wmcodecdsp) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a743ee9a21e9ff5a227a363c0c8d15faf48d1fcd
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 3ffe7381e3c9bf34eee7330300f0748e63ec2e040a5a583aad2cb0f4d29faeb9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108092866"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118973377"
 ---
 # <a name="mfpkey_resize_src_left-property"></a>MFPKEY \_ 調整 \_ SRC \_ LEFT 屬性的大小
 
@@ -33,8 +33,8 @@ VT \_ I4
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                             |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                    |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                             |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                    |
 | 標頭<br/>                   | <dl> <dt>Wmcodecdsp。h</dt> </dl> |
 
 

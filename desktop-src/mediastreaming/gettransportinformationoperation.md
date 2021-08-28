@@ -14,12 +14,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 05d1eee0dd415e22fb7caaac2c4fc60e53344ba8
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 4dc00a24c0bd7d4be4192b3489af524dd7d0af6ac95ce536e5167de6c5d07e22
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104507895"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118972377"
 ---
 # <a name="gettransportinformationoperation-class"></a>GetTransportInformationOperation 類別
 
@@ -50,7 +50,7 @@ ms.locfileid: "104507895"
 
 
 
-| 屬性                                                                   | 存取類型           | Description                                                                                                                                                                                            |
+| 屬性                                                                   | 存取類型           | 描述                                                                                                                                                                                            |
 |:---------------------------------------------------------------------------|:----------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**Completed**](gettransportinformationoperation-completed.md)<br/> | 讀取/寫入<br/> | 取得或設定當 [**GetTransportInformationAsync**](/previous-versions/windows/desktop/api/windows.media.streaming/nf-windows-media-streaming-imediarenderer-gettransportinformationasync) 啟動的非同步作業完成時叫用的事件處理常式。 <br/> |
 

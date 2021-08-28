@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b8b3f179c2ce56b8e8ab6802b2d4bf5dd96c458e
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: bb0f63a2dcf53716ea7b8825791fb723fbc768f5c8d237ac1b75e78ddc31bc0f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "106967232"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119388258"
 ---
 # <a name="c_ext-switch"></a>/c \_ ext 參數
 
@@ -63,9 +63,9 @@ midl /c_ext
 [一般 MIDL 命令列語法](general-midl-command-line-syntax.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

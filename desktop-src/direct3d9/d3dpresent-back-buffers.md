@@ -4,12 +4,12 @@ ms.assetid: 47843a7a-619b-40ba-8111-56e021865353
 title: D3DPRESENT_BACK_BUFFERS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6a9894520ef7574fa2959afb896d14918dbb5f00
-ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
+ms.openlocfilehash: e5f38a636c5002d7e04c09570fc352e8c50d87c6271b057eed2686fcf0c1f361
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "110343123"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119676528"
 ---
 # <a name="d3dpresent_back_buffers"></a>D3DPRESENT \_ 後臺 \_ 緩衝區
 

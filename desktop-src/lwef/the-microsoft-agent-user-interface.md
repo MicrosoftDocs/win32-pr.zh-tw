@@ -6,16 +6,16 @@ keywords:
 - Microsoft 代理程式，使用者介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4eb20bf18c6031bf72e1faadae5b74979eaa13f9
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b37c1aa9f96ce663395a6488f6ac82fad2fa815405618d5eeb55c3f1c26e5460
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106968048"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118975568"
 ---
 # <a name="the-microsoft-agent-user-interface"></a>Microsoft 代理程式消費者介面
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 Microsoft 代理程式可讓網站和傳統應用程式包含增強的使用者互動形式。 它提供數個使用者介面元件，可讓使用者存取該字元並與之互動、知道字元的狀態，以及變更影響所有字元的全域設定。
 
@@ -29,9 +29,9 @@ Microsoft 代理程式可讓網站和傳統應用程式包含增強的使用者�
 -   [[先進的字元選項] 視窗](the-advanced-character-options-window.md)
 -   [預設的 [字元屬性] 視窗](the-default-character-properties-window.md)
 
- 
+ 
 
- 
+ 
 
 
 

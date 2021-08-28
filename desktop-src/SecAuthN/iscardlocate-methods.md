@@ -4,12 +4,12 @@ ms.assetid: 6E7D54C8-78F1-4F82-A687-F583AC6AAD4E
 title: ISCardLocate 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 34d036a14793d9539360affad74712ffbd5360ab
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bb7ee4cdcc29ae05b1121b5b796fccc498de0a34b43fae292f53e6fa9971101d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944461"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120014198"
 ---
 # <a name="iscardlocate-methods"></a>ISCardLocate 方法
 

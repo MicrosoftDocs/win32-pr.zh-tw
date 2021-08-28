@@ -4,12 +4,12 @@ ms.assetid: 0f084f3f-7432-4514-ae6a-c8179a99dec7
 title: 常數位元速率編碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bea372a12d03a962f08e449bd707654391a2313b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5318cbf6d1a0b9c635fcd8313589581839fe74c7402411d59a1b5dfbdb55739d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936560"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118974827"
 ---
 # <a name="constant-bit-rate-encoding"></a>常數位元速率編碼
 
@@ -21,10 +21,10 @@ CBR 編碼的缺點是編碼內容的品質不會是常數。 因為有些內容
 
 一般而言，CBR 檔案品質的變化會以較低的位元速率更明顯。 以較高的位元速率來說，CBR 編碼檔案的品質仍會有所不同，但對使用者而言，品質問題將會比較不明顯。 使用 CBR 編碼時，您應該在傳遞案例允許的情況下設定最高的頻寬。
 
--   [CBR 設定](#cbr-configuration-settings)
+-   [CBR 設定設定](#cbr-configuration-settings)
 -   [有漏洞 Bucket 設定](#leaky-bucket-settings)
 
-### <a name="cbr-configuration-settings"></a>CBR 設定
+### <a name="cbr-configuration-settings"></a>CBR 設定設定
 
 您必須在編碼會話之前，指定編碼類型和各種資料流程特定設定，以設定編碼器。
 
@@ -192,7 +192,7 @@ done:
 [ASF 編碼類型](asf-encoding-types.md)
 </dt> <dt>
 
-[教學課程： 1-傳遞 Windows Media 編碼](tutorial--1-pass-windows-media-encoding.md)
+[教學課程： 1-傳遞 Windows 媒體編碼](tutorial--1-pass-windows-media-encoding.md)
 </dt> <dt>
 
 [教學課程：使用 CBR 編碼方式撰寫 WMA 檔案](tutorial--writing-a-wma-file-by-using-cbr-encoding.md)

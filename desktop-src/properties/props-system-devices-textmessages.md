@@ -4,12 +4,12 @@ ms.assetid: 309700af-c5b7-48a6-a85f-763452f586ad
 title: TextMessages
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d2bc26513957bbeca7a96f136874f95d586852ac
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d5bdafbd430d8b373fb713a8be8969a361dfe11075ca712a115fef4e96967e41
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106997148"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119599148"
 ---
 # <a name="systemdevicestextmessages"></a>TextMessages
 

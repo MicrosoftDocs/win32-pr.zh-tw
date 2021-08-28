@@ -4,12 +4,12 @@ ms.assetid: 00b72389-1f0e-469d-af07-db515071e0fb
 title: 'MFPKEY_REENCQPREF 屬性 (Wmcodecdsp) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0b824cdb65eed5c8402ee4164d14091c4223295a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: bef455a49b5ab841f76e5e81aeb1d308142d9a743f421e9de3d89662a1d45b3f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106979618"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118973477"
 ---
 # <a name="mfpkey_reencqpref-property"></a>MFPKEY \_ REENCQPREF 屬性
 

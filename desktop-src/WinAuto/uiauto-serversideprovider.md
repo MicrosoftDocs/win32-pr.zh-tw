@@ -19,12 +19,12 @@ keywords:
 - 實作提供者
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e7fafbb9d03a25eb2e4713330c0622c25d17f9ff
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 583b9a5f91bb8be53a3e8b0e356ce558978b8ea28d5b726b56f52420cd7bff37
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106965664"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119413438"
 ---
 # <a name="implement-a-server-side-ui-automation-provider"></a>執行 Server-Side 消費者介面自動化提供者
 
@@ -56,12 +56,12 @@ ms.locfileid: "106965664"
 
 
 
- 
+ 
 
 > [!Note]  
 > 在 managed 程式碼的消費者介面自動化 API 中，這些介面會形成繼承階層。 這不是 c + + 中的情況，其中介面是完全分開的。
 
- 
+ 
 
 下列介面可提供額外的功能，但實作為選擇性。
 
@@ -74,7 +74,7 @@ ms.locfileid: "106965664"
 
 
 
- 
+ 
 
 ## <a name="required-functionality-for-ui-automation-providers"></a>消費者介面自動化提供者的必要功能
 
@@ -93,7 +93,7 @@ ms.locfileid: "106965664"
 
 
 
- 
+ 
 
 ## <a name="property-values"></a>屬性值
 
@@ -132,7 +132,7 @@ ms.locfileid: "106965664"
 
 
 
- 
+ 
 
 事件的目的是要通知用戶端在 UI 中發生的情況。 無論使用者輸入或用戶端應用程式是否使用消費者介面自動化觸發變更，提供者都應該引發事件。 例如，每當叫用控制項時，只要透過直接使用者輸入或由呼叫 [**IUIAutomationInvokePattern：： Invoke**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationinvokepattern-invoke)的用戶端應用程式叫用控制項，就應該引發 [**UIA \_ Invoke \_ InvokedEventId**](uiauto-event-ids.md)所識別的事件。
 
@@ -140,19 +140,19 @@ ms.locfileid: "106965664"
 
 
 
-| API 元素                                                                       | Description                                                                                                                                                       |
+| API 元素                                                                       | 描述                                                                                                                                                       |
 |-----------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**UiaClientsAreListening**](/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-uiaclientsarelistening)           | 此函式會 ascertains 是否有任何用戶端應用程式已訂閱消費者介面自動化事件。                                                                 |
 | [**IRawElementProviderAdviseEvents**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-irawelementprovideradviseevents) | 在片段根上執行此介面可讓您在用戶端針對片段上的事件註冊和取消註冊事件處理常式時，建議提供者。 |
 
 
 
- 
+ 
 
 > [!Note]  
 > 類似于在 COM 程式設計中執行參考計數，消費者介面自動化提供者必須將 [**IRawElementProviderAdviseEvents：： AdviseEventAdded**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-irawelementprovideradviseevents-adviseeventadded)和 [**AdviseEventRemoved**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-irawelementprovideradviseevents-adviseeventremoved)方法（例如 [**Iunknown：： AddRef**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref)和 [**iunknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown)介面的 [**Release**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-release)方法）視為必要。 只要針對特定事件或屬性呼叫 **AdviseEventAdded** 的次數超過 **AdviseEventRemoved** ，提供者就應該繼續引發對應的事件，因為某些用戶端仍在接聽。 或者，消費者介面自動化提供者可以使用 [**UiaClientsAreListening**](/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-uiaclientsarelistening) 函式來判斷是否至少有一個用戶端正在接聽，如果有的話，則會引發所有適當的事件。
 
- 
+ 
 
 ## <a name="provider-navigation"></a>提供者導覽
 
@@ -161,7 +161,7 @@ ms.locfileid: "106965664"
 > [!Note]  
 > 根以外的片段專案必須從 [**HostRawElementProvider**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-irawelementprovidersimple-get_hostrawelementprovider)傳回 **Null** ，因為它們不會直接裝載在視窗中，而且沒有預設提供者可支援它們的導覽。
 
- 
+ 
 
 片段的結構取決於您的 [**IRawElementProviderFragment：：導覽**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-irawelementproviderfragment-navigate)的執行。 對於每個片段的可能方向，此方法會傳回該方向中項目的提供者物件。 如果該方向沒有任何元素，則方法會傳回 **Null**。
 
@@ -205,6 +205,6 @@ rebar 控制項就是這種情況的好範例。 Rebar 控制項包含群組，�
 [消費者介面自動化提供者程式設計人員指南](uiauto-providerportal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 描述實例物件路徑
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f977359ea9c3c4346052f1edd076c0cce5544441
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a152d68390c899709cfe6041bfa2880482a0d4498dc371aafd4426aef8f14489
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319795"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119412058"
 ---
 # <a name="describing-an-instance-object-path"></a>描述實例物件路徑
 

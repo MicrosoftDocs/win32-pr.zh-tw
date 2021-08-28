@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b6fe28065e3c47b145c6aa7f608560417ee710f
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 7ffc13a158c8a9264118015020d07284d744f0657324fa399ea3c97e665249ab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104108264"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119702958"
 ---
 # <a name="change-schema-master-extended-right"></a>變更-架構-主要延伸許可權
 
@@ -50,7 +50,7 @@ ms.locfileid: "104108264"
 
 | 進入 | 值 |
 |-------------------------|---------------------------------|
-| Applies-To              | [**Dmd**](c-dmd.md)<br/> |
+| Applies-To              | [**DMD**](c-dmd.md)<br/> |
 | 當地語系化-顯示識別碼 | 28                              |
 
 
@@ -61,7 +61,7 @@ ms.locfileid: "104108264"
 
 | 進入 | 值 |
 |-------------------------|---------------------------------|
-| Applies-To              | [**Dmd**](c-dmd.md)<br/> |
+| Applies-To              | [**DMD**](c-dmd.md)<br/> |
 | 當地語系化-顯示識別碼 | 28                              |
 
 
@@ -72,7 +72,7 @@ ms.locfileid: "104108264"
 
 | 進入 | 值 |
 |-------------------------|---------------------------------|
-| Applies-To              | [**Dmd**](c-dmd.md)<br/> |
+| Applies-To              | [**DMD**](c-dmd.md)<br/> |
 | 當地語系化-顯示識別碼 | 28                              |
 
 
@@ -83,7 +83,7 @@ ms.locfileid: "104108264"
 
 | 進入 | 值 |
 |-------------------------|---------------------------------|
-| Applies-To              | [**Dmd**](c-dmd.md)<br/> |
+| Applies-To              | [**DMD**](c-dmd.md)<br/> |
 | 當地語系化-顯示識別碼 | 28                              |
 
 
@@ -94,7 +94,7 @@ ms.locfileid: "104108264"
 
 | 進入 | 值 |
 |-------------------------|---------------------------------|
-| Applies-To              | [**Dmd**](c-dmd.md)<br/> |
+| Applies-To              | [**DMD**](c-dmd.md)<br/> |
 | 當地語系化-顯示識別碼 | 28                              |
 
 
@@ -105,7 +105,7 @@ ms.locfileid: "104108264"
 
 | 進入 | 值 |
 |-------------------------|---------------------------------|
-| Applies-To              | [**Dmd**](c-dmd.md)<br/> |
+| Applies-To              | [**DMD**](c-dmd.md)<br/> |
 | 當地語系化-顯示識別碼 | 28                              |
 
 
@@ -116,7 +116,7 @@ ms.locfileid: "104108264"
 
 | 進入 | 值 |
 |-------------------------|---------------------------------|
-| Applies-To              | [**Dmd**](c-dmd.md)<br/> |
+| Applies-To              | [**DMD**](c-dmd.md)<br/> |
 | 當地語系化-顯示識別碼 | 28                              |
 
 

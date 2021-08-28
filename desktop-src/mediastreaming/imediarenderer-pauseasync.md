@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 8713fa4b2fe46a694024c2873cd50a0ec89ce898
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: a953d024ee0f90f7cb466574b29d7e3cfe150072bf1a3787734f8365916cb2a1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106985524"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118972267"
 ---
 # <a name="imediarendererpauseasync-method"></a>IMediaRenderer：:P auseAsync 方法
 
@@ -54,7 +54,7 @@ HRESULT PauseAsync(
 
 
 
-| 傳回碼                                                                          | Description                      |
+| 傳回碼                                                                          | 描述                      |
 |--------------------------------------------------------------------------------------|----------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl> | 此方法已成功。<br/> |
 

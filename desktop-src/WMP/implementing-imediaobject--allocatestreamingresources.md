@@ -11,12 +11,12 @@ keywords:
 - Echo DSP 外掛程式範例，延遲緩衝區
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5f1e347e35eaabbcbcc00a586e4cba0d8ad31cc6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 291b1f9627d9dfb78ae2aff9d34b6fadd47cbf28a5c2f0830f5833d9e83cde21
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372319"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119508958"
 ---
 # <a name="implementing-imediaobjectallocatestreamingresources"></a>執行 IMediaObject：： AllocateStreamingResources
 
@@ -30,7 +30,7 @@ ms.locfileid: "104372319"
 
 ## <a name="calculating-the-delay-buffer-size"></a>計算延遲緩衝區大小
 
-為了計算延遲緩衝區所需的大小，您必須先取出包含音訊資料相關資訊的 **WAVEFORMATEX** 結構。 The following example retrieves a pointer to this structure from the input **DMO\_MEDIA\_TYPE** structure:
+為了計算延遲緩衝區所需的大小，您必須先取出包含音訊資料相關資訊的 **WAVEFORMATEX** 結構。 下列範例會從輸入 **DMO \_ 媒體 \_ 類型** 結構中，抓取此結構的指標：
 
 
 ```
@@ -147,9 +147,9 @@ AllocateStreamingResources();
 [**使用串流資源**](working-with-streaming-resources.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

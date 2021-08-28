@@ -17,16 +17,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5bc79ffd0717ac0949103a05d1bcdaa96da48d7d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0c31b3b91cf75687d82e02e3b97c78dd0e40f724756b609a3e2b60c73812ee5e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106969162"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119512308"
 ---
 # <a name="ivmguestosproducttype-property"></a>IVMGuestOS：:P roductType 屬性
 
-\[Windows 8 不能再使用 Windows Virtual PC。 請改為使用 [HYPER-V WMI 提供者 (V2) ](/windows/desktop/HyperV_v2/windows-virtualization-portal)。\]
+\[WindowsVirtual PC 不再適用于 Windows 8。 請改為使用 [HYPER-V WMI 提供者 (V2) ](/windows/desktop/HyperV_v2/windows-virtualization-portal)。\]
 
 抓取虛擬機器中執行之客體作業系統的產品類型。
 
@@ -51,8 +51,8 @@ HRESULT get_ProductType(
 
 | 值                                                                                  | 意義                                                                                                                                                                                                                                                                                      |
 |----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <dl> <dt>"0x0000002"</dt> </dl> | 系統是網域控制站，而作業系統是 Windows Server 2008 R2、Windows Server 2008、Windows Server 2003 R2、Windows Server 2003 或 Windows 2000 Server。<br/>                                                                                                   |
-| <dl> <dt>"0x0000003"</dt> </dl> | 作業系統是 Windows Server 2008 R2、Windows Server 2008、Windows Server 2003 R2、Windows Server 2003 或 Windows 2000 Server。<br/> 請注意，同時也是網域控制站的伺服器會回報為 **ver \_ nt \_ 域 \_ 控制器**，而不是 **\_ nt \_ server**。<br/> |
+| <dl> <dt>"0x0000002"</dt> </dl> | 系統是網域控制站，而作業系統是 Windows Server 2008 r2、Windows Server 2008、Windows Server 2003 R2、Windows Server 2003 或 Windows 2000 Server。<br/>                                                                                                   |
+| <dl> <dt>"0x0000003"</dt> </dl> | 作業系統是 Windows Server 2008 r2、Windows Server 2008、Windows Server 2003 R2、Windows Server 2003 或 Windows 2000 Server。<br/> 請注意，同時也是網域控制站的伺服器會回報為 **ver \_ nt \_ 域 \_ 控制器**，而不是 **\_ nt \_ server**。<br/> |
 | <dl> <dt>"0x0000001"</dt> </dl> | 作業系統是 Windows 7、Windows Vista、Windows XP 或 Windows 2000 Professional。<br/>                                                                                                                                                                                       |
 
 
@@ -65,7 +65,7 @@ HRESULT get_ProductType(
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                                    |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                     |
 | 用戶端支援結束<br/>    | Windows 7<br/>                                                                          |
 | 產品<br/>                  | Windows Virtual PC<br/>                                                                 |
