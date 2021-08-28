@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: f0463a38623baa427a6ddaf3ea19b47704b90e3ef36cf91dea2469e0cd2baa00
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: cc6715a63c86913d5a525805e6178b3230505d0b
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119884768"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122879534"
 ---
 # <a name="about-user-profiles"></a>關於使用者設定檔
 
@@ -50,7 +50,7 @@ ms.locfileid: "119884768"
 -   % ProgramData% \\ Microsoft \\ 使用者帳戶圖片 \\Guest.bmp
 -   % ProgramData% \\ Microsoft \\ 使用者帳戶圖片 \\User.bmp
 
-使用者的磚影像會儲存在% SystemDrive% \\ Users \\ <username> \\ AppData \\ 本機 \\ Temp 資料夾中，作為 <username>.bmp。  () 的任何斜線字元 \\ 都會轉換成加號字元 (+) 。 例如，網域 \\ 使用者會轉換成網域 + 使用者。
+使用者的磚影像會儲存在% SystemDrive% \\ Users \\ &lt; username &gt; \\ AppData \\ 本機 \\ Temp 資料夾中，做為使用者 &lt; 名稱 &gt;.bmp。  () 的任何斜線字元 \\ 都會轉換成加號字元 (+) 。 例如，網域 \\ 使用者會轉換成網域 + 使用者。
 
 影像檔會出現在使用者的 **Temp** 資料夾中：
 

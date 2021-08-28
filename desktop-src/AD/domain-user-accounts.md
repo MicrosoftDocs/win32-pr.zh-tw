@@ -6,12 +6,12 @@ ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
 ms.custom: contperf-fy21q3
-ms.openlocfilehash: 7c61816fa140a6126d020285d80a71fb59cc1808ae6888f12dc0e4340447060e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c8defc6cc3b35ca88038ca3818b56024dfb18699
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118192246"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122881458"
 ---
 # <a name="using-a-domain-user-account-as-a-service-logon-account"></a>使用網域使用者帳戶做為服務登入帳戶
 
@@ -26,7 +26,7 @@ ms.locfileid: "118192246"
 
 使用網域使用者帳戶的服務實例需要定期系統管理動作來維護帳戶密碼。 服務實例的主機電腦上的服務控制管理員 (SCM) 快取帳戶密碼，以便用於服務的記錄。 當您變更帳戶密碼時，也必須更新安裝服務之主機電腦上的快取密碼。 如需詳細資訊和程式碼範例，請參閱 [變更服務使用者帳戶的密碼](changing-the-password-on-a-serviceampaposs-user-account.md)。 您可以將密碼保持不變，以避免定期維護，但是這樣會增加對服務帳戶進行密碼攻擊的可能性。 請注意，即使 SCM 將密碼儲存在登錄的安全部分中，還是可能受到攻擊。
 
-網域使用者帳戶有兩種名稱格式：目錄中使用者物件的辨別名稱，以及 <domain> \\ <username> 本機服務控制管理員所使用的 "" 格式。 如需詳細資訊和從某種格式轉換成另一種格式的程式碼範例，請參閱 [轉換網域帳戶名稱格式](converting-domain-account-name-formats.md)。
+網域使用者帳戶有兩種名稱格式：目錄中使用者物件的辨別名稱，以及 &lt; &gt; \\ &lt; &gt; 本機服務控制管理員所使用的「網域使用者名稱」格式。 如需詳細資訊和從某種格式轉換成另一種格式的程式碼範例，請參閱 [轉換網域帳戶名稱格式](converting-domain-account-name-formats.md)。
 
  
 

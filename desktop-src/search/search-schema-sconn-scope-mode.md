@@ -1,19 +1,19 @@
 ---
-description: <mode>元素指定是否應該在搜尋連接器的範圍中包含或排除 URL。 允許的值包括和排除。 這個元素沒有任何子項目，而且沒有任何屬性。
+description: '&lt;Mode &gt; 元素會指定是否應將 URL 包含或排除在搜尋連接器的範圍內。 允許的值包括和排除。 這個元素沒有任何子項目，而且沒有任何屬性。'
 ms.assetid: 7654c04a-31c4-4260-a51c-0600804e62a9
 title: " (搜尋連接器架構) 的模式元素"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 32a210abf5c9c2bbc4cd5d53978866a729d834928cf39e54bfb6e6fcc9c42c7f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b8e096bb21d634da6107359c014b82f1b367aba1
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119944318"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122886747"
 ---
 # <a name="mode-element-search-connector-schema"></a> (搜尋連接器架構) 的模式元素
 
-<mode>元素指定是否應該在搜尋連接器的範圍中包含或排除 URL。 允許的值有 `Include` 與 `Exclude`。 這個元素沒有任何子項目，而且沒有任何屬性。
+&lt;Mode &gt; 元素會指定是否應將 URL 包含或排除在搜尋連接器的範圍內。 允許的值有 `Include` 與 `Exclude`。 這個元素沒有任何子項目，而且沒有任何屬性。
 
 ## <a name="syntax"></a>Syntax
 

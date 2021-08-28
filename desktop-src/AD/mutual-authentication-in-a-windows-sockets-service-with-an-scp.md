@@ -8,12 +8,12 @@ keywords:
 - Active Directory、使用、相互驗證、Windows sockets 服務和 SCP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: be8f3e65b044198c5ebf703b1c62ac03eb07a4d57b6bc5dcf7c5463247815f1b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3ede3f05744e402cb483e46d6eb116f653e20d9e
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119025766"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122881372"
 ---
 # <a name="mutual-authentication-in-a-windows-sockets-service-with-scp"></a>使用 SCP Windows 通訊端服務中的相互驗證
 
@@ -22,7 +22,7 @@ ms.locfileid: "119025766"
 **若要在安裝服務時于目錄中註冊 Spn**
 
 1.  呼叫 [**DsGetSpn**](/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsgetspna) 函式，為服務)  (spn 撰寫服務主體名稱。
-2.  呼叫 [**DsWriteAccountSpn**](/windows/desktop/api/Ntdsapi/nf-ntdsapi-dswriteaccountspna) 函式，在服務將在其內容中執行的服務帳戶或電腦帳戶上註冊 spn。 此步驟必須由網域系統管理員執行;例外狀況是，在 LocalSystem 帳戶下執行的服務可以在 <service class> / <host> 服務主機的電腦帳戶上，以 "" 形式註冊其 SPN。
+2.  呼叫 [**DsWriteAccountSpn**](/windows/desktop/api/Ntdsapi/nf-ntdsapi-dswriteaccountspna) 函式，在服務將在其內容中執行的服務帳戶或電腦帳戶上註冊 spn。 此步驟必須由網域系統管理員執行;例外狀況是，在 LocalSystem 帳戶下執行的服務可以在 <service class> / &lt; &gt; 服務主機的電腦帳戶上，以 "host" 形式註冊其 SPN。
 
 **確認服務啟動時的設定**
 

@@ -7,12 +7,12 @@ MSHAttr:
 title: ModemDMConfigProfile
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 80684cdf2d47d203318afbfd7b5e6bc02de1d3dc
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.openlocfilehash: 0c6de7275b092cd0cd95683d6b4de2ca28322f69
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122982741"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122475134"
 ---
 # <a name="span-idwwan_profile_v4element_modemdmconfigprofilespanmodemdmconfigprofile"></a><span id="WWAN_profile_v4.element_ModemDMConfigProfile"></span>ModemDMConfigProfile
 
@@ -20,7 +20,7 @@ ms.locfileid: "122982741"
 
 ## <a name="element-hierarchy"></a>元素階層
 
-**&lt;ModemDMConfigProfile&gt;**
+**<ModemDMConfigProfile>**
 
 ## <a name="syntax"></a>Syntax
 
@@ -79,9 +79,7 @@ ms.locfileid: "122982741"
 ## <a name="requirements"></a>規格需求
 
 
-| 需求 | 值 |
-|------------|----------|
-| <p>命名空間</p> | <p>https://www.microsoft.com/networking/WWAN/profile/v4</p> | 
+| | | <p>命名空間</p> | <p>https://www.microsoft.com/networking/WWAN/profile/v4</p> | 
 
 
  

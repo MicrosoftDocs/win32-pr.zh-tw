@@ -4,12 +4,12 @@ ms.assetid: 76e33903-d063-48c0-9afe-912c3daa8237
 title: 以程式設計方式使用 Advanced 查詢語法
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0ebde3119199d84f67315c2db73343d5dffc58ad
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.openlocfilehash: 24e480866120289605a7465af96d8aaa8dc2beda
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122880698"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122627224"
 ---
 # <a name="using-advanced-query-syntax-programmatically"></a>以程式設計方式使用 Advanced 查詢語法
 
@@ -50,7 +50,7 @@ Advanced query 語法 (AQS) 是 Windows Search 用來查詢索引以及精簡和
 
 如果查詢有兩個以上的使用和或或，則不論是 AND 或 OR，它們都會從左至右系結。 也就是說，查詢 "apple AND 梨 OR 梅紅" 將會被解釋為 " (apple AND 梨) 或梅紅"，而查詢 "apple OR 梨 AND 梅紅" 將會被視為撰寫為「 (apple 或梨) 和梅紅」。 因此，如果檔包含梅紅這個字，但不是 apple，也不是使用梨，則第一個查詢會傳回它，但第二個查詢則不會傳回。 因此，我們建議您針對任何混合和和或的查詢使用明確括弧，以避免發生錯誤或誤解。
 
-基本查詢會搜尋符合屬性之限制的專案。 基本查詢的唯一必要部分是限制或搜尋值。 如果您未指定屬性，Windows Search 會搜尋所有屬性。 &lt;restr &gt; 代表搜尋限制。
+基本查詢會搜尋符合屬性之限制的專案。 基本查詢的唯一必要部分是限制或搜尋值。 如果您未指定屬性，Windows Search 會搜尋所有屬性。 <restr> 表示搜尋限制。
 
 以下是適用于基本查詢的表單：
 
@@ -209,7 +209,7 @@ System.Size:>1kb
 
 ### <a name="query-operators"></a>查詢運算子
 
-如果屬性 p 具有某個專案的多個值，則 p： restr 的 AQS 查詢 &lt; 會傳回 &gt; 專案，如果 &lt; 至少有 &gt; 一個值的 restr 為 **true** 。  (&lt; restr &gt; 代表限制。 ) 
+如果屬性 p 具有某個專案的多個值，則 p：的 AQS 查詢會傳回 <restr> 專案，如果 <restr> 至少有一個值為 **true** 。  (<restr> 代表限制。 ) 
 
 下表所列的語法包含運算子、運算子符號、範例和範例描述。 運算子和符號可以用在任何語言中，並包含在任何查詢中。 請勿使用 COP \_ 隱含或 COP \_ 應用程式 \_ 特定的運算子。 某些運算子具有可互換的符號。
 

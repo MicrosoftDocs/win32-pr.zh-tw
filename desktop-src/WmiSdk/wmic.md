@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: wmic
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a0248ea4ac6a584816da20e8feb8d278d7feab0a018739fa4328c3023179d4b0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0bee63220bec5cae1c41480187c78211f46ed020
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117920998"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122881080"
 ---
 # <a name="wmic"></a>wmic
 
@@ -18,7 +18,7 @@ wmi 命令列 (WMIC) 公用程式提供命令列介面，Windows Management Inst
 
 ## <a name="alias"></a>Alias
 
-別名是類別、屬性或方法的易記重新命名，可讓 WMI 更容易使用和讀取。 您可以透過/，判斷哪些別名可用於 WMIC **？** 。 您也可以使用 **<className> /？** 來決定特定類別的別名。 。 如需詳細資訊，請參閱 [WMIC 別名](/previous-versions/windows/it-pro/windows-server-2003/cc736307(v=ws.10))。
+別名是類別、屬性或方法的易記重新命名，可讓 WMI 更容易使用和讀取。 您可以透過/，判斷哪些別名可用於 WMIC **？** 。 您也可以使用 **&lt; className &gt; /？** 來判斷特定類別的別名。 。 如需詳細資訊，請參閱 [WMIC 別名](/previous-versions/windows/it-pro/windows-server-2003/cc736307(v=ws.10))。
 
 ## <a name="switch"></a>交換器
 
@@ -43,9 +43,9 @@ ASSOC 動詞有下列參數。
 
 | Switch                         | 描述                                                                                                       |
 |--------------------------------|-------------------------------------------------------------------------------------------------------------------|
-| /RESULTCLASS:<classname> | 與來源物件相關聯的傳回端點必須屬於或衍生自指定的類別。      |
-| /RESULTROLE:<rolename>   | 傳回的端點必須在與來源物件的關聯中播放特定的角色。                              |
-| /ASSOCCLASS:<assocclass> | 傳回的端點必須透過指定的類別或其中一個衍生類別，與來源建立關聯。 |
+| /RESULTCLASS： &lt; classname&gt; | 與來源物件相關聯的傳回端點必須屬於或衍生自指定的類別。      |
+| /RESULTROLE： &lt; 擁有&gt;   | 傳回的端點必須在與來源物件的關聯中播放特定的角色。                              |
+| /ASSOCCLASS： &lt; ASSOCCLASS&gt; | 傳回的端點必須透過指定的類別或其中一個衍生類別，與來源建立關聯。 |
 
 
 
@@ -101,7 +101,7 @@ GET 具有下列參數。
 | /VALUE                               | 輸出會以個別行上所列出的每個值和屬性的名稱來格式化。                                           |
 | /ALL                                 | 輸出會格式化為表格。                                                                                                            |
 | 來源語言<translation table> | 使用命令所命名的轉譯資料表來轉譯輸出。 BasicXml 和 NoComma 的轉譯資料表會隨附于 WMIC。 |
-| 台<interval>              | 每秒重複命令 <interval> 。                                                                                         |
+| /EVERY： &lt; interval&gt;              | 每隔 &lt; 間隔秒重複命令 &gt; 。                                                                                         |
 | 形式<format specifier>     | 指定要格式化資料的關鍵單字或 XSL 檔案名。                                                                                  |
 
 
@@ -121,7 +121,7 @@ GET 具有下列參數。
 
 
 
-| 副詞   | Description                                                  |
+| 副詞   | 描述                                                  |
 |----------|--------------------------------------------------------------|
 | 簡短    | 屬性的核心集。                                  |
 | FULL     | 完整的屬性集。 這是清單的預設副詞。 |
@@ -140,7 +140,7 @@ GET 具有下列參數。
 | Switch                               | 描述                                                                                                                                |
 |--------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
 | 來源語言<translation table> | 使用命令所命名的轉譯資料表來轉譯輸出。 BasicXml 和 NoComma 的轉譯資料表會隨附于 WMIC。 |
-| 台<interval>              | 每秒重複命令 <interval> 。                                                                                         |
+| /EVERY： &lt; interval&gt;              | 每隔 &lt; 間隔秒重複命令 &gt; 。                                                                                         |
 | 形式<format specifier>     | 指定要格式化資料的關鍵單字或 XSL 檔案名。                                                                                  |
 
 

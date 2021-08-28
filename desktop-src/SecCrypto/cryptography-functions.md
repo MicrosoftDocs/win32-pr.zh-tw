@@ -4,12 +4,12 @@ ms.assetid: 9a65f73d-6f8c-4271-a2d0-d91ad952f9c6
 title: 密碼編譯函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b65c04d3cb1ff619d03d7f0340fc4f94826722f8ed6c0457987b8ec432a66128
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7b0140e81e28eeb5c3c326a30856f733bec8b3cf
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117768340"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122474574"
 ---
 # <a name="cryptography-functions"></a>密碼編譯函式
 
@@ -145,112 +145,22 @@ CSP 是執行所有密碼編譯作業的獨立模組。 每個使用密碼編譯
 
 應用程式會使用下列服務功能來連接 [*加密服務提供者*](../secgloss/c-gly.md) (CSP) 並中斷連線。
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>函式</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptacquirecontexta"><strong>CryptAcquireCoNtext</strong></a></td>
-<td><blockquote>
-[!Important]<br />
-此 API 即將淘汰。 新的和現有的軟體應該開始使用 <a href="/windows/desktop/SecCNG/cng-portal">新一代密碼編譯 api。</a> Microsoft 可能會在未來的版本中移除此 API。
-</blockquote>
-<br/> 取得特定 CSP 內目前使用者 <a href="/windows/desktop/SecGloss/k-gly"><em>金鑰容器</em></a> 的控制碼。</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptcontextaddref"><strong>CryptCoNtextAddRef</strong></a></td>
-<td><blockquote>
-[!Important]<br />
-此 API 即將淘汰。 新的和現有的軟體應該開始使用 <a href="/windows/desktop/SecCNG/cng-portal">新一代密碼編譯 api。</a> Microsoft 可能會在未來的版本中移除此 API。
-</blockquote>
-<br/> 遞增<a href="hcryptprov.md"><strong>HCRYPTPROV</strong></a>控制碼上的<a href="/windows/desktop/SecGloss/r-gly"><em>參考計數</em></a>。</td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptenumprovidersa"><strong>CryptEnumProviders</strong></a></td>
-<td><blockquote>
-[!Important]<br />
-此 API 即將淘汰。 新的和現有的軟體應該開始使用 <a href="/windows/desktop/SecCNG/cng-portal">新一代密碼編譯 api。</a> Microsoft 可能會在未來的版本中移除此 API。
-</blockquote>
-<br/> 列舉電腦上的提供者。</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptenumprovidertypesa"><strong>CryptEnumProviderTypes</strong></a></td>
-<td><blockquote>
-[!Important]<br />
-此 API 即將淘汰。 新的和現有的軟體應該開始使用 <a href="/windows/desktop/SecCNG/cng-portal">新一代密碼編譯 api。</a> Microsoft 可能會在未來的版本中移除此 API。
-</blockquote>
-<br/> 列舉電腦上支援的提供者類型。</td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptgetdefaultprovidera"><strong>CryptGetDefaultProvider</strong></a></td>
-<td><blockquote>
-[!Important]<br />
-此 API 即將淘汰。 新的和現有的軟體應該開始使用 <a href="/windows/desktop/SecCNG/cng-portal">新一代密碼編譯 api。</a> Microsoft 可能會在未來的版本中移除此 API。
-</blockquote>
-<br/> 針對目前使用者或電腦的指定提供者類型，決定預設的 CSP。</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptgetprovparam"><strong>CryptGetProvParam</strong></a></td>
-<td><blockquote>
-[!Important]<br />
-此 API 即將淘汰。 新的和現有的軟體應該開始使用 <a href="/windows/desktop/SecCNG/cng-portal">新一代密碼編譯 api。</a> Microsoft 可能會在未來的版本中移除此 API。
-</blockquote>
-<br/> 抓取管理 CSP 作業的參數。</td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptinstalldefaultcontext"><strong>CryptInstallDefaultCoNtext</strong></a></td>
-<td><blockquote>
-[!Important]<br />
-此 API 即將淘汰。 新的和現有的軟體應該開始使用 <a href="/windows/desktop/SecCNG/cng-portal">新一代密碼編譯 api。</a> Microsoft 可能會在未來的版本中移除此 API。
-</blockquote>
-<br/> 安裝先前取得的 <a href="hcryptprov.md"><strong>HCRYPTPROV</strong></a> 內容，作為預設內容使用。</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptreleasecontext"><strong>CryptReleaseCoNtext</strong></a></td>
-<td><blockquote>
-[!Important]<br />
-此 API 即將淘汰。 新的和現有的軟體應該開始使用 <a href="/windows/desktop/SecCNG/cng-portal">新一代密碼編譯 api。</a> Microsoft 可能會在未來的版本中移除此 API。
-</blockquote>
-<br/> 釋放 <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptacquirecontexta"><strong>CryptAcquireCoNtext</strong></a> 函數所取得的控制碼。</td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptsetprovidera"><strong>CryptSetProvider</strong></a>和<a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptsetproviderexa"> <strong>CryptSetProviderEx</strong></a></td>
-<td><blockquote>
-[!Important]<br />
-此 API 即將淘汰。 新的和現有的軟體應該開始使用 <a href="/windows/desktop/SecCNG/cng-portal">新一代密碼編譯 api。</a> Microsoft 可能會在未來的版本中移除此 API。
-</blockquote>
-<br/> 指定特定 CSP 類型的使用者預設 CSP。</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptsetprovparam"><strong>CryptSetProvParam</strong></a></td>
-<td><blockquote>
-[!Important]<br />
-此 API 即將淘汰。 新的和現有的軟體應該開始使用 <a href="/windows/desktop/SecCNG/cng-portal">新一代密碼編譯 api。</a> Microsoft 可能會在未來的版本中移除此 API。
-</blockquote>
-<br/> 指定 CSP 的屬性。</td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptuninstalldefaultcontext"><strong>CryptUninstallDefaultCoNtext</strong></a></td>
-<td><blockquote>
-[!Important]<br />
-此 API 即將淘汰。 新的和現有的軟體應該開始使用 <a href="/windows/desktop/SecCNG/cng-portal">新一代密碼編譯 api。</a> Microsoft 可能會在未來的版本中移除此 API。
-</blockquote>
-<br/> 移除 <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptinstalldefaultcontext"><strong>CryptInstallDefaultCoNtext</strong></a>先前安裝的預設內容。</td>
-</tr>
-<tr class="even">
-<td><a href="freecryptprovfromcertex.md"><strong>FreeCryptProvFromCertEx</strong></a></td>
-<td>將控制碼釋放給 <a href="/windows/desktop/SecGloss/c-gly"><em>密碼編譯服務提供者</em></a> (CSP) 或密碼編譯 API：新一代 (CNG) 金鑰。</td>
-</tr>
-</tbody>
-</table>
+
+| 函式 | 描述 | 
+|----------|-------------|
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptacquirecontexta"><strong>CryptAcquireCoNtext</strong></a> | <blockquote>[!Important]<br />此 API 即將淘汰。 新的和現有的軟體應該開始使用 <a href="/windows/desktop/SecCNG/cng-portal">新一代密碼編譯 api。</a> Microsoft 可能會在未來的版本中移除此 API。</blockquote><br /> 取得特定 CSP 內目前使用者 <a href="/windows/desktop/SecGloss/k-gly"><em>金鑰容器</em></a> 的控制碼。 | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptcontextaddref"><strong>CryptCoNtextAddRef</strong></a> | <blockquote>[!Important]<br />此 API 即將淘汰。 新的和現有的軟體應該開始使用 <a href="/windows/desktop/SecCNG/cng-portal">新一代密碼編譯 api。</a> Microsoft 可能會在未來的版本中移除此 API。</blockquote><br /> 遞增<a href="hcryptprov.md"><strong>HCRYPTPROV</strong></a>控制碼上的<a href="/windows/desktop/SecGloss/r-gly"><em>參考計數</em></a>。 | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptenumprovidersa"><strong>CryptEnumProviders</strong></a> | <blockquote>[!Important]<br />此 API 即將淘汰。 新的和現有的軟體應該開始使用 <a href="/windows/desktop/SecCNG/cng-portal">新一代密碼編譯 api。</a> Microsoft 可能會在未來的版本中移除此 API。</blockquote><br /> 列舉電腦上的提供者。 | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptenumprovidertypesa"><strong>CryptEnumProviderTypes</strong></a> | <blockquote>[!Important]<br />此 API 即將淘汰。 新的和現有的軟體應該開始使用 <a href="/windows/desktop/SecCNG/cng-portal">新一代密碼編譯 api。</a> Microsoft 可能會在未來的版本中移除此 API。</blockquote><br /> 列舉電腦上支援的提供者類型。 | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptgetdefaultprovidera"><strong>CryptGetDefaultProvider</strong></a> | <blockquote>[!Important]<br />此 API 即將淘汰。 新的和現有的軟體應該開始使用 <a href="/windows/desktop/SecCNG/cng-portal">新一代密碼編譯 api。</a> Microsoft 可能會在未來的版本中移除此 API。</blockquote><br /> 針對目前使用者或電腦的指定提供者類型，決定預設的 CSP。 | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptgetprovparam"><strong>CryptGetProvParam</strong></a> | <blockquote>[!Important]<br />此 API 即將淘汰。 新的和現有的軟體應該開始使用 <a href="/windows/desktop/SecCNG/cng-portal">新一代密碼編譯 api。</a> Microsoft 可能會在未來的版本中移除此 API。</blockquote><br /> 抓取管理 CSP 作業的參數。 | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptinstalldefaultcontext"><strong>CryptInstallDefaultCoNtext</strong></a> | <blockquote>[!Important]<br />此 API 即將淘汰。 新的和現有的軟體應該開始使用 <a href="/windows/desktop/SecCNG/cng-portal">新一代密碼編譯 api。</a> Microsoft 可能會在未來的版本中移除此 API。</blockquote><br /> 安裝先前取得的 <a href="hcryptprov.md"><strong>HCRYPTPROV</strong></a> 內容，作為預設內容使用。 | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptreleasecontext"><strong>CryptReleaseCoNtext</strong></a> | <blockquote>[!Important]<br />此 API 即將淘汰。 新的和現有的軟體應該開始使用 <a href="/windows/desktop/SecCNG/cng-portal">新一代密碼編譯 api。</a> Microsoft 可能會在未來的版本中移除此 API。</blockquote><br /> 釋放 <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptacquirecontexta"><strong>CryptAcquireCoNtext</strong></a> 函數所取得的控制碼。 | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptsetprovidera"><strong>CryptSetProvider</strong></a>和<a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptsetproviderexa"> <strong>CryptSetProviderEx</strong></a> | <blockquote>[!Important]<br />此 API 即將淘汰。 新的和現有的軟體應該開始使用 <a href="/windows/desktop/SecCNG/cng-portal">新一代密碼編譯 api。</a> Microsoft 可能會在未來的版本中移除此 API。</blockquote><br /> 指定特定 CSP 類型的使用者預設 CSP。 | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptsetprovparam"><strong>CryptSetProvParam</strong></a> | <blockquote>[!Important]<br />此 API 即將淘汰。 新的和現有的軟體應該開始使用 <a href="/windows/desktop/SecCNG/cng-portal">新一代密碼編譯 api。</a> Microsoft 可能會在未來的版本中移除此 API。</blockquote><br /> 指定 CSP 的屬性。 | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptuninstalldefaultcontext"><strong>CryptUninstallDefaultCoNtext</strong></a> | <blockquote>[!Important]<br />此 API 即將淘汰。 新的和現有的軟體應該開始使用 <a href="/windows/desktop/SecCNG/cng-portal">新一代密碼編譯 api。</a> Microsoft 可能會在未來的版本中移除此 API。</blockquote><br /> 移除 <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptinstalldefaultcontext"><strong>CryptInstallDefaultCoNtext</strong></a>先前安裝的預設內容。 | 
+| <a href="freecryptprovfromcertex.md"><strong>FreeCryptProvFromCertEx</strong></a> | 將控制碼釋放給 <a href="/windows/desktop/SecGloss/c-gly"><em>密碼編譯服務提供者</em></a> (CSP) 或密碼編譯 API：新一代 (CNG) 金鑰。 | 
+
 
 
 
@@ -260,100 +170,20 @@ CSP 是執行所有密碼編譯作業的獨立模組。 每個使用密碼編譯
 
 金鑰產生和 exchange 功能會與其他使用者 [*交換金鑰*](../secgloss/e-gly.md) ，以及建立、設定和終結 [*密碼編譯金鑰*](../secgloss/c-gly.md)。
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>函式</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptderivekey"><strong>CryptDeriveKey</strong></a></td>
-<td><blockquote>
-[!Important]<br />
-此 API 即將淘汰。 新的和現有的軟體應該開始使用 <a href="/windows/desktop/SecCNG/cng-portal">新一代密碼編譯 api。</a> Microsoft 可能會在未來的版本中移除此 API。
-</blockquote>
-<br/> 建立從密碼衍生的金鑰。</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptdestroykey"><strong>CryptDestroyKey</strong></a></td>
-<td><blockquote>
-[!Important]<br />
-此 API 即將淘汰。 新的和現有的軟體應該開始使用 <a href="/windows/desktop/SecCNG/cng-portal">新一代密碼編譯 api。</a> Microsoft 可能會在未來的版本中移除此 API。
-</blockquote>
-<br/> 終結金鑰。</td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptduplicatekey"><strong>CryptDuplicateKey</strong></a></td>
-<td><blockquote>
-[!Important]<br />
-此 API 即將淘汰。 新的和現有的軟體應該開始使用 <a href="/windows/desktop/SecCNG/cng-portal">新一代密碼編譯 api。</a> Microsoft 可能會在未來的版本中移除此 API。
-</blockquote>
-<br/> 建立金鑰的完整複本，包括金鑰的 <a href="/windows/desktop/SecGloss/s-gly"><em>狀態</em></a> 。</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptexportkey"><strong>CryptExportKey</strong></a></td>
-<td><blockquote>
-[!Important]<br />
-此 API 即將淘汰。 新的和現有的軟體應該開始使用 <a href="/windows/desktop/SecCNG/cng-portal">新一代密碼編譯 api。</a> Microsoft 可能會在未來的版本中移除此 API。
-</blockquote>
-<br/> 從 CSP 將金鑰傳輸到應用程式記憶體空間中的 <a href="/windows/desktop/SecGloss/k-gly"><em>金鑰 BLOB</em></a> 。</td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptgenkey"><strong>CryptGenKey</strong></a></td>
-<td><blockquote>
-[!Important]<br />
-此 API 即將淘汰。 新的和現有的軟體應該開始使用 <a href="/windows/desktop/SecCNG/cng-portal">新一代密碼編譯 api。</a> Microsoft 可能會在未來的版本中移除此 API。
-</blockquote>
-<br/> 建立隨機索引鍵。</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptgenrandom"><strong>CryptGenRandom</strong></a></td>
-<td><blockquote>
-[!Important]<br />
-此 API 即將淘汰。 新的和現有的軟體應該開始使用 <a href="/windows/desktop/SecCNG/cng-portal">新一代密碼編譯 api。</a> Microsoft 可能會在未來的版本中移除此 API。
-</blockquote>
-<br/> 產生亂數據。</td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptgetkeyparam"><strong>CryptGetKeyParam</strong></a></td>
-<td><blockquote>
-[!Important]<br />
-此 API 即將淘汰。 新的和現有的軟體應該開始使用 <a href="/windows/desktop/SecCNG/cng-portal">新一代密碼編譯 api。</a> Microsoft 可能會在未來的版本中移除此 API。
-</blockquote>
-<br/> 捕獲金鑰的參數。</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptgetuserkey"><strong>CryptGetUserKey</strong></a></td>
-<td><blockquote>
-[!Important]<br />
-此 API 即將淘汰。 新的和現有的軟體應該開始使用 <a href="/windows/desktop/SecCNG/cng-portal">新一代密碼編譯 api。</a> Microsoft 可能會在未來的版本中移除此 API。
-</blockquote>
-<br/> 取得金鑰交換或簽章金鑰的控制碼。</td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptimportkey"><strong>CryptImportKey</strong></a></td>
-<td><blockquote>
-[!Important]<br />
-此 API 即將淘汰。 新的和現有的軟體應該開始使用 <a href="/windows/desktop/SecCNG/cng-portal">新一代密碼編譯 api。</a> Microsoft 可能會在未來的版本中移除此 API。
-</blockquote>
-<br/> 從 <a href="/windows/desktop/SecGloss/k-gly"><em>金鑰 BLOB</em></a> 將金鑰傳輸至 CSP。</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptsetkeyparam"><strong>CryptSetKeyParam</strong></a></td>
-<td><blockquote>
-[!Important]<br />
-此 API 即將淘汰。 新的和現有的軟體應該開始使用 <a href="/windows/desktop/SecCNG/cng-portal">新一代密碼編譯 api。</a> Microsoft 可能會在未來的版本中移除此 API。
-</blockquote>
-<br/> 指定索引鍵的參數。</td>
-</tr>
-</tbody>
-</table>
+
+| 函式 | 描述 | 
+|----------|-------------|
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptderivekey"><strong>CryptDeriveKey</strong></a> | <blockquote>[!Important]<br />此 API 即將淘汰。 新的和現有的軟體應該開始使用 <a href="/windows/desktop/SecCNG/cng-portal">新一代密碼編譯 api。</a> Microsoft 可能會在未來的版本中移除此 API。</blockquote><br /> 建立從密碼衍生的金鑰。 | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptdestroykey"><strong>CryptDestroyKey</strong></a> | <blockquote>[!Important]<br />此 API 即將淘汰。 新的和現有的軟體應該開始使用 <a href="/windows/desktop/SecCNG/cng-portal">新一代密碼編譯 api。</a> Microsoft 可能會在未來的版本中移除此 API。</blockquote><br /> 終結金鑰。 | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptduplicatekey"><strong>CryptDuplicateKey</strong></a> | <blockquote>[!Important]<br />此 API 即將淘汰。 新的和現有的軟體應該開始使用 <a href="/windows/desktop/SecCNG/cng-portal">新一代密碼編譯 api。</a> Microsoft 可能會在未來的版本中移除此 API。</blockquote><br /> 建立金鑰的完整複本，包括金鑰的 <a href="/windows/desktop/SecGloss/s-gly"><em>狀態</em></a> 。 | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptexportkey"><strong>CryptExportKey</strong></a> | <blockquote>[!Important]<br />此 API 即將淘汰。 新的和現有的軟體應該開始使用 <a href="/windows/desktop/SecCNG/cng-portal">新一代密碼編譯 api。</a> Microsoft 可能會在未來的版本中移除此 API。</blockquote><br /> 從 CSP 將金鑰傳輸到應用程式記憶體空間中的 <a href="/windows/desktop/SecGloss/k-gly"><em>金鑰 BLOB</em></a> 。 | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptgenkey"><strong>CryptGenKey</strong></a> | <blockquote>[!Important]<br />此 API 即將淘汰。 新的和現有的軟體應該開始使用 <a href="/windows/desktop/SecCNG/cng-portal">新一代密碼編譯 api。</a> Microsoft 可能會在未來的版本中移除此 API。</blockquote><br /> 建立隨機索引鍵。 | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptgenrandom"><strong>CryptGenRandom</strong></a> | <blockquote>[!Important]<br />此 API 即將淘汰。 新的和現有的軟體應該開始使用 <a href="/windows/desktop/SecCNG/cng-portal">新一代密碼編譯 api。</a> Microsoft 可能會在未來的版本中移除此 API。</blockquote><br /> 產生亂數據。 | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptgetkeyparam"><strong>CryptGetKeyParam</strong></a> | <blockquote>[!Important]<br />此 API 即將淘汰。 新的和現有的軟體應該開始使用 <a href="/windows/desktop/SecCNG/cng-portal">新一代密碼編譯 api。</a> Microsoft 可能會在未來的版本中移除此 API。</blockquote><br /> 捕獲金鑰的參數。 | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptgetuserkey"><strong>CryptGetUserKey</strong></a> | <blockquote>[!Important]<br />此 API 即將淘汰。 新的和現有的軟體應該開始使用 <a href="/windows/desktop/SecCNG/cng-portal">新一代密碼編譯 api。</a> Microsoft 可能會在未來的版本中移除此 API。</blockquote><br /> 取得金鑰交換或簽章金鑰的控制碼。 | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptimportkey"><strong>CryptImportKey</strong></a> | <blockquote>[!Important]<br />此 API 即將淘汰。 新的和現有的軟體應該開始使用 <a href="/windows/desktop/SecCNG/cng-portal">新一代密碼編譯 api。</a> Microsoft 可能會在未來的版本中移除此 API。</blockquote><br /> 從 <a href="/windows/desktop/SecGloss/k-gly"><em>金鑰 BLOB</em></a> 將金鑰傳輸至 CSP。 | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptsetkeyparam"><strong>CryptSetKeyParam</strong></a> | <blockquote>[!Important]<br />此 API 即將淘汰。 新的和現有的軟體應該開始使用 <a href="/windows/desktop/SecCNG/cng-portal">新一代密碼編譯 api。</a> Microsoft 可能會在未來的版本中移除此 API。</blockquote><br /> 指定索引鍵的參數。 | 
+
 
 
 
@@ -378,52 +208,16 @@ CSP 是執行所有密碼編譯作業的獨立模組。 每個使用密碼編譯
 
 下列函數支援加密和解密作業。 [**CryptEncrypt**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptencrypt) 和 [**CryptDecrypt**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptdecrypt) 在呼叫之前需要 [*密碼編譯金鑰*](../secgloss/c-gly.md) 。 這是使用 [**CryptGenKey**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptgenkey)、 [**CryptDeriveKey**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptderivekey)或 [**CryptImportKey**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptimportkey) 函數來完成。 建立金鑰時，會指定加密演算法。 [**CryptSetKeyParam**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptsetkeyparam) 可以設定額外的加密參數。
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>函式</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptdecrypt"><strong>CryptDecrypt</strong></a></td>
-<td><blockquote>
-[!Important]<br />
-此 API 即將淘汰。 新的和現有的軟體應該開始使用 <a href="/windows/desktop/SecCNG/cng-portal">新一代密碼編譯 api。</a> Microsoft 可能會在未來的版本中移除此 API。
-</blockquote>
-<br/> 使用指定的加密金鑰來解密 <a href="/windows/desktop/SecGloss/c-gly"><em>加密</em></a> 文字區段。</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptencrypt"><strong>CryptEncrypt</strong></a></td>
-<td><blockquote>
-[!Important]<br />
-此 API 即將淘汰。 新的和現有的軟體應該開始使用 <a href="/windows/desktop/SecCNG/cng-portal">新一代密碼編譯 api。</a> Microsoft 可能會在未來的版本中移除此 API。
-</blockquote>
-<br/> 使用指定的加密金鑰來加密 <a href="/windows/desktop/SecGloss/p-gly"><em>純文字</em></a> 區段。</td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Dpapi/nf-dpapi-cryptprotectdata"><strong>CryptProtectData</strong></a></td>
-<td>針對 <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)"><strong>DATA_BLOB</strong></a> 結構中的資料執行加密。</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Dpapi/nf-dpapi-cryptprotectmemory"><strong>CryptProtectMemory</strong></a></td>
-<td>加密記憶體以保護機密資訊。</td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Dpapi/nf-dpapi-cryptunprotectdata"><strong>CryptUnprotectData</strong></a></td>
-<td>在 <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)"><strong>DATA_BLOB</strong></a>中執行資料的解密和完整性檢查。</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Dpapi/nf-dpapi-cryptunprotectmemory"><strong>CryptUnprotectMemory</strong></a></td>
-<td>解密使用 <a href="/windows/desktop/api/Dpapi/nf-dpapi-cryptprotectmemory"><strong>CryptProtectMemory</strong></a>加密的記憶體。</td>
-</tr>
-</tbody>
-</table>
+
+| 函式 | 描述 | 
+|----------|-------------|
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptdecrypt"><strong>CryptDecrypt</strong></a> | <blockquote>[!Important]<br />此 API 即將淘汰。 新的和現有的軟體應該開始使用 <a href="/windows/desktop/SecCNG/cng-portal">新一代密碼編譯 api。</a> Microsoft 可能會在未來的版本中移除此 API。</blockquote><br /> 使用指定的加密金鑰來解密 <a href="/windows/desktop/SecGloss/c-gly"><em>加密</em></a> 文字區段。 | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptencrypt"><strong>CryptEncrypt</strong></a> | <blockquote>[!Important]<br />此 API 即將淘汰。 新的和現有的軟體應該開始使用 <a href="/windows/desktop/SecCNG/cng-portal">新一代密碼編譯 api。</a> Microsoft 可能會在未來的版本中移除此 API。</blockquote><br /> 使用指定的加密金鑰來加密 <a href="/windows/desktop/SecGloss/p-gly"><em>純文字</em></a> 區段。 | 
+| <a href="/windows/desktop/api/Dpapi/nf-dpapi-cryptprotectdata"><strong>CryptProtectData</strong></a> | 針對 <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)"><strong>DATA_BLOB</strong></a> 結構中的資料執行加密。 | 
+| <a href="/windows/desktop/api/Dpapi/nf-dpapi-cryptprotectmemory"><strong>CryptProtectMemory</strong></a> | 加密記憶體以保護機密資訊。 | 
+| <a href="/windows/desktop/api/Dpapi/nf-dpapi-cryptunprotectdata"><strong>CryptUnprotectData</strong></a> | 在 <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)"><strong>DATA_BLOB</strong></a>中執行資料的解密和完整性檢查。 | 
+| <a href="/windows/desktop/api/Dpapi/nf-dpapi-cryptunprotectmemory"><strong>CryptUnprotectMemory</strong></a> | 解密使用 <a href="/windows/desktop/api/Dpapi/nf-dpapi-cryptprotectmemory"><strong>CryptProtectMemory</strong></a>加密的記憶體。 | 
+
 
 
 
@@ -433,96 +227,22 @@ CSP 是執行所有密碼編譯作業的獨立模組。 每個使用密碼編譯
 
 這些函數會計算資料的 [*雜湊*](../secgloss/h-gly.md) ，也會建立並驗證 [*數位簽章*](../secgloss/d-gly.md)。 雜湊也稱為訊息摘要。
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>函式</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptcreatehash"><strong>CryptCreateHash</strong></a></td>
-<td><blockquote>
-[!Important]<br />
-此 API 即將淘汰。 新的和現有的軟體應該開始使用 <a href="/windows/desktop/SecCNG/cng-portal">新一代密碼編譯 api。</a> Microsoft 可能會在未來的版本中移除此 API。
-</blockquote>
-<br/> 建立空的雜湊物件。</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptdestroyhash"><strong>CryptDestroyHash</strong></a></td>
-<td><blockquote>
-[!Important]<br />
-此 API 即將淘汰。 新的和現有的軟體應該開始使用 <a href="/windows/desktop/SecCNG/cng-portal">新一代密碼編譯 api。</a> Microsoft 可能會在未來的版本中移除此 API。
-</blockquote>
-<br/> 終結雜湊物件。</td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptduplicatehash"><strong>CryptDuplicateHash</strong></a></td>
-<td>複製雜湊物件。</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptgethashparam"><strong>CryptGetHashParam</strong></a></td>
-<td>抓取雜湊物件參數。</td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-crypthashdata"><strong>CryptHashData</strong></a></td>
-<td><blockquote>
-[!Important]<br />
-此 API 即將淘汰。 新的和現有的軟體應該開始使用 <a href="/windows/desktop/SecCNG/cng-portal">新一代密碼編譯 api。</a> Microsoft 可能會在未來的版本中移除此 API。
-</blockquote>
-<br/> 雜湊資料區塊，並將其加入至指定的雜湊物件。</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-crypthashsessionkey"><strong>CryptHashSessionKey</strong></a></td>
-<td><blockquote>
-[!Important]<br />
-此 API 即將淘汰。 新的和現有的軟體應該開始使用 <a href="/windows/desktop/SecCNG/cng-portal">新一代密碼編譯 api。</a> Microsoft 可能會在未來的版本中移除此 API。
-</blockquote>
-<br/> 雜湊工作階段金鑰，並將它加入至指定的雜湊物件。</td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptsethashparam"><strong>CryptSetHashParam</strong></a></td>
-<td><blockquote>
-[!Important]<br />
-此 API 即將淘汰。 新的和現有的軟體應該開始使用 <a href="/windows/desktop/SecCNG/cng-portal">新一代密碼編譯 api。</a> Microsoft 可能會在未來的版本中移除此 API。
-</blockquote>
-<br/> 設定雜湊物件參數。</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptsignhasha"><strong>CryptSignHash</strong></a></td>
-<td><blockquote>
-[!Important]<br />
-此 API 即將淘汰。 新的和現有的軟體應該開始使用 <a href="/windows/desktop/SecCNG/cng-portal">新一代密碼編譯 api。</a> Microsoft 可能會在未來的版本中移除此 API。
-</blockquote>
-<br/> 簽署指定的雜湊物件。</td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Cryptuiapi/nf-cryptuiapi-cryptuiwizdigitalsign"><strong>CryptUIWizDigitalSign</strong></a></td>
-<td>顯示以數位方式簽署檔或 <a href="/windows/desktop/SecGloss/b-gly"><em>BLOB</em></a>的 wizard。</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Cryptuiapi/nf-cryptuiapi-cryptuiwizfreedigitalsigncontext"><strong>CryptUIWizFreeDigitalSignCoNtext</strong></a></td>
-<td>釋放 <a href="/windows/desktop/api/Cryptuiapi/ns-cryptuiapi-cryptui_wiz_digital_sign_context"><strong>CRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT</strong></a> 結構的指標。</td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptverifysignaturea"><strong>CryptVerifySignature</strong></a></td>
-<td><blockquote>
-[!Important]<br />
-此 API 即將淘汰。 新的和現有的軟體應該開始使用 <a href="/windows/desktop/SecCNG/cng-portal">新一代密碼編譯 api。</a> Microsoft 可能會在未來的版本中移除此 API。
-</blockquote>
-<br/> 在指定雜湊物件的控制碼的情況下，驗證數位簽章。</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Cryptuiapi/nc-cryptuiapi-pfncfilterproc"><strong>PFNCFILTERPROC</strong></a></td>
-<td>篩選出現在 <a href="/windows/desktop/api/Cryptuiapi/nf-cryptuiapi-cryptuiwizdigitalsign"><strong>CryptUIWizDigitalSign</strong></a> 函式所顯示的數位簽章 wizard 中的憑證。</td>
-</tr>
-</tbody>
-</table>
+
+| 函式 | 描述 | 
+|----------|-------------|
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptcreatehash"><strong>CryptCreateHash</strong></a> | <blockquote>[!Important]<br />此 API 即將淘汰。 新的和現有的軟體應該開始使用 <a href="/windows/desktop/SecCNG/cng-portal">新一代密碼編譯 api。</a> Microsoft 可能會在未來的版本中移除此 API。</blockquote><br /> 建立空的雜湊物件。 | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptdestroyhash"><strong>CryptDestroyHash</strong></a> | <blockquote>[!Important]<br />此 API 即將淘汰。 新的和現有的軟體應該開始使用 <a href="/windows/desktop/SecCNG/cng-portal">新一代密碼編譯 api。</a> Microsoft 可能會在未來的版本中移除此 API。</blockquote><br /> 終結雜湊物件。 | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptduplicatehash"><strong>CryptDuplicateHash</strong></a> | 複製雜湊物件。 | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptgethashparam"><strong>CryptGetHashParam</strong></a> | 抓取雜湊物件參數。 | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-crypthashdata"><strong>CryptHashData</strong></a> | <blockquote>[!Important]<br />此 API 即將淘汰。 新的和現有的軟體應該開始使用 <a href="/windows/desktop/SecCNG/cng-portal">新一代密碼編譯 api。</a> Microsoft 可能會在未來的版本中移除此 API。</blockquote><br /> 雜湊資料區塊，並將其加入至指定的雜湊物件。 | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-crypthashsessionkey"><strong>CryptHashSessionKey</strong></a> | <blockquote>[!Important]<br />此 API 即將淘汰。 新的和現有的軟體應該開始使用 <a href="/windows/desktop/SecCNG/cng-portal">新一代密碼編譯 api。</a> Microsoft 可能會在未來的版本中移除此 API。</blockquote><br /> 雜湊工作階段金鑰，並將它加入至指定的雜湊物件。 | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptsethashparam"><strong>CryptSetHashParam</strong></a> | <blockquote>[!Important]<br />此 API 即將淘汰。 新的和現有的軟體應該開始使用 <a href="/windows/desktop/SecCNG/cng-portal">新一代密碼編譯 api。</a> Microsoft 可能會在未來的版本中移除此 API。</blockquote><br /> 設定雜湊物件參數。 | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptsignhasha"><strong>CryptSignHash</strong></a> | <blockquote>[!Important]<br />此 API 即將淘汰。 新的和現有的軟體應該開始使用 <a href="/windows/desktop/SecCNG/cng-portal">新一代密碼編譯 api。</a> Microsoft 可能會在未來的版本中移除此 API。</blockquote><br /> 簽署指定的雜湊物件。 | 
+| <a href="/windows/desktop/api/Cryptuiapi/nf-cryptuiapi-cryptuiwizdigitalsign"><strong>CryptUIWizDigitalSign</strong></a> | 顯示以數位方式簽署檔或 <a href="/windows/desktop/SecGloss/b-gly"><em>BLOB</em></a>的 wizard。 | 
+| <a href="/windows/desktop/api/Cryptuiapi/nf-cryptuiapi-cryptuiwizfreedigitalsigncontext"><strong>CryptUIWizFreeDigitalSignCoNtext</strong></a> | 釋放 <a href="/windows/desktop/api/Cryptuiapi/ns-cryptuiapi-cryptui_wiz_digital_sign_context"><strong>CRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT</strong></a> 結構的指標。 | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptverifysignaturea"><strong>CryptVerifySignature</strong></a> | <blockquote>[!Important]<br />此 API 即將淘汰。 新的和現有的軟體應該開始使用 <a href="/windows/desktop/SecCNG/cng-portal">新一代密碼編譯 api。</a> Microsoft 可能會在未來的版本中移除此 API。</blockquote><br /> 在指定雜湊物件的控制碼的情況下，驗證數位簽章。 | 
+| <a href="/windows/desktop/api/Cryptuiapi/nc-cryptuiapi-pfncfilterproc"><strong>PFNCFILTERPROC</strong></a> | 篩選出現在 <a href="/windows/desktop/api/Cryptuiapi/nf-cryptuiapi-cryptuiwizdigitalsign"><strong>CryptUIWizDigitalSign</strong></a> 函式所顯示的數位簽章 wizard 中的憑證。 | 
+
 
 
 
@@ -745,7 +465,7 @@ CryptoAPI 提供一組一般憑證和憑證存放區維護功能。
 
 建立憑證鏈，以提供有關個別憑證的信任資訊。
 
-| 函數名稱                                                                                                    | 描述                                                                                                                                                                                                         |
+| 函數名稱                                                                                                    | Description                                                                                                                                                                                                         |
 |------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**CertCreateCertificateChainEngine**](/windows/desktop/api/Wincrypt/nf-wincrypt-certcreatecertificatechainengine)                                     | 為應用程式建立新的非預設的鏈引擎。                                                                                                                                                          |
 | [**CertCreateCTLEntryFromCertificateCoNtextProperties**](/windows/desktop/api/Wincrypt/nf-wincrypt-certcreatectlentryfromcertificatecontextproperties) | 建立 CTL 專案，其屬性為憑證內容的屬性。                                                                                                                                      |
@@ -839,260 +559,63 @@ CryptoAPI 提供一組一般憑證和憑證存放區維護功能。
 
 下列 CryptoAPI 函數會管理資料和憑證。
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>函式</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-certcomparecertificate"><strong>CertCompareCertificate</strong></a></td>
-<td>比較兩個憑證，以判斷它們是否相同。</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-certcomparecertificatename"><strong>CertCompareCertificateName</strong></a></td>
-<td>比較兩個憑證名稱，以判斷它們是否相同。</td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-certcompareintegerblob"><strong>CertCompareIntegerBlob</strong></a></td>
-<td>比較兩個整數 <a href="/windows/desktop/SecGloss/b-gly"><em>blob</em></a>。</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-certcomparepublickeyinfo"><strong>CertComparePublicKeyInfo</strong></a></td>
-<td>比較兩個 <a href="/windows/desktop/SecGloss/p-gly"><em>公開金鑰</em></a> ，判斷它們是否相同。</td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-certfindattribute"><strong>CertFindAttribute</strong></a></td>
-<td>尋找 (OID) 的 <a href="/windows/desktop/SecGloss/o-gly"><em>物件識別碼</em></a> 所識別的第一個屬性。</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-certfindextension"><strong>CertFindExtension</strong></a></td>
-<td>尋找其 OID 所識別的第一個延伸模組。</td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-certfindrdnattr"><strong>CertFindRDNAttr</strong></a></td>
-<td>在<em>相對分辨名稱</em>的名稱清單中尋找其 OID 所識別的第一個<a href="/windows/desktop/SecGloss/r-gly"><em>RDN</em></a>屬性。</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-certgetintendedkeyusage"><strong>CertGetIntendedKeyUsage</strong></a></td>
-<td>從憑證取得預定的金鑰使用方式位元組。</td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-certgetpublickeylength"><strong>CertGetPublicKeyLength</strong></a></td>
-<td>從 <a href="/windows/desktop/SecGloss/p-gly"><em>公開金鑰 BLOB</em></a>取得公開/私用金鑰的位長度。</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-certisrdnattrsincertificatename"><strong>CertIsRDNAttrsInCertificateName</strong></a></td>
-<td>將 <a href="/windows/desktop/SecGloss/c-gly"><em>憑證名稱</em></a> 中的屬性與指定的 <a href="/windows/desktop/api/Wincrypt/ns-wincrypt-cert_rdn"><strong>CERT_RDN</strong></a> 進行比較，以判斷是否在其中包含所有屬性。</td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-certisstronghashtosign"><strong>CertIsStrongHashToSign</strong></a></td>
-<td>判斷指定的雜湊演算法和簽署憑證中的公開金鑰是否可以用來執行強式簽署。</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-certverifycrlrevocation"><strong>CertVerifyCRLRevocation</strong></a></td>
-<td>確認主體憑證不在 (CRL) 的 <a href="/windows/desktop/SecGloss/c-gly"><em>憑證撤銷清單</em></a> 中。</td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-certverifycrltimevalidity"><strong>CertVerifyCRLTimeValidity</strong></a></td>
-<td>確認 CRL 的時間有效性。</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-certverifyrevocation"><strong>CertVerifyRevocation</strong></a></td>
-<td>確認主體憑證不在 CRL 上。</td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-certverifytimevalidity"><strong>CertVerifyTimeValidity</strong></a></td>
-<td>確認憑證的時間有效性。</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-certverifyvaliditynesting"><strong>CertVerifyValidityNesting</strong></a></td>
-<td>確認主體的時間有效性會嵌套在簽發者的時間有效性內。</td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptexportpkcs8"><strong>CryptExportPKCS8</strong></a></td>
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptexportpkcs8ex"><strong>CryptExportPKCS8Ex</strong></a>函式會取代此函數。</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptexportpkcs8ex"><strong>CryptExportPKCS8Ex</strong></a></td>
-<td>以 PKCS #8 格式匯出私密金鑰。</td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptexportpublickeyinfo"><strong>CryptExportPublicKeyInfo</strong></a></td>
-<td>匯出與提供者對應之私密金鑰相關聯的公開金鑰資訊。</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptexportpublickeyinfoex"><strong>CryptExportPublicKeyInfoEx</strong></a></td>
-<td>匯出與提供者對應之私密金鑰相關聯的公開金鑰資訊。 此函式與 <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptexportpublickeyinfo"><strong>CryptExportPublicKeyInfo</strong></a> 不同之處在于，使用者可以指定公開金鑰演算法，進而覆寫 CSP 所提供的預設值。</td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptexportpublickeyinfofrombcryptkeyhandle"><strong>CryptExportPublicKeyInfoFromBCryptKeyHandle</strong></a></td>
-<td>匯出與提供者對應之私密金鑰相關聯的公開金鑰資訊。</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptfindcertificatekeyprovinfo"><strong>CryptFindCertificateKeyProvInfo</strong></a></td>
-<td>列舉密碼編譯提供者及其 <a href="/windows/desktop/SecGloss/k-gly"><em>金鑰容器</em></a> ，以尋找與憑證公開金鑰對應的私密金鑰。</td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptfindlocalizedname"><strong>CryptFindLocalizedName</strong></a></td>
-<td>尋找指定名稱的當地語系化名稱，例如，尋找根系統存放區名稱的當地語系化名稱。</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-crypthashcertificate"><strong>CryptHashCertificate</strong></a></td>
-<td><blockquote>
-[!Important]<br />
-此 API 即將淘汰。 新的和現有的軟體應該開始使用 <a href="/windows/desktop/SecCNG/cng-portal">新一代密碼編譯 api。</a> Microsoft 可能會在未來的版本中移除此 API。
-</blockquote>
-<br/> 雜湊編碼的內容。</td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-crypthashcertificate2"><strong>CryptHashCertificate2</strong></a></td>
-<td>使用密碼編譯 API：新一代 (CNG) 雜湊提供者來雜湊資料區塊。</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-crypthashpublickeyinfo"><strong>CryptHashPublicKeyInfo</strong></a></td>
-<td><blockquote>
-[!Important]<br />
-此 API 即將淘汰。 新的和現有的軟體應該開始使用 <a href="/windows/desktop/SecCNG/cng-portal">新一代密碼編譯 api。</a> Microsoft 可能會在未來的版本中移除此 API。
-</blockquote>
-<br/> 計算已編碼公開金鑰資訊的雜湊。</td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-crypthashtobesigned"><strong>CryptHashToBeSigned</strong></a></td>
-<td><blockquote>
-[!Important]<br />
-此 API 即將淘汰。 新的和現有的軟體應該開始使用 <a href="/windows/desktop/SecCNG/cng-portal">新一代密碼編譯 api。</a> Microsoft 可能會在未來的版本中移除此 API。
-</blockquote>
-<br/> 將的雜湊計算 &quot; 為編碼的 &quot; 已簽署內容 (<a href="/windows/desktop/api/Wincrypt/ns-wincrypt-cert_signed_content_info"><strong>CERT_SIGNED_CONTENT_INFO</strong></a>) 中簽署的資訊。</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptimportpkcs8"><strong>CryptImportPKCS8</strong></a></td>
-<td><blockquote>
-[!Important]<br />
-此 API 即將淘汰。 新的和現有的軟體應該開始使用 <a href="/windows/desktop/SecCNG/cng-portal">新一代密碼編譯 api。</a> Microsoft 可能會在未來的版本中移除此 API。
-</blockquote>
-<br/> 將 PKCS #8 格式的 <a href="/windows/desktop/SecGloss/p-gly"><em>私密金鑰</em></a> 匯入至 <a href="/windows/desktop/SecGloss/c-gly"><em>密碼編譯服務提供者</em></a> (CSP) 。</td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptimportpublickeyinfo"><strong>CryptImportPublicKeyInfo</strong></a></td>
-<td><blockquote>
-[!Important]<br />
-此 API 即將淘汰。 新的和現有的軟體應該開始使用 <a href="/windows/desktop/SecCNG/cng-portal">新一代密碼編譯 api。</a> Microsoft 可能會在未來的版本中移除此 API。
-</blockquote>
-<br/> 將公開金鑰資訊轉換並匯入提供者，並傳回公開金鑰的控制碼。</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptimportpublickeyinfoex"><strong>CryptImportPublicKeyInfoEx</strong></a></td>
-<td><blockquote>
-[!Important]<br />
-此 API 即將淘汰。 新的和現有的軟體應該開始使用 <a href="/windows/desktop/SecCNG/cng-portal">新一代密碼編譯 api。</a> Microsoft 可能會在未來的版本中移除此 API。
-</blockquote>
-<br/> 將公開金鑰資訊轉換並匯入提供者，並傳回公開金鑰的控制碼。 您可以使用 <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptimportpublickeyinfo"><strong>CryptImportPublicKeyInfo</strong></a>) 所指定的其他參數 (，這些參數可用來覆寫預設值，以提供補充 <a href="/windows/desktop/api/Wincrypt/ns-wincrypt-cert_public_key_info"><strong>CERT_PUBLIC_KEY_INFO</strong></a>。</td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptimportpublickeyinfoex2"><strong>CryptImportPublicKeyInfoEx2</strong></a></td>
-<td>將公開金鑰匯入至 CNG 非對稱提供者。</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptmemalloc"><strong>CryptMemAlloc</strong></a></td>
-<td>配置緩衝區的記憶體。 所有傳回已配置緩衝區的 Crypt32.dll .lib 函數都會使用此記憶體。</td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptmemfree"><strong>CryptMemFree</strong></a></td>
-<td>釋放 <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptmemalloc"><strong>CryptMemAlloc</strong></a> 或 <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptmemrealloc"><strong>CryptMemRealloc</strong></a>所配置的記憶體。</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptmemrealloc"><strong>CryptMemRealloc</strong></a></td>
-<td>釋出目前為緩衝區配置的記憶體，並為新的緩衝區配置記憶體。</td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptqueryobject"><strong>CryptQueryObject</strong></a></td>
-<td><blockquote>
-[!Important]<br />
-此 API 即將淘汰。 新的和現有的軟體應該開始使用 <a href="/windows/desktop/SecCNG/cng-portal">新一代密碼編譯 api。</a> Microsoft 可能會在未來的版本中移除此 API。
-</blockquote>
-<br/> 捕獲 BLOB 或檔案內容的相關資訊。</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptsignandencodecertificate"><strong>CryptSignAndEncodeCertificate</strong></a></td>
-<td>將編碼 &quot; 為簽署的資訊 &quot; 、簽署此編碼的資訊，然後將產生的帶正負號編碼資訊編碼。</td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptsigncertificate"><strong>CryptSignCertificate</strong></a></td>
-<td>將簽署的 &quot; 資訊簽 &quot; 入已編碼、簽署的內容中。</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Mssip/nf-mssip-cryptsipaddprovider"><strong>CryptSIPAddProvider</strong></a></td>
-<td>將主體介面套件新增 (SIP) 。</td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Mssip/nf-mssip-cryptsipcreateindirectdata"><strong>CryptSIPCreateIndirectData</strong></a></td>
-<td>傳回<a href="/windows/win32/api/mssip/ns-mssip-sip_indirect_data"><strong>SIP_INDIRECT_DATA</strong></a>結構，其中包含提供的<a href="/windows/win32/api/mssip/ns-mssip-sip_subjectinfo"><strong>SIP_SUBJECTINFO</strong></a>結構、摘要演算法和編碼屬性的<a href="/windows/desktop/SecGloss/h-gly"><em>雜湊</em></a>。 雜湊可以當做資料的間接參考使用。</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Mssip/nf-mssip-cryptsipgetcaps"><strong>CryptSIPGetCaps</strong></a></td>
-<td>捕獲 SIP 的功能。</td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Mssip/nf-mssip-cryptsipgetsigneddatamsg"><strong>CryptSIPGetSignedDataMsg</strong></a></td>
-<td>從檔案抓取 Authenticode 簽章。</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Mssip/nf-mssip-cryptsipload"><strong>CryptSIPLoad</strong></a></td>
-<td>載入動態連結程式庫，此程式庫會執行主體介面套件，並將適當的程式庫匯出函數指派給 <a href="/windows/win32/api/mssip/ns-mssip-sip_dispatch_info"><strong>SIP_DISPATCH_INFO</strong></a> 結構。</td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Mssip/nf-mssip-cryptsipputsigneddatamsg"><strong>CryptSIPPutSignedDataMsg</strong></a></td>
-<td>將 Authenticode 簽章儲存在目標檔案中。</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Mssip/nf-mssip-cryptsipremoveprovider"><strong>CryptSIPRemoveProvider</strong></a></td>
-<td>移除先前對 <a href="/windows/desktop/api/Mssip/nf-mssip-cryptsipaddprovider"><strong>CryptSIPAddProvider</strong></a> 函式的呼叫所加入的 SIP。</td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Mssip/nf-mssip-cryptsipremovesigneddatamsg"><strong>CryptSIPRemoveSignedDataMsg</strong></a></td>
-<td>移除指定的 Authenticode 簽章。</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Mssip/nf-mssip-cryptsipretrievesubjectguid"><strong>CryptSIPRetrieveSubjectGuid</strong></a></td>
-<td>根據指定檔案中的標頭資訊來抓取 GUID。</td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Mssip/nf-mssip-cryptsipretrievesubjectguidforcatalogfile"><strong>CryptSIPRetrieveSubjectGuidForCatalogFile</strong></a></td>
-<td>抓取與指定檔案相關聯的主體 GUID。</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Mssip/nf-mssip-cryptsipverifyindirectdata"><strong>CryptSIPVerifyIndirectData</strong></a></td>
-<td>針對提供的主體驗證間接雜湊資料。</td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Dpapi/nf-dpapi-cryptupdateprotectedstate"><strong>CryptUpdateProtectedState</strong></a></td>
-<td>在使用者的 <a href="/windows/desktop/SecGloss/s-gly"><em>安全識別碼</em></a> (SID) 變更之後，遷移目前使用者的主要金鑰。</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptverifycertificatesignature"><strong>CryptVerifyCertificateSignature</strong></a></td>
-<td>使用公開金鑰資訊來驗證主體憑證或 <a href="/windows/desktop/SecGloss/c-gly"><em>CRL</em></a> 的簽章。</td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptverifycertificatesignatureex"><strong>CryptVerifyCertificateSignatureEx</strong></a></td>
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptverifycertificatesignature"><strong>CryptVerifyCertificateSignature</strong></a>的擴充版本。</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-getencschannel"><strong>GetEncSChannel</strong></a></td>
-<td>將加密的 Schannel DLL 內容儲存在記憶體中。</td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Mssip/nc-mssip-pcryptsipgetcaps"><strong>pCryptSIPGetCaps</strong></a></td>
-<td>由 SIP 執行以報告功能。</td>
-</tr>
-</tbody>
-</table>
+
+| 函式 | 描述 | 
+|----------|-------------|
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-certcomparecertificate"><strong>CertCompareCertificate</strong></a> | 比較兩個憑證，以判斷它們是否相同。 | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-certcomparecertificatename"><strong>CertCompareCertificateName</strong></a> | 比較兩個憑證名稱，以判斷它們是否相同。 | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-certcompareintegerblob"><strong>CertCompareIntegerBlob</strong></a> | 比較兩個整數 <a href="/windows/desktop/SecGloss/b-gly"><em>blob</em></a>。 | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-certcomparepublickeyinfo"><strong>CertComparePublicKeyInfo</strong></a> | 比較兩個 <a href="/windows/desktop/SecGloss/p-gly"><em>公開金鑰</em></a> ，判斷它們是否相同。 | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-certfindattribute"><strong>CertFindAttribute</strong></a> | 尋找 (OID) 的 <a href="/windows/desktop/SecGloss/o-gly"><em>物件識別碼</em></a> 所識別的第一個屬性。 | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-certfindextension"><strong>CertFindExtension</strong></a> | 尋找其 OID 所識別的第一個延伸模組。 | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-certfindrdnattr"><strong>CertFindRDNAttr</strong></a> | 在<em>相對分辨名稱</em>的名稱清單中尋找其 OID 所識別的第一個<a href="/windows/desktop/SecGloss/r-gly"><em>RDN</em></a>屬性。 | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-certgetintendedkeyusage"><strong>CertGetIntendedKeyUsage</strong></a> | 從憑證取得預定的金鑰使用方式位元組。 | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-certgetpublickeylength"><strong>CertGetPublicKeyLength</strong></a> | 從 <a href="/windows/desktop/SecGloss/p-gly"><em>公開金鑰 BLOB</em></a>取得公開/私用金鑰的位長度。 | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-certisrdnattrsincertificatename"><strong>CertIsRDNAttrsInCertificateName</strong></a> | 將 <a href="/windows/desktop/SecGloss/c-gly"><em>憑證名稱</em></a> 中的屬性與指定的 <a href="/windows/desktop/api/Wincrypt/ns-wincrypt-cert_rdn"><strong>CERT_RDN</strong></a> 進行比較，以判斷是否在其中包含所有屬性。 | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-certisstronghashtosign"><strong>CertIsStrongHashToSign</strong></a> | 判斷指定的雜湊演算法和簽署憑證中的公開金鑰是否可以用來執行強式簽署。 | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-certverifycrlrevocation"><strong>CertVerifyCRLRevocation</strong></a> | 確認主體憑證不在 (CRL) 的 <a href="/windows/desktop/SecGloss/c-gly"><em>憑證撤銷清單</em></a> 中。 | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-certverifycrltimevalidity"><strong>CertVerifyCRLTimeValidity</strong></a> | 確認 CRL 的時間有效性。 | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-certverifyrevocation"><strong>CertVerifyRevocation</strong></a> | 確認主體憑證不在 CRL 上。 | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-certverifytimevalidity"><strong>CertVerifyTimeValidity</strong></a> | 確認憑證的時間有效性。 | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-certverifyvaliditynesting"><strong>CertVerifyValidityNesting</strong></a> | 確認主體的時間有效性會嵌套在簽發者的時間有效性內。 | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptexportpkcs8"><strong>CryptExportPKCS8</strong></a> | <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptexportpkcs8ex"><strong>CryptExportPKCS8Ex</strong></a>函式會取代此函數。 | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptexportpkcs8ex"><strong>CryptExportPKCS8Ex</strong></a> | 以 PKCS #8 格式匯出私密金鑰。 | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptexportpublickeyinfo"><strong>CryptExportPublicKeyInfo</strong></a> | 匯出與提供者對應之私密金鑰相關聯的公開金鑰資訊。 | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptexportpublickeyinfoex"><strong>CryptExportPublicKeyInfoEx</strong></a> | 匯出與提供者對應之私密金鑰相關聯的公開金鑰資訊。 此函式與 <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptexportpublickeyinfo"><strong>CryptExportPublicKeyInfo</strong></a> 不同之處在于，使用者可以指定公開金鑰演算法，進而覆寫 CSP 所提供的預設值。 | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptexportpublickeyinfofrombcryptkeyhandle"><strong>CryptExportPublicKeyInfoFromBCryptKeyHandle</strong></a> | 匯出與提供者對應之私密金鑰相關聯的公開金鑰資訊。 | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptfindcertificatekeyprovinfo"><strong>CryptFindCertificateKeyProvInfo</strong></a> | 列舉密碼編譯提供者及其 <a href="/windows/desktop/SecGloss/k-gly"><em>金鑰容器</em></a> ，以尋找與憑證公開金鑰對應的私密金鑰。 | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptfindlocalizedname"><strong>CryptFindLocalizedName</strong></a> | 尋找指定名稱的當地語系化名稱，例如，尋找根系統存放區名稱的當地語系化名稱。 | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-crypthashcertificate"><strong>CryptHashCertificate</strong></a> | <blockquote>[!Important]<br />此 API 即將淘汰。 新的和現有的軟體應該開始使用 <a href="/windows/desktop/SecCNG/cng-portal">新一代密碼編譯 api。</a> Microsoft 可能會在未來的版本中移除此 API。</blockquote><br /> 雜湊編碼的內容。 | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-crypthashcertificate2"><strong>CryptHashCertificate2</strong></a> | 使用密碼編譯 API：新一代 (CNG) 雜湊提供者來雜湊資料區塊。 | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-crypthashpublickeyinfo"><strong>CryptHashPublicKeyInfo</strong></a> | <blockquote>[!Important]<br />此 API 即將淘汰。 新的和現有的軟體應該開始使用 <a href="/windows/desktop/SecCNG/cng-portal">新一代密碼編譯 api。</a> Microsoft 可能會在未來的版本中移除此 API。</blockquote><br /> 計算已編碼公開金鑰資訊的雜湊。 | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-crypthashtobesigned"><strong>CryptHashToBeSigned</strong></a> | <blockquote>[!Important]<br />此 API 即將淘汰。 新的和現有的軟體應該開始使用 <a href="/windows/desktop/SecCNG/cng-portal">新一代密碼編譯 api。</a> Microsoft 可能會在未來的版本中移除此 API。</blockquote><br /> 在編碼簽署的內容 (<a href="/windows/desktop/api/Wincrypt/ns-wincrypt-cert_signed_content_info"><strong>CERT_SIGNED_CONTENT_INFO</strong></a>) 中計算「要簽署」資訊的雜湊。 | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptimportpkcs8"><strong>CryptImportPKCS8</strong></a> | <blockquote>[!Important]<br />此 API 即將淘汰。 新的和現有的軟體應該開始使用 <a href="/windows/desktop/SecCNG/cng-portal">新一代密碼編譯 api。</a> Microsoft 可能會在未來的版本中移除此 API。</blockquote><br /> 將 PKCS #8 格式的 <a href="/windows/desktop/SecGloss/p-gly"><em>私密金鑰</em></a> 匯入至 <a href="/windows/desktop/SecGloss/c-gly"><em>密碼編譯服務提供者</em></a> (CSP) 。 | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptimportpublickeyinfo"><strong>CryptImportPublicKeyInfo</strong></a> | <blockquote>[!Important]<br />此 API 即將淘汰。 新的和現有的軟體應該開始使用 <a href="/windows/desktop/SecCNG/cng-portal">新一代密碼編譯 api。</a> Microsoft 可能會在未來的版本中移除此 API。</blockquote><br /> 將公開金鑰資訊轉換並匯入提供者，並傳回公開金鑰的控制碼。 | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptimportpublickeyinfoex"><strong>CryptImportPublicKeyInfoEx</strong></a> | <blockquote>[!Important]<br />此 API 即將淘汰。 新的和現有的軟體應該開始使用 <a href="/windows/desktop/SecCNG/cng-portal">新一代密碼編譯 api。</a> Microsoft 可能會在未來的版本中移除此 API。</blockquote><br /> 將公開金鑰資訊轉換並匯入提供者，並傳回公開金鑰的控制碼。 您可以使用 <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptimportpublickeyinfo"><strong>CryptImportPublicKeyInfo</strong></a>) 所指定的其他參數 (，這些參數可用來覆寫預設值，以提供補充 <a href="/windows/desktop/api/Wincrypt/ns-wincrypt-cert_public_key_info"><strong>CERT_PUBLIC_KEY_INFO</strong></a>。 | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptimportpublickeyinfoex2"><strong>CryptImportPublicKeyInfoEx2</strong></a> | 將公開金鑰匯入至 CNG 非對稱提供者。 | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptmemalloc"><strong>CryptMemAlloc</strong></a> | 配置緩衝區的記憶體。 所有傳回已配置緩衝區的 Crypt32.dll .lib 函數都會使用此記憶體。 | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptmemfree"><strong>CryptMemFree</strong></a> | 釋放 <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptmemalloc"><strong>CryptMemAlloc</strong></a> 或 <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptmemrealloc"><strong>CryptMemRealloc</strong></a>所配置的記憶體。 | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptmemrealloc"><strong>CryptMemRealloc</strong></a> | 釋出目前為緩衝區配置的記憶體，並為新的緩衝區配置記憶體。 | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptqueryobject"><strong>CryptQueryObject</strong></a> | <blockquote>[!Important]<br />此 API 即將淘汰。 新的和現有的軟體應該開始使用 <a href="/windows/desktop/SecCNG/cng-portal">新一代密碼編譯 api。</a> Microsoft 可能會在未來的版本中移除此 API。</blockquote><br /> 捕獲 BLOB 或檔案內容的相關資訊。 | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptsignandencodecertificate"><strong>CryptSignAndEncodeCertificate</strong></a> | 將「簽署」資訊編碼、簽署此編碼的資訊，然後將產生的帶正負號編碼資訊編碼。 | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptsigncertificate"><strong>CryptSignCertificate</strong></a> | 簽署編碼、簽署內容中的「要簽署」資訊。 | 
+| <a href="/windows/desktop/api/Mssip/nf-mssip-cryptsipaddprovider"><strong>CryptSIPAddProvider</strong></a> | 將主體介面套件新增 (SIP) 。 | 
+| <a href="/windows/desktop/api/Mssip/nf-mssip-cryptsipcreateindirectdata"><strong>CryptSIPCreateIndirectData</strong></a> | 傳回<a href="/windows/win32/api/mssip/ns-mssip-sip_indirect_data"><strong>SIP_INDIRECT_DATA</strong></a>結構，其中包含提供的<a href="/windows/win32/api/mssip/ns-mssip-sip_subjectinfo"><strong>SIP_SUBJECTINFO</strong></a>結構、摘要演算法和編碼屬性的<a href="/windows/desktop/SecGloss/h-gly"><em>雜湊</em></a>。 雜湊可以當做資料的間接參考使用。 | 
+| <a href="/windows/desktop/api/Mssip/nf-mssip-cryptsipgetcaps"><strong>CryptSIPGetCaps</strong></a> | 捕獲 SIP 的功能。 | 
+| <a href="/windows/desktop/api/Mssip/nf-mssip-cryptsipgetsigneddatamsg"><strong>CryptSIPGetSignedDataMsg</strong></a> | 從檔案抓取 Authenticode 簽章。 | 
+| <a href="/windows/desktop/api/Mssip/nf-mssip-cryptsipload"><strong>CryptSIPLoad</strong></a> | 載入動態連結程式庫，此程式庫會執行主體介面套件，並將適當的程式庫匯出函數指派給 <a href="/windows/win32/api/mssip/ns-mssip-sip_dispatch_info"><strong>SIP_DISPATCH_INFO</strong></a> 結構。 | 
+| <a href="/windows/desktop/api/Mssip/nf-mssip-cryptsipputsigneddatamsg"><strong>CryptSIPPutSignedDataMsg</strong></a> | 將 Authenticode 簽章儲存在目標檔案中。 | 
+| <a href="/windows/desktop/api/Mssip/nf-mssip-cryptsipremoveprovider"><strong>CryptSIPRemoveProvider</strong></a> | 移除先前對 <a href="/windows/desktop/api/Mssip/nf-mssip-cryptsipaddprovider"><strong>CryptSIPAddProvider</strong></a> 函式的呼叫所加入的 SIP。 | 
+| <a href="/windows/desktop/api/Mssip/nf-mssip-cryptsipremovesigneddatamsg"><strong>CryptSIPRemoveSignedDataMsg</strong></a> | 移除指定的 Authenticode 簽章。 | 
+| <a href="/windows/desktop/api/Mssip/nf-mssip-cryptsipretrievesubjectguid"><strong>CryptSIPRetrieveSubjectGuid</strong></a> | 根據指定檔案中的標頭資訊來抓取 GUID。 | 
+| <a href="/windows/desktop/api/Mssip/nf-mssip-cryptsipretrievesubjectguidforcatalogfile"><strong>CryptSIPRetrieveSubjectGuidForCatalogFile</strong></a> | 抓取與指定檔案相關聯的主體 GUID。 | 
+| <a href="/windows/desktop/api/Mssip/nf-mssip-cryptsipverifyindirectdata"><strong>CryptSIPVerifyIndirectData</strong></a> | 針對提供的主體驗證間接雜湊資料。 | 
+| <a href="/windows/desktop/api/Dpapi/nf-dpapi-cryptupdateprotectedstate"><strong>CryptUpdateProtectedState</strong></a> | 在使用者的 <a href="/windows/desktop/SecGloss/s-gly"><em>安全識別碼</em></a> (SID) 變更之後，遷移目前使用者的主要金鑰。 | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptverifycertificatesignature"><strong>CryptVerifyCertificateSignature</strong></a> | 使用公開金鑰資訊來驗證主體憑證或 <a href="/windows/desktop/SecGloss/c-gly"><em>CRL</em></a> 的簽章。 | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptverifycertificatesignatureex"><strong>CryptVerifyCertificateSignatureEx</strong></a> | <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptverifycertificatesignature"><strong>CryptVerifyCertificateSignature</strong></a>的擴充版本。 | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-getencschannel"><strong>GetEncSChannel</strong></a> | 將加密的 Schannel DLL 內容儲存在記憶體中。 | 
+| <a href="/windows/desktop/api/Mssip/nc-mssip-pcryptsipgetcaps"><strong>pCryptSIPGetCaps</strong></a> | 由 SIP 執行以報告功能。 | 
+
 
 
 
@@ -1143,48 +666,14 @@ CryptoAPI 提供一組一般憑證和憑證存放區維護功能。
 
 金鑰識別碼可擁有與憑證內容相同的屬性。 如需詳細資訊，請參閱 [**CertCreateCoNtext**](/windows/desktop/api/Wincrypt/nf-wincrypt-certcreatecontext)。
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>函式</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptcreatekeyidentifierfromcsp"><strong>CryptCreateKeyIdentifierFromCSP</strong></a></td>
-<td><blockquote>
-[!Important]<br />
-此 API 即將淘汰。 新的和現有的軟體應該開始使用 <a href="/windows/desktop/SecCNG/cng-portal">新一代密碼編譯 api。</a> Microsoft 可能會在未來的版本中移除此 API。
-</blockquote>
-<br/> 從 CSP 的 <a href="/windows/desktop/SecGloss/p-gly"><em>公開金鑰 BLOB</em></a>建立金鑰識別碼。</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptenumkeyidentifierproperties"><strong>CryptEnumKeyIdentifierProperties</strong></a></td>
-<td>列舉金鑰識別碼及其屬性。</td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptgetkeyidentifierproperty"><strong>CryptGetKeyIdentifierProperty</strong></a></td>
-<td><blockquote>
-[!Important]<br />
-此 API 即將淘汰。 新的和現有的軟體應該開始使用 <a href="/windows/desktop/SecCNG/cng-portal">新一代密碼編譯 api。</a> Microsoft 可能會在未來的版本中移除此 API。
-</blockquote>
-<br/> 從指定的金鑰識別碼取得特定屬性。</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptsetkeyidentifierproperty"><strong>CryptSetKeyIdentifierProperty</strong></a></td>
-<td><blockquote>
-[!Important]<br />
-此 API 即將淘汰。 新的和現有的軟體應該開始使用 <a href="/windows/desktop/SecCNG/cng-portal">新一代密碼編譯 api。</a> Microsoft 可能會在未來的版本中移除此 API。
-</blockquote>
-<br/> 設定指定之金鑰識別碼的屬性。</td>
-</tr>
-</tbody>
-</table>
+
+| 函式 | 描述 | 
+|----------|-------------|
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptcreatekeyidentifierfromcsp"><strong>CryptCreateKeyIdentifierFromCSP</strong></a> | <blockquote>[!Important]<br />此 API 即將淘汰。 新的和現有的軟體應該開始使用 <a href="/windows/desktop/SecCNG/cng-portal">新一代密碼編譯 api。</a> Microsoft 可能會在未來的版本中移除此 API。</blockquote><br /> 從 CSP 的 <a href="/windows/desktop/SecGloss/p-gly"><em>公開金鑰 BLOB</em></a>建立金鑰識別碼。 | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptenumkeyidentifierproperties"><strong>CryptEnumKeyIdentifierProperties</strong></a> | 列舉金鑰識別碼及其屬性。 | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptgetkeyidentifierproperty"><strong>CryptGetKeyIdentifierProperty</strong></a> | <blockquote>[!Important]<br />此 API 即將淘汰。 新的和現有的軟體應該開始使用 <a href="/windows/desktop/SecCNG/cng-portal">新一代密碼編譯 api。</a> Microsoft 可能會在未來的版本中移除此 API。</blockquote><br /> 從指定的金鑰識別碼取得特定屬性。 | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptsetkeyidentifierproperty"><strong>CryptSetKeyIdentifierProperty</strong></a> | <blockquote>[!Important]<br />此 API 即將淘汰。 新的和現有的軟體應該開始使用 <a href="/windows/desktop/SecCNG/cng-portal">新一代密碼編譯 api。</a> Microsoft 可能會在未來的版本中移除此 API。</blockquote><br /> 設定指定之金鑰識別碼的屬性。 | 
+
 
 
 

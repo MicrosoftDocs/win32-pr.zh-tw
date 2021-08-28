@@ -4,12 +4,12 @@ ms.assetid: b0625481-660a-4fd5-ba15-d532998f95a6
 title: XML 數位簽章密碼編譯延伸模組
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8747521913ca1d551f1a2d4fd5b1c79d80065832
-ms.sourcegitcommit: 37f276b5d887a3aad04b1ba86e390dea9d87e591
+ms.openlocfilehash: 41bf0f2d99b34d59e9817f8568b03be20e72dda1
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "103853212"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122474934"
 ---
 # <a name="xml-digital-signature-cryptographic-extensions"></a>XML 數位簽章密碼編譯延伸模組
 
@@ -84,52 +84,15 @@ CryptXML 可讓開發人員藉由註冊整個系統的密碼編譯延伸模組 D
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>名稱</th>
-<th>類型</th>
-<th>資料</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>DLL<br/></td>
-<td>可擴充的字串<br/></td>
-<td>必要。<br/>XML 密碼編譯提供者 DLL 的絕對路徑。
-<blockquote>
-<p><b>注意： </b>建議您在只能由具有系統管理許可權的應用程式寫入的目錄中，使用密碼編譯延伸模組 Dll。</p>
-<p><a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya"><strong>LoadLibrary</strong></a> 用來載入密碼編譯延伸模組 DLL。<br/></p>
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td>名稱<br/></td>
-<td><strong>String</strong></td>
-<td>選擇性。<br/> 與此 URI 相關聯的顯示名稱。<br/></td>
-</tr>
-<tr class="odd">
-<td>GroupId<br/></td>
-<td><strong>Dword</strong></td>
-<td>必要。<br/> 與此密碼編譯演算法相關聯的群組識別碼。 可能的值包括下列各項：<strong>CRYPT_XML_GROUP_ID_HASH</strong> \ <strong></strong> = 1<br/><strong></strong> \ CRYPT_XML_GROUP_ID_SIGN <strong></strong>= 2<br/></td>
-</tr>
-<tr class="even">
-<td>CNGAlgid<br/></td>
-<td><strong>String</strong></td>
-<td>必要。<br/> 要傳遞給 BCrypt 或 NCrypt 函數的 CNG 演算法名稱。<br/></td>
-</tr>
-<tr class="odd">
-<td>CNGExtraAlgid<br/></td>
-<td><strong>String</strong></td>
-<td>選擇性。<br/> 額外的演算法字串，而非 CNGAlgid 成員中的字串，可以傳遞給 CNG 函數。<br/> 針對 (CRYPT_XML_GROUP_ID_SIGN) 的簽章演算法，此成員是要傳遞至 CNG 函數的公開金鑰演算法字串。<br/> 如果是 GroupId 的其他值，請將<strong>pwszCNGExtraAlgid</strong>成員設為空字串： L &quot; &quot; 。 <br/></td>
-</tr>
-</tbody>
-</table>
+
+| 名稱 | 類型 | 資料 | 
+|------|------|------|
+| DLL<br /> | 可擴充的字串<br /> | 必要。<br />XML 密碼編譯提供者 DLL 的絕對路徑。<blockquote><p><b>注意： </b>建議您在只能由具有系統管理許可權的應用程式寫入的目錄中，使用密碼編譯延伸模組 Dll。</p><p><a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya"><strong>LoadLibrary</strong></a> 用來載入密碼編譯延伸模組 DLL。<br /></p></blockquote><br /> | 
+| 名稱<br /> | <strong>String</strong> | 選擇性。<br /> 與此 URI 相關聯的顯示名稱。<br /> | 
+| GroupId<br /> | <strong>DWORD</strong> | 必要。<br /> 與此密碼編譯演算法相關聯的群組識別碼。 可能的值包括下列各項：<strong>CRYPT_XML_GROUP_ID_HASH</strong> \<strong> </strong> = 1<br /><strong></strong> \<strong> CRYPT_XML_GROUP_ID_SIGN </strong>= 2<br /> | 
+| CNGAlgid<br /> | <strong>String</strong> | 必要。<br /> 要傳遞給 BCrypt 或 NCrypt 函數的 CNG 演算法名稱。<br /> | 
+| CNGExtraAlgid<br /> | <strong>String</strong> | 選擇性。<br /> 額外的演算法字串，而非 CNGAlgid 成員中的字串，可以傳遞給 CNG 函數。<br /> 針對 (CRYPT_XML_GROUP_ID_SIGN) 的簽章演算法，此成員是要傳遞至 CNG 函數的公開金鑰演算法字串。<br /> 對於 GroupId 的其他值，請將 <strong>pwszCNGExtraAlgid</strong> 成員設定為空字串 ""。 <br /> | 
+
 
 
 

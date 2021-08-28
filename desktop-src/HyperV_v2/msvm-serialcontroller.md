@@ -65,12 +65,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 04cf87a40b48e5f0fc505fe5bc921229ce208fe910d9418431ddae3187b2c5d0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9b1950431f79c8b41cc8fc29d14b66580f5fface
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118950697"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122886969"
 ---
 # <a name="msvm_serialcontroller-class"></a>Msvm \_ SerialController 類別
 
@@ -151,7 +151,7 @@ class Msvm_SerialController : CIM_SerialController
 
 
 
-| 方法                                                                 | 描述                              |
+| 方法                                                                 | 說明                              |
 |:-----------------------------------------------------------------------|:-----------------------------------------|
 | **EnableDevice**                                                       | 不支援這個方法。<br/> |
 | **OnlineDevice**                                                       | 不支援這個方法。<br/> |
@@ -381,7 +381,7 @@ class Msvm_SerialController : CIM_SerialController
 存取類型：唯讀
 </dt> </dl>
 
-這個屬性繼承自 [**CIM \_ LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice)，而且一律設定為 "Microsoft： *<GUID>* "。
+這個屬性繼承自 [**CIM \_ LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice)，而且一律設定為 "Microsoft：*&lt; &gt; GUID*"。
 
 </dd> <dt>
 
@@ -577,7 +577,7 @@ class Msvm_SerialController : CIM_SerialController
 
 </dd> <dt>
 
-**名稱**
+名稱
 </dt> <dd> <dl> <dt>
 
 資料類型： **字串**

@@ -4,12 +4,12 @@ ms.assetid: bc9de56f-444c-45a2-9822-fba2fe618d38
 title: System. 關鍵字相片中繼資料原則
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bc5d25e7f1919527d474395397d6df62863f7b78
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2aa5387bfb8cca7fffe83f7615a979d8e23ae890
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194574"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122886647"
 ---
 # <a name="systemkeywords-photo-metadata-policy"></a>System. 關鍵字相片中繼資料原則
 
@@ -25,7 +25,7 @@ JPEG、TIFF
 
 ### <a name="read-only"></a>唯讀
 
-No
+否
 
 ### <a name="output-propvariant-type"></a>輸出 PROPVARIANT 類型
 
@@ -47,7 +47,7 @@ VT \_ 向量 \| VT \_ LPWSTR
 
 | 單 | 路徑                              | 磁片格式    |
 |-------|-----------------------------------|----------------|
-| 1     | /xmp/ <xmpbag> dc： subject     | Unicode        |
+| 1     | /xmp/ &lt; xmpbag &gt; dc： subject     | Unicode        |
 | 2     | /app13/irb/8bimiptc/iptc/keywords |                |
 | 3     | /app1/ifd/{ushort = 18247}          | unicode \_ 位元組 |
 | 4     | /app1/ifd/{ushort = 40094}          | unicode \_ 位元組 |
@@ -62,12 +62,12 @@ VT \_ 向量 \| VT \_ LPWSTR
 
 | 單 | 路徑                                              | 磁片格式    |
 |-------|---------------------------------------------------|----------------|
-| 1     | /xmp/ <xmpbag> dc： subject                     | Unicode        |
+| 1     | /xmp/ &lt; xmpbag &gt; dc： subject                     | Unicode        |
 | 2     | /app13/irb/8bimiptc/iptc/keywords                 |                |
 | 3     | /app1/ifd/{ushort = 18247}                          | unicode \_ 位元組 |
 | 4     | /app1/ifd/{ushort = 40094}                          | unicode \_ 位元組 |
-| 5     | /xmp/ <xmpbag> MicrosoftPhoto： LastKeywordXMP  | Unicode        |
-| 6     | /xmp/ <xmpbag> MicrosoftPhoto： LastKeywordIPTC | Unicode        |
+| 5     | /xmp/ &lt; xmpbag &gt; MicrosoftPhoto： LastKeywordXMP  | Unicode        |
+| 6     | /xmp/ &lt; xmpbag &gt; MicrosoftPhoto： LastKeywordIPTC | Unicode        |
 
 
 
@@ -83,8 +83,8 @@ VT \_ 向量 \| VT \_ LPWSTR
 | 2     | /app13/irb/8bimiptc/iptc/keywords                 |
 | 3     | /app1/ifd/{ushort = 18247}                          |
 | 4     | /app1/ifd/{ushort = 40094}                          |
-| 5     | /xmp/ <xmpbag> MicrosoftPhoto： LastKeywordXMP  |
-| 6     | /xmp/ <xmpbag> MicrosoftPhoto： LastKeywordIPTC |
+| 5     | /xmp/ &lt; xmpbag &gt; MicrosoftPhoto： LastKeywordXMP  |
+| 6     | /xmp/ &lt; xmpbag &gt; MicrosoftPhoto： LastKeywordIPTC |
 
 
 
@@ -98,7 +98,7 @@ VT \_ 向量 \| VT \_ LPWSTR
 
 | 單 | 路徑                              | 磁片格式    |
 |-------|-----------------------------------|----------------|
-| 1     | /ifd/xmp/ <xmpbag> dc： subject | Unicode        |
+| 1     | /ifd/xmp/ &lt; xmpbag &gt; dc： subject | Unicode        |
 | 2     | /ifd/iptc/keywords                |                |
 | 3     | /ifd/{ushort = 18247}               | unicode \_ 位元組 |
 | 4     | /ifd/{ushort = 40094}               | unicode \_ 位元組 |
@@ -114,14 +114,14 @@ VT \_ 向量 \| VT \_ LPWSTR
 
 | 單 | 路徑                                                             | 磁片格式    |
 |-------|------------------------------------------------------------------|----------------|
-| 1     | /ifd/xmp/ <xmpbag> dc： subject                                | Unicode        |
+| 1     | /ifd/xmp/ &lt; xmpbag &gt; dc： subject                                | Unicode        |
 | 2     | /ifd/iptc/keywords                                               |                |
 | 3     | /ifd/irb/8bimiptc/iptc/keywords                                  |                |
 | 4     | /ifd/{ushort = 18247}                                              | unicode \_ 位元組 |
 | 5     | /ifd/{ushort = 40094}                                              | unicode \_ 位元組 |
-| 6     | /ifd/xmp/ <xmpbag> MicrosoftPhoto： LastKeywordXMP             | Unicode        |
-| 7     | /ifd/xmp/ <xmpbag> MicrosoftPhoto： LastKeywordIPTC            | Unicode        |
-| 8     | /ifd/xmp/ <xmpbag> MicrosoftPhoto： LastKeywordIPTC \_ TIFF \_ IRB | Unicode        |
+| 6     | /ifd/xmp/ &lt; xmpbag &gt; MicrosoftPhoto： LastKeywordXMP             | Unicode        |
+| 7     | /ifd/xmp/ &lt; xmpbag &gt; MicrosoftPhoto： LastKeywordIPTC            | Unicode        |
+| 8     | /ifd/xmp/ &lt; xmpbag &gt; MicrosoftPhoto： LastKeywordIPTC \_ TIFF \_ IRB | Unicode        |
 
 
 
@@ -138,9 +138,9 @@ VT \_ 向量 \| VT \_ LPWSTR
 | 3     | /ifd/irb/8bimiptc/iptc/keywords                                  |
 | 4     | /ifd/{ushort = 18247}                                              |
 | 5     | /ifd/{ushort = 40094}                                              |
-| 6     | /ifd/xmp/ <xmpbag> MicrosoftPhoto： LastKeywordXMP             |
-| 7     | /ifd/xmp/ <xmpbag> MicrosoftPhoto： LastKeywordIPTC            |
-| 8     | /ifd/xmp/ <xmpbag> MicrosoftPhoto： LastKeywordIPTC \_ TIFF \_ IRB |
+| 6     | /ifd/xmp/ &lt; xmpbag &gt; MicrosoftPhoto： LastKeywordXMP             |
+| 7     | /ifd/xmp/ &lt; xmpbag &gt; MicrosoftPhoto： LastKeywordIPTC            |
+| 8     | /ifd/xmp/ &lt; xmpbag &gt; MicrosoftPhoto： LastKeywordIPTC \_ TIFF \_ IRB |
 
 
 

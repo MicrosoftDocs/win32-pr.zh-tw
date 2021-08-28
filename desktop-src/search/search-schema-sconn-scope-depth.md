@@ -1,19 +1,19 @@
 ---
-description: <depth>元素會指定搜尋連接器的範圍是否應包含子 url。 允許的值為 Deep 和淺層。 這個元素沒有任何子項目，而且沒有任何屬性。
+description: '&lt;Depth &gt; 元素會指定搜尋連接器的範圍是否應包含子 url。 允許的值為 Deep 和淺層。 這個元素沒有任何子項目，而且沒有任何屬性。'
 ms.assetid: 859decab-cbe3-4cec-b37c-6d0e7c353876
 title: '搜尋連接器架構 (的深度元素) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 245156088cd68fcf67103c18b987a9b459b0b760b3a04a1ced817badd25aada8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 430ad3d047331a4bb3ffc58bd134d2364aaa0838
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117862523"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122886766"
 ---
 # <a name="depth-element-search-connector-schema"></a>搜尋連接器架構 (的深度元素) 
 
-<depth>元素會指定搜尋連接器的範圍是否應包含子 url。 允許的值有 `Deep` 與 `Shallow`。 這個元素沒有任何子項目，而且沒有任何屬性。
+&lt;Depth &gt; 元素會指定搜尋連接器的範圍是否應包含子 url。 允許的值有 `Deep` 與 `Shallow`。 這個元素沒有任何子項目，而且沒有任何屬性。
 
 ## <a name="syntax"></a>Syntax
 

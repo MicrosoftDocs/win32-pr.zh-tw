@@ -10,12 +10,12 @@ keywords:
 - Active Directory、Using、Binding、無伺服器系結
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d3c88386ae95efdebd031199e135ff4c5d610e402b9cba522256df5eef097e1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 96a2b567ebfae52a316dce59c3bc6ab442780e61
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119024926"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122881223"
 ---
 # <a name="serverless-binding-and-rootdse"></a>無伺服器系結和 RootDSE
 
@@ -30,7 +30,7 @@ LDAP://<servername>/rootDSE
 
 
 
-<servername>是伺服器的 DNS 名稱。 <servername>是選擇性的，如下列格式所示。
+&lt;Servername &gt; 是伺服器的 DNS 名稱。 &lt;Servername &gt; 是選擇性的，如下列格式所示。
 
 
 ```C++

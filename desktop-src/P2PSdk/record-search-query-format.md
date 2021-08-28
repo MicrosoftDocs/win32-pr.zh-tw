@@ -4,12 +4,12 @@ ms.assetid: 2c5ab425-6959-418a-8d9a-c8155257fc7e
 title: 記錄搜尋查詢格式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 23457cfde6955927b3efdcce5ae2dff94480c7cf56849b418547fe2503a36830
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f26a130d937177d4f903bfe52b121b2d67f8720d
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119517958"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122887005"
 ---
 # <a name="record-search-query-format"></a>記錄搜尋查詢格式
 
@@ -191,11 +191,11 @@ ms.locfileid: "119517958"
 
 某些字元可以用來表示比對模式，或換用其他特殊字元。 下表將說明這些字元。 
 
-| 字元模式 | 描述                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| 字元模式 | 說明                                                                                                                                                                                                                                                                                                                                                                                                                             |
 |-------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| \*                | 萬用字元。 當子句值中遇到此字元時，它會比對任何值的 0-n 字元，包括空白字元和非英數位元。 例如：<br/> "<clause attrib="peercreatorid" type="string" compare="equal">James P \* </clause>"<br/> 這個子句會比對名字為 "James" 和姓氏開頭為 "P" 的所有 **peercreatorid** 值。<br/> |
+| \*                | 萬用字元。 當子句值中遇到此字元時，它會比對任何值的 0-n 字元，包括空白字元和非英數位元。 例如：<br/> " <clause attrib="peercreatorid" type="string" compare="equal"> James P \* &lt; /clause &gt; "<br/> 這個子句會比對名字為 "James" 和姓氏開頭為 "P" 的所有 **peercreatorid** 值。<br/> |
 | \\\*              | 轉義的星號。 此序列符合星號字元。                                                                                                                                                                                                                                                                                                                                                                       |
-| ?                 | 單一字元的萬用字元。 當子句值中遇到此字元時，它會比對任何單一字元，包括空白字元和英數位元。例如：<br/> 「<clause attrib="filename" type="string" compare="equal">data-0？ .xml</clause>」<br/> 這個子句會比對 **檔案名** 值，例如 "data-01.xml" 和 "data-0B.xml"。<br/>                              |
+| ?                 | 單一字元的萬用字元。 當子句值中遇到此字元時，它會比對任何單一字元，包括空白字元和英數位元。例如：<br/> " <clause attrib="filename" type="string" compare="equal"> data-0？ .xml&lt; /clause &gt; "<br/> 這個子句會比對 **檔案名** 值，例如 "data-01.xml" 和 "data-0B.xml"。<br/>                              |
 | \\?               | 已標記的問號。 此序列符合問號字元。                                                                                                                                                                                                                                                                                                                                                              |
 | \\\\              | 已轉義的反斜線。 此序列符合單一反斜線字元。                                                                                                                                                                                                                                                                                                                                                               |
 

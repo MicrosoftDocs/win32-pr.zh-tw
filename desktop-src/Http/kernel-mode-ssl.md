@@ -6,12 +6,12 @@ keywords:
 - 核心模式 SSL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c9dcfeb87b1a98539d7bd6a3b8b82dcfd5ee41fc9ad4c4c306f4c399aebd18a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fdfbc66e72f4e3e79c53207cbe9f4b77d3887b36
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118393916"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122475494"
 ---
 # <a name="kernel-mode-ssl"></a>核心模式 SSL
 
@@ -80,37 +80,13 @@ HKEY_LOCAL_MACHINE
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>登錄值</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>EnableKernelSSL</td>
-<td><strong>Windows Server 2008 和 Windows Vista：</strong>此登錄值已過時。<br/></td>
-</tr>
-<tr class="even">
-<td>EnableSslCloseNotify</td>
-<td>設定為<strong>TRUE</strong>以啟用關閉通知的<strong>DWORD</strong>值，否則為<strong>FALSE</strong>以停用關閉通知需求。 關閉-通知預設為停用。<br/> 當啟用 [關閉-通知] 時，用戶端應用程式必須在關閉 TCP 連接之前傳送「關閉通知」訊息。 HTTP 伺服器 API 也會在關閉連接之前傳送關閉通知。<br/> 當啟用 [關閉] 通知時，當用戶端傳送「關閉通知」訊息時，HTTP 伺服器 API 會在未來連線到用戶端時重複使用 SSL 會話。 如果用戶端未傳送關閉通知，HTTP 伺服器 API 將不會在未來的連接上重複使用相同的 SSL 會話。 因此，在新的連接上會觸發完整的 SSL 交握，因此會降低效能。 <br/>
-<blockquote>
-[!Note]<br />
-啟用「關閉通知」有助於減輕對 HTTPS 要求和回應的截斷攻擊。
-</blockquote>
-<br/> <br/> 停用 [關閉通知] 時，HTTP 伺服器 API 會重複使用 SSL 會話，以供未來連接使用。<br/></td>
-</tr>
-<tr class="odd">
-<td>DisableSslCertChainCacheOnlyUrlRetrieval</td>
-<td>設定為<strong>TRUE</strong>的<strong>DWORD</strong>值，可讓 HTTP 伺服器 API 從網際網路或本機存放區取出中繼憑證，或使用<strong>FALSE</strong>從本機存放區取出中繼憑證。 預設的登錄值為 <strong>FALSE</strong>。<br/> 根據預設，HTTP 伺服器 API 會在本機電腦帳戶下，從中繼憑證授權單位單位存放區中取出中繼憑證，以建立用戶端憑證鏈。 將此值設定為 <strong>TRUE</strong> ，可讓 HTTP 伺服器 API 只從本機存放區取得中繼憑證，但也可從網際網路上的中繼憑證授權單位單位抓取。<br/></td>
-</tr>
-</tbody>
-</table>
+
+| 登錄值 | Description | 
+|----------------|-------------|
+| EnableKernelSSL | <strong>Windows Server 2008 和 Windows Vista：</strong>此登錄值已過時。<br /> | 
+| EnableSslCloseNotify | 設定為<strong>TRUE</strong>以啟用關閉通知的<strong>DWORD</strong>值，否則為<strong>FALSE</strong>以停用關閉通知需求。 關閉-通知預設為停用。<br /> 當啟用 [關閉-通知] 時，用戶端應用程式必須在關閉 TCP 連接之前傳送「關閉通知」訊息。 HTTP 伺服器 API 也會在關閉連接之前傳送關閉通知。<br /> 當啟用 [關閉] 通知時，當用戶端傳送「關閉通知」訊息時，HTTP 伺服器 API 會在未來連線到用戶端時重複使用 SSL 會話。 如果用戶端未傳送關閉通知，HTTP 伺服器 API 將不會在未來的連接上重複使用相同的 SSL 會話。 因此，在新的連接上會觸發完整的 SSL 交握，因此會降低效能。 <br /><blockquote>[!Note]<br />啟用「關閉通知」有助於減輕對 HTTPS 要求和回應的截斷攻擊。</blockquote><br /><br /> 停用 [關閉通知] 時，HTTP 伺服器 API 會重複使用 SSL 會話，以供未來連接使用。<br /> | 
+| DisableSslCertChainCacheOnlyUrlRetrieval | 設定為<strong>TRUE</strong>的<strong>DWORD</strong>值，可讓 HTTP 伺服器 API 從網際網路或本機存放區取出中繼憑證，或使用<strong>FALSE</strong>從本機存放區取出中繼憑證。 預設的登錄值為 <strong>FALSE</strong>。<br /> 根據預設，HTTP 伺服器 API 會在本機電腦帳戶下，從中繼憑證授權單位單位存放區中取出中繼憑證，以建立用戶端憑證鏈。 將此值設定為 <strong>TRUE</strong> ，可讓 HTTP 伺服器 API 只從本機存放區取得中繼憑證，但也可從網際網路上的中繼憑證授權單位單位抓取。<br /> | 
+
 
 
 

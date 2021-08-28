@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 854b33d1e11df15b5b383bf004986edc18418f6204ae1298c3171a6653cf5301
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: dad52aebe4a90d132827f01400fc7a1f2bbf1fde
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118707086"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122624714"
 ---
 # <a name="menugroup-element"></a>MenuGroup 元素
 
@@ -40,10 +40,10 @@ ms.locfileid: "118707086"
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col  />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -57,7 +57,7 @@ ms.locfileid: "118707086"
 <tr class="odd">
 <td><strong>類別</strong><br/></td>
 <td>xs:string<br/></td>
-<td>No<br/></td>
+<td>否<br/></td>
 <td>指定功能表 UI 中元素的大小和配置樣式。<br/> 您可以使用 <a href="windowsribbon-element-command-largeimages.md"><strong>LargeImages</strong></a> 和 <a href="windowsribbon-element-command-smallimages.md"><strong>SmallImages</strong></a> 屬性專案，以兩種大小提供影像資源 (大型和小型) ，並與標記中的元素相關聯。 如果只提供一個影像，則架構會視需要調整其大小。<br/> 限制為下列其中一個值：<br/> <br/>
 <dt><span></span><span></span><strong></strong> (StandardItems) <br/> </dt> <dd> 預設值。 <br/> 樣式：小型影像和反白的文字。<br/><img src="images/markup/menugroup-standarditems.png" alt="Screen shot of a StandardItems button." /></dd> <dt><span></span><span></span><strong></strong> (MajorItems) <br/> </dt> <dd> 樣式：大型影像和粗體文字。<br/>
 <blockquote>
@@ -69,7 +69,7 @@ ms.locfileid: "118707086"
 <tr class="even">
 <td><strong>CommandName</strong><br/></td>
 <td>xs： positiveInteger 或 xs： string<br/></td>
-<td>No<br/></td>
+<td>否<br/></td>
 <td>將元素與 <a href="windowsribbon-element-command.md"><strong>命令</strong></a>產生關聯。<br/> <br/>
 <dt><span></span><span></span><strong></strong> (xs： positiveInteger 或 xs： string) <br/> </dt> <dd> 字串、介於2與59999（含）之間的整數值，或介於0x2 與0xea5f （含）之間的十六進位值。 <br/> 值在功能區 XML 檔中必須是唯一的。 <br/> 最大長度：100個字元。 <br/> </dd> </dl></td>
 </tr>

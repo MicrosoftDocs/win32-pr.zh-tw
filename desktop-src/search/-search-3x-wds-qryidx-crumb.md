@@ -4,12 +4,12 @@ ms.assetid: b0b974ae-0573-45e4-888e-07138604b62e
 title: '連結引數 (Windows Search) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5ec64fdcf9b15e0b7c87ea2ff0b122e22a8f8917bbacb9d9c3c3da274123f607
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b2a1ae426881473a631a11b40ec8e567f600daa4
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118463240"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122886822"
 ---
 # <a name="crumb-argument-windows-search"></a>連結引數 (Windows Search) 
 
@@ -39,7 +39,7 @@ crumb=<column>:<value>[,<label>][,<column>:<value>[,<label>]]&
 
 
 
-<column>部分是屬性系統中的任何屬性，而 <value> 部分是該屬性的有效值。 <label>部分是顯示為使用者介面提示之屬性的選擇性別名。
+資料 &lt; 行 &gt; 部分是屬性系統中的任何屬性，而且 &lt; 值 &gt; 部分是該屬性的有效值。 <label>部分是顯示為使用者介面提示之屬性的選擇性別名。
 
 ### <a name="general-examples"></a>一般範例
 
@@ -64,10 +64,10 @@ crumb=location:c%3a%5cMyVacationPix,Vacation&
 
 
 
-| 參數 | 值                  | 描述                                                                                                                                                                       |
+| 參數 | 值                  | 說明                                                                                                                                                                       |
 |-----------|-------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 包含 | 包含、排除        | 指定查詢是否應包含或排除該路徑的專案。 "Include" 是預設值。 WindowsVista 不支援排除專案（不含）。  (請參閱範例)  |
-| 遞迴 | 遞迴、非遞迴 | 指定搜尋是否應從位置中定義的值開始遞迴所有子資料夾：<value>. 「遞迴」是預設值。                             |
+| 遞迴 | 遞迴、非遞迴 | 指定搜尋是否應從 location： value 中定義的值開始遞迴所有子資料夾 &lt; &gt; 。 「遞迴」是預設值。                             |
 
 
 

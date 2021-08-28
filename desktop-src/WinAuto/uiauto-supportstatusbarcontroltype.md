@@ -21,12 +21,12 @@ keywords:
 - 控制項類型，狀態列
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f52f3f04db86a8c8ff0e9cad9a3938a17e996e8210960912c3abc5039468e178
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 032c0122bc472a8b2deace8cc48d41926778a11b
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119614248"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122473694"
 ---
 # <a name="statusbar-control-type"></a>狀態列控制項類型
 
@@ -51,40 +51,11 @@ ms.locfileid: "119614248"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>控制項檢視</th>
-<th>內容檢視</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>StatusBar
-<ul>
-<li>編輯 (0 個以上)</li>
-<li>進度列 (0 個以上)</li>
-<li>影像 (0 個以上)</li>
-<li>按鈕 (0 個以上)</li>
-</ul></li>
-</ul></td>
-<td><ul>
-<li>StatusBar
-<ul>
-<li>編輯 (0 個以上)</li>
-<li>進度列 (0 個以上)</li>
-<li>影像 (0 個以上)</li>
-<li>按鈕 (0 個以上)</li>
-</ul></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| 控制項檢視 | 內容檢視 | 
+|--------------|--------------|
+| <ul><li>StatusBar<ul><li>編輯 (0 個以上)</li><li>進度列 (0 個以上)</li><li>影像 (0 個以上)</li><li>按鈕 (0 個以上)</li></ul></li></ul> | <ul><li>StatusBar<ul><li>編輯 (0 個以上)</li><li>進度列 (0 個以上)</li><li>影像 (0 個以上)</li><li>按鈕 (0 個以上)</li></ul></li></ul> | 
+
 
 
 

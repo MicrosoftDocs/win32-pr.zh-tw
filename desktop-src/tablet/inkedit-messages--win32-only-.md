@@ -4,12 +4,12 @@ ms.assetid: 26023012-9ab1-4bd9-beff-41587bc74f5e
 title: 'InkEdit 訊息 (僅限 Win32) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d3b403e950ca67523620baab6f90a8fef9a47bf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e5cb1d390bf8e37d6affbbd96c34c53ea889b268
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319424"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122475034"
 ---
 # <a name="inkedit-messages-win32-only"></a>InkEdit 訊息 (僅限 Win32) 
 
@@ -19,26 +19,11 @@ ms.locfileid: "104319424"
 
 
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>C++</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre data-space="preserve"><code>LRESULT SendMessage(
-  HWND hWnd,      // handle to destination window
-  UINT Msg,       // message
-  WPARAM wParam,  // first message parameter
-  LPARAM lParam   // second message parameter
-);</code></pre></td>
-</tr>
-</tbody>
-</table>
+
+| C++ | 
+|-----|
+| <pre data-space="preserve"><code>LRESULT SendMessage(  HWND hWnd,      // handle to destination window  UINT Msg,       // message  WPARAM wParam,  // first message parameter  LPARAM lParam   // second message parameter);</code></pre> | 
+
 
 
 
@@ -67,7 +52,7 @@ LRESULT CALLBACK WindowProc(
 | EM \_ GETINKMODE<br/>           | 取得 [InkEdit](inkedit-control-reference.md) 控制項的筆墨模式。<br/> 參數：<br/> 此訊息沒有參數; *wParam* 和 *lParam* 必須是0。<br/> 傳回值：<br/> 此訊息會傳回 [**InkMode**](/windows/desktop/api/inked/ne-inked-inkmode) 列舉中所定義的其中一個值，這個值會指定是否停用筆墨收集、是否要收集筆跡，或是否要收集筆跡和手勢。<br/>                                                                                                                                                                                                                                                         |
 | EM \_ SETINKMODE<br/>           | 設定 [InkEdit](inkedit-control-reference.md) 控制項的筆墨模式。<br/> 參數：<br/>*wParam* 指定 [**InkMode**](/windows/desktop/api/inked/ne-inked-inkmode) 列舉的其中一個值，這個值會指定是否停用筆墨收集、是否要收集筆跡，或是否要收集筆跡和手勢。<br/>*lParam* 未使用此參數;它必須是0。<br/> 傳回值：<br/> 如果成功，則此訊息會傳回0，如果發生錯誤則傳回非零值。<br/> 備註：<br/> 只有當 EM GETSTATUS 傳回的是閒置時，才應該使用這種情況 \_ \_ 。<br/>                                                                                                               |
 | EM \_ GETINKINSERTMODE<br/>     | 取得 [InkEdit](inkedit-control-reference.md) 控制項的筆墨插入模式。<br/> 參數：<br/> 此訊息沒有參數; *wParam* 和 *lParam* 必須是0。<br/> 傳回值：<br/> 此訊息會傳回 [**InkInsertMode**](/windows/desktop/api/inked/ne-inked-inkinsertmode) 列舉的其中一個值，這個值會指定是否要將筆墨插入控制項中做為文字或筆跡。<br/>                                                                                                                                                                                                                                                                                                    |
-| EM \_ SETINKINSERTMODE<br/>     | 設定 [InkEdit](inkedit-control-reference.md) 控制項的筆墨插入模式。 如果與 Microsoft Windows XP Tablet PC Edition 以外的任何作業系統一起使用，則傳送此訊息不會有任何作用。<br/> 參數：<br/>*wParam* 指定 [**InkInsertMode**](/windows/desktop/api/inked/ne-inked-inkinsertmode) 列舉的其中一個值，指定是否要將筆墨插入控制項中做為文字或筆跡。<br/>*lParam* 未使用此參數;它必須是0。<br/> 傳回值：<br/> 如果成功，則此訊息會傳回0，如果發生錯誤則傳回非零值。<br/>                                                                                                       |
+| EM \_ SETINKINSERTMODE<br/>     | 設定 [InkEdit](inkedit-control-reference.md) 控制項的筆墨插入模式。 如果與 Microsoft Windows XP Tablet PC Edition 以外安裝的任何作業系統搭配使用，則傳送此訊息不會有任何作用。<br/> 參數：<br/>*wParam* 指定 [**InkInsertMode**](/windows/desktop/api/inked/ne-inked-inkinsertmode) 列舉的其中一個值，指定是否要將筆墨插入控制項中做為文字或筆跡。<br/>*lParam* 未使用此參數;它必須是0。<br/> 傳回值：<br/> 如果成功，則此訊息會傳回0，如果發生錯誤則傳回非零值。<br/>                                                                                                       |
 | EM \_ GETDRAWATTR<br/>          | 取得 [InkEdit](inkedit-control-reference.md) 控制項的目前繪圖屬性。<br/> 參數：<br/>*wParam* 未使用此參數;它必須是0。<br/>*lParam* 指定指標 (IInkDrawingAttributes \* \* pDrawAttr) ，以接收目前的 [**InkDrawingAttributes**](inkdrawingattributes-class.md)物件。<br/> 傳回值：<br/> 如果成功，則此訊息會傳回0，如果發生錯誤則傳回非零值。<br/>                                                                                                                                                                                                                                                |
 | EM \_ SETDRAWATTR<br/>          | 設定要用於未來筆墨收集的繪製屬性。<br/> 參數：<br/>*wParam* 未使用此參數;它必須是0。<br/>*lParam* 指定指向 \* [**InkDrawingAttributes**](inkdrawingattributes-class.md) 物件之 IInkDrawingAttributes pDrawAttr) 的指標 (。<br/> 傳回值：<br/> 如果成功，則此訊息會傳回0，如果發生錯誤則傳回非零值。<br/>                                                                                                                                                                                                                                                                                                  |
 | EM \_ GETRECOTIMEOUT<br/>       | 取得 [InkEdit](inkedit-control-reference.md) 控制項的辨識超時（以毫秒為單位）。<br/> 參數：<br/> 此訊息沒有參數; *wParam* 和 *lParam* 必須是0。<br/> 傳回值：<br/> 此訊息會傳回辨識超時（以毫秒為單位）。<br/>                                                                                                                                                                                                                                                                                                                                                                                               |
@@ -79,9 +64,9 @@ LRESULT CALLBACK WindowProc(
 | EM \_ GETFACTOID<br/>           | 取得要用於辨識的 [智慧](factoid-constants.md) 標記。<br/> 參數：<br/>*wParam* 未使用此參數;它必須是0。<br/>*lParam* 指定要接收模擬型字串之 BSTR 的指標。<br/> 傳回值：<br/> 如果成功，則此訊息會傳回0，如果發生錯誤則傳回非零值。<br/>                                                                                                                                                                                                                                                                                                                                                                  |
 | EM \_ SETFACTOID<br/>           | 設定要用於辨識的 [模擬](factoid-constants.md) 程式。<br/> 參數：<br/>*wParam* 未使用此參數;它必須是0。<br/>*lParam* 指定包含模擬字串的 BSTR。<br/> 傳回值：<br/> 如果成功，則此訊息會傳回0，如果發生錯誤則傳回非零值。<br/> 備註：<br/> 只有當 EM GETSTATUS 傳回的是閒置時，才應該使用這種情況 \_ \_ 。<br/>                                                                                                                                                                                                                                                                          |
 | EM \_ GETSELINK<br/>            | 取得選取範圍內的筆墨。 必須先辨識筆墨，才能透過此訊息進行存取。 如果無法先辨識，EM \_ GETSELINK 一律會傳回零個 [**InkDisp**](inkdisp-class.md) 物件。<br/> 參數：<br/>*wParam* 未使用此參數;它必須是0。<br/>*lParam* 指定 VARIANT 的指標，以接收安全陣列以接收目前選取範圍內的 [**InkDisp**](inkdisp-class.md) 物件。<br/> 傳回值：<br/> 如果成功，則此訊息會傳回0，如果發生錯誤則傳回非零值。<br/>                                                                                                                                     |
-| EM \_ SETSELINK<br/>            | 設定選取範圍內的筆墨。 如果與 Windows XP Tablet PC Edition 以外的任何作業系統一起使用，則傳送此訊息不會有任何作用。<br/> 參數：<br/>*wParam* 未使用此參數;它必須是0。<br/>*lParam* 指定具有 [**InkDisp**](inkdisp-class.md) 物件之安全陣列的變異指標，以取代目前的選取範圍。<br/> 傳回值：<br/> 如果成功，則此訊息會傳回0，如果發生錯誤則傳回非零值。<br/>                                                                                                                                                                                                     |
+| EM \_ SETSELINK<br/>            | 設定選取範圍內的筆墨。 如果與安裝 Windows XP Tablet PC Edition 以外的任何作業系統搭配使用，則傳送此訊息不會有任何作用。<br/> 參數：<br/>*wParam* 未使用此參數;它必須是0。<br/>*lParam* 指定具有 [**InkDisp**](inkdisp-class.md) 物件之安全陣列的變異指標，以取代目前的選取範圍。<br/> 傳回值：<br/> 如果成功，則此訊息會傳回0，如果發生錯誤則傳回非零值。<br/>                                                                                                                                                                                                     |
 | EM \_ GETSELINKDISPLAYMODE<br/> | 使用 [**InkDisplayMode**](/windows/desktop/api/inked/ne-inked-inkdisplaymode) 列舉的其中一個值，傳回所選範圍中筆墨目前的外觀。<br/> 參數：<br/> 此訊息沒有參數; *wParam* 和 *lParam* 必須是0。<br/> 傳回值：<br/> 此訊息會傳回 [**InkDisplayMode**](/windows/desktop/api/inked/ne-inked-inkdisplaymode) 列舉的其中一個值 (idm \_ Text 或 IDM \_ 筆墨) ，以指定如何在控制項上顯示選取範圍。<br/>                                                                                                                                                                                                                           |
-| EM \_ SETSELINKDISPLAYMODE<br/> | 使用 [**InkDisplayMode**](/windows/desktop/api/inked/ne-inked-inkdisplaymode) 列舉的其中一個值，設定所選範圍中筆墨的外觀。<br/> 參數：<br/>*wParam* 未使用此參數;它必須是0。<br/>*lParam* 指定如何在選取的範圍中顯示筆墨，如 [**InkDisplayMode**](/windows/desktop/api/inked/ne-inked-inkdisplaymode) 列舉中所定義。<br/> 傳回值：<br/> 如果成功，則此訊息會傳回0，如果發生錯誤則傳回非零值。 如果與 Windows XP Tablet PC Edition 以外的任何作業系統一起使用，則傳送此訊息不會有任何作用。<br/>                                                                                                   |
+| EM \_ SETSELINKDISPLAYMODE<br/> | 使用 [**InkDisplayMode**](/windows/desktop/api/inked/ne-inked-inkdisplaymode) 列舉的其中一個值，設定所選範圍中筆墨的外觀。<br/> 參數：<br/>*wParam* 未使用此參數;它必須是0。<br/>*lParam* 指定如何在選取的範圍中顯示筆墨，如 [**InkDisplayMode**](/windows/desktop/api/inked/ne-inked-inkdisplaymode) 列舉中所定義。<br/> 傳回值：<br/> 如果成功，則此訊息會傳回0，如果發生錯誤則傳回非零值。 如果與安裝 Windows XP Tablet PC Edition 以外的任何作業系統搭配使用，則傳送此訊息不會有任何作用。<br/>                                                                                                   |
 | EM \_ GETSTATUS<br/>            | 取得 [InkEdit](inkedit-control-reference.md) 控制項的狀態。<br/> 參數：<br/> 此訊息沒有參數; *wParam* 和 *lParam* 必須是0。<br/> 傳回值：<br/> 此訊息會傳回 [**InkEditStatus**](/windows/desktop/api/inked/ne-inked-inkeditstatus) 列舉的其中一個值，這個值會指定控制項為閒置、收集筆墨或辨識筆跡。<br/>                                                                                                                                                                                                                                                                                                           |
 | EM \_ 辨識<br/>            | 強制辨識。<br/> 參數：<br/> 此訊息沒有參數; *wParam* 和 *lParam* 必須是0。<br/> 傳回值：<br/> 如果成功，則此訊息會傳回0，如果發生錯誤則傳回非零值。<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | EM \_ GETMOUSEICON<br/>         | 取得滑鼠圖示。<br/> 參數：<br/>*wParam* 未使用此參數;它必須是0。<br/>*lParam* 指定以 \* 目前的 [**MouseIcon**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_mouseicon) HICON 填入的 HICON 指標。 這個 HICON 可以是 HICON 或 **Null** 值。<br/> 傳回值：<br/> 如果成功，則此訊息會傳回0，如果發生錯誤則傳回非零值。<br/>                                                                                                                                                                                                                                                                                                    |

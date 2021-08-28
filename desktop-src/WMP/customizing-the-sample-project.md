@@ -13,12 +13,12 @@ keywords:
 - 範例，請輸入2個線上商店
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5fdb57327904d81ac85114af0df9037d6c2c054938f16048f6ca72e711063cc4
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f0e83d6384529ea9b67c5132ec9cc1846da5e438
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119902078"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122881802"
 ---
 # <a name="customizing-the-sample-project"></a>自訂範例 Project
 
@@ -39,7 +39,7 @@ ms.locfileid: "119902078"
 
 **AllowCDBurn** 和 **AllowPDATransfer** 方法提供 **IWMPPlaylist** 介面的指標作為參數。 此介面是代表播放清單物件的 Windows Media Player 介面。 藉由呼叫此介面上的方法，您可以使用播放清單的屬性和屬性、將專案新增至播放清單，或從播放清單中移除專案。
 
-若要瞭解如何以程式設計方式從播放清單中移除專案，請參閱 **CAllowBaseDialog <T> ：： OnRemoveMediaFromPlaylist** 的實。 若要深入瞭解如何使用媒體和播放清單物件，請參閱 [指令碼語言的播放程式物件模型](player-object-model-for-scripting-languages.md)。
+若要瞭解如何以程式設計方式從播放清單中移除專案，請參閱 **CAllowBaseDialog &lt; T &gt; ：： OnRemoveMediaFromPlaylist** 的執行方式。 若要深入瞭解如何使用媒體和播放清單物件，請參閱 [指令碼語言的播放程式物件模型](player-object-model-for-scripting-languages.md)。
 
 ## <a name="code-that-can-be-removed"></a>可以移除的程式碼
 
@@ -51,8 +51,8 @@ ms.locfileid: "119902078"
 
 從 Yourproject。 .cpp 移除下列程式碼：
 
--   **CAllowBaseDialog <T> ：： OnInitDialog** 的實作為。
--   **CAllowBaseDialog <T> ：： OnRemoveMediaFromPlaylist** 的實作為。
+-   **CAllowBaseDialog &lt; T &gt; ：： OnInitDialog** 的實作為。
+-   **CAllowBaseDialog &lt; T &gt; ：： OnRemoveMediaFromPlaylist** 的實作為。
 
 ## <a name="related-topics"></a>相關主題
 

@@ -7,23 +7,23 @@ keywords:
 - 變更服務的使用者帳戶 AD 的密碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3bf16b018796979d3710825472a5f9abab72cd24
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: e66f0d7b4dc668697b7a0a8d5b120735f3a445cf
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104462924"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122881622"
 ---
 # <a name="changing-the-password-on-a-services-user-account"></a>變更服務使用者帳戶的密碼
 
 如果是以使用者帳戶（而不是 LocalSystem 帳戶）登入的服務實例，則主機電腦上的服務控制管理員 (SCM) 會儲存帳戶密碼，此密碼會在服務啟動時用來登入服務。 如同任何使用者帳戶，您必須定期變更密碼以維護安全性。 當您變更服務帳戶的密碼時，請更新 SCM 所儲存的密碼。 下列程式碼範例示範如何執行這兩項作業。
 
-程式碼範例會使用 [**IADsUser SetPassword**](/windows/desktop/api/iads/nf-iads-iadsuser-setpassword) 來設定帳戶密碼。 這個方法會使用帳戶的分辨名稱。 然後，此範例會在指定的主機電腦上開啟已安裝服務的控制碼，並使用 [**ChangeServiceConfig**](/windows/desktop/api/winsvc/nf-winsvc-changeserviceconfiga) 函式來更新 SCM 所快取的密碼。 此函數會使用帳戶的 SAM 名稱 ( " <domain> \\ <username> " ) 。
+程式碼範例會使用 [**IADsUser SetPassword**](/windows/desktop/api/iads/nf-iads-iadsuser-setpassword) 來設定帳戶密碼。 這個方法會使用帳戶的分辨名稱。 然後，此範例會在指定的主機電腦上開啟已安裝服務的控制碼，並使用 [**ChangeServiceConfig**](/windows/desktop/api/winsvc/nf-winsvc-changeserviceconfiga) 函式來更新 SCM 所快取的密碼。 此函式會使用帳戶的 SAM 名稱 ( " &lt; domain &gt; \\ &lt; username &gt; " ) 。
 
 > [!Note]  
 > 這段程式碼必須由網域系統管理員執行。
 
- 
+ 
 
 對於每個複本都使用不同登入帳戶的可複製服務，您可以藉由列舉服務實例來更新所有複本的密碼。 如需詳細資訊和程式碼範例，請參閱 [列舉服務的複本](enumerating-the-replicas-of-a-service.md)。
 
@@ -153,6 +153,6 @@ return dwStatus;
 
 
 
- 
+ 
 
- 
+ 

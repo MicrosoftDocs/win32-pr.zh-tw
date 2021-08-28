@@ -4,12 +4,12 @@ ms.assetid: d3d22ae6-7d16-4f25-9f15-21b2163cb0f5
 title: 使用佇列的標記
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8e83d720478064f1427966de69d98ef06ac82f1da98cc50aa1ec3d3b3ac4c4d0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 938b4c0c8afc19e953d7f62f17f95bbd63f387e6
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118305155"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122473684"
 ---
 # <a name="using-the-queue-moniker"></a>使用佇列的標記
 
@@ -71,41 +71,14 @@ hr = CoGetObject (
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>參數</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><em>ComputerName</em><br/></td>
-<td>指定訊息佇列佇列路徑名稱的電腦名稱稱部分。 訊息佇列的佇列路徑名稱會格式化為<em>ComputerName</em> \ <em>QueueName</em>。 如果未指定，則會使用與已設定之應用程式相關聯的電腦名稱稱。<br/></td>
-</tr>
-<tr class="even">
-<td><em>QueueName</em><br/></td>
-<td>指定訊息佇列的佇列名稱。 訊息佇列的佇列路徑名稱會格式化為<em>ComputerName</em> \ <em>QueueName</em>。 如果未指定，則會使用與已設定之應用程式相關聯的佇列名稱。<br/> 若要取得非交易式佇列，您可以先指定佇列名稱，然後建立相同名稱的 COM + 應用程式。<br/></td>
-</tr>
-<tr class="odd">
-<td><em>PathName</em><br/></td>
-<td>指定完整訊息佇列的佇列路徑名稱。 如果未指定，則會使用與已設定之應用程式相關聯的訊息佇列佇列路徑名稱。 若要覆寫目的地名稱，可為訊息佇列工作組安裝指定下列格式的路徑：<br/> Queue：<em>PathName</em> = <em>ComputerName</em>\PRI加值稅E $ \ AppName/new： Myproject. CMyClass<br/>
-<blockquote>
-[!Note]<br />
-C 和 Microsoft Visual C++ 程式設計語言都需要兩個反斜線，以表示字串常值中的一個反斜線，例如芝加哥 \\ 薪資。
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td><em>Msmq.formatname</em><br/></td>
-<td>當您將 COM + 應用程式標示為已排入佇列時，COM + 會建立其名稱與應用程式相同的訊息佇列佇列。 該佇列的訊息佇列格式名稱位於與 COM + 應用程式相關聯的 COM + 目錄中。 若要覆寫目的地名稱，可為訊息佇列工作組安裝指定下列格式的格式名稱：<br/> Queue：<em>msmq.formatname</em>= DIRECT = OS：<em>ComputerName</em>\PRI加值稅E $ \ AppName/new： ProgId<br/> 在 Active Directory 設定中， &quot; &quot; 不會將私用 $ 指定為佇列名稱的一部分。 <br/></td>
-</tr>
-</tbody>
-</table>
+
+| 參數 | Description | 
+|-----------|-------------|
+| <em>ComputerName</em><br /> | 指定訊息佇列佇列路徑名稱的電腦名稱稱部分。 訊息佇列的佇列路徑名稱會格式化為<em>ComputerName</em> \<em> QueueName </em> 。 如果未指定，則會使用與已設定之應用程式相關聯的電腦名稱稱。<br /> | 
+| <em>QueueName</em><br /> | 指定訊息佇列的佇列名稱。 訊息佇列的佇列路徑名稱會格式化為<em>ComputerName</em> \<em> QueueName </em> 。 如果未指定，則會使用與已設定之應用程式相關聯的佇列名稱。<br /> 若要取得非交易式佇列，您可以先指定佇列名稱，然後建立相同名稱的 COM + 應用程式。<br /> | 
+| <em>PathName</em><br /> | 指定完整訊息佇列的佇列路徑名稱。 如果未指定，則會使用與已設定之應用程式相關聯的訊息佇列佇列路徑名稱。 若要覆寫目的地名稱，可為訊息佇列工作組安裝指定下列格式的路徑：<br /> Queue：<em>PathName</em> = <em>ComputerName</em>\PRI加值稅E $ \ AppName/new： Myproject. CMyClass<br /><blockquote>[!Note]<br />C 和 Microsoft Visual C++ 程式設計語言都需要兩個反斜線，以表示字串常值中的一個反斜線，例如芝加哥 \\ 薪資。</blockquote><br /> | 
+| <em>Msmq.formatname</em><br /> | 當您將 COM + 應用程式標示為已排入佇列時，COM + 會建立其名稱與應用程式相同的訊息佇列佇列。 該佇列的訊息佇列格式名稱位於與 COM + 應用程式相關聯的 COM + 目錄中。 若要覆寫目的地名稱，可為訊息佇列工作組安裝指定下列格式的格式名稱：<br /> Queue：<em>msmq.formatname</em>= DIRECT = OS：<em>ComputerName</em>\PRI加值稅E $ \ AppName/new： ProgId<br /> 在 Active Directory 設定中，不會將 "PRI加值稅E $" 指定為佇列名稱的一部分。 <br /> | 
+
 
 
 
@@ -122,115 +95,22 @@ COM + 佇列的元件接聽程式只能從與標示為已排入佇列的 COM + �
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>參數</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><em>AppSpecific</em><br/></td>
-<td>指定不帶正負號的整數，例如 AppSpecific = 12345。<br/></td>
-</tr>
-<tr class="even">
-<td><em>AuthLevel</em><br/></td>
-<td>指定訊息驗證層級。 已驗證的訊息會經過數位簽署，而且需要憑證給傳送訊息的使用者。 可接受的值：<br/>
-<ul>
-<li>MQMSG_AUTH_LEVEL_NONE，0</li>
-<li>MQMSG_AUTH_LEVEL_ALWAYS，1</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><em>傳遞</em><br/></td>
-<td>指定訊息傳遞選項。 交易式佇列會忽略此值。 可接受的值：<br/>
-<ul>
-<li>MQMSG_DELIVERY_EXPRESS，0</li>
-<li>MQMSG_DELIVERY_RECOVERABLE，1</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><em>EncryptAlgorithm</em><br/></td>
-<td>指定訊息佇列用來加密和解密訊息的加密演算法。 可接受的值：<br/>
-<ul>
-<li>CALG_RC2，CALG_RC4</li>
-<li><em>EncryptAlgorithm</em>訊息佇列可以接受的任何整數值。</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><em>HashAlgorithm</em><br/></td>
-<td>指定密碼編譯雜湊函數。 可接受的值：<br/>
-<ul>
-<li>CALG_MD2，CALG_MD4，CALG_MD5，CALG_SHA，CALG_SHA1，CALG_MAC，CALG_SSL3_SHAMD5，CALG_HMAC，CALG_TLS1PRF</li>
-<li><em>HashAlgorithm</em>訊息佇列可以接受的任何整數值。</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>日誌<br/></td>
-<td>指定訊息佇列的訊息日誌選項。 可接受的值：<br/>
-<ul>
-<li>MQMSG_JOURNAL_NONE，0</li>
-<li>MQMSG_DEADLETTER，1</li>
-<li>MQMSG_JOURNAL，2</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><em>標籤</em><br/></td>
-<td>指定最多 MQ_MAX_MSG_LABEL_LEN 個字元的訊息標籤字串。 <br/></td>
-</tr>
-<tr class="even">
-<td><em>MaxTimeToReachQueue</em><br/></td>
-<td>指定訊息抵達佇列的最長時間（以秒為單位）。 <br/> 可接受的值：<br/>
-<ul>
-<li>INFINITE</li>
-<li>LONG_LIVED</li>
-<li>秒數</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><em>MaxTimeToReceive</em><br/></td>
-<td>指定目標應用程式接收訊息的最長時間（以秒為單位）。 可接受的值：<br/>
-<ul>
-<li>INFINITE</li>
-<li>LONG_LIVED</li>
-<li>秒數</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><em>優先順序</em><br/></td>
-<td>指定允許的訊息佇列值內的訊息優先權層級。<br/> 可接受的值：<br/>
-<ul>
-<li>MQ_MIN_PRIORITY，0</li>
-<li>MQ_MAX_PRIORITY，7</li>
-<li>MQ_DEFAULT_PRIORITY，3</li>
-<li>介於0和7之間的數位</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><em>PrivLevel</em><br/></td>
-<td>指定用來加密訊息的隱私權等級。<br/> 可接受的值：<br/>
-<ul>
-<li>MQMSG_PRIV_LEVEL_NONE、無、0</li>
-<li>MQMSG_PRIV_LEVEL_BODY，主體，</li>
-<li>MQMSG_PRIV_LEVEL_BODY_BASE，BODY_BASE，1</li>
-<li>MQMSG_PRIV_LEVEL_BODY_ENHANCED、BODY_ENHANCED、3</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><em>跟蹤</em><br/></td>
-<td>指定追蹤訊息佇列路由中使用的追蹤選項。<br/> 可接受的值：<br/>
-<ul>
-<li>MQMSG_TRACE_NONE，0</li>
-<li>MQMSG_SEND_ROUTE_TO_REPORT_QUEUE，1</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| 參數 | Description | 
+|-----------|-------------|
+| <em>AppSpecific</em><br /> | 指定不帶正負號的整數，例如 AppSpecific = 12345。<br /> | 
+| <em>AuthLevel</em><br /> | 指定訊息驗證層級。 已驗證的訊息會經過數位簽署，而且需要憑證給傳送訊息的使用者。 可接受的值：<br /><ul><li>MQMSG_AUTH_LEVEL_NONE，0</li><li>MQMSG_AUTH_LEVEL_ALWAYS，1</li></ul> | 
+| <em>傳遞</em><br /> | 指定訊息傳遞選項。 交易式佇列會忽略此值。 可接受的值：<br /><ul><li>MQMSG_DELIVERY_EXPRESS，0</li><li>MQMSG_DELIVERY_RECOVERABLE，1</li></ul> | 
+| <em>EncryptAlgorithm</em><br /> | 指定訊息佇列用來加密和解密訊息的加密演算法。 可接受的值：<br /><ul><li>CALG_RC2，CALG_RC4</li><li><em>EncryptAlgorithm</em>訊息佇列可以接受的任何整數值。</li></ul> | 
+| <em>HashAlgorithm</em><br /> | 指定密碼編譯雜湊函數。 可接受的值：<br /><ul><li>CALG_MD2，CALG_MD4，CALG_MD5，CALG_SHA，CALG_SHA1，CALG_MAC，CALG_SSL3_SHAMD5，CALG_HMAC，CALG_TLS1PRF</li><li><em>HashAlgorithm</em>訊息佇列可以接受的任何整數值。</li></ul> | 
+| 日誌<br /> | 指定訊息佇列的訊息日誌選項。 可接受的值：<br /><ul><li>MQMSG_JOURNAL_NONE，0</li><li>MQMSG_DEADLETTER，1</li><li>MQMSG_JOURNAL，2</li></ul> | 
+| <em>標籤</em><br /> | 指定最多 MQ_MAX_MSG_LABEL_LEN 個字元的訊息標籤字串。 <br /> | 
+| <em>MaxTimeToReachQueue</em><br /> | 指定訊息抵達佇列的最長時間（以秒為單位）。 <br /> 可接受的值：<br /><ul><li>INFINITE</li><li>LONG_LIVED</li><li>秒數</li></ul> | 
+| <em>MaxTimeToReceive</em><br /> | 指定目標應用程式接收訊息的最長時間（以秒為單位）。 可接受的值：<br /><ul><li>INFINITE</li><li>LONG_LIVED</li><li>秒數</li></ul> | 
+| <em>優先順序</em><br /> | 指定允許的訊息佇列值內的訊息優先權層級。<br /> 可接受的值：<br /><ul><li>MQ_MIN_PRIORITY，0</li><li>MQ_MAX_PRIORITY，7</li><li>MQ_DEFAULT_PRIORITY，3</li><li>介於0和7之間的數位</li></ul> | 
+| <em>PrivLevel</em><br /> | 指定用來加密訊息的隱私權等級。<br /> 可接受的值：<br /><ul><li>MQMSG_PRIV_LEVEL_NONE、無、0</li><li>MQMSG_PRIV_LEVEL_BODY，主體，</li><li>MQMSG_PRIV_LEVEL_BODY_BASE，BODY_BASE，1</li><li>MQMSG_PRIV_LEVEL_BODY_ENHANCED、BODY_ENHANCED、3</li></ul> | 
+| <em>追蹤</em><br /> | 指定追蹤訊息佇列路由中使用的追蹤選項。<br /> 可接受的值：<br /><ul><li>MQMSG_TRACE_NONE，0</li><li>MQMSG_SEND_ROUTE_TO_REPORT_QUEUE，1</li></ul> | 
+
 
 
 

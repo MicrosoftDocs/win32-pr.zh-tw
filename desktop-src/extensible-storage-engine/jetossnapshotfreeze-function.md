@@ -20,23 +20,23 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: cb6ea9a4a3145c0c4b3c3caeb3214b299ea1be85
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 854e38f91b894b1f7cc486a15afcfe857aaa31d6
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193979"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122473964"
 ---
 # <a name="jetossnapshotfreeze-function"></a>JetOSSnapshotFreeze 函式
 
 
-_**適用于：** Windows |Windows Server_
+_**適用于：** Windows |Windows伺服器_
 
 ## <a name="jetossnapshotfreeze-function"></a>JetOSSnapshotFreeze 函式
 
 **JetOSSnapshotFreeze** 函式會啟動快照集。 當快照集進行中時，引擎無法進行寫入磁片的活動。
 
-**Windows xp：**  **JetOSSnapshotFreeze** 是在 windows xp 中引進的。
+**Windows xp：****JetOSSnapshotFreeze** 是在 Windows xp 引進。  
 
 ```cpp
     JET_ERR JET_API JetOSSnapshotFreeze(
@@ -67,50 +67,19 @@ _**適用于：** Windows |Windows Server_
 
 ### <a name="return-value"></a>傳回值
 
-此函數會傳回具有下列其中一個傳回碼的 [JET_ERR](./jet-err.md) 資料類型。 如需可能 ESE 錯誤的詳細資訊，請參閱可延伸 [儲存引擎錯誤](./extensible-storage-engine-errors.md) 和 [錯誤處理參數](./error-handling-parameters.md)。
+此函數會傳回具有下列其中一個傳回碼的 [JET_ERR](./jet-err.md) 資料類型。 如需可能 ESE 錯誤的詳細資訊，請參閱可延伸的[儲存體引擎錯誤](./extensible-storage-engine-errors.md)和[錯誤處理參數](./error-handling-parameters.md)。
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>傳回碼</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errSuccess</p></td>
-<td><p>作業已成功完成。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errInvalidParameter</p></td>
-<td><p>提供給輸出參數的指標為 Null、快照集會話無效，或 <em>grbit</em> 參數無效。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errOSSnapshotInvalidSequence</p></td>
-<td><p>快照會話不是處於適當的狀態，無法開始凍結 (例如，在) 之前，此會話上先前的凍結失敗。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errOSSnapshotNotAllowed</p></td>
-<td><p>引擎未處於可以執行快照集的狀態。 有一或多個串流備份已在進行中，或有一或多個實例正在進行復原步驟或正在終止。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errOSSnapshotInvalidSnapId</p></td>
-<td><p>快照集會話的識別碼無效。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errOutOfMemory</p></td>
-<td><p>因為記憶體不足，所以函數失敗。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errOutOfThreads</p></td>
-<td><p>函數失敗，因為執行凍結的新執行緒無法啟動。</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>傳回碼</p> | <p>Description</p> | 
+|--------------------|--------------------|
+| <p>JET_errSuccess</p> | <p>作業已成功完成。</p> | 
+| <p>JET_errInvalidParameter</p> | <p>提供給輸出參數的指標為 Null、快照集會話無效，或 <em>grbit</em> 參數無效。</p> | 
+| <p>JET_errOSSnapshotInvalidSequence</p> | <p>快照會話不是處於適當的狀態，無法開始凍結 (例如，在) 之前，此會話上先前的凍結失敗。</p> | 
+| <p>JET_errOSSnapshotNotAllowed</p> | <p>引擎未處於可以執行快照集的狀態。 有一或多個串流備份已在進行中，或有一或多個實例正在進行復原步驟或正在終止。</p> | 
+| <p>JET_errOSSnapshotInvalidSnapId</p> | <p>快照集會話的識別碼無效。</p> | 
+| <p>JET_errOutOfMemory</p> | <p>因為記憶體不足，所以函數失敗。</p> | 
+| <p>JET_errOutOfThreads</p> | <p>函數失敗，因為執行凍結的新執行緒無法啟動。</p> | 
+
 
 
 如果此函式成功，則不會有針對資料庫檔案或屬於已凍結實例一部分的記錄檔發出的任何寫入 Io。 此外，系統會適當地填滿實例資訊，而且必須在稍後透過呼叫 [JetFreeBuffer](./jetfreebuffer-function.md) 以及傳回之實例資訊陣列的指標來釋放。
@@ -129,38 +98,9 @@ _**適用于：** Windows |Windows Server_
 
 #### <a name="requirements"></a>規格需求
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>用戶端</strong></p></td>
-<td><p>需要 Windows Vista 或 Windows XP。</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>伺服器</strong></p></td>
-<td><p>需要 Windows Server 2008 或 Windows Server 2003。</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>標頭</strong></p></td>
-<td><p>宣告于 Esent. h 中。</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>程式庫</strong></p></td>
-<td><p>使用 ESENT。</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>DLL</strong></p></td>
-<td><p>需要 ESENT.dll。</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Unicode</strong></p></td>
-<td><p>實作為 <strong>JetOSSnapshotFreezeW</strong> (Unicode) 和 <strong>JetOSSnapshotFreezeA</strong> (ANSI) 。</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p><strong>用戶端</strong></p> | <p>需要 Windows Vista 或 Windows XP。</p> | | <p><strong>伺服器</strong></p> | <p>需要 Windows server 2008 或 Windows server 2003。</p> | | <p><strong>標頭</strong></p> | <p>宣告于 Esent. h 中。</p> | | <p><strong>程式庫</strong></p> | <p>使用 ESENT。</p> | | <p><strong>DLL</strong></p> | <p>需要 ESENT.dll。</p> | | <p><strong>Unicode</strong></p> | <p>實作為 <strong>JetOSSnapshotFreezeW</strong> (Unicode) 和 <strong>JetOSSnapshotFreezeA</strong> (ANSI) 。</p> | 
+
 
 
 #### <a name="see-also"></a>另請參閱

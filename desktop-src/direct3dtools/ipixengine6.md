@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 77a984f941cce8cac32eda50b691baf3a8234e819ca3b332dc5fd916eb33eb61
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7b467a0046bb5f1320cf10f6f9594e69300d4a97
+ms.sourcegitcommit: 4e94fc75fad7b2a0f3c92a26f97e89924e59b7a9
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118282285"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "122787324"
 ---
 # <a name="span-idvspixengineipixengine6spanipixengine6-interface"></a><span id="vspixengine.ipixengine6"></span>IPixEngine6 介面
 
@@ -38,13 +38,13 @@ IPixEngine5 介面的延伸模組，包含用於判斷遠端引擎版本的新�
 
 **IPixEngine6** 介面具有這些方法。
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">方法</th><th style="text-align: left;">描述</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/ipixengine6-getremotingversion-remotingversion-ptr"><strong>GetRemotingVersion</strong></a></td><td style="text-align: left;"><p>取得引擎的遠端處理版本。</p></td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th >方法</th><th >說明</th></tr></thead><tbody><tr class="odd"><td ><a href="/windows/desktop/direct3dtools/ipixengine6-getremotingversion-remotingversion-ptr"><strong>GetRemotingVersion</strong></a></td><td ><p>取得引擎的遠端處理版本。</p></td></tr></tbody></table>
 
  
 
 ## <a name="requirements"></a>規格需求
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>標頭</p></td><td>Vspixengine。h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>標頭</p></td><td>Vspixengine。h</td></tr></tbody></table>
 
  
 

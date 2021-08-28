@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 05df18c3b17e127d910450a34895483215b87f7ee428a44ff7f062501cc74e5d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0bfa69988f5b5414eac3e27b3371bca0e0a28810
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119083742"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122474974"
 ---
 # <a name="wmt_videoimage_transition_page_roll"></a>WMT \_ VIDEOIMAGE \_ 轉換 \_ 頁面 \_ 滾動
 
@@ -31,56 +31,14 @@ ms.locfileid: "119083742"
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>參數</th>
-<th>結構成員</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>半徑</td>
-<td><strong>fEffectPara0</strong></td>
-<td>頁面滾動效果中的滾動半徑。</td>
-</tr>
-<tr class="even">
-<td>距離</td>
-<td><strong>fEffectPara1</strong></td>
-<td>頁面滾動效果所顯示的新影像數量（以圖元為單位）。</td>
-</tr>
-<tr class="odd">
-<td>方向</td>
-<td><strong>fEffectPara2</strong></td>
-<td>頁面變換來源的影片框架邊角或側邊。設定為下列其中一個值：<br/>
-<ul>
-<li>0-左邊</li>
-<li>1-右端</li>
-<li>2-下</li>
-<li>3-上方</li>
-<li>4-左下角</li>
-<li>5-右下角</li>
-<li>6-左上角</li>
-<li>7-右上角</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>Composition</td>
-<td><strong>fEffectPara3</strong></td>
-<td>設定為下列其中一個值：
-<ul>
-<li>0-指定一般組合，其中上一個影像是背景，而目前影像是前景。</li>
-<li>1-指定反轉組合，其中目前影像是背景影像，而上一個影像是前景</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| 參數 | 結構成員 | Description | 
+|-----------|------------------|-------------|
+| 半徑 | <strong>fEffectPara0</strong> | 頁面滾動效果中的滾動半徑。 | 
+| 距離 | <strong>fEffectPara1</strong> | 頁面滾動效果所顯示的新影像數量（以圖元為單位）。 | 
+| 方向 | <strong>fEffectPara2</strong> | 頁面變換來源的影片框架邊角或側邊。設定為下列其中一個值：<br /><ul><li>0-左邊</li><li>1-右端</li><li>2-下</li><li>3-上方</li><li>4-左下角</li><li>5-右下角</li><li>6-左上角</li><li>7-右上角</li></ul> | 
+| Composition | <strong>fEffectPara3</strong> | 設定為下列其中一個值：<ul><li>0-指定一般組合，其中上一個影像是背景，而目前影像是前景。</li><li>1-指定反轉組合，其中目前影像是背景影像，而上一個影像是前景</li></ul> | 
+
 
 
 

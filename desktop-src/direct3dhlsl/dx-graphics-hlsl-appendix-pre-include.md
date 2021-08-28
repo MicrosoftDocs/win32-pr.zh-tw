@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: a844459234200ca99233eb3f64a2a1c30449cdcc
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 079ae2680a2610993c3cd54ac64afdfcbafa25c9
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104990942"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122627464"
 ---
 # <a name="include-directive"></a>\#include 指示詞
 
@@ -31,7 +31,7 @@ ms.locfileid: "104990942"
 
 ## <a name="parameters"></a>參數
 
-| 項目 | 描述 |
+| Item | 描述 |
 |------|-------------|
 | *filename* | 要包含之檔案的檔案名（選擇性地在前面加上目錄規格）。 檔案名必須指定現有的檔案。 |
 
@@ -46,8 +46,8 @@ ms.locfileid: "104990942"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">

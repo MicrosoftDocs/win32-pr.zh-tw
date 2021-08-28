@@ -15,23 +15,23 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: e4e6b2f313a5411ba5bfeea73db3b01afe007612
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a7ea4520a75e83c77a6403a583e9131a15df337b
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103689604"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122988224"
 ---
 # <a name="jet_recsize-structure"></a>JET_RECSIZE 結構
 
 
-_**適用于：** Windows |Windows Server_
+_**適用于：** Windows |Windows伺服器_
 
 ## <a name="jet_recsize-structure"></a>JET_RECSIZE 結構
 
 [JetGetRecordSize](./jetgetrecordsize-function.md)會使用 **JET_RECSIZE** 結構來傳回有關使用者資料空間、集合資料行數目、值數目，以及 ESE 記錄結構額外空間之記錄使用需求的資訊。
 
-**Windows Vista：** 在 Windows Vista 中引進 **JET_RECSIZE** 結構。
+**Windows Vista：** Windows Vista 引進了 **JET_RECSIZE** 結構。
 
 ```cpp
     typedef struct {
@@ -94,26 +94,13 @@ _**適用于：** Windows |Windows Server_
 
 ### <a name="requirements"></a>規格需求
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>用戶端</strong></p></td>
-<td><p>需要 Windows Vista。</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>伺服器</strong></p></td>
-<td><p>需要 Windows Server 2008。</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>標頭</strong></p></td>
-<td><p>宣告于 Esent. h 中。</p></td>
-</tr>
-</tbody>
-</table>
+
+| 需求 | 值 |
+|------------|----------|
+| <p><strong>用戶端</strong></p> | <p>需要 Windows Vista。</p> | 
+| <p><strong>伺服器</strong></p> | <p>需要 Windows Server 2008。</p> | 
+| <p><strong>標頭</strong></p> | <p>宣告于 Esent. h 中。</p> | 
+
 
 
 ### <a name="see-also"></a>另請參閱

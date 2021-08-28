@@ -4,12 +4,12 @@ ms.assetid: a1263968-2b26-45cc-bdd7-6aa354821a5a
 title: NUMA 支援
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 178f53c6b55b6ae291cd5cdcf99386515a441094
-ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
+ms.openlocfilehash: 503b64f6f18779fb66a87fc3c45b682fcb97248c
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "110549803"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122479424"
 ---
 # <a name="numa-support"></a>NUMA 支援
 
@@ -31,7 +31,7 @@ ms.locfileid: "110549803"
 
 在具有超過64個邏輯處理器的系統上，會根據節點的容量將節點指派給 [處理器群組](processor-groups.md) 。 節點的容量是指當系統啟動時，系統會與任何可在系統執行時新增的其他邏輯處理器一起出現的處理器數目。
 
-**Windows server 2008、Windows Vista、Windows server 2003 和 WINDOWS XP：** 不支援處理器群組。
+**Windows server 2008、Windows Vista Windows server 2003 和 Windows XP：** 不支援處理器群組。
 
 每個節點都必須完全包含在群組內。 如果節點的容量相對較小，系統會將多個節點指派給相同群組，選擇實體接近另一個節點的節點，以獲得更佳的效能。 如果節點的容量超過群組中的處理器數目上限，系統會將節點分割成多個較小的節點，每個節點的大小都足以容納在群組中。
 
@@ -54,7 +54,7 @@ ms.locfileid: "110549803"
 由於移除節點分割可能會影響現有的應用程式，因此可以使用登錄值來選擇回到舊版節點分割行為。 您可以建立名為 "SplitLargeNodes" 的 **REG_DWORD** 值，並將值1放在 HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\NUMA 下方，以重新啟用節點分割。 變更此設定需要重新開機才會生效。
 
 ```powershell
-reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\NUMA" /v SplitLargeNumaNodes /t REG_DWORD /v 1
+reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\NUMA" /v SplitLargeNodes /t REG_DWORD /d 1
 ```
 
 > [!NOTE]
@@ -198,7 +198,7 @@ for (ProcessorIndex = 0; ProcessorIndex < ProcessorCount; ProcessorIndex += 1) {
 | [**GetNumaProximityNodeEx**](/windows/win32/api/systemtopologyapi/nf-systemtopologyapi-getnumaproximitynodeex)                     | 將節點編號抓取為指定之相近識別碼的 **USHORT** 值。                                                                                                                                         |
 | [**GetProcessDefaultCpuSetMasks**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getprocessdefaultcpusetmasks)                     | Windows 10 組建20348中的新功能。 抓取 SetProcessDefaultCpuSetMasks 或 SetProcessDefaultCpuSets 所設定之進程預設集中的 CPU 集合清單。                                                                                                                                         |
 | [**GetThreadSelectedCpuSetMasks**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getthreadselectedcpusetmasks)                     | Windows 10 組建20348中的新功能。 為指定的執行緒設定選取的 CPU 集合指派。 此指派會覆寫進程預設指派（如果有設定）。                                                                                                                                          |
-| [**MapViewOfFileExNuma**](/windows/win32/api/winbase/nf-winbase-mapviewoffileexnuma)                          | 將檔案對應的視圖對應至呼叫進程的位址空間，並為實體記憶體指定 NUMA 節點。                                                                                                 |
+| [**MapViewOfFileExNuma**](/windows/win32/api/winbase/nf-winbase-mapviewoffileexnuma)                          | 地圖將檔案對應到呼叫進程的位址空間，並為實體記憶體指定 NUMA 節點。                                                                                                 |
 | [**SetProcessDefaultCpuSetMasks**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-setprocessdefaultcpusetmasks)                     | Windows 10 組建20348中的新功能。 針對指定進程中的執行緒，設定預設的 CPU 集合指派。                                                                                                                                          |
 | [**SetThreadSelectedCpuSetMasks**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-setthreadselectedcpusetmasks)                     | Windows 10 組建20348中的新功能。 為指定的執行緒設定選取的 CPU 集合指派。 此指派會覆寫進程預設指派（如果有設定）。                                                                                                                                          |
 | [**VirtualAllocExNuma**](/windows/win32/api/memoryapi/nf-memoryapi-virtualallocexnuma)                            | 保留或認可指定進程的虛擬位址空間內的記憶體區域，並指定實體記憶體的 NUMA 節點。                                                                          |

@@ -4,12 +4,12 @@ ms.assetid: 06704a5a-e7ae-4187-ae36-32512d951aaf
 title: MPEG-2 分隔器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 417fcca0bfc7a5c24416cfc2cb915f968c12105d
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: 9df24cb6542c335253c9f78051805b5810b5df67
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122465251"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122988321"
 ---
 # <a name="mpeg-2-splitter"></a>MPEG-2 分隔器
 
@@ -27,7 +27,18 @@ ms.locfileid: "122465251"
 
 
 
-| | |篩選介面 | <a href="/windows/desktop/api/Strmif/nn-strmif-ibasefilter"><strong>IBaseFilter</strong></a>、 <strong>ISpecifyPropertyPages</strong>、 <a href="/previous-versions/windows/desktop/api/Amparse/nn-amparse-iamparse"><strong>IAMParse</strong></a>、 <a href="/windows/desktop/api/Strmif/nn-strmif-iamstreamselect"><strong>IAMStreamSelect</strong></a> | |輸入 Pin 媒體類型 | <ul><li>MEDIATYPE_Stream，MEDIASUBTYPE_MPEG2_PROGRAM</li><li>MEDIATYPE_Stream，MEDIASUBTYPE_MPEG1_Video</li><li>MEDIATYPE_Stream，MEDIASUBTYPE_Null</li></ul> | |輸入 Pin 介面 | <a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPin</strong></a>、 <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>IQualityControl</strong></a> | |輸出釘選媒體類型 |相依于資料流程類型。 請參閱 <a href="mpeg-2-splitter-media-types.md">Mpeg-2 分隔器媒體類型</a> | |輸出 Pin 介面 | <a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPin</strong></a>、 <a href="/windows/desktop/api/Strmif/nn-strmif-imediaseeking"><strong>IMediaSeeking</strong></a> | |篩選 CLSID |CLSID_MMSPLITTER | |屬性頁 CLSID |不適用 | |可執行檔 |mpg2splt.ax | | <a href="merit.md">業績</a> |MERIT_NORMAL + 1 | | <a href="filter-categories.md">篩選準則類別</a> |CLSID_AudioInputDeviceCategory | 
+| 標籤 | 值 |
+|--------|-------|
+| 篩選介面 | <a href="/windows/desktop/api/Strmif/nn-strmif-ibasefilter"><strong>IBaseFilter</strong></a>、 <strong>ISpecifyPropertyPages</strong>、 <a href="/previous-versions/windows/desktop/api/Amparse/nn-amparse-iamparse"><strong>IAMParse</strong></a>、 <a href="/windows/desktop/api/Strmif/nn-strmif-iamstreamselect"><strong>IAMStreamSelect</strong></a> | 
+| 輸入 Pin 媒體類型 | <ul><li>MEDIATYPE_Stream，MEDIASUBTYPE_MPEG2_PROGRAM</li><li>MEDIATYPE_Stream，MEDIASUBTYPE_MPEG1_Video</li><li>MEDIATYPE_Stream，MEDIASUBTYPE_Null</li></ul> | 
+| 輸入 Pin 介面 | <a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPin</strong></a>、 <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"> <strong>IQualityControl</strong></a> | 
+| 輸出 Pin 媒體類型 | 相依于資料流程類型。 請參閱 <a href="mpeg-2-splitter-media-types.md">Mpeg-2 分隔器媒體類型</a> | 
+| 輸出 Pin 介面 | <a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPin</strong></a>、 <a href="/windows/desktop/api/Strmif/nn-strmif-imediaseeking"> <strong>IMediaSeeking</strong></a> | 
+| 篩選 CLSID | CLSID_MMSPLITTER | 
+| 屬性頁 CLSID | 不適用 | 
+| 可執行檔 | mpg2splt.ax | 
+| <a href="merit.md">優點</a> | MERIT_NORMAL + 1 | 
+| <a href="filter-categories.md">篩選準則分類</a> | CLSID_AudioInputDeviceCategory | 
 
 
 

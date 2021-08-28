@@ -7,12 +7,12 @@ keywords:
 - 服務主體名稱 AD，服務的組合方式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fdd4c0ac9c871c76e9e8771a688d203898674e477426ebd788ee34fe894011a0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 35fb659eec3bb2d0f50fd109b39f356df1429535
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118188642"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122881401"
 ---
 # <a name="how-a-service-composes-its-spns"></a>服務如何撰寫其 Spn
 
@@ -20,7 +20,7 @@ ms.locfileid: "118188642"
 
 服務安裝程式通常會使用 [**DsGetSpn**](/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsgetspna) 函式來撰寫 spn，然後使用 [**DsWriteAccountSpn**](/windows/desktop/api/Ntdsapi/nf-ntdsapi-dswriteaccountspna) 函數來註冊服務的登入帳戶。 **DsGetSpn** 可執行下列功能。
 
--   使用 " <service class> / <host> " 格式來建立以主機為基礎的服務的簡單 SPN。
+-   以 <service class> / &lt; 主機服務的「主機」格式建立簡單 SPN &gt; 。
 -   建立包含可複製服務所使用之「服務名稱」元件的複雜 SPN， &lt; &gt; 或在 &lt; &gt; 單一主機上區分服務之多個實例的「埠」元件。
 -   建立單一 SPN，並將 " &lt; host &gt; " 元件設定為指定主機的名稱，或預設為本機電腦的名稱。
 -   針對將在整個樹系的多部主機上執行的多個服務實例，建立 Spn 的陣列。 每個 SPN 都會指定服務實例的主機名稱。

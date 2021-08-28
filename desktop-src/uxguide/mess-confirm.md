@@ -4,12 +4,12 @@ description: 確認是一個強制回應對話方塊，會詢問使用者是否�
 ms.assetid: 086302cd-c8a1-479c-87be-580945e5d3e6
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 22fc59cee7ebd02ae5e97b5a4db9549848267120
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.openlocfilehash: cbfe45319051e79bcbcf57486c99f12e38ab6658
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122987461"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122474444"
 ---
 # <a name="confirmations"></a>確認
 
@@ -91,7 +91,7 @@ ms.locfileid: "122987461"
 
 為了確認有價值，使用者必須瞭解不會繼續的原因。 有時候原因很明顯，因為當使用者以尚未儲存的變更來關閉檔時：
 
-![顯示小畫家 [您要儲存變更嗎？] 的螢幕擷取畫面 回應。](images/mess-confirm-image3.png)
+![顯示小畫家 [您要儲存變更嗎？] 的螢幕擷取畫面 訊息。](images/mess-confirm-image3.png)
 
 在此範例中，確認的原因很明顯。
 
@@ -444,11 +444,7 @@ Windows Vista 複製檔案確認。
 -   **確認的補充指示是根據其設計模式：**
 
     
-| 標籤 | 值 |
-|--------|-------|
-| <strong>模式</strong><br /> | <strong>補充指示</strong><br /> | 
-| 非預期的結果確認 <br /> | 請詢問一個問題，以判斷使用者是否想要繼續進行。 <br /> | 
-| All others <br /> | 說明使用者可能不想繼續的任何非明顯原因。 原因包括： <br /><ul><li>可能會遺失下列一或多項：    <ul><li>有價值的資產，例如資料遺失或財務損失。</li><li>系統存取或完整性。</li><li>隱私權或對機密資訊的控制。</li></ul></li><li>無法復原的動作。</li></ul> | 
+| | | <strong>模式</strong><br /> | <strong>補充指示</strong><br /> | |非預期的結果確認 <br /> |請詢問一個問題，以判斷使用者是否想要繼續進行。 <br /> | |所有其他 <br /> |說明使用者可能不想繼續的任何非明顯原因。 原因包括： <br /><ul><li>可能會遺失下列一或多項：    <ul><li>有價值的資產，例如資料遺失或財務損失。</li><li>系統存取或完整性。</li><li>隱私權或對機密資訊的控制。</li></ul></li><li>無法復原的動作。</li></ul> | 
 
 
     

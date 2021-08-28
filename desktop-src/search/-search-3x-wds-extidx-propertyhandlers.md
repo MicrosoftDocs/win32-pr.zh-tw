@@ -4,18 +4,18 @@ ms.assetid: b475329a-1ed7-43a4-8e11-3700889a4ce9
 title: 開發 Windows Search 的屬性處理常式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7ac96e47738040321025b7f600e2c91109b08d51
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3933353d8bf00c3a68a2259daf94a1ce4f13d295
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191209"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122627323"
 ---
 # <a name="developing-property-handlers-for-windows-search"></a>開發 Windows Search 的屬性處理常式
 
 Microsoft Windows Search 使用屬性處理常式從專案中將屬性值解壓縮，並使用屬性系統架構來決定應該如何編制特定屬性的索引。 若要讀取和編制屬性值的索引，Windows Search 來叫用跨進程的屬性處理常式，以提升安全性和穩定性。 相反地，屬性處理常式會由 Windows 檔案總管在進程中叫用，以讀取和寫入屬性值。
 
-本主題會使用 Windows Search 的特定資訊來補充 [屬性系統](../properties/building-property-handlers.md) 主題，並包含下列各節：
+本主題會使用 Windows Search 的特定資訊來補充[屬性系統](../properties/building-property-handlers.md)主題，並包含下列各節：
 
 -   [屬性處理常式的設計決策](#design-decisions-for-property-handlers)
     -   [屬性決策](#property-decisions)
@@ -89,8 +89,8 @@ Microsoft Windows Search 使用屬性處理常式從專案中將屬性值解壓�
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -121,7 +121,7 @@ Microsoft Windows Search 使用屬性處理常式從專案中將屬性值解壓�
 </tr>
 <tr class="odd">
 <td>maxSize</td>
-<td>選擇性。 指出儲存在 Windows 搜尋資料庫中的屬性值所允許的大小上限。 這項限制適用于向量的 indvidual 元素，而不是整個向量。 超出此大小的值會被截斷。 預設值為 &quot; 128 &quot; (bytes) 。<br/> 目前，Windows Search 在計算從檔案接受的資料量時，不會使用 maxSize。 相反地，Windows Search 使用的限制是檔案大小的產品，而 MaxGrowFactor (檔案大小 N * MaxGrowFactor) 從登錄的 HKEY_LOCAL_MACHINE >軟體 >>Windows Search >>。 預設 MaxGrowFactor 為四個 (4) 。 因此，如果您的檔案類型通常較小，但具有較大的屬性，Windows Search 可能不會接受您要發出的所有屬性資料。 不過，您可以增加 MaxGrowFactor 以符合您的需求。 <br/></td>
+<td>選擇性。 指出 Windows 搜尋資料庫中儲存的屬性值所允許的大小上限。 這項限制適用于向量的 indvidual 元素，而不是整個向量。 超出此大小的值會被截斷。 預設值為 &quot; 128 &quot; (bytes) 。<br/> 目前，Windows Search 在計算從檔案接受的資料量時，不會使用 maxSize。 相反地，Windows Search 使用的限制是檔案大小的產品，而 MaxGrowFactor (檔案大小 N * MaxGrowFactor) 從登錄的 HKEY_LOCAL_MACHINE >軟體 >>Windows Search >>。 預設 MaxGrowFactor 為四個 (4) 。 因此，如果您的檔案類型通常較小，但具有較大的屬性，Windows Search 可能不會接受您要發出的所有屬性資料。 不過，您可以增加 MaxGrowFactor 以符合您的需求。 <br/></td>
 </tr>
 </tbody>
 </table>
@@ -150,7 +150,7 @@ Microsoft Windows Search 使用屬性處理常式從專案中將屬性值解壓�
 
 在 Windows 7 和更新版本中，註冊屬性處理常式、 [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter)或新的擴充功能時，會有新的行為。 當安裝新的屬性處理常式和（或） **IFilter** 時，會自動重新建立索引具有對應副檔名的檔案。
 
-在 Windows 7 中，建議您將 [**ifilter**](/windows/win32/api/filter/nn-filter-ifilter) 與其對應的屬性處理常式一起安裝，並在屬性處理常式之前註冊 **ifilter** 。 註冊屬性處理常式時，會立即開始重新編制先前索引檔案的索引，而不需要重新開機，而且會利用任何先前註冊的 IFilter (s) 來進行內容編制索引。
+在 Windows 7 中，建議您將 [**ifilter**](/windows/win32/api/filter/nn-filter-ifilter)與其對應的屬性處理常式一起安裝，並在屬性處理常式之前註冊 **ifilter** 。 註冊屬性處理常式時，會立即開始重新編制先前索引檔案的索引，而不需要重新開機，而且會利用任何先前註冊的 IFilter (s) 來進行內容編制索引。
 
 如果只安裝了 [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) （沒有對應的屬性處理常式），則會在重新開機索引服務或系統重新開機之後，自動重新建立索引。
 
@@ -164,7 +164,7 @@ Microsoft Windows Search 使用屬性處理常式從專案中將屬性值解壓�
 
 在 Windows Vista 之前，篩選器提供了剖析和列舉檔案內容和屬性的支援。 隨著屬性系統的推出，屬性處理常式會在篩選處理檔案內容時，處理檔案屬性。 針對 Windows Vista，您只需要在與屬性處理常式協調的情況下開發 [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter)介面的部分執行，如在 [Windows Search 中建立篩選處理常式的最佳作法](-search-3x-wds-extidx-filters.md)所述。
 
-雖然屬性系統也隨附于 Windows XP 的 Windows Search 安裝，但協力廠商和繼承應用程式可能會要求篩選器同時處理內容和屬性。 因此，如果您是在 Windows XP 平臺上進行開發，則應該提供完整的篩選器，以及檔案類型或自訂屬性的屬性處理常式。
+雖然屬性系統也包含在 Windows XP 的 Windows Search 安裝中，但協力廠商和繼承應用程式可能需要篩選器處理內容和屬性。 因此，如果您是在 Windows XP 平臺上進行開發，則應該提供完整的篩選器，以及檔案類型或自訂屬性的屬性處理常式。
 
  
 
@@ -227,7 +227,7 @@ Propdesc) 屬性描述 ( XML 檔案的結構會在 [propertyDescription](../prop
 
 ## <a name="ensuring-your-items-get-indexed"></a>確保您的專案獲得索引
 
-既然您已完成屬性處理常式，您會想要確定您的處理常式已註冊為取得索引的專案。 您可以使用 [目錄管理員](-search-3x-wds-mngidx-catalog-manager.md) 來起始重新建立索引，也可以使用 [編目範圍管理員](-search-3x-wds-extidx-csm.md) 設定預設規則，指出您想要讓索引子編目的 url。 另一個選項是遵循 [WINDOWS SEARCH SDK 範例](https://www.microsoft.com/downloads/details.aspx?FamilyID=645300AE-5E7A-4CE7-95F0-49793F8F76E8)中的重新索引程式碼範例。
+既然您已完成屬性處理常式，您會想要確定您的處理常式已註冊為取得索引的專案。 您可以使用 [目錄管理員](-search-3x-wds-mngidx-catalog-manager.md) 來起始重新建立索引，也可以使用 [編目範圍管理員](-search-3x-wds-extidx-csm.md) 設定預設規則，指出您想要讓索引子編目的 url。 另一個選項是遵循[Windows Search SDK 範例](https://www.microsoft.com/downloads/details.aspx?FamilyID=645300AE-5E7A-4CE7-95F0-49793F8F76E8)中的重新索引程式碼範例。
 
 如需詳細資訊，請參閱 [使用目錄管理員](-search-3x-wds-mngidx-catalog-manager.md) 和 [使用編目範圍管理員](-search-3x-wds-extidx-csm.md)。
 
@@ -268,7 +268,7 @@ HKEY_LOCAL_MACHINE
 -   測試是否從檔案類型所支援的每個單一屬性取得輸出。
 -   例如，使用大屬性值（例如，在 HTML 檔案中使用大型 metatag）。
 -   從屬性處理常式取得輸出之後，或使用像是在列舉檔案屬性之前和之後的 oh.exe 之類的工具，檢查屬性處理常式是否未洩漏檔案控制代碼。
--   測試與屬性處理常式相關聯的所有檔案類型。 例如，請檢查 HTML 篩選準則是否適用 .htm 和 .html 檔案類型。
+-   測試與屬性處理常式相關聯的所有檔案類型。 例如，檢查 HTML 篩選器是否可搭配 .htm 和 .html 檔案類型使用。
 -   使用損毀的檔案進行測試。 屬性處理常式應該會正常失敗。
 -   如果應用程式支援加密，請測試屬性處理常式是否未輸出加密文字。
 -   如果您的屬性處理常式支援全文檢索搜尋：
@@ -316,7 +316,7 @@ HKEY_LOCAL_MACHINE
 
 ## <a name="using-system-supplied-property-handlers"></a>使用 System-Supplied 屬性處理常式
 
-Windows 包含許多系統提供的屬性處理常式，如果您的檔案類型格式相容，您可以使用這些處理常式。 如果您定義的新副檔名使用這些格式的其中一種，您可以註冊處理常式類別識別碼 (CLSID) 的副檔名，以使用系統提供的處理常式。
+Windows 包含許多系統提供的屬性處理常式，您可以在檔案類型的格式相容時使用這些處理常式。 如果您定義的新副檔名使用這些格式的其中一種，您可以註冊處理常式類別識別碼 (CLSID) 的副檔名，以使用系統提供的處理常式。
 
 您可以使用下表所列的 CLSID，針對您的檔案格式類型註冊系統提供的屬性處理常式。
 
@@ -418,7 +418,7 @@ System.FileOwner;System.ComputerName
 [系統屬性](https://msdn.microsoft.com/library/bb763010(VS.85).aspx)
 </dt> <dt>
 
-[Windows Search SDK 範例](https://www.microsoft.com/downloads/details.aspx?FamilyID=645300AE-5E7A-4CE7-95F0-49793F8F76E8)
+[Windows搜尋 SDK 範例](https://www.microsoft.com/downloads/details.aspx?FamilyID=645300AE-5E7A-4CE7-95F0-49793F8F76E8)
 </dt> </dl>
 
  
