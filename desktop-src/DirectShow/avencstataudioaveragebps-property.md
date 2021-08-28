@@ -4,12 +4,12 @@ ms.assetid: c90c9247-825f-4602-bb16-809969703a98
 title: 'AVEncStatAudioAverageBPS 屬性 (Codecapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a76bcf1ca7b3ee74ae406ebd71f85988a4d13313
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 47b43bf329d1d55b41c7849fee7855d322f3ab1622bca013ca5e96cfa4f519db
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104025772"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119999858"
 ---
 # <a name="avencstataudioaveragebps-property"></a>AVEncStatAudioAverageBPS 屬性
 
@@ -37,8 +37,8 @@ ms.locfileid: "104025772"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 2000 專業版傳統型 \[ 應用程式 \| UWP 應用程式\]<br/>                     |
-| 最低支援的伺服器<br/> | Windows 2000 Server \[ desktop 應用程式 \| UWP 應用程式\]<br/>                           |
+| 最低支援的用戶端<br/> | Windows 2000 Professional \[ 桌面應用程式 \| UWP 應用程式\]<br/>                     |
+| 最低支援的伺服器<br/> | Windows 2000 Server \[ desktop apps \| UWP 應用程式\]<br/>                           |
 | 標頭<br/>                   | <dl> <dt>Codecapi。h</dt> </dl> |
 
 

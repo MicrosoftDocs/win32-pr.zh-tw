@@ -4,12 +4,12 @@ ms.assetid: 626E8ADB-0DCD-4469-BC27-05091DD42078
 title: ICertificateEnrollmentServerSetup 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e90cfd5aba90b4343074425b898f28ec9268bb32
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ba6b551df0f3c30e7d630cf0ebe4df833f07b91ffe5c93c50332de00f2821bde
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106994389"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119005806"
 ---
 # <a name="icertificateenrollmentserversetup-methods"></a>ICertificateEnrollmentServerSetup 方法
 

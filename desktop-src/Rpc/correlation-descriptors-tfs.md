@@ -4,12 +4,12 @@ description: 相互關聯描述元是一個格式字串，它會根據與另一�
 ms.assetid: 9f5f5077-d6a9-4253-bddf-b8cd0c868973
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 35f13f0793b99b80b7abb0b493c249b30ad53d76
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: cbbeb682a7c558cd8c45050d27ea9bf64c39016a056a88566aef7048f3c0d610
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103842667"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120022357"
 ---
 # <a name="correlation-descriptors"></a>相互關聯描述元
 
@@ -71,7 +71,7 @@ offset<2>
 > [!Note]  
 > 多維度大小的陣列和指標會觸發切換至 [**– Oicf**](/windows/desktop/Midl/-oi)。
 
- 
+ 
 
 </dd> <dt>
 
@@ -96,7 +96,7 @@ FC_HYPER
 >
 > 編譯器會在下列情況下，將類型半值設定為零：上述常數運算式以及需要呼叫評估運算式常式（例如，當 \_ 使用 fc 常數 \_ 一致性和 fc 回呼時） \_ 。
 
- 
+ 
 
 大小 \_ 為 \_ op<1> 欄位允許將下列其中一項作業套用至一致性變數：
 
@@ -118,7 +118,7 @@ Offset<2> 欄位通常是運算式引數變數的相對記憶體位移。 它也
 
 當 offset<2> 用於 FC 回呼時 \_ ，它會在編譯器所產生的運算式評估常式資料表中包含索引。 存根訊息會傳遞至評估常式，然後計算一致性值，並將它指派給存根訊息的 MaxCount 欄位。
 
-已 \_ 新增 Windows 2000 的健全旗標<2> 欄位以支援 [**/robust**](/windows/desktop/Midl/-robust)，例如拒絕攻擊功能。 第一個位元組定義了下列旗標：
+已 \_ 針對 Windows 2000 新增穩固的旗標<2> 欄位，以支援 [**/robust**](/windows/desktop/Midl/-robust)，例如拒絕攻擊功能。 第一個位元組定義了下列旗標：
 
 ``` syntax
 typedef  struct  _NDR_CORRELATION_FLAGS
@@ -143,6 +143,6 @@ IsIidIs 旗標表示 **iid \_ ()** 相互關聯。 NdrComputeConformance 常式�
 
 使用變異數時，起始位移通常為零，且引擎會據以調整。 如果 **第一個 \_ 是 ()** 屬性套用至一致的不同陣列，則會強制執行運算式評估常式的回呼。
 
- 
+ 
 
- 
+ 

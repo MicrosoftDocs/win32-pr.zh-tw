@@ -7,12 +7,12 @@ keywords:
 - 屬性廣告
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 56579494cdc12c2d0ad6fadbb6395d07eaec80d2
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 63dba576893c7b48d63ea035d4942ad1c07915814ffb86b6c4f9e4589dc574b3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104023290"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118024209"
 ---
 # <a name="attributes-ad-ds"></a>屬性 (AD DS) 
 
@@ -43,6 +43,6 @@ Active Directory Domain Services 中的每個物件都包含一組屬性，這�
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 

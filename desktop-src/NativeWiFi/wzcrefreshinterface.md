@@ -13,16 +13,16 @@ api_type:
 - DllExport
 api_location:
 - Wzcsapi.dll
-ms.openlocfilehash: 3f2ac1bd546403dca781b3a132b44f96d80bb5c6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 43f2b35215c930517d5352073c679a116388eb49aaa3bd6a3c567467e50be1a9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320220"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119064508"
 ---
 # <a name="wzcrefreshinterface-function"></a>WZCRefreshInterface 函式
 
-\[在 Windows Vista 和 Windows Server 2008 中，不支援 **WZCRefreshInterface** 。 相反地，請使用 [原生 WIFI API](native-wifi-reference.md)，它會提供類似的功能。 如需詳細資訊，請參閱 [關於原生 WIFI API](about-the-native-wifi-api.md)。\]
+\[Windows Vista 和 Windows Server 2008 不支援 **WZCRefreshInterface** 。 相反地，請使用 [原生 WIFI API](native-wifi-reference.md)，它會提供類似的功能。 如需詳細資訊，請參閱 [關於原生 WIFI API](about-the-native-wifi-api.md)。\]
 
 **WZCRefreshInterface** 函式會更新特定無線區域網路介面的介面資訊。
 
@@ -94,7 +94,7 @@ DWORD WZCRefreshInterface(
 
 
 
-| 傳回碼                                                                                              | Description                                                                                                                                                                                                                                                                        |
+| 傳回碼                                                                                              | 描述                                                                                                                                                                                                                                                                        |
 |----------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**錯誤 \_ 領域 \_ 垃圾桶**</dt> </dl>     | 儲存體控制區塊已損毀。 如果無線零設定服務尚未初始化內建物件，則會傳回此錯誤。<br/>                                                                                                                      |
 | <dl> <dt>**\_ \_ \_ 找不到錯誤檔案**</dt> </dl>   | 系統找不到指定的檔案。 如果 *pIntf* 參數所指向之 [**INTF \_ 專案**](intf-entry.md)結構的 **wszGuid** 成員中的 GUID 與本機電腦上的任何無線區域網路介面不相符，就會傳回此錯誤。 <br/> |
@@ -120,9 +120,9 @@ DWORD WZCRefreshInterface(
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 Windows XP （含 SP2） \[ 桌面應用程式\]<br/>                                   |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                   |
-| 用戶端支援結束<br/>    | Windows XP （含 SP3）<br/>                                                         |
+| 最低支援的用戶端<br/> | Windows只有 XP （含 SP2） \[ 桌面應用程式\]<br/>                                   |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                   |
+| 用戶端支援結束<br/>    | WindowsXP SP3<br/>                                                         |
 | 伺服器支援結束<br/>    | Windows Server 2003<br/>                                                         |
 | 標頭<br/>                   | <dl> <dt>Wzcsapi。h</dt> </dl>   |
 | 程式庫<br/>                  | <dl> <dt>Wzcsapi .lib</dt> </dl> |

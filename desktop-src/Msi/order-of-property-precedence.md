@@ -4,12 +4,12 @@ ms.assetid: ba9240fe-2e5a-43f5-8cdf-59dd6348092b
 title: 屬性優先順序的順序
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 90c114594b9a825a3847db37f5b98dc990211d9c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b243180b356b081e3d14515d72c2ed1313ba6fa1f2fd81356b329c2edcd83598
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980064"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118942815"
 ---
 # <a name="order-of-property-precedence"></a>屬性優先順序的順序
 

@@ -4,22 +4,22 @@ ms.assetid: 63d62152-4f01-454f-bdea-550f2a9f6b14
 title: MsiDigitalSignature 資料表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bd0ec22b9a399b6248fd3b2781e1ac8d7ae14324
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d18514747e5bb99f03bacc792f9a9ec311e28006b837061ce96088c3b723bf93
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971738"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119679787"
 ---
 # <a name="msidigitalsignature-table"></a>MsiDigitalSignature 資料表
 
 MsiDigitalSignature 資料表包含安裝資料庫中每個數位簽署物件的簽章資訊。
 
-從 Windows Installer 版本2.0 開始，可以使用 MsiDigitalSignature 和 [MsiDigitalCertificate](msidigitalcertificate-table.md) 資料表。
+從 Windows Installer 版本2.0 開始，可以使用 MsiDigitalSignature 和[MsiDigitalCertificate](msidigitalcertificate-table.md)資料表。
 
-Windows Installer 版本可以使用數位簽章來偵測損毀的資源。 Windows Installer 2.0 只能驗證外部封包的數位簽章，而且只會使用 MsiDigitalSignature 和 [MsiDigitalCertificate](msidigitalcertificate-table.md) 資料表。
+Windows安裝程式版本可以使用數位簽章來偵測損毀的資源。 Windows安裝程式2.0 只能驗證外部封包的數位簽章，而且只會使用 MsiDigitalSignature 和[MsiDigitalCertificate](msidigitalcertificate-table.md)資料表。
 
-從 Windows Installer 3.0 開始，Windows Installer 可以使用 [MsiPatchCertificate](msipatchcertificate-table.md) 和 MsiDigitalCertificate 資料表來確認修補程式 () .msp 檔案的數位簽章。 如需詳細資訊，請參閱撰寫安全安裝和[使用者帳戶控制 (UAC) 修補](user-account-control--uac--patching.md)[的指導方針](guidelines-for-authoring-secure-installations.md)。
+從 Windows Installer 3.0 開始，Windows Installer 可以使用[MsiPatchCertificate](msipatchcertificate-table.md)和 MsiDigitalCertificate 資料表來確認修補程式 () .msp 檔案的數位簽章。 如需詳細資訊，請參閱撰寫安全安裝和[使用者帳戶控制 (UAC) 修補](user-account-control--uac--patching.md)[的指導方針](guidelines-for-authoring-secure-installations.md)。
 
 MsiDigitalSignature 資料表具有下列資料行。
 
@@ -43,7 +43,7 @@ MsiDigitalSignature 資料表具有下列資料行。
 <span id="Table"></span><span id="table"></span><span id="TABLE"></span>表
 </dt> <dd>
 
-使用 Windows Installer 版本2.0 時，此欄位中的專案必須是 [媒體資料表](media-table.md)的「媒體」。 安裝程式只會驗證外部封包媒體專案的數位簽章。 此資料行和 SignObject 資料行會一起指定經過數位簽署的資源。
+使用 Windows Installer 版本2.0 時，此欄位中的專案必須是[媒體資料表](media-table.md)的「媒體」。 安裝程式只會驗證外部封包媒體專案的數位簽章。 此資料行和 SignObject 資料行會一起指定經過數位簽署的資源。
 
 </dd> <dt>
 

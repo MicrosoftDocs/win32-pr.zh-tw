@@ -4,12 +4,12 @@ ms.assetid: 2EE35DD4-53A7-4721-BA87-657D31FDB522
 title: ICertEncodeStringArray 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 624b8d8d7e842ae4722e1572267bebb0b040a5fa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3487de2db51dd502d7d64026de6d668209d9a38209c68a35cfdedce3fc3dcc84
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103852292"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119005886"
 ---
 # <a name="icertencodestringarray-methods"></a>ICertEncodeStringArray 方法
 

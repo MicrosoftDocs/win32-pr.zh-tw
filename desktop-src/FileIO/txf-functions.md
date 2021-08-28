@@ -4,12 +4,12 @@ ms.assetid: fb6be33c-9d6c-48b2-a4da-31c60af8d972
 title: TxF 函數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b59fa3c9a1323ce77c97ee36390190ea6301d71d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 770f61430c0839d47fbacda5d3a1d882f324fcf3e9771b0d1b75d8261531de8e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103694528"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118950977"
 ---
 # <a name="txf-functions"></a>TxF 函數
 

@@ -4,12 +4,12 @@ description: 界限模式 IPsec 原則案例中的協商探索傳輸模式會要
 ms.assetid: 36ae74b3-30f5-49bd-8855-6f3c0fb04d70
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9869be61923bff1c392c5abe2bd98099a0c3c89f
-ms.sourcegitcommit: 78b64f3865e64768b5319d4f010032ee68924a98
+ms.openlocfilehash: 02b647f7a4ddf7b50131d6f84e09bf9fc6dce8f13a8575c6971d65be7caa7464
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "107314591"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119068858"
 ---
 # <a name="negotiation-discovery-transport-mode-in-boundary-mode"></a>界限模式中的協商探索傳輸模式
 

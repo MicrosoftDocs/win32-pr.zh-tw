@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 553d99dee7dd08218680fc0b43e6e12237c4f8fa
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 1795068aae1a5a8c3e793b828d5a80dbab369e16f9c5383af367b66d0febc738
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103678307"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119067438"
 ---
 # <a name="zp-switch"></a>/Zp 參數
 
@@ -49,7 +49,7 @@ midl /Zp packing_level
 > [!Note]  
 > 請勿在 MIPS 或 Alpha 平臺上使用 **/Zp1** 或 **/Zp2** ，而且在16位平臺上請勿使用 **/Zp4** 或 **了/zp8** 。 視 C 編譯器在執行時間所指派的資料類型和記憶體位置而定，這可能會導致 MIPS 和 Alpha 平臺上發生資料不一致的例外狀況。 在 MS-DOS 平臺上，C 編譯器不會確定對齊4或8，因此應用程式可能會終止。
 
- 
+ 
 
 ## <a name="examples"></a>範例
 
@@ -65,9 +65,9 @@ midl /Zp packing_level
 [**/pack**](-pack.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

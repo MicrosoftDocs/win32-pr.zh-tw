@@ -55,12 +55,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 277b868f1b92b9f7c6a0c520c77ab76fac6b544d
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: f0034eadf00819ab5e31d066d585425ca9902ec5e17ec83b973783f5109283ac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936140"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119020256"
 ---
 # <a name="win32_memorydevice-class"></a>Win32 \_ MemoryDevice 類別
 
@@ -471,7 +471,7 @@ class Win32_MemoryDevice : Win32_SMBIOSMemory
 限定詞： [**架構**](/windows/desktop/WmiSdk/standard-qualifiers) ( "Win32" ) 
 </dt> </dl>
 
-Windows 設定管理員錯誤碼。
+Windows設定管理員錯誤碼。
 
 這個屬性繼承自 [**CIM \_ LogicalDevice**](cim-logicaldevice.md)。
 
@@ -1497,7 +1497,7 @@ Windows 仍在設定裝置。
 限定詞： [**架構**](/windows/desktop/WmiSdk/standard-qualifiers) ( "Win32" ) 
 </dt> </dl>
 
-Windows 隨插即用邏輯裝置的裝置識別碼。
+Windows隨插即用邏輯裝置的裝置識別碼。
 
 這個屬性繼承自 [**CIM \_ LogicalDevice**](cim-logicaldevice.md)。
 

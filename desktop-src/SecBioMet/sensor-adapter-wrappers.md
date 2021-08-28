@@ -4,12 +4,12 @@ description: 您可以用來在感應器介面卡上呼叫函式的函式。 這
 ms.assetid: 302a831c-38f7-4d32-8d9f-5ff58931224b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f8887da38a7142c830f19a83b5950abea15791b7
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 55a9e4ade931e10a93320d132662bb7622e62028299816eb6ad0e41fd7bff527
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104092289"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119683198"
 ---
 # <a name="sensor-adapter-wrappers"></a>感應器介面卡包裝函式
 

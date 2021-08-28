@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 823038205a026afb7141491f562698eb60515a5d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1ff4e46aebd9e9c99034312da2433f365db881f4a9a68d4c8f1963876a43dcd3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994863"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117930240"
 ---
 # <a name="iwmpcontrolsprevious-method"></a>IWMPControls：:p revious 方法
 
@@ -119,10 +119,10 @@ End Sub
 [**IWMPControls 介面 (VB 和 c # )**](iwmpcontrols--vb-and-c.md)
 </dt> <dt>
 
-[**IWMPControls：接下來 (VB 和 c # )**](wmplibiwmpcontrols-iwmpcontrols-next--vb-and-c.md)
+[**IWMPControls 下 (VB 和 c # )**](wmplibiwmpcontrols-iwmpcontrols-next--vb-and-c.md)
 </dt> <dt>
 
-[**IWMPControls。停止 (VB 和 c # )**](wmplibiwmpcontrols-iwmpcontrols-stop--vb-and-c.md)
+[**IWMPControls (VB 和 c # )**](wmplibiwmpcontrols-iwmpcontrols-stop--vb-and-c.md)
 </dt> </dl>
 
  

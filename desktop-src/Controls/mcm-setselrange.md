@@ -3,7 +3,7 @@ title: 'MCM_SETSELRANGE 訊息 (Commctrl .h) '
 description: 將月曆控制項的選取範圍設定為指定的日期範圍。 您可以使用 MonthCal SetSelRange 宏明確地傳送此訊息 \_ 。
 ms.assetid: 750b0c83-6baa-4caa-a738-feae8751a70e
 keywords:
-- MCM_SETSELRANGE message Windows 控制項
+- MCM_SETSELRANGE 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ad28966ab67a5e7c0d27dd8fc9c367ec30e4cd7b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1cdf6708aa382abfa92562aa55943c06180d0231cff568b74de380416e48731a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104024657"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119018976"
 ---
 # <a name="mcm_setselrange-message"></a>MCM \_ SETSELRANGE 訊息
 
@@ -49,8 +49,8 @@ ms.locfileid: "104024657"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

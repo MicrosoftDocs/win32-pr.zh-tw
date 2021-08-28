@@ -14,12 +14,12 @@ api_type:
 - Assembly
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b3a488ad300362c1f8dccfd0fa6f6c7e4dee7676
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 24e8de133003bdddcf0438e5a13dc3fa74227ede7bf42350e2b7c3c96f2c197e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106996238"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120003578"
 ---
 # <a name="iwmpmediaisidentical-vb-and-c"></a>IWMPMedia. isIdentical (VB 和 c # ) 
 

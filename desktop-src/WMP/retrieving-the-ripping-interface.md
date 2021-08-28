@@ -8,19 +8,19 @@ keywords:
 - 物件模型、CD 翻錄
 - Windows Media Player ActiveX 控制項、CD 翻錄
 - ActiveX 控制項，CD 翻錄
-- Windows Media Player 的行動 ActiveX 控制項、CD 翻錄
-- Windows Media Player 行動電話、CD 翻錄
+- Windows Media PlayerMobile ActiveX control、CD 翻錄
+- Windows Media Player行動電話、CD 翻錄
 - CD 翻錄，IWMPCdromRip 介面
 - 將 Cd、IWMPCdromRip 介面翻錄
 - IWMPCdromRip 介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 903fa285404700e35363a94239c79706e7af0e34
-ms.sourcegitcommit: ad672d3a10192c5ccac619ad2524407109266e93
+ms.openlocfilehash: 2179e4f38eee121d7b8fefc028adf232eb724264362396c8cacedfcc55b162d8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2020
-ms.locfileid: "103841963"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120002548"
 ---
 # <a name="retrieving-the-ripping-interface"></a>擷取轉錄介面
 
@@ -88,9 +88,9 @@ HRESULT CMainDlg::GetCdromRipInterface (long lIndex)
 [**IWMPCdromCollection 介面**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpcdromcollection)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

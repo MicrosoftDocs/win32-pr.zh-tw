@@ -4,27 +4,27 @@ description: VML BWPure 屬性
 ms.assetid: a68e8197-bfd6-4b8e-8d4c-598590addff8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 83e39c658265a5ab8c617fc8856db362a80d1ea8
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 80b06c53ddc6279d16eeeaaed40a87794a1ab06d8b282ce4eef12a0e1bd74e35
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103842444"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118999298"
 ---
 # <a name="vml-bwpure-attribute"></a>VML BWPure 屬性
 
 本主題說明 VML，這是 Windows Internet Explorer 9 淘汰的功能。 依賴 VML 的網頁和應用程式應該遷移至 SVG 或其他廣泛支援的標準。
 
 > [!Note]  
-> 從2011年12月起，本主題已封存。 因此，它不會再主動維護。 如需詳細資訊，請參閱封存的 [內容](/previous-versions/windows/internet-explorer/ie-developer/)。 如需目前 Windows Internet Explorer 版本的相關資訊、建議和指引，請參閱 [Internet Explorer 開發人員中心](https://msdn.microsoft.com/ie/)。
+> 從2011年12月起，本主題已封存。 因此，它不會再主動維護。 如需詳細資訊，請參閱封存的 [內容](/previous-versions/windows/internet-explorer/ie-developer/)。 如需有關 Windows Internet Explorer 目前版本的資訊、建議和指引，請參閱[Internet Explorer 開發人員中心](https://msdn.microsoft.com/ie/)。
 
- 
+ 
 
 定義純黑色和白色輸出裝置的黑色和白色模式。 讀取/寫入 [VgBlackWhiteMode](msdn-online-vml-vgblackwhitemode.md)。
 
 **適用於**
 
-[形狀](shape-element--vml.md)
+[圖形](shape-element--vml.md)
 
 **標記語法**
 
@@ -36,7 +36,7 @@ ms.locfileid: "103842444"
 
 如需此屬性值的詳細資訊，請參閱 [VgBlackWhiteMode](msdn-online-vml-vgblackwhitemode.md) 主題。 預設值是 **auto**。
 
-*Microsoft Office Extensions 屬性*
+*Microsoft OfficeExtensions 屬性*
 
 **範例**
 
@@ -51,6 +51,6 @@ ms.locfileid: "103842444"
 
 
 
- 
+ 
 
- 
+ 

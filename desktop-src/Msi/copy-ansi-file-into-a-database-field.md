@@ -4,12 +4,12 @@ ms.assetid: ba6c6367-ebb1-4981-ae3a-bcff68aacdbf
 title: 將 ANSI 檔案複製到資料庫欄位
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 73dc6c4d3a945177581a35bf6b19d89855abb5ef
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a65f38425fac327abd8eddaf9183464355ae025bb209947c750d4e3414d9b917
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106974498"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119631328"
 ---
 # <a name="copy-ansi-file-into-a-database-field"></a>將 ANSI 檔案複製到資料庫欄位
 
@@ -22,7 +22,7 @@ ms.locfileid: "106974498"
 -   [**View 物件**](view-object.md)的 [**Fetch 方法**](view-fetch.md)和 [**Modify 方法**](view-modify.md)
 -   [**Record 物件**](record-object.md)的 [**至 convertfrom-stringdata 屬性**](record-stringdata.md)和 [**ReadStream 方法**](record-readstream.md)
 
-若要使用程式碼範例，您需要 Windows Script Host 的 CScript.exe 或 WScript.exe 版本。
+若要使用程式碼範例，您需要 Windows 腳本主機的 CScript.exe 或 WScript.exe 版本。
 
 **使用 CScript.exe 來執行此範例**
 
@@ -57,7 +57,7 @@ ms.locfileid: "106974498"
 
  
 
-如需其他腳本範例，請參閱 [Windows Installer 腳本範例](windows-installer-scripting-examples.md)。 如需不需要 Windows Script Host 的範例公用程式，請參閱 [Windows Installer 開發工具](windows-installer-development-tools.md)。
+如需其他腳本範例，請參閱[Windows Installer 腳本範例](windows-installer-scripting-examples.md)。 如需不需要 Windows 腳本主機的範例公用程式，請參閱[Windows Installer 開發工具](windows-installer-development-tools.md)。
 
  
 

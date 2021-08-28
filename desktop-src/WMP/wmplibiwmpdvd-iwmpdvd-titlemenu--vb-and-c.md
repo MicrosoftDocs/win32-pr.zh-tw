@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0889a3f65ccefe4e09bb5ff47a66867681dcc801
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ff485cd09915ec9acb076d2c06a8aa28c3549bf6527495e5e32d4a01d483285a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106996465"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120000458"
 ---
 # <a name="iwmpdvdtitlemenu-method"></a>IWMPDVD：： titleMenu 方法
 

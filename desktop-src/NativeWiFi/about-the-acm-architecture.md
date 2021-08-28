@@ -4,16 +4,16 @@ ms.assetid: 4a5c0085-0e7b-424d-9205-5ec39518a088
 title: 關於當的架構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f037a1823f7045ccaf1dc573c6d213beeebe0a63
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8d75b6b365970c34174facd035ddf38c625e3e4fac72f011e612998c46e9bee3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194943"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119065172"
 ---
 # <a name="about-the-acm-architecture"></a>關於當的架構
 
-自動設定模組 (的配置) 是適用于 Windows Vista 的新無線設置元件。 Windows XP Service Pack 3 (SP3) 和適用于 Windows XP Service Pack 2 (SP2 的無線區域網路 API) 改為使用無線零設定 (WZC) 服務。
+自動設定模組 (配置) 是 Windows Vista 的新無線設定元件。 Windowsxp service pack 3 (SP3) 和 Windows XP service pack 2 (SP2 的無線區域網路 API) 改用無線零設定 (WZC) 服務。
 
 當該網路有啟用自動連線的介面時，會定期掃描網路，並使用反復的程式來選取並聯機到範圍內最慣用的網路。 此設定檔也會儲存並取出網路設定檔，其中包含配置配置、媒體特定模組 (MSM) 、安全性和獨立硬體廠商 (IHV) 設定。 這些網路設定檔適用于自動設定。
 

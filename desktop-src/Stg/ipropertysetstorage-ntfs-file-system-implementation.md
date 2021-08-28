@@ -6,12 +6,12 @@ keywords:
 - IPropertySetStorage Strctd Stg.、、NTFS 檔案系統
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9b0d647b9cb804376a9efeb687b1524585ee938d
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 0794e2905cd9e8bd06804decb756b3f1f639c75e837b2d5f3181bb73939717f4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106999589"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119683038"
 ---
 # <a name="ipropertysetstorage-ntfs-file-system-implementation"></a>IPropertySetStorage-NTFS 檔案系統執行
 
@@ -32,19 +32,19 @@ ms.locfileid: "106999589"
 
 ## <a name="compatibility"></a>相容性
 
-從 Windows 2000 開始，可以使用 [**IPropertySetStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertysetstorage) 和 [**IPropertyStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertystorage) 的 NTFS 實作為。 舊版無法存取這些屬性集。
+從 Windows 2000 開始，可以使用 [**IPropertySetStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertysetstorage)和 [**IPropertyStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertystorage)的 NTFS 實作為。 舊版無法存取這些屬性集。
 
 NTFS 執行會將屬性集儲存在 NTFS 檔案的替代資料流程中。 複製主要檔案時，必須複製替代資料流程。
 
 > [!Caution]  
 > 並非所有檔案系統都支援這類串流。 如果將含有屬性集的 NTFS 檔案複製到 FAT 磁片區，則只會複製檔案中的資料;屬性集遺失。 在此情況下， [**CopyFile**](/windows/desktop/api/winbase/nf-winbase-copyfile) 函數不會傳回錯誤。
 
- 
+ 
 
 > [!Caution]  
-> 如果執行檔案複製的電腦不是在 Windows 2000 或更新版本上執行的電腦，屬性集可能會遺失。 例如，如果在 Windows 95 作業系統上執行的電腦複製了 NTFS 檔案，即使目的地檔案也在 NTFS 磁片區上，也會遺失屬性集。
+> 如果執行檔案複製的電腦不是在 Windows 2000 或更新版本上執行的電腦，則可能會遺失屬性集。 例如，如果在 Windows 95 作業系統上執行的電腦複製 ntfs 檔案，即使目的地檔案也在 NTFS 磁片區上，也會遺失屬性集。
 
- 
+ 
 
 ## <a name="methods"></a>方法
 
@@ -88,7 +88,7 @@ NTFS 執行會將屬性集儲存在 NTFS 檔案的替代資料流程中。 複�
 
 [**IPropertySetStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertysetstorage)的 NTFS 實與複合檔案執行的方式不同，如下所示：
 
--   從 [**IEnumSTATPROPSETSTG**](/windows/win32/api/propidlbase/nn-propidlbase-ienumstatpropsetstg)介面取得的 [**STATPROPSETSTG**](/windows/win32/api/propidlbase/nn-propidlbase-ienumstatpropsetstg)結構包含 **clsid** 成員，其值一律為零 (**clsid \_ Null**) 。 使用複合檔案執行時，會針對非簡單 (傳回正確的 **clsid** 成員，請參閱屬性集) 屬性集的 [儲存和資料流程物件](storage-vs--stream-for-a-property-set.md) 。
+-   從 [**IEnumSTATPROPSETSTG**](/windows/win32/api/propidlbase/nn-propidlbase-ienumstatpropsetstg)介面取得的 [**STATPROPSETSTG**](/windows/win32/api/propidlbase/nn-propidlbase-ienumstatpropsetstg)結構包含 **clsid** 成員，其值一律為零 (**clsid \_ Null**) 。 使用複合檔案執行時，會針對非簡單的 (傳回正確的 **clsid** 成員，請參閱儲存體和) 屬性集屬性 [集的資料流程物件](storage-vs--stream-for-a-property-set.md)。
 -   使用 [**StgCreateStorageEx**](/windows/desktop/api/coml2api/nf-coml2api-stgcreatestorageex)或 [**StgOpenStorageEx**](/windows/desktop/api/coml2api/nf-coml2api-stgopenstorageex)函數取得 [**IPropertySetStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertysetstorage)介面指標的 NTFS 實作為時， *grfmode* 參數必須遵循與複合檔案執行相同的規則。
 
     此外，可能不會使用下列旗標：
@@ -125,6 +125,6 @@ NTFS 執行會將屬性集儲存在 NTFS 檔案的替代資料流程中。 複�
 [**STATPROPSETSTG**](/windows/win32/api/propidlbase/nn-propidlbase-ienumstatpropsetstg)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

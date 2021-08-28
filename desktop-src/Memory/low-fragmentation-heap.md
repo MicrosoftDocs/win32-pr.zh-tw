@@ -4,12 +4,12 @@ ms.assetid: d10abf82-423c-4942-b05e-55de3a5c4219
 title: 低片段堆積
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8ad14a97fa6d95b663f63b21f0982332ba0de01e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3d4cc6f7f0e2427a20532f5e32cc1460f9b6601d1e6dddf0de603757895005e6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106987523"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119067738"
 ---
 # <a name="low-fragmentation-heap"></a>低片段堆積
 

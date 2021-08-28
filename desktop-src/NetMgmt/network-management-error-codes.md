@@ -4,12 +4,12 @@ description: 下表提供網路管理功能的錯誤碼清單。
 ms.assetid: 8ef49677-b81d-42f2-8de1-40193a3afcde
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 282857a4fbfa95a1a86160e406c2dacac612f19a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 32eedb06dd3cdd0295b4b87b054ddb4c86186dc39d1c0ba592843e454804d1a5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106965362"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119064398"
 ---
 # <a name="network-management-error-codes"></a>網路管理錯誤碼
 
@@ -17,7 +17,7 @@ ms.locfileid: "106965362"
 
 
 
-| 程式碼 | 描述                                                                                                                                                                                                    | Name                               |
+| 程式碼 | 描述                                                                                                                                                                                                    | 名稱                               |
 |------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------|
 | 2102 | 未安裝工作站驅動程式。                                                                                                                                                                       | NERR \_ NetNotStarted                |
 | 2103 | 找不到伺服器。                                                                                                                                                                               | NERR \_ UnknownServer                |
@@ -342,11 +342,11 @@ ms.locfileid: "106965362"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

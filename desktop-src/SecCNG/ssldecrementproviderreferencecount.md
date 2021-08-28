@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Ncrypt.dll
-ms.openlocfilehash: 4d3fe072c02f22b713115dd5191b0b5e0cedbb37
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: eb2a2f921fd9fa613a5f655449353d42c24897a65f5dc81d6b9321bea961937a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943928"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118906727"
 ---
 # <a name="ssldecrementproviderreferencecount-function"></a>SslDecrementProviderReferenceCount 函式
 
@@ -56,7 +56,7 @@ SSL 通訊協定提供者實例的控制碼。
 
 
 
-| 傳回碼/值                                                                                                                                                        | Description                                      |
+| 傳回碼/值                                                                                                                                                        | 描述                                      |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------|
 | <dl> <dt>**狀態 \_ 不正確 \_ 控制碼**</dt> <dt>0xC0000008L</dt> </dl> | SSL 提供者控制碼無效。<br/> |
 
@@ -70,8 +70,8 @@ SSL 通訊協定提供者實例的控制碼。
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                     |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                     |
 | 標頭<br/>                   | <dl> <dt>Sslprovider。h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Ncrypt.dll</dt> </dl>    |
 

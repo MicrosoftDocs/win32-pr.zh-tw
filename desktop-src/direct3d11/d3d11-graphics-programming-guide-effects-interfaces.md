@@ -4,12 +4,12 @@ description: 效果系統會定義許多用於管理效果狀態的介面。
 ms.assetid: 5cba6055-d153-4837-9a08-96efbde5f48f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: af76a54be06e52e320743ca945abb31d1d50d213
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0d201ae837f7003c7be03d52b76cd3fdcd6b1d0534e1215791cb31013e94551a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671896"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117913753"
 ---
 # <a name="effect-system-interfaces-direct3d-11"></a> (Direct3D 11) 的效果系統介面
 
@@ -24,7 +24,7 @@ ms.locfileid: "103671896"
 
 
 
-| 執行時間介面                                       | Description                                                    |
+| 執行時間介面                                       | 描述                                                    |
 |----------------------------------------------------------|----------------------------------------------------------------|
 | [**ID3DX11Effect**](id3dx11effect.md)                   | 用於轉譯的一或多個群組和技術的集合。 |
 | [**ID3DX11EffectPass**](id3dx11effectpass.md)           | 狀態指派的集合。                             |
@@ -33,7 +33,7 @@ ms.locfileid: "103671896"
 
 
 
- 
+ 
 
 ## <a name="effect-reflection-interfaces"></a>效果反映介面
 
@@ -45,7 +45,7 @@ ms.locfileid: "103671896"
 
 
 
-| 反映介面                                                          | Description                      |
+| 反映介面                                                          | 描述                      |
 |--------------------------------------------------------------------------------|----------------------------------|
 | [**ID3DX11EffectBlendVariable**](id3dx11effectblendvariable.md)               | 取得並設定 blend 狀態。         |
 | [**ID3DX11EffectDepthStencilVariable**](id3dx11effectdepthstencilvariable.md) | 取得並設定深度樣板狀態。 |
@@ -54,7 +54,7 @@ ms.locfileid: "103671896"
 
 
 
- 
+ 
 
 ### <a name="setting-effect-resources"></a>設定效果資源
 
@@ -62,7 +62,7 @@ ms.locfileid: "103671896"
 
 
 
-| 反映介面                                                                        | Description                                         |
+| 反映介面                                                                        | 描述                                         |
 |----------------------------------------------------------------------------------------------|-----------------------------------------------------|
 | [**ID3DX11EffectConstantBuffer**](id3dx11effectconstantbuffer.md)                           | 存取材質緩衝區或常數緩衝區中的資料。 |
 | [**ID3DX11EffectDepthStencilViewVariable**](id3dx11effectdepthstencilviewvariable.md)       | 存取深度樣板資源中的資料。            |
@@ -72,7 +72,7 @@ ms.locfileid: "103671896"
 
 
 
- 
+ 
 
 ### <a name="setting-other-effect-variables"></a>設定其他效果變數
 
@@ -80,7 +80,7 @@ ms.locfileid: "103671896"
 
 
 
-| 反映介面                                                            | Description               |
+| 反映介面                                                            | 描述               |
 |----------------------------------------------------------------------------------|---------------------------|
 | [**ID3DX11EffectClassInstanceVariable**](id3dx11effectclassinstancevariable.md) | 取得類別實例。     |
 | [**ID3DX11EffectInterfaceVariable**](id3dx11effectinterfacevariable.md)         | 取得和設定介面。 |
@@ -93,7 +93,7 @@ ms.locfileid: "103671896"
 
 
 
- 
+ 
 
 所有反映介面都是衍生自 [**ID3DX11EffectVariable**](id3dx11effectvariable.md)。
 
@@ -107,9 +107,9 @@ ms.locfileid: "103671896"
 [Direct3D 11 的程式設計指南](dx-graphics-overviews.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

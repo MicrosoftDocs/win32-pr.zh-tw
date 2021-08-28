@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6c6a1dc2c9c4f3effb58f91e38e6cb8ee76478dd
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: ac286b571823e09c6b4725ce9319f076e6b432833b794a77f793b9383f5eba62
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106972488"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118011814"
 ---
 # <a name="print-media-supported-attribute"></a>列印-媒體支援的屬性
 

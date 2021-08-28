@@ -4,16 +4,16 @@ ms.assetid: 9fe96af3-bb7b-4f6c-8df2-85bf7850c527
 title: 'ITTimeCollection：： get_Count 方法 (Sdpblb .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6a385c8fa3120cbeaa4b876a8af4f60e0df5cb48
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: eb5f9dc4e42130a1c98043017dc2dd3fefeb41640aac84d20a53e701d82c4777
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106993300"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119003206"
 ---
 # <a name="ittimecollectionget_count-method"></a>ITTimeCollection：： get \_ Count 方法
 
-\[ 在 Windows Vista、Windows Server 2008 和後續版本的作業系統中，無法使用會合 IP 電話語音會議控制項和介面。 RTC 用戶端 API 提供類似的功能。\]
+\[Windows Vista、Windows Server 2008 及後續版本的作業系統無法使用會合 IP 電話語音會議控制項和介面。 RTC 用戶端 API 提供類似的功能。\]
 
 **Get \_ Count** 方法會取得集合中的專案數。
 
@@ -45,7 +45,7 @@ HRESULT get_Count(
 
 
 
-| 傳回碼                                                                                   | Description                                                     |
+| 傳回碼                                                                                   | 描述                                                     |
 |-----------------------------------------------------------------------------------------------|-----------------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>          | 方法成功。<br/>                                    |
 | <dl> <dt>**E \_ 指標**</dt> </dl>     | *PVal* 參數不是有效的指標。<br/>         |

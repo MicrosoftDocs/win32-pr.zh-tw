@@ -4,12 +4,12 @@ ms.assetid: 13174c5d-c810-4b5d-9d1e-60ed30b8c44d
 title: 取得順延強制自訂動作的內容資訊
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a13cd956509a5b8a4c92e0a53bfa455154a59bcc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 76f9016a37eb97c99dc94840617a91ba17da68a0409d6130c15cb17078c60d11
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103691435"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118943271"
 ---
 # <a name="obtaining-context-information-for-deferred-execution-custom-actions"></a>取得順延強制自訂動作的內容資訊
 
@@ -31,11 +31,11 @@ ms.locfileid: "103691435"
 
  
 
-以 JScript 或 VBScript 撰寫的自訂動作需要安裝 [**會話**](session-object.md) 物件。 這是 **Session 物件** 類型，而安裝程式會將它附加至名稱為 "Session" 的腳本。 因為 **會話** 物件在安裝復原期間可能不存在，所以以腳本撰寫的延遲自訂動作必須使用 **會話** 物件的下列其中一種方法或屬性來取出其內容。
+以 JScript 或 VBScript 撰寫的自訂動作需要安裝 [**會話**](session-object.md)物件。 這是 **Session 物件** 類型，而安裝程式會將它附加至名稱為 "Session" 的腳本。 因為 **會話** 物件在安裝復原期間可能不存在，所以以腳本撰寫的延遲自訂動作必須使用 **會話** 物件的下列其中一種方法或屬性來取出其內容。
 
 
 
-| Name                                                           | 描述                                                                                                                        |
+| 名稱                                                           | 描述                                                                                                                        |
 |----------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------|
 | [**Mode 屬性**](session-mode.md)                          | 僅針對 MSIRUNMODE 排程傳回 True \_ 。                                                                                       |
 | [**Property 屬性 (Session 物件)**](session-session.md)  | 傳回 CustomActionData 屬性、 [**ProductCode**](productcode.md) 屬性或 [**UserSID**](usersid.md) 屬性。        |

@@ -4,18 +4,18 @@ ms.assetid: 992c5a47-67bd-412e-ad51-40ac77c7897e
 title: PropGroup。描述
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 406e461bb5963336fa86926de2eea1bca1d1a29d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f0cd5119d5a006ef05c4538cfa709b01f98e8e88868a4183282b9433f36f8e5a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103852199"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117682251"
 ---
 # <a name="systempropgroupdescription"></a>PropGroup。描述
 
 屬性清單中所使用的屬性群組分隔符號可分隔其他類型的描述。 請勿使用這個屬性來取得或設定值。 這個屬性僅供標記之用。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

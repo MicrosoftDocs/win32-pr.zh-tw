@@ -3,7 +3,7 @@ title: 'TVM_SETUNICODEFORMAT 訊息 (Commctrl .h) '
 description: TVM_SETUNICODEFORMAT 訊息：設定控制項的 Unicode 字元格式旗標。
 ms.assetid: e4b58ae5-6217-4a2e-80e5-3ba9e578859a
 keywords:
-- TVM_SETUNICODEFORMAT message Windows 控制項
+- TVM_SETUNICODEFORMAT 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b49fcdd22cff0ac91885ef8f54d49922f9c677e9
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: acce73e3b8ab239702969a1565cfacc4db335e7bf7fcdbb8fd39010247b14a89
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108116546"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119018666"
 ---
 # <a name="tvm_setunicodeformat-message"></a>TVM \_ SETUNICODEFORMAT 訊息
 
@@ -53,8 +53,8 @@ ms.locfileid: "108116546"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ca49cd4fd77425f202c5d8ee06cb0b3d7712e610
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: fe6bf01ed46d0294f654c21dc854933f0be04695f7edeee7a6849e23b01b027f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103844123"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118006185"
 ---
 # <a name="hdn_itemclick-notification-code"></a>HDN \_ ITEMCLICK 通知碼
 
@@ -61,8 +61,8 @@ HDN_ITEMCLICK
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 | Unicode 與 ANSI 名稱<br/>   | **HDN \_ITEMCLICKW** (Unicode) 和 **HDN \_ ITEMCLICKA** (ANSI) <br/>               |
 

@@ -4,12 +4,12 @@ description: 本節提供 Microsoft Active Accessibility 的補充資訊。
 ms.assetid: 1e4af3df-6946-4098-a617-b340e2761cc0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fd8c339b76421af942cafed1949ae93a4268e89f
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 1881525d0f969cbca70d2e96f0658dce8acd8767ca01d364766f286974c1beea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103933868"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119998868"
 ---
 # <a name="appendixes-microsoft-active-accessibility"></a>Microsoft Active Accessibility) 的附錄 (
 

@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - NTDll.dll
-ms.openlocfilehash: f74b9cdc0aec666242a8267fab8d6255c75dc94b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f944de64f26d814af799d1f8d2419c2dd9ade04970774e2581f446c0bd32c0fc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106986175"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120001328"
 ---
 # <a name="ldrfastfailinloadercallout-function"></a>LdrFastFailInLoaderCallout 函式
 

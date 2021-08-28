@@ -4,12 +4,12 @@ ms.assetid: e3d21dd8-2b58-4108-857d-a075b8be68b0
 title: 關於 Winsock SPI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fe70d5d381505085e2794a57a1183e8bec505917
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f321aabfd6345e3209414f96dedfaca4b9ab0acfa1629d49883a72ab8199cfce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113116"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119996938"
 ---
 # <a name="about-the-winsock-spi"></a>關於 Winsock SPI
 

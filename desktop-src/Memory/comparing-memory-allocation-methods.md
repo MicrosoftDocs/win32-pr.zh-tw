@@ -5,12 +5,12 @@ title: 比較記憶體配置方法
 ms.topic: reference
 ms.custom: snippet-project
 ms.date: 05/31/2018
-ms.openlocfilehash: 541b314c4ff0553ff8812e591c47c87962866bbe
-ms.sourcegitcommit: 6515eef99ca0d1bbe3e27d4575e9986f5255f277
+ms.openlocfilehash: 418ebbf96b1d6f714e1ae7f23f1c15e918ea0c6fa7eabdf7bb9157bb14808bb2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "103946031"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119067898"
 ---
 # <a name="comparing-memory-allocation-methods"></a>比較記憶體配置方法
 
@@ -26,7 +26,7 @@ ms.locfileid: "103946031"
 
 雖然 [**GlobalAlloc**](/windows/desktop/api/WinBase/nf-winbase-globalalloc)、 [**LocalAlloc**](/windows/desktop/api/WinBase/nf-winbase-localalloc)和 [**HeapAlloc**](/windows/desktop/api/HeapApi/nf-heapapi-heapalloc) 函式最終會配置相同堆積的記憶體，但每個函數都提供稍微不同的功能集。 例如，如果無法配置記憶體，則可指示 **HeapAlloc** 引發例外狀況，這是 **LocalAlloc** 無法使用的功能。 **LocalAlloc** 支援配置控制碼，以允許重新配置來移動基礎記憶體，而不變更控制碼值，也就是 **HeapAlloc** 無法使用的功能。
 
-從32位 Windows 開始， [**GlobalAlloc**](/windows/desktop/api/WinBase/nf-winbase-globalalloc) 和 [**LocalAlloc**](/windows/desktop/api/WinBase/nf-winbase-localalloc) 會實作為包裝函式，以使用處理程式預設堆積的控制碼來呼叫 [**HeapAlloc**](/windows/desktop/api/HeapApi/nf-heapapi-heapalloc) 。 因此， **GlobalAlloc** 和 **LocalAlloc** 的額外負荷高於 **HeapAlloc**。
+從32位 Windows 開始， [**GlobalAlloc**](/windows/desktop/api/WinBase/nf-winbase-globalalloc)和 [**LocalAlloc**](/windows/desktop/api/WinBase/nf-winbase-localalloc)會實作為包裝函式，以使用進程預設堆積的控制碼來呼叫 [**HeapAlloc**](/windows/desktop/api/HeapApi/nf-heapapi-heapalloc) 。 因此， **GlobalAlloc** 和 **LocalAlloc** 的額外負荷高於 **HeapAlloc**。
 
 因為不同的堆積配置器會使用不同的機制來提供獨特的功能，所以您必須使用正確的函式來釋放記憶體。 例如，使用 [**HeapAlloc**](/windows/desktop/api/HeapApi/nf-heapapi-heapalloc) 配置的記憶體必須使用 [**HeapFree**](/windows/desktop/api/HeapApi/nf-heapapi-heapfree) 來釋放，而不是 [**>localfree**](/windows/desktop/api/WinBase/nf-winbase-localfree) 或 [**GlobalFree**](/windows/desktop/api/WinBase/nf-winbase-globalfree)。 使用 [**GlobalAlloc**](/windows/desktop/api/WinBase/nf-winbase-globalalloc) 或 [**LocalAlloc**](/windows/desktop/api/WinBase/nf-winbase-localalloc) 所配置的記憶體必須使用對應的全域或區域函數進行查詢、驗證和發行。
 

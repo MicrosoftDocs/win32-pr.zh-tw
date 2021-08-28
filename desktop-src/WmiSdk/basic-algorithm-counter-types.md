@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 基本演算法計數器類型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 70514c10b2695aa940d48341752ef647dcca9719
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a4f9f6079163ccf328e6bb16713ff6c6d1c88472cb5db43832fa0b7ab8d0e02a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106979979"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118820315"
 ---
 # <a name="basic-algorithm-counter-types"></a>基本演算法計數器類型
 
@@ -20,7 +20,7 @@ ms.locfileid: "106979979"
 
 
 
-| CounterType 常數                                                                                    | Description                                                                                                                                                        |
+| CounterType 常數                                                                                    | 描述                                                                                                                                                        |
 |---------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [效能 \_原始 \_ 分數](/previous-versions/windows/it-pro/windows-server-2003/cc785636(v=ws.10))小數537003008<br/>       | 子集與其集合的比率（以百分比表示）。 此計數器類型只會顯示目前的百分比，而不會顯示一段時間的平均值。                                    |
 | [效能 \_樣本 \_ 分數](/previous-versions/windows/it-pro/windows-server-2003/cc785636(v=ws.10))小數549585920<br/>    | 最後兩個取樣間隔期間，對所有作業的平均點擊率。 此計數器類型需要具有效能 \_ 範例 \_ 基底計數器類型的基底屬性。 |

@@ -6,12 +6,12 @@ keywords:
 - IDL MIDL、屬性、結構和等位
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5b2a7764d56c8557bd71923021a9f324a118ac81
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: cc179632bb7e0d64b777f3c8a08b9de2af7bbf818978d6bb0a7ee2ea8b515542
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104462157"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119066668"
 ---
 # <a name="structure-and-union-attributes"></a>Structure 和 Union 屬性
 
@@ -28,13 +28,13 @@ ms.locfileid: "104462157"
 
 
 
- 
+ 
 
 您也可以使用 [陣列和調整大小的指標屬性](array-and-sized-pointer-attributes.md) 來指定結構或等位成員的特性。
 
- 
+ 
 
- 
+ 
 
 
 

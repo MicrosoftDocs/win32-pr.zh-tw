@@ -4,19 +4,19 @@ description: 游標是螢幕上的位置，由指標裝置（例如，滑鼠、�
 ms.assetid: ff97d474-7c96-4f89-bc34-2cf320381ce0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ff351040d342adccda8cb03d56d91f9dc429074f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 52140da712c5fb889a12c466a34f8587c7291664fd774ac71a3f877031ce30b3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104300304"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118830077"
 ---
 # <a name="cursor-msaa-ui-element-reference"></a>Cursor (MSAA UI 元素參考) 
 
 > [!Note]  
 > 本主題說明 MSAA UI 專案參考之用途的資料指標。 此處未說明如何在各種 UI 架構中使用資料指標。 請參閱您所使用之 UI 架構的 API 參考檔。
 
- 
+ 
 
 游標是螢幕上的位置，由指標裝置（例如，滑鼠、畫筆或軌跡球）控制的小型圖片。 當使用者移動指標裝置時，Windows 作業系統會移動游標。
 
@@ -34,7 +34,7 @@ ms.locfileid: "104300304"
 -   [**get \_ AccChildCount**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accchildcount)- **ChildCount** 屬性為零。
 -   [**取得 \_ accName**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accname)-開發人員可以建立自訂資料指標，或使用其資料指標識別碼所識別的預先定義資料指標。 游標的 **名稱** 屬性取決於其圖形，而且是下列其中一項： 
 
-    | 游標圖形     | Name              |
+    | 游標圖形     | 名稱              |
     |------------------|-------------------|
     | 自訂資料指標    | 不明         |
     | IDC \_ 箭號       | "Normal"          |
@@ -53,7 +53,7 @@ ms.locfileid: "104300304"
 
     
 
-     
+     
 
 -   [**取得 \_ AccRole**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accrole)- **role** 屬性是 [**role 系統 \_ 資料 \_ 指標**](object-roles.md)。
 -   [**get \_ AccState**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accstate)- **State** 屬性是下列一或多個 [值](object-state-constants.md)的組合：
@@ -71,9 +71,9 @@ ms.locfileid: "104300304"
 [IAccessible 介面](/windows/desktop/api/oleacc/nn-oleacc-iaccessible)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

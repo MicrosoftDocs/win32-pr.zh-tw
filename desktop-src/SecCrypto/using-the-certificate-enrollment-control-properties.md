@@ -4,12 +4,12 @@ ms.assetid: e31dd6df-bc2a-401f-9343-a7dbb0f374bb
 title: 使用憑證註冊控制項屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 192ad4efd3d2438f800d4a3872a8cf1057ca9920
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4a556af6b75fe23e25efb3dcd4a6863a80592637921f6851f855aa8abccf5786
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103691395"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118896637"
 ---
 # <a name="using-the-certificate-enrollment-control-properties"></a>使用憑證註冊控制項屬性
 

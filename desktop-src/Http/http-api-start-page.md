@@ -7,12 +7,12 @@ keywords:
 - HTTP 伺服器 API、起始頁
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d8f99045b24d0ef79c267615791c62da50ed8e40
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 47a73d23ffc8f498f4135e07f2b933eddf2896866336a70e11bd9bbf360cacdc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104092723"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118950837"
 ---
 # <a name="http-server-api"></a>HTTP 伺服器 API \(英文\)
 
@@ -26,7 +26,7 @@ HTTP 伺服器 API 可讓應用程式透過 HTTP 進行通訊，而不需要使�
 
 ## <a name="run-time-requirements"></a>執行階段需求求
 
-Windows Server 2003 作業系統和 Windows XP Service Pack 2 (SP2) 支援 HTTP 伺服器 API。 請注意，在 Windows XP SP2 上執行的 Microsoft IIS 5 無法與其他同時執行的 HTTP 應用程式共用埠80。
+Windows server 2003 作業系統和 Windows XP Service Pack 2 (SP2) 都支援 HTTP 伺服器 API。 請注意，在 Windows XP SP2 上執行的 Microsoft IIS 5 無法與同時執行的其他 HTTP 應用程式共用埠80。
 
 ## <a name="in-this-section"></a>本節內容
 
@@ -47,7 +47,7 @@ Windows Server 2003 作業系統和 Windows XP Service Pack 2 (SP2) 支援 HTTP 
 
 <dl> <dt>
 
-[Windows HTTP 服務 (WinHTTP) ](/windows/desktop/WinHttp/winhttp-start-page)
+[Windows (WinHTTP) 的 HTTP 服務](/windows/desktop/WinHttp/winhttp-start-page)
 </dt> </dl>
 
  

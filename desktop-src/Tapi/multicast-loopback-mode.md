@@ -4,16 +4,16 @@ ms.assetid: bf9c3665-71cc-4cde-9ad4-1a8b62eddf9f
 title: 'MULTICAST_LOOPBACK_MODE 列舉 (Confpriv .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0a15505efcd1a9e399866b104da0582ccf846689
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f322f723d6e1dfa7a0819c661b13d02fdfda753738f7cdb9c304c394bffc2a40
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106993687"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119002836"
 ---
 # <a name="multicast_loopback_mode-enumeration"></a>多播 \_ 回送 \_ 模式列舉
 
-\[**多播 \_回送 \_ 模式** 無法在 windows Vista、windows Server 2008 和後續版本的作業系統中使用。 RTC 用戶端 API 提供類似的功能。\]
+\[**多播 \_回送 \_ 模式** 無法在 Windows Vista、Windows Server 2008 及後續版本的作業系統中使用。 RTC 用戶端 API 提供類似的功能。\]
 
 **多播 \_ 回送 \_ 模式** 列舉會描述多播回送模式。
 

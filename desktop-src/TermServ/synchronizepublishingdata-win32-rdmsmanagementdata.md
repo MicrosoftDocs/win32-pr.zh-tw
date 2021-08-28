@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d389ad08d81f39cab45502a42f4ebd95e16f36c9
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b5cadc3581419fa758775a48ba0190300a176364dcf0aad5a8a3ed77fa1db8bf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384557"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119000328"
 ---
 # <a name="synchronizepublishingdata-method-of-the-win32_rdmsmanagementdata-class"></a>Win32 RDMSManagementData 類別的 SynchronizePublishingData 方法 \_
 

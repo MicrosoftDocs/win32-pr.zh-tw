@@ -4,12 +4,12 @@ ms.assetid: 0f47abc1-4e06-4ddc-9ea1-9afb9f27d499
 title: CustomAction 資料表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 75c8cbfa6500743e2a2ad89627447da1907f6f48
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 725ac6ad72b1f84da2c43c94a91cd4a466bd02a5af19261b4b07dfd1c496ae76
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103690839"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118947862"
 ---
 # <a name="customaction-table"></a>CustomAction 資料表
 

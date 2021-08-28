@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c4df77b9068c23a0eeac30181d131cb8469dc53
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 40e8c3120651e2bdd2ffb8fd861563aa45cb4009c7a37bb3236e914e0def7d74
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465157"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118020949"
 ---
 # <a name="cqpm_setdefaultparameters-message"></a>CQPM \_ SETDEFAULTPARAMETERS 訊息
 

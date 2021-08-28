@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 28d139c9ca844429fae0b42fd07bb4e9c70d5bfb
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: d64c201509070943b8d8bbbc58cac4309d8aad9f1801b12aae18ed8b2783ea56
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845443"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118014277"
 ---
 # <a name="ms-ds-value-type-reference-bl-attribute"></a>ms-chap-------Reference-BL 屬性
 
@@ -52,7 +52,7 @@ ms.locfileid: "103845443"
 |------------------------|---------------------------------|
 | 連結識別碼                | 2189                            |
 | MAPI-Id                | \-                              |
-| System-Only            | 對                            |
+| System-Only            | 是                            |
 | 是-單一值       | 否                           |
 | 已編制索引             | 否                           |
 | 在通用類別目錄中      | 否                           |

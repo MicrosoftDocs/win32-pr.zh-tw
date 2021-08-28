@@ -4,12 +4,12 @@ ms.assetid: 63bd4690-0649-4e23-a8cd-527b3c517dae
 title: MsiConfigureServices 動作
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 21f2321bcdfaeede8e80d7f4c341f5a099690952
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9f77bcb37514cc0e90cd9b3e4f65f184104a60a575f159e45391582cfed01c78
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980100"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118945063"
 ---
 # <a name="msiconfigureservices-action"></a>MsiConfigureServices 動作
 
@@ -19,7 +19,7 @@ MsiConfigureServices 動作會設定系統的服務。 此動作會查詢 [MsiSe
 
 > [!IMPORTANT]
 >
-> Windows 服務能讓您自動執行預先定義的動作，以回應服務中的失敗。 為了支援在服務失敗時以程式設計方式設定這些復原 **動作** ， [MsiServiceConfigFailureActions](msiserviceconfigfailureactions-table.md) 已新增至 msi 5.0 版中的 msi。 不過，這項功能不會如預期般運作。
+> Windows服務可讓您自動執行預先定義的動作，以回應服務中的失敗。 為了支援在服務失敗時以程式設計方式設定這些復原 **動作** ， [MsiServiceConfigFailureActions](msiserviceconfigfailureactions-table.md) 已新增至 msi 5.0 版中的 msi。 不過，這項功能不會如預期般運作。
 >
 > 若要解決這個問題，應用程式開發人員應該使用 MSI 中的 **自訂動作** 功能來執行 **sc.exe** 並適當地設定 **修復選項** 。
 

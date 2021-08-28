@@ -4,12 +4,12 @@ ms.assetid: 068a2b24-a430-4cf5-b70d-5574e981a899
 title: 'LINEAGENTSTATUS_ 的常數 (Tapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d1fb7afb2703a50d97d0423662a10c92743beb9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e1d792fc31c1d56afaa483a9aa6890db1f52398d7107ef944cf53352734044b2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106996081"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119682038"
 ---
 # <a name="lineagentstatus_-constants"></a>LINEAGENTSTATUS \_ 常數
 
