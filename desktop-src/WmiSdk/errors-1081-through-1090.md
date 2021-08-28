@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 錯誤1081到1090
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eb8c707749c66c43c77021fe660eceb5aa16bbb739c930dea0c3a4084351a7b3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4c1ce7b1a8c575067fe2231108e0d314af2f8dc8
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117924503"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122879710"
 ---
 # <a name="errors-1081-through-1090"></a>錯誤1081到1090
 
@@ -36,7 +36,7 @@ ms.locfileid: "117924503"
 
 <dl> <dt>
 
-<span id="_1081__Fatal_____fileName_line____Symbol__identifier__not_present_in_imported_module__identifier__"></span><span id="_1081__fatal_____filename_line____symbol__identifier__not_present_in_imported_module__identifier__"></span><span id="_1081__FATAL_____FILENAME_LINE____SYMBOL__IDENTIFIER__NOT_PRESENT_IN_IMPORTED_MODULE__IDENTIFIER__"></span>**<1081、嚴重>：「 <fileName> 行 \#>：符號 <identifier> 未出現在匯入的模組中」 <identifier>**
+<span id="_1081__Fatal_____fileName_line____Symbol__identifier__not_present_in_imported_module__identifier__"></span><span id="_1081__fatal_____filename_line____symbol__identifier__not_present_in_imported_module__identifier__"></span><span id="_1081__FATAL_____FILENAME_LINE____SYMBOL__IDENTIFIER__NOT_PRESENT_IN_IMPORTED_MODULE__IDENTIFIER__"></span>**<1081、嚴重>：「 &lt; 檔案名 &gt; 行 \#>： &lt; &gt; 未在匯入的模組識別碼中出現符號識別碼 &lt; &gt; 」**
 </dt> <dd>
 
 交互參照中的模組語意錯誤，不是 SNMPv1 或 SNMPv2C。 從模組匯入的符號不會解析為該模組中的任何事物。 如果 MIB 中實際參考該符號，就會發生此錯誤。
@@ -47,7 +47,7 @@ ms.locfileid: "117924503"
 
 <dl> <dt>
 
-<span id="_1082__Fatal_____fileName___line____Invalid_STATUS_clause__clause__"></span><span id="_1082__fatal_____filename___line____invalid_status_clause__clause__"></span><span id="_1082__FATAL_____FILENAME___LINE____INVALID_STATUS_CLAUSE__CLAUSE__"></span>**<1082、嚴重>： " <fileName> ： <行 \#>：不正確 STATUS 子句 <clause> "**
+<span id="_1082__Fatal_____fileName___line____Invalid_STATUS_clause__clause__"></span><span id="_1082__fatal_____filename___line____invalid_status_clause__clause__"></span><span id="_1082__FATAL_____FILENAME___LINE____INVALID_STATUS_CLAUSE__CLAUSE__"></span>**<1082、嚴重>： " &lt; fileName &gt; ： <行 \#>：不正確 STATUS 子句 &lt; 子句 &gt; "**
 </dt> <dd>
 
 **物件身分識別** 宏調用，SNMPv2C 特定模組語意錯誤。 **物件身分識別** 調用的 STATUS 子句必須是「目前」、「已淘汰」或「過時」。
@@ -69,7 +69,7 @@ ms.locfileid: "117924503"
 
 <dl> <dt>
 
-<span id="_1085__Warning_____fileName__line____No_groups_found_in_module__name_._Could_not_fabricate_MODULE-IDENTITY._Attempt_to_load_the_module_into_the_SMIR_will_fail_"></span><span id="_1085__warning_____filename__line____no_groups_found_in_module__name_._could_not_fabricate_module-identity._attempt_to_load_the_module_into_the_smir_will_fail_"></span><span id="_1085__WARNING_____FILENAME__LINE____NO_GROUPS_FOUND_IN_MODULE__NAME_._COULD_NOT_FABRICATE_MODULE-IDENTITY._ATTEMPT_TO_LOAD_THE_MODULE_INTO_THE_SMIR_WILL_FAIL_"></span>**<1085，警告>： " <fileName><行 \#>：在模組中找不到任何群組 <name> 。無法制作模組身分識別。嘗試將模組載入 SMIR 將會失敗」**
+<span id="_1085__Warning_____fileName__line____No_groups_found_in_module__name_._Could_not_fabricate_MODULE-IDENTITY._Attempt_to_load_the_module_into_the_SMIR_will_fail_"></span><span id="_1085__warning_____filename__line____no_groups_found_in_module__name_._could_not_fabricate_module-identity._attempt_to_load_the_module_into_the_smir_will_fail_"></span><span id="_1085__WARNING_____FILENAME__LINE____NO_GROUPS_FOUND_IN_MODULE__NAME_._COULD_NOT_FABRICATE_MODULE-IDENTITY._ATTEMPT_TO_LOAD_THE_MODULE_INTO_THE_SMIR_WILL_FAIL_"></span>**<1085，警告>： " &lt; 檔案名 &gt;<行 \#>：在模組名稱中找不到任何群組 &lt; &gt; 。無法制作模組身分識別。嘗試將模組載入 SMIR 將會失敗」**
 </dt> <dd>
 
 模組語義 SNMPv1 特定的警告。 如果在模組中找不到任何物件群組，就會產生此錯誤。
@@ -80,7 +80,7 @@ ms.locfileid: "117924503"
 
 <dl> <dt>
 
-<span id="_1086__Warning_____fileName__line____No_groups_found_in_module__name__"></span><span id="_1086__warning_____filename__line____no_groups_found_in_module__name__"></span><span id="_1086__WARNING_____FILENAME__LINE____NO_GROUPS_FOUND_IN_MODULE__NAME__"></span>**<1086，警告>：「 <fileName><行 \#>：在模組中找不到任何群組」 <name>**
+<span id="_1086__Warning_____fileName__line____No_groups_found_in_module__name__"></span><span id="_1086__warning_____filename__line____no_groups_found_in_module__name__"></span><span id="_1086__WARNING_____FILENAME__LINE____NO_GROUPS_FOUND_IN_MODULE__NAME__"></span>**<1086，警告>：「 &lt; 檔案名 &gt;<行 \#>：在模組名稱中找不到任何群組」 &lt; &gt;**
 </dt> <dd>
 
 模組語義 SNMPv1 特定的警告。 如果在模組中找不到任何物件群組，就會產生此錯誤。
@@ -91,7 +91,7 @@ ms.locfileid: "117924503"
 
 <dl> <dt>
 
-<span id="_1087._Fatal_____fileName__line____Invalid_STATUS_clause__clause__for_a_TEXTUAL-CONVENTION_macro_"></span><span id="_1087._fatal_____filename__line____invalid_status_clause__clause__for_a_textual-convention_macro_"></span><span id="_1087._FATAL_____FILENAME__LINE____INVALID_STATUS_CLAUSE__CLAUSE__FOR_A_TEXTUAL-CONVENTION_MACRO_"></span>**<1087。嚴重>： " <fileName><行 \#>： <clause> 文字慣例宏的 STATUS 子句無效"**
+<span id="_1087._Fatal_____fileName__line____Invalid_STATUS_clause__clause__for_a_TEXTUAL-CONVENTION_macro_"></span><span id="_1087._fatal_____filename__line____invalid_status_clause__clause__for_a_textual-convention_macro_"></span><span id="_1087._FATAL_____FILENAME__LINE____INVALID_STATUS_CLAUSE__CLAUSE__FOR_A_TEXTUAL-CONVENTION_MACRO_"></span>**<1087。嚴重>： " &lt; 檔案名 &gt;<行 \#>： &lt; &gt; 文字慣例宏的 STATUS 子句子句無效"**
 </dt> <dd>
 
 類型指派，SNMPv2C 特定模組語意錯誤。 **文字慣例** 宏調用的 status 子句必須是「目前」、「已淘汰」或「過時」。
@@ -102,7 +102,7 @@ ms.locfileid: "117924503"
 
 <dl> <dt>
 
-<span id="_1089__Fatal_____fileName___line____Symbol__identifier__in_AUGMENTS_clause_does_not_resolve_to_a_row_OBJECT-TYPE_"></span><span id="_1089__fatal_____filename___line____symbol__identifier__in_augments_clause_does_not_resolve_to_a_row_object-type_"></span><span id="_1089__FATAL_____FILENAME___LINE____SYMBOL__IDENTIFIER__IN_AUGMENTS_CLAUSE_DOES_NOT_RESOLVE_TO_A_ROW_OBJECT-TYPE_"></span><**1089，嚴重>： " <fileName> ： <行 \#>： <identifier> 增強子句中的符號無法解析為數據列物件類型"**
+<span id="_1089__Fatal_____fileName___line____Symbol__identifier__in_AUGMENTS_clause_does_not_resolve_to_a_row_OBJECT-TYPE_"></span><span id="_1089__fatal_____filename___line____symbol__identifier__in_augments_clause_does_not_resolve_to_a_row_object-type_"></span><span id="_1089__FATAL_____FILENAME___LINE____SYMBOL__IDENTIFIER__IN_AUGMENTS_CLAUSE_DOES_NOT_RESOLVE_TO_A_ROW_OBJECT-TYPE_"></span><**1089，嚴重>： " &lt; 檔案名 &gt; ： <行 \#>： &lt; &gt; 增強子句中的符號識別碼無法解析為數據列物件類型"**
 </dt> <dd>
 
 **物件類型** 宏調用 SNMPv2C 特定模組語意錯誤。 如果有一個增強型子句，則增強型子句中的識別碼必須解析為 table 物件類型。
@@ -113,7 +113,7 @@ ms.locfileid: "117924503"
 
 <dl> <dt>
 
-<span id="_1090__Fatal_____fileName___line___IMPLIED_clause_is_useful_only_for_the_last_INDEX_object_"></span><span id="_1090__fatal_____filename___line___implied_clause_is_useful_only_for_the_last_index_object_"></span><span id="_1090__FATAL_____FILENAME___LINE___IMPLIED_CLAUSE_IS_USEFUL_ONLY_FOR_THE_LAST_INDEX_OBJECT_"></span>**<1090，嚴重>： " <fileName> ： <行 \#> 隱含的子句僅適用于最後一個索引物件"**
+<span id="_1090__Fatal_____fileName___line___IMPLIED_clause_is_useful_only_for_the_last_INDEX_object_"></span><span id="_1090__fatal_____filename___line___implied_clause_is_useful_only_for_the_last_index_object_"></span><span id="_1090__FATAL_____FILENAME___LINE___IMPLIED_CLAUSE_IS_USEFUL_ONLY_FOR_THE_LAST_INDEX_OBJECT_"></span>**<1090，嚴重>： " &lt; fileName &gt; ： <行 \#> 隱含的子句僅適用于最後一個索引物件"**
 </dt> <dd>
 
 **物件類型** 宏調用 SNMPv2C 特定模組語意錯誤。 隱含的子句只能與 INDEX 子句中的最後一個物件相關聯。

@@ -6,12 +6,12 @@ ms.localizationpriority: low
 ms.topic: article
 ms.date: 04/19/2019
 ms.custom: 19H1
-ms.openlocfilehash: 0cc8fcecec2e2a0966ed34e23eb65ed9acd37e76
-ms.sourcegitcommit: 0dec0044816af3f2b2e6403659e1cf11138c90cd
+ms.openlocfilehash: f204484b3565564f72e815bd21cf8e449ee55e4c
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "121812883"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122884292"
 ---
 # <a name="core-interfaces"></a>核心介面
 
@@ -59,6 +59,7 @@ ms.locfileid: "121812883"
 | [**ID3D12Resource**](/windows/win32/api/d3d12/nn-d3d12-id3d12resource) | 封裝 CPU 和 GPU 讀取和寫入實體記憶體或堆積的一般化功能。 它包含用來組織和操作簡單資料陣列的抽象概念，以及針對著色器取樣優化的多維度資料。 |
 | [**ID3D12RootSignature**](/windows/win32/api/d3d12/nn-d3d12-id3d12rootsignature) | 根簽章會定義哪些資源系結至圖形管線。 根簽章是由應用程式設定，並將命令清單連結至著色器所需的資源。 目前每個應用程式都有一個圖形和一個計算根簽章。 |
 | [**ID3D12RootSignatureDeserializer**](/windows/win32/api/d3d12/nn-d3d12-id3d12rootsignaturedeserializer) | 包含方法，可傳回已還原序列化之根簽章版本1.0 的 [**D3D12 根目錄簽章-DESC**](/windows/win32/api/d3d12/ns-d3d12-d3d12_root_signature_desc) 資料結構。  |
+| [**ID3D12SDKConfiguration**](/windows/win32/api/d3d12/nn-d3d12-id3d12sdkconfiguration) | 提供 SDK 設定方法。 |
 | [**ID3D12ShaderCacheSession**](/windows/win32/api/d3d12/nn-d3d12-id3d12shadercachesession) | 表示著色器快取會話。 |
 | [**ID3D12StateObject**](/windows/win32/api/d3d12/nn-d3d12-id3d12stateobject) | 表示應用程式會以單一單位的形式來管理的設定狀態數量，包括著色器，並以不可部分完成的方式提供給驅動程式，例如編譯或優化。  |
 | [**ID3D12StateObjectProperties**](/windows/win32/api/d3d12/nn-d3d12-id3d12stateobjectproperties) | 提供取得和設定 [**ID3D12StateObject**](/windows/win32/api/d3d12/nn-d3d12-id3d12stateobject)屬性的方法。  |

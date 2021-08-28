@@ -7,12 +7,12 @@ keywords:
 - 設定 TTL 限制 AD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b2cb3617bd59667f0284c4e383da54752adfbe25
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d2786258d060ef4261dcd9fbfad359c71f2dbaeb
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103670996"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122881609"
 ---
 # <a name="configuration-of-ttl-limits"></a>設定 TTL 限制
 
@@ -25,7 +25,7 @@ Active Directory Domain Services 讓系統管理員能夠設定樹系的預設�
 -   預設 TTL 值 = 86400 秒 (1 天) 
 -   最小 TTL 值 = 900 秒 (15 分鐘) 
 
-可設定的 TTL 參數將會儲存為 AVA (屬性值判斷提示) "<value-name>= 格式的專案<value>在設定磁碟分割的下列 DN 所提供的 NTDS-Service 物件的屬性中，以 **MS DS-其他設定** ：
+可設定的 TTL 參數將會儲存為 AVA (屬性值判斷提示) 專案的屬性（attribute）值判斷提示專案（ &lt; &gt; = &lt; 位於設定分割區 &gt; 中下列 DN 所提供的 NTDS-Service 物件的 **設定** 屬性中）：
 
 
 ```C++
@@ -52,9 +52,9 @@ DynamicObjectMinTTLSeconds=NNNN
 
 系統管理員可以透過命令列公用程式 ntdsutil 來設定這些值。
 
- 
+ 
 
- 
+ 
 
 
 

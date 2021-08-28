@@ -4,12 +4,12 @@ description: 在這裡，我們會列出 D3DCompile \ 函式和 HLSL 編譯器�
 ms.assetid: 594E1C14-C1D4-4207-91A1-28892CE6D821
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d68fc6c5a202ad537b02a20846d36526533240f3
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
-ms.translationtype: HT
+ms.openlocfilehash: b84d020edaabf4c618b1fa911a91bc4cc0e8b37e
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382734"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122481834"
 ---
 # <a name="specifying-compiler-targets"></a>指定編譯器目標
 
@@ -43,7 +43,7 @@ ms.locfileid: "104382734"
 
 
 
- 
+ 
 
 ## <a name="direct3d-101-feature-level"></a>Direct3D 10.1 功能等級
 
@@ -60,7 +60,7 @@ ms.locfileid: "104382734"
 
 
 
- 
+ 
 
 ## <a name="direct3d-100-feature-level"></a>Direct3D 10.0 功能等級
 
@@ -77,7 +77,7 @@ ms.locfileid: "104382734"
 
 
 
- 
+ 
 
 ## <a name="direct3d-91-92-and-93-feature-levels"></a>Direct3D 9.1、9.2 和9.3 功能等級
 
@@ -86,71 +86,22 @@ ms.locfileid: "104382734"
 > [!Note]  
 > 當您使用 \* \_ 4 個 \_ \_ 層級 \_ 9 \_ x HLSL 著色器設定檔時，會隱含地使用[著色器模型](dx-graphics-hlsl-sm2.md)2.x 設定檔來支援具有 Direct3D 9 功能的硬體。 著色器模型2.x 設定檔支援的流程式控制制行為比 [著色器模型](dx-graphics-hlsl-sm4.md) 4.x 和更新版本設定檔更受限。
 
- 
+ 
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>目標</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>ps_4_0_level_9_1</td>
-<td>9.1 和9.2 的[圖元著色器](/previous-versions//bb205146(v=vs.85)) (ps_2_0) 的類似限制
-<ul>
-<li>64算術和32材質指示</li>
-<li>12個臨時暫存器</li>
-<li>4個相依讀取層級</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>ps_4_0_level_9_3</td>
-<td>9.3 的<a href="/previous-versions//bb205146(v=vs.85)">圖元著色器</a> (ps_2_x ²與額外著色器功能的類似限制) 
-<ul>
-<li>512指示</li>
-<li>32臨時暫存器</li>
-<li>靜態流量控制 (最大深度 4) </li>
-<li>動態流量控制 (最大深度 24) </li>
-<li>D3DPS20CAPS_ARBITRARYSWIZZLE</li>
-<li>D3DPS20CAPS_GRADIENTINSTRUCTIONS</li>
-<li>D3DPS20CAPS_PREDICATION</li>
-<li>D3DPS20CAPS_NODEPENDENTREADLIMIT</li>
-<li>D3DPS20CAPS_NOTEXINSTRUCTIONLIMIT</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>vs_4_0_level_9_1</td>
-<td>9.1 和 9.2 (的<a href="/previous-versions//bb205146(v=vs.85)">頂點著色器</a>類似于 vs_2_0) 
-<ul>
-<li>256指示</li>
-<li>12個臨時暫存器</li>
-<li>靜態流量控制 (最大深度為 1) </li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>vs_4_0_level_9_3</td>
-<td>9.3 (的<a href="/previous-versions//bb205146(v=vs.85)">頂點著色器</a>類似于 vs_2_a ²與其他著色器功能和實例) 
-<ul>
-<li>256指示</li>
-<li>32臨時暫存器</li>
-<li>靜態流量控制 (最大深度 4) </li>
-<li>D3DVS20CAPS_PREDICATION</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| 目標 | Description | 
+|--------|-------------|
+| ps_4_0_level_9_1 | 9.1 和9.2 的[圖元著色器](/previous-versions//bb205146(v=vs.85)) (ps_2_0) 的類似限制<ul><li>64算術和32材質指示</li><li>12個臨時暫存器</li><li>4個相依讀取層級</li></ul> | 
+| ps_4_0_level_9_3 | 9.3 的<a href="/previous-versions//bb205146(v=vs.85)">圖元著色器</a> (ps_2_x ²與額外著色器功能的類似限制) <ul><li>512指示</li><li>32臨時暫存器</li><li>靜態流量控制 (最大深度 4) </li><li>動態流量控制 (最大深度 24) </li><li>D3DPS20CAPS_ARBITRARYSWIZZLE</li><li>D3DPS20CAPS_GRADIENTINSTRUCTIONS</li><li>D3DPS20CAPS_PREDICATION</li><li>D3DPS20CAPS_NODEPENDENTREADLIMIT</li><li>D3DPS20CAPS_NOTEXINSTRUCTIONLIMIT</li></ul> | 
+| vs_4_0_level_9_1 | 9.1 和 9.2 (的<a href="/previous-versions//bb205146(v=vs.85)">頂點著色器</a>類似于 vs_2_0) <ul><li>256指示</li><li>12個臨時暫存器</li><li>靜態流量控制 (最大深度為 1) </li></ul> | 
+| vs_4_0_level_9_3 | 9.3 (的<a href="/previous-versions//bb205146(v=vs.85)">頂點著色器</a>類似于 vs_2_a ²與其他著色器功能和實例) <ul><li>256指示</li><li>32臨時暫存器</li><li>靜態流量控制 (最大深度 4) </li><li>D3DVS20CAPS_PREDICATION</li></ul> | 
 
 
 
- 
+
+ 
 
 ## <a name="legacy-direct3d-9-shader-model-30"></a>舊版 Direct3D 9 著色器模型3。0
 
@@ -167,7 +118,7 @@ ms.locfileid: "104382734"
 
 
 
- 
+ 
 
 ## <a name="legacy-direct3d-9-shader-model-20"></a>舊版 Direct3D 9 著色器模型2。0
 
@@ -187,7 +138,7 @@ ms.locfileid: "104382734"
 
 
 
- 
+ 
 
 ## <a name="legacy-direct3d-9-shader-model-1x"></a>舊版 Direct3D 9 著色器模型1。x
 
@@ -202,7 +153,7 @@ ms.locfileid: "104382734"
 
 
 
- 
+ 
 
 ## <a name="legacy-effects"></a>舊版效果
 
@@ -219,7 +170,7 @@ ms.locfileid: "104382734"
 
 
 
- 
+ 
 
 ## <a name="notes"></a>備註
 
@@ -238,6 +189,6 @@ ms.locfileid: "104382734"
 [HLSL 的程式設計指南](dx-graphics-hlsl-pguide.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

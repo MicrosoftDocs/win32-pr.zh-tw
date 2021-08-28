@@ -23,12 +23,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 171912934b7161a763bac75ceeb06a7ece0c521b4cefb163d67a9e2f42c34302
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 346c3d0e0100c0c61040b047849a7a81e430e8c6
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119080992"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122881200"
 ---
 # <a name="cim_action-class"></a>CIM \_ 動作類別
 
@@ -72,7 +72,7 @@ class CIM_Action
 
 
 
-| 方法                                              | 描述                                                   |
+| 方法                                              | 說明                                                   |
 |:----------------------------------------------------|:--------------------------------------------------------------|
 | [**調用**](invoke-method-in-class-cim-action.md) | 採取特定動作。 不是由 WMI 所執行。<br/> |
 
@@ -160,7 +160,7 @@ class CIM_Action
 
 </dd> <dt>
 
-**名稱**
+名稱
 </dt> <dd> <dl> <dt>
 
 資料類型： **字串**
@@ -794,8 +794,8 @@ Mac OS 9
 
 作業的版本應該採用下列其中一種形式：
 
--   <major>.<minor>.<revision>
--   <major>.<minor><letter><revision>
+-   &lt;主要 &gt; 。 &lt;次要 &gt; 。 &lt;修訂&gt;
+-   &lt;主要 &gt; 。 &lt;次要 &gt; &lt; 信件 &gt; &lt; 修訂&gt;
 
 </dd> </dl>
 

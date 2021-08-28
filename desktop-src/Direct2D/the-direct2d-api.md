@@ -25,12 +25,12 @@ keywords:
 - Direct2D，基本
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 54f318e3542d54ee92817193ef6b749a3ba1cf4678407ca7a12f28c6c187ae86
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f757ea6f1dd2b5db0d0c96297098bc6a8443bf25
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119074992"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122882848"
 ---
 # <a name="direct2d-api-overview"></a>Direct2D API 概觀
 
@@ -64,7 +64,7 @@ Direct2D 會提供類似于 Direct3D 的 API，以搭配 C 或 c + + 使用。 A
 
 Direct2D API 是由下列標頭檔所定義。
 
-| 標頭檔         | 描述                                                                                                                  |
+| 標頭檔         | 說明                                                                                                                  |
 |---------------------|------------------------------------------------------------------------------------------------------------------------------|
 | d2d1。h              | 定義主要 Direct2D API 的 C 和 c + + 版本。                                                                      |
 | d2d1helper。h        | 定義 c + + helper 函數、類別和結構。                                                                       |
@@ -161,7 +161,7 @@ Direct2D 使用左方座標系統：正 X 軸的值會繼續往右，y 軸的正
 -   [**ID2D1RadialGradientBrush**](/windows/win32/api/d2d1/nn-d2d1-id2d1radialgradientbrush) 繪製一個具有放射狀漸層的區域，可在橢圓形周圍混合兩個或多個色彩。
 -   [**ID2D1BitmapBrush**](/windows/win32/api/d2d1/nn-d2d1-id2d1bitmapbrush) 會以點陣圖繪製區域。
 
-若要建立筆刷，請使用其中一個 [**ID2D1RenderTarget：：**](/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget)create *<Type>* 筆刷方法，例如 [**CreateRadialGradientBrush**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-createradialgradientbrush(constd2d1_radial_gradient_brush_properties__constd2d1_brush_properties__id2d1gradientstopcollection_id2d1radialgradientbrush))。 筆刷可以與轉譯目標繪製和填滿方法搭配使用，以繪製形狀筆觸或外框，或做為不透明度遮罩。
+若要建立筆刷，請使用其中一個 [**ID2D1RenderTarget：：**](/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget)create *&lt; Type &gt;* 筆刷方法，例如 [**CreateRadialGradientBrush**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-createradialgradientbrush(constd2d1_radial_gradient_brush_properties__constd2d1_brush_properties__id2d1gradientstopcollection_id2d1radialgradientbrush))。 筆刷可以與轉譯目標繪製和填滿方法搭配使用，以繪製形狀筆觸或外框，或做為不透明度遮罩。
 
 如需筆刷的詳細資訊，請參閱 [筆刷總覽](direct2d-brushes-overview.md)。
 
@@ -173,7 +173,7 @@ Direct2D 使用左方座標系統：正 X 軸的值會繼續往右，y 軸的正
 
 Geometry 介面提供的方法可透過擴展或簡化現有的幾何，或產生多個幾何的交集或等位，來操作圖形。 它們也提供方法來判斷幾何是否為交集或重迭、抓取界限資訊、計算幾何的區域或長度，以及沿著幾何插上位置。 Direct2D 也可讓您建立從幾何鑲嵌的三角形網格。
 
-若要建立幾何，請使用其中一個 [**ID2D1Factory**](/windows/win32/api/d2d1/nn-d2d1-id2d1factory)：： create *<Type>* geometry 方法，例如 [**CreatePathGeometry**](/windows/win32/api/d2d1/nf-d2d1-id2d1factory-createpathgeometry)。 Geometry 是與裝置無關的資源。
+若要建立幾何，請使用其中一個 [**ID2D1Factory**](/windows/win32/api/d2d1/nn-d2d1-id2d1factory)：： create *&lt; &gt; 類型* 幾何方法，例如 [**CreatePathGeometry**](/windows/win32/api/d2d1/nf-d2d1-id2d1factory-createpathgeometry)。 Geometry 是與裝置無關的資源。
 
 若要呈現幾何，請使用轉譯目標的 [**DrawGeometry**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawgeometry) 和 [**FillGeometry**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-fillgeometry) 方法。
 

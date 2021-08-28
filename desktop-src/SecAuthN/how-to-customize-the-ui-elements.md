@@ -4,16 +4,16 @@ ms.assetid: 6F1E0B2E-E013-4C5B-86A4-0AF8606D0C12
 title: 如何自訂 UI 元素
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 19314f8e4c5d4944a500a0eef3aa0f75cd231b12
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0a99e8e7da789653226db40763116472eb065df0
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103851147"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122884557"
 ---
 # <a name="how-to-customize-the-ui-elements"></a>如何自訂 UI 元素
 
-網頁會使用網頁上定義的元資料標記，利用標題、圖示和標題色彩，自訂使用者介面 (UI) 。 Web 開發人員可以使用 HTML <meta> 標記，在 Web 驗證訊息代理程式 UI 中顯示提供者的特質和品牌。 此外，開發人員也可以指示更複雜的使用者動作，例如註冊和復原密碼。 概念與 Windows Internet Explorer 9 和 Windows 7 的釘選網站功能非常類似。
+網頁會使用網頁上定義的元資料標記，利用標題、圖示和標題色彩，自訂使用者介面 (UI) 。 Web 開發人員可以使用 HTML &lt; 中繼 &gt; 標記，在 Web 驗證訊息代理程式 UI 中顯示提供者的特質和品牌。 此外，開發人員也可以指示更複雜的使用者動作，例如註冊和復原密碼。 概念與 Windows Internet Explorer 9 和 Windows 7 的釘選網站功能非常類似。
 
 除了在網頁區域周圍自訂使用者介面之外，網頁也應該利用 Windows 8 控制項的樣式、啟用觸控功能，並在適當的情況下啟用在瀏覽器中開啟的連結。
 
@@ -29,7 +29,7 @@ ms.locfileid: "103851147"
 <meta name="mswebdialog-logo" content="https://www.contoso.com/logo.png"/>
 ```
 
-內容是可以是相對或絕對頁面的 URL。 URL 的配置可以是 HTTP 或 HTTPS。 檔案的格式應該是 PNG 或 JPG。 影像的大小應該是30x30 圖元。 如果影像的大小不同，則會由作業系統相應減少或相應縮小，以符合30x30 空間。 當擴充至140% 和180%，以考慮較高的解析度畫面時，應該將影像設計成可妥善轉譯。 若要測試不同的縮放比例，請使用 Visual Studio 11 中載入的 [Web 驗證 BROKER SDK 範例應用程式](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/WebAuthenticationBroker) ，這可讓您使用設計模式的裝置視窗來模擬不同的解析度和縮放因數。
+內容是可以是相對或絕對頁面的 URL。 URL 的配置可以是 HTTP 或 HTTPS。 檔案的格式應該是 PNG 或 JPG。 影像的大小應該是30x30 圖元。 如果影像的大小不同，則會由作業系統相應減少或相應縮小，以符合30x30 空間。 當擴充至140% 和180%，以考慮較高的解析度畫面時，應該將影像設計成可妥善轉譯。 若要測試不同的縮放比例，請使用 Visual Studio 11 中載入的[Web 驗證 Broker SDK 範例應用程式](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/WebAuthenticationBroker)，這可讓您使用設計模式的裝置視窗來模擬不同的解析度和縮放因數。
 
 ### <a name="step-2-customize-the-title-text"></a>步驟2：自訂標題文字
 
@@ -80,7 +80,7 @@ ms.locfileid: "103851147"
 
 -   啟用觸控
 
-    網頁應以觸控式使用者的互動方式設計。 如需在 Windows 8 中設計觸控的詳細資訊，請參閱 [觸控互動設計](https://msdn.microsoft.com/library/Hh465415(v=Win.10).aspx) 主題。
+    網頁應以觸控式使用者的互動方式設計。 如需在 Windows 8 中設計觸控的詳細資訊，請參閱[觸控互動設計](https://msdn.microsoft.com/library/Hh465415(v=Win.10).aspx)主題。
 
 -   自訂超連結的目標
 

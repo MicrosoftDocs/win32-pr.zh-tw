@@ -7,12 +7,12 @@ MSHAttr:
 title: IsProvisioningProfile
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 752e7e152c3617042fae6fdfa81f728ba34eb47e
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: a019632fa91ccaddb7484d1c984d2398eadb5eb1
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122473184"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122982771"
 ---
 # <a name="span-idwwan_profile_v4element_isprovisioningprofilespanisprovisioningprofile"></a><span id="WWAN_profile_v4.element_IsProvisioningProfile"></span>IsProvisioningProfile
 
@@ -22,8 +22,8 @@ ms.locfileid: "122473184"
 
 ## <a name="element-hierarchy"></a>元素階層
 
-[<MBNProfileExt>](element-mbnprofileext.md)  
-**<IsProvisioningProfile>**
+[&lt;MBNProfileExt&gt;](element-mbnprofileext.md)  
+**&lt;IsProvisioningProfile&gt;**
 
 ## <a name="syntax"></a>Syntax
 
@@ -58,7 +58,9 @@ ms.locfileid: "122473184"
 ## <a name="requirements"></a>規格需求
 
 
-| | | <p>命名空間</p> | <p>https://www.microsoft.com/networking/WWAN/profile/v4</p> | 
+| 需求 | 值 |
+|------------|----------|
+| <p>命名空間</p> | <p>https://www.microsoft.com/networking/WWAN/profile/v4</p> | 
 
 
  

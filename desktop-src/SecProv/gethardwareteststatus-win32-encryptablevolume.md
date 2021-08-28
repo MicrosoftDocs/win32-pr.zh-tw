@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Root\CIMV2\Security\MicrosoftVolumeEncryption
-ms.openlocfilehash: 508a82dfa21f7f4f3c17bd33b093ea8f558d9f47015b05f5141ddcfe30ac9b7d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 32d0d477459dbc7352d1d8f6779c5c76cfbd537d
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118892416"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122475354"
 ---
 # <a name="gethardwareteststatus-method-of-the-win32_encryptablevolume-class"></a>Win32 EncryptableVolume 類別的 GetHardwareTestStatus 方法 \_
 
@@ -51,36 +51,13 @@ uint32 GetHardwareTestStatus(
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>值</th>
-<th>意義</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><span id="NotFailed_and_NonePending"></span><span id="notfailed_and_nonepending"></span><span id="NOTFAILED_AND_NONEPENDING"></span><dl> <dt><strong>NotFailed_and_NonePending</strong></dt> <dt>0</dt> </dl></td>
-<td>如果已要求測試，則測試會在最後一次電腦重新開機時成功，而且磁片區加密現在正在進行中。 如需加密狀態，請參閱 <a href="getconversionstatus-win32-encryptablevolume.md"><strong>GetConversionStatus</strong></a> 方法。 否則，在上一次電腦重新開機時不會執行任何測試，且沒有擱置中的測試。 <br/></td>
-</tr>
-<tr class="even">
-<td><span id="Failed"></span><span id="failed"></span><span id="FAILED"></span><dl> <dt><strong>失敗</strong></dt> <dt>1</dt> </dl></td>
-<td>磁片區加密未啟動。 已移除所有金鑰保護裝置。<br/> 若要解決失敗的測試：<br/>
-<ul>
-<li>請參閱 <em>TestError</em> 參數中的資訊。</li>
-<li>新增金鑰保護裝置，並再次使用 <a href="encryptafterhardwaretest-win32-encryptablevolume.md"><strong>EncryptAfterHardwareTest</strong></a> 方法。</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><span id="Pending"></span><span id="pending"></span><span id="PENDING"></span><dl> <dt><strong>暫</strong></dt>止 <dt>2</dt> </dl></td>
-<td>已要求測試，並將在下一次電腦重新開機時執行。<br/></td>
-</tr>
-</tbody>
-</table>
+
+| 值 | 意義 | 
+|-------|---------|
+| <span id="NotFailed_and_NonePending"></span><span id="notfailed_and_nonepending"></span><span id="NOTFAILED_AND_NONEPENDING"></span><dl><dt><strong>NotFailed_and_NonePending</strong></dt><dt>0</dt></dl> | 如果已要求測試，則測試會在最後一次電腦重新開機時成功，而且磁片區加密現在正在進行中。 如需加密狀態，請參閱 <a href="getconversionstatus-win32-encryptablevolume.md"><strong>GetConversionStatus</strong></a> 方法。 否則，在上一次電腦重新開機時不會執行任何測試，且沒有擱置中的測試。 <br /> | 
+| <span id="Failed"></span><span id="failed"></span><span id="FAILED"></span><dl><dt><strong>失敗</strong></dt><dt>1</dt></dl> | 磁片區加密未啟動。 已移除所有金鑰保護裝置。<br /> 若要解決失敗的測試：<br /><ul><li>請參閱 <em>TestError</em> 參數中的資訊。</li><li>新增金鑰保護裝置，並再次使用 <a href="encryptafterhardwaretest-win32-encryptablevolume.md"><strong>EncryptAfterHardwareTest</strong></a> 方法。</li></ul> | 
+| <span id="Pending"></span><span id="pending"></span><span id="PENDING"></span><dl><dt><strong>暫</strong></dt>止<dt>2</dt></dl> | 已要求測試，並將在下一次電腦重新開機時執行。<br /> | 
+
 
 
 

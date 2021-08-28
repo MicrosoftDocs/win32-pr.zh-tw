@@ -4,12 +4,12 @@ description: 本文提供在 Windows 上執行之遊戲的技術需求和最佳�
 ms.assetid: 8b816e9f-de68-cf84-1501-a9c36c6b75d8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 24ce541a1bd8b416bdd22431b59a2ca9490f331b693fe54d45397865d9c23e3f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a0723c5da09d011111b0064ef689025d7ddcac85
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118649366"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122887055"
 ---
 # <a name="games-for-windows-technical-requirements-best-practices-for-games-on-windows-xp-windows-vista-windows-7-and-windows-8"></a>Windows 技術需求的遊戲： Windows XP、Windows Vista、Windows 7 和 Windows 8 遊戲的最佳作法
 
@@ -253,63 +253,14 @@ DirectX SDK 中的遊戲定義檔編輯器包含所有支援的評等系統，�
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>作業系統</th>
-<th>支援的評等系統</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Windows Vista</td>
-<td><ul>
-<li>CERO (日本) </li>
-<li>ESRB (USA) </li>
-<li>OFLC (澳大利亞) </li>
-<li>PEGI (歐洲) </li>
-<li>PEGI 芬蘭 (已淘汰) </li>
-<li>PEGI 葡萄牙</li>
-<li>PEGI/BBFC (英國) </li>
-<li>USK (德國) </li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>WindowsVista （含 service pack）</td>
-<td>Windows Vista 的 Service pack 新增下列支援：<br/>
-<ul>
-<li>GRB (南韓國) </li>
-<li>ESRB &quot; 輕度的 &quot; 變異內容描述項</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>Windows 7</td>
-<td>Windows 7 支援 Windows Vista 所支援的分級系統，並新增下列支援： <br/>
-<ul>
-<li>CSRR (臺灣) </li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>Windows 8</td>
-<td>Windows 8 支援先前的分級系統，並新增下列支援：<br/>
-<ul>
-<li>COB-澳大利亞 (澳大利亞) </li>
-<li>DJCTQ (巴西) </li>
-<li>PFB (南非) </li>
-<li>OFLC-NZ (紐西蘭) </li>
-</ul>
-Windows 8 淘汰下列現已淘汰的系統支援：<br/>
-<ul>
-<li>PEGI-FI (芬蘭) </li>
-<li>OFLC (澳大利亞) </li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| 作業系統 | 支援的評等系統 | 
+|------------------|--------------------------|
+| Windows Vista | <ul><li>CERO (日本) </li><li>ESRB (USA) </li><li>OFLC (澳大利亞) </li><li>PEGI (歐洲) </li><li>PEGI 芬蘭 (已淘汰) </li><li>PEGI 葡萄牙</li><li>PEGI/BBFC (英國) </li><li>USK (德國) </li></ul> | 
+| WindowsVista （含 service pack） | Windows Vista 的 Service pack 新增下列支援：<br /><ul><li>GRB (南韓國) </li><li>ESRB 「輕度」變異內容描述項</li></ul> | 
+| Windows 7 | Windows 7 支援 Windows Vista 所支援的分級系統，並新增下列支援： <br /><ul><li>CSRR (臺灣) </li></ul> | 
+| Windows 8 | Windows 8 支援先前的分級系統，並新增下列支援：<br /><ul><li>COB-澳大利亞 (澳大利亞) </li><li>DJCTQ (巴西) </li><li>PFB (南非) </li><li>OFLC-NZ (紐西蘭) </li></ul>Windows 8 淘汰下列現已淘汰的系統支援：<br /><ul><li>PEGI-FI (芬蘭) </li><li>OFLC (澳大利亞) </li></ul> | 
+
 
 
 
@@ -451,7 +402,7 @@ Windows Vista 和 Windows 7 的核心圖形架構是在 Direct3D 周圍設計的
 
 當 (DPI) 縮放時，遊戲和其安裝程式必須正確地執行，而不會發生視覺問題 (以 144 DPI 進行測試，並在 Windows Vista 和 Windows 7 上以 1600 1200) 的顯示解析度150進行縮放。
 
-這通常需要遊戲可執行檔宣告為 DPI 感知。 這是藉由內嵌資訊清單元素來達成： <dpiAware> true <dpiAware> 。
+這通常需要遊戲可執行檔宣告為 DPI 感知。 這是藉由內嵌資訊清單元素來達成： &lt; DPIAware &gt; true &lt; DPIAware &gt; 。
 
 </dd> <dt>
 

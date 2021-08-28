@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 98354d5e1e4f796442dd0347a4ed2796cafdf7297d3829af9b8839d48df00c3a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a9577f7d9030a12a12596fe2cdc2a999922658ce
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117930311"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122887177"
 ---
 # <a name="iwmpclosedcaptionsamilang-property"></a>IWMPClosedCaption：： SAMILang 屬性
 
@@ -50,7 +50,7 @@ Public Property SAMILang As System.String
 
 ## <a name="remarks"></a>備註
 
-薩米文檔案可以包含一或多個語言的文字。 隱藏式字幕的可用語言會定義于薩米文檔案的 <STYLE> 和 </STYLE> 標記之間。 語言識別項是使用唯一的英數位元字串所指定，該字串前面會加上句點 (。 ) 。 針對語言指定的名稱可以是任何字串。 例如，下列程式可用來定義美式英文：
+薩米文檔案可以包含一或多個語言的文字。 隱藏式字幕的可用語言是在 &lt; 薩米文檔案中的樣式 &gt; 和標記之間定義 </STYLE> 。 語言識別項是使用唯一的英數位元字串所指定，該字串前面會加上句點 (。 ) 。 針對語言指定的名稱可以是任何字串。 例如，下列程式可用來定義美式英文：
 
 
 ```

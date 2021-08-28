@@ -25,12 +25,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 8dd926b3c01b3ae38b39dbe758904b81aa99cd5d155af34d5dbcc19bda3a43fa
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c314bb5fb0013637068fe4720d55fdcad9cd3ab5
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119920418"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122880107"
 ---
 # <a name="cim_removedirectoryaction-class"></a>CIM \_ RemoveDirectoryAction 類別
 
@@ -76,7 +76,7 @@ class CIM_RemoveDirectoryAction : CIM_DirectoryAction
 
 
 
-| 方法                                                             | 描述                                                   |
+| 方法                                                             | 說明                                                   |
 |:-------------------------------------------------------------------|:--------------------------------------------------------------|
 | [**調用**](invoke-method-in-class-cim-removedirectoryaction.md) | 採取特定動作。 不是由 WMI 所執行。<br/> |
 
@@ -203,7 +203,7 @@ class CIM_RemoveDirectoryAction : CIM_DirectoryAction
 
 </dd> <dt>
 
-**名稱**
+名稱
 </dt> <dd> <dl> <dt>
 
 資料類型： **字串**
@@ -845,8 +845,8 @@ Mac OS 9
 
 作業的版本應該採用下列其中一種形式：
 
--   <major>.<minor>.<revision>
--   <major>.<minor><letter><revision>
+-   &lt;主要 &gt; 。 &lt;次要 &gt; 。 &lt;修訂&gt;
+-   &lt;主要 &gt; 。 &lt;次要 &gt; &lt; 信件 &gt; &lt; 修訂&gt;
 
 這個屬性繼承自 [**CIM \_ 動作**](cim-action.md)。
 

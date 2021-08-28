@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 4ebbc28c1c10ef112bf7be3b500be7f4ecaa6481
-ms.sourcegitcommit: ae73f4dd3cf5a3c6a1ea7d191ca32a5b01f6686b
+ms.openlocfilehash: 09d318e23782b28740ee811c10544de104987d49
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "104024245"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122986021"
 ---
 # <a name="shader-model-1"></a>著色器模型1
 
@@ -22,43 +22,14 @@ ms.locfileid: "104024245"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>功能</td>
-<td>功能</td>
-</tr>
-<tr class="even">
-<td>指令集</td>
-<td><ul>
-<li><a href="dx-graphics-hlsl-intrinsic-functions.md"><strong>HLSL 函式</strong></a></li>
-<li>頂點著色器元件指示 (請參閱 <a href="dx9-graphics-reference-asm-vs-instructions-vs-1-1.md">指示-vs_1_1</a>) 。  (ps_1_x) 的圖元著色器指令支援已被取代。 若要將 ps_1_x 著色器編譯 ps_2_0 著色器，請參閱 <a href="/windows/desktop/direct3dtools/dx-graphics-tools-fxc-using">編譯著色器模型 1</a>。</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>註冊集</td>
-<td><ul>
-<li><a href="dx9-graphics-reference-asm-vs-registers-vs-1-1.md">頂點著色器暫存器</a></li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>頂點著色器最大值</td>
-<td>128指示</td>
-</tr>
-<tr class="odd">
-<td>著色器設定檔</td>
-<td>vs_1_1</td>
-</tr>
-</tbody>
-</table>
+
+
+|--------|-------| |功能 |功能 | |指令集 | <ul><li><a href="dx-graphics-hlsl-intrinsic-functions.md"><strong>HLSL 函式</strong></a></li><li>頂點著色器元件指示 (請參閱 <a href="dx9-graphics-reference-asm-vs-instructions-vs-1-1.md">指示-vs_1_1</a>) 。  (ps_1_x) 的圖元著色器指令支援已被取代。 若要將 ps_1_x 著色器編譯 ps_2_0 著色器，請參閱 <a href="/windows/desktop/direct3dtools/dx-graphics-tools-fxc-using">編譯著色器模型 1</a>。</li></ul> | |註冊集 | <ul><li><a href="dx9-graphics-reference-asm-vs-registers-vs-1-1.md">頂點著色器暫存器</a></li></ul> | |頂點著色器最大值 |128指示 | |著色器設定檔 |vs_1_1 | 
 
 
 
- 
+
+ 
 
 如需著色器模型1的詳細資訊，請參閱：
 
@@ -71,6 +42,6 @@ ms.locfileid: "104024245"
 [著色器模型與著色器設定檔](dx-graphics-hlsl-models.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

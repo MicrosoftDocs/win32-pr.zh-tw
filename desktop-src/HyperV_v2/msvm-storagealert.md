@@ -25,12 +25,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 478b4617f56c73e425d833842b313767f85c385e9142314a7ca8978b5783f492
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 41af5f29f54dc0b5c7e63203c43160539bcaa870
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118950227"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122886587"
 ---
 # <a name="msvm_storagealert-class"></a>Msvm \_ StorageAlert 類別
 
@@ -83,7 +83,7 @@ class Msvm_StorageAlert : CIM_AlertIndication
 限定詞： **ModelCorrespondence** ( "cim \_ AlertIndication. AlertingManagedElement"，"Cim \_ AlertIndication. OtherAlertingElementFormat" ) 
 </dt> </dl>
 
-指定 **AlertingManagedElement** 屬性的格式。 格式為 CIMObjectPath，格式為 *<NamespacePath> ： <ClassName> . <Prop1> = \\ " <Value1> \\ "，" <Prop2> = \\ " <Value2> \\*"，這會在 CIM 架構中指定實例。
+指定 **AlertingManagedElement** 屬性的格式。 格式為 CIMObjectPath，格式為 *&lt; NamespacePath &gt; ： &lt; ClassName &gt; 。 &lt;Prop1 &gt; = \\ " &lt; Value1 &gt; \\ "、" &lt; this.prop2 &gt; = \\ " &lt; Value2 &gt; \\ "*，以指定 CIM 架構中的實例。
 
 這個屬性繼承自 **CIM \_ AlertIndication** 類別。
 

@@ -1,19 +1,19 @@
 ---
-description: 這個 <searchConnectorDescriptionList> 元素包含的搜尋連接器清單，會對應到此程式庫中包含的位置。 每個搜尋連接器都是由 <searchConnectorDescription> 元素所定義。 這個元素是選擇性的，且沒有任何屬性。
+description: 這個 &lt; searchConnectorDescriptionList &gt; 元素包含的搜尋連接器清單，會對應到此程式庫中包含的位置。 每個搜尋連接器都是由 &lt; searchConnectorDescription &gt; 元素定義。 這個元素是選擇性的，且沒有任何屬性。
 ms.assetid: 58A7BC21-0EB8-4bcf-98EE-31A56A4BC58C
 title: 'searchConnectorDescriptionList 元素 (程式庫架構) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a4d7295796f205ca0d20f220ba827abfd5470bdb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 04edc3a3cb7353529dccca66ffa15e1604bdd1c0
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973604"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122885604"
 ---
 # <a name="searchconnectordescriptionlist-element-library-schema"></a>searchConnectorDescriptionList 元素 (程式庫架構) 
 
-這個 <searchConnectorDescriptionList> 元素包含的搜尋連接器清單，會對應到此程式庫中包含的位置。 每個搜尋連接器都是由 <searchConnectorDescription> 元素所定義。 這個元素是選擇性的，且沒有任何屬性。
+這個 &lt; searchConnectorDescriptionList &gt; 元素包含的搜尋連接器清單，會對應到此程式庫中包含的位置。 每個搜尋連接器都是由 &lt; searchConnectorDescription &gt; 元素定義。 這個元素是選擇性的，且沒有任何屬性。
 
 ## <a name="syntax"></a>Syntax
 

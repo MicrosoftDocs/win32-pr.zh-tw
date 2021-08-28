@@ -4,12 +4,12 @@ ms.assetid: add98d8f-6846-4dd6-b0e2-a4b6e89cbcc5
 title: " (Direct3D 10) 封鎖壓縮"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: edf93a9d475b21b54baa59f9324a7f69b043bb0c21787c0c2892bfdbe2f6c66d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 90068e932d94a7b76e871313e60a50260dbaf479
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118101259"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122480554"
 ---
 # <a name="block-compression-direct3d-10"></a> (Direct3D 10) 封鎖壓縮
 
@@ -159,20 +159,9 @@ color_3 = 0;
 
 
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Direct3D 9 與 Direct3D 10 之間的差異：<br/> 這種格式同時存在於 Direct3D 9 和10。<br/>
-<ul>
-<li>在 Direct3D 9 中，BC1 格式稱為 D3DFMT_DXT1。</li>
-<li>在 Direct3D 10 中，BC1 格式是以 DXGI_FORMAT_BC1_UNORM 或 DXGI_FORMAT_BC1_UNORM_SRGB 表示。</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| | |Direct3D 9 與 Direct3D 10 之間的差異：<br /> 這種格式同時存在於 Direct3D 9 和10。<br /><ul><li>在 Direct3D 9 中，BC1 格式稱為 D3DFMT_DXT1。</li><li>在 Direct3D 10 中，BC1 格式是以 DXGI_FORMAT_BC1_UNORM 或 DXGI_FORMAT_BC1_UNORM_SRGB 表示。</li></ul> | 
+
 
 
 
@@ -186,20 +175,9 @@ BC2 格式儲存的色彩與 [BC1](#bc1) 格式的位元數量和資料配置相
 
 ![bc2 壓縮的版面配置圖表](images/d3d10-compression-bc2.png)
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Direct3D 9 與 Direct3D 10 之間的差異：<br/> 這種格式同時存在於 Direct3D 9 和10。<br/>
-<ul>
-<li>在 Direct3D 9 中，BC2 格式稱為 D3DFMT_DXT2 和 D3DFMT_DXT3。</li>
-<li>在 Direct3D 10 中，BC2 格式是以 DXGI_FORMAT_BC2_UNORM 或 DXGI_FORMAT_BC2_UNORM_SRGB 表示。</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| | |Direct3D 9 與 Direct3D 10 之間的差異：<br /> 這種格式同時存在於 Direct3D 9 和10。<br /><ul><li>在 Direct3D 9 中，BC2 格式稱為 D3DFMT_DXT2 和 D3DFMT_DXT3。</li><li>在 Direct3D 10 中，BC2 格式是以 DXGI_FORMAT_BC2_UNORM 或 DXGI_FORMAT_BC2_UNORM_SRGB 表示。</li></ul> | 
+
 
 
 
@@ -247,20 +225,9 @@ else
 
 
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Direct3D 9 與 Direct3D 10 之間的差異：<br/>
-<ul>
-<li>在 Direct3D 9 中，BC3 格式稱為 D3DFMT_DXT4 和 D3DFMT_DXT5。</li>
-<li>在 Direct3D 10 中，BC3 格式是以 DXGI_FORMAT_BC3_UNORM 或 DXGI_FORMAT_BC3_UNORM_SRGB 表示。</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| | |Direct3D 9 與 Direct3D 10 之間的差異：<br /><ul><li>在 Direct3D 9 中，BC3 格式稱為 D3DFMT_DXT4 和 D3DFMT_DXT5。</li><li>在 Direct3D 10 中，BC3 格式是以 DXGI_FORMAT_BC3_UNORM 或 DXGI_FORMAT_BC3_UNORM_SRGB 表示。</li></ul> | 
+
 
 
 

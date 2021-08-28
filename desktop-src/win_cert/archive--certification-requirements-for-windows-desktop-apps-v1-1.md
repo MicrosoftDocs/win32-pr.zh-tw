@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 4ca1d91104888a30e27307bd5df85e83123d8de13de3852628061b32fd7a6b8a
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 146a044153c15b11ca04f73e79b9b2ff246a98cb
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119592378"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122885982"
 ---
 # <a name="archive-certification-requirements-for-windows-desktop-apps-v11"></a>封存： Windows Desktop app 的認證需求 v1。1
 
@@ -155,8 +155,8 @@ Authenticode 數位簽章可讓使用者確認軟體是否為正版。 它也可
 -   開始功能表 AllPrograms > 啟動
 
 </dd> 10.3 Your app data, which must be shared among users on the computer, should be stored within ProgramData  
-10.4 Your app s data that is exclusive to a specific user and that is not to be shared with other users of the computer, must be stored in Users\\<username>\\AppData  
-10.5 您的應用程式絕不能直接寫入 "Windows" 目錄和或子目錄 <dl> 使用正確的方法來安裝檔案，例如字型或驅動程式。  
+10.4 Your app s data that is exclusive to a specific user and that is not to be shared with other users of the computer, must be stored in Users\\&lt;username&gt;\\AppData  
+10.5 Your app must never write directly to the "Windows" directory and or subdirectories <dl> 使用正確的方法來安裝檔案，例如字型或驅動程式。  
 </dl> </dd> 10.6 Your app must write user data at first run and not during the installation in  per-machine  installations <dl> 當應用程式安裝完成時，將不會有正確的使用者位置來儲存資料。 在安裝之後，應用程式嘗試修改電腦層級的預設關聯線為將會失敗。 相反地，預設值必須在每個使用者層級宣告，如此可防止多個使用者覆寫彼此的預設值。  
 </dl> </dd> 10.7 Exceptions and Waivers <dl> 寫入全域組件快取 (GAC 的應用程式必須要有棄權) .NET 應用程式應該將元件相依性保留為私用，並將其儲存在應用程式目錄中，除非明確需要共用元件。  
 </dl> </dd> </dl>

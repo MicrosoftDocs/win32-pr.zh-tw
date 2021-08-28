@@ -1,19 +1,19 @@
 ---
-description: <scopeItem>元素代表排除/包含範圍資料表中的單一專案。
+description: '&lt;ScopeItem &gt; 元素代表排除/包含範圍資料表中的單一專案。'
 ms.assetid: 18a58b3b-771c-4829-b3d4-253383b4bee8
 title: 'scopeItem 元素 (搜尋連接器架構) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c2033202be6d904880ec9c4efa1c60db4bb7e50
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 46a585acd065efcbc58091d4c8bebce733ed2c73
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112376"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122880444"
 ---
 # <a name="scopeitem-element-search-connector-schema"></a>scopeItem 元素 (搜尋連接器架構) 
 
-<scopeItem>元素代表排除/包含範圍資料表中的單一專案。 <scopeItem> 藉由新增可控制資料夾包含和排除的三個新元素、控制結果的深度，以及指定範圍的位置，來擴充標準 shellLinkType 類型。 如果 <scope> 元素存在，則需要這個元素。 它有三個子項目，而且沒有任何屬性。
+&lt;ScopeItem &gt; 元素代表排除/包含範圍資料表中的單一專案。 &lt;scopeItem 藉 &gt; 由新增三個可控制資料夾包含和排除的元素、控制結果的深度，以及指定範圍的位置，來擴充標準 shellLinkType 類型。 如果 &lt; 範圍 &gt; 元素存在，則需要這個元素。 它有三個子項目，而且沒有任何屬性。
 
 ## <a name="syntax"></a>Syntax
 
@@ -67,7 +67,7 @@ ms.locfileid: "104112376"
 
 ## <a name="remarks"></a>備註
 
-您 <scope> 可以使用和專案 <scopeItem> 來識別應該搜尋的位置，以及要從搜尋中排除哪些位置。
+使用 &lt; 範圍 &gt; 和 scopeItem &lt; 專案 &gt; 來識別應該搜尋的位置，以及要從搜尋中排除哪些位置。
 
 ## <a name="example"></a>範例
 
