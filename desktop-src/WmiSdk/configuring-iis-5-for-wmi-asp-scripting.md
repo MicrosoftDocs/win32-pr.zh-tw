@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 針對 WMI ASP 腳本設定 IIS 5.0 和更新版本
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ff4b5ddde139b3eef32fd7c80f4cca4e10fd816a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 11ade580408337c2b559ce46f8125e7d639205d8014e288a7a63d9730fde3fba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106992023"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119131620"
 ---
 # <a name="configuring-iis-50-and-later-for-wmi-asp-scripting"></a>針對 WMI ASP 腳本設定 IIS 5.0 和更新版本
 

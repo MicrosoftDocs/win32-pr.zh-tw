@@ -33,12 +33,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 1f7ce92add448c94c36c956e6a73e871881974df
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: ff00b806234c90ea56ccdad0ce31c48d3e74d043cb888be531fd0e4330730fb6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971122"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119919938"
 ---
 # <a name="cim_sensor-class"></a>CIM \_ 感應器類別
 

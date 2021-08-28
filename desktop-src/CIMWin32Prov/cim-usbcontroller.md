@@ -37,12 +37,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 4c636ae977dc0145b9e4b243c6903a687a525d15
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: f75ca5b26f4e13d1a82bace08e2384bf764849ffdf02651fb13a29d417088d9e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104187596"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118420975"
 ---
 # <a name="cim_usbcontroller-class"></a>CIM \_ USBController 類別
 
@@ -1113,7 +1113,7 @@ USB 控制器製造商的名稱。
 
 <span id="SCSI_Serial_Storage_Architecture"></span><span id="scsi_serial_storage_architecture"></span><span id="SCSI_SERIAL_STORAGE_ARCHITECTURE"></span>
 
-**SCSI 序列儲存架構** (13) 
+**SCSI 序列儲存體架構** (13) 
 
 
 </dt> <dd></dd> <dt>

@@ -4,12 +4,12 @@ ms.assetid: ee80ad84-c74e-4998-a893-20ea86ed5b63
 title: IAutomaticUpdates2 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f3eba882b3d874b7bea23cbab4f6d770e21c20d0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 02af84fd14df59b3a6b828ff0b2d44260993b8c43fc6088d9c5c1d835a37817e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106998269"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119855868"
 ---
 # <a name="iautomaticupdates2-methods"></a>IAutomaticUpdates2 方法
 

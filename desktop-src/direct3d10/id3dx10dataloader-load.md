@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 3bdd7fdfb8a8469018564bb9bd094cd61d1af554
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: d8ce8290db81d22b9fc14e16ad2b213c25f7de323984faf39fc58d337a691889
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106982051"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118990448"
 ---
 # <a name="id3dx10dataloaderload-method"></a>ID3DX10DataLoader：： Load 方法
 

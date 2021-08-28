@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 接收非同步事件通知
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d883908475c796a6bcf31895f2928345541c940
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4c84f6c441fc5c468b0ce7d39477d52911c6ae3becb1c4c15b5130ffb041040c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "107000295"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119130890"
 ---
 # <a name="receiving-asynchronous-event-notifications"></a>接收非同步事件通知
 

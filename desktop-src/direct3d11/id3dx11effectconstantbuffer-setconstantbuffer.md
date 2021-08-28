@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 12249d9830ced43c3a56a2c8cf51942e66f6494e
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
-ms.translationtype: HT
+ms.openlocfilehash: 16519067857d89fb7b28c9fd74af8de5e12029d71ac0d60763692bdd45e27138
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104196415"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119046406"
 ---
 # <a name="id3dx11effectconstantbuffersetconstantbuffer-method"></a>ID3DX11EffectConstantBuffer：： SetConstantBuffer 方法
 

@@ -4,12 +4,12 @@ description: 本主題說明如何建立屬於通用控制項程式庫中所定�
 ms.assetid: BCF25606-5B49-43A5-8107-E7220BE3253C
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 944e8aa70b3367f1d3a12e4f50032e6677c5d706
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: 26ddc06def47cef1a34849bbe31bc3871d4c098890bd3ef53830ae6fe7076520
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "103933723"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119916338"
 ---
 # <a name="creating-common-controls"></a>建立通用控制項
 

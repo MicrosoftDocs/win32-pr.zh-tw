@@ -4,12 +4,12 @@ ms.assetid: 3ab67adb-311f-404c-a3ca-d274af53f91c
 title: COM + 資源配置器執行緒類型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 761d85edc3105785ded904fd2dc6083a9aea30cd
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: f20f9fc25dd1811b401dd15998ddb3f8fb9b21e5964277cc94d0ab1797eae622
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104385899"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119129050"
 ---
 # <a name="com-resource-dispenser-thread-types"></a>COM + 資源配置器執行緒類型
 

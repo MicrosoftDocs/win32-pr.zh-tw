@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Wia.h
-ms.openlocfilehash: 6ccac7b689055bfaab926a8db46b4632606811d7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 385a97a71d7017cba5bbfffd0833068a74acbe9d7281f8308b003a525b3f60f1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971807"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118441344"
 ---
 # <a name="iwiaapperrorhandler-interface"></a>IWiaAppErrorHandler 介面
 
@@ -47,7 +47,7 @@ ms.locfileid: "106971807"
 
 ## <a name="remarks"></a>備註
 
-處理此介面的錯誤處理（或回呼）物件會傳遞至 [**IWiaTransfer：:D 下載 o)**](-wia-iwiatransfer-download.md) 和 [**IWiaTransfer：： Upload**](-wia-iwiatransfer-upload.md)。
+處理此介面的錯誤處理（或回呼）物件會傳遞至 [**IWiaTransfer：:D 下載 o)**](-wia-iwiatransfer-download.md)和 [**IWiaTransfer：： Upload**](-wia-iwiatransfer-upload.md)。
 
 此介面並非設計用來處理在影像資料傳輸之外發生的錯誤，例如，取得或設定裝置屬性或 unreturned 回呼至驅動程式時發生錯誤。
 
@@ -63,10 +63,10 @@ ms.locfileid: "106971807"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                     |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                               |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                     |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                               |
 | 標頭<br/>                   | <dl> <dt>Wia</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>Wia .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>Wia .idl</dt> </dl> |
 
 
 

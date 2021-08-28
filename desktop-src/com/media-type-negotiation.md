@@ -4,12 +4,12 @@ description: 許多應用層網際網路通訊協定是以簡單、彈性的格�
 ms.assetid: 7a2c9d8f-639a-4865-a62b-63330175f5f0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cb145fa3a76da6574172ddd24888f3b5da7ad85e
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: a8d9e2694d7df89eeeef8c0a3e7217a88c3bac27da3e68c38aae2ceae24fa56f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104382978"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119130190"
 ---
 # <a name="media-type-negotiation"></a>Media-Type 協商
 
@@ -21,7 +21,7 @@ ms.locfileid: "104382978"
 
 URL 標記可支援媒體類型的協商，讓網際網路用戶端和伺服器同意在 [**BindToStorage**](/windows/desktop/api/ObjIdl/nf-objidl-imoniker-bindtostorage) 作業中下載資料時使用的格式。 為了支援媒體類型的協商，用戶端會執行 [**IEnumFORMATETC**](/windows/desktop/api/ObjIdl/nn-objidl-ienumformatetc) 介面，並呼叫 [**RegisterFormatEnumerator**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775116(v=vs.85)) 函式來向系結內容註冊。 格式列舉值會列出用戶端可以接受的格式。 當系結至 HTTP Url 時，URL 標記會將這些格式轉譯為媒體類型。
 
-用戶端要求的可能媒體類型會透過系結內容上呼叫端所註冊之 [**IEnumFORMATETC**](/windows/desktop/api/ObjIdl/nn-objidl-ienumformatetc)列舉值中所提供的 [**FORMATETC**](/windows/win32/api/objidl/ns-objidl-formatetc)結構，向 URL 名字值表示：每個 **FORMATETC** 都會指定可識別媒體類型的剪貼簿格式。 例如，下列程式碼片段會將媒體類型指定為 PostScript。
+用戶端要求的可能媒體類型會透過系結內容上呼叫端所註冊之 [**IEnumFORMATETC**](/windows/desktop/api/ObjIdl/nn-objidl-ienumformatetc)列舉值中所提供的 [**FORMATETC**](/windows/win32/api/objidl/ns-objidl-formatetc)結構，向 URL 名字值表示：每個 **FORMATETC** 都會指定可識別媒體類型的剪貼簿格式。 例如，下列程式碼片段會指定媒體類型為 PostScript。
 
 ``` syntax
 FORMATETC fmtetc;
@@ -36,7 +36,7 @@ fmtetc.cfFormat = RegisterClipboardFormat(CF_MIME_POSTSCRIPT);
 > [!Note]  
 > 如果接收的內容是無法辨識的媒體類型，用戶端會自動呼叫 [**RegisterMediaTypes**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775118(v=vs.85)) 來註冊新的類型。
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -45,6 +45,6 @@ fmtetc.cfFormat = RegisterClipboardFormat(CF_MIME_POSTSCRIPT);
 [URL 的名字](url-monikers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

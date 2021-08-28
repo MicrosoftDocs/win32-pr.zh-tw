@@ -4,12 +4,12 @@ description: 本主題說明 Direct3D 10 中的資源類型，以及 Direct3D 11
 ms.assetid: 9329f260-e806-4d6d-b6d1-3d001fad411a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d3df57c5a4f6010df0494b6533a200d70be892e4
-ms.sourcegitcommit: 927b9c371f75f52b8011483edf3a4ba37d11ebe4
-ms.translationtype: HT
+ms.openlocfilehash: 3d429c42313a4a6db11c136a9f3566746ef7d53a
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "104374315"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122469825"
 ---
 # <a name="types-of-resources"></a>資源類型
 
@@ -17,24 +17,9 @@ ms.locfileid: "104374315"
 
 
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Direct3D 11 與 Direct3D 10 之間的差異：<br/> Direct3D 11 支援數種新的資源類型，包括：<br/>
-<ul>
-<li><a href="direct3d-11-advanced-stages-cs-resources.md">讀寫緩衝區和紋理</a></li>
-<li><a href="direct3d-11-advanced-stages-cs-resources.md">結構化緩衝區</a></li>
-<li><a href="direct3d-11-advanced-stages-cs-resources.md">位元組位址緩衝區</a></li>
-<li><a href="direct3d-11-advanced-stages-cs-resources.md">附加和使用緩衝區</a></li>
-<li><a href="direct3d-11-advanced-stages-cs-resources.md">未排序的存取緩衝區或紋理</a></li>
-</ul>
-Direct3D 11.2 支援已 <a href="tiled-resources.md">平平的資源</a>。<br/> Direct3D 10 和 Direct3D 11 都支援 Direct3D 10 中引進的 <a href="overviews-direct3d-11-resources-buffers-intro.md">緩衝區</a> 和 <a href="overviews-direct3d-11-resources-textures-intro.md">材質</a> 類型。<br/></td>
-</tr>
-</tbody>
-</table>
+
+| | |Direct3D 11 與 Direct3D 10 之間的差異：<br /> Direct3D 11 支援數種新的資源類型，包括：<br /><ul><li><a href="direct3d-11-advanced-stages-cs-resources.md">讀寫緩衝區和紋理</a></li><li><a href="direct3d-11-advanced-stages-cs-resources.md">結構化緩衝區</a></li><li><a href="direct3d-11-advanced-stages-cs-resources.md">位元組位址緩衝區</a></li><li><a href="direct3d-11-advanced-stages-cs-resources.md">附加和使用緩衝區</a></li><li><a href="direct3d-11-advanced-stages-cs-resources.md">未排序的存取緩衝區或紋理</a></li></ul>Direct3D 11.2 支援已 <a href="tiled-resources.md">平平的資源</a>。<br /> Direct3D 10 和 Direct3D 11 都支援 Direct3D 10 中引進的 <a href="overviews-direct3d-11-resources-buffers-intro.md">緩衝區</a> 和 <a href="overviews-direct3d-11-resources-textures-intro.md">材質</a> 類型。<br /> | 
+
 
 
 

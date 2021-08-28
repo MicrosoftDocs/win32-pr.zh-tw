@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: fd991e2207f1ad556d9f9b5e648e296b857e884b
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 4fa30724bed56e86d16626133ab32e3494d3c71d6ffa839be1520518c97a77fa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106982015"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118990458"
 ---
 # <a name="d3dx10shprojectcubemap-function"></a>D3DX10SHProjectCubeMap 函式
 

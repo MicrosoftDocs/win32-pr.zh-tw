@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 8a81a4c4bd9a2f738274f98ce925799b34986fbb
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 94ebd2513dfb38936d1167e307026f00db96592a420d6fc1994a680e1336ffb3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108107876"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119046846"
 ---
 # <a name="id3dxmatrixstackrotateaxislocal-method-d3dx10h"></a>ID3DXMATRIXStack：： RotateAxisLocal 方法 (D3DX10 .h) 
 

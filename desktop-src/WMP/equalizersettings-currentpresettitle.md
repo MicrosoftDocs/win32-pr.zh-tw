@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1f472828f4f7e12d45ac25323b4d816031757a2f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 171da30962a58ab05921709289d2bb096b98eb5d040b813dcfc9c96a96f4a876
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995081"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118838580"
 ---
 # <a name="equalizersettingscurrentpresettitle"></a>EQUALIZERSETTINGS.currentPresetTitle
 

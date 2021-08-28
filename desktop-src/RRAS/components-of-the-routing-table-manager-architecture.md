@@ -7,12 +7,12 @@ keywords:
 - 路由表管理員元件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e49d70d1117de739cfcb4686575e6b6f624e58a4
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 5702e0faa6aab68e7d837de0f4eb26ed2c428f3f550b3a9c42dbd92d1135198d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104462404"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120074228"
 ---
 # <a name="components-of-the-routing-table-manager-architecture"></a>路由表管理員架構的元件
 
@@ -34,9 +34,9 @@ ms.locfileid: "104462404"
     -   [下一個躍點](next-hops.md)
 -   [路由表管理員架構如何搭配在一起](how-the-routing-table-manager-architecture-fits-together.md)
 
- 
+ 
 
- 
+ 
 
 
 

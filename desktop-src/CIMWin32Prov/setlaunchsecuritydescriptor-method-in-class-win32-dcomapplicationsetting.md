@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 4a99919246d7b36aa265d36ae0f75e8347ea6a25
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 4e24a58efbb32dcf3d4e3d06b051529560ce745b851b448f2e8eb2acbb9ead95
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847388"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119759708"
 ---
 # <a name="setlaunchsecuritydescriptor-method-of-the-win32_dcomapplicationsetting-class"></a>Win32 DCOMApplicationSetting 類別的 SetLaunchSecurityDescriptor 方法 \_
 
@@ -107,11 +107,11 @@ uint32 SetLaunchSecurityDescriptor(
 
 下列 [**安全 \_ 描述項 \_ 控制項**](/windows/desktop/SecAuthZ/security-descriptor-control) 中的值會決定是否要更新 DACL、SACL 或兩者。
 
--   **\_有 SE DACL \_**
+-   **SE \_DACL \_ 存在**
 
     表示 DACL 應該更新。 如果未設定此值，WMI 就會保留 DACL 的原始值。
 
--   **\_出現 SE SACL \_**
+-   **SE \_SACL \_ 存在**
 
     指出 SACL 應該更新。 如果未設定此值，WMI 就會保留 SACL 的原始值。 若要更新 SACL，帳戶必須啟用 **SeSecurityPrivilege** 許可權。 針對腳本，許可權名稱為 **SeSecurityPrivilege**。 如需詳細資訊，請參閱 [**許可權常數**](/windows/desktop/WmiSdk/privilege-constants)。
 

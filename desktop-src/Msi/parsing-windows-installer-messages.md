@@ -4,12 +4,12 @@ ms.assetid: c4405803-9abd-40f4-9090-c075e7dcf293
 title: 剖析 Windows Installer 訊息
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 65cf96c85499b44accd0e01548ca184a030775d1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 39d2d44f75ccd610dd5d4da24a9ad96d85af947474ed1c8e600183388264bbb2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192104"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118942731"
 ---
 # <a name="parsing-windows-installer-messages"></a>剖析 Windows Installer 訊息
 
@@ -61,7 +61,7 @@ ms.locfileid: "104192104"
 
 </dd> </dl>
 
-外部使用者處理常式可以使用下列 Windows Installer 訊息來監視 Windows Installer UI 的順序。 安裝程式會在 Windows Installer UI 序列的開頭傳送這些訊息，因為每個對話方塊都會顯示在 UI 順序的結尾。 使用這些訊息不需要處理。
+外部使用者處理常式可以使用下列 Windows Installer 訊息來監視 Windows Installer UI 的順序。 安裝程式會在 Windows Installer UI 序列的開頭傳送這些訊息，因為每個對話方塊都會顯示在 ui 順序的結尾。 使用這些訊息不需要處理。
 
 <dl> <dt>
 

@@ -3,7 +3,7 @@ title: 'TB_GETCOLORSCHEME 訊息 (Commctrl .h) '
 description: 從工具列控制項抓取色彩配置資訊。
 ms.assetid: af172631-309e-4181-a690-05946cd6e143
 keywords:
-- TB_GETCOLORSCHEME message Windows 控制項
+- TB_GETCOLORSCHEME 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 61344439ae8bc2b3a9ecd47472174577d652aa96
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 22fca3a7a88fd108454c3838d646db311c9be19bf04163b4c8987db67f6c09c1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465568"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119918868"
 ---
 # <a name="tb_getcolorscheme-message"></a>TB \_ GETCOLORSCHEME 訊息
 
@@ -49,8 +49,8 @@ ms.locfileid: "104465568"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

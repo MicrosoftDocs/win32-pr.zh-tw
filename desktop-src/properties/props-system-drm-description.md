@@ -4,18 +4,18 @@ ms.assetid: 5c657042-fa46-4f80-88bc-d10b6e38ee56
 title: System.object。描述
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2cb77870d8e3ec3fb6230c6112c320098f0aed44
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7689c209cdd8dc7866688ad9ceedd9012a39b9df3b37cba3c65a9af9540dac2f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103944088"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119096977"
 ---
 # <a name="systemdrmdescription"></a>System.object。描述
 
 顯示數位 Rights Management (DRM) 的描述。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

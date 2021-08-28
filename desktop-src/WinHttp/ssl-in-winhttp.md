@@ -4,12 +4,12 @@ ms.assetid: cb0a04f5-1026-4ad5-bb5b-c854064a5167
 title: WinHTTP 中的 SSL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d7952bb9a0227017927452502352c0354e69079c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a041d55de85250edb1932aa3df4d114af8ef89fce6e56c3763cb235168b65be5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193265"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119133031"
 ---
 # <a name="ssl-in-winhttp"></a>WinHTTP 中的 SSL
 
@@ -79,7 +79,7 @@ WinHTTP 提供使用 SSL 的高層級介面。 雖然 SSL 信號交換和交易�
 
 ### <a name="issuer-list-retrieval-for-ssl-client-authentication"></a>SSL 用戶端驗證的簽發者清單抓取
 
-當 WinHttp 用戶端應用程式傳送要求至需要 SSL 用戶端驗證的安全 HTTP 伺服器時，如果應用程式未提供用戶端憑證，WinHttp 會傳回 **\_ \_ \_ \_ \_ 所需的錯誤 winHTTP 用戶端驗證** 憑證。 針對在 Windows Server 2008 和 Windows Vista 上執行的電腦，WinHttp 可讓應用程式在驗證挑戰中，取得伺服器提供的憑證簽發者清單。 簽發者清單會指定伺服器授權的憑證授權單位單位清單， () Ca 以發出用戶端憑證。 應用程式會篩選簽發者清單，以取得所需的憑證。
+當 WinHttp 用戶端應用程式傳送要求至需要 SSL 用戶端驗證的安全 HTTP 伺服器時，如果應用程式未提供用戶端憑證，WinHttp 會傳回 **\_ \_ \_ \_ \_ 所需的錯誤 winHTTP 用戶端驗證** 憑證。 針對 Windows Server 2008 和 Windows Vista 上執行的電腦，WinHttp 可讓應用程式在驗證挑戰中，取得伺服器提供的憑證簽發者清單。 簽發者清單會指定伺服器授權的憑證授權單位單位清單， () Ca 以發出用戶端憑證。 應用程式會篩選簽發者清單，以取得所需的憑證。
 
 當 [**WinHttpSendRequest**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpsendrequest)或 [**WinHttpReceiveResponse**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpreceiveresponse) 傳回 **\_ \_ \_ \_ \_ 所需的錯誤 WinHttp 用戶端驗證** 憑證時，WinHttp 用戶端應用程式會抓取簽發者清單。 當傳回此錯誤時，應用程式會使用 **WINHTTP \_ 選項 \_ 用戶端憑證 \_ \_ 簽發者 \_ 清單** 選項來呼叫 [**WinHttpQueryOption**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpqueryoption) 。 *LpBuffer* 參數必須夠大，才能包含 [SecPkgCoNtext \_ IssuerListInfoEx](/windows/desktop/api/schannel/ns-schannel-secpkgcontext_issuerlistinfoex)結構的指標。 下列程式碼範例示範如何取出簽發者清單。
 
@@ -170,7 +170,7 @@ BOOL fRet = WinHttpSetOption ( hRequest,
 
 | 元件                                                  | 描述                                                                                                                                                                                        | 可能值                                                                                                                                                                                                                                                                                                                       |
 |------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Location                                                   | 判斷用來儲存憑證的登錄機碼。                                                                                                                               | 可能的值為「本機 \_ 電腦」，表示 [*憑證存放區*](glossary.md) 位於 **HKEY \_ 本機 \_ 電腦**<br/> 和「目前 \_ 使用者」表示 *憑證存放區* 是在非模擬的 **HKEY \_ 目前 \_ 使用者下。**<br/> 此元件會區分大小寫。 |
+| 位置                                                   | 判斷用來儲存憑證的登錄機碼。                                                                                                                               | 可能的值為「本機 \_ 電腦」，表示 [*憑證存放區*](glossary.md) 位於 **HKEY \_ 本機 \_ 電腦**<br/> 和「目前 \_ 使用者」表示 *憑證存放區* 是在非模擬的 **HKEY \_ 目前 \_ 使用者下。**<br/> 此元件會區分大小寫。 |
 | [*憑證存放區*](glossary.md) | 指出包含相關憑證的 [*憑證存放區*](glossary.md) 名稱。                                                                       | 一般 [*憑證存放區*](glossary.md) 為 "MY"、"Root" 和 "TrustedPeople"。 此元件會區分大小寫。                                                                                                                                                                                          |
 | 主體名稱                                               | 識別指定 [*憑證存放區*](glossary.md)中的憑證。 已選取包含此元件所指定之字串的第一個憑證。 | 主體名稱可以是任何字串。 空白字串表示應使用 [*憑證存放區*](glossary.md) 中的第一個憑證。 此元件不區分大小寫。                                                                                                                         |
 

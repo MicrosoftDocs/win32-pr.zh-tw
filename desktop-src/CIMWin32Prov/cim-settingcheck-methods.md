@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: CIM_SettingCheck 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c447938946b1b63ba8272159d37cb52be5c3d196
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: ccf2f6120c0567f19e76ce3c55e6e8f9d5556715d67fe3a6eaf7b17937878a7e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104385925"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119919558"
 ---
 # <a name="cim_settingcheck-methods"></a>CIM \_ SettingCheck 方法
 

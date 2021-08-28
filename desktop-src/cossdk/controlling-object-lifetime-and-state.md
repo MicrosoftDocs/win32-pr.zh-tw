@@ -4,12 +4,12 @@ ms.assetid: 172e07a2-1711-4353-9099-ff9d31a564c6
 title: 控制物件存留期和狀態
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 525cc1d582d85bc84ef2b1749a427711d1fe26fc
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 4e2159f491267ac4d83a75c003005bd6bf7707d0db769d467fcfdfc3799ea08d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972562"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119128820"
 ---
 # <a name="controlling-object-lifetime-and-state"></a>控制物件存留期和狀態
 

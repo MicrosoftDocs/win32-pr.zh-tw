@@ -4,12 +4,12 @@ ms.assetid: 162bda20-0c62-4eac-8c1f-fd107e42c528
 title: 判斷安裝內容
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 24367e2367f845dfef2e4947a32d9dec84d644cf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 89c3ea847a410c5d253061e93153da4462e3cdd8ae8da12b4b6b701812d37d89
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106985667"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119764258"
 ---
 # <a name="determining-installation-context"></a>判斷安裝內容
 

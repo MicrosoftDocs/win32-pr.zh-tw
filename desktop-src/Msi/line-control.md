@@ -4,12 +4,12 @@ ms.assetid: 8b180b71-1e80-47c0-bb44-d5fcecabaed2
 title: 線條控制項
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ba3b7374574e2a0087e7dae8d0ffa9f097be9f45
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7eb4dc02db9c701c0c5156a0e3f3e15a039893bae290fc7e8bee7dfce64f2eb7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103692487"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119763488"
 ---
 # <a name="line-control"></a>線條控制項
 
@@ -21,7 +21,7 @@ ms.locfileid: "103692487"
 
 
 
-| 屬性識別碼                       | 十六進位位                  | Description                                                                                                                                                                                                                                                                                                                                                                     |
+| 屬性識別碼                       | 十六進位位                  | 描述                                                                                                                                                                                                                                                                                                                                                                     |
 |--------------------------------------------|----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [位置](position-control-attribute.md) |                                  | 對話方塊中控制項的位置。 將控制項左上角的寬度、高度和 Y 座標，輸入控制項 [資料表](control-table.md) 或 [BBControl 資料表](bbcontrol-table.md)的 Width、Height、X 和 Y 資料行中。 使用 [安裝程式單位](installer-units.md) 來表示長度和距離。<br/>                                         |
 | [Visible](visible-control-attribute.md)   | 0x00000000 0x00000001<br/> | 隱藏的控制項。 可見的控制項。<br/> 請在 [control table](control-table.md) 或 [BBControl 資料表](bbcontrol-table.md) 中的 Attributes 資料行的位字組中包含這個位，讓控制項在建立時可見或隱藏。<br/> 您也可以使用 [ControlCondition 資料表](controlcondition-table.md)來隱藏或顯示控制項。<br/> |

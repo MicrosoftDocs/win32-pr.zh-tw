@@ -6,12 +6,12 @@ keywords:
 - 裝置查詢藍牙的藍牙和 WSALookupServiceBegin
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8af56e1d75a66d21ea4eb94c827f6d37f77ae4336b8aeac5331665288bfeef49
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c4423b7c1c27124771c518409d9d1393a5f83afb
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118959287"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122469185"
 ---
 # <a name="bluetooth-and-wsalookupservicebegin-for-device-inquiry"></a>裝置查詢的藍牙和 WSALookupServiceBegin
 
@@ -23,40 +23,14 @@ ms.locfileid: "118959287"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>WSAQUERYSET 成員</th>
-<th>限制</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>dwSize</strong></td>
-<td>設定為 <strong>sizeof</strong> (<a href="/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw"><strong>WSAQUERYSET</strong></a>) 。</td>
-</tr>
-<tr class="even">
-<td><strong>lpBlob</strong></td>
-<td>此成員包含 <a href="/windows/desktop/api/nspapi/ns-nspapi-blob"><strong>BLOB</strong></a> 結構的選擇性指標。 如果指定了這個成員， <strong>LUP_FLUSHCACHE</strong> 的有效裝置查詢參數如下所示：
-<ul>
-<li><a href="/windows/desktop/api/nspapi/ns-nspapi-blob"><strong>BLOB</strong></a>結構的<strong>cbSize</strong>成員必須是<strong>sizeof</strong> (<strong>BTH_QUERY_DEVICE</strong>) 。</li>
-<li><strong>PBlobData</strong>成員是<a href="/windows/desktop/api/Ws2bth/ns-ws2bth-bth_query_device"><strong>BTH_QUERY_DEVICE</strong></a>結構的指標，其中<strong>膝上</strong>成員是藍牙查詢存取碼，而<strong>長度</strong>成員是查詢的長度（以秒為單位）。</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><strong>dwNameSpace</strong></td>
-<td>設定為 <strong>NS_BTH</strong>。</td>
-</tr>
-<tr class="even">
-<td>其他成員</td>
-<td><a href="/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw"><strong>WSAQUERYSET</strong></a>結構的其他成員則會被忽略。</td>
-</tr>
-</tbody>
-</table>
+
+| WSAQUERYSET 成員 | 限制 | 
+|--------------------|-------------|
+| <strong>dwSize</strong> | 設定為 <strong>sizeof</strong> (<a href="/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw"><strong>WSAQUERYSET</strong></a>) 。 | 
+| <strong>lpBlob</strong> | 此成員包含 <a href="/windows/desktop/api/nspapi/ns-nspapi-blob"><strong>BLOB</strong></a> 結構的選擇性指標。 如果指定了這個成員， <strong>LUP_FLUSHCACHE</strong> 的有效裝置查詢參數如下所示：<ul><li><a href="/windows/desktop/api/nspapi/ns-nspapi-blob"><strong>BLOB</strong></a>結構的<strong>cbSize</strong>成員必須是<strong>sizeof</strong> (<strong>BTH_QUERY_DEVICE</strong>) 。</li><li><strong>PBlobData</strong>成員是<a href="/windows/desktop/api/Ws2bth/ns-ws2bth-bth_query_device"><strong>BTH_QUERY_DEVICE</strong></a>結構的指標，其中<strong>膝上</strong>成員是藍牙查詢存取碼，而<strong>長度</strong>成員是查詢的長度（以秒為單位）。</li></ul> | 
+| <strong>dwNameSpace</strong> | 設定為 <strong>NS_BTH</strong>。 | 
+| 其他成員 | <a href="/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw"><strong>WSAQUERYSET</strong></a>結構的其他成員則會被忽略。 | 
+
 
 
 
@@ -104,7 +78,7 @@ ms.locfileid: "118959287"
 [**WSALookupServiceEnd**](/windows/desktop/api/winsock2/nf-winsock2-wsalookupserviceend)
 </dt> <dt>
 
-[**Blob**](/windows/desktop/api/nspapi/ns-nspapi-blob)
+[**BLOB**](/windows/desktop/api/nspapi/ns-nspapi-blob)
 </dt> <dt>
 
 [**BTH \_ 查詢 \_ 裝置**](/windows/desktop/api/Ws2bth/ns-ws2bth-bth_query_device)

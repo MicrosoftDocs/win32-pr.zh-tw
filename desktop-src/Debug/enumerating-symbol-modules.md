@@ -4,12 +4,12 @@ ms.assetid: 8c7fdfaa-d4d3-42d6-ad19-23e8ffda7bf4
 title: 列舉符號模組
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 43623a7409116450fccc822bbc0bef1a309fbd2a
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: bf899d74152f744d8647ffe7e56853906b8514c6c0f93cd3abdc54c33511d026
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104467949"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119343868"
 ---
 # <a name="enumerating-symbol-modules"></a>列舉符號模組
 

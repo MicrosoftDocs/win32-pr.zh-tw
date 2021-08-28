@@ -4,12 +4,12 @@ ms.assetid: 22c1897a-abb5-4ce9-9d09-21b6aed4f1d8
 title: 設定軟體限制原則
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 522f216af6957ebd23bc9f17c70f61cab2cabc5c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 30aa7de81769288e5cdcee6a7612fa0439a0e9f41d8c384b0855b7bd7ae06d41
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104025993"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119128950"
 ---
 # <a name="configuring-the-software-restriction-policy"></a>設定軟體限制原則
 
@@ -28,7 +28,7 @@ ms.locfileid: "104025993"
     -   不 **允許**。 不允許應用程式使用使用者的完整許可權。 具有任何信任層級的元件可以載入到其中。
     -   不 **受限制**。 應用程式可不受限制地存取使用者的許可權。 只有具有不受限制之信任層級的元件可以載入到其中。
 
-5.  按一下 [確定]  。
+5.  按一下 [確定]。
 
 ## <a name="related-topics"></a>相關主題
 

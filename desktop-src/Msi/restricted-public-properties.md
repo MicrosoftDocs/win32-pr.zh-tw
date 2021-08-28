@@ -4,18 +4,18 @@ ms.assetid: e16e8187-75b6-4104-a53c-928a56fcee6b
 title: 受限制的公用屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0e4f08be7f625cd45cdb48373eb0107ade708949
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: af09200f10261e50564ae79dbad961474d23d8a6354cee7344aa107c8b73fb57
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980444"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119979298"
 ---
 # <a name="restricted-public-properties"></a>受限制的公用屬性
 
 在受控安裝的情況下，封裝作者可能需要限制哪些 [公用屬性](public-properties.md) 會傳遞至伺服器端，並且可由非系統管理員的使用者進行變更。 當安裝要求安裝程式需要使用較高的許可權時，通常需要一些限制才能維護安全的環境。 如果符合下列所有條件，則不是系統管理員的使用者只能覆寫受限制公用屬性的核准清單：
 
--   系統是 Windows 2000。
+-   系統 Windows 2000。
 -   使用者不是系統管理員。
 -   正在以較高的許可權安裝應用程式或產品。
 

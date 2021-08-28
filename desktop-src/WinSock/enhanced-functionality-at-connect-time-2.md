@@ -1,19 +1,19 @@
 ---
-description: Windows 通訊端2提供一組擴充的作業，可在建立通訊端連線時一致。 下列說明執行這些功能的服務提供者需求。
+description: Windows通訊端2提供一組展開的作業，可以一致地建立通訊端連接。 下列說明執行這些功能的服務提供者需求。
 ms.assetid: fbc7055e-ea25-4d17-8039-f0fef300353c
 title: 連線時間的增強功能
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d33c6d7ee928fe7e97f535363e9e842285eef7fe
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 70be979fc807a2de25d44eb90e9d344124963d12d42863447d335b4b7e4937f4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113084"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119132651"
 ---
 # <a name="enhanced-functionality-at-connect-time"></a>連線時間的增強功能
 
-Windows 通訊端2提供一組擴充的作業，可在建立通訊端連線時一致。 下列說明執行這些功能的服務提供者需求。
+Windows通訊端2提供一組展開的作業，可以一致地建立通訊端連接。 下列說明執行這些功能的服務提供者需求。
 
 ## <a name="conditional-acceptance"></a>條件式接受
 

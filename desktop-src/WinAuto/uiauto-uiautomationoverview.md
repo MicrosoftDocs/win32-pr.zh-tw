@@ -1,6 +1,6 @@
 ---
 title: UI 自動化概觀
-description: Microsoft 消費者介面自動化是適用于 Windows 的協助工具架構。
+description: Microsoft 消費者介面自動化是 Windows 的協助工具架構。
 ms.assetid: 99610542-761c-432d-a4ac-4cd3812577a8
 keywords:
 - 消費者介面自動化，關於
@@ -17,16 +17,16 @@ keywords:
 - 標頭檔
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 20ea29b0abd4c6ed791ae3195f36a0f8184c8596
-ms.sourcegitcommit: 927b9c371f75f52b8011483edf3a4ba37d11ebe4
+ms.openlocfilehash: 3664866280d570f9fa5f07acc6245ca2b4c1bff7
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "104374331"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122470055"
 ---
 # <a name="ui-automation-overview"></a>UI 自動化概觀
 
-Microsoft 消費者介面自動化是適用于 Windows 的協助工具架構。 它可讓您以程式設計方式存取桌面上大部分的 UI 元素。 它可讓輔助技術產品（例如螢幕讀取器）提供使用者介面的相關資訊給使用者，以及透過標準輸入以外的方式操作 UI。 消費者介面自動化也可讓自動化測試腳本與 UI 互動。
+Microsoft 消費者介面自動化是 Windows 的協助工具架構。 它可讓您以程式設計方式存取桌面上大部分的 UI 元素。 它可讓輔助技術產品（例如螢幕讀取器）提供使用者介面的相關資訊給使用者，以及透過標準輸入以外的方式操作 UI。 消費者介面自動化也可讓自動化測試腳本與 UI 互動。
 
 在 Windows XP 中，消費者介面自動化是 Microsoft .NET Framework 的第一次提供。 雖然非受控 c + + API 也會在當時發佈，但因為互通性問題，所以用戶端函式的實用性受到限制。 針對 Windows 7，API 已在元件物件模型中重寫 (COM) 。
 
@@ -35,9 +35,9 @@ Microsoft 消費者介面自動化是適用于 Windows 的協助工具架構。 
 
  
 
-您可以撰寫消費者介面自動化的用戶端應用程式，以確保這些應用程式可在多個 Microsoft Windows 控制項架構上運作。 消費者介面自動化 core 會遮罩架構中各種不同部分的架構差異。 例如，Windows Presentation Foundation (WPF) 按鈕的 [ **內容** ] 屬性、[Microsoft Win32] 按鈕的 [ **標題** ] 屬性，以及 HTML 影像的 **ALT** 屬性，都會對應到消費者介面自動化視圖中的單一屬性 [ **名稱**]。
+您可以撰寫消費者介面自動化的用戶端應用程式，以確保這些應用程式可在多個 Microsoft Windows 控制架構上運作。 消費者介面自動化 core 會遮罩架構中各種不同部分的架構差異。 例如，Windows Presentation Foundation (WPF) 按鈕的 [**內容**] 屬性、[Microsoft Win32] 按鈕的 [**標題**] 屬性，以及 HTML 影像的 **ALT** 屬性，都會對應到消費者介面自動化視圖中的單一屬性 [**名稱**]。
 
-消費者介面自動化在 Windows XP、Windows Server 2003 和更新版本的作業系統中提供完整功能。
+消費者介面自動化在 Windows XP、Windows Server 2003 及更新版本的作業系統中提供完整功能。
 
 消費者介面自動化提供者是在控制項上執行消費者介面自動化支援的元件，並透過內建的橋接服務提供 Microsoft Active Accessibility 用戶端應用程式的一些支援。
 
@@ -59,41 +59,14 @@ Microsoft 消費者介面自動化是適用于 Windows 的協助工具架構。 
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>元件</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>提供者 API</td>
-<td>由消費者介面自動化提供者所執行的一組 COM 介面。 消費者介面自動化提供者為物件，可提供 UI 元素的相關資訊，並回應程式設計的輸入。</td>
-</tr>
-<tr class="even">
-<td>用戶端 API</td>
-<td>一組 COM 介面，可讓用戶端應用程式取得 UI 的相關資訊，並將輸入傳送給控制項。
-<blockquote>
-[!Note]<br />
-已淘汰的 <a href="uiauto-entry-cpfunctions.md">控制項模式函數</a> 和已淘汰的 <a href="uiauto-entry-uianodefunctions.md">節點</a> 函式中所述的函式已被取代。 相反地，用戶端應用程式應該使用 <a href="uiauto-entry-uiautoclientinterfaces.md">用戶端消費者介面自動化元素介面</a>中所述的消費者介面自動化 COM 介面。
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td>UIAutomationCore.dll</td>
-<td>執行時間程式庫（有時稱為消費者介面自動化 core）可處理提供者與用戶端之間的通訊。</td>
-</tr>
-<tr class="even">
-<td>Oleacc.dll</td>
-<td>Microsoft Active Accessibility 和 proxy 物件的執行時間程式庫。 此程式庫也會提供 Microsoft Microsoft Active Accessibility 用來消費者介面自動化 Proxy 以支援 Win32 控制項的 proxy 物件。</td>
-</tr>
-</tbody>
-</table>
+
+| 元件 | 描述 | 
+|-----------|-------------|
+| 提供者 API | 由消費者介面自動化提供者所執行的一組 COM 介面。 消費者介面自動化提供者為物件，可提供 UI 元素的相關資訊，並回應程式設計的輸入。 | 
+| 用戶端 API | 一組 COM 介面，可讓用戶端應用程式取得 UI 的相關資訊，並將輸入傳送給控制項。<blockquote>[!Note]<br />已淘汰的 <a href="uiauto-entry-cpfunctions.md">控制項模式函數</a> 和已淘汰的 <a href="uiauto-entry-uianodefunctions.md">節點</a> 函式中所述的函式已被取代。 相反地，用戶端應用程式應該使用 <a href="uiauto-entry-uiautoclientinterfaces.md">用戶端消費者介面自動化元素介面</a>中所述的消費者介面自動化 COM 介面。</blockquote><br /> | 
+| UIAutomationCore.dll | 執行時間程式庫（有時稱為消費者介面自動化 core）可處理提供者與用戶端之間的通訊。 | 
+| Oleacc.dll | Microsoft Active Accessibility 和 proxy 物件的執行時間程式庫。 此程式庫也會提供 Microsoft Microsoft Active Accessibility 用來消費者介面自動化 Proxy 以支援 Win32 控制項的 proxy 物件。 | 
+
 
 
 
@@ -103,7 +76,7 @@ Microsoft 消費者介面自動化是適用于 Windows 的協助工具架構。 
 
 ## <a name="ui-automation-header-files"></a>消費者介面自動化標頭檔
 
-消費者介面自動化 API 是在 Windows 軟體開發套件 (SDK) 隨附的數個不同 C/c + + 標頭檔中定義。 下表說明消費者介面自動化標頭檔案：
+消費者介面自動化 API 是在 Windows 軟體開發套件 (SDK) 隨附的數個不同 c/c + + 標頭檔中定義。 下表說明消費者介面自動化標頭檔案：
 
 
 
@@ -122,7 +95,7 @@ Microsoft 消費者介面自動化是適用于 Windows 的協助工具架構。 
 
 ## <a name="ui-automation-model"></a>使用者介面自動化模型
 
-消費者介面自動化會將 UI 的每個元素公開給用戶端應用程式，以做為 [**IUIAutomationElement**](/windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomationelement) 介面所代表的物件。 項目包含於樹狀結構中，且桌面是根項目。 用戶端可將樹狀結構之未經處理的檢視篩選為控制項檢視或內容檢視。 使用 Windows SDK 隨附的 [檢查](inspect-objects.md) 應用程式，即可輕鬆地查看結構的這些標準觀點。 應用程式也可以建立自訂檢視。
+消費者介面自動化會將 UI 的每個元素公開給用戶端應用程式，以做為 [**IUIAutomationElement**](/windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomationelement) 介面所代表的物件。 項目包含於樹狀結構中，且桌面是根項目。 用戶端可將樹狀結構之未經處理的檢視篩選為控制項檢視或內容檢視。 使用 Windows SDK 隨附的[檢查](inspect-objects.md)應用程式，即可輕鬆地查看結構的這些標準觀點。 應用程式也可以建立自訂檢視。
 
 消費者介面自動化專案會公開其所代表之控制項或 UI 專案的屬性。 其中一個屬性是控制項類型，它會將控制項或 UI 元素的基本外觀和功能定義為單一可辨識的實體，例如按鈕或核取方塊。 如需控制項類型的詳細資訊，請參閱 [消費者介面自動化控制項類型總覽](uiauto-controltypesoverview.md)。
 

@@ -4,12 +4,12 @@ ms.assetid: 7f5f925a-b3ce-4829-b9a4-cfc68ec6b50e
 title: '分散式路由表會傳回值 (的 Drt) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ef656454f833a6795167c1ea6689afda460119cb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 82a80c6529a6488fb12ee36abedb9f460549d72eaa4956e198ffd2d118d11cdf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106997529"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119011566"
 ---
 # <a name="distributed-routing-table-return-values"></a>分散式路由表傳回值
 
@@ -22,7 +22,7 @@ ms.locfileid: "106997529"
 
 
 
-| 常數/值                                                                                                                                                                                                                                                                                                  | Description                                                                                                                                                     |
+| 常數/值                                                                                                                                                                                                                                                                                                  | 描述                                                                                                                                                     |
 |:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="FACILITY_DRT"></span><span id="facility_drt"></span><dl> <dt>**設備 \_DRT**</dt> <dt>0x98</dt> </dl>                                                                                            |                                                                                                                                                                 |
 | <span id="DRT_E_TIMEOUT"></span><span id="drt_e_timeout"></span><dl> <dt>**DRT \_E \_ TIMEOUT**</dt> <dt>0x1001</dt> </dl>                                                                                      | DRT 作業已超時。<br/>                                                                                                                     |
@@ -76,8 +76,8 @@ ms.locfileid: "106997529"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 Windows 7 Professional \[ desktop 應用程式\]<br/>                          |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/>                          |
+| 最低支援的用戶端<br/> | Windows 7 專業版 \[僅限桌面應用程式\]<br/>                          |
+| 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/>                          |
 | 標頭<br/>                   | <dl> <dt>Drt</dt> </dl> |
 
 

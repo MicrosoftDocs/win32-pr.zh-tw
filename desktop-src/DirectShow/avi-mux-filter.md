@@ -4,12 +4,12 @@ ms.assetid: 31d30c91-fc6a-45ec-a2e0-34e6a1e902a4
 title: AVI Mux 篩選
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9b5c3f02e5df7a9e17c2371916eb48b5ccfebe04dfa3046d464bc732f17f868f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f923ed944781bbaa36179b02db9022f38fc98ff6
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118159280"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122478634"
 ---
 # <a name="avi-mux-filter"></a>AVI Mux 篩選
 
@@ -19,59 +19,9 @@ AVI Mux 篩選器接受多個輸入資料流程，並將它們交錯成 AVI 格�
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>篩選介面</td>
-<td><a href="/windows/desktop/api/Strmif/nn-strmif-ibasefilter"><strong>IBaseFilter</strong></a>、 <a href="/windows/desktop/api/Strmif/nn-strmif-iconfigavimux"><strong>IConfigAviMux</strong></a>、 <a href="/windows/desktop/api/Strmif/nn-strmif-iconfiginterleaving"><strong>IConfigInterleaving</strong></a>、 <a href="/windows/desktop/api/Strmif/nn-strmif-imediaseeking"><strong>IMediaSeeking</strong></a>、 <a href="/windows/desktop/api/Strmif/nn-strmif-ipersistmediapropertybag"><strong>IPersistMediaPropertyBag</strong></a>、ISpecifyPropertyPages</td>
-</tr>
-<tr class="even">
-<td>輸入 Pin 媒體類型</td>
-<td>對應至舊樣式 FOURCC 或 MEDIATYPE_AUXLine21Data 的任何主要型別。  (需詳細資訊，請參閱 <a href="fourccmap.md"><strong>FOURCCMap 類別</strong></a>。 ) 
-<ul>
-<li>如果主要類型為 MEDIATYPE_Audio，則格式必須為 FORMAT_WaveFormatEx。</li>
-<li>如果主要類型為 MEDIATYPE_Video，則格式必須為 FORMAT_VideoInfo 或 FORMAT_DvInfo。</li>
-<li>如果主要類型為 MEDIATYPE_Interleaved，則格式必須為 FORMAT_DvInfo。</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>輸入 Pin 介面</td>
-<td><a href="/windows/desktop/api/Strmif/nn-strmif-iamstreamcontrol"><strong>IAMStreamControl</strong></a>、 <a href="/windows/desktop/api/Strmif/nn-strmif-imeminputpin"><strong>IMemInputPin</strong></a>、 <a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPin</strong></a>、IPropertyBag、 <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>IQualityControl</strong></a></td>
-</tr>
-<tr class="even">
-<td>輸出 Pin 媒體類型</td>
-<td>MEDIATYPE_Stream，MEDIASUBTYPE_Avi</td>
-</tr>
-<tr class="odd">
-<td>輸出 Pin 介面</td>
-<td><a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPin</strong></a>、 <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"> <strong>IQualityControl</strong></a></td>
-</tr>
-<tr class="even">
-<td>篩選 CLSID</td>
-<td>CLSID_AviDest</td>
-</tr>
-<tr class="odd">
-<td>屬性頁 CLSID</td>
-<td>CLSID_AviMuxProptyPage，CLSID_AviMuxProptyPage1</td>
-</tr>
-<tr class="even">
-<td>可執行檔</td>
-<td>qcap.dll</td>
-</tr>
-<tr class="odd">
-<td><a href="merit.md">優點</a></td>
-<td>MERIT_DO_NOT_USE</td>
-</tr>
-<tr class="even">
-<td><a href="filter-categories.md">篩選準則分類</a></td>
-<td>CLSID_LegacyAmFilterCategory</td>
-</tr>
-</tbody>
-</table>
+
+| | |篩選介面 | <a href="/windows/desktop/api/Strmif/nn-strmif-ibasefilter"><strong>IBaseFilter</strong></a>、 <a href="/windows/desktop/api/Strmif/nn-strmif-iconfigavimux"><strong>IConfigAviMux</strong></a>、 <a href="/windows/desktop/api/Strmif/nn-strmif-iconfiginterleaving"><strong>IConfigInterleaving</strong></a>、 <a href="/windows/desktop/api/Strmif/nn-strmif-imediaseeking"><strong>IMediaSeeking</strong></a>、 <a href="/windows/desktop/api/Strmif/nn-strmif-ipersistmediapropertybag"><strong>IPersistMediaPropertyBag</strong></a>、ISpecifyPropertyPages | |輸入 Pin 媒體類型 |對應至舊樣式 FOURCC 或 MEDIATYPE_AUXLine21Data 的任何主要型別。  (需詳細資訊，請參閱 <a href="fourccmap.md"><strong>FOURCCMap 類別</strong></a>。 ) <ul><li>如果主要類型為 MEDIATYPE_Audio，則格式必須為 FORMAT_WaveFormatEx。</li><li>如果主要類型為 MEDIATYPE_Video，則格式必須為 FORMAT_VideoInfo 或 FORMAT_DvInfo。</li><li>如果主要類型為 MEDIATYPE_Interleaved，則格式必須為 FORMAT_DvInfo。</li></ul> | |輸入 Pin 介面 | <a href="/windows/desktop/api/Strmif/nn-strmif-iamstreamcontrol"><strong>IAMStreamControl</strong></a>、 <a href="/windows/desktop/api/Strmif/nn-strmif-imeminputpin"><strong>IMemInputPin</strong></a>、 <a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPin</strong></a>、IPropertyBag、 <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>IQualityControl</strong></a> | |輸出釘選媒體類型 |MEDIATYPE_Stream，MEDIASUBTYPE_Avi | |輸出 Pin 介面 | <a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPin</strong></a>、 <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>IQualityControl</strong></a> | |篩選 CLSID |CLSID_AviDest | |屬性頁 CLSID |CLSID_AviMuxProptyPage，CLSID_AviMuxProptyPage1 | |可執行檔 |qcap.dll | | <a href="merit.md">業績</a> |MERIT_DO_NOT_USE | | <a href="filter-categories.md">篩選準則類別</a> |CLSID_LegacyAmFilterCategory | 
+
 
 
 

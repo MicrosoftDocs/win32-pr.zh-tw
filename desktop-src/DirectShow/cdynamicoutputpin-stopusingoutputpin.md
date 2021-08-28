@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 758f711dfa5aa40d9cdea6332de71be3a7708836
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: f69e5ac6d79307ae6479bd5fb3decbb5e653ebde02c5fe3706ac2272f25e61bd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103935955"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120055888"
 ---
 # <a name="cdynamicoutputpinstopusingoutputpin-method"></a>CDynamicOutputPin. StopUsingOutputPin 方法
 

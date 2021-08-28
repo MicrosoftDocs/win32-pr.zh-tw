@@ -4,12 +4,12 @@ description: 根據使用者提供的輸入語義，IA 階段會產生系統產�
 ms.assetid: eed1e377-4b0e-4958-b6d4-945b2a952ad8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ccdc723d335fd78277051099ec05b43ed954174d
-ms.sourcegitcommit: ca37395fd832e798375e81142b97cffcffabf184
+ms.openlocfilehash: 1bbf190ed0c2d5cb4ce38cb3582d64d6d28daddac850e3ae3331254b86714724
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "110335202"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119046656"
 ---
 # <a name="using-system-generated-values"></a>使用 System-Generated 值
 

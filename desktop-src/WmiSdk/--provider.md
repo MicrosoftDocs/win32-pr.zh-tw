@@ -15,12 +15,12 @@ api_type:
 - Schema
 api_location:
 - All
-ms.openlocfilehash: 733323c106a5d682e7eddbe3a41bf9c156520c51
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 31f50f731942e056b201146abeccb038b32f2230c3bcd058f44279bc95bd326b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106977955"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119132051"
 ---
 # <a name="__provider-class"></a>\_\_提供者類別
 

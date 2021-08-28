@@ -4,12 +4,12 @@ ms.assetid: 240d1753-df8c-45fe-b5a7-9faa96fc5b18
 title: MPEG-2 信號信號媒體類型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bef3c7006f13b07394da7d9dc92e9295beda816c
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.openlocfilehash: 99dfba52378813b8b96920a44c593e9c7d4b45a0
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122982601"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122476274"
 ---
 # <a name="mpeg-2-demultiplexer-media-types"></a>MPEG-2 信號信號媒體類型
 
@@ -43,11 +43,7 @@ MPEG-2 信號信號不會驗證輸出類型;下游篩選器負責剖析它從信
 
 
 
-| 標籤 | 值 |
-|--------|-------|
-| 主要類型 | <strong>MEDIATYPE_MPEG2_SECTIONS</strong> | 
-| Subtype | 下列任何一項：<br /><ul><li><strong>MEDIASUBTYPE_ATSC_SI</strong>： ATSC 服務資訊。</li><li><strong>MEDIASUBTYPE_DVB_SI</strong>： Dvb-t 服務資訊。</li><li><strong>MEDIASUBTYPE_ISDB_SI</strong>：整合服務數位廣播 (ISDB) 服務資訊。</li><li><strong>MEDIASUBTYPE_MPEG2DATA</strong>： mpeg-2 區段資料。</li></ul> | 
-| 格式類型 | 無 | 
+| | |主要類型 | <strong>MEDIATYPE_MPEG2_SECTIONS</strong> | |子類型 |下列任何一項：<br /><ul><li><strong>MEDIASUBTYPE_ATSC_SI</strong>： ATSC 服務資訊。</li><li><strong>MEDIASUBTYPE_DVB_SI</strong>： Dvb-t 服務資訊。</li><li><strong>MEDIASUBTYPE_ISDB_SI</strong>：整合服務數位廣播 (ISDB) 服務資訊。</li><li><strong>MEDIASUBTYPE_MPEG2DATA</strong>： mpeg-2 區段資料。</li></ul> | |格式類型 |無 | 
 
 
 

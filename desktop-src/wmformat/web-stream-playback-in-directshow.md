@@ -1,35 +1,35 @@
 ---
-title: 在 DirectShow 中播放 Web 串流
-description: 在 DirectShow 中播放 Web 串流
+title: DirectShow 中的 Web 串流播放
+description: DirectShow 中的 Web 串流播放
 ms.assetid: cc307c24-2bd2-43de-ba81-1cf5b05524b2
 keywords:
-- Windows Media Format SDK、DirectShow
-- Windows Media Format SDK，Web 串流播放
-- Advanced Systems Format (ASF) 、DirectShow
+- Windows媒體格式 SDK，DirectShow
+- Windows媒體格式 SDK，Web 串流播放
+- Advanced Systems Format (ASF) ，DirectShow
 - ASF (Advanced Systems Format) ，DirectShow
 - Advanced Systems Format (ASF) 、Web stream 播放
 - ASF (Advanced Systems Format) 、Web stream 播放
 - DirectShow，Web 串流播放
 - Web 串流，DirectShow
 - Web 串流，在 DirectShow 中播放
-- 串流，在 DirectShow 中播放 Web 串流
+- 資料流程，DirectShow 中的 Web 串流播放
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a696e8184554195cf6e9c841b2fb59c4281e377a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e10d70b4c6958881f3a49544e8119163ad68ef12d6b127ca1af144a1036def8e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103932035"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118431975"
 ---
-# <a name="web-stream-playback-in-directshow"></a>在 DirectShow 中播放 Web 串流
+# <a name="web-stream-playback-in-directshow"></a>DirectShow 中的 Web 串流播放
 
-Microsoft DirectShow 支援 Web 串流 (查看 [Web 串流](web-streams.md) ，以取得透過 [WM ASF 讀取](wm-asf-reader-filter.md) 器篩選檔案播放案例中) 的詳細資訊，但您必須撰寫自己的 DirectShow 篩選器來捕捉和保存資料流程。
+Microsoft DirectShow 支援 web 串流 (如需詳細資訊，請參閱[web 串流](web-streams.md)透過[WM ASF 讀取](wm-asf-reader-filter.md)器篩選的檔案播放案例中) 的詳細資訊，但您必須撰寫自己的 DirectShow 篩選器來捕捉和保存資料流程。
 
 > [!Note]  
 > 若要在從執行 Windows Media Services 的伺服器串流處理的內容中播放 Web 串流，請使用內嵌在網頁中的 Windows Media Player 9 系列 ActiveX®控制項。
 
- 
+ 
 
 當提供包含 WMMEDIATYPE FileTransfer 類型資料流程的檔案時 \_ ，WM ASF 讀取器將會為其建立輸出圖釘。 格式區塊將會是 [**WMT \_ WEBSTREAM \_ 格式**](/previous-versions/windows/desktop/api/Wmsdkidl/ns-wmsdkidl-wmt_webstream_format) 結構。 如果沒有可用來處理該媒體類型的下游篩選器，則 pin 將保持未連線，但檔案仍會播放音訊和/或影片串流。
 
@@ -44,9 +44,9 @@ Microsoft DirectShow 支援 Web 串流 (查看 [Web 串流](web-streams.md) ，�
 [**Web 串流**](web-streams.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

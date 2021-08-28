@@ -1,6 +1,6 @@
 ---
 title: Win32_RemoteAppChangeEvent 類別
-description: 代表遠端桌面工作階段主機 (RD 工作階段主機) Server 上 Windows Server 2008 R2 RemoteApp 設定的變更。
+description: 代表遠端桌面工作階段主機 (RD 工作階段主機) 伺服器上 Windows server 2008 R2 RemoteApp 設定的變更。
 ms.assetid: 3434ee4e-283e-4147-a73b-c131e8af6c57
 ms.tgt_platform: multiple
 keywords:
@@ -18,16 +18,16 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5355d057038e97e9f381646134ff6487541f67f6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f4adbb8fd609022256435e9145098fe7adcf82d0ef2e8ebb9e98c5146a263605
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104103674"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118848803"
 ---
 # <a name="win32_remoteappchangeevent-class"></a>Win32 \_ RemoteAppChangeEvent 類別
 
-代表遠端桌面工作階段主機 (RD 工作階段主機) Server 上 Windows Server 2008 R2 RemoteApp 設定的變更。
+代表遠端桌面工作階段主機 (RD 工作階段主機) 伺服器上 Windows server 2008 R2 RemoteApp 設定的變更。
 
 ## <a name="syntax"></a>語法
 
@@ -81,7 +81,7 @@ class Win32_RemoteAppChangeEvent : ExtrinsicEvent
 
 ## <a name="remarks"></a>備註
 
-若要連接到「根 \\ CIMV2 \\ microsoft-windows-terminalservices-gateway」命名空間，驗證層級必須包含封包隱私權。 針對 C/c + + 呼叫，這是 **RPC \_ C \_ 驗證 \_ level \_ PKT \_ 隱私權** 的驗證層級，可以使用 [**CoSetProxyBlanket**](/windows/win32/api/combaseapi/nf-combaseapi-cosetproxyblanket) COM 函式來設定。 針對 Visual Basic 和腳本呼叫，這是 **WbemAuthenticationLevelPktPrivacy** 或 "pktPrivacy" 的驗證層級，其值為6。 下列 Visual Basic Scripting Edition (VBScript) 範例示範如何連接到具有封包隱私權的遠端電腦。
+若要連接到「根 \\ CIMV2 \\ microsoft-windows-terminalservices-gateway」命名空間，驗證層級必須包含封包隱私權。 針對 C/c + + 呼叫，這是 **RPC \_ C \_ 驗證 \_ level \_ PKT \_ 隱私權** 的驗證層級，可以使用 [**CoSetProxyBlanket**](/windows/win32/api/combaseapi/nf-combaseapi-cosetproxyblanket) COM 函式來設定。 針對 Visual Basic 和腳本呼叫，這是 **WbemAuthenticationLevelPktPrivacy** 或 "pktPrivacy" 的驗證層級，其值為6。 下列 Visual Basic 腳本撰寫版 (VBScript) 範例示範如何連接到具有封包隱私權的遠端電腦。
 
 
 ```VB
