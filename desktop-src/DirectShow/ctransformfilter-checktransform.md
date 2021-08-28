@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 2b3302304e6a0f9df41005f7ed63d9316a3cd410
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4ea4b0bdfefcbbf1003031cd43be7c570a9a95bca235f4a1175b0671e0b4706f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995778"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119330748"
 ---
 # <a name="ctransformfilterchecktransform-method"></a>CTransformFilter. CheckTransform 方法
 

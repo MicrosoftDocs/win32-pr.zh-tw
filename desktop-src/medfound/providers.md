@@ -4,12 +4,12 @@ ms.assetid: ee483f0a-5a90-4150-ada4-0b63ae312523
 title: providers 元素
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d38a86bf3ca8ffa1ea9e3da20e0244e7abec8513
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: dadf2d0fe65d0b072787132d5263bb894a6d273a9299cfc77e96fcff01d89170
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113118483"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119034926"
 ---
 # <a name="providers-element"></a>providers 元素
 
@@ -58,7 +58,7 @@ ms.locfileid: "113118483"
         可以是空的
     :::column-end:::
     :::column span="2":::
-        是
+        Yes
     :::column-end:::
 :::row-end:::
 

@@ -4,12 +4,12 @@ ms.assetid: 654c67e8-2f17-4d93-aabd-fabd71c4c852
 title: 關於磁碟區陰影複製服務
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 62a170ce83b14ffe431199099e5a8927e19c1941
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 39b88d3725cac7356fbef40dc737f36bf9a3828208babc89d9338073daf4ea86
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106979000"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118998258"
 ---
 # <a name="about-the-volume-shadow-copy-service"></a>關於磁碟區陰影複製服務
 

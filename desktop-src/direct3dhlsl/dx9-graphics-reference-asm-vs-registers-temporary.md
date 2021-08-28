@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: c3dcaa5ac0c9c1531a1e1f0476d2ef13b4bac509
-ms.sourcegitcommit: cba7f424a292fd7f3a8518947b9466439b455419
+ms.openlocfilehash: eb8d1ee47b224103724ba61fa6c8763069acc0564758a9e531d5d5edb6e2a039
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "104313797"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119119552"
 ---
 # <a name="temporary-register-hlsl-vs-reference"></a>暫存註冊 (HLSL 與參考) 
 
@@ -30,14 +30,14 @@ ms.locfileid: "104313797"
 
 | 屬性        | 描述                                                                                                                                                                                 |
 |-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Name            | r \[ n \] 。 n 是選擇性的註冊編號。 預設值為0，如果未指定任何值，則為所使用的值。                                                                                 |
-| Count           | 最多12個註冊程式。                                                                                                                                                                  |
+| 名稱            | r \[ n \] 。 n 是選擇性的註冊編號。 預設值為0，如果未指定任何值，則為所使用的值。                                                                                 |
+| 計數           | 最多12個註冊程式。                                                                                                                                                                  |
 | I/o 許可權 | 讀取/寫入 此暫存器可由 API 或著色器讀取或寫入。                                                                                                               |
 | 讀取埠      | 在單一指令中可讀取的暫存器次數為3。 臨時暫存器是唯一可在單一指令中讀取和寫入一次以上的暫存器。 |
 
 
 
- 
+ 
 
 每個暫存登錄都具有單一寫入和三次讀取的存取權。 因此，指令在一組輸入來源運算元中最多可以有三個暫存暫存器。
 
@@ -71,7 +71,7 @@ mov r4.xz, r0        // xz
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -80,9 +80,9 @@ mov r4.xz, r0        // xz
 [頂點著色器暫存器](dx9-graphics-reference-asm-vs-registers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

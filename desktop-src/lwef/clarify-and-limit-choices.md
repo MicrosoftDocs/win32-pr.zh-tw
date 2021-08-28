@@ -4,16 +4,16 @@ description: 明確和限制選擇
 ms.assetid: 4ec3ca01-231b-4a45-aae1-fba5b2ba0033
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 953001d706089244d6366c8dab0cdb580a2d72ca
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: cb9c7c6371009865baa685e3644c2c1e62e1713bd40a0c64a7a8530b849e813d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113118473"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118480302"
 ---
 # <a name="clarify-and-limit-choices"></a>明確和限制選擇
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 當使用者學習適當文法的範圍時，語音辨識會變得更成功。 當選擇範圍有限時，也會更好用。 輸入愈少，語音引擎可以分析聲場資訊輸入的效果愈好。
 
@@ -59,7 +59,7 @@ Microsoft 代理程式可讓您輕鬆地為應用程式指定語音文法的替�
 
 這比較可能會使用可能的前置詞 "I mean" 或 "I" 來產生其中一個合作物件的完整名稱。
 
-由於 Microsoft 代理程式字元是在 Microsoft Windows 的視覺化介面中運作，因此您可以使用視覺元素來提供語音輸入的指示詞提示。 例如，您可以在選項清單中使用字元手勢，並要求使用者選取其中一個，或是在對話方塊或訊息視窗中顯示選擇。 這有兩個優點：它會明確建議您要讓使用者說出的文字，並提供另一種方法讓使用者回復。
+因為 microsoft 代理程式字元是在 microsoft Windows 的視覺化介面中運作，所以您可以使用視覺元素來提供語音輸入的指示詞提示。 例如，您可以在選項清單中使用字元手勢，並要求使用者選取其中一個，或是在對話方塊或訊息視窗中顯示選擇。 這有兩個優點：它會明確建議您要讓使用者說出的文字，並提供另一種方法讓使用者回復。
 
 您也可以使用其他互動模式，以稍微建議使用者適當的語音文法，如下列範例所示：
 

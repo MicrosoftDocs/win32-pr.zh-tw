@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 62a5c8c07ff2384249b78ece26575c4837b3a24d
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 93fd3e1d3ce2af249ed0b8baaa59dbd56d7947f3a8686c5e40f889793f8307f7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106998371"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119120987"
 ---
 # <a name="id3dxlinegetpattern-method"></a>ID3DXLine：： System.windows.automation.peers.uielementautomationpeer.getpattern 方法
 

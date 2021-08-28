@@ -3,7 +3,7 @@ title: 'HDM_GETITEM 訊息 (Commctrl .h) '
 description: 取得標題控制項中的專案相關資訊。 您可以明確地傳送此訊息，或使用標頭 \_ GetItem 宏。
 ms.assetid: fb1330d3-fd28-490c-9caa-4b2b5ff86ba0
 keywords:
-- HDM_GETITEM message Windows 控制項
+- HDM_GETITEM 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c2073602121480930e0f7d9d2e5a904c0dea77ab
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 566f8b8e3bdf4e92abfb1fdd5874b8514814792e1d7aae169cc2aca4b2e8d101
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104103776"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119436188"
 ---
 # <a name="hdm_getitem-message"></a>HDM \_ GETITEM 訊息
 
@@ -59,8 +59,8 @@ ms.locfileid: "104103776"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 | Unicode 與 ANSI 名稱<br/>   | **HDM \_GETITEMW** (Unicode) 和 **HDM \_ GETITEMA** (ANSI) <br/>                   |
 

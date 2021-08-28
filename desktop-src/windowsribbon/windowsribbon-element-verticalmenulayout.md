@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 732fff993e4ac4e1caf8637c1f83804636bf6882
-ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
+ms.openlocfilehash: db3d63f3ce919deec29a591e46740db8ca59b881a9a95d0715b38ebb06a54f23
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "122623294"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118706918"
 ---
 # <a name="verticalmenulayout-element"></a>VerticalMenuLayout 元素
 
@@ -39,10 +39,10 @@ ms.locfileid: "122623294"
 
 <table>
 <colgroup>
-<col  />
-<col  />
-<col  />
-<col  />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -56,21 +56,21 @@ ms.locfileid: "122623294"
 <tr class="odd">
 <td><strong>片 梭</strong><br/></td>
 <td>xs:string<br/></td>
-<td>否<br/></td>
+<td>No<br/></td>
 <td>附加至圖庫下拉式清單的調整大小控點。 <br/> <img src="images/controls/gripper.png" alt="Screen shot of a vertical gripper." /><br/> 限制為下列其中一個值：<br/> <br/>
 <dt><span></span><span></span><strong></strong> (無) <br/> </dt> <dd></dd> <dt><span></span><span></span><strong></strong> (垂直) <br/> </dt> <dd> 預設值。 <br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><strong>IsMultipleHighlightingEnabled</strong><br/></td>
 <td>xs:boolean<br/></td>
-<td>否<br/></td>
+<td>No<br/></td>
 <td><strong>Windows 8 和更新版本</strong><br/> 將清單中的所有專案反白顯示，並包含目前的滑鼠懸停專案 (而不是僅) 滑鼠停用的專案。 通常用於多個 <strong>復原</strong> 和 <strong>重做</strong> 功能。<br/> <br/>
 <dt><span></span><span></span><strong></strong> (true) <br/> </dt> <dd></dd> <dt><span></span><span></span><strong></strong> (false) <br/> </dt> <dd> 預設值。 <br/> </dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><strong>資料列</strong><br/></td>
 <td>xs:integer<br/></td>
-<td>否<br/></td>
+<td>No<br/></td>
 <td>指定要顯示但不需要滾動的專案資料列數目。 <br/> <br/>
 <dt><span></span><span></span><strong></strong> (xs： integer) <br/> </dt> <dd> 任何正整數或負整數。 <br/> 預設值為 <strong>-1</strong> ，指定盡可能顯示最多的專案資料列。<br/> </dd> </dl></td>
 </tr>

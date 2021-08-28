@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: c760876160d8ce1cbc0423639a59218c79716481
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 4d1adb4a490b047329277c4092a68563ffc4bf5d4bb1dbfd866bb849d9f561a1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106985728"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119634558"
 ---
 # <a name="d3dx10savetexturetofile-function"></a>D3DX10SaveTextureToFile 函式
 

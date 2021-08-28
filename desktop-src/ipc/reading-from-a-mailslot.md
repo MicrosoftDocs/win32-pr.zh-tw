@@ -4,12 +4,12 @@ ms.assetid: e193dca9-3b77-4e41-be6d-90992e1a8fe3
 title: 從信箱讀取
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 35458f90ca381689275417e0e525c2d5a31ac9e3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9fdab5eb032be4015f0b47e8495dfed71451205270c0659b5bdeabfcc8d28689
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973207"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118481568"
 ---
 # <a name="reading-from-a-mailslot"></a>從信箱讀取
 

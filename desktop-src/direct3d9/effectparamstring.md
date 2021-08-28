@@ -4,12 +4,12 @@ ms.assetid: b2081357-ee9c-4cb9-97ae-fd09206f0d74
 title: EffectParamString
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a0cc6560bc6d3c98805fcc1541909add675aeb2b
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 2fef3e789a437cd5b808675aad6b3ece270c16ae3f8c947f7524817a09249d1d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106972528"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119122337"
 ---
 # <a name="effectparamstring"></a>EffectParamString
 

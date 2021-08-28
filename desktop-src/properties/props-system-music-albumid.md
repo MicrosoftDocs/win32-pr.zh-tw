@@ -4,12 +4,12 @@ ms.assetid: e5723174-1a5e-4bc2-b067-f60e1a747c60
 title: AlbumID
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dd8486f44c97622c68cc60f168876efd9d99540a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b9422625510b4d9560e6a114c97a62b66059909fc161fcdbc632d3a9d9f54232
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103944084"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119597258"
 ---
 # <a name="systemmusicalbumid"></a>AlbumID
 

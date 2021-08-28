@@ -4,12 +4,12 @@ ms.assetid: a6288d29-1ef3-4da1-bd30-577336ab6817
 title: 系統評分
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7e411e313f0fa6042a8cbe3a076a7166928020af
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9adc62e69ced0f82426f19badb1aebef0453084a9b951b749aed256aa64820a7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106993104"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119598128"
 ---
 # <a name="systemrating"></a>系統評分
 
@@ -141,7 +141,7 @@ propertyDescription
 
 PKEY 值定義于 Propkey 中。
 
-若要與使用值介於1到5之間的分級系統相容，請參閱 [SimpleRating](./props-system-simplerating.md)屬性。 不過請注意，Windows Vista Shell 中不會使用 SimpleRating。
+若要與使用值介於1到5之間的分級系統相容，請參閱 [SimpleRating](./props-system-simplerating.md)屬性。 不過請注意，SimpleRating 不會在 Windows Vista Shell 中使用。
 
 下表說明 Shell UI 中所使用的星星評等系統，其代表的是 [system. 評分]() 值。
 

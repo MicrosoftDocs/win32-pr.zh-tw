@@ -4,12 +4,12 @@ description: 本節包含 D3DCSX 11 列舉的相關資訊。
 ms.assetid: 7DDF9561-2773-4EA9-A451-EE60C4F9FF9D
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 13e7c9ebeebf3145d518202da343ba14d66b34f5
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: df19e4a9c6dfb661174442abee87cffae5d68d235d3e492792c22209cedf9383
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "103684248"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119633458"
 ---
 # <a name="d3dcsx-11-enumerations"></a>D3DCSX 11 列舉
 

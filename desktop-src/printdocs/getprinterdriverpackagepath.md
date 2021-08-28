@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - Spoolss.dll
-ms.openlocfilehash: ea355782df6cce7910f92a46af3cde320536106e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5058d57a0275019c5e603673d260c9969cc0b5d5641dea15e09ffe242addff10
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106987796"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119600798"
 ---
 # <a name="getprinterdriverpackagepath-function"></a>GetPrinterDriverPackagePath 函式
 
@@ -64,7 +64,7 @@ HRESULT GetPrinterDriverPackagePath(
 *pszLanguage* \[在\]
 </dt> <dd>
 
-常數、以 null 結束的字串指標，指定要安裝之驅動程式的 [多語系消費者介面](/windows/desktop/Intl/mui-resource-management) 語言。 這可以是 **Null**。
+常數、以 null 結束的字串指標，指定要安裝之驅動程式的[多語系消費者介面](/windows/desktop/Intl/mui-resource-management)語言。 這可以是 **Null**。
 
 </dd> <dt>
 
@@ -119,9 +119,9 @@ HRESULT GetPrinterDriverPackagePath(
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                            |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                                      |
-| 標頭<br/>                   | <dl> <dt>Winspool.drv (包含) 的 Windows。h </dt> </dl> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                            |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                                      |
+| 標頭<br/>                   | <dl> <dt>winspool.drv (包含 Windows .h) </dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>Winspool.drv .lib</dt> </dl>                   |
 | DLL<br/>                      | <dl> <dt>Spoolss.dll</dt> </dl>                    |
 | Unicode 與 ANSI 名稱<br/>   | **GetPrinterDriverPackagePathW** (Unicode) 和 **GetPrinterDriverPackagePathA** (ANSI) <br/>         |

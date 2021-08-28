@@ -4,12 +4,12 @@ ms.assetid: 7b41d0dc-209f-4ade-a7ed-aa54f421e520
 title: EffectParamFloats
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b0954ce7679691920c2e104277d12a48f7a34ddf
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 3f34f60c16f583021d0e7f01482941fa31d12861d4a59c07c26c7aa89a96e3d9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104025673"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119122387"
 ---
 # <a name="effectparamfloats"></a>EffectParamFloats
 

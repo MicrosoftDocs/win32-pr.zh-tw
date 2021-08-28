@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 94d00eae3681775476af9c3169134b636e2904c2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 276b17117d2f01d9bc40d7f171a6d0ff6ea2331da439266ac11bf8c25b5e4f25
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106996300"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118996658"
 ---
 # <a name="endmarker-element"></a>ENDMARKER 元素
 
@@ -93,10 +93,10 @@ ms.locfileid: "106996300"
 
 <dl> <dt>
 
-[**Windows Media 中繼檔元素參考**](windows-media-metafile-elements-reference.md)
+[**Windows媒體中繼檔元素參考**](windows-media-metafile-elements-reference.md)
 </dt> <dt>
 
-[**Windows Media 中繼檔參考**](windows-media-metafile-reference.md)
+[**Windows媒體中繼檔參考**](windows-media-metafile-reference.md)
 </dt> </dl>
 
  

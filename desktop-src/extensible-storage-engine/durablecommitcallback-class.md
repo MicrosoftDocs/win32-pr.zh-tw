@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 5eba35a12c79178fc69260b79276779e9572d1a0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9a3188912d27bb5a793721189cfe5f9d1e917a1b8c55a2a43cefb77f6fce5c0e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103852008"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119786248"
 ---
 # <a name="durablecommitcallback-class"></a>DurableCommitCallback 類別
 

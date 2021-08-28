@@ -1,24 +1,24 @@
 ---
 title: 開發 IFilter 增益集
-description: 您可以使用篩選增益集（可執行 IFilterinterface 的元件）擴充 Microsoft Windows 桌面搜尋 (WDS) ，以包含新的檔案類型。
+description: 您可以使用 IFilterinterface 的篩選增益集（可執行檔元件）擴充 Microsoft Windows Desktop 搜尋 (WDS) ，以包含新的檔案類型。
 ms.assetid: 71dd515d-a73e-4e0a-b0da-c8a6209d09fe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 79f846cf2101eefc17b1e92fbd7992529a06fb43
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 497d4bffdb9564e0737bee3cd0b63fa8026633a2cc81aad37cb989423e460487
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104463100"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118480892"
 ---
 # <a name="developing-ifilter-add-ins"></a>開發 IFilter 增益集
 
 > [!NOTE]
-> Windows Desktop Search 2.x 是一種淘汰的技術，最初是以 Windows XP 和 Windows Server 2003 的增益集形式提供。 在之後的版本中，請改用 [Windows Search](../search/-search-3x-wds-overview.md) 。
+> WindowsDesktop Search 2.x 是一種淘汰的技術，最初是以 Windows XP 和 Windows Server 2003 的增益集的形式提供。 在之後的版本中，請改用[Windows Search](../search/-search-3x-wds-overview.md) 。
 
-您可以使用篩選增益集（可執行 [**IFilter**](/windows/desktop/api/filter/nn-filter-ifilter)介面的元件）擴充 Microsoft Windows 桌面搜尋 (WDS) ，以包含新的檔案類型。 篩選準則負責存取和剖析檔案中的資料，以及傳回屬性和值的配對，以及用來編制索引的文字區塊。 在編制索引過程中，WDS 會使用每個檔案或專案的 URL 來呼叫適當的篩選。 篩選準則會先解壓縮對應至 WDS 架構中標示為可抓取之屬性的中繼資料，例如標題、檔案大小和上次修改日期。 然後，它會將專案內容分割成文字區塊。 WDS 會將篩選所傳回的屬性和文字新增至目錄。 WDS 可以為具有已註冊篩選的任何檔案類型編制索引。
+您可以使用篩選增益集（可執行 [**IFilter**](/windows/desktop/api/filter/nn-filter-ifilter)介面的元件）來擴充 Microsoft Windows Desktop 搜尋 (WDS) ，以包含新的檔案類型。 篩選準則負責存取和剖析檔案中的資料，以及傳回屬性和值的配對，以及用來編制索引的文字區塊。 在編制索引過程中，WDS 會使用每個檔案或專案的 URL 來呼叫適當的篩選。 篩選準則會先解壓縮對應至 WDS 架構中標示為可抓取之屬性的中繼資料，例如標題、檔案大小和上次修改日期。 然後，它會將專案內容分割成文字區塊。 WDS 會將篩選所傳回的屬性和文字新增至目錄。 WDS 可以為具有已註冊篩選的任何檔案類型編制索引。
 
-在某些情況下，您不需要撰寫新的篩選準則。 WDS 2.x 包含超過200種專案類型的篩選 (包括 HTML、XML 和原始程式碼檔案等純文字專案) ，並使用與 SharePoint 服務相同的 [**IFilter**](/windows/desktop/api/filter/nn-filter-ifilter)技術。 如果您已針對檔案類型安裝篩選器，WDS 可以使用這些現有的篩選來編制此資料的索引。 此外，WDS 也包含純文字格式之檔案類型的一般篩選。 如果您的檔案類型可以由現有的 SharePoint Services 篩選或純文字篩選器處理，您可以將副檔名和篩選 GUID 新增至登錄，讓 WDS 可以找到並使用它 (如需詳細資訊，請參閱 [註冊篩選增益集](#to-register-a-filter-add-in)) 。
+在某些情況下，您不需要撰寫新的篩選準則。 WDS 2.x 包含超過200種專案類型的篩選 (包括 HTML、XML 和原始程式碼檔案等純文字專案) ，並使用與 SharePoint Services 相同的 [**IFilter**](/windows/desktop/api/filter/nn-filter-ifilter)技術。 如果您已針對檔案類型安裝篩選器，WDS 可以使用這些現有的篩選來編制此資料的索引。 此外，WDS 也包含純文字格式之檔案類型的一般篩選。 如果您的檔案類型可以是現有的 SharePoint Services 濾波器或純文字篩選器來處理，則可以將副檔名和篩選 GUID 新增至登錄，讓 WDS 可以找到並使用它 (如需詳細資訊，請參閱[註冊篩選增益集](#to-register-a-filter-add-in)) 。
 
 但是，如果您有非純文字和專屬的資料或檔案格式，則撰寫自訂篩選器會是確保 WDS 可以在目錄中編制檔案格式的唯一方法。 檔案類型只能有一個篩選增益集，因此可以覆寫現有的篩選，或針對特定檔案類型覆寫其他篩選器。
 
@@ -41,9 +41,9 @@ ms.locfileid: "104463100"
 
 篩選增益集必須執行 [**IFilter**](/windows/desktop/api/filter/nn-filter-ifilter)介面和下列其中一個介面：
 
--   [IPersistStream](/windows/win32/api/objidl/nn-objidl-ipersiststream) -從資料流程載入資料。 這比使用檔案更安全，因為沒有寫入磁片。 IPersistStream 介面是向前相容于 Windows Vista 的慣用方法。
--   [IPersistFile 介面](/windows/win32/api/objidl/nn-objidl-ipersistfile) -從檔案載入資料。 Windows Vista 不支援此介面。
--   [IPersistStorage 介面](/windows/win32/api/objidl/nn-objidl-ipersiststorage) -從 OLE COM 結構化儲存體載入資料。
+-   [IPersistStream](/windows/win32/api/objidl/nn-objidl-ipersiststream) -從資料流程載入資料。 這比使用檔案更安全，因為沒有寫入磁片。 IPersistStream 介面是與 Windows Vista 向前相容的慣用方法。
+-   [IPersistFile 介面](/windows/win32/api/objidl/nn-objidl-ipersistfile) -從檔案載入資料。 Windows Vista 中不支援此介面。
+-   [IPersistStorage 介面](/windows/win32/api/objidl/nn-objidl-ipersiststorage)-從 OLE COM 結構化儲存體載入資料。
 
 篩選增益集會使用這些介面來取得專案的內容，並以反復方式將它們傳回至索引，直到到達檔案結尾為止。 篩選增益集應該盡可能健全，以處理損毀的檔案，以及不符合預期輸入格式的檔案。
 
@@ -63,7 +63,7 @@ ms.locfileid: "104463100"
 
 
 
- 
+ 
 
 ### <a name="ipersiststream"></a>IPersistStream
 
@@ -81,11 +81,11 @@ ms.locfileid: "104463100"
 
 
 
- 
+ 
 
 ### <a name="ipersistfile"></a>IPersistFile
 
-此介面會依絕對路徑載入檔案，而且在 Windows Vista 中不支援。
+此介面會依絕對路徑載入檔案，Windows Vista 中則不支援。
 
 
 
@@ -100,11 +100,11 @@ ms.locfileid: "104463100"
 
 
 
- 
+ 
 
 ### <a name="ipersiststorage"></a>IPersistStorage
 
-此介面支援結構化儲存體模型，其中每個包含的物件都有它自己的儲存區，它會嵌套在容器的儲存體中。 如同 [IPersistFile 介面](/windows/win32/api/objidl/nn-objidl-ipersistfile)，這個介面會依絕對路徑載入，而且在 Windows Vista 中不受支援。
+此介面支援結構化儲存體模型，其中每個包含的物件都有它自己的儲存區，它會嵌套在容器的儲存體中。 如同[IPersistFile 介面](/windows/win32/api/objidl/nn-objidl-ipersistfile)，這個介面會依絕對路徑載入，Windows Vista 中並不支援。
 
 
 
@@ -119,7 +119,7 @@ ms.locfileid: "104463100"
 
 
 
- 
+ 
 
 ## <a name="outputting-properties-with-filters"></a>使用篩選器輸出屬性
 
@@ -144,11 +144,11 @@ ms.locfileid: "104463100"
 | F29F85E0-4FF9-1068-AB91-08002B27B3D9 | 2             | PrimaryTitle   | 針對此專案顯示的標題。                                                                                                              |
 | F29F85E0-4FF9-1068-AB91-08002B27B3D9 | 4             | PrimaryAuthors | 與此專案最相關聯的人員。                                                                                                          |
 | D5CDD505-2E9C-101B-9397-08002B2CF9AE | PrimaryDate   | PrimaryDate    | 專案的最重要日期，例如收到的電子郵件或修改檔案的日期。                                                               |
-| D5CDD505-2E9C-101B-9397-08002B2CF9AE | PerceivedType | PerceivedType  | 正在剖析的檔案類型。 必須符合 WDS [感知類型](-search-2x-wds-perceivedtype.md)中所列的其中一個 Windows 桌面搜尋類型。 |
+| D5CDD505-2E9C-101B-9397-08002B2CF9AE | PerceivedType | PerceivedType  | 正在剖析的檔案類型。 必須符合 WDS[感知類型](-search-2x-wds-perceivedtype.md)中所列的其中一個 Windows 桌面搜尋類型。 |
 
 
 
- 
+ 
 
 若是純文字專案，WDS 會將所有文字和系統定義的屬性（例如檔案大小或副檔名）解壓縮到索引) 的新純文字檔案類型。 其他可傳回至索引的屬性類型包括：
 
@@ -182,7 +182,7 @@ ms.locfileid: "104463100"
 >
 > 在未來的 Microsoft 作業系統版本中，在 system32 目錄中安裝檔案可能會變得更困難，因此建議您將它們安裝在 [Program Files] 底下，並在登錄中包含篩選的完整路徑。 基於安全性理由，在登錄中指定 DLL 的完整路徑也是很謹慎的。 否則，如果您的版本是在版本之前的進程路徑中，則可以載入 DLL 的「特洛伊木馬程式」版本。
 
- 
+ 
 
 ### <a name="registration-model"></a>註冊模型
 
@@ -222,47 +222,47 @@ ms.locfileid: "104463100"
 
     ```
     HKEY_CLASSES_ROOT\<.ext>\PersistentHandler
-       (Default) = {GUID_1}
+       (Default) = {GUID_1}
     ```
 
     ```
     HKEY_CLASSES_ROOT\CLSID\{GUID_1}
-       (Default) = <Persistent Handler Description>
+       (Default) = <Persistent Handler Description>
     ```
 
     ```
     HKEY_CLASSES_ROOT\CLSID\{GUID_1}\PersistentAddinsRegistered
-       (Default) = (Value Not Set)
+       (Default) = (Value Not Set)
     ```
 
     ```
     HKEY_CLASSES_ROOT\CLSID\{GUID_1}\PersistentAddinsRegistered\{89BCB740-6119-101A-BCB7-00DD010655AF}
-       (Default) = {CLSID of IFilter implementation}
+       (Default) = {CLSID of IFilter implementation}
     ```
 
     ```
     HKEY_CLASSES_ROOT\CLSID\{GUID_1}\PersistentHandler
-       (Default) = {GUID_1}
+       (Default) = {GUID_1}
     ```
 
 2.  使用下列索引鍵和值註冊 IFilter 執行：
 
     ```
     HKEY_CLASSES_ROOT\CLSID\{CLSID of IFilter implementation}
-       (Default) = Extension IFilter Description">
+       (Default) = Extension IFilter Description">
     ```
 
     ```
     HKEY_CLASSES_ROOT\CLSID\{CLSID of IFilter implementation}\InprocServer32
-       (Default) = <DLL Install Path>
-       ThreadingModel = Both
+       (Default) = <DLL Install Path>
+       ThreadingModel = Both
     ```
 
-3.  使用下列機碼和值，向 Windows 桌面搜尋登錄 IFilter 執行：
+3.  使用下列機碼和值，向 Windows Desktop 搜尋登錄 IFilter 執行：
 
     ```
     HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\RSSearch\ContentIndexCommon\Filters\Extension\<.ext>
-       (Default) = {CLSID of IFilter implementation}"
+       (Default) = {CLSID of IFilter implementation}"
     ```
 
 ## <a name="related-topics"></a>相關主題
@@ -287,6 +287,6 @@ ms.locfileid: "104463100"
 [**IFilter**](/windows/desktop/api/filter/nn-filter-ifilter)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

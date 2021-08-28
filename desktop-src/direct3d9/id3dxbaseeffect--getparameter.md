@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: b7c96c371b36b8dcfc2e3e64a95798347ca3a6ea
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 37aa3ae609e20f80f354b33efbe2d0c771dc2c37d9709f4ce15898a4cf99f7ac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104035432"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119121951"
 ---
 # <a name="id3dxbaseeffectgetparameter-method"></a>ID3DXBaseEffect：： GetParameter 方法
 

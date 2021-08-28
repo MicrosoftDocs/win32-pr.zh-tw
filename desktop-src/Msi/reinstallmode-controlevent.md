@@ -4,12 +4,12 @@ ms.assetid: d7cd41c6-c019-49d6-b593-a1d31c8f5a81
 title: ReinstallMode ControlEvent
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 24ff5ff662b2880a3f4ab0fb79738b49cdeeccd3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1b21b8f73ddd001d4eea994f3bd159545c39a370caba0a1a625334f3ce08b1b0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106980834"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119381008"
 ---
 # <a name="reinstallmode-controlevent"></a>ReinstallMode ControlEvent
 

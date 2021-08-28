@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 499ab2371eda6dda6512b5fddb097d3adc2a6f05
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: be470d2a06d5dc284963e76ded188cb6a11fabd963b4f1186a3cee697bdfb6df
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104468305"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119793448"
 ---
 # <a name="icontexttransactioninfo-interface"></a>ICoNtextTransactionInfo 介面
 
@@ -59,8 +59,8 @@ ms.locfileid: "104468305"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 Windows XP （含 SP2） \[ 桌面應用程式\]<br/>          |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 與 SP1 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows只有 XP （含 SP2） \[ 桌面應用程式\]<br/>          |
+| 最低支援的伺服器<br/> | Windows只有 Server 2003 （含 SP1） \[ 桌面應用程式\]<br/> |
 
 
 

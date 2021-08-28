@@ -12,12 +12,12 @@ api_name:
 - WorldToObject3x4
 api_type:
 - NA
-ms.openlocfilehash: cc7bf7dc2f06102b9b23eafd45655f12816c8359
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 5818e579076dc94a5d42003aa0af93f012e779a69e4ca78988e5c62b518a2d8f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108105236"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119631748"
 ---
 # <a name="worldtoobject3x4"></a>WorldToObject3x4
 

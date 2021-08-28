@@ -13,16 +13,16 @@ api_type:
 - HeaderDef
 api_location:
 - Nddeapi.h
-ms.openlocfilehash: 975382272a4e2c7cc56b0ddf593905b4d745a48b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 84d29bcf5e1e4d086ca60da619edf26640c583f238d4fa956b3edd696eceee1b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980008"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118481708"
 ---
 # <a name="nddeshareinfo-structure"></a>NDDESHAREINFO 結構
 
-\[不再支援網路 DDE。 Windows Vista 上有 Nddeapi.dll，但是所有的函式呼叫都會傳回 NDDE \_ 未 \_ 執行。\]
+\[不再支援網路 DDE。 Nddeapi.dll 存在於 Windows Vista 中，但所有的函式呼叫會傳回 NDDE \_ 未 \_ 執行。\]
 
 包含 NetDDE 共用資料庫管理員所維護的 DDE 共用屬性 (DSDM) 。 與每個 DDE 共用相關聯的安全描述項不會透過此結構傳遞，但可透過特定的函式來存取。 NetDDE DSDM API 接受此結構來設定函數;針對取得函式，DSDM 會傳回封裝到所提供緩衝區中的結構，以及成員 **lpszShareName**、 **lpszAppTopicList** 和 **lpszItemList** 所參考的資料。
 

@@ -12,12 +12,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
 api_location: ''
-ms.openlocfilehash: 67150a349267ad164696fd55e50635644c7dc955
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: c01f5e3acd7372e7a8c75e320c907a3b7c68af03e9a056dee47b52fc54710eac
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104092888"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119342648"
 ---
 # <a name="id2d1propertiesgettype-methods"></a>ID2D1Properties：： GetType 方法
 

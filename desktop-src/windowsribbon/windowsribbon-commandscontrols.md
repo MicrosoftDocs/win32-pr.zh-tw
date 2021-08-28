@@ -1,26 +1,26 @@
 ---
 title: 瞭解命令和控制項
-description: 將邏輯與展示分開的設計原理，就是激勵 Windows 功能區架構 \ 郵件的命令呈現系統的設計原理，這是以設計模式為基礎的系統，其中的功能和行為會與公開這項功能的控制項分開執行。
+description: 從展示中分隔邏輯是激勵功能區架構 \ 郵件的命令呈現 Windows 系統的設計原理，這是以設計模式為基礎的系統，其中的功能和行為是獨立于公開此功能的控制項之外獨立執行。
 ms.assetid: fdea0d70-c6e0-4d13-99bc-ff0c1dbff10d
 keywords:
-- Windows 功能區，命令總覽
+- Windows功能區，命令總覽
 - 功能區，命令總覽
-- Windows 功能區，控制項總覽
+- Windows功能區、控制項總覽
 - 功能區、控制項總覽
 - Windows 功能區的命令系統
 - Windows 功能區的控制項
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2659da608a3d3e73f3f35ac1911946a6685c74e8
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 4b2fe9ad1a42b17d0c8a4be57c170ba0894d864997cdf3ed5d02e3f6d66a3a35
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104571519"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118707810"
 ---
 # <a name="understanding-commands-and-controls"></a>瞭解命令和控制項
 
-將邏輯與展示分開的設計原理，就是激勵 Windows 功能區架構的命令呈現系統的設計原理，也就是以設計模式為基礎的系統，其中的功能和行為會與公開這項功能的控制項分開執行。
+從簡報中分隔邏輯是激勵功能區架構的命令呈現 Windows 系統的設計原理，也就是以設計模式為基礎的系統，其中的功能和行為會與公開此功能的控制項分開執行。
 
 -   [簡介](#introduction)
 -   [Windows 功能區命令系統](#the-windows-ribbon-command-system)
@@ -45,7 +45,7 @@ ms.locfileid: "104571519"
 
 也稱為彈性配置，架構管理的 UI 彈性是功能區的最大優點之一。 功能區控制項可透過架構相依或開發人員定義的版面配置範本，自動自行重新設定，而這些範本可以回應各種執行時間需求，而不需要撰寫任何一行簡報程式碼。 如需詳細資訊，請參閱 [透過大小定義自訂功能區和調整原則](windowsribbon-templates.md)。
 
-除了調適型配置的優點之外，許多複雜的功能區控制項都能為特定的 UI 問題空間提供獨立的解決方案。 藉由提供精密的互動模型，功能區控制項（例如 FontControl 或 ColorPicker）可讓您透過實際字型或色彩屬性的屬性包，以更抽象的詞彙來運算元據，而不是透過標準 Windows 控制項的各種子控制項、列舉和索引值。
+除了調適型配置的優點之外，許多複雜的功能區控制項都能為特定的 UI 問題空間提供獨立的解決方案。 藉由提供精密的互動模型，功能區控制項（例如 FontControl 或 ColorPicker）可讓您透過實際字型或色彩屬性的屬性包，以更抽象的詞彙來管理資料，而不是透過標準 Windows 控制項的各種子控制項、列舉和索引值來操作。
 
 ### <a name="commands"></a>命令
 
@@ -56,7 +56,7 @@ ms.locfileid: "104571519"
 > [!Note]  
 > 在編譯時，此識別碼會儲存在識別碼定義標頭檔中，該檔案會在功能區主應用程式中公開命令至其對應的命令處理常式。
 
- 
+ 
 
 每個命令都有一種基礎命令類型，在 [**UI \_ COMMANDTYPE**](/windows/desktop/api/uiribbon/ne-uiribbon-ui_commandtype) 列舉中有詳細的述。
 
@@ -64,11 +64,11 @@ ms.locfileid: "104571519"
 
 功能區快速存取工具列會示範此命令模型的功能 (QAT) 。 QAT 可讓使用者輕鬆地針對功能區 UI 中的任何控制項定義自己的快捷方式。 當使用者在功能區控制項上按一下滑鼠右鍵，並從內容功能表選取 [ **加入至快速存取] 工具列** 時，會在執行時間將快捷方式動態加入至 QAT。
 
-下圖顯示從命令的 [ **貼** 上] 和 [ **貼** 上] 命令（以 [**SplitButton**](windowsribbon-element-splitbutton.md) 控制項表示）在 Windows 7 繪圖的功能區中。
+下圖顯示在 Windows 7 小畫家的功能區中，從命令的 [**貼** 上] 和 [**貼** 上] 命令（以 [**SplitButton**](windowsribbon-element-splitbutton.md)控制項表示）。
 
 ![microsoft 油漆功能區中 [貼上] splitbutton 的圖片。](images/overviews/paint-paste-splitbutton-ribbon.png)
 
-下圖顯示來自命令的相同 **貼** 上和 **貼** 上，在 Windows 7 的功能區 QAT 中仍以 [**SplitButton**](windowsribbon-element-splitbutton.md) 控制項表示。
+下圖顯示從命令的 [貼上] 和 [貼上]，在 Windows 7 小畫家的功能區 QAT 中，仍以 [**SplitButton**](windowsribbon-element-splitbutton.md)控制項表示的相同 **貼** 上和 **貼** 上。
 
 ![microsoft 油漆 qat 中 [貼上] splitbutton 的圖片。](images/overviews/paint-paste-splitbutton-qat.png)
 
@@ -77,7 +77,7 @@ ms.locfileid: "104571519"
 > [!Note]  
 > 在設計階段將命令合併到 [**CoNtextPopup**](windowsribbon-element-contextpopup.md) 時，也會實現相同的優點。 在此情況下，不論 [**SplitButton**](windowsribbon-element-splitbutton.md) 控制項是否出現在功能區、QAT 或 **CoNtextPopup** 中，都可以使用貼入命令處理常式。
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -92,6 +92,6 @@ ms.locfileid: "104571519"
 [使用功能區標記宣告命令和控制項](windowsribbon-schema.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

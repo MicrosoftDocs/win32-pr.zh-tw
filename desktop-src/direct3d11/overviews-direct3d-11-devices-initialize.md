@@ -4,12 +4,12 @@ description: 本主題說明如何初始化裝置。
 ms.assetid: 02a20ada-b3aa-435e-8d66-117a19222f9f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 546bee6631816beb699f282a3b4f46bbbc142afc
-ms.sourcegitcommit: 4e94fc75fad7b2a0f3c92a26f97e89924e59b7a9
+ms.openlocfilehash: a886e27a557d0c7c59b9d92b5df9d180a930d4fe
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "122786764"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122625524"
 ---
 # <a name="how-to-create-a-device-and-immediate-context"></a>如何：建立裝置和立即內容
 
@@ -70,7 +70,7 @@ if( FAILED (hr = D3D11CreateDeviceAndSwapChain( NULL,
 > [!Note]  
 > 如果您在只有 Direct3D 11.0 執行時間的電腦上要求 [**D3D \_ 功能 \_ 等級 \_ 11 \_ 1**](/windows/desktop/api/D3DCommon/ne-d3dcommon-d3d_feature_level) 的裝置， [**D3D11CreateDeviceAndSwapChain**](/windows/desktop/api/D3D11/nf-d3d11-d3d11createdeviceandswapchain) 會立即以 **電子 \_ INVALIDARG** 結束。 若要安全地在具有 DirectX 11.0 或 DirectX 11.1 執行時間的電腦上要求所有可能的功能層級，請使用下列程式碼：
 >
-> 
+> <span codelanguage=""></span>
 >
 > <table>
 > <colgroup>
@@ -103,7 +103,7 @@ if( FAILED (hr = D3D11CreateDeviceAndSwapChain( NULL,
 >
 > 藉由呼叫 [**ID3D11Device：： CreateRenderTargetView**](/windows/desktop/api/D3D11/nf-d3d11-id3d11device-createrendertargetview) ，然後藉由呼叫 [**>id3d11devicecoNtext：： OMSetRenderTargets**](/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-omsetrendertargets)，將後置緩衝區系結為轉譯目標，藉以建立轉譯目標視圖。
 >
-> 
+> <span codelanguage=""></span>
 >
 > <table>
 > <colgroup>
@@ -129,7 +129,7 @@ if( FAILED (hr = D3D11CreateDeviceAndSwapChain( NULL,
 >
 > 建立一個區來定義呈現目標的哪些部分會顯示。 使用 [**D3D11 的 \_ 視口**](/windows/desktop/api/D3D11/ns-d3d11-d3d11_viewport) 結構定義區，並使用 [**>id3d11devicecoNtext：： RSSetViewports**](/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-rssetviewports) 方法設定視口。
 >
-> 
+> <span codelanguage="ManagedCPlusPlus"></span>
 >
 > <table>
 > <colgroup>

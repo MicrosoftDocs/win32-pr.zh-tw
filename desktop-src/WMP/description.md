@@ -1,25 +1,25 @@
 ---
 title: '描述 (Windows Media Player SDK) '
-description: Description
+description: 描述
 ms.assetid: 940ef0bf-d651-411a-b36d-99dcc01d8508
 keywords:
-- Windows Media Player 行動外觀、描述區段
+- Windows Media Player行動外觀、描述區段
 - 外觀，描述區段
 - 外觀的參考，描述區段
 - 外觀中的描述區段
 - 外觀定義檔，描述區段
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d4a1b714fb917f9d13ee710509cfc5bf696e3eef
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 486ca5235939352ffabb924aaf38a706b436d4c1358a92b9aef4996614c53623
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104383678"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117749955"
 ---
 # <a name="description-windows-media-player-sdk"></a>描述 (Windows Media Player SDK) 
 
-當您建立適用于 Windows Mobile 2003 或更新版本的 Windows Media Player 9 系列面板時，必須包含描述區段。 [描述] 區段可讓您指定顯示器的寬度和高度、顯示解析度，以及設計面板的顯示方向。 [描述] 區段必須出現在面板定義檔中的任何其他區段之前，以及在初始版本宣告之後。
+當您為 Windows Mobile 2003 或更新版本的 Windows Media Player 9 系列建立面板時，必須包含描述區段。 [描述] 區段可讓您指定顯示器的寬度和高度、顯示解析度，以及設計面板的顯示方向。 [描述] 區段必須出現在面板定義檔中的任何其他區段之前，以及在初始版本宣告之後。
 
 面板定義檔的 [描述] 區段必須以下行開頭：
 
@@ -76,7 +76,7 @@ ms.locfileid: "104383678"
  
 
 > [!Note]  
-> 當面板定義檔中指定的描述區段符合裝置目前的狀態時，Windows Mobile 2003 Windows Media Player 9 系列將只會顯示特定的外觀。
+> 當面板定義檔中指定的描述區段符合裝置目前的狀態時，Windows 行動2003的 Windows Media Player 9 系列將只會顯示特定的外觀。
 
  
 

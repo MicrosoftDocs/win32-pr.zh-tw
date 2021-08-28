@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msident.dll
-ms.openlocfilehash: 4266e6116e43b7b792c3040d7c86a60037ca4c44
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6011bf839e2f91b3eb835cfe295e0c1845a6c6697a262c0f9bf7525d6c157565
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104971868"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119884058"
 ---
 # <a name="iuseridentitymanagerlogoff-method"></a>IUserIdentityManager：：登出方法
 
@@ -67,7 +67,7 @@ HRESULT Logoff(
 | 用戶端支援結束<br/>    | Windows 2000 Professional<br/>                                                   |
 | 伺服器支援結束<br/>    | Windows 2000 Server<br/>                                                         |
 | 標頭<br/>                   | <dl> <dt>Msident。h</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>Msident .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>Msident .idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Msident.dll</dt> </dl> |
 
 

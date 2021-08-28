@@ -1,25 +1,25 @@
 ---
-description: 適用于 IPv6 的 Netsh 命令提供命令列工具，可讓您用來查詢和設定 IPv6 介面、位址、快取和路由。 Windows XP Service Pack 1 (SP1) 和更新版本支援 Netsh 介面 IPv6 命令。
+description: 適用于 IPv6 的 Netsh 命令提供命令列工具，可讓您用來查詢和設定 IPv6 介面、位址、快取和路由。 Windows XP Service Pack 1 (SP1) 和更新版本支援 Netsh interface IPv6 命令。
 ms.assetid: 68e17a55-4dd5-40cd-8996-25fa278ddd19
 title: Netsh.exe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aab092def0dc12071ee9dd62fd7554a53c9a7f97
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c283206a8000c101b437bee851f9a78f6f20f0d87de544e8b5db49909ea9bf6f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113029"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118993638"
 ---
 # <a name="netshexe"></a>Netsh.exe
 
-適用于 IPv6 的 Netsh 命令提供命令列工具，可讓您用來查詢和設定 IPv6 介面、位址、快取和路由。 Windows XP Service Pack 1 (SP1) 和更新版本支援 Netsh 介面 IPv6 命令。
+適用于 IPv6 的 Netsh 命令提供命令列工具，可讓您用來查詢和設定 IPv6 介面、位址、快取和路由。 Windows XP Service Pack 1 (SP1) 和更新版本支援 Netsh interface IPv6 命令。
 
-Netsh.exe 有許多適用于 IPv6 的子命令。 您可以從 Windows XP SP1 和更新版本上的命令提示字元中，輸入下列命令，以取得 Netsh Interface IPv6 的完整選項清單：
+Netsh.exe 有許多適用于 IPv6 的子命令。 您可以從 Windows XP SP1 和更新版本的命令提示字元中，輸入下列命令，以取得 Netsh Interface IPv6 的完整選項清單：
 
 **netsh interface ipv6/？**
 
-有關 IPv6 的所有 **netsh** 命令的檔，也可以在 Technet 上線上取得。 如需 Windows Server 2008 上的 **netsh** 的詳細資訊，請參閱 [ (IPv4 和 IPv6) 介面的 netsh 命令](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc770948(v=ws.10))。 如需 Windows Server 2003 上 **netsh** 的詳細資訊，請參閱 [介面 IPv6 的 netsh 命令](/previous-versions/windows/it-pro/windows-server-2003/cc740203(v=ws.10))。
+有關 IPv6 的所有 **netsh** 命令的檔，也可以在 Technet 上線上取得。 如需 Windows Server 2008 上的 **netsh** 的詳細資訊，請參閱 [適用于介面 (IPv4 和 IPv6) 的 netsh 命令](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc770948(v=ws.10))。 如需 Windows Server 2003 上的 **netsh** 的詳細資訊，請參閱 [介面 IPv6 的 netsh 命令](/previous-versions/windows/it-pro/windows-server-2003/cc740203(v=ws.10))。
 
 以下是一些用於 IPv6 的常用命令，雖然支援許多其他命令：
 
@@ -125,7 +125,7 @@ Netsh.exe 有許多適用于 IPv6 的子命令。 您可以從 Windows XP SP1 �
 
 ## <a name="netsh-commands-for-ipv4"></a>適用于 IPv4 的 Netsh 命令
 
-IPv4 有類似的 Netsh 命令。 您可以從 Windows XP SP1 和更新版本上的命令提示字元中，輸入下列命令，以取得適用于 IPv4 之 Netsh 命令的完整清單選項：
+IPv4 有類似的 Netsh 命令。 您可以從 Windows XP SP1 和更新版本上的命令提示字元中，輸入下列命令，以取得適用于 IPv4 之 Netsh 命令的完整選項清單：
 
 **netsh interface ip/？**
 

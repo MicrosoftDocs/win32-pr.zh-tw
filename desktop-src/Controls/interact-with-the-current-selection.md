@@ -4,12 +4,12 @@ description: 使用者可以使用滑鼠或鍵盤選取 rich edit 控制項中�
 ms.assetid: A529792C-DFA7-4BE1-8607-5A1556B64626
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6ec776ab0c8e07bb61dcc0e12d13af46b17d094a
-ms.sourcegitcommit: f0ca63c18dc52c357d3398af7be766d2bdd40be7
+ms.openlocfilehash: 1a6e60ef0ba4aa9a8034256c8c272950f4983d16c0195737065563b378e14202
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "103681603"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119434638"
 ---
 # <a name="how-to-interact-with-the-current-selection"></a>如何與目前的選取範圍互動
 
@@ -19,12 +19,12 @@ ms.locfileid: "103681603"
 
 ### <a name="technologies"></a>技術
 
--   [Windows 控制項](window-controls.md)
+-   [Windows控制](window-controls.md)
 
-### <a name="prerequisites"></a>必要條件
+### <a name="prerequisites"></a>先決條件
 
 -   C/C++
--   Windows 消費者介面程式設計
+-   Windows消費者介面程式設計
 
 ## <a name="instructions"></a>指示
 
@@ -50,9 +50,9 @@ ms.locfileid: "103681603"
 [Windows 通用控制項示範 (CppWindowsCommonControls) ](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

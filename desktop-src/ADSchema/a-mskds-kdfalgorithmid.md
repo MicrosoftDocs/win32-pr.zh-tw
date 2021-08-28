@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1164c76b533fddb676a33c90a2e51ed7f89d65a8
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 92375b6b2ca5d3396fffcf0523aa1b3c9cd1794ea6817ce7a32b0bdf18276229
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845107"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119582958"
 ---
 # <a name="ms-kds-kdf-algorithmid-attribute"></a>Kds 根金鑰-KDF-AlgorithmID 屬性
 
@@ -53,7 +53,7 @@ ms.locfileid: "103845107"
 | 連結識別碼                | \-                                                                                                                                                  |
 | MAPI-Id                | \-                                                                                                                                                  |
 | System-Only            | 否                                                                                                                                               |
-| 是-單一值       | 對                                                                                                                                                |
+| 是-單一值       | 是                                                                                                                                                |
 | 已編制索引             | 否                                                                                                                                               |
 | 在通用類別目錄中      | 否                                                                                                                                               |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                                                                        |

@@ -4,22 +4,22 @@ description: 本主題提供使用 Windows 10 advanced color support 將高動�
 ms.assetid: ''
 ms.topic: article
 ms.date: 04/23/2020
-ms.openlocfilehash: 14d025e5431c42299c2c7f20ff198efa93959d7b
-ms.sourcegitcommit: 7b8f6151ebe247536304866459b2973276271d4d
+ms.openlocfilehash: 8577d9737bd1f5f22f5e550dbcef503151c84dc1a147cf510820b589283b4990
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "104564048"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119120559"
 ---
 # <a name="using-directx-with-high-dynamic-range-displays-and-advanced-color"></a>使用具有高動態範圍的 DirectX 顯示和先進的色彩
 
-本主題提供使用 Windows 10 advanced color support 將高動態範圍 (HDR) Direct3D 11 和 Direct3D 12 內容輸出至 HDR10 顯示器的技術總覽。 它會摘要說明輸出至 HDR10 顯示器的一些主要概念差異，相較于傳統標準動態範圍 (SDR) 顯示。 它也涵蓋了您的應用程式正確支援 Windows advanced color 以及建議和最佳作法的關鍵技術需求。
+本主題提供使用 Windows 10 advanced color support 將高動態範圍 (HDR) Direct3D 11 和 Direct3D 12 內容輸出至 HDR10 顯示器的技術總覽。 它會摘要說明輸出至 HDR10 顯示器的一些主要概念差異，相較于傳統標準動態範圍 (SDR) 顯示。 此外，它也涵蓋了應用程式正確支援 Windows advanced color 以及建議和最佳作法的關鍵技術需求。
 
 ## <a name="introduction"></a>簡介
 
 Windows 10 支援 HDR 和其他先進的色彩顯示，可提供比傳統 SDR 顯示明顯更高的色彩精確度。 您可以使用 Direct3D、Direct2D 和其他圖形 Api，將 HDR 內容轉譯成可顯示的功能。
 
-Windows advanced color 指的是數個相關技術，第一次是在 Windows 10 1703 版中引進，可提供超過傳統標準動態範圍 (SDR) 顯示色彩功能的支援。 以下說明這三個主要的擴充功能。 最常見的 advanced color display （HDR10）類型支援這三種擴充功能。
+Windows advanced color 指的是數個相關技術，第一次是在 Windows 10 1703 版中引進，以提供超過傳統標準動態範圍 (SDR) 顯示色彩功能的支援。 以下說明這三個主要的擴充功能。 最常見的 advanced color display （HDR10）類型支援這三種擴充功能。
 
 ### <a name="high-dynamic-range"></a>高動態範圍
 
@@ -35,11 +35,11 @@ Windows advanced color 指的是數個相關技術，第一次是在 Windows 10 
 
 ![人力光譜 locus 和 sRGB gamut 的圖表](images/HDR-WCG.jpg)
 
-高層級的電腦顯示器具有長時間支援的色彩 gamuts，其寬度遠高於 sRGB，例如 Adobe RGB 和 D65-P3。 而這些寬範圍顯示變得更為普遍。 不過，在 advanced 色彩之前，Windows 不會針對應用程式執行任何系統層級的色彩管理。 這表示，如果將 DirectX 應用程式轉譯為純紅色或 RGB (1.0、0.0、0.0) 至其交換鏈，則 Windows 只會掃描顯示器可能重現的最飽和紅色，不論顯示器的實際色彩範圍為何。
+高層級的電腦顯示器具有長時間支援的色彩 gamuts，其寬度遠高於 sRGB，例如 Adobe RGB 和 D65-P3。 而這些寬範圍顯示變得更為普遍。 不過，在 advanced 色彩之前，Windows 不會執行應用程式的任何系統層級色彩管理。 這表示，如果轉譯的 DirectX 應用程式（例如，純紅色或 RGB (1.0、0.0、0.0) 至其交換鏈），Windows 只會掃描顯示器可能重現的最飽和紅色，無論顯示器的實際色彩範圍為何。
 
 需要高顏色精確度的應用程式可以查詢顯示器的色彩功能 (例如，使用 ICC 設定檔) ，以及執行自己的同進程色彩管理，以正確地鎖定顯示器的色彩範圍。 不過，大部分的應用程式和視覺內容會假設顯示為 sRGB，而且它們依賴作業系統來滿足此假設。
 
-Windows advanced color 會新增系統層級的自動色彩管理。 桌面視窗管理員 (DWM) 是 Windows 的組合器。 啟用 advanced color 時，DWM 會從應用程式視覺內容的 colorspace 執行明確的色彩轉換，到標準的組合色彩空間，也就是 scRGB。 然後，Windows 會將組成的畫面格緩衝區內容轉換成顯示器的原生色彩空間。 如此一來，傳統的 sRGB 內容就會自動取得色彩精確的行為，而 advanced color 感知的應用程式可以利用顯示器的完整色彩功能。
+Windows advanced 色彩會新增系統層級的自動色彩管理。 桌面視窗管理員 (DWM) 是 Windows ' 組合器。 啟用 advanced color 時，DWM 會從應用程式視覺內容的 colorspace 執行明確的色彩轉換，到標準的組合色彩空間，也就是 scRGB。 Windows 然後將組成的畫面格緩衝區內容轉換成顯示器的原生色彩空間。 如此一來，傳統的 sRGB 內容就會自動取得色彩精確的行為，而 advanced color 感知的應用程式可以利用顯示器的完整色彩功能。
 
 ### <a name="deep-precisionbit-depth"></a>深度精確度/位深度
 
@@ -57,7 +57,7 @@ Windows advanced color 會新增系統層級的自動色彩管理。 桌面視�
 
 ### <a name="display"></a>顯示
 
-若要利用高動態範圍，您必須具有支援 HDR10 標準的顯示器。 Windows 最適合與 [DisplayHDR 認證](https://displayhdr.org/)的顯示器搭配使用。
+若要利用高動態範圍，您必須具有支援 HDR10 標準的顯示器。 Windows 最適合與已通過[DisplayHDR 認證](https://displayhdr.org/)的顯示器搭配使用。
 
 ### <a name="graphics-processor-gpu"></a>圖形處理器 (GPU) 
 
@@ -71,14 +71,14 @@ Windows advanced color 會新增系統層級的自動色彩管理。 桌面視�
 
 ### <a name="graphics-driver-wddm"></a>圖形驅動程式 (WDDM) 
 
-強烈建議您從 Windows Update 或從 GPU 廠商或電腦製造商的網站，取得最新的可用圖形驅動程式。 針對 Windows 10、1903版和更新版本，建議至少支援 Windows 顯示驅動程式模型的驅動程式 (WDDM) 2.6 版。
+強烈建議您從 Windows Update 或從 GPU 廠商或電腦製造商的網站，取得最新的可用圖形驅動程式。 針對 Windows 10、1903版和更新版本，我們建議支援至少 Windows 顯示驅動程式模型的驅動程式 (WDDM) 2.6 版。
 
 ## <a name="supported-rendering-apis"></a>支援的轉譯 Api
 
-Windows 10 支援各種不同的轉譯 Api 和架構。 先進的色彩支援基本上依賴您的應用程式，能夠使用 DXGI 或 Visual Layer Api 來執行新式簡報。
+Windows 10 支援各種不同的轉譯 api 和架構。 先進的色彩支援基本上依賴您的應用程式，能夠使用 DXGI 或 Visual Layer Api 來執行新式簡報。
 
 * [DirectX Graphic Infrastructure (DXGI) ](../direct3ddxgi/dx-graphics-dxgi.md)
-* [視覺分層 (的) ](/windows/uwp/composition/visual-layer)
+* [視覺化層 (Windows) 的組合](/windows/uwp/composition/visual-layer)
 
 因此，任何可以輸出至其中一種展示方法的轉譯 API 都可以支援 advanced 色彩。 這包括但不限於這些。
 
@@ -96,7 +96,7 @@ Windows 10 支援各種不同的轉譯 Api 和架構。 先進的色彩支援基
 
 ## <a name="handling-dynamic-display-capabilities"></a>處理動態顯示功能
 
-Windows 10 支援從電源有效率的整合式面板，到高階遊戲監視器和電視的強大高度色彩顯示。 Windows 使用者預期您的應用程式會順暢地處理所有這些變化，包括無所不在的現有 SDR 顯示器。
+Windows 10 支援從電源有效率的整合式面板，到高階遊戲監視器和電視的強大高度色彩顯示。 Windows 使用者預期您的應用程式將能順暢地處理所有的變化，包括無所不在的現有 SDR 顯示器。
 
 Windows 10 可對使用者提供 HDR 和 advanced color 功能的控制權。 您的應用程式必須偵測目前顯示器的設定，並動態回應功能的任何變更。 可能的原因有很多，例如，使用者啟用或停用某項功能，或是在不同顯示器之間移動應用程式，或系統的電源狀態變更。
 
@@ -106,7 +106,7 @@ Windows 10 可對使用者提供 HDR 和 advanced color 功能的控制權。 �
 
 若要檢查目前作用中的「高級」色彩種類，請使用 [**CurrentAdvancedColorKind**](/uwp/api/windows.graphics.display.advancedcolorinfo.currentadvancedcolorkind) 屬性。 在 Windows 10、1903版和更新版本中，這會傳回三個可能值的其中一個： **SDR**、 **WCG** 或 **HDR**。 這是最重要的檢查屬性，您應該設定轉譯和呈現管線以回應使用中的種類。
 
-若要檢查支援的 advanced 色彩種類，但不一定要使用，請呼叫 [**IsAdvancedColorKindAvailable**](/uwp/api/windows.graphics.display.advancedcolorinfo.isadvancedcolorkindavailable)。 例如，您可以使用此資訊來提示使用者流覽至 Windows [設定] 應用程式，讓他們可以啟用 HDR 或 WCG。
+若要檢查支援的 advanced 色彩種類，但不一定要使用，請呼叫 [**IsAdvancedColorKindAvailable**](/uwp/api/windows.graphics.display.advancedcolorinfo.isadvancedcolorkindavailable)。 例如，您可以使用此資訊來提示使用者流覽至 Windows 設定應用程式，讓他們可以啟用 HDR 或 WCG。
 
 **AdvancedColorInfo** 的其他成員會提供有關面板實體色彩磁片區的量化資訊 (明亮度和色度) ，其對應于2006靜態 HDR 中繼資料。 您應使用此資訊來設定應用程式的 HDR tonemapping 和 gamut 對應。
 
@@ -228,12 +228,12 @@ Windows 10 支援兩種主要的像素格式和色彩空間組合，以用於 ad
 
 在許多案例中，您的應用程式會想要同時轉譯 SDR 和 HDR 內容;例如，透過 HDR 影片轉譯字幕或傳輸控制項，或將 UI 轉譯為遊戲場景。 請務必瞭解 *sdr 參考白色層級* 的概念，以確保您的 sdr 內容在 HDR 顯示器上看起來正確。
 
-Windows 會將 HDR 內容視為 _場景_，表示特定的色彩值應顯示在特定的亮度層級;例如，scRGB (1.0、1.0、1.0) 和 HDR10 (497、497、497) 都會以 80 nits 的亮度來精確編碼 D65 的白色。 同時，通常會將 SDR 內容視為 _輸出參考_ (或顯示) ，這表示其亮度會保留給使用者或裝置;例如，sRGB (1.0、1.0、1.0) 將 D65 白色編碼為 HDR 範例中的白色，但在任何亮度最高的情況下，會為其設定顯示的亮度。 Windows 可讓使用者將 [ _SDR 參考] 的白色層級_ 調整為其喜好設定;這是 Windows 會轉譯 sRGB (1.0、1.0、1.0) 的亮度。 在桌面 HDR 監視器上，SDR 參考白色層級通常設定為大約 200 nits。
+Windows 會將 HDR 內容視為 _場景參考_，表示特定的色彩值應該顯示在特定的亮度層級;例如，scRGB (1.0、1.0、1.0) 和 HDR10 (497、497、497) 都會以 80 nits 的亮度來精確編碼 D65 的白色。 同時，通常會將 SDR 內容視為 _輸出參考_ (或顯示) ，這表示其亮度會保留給使用者或裝置;例如，sRGB (1.0、1.0、1.0) 將 D65 白色編碼為 HDR 範例中的白色，但在任何亮度最高的情況下，會為其設定顯示的亮度。 Windows 可讓使用者將 [ _SDR 參考] 的白色層級_ 調整為其喜好設定;這是 Windows 將會轉譯 sRGB (1.0、1.0、1.0) 的亮度。 在桌面 HDR 監視器上，SDR 參考白色層級通常設定為大約 200 nits。
 
 > [!Note]
-> 在支援亮度控制項的顯示器（例如膝上型電腦）上，Windows 也會調整 HDR 的亮度 (場景參考的) 內容，以符合使用者所需的亮度等級，但應用程式看不到這一點。 除非您嘗試保證 HDR 信號的精確度重現，否則您通常可以忽略此情況。
+> 在支援亮度控制項（例如膝上型電腦）的顯示器上，Windows 也會調整 HDR () 場景的亮度，以符合使用者所需的亮度層級，但應用程式看不到這一點。 除非您嘗試保證 HDR 信號的精確度重現，否則您通常可以忽略此情況。
 
-如果您的應用程式一律會將 SDR 和 HDR 轉譯成不同的表面，並依賴作業系統組合，則 Windows 會自動執行正確的調整，以將 SDR 內容提升為所需的白色層級。 例如，如果您的應用程式使用 XAML，並將 HDR 內容轉譯為它自己的 **SwapChainPanel**。
+如果您的應用程式一律會將 SDR 和 HDR 轉譯成不同的表面，並依賴作業系統組合，則 Windows 會自動執行正確的調整，以將 sdr 內容提升為所需的白色層級。 例如，如果您的應用程式使用 XAML，並將 HDR 內容轉譯為它自己的 **SwapChainPanel**。
 
 但是，如果您的應用程式會將自己的 SDR 和 HDR 內容組合成單一介面，您就必須自行負責執行 SDR 參考白色層級調整。 否則，如果有一般的桌上型電腦觀賞條件，則 SDR 內容可能會顯得太暗。 首先，您必須取得目前的 SDR 參考白色層級，然後您必須調整您正在轉譯之任何 SDR 內容的色彩值。
 
@@ -243,7 +243,7 @@ Windows 會將 HDR 內容視為 _場景_，表示特定的色彩值應顯示在�
 
 ### <a name="step-2-adjust-color-values-of-sdr-content"></a>步驟 2： 調整 SDR 內容的色彩值
 
-Windows 會定義 80 nits; 的名義或預設參考白色層級因此，如果您要轉譯標準 sRGB (1.0、1.0、1.0) 白色 FP16 交換鏈，則會以 80 nits 的亮度重現。 為了符合實際的使用者定義參考白色層級，您必須將來自 80 nits 的 SDR 內容調整為透過 **AdvancedColorInfo SdrWhiteLevelInNits** 所指定的層級。
+Windows 定義 80 nits; 的名義或預設參考白色層級因此，如果您要轉譯標準 sRGB (1.0、1.0、1.0) 白色 FP16 交換鏈，則會以 80 nits 的亮度重現。 為了符合實際的使用者定義參考白色層級，您必須將來自 80 nits 的 SDR 內容調整為透過 **AdvancedColorInfo SdrWhiteLevelInNits** 所指定的層級。
 
 如果您是使用 FP16 和 scRGB 進行轉譯，或是使用線性 (1.0) gamma 的任何色彩空間，則您只要將 SDR 色彩值乘以 _AdvancedColorInfo. SdrWhiteLevelInNits_  /  _80_ 就可以了。 如果您使用的是 Direct2D，則會有預先定義的常數 [**D2D1_SCENE_REFERRED_SDR_WHITE_LEVEL**](../direct2d/direct2d-constants.md#d2d1_scene_referred_sdr_white_level-800f)，其值為80。
 
@@ -434,7 +434,7 @@ void D2DAdvancedColorImagesRenderer::ComputeHdrMetadata()
 
 ### <a name="step-3-perform-the-hdr-tonemapping-operation"></a>步驟 3： 執行 HDR tonemapping 操作
 
-Tonemapping 本身就是一個失真的程式，可針對許多感知或目標計量進行優化，因此沒有一個標準演算法。 Windows 在 Direct2D 和媒體基礎 HDR 影片播放管線中提供內建的 [HDR tonemapper 效果](../direct2d/hdr-tone-map-effect.md) 。 一些其他常用的演算法包括 ACE Filmic、Reinhard 和 ITU-R BT. 2390-3 EETF (電氣傳輸功能) 。
+Tonemapping 本身就是一個失真的程式，可針對許多感知或目標計量進行優化，因此沒有一個標準演算法。 Windows 在 Direct2D 和媒體基礎 HDR 影片播放管線中提供內建的[HDR tonemapper 效果](../direct2d/hdr-tone-map-effect.md)。 一些其他常用的演算法包括 ACE Filmic、Reinhard 和 ITU-R BT. 2390-3 EETF (電氣傳輸功能) 。
 
 簡化的 Reinhard tonemapper 運算子如下所示。
 
@@ -469,7 +469,7 @@ D2D1_VECTOR_4F simpleReinhardTonemapper(
 
 ## <a name="capturing-hdr-and-wcg-content"></a>捕獲 HDR 和 WCG 內容
 
-支援指定圖元 [**格式的 api**](/uwp/api/windows.graphics.capture) （例如， [**IDXGIOutput5：：:D uplicateoutput1**](/windows/win32/api/dxgi1_5/nf-dxgi1_5-idxgioutput5-duplicateoutput1) 方法）可提供在不遺失圖元資訊的情況下，捕獲 HDR 和 WCG 內容的功能。 請注意，在取得內容畫面格之後，需要進行額外的處理。 例如，HDR 與 SDR 的音調對應 (例如，SDR 螢幕擷取畫面會複製網際網路共用) ，並以適當的格式儲存內容 (例如，JPEG XR) 。
+支援指定像素格式的 Api，例如 Windows 中的格式 [**。**](/uwp/api/windows.graphics.capture)IDXGIOutput5： capture 命名空間和 [**：:D uplicateoutput1**](/windows/win32/api/dxgi1_5/nf-dxgi1_5-idxgioutput5-duplicateoutput1)方法，提供在不遺失圖元資訊的情況下，捕獲 HDR 和 WCG 內容的功能。 請注意，在取得內容畫面格之後，需要進行額外的處理。 例如，HDR 與 SDR 的音調對應 (例如，SDR 螢幕擷取畫面會複製網際網路共用) ，並以適當的格式儲存內容 (例如，JPEG XR) 。
 
 ## <a name="additional-resources"></a>其他資源
 

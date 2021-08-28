@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.guid
 ms:contentKeyID: 55103238
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: fc297722e8fe4d6520f019f004ff8d4111616a7d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b14d5ab84bf0c4a5a6d3dc323e6fb895bde55caeebd9e39e11762e44771795c1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104568012"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119362918"
 ---
 # <a name="guidcolumnvalue-properties"></a>GuidColumnValue 屬性
 

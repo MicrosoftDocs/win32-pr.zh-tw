@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6982d1ea0b257ca9276918931ce233e675fd3eb3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2d78276f40ee6e2e1aff10f17bc9f41bb1d1e4aa32cde68a41842c5cee8b95bf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934289"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117742610"
 ---
 # <a name="wsmancreateresourcelocator-method"></a>WSMan. CreateResourceLocator 方法
 
@@ -92,7 +92,7 @@ WScript.Echo Xml
 | 最低支援的用戶端<br/> | Windows Vista<br/>                                                                 |
 | 最低支援的伺服器<br/> | Windows Server 2008<br/>                                                           |
 | 標頭<br/>                   | <dl> <dt>WSManDisp。h</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>WSManDisp .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>WSManDisp .idl</dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>WSManDisp .tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WSMAuto.dll</dt> </dl>   |
 
@@ -108,7 +108,7 @@ WScript.Echo Xml
 [**ConnectionOptions**](connectionoptions.md)
 </dt> <dt>
 
-[**工作階段**](session.md)
+[**會話**](session.md)
 </dt> </dl>
 
  

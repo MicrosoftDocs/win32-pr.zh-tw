@@ -33,12 +33,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: dea803849d6aa15c2a3a14deb850d85ade569116
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a5d0515b9d7d720409e0a72aec7aad5dc54561637563976a35d03b3e0dec79f3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511904"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119829988"
 ---
 # <a name="eventtrace_header-class"></a>EventTrace \_ 標頭類別
 

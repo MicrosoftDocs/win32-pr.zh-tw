@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 44cf861d2bf4f4123d7a1ee103e6966e5d404946
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 9b7906878c7ba10681cbf361a4671370331fbcb5abee73eb212dcac4ab41443d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103681894"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117992028"
 ---
 # <a name="oldnames-switch"></a>/oldnames 參數
 
@@ -51,6 +51,6 @@ MIDL 編譯器會將介面的版本號碼併入存根中產生的介面名稱 (�
 [ (IDL) 檔案的介面定義](interface-definition-idl-file.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -6,12 +6,12 @@ keywords:
 - HTTP 伺服器工作
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 22455dbda21aca32b26f586eed6e51cef7509af2
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6d89f72074ba870981421e228b0ff271505b3fce1e30cd49e79d58463570c0b3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103675923"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119830058"
 ---
 # <a name="http-server-tasks"></a>HTTP 伺服器工作
 
@@ -86,9 +86,9 @@ HTTP 伺服器 API 的清除作業包括：
 
 如需詳細資訊和程式碼範例，請參閱 [清除 HTTP 伺服器 API](http-server-sample-application.md)。
 
- 
+ 
 
- 
+ 
 
 
 

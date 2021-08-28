@@ -4,12 +4,12 @@ ms.assetid: 539fd5c9-6dd9-45d6-8e19-1cda91fb4559
 title: 'AVEncDDDynamicRangeCompressionControl 屬性 (Codecapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dc60b15344b3d141eaad415a1399c3cd31d15bad
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 77390be57047a8b2057fd42ed6f2d9c26e50a1c95cb7ae9404ac70cffc02ab33
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103688287"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119342567"
 ---
 # <a name="avencdddynamicrangecompressioncontrol-property"></a>AVEncDDDynamicRangeCompressionControl 屬性
 
@@ -35,8 +35,8 @@ ms.locfileid: "103688287"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 2000 專業版傳統型 \[ 應用程式 \| UWP 應用程式\]<br/>                     |
-| 最低支援的伺服器<br/> | Windows 2000 Server \[ desktop 應用程式 \| UWP 應用程式\]<br/>                           |
+| 最低支援的用戶端<br/> | Windows 2000 Professional \[ 桌面應用程式 \| UWP 應用程式\]<br/>                     |
+| 最低支援的伺服器<br/> | Windows 2000 Server \[ desktop apps \| UWP 應用程式\]<br/>                           |
 | 標頭<br/>                   | <dl> <dt>Codecapi。h</dt> </dl> |
 
 

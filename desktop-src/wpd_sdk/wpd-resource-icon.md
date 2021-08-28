@@ -4,12 +4,12 @@ ms.assetid: 7abf0f9a-795b-4650-af7a-44aee4d3dd91
 title: WPD_RESOURCE_ICON
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ca008b22700869327c3bb432dd9c591affcea22e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5dc22be3cf28bc200dbc9634963b88766a68e4d6725e22e0ee545eb5944c402f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975480"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118696408"
 ---
 # <a name="wpd_resource_icon"></a>WPD \_ 資源 \_ 圖示
 

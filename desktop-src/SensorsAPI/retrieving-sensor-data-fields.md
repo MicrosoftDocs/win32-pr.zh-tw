@@ -4,12 +4,12 @@ ms.assetid: 4ae80816-5e53-4ed1-9300-4b38c22d65e2
 title: 正在捕獲感應器資料值
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a4642f120e549cd77b1b37610037092facf2ead1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0e240b9bc14d917db0e0c4280ad957aa139369eb7762abfcd69441d25e66857d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973437"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119960028"
 ---
 # <a name="retrieving-sensor-data-values"></a>正在捕獲感應器資料值
 

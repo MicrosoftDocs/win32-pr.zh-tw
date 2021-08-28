@@ -12,12 +12,12 @@ api_type:
 - DllExport
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 97ad61a407a8edbbd92570f5b3dcca8f4eaa9705
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a5ec389606a560e1b8db64cf9361acb7f92e2cc97112ca327ff436e2d2baba05
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104093947"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119118882"
 ---
 # <a name="idcompositionrectangleclipsettoprightradiusx-methods"></a>IDCompositionRectangleClip：： SetTopRightRadiusX 方法
 
@@ -41,7 +41,7 @@ ms.locfileid: "104093947"
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                 |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2012 desktop 應用程式\]<br/>                                 |
 | 標頭<br/>                   | <dl> <dt>Dcomp。h</dt> </dl>   |
 | 程式庫<br/>                  | <dl> <dt>Dcomp .lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Dcomp.dll</dt> </dl> |

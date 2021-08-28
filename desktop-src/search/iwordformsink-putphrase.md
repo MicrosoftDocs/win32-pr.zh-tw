@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - search.h
-ms.openlocfilehash: 43539bbf67e23bc37ca92f6a961b945ae581e746
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 874428ed435d2336398f6e72c58b70de275565cce2e606f1fdddea54f0684742
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103689856"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119944408"
 ---
 # <a name="iwordformsinkputaltword-method"></a>IWordFormSink：:P utAltWord 方法
 
@@ -60,7 +60,7 @@ HRESULT PutAltWord(
 
 
 
-| 傳回碼                                                                                              | Description                                                                                                                                       |
+| 傳回碼                                                                                              | 描述                                                                                                                                       |
 |----------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>                     | 作業已順利完成。 <br/>                                                                                             |
 | <dl> <dt>**語言 \_S \_ 大型 \_ 單字**</dt> </dl> | *Cwc* 的值大於 [**IStemmer：： Init**](/windows/win32/api/indexsrv/nf-indexsrv-istemmer-init)中指定的 *ulMaxTokenSize* 值。 <br/> |

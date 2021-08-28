@@ -4,12 +4,12 @@ ms.assetid: ed2d1159-da78-4dc5-98a2-2cc876380c43
 title: ModuleAdvtExecuteSequence 資料表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 699e544df7e0a92b0fee92c753e36a8b9a86ee5d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d705e3a80a701b5ef9617e21735b34daac8a7a73e333764cf1373d2106ca4639
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106992501"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119381418"
 ---
 # <a name="moduleadvtexecutesequence-table"></a>ModuleAdvtExecuteSequence 資料表
 

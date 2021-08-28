@@ -4,12 +4,12 @@ ms.assetid: 29cf2412-0a9a-4cf5-b0c3-668204c1c352
 title: 'MF_PD_ASF_FILEPROPERTIES_PACKETS 屬性 (Wmcontainer) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a35691d2daad712e238c2b5d7d638b0ae30890f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b47b1c559609785b0c78bc1fb16fcd2e8a1a243d630f5ec27ca0b5cc6500ecbd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943397"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119600358"
 ---
 # <a name="mf_pd_asf_fileproperties_packets-attribute"></a>MF \_ PD \_ ASF \_ FILEPROPERTIES 封 \_ 包屬性
 
@@ -31,8 +31,8 @@ ms.locfileid: "103943397"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                     |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                     |
 | 標頭<br/>                   | <dl> <dt>Wmcontainer。h</dt> </dl> |
 
 

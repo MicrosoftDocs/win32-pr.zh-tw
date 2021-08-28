@@ -4,12 +4,12 @@ ms.assetid: 83b64ad8-2552-41d1-bc61-20361831020b
 title: 資料流程屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a25de9ae6cf769268b3868d36bac2e293cfd8d60
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d066520926363b27ed5f29e29079d960a0f8e1e395c3dc0df56af918b5fed34a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104512544"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119034726"
 ---
 # <a name="stream-attributes"></a>資料流程屬性
 

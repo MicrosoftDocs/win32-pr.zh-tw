@@ -4,12 +4,12 @@ description: 描述介面卡的記憶體預算。
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 06/20/2019
-ms.openlocfilehash: 2888b1480e3e394640a10bf0264403cd6c153e3b
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 2cbe109d4c7f6c03389ec9e51c9468c601730890220fde2dea72aed476093f47
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104463621"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119118682"
 ---
 # <a name="dxcoreadaptermemorybudget-structure"></a>DXCoreAdapterMemoryBudget 結構
 

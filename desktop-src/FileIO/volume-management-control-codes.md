@@ -4,12 +4,12 @@ ms.assetid: 87f39e1c-3ebf-4c6f-a842-699ec3c45e76
 title: 磁碟區管理控制碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5cccb73559826b8b0b3001588458a4cf34863f7d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f5ddaa60b30b40891aa13868f46294cc81a197d81b77b076d5390a755bb0cefe
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106979299"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119431772"
 ---
 # <a name="volume-management-control-codes"></a>磁碟區管理控制碼
 
