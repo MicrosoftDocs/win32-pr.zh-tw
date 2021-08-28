@@ -12,12 +12,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
 api_location: ''
-ms.openlocfilehash: 934c64f7f69305f8b966b0bbc977711251019edb
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 411d0abefc077975c134fe76dfac0a1bf6c8447d82031df9fe8e3e2bdd874d3b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103682872"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118088719"
 ---
 # <a name="idcompositionshadoweffectsetalpha-methods"></a>IDCompositionShadowEffect：： SetAlpha 方法
 

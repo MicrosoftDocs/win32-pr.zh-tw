@@ -4,16 +4,16 @@ ms.assetid: 9efcf90e-3645-49f4-b27d-9a8246637310
 title: 'ITConnection：： SetEncryptionKey 方法 (Sdpblb .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 91d0ce079d3815897c348e553df0af8dece8592b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c36b3fc9e37338b17aa00d19213118b1243ec70d2f21d21060fdd43894121566
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106982977"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119406128"
 ---
 # <a name="itconnectionsetencryptionkey-method"></a>ITConnection：： SetEncryptionKey 方法
 
-\[ 在 Windows Vista、Windows Server 2008 和後續版本的作業系統中，無法使用會合 IP 電話語音會議控制項和介面。 RTC 用戶端 API 提供類似的功能。\]
+\[Windows Vista、Windows Server 2008 及後續版本的作業系統無法使用會合 IP 電話語音會議控制項和介面。 RTC 用戶端 API 提供類似的功能。\]
 
 **SetEncryptionKey** 方法會設定解密會話所需的加密金鑰，或用來取得以外部方式取得可用金鑰之機制的指示。
 
@@ -53,7 +53,7 @@ HRESULT SetEncryptionKey(
 
 
 
-| 傳回碼                                                                          | Description                  |
+| 傳回碼                                                                          | 描述                  |
 |--------------------------------------------------------------------------------------|------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl> | 方法成功。<br/> |
 

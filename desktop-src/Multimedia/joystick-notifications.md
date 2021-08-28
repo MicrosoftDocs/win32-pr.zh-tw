@@ -9,12 +9,12 @@ keywords:
 - 未插的操縱杆
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2791f8da14107d50afe90d8efbdbfe79acba3093
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 86666645a4589d1ecd638b81541aab2954839ca08889ef567b69f4abda17d211
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104023436"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118140325"
 ---
 # <a name="joystick-notifications"></a>搖桿通知
 
@@ -23,7 +23,7 @@ ms.locfileid: "104023436"
 > [!Note]  
 > 如果第二個應用程式使用 **joyGetPos** 或 **joyGetPosEx** 來查詢搖桿（大約是傳送訊息的相同時間），則搖桿訊息可能無法連線到捕捉搖桿的應用程式。 在此情況下，第二個應用程式可能會攔截訊息。
 
- 
+ 
 
 如果您想要從連接到系統的兩個操縱杆中捕捉訊息，請針對每個搖桿使用 [**joySetCapture**](/windows/win32/api/joystickapi/nf-joystickapi-joysetcapture) 兩次。 您的視窗會針對每個裝置接收不同的不同訊息。
 
@@ -31,6 +31,6 @@ ms.locfileid: "104023436"
 
 您無法抓取未插的搖桿。 如果未插上指定的裝置， **joySetCapture** 函式會傳回 JOYERR \_ 插即用。
 
- 
+ 
 
- 
+ 

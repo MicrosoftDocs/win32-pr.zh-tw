@@ -4,12 +4,12 @@ ms.assetid: ed9fa158-9dad-4d2d-8153-78122b19a34e
 title: '控制 (Windows Installer) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0ec286adf25c0642ae044bfd0b89e66182ef6839
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 47755cafc3d4d3d04ed443410571a9c4fc2cf215a3efb3584265dcbeb2f9d520
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104321075"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118143362"
 ---
 # <a name="controls-windows-installer"></a>控制 (Windows Installer) 
 

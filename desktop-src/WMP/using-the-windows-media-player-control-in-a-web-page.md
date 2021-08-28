@@ -3,30 +3,30 @@ title: 在 Web 網頁中使用 Windows Media Player 控制項
 description: 在 Web 網頁中使用 Windows Media Player 控制項
 ms.assetid: 70616985-86e2-48df-a9e1-89caa11b4bd1
 keywords:
-- Windows Media Player 嵌入 ActiveX 控制項
-- Windows Media Player 物件模型，嵌入 ActiveX 控制項
+- Windows Media Player，內嵌 ActiveX 控制項
+- Windows Media Player 物件模型，內嵌 ActiveX 控制項
 - 物件模型，嵌入 ActiveX 控制項
-- Windows Media Player 行動裝置，內嵌 ActiveX 控制項
-- Windows Media Player ActiveX 控制項，內嵌
-- Windows Media Player 的行動 ActiveX 控制項，內嵌
-- ActiveX 控制項，嵌入
+- Windows Media PlayerMobile、內嵌 ActiveX 控制項
+- Windows Media Player ActiveX 控制項、內嵌
+- Windows Media PlayerMobile ActiveX 控制項，內嵌
+- ActiveX 控制項，內嵌
 - Windows Media Player ActiveX 控制項、網頁
-- Windows Media Player 的行動 ActiveX 控制項、網頁
+- Windows Media PlayerMobile ActiveX 控制項、網頁
 - ActiveX 控制項，網頁
 - 內嵌、網頁
 - 網頁內嵌，關於
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6b9cb69b2afa519091d8d729445cb87f02b9461a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9bc418e715563591ad5ab51265f27086d4980fb54887ff797b0a108e25dc925f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104183803"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118116948"
 ---
 # <a name="using-the-windows-media-player-control-in-a-web-page"></a>在 Web 網頁中使用 Windows Media Player 控制項
 
-在網頁中內嵌 Windows Media Player 控制項可讓您完全自訂使用者與控制項互動的方式。 您可以使用控制項所提供的介面，也可以隱藏它並顯示您自己的使用者介面。 您可以在內嵌控制項的位置指定多個 Windows Media Player 控制項屬性，也可以在腳本中設定玩家屬性和呼叫 Player 方法。
+在網頁中內嵌 Windows Media Player 控制項可讓您完全自訂使用者與控制項互動的方式。 您可以使用控制項所提供的介面，也可以隱藏它並顯示您自己的使用者介面。 您可以在內嵌控制項的位置指定多個 Windows Media Player 控制項屬性，也可以在腳本中設定玩家屬性和呼叫 player 方法。
 
 下列各節說明在網頁中內嵌控制項的基本概念。
 
@@ -42,12 +42,12 @@ ms.locfileid: "104183803"
 
 
 
- 
+ 
 
 > [!Note]  
-> Windows Media Player 10 行動裝置版控制項包含的功能，是以 Windows Media Player 控制項的桌上出版本提供的功能子集為基礎。 因此，它可以內嵌于 Pocket Internet Explorer 網頁，就像桌面控制項內嵌在 Internet Explorer 網頁中一樣。 若要瞭解 Windows Media Player 10 個行動控制項是否支援特定的方法、屬性或事件，請參閱 [腳本的物件模型參考](object-model-reference-for-scripting.md)。
+> Windows Media Player 10 行動裝置版控制項包含的功能，是以 Windows Media Player 控制項的桌上出版本提供的功能子集為基礎。 因此，它可以內嵌于 Pocket Internet Explorer 網頁，就像桌面控制項內嵌在 Internet Explorer 網頁中一樣。 若要瞭解 Windows Media Player 10 個行動控制項是否支援特定的方法、屬性或事件，請參閱[腳本的物件模型參考](object-model-reference-for-scripting.md)。
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -56,9 +56,9 @@ ms.locfileid: "104183803"
 [**播放機控制指南**](player-control-guide.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

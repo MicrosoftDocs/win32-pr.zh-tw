@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 24eeb4cdb5972f81e6dd66a812c9a38b61dcab91
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: cab33ac28153f2a22ef4ca07f4c7f83d700377909d404dbfe6d707037423f248
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106993499"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118158450"
 ---
 # <a name="cbasecontrolwindowgetminidealimagesize-method"></a>CBaseControlWindow. GetMinIdealImageSize 方法
 

@@ -10,12 +10,12 @@ keywords:
 - 多媒體常數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fd47a6c31bb89d6a41f1f107ae85e7abafaf1876
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b9e4d077a328774b4593937ac639e38b035dbf064e994092b9f2740fcfb91d92
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104462253"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118137105"
 ---
 # <a name="multimedia-constants"></a>多媒體常數
 
@@ -31,9 +31,9 @@ ms.locfileid: "104462253"
 [多媒體參考](multimedia-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

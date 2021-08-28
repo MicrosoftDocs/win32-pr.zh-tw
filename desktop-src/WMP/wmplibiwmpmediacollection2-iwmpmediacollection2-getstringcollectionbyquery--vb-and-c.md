@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 322781bc9ddec3e6f8d74d7229f16ce38e519f05
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 054dd5b76cb6dcf3e6cb29ba624cd1f5c0f281d69c4b2b5e5125f5de9b4e7b04
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994743"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117745966"
 ---
 # <a name="iwmpmediacollection2getstringcollectionbyquery-method"></a>IWMPMediaCollection2：： getStringCollectionByQuery 方法
 

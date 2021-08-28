@@ -7,12 +7,12 @@ keywords:
 - IAVIFile 介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f65cdd72a034f2c380638979e656c84a173331fc
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 29f419de6864986bf72914dd5551ab6ad5b7093379b40180183171a7a498cea3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840243"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118140936"
 ---
 # <a name="iavistream-and-iavifile-interfaces"></a>IAVIStream 和 IAVIFile 介面
 
@@ -20,9 +20,9 @@ ms.locfileid: "103840243"
 
 若要在 C 中建立物件指標，請先為夠大的結構配置空間，以包含虛擬函式資料表和其他資料成員的指標。 為您的資料流程類型建立方法的虛擬函式資料表，然後將虛擬函式資料表的指標設定為虛擬函式資料表的位址。
 
- 
+ 
 
- 
+ 
 
 
 

@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: bc3a074641ce5b15a3d837e8bd91dfdae09fe627
-ms.sourcegitcommit: adba238660d8a5f4fe98fc6f5d105d56aac3a400
+ms.openlocfilehash: 4249d094f142af8a9015f4e8a3b32d4e39cd42fb
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "111826682"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122629551"
 ---
 # <a name="samplelevel-directx-hlsl-texture-object"></a>SampleLevel (DirectX HLSL 材質物件) 
 
@@ -34,12 +34,12 @@ ms.locfileid: "111826682"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
-<th>項目</th>
+<th>Item</th>
 <th>描述</th>
 </tr>
 </thead>
@@ -86,7 +86,7 @@ ms.locfileid: "111826682"
 <p>如果材質物件是陣列，則最後一個元件是陣列索引。</p></td>
 </tr>
 <tr class="even">
-<td><p><span id="LOD"></span><span id="lod"></span><em>Lod</em></p></td>
+<td><p><span id="LOD"></span><span id="lod"></span><em>LOD</em></p></td>
 <td><p>在指定 mipmap 層級的數位。 如果值為 = 0，則會使用 zero'th (最大的對應) 。 小數值 (如果提供的) 用來在兩個 mipmap 層級之間插補。</p></td>
 </tr>
 <tr class="odd">

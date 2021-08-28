@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bd397dec80a5ccb5f2085e3231782555efde8e39
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ca39d5a9ac261f8cbc322ae2737260baec95544bb7e6956df2444fc7d0958634
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106980204"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118115885"
 ---
 # <a name="iwmpcontrols3audiolanguagecount-property"></a>IWMPControls3：： audioLanguageCount 屬性
 
@@ -50,7 +50,7 @@ Public ReadOnly Property audioLanguageCount As System.Int32
 
 ## <a name="remarks"></a>備註
 
-針對 Windows Media 內容，與語言選取相關的屬性和方法只支援單一輸出。
+針對 Windows 媒體型內容，與語言選取相關的屬性和方法只支援單一輸出。
 
 ## <a name="requirements"></a>規格需求
 

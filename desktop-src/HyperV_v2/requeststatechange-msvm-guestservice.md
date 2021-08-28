@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 1360c36b58c96b7e621e5f339bd503ce4f1390b2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c7685ec7c1740f869b251124920233ed9d6d8a97060c097f138493f371ee4fc2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103693740"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119501098"
 ---
 # <a name="msvm_guestservicerequeststatechange-method"></a>Msvm \_ GuestService：： RequestStateChange 方法
 
@@ -145,7 +145,7 @@ uint32 RequestStateChange(
 
 
 
-| 傳回碼/值                                                                                                                                                                       | Description                                                                        |
+| 傳回碼/值                                                                                                                                                                       | 描述                                                                        |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
 | <dl> <dt>**已完成，沒有錯誤**</dt> <dt>0</dt> </dl>                           | 成功。<br/>                                                                |
 | <dl> <dt>**不支援**</dt> <dt>1</dt> </dl>                                     |                                                                                    |
@@ -164,8 +164,8 @@ uint32 RequestStateChange(
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8.1 桌面應用程式\]<br/>                                                            |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 R2 \[ desktop 應用程式\]<br/>                                                 |
+| 最低支援的用戶端<br/> | Windows 8.1 \[僅限桌面應用程式\]<br/>                                                            |
+| 最低支援的伺服器<br/> | Windows Server 2012\[僅限 R2 desktop 應用程式\]<br/>                                                 |
 | 命名空間<br/>                | \\\\根 \\ 虛擬化 \\ V2<br/>                                                                 |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization。</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

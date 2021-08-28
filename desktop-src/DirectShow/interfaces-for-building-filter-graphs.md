@@ -4,12 +4,12 @@ ms.assetid: 18d5217a-7f4e-49e9-ac14-2f4ba229e065
 title: 建立篩選圖形的介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 862d581f44a711cc6f2aa094210571995b15005b
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: e6ca539672f39e855d891a5a3c534a8ac3cfcec35bb933034bad2621fa5339d2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103687683"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118154126"
 ---
 # <a name="interfaces-for-building-filter-graphs"></a>建立篩選圖形的介面
 

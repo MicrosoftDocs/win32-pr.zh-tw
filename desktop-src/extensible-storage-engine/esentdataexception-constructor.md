@@ -14,12 +14,12 @@ dev_langs:
 - JScript
 - VB
 - other
-ms.openlocfilehash: 77798cda30ea7d67cd346f2444b9d6ca54011d9e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 19dd7c0da21befad17b7f07e437aa02555ff382cbcc351ee7e2bfa5bc84b22da
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104557281"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119735538"
 ---
 # <a name="esentdataexception-constructor"></a>EsentDataException 函式
 
@@ -32,7 +32,7 @@ ms.locfileid: "104557281"
 <thead>
 <tr class="header">
 <th> </th>
-<th>Name</th>
+<th>名稱</th>
 <th>描述</th>
 </tr>
 </thead>

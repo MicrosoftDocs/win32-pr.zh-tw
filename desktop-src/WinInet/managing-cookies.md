@@ -4,12 +4,12 @@ description: 在 HTTP 通訊協定下，伺服器或腳本會使用 cookie 來�
 ms.assetid: c00279cf-9cdc-4caf-8549-af1851edfa25
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ed0418442e961f6f4d3d2bcddb2c607ac9cf7928
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 0931de8b1d9d25862344658bddaacf5fd1d4325f9343176acb0206dcb3e1e383
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106967911"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118113618"
 ---
 # <a name="managing-cookies"></a>管理 Cookie
 
@@ -30,9 +30,9 @@ ms.locfileid: "106967911"
 
 
 
- 
+ 
 
-請注意，這些函數不需要呼叫 [**InternetOpen**](/windows/desktop/api/Wininet/nf-wininet-internetopena)。 具有到期日的 cookie 會儲存在 [使用者名稱] AppData 漫遊 microsoft windows cookie 目錄下的 [本機使用者] 帳戶中 \\ \\ \\ \\ \\ \\ ，而使用者的 [使用者 \\ 名稱] \\ AppData \\ 漫遊 \\ microsoft \\ windows \\ cookie \\ 低目錄，適用于在低許可權下執行的應用程式。 沒有到期日的 cookie 會儲存在記憶體中，而且只適用于建立它們的進程。
+請注意，這些函數不需要呼叫 [**InternetOpen**](/windows/desktop/api/Wininet/nf-wininet-internetopena)。 具有到期日的 cookie 會儲存在 [使用者名稱] AppData 漫遊 microsoft Windows Cookies] 目錄下的 [本機使用者] 帳戶中 \\ \\ \\ \\ \\ \\ ，而使用者的 [使用者 \\ 名稱] \\ AppData \\ 漫遊 \\ microsoft \\ Windows \\ Cookies \\ 低目錄適用于在低許可權下執行的應用程式。 沒有到期日的 cookie 會儲存在記憶體中，而且只適用于建立它們的進程。
 
 如 [HTTP cookie](http-cookies.md) 主題所述， [**InternetGetCookie**](/windows/desktop/api/Wininet/nf-wininet-internetgetcookiea) 函式不會將伺服器標示為不可編寫腳本的 cookie 傳回 Set-Cookie 標頭中的 "HttpOnly" 屬性。
 
@@ -85,7 +85,7 @@ else
 
 [**InternetSetCookie**](/windows/desktop/api/Wininet/nf-wininet-internetsetcookiea) 是用來在指定的 URL 上設定 cookie。 [**InternetSetCookie**](/windows/desktop/api/Wininet/nf-wininet-internetsetcookiea) 可以同時建立持續性和會話 cookie。
 
-持續性 cookie 的到期日。 這些 cookie 會儲存在本機使用者帳戶下的 [使用者 \\ 名稱] \\ AppData \\ 漫遊 \\ microsoft \\ Windows \\ cookies 目錄，以及使用者的 [使用者 \\ 名稱] \\ AppData \\ 漫遊 \\ microsoft \\ windows \\ cookie \\ 低目錄，以供在低許可權下執行的應用程式。
+持續性 cookie 的到期日。 這些 cookie 會儲存在本機使用者帳戶下的「使用者 \\ 名稱」 \\ AppData \\ 漫遊 \\ microsoft \\ Windows \\ cookies 目錄，而使用者的「使用者 \\ 名稱」 \\ AppData \\ 漫遊 \\ microsoft \\ Windows \\ cookies \\ 低目錄適用于在低許可權下執行的應用程式。
 
 會話 cookie 儲存在記憶體中，而且只能由建立它們的進程存取。
 
@@ -122,10 +122,10 @@ bReturn = InternetSetCookie(TEXT("https://www.adventure_works.com"), NULL,
 
 
 > [!Note]  
-> WinINet 不支援伺服器實施。 此外，它不應該從服務使用。 針對伺服器執行或服務，請使用 [Microsoft WINDOWS HTTP services (WinHTTP) ](/windows/desktop/WinHttp/winhttp-start-page)。
+> WinINet 不支援伺服器實施。 此外，它不應該從服務使用。 若為伺服器執行或服務，請使用[Microsoft Windows HTTP 服務 (WinHTTP) ](/windows/desktop/WinHttp/winhttp-start-page)。
 
- 
+ 
 
- 
+ 
 
- 
+ 

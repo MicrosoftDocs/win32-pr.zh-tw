@@ -4,12 +4,12 @@ ms.assetid: 487b6a00-77eb-4c51-8e32-46bcd4493df8
 title: 如果元件規則中斷，會發生什麼事？
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 78f61a0a819856c5014aa70acfaeb46be5043e58
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e3f830fa402da44be992d74adc957d88a19442dcbb51173a87e79fa2266552a1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106978015"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119498764"
 ---
 # <a name="what-happens-if-the-component-rules-are-broken"></a>如果元件規則中斷，會發生什麼事？
 

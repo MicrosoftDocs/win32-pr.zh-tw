@@ -3,17 +3,17 @@ title: 服務授權
 description: 應用程式可以針對服務主機上的內送訊息，執行自訂授權。
 ms.assetid: 75bcf051-3983-48fc-8121-0984ac9cdcb9
 keywords:
-- 適用于 Windows 的服務授權 Web 服務
+- Windows 的服務授權 Web 服務
 - WWSAPI
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c296dc6b4900bd20df7d1e70631e758599a0028d
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: 9b84b9947d088d5f594ac11f0ee83cc03925f8a3bbc9aeceae0bc7d5cb120477
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "104093515"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120109838"
 ---
 # <a name="service-authorization"></a>服務授權
 

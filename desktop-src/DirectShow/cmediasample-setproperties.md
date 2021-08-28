@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: c5e6ef3c3839825586bf47259cf44783d167f503
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a4bac378d41e0a9933f0903990e6368979c669c048102665a06b2ce59e4a45c7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995612"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118156530"
 ---
 # <a name="cmediasamplesetproperties-method"></a>CMediaSample. SetProperties 方法
 
@@ -63,7 +63,7 @@ HRESULT SetProperties(
 
 
 
-| 傳回碼                                                                                   | Description                          |
+| 傳回碼                                                                                   | 描述                          |
 |-----------------------------------------------------------------------------------------------|--------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>          | Success<br/>                   |
 | <dl> <dt>**E \_ INVALIDARG**</dt> </dl>  | 引數無效<br/>          |

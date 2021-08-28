@@ -12,12 +12,12 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: 0e372c1025a74dfb304cacdb0f3a4cf18bcdbabd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 754e5e931911dedc74e42a1f7af8a207b400d4ba64949535cfa962e271b47181
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106966740"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117984303"
 ---
 # <a name="hotspot2-wlanprofile-element"></a>Hotspot2 (WLANProfile) 元素
 
@@ -48,7 +48,7 @@ ms.locfileid: "106966740"
 
 ## <a name="child-elements"></a>子元素
 
-| 元素 | 類型 | Description |
+| 元素 | 類型 | 描述 |
 |-|-|-|
 | [**DomainName**](wlan-profileschema-hotspot2-domainname-element.md) | | 裝置家用網路提供者的功能變數名稱，識別網路的操作員。 |
 | [**NAIRealm**](wlan-profileschema-hotspot2-nairealm-element.md) | |  (NAI) 領域識別碼的網路存取識別碼清單。 這份清單中的專案通常是表單 user@domain 。 |

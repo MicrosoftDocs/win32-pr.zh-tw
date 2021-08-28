@@ -4,12 +4,12 @@ ms.assetid: 82de0e60-9341-4266-bcff-cdb8a7f244a5
 title: WinHTTP 與 WinINet
 ms.topic: article
 ms.date: 02/22/2019
-ms.openlocfilehash: f011aa57a866deaa82e5dc1737bfa68a6edebc4c
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: ac12ba99babb04d636390879600ea198f2103d72577390a7e79a450ca259f071
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113118613"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118114026"
 ---
 # <a name="winhttp-vs-wininet"></a>WinHTTP 與 WinINet
 

@@ -4,12 +4,12 @@ ms.assetid: ab121de3-f07d-401a-b52a-246a555c142c
 title: WriteRegistryValues 動作
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: be13cc5cf5a817e44caa34b9084115b7dda8cee3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2e84fd6818ae1180665e523b19a2f674be0826361c76997b74966d3d719ed1d8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975754"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117989824"
 ---
 # <a name="writeregistryvalues-action"></a>WriteRegistryValues 動作
 

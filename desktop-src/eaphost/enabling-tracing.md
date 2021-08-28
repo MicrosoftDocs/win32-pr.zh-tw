@@ -4,12 +4,12 @@ description: 可協助使用者找出 EAP 驗證程式期間發生之問題的�
 ms.assetid: 5f401101-59aa-4ee8-825a-0b998489eed9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5fdee8a5516b218e51f0151e1964885789560d82
-ms.sourcegitcommit: db89157e3be911fdce2e543e99faa31fb2403bc8
+ms.openlocfilehash: c638fa7f546028cd9cf66227cfe3c302d6599492d1cbbfcfdac6c2b428273db8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "104024368"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118086290"
 ---
 # <a name="enabling-eaphost-tracing"></a>啟用 EAPHost 追蹤
 
@@ -40,7 +40,7 @@ EAPHost 記錄中不會捕捉網路原則伺服器 (NPS) 失敗。 如果您嘗�
 
      
 
-## <a name="tracing-on-the-authenticator"></a>驗證器上的追蹤
+## <a name="tracing-on-the-authenticator"></a>Authenticator 上的追蹤
 
 若要啟用驗證器端的追蹤：
 

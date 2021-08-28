@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fb8112eafec018b12012d20b37bfe30f7b464377
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2e853d5a13c40316341c0759899e06e7292c006c00068a1b527e5035ff10422b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990998"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119506208"
 ---
 # <a name="iwmpcontrols3getaudiolanguageid-method"></a>IWMPControls3：： getAudioLanguageID 方法
 
@@ -68,7 +68,7 @@ Implements IWMPControls3.getAudioLanguageID
 
 LCID 可唯一識別特定語言方言，稱為地區設定。
 
-針對以 Windows Media 為基礎的內容，與語言選取相關的屬性和方法只支援單一輸出。
+針對 Windows 媒體型內容，與語言選取相關的屬性和方法只支援單一輸出。
 
 使用 **audioLanguageCount** 屬性來取得支援的音訊語言數目，然後使用以一為基礎的索引個別存取音訊語言。
 

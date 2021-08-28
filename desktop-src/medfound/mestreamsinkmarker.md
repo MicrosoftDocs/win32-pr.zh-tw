@@ -4,12 +4,12 @@ ms.assetid: 40f68352-86e5-4864-9ca0-f30998857fef
 title: 'MEStreamSinkMarker 事件 (Mfobjects) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 071d6e5b25873739c176d1c808929c26e1e338bf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fd6866e8ef1633e4c743d466bb261e194c6ae7253924e34e8c30501b092f415a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103691824"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119228608"
 ---
 # <a name="mestreamsinkmarker-event"></a>MEStreamSinkMarker 事件
 
@@ -21,7 +21,7 @@ ms.locfileid: "103691824"
 
 
 
-| VARTYPE            | Description                                                                                                                                                                                           |
+| VARTYPE            | 描述                                                                                                                                                                                           |
 |--------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | >任何<br/> | 事件值是呼叫端在 [**PlaceMarker**](/windows/desktop/api/mfidl/nf-mfidl-imfstreamsink-placemarker)方法的 *pvarCoNtextValue* 參數中指定的 **PROPVARIANT** 複本。<br/> <br/> |
 
@@ -33,8 +33,8 @@ ms.locfileid: "103691824"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                                     |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                                     |
 | 標頭<br/>                   | <dl> <dt>Mfobjects (包含 Mfidl) </dt> </dl> |
 
 

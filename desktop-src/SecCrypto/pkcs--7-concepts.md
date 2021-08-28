@@ -4,12 +4,12 @@ ms.assetid: 99b633fe-9898-4570-ba8b-16ee78d351da
 title: PKCS \# 7 密碼編譯訊息語法概念
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5ead1c5e75737db80adbca725a30cb730b547be4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d218fea2aecebb6ccdbd8e7bbf1d63aa897e48f4bb2a20eb4a22f14cca2c1b27
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106984996"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117978984"
 ---
 # <a name="pkcs-7-cryptographic-messaging-syntax-concepts"></a>PKCS \# 7 密碼編譯訊息語法概念
 
@@ -28,7 +28,7 @@ PKCS 7 標準中定義的內容類型如下所示 \# 。
 
 
 
-| 內容類型              | Description                                                                                                                                                                                                                                                                                                           |
+| 內容類型              | 描述                                                                                                                                                                                                                                                                                                           |
 |---------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 資料                      | 八位 (**位元組**) 字串。                                                                                                                                                                                                                                                                                           |
 | 簽署的資料               | 任何類型和加密訊息 [*雜湊*](../secgloss/h-gly.md) 的內容 () 或多個簽署者的內容 [*摘要*](../secgloss/m-gly.md) 。                                                                           |

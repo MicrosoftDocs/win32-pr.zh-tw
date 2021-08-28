@@ -18,12 +18,12 @@ api_type:
 - Schema
 api_location:
 - All
-ms.openlocfilehash: 3634b632fa9ab66f0da3e48bf77fab5875daf12c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a5561f7cdb0bcb434ae43fb393e39b3edba47987f47b15583702d96bdb3ded7b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106977956"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119732948"
 ---
 # <a name="__classmodificationevent-class"></a>\_\_ClassModificationEvent 類別
 

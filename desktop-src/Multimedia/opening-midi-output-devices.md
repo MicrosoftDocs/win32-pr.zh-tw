@@ -13,12 +13,12 @@ keywords:
 - 開啟 MIDI 輸出裝置
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9ca7a7e1db461b29700ec7c7c61ee140073bc345
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: b0976e265fe253d02bc9662e6ea9b376d5acc4b5fd9f62e56642b56df53ce135
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104463068"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118136707"
 ---
 # <a name="opening-midi-output-devices"></a>開啟 MIDI 輸出裝置
 
@@ -26,6 +26,6 @@ ms.locfileid: "104463068"
 
 **MidiOutOpen** 的其中一個參數是雙值。 這個值會指定視窗或執行緒控制碼、事件控制碼或回呼函式的位址，用來監視 MIDI 系統專屬資料和資料流程緩衝區的播放進度。 監視可讓應用程式判斷何時傳送額外的資料區塊，以及何時釋放已傳送的資料區塊。 如需這些方法的詳細資訊，請參閱 [管理 MIDI 資料區塊](managing-midi-data-blocks.md)。
 
- 
+ 
 
- 
+ 

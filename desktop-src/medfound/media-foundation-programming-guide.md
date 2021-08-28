@@ -4,12 +4,12 @@ ms.assetid: 5258b2ff-96d5-490f-9a18-c01dd6924f1c
 title: 媒體基礎程式設計指南
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7ffc8e0d9197f3a9528a6586cb4ddc8da9a3a45f
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 281cc30c84f422e5ba620be977b338bd6a11282d805ba50539d99e530363d5f0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104195726"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120114128"
 ---
 # <a name="media-foundation-programming-guide"></a>媒體基礎程式設計指南
 

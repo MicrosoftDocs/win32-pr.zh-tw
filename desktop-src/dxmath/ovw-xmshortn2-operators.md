@@ -4,12 +4,12 @@ ms.assetid: 69918b19-3dde-4c12-84f3-caac4f3e3c11
 title: XMSHORTN2 運算子
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 70c2b122f5d18eece33a8b175106b248e2358edc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f44a91df2b5e11ecd9623f4bada796c41309234bfbd01726e26a2545caa97af8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848484"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118088015"
 ---
 # <a name="xmshortn2-operators"></a>XMSHORTN2 運算子
 

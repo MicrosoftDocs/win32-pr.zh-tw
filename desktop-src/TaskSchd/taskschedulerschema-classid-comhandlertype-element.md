@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: c89af2f39ae6a4a529fe7a728cf4b821245aa034
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d2729226320758f93140e1d4073286fba02f446d34f9eb9c36caf931b7190e4c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466989"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119402118"
 ---
 # <a name="classid-comhandlertype-element"></a> (comHandlerType) 元素的 ClassId
 
@@ -36,7 +36,7 @@ ms.locfileid: "104466989"
 
 
 
-| 元素                                                                  | 衍生自                                                             | Description                                          |
+| 元素                                                                  | 衍生自                                                             | 描述                                          |
 |--------------------------------------------------------------------------|--------------------------------------------------------------------------|------------------------------------------------------|
 | [**ComHandler**](taskschedulerschema-comhandler-actiongroup-element.md) | [**comHandlerType**](taskschedulerschema-comhandlertype-complextype.md) | 指定引發處理常式的動作。<br/> |
 
@@ -52,8 +52,8 @@ ms.locfileid: "104466989"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

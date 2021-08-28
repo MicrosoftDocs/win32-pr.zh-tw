@@ -17,12 +17,12 @@ api_type:
 - Schema
 api_location:
 - All
-ms.openlocfilehash: 6e23f909718167760c02bbdb38e2a075d04bc516
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c11895fd9957c7bed8b1a62140420c8a8bcc86a1337c189ab2a52520c0a5cf24
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106994503"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117926196"
 ---
 # <a name="__namespacedeletionevent-class"></a>\_\_NamespaceDeletionEvent 類別
 

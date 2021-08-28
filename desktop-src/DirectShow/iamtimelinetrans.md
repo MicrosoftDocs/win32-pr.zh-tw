@@ -1,5 +1,5 @@
 ---
-description: IAMTimelineTrans 介面提供在 (DES) 的 DirectShow 編輯服務中操作轉換的方法。
+description: IAMTimelineTrans 介面提供在 DirectShow 編輯服務 (DES) 中操作轉換的方法。
 ms.assetid: e29ff0cc-0e48-4a72-8a1b-051ed62c8130
 title: 'IAMTimelineTrans 介面 (Qedit .h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: cd3c39d0a5434befdd5607b340fef936644bf48e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 28d7fd409c3ab377393f6c70359d0f6a0a07a3e14c64a77acb2912d9863c6d13
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995496"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117998721"
 ---
 # <a name="iamtimelinetrans-interface"></a>IAMTimelineTrans 介面
 
@@ -69,7 +69,7 @@ DES 轉換物件實際上是 DirectX 轉換物件的包裝函式。 任何2輸�
  
 
 > [!Note]  
-> 若要取得 Qedit，請下載 [適用于 Windows Vista 和 .NET Framework 3.0 的 Microsoft Windows SDK 更新](https://msdn.microsoft.com/windowsvista/bb980924.aspx)。 在 Windows 7 和 .NET Framework 3.5 Service Pack 1 的 Microsoft Windows SDK 中無法使用 Qedit。
+> 若要取得 Qedit，請下載[Windows Vista 和 .NET Framework 3.0 的 Microsoft Windows SDK 更新](https://msdn.microsoft.com/windowsvista/bb980924.aspx)。 Windows 7 和 .NET Framework 3.5 Service Pack 1 的 Microsoft Windows SDK 中無法使用 Qedit。
 
  
 

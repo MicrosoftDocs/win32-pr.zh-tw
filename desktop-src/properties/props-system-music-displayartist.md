@@ -4,12 +4,12 @@ ms.assetid: E31B5734-1A15-42f3-BD4A-80B58E94BAD3
 title: DisplayArtist
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eac3637e6846800f272712ba6658e197816b9b48
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 12a6900815a9fecf231c9af98542b08771080b34552ba35a99cd9a6ad2036d9d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026674"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119774618"
 ---
 # <a name="systemmusicdisplayartist"></a>DisplayArtist
 

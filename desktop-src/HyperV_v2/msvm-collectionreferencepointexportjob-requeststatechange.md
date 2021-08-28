@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 84956e206654de022c3151aa5a442651f9c2375a
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 205eb26a7d34c34d966ed0026afd03e8af4f4bbd8c8455742225fe664f4bd460
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108119236"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119431518"
 ---
 # <a name="requeststatechange-method-of-the-msvm_collectionreferencepointexportjob-class"></a>Msvm CollectionReferencePointExportJob 類別的 RequestStateChange 方法 \_
 

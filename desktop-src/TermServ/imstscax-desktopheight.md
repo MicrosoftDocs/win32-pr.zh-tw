@@ -64,12 +64,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fb75467b35703420ce49fd99ea032b139d721505
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c4e55d5a1f529435f0cdf6db3dcf801e7f24dda1a69e0bc1cad393942b672d4a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934661"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119513098"
 ---
 # <a name="imstscaxdesktopheight-property"></a>IMsTscAx：:D esktopHeight 屬性
 
@@ -102,7 +102,7 @@ HRESULT get_DesktopHeight(
 
 ## <a name="remarks"></a>備註
 
-設定 **DesktopHeight** 屬性是選擇性的，但必須在呼叫 [**Connect**](imstscax-connect.md) 方法之前設定。 如果未指定桌面高度，或設定為零，則會將桌面高度設定為控制項的高度。 最小值和最大值取決於遠端桌面用戶端的作業系統版本。
+設定 **DesktopHeight** 屬性是選擇性的，但必須先設定，才能呼叫 [**連線**](imstscax-connect.md)方法。 如果未指定桌面高度，或設定為零，則會將桌面高度設定為控制項的高度。 最小值和最大值取決於遠端桌面用戶端的作業系統版本。
 
 <dl> <dt>
 

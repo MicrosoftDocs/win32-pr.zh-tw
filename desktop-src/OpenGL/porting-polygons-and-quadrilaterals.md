@@ -17,12 +17,12 @@ keywords:
 - 多邊形，從鳶尾花 GL 進行移植
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7900b44051cab9590be11198c8b01af0b7c10244
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: 90cc911c8649815ea7d232d1e6e9c6a24ff495d551c7e70032392c0c045b0d87
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107908456"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118132358"
 ---
 # <a name="porting-polygons-and-quadrilaterals"></a>移植多邊形和 Quadrilaterals
 

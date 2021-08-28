@@ -4,16 +4,16 @@ ms.assetid: c5567672-54f0-45d6-81d2-5a501a33c25f
 title: 'ITMedia：： get_MediaTitle 方法 (Sdpblb .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 59f2ec4bf16fc27c23277113ee13c8fe02f89c6e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 83e81dc2c04ee31c3c501c511c3f3bb11cc85aa90dad26e18880692ee360ffac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106989812"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119406058"
 ---
 # <a name="itmediaget_mediatitle-method"></a>ITMedia：： get \_ MediaTitle 方法
 
-\[ 在 Windows Vista、Windows Server 2008 和後續版本的作業系統中，無法使用會合 IP 電話語音會議控制項和介面。 RTC 用戶端 API 提供類似的功能。\]
+\[Windows Vista、Windows Server 2008 及後續版本的作業系統無法使用會合 IP 電話語音會議控制項和介面。 RTC 用戶端 API 提供類似的功能。\]
 
 **Get \_ MediaTitle** 方法會抓取媒體的文字標題，讓應用程式用來提供資訊或顯示用途。 如果字元集是 ASCII，則這必須是 ASCII 可轉換字串。 否則，它可以是任何 **BSTR** 字串。
 
@@ -45,7 +45,7 @@ HRESULT get_MediaTitle(
 
 
 
-| 傳回碼                                                                                   | Description                                                     |
+| 傳回碼                                                                                   | 描述                                                     |
 |-----------------------------------------------------------------------------------------------|-----------------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>          | 方法成功。<br/>                                    |
 | <dl> <dt>**E \_ 指標**</dt> </dl>     | *PpMediaTitle* 參數不是有效的指標。<br/> |

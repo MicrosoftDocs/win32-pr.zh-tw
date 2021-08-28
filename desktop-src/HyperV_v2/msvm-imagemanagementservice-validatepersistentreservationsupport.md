@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 596e5cf840ee65dc0b3ad5315462db4666c8b262
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 36f1384ca9b56c24a40925a08fb87595fd57acef3e50c1d5d09593d9cfd7f545
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943534"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118147720"
 ---
 # <a name="validatepersistentreservationsupport-method-of-the-msvm_imagemanagementservice-class"></a>Msvm ImageManagementService 類別的 ValidatePersistentReservationSupport 方法 \_
 

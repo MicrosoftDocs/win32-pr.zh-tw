@@ -5,12 +5,12 @@ ms.assetid: 8a68fc3f-118c-447b-856c-05417ae4ef29
 ms.topic: article
 ms.date: 05/31/2018
 ms.custom: seodec18
-ms.openlocfilehash: 93d8f3a3ddeb06c9168971789dff3ac8c9222d22
-ms.sourcegitcommit: adba238660d8a5f4fe98fc6f5d105d56aac3a400
+ms.openlocfilehash: d072d6f43467aab9230796bfb24139630995e3f525c7e86a0c5e179ddd82048e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "111826997"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118003721"
 ---
 # <a name="how-to-draw-and-fill-a-basic-shape"></a>如何繪製和填滿基本圖形
 

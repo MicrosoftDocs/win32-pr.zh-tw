@@ -7,12 +7,12 @@ keywords:
 - 用戶端，以文字為基礎的控制項
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ae7013428b471f0c82483e5bf9de9ac412ab7d5d
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: 5322875d76cb1f2dfe8fc421de85790cee1c4f0c0970212e6f6624b28a1aa51f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "104383373"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117928501"
 ---
 # <a name="handling-text-related-events"></a>處理文字相關事件
 

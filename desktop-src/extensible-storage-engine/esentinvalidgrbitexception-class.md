@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 11946c1dc7904ad2933d59e0ce95fddc3c4e4363
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 73601839de9d76ee424945cc5291f30111dbb0052ba7713aa3ffc3b27b41bbb9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103851991"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119735108"
 ---
 # <a name="esentinvalidgrbitexception-class"></a>EsentInvalidGrbitException 類別
 

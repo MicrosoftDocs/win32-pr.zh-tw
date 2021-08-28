@@ -14,12 +14,12 @@ dev_langs:
 - JScript
 - VB
 - other
-ms.openlocfilehash: 0aa0e8ecffe404589e9e07c2529668fcdcf86274
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ca42a48103f35621f506469511ca49c25026030cb8d4c70e5d467970c6ffcd8c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104562865"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118083867"
 ---
 # <a name="columnstreammemberwiseclone-method"></a>ColumnStream. MemberwiseClone 方法
 
@@ -32,7 +32,7 @@ ms.locfileid: "104562865"
 <thead>
 <tr class="header">
 <th> </th>
-<th>Name</th>
+<th>名稱</th>
 <th>描述</th>
 </tr>
 </thead>

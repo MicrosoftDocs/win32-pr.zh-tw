@@ -4,12 +4,12 @@ ms.assetid: 6bfe4852-4029-4dd4-92ad-3061618b1b23
 title: COM + 事件概念
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 811dbca17c4e90ba5e8c2bcb8c918ce6634487e5
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 0aeccbb375f7858ce49fe7362a5612e5ac8635711cde3acd127166be7db07ba6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103689220"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118103098"
 ---
 # <a name="com-events-concepts"></a>COM + 事件概念
 
