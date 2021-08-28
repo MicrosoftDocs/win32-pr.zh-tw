@@ -4,12 +4,12 @@ ms.assetid: 4d4c768f-b76a-40ca-8736-2f592a4f4cc4
 title: H.264 影片編碼器
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 04d1c1c8af4487d02cbb8405ebf341458424074a3d8c3cae53bff4207f73490c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 875974c53be265fbcace8cf99e2bdd78d69cdda5
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117879092"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122467525"
 ---
 # <a name="h264-video-encoder"></a>H.264 影片編碼器
 
@@ -48,61 +48,19 @@ H.264 video 編碼器會公開下列介面：
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>屬性</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="mf-mt-major-type-attribute.md"><strong>MF_MT_MAJOR_TYPE</strong></a></td>
-<td>主要類型。 必須是 <strong>MFMediaType_Video</strong>。</td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-subtype-attribute.md"><strong>MF_MT_SUBTYPE</strong></a></td>
-<td>影片子類型。 必須是 <strong>MFVideoFormat_H264</strong>。</td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-avg-bitrate-attribute.md"><strong>MF_MT_AVG_BITRATE</strong></a></td>
-<td>平均編碼的位速度，以位/秒為單位。 必須大於零。</td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-frame-rate-attribute.md"><strong>MF_MT_FRAME_RATE</strong></a></td>
-<td>畫面播放速率。</td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-frame-size-attribute.md"><strong>MF_MT_FRAME_SIZE</strong></a></td>
-<td>框架大小。</td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-interlace-mode-attribute.md"><strong>MF_MT_INTERLACE_MODE</strong></a></td>
-<td>交錯模式。</td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-mpeg2-profile-attribute.md"><strong>MF_MT_MPEG2_PROFILE</strong></a></td>
-<td>H.264 編碼設定檔。<br/> 支援的值為：<br/>
-<ul>
-<li><strong>eAVEncH264VProfile_Base</strong> (預設) </li>
-<li><strong>eAVEncH264VProfile_Main</strong></li>
-<li><strong>eAVEncH264VProfile_High</strong> (需要 Windows 8) </li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-mpeg2-level-attribute.md"><strong>MF_MT_MPEG2_LEVEL</strong></a></td>
-<td>選擇性。 指定 h.264 編碼層級。<br/> 預設值為–1，表示編碼器將選取編碼層級。<br/> 建議不要設定媒體類型中的層級，並允許編碼器選取層級。 編碼器可以針對指定的影片串流衍生適當的層級，並考慮影片的格式限制和特性。 如需有關設定檔和層級條件約束的詳細資訊，請參閱 ITU-T H. h.264 的附錄 A。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-pixel-aspect-ratio-attribute.md"><strong>MF_MT_PIXEL_ASPECT_RATIO</strong></a></td>
-<td>選擇性。 指定圖元外觀比例。 預設值為1:1。</td>
-</tr>
-</tbody>
-</table>
+
+| 屬性 | 描述 | 
+|-----------|-------------|
+| <a href="mf-mt-major-type-attribute.md"><strong>MF_MT_MAJOR_TYPE</strong></a> | 主要類型。 必須是 <strong>MFMediaType_Video</strong>。 | 
+| <a href="mf-mt-subtype-attribute.md"><strong>MF_MT_SUBTYPE</strong></a> | 影片子類型。 必須是 <strong>MFVideoFormat_H264</strong>。 | 
+| <a href="mf-mt-avg-bitrate-attribute.md"><strong>MF_MT_AVG_BITRATE</strong></a> | 平均編碼的位速度，以位/秒為單位。 必須大於零。 | 
+| <a href="mf-mt-frame-rate-attribute.md"><strong>MF_MT_FRAME_RATE</strong></a> | 畫面播放速率。 | 
+| <a href="mf-mt-frame-size-attribute.md"><strong>MF_MT_FRAME_SIZE</strong></a> | 框架大小。 | 
+| <a href="mf-mt-interlace-mode-attribute.md"><strong>MF_MT_INTERLACE_MODE</strong></a> | 交錯模式。 | 
+| <a href="mf-mt-mpeg2-profile-attribute.md"><strong>MF_MT_MPEG2_PROFILE</strong></a> | H.264 編碼設定檔。<br /> 支援的值為：<br /><ul><li><strong>eAVEncH264VProfile_Base</strong> (預設) </li><li><strong>eAVEncH264VProfile_Main</strong></li><li><strong>eAVEncH264VProfile_High</strong> (需要 Windows 8) </li></ul> | 
+| <a href="mf-mt-mpeg2-level-attribute.md"><strong>MF_MT_MPEG2_LEVEL</strong></a> | 選擇性。 指定 h.264 編碼層級。<br /> 預設值為–1，表示編碼器將選取編碼層級。<br /> 建議不要設定媒體類型中的層級，並允許編碼器選取層級。 編碼器可以針對指定的影片串流衍生適當的層級，並考慮影片的格式限制和特性。 如需有關設定檔和層級條件約束的詳細資訊，請參閱 ITU-T H. h.264 的附錄 A。<br /> | 
+| <a href="mf-mt-pixel-aspect-ratio-attribute.md"><strong>MF_MT_PIXEL_ASPECT_RATIO</strong></a> | 選擇性。 指定圖元外觀比例。 預設值為1:1。 | 
+
 
 
 
@@ -133,97 +91,25 @@ Windows 7 支援下列屬性。
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>屬性</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="codecapi-avencadaptivemode.md">CODECAPI_AVEncAdaptiveMode</a></td>
-<td>設定適應性編碼模式。 在 Windows 8 中，h.264 編碼器支援下列模式：
-<ul>
-<li><strong>eAVEncAdaptiveMode_None</strong>。 無適應性編碼。 (預設值。)</li>
-<li><strong>eAVEncAdaptiveMode_FrameRate</strong>。 自我調整變更畫面播放速率。</li>
-</ul>
-<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/DirectShow/avenccommonbuffersize-property">CODECAPI_AVEncCommonBufferSize</a></td>
-<td>以位元組為單位，設定常數速率的緩衝區大小（以位元組為單位） (CBR) 編碼。<br/> 有效範圍為 [1 .。。2³²-1]。 <br/> 需要 Windows 8。 <br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/DirectShow/avenccommonmaxbitrate-property">CODECAPI_AVEncCommonMaxBitRate</a></td>
-<td>針對 [受條件約束的 VBR 編碼]，指定 &quot; 有漏洞 bucket 的清空速率 &quot; （以每秒位數為單位）。 當速率控制模式 <strong>eAVEncCommonRateControlMode_PeakConstrainedVBR</strong>時，就會套用此屬性。 <br/> 有效範圍為 [1 .。。2³²-1]。 <br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/DirectShow/avenccommonmeanbitrate-property">CODECAPI_AVEncCommonMeanBitRate</a></td>
-<td>設定編碼位資料流程的平均位元速率，以每秒位數為單位。 如果 <strong>eAVEncCommonRateControlMode_Quality</strong>的速率控制模式，則會忽略這個屬性。 <br/> 有效範圍為 [1 .。。2³²-1]。 <br/> 在 CBR 和未受限制的 VBR 模式中，平均位元速率會決定檔案的最終大小。 在 CBR 模式中，平均位元速率也是壓縮的位從有漏洞值區中排出的速率 &quot; 。 &quot; (如需詳細資訊，請參閱 <a href="the-leaky-bucket-buffer-model.md">有漏洞 bucket 緩衝區模型</a>。 )  <br/> 在 Windows 7 中，平均位元速率是由媒體類型上的<a href="mf-mt-avg-bitrate-attribute.md">MF_MT_AVG_BITRATE</a>屬性所指定。 <br/> 在 Windows 8 中，您可以使用<a href="mf-mt-avg-bitrate-attribute.md">MF_MT_AVG_BITRATE</a>屬性或<a href="/windows/desktop/DirectShow/avenccommonmeanbitrate-property">CODECAPI_AVEncCommonMeanBitRate</a>屬性來設定平均位元速率。 如果兩者都已設定，CODECAPI_AVEncCommonMeanBitRate 覆寫。 在 Windows 8 中，您可以設定編碼期間的平均位元速率。 如果位元速率有所變更，則編碼器會使用適應性編碼。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/DirectShow/avenccommonqualityvsspeed-property">CODECAPI_AVEncCommonQualityVsSpeed</a></td>
-<td>設定品質/速度的取捨。 有效範圍：
-<ul>
-<li>0-33：低複雜度</li>
-<li>34–66：中等複雜度 (預設) </li>
-<li>67–100：高複雜度</li>
-</ul>
-<br/> 此值會影響編碼器執行各種編碼作業（例如動作補償）的方式。 在較高的複雜性層級中，編碼器的執行速度會更慢，但以相同的位元速率產生更高的品質。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="codecapi-avench264cabacenable.md">CODECAPI_AVEncH264CABACEnable</a></td>
-<td>啟用或停用 CABAC (內容自我調整二進位算術編碼) 適用于 h.264 熵編碼。 預設值為 <strong>VARIANT_FALSE</strong>。 <br/> CABAC 不會用於基準設定檔。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="codecapi-avench264spsid.md">CODECAPI_AVEncH264SPSID</a></td>
-<td>將 NAL 的 <strong>seq_parameter_set_id</strong> 值設定在 h.264 位流的 SPS 單位中。 <br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/DirectShow/avencmpvdefaultbpicturecount-property">CODECAPI_AVEncMPVDefaultBPictureCount</a></td>
-<td>設定輸出位流中連續 B 框架的最大數目。 有效值為：
-<ul>
-<li>0：請勿使用 B 框架 (預設) 。</li>
-<li>1：使用一個 B 框架。</li>
-<li>2：使用兩個 B 框架。</li>
-</ul>
-若要設定此參數，請在呼叫 <a href="/windows/desktop/api/mftransform/nf-mftransform-imftransform-setoutputtype"><strong>IMFTransform：： SetOutputType</strong></a>之前設定屬性。 <br/> 針對基準設定檔，B 框架的數目一律為零。 編碼器將覆寫非零值。<br/> 針對其他 h.264 設定檔，如果此屬性為非零，則會 IBBPBBP 編碼模式，其中連續 B 框架的最大數目等於 <a href="/windows/desktop/DirectShow/avencmpvdefaultbpicturecount-property">CODECAPI_AVEncMPVDefaultBPictureCount</a>。 <br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/DirectShow/avencmpvgopsize-property">CODECAPI_AVEncMPVGOPSize</a></td>
-<td>將每個 GOP 標頭的圖片數目設定為下一個，包括前置錨點，但不包括下列各項。 <br/> 有效範圍是 [0 .。。2³²-1]。 如果為零，則編碼器會選取 GOP 大小。 預設值為零。 <br/></td>
-</tr>
-<tr class="even">
-<td><a href="codecapi-avencnumworkerthreads.md">CODECAPI_AVEncNumWorkerThreads</a></td>
-<td>設定編碼器所使用的背景工作執行緒數目。<br/> 有效範圍為0到16。 如果為零，則編碼器會選取執行緒的數目。 <br/></td>
-</tr>
-<tr class="odd">
-<td><a href="codecapi-avencvideocontenttype.md">CODECAPI_AVEncVideoContentType</a></td>
-<td>表示影片內容的類型。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="codecapi-avencvideoencodeqp.md">CODECAPI_AVEncVideoEncodeQP</a></td>
-<td>有效範圍：16–51。 預設值為24。 <br/> 當速率控制模式 <strong>eAVEncCommonRateControlMode_Quality</strong>時，就會套用此屬性。 <br/> 這個屬性會設定與 <a href="/windows/desktop/DirectShow/avenccommonquality-property"><strong>AVEncCommonQuality</strong></a>相同的編碼設定。 但是， <a href="codecapi-avencvideoencodeqp.md">AVEncVideoEncodeQP</a> 可讓應用程式直接指定 QP 的值。 如果同時設定這兩個屬性，則 AVEncVideoEncodeQP 覆寫。 <br/> 預設值24對應于 <a href="/windows/desktop/DirectShow/avenccommonquality-property"><strong>AVEncCommonQuality</strong></a> 設定的預設值70。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="codecapi-avencvideoforcekeyframe.md">CODECAPI_AVEncVideoForceKeyFrame</a></td>
-<td>強制編碼器將下一個畫面格編碼為主要畫面格。<br/></td>
-</tr>
-<tr class="even">
-<td><a href="codecapi-avencvideominqp.md">CODECAPI_AVEncVideoMinQP</a></td>
-<td>有效範圍：0到51。 預設值為 0。 <br/> 這個屬性會套用至所有速率控制模式。 編碼器不應產生小於 <a href="codecapi-avencvideominqp.md">CODECAPI_AVEncVideoMinQP</a> 屬性指定的值。<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="codecapi-avlowlatencymode.md">CODECAPI_AVLowLatencyMode</a></td>
-<td>啟用或停用低延遲模式。 請參閱「 &quot; &quot; 備註」一節中的多執行緒。<br/></td>
-</tr>
-</tbody>
-</table>
+
+| 屬性 | 描述 | 
+|----------|-------------|
+| <a href="codecapi-avencadaptivemode.md">CODECAPI_AVEncAdaptiveMode</a> | 設定適應性編碼模式。 在 Windows 8 中，h.264 編碼器支援下列模式：<ul><li><strong>eAVEncAdaptiveMode_None</strong>。 無適應性編碼。 (預設值。)</li><li><strong>eAVEncAdaptiveMode_FrameRate</strong>。 自我調整變更畫面播放速率。</li></ul><br /> | 
+| <a href="/windows/desktop/DirectShow/avenccommonbuffersize-property">CODECAPI_AVEncCommonBufferSize</a> | 以位元組為單位，設定常數速率的緩衝區大小（以位元組為單位） (CBR) 編碼。<br /> 有效範圍為 [1 .。。2³²-1]。 <br /> 需要 Windows 8。 <br /> | 
+| <a href="/windows/desktop/DirectShow/avenccommonmaxbitrate-property">CODECAPI_AVEncCommonMaxBitRate</a> | 針對「限制的 VBR 編碼」，會指定「有漏洞 bucket」的清空速率（以每秒位數為單位）。 當速率控制模式 <strong>eAVEncCommonRateControlMode_PeakConstrainedVBR</strong>時，就會套用此屬性。 <br /> 有效範圍為 [1 .。。2³²-1]。 <br /> | 
+| <a href="/windows/desktop/DirectShow/avenccommonmeanbitrate-property">CODECAPI_AVEncCommonMeanBitRate</a> | 設定編碼位資料流程的平均位元速率，以每秒位數為單位。 如果 <strong>eAVEncCommonRateControlMode_Quality</strong>的速率控制模式，則會忽略這個屬性。 <br /> 有效範圍為 [1 .。。2³²-1]。 <br /> 在 CBR 和未受限制的 VBR 模式中，平均位元速率會決定檔案的最終大小。 在 CBR 模式中，平均位元速率也是壓縮的位從「有漏洞 bucket」中清空的速率。  (需詳細資訊，請參閱 <a href="the-leaky-bucket-buffer-model.md">有漏洞 Bucket 緩衝區模型</a>。 )  <br /> 在 Windows 7 中，平均位元速率是由媒體類型上的<a href="mf-mt-avg-bitrate-attribute.md">MF_MT_AVG_BITRATE</a>屬性所指定。 <br /> 在 Windows 8 中，您可以使用<a href="mf-mt-avg-bitrate-attribute.md">MF_MT_AVG_BITRATE</a>屬性或<a href="/windows/desktop/DirectShow/avenccommonmeanbitrate-property">CODECAPI_AVEncCommonMeanBitRate</a>屬性來設定平均位元速率。 如果兩者都已設定，CODECAPI_AVEncCommonMeanBitRate 覆寫。 在 Windows 8 中，您可以設定編碼期間的平均位元速率。 如果位元速率有所變更，則編碼器會使用適應性編碼。<br /> | 
+| <a href="/windows/desktop/DirectShow/avenccommonqualityvsspeed-property">CODECAPI_AVEncCommonQualityVsSpeed</a> | 設定品質/速度的取捨。 有效範圍：<ul><li>0-33：低複雜度</li><li>34–66：中等複雜度 (預設) </li><li>67–100：高複雜度</li></ul><br /> 此值會影響編碼器執行各種編碼作業（例如動作補償）的方式。 在較高的複雜性層級中，編碼器的執行速度會更慢，但以相同的位元速率產生更高的品質。<br /> | 
+| <a href="codecapi-avench264cabacenable.md">CODECAPI_AVEncH264CABACEnable</a> | 啟用或停用 CABAC (內容自我調整二進位算術編碼) 適用于 h.264 熵編碼。 預設值為 <strong>VARIANT_FALSE</strong>。 <br /> CABAC 不會用於基準設定檔。<br /> | 
+| <a href="codecapi-avench264spsid.md">CODECAPI_AVEncH264SPSID</a> | 將 NAL 的 <strong>seq_parameter_set_id</strong> 值設定在 h.264 位流的 SPS 單位中。 <br /> | 
+| <a href="/windows/desktop/DirectShow/avencmpvdefaultbpicturecount-property">CODECAPI_AVEncMPVDefaultBPictureCount</a> | 設定輸出位流中連續 B 框架的最大數目。 有效值為：<ul><li>0：請勿使用 B 框架 (預設) 。</li><li>1：使用一個 B 框架。</li><li>2：使用兩個 B 框架。</li></ul>若要設定此參數，請在呼叫 <a href="/windows/desktop/api/mftransform/nf-mftransform-imftransform-setoutputtype"><strong>IMFTransform：： SetOutputType</strong></a>之前設定屬性。 <br /> 針對基準設定檔，B 框架的數目一律為零。 編碼器將覆寫非零值。<br /> 針對其他 h.264 設定檔，如果此屬性為非零，則會 IBBPBBP 編碼模式，其中連續 B 框架的最大數目等於 <a href="/windows/desktop/DirectShow/avencmpvdefaultbpicturecount-property">CODECAPI_AVEncMPVDefaultBPictureCount</a>。 <br /> | 
+| <a href="/windows/desktop/DirectShow/avencmpvgopsize-property">CODECAPI_AVEncMPVGOPSize</a> | 將每個 GOP 標頭的圖片數目設定為下一個，包括前置錨點，但不包括下列各項。 <br /> 有效範圍是 [0 .。。2³²-1]。 如果為零，則編碼器會選取 GOP 大小。 預設值為零。 <br /> | 
+| <a href="codecapi-avencnumworkerthreads.md">CODECAPI_AVEncNumWorkerThreads</a> | 設定編碼器所使用的背景工作執行緒數目。<br /> 有效範圍為0到16。 如果為零，則編碼器會選取執行緒的數目。 <br /> | 
+| <a href="codecapi-avencvideocontenttype.md">CODECAPI_AVEncVideoContentType</a> | 表示影片內容的類型。<br /> | 
+| <a href="codecapi-avencvideoencodeqp.md">CODECAPI_AVEncVideoEncodeQP</a> | 有效範圍：16–51。 預設值為24。 <br /> 當速率控制模式 <strong>eAVEncCommonRateControlMode_Quality</strong>時，就會套用此屬性。 <br /> 這個屬性會設定與 <a href="/windows/desktop/DirectShow/avenccommonquality-property"><strong>AVEncCommonQuality</strong></a>相同的編碼設定。 但是， <a href="codecapi-avencvideoencodeqp.md">AVEncVideoEncodeQP</a> 可讓應用程式直接指定 QP 的值。 如果同時設定這兩個屬性，則 AVEncVideoEncodeQP 覆寫。 <br /> 預設值24對應于 <a href="/windows/desktop/DirectShow/avenccommonquality-property"><strong>AVEncCommonQuality</strong></a> 設定的預設值70。<br /> | 
+| <a href="codecapi-avencvideoforcekeyframe.md">CODECAPI_AVEncVideoForceKeyFrame</a> | 強制編碼器將下一個畫面格編碼為主要畫面格。<br /> | 
+| <a href="codecapi-avencvideominqp.md">CODECAPI_AVEncVideoMinQP</a> | 有效範圍：0到51。 預設值為 0。 <br /> 這個屬性會套用至所有速率控制模式。 編碼器不應產生小於 <a href="codecapi-avencvideominqp.md">CODECAPI_AVEncVideoMinQP</a> 屬性指定的值。<br /> | 
+| <a href="codecapi-avlowlatencymode.md">CODECAPI_AVLowLatencyMode</a> | 啟用或停用低延遲模式。 請參閱「備註」一節中的「多執行緒」。<br /> | 
+
 
 
 

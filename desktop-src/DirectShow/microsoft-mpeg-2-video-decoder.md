@@ -4,19 +4,19 @@ ms.assetid: d8195c3a-97ac-4ad1-a097-18878c8fda6f
 title: 'Microsoft MPEG-2 影片解碼 (Wmcodecdsp .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8460b5b554fffc8f0dd8679810e5ef3f42bcb004
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 4afdd9609124ba1057f597c4b7a907654c62a321
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104385609"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122982191"
 ---
 # <a name="microsoft-mpeg-2-video-decoder"></a>Microsoft MPEG-2 影片解碼
 
 此篩選器會將 MPEG-2、MPEG-2、h.264 video 解碼。
 
 > [!Note]  
-> 對 h.264 video 進行解碼需要 Windows 7。
+> 將 h.264 video 解碼需要 Windows 7。
 
  
 
@@ -135,34 +135,14 @@ msmpeg2vdec.dll
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>設定檔/層級</td>
-<td>下列設定檔和層級的任意組合：<br/>
-<ul>
-<li>設定檔：簡單、主要</li>
-<li>層級：低、主要、高、高1440</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>色度格式</td>
-<td>4:2:0 色度</td>
-</tr>
-<tr class="odd">
-<td>最大解析度</td>
-<td>1920×1088圖元</td>
-</tr>
-<tr class="even">
-<td>DXVA</td>
-<td>此解碼器支援 DirectX Video 加速 (DXVA) 第1版和第2版。</td>
-</tr>
-</tbody>
-</table>
+
+| 標籤 | 值 |
+|--------|-------|
+| 設定檔/層級 | 下列設定檔和層級的任意組合：<br /><ul><li>設定檔：簡單、主要</li><li>層級：低、主要、高、高1440</li></ul> | 
+| 色度格式 | 4:2:0 色度 | 
+| 最大解析度 | 1920×1088圖元 | 
+| DXVA | 此解碼器支援 DirectX Video 加速 (DXVA) 第1版和第2版。 | 
+
 
 
 
@@ -240,7 +220,7 @@ msmpeg2vdec.dll
 
 | 需求 | 值 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows Vista Home Premium、Windows Vista 旗艦版、Windows 7 Home Premium、Windows 7 Professional、Windows 7 企業版、僅限 Windows 7 旗艦版傳統型 \[ 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windowsvista Home 進階版、Windows vista 旗艦版、Windows 7 家用進階版、Windows 7 專業版、Windows 7 企業版 Windows 7 旗艦版 \[ 桌面應用程式\]<br/> |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                                                                                                     |
 | 標頭<br/>                   | <dl> <dt>Wmcodecdsp。h</dt> </dl>                                                                                       |
 
@@ -250,7 +230,7 @@ msmpeg2vdec.dll
 
 <dl> <dt>
 
-[DirectShow 篩選](directshow-filters.md)
+[DirectShow過濾 器](directshow-filters.md)
 </dt> <dt>
 
 [**DVD 媒體類型**](dvd-media-types.md)

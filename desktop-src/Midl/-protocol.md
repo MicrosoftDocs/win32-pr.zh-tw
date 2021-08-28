@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e9770fa94d010e21dcbd2a5574a0cffe29273a23
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 555482677afff83d9f52e06c7b8e445504d222c8
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104313023"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122887372"
 ---
 # <a name="protocol-switch"></a>/protocol 參數
 
@@ -87,12 +87,12 @@ RPC 會根據嚴格的線路通訊協定（也稱為傳輸語法）來封送處�
 
 <dl> <dt>
 
-[**/<system>**](-system-.md)
+[**/&lt;系統&gt;**](-system-.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

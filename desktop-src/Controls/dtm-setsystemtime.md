@@ -3,7 +3,7 @@ title: 'DTM_SETSYSTEMTIME 訊息 (Commctrl .h) '
 description: 設定日期和時間選擇器 (DTP) 控制項的時間。 您可以明確地傳送此訊息，或使用 DateTime \_ SetSystemtime 宏。
 ms.assetid: aab023ac-22ef-485b-be2f-2aa76dfcf57f
 keywords:
-- DTM_SETSYSTEMTIME message Windows 控制項
+- DTM_SETSYSTEMTIME 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f7b2a3c625ad4ff02bed138a8086ca0da984de35
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5acd0c6a09e3fc7bd9d068e27049329f3289a8ba1968ffae4592c7e07db9f2eb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934848"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120088968"
 ---
 # <a name="dtm_setsystemtime-message"></a>DTM \_ SETSYSTEMTIME 訊息
 
@@ -64,8 +64,8 @@ ms.locfileid: "103934848"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

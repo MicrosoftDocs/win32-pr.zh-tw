@@ -5,12 +5,12 @@ ms.assetid: 3e60e95a-3580-48aa-a9f9-8fd899aa7fca
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 58f3c53f2370f4123352489ac747546e3335c558
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 743eff150edf5e9d213759ccef8c786bab98754b8e4dc2b968929ba3ad2d6709
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104316039"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120099588"
 ---
 # <a name="application-setup"></a>應用程式設定
 
@@ -24,6 +24,6 @@ ms.locfileid: "104316039"
 -   將應用程式安裝在所有使用者通用的預設使用者環境中。 在安裝應用程式之前，請執行 **change user/install** console 命令，並在安裝完成之後，執行 **change user/execute** console 命令。 使用遠端桌面服務相容性腳本進行安裝。
 -   透過使用者設定檔的使用，支援使用者特定的自訂。 若要這樣做，請建立系統 [管理範本檔案格式](/previous-versions/windows/desktop/Policy/administrative-template-file-format) ，讓系統管理員可以設定登錄來指出每個使用者可用的功能。 然後，在執行時間，應用程式可以根據目前使用者的登錄設定中的設定來啟用或停用功能。 應用程式可以將每個使用者設定儲存在 **HKEY CURRENT user** 登錄區中，並讓每個使用者根據其喜好設定來設定應用程式。
 
- 
+ 
 
- 
+ 

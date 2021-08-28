@@ -4,12 +4,12 @@ ms.assetid: b963bd2a-47cb-4f8d-8272-a586e6d6a047
 title: 解析訊息
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 54887db566ee428e6bfe9ec2de9016a637884b092611a85e607c55aaa4176abc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f1ed3ab1778fada267a72207309eb8cb515727d5
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118991608"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122627764"
 ---
 # <a name="resolve-message"></a>解析訊息
 
@@ -66,9 +66,9 @@ urn:schemas-xmlsoap-org:ws:2005:04:discovery
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">

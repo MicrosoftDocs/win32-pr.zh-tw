@@ -1,19 +1,19 @@
 ---
-description: <propertyStore>元素會指定這個程式庫所使用的一或多個屬性集合。 這個元素是選擇性的，且沒有任何屬性。
+description: '&lt;PropertyStore &gt; 元素會指定這個程式庫所使用的一或多個屬性集合。 這個元素是選擇性的，且沒有任何屬性。'
 ms.assetid: 19532C1F-686F-4c14-8BA8-0043E77BE594
 title: 'propertyStore 元素 (程式庫架構) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d0ff30972a358916e715ff1b374a555c6db24ee6d512d114bcf47f57ac8a1954
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 089e87e6e7bdfa568ffa2e8903f6347cb6dc7b3d
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118452973"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122880424"
 ---
 # <a name="propertystore-element-library-schema"></a>propertyStore 元素 (程式庫架構) 
 
-<propertyStore>元素會指定這個程式庫所使用的一或多個屬性集合。 這個元素是選擇性的，且沒有任何屬性。
+&lt;PropertyStore &gt; 元素會指定這個程式庫所使用的一或多個屬性集合。 這個元素是選擇性的，且沒有任何屬性。
 
 ## <a name="syntax"></a>Syntax
 
@@ -43,7 +43,7 @@ ms.locfileid: "118452973"
 
 ## <a name="remarks"></a>備註
 
-<propertyStore>元素可以有一或多 <property> 個子項目。
+&lt;PropertyStore &gt; 元素可以有一或多個 &lt; 屬性 &gt; 子項目。
 
 ## <a name="related-topics"></a>相關主題
 

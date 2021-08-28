@@ -4,12 +4,12 @@ ms.assetid: e6f48446-948c-458c-8ecf-04ffb249c8a4
 title: 應用程式行為
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f5a9b871a2c0535d9ef4220824651657332a224a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: abb09441eda4f0d909652ac38a9ca0596a1b4bce456f58c0e1eae1a7af7dc53b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511469"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120121458"
 ---
 # <a name="application-behavior"></a>應用程式行為
 
@@ -44,7 +44,7 @@ ms.locfileid: "104511469"
 
 <dl> <dt>
 
-[高效能的 Windows 通訊端應用程式](high-performance-windows-sockets-applications-2.md)
+[高效能 Windows 通訊端應用程式](high-performance-windows-sockets-applications-2.md)
 </dt> </dl>
 
  

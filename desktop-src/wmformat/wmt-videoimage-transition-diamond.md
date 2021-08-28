@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: af271c220fc48924905a067336a438baec1ef0ac4b2dca1b266d3ea77d665f71
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 38731c93ae9ada520f286ae1662d45ec95d399d4
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117653279"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122473494"
 ---
 # <a name="wmt_videoimage_transition_diamond"></a>WMT \_ VIDEOIMAGE \_ 轉換 \_ 鑽石
 
@@ -31,51 +31,15 @@ ms.locfileid: "117653279"
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>參數</th>
-<th>結構成員</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>中心 X</td>
-<td><strong>fEffectPara0</strong></td>
-<td>相對於影片框架的 X 座標（相對於菱形的中心）。</td>
-</tr>
-<tr class="even">
-<td>中心 Y</td>
-<td><strong>fEffectPara1</strong></td>
-<td>相對於菱形中間的影片框架的 Y 座標。</td>
-</tr>
-<tr class="odd">
-<td>寬度</td>
-<td><strong>fEffectPara2</strong></td>
-<td>鑽石的寬度（以圖元為單位）。</td>
-</tr>
-<tr class="even">
-<td>高度</td>
-<td><strong>fEffectPara3</strong></td>
-<td>鑽石的高度（以圖元為單位）。</td>
-</tr>
-<tr class="odd">
-<td>Composition</td>
-<td><strong>fEffectPara4</strong></td>
-<td>設定為下列其中一個值：
-<ul>
-<li>0-指定一般組合，其中上一個影像是背景，而目前影像是前景。</li>
-<li>1-指定反轉組合，其中目前影像是背景影像，而上一個影像是前景</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| 參數 | 結構成員 | Description | 
+|-----------|------------------|-------------|
+| 中心 X | <strong>fEffectPara0</strong> | 相對於影片框架的 X 座標（相對於菱形的中心）。 | 
+| 中心 Y | <strong>fEffectPara1</strong> | 相對於菱形中間的影片框架的 Y 座標。 | 
+| 寬度 | <strong>fEffectPara2</strong> | 鑽石的寬度（以圖元為單位）。 | 
+| 高度 | <strong>fEffectPara3</strong> | 鑽石的高度（以圖元為單位）。 | 
+| Composition | <strong>fEffectPara4</strong> | 設定為下列其中一個值：<ul><li>0-指定一般組合，其中上一個影像是背景，而目前影像是前景。</li><li>1-指定反轉組合，其中目前影像是背景影像，而上一個影像是前景</li></ul> | 
+
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 9e8cfe5c-e17a-40d6-958f-a1bd1130c699
 title: '>cultureinfo.numberformat'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6750a9fb4dcf6a7a56c350fccf80241644b956da
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6601e6647d8fa1ac8b8cb262d47192810583c93f
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106988730"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122622684"
 ---
 # <a name="numberformat"></a>>cultureinfo.numberformat
 
@@ -73,8 +73,8 @@ ms.locfileid: "106988730"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">

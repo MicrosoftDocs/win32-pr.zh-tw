@@ -4,12 +4,12 @@ ms.assetid: 1294171e-b3f6-4264-8411-b69427cefe7b
 title: D3DPRESENTFLAG
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 578d41119980719e69b9eb0e502c025414018f73
-ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
+ms.openlocfilehash: 3ebf3a8ad3a22f5104e4d4a78d3a01a29d07d757
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "110343093"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122624554"
 ---
 # <a name="d3dpresentflag"></a>D3DPRESENTFLAG
 
@@ -19,9 +19,9 @@ ms.locfileid: "110343093"
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">

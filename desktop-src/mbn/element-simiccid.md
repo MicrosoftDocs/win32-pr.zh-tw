@@ -7,12 +7,12 @@ MSHAttr:
 title: SimIccID
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 89b7c679683d98e1a4039c90f1dfb37d4ff765e3
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.openlocfilehash: 80d3ace6c4944bc8cd8a50fcde13db9f0962aa29
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122988631"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122479904"
 ---
 # <a name="span-idwwan_profile_v4element_simiccidspanmbnprofileextsimiccid-v4"></a><span id="WWAN_profile_v4.element_SimIccID"></span>MBNProfileExt \/ SimIccID (v4) 
 
@@ -60,9 +60,7 @@ ms.locfileid: "122988631"
 ## <a name="requirements"></a>規格需求
 
 
-| 需求 | 值 |
-|------------|----------|
-| <p>命名空間</p> | <p>https://www.microsoft.com/networking/WWAN/profile/v4</p> | 
+| | | <p>命名空間</p> | <p>https://www.microsoft.com/networking/WWAN/profile/v4</p> | 
 
 
  

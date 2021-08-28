@@ -11,12 +11,12 @@ api_name: ''
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: a3b05065c56e00465036d49a44a861de19dd9019
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3ca5c952642ff71913e6796d10708db2c313854e
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103691707"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122627739"
 ---
 # <a name="xmunibble4-operator--operators"></a>XMUNIBBLE4 運算子 = 運算子
 
@@ -30,19 +30,19 @@ ms.locfileid: "103691707"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
-<th style="text-align: left;">運算子</th>
-<th style="text-align: left;">描述</th>
+<th >運算子</th>
+<th >描述</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmunibble4-operator-assign(uint16_t)"><strong>XMUNIBBLE4：： operator = (const uint16_t) </strong></a></td>
-<td style="text-align: left;">將實例中封裝的向量元件資料指派 <code>uint16_t</code> 給目前的實例 <code>XMUNIBBLE4</code> 。 <br/>
+<td ><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmunibble4-operator-assign(uint16_t)"><strong>XMUNIBBLE4：： operator = (const uint16_t) </strong></a></td>
+<td >將實例中封裝的向量元件資料指派 <code>uint16_t</code> 給目前的實例 <code>XMUNIBBLE4</code> 。 <br/>
 <blockquote>
 [!Note]<br />
 此運算子僅適用于 c + +。
@@ -50,8 +50,8 @@ ms.locfileid: "103691707"
 <br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><a href="/windows/desktop/api//rrascfg/nf-rrascfg-ieapproviderconfig-initialize"><strong>XMUNIBBLE4：： operator = (const XMUNIBBLE4&) </strong></a></td>
-<td style="text-align: left;">將一個實例的向量元件資料指派 <code>XMUNIBBLE4</code> 給目前的實例 <code>XMUNIBBLE4</code> 。 <br/> 這個運算子會將一個 <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmunibble4"><strong>XMUNIBBLE4</strong></a> 實例的向量元件資料指派給目前的實例 <code>XMUNIBBLE4</code> 。 <br/></td>
+<td ><a href="/windows/desktop/api//rrascfg/nf-rrascfg-ieapproviderconfig-initialize"><strong>XMUNIBBLE4：： operator = (const XMUNIBBLE4&) </strong></a></td>
+<td >將一個實例的向量元件資料指派 <code>XMUNIBBLE4</code> 給目前的實例 <code>XMUNIBBLE4</code> 。 <br/> 這個運算子會將一個 <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmunibble4"><strong>XMUNIBBLE4</strong></a> 實例的向量元件資料指派給目前的實例 <code>XMUNIBBLE4</code> 。 <br/></td>
 </tr>
 </tbody>
 </table>

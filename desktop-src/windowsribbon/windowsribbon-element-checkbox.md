@@ -3,7 +3,7 @@ title: CheckBox 元素
 description: 表示核取方塊控制項。
 ms.assetid: ebb44d6d-91fb-4a59-9b62-4a694fea8a4d
 keywords:
-- CheckBox 元素視窗功能區
+- 核取方塊元素 Windows 功能區
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 4d9357337e569f43b14c34798c9c6e8da4b7b10b
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 4754269600c779210e7eee786e3a60262dec06d1
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111443039"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122623974"
 ---
 # <a name="checkbox-element"></a>CheckBox 元素
 
@@ -38,10 +38,10 @@ ms.locfileid: "111443039"
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col  />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -89,7 +89,7 @@ ms.locfileid: "111443039"
 | [**ControlGroup**](windowsribbon-element-controlgroup.md)<br/>                                                     |
 | [**DropDownButton**](windowsribbon-element-dropdownbutton.md)<br/>                                                 |
 | [**DropDownGallery**](windowsribbon-element-dropdowngallery.md)<br/>                                               |
-| [**群組**](windowsribbon-element-group.md)<br/>                                                                   |
+| [**Group**](windowsribbon-element-group.md)<br/>                                                                   |
 | [**MenuGroup**](windowsribbon-element-menugroup.md)<br/>                                                           |
 | [**QuickAccessToolbar. s**](windowsribbon-element-quickaccesstoolbar-applicationdefaults.md)<br/> |
 | [**SplitButton**](windowsribbon-element-splitbutton.md)<br/>                                                       |

@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: abc5a2b884d9343e6c58737cacd259650952353a2fc5ad68ee843af2b30710e5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 578699b04c5ba2d0f39afb2e8ff5141151bd208b
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119901178"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122628437"
 ---
 # <a name="event-tracing-mof-qualifiers"></a>事件追蹤 MOF 限定詞
 
@@ -70,8 +70,8 @@ ms.locfileid: "119901178"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -89,7 +89,7 @@ ms.locfileid: "119901178"
 <td>字串值。 如果也指定了 <strong>點陣圖</strong> 辨識符號，字串就會直接對應到 <strong>點陣圖</strong> 辨識符號中的值。 否則，假設屬性值是值字串的單一索引， (位1對應至清單) 中的第一個字串。</td>
 </tr>
 <tr class="odd">
-<td><strong>延伸模組</strong></td>
+<td><strong>分機</strong></td>
 <td>提供有關如何使用 (解讀資料) 的其他資訊。 擴充值不區分大小寫。 以引號括住值，例如 (Guid) 的擴充功能 &quot; &quot; 。 可能的擴充值為： <dl> <dt><span id="Guid"></span><span id="guid"></span><span id="GUID"></span>Guid</dt> <dd> 指出屬性資料是 Guid。 MOF 資料類型必須是 <strong>object</strong>。 承載應為 <strong>GUID</strong> 結構。<br/> </dd> <dt><span id="IPAddr_and_IPAddrV4"></span><span id="ipaddr_and_ipaddrv4"></span><span id="IPADDR_AND_IPADDRV4"></span>IPAddr 和 IPAddrV4</dt> <dd> 資料是 IP V4 位址。 MOF 資料類型必須是 <strong>object</strong>。 承載應為不帶正負號的 long。 不帶正負號的每個位元組都代表 IP 位址的四個部分中的其中一個（ (p1. p4) 。 低序位位元組包含 p1 的值，下一個位元組則包含 p2 的值，依此類推。<br/> <strong>在 Windows Vista 之前：</strong>不支援 IPAddrV4 延伸模組。<br/> </dd> <dt><span id="IPAddrV6"></span><span id="ipaddrv6"></span><span id="IPADDRV6"></span>IPAddrV6</dt> <dd> 資料是 IP V6 位址。 MOF 資料類型必須是 <strong>object</strong>。 承載應為 <strong>IN6_ADDR</strong> 結構。 <br/> <strong>在 Windows Vista 之前：</strong>不支援 IPAddrV6 延伸模組。<br/> </dd> <dt><span id="NoPrint"></span><span id="noprint"></span><span id="NOPRINT"></span>NoPrint</dt> <dd> 指出取用者不應列印此資料。<br/> </dd> <dt><span id="Port"></span><span id="port"></span><span id="PORT"></span>港口</dt> <dd> 資料會識別埠號碼。 MOF 資料類型必須是 <strong>object</strong>。 承載應為不帶正負號的簡短。<br/> </dd> <dt><span id="RString"></span><span id="rstring"></span><span id="RSTRING"></span>RString</dt> <dd> 換行字元是以空格取代。 承載應為以 null 結束的 ANSI 字串。<br/> </dd> <dt><span id="RWString"></span><span id="rwstring"></span><span id="RWSTRING"></span>RWString</dt> <dd> 換行字元是以空格取代。 承載應為以 null 結尾的寬字元字串。<br/> </dd> <dt><span id="Sid"></span><span id="sid"></span><span id="SID"></span>希</dt> <dd> 資料代表二進位 blob SID。 MOF 資料類型必須是 <strong>object</strong>。 <br/> SID 的長度是可變的。 前4個位元組中包含的值 (<strong>ULONG</strong>) 指出 blob 是否包含 SID。 如果 blob 的前4個位元組 (<strong>ULONG</strong>) 為非零值，則 blob 會包含 SID。 Blob 的第一個部分包含 TOKEN_USER (結構在8個位元組的界限上對齊) ，而第二個部分則包含 SID。 若要處理 blob 的 SID 部分：<br/>
 <ul>
 <li>將位元組指標設定為 blob 的開頭</li>

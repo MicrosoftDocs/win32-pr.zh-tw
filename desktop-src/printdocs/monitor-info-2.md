@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 api_location:
 - Winspool.h
-ms.openlocfilehash: 9d3ad70a0728ca6e73c4dbefb248df58e858a996
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c01377740c77ef4cb2be15e785b9ea3e93449944c11f2014ed660d8c3e3245b7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103695079"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120112328"
 ---
 # <a name="monitor_info_2-structure"></a>監視 \_ INFO \_ 2 結構
 
@@ -53,7 +53,7 @@ typedef struct _MONITOR_INFO_2 {
 **pEnvironment**
 </dt> <dd>
 
-以 null 結束的字串指標，可指定用來寫入監視器的環境 (例如 Windows NT x86、Windows IA64、Windows x64) 。
+指標，指向以 null 終止的字串，這個字串會指定要對其撰寫監視的環境 (例如 Windows NT x86、Windows IA64 Windows x64) 。
 
 </dd> <dt>
 
@@ -72,7 +72,7 @@ typedef struct _MONITOR_INFO_2 {
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                                |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                      |
-| 標頭<br/>                   | <dl> <dt>Winspool.drv (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>winspool.drv (包含 Windows .h) </dt> </dl> |
 | Unicode 與 ANSI 名稱<br/>   | **\_ 監視器 \_ 資訊 \_ 2w** (Unicode) 和 **\_ 監視 \_ 資訊 \_ 2a** (ANSI) <br/>                           |
 
 

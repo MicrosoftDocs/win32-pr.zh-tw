@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: ae5e42783b68b7a16608926ac290bf173206e56e
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: f5e633042b0486620464d352523e3a078287ff3a
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104025717"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122628094"
 ---
 # <a name="span-idvspixengineobjecttablecolumnidspanobjecttablecolumnid-enumeration"></a><span id="vspixengine.objecttablecolumnid"></span>OBJECTTABLECOLUMNID 列舉
 
@@ -123,7 +123,7 @@ ms.locfileid: "104025717"
 
 ## <a name="requirements"></a>規格需求
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>標頭</p></td><td>Vspixengine。h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>標頭</p></td><td>Vspixengine。h</td></tr></tbody></table>
 
  
 

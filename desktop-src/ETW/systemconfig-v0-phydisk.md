@@ -25,12 +25,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 1bfa7b994bfe0950ccc7a97b19fbd705838950d7461712b114a16f62e7ad0aec
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: c18a198934b7234121da02900896d67c39a3ab3c
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119754758"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122880724"
 ---
 # <a name="systemconfig_v0_phydisk-class"></a>SystemConfig \_ V0 \_ PhyDisk 類別
 
@@ -84,7 +84,7 @@ class SystemConfig_V0_PhyDisk : SystemConfig_V0
 限定詞： **WmiDataId** (13) ， **最大** (3) 
 </dt> </dl>
 
-開機磁片磁碟機的磁碟機號，格式為 " <letter> ："。
+開機磁片磁碟機的磁碟機號，格式為 " &lt; letter &gt; ："。
 
 </dd> <dt>
 

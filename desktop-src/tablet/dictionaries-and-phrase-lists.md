@@ -4,12 +4,12 @@ ms.assetid: e975a75f-ab88-4164-afc8-3b817988504d
 title: 字典和片語清單
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b1f88dc2f6b05eea322b6e88dda1f986b3c54b7e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a0cc5b97918e1fed384494e887b604f1d08856e27232ed82f09bceff3ce14fe2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106984673"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120110958"
 ---
 # <a name="dictionaries-and-phrase-lists"></a>字典和片語清單
 

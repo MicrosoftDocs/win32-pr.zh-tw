@@ -4,12 +4,12 @@ ms.assetid: a70d8cc8-af47-4472-aabc-97481d97080d
 title: 命令列選項
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 287b5711468217105846a13496a23794235bbcfdfcbd0e79278aaba17e7c0341
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d4a45d59922a6c2c1d6cd0b5f8cd61b393944e23
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118380312"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122880627"
 ---
 # <a name="command-line-options"></a>命令列選項
 
@@ -21,9 +21,9 @@ ms.locfileid: "118380312"
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -81,7 +81,7 @@ ms.locfileid: "118380312"
 <tr class="even">
 <td><strong>/p</strong></td>
 <td><em>PatchPackage [;P atchpackage2</em> ]</td>
-<td>套用修補程式。 若要將修補程式套用至已安裝的系統管理映射，您必須合併下列選項：<br/> /p <em> <PatchPackage> [;p atchpackage2] </em> /a<em><Package></em><br/></td>
+<td>套用修補程式。 若要將修補程式套用至已安裝的系統管理映射，您必須合併下列選項：<br/> /p <em> &lt; PatchPackage &gt; [;p atchpackage2]</em> /a<em><Package></em><br/></td>
 </tr>
 <tr class="odd">
 <td><strong>/q</strong></td>

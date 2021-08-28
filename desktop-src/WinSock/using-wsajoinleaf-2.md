@@ -4,12 +4,12 @@ ms.assetid: eaa1593a-36eb-4d92-a3d9-91566fc0216b
 title: 使用 WSAJoinLeaf
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 027262a117edc5541a4809481aa4607837343b4f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dd13b6d82960f74135fa519a1284a1274b878e18c32f59d9c2b8c46ebd592c3f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103849572"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120121018"
 ---
 # <a name="using-wsajoinleaf"></a>使用 WSAJoinLeaf
 

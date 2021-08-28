@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 17bfbb670892db10e787f7877a74bd376500f34236121c7db0cc9a1c472f3513
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 81fdceda178afa3fb5bb31818de7dc9cd563ccc4
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117905245"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122623763"
 ---
 # <a name="span-idvspixenginepixenginechanneldescspanpixenginechanneldesc-structure"></a><span id="vspixengine.pixenginechanneldesc"></span>PixEngineChannelDesc 結構
 
@@ -48,7 +48,7 @@ ms.locfileid: "117905245"
 
 ## <a name="requirements"></a>規格需求
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>標頭</p></td><td>Vspixengine。h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>標頭</p></td><td>Vspixengine。h</td></tr></tbody></table>
 
  
 

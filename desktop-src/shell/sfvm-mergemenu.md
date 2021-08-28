@@ -13,12 +13,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 5cf95a7576c15ab1c3e64ebe55e244feffa6d86d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5f6838b3c2ee845794bfa506beada2b7092f1bb918438f820f0e77d6b6543dc1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973788"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120111168"
 ---
 # <a name="sfvm_mergemenu-message"></a>SFVM \_ MERGEMENU 訊息
 

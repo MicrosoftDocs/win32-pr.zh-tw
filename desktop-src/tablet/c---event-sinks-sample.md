@@ -4,12 +4,12 @@ ms.assetid: 91450559-ae47-457a-a709-b4e4e78bde22
 title: C + + 事件接收器範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e950254293b676088d8b281624c089b098e5dca8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0b24cb718eb0d16830c285691ac5cfedf66d572f447870dc0219beb14c04548a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106967066"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120111128"
 ---
 # <a name="c-event-sinks-sample"></a>C + + 事件接收器範例
 
@@ -20,7 +20,7 @@ ms.locfileid: "106967066"
 類別會處理將筆墨收集器 `InkCollectorEvents` 事件從筆墨收集器傳遞給這個類別的使用者。 `AdviseInkCollector`方法會設定 [**InkCollector**](inkcollector-class.md)物件與這個類別之間的連接。 `Invoke`方法會將 [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch)事件通知轉換為虛擬函式的呼叫，此函式的使用者可以覆寫此類別的使用者來處理特定事件。
 
 > [!Note]  
-> 您必須覆寫虛擬函式，事件處理常式才能取得該事件。 針對所有的預設事件，您必須呼叫筆墨收集器的 [**SetEventInterest**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-seteventinterest) 方法，以保證取得事件。 其次，這個物件封送處理本身的自由執行緒，讓所有已執行的事件處理常式也都必須是無限制執行緒。 特別重要的是，使用 Windows Api 可能會導致切換至另一個執行緒，因為事件處理常式不保證會在與筆墨收集器連接之視窗的相同執行緒上執行。
+> 您必須覆寫虛擬函式，事件處理常式才能取得該事件。 針對所有的預設事件，您必須呼叫筆墨收集器的 [**SetEventInterest**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-seteventinterest) 方法，以保證取得事件。 其次，這個物件封送處理本身的自由執行緒，讓所有已執行的事件處理常式也都必須是無限制執行緒。 特別重要的是使用 Windows api，這可能會導致切換至另一個執行緒，因為事件處理常式不保證會在與筆墨收集器連接的視窗相同的執行緒上執行。
 
  
 
@@ -210,7 +210,7 @@ HWND hWnd)
 
 ## <a name="accessing-the-tablet-pc-interfaces-and-the-wrapper-classes"></a>存取 Tablet PC 介面和包裝函式類別
 
-首先，請加入 Tablet PC 自動化介面的標頭。 這些會隨 Microsoft <entity type="reg"/> Windows <entity type="reg"/> XP Tablet PC Edition 開發工具組1.7 一起安裝。
+首先，請加入 Tablet PC 自動化介面的標頭。 這些都隨 Microsoft <entity type="reg"/> Windows <entity type="reg"/> XP Tablet PC Edition 開發工具組1.7 一起安裝。
 
 
 ```C++

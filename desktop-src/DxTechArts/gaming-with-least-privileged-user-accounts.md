@@ -4,12 +4,12 @@ description: 本文說明遊戲開發人員如何撰寫 Microsoft Windows 的遊
 ms.assetid: 1b7cc3c9-b180-14b1-53c8-57f9e545d009
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 939d22b1d8bf381e98c5b6a7222be29b565c3d9e1f0758788aff94b0915b1807
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 8db15302eb856aaeb05c68fae4746110dd42cb4a
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119340738"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122887390"
 ---
 # <a name="gaming-with-least-privileged-user-accounts"></a>使用 Least-Privileged 使用者帳戶的遊戲
 
@@ -40,10 +40,10 @@ Windows 支援兩種檔案系統： FAT32 和 NTFS。 FAT32 是僅為了回溯�
 
 | 路徑                                               | 資料夾內容              | 讀取 | 寫入 | 建立/刪除 |
 |----------------------------------------------------|------------------------------|------|-------|---------------|
-| <Drive>： \\ Windows                            | Windows 作業系統 | X    |       |               |
-| <Drive>： \\ Program Files                      | 可執行檔應用程式檔 | X    |       |               |
-| <Drive>： \\ 檔和設定使用者 \\ 名稱\* | 每個使用者的檔案            | X    | X     | X             |
-| <Drive>： \\ 檔和設定 \\ 所有使用者  | 所有使用者檔案               | X    | X     | X             |
+| &lt;磁片磁碟機 &gt; ： \\ Windows                            | Windows 作業系統 | X    |       |               |
+| &lt;磁片磁碟機 &gt; ： \\ Program Files                      | 可執行檔應用程式檔 | X    |       |               |
+| &lt;磁片磁碟機 &gt; ： \\ 檔和設定使用者 \\ 名稱\* | 每個使用者的檔案            | X    | X     | X             |
+| &lt;磁片磁碟機 &gt; ： \\ 檔和設定 \\ 所有使用者  | 所有使用者檔案               | X    | X     | X             |
 
 
 

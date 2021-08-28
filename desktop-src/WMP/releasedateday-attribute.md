@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5d3ced8e5cb2416c08aadfc2fdac3cd6f99fa481
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: df82859bc5f7154294c188025efb1c8a143c4120d62c3d4e43c68f54fa2bb6b8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990090"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120123238"
 ---
 # <a name="releasedateday-attribute"></a>ReleaseDateDay 屬性
 

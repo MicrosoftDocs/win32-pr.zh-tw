@@ -7,12 +7,12 @@ MSHAttr:
 title: 'IPType (v4) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ec57fbe0bbcb4c633ddb8485f048ce4230e0ca5
-ms.sourcegitcommit: 4d4a6e9ad5de37e467cd3164276771b71e1f113f
+ms.openlocfilehash: f655d2f8592613fdb4953cbda32841dc9beaec0d
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "106976310"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122479974"
 ---
 # <a name="span-idwwan_profile_v4element_1_iptypespanmodemdmconfigprofileiptype-v4"></a><span id="WWAN_profile_v4.element_1_IPType"></span>ModemDMConfigProfile \/ ... \/IPType (v4) 
 
@@ -62,41 +62,19 @@ ms.locfileid: "106976310"
 
 ### <a name="span-idparent_elementsspanspan-idparent_elementsspanparent-elements"></a><span id="parent_elements"></span><span id="PARENT_ELEMENTS"></span>父元素
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Parent 項目</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="element-1-context.md">內容</a></td>
-<td><p>指定建立資料連線所需的參數。</p></td>
-</tr>
-</tbody>
-</table>
+
+| Parent 項目 | 描述 | 
+|----------------|-------------|
+| <a href="element-1-context.md">內容</a> | <p>指定建立資料連線所需的參數。</p> | 
+
 
  
 
 ## <a name="requirements"></a>規格需求
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>命名空間</p></td>
-<td><p>https://www.microsoft.com/networking/WWAN/profile/v4</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p>命名空間</p> | <p>https://www.microsoft.com/networking/WWAN/profile/v4</p> | 
+
 
  
 

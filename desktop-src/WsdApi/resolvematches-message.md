@@ -4,12 +4,12 @@ ms.assetid: 0eaa4348-968e-4b45-9509-8b15476edaa1
 title: ResolveMatches 訊息
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1daffe985f3956e57ad69fd7c4fc4d199f0b24bd5fdab5677b7ef83765e5fcdd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 42f2604859d39530377883179ec104dd078e9b6f
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119756798"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122627754"
 ---
 # <a name="resolvematches-message"></a>ResolveMatches 訊息
 
@@ -76,9 +76,9 @@ ResolveMatches 訊息具有下列焦點點。
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">

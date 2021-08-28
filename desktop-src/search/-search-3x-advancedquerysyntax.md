@@ -1,19 +1,19 @@
 ---
-description: Advanced Query 語法 (AQS) 是 Windows Search 用來查詢索引以及精簡和縮小搜尋參數的預設查詢語法。
+description: Advanced query 語法 (AQS) 是 Windows Search 用來查詢索引以及精簡和縮小搜尋參數的預設查詢語法。
 ms.assetid: 76e33903-d063-48c0-9afe-912c3daa8237
 title: 以程式設計方式使用 Advanced 查詢語法
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bc8fa69a5a5ccaa37b84a10abd367e5a29656455
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0ebde3119199d84f67315c2db73343d5dffc58ad
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970384"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122880698"
 ---
 # <a name="using-advanced-query-syntax-programmatically"></a>以程式設計方式使用 Advanced 查詢語法
 
-Advanced Query 語法 (AQS) 是 Windows Search 用來查詢索引以及精簡和縮小搜尋參數的預設查詢語法。 開發人員會採用 AQS 來以程式設計方式建立查詢， (以及使用者將其搜尋參數縮小) 。 標準 AQS 是在 Windows 7 中引進的，而且必須在 Windows 7 和更新版本中用來以程式設計方式產生 AQS 查詢。
+Advanced query 語法 (AQS) 是 Windows Search 用來查詢索引以及精簡和縮小搜尋參數的預設查詢語法。 開發人員會採用 AQS 來以程式設計方式建立查詢， (以及使用者將其搜尋參數縮小) 。 標準 AQS 是在 Windows 7 中引進，而且必須用於 Windows 7 和更新版本，以程式設計方式產生 AQS 查詢。
 
 本主題的組織方式如下：
 
@@ -50,7 +50,7 @@ Advanced Query 語法 (AQS) 是 Windows Search 用來查詢索引以及精簡和
 
 如果查詢有兩個以上的使用和或或，則不論是 AND 或 OR，它們都會從左至右系結。 也就是說，查詢 "apple AND 梨 OR 梅紅" 將會被解釋為 " (apple AND 梨) 或梅紅"，而查詢 "apple OR 梨 AND 梅紅" 將會被視為撰寫為「 (apple 或梨) 和梅紅」。 因此，如果檔包含梅紅這個字，但不是 apple，也不是使用梨，則第一個查詢會傳回它，但第二個查詢則不會傳回。 因此，我們建議您針對任何混合和和或的查詢使用明確括弧，以避免發生錯誤或誤解。
 
-基本查詢會搜尋符合屬性之限制的專案。 基本查詢的唯一必要部分是限制或搜尋值。 如果您未指定屬性，Windows Search 會搜尋所有屬性。 <restr> 表示搜尋限制。
+基本查詢會搜尋符合屬性之限制的專案。 基本查詢的唯一必要部分是限制或搜尋值。 如果您未指定屬性，Windows Search 會搜尋所有屬性。 &lt;restr &gt; 代表搜尋限制。
 
 以下是適用于基本查詢的表單：
 
@@ -138,15 +138,15 @@ System.Size:>1kb
 
 ### <a name="properties"></a>屬性
 
-屬性是由關鍵字所參考，可以是 Windows 7 和更新版本中的標準屬性名稱。 Windows UI 中的 AQS 可以使用標籤，而不是 [標準的屬性](../properties/props-system-author.md)名稱，例如作者，而不是 author。 在 Windows Vista 及更早版本中，不論 UI 語言為何，都可以使用英文標籤。 在 Windows 7 和更新版本中，Windows Search 只能辨識目前預設 UI 語言中的關鍵字。
+屬性是由關鍵字所參考，它可以是 Windows 7 和更新版本中的標準屬性名稱。 Windows UI 中的 AQS 可以使用標籤，而不是標準的屬性名稱，例如作者，而不是[System. author](../properties/props-system-author.md)。 在 Windows Vista 及更早版本中，不論 UI 語言為何，都可以使用英文標籤。 在 Windows 7 和更新版本中，Windows Search 只會辨識目前預設 UI 語言中的關鍵字。
 
 ### <a name="support-for-custom-properties"></a>自訂屬性的支援
 
-在 Windows Vista 及更早版本中，AQS 中無法使用自訂屬性。 在 Windows 7 和更新版本中，AQS 會使用向屬性系統註冊的自訂屬性。 如需有關建立自訂屬性的詳細資訊，請參閱 [屬性系統](../properties/building-property-handlers.md)。
+在 Windows Vista 及更早版本中，AQS 中無法使用自訂屬性。 在 Windows 7 和更新版本中，AQS 可以使用向屬性系統註冊的自訂屬性。 如需有關建立自訂屬性的詳細資訊，請參閱 [屬性系統](../properties/building-property-handlers.md)。
 
 ### <a name="datetime-properties-in-windows-8"></a>Windows 8 中的日期時間屬性
 
-從 Windows 8 開始，DateTime 屬性 (如 [DateModified](../properties/props-system-datemodified.md)) 支援 [ISO-8601](https://www.w3.org/TR/NOTE-datetime)指定的標準日期和時間格式，選擇性地包括 UTC 時區。
+從 Windows 8 開始，DateTime 屬性 (如[DateModified](../properties/props-system-datemodified.md)) 支援[ISO-8601](https://www.w3.org/TR/NOTE-datetime)指定的標準日期和時間格式，選擇性地包括 UTC 時區。
 
 -   **Windows 8 及更早版本，不含 UTC 時區的日期時間：** *YYYY* - *MM* - *DDThh*：*MM*：*ss*
 
@@ -158,7 +158,7 @@ System.Size:>1kb
 
 ## <a name="keyword-use-in-local-languages"></a>以當地語言使用關鍵字
 
-在 Windows 7 （含）以後版本中，助憶鍵關鍵字僅適用于系統語言，例如德文關鍵字（僅限德文版作業系統）和英文關鍵字（僅限英文版作業系統）。 [System. author](../properties/props-system-author.md) 是標準關鍵字，而 system.string 屬性的助憶鍵值為 author，例如。 引進標準關鍵字可彌補在所有作業系統上（不論語言為何）都不能完全辨識英文助憶鍵關鍵字的事實，就像是 Windows Vista 和更早版本中的情況一樣。
+在 Windows 7 和更新版本中，助憶鍵關鍵字僅適用于系統語言，例如德文版的作業系統，僅限德文的作業系統，而英文關鍵字則僅適用于英文作業系統。 [System. author](../properties/props-system-author.md) 是標準關鍵字，而 system.string 屬性的助憶鍵值為 author，例如。 引進標準關鍵字可彌補在所有作業系統上（不論語言為何）都不能完全辨識英文助憶鍵關鍵字，如同 Windows Vista 和更早版本中的情況。
 
 > [!Note]  
 > 在 Windows 7 和更新版本中，Windows Search 只會辨識目前預設語言的關鍵字，而不是以英文為目前的預設值。 我們建議開發人員一律使用標準語法，讓其應用程式不會有關鍵詞的語言問題。
@@ -167,7 +167,7 @@ System.Size:>1kb
 
 ## <a name="canonical-advanced-query-syntax-in-windows-7"></a>Windows 7 中的標準 Advanced 查詢語法
 
-Windows 7 中的關鍵字已引進標準語法。 具有標準屬性的查詢範例為 `System.Message.FromAddress:=me@microsoft.com` 。 在 Windows 7 和更新版本上執行的應用程式中撰寫查詢程式碼時，您必須使用標準語法以程式設計方式產生 AQS 查詢。 如果您未使用標準語法，而您的應用程式是以與應用程式程式碼語言不同的地區設定或 UI 語言進行部署，您的查詢將不會正確地解讀。
+標準語法是針對 Windows 7 中的關鍵字所引進。 具有標準屬性的查詢範例為 `System.Message.FromAddress:=me@microsoft.com` 。 在 Windows 7 和更新版本上執行的應用程式中撰寫查詢程式碼時，您必須使用標準語法以程式設計方式產生 AQS 查詢。 如果您未使用標準語法，而您的應用程式是以與應用程式程式碼語言不同的地區設定或 UI 語言進行部署，您的查詢將不會正確地解讀。
 
 標準關鍵字語法的慣例如下：
 
@@ -184,7 +184,7 @@ Windows 7 中的關鍵字已引進標準語法。 具有標準屬性的查詢範
     -   `System.FileCount:>100`
 
 > [!Note]  
-> 在 Windows 7 和更新版本中，沒有適用于數位的標準語法。 因為浮點數格式會因地區設定而異，所以不支援使用包含浮點常數的標準查詢。 相反地，整數常數只能使用數位來撰寫 (千位) 的分隔符號，並可在 Windows 7 和更新版本的標準查詢中安全地使用。
+> Windows 7 和更新版本中沒有適用于數位的標準語法。 因為浮點數格式會因地區設定而異，所以不支援使用包含浮點常數的標準查詢。 相反地，整數常數只能使用數位來撰寫 (千位) 的分隔符號，並可在 Windows 7 和更新版本的標準查詢中安全使用。
 
  
 
@@ -209,7 +209,7 @@ Windows 7 中的關鍵字已引進標準語法。 具有標準屬性的查詢範
 
 ### <a name="query-operators"></a>查詢運算子
 
-如果屬性 p 具有某個專案的多個值，則 p：的 AQS 查詢會傳回 <restr> 專案，如果 <restr> 至少有一個值為 **true** 。  (<restr> 代表限制。 ) 
+如果屬性 p 具有某個專案的多個值，則 p： restr 的 AQS 查詢 &lt; 會傳回 &gt; 專案，如果 &lt; 至少有 &gt; 一個值的 restr 為 **true** 。  (&lt; restr &gt; 代表限制。 ) 
 
 下表所列的語法包含運算子、運算子符號、範例和範例描述。 運算子和符號可以用在任何語言中，並包含在任何查詢中。 請勿使用 COP \_ 隱含或 COP \_ 應用程式 \_ 特定的運算子。 某些運算子具有可互換的符號。
 
@@ -217,10 +217,10 @@ Windows 7 中的關鍵字已引進標準語法。 具有標準屬性的查詢範
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col  />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -234,8 +234,8 @@ Windows 7 中的關鍵字已引進標準語法。 具有標準屬性的查詢範
 <tr class="odd">
 <td>COP_EQUAL</td>
 <td>=<br/></td>
-<td>System. FileExtension： = &quot; .txt&quot;<br/></td>
-<td>此值為字串 &quot; <em>.txt</em> &quot; 。<br/></td>
+<td>System. FileExtension： = &quot;.txt&quot;<br/></td>
+<td>值是.txt的字串 &quot; <em></em> &quot; 。<br/></td>
 </tr>
 <tr class="even">
 <td>COP_NOTEQUAL</td>
@@ -332,9 +332,9 @@ Windows 7 中的關鍵字已引進標準語法。 具有標準屬性的查詢範
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -408,7 +408,7 @@ Windows 7 中的關鍵字已引進標準語法。 具有標準屬性的查詢範
 
 ## <a name="scope-restrictions"></a>範圍限制
 
-使用者可以將搜尋範圍限制在特定資料夾位置或資料存放區。 例如，如果您使用數個電子郵件帳戶，而您想要將查詢限制為 Microsoft Outlook 或 Microsoft Outlook Express，則可以使用 `System.Search.Store:mapi` 或分別使用或 `System.Search.Store:oe` 。 下表說明如何依資料存放區限制搜尋的一些範例。
+使用者可以將搜尋範圍限制在特定資料夾位置或資料存放區。 例如，如果您使用數個電子郵件帳戶，而您想要將查詢限制為 microsoft Outlook 或 microsoft Outlook Express，則可以使用 `System.Search.Store:mapi` 或分別使用或 `System.Search.Store:oe` 。 下表說明如何依資料存放區限制搜尋的一些範例。
 
 
 
@@ -426,7 +426,7 @@ Windows 7 中的關鍵字已引進標準語法。 具有標準屬性的查詢範
 
 ## <a name="additional-resources"></a>其他資源
 
--   在 Windows 7 （含）以後版本中，您可以根據是否符合 AQS 條件來使用快捷方式功能表選項。 如需詳細資訊，請參閱 [建立快捷方式功能表處理常式](../shell/context-menu-handlers.md)中的「使用 Advanced Query 語法取得靜態動詞的動態行為」。
+-   在 Windows 7 和更新版本中，可以根據是否符合 AQS 條件來使用快捷方式功能表選項。 如需詳細資訊，請參閱 [建立快捷方式功能表處理常式](../shell/context-menu-handlers.md)中的「使用 Advanced Query 語法取得靜態動詞的動態行為」。
 -   AQS 查詢可以限制為特定類型的檔案，也就是所謂的檔案類型。 如需詳細資訊，請參閱 [檔案類型和關聯](../shell/fa-intro.md)。 如需屬性參考 [檔，請參閱 system.string](../properties/props-system-kind.md)和 [system. KindText](../properties/props-system-kindtext.md)。
 
 ## <a name="related-topics"></a>相關主題

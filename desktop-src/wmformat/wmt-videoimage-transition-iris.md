@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cd216c7387f850f317417717c50216dd63449843
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 919af0b15ef8a7437c9852df3ff12623553cdabf
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106983100"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122472964"
 ---
 # <a name="wmt_videoimage_transition_iris"></a>WMT \_ VIDEOIMAGE \_ 轉換 \_ 鳶尾花
 
@@ -31,51 +31,15 @@ ms.locfileid: "106983100"
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>參數</th>
-<th>結構成員</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>中心 X</td>
-<td><strong>fEffectPara0</strong></td>
-<td>相對於影片框架的 X 座標，鳶尾花效果的中心。</td>
-</tr>
-<tr class="even">
-<td>中心 Y</td>
-<td><strong>fEffectPara1</strong></td>
-<td>相對於影片框架的 Y 座標，鳶尾花效果的中心。</td>
-</tr>
-<tr class="odd">
-<td>寬度</td>
-<td><strong>fEffectPara2</strong></td>
-<td>垂直線的寬度，以圖元為單位顯示新影像。</td>
-</tr>
-<tr class="even">
-<td>高度</td>
-<td><strong>fEffectPara3</strong></td>
-<td>水平線的高度會顯示新影像（以圖元為單位）。</td>
-</tr>
-<tr class="odd">
-<td>Composition</td>
-<td><strong>fEffectPara4</strong></td>
-<td>設定為下列其中一個值：
-<ul>
-<li>0-指定一般組合，其中上一個影像是背景，而目前影像是前景。</li>
-<li>1-指定反轉組合，其中目前影像是背景影像，而上一個影像是前景</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| 參數 | 結構成員 | Description | 
+|-----------|------------------|-------------|
+| 中心 X | <strong>fEffectPara0</strong> | 相對於影片框架的 X 座標，鳶尾花效果的中心。 | 
+| 中心 Y | <strong>fEffectPara1</strong> | 相對於影片框架的 Y 座標，鳶尾花效果的中心。 | 
+| 寬度 | <strong>fEffectPara2</strong> | 垂直線的寬度，以圖元為單位顯示新影像。 | 
+| 高度 | <strong>fEffectPara3</strong> | 水平線的高度會顯示新影像（以圖元為單位）。 | 
+| Composition | <strong>fEffectPara4</strong> | 設定為下列其中一個值：<ul><li>0-指定一般組合，其中上一個影像是背景，而目前影像是前景。</li><li>1-指定反轉組合，其中目前影像是背景影像，而上一個影像是前景</li></ul> | 
+
 
 
 

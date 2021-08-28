@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 11c991dc38d78cd19aa2f5cc3d026d6ba9f59057dfad751229db1b0007f4fe55
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a54f9833003fb69e9daf4d265b02941f1ccd6b4e
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119624578"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122623184"
 ---
 # <a name="span-idvspixengineexperimenttriggertypespanexperimenttriggertype-enumeration"></a><span id="vspixengine.experimenttriggertype"></span>EXPERIMENTTRIGGERTYPE 列舉
 
@@ -43,7 +43,7 @@ ms.locfileid: "119624578"
 
 ## <a name="requirements"></a>規格需求
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>標頭</p></td><td>Vspixengine。h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>標頭</p></td><td>Vspixengine。h</td></tr></tbody></table>
 
  
 

@@ -4,21 +4,21 @@ description: VML 反光屬性
 ms.assetid: 99c301ff-ed61-48ef-95bb-ceaed1a2553c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b7a116adeb955c0f3449b374947a3f8121bd848e
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 0dea0abba3f605f749e07d247d207a50a6fe7b247ec54bd88024bad3915285e4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104315226"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120099048"
 ---
 # <a name="vml-shininess-attribute"></a>VML 反光屬性
 
 本主題說明 VML，這是 Windows Internet Explorer 9 淘汰的功能。 依賴 VML 的網頁和應用程式應該遷移至 SVG 或其他廣泛支援的標準。
 
 > [!Note]  
-> 從2011年12月起，本主題已封存。 因此，它不會再主動維護。 如需詳細資訊，請參閱封存的 [內容](/previous-versions/windows/internet-explorer/ie-developer/)。 如需目前 Windows Internet Explorer 版本的相關資訊、建議和指引，請參閱 [Internet Explorer 開發人員中心](https://msdn.microsoft.com/ie/)。
+> 從2011年12月起，本主題已封存。 因此，它不會再主動維護。 如需詳細資訊，請參閱封存的 [內容](/previous-versions/windows/internet-explorer/ie-developer/)。 如需有關 Windows Internet Explorer 目前版本的資訊、建議和指引，請參閱[Internet Explorer 開發人員中心](https://msdn.microsoft.com/ie/)。
 
- 
+ 
 
 定義在拉伸表面上反射光源的集中。 讀取/寫入 **VgNumber**。
 
@@ -40,8 +40,8 @@ ms.locfileid: "104315226"
 
 高值 (8-10) 會接近鏡像和低值的反光 (2-3) 會接近 speckled 的效果。 4-7 的值是一般的。 反射不會鏡像其他物件;只會反映精確的光源。 預設值為 5。
 
-*Microsoft Office Extensions 屬性*
+*Microsoft OfficeExtensions 屬性*
 
- 
+ 
 
- 
+ 

@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 31e1d42e4660e0e73830876cfdeb0a5c8a5957cd
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: b30a1c6cb31038d69c9feb85f0382fd5f4bb89bf
+ms.sourcegitcommit: 4e94fc75fad7b2a0f3c92a26f97e89924e59b7a9
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122471884"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "122786704"
 ---
 # <a name="explorer-data-provider-sample"></a>Explorer 資料提供者範例
 
@@ -62,7 +62,7 @@ ms.locfileid: "122471884"
 > [!Note]  
 > 在 Windows SDK 中包含的此範例版本中，64位發行組建的設定不會在連結器的 **模組定義** 檔選項中包含 ExplorerDataProvider .def 檔。 您必須自行指定該檔案，才能在64位環境中建立。 將這一行加入 `ModuleDefinitionFile="ExplorerDataProvider.def"` 至 VCLinkerTool 區段， (從 ExplorerDataProvider vcproj 檔案的行 329) 開始，如下所示：
 >
-> <span codelanguage=""></span>
+> 
 >
 > 
 | | | <pre><code>LinkIncremental="1"&gt; AdditionalLibraryDirectories=""c:\Program Files\Microsoft SDKs\Windows\v6.0\Lib\x64""&gt; ModuleDefinitionFile="ExplorerDataProvider.def"&gt; GenerateDebugInformation="true"</code></pre> | 

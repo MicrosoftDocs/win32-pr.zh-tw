@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: WMI 提供者記錄檔
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f0b485c16c44ad5ac26c51db7551baa423ad1a58
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ed9cc74b9f1c6be16f1d85eb1e1863e0dc8b7b33
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848609"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122880005"
 ---
 # <a name="wmi-provider-log-files"></a>WMI 提供者記錄檔
 
@@ -25,7 +25,7 @@ WMI 提供者也可以維護記錄。 哪些記錄檔會出現在系統上，視
 
 ## <a name="wmiprovlog"></a>Wmiprov .log
 
-Wmiprov 檔案包含已啟用 WMI 的 Windows Driver Model (WDM) 驅動程式和 [Wdm 提供者](/windows/desktop/WmiCoreProv/wdm-provider)的管理資料和事件。 它會提供警告和錯誤資訊，主要用於疑難排解和偵測使用它的提供者和用戶端應用程式。
+Wmiprov 檔案包含已啟用 WMI 的 Windows Driver Model (WDM) 驅動程式和[wdm 提供者](/windows/desktop/WmiCoreProv/wdm-provider)的管理資料和事件。 它會提供警告和錯誤資訊，主要用於疑難排解和偵測使用它的提供者和用戶端應用程式。
 
 Wmiprov 包含：
 
@@ -48,10 +48,10 @@ Dsprovider 記錄檔包含 [Active Directory 提供者](/previous-versions/windo
 
 | 訊息                                                                                                                                                                                                                                                                                                        | 描述                                                                                                                                                                                                                                                                                                                                                                                                  |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| RootDSE 上的 CLDAPClassProvider：： InitializeLDAPProvider ADsGetObject 失敗： <hresult>                                                                                                                                                                                                                    | 嘗試取得目錄服務的根目錄時，ADSI 呼叫失敗。 確認您的電腦是網域的成員。                                                                                                                                                                                                                                                                             |
-| CDSClassProvider：： GetObjectAsync () GetClassFromCacheOrADSI 失敗 <class name><hresult>                                                                                                                                                                                                  | 您嘗試取得的類別不是目錄中的有效類別。 確認類別名稱是正確的。                                                                                                                                                                                                                                                                                                |
-| CLDAPInstanceProvider：:P utInstanceAsync () ModifyExistingInstance 失敗，LDAP：//CN = foo1，CN = Users，DC = dsprovider，DC = nttest，DC = Microsoft，DC = com with <hresult>                                                                                                                                       | 提供者無法將修改過的實例寫入目錄服務。 確定您使用的是 [**IWbemCoNtext**](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemcontext) 介面，以指定您要修改的屬性集。 如需有關如何搭配使用 **IWbemCoNtext** 介面和 [**PutInstance**](/windows/desktop/api/Provider/nf-provider-provider-putinstance(constcinstance__long))的詳細資訊，請參閱 [更新整個實例](updating-an-entire-instance.md)。 |
-| CLDAPHelper：： GetADSIInstance ADsOpenObject <class name> () 在上失敗 <hresult><br/> CLDAPInstanceProvider：： GetObjectAsync： GetADSIInstance () 失敗 <hresult><br/> Ds 使用者的 CLDAPInstanceProvider：： GetObjectAsync () 失敗 \_ 。ADSIPath = "<class name><br/> | 這三個訊息表示您嘗試取得的實例不存在於目錄服務中。 確認 **ADSIPath** 值和類別名稱正確無誤。                                                                                                                                                                                                                                |
+| RootDSE 上的 CLDAPClassProvider：： InitializeLDAPProvider ADsGetObject 失敗： &lt; hresult&gt;                                                                                                                                                                                                                    | 嘗試取得目錄服務的根目錄時，ADSI 呼叫失敗。 確認您的電腦是網域的成員。                                                                                                                                                                                                                                                                             |
+| <class name>具有 hresult 的 CDSClassProvider：： GetObjectAsync () GETCLASSFROMCACHEORADSI &lt; 失敗&gt;                                                                                                                                                                                                  | 您嘗試取得的類別不是目錄中的有效類別。 確認類別名稱是正確的。                                                                                                                                                                                                                                                                                                |
+| CLDAPInstanceProvider：在 LDAP：//CN = foo1，CN = Users，DC = dsprovider，DC = nttest，DC = Microsoft，DC = com with hresult 的:P utInstanceAsync () ModifyExistingInstance 失敗 &lt;&gt;                                                                                                                                       | 提供者無法將修改過的實例寫入目錄服務。 確定您使用的是 [**IWbemCoNtext**](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemcontext) 介面，以指定您要修改的屬性集。 如需有關如何搭配使用 **IWbemCoNtext** 介面和 [**PutInstance**](/windows/desktop/api/Provider/nf-provider-provider-putinstance(constcinstance__long))的詳細資訊，請參閱 [更新整個實例](updating-an-entire-instance.md)。 |
+| CLDAPHelper：： GetADSIInstance ADsOpenObject () 在 hresult 上失敗 <class name> &lt;&gt;<br/> CLDAPInstanceProvider：： GetObjectAsync： GetADSIInstance () 失敗， &lt; hresult&gt;<br/> Ds 使用者的 CLDAPInstanceProvider：： GetObjectAsync () 失敗 \_ 。ADSIPath = "<class name><br/> | 這三個訊息表示您嘗試取得的實例不存在於目錄服務中。 確認 **ADSIPath** 值和類別名稱正確無誤。                                                                                                                                                                                                                                |
 
 
 

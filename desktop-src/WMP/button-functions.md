@@ -3,22 +3,22 @@ title: 按鈕函式
 description: 按鈕函式
 ms.assetid: 6383a9dc-31cc-409b-83b7-cb41050f18e8
 keywords:
-- Windows Media Player 行動外觀、按鈕功能
-- Windows Media Player 行動外觀、PlayPause 按鈕
-- Windows Media Player 行動外觀、停止按鈕
-- Windows Media Player 行動外觀、PlayPauseStop 按鈕
-- Windows Media Player 行動外觀、下一個按鈕
-- Windows Media Player 的行動外觀、前一個按鈕
+- Windows Media Player行動外觀、按鈕功能
+- Windows Media Player行動外觀、PlayPause 按鈕
+- Windows Media Player行動外觀、停止按鈕
+- Windows Media Player行動外觀、PlayPauseStop 按鈕
+- Windows Media Player行動外觀、下一個按鈕
+- Windows Media Player行動外觀、上一個按鈕
 - 外觀，按鈕功能
 - 面板中的按鈕，函數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3de2af79cc0766c63203782b66e4b495951cc9d7
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1039dc80dff0d42ce6c239d656dcc9b319c579c426cd4414c8e27aa4ca0bbb34
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104183977"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120123728"
 ---
 # <a name="button-functions"></a>按鈕函式
 
@@ -52,12 +52,12 @@ ms.locfileid: "104183977"
 
 <dl> <dt>
 
-[**Windows Media Player 行動功能**](windows-media-player-mobile-functionality.md)
+[**Windows Media Player行動功能**](windows-media-player-mobile-functionality.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

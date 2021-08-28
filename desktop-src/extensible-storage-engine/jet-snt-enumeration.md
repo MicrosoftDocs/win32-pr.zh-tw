@@ -34,12 +34,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: d25137c9e976d05bd065837fed7753e26e3afdae020499b3388948e11733fd77
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7d405e33b7d84d3a5a58dc9a13d5c070c47a6536
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118252522"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122467215"
 ---
 # <a name="jet_snt-enumeration"></a>JET_SNT 列舉
 
@@ -63,48 +63,15 @@ public enum JET_SNT
 
 ## <a name="members"></a>成員
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th></th>
-<th>成員名稱</th>
-<th>說明</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td></td>
-<td>開始</td>
-<td>作業開始的回呼。</td>
-</tr>
-<tr class="even">
-<td></td>
-<td>進度</td>
-<td>作業進度的回呼。</td>
-</tr>
-<tr class="odd">
-<td></td>
-<td>完成</td>
-<td>完成作業的回呼。</td>
-</tr>
-<tr class="even">
-<td></td>
-<td>失敗</td>
-<td>作業期間發生失敗的回呼。</td>
-</tr>
-<tr class="odd">
-<td></td>
-<td>RecoveryStep</td>
-<td>恢復控制的回呼。
-<p>用於在 Windows 8 之前的 Windows 作業系統版本中進行內部處理。 此值不適用於從 Windows 8 開始的 Windows 版本。</p></td>
-</tr>
-</tbody>
-</table>
+
+|  | 成員名稱 | 說明 | 
+|--|-------------|-------------|
+|  | 開始 | 作業開始的回呼。 | 
+|  | 進度 | 作業進度的回呼。 | 
+|  | 完成 | 完成作業的回呼。 | 
+|  | 失敗 | 作業期間發生失敗的回呼。 | 
+|  | RecoveryStep | 恢復控制的回呼。<p>用於在 Windows 8 之前的 Windows 作業系統版本中進行內部處理。 此值不適用於從 Windows 8 開始的 Windows 版本。</p> | 
+
 
 
 ## <a name="see-also"></a>另請參閱

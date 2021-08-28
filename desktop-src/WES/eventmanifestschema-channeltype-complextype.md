@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 81158306285631748830d8aaaaf9cf329d7c0af1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b780d68d419fa29d5ee13995f1b66a412fc89323
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466260"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122627964"
 ---
 # <a name="channeltype-complex-type"></a>ChannelType 複雜類型
 
@@ -82,9 +82,9 @@ ms.locfileid: "104466260"
 
 
 
-| 元素                                                                  | 類型                                                                                   | Description                                                                                                                                                                                                |
+| 元素                                                                  | 類型                                                                                   | 描述                                                                                                                                                                                                |
 |--------------------------------------------------------------------------|----------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**測 井**](eventmanifestschema-logging-channeltype-element.md)       | [**ChannelLoggingType**](eventmanifestschema-channelloggingtype-complextype.md)       | 定義支援通道之記錄檔的屬性，例如其容量，以及記錄檔是否為連續或迴圈。<br/>                                                         |
+| [**logging**](eventmanifestschema-logging-channeltype-element.md)       | [**ChannelLoggingType**](eventmanifestschema-channelloggingtype-complextype.md)       | 定義支援通道之記錄檔的屬性，例如其容量，以及記錄檔是否為連續或迴圈。<br/>                                                         |
 | [**出版**](eventmanifestschema-publishing-channeltype-element.md) | [**ChannelPublishingType**](eventmanifestschema-channelpublishingtype-complextype.md) | 為通道所使用的會話定義記錄屬性。 只有使用自訂隔離的 Debug 和分析通道和通道可以為其會話指定記錄屬性。<br/> |
 
 
@@ -95,21 +95,21 @@ ms.locfileid: "104466260"
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
 <th>名稱</th>
 <th>類型</th>
-<th>Description</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>access</td>
-<td>字串</td>
+<td>string</td>
 <td><a href="/windows/desktop/SecAuthZ/security-descriptor-definition-language">安全描述項定義語言</a> (SDDL) 存取描述項，可控制存取通道之記錄檔的存取權。 如果 [ <strong>隔離</strong> ] 屬性設定為 [應用程式] 或 [系統]，則存取描述項會控制檔案的讀取權限， (會忽略) 的寫入權限。 如果 [ <strong>隔離</strong> ] 屬性設定為 [自訂]，則存取描述項會控制通道的寫入存取權，以及對該檔案的讀取權限。<br/></td>
 </tr>
 <tr class="even">
@@ -124,7 +124,7 @@ ms.locfileid: "104466260"
 </tr>
 <tr class="even">
 <td>隔離</td>
-<td>字串</td>
+<td>string</td>
 <td>隔離值會定義通道的預設存取權限。 您可以指定下列其中一個值：
 <ul>
 <li><strong>應用程式</strong></li>
@@ -134,7 +134,7 @@ ms.locfileid: "104466260"
 預設隔離為 [ <strong>應用程式</strong>]。 <strong>應用程式</strong>的預設許可權 (使用 SDDL) 來顯示： <br/> <span data-codelanguage="Text"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -161,7 +161,7 @@ ms.locfileid: "104466260"
 <span data-codelanguage="Text"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -222,7 +222,7 @@ ms.locfileid: "104466260"
 <p>所有管理通道都使用相同的 ETW 會話;操作通道也是如此。 不過，每個分析和偵測通道都會使用個別的 ETW 會話，這是在需要時才啟用這些通道類型的另一個原因 () 可用的 ETW 會話數目有限。</p></td>
 </tr>
 <tr class="odd">
-<td>value</td>
+<td>值</td>
 <td><a href="eventmanifestschema-hexint8type-simpletype.md"><strong>UInt8Type</strong></a></td>
 <td><p>可唯一識別提供者所定義通道清單內通道的數值識別碼。 如果未指定，訊息編譯器會指派值。</p></td>
 </tr>
@@ -233,7 +233,7 @@ ms.locfileid: "104466260"
 
 ## <a name="remarks"></a>備註
 
-如果通道的名稱遵循通道命名慣例，Windows 事件檢視器將會使用反斜線後面的字串來列出通道。 例如，如果通道名稱為公司產品元件/可運作，則事件檢視器會將通道列為公司產品元件提供者下的運作方式。 否則，整個通道名稱會顯示在提供者底下。 如果有提供，則會使用當地語系化的顯示名稱。
+如果通道的名稱遵循通道命名慣例，則 Windows 事件檢視器會使用反斜線後面的字串來列出通道。 例如，如果通道名稱為公司產品元件/可運作，則事件檢視器會將通道列為公司產品元件提供者下的運作方式。 否則，整個通道名稱會顯示在提供者底下。 如果有提供，則會使用當地語系化的顯示名稱。
 
 ## <a name="requirements"></a>規格需求
 
@@ -241,8 +241,8 @@ ms.locfileid: "104466260"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

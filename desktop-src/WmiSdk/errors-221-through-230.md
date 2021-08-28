@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 錯誤221到230
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e250430efb20af40445e11a67059a31c838eb36ddfb57b1d3d52e29e66074b2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 462ed4786cc1f8be962a6e22556fdd39cc976b17
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119131420"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122887241"
 ---
 # <a name="errors-221-through-230"></a>錯誤221到230
 
@@ -38,7 +38,7 @@ ms.locfileid: "119131420"
 
 <dl> <dt>
 
-<span id="_222__Fatal_____fileName___line____NOTIFICATION-TYPE_not_allowed_in_SNMPv1_SMI_"></span><span id="_222__fatal_____filename___line____notification-type_not_allowed_in_snmpv1_smi_"></span><span id="_222__FATAL_____FILENAME___LINE____NOTIFICATION-TYPE_NOT_ALLOWED_IN_SNMPV1_SMI_"></span>**<222，嚴重>： " <fileName> ： <行 \#>： SNMPv1 smi-s 中不允許通知類型"**
+<span id="_222__Fatal_____fileName___line____NOTIFICATION-TYPE_not_allowed_in_SNMPv1_SMI_"></span><span id="_222__fatal_____filename___line____notification-type_not_allowed_in_snmpv1_smi_"></span><span id="_222__FATAL_____FILENAME___LINE____NOTIFICATION-TYPE_NOT_ALLOWED_IN_SNMPV1_SMI_"></span>**<222，嚴重>： " &lt; 檔案名 &gt; ： <行 \#>： SNMPv1 smi-s 中不允許的通知類型"**
 </dt> <dd>
 
 模組語法錯誤。 您已在 MIB 中使用 SNMPv2C 特定的通知類型，但指定了 **/v1** 參數，這需要嚴格符合 SNMPv1 語法。
@@ -49,7 +49,7 @@ ms.locfileid: "119131420"
 
 <dl> <dt>
 
-<span id="_223__Fatal_____fileName___line____MODULE-IDENTITY_not_allowed_in_SNMPv1_SMI_"></span><span id="_223__fatal_____filename___line____module-identity_not_allowed_in_snmpv1_smi_"></span><span id="_223__FATAL_____FILENAME___LINE____MODULE-IDENTITY_NOT_ALLOWED_IN_SNMPV1_SMI_"></span>**<223，嚴重>： " <fileName> ： <行 \#>：模組-不允許 SNMPv1 smi-s 中的身分識別」**
+<span id="_223__Fatal_____fileName___line____MODULE-IDENTITY_not_allowed_in_SNMPv1_SMI_"></span><span id="_223__fatal_____filename___line____module-identity_not_allowed_in_snmpv1_smi_"></span><span id="_223__FATAL_____FILENAME___LINE____MODULE-IDENTITY_NOT_ALLOWED_IN_SNMPV1_SMI_"></span>**<223、嚴重>：「 &lt; 檔案名 &gt; ： <行 \#>：模組-SNMPv1 smi-s 中不允許身分識別」**
 </dt> <dd>
 
 模組語法錯誤。 您已在 MIB 中使用 SNMPv2C 專屬的模組身分識別，但指定了 **/v1** 參數，這需要嚴格符合 SNMPv1 語法。
@@ -60,7 +60,7 @@ ms.locfileid: "119131420"
 
 <dl> <dt>
 
-<span id="_224__Fatal_____fileName___line____OBJECT-IDENTITY_not_allowed_in_SNMPv1_SMI_"></span><span id="_224__fatal_____filename___line____object-identity_not_allowed_in_snmpv1_smi_"></span><span id="_224__FATAL_____FILENAME___LINE____OBJECT-IDENTITY_NOT_ALLOWED_IN_SNMPV1_SMI_"></span>**<224，嚴重>： " <fileName> ： <行 \#>： SNMPv1 smi-s 中不允許物件身分識別」**
+<span id="_224__Fatal_____fileName___line____OBJECT-IDENTITY_not_allowed_in_SNMPv1_SMI_"></span><span id="_224__fatal_____filename___line____object-identity_not_allowed_in_snmpv1_smi_"></span><span id="_224__FATAL_____FILENAME___LINE____OBJECT-IDENTITY_NOT_ALLOWED_IN_SNMPV1_SMI_"></span>**<224、嚴重>：「 &lt; 檔案名 &gt; ： <行 \#>： SNMPv1 smi-s 中不允許物件身分識別」**
 </dt> <dd>
 
 模組語法錯誤。 您已在 MIB 中使用 SNMPv2C 特定的物件身分識別，但指定了 **/v1** 參數，這需要嚴格符合 SNMPv1 語法。
@@ -71,7 +71,7 @@ ms.locfileid: "119131420"
 
 <dl> <dt>
 
-<span id="_225__Fatal_____fileName___line____TEXTUAL-CONVENTION_not_allowed_in_SNMPv1_SMI_"></span><span id="_225__fatal_____filename___line____textual-convention_not_allowed_in_snmpv1_smi_"></span><span id="_225__FATAL_____FILENAME___LINE____TEXTUAL-CONVENTION_NOT_ALLOWED_IN_SNMPV1_SMI_"></span>**<225，嚴重>： " <fileName> ： <行 \#>： SNMPv1 smi-s 中不允許文字慣例」**
+<span id="_225__Fatal_____fileName___line____TEXTUAL-CONVENTION_not_allowed_in_SNMPv1_SMI_"></span><span id="_225__fatal_____filename___line____textual-convention_not_allowed_in_snmpv1_smi_"></span><span id="_225__FATAL_____FILENAME___LINE____TEXTUAL-CONVENTION_NOT_ALLOWED_IN_SNMPV1_SMI_"></span>**<225，嚴重>： " &lt; 檔案名 &gt; ： <行 \#>： SNMPv1 smi-s 中不允許文字慣例"**
 </dt> <dd>
 
 模組語法錯誤。 您已在 MIB 中使用 SNMPv2C 特定的文字慣例，但指定了 **/v1** 參數，這需要嚴格符合 SNMPv1 語法。
@@ -82,7 +82,7 @@ ms.locfileid: "119131420"
 
 <dl> <dt>
 
-<span id="_226__Fatal_____fileName___line____OBJECT-GROUP_not_allowed_in_SNMPv1_SMI_"></span><span id="_226__fatal_____filename___line____object-group_not_allowed_in_snmpv1_smi_"></span><span id="_226__FATAL_____FILENAME___LINE____OBJECT-GROUP_NOT_ALLOWED_IN_SNMPV1_SMI_"></span>**<226，嚴重>： " <fileName> ： <行 \#>： SNMPv1 smi-s 中不允許物件群組」**
+<span id="_226__Fatal_____fileName___line____OBJECT-GROUP_not_allowed_in_SNMPv1_SMI_"></span><span id="_226__fatal_____filename___line____object-group_not_allowed_in_snmpv1_smi_"></span><span id="_226__FATAL_____FILENAME___LINE____OBJECT-GROUP_NOT_ALLOWED_IN_SNMPV1_SMI_"></span>**<226、嚴重>：「 &lt; 檔案名 &gt; ： <行 \#>： SNMPv1 smi-s 中不允許物件群組」**
 </dt> <dd>
 
 模組語法錯誤。 您已在 MIB 中使用 SNMPv2C 特定的物件群組，但是指定了 **/v1** 參數，這需要嚴格符合 SNMPv1 語法。
@@ -93,7 +93,7 @@ ms.locfileid: "119131420"
 
 <dl> <dt>
 
-<span id="_227__Fatal_____fileName___line____NOTIFICATION-GROUP_not_allowed_in_SNMPv1_SMI_"></span><span id="_227__fatal_____filename___line____notification-group_not_allowed_in_snmpv1_smi_"></span><span id="_227__FATAL_____FILENAME___LINE____NOTIFICATION-GROUP_NOT_ALLOWED_IN_SNMPV1_SMI_"></span>**<227，嚴重>： " <fileName> ： <行 \#>： SNMPv1 smi-s 中不允許有通知群組」**
+<span id="_227__Fatal_____fileName___line____NOTIFICATION-GROUP_not_allowed_in_SNMPv1_SMI_"></span><span id="_227__fatal_____filename___line____notification-group_not_allowed_in_snmpv1_smi_"></span><span id="_227__FATAL_____FILENAME___LINE____NOTIFICATION-GROUP_NOT_ALLOWED_IN_SNMPV1_SMI_"></span>**<227，嚴重>： " &lt; 檔案名 &gt; ： <行 \#>： SNMPv1 smi-s 中不允許的通知群組"**
 </dt> <dd>
 
 模組語法錯誤。 您已在 MIB 中使用 SNMPv2C 特定的通知群組，但是指定了 **/v1** 參數，這需要嚴格符合 SNMPv1 語法。
@@ -104,7 +104,7 @@ ms.locfileid: "119131420"
 
 <dl> <dt>
 
-<span id="_228__Fatal_____fileName___line____MODULE-COMPLIANCE_not_allowed_in_SNMPv1_SMI_"></span><span id="_228__fatal_____filename___line____module-compliance_not_allowed_in_snmpv1_smi_"></span><span id="_228__FATAL_____FILENAME___LINE____MODULE-COMPLIANCE_NOT_ALLOWED_IN_SNMPV1_SMI_"></span>**<228，嚴重>： " <fileName> ： <行 \#>： SNMPv1 smi-s 中不允許模組合規性」**
+<span id="_228__Fatal_____fileName___line____MODULE-COMPLIANCE_not_allowed_in_SNMPv1_SMI_"></span><span id="_228__fatal_____filename___line____module-compliance_not_allowed_in_snmpv1_smi_"></span><span id="_228__FATAL_____FILENAME___LINE____MODULE-COMPLIANCE_NOT_ALLOWED_IN_SNMPV1_SMI_"></span>**<228、嚴重>：「 &lt; 檔案名 &gt; ： <行 \#>： SNMPv1 smi-s 中不允許模組合規性」**
 </dt> <dd>
 
 模組語法錯誤。 您已在 MIB 中使用 SNMPv2C 特定的模組相容性，但指定了 **/v1** 參數，這需要嚴格符合 SNMPv1 語法。
@@ -115,7 +115,7 @@ ms.locfileid: "119131420"
 
 <dl> <dt>
 
-<span id="_229__Fatal_____fileName___line____AGENT-CAPABILITIES_not_allowed_in_SNMPv1_SMI_"></span><span id="_229__fatal_____filename___line____agent-capabilities_not_allowed_in_snmpv1_smi_"></span><span id="_229__FATAL_____FILENAME___LINE____AGENT-CAPABILITIES_NOT_ALLOWED_IN_SNMPV1_SMI_"></span>**<229，嚴重>： " <fileName> ： <行 \#>： SNMPv1 smi-s 中不允許代理程式功能」**
+<span id="_229__Fatal_____fileName___line____AGENT-CAPABILITIES_not_allowed_in_SNMPv1_SMI_"></span><span id="_229__fatal_____filename___line____agent-capabilities_not_allowed_in_snmpv1_smi_"></span><span id="_229__FATAL_____FILENAME___LINE____AGENT-CAPABILITIES_NOT_ALLOWED_IN_SNMPV1_SMI_"></span>**<229、嚴重>：「 &lt; 檔案名 &gt; ： <行 \#>： SNMPv1 smi-s 中不允許代理程式功能」**
 </dt> <dd>
 
 模組語法錯誤。 您已在 MIB 中使用 SNMPv2C 特定的代理程式功能，但指定了 **/v1** 參數，這需要嚴格符合 SNMPv1 語法。
@@ -126,7 +126,7 @@ ms.locfileid: "119131420"
 
 <dl> <dt>
 
-<span id="_230__Warning_____fileName___line______the_wrong_token___used._Assuming________"></span><span id="_230__warning_____filename___line______the_wrong_token___used._assuming________"></span><span id="_230__WARNING_____FILENAME___LINE______THE_WRONG_TOKEN___USED._ASSUMING________"></span>**<230，警告>： " <fileName> ： <行 \#>： ' <the wrong token> ' 已使用。假設 '：： = ' "**
+<span id="_230__Warning_____fileName___line______the_wrong_token___used._Assuming________"></span><span id="_230__warning_____filename___line______the_wrong_token___used._assuming________"></span><span id="_230__WARNING_____FILENAME___LINE______THE_WRONG_TOKEN___USED._ASSUMING________"></span>**<230，警告>： " &lt; fileName &gt; ： <行 \#>： ' <the wrong token> ' 已使用。假設 '：： = ' "**
 </dt> <dd>
 
 已使用標記 "： ="、"：：" 或 "="，而不是 "：： ="。

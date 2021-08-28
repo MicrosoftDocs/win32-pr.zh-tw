@@ -21,12 +21,12 @@ keywords:
 - 控制項類型，工具提示
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dc3c9f227faf5dd9844f809dac43cf160371490d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a627114afcdeeb9b6e156572476462fa7ecde75a
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103673071"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122472854"
 ---
 # <a name="tooltip-control-type"></a>ToolTip 控制項類型
 
@@ -48,36 +48,15 @@ ms.locfileid: "103673071"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>控制項檢視</th>
-<th>內容檢視</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>ToolTip
-<ul>
-<li>文字 (0 個以上)</li>
-<li>影像 (0 個以上)</li>
-</ul></li>
-</ul></td>
-<td><ul>
-<li>ToolTip</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| 控制項檢視 | 內容檢視 | 
+|--------------|--------------|
+| <ul><li>ToolTip<ul><li>文字 (0 個以上)</li><li>影像 (0 個以上)</li></ul></li></ul> | <ul><li>ToolTip</li></ul> | 
 
 
 
- 
+
+ 
 
 只有當工具提示控制項可以接收鍵盤焦點時，才會出現在消費者介面自動化樹狀結構的內容視圖中。 否則，您可以從工具提示所參考專案上的 [**IUIAutomationElement：： CurrentHelpText**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationelement-get_currenthelptext) (或 [**CachedHelpText**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationelement-get_cachedhelptext)) 屬性取得所有工具提示資訊。
 
@@ -96,7 +75,7 @@ ms.locfileid: "103673071"
 | [**UIA \_ ClickablePointPropertyId**](uiauto-automation-element-propids.md)             | 請參閱備註。  | 可點按的點應該是可關閉控制項的工具提示部分。 某些工具提示沒有這種功能，也不會有可點按的點。                                                                                                                                                                                                  |
 | [**UIA \_ ControlTypePropertyId**](uiauto-automation-element-propids.md)                   | **ToolTip** |                                                                                                                                                                                                                                                                                                                                                                |
 | [**UIA \_ IsContentElementPropertyId**](uiauto-automation-element-propids.md)         | 相依     | 如果工具提示控制項可以接收鍵盤焦點，則它必須出現在樹狀結構的內容視圖中。 如果只是文字，則會從引發它的控制項以 [**IUIAutomationElement：： CurrentHelpText**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationelement-get_currenthelptext) (或 [**CachedHelpText**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationelement-get_cachedhelptext)) 屬性的形式提供。 |
-| [**UIA \_ IsControlElementPropertyId**](uiauto-automation-element-propids.md)         | 對        | 工具提示控制項一律包含在消費者介面自動化樹狀結構的控制項視圖中。                                                                                                                                                                                                                                                                          |
+| [**UIA \_ IsControlElementPropertyId**](uiauto-automation-element-propids.md)         | 是        | 工具提示控制項一律包含在消費者介面自動化樹狀結構的控制項視圖中。                                                                                                                                                                                                                                                                          |
 | [**UIA \_ IsKeyboardFocusablePropertyId**](uiauto-automation-element-propids.md)   | 請參閱備註。  | 如果控制項可接收鍵盤焦點，就必定支援此屬性。                                                                                                                                                                                                                                                                                      |
 | [**UIA \_ LabeledByPropertyId**](uiauto-automation-element-propids.md)                       | NULL        | 工具提示控制項的內容一律會自行加上標籤。                                                                                                                                                                                                                                                                                                    |
 | [**UIA \_ LocalizedControlTypePropertyId**](uiauto-automation-element-propids.md) | 請參閱備註。  | 對應到工具提示控制項類型的當地語系化字串。 預設值為 "tooltip"，適用于 en-us 或英文 (美國) 。                                                                                                                                                                                                                               |
@@ -104,7 +83,7 @@ ms.locfileid: "103673071"
 
 
 
- 
+ 
 
 ## <a name="required-control-patterns"></a>必要的控制項模式
 
@@ -119,7 +98,7 @@ ms.locfileid: "103673071"
 
 
 
- 
+ 
 
 ## <a name="required-events"></a>必要的事件
 
@@ -146,7 +125,7 @@ ms.locfileid: "103673071"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -161,9 +140,9 @@ ms.locfileid: "103673071"
 [UI 自動化概觀](uiauto-uiautomationoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

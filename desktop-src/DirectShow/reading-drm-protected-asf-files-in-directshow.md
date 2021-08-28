@@ -4,12 +4,12 @@ ms.assetid: a014942a-01e5-49d4-8a25-4604cd40f374
 title: 在 DirectShow 中讀取 DRM-Protected 的 ASF 檔案
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 46eaafe96b00019e7c4e69741c251bc0079c459d
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: 178dc0dbaa9a8b8e2e849164106816afc6990c89
+ms.sourcegitcommit: 4e94fc75fad7b2a0f3c92a26f97e89924e59b7a9
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122466575"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "122786964"
 ---
 # <a name="reading-drm-protected-asf-files-in-directshow"></a>在 DirectShow 中讀取 DRM-Protected 的 ASF 檔案
 
@@ -195,7 +195,7 @@ HRESULT Player::LoadMediaFile(PCWSTR pwszFile)
             hr = m_pFileSource->Load(pwszFile, NULL);
 ```
 
-<span codelanguage="ManagedCPlusPlus"></span>
+
 
 
 | C++ | 

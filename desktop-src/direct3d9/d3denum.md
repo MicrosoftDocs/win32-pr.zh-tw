@@ -4,12 +4,12 @@ ms.assetid: 78ff4433-f0b5-4bbb-b2c0-bd389fbc31ce
 title: D3DENUM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 829d03bf596c24bfb6b3443ace859629f723a664
-ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
+ms.openlocfilehash: 50cb3ed10a4a12602e8586bbd0e941641287346a
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "110343253"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122627994"
 ---
 # <a name="d3denum"></a>D3DENUM
 
@@ -19,9 +19,9 @@ ms.locfileid: "110343253"
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -36,7 +36,7 @@ ms.locfileid: "110343253"
 <table>
 <tbody>
 <tr class="odd">
-<td>Direct3D 9 與 Direct3D 9Ex 之間的差異：<br/> 在 Windows Vista、Windows Server 2008、Windows 7 和 Windows Server 2008 R2 上執行的 Direct3D9Ex 已淘汰 D3DENUM_WHQL_LEVEL， (或更新的作業系統) 。 其中任何一個作業系統都會針對 WHQL 等級傳回1，而不會檢查驅動程式的狀態。 <br/></td>
+<td>Direct3D 9 與 Direct3D 9Ex 之間的差異：<br/> D3DENUM_WHQL_LEVEL 已被取代為在 Windows Vista、Windows Server 2008、Windows 7 和 Windows Server 2008 R2 (或更新的作業系統) 上執行的 Direct3D9Ex。 其中任何一個作業系統都會針對 WHQL 等級傳回1，而不會檢查驅動程式的狀態。 <br/></td>
 </tr>
 </tbody>
 </table>

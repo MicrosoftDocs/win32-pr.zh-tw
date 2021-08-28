@@ -1,33 +1,33 @@
 ---
-title: Windows Media Player SDK 列舉類型
+title: Windows Media PlayerSDK 列舉類型
 description: 瞭解 Windows Media Player SDK 支援的列舉類型，例如 WMPBurnFormat 和 WMPBurnState。
 ms.assetid: 90689fb7-656d-4c06-a0a9-02bbe0e5b5dd
 keywords:
 - Windows Media Player，列舉類型
 - Windows Media Player 物件模型，列舉類型
 - 物件模型、列舉類型
-- Windows Media Player ActiveX 控制項，列舉類型
+- Windows Media Player ActiveX 控制項、列舉類型
 - ActiveX 控制項，列舉類型
-- Windows Media Player 的行動 ActiveX 控制項、列舉類型
-- Windows Media Player 的行動，列舉類型
+- Windows Media PlayerMobile ActiveX 控制項，列舉類型
+- Windows Media Player行動、列舉類型
 - 列舉，類型
 - 物件模型、列舉類型的參考
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b5f0bd389548c81da21217e28f9c90a8e771a5f6
-ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
+ms.openlocfilehash: c8a7cf5893e522b4410a56c5ce4e4d2c1bf8f0d3c5903cfcb097f2012331db72
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "112068494"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120123658"
 ---
-# <a name="windows-media-player-sdk-enumeration-types"></a>Windows Media Player SDK 列舉類型
+# <a name="windows-media-player-sdk-enumeration-types"></a>Windows Media PlayerSDK 列舉類型
 
 Windows Media Player SDK 支援下列列舉類型。
 
 
 
-| 列舉類型                                                             | Description                                                                                                            |
+| 列舉類型                                                             | 描述                                                                                                            |
 |------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|
 | [WMPBurnFormat](/previous-versions/windows/desktop/api/wmp/ne-wmp-wmpburnformat)                                           | 定義燒錄的 Cd 可能類型。                                                                         |
 | [WMPBurnState](/previous-versions/windows/desktop/api/wmp/ne-wmp-wmpburnstate)                                             | 定義 Windows Media Player 在燒錄 CD 時可能的操作狀態。                                      |
@@ -49,7 +49,7 @@ Windows Media Player SDK 支援下列列舉類型。
 
 <dl> <dt>
 
-[**Windows Media Player 物件模型參考**](windows-media-player-object-model-reference.md)
+[**Windows Media Player物件模型參考**](windows-media-player-object-model-reference.md)
 </dt> </dl>
 
  

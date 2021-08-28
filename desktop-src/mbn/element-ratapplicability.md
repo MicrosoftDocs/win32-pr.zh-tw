@@ -7,12 +7,12 @@ MSHAttr:
 title: RATApplicability
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: df188ec628961aed8aeb5d68e3b9b3f7852e7fdd
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.openlocfilehash: 328aa4978e951da1679582f41c087038869e008e
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 08/26/2021
-ms.locfileid: "122986851"
+ms.locfileid: "122880479"
 ---
 # <a name="span-idwwan_profile_v4element_ratapplicabilityspanratapplicability"></a><span id="WWAN_profile_v4.element_RATApplicability"></span>RATApplicability
 
@@ -47,7 +47,7 @@ ms.locfileid: "122986851"
 ### <a name="span-idparent_elementsspanspan-idparent_elementsspanparent-elements"></a><span id="parent_elements"></span><span id="PARENT_ELEMENTS"></span>父元素
 
 
-| Parent 項目 | Description | 
+| Parent 項目 | 說明 | 
 |----------------|-------------|
 | <a href="element-profileconditionedon.md">ProfileConditionedOn</a> | <p>指定必須滿足的條件，設定檔才適用。</p><p>此元素是 v4 的新專案。 它可讓您指定在不同條件下套用的多個設定檔，並在適用時自動使用適當的設定檔。 這是選擇性的項目。 如果您未指定，則設定檔一律適用于所列出的條件。</p> | 
 
@@ -57,9 +57,7 @@ ms.locfileid: "122986851"
 ## <a name="requirements"></a>規格需求
 
 
-| 需求 | 值 |
-|------------|----------|
-| <p>命名空間</p> | <p>https://www.microsoft.com/networking/WWAN/profile/v4</p> | 
+| | | <p>命名空間</p> | <p>https://www.microsoft.com/networking/WWAN/profile/v4</p> | 
 
 
  

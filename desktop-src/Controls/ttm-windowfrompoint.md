@@ -3,7 +3,7 @@ title: 'TTM_WINDOWFROMPOINT 訊息 (Commctrl .h) '
 description: 允許子類別程式使工具提示顯示滑鼠游標下方以外的視窗文字。
 ms.assetid: f3bf6917-1745-4e4f-a9c1-8fe86b2b3906
 keywords:
-- TTM_WINDOWFROMPOINT message Windows 控制項
+- TTM_WINDOWFROMPOINT 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 68679f6b6c2477a8279c22f11d0d300e44c8370d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 572ce204fd9f0056ef77d62c7909a7281c478c38f6abeb95089ce86b0bdb1b8f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103686097"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120109538"
 ---
 # <a name="ttm_windowfrompoint-message"></a>TTM \_ WINDOWFROMPOINT 訊息
 
@@ -53,8 +53,8 @@ ms.locfileid: "103686097"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

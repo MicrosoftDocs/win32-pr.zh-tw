@@ -7,12 +7,12 @@ MSHAttr:
 title: ICONFilePath
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4105dc7bf5f65eb3bc6dfe3e2abf2206caffc7a4
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.openlocfilehash: 50f902fe348322df2b29853aeafa65ec1cf68b71
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122879662"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122479914"
 ---
 # <a name="span-idwwan_profile_v4element_iconfilepathspaniconfilepath"></a><span id="WWAN_profile_v4.element_ICONFilePath"></span>ICONFilePath
 
@@ -22,8 +22,8 @@ ms.locfileid: "122879662"
 
 ## <a name="element-hierarchy"></a>元素階層
 
-[&lt;MBNProfileExt&gt;](element-mbnprofileext.md)  
-**&lt;ICONFilePath&gt;**
+[<MBNProfileExt>](element-mbnprofileext.md)  
+**<ICONFilePath>**
 
 ## <a name="syntax"></a>Syntax
 
@@ -48,7 +48,7 @@ ms.locfileid: "122879662"
 ### <a name="span-idparent_elementsspanspan-idparent_elementsspanparent-elements"></a><span id="parent_elements"></span><span id="PARENT_ELEMENTS"></span>父元素
 
 
-| Parent 項目 | 說明 | 
+| Parent 項目 | Description | 
 |----------------|-------------|
 | <a href="element-mbnprofileext.md">MBNProfileExt</a> | <p><strong>MBNProfileExt</strong>元素是先前 MBNProfile 專案的延伸模組。 它會以比 MBNProfile 元素更豐富的選項組來識別行動寬頻設定檔。</p><p>設定檔中可以有一個以上的 MbnProfileExt 元素，描述一組特定作業條件的設定檔設定。 使用<strong>MBNProfileExt</strong>的<a href="element-profileconditionedon.md"><strong>ProfileConditionedOn</strong></a>子項目，以指定哪些作業條件會將特定的設定檔設為使用中的設定檔。</p> | 
 
