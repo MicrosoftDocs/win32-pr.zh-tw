@@ -11,12 +11,12 @@ keywords:
 - mmioOpen 函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 82c3e98bbd3636fb88c834957ba2c3fb856406a8
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 90a2b1e2e47ffccc21b2684dcb6bd285b7e55470776fb57eb382a969091a19e8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104462961"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119805888"
 ---
 # <a name="performing-memory-file-io"></a>執行記憶體檔 i/o
 
@@ -35,6 +35,6 @@ ms.locfileid: "104462961"
 
 配置記憶體以做為 nonexpandable 記憶體檔案沒有任何限制。
 
- 
+ 
 
- 
+ 

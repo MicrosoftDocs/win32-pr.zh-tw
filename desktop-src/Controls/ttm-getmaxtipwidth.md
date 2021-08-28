@@ -3,7 +3,7 @@ title: 'TTM_GETMAXTIPWIDTH 訊息 (Commctrl .h) '
 description: 抓取工具提示視窗的最大寬度。
 ms.assetid: 0f0a5403-fe2e-4e5a-96c2-a435827a5fd7
 keywords:
-- TTM_GETMAXTIPWIDTH message Windows 控制項
+- TTM_GETMAXTIPWIDTH 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f89c56692db9d451eb18db61af262cc0f3a715f5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: bce561b254645932b214b48879aa0be04deb31b32e8dc591fc3183ec39871273
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934395"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119751048"
 ---
 # <a name="ttm_getmaxtipwidth-message"></a>TTM \_ GETMAXTIPWIDTH 訊息
 
@@ -49,8 +49,8 @@ ms.locfileid: "103934395"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

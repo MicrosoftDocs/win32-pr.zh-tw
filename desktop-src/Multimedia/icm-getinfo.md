@@ -3,7 +3,7 @@ title: 'ICM_GETINFO 訊息 (Vfw .h) '
 description: ICM \_ GETINFO 訊息會查詢視訊壓縮驅動程式，以在 ICINFO 結構中傳回本身的描述。
 ms.assetid: 8029f247-9777-4a34-9e84-908482094493
 keywords:
-- ICM_GETINFO message Windows 多媒體
+- ICM_GETINFO 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,14 +14,14 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 634803b7dd9a3b8900c35fabedcadb99908c2b31
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 173f510642b807a0e4c4a8c5c84d6d4de2aa7ce55cc0707eccabf5421cf98a44
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106966120"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119690808"
 ---
-# <a name="icm_getinfo-message"></a>ICM \_ GETINFO 訊息
+# <a name="icm_getinfo-message"></a>ICM \_GETINFO 訊息
 
 **ICM \_ GETINFO** 訊息會查詢視訊壓縮驅動程式，以在 [**ICINFO**](/windows/desktop/api/Vfw/ns-vfw-icinfo)結構中傳回本身的描述。
 

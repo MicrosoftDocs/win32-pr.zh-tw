@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 正在抓取錯誤碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 75c42dbd160ef6412c332e2da2c01f6590e10966
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2f16bb7af3c5c2b17d3a99ac00c9122a2ddfa6c075f463819e182fe44193613a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106977240"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119640628"
 ---
 # <a name="retrieving-an-error-code"></a>正在抓取錯誤碼
 

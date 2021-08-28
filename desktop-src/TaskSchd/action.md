@@ -15,12 +15,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 236b26cc4cfcd10f1e6e6094e4b69928343a9ada
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e4b9f41521f1af8b4601faafce9674277b172ad4cde3f364fc2ab7a84cfcc0df
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104508883"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119739038"
 ---
 # <a name="action-object"></a>Action 物件
 
@@ -38,7 +38,7 @@ ms.locfileid: "104508883"
 
 
 
-| 屬性                               | 存取類型           | Description                                           |
+| 屬性                               | 存取類型           | 描述                                           |
 |:---------------------------------------|:----------------------|:------------------------------------------------------|
 | [**Id**](action-id.md)<br/>     | 讀取/寫入<br/> | 取得或設定動作的識別碼。<br/> |
 | [**類型**](action-type.md)<br/> | 唯讀<br/>  | 取得動作的類型。<br/>               |
@@ -76,8 +76,8 @@ ms.locfileid: "104508883"
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                          |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                    |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                          |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                    |
 | 類型程式庫<br/>             | <dl> <dt>Taskschd.msc .tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 

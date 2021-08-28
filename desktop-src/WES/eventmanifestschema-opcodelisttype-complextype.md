@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: dce0942ef0268f50b25987a6be0fd4fffeebd614
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0c44a2c2fa38957f302dfe3861a89f57dbe51d44ca737268a8988f8c138be8b7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465181"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119767298"
 ---
 # <a name="opcodelisttype-complex-type"></a>OpcodeListType 複雜類型
 
@@ -40,7 +40,7 @@ ms.locfileid: "104465181"
 
 
 
-| 元素                                                             | 類型                                                             | Description                                                            |
+| 元素                                                             | 類型                                                             | 描述                                                            |
 |---------------------------------------------------------------------|------------------------------------------------------------------|------------------------------------------------------------------------|
 | [**opcode**](eventmanifestschema-opcode-opcodelisttype-element.md) | [**OpcodeType**](eventmanifestschema-opcodetype-complextype.md) | 定義應用程式元件內的作業。<br/> |
 
@@ -52,8 +52,8 @@ ms.locfileid: "104465181"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7f11b378b15e271200c730691c3654fd10e80f3a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b68a8f9c6661e78932893ef25278234fb4c944d22297cb87cc95aebe9bc8d8ef
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465109"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119865488"
 ---
 # <a name="setactiveserver-method-of-the-win32_rdmsenvironment-class"></a>Win32 RDMSEnvironment 類別的 SetActiveServer 方法 \_
 

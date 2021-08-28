@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 8af28c1e7b180980c9cb5286c81b5731e0b3bae2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 11710ad49b3b068b0e43753c166ba4f7205317bf64bd5fd7b2dc9311edfe6ba3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106981690"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119723518"
 ---
 # <a name="esentinvalidplaceholdercolumnexception-constructor"></a>EsentInvalidPlaceholderColumnException 函式
 

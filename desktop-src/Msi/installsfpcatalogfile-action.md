@@ -1,19 +1,19 @@
 ---
-description: InstallSFPCatalogFile 動作會安裝 Windows Me 用於 Windows 檔案保護的目錄。
+description: InstallSFPCatalogFile 動作會安裝 Windows Me 用來 Windows 檔案保護的目錄。
 ms.assetid: 1c8253f1-ac7d-4346-a16e-887d16f521d9
 title: InstallSFPCatalogFile 動作
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ddc4192f8ee0062c51833292a98c28ea27c12531
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 75f3992a64e5e3150759fdbc2c8221e6bd8672a2c75e72343280fb3e552f3cae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971177"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119787008"
 ---
 # <a name="installsfpcatalogfile-action"></a>InstallSFPCatalogFile 動作
 
-InstallSFPCatalogFile 動作會安裝 Windows Me 用於 Windows 檔案保護的目錄。 InstallSFPCatalogFile 會查詢 [Component 資料表](component-table.md)、 [File table](file-table.md)、 [FileSFPCatalog table](filesfpcatalog-table.md) 和 [SFPCatalog 資料表](sfpcatalog-table.md)。 如果目錄與元件中針對本機安裝所設定的檔案相關聯，或是與在本機安裝的元件中修復的檔案相關聯，就會安裝目錄。
+InstallSFPCatalogFile 動作會安裝 Windows Me 用來 Windows 檔案保護的目錄。 InstallSFPCatalogFile 會查詢 [Component 資料表](component-table.md)、 [File table](file-table.md)、 [FileSFPCatalog table](filesfpcatalog-table.md) 和 [SFPCatalog 資料表](sfpcatalog-table.md)。 如果目錄與元件中針對本機安裝所設定的檔案相關聯，或是與在本機安裝的元件中修復的檔案相關聯，就會安裝目錄。
 
 ## <a name="sequence-restrictions"></a>順序限制
 

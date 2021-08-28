@@ -4,16 +4,16 @@ ms.assetid: e18cede9-9bf7-4866-850b-5d7fa43a5b0f
 title: 一般存取權限
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: adff14aa259222bc37096b8a94f30cffb5ab0876
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ee90a6866afc294cfef1c8fdad96e239f76ce8f9c251aeabc2d2a907e3e0bbe5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103694140"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119672088"
 ---
 # <a name="generic-access-rights"></a>一般存取權限
 
-安全物件使用 [存取遮罩格式](access-mask-format.md) ，其中四個高序位位會指定一般存取權限。 每一種安全物件類型都會將這些位對應到一組其標準和物件特定的存取權限。 例如，Windows 檔案物件會將一般 \_ 讀取位對應到讀取 \_ 控制項，並同步處理標準存取權限和檔案讀取 \_ \_ 資料、檔案 \_ 讀取 \_ EA 和檔案 \_ 讀取 \_ 屬性物件特定存取權限。 其他類型的物件會將泛型 \_ 讀取位對應至任何一組適用于該類型物件的存取權限。
+安全物件使用 [存取遮罩格式](access-mask-format.md) ，其中四個高序位位會指定一般存取權限。 每一種安全物件類型都會將這些位對應到一組其標準和物件特定的存取權限。 例如，Windows 檔案物件會將一般 \_ 讀取位對應到讀取控制項， \_ 並同步處理標準存取權限和檔案讀取 \_ \_ 資料、檔案 \_ 讀取 \_ EA 和檔案 \_ 讀取 \_ 屬性物件特定存取權限。 其他類型的物件會將泛型 \_ 讀取位對應至任何一組適用于該類型物件的存取權限。
 
 當您開啟物件的控制碼時，您可以使用一般存取權限來指定所需的存取類型。 這通常比指定所有對應的標準和特定許可權來得簡單。
 

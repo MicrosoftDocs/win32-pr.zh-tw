@@ -4,12 +4,12 @@ ms.assetid: CB01B5ED-C9DB-410B-8C98-E30D9A680847
 title: 網路介面
 ms.topic: article
 ms.date: 06/29/2018
-ms.openlocfilehash: cc31be6062469750049a676807c2f8da24f473f1
-ms.sourcegitcommit: 4570ac533e129ff88b23f2c2b69e0140ead3a4a4
+ms.openlocfilehash: d74c875b579a34464190ca039e0176b8c01bef671b0ea6c24581023a49988645
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "106984897"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119825451"
 ---
 # <a name="network-interfaces"></a>網路介面
 
@@ -22,11 +22,11 @@ ms.locfileid: "106984897"
 
 *網路介面* 是兩個網路設備或通訊協定層連接的點。 一般來說，這是以實體網路介面卡來代表電腦與私人或公用網路之間的連接 (NIC) 。 不過，它也可以採用僅軟體元件的形式，例如 `127.0.0.1` IPv4 或 IPv6) 的回送介面 (`::1` 。
 
-網路介面是由網際網路工程任務推動小組 (IETF) 在 [RFC 2863](https://tools.ietf.org/html/rfc2863) 中定義，而不是由 Windows 定義。 如需有關網路介面識別碼（例如 **ifIndex**）意義的詳細問題，請參閱 IETF 的定義。 本主題的其餘部分將討論 Windows 特定的執行詳細資料。
+網路介面是由網際網路工程任務推動小組 (IETF) 在[RFC 2863](https://tools.ietf.org/html/rfc2863)中定義，而不是由 Windows 所定義。 如需有關網路介面識別碼（例如 **ifIndex**）意義的詳細問題，請參閱 IETF 的定義。 本主題的其餘部分將討論 Windows 特定的實作為詳細資料。
 
 ## <a name="network-interface-identifiers-and-properties"></a>網路介面識別碼和屬性
 
-在 Windows 上，網路介面可以用不同的方式來識別。 其中有些識別碼是用來區別彼此之間的網路介面，但並非所有識別碼都同樣適用于該工作，因為它們有不同的屬性。 一般而言，網路介面會由網路位址識別為外部元件。 例如，這可能是節點識別碼和埠號碼，或只是唯一的節點識別碼。 
+在 Windows 上，您可以使用不同的方式來識別網路介面。 其中有些識別碼是用來區別彼此之間的網路介面，但並非所有識別碼都同樣適用于該工作，因為它們有不同的屬性。 一般而言，網路介面會由網路位址識別為外部元件。 例如，這可能是節點識別碼和埠號碼，或只是唯一的節點識別碼。 
 
 在程式碼中，您可以透過許多方式來識別網路介面。 下表詳細說明網路介面的識別方式以及相關聯的屬性。 除非特定 API 需要不同的網路介面識別碼，否則建議使用介面 GUID (**ifGuid**) 進行程式設計。
 

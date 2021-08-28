@@ -17,12 +17,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: d900f42e5022301a08ebeee0036400be3a2f1bf0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9eed09eab5a2bbb6985d1dc230d12a4f60fe5834b3fce1927036b560adc5d7e2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970948"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119693518"
 ---
 # <a name="msvm_affectedstoragejobelement-class"></a>Msvm \_ AffectedStorageJobElement 類別
 
@@ -140,8 +140,8 @@ class Msvm_AffectedStorageJobElement : CIM_AffectedJobElement
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                                              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                                              |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                                                    |
 | 命名空間<br/>                | 根 \\ 虛擬化 \\ V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization。</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -158,7 +158,7 @@ class Msvm_AffectedStorageJobElement : CIM_AffectedJobElement
 [**CIM \_ AffectedJobElement**](/previous-versions//cc150663(v=vs.85))
 </dt> <dt>
 
-[儲存類別](storage-classes.md)
+[儲存體類](storage-classes.md)
 </dt> </dl>
 
  

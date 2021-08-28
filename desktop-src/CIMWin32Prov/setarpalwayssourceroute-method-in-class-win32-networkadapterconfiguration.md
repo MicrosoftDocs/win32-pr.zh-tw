@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 7151fbbd13d3ac6fdf4ac3b129cdcb438abe73a9
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 4be5443ce06b977373ef93e87b737350cf7fe771553db9e94da07311b2093da0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110357"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119752708"
 ---
 # <a name="setarpalwayssourceroute-method-of-the-win32_networkadapterconfiguration-class"></a>Win32 >networkadapterconfiguration 類別的 SetArpAlwaysSourceRoute 方法 \_
 

@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102272
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: bee56bcf0d4925c041444fe1f8878947cdc3fa3d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6a6a16be9e5c4721c9975f75e343f92ecf4b97d21e5fea5e69eea93035883cff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191980"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119734151"
 ---
 # <a name="esentmustcommitdistributedtransactiontolevel0exception-members"></a>EsentMustCommitDistributedTransactionToLevel0Exception 成員
 

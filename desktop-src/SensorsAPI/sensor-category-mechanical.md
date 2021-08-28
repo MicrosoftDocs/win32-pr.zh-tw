@@ -4,12 +4,12 @@ ms.assetid: d1243303-d26c-45ce-b97b-d554daeeb462
 title: 'SENSOR_CATEGORY_MECHANICAL (的感應器 .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2446559820141b65a70bc75d25680da79563388c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bbac9a00895b08bd99106af7f0b6986118b4645dac690fd190f734e1499940dc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972188"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119666708"
 ---
 # <a name="sensor_category_mechanical"></a>感應器 \_ 類別 \_ 機械
 
@@ -21,7 +21,7 @@ ms.locfileid: "106972188"
 
 
 
-| 感應器類型                                                                                                                                                                                                                                                                                                           | Description                                         |
+| 感應器類型                                                                                                                                                                                                                                                                                                           | 描述                                         |
 |:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------|
 | <span id="SENSOR_TYPE_BOOLEAN_SWITCH"></span><span id="sensor_type_boolean_switch"></span><dl> <dt>**感應器 \_類型 \_ 布林值 \_ 參數**</dt> <dt>{9C7E371F-1041-460B-8D5C-71E4752E350C}</dt> </dl>                    | 雙狀態參數 (關閉或) 。<br/>          |
 | <span id="SENSOR_TYPE_BOOLEAN_SWITCH_ARRAY"></span><span id="sensor_type_boolean_switch_array"></span><dl> <dt>**感應器 \_類型 \_ 布林值 \_ 參數 \_ 陣列**</dt> <dt>{545C8BA5-B143-4545-868F-CA7FD986B4F6}</dt> </dl> | 雙狀態參數的陣列 (關閉或) 。<br/> |
@@ -43,7 +43,7 @@ ms.locfileid: "106972188"
 
 
 
-| 資料欄位名稱和 PID                                                                                                                                                                                                                                                                                                         | Description                                                                        |
+| 資料欄位名稱和 PID                                                                                                                                                                                                                                                                                                         | 描述                                                                        |
 |:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------|
 | <span id="SENSOR_DATA_TYPE_ABSOLUTE_PRESSURE_PASCAL"></span><span id="sensor_data_type_absolute_pressure_pascal"></span><dl> <dt>**感應器 \_資料 \_ 類型 \_ 絕對 \_ 壓力 \_ PASCAL**</dt> <dt> (PID = 5)</dt> </dl>          | **VT \_ R8**<br/> 帕斯卡中的絕對壓力。<br/>                    |
 | <span id="SENSOR_DATA_TYPE_BOOLEAN_SWITCH_ARRAY_STATES"></span><span id="sensor_data_type_boolean_switch_array_states"></span><dl> <dt>**感應器 \_資料 \_ 類型 \_ 布林值 \_ SWITCH \_ 陣列 \_ 狀態**</dt> <dt> (PID = 10)</dt> </dl> | **VT \_ UI4**<br/> 布林值參數陣列的狀態欄位。<br/>   |
@@ -62,7 +62,7 @@ ms.locfileid: "106972188"
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                           |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                           |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                            |
 | 標頭<br/>                   | <dl> <dt>感應器。h</dt> </dl> |
 

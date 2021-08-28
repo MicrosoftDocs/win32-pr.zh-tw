@@ -4,12 +4,12 @@ ms.assetid: e36d42b2-9bdd-4dd9-9c62-1b7c78239ffe
 title: 從 c + + 中的 SID 建立用戶端內容
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 185f8cad2840ce51b03e634ea8b92d01847c7d8a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: eac8b054b88a624a0c97d0715e87e18f5ba3c2be0e1f54f2525c9d58a29f263b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194390"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119672288"
 ---
 # <a name="establishing-a-client-context-from-a-sid-in-c"></a>從 c + + 中的 SID 建立用戶端內容
 

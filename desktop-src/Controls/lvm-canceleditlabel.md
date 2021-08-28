@@ -3,7 +3,7 @@ title: 'LVM_CANCELEDITLABEL 訊息 (Commctrl .h) '
 description: 取消專案文字編輯作業。
 ms.assetid: 73e9c922-3223-4c49-a33c-df7c09443ccc
 keywords:
-- LVM_CANCELEDITLABEL message Windows 控制項
+- LVM_CANCELEDITLABEL 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: edfed26fb3c38d91f7a5b07683079d29ecd4597d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: da0b105c1082457c2cafd14e7a36361100f8e82197db7e5d76ae51447f945897
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104093856"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119698798"
 ---
 # <a name="lvm_canceleditlabel-message"></a>LVM \_ CANCELEDITLABEL 訊息
 
@@ -50,8 +50,8 @@ ms.locfileid: "104093856"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

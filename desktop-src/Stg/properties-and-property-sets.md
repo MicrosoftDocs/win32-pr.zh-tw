@@ -1,25 +1,25 @@
 ---
 title: 屬性和屬性集
-description: 雖然自動化和 Microsoft ActiveX 控制項提供的執行時間屬性種類很重要，但它們並不直接滿足儲存儲存在檔案系統中之物件資訊的需求。
+description: 雖然自動化和 Microsoft ActiveX 控制項提供的執行時間屬性種類很重要，但不直接滿足儲存儲存在檔案系統中之物件資訊的需求。
 ms.assetid: 350cfb84-2f8e-46e7-a70d-09beb14a8eee
 keywords:
 - 結構化儲存體 Strctd Stg.、基本概念、屬性和屬性集
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7fdafcbef0e92479aa628ab119b6d961abb74d82
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7df2ef4b3e4d91cc908d82b58a0ec0156a60de23208cfd8dde2718fa62eaab60
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372682"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119662258"
 ---
 # <a name="properties-and-property-sets"></a>屬性和屬性集
 
-雖然自動化和 Microsoft ActiveX 控制項提供的執行時間屬性種類很重要，但它們並不直接滿足儲存儲存在檔案系統中之物件資訊的需求。 這些實體可能包含 (結構化、複合) 、目錄和摘要目錄等檔案。 COM 同時提供這些持續性屬性的標準序列化格式，以及一組可讓您建立及操作屬性集及其屬性的介面和函式。
+雖然自動化和 Microsoft ActiveX 控制項提供的執行時間屬性種類很重要，但不直接滿足儲存儲存在檔案系統中之物件資訊的需求。 這些實體可能包含 (結構化、複合) 、目錄和摘要目錄等檔案。 COM 同時提供這些持續性屬性的標準序列化格式，以及一組可讓您建立及操作屬性集及其屬性的介面和函式。
 
 持續性屬性會儲存為集合，且一或多個集合可能會與檔案系統實體相關聯。 這些持續性屬性集會用來儲存適合當做更精細值集合來表示的資料。 它們並不是用來做為大型的資料基底。 它們可用來儲存有關系統上物件的摘要資訊，然後可供任何其他瞭解如何解讀該屬性集的物件存取。
 
-先前的 COM 版本指定的內容和用法非常少，但卻定義了序列化格式，可讓開發人員將屬性和屬性集儲存在 [**IStorage**](/windows/desktop/api/Objidl/nn-objidl-istorage) 實例中。 也定義了單一屬性集的屬性識別碼和語義（用於檔的摘要資訊）。 屆時，必須以資料流程的形式直接建立和操作該結構。 請參閱 [結構化儲存體序列化屬性集格式](structured-storage-serialized-property-set-format.md)。
+先前的 COM 版本指定的內容和用法非常少，但卻定義了序列化格式，可讓開發人員將屬性和屬性集儲存在 [**IStorage**](/windows/desktop/api/Objidl/nn-objidl-istorage) 實例中。 也定義了單一屬性集的屬性識別碼和語義（用於檔的摘要資訊）。 屆時，必須以資料流程的形式直接建立和操作該結構。 請參閱[結構化儲存體序列化屬性集格式](structured-storage-serialized-property-set-format.md)。
 
 不過，現在 COM 定義了兩個主要介面來管理屬性集：
 
@@ -58,9 +58,9 @@ ms.locfileid: "104372682"
 [效能特色](performance-characteristics.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

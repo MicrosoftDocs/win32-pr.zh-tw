@@ -15,5 +15,5 @@
       href: plane-structure.md
     - name: 四元數結構
       href: quaternion-structure.md
-    - name: Windows 數值和 DirectXMath interop Api
+    - name: Windows 數值和 DirectXMath interop api
       href: windows-numerics-and-directxmath-interop-apis.md

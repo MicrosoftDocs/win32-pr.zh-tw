@@ -4,12 +4,12 @@ ms.assetid: e3bd219d-c593-4267-b77d-81fee7430a97
 title: 辨識器 DLL 範例範本
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e1e50a3e9c8051dbe86761fc76c1625f622ac659
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b265e26c23020ce851f6d4a8d0dbc8e02011f69ae82d76c238224e362ef2af15
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106979272"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119708158"
 ---
 # <a name="recognizer-dll-sample-template"></a>辨識器 DLL 範例範本
 

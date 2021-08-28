@@ -7,12 +7,12 @@ keywords:
 - IPropertyStorage Strctd Stg.，獨立部署
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f35965831b0105557044461236030e3543c13217
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 200d7f328670b8945807b7db7f742feabe58ad32847e3c56aa98a34278a71fbf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104375653"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119662548"
 ---
 # <a name="ipropertystorage-stand-alone-implementation"></a>IPropertyStorage-獨立執行
 
@@ -76,11 +76,11 @@ VT \_ 錯誤
 
 VT \_ 變異
 
- 
+ 
 
 
 
- 
+ 
 
 當 VT \_ VARIANT 與 vt 陣列合併時 \_ ，SafeArray 本身會保存 [**PROPVARIANT**](/windows/win32/api/propidlbase/ns-propidlbase-propvariant) 結構。 不過，這些元素的類型必須取自上述清單，不能是 VT \_ 變異，也不能包含 vt \_ 向量、vt \_ 陣列或 vt \_ BYREF 指標。
 
@@ -206,6 +206,6 @@ VT \_ 變異
 [**StgCreatePropSetStg**](/windows/desktop/api/coml2api/nf-coml2api-stgcreatepropsetstg)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

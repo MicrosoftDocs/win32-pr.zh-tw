@@ -3,7 +3,7 @@ title: 'WM_CAP_FILE_SET_CAPTURE_FILE 訊息 (Vfw .h) '
 description: '[WM \_ CAP \_ file \_ SET \_ CAPTURE \_ file] 訊息會將用於影片捕獲的檔案命名為。 您可以使用 capFileSetCaptureFile 宏明確地傳送此訊息。'
 ms.assetid: d96e498b-6322-4d48-a5d7-156e95f23740
 keywords:
-- WM_CAP_FILE_SET_CAPTURE_FILE message Windows 多媒體
+- WM_CAP_FILE_SET_CAPTURE_FILE 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 12b3f59edfc9bf01f6bd2af3b9028f8e3315e2de
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a9435a7f0790c8ffe88f6b7ea6228bb2f442b23f5dcb15e2722e59b75c671588
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103933894"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119687018"
 ---
 # <a name="wm_cap_file_set_capture_file-message"></a>WM \_ CAP \_ file \_ SET \_ CAPTURE \_ file 訊息
 

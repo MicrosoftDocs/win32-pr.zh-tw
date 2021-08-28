@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - VmApplicationHealthMonitor.idl
-ms.openlocfilehash: b13781d26c256e41ea6685b19a3097236ebbdb91
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4e97d5d16200501d77acf8b0b02cc5562d51706fcc46298421ad7f7e8fc0dfac
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848515"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119694348"
 ---
 # <a name="ivmapplicationhealthmonitorresetallapplicationstate-method"></a>IVmApplicationHealthMonitor：： ResetAllApplicationState 方法
 
@@ -51,10 +51,10 @@ HRESULT ResetAllApplicationState();
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                                                |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                                      |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                                                |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                                                      |
 | 版本<br/>                  | Windows 8 的整合元件<br/>                                                           |
-| Idl<br/>                      | <dl> <dt>VmApplicationHealthMonitor .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>VmApplicationHealthMonitor .idl</dt> </dl> |
 
 
 

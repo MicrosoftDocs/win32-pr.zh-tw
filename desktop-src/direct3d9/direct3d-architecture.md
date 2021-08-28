@@ -4,12 +4,12 @@ ms.assetid: ed08b4c8-fdd9-46fb-a2be-c2fb15af2dc6
 title: Direct3D 架構 (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e557b7a36aadcaa8b96899047a721741ecef2156
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 9d288cbf7896b276824f358364bede519e778375d1d3f8c9915108cbfadf8486
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104109168"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119791483"
 ---
 # <a name="direct3d-architecture-direct3d-9"></a>Direct3D 架構 (Direct3D 9)
 
@@ -26,7 +26,7 @@ ms.locfileid: "104109168"
 
 
 
-| 管線元件  | Description                                                                                                                                                                                      | [相關主題]                                                                                                                                                                                             |
+| 管線元件  | 描述                                                                                                                                                                                      | [相關主題]                                                                                                                                                                                             |
 |---------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 頂點資料         | 未轉換模型頂點會儲存在頂點記憶體緩衝區中。                                                                                                                                | [ (Direct3D 9) ](vertex-buffers.md)、IDirect3DVertexBuffer9 的頂點緩衝區[ ](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dvertexbuffer9)                                                                                                |
 | 基本資料      | 幾何基本類型（包括點、線條、三角形和多邊形）會在具有索引緩衝區的頂點資料中參考。                                                                    |  (direct3d 9 的 [索引緩衝區)](index-buffers.md)、 [**IDirect3DIndexBuffer9**](/windows/desktop/api)、[基本](primitives.md)專案、[高序位的基本專案 (direct3d 9)](higher-order-primitives.md) |

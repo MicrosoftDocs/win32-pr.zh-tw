@@ -4,12 +4,12 @@ ms.assetid: BA727189-385D-4BA1-9F17-AC6ECDD20ABF
 title: 'MFSampleExtension_PhotoThumbnailMediaType 屬性 (Mfapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bb0e415fb0d3b062b4a5064006d3873cd42ea593
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 77496340d598c7caf1064df0d3fc7e1ae7f112309bf6fbba6a66f3d5516e3828
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106975598"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119713598"
 ---
 # <a name="mfsampleextension_photothumbnailmediatype-attribute"></a>MFSampleExtension \_ PhotoThumbnailMediaType 屬性
 
@@ -29,8 +29,8 @@ ms.locfileid: "106975598"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 8.1 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                |
-| 最低支援的伺服器<br/> | Windows Server 2012 R2 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                     |
+| 最低支援的用戶端<br/> | Windows 8.1 \[桌面應用程式 \| UWP 應用程式\]<br/>                                |
+| 最低支援的伺服器<br/> | Windows Server 2012R2 \[ desktop apps \| UWP 應用程式\]<br/>                     |
 | 標頭<br/>                   | <dl> <dt>Mfapi。h</dt> </dl> |
 
 

@@ -4,12 +4,12 @@ ms.assetid: 9578e60d-0339-4382-b798-2d31d2ddbe76
 title: 如何設定影片捕獲畫面播放速率
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 44e105965f5449cb7f4cab59f49410ecfb40221c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0b0e80c26c5a53a89cbc87ca509f25db1ebccf4571b4dda2e83ea63717c7d91a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106998469"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119827968"
 ---
 # <a name="how-to-set-the-video-capture-frame-rate"></a>如何設定影片捕獲畫面播放速率
 

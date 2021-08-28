@@ -1,5 +1,5 @@
 ---
-title: " (Windows 事件記錄檔的 DataType 複雜類型) "
+title: 'DataType 複雜類型 (Windows 事件記錄) '
 description: 定義資料項目。
 ms.assetid: f3b7de63-1ac1-429d-9e36-1f13c26c9618
 keywords:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 9d3ac6e545cbe8567bbe041568c442f762743ad0
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ba1fcbf217b16fb675a7a4eca00c8faa201737c07eea35a809f85617e96e9445
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104317399"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119620278"
 ---
 # <a name="datatype-complex-type"></a>DataType 複雜型別
 
@@ -64,8 +64,8 @@ ms.locfileid: "104317399"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

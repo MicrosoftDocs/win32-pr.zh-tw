@@ -5,12 +5,12 @@ ms.assetid: f529bb20-0e63-424c-8a67-d06f76233d61
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 108fe575eda95c0477a8ec8c474210633ba21bac
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: e9186c5b0f7b9bb89385b98192264306bab209850a7267421cca70b87e2ff5c4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106966244"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119683958"
 ---
 # <a name="collections-network-policy-server"></a> (網路原則伺服器的集合) 
 
@@ -29,6 +29,6 @@ ms.locfileid: "106966244"
 -   [**REMEDIATIONSERVERPROPERTIES**](/windows/desktop/api/sdoias/ne-sdoias-remediationserverproperties)
 -   [**SHVTEMPLATEPROPERTIES**](/windows/desktop/api/sdoias/ne-sdoias-shvtemplateproperties)
 
- 
+ 
 
- 
+ 

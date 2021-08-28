@@ -4,12 +4,12 @@ ms.assetid: e3a55275-e8f0-4ab7-98db-a2f2c54d5a51
 title: 教學課程：使用 WMContainer 物件讀取 ASF 檔案
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0225f434f650f0423771122e6fc345022e69ec1a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e456f9e0061be97198623c2422801b5fd9fc196874cd8aa1a467692277319c9e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106986852"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119713288"
 ---
 # <a name="tutorial-reading-an-asf-file-by-using-wmcontainer-objects"></a>教學課程：使用 WMContainer 物件讀取 ASF 檔案
 
@@ -17,8 +17,8 @@ ms.locfileid: "106986852"
 
 本教學課程包含下列步驟：
 
--   [先決條件](#prerequisites)
--   [1. 設定專案](#1-set-up-the-project)
+-   [必要條件](#prerequisites)
+-   [1. 設定 Project](#1-set-up-the-project)
 -   [2. 開啟 ASF 檔案](#2-open-an-asf-file)
 -   [3. 讀取 ASF 標頭物件](#3-read-the-asf-header-object)
 -   [4. 建立 ASF 分隔器](#4-create-the-asf-splitter)
@@ -37,7 +37,7 @@ ms.locfileid: "106986852"
 -   您已熟悉 ASF 檔案的結構以及媒體基礎提供的元件，以使用 ASF 物件。 這些元件包括 ContentInfo 物件、分隔器、多工器和設定檔。 如需詳細資訊，請參閱 [WMCONTAINER ASF 元件](wmcontainer-asf-components.md)。
 -   您已熟悉 [媒體緩衝區](media-buffers.md) 和位元組資料流程：具體而言，使用位元組資料流程的檔案作業、從位元組資料流程讀取至媒體緩衝區，以及將媒體緩衝區的內容寫入位元組資料流程。
 
-## <a name="1-set-up-the-project"></a>1. 設定專案
+## <a name="1-set-up-the-project"></a>1. 設定 Project
 
 在原始程式檔中包含下列標頭：
 

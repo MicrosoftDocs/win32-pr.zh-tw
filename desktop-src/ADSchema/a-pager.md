@@ -1,10 +1,10 @@
 ---
-title: 手機-傳呼端-主要屬性
+title: 電話-呼機-主要屬性
 description: 主要呼機號碼。
 ms.assetid: e5230e09-f76b-4d2a-b56b-d989d315f9bb
 ms.tgt_platform: multiple
 keywords:
-- 手機-傳呼端-主要屬性 AD 架構
+- 電話-呼機-主要屬性 AD 架構
 - 呼機屬性 AD 架構
 topic_type:
 - apiref
@@ -14,14 +14,14 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 883e0d519b0fabc14afbdd78fd8eb93bd29a9824
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: b1ebfa52809d53ebf42679b303ebd03fb1f4056f725f08624269c3bdcca8683a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104107627"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119647868"
 ---
-# <a name="phone-pager-primary-attribute"></a>手機-傳呼端-主要屬性
+# <a name="phone-pager-primary-attribute"></a>電話-呼機-主要屬性
 
 主要呼機號碼。
 
@@ -29,7 +29,7 @@ ms.locfileid: "104107627"
 
 | 進入 | 值 |
 |-------------------|----------------------------------------------------------------------------------|
-| CN                | 手機-呼機-主要                                                              |
+| CN                | 電話-呼機-主要                                                              |
 | Ldap-顯示名稱 | pager                                                                            |
 | 大小              | \-                                                                               |
 | 更新許可權  | 網域系統管理員或帳戶擁有者。                                           |
@@ -58,7 +58,7 @@ ms.locfileid: "104107627"
 | 連結識別碼                | \-                                                                 |
 | MAPI-Id                | 0x3A21                                                             |
 | System-Only            | 否                                                              |
-| 是-單一值       | 對                                                               |
+| 是-單一值       | 是                                                               |
 | 已編制索引             | 否                                                              |
 | 在通用類別目錄中      | 否                                                              |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                       |
@@ -79,7 +79,7 @@ ms.locfileid: "104107627"
 | 連結識別碼                | \-                                                                                                                                                       |
 | MAPI-Id                | 0x3A21                                                                                                                                                   |
 | System-Only            | 否                                                                                                                                                    |
-| 是-單一值       | 對                                                                                                                                                     |
+| 是-單一值       | 是                                                                                                                                                     |
 | 已編制索引             | 否                                                                                                                                                    |
 | 在通用類別目錄中      | 否                                                                                                                                                    |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                                                                             |
@@ -87,7 +87,7 @@ ms.locfileid: "104107627"
 | Range-Upper            | 64                                                                                                                                                       |
 | Search-Flags           | 0x00000000                                                                                                                                               |
 | System-Flags           | 0x00000010                                                                                                                                               |
-| 中使用的類別        | [**inetOrgPerson**](c-inetorgperson.md)<br/> [**Organizational-Person**](c-organizationalperson.md)<br/> [**User**](c-user.md)<br/> |
+| 中使用的類別        | [**inetOrgPerson**](c-inetorgperson.md)<br/> [**Organizational-Person**](c-organizationalperson.md)<br/> [**使用者**](c-user.md)<br/> |
 
 
 
@@ -100,7 +100,7 @@ ms.locfileid: "104107627"
 | 連結識別碼                | \-                                                                                                                                                       |
 | MAPI-Id                | 0x3A21                                                                                                                                                   |
 | System-Only            | 否                                                                                                                                                    |
-| 是-單一值       | 對                                                                                                                                                     |
+| 是-單一值       | 是                                                                                                                                                     |
 | 已編制索引             | 否                                                                                                                                                    |
 | 在通用類別目錄中      | 否                                                                                                                                                    |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                                                                             |
@@ -108,7 +108,7 @@ ms.locfileid: "104107627"
 | Range-Upper            | 64                                                                                                                                                       |
 | Search-Flags           | 0x00000000                                                                                                                                               |
 | System-Flags           | 0x00000010                                                                                                                                               |
-| 中使用的類別        | [**inetOrgPerson**](c-inetorgperson.md)<br/> [**Organizational-Person**](c-organizationalperson.md)<br/> [**User**](c-user.md)<br/> |
+| 中使用的類別        | [**inetOrgPerson**](c-inetorgperson.md)<br/> [**Organizational-Person**](c-organizationalperson.md)<br/> [**使用者**](c-user.md)<br/> |
 
 
 
@@ -121,7 +121,7 @@ ms.locfileid: "104107627"
 | 連結識別碼                | \-                                                                                                                                                       |
 | MAPI-Id                | 0x3A21                                                                                                                                                   |
 | System-Only            | 否                                                                                                                                                    |
-| 是-單一值       | 對                                                                                                                                                     |
+| 是-單一值       | 是                                                                                                                                                     |
 | 已編制索引             | 否                                                                                                                                                    |
 | 在通用類別目錄中      | 否                                                                                                                                                    |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                                                                             |
@@ -129,7 +129,7 @@ ms.locfileid: "104107627"
 | Range-Upper            | 64                                                                                                                                                       |
 | Search-Flags           | 0x00000000                                                                                                                                               |
 | System-Flags           | 0x00000010                                                                                                                                               |
-| 中使用的類別        | [**inetOrgPerson**](c-inetorgperson.md)<br/> [**Organizational-Person**](c-organizationalperson.md)<br/> [**User**](c-user.md)<br/> |
+| 中使用的類別        | [**inetOrgPerson**](c-inetorgperson.md)<br/> [**Organizational-Person**](c-organizationalperson.md)<br/> [**使用者**](c-user.md)<br/> |
 
 
 
@@ -142,7 +142,7 @@ ms.locfileid: "104107627"
 | 連結識別碼                | \-                                                                                                                                                       |
 | MAPI-Id                | 0x3A21                                                                                                                                                   |
 | System-Only            | 否                                                                                                                                                    |
-| 是-單一值       | 對                                                                                                                                                     |
+| 是-單一值       | 是                                                                                                                                                     |
 | 已編制索引             | 否                                                                                                                                                    |
 | 在通用類別目錄中      | 否                                                                                                                                                    |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                                                                             |
@@ -150,7 +150,7 @@ ms.locfileid: "104107627"
 | Range-Upper            | 64                                                                                                                                                       |
 | Search-Flags           | 0x00000000                                                                                                                                               |
 | System-Flags           | 0x00000010                                                                                                                                               |
-| 中使用的類別        | [**inetOrgPerson**](c-inetorgperson.md)<br/> [**Organizational-Person**](c-organizationalperson.md)<br/> [**User**](c-user.md)<br/> |
+| 中使用的類別        | [**inetOrgPerson**](c-inetorgperson.md)<br/> [**Organizational-Person**](c-organizationalperson.md)<br/> [**使用者**](c-user.md)<br/> |
 
 
 
@@ -163,7 +163,7 @@ ms.locfileid: "104107627"
 | 連結識別碼                | \-                                                                                                                                                       |
 | MAPI-Id                | 0x3A21                                                                                                                                                   |
 | System-Only            | 否                                                                                                                                                    |
-| 是-單一值       | 對                                                                                                                                                     |
+| 是-單一值       | 是                                                                                                                                                     |
 | 已編制索引             | 否                                                                                                                                                    |
 | 在通用類別目錄中      | 否                                                                                                                                                    |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                                                                             |

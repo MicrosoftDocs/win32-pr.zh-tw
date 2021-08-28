@@ -15,12 +15,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ec17e3303fe4af4d359279de6c5fa7aa5f34d409
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 556c2a5b7e7545038995d5091d46931352f9ee32bddfa31b91237dfa54d69620
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106968356"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119626098"
 ---
 # <a name="inapserverinfo-interface"></a>INapServerInfo 介面
 
@@ -64,9 +64,9 @@ ms.locfileid: "106968356"
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | 都不支援<br/>                                                                          |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                               |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                               |
 | 標頭<br/>                   | <dl> <dt>NapServerManagement。h</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>NapServerManagement .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>NapServerManagement .idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qsvrmgmt.dll</dt> </dl>            |
 
 

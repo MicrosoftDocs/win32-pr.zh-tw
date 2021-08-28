@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 26532c78fa829b9c2a41f715b814ee8a0f44c879
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 59bf908a2858e46f9c1e339db32d3e6e57062bc280b8223a9fcb66a527380773
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104974385"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119672638"
 ---
 # <a name="m3x2---ps"></a>m3x2-ps
 

@@ -4,12 +4,12 @@ ms.assetid: 5456392d-2557-43b6-93b7-b2ebde218d12
 title: 檔案編碼和解碼介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f73de2304f2b473a634127755ca900b99592ed63
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 6654497b0d2407666b286fb74f06a91e66834cfb963b62b7e22eb5755fa30b0a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104109897"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119639658"
 ---
 # <a name="file-encoding-and-decoding-interfaces"></a>檔案編碼和解碼介面
 

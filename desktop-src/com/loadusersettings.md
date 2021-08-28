@@ -6,12 +6,12 @@ keywords:
 - LoadUserSettings 登錄值 COM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e14282b00bc2c2d9b989e19480047f115623d55
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e4b82bd89015baa4c73c9200013e49c76523951218dfde62bbe39300eefdfe0a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103932410"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119731038"
 ---
 # <a name="loadusersettings"></a>LoadUserSettings
 
@@ -21,8 +21,8 @@ ms.locfileid: "103932410"
 
 ```
 HKEY_LOCAL_MACHINE\SOFTWARE\Classes\AppID
-   {AppID_GUID}
-      LoadUserSettings = value
+   {AppID_GUID}
+      LoadUserSettings = value
 ```
 
 ## <a name="remarks"></a>備註
@@ -31,9 +31,9 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Classes\AppID
 
 如果有 [**RunAs**](runas.md) 專案存在，就會忽略此設定。
 
- 
+ 
 
- 
+ 
 
 
 

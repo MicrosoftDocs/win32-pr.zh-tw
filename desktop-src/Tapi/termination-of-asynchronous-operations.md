@@ -4,12 +4,12 @@ ms.assetid: b26ce074-76dc-4a50-8c17-d3412c336d59
 title: 非同步作業終止
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f8ed2acb0f442e5f4f07427f0e224d7a288087d6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4d026754af75743314fbdbf7a2a3c82f9935f9b053f2a7186f095e4f452a0bdd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106998010"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119772998"
 ---
 # <a name="termination-of-asynchronous-operations"></a>非同步作業終止
 

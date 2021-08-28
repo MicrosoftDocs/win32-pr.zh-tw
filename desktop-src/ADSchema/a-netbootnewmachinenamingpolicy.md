@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6da6cb51ced16da6510f3fb85ec80e4fa641603b
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 0c6f37020f17a7ddfcfa261bbbda909cda878c3bae72147f8d2b1ff1d52fdef3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104108005"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119703308"
 ---
 # <a name="netboot-new-machine-naming-policy-attribute"></a>netboot-新增-電腦-命名原則屬性
 

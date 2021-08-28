@@ -17,12 +17,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e4956ed4dc9536ff6f7e3263071a2a477cb0f515
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 584077911faf8593e7c26aadd36ca17a0a11d82b18d1d6ade20be1f1444fedf2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103685845"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119769868"
 ---
 # <a name="win32_tsgatewayloadbalancer-class"></a>Win32 \_ TSGatewayLoadBalancer 類別
 

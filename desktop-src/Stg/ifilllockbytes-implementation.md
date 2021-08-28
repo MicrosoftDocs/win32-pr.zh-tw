@@ -6,12 +6,12 @@ keywords:
 - IFillLockBytes Strctd Stg.，執行
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c58737d02e3e6bc2511670178825aef8cbe2dcc0
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 313c095d32bf9a932062b527cd486ee518e099d8de0f0d859caf2f1143e68237
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103932183"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119663018"
 ---
 # <a name="ifilllockbytes---implementation"></a>IFillLockBytes-實
 
@@ -57,9 +57,9 @@ ms.locfileid: "103932183"
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

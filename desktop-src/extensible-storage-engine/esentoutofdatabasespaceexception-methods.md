@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102412
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 0286fef19c32fbf25cfa9367900e31cbb01b66bf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d86cbb69a3b69a3fdc2335d99ae30b3a41134df81dade267e45c8f4b90ad04cb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104565924"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119733258"
 ---
 # <a name="esentoutofdatabasespaceexception-methods"></a>EsentOutOfDatabaseSpaceException 方法
 

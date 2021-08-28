@@ -4,12 +4,12 @@ ms.assetid: f4c0869f-f147-4c2b-9418-3b407e22cb16
 title: 記錄
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c9c2d3c5ae3bd80bc0b3c0ca100155fc8efd7c71
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fe3066bb6d309ce70a790947f002e1a74eb329c862ffcb0ef2c1766ca315323f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944758"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119674998"
 ---
 # <a name="records"></a>記錄
 

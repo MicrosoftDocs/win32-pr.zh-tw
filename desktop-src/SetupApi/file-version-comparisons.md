@@ -4,12 +4,12 @@ ms.assetid: fd493b5d-7bab-4450-a749-745c536902dc
 title: 檔案版本比較
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d9601dcef07afca81a3ffc64148b0c4f2492f935
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a017549899aa43340f744b1176e7d14ce17d44d60c52b18cfbed9eae3474e99a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106985285"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119683178"
 ---
 # <a name="file-version-comparisons"></a>檔案版本比較
 

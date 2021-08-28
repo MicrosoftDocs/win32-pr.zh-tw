@@ -17,12 +17,12 @@ api_type:
 - Schema
 api_location:
 - All
-ms.openlocfilehash: 20dd1c9fb2d009de4d8d957b4d5980cc6d6ff45e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 17f0c55edceb3c5fb009f49ae97e3765ec3e0255a82f8c75e133344379c24d90
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106985490"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119640758"
 ---
 # <a name="__intervaltimerinstruction-class"></a>\_\_IntervalTimerInstruction 類別
 

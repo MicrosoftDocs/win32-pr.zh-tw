@@ -1,19 +1,19 @@
 ---
-description: 在 Windows 7 中，使用核心音訊 Api （例如媒體基礎、DirectSound 和 Wave Api）的高階平臺 Api，可處理從現有裝置切換至新的預設音訊端點的串流，來執行串流路由功能。
+description: 在 Windows 7 中，使用媒體基礎、DirectSound 和 Wave api 等核心音訊 api 的高階平臺 api，藉由處理從現有裝置切換至新的預設音訊端點來執行串流路由功能。
 ms.assetid: 4f36710c-c5a8-4f31-9b77-5253475c0715
 title: 取得串流路由的裝置端點
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7ed8c7546c2bd7437ed9705dc93c2a736bbb64e2
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: ccb45560bc8a27e4641e5d52c8fed0bee51c877dbec4d098bb5232830359f0b7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847335"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119695388"
 ---
 # <a name="getting-the-device-endpoint-for-stream-routing"></a>取得串流路由的裝置端點
 
-在 Windows 7 中，使用核心音訊 Api （例如媒體基礎、DirectSound 和 Wave Api）的高階平臺 Api，可處理從現有裝置切換至新的預設音訊端點的串流，來執行串流路由功能。 使用這些 Api 的媒體應用程式 (例如，在 [**IMMDevice**](/windows/desktop/api/Mmdeviceapi/nn-mmdeviceapi-immdevice)物件上啟用 **IDirectSound** 或 **IBaseFilter** 物件的應用程式) 使用串流路由行為，而不需要修改來源。
+在 Windows 7 中，使用媒體基礎、DirectSound 和 Wave api 等核心音訊 api 的高階平臺 api，藉由處理從現有裝置切換至新的預設音訊端點來執行串流路由功能。 使用這些 Api 的媒體應用程式 (例如，在 [**IMMDevice**](/windows/desktop/api/Mmdeviceapi/nn-mmdeviceapi-immdevice)物件上啟用 **IDirectSound** 或 **IBaseFilter** 物件的應用程式) 使用串流路由行為，而不需要修改來源。
 
 高層級 Api 會針對透過 [**IMMDeviceEnumerator：： GetDefaultAudioEndpoint**](/windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-getdefaultaudioendpoint)取得的裝置端點，執行串流路由。 如果應用程式串流至預設裝置，資料流程路由功能會如所定義運作。 如果任何其他機制抓取資料流程，即使它與預設裝置相同，資料流程也不會切換至新的裝置。
 

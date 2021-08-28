@@ -25,12 +25,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: b653fcd4576a1069a2c2d896d4e2cb58b9864ece
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7bfd69f9bdd2f80e10d163397196107c414548ccbbe23f32d19ca915487e6a90
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193992"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119728928"
 ---
 # <a name="jet_tableidequality-operator"></a>JET_TABLEID。等號比較運算子
 

@@ -4,16 +4,16 @@ description: Command 物件屬性
 ms.assetid: 731bd14b-e213-4516-82fa-a904955cb7e4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 18d4590901c3c7e967bad900191287b0e1795d8e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 57542038ac4faaa98fc6fc9dc19f8372f44bc382633cb9507299d8b5a701362f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372459"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119665768"
 ---
 # <a name="command-object-properties"></a>Command 物件屬性
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 以下是支援的 [**命令**](the-command-object.md) 屬性：
 
@@ -26,9 +26,9 @@ ms.locfileid: "104372459"
 -   [**語音**](voice-property.md)
 -   [**VoiceCaption**](voicecaption-property-c.md)
 
- 
+ 
 
- 
+ 
 
 
 

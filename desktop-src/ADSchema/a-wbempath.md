@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 06bf3628ff9f44f1a928ca88c6bb8af62f61af91
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 7aa1e8030b85941b326adbf9af2e4d4fec98ce5981c21e6670ccc9ab327b8a7d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104467146"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119644258"
 ---
 # <a name="wbem-path-attribute"></a>Wbem-Path 屬性
 

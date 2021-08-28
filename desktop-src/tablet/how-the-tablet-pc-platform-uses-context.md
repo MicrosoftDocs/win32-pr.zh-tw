@@ -4,12 +4,12 @@ ms.assetid: 74e4e4b2-6ceb-4044-84df-2fff0788267a
 title: Tablet PC 平臺如何使用內容
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dcd991a2ad8e76bb0a96ea5e41977b158cc30f5b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c586bf3ffcff8fc92b02bc0b4f5aff79c6bd0bbd66e6f048eab35a78d3be9676
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971234"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119709278"
 ---
 # <a name="how-the-tablet-pc-platform-uses-context"></a>Tablet PC 平臺如何使用內容
 
@@ -18,7 +18,7 @@ ms.locfileid: "106971234"
 -   [SetInputScope](/windows/win32/api/inputscope/nf-inputscope-setinputscope) api：適用于非啟用筆墨的應用程式和控制項的低層級程式設計方案。 應用程式的二進位檔會受到影響，而且必須重新散發。
 -   [**RecognizerCoNtext**](inkrecognizercontext-class.md)物件的「[**智慧**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_factoid)標記」和「[**單詞表**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_wordlist)」屬性：適用于應用程式的程式設計解決方案，此方案具有啟用筆墨的控制項。 應用程式的二進位檔會受到影響，而且必須重新散發。
 
-從 Windows Vista 開始已更新 Tablet PC 輸入面板，以利用您在使用 [SetInputScope](/windows/win32/api/inputscope/nf-inputscope-setinputscope) api 時所提供的內容資訊。 下表提供哪些 Microsoft 辨識引擎支援哪些輸入範圍的詳細資料。 輸入範圍的資料列中的 "X" 表示該資料行中的辨識器支援輸入範圍。
+Tablet PC 輸入面板已從 Windows Vista 開始更新，以利用您在使用[SetInputScope](/windows/win32/api/inputscope/nf-inputscope-setinputscope) api 時所提供的內容資訊。 下表提供哪些 Microsoft 辨識引擎支援哪些輸入範圍的詳細資料。 輸入範圍的資料列中的 "X" 表示該資料行中的辨識器支援輸入範圍。
 
 
 

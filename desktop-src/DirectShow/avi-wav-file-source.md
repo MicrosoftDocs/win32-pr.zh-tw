@@ -4,12 +4,12 @@ ms.assetid: b8abf5d8-ba7f-441d-beef-9f85859318d5
 title: AVI/WAV 檔案來源
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ef659d880ef570176f94ac91875291ea9d200cf5
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: de8c99de9eed21afa716c4f3ee81a5d1cc4e9731739526f7c9531c758b30a22a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106971294"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119689358"
 ---
 # <a name="aviwav-file-source"></a>AVI/WAV 檔案來源
 
@@ -25,7 +25,7 @@ AVI/WAV 檔案來源篩選器會讀取 AVI 和 WAV 來源檔案，並針對檔�
 
 <dl> <dt>
 
-[DirectShow 篩選](directshow-filters.md)
+[DirectShow過濾 器](directshow-filters.md)
 </dt> </dl>
 
  

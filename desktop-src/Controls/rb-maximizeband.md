@@ -3,7 +3,7 @@ title: 'RB_MAXIMIZEBAND 訊息 (Commctrl .h) '
 description: 將 Rebar 控制項中的寬線大小調整為理想或最大的大小。
 ms.assetid: 79fff6d0-01f2-4308-b916-38dc06dad894
 keywords:
-- RB_MAXIMIZEBAND message Windows 控制項
+- RB_MAXIMIZEBAND 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 708a8fae7c0dd8e72eea8e5acefe43ab50054592
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 13ef02fbe9611c09d1932907c8218ffd169d3e18d10e0b07faa2b63d50058af1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843924"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119770088"
 ---
 # <a name="rb_maximizeband-message"></a>RB \_ MAXIMIZEBAND 訊息
 
@@ -53,8 +53,8 @@ ms.locfileid: "103843924"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

@@ -7,12 +7,12 @@ keywords:
 - 架構介面 ADSI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f414fdea2418fb92a0a3c8c9e8bf88eb6d7f00b1
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7dfa22a32a4d93c36a7419d48ea6127c2345ffdea62686147d1ba08c41ea7992
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103931831"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119770550"
 ---
 # <a name="schema-interfaces"></a>架構介面
 
@@ -30,9 +30,9 @@ ADSI 所定義的介面可以支援提供者的特定屬性和語法。 提供�
 
 具有複雜命名空間的 ADSI 提供者元件可能會允許多個架構存在於命名空間實例中，每個都位於樹狀結構的不同部分。 不過，物件的 [**IADs：： Schema**](iads-property-methods.md) 屬性一律會命名它自己的架構定義。
 
- 
+ 
 
- 
+ 
 
 
 

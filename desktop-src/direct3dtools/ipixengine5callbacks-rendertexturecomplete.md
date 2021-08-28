@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: a30db38e9a0895bc37b5460a98d5f7e58564ef98
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 86f0c6eba327b5f00311031781ba111825cc77c1f130ced43c19f8fa543b3358
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106970503"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119623768"
 ---
 # <a name="span-idvspixengineipixengine5callbacks_rendertexturecompletespanipixengine5callbacksrendertexturecomplete-method"></a><span id="vspixengine.ipixengine5callbacks_rendertexturecomplete"></span>IPixEngine5Callbacks：： RenderTextureComplete 方法
 

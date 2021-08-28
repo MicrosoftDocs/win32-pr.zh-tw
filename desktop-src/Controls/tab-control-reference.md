@@ -1,17 +1,17 @@
 ---
-title: 'Tab (Windows 控制項) '
+title: '索引標籤 (Windows 控制項) '
 description: 本章節包含與索引標籤控制項搭配使用之程式設計項目的相關資訊。
 ms.assetid: vs|controls|~\controls\tab\reflist.htm
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5fb327f988dfee79b1af591af63a95b24c4ac6a8
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 85c4da2f0aeb05aea6bb671c395b151c7d69e2596d10a3564b8bbd8557c39877
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104464048"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119696378"
 ---
-# <a name="tab-windows-controls"></a>Tab (Windows 控制項) 
+# <a name="tab-windows-controls"></a>索引標籤 (Windows 控制項) 
 
 本章節包含與索引標籤控制項搭配使用之程式設計項目的相關資訊。
 

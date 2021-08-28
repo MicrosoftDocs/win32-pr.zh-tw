@@ -4,12 +4,12 @@ ms.assetid: 7e14a02e-4cbf-45aa-a6f5-2c53b2437127
 title: 'MFT_CONNECTED_STREAM_ATTRIBUTE 屬性 (Mftransform) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a3b182cbed78f5f9851b621de72bf691bf698b70
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2289b8f1e8d5d751f7aa69564b8bbd26d865b43efedb474529147385b1851bb0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848713"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119722564"
 ---
 # <a name="mft_connected_stream_attribute-attribute"></a>MFT \_ 連接的 \_ 資料流程 \_ 屬性屬性
 
@@ -17,11 +17,11 @@ ms.locfileid: "103848713"
 
 ## <a name="data-type"></a>資料類型
 
-**IMFAttributes \** _ 儲存為 _*IUnknown \**_
+**IMFAttributes \* *_ 儲存為 _* IUnknown\***
 
 ## <a name="getset"></a>取得/設定
 
-若要取得這個屬性，請呼叫 [_ *IMFAttributes：： GetUnknown* *](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getunknown)。
+若要取得這個屬性，請呼叫 [**IMFAttributes：： GetUnknown**](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getunknown)。
 
 若要設定這個屬性，請呼叫 [**IMFAttributes：： SetUnknown**](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-setunknown)。
 
@@ -40,7 +40,7 @@ ms.locfileid: "103848713"
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 7 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | Windows Server 2008 R2 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                           |
+| 最低支援的伺服器<br/> | WindowsServer 2008 R2 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                           |
 | 標頭<br/>                   | <dl> <dt>Mftransform。h</dt> </dl> |
 
 

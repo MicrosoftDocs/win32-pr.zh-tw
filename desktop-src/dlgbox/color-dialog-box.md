@@ -22,12 +22,12 @@ keywords:
 - 對話方塊、色彩
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4bb90150f49ea7bed4edac53af40ba89e0459946
-ms.sourcegitcommit: 56f8e4d5119e5018363fa2dc3472cdff203c6913
+ms.openlocfilehash: f2bdfb1543de80ac105d4a6012a0c95ff46cd8da1fef204ed573d14d05a6dfe9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "104553497"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119726388"
 ---
 # <a name="color-dialog-box"></a>色彩對話方塊
 

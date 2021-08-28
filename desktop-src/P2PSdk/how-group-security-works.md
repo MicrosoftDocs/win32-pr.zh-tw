@@ -4,12 +4,12 @@ ms.assetid: 3966d4eb-4504-4b1e-9c9f-6eab7751d7ed
 title: 群組安全性的運作方式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9d272e9a0567c6edc300a52cfa206305253ec5a2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0941b4bded19b914218d5c011e8696cdd9c92612a493954dc5dd45d91e59006a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103849309"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119675208"
 ---
 # <a name="how-group-security-works"></a>群組安全性的運作方式
 

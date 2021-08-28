@@ -1,21 +1,21 @@
 ---
 title: 受監視的副檔名
-description: 延伸模組是由 Windows Vista 和更新版本中的系統還原所監視。
+description: 擴充功能受系統還原 Windows Vista 和更新版本中的監視。
 ms.assetid: 19e509fa-58b2-48bb-ac23-269818482e6f
 keywords:
 - 系統還原、參考、受監視的副檔名
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c6999d421f7c08b4369ddbf81a4d370ebf507021
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c12530fb48dba4c3f0cd3c26631682e065f14fb85dc302269a6337f5eff2ede7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840063"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119774148"
 ---
 # <a name="monitored-file-name-extensions"></a>受監視的副檔名
 
-以下是受監視副檔名的清單。 具有這些副檔名的檔案是由 Windows Vista 和更新版本中的系統還原所監視。 在 Windows XP 中監視或排除的檔案，是在檔案% windir% \\ system32 還原Filelist.xml 中指定 \\ 的 \\ 。 檔案 Filelist.xml 不存在於 Windows Vista 和更新版本中。
+以下是受監視副檔名的清單。 具有這些副檔名的檔案會受到系統還原 Windows Vista 和更新版本中的監視。 在 Windows XP 中監視或排除的檔案，會在檔案% windir% \\ system32 還原Filelist.xml 中指定 \\ \\ 。 檔案 Filelist.xml 不存在 Windows Vista 和更新版本中。
 
 
 
@@ -32,42 +32,42 @@ ms.locfileid: "103840063"
 8BY<br />
 8LI<br />
 A2A<br />
-Aas<br />
+AAS<br />
 AAX<br />
 反導<br />
 ABR<br />
-Acf<br />
-Acg<br />
+ACF<br />
+ACG<br />
 ACO<br />
 ACS<br />
 ADK<br />
 ADW<br />
 ADX<br />
-Afm<br />
+AFM<br />
 援助<br />
 AIP<br />
 ALT<br />
 AM<br />
 AMB<br />
-Apl<br />
-Apm<br />
+APL<br />
+APM<br />
 APP<br />
 APV<br />
 AR<br />
-Arx<br />
+ARX<br />
 AS<br />
 AT<br />
-Atc<br />
+ATC<br />
 ATL<br />
 ATM<br />
-Atn<br />
+ATN<br />
 AW<br />
 AWE<br />
 AWX<br />
 斧頭<br />
 B0<br />
 蝙蝠<br />
-Bcf<br />
+BCF<br />
 BD<br />
 BDR<br />
 BE<br />
@@ -88,38 +88,38 @@ BPX<br />
 BT<br />
 BTN<br />
 BUC<br />
-Cag<br />
+CAG<br />
 草<br />
 貓<br />
-Cbs<br />
+CBS<br />
 CC<br />
 CF<br />
-Cfg<br />
+CFG<br />
 CHA<br />
-Cik<br />
+CIK<br />
 CL<br />
 CLW<br />
 CLX<br />
 克萊<br />
 CMD<br />
-Cnt<br />
-Cnv<br />
+CNT<br />
+CNV<br />
 行列<br />
 COM<br />
-Cpb<br />
+CPB<br />
 CPL<br />
 CQM<br />
 CR<br />
 CRL<br />
-Crs<br />
+CRS<br />
 CRV<br />
 CS<br />
 CSB<br />
-Csi<br />
-Csl<br />
+CSI<br />
+CSL<br />
 CSW<br />
-Ctb<br />
-Ctg<br />
+CTB<br />
+CTG<br />
 CTY<br />
 CUS<br />
 CW_<br />
@@ -135,8 +135,8 @@ DB1<br />
 DB2<br />
 DC2<br />
 DCA<br />
-Dcf<br />
-Dci<br />
+DCF<br />
+DCI<br />
 </dl></td>
 <td><dl> DCL<br />
 DDB<br />
@@ -155,22 +155,22 @@ DLL<br />
 DOB<br />
 DOS<br />
 剛果民主共和國<br />
-Drs<br />
+DRS<br />
 WINSPOOL.DRV<br />
 DS<br />
 DSC<br />
-Dsk<br />
+DSK<br />
 DSN<br />
-Dsr<br />
+DSR<br />
 DSX<br />
 DT<br />
 DTT<br />
 墩<br />
-Dvb<br />
-Dwt<br />
+DVB<br />
+DWT<br />
 DXT<br />
 DYNCMD<br />
-Ecf<br />
+ECF<br />
 伊芙<br />
 EFM<br />
 開齋節<br />
@@ -180,7 +180,7 @@ END<br />
 ENU<br />
 ENV<br />
 EOT<br />
-Epf<br />
+EPF<br />
 ET<br />
 EX_<br />
 EXA<br />
@@ -188,29 +188,29 @@ EXA<br />
 EXE<br />
 EXL<br />
 F32<br />
-Fae<br />
-Fam<br />
+FAE<br />
+FAM<br />
 FAS<br />
 FFP<br />
 FIN<br />
 FIO<br />
 FLL<br />
 FLW<br />
-Fmc<br />
+FMC<br />
 FMP<br />
 FNT<br />
 FON<br />
 FSG<br />
-Fss<br />
-Gcs<br />
+FSS<br />
+GCS<br />
 GDB<br />
 GI_<br />
-Gms<br />
+GMS<br />
 GNG<br />
 GPD<br />
 GS<br />
 GSF<br />
-Gst<br />
+GST<br />
 GUIATN<br />
 GUICMD<br />
 GVT<br />
@@ -236,19 +236,19 @@ HTZ<br />
 HU<br />
 HWL<br />
 HYP<br />
-Iat<br />
-Ibd<br />
-Icd<br />
-Icm<br />
+IAT<br />
+IBD<br />
+ICD<br />
+ICM<br />
 ICO<br />
-Icr<br />
+ICR<br />
 ICW<br />
 識別碼<br />
-Id<br />
-Ifa<br />
+ID<br />
+IFA<br />
 ILF<br />
 ILG<br />
-Ilm<br />
+ILM<br />
 IN_<br />
 包括<br />
 INF<br />
@@ -282,9 +282,9 @@ L2P<br />
 LAB<br />
 LAM<br />
 LAST<br />
-Lca<br />
+LCA<br />
 LCK<br />
-Lda<br />
+LDA<br />
 萊 克 斯<br />
 LGC<br />
 LGD<br />
@@ -297,7 +297,7 @@ LIVEREG<br />
 LLI<br />
 LMC<br />
 LMG<br />
-Lmp<br />
+LMP<br />
 .LNK<br />
 LO ~<br />
 LRD<br />
@@ -314,11 +314,11 @@ M20<br />
 清單<br />
 MAPIMAIL<br />
 MC<br />
-Mcd<br />
+MCD<br />
 MCM<br />
 MD2<br />
 MDM<br />
-Mdp<br />
+MDP<br />
 ME<br />
 MFL<br />
 MHK<br />
@@ -330,18 +330,18 @@ MMX<br />
 MNC<br />
 MNL<br />
 MNR<br />
-Mns<br />
+MNS<br />
 MOF<br />
 鐵道部<br />
 MP<br />
-Mpd<br />
+MPD<br />
 郵電部<br />
 MSB<br />
 MSC<br />
-Mse<br />
+MSE<br />
 MSI<br />
-Mst<br />
-Msk<br />
+MST<br />
+MSK<br />
 MSO<br />
 MXT<br />
 MYDOCS<br />
@@ -352,7 +352,7 @@ NDX<br />
 NEW<br />
 .NFO<br />
 筆尖<br />
-Nmd<br />
+NMD<br />
 點頭<br />
 NPM<br />
 NQM<br />
@@ -361,12 +361,12 @@ NSI<br />
 NSW<br />
 超過<br />
 NU4<br />
-Num<br />
+NUM<br />
 NUS<br />
 NV<br />
-Obe<br />
+OBE<br />
 OCM<br />
-Ocx<br />
+OCX<br />
 NODE.JS<br />
 ODL<br />
 </dl></td>
@@ -376,17 +376,17 @@ OLE<br />
 主管<br />
 OPG<br />
 OR5<br />
-Osd<br />
+OSD<br />
 OUT<br />
 P2A<br />
-Pag<br />
+PAG<br />
 PBC<br />
 .PBK<br />
 PBV<br />
 PC3<br />
 PCI<br />
-Pdi<br />
-Pdr<br />
+PDI<br />
+PDR<br />
 PEN<br />
 PER<br />
 PFB<br />
@@ -401,18 +401,18 @@ PL3<br />
 層<br />
 PMT<br />
 PNF<br />
-Poc<br />
-Pof<br />
+POC<br />
+POF<br />
 油料<br />
-Ppd<br />
+PPD<br />
 PR4<br />
 PROPERTIES<br />
 PRX<br />
-Psc<br />
-Psf<br />
+PSC<br />
+PSF<br />
 PSP<br />
 PT<br />
-Pth<br />
+PTH<br />
 PTX<br />
 PV<br />
 Q0<br />
@@ -420,8 +420,8 @@ Q32<br />
 Q3X<br />
 QDAT<br />
 QJF<br />
-Qrs<br />
-Qtc<br />
+QRS<br />
+QTC<br />
 QTD<br />
 QTW<br />
 雀<br />
@@ -432,9 +432,9 @@ R98<br />
 RAD<br />
 大 鼠<br />
 RC2<br />
-Rcp<br />
-Rct<br />
-Rdb<br />
+RCP<br />
+RCT<br />
+RDB<br />
 RDC<br />
 REF<br />
 註冊<br />
@@ -444,61 +444,61 @@ RI<br />
 RJS<br />
 RO<br />
 搶<br />
-Rpr<br />
+RPR<br />
 RPS<br />
 RSD<br />
 RSP<br />
 .RSRC<br />
-Rta<br />
-Rtr<br />
+RTA<br />
+RTR<br />
 RU<br />
 S98<br />
 SAM<br />
 SAX<br />
 SCK<br />
-Scr<br />
+SCR<br />
 南海<br />
 安全性<br />
 SELFREG<br />
-Sfp<br />
+SFP<br />
 SG<br />
 SG0<br />
 SG1<br />
 共用<br />
-Shr<br />
+SHR<br />
 SHX<br />
-Sif<br />
+SIF<br />
 SK<br />
 SLL<br />
-Smc<br />
-Smm<br />
-Snp<br />
+SMC<br />
+SMM<br />
+SNP<br />
 T<br />
 SPC<br />
-Spe<br />
-Spm<br />
-Spt<br />
+SPE<br />
+SPM<br />
+SPT<br />
 SPX<br />
 SR<br />
-Src<br />
+SRC<br />
 SRG<br />
-Srt<br />
-Ssm<br />
-Sst<br />
+SRT<br />
+SSM<br />
+SST<br />
 </dl></td>
 <td><dl> ST4<br />
 機上盒<br />
 性病<br />
 STF<br />
-Stp<br />
+STP<br />
 SWB<br />
 SYM<br />
-Syn<br />
+SYN<br />
 SYS<br />
 T32<br />
 標記<br />
 TB<br />
-Tdf<br />
+TDF<br />
 二四<br />
 ，<br />
 THK<br />
@@ -506,8 +506,8 @@ THK<br />
 TID<br />
 領帶<br />
 秘訣<br />
-Tlb<br />
-Tld<br />
+TLB<br />
+TLD<br />
 TLF<br />
 TLT<br />
 TLU<br />
@@ -515,12 +515,12 @@ TLX<br />
 TMC<br />
 TNL<br />
 TOL<br />
-Tpa<br />
+TPA<br />
 TR<br />
 TRE<br />
 .TRG<br />
 TRO<br />
-Tsk<br />
+TSK<br />
 TSP<br />
 TTF<br />
 TTS<br />
@@ -550,8 +550,8 @@ UNT<br />
 US<br />
 USA<br />
 USERPROFILE<br />
-Usp<br />
-Usr<br />
+USP<br />
+USR<br />
 UTX<br />
 V10<br />
 .VBS<br />
@@ -570,15 +570,15 @@ VPH<br />
 VPX<br />
 VQA<br />
 VQM<br />
-Vsc<br />
+VSC<br />
 VSH<br />
 VWP<br />
-Vxd<br />
+VXD<br />
 W32.slammer<br />
 W98<br />
 WA_<br />
 WBD<br />
-Wbm<br />
+WBM<br />
 WCD<br />
 WDL<br />
 WDS<br />
@@ -586,7 +586,7 @@ WINSYS<br />
 WIPEINFO<br />
 WIPESLACK<br />
 WMZ<br />
-Wpc<br />
+WPC<br />
 WPX<br />
 WRF<br />
 WSL<br />
@@ -597,7 +597,7 @@ XMX<br />
 XRS<br />
 XTU<br />
 ZFSENDTOTARGET<br />
-Zh<br />
+ZH<br />
 ZH_TW<br />
 ZRW<br />
 </dl></td>
@@ -607,11 +607,11 @@ ZRW<br />
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,16 +4,16 @@ ms.assetid: 0182461a-df06-46ea-a9c2-7aedbde5033b
 title: 位置 API
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c3e9dccf5f88da1c608cfbc03898899f171a2627
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 19850dc1f85b227f2a5c9e03d9e0130b70c42d38e7ca0bee6308f9963042c613
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108110886"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119693108"
 ---
 # <a name="location-api"></a>位置 API
 
-\[Win32 位置 API，並可在 [需求] 區段中指定的作業系統中使用。 它在後續版本中可能會變更或無法使用。 相反地，請使用 [**Windows. 地理位置**](/uwp/api/Windows.Devices.Geolocation) API。 若要從網站存取位置，請使用 [W3C 地理位置 API](/previous-versions/windows/internet-explorer/ie-developer/samples/gg589513(v=vs.85))。 \]
+\[Win32 位置 API，並可在 [需求] 區段中指定的作業系統中使用。 它在後續版本中可能會變更或無法使用。 請改用 [**Windows。裝置。地理位置**](/uwp/api/Windows.Devices.Geolocation)API。 若要從網站存取位置，請使用 [W3C 地理位置 API](/previous-versions/windows/internet-explorer/ie-developer/samples/gg589513(v=vs.85))。 \]
 
 ## <a name="purpose"></a>目的
 
@@ -26,11 +26,11 @@ ms.locfileid: "108110886"
 -   受限於已知、垂直硬體解決方案的程式設計。
 -   執行邏輯以處理不同位置提供者之間的轉換，例如 GPS 接收器、連線的網路、行動電話通訊網路、網際網路和使用者設定。
 
-本檔說明 (API) 的 Windows 位置應用程式設計介面。 位置 API 可提供一種標準方式來取得使用者位置的相關資料，並將位置資料包表的格式標準化，有助於簡化定位感知程式設計。 位置 API 會自動處理位置資料提供者之間的轉換，而且一律會為目前的情況選擇最準確的提供者。
+本檔說明 (API) 的 Windows 位置應用程式開發介面。 位置 API 可提供一種標準方式來取得使用者位置的相關資料，並將位置資料包表的格式標準化，有助於簡化定位感知程式設計。 位置 API 會自動處理位置資料提供者之間的轉換，而且一律會為目前的情況選擇最準確的提供者。
 
 ## <a name="developer-audience"></a>開發人員對象
 
-位置 API 會透過一組 COM 介面提供其功能。 您可以透過 c + + 程式設計語言，或在指令碼語言（如 Microsoft JScript）中使用 COM 物件的程式設計人員，使用位置 API 功能。
+位置 API 會透過一組 COM 介面提供其功能。 您可以透過 c + + 程式設計語言，或在指令碼語言中使用 COM 物件（例如 Microsoft JScript）熟悉使用 COM 的程式設計人員來使用位置 API 功能。
 
 ## <a name="in-this-section"></a>本節內容
 

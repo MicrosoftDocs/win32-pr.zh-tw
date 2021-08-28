@@ -3,7 +3,7 @@ title: 'PSM_ENABLEWIZBUTTONS 訊息 (Prsht.idl .h) '
 description: 啟用或停用 Aero wizard 中的任何標準按鈕。 您可以明確地傳送此訊息，或使用 PropSheet \_ EnableWizButtons 宏。
 ms.assetid: 9e8ff2dc-c0e7-4754-8be2-2c7b65a524f4
 keywords:
-- PSM_ENABLEWIZBUTTONS message Windows 控制項
+- PSM_ENABLEWIZBUTTONS 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 01fb30fa3337aed369c2cd24a1296785bd6b3a79
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a677b596e57a55271224f5b22baac5d979e2806c20676065457aa47b8a66e527
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934626"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119825869"
 ---
 # <a name="psm_enablewizbuttons-message"></a>PSM \_ ENABLEWIZBUTTONS 訊息
 
@@ -67,8 +67,8 @@ ms.locfileid: "103934626"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                     |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                               |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                     |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                               |
 | 標頭<br/>                   | <dl> <dt>Prsht.idl。h</dt> </dl> |
 
 

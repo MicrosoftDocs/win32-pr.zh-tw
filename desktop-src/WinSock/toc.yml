@@ -1,4 +1,4 @@
-- name: Windows 通訊端2
+- name: Windows通訊端2
   href: windows-sockets-start-page-2.md
   items:
     - name: Windows 通訊端的新功能
@@ -11,7 +11,7 @@
         - name: Winsock 程式設計考慮
           href: winsock-programming-considerations.md
           items:
-            - name: Windows 通訊端2架構
+            - name: Windows通訊端2架構
               href: windows-sockets-2-architecture-2.md
             - name: 通訊端控制碼
               href: socket-handles-2.md
@@ -19,7 +19,7 @@
               href: scatter-gather-i-o-2.md
             - name: Protocol-Independent 多播和 Multipoint
               href: protocol-independent-multicast-and-multipoint-2.md
-            - name: 服務品質的流程規格
+            - name: Flow規格服務品質
               href: flow-specification-quality-of-service-2.md
             - name: Provider-Specific 擴充機制
               href: provider-specific-extension-mechanism-2.md
@@ -33,12 +33,12 @@
               href: protocol-independent-out-of-band-data-2.md
             - name: Debug 和 Trace 設備
               href: debug-and-trace-facilities-2.md
-            - name: Windows 通訊端相容性問題
+            - name: Windows通訊端相容性問題
               href: windows-sockets-compatibility-issues-2.md
               items:
                 - name: 通訊端之重迭屬性的預設狀態
                   href: default-state-for-a-socket-s-overlapped-attribute-2.md
-                - name: Windows 通訊端1.1 封鎖常式和 EINPROGRESS
+                - name: Windows通訊端1.1 封鎖常式和 EINPROGRESS
                   href: windows-sockets-1-1-blocking-routines-and-einprogress-2.md
             - name: 處理 Winsock 錯誤
               href: handling-winsock-errors.md
@@ -72,7 +72,7 @@
                   href: summary-of-name-resolution-functions-2.md
                 - name: 名稱解析資料結構
                   href: name-resolution-data-structures-2.md
-            - name: Windows 通訊端 1.1 API 中 TCP/IP 的相容名稱解析
+            - name: Windows 通訊端 1.1 API 中的 tcp/ip 相容名稱解析
               href: compatible-name-resolution-for-tcp-ip-in-the-windows-sockets-1-1-api-2.md
               items:
                 - name: API 中的 GetXbyY 基本方法
@@ -92,7 +92,7 @@
           items:
             - name: Multipoint 分類法
               href: multipoint-taxonomy-2.md
-            - name: 適用于 Multipoint 和多播的 Windows 通訊端2介面元素
+            - name: Windows適用于 Multipoint 和多播的通訊端2介面元素
               href: windows-sockets-2-interface-elements-for-multipoint-and-multicast-2.md
               items:
                 - name: WSAPROTOCOL_INFO 結構中的屬性
@@ -232,7 +232,7 @@
                       items:
                         - name: 選擇
                           href: selects-2.md
-                        - name: Windows 訊息
+                        - name: Windows消息
                           href: windows-messages-2.md
                         - name: 事件物件信號
                           href: event-object-signaling-2.md
@@ -261,7 +261,7 @@
                       items:
                         - name: 系結至本機位址
                           href: binding-to-a-local-address-2.md
-                        - name: 通訊協定基本概念：接聽、連接、接受
+                        - name: 通訊協定基本概念：接聽、連線、接受
                           href: protocol-basics-listen-connect-accept-2.md
                         - name: 判斷本機和遠端名稱
                           href: determining-local-and-remote-names-2.md
@@ -340,7 +340,7 @@
                       items:
                         - name: 一般資料傳輸函數
                           href: generic-data-transport-functions-2.md
-                        - name: 由 Windows 通訊端 2 DLL 公開的 Upcalls
+                        - name: Windows 通訊端 2 DLL 公開的 Upcalls
                           href: upcalls-exposed-by-windows-sockets-2-dll-2.md
                         - name: 安裝和設定功能
                           href: installation-and-configuration-functions-2.md
@@ -385,7 +385,7 @@
                               href: query-related-data-structures-in-the-spi-2.md
                             - name: SPI 中的服務類別資料結構
                               href: service-class-data-structures-in-the-spi-2.md
-                    - name: Windows 通訊端 1.1 SPI 中 TCP/IP 的相容名稱解析
+                    - name: Windows 通訊端 1.1 SPI 中的 tcp/ip 相容名稱解析
                       href: compatible-name-resolution-for-tcp-ip-in-the-windows-sockets-1-1-spi-2.md
                       items:
                         - name: SPI 中的 GetXbyY 基本方法
@@ -484,7 +484,7 @@
               href: byte-ordering-2.md
             - name: 擴充 Byte-Order 轉換常式
               href: extended-byte-order-conversion-routines-2.md
-        - name: 適用于 Windows 通訊端應用程式的 IPv6 指南
+        - name: Windows 通訊端應用程式的 IPv6 指南
           href: ipv6-guide-for-windows-sockets-applications-2.md
           items:
             - name: 變更 IPv6 Winsock Html5 應用程式的資料結構
@@ -515,7 +515,7 @@
                   href: ipv6-enabled-client-code-2.md
                 - name: IPv6-Enabled 伺服器程式碼
                   href: ipv6-enabled-server-code-2.md
-        - name: 高效能的 Windows 通訊端應用程式
+        - name: 高效能 Windows 通訊端應用程式
           href: high-performance-windows-sockets-applications-2.md
           items:
             - name: 網路術語
@@ -1550,5 +1550,5 @@
                   href: /windows/win32/api/Ws2spi/ns-ws2spi-wspproc_table
                 - name: WSPUPCALLTABLE
                   href: /windows/win32/api/Ws2spi/ns-ws2spi-wspupcalltable
-        - name: Windows 通訊端錯誤碼
+        - name: Windows通訊端錯誤碼
           href: windows-sockets-error-codes-2.md

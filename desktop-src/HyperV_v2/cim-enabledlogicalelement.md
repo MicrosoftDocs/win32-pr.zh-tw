@@ -20,12 +20,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 9e2d7043653b219bc0d54ac7bee3393275dab673
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6529270946543d19fe79ea529f4fa88ef1f9055b20f350887061e84901b28139
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106974300"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119695928"
 ---
 # <a name="cim_enabledlogicalelement-class"></a>CIM \_ EnabledLogicalElement 類別
 

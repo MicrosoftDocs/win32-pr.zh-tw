@@ -4,12 +4,12 @@ ms.assetid: 4872af0d-42e8-4576-9aa9-4b8671375f2e
 title: 移動和取代檔案
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7d7f08d2bd8d07645076620e839d7d12f5969502
-ms.sourcegitcommit: 3d9dce1bd6c84e2b51759e940aa95aa9b459cd20
+ms.openlocfilehash: 35c78085865006d1dfbbe322239c4704d215d038897b81d1f139d66d06f65bbc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "106988531"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119696008"
 ---
 # <a name="moving-and-replacing-files"></a>移動和取代檔案
 

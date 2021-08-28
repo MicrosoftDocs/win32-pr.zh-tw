@@ -4,12 +4,12 @@ ms.assetid: 7ad73444-f1f6-4b73-8450-0580b146a5a6
 title: 'WM_QUERYENDSESSION 訊息 (WinUser .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ff2e2f82388b229523f371c680d6ccc7c4b1e27f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f6807a861ffb0670013a1d1f5b98a2f202e5d7470a6c306b3ed29c42baad6e6f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106987390"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119664208"
 ---
 # <a name="wm_queryendsession-message"></a>WM \_ QUERYENDSESSION 訊息
 
@@ -87,7 +87,7 @@ LRESULT CALLBACK WindowProc(
 
 當應用程式針對此訊息傳回 **TRUE** 時，不論其他應用程式如何回應 **wm \_ QUERYENDSESSION** 訊息，它都會收到 [**WM \_ ENDSESSION**](wm-endsession.md)訊息。 每個應用程式在收到此訊息時，都應該立即傳回 **TRUE** 或 **FALSE** ，並延遲任何清除作業，直到接收到 **WM \_ ENDSESSION** 訊息為止。
 
-應用程式可以顯示使用者介面，以在關機時提示使用者輸入資訊，不過不建議這麼做。 五秒後，系統會顯示導致關機的應用程式相關資訊，並允許使用者將其終止。 例如，Windows XP 會顯示一個對話方塊，而 Windows Vista 會顯示全螢幕，內含應用程式封鎖關機的其他相關資訊。 如果您的應用程式必須封鎖或延遲系統關機，請使用 [**ShutdownBlockReasonCreate**](/windows/desktop/api/Winuser/nf-winuser-shutdownblockreasoncreate) 函數。 如需詳細資訊，請參閱 [Windows Vista 的關機變更](shutdown-changes-for-windows-vista.md)。
+應用程式可以顯示使用者介面，以在關機時提示使用者輸入資訊，不過不建議這麼做。 五秒後，系統會顯示導致關機的應用程式相關資訊，並允許使用者將其終止。 例如，Windows XP 會顯示一個對話方塊，而 Windows Vista 會顯示全螢幕，內含應用程式封鎖關機的其他相關資訊。 如果您的應用程式必須封鎖或延遲系統關機，請使用 [**ShutdownBlockReasonCreate**](/windows/desktop/api/Winuser/nf-winuser-shutdownblockreasoncreate) 函數。 如需詳細資訊，請參閱[Windows Vista 的關機變更](shutdown-changes-for-windows-vista.md)。
 
 主控台應用程式可以使用 [**SetConsoleCtrlHandler**](/windows/console/setconsolectrlhandler) 函式來接收關機通知。
 
@@ -103,9 +103,9 @@ LRESULT CALLBACK WindowProc(
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows XP \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                                       |
-| 最低支援的伺服器<br/> | Windows Server 2003 \[ desktop app \| UWP 應用程式\]<br/>                                              |
-| 標頭<br/>                   | <dl> <dt>WinUser (包含) 的 Windows。h </dt> </dl> |
+| 最低支援的用戶端<br/> | WindowsXP \[ desktop apps \| UWP 應用程式\]<br/>                                                       |
+| 最低支援的伺服器<br/> | WindowsServer 2003 \[ desktop app \| UWP 應用程式\]<br/>                                              |
+| 標頭<br/>                   | <dl> <dt>WinUser (包含 Windows .h) </dt> </dl> |
 
 
 

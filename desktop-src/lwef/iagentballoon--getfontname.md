@@ -4,16 +4,16 @@ description: IAgentBalloon GetFontName
 ms.assetid: 7d057571-bb6e-4b79-bc4a-5691779ace51
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 73f29ad981fb4b10249b17e55c92fb286552eedc
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 08cb0bceae040f9261d2530b19d074df937dbdaf80d91a27f57b5cf9c1fd8f89
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372600"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119725314"
 ---
 # <a name="iagentballoongetfontname"></a>IAgentBalloon::GetFontName
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 ``` syntax
 HRESULT GetFontName(
@@ -36,9 +36,9 @@ HRESULT GetFontName(
 
 在「Microsoft 代理程式字元編輯器」中定義字元字提示字元中使用的預設字型。 您可以使用 [**IAgentBalloon：： SetFontName**](https://www.bing.com/search?q=**IAgentBalloon::SetFontName**)來變更它。 使用者可以使用 Microsoft Agent 屬性工作表覆寫所有字元的字型設定。
 
- 
+ 
 
- 
+ 
 
 
 

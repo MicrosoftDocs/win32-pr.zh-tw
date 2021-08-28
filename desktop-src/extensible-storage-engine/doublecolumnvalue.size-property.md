@@ -25,12 +25,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 0f3f2951f697c3091fa3f31893e4bf2b5ade8c88
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a26ba5c16ef3007cebece98b55c39afde8fb0f0292bd260074c9a7f649f582cb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980652"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119623518"
 ---
 # <a name="doublecolumnvaluesize-property"></a>DoubleColumnValue. Size 屬性
 

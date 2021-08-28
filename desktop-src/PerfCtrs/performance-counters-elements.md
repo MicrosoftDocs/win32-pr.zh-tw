@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 6c074bdbf31bf835cfba9201f0c1a153a6c7e84d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c008bd0d5fe85ee0d662b0896348be24e4db1497b2d5f0656f50c67ca0499e95
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106984200"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119625038"
 ---
 # <a name="performance-counters-elements"></a>效能計數器元素
 
